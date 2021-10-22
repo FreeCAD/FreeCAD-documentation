@@ -14,7 +14,8 @@
 
 La **Std Vue de l\'arrière** place la caméra dans la [vue 3D](3D_view/fr.md) dans la direction de l\'axe des Y négatifs.
 
-![](images/FreeCAD_views_rear.svg ) *La flèche 4 pointe dans le sens de la vue arrière*
+![](images/FreeCAD_views_rear.svg ) 
+*La flèche 4 pointe dans le sens de la vue arrière*
 
 ## Utilisation
 

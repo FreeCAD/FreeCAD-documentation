@@ -31,7 +31,8 @@ Narzędzie wzorca kołowego przyjmuje wybrany element i tworzy zestaw kopii obr�
 
 #### Cechy szczególne 
 
-![](images/PartDesign_feature-order.gif ) *Efekty kolejności występowania elementów*
+![](images/PartDesign_feature-order.gif ) 
+*Efekty kolejności występowania elementów*
 
 
 {{Version/pl|0.19}}

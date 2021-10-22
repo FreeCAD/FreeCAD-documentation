@@ -18,6 +18,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width:800px;">
 
 
+
 *Drawing and dimensioning of reinforcing bars*
 
 ## Utilização

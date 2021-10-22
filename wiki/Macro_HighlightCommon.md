@@ -4,8 +4,8 @@
 |Icon=Macro_HighlightCommon.png
 |Description=Highlight common parts by showing the common shape in red and setting half-transparency on original parts (the original objects are not modified)
 |Author=JMG
-|Version=1.0
-|Date=2015-09-24
+|Version=2.3.2
+|Date=2021-07-01
 |FCVersion=0.17 and above
 |Download=[https://www.freecadweb.org/wiki/images/8/85/Macro_HighlightCommon.png ToolBar Icon]
 }}
@@ -16,7 +16,8 @@ Highlight common parts by showing the common shape in red and setting half-trans
 
  
 
-![](images/Captura_de_pantalla_de_2015-09-10_11-17-30.png ) *Volume common of objects selected*
+![](images/Captura_de_pantalla_de_2015-09-10_11-17-30.png ) 
+*Volume common of objects selected*
 
 ## Script
 

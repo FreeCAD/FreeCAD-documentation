@@ -47,6 +47,7 @@ Se si desidera produrre una sola vista, non conviene utilizzare Gruppo di proiez
 <div class="mw-translate-fuzzy">
 
 
+
 *Finestra di dialogo delle azioni del gruppo di proiezioni. Il campo centrale indica la direzione corrente della vista con le percentuali degli assi x, y e z.*
 
 

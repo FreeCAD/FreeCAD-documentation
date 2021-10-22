@@ -23,7 +23,8 @@ Vous vous exercerez à :
 -   en modifiant leur [placement](placement/fr.md)
 -   au moyen d\'opérations booléennes
 
-![](images/10_T03_Part_ball_fillet.png ) *Modèle terminé de la balle à trous*
+![](images/10_T03_Part_ball_fillet.png ) 
+*Modèle terminé de la balle à trous*
 
 ## Installation
 
@@ -72,7 +73,8 @@ Vous vous exercerez à :
 :   5.1. Sélectionnez `Cube001`, le plus petit cube, dans la [Vue en arborescence](Tree_view/fr.md) et changez la couleur. Dans l\'onglet **View**, cliquez sur la valeur **Shape Color** pour ouvrir la boîte de dialogue **Select color**, puis choisissez une couleur verte; modifiez également la valeur de **Line Width** en `2.0`.
 :   5.2. Sélectionnez `Cube`, le plus grand cube, dans la [Vue en arborescence](Tree_view/fr.md) et modifiez la transparence. Dans l\'onglet **View**, modifiez la valeur de **Transparency** en `70`.
 
-![](images/01_T03_Part_cubes_visibility.png ) *Cube solide à l'intérieur d'un autre cube solide*
+![](images/01_T03_Part_cubes_visibility.png ) 
+*Cube solide à l'intérieur d'un autre cube solide*
 
 ## Insérer des cylindres primitifs 
 
@@ -115,7 +117,8 @@ Vous vous exercerez à :
 :   9.4. Sélectionnez `Cylinder002`, dans l\'onglet **View**, cliquez sur la valeur **Shape Color** pour ouvrir la boîte de dialogue **Select color**, puis choisissez une couleur rose .
 :   9.5. Sélectionnez les trois cylindres, dans l\'onglet **View** changez également la valeur de **Line Width** en `2.0`.
 
-![](images/02_T03_Part_cylinders_visibility.png ) *Cylindres solides qui se croisent et les cubes solides.*
+![](images/02_T03_Part_cylinders_visibility.png ) 
+*Cylindres solides qui se croisent et les cubes solides.*
 
 ## Union et Soustraction 
 
@@ -129,7 +132,8 @@ Vous vous exercerez à :
     **Remarque:**l\'ordre dans lequel vous sélectionnez les objets est important pour l\'opération de soustraction. L\'objet de base est sélectionné en premier et l\'objet de soustraction vient à la fin.
 :   11.3. Si les couleurs semblent étranges, sélectionnez le nouvel objet `Cut`, allez dans l\'onglet **View**, cliquez sur la valeur **Shape Color** pour ouvrir la **Select color**, puis choisissez une couleur grise; modifiez également la valeur de **Line Width** en `2.0`.
 
-![](images/03_T03_Part_cube_cut.png ) *Forme creuse produite en coupant un cube et trois cylindres à partir d'un plus gros cube.*
+![](images/03_T03_Part_cube_cut.png ) 
+*Forme creuse produite en coupant un cube et trois cylindres à partir d'un plus gros cube.*
 
 ## Insérer des cubes primitifs pour couper les coins du solide partiel 
 
@@ -170,7 +174,8 @@ Nous dupliquerons à nouveau les deux objets précédents pour les utiliser à n
 :   16.1. Sélectionnez l\'objet `Cut`, dans l\'onglet **View**, cliquez sur la valeur **Shape Color** pour ouvrir la boîte de dialogue **Select color**, puis choisissez un couleur bleue.
 :   16.2. Sélectionnez tous les nouveaux cubes, `Cube002`, `Cube003`, `Cube004` et `Cube005`, dans l\'onglet **View**, modifiez la valeur de **Transparency** à `80`.
 
-![](images/04_T03_Part_cube_additional.png ) *Cubes externes supplémentaires qui seront utilisés comme objets de coupe pour le solide interne.*
+![](images/04_T03_Part_cube_additional.png ) 
+*Cubes externes supplémentaires qui seront utilisés comme objets de coupe pour le solide interne.*
 
 ## Couper les coins partie 1 
 
@@ -191,7 +196,8 @@ Nous dupliquerons à nouveau les deux objets précédents pour les utiliser à n
 :   19.1. Sélectionnez `Cube004` et `Cube005`, dans l\'onglet **View**, puis changez la valeur de **Visibility** en `false`, ou appuyez sur **Espace** au clavier.
 :   19.2. Sélectionnez `Cut001`, cliquez sur la valeur **Shape Color** pour ouvrir la boîte de dialogue **Select color**, puis choisissez une couleur rouge; modifiez également la valeur de **Transparency** en `90`.
 
-![](images/05_T03_Part_cube_additional_cut_1.png ) *Un solide tourné et évidé, qui sera utilisé comme objet de coupe pour certains coins du solide interne.*
+![](images/05_T03_Part_cube_additional_cut_1.png ) 
+*Un solide tourné et évidé, qui sera utilisé comme objet de coupe pour certains coins du solide interne.*
 
 ## Couper les coins partie 2 
 
@@ -213,26 +219,30 @@ Nous dupliquerons à nouveau les deux objets précédents pour les utiliser à n
 
 :   23.1. Sélectionnez `Cut002`, cliquez sur la valeur **Shape Color** pour ouvrir la boîte de dialogue **Select color**, puis choisissez une couleur rose; modifiez également la valeur de **Transparency** en `90`.
 
-![](images/06_T03_Part_cube_additional_cut_2.png ) *Un solide tourné et évidé, qui sera utilisé comme objet de coupe pour certains coins du solide interne.*
+![](images/06_T03_Part_cube_additional_cut_2.png ) 
+*Un solide tourné et évidé, qui sera utilisé comme objet de coupe pour certains coins du solide interne.*
 
 ## Finalisation du modèle 
 
 24\. Assurez-vous que tous les objets sont visibles. Dans la [Vue en arborescence](Tree_view/fr.md), sélectionnez tous les objets, dans l\'onglet **View**, changez la valeur de **Visibility** en `true`, ou appuyez sur {{ KEY\|Espace}} sur le clavier.
 
-![](images/07_T03_Part_ball_additional_both.png ) *Le solide creux interne, ainsi que les objets externes qui serviront à le découper.*
+![](images/07_T03_Part_ball_additional_both.png ) 
+*Le solide creux interne, ainsi que les objets externes qui serviront à le découper.*
 
 25\. Dans la [Vue en arborescence](Tree_view/fr.md), désélectionnez les objets; puis sélectionnez d\'abord `Cut`, puis `Cut001`.
 
 :   25.1. Appuyez ensuite sur **<img src=images/Part_Cut.svg style="width:16px"> [Soustraction](Part_Cut/fr.md)**. Cela créera `Cut003`.
 
-![](images/08_T03_Part_ball_cut_1.png ) *e solide creux interne, coupé par `Cut001*.`
+![](images/08_T03_Part_ball_cut_1.png ) 
+*e solide creux interne, coupé par `Cut001*.`
 
 26\. Dans la [Vue en arborescence](Tree_view/fr.md), désélectionnez les objets; puis sélectionnez d\'abord `Cut003`, puis `Cut002`.
 
 :   26.1. Appuyez ensuite sur **<img src=images/Part_Cut.svg style="width:16px"> [Soustraction](Part_Cut/fr.md)**. Cela créera `Cut004`. C\'est le dernier objet.
 :   26.2. Sélectionnez `Cut004`, cliquez sur la valeur **Shape Color** pour ouvrir la boîte de dialogue **Select color**, puis choisissez une couleur verte; modifiez également la valeur de **Line Width** en `2.0`.
 
-![](images/09_T03_Part_ball_cut_2.png ) *Le solide creux interne, coupé par `Cut001* et {{incode|Cut002`. Modèle final.}}
+![](images/09_T03_Part_ball_cut_2.png ) 
+*Le solide creux interne, coupé par `Cut001* et {{incode|Cut002`. Modèle final.}}
 
 27\. Les objets réels n\'ont pas d\'arêtes ou d\'angles parfaitement nets, il est donc possible d\'appliquer un congé aux arêtes pour affiner le modèle.
 
@@ -241,7 +251,8 @@ Nous dupliquerons à nouveau les deux objets précédents pour les utiliser à n
 :   24.3. Appuyez sur **OK**. Cela créera un objet `Fillet`.
 :   27.4. Dans l\'onglet **View**, modifiez la valeur de **Line Width** en `2.0`.
 
-![](images/10_T03_Part_ball_fillet.png ) *Modèle terminé de la balle à trous avec des congés appliqués sur les bords.*
+![](images/10_T03_Part_ball_fillet.png ) 
+*Modèle terminé de la balle à trous avec des congés appliqués sur les bords.*
 
 
 {{Tutorials navi

@@ -37,6 +37,7 @@ Questo strumento può essere utilizzato su forme 2D create con <img alt="" src=i
 <div class="mw-translate-fuzzy">
 
 
+
 *Ridimensionamento di un oggetto da un punto di riferimento a un secondo punto*
 
 

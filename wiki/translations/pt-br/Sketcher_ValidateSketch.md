@@ -16,7 +16,8 @@
 
 The **Validate sketch** utility can be used to analyze and repair a sketch that is no longer editable or has invalid constraints, or to add missing [coincident constraints](Sketcher_ConstrainCoincident.md) to a sketch created from imported geometry such as DXF files. It can also be useful to locate a missing coincidence in a native sketch that generates a \"can\'t validate broken face\" error when trying to apply a PartDesign feature.
 
-![](images/Sketcher_ValidateSketch_taskpanel.png ) *The Sketcher validation task panel*
+![](images/Sketcher_ValidateSketch_taskpanel.png ) 
+*The Sketcher validation task panel*
 
 ## Usage
 

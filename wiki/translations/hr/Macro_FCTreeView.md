@@ -23,7 +23,8 @@ Makro za popis svih objekata u projektu na jednom popisu bez hijerarhije, opcije
 
 ## Kako koristiti 
 
-![Macro FCTreeView](images/FCTreeView.gif ) *Macro FCTreeView window*
+![Macro FCTreeView](images/FCTreeView.gif ) 
+*Macro FCTreeView window*
 
 ### Odjeljak **Window** 
 

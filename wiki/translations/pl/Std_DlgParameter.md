@@ -15,7 +15,8 @@ Polecenie **Std DlgParameter** otwiera Edytor Parametrów. W Edytorze parametró
 
 Praca z edytorem parametrów wymaga pewnego doświadczenia. Dla najpopularniejszych parametrów można również skorzystać z wygodniejszego [Edytora preferencji](Preferences_Editor/pl.md).
 
-![](images/Std_DlgParameter_dialog.png ) *Okno dialogowe Edytor parametrów*
+![](images/Std_DlgParameter_dialog.png ) 
+*Okno dialogowe Edytor parametrów*
 
 ## Użycie
 

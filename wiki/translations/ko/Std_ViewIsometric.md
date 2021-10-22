@@ -14,7 +14,8 @@
 
 **표준 등각투영(Std ViewIsometric)** 명령은 _ 하지만 이 명령은 [원근투영(perspective) 모드일](Std_PerspectiveCamera/ko.md) 때도 작동합니다.
 
-![](images/Std_ViewIsometric_example.svg ) *등각투영(isometric) 일 때 [좌표축](Std_AxisCross/ko.md)과 육면체*
+![](images/Std_ViewIsometric_example.svg ) 
+*등각투영(isometric) 일 때 [좌표축](Std_AxisCross/ko.md)과 육면체*
 
 ## 용법
 

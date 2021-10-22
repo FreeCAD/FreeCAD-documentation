@@ -1,6 +1,8 @@
 # Copying Objects/it
 {{TOCright}}
 
+## Overview
+
 
 <div class="mw-translate-fuzzy">
 
@@ -13,27 +15,19 @@ Come nella maggior parte delle applicazioni è presente una funzionalità per du
 
 ![](images/Copy_past_duplicate.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Ricordare che gli oggetti duplicati con copia-incolla non dipendono dall\'originale. Se si desiderano dei cloni dipendenti, utilizzare il <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> _. Se non c\'è bisogno di un clone dipendente o di una replica parametrica, si può anche usare <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [Crea una copia semplice](Part_SimpleCopy/it.md) di Part. Per i cloni con motivi, consultare la sezione [Altri metodi](Copying_Objects/it#Altri_metodi.md) di questa pagina.
 
 
-<div class="mw-translate-fuzzy">
-
-## Copia di oggetti collegati 
-
-Gli oggetti di un [Documento](Document_structure/it.md) possono essere collegati ad altri oggetti (ad esempio, una funzione di estrusione è legata al suo schizzo e una fusione è legata ai suoi componenti). Per questo gli oggetti da copiare vanno selezionati con attenzione.
-
-
 </div>
 
+## Copying Linked Objects 
 
-<div class="mw-translate-fuzzy">
+If an object to be copied has links to object(s) not in the selection, FreeCAD will ask if the unselected objects should be included in the copy operation.
 
-Se viene selezionato un oggetto senza selezionare i suoi figli, i figli non sono duplicati automaticamente dal comando Copia/Incolla o Duplica Selezione. In questo caso, l\'oggetto copiato può avere un comportamento imprevisto a causa dei collegamenti mancanti.
-
-
-</div>
-
-In general, recommended practice is to select all dependent objects when copying a parent object.
+## Finding and Positioning Pasted Object(s) 
 
 
 <div class="mw-translate-fuzzy">
@@ -46,6 +40,8 @@ Dopo l\'operazione di copia/incolla, il nuovo oggetto può non essere visibile n
 
 
 </div>
+
+## Other Methods 
 
 
 <div class="mw-translate-fuzzy">
@@ -64,16 +60,6 @@ Come per la maggior parte delle operazioni, anche per fare le copie, in FreeCAD 
 
 
 </div>
-
-## Notes
-
--   If an object to be copied has links to object(s) not in the selection, FreeCAD will ask if the unselected objects should be included in the copy operation. <small>(v0.14)</small> 
-
-## Altro
-
--   [Copia](Std_Copy/it.md)
--   [Incolla](Std_Paste/it.md)
--   [Duplica la selezione](Std_DuplicateSelection/it.md)
 
 ---
 [documentation index](../README.md) > Copying Objects/it

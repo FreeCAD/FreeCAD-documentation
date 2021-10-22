@@ -8,6 +8,7 @@ It normally contains tabs for the start page from the [Start Workbench](Start_Wo
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
+
 *The main view area is denoted by the number 1, and can hold various window tabs, principally the start page and the [3D view](3D_view.md).*
 
 ## Windows

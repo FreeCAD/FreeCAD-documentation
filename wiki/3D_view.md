@@ -10,6 +10,7 @@ Certain properties of the view, like background color, [mouse navigation](Mouse_
 <img alt="" src=images/FreeCAD_3D_view.png  style="width:600px;">
 
 
+
 *The [Draft Workbench](3D_view]]_is_a_component_of_the_FreeCAD_[[interface]]. By default it shows a small widget with coordinate axes, and the navigation cube also with coordinate axes; the grid can be displayed and configured by loading the [[Draft Workbench.md).*
 
 ## Actions

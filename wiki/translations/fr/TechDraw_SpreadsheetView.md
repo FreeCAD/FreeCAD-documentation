@@ -12,7 +12,8 @@
 
 Cet outil vous permet de placer une vue d\'une [feuille de calcul](Spreadsheet_Workbench/fr.md) sélectionnée dans une [page](TechDraw_Workbench/fr.md).
 
-![](images/TechDraw_Spreadsheetview.png ) *Elément de feuille de calcul inséré dans la page de dessin TechDraw*
+![](images/TechDraw_Spreadsheetview.png ) 
+*Elément de feuille de calcul inséré dans la page de dessin TechDraw*
 
 ## Utilisation
 

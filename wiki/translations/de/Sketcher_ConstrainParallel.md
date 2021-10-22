@@ -21,6 +21,7 @@ Die Skizze enthält zwei zufällig ausgerichtete Linien.
 <img alt="" src=images/ConstrainParallel1.png  style="width:500px;">
 
 
+
 *Wähle beide Linien aus, indem Du nacheinander auf jede von ihnen klickst.*
 
 <img alt="" src=images/ConstrainParallel2.png  style="width:500px;">
@@ -32,6 +33,7 @@ Wende die Beschränke Parallelbeschränkung entweder durch:
 -   Verwende den {{MenuCommand/de|Skizze → Skizzierer Beschränkungen → Parallel beschränken}} Eintrag aus dem oberen Menü.
 
 <img alt="" src=images/ConstrainParallel3.png  style="width:500px;">
+
 
 
 *Ergebnis: Die ausgewählten Linien werden gezwungen, parallel zueinander zu verlaufen. Wenn du die Ausrichtung einer Linie änderst, ändert sich die Ausrichtung der anderen Linie, so dass sie gleich bleibt.*

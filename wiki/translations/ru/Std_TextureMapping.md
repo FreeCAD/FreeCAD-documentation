@@ -12,7 +12,8 @@
 
 The **Std TextureMapping** command temporarily maps a texture onto all objects in a [3D view](3D_view.md).
 
-![](images/Std_TextureMapping_example.png ) *Two objects mapped with a 120 by 120 pixel image of a checker pattern*
+![](images/Std_TextureMapping_example.png ) 
+*Two objects mapped with a 120 by 120 pixel image of a checker pattern*
 
 ## Применение
 

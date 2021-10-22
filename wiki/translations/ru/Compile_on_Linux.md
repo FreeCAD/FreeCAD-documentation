@@ -17,6 +17,7 @@
 <img alt="" src=images/FreeCAD_source_compilation_workflow.svg  style="width:800px;">
 
 
+
 *Общий рабочий процесс для компиляции FreeCAD из исходников. В систем должны быть как сторонние зависимости, так и исходные коды самого FreeCAD. CMake конфигурирует систему так чтобы весь проект скомпилировался одной инструкцией make.*
 
 ## Получение исходных кодов 
@@ -682,6 +683,14 @@ cmake ../freecad-source -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3
 }}
 
 Опция `-j` `make` определяет, сколько задач (файлов) компилируется параллельно. Программа `nproc` выводит количество ядер процессора в вашей системе; используя ее вместе с опцией `-j`, вы можете обработать столько файлов, сколько у вас ядер, чтобы ускорить общую компиляцию программы. В приведенном выше примере он будет использовать все ядра вашей системы, кроме двух; это позволит вашему компьютеру реагировать на другие виды использования, пока компиляция выполняется в фоновом режиме. Исполняемый файл FreeCAD в конечном итоге появится в каталоге `freecad-build/bin`. См. также [Compiling (speeding up)](Compiling_(Speeding_up).md) для повышения скорости компиляции.
+
+### Resolving cmake issues 
+
+If you have done an out-of-source build before and get stuck on a dependency that is not recognized or can\'t seem to be resolved, try the following:
+
+-   Delete the contents of the build directory before running cmake again. FreeCAD is a rapidly moving target, you may be tripping over cached cmake information that points at an older version than the new repository head can use. Clearing the cache may allow cmake to recover and recognize the version you actually need.
+
+-   If cmake complains about missing a specific file, use a tool such as \"apt-file search\", or its equivalent in other package systems, to discover what package that file belongs to and install it. Bear in mind that you are likely to need the -dev version of the package that carries header or config files files required for FreeCAD to use the package.
 
 ### Сборка в папке исходников 
 

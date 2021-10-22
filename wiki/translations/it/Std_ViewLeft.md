@@ -14,7 +14,8 @@
 
 Il comando **Vista da sinistra** orienta la camera della [Vista 3D](3D_view/it.md) nella direzione dell\'asse X positivo.
 
-![](images/FreeCAD_views_rear.svg ) *La freccia 6 punta nella direzione della vista da sinistra*
+![](images/FreeCAD_views_rear.svg ) 
+*La freccia 6 punta nella direzione della vista da sinistra*
 
 ## Utilizzo
 

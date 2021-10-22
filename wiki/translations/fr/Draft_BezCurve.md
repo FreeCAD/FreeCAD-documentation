@@ -4,6 +4,7 @@
    Name/fr:Draft Courbe de Bézier
    MenuLocation:Drafting → Outils Bézier → Courbe de Bézier
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut:**B** **Z**
    Version:0.14
    SeeAlso:[Draft Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md), [Draft B-spline](Draft_BSpline/fr.md)
 ---
@@ -28,6 +29,7 @@ Voir aussi: [Draft La barre](Draft_Tray/fr.md), [Draft Accrochage](Draft_Snap/fr
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_BezCurve.svg" width=16px> [Draft Courbe de Bézier](Draft_BezCurve/fr.md)**.
     -   Sélectionnez l\'option **Drafting → Outils Bézier → <img src="images/Draft_BezCurve.svg" width=16px> Courbe de Bézier** dans le menu.
+    -   Utilisez le raccourci clavier : **B** puis **Z**. {{Version/fr|0.20}}
 2.  Le panneau de tâches **Courbe de Bézier** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 4.  Choisissez des points supplémentaires dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.

@@ -13,6 +13,7 @@ est dérivé de [Part Part2DObject](Part_Part2DObject/fr.md). Cela signifie qu\'
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Schéma simplifié des relations entre les objets principaux dans FreeCAD. La classe `Sketcher::SketchObject* est spécialisée pour les formes 2D et comprend en plus une extension pour gérer les contraintes géométriques de ses éléments.`
 
 ## Utilisation

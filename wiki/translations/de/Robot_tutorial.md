@@ -12,7 +12,8 @@
 
 Dieses Tutorium soll dir beibringen, wie du den <img alt="" src=images/Workbench_Robot.svg  style="width:24px;"> [Roboter Arbeitsbereich](Robot_Workbench/de.md) verwendest, um die Einrichtung einer Roboterzelle zu simulieren.
 
-![](images/Robot_Tutorial_RobotSimulation.gif ) *Endergebnis dieses Tutoriums*
+![](images/Robot_Tutorial_RobotSimulation.gif ) 
+*Endergebnis dieses Tutoriums*
 
 ## Bevor du beginnst 
 

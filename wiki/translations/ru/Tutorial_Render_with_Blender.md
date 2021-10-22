@@ -26,11 +26,13 @@ A similar description of this process is described in a series of videos, [Rende
 <img alt="" src=images/01_T03_FreeCAD_Blender_model.png  style="width:600px;">
 
 
+
 *align=center|Assembly of three bodies created in FreeCAD, and with colors or materials assigned.*
 
 2\. If your model is very detailed, make sure the **Deviation** of the body is set to a low value, between `0.1` and `0.01`, or even smaller. The lower this value is, the more detailed the exported mesh will be, and thus the better the quality of the render will be.
 
 ![](images/02_T03_FreeCAD_Blender_deviation.png )
+
 
 
 *align=center|Deviation property of the bodies created in FreeCAD; the deviation needs to be small in order to export the parts with good resolution.*
@@ -140,6 +142,7 @@ for obj in bpy.data.objects:
 ![](images/03_T03_FreeCAD_Blender_imported_assembly.png )
 
 
+
 *align=center|Assembly created in FreeCAD imported into Blender; the model was rotated and the units for the scene were adjusted to match the imported objects.*
 
 ### Prepare the camera of the scene 
@@ -158,6 +161,7 @@ bpy.context.object.data.clip_end = 1e+03
 If you can see the object through the camera view, now you can quickly render the model by pressing **F12**, which will open the `Image Editor` with the result. Press **Esc** to exit, and return to the `3D Viewport`.
 
 <img alt="" src=images/04_T03_FreeCAD_Blender_first_render.png  style="width:600px;">
+
 
 
 *align=center|First render of the assembly in Blender, with the camera with correct clipping but no lighting*
@@ -197,6 +201,7 @@ Press **F12** again to see a preliminary render of the model.
 <img alt="" src=images/05_T03_FreeCAD_Blender_render_sun_lamp.png  style="width:600px;">
 
 
+
 *align=center|Render of the assembly in Blender with a Sun lamp added that emits parallel light rays with a fixed angle*
 
 ### More setup: floor, global lighting, reflections, and soft shadows 
@@ -229,6 +234,7 @@ bpy.context.scene.eevee.use_soft_shadows = True
 ![](images/06_T03_FreeCAD_Blender_Principled_shader.png )
 
 
+
 *align=center|Principled BSDF shader used in Blender to simulate a variety of materials ranging from shiny metals to rough and opaque solids.*
 
 13.2. Select each of the parts of the model, and adjust the respective `Principled BSDF` material node. For metallic parts, turn the `Metallic` property all the way to `1.000`. Adjust the value of `Roughness` to be between `0.2` and `0.7`. The closer to `0.000` the `Roughness` is, the more reflective (mirror-like) it will appear.
@@ -246,6 +252,7 @@ Press **F12** to render the view through the camera and check the quality of the
 15\. If your model looks reasonably well with the EEVEE renderer you can already save the image by going to **Image → Save As** or pressing **Shift**+**S** in the {{Incode|Image Editor}}.
 
 <img alt="" src=images/07_T03_FreeCAD_Blender_EEVEE_render.png  style="width:600px;">
+
 
 
 *align=center|Rendered assembly produced with Blender EEVEE; all materials use the Principled BSDF shader; only one Sun lamp is used, with some ambient background light.*
@@ -268,6 +275,7 @@ Press **F12** to render the final view through the camera. Depending on your gra
 17\. When you are satisfied with the quality of the rendering, in the `Image Editor` go to **Image → Save As** or press **Shift**+**S**.
 
 <img alt="" src=images/08_T03_FreeCAD_Blender_Cycles_render.png  style="width:600px;">
+
 
 
 *align=center|Rendered assembly produced with Blender Cycles; all options, materials, and lights that were used with EEVEE were kept for use with Cycles.*

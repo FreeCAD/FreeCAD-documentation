@@ -42,6 +42,7 @@ Après avoir appuyé sur **OK**, les objets sélectionnés sont copiés en mémo
 ![](images/ObjectSelection.png )
 
 
+
 *Boîte de dialogue de sélection d'objet lancée depuis la [Fenêtre de sélection](Selection_view/fr.md) .*
 
 ## Vue en arborescence 

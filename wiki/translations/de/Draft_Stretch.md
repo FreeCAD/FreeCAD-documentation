@@ -30,6 +30,7 @@ Das Werkzeug Strecken streckt ein Objekt, indem es einige seiner ausgewählten E
 <div class="mw-translate-fuzzy">
 
 
+
 *Strecken von drei Drähten durch Einschließen einiger Knoten und Verschieben auf eine andere Position.*
 
 

@@ -15,7 +15,8 @@
 
 L\'outil FHSegment insère un objet de segment FastHenry.
 
-![](images/EM_FHSegment_Example.png ) *FastHenry FHSegment*
+![](images/EM_FHSegment_Example.png ) 
+*FastHenry FHSegment*
 
 ## Utilisation
 

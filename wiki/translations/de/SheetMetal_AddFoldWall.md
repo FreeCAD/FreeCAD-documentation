@@ -11,13 +11,48 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Der Befehl <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> [Abkanten](SheetMetal_AddFoldWall/de.md) kantet eine Fläche entlang einer gewählten Linie mit einem vorgegebenen Radius ab.
 
+
+</div>
+
+It can be used with a pre-cut blank to
+
+-   create a perforated bend zone
+-   leave planar sections within the bend area and beyond e.g. tabs. (needs gaps in the bend line)
+
+<img alt="" src=images/SheetMetal_AddFoldWall-13.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddFoldWall-14.png  style="width:300px;">
+
+
+
+*Pre-cut blank and bend line with two gaps -> perforated bend zone with some still planar geometry*
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Eine ebene Fläche des Blechobjekts auswählen
 2.  Eine komplanare Linie auswählen
 3.  Schaltfläche  or use the keyboard shortcut: **C** then **F**.
+
+
+</div>
+
+<img alt="" src=images/SheetMetal_AddFoldWall-15.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddFoldWall-14.png  style="width:300px;">
+
+
+
+*The bend line(s) lying in the middle of the perforation -> to keep the bend centred the same way the property **Position* has to be set to {{value|middle**}}
+
+### Notes
+
+-   The bend line sketch has to be **coplanar** to the selected face.
+
+-   The bend line segments have to be **colinear** to each other.
 
 ## Eigenschaften
 

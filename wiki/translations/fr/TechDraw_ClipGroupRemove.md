@@ -13,7 +13,8 @@
 
 Cet outil supprime une vue d\'un fenêtre de rognage existante et la renvoie dans la zone Page.
 
-![](images/TechDraw_Clipview.png ) *Fenêtre de rognage de différentes vues existantes*
+![](images/TechDraw_Clipview.png ) 
+*Fenêtre de rognage de différentes vues existantes*
 
 ## Utilisation
 

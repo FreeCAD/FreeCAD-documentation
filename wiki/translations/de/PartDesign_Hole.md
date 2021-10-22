@@ -23,6 +23,7 @@ Die Funktion **Bohrung** erzeugt eine oder mehrere Bohrungen aus den Kreisen ein
 <img alt="" src=images/Countersunk_and_counterbored_holes_cross-section1.png  style="width:600px;">
 
 
+
 *Kegelgesenkte (links) und plangesenkte (zur Rechten) Bohrungen im Längsschnitt.*
 
 ## Anwendung

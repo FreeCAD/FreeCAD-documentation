@@ -22,4 +22,4 @@ Groupement de plusieurs outils en relation avec les panneaux.
 -   <img alt="" src=images/Arch_Nest.svg  style="width:32px;"> [Calepinage](Arch_Nest/fr.md): permet d\'imbriquer plusieurs objets plats dans une forme de conteneur. {{Version/fr|0.17}}
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/fr
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/fr

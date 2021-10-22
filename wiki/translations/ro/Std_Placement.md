@@ -15,7 +15,8 @@
 
 </div>
 
-![](images/Std_Placement_taskpanel.png ) *The Placement task panel*
+![](images/Std_Placement_taskpanel.png ) 
+*The Placement task panel*
 
 
 <div class="mw-translate-fuzzy">

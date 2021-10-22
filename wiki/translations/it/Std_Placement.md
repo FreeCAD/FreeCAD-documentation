@@ -16,7 +16,8 @@
 
 Il comando **Posizionamento** visualizza la [scheda azioni](Task_panel/it.md) per il posizionamento di un oggetto selezionato.
 
-![](images/Std_Placement_taskpanel.png ) *La scheda di Posizionamento*
+![](images/Std_Placement_taskpanel.png ) 
+*La scheda di Posizionamento*
 
 ## Utilizzo
 

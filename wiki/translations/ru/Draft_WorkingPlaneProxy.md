@@ -26,7 +26,7 @@ The <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;"> **D
 5.  A working plane proxy is created.
 6.  To align the [working plane](Draft_SelectPlane.md) with a working plane proxy, double-click the working plane proxy in the [Tree view](Tree_view.md) or use it with the [Draft SelectPlane](Draft_SelectPlane.md) command.
 
-## Context menu 
+## Контекстное меню 
 
 For a Draft WorkingPlaneProxy these additional options are available in the [Tree view](Tree_view.md) context menu:
 
@@ -34,7 +34,7 @@ For a Draft WorkingPlaneProxy these additional options are available in the [Tre
 
 -    **<img src="images/Draft_SelectPlane.svg" width=16px> Write objects state**: updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
 
-## Notes
+## Примечания
 
 -   Working plane proxies can be _ to snap to their **Placement** point.
 
@@ -44,7 +44,7 @@ See also: [Property editor](Property_editor.md).
 
 A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_FeaturePython.md) object and inherits all its properties. It also has the following additional properties:
 
-### Data
+### Данные
 
 
 {{TitleProperty|Base}}
@@ -53,7 +53,7 @@ A Draft WorkingPlaneProxy object is derived from an [App FeaturePython](App_Feat
 
 -    **Shape|Shape|Hidden**: specifies the shape of the working plane proxy.
 
-### View
+### Вид
 
 
 {{TitleProperty|Base}}
@@ -117,15 +117,6 @@ Gui.Snapper.setGrid()
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WorkingPlaneProxy/ru

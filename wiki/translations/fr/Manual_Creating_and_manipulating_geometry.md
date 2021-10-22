@@ -33,9 +33,9 @@ Nous pouvons maintenant créer facilement un document objet \"générique\" dans
 
 ```python
 boxShape = Part.makeBox(3,5,7)
- myObj = FreeCAD.ActiveDocument.addObject("Part::Feature","MyNewBox")
- myObj.Shape = boxShape
- FreeCAD.ActiveDocument.recompute()
+myObj = FreeCAD.ActiveDocument.addObject("Part::Feature","MyNewBox")
+myObj.Shape = boxShape
+FreeCAD.ActiveDocument.recompute()
 ```
 
 Notez comment nous avons traité myObj.Shape, voyez que cela se fait exactement comme nous l\'avons fait dans le chapitre précédent lorsque nous avons changé des propriétés d\'un objet, comme par exemple box.Height=5. En réalité, **Shape** est également une propriété tout comme Hauteur. Seulement il faut une forme de Part (Part Shape), pas un nombre. Au prochain chapitre, nous examinerons plus en profondeur la façon dont ces objets paramétriques sont construits.
@@ -45,11 +45,11 @@ Pour l\'instant, explorons nos formes de pièces plus en détail. À la fin du c
 
 ```python
 print(boxShape.Vertexes)
- print(boxShape.Edges)
- print(boxShape.Wires)
- print(boxShape.Faces)
- print(boxShape.Shells)
- print(boxShape.Solids)
+print(boxShape.Edges)
+print(boxShape.Wires)
+print(boxShape.Faces)
+print(boxShape.Shells)
+print(boxShape.Solids)
 ```
 
 Par exemple, trouvons la zone de chaque face de notre forme de boîte ci-dessus:
@@ -79,8 +79,8 @@ Nous pouvons toujours vérifier quel est le type de forme :
 
 ```python
 print(boxShape.ShapeType)
- print(boxShape.Faces[0].ShapeType)
- print(boxShape.Vertexes[2].ShapeType)
+print(boxShape.Faces[0].ShapeType)
+print(boxShape.Vertexes[2].ShapeType)
 ```
 
 Donc, pour reprendre le sujet des Formes Part: tout commence avec les Vertices (sommets). Avec un ou deux sommets, vous formez un Edge (arête) (les cercles complets n\'ont qu\'un seul sommet). Avec une ou plusieurs arêtes, vous formez une ligne composite (wire). Avec une ou plusieurs lignes fermées, vous formez une face (les lignes supplémentaires deviennent des «trous» dans la face). Avec une ou plusieurs Faces, vous créez une coquille (Shell). Quand une coquille est entièrement fermée (étanche), vous pouvez former un solide. Et enfin, vous pouvez joindre n\'importe quel nombre de Formes (Shapes) de tous types ensemble, ce qui s\'appelle alors un Composé (Compound).
@@ -98,9 +98,9 @@ D\'abord, créons les quatre points de base :
 
 ```python
 V1 = FreeCAD.Vector(0,10,0)
- V2 = FreeCAD.Vector(30,10,0)
- V3 = FreeCAD.Vector(30,-10,0)
- V4 = FreeCAD.Vector(0,-10,0)
+V2 = FreeCAD.Vector(30,10,0)
+V3 = FreeCAD.Vector(30,-10,0)
+V4 = FreeCAD.Vector(0,-10,0)
 ```
 
 Ensuite, nous pouvons créer les deux segments de droites :
@@ -127,9 +127,9 @@ vous montrera de quel type de Edge il s'agit, c\'est-à-dire s\'il est basé sur
 
 ```python
 VC1 = FreeCAD.Vector(-10,0,0)
- C1 = Part.Arc(V1,VC1,V4)
- VC2 = FreeCAD.Vector(40,0,0)
- C2 = Part.Arc(V2,VC2,V3)
+C1 = Part.Arc(V1,VC1,V4)
+VC2 = FreeCAD.Vector(40,0,0)
+C2 = Part.Arc(V2,VC2,V3)
 ```
 
 Maintenant, nous avons 2 lignes (L1 et L2) et 2 arcs (C1 et C2). Nous devons les transformer en arêtes (edges) :
@@ -137,9 +137,9 @@ Maintenant, nous avons 2 lignes (L1 et L2) et 2 arcs (C1 et C2). Nous devons les
 
 ```python
 E1 = Part.Edge(L1)
- E2 = Part.Edge(L2)
- E3 = Part.Edge(C1)
- E4 = Part.Edge(C2)
+E2 = Part.Edge(L2)
+E3 = Part.Edge(C1)
+E4 = Part.Edge(C2)
 ```
 
 Alternativement, les géométries de base ont également une fonction toShape() qui fait exactement la même chose :
@@ -147,7 +147,7 @@ Alternativement, les géométries de base ont également une fonction toShape() 
 
 ```python
 E1 = L1.toShape()
- E2 = L2.toShape()
+E2 = L2.toShape()
  ...
 ```
 
@@ -191,7 +191,7 @@ En effet, lorsque nous extrudons une seule face, nous obtenons toujours un solid
 
 ```python
 S = W.extrude(FreeCAD.Vector(0,0,10))
- print(s.ShapeType)
+print(s.ShapeType)
 ```
 
 Ce qui, bien sûr, nous donnera une coquille creuse, les faces supérieure et inférieure manquant.
@@ -201,8 +201,8 @@ Maintenant que nous avons notre forme définitive, nous sommes impatients de la 
 
 ```python
 myObj2 = FreeCAD.ActiveDocument.addObject("Part::Feature","My_Strange_Solid")
- myObj2.Shape = P
- FreeCAD.ActiveDocument.recompute()
+myObj2.Shape = P
+FreeCAD.ActiveDocument.recompute()
 ```
 
 Alternativement, le module Part fournit également un raccourci qui fait l\'opération ci-dessus plus rapidement (mais vous ne pouvez pas choisir le nom de l\'objet) :

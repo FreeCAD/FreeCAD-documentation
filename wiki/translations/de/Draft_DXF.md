@@ -14,7 +14,8 @@
 
 DXF Entwurf ist ein Softwaremodul, das von den <img alt="" src=images/Std_Open.svg  style="width:24px;"> _ und <img alt="" src=images/Std_Export.svg  style="width:24px;">[Std Export](Std_Export/de.md) Befehlen verwendet wird, um das DXF Dateiformat handzuhaben.
 
-![](images/Screenshot_qcad.jpg ) *Qcad-Zeichnung nach DXF exportiert, die anschließend in FreeCAD geöffnet wird*
+![](images/Screenshot_qcad.jpg ) 
+*Qcad-Zeichnung nach DXF exportiert, die anschließend in FreeCAD geöffnet wird*
 
 ## Importieren
 

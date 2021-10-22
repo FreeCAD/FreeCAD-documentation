@@ -14,7 +14,8 @@ The **Mesh Intersection** command creates a new non-parametric mesh object, a [M
 
 _.
 
- ![](images/Mesh_Intersection_example.png )  *On the left two mesh objects, on the right the mesh object that is the intersection of those objects*
+ ![](images/Mesh_Intersection_example.png )  
+*On the left two mesh objects, on the right the mesh object that is the intersection of those objects*
 
 ## Usage
 

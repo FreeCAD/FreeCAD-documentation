@@ -37,6 +37,7 @@ Il poligono viene creato inscritto in un cerchio di raggio specificato; dopo la 
 <div class="mw-translate-fuzzy">
 
 
+
 *Poligono regolare definito dal punto centrale e dal raggio*
 
 

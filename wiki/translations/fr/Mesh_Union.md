@@ -15,7 +15,8 @@ La commande **Mesh Union** crée un nouvel objet maillé non paramétrique, un [
 
 _.
 
-![](images/Mesh_Union_example.png ) *A gauche deux objets maillés, à droite l'objet maillé qui est l'union de ces objets*
+![](images/Mesh_Union_example.png ) 
+*A gauche deux objets maillés, à droite l'objet maillé qui est l'union de ces objets*
 
 ## Utilisation
 

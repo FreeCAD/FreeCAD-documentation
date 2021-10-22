@@ -18,7 +18,8 @@ Après certaines opérations booléennes, comme [Part Union](Part_Fuse/fr.md), c
 **Autre façon**, pour produire d'autres copies non paramétriques, utilisez **<img src="images/Part_SimpleCopy.svg" width=16px> [Part Copie simple](Part_SimpleCopy/fr.md)
 **, **<img src="images/Part_TransformedCopy.svg" width=16px>[Part Copie transformée](Part_TransformedCopy.md)** et **<img src="images/Part_ElementCopy.svg" width=16px> [Part Copie d'un élément](Part_ElementCopy.md)**
 
-![](images/PartRefineShape_it.png ) *Résultat booléen initial avec 11 faces (à gauche) et copie de la forme raffinée avec 7 faces (à droite).*
+![](images/PartRefineShape_it.png ) 
+*Résultat booléen initial avec 11 faces (à gauche) et copie de la forme raffinée avec 7 faces (à droite).*
 
 ## Utilisation
 

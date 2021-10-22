@@ -10,6 +10,7 @@ Eine _ aus kleineren Unterbaugruppen und aus mehreren wiederverwendbaren Kompone
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Das  `App::Link* Objekt ist eine Kernkomponente des Systems, es ist von keinem Arbeitsbereich abhängig, aber es kann mit den meisten Objekten verwendet werden, die in allen Arbeitsbereichen erstellt werden.`
 
 ## Anwendung

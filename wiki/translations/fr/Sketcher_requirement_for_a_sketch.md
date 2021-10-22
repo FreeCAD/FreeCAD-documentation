@@ -15,6 +15,7 @@ Qu\'une courbe fermée soit présente, ne va pas de soi et n\'est pas reconnaiss
 ![](images/Skizze2a.png )
 
 
+
 *Un simple croquis. 
 A gauche: courbe uniquement à quatre endroits (rouge, contraintes automatiques lors du dessin avec <img src=images/Sketcher_CreatePolyline.svg style="width:32px"> [Polyligne](Sketcher_CreatePolyline/fr.md)) fermée.
 Au milieu: avertissement - ... face brisée (courbe brisée).
@@ -27,6 +28,7 @@ Cependant, un travail paramétrique cohérent signifie que l\'esquisse est compl
 Même une esquisse relativement simple peut contenir des dizaines d\'indéterminations (indiquées dans la vue combinée par un nombre en \"degrés de liberté\"). Les éliminer ensemble à la fin est une tâche relativement confuse.
 
 ![](images/Skizze4a.png )
+
 
 
 *Un simple croquis; complètement déterminé par 25 contraintes, dont seulement 5 sont des contraintes de dimension.*

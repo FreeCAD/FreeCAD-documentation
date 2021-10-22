@@ -23,47 +23,54 @@ The **Std DrawStyle** command can override the effect of the **Display Mode** [p
 
 ## Available draw styles 
 
-### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:32px;"> As is 
+### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:24px;"> As is 
 
 The **As is** style does not override the **Display Mode** of objects.
 
-![](images/Std_DrawStyleAsIs_example.png ) *4 identical objects each with a different Display Mode (from left to right: 'Points', 'Wireframe', 'Shaded' and 'Flat lines') with the 'As is' draw style applied*
+![](images/Std_DrawStyleAsIs_example.png ) 
+*4 identical objects each with a different Display Mode (from left to right: 'Points', 'Wireframe', 'Shaded' and 'Flat lines') with the 'As is' draw style applied*
 
-### <img alt="" src=images/Std_DrawStylePoints.svg  style="width:32px;"> Points 
+### <img alt="" src=images/Std_DrawStylePoints.svg  style="width:24px;"> Points 
 
 The **Points** style overrides the **Display Mode** of objects. This style matches the \'Points\' Display Mode. Vertices are displayed in solid colors. Edges and faces are not displayed.
 
-![](images/Std_DrawStylePoints_example.png ) *The same objects with the 'Points' draw style applied*
+![](images/Std_DrawStylePoints_example.png ) 
+*The same objects with the 'Points' draw style applied*
 
-### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:32px;"> Wireframe 
+### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:24px;"> Wireframe 
 
 The **Wireframe** style overrides the **Display Mode** of objects. This style matches the \'Wireframe\' Display Mode. Vertices and edges are displayed in solid colors. Faces are not displayed.
 
-![](images/Std_DrawStyleWireframe_example.png ) *The same objects with the 'Wireframe' draw style applied*
+![](images/Std_DrawStyleWireframe_example.png ) 
+*The same objects with the 'Wireframe' draw style applied*
 
-### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:32px;"> Hidden line 
+### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:24px;"> Hidden line 
 
 The **Hidden line** style overrides the **Display Mode** of objects. Objects are displayed as if converted to triangular meshes.
 
-![](images/Std_DrawStyleHiddenLine_example.png ) *The same objects with the 'Hidden line' draw style applied*
+![](images/Std_DrawStyleHiddenLine_example.png ) 
+*The same objects with the 'Hidden line' draw style applied*
 
-### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:32px;"> No shading 
+### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:24px;"> No shading 
 
 The **No shading** style overrides the **Display Mode** of objects. Vertices, edges and faces are displayed in solid colors.
 
-![](images/Std_DrawStyleNoShading_example.png ) *The same objects with the 'No shading' draw style applied*
+![](images/Std_DrawStyleNoShading_example.png ) 
+*The same objects with the 'No shading' draw style applied*
 
-### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:32px;"> Shaded 
+### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:24px;"> Shaded 
 
 The **Shaded** style overrides the **Display Mode** of objects. This style matches the \'Shaded\' Display Mode. Vertices and edges are not displayed. Faces are illuminated depending on their orientation.
 
-![](images/Std_DrawStyleShaded_example.png ) *The same objects with the 'Shaded' draw style applied*
+![](images/Std_DrawStyleShaded_example.png ) 
+*The same objects with the 'Shaded' draw style applied*
 
-### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> Flat lines 
+### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:24px;"> Flat lines 
 
 The **Flat lines** style overrides the **Display Mode** of objects. This style matches the \'Flat lines\' Display Mode. Vertices and edges are displayed in solid colors. Faces are illuminated depending on their orientation.
 
-![](images/Std_DrawStyleFlatLines_example.png ) *The same objects with the 'Flat lines' draw style applied*
+![](images/Std_DrawStyleFlatLines_example.png ) 
+*The same objects with the 'Flat lines' draw style applied*
 
 ## Notes
 

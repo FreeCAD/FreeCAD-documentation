@@ -18,4 +18,4 @@
 -   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Rohrverbindungsstück](Arch_PipeConnector/de.md): Erzeugt eine Eck- oder T-Stück Verbindung zwischen 2 oder 3 ausgewählten Rohren <small>(v0.17)</small>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CompPipe/de
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPipe/de

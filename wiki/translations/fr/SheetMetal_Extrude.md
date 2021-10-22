@@ -11,45 +11,68 @@
 
 ## Description
 
-La commande <img alt="" src=images/SheetMetal_Extrude.svg  style="width:24px;"> **SheetMetal Extrude** étend une face de tôle.
+La commande <img alt="" src=images/SheetMetal_Extrude.svg  style="width:24px;"> **SheetMetal Extrude** prolonge une plaque de tôle au niveau d\'une face de bord sélectionnée.
+
+Elle crée une **extension simple** le long de la normale à la face de l\'arête sélectionnée :
+
+<img alt="" src=images/SheetMetal_Extrude-01.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-02.png  style="width:200px;">
+
+Si une esquisse de contour est ajoutée, elle crée une **géométrie de connexion** pour fermer un profil :
+
+<img alt="" src=images/SheetMetal_Extrude-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-04.png  style="width:200px;">
+
+
+
+*Trois profils avec des esquisses à ajouter -> trois résultats*
 
 ## Utilisation
 
-Pour prolonger la face:
+### Extension simple 
 
-1.  Commencez par une plaque ou une feuille de base, sélectionnez une face fine représentant l\'épaisseur de la tôle
-2.  Cliquez sur le <img alt="" src=images/SheetMetal_Extrude.svg  style="width:24px;"> outil **Extrude** pour étendre la face.
+1.  Sélectionnez une ou plusieurs faces d\'arêtes à étendre.
+2.  Lancez la commande <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> **SheetMetal Prolonger une face** en utilisant l\'une des méthodes suivantes :
+    -   Le bouton **<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude/fr.md)**.
+    -   L\'option du menu **SheetMetal → <img src="images/SheetMetal_Extrude.svg" width=16px> Extend Face**.
+    -   Le raccourci clavier : **E**.
+3.  Modifiez la valeur de la propriété **length** pour ajuster la longueur de l\'extension.
 
+### Extension de connexion 
 
-**Remarque**
+1.  Sélectionnez une face d\'arête à étendre.
+2.  Lancez la commande <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> **SheetMetal Prolonger une face** (voir ci-dessus).
+3.  Ajoutez une esquisse de contour coplanaire à la propriété **Sketch**.
+4.  Définissez la propriété **Use Subtraction** sur `True` pour créer des découpes afin de faire de la place pour les extensions.
+5.  Définissez la propriété **Offset** pour ajuster le dégagement autour de l\'extension.
 
-: Pour créer une plaque de base, utilisez un contour 2D fermé - de préférence une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> _.
-Au lieu de cela, vous pouvez également générer une plaque de base avec l\'une des méthodes suivantes :
-
-:\* Méthode 1: <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Cube](Part_Box/fr.md)
-
-:\* Méthode 2: Un solide extrudé fait avec une <img alt="" src=images/Part_Extrude.svg  style="width:24px;"> [Part Extrusion](Part_Extrude/fr.md) à partir d\'un:
-
-::\* <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Draft Rectangle](Draft_Rectangle/fr.md) ou d\'un
-
-::\* <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Draft Polyligne](Draft_Wire/fr.md) ou d\'une
-
-::\* <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)
-
-:\* Méthode 3: <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Corps](PartDesign_Body/fr.md) contenant soit un
-
-::\* <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:24px;"> [PartDesign Cube additif](PartDesign_AdditiveBox/fr.md) ou une
-
-::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> _.
-
-:   
-
-    :   Si vous commencez avec un <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> PartDesign Corps, vous pouvez mélanger des fonctions de tôlerie avec des fonctions PartDesign telles que <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> _.
+<img alt="" src=images/SheetMetal_Extrude-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-06.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-04.png  style="width:200px;">
 
 
-**Remarque**
 
-: dans une opération d\'extension, définissez `Refine {{:=` true}}.
+*Trois profils -> position des esquisses -> résultats sans découpes -> résultats finaux*
+
+### Remarques
+
+-   Une esquisse peut contenir plus d\'un contour.
+
+:   Après avoir inséré une esquisse, l\'un de ses contours au moins doit toucher une face opposée, sinon l\'outil ne parviendra pas à créer une extension ou une découpe.
+
+
+
+
+
+:   Un seul contour touchant une face opposée suffit à créer une géométrie d\'extension à partir de tous les contours de l\'esquisse.
+
+-   Chaque découpe aura une forme cuboïde, quelle que soit la forme de l\'esquisse du contour correspondant.
+
+-   Les formes autres que les rectangles peuvent se comporter de manière un peu étrange et même si l\'objet peut être déplié, le résultat ne sera pas celui escompté.
+
+<img alt="" src=images/SheetMetal_Extrude-07.png  style="width:250px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-08.png  style="width:250px;">
+
+
+
+*Trois esquisses et leurs extensions résultantes : plaque triangulaire séparée avec une découpe rectangulaire, cercle sans dégagement -> le solide non plié est divisé à une position inattendue.*
+
+-   Dans une opération d\'extension, il est recommandé de laisser la propriété **Refine** définie sur `True` (par défaut).
 
 ## Propriétés
 
@@ -84,11 +107,11 @@ Un objet SheetMetal Prolonger une face est dérivé d\'un objet [Part Feature](P
 
 -    {{PropertyData/fr|Offset|Distance}}: \"Décalage pour la soustraction\". Valeur par défaut : {{value|20,00 µm}}.
 
--    {{PropertyData/fr|Refine|Bool}}: \"Utiliser le raffinage\". Valeur par défaut : `True`.
+-    {{PropertyData/fr|Refine|Bool}}: \"Utilise le raffinage\". Valeur par défaut : `True`.
 
 -    {{PropertyData/fr|Sketch|Link}}: \"Esquisse de la paroi\".
 
--    {{PropertyData/fr|Use Substraction|Bool}}: \"Utiliser la soustraction\". Valeur par défaut : `False`.
+-    {{PropertyData/fr|Use Subtraction|Bool}}: \"Utiliser la soustraction\". Valeur par défaut : `False`.
 
 
 

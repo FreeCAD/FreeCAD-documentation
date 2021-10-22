@@ -41,6 +41,7 @@ Sans sélection :
 ![](images/Std_Link_tree_example.png ) ![](images/Std_Link_example.png )
 
 
+
 *(1) Un objet, (2) un lien vide, (3) un lien complet vers le premier objet (avec un matériau de remplacement), et (4) un lien vers seulement quelques sous-éléments de l'objet. Le lien vide n'est pas lié à l'objet réel et n'est donc pas affiché dans la [vue 3D](3D_view/fr.md).*
 
 ## Utilisation : documents externes 
@@ -60,6 +61,7 @@ Sans sélection :
 -    **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_LinkMakeRelative.svg style="width:Std Créer un lien](Std_LinkMake/fr.md)**peut être utilisé sur un objet Link existant afin de créer un lien vers un lien qui résout finalement l\'objet original dans le document source. Cela peut être réalisé avec **[16px"> [Std Créer un sous-lien](Std_LinkMakeRelative/fr.md)** pour ne sélectionner que certains sous-éléments également.
 
 ![](images/Std_Link_tree_documents_example.png ) ![](images/Std_Link_documents_example.png )
+
 
 
 *(1, 2) Deux objets d'un document source liés à un document cible, (3) un lien vers le deuxième lien (avec un matériau de remplacement) et (4) un lien vers les sous-éléments du deuxième lien.*
@@ -86,6 +88,7 @@ peut être utilisé avec des objets **<img src=images/Std_Part.svg style="width:
 ![](images/Std_Link_tree_Std_Part_example.png )
 
 
+
 *Lien créé à partir d'une [Std Part](Std_Part/fr.md) ; les objets ne sont pas dupliqués mais ils sont répertoriés sous le conteneur d'origine et sous le conteneur Lien.*
 
 Un **<img src=images/Std_Group.svg style="width:16px"> <img src=images/Std_LinkMake.svg style="width:Std Groupe](Std_Group/fr.md)** ne possède pas de propriété {{PropertyData/fr|Placement}}, il ne peut donc pas contrôler la position des objets à l\'intérieur de celui-ci. Cependant, lorsque **_**, le lien résultant se comporte essentiellement comme un **[16px"> [Std Part](Std_Part/fr.md)** et peut également être déplacé dans l\'espace.
@@ -93,11 +96,13 @@ Un **<img src=images/Std_Group.svg style="width:16px"> <img src=images/Std_LinkM
 ![](images/Std_Link_tree_Std_Group_example.png ) ![](images/Std_Link_Std_Group_example.png )
 
 
+
 *Lien créé à partir d'un [Std Groupe](Std_Group/fr.md) ; les objets ne sont pas dupliqués mais ils sont répertoriés sous le conteneur d'origine et sous le conteneur Lien. Le lien (avec le matériau de remplacement) peut être déplacé dans l'espace, tout comme un [Std Part](Std_Part/fr.md).*
 
 Un lien vers un **<img src=images/Std_Part.svg style="width:16px"> <img src=images/_Std_Group.svg style="width:Std Part](Std_Part/fr.md)** gardera la visibilité des objets synchronisée avec la Part d\'origine. Donc si vous masquez un objet dans un lien, il sera masqué dans tous les liens et dans l\'objet d\'origine. D\'un autre côté, un lien vers un **[16px"> [Std Groupe](Std_Group/fr.md)** permettra un contrôle indépendant des visibilités.
 
 ![](images/Std_Link_tree_Std_Part_visibility.png ) ![](images/Std_Link_tree_Std_Group_visibility.png )
+
 
 
 *À gauche : _ avec deux objets et deux liens vers le groupe. La visibilité des objets est contrôlée indépendamment dans chaque groupe.*
@@ -123,6 +128,7 @@ Quel que soit l\'état de {{PropertyView/fr|Override Material}}, il est possible
 <img alt="" src=images/Std_Link_override_color_example.png  style="width:500px;">
 
 
+
 *(1) Un objet original, (2) un lien avec un matériau de remplacement et (3) un deuxième lien avec des sous-éléments modifiés individuels.*
 
 ### Réseau lien 
@@ -139,6 +145,7 @@ Lorsqu\'un lien est créé, par défaut, son {{PropertyData/fr|Element Count}} e
 De la même manière, chaque élément du réseau peut avoir sa propre apparence modifiée, soit par les propriétés {{PropertyView/fr|Override Material}} et {{PropertyView/fr|Shape Material}}, soit en utilisant le menu **Override colors** sur l\'ensemble du réseau puis en sélectionnant des faces une par une. Ceci est décrit dans [Apparence de remplacement](#Apparence_de_remplacement.md).
 
 <img alt="" src=images/Std_Link_tree_array_example.png ) ![](images/Std_Link_array_example.png  style="width:500px;">
+
 
 
 *(1) Objet d'origine, et (2, 3, 4) un réseau Lien avec trois éléments, chacun dans une position différente. Le premier lien a un matériau de remplacement et des faces transparentes, les deux autres ont des couleurs de face personnalisées.*
@@ -161,6 +168,7 @@ Une autre façon de masquer les éléments individuels consiste à utiliser le m
 ![](images/Std_Link_array_visibility_example.png )
 
 
+
 *Boîte de dialogue des couleurs des éléments disponibles lors de l'ouverture du menu contextuel d'un objet Lien dans l'arborescence.*
 
 Si vous souhaitez restaurer la visibilité de cet élément du réseau, entrez à nouveau dans la boîte de dialogue, choisissez l\'icône en forme d\'œil, puis cliquez sur **Remove** pour supprimer l\'état caché et cliquez sur **OK** pour confirmer et fermez la boîte de dialogue. L\'élément sera à nouveau visible dans [Vue 3D](3D_view/fr.md).
@@ -168,6 +176,7 @@ Si vous souhaitez restaurer la visibilité de cet élément du réseau, entrez �
 Lorsque le lien est pour un **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part/fr.md)** ou un **[16px"> [Std Groupe](_Std_Part/fr.md)**, le menu **Override colors** fonctionne de la même manière qu\'avec les réseaux. Il permet de contrôler la couleur de la face, la couleur de l\'objet entier et la visibilité des objets du groupe.
 
 ![](images/Std_Link_Std_Part_visibility_example.png ) ![](images/Std_Link_Std_Part_visibility_example_3D.png )
+
 
 
 *Un [Std Part](Std_Part/fr.md) contenant trois objets et un lien vers cette pièce; dans le lien, (1) le premier objet est rendu invisible, (2) le deuxième objet a des sous-éléments avec des couleurs différentes, (3) le troisième objet entier a une couleur et un niveau de transparence différents.*
@@ -303,6 +312,7 @@ Il montrera en outre les propriétés de vue de l\'original **Linked Object**.
 Un _ (classe `App::DocumentObject`). C\'est un objet de très bas niveau, qui peut être utilisé avec la plupart des autres objets de document.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Schéma simplifié des relations entre les objets principaux du programme. L'objet `App::Link* est un composant central du système, il ne dépend d'aucun atelier, mais il peut être utilisé avec la plupart des objets créés dans tous les ateliers.`

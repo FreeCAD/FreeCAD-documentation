@@ -28,6 +28,7 @@ Narzędzie **<img src=images/Std_Part.svg style="width:16px"> <img src=images/St
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
 
+
 *Z lewej: elementy wewnątrz Std: Część w [widoku drzewa](Tree_view/pl.md). <br>Z prawej: obiekty umieszczone w przestrzeni, odnoszące się do pochodzenia ''(Origin)'' Std: Część.*
 
 ## Użycie
@@ -164,6 +165,7 @@ Aby uaktywnić lub dezaktywować Część:
 ![](images/Std_Part_active.png )
 
 
+
 *Dokument z dwiema Częściami Std, wśród których aktywna jest druga część.*
 
 ### Odniesienie położenia 
@@ -171,6 +173,7 @@ Aby uaktywnić lub dezaktywować Część:
 Początek układu współrzędnych składa się z trzech standardowych osi *(X, Y, Z)* oraz trzech standardowych płaszczyzn *(XY, XZ i YZ)*. [Szkic](Sketch/pl.md) i inne obiekty mogą być dołączone do tych elementów w trakcie ich tworzenia.
 
 ![](images/Part_Origin_tree.png ) ![](images/Part_Origin_view.png )
+
 
 
 *Z lewej: Początek układu współrzędnych Części w _.*
@@ -189,13 +192,15 @@ Wszystkie elementy składowe Części są powiązane z jej początkiem, co oznac
 
 Parametr wyświetlania Części ma pierwszeństwo określania wyświetlania dowolnego obiektu, który zawiera. Jeśli wyświetlanie Części zostanie ukryte, to obiekty, które zawiera będą również ukryte, nawet jeśli ich indywidualna właściwość {{PropertyView/pl|Widoczność}} jest ustawiona na `True`. Jeśli Część jest widoczna, to właściwość każdego obiektu **Widoczność** określa, czy obiekt jest prezentowany na ekranie okna [widoku 3D](3D_view/pl.md) czy nie.
 
-!_. <br>Po prawej: Część jest widoczna, więc każdy obiekt kontroluje indywidualnie swoje właściwości w zakresie wyświetlania.*
+![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) 
+*Parametr widoczności Std Części określa, czy zgrupowane pod nią obiekty są prezentowane w oknie _. <br>Po prawej: Część jest widoczna, więc każdy obiekt kontroluje indywidualnie swoje właściwości w zakresie wyświetlania.*
 
 ### Dziedziczenie
 
 Obiekt _ *(`App::GeoFeature`)*, i jest wzbogacona o rozszerzenie Origin.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Uproszczony schemat relacji między głównymi obiektami w programie. Klasa `App::Part* jest prostym kontenerem, który ma swoją pozycję w przestrzeni 3D i posiada zdefiniowany punkt początku w układzie współrzędnych ''(Origin)'', kontrolujący położenie zgrupowanych pod nim obiektów.`

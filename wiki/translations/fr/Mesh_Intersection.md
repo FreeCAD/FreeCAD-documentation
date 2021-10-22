@@ -15,7 +15,8 @@ La commande **Mesh Intersection** crée un nouvel objet maillé non paramétriqu
 
 _.
 
-![](images/Mesh_Intersection_example.png ) *A gauche deux objets maillés, à droite l'objet maillé qui est l'intersection de ces objets*
+![](images/Mesh_Intersection_example.png ) 
+*A gauche deux objets maillés, à droite l'objet maillé qui est l'intersection de ces objets*
 
 ## Utilisation
 

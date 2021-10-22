@@ -3,7 +3,7 @@
 - GuiCommand:/tr
    Name/tr:Izgara
    MenuLocation:Arsa → Izgara
-‏‎   |Workbenches:[Arsa](Plot_Module/tr.md)
+‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)
    Shortcut:
    SeeAlso:---
 

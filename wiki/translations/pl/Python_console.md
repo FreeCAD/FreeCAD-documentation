@@ -10,6 +10,7 @@ Konsola Pythona w FreeCAD obsługuje podstawowe kolorowanie składni, potrafi ro
 <img alt="" src=images/FreeCAD_Python_console.png  style="width:800px;">
 
 
+
 *Konsola Pythona pokazująca komunikaty, gdy FreeCAD właśnie się uruchamia.*
 
 ## Tworzenie skryptów 
@@ -29,6 +30,7 @@ Konsola Pythona potrafi wykonać uzupełnienie podstawowego kodu. Gdy po obiekci
 Konsola jest również w stanie wyświetlić łańcuch dokumentacji konkretnej funkcji, gdy zapisywany jest otwierający nawias, na przykład `function(`
 
 <img alt="" src=images/FreeCAD_Python_console_example.png  style="width:800px;">
+
 
 
 *Przykładowy kod Pythona, który generuje obiekty w oknie widoku 3D.*

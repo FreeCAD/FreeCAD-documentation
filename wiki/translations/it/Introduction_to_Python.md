@@ -42,7 +42,8 @@ In Python, l\'intero processo, può essere eseguito in modo trasparente all\'int
 
 </div>
 
-![](images/FreeCAD_Python_console.png ) *La console di FreeCAD Python*
+![](images/FreeCAD_Python_console.png ) 
+*La console di FreeCAD Python*
 
 Se non la vedi, clicca su **Vista → Pannelli → Console Python**. La console Python può essere ridimensionata e anche sganciata.
 

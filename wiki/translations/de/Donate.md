@@ -12,7 +12,13 @@ See other ways to [Hilf dem Projekt](Help_FreeCAD/de.md) (Dokumentation, Überse
 
 -   Es gibt ein offizielles [FreeCAD Teamkonto](https://liberapay.com/FreeCAD); spende per Kreditkarte, Paypal oder SEPA Banküberweisung. Jedes Geld, das hier eingeht, wird zu gleichen Teilen unter den aufgeführten Entwicklern aufgeteilt. Dies ist die beste Option, da sie den Entwicklern direkt hilft.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Es gibt ein [Bountysource](https://salt.bountysource.com/teams/freecad) Konto; spende Geld für das FreeCAD Projekt als Ganzes, oder biete eine \"Prämie\" an, um ein bestimmtes Problem oder einen Fehler zu beheben. Dies ist eine interessante Option, da deine Spende gezielt in einem bestimmten Bereich eingesetzt werden kann. Allerdings ist die Verwendung des Bountysource Geldes für uns ein komplexerer Prozess, und es könnte eine Verzögerung zwischen der Spende und der effektiven Verwendung deiner Spende geben.
+
+
+</div>
 
 -   Unterstütze die Webhosting Kosten, durch direkte Spenden an [Jürgen Riegel\'s paypal Konto](https://www.paypal.com/cgi-bin/webscr?item_name=Donation+to+FreeCAD&cmd=_donations&business=Mail%40juergen-riegel.net). Jürgen ist der ursprüngliche Entwickler von FreeCAD.
 

@@ -21,6 +21,7 @@ Biorąc pod uwagę _ do uzyskiwania efektów takich jak grawerowanie czy stemplo
 <img alt="" src=images/Part_ProjectionOnSurface1.png  style="width:300px;"> <img alt="" src=images/Part_ProjectionOnSurface2.png  style="width:300px;">
 
 
+
 *Rzutowanie logo na zakrzywionej powierzchni.*
 
 ## Użycie

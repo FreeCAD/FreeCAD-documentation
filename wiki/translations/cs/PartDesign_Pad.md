@@ -74,14 +74,21 @@ Deska se vysune až k ploše v objektu, která je vybrána kliknutím na ni. Nen
 
 Defines the length of the pad. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \").
 
-### Use custom direction 
+### Direction
 
+#### Direction/edge
 
-<small>(v0.19)</small> 
+You can select the direction of the padding:
 
-If checked, the pad direction will not be the normal vector of the sketch but the given vector. The pad length is however set according to the normal vector direction.
+-   **Sketch normal** The sketch is extruded along its normal
+-   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model. This becomes then the direction vector for the padding. <small>(v0.20)</small> 
+-   **Custom direction** The sketch is extruded along a direction that can be specified via vector values. <small>(v0.19)</small> 
 
-### Length along sketch normal 
+#### Show custom direction 
+
+If checked, the pad direction will be shown. In case the pad uses a **Custom direction**, it can be changed. <small>(v0.20)</small> 
+
+#### Length along sketch normal 
 
 If checked, the pad length is measured along the sketch normal, otherwise along the custom direction. <small>(v0.20)</small> 
 

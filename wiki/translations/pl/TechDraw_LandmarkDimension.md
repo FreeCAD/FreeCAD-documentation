@@ -1,48 +1,48 @@
 ---
 - GuiCommand:
    Name:TechDraw LandmarkDimension
-   MenuLocation:TechDraw → Dimensions → Insert Landmark Dimension
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Wymiar przestrzenny
+   MenuLocation:Rysunek Techniczny → Wymiary → Wstaw wymiar przestrzenny
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Version:0.19
-   SeeAlso:[TechDraw HorizontalDimension](TechDraw_HorizontalDimension.md), [TechDraw VerticalDimension](TechDraw_VerticalDimension.md)
+   SeeAlso:[Wstaw wymiar poziomy](TechDraw_HorizontalDimension/pl.md), [Wstaw wymiar pionowy](TechDraw_VerticalDimension/pl.md)
 ---
 
 # TechDraw LandmarkDimension/pl
 
-## Description
+## Opis
 
-The Landmark Dimension tool adds a linear dimension to a View. The dimension is based on two Point **feature** (Draft.Point or Part.Vertex) from the 3D model. Note that the points must be **feature** objects that appear in the model [tree view](Tree_view.md). Random vertexes from a shape will not work.
+Narzędzie Wymiar przestrzenny dodaje wymiar liniowy do widoku. Wymiar jest oparty na dwóch punktach **cecha** *(Draft.Point lub Part.Vertex)* z modelu 3D. Uwaga: punkty muszą być obiektami **cecha**, które występują w [widoku drzewa](Tree_view/pl.md) modelu. Losowe wierzchołki z kształtu nie będą odpowiednie.
 
-The purpose of this tool is to provide a workaround to the corruption of dimension caused by \"[topological naming](topological_naming_problem.md)\" issues. The source points should use [Expressions](Expressions.md) or other containing mechanism to establish their position. Since the points are [Document Objects](App_DocumentObject.md), and not shape components, their name does not change with recomputes, and hence they are easily found.
+Celem tego narzędzia jest zapewnienie obejścia problemu uszkodzenia wymiarów spowodowanego przez \"[Problem nazewnictwa topologicznego](Topological_naming_problem/pl.md)\". Punkty źródłowe powinny używać [Wyrażeń](Expressions/pl.md) lub innego mechanizmu wiążącego, aby ustalić ich położenie. Ponieważ punkty są [Obiektami dokumentu](App_DocumentObject/pl.md), a nie komponentami kształtu, ich nazwa nie zmienia się przy ponownych obliczeniach, a więc łatwo je znaleźć.
 
-See [TechDraw LengthDimension](TechDraw_LengthDimension#Limitation.md) for more on dimensions and topological naming.
+Zobacz stronę [Rysunek Techniczny: Wymiar długości](TechDraw_LengthDimension/pl#Ograniczenia.md) , aby dowiedzieć się więcej na temat wymiarów i nazewnictwa topologicznego.
 
-The Landmark Dimension generally behaves like any other Dimension.
+Wymiar przestrzenny generalnie zachowuje się jak każdy inny wymiar.
 
-## Usage
+## Użycie
 
-1.  Select 2 Point objects in the [tree view](Tree_view.md) or the [3D view](3D_view.md).
-2.  Select also the View to which the dimension is to be added.
-3.  Press the **<img src="images/TechDraw_LandmarkDimension.svg" width=16px> [Landmark Dimension](TechDraw_LandmarkDimension.md)
-** button or **TechDraw → Insert Landmark Dimension**
-4.  A dimension will be added to the View. The dimension text may be dragged to the desired position.
+1.  Wybierz dwa obiekty punktów w [widoku drzewa](Tree_view/pl.md) lub oknie [widoku 3D](3D_view/pl.md).
+2.  Wybierz również widok, do którego ma zostać dodany wymiar.
+3.  Naciśnij przycisk **<img src="images/TechDraw_LandmarkDimension.svg" width=16px> [Wstaw wymiar przestrzenny](TechDraw_LandmarkDimension/pl.md)** lub wybierz z menu **Rysunek Techniczny → Wymiary → Wstaw wymiar przestrzenny**.
+4.  Wymiar zostanie dodany do widoku. Tekst wymiaru może być przeciągany na żądaną pozycję.
 
-## Limitations
+## Ograniczenia
 
-The Landmark Dimension tool is initially limited to \"Distance\" dimensions. Other types may be added if demand warrants.
+Narzędzie Wymiar przestrzenny jest początkowo zawężone do wymiarów \"Odległość\". Inne typy mogą być dodane, jeśli zapotrzebowanie na nie będzie uzasadnione.
 
-## Properties
+## Właściwości
 
-Landmark Dimension does not introduce any new properties.
+Funkcja **Wymiar przestrzenny** nie wprowadza żadnych nowych właściwości.
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również:**
 
-[TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[TechDraw API](TechDraw_API.md) i [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-The Landmark Dimension tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+Narzędzie **Wymiar przestrzenny** może być używane w [makrodefinicjach](macros/pl.md) i z konsoli [Python](Python/pl.md) za pomocą następujących funkcji:
 
 
 ```python

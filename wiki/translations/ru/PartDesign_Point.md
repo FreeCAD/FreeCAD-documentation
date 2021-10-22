@@ -14,7 +14,8 @@
 
 Creates a **datum point** which can be used as reference for sketches or other datum geometry.
 
-![](images/DatumPoint.png ) *A datum point attached to a sphere with an attachment offset of {{Value|2* in the Z direction.}}
+![](images/DatumPoint.png ) 
+*A datum point attached to a sphere with an attachment offset of {{Value|2* in the Z direction.}}
 
 ## Применение
 

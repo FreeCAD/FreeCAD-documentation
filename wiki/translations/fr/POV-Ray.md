@@ -3,100 +3,102 @@
 
 # Description
 
-POV-Ray (The Persistence of Vision Raytracer) is one of the two renderers supported by the _, Appleseed, Blender Cycles and Intel Ospray Studio (experimental).
+POV-Ray (The Persistence of Vision Raytracer) est l\'un des deux moteurs de rendu pris en charge par l\'_, Appleseed, Blender Cycles et Intel Ospray Studio (expérimental).
 
 # Installation
 
-## Raytracing Workbench 
+## Atelier Raytracing 
 
 
-**The _. The Render Workbench can be installed through the [Addon Manager](AddonManager.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench**
+**L'_, arrêté et dépassé. Le Render Workbench peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing**
 
-### Stable Version 
+.
 
-The latest stable version of POV-Ray to be provided with binaries is 3.7.0.0 (2013-11-06), the first to be free software, released under the AGPL3 (or later). The latest stable version of POV-Ray, released only as source code is 3.7.0.8 (2018-05-27).
+### Version stable 
+
+La dernière version stable de POV-Ray fournie avec des binaires est la 3.7.0.0 (2013-11-06), la première à être un logiciel libre, publié sous la licence AGPL3 (ou ultérieure). La dernière version stable de POV-Ray, publiée uniquement sous forme de code source, est la 3.7.0.8 (2018-05-27).
 
 #### Linux
 
-***Compiled binaries***
+***Binaires compilés***
 
-If your distribution has it in the official repositories, you can install POV-Ray and all the relative dependencies through the package manager. Such distributions include: [Arch Linux](https://archlinux.org/packages/community/x86_64/povray/), [Debian](https://packages.debian.org/search?keywords=povray), [Gentoo](https://packages.gentoo.org/packages/media-gfx/povray), [openSUSE](https://software.opensuse.org/package/povray), [Ubuntu](https://packages.ubuntu.com/search?keywords=povray).
+Si votre distribution le possède dans les dépôts officiels, vous pouvez installer POV-Ray et toutes les dépendances relatives via le gestionnaire de paquets. De telles distributions incluent : [Arch Linux](https://archlinux.org/packages/community/x86_64/povray/), [Debian](https://packages.debian.org/search?keywords=povray), [Gentoo](https://packages.gentoo.org/packages/media-gfx/povray), [openSUSE](https://software.opensuse.org/package/povray), [Ubuntu](https://packages.ubuntu.com/search?keywords=povray).
 
-***Compiling from source***
+***Compilation à partir de la source***
 
-If your distributions does not have POV-Ray in the repositories, or you wish to, it is possible to compile POV-Ray from source. [Download the source code of POV-Ray 3.7.0.8 from GitHub](https://github.com/POV-Ray/povray/archive/refs/tags/v3.7.0.8.tar.gz)
+Si votre distribution n\'a pas POV-Ray dans les dépôts, ou si vous le souhaitez, il est possible de compiler POV-Ray à partir des sources. [Télécharger le code source de POV-Ray 3.7.0.8 depuis GitHub](https://github.com/POV-Ray/povray/archive/refs/tags/v3.7.0.8.tar.gz).
 
-***Configuring FreeCAD***
+***Configuration de FreeCAD***
 
-After installing POV-Ray, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Raytracing Workbench](Preferences_Editor#Unloaded_Workbenches.md), and go to the [Raytracing Preferences](Raytracing_Preferences.md).
+Après avoir installé POV-Ray, lancez FreeCAD, ouvrez le [Réglage des préférences](Preferences_Editor/fr.md), [chargez l\'atelier Raytracing](Preferences_Editor/fr#Ateliers_disponibles.md) et allez dans les [Préférences de Raytracing](Raytracing_Preferences/fr.md).
 
-Set the POV-Ray executable path to point to your installation of POV-Ray, usually it is */usr/bin/povray*, and apply.
+Définissez le chemin de l\'exécutable de POV-Ray pour qu\'il pointe vers votre installation de POV-Ray, généralement c\'est */usr/bin/povray*, et appliquez.
 
 #### macOS
 
-There is no official binary of POV-Ray 3.7 or newer for macOS, if you want to compile it from source, probably you are on your own.
+Il n\'existe pas de binaire officiel de POV-Ray 3.7 ou plus récent pour macOS, si vous souhaitez le compiler à partir des sources, vous devrez probablement vous débrouiller seul.
 
-The [most recent available binaries](http://www.povray.org/redirect/www.povray.org/ftp/pub/povray/Old-Versions/Official-3.62/Macintosh/povpmac.zip) are of the old closed source POV-Ray 3.6x.
+Les [binaires disponibles les plus récents](http://www.povray.org/redirect/www.povray.org/ftp/pub/povray/Old-Versions/Official-3.62/Macintosh/povpmac.zip) sont de l\'ancienne source fermée POV-Ray 3.6x.
 
 #### Windows
 
-The latest stable version of POV-Ray to have compiled Windows binaries is POV-Ray 3.7.0.0. [Download it from GitHub](https://github.com/POV-Ray/povray/releases/download/v3.7.0.0/povwin-3.7-agpl3-setup.exe), launch the installer and follow the proposed steps.
+La dernière version stable de POV-Ray ayant compilé des binaires Windows est POV-Ray 3.7.0.0. [Téléchargez-la depuis GitHub](https://github.com/POV-Ray/povray/releases/download/v3.7.0.0/povwin-3.7-agpl3-setup.exe), lancez le programme d\'installation et suivez les étapes proposées.
 
-By default the destination folder is *C:\\Program Files\\POV-Ray\\v3.7*, with documents and scenes in *C:\\Users\\{your user}\\Documents\\POV-Ray\\v3.7*.
+Par défaut, le dossier de destination est *C:\\Program Files\\POV-Ray\\v3.7*, avec les documents et les scènes dans *C:\\Users\\{votre utilisateur}\\Documents\\POV-Ray\\v3.7*.
 
-After installing POV-Ray, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Raytracing Workbench](Preferences_Editor#Unloaded_Workbenches.md), and go to the [Raytracing Preferences](Raytracing_Preferences.md).
+Après avoir installé POV-Ray, lancez FreeCAD, ouvrez le [Réglage des préférences](Preferences_Editor/fr.md), [chargez l\'atelier Raytracing](Preferences_Editor/fr#Ateliers_disponibles.md) et allez dans les [Préférences de Raytracing](Raytracing_Preferences/fr.md).
 
-Set the POV-Ray executable path to point to your installation of POV-Ray, usually it is *C:/Program Files/POV-Ray/v3.7/bin/pvengine64.exe*, and apply.
+Définissez le chemin de l\'exécutable de POV-Ray pour qu\'il pointe vers votre installation de POV-Ray, généralement c\'est *C:/Program Files/POV-Ray/v3.7/bin/pvengine64.exe*, et appliquez.
 
-Then, before trying to render something, start POV-Ray separately and [set I/O restrictions according to POV-Ray documentation](https://wiki.povray.org/content/Documentation:Windows_Section_2.1), otherwise rendering will not work properly (or will not work at all).
+Ensuite, avant d\'essayer d\'effectuer un rendu, démarrez POV-Ray séparément et [définissez les restrictions d\'E/S (I/O) conformément à la documentation de POV-Ray](https://wiki.povray.org/content/Documentation:Windows_Section_2.1), sinon le rendu ne fonctionnera pas correctement (ou ne fonctionnera pas du tout).
 
-### Development Version 
+### Version en cours de développement 
 
-Development seems to be halted, nonethless the latest experimental builds and source code are available. As it is experimental, you are adviced against using it in production environments.
+Le développement semble avoir été interrompu, mais les dernières versions expérimentales et le code source sont disponibles. Comme il s\'agit d\'une version expérimentale, il est déconseillé de l\'utiliser dans des environnements de production.
 
 #### Linux 
 
-There are no official POV-Ray development binaries, you should compile it from source. The latest release of the official development branch is [POV-Ray v3.8.0-alpha.10064268](https://github.com/POV-Ray/povray/archive/refs/tags/v3.8.0-alpha.10064268.tar.gz).
+Il n\'y a pas de binaires de développement officiels pour POV-Ray, vous devez le compiler à partir des sources. La dernière version de la branche de développement officielle est [POV-Ray v3.8.0-alpha.10064268](https://github.com/POV-Ray/povray/archive/refs/tags/v3.8.0-alpha.10064268.tar.gz).
 
-The latest development releases (not part of the official development branch) are [POV-Ray v3.8.0-x.freetype.3](https://github.com/POV-Ray/povray/archive/refs/tags/v3.8.0-x.freetype.3.tar.gz) and [POV-Ray v3.8.0-x.10064738](https://github.com/POV-Ray/povray/archive/refs/tags/v3.8.0-x.10064738.tar.gz).
+Les dernières versions de développement (qui ne font pas partie de la branche de développement officielle) sont [POV-Ray v3.8.0-x.freetype.3](https://github.com/POV-Ray/povray/archive/refs/tags/v3.8.0-x.freetype.3.tar.gz) et [POV-Ray v3.8.0-x.10064738](https://github.com/POV-Ray/povray/archive/refs/tags/v3.8.0-x.10064738.tar.gz).
 
 #### macOS 
 
-There hasn\'t been a macOS build of POV-Ray since the closed source 3.6x version. You can try to compile it from source, but be advised that it might not even be possible.
+Il n\'y a pas eu de version macOS de POV-Ray depuis la version 3.6x à code source fermé. Vous pouvez essayer de le compiler à partir des sources, mais sachez que ce n\'est peut-être même pas possible.
 
-The latest release of the official development branch is [POV-Ray v3.8.0-alpha.10064268](https://github.com/POV-Ray/povray/archive/refs/tags/v3.8.0-alpha.10064268.zip).
+La dernière version de la branche de développement officielle est [POV-Ray v3.8.0-alpha.10064268](https://github.com/POV-Ray/povray/archive/refs/tags/v3.8.0-alpha.10064268.zip).
 
-The latest development releases (not part of the official development branch) are [POV-Ray v3.8.0-x.freetype.3](https://github.com/POV-Ray/povray/archive/refs/tags/v3.8.0-x.freetype.3.zip) and [POV-Ray v3.8.0-x.10064738](https://github.com/POV-Ray/povray/archive/refs/tags/v3.8.0-x.10064738.zip).
+Les dernières versions de développement (qui ne font pas partie de la branche de développement officielle) sont [POV-Ray v3.8.0-x.freetype.3](https://github.com/POV-Ray/povray/archive/refs/tags/v3.8.0-x.freetype.3.zip) et [POV-Ray v3.8.0-x.10064738](https://github.com/POV-Ray/povray/archive/refs/tags/v3.8.0-x.10064738.zip).
 
 #### Windows 
 
-First of all you need to install POV-Ray 3.7, see [the install instructions for the stable version](POV-Ray#Windows.md). Then open POV-Ray install directory, by default *C:\\Program Files\\POV-Ray\\v3.7*, and in the *bin* subdirectory rename the POV-Ray executable, so that you do not replace it. For example rename it to BAK-pvengine64.exe.
+Tout d\'abord, vous devez installer POV-Ray 3.7, voir [les instructions d\'installation de la version stable](POV-Ray/fr#Windows.md). Ensuite, ouvrez le répertoire d\'installation de POV-Ray, par défaut *C:\\Program Files\\POV-Ray\\v3.7*, et dans le sous-répertoire *bin* renommez l\'exécutable de POV-Ray, afin de ne pas le remplacer. Par exemple, renommez-le en BAK-pvengine64.exe.
 
-Then download the development build of POV-Ray you want to use. The latest release of the official development branch is [POV-Ray v3.8.0-alpha.10064268-av69](https://github.com/POV-Ray/povray/releases/download/v3.8.0-alpha.10064268/povray-3.8.0-alpha.10064268-av691-Win64.7z).
+Téléchargez ensuite la version de développement de POV-Ray que vous souhaitez utiliser. La dernière version de la branche de développement officielle est [POV-Ray v3.8.0-alpha.10064268-av69](https://github.com/POV-Ray/povray/releases/download/v3.8.0-alpha.10064268/povray-3.8.0-alpha.10064268-av691-Win64.7z).
 
-The latest development releases (not part of the official development branch) are [POV-Ray v3.8.0-x.freetype.3-av693](https://github.com/POV-Ray/povray/releases/download/v3.8.0-x.freetype.3/povray-3.8.0-x.freetype.3-av693-Win64.7z) and [POV-Ray v3.8.0-x.10064738-av694](https://github.com/POV-Ray/povray/releases/download/v3.8.0-x.10064738/povray-3.8.0-x.10064738-av694-Win64.7z).
+Les dernières versions de développement (qui ne font pas partie de la branche de développement officielle) sont [POV-Ray v3.8.0-x.freetype.3-av693](https://github.com/POV-Ray/povray/releases/download/v3.8.0-x.freetype.3/povray-3.8.0-x.freetype.3-av693-Win64.7z) et [POV-Ray v3.8.0-x.10064738-av694](https://github.com/POV-Ray/povray/releases/download/v3.8.0-x.10064738/povray-3.8.0-x.10064738-av694-Win64.7z).
 
-Extract the downloaded archive (if you don\'t have a suitable software use [7-Zip](https://www.7-zip.org/)) and copy the POV-Ray executable in the *bin* folder of your POV-Ray 3.7 installation.
+Extrayez l\'archive téléchargée (si vous ne disposez pas d\'un logiciel adapté, utilisez [7-Zip](https://www.7-zip.org/)) et copiez l\'exécutable POV-Ray dans le dossier *bin* de votre installation POV-Ray 3.7.
 
-## Render Workbench 
+## Atelier Render 
 
-As of now there are no significant differences between the Raytracing Workbench and the Render Workbench in the part regarding the installation of the external software, so refer to the [Raytracing Workbench section](POV-Ray#Raytracing_Workbench.md) to install POV-Ray and to this section for the Render Workbench configuration..
+Pour l\'instant, il n\'y a pas de différences significatives entre le Raytracing Workbench et le Render Workbench dans la partie concernant l\'installation du logiciel externe, donc reportez-vous à la [section atelier Raytracing](POV-Ray/fr#Atelier_Raytracing.md) pour installer POV-Ray et à cette section pour la configuration de l\'atelier Render.
 
-First of all install the Render Workbench through the [Addon Manager](Addon_Manager.md) and restart FreeCAD.
+Tout d\'abord, installez l\'atelier Render via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) et redémarrez FreeCAD.
 
 #### Linux 
 
-After installing the Render Workbench and POV-Ray, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Render Workbench](Preferences_Editor#Unloaded_Workbenches.md), and go to the Render Preferences.
+Après avoir installé l\'atelier Render et POV-Ray, lancez FreeCAD, ouvrez le [Preferences Editor](Preferences_Editor.md), [chargez l\'atelier Render](Preferences_Editor/fr#Ateliers_disponibles.md) et allez dans les préférences de Render.
 
-Set the POV-Ray executable path to point to your installation of POV-Ray, usually it is */usr/bin/povray*, and apply.
+Définissez le chemin de l\'exécutable de POV-Ray pour qu\'il pointe vers votre installation de POV-Ray, généralement c\'est */usr/bin/povray*, et appliquez.
 
 #### Windows 
 
-After installing the Render Workbench and POV-Ray, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Render Workbench](Preferences_Editor#Unloaded_Workbenches.md), and go to the Render Preferences.
+Après avoir installé l\'atelier Render et POV-Ray, lancez FreeCAD, ouvrez le [Preferences Editor](Preferences_Editor.md), [chargez l\'atelier Render](Preferences_Editor/fr#Ateliers_disponibles.md) et allez dans les préférences de Render.
 
-Set the POV-Ray executable path to point to your installation of POV-Ray, usually it is *C:/Program Files/POV-Ray/v3.7/bin/pvengine64.exe*, and apply.
+Définissez le chemin de l\'exécutable de POV-Ray pour qu\'il pointe vers votre installation de POV-Ray, généralement c\'est *C:/Program Files/POV-Ray/v3.7/bin/pvengine64.exe*, et appliquez.
 
-Then, before trying to render something, start POV-Ray separately and [set I/O restrictions according to POV-Ray documentation](https://wiki.povray.org/content/Documentation:Windows_Section_2.1), otherwise rendering will not work properly (or will not work at all).
+Ensuite, avant d\'essayer d\'effectuer un rendu, démarrez POV-Ray séparément et [définissez les restrictions d\'E/S (I/O) conformément à la documentation de POV-Ray](https://wiki.povray.org/content/Documentation:Windows_Section_2.1), sinon le rendu ne fonctionnera pas correctement (ou ne fonctionnera pas du tout).
 
 ---
 [documentation index](../README.md) > POV-Ray/fr

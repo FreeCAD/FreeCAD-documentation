@@ -38,6 +38,7 @@ Lo strumento Ruota può essere utilizzato su forme 2D create con [Draft](Draft_W
 <div class="mw-translate-fuzzy">
 
 
+
 *Rotazione di un oggetto usando un punto di riferimento, da un angolo di riferimento a un altro angolo*
 
 

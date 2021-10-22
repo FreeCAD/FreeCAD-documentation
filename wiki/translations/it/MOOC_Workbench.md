@@ -28,7 +28,8 @@ Le esercitazioni **Interattive** (anche chiamate Player) sono esercizi guidati s
 </div>
 
 <img alt="" src=images/MOOC_Player_Dialog_Context.png  style="width:1024px;"> 
-*align=center|MOOC Player Dialog within FreeCAD GUI* ![](images/MOOC_Player_Dialog.png ) *MOOC Player Dialog close up*
+*align=center|MOOC Player Dialog within FreeCAD GUI* ![](images/MOOC_Player_Dialog.png ) 
+*MOOC Player Dialog close up*
 
 
 <div class="mw-translate-fuzzy">

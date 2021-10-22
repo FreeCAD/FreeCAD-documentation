@@ -10,6 +10,7 @@ See [Part TopoShape](Part_TopoShape.md) for more information about this type of 
 ![](images/Shape_and_mesh.svg )
 
 
+
 *Left: parametric _, defined by vertices and triangular surfaces.*
 
 ## Usage

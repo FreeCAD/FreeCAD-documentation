@@ -10,6 +10,7 @@ Zobacz stronę [Część: Kształt topologiczny](Part_TopoShape/pl.md) aby uzysk
 ![](images/Shape_and_mesh.svg )
 
 
+
 *Po lewej: _, zdefiniowana przez wierzchołki i powierzchnie trójkątne.*
 
 ## Użycie

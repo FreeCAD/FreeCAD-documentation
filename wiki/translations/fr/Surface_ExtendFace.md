@@ -19,6 +19,7 @@ extrapole une face ou une surface existante à ses limites avec ses paramètres 
 <img alt="" src=images/Surface_ExtendFace_base_example.png  style="width:300px;"> <img alt="" src=images/Surface_ExtendFace_example.png  style="width:300px;">
 
 
+
 *À gauche: surface d'origine. À droite: surface étendu.*
 
 ## Utilisation

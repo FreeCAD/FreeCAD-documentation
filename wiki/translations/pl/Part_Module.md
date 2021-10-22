@@ -17,6 +17,7 @@ Obiekty części są bardziej złożone niż obiekty siatkowe utworzone przy uż
 <img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;">
 
 
+
 *Środowisko pracy Część jest podstawową warstwą, która udostępnia funkcje rysowania '''OCCT''' dla każdego Środowiska pracy w programie FreeCAD.*
 
 ### Narzędzia

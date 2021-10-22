@@ -37,6 +37,7 @@ L\'ambiente Raytracing è essenzialmente obsoleto. Nuovi sviluppi stanno avvenen
 <img alt="" src=images/Raytracing_Workbench_workflow.svg  style="width:600px;">
 
 
+
 *Flusso di lavoro del Raytracing Workbench; il workbench prepara un file di progetto da un determinato modello e quindi chiama un programma esterno per produrre il rendering effettivo della scena. Il renderer esterno può essere usato indipendentemente da FreeCAD.*
 
 ## Strumenti

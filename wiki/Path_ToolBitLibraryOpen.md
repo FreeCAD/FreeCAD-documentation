@@ -64,14 +64,16 @@ A. By clicking the column headers of the library you can sort the toolbit librar
 
 :   ![](images/Librarysort.png )
 :   
-    *Sort the toolbit library via the column headers*
+    
+*Sort the toolbit library via the column headers*
     
 
 B. By doubleclicking in the first column you can edit the toolbit number. This will be the default tool number used when creating a new tool controller. It is possible to use the same number for multiple toolbits.
 
 :   ![](images/Edittoolnumber.png )
 :   
-    *Double click first column to edit toolbit number*
+    
+*Double click first column to edit toolbit number*
     
 
 C. Double clicking anywhere else in the row will open the toolbit editing panel. From here you can edit other properties of the toolbit.
@@ -79,7 +81,8 @@ C. Double clicking anywhere else in the row will open the toolbit editing panel.
 :   ![](images/Editingpanel.png )
 
     :   
-        *Open toolbit editing panel by clicking anywhere else in the row.*
+        
+*Open toolbit editing panel by clicking anywhere else in the row.*
         
 
 ## Related

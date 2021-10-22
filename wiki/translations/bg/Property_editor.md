@@ -35,6 +35,7 @@ The [property editor](property_editor.md) appears when the **Model** tab of the 
 ![](images/FreeCAD_Property_editor_empty.png )
 
 
+
 *Empty property editor, when no object is selected.*
 
 
@@ -101,6 +102,7 @@ print(obj.Label)
 ```
 
 <img alt="" src=images/FreeCAD_Property_editor_View_basic.png  style="width:" height="264px;"> <img alt="" src=images/FreeCAD_Property_editor_Data_basic.png  style="width:" height="264px;">
+
 
 
 *View and Data tabs of the property editor, for a basic "App::FeaturePython" scripted object.*
@@ -264,7 +266,8 @@ obj.CustomCamelProperty = 1000
 print(obj.CustomCamelProperty)
 ```
 
-![](images/FreeCAD_Property_editor_Custom.png ) *Property editor showing the Data properties of a [PartDesign Body](PartDesign_Body.md), with two additional properties, "Custom" and "Custom Camel Property".*
+![](images/FreeCAD_Property_editor_Custom.png ) 
+*Property editor showing the Data properties of a [PartDesign Body](PartDesign_Body.md), with two additional properties, "Custom" and "Custom Camel Property".*
 
 In similar way the **View** properties are added, not to the base object, but to its `ViewObject`. Then, it follows that properties like **Angular Deflection**, **Bounding Box**, **Display Mode**, **Display Mode Body**, **Line Color**, and others, can be examined and changed from the [Python console](Python_console.md).
 

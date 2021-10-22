@@ -3,7 +3,7 @@
    Name:Plot Legend
    Name/fr:Plot Légende
    MenuLocation:Plot → Afficher/Masquer la légende
-   Workbenches:[Plot](Plot_Module/fr.md)
+   Workbenches:[Plot](Plot_Workbench/fr.md)
 ---
 
 # Plot Legend/fr

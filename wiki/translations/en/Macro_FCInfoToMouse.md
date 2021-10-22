@@ -33,7 +33,8 @@ Provides info about coordinates, length, and angles in real-time next to the mou
 
     :   <img alt="" src=images/Macro_FCInfoToMouse_01.png  style="width:240px;">
     :   
-        *Figure 1*
+        
+*Figure 1*
         
 
 :\* **X, Y, Z**: mouse coordinates are displayed in the bubble (this only applies when \"Single\" mode is enabled) as seen in Fig. 1
@@ -50,7 +51,8 @@ Provides info about coordinates, length, and angles in real-time next to the mou
 
     :   <img alt="" src=images/Macro_FCInfoToMouse_02.png  style="width:240px;">
     :   
-        *Figure 2*
+        
+*Figure 2*
         
 
 :\* **X1, Y1, Z1** : Initial coordinates of the 1st mouse click
@@ -66,7 +68,8 @@ Provides info about coordinates, length, and angles in real-time next to the mou
     :   <img alt="" src=images/Macro_FCInfoToMouse_03.png  style="width:240px;">
 
 :   
-    *Figure 3 - when mouse pointer is over an object, the name of the object will be displayed*
+    
+*Figure 3 - when mouse pointer is over an object, the name of the object will be displayed*
     
 
 

@@ -15,7 +15,8 @@ Avant de démarrer l\'[atelier FCGear](FCGear_Workbench/fr.md), il doit être in
 
 :   ![](images/FCGear_Drop-down-menu_example-en.png )
 :   
-    *Le menu déroulant de FCGear*
+    
+*Le menu déroulant de FCGear*
     
 
 ## Types d\'engrenages 
@@ -24,49 +25,56 @@ Avant de démarrer l\'[atelier FCGear](FCGear_Workbench/fr.md), il doit être in
 
 :   ![](images/Involute-Gear_example.png )
 :   
-    *De gauche à droite : engrenage droit, engrenage hélicoïdal, double engrenage hélicoïdal (Voir [FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md))*
+    
+*De gauche à droite : engrenage droit, engrenage hélicoïdal, double engrenage hélicoïdal (Voir [FCGear Engrenage à développante](FCGear_InvoluteGear/fr.md))*
     
 
 ### Engrenage à crémaillère 
 
 :   ![](images/Involute-Rack_example.png )
 :   
-    *De gauche à droite : crémaillère droite, crémaillère pour engrenage hélicoïdal, crémaillère pour double engrenage hélicoïdal (voir [FCGear Engrenage à crémaillère](FCGear_InvoluteRack/fr.md))*
+    
+*De gauche à droite : crémaillère droite, crémaillère pour engrenage hélicoïdal, crémaillère pour double engrenage hélicoïdal (voir [FCGear Engrenage à crémaillère](FCGear_InvoluteRack/fr.md))*
     
 
 ### Engrenage cycloïde 
 
 :   ![](images/Cycloid-Gear_example_1.png )
 :   
-    *De gauche à droite : engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal (voir [FCGear Engrenage cycloïde](FCGear_CycloideGear/fr.md))*
+    
+*De gauche à droite : engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal (voir [FCGear Engrenage cycloïde](FCGear_CycloideGear/fr.md))*
     
 
 ### Engrenage conique 
 
 :   ![](images/Bevel-Gear_example.png )
 :   
-    *De gauche à droite : engrenage droit, engrenage en spirale (voir [FCGear Engrenage conique](FCGear_BevelGear/fr.md))*
+    
+*De gauche à droite : engrenage droit, engrenage en spirale (voir [FCGear Engrenage conique](FCGear_BevelGear/fr.md))*
     
 
 ### Vis sans fin 
 
 :   ![](images/Worm-Gear_example.png )
 :   
-    *Ci-dessus : engrenage à vis sans fin (voir [FCGear Vis sans fin](FCGear_WormGear/fr.md))*
+    
+*Ci-dessus : engrenage à vis sans fin (voir [FCGear Vis sans fin](FCGear_WormGear/fr.md))*
     
 
 ### Engrenage couronne 
 
 :   ![](images/Crown-Gear_example.png )
 :   
-    *Ci-dessus : Engrenage couronne (voir [FCGear Engrenage couronne](FCGear_CrownGear/fr.md))*
+    
+*Ci-dessus : Engrenage couronne (voir [FCGear Engrenage couronne](FCGear_CrownGear/fr.md))*
     
 
 ### Engrenage de distribution et pignon lanterne 
 
 :   ![](images/Timing+Latern-gear_example.png )
 :   
-    *De gauche à droite : engrenage de distribution, engrenage de lanterne (voir [FCGear Engrenage de distribution](FCGear_TimingGear/fr.md) ou [FCGear Pignon lanterne](FCGear_LanternGear/fr.md))*
+    
+*De gauche à droite : engrenage de distribution, engrenage de lanterne (voir [FCGear Engrenage de distribution](FCGear_TimingGear/fr.md) ou [FCGear Pignon lanterne](FCGear_LanternGear/fr.md))*
     
 
 ## Références

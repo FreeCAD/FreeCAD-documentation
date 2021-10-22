@@ -14,7 +14,8 @@ The **Mesh Difference** command creates a new non-parametric mesh object, a [Mes
 
 _.
 
-![](images/Mesh_Difference_example.png ) *On the left two mesh objects, on the right the mesh object that is the difference of those objects if the cube is selected as the main object*
+![](images/Mesh_Difference_example.png ) 
+*On the left two mesh objects, on the right the mesh object that is the difference of those objects if the cube is selected as the main object*
 
 ## Usage
 

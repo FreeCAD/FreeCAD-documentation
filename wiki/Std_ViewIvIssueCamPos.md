@@ -14,7 +14,8 @@ The **Std ViewIvIssueCamPos** command prints the camera settings of the active [
 
  
 ```python   OrthographicCamera {   viewportMapping ADJUST_CAMERA   position 57.73505 -57.73502 57.735027   orientation 0.74290609 0.30772209 0.59447283  1.2171158   nearDistance 81.588844   farDistance 109.60551   aspectRatio 1   focalDistance 100   height 100  } 
-``` *Example output: camera settings after changing to [isometric view](Std_ViewIsometric.md) in a new document*
+``` 
+*Example output: camera settings after changing to [isometric view](Std_ViewIsometric.md) in a new document*
 
 ## Usage
 

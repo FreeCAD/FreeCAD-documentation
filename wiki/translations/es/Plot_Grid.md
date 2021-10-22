@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Plot Grid
    MenuLocation:Plot → Show/hide grid‏‎
-   Workbenches:[Plot](Plot_Module.md)
+   Workbenches:[Plot](Plot_Workbench.md)
 ---
 
 # Plot Grid/es

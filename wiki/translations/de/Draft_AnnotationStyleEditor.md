@@ -14,7 +14,8 @@
 
 Das **<img src="images/Draft_AnnotationStyleEditor.svg" width=24px> [Anmeldungsstileditor](Draft_AnnotationStyleEditor/de.md)**-Werkzeug ermöglicht es dir, Stile zu definieren, die die visuellen Eigenschaften von anmerkungsähnlichen Objekten beeinflussen, wie z.B. jene, die durch [Text](Draft_Text/de.md)-, [Abmessung](Draft_Dimension/de.md)- und [Beschriftung](Draft_Label/de.md)-Befehle erstellten.
 
-![](images/Draft_AnnotationStyleEditor_example.png ) *Die AnmerkungsStileditor-Dialog-Box.*
+![](images/Draft_AnnotationStyleEditor_example.png ) 
+*Die AnmerkungsStileditor-Dialog-Box.*
 
 ## Anwendung
 

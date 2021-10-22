@@ -17,6 +17,7 @@ Ciertas propiedades de la vista, como el color de fondo, el estilo [navegación 
 <img alt="" src=images/FreeCAD_3D_view.png  style="width:600px;">
 
 
+
 *La [vista 3D](3D_view/es.md) es un componente de la [interfaz](interface/es.md) de FreeCAD. Por defecto muestra un pequeño widget con ejes de coordenadas, y el cubo de navegación también con ejes de coordenadas; la cuadrícula puede ser visualizada y configurada cargando el [ambiente de trabajo de borrador](Draft_Workbench/es.md).*
 
 ## Acciones

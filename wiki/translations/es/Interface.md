@@ -8,6 +8,7 @@ La [interfaz](interface/es.md) de FreeCAD está basada en Qt, un conocido kit de
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
+
 *Interfaz estándar en la v0.19.*
 
 La ventana principal de la aplicación puede dividirse a grandes rasgos en 11 secciones:

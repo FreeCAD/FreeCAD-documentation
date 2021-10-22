@@ -14,7 +14,8 @@
 
 [3D Ansichten](3D_view/de.md) kann abgekoppelt werden von der Haupt [FreeCAD Oberfläche](Interface/de.md) und auf eine anderen Bildschirm verschoben werden, zum Beispiel.
 
-![](images/FinestraNonAgganciata.png ) *Eine abgekoppelte 3D Ansicht*
+![](images/FinestraNonAgganciata.png ) 
+*Eine abgekoppelte 3D Ansicht*
 
 ## Angekoppelt
 

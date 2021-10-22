@@ -20,7 +20,8 @@ Draft DXF è un modulo software utilizzato dai comandi <img alt="" src=images/St
 
 </div>
 
-![](images/Screenshot_qcad.jpg ) *Disegno fatto con Qcad esportato in DXF, e successivamente aperto in FreeCAD*
+![](images/Screenshot_qcad.jpg ) 
+*Disegno fatto con Qcad esportato in DXF, e successivamente aperto in FreeCAD*
 
 ## Importazione
 

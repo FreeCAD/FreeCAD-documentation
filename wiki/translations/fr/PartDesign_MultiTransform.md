@@ -141,7 +141,9 @@ Une fois lancé et complété de cette façon, **![](images/)_[Transformation_m
 
 ## Exemples
 
-![c\|800px](images/mt_example2.png ) *La plus petite protrusion a d'abord été configurée trois fois dans la direction X, puis redimensionnée deux fois plus grande (les trois occurrences ont donc les facteurs d'échelle 1.0, 1.5 et 2.0). Ensuite, une répétition polaire a été appliquée avec 8 occurrences.* ![c\|800px](images/mt_example3.png ) *La cavité a d'abord subit une symétrie sur le plan YZ puis fut configurée avec deux répétitions linéaires pour donner un motif rectangulaire.* 
+![c\|800px](images/mt_example2.png ) 
+*La plus petite protrusion a d'abord été configurée trois fois dans la direction X, puis redimensionnée deux fois plus grande (les trois occurrences ont donc les facteurs d'échelle 1.0, 1.5 et 2.0). Ensuite, une répétition polaire a été appliquée avec 8 occurrences.* ![c\|800px](images/mt_example3.png ) 
+*La cavité a d'abord subit une symétrie sur le plan YZ puis fut configurée avec deux répétitions linéaires pour donner un motif rectangulaire.* 
 
 
 

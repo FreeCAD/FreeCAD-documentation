@@ -12,7 +12,8 @@
 
 Il comando **Leviga** smussa gli oggetti mesh cambiando la posizione dei loro vertici.
 
-![](images/Meshes_Smooth.jpg ) *Il pannello delle azioni Leviga dopo aver scelto l'opzione Solo selezione*
+![](images/Meshes_Smooth.jpg ) 
+*Il pannello delle azioni Leviga dopo aver scelto l'opzione Solo selezione*
 
 ## Utilizzo
 

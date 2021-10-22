@@ -38,7 +38,8 @@ This icon is displayed as follows:
 
 FreeCAD uses a palette adapted from the [Tango palette](https://web.archive.org/web/20190921043652/http://tango.freedesktop.org/tango_icon_theme_guidelines). Each main color comes in 4 tones: Highlight, Base, Dark and Outline. Notice that the Outline is not completely black but a very dark variation of the Base.
 
-![](images/Green_tones.PNG ) *Example of a 4 tone color family (Chameleon)*
+![](images/Green_tones.PNG ) 
+*Example of a 4 tone color family (Chameleon)*
 
 See [FreeCAD palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) for the full range. A selection of some key colors.
 

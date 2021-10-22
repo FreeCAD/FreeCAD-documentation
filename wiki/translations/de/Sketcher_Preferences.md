@@ -9,7 +9,13 @@ Der Einstellungsbildschirm des [Skizzierer Arbeitsbereich](Sketcher_Workbench/de
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Es gibt drei Reiter: Allgemein, Anzeige und Farben.
+
+
+</div>
 
 ## Allgemein
 

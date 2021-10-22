@@ -32,35 +32,46 @@ Each Tool has a **Help Button** ![](images/Help-btn.png ) to get some useful tip
 _
 
 
+
 *align=center|YouTube Tutorial [https://youtu.be/owGzsd1fyZc Manipulator WorkBench @Work]*
 
 ## Tools
 
-![](images/Manipulator-WB-Tools.png ) *center=align|Above: Manipulator workbench dialog. For a more detailed description see [https://github.com/easyw/Manipulator/blob/master/README.md README.md] on Github.*
+![](images/Manipulator-WB-Tools.png ) 
+*center=align|Above: Manipulator workbench dialog. For a more detailed description see [https://github.com/easyw/Manipulator/blob/master/README.md README.md] on Github.*
 
 ### Aligner
 
-![](images/Manipulator-WB-Aligner.gif ) *Aligner: set of tools to move and align 3D parts; it can also align an object (face, edge, point) to the origin in FreeCAD*
+![](images/Manipulator-WB-Aligner.gif ) 
+*Aligner: set of tools to move and align 3D parts; it can also align an object (face, edge, point) to the origin in FreeCAD*
 
 ### Mover
 
-![](images/Manipulator-WB-Mover.gif ) *Mover: set of tools to move and rotate 3D parts on different Axis*
+![](images/Manipulator-WB-Mover.gif ) 
+*Mover: set of tools to move and rotate 3D parts on different Axis*
 
-![](images/Manipulator-WB-Mover-with-App_Part&Body.gif ) *Mover: Using App:Part and Body*
+![](images/Manipulator-WB-Mover-with-App_Part&Body.gif ) 
+*Mover: Using App:Part and Body*
 
-![](images/Manipulator-WB-Mover-with-External-Reference.gif ) *Mover: with External Reference*
+![](images/Manipulator-WB-Mover-with-External-Reference.gif ) 
+*Mover: with External Reference*
 
 ### Caliper
 
-![](images/Manipulator-WB-Measure-Radius.gif ) *Caliper: measuring Radius*
+![](images/Manipulator-WB-Measure-Radius.gif ) 
+*Caliper: measuring Radius*
 
-![](images/Manipulator-WB-Measure-Angles.gif ) *Caliper: measuring Angles*
+![](images/Manipulator-WB-Measure-Angles.gif ) 
+*Caliper: measuring Angles*
 
-![](images/Manipulator-WB-Dimension.gif ) *Caliper: measuring Dimensions*
+![](images/Manipulator-WB-Dimension.gif ) 
+*Caliper: measuring Dimensions*
 
-![](images/Manipulator-WB-Dimension-2.gif ) *Caliper: measuring Dimensions (cont.)*
+![](images/Manipulator-WB-Dimension-2.gif ) 
+*Caliper: measuring Dimensions (cont.)*
 
-![](images/Manipulator-WB-Parallel-Planes-Distance.gif ) *Caliper: parallel planes distance*
+![](images/Manipulator-WB-Parallel-Planes-Distance.gif ) 
+*Caliper: parallel planes distance*
 
 ### Manipulator
 

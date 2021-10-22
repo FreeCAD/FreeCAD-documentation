@@ -17,6 +17,7 @@ L\'outil Vue active insère une copie d\'une fenêtre 3D dans une page de dessin
 ![](images/TechDraw_ActiveView_example.png )
 
 
+
 *Une vue simple du modèle 3D qui n'effectue aucun calcul complexe.*
 
 ## utilisation

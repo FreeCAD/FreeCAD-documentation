@@ -26,7 +26,8 @@ Lo strumento Annotazione aggiunge un blocco di testo a una pagina di disegno.
 3.  Nella pagina viene visualizzato un blocco di testo contenente \"Testo predefinito\". Utilizzare l\'editor delle proprietà per modificare il testo. Trascinare l\'annotazione nella posizione desiderata.
 4.  Potrebbe essere necessario premere ** <img src="images/Std_Refresh.svg" width=16px> [Aggiorna](Std_Refresh/it.md)** e/o **<img src="images/TechDraw_RedrawPage.svg" width=16px> [Ridisegna la pagina](TechDraw_RedrawPage/it.md)** per far cambiare il testo.
 
-![](images/UpdateAnnotation.png ) *Modifica dell'annotazione tramite l'editor delle proprietà*
+![](images/UpdateAnnotation.png ) 
+*Modifica dell'annotazione tramite l'editor delle proprietà*
 
 
 **Note:**

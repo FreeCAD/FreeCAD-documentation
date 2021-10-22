@@ -24,6 +24,7 @@ Przede wszystkim pobierz i zainstaluj FreeCAD. Informacje na temat aktualnych we
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
+
 *Standardowy interfejs FreeCAD.*
 
 

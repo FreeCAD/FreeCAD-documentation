@@ -38,6 +38,7 @@ Dieses Werkzeug arbeitet genau wie das [Entwurf Bogen](Draft_Arc/de.md) Werkzeug
 <div class="mw-translate-fuzzy">
 
 
+
 *Kreis definiert durch zwei Punkte*
 
 

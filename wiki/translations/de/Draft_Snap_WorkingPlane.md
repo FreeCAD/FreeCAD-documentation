@@ -27,6 +27,7 @@ Diese Methode platziert immer einen neuen Punkt auf der aktuellen [Arbeitsebene]
 <div class="mw-translate-fuzzy">
 
 
+
 *Einrasten des zweiten Punkts einer Linie an einem Endpunkt einer Kante eines Körpers, der dann auf die XY-Ebene projiziert wird*
 
 

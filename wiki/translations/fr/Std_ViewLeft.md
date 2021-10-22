@@ -14,7 +14,8 @@
 
 La **Std Vue de gauche** place la caméra dans la [vue 3D](3D_view/fr.md) dans la direction de l\'axe des X positifs.
 
-![](images/FreeCAD_views_rear.svg ) *La flèche 6 pointe dans le sens de la vue de gauche*
+![](images/FreeCAD_views_rear.svg ) 
+*La flèche 6 pointe dans le sens de la vue de gauche*
 
 ## Utilisation
 

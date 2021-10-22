@@ -78,9 +78,11 @@ w = Draft.makeWire(p, closed=False)
  <img alt="" src=images/01_T02_wire_wall.png  style="width:600px;"> 
 
 
+
 *align=center|Base wire for the wall*
 
  <img alt="" src=images/02_T02_just_wall.png  style="width:600px;"> 
+
 
 
 *align=center|Wall constructed from the wire*
@@ -93,6 +95,7 @@ w = Draft.makeWire(p, closed=False)
 :   7.2. Click the [Arch Window](Arch_Window.md) tool again, and place another door, but this time in the midpoint of the rightmost wall; rotate the [standard view](standard_view.md) as necessary.
 
  <img alt="" src=images/03_T02_wall_place_doors.png  style="width:600px;"> 
+
 
 
 *align=center|Snapping to the midpoint of the bottom edge of the wall to place the door*
@@ -115,9 +118,11 @@ w = Draft.makeWire(p, closed=False)
  ![](images/04_T02_window_constraints_outer_frame.png ) 
 
 
+
 *align=center|Constraints for the outer wires of the sketch that form the window*
 
  ![](images/05_T02_window_constraints_inner_frame.png ) 
+
 
 
 *align=center|Constraints for the inner wires of the sketch that form the window*
@@ -130,9 +135,11 @@ w = Draft.makeWire(p, closed=False)
  <img alt="" src=images/07_T02_window_sketch_in_wall.png  style="width:600px;"> 
 
 
+
 *align=center|Window sketch moved to the desired position on the wall*
 
  <img alt="" src=images/06_T02_window_sketch_properties_constraints.png  style="width:600px;"> 
+
 
 
 *align=center|Named constraints of the sketch, which can be modified without going inside the sketch*
@@ -140,6 +147,7 @@ w = Draft.makeWire(p, closed=False)
 11\. Change back to the [Arch Workbench](Arch_Workbench.md) and, with the new `Sketch002` selected, use [Arch Window](Arch_Window.md). A window will be created, and will make a hole in the wall. The window is made from a custom sketch, and not from a preset, so it needs to be edited in order to correctly display its components, that is, the fixed frame, the inner frame, and the glass panel.
 
  <img alt="" src=images/08_T02_window_basic_in_wall.png  style="width:600px;"> 
+
 
 
 *align=center|Custom window created from the sketch; it still doesn't have a proper frame, nor glass*
@@ -153,6 +161,7 @@ w = Draft.makeWire(p, closed=False)
 :   13.1. Inside the `Window elements` dialog there are two panes, `Wires` and `Components`. There are three wires, `Wire0`, `Wire1`, and `Wire2`, and one component, `Default`. The wires refer to the closed loops that were drawn in the sketch; the components define the areas in the sketch that will be extruded to create frame or glass panels with real thicknesses; these areas are delimited by the wires. A window created from a preset already has two components, `OuterFrame` and `Glass`. The custom window needs to be edited to have a similar structure.
 
  ![](images/09_T02_window_edit_default.png ) 
+
 
 
 *align=center|Dialog to edit a window or a door*
@@ -181,6 +190,7 @@ w = Draft.makeWire(p, closed=False)
  ![](images/10_T02_window_edit_components.png ) 
 
 
+
 *align=center|Editing a previously defined component of a window or a door*
 
 
@@ -189,9 +199,11 @@ w = Draft.makeWire(p, closed=False)
  ![](images/11_T02_window_property_view.png ) 
 
 
+
 *align=center|Property view of the window to add default Frame length, Offset length, and other options*
 
  <img alt="" src=images/12_T02_window_finished.png  style="width:600px;"> 
+
 
 
 *align=center|Finished window with appropriate components embedded in the wall*
@@ -208,6 +220,7 @@ w = Draft.makeWire(p, closed=False)
  ![](images/13_T02_sketch_attachment_edit.png ) 
 
 
+
 *align=center|Dialog to edit the attachment plane of the sketch*
 
 16\. You may adjust the dimensions of the new window by changing the named parameters in `Sketch003` under **Constraints**, for example, set `Height` to `2 m`, and `Frame Fixed Bottom` to `0 m`. Then press **Ctrl**+**R** to [recompute](recompute.md) the model. If the wall doesn\'t show a bigger hole for the new window, select the wall in the tree view, right click and choose `Mark to recompute`, then press **Ctrl**+**R** again.
@@ -215,6 +228,7 @@ w = Draft.makeWire(p, closed=False)
 17\. These operations have changed the position of the new window, but the opening in the wall doesn\'t look correct. It is slanted, that is, the hole is not perpendicular to the face of the wall, and it may even cut other parts of the wall. The problem is that `Window001` has retained the **Normal** information of the original `Window`.
 
  <img alt="" src=images/14_T02_sketch_2_attached_slanted.png  style="width:600px;"> 
+
 
 
 *align=center|Incorrect opening in the wall due to bad Normal of the window*
@@ -241,9 +255,11 @@ When a sketch is created, it always has two axes, a local X (red) and a local Y 
  <img alt="" src=images/15_T02_sketch_local_coordinates.png  style="width:600px;"> 
 
 
+
 *align=center|Local coordinates of a sketch that is "standing up", that is, mapped to the global XZ plane*
 
  <img alt="" src=images/16_T02_sketch_correct_normal_direction.png  style="width:600px;"> 
+
 
 
 *align=center|Intended directions of the normals for each door and window*
@@ -301,6 +317,7 @@ After doing these changes, recompute the model with **Ctrl**+**R**. If the wall 
 19\. The orientation of the extrusion of the window is resolved, together with the opening in the wall.
 
  <img alt="" src=images/17_T02_sketch_2_attached_correctly.png  style="width:600px;"> 
+
 
 
 *align=center|Correct opening in the wall due to proper Normal of the window*

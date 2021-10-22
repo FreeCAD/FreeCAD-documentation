@@ -16,6 +16,7 @@
 <img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;">
 
 
+
 *Верстак Part Workbench это базовый слой, предоставляющий чертёжные функции OCCT всем верстакам FreeCAD.*
 
 ## Инструменты

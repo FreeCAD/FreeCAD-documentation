@@ -18,7 +18,8 @@ Perspectivă are adâncime pe când modul Ortogonal areadâncime fixă . Puteți
 
 The **Std PerspectiveCamera** command switches the camera in the active [3D view](3D_view.md) to perspective view mode. In this mode, objects that are further from the camera appear smaller than those that are closer.
 
-![](images/Std_PerspectiveCamera_example.svg ) *Two cubes with the same dimensions in perspective view*
+![](images/Std_PerspectiveCamera_example.svg ) 
+*Two cubes with the same dimensions in perspective view*
 
 
 <div class="mw-translate-fuzzy">

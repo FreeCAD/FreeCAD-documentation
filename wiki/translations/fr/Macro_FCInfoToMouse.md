@@ -33,7 +33,8 @@ Fournit des informations sur les coordonnées, la longueur et les angles en temp
 
     :   <img alt="" src=images/Macro_FCInfoToMouse_01.png  style="width:240px;">
     :   
-        *Figure 1*
+        
+*Figure 1*
         
 
 :\* **X, Y, Z** : les coordonnées de la souris sont affichées dans la bulle (ceci ne s\'applique que lorsque le mode \"Single\" est activé) comme le montre la Fig. 1.
@@ -50,7 +51,8 @@ Fournit des informations sur les coordonnées, la longueur et les angles en temp
 
     :   <img alt="" src=images/Macro_FCInfoToMouse_02.png  style="width:240px;">
     :   
-        *Figure 2*
+        
+*Figure 2*
         
 
 :\* **X1, Y1, Z1** : Coordonnées initiales du 1er clic de la souris
@@ -66,7 +68,8 @@ Fournit des informations sur les coordonnées, la longueur et les angles en temp
     :   <img alt="" src=images/Macro_FCInfoToMouse_03.png  style="width:240px;">
 
 :   
-    *Figure 3 - lorsque le pointeur de la souris est sur un objet, le nom de l'objet est affiché*
+    
+*Figure 3 - lorsque le pointeur de la souris est sur un objet, le nom de l'objet est affiché*
     
 
 

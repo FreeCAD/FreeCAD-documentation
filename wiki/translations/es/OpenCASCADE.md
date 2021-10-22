@@ -10,6 +10,7 @@ Las clases geométricas de OCCT están en su mayoría implementadas y disponible
 <img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;">
 
 
+
 *OpenCASCADE proporciona las clases geométricas básicas y las funciones de dibujo al módulo [Pieza](Part_Workbench.md), que luego son utilizadas por todos los ambientes de trabajo en FreeCAD.*
 
 OpenCASCADE no debe confundirse con _.
@@ -64,6 +65,7 @@ A partir de una arista o cara también se puede volver a su contrapartida geomé
 Así, a partir de las formas se pueden construir piezas muy complejas o, al revés, extraer todas las subformas de las que está hecha una forma más compleja.
 
 <img alt="" src=images/Part_TopoShape_relationships.svg  style="width:600px;">
+
 
 
 *La clase `Part::TopoShape* es el objeto geométrico que se ve en pantalla. Esencialmente todos los ambientes de trabajo utilizan estos [TopoFormas](Part_TopoShape/es.md) internamente para construir y mostrar aristas, caras y sólidos.`

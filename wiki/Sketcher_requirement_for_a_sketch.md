@@ -16,6 +16,7 @@ That a closed curve is present, is not self-evident and not recognizable. When c
  ![](images/Skizze2a.png ) 
 
 
+
 *A simple sketch. 
 Left: Curve only in four places (red, automatic constraints when drawing with <img src=images/_Sketcher_CreatePolyline.svg style="width:32px"> [Polyline](Sketcher_CreatePolyline.md)) closed. 
 Middle: Warning - ... broken face (broken curve). 
@@ -28,6 +29,7 @@ However, consistent parametric working means that the sketch is completely deter
 Even a relatively simple sketch may contain dozens of indeterminacies (indicated in the combo view as a \"degrees of freedom\" number). To eliminate them together at the end is a relatively confusing task.
 
  ![](images/Skizze4a.png ) 
+
 
 
 *A simple sketch; completely determined by 25 constraints, of which only 5 are dimension constraints.*

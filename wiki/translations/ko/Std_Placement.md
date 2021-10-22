@@ -16,7 +16,8 @@
 
 **표준 배치(Std Placement)** 명령은 선택한 개체의 배치 [작업 패널을](Task_panel/ko.md) 표시합니다.
 
-![](images/Std_Placement_taskpanel.png ) *배치 작업 패널*
+![](images/Std_Placement_taskpanel.png ) 
+*배치 작업 패널*
 
 ## 용법
 

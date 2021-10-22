@@ -11,6 +11,7 @@ Ad esempio, un bullone, una ranella e un dado sono tre corpi separati che, quand
 <img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;">
 
 
+
 *A sinistra: tre solidi contigui separati, ognuno dei quali modellato da un _ per creare un assemblaggio.*
 
 ## Utilizzo

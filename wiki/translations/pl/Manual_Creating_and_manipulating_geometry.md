@@ -33,9 +33,9 @@ Możemy teraz w prosty sposób stworzyć \"ogólny\" obiekt dokumentu w bieżąc
 
 ```python
 boxShape = Part.makeBox(3,5,7)
- myObj = FreeCAD.ActiveDocument.addObject("Part::Feature","MyNewBox")
- myObj.Shape = boxShape
- FreeCAD.ActiveDocument.recompute()
+myObj = FreeCAD.ActiveDocument.addObject("Part::Feature","MyNewBox")
+myObj.Shape = boxShape
+FreeCAD.ActiveDocument.recompute()
 ```
 
 Zwróć uwagę, jak obchodziliśmy się z **myObj.Shape**, zauważ, że robimy to dokładnie tak samo, jak robiliśmy to w poprzednim rozdziale, kiedy zmienialiśmy inne właściwości obiektu, takie jak **box.Height = 5**. W rzeczywistości, **Kształt** jest również właściwością, podobnie jak **Wysokość**. Tylko bierze ona obiekt Part Shape, a nie liczbę. W następnym rozdziale lepiej przyjrzymy się temu, jak te parametryczne obiekty są konstruowane.
@@ -45,11 +45,11 @@ Na razie przyjrzyjmy się bardziej szczegółowo naszym Kształtom Części. Na 
 
 ```python
 print(boxShape.Vertexes)
- print(boxShape.Edges)
- print(boxShape.Wires)
- print(boxShape.Faces)
- print(boxShape.Shells)
- print(boxShape.Solids)
+print(boxShape.Edges)
+print(boxShape.Wires)
+print(boxShape.Faces)
+print(boxShape.Shells)
+print(boxShape.Solids)
 ```
 
 Na przykład, znajdźmy powyżej obszar każdej z powierzchni kształtu naszego pudełka:
@@ -79,8 +79,8 @@ Zawsze możemy sprawdzić, jaki jest rodzaj kształtu:
 
 ```python
 print(boxShape.ShapeType)
- print(boxShape.Faces[0].ShapeType)
- print(boxShape.Vertexes[2].ShapeType)
+print(boxShape.Faces[0].ShapeType)
+print(boxShape.Vertexes[2].ShapeType)
 ```
 
 Wróćmy więc do tematu Kształty części: Wszystko zaczyna się od Wierzchołków. Z jednym lub dwoma wierzchołkami tworzysz krawędź *(pełne koła mają tylko jeden wierzchołek)*. Z jedną lub kilkoma krawędziami tworzysz obwiednię. Z pojedynczą lub kilkoma zamkniętymi obwiedniami tworzysz powierzchnię czołową *(dodatkowe obwiednie stają się \"otworami\" w powierzchni czołowej)*. Z jedną lub kilkoma powierzchniami tworzysz Powłokę. Gdy powłoka jest całkowicie zamknięta *(wodoszczelna)*, można z niej utworzyć bryłę. I wreszcie, można połączyć dowolną liczbę dowolnych kształtów, które następnie nazywa się Związkiem.
@@ -98,9 +98,9 @@ Po pierwsze, stwórzmy cztery punkty bazowe:
 
 ```python
 V1 = FreeCAD.Vector(0,10,0)
- V2 = FreeCAD.Vector(30,10,0)
- V3 = FreeCAD.Vector(30,-10,0)
- V4 = FreeCAD.Vector(0,-10,0)
+V2 = FreeCAD.Vector(30,10,0)
+V3 = FreeCAD.Vector(30,-10,0)
+V4 = FreeCAD.Vector(0,-10,0)
 ```
 
 Następnie możemy utworzyć dwa segmenty liniowe:
@@ -127,9 +127,9 @@ pokaże Ci, jaki to rodzaj obiektu Edge, tzn. czy jest oparty na linii, łuku, i
 
 ```python
 VC1 = FreeCAD.Vector(-10,0,0)
- C1 = Part.Arc(V1,VC1,V4)
- VC2 = FreeCAD.Vector(40,0,0)
- C2 = Part.Arc(V2,VC2,V3)
+C1 = Part.Arc(V1,VC1,V4)
+VC2 = FreeCAD.Vector(40,0,0)
+C2 = Part.Arc(V2,VC2,V3)
 ```
 
 Teraz mamy dwie linie *(L1 i L2)* i dwa łuki *(C1 i C2)*. Musimy zamienić je na krawędzie:
@@ -137,9 +137,9 @@ Teraz mamy dwie linie *(L1 i L2)* i dwa łuki *(C1 i C2)*. Musimy zamienić je n
 
 ```python
 E1 = Part.Edge(L1)
- E2 = Part.Edge(L2)
- E3 = Part.Edge(C1)
- E4 = Part.Edge(C2)
+E2 = Part.Edge(L2)
+E3 = Part.Edge(C1)
+E4 = Part.Edge(C2)
 ```
 
 Alternatywnie, geometrie bazowe mają również funkcję **toShape()**, która robi dokładnie to samo:
@@ -147,7 +147,7 @@ Alternatywnie, geometrie bazowe mają również funkcję **toShape()**, która r
 
 ```python
 E1 = L1.toShape()
- E2 = L2.toShape()
+E2 = L2.toShape()
  ...
 ```
 
@@ -191,7 +191,7 @@ To dlatego, że kiedy wyciągamy pojedynczą powierzchnię, zawsze otrzymujemy b
 
 ```python
 S = W.extrude(FreeCAD.Vector(0,0,10))
- print(s.ShapeType)
+print(s.ShapeType)
 ```
 
 Co oczywiście da nam pustą powłokę, z brakującą górną i dolną powierzchnią.
@@ -201,8 +201,8 @@ Teraz, gdy mamy nasz ostateczny kształt, chcemy go zobaczyć na ekranie! Stwór
 
 ```python
 myObj2 = FreeCAD.ActiveDocument.addObject("Part::Feature","My_Strange_Solid")
- myObj2.Shape = P
- FreeCAD.ActiveDocument.recompute()
+myObj2.Shape = P
+FreeCAD.ActiveDocument.recompute()
 ```
 
 Alternatywnie, Środowisko pracy Part dostarcza również skrót, który przyspiesza powyższą operację *(ale nie możesz wybrać nazwy obiektu)*:

@@ -12,7 +12,7 @@ See other ways to [help the project](Help_FreeCAD.md) (documentation, translatio
 
 -   There is an official [FreeCAD team account](https://liberapay.com/FreeCAD); donate via credit card, Paypal or SEPA bank transfer. Any money received here is split equally among the listed developers. This is the best option as it helps developers directly.
 
--   There is a [Bountysource](https://salt.bountysource.com/teams/freecad) account; donate money to the FreeCAD project as a whole, or offer a \"bounty\" to address a specific issue or bug. This is an interesting option because your donation can be used specifically in a particular area. However, using the Bountysource money is a more complex process for us, and there might be a delay between donating and seeing your donation used effectively.
+-   There is a [Bountysource](https://salt.bountysource.com/teams/freecad) account; donate money to the FreeCAD project as a whole, or offer a \"bounty\" to address a specific issue or bug. This is an interesting option because your donation can be used specifically in a particular area. However, using the Bountysource money is a more complex process for us, and there might be a delay between donating and seeing your donation used effectively. **Warning**: there have been recently a series of issues regarding bountysource and we recommend not using the platform for the time being. We recommend checking its [wikipedia page](https://en.wikipedia.org/wiki/Bountysource) for up to date information.
 
 -   Support the web hosting costs by donating directly to [Jürgen Riegel\'s paypal account](https://www.paypal.com/cgi-bin/webscr?item_name=Donation+to+FreeCAD&cmd=_donations&business=Mail%40juergen-riegel.net). Jürgen is the original developer of FreeCAD.
 

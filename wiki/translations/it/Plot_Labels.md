@@ -1,6 +1,6 @@
 # Plot Labels/it
 ---
-- GuiCommand:/it   Name:Plot Labels   Name/it:Etichette   MenuLocation:Plot → Imposta etichette‏‎   |Workbenches:[[Plot Module/it   Plot]]|Shortcut:   SeeAlso:---
+- GuiCommand:/it   Name:Plot Labels   Name/it:Etichette   MenuLocation:Plot → Imposta etichette‏‎   |Workbenches:[[Plot_Workbench/it   Plot]]|Shortcut:   SeeAlso:---
 
 
 </div>
@@ -15,7 +15,8 @@ This tool allows the user to edit the title and axes labels, as well as their fo
 
 Select the plot tab that you want to edit, and run this tool. In case of multi-axes plots you can select the set of axes to be edited
 
-![Plot axes selector](images/Plot_Axes_Active.png ) *Selector for the set of axes to de edited*
+![Plot axes selector](images/Plot_Axes_Active.png ) 
+*Selector for the set of axes to de edited*
 
 ## Options
 

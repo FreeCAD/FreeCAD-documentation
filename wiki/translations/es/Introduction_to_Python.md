@@ -18,7 +18,8 @@ Por lo general, cuando se escriben programas de ordenador, se abre un editor de 
 
 En Python todo ese proceso se puede hacer de forma transparente dentro del intérprete de Python. El intérprete es una ventana de Python con un prompt de comandos, donde puedes simplemente escribir código Python. Si has instalado Python en tu ordenador (descárgalo desde el _.
 
-![](images/FreeCAD_Python_console.png ) *La consola de FreeCAD Python*
+![](images/FreeCAD_Python_console.png ) 
+*La consola de FreeCAD Python*
 
 Si no la ve, haga clic en **Ver → Paneles → Consola de Python**. La consola de Python puede cambiar de tamaño y también desacoplarse.
 

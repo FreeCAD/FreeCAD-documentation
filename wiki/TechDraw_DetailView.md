@@ -12,7 +12,8 @@
 
 The Detail tool creates a view of small area of an existing view.
 
- ![](images/ViewDetail.png )  *Detail view with circular viewbox of an existing view*
+ ![](images/ViewDetail.png )  
+*Detail view with circular viewbox of an existing view*
 
 ## Usage
 
@@ -75,7 +76,8 @@ Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
 
 This is done by putting the Detail view into a [clip group](TechDraw_ClipGroup.md):
 
- ![](images/TechDraw_DetailClipped.png )  *Detail view in a clip group*
+ ![](images/TechDraw_DetailClipped.png )  
+*Detail view in a clip group*
 
 -   For detail views with a round outline, the position of the reference label in the base view can be changed via the base view property **Highlight Adjust**.
 

@@ -21,4 +21,4 @@ Achse erstellen.
 -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Gitter](Arch_Grid/de.md): Fügt dem Dokument ein gitterartiges Objekt hinzu
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CompAxis/de
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompAxis/de

@@ -20,7 +20,8 @@ Włącz obsługę wyjścia konsoli w menu **Edcja → Preferencje → Ogólne �
 Jest to bardzo łatwe w użyciu:
 Naciśnij przycisk {{button|Rejestrowanie makr}}, zostaniesz poproszony o podanie nazwy dla swojego makra, a następnie wykonaj kilka czynności. Kiedy skończysz, kliknij przycisk **Zatrzymaj nagrywanie makra**, a Twoje działania zostaną zapisane. Teraz możesz uzyskać dostęp do okna dialogowego makra za pomocą przycisku {{button|Edycja}}.
 
-![](images/Macros.png ) *Okno dialogowe Makro, zawierające listę makrodefinicji dostępnych w systemie.*
+![](images/Macros.png ) 
+*Okno dialogowe Makro, zawierające listę makrodefinicji dostępnych w systemie.*
 
 W tym miejscu możesz zarządzać swoimi makrami, usuwać, edytować, powielać, instalować lub tworzyć nowe od podstaw. Jeśli edytujesz makro, zostanie ono otwarte w oknie edytora, w którym możesz dokonać zmian w jego kodzie. Nowe makra można zainstalować za pomocą przycisku {{button|Dodatki...}}, który prowadzi do [Addon Manager](AddonManager.md).
 

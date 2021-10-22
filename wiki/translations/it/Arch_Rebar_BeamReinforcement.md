@@ -24,6 +24,7 @@ Questo comando fa parte dell\'ambiente aggiuntivo _, tramite il menu **Strumenti
 ![](images/Arch_Rebar_BeamReinforcement_example.png )
 
 
+
 *Rinforzo di trave all'interno di una [Struttura](Arch_Structure/it.md) trave*
 
 ## Utilizzo
@@ -37,6 +38,7 @@ Questo comando fa parte dell\'ambiente aggiuntivo _, tramite il menu **Strumenti
 :   <img alt="" src=images/BeamReinforcementDialog_Stirrups.png  style="width:700px;">
 
 
+
 *Finestra di dialogo per lo strumento Rinforzo di trave*
 
 4\. Selezionare il tipo desiderato di rinforzo di trave.
@@ -46,6 +48,7 @@ Questo comando fa parte dell\'ambiente aggiuntivo _, tramite il menu **Strumenti
 6\. Fare clic su **Avanti** e la finestra di dialogo viene aggiornata come mostrato di seguito.
 
 :   <img alt="" src=images/BeamReinforcementDialog_TopRebars.png  style="width:700px;">
+
 
 
 *Finestra di dialogo per i dati della parte superiore dell'armatura*
@@ -85,6 +88,7 @@ Questo comando fa parte dell\'ambiente aggiuntivo _, tramite il menu **Strumenti
 :   <img alt="" src=images/BeamReinforcementDialog_BottomRebars.png  style="width:700px;">
 
 
+
 *Finestra di dialogo per i dati della parte inferiore dell'armatura*
 
 9\. Impostare i dati per le armature inferiori in modo simile ai dati delle armature superiori.
@@ -92,6 +96,7 @@ Questo comando fa parte dell\'ambiente aggiuntivo _, tramite il menu **Strumenti
 10\. Fare clic su **Avanti** e la finestra di dialogo viene aggiornata come mostrato di seguito.
 
 :   <img alt="" src=images/BeamReinforcementDialog_LeftRebars.png  style="width:700px;">
+
 
 
 *Definire i dati per le barre di rinforzo sul lato sinistro.*
@@ -125,6 +130,7 @@ Questo comando fa parte dell\'ambiente aggiuntivo _, tramite il menu **Strumenti
 12\. Fare clic su **Avanti** e la finestra di dialogo viene aggiornata come mostrato di seguito.
 
 :   <img alt="" src=images/BeamReinforcementDialog_RightRebars.png  style="width:700px;">
+
 
 
 *Definire i dati per le barre di rinforzo sul lato destro.*

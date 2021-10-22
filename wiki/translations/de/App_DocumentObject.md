@@ -12,9 +12,11 @@ Allgemein ausgedrückt ist ein \"Dokumentobjekt\" jedes \"Ding\", das in der [Ba
 ![](images/App_DocumentObject_example.png )
 
 
+
 *Baumansicht, die verschiedene Objekte im Dokument anzeigt. Jedes von ihnen ist ein "Dokumentobjekt", das letztlich von der Basisklasse `App::DocumentObject* abgeleitet ist.`
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die `App::DocumentObject* Klasse ist die Basisklasse von im Wesentlichen allen Objekten in der Software.`

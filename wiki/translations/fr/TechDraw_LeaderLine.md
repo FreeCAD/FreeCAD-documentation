@@ -14,7 +14,8 @@
 
 L\'outil Ligne de référence ajoute une ligne à une vue. D\'autres objets d\'annotation (tels que [Annotation par texte enrichi](TechDraw_RichTextAnnotation/fr.md)) peuvent être connectés à Ligne de référence pour former des annotations complexes.
 
-![](images/TechDraw_LeaderLine_sample.png ) *Ligne de référence ajoutée à View001*
+![](images/TechDraw_LeaderLine_sample.png ) 
+*Ligne de référence ajoutée à View001*
 
 ## Utilisation
 

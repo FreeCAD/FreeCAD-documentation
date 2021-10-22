@@ -18,6 +18,8 @@
 
 Der <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Entwurf Draht** Befehl [erzeugt](#Erzeugt.md) eine Polylinie, eine Folge von mehreren Liniensegmenten. Der Befehl kann auch verwendet werden um [Entwurf Linien](Draft_Line/de.md) und Entwurf Drähte zu [verbinden](#verbinden.md).
 
+The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its **Fillet Radius** or **Chamfer Size** respectively. It is also possible to subdivide the edges of a Draft Wire by changing its **Subdivisions** property.
+
 <img alt="" src=images/Draft_Polyline_example.jpg  style="width:400px;"> 
 *Draht definiert durch mehrfache Punkte*
 

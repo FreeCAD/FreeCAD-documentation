@@ -21,7 +21,8 @@ Part.show(box4) #show defeatured shape
 ```
 
 <img alt="" src=images/box3.PNG  style="width:200px;"> 
-*Box3 Form in Python Code verwendet, vor der defeaturing.* <img alt="" src=images/box4.PNG  style="width:200px;"> *Box4 Form in Python Code verwendet, defeatured*
+*Box3 Form in Python Code verwendet, vor der defeaturing.* <img alt="" src=images/box4.PNG  style="width:200px;"> 
+*Box4 Form in Python Code verwendet, defeatured*
 
 
  

@@ -17,4 +17,4 @@
 -   <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Connecteur](Arch_PipeConnector/fr.md): Crée un raccord à angle droit ou en té entre 2 ou 3 tuyaux sélectionnés. {{Version/fr|0.17}}
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CompPipe/fr
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPipe/fr

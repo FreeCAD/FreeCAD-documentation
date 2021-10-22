@@ -84,7 +84,8 @@ En regardant la section **Constraints** du [Panneau des tâches](Task_Panel/fr.m
 :   4.9. Sélectionnez le point d\'angle supérieur (b) au-dessus du point d\'angle précédent (a) et l\'origine de l\'esquisse, puis appuyez sur **<img src=images/Constraint_VerticalDistance.svg style="width:16px"> [Distance verticale](Sketcher_ConstrainDistanceY/fr.md)} }, puis entrez  {{Value|10 mm**.
 
     <img src=images/02b_Sk02_Sketcher_Rectangle_constrained_lengths_1.png style="width:x400px"> <img src=images/02c_Sk02_Sketcher_Rectangle_constrained_lengths_2.png style="width:x400px">
-    *A gauche : contraintes de référence pour seulement deux côtés. A droite : contraintes de référence supplémentaires pour seulement deux distances intérieures.*
+    
+*A gauche : contraintes de référence pour seulement deux côtés. A droite : contraintes de référence supplémentaires pour seulement deux distances intérieures.*
 
     Il s'agit d'une esquisse mieux contrainte que la première. Les contraintes géométriques horizontales et verticales nous permettent d'utiliser moins de contraintes de référence, de sorte que notre esquisse semble moins encombrée.
 
@@ -98,18 +99,21 @@ En regardant la section **Constraints** du [Panneau des tâches](Task_Panel/fr.m
     :5.5. Sélectionnez l'autre ligne verticale et répétez la contrainte.
 
     <img src=images/03a_Sk02_Sketcher_Rectangle_constrained_horizontal-vertical.png style="width:x400px">
-    *Contraintes géométriques horizontales et verticales.*
+    
+*Contraintes géométriques horizontales et verticales.*
 
     :5.6. Sélectionnez un point d'angle inférieur (a) puis le point d'angle supérieur qui est diagonalement opposé, puis l'origine de l'esquisse; puis appuyez sur **<img src=images/Constraint_Symmetric.svg style="width:16px"> [Symmétrie](Sketcher_ConstrainSymmetric/fr.md)**. Les deux points sélectionnés seront équidistants de l'origine.
     :5.7. Sélectionnez deux côtés adjacents du rectangle (connectés à un coin) et appuyez sur **<img src=images/Constraint_EqualLength.svg style="width:16px"> [Longueur égale](Sketcher_ConstrainEqual/fr.md)**. Notez qu'en raison de la symétrie des points d'angle, tous les côtés sont désormais de la même taille.
 
     <img src=images/03b_Sk02_Sketcher_Rectangle_constrained_symmetric.png style="width:x400px"> <img src=images/03c_Sk02_Sketcher_Rectangle_constrained_equal_length.png style="width:x400px">
-    *A gauche : contrainte symétrique pour seulement deux points d'angle. A droite : distances de longueur égale supplémentaires pour seulement deux côtés adjacents.*
+    
+*A gauche : contrainte symétrique pour seulement deux points d'angle. A droite : distances de longueur égale supplémentaires pour seulement deux côtés adjacents.*
 
     :5.8. Sélectionnez une ligne horizontale et appuyez sur **<img src=images/Constraint_HorizontalDistance.svg style="width:16px"> [Distance horizontale](Sketcher_ConstrainDistanceX/fr.md)** puis entrez {{Value|20 mm}}. En raison des contraintes symétriques et d'égalité de longueur précédemment ajoutées, nous voyons que tous les côtés deviennent égaux en même temps.
 
     <img src=images/03d_Sk02_Sketcher_Rectangle_constrained_length.png style="width:x400px">
-    *Toutes les contraintes géométriques appliquées et une seule contrainte de référence pour un côté.*
+    
+*Toutes les contraintes géométriques appliquées et une seule contrainte de référence pour un côté.*
 
     C'est la meilleure manière de contraindre cette esquisse car nous n'avons utilisé qu'une seule contrainte de référence (dimensionnelle).
 

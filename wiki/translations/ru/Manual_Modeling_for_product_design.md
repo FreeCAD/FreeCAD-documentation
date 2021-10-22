@@ -1,4 +1,13 @@
 # Manual:Modeling for product design/ru
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
 {{Manual:TOC/ru}}
 
 [Проектирование продукта](https://en.wikipedia.org/wiki/Product_design) изначально было коммерческим термином, но в мире 3D это обычно означает моделирование чего-то, что будет напечатано с помощью [3D-принтера](https://ru.wikipedia.org/wiki/3D_принтер), или, в более общем случае, произведено с помощью машины, будь это объёмный принтера или [станок с ЧПУ](https://ru.wikipedia.org/wiki/Числовое_программное_управление).
@@ -149,9 +158,15 @@ If you have trouble to select features hiding part of the model can help. To hid
 -   [Верстак Assembly2](https://github.com/hamish2014/FreeCAD_assembly2)
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 _
 
 ---
-[documentation index](../README.md) > Manual:Modeling for product design/ru
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/ru

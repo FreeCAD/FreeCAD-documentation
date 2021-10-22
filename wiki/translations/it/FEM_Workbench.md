@@ -33,6 +33,7 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;">
 
 
+
 *Flusso di lavoro del Workbench FEM; il workbench chiama due programmi esterni per eseguire il meshing di un oggetto solido e risolvere il problema degli elementi finiti*
 
 ## Menu Modello 

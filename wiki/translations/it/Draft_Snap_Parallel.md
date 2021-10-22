@@ -40,6 +40,7 @@ Questo metodo si aggancia a un punto su una linea immaginaria che è parallela a
 <div class="mw-translate-fuzzy">
 
 
+
 *Aggancio del secondo punto di una linea a una linea invisibile che è parallela alla linea di riferimento*
 
 

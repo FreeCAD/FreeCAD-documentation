@@ -17,7 +17,8 @@
 
 Crea un **punto di riferimento** che può essere utilizzato come riferimento per schizzi o altre geometrie di riferimento.
 
-![](images/DatumPoint.png ) *Un punto di riferimento associato a una sfera con un offset di {{Value|2* nella direzione Z}}
+![](images/DatumPoint.png ) 
+*Un punto di riferimento associato a una sfera con un offset di {{Value|2* nella direzione Z}}
 
 ## Utilizzo
 

@@ -38,7 +38,8 @@ Dieser Arbeitsbereich kann über den <img alt="" src=images/AddonManager.svg  st
 
 Der Arbeitsbereich Verbindungselemente hat zwei Werkzeugleisten. Die **FS Schauben** Werkzeugleiste hat viele Werkzeuge. Falls erforderlich kann sie durch drücken der **&gt;&gt;** Schaltfläche erweitert werden.
 
-![](images/Fasteners_toolbars.png ) *Die Werkzeugleisten des Arbeitsbereichs Verbindungselemente*
+![](images/Fasteners_toolbars.png ) 
+*Die Werkzeugleisten des Arbeitsbereichs Verbindungselemente*
 
 ## Werkzeuge
 
@@ -64,7 +65,11 @@ Für eine detaillierte Beschreibung siehe [1](http://theseger.com/projects/2015/
 
 -   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Parameter der Verbindungselemente ändern](Fasteners_ChangeParameters/de.md): Parameter der ausgewählten Verbindungselemente ändern.
 
-### Einpresselemente und Verbindungselemente für Leiterplatten 
+### Verbindungselemente
+
+**Hinweis:** Verbindungselemente mit metrischen Abmessungen haben hellorangefarbene Symbole. Befestigungselemente mit zölligen Abmessungen haben grüne Symbole.
+
+#### Einpresselemente und Verbindungselemente für Leiterplatten 
 
 -   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> Einpressmutter metrisch.
 
@@ -76,7 +81,9 @@ Für eine detaillierte Beschreibung siehe [1](http://theseger.com/projects/2015/
 
 -   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> **Leiterplatten** Abstandshalter Innen/Innen Metrisch.
 
-### DIN, EN und ISO Verbindungselemente 
+#### ISO, DIN und EN Verbindungselemente 
+
+ISO, DIN und EN Verbindungselemente haben metrische Abmessungen.
 
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> 
 **ISO 4017** Sechskantschrauben. *Produktklassen A und B.*
@@ -175,11 +182,13 @@ Für eine detaillierte Beschreibung siehe [1](http://theseger.com/projects/2015/
 
 -   <img alt="" src=images/Fasteners_DIN985.svg  style="width:32px;"> **DIN 985** Sechskantsicherungsmuttern mit Kunststoffring.
 
-### ASME Verbindungselemente 
+#### ASME Verbindungselemente 
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC Hex head screw.
+ASME Verbindungselemente haben zöllige Abmessungen.
 
--   <img alt="" src=images/Fasteners_ASMEB18.2.1.8.svg  style="width:32px;"> **ASME B18.2.1.8** UNC Hex head screw with flange.
+-   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC Sechskantschraube.
+
+-   <img alt="" src=images/Fasteners_ASMEB18.2.1.8.svg  style="width:32px;"> **ASME B18.2.1.8** UNC Sechskantschraube mit Flansch.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.2.1A.svg  style="width:32px;"> **ASME B18.2.2.1A** UNC Machine screw nut.
 
@@ -205,13 +214,13 @@ Für eine detaillierte Beschreibung siehe [1](http://theseger.com/projects/2015/
 
 -   <img alt="" src=images/Fasteners_ASMEB18.3.5D.svg  style="width:32px;"> **ASME B18.3.5D** UNC Hexagon socket set screw with cup point.
 
--   <img alt="" src=images/Fasteners_ASMEB18.6.3.1A.svg  style="width:32px;"> **ASME B18.6.3.1A** UNC slotted countersunk flat head screw.
+-   <img alt="" src=images/Fasteners_ASMEB18.6.3.1A.svg  style="width:32px;"> **ASME B18.6.3.1A** UNC Senkkopfschraube mit Schlitz.
 
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12A.svg  style="width:32px;"> **ASME B18.21.1.12A** UN washer, narrow series.
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12A.svg  style="width:32px;"> **ASME B18.21.1.12A** UN Unterlegscheibe, schmale Reihe.
 
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12B.svg  style="width:32px;"> **ASME B18.21.1.12B** UN washer, regular series.
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12B.svg  style="width:32px;"> **ASME B18.21.1.12B** UN Scheibe, normale Reihe.
 
--   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width:32px;"> **ASME B18.21.1.12C** UN washer, wide series.
+-   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width:32px;"> **ASME B18.21.1.12C** UN Scheibe, breite Reihe.
 
 ### Verschiedenes
 

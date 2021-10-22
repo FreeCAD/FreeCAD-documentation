@@ -28,7 +28,8 @@ Diese Funktion führt das im Editor ausgewählte oder aktive Makro aus. Sie ist 
 
 </div>
 
-![](images/Std_DlgMacroExecute_dialog.png ) *The Execute macro dialog box*
+![](images/Std_DlgMacroExecute_dialog.png ) 
+*The Execute macro dialog box*
 
 
 <div class="mw-translate-fuzzy">

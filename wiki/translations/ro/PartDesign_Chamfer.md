@@ -22,9 +22,6 @@ Acest instrument utilizează **_ _ [Chanfrein](_PartDesign_Chamfer/fr.md)** crea
 
 This tool creates chamfers on the selected edges of an object. A new separate Chamfer entry (followed by a consecutive number if there are already existing chamfers in the document) is created in the Project tree.
 
-
-<div class="mw-translate-fuzzy">
-
 +----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------+
 | ![Sélection des arêtes avant de démarrer la commande.](images/PartDesign_Chamfer-01.png ) ![Réglage de la dimension du chanfrein dans les paramètres de chanfrein.](images/PartDesign_Chamfer-02.png ) ![Un élément Chamfer est ajouté dans l\'arborescence Projet.](images/PartDesign_Chamfer-03.png ) | ### Usage                                                                      |
 |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |                                                                                |
@@ -48,7 +45,7 @@ Pentru a-l modifica **_ [chanfrein](_PartDesign_Chamfer/fr.md)** după crearea s
 
 ### Vizualizarea combinată → Sarcini 
 
-<img src=images/PartDesign_Chamfer.png style="width:240px\|left](IMAGE:PartDesign_Chamfer_fr_05.png.md) {{TitreTache|[16px"> Paramètres du chanfrein}}
+<img src=images/PartDesign_Chamfer.png style="width:240px\|left](IMAGE:PartDesign_Chamfer_fr_05.png.md) {{TitleTasks|[16px"> Paramètres du chanfrein}}
 
 
 {{OngletTache|Size}}
@@ -65,7 +62,7 @@ Lățimea maximă a șanfrenului trebuie să fie inferior celei mai micii fațet
 
 <img alt="" src=images/PartDesign_Chamfer_fr_03.png‎  style="width:240px;"> {{PartOngletVue/fr}}
 ===Vue combinée → Chamfer → Données===
-<img alt="" src=images/PartDesign_Chamfer_fr_04.png  style="width:240px;"> {{TitreProprietes|Base}}
+<img alt="" src=images/PartDesign_Chamfer_fr_04.png  style="width:240px;"> {{TitleProperty|Base}}
 
 
 {{ProprieteDonnees|Label}}
@@ -122,11 +119,6 @@ Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utili
 -   Le **_ [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ajoute une entrée distincte dans l\'arborescence Projet. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** devient le parent de l\'objet auquel il a été appliqué.
 -   Le **_ [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** affiche un aperçu en temps réel de l\'application du chanfrein avant la validation de la fonction.
 -   Le **!_ [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne le permet pas.
-
- {{LesOutilsDeModificationsPartDesign}}
-
-
-</div>
 
 -   Select a single edge, multiple edges or a face on an object, then start the tool either by clicking the button **<img src="images/PartDesign_Chamfer.svg" width=24px> '''Chamfer'''** or using the menu **PartDesign → Apply a dress-up feature → Chamfer**. In case you selected a face all its edges are respected for chamfering.
 -   In the appearing [Task panel](Task_panel.md) you can define the chamber in 3 ways:

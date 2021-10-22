@@ -17,7 +17,8 @@ Spiralförmige Kegelräder haben gekrümmte Zähne, die im Vergleich zu geraden 
 
 :   ![](images/Bevel-Gear_example.png )
 :   
-    *Von links nach rechts: Geradverzahnung, Spiralverzahnung*
+    
+*Von links nach rechts: Geradverzahnung, Spiralverzahnung*
     
 
 ## Anwendung

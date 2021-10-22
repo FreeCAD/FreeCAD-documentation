@@ -12,7 +12,8 @@
 
 The **Std ViewTrimetric** command realigns the camera in the active _, but the command also works if the view is in [perspective mode](Std_PerspectiveCamera.md).
 
- ![](images/Std_ViewTrimetric_example.svg )  *The [axis cross](Std_AxisCross.md) and a cube in trimetric view*
+ ![](images/Std_ViewTrimetric_example.svg )  
+*The [axis cross](Std_AxisCross.md) and a cube in trimetric view*
 
 ## Usage
 

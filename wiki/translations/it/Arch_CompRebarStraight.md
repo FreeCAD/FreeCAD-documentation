@@ -51,4 +51,4 @@ Torna alla pagina [Ambienti](Workbenches/it#Ambienti_aggiuntivi.md) o alla pagin
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/it
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/it

@@ -157,7 +157,10 @@ These links provide reference documentation for Coin v3.x. The differences with 
 
 [top](#top.md)
 
- {{Powerdocnavi}} 
+
+
+
+ {{Powerdocnavi}}
 
 _ _
 

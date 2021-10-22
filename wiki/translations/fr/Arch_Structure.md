@@ -16,7 +16,8 @@ L\'atelier [Arch Structure](Arch_Structure/fr.md) vous permet de construire les 
 
 Si aucun profil n\'est fourni, un ensemble de préréglages est disponible pour construire rapidement un élément structurel à partir d\'un profil standard prédéfini.
 
-![](images/Arch_Structure_example.jpg ) *Colonne basée sur un profil de base 2D; une colonne et une poutre définies par leur hauteur, leur longueur et leur largeur, sans profil de base; une structure métallique basée sur une face 2D*
+![](images/Arch_Structure_example.jpg ) 
+*Colonne basée sur un profil de base 2D; une colonne et une poutre définies par leur hauteur, leur longueur et leur largeur, sans profil de base; une structure métallique basée sur une face 2D*
 
 ## Utilisation
 
@@ -63,7 +64,8 @@ Si aucun profil n\'est fourni, un ensemble de préréglages est disponible pour 
 
 L\'outil Structure dispose aussi d\'une série de préréglages qui permettent de construire rapidement des profils métalliques standard ou d\'éléments préfabriqués en béton.
 
-![](images/Arch_presets_example.jpg ) *Quelques préréglages pour les structures en acier*
+![](images/Arch_presets_example.jpg ) 
+*Quelques préréglages pour les structures en acier*
 
 Les présélections sont obtenues en choisissant une **Catégorie** à partir du panneau d\'options de structure. Les catégories disponibles sont **Béton préfabriqué** ou un des profilés métalliques standard de l\'industrie tels que **HEA**, **HEB** ou **INP**. Pour chacune de ces catégories, un certain nombre de préréglages est disponible. Une fois qu\'une présélection est choisie, ses paramètres individuels tels que **Longueur**, **Largeur** ou **Hauteur** peuvent être ajustés. Cependant, pour des profilés métalliques, la taille du profil est définie par le préréglage et ne peut pas être modifiée.
 
@@ -124,4 +126,4 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Structure/fr
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/fr

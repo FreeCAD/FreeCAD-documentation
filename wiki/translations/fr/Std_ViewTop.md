@@ -14,7 +14,8 @@
 
 La **Std Vue de dessus** place la caméra dans la [vue 3D](3D_view/fr.md) dans la direction de l\'axe des Z négatifs.
 
-![](images/FreeCAD_views_front.svg ) *La flèche 1 pointe dans le sens de la vue de dessus*
+![](images/FreeCAD_views_front.svg ) 
+*La flèche 1 pointe dans le sens de la vue de dessus*
 
 ## Utilisation
 

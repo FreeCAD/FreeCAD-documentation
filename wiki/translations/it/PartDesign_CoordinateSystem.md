@@ -15,7 +15,8 @@
 
 ## Descrizione
 
-Crea un **sistema di coordinate locali** che può essere usato come riferimento per altre geometrie di riferimento. Aiuta anche a identificare l\'orientamento della geometria di riferimento referenziata nello spazio 3D. ![](images/PartDesign_LocalCoordinateSystem_Example.png ) *Sistema di coordinate locale originato dall'origine di un piano di riferimento.*
+Crea un **sistema di coordinate locali** che può essere usato come riferimento per altre geometrie di riferimento. Aiuta anche a identificare l\'orientamento della geometria di riferimento referenziata nello spazio 3D. ![](images/PartDesign_LocalCoordinateSystem_Example.png ) 
+*Sistema di coordinate locale originato dall'origine di un piano di riferimento.*
 
 ## Utilizzo
 

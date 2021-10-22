@@ -14,7 +14,8 @@
 
 Simple example animation Draft wires by use the [expressions](Expressions.md) for associate many wires and simulate or verify the movement. Here the circle rotation create the movement for all objects connected
 
-![](images/Constraint_Draft00.gif ) *Animation use the constraint expression*
+![](images/Constraint_Draft00.gif ) 
+*Animation use the constraint expression*
 
 ## Uses
 

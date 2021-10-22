@@ -23,6 +23,7 @@ crée une surface paramétrique à partir de deux, trois ou quatre arêtes de li
 <img alt="" src=images/Surface_GeomFillSurface_2_edges.png  style="width:330px;"> <img alt="" src=images/Surface_GeomFillSurface_2_edges_example.png  style="width:330px;">
 
 
+
 *A gauche: arêtes utilisées pour générer une surface avec l'outil [Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md), 4 arêtes connectées, 3 arêtes connectées et 2 arêtes déconnectées. A droite: surface résultante de l'utilisation des 4, 3 et 2 arêtes respectivement.*
 
 ## Utilisation

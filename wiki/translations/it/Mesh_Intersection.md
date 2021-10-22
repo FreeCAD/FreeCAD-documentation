@@ -12,7 +12,8 @@ Il comando **Intersezione** crea un nuovo oggetto mesh non parametrico, un [Mesh
 
 Per utilizzare questo comando bisogna che _.
 
-![](images/Mesh_Intersection_example.png ) *A sinistra due oggetti mesh, a destra l'oggetto mesh che è l'intersezione (parte comune) di quegli oggetti*
+![](images/Mesh_Intersection_example.png ) 
+*A sinistra due oggetti mesh, a destra l'oggetto mesh che è l'intersezione (parte comune) di quegli oggetti*
 
 ## Utilizzo
 

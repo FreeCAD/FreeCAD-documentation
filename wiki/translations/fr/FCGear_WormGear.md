@@ -21,7 +21,8 @@ Une vis sans fin ne peut être utilisée qu\'avec une roue à vis sans fin. C\'e
 
 :   ![](images/Worm-Gear_example.png )
 :   
-    *Engrenage à vis sans fin (nombre de dents 3)*
+    
+*Engrenage à vis sans fin (nombre de dents 3)*
     
 
 ## Utilisation
@@ -103,7 +104,8 @@ La roue à vis sans fin doit être conçue manuellement. À cet effet, **FCGear 
 
 :   ![](images/Worm-Gear_example3.png )
 :   
-    *Vis sans fin avec roue à vis sans fin*
+    
+*Vis sans fin avec roue à vis sans fin*
     
 
 

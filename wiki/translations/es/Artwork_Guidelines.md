@@ -38,7 +38,8 @@ Este icono se muestra de la siguiente manera:
 
 FreeCAD utiliza una paleta adaptada de la [Tango paleta](https://web.archive.org/web/20190921043652/http://tango.freedesktop.org/tango_icon_theme_guidelines). Cada color principal viene en 4 tonos: Resaltar, Base, Oscuro y Contorno. Observa que el Contorno no es completamente negro, sino una variación muy oscura de la Base.
 
-![](images/Green_tones.PNG ) *Ejemplo de una familia de colores de 4 tonos (Camaleón)*
+![](images/Green_tones.PNG ) 
+*Ejemplo de una familia de colores de 4 tonos (Camaleón)*
 
 Ver [FreeCAD paleta](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) para la gama completa. Una selección de algunos colores clave.
 

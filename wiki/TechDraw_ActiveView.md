@@ -16,6 +16,7 @@ The ActiveView tool inserts a copy of a 3D window into a drawing page.
  ![](images/TechDraw_ActiveView_example.png ) 
 
 
+
 *A simple view from the 3D model that doesn't perform any complex calculation.*
 
 ## Usage

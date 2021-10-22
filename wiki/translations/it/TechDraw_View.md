@@ -22,7 +22,8 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 
 </div>
 
-![](images/TechDraw_View_example.png ) *Vista di un solido con linee nascoste*
+![](images/TechDraw_View_example.png ) 
+*Vista di un solido con linee nascoste*
 
 ## Utilizzo
 

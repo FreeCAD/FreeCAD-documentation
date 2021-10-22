@@ -12,7 +12,8 @@
 
 La commande **Std Convertisseur d\'unités** ouvre la boîte de dialogue calculatrice d\'unités. Le calculateur d\'unités peut être utilisé pour convertir des valeurs d\'un système d\'unités à un autre.
 
-![](images/Units_Calculator_it.png ) *Boîte de dialogue du calculateur d'unités*
+![](images/Units_Calculator_it.png ) 
+*Boîte de dialogue du calculateur d'unités*
 
 ## Utilisation
 

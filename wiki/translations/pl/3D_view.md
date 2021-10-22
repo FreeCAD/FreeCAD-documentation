@@ -11,6 +11,7 @@ Niektóre właściwości widoku, takie jak kolor tła, styl [nawigacja myszki](M
 <img alt="" src=images/FreeCAD_3D_view.png  style="width:600px;">
 
 
+
 * [Widok 3D](3D_view/pl.md)jest komponentem [interfejsu](interface/pl.md) programu FreeCAD . Domyślnie pokazuje mały widżet z osiami współrzędnych, oraz kostkę nawigacyjną również z osiami współrzędnych. Siatka może być wyświetlana i konfigurowana przez załadowanie środowiska pracy [Rysunek roboczy](Draft_Workbench/pl.md).*
 
 ## Działania

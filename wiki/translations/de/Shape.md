@@ -10,6 +10,7 @@ Siehe [Part TopoForm](Part_TopoShape/de.md) für weitere Information über diese
 ![](images/Shape_and_mesh.svg )
 
 
+
 *Links: parametrische _, definiert durch Knoten und Dreiecksflächen.*
 
 ## Anwendung

@@ -19,6 +19,7 @@ Il est possible d\'imbriquer des contours fermés, par exemple pour avoir des ce
 <img alt="" src=images/Part_MakeFace-example.png  style="width:300px;">
 
 
+
 *Exemple d'une face créée à partir d'un ensemble imbriqué de contours.*
 
 ## Utilisation

@@ -60,6 +60,7 @@ Without selection:
 ![](images/Std_Link_tree_example.png ) ![](images/Std_Link_example.png )
 
 
+
 *(1) An object, (2) an empty Link, (3) a full Link to the first object (with overriding material), and (4) a Link to only some subelements of the object. The empty Link is not tied to the real object so it is not displayed in the [3D view](3D_view.md).*
 
 ## Usage: external documents 
@@ -79,6 +80,7 @@ Without selection:
 -    **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_LinkMakeRelative.svg style="width:Std LinkMake](Std_LinkMake.md)**can be used on an existing Link object, in order to create a Link to a Link which ultimately resolves to the original object in the source document. This can be used with **[16px"> [Std LinkMakeRelative](Std_LinkMakeRelative.md)** to pick only certain subelements as well.
 
 ![](images/Std_Link_tree_documents_example.png ) ![](images/Std_Link_documents_example.png )
+
 
 
 *(1, 2) Two objects from a source document linked into a target document, (3) a Link to the second Link (with overriding material), and (4) a Link to the subelements of the second Link.*
@@ -105,6 +107,7 @@ can be used on **<img src=images/Std_Part.svg style="width:16px"> [Std Parts](St
 ![](images/Std_Link_tree_Std_Part_example.png )
 
 
+
 *Link created from a [Std Part](Std_Part.md); the objects are not duplicated but they are listed under the original container and under the Link container.*
 
 A regular **<img src=images/Std_Group.svg style="width:16px"> <img src=images/Std_LinkMake.svg style="width:Std Group](Std_Group.md)** does not possess a **Placement** property, so it cannot control the position of the objects inside of it. However, when **_**, the resulting Link behaves essentially like a **[16px"> [Std Part](Std_Part.md)**, and can also be moved in space.
@@ -112,11 +115,13 @@ A regular **<img src=images/Std_Group.svg style="width:16px"> <img src=images/St
 ![](images/Std_Link_tree_Std_Group_example.png ) ![](images/Std_Link_Std_Group_example.png )
 
 
+
 *Link created from a [Std Group](Std_Group.md); the objects are not duplicated but they are listed under the original container and under the Link container. The Link (with overriding material) can be moved in space, just like a [Std Part](Std_Part.md).*
 
 A Link to a **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part.md)** will keep the visibility of the objects synchronized with the original Part; so if you hide one object in a Link, it will be hidden in all Links and in the original object. On the other hand a Link to a **[16px"> [Std Group](Std_Group.md)** will allow independent control of the visibilities.
 
 ![](images/Std_Link_tree_Std_Part_visibility.png ) ![](images/Std_Link_tree_Std_Group_visibility.png )
+
 
 
 *Left: _ with two objects, and two Links to the Group; the visibility of the objects is independently controlled in each group.*
@@ -142,6 +147,7 @@ as of v0.19, the coloring of the subelements is subject to the [topological nami
 <img alt="" src=images/Std_Link_override_color_example.png  style="width:500px;">
 
 
+
 *(1) An original object, (2) a Link with overriding material, and (3) a second Link with individual modified subelements.*
 
 ## Link Array 
@@ -158,6 +164,7 @@ Given that **Show Element** is `True` by default, when **Element Count** is set 
 In similar way, each element of the array can have its own appearance changed, either by the **Override Material** and **Shape Material** properties, or by using the **Override colors** menu on the entire array and then selecting individual faces; this is described in [Overriding appearance](#Overriding_appearance.md).
 
 <img alt="" src=images/Std_Link_tree_array_example.png ) ![](images/Std_Link_array_example.png  style="width:500px;">
+
 
 
 *(1) Original object, and (2, 3, 4) a Link array with three elements, each in a different position. The first Link has overridden material and transparent faces, the other two have custom face colors.*
@@ -180,6 +187,7 @@ Another way to hide the individual elements is using the **Override colors** men
 ![](images/Std_Link_array_visibility_example.png )
 
 
+
 *Element color dialog that is available when opening the context menu of a Link object in the tree view.*
 
 If you wish to restore the visibility of this array element, enter the dialog once more, pick the eye icon, then click on **Remove** to remove the hidden status, and click **OK** to confirm and close the dialog. The element will be visible in the [3D view](3D_view.md) again.
@@ -187,6 +195,7 @@ If you wish to restore the visibility of this array element, enter the dialog on
 When the Link is for a **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part.md)** or a **[16px"> [Std Group](Std_Part.md)**, the **Override colors** menu works in similar way as with arrays; it allows controlling the face color, entire object color, and visibility of the objects in the group.
 
 ![](images/Std_Link_Std_Part_visibility_example.png ) ![](images/Std_Link_Std_Part_visibility_example_3D.png )
+
 
 
 *A [Std Part](Std_Part.md) containing three objects, and a Link to that Part; in the Link, (1) the first object is made invisible, (2) the second object has some subelements with different colors, (3) the entire third object has a different color and level of transparency.*
@@ -322,6 +331,7 @@ It will additionally show the view properties of the original **Linked Object**.
 An _ (`App::DocumentObject` class). It is a very low level object, which can be used with most other document objects.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Simplified diagram of the relationships between the core objects in the program. The `App::Link* object is a core component of the system, it does not depend on any workbench, but it can be used with most objects created in all workbenches.`

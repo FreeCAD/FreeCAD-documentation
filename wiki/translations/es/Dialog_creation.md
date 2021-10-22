@@ -13,7 +13,8 @@ En esta página vamos a mostrar cómo crear un simple letrero de diálogo con [Q
 
 In this example, the entire interface is defined in [Python](Python.md). Although this is possible for small interfaces, for larger interfaces the recommendation is to load the created {{FileName|.ui}} files directly into the program. See [Interface creation with UI files](Interface_creation_with_UI_files.md) for more information.
 
-<img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> *Two general methods to create interfaces, by including the interface in the Python file, or by using `.ui* files.`
+<img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> 
+*Two general methods to create interfaces, by including the interface in the Python file, or by using `.ui* files.`
 
 
 <div class="mw-translate-fuzzy">

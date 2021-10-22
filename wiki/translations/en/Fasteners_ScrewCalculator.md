@@ -3,15 +3,13 @@
    Name:Fasteners ScrewCalculator
    MenuLocation:Fasteners → ScrewCalculator
    Workbenches:[Fasteners](Fasteners_Workbench.md)
-   Shortcut:None
-   SeeAlso:
 ---
 
 # Fasteners ScrewCalculator/en
 
 ## Description
 
-The <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24px;"> [Fasteners ScrewCalculator](Fasteners_ScrewCalculator.md) lorem ipsum dolor sit amet, consectetur adipiscing. This tool is part of the [external workbench](external_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
+The <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24px;"> [Fasteners ScrewCalculator](Fasteners_ScrewCalculator.md) lorem ipsum dolor sit amet, consectetur adipiscing. This tool is part of the [external workbench](External_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
 
 ## Usage
 

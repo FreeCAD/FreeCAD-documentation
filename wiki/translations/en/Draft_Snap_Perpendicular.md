@@ -13,7 +13,8 @@ The <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:24px;"> **
 
 This snap option will also find points on the extension of straight edges. Circular edges are always treated as full circles, if a circular edge is an arc the point that is found may not lie on the actual edge.
 
-![](images/Draft_Snap_Perpendicular_example.png ) *Snapping the second point of a line to the perpendicular point on an extended edge*
+![](images/Draft_Snap_Perpendicular_example.png ) 
+*Snapping the second point of a line to the perpendicular point on an extended edge*
 
 ## Usage
 

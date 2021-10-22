@@ -473,4 +473,4 @@ The file created during this tutorial can be found [here](http://yorik.uncreated
 }}
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch tutorial
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial

@@ -35,7 +35,8 @@ Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example
 -   In the **Name** field of the new item, paste xmlns:freecad
 -   In the **Attribute** field, paste "[http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace](http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace)". Press **Enter** to confirm the edit to the namespace; if you just click away, the edit will revert.
 
-Note that your editable texts will *not* work if you use \"<https://>\...\", even though the wiki is reached via https these days. Since SVG is a human readable format you could also enter the line above into the file with a text editor. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> *align=center|Inkscape: XML Editor adding the "freecad" namespace clause to the <svg> item* 
+Note that your editable texts will *not* work if you use \"<https://>\...\", even though the wiki is reached via https these days. Since SVG is a human readable format you could also enter the line above into the file with a text editor. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> 
+*align=center|Inkscape: XML Editor adding the "freecad" namespace clause to the <svg> item* 
 
 3\. Set up some references
 
@@ -52,7 +53,8 @@ In Document Properties (**File → Document Properties** or **Shift**+**Ctrl**+*
 -   Select page size \"US Letter\" or \"A4\" and orientation \"landscape\".
 -   Set default units to \"mm\". For US Letter, set the page size to width \"279.4\" and height \"215.9\". For A4 you would use \"210\" and \"297\".
 
-<img alt="" src=images/InkDocProp.png  style="width:800px;"> *align=center|Inkscape: document with page size and orientation* 
+<img alt="" src=images/InkDocProp.png  style="width:800px;"> 
+*align=center|Inkscape: document with page size and orientation* 
 
 ## Create the template drawing 
 
@@ -83,7 +85,8 @@ Here is some information that is almost universally written on drafts:
 -   Name of organization where the drawing is produced
 -   Intended paper size and main drawing view scale (a good idea for electronically stored drawings)
 
-8\. The finished template should look something like this: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> *align=center|Inkscape: tentative template layout* 
+8\. The finished template should look something like this: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> 
+*align=center|Inkscape: tentative template layout* 
 
 ## Create editable fields 
 
@@ -91,7 +94,8 @@ Here is some information that is almost universally written on drafts:
 
 -   Use the XML Editor to add a  item that you want to make editable and add a new attribute. For \'name,\' write freecad:editable and for \'value,\' assign a meaningful name. Caution: if two or more text items share the same name, they will also display the same text.
 
-<img alt="" src=images/InkXMLeditableTag.png  style="width:800px;"> *align=center|Inkscape: XML Editor adding the "freecad:editable" property to the desired <text> item* 
+<img alt="" src=images/InkXMLeditableTag.png  style="width:800px;"> 
+*align=center|Inkscape: XML Editor adding the "freecad:editable" property to the desired <text> item* 
 
 ## Adjust size of the SVG 
 
@@ -99,9 +103,11 @@ Here is some information that is almost universally written on drafts:
 
 -   It is four values, in the format `"0 0 width height"`
 
-<img alt="" src=images/InkXMLviewBox.png  style="width:800px;"> *align=center|Inkscape: XML Editor adjusting the viewbox to match the page size in millimeters* 
+<img alt="" src=images/InkXMLviewBox.png  style="width:800px;"> 
+*align=center|Inkscape: XML Editor adjusting the viewbox to match the page size in millimeters* 
 
-11\. Your template will now appear much bigger than desired. <img alt="" src=images/InkMuchTooBig.png  style="width:800px;"> *align=center|Inkscape: tentative template layout exceeding the page size* 
+11\. Your template will now appear much bigger than desired. <img alt="" src=images/InkMuchTooBig.png  style="width:800px;"> 
+*align=center|Inkscape: tentative template layout exceeding the page size* 
 
 12\. We need to shrink it.
 
@@ -133,7 +139,8 @@ Here is some information that is almost universally written on drafts:
 
 20\. Save your template.
 
-21\. Try it in FreeCAD and [TechDraw Workbench](TechDraw_Workbench.md) with [TechDraw PageTemplate](TechDraw_PageTemplate.md). ![](images/FCTemplateHow.png ) *align=center|FreeCAD: finished template with an editable text field being modified* 
+21\. Try it in FreeCAD and [TechDraw Workbench](TechDraw_Workbench.md) with [TechDraw PageTemplate](TechDraw_PageTemplate.md). ![](images/FCTemplateHow.png ) 
+*align=center|FreeCAD: finished template with an editable text field being modified* 
 
 ## Notes
 

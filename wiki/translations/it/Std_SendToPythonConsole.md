@@ -21,6 +21,7 @@ Il comando **Invia alla console Python** crea una variabile nel [console Python]
 >>> ### End command Std_SendToPythonConsole
 
 
+
 *Esempio di output: è stato selezionato un bordo di un [cubo di Part](Part_Box/it.md)*
 
 ## Utilizzo

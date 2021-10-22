@@ -12,7 +12,8 @@
 
 Dieses Werkzeug entfernt eine Ansicht aus einem vorhandenen Ausschnitt und gibt es in den Seitenbereich zurück.
 
-![](images/TechDraw_Clipview.png ) *Ausschnittfenster, das verschiedene vorhandene Ansichten beschneidet*
+![](images/TechDraw_Clipview.png ) 
+*Ausschnittfenster, das verschiedene vorhandene Ansichten beschneidet*
 
 ## Verwendung
 

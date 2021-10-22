@@ -5,7 +5,8 @@ Power users have the possibility of [creating interfaces](Interface_creation.md)
 
 Interfaces are created using [PySide](PySide.md), which is a library for using Qt with [Python](Python.md).
 
-<img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> *Two general methods to create interfaces, by including the interface in the Python file, or by using `.ui* files.`
+<img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> 
+*Two general methods to create interfaces, by including the interface in the Python file, or by using `.ui* files.`
 
 ## Description
 

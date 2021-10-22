@@ -18,6 +18,7 @@ The **Std ViewIvIssueCamPos** command prints the camera settings of the active [
 ```
 
 
+
 *Example output: camera settings after changing to [isometric view](Std_ViewIsometric.md) in a new document*
 
 ## Применение

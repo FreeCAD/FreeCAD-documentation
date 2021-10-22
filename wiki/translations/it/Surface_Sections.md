@@ -16,6 +16,7 @@ Lo strumento <img alt="" src=images/Surface_Sections.svg  style="width:16px;"> [
 <img alt="" src=images/Surface_Sections_edges_example.png  style="width:" height="250px;"> <img alt="" src=images/Surface_Sections_example.png  style="width:" height="250px;">
 
 
+
 *A sinistra: i bordi di controllo (sezioni trasversali). A destra: la superficie prodotta da questi bordi.*
 
 ## Utilizzo

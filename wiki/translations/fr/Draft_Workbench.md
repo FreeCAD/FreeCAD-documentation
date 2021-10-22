@@ -13,7 +13,8 @@ L\'atelier Draft fournit également des outils pour définir un [plan de travail
 
 Si votre objectif principal est la production de dessins 2D complexes et de fichiers [DXF](DXF/fr.md) et que vous n\'avez pas besoin de modélisation 3D, FreeCAD n\'est peut-être pas le bon choix pour vous. Vous pouvez envisager d\'utiliser un logiciel dédié au dessin technique, tel que [LibreCAD](https://fr.wikipedia.org/wiki/LibreCAD) ou [QCad](https://fr.wikipedia.org/wiki/QCad).
 
-![](images/Draft_Workbench_Example.png ) *L'image montre la [grille](Draft_Snap_Grid/fr.md) alignée avec le plan XY.<br>
+![](images/Draft_Workbench_Example.png ) 
+*L'image montre la [grille](Draft_Snap_Grid/fr.md) alignée avec le plan XY.<br>
 A gauche, en blanc, plusieurs objets planaires.<br>
 À droite, un [Draft Polyligne](Draft_Wire/fr.md) non planaire utilisé comme objet de chemin d'un [Draft Réseau selon une courbe](Draft_PathArray/fr.md).*
 
@@ -52,6 +53,8 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 -   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Surfaces liées](Draft_Facebinder/fr.md) : crée un objet surface à partir des faces sélectionnées.
 
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [Formes à partir de texte](Draft_ShapeString/fr.md) : crée une forme composée qui représente une chaîne de texte.
+
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hachure](Draft_Hatch/fr.md) : crée des hachures sur les faces d\'un objet sélectionné. {{Version/fr|0.20}}
 
 ## Annotation
 
@@ -185,9 +188,7 @@ La barre d\'outils [Draft Accrochage](Draft_Snap/fr.md) permet de sélectionner 
 
 -   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> _. {{Version/fr|0.19}}
 
--   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> _.
-
--   <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:32px;"> [Mode d\'affichage](Draft_ToggleDisplayMode/fr.md) : bascule la {{PropertyView/fr|Display Mode}} (mode d\'affichage) des objets sélectionnés entre {{Value|Flat Lines}} et {{Value|Wireframe}}.
+-   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> _ nommé et déplace les objets sélectionnés vers ce groupe. {{Version/fr|0.20}}
 
 -   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> _. Il peut aussi dégrouper des objets.
 
@@ -195,15 +196,19 @@ La barre d\'outils [Draft Accrochage](Draft_Snap/fr.md) permet de sélectionner 
 
 -   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> _.
 
+-   <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:32px;"> [Mode d\'affichage](Draft_ToggleDisplayMode/fr.md) : bascule la {{PropertyView/fr|Display Mode}} (mode d\'affichage) des objets sélectionnés entre {{Value|Flat Lines}} et {{Value|Wireframe}}.
+
+-   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> _.
+
 ## Menu Utilitaires 
 
 Outils supplémentaires, disponibles via le menu **Draft → Utilitaires**, ou via le clic droit de la souris selon les objets sélectionnés.
 
+-   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Appliquer le style](Draft_ApplyStyle/fr.md) : applique les paramètres du style en cours aux objets sélectionnés.
+
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Réparer](Draft_Heal/fr.md) : répare les objets Draft problématiques trouvés dans de très vieux fichiers.
 
 -   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Basculer en mode continu](Draft_ToggleContinueMode/fr.md) : active ou désactive le mode continu.
-
--   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Appliquer le style](Draft_ApplyStyle/fr.md) : applique les paramètres du style en cours aux objets sélectionnés.
 
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> _.
 
@@ -213,15 +218,15 @@ Outils supplémentaires, disponibles via le menu **Draft → Utilitaires**, ou v
 -   [Aimantation](Draft_Snap/fr.md) : sélectionne des points géométriques exacts sur, ou définis par, des objets existants ou la grille.
 -   [Contrainte](Draft_Constrain/fr.md) : pour chaque point suivant, vous pouvez contraindre le mouvement du curseur dans la direction X, Y ou Z.
 -   [Mode de construction](Draft_ToggleConstructionMode/fr.md) : place les nouveaux objets Draft dans un groupe dédié, ce qui facilite leur masquage ou leur suppression.
--   [Motif](Draft_Pattern/fr.md) : Les objets Draft ayant une propriété {{PropertyData/fr|Make Face}} peuvent afficher un motif hachuré au lieu d\'une couleur unie.
+-   [Motif](Draft_Pattern/fr.md) : Les objets Draft ayant une propriété {{PropertyData/fr|Make Face}} peuvent afficher un motif SVG au lieu d\'une couleur unie.
 
 ## Menu contextuel de l\'arborescence 
 
 Les options supplémentaires sont disponibles dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) :
 
-### Options de sélection 
+### Options par défaut 
 
-S\'il y a une sélection, le menu contextuel contient un sous-menu supplémentaire :
+S\'il y a un document actif, le menu contextuel contient un sous-menu supplémentaire :
 
 -    **Utilities**: un sous-ensemble des outils disponibles dans le menu principal Draft Utilities.
 
@@ -259,19 +264,11 @@ Pour un [Draft Proxy de plan de travail](Draft_WorkingPlaneProxy/fr.md), les opt
 
 Les options supplémentaires sont disponibles dans le menu contextuel de la [Vue 3D](3D_view/fr.md) :
 
-### Options de non-sélection 
+### Options par défaut 
 
-S\'il n\'y a pas de sélection, le menu contextuel contient un sous-menu supplémentaire :
+S\'il y a un document actif, le menu contextuel contient un sous-menu supplémentaire :
 
--    **Utilities**: un sous-ensemble des outils disponibles dans le menu principal Draft Utilitaires.
-
-### Options de sélection 
-
-S\'il y a une sélection, le menu contextuel contient deux sous-menus supplémentaires :
-
--    {{MenuCommand/fr|Draft}}: outils pour [dessiner des objets](#Drafting.md) et [modififier des objets](#Modification.md).
-
--    {{MenuCommand/fr|Utilities}}: un sous-ensemble des outils disponibles dans le menu principal Draft Utilities.
+-    **Utilities**: un sous-ensemble des outils disponibles dans le menu principal Draft Utilities.
 
 ### Obsolète
 
@@ -280,14 +277,6 @@ Ces outils ont été supprimés de l\'interface dans la v0.19 car ils n\'avaient
 -   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> _ ou un [réseau circulaire](Draft_CircularArray/fr.md) en modifiant sa propriété {{PropertyData/fr|Array Type}}. {{Obsolete/fr|0.19}}
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> _. {{Obsolete/fr|0.17}}
-
-Ces options du menu contextuel de la [vue 3D](3D_view/fr.md) sont toujours disponibles lorsque la commande [Draft Polyligne](Draft_Wire/fr.md), [Draft B-spline](Draft_BSpline/fr.md), [Draft Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md) ou [Draft Courbe de Bézier](Draft_BezCurve/fr.md) est active mais seront supprimées dans un avenir proche :
-
--   <img alt="" src=images/Draft_UndoLine.svg  style="width:32px;"> [Annuler le dernier segment](Draft_Wire#Options/fr.md) : utilisez le {{button|<img src="images/Draft_UndoLine.svg" width=16px> Annuler}} dans le panneau des tâches de la commande à la place. {{Obsolete/fr|0.20}}
-
--   <img alt="" src=images/Draft_FinishLine.svg  style="width:32px;"> [Fin de ligne](Draft_Wire#Options/fr.md) : utilisez le **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** dans le panneau des tâches de la commande à la place. {{Obsolete/fr|0.20}}
-
--   <img alt="" src=images/Draft_CloseLine.svg  style="width:32px;"> [Fermer la lige](Draft_Wire#Options/fr.md) : utilisez le bouton **<img src="images/Draft_CloseLine.svg" width=16px> Fermer** dans le panneau des tâches de la commande à la place. {{Obsolete/fr|0.20}}
 
 ## Préférences
 
@@ -331,9 +320,6 @@ doc = dto.create_test_file()
 ```
 
 L\'inspection du code de ce module peut aider à comprendre l\'interface de programmation.
-
-<img alt="" src=images/Draft_test_objects.png  style="width:500px;"> 
-*Objets test pour l'atelier Draft.*
 
 ## Tutoriels
 

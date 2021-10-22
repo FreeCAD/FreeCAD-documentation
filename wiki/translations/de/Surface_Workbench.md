@@ -24,6 +24,7 @@ Der Arbeitsbereich Oberfläche bezweckt, Flächen mit Formen zu erstellen, was m
 <img alt="" src=images/Toy_Duck.png  style="width:350px;">
 
 
+
 *Fläche, die mit Skizzen erstellt wurde, platziert in Bezugsebenen mit den Werkzeugen des [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md)*
 
 Der Oberflächen Arbeitsbereich lässt sich mit anderen Arbeitsbereichen von FreeCAD integrieren. Das obige Beispiel wurde aus **<img src=images/Sketcher_NewSketch.svg style="width:16px"><img src=images/PartDesign_Plane.svg style="width:Skizzen](Sketch/de.md)** erstellt, die auf **_ platziert wurden. Die Konstruktion kann voll parametrisch sein, wenn alle Bezugsebenen und Skizzen entsprechend definiert sind. In den meisten Fällen reicht es aus, beim Zeichnen einer geschlossenen Skizze den Rand für eine Fläche zu definieren; dann stehen Optionen für weitere Formänderungen zur Verfügung.

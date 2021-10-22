@@ -16,7 +16,8 @@
 
 Lo strumento Dettaglio crea una vista che contiene l\'ingrandimento di un\'area di una vista esistente.
 
-![](images/ViewDetail.png ) *Vista di dettaglio con casella di visualizzazione circolare di una vista esistente*
+![](images/ViewDetail.png ) 
+*Vista di dettaglio con casella di visualizzazione circolare di una vista esistente*
 
 ## Utilizzo
 
@@ -103,7 +104,8 @@ Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
 
 This is done by putting the Detail view into a [clip group](TechDraw_ClipGroup.md):
 
-![](images/TechDraw_DetailClipped.png ) *Vista di dettaglio in un gruppo di clip*
+![](images/TechDraw_DetailClipped.png ) 
+*Vista di dettaglio in un gruppo di clip*
 
 -   Per le viste di dettaglio con un contorno arrotondato, la posizione dell\'etichetta di riferimento nella vista di base può essere modificata tramite la proprietà **Highlight Adjust** della vista di base.
 

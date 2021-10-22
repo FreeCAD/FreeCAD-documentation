@@ -36,7 +36,8 @@ Il existe des programmes autonomes pour ces deux applications mais leur installa
 
     :   ![Elmer Tab in FEM Preferences](images/Preferences-ElmerPath.png )
     :   
-        *Ci-dessus: menu de dialogue des préférences d'Elmer affichant les champs pour localiser les binaires importants d'Elmer sous Windows*
+        
+*Ci-dessus: menu de dialogue des préférences d'Elmer affichant les champs pour localiser les binaires importants d'Elmer sous Windows*
         
 
 Vous êtes prêt à utiliser Elmer dans FreeCAD.
@@ -50,14 +51,16 @@ Vous êtes prêt à utiliser Elmer dans FreeCAD.
 
     :   ![](images/Elmer_typical_file_tree.png )
     :   
-        *Ci-dessus: exemple de [vue en arborescence](Tree_view/fr.md) une fois qu'un solveur pour Elmer est activé*
+        
+*Ci-dessus: exemple de [vue en arborescence](Tree_view/fr.md) une fois qu'un solveur pour Elmer est activé*
         
 4.  Modifiez les paramètres du solveur dans l\'onglet **Data** de l\'[Éditeur de propriétés](Property_editor/fr.md) de l\'objet SolverElmer dans le modèle [vue en arborescence](tree_view/fr.md)
 5.  Double-cliquez sur l\'objet **<img src="images/FEM_SolverElmer.svg" width=22px> SolverElmer** pour préparer une analyse
 
     :   <img alt="" src=images/ElmerSolver_TaskPanel.png  style="width:300px;">
     :   
-        *Ci-dessus: boîte de dialogue pour exécuter une analyse Elmer*
+        
+*Ci-dessus: boîte de dialogue pour exécuter une analyse Elmer*
         
 6.  Sélectionnez le chemin vers lequel l\'analyse écrira en cliquant sur **...**
 7.  Cliquez sur **Write** pour écrire les fichiers de cas dans le répertoire sélectionné précédemment

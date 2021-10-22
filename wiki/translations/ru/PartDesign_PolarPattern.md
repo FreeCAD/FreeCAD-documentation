@@ -34,7 +34,8 @@ The **polar pattern** tool takes a selected feature and creates a set of copies 
 
 #### Ordering features 
 
-![](images/PartDesign_feature-order.gif ) *Effect of the feature order*
+![](images/PartDesign_feature-order.gif ) 
+*Effect of the feature order*
 
 
 <small>(v0.19)</small> 

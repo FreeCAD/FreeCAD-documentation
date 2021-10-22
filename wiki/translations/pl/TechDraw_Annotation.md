@@ -22,7 +22,8 @@ The Annotation tool adds a text block to a drawing page.
 3.  A text block containing *Default Text* will appear on the page. Use the property editor to change the text. Drag the Annotation to the required position.
 4.  You may need to press **<img src="images/Std_Refresh.svg" width=16px> [Refresh](Std_Refresh.md)** and/or **<img src="images/TechDraw_RedrawPage.svg" width=16px> [Redraw Page](TechDraw_RedrawPage.md)** to get your text to change.
 
-![](images/UpdateAnnotation.png ) *Modifying the annotation through the property editor*
+![](images/UpdateAnnotation.png ) 
+*Modifying the annotation through the property editor*
 
 
 **Note:**

@@ -16,6 +16,7 @@ Cet outil fonctionne comme l\'outil [Ligne](Sketcher_CreateLine/fr.md), mais des
 ![](images/Sketcher_PolylineExample1.png )
 
 
+
 *Polyligne commençant par une ligne, un arc tangent, un arc perpendiculaire puis une ligne tangente.*
 
 ## Utilisation

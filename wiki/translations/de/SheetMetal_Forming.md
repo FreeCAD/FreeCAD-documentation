@@ -13,9 +13,9 @@
 
 DerBefehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:24px;"> **Prägen** erstellt ein geprägtes Formelement in einer Blechfläche und verwendet dafür ein separates Festkörperobjekt .
 
-Die rückseitige ebene Fläche des formgebenden Festkörpers und die zu prägenden Fläche werden benutzt, um die geprägte Form zu platzieren und auszurichten, d.h. ihre lokalen Koordinatensysteme haben standardmäßig den gleichen Ursprung und die gleiche Ausrichtung.  Der Winkel um die Z-Achse und der Versatz in X-, Y- und Z-Richtung lassen sich durch ändern der Parameterwerte im [Eigenschafteneditor](Property_editor/de.md) einstellen.
+Die rückseitige Fläche des formgebenden Festkörpers und die zu prägenden Fläche werden benutzt, um den Festkörper zu platzieren und auszurichten, d.h. ihre lokalen Koordinatensysteme haben standardmäßig den gleichen Ursprung und die gleiche Ausrichtung.  Der Winkel um die Z-Achse und der Versatz in X-, Y- und Z-Richtung lassen sich durch ändern ihrer Werte im [Eigenschafteneditor](Property_editor/de.md) einstellen.
 
-Eine Skizze kann hinzugefügt werden, um das eingeprägte Formelement zu vervielfältigen und in regelmäßigen oder unregelmäßigen Mustern einzufügen (unter Verwendung der Mittelpunkte von Kreisen oder Kreisbögen)
+Eine Skizze kann hinzugefügt werden, um das eingeprägte Formelement zu vervielfältigen und in regelmäßigen oder unregelmäßigen Mustern einzufügen (unter Verwendung der Mittelpunkte von Kreisen oder Kreisbögen).
 
 Eine kleine Auswahl von Objekten, die erstellt werden können:
 
@@ -24,12 +24,20 @@ Eine kleine Auswahl von Objekten, die erstellt werden können:
 
 ## Anwendung
 
+Es ist darauf zu achten, dass das Body-Objekt, welches das zu prägende Objekt enthält, aktiviert ist. Bei Bedarf kann es per Doppelklick in der [Baumansicht](Tree_view/de.md) aktiviert werden.
+
 ### Durchprägung
 
-1.  Eine Fläche des SheetMetal-Objekts auswählen, die geprägt (durchgesetzt) werden soll
-2.  Die **Unterseite** (Rückseite) des formgebenden Festkörpers auswählen
-    -   **Hinweis:** Nicht die Taste **Steuerung**/**Befehl** vergessen!
-3.  Den Befehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Prägen](SheetMetal_Forming/de.md) aktivieren durch:
+1.  Eine Fläche des SheetMetal-Objekts auswählen, die geprägt (durchgesetzt) werden soll.
+
+2.  Drücken und halten der **Strg**-Taste (oder der **Command**-Taste bei macOS).
+
+3.  Die **Unterseite** (Rückseite) des formgebenden Festkörpers zur Auswahl hinzufügen.
+
+4.  
+    **Strg**-Taste (bzw. **Command**-Taste) loslassen.
+
+5.  Den Befehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Prägen](SheetMetal_Forming/de.md) aktivieren durch:
     -   Die Schaltfläche **<img src="images/SheetMetal_Forming.svg" width=16px> [Prägen](SheetMetal_Forming/de.md)
 **
     -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=16px> Prägen
@@ -38,28 +46,50 @@ Eine kleine Auswahl von Objekten, die erstellt werden können:
 
 ### Kiemen
 
-1.  Eine Fläche des SheetMetal-Objekts auswählen, die geprägt (durchgesetzt) werden soll
-2.  Die **Unterseite** (Rückseite) des formgebenden Festkörpers auswählen
-3.  Eine **Seitenfläche**, die an die Unterseite angrenzt auswählen, um den Bereich zu markieren, der aufgeschnitten werden soll
-    -   **Hinweis:** Nicht die Taste **Steuerung**/**Befehl** vergessen!
-4.  Den Befehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Prägen](SheetMetal_Forming/de.md) aktivieren (siehe oben):
+1.  Eine Fläche des SheetMetal-Objekts auswählen, die geprägt (durchgesetzt) werden soll.
+
+2.  Drücken und halten der **Strg**-Taste (oder der **Command**-Taste bei macOS).
+
+3.  Die **Unterseite** (Rückseite) des formgebenden Festkörpers zur Auswahl hinzufügen.
+
+4.  Eine **Seitenfläche**, die an die Unterseite angrenzt zur Auswahl hinzufügen, um den Bereich zu markieren, der aufgeschnitten werden soll.
+
+5.  
+    **Strg**-Taste (bzw. **Command**-Taste) loslassen.
+
+6.  Den Befehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Prägen](SheetMetal_Forming/de.md) aktivieren (siehe oben).
 
 ### Steg
 
-1.  Eine Fläche des SheetMetal-Objekts auswählen, die geprägt (durchgesetzt) werden soll
-2.  Die **Unterseite** (Rückseite) des formgebenden Festkörpers auswählen
-3.  Eine **Seitenfläche**, die an die Unterseite angrenzt, auswählen, um den Bereich zu markieren, der aufgeschnitten werden soll
-4.  Die gegenüberliegende **Seitenfläche**, die an die Unterseite angrenzt, auswählen, um den anderen Bereich zu markieren, der aufgeschnitten werden soll
-    -   **Hinweis:** Nicht die Taste **Steuerung**/**Befehl** vergessen!
-5.  Den Befehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Prägen](SheetMetal_Forming/de.md) aktivieren (siehe oben):
+1.  Eine Fläche des SheetMetal-Objekts auswählen, die geprägt (durchgesetzt) werden soll.
+
+2.  Drücken und halten der **Strg**-Taste (oder der **Command**-Taste bei macOS).
+
+3.  Die **Unterseite** (Rückseite) des formgebenden Festkörpers zur Auswahl hinzufügen.
+
+4.  Eine **Seitenfläche**, die an die Unterseite angrenzt, zur Auswahl hinzufügen, um die Position des ersten Schnittes zu markieren.
+
+5.  Die gegenüberliegende **Seitenfläche**, die an die Unterseite angrenzt, zur Auswahl hinzufügen, um die Position des zweiten Schnittes zu markieren.
+
+6.  
+    **Strg**-Taste (bzw. **Command**-Taste) loslassen.
+
+7.  Den Befehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Prägen](SheetMetal_Forming/de.md) aktivieren (siehe oben).
 
 ### Durchzug
 
-1.  Eine Fläche des SheetMetal-Objekts auswählen, die geprägt und gestanzt werden soll
-2.  Die **Unterseite** (Rückseite) des formgebenden Festkörpers auswählen
-3.  Die der Unterseite gegenüberliegende **Oberseite** auswählen, um den Bereich zu markieren, der ausgestanzt werden soll
-    -   **Hinweis:** Nicht die Taste **Steuerung**/**Befehl** vergessen!
-4.  Den Befehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Prägen](SheetMetal_Forming/de.md) aktivieren (siehe oben):
+1.  Eine Fläche des SheetMetal-Objekts auswählen, die geprägt und gestanzt werden soll.
+
+2.  Drücken und halten der **Strg**-Taste (oder der **Command**-Taste bei macOS).
+
+3.  Die **Unterseite** (Rückseite) des formgebenden Festkörpers zur Auswahl hinzufügen.
+
+4.  Die der Unterseite gegenüberliegende **Oberseite** zur Auswahl hinzufügen, um den Bereich zu markieren, der ausgestanzt werden soll.
+
+5.  
+    **Strg**-Taste (bzw. **Command**-Taste) loslassen.
+
+6.  Den Befehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Prägen](SheetMetal_Forming/de.md) aktivieren (siehe oben):
 
 ### Verfvielfältigen und Anordnen 
 
@@ -71,15 +101,23 @@ Die Ausrichtung hängt weiterhin von der Ausrichtung der zuerst ausgewählten Fl
 
 ### Ausrundungen hinzufügen 
 
-1.  Zur Arbeitsumgebung <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench/de.md) wechseln
-2.  Eine Kante auf der Oberseite des SheetMetal-Objekts auswählen, die verrundet werden soll
+1.  Zur Arbeitsumgebung <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench/de.md) wechseln.
+2.  Eine Kante auf der Oberseite des SheetMetal-Objekts auswählen, die verrundet werden soll.
 3.  Den Befehl <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [Verrundung](PartDesign_Fillet/de.md) aktivieren durch:
-    -   Die Schaltfläche **<img src="images/PartDesign_Fillet.svg" width=16px> [ Verrundung](PartDesign_Fillet/de.md)
+    -   Die Schaltfläche **<img src="images/PartDesign_Fillet.svg" width=16px> [Verrundung](PartDesign_Fillet/de.md)
 **
-    -   Den Menüeintrag {{MenuCommand/de|Teile-Konstruktion → Modifikationen → <img src="images/PartDesign_Fillet.svg" width=16px> Verrundung}}
-4.  Die Eigenschaft des Fillet-Objekts  (Dies ist einigermaßen **wichtig** für die nächste Verrundung)
-5.  Eine Kante auf der Unterseite des SheetMetal-Objekts auswählen, die verrundet werden soll
+    -   Den Menüeintrag {{MenuCommand/de|Teile-Konstruktion → Modifikationen → <img src="images/PartDesign_Fillet.svg" width=16px>Verrundung}}
+4.  Die Eigenschaft des Fillet-Objekts {{PropertyData/de|Refine}} auf `True` setzen. Dies ist wichtig für die nächste Verrundung.
+5.  Eine Kante auf der Unterseite des SheetMetal-Objekts auswählen, die verrundet werden soll.
 6.  Den Befehl <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [Verrundung](PartDesign_Fillet/de.md) aktivieren (siehe oben)
+
+## Hinweise
+
+Die geprägte Geometrie ist nicht auf ebene Flächen und zylindrische Verbindungen begrenzt, und daher **ist**, nachdem so eine Geometrie zu einem SheetMetal-Objekt hinzugefügt wurde, **das Objekt nicht länger abwickelbar**.
+
+Die Prägung kann deaktiviert werden (durch setzen der Eigenschaft {{PropertyData/de|Suppress Feature}} auf {{True}}), um das Objekt abzuwickeln, aber nachfolgende Verrundungen verlieren die ihnen zugrundeliegenden Kanten und werden als fehlerhaft gekennzeichnet, wenn die Prägung wieder aktiviert wird.
+
+Prägen und Verrunden sollten die letzten Schritte der Erstellung eines SheetMetal-Objekts sein.
 
 ## Eigenschaften
 
@@ -140,8 +178,8 @@ Es ist hier nicht nötig mit komplanaren Skizzen zu arbeiten.
 
 ## Arbeitsablauf
 
-1.  Die Fläche des SheetMetal-Objekts auswählen, die eingeprägt werden soll
-2.  Die **Rückseite** des formgebenden Objekts auswählen  (Nicht die Taste <img alt="" src=images/SheetMetal_Forming-04.png  style="width:240px;">
+1.  Die Fläche des SheetMetal-Objekts auswählen, die eingeprägt werden soll.
+2.  Die **Rückseite** des formgebenden Objekts auswählen  (Nicht vergessen, dass der zu prägende **und** der formgebende Festkörper ausgewählt sein müssen. Die dem Betriebssystem entsprechende Mehrfachauswahl aktivieren: <img alt="" src=images/SheetMetal_Forming-04.png  style="width:240px;">
 3.  Schaltfläche  oder Tastenkürzel  <img alt="" src=images/SheetMetal_Forming-05.png  style="width:240px;">
 4.  Die scharfen Kanten verrunden:
     -   Die Schale umdrehen und eine oder mehrere Kanten für die kleineren Innenradien auswählen

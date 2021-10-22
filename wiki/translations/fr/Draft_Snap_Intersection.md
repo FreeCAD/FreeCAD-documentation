@@ -12,7 +12,8 @@
 
 L\'option <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:24px;"> **Draft Aimantation Intersection** permet de s\'aimanter à l\'intersection de deux arêtes. Les arêtes peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
 
-![](images/Draft_Snap_Intersection_example.png ) *Aimantation du deuxième point d'une ligne à l'intersection de deux arêtes*
+![](images/Draft_Snap_Intersection_example.png ) 
+*Aimantation du deuxième point d'une ligne à l'intersection de deux arêtes*
 
 ## Utilisation
 

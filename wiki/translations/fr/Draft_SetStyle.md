@@ -14,9 +14,10 @@
 
 La commande <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft Définir le style** définit le style par défaut des nouveaux objets.
 
-Cette commande est un travail en cours et la version V0.19 ainsi que la version V0.20 souffrent de plusieurs bogues.
+Notez que plusieurs fonctionnalités ne fonctionnent pas dans la version V0.19 de cette commande.
 
-![](images/Draft_SetStyle_taskpanel.png ) *Le panneau de tâches des paramètres de style*
+![](images/Draft_SetStyle_taskpanel.png ) 
+*Le panneau de tâches des paramètres de style*
 
 ## Utilisation
 
@@ -36,7 +37,7 @@ Cette commande est un travail en cours et la version V0.19 ainsi que la version 
     -   
         **Couleur de ligne**
         
-        . Utilisé aussi pour les [Draft Étiquettes](Draft_Label/fr.md) et pour la {{PropertyView/fr|Point Color}} des objets.
+        . Utilisé aussi pour les [Draft Étiquettes](Draft_Label/fr.md) et pour la **Point Color** des objets.
 
     -   
         **Largeur de ligne**
@@ -46,12 +47,12 @@ Cette commande est un travail en cours et la version V0.19 ainsi que la version 
     -   
         **Style de représentation**
         
-        . Cette fonctionnalité ne fonctionne pas actuellement.
+        .
 
     -   
         **Mode d'affichage**
         
-        . Cette fonction ne fonctionne pas actuellement.
+        .
 
     -   
         **Couleur de la forme**
@@ -61,7 +62,7 @@ Cette commande est un travail en cours et la version V0.19 ainsi que la version 
     -   
         **Transparence**
         
-        . Cette fonction ne fonctionne pas actuellement.
+        .
 -   Dans la section **Annotations**, les paramètres suivants peuvent être spécifiés :
     -   
         **Police de caractère**
@@ -86,7 +87,7 @@ Cette commande est un travail en cours et la version V0.19 ainsi que la version 
     -   
         **Espacement des lignes**
         
-        . Ce facteur d\'échelle est appliqué à la hauteur de la ligne. Cette fonctionnalité ne fonctionne pas actuellement. {{Version/fr|0.20}}
+        . Ce facteur d\'échelle est appliqué à la hauteur de la ligne. {{Version/fr|0.20}}
 
     -   
         **Style de flèche**
@@ -108,7 +109,7 @@ Cette commande est un travail en cours et la version V0.19 ainsi que la version 
         
         .
 -   Appuyez sur le bouton {{button|<img src="images/Draft_SetStyle.svg" width=16px> Appliquer aux objets sélectionné}} pour appliquer les paramètres aux objets ou groupes sélectionnés. {{Version/fr|0.20}}
--   Appuyez sur le bouton {{button|<img src="images/Draft_Text.svg" width=16px> Textes/dimensions}} pour appliquer les paramètres à tous les [Draft Textes](Draft_Text.md) et [Draft Dimensions](Draft_Dimension/fr.md). {{Version/fr|0.20}}
+-   Appuyez sur le bouton {{button|<img src="images/Draft_Text.svg" width=16px> Textes/dimensions}} pour appliquer les paramètres à tous les [Draft Textes](Draft_Text/fr.md) et [Draft Dimensions](Draft_Dimension/fr.md). {{Version/fr|0.20}}
 -   Appuyez sur le bouton **Annuler** pour abandonner la commande.
 
 ## Remarques

@@ -21,7 +21,8 @@ Această funcție execută macroul selectat sau activ în editor. Este accesibil
 
 </div>
 
-![](images/Std_DlgMacroExecute_dialog.png ) *The Execute macro dialog box*
+![](images/Std_DlgMacroExecute_dialog.png ) 
+*The Execute macro dialog box*
 
 
 <div class="mw-translate-fuzzy">

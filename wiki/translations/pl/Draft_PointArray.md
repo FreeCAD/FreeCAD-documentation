@@ -28,7 +28,7 @@ Both commands can be used on 2D objects created with the [Draft Workbench](Draft
 4.  The array is created.
 5.  Optionally change the [properties](#Properties.md) of the array in the [Property editor](property_editor.md).
 
-## Point compound 
+## Zespół punktów 
 
 A point compound is an object that contains one or more points. These are the supported point compounds and how they can be created:
 

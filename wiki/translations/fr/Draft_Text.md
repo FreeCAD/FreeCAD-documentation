@@ -22,7 +22,7 @@ Pour créer un élément de texte avec une flèche, utilisez plutôt la commande
 
 ## Utilisation
 
-Voir aussi : [Draft La barre](Draft_Tray/fr.md) et [Draft Accrochage](Draft_Snap/fr.md).
+Voir aussi : [Draft La barre](Draft_Tray/fr.md) et [Draft Aimantation](Draft_Snap/fr.md).
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Text.svg" width=16px> [Crée une annotation multiligne...](Draft_Text/fr.md)**.
@@ -41,11 +41,12 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 -   La case à cocher **Relative** n\'a aucune utilité pour cette commande.
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
 -   Cliquez sur la case **Continue** du deuxième panneau de tâches pour activer le mode continu. Le raccourci clavier **T** ne fonctionne pas. Si le mode continu est activé, la commande redémarre après avoir été terminée, ce qui vous permet de continuer à créer des textes.
--   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
+-   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour interrompre la commande.
 
 ## Remarques
 
+-   Un Draft Texte peut être édité en double-cliquant dessus dans l\'arborescence. {{Version/fr|0.20}}
 -   Les Draft Textes créés avec [FreeCAD version 0.18](Release_notes_0.18/fr.md) ne sont pas rétrocompatibles.
 
 ## Propriétés

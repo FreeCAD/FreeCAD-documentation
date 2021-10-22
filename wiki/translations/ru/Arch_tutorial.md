@@ -640,4 +640,4 @@ To populate a spreadsheet with values extracted from the model the Arch\_Schedul
 }}
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch tutorial/ru
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/ru

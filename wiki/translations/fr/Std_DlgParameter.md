@@ -15,7 +15,8 @@ La commande **Std Éditeur des paramètres** ouvre l\'éditeur de paramètres. D
 
 Travailler avec l\'éditeur de paramètres nécessite une certaine expérience. Pour les paramètres les plus courants, vous pouvez également utiliser l\'[éditeur de préférences](Preferences_Editor/fr.md) plus pratique.
 
-![](images/Std_DlgParameter_dialog.png ) *La boîte de dialogue de l'Editeur de paramètres*
+![](images/Std_DlgParameter_dialog.png ) 
+*La boîte de dialogue de l'Editeur de paramètres*
 
 ## Utilisation
 

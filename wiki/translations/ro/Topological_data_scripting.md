@@ -1689,9 +1689,18 @@ Pentru a converti un fișier **.stp** în **.igs** este simplu :
 {{Top}}
 
 
+<div class="mw-translate-fuzzy">
+
+
+{{docnav|Mesh Scripting|Mesh to Part}}
+
+
+</div>
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

@@ -18,7 +18,8 @@ Usually when writing computer programs, you open a text editor or your special p
 
 In Python that whole process can be done transparently inside the Python interpreter. The interpreter is a Python window with a command prompt, where you can simply type Python code. If you have installed Python on your computer (download it from the _.
 
-![](images/FreeCAD_Python_console.png ) *The FreeCAD Python console*
+![](images/FreeCAD_Python_console.png ) 
+*The FreeCAD Python console*
 
 If you don\'t see it, click on **View → Panels → Python console**. The Python console can be resized and also undocked.
 

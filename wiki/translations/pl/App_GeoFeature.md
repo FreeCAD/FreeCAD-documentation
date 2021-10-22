@@ -8,6 +8,7 @@ An _ because it includes the **Placement** property.
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Simplified diagram of the relationships between the core objects in the program. The `App::GeoFeature* class is the base class of essentially all objects in the software that will display geometry in the [3D view](3D_view.md).`
 
 ## Usage

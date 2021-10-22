@@ -3,7 +3,7 @@
    Name:Plot Save
    Name/pl:Wykres: Zapisz wykres
    MenuLocation:Wykres → Zapisz wykres
-   Workbenches:[Wykres](Plot_Module/pl.md)
+   Workbenches:[Wykres](Plot_Workbench/pl.md)
 ---
 
 # Plot Save/pl
@@ -18,7 +18,8 @@ Standardowy moduł do tworzenia wykresów dostarcza już podstawowe narzędzie d
 
 Wybierz kartę powierzchni, którą chcesz zapisać, i uruchom to narzędzie. Użyj przycisku wyboru ścieżki, aby wyświetlić okno dialogowe pliku, w którym można wybrać lokalizację i format pliku.
 
-![Path selection button](images/Plot_Save_Path.png‎ ) *Przycisk wyboru ścieżki*
+![Path selection button](images/Plot_Save_Path.png‎ ) 
+*Przycisk wyboru ścieżki*
 
 ## Opcje
 

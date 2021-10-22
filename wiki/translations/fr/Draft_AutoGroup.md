@@ -16,7 +16,8 @@ La commande **Draft Groupement automatique** modifie le [Draft Calque](Draft_Lay
 
 Cette commande était à l\'origine destinée aux groupes, d\'où son nom, mais a été remaniée dans la version 0.19 de FreeCAD lorsqu\'un système de calques a été introduit. Comme la gestion des couches est maintenant la valeur par défaut de la commande, le reste de cette page se concentrera principalement sur les couches.
 
-![](images/Draft_tray_menu.png ) *Le menu calque de la barre Draft*
+![](images/Draft_tray_menu.png ) 
+*Le menu calque de la barre Draft*
 
 ## Utilisation
 

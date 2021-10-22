@@ -12,7 +12,8 @@
 
 This tool creates a clipping window which can contain Views.
 
- ![](images/TechDraw_Clipview.png )  *Viewport window clipping different existing views*
+ ![](images/TechDraw_Clipview.png )  
+*Viewport window clipping different existing views*
 
 ## Usage
 

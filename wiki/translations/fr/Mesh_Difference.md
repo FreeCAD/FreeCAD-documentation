@@ -15,7 +15,8 @@ La commande **Mesh Différence** crée un nouvel objet maillé non paramétrique
 
 _.
 
-![](images/Mesh_Difference_example.png ) *A gauche deux objets maillés, à droite l'objet maillé qui est la différence de ces objets si le cube est sélectionné comme objet principal*
+![](images/Mesh_Difference_example.png ) 
+*A gauche deux objets maillés, à droite l'objet maillé qui est la différence de ces objets si le cube est sélectionné comme objet principal*
 
 ## Utilisation
 

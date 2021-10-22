@@ -30,6 +30,7 @@ Up to two edged can be referenced by this snap option and [Draft Snap Parallel](
 <div class="mw-translate-fuzzy">
 
 
+
 *Fangen des zweiten Punktes einer Linie an der Verlängerung einer anderen Linie*
 
 

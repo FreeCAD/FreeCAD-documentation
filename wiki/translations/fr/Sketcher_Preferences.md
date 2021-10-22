@@ -1,9 +1,9 @@
 # Sketcher Preferences/fr
 {{TOCright}}
 
-La fenêtre des préférences de l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md) se trouve dans [Éditeur des Préférences](Preferences_Editor.md), **Menu Édition → Préférences → Sketcher**.
+Les préférences pour l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md) se trouvent dans [Réglage des préférences](Preferences_Editor/fr.md). Dans le menu, sélectionnez **Édition → Préférences...** puis **Sketcher**.
 
-Il existe trois onglets: Général, Affichage et Couleurs.
+Il existe trois onglets: [Général](#G.C3.A9n.C3.A9ral.md), [Affichage](#Affichage.md) et [Couleurs](#Couleurs.md).
 
 ## Général
 

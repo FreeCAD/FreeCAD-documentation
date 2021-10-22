@@ -34,6 +34,7 @@ This snap option currently only works properly for circular edges on a plane par
 <div class="mw-translate-fuzzy">
 
 
+
 *Aggancio sul secondo punto di una linea sul cerchio, con l'angolo di 45° sull'arco; i piccoli cerchi indicano tutti i possibili punti di aggancio*
 
 

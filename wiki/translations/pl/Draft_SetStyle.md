@@ -13,9 +13,10 @@
 
 The <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft SetStyle** command sets the default style for new objects.
 
-This command is a work in progress and both the V0.19 version and the V0.20 version suffer from several bugs.
+Note that several features do not work in the V0.19 version of this command.
 
-![](images/Draft_SetStyle_taskpanel.png ) *The Style settings task panel*
+![](images/Draft_SetStyle_taskpanel.png ) 
+*The Style settings task panel*
 
 ## Usage
 
@@ -45,12 +46,12 @@ This command is a work in progress and both the V0.19 version and the V0.20 vers
     -   
         **Draw style**
         
-        . This feature currently does not work.
+        .
 
     -   
         **Display mode**
         
-        . This feature currently does not work.
+        .
 
     -   
         **Shape color**
@@ -60,7 +61,7 @@ This command is a work in progress and both the V0.19 version and the V0.20 vers
     -   
         **Transparency**
         
-        . This feature currently does not work.
+        .
 -   In the **Annotations** section the following settings can be specified:
     -   
         **Text font**
@@ -85,7 +86,7 @@ This command is a work in progress and both the V0.19 version and the V0.20 vers
     -   
         **Line spacing**
         
-        . This scale factor is applied to the line height. This feature currently does not work. <small>(v0.20)</small> 
+        . This scale factor is applied to the line height. <small>(v0.20)</small> 
 
     -   
         **Arrow style**

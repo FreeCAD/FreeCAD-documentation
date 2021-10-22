@@ -19,6 +19,7 @@ Das Schnittebenen Werkzeug ermöglicht dir ein Arch Objekt entsprechend einer Eb
 <img alt="" src=images/Arch_CutPlane_example.jpg  style="width:640px;">
 
 
+
 *Links: Vor der Anwendung des Werkzeugs CutPlane. Mitte: resultierende Wand nach dem Schnitt. Rechts: ein weiteres optionales Ergebnis*
 
 ## Anwendung
@@ -96,4 +97,4 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/de
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/de

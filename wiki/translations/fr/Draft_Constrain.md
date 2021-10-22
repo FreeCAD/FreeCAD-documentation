@@ -7,7 +7,8 @@ En plus de la saisie de coordonnées ou de l\'utilisation de l\'_ et l\'<img alt
 
 La contrainte est disponible avec la plupart des commandes de [Draft](Draft_Workbench/fr.md) et [Arch](Arch_Workbench/fr.md).
 
-![](images/Draft_Constrain_taskpanel_example.png ) *Lorsque le curseur est contraint, le panneau de tâches verrouille les valeurs qui ne sont pas modifiées.*
+![](images/Draft_Constrain_taskpanel_example.png ) 
+*Lorsque le curseur est contraint, le panneau de tâches verrouille les valeurs qui ne sont pas modifiées.*
 
 ## Utilisation des contraintes horizontales et verticales 
 

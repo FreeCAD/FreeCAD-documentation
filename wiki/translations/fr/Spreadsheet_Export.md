@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil **<img src=images/Spreadsheet_Export.svg style="width:16px"> [Spreadsheet Exporter](Spreadsheet_Export/fr.md)** vous permet d\'exporter une feuille de calcul sous la forme d\'un fichier de valeurs séparées par des tabulations (généralement désigné en CSV), qui peut ensuite être ouverte et utilisée dans d\'autres applications.
+L\'outil **<img src=images/Spreadsheet_Export.svg style="width:16px"> [Spreadsheet Exporter](Spreadsheet_Export/fr.md)** vous permet d\'exporter une feuille de calcul sous forme de fichier CSV, qui peut ensuite être ouvert et utilisé dans d\'autres applications. Notez que le caractère {{Value|tab}}, et non {{Value|comma}}, est le délimiteur de champ par défaut. Mais cela peut être modifié dans les [Préférences de la feuille de calcul](Spreadsheet_Preferences/fr.md). ({{Version/fr|0.20}}).
 
 ## Utilisation
 

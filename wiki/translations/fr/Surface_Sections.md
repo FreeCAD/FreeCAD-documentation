@@ -19,6 +19,7 @@ est utilisé pour créer une surface à partir d\'arêtes qui représentent des 
 <img alt="" src=images/Surface_Sections_edges_example.png  style="width:" height="250px;"> <img alt="" src=images/Surface_Sections_example.png  style="width:" height="250px;">
 
 
+
 *À gauche: bords de contrôle (coupes transversales). À droite: surface produite à partir de ces arêtes.*
 
 ## Utilisation

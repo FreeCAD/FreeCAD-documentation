@@ -15,7 +15,8 @@ Prima di poter avviare FCGear, è necessario installarlo (vedere come fare nel p
 
 :   ![](images/FCGear_Drop-down-menu_example-en.png )
 :   
-    *Il menu a discesa di FCGear*
+    
+*Il menu a discesa di FCGear*
     
 
 ## Tipi di ingranaggi 
@@ -24,21 +25,24 @@ Prima di poter avviare FCGear, è necessario installarlo (vedere come fare nel p
 
 :   ![](images/Involute-Gear_example.png )
 :   
-    *Da sinistra a destra: ingranaggi cilindrici, ingranaggi elicoidali, ingranaggi a doppia elica (vedere [Ingranaggio a spirale](FCGear_InvoluteGear/it.md))*
+    
+*Da sinistra a destra: ingranaggi cilindrici, ingranaggi elicoidali, ingranaggi a doppia elica (vedere [Ingranaggio a spirale](FCGear_InvoluteGear/it.md))*
     
 
 ### Cremagliera
 
 :   ![](images/Involute-Rack_example.png )
 :   
-    *Da sinistra a destra: ingranaggi cilindrici, ingranaggi elicoidali, ingranaggi a doppia elica (vedere [Cremagliera](FCGear_InvoluteRack/it.md))*
+    
+*Da sinistra a destra: ingranaggi cilindrici, ingranaggi elicoidali, ingranaggi a doppia elica (vedere [Cremagliera](FCGear_InvoluteRack/it.md))*
     
 
 ### Ingranaggio cicloidale 
 
 :   ![](images/Cycloid-Gear_example_1.png )
 :   
-    *Da sinistra a destra: ingranaggi cilindrici, ingranaggi elicoidali, ingranaggi a doppia elica (vedere [Ingranaggio cicloidale](FCGear_CycloideGear/it.md))*
+    
+*Da sinistra a destra: ingranaggi cilindrici, ingranaggi elicoidali, ingranaggi a doppia elica (vedere [Ingranaggio cicloidale](FCGear_CycloideGear/it.md))*
     
 
 ### Ingranaggio conico 
@@ -49,7 +53,8 @@ Prima di poter avviare FCGear, è necessario installarlo (vedere come fare nel p
 
 :   ![](images/Bevel-Gear_example.png )
 :   
-    *Da sinistra a destra: ingranaggi cilindrici, denti a spirale (vedere [Ingranaggio conico](FCGear_BevelGear/it.md))*
+    
+*Da sinistra a destra: ingranaggi cilindrici, denti a spirale (vedere [Ingranaggio conico](FCGear_BevelGear/it.md))*
     
 
 
@@ -59,21 +64,24 @@ Prima di poter avviare FCGear, è necessario installarlo (vedere come fare nel p
 
 :   ![](images/Worm-Gear_example.png )
 :   
-    *Sopra: vite senza fine (vedere [Vite senza fine](FCGear_WormGear/it.md))*
+    
+*Sopra: vite senza fine (vedere [Vite senza fine](FCGear_WormGear/it.md))*
     
 
 ### Corona dentata 
 
 :   ![](images/Crown-Gear_example.png )
 :   
-    *Sopra: corona dentata (vedere [Corona dentata](FCGear_CrownGear/it.md))*
+    
+*Sopra: corona dentata (vedere [Corona dentata](FCGear_CrownGear/it.md))*
     
 
 ### Ingranaggio di distribuzione e Ingranaggio a lanterna 
 
 :   ![](images/Timing+Latern-gear_example.png )
 :   
-    *Da sinistra a destra: ingranaggio di distribuzione e ingranaggio a lanterna (vedere [Ingranaggio di distribuzione](FCGear_TimingGear/it.md) o [Ingranaggio a lanterna](FCGear_LanternGear/it.md))*
+    
+*Da sinistra a destra: ingranaggio di distribuzione e ingranaggio a lanterna (vedere [Ingranaggio di distribuzione](FCGear_TimingGear/it.md) o [Ingranaggio a lanterna](FCGear_LanternGear/it.md))*
     
 
 ## Riferimenti

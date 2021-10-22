@@ -71,7 +71,7 @@ Un objet Draft B-spline est dérivée d\'un [Part Part2DObject](Part_Part2DObjec
 ### Données
 
 
-{{TitleProperty/fr|Draft}}
+{{TitleProperty|Draft}}
 
 -    {{PropertyData/fr|Area|Area}}: (en lecture seule) spécifie la surface de la face de la spline. La valeur sera {{value|0.0}} si {{PropertyData/fr|Make Face}} est `False` ou si la face ne peut être créée.
 
@@ -86,7 +86,7 @@ Un objet Draft B-spline est dérivée d\'un [Part Part2DObject](Part_Part2DObjec
 ### Vue
 
 
-{{TitleProperty/fr|Draft}}
+{{TitleProperty|Draft}}
 
 -    {{PropertyView/fr|Arrow Size|Length}}: spécifie la taille du symbole affiché à l\'extrémité de la courbe.
 

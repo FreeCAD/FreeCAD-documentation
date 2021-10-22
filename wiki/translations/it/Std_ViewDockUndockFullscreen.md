@@ -16,7 +16,8 @@
 
 La [Vista 3D](3D_view/it.md) può essere sganciata dall\'[interfaccia di FreeCAD](Interface/it.md) e spostata in un altro posto.
 
-![](images/FinestraNonAgganciata.png ) *Una vista 3D sganciata*
+![](images/FinestraNonAgganciata.png ) 
+*Una vista 3D sganciata*
 
 ## Agganciata
 

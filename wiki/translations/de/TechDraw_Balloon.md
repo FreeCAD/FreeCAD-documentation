@@ -17,13 +17,29 @@ Das Werkzeug Stücklistensymbol kann Stücklistensymbole mit Führungslinie eine
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle die Ansicht, an die das Stücklistensymbol angefügt werden soll.
 2.  Drücke die **<img src="images/TechDraw_Balloon.svg" width=16px> [Stücklistensymbol](TechDraw_Balloon/de.md)** Taste.
 3.  Der Mauszeiger wird nun als Blasensymbol angezeigt. Klicke auf die Seite, um den Blasenursprung an die gewünschte Position zu setzen.
 4.  Das Stücklistensymbol kann an die gewünschte Position gezogen werden. Verwende **Strg**+Ziehen, um die Blase und den Pfeil zu bewegen.
 5.  Um die Eigenschaften der Blase zu ändern, doppelklicke entweder in der Zeichnung darauf oder doppelklicke im Modellbaum auf das Blasenobjekt. Dadurch wird der Stücklistensymboldialog geöffnet.
 
+
+</div>
+
+To move the bubble of a Balloon, press and hold the left mouse button on its center and drag the mouse.
+
+To change the properties of a Balloon double-click it on the page or in the [Tree view](Tree_view.md). This will open the Balloon task panel.
+
+
+<div class="mw-translate-fuzzy">
+
 *Hinweis:*\' Die Position des Ballons ist relativ zur Ansicht und verwendet den gleichen Maßstabsfaktor wie die Ansicht.
+
+
+</div>
 
 ## Verwendung von Trennzeichen 
 

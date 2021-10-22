@@ -12,9 +12,11 @@ In termini generali, un \"DocumentObject\" è qualsiasi \"cosa\" che può appari
 ![](images/App_DocumentObject_example.png )
 
 
+
 *Vista ad albero che mostra diversi oggetti nel documento. Ognuno di essi è un "oggetto documento", derivato in definitiva dalla classe di base `App::DocumentObject*.`
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Diagramma semplificato delle relazioni tra gli oggetti principali del programma. La classe `App::DocumentObject* è la classe base essenzialmente di tutti gli oggetti nel software.`

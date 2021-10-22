@@ -28,6 +28,7 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;">
 
 
+
 *Flujo de trabajo del ambiente de trabajo MEF; el ambiente de trabajo llama a dos programas externos para realizar el mallado de un objeto sólido, y realizar la solución real del problema de elementos finitos*
 
 ## Menú: Modelo 

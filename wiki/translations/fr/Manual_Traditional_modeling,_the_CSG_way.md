@@ -1,4 +1,13 @@
 # Manual:Traditional modeling, the CSG way/fr
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
 {{Manual:TOC/fr}}
 
 La _ (CSG en anglais : *Constructive Solid Geometry*) décrit la manière la plus simple de travailler avec la géométrie 3D des solides. Elle crée des objets complexes en ajoutant/enlevant des éléments de volumes en utilisant des opérations booléennes telles que l\'union, la soustraction ou l\'intersection de solides.
@@ -126,9 +135,15 @@ Le fichier produit dans cet exercice: <https://github.com/yorikvanhavre/FreeCADm
 -   [L'atelier Fasteners](https://github.com/shaise/FreeCAD_FastenersWB)
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 _
 
 ---
-[documentation index](../README.md) > Manual:Traditional modeling, the CSG way/fr
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional modeling, the CSG way/fr

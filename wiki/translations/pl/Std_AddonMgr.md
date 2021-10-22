@@ -18,7 +18,8 @@ Dodatki oznaczone {{emphasis|Tylko Python 2}} nie będą działać we FreeCAD w 
 
 Z powodu zmian na platformie GitHub w roku 2020 menedżer dodatków nie działa już, jeśli używasz FreeCAD w wersji 0.17 lub starszej. Musisz zaktualizować program do wersji _ poniżej.
 
-![](images/Std_AddonMgr_dialog.png ) *Okienko dialogowe Menedżera dodatków*
+![](images/Std_AddonMgr_dialog.png ) 
+*Okienko dialogowe Menedżera dodatków*
 
 ## Użycie
 

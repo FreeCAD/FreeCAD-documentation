@@ -14,11 +14,13 @@
 
 Das Ausstattungwerkzeug bietet einen einfachen und bequemen Weg, nichttragende, einzelstehende Elemente wie Möbelstücke, Sanitärgegenstände oder elektrische Geräte zu Deinen Projekten hinzuzufügen. Ausstattungen basieren auf [Part Formen](Part_Workbench/de.md), die es erlauben, von der Solidität und den Möglichkeiten von BRep Geometrien zu profitieren und nette Ansichten von Drauf- und Schnittansichten zu erzeugen.
 
-![](images/Arch_equipment_example.jpg ) *Möbelobjekte, die in einem  [Arch Ausstattung](Arch_Equipment.md) Objekt eingeschlossen sind. Die flachen Projektionen können mit dem [Entwurf Shape2DAnsicht](Draft_Shape2DView/de.md) Werkzeug erhalten werden.*
+![](images/Arch_equipment_example.jpg ) 
+*Möbelobjekte, die in einem  [Arch Ausstattung](Arch_Equipment.md) Objekt eingeschlossen sind. Die flachen Projektionen können mit dem [Entwurf Shape2DAnsicht](Draft_Shape2DView/de.md) Werkzeug erhalten werden.*
 
 Seit v0.17 können Ausstattungsobjekte auch eine {{PropertyData/de|HiRes}}-Eigenschaft haben, woran ein [Netz](Mesh_Workbench/de.md)-Objekt angeheftet werden kann. Ausstattungsobjekte können dann veranlasst werden, dieses Netz anstatt ihrer Form in der 3D-Ansicht anzuzeigen, um so beliebige hochauflösende Netz-Objekte wie detaillierte Möbelstücke zu verwenden, die üblicherweile auf Web-Seiten zu finden sind.
 
-![](images/Arch_equipment_mesh.jpg ) *Möbelobjekte innerhalb eines [Arch Ausstattung](Arch_Equipment/de.md) Objekts, mit einem beigefügten hochauflösenden Netz*
+![](images/Arch_equipment_mesh.jpg ) 
+*Möbelobjekte innerhalb eines [Arch Ausstattung](Arch_Equipment/de.md) Objekts, mit einem beigefügten hochauflösenden Netz*
 
 Durch Nutzung des Arch OBJ Exporteurs können alle Ausstattungsobjekte im Netz Anzeige Modus als Netz anstatt als Form exportiert werden.
 
@@ -69,4 +71,4 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Equipment/de
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/de

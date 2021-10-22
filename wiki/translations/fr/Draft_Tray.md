@@ -5,7 +5,8 @@
 
 La **Draft Barre** permet de sélectionner le plan de travail, de définir les paramètres de style, de basculer en mode construction et de spécifier le calque ou le groupe actif. Les quatre boutons affichent les paramètres en cours. La Draft Barre est disponible dans l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _ et ne peuvent pas être désactivés.
 
-![](images/Draft_tray_default.png ) *La Draft Barre*
+![](images/Draft_tray_default.png ) 
+*La Draft Barre*
 
 ## Outils disponibles 
 

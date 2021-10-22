@@ -23,6 +23,7 @@ Il [pannello delle attivitàzioni](task_panel/it.md) appare nella scheda **Azion
 <div class="mw-translate-fuzzy">
 
 
+
 *Il pannello delle azioni che mostra i vari comandi con  [PartDesign](PartDesign_Workbench/it.md) attivo.*
 
 
@@ -38,6 +39,7 @@ L\'input dell\'utente può essere costituita da qualsiasi cosa come testo, coord
 
 
 <div class="mw-translate-fuzzy">
+
 
 
 *Il pannello delle azioni che si apre quando viene modificato uno [schizzo](Sketcher_Workbench/it.md). Vengono presentati vari tipi di informazioni come messaggi del risolutore, opzioni per la griglia, vincoli ed elementi geometrici.*
@@ -57,6 +59,7 @@ Esistono molti comandi che richiedono la selezione di forme o oggetti presenti n
 
 
 <div class="mw-translate-fuzzy">
+
 
 
 *Il pannello delle azioni che si apre quando si modifica un [Componente Arch](Arch_Component/it.md). Il pannello attende che l'utente selezioni gli oggetti che possono essere aggiunti o sottratti dal componente.*

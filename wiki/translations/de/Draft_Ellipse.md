@@ -35,6 +35,7 @@ Dieses Werkzeug kann auch zur Erstellung von elliptischen Bögen verwendet werde
 <div class="mw-translate-fuzzy">
 
 
+
 *Ellipse definiert durch die Ecken eines Rechtecks*
 
 

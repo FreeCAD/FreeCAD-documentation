@@ -12,14 +12,17 @@ La vue DAG ressemble au graphe qui peut être produit à partir d'un référenti
 
 Un modèle simple sera vu avec différentes vues.
 
-![](images/FreeCAD_DAG_view_3D.png ) *Modèle avec des formes 2D et 3D.*
+![](images/FreeCAD_DAG_view_3D.png ) 
+*Modèle avec des formes 2D et 3D.*
 
 <img alt="" src=images/FreeCAD_DAG_view_Tree_view.png ) ![](images/FreeCAD_DAG_view.png  style="width:" height="500px;">
+
 
 
 *A gauche: objets affichés dans la [vue en arborescence](tree_view.md) standard. A droite: objets affichés dans la vue DAG.*
 
 ![](images/FreeCAD_DAG_view_Std_DependencyGraph.png )
+
 
 
 *Relations entre les objets affichés dans le [Graphique de dépendance](Std_DependencyGraph/fr.md).*

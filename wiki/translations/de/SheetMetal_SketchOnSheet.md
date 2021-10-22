@@ -43,17 +43,11 @@ Ein SheetMetal-SketchOnSheet-Objekt wird von einem [Part-Formelement](Part_Featu
 
 {{Properties_Title/de|Basis}}
 
-
-<div class="mw-translate-fuzzy">
-
 -    {{PropertyData/de|Label|String}}: Standardwert: Der vom Benutzer änderbare Name dieses Objekts, der aus einer beliebigen UTF8-Zeichenkette bestehen kann.
 
 -    {{PropertyData/de|Base Feature|Link|hidden}}: Base Feature. Verweis zum Eltern-Objekt.
 
 -    {{PropertyData/de|_Body|LinkHidden|hidden}}: Unsichtbarer Verweis zum Eltern-Body.
-
-
-</div>
 
 
 {{Properties_Title/de|Parameters}}

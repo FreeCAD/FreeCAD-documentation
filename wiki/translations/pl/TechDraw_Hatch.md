@@ -16,6 +16,7 @@ Narzędzie **Hatch** wypełnia zamknięty obszar w widoku wzorcem kreskowania, k
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
 
 
+
 *SVG hatch pattern on a face*
 
 ## Użycie

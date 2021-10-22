@@ -21,7 +21,8 @@ Die <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> **Draft
 
 </div>
 
-![](images/Draft_Snap_Near_example.png ) *Fängt den zweiten Punkt einer Linie zum nächsten Punkt einer Kante*
+![](images/Draft_Snap_Near_example.png ) 
+*Fängt den zweiten Punkt einer Linie zum nächsten Punkt einer Kante*
 
 ## Anwendung
 

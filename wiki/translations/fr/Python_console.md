@@ -10,6 +10,7 @@ La console Python de FreeCAD a une coloration syntaxique de base, capable de dif
 <img alt="" src=images/FreeCAD_Python_console.png  style="width:800px;">
 
 
+
 *La console Python affichant des messages lorsque FreeCAD vient de démarrer.*
 
 ## Création de scripts 
@@ -29,6 +30,7 @@ La console Python peut effectuer l\'achèvement du code de base lorsqu\'un point
 La console peut également afficher la chaîne de documentation d'une fonction particulière lors de l'écriture de la parenthèse ouvrante, par exemple `function(`
 
 <img alt="" src=images/FreeCAD_Python_console_example.png  style="width:800px;">
+
 
 
 *Exemple de code Python produisant des objets dans la vue 3D.*

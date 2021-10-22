@@ -61,7 +61,8 @@ Une fois que le maillage a été créé, vous pouvez modifier ses propriétés �
 
 -    {{PropertyData/fr|Mesh Size From Curvature}}{{Version/fr|0.20}} : nombre d\'éléments de maillage par $2\pi$ fois le rayon de la courbure. Pour obtenir un maillage plus fin au niveau des petits coins ou des trous, cette valeur peut être augmentée pour de meilleurs résultats
 
-<img alt="" src=images/FEM_Gmsh-MeshSizeFromCurvature.png  style="width:450px;"> *Effet de ''Mesh Size From Curvature''; à gauche : réglé sur 12, à droite : désactivé*.
+<img alt="" src=images/FEM_Gmsh-MeshSizeFromCurvature.png  style="width:450px;"> 
+*Effet de ''Mesh Size From Curvature''; à gauche : réglé sur 12, à droite : désactivé*.
 
 -    {{PropertyData/fr|Optimize Netgen}}: si le maillage sera optimisé à l\'aide du générateur de maillage 3D [Netgen](https://github.com/NGSolve/netgen) pour améliorer la qualité des éléments tétraédriques. Remarque : comme Netgen ne peut créer que des éléments tétraédriques, cette option est ignorée pour les maillages dont la {{PropertyData/fr|Element Dimension}} n\'est pas *3D*.
 

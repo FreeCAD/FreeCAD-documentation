@@ -32,7 +32,8 @@ L\'algorithme V-carve calcule une trajectoire le long de la ligne médiane d\'un
 
         :   ![](images/Svgimport.png )
         :   
-            *Ci-dessus: Résultats de l'importation de "SVG en tant que géométrie"*
+            
+*Ci-dessus: Résultats de l'importation de "SVG en tant que géométrie"*
             
 
 :   

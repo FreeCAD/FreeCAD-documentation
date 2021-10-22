@@ -22,6 +22,7 @@ Ce tutoriel est basé sur le post de forum créé par schupin [FreeCAD / pov ray
 <img alt="" src=images/Povray_before_after.png  style="width:600px;">
 
 
+
 *align=center|Exemple d'un modèle 3D par schupin et d'un rendu haute qualité produit avec FreeCAD et POV-Ray.*
 
 Les fichiers utilisés dans ce tutoriel sont au post \#8 [du fil en question](https://forum.freecadweb.org/viewtopic.php?f=36&t=32745#p305169).
@@ -38,11 +39,13 @@ Pour que le rendu direct fonctionne, l\'exécutable `povray` doit être défini 
 
 ![](images/)
 
+
 *align=center|Assemblage de trois corps créés dans FreeCAD avec des couleurs ou des matériaux choisis.*
 
 2. Si votre modèle est très détaillé, assurez-vous que la valeur **Deviation** du corps est défini sur une valeur basse comprise entre {{incode|0.1` et `00.1` voire moins. Plus cette valeur est basse, plus le maillage exporté sera détaillé et donc meilleure sera la qualité du rendu.
 
 ![](images/)
+
 
 *align=center|Propriété de déviation des corps créés dans FreeCAD. L'écart doit être faible pour pouvoir exporter les pièces avec une bonne résolution.*
 
@@ -62,6 +65,7 @@ Pour que le rendu direct fonctionne, l\'exécutable `povray` doit être défini 
 
 ![](images/)
 
+
 *align=center|Premier rendu de l'assemblage réalisé avec POV-Ray avec le modèle standard écrit par Raytracing Workbench.*
 
 7.1. Avec le fichier `.pov` déjà créé, il est également possible d'exécuter `povray` à partir des lignes de commande.
@@ -79,10 +83,12 @@ Pour améliorer l'apparence de l'image, utilisez un meilleur modèle. Double-cli
 
 ![](images/)
 
+
 *align=center|Rendu de l'assemblage réalisé avec POV-Ray avec le modèle RadiosityNormal écrit par Raytracing Workbench.*
 
 Double-cliquez de nouveau sur l'objet `PovProject` et choisissez maintenant le modèle `RadiosityOutdoorHQ.pov`. Exportez ensuite un nouveau fichier `.pov` puis réexécutez le rendu. L'image devrait prendre plus de temps à produire mais le résultat devrait être de meilleure qualité.
 ![](images/)
+
 
 *align=center|Rendu de l'assemblage réalisé avec POV-Ray avec le modèle RadiosityOutdoorHQ écrit par Raytracing Workbench.*
 
@@ -272,6 +278,7 @@ sky_sphere {
 
 ![](images/)
 
+
 *align=center|A partir du modèle standard, rendu de la scène avec POV-Ray avec la source de lumière et sky sphere configurées.*
 
 === Modifier les textures des corps ===
@@ -391,6 +398,7 @@ object {Pov_Body001
 <img alt="" src=images/07_T04_FreeCAD_POVray_render_materials.png  style="width:600px;">
 
 
+
 *align=center|A partir du modèle standard, rendu de la scène avec POV-Ray avec la source de lumière et sky sphere configurées.*
 
 ### Préparation des plans 
@@ -416,6 +424,7 @@ plane {
 ```
 
 <img alt="" src=images/08_T04_FreeCAD_POVray_render_floor_gray.png  style="width:600px;">
+
 
 
 *align=center|A partir du modèle standard, le rendu de la scène avec POV-Ray, avec la source de lumière et sky sphere configurée, les matériaux affectés et un plan d'étage avec une texture de base grise.*
@@ -457,6 +466,7 @@ plane {
 <img alt="" src=images/09_T04_FreeCAD_POVray_render_floor_wood.png  style="width:600px;">
 
 
+
 *align=center|A partir du modèle standard, le rendu de la scène avec POV-Ray, avec la source de lumière et sky sphere configurée, les matériaux affectés et un plan d'étage avec une texture de parquet.*
 
 18\. Ajoutez un deuxième plan, cette fois perpendiculaire à la direction Z, pour servir de fond. Déplacez-le un peu derrière le modèle pour éviter de couvrir le miroir. Incluez la bibliothèque `stones.inc`, ajoutez une texture de granite générique et redimensionnez-la un peu. Cela se traduira par l\'apparition d\'un simple mur sec.
@@ -488,6 +498,7 @@ plane {
 ```
 
 <img alt="" src=images/10_T04_FreeCAD_POVray_render_floor_wood_walls.png  style="width:600px;">
+
 
 
 *align=center|A partir du modèle standard, le rendu de la scène avec POV-Ray, avec la source de lumière et sky sphere configurée, des matériaux assignés, un plan d'étage avec une texture de parquet et des murs arrière avec des textures de cloison sèche.*
@@ -551,6 +562,7 @@ global_settings {
 ```
 
 <img alt="" src=images/11_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_1.png  style="width:600px;">
+
 
 
 *align=center|A partir du modèle standard, le rendu de la scène avec POV-Ray, avec la source de lumière et sky sphere configurée, des matériaux assignés, un plan d'étage avec une texture de parquet et des murs arrière avec des textures de cloison sèche.Paramètres de radiosité pour un rendu rapide.*
@@ -655,6 +667,7 @@ povray assembly.pov +W800 +H600 +AM2 +A
 ```
 
 <img alt="" src=images/12_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_final.png  style="width:600px;">
+
 
 
 *align=center|A partir du modèle standard, le rendu de la scène avec POV-Ray, avec la source de lumière et sky sphere configurée, des matériaux assignés, un plan d'étage avec une texture de parquet et des murs arrière avec des textures de cloison sèche.Paramètres de radiosité pour un rendu rapide:`Radiosity_Final* et {{incode|recursion_limit 2`.}}

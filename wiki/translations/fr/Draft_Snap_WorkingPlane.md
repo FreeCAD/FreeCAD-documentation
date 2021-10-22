@@ -12,7 +12,8 @@
 
 L\'option <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:24px;"> **Draft Aimantation Plan de travail** projette le point d\'aimantation sur le [plan de travail](Draft_SelectPlane/fr.md) en cours. Elle ne peut être utilisée qu\'en combinaison avec une autre option d\'aimantation.
 
-![](images/Draft_Snap_WorkingPlane_example.png ) *Aimantation du deuxième point d'une ligne au point d'extrémité projeté d'une arête*
+![](images/Draft_Snap_WorkingPlane_example.png ) 
+*Aimantation du deuxième point d'une ligne au point d'extrémité projeté d'une arête*
 
 ## Utilisation
 

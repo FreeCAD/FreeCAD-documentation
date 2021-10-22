@@ -115,6 +115,7 @@ In the **Combo View**, expand the option **Edit controls** and make sure **Autoc
 <img alt="" src=images/01_Sk01_Sketcher_Task_panel.png  style="width:" height="400px;">
 
 
+
 *Upper part of the [task panel](task_panel.md) of the sketcher.*
 
 
@@ -157,6 +158,7 @@ Take a look at the [task panel](task_panel.md) again. The **Solver messages** se
 Look at the **Constraints** and **Elements** sections to see the new listed constraints and lines. Once your sketches have many elements, it may be difficult to select them in the [3D view](3D_view.md), so you can use these lists to select the object that you wish exactly.
 
 <img alt="" src=images/02_Sk01_Sketcher_construction.png  style="width:" height="400px;">
+
 
 
 *Construction lines forming a star shape with its center in the origin.*
@@ -209,6 +211,7 @@ Make sure you are not in construction mode by clicking on **<img src=images/Sket
 <img alt="" src=images/03_Sk01_Sketcher_outer_arcs.png  style="width:" height="400px;">
 
 
+
 *Circular arcs added at the endpoints of the construction lines. Also a central circle.*
 
 ### Inner arcs 
@@ -224,6 +227,7 @@ Make sure you are not in construction mode by clicking on **<img src=images/Sket
 To summarize, the O-arcs should have their curvature pointing outwards, and their concavity pointing towards the origin of the sketch; the I-arcs should have their curvature pointing inwards, and their concavity pointing away from the same origin.
 
 <img alt="" src=images/04_Sk01_Sketcher_inner_arcs.png  style="width:" height="400px;">
+
 
 
 *Circular arcs added between the first set of arcs placed.*
@@ -300,6 +304,7 @@ if you wish to temporarily disable the constraint, you may select it and press *
 <img alt="" src=images/05c_Sk01_Sketcher_equality_constraints_I-arcs.png  style="width:" height="400px;">
 
 
+
 *Sketch with equality constraints applied to the construction lines, and to the two sets of arcs.*
 
 ### Tangency
@@ -328,6 +333,7 @@ Până la acest pas, am creat un profil închis, care poate fi ajustat cu dimens
 </div>
 
 <img alt="" src=images/06_Sk01_Sketcher_tangency_constraints.png  style="width:" height="400px;">
+
 
 
 *Sketch with tangential constraints applied to the arcs, which closes the shape.*
@@ -370,6 +376,7 @@ These constraints specify the numerical distances between two points, and angles
 <img alt="" src=images/07a_Sk01_Sketcher_length_constraint.png  style="width:" height="400px;"> <img alt="" src=images/07b_Sk01_Sketcher_angle_constraint.png  style="width:" height="400px;">
 
 
+
 *Sketch with length constraint applied to one vertical construction line (left), and angle constraints to three pairs of construction lines (right).*
 
 ### Radius
@@ -389,6 +396,7 @@ These constraints specify the numerical distances between two points, and angles
 <img alt="" src=images/08a_Sk01_Sketcher_radius_1_constraint.png  style="width:" height="400px;"> <img alt="" src=images/08b_Sk01_Sketcher_radius_2_constraint.png  style="width:" height="400px;">
 
 
+
 *Sketch with radius constraints applied to the outwards arcs (left), and inwards arcs (right).*
 
 
@@ -405,6 +413,7 @@ Ar trebui să finalizați cu o schiță complet constrânsă. Aceasta poate fi c
 <img alt="" src=images/09_Sk01_Sketcher_fully_constrained.png  style="width:" height="400px;">
 
 
+
 *Sketch with all geometrical and datum constraints applied.*
 
 ## Extrusion
@@ -417,6 +426,7 @@ Ar trebui să finalizați cu o schiță complet constrânsă. Aceasta poate fi c
 :   12.4. Select the sketch, and then press **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Pad](PartDesign_Pad.md)**, choose the default options, and press **OK** to create a solid extrusion.
 
 <img alt="" src=images/09b_Sk01_Sketcher_fully_constrained_clean.png  style="width:" height="400px;"> <img alt="" src=images/10_Sk01_Sketcher_solid_extrusion.png  style="width:" height="400px;">
+
 
 
 *Left: fully constrained sketch with only the most important constraints showing. Right: solid extrusion produced with [PartDesign Pad](PartDesign_Pad.md).*

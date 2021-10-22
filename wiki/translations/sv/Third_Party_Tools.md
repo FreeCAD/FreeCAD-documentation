@@ -53,7 +53,7 @@ Ett mycket bra och stabilt verktyg för att generera källdokumentation från .h
 
 </div>
 
-#### The Gimp 
+#### Gimp
 
 
 <div class="mw-translate-fuzzy">
@@ -71,12 +71,12 @@ Hämta GIMP här: [www.gimp.org](http://www.gimp.org/)
 
 This is a proprietary git GUI that is very helpful to learn how git works if you\'re interested in wanting to contribute to FreeCAD. Relevant pages to research:
 
--   [Gitkraken](Gitkraken.md)
--   [Github](Github.md)
+-   [Developing FreeCAD with GitKraken](Developing_FreeCAD_with_GitKraken.md)
+-   [Source code management](Source_code_management.md)
 
 #### OBS Studio 
 
-Free and open source software for video recording and live streaming. More details on official website : [obsproject.com](https://obsproject.com/)
+Free and open source software for video recording and live streaming. More details on official website: [obsproject.com](https://obsproject.com/)
 
 #### OpenCamLib
 

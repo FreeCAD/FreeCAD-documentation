@@ -28,4 +28,4 @@ The Material tools allows to add materials to the active document.
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CompSetMaterial/pt-br
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompSetMaterial/pt-br

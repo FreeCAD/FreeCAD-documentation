@@ -18,7 +18,8 @@ Gewöhnlich öffnest du beim Schreiben von Computerprogrammen einen Texteditor o
 
 In Python kann dieser ganze Prozess transparent im Python Interpreter ausgeführt werden. Der Interpreter ist ein Python Fenster mit einer Eingabeaufforderung, wo du einfach Python Code eintippen kannst. Wenn du Python auf deinem Computer installiert hast (Herunterladen von der _.
 
-![](images/FreeCAD_Python_console.png ) *Die FreeCAD Python Konsole*
+![](images/FreeCAD_Python_console.png ) 
+*Die FreeCAD Python Konsole*
 
 Wenn du sie nicht siehst, klicke auf **Ansicht → Paneele → Python Konsole**. Die Python Konsole kann in der Größe verändert und auch wieder abgedockt werden.
 

@@ -17,7 +17,8 @@
 
 El <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:24px;"> comando **Borrador EditorEstiloAnotación** permite definir estilos que afectan a las propiedades visuales de los objetos tipo anotación, como los creados por los comandos [Borrador Texto](Draft_Text/es.md), [Borrador Dimensión](Draft_Dimension/es.md) y [Borrador Etiqueta](Draft_Label/es.md).
 
-![](images/Draft_AnnotationStyleEditor_example.png ) *El cuadro de diálogo del editor de estilos de anotación*
+![](images/Draft_AnnotationStyleEditor_example.png ) 
+*El cuadro de diálogo del editor de estilos de anotación*
 
 ## Uso
 

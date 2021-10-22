@@ -17,6 +17,7 @@ La fonction **Perçage** crée un ou plusieurs trous à partir des cercles et de
 <img alt="" src=images/Countersunk_and_counterbored_holes_cross-section1.png  style="width:600px;">
 
 
+
 *Coupe longitudinale d'un trou fraisé (à gauche) et d'un trou chambré (à droite).*
 
 ## Utilisation

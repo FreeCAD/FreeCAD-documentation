@@ -12,9 +12,16 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento <img alt="" src=images/Arch_Axis.svg  style="width:16px;"> Assi permette di posizionare una serie di assi nel documento corrente. La distanza e l\'angolo tra gli assi è personalizzabile, così come lo stile di numerazione. Gli assi servono principalmente da riferimento per bloccare gli oggetti, ma possono anche essere utilizzati in combinazione con dei <img alt="" src=images/Arch_Axis_System.svg  style="width:16px;"> _.
 
-<img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;"> *Due assi posizionati perpendicolarmente tra loro per creare una griglia
+
+</div>
+
+<img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;"> 
+*Due assi posizionati perpendicolarmente tra loro per creare una griglia
 *
 
 ## Utilizzo
@@ -26,10 +33,16 @@ Lo strumento <img alt="" src=images/Arch_Axis.svg  style="width:16px;"> Assi per
 
 ## Opzioni
 
+
+<div class="mw-translate-fuzzy">
+
 -   Ogni asse di un sistema di assi ha una propria distanza e un proprio angolo rispetto all\'asse precedente. Questo permette di creare sistemi molto complessi, quali sistemi non ortogonali, sistemi polari o qualsiasi tipo di sistema non uniforme.
 -   Facendo doppio clic sull\'asse nella vista ad albero è possibile modificare le distanze, gli angoli e le etichette di ciascun asse.
 -   La lunghezza degli assi, le dimensioni delle bolle e gli stili di numerazione sono personalizzabili direttamente tramite le proprietà del sistema di assi.
 -   Ogni asse può anche visualizzare un\'etichetta, anch\'essa modificabile tramite la finestra di dialogo del pannello azioni.
+
+
+</div>
 
 ## Proprietà
 
@@ -107,4 +120,4 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Axis/it
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/it

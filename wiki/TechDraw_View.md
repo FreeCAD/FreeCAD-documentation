@@ -12,7 +12,8 @@
 
 The View tool adds a representation of one or more objects to a Drawing page. This is the basic building block of the TechDraw workbench. Most other Views are derived in some way from NewView.
 
- ![](images/TechDraw_View_example.png )  *View of a solid box with hidden lines*
+ ![](images/TechDraw_View_example.png )  
+*View of a solid box with hidden lines*
 
 ## Usage
 

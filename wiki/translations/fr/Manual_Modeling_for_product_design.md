@@ -1,4 +1,13 @@
 # Manual:Modeling for product design/fr
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
 {{Manual:TOC/fr}}
 
 [La Conception de produits](https://en.wikipedia.org/wiki/Product_design) est à l\'origine un terme commercial, mais dans le monde de la 3D, cela signifie souvent de modéliser quelque chose avec l\'idée d\'[impression 3D](https://en.wikipedia.org/wiki/3D_printing) ou, plus généralement, de le fabriquer avec une machine, imprimante 3D ou machine à commande numérique [CNC](https://en.wikipedia.org/wiki/Numerical_control).
@@ -143,9 +152,15 @@ Mais le meilleur des deux mondes existe également, qui est l\'atelier Assembly2
 -   [L'atelier Assembly2](https://github.com/hamish2014/FreeCAD_assembly2)
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 _
 
 ---
-[documentation index](../README.md) > Manual:Modeling for product design/fr
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/fr

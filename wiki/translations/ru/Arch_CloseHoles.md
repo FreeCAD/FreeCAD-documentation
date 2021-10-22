@@ -70,4 +70,4 @@ solid = Arch.closeHole(Wall.Shape)
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/ru
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloseHoles/ru

@@ -37,6 +37,7 @@ Actualmente existe un nuevo entorno de renderizado en desarrollo para soportar m
 <img alt="" src=images/Raytracing_Workbench_workflow.svg  style="width:600px;">
 
 
+
 *Workflow of the Raytracing Workbench; the workbench prepares a project file from a given template, and then calls an external program to produce the actual rendering of the scene. The external renderer can be used independently of FreeCAD.*
 
 ### Herramientas GUI 

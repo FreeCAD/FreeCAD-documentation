@@ -23,7 +23,8 @@
 
 </div>
 
-![](images/Arch_Structure_example.jpg ) *Column based on a 2D base profile; a column and a beam defined by their height, length and width, without a base profile; a metallic structure based on a 2D face*
+![](images/Arch_Structure_example.jpg ) 
+*Column based on a 2D base profile; a column and a beam defined by their height, length and width, without a base profile; a metallic structure based on a 2D face*
 
 ## 使用方法
 
@@ -70,7 +71,8 @@
 
 The Structure tool also features a series of presets that allow to quickly build standard metallic profiles or precast concrete elements.
 
-![](images/Arch_presets_example.jpg ) *Some presets for steel structures*
+![](images/Arch_presets_example.jpg ) 
+*Some presets for steel structures*
 
 The presets are obtained by choosing a **Category** from the structure options panel. Available categories are **Precast concrete** or any of the industry-standard metallic profiles such as **HEA**, **HEB** or **INP**. For each of these categories, a number of presets are available. Once a preset is chosen, its individual parameters such as **Length**, **Width** or **Height** can be adjusted. However, for metallic profiles, the profile size is set by the preset and cannot be changed.
 
@@ -136,4 +138,4 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Structure/ja
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/ja

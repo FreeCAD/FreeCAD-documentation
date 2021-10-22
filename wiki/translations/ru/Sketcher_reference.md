@@ -7,7 +7,8 @@ The manual is a work in progress, as some sections are reviewed and updated depe
 
 Due to the evolving nature of the manual, the document is also known as the \"Sketcher lecture\".
 
-![](images/Sketcher_reference.png ) *Example sketch in the reference manual.*
+![](images/Sketcher_reference.png ) 
+*Example sketch in the reference manual.*
 
 ## Содержание
 

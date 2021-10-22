@@ -12,7 +12,8 @@ Il comando **Differenza** crea un nuovo oggetto mesh non parametrico, un [Mesh F
 
 Per utilizzare questo comando bisogna che _.
 
-![](images/Mesh_Difference_example.png ) *A sinistra due oggetti mesh, a destra l'oggetto mesh che è la differenza di quegli oggetti se il cubo è selezionato come oggetto principale*
+![](images/Mesh_Difference_example.png ) 
+*A sinistra due oggetti mesh, a destra l'oggetto mesh che è la differenza di quegli oggetti se il cubo è selezionato come oggetto principale*
 
 ## Utilizzo
 

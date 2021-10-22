@@ -36,6 +36,7 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 <div class="mw-translate-fuzzy">
 
 
+
 *Oggetto Draft e dimensioni importati in una pagina di disegno*
 
 

@@ -27,7 +27,8 @@
 
 This snap option currently only works properly for circular edges on a plane parallel to the XY plane of the global coordinate system, the angles are relative to that plane.
 
-![](images/Draft_Snap_Angle_example.png ) *Snapping the second point of a line to the -30° point on a circular edge. The small magenta circles indicate all available special cardinal points.*
+![](images/Draft_Snap_Angle_example.png ) 
+*Snapping the second point of a line to the -30° point on a circular edge. The small magenta circles indicate all available special cardinal points.*
 
 ## Usage
 

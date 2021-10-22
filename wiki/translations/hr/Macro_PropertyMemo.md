@@ -21,7 +21,8 @@
 
 Ovaj mali makronaredba stvara jedan dodatni objekt (podsjetnik ili drugi tekst) za objekt (samo skica)
 
-![](images/Macro_FCPropertyMemo_00.png ) *Dodavanje jednog objekta Memo → Ime*
+![](images/Macro_FCPropertyMemo_00.png ) 
+*Dodavanje jednog objekta Memo → Ime*
 
 ## Koristi
 

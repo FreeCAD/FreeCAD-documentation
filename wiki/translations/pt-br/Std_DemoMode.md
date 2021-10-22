@@ -11,7 +11,8 @@
 
 The **Std DemoMode** command will continuously rotate the camera in a [3D view](3D_view.md).
 
-![](images/Std_DemoMode_dialog.png ) *The View Turntable dialog box*
+![](images/Std_DemoMode_dialog.png ) 
+*The View Turntable dialog box*
 
 ## Utilização
 

@@ -12,6 +12,7 @@ Toutes les propriétés ne peuvent pas toujours être modifiées. en fonction du
 ![](images/FreeCAD_Property_editor_empty.png )
 
 
+
 *Éditeur de propriétés vide, quand aucun objet n'est sélectionné.*
 
 ## Définition d\'une propriété 
@@ -63,6 +64,7 @@ print(obj.Label)
 ```
 
 <img alt="" src=images/FreeCAD_Property_editor_View_basic.png  style="width:" height="264px;"> <img alt="" src=images/FreeCAD_Property_editor_Data_basic.png  style="width:" height="264px;">
+
 
 
 *Onglets Vue et Données de l’éditeur de propriétés, pour une basique "App::FeaturePython" d'un objet scripté.*
@@ -214,7 +216,8 @@ obj.CustomCamelProperty = 1000
 print(obj.CustomCamelProperty)
 ```
 
-![](images/FreeCAD_Property_editor_Custom.png ) *Éditeur de propriétés affichant les propriétés de données d'un [PartDesign Corps](PartDesign_Body/fr.md), avec deux propriétés supplémentaires, "Personnalisées" et "Propriété Camel personnalisée".*
+![](images/FreeCAD_Property_editor_Custom.png ) 
+*Éditeur de propriétés affichant les propriétés de données d'un [PartDesign Corps](PartDesign_Body/fr.md), avec deux propriétés supplémentaires, "Personnalisées" et "Propriété Camel personnalisée".*
 
 De la même manière, les propriétés **View** sont ajoutées, non pas à l\'objet de base, mais à son `ViewObject`. Ensuite, il s\'ensuit que des propriétés comme {{PropertyView/fr|Angular Deflection}}, {{PropertyView/fr|Bounding Box}}, {{PropertyView/fr|Display Mode}}, {{PropertyView/fr|Display Mode Body}}, {{PropertyView/fr|Line Color}}, et d\'autres, peuvent être examinés et modifiés à partir de la [console Python](Python_console/fr.md).
 

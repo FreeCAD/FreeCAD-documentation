@@ -14,7 +14,8 @@
 
 Il comando **Vista da dietro** orienta la camera della [Vista 3D](3D_view/it.md) nella direzione dell\'asse Y negativo.
 
-![](images/FreeCAD_views_rear.svg ) *La freccia 4 indica la direzione della vista posteriore.*
+![](images/FreeCAD_views_rear.svg ) 
+*La freccia 4 indica la direzione della vista posteriore.*
 
 ## Utilizzo
 

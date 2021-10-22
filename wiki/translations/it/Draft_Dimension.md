@@ -45,6 +45,7 @@ La dimensione risultante viene posizionata nella vista 3D ed è considerata un o
 <div class="mw-translate-fuzzy">
 
 
+
 *Dimensione definita da tre punti.*
 
 
@@ -288,7 +289,7 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 {{TitleProperty|Units}}
 
--    **Decimals|Integer**: specifies the number of decimal places to display for the measurement. Not used for angular dimensions.
+-    **Decimals|Integer**: specifies the number of decimal places to display for the measurement.
 
 -    **Show Unit|Bool**: specifies whether to display the unit next to the numerical value of the measurement. Not used for angular dimensions.
 

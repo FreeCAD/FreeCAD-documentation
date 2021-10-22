@@ -25,6 +25,7 @@ Los objetos de las partes son más complejos que los objetos de malla creados co
 <img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;">
 
 
+
 *El ambiente de trabajo de pieza es la capa básica que expone las funciones de dibujo de la OCCT a todos los ambientes de trabajo de FreeCAD.*
 
 ## Herramientas

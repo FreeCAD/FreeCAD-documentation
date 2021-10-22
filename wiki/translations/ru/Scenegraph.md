@@ -19,6 +19,7 @@ OpenInventor записывает трехмерную сцену в форме 
 <div class="mw-translate-fuzzy">
 
 
+
 *
 Рисунок, взятый с сайта [http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/ Inventor mentor]*
 

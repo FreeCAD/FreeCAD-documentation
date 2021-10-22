@@ -11,14 +11,17 @@ The DAG view resembles the graph that can be produced from a Git repository and 
 
 A simple model will be seen with different views.
 
-![](images/FreeCAD_DAG_view_3D.png ) *Model with 2D and 3D shapes.*
+![](images/FreeCAD_DAG_view_3D.png ) 
+*Model with 2D and 3D shapes.*
 
 <img alt="" src=images/FreeCAD_DAG_view_Tree_view.png ) ![](images/FreeCAD_DAG_view.png  style="width:" height="500px;">
+
 
 
 *Left: objects shown in the standard [tree view](tree_view.md). Right: objects shown in the DAG view.*
 
 ![](images/FreeCAD_DAG_view_Std_DependencyGraph.png )
+
 
 
 *Relationships between the objects shown in the [dependency graph](Std_DependencyGraph.md).*

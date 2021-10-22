@@ -13,7 +13,8 @@
 
 **표준 3D 보기 만들기(Std ViewCreate)** 명령은 활성 문서의 새 [3D 보기를](3D_view.md) 만듭니다. 추가된 3D 보기는 모델을 여러 방향에서 또는 서로 다른 확대 수준에서 검사할 때 유용합니다.
 
-![](images/ViewCreate1.png ) *3D 보기를 여러 개 가진 FreeCAD 인터페이스 예시*
+![](images/ViewCreate1.png ) 
+*3D 보기를 여러 개 가진 FreeCAD 인터페이스 예시*
 
 ## 용법
 

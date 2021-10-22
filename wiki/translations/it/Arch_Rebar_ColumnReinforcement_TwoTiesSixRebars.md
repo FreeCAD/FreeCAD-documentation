@@ -21,6 +21,7 @@ Questo comando fa parte dell\'ambiente _, tramite il menu **Strumenti → Addon 
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_TwoTies_example.png  style="width:400px;">
 
 
+
 *Armatura di pilastro tipo due staffe sei barre all'interno di una [Struttura](Arch_Structure/it.md) pilastro*
 
 ## Utilizzo
@@ -31,10 +32,12 @@ Questo comando fa parte dell\'ambiente _, tramite il menu **Strumenti → Addon 
 <img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width:700px;">
 
 
+
 *Finestra di dialogo per lo strumento Armatura di pilastro*
 
 4\. Selezionare il tipo di rinforzo di colonna TwoTiesSixRebars dal menu a discesa sul lato destro.
 <img alt="" src=images/TwoTiesColumnReinforcementDialog_Ties.png  style="width:700px;">
+
 
 
 *Finestra di dialogo per lo strumento Armatura di pilastro di tipo due staffe e sei barre*
@@ -42,6 +45,7 @@ Questo comando fa parte dell\'ambiente _, tramite il menu **Strumenti → Addon 
 5\. Fornire input per i dati relativi ai legami.
 6. Fare clic su **Avanti** e la finestra di dialogo verrà aggiornata come mostrato sotto.
 <img alt="" src=images/TwoTiesColumnReinforcementDialog_MainRebars.png  style="width:700px;">
+
 
 
 *Finestra di dialogo per i dati dell'armatura principale*

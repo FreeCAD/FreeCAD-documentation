@@ -36,6 +36,7 @@ Questo strumento funziona allo stesso modo dello strumento [Arco](Draft_Arc/it.m
 <div class="mw-translate-fuzzy">
 
 
+
 *Cerchio definito da due punti*
 
 

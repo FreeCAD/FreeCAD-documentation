@@ -17,6 +17,7 @@ Das [Arch SchneideLinie](Arch_CutLine/de.md) Werkzeug ermöglicht dir ein festes
 <img alt="" src=images/Arch_CutLine_example_1.png  style="width:" height="300px;"> <img alt="" src=images/Arch_CutLine_example_2.png  style="width:" height="300px;">
 
 
+
 *[Arch Wand](Arch_Wall/de.md) geschnitten von einer Linie. Links: Subtraktiver Quader, der beim Gebrauch des Werkzeugs erscheint. Rechts: Die Wand nach dem Schnitt.*
 
 ## Anwendung
@@ -35,4 +36,4 @@ Das [Arch SchneideLinie](Arch_CutLine/de.md) Werkzeug ermöglicht dir ein festes
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CutLine/de
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/de

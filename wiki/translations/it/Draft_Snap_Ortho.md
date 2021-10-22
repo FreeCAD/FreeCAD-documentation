@@ -30,6 +30,7 @@ Questo metodo si aggancia a un punto su una linea immaginaria che ha origine dal
 <div class="mw-translate-fuzzy">
 
 
+
 *Agganciare il secondo punto di una linea in un punto che forma un angolo di 135° rispetto all'orizzontale; i piccoli cerchi indicano tutte le possibili direzioni di aggancio*
 
 

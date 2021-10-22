@@ -34,13 +34,15 @@ Where `$INSTALL_DIR` is the directory where FreeCAD was installed, for example
 -   Select page size \"US Letter\" or \"A4\" and orientation \"landscape\".
 -   Set default units to \"mm\", and the page size to width \"279.4\" and height \"215.9\". For DIN-A4 you would use \"210\" and \"297\".
 
-<img alt="" src=images/InkDocProp.png  style="width:800px;"> *align=center|Inkscape: document with page size and orientation* 
+<img alt="" src=images/InkDocProp.png  style="width:800px;"> 
+*align=center|Inkscape: document with page size and orientation* 
 
 3\. Use the XML Editor to add a \"freecad\" namespace clause to the `<svg>` item.
 
 :   xmlns:freecad="[http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace](http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace)"
 
-Note that your editable texts will *not* work if you use \"<https://>\...\", even though the wiki is reached via https these days. Since SVG is a human readable format you could also enter the line above into the file with a text editor. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> *align=center|Inkscape: XML Editor adding the "freecad" namespace clause to the <svg> item* 
+Note that your editable texts will *not* work if you use \"<https://>\...\", even though the wiki is reached via https these days. Since SVG is a human readable format you could also enter the line above into the file with a text editor. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> 
+*align=center|Inkscape: XML Editor adding the "freecad" namespace clause to the <svg> item* 
 
 ## Create template drawing 
 
@@ -52,7 +54,8 @@ Note that your editable texts will *not* work if you use \"<https://>\...\", eve
 
 7\. Add and position the text that will be editable.
 
-8\. You now have your finished artwork, that should look something like this: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> *align=center|Inkscape: tentative template layout* 
+8\. You now have your finished artwork, that should look something like this: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> 
+*align=center|Inkscape: tentative template layout* 
 
 ## Create editable fields 
 
@@ -60,7 +63,8 @@ Note that your editable texts will *not* work if you use \"<https://>\...\", eve
 
 -   Assign a meaningful field name to each editable text.
 
-<img alt="" src=images/InkXMLeditableTag.png  style="width:800px;"> *align=center|Inkscape: XML Editor adding the "freecad:editable" property to the desired <text> item* 
+<img alt="" src=images/InkXMLeditableTag.png  style="width:800px;"> 
+*align=center|Inkscape: XML Editor adding the "freecad:editable" property to the desired <text> item* 
 
 ## Adjust size of the SVG 
 
@@ -68,9 +72,11 @@ Note that your editable texts will *not* work if you use \"<https://>\...\", eve
 
 -   It is four values, in the format `"0 0 width height"`
 
-<img alt="" src=images/InkXMLviewBox.png  style="width:800px;"> *align=center|Inkscape: XML Editor adjusting the viewbox to match the page size in millimeters* 
+<img alt="" src=images/InkXMLviewBox.png  style="width:800px;"> 
+*align=center|Inkscape: XML Editor adjusting the viewbox to match the page size in millimeters* 
 
-11\. Your template will now appear much bigger than desired. <img alt="" src=images/InkMuchTooBig.png  style="width:800px;"> *align=center|Inkscape: tentative template layout exceeding the page size* 
+11\. Your template will now appear much bigger than desired. <img alt="" src=images/InkMuchTooBig.png  style="width:800px;"> 
+*align=center|Inkscape: tentative template layout exceeding the page size* 
 
 12\. We need to shrink it.
 
@@ -102,7 +108,8 @@ Note that your editable texts will *not* work if you use \"<https://>\...\", eve
 
 20\. Save your template. When you use Inkscape, save it preferably as **Plain SVG** because FreeCAD can only handle the features of the SVG 1.1 specification. **Plain SVG** will remove any Inkscape-specific XML tags.
 
-21\. Try it in FreeCAD and [TechDraw Workbench](TechDraw_Workbench.md) with [Insert Page using Template](TechDraw_PageTemplate.md). ![](images/FCTemplateHow.png ) *align=center|FreeCAD: finished template with an editable text field being modified* 
+21\. Try it in FreeCAD and [TechDraw Workbench](TechDraw_Workbench.md) with [Insert Page using Template](TechDraw_PageTemplate.md). ![](images/FCTemplateHow.png ) 
+*align=center|FreeCAD: finished template with an editable text field being modified* 
 
 ## Notes
 
@@ -113,6 +120,8 @@ As a final step before using your new template, make sure to remove any transfor
 See a Stackoverflow discussion on [removing transform clauses in SVG files](https://stackoverflow.com/questions/13329125/removing-transforms-in-svg-files).
 
 If you do not see the green boxes for your editable texts, there might be something wrong with your document scale. Open your file in Inkscape again and confirm the values of the viewBox and the sizes are matching.
+
+If texts appear offset in FreeCAD, you may need to remove the {{Incode|xml:space<nowiki>=</nowiki>"preserve"}} attributes in the SVG file. See: <https://www.forum.freecadweb.org/viewtopic.php?t=50897>.
 
 
 {{Tutorials navi

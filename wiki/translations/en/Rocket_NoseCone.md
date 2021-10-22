@@ -30,31 +30,40 @@ Supported nose cone types include:
 
 -   Cone.
 
-![](images/NC_Cone_small.png ) *Conical*
+![](images/NC_Cone_small.png ) 
+*Conical*
 
 -   Ogive.
 
-![](images/NC_Ogive_small.png ) *Ogive*
+![](images/NC_Ogive_small.png ) 
+*Ogive*
 
 -   Elliptical.
 
-![](images/NC_Elliptical_small.png ) *Elliptical*
+![](images/NC_Elliptical_small.png ) 
+*Elliptical*
 
 -   Parabola. The shape commonly thought of as a parabola is not generated using a parabolic series, but a power series with a coefficient of 1/2. This is explained in the Wikipedia article.
 
-![](images/NC_Parabola_small.png ) *Parabola (Power series with coefficient 1/2)*
+![](images/NC_Parabola_small.png ) 
+*Parabola (Power series with coefficient 1/2)*
 
 -   Parabolic series. This shape is constrained using a coefficient, as explained in the Wikipedia article.
 
-![](images/NC_Parabolic_0.5_small.png ) *Parabolic series with coefficient 1/2* ![](images/NC_Parabolic_1_small.png ) *Parabolic series with coefficient 1*
+![](images/NC_Parabolic_0.5_small.png ) 
+*Parabolic series with coefficient 1/2* ![](images/NC_Parabolic_1_small.png ) 
+*Parabolic series with coefficient 1*
 
 -   Von Karman. A Haack series with a coefficient of 0
 
-![](images/NC_Karman_small.png ) *Von Karman (Haack series with coefficient 0)*
+![](images/NC_Karman_small.png ) 
+*Von Karman (Haack series with coefficient 0)*
 
 -   Haack Series. This shape is constrained using a coefficient, as explained in the Wikipedia article.
 
-![](images/NC_Haack_0.33_small.png ) *Haack series with coefficient 1/3* ![](images/NC_Haack_2_small.png ) *Haack series with coefficient 2*
+![](images/NC_Haack_0.33_small.png ) 
+*Haack series with coefficient 1/3* ![](images/NC_Haack_2_small.png ) 
+*Haack series with coefficient 2*
 
 ### Nose Cone Styles 
 
@@ -75,7 +84,9 @@ Nose cones can be drawn in one of 3 styles
 ### Shoulders
 
 Nose cones can be created with or without shoulders
-![](images/NC_Ogive_small.png ) *Ogive with shoulder* ![](images/NC_No_Shoulder_small.png ) *Ogive without shoulder*
+![](images/NC_Ogive_small.png ) 
+*Ogive with shoulder* ![](images/NC_No_Shoulder_small.png ) 
+*Ogive without shoulder*
 
 ## Properties
 

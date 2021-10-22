@@ -66,6 +66,7 @@ Ein grundlegender Unterschied zwischen FreeCAD und anderen Programmen, wie Catia
 <img alt="" src=images/PartDesign_Body_non-contiguous.png  style="width:550px;">
 
 
+
 *Unterschied zwischen Catia und FreeCAD. Links: Catia erlaubt es, Körper von den vorherigen Formelementen des Körpers zu trennen. In FreeCAD verursacht dies einen Fehler; Rechts: das neuere Formelement sollte immer das vorherige Formelement berühren oder schneiden, so dass es mit ihm verschmolzen ist und zu einem einzelnen zusammenhängenden Festkörper wird.*
 
 ## Bezugsgeometrie
@@ -91,6 +92,7 @@ Sowohl Skizzen als auch Bezugsebenen sollten an den Basisebenen angebracht werde
 Auch wenn sie nicht zur Unterstützung von Skizzen verwendet werden, sind Bezugsobjekte als visuelle Indikatoren hilfreich, um auf wichtige Merkmale oder Abstände im Modellierungsprozess hinzuweisen. (Allerdings bietet auch das einfache Hinzufügen von Geometrie zu einer Skizze eine ähnliche visuelle Rückmeldung).
 
 <img alt="" src=images/PartDesign_Body_non-contiguous_slanted.png  style="width:550px;">
+
 
 
 *Unterschied zwischen Catia und FreeCAD. Links: Catia erlaubt es, Körper von den vorherigen Formelementen des Körpers zu trennen. In FreeCAD verursacht dies einen Fehler; Rechts: das neuere Formelement sollte immer das vorherige Formelement berühren oder schneiden, so dass es mit ihm verschmolzen ist und zu einem einzelnen zusammenhängenden Festkörper wird. In diesem Beispiel basiert der neue Festkörper auf einer Bezugsebene, die um die Y Achse gedreht wird.*

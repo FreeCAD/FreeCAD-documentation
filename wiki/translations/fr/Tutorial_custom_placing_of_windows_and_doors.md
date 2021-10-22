@@ -76,9 +76,11 @@ w = Draft.makeWire(p, closed=False)
 <img alt="" src=images/01_T02_wire_wall.png  style="width:600px;">
 
 
+
 *align=center|Fil de base pour le mur*
 
 <img alt="" src=images/02_T02_just_wall.png  style="width:600px;">
+
 
 
 *align=center|Mur construit à partir du fil*
@@ -91,6 +93,7 @@ w = Draft.makeWire(p, closed=False)
 :   7.2. Cliquez à nouveau sur l\'outil [Arch Fenêtre](Arch_Window/fr.md) et placez une autre porte, mais cette fois au milieu du mur arrière; faites pivoter la [vue standard](Std_View_Menu/fr.md) si nécessaire.
 
 <img alt="" src=images/03_T02_wall_place_doors.png  style="width:600px;">
+
 
 
 *align=center|Accrochage au milieu du bord inférieur du mur pour placer la porte*
@@ -113,9 +116,11 @@ w = Draft.makeWire(p, closed=False)
 ![](images/04_T02_window_constraints_outer_frame.png )
 
 
+
 *align=center|Contraintes pour les fils extérieurs de l'esquisse qui forment la fenêtre*
 
 ![](images/05_T02_window_constraints_inner_frame.png )
+
 
 
 *align=center|Contraintes pour les fils intérieurs de l'esquisse qui forment la fenêtre*
@@ -128,9 +133,11 @@ w = Draft.makeWire(p, closed=False)
 <img alt="" src=images/07_T02_window_sketch_in_wall.png  style="width:600px;">
 
 
+
 *align=center|Esquisse de fenêtre déplacée à la position souhaitée sur le mur*
 
 <img alt="" src=images/06_T02_window_sketch_properties_constraints.png  style="width:600px;">
+
 
 
 *align=center|Contraintes nommées de l'esquisse, qui peuvent être modifiées sans entrer dans l'esquisse*
@@ -138,6 +145,7 @@ w = Draft.makeWire(p, closed=False)
 11\. Revenez à l\'[atelier Arch](Arch_Workbench/fr.md) et, avec le nouveau `Sketch002` sélectionné, utilisez [Arch Fenêtre](Arch_Window/fr.md). Une fenêtre sera créée et fera un trou dans le mur. La fenêtre est créée à partir d\'une esquisse personnalisée, et non à partir d\'un préréglage, elle doit donc être modifiée pour afficher correctement ses composants, à savoir le cadre fixe, le cadre intérieur et le panneau de verre.
 
 <img alt="" src=images/08_T02_window_basic_in_wall.png  style="width:600px;">
+
 
 
 *align=center|Fenêtre personnalisée créée à partir de l'esquisse; elle n'a toujours pas de cadre approprié, ni de verre*
@@ -151,6 +159,7 @@ w = Draft.makeWire(p, closed=False)
 :   13.1. Dans la boîte de dialogue `Window elements`, il y a deux volets, `Wires` et `Components`. Il y a trois fils, `Wire0`, `Wire1` et `Wire2`, et un composant, `Default`. Les fils font référence aux boucles fermées qui ont été dessinées dans l\'esquisse; les composants définissent les zones de l\'esquisse qui seront extrudées pour créer des cadres ou des panneaux de verre avec des épaisseurs réelles; ces zones sont délimitées par les fils. Une fenêtre créée à partir d\'un preset a déjà deux composants, `OuterFrame` et `Glass`. La fenêtre personnalisée doit être modifiée pour avoir une structure similaire.
 
 ![](images/09_T02_window_edit_default.png )
+
 
 
 *align=center|Boîte de dialogue pour modifier une fenêtre ou une porte*
@@ -179,6 +188,7 @@ w = Draft.makeWire(p, closed=False)
 ![](images/10_T02_window_edit_components.png )
 
 
+
 *align=center|Modification d'un composant précédemment défini d'une fenêtre ou d'une porte*
 
 
@@ -187,9 +197,11 @@ w = Draft.makeWire(p, closed=False)
 ![](images/11_T02_window_property_view.png )
 
 
+
 *align=center|Vue des propriétés de la fenêtre pour ajouter la longueur du cadre par défaut, la longueur du décalage et d'autres options*
 
 <img alt="" src=images/12_T02_window_finished.png  style="width:600px;">
+
 
 
 *align=center|Fenêtre finie avec des composants appropriés intégrés dans le mur*
@@ -206,6 +218,7 @@ w = Draft.makeWire(p, closed=False)
 ![](images/13_T02_sketch_attachment_edit.png )
 
 
+
 *align=center|Boîte de dialogue pour modifier le plan d'association de l'esquisse*
 
 16\. Vous pouvez ajuster les dimensions de la nouvelle fenêtre en modifiant les paramètres nommés dans `Sketch003` sous {{PropertyData/fr|Contraintes}}, par exemple, définissez `Height` à `2 m` et `Frame Fixed Bottom` à `0 m`. Appuyez ensuite sur **Ctrl**+**R** pour [recalculer](recompute/fr.md) le modèle. Si le mur n\'affiche pas un plus grand trou pour la nouvelle fenêtre, sélectionnez le mur dans l\'arborescence, faites un clic droit et choisissez `Mark to recompute`, puis appuyez sur **Ctrl**+**R** à nouveau.
@@ -213,6 +226,7 @@ w = Draft.makeWire(p, closed=False)
 17\. Ces opérations ont changé la position de la nouvelle fenêtre, mais l\'ouverture dans le mur n\'a pas l\'air correcte. Il est incliné, c\'est-à-dire que le trou n\'est pas perpendiculaire à la face du mur et qu\'il peut même couper d\'autres parties du mur. Le problème est que `Window001` a conservé les informations {{PropertyData/fr|Normal}} de l\'original `Window`.
 
 <img alt="" src=images/14_T02_sketch_2_attached_slanted.png  style="width:600px;">
+
 
 
 *align=center|Ouverture incorrecte dans le mur en raison d'une mauvais normale de la fenêtre*
@@ -239,9 +253,11 @@ Lorsqu\'une esquisse est créée, elle a toujours deux axes, un X local (rouge) 
 <img alt="" src=images/15_T02_sketch_local_coordinates.png  style="width:600px;">
 
 
+
 *align=center|Coordonnées locales d'une esquisse "debout", c'est-à-dire mappée sur le plan XZ global*
 
 <img alt="" src=images/16_T02_sketch_correct_normal_direction.png  style="width:600px;">
+
 
 
 *align=center|Directions prévues des normales pour chaque porte et fenêtre*
@@ -299,6 +315,7 @@ Après avoir effectué ces modifications, recalculez le modèle avec **Ctrl**+**
 19\. L\'orientation de l\'extrusion de la fenêtre est résolue, ainsi que l\'ouverture dans le mur.
 
 <img alt="" src=images/17_T02_sketch_2_attached_correctly.png  style="width:600px;">
+
 
 
 *align=center|Ouverture correcte dans le mur en raison de la bonne  normale de la fenêtre*

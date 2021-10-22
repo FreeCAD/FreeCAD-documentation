@@ -77,6 +77,7 @@ Pour chaque segment de Bézier cubique, il faut utiliser quatre points dont les 
 <img alt="" src=images/Draft_CubicBezCurve_API_example.png  style="width:600px;">
 
 
+
 *Exemples de courbes de Bézier produites en utilisant 2, 3, 4, 5, 6, 7 et 8 points. Les lignes continues indiquent les segments de Bézier cubiques. Les autres lignes sont quadratiques ou linéaires.*
 
 Exemple:

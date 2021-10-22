@@ -79,6 +79,7 @@ Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le vi
 <img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
 
 
+
 *Il piano di sezione con l'opzione clip view si comporta come una fotocamera, limitando il campo visivo.*
 
 ## Tweaks
@@ -140,4 +141,4 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/it
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/it

@@ -21,7 +21,8 @@ Eskiz tezgahı, 2D şekillerin kesin geometrik tanımları izlemesine izin veren
 
 </div>
 
-<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> *
+<img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
+*
 Tamamen kısıtlanmış bir eskiz*
 
 ## Basics of constraint sketching 
@@ -82,7 +83,13 @@ Birden fazla nesne aralarında sınırlandırılabilir. İki çizgi, noktaları 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 İki tür kısıtlama vardır: geometrik ve boyutsal. Bunlar aşağıdaki [\'Araçlar\'](#The_tools.md) bölümünde ayrıntılı olarak açıklanmaktadır .
+
+
+</div>
 
 #### What the Sketcher is not good for 
 
@@ -128,7 +135,7 @@ Kapalı alanda daha küçük,alanla örtüşmeyen alanlara sahip olabiliriz. Bun
 
 Once a Sketch is fully constrained, the Sketch features will turn green; Construction Geometry will remain blue. It is usually \"finished\" at this point and suitable for use in creating a 3D solid. However, once the Sketch dialog is closed it may be worthwhile going to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:Part Workbench](Part_Workbench.md) and running **[16px"> [Check geometry](Part_CheckGeometry.md)** to ensure there are no features in the Sketch which may cause later problems.
 
-## The tools 
+## Tools
 
 
 <div class="mw-translate-fuzzy">
@@ -832,7 +839,13 @@ Kenarları Bağla\]\]: Uç noktalarını çakıştırarak eskiz elemanlarını b
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ### Seçenekler
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

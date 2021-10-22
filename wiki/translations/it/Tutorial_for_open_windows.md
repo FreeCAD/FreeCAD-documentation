@@ -133,9 +133,11 @@ occasionally the window may be placed outside the [Arch Wall](Arch_Wall.md); as 
 :   11.4. Change the `Opening mode` to **Arc 90**, or any other option.
 :   11.5. Click the **+Create/update component** button, and then **Close** to finish editing the door. The sketch may become hidden again.
 
-![](images/05_T01_window_edit.png ) *align=center|Dialog to edit a window or a door*
+![](images/05_T01_window_edit.png ) 
+*align=center|Dialog to edit a window or a door*
 
-![](images/06_T01_window_edit_component.png ) *align=center|Dialog to edit the components that make a window or a door*
+![](images/06_T01_window_edit_component.png ) 
+*align=center|Dialog to edit the components that make a window or a door*
 
 <img alt="" src=images/06.1_T01_window_edit_wire_door_front.png  style="width:600px;"> 
 *align=center|Vertical edge of sketch selected as hinge for a door*
@@ -146,7 +148,8 @@ occasionally the window may be placed outside the [Arch Wall](Arch_Wall.md); as 
 
 14\. Repeat the steps with `Door001` and the underlying `Sketch001` to make the door open 75 degrees to the inside of the building. Also enable the elevation and plan symbols.
 
-![](images/07_T01_window_property_view.png ) *align=center|Property view of the door to change Opening value, Symbol elevation, Symbol plan, and other options*
+![](images/07_T01_window_property_view.png ) 
+*align=center|Property view of the door to change Opening value, Symbol elevation, Symbol plan, and other options*
 
 <img alt="" src=images/08_T01_window_symbol_elevation.png  style="width:600px;"> 
 *align=center|Door with opening elevation symbol, front view*

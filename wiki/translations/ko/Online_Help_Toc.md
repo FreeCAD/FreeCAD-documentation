@@ -101,29 +101,20 @@ _ 다른 차례가 있습니다.
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
 -   스크립트 및 매크로
+    -   [Working with macros](Macros.md)
+    -   [Script tutorial](Scripts.md)
     -   [Introduction to Python](Introduction_to_Python.md)
     -   [Python scripting tutorial](Python_scripting_tutorial.md)
-    -   [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md)
-    -   [Mesh Scripting](Mesh_Scripting.md)
-    -   [Part Scripting](Topological_data_scripting.md)
-    -   [Converting between Meshes and Parts](Mesh_to_Part.md)
-    -   [The Coin Scenegraph](Scenegraph.md)
+    -   [FreeCAD scripting basics](FreeCAD_Scripting_Basics.md)
+    -   [Part scripting](Part_scripting.md)
+    -   [Shape manipulation](Topological_data_scripting.md)
+    -   [Scripted objects](Scripted_objects.md)
+    -   [The Coin scenegraph](Scenegraph.md)
     -   [Working with Pivy](Pivy.md)
     -   [Working with PySide](PySide.md)
-    -   [Creating parametric objects](Scripted_objects.md)
-    -   [Embedding FreeCAD](Embedding_FreeCAD.md)
-    -   [API documentation](API_documentation.md)
-    -   Scripting Examples
-        -   [Code snippets](Code_snippets.md)
-        -   [Line drawing function](Line_drawing_function.md)
-        -   [Dialog creation](Dialog_creation.md)
-
-
-</div>
+    -   [Interface creation](Interface_creation.md)
+    -   [Dialog creation](Dialog_creation.md)
 
 
 <div class="mw-translate-fuzzy">

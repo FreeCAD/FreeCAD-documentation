@@ -52,7 +52,8 @@ There are standalone programs for both of these applications but their installat
 
     :   ![Elmer Tab in FEM Preferences](images/Preferences-ElmerPath.png )
     :   
-        *Above: Elmer preferences dialog menu showing fields to locate important Elmer binaries on Windows OS*
+        
+*Above: Elmer preferences dialog menu showing fields to locate important Elmer binaries on Windows OS*
         
 
 You are ready to use Elmer in FreeCAD.
@@ -66,14 +67,16 @@ You are ready to use Elmer in FreeCAD.
 
     :   ![](images/Elmer_typical_file_tree.png )
     :   
-        *Above: Example of a [tree view](Tree_view.md) once a Solver for Elmer is activated*
+        
+*Above: Example of a [tree view](Tree_view.md) once a Solver for Elmer is activated*
         
 4.  Edit the parameters for the solver in the [Property editor](Property_editor.md) **Data** tab of the SolverElmer object in the model [tree view](Tree_view.md)
 5.  Double-click on the **<img src="images/FEM_SolverElmer.svg" width=22px> SolverElmer** object to prepare an analysis run
 
     :   <img alt="" src=images/ElmerSolver_TaskPanel.png  style="width:300px;">
     :   
-        *Above: Dialog box to run an Elmer analysis*
+        
+*Above: Dialog box to run an Elmer analysis*
         
 6.  Select the path to write the analysis in by clicking **...**
 7.  Click **Write** to write the case files in the directory selected previously

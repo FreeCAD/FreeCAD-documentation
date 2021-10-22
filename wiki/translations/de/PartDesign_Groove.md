@@ -18,6 +18,7 @@ Das **Nut** Werkzeug dreht eine ausgewählte Skizze oder ein gegebenes Profil um
 ![](images/PartDesign_Groove_example.svg )
 
 
+
 *Oben: Skizze (A) ist um die Achse (B) gedreht; die resultierende Nut auf dem Volumenkörper (C) ist rechts dargestellt.*
 
 ## Anwendung

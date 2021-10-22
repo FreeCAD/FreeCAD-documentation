@@ -14,7 +14,8 @@
 
 Crée un **point de référence** qui peut être utilisé comme référence pour les esquisses ou toute autre géométrie de référence.
 
-![](images/DatumPoint.png ) *Un point de référence attaché à une sphère avec un décalage d'ancrage de {{Value|2* dans la direction Z.}}
+![](images/DatumPoint.png ) 
+*Un point de référence attaché à une sphère avec un décalage d'ancrage de {{Value|2* dans la direction Z.}}
 
 ## Utilisation
 

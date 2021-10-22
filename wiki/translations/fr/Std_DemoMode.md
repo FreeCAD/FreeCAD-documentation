@@ -12,7 +12,8 @@
 
 La commande **Std Vue en rotation** fera tourner la caméra en continu dans une [vue 3D](3D_view/fr.md).
 
-![](images/Std_DemoMode_dialog.png ) *La boîte de dialogue Vue en rotation*
+![](images/Std_DemoMode_dialog.png ) 
+*La boîte de dialogue Vue en rotation*
 
 ## Utilisation
 

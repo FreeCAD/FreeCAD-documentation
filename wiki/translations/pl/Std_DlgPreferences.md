@@ -1,25 +1,27 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std DlgPreferences
-   MenuLocation:Edit → Preferences...
+   Name/pl:Std: Okno dialogowe preferencji
+   MenuLocation:Edycja → Preferencje
    Workbenches:All
-   SeeAlso:[Preferences Editor](Preferences_Editor.md)
+   SeeAlso:[Edytor ustawień](Preferences_Editor/pl.md)
 ---
 
 # Std DlgPreferences/pl
 
-## Description
+## Opis
 
-The **Std DlgPreferences** command opens the [Preferences Editor](Preferences_Editor.md).
+Polecenie **Std: Okno dialogowe preferencji** otwiera edytor [Edytor ustawień](Preferences_Editor/pl.md).
 
-## Usage
+## Użycie
 
-1.  Select the **Edit → <img src="images/Std_DlgPreferences.svg" width=16px> Preferences...** option from the menu.
+1.  Wybierz opcję z menu **Edycja → <img src="images/Std_DlgPreferences.svg" width=24px> Preferencje
+**
 
-## Notes
+## Uwagi
 
--   For more information see [Preferences Editor](Preferences_Editor.md).
--   On MacOS this command may appear in the FreeCAD menu instead of the [Edit](Std_Edit_Menu.md) menu.
+-   Więcej informacji można znaleźć na stronie [Edytor ustawień](Preferences_Editor/pl.md).
+-   W systemie MacOS to polecenie może pojawić się w menu FreeCAD zamiast w menu [Edycja](Std_Edit_Menu/pl.md).
 
 
 

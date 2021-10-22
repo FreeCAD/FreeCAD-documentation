@@ -6,16 +6,16 @@ Esta es una lista extensa, pero no completa, de las características que FreeCAD
 
 ## Notas de la versión 
 
--   [Liberación 0.11](Release_notes_0.11/es.md) - Marzo 2011
--   [Liberación 0.12](Release_notes_0.12/es.md) - Diciembre 2011
--   [Liberación 0.13](Release_notes_0.13/es.md) - Enero 2013
--   [Liberación 0.14](Release_notes_0.14/es.md) - Marzo 2014
--   [Liberación 0.15](Release_notes_0.15/es.md) - Marzo 2015
--   [Liberación 0.16](Release_notes_0.16/es.md) - Abril 2016
--   [Liberación 0.17](Release_notes_0.17/es.md) - Abril 2018
--   [Liberación 0.18](Release_notes_0.18/es.md) - Marzo 2019
--   [Liberación 0.19](Release_notes_0.19/es.md) - Mes 2020
 -   [Liberación 0.20](Release_notes_0.20/es.md) - Por definir
+-   [Liberación 0.19](Release_notes_0.19/es.md) - Marzo 2021
+-   [Liberación 0.18](Release_notes_0.18/es.md) - Marzo 2019
+-   [Liberación 0.17](Release_notes_0.17/es.md) - Abril 2018
+-   [Liberación 0.16](Release_notes_0.16/es.md) - Abril 2016
+-   [Liberación 0.15](Release_notes_0.15/es.md) - Marzo 2015
+-   [Liberación 0.14](Release_notes_0.14/es.md) - Marzo 2014
+-   [Liberación 0.13](Release_notes_0.13/es.md) - Enero 2013
+-   [Liberación 0.12](Release_notes_0.12/es.md) - Diciembre 2011
+-   [Liberación 0.11](Release_notes_0.11/es.md) - Marzo 2011
 
 ## Características clave 
 

@@ -48,6 +48,7 @@ Após pressionar **OK**, os objetos selecionados são copiados para a memória, 
 ![](images/ObjectSelection.png )
 
 
+
 *Diálogo de seleção de objetos que é lançado a partir do [vista de seleção](Selection_view/pt-br.md).*
 
 ## Vista em árvore 

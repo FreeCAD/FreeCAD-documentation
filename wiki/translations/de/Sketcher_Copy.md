@@ -16,11 +16,17 @@ Kopiert die ausgewählten Skizzenelemente von einem Punkt zu einem anderen mit d
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle Skizzenelement für Kopiervorgang.
 2.  Klicke auf die **<img src=images/Sketcher_Copy.svg style="width:16px"> <img src=images/Sketcher_Copy.svg style="width:Skizzierer Kopieren](Sketcher_Copy/de.md)** Taste in der Werkzeugleiste oder wähle **Skizze → Skizzierer Werkzeuge →  [16px"> Kopieren** aus dem Skizzenmenü.
 3.  Platziere die Kopie in der [3D Ansicht](3D_view/de.md).
 
 Keine zusätzlichen Beschränkungen werden hinzugefügt.
+
+
+</div>
 
 
 

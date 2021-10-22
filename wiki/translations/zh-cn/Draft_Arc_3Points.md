@@ -3,6 +3,7 @@
    Name:Draft Arc 3Points
    MenuLocation:Drafting → Arc tools → Arc by 3 points
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut:**A** **T**
    Version:0.19
    SeeAlso:[Draft Arc](Draft_Arc.md), [Draft Circle](Draft_Circle.md)
 ---
@@ -25,6 +26,7 @@ A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** 
 
 
 <div class="mw-translate-fuzzy">
+
 
 
 *根据圆周上的3个点而定义的弧*

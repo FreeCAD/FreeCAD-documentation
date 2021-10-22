@@ -11,7 +11,7 @@
 
 ## Description
 
-This macro displays the Python variables of the form \"FreeCAD.variable1\" which have the Python code has created in the FreeCAD system. The user may add and remove variables from the display, which may also be updated on a timed basis.
+This macro displays the global variables within the FreeCAD system (e.g. FreeCAD.myVariable). The user may add and remove variables from the display, which may also be updated on a timed basis.
 
 ## Installation
 
@@ -24,19 +24,15 @@ All the code for variableWatcher.FCMacro is in one macro. So installation is com
 
 Select global variables to be watched by using the rightmost pop-up menu. Click the \"Display Now\" button to immediately display the variable and its value, or click on the \"Timer On\" button to start an automatic timer. The interval for the timer is set in the far left pop-up menu. The topmost option on the rightmost pop-up menu is to update the list of global variables as they may have been created or deleted under program control.
 
-A variable may be removed from the watch list by right-clicking over it or it\'s value, and selecting \"remove variable\"
+A variable may be removed from the watch list by right-clicking over it or it\'s value, and selecting \"remove variable\".
 
 ## User Interface 
 
 ![](images/MacroVariableWatcherGui1.jpg )
 
-## Options
-
-There are no options.
-
 ## Remarks
 
-This is a pre-release version and not all aspects are finalised - especially the listing the global variable and their values
+This is a pre-release version and not all aspects are finalized - especially the listing the global variable and their values.
 
 ## Script
 

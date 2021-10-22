@@ -18,7 +18,8 @@ Element Zawartość dostarcza obiekt **odniesienia położenia**, który zawiera
 
 Nie pomyl obiektu <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> _. Pierwszy z nich jest specyficznym obiektem używanym w środowisku <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _ jest obiektem grupującym przeznaczonym do tworzenia _, może być umieszczonych wewnątrz pojedynczej [Std: Części](Std_Part.md), aby stworzyć złożony zespół.
 
-!_.*
+![](images/PartDesign_Body_tree.png ) ![](images/PartDesign_Body_example.png ) 
+*Po lewej: widok drzewa przedstawiający cechy, które kolejno tworzą ostateczny kształt obiektu. </br>Po prawej: zakończony obiekt prezentowany w oknie [widoku 3D](3D_view/pl.md).*
 
 ## Użycie
 
@@ -101,7 +102,8 @@ Zawartość Projektu części wykona automatyczne funkcją [suma](Part_Fuse/pl.m
 <img alt="" src=images/PartDesign_Body_two_intersection.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_two_fusion.png  style="width:" height="200px;"> 
 *Po lewej: dwie pojedyncze bryły, które przecinają się wzajemnie. </br>Po prawej: pojedyncze złożenie projektu części z dwoma [cechami dodatkowymi](PartDesign_Feature/pl.md). Są one automatycznie łączone razem, więc zamiast przecinać się, tworzą jedną ciągłą bryłę.*
 
-!_ powinna zawsze stykać się lub przecinać poprzednią, tak, że jest z nią zespolona i staje się jedną ciągłą bryłą.*
+![](images/PartDesign_Body_non-contiguous.png ) 
+*Po lewej: dwie nieciągłe bryły. to nie jest prawidłowa zawartość Projektu części. </br> Po prawej: dwie przylegające do siebie bryły, co skutkuje poprawną bryłą Projektu części. Nowsza [cecha](PartDesign_Feature/pl.md) powinna zawsze stykać się lub przecinać poprzednią, tak, że jest z nią zespolona i staje się jedną ciągłą bryłą.*
 
 
 **Uwaga:**
@@ -122,6 +124,7 @@ Aby uaktywnić lub dezaktywować Zawartość:
 Aktywowanie Zawartości powoduje automatyczne przełączenie do środowiska [Projekt części](PartDesign_Workbench/pl.md). W tym samym czasie może być aktywna tylko jedna Zawartość.
 
 ![](images/PartDesign_Body_active.png )
+
 
 
 *Dokument z dwiema Zawartościami Projektu części, wśród których aktywna jest druga.*
@@ -150,13 +153,15 @@ Wszystkie elementy składowe Zawartości są powiązane z jej odniesieniem poło
 <img alt="" src=images/PartDesign_Body_Origin_tree.png ) ![](images/PartDesign_Body_Origin_view.png  style="width:" height="400px;">
 
 
+
 *Z lewej: Odniesienie położenia Projekt części w _.*
 
 ### Właściwość podstawowa 
 
 Element cechy bazowej jest pierwszym elementem [cecha projektu części](PartDesign_Feature/pl.md) w Zawartości, gdy Zawartość jest oparta na innym kształcie bryły. Bryła ta może być utworzona przez dowolne środowisko pracy lub zaimportowana z pliku zewnętrznego, na przykład z pliku STEP.
 
-![](images/PartDesign_Body_BaseFeature_tree.png ) *Zawartość Projekt części, każda z nich z jedną cechą bazową, która jest pobierana z wcześniej utworzonych brył.*
+![](images/PartDesign_Body_BaseFeature_tree.png ) 
+*Zawartość Projekt części, każda z nich z jedną cechą bazową, która jest pobierana z wcześniej utworzonych brył.*
 
 Aby utworzyć Cechę Bazową:
 
@@ -188,6 +193,7 @@ Cecha Podstawa jest całkowicie opcjonalna; jest ona obecna tylko wtedy, gdy do�
 ![](images/PartDesign_Body_BaseFeature_Tip.svg )
 
 
+
 *Po lewej: Zawartość Projektu części z cechą bazową, która jest pobierana z zewnętrznego obiektu bryły, i wiele kolejnych [Cechy Projektu części](PartDesign_Feature/pl.md) na wierzchu.. </br> Po prawej: Zawartość, która nie posiada określonej cechy bazowej.*
 
 ### Czubek
@@ -195,6 +201,7 @@ Cecha Podstawa jest całkowicie opcjonalna; jest ona obecna tylko wtedy, gdy do�
 Czubek jest <img src=images/Part_SimpleCopy.svg style="width:cechą Projektu części](PartDesign_Feature/pl.md), który jest wystawiony poza Zawartość. To znaczy, jeśli inne narzędzie z dowolnego środowiska pracy *(na przykład **_**)* musi używać kształtu zawartości, użyje kształtu Czubka. Mówiąc inaczej, Czubek jest ostateczną reprezentacją bryły, tak jakby historia parametryczna nie istniała.
 
 ![](images/PartDesign_Body_Tip_final.svg )
+
 
 
 *Po lewej: Zawartość Projektu części z pełną historią parametryczną włącznie z cechami pośrednimi. </br>Po prawej: Czubek jest ostatecznym kształtem, który może być wyeksportowany z Zawartości, z pominięciem historii modelu.*
@@ -205,7 +212,8 @@ Zmiana czubka w efekcie cofa jego historię, umożliwiając dodanie cech, które
 
 W [widoku drzewa](tree_view.md), Czubek Zawartości jest rozpoznawany przez [cechę Projektu części](PartDesign_Feature/pl.md), który ma ikonę składającą się z białej strzałki wewnątrz zielonego koła.
 
-![](images/PartDesign_Body_Tip_tree.png ) *Dwie zawartości Projektu części, każda z nich posiada [Cechy Projektu części](PartDesign_Feature/pl.md). Czubek jest ostatnią cechą w nich, i jest oznaczony symbolem nakładki.*
+![](images/PartDesign_Body_Tip_tree.png ) 
+*Dwie zawartości Projektu części, każda z nich posiada [Cechy Projektu części](PartDesign_Feature/pl.md). Czubek jest ostatnią cechą w nich, i jest oznaczony symbolem nakładki.*
 
 ### Współpraca z innymi środowiskami pracy 
 
@@ -218,6 +226,7 @@ Po zastosowaniu elementów podrzędnych w innych środowiskach pracy, **Tryb wy�
 ![](images/PartDesign_Body_Tip_Display_mode.svg )
 
 
+
 *Po lewej: gdy "Tryb wyświetlania zawartości" jest ustawiony na wartość `Na wskroś* możliwe jest wybranie i wykonanie operacji z poszczególnymi [cechami Projektu części](PartDesign_Feature/pl.md); generalnie nie jest to zalecane. </br> Po prawej: gdy "Tryb wyświetlania zawartości" jest ustawiony na {{incode|Czubek`, wszystkie zaznaczenia i operacje wykonywane na zawartości będą wykonywane w odniesieniu do Czubka, dzięki czemu widoczny będzie tylko ostateczny kształt bryły.}}
 
 ### Zarządzanie wyświetlaniem 
@@ -226,7 +235,8 @@ Widoczność zawartości jest nadrzędna w stosunku do widoczności wszystkich o
 
 Wiele [Szkiców](Sketch/pl.md) może być widocznych w tym samym czasie, ale tylko jedna [Cecha](PartDesign_Feature/pl.md) *(wynik bryły)* może być widoczna w tym samym czasie. Wybranie ukrytej cechy i naciśnięcie klawisza **Spacja** na klawiaturze spowoduje, że stanie się ona widoczna i automatycznie ukryje wcześniej prezentowaną cechę.
 
-!_ może być widocznych jednocześnie, ale tylko jedna [cecha](PartDesign_Feature/pl.md) bryły może być widoczna w tym samym czasie, niezależnie od tego, czy jest to Czubek, czy nie.*
+![](images/PartDesign_Body_Visibility.png ) 
+*Zawartość Projektu części: wiele [Szkiców](Sketch/pl.md) może być widocznych jednocześnie, ale tylko jedna [cecha](PartDesign_Feature/pl.md) bryły może być widoczna w tym samym czasie, niezależnie od tego, czy jest to Czubek, czy nie.*
 
 ### Przyłączanie
 
@@ -236,13 +246,15 @@ _.
 
 Element [cecha Projektu części](PartDesign_Feature/pl.md), który nie jest dołączony będzie pokazany z czerwonym symbolem nakładki obok jego ikony w [widoku drzewa](Tree_view/pl.md).
 
-!_, które nie są dołączone do płaszczyzny lub układu współrzędnych będą pokazane z symbolem nakładki obok ich ikony w [widok drzewa](Tree_view/pl.md).*
+![](images/PartDesign_Body_Feature_attachment.png ) 
+*Zawartość Projektu części: [Cechy projektu części](PartDesign_Feature/pl.md), które nie są dołączone do płaszczyzny lub układu współrzędnych będą pokazane z symbolem nakładki obok ich ikony w [widok drzewa](Tree_view/pl.md).*
 
 ### Dziedziczenie
 
 _ *(klasa `Part::Feature`)* poprzez pośrednią klasę `Part::BodyBase`, i jest uzupełniona o rozszerzenie Odniesienie położenia.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Uproszczony schemat zależności pomiędzy podstawowymi obiektami programu. Obiekt `PartDesign::Body* jest przeznaczony do budowania parametrycznych brył 3D, a więc wywodzi się z podstawowego obiektu {{incode|Part::Feature` i posiada Odniesienie położenia do kontroli rozmieszczenia cech użytych wewnątrz siebie.}}

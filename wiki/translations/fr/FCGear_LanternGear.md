@@ -19,7 +19,8 @@ La roue dentée du pignon lanterne avec chaînes à rouleaux est une alternative
 
 :   ![](images/Latern_Gear_example.png )
 :   
-    *Au-dessus: pignon lanterne*
+    
+*Au-dessus: pignon lanterne*
     
 
 ## Utilisation

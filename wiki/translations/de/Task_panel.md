@@ -8,6 +8,7 @@ Das [Aufgabenpaneel](Task_panel/de.md) erscheint im **Aufgaben** Reiter der [Com
 <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="550px;">
 
 
+
 *Der Aufgabenreiter, der verschiedene Befehle anzeigt, wenn der [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) aktiv ist und eine [Skizze](sketch/de.md) ausgewählt ist.*
 
 ## Arbeiten mit dem Aufgabenbereich 
@@ -19,11 +20,13 @@ Bei den Benutzereingaben kann es sich um Text, 3D Punktkoordinaten, Elemente aus
 ![](images/FreeCAD_Combo_view_Task_panel_Sketcher.png )
 
 
+
 *Aufgabenbereich, der geöffnet wird, wenn eine [Skizze](Sketch/de.md) bearbeitet wird. Es werden verschiedene Arten von Informationen angezeigt, z. B. Lösermeldungen, Gitteroptionen, Beschränkungen und geometrische Elemente.*
 
 Es gibt viele Befehle, die die Auswahl von vorhandenen Formen oder Objekten aus dem Dokument erfordern. In solchen Fällen wartet der Aufgabenbereich darauf, dass der Benutzer die entsprechenden Objekte aus der [Baumansicht](tree_view/de.md) oder der [3D Ansicht](3D_view/de.md) auswählt. Wenn der Aufgabenbereich geöffnet ist, ist es möglich, zum Reiter **Modell** zu wechseln, um die [Baumansicht](Tree_view/de.md) anzuzeigen und ein Objekt auszuwählen. Sobald dies geschehen ist, kann man zum Reiter **Aufgaben** zurückwechseln, um mit dem Befehl fortzufahren. Der Aufgabenbereich wird in der Regel durch Klicken auf die Schaltfläche **OK** oder die Schaltfläche **Schließen** Schaltfläche oder durch Drücken der **Esc**-Taste auf der Tastatur geschlossen, um den Befehl abzubrechen.
 
 ![](images/FreeCAD_Combo_view_Task_panel_ArchComponent.png )
+
 
 
 *Aufgabenbereich, der beim Bearbeiten einer [Arch Komponente](Arch_Component/de.md) geöffnet wird. Der Aufgabenbereich wartet darauf, dass der Benutzer Objekte auswählt, die der Komponente hinzugefügt oder von ihr subtrahiert werden können.*

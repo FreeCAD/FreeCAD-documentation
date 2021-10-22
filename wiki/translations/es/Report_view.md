@@ -8,6 +8,7 @@ Ciertas propiedades de este panel, como el color del texto y si se muestra autom
 <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 
 
+
 *La vista del informe que muestra los mensajes cuando FreeCAD acaba de iniciarse.*
 
 ## Mensajes
@@ -30,6 +31,7 @@ La vista de informe muestra mensajes de la clase interna de FreeCAD `Console`.
 Estas funciones pueden usarse desde la [consola de Python](Python_console/es.md) directamente, o desde [macros](Macros/es.md) y ambientes de trabajo personalizados.
 
 <img alt="" src=images/FreeCAD_Report_view_example.png  style="width:800px;">
+
 
 
 *Ejemplos de mensajes en la vista del informe: un mensaje general, una advertencia, un error y un mensaje registrado.*

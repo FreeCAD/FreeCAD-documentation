@@ -15,6 +15,7 @@ The Hatch tool fills a closed region in a View with a hatch pattern, which can b
  <img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;"> 
 
 
+
 *SVG hatch pattern on a face*
 
 ## Usage

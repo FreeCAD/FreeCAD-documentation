@@ -49,7 +49,8 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 -   selezionare il formato (US Letter) e l\'orientamento orizzontale
 -   Impostare le unità predefinite su \"mm\" e le dimensioni della pagina su larghezza \"279.4\" e altezza \"215.9\".
 
-<img alt="" src=images/InkDocProp.png  style="width:800px;"> *align=center|Inskcape: il documento con dimensioni e orientamento della pagina* 
+<img alt="" src=images/InkDocProp.png  style="width:800px;"> 
+*align=center|Inskcape: il documento con dimensioni e orientamento della pagina* 
 
 
 </div>
@@ -61,7 +62,8 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 -   xmlns:freecad="[http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace](http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace)".
 
-<img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> *align=center|Inkscape: editor XML che aggiunge la clausola "freecad" namespace all'elemento <svg>* 
+<img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> 
+*align=center|Inkscape: editor XML che aggiunge la clausola "freecad" namespace all'elemento <svg>* 
 
 
 </div>
@@ -76,7 +78,8 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 7\. Aggiungere e posizionare il testo che sarà modificabile.
 
-8\. Ora, il lavoro finito dovrebbe assomigliare a questo: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> *align=center|Inkscape: layout del modello provvisorio* 
+8\. Ora, il lavoro finito dovrebbe assomigliare a questo: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> 
+*align=center|Inkscape: layout del modello provvisorio* 
 
 ## Creare i campi modificabili 
 
@@ -84,7 +87,8 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 -   Assegnare un nome di campo significativo a ogni testo modificabile.
 
-<img alt="" src=images/InkXMLeditableTag.png  style="width:800px;"> *align=center|Inkscape: editor XML che aggiunge la proprietà "freecad:editable" a ogni elemento <text>* 
+<img alt="" src=images/InkXMLeditableTag.png  style="width:800px;"> 
+*align=center|Inkscape: editor XML che aggiunge la proprietà "freecad:editable" a ogni elemento <text>* 
 
 ## Regolare le dimensioni del SVG 
 
@@ -92,9 +96,11 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 -   Sono quattro valori, nel formato `"0 0 larghezza altezza"`
 
-<img alt="" src=images/InkXMLviewBox.png  style="width:800px;"> *align=center|Inkscape: editor XML che regola la viewbox in modo che corrisponda alle dimensioni della pagina in millimetri* 
+<img alt="" src=images/InkXMLviewBox.png  style="width:800px;"> 
+*align=center|Inkscape: editor XML che regola la viewbox in modo che corrisponda alle dimensioni della pagina in millimetri* 
 
-11\. Ora il modello appare molto più grande di quanto desiderato. <img alt="" src=images/InkMuchTooBig.png  style="width:800px;"> *align=center|Inkscape: layout del modello provvisorio che supera la dimensione della pagina* 
+11\. Ora il modello appare molto più grande di quanto desiderato. <img alt="" src=images/InkMuchTooBig.png  style="width:800px;"> 
+*align=center|Inkscape: layout del modello provvisorio che supera la dimensione della pagina* 
 
 12\. Bisogna ridurlo.
 
@@ -149,7 +155,8 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 <div class="mw-translate-fuzzy">
 
-21\. Provarlo in FreeCAD e [TechDraw](TechDraw_Workbench/it.md) con [Nuovo disegno da modello](TechDraw_New_Pick/it.md). ![](images/FCTemplateHow.png ) *align=center|FreeCAD: modello finito con un campo di testo modificabile modificato* 
+21\. Provarlo in FreeCAD e [TechDraw](TechDraw_Workbench/it.md) con [Nuovo disegno da modello](TechDraw_New_Pick/it.md). ![](images/FCTemplateHow.png ) 
+*align=center|FreeCAD: modello finito con un campo di testo modificabile modificato* 
 
 
 </div>
@@ -169,6 +176,8 @@ Come ultimo passo prima di utilizzare il nuovo modello, assicursi di rimuovere e
 Vedere una discussione su StackOverflow [removing transform clauses in SVG files](https://stackoverflow.com/questions/13329125/removing-transforms-in-svg-files).
 
 If you do not see the green boxes for your editable texts, there might be something wrong with your document scale. Open your file in Inkscape again and confirm the values of the viewBox and the sizes are matching.
+
+If texts appear offset in FreeCAD, you may need to remove the {{Incode|xml:space<nowiki>=</nowiki>"preserve"}} attributes in the SVG file. See: <https://www.forum.freecadweb.org/viewtopic.php?t=50897>.
 
 
 {{Tutorials navi

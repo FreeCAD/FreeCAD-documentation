@@ -19,6 +19,7 @@ Veranschaulichen der Erstellung eines <img alt="" src=images/Workbench_Path.svg 
 :   ![](images/Path-SquarePocketModel.png )
 
 
+
 *Oben: Erstellt in der <img src="images/Workbench_PartDesign.svg" width=24px> 
  [Part Design](PartDesign_Workbench/de.md) einschließlich eines Körpers, eines Kastens mit einer Tasche, basierend auf einer in der  **![](images/)* XY Ebene**
 

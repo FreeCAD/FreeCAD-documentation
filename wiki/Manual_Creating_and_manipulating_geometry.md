@@ -33,9 +33,9 @@ We can now easily create a \"generic\" document object in the current document (
  
 ```python
 boxShape = Part.makeBox(3,5,7)
- myObj = FreeCAD.ActiveDocument.addObject("Part::Feature","MyNewBox")
- myObj.Shape = boxShape
- FreeCAD.ActiveDocument.recompute()
+myObj = FreeCAD.ActiveDocument.addObject("Part::Feature","MyNewBox")
+myObj.Shape = boxShape
+FreeCAD.ActiveDocument.recompute()
 ```
 
 Note how we handled myObj.Shape , notice that it is done exactly like we did it in the previous chapter, when we changed other properties of an object, such as box.Height = 5 . In fact, **Shape** is also a property, just like **Height**. Only it takes a Part Shape, not a number. In the next chapter we will have a better look at how these parametric objects are constructed.
@@ -45,11 +45,11 @@ For now, let\'s explore our Part Shapes in more detail. At the end of the chapte
  
 ```python
 print(boxShape.Vertexes)
- print(boxShape.Edges)
- print(boxShape.Wires)
- print(boxShape.Faces)
- print(boxShape.Shells)
- print(boxShape.Solids)
+print(boxShape.Edges)
+print(boxShape.Wires)
+print(boxShape.Faces)
+print(boxShape.Shells)
+print(boxShape.Solids)
 ```
 
 For example, let\'s find the area of each face of our box shape above:
@@ -79,8 +79,8 @@ We can always check what is the type of a shape:
  
 ```python
 print(boxShape.ShapeType)
- print(boxShape.Faces[0].ShapeType)
- print(boxShape.Vertexes[2].ShapeType)
+print(boxShape.Faces[0].ShapeType)
+print(boxShape.Vertexes[2].ShapeType)
 ```
 
 So to resume the topic of Part Shapes: Everything starts with Vertices. With one or two vertices, you form an Edge (full circles have only one vertex). With one or more Edges, you form a Wire. With one or more closed Wires, you form a Face (the additional Wires become \"holes\" in the Face). With one or more Faces, you form a Shell. When a Shell is fully closed (watertight), you can form a Solid from it. And finally, you can join any number of Shapes of any types together, which is then called a Compound.
@@ -98,9 +98,9 @@ First, let\'s create the four base points:
  
 ```python
 V1 = FreeCAD.Vector(0,10,0)
- V2 = FreeCAD.Vector(30,10,0)
- V3 = FreeCAD.Vector(30,-10,0)
- V4 = FreeCAD.Vector(0,-10,0)
+V2 = FreeCAD.Vector(30,10,0)
+V3 = FreeCAD.Vector(30,-10,0)
+V4 = FreeCAD.Vector(0,-10,0)
 ```
 
 Then we can create the two linear segments:
@@ -127,9 +127,9 @@ will show you what kind of Edge it is, i.e. if it\'s based on a line, an arc, et
  
 ```python
 VC1 = FreeCAD.Vector(-10,0,0)
- C1 = Part.Arc(V1,VC1,V4)
- VC2 = FreeCAD.Vector(40,0,0)
- C2 = Part.Arc(V2,VC2,V3)
+C1 = Part.Arc(V1,VC1,V4)
+VC2 = FreeCAD.Vector(40,0,0)
+C2 = Part.Arc(V2,VC2,V3)
 ```
 
 Now we have 2 lines (L1 and L2) and 2 arcs (C1 and C2). We need to turn them into edges:
@@ -137,9 +137,9 @@ Now we have 2 lines (L1 and L2) and 2 arcs (C1 and C2). We need to turn them int
  
 ```python
 E1 = Part.Edge(L1)
- E2 = Part.Edge(L2)
- E3 = Part.Edge(C1)
- E4 = Part.Edge(C2)
+E2 = Part.Edge(L2)
+E3 = Part.Edge(C1)
+E4 = Part.Edge(C2)
 ```
 
 Alternatively, base geometries also have a toShape() function that do exactly the same thing:
@@ -147,7 +147,7 @@ Alternatively, base geometries also have a toShape() function that do exactly th
  
 ```python
 E1 = L1.toShape()
- E2 = L2.toShape()
+E2 = L2.toShape()
  ...
 ```
 
@@ -191,7 +191,7 @@ This is because when we extrude a single Face, we always get a Solid. This would
  
 ```python
 S = W.extrude(FreeCAD.Vector(0,0,10))
- print(s.ShapeType)
+print(s.ShapeType)
 ```
 
 Which will of course give us a hollow shell, with the top and bottom faces missing.
@@ -201,8 +201,8 @@ Now that we have our final Shape, we are anxious to see it on screen! So let\'s 
  
 ```python
 myObj2 = FreeCAD.ActiveDocument.addObject("Part::Feature","My_Strange_Solid")
- myObj2.Shape = P
- FreeCAD.ActiveDocument.recompute()
+myObj2.Shape = P
+FreeCAD.ActiveDocument.recompute()
 ```
 
 Alternatively, the Part module also provides a shortcut that does the above operation quicker (but you cannot choose the name of the object):

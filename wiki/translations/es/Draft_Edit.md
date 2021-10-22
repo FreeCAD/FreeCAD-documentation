@@ -17,7 +17,8 @@
 
 El <img alt="" src=images/Draft_Edit.svg  style="width:24px;"> comando **Borrador Edición** pone los objetos seleccionados en modo de Borrador Edición. En este modo las propiedades de los objetos pueden ser editadas gráficamente. Típicamente los nodos pueden ser movidos y en algunos casos las opciones del menú contextual pueden ser seleccionadas. El comando puede manejar la mayoría de los objetos de borrador, pero también algunos otros objetos. Ver [Objetos soportados](#Objetos_soportados.md). Los objetos de borrador soportados también pueden ponerse en modo de edición de borrador con el comando [Std Edición ](Std_Edit/es.md).
 
-![](images/Draft_Edit_example.png ) *4 objetos en el modo de Borrador Edición: un Borrador Hilo (rojo), un Borrador Arco (negro), un Borrador BSpline (verde) y un Borrador de BezCurva (magenta)*
+![](images/Draft_Edit_example.png ) 
+*4 objetos en el modo de Borrador Edición: un Borrador Hilo (rojo), un Borrador Arco (negro), un Borrador BSpline (verde) y un Borrador de BezCurva (magenta)*
 
 ## Utilización
 
@@ -61,8 +62,14 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 
 ### Panel de tareas Principal 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Pulse **O** o el **<img src="images/Draft_CloseLine.svg" width=16px> Cerrar** para finalizar el comando. Si se ha seleccionado un solo [Borrador Hilo](Draft_Wire/es.md) se cierra el hilo.
 -   Pulse **Esc** o el botón **Close** para finalizar el comando.
+
+
+</div>
 
 ### Panel de tareas Nodo 
 

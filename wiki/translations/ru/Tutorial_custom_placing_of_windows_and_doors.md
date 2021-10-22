@@ -88,9 +88,11 @@ w = Draft.makeWire(p, closed=False)
 <img alt="" src=images/01_T02_wire_wall.png  style="width:600px;">
 
 
+
 *align=center|Базовая линия для стены*
 
 <img alt="" src=images/02_T02_just_wall.png  style="width:600px;">
+
 
 
 *align=center|Стена, полученная из полилинии*
@@ -109,6 +111,7 @@ w = Draft.makeWire(p, closed=False)
 </div>
 
 <img alt="" src=images/03_T02_wall_place_doors.png  style="width:600px;">
+
 
 
 *align=center|Захват по средней точке нижней грани стены для установки двери*
@@ -131,9 +134,11 @@ w = Draft.makeWire(p, closed=False)
 ![](images/04_T02_window_constraints_outer_frame.png )
 
 
+
 *align=center|Ограничения для внешних полилиний эскиза, формирующих окно*
 
 ![](images/05_T02_window_constraints_inner_frame.png )
+
 
 
 *align=center|Ограничения для внутренних полилиний эскиза, формирующих окно*
@@ -146,9 +151,11 @@ w = Draft.makeWire(p, closed=False)
 <img alt="" src=images/07_T02_window_sketch_in_wall.png  style="width:600px;">
 
 
+
 *align=center|Эскиз окна движется к желательной позиции на стене*
 
 <img alt="" src=images/06_T02_window_sketch_properties_constraints.png  style="width:600px;">
+
 
 
 *align=center|Именованные ограничения эскиза, которые могут меняться без углубления в эскиз*
@@ -156,6 +163,7 @@ w = Draft.makeWire(p, closed=False)
 11\. Переключитесь обратно на [верстак Arch](Arch_Workbench/ru.md) и примените [Arch Window](Arch_Window.md) к выбранному новому `Sketch002`. Будет создано окно, и отверстие под него в стене. Окно сделано из пользовательского эскиза, а не стандартной заготовки, так что ему требуется редактирование для корректного отображения его компонентов, то есть неподвижной рамы, внутренней рамы, и стекла.
 
 <img alt="" src=images/08_T02_window_basic_in_wall.png  style="width:600px;">
+
 
 
 *align=center|Пользовательское окно, созданное из эскиза, у него пока нет правильной рамы или стекла*
@@ -169,6 +177,7 @@ w = Draft.makeWire(p, closed=False)
 :   13.1. Внутри диалога `Window elements` имеется две панели, `Wires` и `Components`. Там будет три полилинии, `Wire0`, `Wire1` и `Wire2`, и один компонент, `Default`. Полилинии указывают на замкнутые кривые, нарисованные на эскизе; компоненты определяют области на эскизе, которые будут выдавлены для создания рамы или стеклянной панели с реальной толщиной, эти области разделяются полилиниями. Окно, созданное из заготовки, уже имеет два компонента, `OuterFrame` и `Glass`. Пользовательское окно нужно редактировать для получения такой структуры.
 
 ![](images/09_T02_window_edit_default.png )
+
 
 
 *align=center|Диалог редактирования окна или двери*
@@ -197,6 +206,7 @@ w = Draft.makeWire(p, closed=False)
 ![](images/10_T02_window_edit_components.png )
 
 
+
 *align=center|Редактирование ранее определённого компонента окна или двери*
 
 
@@ -205,9 +215,11 @@ w = Draft.makeWire(p, closed=False)
 ![](images/11_T02_window_property_view.png )
 
 
+
 *align=center|Вид параметров окна для добавления значений по умолчанию для Frame length, Offset length и других опций*
 
 <img alt="" src=images/12_T02_window_finished.png  style="width:600px;">
+
 
 
 *align=center|Итоговое окно с соответствующими компонентами, внедрёнными в стену*
@@ -230,6 +242,7 @@ w = Draft.makeWire(p, closed=False)
 ![](images/13_T02_sketch_attachment_edit.png )
 
 
+
 *align=center|Диалог редактирования привязки плоскости эскиза*
 
 16\. Вы можете настроить размеры нового окна изменением именованных параметров в `Sketch003` в **Constraints**, например, установив `Height` на `2 m`, и `Frame Fixed Bottom` на `0 m`. Затем нажмите **Ctrl**+**R** для [пересчёта](recompute/ru.md) модели. Если окно не показывает увеличенного проёма под новое окно, выделите стену в древе проекта, кликните правой кнопкой и выберите `Mark to recompute`, затем снова нажмите **Ctrl**+**R**.
@@ -237,6 +250,7 @@ w = Draft.makeWire(p, closed=False)
 17\. Эти операции меняют позиции нового окна, но проём в окне не выглядит правильно. Оно наклонено, то есть, проём не перпендикулярен поверхности стены, и может даже вырезать другие части стены. Проблема в том, что `Window001` сохранила информацию о **Normal** из оригинального `Window`.
 
 <img alt="" src=images/14_T02_sketch_2_attached_slanted.png  style="width:600px;">
+
 
 
 *align=center|Неправильный проём в стене из-за ошибочной нормали (Normal) окна*
@@ -263,9 +277,11 @@ z = 0
 <img alt="" src=images/15_T02_sketch_local_coordinates.png  style="width:600px;">
 
 
+
 *align=center|Локальные координаты вертикально стоящего эскиза, то есть сопоставлен с глобальной плоскостью XZ*
 
 <img alt="" src=images/16_T02_sketch_correct_normal_direction.png  style="width:600px;">
+
 
 
 *align=center|Намеченные направления нормалей для каждой двери и окна*
@@ -323,6 +339,7 @@ z = 0
 19\. Ориентация выдавливания окна решена, вместе с отверстием в стене.
 
 <img alt="" src=images/17_T02_sketch_2_attached_correctly.png  style="width:600px;">
+
 
 
 *align=center|Корректный проём в стене в соответствии с нормалью окна*

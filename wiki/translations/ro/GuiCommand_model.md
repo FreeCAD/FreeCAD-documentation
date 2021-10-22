@@ -34,7 +34,8 @@ Remember to use _, _, _ and _ when applicable.
 
 For example: The feature to utilize `App::Link` <small>(v0.19)</small>  allows linking between sub-assemblies etc\...
 
-Add an image if possible, and please follow the guidelines in [WikiPages\#Graphics](WikiPages#Graphics.md). Example taken from [Part Sweep](Part_Sweep.md): ![](images/Part_Sweep_simple.png ) *Optional: add a caption below the image to explain what the tool does*
+Add an image if possible, and please follow the guidelines in [WikiPages\#Graphics](WikiPages#Graphics.md). Example taken from [Part Sweep](Part_Sweep.md): ![](images/Part_Sweep_simple.png ) 
+*Optional: add a caption below the image to explain what the tool does*
 
 Closing and opening translate tags should surround images, and other fixed elements, if they don\'t need to be translated. The caption should always be translated.
 
@@ -214,6 +215,7 @@ Add an image if possible, and please follow the guidelines in [Part 
 </translate>
 ![](images/)
 <translate>
+
 *Optional: add a caption below the image to explain what the tool does*
 
 Closing and opening translate tags should surround images, and other fixed elements, if they don't need to be translated. The caption should always be translated.

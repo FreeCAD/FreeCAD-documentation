@@ -12,7 +12,8 @@
 
 Dieses Werkzeug ermöglicht dir eine [Kalkulationstabellen](Spreadsheet_Workbench/de.md) Ansicht auf einer gewählten [Seite](TechDraw_Workbench/de.md) zu platzieren.
 
-![](images/TechDraw_Spreadsheetview.png ) *In das TechDraw Zeichnungsblatt eingefügtes Rechenblattelement*
+![](images/TechDraw_Spreadsheetview.png ) 
+*In das TechDraw Zeichnungsblatt eingefügtes Rechenblattelement*
 
 ## Anwendung
 

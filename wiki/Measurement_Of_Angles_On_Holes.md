@@ -29,7 +29,8 @@ There are some possibilities to create a center line for holes. At first the lin
  In the associated Combo View dialog box select in the Tasks panel under *Orientation* \"Aligned\" for axes out of main axes. *Extend By* means the length of the center line beyond of the body line in the drawing. With *Shift Horizontal* and *Shift Vertical* the center line can move in horizontal or vertical direction, if is necessary. *Style* means the figure of center line.
 
  <img alt="" src=images/Create-Center-Line3P.JPG  style="width:250px;">
- *Above: dialog box*
+ 
+*Above: dialog box*
 The created center line can change. Select the center line and press the button <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:24px;"> or <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:24px;"> from the tool bar which you have created the center line. Delete the center line only with <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:24px;"> from the tool bar after selecting the center line.
 2. Setting angles:
 

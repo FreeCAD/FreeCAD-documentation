@@ -22,7 +22,8 @@ Questo strumento ti consente di posizionare una vista di un [foglio di calcolo](
 
 </div>
 
-![](images/TechDraw_Spreadsheetview.png ) *Elemento Figlio di calcolo inserito nella pagina di disegno TechDraw*
+![](images/TechDraw_Spreadsheetview.png ) 
+*Elemento Figlio di calcolo inserito nella pagina di disegno TechDraw*
 
 ## Utilizzo
 

@@ -1,18 +1,16 @@
 ---
 - GuiCommand:
    Name:Fasteners BOM
-   Name/fr:Fasteners BOM
+   Name/fr:Fasteners Nomenclature
    MenuLocation:Fasteners → BOM
    Workbenches:[Fasteners](Fasteners_Workbench/fr.md)
-   Shortcut:Aucun
-   SeeAlso:
 ---
 
 # Fasteners BOM/fr
 
 ## Description
 
-<img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> [Fasteners BOM](Fasteners_BOM/fr.md) génère une nomenclature. Cet outil fait partie de [Fasteners](Fasteners_Workbench/fr.md), un [atelier externe](external_workbenches/fr.md).
+<img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> [Fasteners Nomenclature](Fasteners_BOM/fr.md) génère une nomenclature. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Fasteners](Fasteners_Workbench/fr.md).
 
 ## Utilisation
 
@@ -27,7 +25,7 @@
 
 ## Remarques
 
-1.  Utilisez l\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [atelier Spreadsheet](Spreadsheet_Workbench/fr.md) pour exporter la nomenclature au format csv qui peut également être lu et écrit par la plupart des autres applications de feuille de calcul telles que Microsoft Excel ou LibreOffice Calc .
+1.  Utilisez l\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [atelier Spreadsheet](Spreadsheet_Workbench/fr.md) pour exporter la nomenclature au format csv qui peut également être lu et écrit par la plupart des autres applications de feuille de calcul telles que Microsoft Excel ou LibreOffice Calc.
 
 ## Limitations
 
@@ -36,17 +34,17 @@
 
 {{Properties_Title|Base}}
 
--    {{PropertyData/fr|Label}}: Nom donné par l\'utilisateur à la feuille de tableur dans la [vue en arborescence](tree_view/fr.md).
+-    **Label**: nom donné par l\'utilisateur à la feuille de tableur dans la [vue en arborescence](Tree_view/fr.md).
 
--    {{PropertyView/fr|View}}: Mode d\'affichage
+-    **View**: mode d\'affichage
 
--    {{PropertyView/fr|View}}: En haut lorsque sélectionné, désactivé, activé, objet, élément, par défaut: désactivé
+-    **View**: en haut lorsque sélectionné, désactivé, activé, objet, élément, par défaut: désactivé.
 
--    {{PropertyView/fr|View}}: Style, forme ou cadre de sélection, par défaut: forme
+-    **View**: style, forme ou cadre de sélection, par défaut: forme.
 
--    {{PropertyView/fr|View}}: Affichage dans l\'arborescence, booléen, par défaut: vrai
+-    **View**: affichage dans l\'arborescence, booléen, par défaut: vrai.
 
--    {{PropertyView/fr|View}}: Visibilité, booléen, par défaut: vrai
+-    **View**: visibilité, booléen, par défaut: vrai.
 
 ## Script
 

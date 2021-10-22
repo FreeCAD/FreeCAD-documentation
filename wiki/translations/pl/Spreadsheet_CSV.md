@@ -1,13 +1,13 @@
 # Spreadsheet CSV/pl
-The [CSV format](http://en.wikipedia.org/wiki/Comma-separated_values) (comma-separated values) is a plain-text format to exchange spreadsheet data. It can usually be imported and exported by any spreadsheet application such as LibreOffice or Microsoft Excel. Reading and writing to csv format is done with python\'s built-in [csv module](http://docs.python.org/2/library/csv.html).
+Format [CSV](http://en.wikipedia.org/wiki/Comma-separated_values) *(comma-separated values)* jest formatem tekstowym służącym do wymiany danych w arkuszach kalkulacyjnych. Zazwyczaj może być importowany i eksportowany przez dowolną aplikację arkusza kalkulacyjnego, taką jak LibreOffice lub Microsoft Excel. Odczyt i zapis do formatu CSV odbywa się za pomocą wbudowanego modułu Python [CSV](http://docs.python.org/2/library/csv.html).
 
-## Importing
+## Importowanie
 
-Importing a .csv file into FreeCAD creates a <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:16px;"> [spreadsheet](Spreadsheet_CreateSheet.md) object, then fills it with the values from the file.
+Import pliku .csv do programu FreeCAD tworzy obiekt <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:16px;"> [Arkusza kalkulacyjnego](Spreadsheet_CreateSheet/pl.md), a następnie wypełnia go wartościami z pliku.
 
-## Exporting
+## Eksportowanie
 
-Exporting a <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:16px;"> [spreadsheet](Spreadsheet_CreateSheet.md) object to a .csv file simply writes all the values of the spreadsheet object. Functions, such as =A3+B5 are written as functions, not resulting values.
+Eksportowanie <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:16px;"> [arkusza kalkulacyjnego](Spreadsheet_CreateSheet/pl.md) do pliku .csv po prostu zapisuje wszystkie wartości obiektu arkusza kalkulacyjnego. Funkcje, takie jak =A3+B5 są zapisywane jako funkcje, a nie wartości wynikowe.
 
 
  

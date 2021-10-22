@@ -14,7 +14,8 @@
 
 _.
 
-![](images/FEM_Example_gui.png ) *La boîte de dialogue de sélection d'exemples*
+![](images/FEM_Example_gui.png ) 
+*La boîte de dialogue de sélection d'exemples*
 
 ## Utilisation
 

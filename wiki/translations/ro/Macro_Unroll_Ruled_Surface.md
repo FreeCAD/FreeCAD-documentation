@@ -38,7 +38,8 @@ Cf [Macro for unrolling ruled surfaces](http://forum.freecadweb.org/viewtopic.ph
 -   Formatul paginii: a3/a4, cartuș (cf. șabloane FreeCAD)
 -   Desene de grup în aceeași pagină posibil.
 
-![](images/Macro_unrollRuledSurface_01.png ) *Macro_unrollRuledSurface*
+![](images/Macro_unrollRuledSurface_01.png ) 
+*Macro_unrollRuledSurface*
 
 ## Instrucțiuni de utilizare 
 

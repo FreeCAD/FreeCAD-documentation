@@ -89,7 +89,13 @@ Více objektů může být vazbeno mezi sebou vzájemně. Dvě přímky mohou b�
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Jsou dva druhy vazeb: konstrukční a rozměrové. Detailně jsou rozebrány v sekci [\'Nástroje\'](#The_tools.md) dále.
+
+
+</div>
 
 #### What the Sketcher is not good for 
 
@@ -129,7 +135,7 @@ Inside the enclosed area we can have smaller non-overlapping areas. These will b
 
 Once a Sketch is fully constrained, the Sketch features will turn green; Construction Geometry will remain blue. It is usually \"finished\" at this point and suitable for use in creating a 3D solid. However, once the Sketch dialog is closed it may be worthwhile going to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:Part Workbench](Part_Workbench.md) and running **[16px"> [Check geometry](Part_CheckGeometry.md)** to ensure there are no features in the Sketch which may cause later problems.
 
-## The tools 
+## Tools
 
 
 <div class="mw-translate-fuzzy">
@@ -363,7 +369,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Switch Virtual Space](Sketcher_SwitchVirtualSpace.md): Allows you to hide all constraints of a sketch and make them visible again.
 
-### Preferences
+## Preferences
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Preferences](Sketcher_Preferences.md): Preferences for the **Sketcher** workbench.
 

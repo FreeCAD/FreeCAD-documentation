@@ -12,7 +12,8 @@
 
 This tool adds a View to an existing Clip.
 
- ![](images/TechDraw_Clipview.png )  *Viewport window clipping different existing views*
+ ![](images/TechDraw_Clipview.png )  
+*Viewport window clipping different existing views*
 
 ## Usage
 

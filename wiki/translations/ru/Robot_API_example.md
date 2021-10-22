@@ -161,12 +161,11 @@ for w in App.activeDocument().Trajectory.Trajectory.Waypoints:
 ```
 
 
-{{Robot Tools navi/ru}}
+{{Robot Tools navi
 
-
-{{Userdocnavi/ru}}
+}} 
 
 _
 
 ---
-[documentation index](../README.md) > [Robot API](Category_Robot API.md) > [Robot](Robot_Workbench.md) > Robot API example/ru
+[documentation index](../README.md) > [API](Category_API.md) > [Robot](Robot_Workbench.md) > Robot API example/ru

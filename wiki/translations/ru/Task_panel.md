@@ -8,6 +8,7 @@
 ![](images/FreeCAD_Combo_view_Task_panel_ru.png )
 
 
+
 *Панель задач с различными командами, если активен [верстак PartDesign](PartDesign_Workbench/ru.md) и выбран [эскиз](Sketch/ru.md).*
 
 ## Работа с панелью задач 
@@ -19,11 +20,13 @@ The user input may be anything such as text, 3D point coordinates, elements from
 ![](images/FreeCAD_Combo_view_Task_panel_Sketcher.png )
 
 
+
 *Task panel that opens when a [Sketch](Sketch.md) is being edited. Various types of information are presented like solver messages, grid options, constraints, and geometrical elements.*
 
 There are many commands that require selection of shapes or objects present in the document; for such cases the task panel will wait for the user to select the appropriate objects from the [tree view](tree_view.md) or the [3D view](3D_view.md). When a task panel is open, it is possible to switch to the **Model** tab to display the [tree view](Tree_view.md) to choose an object; once this is done, it is possible to switch back to the **Tasks** tab to proceed with the command. The task panel is usually closed by clicking an **OK** or a **Close** button, or pressing the **Esc** key on the keyboard to abort the command.
 
 ![](images/FreeCAD_Combo_view_Task_panel_ArchComponent.png )
+
 
 
 *Task panel that opens when editing an [Arch Component](Arch_Component.md). The panel waits for the user to select objects that can be added or subtracted from the component.*

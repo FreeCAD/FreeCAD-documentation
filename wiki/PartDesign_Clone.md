@@ -13,7 +13,8 @@
 
 **PartDesign Clone** creates a linked copy of a selected object which will follow any future edits to the original object (except placement). For example, one use case is when you want to do [PartDesign Boolean](PartDesign_Boolean.md) on an object created in another workbench. Most types of objects are accepted, as long as they are single solids. If you need to clone multiple objects (i.e., bodies) or a [Part Container](Std_Part.md), you may use [Draft Workbench\'s clone](Draft_Clone.md). One caveat is that the Part Design Workbench\'s clone sets the current placement of the clone as zero (both Cartesian translation and spatial orientations). While the Draft\'s workbenches clone calculates and sets the numerical values of the current placement and orientation of the cloned objects with respect to the cloned object container.
 
- ![*Clone of the inner gear while being translated in 3D space as an independent object*](images/clone.png )  *Clone of the inner gear while being translated in 3D space as an independent object*
+ ![*Clone of the inner gear while being translated in 3D space as an independent object*](images/clone.png )  
+*Clone of the inner gear while being translated in 3D space as an independent object*
 
 ## Usage
 

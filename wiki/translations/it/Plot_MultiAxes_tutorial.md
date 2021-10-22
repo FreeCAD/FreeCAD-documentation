@@ -19,7 +19,7 @@
 
 Prima di seguire questo tutorial è bene leggere la [guida di base sui Grafici](Plot_Basic_tutorial/it.md).
 In questo tutorial si descrive come creare e modificare un **Grafico Multi-asse**.
-Consultare anche la sezione [Modulo Grafico](Plot_Module/it.md).
+Consultare anche la sezione [Modulo Grafico](Plot_Workbench/it.md).
 
 
 </div>
@@ -136,7 +136,7 @@ Questa volta si passa anche direttamente l\'etichetta della serie per la legenda
 <div class="mw-translate-fuzzy">
 
 Per tracciare le funzioni trigonometriche è necessario creare prima dei nuovi assi.
-Nel modulo [Grafico](Plot_Module/it.md) di FreeCAD quando si creano dei nuovi assi essi sono selezionati come quelli attivi, e pertanto i nuovi tracciati sono associati a questi nuovi assi.
+Nel modulo [Grafico](Plot_Workbench/it.md) di FreeCAD quando si creano dei nuovi assi essi sono selezionati come quelli attivi, e pertanto i nuovi tracciati sono associati a questi nuovi assi.
 
 
 </div>
@@ -150,7 +150,7 @@ Plot.plot(x,y,r"$x^2$")
 
 <div class="mw-translate-fuzzy">
 
-Come si può vedere il grafico ha un pessimo aspetto, con le tacche degli assi sovrapposte, le curve dello stesso colore, ecc. Per risolvere questi problemi ora si passa a usare il modulo [Grafico](Plot_Module/it.md) di FreeCAD.
+Come si può vedere il grafico ha un pessimo aspetto, con le tacche degli assi sovrapposte, le curve dello stesso colore, ecc. Per risolvere questi problemi ora si passa a usare il modulo [Grafico](Plot_Workbench/it.md) di FreeCAD.
 
 
 </div>
@@ -164,7 +164,7 @@ Come si può vedere il grafico ha un pessimo aspetto, con le tacche degli assi s
 
 ### Configurare gli assi 
 
-Il modulo [Grafico](Plot_Module/it.md) di FreeCAD fornisce uno strumento per modificare le proprietà di ogni asse.
+Il modulo [Grafico](Plot_Workbench/it.md) di FreeCAD fornisce uno strumento per modificare le proprietà di ogni asse.
 
 
 </div>
@@ -250,7 +250,7 @@ Per quanto riguarda la legenda, essa è unica per entrambi i sistemi di assi ed 
 
 ### Definire le etichette degli assi 
 
-È possibile impostare le etichette degli assi con lo stesso strumento utilizzato nella [guida di base](Plot_Basic_tutorial/it.md), con la differenza che ora ci sono più assi. Dal momento che le etichette degli assi sono una per ogni asse, non è una differenza significativa, ma il modulo [Grafico](Plot_Module/it.md) di FreeCAD consente anche di impostare un titolo per il sistema di assi. Ecco come impostare solo il titolo degli assi principali:
+È possibile impostare le etichette degli assi con lo stesso strumento utilizzato nella [guida di base](Plot_Basic_tutorial/it.md), con la differenza che ora ci sono più assi. Dal momento che le etichette degli assi sono una per ogni asse, non è una differenza significativa, ma il modulo [Grafico](Plot_Workbench/it.md) di FreeCAD consente anche di impostare un titolo per il sistema di assi. Ecco come impostare solo il titolo degli assi principali:
 
 
 </div>
@@ -287,7 +287,7 @@ Impostare inoltre 20 come fontsize per tutti, escluso il titolo che utilizza una
 
 ### Riposizionare gli elementi del grafico 
 
-Il modulo [Grafico](Plot_Module/it.md) di FreeCAD fornisce uno strumento per impostare la posizione di alcuni elementi del grafico, come titoli, etichette o legenda.
+Il modulo [Grafico](Plot_Workbench/it.md) di FreeCAD fornisce uno strumento per impostare la posizione di alcuni elementi del grafico, come titoli, etichette o legenda.
 
 
 </div>

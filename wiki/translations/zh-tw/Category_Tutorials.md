@@ -5,7 +5,7 @@ Special pages are [Offsite tutorials](Offsite_tutorials/zh-tw.md) and [Video tut
 
 ### Contents:
 
-_ , [Tutorials/zh-tw](Tutorials/zh-tw.md)
+_ , [Tutorials/zh-tw](Tutorials/zh-tw.md) , [Video tutorials/zh-tw](Video_tutorials/zh-tw.md)
 
 _
 

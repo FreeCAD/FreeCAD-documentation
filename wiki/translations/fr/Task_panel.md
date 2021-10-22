@@ -8,6 +8,7 @@ Le [panneau de tâches](Task_panel/fr.md) apparaît dans l\'onglet **Tâches** d
 <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="550px;">
 
 
+
 *Le panneau de tâches montrant diverses commandes lorsque l'[atelier PartDesign](PartDesign_Workbench/fr.md) est actif et qu'une [Esquisse (sketch)](Sketch/fr.md) est sélectionnée.*
 
 ## Travailler avec le panneau de tâches 
@@ -19,11 +20,13 @@ L\'entrée utilisateur peut être un élément tel que du texte, des coordonnée
 ![](images/FreeCAD_Combo_view_Task_panel_Sketcher.png )
 
 
+
 *Panneau de tâches qui s'ouvre lors de la modification d'une [esquisse](Sketch/fr.md). Différents types d'informations sont présentés, tels que les messages du solveur, les options de la grille, les contraintes et les éléments géométriques.*
 
 De nombreuses commandes nécessitent la sélection de formes ou d\'objets présents dans le document. dans ce cas, le panneau de tâches attend que l\'utilisateur sélectionne les objets appropriés dans la [vue arborescente](tree_view/fr.md) ou la [vue 3D](3D_view/fr.md). Lorsqu\'un panneau des tâches est ouvert, il est possible de passer à l\'onglet **Modèle** pour afficher la [vue arborescente](Tree_view/fr.md) afin de choisir un objet. Une fois cette opération effectuée, il est possible de revenir à l\'onglet **Tâches** pour poursuivre la commande. Le panneau des tâches est généralement fermé en cliquant sur le bouton **OK**, ou le bouton **Fermer**, ou en appuyant sur la touche **Echap** du clavier pour annuler la commande.
 
 ![](images/FreeCAD_Combo_view_Task_panel_ArchComponent.png )
+
 
 
 *Panneau de tâches qui s'ouvre lors de la modification d'un [Arch Composant](Arch_Component/fr.md). Le panneau attend que l'utilisateur sélectionne des objets pouvant être ajoutés ou soustraits du composant.*

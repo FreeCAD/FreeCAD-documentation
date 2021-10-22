@@ -17,7 +17,8 @@ Enable the console output in the menu **Edit → Preferences → General → Mac
 
 It is very simple to use: Press the record button, you will be asked to give a name to your macro, then perform some actions. When you are done, click the stop recording button, and your actions will be saved. You can now access the macro dialog with the edit button.
 
-![](images/Macros.png ) *Macro dialog, listing the macros available in the system*
+![](images/Macros.png ) 
+*Macro dialog, listing the macros available in the system*
 
 There you can manage your macros, delete, edit, duplicate, install or create new ones from scratch. If you edit a macro, it will be opened in an editor window where you can make changes to its code. New macros can be installed using the {{button|Addons...}} button, which links to the [Addon Manager](AddonManager.md).
 
@@ -57,7 +58,10 @@ You can manually install extensions, however, it is much simpler to just use the
 -   [How to install macros](How_to_install_macros.md)
 -   [How to install additional workbenches](How_to_install_additional_workbenches.md)
 
- {{Powerdocnavi}} 
+
+
+
+ {{Powerdocnavi}}
 
 _ _ _
 

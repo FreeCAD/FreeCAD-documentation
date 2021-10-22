@@ -26,7 +26,8 @@
 
 深入了解草圖(Sketcher)，請參考[草圖參考](Sketcher_reference.md)
 
-![](images/00_Sk01_Sketcher_fully_constrained_final.png ) *草圖的最終成果，所有幾何圖元完全拘束，包含用於輔助製圖的結構圖元.*
+![](images/00_Sk01_Sketcher_fully_constrained_final.png ) 
+*草圖的最終成果，所有幾何圖元完全拘束，包含用於輔助製圖的結構圖元.*
 
 ## 設定
 
@@ -56,6 +57,7 @@
 [樹狀檢視將會切換至](tree_view.md)[任務面板](task_panel.md); 在此界面中將**「Edit controls」**區塊展開，並確認**「自動拘束」**已勾選。其他選項可以更改，包括網格的大小，以及是否要「格點快選」；本教學中我們將不使用「格點快選」並將格點顯示關閉。 在[任務面板的其他區塊](task_panel.md)，您可看到有哪些圖元及哪種拘束被套用。
 
 <img alt="" src=images/01_Sk01_Sketcher_Task_panel.png  style="width:" height="400px;">
+
 
 
 *草圖編輯器中[「任務面板」](task_panel.md)的上半部。*
@@ -91,6 +93,7 @@ Look at the **Constraints** and **Elements** sections to see the new listed cons
 <img alt="" src=images/02_Sk01_Sketcher_construction.png  style="width:" height="400px;">
 
 
+
 *以原點為中心呈星型的建構線*
 
 ## Real geometry 
@@ -118,6 +121,7 @@ Make sure you are not in construction mode by clicking on **<img src=images/Sket
 <img alt="" src=images/03_Sk01_Sketcher_outer_arcs.png  style="width:" height="400px;">
 
 
+
 *Circular arcs added at the endpoints of the construction lines. Also a central circle.*
 
 ### Inner arcs 
@@ -131,6 +135,7 @@ Make sure you are not in construction mode by clicking on **<img src=images/Sket
 To summarize, the O-arcs should have their curvature pointing outwards, and their concavity pointing towards the origin of the sketch; the I-arcs should have their curvature pointing inwards, and their concavity pointing away from the same origin.
 
 <img alt="" src=images/04_Sk01_Sketcher_inner_arcs.png  style="width:" height="400px;">
+
 
 
 *Circular arcs added between the first set of arcs placed.*
@@ -190,6 +195,7 @@ if you wish to temporarily disable the constraint, you may select it and press *
 <img alt="" src=images/05c_Sk01_Sketcher_equality_constraints_I-arcs.png  style="width:" height="400px;">
 
 
+
 *Sketch with equality constraints applied to the construction lines, and to the two sets of arcs.*
 
 ### Tangency
@@ -208,6 +214,7 @@ applying the tangential constraint very often will move the geometry around in o
 As of this step, we have now created a closed profile, as all arcs have been tied together. Now we can provide datum constraints to fix the shape of the sketch. While the dimensions of lines and arcs remain unfixed, we can drag the points of the sketch and observe how the entire sketch changes.
 
 <img alt="" src=images/06_Sk01_Sketcher_tangency_constraints.png  style="width:" height="400px;">
+
 
 
 *Sketch with tangential constraints applied to the arcs, which closes the shape.*
@@ -236,6 +243,7 @@ These constraints specify the numerical distances between two points, and angles
 <img alt="" src=images/07a_Sk01_Sketcher_length_constraint.png  style="width:" height="400px;"> <img alt="" src=images/07b_Sk01_Sketcher_angle_constraint.png  style="width:" height="400px;">
 
 
+
 *Sketch with length constraint applied to one vertical construction line (left), and angle constraints to three pairs of construction lines (right).*
 
 ### Radius
@@ -252,6 +260,7 @@ These constraints specify the numerical distances between two points, and angles
 <img alt="" src=images/08a_Sk01_Sketcher_radius_1_constraint.png  style="width:" height="400px;"> <img alt="" src=images/08b_Sk01_Sketcher_radius_2_constraint.png  style="width:" height="400px;">
 
 
+
 *Sketch with radius constraints applied to the outwards arcs (left), and inwards arcs (right).*
 
 
@@ -260,6 +269,7 @@ These constraints specify the numerical distances between two points, and angles
 We should end up with a fully constrained sketch. It can be confirmed by noticing the change in color of the real geometry, and by the message that is shown in the [task panel](task_panel.md).
 
 <img alt="" src=images/09_Sk01_Sketcher_fully_constrained.png  style="width:" height="400px;">
+
 
 
 *Sketch with all geometrical and datum constraints applied.*
@@ -274,6 +284,7 @@ We should end up with a fully constrained sketch. It can be confirmed by noticin
 :   12.4. Select the sketch, and then press **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Pad](PartDesign_Pad.md)**, choose the default options, and press **OK** to create a solid extrusion.
 
 <img alt="" src=images/09b_Sk01_Sketcher_fully_constrained_clean.png  style="width:" height="400px;"> <img alt="" src=images/10_Sk01_Sketcher_solid_extrusion.png  style="width:" height="400px;">
+
 
 
 *Left: fully constrained sketch with only the most important constraints showing. Right: solid extrusion produced with [PartDesign Pad](PartDesign_Pad.md).*

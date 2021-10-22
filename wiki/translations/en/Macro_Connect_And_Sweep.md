@@ -30,7 +30,12 @@ Run the macro select your objects or points choice the form and parameters and c
 <img alt="" src=images/Macro_Connect_And_Sweep_01.png  style="width:350px;"> 
 *Macro_Connect_And_Sweep*
 
-![](images/Macro_Connect_And_Sweep_Discretize.png ) *Discretize* ![](images/Macro_Connect_And_Sweep_Duplicate.png ) *Duplicate* ![](images/Macro_Connect_And_Sweep_Sweep.png ) *Sweep* ![](images/Macro_Connect_And_Sweep_Loft.png ) *Loft* ![](images/Macro_Connect_And_Sweep_Reset.png ) *Reset*
+![](images/Macro_Connect_And_Sweep_Discretize.png ) 
+*Discretize* ![](images/Macro_Connect_And_Sweep_Duplicate.png ) 
+*Duplicate* ![](images/Macro_Connect_And_Sweep_Sweep.png ) 
+*Sweep* ![](images/Macro_Connect_And_Sweep_Loft.png ) 
+*Loft* ![](images/Macro_Connect_And_Sweep_Reset.png ) 
+*Reset*
 
 ## Images
 
@@ -111,15 +116,18 @@ Path and tubing with Macro\_Connect\_And\_Sweep and [Macro\_Repro\_Wire](http://
 ==Animated example==
 
 
+
 *align=center|
 [[File:Macro Connect And Sweep Sweep2.gif]]*
 
 {clear}}
 
 
+
 *align=center|
 Object and Object, the connection boundBox center object 1 and boundBox center object 2
 [[File:Connect_And_Sweep_01_Object_Object.gif]]*
+
 
 
 
@@ -133,6 +141,7 @@ Object SubObject, the connection boundBox center object 1 and boundBox center Su
 
 
 
+
 *align=center|
 SubObject SubObject, the connection boundBox center Subobject 1 and boundBox center Subobject 2
 [[File:Connect_And_Sweep_03_SubObject_SubObject.gif]]*
@@ -141,9 +150,11 @@ SubObject SubObject, the connection boundBox center Subobject 1 and boundBox cen
 
 
 
+
 *align=center|
 Connect And Sweep Direction one object selected or Subobject selected
 [[File:Connect And Sweep 4 Direction.gif]]*
+
 
 
 

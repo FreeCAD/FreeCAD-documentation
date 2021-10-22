@@ -12,6 +12,7 @@ Nem todas as propriedades podem ser modificadas sempre; dependendo do status esp
 ![](images/FreeCAD_Property_editor_empty.png )
 
 
+
 *Editor de propriedade vazia, quando nenhum objeto é selecionado.*
 
 ## Tipos de propriedade 
@@ -62,6 +63,7 @@ print(obj.Label)
 ```
 
 <img alt="" src=images/FreeCAD_Property_editor_View_basic.png  style="width:" height="264px;"> <img alt="" src=images/FreeCAD_Property_editor_Data_basic.png  style="width:" height="264px;">
+
 
 
 *Aba Vista e Dados do editor de propriedade, para um objeto básico "App::FeaturePython" com script.*
@@ -213,7 +215,8 @@ obj.CustomCamelProperty = 1000
 print(obj.CustomCamelProperty)
 ```
 
-![](images/FreeCAD_Property_editor_Custom.png ) *Editor de propriedade mostrando as propriedades de dados de um  [PartDesign Body](PartDesign_Body/pt-br.md), com duas propriedades adicionais, "Custom" e "Custom Camel Property".*
+![](images/FreeCAD_Property_editor_Custom.png ) 
+*Editor de propriedade mostrando as propriedades de dados de um  [PartDesign Body](PartDesign_Body/pt-br.md), com duas propriedades adicionais, "Custom" e "Custom Camel Property".*
 
 Da mesma forma, as propriedades **View**são adicionadas, não ao objeto base, mas ao seu `ViewObject`.Então, segue-se que propriedades como **Angular Deflection**, **Bounding Box**, **Display Mode**, **Display Mode Body**, **Line Color**, e outros, podem ser examinados e alterados a partir no [console Python](Python_console/pt-br.md).
 

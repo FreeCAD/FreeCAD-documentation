@@ -37,6 +37,7 @@ Das Verschieben-Werkzeug kann mit 2D-Formen verwendet werden, die mit dem [Draft
 <div class="mw-translate-fuzzy">
 
 
+
 *Bewegen eines Objekts von einem Punkt zu einem anderen Punkt*
 
 

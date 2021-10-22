@@ -20,7 +20,8 @@ Draft SVG è un modulo software utilizzato dai comandi <img alt="" src=images/St
 
 </div>
 
-![](images/Screenshot_inkscape.jpg ) *Disegno di Inkscape esportato in SVG, e successivamente aperto in FreeCAD*
+![](images/Screenshot_inkscape.jpg ) 
+*Disegno di Inkscape esportato in SVG, e successivamente aperto in FreeCAD*
 
 ## Importazione
 

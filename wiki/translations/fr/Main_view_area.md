@@ -8,6 +8,7 @@ Il contient normalement des onglets pour la page de démarrage de l\'[Atelier St
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
+
 *La zone de vue principale est désignée par le numéro 1 et peut contenir différents onglets de fenêtre, principalement la page de démarrage et la [vue 3D](3D_view/fr.md).*
 
 ## Fenêtres

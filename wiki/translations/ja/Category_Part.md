@@ -3,7 +3,7 @@ This category lists pages related to the [Part Workbench/ja](Part_Workbench/ja.m
 
 ### Contents:
 
-_
+[Part Boolean/ja](Part_Boolean/ja.md) , [Part Module/ja](Part_Module/ja.md)
 
 _
 

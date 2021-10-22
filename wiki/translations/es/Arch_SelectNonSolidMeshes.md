@@ -40,4 +40,4 @@ Esta herramienta identifica y selecciona las mallas no sólidas (no _ selecciona
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/es
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/es

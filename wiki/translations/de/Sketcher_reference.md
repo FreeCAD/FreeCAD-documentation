@@ -7,7 +7,8 @@ Das Handbuch ist eine laufende Arbeit, da einige Abschnitte je nach der Entwickl
 
 Aufgrund des sich entwickelnden Charakters des Handbuchs wird das Dokument auch als \"Skizzenvorlesung\" bezeichnet.
 
-![](images/Sketcher_reference.png ) *Beispielskizze im Referenzhandbuch*
+![](images/Sketcher_reference.png ) 
+*Beispielskizze im Referenzhandbuch*
 
 ## Inhalte
 

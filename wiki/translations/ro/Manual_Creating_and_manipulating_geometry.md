@@ -39,9 +39,9 @@ Acum putem crea cu ușurință un document obiect \"generic\" în documentul cur
 
 ```python
 boxShape = Part.makeBox(3,5,7)
- myObj = FreeCAD.ActiveDocument.addObject("Part::Feature","MyNewBox")
- myObj.Shape = boxShape
- FreeCAD.ActiveDocument.recompute()
+myObj = FreeCAD.ActiveDocument.addObject("Part::Feature","MyNewBox")
+myObj.Shape = boxShape
+FreeCAD.ActiveDocument.recompute()
 ```
 
 Notați cum am tratat myObj.Shape, vedeți că acest lucru se face exact așa cum am făcut în capitolul anterior, când am schimbat alte proprietăți ale unui obiect, cum ar fi box.Height = 5. În realitate, **Shape** este de asemenea o proprietate, la fel ca **Height**. Doar aveți nevoie de o formă de Piesă, nu de un număr. În capitolul următor, vom examina mai detaliat modul în care sunt construite aceste obiecte parametrice.
@@ -57,11 +57,11 @@ Pentru moment, să explorăm mai detaliat Formatele noastre. La finalul capitolu
 
 ```python
 print(boxShape.Vertexes)
- print(boxShape.Edges)
- print(boxShape.Wires)
- print(boxShape.Faces)
- print(boxShape.Shells)
- print(boxShape.Solids)
+print(boxShape.Edges)
+print(boxShape.Wires)
+print(boxShape.Faces)
+print(boxShape.Shells)
+print(boxShape.Solids)
 ```
 
 De exemplu, hai să găsim zona de mai sus a fiecărei fațete a formei noastre de cutie de mai sus:
@@ -91,8 +91,8 @@ Noi putem verifica întodeauna care este tipul formei :
 
 ```python
 print(boxShape.ShapeType)
- print(boxShape.Faces[0].ShapeType)
- print(boxShape.Vertexes[2].ShapeType)
+print(boxShape.Faces[0].ShapeType)
+print(boxShape.Vertexes[2].ShapeType)
 ```
 
 Deci, pentru a relua tema Formele piesei (Part Shape): Totul începe cu Vertex. Cu unul sau două vârfuri, formați o margine (un cerc complet are doar un vertex). Cu una sau mai multe muchii, formați un fir(polilinie). Cu unul sau mai multe cabluri închise, formați o față (firele suplimentare devin \"găuri\" în fața). Cu una sau mai multe fire, formați un o cochilie(Shell). Atunci când un Shell este complet închis (etanș), puteți forma un Solid din acesta. Și, în final, puteți să alăturați oricâte forme(Shape) de orice tip, împreună, formând ceea ce se numește un compus(Compound).
@@ -110,9 +110,9 @@ Vom începe prin a crea o formă plană în felul următor:
 
 ```python
 V1 = FreeCAD.Vector(0,10,0)
- V2 = FreeCAD.Vector(30,10,0)
- V3 = FreeCAD.Vector(30,-10,0)
- V4 = FreeCAD.Vector(0,-10,0)
+V2 = FreeCAD.Vector(30,10,0)
+V3 = FreeCAD.Vector(30,-10,0)
+V4 = FreeCAD.Vector(0,-10,0)
 ```
 
 Apoi creăm două segmente liniare:
@@ -145,9 +145,9 @@ vă va arăta ce fel de margine este, adică dacă se bazează pe o linie, pe un
 
 ```python
 VC1 = FreeCAD.Vector(-10,0,0)
- C1 = Part.Arc(V1,VC1,V4)
- VC2 = FreeCAD.Vector(40,0,0)
- C2 = Part.Arc(V2,VC2,V3)
+C1 = Part.Arc(V1,VC1,V4)
+VC2 = FreeCAD.Vector(40,0,0)
+C2 = Part.Arc(V2,VC2,V3)
 ```
 
 Acum avem 2 linii (L1 and L2) și 2 arcuri (C1 and C2). trebuei să le transformăm în muchii(edges):
@@ -155,9 +155,9 @@ Acum avem 2 linii (L1 and L2) și 2 arcuri (C1 and C2). trebuei să le transform
 
 ```python
 E1 = Part.Edge(L1)
- E2 = Part.Edge(L2)
- E3 = Part.Edge(C1)
- E4 = Part.Edge(C2)
+E2 = Part.Edge(L2)
+E3 = Part.Edge(C1)
+E4 = Part.Edge(C2)
 ```
 
 Alternativ, geometrii de bază au, de asemenea, o funcție toShape () care face exact același lucru:
@@ -165,7 +165,7 @@ Alternativ, geometrii de bază au, de asemenea, o funcție toShape () care face 
 
 ```python
 E1 = L1.toShape()
- E2 = L2.toShape()
+E2 = L2.toShape()
  ...
 ```
 
@@ -209,7 +209,7 @@ Acest lucru se datorează faptului că atunci când extrudăm o singură față,
 
 ```python
 S = W.extrude(FreeCAD.Vector(0,0,10))
- print(s.ShapeType)
+print(s.ShapeType)
 ```
 
 Care, desigur, ne va da o cochilie goală, cu fațetele de sus și de jos lipsă.
@@ -219,8 +219,8 @@ Acum că avem Forma noastră finală, suntem nerăbdători să o vedem pe ecran!
 
 ```python
 myObj2 = FreeCAD.ActiveDocument.addObject("Part::Feature","My_Strange_Solid")
- myObj2.Shape = P
- FreeCAD.ActiveDocument.recompute()
+myObj2.Shape = P
+FreeCAD.ActiveDocument.recompute()
 ```
 
 În mod alternativ, modulul Part oferă, de asemenea, o scurtătură care face operația de mai sus mai rapidă (dar nu puteți alege numele obiectului):

@@ -40,8 +40,8 @@ Les outils suivants sont disponibles dans ce menu:
 -   <img alt="" src=images/Std_MainFullscreen.svg  style="width:32px;"> [Vue plein écran](Std_MainFullscreen/fr.md): bascule le mode plein écran de la fenêtre principale.
 
 -   Vues Standards
-    -   ![vertical-align: top=zoom-all](images/Std_ViewFitAll.svg ) [Tout afficher](Std_ViewFitAll/fr.md): adapte tous les objets visibles à l\'intérieur de la vue.
-    -   _ [Afficher la sélection](Std_ViewFitSelection/fr.md): adapte les objets sélectionnés à l\'intérieur de la vue.
+    -   <img alt="" src=images/Std_ViewFitAll.svg  style="width:32px;"> [Tout afficher](Std_ViewFitAll/fr.md): adapte tous les objets visibles à l\'intérieur de la vue.
+    -   <img alt="" src=images/Std_ViewFitSelection.svg  style="width:32px;"> [Afficher la sélection](Std_ViewFitSelection/fr.md): adapte les objets sélectionnés à l\'intérieur de la vue.
     -   Axonometrique
         -   <img alt="" src=images/Std_ViewIsometric.svg  style="width:32px;"> [Isometric](Std_ViewIsometric/fr.md): bascule vers une vue isométrique.
         -   <img alt="" src=images/Std_ViewDimetric.svg  style="width:32px;"> [Dimétrique](Std_ViewDimetric/fr.md): bascule vers une vue dimétrique.
@@ -63,13 +63,13 @@ Les outils suivants sont disponibles dans ce menu:
     -   [Effacer vues](Std_FreezeViews#Clear_views/fr.md): supprime toutes les vues figées.
 
 -   [Style de représentation](Std_DrawStyle/fr.md)
-    -   <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:32px;"> [Tel quel](Std_DrawStyle#As_is/fr.md): bascule le style de dessin sur: Tel quel.
+    -   <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:32px;"> [Comme actuellement](Std_DrawStyle#As_is/fr.md): bascule le style de dessin sur: Comme actuellement.
     -   <img alt="" src=images/Std_DrawStylePoints.svg  style="width:32px;"> [Points](Std_DrawStyle#Points/fr.md): bascule le style de dessin sur: Points.
     -   <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:32px;"> [Filaire](Std_DrawStyle#Wireframe/fr.md): bascule le style de dessin sur: Filaire.
     -   <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:32px;"> [Ligne cachée](Std_DrawStyle#Hidden_line/fr.md): bascule le style de dessin sur: Ligne cachée.
     -   <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:32px;"> [Pas d\'ombrage](Std_DrawStyle#No_shading/fr.md): bascule le style de dessin sur: Pas d\'ombrage.
     -   <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:32px;"> [Ombrée](Std_DrawStyle#Shaded/fr.md): bascule le style de dessin sur: Ombrée.
-    -   <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> [Lignes plates](Std_DrawStyle#Flat_lines/fr.md): bascule le style de dessin sur: Lignes plates.
+    -   <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> [Filaire ombré](Std_DrawStyle#Flat_lines/fr.md): bascule le style de dessin sur: Filaire ombré.
 
 -   <img alt="" src=images/Std_SelBoundingBox.svg  style="width:32px;"> [Boîte de délimitation](Std_SelBoundingBox/fr.md): bascule le mode de surbrillance du cadre de sélection. {{Version/fr|0.19}}
 
@@ -110,7 +110,7 @@ Les outils suivants sont disponibles dans ce menu:
     -   <img alt="" src=images/View_Measure_Toggle_All.svg  style="width:32px;"> [Activer/Désactiver les mesures](View_Measure_Toggle_All/fr.md): bascule l\'affichage des mesures de pièce.
     -   <img alt="" src=images/View_Measure_Clear_All.svg  style="width:32px;"> [Effacer les mesures](View_Measure_Clear_All/fr.md): efface les mesures de la pièce.
 
--   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Activer/masquer la visibilité](Std_ToggleVisibility/fr.md): bascule la visibilité des objets sélectionnés.
+-   <img alt="" src=images/Std_ToggleVisibility.svg  style="width:32px;"> [Basculer la visibilité](Std_ToggleVisibility/fr.md): bascule la visibilité des objets sélectionnés.
 
 -   <img alt="" src=images/Std_ToggleNavigation.svg  style="width:32px;"> [Basculer le mode de navigation/édition](Std_ToggleNavigation/fr.md): bascule entre le mode de navigation et le mode d\'édition.
 

@@ -13,7 +13,8 @@ L\'un des gros travaux que FreeCAD fait pour vous est de traduire les informatio
 
 OpenInventor décrit une scène 3D sous la forme d\'une [Graphe de scène](https://fr.wikipedia.org/wiki/Graphe_de_scène) comme le montre l\'exemple ci dessous:
 
-![](images/Scenegraph.gif ) *Image prise de [https://web.archive.org/web/20190807185912/http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/ Inventor mentor]*
+![](images/Scenegraph.gif ) 
+*Image prise de [https://web.archive.org/web/20190807185912/http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/ Inventor mentor]*
 
 Un graphe de scène openInventor décrit tout ce qui fait partie d\'une scène 3D, comme la géométrie, les couleurs, les matériaux, les lumières, etc et organise toutes ces données dans une structure pratique et claire. Tout peut être regroupé en sous-structures, ce qui vous permet d\'organiser le contenu de votre scène à peu près comme vous le souhaitez. Voici un exemple de fichier openInventor: {{Code|lang=bash|code=
 #Inventor V2.0 ascii

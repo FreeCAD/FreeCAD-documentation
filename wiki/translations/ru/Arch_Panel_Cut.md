@@ -117,4 +117,4 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/ru
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Cut/ru

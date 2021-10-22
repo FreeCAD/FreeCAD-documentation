@@ -32,11 +32,13 @@ La <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> 
 ![](images/Std_Link_tree_replace_fuse_1_example.png ) ![](images/Std_Link_tree_replace_fuse_2_example.png )
 
 
+
 *Un objet à l'intérieur d'un autre est remplacé par un lien; le lien est maintenant à l'intérieur et l'objet réel est placé à l'extérieur.*
 
 Cela peut également être fait avec des objets contenus dans des {{button|<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Parts](Std_Part/fr.md)}} et {{button|[16px"> [Std Groupes](Std_Group/fr.md)}}.
 
 ![](images/Std_Link_tree_replace_part_1_examples.png ) ![](images/Std_Link_tree_replace_part_2_examples.png )
+
 
 
 *Un objet à l'intérieur d'un conteneur est remplacé par un lien ; le lien est maintenant à l'intérieur et l'objet réel est placé à l'extérieur.*

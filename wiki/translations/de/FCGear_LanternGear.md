@@ -21,7 +21,8 @@ Triebstockräder mit Rollenketten sind eine kostengünstige und robuste Alternat
 
 :   ![](images/Latern_Gear_example.png )
 :   
-    *Oben: Triebstockzahnrad*
+    
+*Oben: Triebstockzahnrad*
     
 
 ## Anwendung

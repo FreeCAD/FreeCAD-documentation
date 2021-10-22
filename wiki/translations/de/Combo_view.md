@@ -22,6 +22,7 @@ Die Registerkarte {{MenuCommand/de|Aufgaben}} zeigt die Registerkarte [Aufgabenl
 <img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="600px;">
 
 
+
 *Die Kombiansicht hat zwei Registerkarten: die Registerkarte Modell, die die Anzeige der [Baumansicht](tree_view/de.md) und der [Eigenschaftseditor](property_editor/de.md), und die Registerkarte Aufgaben, die die Anzeige der [Aufgabenpanel](task_panel/de.md).*
 
 ## Unterer Bereich 
@@ -33,6 +34,7 @@ Der untere Teil der Comboansicht zeigt den [Eigenschaftseditor](property_editor/
 -   Der {{MenuCommand/de|Daten}} Reiter zeigt die parametrischen Eigenschaften der Objekte, die bestimmen, wie die geometrischen Formen wirklich definiert werden.
 
 <img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Tree_Data_properties.png  style="width:" height="600px;">
+
 
 
 *Der untere Teil der Comboansicht ist der Eigenschaftseditor, der die Eigenschaften von Ansicht und Daten anzeigt.*

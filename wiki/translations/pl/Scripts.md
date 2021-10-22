@@ -307,9 +307,12 @@ in other word the **rotation center** of the geometry is at `Vector(0,0,21)`, bu
 This is the meaning of the word \"awkward\" that I\'ve used to define `Placement` property.
 
 
+
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

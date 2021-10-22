@@ -3,7 +3,7 @@ This page lists external addon workbenches that have a page in this wiki. Addons
 
 ### Contents:
 
-[Plot Module/bg](Plot_Module/bg.md) , [Ship Workbench/bg](Ship_Workbench/bg.md) , ,
+[Plot Workbench/bg](Plot_Workbench/bg.md) , [Ship Workbench/bg](Ship_Workbench/bg.md) , ,
 
 _ _ _
 

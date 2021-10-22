@@ -28,7 +28,8 @@ Detailed description on the [Lattice2 Github wiki](https://github.com/DeepSOIC/L
 
 ### Toolbar
 
-![](images/Lattice2-menu-orizz.png ) *Lattice2 Toolbar*
+![](images/Lattice2-menu-orizz.png ) 
+*Lattice2 Toolbar*
 
 ### Commands
 

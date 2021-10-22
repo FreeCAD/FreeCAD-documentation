@@ -11,7 +11,8 @@
 
 The **Mesh Smoothing** command smooths mesh objects by changing the position of their vertices.
 
- ![](images/Meshes_Smooth.jpg )  *The Smoothing task panel after choosing the Only selection option*
+ ![](images/Meshes_Smooth.jpg )  
+*The Smoothing task panel after choosing the Only selection option*
 
 ## Usage
 

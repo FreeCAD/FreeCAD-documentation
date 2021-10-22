@@ -36,7 +36,8 @@ Um alle Flächenfarben zurückzusetzen:
 
 <div class="mw-translate-fuzzy">
 
-![](images/Part_FaceColors-dialog.png ) *align=center|Der FlächenFarben Dialog*
+![](images/Part_FaceColors-dialog.png ) 
+*align=center|Der FlächenFarben Dialog*
 
 
 </div>

@@ -29,6 +29,7 @@ Questo metodo esegue lo snap all\'intersezione di due linee della griglia, se la
 <div class="mw-translate-fuzzy">
 
 
+
 *Snap del secondo punto di una linea alla griglia visibile*
 
 

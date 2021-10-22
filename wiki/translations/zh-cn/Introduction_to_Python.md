@@ -48,7 +48,8 @@
 
 </div>
 
-![](images/FreeCAD_Python_console.png ) *The FreeCAD Python console*
+![](images/FreeCAD_Python_console.png ) 
+*The FreeCAD Python console*
 
 
 <div class="mw-translate-fuzzy">

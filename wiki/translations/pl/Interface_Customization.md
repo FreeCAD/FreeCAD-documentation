@@ -5,7 +5,8 @@
 
 Interfejs FreeCAD jest oparty na nowoczesnym zestawie narzędzi [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) i posiada nowoczesną organizację. Niektóre aspekty interfejsu mogą być dostosowane do indywidualnych potrzeb. Możesz na przykład dodać niestandardowe paski narzędzi, z narzędziami z kilku Środowisk pracy lub narzędziami zdefiniowanymi w makrach, a także tworzyć własne skróty klawiaturowe. Ale menu i domyślne paski narzędzi, które są dostarczane z programem FreeCAD i jego warsztatami nie mogą być zmieniane.
 
-![](images/Std_DlgCustomize_tab_Toolbars.png ) *Okno dialogowe Dostosowywanie interfejsu*
+![](images/Std_DlgCustomize_tab_Toolbars.png ) 
+*Okno dialogowe Dostosowywanie interfejsu*
 
 ## Użycie
 
@@ -23,7 +24,8 @@ W oknie dialogowym Dostosuj dostępne są następujące zakładki:
 
 ### Polecenia
 
-![](images/Std_DlgCustomize_tab_Commands.png ) *Zakładka Polecenia*
+![](images/Std_DlgCustomize_tab_Commands.png ) 
+*Zakładka Polecenia*
 
 Na tej zakładce można przeglądać dostępne polecenia.
 
@@ -39,7 +41,8 @@ Na tej zakładce można przeglądać dostępne polecenia.
 
 ### Klawiatura
 
-![](images/Std_DlgCustomize_tab_Keyboard.png ) *Zakładka Klawiatura*
+![](images/Std_DlgCustomize_tab_Keyboard.png ) 
+*Zakładka Klawiatura*
 
 Na tej karcie można zdefiniować własne skróty klawiaturowe. W zakładce [Makrodefinicje](#Makrodefinicje.md) można zdefiniować skróty dla poleceń makro.
 
@@ -75,7 +78,8 @@ Na tej karcie można zdefiniować własne skróty klawiaturowe. W zakładce [Mak
 
 ### Środowiska pracy 
 
-![](images/Std_DlgCustomize_tab_Workbenches.png ) *Zakładka Środowiska pracy*
+![](images/Std_DlgCustomize_tab_Workbenches.png ) 
+*Zakładka Środowiska pracy*
 
 Na tej zakładce można zmienić listę [Wybór środowiska pracy](Std_Workbench/pl.md). Lista **Aktywowane stanowiska pracy** pokazuje stanowiska pracy, które pojawią się w selektorze Środowisk pracy
 
@@ -110,7 +114,8 @@ Na tej zakładce można zmienić listę [Wybór środowiska pracy](Std_Workbench
 
 ### Paski narzędzi 
 
-![](images/Std_DlgCustomize_tab_Toolbars.png ) *Zakładka Paski narzędzi*
+![](images/Std_DlgCustomize_tab_Toolbars.png ) 
+*Zakładka Paski narzędzi*
 
 Na tej karcie można tworzyć i modyfikować własne paski narzędzi.
 
@@ -176,7 +181,8 @@ Na tej karcie można tworzyć i modyfikować własne paski narzędzi.
 
 ### Makrodefinicje
 
-![](images/Std_DlgCustomize_tab_Macros.png ) *Zakładka Makrodefinicje*
+![](images/Std_DlgCustomize_tab_Macros.png ) 
+*Zakładka Makrodefinicje*
 
 Na tej zakładce można skonfigurować polecenia makrodefinicji użytkownika. Po skonfigurowaniu można je dodawać do własnych pasków narzędzi. FreeCAD używa dedykowanego folderu dla makr użytkownika i tylko w nim można tworzyć makra. Użyj polecenia <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std: DlgMacroExecute](Std_DlgMacroExecute.md), aby znaleźć ten folder w systemie.
 

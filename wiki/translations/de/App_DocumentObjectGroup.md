@@ -10,6 +10,7 @@ Es wurde entwickelt, um Objekte in der [Baumansicht](tree_view/de.md) für den A
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die`App::DocumentObjectGroup* Klasse hat eine Erweiterung zur Gruppierung jedes Objekttyps. Die Gruppe selbst hat wenig Eigenschaften.`
 
 ## Anwendung

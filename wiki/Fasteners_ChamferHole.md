@@ -3,15 +3,13 @@
    Name:Fasteners ChamferHole
    MenuLocation:Fasteners → Chamfer Hole
    Workbenches:[Fasteners](Fasteners_Workbench.md)
-   Shortcut:None
-   SeeAlso:
 ---
 
 # Fasteners ChamferHole
 
 ## Description
 
-The <img alt="" src=images/Fasteners_ChamferHole.svg  style="width:24px;"> [Fasteners ChamferHole](Fasteners_ChamferHole.md) lorem ipsum dolor sit amet, consectetur adipiscing. This tool is part of the [external workbench](external_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
+The <img alt="" src=images/Fasteners_ChamferHole.svg  style="width:24px;"> [Fasteners ChamferHole](Fasteners_ChamferHole.md) lorem ipsum dolor sit amet, consectetur adipiscing. This tool is part of the [external workbench](External_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
 
 ## Usage
 

@@ -25,6 +25,7 @@ Ces arêtes créées par dessus le maillage peuvent être utilisées pour recré
 ![](images/Surface_CurveOnMesh_surface_example.png )
 
 
+
 *En haut à gauche: objet maillé avec des points sélectionnés sur la surface. En haut à droite: splines créées en sélectionnant plusieurs points sur le maillage. En bas à gauche: une surface paramétrique reconstruite à partir des splines approximées en utilisant [Surface Sections](Surface_Sections/fr.md).*
 
 ## Utilisation

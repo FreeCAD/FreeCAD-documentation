@@ -30,7 +30,7 @@ Aby wykreślić dane nie musisz tworzyć nowego dokumentu FreeCAD, wystarczy, ż
 
 ### Tworzenie dokumentu wykresu 
 
-Wykresy są specjalnymi dokumentami, które można utworzyć ręcznie w celu późniejszego dodania danych, lub pozwolić, aby moduł utworzył je automatycznie w momencie rozpoczęcia wykreślania danych. Tworzenie własnych dokumentów wykresów ma dwie zalety:
+Wykresy są specjalnymi dokumentami, które można utworzyć ręcznie w celu późniejszego dodania danych, lub pozwolić, aby środowisko pracy utworzyło je automatycznie w momencie rozpoczęcia wykreślania danych. Tworzenie własnych dokumentów wykresów ma dwie zalety:
 
 -   Możesz ustawić etykietę okna dokumentu.
 -   Możesz łatwo kontrolować, na którym dokumencie wykreślać dane.
@@ -76,27 +76,30 @@ Plot.plot(t,s)
 Plot.plot(t,c)
 ```
 
-Spowoduje to wykreślenie naszych funkcji. Polecenie **plot**\' dopuszcza jako argument etykietę serii, ale ponieważ będziemy ją później edytować za pomocą narzędzi modułu Plot, nie przekazujemy jeszcze tych danych.
+Spowoduje to wykreślenie naszych funkcji. Polecenie **plot** dopuszcza jako argument etykietę serii, ale ponieważ będziemy ją później edytować za pomocą narzędzi środowiska pracy Wykres, nie przekazujemy jeszcze tych danych.
 
 ## Konfiguracja wykresu 
 
 ### Wyświetlanie siatki i legendy 
 
-Zmień środowisko pracy FreeCAD na [Wykres](Plot_Module/pl.md) w menu **Widok → Środowiska pracy**. Po załadowaniu modułu użyj narzędzia [siatki](Plot_Grid/pl.md), aby ją wyświetlić.
+Zmień środowisko pracy FreeCAD na [Wykres](Plot_Workbench/pl.md) w menu **Widok → Środowiska pracy**. Po załadowaniu, użyj narzędzia [siatki](Plot_Grid/pl.md), aby ją wyświetlić.
 
-![](images/Plot_Grid.svg‎ ) *Ikonka narzędzia Pokaż / ukryj siatkę*
+![](images/Plot_Grid.svg‎ ) 
+*Ikonka narzędzia Pokaż / ukryj siatkę*
 
 Możesz powtórzyć tę czynność, aby ukryć siatkę. Możesz również wyświetlić [legendę](Plot_Legend/pl.md) za pomocą dostarczonego narzędzia.
 
-![](images/Plot_Legend.svg ) *Ikonka narzędzia Pokaż / ukryj legendę*
+![](images/Plot_Legend.svg ) 
+*Ikonka narzędzia Pokaż / ukryj legendę*
 
-Jak widzisz, legenda jest pusta, ponieważ nie ustawiliśmy jeszcze żadnej etykiety serii. W środowisku pracy [Wykres](Plot_Module/pl.md) serie bez etykiety nie są wyświetlane w legendzie.
+Jak widzisz, legenda jest pusta, ponieważ nie ustawiliśmy jeszcze żadnej etykiety serii. W środowisku pracy [Wykres](Plot_Workbench/pl.md) serie bez etykiety nie są wyświetlane w legendzie.
 
 ### Ustawianie etykiet serii 
 
 Za pomocą narzędzia [serii](Plot_Series/pl.md) możesz edytować niektóre parametry serii.
 
-![](images/Plot_Series.svg‎ ) *Ikonka narzędzia konfiguracji serii*
+![](images/Plot_Series.svg‎ ) 
+*Ikonka narzędzia konfiguracji serii*
 
 Najpierw wybierz serię, którą chcesz edytować, na przykład zaczniemy od pierwszej. Odznacz opcje {{CheckBox|Brak etykiety}} i ustaw tę etykietę:
 
@@ -120,7 +123,8 @@ Seria pozwala na ustawienie wielu różnych właściwości. Spróbuj ustawić w�
 
 Za pomocą narzędzia [Etykiety](Plot_Labels/pl.md) można ustawić etykiety przypisane do wszystkich utworzonych osi.
 
-![](images/Plot_Labels.svg‎ ) *Ikonka narzędzia Ustaw etykiety*
+![](images/Plot_Labels.svg‎ ) 
+*Ikonka narzędzia Ustaw etykiety*
 
 Ustaw te dane:
 
@@ -134,7 +138,8 @@ Zmień również rozmiar czcionki w tytule i wszystkich etykietach na {{Value|20
 
 Za pomocą narzędzia do [zapisywania](Plot_Save/pl.md) wykresu możesz zapisać swój wykres jako plik graficzny w kilku formatach.
 
-![](images/Plot_Save.svg ) *Ikonka narzędzia Zapisz wykres*
+![](images/Plot_Save.svg ) 
+*Ikonka narzędzia Zapisz wykres*
 
 Najpierw należy wybrać ścieżkę dostępu do pliku wyjściowego.
 

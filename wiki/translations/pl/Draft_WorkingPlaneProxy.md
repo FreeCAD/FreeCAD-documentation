@@ -26,7 +26,7 @@ The <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:24px;"> **D
 5.  A working plane proxy is created.
 6.  To align the [working plane](Draft_SelectPlane.md) with a working plane proxy, double-click the working plane proxy in the [Tree view](Tree_view.md) or use it with the [Draft SelectPlane](Draft_SelectPlane.md) command.
 
-## Context menu 
+## Menu podręczne 
 
 For a Draft WorkingPlaneProxy these additional options are available in the [Tree view](Tree_view.md) context menu:
 

@@ -32,7 +32,8 @@ Then go to **View → Panels** and check:
 
 There are two ways to write Python code in FreeCAD. In the [Python console](Python_console.md) (select **View → Panels → Python console** from the menu) or in the [Macro editor](Std_DlgMacroExecute.md) (select **Macro → Macros...** from the menu). In the console you write Python commands one by one, executing them by pressing **Enter**, while macros can contain more complex code made up of several lines, executed only when the macro is executed.
 
- ![](images/Screenshot_pythoninterpreter.jpg )  *The FreeCAD Python console*
+ ![](images/Screenshot_pythoninterpreter.jpg )  
+*The FreeCAD Python console*
 
 In this tutorial you can use both methods. You can copy-paste each line in the Python console and then press **Enter**, or copy-paste the entire code in a new Macro window.
 
@@ -47,9 +48,10 @@ Let\'s start by creating a new empty document:
 doc = FreeCAD.newDocument()
 ```
 
-If you type this in the FreeCAD Python console, you will notice that as soon as you type `FreeCAD.` a windows pops up, allowing to quickly autocomplete the rest of your line. Even better, each entry in the autocomplete list has a tooltip explaining what it does. This makes it easier to explore the available functionality. Before choosing `newDocument`, have a look at the other options.
+If you type this in the FreeCAD Python console, you will notice that as soon as you type `FreeCAD.` a window pops up, allowing to quickly autocomplete the rest of your line. Even better, each entry in the autocomplete list has a tooltip explaining what it does. This makes it easier to explore the available functionality. Before choosing `newDocument`, have a look at the other options.
 
- ![](images/Screenshot_classbrowser.jpg )  *The autocomplete mechanism of the FreeCAD Python console*
+ ![](images/Screenshot_classbrowser.jpg )  
+*The autocomplete mechanism of the FreeCAD Python console*
 
 Now our new document will be created. This is similar to pressing the **<img src="images/Std_New.svg" width=16px> [Std New](Std_New.md)** button on the toolbar. In fact most buttons in FreeCAD do nothing more than execute one or more lines of Python code. Even better, you can set an option in **Edit → Preferences → General → Macro** to **Show script commands in python console**. This will print in the console all Python code executed when you press buttons. Very useful for learning how to reproduce actions in Python.
 
@@ -67,14 +69,14 @@ Explore the available options. Usually names that begin with a capital letter ar
 box = doc.addObject("Part::Box", "myBox")
 ```
 
-Nothing happens. Why? Because FreeCAD is made for the big picture. One day, it will work with hundreds of complex objects, all depending each other. Making a small change somewhere could have a big impact, you may need to recalculate the whole document which could take a long time. For that reason almost no command updates the scene automatically. You must do it manually:
+Nothing happens. Why? Because FreeCAD is made for the big picture. One day, it will work with hundreds of complex objects, all depending each other. Making a small change somewhere could have a big impact; you may need to recalculate the whole document which could take a long time. For that reason almost no command updates the scene automatically. You must do it manually:
 
  
 ```python
 doc.recompute()
 ```
 
-Now our box appeared. Many of the buttons that add objects in FreeCAD actually do two things: add the object, and recompute. If you turned on the **Show script commands in python console** option above, try adding a sphere with the GUI button, you\'ll see the two lines of Python code being executed one after the other.
+Now our box appeared. Many of the buttons that add objects in FreeCAD actually do two things: add the object, and recompute. If you turned on the **Show script commands in python console** option above, try adding a sphere with the GUI button; you\'ll see the two lines of Python code being executed one after the other.
 
 Now let\'s explore the contents of our box:
 
@@ -97,7 +99,7 @@ This will print the current height of our box. Now let\'s try to change that:
 box.Height = 5
 ```
 
-If you select your box with the mouse, you\'ll see that in the [Property editor](Property_editor.md), on the **Data** tab, our **Height** property appears. All properties of a FreeCAD object that appear there (and also on the **View** tab, more about that later), are directly accessible by Python too, by their names, like we did with the **Height** property. Try changing the other dimensions of the box.
+If you select your box with the mouse, you\'ll see that in the [Property editor](Property_editor.md), on the **Data** tab, our **Height** property appears. All properties of a FreeCAD object that appear there (and also on the **View** tab, more about that later), are directly accessible in Python too, by their names, like we did with the **Height** property. Try changing the other dimensions of the box.
 
 [top](#top.md)
 
@@ -278,6 +280,9 @@ Now that you have a good understanding of the basics, where are we going to keep
 Now you are ready for more in-depth FreeCAD scripting. So head on to the [Power users hub](Power_users_hub.md)!
 
 [top](#top.md)
+
+
+
 
  {{Powerdocnavi}} 
 

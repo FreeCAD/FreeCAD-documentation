@@ -46,6 +46,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 :   <img alt="" src=images/BentShapeDialog.png  style="width:250px;">
 
 
+
 *Panneau de tâches pour l'outil Armature cintrée*
 
 ## Propriétés

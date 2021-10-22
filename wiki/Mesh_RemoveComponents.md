@@ -12,7 +12,8 @@
 
 The **Mesh RemoveComponents** command removes faces from mesh objects.
 
- ![](images/Meshes_RemoveComponents.jpg )  *The Remove components task panel*
+ ![](images/Meshes_RemoveComponents.jpg )  
+*The Remove components task panel*
 
 ## Usage
 

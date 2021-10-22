@@ -14,7 +14,8 @@
 
 The FHPath tool inserts a FHPath object, that is a set of FastHenry segments along a path. 
 
-![](images/EM_FHPath_Example.png )  *FastHenry FHPath*
+![](images/EM_FHPath_Example.png )  
+*FastHenry FHPath*
 
 ## Usage
 

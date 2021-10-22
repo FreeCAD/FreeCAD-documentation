@@ -12,7 +12,8 @@
 
 Der **Std AnsichtTrimetrisch**-Befehl richtet die Kamera in der aktiven _ sein, aber der Befehl funktioniert auch, wenn die Ansicht im [perspektivischen Modus](Std_PerspectiveCamera/de.md) ist.
 
-![](images/Std_ViewTrimetric_example.svg ) *Das [Achsenkreuz](Std_AxisCross/de.md) und ein Würfel in trimetrischer Ansicht*
+![](images/Std_ViewTrimetric_example.svg ) 
+*Das [Achsenkreuz](Std_AxisCross/de.md) und ein Würfel in trimetrischer Ansicht*
 
 ## Anwendung
 

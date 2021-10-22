@@ -25,7 +25,8 @@ Activa la salida de la consola en el menú **Edición → Preferencias → Gener
 
 Su uso es muy sencillo: Pulsa el botón de grabar, se te pedirá que des un nombre a tu macro, y luego realiza algunas acciones. Cuando hayas terminado, pulsa el botón de parar la grabación, y tus acciones se guardarán. Ahora puedes acceder al diálogo de la macro con el botón de edición.
 
-![](images/Macros.png ) *Diálogo de macros, que enumera las macros disponibles en el sistema*
+![](images/Macros.png ) 
+*Diálogo de macros, que enumera las macros disponibles en el sistema*
 
 Allí puedes gestionar tus macros, borrarlas, editarlas, duplicarlas, instalarlas o crear otras nuevas desde cero. Si editas una macro, se abrirá en una ventana del editor donde puedes hacer cambios en su código. Se pueden instalar nuevas macros utilizando el botón {{button|Complementos...}}, que enlaza con el [Gestor Complementos](AddonManager/es.md).
 

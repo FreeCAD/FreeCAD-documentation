@@ -28,7 +28,8 @@ To reset all face colors:
 
 1.  Click **Set to default**. This sets the colors of all faces of the part to the default color. The button works instantly, i.e. you can not revert this with the **Cancel** button.
 
-![](images/Part_FaceColors-dialog.png ) *The FaceColors dialog*
+![](images/Part_FaceColors-dialog.png ) 
+*The FaceColors dialog*
 
 
 

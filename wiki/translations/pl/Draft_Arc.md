@@ -27,6 +27,7 @@ Zobacz również [Tacka narzędziowa](Draft_Tray/pl.md), [Przyciąganie](Draft_S
 1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Arc.svg" width=16px> [Tworzy różne rodzaje łuków ...](Draft_Arc/pl.md)**.
     -   Wybierz z menu opcję **Kreślenie → Narzędzia łuku → <img src="images/Draft_Arc.svg" width=16px> Łuk**.
+    -   Użyj skrótu klawiaturowego: **A**, a następnie **R**. {{Version/pl|0.20}}
 2.  Otworzy się panel zadań **Łuk**. Zobacz rozdział [Opcje](#Opcje.md), aby uzyskać więcej informacji.
 3.  Wybierz pierwszy punkt - środek łuku, w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Wprowadź punkt**.
 4.  Wybierz drugi punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz wartość **Promienia**.

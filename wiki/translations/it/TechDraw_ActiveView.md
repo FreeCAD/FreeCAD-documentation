@@ -21,6 +21,7 @@ Lo strumento Vista attiva inserisce una copia di una finestra 3D in una pagina d
 ![](images/TechDraw_ActiveView_example.png )
 
 
+
 *Una vista semplice dal modello 3D.*
 
 ## Utilizzo

@@ -6,6 +6,9 @@ Questa è una lista estesa, ma non completa, delle funzioni (feature) già imple
 
 ## Note di rilascio 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Note di rilascio della versione 0.11](Release_notes_0.11/it.md) - Marzo 2011
 -   [Note di rilascio della versione 0.12](Release_notes_0.12/it.md) - Dicembre 2011
 -   [Note di rilascio della versione 0.13](Release_notes_0.13/it.md) - Gennaio 2013
@@ -16,6 +19,9 @@ Questa è una lista estesa, ma non completa, delle funzioni (feature) già imple
 -   [Note di rilascio della versione 0.18](Release_notes_0.18/it.md) - Marzo 2019
 -   [Note di rilascio della versione 0.19](Release_notes_0.19/it.md) - Marzo 2021
 -   [Note di rilascio della versione 0.20](Release_notes_0.20/it.md) - TBD
+
+
+</div>
 
 ## Funzioni principali 
 

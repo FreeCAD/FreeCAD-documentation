@@ -12,7 +12,8 @@
 
 La commande **Mesh Lissage** lisse les objets maillés en modifiant la position de leurs sommets.
 
-![](images/Meshes_Smooth.jpg ) *Le panneau des tâches de lissage après avoir choisi l'option de Seulement la sélection*
+![](images/Meshes_Smooth.jpg ) 
+*Le panneau des tâches de lissage après avoir choisi l'option de Seulement la sélection*
 
 ## Utilisation
 

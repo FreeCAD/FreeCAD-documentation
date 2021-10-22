@@ -22,7 +22,8 @@ Le fessure possono essere allargate nella parte posteriore del dado rispetto all
 
 Il diametro di ogni stringa è configurabile e gli slot possono essere resi una quantità configurabile più ampia della stringa per impedire l\'associazione. La parte superiore del dado è sferica e può essere configurata sopra/sotto il punto centrale delle stringhe. I bordi del dado non sono sagomati, né la parte superiore è sagomata dalla faccia alla parte posteriore, ma queste trasformazioni possono essere applicate manualmente in FreeCAD, o addirittura dopo la fresatura della parte.
 
-![](images/Nut_macro.png ) *Risultati usando la macro Guitar Nut Maker*
+![](images/Nut_macro.png ) 
+*Risultati usando la macro Guitar Nut Maker*
 
 ## Utilizzo
 

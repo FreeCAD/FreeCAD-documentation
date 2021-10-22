@@ -2,7 +2,7 @@
 - GuiCommand:/ru
    Name:Plot Save
    Name/ru:Plot Save
-   Workbenches:[Plot](Plot_Module/ru.md)
+   Workbenches:[Plot](Plot_Workbench/ru.md)
    MenuLocation:Plot → Сохранить диаграмму
 ---
 
@@ -37,7 +37,8 @@
 
 </div>
 
-![Path selection button](images/Plot_Save_Path.png‎ ) *Path selection button*
+![Path selection button](images/Plot_Save_Path.png‎ ) 
+*Path selection button*
 
 ## Options
 

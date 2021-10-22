@@ -19,7 +19,8 @@ Der Zweck dieses Explorers besteht einfach darin, dir zu ermöglichen, zu überp
 <img alt="" src=images/Arch_IfcExplorer_example.jpg  style="width:800px;">
 
 :   
-    *Ifc Explorer mit verschiedenen Eigenschaften*
+    
+*Ifc Explorer mit verschiedenen Eigenschaften*
     
 
 ## Anwendung

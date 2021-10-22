@@ -13,7 +13,8 @@
 
 La commande **Std Vue dimétrique** réaligne la caméra dans la _ mais la commande fonctionne également si la vue est en [mode perspective](Std_PerspectiveCamera/fr.md).
 
-![](images/Std_ViewDimetric_example.svg ) *L'[Axes du repère](Std_AxisCross/fr.md) et un cube en vue dimétrique*
+![](images/Std_ViewDimetric_example.svg ) 
+*L'[Axes du repère](Std_AxisCross/fr.md) et un cube en vue dimétrique*
 
 ## Utilisation
 

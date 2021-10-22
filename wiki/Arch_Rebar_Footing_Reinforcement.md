@@ -14,55 +14,62 @@ The [Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md) tool allows the
 
 This command is part of the _ via the **Tools → Addon manager → Reinforcement** menu.
 
-![](images/Isometric_view_of_Columns_footing.png ) *A Example of Footing reinforcement in Footing [Arch Structure](Arch_Structure.md)*
+ ![](images/Isometric_view_of_Columns_footing.png )  
+*An Example of Footing reinforcement in Footing [Arch Structure](Arch_Structure.md)*
 
-![](images/Front_View_of_Column_footing.png ) *Front view of given Footing Reinforcement example*
+ ![](images/Front_View_of_Column_footing.png )  
+*Front view of given Footing Reinforcement example*
 
 ## Usage
 
-1\. Select vertical face of a previously created Footing **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object. as shown in below image.
-![Footing Face selected](images/Footing_Face_selected.png ) *Selected face for Footing Arch Structure*
+1\. Select vertical face of a previously created Footing **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object as shown in below image.
+
+ ![](images/Footing_Face_selected.png )  
+*Selected face for Footing Arch Structure*
 
 2\. Then select **[Footng Reinforcement](Arch_Rebar_Footing_Reinforcement.md)** from the rebar tools.
 
 3\. A footing reinforcement dialog box will pop-out on screen as shown below.
-![Footing Reinforcement GUI](images/Footing_Reinforcement_GUI_.png )
 
-
+ ![](images/Footing_Reinforcement_GUI_.png )  
 *Dialog Box for the Footing Reinforcement*
 
 4\. Select the desired raber type and other input data for rabars in parallel direction of selected face in footing reinforcement mesh as show in below image.
-![](images/Input_Fields_for_Parallel_rebars_in_footing_GUI_Dialog_box.png ) *Dialog Box for Footing Reinforcement of the Rebars in parallel direction of selected face* 5. Now click on Next button or select Cross Rebars in list view and fill desired data for input data for rabars in cross direction of selected face in footing reinforcement mesh as show in below image.
-![](images/GUICrossRebarInputsFooting.png ) *Dialog Box for Footing Reinforcement of the Rebars in cross direction of selected face* 6. Click next or click on Columns in list view and fill desired input for columns in footing reinforcement. Here you can select to add secondary rebars in columns or not.
-![](images/Columns_input_fields_for_column_footing.png )
 
+ ![](images/Input_Fields_for_Parallel_rebars_in_footing_GUI_Dialog_box.png )  
+*Dialog Box for Footing Reinforcement of the Rebars in parallel direction of selected face*
 
-*Dialog Box for input fields of Colums in Footing Reinforcement *
+5\. Now click on Next button or select Cross Rebars in list view and fill desired data for input data for rabars in cross direction of selected face in footing reinforcement mesh as show in below image.
+
+ ![](images/GUICrossRebarInputsFooting.png )  
+*Dialog Box for Footing Reinforcement of the Rebars in cross direction of selected face*
+
+6\. Click next or click on Columns in list view and fill desired input for columns in footing reinforcement. Here you can select to add secondary rebars in columns or not.
+
+ ![](images/Columns_input_fields_for_column_footing.png )  
+*Dialog Box for input fields of Colums in Footing Reinforcement*
 
 7\. Click next or click on Ties in list view and fill desired input for Ties in columns of footing reinforcement.
-![](images/Ties_input_fields_for_column_footing.png )
 
-
-*Dialog Box for input fields of Ties in columns of Footing Reinforcement *
+ ![](images/Ties_input_fields_for_column_footing.png )  
+*Dialog Box for input fields of Ties in columns of Footing Reinforcement*
 
 8\. Click next or click on Main rebars in list view and fill desired input for main rebars in columns of footing reinforcement.
-![](images/Main_Rebar_input_fields_for_column_footing.png )
 
-
+ ![](images/Main_Rebar_input_fields_for_column_footing.png )  
 *Dialog Box for input fields of Main rebars in columns of Footing Reinforcement *
 
 Note: step 9 and 10 are required, only if secondary rebars check is enable in step 6.
-9. Click next or click on XDir Secoundry rebar in list view and fill desired input for secondary rebars in X direction in a column in footing reinforcement.
-![](images/X_Direction_secondary_rebar_sinput_fields_for_column_footing_Reinforcement.png )
 
+9\. Click next or click on XDir Secondary rebar in list view and fill desired input for secondary rebars in X direction in a column in footing reinforcement.
 
-*Dialog Box for input fields of X direction rebars in columns of Footing Reinforcement *
+ ![](images/X_Direction_secondary_rebar_sinput_fields_for_column_footing_Reinforcement.png )  
+*Dialog Box for input fields of X direction rebars in columns of Footing Reinforcement*
 
-10\. Click next or click on YDir Secoundry rebar in list view and fill desired input for secondary rebars in Y direction in a column in footing reinforcement.
-![](images/Y_Direction_secondary_rebars_input_fields_for_Column_footing_reinforcement.png )
+10\. Click next or click on YDir Secondary rebar in list view and fill desired input for secondary rebars in Y direction in a column in footing reinforcement.
 
-
-*Dialog Box for input fields of Y direction rebars in columns of Footing Reinforcement *
+ ![](images/Y_Direction_secondary_rebars_input_fields_for_Column_footing_reinforcement.png )  
+*Dialog Box for input fields of Y direction rebars in columns of Footing Reinforcement*
 
 11\. Click **OK** or **Apply** or **Finish** to generate Footing reinforcement.
 12. Click **Cancel** to exit the dialog box.
@@ -144,9 +151,9 @@ Note: step 9 and 10 are required, only if secondary rebars check is enable in st
 
 -    **Extension Factor**: Extension factor for ties extended edge.
 
--    **Tie Number **: It contains count of rebars or spacing between ties, If Number radio button is enabled.
+-    **Tie Number**: It contains count of rebars or spacing between ties, if Number radio button is enabled.
 
--    **Tie Spacing **: It contains the spacing between ties, If Spacing radio button is enabled.
+-    **Tie Spacing**: It contains the spacing between ties, if Spacing radio button is enabled.
 
 **Properties for Main Rebars in Columns of footing Reinforcement:**
 
@@ -209,7 +216,6 @@ The Footing Reinforcement tool can be used from the [Python](Python.md) console 
 
  
 ```python
-
 from FootingReinforcement.FootingReinforcement import makeFootingReinforcement
 
 footingReinforcementGroup = makeFootingReinforcement(
@@ -282,6 +288,7 @@ footingReinforcementGroup = makeFootingReinforcement(
     facename = None,
 )
 ```
+
 -   Creates a `footingReinforcementGroup` object from the given `structure`, which is a Footing [Arch Structure](Arch_Structure.md), and `facename`, which is a face of that structure.
     -   If no `structure` nor `facename` are given, it will take the user selected face as input.
 
@@ -421,7 +428,6 @@ You can change the properties of the Footing Reinforcement with the following fu
 
  
 ```python
-
 from FootingReinforcement.FootingReinforcement import editFootingReinforcement
 
 footingReinforcementGroup = editFootingReinforcement(

@@ -21,7 +21,8 @@ The **Std SendToPythonConsole** command creates a variable in the [Python consol
 >>> elt = App.getDocument("Unnamed").getObject("Box").Shape.Edge8
 >>> ### End command Std_SendToPythonConsole
 
- *Example output: an edge of a [Part Box](Part_Box.md) was selected*
+ 
+*Example output: an edge of a [Part Box](Part_Box.md) was selected*
 
 ## Usage
 

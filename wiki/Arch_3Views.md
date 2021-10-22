@@ -71,4 +71,4 @@ mesh_obj.ViewObject.Visibility = False
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch 3Views
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch 3Views

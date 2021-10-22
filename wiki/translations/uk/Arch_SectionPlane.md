@@ -55,6 +55,7 @@ The Section Plane alone won\'t create any view of its objects set. For that, you
 <img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
 
 
+
 *The Arch SectionPlane with the clip view option will behave like a camera, limiting the field of view.*
 
 ## Tweaks
@@ -121,4 +122,4 @@ FreeCAD.ActiveDocument.recompute()
 _
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/uk
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/uk

@@ -18,6 +18,7 @@
 Werkzeug zum zerteilen von Formen durch Überschneiden mit anderen Formen. Beispielsweise werden aus einem Quader und einer Ebene zwei Volumenkörper erzeugt. ![600px](images/Part_Slice_Demo.png)
 
 
+
 *Oben: Die Stücke wurden anschließend manuell auseinandergeschoben, um das Zerschneiden sichtbar zu machen.*
 
 _, gefolgt von <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Formteil Sprenge Verbund](Part_ExplodeCompound/de.md). Während \"Zerschneiden zu Verbund\" vollparametrisch ist und keine Probleme verursacht, wenn sich die Anzahl der Teile ändern, \"Auseinander Schneiden\" aktualisiert nicht die Anzahl der Objekte, wenn sich die Anzahl der Stücke ändert. Beide erzeugen ein parametrisches Scheiben Formelement, das die geschnittenen Teile in einen Verbund bringt, aber \"Auseinander Schneiden\" sprengt den resultierenden Verbund in separate Objekte.

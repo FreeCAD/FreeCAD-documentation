@@ -39,8 +39,14 @@ Nástroj Osy Vám umožňuje umístit osový systém do aktuálního dokumentu. 
 
 ## Volby
 
+
+<div class="mw-translate-fuzzy">
+
 -   Každá osa v osovém systému má svou vlastní vzdálenost a úhel v relaci k předchozí ose. To umožňuje vytvořit velmi komplexní systémy jako například ne-ortogonální systémy, polární systémy nebo jakýkoliv nehomogenní systém.
 -   Délka os, rozměry bublin a styly číslování jsou uživatelsky nastavitelné pomocí vlastností osového systému.
+
+
+</div>
 
 ## Vlastnosti
 
@@ -128,4 +134,4 @@ FreeCAD.ActiveDocument.recompute()
 _
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Axis/cs
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/cs

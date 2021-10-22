@@ -10,6 +10,7 @@ Veuillez noter que **<img src="images/Workbench_FEM.svg" width=16px> [FEM Workbe
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Diagramme simplifié des relations entre les objets principaux du programme. La classe `Mesh::MeshObject* est incorporée dans l'objet {{incode|Mesh::Feature` et à partir de là, elle est propagée à tous les objets qui en sont dérivés.}}
 
 ## Utilisation

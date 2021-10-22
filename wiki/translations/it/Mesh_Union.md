@@ -15,7 +15,8 @@ Il comando **Unione** crea un nuovo oggetto mesh non parametrico, un [Mesh Featu
 
 Per utilizzare questo comando bisogna che _.
 
-![](images/Mesh_Union_example.png ) *A sinistra due oggetti mesh, a destra l'oggetto mesh che è l'unione di quegli oggetti*
+![](images/Mesh_Union_example.png ) 
+*A sinistra due oggetti mesh, a destra l'oggetto mesh che è l'unione di quegli oggetti*
 
 ## Utilizzo
 

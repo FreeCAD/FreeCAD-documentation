@@ -18,7 +18,8 @@ Le but de cet explorateur est simplement de vous permettre de vérifier ce qui e
 <img alt="" src=images/Arch_IfcExplorer_example.jpg  style="width:800px;">
 
 :   
-    *Explorateur Ifc avec certaines de ses propriétés*
+    
+*Explorateur Ifc avec certaines de ses propriétés*
     
 
 ## Utilisation

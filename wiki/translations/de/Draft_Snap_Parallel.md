@@ -33,6 +33,7 @@ This snap option currently does not work if the cursor is next to the referenced
 <div class="mw-translate-fuzzy">
 
 
+
 *Fangen des zweiten Punktes einer Linie auf einer unsichtbaren Linie, die parallel zur Referenzlinie verläuft.*
 
 

@@ -15,6 +15,7 @@ L\'outil **Symétrie** copie symétriquement des fonctions par rapport à un pla
 ![](images/PartDesign_Mirrored_example.svg )
 
 
+
 *Ci-dessus : une fonction Pocket a été créée à partir d'un croquis contenant un cercle (A), la poche a ensuite été utilisée pour créer une fonction miroir. L'axe vertical d'esquisse (B) a été utilisé comme axe de symétrie. Le résultat (C) est affiché à droite.*
 
 ## Utilisation

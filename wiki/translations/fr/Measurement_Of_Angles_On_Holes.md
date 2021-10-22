@@ -31,6 +31,7 @@ Il existe plusieurs manières pour créer une ligne médiane sur des trous. En p
 Dans la boîte de dialogue de la vue combinée associée, sélectionnez dans le panneau des tâches sous *Orientation*, *Aligned* pour les axes hors des axes principaux. Par *Extend By*, on entend la longueur de la ligne centrale au-delà de la ligne du corps dans le dessin. Avec *Shift Horizontal* et *Shift Vertical*, la ligne centrale peut se déplacer dans le sens horizontal ou vertical, si nécessaire. *Style* signifie la figure de la ligne centrale.
 
 <img alt="" src=images/Create-Center-Line3P.JPG  style="width:250px;">
+
 *Ci-dessus: la boîte de dialogue*
 La ligne médiane créée peut être modifiée. Sélectionnez la ligne centrale et appuyez sur le bouton <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:24px;"> ou <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:24px;"> depuis la barre d\'outils avec laquelle vous avez créé la ligne centrale. Supprimer uniquement la ligne centrale avec <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:24px;"> dans la barre d\'outils après avoir sélectionné la ligne centrale.
 2. Réglage des angles :
@@ -38,6 +39,7 @@ La ligne médiane créée peut être modifiée. Sélectionnez la ligne centrale 
 Sélection des points du quadrant avec <img alt="" src=images/TechDraw_Quadrants.svg  style="width:24px;"> depuis la barre d\'outils. Sélectionnez ensuite les points comme indiqué ci-dessous et utilisez <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:24px;"> à partir de la barre d\'outils pour créer l\'angle. Une autre succession crée d\'autres angles. S\'il n\'y a pas de point d\'accrochage sur la ligne centrale changer \"compte ISO\" dans les propriétés.
 
 <img alt="" src=images/AnHi11.PNG  style="width:250px;">
+
 *Ci-dessus: succession de sélections|center* {{TechDraw Tools navi}} {{Tutorials navi}}
 
 ---

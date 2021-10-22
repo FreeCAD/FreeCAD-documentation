@@ -20,6 +20,7 @@ Cuando se inicia la herramienta, el puntero del ratón cambia a una cruz blanca 
 ![](images/Sketcher_PolylineExample1.png )
 
 
+
 *Polyline started with a line, a tangent arc, a perpendicular arc then a tangent line.*
 
 

@@ -9,7 +9,8 @@
 
 Agrega propiedades de material a una parte.
 
-![](images/FEMMaterialSolidProperties.png ) *The FEM material task panel*
+![](images/FEMMaterialSolidProperties.png ) 
+*The FEM material task panel*
 
 
 <div class="mw-translate-fuzzy">

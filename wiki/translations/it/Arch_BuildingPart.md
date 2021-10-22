@@ -16,12 +16,24 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Parti di edificio sostituisce i vecchi [Piano](Arch_Floor/it.md) e [Edificio](Arch_Building/it.md) di Arch con una versione più capace che può essere utilizzata non solo per creare Piani o Livelli, ma anche tutti i tipi di situazioni in cui è necessario raggruppare oggetti Arch o BIM diversi e quel gruppo può aver bisogno di essere gestito come un oggetto o replicato.
+
+
+</div>
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Facoltativamente, selezionare uno o più oggetti da includere nella nuova Parte dell\'edificio.
 2.  Premere il pulsante **<img src="images/Arch_BuildingPart.svg" width=16px> [Parte di edificio](Arch_BuildingPart/it.md)**.
+
+
+</div>
 
 ### Note
 
@@ -47,60 +59,158 @@ Questo piano di sezione è sempre parallelo al piano di base di Parte di edifici
 
 ## Proprietà
 
-### Dati
+See also: [Property editor](Property_editor.md).
 
--    **Height**: l\'altezza di questo oggetto, e dei suoi oggetti figli. Gli oggetti figli possono essere, per esempio, dei [muri](Arch_Wall/it.md). L\'altezza di ogni muro deve essere impostata su `0` (zero), quindi la proprietà altezza della Parte di edificio si propaga agli oggetti al suo interno.
+An Arch BuildingPart is derived from an [App GeoFeature](App_GeoFeature.md) object and inherits all its properties. It also has the following additional properties:
 
--    **LevelOffset**: il livello del punto (0,0,0) di questo livello. Questo valore viene aggiunto all\'attributo `Placement.Base.z` di BuildingPart, per indicare un offset verticale senza spostare effettivamente l\'oggetto. L\'offset risultante viene visualizzato se **Show Level** è `True`.
-
--    **Area**: l\'area del pavimento calcolata di questo piano.
-
--    **IfcType**: il tipo di questo oggetto.
-
--    **Description**: una descrizione facoltativa per questo componente.
-
--    **Tag**: un tag opzionale per questo componente.
-
--    **IfcAttributes**: proprietà e attributi IFC personalizzati.
-
-### Vista
-
--    **LineWidth**: lo spessore di linea di questo oggetto
-
--    **OverrideUnit**: un\'unità opzionale per esprimere i livelli
-
--    **DisplayOffset**: una trasformazione da applicare al segno di livello
-
--    **ShowLevel**: se è vero, mostra il livello
-
--    **ShowUnit**: se è vero, mostra l\'unità sul tag di livello
-
--    **SetWorkingPlane**: se è vero, quando attivato, il piano di lavoro si adatta automaticamente a questa Parte di edificio
-
--    **OriginOffset**: se è vero, quando attivato, l\'Offset della visualizzazione influisce anche sul segno di origine
-
--    **ShowLabel**: se true, quando attivato, viene visualizzata l\'etichetta dell\'oggetto
-
--    **FontName**: il carattere da utilizzare per i testi
-
--    **FontSize**: la dimensione del carattere dei testi
-
--    **RestoreView**: se impostato, la vista memorizzata in questo oggetto viene ripristinata con un doppio clic
-
--    **DiffuseColor**: i singoli colori delle facce
+### Data
 
 
-{{Version/it|0.19}}
+{{TitleProperty|Base}}
 
--    **ChildrenOverride**: Se impostato, le impostazioni seguenti influenzno i figli di questa Parte di edificio.
+-    **Group|LinkList**: List of referenced objects.
 
--    **ChildrenLineWidth**: La larghezza di linea da applicare ai figli di questa Parte di edificio.
+-    **_ Group Touched|Bool|Hidden**
+    
 
--    **ChildrenLineColor**: Il colore della linea da applicare ai figli di questa Parte di edificio.
 
--    **ChildrenShapeColor**: Il colore della forma da applicare ai figli di questa Parte di edificio.
+{{TitleProperty|Building Part}}
 
--    **ChildrenTransparency**: La trasparenza da applicare ai figli di questa Parte di edificio.
+-    **Area|Area**: The computed floor area of this floor.
+
+-    **Height|Length**: The height of this object, and of its children objects. The children objects could be, for example, [Arch Walls](Arch_Wall.md). Each wall\'s height must be set to `0` (zero), so the height property of the BuildingPart propagates to the objects inside of it.
+
+-    **Level Offset|Length**: The level of the (0,0,0) point of this level. This value is added to the `Placement.Base.z` attribute of the BuildingPart, to indicate a vertical offset without actually moving the object. The resulting offset is displayed if **Show Level** is `True`.
+
+-    **Materials Table|Map|Hidden**: A MaterialName:SolidIndexesList map that relates material names with solid indexes to be used when referencing this object from other files.
+
+-    **Only Solids|Bool**: If true, only solids will be collected by this object when referenced from other files.
+
+-    **Saved Inventor|FileIncluded|Hidden**: This property stores an inventor representation for this object.
+
+-    **Shape|PartShape|Hidden**: The shape of this object.
+
+
+{{TitleProperty|Children}}
+
+-    **Height Propagate|Bool**: If true, the height value propagates to contained objects.
+
+
+{{TitleProperty|IFC}}
+
+-    **Ifc Data|Map|Hidden**: IFC data.
+
+-    **Ifc Properties|Map|Hidden**: IFC properties of this object.
+
+-    **Ifc Type|Enumeration**: The IFC type of this object.
+
+
+{{TitleProperty|IFC Attributes}}
+
+-    **Description|String**: An optional description for this component
+
+-    **Global Id|String**
+    
+
+-    **Object Type|String**
+    
+
+-    **Overall Height|Length**
+    
+
+-    **Overall Width|Length**
+    
+
+-    **Partitioning Type|Enumeration**
+    
+
+-    **Predefined Type|Enumeration**
+    
+
+-    **Tag|String**: An optional tag for this component.
+
+-    **User Defined Partitioning Type|String**
+    
+
+### View
+
+
+{{TitleProperty|Auto Group}}
+
+-    **Autogroup Autosize|Bool**: Automatically set the capture box size from the Building Part contents. <small>(v0.20)</small> 
+
+-    **Autogroup Box|Bool**: Turns auto grouping (and the display of the capture box) on/off. <small>(v0.20)</small> 
+
+-    **Autogroup Margin|Length**: A margin to use when autosize is turned on. <small>(v0.20)</small> 
+
+-    **Autogroup Size|IntegerList**: The capture box for newly created objects expressed as \[XMin,YMin,ZMin,XMax,YMax,ZMax\]. <small>(v0.20)</small> 
+
+
+{{TitleProperty|Building Part}}
+
+-    **Diffuse Color|ColorList|Hidden**: The individual face colors.
+
+-    **Display Offset|Placement**: A transformation to apply to the level mark.
+
+-    **Font Name|Font**: The font to be used for texts.
+
+-    **Font Size|Length**: The font size of texts.
+
+-    **Line Width|Float**: The line width of this object.
+
+-    **Origin Offset|Bool**: If true, when activated, Display offset will affect the origin mark too.
+
+-    **Override Unit|String**: An optional unit to express levels.
+
+-    **Show Label|Bool**: If true, when activated, the object\'s label is displayed.
+
+-    **Show Level|Bool**: If true, show the level.
+
+-    **Show Unit|Bool**: If true, show the unit on the level tag.
+
+
+{{TitleProperty|Children}}
+
+-    **Children Line Color|Color**: The line color to apply to the children of this Building Part.
+
+-    **Children Line Width|Float**: The line width to apply to the children of this Building Part.
+
+-    **Children Override|Bool**: If true, the objects contained in this Building Part will adopt these line, color and transparency settings.
+
+-    **Children Shape Color|Color**: The shape color to apply to the children of this Building Part.
+
+-    **Children Transparency|Percent**: The transparency to apply to the children of this Building Part.
+
+
+{{TitleProperty|Clip}}
+
+-    **Auto Cut View|Bool**: Turn cutting on when activating this level.
+
+-    **Cut Margin|Length**: The distance between the level plane and the cut line.
+
+-    **Cut View|Bool**: Cut the view above this level.
+
+
+{{TitleProperty|Interactions}}
+
+-    **Auto Working Plane|Bool**: If set to True, the working plane will be kept on Auto mode.
+
+-    **Double Click Activates|Bool**: If True, double-clicking this object in the tree activates it.
+
+-    **Restore View|Bool**: If set, the view stored in this object will be restored on double-click.
+
+-    **Save Inventor|Bool**: If this is enabled, the inventor representation of this object will be saved in the FreeCAD file, allowing to reference it in other files in lightweight mode.
+
+-    **Saved Inventor|FileIncluded|Hidden**: A slot to save the inventor representation of this object, if enabled.
+
+-    **Set Working Plane|Bool**: If true, when activated, the working plane will automatically adapt to this Building Part.
+
+-    **View Data|FloatList|Hidden**: Camera position data associated with this object.
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -109,7 +219,16 @@ Questo piano di sezione è sempre parallelo al piano di base di Parte di edifici
 
 [Arch API](Arch_API/it.md) e [Nozioni di base sugli script di FreeCAD](FreeCAD_Scripting_Basics/it.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Parte di edificio può essere utilizzato nelle [macro](macros/it.md) e dalla console [Python](Python/it.md) tramite la seguente funzione:
+
+
+</div>
 
 
 ```python
@@ -149,4 +268,4 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch BuildingPart/it
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch BuildingPart/it

@@ -17,6 +17,7 @@ L\'outil Ligne centrale entre 2 lignes ajoute une ligne centrale entre deux arê
 <img alt="" src=images/CL2LinesSample.png  style="width:350px;">
 
 
+
 *Ligne centrale alignée entre 2 arêtes*
 
 ## Utilisation

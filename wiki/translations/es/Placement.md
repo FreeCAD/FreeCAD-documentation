@@ -204,17 +204,17 @@ En expresiones es posible usar los componentes de la ubicación, por ejemplo par
 <<Cubo>>.Placement.Base.x
 ```
 
-You can access the angle of the rotation by 
+Se puede acceder al àngulo de rotación mediante: 
 ```python
 <<Cube>>.Placement.Rotation.Angle
 ```
 
-The axis of rotation can be accessed with 
+Se puede acceder al eje de rotación con: 
 ```python
 <<Cube>>.Placement.Rotation.Axis.x
 <<Cube>>.Placement.Rotation.Axis.y
 <<Cube>>.Placement.Rotation.Axis.z
-``` where often one of these values is 1 while the others are 0.
+``` cuando uno de estos valores suele ser 1 mientras los otros son 0.
 
 Se puede usar también la Ubicación al completo en una única expresión. Para ello: Pinchar con el botón derecho del ratón sobre la propiedad Placement en el Editor de propiedades, seleccionar \"Mostrar todo\" y aparecerán más propiedades adicionales. Si se vuelve a pinchar con el botón derecho otra vez sobre Placement, el menú contextual incluirá \"Expresión\...\". Seleccionando Expresión se abrirá su caja de diálogo y lo que se introduzca irá a la propiedad de Placement en vez de a las propiedades hijas.
 

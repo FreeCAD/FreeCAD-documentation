@@ -13,7 +13,8 @@
 
 The **Std ViewTop** command points the camera in the active [3D view](3D_view.md) in the direction of the negative Z axis.
 
-![](images/FreeCAD_views_front.svg ) *Arrow 2 points in the direction of the top view*
+![](images/FreeCAD_views_front.svg ) 
+*Arrow 2 points in the direction of the top view*
 
 ## Usage
 

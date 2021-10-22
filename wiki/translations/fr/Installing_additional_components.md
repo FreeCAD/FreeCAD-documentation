@@ -47,6 +47,16 @@ Tous les logiciels de cette section seront utilisés par les outils [Std Importe
 
 FreeCAD a un importateur et un exportateur natifs pour les fichiers DXF, programmés en C ++. Actuellement, ils n\'implémentent pas toutes les fonctionnalités du format DXF. Pour ces fonctionnalités, l\'importateur et l\'exportateur Python hérités sont toujours disponibles. Ceux-ci nécessitent la bibliothèque Python _ pour plus d\'informations.
 
+### DWG converters 
+
+FreeCAD cannot directly read and write DWG files. To convert DXF files to DWG files, and vice-versa, FreeCAD relies on external converters. There is built-in support for the following DWG converters:
+
+-   [LibreDWG](https://www.gnu.org/software/libredwg) (open-source, lacks support for some DWG entities).
+-   [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) (free).
+-   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial). <small>(v0.20)</small> 
+
+See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) for more information.
+
 ### IfcOpenShell
 
 _ ({{VersionMinus/fr|0.18}}) et [BIM IfcExplorer](BIM_IfcExplorer/fr.md). IfcOpenShell est inclus dans les programmes d\'installation de FreeCAD pour Windows et Mac.
@@ -54,14 +64,6 @@ _ ({{VersionMinus/fr|0.18}}) et [BIM IfcExplorer](BIM_IfcExplorer/fr.md). IfcOpe
 ### IfcJson
 
 [IfcJson](https://github.com/buildingSMART/ifcJSON) est une bibliothèque requise pour l\'exportation au format de fichier IFCJSON. IFCJSON est un nouveau format IFC qui n\'est pas encore pris en charge par de beaucoup d\'applications.
-
-### LibreDWG
-
-Le support de _ pour plus d\'informations.
-
-### Convertisseur de fichier ODA 
-
-Le _ pour plus d\'informations.
 
 ### Pycollada
 

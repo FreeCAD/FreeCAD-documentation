@@ -18,7 +18,8 @@ Crée un contour rouge de la BoundingBox (6 faces avec 6 rectangles) d\'un objet
 <img alt="" src=images/Macro_BoundingBox_Tracing_00.png  style="width:480px;">
 
 :   
-    *La macro de traçage BoundingBox en action*
+    
+*La macro de traçage BoundingBox en action*
     
 
 ## Utilisation

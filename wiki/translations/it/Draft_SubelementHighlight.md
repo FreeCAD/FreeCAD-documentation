@@ -30,6 +30,7 @@ Lo strumento <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:
 <div class="mw-translate-fuzzy">
 
 
+
 *Modifica di una polilinea*
 
 

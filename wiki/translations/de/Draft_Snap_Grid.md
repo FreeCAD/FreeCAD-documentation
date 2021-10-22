@@ -23,7 +23,8 @@ Diese Methode rastet am Schnittpunkt zweier Rasterlinien ein, wenn das Raster si
 
 </div>
 
-![](images/Draft_Snap_Grid_example.png ) *Einrasten des zweiten Punkts einer Linie am Raster*
+![](images/Draft_Snap_Grid_example.png ) 
+*Einrasten des zweiten Punkts einer Linie am Raster*
 
 ## Anwendung
 

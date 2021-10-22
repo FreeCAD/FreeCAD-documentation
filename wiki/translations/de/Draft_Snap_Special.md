@@ -29,6 +29,7 @@ Diese Methode fängt an den speziellen Lagepunkten, die durch ein bestimmtes Obj
 <div class="mw-translate-fuzzy">
 
 
+
 *Fangen des zweiten Punktes einer Linie zum speziellen Punkt einer <img src="images/Arch_Wall.svg" width=24px> [Arch Wand](Arch_Wall/de.md), die der Knoten seines Basisdrahtes ist*
 
 

@@ -25,21 +25,22 @@ Si vous ne voulez produire qu\'une seule vue, l\'utilisation de Projection de gr
 3.  Appuyez sur le bouton **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Insérer un groupe de projection](TechDraw_ProjectionGroup/fr.md)**.
 4.  Une boîte de dialogue s\'ouvre dans laquelle vous pouvez sélectionner les vues qui doivent apparaître dans le groupe, l\'échelle du groupe et d\'autres paramètres.
 
-![](images/TaskProjGroup.png ) *[Panneau des tâches](Task_Panel/fr.md) de Projection Group pour choisir les options du groupe de projection. Le champ central indique la direction de la vue actuelle avec les pourcentages des axes x, y et z.*
+![](images/TaskProjGroup.png ) 
+*[Panneau des tâches](Task_Panel/fr.md) de Projection Group pour choisir les options du groupe de projection. Le champ central indique la direction de la vue en cours avec les pourcentages des axes x, y et z.*
 
 Après avoir créé le Groupe de projection, vous pouvez déplacer le groupe dans son ensemble en faisant glisser la vue centrale. Vous pouvez également déplacer les vues de projection en les faisant glisser.
 
 ## Propriétés
 
--    {{PropertyData/fr|Anchor}}: La vue de référence (centrale) dans le groupe. Normalement, la vue de face.
+-    **Anchor**: La vue de référence (centrale) dans le groupe. Normalement, la vue de face.
 
--    {{PropertyData/fr|ProjectionType}}: \"Premier Angle (Premier dièdre)\" ou \"Troisième Angle (Troisième dièdre)\".
+-    **ProjectionType**: \"Premier Angle (Premier dièdre)\" ou \"Troisième Angle (Troisième dièdre)\".
 
--    {{PropertyData/fr|AutoDistribute}}: Si la valeur est sur \"True\", espace les vues individuelles automatiquement. Utilisez \"False\" pour positionner les vues manuellement.
+-    **AutoDistribute**: Si la valeur est sur \"True\", espace les vues individuelles automatiquement. Utilisez \"False\" pour positionner les vues manuellement.
 
--    {{PropertyData/fr|spacingX}}: Espace horizontal entre les vues si le positionnement automatique est demandé. Notez que l\'échelle et la taille des autres vues du groupe influencent également l\'espacement.
+-    **spacingX**: Espace horizontal entre les vues si le positionnement automatique est demandé. Notez que l\'échelle et la taille des autres vues du groupe influencent également l\'espacement.
 
--    {{PropertyData/fr|spacingY}}: Espace vertical entre les vues si le positionnement automatique est demandé.
+-    **spacingY**: Espace vertical entre les vues si le positionnement automatique est demandé.
 
 ProjectionGroup dans son ensemble hérite de X, Y, ScaleType, Scale (Échelle) et Rotation à partir de la vue de base.
 
@@ -47,7 +48,7 @@ Les vues individuelles au sein du groupe héritent de toutes les propriétés de
 
 La propriété RotationVector des différentes vues du groupe est obsolète à partir de v0.19. Utilisez XDirection à la place.
 
-Notez que la boîte centrale affiche la direction de projection actuelle de la vue principale. Elle ne peut pas être utilisée pour changer de direction.
+Notez que la boîte centrale affiche la direction de projection en cours de la vue principale. Elle ne peut pas être utilisée pour changer de direction.
 
 ## Script
 

@@ -14,7 +14,8 @@
 
 Ajoute des propriétés matériau à une pièce.
 
-![](images/FEMMaterialSolidProperties.png ) *Le panneau des tâches des matériaux MEF*
+![](images/FEMMaterialSolidProperties.png ) 
+*Le panneau des tâches des matériaux MEF*
 
 ## Utilisation
 

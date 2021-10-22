@@ -94,4 +94,4 @@ Panel = Arch.makePanel(Rect, thickness=36)
 -   [Wikihouse porting tutorial](Wikihouse_porting_tutorial/fr.md)
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Panel/fr
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel/fr

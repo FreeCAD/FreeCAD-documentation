@@ -929,7 +929,15 @@ s.read("test.stp")
  s = Part.Shape()
  s.read("file.stp")       # incoming file igs, stp, stl, brep
  s.exportIges("file.igs") # outbound file igs
-```{{Top}} {{Powerdocnavi}} 
+```{{Top}}
+
+
+
+
+
+{{Powerdocnavi
+
+}}
 
 _ _
 

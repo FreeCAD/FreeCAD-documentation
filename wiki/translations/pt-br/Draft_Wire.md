@@ -14,6 +14,8 @@
 
 The <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Draft Wire** command [creates](#Create.md) a polyline, a sequence of several connected line segments. The command can also be used to [join](#Join.md) [Draft Lines](Draft_Line.md) and Draft Wires.
 
+The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its **Fillet Radius** or **Chamfer Size** respectively. It is also possible to subdivide the edges of a Draft Wire by changing its **Subdivisions** property.
+
 <img alt="" src=images/Draft_Polyline_example.jpg  style="width:400px;"> 
 *Wire defined by multiple points*
 

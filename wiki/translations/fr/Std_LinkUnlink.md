@@ -30,9 +30,11 @@ La <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:16px;"> 
 ![](images/Std_Link_tree_replace_1_example.png ) ![](images/Std_Link_tree_unlink_1_example.png )
 
 
+
 *Un lien à l'intérieur d'un autre objet est dissocié et l'objet réel est placé à l'intérieur à la place.*
 
 ![](images/Std_Link_tree_replace_2_example.png ) ![](images/Std_Link_tree_unlink_2_example.png )
+
 
 
 *Un lien à l'intérieur d'un groupe est dissocié et l'objet réel est placé à l'intérieur à la place.*

@@ -19,6 +19,7 @@ Dieser Befehl ist Teil der _ über das {{MenuCommand/de|Werkzeuge → Erweiterun
 <img alt="" src=images/Arch_Rebar_BOM_example.png  style="width:1000px;">
 
 
+
 *Stückliste von Bewehrungsstäben*
 
 ## Anwendung
@@ -32,6 +33,7 @@ Dieser Befehl ist Teil der _ über das {{MenuCommand/de|Werkzeuge → Erweiterun
 <img alt="" src=images/BOMDialog_General.png  style="width:500px;">
 
 
+
 *Dialog-Box des Arch-Bewehrung-Stücklisten-Werkzeugs*
 
 4\. Ändere Daten nach deinen Erfordernissen.
@@ -39,6 +41,7 @@ Dieser Befehl ist Teil der _ über das {{MenuCommand/de|Werkzeuge → Erweiterun
 5\. To edit **<img src="images/Arch_Rebar_BOM.svg" width=16px> [Bill Of Material](Arch_Rebar_BOM.md)** SVG configurations, click on **Edit SVG Configurations**. A dialog box will pop-out as shown below.
 
 <img alt="" src=images/BOMDialog_SVG.png  style="width:500px;">
+
 
 
 *Dialog Box for the Arch Rebar BOM SVG configuration editing*

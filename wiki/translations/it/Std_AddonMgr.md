@@ -24,7 +24,8 @@ Si noti che gli addon contrassegnati come {{emphasis|Solo Python 2}} non funzion
 
 Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version _ below.
 
-![](images/Std_AddonMgr_dialog.png ) *La finestra di dialogo di Gestione de componenti aggiuntivi*
+![](images/Std_AddonMgr_dialog.png ) 
+*La finestra di dialogo di Gestione de componenti aggiuntivi*
 
 ## Utilizzo
 

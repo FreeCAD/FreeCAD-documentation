@@ -5,52 +5,39 @@
    MenuLocation:SheetMetal → Make Junction
    Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
    Shortcut:**S** **J**
+   SeeAlso:[SheetMetal Grugeage carré](SheetMetal_AddRelief/fr.md), [SheetMetal Transformation en pli](SheetMetal_AddBend/fr.md)
 ---
 
 # SheetMetal AddJunction/fr
 
 ## Description
 
-La commande <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:24px;"> **SheetMetal AddJunction**\...
+La commande <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:24px;"> [SheetMetal Découpe d\'angle](SheetMetal_AddJunction/fr.md) crée des jonctions ouvertes entre deux sections (parois/bords) d\'un objet en tôle. Sans ces jonctions, les sections de tôle reliées à la même base ne seront pas dépliables.
 
-<img alt="" src=images/PostGap.png  style="width:320px;"> 
-*Découpe d'angle appliquée au coin.*
+Cette commande est la deuxième des trois étapes permettant de convertir un objet coque réalisé avec l\'[atelier Part Workbench](Part_Workbench/fr.md) ou l\'[atelier PartDesign](PartDesign_Workbench/fr.md) en un objet tôle dépliable :
+
+1.  [SheetMetal Grugeage carré](SheetMetal_AddRelief/fr.md).
+2.  [SheetMetal Découpe d\'angle](SheetMetal_AddJunction/fr.md).
+3.  [SheetMetal Transformation en pli](SheetMetal_AddBend/fr.md).
+
+<img alt="" src=images/SheetMetal_ConvertShellObject-01.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-02.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-04.png  style="width:100px;"> 
+*Faire une jonction - ouvrir les bords*
 
 ## Utilisation
 
-Pour ajouter une découpe au coin d\'un angle:
+1.  Sélectionnez une ou plusieurs arêtes.
+2.  Activez la commande <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> **SheetMetal Découpe d\'angle**\' en utilisant l\'une des méthodes suivantes :
+    -   Le bouton **<img src="images/SheetMetal_AddJunction.svg" width=16px> [SheetMetal AddJunction](SheetMetal_AddJunction/fr.md)**.
+    -   L\'option de menu **SheetMetal → <img src="images/SheetMetal_AddJunction.svg" width=16px> Make Junction**.
+    -   Le raccourci clavier : **S** puis **J**.
 
-1.  Commencez avec une plaque de base ou une feuille, sélectionnez un sommet d\'angle pour appliquer un relief
-2.  Cliquez sur l\'outil <img alt="" src=images/SheetMetal_Junction.svg  style="width:24px;"> **Junction** pour ajouter une jonction coupée à l\'angle.
+<img alt="" src=images/SheetMetal_ConvertShellObject-06.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-07.png  style="width:200px;">
 
+## Remarques
 
-**Remarque**
+Les commandes <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **_** et <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[SheetMetal Transformation en pli](SheetMetal_AddBend/fr.md)** fonctionnent mieux avec des cuboïdes creux, c\'est-à-dire des objets en forme de coque avec une épaisseur constante et seulement des angles de 90° entre les faces.
 
-: L\'atelier ne possède pas d\'outil pour créer une plaque de base, vous devez donc démarrer votre modèle avec l\'une des méthodes suivantes:
-
-:\* Méthode 1: <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Cube](Part_Box/fr.md)
-
-:\* Méthode 2: Un solide extrudé fait avec une <img alt="" src=images/Part_Extrude.svg  style="width:24px;"> [Part Extrusion](Part_Extrude/fr.md) à partir d\'un:
-
-::\* <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Draft Rectangle](Draft_Rectangle/fr.md) ou d\'un
-
-::\* <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Draft Fil](Draft_Wire/fr.md) ou d\'une
-
-::\* <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)
-
-::\* Utilisez <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Part Epaisseur](Part_Thickness/fr.md) pour créer une coque (**Typiquement avec la valeur d'épaisseur de la tôle.**)
-
-:\* Méthode 3: <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Corps](PartDesign_Body/fr.md) contenant soit un
-
-::\* <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:24px;"> [PartDesign Cube additif](PartDesign_AdditiveBox/fr.md) ou une
-
-::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> _.
-
-::\* Utilisez <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> [PartDesign Epaisseur](PartDesign_Thickness/fr.md) pour créer une coque (**Typiquement avec la valeur d'épaisseur de la tôle.**)
-
-:   
-
-    :   Si vous commencez avec un <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> PartDesign Corps, vous pouvez mélanger des fonctions de tôlerie avec des fonctions PartDesign telles que <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> _.
+Voir [SheetMetal Grugeage carré](SheetMetal_AddRelief/fr#Remarque.md) pour des conseils sur la création d\'objets coques de cuboïdes.
 
 ## Propriétés
 

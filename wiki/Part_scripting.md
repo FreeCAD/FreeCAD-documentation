@@ -175,7 +175,10 @@ Here we take the shape of our object f, then we take its list of edges. In this 
 
 Head to the [Topological data scripting](Topological_data_scripting.md) page if you would like to know more.
 
- {{Powerdocnavi}}  
+
+
+
+ {{Powerdocnavi}} 
 
 _ _
 

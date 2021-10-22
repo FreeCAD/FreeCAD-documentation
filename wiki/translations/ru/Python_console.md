@@ -10,6 +10,7 @@ The Python console in FreeCAD has basic syntax highlighting, able to differentia
 <img alt="" src=images/FreeCAD_Python_console.png  style="width:800px;">
 
 
+
 *The Python console showing messages when FreeCAD has just started.*
 
 ## Программирование
@@ -29,6 +30,7 @@ The Python console can perform basic code completion when a dot is written after
 The console is also able to show the documentation string of a particular function when the opening parenthesis is written, for example, `function(`
 
 <img alt="" src=images/FreeCAD_Python_console_example.png  style="width:800px;">
+
 
 
 *Example Python code that produces objects in the 3D view.*

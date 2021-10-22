@@ -33,6 +33,7 @@ This snap option currently only works properly for circular edges on a plane par
 <div class="mw-translate-fuzzy">
 
 
+
 *Rastet am zweiten Punkt einer Linie am Kreis ein, am 45°-Winkel des Keisbogens; kleine Kreise zeigen alle möglichen Rastpositionen*
 
 

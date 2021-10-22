@@ -14,6 +14,7 @@ Di solito contiene le schede per la pagina iniziale dellambiente [Start](Start_W
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
+
 *L'area della vista principale è contrassegnata dal numero 1 e può contenere varie schede, principalmente la pagina iniziale e la vista 3D.*
 
 ## Le finestre 

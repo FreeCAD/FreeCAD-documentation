@@ -10,6 +10,7 @@ Die geometrischen Klassen von OCCT werden in FreeCAD hauptsächlich durch das [P
 <img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;">
 
 
+
 *OpenCASCADE stellt dem [Part Arbeitsbereich](Part_Workbench/de.md) die grundlegenden geometrischen Klassen und Zeichenfunktionen zur Verfügung, welche dann von allen Arbeitsbereichen in FreeCAD verwendet werden.*
 
 OpenCASCADE ist nicht zu verwechseln mit _ zugänglich ist.
@@ -64,6 +65,7 @@ Von einer Kante oder Fläche aus kannst du auch zu seinem geometrischen Basisgeg
 So kannst du aus Formen sehr komplexe Teile bauen oder umgekehrt alle Unterformen extrahieren, aus denen eine komplexere Form besteht.
 
 <img alt="" src=images/Part_TopoShape_relationships.svg  style="width:600px;">
+
 
 
 *Die `Part::TopoShape* Klasse ist das geometrische Objekt, das auf dem Bildschirm zu sehen ist. Im Wesentlichen verwenden alle Arbeitsbereiche intern diese [TopoFormen](Part_TopoShape/de.md) um Kanten, Flächen und Volumenkörper zu erstellen und anzuzeigen.`

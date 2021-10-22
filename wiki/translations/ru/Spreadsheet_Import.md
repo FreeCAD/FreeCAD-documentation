@@ -12,7 +12,13 @@
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Инструмент **<img src=images/Spreadsheet_Import.svg style="width:16px"> [Импорт электронной таблицы](Spreadsheet_Import/ru.md)** позволяет вам импортировать файлы (называемые как CSV) у которых значения разделены символами табуляции, в верстак spreadsheet, чтобы эти данные можно было модифицировать и использовать с [выражениями](expressions/ru.md).
+
+
+</div>
 
 ## Применение
 

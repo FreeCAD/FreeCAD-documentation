@@ -29,9 +29,11 @@ The original <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="widt
 ![](images/Std_Link_tree_replace_1_example.png ) ![](images/Std_Link_tree_unlink_1_example.png )
 
 
+
 *A Link inside another object is unlinked, and the real object is placed inside instead.*
 
 ![](images/Std_Link_tree_replace_2_example.png ) ![](images/Std_Link_tree_unlink_2_example.png )
+
 
 
 *A Link inside a group is unlinked, and the real object is placed inside instead.*

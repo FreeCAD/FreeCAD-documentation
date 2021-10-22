@@ -14,7 +14,8 @@
 
 L\'interfaccia di FreeCAD è basata sul moderno toolkit [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)), e dispone di una organizzazione ottimale. Alcuni aspetti dell\'interfaccia possono essere personalizzati. Ad esempio, è possibile aggiungere barre degli strumenti personalizzate, con strumenti di diversi ambienti di lavoro o strumenti definiti nelle macro e creare le proprie scorciatoie da tastiera. Ma i menu e le barre degli strumenti predefinite fornite con FreeCAD e i suoi ambienti di lavoro non possono essere modificati.
 
-![](images/Std_DlgCustomize_tab_Toolbars.png ) *La finestra di dialogo Personalizza*
+![](images/Std_DlgCustomize_tab_Toolbars.png ) 
+*La finestra di dialogo Personalizza*
 
 ## Utilizzo
 
@@ -32,7 +33,8 @@ Nella finestra di dialogo Personalizza sono disponibili le seguenti schede:
 
 ### Comandi
 
-![](images/Std_DlgCustomize_tab_Commands.png ) *La scheda Comandi*
+![](images/Std_DlgCustomize_tab_Commands.png ) 
+*La scheda Comandi*
 
 In questa scheda è possibile sfogliare i comandi disponibili.
 
@@ -48,7 +50,8 @@ In questa scheda è possibile sfogliare i comandi disponibili.
 
 ### Tastiera
 
-![](images/Std_DlgCustomize_tab_Keyboard.png ) *La scheda Tastiera*
+![](images/Std_DlgCustomize_tab_Keyboard.png ) 
+*La scheda Tastiera*
 
 In questa scheda è possibile definire le scorciatoie da tastiera personalizzate. I collegamenti per i comandi delle macro possono essere definiti nella scheda [Macro](#Macros.md).
 
@@ -89,7 +92,8 @@ In questa scheda è possibile definire le scorciatoie da tastiera personalizzate
 
 ### Ambienti di lavoro 
 
-![](images/Std_DlgCustomize_tab_Workbenches.png ) *La scheda Ambienti*
+![](images/Std_DlgCustomize_tab_Workbenches.png ) 
+*La scheda Ambienti*
 
 In questa scheda si può modificare l\'ordine dell\'elenco del [selettore degli ambienti](Std_Workbench/it.md). L\'elenco **Ambienti abilitati** mostra gli ambienti così come appaiono nel selettore.
 
@@ -124,7 +128,8 @@ In questa scheda si può modificare l\'ordine dell\'elenco del [selettore degli 
 
 ### Barre degli strumenti 
 
-![](images/Std_DlgCustomize_tab_Toolbars.png ) *La scheda Barre degli strumenti*
+![](images/Std_DlgCustomize_tab_Toolbars.png ) 
+*La scheda Barre degli strumenti*
 
 In questa scheda è possibile creare e modificare barre degli strumenti personalizzate.
 
@@ -195,7 +200,8 @@ In questa scheda è possibile creare e modificare barre degli strumenti personal
 
 ### Macro
 
-![](images/Std_DlgCustomize_tab_Macros.png ) *La scheda Macro*
+![](images/Std_DlgCustomize_tab_Macros.png ) 
+*La scheda Macro*
 
 On this tab user macro commands can be set up. Once set up, they can be added to custom toolbars. FreeCAD uses a dedicated folder for user macros and only macros in that folder can be set up. Use the <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) command to find this folder on your system.
 

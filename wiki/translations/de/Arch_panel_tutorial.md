@@ -198,4 +198,4 @@ Beide Draft-Move-and-Rotate-Werkzeuge nutzen das Draft-Einrast-System. Verschied
 }}   {{Sketcher Tools navi}}
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/de
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch panel tutorial/de

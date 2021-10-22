@@ -16,7 +16,8 @@
 
 Questo strumento aggiunge una vista a una clip esistente.
 
-![](images/TechDraw_Clipview.png ) *Finestra di ritaglio di diverse viste esistenti*
+![](images/TechDraw_Clipview.png ) 
+*Finestra di ritaglio di diverse viste esistenti*
 
 ## Utilizzo
 

@@ -18,6 +18,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 <img alt="" src=images/Arch_Rebar_BOM_example.png  style="width:1000px;">
 
 
+
 *Bill Of Material of reinforcing bars*
 
 ## Usage
@@ -31,6 +32,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 <img alt="" src=images/BOMDialog_General.png  style="width:500px;">
 
 
+
 *Dialog Box for the Arch Rebar BOM tool*
 
 4\. Modify data to suit your requirements.
@@ -38,6 +40,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 5\. To edit **<img src="images/Arch_Rebar_BOM.svg" width=16px> [Bill Of Material](Arch_Rebar_BOM.md)** SVG configurations, click on **Edit SVG Configurations**. A dialog box will pop-out as shown below.
 
 <img alt="" src=images/BOMDialog_SVG.png  style="width:500px;">
+
 
 
 *Dialog Box for the Arch Rebar BOM SVG configuration editing*

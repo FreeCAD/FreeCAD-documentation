@@ -77,7 +77,8 @@ La forme en coupe d\'un aileron peut grandement affecter ses performances à dif
 ### Attaches à travers le mur (TTW) 
 
 À travers la paroi, les ailerons ajoutent une résistance structurelle en s\'étendant à travers le tube du corps externe jusqu\'à un tube du corps interne tel qu\'un support de moteur. Au lieu de se fixer uniquement à l\'extérieur du tube du corps extérieur, il peut être fixé en plusieurs points. En tant que telle, la hauteur de l\'attache serait la distance entre le diamètre extérieur du tube de corps interne et le diamètre externe du tube de corps externe. Les autres paramètres varient en fonction des besoins.
-![](images/TTWx4.png ) *4 ailerons TTW fixées à un support du moteur central à l'intérieur du tube du corps externe*
+![](images/TTWx4.png ) 
+*4 ailerons TTW fixées à un support du moteur central à l'intérieur du tube du corps externe*
 
 ## Propriétés
 

@@ -23,7 +23,8 @@ Zeigt oder blendet die Anzeige des Grades einer B-Spline-Kurve ein oder aus (sie
 
 </div>
 
-![](images/Sketcher_B-spline_example01.png ) *A B-spline curve. The green digit "3" in the center denotes the degree of the B-spline.*
+![](images/Sketcher_B-spline_example01.png ) 
+*A B-spline curve. The green digit "3" in the center denotes the degree of the B-spline.*
 
 ## Anwendung
 

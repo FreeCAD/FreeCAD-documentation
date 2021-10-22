@@ -32,6 +32,7 @@ Lo strumento Rettangolo crea un rettangolo selezionando due punti. Usa [il tipo 
 <div class="mw-translate-fuzzy">
 
 
+
 *Rettangolo definito da due vertici opposti*
 
 

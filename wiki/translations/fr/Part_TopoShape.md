@@ -12,9 +12,11 @@ Un autre type de classe est celui de [mesh](Mesh/fr.md). Cette classe n\'est pas
 ![](images/Shape_and_mesh.svg )
 
 
+
 *A gauche: paramétrique _ non paramétrique défini par des sommets et des surfaces triangulaires.*
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Diagramme simplifié des relations entre les objets centraux du programme. La classe `Part::TopoShape* est incorporée dans l'objet {{incode|Part::Feature` et à partir de là, elle est propagée à tous les objets qui en sont dérivés.}}

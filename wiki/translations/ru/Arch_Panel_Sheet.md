@@ -129,4 +129,4 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/ru
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/ru

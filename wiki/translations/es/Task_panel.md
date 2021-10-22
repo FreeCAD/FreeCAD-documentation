@@ -17,6 +17,7 @@ El [panel de tareas](task_panel/es.md) aparece en la pestaña **Tareas** de la [
 <div class="mw-translate-fuzzy">
 
 
+
 *El panel de tareas que muestra varios comandos cuando el [Ambiente de Trabajo DiseñoPieza](PartDesign_Workbench/es.md) está activo, y se selecciona un [Boceto](Sketch/es.md).*
 
 
@@ -29,6 +30,7 @@ Un panel de tareas normalmente se abre cuando se activa una herramienta que requ
 La entrada del usuario puede ser cualquier cosa como texto, coordenadas de puntos 3D, elementos de una lista, caras de una forma, u opciones para modificar la forma en que opera la herramienta.
 
 ![](images/FreeCAD_Combo_view_Task_panel_Sketcher.png )
+
 
 
 *Panel de tareas que se abre cuando se edita un [Boceto](Sketch/es.md). Se presentan varios tipos de información como mensajes del solucionador, opciones de cuadrícula, restricciones y elementos geométricos.*
@@ -45,6 +47,7 @@ Hay muchos comandos que requieren la selección de formas u objetos presentes en
 
 
 <div class="mw-translate-fuzzy">
+
 
 
 *Panel de tareas que se abre cuando se edita un [Arch Componente](AArch_Component/es.md). El panel espera a que el usuario seleccione los objetos que pueden ser añadidos o sustraídos del componente.*

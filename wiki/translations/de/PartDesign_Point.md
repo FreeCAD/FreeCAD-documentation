@@ -17,7 +17,8 @@
 
 Erstellt einen Bezugspunkt. Dieser kann innerhalb des aktuellen Körpers referenziert werden. Dies gilt ebenfalls für weitere Referenzobjekte.
 
-![](images/DatumPoint.png ) *Ein Referenzpunkt, der mit einem Offset von {{Value|2* in Z Richtung die Kugel am Z Scheitelpunkt referenziert.}}
+![](images/DatumPoint.png ) 
+*Ein Referenzpunkt, der mit einem Offset von {{Value|2* in Z Richtung die Kugel am Z Scheitelpunkt referenziert.}}
 
 ## Anwendung
 

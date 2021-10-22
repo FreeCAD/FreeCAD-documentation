@@ -20,6 +20,7 @@ Das 2PunkttKosmetikLinie Werkzeug fügt eine Kosmetiklinie zwischen zwei Knoten 
 <img alt="" src=images/CosLine2PointsSample.png  style="width:200px;">
 
 
+
 *Kosmetiklinie zwischen zwei Punkten*
 
 ## Anwendung

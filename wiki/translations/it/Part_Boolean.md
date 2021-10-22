@@ -20,6 +20,7 @@ Per operazioni booleane più veloci, usare <img alt="" src=images/Part_Fuse.svg 
 ![](images/PartBooleansDialog.png )
 
 
+
 *Finestra di dialogo per selezionare gli oggetti ed eseguire operazioni booleane con essi.*
 
 ## Utilizzo
@@ -73,11 +74,13 @@ In caso di complanarità, anche se la prima operazione booleana riesce, le succe
 <img alt="" src=images/Part_Boolean_cut_coplanar_2.png  style="width:500px;">
 
 
+
 *A sinistra: forme che condividono una faccia, un taglio booleano può produrre risultati errati. A destra: forme che si intersecano chiaramente tra loro, il taglio booleano avrà successo nella maggior parte dei casi.*
 
 <img alt="" src=images/Part_Boolean_fusion_coplanar_1.png  style="width:500px;">
 
 <img alt="" src=images/Part_Boolean_fusion_coplanar_2.png  style="width:500px;">
+
 
 
 *A sinistra: forme che condividono una faccia, un'unione booleana può produrre risultati errati. A destra: forme che si intersecano chiaramente tra loro, l'unione booleana avrà successo nella maggior parte dei casi.*

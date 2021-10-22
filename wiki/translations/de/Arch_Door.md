@@ -26,4 +26,4 @@ Alle Eigenschaften werden im [Arch Fenster](Arch_Window/de.md)-Werkzeug beschrie
 *Tür aus einer [Skizze](Sketcher_Workbench/de.md) konstruiert*
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Door/de
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Door/de

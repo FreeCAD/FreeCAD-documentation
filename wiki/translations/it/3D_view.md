@@ -17,6 +17,7 @@ Alcune proprietà della vista, come il colore di sfondo, lo stile di [navigazion
 <img alt="" src=images/FreeCAD_3D_view.png  style="width:600px;">
 
 
+
 *La [vista 3D](3D_view/it.md) è un componente dell'[interfaccia](interface/it.md) di FreeCAD . Per impostazione predefinita, essa mostra un piccolo widget con gli assi delle coordinate e il cubo di navigazione anche esso con gli assi delle coordinate; la griglia può essere visualizzata e configurata caricando l'ambiente [Draft](Draft_Workbench/it.md).*
 
 ## Azioni

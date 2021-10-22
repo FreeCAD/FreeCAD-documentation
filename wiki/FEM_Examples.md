@@ -13,7 +13,8 @@
 
 _ workbench.
 
- ![](images/FEM_Example_gui.png )  *The example selection dialog*
+ ![](images/FEM_Example_gui.png )  
+*The example selection dialog*
 
 ## Usage
 

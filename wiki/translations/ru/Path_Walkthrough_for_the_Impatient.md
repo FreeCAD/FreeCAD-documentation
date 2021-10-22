@@ -29,7 +29,8 @@ Demonstrating the creation of a <img alt="" src=images/Workbench_Path.svg  style
 
 
 :   
-    *Above: Created  in the <img src="images/Workbench_PartDesign.svg" width=24px> [Part Design](PartDesign_Workbench.md) including a Body, a Box with a Pocket, based on a Sketch oriented in the 
+    
+*Above: Created  in the <img src="images/Workbench_PartDesign.svg" width=24px> [Part Design](PartDesign_Workbench.md) including a Body, a Box with a Pocket, based on a Sketch oriented in the 
 **![](images/)*_XY_plane.**
     
 
@@ -48,7 +49,8 @@ Demonstrating the creation of a <img alt="" src=images/Workbench_Path.svg  style
 :   
 
     :   
-        *Above: [Path Job](Path_Job.md) creation dialog*
+        
+*Above: [Path Job](Path_Job.md) creation dialog*
         
 
 4\. This opens a Job creation dialog. Within this dialog, click **OK** to accept the Body as the Base Model, with no Template.
@@ -63,21 +65,24 @@ Demonstrating the creation of a <img alt="" src=images/Workbench_Path.svg  style
 
 :   ![](images/Path-JobOutput.png )
 :   
-    *Above: [Path Job](Path_Job.md) Edit dialog with the Output tab selected*
+    
+*Above: [Path Job](Path_Job.md) Edit dialog with the Output tab selected*
     
 
 ### Job Tools 
 
 :   ![](images/Path-JobTools.png )
 :   
-    *Above: [Path Job](Path_Job.md) Edit dialog with the Tools tab selected*
+    
+*Above: [Path Job](Path_Job.md) Edit dialog with the Tools tab selected*
     
 
 7\. Modify the Default tool by selecting it and clicking the **Edit** button. This opens the Tool Controller edit window.
 
 :   ![](images/Path-ToolConfig.gif )
 :   
-    *Above: [Path Job](Path_Job.md) Tool Controller subpanel Edit dialog*
+    
+*Above: [Path Job](Path_Job.md) Tool Controller subpanel Edit dialog*
     
 
 8\. The name given to the tool and the tool number correspond with the tool number of the machine. In the dialog (see above) it\'s Tool Nr. 4. The tool controller is configured for horizontal and vertical feed rates of `2mm/s` and a spindle speed of `2000 rpm`.
@@ -86,7 +91,8 @@ Demonstrating the creation of a <img alt="" src=images/Workbench_Path.svg  style
 
 :   ![](images/Path-ToolAdd.gif )
 :   
-    *Above: [Path Job](Path_Job.md) Tool controller 'Tool' subpanel dialog*
+    
+*Above: [Path Job](Path_Job.md) Tool controller 'Tool' subpanel dialog*
     
 
 10\. The values are confirmed with **OK**
@@ -111,7 +117,8 @@ This tree is shown after the Job\'s configuration once the Path Job is unfolded:
 
 :   ![](images/Path-PocketOperation.gif )
 :   
-    *Above: Pocket Shape dialog with the Operation subpanel selected*
+    
+*Above: Pocket Shape dialog with the Operation subpanel selected*
     
 
 14\. The pattern is changed to \"Offset\" and the Job Operation is confirmed for the pocket configuration with **OK**
@@ -120,7 +127,8 @@ The result is a model with two paths:
 
 :   ![](images/Path-WalkThroughResult.gif )
 :   
-    *Above: resulting with a model with two paths*
+    
+*Above: resulting with a model with two paths*
     
 
 ## Verifying Paths 
@@ -131,7 +139,8 @@ To inspect the G-Code use the <img alt="" src=images/Path_Inspect.svg  style="wi
 
 :   ![](images/Path-InspectWindow.gif )
 :   
-    *Above: [Path Inspection](Path_Inspect.md) tool opens the G-Code Inspection dialog*
+    
+*Above: [Path Inspection](Path_Inspect.md) tool opens the G-Code Inspection dialog*
     
 
 To start the simulation use the <img alt="" src=images/Path_Simulator.svg  style="width:32px;"> [Path Simulator](Path_Simulator.md) tool.
@@ -140,7 +149,8 @@ Adjust speed and accuracy and start the simulation with the <img alt="" src=imag
 
 :   ![](images/Path-Simulation.gif )
 :   
-    *Above: [Path Simulation](Path_Simulator.md) in progress*
+    
+*Above: [Path Simulation](Path_Simulator.md) in progress*
     
 
 If you want to end the simulation click the **Cancel** button, it will remove the stock created for the simulation. If you click **OK** this object will be kept in your Job.
@@ -154,7 +164,8 @@ The final step to generate G-Code for the target mill is to postprocess the Job.
 
 :   ![](images/Path-PostOutput.gif )
 :   
-    *Above: G-Code window allowing inspection of the final output file*
+    
+*Above: G-Code window allowing inspection of the final output file*
     
 
 

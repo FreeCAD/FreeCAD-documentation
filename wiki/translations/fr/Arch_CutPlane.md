@@ -19,6 +19,7 @@ L\'outil Couper le plan vous permet de couper un objet Arch selon un plan:
 <img alt="" src=images/Arch_CutPlane_example.jpg  style="width:640px;">
 
 
+
 *A gauche: avant d'appliquer l'outil Couper suivant un plan. Milieu: mur résultant après la coupe. À droite: encore un autre résultat facultatif*
 
 ## Utilisation
@@ -96,4 +97,4 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/fr
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/fr

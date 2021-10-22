@@ -14,7 +14,8 @@
 
 Der Befehl **Std Vorderansicht** wendet die Kamerasicht der aktiven [3D-Ansicht](3D_view/de.md) in die Richtung der positiven Y-Achse.
 
-![](images/FreeCAD_views_front.svg ) *Der Peil 1 zeigt in Richtung der Vorderansicht*
+![](images/FreeCAD_views_front.svg ) 
+*Der Peil 1 zeigt in Richtung der Vorderansicht*
 
 ## Anwendung
 

@@ -21,6 +21,7 @@ est utilisé pour projeter une <img src=images/_Draft_ShapeString.svg style="wid
 <img alt="" src=images/Part_ProjectionOnSurface1.png  style="width:300px;"> <img alt="" src=images/Part_ProjectionOnSurface2.png  style="width:300px;">
 
 
+
 *Projection d'un logo sur une surface courbe*
 
 ## Utilisation

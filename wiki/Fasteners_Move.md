@@ -3,15 +3,13 @@
    Name:Fasteners Move
    MenuLocation:Fasteners → Move
    Workbenches:[Fasteners](Fasteners_Workbench.md)
-   Shortcut:None
-   SeeAlso:
 ---
 
 # Fasteners Move
 
 ## Description
 
-The <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> [Fasteners Move](Fasteners_Move.md) attaches an existing fastener to a different feature. This tool is part of the [external workbench](external_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
+The <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> [Fasteners Move](Fasteners_Move.md) attaches an existing fastener to a different feature. This tool is part of the [external workbench](External_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
 
 For example to attach a screw to a part, the part must have features with circular edges, such as holes. To attach screws to holes, select the desired circular edge or several edges (You can also select a face if you want to select all holes in that face).
 
@@ -30,7 +28,7 @@ For example to attach a screw to a part, the part must have features with circul
 
 Result: fastener will move to the new location.
 
-![\|A fastener has been selected, and then a feature (circle) was control clicked. After pressing the move button, the screw will move to the selected feature.](images/Fasteners_Move_example-1.FCStd.png )
+![A fastener has been selected, and then a feature (circle) was control clicked. After pressing the move button, the screw will move to the selected feature.](images/Fasteners_Move_example-1.FCStd.png )
 
 ## Notes
 

@@ -10,6 +10,7 @@ Il a été développé pour être utilisé dans les assemblages. Son **Origin** 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Diagramme simplifié des relations entre les objets centraux du programme. La classe `App::Part* est un simple conteneur qui a une position dans l'espace 3D et a une origine pour contrôler le placement des objets regroupés sous celui-ci`
 
 ## Utilisation

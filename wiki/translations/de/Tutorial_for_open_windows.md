@@ -127,9 +127,11 @@ Mitunter wird das Fenster außerhalb der [Wand](Arch_Wall/de.md) platziert. Sola
 :   11.4. Ändere den `Öffnungsmodus` in **Arc 90** oder eine andere Option.
 :   11.5. Klicke auf die Schaltfläche **+Erstelle/aktualisiere Komponente** und dann **Schließen** um das Bearbeiten der Tür zu abzuschließen. Der Sketch wird wieder unsichtbar geschaltet.
 
-![](images/05_T01_window_edit.png ) *align=center|Dialog zum Bearbeiten eines Fensters oder einer Tür*
+![](images/05_T01_window_edit.png ) 
+*align=center|Dialog zum Bearbeiten eines Fensters oder einer Tür*
 
-![](images/06_T01_window_edit_component.png ) *align=center|Dialog zum Bearbeiten der Einzelkomponenten eines Fensters oder einer Tür*
+![](images/06_T01_window_edit_component.png ) 
+*align=center|Dialog zum Bearbeiten der Einzelkomponenten eines Fensters oder einer Tür*
 
 <img alt="" src=images/06.1_T01_window_edit_wire_door_front.png  style="width:600px;"> 
 *align=center|als Gelenk (Scharnier-/Bandseite) einer Tür ausgewählte vertikale Kante des Sketches*
@@ -140,7 +142,8 @@ Mitunter wird das Fenster außerhalb der [Wand](Arch_Wall/de.md) platziert. Sola
 
 14\. Wiederhole nun die Schritte mit der `Tür001` und dem zugrundeliegenden `Sketch001` um diese Tür 75 Grad ins Gebäudeinnere öffnen zu lassen. Aktiviere auch die Symbole in Ansicht und Grundriss.
 
-![](images/07_T01_window_property_view.png ) *align=center|Eigenschaftsdialog der Tür zur Veränderung von Öffnungswinkel, Ansichts- und Grundriss-Symbol sowie anderer Optionen*
+![](images/07_T01_window_property_view.png ) 
+*align=center|Eigenschaftsdialog der Tür zur Veränderung von Öffnungswinkel, Ansichts- und Grundriss-Symbol sowie anderer Optionen*
 
 <img alt="" src=images/08_T01_window_symbol_elevation.png  style="width:600px;"> 
 *align=center|Tür mit Öffnungssymbol in Ansicht*

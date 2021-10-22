@@ -33,7 +33,8 @@ Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[a
 
 L\'alignement des éléments d\'un Draft Réseau selon une courbe dépend des propriétés du réseau et de l\'orientation de l\'objet source. La position de l\'objet source est ignorée : pour les besoins du réseau, les valeurs {{Value|x}}, {{Value|y}} et {{Value|z}} sont fixées à {{Value|0}}. Si la propriété {{PropertyData/fr|Align}} du réseau est définie à `False`, l\'orientation des éléments du réseau est identique à celle de l\'objet source. Si elle a pour valeur `True`, l\'axe X du système de coordonnées local de chaque élément placé est tangent à la trajectoire. Les axes Y et Z des systèmes de coordonnées locaux dépendent de la propriété {{PropertyData/fr|Align Mode}} du réseau. Les autres propriétés du réseau impliquées dans l\'alignement comprennent {{PropertyData/fr|Tangent Vector}}, {{PropertyData/fr|Force Vertical}} et {{PropertyData/fr|Vertical Vector}}.
 
-<img alt="" src=images/Draft_PathArray_example2.png  style="width:600px;"> *3 réseaux basés sur la même courbe non planaire. De gauche à droite : Align est false, Align à true pour Align Mode Original et Align à true pour Align Mode Frenet.*.
+<img alt="" src=images/Draft_PathArray_example2.png  style="width:600px;"> 
+*3 réseaux basés sur la même courbe non planaire. De gauche à droite : Align est false, Align à true pour Align Mode Original et Align à true pour Align Mode Frenet.*.
 
 ### Mode d\'alignement 
 

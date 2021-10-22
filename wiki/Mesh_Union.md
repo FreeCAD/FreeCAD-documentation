@@ -14,7 +14,8 @@ The **Mesh Union** command creates a new non-parametric mesh object, a [Mesh Fea
 
 _.
 
- ![](images/Mesh_Union_example.png )  *On the left two mesh objects, on the right the mesh object that is the union of those objects*
+ ![](images/Mesh_Union_example.png )  
+*On the left two mesh objects, on the right the mesh object that is the union of those objects*
 
 ## Usage
 

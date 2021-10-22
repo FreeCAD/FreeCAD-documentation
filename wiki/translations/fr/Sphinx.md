@@ -12,6 +12,7 @@ Ce document donne une brève introduction à Sphinx, en particulier comment il e
 <img alt="" src=images/FreeCAD_sphinx_workflow.svg  style="width:800px;">
 
 
+
 *Flux de travail général pour produire la documentation du code source avec Sphinx. (Note de l'éditeur: mettre à jour cette image)*
 
 ## Aperçu Sphinx et FreeCAD 

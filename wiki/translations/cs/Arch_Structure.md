@@ -80,7 +80,8 @@ Obrázek nahoře zobrazuje sloup založený na 2D profilu, sloup a příčník z
 
 The Structure tool also features a series of presets that allow to quickly build standard metallic profiles or precast concrete elements.
 
-![](images/Arch_presets_example.jpg ) *Some presets for steel structures*
+![](images/Arch_presets_example.jpg ) 
+*Some presets for steel structures*
 
 The presets are obtained by choosing a **Category** from the structure options panel. Available categories are **Precast concrete** or any of the industry-standard metallic profiles such as **HEA**, **HEB** or **INP**. For each of these categories, a number of presets are available. Once a preset is chosen, its individual parameters such as **Length**, **Width** or **Height** can be adjusted. However, for metallic profiles, the profile size is set by the preset and cannot be changed.
 
@@ -160,4 +161,4 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Structure/cs
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/cs

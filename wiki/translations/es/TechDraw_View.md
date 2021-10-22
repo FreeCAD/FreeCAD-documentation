@@ -22,7 +22,8 @@ La herramienta Vista añade una representación de uno o más objetos a una pág
 
 </div>
 
-![](images/TechDraw_View_example.png ) *Vista de una caja sólida con líneas ocultas*
+![](images/TechDraw_View_example.png ) 
+*Vista de una caja sólida con líneas ocultas*
 
 ## Utilización
 

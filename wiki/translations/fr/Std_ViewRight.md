@@ -14,7 +14,8 @@
 
 La **Std Vue de droite** place la caméra dans la [vue 3D](3D_view/fr.md) dans la direction de l\'axe des X négatifs.
 
-![](images/FreeCAD_views_front.svg ) *La flèche 3 pointe dans le sens de la vue de droite*
+![](images/FreeCAD_views_front.svg ) 
+*La flèche 3 pointe dans le sens de la vue de droite*
 
 ## Utilisation
 

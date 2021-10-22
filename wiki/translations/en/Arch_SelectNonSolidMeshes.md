@@ -18,4 +18,4 @@ This tool identifies and selects the non-solid (non-_ objects.
 2.  Press the **<img src="images/Arch_SelectNonManifold.svg" width=24px> [Select non solid](Arch_SelectNonSolidMeshes.md)** entry in **Arch → Utilities → Select non solid**.
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/en
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/en

@@ -10,6 +10,7 @@ Un oggetto _ nella [vista ad albero](tree_view/it.md) indipendentemente dal tipo
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Diagramma semplificato delle relazioni tra gli oggetti principali del programma. La classe `App::DocumentObjectGroup* ha un'estensione che le consente di raggruppare qualsiasi tipo di oggetto; il gruppo di per se stesso non ha molte proprietà.`
 
 ## Utilizzo

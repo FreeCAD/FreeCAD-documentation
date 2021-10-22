@@ -25,7 +25,8 @@
 
 </div>
 
-![](images/FEMMaterialFluidProperties.png ) *The FEM material task panel*
+![](images/FEMMaterialFluidProperties.png ) 
+*The FEM material task panel*
 
 ## Использование
 

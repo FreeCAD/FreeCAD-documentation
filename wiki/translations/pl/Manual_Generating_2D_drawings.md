@@ -106,4 +106,4 @@ Nasza strona może być teraz eksportowana do formatu SVG w celu dalszej pracy w
 _
 
 ---
-[documentation index](../README.md) > Manual:Generating 2D drawings/pl
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Generating 2D drawings/pl

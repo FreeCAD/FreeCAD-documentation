@@ -307,9 +307,12 @@ en d\'autres termes, le **centre de rotation** de la géométrie est à `Vector(
 C\'est le sens du mot \"maladroit\" que j\'ai utilisé pour définir la propriété `Placement`.
 
 
+
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

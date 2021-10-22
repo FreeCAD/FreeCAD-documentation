@@ -21,6 +21,7 @@ La commande **Std Vers la console Python** crée une variable dans la [console P
 >>> ### End command Std_SendToPythonConsole
 
 
+
 *Exemple de sortie : un bord de [Part Cube](Part_Box/fr.md) a été sélectionné*
 
 ## Utilisation

@@ -27,4 +27,4 @@ This tool identifies and selects the non-solid (non-_ objects.
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/pt-br
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/pt-br

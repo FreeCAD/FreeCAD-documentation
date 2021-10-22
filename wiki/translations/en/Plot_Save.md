@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Plot Save
    MenuLocation:Plot → Save plot
-   Workbenches:[Plot](Plot_Module.md)
+   Workbenches:[Plot](Plot_Workbench.md)
 ---
 
 # Plot Save/en
@@ -17,7 +17,8 @@ The standard plot module already provides a minimum tool to save plots <img alt=
 
 Select the plot tab that you want to save, and run this tool. Use the path selector button to show a file dialog where you can choose the file location and format.
 
-![Path selection button](images/Plot_Save_Path.png‎ ) *Path selection button*
+![Path selection button](images/Plot_Save_Path.png‎ ) 
+*Path selection button*
 
 ## Options
 

@@ -16,7 +16,8 @@ Montre ou masque l\'affichage du peigne de courbure d\'une courbe B-spline (voir
 
 Le peigne de courbure indique la courbure (valeur de la dérivée de second ordre) de la B-spline à chaque position. Plus la courbure est élevée à une position, plus le peigne est éloigné de la courbe. Pour les courbures positives (\"tourner vers la droite\"), le peigne se trouve de l\'autre côté de la courbe que pour les courbures négatives.
 
-![](images/sketcher_BSplineCurvatureShow.png ) *B-spline avec un point de courbure à sa position médiane - le peigne de courbure là est zéro.*
+![](images/sketcher_BSplineCurvatureShow.png ) 
+*B-spline avec un point de courbure à sa position médiane - le peigne de courbure là est zéro.*
 
 ## Utilisation
 

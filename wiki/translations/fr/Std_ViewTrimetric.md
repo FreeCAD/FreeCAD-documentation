@@ -13,7 +13,8 @@
 
 La commande **Std Vue trimétrique** réaligne la caméra dans la _ mais la commande fonctionne également si la vue est en [mode perspective](Std_PerspectiveCamera/fr.md).
 
-![](images/Std_ViewTrimetric_example.svg ) *L'[Axes du repère](Std_AxisCross/fr.md) et un cube en vue trimétrique*
+![](images/Std_ViewTrimetric_example.svg ) 
+*L'[Axes du repère](Std_AxisCross/fr.md) et un cube en vue trimétrique*
 
 ## Utilisation
 

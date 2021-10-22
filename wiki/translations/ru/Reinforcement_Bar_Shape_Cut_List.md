@@ -18,6 +18,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 <img alt="" src=images/Reinforcement_Bar_Shape_Cut_List_example.svg  style="width:800px;">
 
 
+
 *Rebar Shape Cut List of reinforcing bars*
 
 ## Применение
@@ -29,6 +30,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 3\. A dialog box will pop-out on the screen as shown below.
 
 ![](images/Reinforcement_Bar_Shape_Cut_List_Dialog.png )
+
 
 
 *Dialog Box for the Reinforcement Bar Shape Cut List tool*

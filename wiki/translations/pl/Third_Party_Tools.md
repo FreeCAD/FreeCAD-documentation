@@ -19,7 +19,7 @@ This is a great vector drawing program. It adheres to the SVG standard and is us
 
 A very good and stable tool to generate source documentation from the .h and .cpp files.
 
-#### The Gimp 
+#### Gimp
 
 Not much to say about the **GNU Image Manipulation Program**. It can manipulate .xpm files which is a very convenient way to handle Icons in QT programs. XPM is basically C-Code which can be compiled into a program. Gimp supports the free .png file format used in the wiki.
 
@@ -29,12 +29,12 @@ Get the GIMP here: [www.gimp.org](http://www.gimp.org/)
 
 This is a proprietary git GUI that is very helpful to learn how git works if you\'re interested in wanting to contribute to FreeCAD. Relevant pages to research:
 
--   [Gitkraken](Gitkraken.md)
--   [Github](Github.md)
+-   [Developing FreeCAD with GitKraken](Developing_FreeCAD_with_GitKraken.md)
+-   [Source code management](Source_code_management.md)
 
 #### OBS Studio 
 
-Free and open source software for video recording and live streaming. More details on official website : [obsproject.com](https://obsproject.com/)
+Free and open source software for video recording and live streaming. More details on official website: [obsproject.com](https://obsproject.com/)
 
 #### OpenCamLib
 
@@ -52,7 +52,7 @@ Download here: [staruml.io](http://staruml.io)
 
 Visual Studio Community is free for open source projects and small structures. Installation is modular. You can add support for a large number of languages including C++ and Python.
 
-It can be downloaded at [1](https://visualstudio.microsoft.com/fr/vs/community)
+It can be downloaded at [Visual Studio Community](https://visualstudio.microsoft.com/fr/vs/community).
 
 #### CamStudio
 

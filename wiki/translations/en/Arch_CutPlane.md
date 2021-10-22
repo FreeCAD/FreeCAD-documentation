@@ -18,6 +18,7 @@ The Cut Plane tool allows you to cut an Arch object according to a plane:
 <img alt="" src=images/Arch_CutPlane_example.jpg  style="width:640px;">
 
 
+
 *Left: Before applying the CutPlane tool. Middle: resulting wall after the cut is done. Right: yet another optional result*
 
 ## Usage
@@ -95,4 +96,4 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/en
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/en

@@ -17,6 +17,7 @@ Questa piccola macro è dedicata agli utenti di Windows 10. I font dentro explor
 ![](images/Macro_Fonts_Win10_PYMP_00.png )
 
 
+
 *Macro Fonts Win10 PYMP*
 
 
@@ -24,7 +25,8 @@ Questa piccola macro è dedicata agli utenti di Windows 10. I font dentro explor
 
 ## Utilizzo
 
-Lancia la macro cerca la tua font è applica ![Macro Fonts Win10 PYMP](images/Macro_Fonts_Win10_PYMP_01.png )  *Macro Fonts Win10 PYMP window *
+Lancia la macro cerca la tua font è applica ![Macro Fonts Win10 PYMP](images/Macro_Fonts_Win10_PYMP_01.png )  
+*Macro Fonts Win10 PYMP window *
 
 -   Finestra per il vostro testo
 

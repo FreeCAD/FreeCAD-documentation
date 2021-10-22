@@ -1,31 +1,20 @@
 # Compiling/es
-<div class="mw-translate-fuzzy">
+Cada sistema operativo tiene su propia página para compilar FreeCAD en la [Documentación de Ayuda en Línea](Online_Help_Toc/es.md).
 
-Cada sistema operativo tiene su propia página para compilar FreeCAD en la [Documentación en Línea de Ayuda](Online_Help_Toc/es.md).
+  --------------------------------------------------------- ----------------------------------------------------- ----------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------
+    <img alt="" src=images/Windows.png  style="width:" height="32px;">      <img alt="" src=images/Linux.png  style="width:" height="32px;">        <img alt="" src=images/Mac.png  style="width:" height="32px;">       [Compile en el contenedor Docker](Compile_on_Docker/es.md)\<! \--<img alt="" src=images/Docker_logo_FreeCAD.svg  style="width:" height="32px;">\--\>
+   [Compilar en Windows](Compile_on_Windows/es.md)   [Compilar en Linux](Compile_on_Linux/es.md)   [Compilar en MacOS](Compile_on_MacOS/es.md)                                                [Compilar en un contenedor Docker](Compile_on_Docker/es.md)
+  --------------------------------------------------------- ----------------------------------------------------- ----------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  ------------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------------ ----------------------------------------------------------------------------------------
-   ![ alt=\'Windows\' \| link= CompileOnWindows/es](images/Windows.png )   ![ alt=\'Linux\' \| link= CompileOnUnix/es](images/Linux.png )   ![ alt=\'Mac\' \| link= CompileOnMac/es](images/Mac.png )
-                              [Compile on Windows](CompileOnWindows/es.md)                                                  [ Compile on Linux/Unix](CompileOnUnix/es.md)                                            [ Compile on Mac](CompileOnMac/es.md)
-  ------------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------------ ----------------------------------------------------------------------------------------
+Para compilar en BSD, y otros sistemas Unix, puede seguir las instrucciones generales en [Compilar en Linux](Compile_on_Linux/es.md) pero utilizando las dependencias apropiadas en esos sistemas.
 
+También es posible compilar FreeCAD en Windows siguiendo las instrucciones en [Compilar en Windows](Compile_on_Windows/es.md).
 
-</div>
+Para compilar FreeCAD sin su interfaz gráfica de usuario utiliza la imagen [FreeCAD Docker CLI modo](FreeCAD_Docker_CLI_mode/es.md).
 
-To compile on BSD, and other Unix systems, you can follow the general instruction in [Compile on Linux](Compile_on_Linux.md) but using the appropriate dependencies in those systems.
+Para compilar la documentación de programación, véase [Documentación fuente](Source_documentation/es.md).
 
-
-<div class="mw-translate-fuzzy">
-
-También es posible compilar FreeCAD en Windows usando [Cygwin](CompileOnCygwin/es.md) or [MinGW](CompileOnMinGW/es.md).
-
-
-</div>
-
-To compile FreeCAD without its graphic user interface use the [FreeCAD Docker CLI mode](FreeCAD_Docker_CLI_mode.md) image.
-
-To compile the programming documentation, see [Source documentation](Source_documentation.md).
-
-To learn to use revision control system and contribute code see [Source code management](Source_code_management.md).
+Para aprender a utilizar el sistema de control de revisiones y contribuir con código, vea [Gestión del código fuente](Source_code_management/es.md).
 
 
 

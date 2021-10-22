@@ -7,7 +7,8 @@ Le manuel est un travail en cours. Certaines sections sont revues et mises à jo
 
 En raison de la nature évolutive du manuel, le document est également connu sous le nom de \"Sketcher lecture\".
 
-![](images/Sketcher_reference.png ) *Exemple de dessin dans le manuel de référence.*
+![](images/Sketcher_reference.png ) 
+*Exemple de dessin dans le manuel de référence.*
 
 ## Contenu
 

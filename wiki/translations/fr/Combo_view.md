@@ -22,6 +22,7 @@ L\'onglet **Tâches** affiche le [panneau des tâches](task_panel/fr.md), qui in
 <img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="600px;">
 
 
+
 *La vue combinée comporte deux onglets : l'onglet Modèle qui permet d'afficher la [vue arborescente](tree_view/fr.md) avec l'[éditeur de propriétés](property_editor/fr.md), et l'onglet Tâches qui contrôle l'affichage du [panneau de tâches](task_panel/fr.md).*
 
 ## Partie inférieure 
@@ -33,6 +34,7 @@ La partie inférieure de la vue combinée affiche l\'[éditeur de propriétés](
 -   L\'onglet **Données** affiche les propriétés paramétriques des objets, qui déterminent la définition des formes géométriques.
 
 <img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Tree_Data_properties.png  style="width:" height="600px;">
+
 
 
 *La partie inférieure de la vue combinée est l'éditeur de propriétés, qui affiche les propriétés Vue et Données.*

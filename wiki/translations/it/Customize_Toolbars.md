@@ -15,7 +15,7 @@ Questo tutorial spiega come creare un pulsante nella barra degli strumenti per a
 
 **1.** Trovare il menu Personalizza
 
--   Selezionare {{MenuCommand/it|Menu principale → Strumenti → Personalizza}}
+-   Selezionare **Menu principale → Strumenti → Personalizza**
 
 <img alt="Customize" src=images/CustomizeToolBar_01.png  style="width:640px;"> 
 

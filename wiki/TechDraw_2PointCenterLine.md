@@ -16,6 +16,7 @@ The 2PointCenterLine tool adds a centerline between two Vertices (Points).
  <img alt="" src=images/CL2PointsSample.png  style="width:200px;"> 
 
 
+
 *Centerline between 2 Points*
 
 ## Usage

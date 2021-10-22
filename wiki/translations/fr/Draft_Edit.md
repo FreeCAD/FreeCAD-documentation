@@ -14,7 +14,8 @@
 
 La commande <img alt="" src=images/Draft_Edit.svg  style="width:24px;"> **Draft Éditer** place les objets sélectionnés en mode Draft Édition. Dans ce mode, les propriétés des objets peuvent être modifiées graphiquement. En général, les nœuds peuvent être déplacés et, dans certains cas, les options du menu contextuel peuvent être sélectionnées. La commande peut gérer la plupart des objets Draft, mais aussi certains autres objets. Voir [Objets pris en charge](#Objets_pris_en_charge.md). Les objets Draft supportés peuvent aussi être mis en mode Draft Édition avec la commande [Std Mode édition](Std_Edit/fr.md).
 
-![](images/Draft_Edit_example.png ) *4 objets en mode Draft Édition : une Draft Polyligne (rouge), un Draft Arc (noir), une Draft B-spline (vert) et une Draft Courbe de Bézier (magenta).*
+![](images/Draft_Edit_example.png ) 
+*4 objets en mode Draft Édition : une Draft Polyligne (rouge), un Draft Arc (noir), une Draft B-spline (vert) et une Draft Courbe de Bézier (magenta).*
 
 ## Utilisation
 
@@ -43,8 +44,7 @@ Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Co
     -   Le [Panneau des tâches du nœud](#Panneau_des_t.C3.A2ches_des_n.C5.93uds.md) s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
     -   Choisissez un point dans la [Vue 3D](3D_view/fr.md) ou rentrez les coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez un point**.
     -   Le résultat dépend de l\'objet et du nœud sélectionné.
-
-    1.  Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande.
+7.  Appuyez sur **Echap** ou sur le bouton **Fermer** (le bouton en haut du panneau des tâches, sans l\'image) pour terminer la commande.
 
 ## Options
 
@@ -52,7 +52,7 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 
 ### Panneau principal des tâches 
 
--   Appuyez sur **O** ou sur le bouton **<img src="images/Draft_CloseLine.svg" width=16px> Fermer** pour terminer la commande. Si une seule [Draft Polyligne](Draft_Wire.md) a été sélectionnée, la ligne est fermée.
+-   Appuyez sur **O** ou sur le bouton **<img src="images/Draft_CloseLine.svg" width=16px> Fermer** pour terminer la commande. Si une seule [Draft Polyligne](Draft_Wire/fr.md), [Draft B-spline](Draft_BSpline/fr.md), [Draft Courbe de Bézier cubique](Draft_CubicBezCurve/fr.md) or [Draft Courbe de Bézier](Draft_BezCurve/fr.md) a été sélectionnée, l\'objet est fermé.
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande.
 
 ### Panneau des tâches des nœuds 

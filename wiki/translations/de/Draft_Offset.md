@@ -28,6 +28,7 @@ Das Versatzwerkzeug verschiebt das ausgewählte Objekt um einen bestimmten Absta
 <div class="mw-translate-fuzzy">
 
 
+
 *Versetzen eines Drahtes um einen bestimmten Abstand von einer seiner Kanten*
 
 

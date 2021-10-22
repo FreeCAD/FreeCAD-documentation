@@ -130,4 +130,4 @@ Puteți, de asemenea, să dați aliasuri constrângerilor dimensionale (orizonta
 _
 
 ---
-[documentation index](../README.md) > Manual:Using spreadsheets/ro
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Using spreadsheets/ro

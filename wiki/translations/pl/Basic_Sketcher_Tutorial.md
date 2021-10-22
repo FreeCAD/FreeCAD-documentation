@@ -24,7 +24,8 @@ Przećwiczymy:
 
 Aby uzyskać bardziej szczegółowy opis szkicownika, przeczytaj stronę [Szkicownik: odniesienie](Sketcher_reference/pl.md).
 
-![](images/00_Sk01_Sketcher_fully_constrained_final.png ) *Wynik końcowy szkicu, z geometrią w pełni ograniczoną w całości, łącznie z geometrią konstrukcji pomocniczej.*
+![](images/00_Sk01_Sketcher_fully_constrained_final.png ) 
+*Wynik końcowy szkicu, z geometrią w pełni ograniczoną w całości, łącznie z geometrią konstrukcji pomocniczej.*
 
 ## Sposób postępowania 
 
@@ -54,6 +55,7 @@ Jesteśmy obecnie w trybie edycji szkicu, w którym możemy korzystać z większ
 w [panelu zadań](Task_panel/pl.md) widoku połączonego należy rozwinąć sekcję **Edycja kontrolek** i upewnić się, że opcja **Automatyczne wiązania** jest włączona. Tutaj mogą zostać zmienione również inne opcje, w tym gęstość widocznej siatki, oraz to czy chcemy aktywować przyciąganie do siatki. W tym poradniku nie będziemy aktywować przyciągania do siatki i ukryjemy ją. W innych sekcjach [panelu zadań](Task_panel/pl.md) możesz również zobaczyć, które elementy geometryczne i wiązania zostały zdefiniowane.
 
 <img alt="" src=images/01_Sk01_Sketcher_Task_panel.png  style="width:" height="400px;">
+
 
 
 *Górna część [panelu zadań](Task_panel/pl.md) szkicownika.*
@@ -86,6 +88,7 @@ Spójrz na sekcje **Wiązania** i **Elementy**, aby zobaczyć nowo utworzone wi�
 <img alt="" src=images/02_Sk01_Sketcher_construction.png  style="width:" height="400px;">
 
 
+
 *Linie konstrukcyjne tworzące kształt gwiazdy ze środkiem w miejscu początku układu współrzędnych.*
 
 ## Geometria detalu 
@@ -113,6 +116,7 @@ Jeśli wcześniej nie opuściłeś tego trybu, upewnij się, że nie jesteś w t
 <img alt="" src=images/03_Sk01_Sketcher_outer_arcs.png  style="width:" height="400px;">
 
 
+
 *Łuki dodane w punktach końcowych linii konstrukcyjnych. Dodatkowo okrąg centralny.*
 
 ### Łuki wewnętrzne 
@@ -127,6 +131,7 @@ Jeśli wcześniej nie opuściłeś tego trybu, upewnij się, że nie jesteś w t
 łuki wewnętrzne powinny mieć krzywiznę skierowaną do wewnątrz, a ich wklęsłość powinna być skierowana od tego samego punktu początku szkicu.
 
 <img alt="" src=images/04_Sk01_Sketcher_inner_arcs.png  style="width:" height="400px;">
+
 
 
 *Łuki dodawane pomiędzy pierwszym zestawem umieszczonych łuków zewnętrznych.*
@@ -186,6 +191,7 @@ jeśli chcesz tymczasowo wyłączyć wiązanie, możesz zaznaczyć je i nacisną
 <img alt="" src=images/05c_Sk01_Sketcher_equality_constraints_I-arcs.png  style="width:" height="400px;">
 
 
+
 *Szkic z wiązaniami równości stosowanymi do linii konstrukcyjnych oraz do dwóch zestawów łuków.*
 
 ### Zbieżność
@@ -205,6 +211,7 @@ bardzo często zastosowanie wiązania zbieżności spowoduje przesunięcie geome
 Na tym etapie stworzyliśmy zamknięty profil, ponieważ końce wszystkich łuków zostały związane razem. Teraz możemy wprowadzić wiązania punktów odniesienia, aby ustalić kształt szkicu. Podczas gdy wymiary linii i łuków pozostają niezmienione, możemy przeciągać punkty szkicu i obserwować, jak zmienia się cały szkic.
 
 <img alt="" src=images/06_Sk01_Sketcher_tangency_constraints.png  style="width:" height="400px;">
+
 
 
 *Szkic z wiązaniami zbieżności nałożonymi na łuki, które powodują zamknięcie kształtu.*
@@ -233,6 +240,7 @@ Wiązania te definiują liczbowe odległości między dwoma punktami, oraz kąty
 <img alt="" src=images/07a_Sk01_Sketcher_length_constraint.png  style="width:" height="400px;"> <img alt="" src=images/07b_Sk01_Sketcher_angle_constraint.png  style="width:" height="400px;">
 
 
+
 *Szkic z wiązaniem długości nakładanym na jedną pionową linię konstrukcyjną ''(po lewej)'', oraz wiązaniem kątowym na trzy pary linii konstrukcyjnych ''(po prawej)''.*
 
 ### Promień
@@ -249,6 +257,7 @@ Wiązania te definiują liczbowe odległości między dwoma punktami, oraz kąty
 <img alt="" src=images/08a_Sk01_Sketcher_radius_1_constraint.png  style="width:" height="400px;"> <img alt="" src=images/08b_Sk01_Sketcher_radius_2_constraint.png  style="width:" height="400px;">
 
 
+
 *Szkic z wiązaniami promienia nałożonymi na łuki zewnętrzne ''(po lewej)'' i wewnętrzne ''(po prawej)''.*
 
 
@@ -257,6 +266,7 @@ Wiązania te definiują liczbowe odległości między dwoma punktami, oraz kąty
 Powinieneś zakończyć swoją pracę szkicem całkowicie związanym. Można to potwierdzić zauważając zmianę koloru geometrii głównej oraz komunikatem, który jest pokazany w polu [Widoku połączonego](Task_panel/pl.md).
 
 <img alt="" src=images/09_Sk01_Sketcher_fully_constrained.png  style="width:" height="400px;">
+
 
 
 *Szkic z zastosowanymi wszystkimi wiązaniami geometrycznymi i dotyczącymi układu odniesienia.*
@@ -271,6 +281,7 @@ Powinieneś zakończyć swoją pracę szkicem całkowicie związanym. Można to 
 :   12.4. Wybierz szkic, a następnie naciśnij **<img src=images/PartDesign_Pad.svg style="width:16px"> [Wyciągnij wybrany szkic](PartDesign_Pad/pl.md)**, wybierz domyślne opcje i naciśnij przycisk **OK**, aby wykonać wyciągnięcie bryły.
 
 <img alt="" src=images/09b_Sk01_Sketcher_fully_constrained_clean.png  style="width:" height="400px;"> <img alt="" src=images/10_Sk01_Sketcher_solid_extrusion.png  style="width:" height="400px;">
+
 
 
 *Po lewej: szkic w pełni związany, z zaznaczonymi tylko najważniejszymi z wiązań. Po prawej: wyciągnięcie wykonane z [Projekt Części: Wyciągnij wybrany szkic](PartDesign_Pad/pl.md).*

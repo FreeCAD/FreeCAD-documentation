@@ -25,10 +25,12 @@ Die Einschränkung \'Horizontal\' sorgt dafür, dass eine oder mehrere gewählte
 <img alt="" src=images/HorizontalConstraint3.png  style="width:500px;"> 
 *Wende die horizontale Beschränkung durch anklicken auf **<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> [Beschränkung horizontal](Sketcher_ConstrainHorizontal/de.md)* in der Skizzierer Beschränkungs Werkzeugleiste oder durch Auswahl des Menüpunkts Horizontal beschränken im Untermenü Skizzierer Beschränkungen des Skizzierer Menüpunkts im Skizzierer Arbeitsbereich (oder des Part Design Menüpunkts des Part Design Arbeitsbereichs). Die ausgewählte Linie wird so beschränkt, dass sie parallel zur horizontalen Achse der Skizze verläuft.**
 
-<img alt="" src=images/HorizontalConstraint4.png  style="width:500px;"> *Mehrere Linien können ausgewählt werden
+<img alt="" src=images/HorizontalConstraint4.png  style="width:500px;"> 
+*Mehrere Linien können ausgewählt werden
 *
 
-<img alt="" src=images/HorizontalConstraint5.png  style="width:500px;"> *und dann die Beschränkung wie oben beschrieben anwenden, sie werden so eingeschränkt, dass sie parallel zur horizontalen Achse der Skizze liegen.
+<img alt="" src=images/HorizontalConstraint5.png  style="width:500px;"> 
+*und dann die Beschränkung wie oben beschrieben anwenden, sie werden so eingeschränkt, dass sie parallel zur horizontalen Achse der Skizze liegen.
 *
 
 ## Skripten

@@ -26,24 +26,25 @@ The macro also offers some other tools for wire editing. These are mainly in dea
 
 The Select Objects button is used to select subobjects that share the same boundbox limits on one of the axes. For example, if you wish to select all the faces at the same Z coordinate on the XY plane select one of the faces, click the Select Objects button, select Z in the dialog, and wait while all the faces in the object that match this criteria are added to the FreeCAD selection mechanism. This also works for edges and vertices. This feature was added to make it easier in Path workbench to select all the faces for a 3d pocket, but can be useful for other purposes.
 
-Full documentation can be found [FCBmpImport](https://github.com/mwganson/fcbmpimport) on github.
+Full documentation can be found on github: [FCBmpImport](https://github.com/mwganson/fcbmpimport).
 
  <img alt="" src=images/FCBmpImportScreenshot.png  style="width:600px;">  
 *FCBmpImport screenshot‎*
 
-### Legend
+## Legend
+
+ 
+
+ToolBar Icon  ![](images/FCBmpImportLogo.svg ) 
+
+## Script
+
+ **Macro FCBmpImport.FCMacro**
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mwganson/ea7aa4dcb79d7492caa24e8970967174/raw/1fe247b5b93e5084866a69754854d9caedca1f09/FCBmpImport.FCMacro}}
+{{CodeDownload|https://gist.github.com/mwganson/ea7aa4dcb79d7492caa24e8970967174|FCBmpImport.FCMacro}}
 
-ToolBar Icon  ![](images/FCBmpImportLogo.svg )
-
-### Script
-
-**Macro FCBmpImport.FCMacro**
-
-
-{{CodeDownload|https://gist.github.com/mwganson/ea7aa4dcb79d7492caa24e8970967174}}
+_
 
 ---
-[documentation index](../README.md) > Macro FCBmpImport
+[documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Macro FCBmpImport

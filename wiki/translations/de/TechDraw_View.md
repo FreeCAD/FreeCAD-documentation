@@ -13,7 +13,8 @@
 
 Das Werkzeug Ansicht fügt eine Darstellung eines oder mehrerer Objekte einer Zeichnungsseite hinzu. Dies ist der Grundbaustein des TechDraw-Arbeitsbereichs. Die meisten anderen Ansichten sind in irgendeiner Weise von NeueAnsicht abgeleitet.
 
-![](images/TechDraw_View_example.png ) *Ansicht eines massiven Gehäuses mit unsichtbaren Linien*
+![](images/TechDraw_View_example.png ) 
+*Ansicht eines massiven Gehäuses mit unsichtbaren Linien*
 
 ## Anwendung
 

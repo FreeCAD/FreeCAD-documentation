@@ -31,6 +31,7 @@ Die Formelemente können in verschiedene Kategorien eingeteilt werden:
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die `PartDesign::Formelement* Objekte werden zum Aufbau parametrischer 3D Körper verwendet und sind somit vom Basisobjekt {{incode|Part::Formelement` abgeleitet.}}
 
 ## Skripten

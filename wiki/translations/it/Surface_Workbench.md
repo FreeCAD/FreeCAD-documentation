@@ -33,6 +33,7 @@ L\'obiettivo dell\'ambiente Superficie è quello di creare delle facce con delle
 <img alt="" src=images/Toy_Duck.png  style="width:350px;">
 
 
+
 *Superficie creata con schizzi posizionati in piani di riferimento con gli strumenti di [PartDesign](PartDesign_Workbench/it.md)*
 
 Surface si integra con gli altri ambienti di FreeCAD. L\'esempio sopra è stato creato da <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> _ in <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench/it.md). Il modello può essere completamente parametrico, se tutti i piani di riferimento e gli schizzi sono definiti di conseguenza. Nella maggior parte dei casi è sufficiente disegnare uno schizzo chiuso per definire il bordo per una faccia, poi usare le opzioni per modificare ulteriormente la sua forma.

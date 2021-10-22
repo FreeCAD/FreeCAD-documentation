@@ -5,52 +5,56 @@
    MenuLocation:SheetMetal → Make Relief
    Workbenches:[SheetMetal](SheetMetal_Workbench/fr.md)
    Shortcut:**S** **R**
+   SeeAlso:[SheetMetal Découpe d'angle](SheetMetal_AddJunction/fr.md), [SheetMetal Transformation en pli](SheetMetal_AddBend/fr.md)
 ---
 
 # SheetMetal AddRelief/fr
 
 ## Description
 
-La commande <img alt="" src=images/SheetMetal_Relief.svg  style="width:24px;"> **SheetMetal AddRelief**\...
+La commande <img alt="" src=images/SheetMetal_Relief.svg  style="width:16px;"> [SheetMetal Grugeage carré](SheetMetal_AddRelief/fr.md) crée des dépouilles d\'angle, des découpes, aux points de rencontre de trois sections (base/parois/bords) d\'un objet en tôle. Sans ces grugeages, l\'objet ne pourra pas être déplié.
 
-<img alt="" src=images/PostRelief.png  style="width:320px;"> 
-*Créer un espace pour le pliage de la tôle.*
+Cette commande est la première des trois étapes permettant de convertir un objet coque réalisé avec l\'[atelier Part Workbench](Part_Workbench/fr.md) ou l\'[atelier PartDesign](PartDesign_Workbench/fr.md) en un objet tôle dépliable :
+
+1.  [SheetMetal Grugeage carré](SheetMetal_AddRelief/fr.md).
+2.  [SheetMetal Découpe d\'angle](SheetMetal_AddJunction/fr.md).
+3.  [SheetMetal Transformation en pli](SheetMetal_AddBend/fr.md).
+
+<img alt="" src=images/SheetMetal_ConvertShellObject-01.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-02.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-03.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-04.png  style="width:100px;"> 
+*Créer un grugeage - couper les coins*
 
 ## Utilisation
 
-Pour ajouter un dégagement au coin du pli :
+1.  Sélectionnez un ou plusieurs sommets d\'angle.
+2.  Activez la commande <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **SheetMetal Grugeage carré**\' en utilisant l\'une des méthodes suivantes :
+    -   Le bouton **<img src="images/SheetMetal_AddRelief.svg" width=16px> [SheetMetal AddRelief](SheetMetal_AddRelief/fr.md)**.
+    -   L\'option de menu **SheetMetal → <img src="images/SheetMetal_AddRelief.svg" width=16px> Make Relief**.
+    -   Le raccourci clavier : **S** puis **R**.
 
-1.  Commencez avec une plaque de base ou une feuille, sélectionnez un sommet d\'angle pour appliquer un dégagement
-2.  Cliquez sur l\'outil <img alt="" src=images/SheetMetal_Relief.svg  style="width:24px;"> **Relief** pour ajouter un dégagement coupé au coin.
+<img alt="" src=images/SheetMetal_ConvertShellObject-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-06.png  style="width:200px;">
 
+## Remarques
 
-**Remarque**
+Les commandes <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **_** et <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[SheetMetal Transformation en pli](SheetMetal_AddBend/fr.md)** fonctionnent mieux avec des cuboïdes creux, c\'est-à-dire des objets en forme de coque avec une épaisseur constante et seulement des angles de 90° entre les faces.
 
-: L\'atelier ne possède pas d\'outil pour créer une plaque de base, vous devez donc démarrer votre modèle avec l\'une des méthodes suivantes:
+Les objets coques peuvent être créés avec des commandes de l\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _.
 
-:\* Méthode 1: <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Cube](Part_Box/fr.md)
+Pour créer un cuboïde creux avec l\'[atelier Part](Part_Workbench/fr.md) :
 
-:\* Méthode 2: Un solide extrudé fait avec une <img alt="" src=images/Part_Extrude.svg  style="width:24px;"> [Part Extrusion](Part_Extrude/fr.md) à partir d\'un:
+1.  Créez un solide en utilisant soit :
+    -   <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Part Cube](Part_Box/fr.md).
+    -   <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> [Part Extrusion](Part_Extrude/fr.md) de :
+        -   Un <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [Draft Rectangle](Draft_Rectangle/fr.md).
+        -   Une <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Draft Polyligne](Draft_Wire/fr.md).
+        -   Une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Esquisse](Sketcher_NewSketch/fr.md).
+2.  Utilisez <img alt="" src=images/Part_Thickness.svg  style="width:16px;"> [Part Évidement](Part_Thickness/fr.md) pour créer un objet coque à partir du solide (typiquement avec la valeur d\'épaisseur de la tôle).
 
-::\* <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Draft Rectangle](Draft_Rectangle/fr.md) ou d\'un
+Pour créer un cuboïde creux avec l\'[atelier PartDesign](PartDesign_Workbench/fr.md) :
 
-::\* <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Draft Fil](Draft_Wire/fr.md) ou d\'une
-
-::\* <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)
-
-::\* Utilisez <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Part Epaisseur](Part_Thickness/fr.md) pour créer une coque (**Typiquement avec la valeur d'épaisseur de la tôle.**)
-
-:\* Méthode 3: <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Corps](PartDesign_Body/fr.md) contenant soit un
-
-::\* <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:24px;"> [PartDesign Cube additif](PartDesign_AdditiveBox/fr.md) ou une
-
-::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> _.
-
-::\* Utilisez <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> [PartDesign Epaisseur](PartDesign_Thickness/fr.md) pour créer une coque (**Typiquement avec la valeur d'épaisseur de la tôle.**)
-
-:   
-
-    :   Si vous commencez avec un <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> PartDesign Corps, vous pouvez mélanger des fonctions de tôlerie avec des fonctions PartDesign telles que <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> _.
+1.  Créez un solide en utilisant soit :
+    -   Un <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> [Cube additif](PartDesign_AdditiveBox/fr.md).
+    -   Une <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> _.
+2.  Utilisez <img alt="" src=images/Part_Thickness.svg  style="width:16px;"> [Part Évidement](Part_Thickness/fr.md) pour créer un objet coque à partir du solide (typiquement avec la valeur d\'épaisseur de la tôle).
 
 ## Propriétés
 

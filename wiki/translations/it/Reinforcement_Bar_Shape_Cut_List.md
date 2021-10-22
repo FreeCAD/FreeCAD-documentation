@@ -22,6 +22,7 @@ Questo comando fa parte dell\'ambiente _, tramite il menu **Strumenti → Addon 
 <img alt="" src=images/Reinforcement_Bar_Shape_Cut_List_example.svg  style="width:800px;">
 
 
+
 *Distinta di sagomatura dei ferri*
 
 ## Usage
@@ -33,6 +34,7 @@ Questo comando fa parte dell\'ambiente _, tramite il menu **Strumenti → Addon 
 3\. A dialog box will pop-out on the screen as shown below.
 
 ![](images/Reinforcement_Bar_Shape_Cut_List_Dialog.png )
+
 
 
 *Dialog Box for the Reinforcement Bar Shape Cut List tool*

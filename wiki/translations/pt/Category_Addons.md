@@ -3,7 +3,7 @@ This page lists external addon workbenches that have a page in this wiki. Addons
 
 ### Contents:
 
-[External workbenches/pt](External_workbenches/pt.md) , [Plot Module/pt](Plot_Module/pt.md) , [Ship Workbench/pt](Ship_Workbench/pt.md) , ,
+[External workbenches/pt](External_workbenches/pt.md) , [Plot Workbench/pt](Plot_Workbench/pt.md) , [Ship Workbench/pt](Ship_Workbench/pt.md) , ,
 
 _ _ _
 

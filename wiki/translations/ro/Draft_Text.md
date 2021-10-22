@@ -78,6 +78,7 @@ Apăsând pe **CTRL**, [snap](Draft_Snap/ro.md) punctul dvs. va fi ancorat la lo
 
 ## Notes
 
+-   A Draft Text can be edited by double-clicking it in the [Tree view](Tree_view.md). <small>(v0.20)</small> 
 -   Draft Texts created with [FreeCAD version 0.18](Release_notes_0.18.md) are not backward compatible.
 
 

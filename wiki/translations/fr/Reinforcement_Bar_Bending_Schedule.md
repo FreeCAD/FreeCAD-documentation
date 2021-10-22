@@ -19,6 +19,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 <img alt="" src=images/Reinforcement_Bar_Bending_Schedule_example.svg  style="width:1300px;">
 
 
+
 *Tableau des armatures*
 
 ## Utilisation
@@ -30,6 +31,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 3\. Une boîte de dialogue apparaîtra à l\'écran, comme indiqué ci-dessous.
 
 ![](images/Reinforcement_Bar_Bending_Schedule_Dialog.png )
+
 
 
 *Boîte de dialogue de l'outil Reinforcement Bar Bending Schedule*

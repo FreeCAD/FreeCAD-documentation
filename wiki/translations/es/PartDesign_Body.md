@@ -22,7 +22,8 @@ The Body provides an **Origin** object which includes local X, Y, and Z axes, an
 
 Do not confuse the <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> _. The first one is a specific object used in the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md), intended to model a [single contiguous solid](PartDesign_Body#Single_contiguous_solid.md) by means of [PartDesign Features](PartDesign_Feature.md). The [Std Part](Std_Part.md) is a grouping object intended to create [assemblies](assembly.md); it is not used for modelling, just to arrange different objects in space. Multiple bodies, and other [Std Parts](Std_Part.md), can be placed inside a single [Std Part](Std_Part.md) to create a complex assembly.
 
-!_.*
+![](images/PartDesign_Body_tree.png ) ![](images/PartDesign_Body_example.png ) 
+*Left: the tree view showing the features that sequentially produce the final shape of the object. Right: the final object visible in the [3D view](3D_view.md).*
 
 ## Usage
 
@@ -105,7 +106,8 @@ A PartDesign Body will perform an automatic [fusion](Part_Fuse.md) (union) of th
 <img alt="" src=images/PartDesign_Body_two_intersection.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_two_fusion.png  style="width:" height="200px;"> 
 *Left: two individual solids that intersect each other. Right: a single PartDesign Body with two [additive features](PartDesign_Feature.md); they are automatically fused together, so instead of intersecting, they form a single contiguous solid.*
 
-!_ should always contact or intersect the previous feature so that it is fused to it, and becomes a single contiguous solid.*
+![](images/PartDesign_Body_non-contiguous.png ) 
+*Left: two disconnected solids; this isn't a valid PartDesign Body. Right: two touching solids; this results in a valid PartDesign Body. The newer [feature](PartDesign_Feature.md) should always contact or intersect the previous feature so that it is fused to it, and becomes a single contiguous solid.*
 
 
 **Note:**
@@ -126,6 +128,7 @@ To activate or de-activate a Body:
 Activating a Body automatically switches to the [PartDesign Workbench](PartDesign_Workbench.md). Only a single Body can be active at a time.
 
 ![](images/PartDesign_Body_active.png )
+
 
 
 *Document with two PartDesign Bodies, of which the second one is active.*
@@ -154,13 +157,15 @@ all elements inside the Body are referenced to the Body\'s Origin which means th
 <img alt="" src=images/PartDesign_Body_Origin_tree.png ) ![](images/PartDesign_Body_Origin_view.png  style="width:" height="400px;">
 
 
+
 *Left: PartDesign Body Origin in the _.*
 
 ### Base Feature 
 
 The Base Feature is the first [PartDesign Feature](PartDesign_Feature.md) in the Body when the Body is based on another solid shape. This solid can be created by any workbench, or imported from an external file, for example, a STEP file.
 
-![](images/PartDesign_Body_BaseFeature_tree.png ) *PartDesign Bodies, each of them with a single Base Feature, which are taken from previously created solids.*
+![](images/PartDesign_Body_BaseFeature_tree.png ) 
+*PartDesign Bodies, each of them with a single Base Feature, which are taken from previously created solids.*
 
 To create the Base Feature:
 
@@ -192,6 +197,7 @@ The Base Feature is entirely optional; it is only present when including an obje
 ![](images/PartDesign_Body_BaseFeature_Tip.svg )
 
 
+
 *Left: PartDesign Body with a Base Feature that is taken from an external solid object, and many subsequent [PartDesign Features](PartDesign_Feature.md) on top. Right: Body which doesn't have an explicit Base Feature.*
 
 ### Tip
@@ -199,6 +205,7 @@ The Base Feature is entirely optional; it is only present when including an obje
 The Tip is the <img src=images/Part_SimpleCopy.svg style="width:PartDesign Feature](PartDesign_Feature.md) that is exposed outside the Body; that is, if another tool from any workbench (for example, **[16px"> <img src=images/Part_Cut.svg style="width:Part SimpleCopy](Part_SimpleCopy.md)** or **[16px"> [Part Cut](Part_Cut.md)**) needs to use the shape of the Body, it will use the shape of the Tip. Said in another way, the Tip is the final representation of the Body as if the parametric history didn\'t exist.
 
 ![](images/PartDesign_Body_Tip_final.svg )
+
 
 
 *Left: PartDesign Body with full parametric history including intermediate features. Right: the Tip is the final shape that can be exported from the Body, while omitting the model's history.*
@@ -209,7 +216,8 @@ Changing the Tip in effect rolls back its history, making it possible to add fea
 
 In the [tree view](tree_view.md), the Tip of the Body is recognized by the [PartDesign Feature](PartDesign_Feature.md) that has an icon overlay consisting of a white arrow inside a green circle.
 
-![](images/PartDesign_Body_Tip_tree.png ) *Two PartDesign Bodies, each of them with [PartDesign Features](PartDesign_Feature.md). The Tip is the last feature in them, and is marked with an overlay symbol.*
+![](images/PartDesign_Body_Tip_tree.png ) 
+*Two PartDesign Bodies, each of them with [PartDesign Features](PartDesign_Feature.md). The Tip is the last feature in them, and is marked with an overlay symbol.*
 
 ### Interaction with other workbenches 
 
@@ -222,6 +230,7 @@ Once the sub-elements have been used with other workbenches, **Display Mode Body
 ![](images/PartDesign_Body_Tip_Display_mode.svg )
 
 
+
 *Left: when "Display Mode Body" is set to `Through* it is possible to select and perform operations with the individual [PartDesign Features](PartDesign_Feature.md); in general, this is not recommended. Right: when "Display Mode Body" is set to {{incode|Tip` all selections and operations done on the Body will be done on the Tip, making sure only the final shape of the Body is exposed.}}
 
 ### Visibility management 
@@ -230,7 +239,8 @@ The Body\'s visibility supersedes the visibility of any object it contains. If t
 
 Multiple [Sketches](Sketch.md) may be visible at one time, but only one [PartDesign Feature](PartDesign_Feature.md) (solid result) can be visible at a time. Selecting a hidden feature and pressing the **Space** bar in the keyboard will make it visible, and automatically hide the previously visible feature.
 
-!_ may be visible simultaneously, but only one solid [PartDesign Feature](PartDesign_Feature.md) may be visible at one time, whether it is the Tip or not.*
+![](images/PartDesign_Body_Visibility.png ) 
+*PartDesign Body: multiple [Sketches](Sketch.md) may be visible simultaneously, but only one solid [PartDesign Feature](PartDesign_Feature.md) may be visible at one time, whether it is the Tip or not.*
 
 ### Attachment
 
@@ -240,13 +250,15 @@ Multiple [Sketches](Sketch.md) may be visible at one time, but only one [PartDes
 
 A [PartDesign Feature](PartDesign_Feature.md) that is not attached will be shown with a red overlay symbol next to their icon in the [tree view](tree_view.md).
 
-!_ that are not attached to a plane or coordinate system will be shown with an overlay symbol next to their icon in the [tree view](tree_view.md).*
+![](images/PartDesign_Body_Feature_attachment.png ) 
+*PartDesign Body: [PartDesign Features](PartDesign_Feature.md) that are not attached to a plane or coordinate system will be shown with an overlay symbol next to their icon in the [tree view](tree_view.md).*
 
 ### Inheritance
 
 A _ (`Part::Feature` class) through the intermediate `Part::BodyBase` class, and is augmented with an Origin extension.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Simplified diagram of the relationships between the core objects in the program. The `PartDesign::Body* object is intended to build parametric 3D solids, and thus is derived from the basic {{incode|Part::Feature` object, and has an Origin to control the placement of the features used inside of it.}}

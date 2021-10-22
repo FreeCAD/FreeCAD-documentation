@@ -33,4 +33,4 @@ The clone component will simply have its **CloneOf** property set to the selecte
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/pt-br
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/pt-br

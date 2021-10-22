@@ -10,6 +10,7 @@ In FreeCAD, questo metodo è per lo più utilizzato con l\'ambiente <img alt="" 
 <img alt="" src=images/Part_Constructive_Solid_Geometry_workflow.svg  style="width:800px;">
 
 
+
 *Flusso di lavoro della geometria solida costruttiva (CSG); sulle primitive solide può essere fatto qualsiasi numero di operazioni per creare altri oggetti solidi e quindi fonderli o tagliarli fino a produrre la forma finale.*
 
 In alternativa <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md) utilizza un approccio più moderno rispetto al semplice CSG; questo metodo è chiamato [Editazione delle funzioni](feature_editing/it.md), che significa creare un solido di base e quindi aggiungere trasformazioni parametriche sequenziali per ottenere un corpo finale.
@@ -22,6 +23,7 @@ Anche un [Corpo](PartDesign_Body/it.md) creato con l\'ambiente [PartDesign](Part
 ## Esempio
 
 <img alt="" src=images/Part_CGS_workflow_example.svg  style="width:600px;">
+
 
 
 *Esempio di flusso di lavoro di geometria solida costruttiva (CSG): due parti primitive vengono fuse (union); viene calcolata l'intersezione di altre due parti primitive (common); infine si ricava la differenza (cut) tra le due forme precedenti.*

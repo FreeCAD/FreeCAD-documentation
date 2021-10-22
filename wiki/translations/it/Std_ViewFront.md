@@ -14,7 +14,8 @@
 
 Il comando **Vista frontale** orienta la camera della [Vista 3D](3D_view/it.md) nella direzione dell\'asse Y positivo.
 
-![](images/FreeCAD_views_front.svg ) *La freccia 1 punta nella direzione della vista frontale.*
+![](images/FreeCAD_views_front.svg ) 
+*La freccia 1 punta nella direzione della vista frontale.*
 
 ## Utilizzo
 

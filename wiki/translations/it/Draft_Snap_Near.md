@@ -30,6 +30,7 @@ Questo metodo si aggancia al punto o al bordo più vicino sull\'oggetto più vic
 <div class="mw-translate-fuzzy">
 
 
+
 *Aggancio del secondo punto di una linea sul bordo di un rettangolo*
 
 

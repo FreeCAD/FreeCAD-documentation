@@ -23,7 +23,8 @@ Das Anmerkungswerkzeug fügt einen Textblock zu einem Zeichnungsblatt hinzu.
 3.  Ein Textblock mit *Standardtext* wird auf der Seite erscheinen. Verwende den Eigenschaftseditor, um den Text zu ändern. Ziehe die Anmerkung an die gewünschte Position.
 4.  Möglicherweise musst du auf **<img src="images/Std_Refresh.svg" width=16px> [Aktualisieren](Std_Refresh/de.md)** und/oder **<img src="images/TechDraw_RedrawPage.svg" width=16px> [Seite neu zeichnen](TechDraw_RedrawPage/de.md)**, damit sich dein Text ändert.
 
-![](images/UpdateAnnotation.png ) *Ändern der Anmerkung über den Eigenschaftseditor*
+![](images/UpdateAnnotation.png ) 
+*Ändern der Anmerkung über den Eigenschaftseditor*
 
 
 **Hinweis:**

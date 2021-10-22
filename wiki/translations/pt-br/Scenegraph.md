@@ -13,7 +13,8 @@ One of the big jobs FreeCAD does for you is translating OpenCASCADE geometry inf
 
 OpenInventor describes a 3D scene in the form of a [scenegraph](https://en.wikipedia.org/wiki/Scene_graph), like the one below:
 
-![](images/Scenegraph.gif ) *Image taken from [https://web.archive.org/web/20190807185912/http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/ Inventor mentor]*
+![](images/Scenegraph.gif ) 
+*Image taken from [https://web.archive.org/web/20190807185912/http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/ Inventor mentor]*
 
 An openInventor scenegraph describes everything that is part of a 3D scene, such as geometry, colors, materials, lights, etc, and organizes all that data in a convenient and clear structure. Everything can be grouped into sub-structures, allowing you to organize your scene contents pretty much the way you like. Here is an example of an openInventor file: {{Code|lang=bash|code=
 #Inventor V2.0 ascii

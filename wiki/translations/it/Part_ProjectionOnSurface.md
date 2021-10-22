@@ -29,6 +29,7 @@ Con questa funzione è possibile creare un solido, una faccia o una polinea di p
 <div class="mw-translate-fuzzy">
 
 
+
 *Proiezione su una superficie curva*
 
 

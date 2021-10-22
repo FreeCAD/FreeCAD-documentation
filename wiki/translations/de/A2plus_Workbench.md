@@ -53,7 +53,8 @@ Je mehr Teile du hinzufügst, desto wichtiger ist es, den Überblick zu behalten
 
 Bei der Erstellung einer Beschränkung wird ein solches Dialogfeld angezeigt, nachdem du eine Schaltfläche in der Beschränkungswerkzeugleiste gedrückt hast:
 
-![](images/A2p_ConstraintPropertiesDialog.png ) *Oben: Der A2plus Beschränkungseigenschaftsdialog*
+![](images/A2p_ConstraintPropertiesDialog.png ) 
+*Oben: Der A2plus Beschränkungseigenschaftsdialog*
 
 Bei bestimmten Beschränkungen erlaubt es dir, die Richtung der Beschränkung zu ändern. Mit der Schaltfläche **<img src="images/A2p_solver.svg" width=24px> Solve** kannst du vorab prüfen, ob diese neue Randbedingung von A2plus gelöst werden kann. Falls nicht, wirf einen Blick auf Abschnitt [Fehlerbehebung](#Troubleshooting/de.md).
 
@@ -330,6 +331,7 @@ Dragging animations are interactive since you trigger it by dragging a part of t
 Here is an example assembly to try out the dragging animation: [A2p\_example-for-dragging-animation.FCStd](https://forum.freecadweb.org/download/file.php?id=99204)
 
 ![](images/A2p_dragging-animation-result.gif )
+
 
 
 *Above: The dragging animation using the example assembly*

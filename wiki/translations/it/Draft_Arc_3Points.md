@@ -32,6 +32,7 @@ A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** 
 <div class="mw-translate-fuzzy">
 
 
+
 *Arco definito da tre punti giacenti su una circonferenza*
 
 

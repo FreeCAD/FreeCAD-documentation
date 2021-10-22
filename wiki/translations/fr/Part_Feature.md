@@ -15,6 +15,7 @@ Chaque objet créé avec l\'[Atelier Part](Part_Workbench/fr.md) est essentielle
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Schéma simplifié des relations entre les objets principaux dans le programme. La classe `Part::Feature* est l’origine de la plupart des objets 2D (Draft, Sketcher) et 3D (Part, PartDesign) qui ont des [Part formes topologiques](Part_TopoShape/fr.md).`
 
 ## Utilisation
@@ -149,7 +150,8 @@ deviation_in_mm = (w + h + d)/3 * deviation/100
 
 ### Valeur d\'écart 
 
-<img alt="" src=images/View_property_Deviation.svg  style="width:500px;"> *Paramètres de déflexion de l'algorithme `BRepMesh_IncrementalMesh*; d < déviation linéaire, α < déviation angulaire.`
+<img alt="" src=images/View_property_Deviation.svg  style="width:500px;"> 
+*Paramètres de déflexion de l'algorithme `BRepMesh_IncrementalMesh*; d < déviation linéaire, α < déviation angulaire.`
 
 Consultez le fil du forum, [Déviation et déviation angulaire](https://forum.freecadweb.org/viewtopic.php?f=3&t=45512).
 

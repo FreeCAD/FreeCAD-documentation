@@ -40,4 +40,4 @@ Raggruppamento di numerosi strumenti relativi al pannello.
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/it
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/it

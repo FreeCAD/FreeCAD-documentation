@@ -12,7 +12,8 @@
 
 Der **Std Einheitenrechner**-Befehl öffnet die Einheitenrechner-Dialogbox. Der Einheitenrechner kann genutzt werden, um Werte von einem Einheitensystem in ein anderes zu konvertieren.
 
-![](images/Units_Calculator_it.png ) *Die Einheitenrechner-Dialogbox*
+![](images/Units_Calculator_it.png ) 
+*Die Einheitenrechner-Dialogbox*
 
 ## Anwendung
 

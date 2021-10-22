@@ -21,6 +21,7 @@ Für einen schnelleren Zugriff auf diese Operationen benutze **<img src=images/P
 ![](images/PartBooleansDialog.png )
 
 
+
 *Dialog zur Auswahl von Objekten und der auszuführenden booleschen Operation.*
 
 ## Anwendung
@@ -56,11 +57,13 @@ In Fällen von Koplanarität können, selbst wenn die erste boolesche Operation 
 <img alt="" src=images/Part_Boolean_cut_coplanar_2.png  style="width:500px;">
 
 
+
 *Links: Formen, die eine gemeinsame Fläche haben, ein boolescher Schnitt kann zu falschen Ergebnissen führen. Rechts: Formen, die sich deutlich überschneiden, wird ein boolescher Schnitt in den meisten Fällen erfolgreich sein.*
 
 <img alt="" src=images/Part_Boolean_fusion_coplanar_1.png  style="width:500px;">
 
 <img alt="" src=images/Part_Boolean_fusion_coplanar_2.png  style="width:500px;">
+
 
 
 *Links: Formen, die eine gemeinsame Fläche haben, eine boolesche Vereinigung kann zu falschen Ergebnissen führen. Rechts: Formen, die sich deutlich überschneiden, wird die boolesche Vereinigung in den meisten Fällen erfolgreich sein.*

@@ -23,6 +23,7 @@ The Surface Workbench intends to create faces with shapes, which is not possible
  <img alt="" src=images/Toy_Duck.png  style="width:350px;"> 
 
 
+
 *Surface created with sketches placed in datum planes with the tools of the [PartDesign Workbench](PartDesign_Workbench.md)*
 
 The Surface Workbench integrates with other workbenches of FreeCAD. The above example was created from **<img src=images/Sketcher_NewSketch.svg style="width:16px"> <img src=images/PartDesign_Plane.svg style="width:Sketches](Sketch.md)** placed on **_. The design can be fully parametric if all datum planes and sketches are defined accordingly. In most cases it is sufficient to draw a closed sketch to define the boundary of a face, and then use different options to further modify its shape.

@@ -12,7 +12,8 @@
 
 The **Std Placement** command displays the Placement [task panel](Task_panel.md) for a selected object.
 
-![](images/Std_Placement_taskpanel.png ) *The Placement task panel*
+![](images/Std_Placement_taskpanel.png ) 
+*The Placement task panel*
 
 ## Usage
 

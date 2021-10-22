@@ -22,6 +22,7 @@ Pour regrouper des objets 3D en une seule unité, avec l\'intention de créer de
 ![](images/Std_Group_example.png )
 
 
+
 *Divers éléments à l'intérieur des Std Group dans la vue en arborescence.*
 
 ## Utilisation
@@ -73,6 +74,7 @@ Voir [App FeaturePython](App_FeaturePython/fr.md) pour les propriétés d\'affic
 Un _ (`App::DocumentObject` class) et est complété par une extension de groupe.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Diagramme simplifié des relations entre les objets centraux du programme. La classe `App::DocumentObjectGroup* est un groupe simple qui utilise l'extension Groupe pour pouvoir contenir tout type d'objet.`

@@ -13,6 +13,7 @@ Ce document fournit une brève introduction à Doxygen, en particulier comment i
 <img alt="" src=images/FreeCAD_doxygen_workflow.svg  style="width:800px;">
 
 
+
 *Flux général de travail pour produire une documentation du code source avec Doxygen.*
 
 ## Doxygen avec du code C++ 
@@ -208,6 +209,7 @@ Une classe pour stocker une collection de coordonnées est définie dans un fich
 ## Compiler la documentation 
 
 <img alt="" src=images/FreeCAD_doxygen_workflow.svg  style="width:800px;">
+
 
 
 *Flux général de travail pour produire une documentation du code source avec Doxygen.*

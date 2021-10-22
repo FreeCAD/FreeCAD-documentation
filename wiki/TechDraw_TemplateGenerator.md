@@ -1,17 +1,17 @@
 # TechDraw TemplateGenerator
 {{TutorialInfo
-|Topic= Template generation with Python macro
-|Level= Basic skills of Python and svg-structures are helpful
-|FCVersion= 0.19.1 and later
-|Time= (I don't know yet)
-|Author= [[User:FBXL5]]
+|Topic=Template generation with Python macro
+|Level=Basic skills of Python and svg-structures are helpful
+|FCVersion=0.19.1 and later
+|Time=(I don't know yet)
+|Author=[[User:FBXL5]]
 }}
 
 ## Introduction
 
 This tutorial is describes how to generate a simple template to use with the TechDraw workbench out of some lines of Python code.
 
-Any text editor can be used to code. My choice is Atom, btw\... But FreeCAD\'s built-in editor works well, too.
+Any text editor can be used to code. My choice is Atom, but FreeCAD\'s built-in editor works well, too.
 
 The following code examples can be copied and pasted into an empty text file and then saved under a name of your choice as a \*.py or \*.FCMacro file.
 
@@ -52,7 +52,7 @@ The Body starts with an opening tag which contains information about name spaces
 
 :   **xmlns=**\"<http://www.w3.org/2000/svg>\": External link to the xml name space to look up standard xml commands
 :   **version=**\"1.1\": Used xml version is 1.1
-:   **xmlns:freecad=**\"<http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace>\": External link to FreeCAD\'s name space extension
+:   **xmlns:freecad=**\"[Svg Namespace](https://wiki.freecadweb.org/index.php?title=Svg_Namespace)\": External link to FreeCAD\'s name space extension
 
     :   to look up special commands that are only used inside a FreeCAD environment e.g. for editable texts
 :   **width=**\"420mm\": Width of the drawing area

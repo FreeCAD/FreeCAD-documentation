@@ -241,7 +241,7 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 -    **Dim Overshoot|Distance**: specifies the additional length added to the dimension line. Not used for angular dimensions.
 
--    **Ext Lines|Distance**: specifies the maximum length of the extension lines that go from the measured points to the dimension line. Not used for angular dimensions.
+-    **Ext Lines|Distance**: specifies the length of the extension lines that go from the dimension line to the measured points. Use {{Value|0}} for full extension lines. A negative value defines the gap between the ends of the extension lines and the measured points. A positive value defines the maximum length of the extension lines. Only used for linear dimensions.
 
 -    **Ext Overshoot|Distance**: specifies the additional length of the extension lines beyond the dimension line. Not used for angular dimensions.
 
@@ -271,7 +271,7 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 {{TitleProperty|Units}}
 
--    **Decimals|Integer**: specifies the number of decimal places to display for the measurement. Not used for angular dimensions.
+-    **Decimals|Integer**: specifies the number of decimal places to display for the measurement.
 
 -    **Show Unit|Bool**: specifies whether to display the unit next to the numerical value of the measurement. Not used for angular dimensions.
 

@@ -14,7 +14,8 @@
 
 Montre ou masque l\'affichage du polygone de définition d\'une courbe B-spline (voir [cette page](B-Splines/fr.md) pour plus d\'informations sur les B-splines).
 
-![](images/Sketcher_B-spline_example01.png ) *Une courbe B-spline. Les polygones de contrôle sont les lignes droites vertes reliant les points de contrôle.*
+![](images/Sketcher_B-spline_example01.png ) 
+*Une courbe B-spline. Les polygones de contrôle sont les lignes droites vertes reliant les points de contrôle.*
 
 ## Utilisation
 

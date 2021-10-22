@@ -13,7 +13,8 @@
 
 Narzędzie Widok dodaje reprezentację jednego lub więcej obiektów do strony Rysunku. Jest to podstawowy element środowiska Rysunek Techniczny. Większość innych widoków pochodzi w jakiś sposób od metody Nowy widok.
 
-![](images/TechDraw_View_example.png ) *Widok bryły sześcianu z ukrytymi liniami*
+![](images/TechDraw_View_example.png ) 
+*Widok bryły sześcianu z ukrytymi liniami*
 
 ## Użycie
 

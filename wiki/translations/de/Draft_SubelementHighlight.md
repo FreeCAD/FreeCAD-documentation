@@ -18,7 +18,8 @@
 
 Der <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> **Entwurf UnterelementMarkieren** Befehl markiert ausgewählte Objekte oder die Basisobjekte ausgewählter Objekte temporär hervor. Er ist in Verbindung mit dem Unterelementmodus des Befehls [Entwurf Bewegen](Draft_Move/de.md), dem Befehl [Entwurf Drehen](Draft_Rotate/de.md) oder dem Befehl [Entwurf Skalieren](Draft_Scale/de.md) zu verwenden. Zurzeit funktioniert der Unterelementmodus nur bei [Entwurf Linien](Draft_Line/de.md) und [Entwurf WDrähte](Draft_Wire/de.md) richtig.
 
-![](images/Draft_SubelementHighlight_example.png ) *Eine Architektur Wand, deren Basis, ein Entwurf Draht, wurde markiert*
+![](images/Draft_SubelementHighlight_example.png ) 
+*Eine Architektur Wand, deren Basis, ein Entwurf Draht, wurde markiert*
 
 ## Anwendung
 

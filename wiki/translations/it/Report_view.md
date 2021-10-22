@@ -8,6 +8,7 @@ Alcune proprietà di questo pannello, come il colore del testo e se visualizzarl
 <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 
 
+
 *Vista report che mostra i messaggi quando FreeCAD è appena stato avviato.*
 
 ## Messagi
@@ -30,6 +31,7 @@ La vista report mostra i messaggi della classe interna `Console` di FreeCAD.
 Queste funzioni possono essere utilizzate direttamente dalla [console Python](Python_console/it.md), o tramite le [macro](Macros/it.md) e gli ambienti personalizzati.
 
 <img alt="" src=images/FreeCAD_Report_view_example.png  style="width:800px;">
+
 
 
 *Esempio di messaggi nella vista report: un messaggio generale, un avviso, un errore e un messaggio registrato.*

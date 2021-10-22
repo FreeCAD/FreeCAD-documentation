@@ -3,7 +3,7 @@
    Name:Plot Save
    Name/fr:Plot Sauvegarde
    MenuLocation:Plot → Save plot
-   Workbenches:[Plot](Plot_Module/fr.md)
+   Workbenches:[Plot](Plot_Workbench/fr.md)
 ---
 
 # Plot Save/fr
@@ -18,7 +18,8 @@ Le module standard plot fournit déjà un outil minimal pour sauvegarder les gra
 
 Sélectionnez l\'onglet du graphique que vous voulez sauvegarder, et lancez cet outil. Utilisez le bouton de sélection du chemin pour afficher une boîte de dialogue de fichier où vous pouvez choisir l\'emplacement et le format du fichier.
 
-![Path selection button](images/Plot_Save_Path.png‎ ) *Bouton de sélection du chemin*
+![Path selection button](images/Plot_Save_Path.png‎ ) 
+*Bouton de sélection du chemin*
 
 ## Options
 

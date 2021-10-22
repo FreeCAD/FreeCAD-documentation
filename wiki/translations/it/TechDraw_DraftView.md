@@ -22,7 +22,8 @@ Lo strumento <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;">
 
 </div>
 
-![](images/TechDraw_DraftView_example.png ) *Elementi di Draft, cerchi e schiere, importati in una pagina di disegno TechDraw*
+![](images/TechDraw_DraftView_example.png ) 
+*Elementi di Draft, cerchi e schiere, importati in una pagina di disegno TechDraw*
 
 ## Utilizzo
 

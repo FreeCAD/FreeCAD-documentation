@@ -12,7 +12,8 @@
 
 La commande **Std Mappage de textures** applique temporairement une texture sur tous les objets dans la [vue 3D](3D_view/fr.md).
 
-![](images/Std_TextureMapping_example.png ) *Deux objets mappés avec une image de 120 x 120 pixels d'un motif en damier*
+![](images/Std_TextureMapping_example.png ) 
+*Deux objets mappés avec une image de 120 x 120 pixels d'un motif en damier*
 
 ## Utilisation
 

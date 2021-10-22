@@ -6,7 +6,7 @@
 |Version=1.0
 |Date=2015-01-21
 |FCVersion=Toutes
-|Download=[https://www.freecadweb.org/wiki/images/4/45/Macro_Python_Assistant_Window.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/4/45/Macro_Python_Assistant_Window.png Icône de la barre d'outils]
 }}
 
 L\'un des aspects les plus puissants de Python est la console Python, qui sert à la fois de périphérique de sortie et d\'interpréteur dynamique du code source. La fenêtre de l\'assistant Python (appelée ultérieurement \"PAW\") fournit des fonctionnalités supplémentaires à la console Python. {{Codeextralink|http://pastebin.com/raw/2m0u94Z1}} <img alt="" src=images/PythonAssistantWindowScreenSnapshot.jpg  style="width:500px;">

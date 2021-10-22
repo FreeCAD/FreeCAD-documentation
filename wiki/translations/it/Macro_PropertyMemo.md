@@ -22,7 +22,8 @@
 
 Questa macro crea una proprietà aggiuntiva per gli oggetti, è rinominabile a piacere, ma funziona solo in Draft.
 
-![](images/Macro_FCPropertyMemo_00.png ) *Addin one property Memo → Name*
+![](images/Macro_FCPropertyMemo_00.png ) 
+*Addin one property Memo → Name*
 
 ## Uso
 

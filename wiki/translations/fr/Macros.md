@@ -19,7 +19,8 @@ Activez la sortie de la console dans le menu **Edition → Préférences → Gé
 
 C\'est très simple à utiliser : appuyez sur le bouton d\'enregistrement, il vous sera demandé de donner un nom à votre macro, puis effectuez quelques actions. Lorsque vous avez terminé, cliquez sur le bouton Arrêter l\'enregistrement et vos actions seront enregistrées. Vous pouvez maintenant accéder à la boîte de dialogue de macro avec le bouton d\'édition.
 
-![](images/Macros.png ) *Interface listant les macros disponibles dans le système*
+![](images/Macros.png ) 
+*Interface listant les macros disponibles dans le système*
 
 Vous pouvez y gérer vos macros, les supprimer, les modifier, les dupliquer, les installer ou en créer de nouvelles à partir de zéro. Si vous modifiez une macro, elle sera ouverte dans une fenêtre d\'éditeur où vous pourrez apporter des modifications à son code. De nouvelles macros peuvent être installées en utilisant le bouton {{button|Addons...}}, qui relie au [Gestionnaire d\'Addon](AddonManager/fr.md).
 

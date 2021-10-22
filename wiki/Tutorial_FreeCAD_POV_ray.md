@@ -20,6 +20,7 @@ This tutorial is based on the forum post by schupin [FreeCAD / pov ray tutorial]
  <img alt="" src=images/Povray_before_after.png  style="width:600px;"> 
 
 
+
 *align=center|Example by schupin of a 3D model and high quality render produced with FreeCAD and POV-Ray.*
 
 The files used in this tutorial are in post \#8 [in the same thread](https://forum.freecadweb.org/viewtopic.php?f=36&t=32745#p305169).
@@ -37,11 +38,13 @@ For direct rendering to work, the `povray` executable must be set in **Edit → 
  <img alt="" src=images/01_T04_FreeCAD_POVray_model.png  style="width:600px;"> 
 
 
+
 *align=center|Assembly of three bodies created in FreeCAD, and with colors or materials assigned.*
 
 2\. If your model is very detailed, make sure the **Deviation** of the body is set to a low value, between `0.1` and `0.01`, or even smaller. The lower this value is, the more detailed the exported mesh will be, and thus the better the quality of the render will be.
 
 ![](images/02_T04_FreeCAD_POVray_deviation.png )
+
 
 
 *align=center|Deviation property of the bodies created in FreeCAD; the deviation needs to be small in order to export the parts with good resolution.*
@@ -69,6 +72,7 @@ all objects in the POV-Ray project will have a name based on their internal Free
  <img alt="" src=images/03_T04_FreeCAD_POVray_first_render.png  style="width:600px;"> 
 
 
+
 *align=center|First render of the assembly produced with POV-Ray, with the standard template written by the Raytracing Workbench.*
 
 7.1. With the  
@@ -87,9 +91,11 @@ To improve the appearance of the image, use a better template. Double click the 
  <img alt="" src=images/04_T04_FreeCAD_POVray_first_render_radiosity.png  style="width:600px;"> 
 
 
+
 *align=center|Render of the assembly produced with POV-Ray, with the RadiosityNormal template written by the Raytracing Workbench.*
 
 Once again double click the  <img alt="" src=images/05_T04_FreeCAD_POVray_first_render_radiosity_outdoor.png  style="width:600px;"> 
+
 
 
 *align=center|Render of the assembly produced with POV-Ray, with the RadiosityOutdoorHQ template written by the Raytracing Workbench.*
@@ -294,6 +300,7 @@ sky_sphere {
  <img alt="" src=images/06_T04_FreeCAD_POVray_render_lights.png  style="width:600px;"> 
 
 
+
 *align=center|Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up.*
 
 ### Prepare the body textures 
@@ -414,6 +421,7 @@ object {Pov_Body001
  <img alt="" src=images/07_T04_FreeCAD_POVray_render_materials.png  style="width:600px;"> 
 
 
+
 *align=center|Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, and materials assigned.*
 
 ### Prepare planes 
@@ -439,6 +447,7 @@ plane {
 ```
 
  <img alt="" src=images/08_T04_FreeCAD_POVray_render_floor_gray.png  style="width:600px;"> 
+
 
 
 *align=center|Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, materials assigned, and a floor plane with a basic gray texture.*
@@ -480,6 +489,7 @@ plane {
  <img alt="" src=images/09_T04_FreeCAD_POVray_render_floor_wood.png  style="width:600px;"> 
 
 
+
 *align=center|Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, materials assigned, and a floor plane with a parquet texture.*
 
 18\. Add a second plane, this time perpendicular to the Z direction, to serve as a backwall. Displace it just a little bit behind the model to avoid covering the mirror. Include the `stones.inc` library, add a generic granite texture, and scale it a bit. This will result in the appearance off a simple dry wall.
@@ -511,6 +521,7 @@ plane {
 ```
 
  <img alt="" src=images/10_T04_FreeCAD_POVray_render_floor_wood_walls.png  style="width:600px;"> 
+
 
 
 *align=center|Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, materials assigned, a floor plane with a parquet texture, and back walls with drywall textures.*
@@ -574,6 +585,7 @@ global_settings {
 ```
 
  <img alt="" src=images/11_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_1.png  style="width:600px;"> 
+
 
 
 *align=center|Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, materials assigned, a floor plane with a parquet texture, and back walls with drywall textures. Radiosity settings for fast rendering.*
@@ -678,6 +690,7 @@ povray assembly.pov +W800 +H600 +AM2 +A
 ```
 
  <img alt="" src=images/12_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_final.png  style="width:600px;"> 
+
 
 
 *align=center|Starting from the standard template, render of the scene with POV-Ray, with the light source and sky sphere set up, materials assigned, a floor plane with a parquet texture, and back walls with drywall textures. Radiosity settings for high quality result: `Radiosity_Final* and {{incode|recursion_limit 2`.}}

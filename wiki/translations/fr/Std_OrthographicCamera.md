@@ -14,7 +14,8 @@
 
 La commande **Std Vue orthographique** fait passer la vision du mode actif [vue 3D](3D_view/fr.md) en mode de vue orthographique. Dans ce mode, les objets qui sont plus éloignés de l\'appareil photo n\'apparaissent pas plus petits que ceux qui sont plus proches.
 
-![](images/Std_OrthographicCamera_example.svg ) *Deux cubes de mêmes dimensions en vue orthographique*
+![](images/Std_OrthographicCamera_example.svg ) 
+*Deux cubes de mêmes dimensions en vue orthographique*
 
 ## Utilisation
 

@@ -23,7 +23,8 @@ Zeigt oder Blendet die Anzeige des definierten Polygons einer B-Spline Kurve aus
 
 </div>
 
-![](images/Sketcher_B-spline_example01.png ) *A B-spline curve. The control polygon are the green straight lines connecting the control points.*
+![](images/Sketcher_B-spline_example01.png ) 
+*A B-spline curve. The control polygon are the green straight lines connecting the control points.*
 
 ## Anwendung
 

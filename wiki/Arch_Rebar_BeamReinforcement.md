@@ -20,6 +20,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
  ![](images/Arch_Rebar_BeamReinforcement_example.png ) 
 
 
+
 *Beam Reinforcement inside a Beam [Arch Structure](Arch_Structure.md)*
 
 ## Usage
@@ -37,6 +38,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 
 
 
+
 *Dialog Box for the Arch Rebar BeamReinforcement tool*
 
 4\. Select the desired type of beam reinforcement.
@@ -48,6 +50,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 
 
 :   <img alt="" src=images/BeamReinforcementDialog_TopRebars.png  style="width:700px;">
+
 
 
 
@@ -110,6 +113,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 
 
 
+
 *Dialog Box for Bottom Rebars data*
 
 9\. Set data for bottom rebars similar to top rebars data.
@@ -119,6 +123,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 
 
 :   <img alt="" src=images/BeamReinforcementDialog_LeftRebars.png  style="width:700px;">
+
 
 
 
@@ -170,6 +175,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 
 
 :   <img alt="" src=images/BeamReinforcementDialog_RightRebars.png  style="width:700px;">
+
 
 
 

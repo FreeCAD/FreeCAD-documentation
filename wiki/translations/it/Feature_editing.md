@@ -64,6 +64,7 @@ Una differenza fondamentale tra FreeCAD e altri programmi, come Catia, è che Fr
 <img alt="" src=images/PartDesign_Body_non-contiguous.png  style="width:550px;">
 
 
+
 *Differenza tra Catia e FreeCAD. A sinistra: Catia consente di scollegare i corpi dalle funzioni precedenti del corpo. In FreeCAD questo causa un errore; A destra:  la nuova funzione deve sempre toccare o intersecare la funzione precedente, in modo che sia fusa con essa e diventi un unico solido contiguo.*
 
 ## Geometrie di riferimento 
@@ -83,6 +84,7 @@ Sia gli schizzi che i piani di riferimento dovrebbero essere attaccati ai piani 
 Anche se non sono utilizzati per il supporto di schizzi, gli oggetti di riferimento possono essere utili come indicatori visivi, per attirare l\'attenzione su delle caratteristiche o distanze importanti nel processo di modellazione. (Anche se, semplicemente aggiungendo la geometria a uno schizzo, si ottiene un feedback visivo simile).
 
 <img alt="" src=images/PartDesign_Body_non-contiguous_slanted.png  style="width:550px;">
+
 
 
 *Differenza tra Catia e FreeCAD. A sinistra: Catia consente di scollegare i corpi dalle funzioni precedenti del corpo. In FreeCAD questo causa un errore;  A destra: la nuova funzione dovrebbe sempre toccare o intersecare la funzione precedente, in modo che sia fusa con essa e diventi un solido contiguo. In questo esempio, il nuovo solido si basa su un piano di Riferimento ruotato attorno all'asse Y.*

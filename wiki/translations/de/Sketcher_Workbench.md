@@ -64,7 +64,13 @@ Anwenden einer horizontalen oder vertikalen Beschränkung oder einer Winkelbesch
 
 Mehrere Objekte können untereinander beschränkt werden. Zwei Linien können durch einen ihrer Punkte mit der Deckungsgleicher Punktbeschränkung verbunden werden. Ein Winkel kann zwischen ihnen festgelegt werden oder sie können senkrecht zueinander platziert werden. Eine Linie kann tangential zu einem Bogen oder einem Kreis sein, usw.. Eine komplexe Skizze mit mehreren Objekten weist eine Reihe verschiedener Lösungen auf, und wenn man sie **vollständig-beschränkt** erstellt, bedeutet dies, dass nur eine dieser möglichen Lösungen auf der Grundlage der angewandten Beschränkungen erreicht wurde.
 
+
+<div class="mw-translate-fuzzy">
+
 Es gibt zwei Arten von Beschränkungen: geometrische und maßliche. Sie sind im Abschnitt [\'Die Werkzeuge\'](#Die_Werkzeuge.md) weiter unten ausführlich beschrieben.
+
+
+</div>
 
 #### What the Sketcher is not good for 
 
@@ -92,7 +98,7 @@ Die zum eigentlichen Zeichnen (Erstellen der zweidimensionalen geometrischen Gru
 
 Sobald eine Skizze vollständig beschränkt ist, wechselt die Skizzenmerkmale zu einem leuchtend hellen grün; Konstruktionsgeometrie hingegen bleibt blau. Normalerweise ist die Skizze an dieser Stelle \"fertig bearbeitet\" und für die Erstellung eines 3D Volumenkörpers geeignet. Sobald das Dialogfeld Skizze geschlossen ist, lohnt es sich jedoch möglicherweise, zum <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:Part Arbeitsbereich](Part_Workbench/de.md) zu gehen und **[24px"> [Geometrie prüfen](Part_CheckGeometry/de.md)** auszuführen, um sicherzustellen, dass die Skizze keine Merkmale enthält, die zu späteren Problemen führen können.
 
-## The tools 
+## Tools
 
 
 <div class="mw-translate-fuzzy">
@@ -454,7 +460,13 @@ Die folgenden Werkzeuge können verwendet werden, um die Wirkung von Beschränku
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Virtuellen Raum wechseln](Sketcher_SwitchVirtualSpace/de.md): Ermöglicht dir alle Beschränkungen einer Skizze auszublenden und wieder sichtbar zu machen.
 
+
+<div class="mw-translate-fuzzy">
+
 ### Einstellungen
+
+
+</div>
 
 -   <img alt="" src=images/Std_DlgParameter.png  style="width:32px;"> [Einstellungen](Sketcher_Preferences/de.md): Einstellungen für den **Skizzierer** Arbeitsbereich.
 

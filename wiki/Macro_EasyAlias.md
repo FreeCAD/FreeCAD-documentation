@@ -2,7 +2,7 @@
 {{Macro
 |Name=EasyAlias
 |Icon=easy-alias-icon.png
-|Description=Use this to quickly and easily create aliases for cells in your spreadsheets.  It takes the text labels you will have already created in one column and uses those labels as aliases in the next column.
+|Description=Use this to quickly and easily create aliases for cells in your spreadsheets. It takes the text labels you will have already created in one column and uses those labels as aliases in the next column.
 |Author=TheMarkster
 |Version=2020.10.06
 |Date=2020-10.06
@@ -12,19 +12,23 @@
 
 ## Description
 
-Use this to quickly and easily create aliases for cells in your spreadsheets. It takes the text labels you will have already created in one column and uses those labels as aliases in the next column. For example, the text labels in Column A can be used to create aliases for the cells in Column B. Usage: highlight the cells containing the text labels and run the macro. Adjacent cells in the next column will now contain aliases made from the text values from the highlighted cells.
+Use this to quickly and easily create aliases for cells in your spreadsheets. It takes the text labels you will have already created in one column and uses those labels as aliases in the next column. For example, the text labels in Column A can be used to create aliases for the cells in Column B.
 
-<img alt="" src=images/EasyAlias-scr1.png  style="width:600px;"> 
-*EasyAlias screenshot1,  Text labels from Column A are used to create the aliases in Column B.*
+## Usage
+
+Highlight the cells containing the text labels and run the macro. Adjacent cells in the next column will now contain aliases made from the text values from the highlighted cells.
+
+ <img alt="" src=images/EasyAlias-scr1.png  style="width:600px;">  
+*EasyAlias screenshot1, Text labels from Column A are used to create the aliases in Column B.*
 
 ## Script
 
-ToolBar icon ![](images/easy-alias-icon.png )
+ ToolBar icon ![](images/easy-alias-icon.png )
 
 **Macro\_EasyAlias.FCMacro**
 
 
-{{MacroCode|code=
+```python
 # -*- coding: utf-8 -*-
 import FreeCAD
 from PySide import QtGui
@@ -165,7 +169,7 @@ for ci in cellIndices:
         FreeCAD.Console.PrintError("Remember, aliases cannot begin with a numeral or an underscore or contain any invalid characters.\n")
 
 App.ActiveDocument.recompute()
-}}
+```
 
 ---
 [documentation index](../README.md) > Macro EasyAlias

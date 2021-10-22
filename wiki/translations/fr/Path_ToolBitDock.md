@@ -6,7 +6,7 @@
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **T**
    Version:0.19
-   SeeAlso:[Path Gestionnaire d'outils](Path_ToolBitLibraryOpen/fr.md), [Path Tools](Path_Tools/fr.md), [Path ToolBit](Path_ToolBit/fr.md)
+   SeeAlso:[Path Gestionnaire d'outils](Path_ToolBitLibraryOpen/fr.md), [Path Outils](Path_Tools/fr.md), [Path ToolBit](Path_ToolBit/fr.md)
 ---
 
 # Path ToolBitDock/fr

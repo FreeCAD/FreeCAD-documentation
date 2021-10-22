@@ -33,9 +33,9 @@ Wir können nun ganz einfach ein \"unspezifisches\" Dokumentobjekt im aktuellen 
 
 ```python
 boxShape = Part.makeBox(3,5,7)
- myObj = FreeCAD.ActiveDocument.addObject("Part::Feature","MyNewBox")
- myObj.Shape = boxShape
- FreeCAD.ActiveDocument.recompute()
+myObj = FreeCAD.ActiveDocument.addObject("Part::Feature","MyNewBox")
+myObj.Shape = boxShape
+FreeCAD.ActiveDocument.recompute()
 ```
 
 Beachte, wie wir myObj.Shape gehandhabt haben, und beachte, dass wir es genauso gemacht haben wie im vorherigen Kapitel, als wir andere Eigenschaften eines Objekts geändert haben, z. B. box.Height = 5 . In der Tat ist **Form** ebenfalls eine Eigenschaft, genau wie **Höhe**. Nur dass sie einer Part Form und nicht eine Zahl annimmt. Im nächsten Kapitel werden wir uns genauer ansehen, wie diese parametrischen Objekte aufgebaut sind.
@@ -45,11 +45,11 @@ Lasse uns nun unsere Teilformen genauer untersuchen. Am Ende des Kapitels über 
 
 ```python
 print(boxShape.Vertexes)
- print(boxShape.Edges)
- print(boxShape.Wires)
- print(boxShape.Faces)
- print(boxShape.Shells)
- print(boxShape.Solids)
+print(boxShape.Edges)
+print(boxShape.Wires)
+print(boxShape.Faces)
+print(boxShape.Shells)
+print(boxShape.Solids)
 ```
 
 Lasse uns zum Beispiel die Fläche jeder Seite unserer obigen Kastenform bestimmen:
@@ -79,8 +79,8 @@ Wir können jederzeit überprüfen, was der Typ einer Form ist:
 
 ```python
 print(boxShape.ShapeType)
- print(boxShape.Faces[0].ShapeType)
- print(boxShape.Vertexes[2].ShapeType)
+print(boxShape.Faces[0].ShapeType)
+print(boxShape.Vertexes[2].ShapeType)
 ```
 
 Um das Thema der Teilformen wieder aufzunehmen: Alles beginnt mit Knoten. Mit einem oder zwei Knoten bilden Sie eine Kante (Vollkreise haben nur einen Knoten). Mit einer oder mehreren Kanten bilden Sie einen Draht. Mit einem oder mehreren geschlossenen Drähten bilden Sie eine Fläche (die zusätzlichen Drähte werden zu \"Löchern\" in der Fläche). Mit einer oder mehreren Flächen bildet man eine Schale. Wenn eine Schale vollständig geschlossen (wasserdicht) ist, kannst du daraus einen Festkörper bilden. Und schließlich kannst du eine beliebige Anzahl von Formen beliebigen Typs miteinander verbinden, was dann als Verbund bezeichnet wird.
@@ -98,9 +98,9 @@ Erstellen wir zunächst die vier Basispunkte:
 
 ```python
 V1 = FreeCAD.Vector(0,10,0)
- V2 = FreeCAD.Vector(30,10,0)
- V3 = FreeCAD.Vector(30,-10,0)
- V4 = FreeCAD.Vector(0,-10,0)
+V2 = FreeCAD.Vector(30,10,0)
+V3 = FreeCAD.Vector(30,-10,0)
+V4 = FreeCAD.Vector(0,-10,0)
 ```
 
 Dann können wir die beiden linearen Segmente erstellen:
@@ -127,9 +127,9 @@ zeigt dir, um welche Art von Kante es sich handelt, d. h. ob sie auf einer Linie
 
 ```python
 VC1 = FreeCAD.Vector(-10,0,0)
- C1 = Part.Arc(V1,VC1,V4)
- VC2 = FreeCAD.Vector(40,0,0)
- C2 = Part.Arc(V2,VC2,V3)
+C1 = Part.Arc(V1,VC1,V4)
+VC2 = FreeCAD.Vector(40,0,0)
+C2 = Part.Arc(V2,VC2,V3)
 ```
 
 Jetzt haben wir 2 Linien (L1 und L2) und 2 Bögen (C1 und C2). Wir müssen sie in Kanten umwandeln:
@@ -137,9 +137,9 @@ Jetzt haben wir 2 Linien (L1 und L2) und 2 Bögen (C1 und C2). Wir müssen sie i
 
 ```python
 E1 = Part.Edge(L1)
- E2 = Part.Edge(L2)
- E3 = Part.Edge(C1)
- E4 = Part.Edge(C2)
+E2 = Part.Edge(L2)
+E3 = Part.Edge(C1)
+E4 = Part.Edge(C2)
 ```
 
 Alternativ dazu verfügen Basisgeometrien auch über eine toShape() Funktion, die genau das Gleiche bewirkt:
@@ -147,7 +147,7 @@ Alternativ dazu verfügen Basisgeometrien auch über eine toShape() Funktion, di
 
 ```python
 E1 = L1.toShape()
- E2 = L2.toShape()
+E2 = L2.toShape()
  ...
 ```
 
@@ -191,7 +191,7 @@ Das liegt daran, dass wir beim Extrudieren einer einzelnen Fläche immer einen F
 
 ```python
 S = W.extrude(FreeCAD.Vector(0,0,10))
- print(s.ShapeType)
+print(s.ShapeType)
 ```
 
 Dadurch erhalten wir natürlich eine hohle Schale, bei der die Ober- und Unterseite fehlen.
@@ -201,8 +201,8 @@ Jetzt, wo wir unser endgültige Form haben, sind wir gespannt darauf, es auf dem
 
 ```python
 myObj2 = FreeCAD.ActiveDocument.addObject("Part::Feature","My_Strange_Solid")
- myObj2.Shape = P
- FreeCAD.ActiveDocument.recompute()
+myObj2.Shape = P
+FreeCAD.ActiveDocument.recompute()
 ```
 
 Alternativ bietet das Teil Modul auch einen Kurzbefehl, mit der der oben beschriebene Vorgang schneller ausgeführt werden kann (allerdings kannst du den Namen des Objekts nicht auswählen):

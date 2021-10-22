@@ -6,6 +6,9 @@
 </div>
 
 
+**Warning. This tool is outdated and will be removed from the module. You can instead consider the [Cross-sections](Part_CrossSections.md) tool to compute the intersections, and the [Drawing workbench](Drawing_Workbench.md) to plot them**
+
+
 <div class="mw-translate-fuzzy">
 
 ## Introducere

@@ -40,6 +40,7 @@ Per inserire un elemento di testo più semplice senza una freccia usare [Testo](
 <div class="mw-translate-fuzzy">
 
 
+
 *Varie etichette con diversi orientamenti, simboli terminali e informazioni*
 
 

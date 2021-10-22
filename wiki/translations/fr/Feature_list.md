@@ -6,16 +6,16 @@ Vous trouverez ici une liste approfondie, mais cependant incomplète, des foncti
 
 ## Notes de versions 
 
--   [Notes de version 0.11](Release_notes_0.11/fr.md) - Mars 2011
--   [Notes de version 0.12](Release_notes_0.12/fr.md) - Décembre 2011
--   [Notes de version 0.13](Release_notes_0.13/fr.md) - Janvier 2013
--   [Notes de version 0.14](Release_notes_0.14/fr.md) - Mars 2014
--   [Notes de version 0.15](Release_notes_0.15/fr.md) - Mars 2015
--   [Notes de version 0.16](Release_notes_0.16/fr.md) - Avril 2016
--   [Notes de version 0.17](Release_notes_0.17/fr.md) - Avril 2018
--   [Notes de version 0.18](Release_notes_0.18/fr.md) - Mars 2019
--   [Notes de version 0.19](Release_notes_0.19/fr.md) - Mars 2021
 -   [Notes de version 0.20](Release_notes_0.20/fr.md) - A définir
+-   [Notes de version 0.19](Release_notes_0.19/fr.md) - Mars 2021
+-   [Notes de version 0.18](Release_notes_0.18/fr.md) - Mars 2019
+-   [Notes de version 0.17](Release_notes_0.17/fr.md) - Avril 2018
+-   [Notes de version 0.16](Release_notes_0.16/fr.md) - Avril 2016
+-   [Notes de version 0.15](Release_notes_0.15/fr.md) - Mars 2015
+-   [Notes de version 0.14](Release_notes_0.14/fr.md) - Mars 2014
+-   [Notes de version 0.13](Release_notes_0.13/fr.md) - Janvier 2013
+-   [Notes de version 0.12](Release_notes_0.12/fr.md) - Décembre 2011
+-   [Notes de version 0.11](Release_notes_0.11/fr.md) - Mars 2011
 
 ## Fonctions principales 
 

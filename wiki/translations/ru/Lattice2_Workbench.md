@@ -30,7 +30,8 @@
 
 ### Панель инструментов 
 
-![](images/Lattice2-menu-orizz.png ) *Панель инструментов Lattice2*
+![](images/Lattice2-menu-orizz.png ) 
+*Панель инструментов Lattice2*
 
 ### Команды
 

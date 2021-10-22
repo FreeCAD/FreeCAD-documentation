@@ -15,7 +15,8 @@ Il comando **Modifica parametri** apre l\'editor dei parametri. Nell\'editor dei
 
 Lavorare con l\'editor dei parametri richiede una certa esperienza. Per i parametri più comuni conviene usare l\'[editor delle preferenze](Preferences_Editor/it.md).
 
-![](images/Std_DlgParameter_dialog.png ) *La finestra di dialogo Editor dei parametri*
+![](images/Std_DlgParameter_dialog.png ) 
+*La finestra di dialogo Editor dei parametri*
 
 ## Utilizzo
 

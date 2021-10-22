@@ -6,7 +6,8 @@
 
 Il comando **Vista in prospettiva** commuta la [vista 3D](3D_view/it.md) attiva in modalità vista prospettica. In questa modalità, gli oggetti più lontani dalla fotocamera appaiono più piccoli di quelli più vicini.
 
-![](images/Std_PerspectiveCamera_example.svg ) *Due cubi con le stesse dimensioni nella vista in prospettiva*
+![](images/Std_PerspectiveCamera_example.svg ) 
+*Due cubi con le stesse dimensioni nella vista in prospettiva*
 
 ## Utilizzo
 

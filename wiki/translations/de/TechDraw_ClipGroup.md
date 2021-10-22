@@ -19,7 +19,8 @@ Dieses Werkzeug erstellt ein Ausschnittfenster, das eine oder mehrere Ansichten 
 
 </div>
 
-![](images/TechDraw_Clipview.png ) *Ansichtsfenster, das verschiedene vorhandene Ansichten beschneidet*
+![](images/TechDraw_Clipview.png ) 
+*Ansichtsfenster, das verschiedene vorhandene Ansichten beschneidet*
 
 ## Verwendung
 

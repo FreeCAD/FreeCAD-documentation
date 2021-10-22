@@ -67,4 +67,4 @@ L\'algoritmo sottostante allo strumento Nido è in continua evoluzione e al mome
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Nest/it
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Nest/it

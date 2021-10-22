@@ -25,7 +25,8 @@ Bu anlık konum etkinleştirildiğinde, nesne tarafından tanımlanan özel anl�
 
 </div>
 
-![](images/Draft_Snap_Special_example.png ) *Snapping the second point of a line to a special point of an  Arch Wall, which is a vertex of its Base object*
+![](images/Draft_Snap_Special_example.png ) 
+*Snapping the second point of a line to a special point of an  Arch Wall, which is a vertex of its Base object*
 
 ## Usage
 

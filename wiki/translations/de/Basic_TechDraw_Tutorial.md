@@ -11,7 +11,7 @@ Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/bl
 
 ## Einführung
 
-Dieses Tutorial führt den neuen Anwender in einige der verwendeten Werkzeuge und Techniken des **<img src="images/Workbench_TechDraw.svg" width=24px> [Technisches Zeichnen (TechDraw) Arbeitsbereich](TechDraw_Workbench/de.md)** ein. Dieses Tutorial ist kein kompletter und umfassender Führer zum TechDraw-Arbeitsbereich und viele der Werkzeuge und Möglichkeiten werden nicht abgedeckt. Dieses Tutorial führt den Anwender durch die benötigten Schritte, um technische Zeichnungen des Teils aus dem [Grundlagen Part Design Tutorium](Basic_Part_Design_Tutorial/de.md) zu erzeugen.
+Dieses Tutorium führt den neuen Anwender in einige der verwendeten Werkzeuge und Techniken des **<img src="images/Workbench_TechDraw.svg" width=24px> [Technisches Zeichnen (TechDraw) Arbeitsbereich](TechDraw_Workbench/de.md)** ein. Dieses Tutorium ist kein vollständiger und umfassender Führer zum TechDraw Arbeitsbereich und viele der Werkzeuge und Möglichkeiten werden nicht abgedeckt. Dieses Tutorium nimmt den Anwender mit durch die benötigten Schritte, um technische Zeichnungen des Teils aus dem [Grundlagen Part Design Tutorium](Basic_Part_Design_Tutorial/de.md) zu erzeugen.
 
 ## Bevor Du anfängst 
 
@@ -19,7 +19,7 @@ Lade die [Beispieldatei](https://github.com/FreeCAD/Examples/blob/master/Basic_P
 
 ## Die Aufgabe 
 
-In diesem Tutorial wirst Du den TechDraw Arbeitsbereich benutzen, um aus dem folgenden 3D Teil verschiedene 2D Zeichnungen zu erzeugen. Wir werden mehrere Ansichten des Teils erstellen und wichtige Bemaßungen hinzufügen. Dieses Tutorial wird nicht jedes Merkmal und jedes Werkzeug innerhalb des TechDraw Arbeitsbereichs benutzen, sollte aber genug zeigen, um dem Benutzer dieses Tutorials eine gute Grundlage zu bieten, auf der er seine Kenntnisse und Fähigkeiten aufbauen kann.
+In diesem Tutorium wirst Du den TechDraw Arbeitsbereich verwenden, um aus dem folgenden 3D Teil verschiedene 2D Zeichnungen zu erzeugen. Wir werden mehrere Ansichten des Teils erstellen und wichtige Bemaßungen hinzufügen. Dieses Tutorium wird nicht jede Funktion und jedes Werkzeug innerhalb des TechDraw Arbeitsbereichs verwenden, sollte aber genug zeigen, um dem Anwender dieses Tutoriums eine grundlegende Basis erhält, auf der er seine Kenntnisse und Fähigkeiten aufbauen kann.
 
 ## Das Bauteil 
 
@@ -51,17 +51,11 @@ Jetzt haben wir eine Ansicht auf der Seite, die die Oberseite des Körpers zeigt
 
 ![](images/TDTut_TopView2to1.png )
 
-
-<div class="mw-translate-fuzzy">
-
 Besser, aber ein wenig langweilig. Lass\' uns einige Bemaßungen hinzufügen.
 
 1.  Wähle den oberen linken Eckpunkt (kleiner Punkt) mit dem **LMB** (linken Maus-Button), wähle dann auch (**Strg**+**LMB**) den unteren linken Eckpunkt.
-2.  Klicke auf <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:32px;"> [Vertikale Längenbemaßung](TechDraw_Dimension_Vertical/de.md). Ziehe den Bemaßungstext weg vom Körper.
-3.  Versuche das nochmal mit den oberen linken und oberen rechten Eckpunkten und <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:32px;"> [Horizontale Längenbemaßung](TechDraw_Dimension_Horizontal/de.md).
-
-
-</div>
+2.  Klicke auf <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [TechDraw VertikaleBemaßung](TechDraw_VerticalDimension/de.md). Ziehe den Bemaßungstext weg vom Körper.
+3.  Versuche das nochmal mit den oberen linken und oberen rechten Knoten und <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [TechDraw HorizontaleBemaßung](TechDraw_HorizontalDimension/de.md).
 
 ![](images/TDTut_TopView2Dims.png )
 
@@ -102,14 +96,8 @@ Lass uns eine Mehransichtzeichnung mit einer anderen Vorlage als Ausgangspunkt e
 
 ![](images/TDTut_ProjGroup21.png )
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Wähle in der Ansicht \"FrontTopLeft\" die beiden Eckpunkte an den entgegengesetzten Enden der Frontkante des Werkstücks.
-2.  Klicke auf <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [Längenbemaßung](TechDraw_Dimension_Length/de.md). Ziehe den Bemaßungstext weg vom Körper.
-
-
-</div>
+1.  Wähle in der Ansicht \"TopLeftFront\" die beiden Knoten an den äußersten Enden der Vorderkante des Werkstücks.
+2.  Klicke auf <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [TechDraw LängenBemaßung](TechDraw_LengthDimension/de.md). Ziehe den Bemaßungstext weg vom Körper.
 
 ### Verbinden von Bemaßungen mit dem 3D Modell 
 
@@ -119,17 +107,11 @@ Hast Du ein Problem mit der Bemaßung bemerkt, die wir gerade angelegt haben?
 
 Aus dem ersten Teil dieses Tutorials wissen wir, dass das Werkstück 53 mm breit ist, aber unsere neuen Abmessungen lauten 43,27. Das liegt daran, dass \"FrontTopLeft\" eine [isometrische Projektion](https://en.wikipedia.org/wiki/Isometric_projection) ist, und unsere erste Zeichnung eine [orthogonale (Mehrfachansichts) Projektion](https://en.wikipedia.org/wiki/Orthographic_projection) war. Um den richtigen Wert zu erhalten, müssen wir unsere Bemaßung direkt mit dem 3D Modell verknüpfen.
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Beachte den Namen unserer fehlerhaften Bemaßung in der Combo Ansicht. Wir brauchen sie gleich.
-2.  Wechsel zur 3D Ansicht und wähle die Eckpunkte der Frontkante des Werkstücks. Wähle außerdem Page001.
-3.  Klicke auf <img alt="" src=images/TechDraw_Dimension_Link.svg  style="width:32px;"> [Bemaßungen verlinken](TechDraw_Dimension_Link/de.md). Ein Dialog im Aufgaben-Reiter öffnet sich.
-4.  Verschiebe im Dialog unsere Bemaßung von der \"Available\"-Spalte in die \"Selected\"-Spalte. Drücke **OK**.
-5.  Kehre zurück zu Page001. Unsere Bemaßung sollte nun den korrekten Wert von 53 anzeigen (falls Du immer noch 43.27 siehst, solltest Du den **Neuberechnen** Schaltfläche drücken oder den Bemaßungswert etwas ziehen, bis er sich ändert).
-
-
-</div>
+1.  Beachte den Namen unserer fehlerhaften Bemaßung im Combo Paneel. Wir brauchen sie in einer Minute.
+2.  Wechsle zum 3D Reiter und wähle die Knoten der Vorderkante des Werkstücks. Wähle auch Page001.
+3.  Klicke auf <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [TechDraw BemaßungVerknüpfen](TechDraw_LinkDimension/de.md). Ein Dialog wird im Aufgabenpaneel geöffnet.
+4.  Verschiebe in diesem Dialog unsere Bemaßung von der Spalte Verfügbar in die Spalte Ausgewählt. Drücke **OK**.
+5.  Kehre zurück zu Page001. Unsere Bemaßung sollte nun den korrekten Wert von 53 anzeigen (Wenn Du immer noch 43.27 siehst, solltest Du die **Neuberechnen** Schaltfläche drücken oder den Bemaßungswert ein wenig ziehen, bis er sich ändert).
 
 ## Weitermachen
 

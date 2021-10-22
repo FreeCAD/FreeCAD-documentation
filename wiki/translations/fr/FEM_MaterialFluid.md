@@ -13,7 +13,8 @@
 
 Ajoute des propriétés fluides à une pièce.
 
-![](images/FEMMaterialFluidProperties.png ) *Le panneau de tâches des matériaux MEF*
+![](images/FEMMaterialFluidProperties.png ) 
+*Le panneau de tâches des matériaux MEF*
 
 ## Utilisation
 

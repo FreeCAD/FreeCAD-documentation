@@ -19,7 +19,8 @@ Lo strumento **Struttura** permette di costruire elementi strutturali quali colo
 
 Se non viene fornito alcun profilo, è disponibile una serie di modelli predefiniti per creare rapidamente un elemento strutturale da un profilo standard predefinito.
 
-![](images/Arch_Structure_example.jpg ) *Colonna basata su un profilo di base 2D; una colonna e un raggio definiti dalla loro altezza, lunghezza e larghezza, senza un profilo di base; una struttura metallica basata su una faccia 2D*
+![](images/Arch_Structure_example.jpg ) 
+*Colonna basata su un profilo di base 2D; una colonna e un raggio definiti dalla loro altezza, lunghezza e larghezza, senza un profilo di base; una struttura metallica basata su una faccia 2D*
 
 ## Utilizzo
 
@@ -67,7 +68,8 @@ Se non viene fornito alcun profilo, è disponibile una serie di modelli predefin
 
 Lo strumento Struttura dispone anche di una serie di preset che permettono di creare rapidamente dei profili metallici standard o degli elementi prefabbricati in calcestruzzo.
 
-![](images/Arch_presets_example.jpg ) *Alcuni preset per strutture in acciaio*
+![](images/Arch_presets_example.jpg ) 
+*Alcuni preset per strutture in acciaio*
 
 Ai preset si accede scegliendo una **Categoria** dal pannello Opzioni struttura. Le categorie disponibili sono **Prefabbricato in cemento** o uno qualsiasi dei profili metallici standard del settore, come **HEA**, **HEB** o **INP**. Per ciascuna di queste categorie sono disponibili una serie di preset. Dopo aver scelto il preset, si possono regolare i singoli parametri quali **Lunghezza**, **Larghezza** o **Altezza** . Al contrario, per i profili metallici, le dimensioni del profilo sono definite dalla preimpostazione e non possono essere modificate.
 
@@ -140,4 +142,4 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Structure/it
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/it

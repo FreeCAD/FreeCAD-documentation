@@ -13,7 +13,8 @@
 
 The <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:24px;"> **Draft AnnotationStyleEditor** command allows you to define styles that affect the visual properties of annotation-like objects, such as those create by the [Draft Text](Draft_Text.md), [Draft Dimension](Draft_Dimension.md) and [Draft Label](Draft_Label.md) commands.
 
- ![](images/Draft_AnnotationStyleEditor_example.png )  *The Annotation Styles Editor dialog box*
+ ![](images/Draft_AnnotationStyleEditor_example.png )  
+*The Annotation Styles Editor dialog box*
 
 ## Usage
 

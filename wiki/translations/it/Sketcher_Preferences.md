@@ -18,7 +18,7 @@ Le preferenze per l\'ambiente [Sketcher](Sketcher_Workbench.md) si trovano nel [
 
 </div>
 
-There are three tabs: General, Display, and Colors.
+There are three tabs: [General](#General.md), [Display](#Display.md) and [Colors](#Colors.md).
 
 ## General
 

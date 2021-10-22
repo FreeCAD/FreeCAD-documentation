@@ -3,7 +3,7 @@
    Name:Plot Labels
    Name/fr:Plot Etiquettes
    MenuLocation:Plot → Définir les étiquettes
-   Workbenches:[Plot](Plot_Module/fr.md)
+   Workbenches:[Plot](Plot_Workbench/fr.md)
 ---
 
 # Plot Labels/fr
@@ -18,7 +18,8 @@ Cet outil permet à l\'utilisateur de modifier les étiquettes du titre et des a
 
 Sélectionnez l\'onglet du tracé que vous souhaitez modifier, puis exécutez cet outil. Dans le cas de tracés multi-axes, vous pouvez sélectionner l\'ensemble des axes à modifier.
 
-![Plot axes selector](images/Plot_Axes_Active.png ) *Sélecteur pour l'ensemble des axes à éditer*.
+![Plot axes selector](images/Plot_Axes_Active.png ) 
+*Sélecteur pour l'ensemble des axes à éditer*.
 
 ## Options
 

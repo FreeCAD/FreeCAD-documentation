@@ -13,7 +13,8 @@
 
 Der **Std AnsichtIsometrisch**-Befehl richtet die Kamera in der aktiven _ sein, aber der Befehl funktioniert auch, wenn die Ansicht im [perspektivischen Modus](Std_PerspectiveCamera/de.md) ist.
 
-![](images/Std_ViewIsometric_example.svg ) *Das [Achsenkreuz](Std_AxisCross/de.md) und ein Würfel in isometrischer Ansicht*
+![](images/Std_ViewIsometric_example.svg ) 
+*Das [Achsenkreuz](Std_AxisCross/de.md) und ein Würfel in isometrischer Ansicht*
 
 ## Anwendung
 

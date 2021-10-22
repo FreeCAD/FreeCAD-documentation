@@ -24,4 +24,4 @@ The clone component will simply have its **CloneOf** property set to the selecte
 ## Scripting
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/en
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/en

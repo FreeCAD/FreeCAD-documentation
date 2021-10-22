@@ -41,7 +41,8 @@ Această funcționalitate vă permite să creați ferestre noi de vizualizare 3D
 
 </div>
 
-![](images/ViewCreate1.png ) *The FreeCAD interface with multiple 3D views*
+![](images/ViewCreate1.png ) 
+*The FreeCAD interface with multiple 3D views*
 
 ## Utilizare 
 

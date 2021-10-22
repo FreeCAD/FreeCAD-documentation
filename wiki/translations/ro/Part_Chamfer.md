@@ -69,12 +69,12 @@ Un șanfren de lungime variabilă va avea marginile care pot fi setate la distan
 
 ### Vue combinée → Tâche 
 
-<img alt="Tâche options chanfrein" src=images/Part_Chamfer_fr_05.png  style="width:240px;"> {{TitreTache|<img src="images/Part_Fillet.png" width=16px> Chanfrein des arêtes}} {{TitreProprietes|Forme}}
+<img alt="Tâche options chanfrein" src=images/Part_Chamfer_fr_05.png  style="width:240px;"> {{TitleTasks|<img src="images/Part_Fillet.png" width=16px> Chanfrein des arêtes}} {{TitleProperty|Forme}}
 
 -    {{OngletTache|Forme sélectionnée}}: Si une forme a été sélectionnée, elle est automatiquement affichée. Si aucune forme n\'est sélectionnée, vous pouvez sélectionner votre forme dans cette boîte déroulante. Cette boîte déroulante <img alt="" src=images/Tache_PartFillet_Fillet_fr_00.png  style="width:96px;">, liste toutes les formes qui peuvent être utilisées par l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, vous pouvez sélectionner votre forme dans cette liste, (ou avant de sélectionner l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, directement dans la fenêtre 3D, et, elle sera automatiquement affichée). (Défaut, **Aucune sélection**).
 
 
-{{TitreProprietes|Paramètres de congé}}
+{{TitleProperty|Paramètres de congé}}
 
 -    ** Tous **: Sélectionne toutes les arêtes de la forme sélectionnée.
 
@@ -121,7 +121,7 @@ Sur cette exemple l\'option est réglée sur **[Rayon variable](#Chanfrein_asym�
 <img alt="Propriétés Données" src=images/Part_Chamfer_fr_04.png  style="width:240px;">
 
 
-{{TitreProprietes|Base}}
+{{TitleProperty|Base}}
 
 -    {{ProprieteDonnees|Label}}: Label donné à la forme, modifiable à volonté.
 
@@ -182,7 +182,7 @@ La modification d\'une valeur de plus d\'un axes provoque la rotation avec l\'an
 <img alt="Propriétés Données" src=images/Part_Chamfer_fr_04.png  style="width:240px;">
 
 
-{{TitreProprietes|Base}}
+{{TitleProperty|Base}}
 
 -    {{ProprieteDonnees|Label}}: Label donné à la forme, modifiable à volonté.
 
@@ -243,12 +243,12 @@ Réglez la valeur du rayon, puis cliquez **OK** pour valider.
 
 ### Vue combinée → Tâche 
 
-<img alt="Tâche options chanfrein" src=images/Part_Chamfer_fr_05.png  style="width:240px;"> {{TitreTache|<img src="images/Part_Fillet.png" width=16px> Chanfrein des arêtes}} {{TitreProprietes|Forme}}
+<img alt="Tâche options chanfrein" src=images/Part_Chamfer_fr_05.png  style="width:240px;"> {{TitleTasks|<img src="images/Part_Fillet.png" width=16px> Chanfrein des arêtes}} {{TitleProperty|Forme}}
 
 -    {{OngletTache|Forme sélectionnée}}: Si une forme a été sélectionnée, elle est automatiquement affichée. Si aucune forme n\'est sélectionnée, vous pouvez sélectionner votre forme dans cette boîte déroulante. Cette boîte déroulante <img alt="" src=images/Tache_PartFillet_Fillet_fr_00.png  style="width:96px;">, liste toutes les formes qui peuvent être utilisées par l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, vous pouvez sélectionner votre forme dans cette liste, (ou avant de sélectionner l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, directement dans la fenêtre 3D, et, elle sera automatiquement affichée). (Défaut, **Aucune sélection**).
 
 
-{{TitreProprietes|Paramètres de congé}}
+{{TitleProperty|Paramètres de congé}}
 
 -    ** Tous **: Sélectionne toutes les arêtes de la forme sélectionnée.
 
@@ -283,7 +283,7 @@ Sur cette exemple l\'option est réglée sur **[Rayon variable](#Chanfrein_asym�
 <img alt="Propriétés Données" src=images/Part_Chamfer_fr_04.png  style="width:240px;">
 
 
-{{TitreProprietes|Base}}
+{{TitleProperty|Base}}
 
 -    {{ProprieteDonnees|Label}}: Label donné à la forme, modifiable à volonté.
 

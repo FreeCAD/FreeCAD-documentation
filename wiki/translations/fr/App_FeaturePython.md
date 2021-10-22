@@ -8,6 +8,7 @@ Il s\'agit d\'un objet simple qui, par défaut, n\'a pas beaucoup de propriété
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Diagramme simplifié des relations entre les objets centraux du programme. La classe `App::FeaturePython* est une implémentation simple de {{incode|App::DocumentObject` qui peut être utilisée à n'importe quelle fin, car elle n'a pas de [TopoShape](Part_TopoShape/fr.md) par défaut.}}
 
 ## Utilisation

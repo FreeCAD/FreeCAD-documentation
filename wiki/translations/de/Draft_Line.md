@@ -32,6 +32,7 @@ A Draft Line is in fact a [Draft Wire](Draft_Wire.md) with only two points.
 <div class="mw-translate-fuzzy">
 
 
+
 *Linie erzeugt durch zwei Punkte*
 
 

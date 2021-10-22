@@ -10,6 +10,7 @@ It was developed to be used in assemblies, as it has an **Origin** which serves 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Simplified diagram of the relationships between the core objects in the program. The `App::Part* class is a simple container that has a position in 3D space, and has an Origin to control the placement of the objects grouped under it.`
 
 ## Usage

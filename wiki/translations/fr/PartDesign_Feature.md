@@ -40,6 +40,7 @@ Les fonctionnalités peuvent être classées en différentes catégories:
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Diagramme simplifié des relations entre les objets centraux du programme. L'objet `PartDesign::Feature*  est destiné à construire des solides 3D paramétriques et est donc dérivé de l'objet de base {{incode|Part::Feature`.}}
 
 ## Script

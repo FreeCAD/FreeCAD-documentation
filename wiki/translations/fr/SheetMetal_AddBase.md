@@ -11,16 +11,40 @@
 
 ## Description
 
-La commande <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> *SheetMetal AddBase* crée une paroi en tôle à partir d\'une esquisse.
+La commande <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> *SheetMetal AddBase* crée un objet de base SheetMetal à partir d\'une esquisse.
+
+A partir d\'un contour ouvert, il crée un *profil* prismatique :
+
+<img alt="" src=images/SheetMetal_AddBase-01.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddBase-02.png  style="width:200px;">
+
+A partir d\'un contour fermé, il crée une *plaque* de base (vierge) :
+
+<img alt="" src=images/SheetMetal_AddBase-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddBase-04.png  style="width:200px;">
 
 ## Utilisation
 
-L\'outil crée une feuille à partir d\'une esquisse :
+### Profilage
 
--   Un contour d\'esquisse ouvert est extrudé par une {{Parameter|length}} (longueur), créant une feuille de {{Parameter|thickness}} (épaisseur) avec des coins arrondis au {{Parameter|radius}} (rayon). Le paramètre {{Parameter|bend side}} (côté du pli) détermine l\'orientation de la feuille par rapport à la ligne.
--   Un contour d\'esquisse fermé est extrudé vers une feuille de {{Parameter|thickness}}. Dans ce cas, les paramètres {{Parameter|length}} et {{Parameter|radius}} ne sont pas utilisés.
+1.  Sélectionnez une <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [esquisse](Sketcher_Workbench/fr.md) à **contour ouvert**.
+2.  Lancez <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [SheetMetal AddBase](SheetMetal_AddBase/fr.md) en utilisant l\'une des commandes suivantes :
+    -   Le bouton **<img src="images/SheetMetal_AddBase.svg" width=16px> [SheetMetal Tôle de base](SheetMetal_AddBase/fr.md)**.
+    -   L\'option de menu **SheetMetal → <img src="images/SheetMetal_AddBase.svg" width=16px> Faire un mur de base** option de menu.
+    -   Le raccourci clavier : **C** puis **B**.
+3.  Ajustez les paramètres du profil en modifiant les valeurs correspondantes dans l\'[Éditeur de propriétés](Property_editor/fr.md) :
+    -   La propriété **length** pour la longueur du profil,
+    -   La propriété **thickness** pour l\'épaisseur du profil,
+    -   La propriété **radius** pour le rayon intérieur des plis.
 
-<img alt="" src=images/Sheetmetal.png  style="width:400px;">
+### Plaque
+
+1.  Sélectionnez une <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [esquisse](Sketcher_Workbench/fr.md) à **contour fermé**.
+2.  Lancez <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [SheetMetal AddBase](SheetMetal_AddBase/fr.md) (voir ci-dessus).
+3.  Ajustez le paramètre de la plaque en éditant la valeur correspondante dans l\'[Éditeur de propriétés](Property_editor/fr.md) :
+    -   La propriété **thickness** pour l\'épaisseur de la plaque.
+
+:   
+
+    :   (Les propriétés **length** et **radius** ne sont pas utilisées pour les plaques).
 
 ## Propriétés
 

@@ -18,6 +18,7 @@ Le répertoire de départ de la boîte de dialogue peut être spécifié dans le
 <img alt="" src=images/A4_Landscape_ISO7200_Pep.svg  style="width:400px;">
 
 
+
 *L'un des modèles fournis avec TechDraw : A4 ISO 7200_Pep, page orientée paysage, avec des champs de texte modifiables*
 
 ## Utilisation

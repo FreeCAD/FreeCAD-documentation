@@ -8,6 +8,7 @@ Hierbei handelt es sich um ein einfaches Objekt, das standardmäßig nicht viele
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die Klasse `App::FeaturePython* ist eine einfache Implementierung der Klasse {{incode|App::DocumentObject`, die für jeden Zweck verwendet werden kann, da sie standardmäßig keinen [TopoForm](Part_TopoShape/de.md) hat.}}
 
 ## Anwendung

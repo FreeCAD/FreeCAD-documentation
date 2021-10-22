@@ -18,13 +18,23 @@ The Balloon tool can add balloons with leader line in a drawing.
 
 ## Применение
 
-1.  Select the View to which the Balloon will be attached.
-2.  Press the **<img src="images/TechDraw_Balloon.svg" width=16px> [Balloon](TechDraw_Balloon.md)** button.
-3.  The cursor is now displayed as a balloon icon. Click on the page to place the balloon origin to the desired position.
-4.  The balloon bubble may be dragged to the desired position. Use **Ctrl**+drag to move the bubble and the arrow.
-5.  To change the balloon properties either double-clicking onto it in the drawing or double-click on the balloon object in the model tree. This will open the balloon dialog.
+1.  Select one of the following:
+    -   A View (on the page or in the [Tree view](Tree_view.md)).
+    -   A vertex in a View. <small>(v0.20)</small> 
+    -   An edge in a View. <small>(v0.20)</small> 
+    -   A closed region in a View. <small>(v0.20)</small> 
+2.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_Balloon.svg" width=16px> [TechDraw Balloon](TechDraw_Balloon.md)** button.
+    -   Select the **TechDraw → Annotations → <img src="images/TechDraw_Balloon.svg" width=16px> Insert Balloon Annotation** option from the menu.
+3.  If a View or a region was selected:
+    1.  The cursor changes to a balloon icon.
+    2.  Click a point on the page for the origin of the Balloon.
 
-**Note:** The position of the balloon is relative to the View and uses the same scale factor as the View.
+To move the bubble of a Balloon, press and hold the left mouse button on its center and drag the mouse.
+
+To change the properties of a Balloon double-click it on the page or in the [Tree view](Tree_view.md). This will open the Balloon task panel.
+
+**Note:** The position of a Balloon is relative to its Source View and uses the same scale factor.
 
 ## Using separators 
 

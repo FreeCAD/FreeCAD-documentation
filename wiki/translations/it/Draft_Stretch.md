@@ -30,6 +30,7 @@ Lo strumento <img alt="" src=images/Draft_Stretch.svg  style="width:16px;"> Stir
 <div class="mw-translate-fuzzy">
 
 
+
 *Allungamento di tre polilinee racchiudendo alcuni vertici e spostandoli in un'altra posizione*
 
 

@@ -8,7 +8,7 @@ This is the **top category** which contains the main categories of the FreeCAD w
 
 ### Contents:
 
-[API documentation/cs](API_documentation/cs.md) , [List of Commands/cs](List_of_Commands/cs.md) , , , , , , , , , , , , , , , ,
+[List of Commands/cs](List_of_Commands/cs.md) , , , , , , , , , , , , , , , ,
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 

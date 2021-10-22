@@ -37,11 +37,13 @@ Tak więc krzywa, za pomocą której można połączyć dwa punkty stycznie do p
 
 Krzywe Béziera są wielomianami opisującymi połączenie między dwoma punktami. Najprostszym wielomianem łączącym dwa punkty jest prosta *($A*x^1+B$)*, zatem również liniowe krzywe Béziera są liniowe:
 
-![](images/Bezier_linear_anim.gif ) *Animacja 1: Liniowa krzywa Béziera.*
+![](images/Bezier_linear_anim.gif ) 
+*Animacja 1: Liniowa krzywa Béziera.*
 
 Jednak wielomian staje się użyteczny, gdy możemy go kontrolować. Powinien więc istnieć punkt pomiędzy dwoma punktami końcowymi, który pozwala nam określić jak punkty końcowe są połączone. Tak jak w powyższym przykładzie w opcji trzeciej krzywa jest przydatna, gdy zaczyna się i kończy stycznie do linii przecinających punkty końcowe. I to jest główna cecha krzywych Béziera. Dodajmy więc punkt kontrolny pomiędzy punktami końcowymi. Krzywa zacznie się stycznie do tego punktu kontrolnego, co oznacza, że jest styczna do linii, którą możemy narysować pomiędzy punktem początkowym a punktem kontrolnym. Idąc wstecz od punktu końcowego krzywa będzie również styczna do linii, którą możemy narysować pomiędzy punktem kontrolnym a punktem końcowym. Animacja numer 2 pokazuje jak wygląda taka krzywa.
 
-![](images/Bezier_quadratic_anim.gif ) *Animacja 2: Kwadratowa krzywa Béziera. Punktem kontrolnym jest tutaj punkt P1.*
+![](images/Bezier_quadratic_anim.gif ) 
+*Animacja 2: Kwadratowa krzywa Béziera. Punktem kontrolnym jest tutaj punkt P1.*
 
 Animacja jasno pokazuje, czym w zasadzie jest krzywa - przejściem od punktu P0 do punktu P2 poprzez obrócenie linii P0-P1 tak, aby stała się linią P1-P2. W ten sposób otrzymujemy ładną cechę stycznego początku / końca.
 
@@ -49,7 +51,8 @@ Taka krzywa może być opisana tylko wielomianem kwadratowym. *(Liczba lewych / 
 
 Posiadanie tylko jednego punktu kontrolnego często nie jest wystarczające. Weźmy powyższy motywujący przykład. Tam w opcji 3 kończymy krzywą stycznie w kierunku x. Ale jak można połączyć punkty *(20, 0)* i *(80, 40)* tak, aby krzywa kończyła się stycznie w kierunku y? Aby to osiągnąć potrzebny jest najpierw zwrot w prawo, a potem w lewo, a więc wielomian sześcienny *(trzeciego rzędu)*. A to oznacza, że dla krzywej Béziera potrzebujemy *(lub można powiedzieć, że zyskujemy)* drugi punkt kontrolny. Animacja 3 pokazuje sześcienną krzywą Béziera.
 
-![](images/Bezier_cubic_anim.gif ) *Animacja 3: Sześcienna krzywa Béziera.*
+![](images/Bezier_cubic_anim.gif ) 
+*Animacja 3: Sześcienna krzywa Béziera.*
 
 Aby odpowiedzieć na pytanie, rozwiązaniem z zakończeniem stycznym w kierunku y dla przykładu jest:
 
@@ -104,7 +107,8 @@ W ten sposób $p_k$ jest $k$-tym punktem kontrolnym krzywej złożonej i jednocz
 
 Jak wyjaśniono w filmie, wielomiany bazowe są wielomianami Bernsteina. Zbiór wielomianów bazowych dla pewnego B-splajnu można zwizualizować w następujący sposób:
 
-![](images/Bernstein_Polynomials.svg ) *Zestaw wielomianów Bernsteina o rzędzie 4. Opisują one B-splajnę 4 rzędu z 5 punktami kontrolnymi.*
+![](images/Bernstein_Polynomials.svg ) 
+*Zestaw wielomianów Bernsteina o rzędzie 4. Opisują one B-splajnę 4 rzędu z 5 punktami kontrolnymi.*
 
 W każdej pozycji splajnu $t$ suma wielomianów wynosi 1 (zaznaczona pomarańczową linią). Na początku tylko czerwony wielomian ma wpływ, ponieważ wszystkie inne wielomiany są tam równe 0. Przy większych $t$ krzywa jest opisywana przez kombinację liniową różnych wielomianów bazowych. Na powyższym obrazku każdy wielomian jest większy od 1 dla całego zakresu $0 < t < 1$. Niekoniecznie musi tak być w rzeczywistości. Jak pokazano na filmie, wielomiany bazowe są w zasadzie większe od 0 tylko dla pewnego zakresu pozycji krzywej. Przedział, w którym wielomian bazowy jest większy od 0, jest opisywany przez *wektor węzłów*. Jeśli jesteś zainteresowany poznaniem wektora węzłów, zajrzyj na film [Krzywe MOOC 8.5: Węzły krzywej B-spline](https://www.youtube.com/watch?v=ni5NNPCVvDY).
 

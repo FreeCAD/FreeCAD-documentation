@@ -31,7 +31,8 @@ Das **Polarmuster** Werkzeug nimmt ein ausgewähltes Formelement und erstellt ei
 
 #### Formelemente ordnen 
 
-![](images/PartDesign_feature-order.gif ) *Auswirkung der Formelementreihenfolge*
+![](images/PartDesign_feature-order.gif ) 
+*Auswirkung der Formelementreihenfolge*
 
 
 {{Version/de|0.19}}

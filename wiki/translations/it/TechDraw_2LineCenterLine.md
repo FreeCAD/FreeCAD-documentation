@@ -20,6 +20,7 @@ Lo strumento Linea centrale a 2 linee aggiunge una linea centrale tra due bordi.
 <img alt="" src=images/CL2LinesSample.png  style="width:350px;">
 
 
+
 *Linea centrale allineata tra 2 bordi*
 
 ## Utilizzo

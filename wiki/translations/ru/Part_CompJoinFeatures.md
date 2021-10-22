@@ -29,7 +29,8 @@
 -   <img alt="" src=images/Part_JoinEmbed.svg  style="width:24px;"> [Embed](Part_JoinEmbed.md): embeds a walled object (e.g., a pipe) into another walled object.
 -   <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Cutout](Part_JoinCutout.md): creates a cutout in a walled object (e.g., a pipe) to fit another walled object.
 
-![](images/JoinFeatures_dropdownToolbarButton.png ) *Dropdown menu of the different Join Features within the [[interface]]*
+![](images/JoinFeatures_dropdownToolbarButton.png ) 
+*Dropdown menu of the different Join Features within the [[interface]]*
 
 <img alt="" src=images/JoinFeatures_demo.png  style="width:668px;"> 
 *Above: showing the result of each tool available*

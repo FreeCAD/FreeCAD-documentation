@@ -16,6 +16,7 @@ L**\'opération Booléenne** importe un ou plusieurs [PartDesign Corps](PartDesi
 ![](images/PartDesign_Boolean_example.png )
 
 
+
 *A gauche : un corps actif (A) avec des corps (B) et (C). A droite : le résultat après une soustraction booléenne.*
 
 ## Utilisation

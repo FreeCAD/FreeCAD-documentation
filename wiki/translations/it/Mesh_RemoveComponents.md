@@ -11,7 +11,8 @@
 
 Il comando **Rimuovi componenti** rimuove le facce dagli oggetti mesh.
 
-![](images/Meshes_RemoveComponents.jpg ) *Il pannello delle azioni Rimuovi componenti*
+![](images/Meshes_RemoveComponents.jpg ) 
+*Il pannello delle azioni Rimuovi componenti*
 
 ## Utilizzo
 

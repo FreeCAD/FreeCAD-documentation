@@ -162,4 +162,4 @@ FreeCAD.ActiveDocument.recompute()
 _
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Wall/zh-tw
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Wall/zh-tw

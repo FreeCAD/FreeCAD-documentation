@@ -16,6 +16,7 @@ Contraint deux lignes à suivre la loi de la réfraction de la lumière qui pén
 <img alt="" src=images/Snells_law2_witheq.svg  style="width:" height="400px;">
 
 
+
 *Loi de Snell*
 
 ## Utilisation

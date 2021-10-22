@@ -60,7 +60,8 @@ Zaznacz szkic, naciśnij klawisz **F2** i zmień nazwę na \"BaseSketch\".
 
 ![centre\|Szkic podstawy](images/Sketch1.png )
 
-[na początek strony](#top.md)
+
+{{top}}
 
 ### Odsunięcie dołączenia 
 
@@ -88,7 +89,8 @@ Powinny pozostać dwa stopnie swobody, czyli położenie względem Odniesienie p
 
 ![centre\|Pierwszy trójkąt](images/IsoscelesSketch.png )
 
-[na początek strony](#top.md)
+
+{{top}}
 
 ### Zmiana dołączenia 
 
@@ -144,7 +146,8 @@ Teraz można wprowadzić kieszeń do szkicu.
 
 ![centre\|Kieszeń](images/Pocket.png )
 
-[na początek strony](#top.md)
+
+{{top}}
 
 ### O krok dalej 
 
@@ -180,7 +183,8 @@ Możesz teraz wykonać kieszeń ze szkicu. Tym razem użyj opcji \"Symetrycznie 
 
 ![centre\|Druga kieszeń](images/2ndPocket.png )
 
-[na początek strony](#top.md)
+
+{{top}}
 
 ### Manipulowanie dołączeniem 
 
@@ -226,7 +230,8 @@ Moglibyśmy użyć odsunięcia w kierunku Z - które teraz odpowiada przeciwnemu
 
 Potwierdźmy więc i zakończmy na razie tą czynność zamykając okno dialogowe.
 
-[na początek strony](#top.md)
+
+{{top}}
 
 ### Mapowanie parametru ścieżki 
 
@@ -244,7 +249,8 @@ Możesz teraz wykonać kieszeń na szkicu. Nie zapomnij użyć opcji Symetryczni
 
 ![centre\|trzecia kieszeń](images/3rdPocket.png )
 
-[na początek strony](#top.md)
+
+{{top}}
 
 ### Inny tryb wyboru 
 
@@ -272,7 +278,8 @@ Potwierdź i zamknij okno dialogowe. Możemy teraz użyć płaszczyzny odniesien
 
 ![centre\|Artykuł ukończony](images/FinishedArticle.png )
 
-[na początek strony](#top.md)
+
+{{top}}
 
 ### Tymczasowe dołączenie do generowanej płaszczyzny 
 
@@ -290,14 +297,13 @@ Jedną z ważnych rzeczy, którą należy wynieść z tego poradnika, jest znacz
 
 Miłego dołączania!
 
-[na początek strony](#top.md)
+
+{{top}}
 
 
 {{Tutorials_navi
 
-}} {{PartDesign_Tools_navi}} {{Sketcher_Tools_navi}} 
-
-_
+}} {{PartDesign_Tools_navi}} {{Sketcher_Tools_navi}}
 
 ---
 [documentation index](../README.md) > Basic Attachment Tutorial/pl

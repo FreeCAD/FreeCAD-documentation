@@ -104,4 +104,4 @@ Our page can now be exported to SVG for further work in graphical applications l
 _
 
 ---
-[documentation index](../README.md) > Manual:Generating 2D drawings/es
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Generating 2D drawings/es

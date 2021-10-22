@@ -1,0 +1,9 @@
+# Category:External Command Reference/fr
+This categorizes all **external** workbench commands separate from the internal _
+
+### Contents:
+
+_ , [Curves Workbench/fr](Curves_Workbench/fr.md) , [Curves ZebraTool/fr](Curves_ZebraTool/fr.md) , [Fasteners BOM/fr](Fasteners_BOM/fr.md) , [Fasteners ScrewCalculator/fr](Fasteners_ScrewCalculator/fr.md) , [Fasteners Workbench/fr](Fasteners_Workbench/fr.md) , [FCGear BevelGear/fr](FCGear_BevelGear/fr.md) , [FCGear CrownGear/fr](FCGear_CrownGear/fr.md) , [FCGear CycloideGear/fr](FCGear_CycloideGear/fr.md) , [FCGear InvoluteGear/fr](FCGear_InvoluteGear/fr.md) , [FCGear InvoluteRack/fr](FCGear_InvoluteRack/fr.md) , [FCGear LanternGear/fr](FCGear_LanternGear/fr.md) , [FCGear TimingGear/fr](FCGear_TimingGear/fr.md) , [FCGear WormGear/fr](FCGear_WormGear/fr.md) , [Lattice2 AttachablePlacement/fr](Lattice2_AttachablePlacement/fr.md) , [Reinforcement Bar Bending Schedule/fr](Reinforcement_Bar_Bending_Schedule/fr.md) , [Reinforcement Bar Shape Cut List/fr](Reinforcement_Bar_Shape_Cut_List/fr.md) , [SheetMetal AddBase/fr](SheetMetal_AddBase/fr.md) , [SheetMetal AddBend/fr](SheetMetal_AddBend/fr.md) , [SheetMetal AddCornerRelief/fr](SheetMetal_AddCornerRelief/fr.md) , [SheetMetal AddFoldWall/fr](SheetMetal_AddFoldWall/fr.md) , [SheetMetal AddJunction/fr](SheetMetal_AddJunction/fr.md) , [SheetMetal AddRelief/fr](SheetMetal_AddRelief/fr.md) , [SheetMetal AddWall/fr](SheetMetal_AddWall/fr.md) , [SheetMetal Examples/fr](SheetMetal_Examples/fr.md) , [SheetMetal Extrude/fr](SheetMetal_Extrude/fr.md) , [SheetMetal Forming/fr](SheetMetal_Forming/fr.md) , [SheetMetal SketchOnSheet/fr](SheetMetal_SketchOnSheet/fr.md) , [SheetMetal UnattendedUnfold/fr](SheetMetal_UnattendedUnfold/fr.md) , [SheetMetal Unfold/fr](SheetMetal_Unfold/fr.md) , [SheetMetal Workbench/fr](SheetMetal_Workbench/fr.md)
+
+---
+[documentation index](../README.md) > Category:External Command Reference/fr

@@ -23,7 +23,8 @@ Copies the selected sketch elements from one point to another, using the last se
 
 1.  Select sketcher element for copy operation.
 2.  Click on the **<img src=images/Sketcher_Copy.svg style="width:16px"> <img src=images/Sketcher_Copy.svg style="width:Sketcher Copy](Sketcher_Copy.md)** button in the toolbar or choose **Sketch → Sketcher tools → [16px"> Copy** from the Sketch menu.
-3.  Place copy in the [3D view](3D_view.md).
+3.  Move the mouse in the [3D view](3D_view.md) to the desired location for the copy.By keeping **SHIFT** pressed, the angle to the location point can be fixed in steps of 5°. <small>(v0.20)</small> 
+4.  Left-click in the 3D view to create the copy.
 
 No extra constraints are added.
 

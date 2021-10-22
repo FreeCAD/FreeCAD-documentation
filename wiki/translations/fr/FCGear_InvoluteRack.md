@@ -22,7 +22,8 @@ Les crémaillères sont utilisées pour convertir un mouvement rotatif en un mou
 
 :   ![](images/Involute-Rack_example.png )
 :   
-    *De gauche à droite: Engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal*
+    
+*De gauche à droite: Engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal*
     
 
 ## Utilisation

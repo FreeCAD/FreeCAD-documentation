@@ -14,7 +14,8 @@ L\'option <img alt="" src=images/Draft_Snap_Perpendicular.svg  style="width:24px
 
 Cette option d\'aimantation permet également de trouver des points sur le prolongement des arêtes droites. Les arêtes circulaires sont toujours traitées comme des cercles complets, si une arête circulaire est un arc, le point trouvé peut ne pas se trouver sur l\'arête réelle.
 
-![](images/Draft_Snap_Perpendicular_example.png ) *Aimantation du deuxième point d'une ligne au point perpendiculaire sur une arête étendue*
+![](images/Draft_Snap_Perpendicular_example.png ) 
+*Aimantation du deuxième point d'une ligne au point perpendiculaire sur une arête étendue*
 
 ## Utilisation
 

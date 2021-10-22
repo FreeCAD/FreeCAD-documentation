@@ -14,6 +14,7 @@ The **Groove** tool revolves a selected sketch or profile about a given axis, cu
  ![](images/PartDesign_Groove_example.svg ) 
 
 
+
 *Above: sketch (A) is revolved around axis (B); resulting groove on solid (C) is shown right.*
 
 ## Usage

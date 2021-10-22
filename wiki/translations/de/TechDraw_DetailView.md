@@ -14,7 +14,8 @@
 
 Das Detailwerkzeug erstellt eine vergrößerte Ansicht eines kleinen Bereichs einer vorhandenen Ansicht.
 
-![](images/ViewDetail.png ) *Detailansicht mit kreisförmiger Ansichtskasten einer vorhandenen Ansicht*
+![](images/ViewDetail.png ) 
+*Detailansicht mit kreisförmiger Ansichtskasten einer vorhandenen Ansicht*
 
 ## Anwendung
 
@@ -74,7 +75,8 @@ Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
 
 Dies wird erreicht, indem die Detailansicht in eine [Klipgruppe](TechDraw_ClipGroup/de.md) gesetzt wird:
 
-![](images/TechDraw_DetailClipped.png ) *Detailansicht in einer Klipgruppe*
+![](images/TechDraw_DetailClipped.png ) 
+*Detailansicht in einer Klipgruppe*
 
 -   Bei Detailansichten mit einem runden Umriss kann die Position der Bezugskennzeichnung in der Basisansicht über die Basisansichtseigenschaft {{PropertyView/de|Einstellung Hervorheben}} geändert werden.
 

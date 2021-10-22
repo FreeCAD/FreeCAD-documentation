@@ -40,6 +40,7 @@ Um ein einfacheres Textelement ohne Pfeil einzufügen, verwende [Entwurf Text](D
 <div class="mw-translate-fuzzy">
 
 
+
 *Verschiedene Etiketten mit unterschiedlichen Ausrichtungen, Hinweissymbolen und Informationen*
 
 

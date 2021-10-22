@@ -32,6 +32,7 @@ A Draft Arc is in fact a [Draft Circle](Draft_Circle.md) with a **First Angle** 
 <div class="mw-translate-fuzzy">
 
 
+
 *通过中心点、半径、弧的初始点、弧的结束点这4点所定义的圆弧*
 
 

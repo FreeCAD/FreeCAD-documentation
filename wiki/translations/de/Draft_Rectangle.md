@@ -32,6 +32,7 @@ Du kannst optional eine 45-Grad-Fase oder eine runde Verrundung zu jeder Ecke de
 <div class="mw-translate-fuzzy">
 
 
+
 *Rechteck definiert durch die beiden Eckpunkte*
 
 

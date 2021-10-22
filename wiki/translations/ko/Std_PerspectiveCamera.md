@@ -14,7 +14,8 @@
 
 **표준 원근투영 카메라(Std PerspectiveCamera)** 명령은 활성 [3D 보기의](3D_view/ko.md) 카메라를 원근투영 보기 모드로 전환합니다. 이 모드에서는 카메라에서 먼 개체가 가까운 개체보다 더 작게 보입니다.
 
-![](images/Std_PerspectiveCamera_example.svg ) *원근 투영 보기에서 크기가 같은 두 육면체*
+![](images/Std_PerspectiveCamera_example.svg ) 
+*원근 투영 보기에서 크기가 같은 두 육면체*
 
 ## 용법
 

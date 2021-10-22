@@ -50,9 +50,16 @@ Wir beginnen damit, ein neues leeres Dokument zu erstellen:
 doc = FreeCAD.newDocument()
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Wenn du dies in der FreeCAD Python Konsole eingibst, wirst du feststellen, dass sobald du `FreeCAD.` eingibst, ein Fenster erscheint, in dem du den Rest deiner Zeile schnell automatisch vervollständigen kannst. Besser noch, jeder Eintrag in der Autovervollständigungsliste hat einen Werkzeugtip, der erklärt, was er tut. Dies macht es einfacher, die verfügbare Funktionalität zu erkunden. Bevor du `newDocument` wählst, wirf einen Blick auf die anderen Optionen.
 
-![](images/Screenshot_classbrowser.jpg ) *Autovervollständigungsmechanismus der FreeCAD Pythonkonsole*
+
+</div>
+
+![](images/Screenshot_classbrowser.jpg ) 
+*Autovervollständigungsmechanismus der FreeCAD Pythonkonsole*
 
 Nun wird unser neues Dokument erstellt. Dies ist ähnlich wie das Drücken der **<img src="images/Std_New.svg" width=16px> [Std Neu](Std_New/de.md)** Schaltfläche in der Werkzeugleiste. Tatsächlich tun die meisten Schaltflächen in FreeCAD nichts anderes, als eine oder mehrere Zeilen Python Code auszuführen. Noch besser, du kannst eine Option in **Bearbeiten → Einstellungen → Allgemein → Makro** auf **Zeige Skriptbefehle in der Python konsole** setzen. Dadurch wird in der Konsole der gesamte Python Code ausgegeben, der ausgeführt wird, wenn fu Tasten drückst. Sehr nützlich, um zu lernen, wie man Aktionen in Python reproduziert.
 
@@ -70,14 +77,26 @@ Erkunde die verfügbaren Optionen. Normalerweise sind Namen, die mit einem Groß
 box = doc.addObject("Part::Box", "myBox")
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Es geschieht nichts. Warum nicht? Weil FreeCAD für das große Ganze gemacht ist. Eines Tages wird es mit Hunderten von komplexen Objekten arbeiten, die alle voneinander abhängen. Wenn du irgendwo eine kleine Änderung vornimmst, kann das große Auswirkungen haben, und du musst vielleicht das ganze Dokument neu berechnen, was sehr lange dauern kann. Aus diesem Grund aktualisiert fast kein Befehl die Szene automatisch. Du musst es manuell durchführen:
+
+
+</div>
 
 
 ```python
 doc.recompute()
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Nun erschien unser Würfel. Viele der Schaltflächen, mit denen in FreeCAD Objekte hinzugefügt werden können, tun eigentlich zwei Dinge: das Objekt hinzufügen und neu berechnen. Wenn du die obige Option **Skriptbefehle in der Python Konsole anzeigen** eingeschaltet hast, versuche, mit der GUI Schaltfläche eine Kugel hinzuzufügen. Du wirst sehen, wie die beiden Zeilen des Python Codes nacheinander ausgeführt werden.
+
+
+</div>
 
 Lass uns nun den Inhalt unseres Würfels erkunden:
 
@@ -100,7 +119,13 @@ Dadurch wird die aktuelle Höhe unseres Würfels ausgegeben. Lass uns nun versuc
 box.Height = 5
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Wenn du dein Feld mit der Maus auswählst, siehst du, dass im [Eigenschaftseditor](Property_editor/de.md) auf dem **Daten** Reiter unsere Eigenschaft **Höhe** erscheint. Alle Eigenschaften eines FreeCAD Objekts, die dort (und auch auf dem **Ansicht** Reiter erscheinen, dazu später mehr), sind auch von Python direkt zugänglich, und zwar über ihren Namen, wie wir es mit der **Höhe** Eigenschaft getan haben. Versuche, die anderen Dimensionen des Würfels zu ändern.
+
+
+</div>
 
 [Anfang](#top.md)
 

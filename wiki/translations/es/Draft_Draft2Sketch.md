@@ -21,7 +21,8 @@ El <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> comando *
 
 </div>
 
-![](images/Draft_Draft2Sketch_example.png ) *Convertir objetos de borrador en Croquizador Croquis*
+![](images/Draft_Draft2Sketch_example.png ) 
+*Convertir objetos de borrador en Croquizador Croquis*
 
 ## Utilización
 

@@ -28,13 +28,15 @@ Bulkheads may include a step.
 
 A step may be thought of as an additional bulkhead of smaller diameter stacked on top of the original bulkhead. The most common use is to cap the end of a body tube, such as for an electronics bay. In this case the outer diameter of the bulkhead would match the outer diameter of the body tube, and the outer diameter of the step would match the inner diameter of the body tube.
 
- ![](images/Stepped_Bulkhead.png )  *A stepped bulkhead used to cap a body tube*
+ ![](images/Stepped_Bulkhead.png )  
+*A stepped bulkhead used to cap a body tube*
 
 ### Holes
 
 A bulkhead may require holes for a variety of reasons, such as for attaching an eye hook. This tool allows you to specify one or more identical holes applied in a radial pattern.
 
- ![](images/Bulkhead_2.png )  *A stepped bulkhead with 4 holes*
+ ![](images/Bulkhead_2.png )  
+*A stepped bulkhead with 4 holes*
 
 ## Properties
 

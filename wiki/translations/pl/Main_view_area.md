@@ -8,6 +8,7 @@ Zazwyczaj zawiera on zakładki dla z [strony startowej](Start_Workbench/pl.md), 
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
+
 *Główny obszar widoku jest oznaczony numerem 1 i może zawierać różne zakładki okien, przede wszystkim stronę startową i [widok 3D](3D_view/pl.md).*
 
 ## Okna

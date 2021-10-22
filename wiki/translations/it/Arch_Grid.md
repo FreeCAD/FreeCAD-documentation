@@ -36,6 +36,7 @@ La Griglia è un oggetto 2D e quindi può essere utilizzato ovunque sia necessar
 <div class="mw-translate-fuzzy">
 
 
+
 *Una serie di colonne, un sistema di ringhiere e una finestra, ciascuna basata su un oggetto [Griglia](Arch_Grid/it.md).*
 
 
@@ -143,4 +144,4 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Grid/it
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Grid/it

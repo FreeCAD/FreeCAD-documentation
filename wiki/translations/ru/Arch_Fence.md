@@ -98,4 +98,4 @@ Fence = Arch.buildFence(fence_section, post, sketch)
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Fence/ru
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Fence/ru

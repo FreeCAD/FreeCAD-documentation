@@ -12,7 +12,8 @@
 
 L\'option <img alt="" src=images/Draft_Snap_Grid.svg  style="width:24px;"> **Draft Aimantation Grille** permet de s\'aimanter aux intersections des lignes de la grille. La grille ne peut être utilisée que si la préférence **Activer la grille** est sélectionnée. Voir [Préférences](#Pr.C3.A9f.C3.A9rences.md).
 
-![](images/Draft_Snap_Grid_example.png ) *Aimantation du deuxième point d'une ligne à la grille*
+![](images/Draft_Snap_Grid_example.png ) 
+*Aimantation du deuxième point d'une ligne à la grille*
 
 ## Utilisation
 

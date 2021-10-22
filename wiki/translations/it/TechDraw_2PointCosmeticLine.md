@@ -21,6 +21,7 @@ Lo strumento **Linea tra 2 punti** aggiunge una linea cosmetica tra due vertici 
 <img alt="" src=images/CosLine2PointsSample.png  style="width:200px;">
 
 
+
 *Linea tra 2 punti*
 
 ## Utilizzo

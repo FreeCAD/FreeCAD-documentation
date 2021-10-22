@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-In questo tutorial impareremo come creare un grafico di base utilizzando il modulo **Grafico** e la console Python. Altre informazioni sul modulo Grafico sono disponibili [qui](Plot_Module/it.md).
+In questo tutorial impareremo come creare un grafico di base utilizzando il modulo **Grafico** e la console Python. Altre informazioni sul modulo Grafico sono disponibili [qui](Plot_Workbench/it.md).
 
 
 </div>
@@ -173,7 +173,7 @@ Questi comandi tracciano le funzioni. Il comando **plot** ammette anche l\'etich
 
 ### Mostrare la griglia e la legenda 
 
-Avviare l\'ambiente di lavoro [Grafico](Plot_Module/it.md) di FreeCAD nel menu Visualizza / Ambiente /. Quando il modulo è stato caricato, utilizzare lo strumento **Griglia** per mostrarla.
+Avviare l\'ambiente di lavoro [Grafico](Plot_Workbench/it.md) di FreeCAD nel menu Visualizza / Ambiente /. Quando il modulo è stato caricato, utilizzare lo strumento **Griglia** per mostrarla.
 
 
 </div>
@@ -228,7 +228,7 @@ Icona dello strumento per mostrare o nascondere la legenda.
 <div class="mw-translate-fuzzy">
 
 Come si può vedere, la legenda è vuota perché non è ancora stata impostata alcuna etichetta per la serie.
-Nel modulo [Grafico](Plot_Module/it.md) le serie senza una etichetta assegnata non sono rappresentate nella legenda, questo per consentire di inserire nel grafico delle linee ausiliarie.
+Nel modulo [Grafico](Plot_Workbench/it.md) le serie senza una etichetta assegnata non sono rappresentate nella legenda, questo per consentire di inserire nel grafico delle linee ausiliarie.
 
 
 </div>

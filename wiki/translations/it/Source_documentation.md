@@ -31,6 +31,7 @@ Compiling the API documentation follows the same general steps as compiling the 
 <img alt="" src=images/FreeCAD_documentation_compilation_workflow.svg  style="width:800px;">
 
 
+
 *General workflow to compile FreeCAD's programming documentation. The Doxygen and Graphviz packages must be in the system, as well as the FreeCAD source code itself. CMake configures the system so that with a single make instruction the documentation for the the entire project is compiled into many HTML files with diagrams.*
 
 ## Costruire la documentazione del codice sorgente 

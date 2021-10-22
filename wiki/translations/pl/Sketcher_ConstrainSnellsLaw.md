@@ -16,6 +16,7 @@ Powoduje związanie dwóch linii do przestrzegania prawa załamania światła, k
 <img alt="" src=images/Snells_law2_witheq.svg  style="width:" height="400px;">
 
 
+
 *Prawo Snell'a*
 
 ## Użycie

@@ -17,6 +17,7 @@ Narzędzie 2PointCosmeticLine dodaje linię kosmetyczną pomiędzy dwoma wierzch
 <img alt="" src=images/CosLine2PointsSample.png  style="width:200px;">
 
 
+
 *Linia kosmetyczna pomiędzy dwoma punktami*
 
 ## Użycie

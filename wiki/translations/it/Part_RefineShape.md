@@ -31,6 +31,7 @@ In alternativa, per produrre altre copie non parametriche degli oggetti utilizza
 <div class="mw-translate-fuzzy">
 
 
+
 *Risultato booleano originale (a sinistra) e copia della forma affinata (a destra).*
 
 

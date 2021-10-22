@@ -20,6 +20,7 @@ Das <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part zerschneid
 ![600px](images/Part_Slice_Demo.png)
 
 
+
 *Oben: die Stücke wurden anschließend manuell auseinander bewegt, um das Zerschneiden deutlich zu machen*
 
 

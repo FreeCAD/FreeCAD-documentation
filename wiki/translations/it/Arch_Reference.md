@@ -73,4 +73,4 @@ Arch.makeReference("/path/to/some/file.FSCtd","myPart")
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Reference/it
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Reference/it

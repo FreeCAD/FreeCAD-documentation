@@ -7,10 +7,10 @@
 
 </div>
 
-## Overview
-
 
 {{TOCright}}
+
+## Overview
 
 The installation of FreeCAD on the most well-known Linux systems has been now endorsed by the community, and FreeCAD should be directly available via the package manager available on your distribution. The FreeCAD team also provides some:
 

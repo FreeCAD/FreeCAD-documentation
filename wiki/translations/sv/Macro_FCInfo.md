@@ -1,4 +1,7 @@
 # Macro FCInfo/sv
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/sv
 |Name=Macro FCInfo
 |Icon=FCInfo.png
@@ -12,9 +15,18 @@
 |SeeAlso=<img src=images/Arch_Survey.svg style="width:Arch Survey|24px"> [Arch Survey](Arch_Survey/sv.md)<br />[Macro SimpleProperties](Macro_SimpleProperties/sv.md)
 }}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beskrivning
 
 Ger en serie information om den valda formen och kan visa en konvertering av längd, lutning (grader, radianer, grader, hällande) form, yta, volym och vikt av formuläret i densiteten vald i olika kvantiteter internationella och Anglo -Saxiska.
+
+
+</div>
 
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/4ff055ff5eb117f75beea5843efca4791990cf62/FCInfo_en_Ver_1-22-rmu_Docked.FCMacro}}

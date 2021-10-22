@@ -80,6 +80,7 @@ Für jedes kubische Bézier-Segment müssen vier Punkte verwendet werden, von de
 <img alt="" src=images/Draft_CubicBezCurve_API_example.png  style="width:600px;">
 
 
+
 *Beispiele für Bézierkurven, die unter Verwendung von 2, 3, 4, 5, 6, 7 und 8 Punkten erstellt wurden. Die durchgezogenen Linien stellen kubische Béziersegmente dar; die anderen Linien sind quadratisch oder linear.*
 
 Beispiel:

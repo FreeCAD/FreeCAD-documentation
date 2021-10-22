@@ -18,6 +18,7 @@ Dieses Werkzeug zeichnet eine Ellipse, indem drei Punkte ausgewählt werden: der
 <img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;">
 
 
+
 *|Die Reihenfolge der Klicks wird durch gelbe Pfeile mit Zahlen angezeigt. C ist das Zentrum, a - großer Durchmesser, b - kleiner Durchmesser, F1, F2 sind Foci.*
 
 ## Anwendung

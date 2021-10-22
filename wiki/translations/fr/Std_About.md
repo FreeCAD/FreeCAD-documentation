@@ -12,10 +12,12 @@
 
 La commande **A propos** ouvre une boîte de dialogue qui affiche des informations sur le programme FreeCAD.
 
-![](images/Help-About-Dropdown-screenshot.png ) *Activez la boîte de dialogue À propos via **Aide → <img src="images/Std_About.svg" width=16px> À propos de FreeCAD
+![](images/Help-About-Dropdown-screenshot.png ) 
+*Activez la boîte de dialogue À propos via **Aide → <img src="images/Std_About.svg" width=16px> À propos de FreeCAD
 ***
 
-![](images/Std_About_example.png ) *La boîte de dialogue À propos de FreeCAD*
+![](images/Std_About_example.png ) 
+*La boîte de dialogue À propos de FreeCAD*
 
 
 **'''ATTENTION''': ne prenez pas de capture d'écran de cette boîte de dialogue! Appuyez plutôt sur le bouton **Copier dans le presse-papiers** puis collez les informations dans votre demande d'aide.**
@@ -55,7 +57,7 @@ L\'onglet Remerciements affiche une liste des contributeurs au projet FreeCAD. P
 
 ### Licence
 
-FreeCAD est autorisé sous les termes de la _ pour plus de détails.
+FreeCAD est sous licence _ pour plus de détails.
 
 Comme FreeCAD utilise des bibliothèques externes, elles peuvent avoir leurs propres conditions de licence. Consultez leurs licences particulières dans les [bibliothèques tierces](Third_Party_Libraries/fr.md).
 

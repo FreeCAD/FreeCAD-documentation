@@ -14,37 +14,46 @@ The [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md) tool allows the user 
 
 This command is part of the _ via the **Tools → Addon manager → Reinforcement** menu.
 
-<img alt="inline" src=images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
+<img alt="" src=images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
 *A Example of Slab Reinforcement inside a Slab [Arch Structure](Arch_Structure.md)*
 
 <img alt="" src=images/Right_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
 *Right view of the given Slab Reinforcement example*
 
-<img alt="Front view of Bent Shape rebars in parallel and cross direction with distribution rebars" src=images/Front_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
+<img alt="" src=images/Front_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
 *Front view of the given Slab Reinforcement example*
 
 ## Usage
 
 1\. Select any face of a previously created Slab **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object. as shown in below image.
+
 <img alt="" src=images/Selected_face_for_Slab_Arch_Structure.png  style="width:400px;"> 
 *Selected face for Slab Arch Structure*
 
 2\. Then select **<img src="images/Arch_Rebar_Slab_Reinforcement.svg" width=16px> [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md)** from the rebar tools.
 
 3\. A dialog box will pop-out on screen as shown below.
-![Slab Reinforcement input dialog box](images/Slab_Reinforcement_input_dialog_box.png ) *Dialog Box for the Slab Reinforcement*
+
+![](images/Slab_Reinforcement_input_dialog_box.png ) 
+*Dialog Box for the Slab Reinforcement*
 
 4\. Select the desired type of cover of reinforcement mesh (Top or Bottom).
 
-5\. Select the desired raber type and other input data for rabars in parallel direction of selected face as show in below image.
-![Bent Shape rebars in parallel with distribution rebars inputs for Slab Reinforcement](images/Bent_Shape_rebars_in_parallel_with_distribution_rebars_inputs_for_Slab_Reinforcement.png ) *Dialog Box for Slab Reinforcement of the Rebars in parallel direction of selected face*
+5\. Select the desired rebar type and other input data for rebars in parallel direction of selected face as show in below image.
+
+![](images/Bent_Shape_rebars_in_parallel_with_distribution_rebars_inputs_for_Slab_Reinforcement.png ) 
+*Dialog Box for Slab Reinforcement of the Rebars in parallel direction of selected face*
 
 6\. Now click on **Next** button or select Cross Rebars in list view.
-7. Now select desired data for input data for rabars in cross direction of selected face as show in below image.
-![Bent Shape rebars in cross direction with distribution rebars](images/Bent_Shape_rebars_in_cross_direction_with_distribution_rebars.png ) *Dialog Box for Slab Reinforcement of the Rebars in cross direction of selected face*
+
+7\. Now select desired data for input data for rabars in cross direction of selected face as show in below image.
+
+![](images/Bent_Shape_rebars_in_cross_direction_with_distribution_rebars.png ) 
+*Dialog Box for Slab Reinforcement of the Rebars in cross direction of selected face*
 
 8\. Click **OK** or **Apply** or **Finish** to generate Slab reinforcement.
-9. Click **Cancel** to exit the dialog box.
+
+9\. Click **Cancel** to exit the dialog box.
 
 ## Properties
 
@@ -321,11 +330,11 @@ slabReinforcementGroup = editSlabReinforcement(
 
 -   [Slab Spanning in Two Directions](Example_Slab_Spanning_in_Two_Directions.md)
 
-<img alt="inline" src=images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;">
+<img alt="" src=images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;">
 
 -   [Slab Spanning in One Direction](Example_Slab_Spanning_in_One_Direction.md)
 
-<img alt="inline" src=images/Slab_spanning_in_one_Direction.png  style="width:800px;">
+<img alt="" src=images/Slab_spanning_in_one_Direction.png  style="width:800px;">
 
 -   [Slab Having Straight Rebars Reinforcement Mesh](Example_Slab_Having_Mesh_Of_Straight_Rebars.md)
 

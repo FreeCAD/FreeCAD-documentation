@@ -5,7 +5,8 @@
 
 The **Draft Tray** allows selecting the working plane, defining style settings, toggling construction mode, and specifying the active layer or group. The four buttons show the current settings. The Draft Tray is available in the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _ and cannot be disabled.
 
-![](images/Draft_tray_default.png ) *The Draft Tray*
+![](images/Draft_tray_default.png ) 
+*The Draft Tray*
 
 ## Available tools 
 

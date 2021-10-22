@@ -1,4 +1,4 @@
-# <img alt="Иконка верстака Fasteners" src=images/Fasteners_workbench_icon.svg  style="width:64px;"> Fasteners Workbench/ru
+# <img alt="Логотип верстака Fasteners" src=images/Fasteners_workbench_icon.svg  style="width:64px;"> Fasteners Workbench/ru
 
 
 {{TOCright}}
@@ -9,14 +9,14 @@
 
 ## Применение
 
-Usage is pretty straightforward:
+Применить верстак достаточно легко:
 
-1.  Install the Fasteners Workbench via the [Addon Manager](Addon_Manager.md).
-2.  Start a new document in FreeCAD.
-3.  Select the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners Workbench](Fasteners_Workbench.md) from the [Workbench dropdown list](Std_Workbench.md).
-4.  The [toolbars](#Toolbars.md) belonging to the workbench will be displayed.
+1.  Установите верстак Fasteners через [менеджер дополнений](Addon_Manager/ru.md).
+2.  Создайте новый документ в FreeCAD.
+3.  Выберите <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [верстак Fasteners](Fasteners_Workbench/ru.md) из [списка верстаков](Std_Workbench/ru.md).
+4.  После чего будут отображены [панели инструментов](#Toolbars.md), принадлежащие данному рабочему столу.
 
-Simple Usage: Clicking on any of the fastener buttons will create that fastener at the origin with default properties. To change the properties of a fastener select it and go to the **Data** tab of the [Property editor](Property_editor.md).
+Простые примеры применения верстака: Нажатие на любую из кнопок с изображением стандартного изделия что бы создать это стандартное изделие в центре координат со свойствами по умолчанию. Для того, чтобы изменить свойства стандартного изделия, выберите его и откройте вкладку **Data** в [редакторе свойств](Property_editor/ru.md).
 
 ## Известные проблемы 
 
@@ -38,7 +38,8 @@ This workbench can be installed from the <img alt="" src=images/Std_AddonMgr.svg
 
 The Fasteners Workbench has two toolbars. The **FS Screws** toolbar contains many tools. If required it can be expanded by pressing the **&gt;&gt;** button.
 
-![](images/Fasteners_toolbars.png ) *The Fasteners Workbench toolbars*
+![](images/Fasteners_toolbars.png ) 
+*Панель инструментов верстака Fasteners*
 
 ## Инструменты
 
@@ -46,28 +47,32 @@ The Fasteners Workbench has two toolbars. The **FS Screws** toolbar contains man
 
 ### Команды
 
--   <img alt="" src=images/Fasteners_Flip.svg  style="width:32px;"> [Invert fastener](Fasteners_Flip.md): invert fastener orientation.
+-   <img alt="" src=images/Fasteners_Flip.svg  style="width:32px;"> [Invert fastener](Fasteners_Flip.md): меняет ориентацию крепежа на противоположную.
 
--   <img alt="" src=images/Fasteners_Move.svg  style="width:32px;"> [Move fastener](Fasteners_Move.md): move fastener to a new location.
+-   <img alt="" src=images/Fasteners_Move.svg  style="width:32px;"> [Move fastener](Fasteners_Move.md): перемещает крепеж.
 
--   <img alt="" src=images/Fasteners_Shape.svg  style="width:32px;"> [Simplify shape](Fasteners_Shape.md): change object to simple non-parametric shape.
+-   <img alt="" src=images/Fasteners_Shape.svg  style="width:32px;"> [Simplify shape](Fasteners_Shape.md): преобразует объект в простую не параметрическую фигуру.
 
--   <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:32px;"> [Match screws by inner thread diameter (Tap hole)](Fasteners_MatchTypeInner.md): match screws by inner thread diameter (Tap hole).
+-   <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:32px;"> [Match screws by inner thread diameter (Tap hole)](Fasteners_MatchTypeInner.md): подобрать резьбу по диаметру внутренний резьбы (отверстия).
 
--   <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:32px;"> [Match screws by outer thread diameter (Pass hole)](Fasteners_MatchTypeOuter.md): match screws by outer thread diameter (Pass hole).
+-   <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:32px;"> [Match screws by outer thread diameter (Pass hole)](Fasteners_MatchTypeOuter.md): подобрать резьбу по диаметру внутренний резьбы (отверстия под метчик).
 
--   <img alt="" src=images/Fasteners_BOM.svg  style="width:32px;"> [Generate BOM](Fasteners_BOM.md): generate fasteners bill of materials.
+-   <img alt="" src=images/Fasteners_BOM.svg  style="width:32px;"> [Generate BOM](Fasteners_BOM.md): генерирует спецификацию стандартных изделий.
 
--   <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:32px;"> [Screw calculator](Fasteners_ScrewCalculator.md): show a screw hole calculator.
+-   <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:32px;"> [Screw calculator](Fasteners_ScrewCalculator.md): открывает калькулятор резьбы.
 
--   <img alt="" src=images/Fasteners_ChamferHole.svg  style="width:32px;"> [Make countersunk](Fasteners_ChamferHole.md): chamfer holes for countersunk screws.
+-   <img alt="" src=images/Fasteners_ChamferHole.svg  style="width:32px;"> [Make countersunk](Fasteners_ChamferHole.md): делает фаску для крепежа с потайной головкой.
 
--   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Change fastener parameters](Fasteners_ChangeParameters.md): change parameters of selected fasteners.
+-   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Change fastener parameters](Fasteners_ChangeParameters.md): позволяет изменить параметры стандартных изделий.
+
+### Fasteners
+
+**Note:** Fasteners with metric dimensions have light orange icons. Fasteners with inch dimensions have green icons.
 
 
 <div class="mw-translate-fuzzy">
 
-### PEM крепежные изделия и крепежные изделия для Печатных Плат 
+### Самозатягивающиеся крепёжные изделия и крепёжные изделия для Печатных Плат 
 
 
 </div>
@@ -89,6 +94,8 @@ The Fasteners Workbench has two toolbars. The **FS Screws** toolbar contains man
 
 
 </div>
+
+ISO, DIN and EN fasteners have metric dimensions.
 
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> 
 **ISO 4017** Hexagon head screw. *Product grades A and B.*
@@ -190,10 +197,12 @@ The Fasteners Workbench has two toolbars. The **FS Screws** toolbar contains man
 
 <div class="mw-translate-fuzzy">
 
-### ASME Крепежные изделия 
+### Крепежные изделия ASME (American Society of Mechanical Engineers) 
 
 
 </div>
+
+ASME fasteners have inch dimensions.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC Hex head screw.
 
@@ -231,13 +240,7 @@ The Fasteners Workbench has two toolbars. The **FS Screws** toolbar contains man
 
 -   <img alt="" src=images/Fasteners_ASMEB18.21.1.12C.svg  style="width:32px;"> **ASME B18.21.1.12C** UN washer, wide series.
 
-
-<div class="mw-translate-fuzzy">
-
 ### Другие крепежные изделия 
-
-
-</div>
 
 -   <img alt="" src=images/Fasteners_ScrewTap.svg  style="width:32px;"> Arbitrary length threaded rod for tapping holes (metric).
 

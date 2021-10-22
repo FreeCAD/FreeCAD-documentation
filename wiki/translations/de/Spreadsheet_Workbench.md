@@ -1,12 +1,4 @@
-# Spreadsheet Workbench/de
-{{Page_in_progress}}
-
-
-
-
-
-
-<img alt="Tabellenkalkulation Arbeitsbereichssymbol" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
+# <img alt="Tabellenkalkulation Arbeitsbereichssymbol" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> Spreadsheet Workbench/de
 
 ## Einführung
 
@@ -20,44 +12,59 @@ Der <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [Arbe
 
 ## Werkzeuge
 
--   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:24px;"> [Blatt erstellen](Spreadsheet_CreateSheet/de.md): Erstelle ein neues Arbeitsblatt.
+-   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:24px;"> [Blatt erstellen](Spreadsheet_CreateSheet/de.md): Erstelle ein neues Tabellenblatt.
 
--   <img alt="" src=images/Spreadsheet_Import.svg  style="width:24px;"> [Import](Spreadsheet_Import/de.md): eine Tabulator-getrennte Werte Datei in ein Tabellenblatt importieren.
--   <img alt="" src=images/Spreadsheet_Export.svg  style="width:24px;"> [Export](Spreadsheet_Export/de.md): eine Tabulator-getrennte Werte Datei aus einem Tabellenblatt exportieren.
+-   <img alt="" src=images/Spreadsheet_Import.svg  style="width:24px;"> [Importieren](Spreadsheet_Import/de.md): eine CSV Datei in ein Tabellenblatt importieren.
 
--   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:24px;"> [Zellen zusammenführen](Spreadsheet_MergeCells/de.md): ausgewählte Zellen zusammenführen.
--   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:24px;"> [Zelle teilen](Spreadsheet_SplitCell/de.md): zuvor zusammengeführte Zellen teilen.
+-   <img alt="" src=images/Spreadsheet_Export.svg  style="width:24px;"> [Exportieren](Spreadsheet_Export/de.md): eine CSV Datei aus einem Tabellenblatt exportieren.
 
--   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;"> [Linksbündig ausrichten](Spreadsheet_AlignLeft/de.md): den Inhalt der gewählten Zelle auf links ausrichten.
--   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:24px;"> [Mittig ausrichten](Spreadsheet_AlignCenter/de.md): den Inhalt der gewählten Zelle auf mittig horizontal ausrichten.
--   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:24px;"> [Rechtsbündig ausrichten](Spreadsheet_AlignRight/de.md): den Inhalt der gewählten Zelle auf rechts ausrichten.
--   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:24px;"> [Nach oben ausrichten](Spreadsheet_AlignTop/de.md): den Inhalt der gewählten Zelle oben ausrichten.
--   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width:24px;"> [Vertikal ausrichten center](Spreadsheet_AlignVCenter/de.md): den Inhalt der gewählten Zelle mittig vertikal ausrichten.
--   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Nach unten ausrichten](Spreadsheet_AlignBottom/de.md): den Inhalt der gewählten Zelle unten ausrichten.
+-   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:24px;"> [Zellen zusammenführen](Spreadsheet_MergeCells/de.md): Markierte Zellen zusammenführen.
 
--   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Stil Fett](Spreadsheet_StyleBold/de.md): den Inhalt der gewählten Zelle auf fett stellen.
--   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Stil Kursiv](Spreadsheet_StyleItalic/de.md): den Inhalt der gewählten Zelle auf kursiv stellen.
--   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Stil Unterstrichen](Spreadsheet_StyleUnderline/de.md): den Inhalt der gewählten Zelle auf unterstrichen stellen.
+-   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:24px;"> [Zelle teilen](Spreadsheet_SplitCell/de.md): teilt zuvor zusammengeführte Zellen.
 
+-   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;"> [Links ausrichten](Spreadsheet_AlignLeft/de.md): Richtet den Inhalt der ausgewählten Zellen links aus.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:24px;"> [Zentriert ausrichten](Spreadsheet_AlignCenter/de.md): Richtet den Inhalt der ausgewählten Zellen horizontal zur Mitte aus.
 
--   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> [Setze Alias](Spreadsheet_SetAlias/de.md): die ausgewählte Zelle mit einem Alias benennen.
+-   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:24px;"> [Rechts ausrichten](Spreadsheet_AlignRight/de.md): Richtet den Inhalt der markierten Zellen nach rechts aus.
 
+-   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:24px;"> [Oben ausrichten](Spreadsheet_AlignTop/de.md): Richtet den Inhalt der markierten Zellen nach oberen aus.
 
-</div>
+-   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width:24px;"> [Vertikale Mittig ausrichten](Spreadsheet_AlignVCenter/de.md): Richtet die Inhalte der ausgewählten Zellen vertikal zur Mitte aus.
 
--    **Schwarz**und **Weiß** bestimmen die Vorder- und den Hintergrundfarbe der gewählten Zellen.
+-   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Unten ausrichten](Spreadsheet_AlignBottom/de.md): Richtet den Inhalt der markierten Zellen nach unten aus.
 
--   Kontextmenü der Tabellenzeilen und -spalten: Klicke mit der rechten Maustaste auf den Kopf einer Zeile oder Spalte, um darüber eine neue Zeile oder links eine neue Spalte einzufügen, oder um die aktuelle Zeile/Spalte zu löschen. Du kannst auch mehrere Zeilen oder Spalten markieren, um sie zu löschen.{{Version/de|0.20}} Du kannst auch auswählen, wo die neuen Zeilen/Spalten eingefügt werden sollen. Um z.B. 3 neue Spalten auf einmal einzufügen, markiere 3 Spalten und verwende das Kontextmenü, das nun das Einfügen von 3 Spalten anbietet.
+-   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Stil fett](Spreadsheet_StyleBold/de.md): Der Inhalt der ausgewählten Zellen wird fett dargestellt.
 
-## Spreadsheet editing 
+-   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Stil kursiv](Spreadsheet_StyleItalic/de.md): setzt den Inhalt der ausgewählten Zellen kursiv.
 
-As noted above under Tools, right click on a row or column header produces a pulldown menu that allows you to delete the row/column or insert a new blank one. Formula references to cells that get moved by these operations get patched to refer to the new location.
+-   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Stil Unterstreichen](Spreadsheet_StyleUnderline/de.md): Der Inhalt der ausgewählten Zellen wird unterstrichen.
 
-Cut/copy/paste can be used to edit data. Cut and copy will both operate on single cells, rectangles, or indeed any selection group of cells you set up. Cut clears the content of selected cells; both cut and copy store the cell\'s content and properties in the Clipboard. A paste operation writes the buffered data in such a way that the content of the uppermost-leftmost cell of the buffered set is dropped in the cell where the cursor is when you paste; other buffered content is dropped where it will have the same relationship to that target as it originally did to the upper-left cell of your cut/paste set.
+-   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> [Setze Alias](Spreadsheet_SetAlias/de.md): legen den Alias für eine ausgewählte Zelle fest.
 
-An important caveat: Cut/copy/paste operations do *not* fix up formula references. If you move the content of a cell, formulas which referred to the old location will break. If the old location becomes empty, the breakage will become visible as the expression evaluator will display \#ERR in dependent cells.
+-    **Schwarz**und **Weiß** legen die Vorder- und Hintergrundfarben der ausgewählten Zellen fest.
+
+## Einstellungen
+
+-   <img alt="" src=images/Preferences-spreadsheet.svg  style="width:32px;"> [Einstellungen](Spreadsheet_Preferences/de.md): die Einstellungen für den Arbeitsbereich Tabellenkalkulation. {{Version/de|0.20}}
+
+## Einfügen und Entfernen von Zeilen und Spalten 
+
+Rows and columns can be inserted or removed by right-clicking a row or column header and selecting the appropriate option from the contex menu. It is possible to select multiple rows or columns first. Either by holding down the **Ctrl** key while selecting the headers, or by holding down the left mouse button and dragging.
+
+In FreeCAD version 0.19 and earlier rows are inserted above the selected rows, and colomns on the left of the selected columns. In FreeCAD version 0.20 you can specify the insertion side.
+
+Note that removing rows or columns with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
+
+## Zellen ausschneiden und einfügen 
+
+Cut and copy-paste operations can be used on cells in FreeCAD spreadsheets. You can use the normal shortcuts for these operations: **Ctrl**+**X**, **Ctrl**+**C** and **Ctrl**+**V** respectively. To select multiple cells hold down the **Ctrl** key while selecting, or hold down the left mouse button and drag to select a rectangular cell range.
+
+The cut and copy operations store the contents and properties of the cells on the Clipboard. The paste operation writes the data in such a way that the content of the top left cell of the stored data is dropped in the active cell. Other stored content is placed relative to that cell. Formulas are updated accordingly.
+
+Note that removing cells with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
+
+In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to hang if a non-rectangular cell range is pasted. It is advisable to save your work before performing any paste operations.
 
 ## Zelleigenschaften
 
@@ -163,35 +170,21 @@ Du kannst zwar die Zeilen- und Spaltennummer in einem Ausdruck verwenden, um auf
 
 Das Bearbeiten einer Kalkulationstabelle löst eine Neuberechnung des 3D Modells aus, auch wenn die Änderungen keine Auswirkungen auf das Modell haben. Bei einem komplexen Modell kann eine Neuberechnung sehr lange dauern, und nach jeder einzelnen Bearbeitung warten zu müssen, ist natürlich ziemlich lästig.
 
+Es gibt drei Lösungen, die sich damit beschäftigen:
 
-<div class="mw-translate-fuzzy">
-
-Es gibt drei Lösungen, um dies zu beheben:
-
-\#\* Überspringe vorübergehend die Neuberechnungen:
-
-\#\* Klicke mit der rechten Maustaste in der [Baumansicht](Tree_view/de.md) <img alt="" src=images/Document.svg  style="width:24px;"> das Dokument, das die Tabelle enthält an.
-
-\#\* Wähle die Option **Überspringe Neuberechnen** aus dem Kontextmenü.
-
-\#\* Diese Lösung hat einen großen Nachteil. Neue Werte, die in die Tabelle eingegeben werden, werden nicht angezeigt, bis das Dokument neu berechnet wird. Stattdessen wird `#PENDING` angezeigt.
-
-\#\* Du kannst entweder manuell neu berechnen, indem du den Befehl [Std Aktualisieren](Std_Refresh/de.md) verwendest, oder du deaktivierst **Überspringe Neuberechnen**, wenn du mit der Bearbeitung fertig bist.
-
-\#\* Verwende ein Makro, um Neuberechnungen während der Bearbeitung einer Kalkulationstabelle automatisch zu überspringen:
-
-\#\* Lade [skipSheet.FCMacro](https://forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301) herunter und führe es aus.
-
-\#\* Diese Lösung spart ein paar Schritte im Vergleich zur ersten Lösung, hat aber auch den genannten Nachteil.
-
-1.  Lege die Kalkulationstabelle in einer separaten Datei ab:
-    -   Du kannst Kalkulationstabellendaten aus einer externen Datei mit dieser Syntax referenzieren: `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
-    -   Der Vorteil, das Tabellenblatt in einer anderen Datei zu haben, gegenüber dem Ausschalten der Neuberechnung ist, dass die Kalkulationstabelle selbst neu berechnet wird.
-    -   Der Nachteil ist, dass das Modell nach Änderungen an der Tabelle nicht automatisch neu berechnet wird.
-    -   In dem Szenario, in dem du zuerst die \'Kalkulationstabelle\' Datei öffnen, einen oder mehrere Werte ändern und dann die \'Modell\' Datei öffnen, wird es keinen Hinweis darauf geben, dass das Modell neu berechnet werden muss. Wenn jedoch beide Dateien geöffnet sind, wird das Symbol [Std Aktualisieren](Std_Refresh/de.md) für die \'Modell\' Datei nach Änderungen in der \'Kalkulationstabelle\' Datei korrekt aktualisiert.
-
-
-</div>
+1.  Überspringe vorübergehend Neuberechnungen:
+    -   In der [Baumansicht](Tree_view/de.md) das <img alt="" src=images/Document.svg  style="width:24px;"> Dokument rechtsklicken, das die Kalkulationstabelle enthält.
+    -   Wähle die Option **Überspringe Neuberechnen** aus dem Kontextmenü.
+    -   Diese Lösung hat einen großen Nachteil. Neue Werte, die in das Arbeitsblatt eingegeben werden, werden nicht angezeigt, bis das Dokument neu berechnet wird. Stattdessen wird `#PENDING` angezeigt.
+    -   Du kannst entweder manuell neu berechnen, durch verwenden des [Std Aktualisieren](Std_Refresh/de.md) Befehls, oder deaktivieren von**Überspringe Neuberechnen**, wenn du mit der Bearbeitung fertig bist.
+2.  Verwende ein Makro, um Neuberechnungen während der Bearbeitung eines Tabellenblatts automatisch zu überspringen:
+    -   Lade [skipSheet.FCMacro](https://forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301) herunter und führe es aus.
+    -   Diese Lösung spart ein paar Schritte im Vergleich zur ersten Lösung, hat aber auch den erwähnten Nachteil.
+3.  Lege das Tabellenblatt in eine separate [FreeCAD Datei](File_Format_FCStd/de.md):
+    -   Du kannst Tabellenkalkulationsdaten aus einer externen {{Dateiname|.FCStd}} Datei mit dieser Syntax referenzieren: `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
+    -   Der Vorteil, das Tabellenblatt in einer anderen Datei zu haben, gegenüber dem Ausschalten der Neuberechnung, ist, dass das Arbeitsblatt selbst neu berechnet wird.
+    -   Der Nachteil ist, dass das Modell nach Änderungen am Tabellenblatt nicht automatisch neu berechnet wird.
+    -   In dem Szenario, in dem du zuerst die \'Tabellenblatt\' Datei öffnest, einen oder mehrere Werte änderst und dann die \'Modell\' Datei öffnest, wird es keinen Hinweis geben, dass das Modell neu berechnet werden muss. Wenn jedoch beide Dateien geöffnet sind, wird das [Std Aktualisieren](Std_Refresh/de.md) Symbol für die \"Modell\" Datei nach Änderungen in der \"Tabellenblatt\" Datei korrekt aktualisiert.
 
 ## Einheiten
 
@@ -207,15 +200,19 @@ Manchmal ist es notwendig, die Einheit von einer Zahl zu entfernen. Dies kann du
 
 ## Importieren und Exportieren 
 
-Tabellen können im CSV-Format[1](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) importiert und exportiert werden. Dieses Format kann von den meisten anderen Tabellenkalkulationsprogrammen wie Microsoft Excel oder LibreOffice Calc gelesen und geschrieben werden. Wenn Dateien nach FreeCAD importiert werden, muss das Trennzeichen, welches die Spalten trennt, das TAB-Zeichen sein. Dies kann üblicherweise in den Tabellenkalkulationsprogrammen vor dem Export eingestellt werden. Der Import einer CSV-Datei ist über das Menü **Spreadsheet → Kalkulationstabelle importieren** oder durch einen Klick auf das Symbol <img alt="" src=images/SpreadsheetImport.svg  style="width:24px;"> möglich. Diese Import-Funktion öffnet keine Excel-Dateien oder andere Tabellenkalkulationsformate.
+### CSV Format 
 
-Tabellen im Excelformat \"xlsx\" können über das Menü **Datei → Importieren...** importiert werden. Exceltabellen können auch durch den Menübefehl **Datei → Öffnen...** oder mit einem Klick auf das Symbol <img alt="" src=images/Document-open.svg  style="width:24px;"> geöffnet werden. In diesem Fall wird ein neues Dokument mit einer Tabelle erzeugt. Es werden die folgenden Funktionen unterstützt:
+FreeCAD Tabellenblätter können im _ und [Tabellenblatt Export](Spreadsheet_Export/de.md) für weitere Informationen.
+
+### XLSX Format 
+
+Tabellenblätter im Excel-Format XLSX können mit dem Befehl [Std Import](Std_Import/de.md) oder dem Befehl [Std Öffnen](Std_Open/de.md) importiert werden. Die folgenden Funktionen werden unterstützt:
 
 -   alle Funktionen, die auch in der FreeCAD Tabellenblatt verfügbar sind. Andere Funktionen führen nach dem Import zu einem Fehler in der entsprechenden Zelle.
 -   Alias Namen für Zellen
--   Mehr als ein \"Blatt\" im Tabellenblatt. In diesem Fall wird für jede Excel-Tabelle eine FreeCAD Tabelle erstellt.
+-   Mehr als ein Blatt im Excel-Tabellenblatt. In diesem Fall wird für jedes Excel Blatt eine FreeCAD Tabelle erstellt.
 
-Andere Funktionalität wird nicht in die FreeCAD Tabellenblätter importiert. Der Excel-Import ist <small>(v0.17)</small>  von FreeCAD.
+Andere Funktionalität wird nicht in das FreeCAD Tabellenblatt importiert.
 
 ## Drucken
 
@@ -225,7 +222,7 @@ Um die erforderlichen Seiteneinstellungen für den Druck von FreeCAD-Tabellen ei
 
 FreeCAD prüft auf zyklische Abhängigkeiten. Nach dem Entwurf endet diese Prüfung auf der Ebene des Tabellenkalkulationsobjekts. Infolgedessen solltest du keine Tabellenkalkulation haben, die beides enthält Zellen, deren Werte zur Angabe von Parametern für das Modell verwendet werden, und Zellen, deren Werte die Ausgabe aus dem Modell verwenden. Du kannst z.B. keine Zellen haben, die die Länge, Breite und Höhe eines Objekts festlegen, und eine weitere Zelle, die das Gesamtvolumen der resultierenden Form referenziert. Diese Einschränkung kann durch zwei Tabellenkalkulationen überwunden werden: eine, die als Datenquelle für die Eingabeparameter des Modells dient und die andere verwendet für Berechnungen auf der Grundlage der resultierenden Geometriedaten.
 
-## Grundlagen Skripterstellung 
+## Grundlagen Skripten 
 
 
 ```python

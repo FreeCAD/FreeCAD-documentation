@@ -292,14 +292,7 @@ Happy Attaching!
 
 [Top](#Top.md)
 
-
-
-
-{{Tutorials_navi
-
-}} {{PartDesign_Tools_navi}} {{Sketcher_Tools_navi}} 
-
-_
+ {{Tutorials_navi}} {{PartDesign_Tools_navi}} {{Sketcher_Tools_navi}}
 
 ---
 [documentation index](../README.md) > Basic Attachment Tutorial

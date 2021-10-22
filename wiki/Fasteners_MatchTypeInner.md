@@ -3,15 +3,13 @@
    Name:Fasteners MatchTypeInner
    MenuLocation:Fasteners → Match Type Inner
    Workbenches:[Fasteners](Fasteners_Workbench.md)
-   Shortcut:None
-   SeeAlso:
 ---
 
 # Fasteners MatchTypeInner
 
 ## Description
 
-The <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:24px;"> [Fasteners MatchTypeInner](Fasteners_MatchTypeInner.md) lorem ipsum dolor sit amet, consectetur adipiscing. This tool is part of the [external workbench](external_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
+The <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:24px;"> [Fasteners MatchTypeInner](Fasteners_MatchTypeInner.md) lorem ipsum dolor sit amet, consectetur adipiscing. This tool is part of the [external workbench](External_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
 
 ## Usage
 

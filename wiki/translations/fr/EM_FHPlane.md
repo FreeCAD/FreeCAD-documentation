@@ -15,7 +15,8 @@
 
 L\'outil FHPlane insère un objet plan conducteur uniforme FastHenry.
 
-![](images/EM_FHPlane_Example.png ) *FastHenry FHPlane*
+![](images/EM_FHPlane_Example.png ) 
+*FastHenry FHPlane*
 
 ## Utilisation
 

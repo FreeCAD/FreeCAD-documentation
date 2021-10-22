@@ -17,9 +17,10 @@ L\'outil <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Scind
 ![600px](images/Part_Slice_Demo.png)
 
 
+
 *Ci-dessus : les pièces ont été déplacées manuellement après l'operation, pour montrer le découpage*
 
-Il existe deux commandes pour découper une forme: <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> _. Elles créent toutes les deux une fonction paramétrique \"Slice\" (Scinder), qui place les pièces découpées dans un composé. Cependant, <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Part Scinder](Part_SliceApart/fr.md) fait exploser le composé résultant en objets séparés. \"Slice to compound (Scinder vers composé)\" est entièrement paramétrique et ne pose aucun problème lorsque le nombre de pièces change. \"Slice apart\" ne met pas à jour le nombre d\'objets lorsque le nombre de pièces change.
+Il existe deux commandes pour découper une forme: <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> _. Elles créent toutes les deux une fonction paramétrique \"Slice\" (Scinder), qui place les pièces découpées dans un composé. Cependant, <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Part Séparer/exploser](Part_SliceApart/fr.md) fait exploser le composé résultant en objets séparés. \"Slice to compound (Scinder vers composé)\" est entièrement paramétrique et ne pose aucun problème lorsque le nombre de pièces change. \"Slice apart\" ne met pas à jour le nombre d\'objets lorsque le nombre de pièces change.
 
 La forme finale occupe le même volume que l\'original. Mais elle est divisée là où elle est traversée par les autres formes. Les pièces découpées sont placées dans un composé (ou compsolid), de sorte que l\'objet semble rester en une seule pièce. Vous devez exploser le composé pour obtenir des pièces individuelles. Si vous souhaitez accéder aux différentes pièces de manière paramétrique, vous pouvez utiliser <img alt="" src=images/Part_CompoundFilter.svg  style="width:24px;"> _.
 
@@ -61,13 +62,13 @@ Le tranchage est créé et chaque morceau est uni dans un composé.
 
 {{TitleProperty|Trancher vers composé}}
 
--    {{PropertyData/fr|Base}}: Objet à trancher.
+-    **Base**: Objet à trancher.
 
--    {{PropertyData/fr|Tools}}: Liste des objets de découpe. (À partir de FreeCAD v0.17.8053, cette propriété n\'est pas affichée dans l\'éditeur de propriétés, et ne peut être accessible qu\'avec Python).
+-    **Tools**: Liste des objets de découpe. (À partir de FreeCAD v0.17.8053, cette propriété n\'est pas affichée dans l\'éditeur de propriétés, et ne peut être accessible qu\'avec Python).
 
--    {{PropertyData/fr|Mode}}: \"Standard\", \"Split\" (Fractionné) ou \"CompSolid\" (composé de solides). \"Split\" est la valeur par défaut. Standard et Split diffèrent par l\'action de l\'outil sur le type d\'agrégation des formes : si Split est sélectionné, ceux-ci sont séparés; sinon ils sont conservés ensemble (on obtient alors des segments supplémentaires).
+-    **Mode**: \"Standard\", \"Split\" (Fractionné) ou \"CompSolid\" (composé de solides). \"Split\" est la valeur par défaut. Standard et Split diffèrent par l\'action de l\'outil sur le type d\'agrégation des formes : si Split est sélectionné, ceux-ci sont séparés; sinon ils sont conservés ensemble (on obtient alors des segments supplémentaires).
 
--    {{PropertyData/fr|Tolerance}}: valeur \"floue\". Il s\'agit d\'une tolérance supplémentaire à appliquer lors de la recherche d\'intersections, en plus des tolérances stockées dans les formes d\'entrée.
+-    **Tolerance**: valeur \"floue\". Il s\'agit d\'une tolérance supplémentaire à appliquer lors de la recherche d\'intersections, en plus des tolérances stockées dans les formes d\'entrée.
 
 ̈Remarque : Les propriétés sont accessibles sur l\'objet interne des tranches, pas sur le niveau de résultat.
 

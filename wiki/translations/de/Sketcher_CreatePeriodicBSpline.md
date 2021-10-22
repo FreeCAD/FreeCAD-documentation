@@ -17,6 +17,7 @@ Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine periodische (geschl
 ![](images/Sketcher_Periodic_B-spline_example01.png )
 
 
+
 *Eine periodische B-Spline-Kurve (in Weiß) aus 5 Punkten erstellt. Abgebildet sind das Kontrollpolygon in grün (die Geraden verbinden die roten Punkte), die Gewichtskreise in blau und der Krümmungskamm in grün. Die (3) Ziffer in der Mitte bezieht sich auf den Grad des B-Splines, und die (1) und (2) Ziffern auf den Knoten, die auf der Kurve liegen, beziehen sich auf deren Vielzahl.*
 
 ## Anwendung

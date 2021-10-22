@@ -34,7 +34,8 @@ Accédez ensuite à **Affichage → Panneau** et vérifiez :
 
 Il existe deux façons d\'écrire du code Python dans FreeCAD. Dans la [Console Python](Python_console/fr.md) (sélectionnez le menu**Affichage → Panneau → Console Python**) ou dans [l\'éditeur de Macro](Std_DlgMacroExecute/fr.md) (sélectionnez **Macro → Macros …** dans le menu). Dans la console vous écrivez les commandes Python une par une, en les exécutant en appuyant sur **Entrée**, tandis que les macros peuvent contenir du code plus complexe composé de plusieurs lignes, exécuté uniquement lorsque la macro est démarrée.
 
-![](images/Screenshot_pythoninterpreter.jpg ) *La console Python FreeCAD*
+![](images/Screenshot_pythoninterpreter.jpg ) 
+*La console Python FreeCAD*
 
 Dans ce tutoriel vous pouvez utiliser les deux méthodes. Vous pouvez copier-coller chaque ligne dans la console Python puis appuyer sur **Entrée**, ou copier-coller le code entier dans une nouvelle fenêtre Macro.
 
@@ -51,7 +52,8 @@ doc = FreeCAD.newDocument()
 
 Si vous écrivez dans la console Python FreeCAD, vous remarquerez que dès que vous tapez `FreeCAD.` une fenêtre apparaît, permettant de compléter rapidement le reste de votre ligne. Encore mieux, chaque entrée de la liste de saisie semi-automatique a une info-bulle expliquant ce qu\'elle fait. Cela facilite l\'exploration des fonctionnalités disponibles. Avant de choisir `newDocument`, jetez un œil aux autres options.
 
-![](images/Screenshot_classbrowser.jpg ) *Le mécanisme de saisie semi-automatique de la console Python FreeCAD*
+![](images/Screenshot_classbrowser.jpg ) 
+*Le mécanisme de saisie semi-automatique de la console Python FreeCAD*
 
 Maintenant notre nouveau document sera créé. Cela revient à appuyer sur le bouton **<img src="images/Std_New.svg" width=16px> [Std New](Std_New.md)** dans la barre d\'outils. En fait, la plupart des boutons de FreeCAD ne font rien d\'autre que d\'exécuter une ou plusieurs lignes de code Python. Encore mieux, vous pouvez définir une option dans **Édition → Préférences → Général → Macro** avec **Montrer les commandes du script dans la console Python**. Cela affichera dans la console tout le code Python exécuté lorsque vous pressez les boutons. Très utile pour apprendre à reproduire des actions dans Python.
 
@@ -99,7 +101,7 @@ Cela affichera la hauteur actuelle de notre boîte. Maintenant, essayons de chan
 box.Height = 5
 ```
 
-Si vous sélectionnez votre boîte avec la souris, vous verrez que dans l\'[Éditeur de propriétés](Property_editor/fr.md), sous l\'onglet **Données**, notre propriété {{PropertyData/fr|Hauteur}} apparaît. Toutes les propriétés d\'un objet FreeCAD qui y apparaissent (et également sur l\'onglet **Vue**, nous développerons plus tard), sont également directement accessibles par Python, par leur nom, comme nous l\'avons fait avec notre propriété {{PropertyData/fr|Hauteur}}. Essayez de changer les autres dimensions de la boîte.
+Si vous sélectionnez votre boîte avec la souris, vous verrez que dans l\'[Éditeur de propriétés](Property_editor/fr.md), sous l\'onglet **Données**, notre propriété **Height** apparaît. Toutes les propriétés d\'un objet FreeCAD qui y apparaissent (et également sur l\'onglet **Vue**, nous développerons plus tard), sont également directement accessibles dans Python, par leur nom, comme nous l\'avons fait avec notre propriété **Height**. Essayez de changer les autres dimensions de la boîte.
 
 [En haut](#top.md)
 

@@ -48,6 +48,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 :   <img alt="" src=images/UShapeDialog.png  style="width:250px;">
 
 
+
 *Panneau d'affichage des tâches de l'outil Armature en U Arch*
 
 ## Propriétés

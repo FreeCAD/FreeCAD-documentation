@@ -21,7 +21,8 @@ Dieser Befehl ist eine Auswahlwerkzeugleistenschaltfläche, die alle Fügewerkze
 -   <img alt="" src=images/Part_JoinEmbed.svg  style="width:24px;"> [Einbetten](Part_JoinEmbed/de.md): bettet ein wandförmiges Objekt (z. B. ein Rohr) in ein anderes wandförmiges Objekt ein.
 -   <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Ausschnitt](Part_JoinCutout/de.md): erzeugt einen Ausschnitt in einem wandförmgen objekt (z. B. einem Rohr), der in ein anderes wandförmges Objekt passt.
 
-![](images/JoinFeatures_dropdownToolbarButton.png ) *Aufklappmenü der verschiedenen Füge Funktionselemente innerhalb der [[Oberfläche]]*
+![](images/JoinFeatures_dropdownToolbarButton.png ) 
+*Aufklappmenü der verschiedenen Füge Funktionselemente innerhalb der [[Oberfläche]]*
 
 <img alt="" src=images/JoinFeatures_demo.png  style="width:668px;"> 
 *Oben: Anzeige der Ergebnisse der einzelnen verfügbaren Werkzeuge*

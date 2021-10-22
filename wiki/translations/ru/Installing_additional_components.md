@@ -33,13 +33,7 @@ _. Насчёт инструкций по установки смотрите с
 
 ### OpenSCAD
 
-
-<div class="mw-translate-fuzzy">
-
 _ зависит от этого программного обеспечения, а [верстак Mesh](Mesh_Workbench/ru.md) использует его для своих булевых операций. Он так же необходим для импорта файлов SCAD с помощью инструмента [Std Import](Std_Import/ru.md).
-
-
-</div>
 
 ## Форматы файлов 
 
@@ -53,6 +47,16 @@ _ зависит от этого программного обеспечения
 
 FreeCAD имеет собственный импортер/экспортер файлов DXF, реализованный на C++. Пока что этот импортер реализует не все функции формата DXF. Для этих функций по-прежнему доступен устаревший импортер и экспортер, написанный на Python. Для него требуется библиотека Python _.
 
+### DWG converters 
+
+FreeCAD cannot directly read and write DWG files. To convert DXF files to DWG files, and vice-versa, FreeCAD relies on external converters. There is built-in support for the following DWG converters:
+
+-   [LibreDWG](https://www.gnu.org/software/libredwg) (open-source, lacks support for some DWG entities).
+-   [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) (free).
+-   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial). <small>(v0.20)</small> 
+
+See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) for more information.
+
 ### IfcOpenShell
 
 _ ({{VersionMinus|0.18}}) и [BIM IfcExplorer](BIM_IfcExplorer/ru.md). IfcOpenShell включен в установщики FreeCAD для Windows и Mac.
@@ -60,14 +64,6 @@ _ ({{VersionMinus|0.18}}) и [BIM IfcExplorer](BIM_IfcExplorer/ru.md). IfcOpenSh
 ### IfcJson
 
 [IfcJson](https://github.com/buildingSMART/ifcJSON) - это библиотека, необходимая для экспорта в формат файла IFCJSON. IFCJSON - это новый формат IFC, который еще не поддерживается многими приложениями.
-
-### LibreDWG
-
-Поддержка _ для получения дополнительной информации.
-
-### Конвертер Файлов ODA 
-
-_ для получения дополнительной информации.
 
 ### Pycollada
 
@@ -85,13 +81,7 @@ _. In 2013 the project has been rebooted becoming _ may work with the Raytracing
 
 ### POVRay
 
-
-<div class="mw-translate-fuzzy">
-
-_.
-
-
-</div>
+_. Дополнительную информацию и инструкцию по установке смотрите на странице [POV-Ray](POV-Ray/ru.md).
 
 ## Конечные элементы 
 
@@ -109,13 +99,7 @@ _.
 
 ### FEniCS
 
-
-<div class="mw-translate-fuzzy">
-
 _.
-
-
-</div>
 
 ### Z88
 

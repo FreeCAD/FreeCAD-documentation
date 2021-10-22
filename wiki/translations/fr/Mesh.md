@@ -12,6 +12,7 @@ Voir [Mesh MeshObject](Mesh_MeshObject/fr.md) pour plus d\'informations sur ce t
 ![](images/Shape_and_mesh.svg )
 
 
+
 *A gauche: paramétrique _ défini par des sommets et des surfaces triangulaires.*
 
 ## Utilisation

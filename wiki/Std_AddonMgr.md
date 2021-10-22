@@ -17,7 +17,8 @@ Addons that are marked as {{emphasis|Python 2 Only}} will not work in FreeCAD ve
 
 Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version _ below.
 
- ![](images/Std_AddonMgr_dialog.png )  *The Addon manager dialog box*
+ ![](images/Std_AddonMgr_dialog.png )  
+*The Addon manager dialog box*
 
 ## Usage
 

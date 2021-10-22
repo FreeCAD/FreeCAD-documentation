@@ -30,7 +30,8 @@ Detail des descriptions dans [Lattice2 Github wiki](https://github.com/DeepSOIC/
 
 ### Barre d\'outils 
 
-![](images/Lattice2-menu-orizz.png ) *Barre d'outils Lattice2*
+![](images/Lattice2-menu-orizz.png ) 
+*Barre d'outils Lattice2*
 
 ### Commandes
 

@@ -34,13 +34,15 @@ Gdzie `$INSTALL_DIR` jest katalogiem, w którym zainstalowano FreeCAD, na przyk�
 -   Wybierz rozmiar strony **US Letter** lub **A4** i orientację **landscape**.
 -   Ustaw standardowe jednostki na \"mm\", a rozmiar strony na *279,4* i wysokość *215,9*. Dla strony DIN-A4 należy użyć **210** i **297**.
 
-<img alt="" src=images/InkDocProp.png  style="width:800px;"> *align=center|Inkscape: dokument z rozmiarem i orientacją strony* 
+<img alt="" src=images/InkDocProp.png  style="width:800px;"> 
+*align=center|Inkscape: dokument z rozmiarem i orientacją strony* 
 
 3\. Użyj edytora XML, aby dodać klauzulę przestrzeni nazw „freecad" do elementu {{incode | <svg>}}.
 
 :   xmlns:freecad="[http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace](http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace)".
 
-Zauważ, że twoje edytowalne teksty będą \"nie\" działały, jeśli używasz **<https://>\...**, nawet jeśli wiki jest obecnie osiągalne przez https. Ponieważ SVG jest formatem czytelnym dla człowieka, możesz także wpisać powyższą linię do pliku za pomocą edytora tekstu. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> *align=center|Inkscape: Edytor XML dodaje klauzulę przestrzeni nazw „freecad” do elementu <svg>* 
+Zauważ, że twoje edytowalne teksty będą \"nie\" działały, jeśli używasz **<https://>\...**, nawet jeśli wiki jest obecnie osiągalne przez https. Ponieważ SVG jest formatem czytelnym dla człowieka, możesz także wpisać powyższą linię do pliku za pomocą edytora tekstu. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> 
+*align=center|Inkscape: Edytor XML dodaje klauzulę przestrzeni nazw „freecad” do elementu <svg>* 
 
 ## Tworzenie szablonu rysunku 
 
@@ -52,13 +54,15 @@ Zauważ, że twoje edytowalne teksty będą \"nie\" działały, jeśli używasz 
 
 7\. Dodaj i umieść tekst, który będzie można edytować.
 
-8\. Masz teraz gotowe dzieło, które powinno wyglądać mniej więcej tak: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> *align=center|Inkscape: wstępny układ szablonu* 
+8\. Masz teraz gotowe dzieło, które powinno wyglądać mniej więcej tak: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> 
+*align=center|Inkscape: wstępny układ szablonu* 
 
 ## Tworzenie pól do edycji 
 
 9\. Użyj edytora XML, aby dodać tag `freecad:editable`} do każdego edytowalnego elementu `<text>}.
 * Przypisać sensowną nazwę do każdego pola tekstowego, które można edytować.
 _
+
 *align=center|Inkscape: Edytor XML dodający właściwość "freecad:editable" do żądanej pozycji <text>.*
 {{clear`
 
@@ -67,11 +71,13 @@ _
 10. Użyj edytora XML, aby dopasować atrybut `viewBox` do rozmiaru strony, w milimetrach.
 * Są to cztery wartości, w formacie `"0 0 width height"`
 _
+
 *align=center|Inkscape: Edytor XML dopasowujący pole widzenia do rozmiaru strony w milimetrach*
 
 
 11. Twój szablon pojawi się teraz znacznie większy niż oczekiwano.
 _
+
 *align=center|Inkscape: wstępny układ szablonów przekraczający rozmiar strony.*
 
 
@@ -102,6 +108,7 @@ _
 
 21. Wypróbuj go w programie FreeCAD i środowisku pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) z opcją [wstaw stronę uzywając szablonu](TechDraw_PageTemplate/pl.md).
 _
+
 *align=center|FreeCAD: gotowy szablon z polem tekstowym do edycji*
 
 
@@ -113,6 +120,8 @@ Ostatnim krokiem przed użyciem nowego szablonu jest usunięcie wszelkich zapis�
 Zobacz dyskusję w portalu Stackoverflow na temat [https://stackoverflow.com/questions/13329125/removing-transforms-in-svg-files usuwanie zapisów o przekształceniach w plikach SVG].
 
 Jeśli nie widzisz zielonych pól na swoich tekstach do edycji, może być coś nie tak z Twoją skalą dokumentów. Otwórz ponownie swój plik w programie Inkscape i potwierdź, że wartości viewBox i rozmiary są zgodne. 
+
+Jeśli w FreeCAD teksty są przesunięte, może być konieczne usunięcie atrybutów {{Incode|xml:space<nowiki>=</nowiki>"preserve"}} w pliku SVG. Patrz: https://www.forum.freecadweb.org/viewtopic.php?t=50897.
 
 {{Tutorials navi}} {{TechDraw Tools navi}}
 

@@ -100,4 +100,4 @@ Die Kalkulationstabelle kann dann ganz normal von der Arbeitsbereich Tabellenkal
 Es ist möglich, eigene Eigenschaften zu Objekten hinzuzufügen. Diese werden [Dynamische Eigenschaften](Property_editor/de#Maßnahmen.md) genannt. Falls sie mit der **Prefix group name**-Option ausgewählt wurden, beginnen ihre Namen tatsächlich mit dem Gruppennamen, aber dieser Präfix wird nicht im [Eigenschafteneditor](Property_editor/de.md) angezeigt. Ihre Namen haben die Form: `NameOfGroup_NameOfProperty`. Um sie in einem Zeitplan zu referenzieren muss dieser vollständige Name verwendet werden.
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Schedule/de
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/de

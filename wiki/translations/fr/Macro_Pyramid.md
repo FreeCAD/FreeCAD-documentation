@@ -27,6 +27,7 @@ Vous pouvez également utiliser l\'atelier externe [Pyramids\_and\_Polyhedrons](
 ![](images/Polyhedrons.png )
 
 
+
 *Exemple création si vous êtes également intéressé par les polyèdres, vous pouvez également utiliser le workbench externe [https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons Pyramids_and_Polyhedrons] (lien github) qui contient la même fonction..*
 
 ## Utilisation

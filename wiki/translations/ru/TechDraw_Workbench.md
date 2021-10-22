@@ -55,6 +55,20 @@ TechDraw был официально включен в FreeCAD начиная с
 
 -   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Удалить Вид из группы](TechDraw_ClipGroupRemove/ru.md): Удаляет вид из группы.
 
+## Доработка
+
+Содержит инструменты для добавления недостающих элементов в чертеж или Вид:
+
+-   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Заштриховать грань, используя файл изображения](TechDraw_Hatch/ru.md): Штриховать грань, используя файл изображения.
+
+-   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Применить геометрическую штриховку к грани](TechDraw_GeometricHatch/ru.md): Применяет шаблон штриховки к участку, используя спецификацию Autodesk PAT.
+
+-   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ файла.
+
+-   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ PNG или JPG.
+
+-   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Вкл/выкл отображение рамки](TechDraw_ToggleFrame/ru.md): включает и выключает рамки и метки, окружающие Вид.
+
 ## Размеры
 
 Содержит инструменты для создания и работы с размерами.
@@ -88,97 +102,10 @@ TechDraw был официально включен в FreeCAD начиная с
 
 <div class="mw-translate-fuzzy">
 
-## Пакет расширений 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Пакет расширений содержит в себе множество полезных инструментов для улучшения ваших TechDraw чертежей.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-**Некоторые из этих инструментов еще не опубликованы.**
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Добавить осевые линии к окружностям](TechDraw_ExtensionCircleCenterLines/ru.md): добавляет осевые линии к окружностям и дугам. {{Version/ru|0.20}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Обозначить внутреннюю резьбу, для вида сбоку](TechDraw_ExtensionThreadHoleSide/ru.md): добавляет внутреннюю резьбу к отверстию с видом сбоку. {{Version/ru|0.20}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Обозначить наружную резьбу, для вида сбоку](TechDraw_ExtensionThreadBoltSide/ru.md): добавляет наружную резьбу к отверстию с видом сбоку. {{Version/ru|0.20}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Обозначить внутреннюю резьбу, для вида снизу](TechDraw_ExtensionThreadHoleBottom/ru.md): добавляет внутреннюю резьбу к отверстию с видом снизу. {{Version/ru|0.20}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Обозначить наружную резьбу, для вида снизу](TechDraw_ExtensionThreadBoltBottom/ru.md): добавляет наружную резьбу к отверстию с видом снизу. {{Version/ru|0.20}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Импорт/Экспорт
-
-
-</div>
-
-Содержит инструменты для экспорта страниц в другие приложения.
-
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _ файл.
-
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _ файл.
-
-## Доработка
-
-Содержит инструменты для добавления недостающих элементов в чертеж или Вид:
-
--   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Заштриховать грань, используя файл изображения](TechDraw_Hatch/ru.md): Штриховать грань, используя файл изображения.
-
--   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Применить геометрическую штриховку к грани](TechDraw_GeometricHatch/ru.md): Применяет шаблон штриховки к участку, используя спецификацию Autodesk PAT.
-
--   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ файла.
-
--   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ PNG или JPG.
-
--   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Вкл/выкл отображение рамки](TechDraw_ToggleFrame/ru.md): включает и выключает рамки и метки, окружающие Вид.
-
 ## Вспомогательные инструменты 
+
+
+</div>
 
 Вспомогательные инструменты предназначены для \"нанесения поверх чертежа\" дополнительной информации.
 
@@ -209,6 +136,31 @@ TechDraw был официально включен в FreeCAD начиная с
 -   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Показать/скрыть невидимые края](TechDraw_ShowAll/ru.md): позволяет показать/скрыть невидимые линии/грани Вида. {{Version/ru|0.19}}
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Добавить информацию о сварке в линию-выноску](TechDraw_WeldSymbol/ru.md): добавляет символы сварки и другие параметры к существующей Линии-выноске. <small>(v0.19)</small> 
+
+## Инструменты дополнения 
+
+Данные инструменты предназначены для улучшения TechDraw чертежей.
+
+
+**Некоторые из этих инструментов еще не опубликованы.**
+
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Добавить осевые линии к окружности](TechDraw_ExtensionCircleCenterLines/ru.md): Позволяет добавить осевые линии к окружностям и дугам. {{Version/ru|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Обозначить внутреннюю резьбу в разрезе отверстия](TechDraw_ExtensionThreadHoleSide/ru.md): добавляет внутреннюю резьбу к разрезу отверстия. {{Version/ru|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Обозначить наружную резьбу в разрезе стержня](TechDraw_ExtensionThreadBoltSide/ru.md): добавляет наружную резьбу к разрезу стержня. {{Version/ru|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Обозначить внутреннюю резьбу отверстия с сечением вдоль оси](TechDraw_ExtensionThreadHoleBottom/ru.md): добавляет внутреннюю резьбу к отверстию с сечением вдоль оси. {{Version/ru|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Обозначить наружную резьбу стержня с сечением вдоль оси](TechDraw_ExtensionThreadBoltBottom/ru.md): добавляет наружную резьбу к стердню с сечением вдоль оси. {{Version/ru|0.20}}
+
+## Экспорт
+
+Содержит инструменты для экспорта страниц в другие приложения.
+
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _ файл.
+
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _ файл.
 
 ## Дополнительные возможности 
 

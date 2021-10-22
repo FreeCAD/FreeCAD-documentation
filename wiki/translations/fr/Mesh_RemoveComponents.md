@@ -13,7 +13,8 @@
 
 La commande **Mesh Supprimer des composants** supprime des composants d\'objets maillés.
 
-![](images/Meshes_RemoveComponents.jpg ) *Le panneau de tâches Supprimer des composants*
+![](images/Meshes_RemoveComponents.jpg ) 
+*Le panneau de tâches Supprimer des composants*
 
 ## Utilisation
 

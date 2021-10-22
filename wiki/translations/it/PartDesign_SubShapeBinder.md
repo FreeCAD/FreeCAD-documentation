@@ -33,6 +33,7 @@ Può anche legare oggetti nidificati all\'interno di [Parti](Std_Part/it.md) e s
 <img alt="" src=images/PartDesign_SubShapeBinder_example_1.png  style="width:" height="300px;"> <img alt="" src=images/PartDesign_SubShapeBinder_example_2.png  style="width:" height="300px;">
 
 
+
 *A sinistra: due solidi creati in due [corpi](PartDesign_Body/it.md) separati. A destra: due SubShapeBinders estratti dal primo corpo, importati nel secondo corpo e spostati in una posizione diversa.*
 
 <img alt="" src=images/PartDesign_SubShapeBinder_example_3.png  style="width:" height="300px;"> 

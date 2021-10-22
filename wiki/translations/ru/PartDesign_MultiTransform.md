@@ -142,7 +142,9 @@ When initiated and completed in this way, the **![](images/)_[MultiTransform](P
 
 ## Examples
 
-![c\|800px](images/mt_example2.png ) *The smallest pad was first patterned three times in X direction and then scaled to factor two (so the three occurrences have scaling factor 1.0, 1.5 and 2.0). Then a polar pattern was applied with 8 occurrences.* ![c\|800px](images/mt_example3.png ) *The pocket was first mirrored on the YZ plane and then patterned with two linear patterns to give a rectangular pattern.* 
+![c\|800px](images/mt_example2.png ) 
+*The smallest pad was first patterned three times in X direction and then scaled to factor two (so the three occurrences have scaling factor 1.0, 1.5 and 2.0). Then a polar pattern was applied with 8 occurrences.* ![c\|800px](images/mt_example3.png ) 
+*The pocket was first mirrored on the YZ plane and then patterned with two linear patterns to give a rectangular pattern.* 
 
 
 

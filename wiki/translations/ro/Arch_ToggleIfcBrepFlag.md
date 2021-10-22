@@ -44,4 +44,4 @@ Acest instrument activează / dezactivează opțiunea IfcBrep a unui obiect [Mod
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/ro
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleIfcBrepFlag/ro

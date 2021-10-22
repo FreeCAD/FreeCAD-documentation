@@ -3,7 +3,7 @@ This category lists pages related to the [Plot Workbench/hu](Plot_Workbench/hu.m
 
 ### Contents:
 
-_
+_ , [Plot Workbench/hu](Plot_Workbench/hu.md)
 
 _
 

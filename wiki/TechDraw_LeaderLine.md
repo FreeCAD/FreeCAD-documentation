@@ -13,7 +13,8 @@
 
 The LeaderLine tool adds a line to a View. Other annotation objects (such as [Rich Text Annotations](TechDraw_RichTextAnnotation.md)) can be connected to the leaderline to form complex annotations.
 
- ![](images/TechDraw_LeaderLine_sample.png )  *Leaderline added to View001*
+ ![](images/TechDraw_LeaderLine_sample.png )  
+*Leaderline added to View001*
 
 ## Usage
 

@@ -3,6 +3,7 @@
    Name:Draft Arc
    MenuLocation:Drafting → Arc tools → Arc
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut:**A** **R**
    Version:0.7
    SeeAlso:[Draft Arc 3Points](Draft_Arc_3Points.md), [Draft Circle](Draft_Circle.md)
 ---
@@ -25,6 +26,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Arc.svg" width=16px> [Draft Arc](Draft_Arc.md)** button.
     -   Select the **Drafting → Arc tools → <img src="images/Draft_Arc.svg" width=16px> Arc** option from the menu.
+    -   Use the keyboard shortcut: **A** then **R**. <small>(v0.20)</small> 
 2.  The **Arc** task panel opens. See [Options](#Options.md) for more information.
 3.  Pick the first point, the center of the arc, in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 4.  Pick the second point in the [3D view](3D_view.md), or enter a **Radius**.

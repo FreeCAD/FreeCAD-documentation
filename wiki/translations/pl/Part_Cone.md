@@ -13,7 +13,8 @@
 
 Parametrycznie obcięty element pierwotny **Stożek** jest dostępny w Środowisku pracy Część, z paska narzędzi Część → Bryła pierwotna → Stożek.
 
-<img alt="" src=images/Otherwisedefault270degree_Part_Cone.png  style="width:300px;"> *Poniższy obrazek przedstawia fragment stożka z parametrem '''Kąt''' ustawionym na wartość 270°, a pozostałe parametry pozostają ustawione na wartościach domyślnych*.
+<img alt="" src=images/Otherwisedefault270degree_Part_Cone.png  style="width:300px;"> 
+*Poniższy obrazek przedstawia fragment stożka z parametrem '''Kąt''' ustawionym na wartość 270°, a pozostałe parametry pozostają ustawione na wartościach domyślnych*.
 
 ## Użycie
 

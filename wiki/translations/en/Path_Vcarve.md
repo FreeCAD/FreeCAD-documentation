@@ -32,7 +32,8 @@ The V-carve algorithm calculates a path down the center-line of a region using a
 
         :   ![](images/Svgimport.png )
         :   
-            *Above: Results of importing 'SVG as geometry'*
+            
+*Above: Results of importing 'SVG as geometry'*
             
 
 :   

@@ -71,6 +71,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Notes
 
+-   A Draft Text can be edited by double-clicking it in the [Tree view](Tree_view.md). <small>(v0.20)</small> 
 -   Draft Texts created with [FreeCAD version 0.18](Release_notes_0.18.md) are not backward compatible.
 
 

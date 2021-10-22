@@ -22,7 +22,8 @@ L\'utilità **Convalida lo schizzo** può essere usata per riparare uno schizzo 
 
 </div>
 
-![](images/Sketcher_ValidateSketch_taskpanel.png ) *The Sketcher validation task panel*
+![](images/Sketcher_ValidateSketch_taskpanel.png ) 
+*The Sketcher validation task panel*
 
 
 <div class="mw-translate-fuzzy">

@@ -8,7 +8,7 @@
 |Files=
 }}
 
-Upewnij się, że odwiedziłeś [Poradnik: Podstawy dla środowiska pracy Wykres](Plot_Basic_tutorial/pl.md) przed rozpoczęciem tego poradnika. W tym poradniku nauczymy się jak tworzyć i edytować wykres wieloosiowy. Na stronie środowiska pracy[Wykres](Plot_Module/pl.md) możesz dowiedzieć się więcej o nim.
+Upewnij się, że odwiedziłeś [Poradnik: Podstawy dla środowiska pracy Wykres](Plot_Basic_tutorial/pl.md) przed rozpoczęciem tego poradnika. W tym poradniku nauczymy się jak tworzyć i edytować wykres wieloosiowy. Na stronie środowiska pracy[Wykres](Plot_Workbench/pl.md) możesz dowiedzieć się więcej o nim.
 
 <img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;"> 
 *Przykład wykresu wieloosiowego*
@@ -58,7 +58,7 @@ Plot.plot(t,c,r"$\cos\left( 2 \pi t \right)$")
 
 W tym przykładzie przekazujemy bezpośrednio etykiety serii dla legendy. Zwróć uwagę, że łańcuchy etykiet mają przedrostek *r*, aby zapobiec próbom interpretacji znaków specjalnych przez środowisko [Python](Python/pl.md) \'\'(symbol *r* jest często używany w składni [LaTeX](http://www.latex-project.org))\'\'.
 
-Zanim będziemy mogli wykreślić funkcję wielomianową, musimy utworzyć nowe osie. W środowisku pracy [Wykres](Plot_Module/pl.md) nowe osie są automatycznie wybierane jako aktywne, a nowe wykresy będą powiązane z tymi osiami.
+Zanim będziemy mogli wykreślić funkcję wielomianową, musimy utworzyć nowe osie. W środowisku pracy [Wykres](Plot_Workbench/pl.md) nowe osie są automatycznie wybierane jako aktywne, a nowe wykresy będą powiązane z tymi osiami.
 
 
 ```python
@@ -66,15 +66,16 @@ Plot.addNewAxes()
 Plot.plot(x,y,r"$x^2$")
 ```
 
-Jak widzisz, wykres oszalał, znaczniki osi nałożyły się na siebie, krzywe mają ten sam kolor itd. Teraz musimy użyć [Modułu Wykres FreeCAD](Plot_Module/pl.md), aby naprawić ten wykres.
+Jak widzisz, wykres oszalał, znaczniki osi nałożyły się na siebie, krzywe mają ten sam kolor itd. Teraz musimy użyć środowiska pracy [Wykres](Plot_Workbench/pl.md), aby naprawić ten wykres.
 
 ## Konfiguracja wykresu 
 
 ### Konfigurowanie osi 
 
-Moduł [Wykres FreeCAD](Plot_Module/pl.md) dostarcza narzędzia do modyfikacji właściwości każdej z osi.
+Środowisko pracy [Wykres](Plot_Workbench/pl.md) dostarcza narzędzia do modyfikacji właściwości każdej z osi.
 
-![](images/Plot_Axes.svg‎ ) *Ikonka narzędzia konfiguracji osi*
+![](images/Plot_Axes.svg‎ ) 
+*Ikonka narzędzia konfiguracji osi*
 
 Za pomocą narzędzia [Konfiguruj osie](Plot_Axes/pl.md) możesz dodawać i usuwać osie oraz ustawiać aktywne osie, które są następnie używane, gdy wykreślasz więcej danych.
 
@@ -86,7 +87,7 @@ Ustaw właściwości serii tak jak to robiliśmy w [poprzednim poradniku](Plot_B
 
 ### Wyświetlenie siatki i legendy 
 
-może być pokazywana i ukrywana za pomocą narzędzi opisanych w [poprzednim poradniku](Plot_Basic_tutorial.md), ale w tym przypadku zachowanie jest nieco inne, ponieważ istnieją dwa zestawy osi.
+[Siatka](Plot_Grid/pl.md) oraz [legenda](Plot_Legend/pl.md) może być pokazywana i ukrywana za pomocą narzędzi opisanych w [poprzednim poradniku](Plot_Basic_tutorial/pl.md), ale w tym przypadku zachowanie jest nieco inne, ponieważ istnieją dwa zestawy osi.
 
 Linie siatki są dodawane do aktywnego zestawu osi. Aby dodać linie do drugiego zestawu osi w naszym przykładzie, musi on być najpierw aktywowany poprzez zmianę aktywnych osi z {{Value|0}} na {{Value|1}} w [Konfiguruj osie](Plot_Axes/pl.md).
 
@@ -94,7 +95,7 @@ Jak już wspomnieliśmy, legenda zostanie umieszczona względem ostatniej ustawi
 
 ### Ustawianie etykiet osi 
 
-Kiedy przychodzi do ustawiania [etykiet](Plot_Labels/pl.md) dla osi, znów mamy do czynienia z naszymi dwoma zestawami osi. Ale ponieważ etykiety są zazwyczaj ustawiane dla wszystkich osi, procedura jest taka sama jak opisana w [poprzednim poradniku](Plot_Basic_tutorial/pl.md). Moduł [Wykres](Plot_Module/pl.md) pozwala na ustawienie tytułu dla każdego zestawu osi. W tym przypadku chcemy ustawić tytuł tylko dla ostatniego, największego zestawu osi.
+Kiedy przychodzi do ustawiania [etykiet](Plot_Labels/pl.md) dla osi, znów mamy do czynienia z naszymi dwoma zestawami osi. Ale ponieważ etykiety są zazwyczaj ustawiane dla wszystkich osi, procedura jest taka sama jak opisana w [poprzednim poradniku](Plot_Basic_tutorial/pl.md). Moduł [Wykres](Plot_Workbench/pl.md) pozwala na ustawienie tytułu dla każdego zestawu osi. W tym przypadku chcemy ustawić tytuł tylko dla ostatniego, największego zestawu osi.
 
 **Oś 0:**
 
@@ -113,9 +114,10 @@ Zmień rozmiar czcionki wszystkich etykiet na {{Value|20}} oraz rozmiar czcionki
 
 =
 
-Moduł FreeCAD [Wykres](Plot_Module/pl.md) udostępnia narzędzie do ustawiania pozycji kilku elementów wykresu, takich jak tytuły, etykiety czy legenda.
+Środowisko pracy [Wykres](Plot_Workbench/pl.md) udostępnia narzędzie do ustawiania pozycji kilku elementów wykresu, takich jak tytuły, etykiety czy legenda.
 
-![](images/Plot_Positions.svg ) *Ikona edytora pozycji*
+![](images/Plot_Positions.svg ) 
+*Ikona edytora pozycji*
 
 Gdy uruchomisz narzędzie, zobaczysz listę wszystkich edytowalnych elementów. Tytuły i legendy mogą być przesuwane w obu kierunkach, ale etykiety osi mogą być przesuwane tylko wzdłuż osi, do której należą. Wybierz tytuł osi 1 i przesuń go na pozycję (0.24,1.01), następnie wybierz legendę i przesuń ją na lepszą pozycję. Możesz również zwiększyć rozmiar czcionki etykiet legendy.
 

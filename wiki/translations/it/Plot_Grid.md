@@ -1,6 +1,6 @@
 # Plot Grid/it
 ---
-- GuiCommand:/it   Name:Plot Grid   Name/it:Griglia   MenuLocation:Grafico → Griglia‏‎   |Workbenches:[[Plot Module/it   Grafico]]|Shortcut:   SeeAlso:---
+- GuiCommand:/it   Name:Plot Grid   Name/it:Griglia   MenuLocation:Grafico → Griglia‏‎   |Workbenches:[[Plot_Workbench/it   Grafico]]|Shortcut:   SeeAlso:---
 
 
 </div>

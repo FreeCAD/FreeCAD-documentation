@@ -17,7 +17,8 @@ After certain boolean operations, like [Part Fuse](Part_Fuse.md), some lines fro
 **Alternatively**, to produce other non-parametric copies use **<img src="images/Part_SimpleCopy.svg" width=16px> [Simple Copy](Part_SimpleCopy.md)
 **, **<img src="images/Part_TransformedCopy.svg" width=16px>[Transformed Copy](Part_TransformedCopy.md)**, and **<img src="images/Part_ElementCopy.svg" width=16px> [Element Copy](Part_ElementCopy.md)**
 
- ![](images/PartRefineShape_it.png )  *Original boolean result with 11 faces (left), and refined shape copy with 7 faces (right).*
+ ![](images/PartRefineShape_it.png )  
+*Original boolean result with 11 faces (left), and refined shape copy with 7 faces (right).*
 
 ## Usage
 

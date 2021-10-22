@@ -38,6 +38,7 @@ Questo strumento può essere utilizzato anche per creare archi ellittici specifi
 <div class="mw-translate-fuzzy">
 
 
+
 *Ellisse definita dagli angoli del rettangolo*
 
 

@@ -15,7 +15,10 @@
 
 L\'outil FHPlaneHole insère un objet de trou plan qui représente un trou plan conducteur uniforme FastHenry.
 
-![](images/EM_point_FHPlaneHole_Example.png ) *FastHenry Point FHPlaneHole* ![](images/EM_rect_FHPlaneHole_Example.png ) *FastHenry Rectangle FHPlaneHole* ![](images/EM_circle_FHPlaneHole_Example.png ) *FastHenry Cercle FHPlaneHole*
+![](images/EM_point_FHPlaneHole_Example.png ) 
+*FastHenry Point FHPlaneHole* ![](images/EM_rect_FHPlaneHole_Example.png ) 
+*FastHenry Rectangle FHPlaneHole* ![](images/EM_circle_FHPlaneHole_Example.png ) 
+*FastHenry Cercle FHPlaneHole*
 
 ## Utilisation
 

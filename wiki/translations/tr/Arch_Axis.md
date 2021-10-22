@@ -14,7 +14,7 @@
 
 ## Description
 
-The **<img src="images/Arch_Axis.svg" width=16px> [Arch Axis](Arch_Axis.md)** tool allows you to places a series of axes in the current document. The distance and the angle between axes is customizable, as well as the numbering style. The axes serve mainly as references to snap objects onto, but can also be used together with **<img src="images/Arch_Axis_System.svg" width=16px> [Arch AxesSystems](Arch_AxisSystem.md)** , and can also be referenced by other Arch objects to create parametric arrays, for example of beams or columns. **<img src="images/Arch_Grid.svg" width=16px> [Arch Grids](Arch_Grid.md)** can also be used in places of axes.
+The **<img src="images/Arch_Axis.svg" width=16px> [Arch Axis](Arch_Axis.md)** tool allows you to place a series of axes in the current document. The distance and the angle between axes is customizable, as well as the numbering style. The axes serve mainly as references to snap objects onto, but can also be used together with **<img src="images/Arch_Axis_System.svg" width=16px> [Arch AxesSystems](Arch_AxisSystem.md)**. They can also be referenced by other Arch objects to create parametric arrays, for example of beams or columns. **<img src="images/Arch_Grid.svg" width=16px> [Arch Grids](Arch_Grid.md)** can also be used in places of axes.
 
 <img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;"> 
 *Two axes objects positioned perpendicularly to each other to create a grid*
@@ -27,10 +27,10 @@ The **<img src="images/Arch_Axis.svg" width=16px> [Arch Axis](Arch_Axis.md)** to
 
 ## Options
 
--   Each axis in the series has its own distance and angle in relation to the previous axis. This allows to do very complex systems such as non-orthogonal systems, polar systems or any kind of non-uniform system
--   Double-clicking the axis in the tree view allows to edit the distances, angles and labels of each axis
--   Axes length, size of the bubbles and numbering styles are customizable directly via the axes system\'s properties
--   Each axis can also display a label, also editable via the task panel dialog
+-   Each axis in the series has its own distance and angle in relation to the previous axis. This allows to do very complex systems such as non-orthogonal systems, polar systems or any kind of non-uniform system.
+-   Double-clicking the axis in the tree view allows to edit the distances, angles and labels of each axis.
+-   Axes length, size of the bubbles and numbering styles are customizable directly via the axes system\'s properties.
+-   Each axis can also display a label, which is editable via the task panel dialog.
 
 ## Properties
 
@@ -104,4 +104,4 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Axis/tr
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/tr

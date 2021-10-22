@@ -14,6 +14,8 @@ Zobacz inne sposoby aby [pomóc projektowi](Help_FreeCAD/pl.md) *(dokumentacja, 
 
 -   Istnieje konto [Bountysource](https://salt.bountysource.com/teams/freecad), przekaż pieniądze na cały projekt FreeCAD lub zaoferuj **nagrodę** za rozwiązanie konkretnego problemu lub błędu. Jest to interesująca opcja, ponieważ twoja darowizna może być wykorzystana konkretnie w konkretnym obszarze. Jednakże, korzystanie z pieniędzy z Bountysource jest dla nas bardziej złożonym procesem i może wystąpić opóźnienie pomiędzy przekazaniem darowizny a jej efektywnym wykorzystaniem.
 
+**Ostrzeżenie**: ostatnio wystąpiła seria problemów dotyczących bountysource i zalecamy, aby na razie nie używać tej platformy. Zalecamy sprawdzanie jej [Wikipedii](https://en.wikipedia.org/wiki/Bountysource) w celu uzyskania aktualnych informacji.
+
 -   Obsługuj koszty hostingu, wpłacając datek bezpośrednio na konto [Jürgen Riegel\'s paypal](https://www.paypal.com/cgi-bin/webscr?item_name=Donation+to+FreeCAD&cmd=_donations&business=Mail%40juergen-riegel.net). Jürgen jest pierwotnym deweloperem FreeCAD.
 
 -   Niektórzy programiści wykonują określone zadania za pieniądze lub mogą być sponsorowani, aby spędzić czas pracując nad programem FreeCAD. W przeszłości przeprowadzono kilka udanych eksperymentów, takich jak środowisko pracy [Path](Path_Workbench/pl.md) lub [eksperyment finansowania Ian Rees](https://opendeveloperfunding.wordpress.com/). W chwili obecnej można sponsorować następujących deweloperów:

@@ -30,7 +30,8 @@ Acest instrument vă permite să construiți elemente structurale, cum ar fi col
 
 </div>
 
-![](images/Arch_Structure_example.jpg ) *Column based on a 2D base profile; a column and a beam defined by their height, length and width, without a base profile; a metallic structure based on a 2D face*Imaginea de mai sus prezintă o coloană bazată pe un profil de bază 2D, o coloană și o grindă bazate pe nici un profil (definit prin dimensiunile înălțimii, lungimii și lățimii) și un profil metalic bazat pe un contur 2D (fațetă, fire sau schiță). În plus, un anumit număr de presetări disponibile în timpul creării obiectului vă permite să construiți rapid un element structural dintr-un profil standard predefinit.
+![](images/Arch_Structure_example.jpg ) 
+*Column based on a 2D base profile; a column and a beam defined by their height, length and width, without a base profile; a metallic structure based on a 2D face*Imaginea de mai sus prezintă o coloană bazată pe un profil de bază 2D, o coloană și o grindă bazate pe nici un profil (definit prin dimensiunile înălțimii, lungimii și lățimii) și un profil metalic bazat pe un contur 2D (fațetă, fire sau schiță). În plus, un anumit număr de presetări disponibile în timpul creării obiectului vă permite să construiți rapid un element structural dintr-un profil standard predefinit.
 
 ## Cum se folosește 
 
@@ -89,7 +90,8 @@ Acest instrument vă permite să construiți elemente structurale, cum ar fi col
 
 Instrumentul Structură include, de asemenea, o serie de presetări care permit construirea rapidă a profilelor metalice standard sau a elementelor prefabricate din beton.
 
-![](images/Arch_presets_example.jpg ) *Some presets for steel structures*
+![](images/Arch_presets_example.jpg ) 
+*Some presets for steel structures*
 
 Presetările sunt obținute prin alegerea unei **Category** din panoul cu opțiuni de structură. Categoriile disponibile sunt \"beton prefabricat\" sau orice profil metalic standard industrial, cum ar fi \"HEA\", \"HEB\" sau \"INP\". Pentru fiecare dintre aceste categorii, sunt disponibile mai multe presetări. Odată ce este aleasă o presetare, pot fi ajustați parametrii individuali, cum ar fi **Lungime**,\'\'\' Lățime **sau** Înălțime \'\'\'. Cu toate acestea, pentru profilele metalice, dimensiunea profilului este setată de presetare și nu poate fi modificată.
 
@@ -164,4 +166,4 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Structure/ro
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/ro

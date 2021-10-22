@@ -34,13 +34,15 @@ Wobei `$INSTALL_DIR` das Verzeichnis ist, wo FreeCAD installiert wurde, z.B.
 -   Wähle die Seitengröße \"US Letter\" oder \"A4\" und die Ausrichtung \"Querformat\".
 -   Setze die Standardeinheiten auf \"mm\" und die Seitengröße auf Breite \"279,4\" und Höhe \"215,9\". Für DIN-A4 würdest du \"210\" und \"297\" verwenden.
 
-<img alt="" src=images/InkDocProp.png  style="width:800px;"> *align=center|Inkscape: Dokument mit Seitengröße und Ausrichtung* 
+<img alt="" src=images/InkDocProp.png  style="width:800px;"> 
+*align=center|Inkscape: Dokument mit Seitengröße und Ausrichtung* 
 
 3\. Verwende den XML Editor, um dem `<svg>` Element eine \"freecad\" Namensraumklausel hinzuzufügen.
 
 -   xmlns:freecad="[http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace](http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace)"
 
-Beachte, dass deine editierbaren Texte *nicht* funktionieren, wenn du \"<https://>\...\" verwendest, auch wenn das Wiki heutzutage über https erreicht wird. Da SVG ein von Menschen lesbares Format ist, könntest du die obige Zeile auch mit einem Texteditor in die Datei eingeben. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> *align=center|Inkscape: XML Editor, der die "freecad" Namensraumklausel zum Element <svg> hinzufügt* 
+Beachte, dass deine editierbaren Texte *nicht* funktionieren, wenn du \"<https://>\...\" verwendest, auch wenn das Wiki heutzutage über https erreicht wird. Da SVG ein von Menschen lesbares Format ist, könntest du die obige Zeile auch mit einem Texteditor in die Datei eingeben. <img alt="" src=images/InkXMLNameSpace.png  style="width:800px;"> 
+*align=center|Inkscape: XML Editor, der die "freecad" Namensraumklausel zum Element <svg> hinzufügt* 
 
 ## Erstelle eine Vorlagenzeichnung 
 
@@ -52,7 +54,8 @@ Beachte, dass deine editierbaren Texte *nicht* funktionieren, wenn du \"<https:/
 
 7\. Füge den zu bearbeitenden Text hinzu und positioniere ihn.
 
-8\. Du hast nun dein fertiges Kunstwerk, das in etwa so aussehen sollte: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> *align=center|Inkscape: Vorläufiges Vorlagenlayout* 
+8\. Du hast nun dein fertiges Kunstwerk, das in etwa so aussehen sollte: <img alt="" src=images/InkFinishedArt.png  style="width:800px;"> 
+*align=center|Inkscape: Vorläufiges Vorlagenlayout* 
 
 ## Erstelle änderbare Felder 
 
@@ -60,7 +63,8 @@ Beachte, dass deine editierbaren Texte *nicht* funktionieren, wenn du \"<https:/
 
 -   vergib einen sinnvollen Namen für jedes änderbaren Text
 
-<img alt="" src=images/InkXMLeditableTag.png  style="width:800px;"> *align=center|Inkscape: XML Editor beim Hinzufügen der "freecad:editable" Eigenschaft zum gewünschten <text> Element* 
+<img alt="" src=images/InkXMLeditableTag.png  style="width:800px;"> 
+*align=center|Inkscape: XML Editor beim Hinzufügen der "freecad:editable" Eigenschaft zum gewünschten <text> Element* 
 
 ## Größe der SVG anpassen 
 
@@ -68,9 +72,11 @@ Beachte, dass deine editierbaren Texte *nicht* funktionieren, wenn du \"<https:/
 
 -   Es sind vier Werte im Format `"0 0 Breite Höhe"`
 
-<img alt="" src=images/InkXMLviewBox.png  style="width:800px;"> *align=center|Inkscape: XML Editor beim Anpassen des Anzeigefeldes zur Übereinstimmung mit der Seitengröße in Millimetern* 
+<img alt="" src=images/InkXMLviewBox.png  style="width:800px;"> 
+*align=center|Inkscape: XML Editor beim Anpassen des Anzeigefeldes zur Übereinstimmung mit der Seitengröße in Millimetern* 
 
-11\. Deine Vorlage wird nun viel größer als gewünscht erscheinen. <img alt="" src=images/InkMuchTooBig.png  style="width:800px;"> *align=center|Inkscape: Vorläufiges Vorlagenlayout überschreitet die Seitengröße* 
+11\. Deine Vorlage wird nun viel größer als gewünscht erscheinen. <img alt="" src=images/InkMuchTooBig.png  style="width:800px;"> 
+*align=center|Inkscape: Vorläufiges Vorlagenlayout überschreitet die Seitengröße* 
 
 12\. Wir müssen ihn verkleinern.
 
@@ -102,7 +108,8 @@ Beachte, dass deine editierbaren Texte *nicht* funktionieren, wenn du \"<https:/
 
 20\. Speichere Deine Vorlage. Wenn Du Inkscape benutzt, speichere sie vorzugsweise als **Plain SVG**, da FreeCAD nur mit Elementen der SVG-1.1-Spezifikation umgehen kann. **Plain SVG** entfernt alle inkscape-spezifischen XML-Anweisungen.
 
-21\. Probiere sie in FreeCAD und dem [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) mit [Seite mittels Vorlage einfügen](TechDraw_PageTemplate/de.md) aus. ![](images/FCTemplateHow.png ) *align=center|FreeCAD: fertige Vorlage mit änderbarem Textfeld während der Änderung* 
+21\. Probiere sie in FreeCAD und dem [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) mit [Seite mittels Vorlage einfügen](TechDraw_PageTemplate/de.md) aus. ![](images/FCTemplateHow.png ) 
+*align=center|FreeCAD: fertige Vorlage mit änderbarem Textfeld während der Änderung* 
 
 ## Anmerkungen
 
@@ -113,6 +120,8 @@ Stelle als letzten Schritt vor der Verwendung deiner neuen Vorlage sicher, daß 
 Siehe eine Stackoverflow Debatte auf [Entfernen von Transformationsklauseln in SVG Dateien](https://stackoverflow.com/questions/13329125/removing-transforms-in-svg-files).
 
 Wenn du die grünen Kästchen für deine bearbeitbaren Texte nicht siehst, ist möglicherweise etwas mit deinem Dokumentenmaßstab nicht in Ordnung. Öffne dein Datei erneut in Inkscape und bestätige, dass die Werte des AnsichtsKasten und die Größen übereinstimmen.
+
+If texts appear offset in FreeCAD, you may need to remove the {{Incode|xml:space<nowiki>=</nowiki>"preserve"}} attributes in the SVG file. See: <https://www.forum.freecadweb.org/viewtopic.php?t=50897>.
 
 
 {{Tutorials navi

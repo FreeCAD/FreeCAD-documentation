@@ -12,6 +12,7 @@ This document gives a brief introduction to Sphinx, in particular how it is used
 <img alt="" src=images/FreeCAD_sphinx_workflow.svg  style="width:800px;">
 
 
+
 *General workflow to produce source code documentation with Sphinx. (Editor's note: update this image)*
 
 ## Sphinx and FreeCAD Preview 

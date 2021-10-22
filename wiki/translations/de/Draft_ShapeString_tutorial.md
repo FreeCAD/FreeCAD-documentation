@@ -21,7 +21,8 @@ Dieses Tutorium beschreibt eine Methode zur Erstellung von 3D-Text und dessen Ve
 
 Um FormZeichenfolgen innerhalb der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) zu verwenden, ist der Prozess im Wesentlichen derselbe wie beim Part Arbeitsbereich, aber die FormZeichenfolge wird innerhalb des [PartDesign Körper](PartDesign_Body/de.md) platziert, um ihn zu extrudieren. Weitere Informationen findest du am Ende dieses Tutoriums.
 
-![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) *Endgültiges Modell des gravierten Textes.*
+![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) 
+*Endgültiges Modell des gravierten Textes.*
 
 Der [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) wird kurzzeitig zum Zeichnen einer Hilfslinie verwendet. Weitere Informationen zu den Werkzeugen dieses Arbeitsbereichs findet man in
 
@@ -52,7 +53,8 @@ Der [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) wird kurzzeitig zum Ze
 :   3.4. Drücke **OK**. Dies erzeugt ein `Fasen` Objekt.
 :   3.5. In der [Baumansicht](tree_view/de.md), wähle `Fase`, im **Ansicht**s Reiter ändere den Wert **Linienbreite** auf `2.0`.
 
-![](images/01_T04_Part_Cube_base_long.png ) *Basisobjekt erzeugt aus einem Würfel und einer Fasenbearbeitung.*
+![](images/01_T04_Part_Cube_base_long.png ) 
+*Basisobjekt erzeugt aus einem Würfel und einer Fasenbearbeitung.*
 
 ## Einfügen der FormZeichenkette 
 
@@ -82,7 +84,8 @@ Der [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) wird kurzzeitig zum Ze
 :   5.12. Um den FormZeichenfolge von oben zu sehen, ändere die Ansicht, durch drücken von **<img src=images/View-top.svg style="width:16px"> [Oben (XY)](Std_ViewTop/de.md)**, oder **2** in der Tastatur.
 :   5.13. Um die isometrische Ansicht wiederherzustellen, drücke **<img src=images/Std_ViewIsometric.svg style="width:16px"> [Isoemetrische Ansicht](Std_ViewIsometric/de.md)**, oder **0** in der Tastatur.
 
-![](images/02_T04_Part_ShapeString.png ) *Text erstellt als FormZeichenfolge, d.h. als eine Sammlung von Kanten in einer Ebene.*
+![](images/02_T04_Part_ShapeString.png ) 
+*Text erstellt als FormZeichenfolge, d.h. als eine Sammlung von Kanten in einer Ebene.*
 
 ## Erstellen des 3D Volumentextes 
 
@@ -93,7 +96,8 @@ Der [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) wird kurzzeitig zum Ze
 :   6.3. Drücke **OK**. Dies wird ein `Extrudieren` Objekt erzeugen.
 :   6.4. Wähle in der [Baumansicht](tree_view/de.md) die Option {{Incode|Extrudieren}}, ändere im Reiter **Ansicht** den Wert von **Linienbreite** in {{Incode|2.0}}.
 
-![](images/03_T04_Part_ShapeString_Extrude.png ) *Text als FormZeichenfolge erstellt und durch Extrusion in einen Festkörper verwandelt.*
+![](images/03_T04_Part_ShapeString_Extrude.png ) 
+*Text als FormZeichenfolge erstellt und durch Extrusion in einen Festkörper verwandelt.*
 
 ## Hilfsskizze zur Positionierung einfügen 
 
@@ -149,9 +153,11 @@ Nun zeichnen wir eine einfache Skizze, die als Hilfsgeometrie zur Positionierung
     **Hinweis:**Wenn du Probleme mit dem Einrasten an Knoten hast, stelle sicher, dass nur die **<img src=images/Snap_Endpoint.svg style="width:16px"> [Fang Endpunkt](Draft_Snap_Endpoint/de.md)** Methode aktiviert ist. Wenn mehrere Fangmethoden gleichzeitig aktiv sind, macht es schwierig, das richtige Grundelement auszuwählen.
 :   13.4. Der extrudierte Text sollte sich nun innerhalb des Körpers des `Verrundung`s Objekts befinden.
 
-![](images/06_T04_Part_ShapeString_move.svg ) *Die extrudierte FormZeichenfolge sollte auf die Position der skizzierten Linie verschoben werden, die auf der Fläche des Grundkörpers liegt.*
+![](images/06_T04_Part_ShapeString_move.svg ) 
+*Die extrudierte FormZeichenfolge sollte auf die Position der skizzierten Linie verschoben werden, die auf der Fläche des Grundkörpers liegt.*
 
-![](images/07_T04_Part_ShapesString_Extrude_in_place.png ) *Extrudierte FormZeichenfolge positioniert in der `Verrundung*.`
+![](images/07_T04_Part_ShapesString_Extrude_in_place.png ) 
+*Extrudierte FormZeichenfolge positioniert in der `Verrundung*.`
 
 ## Erstellen von graviertem Text 
 
@@ -167,7 +173,8 @@ Nun zeichnen wir eine einfache Skizze, die als Hilfsgeometrie zur Positionierung
     **Hinweis:**die Reihenfolge, in der du die Objekte auswählst, ist wichtig für den Schneidevorgang. Das Basisobjekt wird zuerst ausgewählt, und das subtrahierende Objekt kommt am Ende.
 :   15.2. Wähle in der [Baumansicht](tree_view/de.md) die Option {{Incode|Schnitt}}, ändere im Reiter {{MenuCommand/de|Ansicht}} den Wert von {{MenuCommand/de|Zeilenbreite}} auf {{Incode|2.0}}.
 
-![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) *Endgültiges Modell eines verrundeten Würfels, mit geschnitztem Text, der aus einer ShapeString, Extrude und boolschen Schnittoperationen erzeugt wurde.*
+![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) 
+*Endgültiges Modell eines verrundeten Würfels, mit geschnitztem Text, der aus einer ShapeString, Extrude und boolschen Schnittoperationen erzeugt wurde.*
 
 ## Gravieren von 3D Text mit dem PartDesign Arbeitsbereich 
 

@@ -17,6 +17,7 @@ Cet outil dessine une ellipse en choisissant trois points: le centre, la fin du 
 <img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;">
 
 
+
 *La séquence de clics est indiquée par des flèches jaunes avec des nombres. C est le centre, a - diamètre principal, b - diamètre mineur, F1, F2 sont les foyers.*
 
 ## Utilisation

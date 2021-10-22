@@ -24,12 +24,48 @@ Lo strumento <img alt="" src=images/SheetMetal_Extrude.svg  style="width:24px;">
 
 </div>
 
+It creates a **simple extension** along the face normal of the selected edge face:
+
+<img alt="" src=images/SheetMetal_Extrude-01.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-02.png  style="width:200px;">
+
+If an outline sketch is added it creates **interlocking geometry** to close a profile:
+
+<img alt="" src=images/SheetMetal_Extrude-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-04.png  style="width:200px;">
+
+
+
+*Three profiles with outline sketches to add -> three results*
+
 ## Utilizzo
+
+### Simple Extension 
+
+
+<div class="mw-translate-fuzzy">
 
 Per estendere la faccia:
 
 1.  Iniziare con una piastra di base o un foglio, selezionare una faccia sottile che rappresenta lo spessore della lamiera
 2.  Cliccare sullo strumento <img alt="" src=images/SheetMetal_Extrude.svg  style="width:24px;"> **Extrude** per estendere la faccia.
+
+
+</div>
+
+### Interlocking Extension 
+
+1.  Select one edge face to be extended.
+2.  Activate the <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> **SheetMetal Extrude** command (see above).
+3.  Add a coplanar outline sketch to the property **Sketch**.
+4.  Set the property **Use Subtraction** to `True` to create cut-outs to make room for the extensions.
+5.  Set the property **Offset** to adjust the clearance around the extension.
+
+<img alt="" src=images/SheetMetal_Extrude-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-06.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-04.png  style="width:200px;">
+
+
+
+*Three profiles -> position of the sketches -> results without cut-outs -> final results*
+
+### Notes
 
 
 <div class="mw-translate-fuzzy">
@@ -59,14 +95,34 @@ Per estendere la faccia:
 </div>
 
 
-:   
+:   After inserting a sketch, at least one of its outlines must at least touch one opposite face or the tool will fail to create any extension or cut-out.
 
-    :   Se si inizia con un <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> Corpo di PartDesign, è possibile combinare funzioni di Sheet Metal con funzioni di PartDesign come <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> _.
+
+
+
+
+:   Just one outline touching an opposite face is enough to create extension geometry from all outlines of the sketch.
+
+-   Each cut-out will have a cuboid shape, no matter what shape the corresponding outline sketch is.
+
+-   Shapes other than rectangles may behave little bit strange and even though the object can be unfolded, the result will not turn out as expected.
+
+<img alt="" src=images/SheetMetal_Extrude-07.png  style="width:250px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-08.png  style="width:250px;">
+
+
+
+*Three outline sketches and their resulting extensions: separate triangle plate with a rectangular cut-out, circle without clearance -> unfold solid is split at an unexpected position *
+
+
+<div class="mw-translate-fuzzy">
 
 
 **Nota**
 
 : In un\'operazione di estensione, impostare `Refine {{:=` true}}.
+
+
+</div>
 
 ## Proprietà
 
@@ -103,13 +159,13 @@ A SheetMetal Extend object is derived from a [Part Feature](Part_Feature.md) obj
 
 {{Properties_Title|Parameters Ext.}}
 
--    **Offset|Distance**: \"Offset for substraction\". Default: {{value|20,00 µm}}.
+-    **Offset|Distance**: \"Offset for subtraction\". Default: {{value|20,00 µm}}.
 
 -    **Refine|Bool**: \"Use Refine\". Default: `True`.
 
 -    **Sketch|Link**: \"Wall Sketch\".
 
--    **Use Substraction|Bool**: \"Use Substraction\". Default: `False`
+-    **Use Subtraction|Bool**: \"Use Subtraction\". Default: `False`
 
 
 <div class="mw-translate-fuzzy">

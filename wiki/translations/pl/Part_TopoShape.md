@@ -12,9 +12,11 @@ Innym typem klasy jest [siatka](Mesh/pl.md). Klasa ta nie jest zbyt parametryczn
 ![](images/Shape_and_mesh.svg )
 
 
+
 *Po lewej: _, zdefiniowana przez wierzchołki i powierzchnie trójkątne.*
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Uproszczony diagram zależności pomiędzy podstawowymi obiektami programu. Klasa `Part::TopoShape* jest osadzona w obiekcie {{incode|Part::Feature` i stamtąd jest propagowana do wszystkich obiektów, które są od niej pochodne.}}

@@ -5,7 +5,8 @@ Intensivnutzer haben die Möglichkeit, [Oberflächen erstellen](Interface_creati
 
 Benutzeroberflächen werden mit [PySide](PySide/de.md) erstellt, einer Bibliothek zur Verwendung von Qt mit [Python](Python/de.md).
 
-<img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> *Zwei allgemeine Methoden zur Erstellung von Schnittstellen, durch Einfügen der Schnittstelle in die Python Datei oder durch die Verwendung von `.ui* Dateien.`
+<img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> 
+*Zwei allgemeine Methoden zur Erstellung von Schnittstellen, durch Einfügen der Schnittstelle in die Python Datei oder durch die Verwendung von `.ui* Dateien.`
 
 ## Beschreibung
 

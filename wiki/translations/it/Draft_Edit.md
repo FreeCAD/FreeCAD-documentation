@@ -23,7 +23,8 @@ Lo strumento <img alt="" src=images/Draft_Edit.svg  style="width:16px;"> Modific
 
 </div>
 
-![](images/Draft_Edit_example.png ) *4 objects in Draft Edit mode: a Draft Wire (red), a Draft Arc (black), a Draft BSpline (green) and a Draft BezCurve (magenta)*
+![](images/Draft_Edit_example.png ) 
+*4 objects in Draft Edit mode: a Draft Wire (red), a Draft Arc (black), a Draft BSpline (green) and a Draft BezCurve (magenta)*
 
 ## Usage
 
@@ -52,7 +53,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
     -   The [Node task panel](#Node_task_panel.md) opens. See [Options](#Options.md) for more information.
     -   Pick a point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
     -   The result depends on the object and the selected node.
-7.  Press **Esc** or the **Close** button to finish the command.
+7.  Press **Esc** or the **Close** button (the button at the top of the task panel, without the image) to finish the command.
 
 ## Opzioni
 
@@ -60,7 +61,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ### Main task panel 
 
--   Press **O** or the **<img src="images/Draft_CloseLine.svg" width=16px> Close** button to finish the command. If a single [Draft Wire](Draft_Wire.md) has been selected the wire is closed.
+-   Press **O** or the **<img src="images/Draft_CloseLine.svg" width=16px> Close** button to finish the command. If a single [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft CubicBezCurve](Draft_CubicBezCurve.md) or [Draft BezCurve](Draft_BezCurve.md) has been selected the object is closed.
 -   Press **Esc** or the **Close** button to finish the command.
 
 ### Node task panel 

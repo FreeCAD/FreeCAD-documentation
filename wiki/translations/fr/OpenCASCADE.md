@@ -10,6 +10,7 @@ Les classes géométriques d\'OCCT sont pour la plupart implémentées et rendue
 <img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;">
 
 
+
 *OpenCASCADE fournit les classes géométriques de base et les fonctions de dessin à l'[atelier Part](Part_Workbench/fr.md) qui sont ensuite utilisées par tous les ateliers de FreeCAD.*
 
 OpenCASCADE ne doit pas être confondu avec _.
@@ -64,6 +65,7 @@ A partir d\'une arête ou d\'une face, on peut aussi revenir à son équivalent 
 Ainsi, à partir de formes, vous pouvez créer des pièces très complexes ou, inversement, extraire toutes les sous-formes dont une forme plus complexe est constituée.
 
 <img alt="" src=images/Part_TopoShape_relationships.svg  style="width:600px;">
+
 
 
 *La classe `Part::TopoShape* est l'objet géométrique visible à l'écran. Essentiellement, tous les ateliers utilisent ces [TopoShapes](Part_TopoShape/fr.md) en interne pour créer et afficher des arêtes, des faces et des solides.`

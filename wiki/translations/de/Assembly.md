@@ -11,6 +11,7 @@ Zum Beispiel sind eine Schraube, eine Beilagscheibe und eine Mutter drei separat
 <img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;">
 
 
+
 *Links: drei einzelne beieinander liegende Teile, die mit _ zusammengestellt.*
 
 ## Anwendung

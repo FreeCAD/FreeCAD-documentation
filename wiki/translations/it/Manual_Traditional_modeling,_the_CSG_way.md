@@ -188,4 +188,4 @@ Si può guardare il tavolo di cui sopra, e pensare il suo design non è buono. I
 _
 
 ---
-[documentation index](../README.md) > Manual:Traditional modeling, the CSG way/it
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional modeling, the CSG way/it

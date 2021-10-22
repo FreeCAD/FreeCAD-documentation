@@ -1,4 +1,7 @@
 # Macro FCInfo/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro FCInfo
 |Translate=Infoin scheda
@@ -12,9 +15,18 @@
 |SeeAlso=<img src=images/Arch_Survey.svg style="width:Arch Survey|24px"> [Arch Survey](Arch_Survey/it.md)<br />[Macro SimpleProperties](Macro_SimpleProperties/it.md)
 }}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Fornisce una ampia serie di informazioni sulla forma selezionata quali lunghezza, angoli, superficie, inclinazione, volume e peso secondo la densità della forma selezionata, sia nelle unità del Sistema Internazionale che in quelle del Sistema Anglosassone.
+
+
+</div>
 
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/4ff055ff5eb117f75beea5843efca4791990cf62/FCInfo_en_Ver_1-22-rmu_Docked.FCMacro}}

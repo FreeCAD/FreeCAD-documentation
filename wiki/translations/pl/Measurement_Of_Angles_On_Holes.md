@@ -32,6 +32,7 @@ Po drugie, do utworzenia linii środkowej można użyć następujących narzędz
 W oknie dialogowym Widok złożony wybierz **Wyrównanie** dla osi poza osiami głównymi. \"Przedłużyć o\" oznacza długość linii środkowej wychodzącej poza linię detalu na rysunku. Przy pomocy opcji **Przesuń poziomo** i **Przesuń pionowo** linia środkowa może w razie potrzeby przesuwać się w kierunku poziomym lub pionowym. **Styl** oznacza kształt linii środkowej.
 
 <img alt="" src=images/Create-Center-Line3P.JPG  style="width:250px;">
+
 *Powyżej: okienko dialogowe*
 Utworzona linia środkowa może zostać zmodyfikowana. Wybierz linię środkową i naciśnij przycisk <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:24px;"> lub <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:24px;"> z paska narzędzi, którym utworzyłeś linię środkową. Usuwanie linii środkowej może nastąpić, tylko przy pomocy narzędzia <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:24px;"> z paska narzędzi po uprzednim wybraniu linii środkowej.
 2. Ustawianie kątów:
@@ -39,6 +40,7 @@ Utworzona linia środkowa może zostać zmodyfikowana. Wybierz linię środkową
 Punkty czworokąta wybierz za pomocą narzędzia <img alt="" src=images/TechDraw_Quadrants.svg  style="width:24px;"> z paska narzędzi. Następnie wybierz punkty jak pokazano poniżej i użyj narzędzia <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:24px;"> z paska narzędzi, aby utworzyć kąt. Inna kolejność utworzy inne kąty. Jeśli we właściwościach nie ma punktu zaczepienia na linii środkowej należy zmienić **licznik ISO**.
 
 <img alt="" src=images/AnHi11.PNG  style="width:250px;">
+
 *Powyżej: Kolejność postępowania przy wyborze.|center* {{TechDraw Tools navi}} {{Tutorials navi}}
 
 ---

@@ -54,6 +54,20 @@ These are tools to create and manage Clip objects (clipped views).
 
 -   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Remove View from Clip Group](TechDraw_ClipGroupRemove.md): removes a view from a clip group.
 
+## Decorations
+
+These are tools to decorate pages or views:
+
+-   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Hatch Face using Image File](TechDraw_Hatch.md): applies a hatch pattern from a file to a face.
+
+-   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Apply Geometric Hatch to Face](TechDraw_GeometricHatch.md): applies a hatch pattern to a face using an Autodesk PAT specification.
+
+-   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ file into a page.
+
+-   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ image into a page.
+
+-   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Turn View Frames On/Off](TechDraw_ToggleFrame.md): turns on/off frames and labels surrounding a view.
+
 ## Dimensions
 
 These are tools for creating and working with Dimension objects.
@@ -84,46 +98,7 @@ Linear dimensions can be based on two points, on one line, or on two lines.
 
 -   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Insert Landmark Dimension](TechDraw_LandmarkDimension.md): adds a landmark distance dimension. <small>(v0.19)</small> 
 
-## Extensions
-
-These are tools to improve your TechDraw drawings.
-
-
-**Some of these tools have yet to be released.**
-
--   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Draw circle centerlines](TechDraw_ExtensionCircleCenterLines.md): adds centerlines to circles and arcs. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Cosmetic thread hole side view](TechDraw_ExtensionThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Cosmetic thread bolt side view](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Cosmetic thread hole bottom view](TechDraw_ExtensionThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Cosmetic thread bolt bottom view](TechDraw_ExtensionThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
-
-## Export
-
-These are tools for exporting pages to other applications.
-
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _ file.
-
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _ file.
-
-## Decorations
-
-These are tools to decorate pages or views:
-
--   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Hatch Face using Image File](TechDraw_Hatch.md): applies a hatch pattern from a file to a face.
-
--   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Apply Geometric Hatch to Face](TechDraw_GeometricHatch.md): applies a hatch pattern to a face using an Autodesk PAT specification.
-
--   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ file into a page.
-
--   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ image into a page.
-
--   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Turn View Frames On/Off](TechDraw_ToggleFrame.md): turns on/off frames and labels surrounding a view.
-
-## Annotation
+## Annotations
 
 The annotation tools are for \"marking up\" a drawing with additional information.
 
@@ -154,6 +129,31 @@ The annotation tools are for \"marking up\" a drawing with additional informatio
 -   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Show/Hide Invisible Edges](TechDraw_ShowAll.md): shows/hides invisible lines/edges in a view. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Add Welding Information to Leader](TechDraw_WeldSymbol.md): adds welding specifications to an existing leaderline. <small>(v0.19)</small> 
+
+## Extensions
+
+These are tools to improve your TechDraw drawings.
+
+
+**Some of these tools have yet to be released.**
+
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Draw circle centerlines](TechDraw_ExtensionCircleCenterLines.md): adds centerlines to circles and arcs. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Cosmetic thread hole side view](TechDraw_ExtensionThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Cosmetic thread bolt side view](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Cosmetic thread hole bottom view](TechDraw_ExtensionThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Cosmetic thread bolt bottom view](TechDraw_ExtensionThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
+
+## Export
+
+These are tools for exporting pages to other applications.
+
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _ file.
+
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _ file.
 
 ## Additional features 
 

@@ -19,7 +19,8 @@ Enable the console output in the menu **Edit → Preferences → General → Mac
 
 It is very simple to use: Press the record button, you will be asked to give a name to your macro, then perform some actions. When you are done, click the stop recording button, and your actions will be saved. You can now access the macro dialog with the edit button.
 
-![](images/Macros.png ) *Macro dialog, listing the macros available in the system*
+![](images/Macros.png ) 
+*Macro dialog, listing the macros available in the system*
 
 
 <div class="mw-translate-fuzzy">

@@ -19,6 +19,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 <img alt="" src=images/Reinforcement_Bar_Shape_Cut_List_example.svg  style="width:800px;">
 
 
+
 *Nomenclature de façonnage d'armatures*
 
 ## Utilisation
@@ -30,6 +31,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 3\. Une boîte de dialogue apparaîtra à l\'écran, comme indiqué ci-dessous.
 
 ![](images/Reinforcement_Bar_Shape_Cut_List_Dialog.png )
+
 
 
 *Boîte de dialogue de l'outil Nomenclature de façonnage des armatures*

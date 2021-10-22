@@ -33,7 +33,8 @@ Důvod pro použití tohoto prohlížeče je jednoduše v tom, že si můžete z
 <img alt="" src=images/Arch_IfcExplorer_example.jpg  style="width:800px;">
 
 :   
-    *Ifc Explorer with several properties*
+    
+*Ifc Explorer with several properties*
     
 
 ## Usage

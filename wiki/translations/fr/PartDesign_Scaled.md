@@ -40,12 +40,6 @@ Depuis FreeCAD 0.15, cette fonctionnalité n'est pas disponible directement, mai
 
 -   Voir [MultiTransform](PartDesign_MultiTransform.md) pour plus de détails
 
-
-
-
-
-{{LesOutilsDeTransformationsPartDesign}}
-
 ## Exemples
 
 ![c\|center\|800px](images/mt_example2.png ) Le plus petit pad a d\'abord été configuré trois fois dans la direction X, puis redimensionné en deux (les trois occurrences ont donc les facteurs d\'échelle 1.0, 1.5 et 2.0). Ensuite, un motif polaire a été appliqué avec 8 occurrences.

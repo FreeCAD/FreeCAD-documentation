@@ -32,6 +32,7 @@ Questa modalità di aggancio mostra le quote X e Y temporanee tra il punto corre
 <div class="mw-translate-fuzzy">
 
 
+
 *Dopo aver agganciato un primo punto, le quote temporanee individuano il secondo punto che viene agganciato*
 
 

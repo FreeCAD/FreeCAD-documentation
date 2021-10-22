@@ -23,7 +23,8 @@
 
 </div>
 
-![](images/Draft_Snap_WorkingPlane_example.png ) *Snapping the second point of a line to the projected endpoint of an edge*
+![](images/Draft_Snap_WorkingPlane_example.png ) 
+*Snapping the second point of a line to the projected endpoint of an edge*
 
 ## Kullanım
 

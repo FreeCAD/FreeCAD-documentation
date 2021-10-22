@@ -12,9 +12,11 @@ Eine andere Art von Klasse ist die des [Polygonnetzes](Mesh/de.md); diese Klasse
 ![](images/Shape_and_mesh.svg )
 
 
+
 *Links: parametrische _, definiert durch Knoten und und dreieckigen Oberflächen.*
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die Klasse `Part::TopoShape* wird in das {{incode|Part::Feature` Objekt eingebettet und von dort auf alle davon abgeleiteten Objekte übertragen.}}

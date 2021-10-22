@@ -14,7 +14,8 @@
 
 The FHPort tool creates a FastHenry port between two FHNode objects.
 
-![](images/EM_FHPort_Example.png ) *FastHenry FHPort*
+![](images/EM_FHPort_Example.png ) 
+*FastHenry FHPort*
 
 ## Usage
 

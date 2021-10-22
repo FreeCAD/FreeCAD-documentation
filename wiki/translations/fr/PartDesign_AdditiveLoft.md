@@ -14,7 +14,8 @@
 
 Le **Lissage additif** crée un solide dans le Corps actif en faisant une transition entre deux ou plusieurs esquisses (également appelées sections transversales). Si le corps contient déjà des éléments, le lissage additif sera fusionné avec eux.
 
-![](images/PartDesign_AddLoft_example.png ) *A gauche: sections (A), (B) et (C); à droite, résultat du Lissage additif.*
+![](images/PartDesign_AddLoft_example.png ) 
+*A gauche: sections (A), (B) et (C); à droite, résultat du Lissage additif.*
 
 ## Utilisation
 

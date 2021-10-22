@@ -22,7 +22,8 @@
 
 Workbench aggiuntivo per creare diversi tipi di ingranaggi, ingranaggi evolventi, cremagliere, ingranaggi cicloidi o conici.
 
-![](images/FCGear_00.png ) *FCGear*
+![](images/FCGear_00.png ) 
+*FCGear*
 
 ## Installazione
 

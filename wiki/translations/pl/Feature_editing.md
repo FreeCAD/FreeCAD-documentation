@@ -64,6 +64,7 @@ Fundamentalną różnicą pomiędzy programem FreeCAD a innymi programami, takim
 <img alt="" src=images/PartDesign_Body_non-contiguous.png  style="width:550px;">
 
 
+
 *Różnica pomiędzy programami Catia i FreeCAD. <br>Po lewej: Catia pozwala na rozłączenie zawartości od poprzedzających ją cech zawartości. W programie FreeCAD powoduje to błąd. <br>Po prawej: nowsza cecha powinna zawsze stykać się lub przecinać poprzednią cechę tak, aby została z nią stopiona i stała się jedną przylegającą bryłą.*
 
 ## Odniesienie geometrii 
@@ -83,6 +84,7 @@ Zarówno szkice jak i płaszczyzny odniesienia powinny być dołączone do płas
 Nawet jeśli nie są używane do dołączania szkiców, obiekty punktów odniesienia są nadal pomocne jako wskaźniki wizualne, aby zwrócić uwagę na ważne cechy lub odległości w procesie modelowania. *(Chociaż zwykłe dodanie geometrii do szkicu również zapewnia podobną wizualną informację zwrotną)*.
 
 <img alt="" src=images/PartDesign_Body_non-contiguous_slanted.png  style="width:550px;">
+
 
 
 *Różnica pomiędzy Catia a FreeCAD. Po lewej: Catia pozwala na rozłączenie zawartości od poprzednich cech. W programie FreeCAD powoduje to błąd.<br> Po prawej: nowsza bryła powinna zawsze stykać się lub przecinać z poprzednią, tak aby została z nią połączona i stała się jedną przylegającą bryłą. W tym przykładzie nowa bryła jest oparta na płaszczyźnie odniesienia, która jest obrócona wokół osi Y.*

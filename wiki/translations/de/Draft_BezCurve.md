@@ -10,6 +10,9 @@
 
 # Draft BezCurve/de
 
+
+</div>
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> **Entwurf BezKurve** Befehl erstellt eine [Bézierkurve](https://de.wikipedia.org/wiki/B%C3%A9zierkurve) aus einigen Punkten.
@@ -25,6 +28,9 @@ Der Entwurf BezKurve und [Entwurf KubischeBezKurve](Draft_CubicBezCurve/de.md) B
 
 Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md) und [Entwurf beschränken](Draft_Constrain/de.md).
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Es gibt mehrere Wege, den Befehl aufzurufen:
     -   Drücke die **<img src="images/Draft_BezCurve.svg" width=16px> [Entwurf BezKurve](Draft_BezCurve/de.md)** Schaltfläche.
     -   Wähle die **Entwurf → Bézier Werkzeuge → <img src="images/Draft_BezCurve.svg" width=16px> Bézier Kurve** Option aus dem Menü.
@@ -32,6 +38,9 @@ Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md)
 3.  Nimm den ersten Punkt in der [3D Ansicht](3D_view/de.md) oder gib die Koordinaten ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche.
 4.  Nimm weitere Punkte in der [3D Ansicht](3D_view/de.md) oder gib die Koordinaten ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** Schaltfläche.
 5.  Drücke **Esc** oder die **Schließen** Schaltfläche zum Beenden des Befehls.
+
+
+</div>
 
 ## Optionen
 

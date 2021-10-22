@@ -16,6 +16,7 @@ L\'outil Hachures remplit une région fermée dans une vue avec un motif de hach
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
 
 
+
 *Motif de hachures SVG sur une face*
 
 ## Utilisation

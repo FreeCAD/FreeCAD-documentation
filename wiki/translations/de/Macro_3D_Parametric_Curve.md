@@ -9,6 +9,7 @@
 |Date=2015-03-06
 |FCVersion=All
 |Download=[https://www.freecadweb.org/wiki/images/f/f5/Macro_3D_Parametric_Curve.png ToolBar Icon]
+|SeeAlso=[Macro Parametric Curve FP](Macro_Parametric_Curve_FP/de.md) <img src="images/Parametric_Curve_FP.svg" width=24px>
 }}
 
 ## Beschreibung

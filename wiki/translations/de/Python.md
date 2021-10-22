@@ -8,7 +8,7 @@
 
 _.
 
-In FreeCAD kann Python-Code verwendet werden, um verschiedene Elemente programmgesteuert zu erstellen, ohne auf die grafische Benutzeroberfläche klicken zu müssen. Darüber hinaus sind viele Werkzeuge und Arbeitsbereiche von FreeCAD in Python programmiert.
+In FreeCAD kann Python Code verwendet werden, um verschiedene Elemente programmgesteuert zu erstellen, ohne auf die grafische Benutzeroberfläche klicken zu müssen. Darüber hinaus sind viele Werkzeuge und Arbeitsbereiche von FreeCAD in Python programmiert.
 
 Siehe [\|Einführung in Python](Introduction_to_Python/de.md), um mehr über die Programmiersprache Python zu erfahren, und dann [Python Skript Tutorien](Python_scripting_tutorial.md) und [FreeCAD Skriptgrundlagen](FreeCAD_Scripting_Basics.md), um das Skripting in FreeCAD zu starten.
 
@@ -23,7 +23,7 @@ Diese Dokumente bieten Erklärungen in einer benutzerfreundlicheren Form:
 
 ## Konventionen
 
-In dieser Dokumentation sollten einige Konventionen für Python-Beispiele eingehalten werden.
+In dieser Dokumentation sollten einige Konventionen für Python Beispiele eingehalten werden.
 
 Dies ist eine typische Funktionssignatur
 

@@ -3,7 +3,7 @@
    Name:Plot Positions
    Name/pl:Wykres: Ustaw pozycje i rozmiary
    MenuLocation:Wykres → Ustaw pozycje i rozmiary
-   Workbenches:[Wykres](Plot_Module/pl.md)
+   Workbenches:[Wykres](Plot_Workbench/pl.md)
 ---
 
 # Plot Positions/pl
@@ -18,7 +18,8 @@ Narzędzie to pozwala na edycję położenia niektórych elementów, takich jak 
 
 Wybierz kartę wykresu, który chcesz edytować, i uruchom to narzędzie. Następnie w selektorze możesz wybrać element, który chcesz edytować.
 
-![Items position selector](images/Plot_Position_Item_Selector.png ) *Pole wyboru elementu do edycji*
+![Items position selector](images/Plot_Position_Item_Selector.png ) 
+*Pole wyboru elementu do edycji*
 
 ## Opcje
 

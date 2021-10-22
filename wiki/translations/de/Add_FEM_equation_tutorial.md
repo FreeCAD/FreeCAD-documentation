@@ -40,7 +40,7 @@ class FlowViewProxy(BaseViewProxy):
         return ":/icons/FEM_EquationFlow.svg"
 ```
 
-## Neues Elmers Gleichungs-Objekt 
+## Neues Elmers Gleichungs Objekt 
 
 In diesem Schritt werden wir das Dokumentobjekt implementieren. Wir müssen eine neue Datei {{Incode|flow.py}} hinzufügen unter:
 
@@ -57,14 +57,14 @@ und die folgenden Dateien ändern:
 
 Beginnen wir dem Hinzufügen der neuen Datei {{Incode|flow.py}}. Diese Datei kann aus einer bestehenden Gleichung kopiert werden.
 
-### Schlüsselworte
+### Schlüsselwörter
 
 -   Falls die neue Gleichung nur Schlüsselworte für **lineare** Systeme unterstützt, kopiere das {{Incode|femsolver/elmer/equations/elasticity.py}}-Modul.
 -   Falls die neue Gleichung Schlüsselworte für **lineare** und **nicht-lineare** Systeme unterstützt, kopiere das {{Incode|femsolver/elmer/equations/heat.py}}-Modul.
 
 Die Strömungsgleichung ist eine potenziell nicht-lineare Gleichung. Das bedeutet, dass unsere Arbeit auf `heat.py` basieren wird.
 
-### Dateien ändern 
+### Dateien bearbeiten 
 
 Nach dem Kopieren von `heat.py` nach `flow.py` passe letztere Datei an folgenden Stellen an:
 
@@ -99,7 +99,7 @@ Schließlich muss man eine **makeEquationFlow**-Definition in {{Incode|src/Mod/F
 
 FreeCAD benutzt **make** zur Erstellung des Programms. Deshalb müssen wir die neue Moduldatei ({{Incode|flow.py}}) in `src/Mod/Fem/CMakeLists.txt` registrieren, wie in [FEM Modul erweitern](https://www.freecadweb.org/wiki/Extend_FEM_Module) beschriebenen. Die passenden Listen lassen sich leicht finden, indem man nach vorhandenen Gleichungsmoduldateien von Elmer sucht.
 
-## Löser-Objekt erweitern 
+## Löser Objekt erweitern 
 
 In diesem Schritt werden wir die folgenden Dateien modifizieren:
 
@@ -124,7 +124,7 @@ _EQUATIONS = {
 }
 ```
 
-## Writer-Objekt erweitern 
+## Schreiber Objekt erweitern 
 
 In diesem Schritt werden wir die folgende Datei modifizieren:
 
@@ -177,15 +177,9 @@ kann eine Reihe weiterer detaillierter Methoden kontrollieren. Unsere Fließ-Gle
 
 Nun haben wir den Funktionsteil der neuen Gleichung beendet. Nun werden wir die neue Gleichung an die GUI anbinden.
 
-## GUI-Werkzeug zum Erstellen einer Gleichung 
+## GUI Werkzeug zum Erstellen einer Gleichung 
 
-
-<div class="mw-translate-fuzzy">
-
-Wir haben gerade eine neue Gleichungsklasse erstellt. Um sie über die FEM-GUI anzusprechen, müssen wir eine Schaltfläche erstellen und sie mit der neuen Gleichungsklasse verbinden. Hier ist ein Tutorium: [Add button to FEM toolbar tutorial](Add_button_to_FEM_toolbar_tutorial/de.md).
-
-
-</div>
+Wir haben gerade eine neue Gleichungsklasse erstellt. Um sie über die FEM-GUI anzusprechen, müssen wir eine Schaltfläche erstellen und sie mit der neuen Gleichungsklasse verbinden. Hier ist ein Tutorium: [Tutorium Schaltfläche zur FEM Werkzeugleiste hinzufügen](Add_Button_to_FEM_Toolbar_Tutorial/de.md).
 
 _ _
 

@@ -16,6 +16,7 @@ La commande **Std Personnalisation** ouvre la boîte de dialogue Personnaliser d
 ![](images/Std_DlgCustomize_tab_Toolbars.png )
 
 
+
 *La boite de dialogue de Personnalisation*
 
 ## Utilisation

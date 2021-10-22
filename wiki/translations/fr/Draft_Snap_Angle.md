@@ -14,7 +14,8 @@ L\'option <img alt="" src=images/Draft_Snap_Angle.svg  style="width:24px;"> **Dr
 
 Cette option d\'aimantation ne fonctionne actuellement correctement que pour les arêtes circulaires sur un plan parallèle au plan XY du système de coordonnées global, les angles étant relatifs à ce plan.
 
-![](images/Draft_Snap_Angle_example.png ) *Aimantation du deuxième point d'une ligne au point -30° d'un bord circulaire. Les petits cercles magenta indiquent tous les points cardinaux spéciaux disponibles.*
+![](images/Draft_Snap_Angle_example.png ) 
+*Aimantation du deuxième point d'une ligne au point -30° d'un bord circulaire. Les petits cercles magenta indiquent tous les points cardinaux spéciaux disponibles.*
 
 ## Utilisation
 

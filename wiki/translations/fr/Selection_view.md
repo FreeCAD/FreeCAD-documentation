@@ -11,6 +11,7 @@ Une sélection peut être effectuée en choisissant un objet dans la [Vue 3D](3D
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
+
 *Vue de sélection indiquée par le numéro 5 dans l'[interface](interface/fr.md) standard.*
 
 ## Sélection d\'objets 

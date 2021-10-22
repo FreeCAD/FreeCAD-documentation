@@ -13,7 +13,8 @@
 
 Das Bild Werkzeug fügt ein [Bitmap](bitmap/de.md) Bild (PNG, JPEG, JPG, BMP usw.) aus einer Datei als Ansicht in die Seite ein.
 
-![](images/TechDraw_Image_example.png ) *In die Zeichnungsseite eingefügtes Bild*
+![](images/TechDraw_Image_example.png ) 
+*In die Zeichnungsseite eingefügtes Bild*
 
 ## Anwendung
 

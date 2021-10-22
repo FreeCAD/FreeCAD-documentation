@@ -24,47 +24,96 @@ Il comando **Stile di disegno** può sovrascrivere l\'effetto delle [proprietà]
 
 ## Stili di disegno disponibili 
 
+
+<div class="mw-translate-fuzzy">
+
 ### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:32px;"> Come è 
+
+
+</div>
 
 Lo stile **Come è** non sovrascrive la proprietà **Display Mode** (Modalità di visualizzazione) degli oggetti.
 
-![](images/Std_DrawStyleAsIs_example.png ) *4 oggetti identici ciascuno con una modalità di visualizzazione diversa (da sinistra a destra: 'Punti', 'Reticolo', 'Ombreggiato' e 'Facce piene') con lo stile di disegno 'Come è' applicato*
+![](images/Std_DrawStyleAsIs_example.png ) 
+*4 oggetti identici ciascuno con una modalità di visualizzazione diversa (da sinistra a destra: 'Punti', 'Reticolo', 'Ombreggiato' e 'Facce piene') con lo stile di disegno 'Come è' applicato*
+
+
+<div class="mw-translate-fuzzy">
 
 ### <img alt="" src=images/Std_DrawStylePoints.svg  style="width:32px;"> Punti 
 
+
+</div>
+
 Lo stile **Punti** sovrascrive la proprietà **Display Mode** degli oggetti. Questo stile corrisponde alla modalità di visualizzazione \'Punti\'. I vertici sono visualizzati in tinta unita. I bordi e le facce non vengono visualizzati.
 
-![](images/Std_DrawStylePoints_example.png ) *Gli stessi oggetti con lo stile di disegno 'Punti' applicato*
+![](images/Std_DrawStylePoints_example.png ) 
+*Gli stessi oggetti con lo stile di disegno 'Punti' applicato*
+
+
+<div class="mw-translate-fuzzy">
 
 ### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:32px;"> Reticolo 
 
+
+</div>
+
 Lo stile **Reticolo** sovrascrive la proprietà **Display Mode** degli oggetti. Questo stile corrisponde alla modalità di visualizzazione \'Wireframe\'. Vertici e bordi sono visualizzati in colori solidi. Le facce non vengono visualizzate.
 
-![](images/Std_DrawStyleWireframe_example.png ) *Gli stessi oggetti con lo stile di disegno 'Reticolo' applicato*
+![](images/Std_DrawStyleWireframe_example.png ) 
+*Gli stessi oggetti con lo stile di disegno 'Reticolo' applicato*
+
+
+<div class="mw-translate-fuzzy">
 
 ### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:32px;"> Linee nascoste 
 
+
+</div>
+
 Lo stile **Linee nascoste** sovrascrive la proprietà **Display Mode** degli oggetti. Gli oggetti vengono visualizzati come se fossero convertiti in mesh triangolari.
 
-![](images/Std_DrawStyleHiddenLine_example.png ) *Gli stessi oggetti con lo stile di disegno 'Linee nascoste' applicato*
+![](images/Std_DrawStyleHiddenLine_example.png ) 
+*Gli stessi oggetti con lo stile di disegno 'Linee nascoste' applicato*
+
+
+<div class="mw-translate-fuzzy">
 
 ### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:32px;"> Senza ombre 
 
+
+</div>
+
 Lo stile **Senza ombre** sovrascrive la proprietà **Display Mode** degli oggetti. Vertici, bordi e facce sono visualizzati in colori solidi.
 
-![](images/Std_DrawStyleNoShading_example.png ) *Gli stessi oggetti con lo stile di disegno 'Senza ombre' applicato*
+![](images/Std_DrawStyleNoShading_example.png ) 
+*Gli stessi oggetti con lo stile di disegno 'Senza ombre' applicato*
+
+
+<div class="mw-translate-fuzzy">
 
 ### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:32px;"> Ombreggiato 
 
+
+</div>
+
 Lo stile **Ombreggiato** sovrascrive la proprietà **Display Mode** degli oggetti. Questo stile corrisponde alla modalità di visualizzazione \'Shaded\'. Vertici e bordi non vengono visualizzati. Le facce sono illuminate a seconda del loro orientamento.
 
-![](images/Std_DrawStyleShaded_example.png ) *Gli stessi oggetti con lo stile di disegno 'Ombreggiato' applicato*
+![](images/Std_DrawStyleShaded_example.png ) 
+*Gli stessi oggetti con lo stile di disegno 'Ombreggiato' applicato*
+
+
+<div class="mw-translate-fuzzy">
 
 ### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> Facce piene 
 
+
+</div>
+
 Lo stile **Facce piene** sovrascrive la proprietà **Display Mode** degli oggetti. Questo stile corrisponde alla modalità di visualizzazione \'Flat lines\'. Vertici e bordi sono visualizzati in colori solidi. Le facce sono illuminate a seconda del loro orientamento.
 
-![](images/Std_DrawStyleFlatLines_example.png ) *Gli stessi oggetti con lo stile di disegno 'Facce piene' applicato*
+![](images/Std_DrawStyleFlatLines_example.png ) 
+*Gli stessi oggetti con lo stile di disegno 'Facce piene' applicato*
 
 ## Note
 

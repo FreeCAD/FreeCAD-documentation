@@ -14,7 +14,8 @@
 
 Der Befehl **Std Ansicht von rechts** wendet die Kamerasicht der aktiven [3D-Ansicht](3D_view/de.md) in die Richtung der negativen X-Achse.
 
-![](images/FreeCAD_views_front.svg ) *Der Peil 3 zeigt in Richtung der Ansicht von rechts*
+![](images/FreeCAD_views_front.svg ) 
+*Der Peil 3 zeigt in Richtung der Ansicht von rechts*
 
 ## Anwendung
 

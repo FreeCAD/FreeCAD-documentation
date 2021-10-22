@@ -17,9 +17,11 @@ Se ajusta al punto central de arcos y círculos.<img alt="" src=images/Draft_Sna
 
 </div>
 
-![](images/Draft_Snap_Center_example_arc.png ) *Snapping the second point of a line to the center of a circular edge*
+![](images/Draft_Snap_Center_example_arc.png ) 
+*Snapping the second point of a line to the center of a circular edge*
 
-![](images/Draft_Snap_Center_example_buildingpart.png ) *Snapping the second point of a line to the Placement point of an Arch BuildingPart*
+![](images/Draft_Snap_Center_example_buildingpart.png ) 
+*Snapping the second point of a line to the Placement point of an Arch BuildingPart*
 
 ## Usage
 

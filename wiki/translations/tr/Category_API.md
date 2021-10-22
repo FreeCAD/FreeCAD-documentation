@@ -5,7 +5,7 @@ This category gathers articles that list objects and methods available for [Pyth
 
 ### Contents:
 
-[Arch API/tr](Arch_API/tr.md) , [Builtin modules/tr](Builtin_modules/tr.md) , [Draft API/tr](Draft_API/tr.md)
+[Arch API/tr](Arch_API/tr.md) , [Builtin modules/tr](Builtin_modules/tr.md) , [Draft API/tr](Draft_API/tr.md) , [Python/tr](Python/tr.md)
 
 _
 

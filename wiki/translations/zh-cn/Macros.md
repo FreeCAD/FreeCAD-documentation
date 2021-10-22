@@ -41,7 +41,8 @@ Enable the console output in the menu **Edit → Preferences → General → Mac
 
 这个工具使用起来也十分方便：按下记录按钮，系统会让您给宏起个名，接下来让您来执行一些动作。待记录的动作执行完毕后，点击停止记录按钮，之前的动作就会被保存下来。随后即可利用编辑按钮来访问宏对话框。
 
-![](images/Macros.png ) *宏对话框, 列举了系统中存在的宏*
+![](images/Macros.png ) 
+*宏对话框, 列举了系统中存在的宏*
 
 您可以管理您的宏：删除、编辑、复制、安装，或者从头创建一个新的宏。如果您要编辑一个宏，它便会在编辑器窗口中打开，在此就可以修改其代码。可以用{{button|Addons...}}按钮来安装一个新的宏，它将跳转至[Addon Manager](AddonManager.md)。
 

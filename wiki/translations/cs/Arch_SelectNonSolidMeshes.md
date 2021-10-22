@@ -33,4 +33,4 @@ Tento nástroj identifikuje a vybírá netělesové (neuzavřené) (non-_.
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/cs
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SelectNonSolidMeshes/cs

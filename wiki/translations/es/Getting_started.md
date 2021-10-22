@@ -24,13 +24,8 @@ En primer lugar, descarga e instala FreeCAD. Consulte la página [Descargar](Dow
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
-<div class="mw-translate-fuzzy">
 
-
-*Interfaz estándar de FreeCAD en 0.19.*
-
-
-</div>
+*La interfaz estándar de FreeCAD*
 
 
 **Vea una explicación completa en [Interfaz](Interface/es.md).**
@@ -50,30 +45,15 @@ En primer lugar, descarga e instala FreeCAD. Consulte la página [Descargar](Dow
 
 El concepto principal detras de la interface de Freecad es que esta separado en [Ambientes de trabajos](workbenches/es.md). Un Ambiente de trabajo es una colección de herramientas adecuadas para una tarea especifica, tal como trabajar con [mallas](Mesh_Workbench/es.md), o dibujar [objetos 2D](Draft_Workbench/es.md), o [Croquis restringido](Sketcher_Workbench/es.md). Puedes cambiar el ambiente de trabajo actual con el [selector de ambientes de trabajo](Std_Workbench/es.md). Puedes [personalizar](Interface_Customization/es.md) la herramientas incuidas en cada ambiente de trabajo, agregar herramientas de otros ambiente de trabajo o incluso herramientas propias, que nosotros llamamos [macros](macros/es.md). Puntos de inicio ampliamente utilizados son [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md) and [Ambiente de trabajo Pieza](Part_Workbench/es.md).
 
-
-<div class="mw-translate-fuzzy">
-
-Cuando comienzas FreeCAD por primera vez, se te presenta el centro de inicio. Esto es lo que parece para la versión 0.18:
-
-
-</div>
+Cuando comienzas FreeCAD por primera vez, se te presenta la página de inicio. EEsto es lo que parece para la versión 0.18:
 
 <img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
-El centro de inicio te permite dirigirte rapidamente a uno de los ambientes de trabajo mas comunes, abre uno de los archivos recientes, u observa las ultimas noticias del mundo de FreeCAD. Puedes cambiar el banco de trabajo predeterminado dentro de [preferencias](Preferences_Editor/es.md).
-
-
-</div>
+La página de inicio te permite saltar rápidamente a uno de los ambientes de trabajo más comunes, abrir uno de los archivos recientes, o ver las últimas noticias del mundo de FreeCAD. Puedes cambiar el ambientes de trabajo por defecto en las [preferencias](Preferences_Editor/es.md).
 
 ## Navegando en el espacio 3D 
 
 FreeCAD tiene tres diferentes [Modos de navegación](Mouse_navigation/es.md) disponibles, que se pueden establecer en las preferencias del diálogo de configuración o cambiar pulsando el botón derecho en la vista 3D. Para ver más detalles sobre los modos mira la página [Modos de navegación](Mouse_navigation/es.md). Para el modo de navegación por defecto **Navegación CAD**(Puedes cambiar rapidamente el actual modo de navegación dado clic derecho en un area vaci de la vista 3D):
-
-
-{{CAD Navigation/es}}
 
 
 {{CAD Navigation

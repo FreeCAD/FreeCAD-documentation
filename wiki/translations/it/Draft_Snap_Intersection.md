@@ -30,6 +30,7 @@ Questa modalità di aggancio consente di selezionare il punto di intersezione di
 <div class="mw-translate-fuzzy">
 
 
+
 *Aggancio del secondo punto di una linea a un'intersezione di altre due linee*
 
 

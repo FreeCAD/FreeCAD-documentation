@@ -57,6 +57,7 @@ Aggiungere un\'immagine se possibile, e per favore seguire le linee guida di [Wi
 <div class="mw-translate-fuzzy">
 
 
+
 *Facoltativo: aggiungere una didascalia sotto l'immagine per spiegare cosa sta facendo lo strumento.*
 
 
@@ -256,6 +257,7 @@ Add an image if possible, and please follow the guidelines in [Part 
 </translate>
 ![](images/)
 <translate>
+
 *Optional: add a caption below the image to explain what the tool does*
 
 Closing and opening translate tags should surround images, and other fixed elements, if they don't need to be translated. The caption should always be translated.

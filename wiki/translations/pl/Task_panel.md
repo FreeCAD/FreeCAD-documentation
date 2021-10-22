@@ -8,6 +8,7 @@
 <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="550px;">
 
 
+
 *Panel zadań prezentujący różne polecenia, gdy aktywne jest Środowisko pracy [PartDesign](PartDesign_Workbench/pl.md) i wybrano [szkicownik](Sketch/pl.md).*
 
 ## Praca z panelem zadań 
@@ -19,11 +20,13 @@ Użytkownik może wprowadzać dowolne dane, takie jak tekst, współrzędne punk
 ![](images/FreeCAD_Combo_view_Task_panel_Sketcher.png )
 
 
+
 *Panel zadań, który otwiera się, gdy edytowany jest [szkic](Sketch/pl.md). Prezentowane są różne rodzaje informacji, takie jak komunikaty o rozwiązaniach, opcje siatki, wiązania i elementy geometryczne.*
 
 Istnieje wiele poleceń wymagających wyboru kształtów lub obiektów obecnych w dokumencie. W takich przypadkach panel zadań będzie oczekiwał wybrania przez użytkownika odpowiednich obiektów z [widoku drzewa](Tree_view/pl.md) lub [okna widoku 3D](3D_view/pl.md). Gdy panel zadań jest otwarty, można przełączyć się na zakładkę **Model**, aby wyświetlić [widok drzewa](Tree_view/pl.md) w celu wybrania obiektu. Gdy to zostanie zrobione, można przełączyć się z powrotem na zakładkę **zadania**, aby kontynuować wykonywanie polecenia. Panel zadań zwykle zamyka się po kliknięciu przycisku **OK** lub **Zamknij**, albo po naciśnięciu klawisza {**Esc**} na klawiaturze, w celu przerwania wykonywania bieżącego polecenia.
 
 ![](images/FreeCAD_Combo_view_Task_panel_ArchComponent.png )
+
 
 
 *Panel zadań, który otwiera się podczas edycji [Arch Component](Arch_Component.md). Panel czeka, aż użytkownik wybierze obiekty, które można dodać lub odjąć od danego elementu.*

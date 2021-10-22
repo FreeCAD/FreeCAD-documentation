@@ -10,6 +10,7 @@ Voir [Part TopoShape](Part_TopoShape.md) pour plus d\'informations sur ce type d
 ![](images/Shape_and_mesh.svg )
 
 
+
 *A gauche: paramétrique _ défini par des sommets et des surfaces triangulaires.*
 
 ## Utilisation

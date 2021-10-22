@@ -66,9 +66,15 @@ Applicando a una linea un vincolo orizzontale o verticale, oppure un vincolo ang
 
 Più oggetti possono essere vincolati tra di loro. Due linee possono essere unite attraverso uno dei loro punti con il vincolo punto coincidente. Tra due linee si può impostare un angolo, oppure impostarle perpendicolari. Una linea può essere tangente ad un arco o a un cerchio, e così via. Per vincolare uno schizzo complesso, con più oggetti, sono possibili diverse soluzioni, e renderlo **completamente vincolato** significa che almeno una di queste è stato raggiunta in base ai vincoli applicati.
 
+
+<div class="mw-translate-fuzzy">
+
 Ci sono due tipi di vincoli: geometrici e dimensionali. Essi sono descritti nella successiva sezione dedicata agli [strumenti](#Gli_strumenti.md).
 
 I vincoli sono controllati dal [solutore](#Il_solutore_dei_vincoli.md)
+
+
+</div>
 
 #### What the Sketcher is not good for 
 
@@ -107,7 +113,7 @@ Quando uno schizzo è completamente vincolato, le funzioni dello schizzo diventa
 
 </div>
 
-## The tools 
+## Tools
 
 
 <div class="mw-translate-fuzzy">
@@ -475,7 +481,13 @@ I seguenti strumenti possono essere utilizzati per cambiare l\'effetto dei vinco
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg‎  style="width:32px;"> [Cambia spazio virtuale](Sketcher_SwitchVirtualSpace/it.md): Permette di nascondere i vincoli e renderli nuovamente visibili.
 
+
+<div class="mw-translate-fuzzy">
+
 ### Preferenze
+
+
+</div>
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Preferences\...](Sketcher_Preferences/it.md): Preferenze disponibili per l\'ambiente Sketcher.
 

@@ -15,7 +15,8 @@
 
 The FHPlaneAddRemoveNodeHole tool inserts or removes FHNodes or FHPlaneHoles from a FHPlane object.
 
-![](images/EM_FHPlaneAddRemoveNodeHole_Example.png ) *Nodes added (blue) and removed (red) from a FHPlane, and a FHPlaneHole removed from the FHPlane (not cutting a hole in the plane)*
+![](images/EM_FHPlaneAddRemoveNodeHole_Example.png ) 
+*Nodes added (blue) and removed (red) from a FHPlane, and a FHPlaneHole removed from the FHPlane (not cutting a hole in the plane)*
 
 ## Usage
 

@@ -1,12 +1,4 @@
-# Spreadsheet Workbench/pt-br
-{{Page_in_progress}}
-
-
-
-
-
-
-<img alt="ícone da bancada de trabalho Spreadsheet" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
+# <img alt="ícone da bancada de trabalho Spreadsheet" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> Spreadsheet Workbench/pt-br
 
 ## Introdução
 
@@ -22,22 +14,31 @@ A <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [bancad
 
 -   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:24px;"> [Criar planilha](Spreadsheet_CreateSheet/pt-br.md): criar uma nova planilha de cálculo.
 
--   <img alt="" src=images/Spreadsheet_Import.svg  style="width:24px;"> [Importar](Spreadsheet_Import/pt-br.md): importar um arquivo de valores separados por tabulações em uma planilha.
--   <img alt="" src=images/Spreadsheet_Export.svg  style="width:24px;"> [Exportar](Spreadsheet_Export/pt-br.md): exportar um arquivo de valores separados por tabulações a partir de uma planilha de cálculo.
+-   <img alt="" src=images/Spreadsheet_Import.svg  style="width:24px;"> [Import](Spreadsheet_Import.md): import a CSV file into a spreadsheet.
 
--   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:24px;"> [Fusão de células](Spreadsheet_MergeCells/pt-br.md): fundir células selecionadas.
--   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:24px;"> [Célula dividida](Spreadsheet_SplitCell/pt-br.md): dividir células previamente fundidas.
+-   <img alt="" src=images/Spreadsheet_Export.svg  style="width:24px;"> [Export](Spreadsheet_Export.md): export a CSV file from a spreadsheet.
 
--   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;"> [Alinhar à esquerda](Spreadsheet_AlignLeft/pt-br.md): alinhar o conteúdo das células selecionadas para a esquerda.
--   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:24px;"> [Alinhar ao centro](Spreadsheet_AlignCenter/pt-br.md): alinhar horizontalmente o conteúdo das células selecionadas ao centro.
--   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:24px;"> [Alinhar à direita](Spreadsheet_AlignRight/pt-br.md): alinhar o conteúdo das células selecionadas para a direita.
--   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:24px;"> [Alinhar ao topo](Spreadsheet_AlignTop/pt-br.md): alinhar o conteúdo das células selecionadas para o topo.
--   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width:24px;"> [Alinhar ao centro vertical](Spreadsheet_AlignVCenter/pt-br.md): alinhar verticalmente o conteúdo das células selecionadas ao centro.
--   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Alinhar ao fundo](Spreadsheet_AlignBottom/pt-br.md): superior alinhar o conteúdo das células selecionadas com a parte inferior.
+-   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:24px;"> [Merge cells](Spreadsheet_MergeCells.md): merge selected cells.
 
--   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Negrito](Spreadsheet_StyleBold/pt-br.md): definir o conteúdo das células selecionadas para o negrito.
--   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Itálico](Spreadsheet_StyleItalic/pt-br.md): definir o conteúdo das células selecionadas para itálico.
--   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Sublinhado](Spreadsheet_StyleUnderline/pt-br.md): definir o conteúdo das células selecionadas para sublinhado.
+-   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:24px;"> [Split cell](Spreadsheet_SplitCell.md): split previously merged cells.
+
+-   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;"> [Align left](Spreadsheet_AlignLeft.md): align the contents of selected cells to the left.
+
+-   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:24px;"> [Align center](Spreadsheet_AlignCenter.md): align the contents of selected cells to the center horizontally.
+
+-   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:24px;"> [Align right](Spreadsheet_AlignRight.md): align the contents of selected cells to the right.
+
+-   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:24px;"> [Align top](Spreadsheet_AlignTop.md): align the contents of selected cells to the top.
+
+-   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width:24px;"> [Align vertical center](Spreadsheet_AlignVCenter.md): align the contents of selected cells to the center vertically.
+
+-   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Align bottom](Spreadsheet_AlignBottom.md): top align the contents of selected cells to the bottom.
+
+-   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Style bold](Spreadsheet_StyleBold.md): set the contents of selected cells to bold.
+
+-   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Style italic](Spreadsheet_StyleItalic.md): set the contents of selected cells to italic.
+
+-   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Style underline](Spreadsheet_StyleUnderline.md): set the contents of selected cells to underlined.
 
 
 <div class="mw-translate-fuzzy">
@@ -47,17 +48,35 @@ A <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [bancad
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Preto**e **Branco** definir o primeiro plano e as cores de fundo das células selecionadas.
 
-Menu de contexto das linhas e colunas da planilha: clique com o botão direito do mouse no cabeçalho de uma linha ou coluna para inserir uma nova linha acima ou uma nova coluna à esquerda, ou para excluir a linha/coluna atual. Você também pode selecionar várias linhas ou colunas para excluí-las.<small>(v0.20)</small> Você também pode selecionar onde as novas linhas/colunas serão inseridas. Além disso, para inserir por exemplo 3 novas colunas de uma vez, selecione 3 colunas e use o menu contextual que agora se oferecerá para inserir 3 colunas.
 
-## Spreadsheet editing 
+</div>
 
-As noted above under Tools, right click on a row or column header produces a pulldown menu that allows you to delete the row/column or insert a new blank one. Formula references to cells that get moved by these operations get patched to refer to the new location.
+## Preferences
 
-Cut/copy/paste can be used to edit data. Cut and copy will both operate on single cells, rectangles, or indeed any selection group of cells you set up. Cut clears the content of selected cells; both cut and copy store the cell\'s content and properties in the Clipboard. A paste operation writes the buffered data in such a way that the content of the uppermost-leftmost cell of the buffered set is dropped in the cell where the cursor is when you paste; other buffered content is dropped where it will have the same relationship to that target as it originally did to the upper-left cell of your cut/paste set.
+-   <img alt="" src=images/Preferences-spreadsheet.svg  style="width:32px;"> [Preferences](Spreadsheet_Preferences.md): the preferences for the Spreadsheet Workbench. <small>(v0.20)</small> 
 
-An important caveat: Cut/copy/paste operations do *not* fix up formula references. If you move the content of a cell, formulas which referred to the old location will break. If the old location becomes empty, the breakage will become visible as the expression evaluator will display \#ERR in dependent cells.
+## Insert and remove rows and columns 
+
+Rows and columns can be inserted or removed by right-clicking a row or column header and selecting the appropriate option from the contex menu. It is possible to select multiple rows or columns first. Either by holding down the **Ctrl** key while selecting the headers, or by holding down the left mouse button and dragging.
+
+In FreeCAD version 0.19 and earlier rows are inserted above the selected rows, and colomns on the left of the selected columns. In FreeCAD version 0.20 you can specify the insertion side.
+
+Note that removing rows or columns with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
+
+## Cut and copy-paste cells 
+
+Cut and copy-paste operations can be used on cells in FreeCAD spreadsheets. You can use the normal shortcuts for these operations: **Ctrl**+**X**, **Ctrl**+**C** and **Ctrl**+**V** respectively. To select multiple cells hold down the **Ctrl** key while selecting, or hold down the left mouse button and drag to select a rectangular cell range.
+
+The cut and copy operations store the contents and properties of the cells on the Clipboard. The paste operation writes the data in such a way that the content of the top left cell of the stored data is dropped in the active cell. Other stored content is placed relative to that cell. Formulas are updated accordingly.
+
+Note that removing cells with data can break the spreadsheet and your model if it relies on the spreadheet. You are not prewarned if this happens.
+
+In FreeCAD version 0.19 and earlier there is a bug that can cause FreeCAD to hang if a non-rectangular cell range is pasted. It is advisable to save your work before performing any paste operations.
 
 ## Propriedades celulares 
 
@@ -199,15 +218,43 @@ Ocasionalmente, pode ser desejável se livrar de uma dimensão em uma expressão
 
 ## Importação e exportação 
 
+### CSV format 
+
+
+<div class="mw-translate-fuzzy">
+
 As folhas podem ser importadas e exportadas para o formato [csv](https://en.wikipedia.org/wiki/Comma-separated_values) que também pode ser lido e escrito pela maioria das outras aplicações de planilhas como o Microsoft Excel ou o LibreOffice Calc. Ao importar arquivos para o FreeCAD, o delimitador (o caractere que é usado para separar colunas) deve ser o caracter TAB (que pode ser definido ao exportar de outras aplicações). A importação de um arquivo CSV está disponível a partir do menu **Planilha → Importar Planilha** ou clicando no ícone <img alt="" src=images/SpreadsheetImport.svg  style="width:24px;">. Esta função de importação não abre arquivos Excel ou qualquer outro formato de planilha eletrônica.
 
+
+</div>
+
+### XLSX format 
+
+
+<div class="mw-translate-fuzzy">
+
 Planilhas em formato Excel \"xlsx\" podem ser importadas através do menu **Arquivo → Import...**. As planilhas do Excel também podem ser abertas clicando no menu **Arquivo → Abrir...** ou clicando no ícone ou clicando no ícone <img alt="" src=images/Document-open.svg  style="width:24px;">. Nesses casos, é criado um novo documento com uma planilha dentro. As seguintes características são suportadas:
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 -   todas as funções que também estão disponíveis na planilha do FreeCAD. Outras funções dão um erro na célula correspondente após a importação.
 -   Nomes de células
 -   Mais de uma \"Folha\" na planilha Excel-spreadsheet. Neste caso, uma planilha FreeCAD é criada para cada planilha do Excel.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Outras funcionalidades não são importadas para a planilha do FreeCAD. O Excel-importado é o da <small>(v0.17)</small>  do FreeCAD
+
+
+</div>
 
 ## Impressão
 

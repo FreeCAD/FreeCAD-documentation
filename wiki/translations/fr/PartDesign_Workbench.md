@@ -177,7 +177,7 @@ Des fonctionnalités supplémentaires se trouvent dans le menu Part Design :
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Part Définir les couleurs](Part_FaceColors/fr.md): attribue des couleurs aux faces des pièces.
 
-### Préférences
+## Préférences
 
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Préférences\...](PartDesign_Preferences/fr.md): préférences disponibles pour les outils PartDesign.
 -   [Réglage fin](Fine-tuning/fr.md): quelques paramètres supplémentaires pour affiner le comportement de PartDesign.

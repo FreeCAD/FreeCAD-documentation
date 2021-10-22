@@ -53,7 +53,7 @@ Un instrument foarte bun și stabil pentru a genera documentație plecând de la
 
 </div>
 
-#### The Gimp 
+#### Gimp
 
 
 <div class="mw-translate-fuzzy">
@@ -84,7 +84,7 @@ Acesta este un GUI propriu-zis, care este foarte util pentru a afla cum să lucr
 
 #### OBS Studio 
 
-Free and open source software for video recording and live streaming. More details on official website : [obsproject.com](https://obsproject.com/)
+Free and open source software for video recording and live streaming. More details on official website: [obsproject.com](https://obsproject.com/)
 
 #### OpenCamLib
 

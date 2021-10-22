@@ -10,6 +10,7 @@ Diese Objekte müssen nicht unbedingt geometrische Formen sein, die in der [3D A
 ![](images/FreeCAD_Tree_view.png )
 
 
+
 *Die Baumansicht mit verschiedenen Elementen im Dokument.*
 
 ## Arbeiten mit der Baumansicht 
@@ -21,6 +22,7 @@ Viele Vorgänge erzeugen Objekte, die von einem zuvor existierenden Objekt abhä
 <img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width:" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width:" height="304px;">
 
 <img alt="" src=images/FreeCAD_Tree_view_parametric_history_3.png  style="width:" height="304px;">
+
 
 
 *Das oberste Objekt wird durch parametrische Operationen an Objekten erzeugt, die ihrerseits durch frühere Operationen erzeugt wurden. Wenn man den Baum um viele Ebenen erweitert, erhält man die ursprünglichen Elemente, die zur Erzeugung der Teilkörper verwendet wurden.*

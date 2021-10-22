@@ -24,7 +24,8 @@ L\'outil Annotation ajoute un bloc de texte à une page de dessin.
 3.  Un bloc de texte contenant *Texte par défaut* apparaîtra sur la page. Utilisez l\'éditeur de propriétés pour modifier le texte. Faites glisser l\'annotation vers la position souhaitée.
 4.  Vous devrez peut-être appuyer sur **<img src="images/Std_Refresh.svg" width=16px> [Std Rafraîchir](Std_Refresh/fr.md)** et/ou **<img src="images/TechDraw_RedrawPage.svg" width=16px> [TechDraw Redessiner](TechDraw_RedrawPage/fr.md)** pour que votre texte change.
 
-![](images/UpdateAnnotation.png ) *Modification de l'annotation via l'éditeur de propriétés*
+![](images/UpdateAnnotation.png ) 
+*Modification de l'annotation via l'éditeur de propriétés*
 
 
 **Remarque:**

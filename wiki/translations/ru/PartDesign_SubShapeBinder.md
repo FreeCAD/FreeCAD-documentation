@@ -21,6 +21,7 @@ It can also bind to objects that are nested inside [Std Parts](Std_Part.md), and
 <img alt="" src=images/PartDesign_SubShapeBinder_example_1.png  style="width:" height="300px;"> <img alt="" src=images/PartDesign_SubShapeBinder_example_2.png  style="width:" height="300px;">
 
 
+
 *Left: two solids created in two separate [bodies](PartDesign_Body.md). Right: two SubShapeBinders extracted from the first body, imported into the second body, and moved to a different position.*
 
 <img alt="" src=images/PartDesign_SubShapeBinder_example_3.png  style="width:" height="300px;"> 

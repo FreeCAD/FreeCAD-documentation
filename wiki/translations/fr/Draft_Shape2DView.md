@@ -14,7 +14,8 @@ La commande <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> *
 
 Les projections Vue 2D d\'une forme peuvent être affichées sur une page de l\'[atelier TechDraw](TechDraw_Workbench/fr.md) à l\'aide de la commande [TechDraw Vue Draft](TechDraw_DraftView/fr.md). Par ailleurs, l\'[atelier TechDraw](TechDraw_Workbench/fr.md) offre ses propres commandes de projection, mais celles-ci créent des projections qui ne sont affichées que sur la page de dessin et non dans la [Vue 3D](3D_view/fr.md).
 
-![](images/Draft_Shape2DView_example.jpg ) *Projection de formes solides sur le plan XY*
+![](images/Draft_Shape2DView_example.jpg ) 
+*Projection de formes solides sur le plan XY*
 
 ## Utilisation
 
@@ -43,19 +44,21 @@ Un objet Draft Vue 2D d\'une forme est dérivé d\'un [Part Part2DObject](Part_P
 
 {{TitleProperty|Draft}}
 
--    {{PropertyData/fr|Base|Link}}: spécifie l\'objet à projeter.
+-    **Auto Update|Bool**: spécifie si la projection doit être automatiquement recalculée si l\'objet **Base** change. Sélectionner {{False}} peut être utile s\'il y a de nombreux Draft Shape2DViews dans un document ou si ils sont complexes. Définie à {{False}}, la commande [Std Rafraîchir](Std_Refresh/fr.md) doit être utilisée pour mettre à jour la projection. {{Version/fr|0.20}}
 
--    {{PropertyData/fr|Face Numbers|IntegerList}}: spécifie les indices des faces à projeter. Ne fonctionne que si {{PropertyData/fr|Projection Mode}} est {{Value|Faces individuelles}}.
+-    **Base|Link**: spécifie l\'objet à projeter.
 
--    {{PropertyData/fr|Fuse Arch|Bool}}: spécifie si les [Arch objects](Arch_Workbench.md) de même type et matériau sont fusionnés ou non.
+-    **Face Numbers|IntegerList**: spécifie les indices des faces à projeter. Ne fonctionne que si **Projection Mode** est {{Value|Faces individuelles}}.
 
--    {{PropertyData/fr|Hidden Lines|Bool}}: spécifie si les lignes cachées sont affichées ou non.
+-    **Fuse Arch|Bool**: spécifie si les [Arch objects](Arch_Workbench.md) de même type et matériau sont fusionnés ou non.
 
--    {{PropertyData/fr|In Place|Bool}}: ne fonctionne que si l\'objet sélectionné est un [Arch Plan de section](Arch_SectionPlane/fr.md), et que {{PropertyData/fr|Projection Mode}} est {{Value|Cutlines}} ou {{Value|Cutfaces}}, spécifie si la projection apparaîtra coplanaire avec le plan de section.
+-    **Hidden Lines|Bool**: spécifie si les lignes cachées sont affichées ou non.
 
--    {{PropertyData/fr|Projection|Vector}}: spécifie la direction de la projection. Ignoré si {{PropertyData/fr|Base}} est un [Arch Plan de section](Arch_SectionPlane/fr.md).
+-    **In Place|Bool**: ne fonctionne que si l\'objet sélectionné est un [Arch Plan de section](Arch_SectionPlane/fr.md), et que **Projection Mode** est {{Value|Cutlines}} ou {{Value|Cutfaces}}, spécifie si la projection apparaîtra coplanaire avec le plan de section.
 
--    {{PropertyData/fr|Projection Mode|Enumeration}}: spécifie le mode de projection. Les modes suivants sont disponibles :
+-    **Projection|Vector**: spécifie la direction de la projection. Ignoré si **Base** est un [Arch Plan de section](Arch_SectionPlane/fr.md).
+
+-    **Projection Mode|Enumeration**: spécifie le mode de projection. Les modes suivants sont disponibles :
 
     -   
         {{Value|Solid}}
@@ -65,7 +68,7 @@ Un objet Draft Vue 2D d\'une forme est dérivé d\'un [Part Part2DObject](Part_P
     -   
         {{Value|Faces individuelles}}
         
-        : projette uniquement les faces de la liste {{PropertyData/fr|Face Numbers}}.
+        : projette uniquement les faces de la liste **Face Numbers**.
 
     -   
         {{Value|Cutlines}}
@@ -82,18 +85,18 @@ Un objet Draft Vue 2D d\'une forme est dérivé d\'un [Part Part2DObject](Part_P
         
         : projette l\'objet sélectionné dans son intégralité en découpant les faces une par une. Peut être utilisé si le mode {{Value|Solid}} donne de mauvais résultats. {{Version/fr|0.20}}
 
--    {{PropertyData/fr|Segment Length|Float}}: spécifie la taille en millimètres des segments linéaires si {{PropertyData/fr|Tessellation}} est `True`.
+-    **Segment Length|Float**: spécifie la taille en millimètres des segments linéaires si **Tessellation** est `True`.
 
--    {{PropertyData/fr|Tessellation|Bool}}: spécifie si la tessellation doit être effectuée. La tessellation signifie que les courbes sont remplacées par des séquences de segments de lignes. Cette opération peut être coûteuse en calcul si la {{PropertyData/fr|Segment Length}} est trop courte.
+-    **Tessellation|Bool**: spécifie si la tessellation doit être effectuée. La tessellation signifie que les courbes sont remplacées par des séquences de segments de lignes. Cette opération peut être coûteuse en calcul si la **Segment Length** est trop courte.
 
--    {{PropertyData/fr|Visible Only|Bool}}: spécifie si la projection doit être recalculée uniquement si elle est visible.
+-    **Visible Only|Bool**: spécifie si la projection doit être recalculée uniquement si elle est visible.
 
--    {{PropertyData/fr|Exclusion Points|Vector list}}: Une liste de points d\'exclusion. Toute arête passant par l\'un de ces points ne sera pas dessinée. {{Version/fr|0.20}}
+-    **Exclusion Points|Vector list**: Une liste de points d\'exclusion. Toute arête passant par l\'un de ces points ne sera pas dessinée. {{Version/fr|0.20}}
 
 ### Vue
 
 
-{{TitleProperty/fr|Draft}}
+{{TitleProperty|Draft}}
 
 -    {{PropertyView/fr|Pattern|Enumeration}}: non utilisé.
 

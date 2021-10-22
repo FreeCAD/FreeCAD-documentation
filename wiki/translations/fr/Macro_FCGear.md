@@ -15,7 +15,8 @@
 
 Atelier additionnel pour créer des engrenages de différents types. Les types suivants sont créés, engrenages développants, crémaillère a taille droite, engrenages cycloïde, engrenages coniques.
 
-![FCGear](images/FCGear_00.png ) *FCGear*
+![FCGear](images/FCGear_00.png ) 
+*FCGear*
 
 ## Installation
 

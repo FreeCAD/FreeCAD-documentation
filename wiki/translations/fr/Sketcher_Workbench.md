@@ -34,7 +34,7 @@ Et, l\'application d\'une contrainte de dimension va supprimer le dernier degré
 
 De nombreux objets peuvent être contraints entre eux. Deux lignes peuvent être reliées par un de leurs points avec une contrainte de coïncidence de point. Les angles peuvent être définis entre eux, ou ils peuvent être définis perpendiculairement. Une ligne peut être tangente à un cercle ou un arc et ainsi de suite. Un dessin complexe avec plusieurs objets aura un nombre de solutions différentes, et le rendre **entièrement contraint** signifie qu\'une seule des solutions possibles a été réalisée sur la base des contraintes appliquées.
 
-Il existe deux types de contraintes : **géométriques** et **dimensionnelles**. Elles sont détaillées dans la section [\'Les outils\'](#Les_outils.md) ci-dessous.
+Il existe deux types de contraintes : géométriques et dimensionnelles. Elles sont détaillées dans la section [\'Les outils\'](#Les_outils.md) ci-dessous.
 
 #### Ce pour quoi le Sketcher n\'est pas bon 
 
@@ -278,7 +278,7 @@ Les outils suivants peuvent être utilisés pour modifier l\'effet des contraint
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Basculer l\'espace virtuel](Sketcher_SwitchVirtualSpace/fr.md): Vous permet de \"masquer\" toutes les contraintes et de les rendre à nouveau visibles.
 
-### Préférences
+## Préférences
 
 -   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Préférences\...](Sketcher_Preferences/fr.md): Préférences disponibles pour l\'atelier **Sketcher**.
 

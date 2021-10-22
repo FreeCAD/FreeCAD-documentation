@@ -13,6 +13,7 @@ Dieses Dokument gibt eine kurze Einführung in Doxygen, insbesondere wie es in F
 <img alt="" src=images/FreeCAD_doxygen_workflow.svg  style="width:800px;">
 
 
+
 *Allgemeiner Arbeitsablauf zur Erstellung von Quellcode Dokumentation mit Doxygen.*
 
 ## Doxygen mit C++ Code 
@@ -208,6 +209,7 @@ Eine Klasse zum Speichern einer Sammlung von Koordinaten wird in einer C++ Kopfz
 ### Zusammenstellung der Dokumentation 
 
 <img alt="" src=images/FreeCAD_doxygen_workflow.svg  style="width:800px;">
+
 
 
 *Allgemeiner Arbeitsablauf zur Erstellung von Quellcode Dokumentation mit Doxygen.*
@@ -802,6 +804,7 @@ Wenn diese Konfiguration abgeschlossen ist, kann der Befehl `doxygen Doxyfile` a
 Beachte , dass bestehende Python Dateien, die bereits den Stil `###double hash` für ihre Kommentarblöcke verwenden, vom Filter `doxypypy` nicht beeinflusst werden und von Doxygen normal verarbeitet werden.
 
 <img alt="" src=images/FreeCAD_doxygen_doxypypy_workflow.svg  style="width:800px;">
+
 
 
 *Allgemeiner Arbeitsablauf zur Erstellung von Quellcodedokumentation mit Doxygen, wenn die Python Dateien gefiltert werden, um die Kommentarblöcke zu transformieren.*

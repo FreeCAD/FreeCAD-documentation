@@ -177,7 +177,7 @@ Kilka dodatkowych funkcji, które można znaleźć w menu Part Design:
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Ustaw kolor](Part_FaceColors.md): przypisuje kolory do poszczególnych powierzchni.
 
-### Ustawienia
+## Ustawienia
 
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Ustawienia](PartDesign_Preferences.md): opcje dostępne w Narzędziach PartDesign.
 -   [Ustawienia drobiazgowe](Fine-tuning.md): kilka dodatkowych parametrów, aby dopracować zachowanie PartDesign.

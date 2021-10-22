@@ -10,6 +10,7 @@ Un <img alt="" src=images/Link.svg  style="width:32px;"> _ complessi da sottoass
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Diagramma semplificato delle relazioni tra gli oggetti principali del programma. L'oggetto `App::Link* è un componente principale del sistema, non dipende da alcun ambiente, ma può essere utilizzato con la maggior parte degli oggetti creati in tutti gli ambienti.`
 
 ## Utilizzo

@@ -11,6 +11,7 @@ La superficie può essere modificata aggiungendo bordi e vertici di vincolo attr
 <img alt="" src=images/Surface_Filling_example.png  style="width:600px;">
 
 
+
 *Esempio di una superficie riempita, delimitata da quattro spigoli situati nel piano XY; (a sinistra) solo i quattro bordi e (a destra) una curva aggiunta nello spazio che definisce la curvatura della superficie*
 
 ## Utilizzo

@@ -14,7 +14,8 @@
 
 The **Draft annotation scale widget** (<small>(v0.19)</small> ) can be used to specify the Draft annotation scale. This scale determines the **Scale Multiplier** of new _ and the <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md). It is an [optional](#Preferences.md) GUI element that is located in the [Status bar](Status_bar.md).
 
-![](images/Draft_annotation_scale_widget_button.png ) *The Draft annotation scale widget*
+![](images/Draft_annotation_scale_widget_button.png ) 
+*The Draft annotation scale widget*
 
 ## Utilização
 
@@ -26,7 +27,8 @@ The **Draft annotation scale widget** (<small>(v0.19)</small> ) can be used to s
         -   In the dialog box that opens enter a custom scale using the {{Value|x:x}} or the {{Value|x<nowiki>=</nowiki>x}} format.
         -   Press **Enter** or the **OK** button.
 
-![](images/Draft_annotation_scale_widget_menu.png ) *The menu of the widget*
+![](images/Draft_annotation_scale_widget_menu.png ) 
+*The menu of the widget*
 
 ## Preferências
 

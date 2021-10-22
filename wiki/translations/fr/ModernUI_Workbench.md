@@ -1,66 +1,66 @@
 # ModernUI Workbench/fr
 }
 
-<img alt="Modern UI workbench icon" src=images/ModernUI_workbench_icon.svg  style="width:128px;">
+<img alt="Icône de l\'atelier ModernUI" src=images/ModernUI_workbench_icon.svg  style="width:128px;">
 
 
 {{TOCright}}
 
 ## Introduction
 
-The [ModernUI Workbench](ModernUI_Workbench.md) is an [external workbench](External_workbenches.md) that replaces the standard user interface. It has modern features such as:
+L\'[atelier ModernUI](ModernUI_Workbench/fr.md) est un [Atelier externe](External_workbenches.md) qui remplace l\'interface utilisateur standard. Il possède des fonctionnalités modernes telles que :
 
--   Each workbench has its ribbon tab.
--   **Modern UI** ribbon tab replaces the top-level menu.
--   Activating a workbench\'s ribbon tab shows groups of the workbench\'s tools.
--   Panels such as **Combo View** are collapsed/expanded upon mouse-over.
+-   Chaque atelier a son onglet ruban.
+-   L\'onglet ruban **Modern UI** remplace le menu de niveau supérieur.
+-   L\'activation de l\'onglet du ruban d\'un atelier fait apparaître des groupes d\'outils de l\'atelier.
+-   Les panneaux tels que la [Vue combinée](Combo_view/fr.md) sont réduits/agrandis au passage de la souris.
 
-## References
+## Références
 
--   Author: Hakan Seven
--   Source code on github: <https://github.com/HakanSeven12/Modern-UI>
+-   Auteur : Hakan Seven
+-   Code source sur github : [Code source Modern-UI](https://github.com/HakanSeven12/Modern-UI)
 
-## Limitations and Troubleshooting 
+## Limites et dépannage 
 
--   If you experience unexpected behavior, always first try to uninstall and then reinstall the ModernUI workbench.
--   The workbench is primarily tested with English and may exhibit unexpected behavior in other languages.
--   Installing more workbenches after installing ModernUI may cause problems.
+-   Si vous rencontrez un comportement inattendu, essayez d\'abord de désinstaller puis de réinstaller l\'atelier ModernUI.
+-   L\'atelier est principalement testé en anglais et peut présenter un comportement inattendu dans d\'autres langues.
+-   L\'installation d\'autres ateliers après l\'installation de ModernUI peut poser des problèmes.
 
-## Install
+## Installation
 
-Install with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md).
+Installer le avec le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
-Note: To uninstall, you have to create a macro and execute it. If you do not feel confident about this, consider to not install.
+Remarque : pour désinstaller, vous devez créer une macro et l\'exécuter. Si vous n\'êtes pas sûr de vous, envisagez de ne pas l\'installer.
 
-### Running Modern UI in a self-contained directory 
+### Exécution de Modern UI dans un répertoire autonome 
 
-To easily test Modern UI without interfering with your standard configuration, you can contain it in a separate directory. Uninstalling Modern UI is then simply accomplished by deleting the directory. <small>(v0.19)</small> 
+Pour tester facilement Modern UI sans interférer avec votre configuration standard, vous pouvez le contenir dans un répertoire séparé. La désinstallation de Modern UI s\'effectue alors simplement en supprimant le répertoire. {{Version/fr|0.19}}
 
 #### Linux
 
-For example:
+Par exemple :
 
     $ mkdir modernUI  # new directory that contains Modern UI
     $ cd modernUI
     $ HOME="$PWD" FREECAD_USER_HOME="$PWD" FreeCAD_0.19.AppImage
 
-When starting FreeCAD like this for the first time, you have a new default configuration. Now install (and configure) Modern UI. This is essentially a [*portable* FreeCAD version](Download#Notes_for_GNU.2FLinux_users.md).
+Lorsque vous démarrez FreeCAD comme cela pour la première fois, vous avez une nouvelle configuration par défaut. Maintenant installez (et configurez) Modern UI. Ceci est essentiellement une [version *portable* de FreeCAD](Download/fr#Note_aux_utilisateurs_de_GNU.2FLinux.md).
 
-Instead of using the command line, you can also [create a dedicated desktop icon](Start_up_and_Configuration#Starting_FreeCAD_from_the_desktop.md).
+Au lieu d\'utiliser la ligne de commande, vous pouvez également [créer une icône de bureau dédiée](Start_up_and_Configuration/fr#D.C3.A9marrage_de_FreeCAD_.C3.A0_partir_du_bureau.md).
 
 #### Windows
 
-There are not dedicated instructions for Windows yet, however, it is very similar to [creating a portable version of FreeCAD on a USB medium](Start_up_and_Configuration#Starting_FreeCAD_from_a_portable_USB_medium.md).
+Il n\'y a pas encore d\'instructions dédiées pour Windows, cependant, c\'est très similaire à [créer une version portable de FreeCAD sur un support USB](Start_up_and_Configuration/fr#D.C3.A9marrage_de_FreeCAD_.C3.A0_partir_d.27un_medium_USB.md).
 
-## Uninstall
+## Désinstaller
 
-Detailed instructions can be found on [GitHub](https://github.com/HakanSeven12/Modern-UI#uninstallation).
+Des instructions détaillées sont disponibles sur [GitHub](https://github.com/HakanSeven12/Modern-UI#uninstallation).
 
-The uninstall sequence is as follows:
+La séquence de désinstallation est la suivante :
 
-1.  Uninstall with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md).
-2.  Restart FreeCAD.
-3.  Create a macro with this code:```python
+1.  Désinstaller avec le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+2.  Redémarrez FreeCAD.
+3.  Créez une macro avec ce code :```python
     from PySide2 import QtCore, QtGui, QtWidgets
     mw = FreeCADGui.getMainWindow()
     mw.menuBar().show()
@@ -72,14 +72,14 @@ The uninstall sequence is as follows:
             tb.show()
     
 ```
-4.  Execute the macro.
-5.  Restart FreeCAD.
+4.  Exécuter la macro.
+5.  Redémarrez FreeCAD.
 
-## Links
+## Liens
 
--   FreeCAD Forum: <https://forum.freecadweb.org/viewtopic.php?f=34&t=44937>
--   Report bugs: <https://github.com/HakanSeven12/Modern-UI>
--   Patreon (to support the author): <https://www.patreon.com/HakanSeven12>
+-   Forum FreeCAD : <https://forum.freecadweb.org/viewtopic.php?f=34&t=44937>
+-   Rapport de bogues : <https://github.com/HakanSeven12/Modern-UI>
+-   Patreon (pour soutenir l\'auteur) : <https://www.patreon.com/HakanSeven12>
 
 
 

@@ -21,6 +21,7 @@
 >>> ### End command Std_SendToPythonConsole
 
 
+
 *출력 예시: [부품 상자](Part_Box/ko.md)의 모서리가 선택된 경우*
 
 ## 용법

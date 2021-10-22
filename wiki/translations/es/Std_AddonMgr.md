@@ -18,7 +18,8 @@ Los Complementos marcados como {{emphasis|Sólo Python 2}} no funcionarán en Fr
 
 Debido a los cambios en la plataforma GitHub en el año 2020 el gestor de Addons ya no funciona si utilizas la versión 0.17 o anterior de FreeCAD. Necesitas actualizar a la versión _ abajo.
 
-![](images/Std_AddonMgr_dialog.png ) *El cuadro diálogo del gestor complementos*
+![](images/Std_AddonMgr_dialog.png ) 
+*El cuadro diálogo del gestor complementos*
 
 ## Utilización
 

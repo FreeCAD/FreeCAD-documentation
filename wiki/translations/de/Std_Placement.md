@@ -13,7 +13,8 @@
 
 Der **Std Platzierung** Befehl zeigt die Platzierung [ Aufgabenkonsole](Task_panel/de.md) für ein ausgewähltes Objekt an.
 
-![](images/Std_Placement_taskpanel.png ) *Die Positionierungsaufgabenkonsole*
+![](images/Std_Placement_taskpanel.png ) 
+*Die Positionierungsaufgabenkonsole*
 
 ## Verwendung
 

@@ -177,7 +177,13 @@ Otras funcionalidades adicionales disponibles en el menú de diseño de piezas:
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Asignar colores](Part_FaceColors/es.md): asigna colores a las caras de las partes.
 
+
+<div class="mw-translate-fuzzy">
+
 ### Preferencias
+
+
+</div>
 
 \<!\--Las preferencias de diseño de la pieza se definen en el Ambiente de Trabajo de la pieza y tanto el Ambiente de Trabajo de diseño de la pieza como el Ambiente de Trabajo de la pieza las usan\...
 

@@ -9,7 +9,8 @@
 
 Lo strumento Immagine inserisce un\'immagine [bitmap](bitmap/it.md) (PNG, TIFF, JPEG, ecc.) da un file nella pagina come una vista
 
-![](images/TechDraw_Image_example.png ) *Immagine inserita nella pagina di disegno*
+![](images/TechDraw_Image_example.png ) 
+*Immagine inserita nella pagina di disegno*
 
 ## Uso
 

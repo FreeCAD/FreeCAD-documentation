@@ -7,7 +7,8 @@ Dans l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _, vous
 
 L\'aimantation est disponible avec la plupart des commandes de [Draft](Draft_Workbench/fr.md) et [Arch](Arch_Workbench/fr.md).
 
-![](images/Draft_Snap_Endpoint_example.png ) *Aimantation au point d'extrémité d'une arête*
+![](images/Draft_Snap_Endpoint_example.png ) 
+*Aimantation au point d'extrémité d'une arête*
 
 ## Outils d\'aimantaion 
 
@@ -54,9 +55,11 @@ Remarquez que les bords circulaires ne doivent pas nécessairement être des cer
 -   Appuyez sur **Q** pour insérer un \"point d\'aimantation\" à l\'emplacement en cours du curseur. Vous pouvez vous aimanter aux axes orthogonaux des points d\'arrêt et aux intersections de ces axes. Si l\'option [Draft Aimantation Milieu](Draft_Snap_Midpoint/fr.md) est active, vous pouvez également vous fixer sur le point milieu entre deux points d\'arrêt.
 -   Appuyez une ou plusieurs fois sur **** pour effectuer une aimantation sur un objet qui est masqué par d\'autres éléments géométriques. Cette opération est appelée \"cycle d\'aimantation\". Notez que vous devez déplacer légèrement le curseur dans la [Vue 3D](3D_view/fr.md) après avoir appuyé sur la touche.
 
-![](images/Draft_Snap_example_cycling_1.png ) *Cycle d'aimantation 1 : le rectangle rouge a été créé en premier, il a donc la priorité d'aimantation. Sans le cycle d'aimantation, vous ne pouvez pas aimanter le rectangle vert, qui est recouvert par le rectangle rouge.*
+![](images/Draft_Snap_example_cycling_1.png ) 
+*Cycle d'aimantation 1 : le rectangle rouge a été créé en premier, il a donc la priorité d'aimantation. Sans le cycle d'aimantation, vous ne pouvez pas aimanter le rectangle vert, qui est recouvert par le rectangle rouge.*
 
-![](images/Draft_Snap_example_cycling_2.png ) *Cycle d'aimantation 2 : après avoir utilisé la touche cycle d'aimantation une fois, le rectangle vert reçoit la priorité d'aimantation. L'aimantation au point milieu du bord vert superposé est maintenant possible.*
+![](images/Draft_Snap_example_cycling_2.png ) 
+*Cycle d'aimantation 2 : après avoir utilisé la touche cycle d'aimantation une fois, le rectangle vert reçoit la priorité d'aimantation. L'aimantation au point milieu du bord vert superposé est maintenant possible.*
 
 ## Remarques
 

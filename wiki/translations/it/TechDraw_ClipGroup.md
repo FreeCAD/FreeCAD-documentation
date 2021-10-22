@@ -22,7 +22,8 @@ Questo strumento crea una finestra di ritaglio che può contenere una o più vis
 
 </div>
 
-![](images/TechDraw_Clipview.png ) *Finestra di ritaglio di diverse viste esistenti*
+![](images/TechDraw_Clipview.png ) 
+*Finestra di ritaglio di diverse viste esistenti*
 
 ## Utilizzo
 

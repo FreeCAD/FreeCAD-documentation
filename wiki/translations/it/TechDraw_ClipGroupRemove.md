@@ -16,7 +16,8 @@
 
 Questo strumento rimuove una vista da una clip esistente e la riporta nell\'area della pagina.
 
-![](images/TechDraw_Clipview.png ) *Finestra di ritaglio di diverse viste esistenti*
+![](images/TechDraw_Clipview.png ) 
+*Finestra di ritaglio di diverse viste esistenti*
 
 ## Utilizzo
 

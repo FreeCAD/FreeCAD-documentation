@@ -46,6 +46,7 @@ Lo strumento Curva di Bezier utilizza **i punti di controllo** per definire la d
 <div class="mw-translate-fuzzy">
 
 
+
 *Curva di Bézier definita da più punti di controllo*
 
 

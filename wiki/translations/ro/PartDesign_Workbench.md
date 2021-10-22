@@ -526,7 +526,13 @@ Unele funcționalități suplimentare găsite în meniul PartDesign:
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Set colors](Part_FaceColors.md): assigns colors to part faces.
 
+
+<div class="mw-translate-fuzzy">
+
 ### Preferințe
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

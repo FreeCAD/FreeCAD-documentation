@@ -82,7 +82,13 @@ Obiectele multiple pot fi constrânse între ele. Două linii pot fi unite prin 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Există două tipuri de constrângeri: geometrice și dimensionale. Acestea sunt detaliate în secțiunea [ \'Instrumentele\'](#_Instrumente.md) de mai jos.
+
+
+</div>
 
 #### What the Sketcher is not good for 
 
@@ -128,7 +134,7 @@ Dacă schița are segmente care se încrucișă unul pe altul, locurile în care
 
 Once a Sketch is fully constrained, the Sketch features will turn green; Construction Geometry will remain blue. It is usually \"finished\" at this point and suitable for use in creating a 3D solid. However, once the Sketch dialog is closed it may be worthwhile going to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:Part Workbench](Part_Workbench.md) and running **[16px"> [Check geometry](Part_CheckGeometry.md)** to ensure there are no features in the Sketch which may cause later problems.
 
-## The tools 
+## Tools
 
 
 <div class="mw-translate-fuzzy">
@@ -850,7 +856,13 @@ The following tools can be used the change the effect of constraints:
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ### Preferințe
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

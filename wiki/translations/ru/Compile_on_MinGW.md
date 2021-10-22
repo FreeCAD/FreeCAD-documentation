@@ -1,69 +1,70 @@
 # Compile on MinGW/ru
-**(2021) The re-write of this page is an early draft, and work is still in progress. Please help us to finish it!<br>Meanwhile, try other [compilation options](Compiling.md).**
+**(2021) Данная страница переписывается заново и находится в текущий момент на стадии черновика. При желании, если вы обладаете требуемыми знаниями, вы можете помочь в написании текста данного руководства.
+<br>Помимо MinGW вы так же можете попробовать другие [способы компиляции](Compiling/ru.md).**
 
 
 {{TOCright}}
 
-This guide will walk through the steps necessary to build FreeCAD on Windows using the MSYS2/MinGW environment. Basic familiarity with Bash shell commands will be useful for understanding what each step does, but following the guide by rote should result in a working build even if you don\'t understand exactly what you did to get it.
+В данном руководстве будут рассмотрены шаги, необходимые для сборки FreeCAD в Windows с использованием среды MSYS2/MinGW. Базовые знания команд оболочки Bash будут полезны для понимания того, что происходит на каждом этапе сборки. Тщательное следование руководству по пунктам, должно привести вас к созданию рабочей сборки, даже если вы не полностью понимаете, что вы сделали, чтобы получить ее.
 
-### Before you start 
+### Прежде чем вы начнете 
 
-Download and install [MSYS2](https://www.msys2.org) if you have not already. When launching MSYS2, use the \"MSYS2 MinGW 64-bit\" runtime unless you know what you are doing and have a specific reason not to. If you use the UCRT console, make sure to adapt your installation to use the UCRT packages instead.
+Загрузите и установите [MSYS2](https://www.msys2.org), если вы еще этого не сделали. При запуске MSYS2 используйте 64-разрядную среду выполнения MSYS2 MinGW, если вы не знаете, что делаете, и у вас нет конкретной причины этого не делать. Если вы используете консоль UCRT, убедитесь, что ваша инсталляция адаптирована для использования пакетов UCRT вместо этого.
 
     pacman -Syu
 
-and then relaunching and running
+после чего перезапустите и запустите
 
     pacman -Su
 
-before proceeding.
+прежде чем продолжить.
 
-### Install basic development tools 
+### Установка основных средств разработки 
 
-In all of the following steps, when prompted by MSYS2\'s shell, accept the default installations of everything by pressing \"Enter\" when asked.
+Во всех следующих шагах, если оболочка MSYS2 будет предлагать установки по умолчанию, для всех случаев дайте согласие нажав \"Enter\", когда вас спросят.
 
-First, install the mingw-w64 GCC toolchain:
+Во-первых, установите набор инструментов mingw-w64 GCC:
 
     pacman -S --needed base-devel mingw-w64-x86_64-toolchain mingw-w64-x86_64-cmake mingw-w64-x86_64-ninja
 
-This will probably take several minutes to complete, as the compiler toolchain is quite large.
+Это, вероятно, займет несколько минут, так как набор инструментов компилятора довольно велик.
 
-Install git:
+Установите git:
 
     pacman -S git
 
-Close your current console window and relaunch the MSYS2 MinGW 64 console (in a standard installation this will be in your Start menu in the MSYS2 folder).
+Закройте текущее окно консоли и перезапустите консоль MSYS2 MinGW 64 (в стандартной установке это будет в меню \"Пуск\" в папке MSYS2).
 
-### Check out the FreeCAD sources 
+### Загрузка исходников FreeCAD 
 
-To get the FreeCAD source code, clone it from the main git repository:
+Чтобы получить исходный код FreeCAD, клонируйте его из основного репозитория git:
 
     git clone https://github.com/FreeCAD/FreeCAD
 
-If you do not want to compile the latest HEAD, once you have the source you can check out a specific tag:
+Если вы не хотите компилировать последнюю версию HEAD, как только у вас будет исходный код, вы можете проверить конкретный тег:
 
     cd FreeCAD
     git checkout tags/0.19.2 -b releases/FreeCAD-0-19
 
-Or a specific pull request (in this example, PR 1234):
+Или конкретный pull request (в данном примере PR 1234):
 
     cd FreeCAD
     git fetch origin pull/1234/head:pr/1234
     git checkout pr/1234
 
-### Install required libraries 
+### Установка необходимых библиотек 
 
-FreeCAD depends on many 3rd-party libraries for its functionality. They may be installed individually, or as a single unified command. Updating this list is the current ongoing work of this documentation: to help, repeatedly run the cmake command from the next section, and install whatever the next package is that it errors on. As of this writing there is a problem with the pacman-installed OpenCASCADE package.
+FreeCAD включает в свою сборку много сторонних библиотек. Они могут быть установлены по отдельности или в виде единой унифицированной команды. Обновление этого списка является текущей текущей работой этой документации: чтобы помочь, повторно выполните команду cmake из следующего раздела и установите любой следующий пакет, в котором он ошибается. На момент написания этой статьи возникла проблема с pacman-installed OpenCASCADE пакетом.
 
 -   mingw-w64-x86\_64-opencascade
 
-To resolve the current (9/11/2021) problem with the OpenCASCADE installation, it is necessary to modify the installed cMake configuration files for the library. In the files /mingw64/lib/cmake/opencascade/\*-release.cmake, remove all occurrences of the string
+Чтобы устранить текущую (9/11/2021) проблему с установкой OpenCascade, необходимо изменить установленные файлы конфигурации CMake для библиотеки. В файлах /mingw64/lib/cmake/opencascade/\*-release.cmake удалите все вхождения строки
 
     \${OCCT_INSTALL_BIN_LETTER}
 
-(Note the leading backslash \-- that character must be removed along with the variable reference).
+(Обратите внимание на начальную обратную косую черту-этот символ должен быть удален вместе со ссылкой на переменную).
 
-Now, install the following required dependencies using pacman:
+Теперь установите следующие необходимые зависимости с помощью pacman:
 
 -   mingw-w64-x86\_64-xerces-c
 -   mingw-w64-x86\_64-qt5
@@ -79,22 +80,22 @@ Now, install the following required dependencies using pacman:
 -   mingw-w64-x86\_64-python-matplotlib
 -   mingw-w64-x86\_64-pyside2-qt5
 
-The following is a single command to install everything but OpenCASCADE:
+Ниже приведена одна команда для установки всего, кроме OpenCascade:
 
     pacman -S mingw-w64-x86_64-xerces-c mingw-w64-x86_64-qt5 mingw-w64-x86_64-med mingw-w64-x86_64-swig mingw-w64-x86_64-qtwebkit mingw-w64-x86_64-coin mingw-w64-x86_64-python-pivy mingw-w64-x86_64-pyside2-qt5 mingw-w64-x86_64-python-python-ply mingw-w64-x86_64-python-six mingw-w64-x86_64-python-yaml mingw-w64-x86_64-python-numpy mingw-w64-x86_64-python-matplotlib
 
-### Build FreeCAD 
+### Сборка FreeCAD 
 
-Make a directory for the build: note this is typically not a subdirectory of the source directory (it is often useful to be able to delete either the source or the build directory independently).
+Создайте каталог для сборки: обратите внимание, что обычно это не подкаталог исходного каталога (часто бывает полезно иметь возможность удалить либо исходный, либо каталог сборки независимо).
 
     mkdir FreeCAD-build
     cd FreeCAD-build
 
-Run cMake:
+Запустите сMake:
 
     cmake ../FreeCAD
 
-And finally:
+И в завершение:
 
     cmake --build ./
 

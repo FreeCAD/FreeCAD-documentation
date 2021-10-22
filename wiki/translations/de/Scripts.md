@@ -307,9 +307,12 @@ mit anderen Worten, das **Rotationszentrum** der Geometrie liegt bei `Vector(0,0
 Dies ist die Bedeutung des Wortes \"umständlich\", das ich zur Definition der `Placement` Eigenschaft verwendet habe.
 
 
+
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

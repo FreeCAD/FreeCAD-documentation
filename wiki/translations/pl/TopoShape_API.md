@@ -1,5 +1,5 @@
 # TopoShape API/pl
-{{VeryImportantMessage/pl
+{{VeryImportantMessage
 |''(listopad 2018 r.)'' Informacje te mogą być niekompletne i nieaktualne. Najnowsze API - patrz [https://www.freecadweb.org/api dokumentacja API generowana automatycznie].}}
 
 Kształt Topologiczny jest obiektem macierzystym modułu Część. Wszystkie typy kształtów *(polilinia, ściana, bryła, itd\...)* modułu Część są Kształtami Topologicznymi i posiadają następujące atrybuty i metody. Przykład: 

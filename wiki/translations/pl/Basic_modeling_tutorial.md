@@ -26,7 +26,7 @@ Dostępne są też bardziej zaawansowane narzędzia. Zaczynasz od narysowania dw
 
 Zacznijmy więc od próby zrobienia kilku żelaznych nóg do stołu za pomocą tych 2 metod.
 
-## Pierwsza metoda - Konstrukcyjna geometria bryły 
+## Metoda pierwsza - Konstrukcyjna geometria bryły 
 
 1.  Zacznij od środowiska pracy [Część](Part_Workbench/pl.md) ![](images/Switch_PartWorkbench.JPG ).
 2.  Jeśli nie otworzyłeś nowego dokumentu FreeCAD *(większość okna FreeCAD wygląda na nieaktywną)*, z rozwijanego menu kliknij **Plik → Nowy** lub kliknij przycisk <img alt="" src=images/Document-new.png  style="width:32px;">. **Utwórz nowy, pusty dokument**.
@@ -44,87 +44,87 @@ Zacznijmy więc od próby zrobienia kilku żelaznych nóg do stołu za pomocą t
 
 ![Rys. 1.3 Po odjęciu](images/Tutorial-normand03.jpg )
 
-You now have your first iron angle *(Fig. 1.3)*. You\'ll notice that, in the Project tab on the left, both boxes have been replaced by a \"Cut\" object. Actually, they\'re not disappeared, but rather grouped under the Cut object. Click on the **+** in front of it, and you\'ll see that both boxes are still there, but greyed out *(Fig. 1.4)*. If you click on either of them and hit the **Space bar**, it will show up. The space bar toggles [visibility](Std_ToggleVisibility.md) of selected objects. *(Fig. 1.5)*
+Masz teraz swój pierwszy żelazny kątownik *(rys. 1.3)*. Zauważysz, że w zakładce Model po lewej stronie, oba pola zostały zastąpione obiektem \"Cięcie\". Właściwie to nie zniknęły, lecz zostały zgrupowane pod obiektem Cięcie. Kliknij przycisk **+** znajdujący się przed nim, a zobaczysz, że oba pola nadal tam są, ale nie są już aktywne *(rys. 1.4)*. Jeśli klikniesz na którymś z nich i wciśniesz **Spacja**, zostanie uaktywnione. Spacja przełącza [widoczność](Std_ToggleVisibility.md) wybranych obiektów. *(Rys. 1.5)*
 
-Don\'t want the angle oriented that way? You just need to change the placement of the Box001 shape. Select it, unhide it, and in the Data tab, click on the **+** in front of Placement, then expand the Position parameter, and change its X and Y coordinates. Hit **Enter**, hide the Box001 shape again, and your angle orientation is now different. *(Fig. 1.5)* You can even change either of your shapes dimensions, and the Cut object will be updated.
+Nie chcesz, aby kąt był ustawiony w ten sposób? Wystarczy, że zmienisz położenie kształtu Box001. Zaznacz go, wyłącz jego ukrycie i w zakładce Dane kliknij na przycisk **+** przed napisem Umiejscowienie, następnie rozwiń parametr Pozycja i zmień jego współrzędne X i Y. Wciśnij klawisz **Enter**, ponownie ukryj kształt Box001, a orientacja kąta jest teraz inna. *(Rys. 1.5)* Możesz nawet zmienić wymiary któregoś z kształtów, a obiekt Cięcie zostanie zaktualizowany.
 
 ![Rys. 1.4 Operacja wycięcia zachowuje swoje oryginalne obiekty *(sześciany)*](images/Tutorial-normand04.jpg )
 
 ![Rys. 1.5 Oryginalne sześciany mogą być nadal widoczne.](images/Tutorial-normand05.jpg )
 
-By the way, we can add rounds to the angle so it is more realistic, using the <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Fillet](Part_Fillet.md) tool. 
-*(Fig. 1.6)*
+Przy okazji, możemy dodać zaokrąglenia do kątownika, aby wyglądał bardziej realistycznie, używając narzędzia <img alt="" src=images/Part_Fillet.svg  style="width:32px;"> [Zaokrąglenie](Part_Fillet/pl.md). 
+*(Rys. 1.6)*
 
-![Fig. 1.6 The filleted edges](images/Tutorial-normand06.jpg )
+![Fig. 1.6 Zaokrąglone krawędzie](images/Tutorial-normand06.jpg )
 
-## 2nd Method - By extruding a profile 
+## 2. Metoda - przez wyciągnięcie profilu 
 
-This method requires that you start by drawing a 2D profile. You need to activate the [Draft workbench](Draft_Workbench.md) ![](images/Switch_DraftWorkbench.JPG ).
+Ta metoda wymaga, abyś zaczął od narysowania profilu 2D. Musisz aktywować środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) ![](images/Switch_DraftWorkbench.JPG ).
 
--   If you haven\'t opened a new FreeCAD document (most of the FreeCAD window looks greyed-out), from the pull-down menu click File → New or click the <img alt="" src=images/Document-new.png  style="width:32px;"> **Create a new empty document** icon.
+-   Jeśli nie otworzyłeś nowego dokumentu FreeCAD *(większość okna FreeCAD wygląda na nieaktywne)*, z rozwijanego menu kliknij Plik → Nowy lub kliknij przycisk <img alt="" src=images/Document-new.png  style="width:32px;"> **Utwórz nowy pusty dokument**.
 
-### Setting the working plane 
+### Ustawienie płaszczyzny roboczej 
 
-First we need to define on which [working plane](Draft_SelectPlane.md) to draft our profile.
+Najpierw musimy określić, na której [płaszczyźnie robocza](Draft_SelectPlane/pl.md) ma być umieszczony nasz profil.
 
-1.  Locate the toolbar displayed below. Depending on your Draft preferences, it may be below the main toolbar, to the left or to the right.
+1.  Zlokalizuj pasek narzędzi wyświetlony poniżej. W zależności od preferencji użytkownika Rysunku Roboczego, może on znajdować się poniżej głównego paska narzędzi, po lewej lub po prawej stronie.
 
     :   ![](images/DraftPlaneAuto.png )
-2.  Press the **Auto** button (it may be labeled \"None\").
-3.  Depending on your Draft preferences, this expands a **Select Plane** dialog in the Tasks side panel, or a horizontal toolbar labeled \"active command: **Select Plane**\". See the [Note on Draft Working Plane Button](#Note_on_Draft_Working_Plane_Button.md) for screen captures showing the two expanded modes.
-4.  We will leave the *Offset* field at a value of zero.
-5.  Press the **XY** button to set the working plane to XY. This closes the Tasks panel or the expanded buttons. The \"Auto\" button will now be relabeled as \"Top\" to show it is the active plane.
+2.  Naciśnij przycisk **Automatycznie** *(może być oznaczony jako \"Brak\")*.
+3.  W zależności od preferencji Rysunku Roboczego, rozwija się okno dialogowe **Wybierz płaszczyznę** w panelu bocznym Zadania, lub poziomy pasek narzędzi oznaczony jako \"aktywne polecenie\": **Wybierz płaszczyznę**. Zobacz na stronie [Uwaga na temat przycisku płaszczyzny roboczej](#Uwaga_na_temat_przycisku_p.C5.82aszczyzny_roboczej.md) zrzuty ekranu pokazujące dwa rozwinięte tryby.
+4.  Pozostawimy w polu *Odsunięcie* wartość zero.
+5.  Naciśnij przycisk **XY** aby ustawić płaszczyznę roboczą na XY. Zamyka to panel Zadania lub rozwinięte przyciski. Przycisk \"Automatycznie\" będzie teraz ponownie oznaczony jako \"Góra\", aby pokazać, że jest to aktywna płaszczyzna.
 
-### Drafting the profile 
+### Kreślenie profilu 
 
-1.  Select the <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [DWire (multiple-point DraftWire)](Draft_Wire.md) tool.
-2.  Check the \"Relative\" and \"Filled\" boxes.
-3.  Rather than drawing the shape in the 3D view, we\'ll enter coordinates in the *Global X*, *Global Y* and *Global Z* input fields. The process is the following:
-    1.  Click in the *Global X* input field;
-    2.  Enter a value as listed in the bullet list below and press **TAB** to go to the *Global Y* input field;
-    3.  Enter the *Global Y* value and press **TAB** to go to the *Global Z* input field;
-    4.  In the *Global Z* field, leave the zero value and press **ENTER** to validate the coordinates for the point;
-    5.  Repeat for the next 5 points.
-        -   **Coordinates** (X, Y, Z)
-        -   1st point: 0, 0, 0
-        -   2nd point: 50, 0, 0
-        -   3rd point: 0,10, 0
-        -   4th point: -40, 0, 0 **Note:** *in FreeCAD 0.16, there is a bug that removes the previous point when entering the minus sign in the input field. A workaround is to enter a positive value, then place the cursor before the number and add the minus sign. (This bug is resolved in v0.17)*
-        -   5th point: 0, 40, 0
-        -   6th point: -10, 0, 0
-4.  Press the **Close** button to close the profile. You should now have this profile, titled **DWire** in the Model tab:
+1.  Wybierz narzędzie <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [Linia łamana *(wielopunktowa polilinia)*](Draft_Wire/pl.md).
+2.  Zaznacz pola \"Względnie\" i \"Wypełnienie\".
+3.  Zamiast rysować kształt w widoku 3D, wpiszemy współrzędne w polach *Globalnie X*, *Globalnie Y* i *Globalnie Z*. Proces ten wygląda następująco:
+    1.  Kliknij w pole wejściowe *Globalnie X*;
+    2.  Wprowadź wartość zgodnie z listą wypunktowaną poniżej i naciśnij klawisz **TAB**, aby przejść do pola wejściowego *Globalnie Y*.
+    3.  Wprowadź wartość *Globalnie Y* i naciśnij klawisz **TAB** aby przejść do pola wejściowego *Globalnie Z*.
+    4.  W polu *Globalnie Z* pozostaw wartość zero i naciśnij klawisz **ENTER** aby zatwierdzić współrzędne punktu.
+    5.  Powtórz dla następnych 5 punktów.
+        -   **Współrzędne** *(X, Y, Z)*.
+        -   Pierwszy punkt: 0, 0, 0.
+        -   Drugi punkt: 50, 0, 0.
+        -   Trzeci punkt: 0,10, 0.
+        -   Czwarty punkt: -40, 0, 0 **Uwaga:** *W wersji FreeCAD 0.16 występuje błąd, który usuwa poprzedni punkt, gdy wprowadzamy znak minus w polu wprowadzania danych. Obejściem tego problemu jest wprowadzenie wartości dodatniej, następnie umieszczenie kursora przed liczbą i dodanie znaku minus. (Ten błąd został usunięty w v0.17)*.
+        -   Piąty punkt: 0, 40, 0.
+        -   Szósty punkt: -10, 0, 0.
+4.  Naciśnij przycisk **Zamknij** aby zamknąć profil. Powinieneś teraz mieć ten profil, zatytułowany **DWire** w zakładce Model:
 
-![Fig. 1.7 The base DWire](images/Tutorial-normand07.jpg )
+![Fig. 1.7 Bazowa linia łamana](images/Tutorial-normand07.jpg )
 
-Hit the **0** (zero) key on the numerical keypad to set the view to axonometric.
+Naciśnij klawisz **0** *(zero)* na klawiaturze numerycznej, aby ustawić widok na aksonometryczny.
 
-### Extruding the profile 
+### Wyciągnie profilu 
 
-Activate the <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Part Workbench](Part_Workbench.md) either from the [workbench selector](Std_Workbench.md), or from the **[View](Std_View_Menu.md) → Workbench → Part** menu.
+Aktywuj środowisko pracy <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Część](Part_Workbench/pl.md) albo z menu wyboru [Środowisk pracy](Std_Workbench/pl.md), albo z menu **[Widok](Std_View_Menu/pl.md) → Środowiska pracy → Część**.
 
-Click on the **<img src="images/Part_Extrude.svg" width=32px> [Extrude](Part_Extrude.md)** tool.
+Kliknij na przycisk narzędzia **<img src="images/Part_Extrude.svg" width=32px> [Wyciągnięcie](Part_Extrude/pl.md)**.
 
-On the Tasks tab on the left, select the **Wire** object. Then enter the desired length, say 750mm. Leave the direction at Z = 1. Press **OK**. You should now have an **Extrude** object in the Model tab *(fig. 1.8)*
+W zakładce Zadania po lewej stronie wybierz obiekt **Polilinia**. Następnie wprowadź żądaną długość, powiedzmy {{Value|750mm}}. Pozostaw kierunek na Z = 1. Wciśnij przycisk **OK**. Powinieneś mieć teraz obiekt **Wyciągnięcie** w zakładce Model *(rys. 1.8)*.
 
-![Fig. 1.8 The extruded object](images/Tutorial-normand08.jpg )
+![Fig. 1.8 Wyciągnięty obiekt](images/Tutorial-normand08.jpg )
 
-This method has a minor caveat compared to the other one: to edit the shape, you need to edit the Wire, it\'s not as easy to do as the previous method.
+Ta metoda ma małe zastrzeżenie w porównaniu do poprzedniej: aby edytować kształt, musisz edytować linię łamaną, nie jest to tak proste jak w poprzedniej metodzie.
 
-And there are a few other ways to do it too! I hope these two examples get you started. You\'ll sure hit some snags along the way (I did when I first learned FreeCAD, and I do have 3D CAD experience), but don\'t hesitate to ask questions on the [FreeCAD forum](https://forum.freecadweb.org)!
+Jest też kilka innych sposobów, aby to zrobić! Mam nadzieję, że te dwa przykłady pozwolą Ci na rozpoczęcie pracy. Na pewno napotkasz jakieś przeszkody po drodze *(ja tak miałem, gdy po raz pierwszy uczyłem się programu FreeCAD, a mam doświadczenie w projektowaniu 3D CAD)*, ale nie wahaj się zadawać pytań na [forum FreeCAD](https://forum.freecadweb.org)!
 
-### Note on Draft Working Plane Button 
+### Uwaga na temat przycisku płaszczyzny roboczej 
 
-The label on your button may be different, depending on your version and also on what you were doing beforehand. The button label could read: \"Top\", \"Front\", \"Side\", \"None\" or a Vector representation such as d(0.0,0.0,1.0). It can also be blank. For example:
+Etykieta na twoim przycisku może być różna, w zależności od twojej wersji, a także od tego, co robiłeś wcześniej. Etykieta przycisku może być następująca: \" Góra\", \"Przód\", \"Bok\", \"Brak\" lub też przedstawiać reprezentację wektorową, taką jak d(0.0,0.0,1.0). Może być również pusta. Na przykład:
 
-![Select Plane None](images/DraftPlaneNone.png )
+![Wybierz płaszczyznę - Brak](images/DraftPlaneNone.png )
 
-![Select Plane Top](images/DraftPlaneTop.png )
+![Wybierz płaszczyznę - Góra](images/DraftPlaneTop.png )
 
-![Select Plane View](images/DraftPlaneView.png )  After pressing the button, the options will be expanded into either of the following configurations.
+![Wybierz płaszczyznę - Widok](images/DraftPlaneView.png )  Po naciśnięciu przycisku opcje zostaną rozwinięte do jednej z poniższych konfiguracji.
 
-![**Select Plane** parameters as shown in Tasks panel mode.](images/DraftPlaneTasks.png )
+![**Wybór płaszczyzny** parametry przedstawione w trybie panelu Zadania.](images/DraftPlaneTasks.png )
 
-![**Select Plane** parameters as shown in Toolbar mode.](images/DraftPlaneToolbarMode.png ) 
+![**Wybór płaszczyzny** parametry przedstawione w trybie paska narzędzi.](images/DraftPlaneToolbarMode.png ) 
 
 Powyższe instrukcje będą działać, bez względu na to, jaką etykietę posiada Twój przycisk.
 

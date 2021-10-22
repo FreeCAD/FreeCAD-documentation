@@ -81,8 +81,9 @@ Or a specific pull request (in this example, PR 1234):
 ### Install required libraries 
 
 FreeCAD depends on many 3rd-party libraries for its functionality. They may be installed individually, or as a single unified command. Updating this list is the current ongoing work of this documentation: to help, repeatedly run the cmake command from the next section, and install whatever the next package is that it errors on. As of this writing there is a problem with the pacman-installed OpenCASCADE package.
-
 -   mingw-w64-x86\_64-opencascade
+
+
 
 To resolve the current (9/11/2021) problem with the OpenCASCADE installation, it is necessary to modify the installed cMake configuration files for the library. In the files /mingw64/lib/cmake/opencascade/\*-release.cmake, remove all occurrences of the string
 
@@ -95,7 +96,6 @@ To resolve the current (9/11/2021) problem with the OpenCASCADE installation, it
 (Note the leading backslash \-- that character must be removed along with the variable reference).
 
 Now, install the following required dependencies using pacman:
-
 -   mingw-w64-x86\_64-xerces-c
 -   mingw-w64-x86\_64-qt5
 -   mingw-w64-x86\_64-med
@@ -109,6 +109,8 @@ Now, install the following required dependencies using pacman:
 -   mingw-w64-x86\_64-python-numpy
 -   mingw-w64-x86\_64-python-matplotlib
 -   mingw-w64-x86\_64-pyside2-qt5
+
+
 
 The following is a single command to install everything but OpenCASCADE:
 

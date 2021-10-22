@@ -19,6 +19,7 @@ Beschränkt zwei Linien, um dem Gesetz der Lichtbrechung zu folgen, wenn es durc
 <img alt="" src=images/Snells_law2_witheq.svg  style="width:" height="400px;">
 
 
+
 *Snelliussches Gesetz*
 
 ## Anwendung

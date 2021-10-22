@@ -17,9 +17,18 @@ De făcut
 
 Create a New Ship or new Ship Instance.
 
+Ship works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid, or set of solids.The following criteria must be taken into account:
+
+-   All hull geometry must be provided (including symmetric bodies).
+-   Starboard geometry must be included at negatives *y* domain.
+-   Origin (0,0,0) point is the **Midship section** (Midpoint between after and forward perpendicular) and **base line** intersection.
+
+![](images/FreeCAD-Ship-SignCriteria.jpg ) 
+*Ship sign criteria*
+
 ## Usage
 
-In order to create a **Ship instance** (in other words, a New Ship), select s60 geometry and execute the **ship creation tool** **Ship design → Create a new ship**
+In order to create a **Ship instance** (in other words, a New Ship), select the hull solid geometry and invoke **Ship design → Create a new ship**.
 
 
 <div class="mw-translate-fuzzy">
@@ -47,6 +56,8 @@ Dimensiunile principale trebuie introduse aici:
 
 </div>
 
+![](images/FreeCAD-Ship-S60ShipCreationFront.png )
+
 
 <div class="mw-translate-fuzzy">
 
@@ -64,6 +75,8 @@ Length annotations.
 </div>
 
 De obicei, lungimea dintre perpendiculare depinde de schița proiectului, deci dacă nu știți care este lungimea navei dvs. puteți seta schița și potriviți lungimea pentru a obține arcul și cursa intersecție.
+
+![](images/FreeCAD-Ship-S60ShipCreationSide.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -97,20 +110,19 @@ Când apăsați butonul **Accept** programul crează noua Ship instance numită 
 
 </div>
 
+## Tutoriale
+
 
 <div class="mw-translate-fuzzy">
-
-De aici mi departe, trebuie să avem **Ship** selectată înainte de a executa orice instrument FreeCAD-Ship .
-
-
-</div>
-
-## Tutoriale
 
 -   [FreeCAD-Ship s60 tutorial ](FreeCAD-Ship_s60_tutorial.md)
 -   [FreeCAD-Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II).md)
 
-\|[Ship Geometries Examples Loader](Ship_Geometries_Examples.md) \|[Lines drawing](Ship_Outline.md) \|[Ship](Ship_Workbench.md) \|IconL=Ship\_Load.svg \|IconC=Workbench\_Ship.svg \|IconR=Ship\_OutlineDraw.svg }}
+
+</div>
+
+
+
 
 
 {{Ship_Tools_navi

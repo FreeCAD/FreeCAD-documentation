@@ -67,19 +67,32 @@ Both of these options support the automatic insertion of various pieces of infor
 
 Any other characters are treated literally. If the resulting filename is illegal it will be changed on saving, with illegal characters replaced by the underscore (\_).
 
+### Sketcher Constraint Label Colors 
+
+The label in Sketcher that displays the current status of the constraints (e.g. \"Underconstrained,\" \"Overconstrained,\" \"Fully Constrained,\" etc.) is styleable on a per-state basis either using the Qt stylesheet, or via user preferences. User preferences take precedence if they have been set (in **Mod/Sketcher/General**):
+
+-   **EmptySketchMessageColor** - Defaults to 50% opacity black
+-   **UnderconstrainedMessageColor** - Defaults to black
+-   **MalformedConstraintMessageColor** - Defaults to red
+-   **ConflictingConstraintMessageColor** - Defaults to red
+-   **RedundantConstraintMessageColor** - Defaults to orange red
+-   **PartiallyRedundantConstraintMessageColor** - Defaults to royal blue
+-   **SolverFailedMessageColor** - Defaults to red
+-   **FullyConstrainedMessageColor** - Defaults to green
+
 ## Mouse related 
 
--   **General/ComboBoxWheelEventFilter** (boolean) : Set to `True` so widgets do not catch mouse wheel event and prevent scrollable areas to be scrolled.
--   **View/GestureMoveThreshold** (integer) : the distance (px) mouse cursor has to move to enter rotation or pan modes of Gesture navigation style. Default is 5.
--   **View/GestureRollFwdCommand**, **View/GestureRollBackCommand** (string) : commands to be executed by mouse button roll gestures of Gesture navigation style.
--   **View/GestureTapHoldTimeout** (integer) : sets for how long to wait (in milliseconds) to enter pan mode in Gesture navigation style. It can be helpful to increase it if dragging geometry in sketcher is difficult. Default is 700.
+-   **General/ComboBoxWheelEventFilter** (boolean): Set to `True` so widgets do not catch mouse wheel event and prevent scrollable areas to be scrolled.
+-   **View/GestureMoveThreshold** (integer): the distance (px) mouse cursor has to move to enter rotation or pan modes of Gesture navigation style. Default is 5.
+-   **View/GestureRollFwdCommand**, **View/GestureRollBackCommand** (string): commands to be executed by mouse button roll gestures of Gesture navigation style.
+-   **View/GestureTapHoldTimeout** (integer): sets for how long to wait (in milliseconds) to enter pan mode in Gesture navigation style. It can be helpful to increase it if dragging geometry in sketcher is difficult. Default is 700.
 
 ## Keyboard Shortcuts 
 
 ### Escape Key 
 
--   **General/TasksKeyEsc** (boolean) : Create and set to `False` to disable the **ESC** key exiting the _.
--   **Mod/Sketcher/ViewKeyEsc** (boolean) : Create and set to `False` to disable **ESC** key issues with pressing one to many times, when escaping sketcher geometry/constraints creation continue mode (see [forum thread](https://forum.freecadweb.org/viewtopic.php?f=3&t=42207&start=60#p367584))
+-   **General/TasksKeyEsc** (boolean): Create and set to `False` to disable the **ESC** key exiting the _.
+-   **Mod/Sketcher/ViewKeyEsc** (boolean): Create and set to `False` to disable **ESC** key issues with pressing one to many times, when escaping sketcher geometry/constraints creation continue mode (see [forum thread](https://forum.freecadweb.org/viewtopic.php?f=3&t=42207&start=60#p367584))
 
 ## Specific Workbenches 
 

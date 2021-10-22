@@ -23,7 +23,8 @@ Known field of application of crown gears:
 
 :   ![](images/Crown-Gear_example.png )
 :   
-    *Above: Crown gear*
+    
+*Above: Crown gear*
     
 
 ## Anwendung

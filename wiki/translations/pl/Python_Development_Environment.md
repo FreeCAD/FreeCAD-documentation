@@ -132,7 +132,7 @@ integrated compiler, interpreter, or both
 
 <td>
 
-The Python compiler is integrated with the Python console but not with the editors
+the Python compiler is integrated with the Python console but not with the editors
 
 
 </td>
@@ -255,11 +255,11 @@ N/A
 
 Many tools exist to support the above function for Python programming but unfortunately they do not integrate with the FreeCAD development environment.
 
-A list of IDEs for Python is located at [Integrated Development Environments for Python](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments)
+A list of IDEs for Python is located at [Integrated Development Environments for Python](https://wiki.python.org/moin/IntegratedDevelopmentEnvironments).
 
 ## Editors
 
-There is an editor for Python as part of FreeCAD, it is started by clicking the Edit button on the Macro-\>Macros\... If you want to use a 3rd party editor which takes advantage of your platform then there are various Python editors available, for numerous platforms and with a variety of level of functionality. One advantage of using an external editor is that the display area of FreeCAD can be used for output (both graphic and textual to the console) while the source code is displayed in a different application. A list of editors for Python for a variety of platforms is available at [Python Editors](https://wiki.python.org/moin/PythonEditors)
+There is an editor for Python as part of FreeCAD, it is started by clicking the Edit button on the Macro -\> [Macros\...](Std_DlgMacroExecute.md). If you want to use a 3rd party editor which takes advantage of your platform then there are various Python editors available, for numerous platforms and with a variety of level of functionality. One advantage of using an external editor is that the display area of FreeCAD can be used for output (both graphic and textual to the console) while the source code is displayed in a different application. A list of editors for Python for a variety of platforms is available at [Python Editors](https://wiki.python.org/moin/PythonEditors)
 
 Note: For the Macintosh the text editor [TextWrangler](http://www.barebones.com/products/textwrangler/) works well. It has code highlighting and excellent search facilities. There are options to execute jobs in Python but of course they do not work with the FreeCAD environment.
 
@@ -278,7 +278,9 @@ By default these two directories are the same location but this is not necessary
 
 Editing files located in the \"MacroPath\" is straight forward, the text editor will accommodate this. For ease of use of FreeCAD Macro files, it is advisable to keep all the macro files in the directory pointed to by \"MacroPath\".
 
-To alter the \"MacroPath\" directory, use Tools-\>Edit Parameters and then select Preferences/Macro/MacroPath where the text may be double-clicked and edited. Alternatively \"MacroPath\" can be altered by the code: 
+To alter the \"MacroPath\" directory, use Tools-\>Edit Parameters and then select Preferences/Macro/MacroPath where the text may be double-clicked and edited. Alternatively \"MacroPath\" can be altered by the code:
+
+
 ```python
 FreeCAD.ParamGet('User parameter:BaseApp/Preferences/Macro').SetString('MacroPath','/me/myself/and/I')
 ```
@@ -288,7 +290,7 @@ FreeCAD.ParamGet('User parameter:BaseApp/Preferences/Macro').SetString('MacroPat
 
 **'''A debugger is planned for FreeCAD and these steps are a work-around until it is available. See github.com/mumme74/FreeCAD/tree/editor_fixes'''**
 
-_ typically provide two main features (amongst others):
+[Debuggers](https://en.wikipedia.org/wiki/Debugger) typically provide two main features (among others):
 
 -   breakpoints in the source code
 -   variable inspection
@@ -314,14 +316,22 @@ def breakpoint(*args):
         FreeCAD.Console.PrintMessage('Breakpoint: '+str(args[0])+"\n")
     hereWeStop = 12/0
     
-``` **Console Traceback**
+```
+
+**Console Traceback**
 
 When a program fails during execution, Python generates what is known as a traceback which lists the order of program execution (i.e. which program called which program in which order).
 
-For the code sample 
+For the code sample
+
+
 ```python
 breakpoint('amalgamation routine')
-``` we get the following traceback: 
+```
+
+we get the following traceback:
+
+
 ```python
 Breakpoint: amalgamation routine
 Traceback (most recent call last):
@@ -330,7 +340,9 @@ Traceback (most recent call last):
   File "/Users/wylbur/Library/Preferences/FreeCAD/myNewMacro.FCMacro", line 28, in breakpoint
     hereWeStop = 12/0
 ZeroDivisionError: integer division or modulo by zero
-``` Reading the traceback we can determine that:
+```
+
+Reading the traceback we can determine that:
 
 -   a message of \'Breakpoint: amalgamation routine\' was sent by the breakpoint which has the string \'amalgamation routine\'
 -   the execution error occurred at line 28 of module \'myNewMacro\'
@@ -344,36 +356,58 @@ To become productive with these breakpoints, continue on to the next section.
 
 The second main feature of a debugger is to examine and possibly alter the contents of variables. Once again, until the FreeCAD debugger for Python is ready we have to depend on work-arounds.
 
-A feature of the FreeCAD system is the provision of global variables. These variables that are created by the Python code and exist in FreeCAD\'s memory until the user Quits from FreeCAD. The form of these variables is: 
+A feature of the FreeCAD system is the provision of global variables. These variables that are created by the Python code and exist in FreeCAD\'s memory until the user quits from FreeCAD. The form of these variables is:
+
+
 ```python
 FreeCAD.myVariable = 123
-``` The statement creates a Python variable in the FreeCAD memory which is fully accessible to Python code, in fact it behaves identically to a normal Python variable. Yet after the Python code finishes running, no matter if it is running as a macro or through the console, there will be a variable \'FreeCAD.myVariable\' remaining in memory with the value of 123. Entering: 
+```
+
+The statement creates a Python variable in the FreeCAD memory which is fully accessible to Python code, in fact it behaves identically to a normal Python variable. Yet after the Python code finishes running, no matter if it is running as a macro or through the console, there will be a variable \'FreeCAD.myVariable\' remaining in memory with the value of 123. Entering:
+
+
 ```python
 >>> FreeCAD.myVariable
 123
-``` will produce the contents of the variable on the console. This value will remain in FreeCAD until either it is changed or the user Quits from FreeCAD. This means the value is present and available for a subsequent Python program to read from. At any time it can be checked from the console by typing it\'s name. So a program called \'Program A\': 
+```
+
+will produce the contents of the variable on the console. This value will remain in FreeCAD until either it is changed or the user Quits from FreeCAD. This means the value is present and available for a subsequent Python program to read from. At any time it can be checked from the console by typing it\'s name. So a program called \'Program A\':
+
+
 ```python
 # program A
 myListVariable = list()
 myListVariable.append(123)
 myListVariable.append('abc')
 FreeCAD.myVariable = myListVariable
-``` can run and load values into the global variable. Later a second program called \'Program B\' can run and retrieve the value: 
+```
+
+can run and load values into the global variable. Later a second program called \'Program B\' can run and retrieve the value:
+
+
 ```python
 myOtherVariable = FreeCAD.myVariable
 # further calculations involving myOtherVariable
-``` Presumably \'Program B\' then goes on to make calculations involving the values left in FreeCAD.myVariable. At any time the user can type on the console to inspect the variable contents: 
+```
+
+Presumably \'Program B\' then goes on to make calculations involving the values left in FreeCAD.myVariable. At any time the user can type on the console to inspect the variable contents:
+
+
 ```python
 >>> FreeCAD.myVariable
 [123, 'abc']
 >>> 
-``` An important fact to be aware of with FreeCAD global variables is that they exist in memory and are lost when the program is Quit from. They are not saved with documents but only exist in memory.
+```
+
+An important fact to be aware of with FreeCAD global variables is that they exist in memory and are lost when the program is Quit from. They are not saved with documents but only exist in memory.
 
 ### Usage
 
 This brings us to a point where we can put the two steps together and use them to trace down errors in code. This is a bit cumbersome to use but is only the option until the FreeCAD debugger is ready.
 
-It\'s probably easiest to present through an example, say the following program is being debugged: 
+It\'s probably easiest to present through an example, say the following program is being debugged:
+
+
 ```python
 def monthCounter():
     # program to calculate the number of months in the year
@@ -385,11 +419,19 @@ def monthCounter():
     numberOfMonths = temporaryVariable1 - numberOfCompassPoints
     #
     FreeCAD.Console.PrintMessage(numberOfMonths)
-``` Execution of the program on the console yields: 
+```
+
+Execution of the program on the console yields:
+
+
 ```python
 >>> monthCounter()
 10
-``` which is not what we expected! Assuming we are unable to see the errors we can use our unsophisticated breakpoint and variable examiner as follows. We can insert a line to copy the value of the variable we are wondering about to a global variable, then we can place a breakpoint to halt execution there: 
+```
+
+which is not what we expected! Assuming we are unable to see the errors we can use our unsophisticated breakpoint and variable examiner as follows. We can insert a line to copy the value of the variable we are wondering about to a global variable, then we can place a breakpoint to halt execution there:
+
+
 ```python
 def monthCounter():
     # program to calculate the number of months in the year
@@ -403,7 +445,11 @@ def monthCounter():
     numberOfMonths = temporaryVariable1 - numberOfCompassPoints
     #
     FreeCAD.Console.PrintMessage(numberOfMonths)
-``` Now when we run the program we get: 
+```
+
+Now when we run the program we get:
+
+
 ```python
 >>> monthCounter()
 Breakpoint: is this assignment faulty?
@@ -413,20 +459,36 @@ Traceback (most recent call last):
   File "<input>", line 5, in breakpoint
 ZeroDivisionError: integer division or modulo by zero
 >>> 
-``` Probably things don\'t look so good, but what we can now do is inspect the value of the Python variable \'temporaryVariable1\' as we assigned it\'s value to the global variable \'FreeCAD.saveMyVariable\': 
+```
+
+Probably things don\'t look so good, but what we can now do is inspect the value of the Python variable \'temporaryVariable1\' as we assigned it\'s value to the global variable \'FreeCAD.saveMyVariable\':
+
+
 ```python
 >>> FreeCAD.saveMyVariable
 15
 >>>
-``` Remembering that the variable \'FreeCAD.saveMyVariable\' holds the value of the Python variable \'temporaryVariable1\' we can now determine the error in the value and start tracing back to determine where the error came from. When we are looking at \'FreeCAD.saveMyVariable\' it is important to realise that the variable \'temporaryVariable1\' is no longer available - it has been garbage collected away by the Python system.
+```
 
-Once the error has been located in the statement 
+Remembering that the variable \'FreeCAD.saveMyVariable\' holds the value of the Python variable \'temporaryVariable1\' we can now determine the error in the value and start tracing back to determine where the error came from. When we are looking at \'FreeCAD.saveMyVariable\' it is important to realise that the variable \'temporaryVariable1\' is no longer available - it has been garbage collected away by the Python system.
+
+Once the error has been located in the statement
+
+
 ```python
 numberOfSeasons = 3
-``` and corrected to: 
+```
+
+and corrected to:
+
+
 ```python
 numberOfSeasons = 4
-``` Then we can run the program again, and get the value of \'11\' which is still not right. We can make more assignments to FreeCAD global variables, have multiple breakpoints (although the first one encountered will stop execution) 
+```
+
+Then we can run the program again, and get the value of \'11\' which is still not right. We can make more assignments to FreeCAD global variables, have multiple breakpoints (although the first one encountered will stop execution)
+
+
 ```python
 def monthCounter():
     # program to calculate the number of months in the year
@@ -442,14 +504,20 @@ def monthCounter():
     breakpoint('second assignment')
     #
     FreeCAD.Console.PrintMessage(numberOfMonths)
-``` We now have two breakpoints (although one is commented out) and two FreeCAD global variables in use. There is no practical limit to the global variables available from FreeCAD so there is no need to economise unnecessarily. We can now produce the following on the console: 
+```
+
+We now have two breakpoints (although one is commented out) and two FreeCAD global variables in use. There is no practical limit to the global variables available from FreeCAD so there is no need to economise unnecessarily. We can now produce the following on the console:
+
+
 ```python
 >>> FreeCAD.saveMyVariable1
 10
 >>> FreeCAD.saveMyVariable2
 11
 >>> 
-``` Some points about the use of the FreeCAD global variables:
+```
+
+Some points about the use of the FreeCAD global variables:
 
 -   Python treats these variables identically to any other Python variable
 -   these variables may hold any Python data type - anything a regular Python variable would hold
@@ -472,7 +540,9 @@ When developing small pieces of Python code in FreeCAD it may be sufficient to u
 
 An easier approach is to take the Python code and instead of starting it from the FreeCAD Macro menu, start it from a toolbar. A Python routine linked to a button on a toolbar may be executed by one click. Also as the toolbars are floating windows they do not clutter the on-screen display. In fact if the FreeCAD window is less then the physical size of the screen the toolbar may be left to float outside of the FreeCAD window. This is beneficial when screen snapshots are required of the FreeCAD display. Also the toolbar can be much smaller than the macro control window displayed by the Macro menu of FreeCAD.
 
-Connecting a macro to a button on a toolbar is covered in [How to Install Macros](How_to_install_macros.md) and [How to Customise a Toolbar](Customize_Toolbars.md). It can take a number of minutes to connect a macro to button on toolbar, select an icon etc. This is not always required as sometimes you simply want to quickly flesh out a piece of code which will then be integrated in some other code. For this situation a Test Stub can be beneficial. There is no real definition for what a test stub would entail, it really depends on the person and the application area. An example is shown below: 
+Connecting a macro to a button on a toolbar is covered in [How to Install Macros](How_to_install_macros.md) and [How to Customise a Toolbar](Customize_Toolbars.md). It can take a number of minutes to connect a macro to button on toolbar, select an icon etc. This is not always required as sometimes you simply want to quickly flesh out a piece of code which will then be integrated in some other code. For this situation a Test Stub can be beneficial. There is no real definition for what a test stub would entail, it really depends on the person and the application area. An example is shown below:
+
+
 ```python
 #
 #           TEST
@@ -506,11 +576,13 @@ QtGui.QMessageBox.information(None,"","Test Stub")
 ##########################################################################################
 ##########################################################################################
 ##########################################################################################
-``` This test stub also serves as a template for code with locations defined for the different aspects of a large Python program. When executed the test stub program simply generates a message showing it\'s name and finishes. In using a test stub, any main line code written is placed at the very end of the file with code for class definition, functions etc. placed in the previous sections. The template can easily be altered to match the situation. Obviously for a program of 5 lines there is no need for such an amount of documentation.
+```
 
-By keeping a button permanently on a toolbar and linking that button to the test sub, there is always an area to write code and execute it immediately. The execution will be independent of the Python console. Also the execution can be independent of the screen GUI. Output from the program under development will appear as it should on the screen without any other artifacts from the programming environment. The Python console can be hidden to increase display area or used for any other purpose if needed. When execution is handled by the button on the toolbar the console is not required.
+This test stub also serves as a template for code with locations defined for the different aspects of a large Python program. When executed the test stub program simply generates a message showing it\'s name and finishes. In using a test stub, any main line code written is placed at the very end of the file with code for class definition, functions etc. placed in the previous sections. The template can easily be altered to match the situation. Obviously for a program of 5 lines there is no need for such an amount of documentation.
 
-When the code is finished then is can simply be copied/pasted over to another file and the text stub left empty until the next time it is needed.
+By keeping a button permanently on a toolbar and linking that button to the test stub, there is always an area to write code and execute it immediately. The execution will be independent of the Python console. Also the execution can be independent of the screen GUI. Output from the program under development will appear as it should on the screen without any other artifacts from the programming environment. The Python console can be hidden to increase display area or used for any other purpose if needed. When execution is handled by the button on the toolbar the console is not required.
+
+When the code is finished then is can simply be copied/pasted over to another file and the test stub left empty until the next time it is needed.
 
 Multiple pieces of code can be developed using the same test stub with some extra code for providing multiple buttons which is located at [PySide Beginner Examples - More Than 2 Buttons](PySide_Beginner_Examples#More_Than_2_Buttons.md).
 
@@ -520,7 +592,7 @@ For more support using the PySide GUI there is the page [PySide](PySide.md)
 
 **More Python Programming Support**
 
-For more assistance with Python coding, there is a macro written to aid in developing Python code, is it located at [Python Assistant Window](Macro_Python_Assistant_Window.md)
+For more assistance with Python coding, there is a macro written to aid in developing Python code, it is located at [Python Assistant Window](Macro_Python_Assistant_Window.md).
 
 ## Putting It All Together 
 
@@ -549,7 +621,7 @@ Some other links about IDEs for Python which might be of interest are:
 -   [PyCharm Community Edition IDE](http://www.jetbrains.com/pycharm/)
 
 
- 
+
 
 _ _
 

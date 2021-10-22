@@ -18,6 +18,7 @@ Lo strumento **Simmetria** riflette una funzione su un piano. A partire da v0.17
 ![](images/PartDesign_Mirrored_example.svg )
 
 
+
 *Sopra, a sinistra è stata creata una funzione Tasca da uno schizzo contenente un cerchio (A), poi la Tasca è stata utilizzata per creare una funzione Simmetria. Come asse di simmetria è stato utilizzato l'asse verticale dello schizzo (B). A destra è mostrato il risultato (C).*
 
 ## Utilizzo

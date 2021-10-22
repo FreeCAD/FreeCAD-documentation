@@ -16,6 +16,7 @@ Les objets Part sont plus complexes que les objets maillés créés avec [l\'ate
 <img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;">
 
 
+
 *L'atelier Part est la couche de base qui expose les fonctions de dessin OCCT à tous les ateliers de FreeCAD.*
 
 ## Les outils 

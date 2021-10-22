@@ -13,10 +13,12 @@
 
 Der Befehl **Std Über** öffnet ein Dialogfenster, das Informationen über das FreeCAD Programm anzeigt.
 
-![](images/Help-About-Dropdown-screenshot.png ) *Aktiviere den Über Dialog über **Hilfe → <img src="images/Std_About.svg" width=16px> Über FreeCAD
+![](images/Help-About-Dropdown-screenshot.png ) 
+*Aktiviere den Über Dialog über **Hilfe → <img src="images/Std_About.svg" width=16px> Über FreeCAD
 ***
 
-![](images/Std_About_example.png ) *Das Über FreeCAD Dialogfeld*
+![](images/Std_About_example.png ) 
+*Das Über FreeCAD Dialogfeld*
 
 
 **'''ACHTUNG''': Mache kein Bildschirmfoto von diesem Dialogfeld! Drücke  stattdessen die Schaltfläche **In die Zwischenablage kopieren** und füge die Informationen in deine Hilfeanfrage ein.**

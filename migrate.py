@@ -142,6 +142,18 @@ class MediaWiki:
         return mods
 
 
+    def getWorkbench(self,page):
+        
+        """getWorkbench(page):
+        Returns the workbench this page belongs to"""
+
+        if not ("Workbench" in page):
+            for w in self.workbenches:
+                if page.replace(" ","_").startswith(w+"_"):
+                    return w
+        return None
+
+
     ### CACHE OPERATIONS
 
 
@@ -357,7 +369,9 @@ class MediaWiki:
         # perfomr only one big query (cmcontinue is bugged)
         result = self.session.get(url=self.url, params=params)
         data = result.json()
-        members.extend([m["title"] for m in data["query"]["categorymembers"]])
+        for m in data["query"]["categorymembers"]:
+            if ("title" in m) and m["title"]:
+                members.append(m["title"])
         return members
 
         # cmcontinue is apparently bugged in categorymembers...
@@ -638,13 +652,11 @@ class MediaWiki:
         footer = "\n\n---\n"
         footer += "[documentation index](../"+self.rootpage+")"
         c = self.getPageCategory(page)
-        if c:
+        w = self.getWorkbench(page)
+        if c and (c != w):
             footer += breadcrumb + "[" + c + "](Category_" + c + ".md)"
-        if not ("Workbench" in page):
-            for w in self.workbenches:
-                if page.replace(" ","_").startswith(w+"_"):
-                    footer += breadcrumb + "[" + w + "](" + w + "_Workbench.md)"
-                    break
+        if w:
+            footer += breadcrumb + "[" + w + "](" + w + "_Workbench.md)"
         footer += breadcrumb + page.replace("_"," ") + "\n"
         mdtext += footer
         return mdtext
@@ -666,8 +678,7 @@ class MediaWiki:
 
         # templates that are safe to remove entirely
         unusedtemplates = ["Userdocnavi","Arch Tools navi","\\#translation:","clear",
-                           "Part Tools navi","Draft Tools navi",
-                          ]
+                           "Part Tools navi","Draft Tools navi"]
 
         # path replacements
         result = re.sub("\!\[(.*?)\]\(",r"![\1]("+imagepath+"/",result) # add /image to image paths
@@ -682,8 +693,10 @@ class MediaWiki:
         result = re.sub("{{\\\#translation\:}}","",result,flags=flags)
         result = re.sub("{{UnfinishedDocu.*?}}","",result,flags=flags)
 
+        # templates that get turned into italic text
+        result = re.sub("{{Caption\|(.*?)}}",r"\n*\1*",result,flags=flags)
+
         # templates that get turned into bold text
-        result = re.sub("{{Caption\|(.*?)}}",r"*\1*",result,flags=flags)
         result = re.sub("{{KEY\|(.*?)}}",r"**\1**",result,flags=flags)
         result = re.sub("{{Button\|(.*?)}}",r"**\1**",result,flags=flags)
         result = re.sub("{{MenuCommand\|(.*?)}}",r"**\1**",result,flags=flags)

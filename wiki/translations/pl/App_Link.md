@@ -10,6 +10,7 @@ _ z mniejszych złożeń podrzędnych i z wielu ponownie używanych komponentów
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Uproszczony schemat zależności pomiędzy głównymi obiektami w programie. Obiekt `App::Link* jest głównym składnikiem systemu, nie zależy on od żadnego środowiska pracy, a może być użyty z większością obiektów stworzonych we wszystkich środowiskach pracy.`
 
 ## Użycie

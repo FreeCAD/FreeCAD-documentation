@@ -21,6 +21,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 :   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width:80px;">
 
 
+
 *Une barre de renforcement hélicoïdale continue à l'intérieur d'une [Arch Structure](Arch_Structure/fr.md)*
 
 ## Utilisation
@@ -46,6 +47,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 9.  Cliquez sur **Cancel** pour quitter le panneau de tâches.
 
 :   <img alt="" src=images/HelicalRebarDialog.png  style="width:250px;">
+
 
 
 *Panneau de tâches pour l'outil Arch Armature hélicoïdale*

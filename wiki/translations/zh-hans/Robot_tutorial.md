@@ -16,7 +16,8 @@
 
 </div>
 
-![](images/Robot_Tutorial_RobotSimulation.gif ) *Final result of this tutorial*
+![](images/Robot_Tutorial_RobotSimulation.gif ) 
+*Final result of this tutorial*
 
 ## 开始之前
 

@@ -15,7 +15,8 @@ La commande **Std Axes** bascule les axes du repère dans la [vue 3D](3D_view/fr
 
 Les axes du repère se composent de trois flèches représentant les axes positifs X, Y et Z du système de coordonnées global. Leur point de départ commun est l\'origine du système de coordonnées global.
 
-![](images/Std_AxisCross_example.svg ) *Les axes du repère (les lettres ne font pas partie du repère)*
+![](images/Std_AxisCross_example.svg ) 
+*Les axes du repère (les lettres ne font pas partie du repère)*
 
 ## Utilisation
 

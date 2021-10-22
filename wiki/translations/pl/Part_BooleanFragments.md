@@ -16,6 +16,7 @@ Tool to compute all fragments that can result from applying Boolean operations b
 ![600px](images/Part_BooleanFragments_Demo.png)
 
 
+
 *In the image above, the pieces were moved apart manually afterwards, to reveal the slicing.*
 
 The output shape is always a compound. The content of the compound depends on input shape types and operation mode. That means, you don\'t immediately get access to individual pieces of the result - the pieces remain grouped together. The individual pieces can be extracted by exploding the compound ([Draft Downgrade](Draft_Downgrade.md)).

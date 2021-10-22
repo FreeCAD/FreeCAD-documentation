@@ -14,7 +14,8 @@
 
 Il comando **Vista dall\'alto** orienta la fotocamera della [Vista 3D](3D_view/it.md) che guarda dall\'alto verso il basso, nella direzione dell\'asse Z negativo.
 
-![](images/FreeCAD_views_front.svg ) *La freccia 2 punta nella direzione della vista dall'alto.*
+![](images/FreeCAD_views_front.svg ) 
+*La freccia 2 punta nella direzione della vista dall'alto.*
 
 ## Utilizzo
 

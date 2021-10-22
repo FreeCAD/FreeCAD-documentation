@@ -40,6 +40,7 @@ The features can be placed in different categories:
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Diagramma semplificato delle relazioni tra gli oggetti principali del programma. Gli oggetti `PartDesign::Feature* sono usati per costruire solidi 3D parametrici e quindi sono derivati dall'oggetto base {{incode|Part::Feature`.}}
 
 ## Script

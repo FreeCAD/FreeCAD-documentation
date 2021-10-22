@@ -38,6 +38,7 @@ Lo strumento Sposta può essere utilizzato su forme 2D create con [Draft](Draft_
 <div class="mw-translate-fuzzy">
 
 
+
 *Spostare un oggetto da un punto a un altro*
 
 

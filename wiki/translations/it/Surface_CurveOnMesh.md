@@ -18,6 +18,7 @@ These edges created on top of the mesh may be further used to re-create the surf
 ![](images/Surface_CurveOnMesh_surface_example.png )
 
 
+
 *Above left: mesh object with selected points on the surface. Above right: splines created by picking several points on the mesh. Lower left: a parametric surface reconstructed from the approximated splines, using [Surface Sections](Surface_Sections.md).*
 
 ## Utilizzo

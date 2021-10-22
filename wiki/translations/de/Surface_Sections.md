@@ -18,6 +18,7 @@ is used to create a surface from edges that represent transversal sections of a 
 <img alt="" src=images/Surface_Sections_edges_example.png  style="width:" height="250px;"> <img alt="" src=images/Surface_Sections_example.png  style="width:" height="250px;">
 
 
+
 *Left: control edges (transversal sections). Right: surface produced from these edges.*
 
 ## Anwendung

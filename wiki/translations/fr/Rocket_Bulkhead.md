@@ -29,13 +29,15 @@ Les cloisons peuvent comporter une marche.
 
 Une marche peut être considérée comme une cloison supplémentaire de plus petit diamètre empilée sur le dessus de la cloison d\'origine. L\'utilisation la plus courante est de boucher l\'extrémité d\'un tube du corps, comme pour une baie électronique. Dans ce cas, le diamètre extérieur de la cloison correspondrait au diamètre extérieur du tube du corps et le diamètre extérieur de la marche correspondrait au diamètre intérieur du tube du corps.
 
-![](images/Stepped_Bulkhead.png ) *Une cloison étagée utilisée pour boucher un tube du corps*
+![](images/Stepped_Bulkhead.png ) 
+*Une cloison étagée utilisée pour boucher un tube du corps*
 
 ### Trous
 
 Une cloison peut nécessiter des trous pour diverses raisons, telles que la fixation d\'un crochet à œil. Cet outil vous permet de spécifier un ou plusieurs trous identiques appliqués selon un schéma radial.
 
-![](images/Bulkhead_2.png ) *Une cloison étagée à 4 trous*
+![](images/Bulkhead_2.png ) 
+*Une cloison étagée à 4 trous*
 
 ## Propriétés
 

@@ -25,7 +25,8 @@ Diese Methode fängt die Endpunkte von Linien oder Kanten.
 
 </div>
 
-![](images/Draft_Snap_Endpoint_example.png ) *Fangen des zweiten Punkts einer Linie am Endpunkt einer Kante*
+![](images/Draft_Snap_Endpoint_example.png ) 
+*Fangen des zweiten Punkts einer Linie am Endpunkt einer Kante*
 
 ## Anwendung
 

@@ -17,7 +17,8 @@
 
 Добавляет свойства материала к детали.
 
-![](images/FEMMaterialSolidProperties.png ) *The FEM material task panel*
+![](images/FEMMaterialSolidProperties.png ) 
+*The FEM material task panel*
 
 ## Использование
 

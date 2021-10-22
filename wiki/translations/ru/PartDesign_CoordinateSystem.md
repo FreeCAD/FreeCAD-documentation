@@ -12,7 +12,8 @@
 
 ## Описание
 
-Creates a **local coordinate system** which can be used as reference for other datum geometry. It also helps identify the orientation of the referenced datum geometry in 3D space. ![](images/PartDesign_LocalCoordinateSystem_Example.png ) *Local coordinate system originating out of a datum plane's origin.*
+Creates a **local coordinate system** which can be used as reference for other datum geometry. It also helps identify the orientation of the referenced datum geometry in 3D space. ![](images/PartDesign_LocalCoordinateSystem_Example.png ) 
+*Local coordinate system originating out of a datum plane's origin.*
 
 ## Применение
 

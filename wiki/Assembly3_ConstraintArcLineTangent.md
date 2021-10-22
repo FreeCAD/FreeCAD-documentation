@@ -9,11 +9,9 @@
 
 ## Description
 
-The **<img src="images/Assembly_ConstraintArcLineTangent.svg" width=16px> [Arc line tangent](Assembly3_ConstraintArcLineTangent.md)** commands builds a link between two objects of an assembly. The selected elements of each object or more precisely their implicit coordinate systems (ICS) are used to position one object to another.
+The **<img src="images/Assembly_ConstraintArcLineTangent.svg" width=16px> [Arc line tangent](Assembly3_ConstraintArcLineTangent.md)** command builds a link between two objects of an assembly. The selected elements of each object or more precisely their implicit coordinate systems (ICS) are used to position one object to another.
 
-Since I couldn't get this tool working here's just the statement of the tool tip: 
-
-Add an \"Arc line tangent\" constraint to make a line tangent to an arc at the start or end point of the arc.
+Since I couldn\'t get this tool working here\'s just the statement of the tool tip: Add an \"Arc line tangent\" constraint to make a line tangent to an arc at the start or end point of the arc.
 
 ## Usage
 

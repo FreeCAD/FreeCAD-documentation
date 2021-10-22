@@ -27,6 +27,7 @@ Per iniziare è necessario scaricare ed [installare](Installing/it.md) FreeCAD. 
 <div class="mw-translate-fuzzy">
 
 
+
 *Interfaccia standard di FreeCAD nella versione 0.19.*
 
 

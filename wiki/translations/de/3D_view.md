@@ -11,6 +11,7 @@ Bestimmte Eigenschaften der Ansicht, wie Hintergrundfarbe, [Mausnavigation](Mous
 <img alt="" src=images/FreeCAD_3D_view.png  style="width:600px;">
 
 
+
 *Die [Arbeitsbereich Entwurf](3D_view]]_ist_ein_Bestandteil_der_FreeCAD__[[interface]]. Standardmäßig zeigt sie ein kleines Widget mit Koordinatenachsen und den Navigationswürfel ebenfalls mit Koordinatenachsen; das Raster kann durch Laden der [[Draft Workbench/de.md) angezeigt und konfiguriert werden.*
 
 ## Maßnahmen

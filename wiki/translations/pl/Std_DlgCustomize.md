@@ -15,6 +15,7 @@ The **Std DlgCustomize** command opens the Customize dialog box giving access to
 ![](images/Std_DlgCustomize_tab_Toolbars.png )
 
 
+
 *The Customize dialog box*
 
 ## Usage

@@ -53,7 +53,8 @@ Più parti si aggiungono, più è importante mantenere la traccia. A2plus offre 
 
 Quando si crea un vincolo, dopo aver premuto un pulsante della barra degli strumenti dei vincoli, viene visualizzata questa finestra di dialogo:
 
-![](images/A2p_ConstraintPropertiesDialog.png ) *Sopra: la finestra di dialogo Proprietà del vincolo di A2plus*
+![](images/A2p_ConstraintPropertiesDialog.png ) 
+*Sopra: la finestra di dialogo Proprietà del vincolo di A2plus*
 
 Per alcuni vincoli, consente di modificare la direzione del vincolo. Con il pulsante **<img src="images/A2p_solver.svg" width=24px> Solve** si può verificare in anteprima se questo nuovo vincolo può essere risolto con A2plus. In caso contrario, dare un\'occhiata alla sezione [Risoluzione dei problemi](#Risoluzione_dei_problemi.md).
 
@@ -356,6 +357,7 @@ Dragging animations are interactive since you trigger it by dragging a part of t
 Here is an example assembly to try out the dragging animation: [A2p\_example-for-dragging-animation.FCStd](https://forum.freecadweb.org/download/file.php?id=99204)
 
 ![](images/A2p_dragging-animation-result.gif )
+
 
 
 *Above: The dragging animation using the example assembly*

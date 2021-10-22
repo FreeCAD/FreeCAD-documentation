@@ -17,7 +17,8 @@ Les engrenages cycloïdaux sont très sensibles à un ajustement inexact de la d
 
 :   ![](images/Cycloid-Gear_example_1.png )
 :   
-    *De gauche à droite: Engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal*
+    
+*De gauche à droite: Engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal*
     
 
 ## Utilisation

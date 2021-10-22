@@ -13,7 +13,8 @@
 
 The **Std DlgMacroExecute** command opens the Execute macro dialog box. From this dialog box macros can be executed, edited and managed.
 
-![](images/Std_DlgMacroExecute_dialog.png ) *The Execute macro dialog box*
+![](images/Std_DlgMacroExecute_dialog.png ) 
+*The Execute macro dialog box*
 
 ## Применение
 

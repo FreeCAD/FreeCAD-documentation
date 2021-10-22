@@ -15,7 +15,8 @@ Bevor [FCZahnrad Arbeitsbereich](FCGear_Workbench/de.md) gestartet werden kann, 
 
 :   ![](images/FCGear_Drop-down-menu_example-en.png )
 :   
-    *Das FCZahnrad Aufklappmenü*
+    
+*Das FCZahnrad Aufklappmenü*
     
 
 ## Zahnradarten
@@ -24,49 +25,56 @@ Bevor [FCZahnrad Arbeitsbereich](FCGear_Workbench/de.md) gestartet werden kann, 
 
 :   ![](images/Involute-Gear_example.png )
 :   
-    *Von links nach rechts: Geradverzahnung, Schrägverzahnung, Pfeilverzahnung (siehe [FCZahnrad EvolventenZahnrad](FCGear_InvoluteGear/de.md))*
+    
+*Von links nach rechts: Geradverzahnung, Schrägverzahnung, Pfeilverzahnung (siehe [FCZahnrad EvolventenZahnrad](FCGear_InvoluteGear/de.md))*
     
 
 ### Evolventen Zahnstange 
 
 :   ![](images/Involute-Rack_example.png )
 :   
-    *Von links nach rechts: Geradverzahnung, Schrägverzahnung, Pfeilverzahnung (siehe [FCZahnrad EvolventenZahnstange](FCGear_InvoluteRack/de.md))*
+    
+*Von links nach rechts: Geradverzahnung, Schrägverzahnung, Pfeilverzahnung (siehe [FCZahnrad EvolventenZahnstange](FCGear_InvoluteRack/de.md))*
     
 
 ### Zykloidenzahnrad
 
 :   ![](images/Cycloid-Gear_example_1.png )
 :   
-    *von links nach rechts : Geradverzahnung, Schrägverzahnung, Pfeilverzahnung (siehe [FCZahnrad ZykloidenZahnrad](FCGear_CycloideGear/de.md))*
+    
+*von links nach rechts : Geradverzahnung, Schrägverzahnung, Pfeilverzahnung (siehe [FCZahnrad ZykloidenZahnrad](FCGear_CycloideGear/de.md))*
     
 
 ### Kegelzahnrad
 
 :   ![](images/Bevel-Gear_example.png )
 :   
-    *Von links nach rechts: Geradeverzahnung, Spiralverzahnung (siehe [FCGetriebe KegelZahnrad](FCGear_BevelGear/de.md))*
+    
+*Von links nach rechts: Geradeverzahnung, Spiralverzahnung (siehe [FCGetriebe KegelZahnrad](FCGear_BevelGear/de.md))*
     
 
 ### Schneckenzahnrad
 
 :   ![](images/Worm-Gear_example.png )
 :   
-    *Oben: Schneckenzahnrad (siehe [FCGetriebe SchneckenZahnrad ](FCGear_WormGear/de.md))*
+    
+*Oben: Schneckenzahnrad (siehe [FCGetriebe SchneckenZahnrad ](FCGear_WormGear/de.md))*
     
 
 ### Kronenzahnrad
 
 :   ![](images/Crown-Gear_example.png )
 :   
-    *Oben: Kronenzahnrad (siehe [FCGetriebe KronenZahnrad](FCGear_CrownGear/de.md))*
+    
+*Oben: Kronenzahnrad (siehe [FCGetriebe KronenZahnrad](FCGear_CrownGear/de.md))*
     
 
 ### Gleichlaufzahnrad und Triebstockzahnrad 
 
 :   ![](images/Timing+Latern-gear_example.png )
 :   
-    *Von links nach rechts: Gleichlaufverzahnung, Triebstockverzahnung (siehe [FCGetriebe GleichlaufZahnrad](FCGear_TimingGear/de.md) oder [FCGear TriebstockZahnrad](FCGear_LanternGear.md))*
+    
+*Von links nach rechts: Gleichlaufverzahnung, Triebstockverzahnung (siehe [FCGetriebe GleichlaufZahnrad](FCGear_TimingGear/de.md) oder [FCGear TriebstockZahnrad](FCGear_LanternGear.md))*
     
 
 ## Referenzen

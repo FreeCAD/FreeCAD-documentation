@@ -10,6 +10,7 @@ Die Python-Konsole in FreeCAD verfügt über eine grundlegende Syntaxhervorhebun
 <img alt="" src=images/FreeCAD_Python_console.png  style="width:800px;">
 
 
+
 *Die Python Konsole zeigt Meldungen an, wenn FreeCAD gerade gestartet wurde.*
 
 ## Skripten
@@ -29,6 +30,7 @@ Die Python Konsole kann grundlegende Code Vervollständigung durchführen, wenn 
 Die Konsole ist auch in der Lage, den Dokumentationsstring einer bestimmten Funktion anzuzeigen, wenn die öffnende Klammer geschrieben wird, z.B. `function(`
 
 <img alt="" src=images/FreeCAD_Python_console_example.png  style="width:800px;">
+
 
 
 *Beispiel Python Code, der Objekte in der 3D Ansicht erzeugt.*

@@ -96,7 +96,8 @@ For complex constraints between parts A2plus might fail to solve the constraints
 
 </div>
 
-![](images/A2p_ConstraintPropertiesDialog.png ) *Above: The A2plus Constraint Properties Dialog*
+![](images/A2p_ConstraintPropertiesDialog.png ) 
+*Above: The A2plus Constraint Properties Dialog*
 
 For certain constraints it allows you to modify the constraint direction. With the button **<img src="images/A2p_solver.svg" width=24px> Solve** you can check beforehand if this new constraint can be solved by A2plus. If not, have a look at section [Troubleshooting](#Troubleshooting.md).
 

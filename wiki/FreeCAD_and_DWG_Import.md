@@ -5,17 +5,54 @@
 
 The **DWG format is a closed source binary file format** that is not directly supported by FreeCAD. It requires an external 3rd party file converter to first convert then import the conversion into FreeCAD for use.
 
-Note that at this time, it is not possible to import 3D DWG in FreeCAD. 3D data is embedded as binary .SAT (ACIS) data, a proprietary and undocumented format.
+## What do I need to be able to import DWG files? 
 
-## What Do I Need To Be Able To Import DWG Files? 
+### LibreDWG
 
-### ODA Converter (formerly Teigha Converter) 
+GNU LibreDWG is a free C library to handle DWG files. It aims to be a free replacement for the Open Design Alliance Drawings SDK libraries. Be aware that, since libreDWG is a work-in-progress, it lacks support for some DWG entities.
+
+-   homepage: <https://www.gnu.org/software/libredwg/>
+-   license: GPLv2-or-later
+-   optional, used to enable import and export of DWG files
+
+#### Installation Windows 
+
+LibreDWG can be configured to work on Windows by downloading and unzipping the appropriate [pre-compiled windows binary](https://github.com/LibreDWG/libredwg/releases) and [adding the folder to your Windows versions system path](https://duckduckgo.com/?t=ffab&q=how+to+add+a+folder+to+your+windows+system+path).
+
+#### Installation Linux/Unix systems 
+
+git clone [https://git.savannah.gnu.org/git/libredwg.git](https://git.savannah.gnu.org/git/libredwg.git)
+cd libredwg
+mkdir build
+cd build
+cmake ..
+make
+make install (or use checkinstall, or simply locate & copy the dwg2dxf utility to your executables path, it will be then autodetected by FreeCAD)
+
+#### Installation openSUSE 
+
+To prevent problems you must use LibreDWG package compiled for the installed openSUSE OS distribution. LibreDWG is typically installed with **YAST** (abbr. Yet another Setup Tool), the Linux operating system\'s setup and configuration tool.
+
+The more experienced user first gets an overview of possible packages provided. **Note:** openSUSE has several options to choose from when downloading LibreDWG. To view these options, visit [Survey of provided LibreDWG packages on openSUSE](https://software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=libredwg).
+
+For e.g. Intel or AMD 64-bit desktops, laptops, and servers the (x86\_64) release is the one to select. So **libredwg0** and **libredwg-tools** are of the right choice to install.
+
+It is recommended to grab the binary packages directly. Then select the correct distribution for your installed openSUSE OS.
+
+In any terminal/console (root rights required) the installation will be carried out with:
+
+ 
+```python
+zypper install libredwg0 libredwg-tools
+```
+
+### ODA File Converter 
 
 -   homepage: <https://www.opendesign.com/guestfiles/oda_file_converter>
 -   license: freeware
 -   optional, used to enable import and export of DWG files
 
-The ODA Converter is a small freely available utility that allows to convert between several versions of DWG and DXF files. FreeCAD can use it to offer DWG import and export, by converting DWG files to the DXF format under the hood,then using its standard DXF importer to import the file contents. The restrictions of the [DXF importer](Draft_DXF.md) apply.
+The ODA File Converter is a small freely available utility that allows to convert between several versions of DWG and DXF files. FreeCAD can use it to offer DWG import and export, by converting DWG files to the DXF format under the hood,then using its standard DXF importer to import the file contents. The restrictions of the [DXF importer](Draft_DXF.md) apply.
 
 #### Installation
 
@@ -43,69 +80,22 @@ ODAFileConverter \"/home/dwg-data\" \"/home/dxf-data\" \"ACAD2010\" \"DXF\" \"0\
 **Example for Windows**
 \"C:\\Program Files\\ODA\\Teigha File Converter 3.08.2\\TeighaFileConverter.exe\" \"Path-To-Input-Directory\" \"Path-To-Output-Directory\" \"ACAD2010\" \"DXF\" \"0\" \"1\" \"Name-Of-A-Test-File.dwg\"
 
+### QCAD pro 
+
+
+<small>(v0.20)</small> 
+
+-   homepage: <https://qcad.org/en/qcad-command-line-tools#dwg2dwg>
+-   license: commercial
+-   optional, used to enable import and export of DWG files
+
 ### CADExchanger Workbench 
 
 Installing the CADExchanger Workbench allows for working with DWG files through integration with the paid commercial file converter product [CADExchanger](https://cadexchanger.com/). Just follow the instructions in the [GitHub repository](https://github.com/yorikvanhavre/CADExchanger). You can discuss this workbench on [its forum thread](https://forum.freecadweb.org/viewtopic.php?f=9&t=22227&p=462421).
 
 At the moment, the CADExchanger way is the only one that allows to work with 3D DWG files, by converting them to other 3D formats.
 
-## FreeCAD v0.19 and LibreDWG 
-
-As from 0.19, FreeCAD doesn\'t need the ODA converter anymore and can use libreDWG directly. Be aware that, since libreDWG is a work-in-progress, depending on your file, the results might not be the same.
-
--   homepage: <https://www.gnu.org/software/libredwg/>
--   license: GPLv2-or-later
--   optional, used to enable import and export of DWG files
-
-GNU LibreDWG is a free C library to handle DWG files. It aims to be a free replacement for the Open Design Alliance Drawings SDK libraries.
-
-## Installation 
-
-### AppImage releases 
-
-LibreDWG is included in v 0.19\_pre appimages[1](https://forum.freecadweb.org/viewtopic.php?f=8&t=39827&start=20#p372933)
-
-### Windows
-
-LibreDWG can be configured to work on Windows by downloading and unzipping the appropriate [pre-compiled windows binary](https://github.com/LibreDWG/libredwg/releases) and [adding the folder to your Windows versions system path](https://duckduckgo.com/?t=ffab&q=how+to+add+a+folder+to+your+windows+system+path).
-
-### Linux/Unix systems 
-
-git clone [https://git.savannah.gnu.org/git/libredwg.git](https://git.savannah.gnu.org/git/libredwg.git)
-cd libredwg
-mkdir build
-cd build
-cmake ..
-make
-make install (or use checkinstall, or simply locate & copy the dwg2dxf utility to your executables path, it will be then autodetected by FreeCAD)
-
-### openSUSE
-
-To prevent from program execution problems you must use LibreDWG package compiled for the installed openSUSE OS distribution. LibreDWG is typically installed with **YAST** (abbr. Yet another Setup Tool), the Linux operating system\'s setup and configuration tool.
-
-The more experienced user first gets an overview of possible packages provided. **Note:** openSUSE has several options to choose from when downloading LibreDWG. To view these options, visit [Survey of provided LibreDWG packages on openSUSE](https://software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=libredwg).
-
-For e. g. Intel or AMD 64-bit desktops, laptops, and servers the (x86\_64) release is the one to select. So, **libredwg0** and **libredwg-tools** are of the right choice to install.
-
-It is recommended to grab the binary packages directly. Then select the correct distribution for your installed openSUSE OS.
-
-In any terminal/console (root rights required) the installation will be carried out with:
-
-
-
-:   
-    
-```python
-    zypper install libredwg0 libredwg-tools
-    
-```
-    
-
-
-
-Afterwards every \*.dwg file import should work properly.
-
-## What Are The Alternatives? 
+## What are the alternatives? 
 
 ### DoubleCAD XT 
 
@@ -115,13 +105,13 @@ There is also DoubleCAD XT (https://www.turbocad.com/content/doublecad-xt-v5). T
 
 There is also nanoCAD 5.0 (https://nanocad.com/products/nanoCAD/download/). The program is free for personal and commercial use. It requires a free sign-up to receive an activation code via E-Mail. This Program is windows-only.
 
-### Export Your AutoCAD files in Friendly Format 
+### Export your AutoCAD files in friendly format 
 
 Exporting your AutoCAD files in a more FreeCAD friendly format, like DXF R12 or R14, SVG, and if version supports it, IGES. All are better alternatives to the DWG format when using FreeCAD.
 
-It is important to know that, contrarily to popular belief, there is no difference between the contents of a file saved in DWG or DXF formats, provided it is the same version (ex. DWG 2014 vs. DXF 2014). Both formats are maintained by Autodesk, and they both support exactly the same features. The difference is that DWG is closed (machine-encoded) while DXF is open.
+It is important to note that there is no difference between the contents of a file saved in DWG or DXF formats, provided it is the same version (ex. DWG 2014 vs. DXF 2014). Both formats are maintained by Autodesk, and they both support exactly the same features. The difference is that DWG is closed (machine-encoded) while DXF is open.
 
-## What Can I Do To Help? 
+## What can I do to help? 
 
 ### Promote the use of alternative formats 
 

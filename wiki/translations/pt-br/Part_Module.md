@@ -25,6 +25,7 @@ Os objetos das peças são mais complexos que os objetos de malha criados com a 
 <img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;">
 
 
+
 *A bancada de trabalho é a camada básica que expõe as funções de desenho do OCCT a todas as bancadas de trabalho do FreeCAD.*
 
 ## Ferramentas

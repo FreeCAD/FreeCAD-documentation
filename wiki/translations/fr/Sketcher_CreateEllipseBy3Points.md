@@ -19,6 +19,7 @@ Lors du lancement de l\'outil, le pointeur de la souris change pour une croix bl
 ![](images/Ellipse_3Point.png‎ )
 
 
+
 *La séquence de clics est indiquée par des flèches jaunes numérotées. 1 est la périapside, 2 l'apoapside, 3 définit le point du diamètre mineur, les lignes vertes sont les diamètres majeur et mineur. Les lignes bleues sont des lignes de construction aléatoires à des fins d'illustration.*
 
 ## Utilisation

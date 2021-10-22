@@ -53,10 +53,16 @@ La imagen de arriba muestra dos objetos de eje diferentes posicionados perpendic
 
 ## Opciones
 
+
+<div class="mw-translate-fuzzy">
+
 -   Cada eje en la sucesión tiene su propia distancia y ángulo en relación con el eje previo. Esto permite crear sistemas muy complejos como sistemas no ortogonales, sistemas polares o culquier tipo de sistemas no uniformes.
 -   Hacer doble clic en el eje en la vista en árbol permite editar las distancias, los ángulos y las etiquetas de cada eje
 -   La longitud de los ejes, el tamaño de los globos y los estilos de numeración se pueden personalizar directamente por medio de las propiedades de los sistemas de ejes
 -   Cada eje también puede mostrar una etiqueta, también editable a través del diálogo del panel de tareas
+
+
+</div>
 
 ## Propiedades
 
@@ -152,4 +158,4 @@ FreeCAD.ActiveDocument.recompute()
 _
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Axis/es
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/es

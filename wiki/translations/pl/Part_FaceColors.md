@@ -49,7 +49,8 @@ Aby zresetować wszystkie kolory powierzchni:
 
 1.  Kliknij w opcję **Ustaw na domyślne**. Spowoduje to ustawienie kolorów wszystkich powierzchni części na kolor domyślny. Przycisk działa od razu, tzn. nie można powstrzymać efektu za pomocą przycisku **Anuluj**.
 
-![](images/Part_FaceColors-dialog.png ) *Okno dialogowe kolor powierzchni*
+![](images/Part_FaceColors-dialog.png ) 
+*Okno dialogowe kolor powierzchni*
 
 
 

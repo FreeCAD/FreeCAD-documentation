@@ -17,7 +17,8 @@
 
 Der <img alt="" src=images/Draft_Edit.svg  style="width:16px;"> **Entwurf Bearbeiten** Befehl versetzt ausgewählte Objekte in den Entwurf bearbeiten Modus. In diesem Modus können die Eigenschaften von Objekten grafisch bearbeitet werden. Typischerweise können Knoten verschoben werden und in einigen Fällen können Kontextmenüoptionen ausgewählt werden. Der Befehl kann die meisten Entwurfsobjekte, aber auch einige andere Objekte bearbeiten. Siehe [Unterstützte Objekte](#Unterstützte_Objekte.md). Unterstützte Entwurfsobjekte können auch mit dem Befehl [Std Berabeiten](Std_Edit/de.md) in den Entwurf Bearbeitungsmodus versetzt werden.
 
-![](images/Draft_Edit_example.png ) *4 Objekte im Entwurfsbearbeitungsmodus: ein Entwurf Draht (rot), ein Entwurf Bogen (schwarz), ein Entwurf BSpline (grün) und ein Entwurf BezKurve (magenta)*
+![](images/Draft_Edit_example.png ) 
+*4 Objekte im Entwurfsbearbeitungsmodus: ein Entwurf Draht (rot), ein Entwurf Bogen (schwarz), ein Entwurf BSpline (grün) und ein Entwurf BezKurve (magenta)*
 
 ## Anwendung
 
@@ -61,8 +62,14 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 ### Hauptaufgabenpaneel
 
+
+<div class="mw-translate-fuzzy">
+
 -   Drücke **O** oder die **_ Schließen** Schaltfläche, um den Befehl zu beenden. Wenn ein einzelner [Entwurf Draht](Draft_Wire/de.md) ausgewählt wurde, wird der Draht geschlossen.
 -   Drücke **Esc** oder die **Schliessen** Schaltfläche, um den Befehl zu beenden.
+
+
+</div>
 
 ### Knoten Aufgabenpaneel 
 

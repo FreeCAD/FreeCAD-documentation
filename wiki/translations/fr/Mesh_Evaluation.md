@@ -12,7 +12,8 @@
 
 La commande **Mesh Evaluation** évalue et répare un objet maillé.
 
-![](images/Mesh_Evaluation_dialog.png ) *La boîte de dialogue Evaluer et réparer le maillage avec l'option Folds (plis) active sur la surface activée*
+![](images/Mesh_Evaluation_dialog.png ) 
+*La boîte de dialogue Evaluer et réparer le maillage avec l'option Folds (plis) active sur la surface activée*
 
 ## Utilisation
 

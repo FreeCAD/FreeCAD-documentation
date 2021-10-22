@@ -15,7 +15,8 @@ Das [Arch Struktur](Arch_Structure/de.md)-Werkzeug ermöglicht die Konstruktion 
 
 Falls kein Profil angegeben wurde, ist eine Anzahl von Voreinstellungen verfügbar, die eine schnelle Errichtung von Strukturelementen aus einem vordefinierten Standardprofil erlaubt.
 
-![](images/Arch_Structure_example.jpg ) *Ein Träger basierend auf einem 2D-Profil; eine Stütze und ein Träger definiert durch Höhe, Länge und Breite, ohne ein Basisprofil; eine metallische Struktur basierend auf einer 2D-Oberfläche*.
+![](images/Arch_Structure_example.jpg ) 
+*Ein Träger basierend auf einem 2D-Profil; eine Stütze und ein Träger definiert durch Höhe, Länge und Breite, ohne ein Basisprofil; eine metallische Struktur basierend auf einer 2D-Oberfläche*.
 
 ## Anwendung
 
@@ -69,7 +70,8 @@ zwei Zeichenmodi: Säule und Träger:
 
 Das Struktur-Werkzeug bietet auch eine Reihe von Voreinstellungen, die die schnelle Erstellung von standardisierten Metallprofilen oder vorgefertigten Betonelementen erlauben.
 
-![](images/Arch_presets_example.jpg ) *Einige Voreinstellungen für Stahlstrukturen*
+![](images/Arch_presets_example.jpg ) 
+*Einige Voreinstellungen für Stahlstrukturen*
 
 Die Voreinstellungen erhält man durch Auswahl einer **Kategorie** aus dem \"Optionen Struktur\"-Panel. Verfügbare Kategorien sind **Precast concrete** oder eins der Industriestandard-Metallprofile wie etwa **HEA**, **HEB** pder **INP**. Für jede dieser Kategorien ist eine Anzahl von Voreinstellungen verfügbar. Sobald eine Voreinstellung ausgewählt wurde, können die individuellen Parameter wie **Länge**, **Breite** oder **Höhe** angepasst werden. Allerdings wird bei Metallprofilen die Profilgröße durch die Voreinstellungen vorgegeben und kann nicht geändert werden.
 
@@ -126,4 +128,4 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Structure/de
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/de

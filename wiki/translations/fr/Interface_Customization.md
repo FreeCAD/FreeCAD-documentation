@@ -5,7 +5,8 @@
 
 L\'interface FreeCAD est basée sur la boîte à outils [Qt](https://fr.wikipedia.org/wiki/Qt) et possède une organisation de pointe. Certains aspects de l\'interface peuvent être personnalisés. Vous pouvez, par exemple, ajouter des barres d\'outils personnalisées avec des outils de plusieurs ateliers ou des outils définis dans des macros et vous pouvez créer vos propres raccourcis clavier. Mais les menus et barres d\'outils par défaut fournis avec FreeCAD et ses ateliers ne peuvent pas être modifiés.
 
-![](images/Std_DlgCustomize_tab_Toolbars.png ) *La boite de dialogue de personnalisation de l'interface*
+![](images/Std_DlgCustomize_tab_Toolbars.png ) 
+*La boite de dialogue de personnalisation de l'interface*
 
 ## Utilisation
 
@@ -23,7 +24,8 @@ Dans la boîte de dialogue Personnaliser, les onglets suivants sont disponibles:
 
 ### Commandes
 
-![](images/Std_DlgCustomize_tab_Commands.png ) *L'onglet Commandes*
+![](images/Std_DlgCustomize_tab_Commands.png ) 
+*L'onglet Commandes*
 
 Avec cet onglet, vous pouvez parcourir les commandes disponibles.
 
@@ -39,7 +41,8 @@ Avec cet onglet, vous pouvez parcourir les commandes disponibles.
 
 ### Clavier
 
-![](images/Std_DlgCustomize_tab_Keyboard.png ) *L'onglet Clavier*
+![](images/Std_DlgCustomize_tab_Keyboard.png ) 
+*L'onglet Clavier*
 
 Dans cet onglet, des raccourcis clavier personnalisés peuvent être définis. Les raccourcis des macro-commandes peuvent être définis dans l\'onglet [Macros](#Macros.md).
 
@@ -75,7 +78,8 @@ Dans cet onglet, des raccourcis clavier personnalisés peuvent être définis. L
 
 ### Ateliers
 
-![](images/Std_DlgCustomize_tab_Workbenches.png ) *L'onglet Ateliers*
+![](images/Std_DlgCustomize_tab_Workbenches.png ) 
+*L'onglet Ateliers*
 
 Dans cet onglet, la liste des [Ateliers](Std_Workbench/fr.md) peut être modifiée. La liste **Ateliers activés** affiche les Ateliers tels qu\'ils apparaîtront dans le sélecteur d\'Ateliers.
 
@@ -110,7 +114,8 @@ Dans cet onglet, la liste des [Ateliers](Std_Workbench/fr.md) peut être modifi�
 
 ### Barre d\'outils 
 
-![](images/Std_DlgCustomize_tab_Toolbars.png ) *L'onglet Barres d'outils*
+![](images/Std_DlgCustomize_tab_Toolbars.png ) 
+*L'onglet Barres d'outils*
 
 Dans cet onglet, des barres d\'outils personnalisées peuvent être créées et modifiées.
 
@@ -176,7 +181,8 @@ Dans cet onglet, des barres d\'outils personnalisées peuvent être créées et 
 
 ### Macros
 
-![](images/Std_DlgCustomize_tab_Macros.png ) *L'onglet Macros*
+![](images/Std_DlgCustomize_tab_Macros.png ) 
+*L'onglet Macros*
 
 Avec cet onglet, les commandes de macro utilisateur peuvent être configurées. Une fois configurés, ils peuvent être ajoutés à des barres d\'outils personnalisées. FreeCAD utilise un dossier dédié pour les macros dutilisateurs et seules les macros de ce dossier peuvent être configurées. Utilisez la commande <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std Lancer la macro](Std_DlgMacroExecute/fr.md) pour rechercher ce dossier sur votre système.
 

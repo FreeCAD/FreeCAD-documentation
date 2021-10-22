@@ -64,7 +64,13 @@ Aplicando una restricción horizontal o vertical, o una restricción angular (re
 
 Múltiples objetos pueden ser restringidos con respecto a otro. Dos líneas se pueden unir por uno de sus puntos con la restricción de coincidencia de puntos. Un ángulo se puede definir entre ellas, o se pueden establecer como perpendiculares. Una línea puede ser tangente a un arco o a una circunferencia, etc. Un Croquis complejo puede tener diferentes soluciones y **restringir completamente** significa encontrar una de esas posibles soluciones mediante el uso de restricciones.
 
+
+<div class="mw-translate-fuzzy">
+
 Existen dos tipos de restricciones: geométricas y dimensionales. Ambas son explicadas en la sección [\#Las herramientas](#Las_herramientas.md) más abajo.
+
+
+</div>
 
 #### What the Sketcher is not good for 
 
@@ -102,7 +108,7 @@ Una vez que un Bosquejo está totalmente restringido, las características del B
 
 </div>
 
-## The tools 
+## Tools
 
 
 <div class="mw-translate-fuzzy">
@@ -461,7 +467,13 @@ Las siguientes herramientas pueden utilizarse para cambiar el efecto de las rest
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Cambiar el espacio virtual](Sketcher_SwitchVirtualSpace/es.md): Permite ocultar todas las restricciones de un boceto y hacerlas visibles de nuevo.
 
+
+<div class="mw-translate-fuzzy">
+
 ### Preferencias
+
+
+</div>
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Preferencias](Sketcher_Preferences/es.md): Preferencias para el ambiente de trabajo *Croquis*.
 

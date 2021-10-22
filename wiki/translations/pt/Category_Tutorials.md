@@ -5,7 +5,7 @@ Special pages are [Offsite tutorials/pt](Offsite_tutorials/pt.md) and [Video tut
 
 ### Contents:
 
-_
+_ , [Video tutorials/pt](Video_tutorials/pt.md)
 
 _
 

@@ -16,6 +16,7 @@ Werkzeug zum Berechnen aller Fragmente, die sich aus der Anwendung boolescher Op
 ![600px](images/Part_BooleanFragments_Demo.png)
 
 
+
 *Auf dem obigen Bild wurden die Teile anschließend manuell auseinandergezogen, um die Schnitte zu erkennen.*
 
 Die Ausgabeform ist immer eine Verbund. Der Inhalt des Verbunds hängt von den Eingangsformtypen und der Betriebsart ab. Das bedeutet, dass du nicht sofort Zugriff auf einzelne Teile des Ergebnisses hast - die Teile bleiben gruppiert. Die einzelnen Stücke können durch Auflösen der Verbindung entnommen werden ([Entwurf Herabstufen](Draft_Downgrade/de.md)).

@@ -20,7 +20,8 @@ Lantern gear wheel with roller chains are a cost-effective and robust alternativ
 
 :   ![](images/Latern_Gear_example.png )
 :   
-    *Above: Lantern gear*
+    
+*Above: Lantern gear*
     
 
 ## Usage

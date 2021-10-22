@@ -16,6 +16,7 @@
 ![](images/PartDesign_Boolean_example.png )
 
 
+
 *Links der aktive Körper (A) mit den Werkzeugkörpern (B) und (C); Rechts das Ergebnis nach dem Ausführen der Booleschen Operation Differenz.*
 
 ## Anwendung

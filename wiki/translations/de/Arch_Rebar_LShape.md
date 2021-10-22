@@ -36,6 +36,7 @@ Dieser Befehl ist Teil des _ über das Menü **Werkzeuge → Addon-Manager → R
 :   <img alt="" src=images/LShapeDialog.png  style="width:250px;">
 
 
+
 *Aufgaben-Ansicht für das Arch Bewehrungsstab L-förmig-Werkzeug*
 
 ## Eigenschaften

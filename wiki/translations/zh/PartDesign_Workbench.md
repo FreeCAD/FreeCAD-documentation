@@ -194,7 +194,7 @@ Some additional functionality found in the Part Design menu:
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Set colors](Part_FaceColors.md): assigns colors to part faces.
 
-### Preferences
+## Preferences
 
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Preferences](PartDesign_Preferences.md): preferences available for PartDesign Tools.
 -   [Fine tuning](Fine-tuning.md): some extra parameters to fine-tune PartDesign behavior.

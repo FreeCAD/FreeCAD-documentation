@@ -17,9 +17,11 @@ Les outils Gmsh et Netgen prennent en charge les corps de maillage créés avec 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;">
 
 
+
 *L'atelier FEM appelle l'outil externe Gmsh pour obtenir un maillage à partir d'un corps solide créé avec n'importe quel atelier dans FreeCAD ; il peut aussi importer un maillage créé en externe*
 
 <img alt="" src=images/FEM_Mesh.png  style="width:600px;">
+
 
 
 *(1) Corps solide créé avec PartDesign ; (2) maillage produit par l'outil Gmsh à l'intérieur de l'atelier FEM (tous les triangles) ; et (3) un maillage produit en externe par Gmsh, exporté au format Abaqus {{FileName|.inp*, puis importé dans FreeCAD (tous les quadrangles).}}

@@ -14,7 +14,8 @@
 
 Il comando **Vista da destra** orienta la fotocamera della [Vista 3D](3D_view/it.md) che guarda da destra verso sinistra, nella direzione dell\'asse X negativo.
 
-![](images/FreeCAD_views_front.svg ) *La freccia 3 punta nella direzione della vista destra.*
+![](images/FreeCAD_views_front.svg ) 
+*La freccia 3 punta nella direzione della vista destra.*
 
 ## Utilizzo
 

@@ -21,6 +21,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 ![](images/Arch_Rebar_BeamReinforcement_example.png )
 
 
+
 *Renforcement de poutres à l'intérieur d'une poutre [Arch Structure](Arch_Structure/fr.md)*
 
 ## Utilisation
@@ -34,6 +35,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 :   <img alt="" src=images/BeamReinforcementDialog_Stirrups.png  style="width:700px;">
 
 
+
 *Boîte de dialogue de l'outil Arch Rebar BeamReinforcement*
 
 4\. Sélectionnez le type de ferraillage souhaité.
@@ -43,6 +45,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 6\. Cliquez sur **Next** et la boîte de dialogue sera mise à jour comme indiqué ci-dessous.
 
 :   <img alt="" src=images/BeamReinforcementDialog_TopRebars.png  style="width:700px;">
+
 
 
 *Boîte de dialogue pour les données Top Rebars*
@@ -82,6 +85,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 :   <img alt="" src=images/BeamReinforcementDialog_BottomRebars.png  style="width:700px;">
 
 
+
 *Boîte de dialogue pour les données Bottom Rebars*
 
 9\. Définissez des données pour les barres d\'armature inférieures similaires aux données des barres d\'armature supérieures.
@@ -89,6 +93,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 10\. Cliquez sur **Next** et la boîte de dialogue sera mise à jour comme indiqué ci-dessous.
 
 :   <img alt="" src=images/BeamReinforcementDialog_LeftRebars.png  style="width:700px;">
+
 
 
 *Boîte de dialogue pour les données des barres de cisaillement à gauche*
@@ -122,6 +127,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 12\. Cliquez sur **Next** et la boîte de dialogue sera mise à jour comme indiqué ci-dessous.
 
 :   <img alt="" src=images/BeamReinforcementDialog_RightRebars.png  style="width:700px;">
+
 
 
 *Boîte de dialogue pour les données des barres de cisaillement à droite*

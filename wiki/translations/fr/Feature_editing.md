@@ -64,6 +64,7 @@ Une différence fondamentale entre FreeCAD et d\'autres programmes, tels que Cat
 <img alt="" src=images/PartDesign_Body_non-contiguous.png  style="width:550px;">
 
 
+
 *Différence entre Catia et FreeCAD. A gauche: Catia permet aux corps d'être déconnectés des caractéristiques précédentes du corps. Dans FreeCAD, cela provoque une erreur. A droite: la nouvelle fonctionnalité doit toujours être en contact ou intersecter la précédente de sorte qu'elle soit fusionnée avec elle et devienne un corps unique.*
 
 ## Géométries de référence 
@@ -83,6 +84,7 @@ Les esquisses et les plans de référence doivent être attachés aux plans de b
 Même s\'ils ne sont pas utilisés pour supporter des esquisses, les objets de référence sont toujours utiles en tant qu\'indicateurs visuels pour attirer l\'attention sur des caractéristiques ou des distances importantes dans le processus de modélisation. (Cependant, le simple fait d\'ajouter une géométrie à une esquisse fournit également un retour visuel similaire.)
 
 <img alt="" src=images/PartDesign_Body_non-contiguous_slanted.png  style="width:550px;">
+
 
 
 *Différence entre Catia et FreeCAD. A gauche: Catia permet aux corps d'être déconnectés des caractéristiques précédentes du corps. Dans FreeCAD, cela provoque une erreur. A droite : la nouvelle fonctionnalité doit toujours être en contact ou intersecter la précédente, de sorte qu'elle soit fusionnée avec elle et devienne un corps unique. Dans cet exemple, le nouveau solide est basé sur un plan de référence qui tourne autour de l'axe des ordonnées.*

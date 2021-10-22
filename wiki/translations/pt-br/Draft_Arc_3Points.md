@@ -3,6 +3,7 @@
    Name:Draft Arc 3Points
    MenuLocation:Drafting → Arc tools → Arc by 3 points
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut:**A** **T**
    Version:0.19
    SeeAlso:[Draft Arc](Draft_Arc.md), [Draft Circle](Draft_Circle.md)
 ---
@@ -25,6 +26,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Arc_3Points.svg" width=16px> [Draft Arc 3Points](Draft_Arc_3Points.md)** button.
     -   Select the **Drafting → Arc tools → <img src="images/Draft_Arc_3Points.svg" width=16px> Arc by 3 points** option from the menu.
+    -   Use the keyboard shortcut: **A** then **T**. <small>(v0.20)</small> 
 2.  The **Arc by 3 points** task panel opens. See [Options](#Options.md) for more information.
 3.  Pick the first point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 4.  Pick the second point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.

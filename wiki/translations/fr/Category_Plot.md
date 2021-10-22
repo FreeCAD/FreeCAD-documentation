@@ -3,7 +3,7 @@ Cette catégorie liste les pages en relation avec l\'[atelier Plot](Plot_Workben
 
 ### Contents:
 
-_
+_ , [Plot Workbench/fr](Plot_Workbench/fr.md)
 
 _
 

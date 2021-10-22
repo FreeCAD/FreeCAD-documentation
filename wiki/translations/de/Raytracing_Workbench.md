@@ -37,6 +37,7 @@ Die Arbeitsbereich Strahlverfolgung ist im Wesentlichen veraltet. Eine Neuentwic
 <img alt="" src=images/Raytracing_Workbench_workflow.svg  style="width:600px;">
 
 
+
 *Arbeitsablauf des Arbeitsbereichs Strahlverfolgung; der Arbeitsbereich bereitet eine Projektdatei aus einer bestimmten Vorlage vor und ruft dann ein externes Programm auf, um das eigentliche Rendering der Szene zu erstellen. Der externe Renderer kann unabhängig von FreeCAD verwendet werden..*
 
 ## Werkzeuge

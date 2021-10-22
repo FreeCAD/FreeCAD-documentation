@@ -13,7 +13,8 @@
 
 The **Std ViewFront** command points the camera in the active [3D view](3D_view.md) in the direction of the positive Y axis.
 
- ![](images/FreeCAD_views_front.svg )  *Arrow 1 points in the direction of the front view*
+ ![](images/FreeCAD_views_front.svg )  
+*Arrow 1 points in the direction of the front view*
 
 ## Usage
 

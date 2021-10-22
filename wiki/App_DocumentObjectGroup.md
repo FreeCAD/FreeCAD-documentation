@@ -10,6 +10,7 @@ It was developed to organize the objects in the [tree view](tree_view.md) in a w
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Simplified diagram of the relationships between the core objects in the program. The `App::DocumentObjectGroup* class has an extension that allows it to group any type of object; the Group itself doesn't have many properties.`
 
 ## Usage

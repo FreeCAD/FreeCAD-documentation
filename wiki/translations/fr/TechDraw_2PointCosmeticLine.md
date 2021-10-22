@@ -17,6 +17,7 @@ L\'outil Ligne cosmétique ajoute une ligne cosmétique par deux points. Les poi
 <img alt="" src=images/CosLine2PointsSample.png  style="width:200px;">
 
 
+
 *Ligne cosmétique par 2 points*
 
 ## Utilisation

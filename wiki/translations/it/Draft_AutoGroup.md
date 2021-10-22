@@ -31,6 +31,7 @@ This command was originally intended for groups, hence its name, but was redesig
 <div class="mw-translate-fuzzy">
 
 
+
 *Il vassoio di Draft che imposta il gruppo automatico attivo facendo clic sull'icona della cartella e scegliendo un gruppo
 *
 

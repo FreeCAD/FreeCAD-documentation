@@ -1,6 +1,6 @@
 # Plot Save/ro
 ---
-- GuiCommand:   Name:Plot Save   Workbenches:[[Plot Module   Plot]]|MenuLocation:Plot → Save plot---
+- GuiCommand:   Name:Plot Save   Workbenches:[[Plot_Workbench   Plot]]|MenuLocation:Plot → Save plot---
 
 
 </div>
@@ -31,7 +31,8 @@ Selectați fila de plotare pe care doriți să o salvați și rulați acest inst
 
 </div>
 
-![Path selection button](images/Plot_Save_Path.png‎ ) *Path selection button*
+![Path selection button](images/Plot_Save_Path.png‎ ) 
+*Path selection button*
 
 ## Options
 

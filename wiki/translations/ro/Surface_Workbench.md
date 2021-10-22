@@ -30,6 +30,7 @@ Scopul atelierului de lucru de suprafață este de a crea fațete cu forme care 
 <img alt="" src=images/Toy_Duck.png  style="width:350px;">
 
 
+
 *Surface created with sketches placed in datum planes with the tools of the [PartDesign Workbench](PartDesign_Workbench.md)*
 
 Atelierul suprafețe este integrat cu alte atelierele FreeCAD. Exemplul de mai sus a fost creat din [sketches](Sketcher_Workbench/ro.md) plasat pe [datum planes](PartDesign_Plane/ro.md) în [PartDesign workbench](PartDesign_Workbench/ro.md). Desegnul poate fi în întregime parametri, cânt toate planurile și scițele de referință sunt definite în acest sens.

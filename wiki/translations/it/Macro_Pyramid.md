@@ -27,6 +27,7 @@ Se si è interessati esiste l\'ambiente esterno [Pyramids\_and\_Polyhedrons](htt
 ![](images/Polyhedrons.png )
 
 
+
 *Esempio di creazione con il workbench esterno [https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons Pyramids_and_Polyhedrons] (github link) che contiene la stessa funzione.*
 
 

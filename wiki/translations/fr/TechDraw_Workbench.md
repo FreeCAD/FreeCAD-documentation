@@ -55,6 +55,20 @@ Ce sont des outils pour créer et gérer des objets de Rognages (vues découpée
 
 -   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Suppression vue à une fenêtre de rognage](TechDraw_ClipGroupRemove/fr.md): supprime une vue à une fenêtre de rognage.
 
+## Décorations
+
+Ce sont les outils pour décorer l\'apparence des pages et des vues.
+
+-   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Hachures par motif](TechDraw_Hatch/fr.md) : hachure une face en utilisant un fichier image.
+
+-   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Applique un motif de hachure](TechDraw_GeometricHatch/fr.md) : applique un motif de hachure à une face en utilisant une spécification Autodesk PAT.
+
+-   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ dans une page.
+
+-   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ dans une page.
+
+-   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Affichage des cadres](TechDraw_ToggleFrame/fr.md) : bascule l\'affichage des cadres et des étiquettes entourant une vue.
+
 ## Cotations
 
 Ce sont les outils pour créer et travailler avec des objets Dimension.
@@ -88,97 +102,10 @@ Les cotes linéaires peuvent être basées sur deux points, sur une ligne ou sur
 
 <div class="mw-translate-fuzzy">
 
-## Pack d\'extension 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Le pack d\'extension comprend de nombreux outils utiles pour améliorer vos dessins TechDraw.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-**Certains de ces outils ne sont pas encore disponibles.**
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Lignes centrales aux cercles](TechDraw_ExtensionCircleCenterLines/fr.md) : ajoute des lignes centrales aux cercles et aux arcs. {{Version/fr|0.20}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Filetage face trou](TechDraw_ExtensionThreadHoleSide/fr.md) : ajoute un filetage symbolique à la vue latérale d\'un trou. {{Version/fr|0.20}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Filetage face boulon](TechDraw_ExtensionThreadBoltSide/fr.md) : ajoute un filetage symbolique à la vue latérale d\'un boulon. {{Version/fr|0.20}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Filetage dessous trou](TechDraw_ExtensionThreadHoleBottom/fr.md) : ajoute des filetages symboliques à la vue inférieure des trous. {{Version/fr|0.20}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Filetage dessous boulon](TechDraw_ExtensionThreadBoltBottom/fr.md) : ajoute des filetages symboliques à la vue inférieure des boulons. {{Version/fr|0.20}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Import/Export
-
-
-</div>
-
-Ce sont les outils pour exporter les pages vers d\'autre applications.
-
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _.
-
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _.
-
-## Décorations
-
-Ce sont les outils pour décorer l\'apparence des pages et des vues.
-
--   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Hachures par motif](TechDraw_Hatch/fr.md) : hachure une face en utilisant un fichier image.
-
--   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Applique un motif de hachure](TechDraw_GeometricHatch/fr.md) : applique un motif de hachure à une face en utilisant une spécification Autodesk PAT.
-
--   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ dans une page.
-
--   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ dans une page.
-
--   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Affichage des cadres](TechDraw_ToggleFrame/fr.md) : bascule l\'affichage des cadres et des étiquettes entourant une vue.
-
 ## Annotation
+
+
+</div>
 
 Les outils d\'annotation permettent de \"marquer\" un dessin avec des informations supplémentaires.
 
@@ -210,6 +137,31 @@ Les outils d\'annotation permettent de \"marquer\" un dessin avec des informatio
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Symbole de soudure](TechDraw_WeldSymbol/fr.md) : ajoute des spécifications de soudage à une Ligne de référence existante. {{Version/fr|0.19}}
 
+## Extensions
+
+Ce sont des outils pour améliorer vos dessins TechDraw.
+
+
+**Certains de ces outils ne sont pas encore disponibles.**
+
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Lignes de centre cercles et arcs](TechDraw_ExtensionCircleCenterLines/fr.md) : ajoute des lignes de centre aux cercles et aux arcs. {{Version/fr|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Symbole filetage perçage](TechDraw_ExtensionThreadHoleSide/fr.md) : ajoute un symbole pour le filetage à la vue latérale d\'un trou. {{Version/fr|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Symbole filetage boulon](TechDraw_ExtensionThreadBoltSide/fr.md) : ajoute un symbole pour le filetage à la vue latérale d\'un boulon. {{Version/fr|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Symbole dessous perçage](TechDraw_ExtensionThreadHoleBottom/fr.md) : ajoute des filetages symboliques à la vue inférieure des trous. {{Version/fr|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Symbole dessous boulon](TechDraw_ExtensionThreadBoltBottom/fr.md) : ajoute des filetages symboliques à la vue inférieure des boulons. {{Version/fr|0.20}}
+
+## Exportation
+
+Ce sont les outils pour exporter les pages vers d\'autre applications.
+
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _.
+
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _.
+
 ## Fonctions supplémentaires 
 
 -   [Groupes de lignes](TechDraw_LineGroup/fr.md) : pour contrôler l\'apparence de divers types de lignes.
@@ -237,16 +189,10 @@ Les outils TechDraw peuvent être utilisés dans des [macros](Macros/fr.md) et �
 
 ## Tutoriels
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Tutoriel TechDraw de base](Basic_TechDraw_Tutorial/fr.md): introduction à la création de dessins avec l\'atelier TechDraw.
 -   [Comment créer un modèle](TechDraw_TemplateHowTo/fr.md): instructions pour créer un nouveau modèle de page dans Inkscape à utiliser avec l\'atelier TechDraw.
--   [Mesure des angles sur les axes des trous](Measurement_Of_Angles_On_Holes/fr.md): instructions pour ajouter des lignes centrales et des représentations angulaires ultérieures sur les trous.
+-   [Mesure des angles sur les axes des trous](Measurement_Of_Angles_On_Holes/fr.md): instructions pour ajouter des lignes de centre et des représentations angulaires ultérieures sur les trous.
 -   [Comment](TechDraw_HowTo_Page.md): instructions pour différents paramètres tels que les marques centrales etc\...
-
-
-</div>
 
 Tutoriels video par sliptonic
 

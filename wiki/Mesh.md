@@ -12,6 +12,7 @@ See [Mesh MeshObject](Mesh_MeshObject.md) for more information about this type o
 ![](images/Shape_and_mesh.svg )
 
 
+
 *Left: parametric _, defined by vertices and triangular surfaces.*
 
 ## Usage

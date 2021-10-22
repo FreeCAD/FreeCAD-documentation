@@ -11,7 +11,8 @@
 
 The <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> **Draft Snap Midpoint** option snaps to the midpoint of straight and circular edges. The edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
 
- ![](images/Draft_Snap_Midpoint_example.png )  *Snapping the second point of a line to the midpoint of an edge*
+ ![](images/Draft_Snap_Midpoint_example.png )  
+*Snapping the second point of a line to the midpoint of an edge*
 
 ## Usage
 

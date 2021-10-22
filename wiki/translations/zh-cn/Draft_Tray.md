@@ -11,7 +11,8 @@
 
 </div>
 
-![](images/Draft_tray_default.png ) *The Draft Tray*
+![](images/Draft_tray_default.png ) 
+*The Draft Tray*
 
 ## Available tools 
 

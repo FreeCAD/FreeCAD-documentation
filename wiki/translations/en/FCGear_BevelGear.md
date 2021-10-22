@@ -16,7 +16,8 @@ Spiral bevel gears have curved teeth to provide softer engagement and greater to
 
 :   ![](images/Bevel-Gear_example.png )
 :   
-    *From left to right: Spur gearing, spiral gearing*
+    
+*From left to right: Spur gearing, spiral gearing*
     
 
 ## Usage

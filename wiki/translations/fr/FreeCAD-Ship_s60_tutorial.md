@@ -382,7 +382,7 @@ Certaines données pertinentes sont affichées en temps réel:
 
 <div class="mw-translate-fuzzy">
 
-Lorsque le bouton \'\' \'Accepter\' \'\' est pressé, un tracé est effectué (en fonction de la complexité de la géométrie, cela peut prendre un certain temps, vous pouvez voir la progression sur le terminal et arrêter le travail en appuyant sur \'\'\'Ctrl + C \'\'). Lorsque la tâche est terminée, FreeCAD générera un tracé (voir la documentation [ documentation du module de traçage](Plot_Module/fr.md)) et une feuille de diffusion (voir le [ Tableau de calcul](Spreadsheet_Workbench/fr.md)).
+Lorsque le bouton \'\' \'Accepter\' \'\' est pressé, un tracé est effectué (en fonction de la complexité de la géométrie, cela peut prendre un certain temps, vous pouvez voir la progression sur le terminal et arrêter le travail en appuyant sur \'\'\'Ctrl + C \'\'). Lorsque la tâche est terminée, FreeCAD générera un tracé (voir la documentation [ documentation du module de traçage](Plot_Workbench/fr.md)) et une feuille de diffusion (voir le [ Tableau de calcul](Spreadsheet_Workbench/fr.md)).
 
 
 </div>
@@ -425,7 +425,7 @@ Nous établissons donc les données suivantes:
 
 <div class="mw-translate-fuzzy">
 
-Lorsque le bouton \'\' \'Accepter\' \'\' est pressé, les tracées sont effectués (voir la documentation [ documentation du module de traçage](Plot_Module/fr.md)) et une feuille de calcul est générée (voir la [ Documentation de la table de calcul](Spreadsheet_Workbench/fr.md).)
+Lorsque le bouton \'\' \'Accepter\' \'\' est pressé, les tracées sont effectués (voir la documentation [ documentation du module de traçage](Plot_Workbench/fr.md)) et une feuille de calcul est générée (voir la [ Documentation de la table de calcul](Spreadsheet_Workbench/fr.md).)
 
 
 </div>

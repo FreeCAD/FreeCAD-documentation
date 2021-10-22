@@ -10,6 +10,7 @@ Il a été développé pour organiser les objets dans la [vue en arborescence](t
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Diagramme simplifié des relations entre les objets principaux du programme. La classe `App::DocumentObjectGroup* a une extension qui lui permet de regrouper tout type d'objet. Le Group lui-même n'a pas beaucoup de propriétés.`
 
 ## Utilisation

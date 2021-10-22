@@ -10,6 +10,7 @@ Un _ complexes à partir de sous-assemblages plus petits et de plusieurs composa
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Diagramme simplifié des relations entre les objets centraux du programme. L'objet `App::Link* est un composant central du système : il ne dépend d'aucun atelier mais peut être utilisé avec la plupart des objets créés dans tous les ateliers.`
 
 ## Utilisation

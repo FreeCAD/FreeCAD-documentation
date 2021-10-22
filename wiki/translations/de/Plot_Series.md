@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Plot Series
    MenuLocation:Plot → Configure series
-‏‎   Workbenches:[Plot](Plot_Module.md)
+‏‎   Workbenches:[Plot](Plot_Workbench.md)
 ---
 
 # Plot Series/de
@@ -17,7 +17,8 @@ The standard plot module already provides a tool to edit the plot series style <
 
 Select the plot tab that you want to edit, and run this tool. Then select the series to be edited and proceed to set the new options. You can even delete the selected series
 
-![Remove the selected series](images/Plot_Remove_Series.png ) *Selected series deletion button*
+![Remove the selected series](images/Plot_Remove_Series.png ) 
+*Selected series deletion button*
 
 ## Optionen
 

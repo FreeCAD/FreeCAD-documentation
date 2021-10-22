@@ -23,7 +23,8 @@ Esta herramienta coloca en el documento un objeto 2D que es una vista aplanada d
 
 Draft Shape2DView projections can be displayed on a [TechDraw Workbench](TechDraw_Workbench.md) page using the [TechDraw DraftView](TechDraw_DraftView.md) command. Alternatively the [TechDraw Workbench](TechDraw_Workbench.md) offer its own projection commands. But these create projections that are only displayed on the drawing page and not in the [3D view](3D_view.md).
 
-![](images/Draft_Shape2DView_example.jpg ) *Projection of solid shapes onto the XY plane*
+![](images/Draft_Shape2DView_example.jpg ) 
+*Projection of solid shapes onto the XY plane*
 
 ## Utilización
 

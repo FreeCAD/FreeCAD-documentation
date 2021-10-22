@@ -14,7 +14,8 @@
 
 **Additive Pipe** creates a solid in the active Body by sweeping one or more sketches (also referred to as cross-sections) along an open or closed path. If the Body already contains features, the additive pipe will be merged to them.
 
-![](images/PartDesign_AdditivePipe_example.svg ) *On the left: cross-sections (A) and (B) to be swept along path (C); resulting Additive pipe on the right.*
+![](images/PartDesign_AdditivePipe_example.svg ) 
+*On the left: cross-sections (A) and (B) to be swept along path (C); resulting Additive pipe on the right.*
 
 ## Применение
 

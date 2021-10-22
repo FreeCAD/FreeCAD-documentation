@@ -16,6 +16,7 @@ deriva da [Part Part2DObject](Part_Part2DObject/it.md), il che significa che è 
 <div class="mw-translate-fuzzy">
 
 
+
 *Diagramma semplificato delle relazioni tra gli oggetti principali in FreeCAD. La classe `Sketcher::SketchObject* è specializzata per le forme 2D e inoltre può gestire i vincoli.`
 
 

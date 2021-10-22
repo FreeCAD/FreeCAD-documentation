@@ -17,6 +17,7 @@ For quicker access to these operations, use **<img src=images/Part_Cut.svg style
 ![](images/PartBooleansDialog-es.png )
 
 
+
 *Dialog to select objects and perform boolean operations with them.*
 
 ## Usage
@@ -58,11 +59,13 @@ In cases of coplanarity, even if the first boolean operation succeeds, subsequen
 <img alt="" src=images/Part_Boolean_cut_coplanar_2.png  style="width:500px;">
 
 
+
 *Left: shapes that share a face, a boolean cut may produce incorrect results. Right: shapes that intersect each other clearly, the boolean cut will be successful in most cases.*
 
 <img alt="" src=images/Part_Boolean_fusion_coplanar_1.png  style="width:500px;">
 
 <img alt="" src=images/Part_Boolean_fusion_coplanar_2.png  style="width:500px;">
+
 
 
 *Left: shapes that share a face, a boolean union may produce incorrect results. Right: shapes that intersect each other clearly, the boolean union will be successful in most cases.*

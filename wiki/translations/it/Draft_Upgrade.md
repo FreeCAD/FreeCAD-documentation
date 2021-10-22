@@ -29,6 +29,7 @@ Lo strumento <img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> Prom
 <div class="mw-translate-fuzzy">
 
 
+
 *Contorno aperto promosso in contorno chiuso, e quindi in una faccia; un quadrato chiuso promosso in faccia e quindi fuso con la faccia precedente*
 
 

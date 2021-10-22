@@ -17,11 +17,13 @@ La liste ci-dessous répertorie les paramètres qui ne sont pas accessibles via 
 -   **DockWindows/TreeView/Enabled** (booléen) : Défini à `True` pour activer un widget ancrable de la [vue en arborescence](Document_structure/fr.md) indépendant de la vue combinée. Après avoir changé la valeur du paramètre, un redémarrage de FreeCAD est nécessaire pour que le widget soit disponible dans la liste des vues/panneaux.
 -   **Document/ChangeViewProviderTouchDocument** (booléen) : Défini à `False` pour que les changements de visibilité des éléments ne marquent pas le document comme modifié.
 -   **Document/SaveThumbnailFix** (booléen) : Défini à `True` pour corriger un problème avec Qt5 qui empêche la génération de miniatures de fichiers `.FCStd`.
+-   **General/LockToolBars** (booléen) : Défini à `True` pour empêcher les barres d\'outils d\'être déplaçables et pour cacher les petites poignées de déplacement. Surtout utilisé en conjonction avec des feuilles de style qui rendent les barres d\'outils verticales.
 -   **General/RecentIncludesExported** (booléen) : Défini à `True` pour inclure les fichiers exportés dans la liste des fichiers récents. La valeur par défaut est `False`.
+-   **General/RecentIncludesImported** (booléen) : Défini à `False` pour exclure les fichiers importés de la liste des fichiers récents. La valeur par défaut est `True`.
+-   **General/SubstituteDecimalSeparator** (booléen) : Défini à `True`, la touche point/période sera remplacée par le séparateur décimal régional lors de la saisie d\'un nombre dans une case de rotation. La substitution ne se fera que si le point n\'est pas votre séparateur décimal régional et qu\'au moins une des conditions suivantes s\'applique : le point n\'est pas votre séparateur de milliers régional ou le point a été saisi à partir du pavé numérique. La valeur par défaut est `False`.
 -   **Macro/DuplicateFrom001** : (booléen) : Défini à `True` pour toujours commencer à chercher le nom de fichier de macro dupliqué suggéré avec \@001 au lieu du \@NNN en cours, le cas échéant. La valeur par défaut est `False`.
 -   **Macro/DuplicateIgnoreExtraNote** (booléen) : Défini à `True` pour ignorer la note supplémentaire lors de la suggestion d\'un nom de fichier de macro dupliqué. La note supplémentaire est le texte du nom de fichier qui suit \"\@NNN\" et précède \".FCMacro\". Exemple : \"my\_macro\@005.my\_note.FCMacro\". Si `True`, le nom de fichier suivant suggéré est \"my\_macro\@006.FCMacro\". S\'il est défini sur `False`, le prochain nom de fichier suggéré est \"my\_macro\@006.my\_note.FCMacro\". Pour être reconnu comme une note supplémentaire, le texte doit commencer par un point (\".\") après le \"\@NNN\". Sinon, par exemple, \"my\_macro\@006\_my\_note.FCMacro\" se voit suggérer \"my\_macro\@006\_my\_note\@001.FCMacro\" comme nouveau nom de fichier, ce qui peut être souhaitable dans certains cas. La valeur par défaut est `False`.
 -   **Macro/ReplaceSpaces** (booléen) : Mettez la valeur `False` si vous ne voulez pas que les espaces dans vos noms de fichiers soient automatiquement convertis en caractères de soulignement lorsque vous créez, renommez ou dupliquez une macro. Cela n\'affecte pas les fichiers existants, mais uniquement lors de la création d\'un nouveau fichier ou du renommage ou de la duplication d\'un fichier existant. La valeur par défaut est `True`.
--   **General/RecentIncludesImported** (booléen) : Donnez la valeur `False` pour exclure les fichiers importés de la liste des fichiers récents. La valeur par défaut est `True`.
 -   **Mod/Draft/defaultCameraHeight** (entier) : Définit la hauteur de la caméra lorsque Draft démarre dans un document vide. 0 désactive, la valeur par défaut de FreeCAD est 5, bon quand on travaille en millimètres, une bonne hauteur pour le travail en arc est 4500.
 -   **Mod/Part/ParametricRefine** (booléen) : Défini à `False` pour que [Part RefineShape](Part_RefineShape.md) crée une copie indépendante plutôt qu\'une copie liée. La valeur par défaut est `True`.
 -   **Mod/PartDesign/AdditiveHelixPreview** (booléen) : Défini à `True` pour s\'assurer qu\'une hélice additive qui n\'intersecte pas le corps est visible dans l\'aperçu. La valeur par défaut est `False`.
@@ -31,6 +33,7 @@ La liste ci-dessous répertorie les paramètres qui ne sont pas accessibles via 
 -   **Mod/Sketcher/RadiusDiameterConstraintDisplayBaseAngle** (flottant) : Définit l\'angle (par rapport à l\'horizontale) utilisé pour afficher les contraintes de rayon/diamètre dans Sketcher au moment de la création. La valeur par défaut est de 15 degrés (si aucune valeur n\'est définie).
 -   **Mod/Sketcher/RadiusDiameterConstraintDisplayAngleRandomness** (flottant) : Définit un angle aléatoire sur la valeur ci-dessus. La valeur est la plage de l\'angle aléatoire, centrée sur l\'angle de base. La valeur par défaut est 0 degré \-- désactivé \-- (si aucune valeur n\'est définie).
 -   **PropertyView/AutoTransactionView** (booléen) : Défini à `True` pour que les modifications des propriétés de l\'onglet View soient ajoutées à la pile d\'annulation (et donc annulables). La valeur par défaut est `False`.
+-   **Selection/AutoShowSelectionView** (booléen) : Défini à `True` pour que le volet de la vue de sélection s\'affiche automatiquement lorsque vous sélectionnez quelque chose. La valeur par défaut est `False`.
 -   **View/NavigationDebug** (booléen) : active la sortie de débogage des styles de navigation (à partir de la v0.19, seul le style de navigation Gesture a quelque chose à dire).
 -   **View/SavePicture** (chaîne) : Défini à **FramebufferObject**, **PixelBuffer** ou **CoinOffscreenRenderer** pour différentes méthodes de production d\'images à partir de la vue 3D.
 
@@ -49,11 +52,24 @@ Ces deux options permettent l\'insertion automatique de diverses informations da
 
 Tous les autres caractères sont traités littéralement. Si le nom de fichier résultant est illégal, il sera modifié lors de la sauvegarde, les caractères illégaux étant remplacés par le trait de soulignement (\_).
 
+### Couleurs des étiquettes de contraintes dans Sketcher 
+
+L\'étiquette dans Sketcher qui affiche l\'état en cours des contraintes (par exemple, \"Underconstrained\", \"Overconstrained\", \"Fully Constrained\", etc\...) peut être stylisée sur une base par état, soit à l\'aide de la feuille de style Qt, soit via les préférences de l\'utilisateur. Les préférences de l\'utilisateur sont prioritaires si elles ont été définies (dans **Mod/Sketcher/General**) :
+
+-   **EmptySketchMessageColor** - Valeur par défaut à 50% d\'opacité noire.
+-   **UnderconstrainedMessageColor** - Noir par défaut
+-   **MalformedConstraintMessageColor** - Rouge par défaut
+-   **ConflictingConstraintMessageColor** - Rouge par défaut
+-   **RedundantConstraintMessageColor** - Rouge orangé par défaut
+-   **PartiallyRedundantConstraintMessageColor** - Bleu royal par défaut
+-   **SolverFailedMessageColor** - Rouge par défaut
+-   **FullyConstrainedMessageColor** - Vert par défaut
+
 ## En rapport avec la souris 
 
--   **General/ComboBoxWheelEventFilter** (booléen) : sur `True` pour que les widgets ne captent pas l\'événement de la molette de la souris et empêchent le défilement des zones défilantes.
--   **View/GestureRollFwdCommand**, **View/GestureRollBackCommand** (chaîne): commandes à exécuter par des gestes de roulis de bouton de la souris de style de navigation Gesture.
+-   **General/ComboBoxWheelEventFilter** (booléen) : Défini à `True` pour que les widgets ne captent pas l\'événement de la molette de la souris et empêchent le défilement des zones défilantes.
 -   **View/GestureMoveThreshold** (entier): le curseur de la souris à distance (px) doit se déplacer pour entrer dans les modes de rotation ou de panoramique du style de navigation Gesture. La valeur par défaut est 5.
+-   **View/GestureRollFwdCommand**, **View/GestureRollBackCommand** (chaîne): commandes à exécuter par des gestes de roulis de bouton de la souris de style de navigation Gesture.
 -   **View/GestureTapHoldTimeout** (entier): définit le temps d\'attente (en millisecondes) pour passer en mode panoramique dans le style de navigation Gesture. Il peut être utile de l\'augmenter s\'il est difficile de faire glisser la géométrie dans l\'esquisse. La valeur par défaut est 700.
 
 ### Raccourci clavier 

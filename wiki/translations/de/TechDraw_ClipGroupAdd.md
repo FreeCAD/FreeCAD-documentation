@@ -12,7 +12,8 @@
 
 Dieses Werkzeug fügt eine Ansicht zu einem vorhandenen Ausschnitt hinzu.
 
-![](images/TechDraw_Clipview.png ) *Ausschnittfenster, das verschiedene vorhandene Ansichten beschneidet*
+![](images/TechDraw_Clipview.png ) 
+*Ausschnittfenster, das verschiedene vorhandene Ansichten beschneidet*
 
 ## Verwendung
 

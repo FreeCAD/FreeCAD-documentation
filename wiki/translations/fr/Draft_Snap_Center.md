@@ -12,9 +12,11 @@
 
 L\'option <img alt="" src=images/Draft_Snap_Center.svg  style="width:24px;"> **Draft Aimantation Centre** permet de s\'aimanter au point central des faces et des arêtes circulaires et au point {{PropertyData/fr|Placement}} de [Draft Proxy pour plan de travail](Draft_WorkingPlaneProxy/fr.md) et [Arch Partie de bâtiment](Arch_BuildingPart/fr.md). Les faces et les arêtes peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
 
-![](images/Draft_Snap_Center_example_arc.png ) *Aimantation du deuxième point d'une ligne au centre d'un bord circulaire*
+![](images/Draft_Snap_Center_example_arc.png ) 
+*Aimantation du deuxième point d'une ligne au centre d'un bord circulaire*
 
-![](images/Draft_Snap_Center_example_buildingpart.png ) *Aimantation du deuxième point d'une ligne au point Placement d'un Arch Partie de bâtiment*
+![](images/Draft_Snap_Center_example_buildingpart.png ) 
+*Aimantation du deuxième point d'une ligne au point Placement d'un Arch Partie de bâtiment*
 
 ## Utilisation
 

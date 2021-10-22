@@ -29,6 +29,7 @@ Lo strumento <img alt="" src=images/Draft_Downgrade.svg  style="width:16px;"> [D
 <div class="mw-translate-fuzzy">
 
 
+
 *Faccia tagliata con un'altra faccia; quindi faccia declassata in un contorno chiuso; e poi contorno scomposto in singole linee
 *
 

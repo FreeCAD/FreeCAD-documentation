@@ -12,9 +12,6 @@ Jeśli chcesz zobaczyć dodatkowe informacje zajrzyj na stronę:
 
 ## Przegląd formatów plików 
 
-
-<div class="mw-translate-fuzzy">
-
   Format                                        Opis                                                                                                                                                                                                                                                   Import / Otwórz                                                                                            Eksport / Utwórz
   --------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   _, _
@@ -29,7 +26,7 @@ Jeśli chcesz zobaczyć dodatkowe informacje zajrzyj na stronę:
   \*.ast                                        Siatka stereolitograficzna ASCII *(używany głównie do druku 3D)*.                                                                                                                                                                                      _                       _
   _
   \*.bdf                                        siatka FEM.                                                                                                                                                                                                                                            [Std: Import](Std_Import/pl.md)                                                                    nie
-  \*.bdf                                        Siatka Nastran.                                                                                                                                                                                                                                        nie                                                                                                        [Siatka: Eksport](Mesh_Export/pl.md)
+  \*.bdf                                        Siatka Nastran.                                                                                                                                                                                                                                        _
   \*.bmp                                        Format pliku graficznego.                                                                                                                                                                                                                              _   [Std: ViewScreenShot](Std_ViewScreenShot/pl.md)
   \*.bms                                        Siatka Binarna.                                                                                                                                                                                                                                        _                       _
   \*.brep                                       Naturalny format OpenCasCade.                                                                                                                                                                                                                          _                        _
@@ -75,7 +72,7 @@ Jeśli chcesz zobaczyć dodatkowe informacje zajrzyj na stronę:
   \*.meshjson                                   Siatka MES.                                                                                                                                                                                                                                            _
   \*.meshpy                                     Siatki MES.                                                                                                                                                                                                                                            nie                                                                                                        
   \*.meshyaml                                   Siatka FEM.                                                                                                                                                                                                                                            _
-  \*.nas                                        Siatka typu Nastran.                                                                                                                                                                                                                                   nie                                                                                                        [Siatka: Eksport](Mesh_Export/pl.md)
+  \*.nas                                        Siatka typu Nastran.                                                                                                                                                                                                                                   _
   \*.nc                                         G-code.                                                                                                                                                                                                                                                _
   \*.ncc                                        G-code.                                                                                                                                                                                                                                                _
   \*.ngc                                        G-code.                                                                                                                                                                                                                                                _
@@ -137,9 +134,6 @@ Jeśli chcesz zobaczyć dodatkowe informacje zajrzyj na stronę:
   \*.z88                                        Siatka FEM.                                                                                                                                                                                                                                            _
   \*.zip                                        Format programu SweetHome3D, XML.                                                                                                                                                                                                                      [Std: Import](Std_Import/pl.md)                                                                    nie
   job\_\*.json                                  Szablon zadania Path.                                                                                                                                                                                                                                  _
-
-
-</div>
 
 
 

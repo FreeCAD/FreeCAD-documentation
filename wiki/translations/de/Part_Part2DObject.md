@@ -10,6 +10,7 @@ Das `Part::Part2DObject` ist von einem [Part Formelement](Part_Feature/de.md) ab
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die Klasse `Part::Part2DObject* ist auf 2D Formen spezialisiert, so dass sie die Basisklasse für planare Objekte ist, die mit den Werkbänken Draft und Sketcher erstellt werden. Sie enthält eine Erweiterung, mit der sie an Flächen und Ebenen angehängt werden kann.`
 
 ## Anwendung

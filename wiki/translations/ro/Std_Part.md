@@ -46,6 +46,7 @@ The **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
 
+
 *Left: elements inside a Std Part in the [tree view](tree_view.md). Right: objects positioned in space, referred to the Origin of the Std Part.*
 
 
@@ -211,6 +212,7 @@ To activate or de-activate a Part:
 ![](images/Std_Part_active.png )
 
 
+
 *Document with two Std Parts, of which the second one is active.*
 
 
@@ -226,6 +228,7 @@ The Origin consists of the three standard axes (X, Y, Z) and three standard plan
 The Origin consists of the three standard axes (X, Y, Z) and three standard planes (XY, XZ and YZ). [Sketches](Sketch.md) and other objects can be attached to these elements when creating them.
 
 ![](images/Part_Origin_tree.png ) ![](images/Part_Origin_view.png )
+
 
 
 *Left: Part Origin in the _.*
@@ -252,13 +255,15 @@ The Part\'s visibility supersedes the visibility of any object it contains. If t
 
 The Part\'s visibility supersedes the visibility of any object it contains. If the Part is hidden, the objects it contains will be hidden as well, even if their individual **Visibility** property is set to `True`. If the Part is visible, then each object\'s **Visibility** determines whether the object is shown or not.
 
-!_. Right: the Part is visible, so each object controls its own visibility.*
+![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) 
+*The visibility of the Std Part determines whether the objects grouped under it are shown in the _. Right: the Part is visible, so each object controls its own visibility.*
 
 ### Inheritance
 
 A _ (`App::GeoFeature` class), and is augmented with an Origin extension.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Simplified diagram of the relationships between the core objects in the program. The `App::Part* class is a simple container that has a position in 3D space, and has an Origin to control the placement of the objects grouped under it.`

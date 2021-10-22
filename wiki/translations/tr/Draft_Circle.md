@@ -40,6 +40,7 @@ Bu araç, tam bir yay oluşturması dışında, [Yay](Draft_Arc/tr.md) aracıyla
 <div class="mw-translate-fuzzy">
 
 
+
 *Çember, iki noktayla tanımlanır*
 
 

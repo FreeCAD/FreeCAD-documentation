@@ -29,7 +29,11 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 4.  The **Offset** task panel opens. See [Options](#Options.md) for more information.
 5.  To define the offset distance do one of the following:
     -   Pick a point in the [3D view](3D_view.md).
-    -   Make sure the pointer is on the correct side of the object in the [3D view](3D_view.md) and enter a **Distance**.
+    -   Enter a numerical value:
+        1.  Make sure the pointer is on the correct side of the object in the [3D view](3D_view.md).
+        2.  Do not move the pointer out of the [3D view](3D_view.md).
+        3.  Enter a **Distance**.
+        4.  Press **Enter** to finish the command.
 
 ## Options
 

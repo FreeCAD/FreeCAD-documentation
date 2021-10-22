@@ -31,12 +31,14 @@ Questo metodo si aggancia al punto centrale di cerchi e archi.
 <div class="mw-translate-fuzzy">
 
 
+
 *Aggancio del secondo punto di una linea al centro di un cerchio*
 
 
 </div>
 
-![](images/Draft_Snap_Center_example_buildingpart.png ) *Snapping the second point of a line to the Placement point of an Arch BuildingPart*
+![](images/Draft_Snap_Center_example_buildingpart.png ) 
+*Snapping the second point of a line to the Placement point of an Arch BuildingPart*
 
 ## Usage
 

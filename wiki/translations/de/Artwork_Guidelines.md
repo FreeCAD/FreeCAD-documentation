@@ -38,7 +38,8 @@ Dieses Symbol wird wie folgt angezeigt:
 
 FreeCAD verwendet eine Palette, die der [Tango Palette](https://web.archive.org/web/20190921043652/http://tango.freedesktop.org/tango_icon_theme_guidelines) nachempfunden ist. Jede Hauptfarbe gibt es in 4 Farbtönen: Highlight, Base, Dark und Outline. Beachte, dass die Umrisslinie nicht komplett schwarz ist, sondern eine sehr dunkle Variante der Grundfarbe.
 
-![](images/Green_tones.PNG ) *Beispiel für eine 4 Ton Farbfamilie (Chamäleon)*
+![](images/Green_tones.PNG ) 
+*Beispiel für eine 4 Ton Farbfamilie (Chamäleon)*
 
 Siehe [FreeCAD Palette](https://drive.google.com/open?id=0B_xxY57wUEV-RWNaMHV2OGpoY00) für die gesamte Bandbreite. Eine Auswahl einiger Schlüsselfarben.
 

@@ -13,7 +13,8 @@
 
 La commande **Std Fenêtres** ouvre une boîte de dialogue avec une liste de fenêtres [Zone d\'affichage principale](Main_view_area/fr.md). Dans cette liste, une fenêtre sélectionnée peut être activée.
 
-![](images/Std_Windows_dialog.png ) *La boîte de dialogue Choisir une fenêtre*
+![](images/Std_Windows_dialog.png ) 
+*La boîte de dialogue Choisir une fenêtre*
 
 ## Utilisation
 

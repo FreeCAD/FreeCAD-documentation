@@ -49,6 +49,7 @@ Questo comando fa parte dell\'ambiente aggiuntivo _, tramite il menu **Strumenti
 :   <img alt="" src=images/BentShapeDialog.png  style="width:250px;">
 
 
+
 *Pannello Azioni per lo strumento Armatura sagomata di Arch*
 
 ## Proprietà

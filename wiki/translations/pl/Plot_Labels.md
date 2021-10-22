@@ -3,7 +3,7 @@
    Name:Plot Labels
    Name/pl:Wykres: Ustaw etykiety
    MenuLocation:Wykres → Ustaw etykiety
-   Workbenches:[Wykres](Plot_Module/pl.md)
+   Workbenches:[Wykres](Plot_Workbench/pl.md)
 ---
 
 # Plot Labels/pl
@@ -18,7 +18,8 @@ Narzędzie to pozwala na edycję etykiet tytułu i osi oraz rozmiarów czcionek.
 
 Wybierz kartę powierzchni, którą chcesz edytować, i uruchom to narzędzie. W przypadku wykresów wieloosiowych można wybrać zestaw osi, które mają być edytowane.
 
-![Plot axes selector](images/Plot_Axes_Active.png ) *Wybór zestawu osi do edycji*
+![Plot axes selector](images/Plot_Axes_Active.png ) 
+*Wybór zestawu osi do edycji*
 
 ## Opcje
 

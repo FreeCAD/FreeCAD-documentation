@@ -11,7 +11,8 @@ Gli utenti esperti hanno la possibilità di creare delle interfacce che li aiuti
 
 Le interfacce vengono create usando [PySide](PySide/it.md), che è una libreria per l\'utilizzo di Qt con [Python](Python/it.md).
 
-<img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> *Due metodi generali per creare delle interfacce, includendo l'interfaccia nel file Python o usando i file `.ui*.`
+<img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> 
+*Due metodi generali per creare delle interfacce, includendo l'interfaccia nel file Python o usando i file `.ui*.`
 
 ## Descrizione
 

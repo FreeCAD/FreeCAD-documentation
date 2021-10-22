@@ -100,7 +100,8 @@ Note: It is suggested that you do not edit the Placement property of path operat
 
 <div class="mw-translate-fuzzy">
 
-![](images/Path-DepthsAndHeights.gif ) *Descrizione delle proprietà dello strumento tasca*
+![](images/Path-DepthsAndHeights.gif ) 
+*Descrizione delle proprietà dello strumento tasca*
 
 
 </div>

@@ -8,7 +8,7 @@
 |Files=
 }}
 
-Please complete the [basic tutorial](Plot_Basic_tutorial.md) before starting with this tutorial. In this tutorial we will learn how to create and edit a multiaxes plot. You can learn more about the [Plot module here](Plot_Module.md).
+Please complete the [basic tutorial](Plot_Basic_tutorial.md) before starting with this tutorial. In this tutorial we will learn how to create and edit a multiaxes plot. You can learn more about the [Plot Workbench here](Plot_Workbench.md).
 
  <img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;">  
 *Multiaxes plot example*
@@ -58,7 +58,7 @@ Plot.plot(t,c,r"$\cos\left( 2 \pi t \right)$")
 
 In this example we pass the series labels for the legend directly. Note that the label strings have the *r* prefix in order to prevent Python from trying to interpret special characters (the *\\* symbol is used frequently in [LaTeX](http://www.latex-project.org) syntax).
 
-Before we can plot the polynomial function, we need to create new axes. In the [Plot module](Plot_Module.md) new axes are automatically selected as the active ones, and new plots will be associated with these axes.
+Before we can plot the polynomial function, we need to create new axes. In the [Plot Workbench](Plot_Workbench.md) new axes are automatically selected as the active ones, and new plots will be associated with these axes.
 
  
 ```python
@@ -66,15 +66,16 @@ Plot.addNewAxes()
 Plot.plot(x,y,r"$x^2$")
 ```
 
-As you can see your plot has gone crazy, with axes ticks overlapping, curves of the same color, etc. Now we need to use the [Plot module](Plot_Module.md) to fix this graph.
+As you can see your plot has gone crazy, with axes ticks overlapping, curves of the same color, etc. Now we need to use the [Plot Workbench](Plot_Workbench.md) to fix this graph.
 
 ## Configuring plot 
 
 ### Configuring axes 
 
-The [Plot module](Plot_Module.md) provides a tool to modify the properties of axes.
+The [Plot Workbench](Plot_Workbench.md) provides a tool to modify the properties of axes.
 
- ![](images/Plot_Axes.svg‎ )  *Axes configuration tool icon*
+ ![](images/Plot_Axes.svg‎ )  
+*Axes configuration tool icon*
 
 With the [axes tool](Plot_Axes.md) you can add or remove axes, and set the active axes, which are then used if you plot more data.
 
@@ -94,7 +95,7 @@ As already mentioned the legend will be positioned relative last axes set. If yo
 
 ### Setting axes labels 
 
-When it comes to setting the axes [labels](Plot_Labels.md) we again have to deal with our two axes sets. But since labels are usually set for all axes, the procedure is the same as described in the [previous tutorial](Plot_Basic_tutorial.md). The [Plot module](Plot_Module.md) allows you to set a title per axes set. In this case we only want to set a title for the last, the biggest, axes set.
+When it comes to setting the axes [labels](Plot_Labels.md) we again have to deal with our two axes sets. But since labels are usually set for all axes, the procedure is the same as described in the [previous tutorial](Plot_Basic_tutorial.md). The [Plot Workbench](Plot_Workbench.md) allows you to set a title per axes set. In this case we only want to set a title for the last, the biggest, axes set.
 
 **Axes 0:**
 
@@ -111,9 +112,10 @@ Change the font size of all labels to 20, and the font size of the title to 24. 
 
 ### Setting elements position 
 
-The [Plot module](Plot_Module.md) provides a tool to change the position of several plot elements, such as as titles, labels and legends.
+The [Plot Workbench](Plot_Workbench.md) provides a tool to change the position of several plot elements, such as as titles, labels and legends.
 
- ![](images/Plot_Positions.svg )  *Position editor icon*
+ ![](images/Plot_Positions.svg )  
+*Position editor icon*
 
 When you run the tool you will see a list of all editable elements. Titles and legends can be moved in both directions, but axis labels can only be moved along the axis they belong to. Select the title of axes 1 and move it to (0.24,1.01), then select the legend and move it to a better position. You can increase the font size of the legend labels as well.
 

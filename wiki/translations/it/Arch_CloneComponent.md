@@ -50,4 +50,4 @@ Il componente clone ha semplicemente la sua proprietà **CloneOf** impostata sul
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/it
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CloneComponent/it

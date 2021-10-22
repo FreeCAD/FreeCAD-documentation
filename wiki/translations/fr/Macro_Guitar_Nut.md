@@ -22,7 +22,8 @@ Les fentes peuvent être élargies à l\'arrière de l\'écrou puis sur la face,
 
 Le diamètre de chaque chaîne est configurable et les fentes peuvent être rendues plus configurables que la chaîne pour empêcher la liaison. Le haut de l\'écrou est sphérique et peut être configuré au-dessus / en dessous du point central des cordes. Les bords de l\'écrou ne sont pas façonnés, ni le haut profilé de la face vers l\'arrière, mais ces transformations peuvent être appliquées manuellement dans FreeCAD, ou bien après le fraisage de la pièce.
 
-![](images/Nut_macro.png ) *Résultats à l'aide de la macro Guitar Nut Maker*
+![](images/Nut_macro.png ) 
+*Résultats à l'aide de la macro Guitar Nut Maker*
 
 ## Utilisation
 

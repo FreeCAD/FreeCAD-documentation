@@ -22,6 +22,7 @@ Questi oggetti non devono necessariamente essere forme geometriche visibili nell
 ![](images/FreeCAD_Tree_view.png )
 
 
+
 *La vista ad albero che mostra vari elementi nel documento.*
 
 ## Lavorare con la vista ad albero 
@@ -39,6 +40,7 @@ Molte operazioni creano oggetti che dipendono da un oggetto precedentemente esis
 <img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width:" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width:" height="304px;">
 
 <img alt="" src=images/FreeCAD_Tree_view_parametric_history_3.png  style="width:" height="304px;">
+
 
 
 *L'oggetto di livello più alto viene creato eseguendo operazioni parametriche su oggetti che sono stati creati da operazioni precedenti. L'espansione dell'albero di molti livelli rivela gli elementi originali che sono stati usati per creare i solidi parziali.*

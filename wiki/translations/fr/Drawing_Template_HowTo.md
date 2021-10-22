@@ -1,5 +1,11 @@
 # Drawing Template HowTo/fr
+<div class="mw-translate-fuzzy">
+
+
 **L'[atelier Drawing](Drawing_Workbench/fr.md) est devenu obsolète dans la version 0.17. Pensez à utiliser l'[atelier TechDraw](TechDraw_Workbench/fr.md) à la place.**
+
+
+</div>
 
 
 {{TutorialInfo/fr

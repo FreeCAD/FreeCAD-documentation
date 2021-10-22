@@ -17,6 +17,7 @@ Das Werkzeug AktiveAnsicht fügt eine Kopie eines 3D Fensters in eine Zeichnungs
 ![](images/TechDraw_ActiveView_example.png )
 
 
+
 *Eine einfache Ansicht aus dem 3D Modell, die keine komplexen Berechnungen ausführt.*
 
 ## Anwendung

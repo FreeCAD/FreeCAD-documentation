@@ -1461,7 +1461,21 @@ To convert a STEP file to an IGS file:
  s = Part.Shape()
  s.read("file.stp")       # incoming file igs, stp, stl, brep
  s.exportIges("file.igs") # outbound file igs
-```{{Top}} {{Powerdocnavi}} 
+```{{Top}}
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/es|Mesh Scripting/es|Mesh to Part/es}}
+
+
+</div>
+
+
+{{Powerdocnavi
+
+}}
 
 _ _
 

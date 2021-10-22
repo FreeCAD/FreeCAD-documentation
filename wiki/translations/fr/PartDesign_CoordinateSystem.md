@@ -12,7 +12,8 @@
 
 ## Description
 
-Crée un **système de coordonnées local** qui peut être utilisé comme référence pour une autre géométrie de référence. Cela aide également à identifier l\'orientation de la géométrie de référence dans un espace 3D. ![](images/PartDesign_LocalCoordinateSystem_Example.png ) *Système de coordonnées local provenant de l'origine d'un plan de référence.*
+Crée un **système de coordonnées local** qui peut être utilisé comme référence pour une autre géométrie de référence. Cela aide également à identifier l\'orientation de la géométrie de référence dans un espace 3D. ![](images/PartDesign_LocalCoordinateSystem_Example.png ) 
+*Système de coordonnées local provenant de l'origine d'un plan de référence.*
 
 ## Utilisation
 

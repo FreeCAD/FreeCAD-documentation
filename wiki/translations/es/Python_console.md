@@ -10,6 +10,7 @@ La consola de Python en FreeCAD tiene resaltado de sintaxis básico, capaz de di
 <img alt="" src=images/FreeCAD_Python_console.png  style="width:800px;">
 
 
+
 *La consola de Python mostrando mensajes cuando FreeCAD acaba de iniciarse.*
 
 ## Guión
@@ -29,6 +30,7 @@ La consola de Python puede realizar un completamiento de código básico cuando 
 La consola también es capaz de mostrar la cadena de documentación de una función concreta cuando se escribe el paréntesis de apertura, por ejemplo, `function(`
 
 <img alt="" src=images/FreeCAD_Python_console_example.png  style="width:800px;">
+
 
 
 *Ejemplo de código Python que produce objetos en la vista 3D.*

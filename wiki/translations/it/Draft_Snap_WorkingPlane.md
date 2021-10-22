@@ -30,6 +30,7 @@ Questo metodo posiziona sempre un nuovo punto sull\'attuale [piano di lavoro](Dr
 <div class="mw-translate-fuzzy">
 
 
+
 *Aggancio del secondo punto di una linea a un estremo di un bordo di un corpo, che viene poi proiettato sul piano di lavoro XY*
 
 

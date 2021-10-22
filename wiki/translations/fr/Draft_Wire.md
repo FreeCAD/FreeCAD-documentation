@@ -13,7 +13,9 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Draft Polyligne** [crée](#Cr.C3.A9er.md) une polyligne, une séquence de plusieurs segments de ligne connectés. La commande peut aussi être utilisée pour [joint](#Joindre.md) des [Draft Lignes](Draft_Line/fr.md) et des Draft Polylignes.
+La commande <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Draft Polyligne** [crée](#Cr.C3.A9er.md) une polyligne, une séquence de plusieurs segments de ligne connectés. La commande peut aussi être utilisée pour [joindre](#Joindre.md) des [Draft Lignes](Draft_Line/fr.md) et des Draft Polylignes.
+
+Les coins d\'une Draft Polyligne peuvent être effilés (arrondis) ou chanfreinés en modifiant respectivement sa propriété **Fillet Radius** ou **Chamfer Size**. Il est également possible de subdiviser les bords d\'une Draft Polyligne en modifiant sa propriété **Subdivisions**.
 
 <img alt="" src=images/Draft_Polyline_example.jpg  style="width:400px;"> 
 *Une polyligne définie par plusieurs points*
@@ -22,7 +24,7 @@ La commande <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Draft 
 
 ### Utilisation
 
-Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Wire.svg" width=16px> [Créer une ligne à plusieurs points...](Draft_Wire/fr.md)**.
@@ -41,13 +43,13 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 -   Appuyez sur **R** ou cochez la case **Relative** pour activer le mode relatif. Si le mode relatif est activé, les coordonnées sont relatives au dernier point, si disponible, sinon elles sont relatives à l\'origine du système de coordonnées.
 -   Appuyez sur **G** ou cochez la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
 -   Appuyez sur **L** ou cochez la case **Rempli** pour activer le mode de remplissage. Si le mode rempli est activé, la ligne créée aura la valeur {{PropertyData/fr|Make Face}} `True` et aura une face remplie, à condition qu\'elle soit fermée et qu\'elle ne s\'auto-intersecte pas. Notez qu\'une ligne qui s\'auto-intersecte avec une face ne s\'affichera pas correctement. Pour une telle ligne, {{PropertyData/fr|Make Face}} doit être défini sur `False`.
--   Appuyez sur **T** ou cochez la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir utilisé **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** ou **<img src="images/Draft_CloseLine.svg" width=16px> Fermer**, ou après avoir créé une ligne fermée en s\'accrochant au premier point de la ligne, ce qui vous permet de continuer à créer des lignes.
+-   Appuyez sur **T** ou cochez la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir utilisé **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** ou **<img src="images/Draft_CloseLine.svg" width=16px> Fermer**, ou après avoir créé une ligne fermée en s\'aimantant au premier point de la ligne, ce qui vous permet de continuer à créer des lignes.
 -   Appuyez sur le bouton **<img src="images/Draft_UndoLine.svg" width=16px> Annuler** pour annuler le dernier point. Le raccourci clavier **Ctrl**+**Z** ne fonctionne pas actuellement comme attendu.
 -   Appuyez sur **A** ou sur le bouton **<img src="images/Draft_FinishLine.svg" width=16px> Terminer** pour terminer la commande et laisser la ligne ouverte.
--   Appuyez sur **O** ou sur le bouton **<img src="images/Draft_CloseLine.svg" width=16px> Fermer** pour terminer la commande et fermer la ligne. Une ligne fermée peut également être créée en s\'accrochant au premier point de la ligne.
+-   Appuyez sur **O** ou sur le bouton **<img src="images/Draft_CloseLine.svg" width=16px> Fermer** pour terminer la commande et fermer la ligne. Une ligne fermée peut également être créée en s\'aimantant au premier point de la ligne.
 -   Appuyez sur **W** ou sur le bouton **<img src="images/Draft_Wipe.svg" width=16px> Effacer** pour supprimer les segments déjà placés, mais continuez à travailler à partir du dernier point.
 -   Appuyez sur **U** ou sur le bouton **<img src="images/Draft_SelectPlane.svg" width=16px> [Définir le plan de travail](Draft_SelectPlane/fr.md)** pour ajuster le plan de travail actuel dans l\'orientation du dernier segment.
--   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
+-   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour terminer la commande.
 
 ## Joindre

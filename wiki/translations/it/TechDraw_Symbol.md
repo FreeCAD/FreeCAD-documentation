@@ -15,6 +15,7 @@ Lo strumento Simbolo inserisce un file [SVG](SVG/it.md) nella pagina. Questo sim
 <div class="mw-translate-fuzzy">
 
 
+
 *Rosa dei venti aggiunta alla pagina di disegno; questo simbolo è disponibile installando la macro SymbolsLibrary con Addon Manager*
 
 

@@ -1,6 +1,8 @@
 # Copying Objects/ro
 {{TOCright}}
 
+## Overview
+
 
 <div class="mw-translate-fuzzy">
 
@@ -17,21 +19,13 @@ Obiectele [Document](Document_structure.md) pot fi legate de alte obiecte (de ex
 
 ![](images/Copy_past_duplicate.png )
 
-Please consider that the copy-pasted objects are not dependent on the original. If You want dependant clones please use <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> _. If you need a dependant clone nor a parametric replica, you may also use <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [ Part Workbench\'s Simple Copy](Part_SimpleCopy.md). For patterned clones, please look into the [ Other Methods section](Copying_Objects#Other_Methods.md) of this page.
+Please consider that the copy-pasted objects are not dependent on the original. If you want dependent clones please use <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> _. If you need neither a dependent clone nor a parametric replica, you may also use <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [ Part Workbench\'s Simple Copy](Part_SimpleCopy.md). For patterned clones, please look into the [ Other Methods section](Copying_Objects#Other_Methods.md) of this page.
 
 ## Copying Linked Objects 
 
-[Document](Document_structure.md) objects may be linked to other objects (for example, a Pad feature is linked to its Sketch, and a Fusion feature is linked to its component objects). This means that some care must be exercised in selecting objects to copy.
+If an object to be copied has links to object(s) not in the selection, FreeCAD will ask if the unselected objects should be included in the copy operation.
 
-
-<div class="mw-translate-fuzzy">
-
-Dacă un obiect este selectat fără copiii săi , acești copii nu sunt duplicați automat prin copiere / lipire sau duplicare de selecție. În acest caz, obiectul copiat poate prezenta un comportament neașteptat din cauza lipsei de link-uri preconizate.
-
-
-</div>
-
-In general, recommended practice is to select all dependent objects when copying a parent object.
+## Finding and Positioning Pasted Object(s) 
 
 
 <div class="mw-translate-fuzzy">
@@ -44,6 +38,8 @@ After the Copy/Paste operation, it may not be obvious where the new object(s) ar
 
 
 </div>
+
+## Other Methods 
 
 
 <div class="mw-translate-fuzzy">
@@ -62,16 +58,6 @@ Ca multe lucruri în FreeCAD, există multe modalități de a face o copie. Pent
 
 
 </div>
-
-## Notes
-
--   If an object to be copied has links to object(s) not in the selection, FreeCAD will ask if the unselected objects should be included in the copy operation. <small>(v0.14)</small> 
-
-## suplimentar
-
--   [Copy](Std_Copy.md)
--   [Paste](Std_Paste.md)
--   [Duplicate Selection](Std_DuplicateSelection.md)
 
 ---
 [documentation index](../README.md) > Copying Objects/ro

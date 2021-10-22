@@ -20,9 +20,11 @@ This macro allows the user save the [3D view](3D_view.md) in a desired format. T
 ![](images/Macro_Screen_Wiki_00.png ) 
 
 
+
 *Macro Screen Wiki Image and configuration window*
 
  ![](images/Macro_Screen_Wiki_01.png ) 
+
 
 
 *Macro Screen Wiki Rotation window*
@@ -230,9 +232,11 @@ This macro allows the user save the [3D view](3D_view.md) in a desired format. T
  ![](images/Macro_Screen_Wiki_03_Set_Screen.png ) 
 
 
+
 *Captured screen with dimensions of `640px x 400px*`
 
  ![](images/Macro_Screen_Wiki_04_Tile_Screen.png ) 
+
 
 
 *Same dimensions as the previous image, this one is captured as 'Tile Screen'.*
@@ -240,14 +244,17 @@ This macro allows the user save the [3D view](3D_view.md) in a desired format. T
  ![](images/Macro_Screen_Wiki_Object_Direction_Object.gif ) 
 
 
+
 *Animation mode: Object selected and direction BoundBox center Object.<br/>The images must be assembled with a 3rd party application to create an animated .gif<br/>such as [https://daviesmediadesign.com/project/make-animated-gif-gimp/ GIMP] or [https://www.screentogif.com ScreenToGif]*
 
  ![](images/Macro_Screen_Wiki_Object_Direction_SUBObject.gif ) 
 
 
+
 *Animation Object Direction SubObject selected.<br/>The images must be assembled with a 3rd party application that creates an animated .gif<br/>such as [https://daviesmediadesign.com/project/make-animated-gif-gimp/ GIMP] or [https://www.screentogif.com ScreenToGif]*
 
  ![](images/Macro_Screen_Wiki_07.png ) 
+
 
 
 *The FreeCAD window resized. The dimension may be different from the definition (depending on the Widget, title bar etc... used.)*

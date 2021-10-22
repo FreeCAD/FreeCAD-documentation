@@ -64,14 +64,42 @@ La pastilla se extruirá hasta una cara del soporte que puede seleccionarse desi
 
 Define la longitud de la pastilla. Se pueden utilizar múltiples unidades independientemente de las preferencias de unidades del usuario (m, cm, mm, nm, ft o \', in o \").
 
+### Direction
+
+#### Direction/edge
+
+You can select the direction of the padding:
+
+-   **Sketch normal** The sketch is extruded along its normal
+-   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model. This becomes then the direction vector for the padding. <small>(v0.20)</small> 
+-   **Custom direction** The sketch is extruded along a direction that can be specified via vector values. <small>(v0.19)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Usar dirección personalizada 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 {{Version/es|0.19}}
 
 Si está marcada, la dirección de la pastilla no será el vector normal del croquis sino el vector dado. Sin embargo, la longitud de la pastilla se establece de acuerdo con la dirección del vector normal.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ### Longitud a lo largo de la normal del boceto 
+
+
+</div>
 
 Si está marcada, la longitud de la pastilla se mide a lo largo de la normal del boceto, de lo contrario a lo largo de la dirección personalizada. {{Version/es|0.20}}
 

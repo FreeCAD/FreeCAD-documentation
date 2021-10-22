@@ -31,6 +31,7 @@ Questo metodo si aggancia ai punti di posizioni speciali definiti da un particol
 <div class="mw-translate-fuzzy">
 
 
+
 *Agganciare il secondo punto di una linea dal punto speciale di un muro di Arch, che è il vertice della sua polilinea di base*
 
 

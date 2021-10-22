@@ -7,7 +7,8 @@ W środowisku pracy <img alt="" src=images/Workbench_Draft.svg  style="width:24p
 
 Przyciąganie jest dostępne z większością poleceń środowisk [Rysunek Roboczy](Draft_Workbench/pl.md) i [Architektura](Arch_Workbench/pl.md).
 
-![](images/Draft_Snap_Endpoint_example.png ) *Przyciąganie do punktu końcowego krawędzi*
+![](images/Draft_Snap_Endpoint_example.png ) 
+*Przyciąganie do punktu końcowego krawędzi*
 
 ## Narzędzia przyciągania 
 
@@ -54,9 +55,11 @@ Zauważ, że koliste krawędzie nie muszą być pełnymi okręgami.
 -   Naciśnij **Q**, aby wstawić \"punkt zatrzaśnięcia\" w miejscu, w którym aktualnie znajduje się kursor myszki. Możesz przyciągać do osi ortogonalnych punktów zatrzaśnięcia, oraz do przecięć tych osi. Jeśli aktywna jest opcja [przyciągnij do środkowego](Draft_Snap_Midpoint/pl.md), możesz także przyciągnąć do punktu środkowego między dwoma punktami zatrzaśnięcia.
 -   Naciśnij **** jeden lub więcej razy, aby przyciągnąć obiekt, który jest zasłonięty przez inną geometrię. Nazywa się to \"cyklicznym przyciąganiem\". Zauważ, że musisz przesunąć kursor o niewielką wartość w oknie [widoku 3D](3D_view/pl.md) po wciśnięciu klawisza.
 
-![](images/Draft_Snap_example_cycling_1.png ) *Przyciąganie cykliczne 1: Czerwony prostokąt został utworzony jako pierwszy, dlatego ma on pierwszeństwo przyciągania. Bez cyklicznego przyciągania nie można przyciągnąć zielonego prostokąta, który jest nakładany na czerwony prostokąt.*
+![](images/Draft_Snap_example_cycling_1.png ) 
+*Przyciąganie cykliczne 1: Czerwony prostokąt został utworzony jako pierwszy, dlatego ma on pierwszeństwo przyciągania. Bez cyklicznego przyciągania nie można przyciągnąć zielonego prostokąta, który jest nakładany na czerwony prostokąt.*
 
-![](images/Draft_Snap_example_cycling_2.png ) *Przyciąganie cykliczne 2: Po jednokrotnym użyciu klawisza cyklu przyciągania zielony prostokąt otrzymuje priorytet przyciągania. Możliwe jest teraz przyciąganie do punktu środkowego nałożonej zielonej krawędzi.*
+![](images/Draft_Snap_example_cycling_2.png ) 
+*Przyciąganie cykliczne 2: Po jednokrotnym użyciu klawisza cyklu przyciągania zielony prostokąt otrzymuje priorytet przyciągania. Możliwe jest teraz przyciąganie do punktu środkowego nałożonej zielonej krawędzi.*
 
 ## Uwagi
 

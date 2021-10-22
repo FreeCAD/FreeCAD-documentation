@@ -15,7 +15,8 @@
 
 L\'outil FHEquiv court-circuite deux objets FHNode.
 
-![](images/EM_FHEquiv_Example.png ) *FastHenry FHEquiv*
+![](images/EM_FHEquiv_Example.png ) 
+*FastHenry FHEquiv*
 
 ## Utilisation
 

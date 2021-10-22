@@ -48,6 +48,7 @@ Senza selezione:
 ![](images/Std_Link_tree_example.png ) ![](images/Std_Link_example.png )
 
 
+
 *(1) Un oggetto, (2) Un Link vuoto, (3) un Link completo del primo oggetto (con materiale di rivestimento), (4) un collegamento solo ad alcuni sottoelementi dell'oggetto. Il Link vuoto non è legato all'oggetto reale, quindi non viene visualizzato nella [vista 3D](3D_view/it.md).*
 
 ## Utilizzo: documenti esterni 
@@ -67,6 +68,7 @@ Senza selezione:
 -    **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_LinkMakeRelative.svg style="width:Crea link](Std_LinkMake/it.md)**può essere utilizzato su un oggetto Link esistente, al fine di creare un Link ad un Link che si risolve in definitiva con l\'oggetto originale nel documento di origine. Questo può essere utlizato con **[16px"> [Crea un link relativo](Std_LinkMakeRelative/it.md)** per scegliere anche solo alcuni sotto elementi.
 
 ![](images/Std_Link_tree_documents_example.png ) ![](images/Std_Link_documents_example.png )
+
 
 
 *(1, 2) Due oggetti di un documento sorgente collegati in un documento di destinazione, (3) un Link al secondo Link (con materiale di sovrascrittura), e (4) un Link ai sotto elementi del secondo Link.*
@@ -93,6 +95,7 @@ può essere usato su **<img src=images/Std_Part.svg style="width:16px"> [Parte](
 ![](images/Std_Link_tree_Std_Part_example.png )
 
 
+
 *Link creato da una [Parte](Std_Part/it.md); gli oggetti non sono duplicati, ma sono elencati sotto il contenitore originale e sotto il Link contenitore.*
 
 Un regolare **<img src=images/Std_Group.svg style="width:16px"> <img src=images/Std_LinkMake.svg style="width:Gruppo](Std_Group/it.md)** non possiede una proprietà {{PropertyData/it|Placement}}, quindi non può controllare la posizione degli oggetti al suo interno. Tuttavia, quando **_**, il Link risultante si comporta essenzialmente come una **[16px"> [Parte](Std_Part/it.md)** e può anche essere spostata nello spazio.
@@ -100,11 +103,13 @@ Un regolare **<img src=images/Std_Group.svg style="width:16px"> <img src=images/
 ![](images/Std_Link_tree_Std_Group_example.png ) ![](images/Std_Link_Std_Group_example.png )
 
 
+
 *Link creato da un [Gruppo](Std_Group/it.md); gli oggetti non sono duplicati ma sono elencati sotto il contenitore originale e sotto il contenitore Link. Il Link (con materiale di sovrascrittura) può essere spostato nello spazio, proprio come una [Parte](Std_Part.md).*
 
 Un collegamento a una **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Parte](Std_Part/it.md)** manterrà la visibilità degli oggetti sincronizzati con la Parte originale; quindi se si nasconde un oggetto in un Link, esso sarà nascosto in tutti i Link e nell\'oggetto originale. Invece un Link ad un **[16px"> [Gruppo](Std_Group/it.md)** consentirà il controllo indipendente delle visibilità.
 
 ![](images/Std_Link_tree_Std_Part_visibility.png ) ![](images/Std_Link_tree_Std_Group_visibility.png )
+
 
 
 *Sinistra: _ con due oggetti, e due Links al Gruppo; la visibilità degli oggetti è controllata indipendentemente in ogni gruppo.*
@@ -117,7 +122,7 @@ Quando la {{PropertyView/it|Override Material}} è impostato su `True`, la propr
 
 Indipendentemente dallo stato della {{PropertyView/it|Override Material}}, è possibile impostare individualmente l\'aspetto dei sottoelementi (vertici, bordi, facce) di un Link.
 
-1.  Selezionare il Link nella [vista ad albero](tree_view/it.md). Aprire il menu contestuale (tasto destro del mouse) e scegliere {{MenuCommand/it|Override colors}}.
+1.  Selezionare il Link nella [vista ad albero](tree_view/it.md). Aprire il menu contestuale (tasto destro del mouse) e scegliere **Override colors**.
 2.  Ora scegliere i singoli sottoelementi che si desidera nella [vista 3D](3D_view/it.md), premere **Edit**, e modificare le proprietà, inclusa la trasparenza.
 3.  Per rimuovere gli attributi personalizzati, selezionare gli elementi nella lista, e premere **Remove**.
 4.  Quando si è soddisfatti del risultato, premere **OK** per chiudere la finestra di dialogo.
@@ -128,6 +133,7 @@ Indipendentemente dallo stato della {{PropertyView/it|Override Material}}, è po
 A partire dalla v0.19, la colorazione dei sottoelementi è soggetta al [problema di denominazione topologica](topological_naming_problem/it.md), quindi dovrebbe essere fatta come ultima fase di modellazione, quando il modello non è più soggetto a modifiche.
 
 <img alt="" src=images/Std_Link_override_color_example.png  style="width:500px;">
+
 
 
 *(1) Un oggetto originale, (2) un Link con materiale di sovrascrittura e (3) un secondo Link con singoli sottoelementi modificati.*
@@ -143,9 +149,10 @@ Quando viene creato un Link, di default il suo {{PropertyData/it|Element Count}}
 
 Dato che {{PropertyData/it|Show Element}} è `True` di default, quando {{PropertyData/it|Element Count}} è impostato su {{Value|1}} o più, automaticamente verranno creati più Link sotto il primo; ogni nuovo Link può essere posizionato nella posizione desiderata cambiando la proprietà {{PropertyData/it|Placement}}.
 
-In modo simile, ogni elemento dell\'array può avere il proprio aspetto modificato, sia con le proprietà {{PropertyView/it|Override Material}} e {{PropertyView/it|Shape Material}}, sia usando il menu {{MenuCommand/it|Override colors}} sull\'intero array e quindi selezionando le singole facce; questo è descritto in [Aspetto dominante](#Aspetto_dominante.md).
+In modo simile, ogni elemento dell\'array può avere il proprio aspetto modificato, sia con le proprietà {{PropertyView/it|Override Material}} e {{PropertyView/it|Shape Material}}, sia usando il menu **Override colors** sull\'intero array e quindi selezionando le singole facce; questo è descritto in [Aspetto dominante](#Aspetto_dominante.md).
 
 <img alt="" src=images/Std_Link_tree_array_example.png ) ![](images/Std_Link_array_example.png  style="width:500px;">
+
 
 
 *(1) Oggetto di origine, e (2, 3, 4) un Link array con tre elementi, ciascuno in una posizione diversa. Il primo Link ha il materiale sovrascritto e le facce trasparenti, gli altri due hanno colori personalizzati per le facce.*
@@ -174,6 +181,7 @@ Un altro modo per nascondere i singoli elementi è usare il menu **Override colo
 ![](images/Std_Link_array_visibility_example.png )
 
 
+
 *Finestra di dialogo colore dell'elemento disponibile quando si apre il menu contestuale di un oggetto Link nella vista ad albero.*
 
 Se si desidera ripristinare la visibilità di questo elemento array, entrare di nuovo nella finestra di dialogo, scegliere l\'icona occhio, quindi cliccare su **Remove** per rimuovere lo stato nascosto, e cliccare **OK** per confermare e chiudere la finestra di dialogo. L\'elemento sarà di nuovo visibile nella [vista 3D](3D_view/it.md).
@@ -183,13 +191,14 @@ Quando il Link è per una **<img src=images/Std_Part.svg style="width:16px"> <im
 ![](images/Std_Link_Std_Part_visibility_example.png ) ![](images/Std_Link_Std_Part_visibility_example_3D.png )
 
 
+
 *Una [Parte](Std_Part/it.md) contenente tre oggetti e un Link a quella Parte; nel Link, (1) il primo oggetto è reso invisibile, (2) il secondo oggetto ha alcuni sotto-elementi con colori diversi, (3) l'intero terzo oggetto ha un diverso colore e livello di trasparenza.*
 
 ## Proprietà
 
 Un _ (`App::DocumentObject` class) di base quindi ha le proprietà di base di quest\'ultimo come {{PropertyData/it|Label}} e {{PropertyData/it|Label2}}.
 
-Di seguito sono riportate le proprietà specifiche disponibili nell\'[editor delle proprietà](Property_editor/it.md). Le proprietà nascoste possono essere mostrate utilizzando il comando {{MenuCommand/it|Show all}} nel menu contestuale dell\'[editor delle proprietà](Property_editor/it.md).
+Di seguito sono riportate le proprietà specifiche disponibili nell\'[editor delle proprietà](Property_editor/it.md). Le proprietà nascoste possono essere mostrate utilizzando il comando **Show all** nel menu contestuale dell\'[editor delle proprietà](Property_editor/it.md).
 
 ### Dati
 
@@ -316,6 +325,7 @@ Mostra inoltre le proprietà Vista dell\'originale **Linked Object**.
 Un _. (`App::DocumentObject` class). È un oggetto di livello molto basso, che può essere usato con la maggior parte degli altri oggetti documento.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Diagramma semplificato delle relazioni tra gli oggetti principali del programma. L'oggetto `App::Link* è un componente principale del sistema, non dipende da alcun ambiente, ma può essere utilizzato con la maggior parte degli oggetti creati in tutti gli ambienti.`

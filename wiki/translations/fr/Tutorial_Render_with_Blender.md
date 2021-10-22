@@ -26,11 +26,13 @@ Une description similaire de ce processus est décrite dans une série de vidéo
 <img alt="" src=images/01_T03_FreeCAD_Blender_model.png  style="width:600px;">
 
 
+
 *align=center|Assemblage de trois corps créés dans FreeCAD avec des couleurs ou des matériaux choisis.*
 
 2\. Si votre modèle est très détaillé, assurez-vous que la valeur {{PropertyView/fr|Deviation}} du corps est défini sur une valeur basse comprise entre `0.1` et `00.1` voire moins. Plus cette valeur est basse, plus le maillage exporté sera détaillé et donc meilleure sera la qualité du rendu.
 
 ![](images/02_T03_FreeCAD_Blender_deviation.png )
+
 
 
 *align=center|Propriété de déviation des corps créés dans FreeCAD. L'écart doit être faible pour pouvoir exporter les pièces avec une bonne résolution.*
@@ -140,6 +142,7 @@ for obj in bpy.data.objects:
 ![](images/03_T03_FreeCAD_Blender_imported_assembly.png )
 
 
+
 *align=center|Assemblage créé dans FreeCAD importé dans Blender; le modèle a été tourné et les unités de la scène ont été ajustées pour correspondre aux objets importés.*
 
 ### Préparez la caméra de la scène 
@@ -158,6 +161,7 @@ bpy.context.object.data.clip_end = 1e+03
 Si vous pouvez voir l\'objet à travers la vue de la caméra, vous pouvez maintenant rendre rapidement le modèle en appuyant sur **F12**, ce qui ouvrira `Image Editor` avec le résultat. Appuyez sur **Echap** pour quitter et revenir à `3D Viewport`.
 
 <img alt="" src=images/04_T03_FreeCAD_Blender_first_render.png  style="width:600px;">
+
 
 
 *align=center|Premier rendu de l'assemblage dans Blender, avec la caméra avec un découpage correct mais sans éclairage*
@@ -197,6 +201,7 @@ Appuyez à nouveau sur **F12** pour voir un rendu préliminaire du modèle.
 <img alt="" src=images/05_T03_FreeCAD_Blender_render_sun_lamp.png  style="width:600px;">
 
 
+
 *align=center|Rendu de l'assemblage dans Blender avec une lampe solaire ajoutée qui émet des rayons lumineux parallèles avec un angle fixe*
 
 ### Plus de configuration: sol, éclairage global, reflets et ombres douces 
@@ -228,6 +233,7 @@ bpy.context.scene.eevee.use_soft_shadows = True
 ![](images/06_T03_FreeCAD_Blender_Principled_shader.png )
 
 
+
 *align=center|le Principled BSDF shader utilisé dans Blender pour simuler une variété de matériaux allant des métaux brillants aux solides rugueux et opaques.*
 
 13.2. Sélectionnez chacune des parties du modèle et ajustez le nœud de matériau `Principled BSDF` respectif. Pour les pièces métalliques, placez la propriété `Metallic` à fond sur `1.000`. Ajustez la valeur de `Roughness` entre `0.2` et `0.7`. Plus le `0.000` est proche de `Roughness`, plus il apparaîtra réfléchissant (semblable à un miroir).
@@ -245,6 +251,7 @@ Appuyez sur **F12** pour rendre la vue à travers la caméra et vérifier la qua
 15\. Si votre modèle semble raisonnablement bien avec le moteur de rendu EEVEE, vous pouvez déjà enregistrer l\'image en allant dans **Image → Enregistrer sous** ou en appuyant sur **Shift**+**S** dans le {{Incode|Image Editor}}.
 
 <img alt="" src=images/07_T03_FreeCAD_Blender_EEVEE_render.png  style="width:600px;">
+
 
 
 *align=center|Assemblage rendu produit avec Blender EEVEE; tous les matériaux utilisent le shader BSDF Principled; une seule lampe solaire est utilisée, avec un peu de lumière ambiante.*
@@ -267,6 +274,7 @@ Appuyez sur **F12** pour rendre la vue finale à travers la caméra. Selon votre
 17\. Lorsque vous êtes satisfait de la qualité du rendu, dans `Image Editor` allez dans **Image → Enregistrer sous** ou appuyez sur **Shift**+**S**.
 
 <img alt="" src=images/08_T03_FreeCAD_Blender_Cycles_render.png  style="width:600px;">
+
 
 
 *align=center|Assemblage rendu produit avec Blender Cycles; toutes les options, matériaux et lumières utilisés avec EEVEE ont été conservés pour être utilisés avec Cycles.*

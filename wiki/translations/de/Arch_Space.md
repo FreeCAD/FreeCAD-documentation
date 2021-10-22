@@ -151,4 +151,4 @@ Arch.removeSpaceBoundaries(Space, selection)
 }}
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Space/de
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Space/de

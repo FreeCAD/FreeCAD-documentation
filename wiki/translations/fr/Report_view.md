@@ -8,6 +8,7 @@ Certaines propriétés de la vue, telles que la couleur du texte et son affichag
 <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 
 
+
 *La vue rapport montrant les messages lorsque FreeCAD vient de démarrer.*
 
 ## Messages
@@ -30,6 +31,7 @@ La vue rapport affiche les messages de la classe interne FreeCAD `Console`.
 Ces fonctions peuvent être utilisées à partir de la console [Python](Python_console/fr.md) directement, ou à partir de [Macros](Macros/fr.md) et des ateliers personnalisés.
 
 <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
+
 
 
 *Exemples de messages dans la vue rapport: un message général, un avertissement, une erreur et un message enregistré.*

@@ -30,7 +30,8 @@ Detaillierte Beschreibung auf dem [Lattice2 Github wiki](https://github.com/Deep
 
 ### Werkzeugleiste
 
-![](images/Lattice2-menu-orizz.png ) *Lattice2 Werkzeugleiste*
+![](images/Lattice2-menu-orizz.png ) 
+*Lattice2 Werkzeugleiste*
 
 ### Befehle
 

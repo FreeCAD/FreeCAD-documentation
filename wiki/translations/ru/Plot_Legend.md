@@ -3,7 +3,7 @@
    Name:Plot Legend
    Name/ru:Plot Legend
    MenuLocation:Plot → Показать/скрыть легенду
-   Workbenches:[Plot](Plot_Module/ru.md)
+   Workbenches:[Plot](Plot_Workbench/ru.md)
    Shortcut:
    SeeAlso:
 ---

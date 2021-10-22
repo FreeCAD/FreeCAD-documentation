@@ -15,7 +15,13 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 El **<img src=images/Spreadsheet_Export.svg style="width:16px"> [Exportación de hoja de cálculo](Spreadsheet_Export/es.md)** permite exportar una hoja de cálculo como un archivo de valores separados por tabulaciones (denominados vagamente CSV) (inglés: valores separados por comas), que posteriormente puede abrirse y utilizarse en otras aplicaciones.
+
+
+</div>
 
 ## Utilización
 

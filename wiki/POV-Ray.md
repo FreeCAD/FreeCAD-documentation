@@ -10,7 +10,7 @@ POV-Ray (The Persistence of Vision Raytracer) is one of the two renderers suppor
 ## Raytracing Workbench 
 
 
-**The _. The Render Workbench can be installed through the [Addon Manager](AddonManager.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench**
+**The _. The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench**
 
 ### Stable Version 
 
@@ -24,11 +24,11 @@ If your distribution has it in the official repositories, you can install POV-Ra
 
 ***Compiling from source***
 
-If your distributions does not have POV-Ray in the repositories, or you wish to, it is possible to compile POV-Ray from source. [Download the source code of POV-Ray 3.7.0.8 from GitHub](https://github.com/POV-Ray/povray/archive/refs/tags/v3.7.0.8.tar.gz)
+If your distributions does not have POV-Ray in the repositories, or you wish to, it is possible to compile POV-Ray from source. [Download the source code of POV-Ray 3.7.0.8 from GitHub](https://github.com/POV-Ray/povray/archive/refs/tags/v3.7.0.8.tar.gz).
 
 ***Configuring FreeCAD***
 
-After installing POV-Ray, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Raytracing Workbench](Preferences_Editor#Unloaded_Workbenches.md), and go to the [Raytracing Preferences](Raytracing_Preferences.md).
+After installing POV-Ray, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Raytracing Workbench](Preferences_Editor#Available_Workbenches.md), and go to the [Raytracing Preferences](Raytracing_Preferences.md).
 
 Set the POV-Ray executable path to point to your installation of POV-Ray, usually it is */usr/bin/povray*, and apply.
 
@@ -82,17 +82,17 @@ Extract the downloaded archive (if you don\'t have a suitable software use [7-Zi
 
 As of now there are no significant differences between the Raytracing Workbench and the Render Workbench in the part regarding the installation of the external software, so refer to the [Raytracing Workbench section](POV-Ray#Raytracing_Workbench.md) to install POV-Ray and to this section for the Render Workbench configuration..
 
-First of all install the Render Workbench through the [Addon Manager](Addon_Manager.md) and restart FreeCAD.
+First of all install the Render Workbench through the [Addon Manager](Std_AddonMgr.md) and restart FreeCAD.
 
 #### Linux 
 
-After installing the Render Workbench and POV-Ray, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Render Workbench](Preferences_Editor#Unloaded_Workbenches.md), and go to the Render Preferences.
+After installing the Render Workbench and POV-Ray, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Render Workbench](Preferences_Editor#Available_Workbenches.md), and go to the Render Preferences.
 
 Set the POV-Ray executable path to point to your installation of POV-Ray, usually it is */usr/bin/povray*, and apply.
 
 #### Windows 
 
-After installing the Render Workbench and POV-Ray, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Render Workbench](Preferences_Editor#Unloaded_Workbenches.md), and go to the Render Preferences.
+After installing the Render Workbench and POV-Ray, launch FreeCAD, open the [Preferences Editor](Preferences_Editor.md), [load the Render Workbench](Preferences_Editor#Available_Workbenches.md), and go to the Render Preferences.
 
 Set the POV-Ray executable path to point to your installation of POV-Ray, usually it is *C:/Program Files/POV-Ray/v3.7/bin/pvengine64.exe*, and apply.
 

@@ -39,7 +39,8 @@ Použití je velmi jednoduché: Stisknete tlačítko Spustit záznam, nejdříve
 
 </div>
 
-![](images/Macros.png ) *Macro dialog, listing the macros available in the system*
+![](images/Macros.png ) 
+*Macro dialog, listing the macros available in the system*
 
 
 <div class="mw-translate-fuzzy">

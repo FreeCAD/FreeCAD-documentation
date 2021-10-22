@@ -25,7 +25,8 @@ L\'outil Coupe crée une vue en coupe en fonction d\'une vue existante d\'une pi
 4.  Une boîte de dialogue s\'ouvrira qui vous aidera à calculer les différentes propriétés de la section. La boîte de dialogue calcule des points de départ raisonnables pour SectionNormal et la direction de la vue mais ceux-ci peuvent être modifiés après la création pour des besoins spéciaux.
 5.  Si vous faites une erreur ou changez d\'avis lors de la configuration des paramètres de la section, appuyez sur le bouton **Reset** et vous pouvez recommencer.
 
-![](images/TechDraw_Section_Taskview.png ) *Boîte de dialogue pour définir la zone de coupe d'une vue*
+![](images/TechDraw_Section_Taskview.png ) 
+*Boîte de dialogue pour définir la zone de coupe d'une vue*
 
 ## Propriétés
 

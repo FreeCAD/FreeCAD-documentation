@@ -53,7 +53,7 @@ The 38 tools are split into three tabs:
 -   [Centerlines and Threading](Macro_TechDrawTools#Centerlines_and_Threading.md)
 -   [Dimensions](Macro_TechDrawTools#Dimensions.md)
 
-####  Select Line Attributes: 
+#### Select Line Attributes 
 
 Before starting the work, select the desired line attributes. This is done by clicking the appropriate radio buttons in the boxes displayed in the *Attributes and Modifications* tab.
 
@@ -62,7 +62,7 @@ Before starting the work, select the desired line attributes. This is done by cl
 -   When creating a new line object, the preset line attributes will be used.
 -   To change attributes of existing lines use the **<img src="images/TechDraw_TechDrawTools.svg" width=16px> [Change the line attributes](void.md)** button.
 
-####  Attributes and Modifications 
+#### Attributes and Modifications 
 
 Tools setting/changing attributes and positions of objects.
 
@@ -88,7 +88,7 @@ Tools setting/changing attributes and positions of objects.
 
 -    **<img src="images/TechDraw_TechDrawTools.svg" width=16px> [Change the line attributes](void.md)**Change the attributes of the selected lines.
 
-####  Centerlines and Threading 
+#### Centerlines and Threading 
 
 Tools creating centerlines and threads.
 
@@ -96,11 +96,11 @@ Tools creating centerlines and threads.
 
 -    **<img src="images/TechDraw_ExtensionHoleCircle.svg" width=16px> [Draw bolt circle centerlines](TechDraw_ExtensionHoleCircle.md)**Draw the centerlines of a bolt circle.
 
--    **<img src="images/TechDraw_TechDrawTools.svg" width=16px> [Create vertex(es) at intersection](void.md)**Create the vertexes at the intersection of lines.
+-    **<img src="images/TechDraw_ExtensionVertexAtIntersection.svg" width=16px> [Create vertex(es) at intersection](TechDraw_ExtensionVertexAtIntersection.md)**Create the vertexes at the intersection of lines.
 
--    **<img src="images/TechDraw_ExtensionArc.svg" width=16px> [Draw a cosmetic arc (center and two vertexes)](TechDraw_ExtensionDrawArc.md)**Draw an arc rotating math. positive.
+-    **<img src="images/TechDraw_ExtensionDrawArc.svg" width=16px> [Draw a cosmetic arc (center and two vertexes)](TechDraw_ExtensionDrawArc.md)**Draw an arc rotating math. positive.
 
--    **<img src="images/TechDraw_TechDrawTools.svg" width=16px> [Draw a cosmetic circumference (center and 2 vertexes)](void.md)**Draw a cosmetic arc.
+-    **<img src="images/TechDraw_TechDrawTools.svg" width=16px> [Draw a cosmetic circunference (center and 2 vertexes)](void.md)**Draw a cosmetic arc.
 
 -    **<img src="images/TechDraw_TechDrawTools.svg" width=16px> [Create a line perpendicular to another line](void.md)**Create a perpendicular to another line through a vertex.
 
@@ -116,7 +116,7 @@ Tools creating centerlines and threads.
 
 -    **<img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> [Thread screw/pin/shaft side view/section](TechDraw_ExtensionThreadBoltSide.md)**Draw a technical symbol of the thread in side or section view.
 
-####  Dimensions
+#### Dimensions
 
 Tools creating dimensions.
 

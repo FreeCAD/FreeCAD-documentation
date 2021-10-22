@@ -247,9 +247,11 @@ Allows changing the order of transformations in the list \|}
 ![c\|800px](images/mt_example2.png )
 
 
+
 *Il blocco più piccolo viene prima modellato tre volte in direzione X e poi scalato per un fattore due (in modo che alle tre occorrenze venga applicato il fattore di scala 1.0, 1.5 e 2.0). In seguito viene eseguita una schiera polare con 8 occorrenze.*
 
 ![c\|800px](images/mt_example3.png )
+
 
 
 *Lo scavo viene prima riflesso sul piano YZ e poi si applicano due trasformazioni di schiera lineare per produrre una schiera rettangolare.*

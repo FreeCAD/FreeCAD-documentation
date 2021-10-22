@@ -20,6 +20,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_TwoTies_example.png  style="width:400px;">
 
 
+
 *TwoTiesSixRebars Column Reinforcement inside a Column [Arch Structure](Arch_Structure.md)*
 
 ## Utilização
@@ -30,10 +31,12 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 <img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width:700px;">
 
 
+
 *Dialog Box for the Arch Rebar ColumnReinforcement tool*
 
 4\. Select the TwoTiesSixRebars type of column reinforcement from drop down menu on right side.
 <img alt="" src=images/TwoTiesColumnReinforcementDialog_Ties.png  style="width:700px;">
+
 
 
 *Dialog Box for the TwoTiesSixRebars ColumnReinforcement*
@@ -41,6 +44,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 5\. Give inputs for data related to ties.
 6. Click **Next** and the dialog box will be updated as shown below.
 <img alt="" src=images/TwoTiesColumnReinforcementDialog_MainRebars.png  style="width:700px;">
+
 
 
 *Dialog Box for Main Rebars data*

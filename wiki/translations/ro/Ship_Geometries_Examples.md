@@ -21,6 +21,14 @@ FreeCAD-Ship lucrează pe **Ship entities**, are trebuie create în prealabil pe
 
 </div>
 
+Ship works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid, or set of solids. The following criteria must be taken into account:
+
+-   All hull geometry must be provided (including symmetric bodies).
+-   Starboard geometry must be included at negatives *y* domain.
+-   Origin (0,0,0) point is the **Midship section** (Midpoint between after and forward perpendicular) and **base line** intersection.
+
+![](images/FreeCAD-Ship-SignCriteria.jpg )
+
 
 <div class="mw-translate-fuzzy">
 

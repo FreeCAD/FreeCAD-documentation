@@ -16,6 +16,7 @@ To, że krzywa zamknięta jest obecna, nie jest oczywiste i nie jest łatwe do r
 ![](images/Skizze2a.png )
 
 
+
 *Najprostszy szkic.
 </br>Po lewej: Krzywa zamknięta tylko w czterech miejscach ''(czerwony, automatyczne wiązania utworzone podczas rysowania narzędziem <img src=images/_Sketcher_CreatePolyline.svg style="width:32px">  [linia łamana](Sketcher_CreatePolyline/pl.md))''.
 </br>W środku: Ostrzeżenie - ... rozbita ścianka ''(rozbita krzywa)''.
@@ -28,6 +29,7 @@ Jednak dzięki konsekwentnej pracy parametrycznej szkic jest całkowicie zdefini
 Nawet stosunkowo najprostszy szkic może zawierać dziesiątki nieoznaczoności *(oznaczonych w widoku połączonym)*. Wyeliminowanie ich razem na samym końcu jest stosunkowo skomplikowanym zadaniem.
 
 ![](images/Skizze4a.png )
+
 
 
 *Zwykły szkic, całkowicie zdefiniowany przez 25 wiązań, z których tylko 5 jest wiązaniami wymiarowymi.*

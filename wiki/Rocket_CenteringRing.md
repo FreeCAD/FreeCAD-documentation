@@ -11,7 +11,8 @@
 ## Description
 
 A Centering Ring is a solid object used to hold one or more body tubes inside another body tube.
- ![](images/CR_with_tubes.png )  *Conical*
+ ![](images/CR_with_tubes.png )  
+*Conical*
 
 ## Usage
 
@@ -26,7 +27,8 @@ A Centering Ring is a solid object used to hold one or more body tubes inside an
 ### Notch
 
 Centering rings, especially those used for low power rocketry, often need a notch to accommodate an engine hook. The **Centering Ring** tool can generate those for you.
- ![](images/Notched_CR.png )  *Centering ring with an engine hook notch*
+ ![](images/Notched_CR.png )  
+*Centering ring with an engine hook notch*
 
 ## Properties
 

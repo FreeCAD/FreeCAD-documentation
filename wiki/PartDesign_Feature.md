@@ -40,6 +40,7 @@ The features can be placed in different categories:
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Simplified diagram of the relationships between the core objects in the program. The `PartDesign::Feature* objects are used to build parametric 3D solids, and thus are derived from the basic {{incode|Part::Feature` object.}}
 
 ## Scripting

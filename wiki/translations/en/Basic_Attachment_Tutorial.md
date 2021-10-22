@@ -295,9 +295,7 @@ Happy Attaching!
 
 {{Tutorials_navi
 
-}} {{PartDesign_Tools_navi}} {{Sketcher_Tools_navi}} 
-
-_
+}} {{PartDesign_Tools_navi}} {{Sketcher_Tools_navi}}
 
 ---
 [documentation index](../README.md) > Basic Attachment Tutorial/en

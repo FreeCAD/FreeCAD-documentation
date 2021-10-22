@@ -11,7 +11,8 @@
 
 The **Std UnitsCalculator** command opens the Units calculator dialog box. The Units calculator can be used to convert values from one unit system to another.
 
-![](images/Units_Calculator_it.png ) *The Units calculator dialog box*
+![](images/Units_Calculator_it.png ) 
+*The Units calculator dialog box*
 
 ## Usage
 

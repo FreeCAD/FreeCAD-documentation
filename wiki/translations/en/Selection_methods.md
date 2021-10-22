@@ -42,6 +42,7 @@ After pressing **OK**, the selected objects are copied into memory, and then can
 ![](images/ObjectSelection.png )
 
 
+
 *Object selection dialog that is launched from the [selection view](Selection_view.md).*
 
 ## Tree view 

@@ -13,7 +13,8 @@
 
 Der Befehl **Std Neue Ansicht** erstellt eine neue [3D-Ansicht für](3D_view/de.md) das aktive Dokument. Mit 3D-Ansichten kann man auch sein Modell aus verschiedenen Blickrichtungen oder mit unterschiedlicher Ansichtsgröße (zoom) ansehen.
 
-![](images/ViewCreate1.png ) *Die FreeCAD-Ansicht mit mehreren 3D-Ansichten*
+![](images/ViewCreate1.png ) 
+*Die FreeCAD-Ansicht mit mehreren 3D-Ansichten*
 
 ## Anwendung
 

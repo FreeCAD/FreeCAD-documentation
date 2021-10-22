@@ -11,6 +11,7 @@ Certaines propriétés de la vue, telles que la couleur d\'arrière-plan, le sty
 <img alt="" src=images/FreeCAD_3D_view.png  style="width:600px;">
 
 
+
 *La [vue 3D](3D_view/fr.md) est une composante de l'[interface](interface/fr.md) de FreeCAD. Par défaut, elle affiche un petit widget avec les axes de coordonnées et le cube de navigation, également avec des axes de coordonnées. La grille peut être affichée et configurée en chargeant l'[atelier Draft](Draft_Workbench/fr.md).*
 
 ## Actions

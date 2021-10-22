@@ -9,6 +9,7 @@ Il menu principale standard di FreeCAD consente di accedere agli strumenti che v
 {{StdMenu| File &nbsp;&nbsp;&nbsp; Modifica &nbsp;&nbsp;&nbsp; Visualizza &nbsp;&nbsp;&nbsp; Strumenti &nbsp;&nbsp;&nbsp; Macro &nbsp;&nbsp;&nbsp; Finestre &nbsp;&nbsp;&nbsp; Aiuto }}
 
 
+
 *Il menu standard*
 
 ## Sottomenu

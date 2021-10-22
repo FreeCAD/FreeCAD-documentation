@@ -28,6 +28,7 @@ Das Trimex Werkzeug stutzt oder streckt [Entwurf Linien](Draft_Line/de.md) und [
 <div class="mw-translate-fuzzy">
 
 
+
 *Drahtsegment gestreckt, dann Drahtsegment gestutzt; Fläche zu einem festen Körper extrudiert*
 
 

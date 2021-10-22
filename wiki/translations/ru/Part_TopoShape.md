@@ -12,9 +12,11 @@ Another type of class is that of [meshes](Mesh.md); this class is not very param
 ![](images/Shape_and_mesh.svg )
 
 
+
 *Left: parametric _, defined by vertices and triangular surfaces.*
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Simplified diagram of the relationships between the core objects in the program. The `Part::TopoShape* class is embedded in the {{incode|Part::Feature` object and from there it is propagated to all objects that are derived from it.}}

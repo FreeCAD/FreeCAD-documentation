@@ -28,6 +28,7 @@ Questo strumento converte i segmenti di una linea spezzata, qui definita [Polili
 <div class="mw-translate-fuzzy">
 
 
+
 *Conversione di una polilinea in una B-Spline e di una B-spline chiusa in un contorno chiuso*
 
 

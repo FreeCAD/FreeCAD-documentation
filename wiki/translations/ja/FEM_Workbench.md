@@ -32,6 +32,7 @@ FreeCAD 0.15以降、FEM WorkbenchはWindows、MacOSX、Linuxプラットフォ�
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;">
 
 
+
 *Workflow of the FEM Workbench; the workbench calls two external programs to perform meshing of a solid object, and perform the actual solution of the finite element problem*
 
 ## メニュー：モデル

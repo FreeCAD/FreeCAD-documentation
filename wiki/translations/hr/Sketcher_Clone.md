@@ -25,9 +25,10 @@ Note that a clone of a clone becomes a Sketcher Copy. If you wish to create link
 
 1.  Select the sketch elements to clone.
 2.  Click on **<img src=images/Sketcher_Clone.svg style="width:16px"> <img src=images/Sketcher_Clone.svg style="width:Sketcher Clone](Sketcher_Clone.md)** or choose **Sketch → Sketcher tools  → [16px"> Clone** from the top menu.
-3.  Place clone in the [3D view](3D_view.md).
+3.  Move the mouse in the [3D view](3D_view.md) to the desired location for the clone.By keeping **SHIFT** pressed, the angle to the location point can be fixed in steps of 5°. <small>(v0.20)</small> 
+4.  Left-click in the 3D view to create the clone.
 
-No extra constraints for clone-behaviour are added.
+No extra constraints are added for the clone.
 
 
 

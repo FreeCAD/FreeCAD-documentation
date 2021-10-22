@@ -15,7 +15,8 @@
 
 L\'outil FHNode insère un objet de nœud FastHenry.
 
-![](images/EM_FHNode_Example.png ) *FastHenry FHNode*
+![](images/EM_FHNode_Example.png ) 
+*FastHenry FHNode*
 
 ## Utilisation
 

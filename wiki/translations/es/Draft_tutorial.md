@@ -79,7 +79,8 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
     :5.4. Repeat the process for the other side of the arc to close the profile.
 
     <img src=images/01_Dr01_Draft_Arc_profile.png style="width:x400px">
-    *Closed profile created by two arcs and two lines.*
+    
+*Closed profile created by two arcs and two lines.*
 
     == Fusión o composición ==
 
@@ -120,7 +121,8 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
     The rectangle, the circle, the polygon, and most other objects created with the [Draft Workbench](Draft_Workbench.md) share many data and view properties because they are derived from the same base class, [Part Part2DObject](Part_Part2DObject.md).
 
     <img src=images/02_Dr01_Draft_Rectangle_circle_polygon.png style="width:x400px">
-    *Rectangle, circle and polygon added.*
+    
+*Rectangle, circle and polygon added.*
 
     == Arrays ==
 
@@ -136,7 +138,8 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
     The array object shows copies of the object around the origin.
 
     <img src=images/03_Dr01_Draft_PolarArray.png style="width:x400px">
-    *Polar array of the small profile centered around the origin.*
+    
+*Polar array of the small profile centered around the origin.*
 
     == Dimensiones ==
 
@@ -156,7 +159,8 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
     Remember to adjust the **Font Size**, and other properties to see the dimension correctly.
 
     <img src=images/04_Dr01_Draft_Dimension.png style="width:x400px">
-    *Dimensions that measure the vertical distance from the origin to the top of the circle, arcs, and polygon.*
+    
+*Dimensions that measure the vertical distance from the origin to the top of the circle, arcs, and polygon.*
 
     == Textos y cuerdas de forma ==
 
@@ -175,7 +179,8 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
     :15.5. When a valid font file has been specified, you may proceed to click **OK** or press **Enter**.
 
     <img src=images/05_Dr01_Draft_Text_ShapeString.png style="width:x400px">
-    *Text and ShapeString objects added.*
+    
+*Text and ShapeString objects added.*
 
     To extrude letters and engrave them on to solids, see the [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md).
 
@@ -198,7 +203,8 @@ Este tutorial utiliza la notación {{Value|(x, y, z)}} para denotar las coordena
     Learn more about the [TechDraw Workbench](TechDraw_Workbench.md) by reading the [Basic TechDraw Tutorial](Basic_TechDraw_Tutorial.md).
 
     <img src=images/06_Dr01_Draft_TechDraw_page.png style="width:x400px">
-    *TechDraw page with a projection of the shapes created with the Draft Workbench.*
+    
+*TechDraw page with a projection of the shapes created with the Draft Workbench.*
 
     TechDraw works best with objects that have a [Part TopoShape](Part_TopoShape.md). Since some objects from Draft, like [Draft Texts](Draft_Text.md) and [Draft Dimensions](Draft_Dimension.md), don't have such "[shapes](Shape.md)", some operations of TechDraw don't work with these elements.
 

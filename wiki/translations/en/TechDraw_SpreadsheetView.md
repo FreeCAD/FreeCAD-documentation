@@ -11,7 +11,8 @@
 
 This tool allows you to place a view of a selected [spreadsheet](Spreadsheet_Workbench.md) on a [Page](TechDraw_Workbench.md).
 
-![](images/TechDraw_Spreadsheetview.png ) *Spreadsheet element inserted in the TechDraw drawing page*
+![](images/TechDraw_Spreadsheetview.png ) 
+*Spreadsheet element inserted in the TechDraw drawing page*
 
 ## Usage
 

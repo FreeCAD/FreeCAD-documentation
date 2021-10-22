@@ -19,7 +19,8 @@ Ortogonal este (conform Wikipedia):
 
 The **Std OrthographicCamera** command switches the camera in the active [3D view](3D_view.md) to orthographic view mode. In this mode, objects that are further from the camera do not appear smaller than those that are closer.
 
-![](images/Std_OrthographicCamera_example.svg ) *Two cubes with the same dimensions in orthographic view*
+![](images/Std_OrthographicCamera_example.svg ) 
+*Two cubes with the same dimensions in orthographic view*
 
 
 <div class="mw-translate-fuzzy">

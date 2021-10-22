@@ -13,9 +13,11 @@
 
 Polecenie przełącz *Płaszczyznę przecinającą* tymczasowo ukrywa obiekty i ich części po jednej stronie maksymalnie trzech wirtualnych płaszczyzn w aktywnym [widoku 3D](3D_view/pl.md).
 
-![](images/Std_ToggleClipPlane_example.png ) *Przycięty pusty obiekt.*
+![](images/Std_ToggleClipPlane_example.png ) 
+*Przycięty pusty obiekt.*
 
-![](images/Std_ToggleClipPlane_taskpanel.png ) *Panel zadań funkcji przycinania*
+![](images/Std_ToggleClipPlane_taskpanel.png ) 
+*Panel zadań funkcji przycinania*
 
 ## Użycie
 

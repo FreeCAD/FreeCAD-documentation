@@ -61,4 +61,4 @@ new_obj = Arch.meshToShape(Box)
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/en
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch MeshToShape/en

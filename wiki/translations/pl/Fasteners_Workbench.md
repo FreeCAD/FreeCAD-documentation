@@ -38,7 +38,8 @@ To środowisko pracy może być zainstalowane z <img alt="" src=images/Std_Addon
 
 Środowisko pracy Elementy Złączne posiada dwa paski narzędzi. Pasek narzędzi **FS Screws** zawiera wiele narzędzi. W razie potrzeby można go rozwinąć, naciskając przycisk **&gt;&gt;**.
 
-![](images/Fasteners_toolbars.png ) *Paski narzędzi środowiska Element złączne*
+![](images/Fasteners_toolbars.png ) 
+*Paski narzędzi środowiska Element złączne*
 
 ## Przybory
 
@@ -64,7 +65,11 @@ Szczegółowy opis znajduje się na stronie [domowej](http://theseger.com/projec
 
 -   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Zmiana parametrów](Fasteners_ChangeParameters/pl.md): umożliwia dokonanie zmian parametrów wybranych elementów złącznych.
 
-### Samokontrujące elementy złączne i elementy złączne do PCB 
+### Elementy złączne 
+
+**Uwaga:** Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze jasnopomarańczowym. Elementy złączne o wymiarach calowych posiadają zielone ikony.
+
+#### Samokontrujące elementy złączne i elementy złączne do PCB 
 
 -   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> Nakrętka metryczna samokontrująca.
 
@@ -76,7 +81,9 @@ Szczegółowy opis znajduje się na stronie [domowej](http://theseger.com/projec
 
 -   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> **PCB** Przekładka metryczna żeńska/żeńska.
 
-### Elementy złączne DIN, EN oraz ISO 
+#### Elementy złączne DIN, EN oraz ISO 
+
+Elementy złączne ISO, DIN i EN są wymiarowane metrycznie.
 
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> **ISO 4017** Śruba z łbem sześciokątnym. Klasy produktów A i B.
 
@@ -162,7 +169,9 @@ Szczegółowy opis znajduje się na stronie [domowej](http://theseger.com/projec
 
 -   <img alt="" src=images/Fasteners_DIN985.svg  style="width:32px;"> **DIN 985** Nakrętka Nyloc.
 
-### Elementy złączne ASME 
+#### Elementy złączne ASME 
+
+Elementy złączne ASME są wymiarowane w calach.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC Śruba z łbem sześciokątnym.
 

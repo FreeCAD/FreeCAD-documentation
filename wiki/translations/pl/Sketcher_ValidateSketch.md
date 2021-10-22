@@ -13,7 +13,8 @@
 
 Narzędzie **Sprawdzanie poprawności szkicu** może być używane do analizowania i naprawiania szkicu, który nie jest już edytowalny lub ma nieprawidłowe wiązania, lub do dodawania brakujących [zbieżności punktów](Sketcher_ConstrainCoincident/pl.md) do szkicu utworzonego z importowanej geometrii, takiej jak pliki DXF. Może być również przydatny do zlokalizowania brakującej zbieżności w rodzimym szkicu, który generuje błąd **nie można zatwierdzić uszkodzonej powierzchni** podczas próby zastosowania elementu ze środowiska Projekt części.
 
-![](images/Sketcher_ValidateSketch_taskpanel.png ) *Panel zadań sprawdzania poprawności w środowisku pracy Szkicownik*
+![](images/Sketcher_ValidateSketch_taskpanel.png ) 
+*Panel zadań sprawdzania poprawności w środowisku pracy Szkicownik*
 
 ## Użycie
 

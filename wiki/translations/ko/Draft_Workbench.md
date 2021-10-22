@@ -24,7 +24,8 @@ The Draft Workbench also provides tools to define a [working plane](Draft_Select
 
 If your primary goal is the production of complex 2D drawings and [DXF](DXF.md) files, and you don\'t need 3D modelling, FreeCAD may not be the right choice for you. You may wish to consider a dedicated software program for technical drafting instead, such as [LibreCAD](https://en.wikipedia.org/wiki/LibreCAD) or [QCad](https://en.wikipedia.org/wiki/QCad).
 
-![](images/Draft_Workbench_Example.png ) *The image shows the [grid](Draft_Snap_Grid.md) aligned with the XY plane.<br>
+![](images/Draft_Workbench_Example.png ) 
+*The image shows the [grid](Draft_Snap_Grid.md) aligned with the XY plane.<br>
 On the left, in white, several planar objects.<br>
 On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of a [Draft PathArray](Draft_PathArray.md).*
 
@@ -63,6 +64,8 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 -   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Facebinder](Draft_Facebinder.md): creates a surface object from selected faces.
 
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [ShapeString](Draft_ShapeString.md): creates a compound shape that represents a text string.
+
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the faces of a selected object. <small>(v0.20)</small> 
 
 ## Annotation
 
@@ -196,9 +199,7 @@ The Draft Snap toolbar allows selecting the active snap options. The buttons bel
 
 -   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> _. <small>(v0.19)</small> 
 
--   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> _.
-
--   <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:32px;"> [Toggle normal/wireframe display](Draft_ToggleDisplayMode.md): switches the **Display Mode** property of selected objects between {{Value|Flat Lines}} and {{Value|Wireframe}}.
+-   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> _ and moves selected objects to that group. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> _. It can also ungroup objects.
 
@@ -206,15 +207,19 @@ The Draft Snap toolbar allows selecting the active snap options. The buttons bel
 
 -   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> _.
 
+-   <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:32px;"> [Toggle normal/wireframe display](Draft_ToggleDisplayMode.md): switches the **Display Mode** property of selected objects between {{Value|Flat Lines}} and {{Value|Wireframe}}.
+
+-   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> _.
+
 ## Additional tools 
 
 The **Draft → Utilities** menu contains several tools. Most of them can also be accessed from toolbars or the [Draft Tray](Draft_Tray.md) and have already been mentioned above. For the following tools this is not the case:
 
+-   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Apply current style](Draft_ApplyStyle.md): applies the current style settings to selected objects.
+
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Heal](Draft_Heal.md): heals problematic Draft objects found in very old files.
 
 -   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md): switches continue mode on or off.
-
--   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Apply current style](Draft_ApplyStyle.md): applies the current style settings to selected objects.
 
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> _.
 
@@ -224,15 +229,15 @@ The **Draft → Utilities** menu contains several tools. Most of them can also b
 -   [Snapping](Draft_Snap.md): select exact geometric points on, or defined by, existing objects or the grid.
 -   [Constraining](Draft_Constrain.md): for each subsequent point you can constrain the movement of the cursor to the X, Y, or Z direction.
 -   [Construction mode](Draft_ToggleConstructionMode.md): places new Draft objects in a dedicated group making it easier to hide or delete them.
--   [Pattern](Draft_Pattern.md): Draft objects with a **Make Face** property can display a hatch pattern instead of a solid face color.
+-   [Pattern](Draft_Pattern.md): Draft objects with a **Make Face** property can display an SVG pattern instead of a solid face color.
 
 ## Tree view context menu 
 
 The following additional options are available in the [Tree view](Tree_view.md) context menu:
 
-### Selection options 
+### Default options 
 
-If there is a selection the context menu contains one additional sub-menu:
+If there is an active document the context menu contains one additional sub-menu:
 
 -    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
@@ -270,17 +275,9 @@ For a [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md) these additional opt
 
 The following additional options are available in the [3D view](3D_view.md) context menu:
 
-### No-selection options 
+### Default options 
 
-If there is no selection the context menu contains one additional sub-menu:
-
--    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
-
-### Selection options 
-
-If there is a selection the context menu contains two additional sub-menus:
-
--    **Draft**: tools for [drawing objects](#Drafting.md) and [modifying objects](#Modification.md).
+If there is an active document the context menu contains one additional sub-menu:
 
 -    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
@@ -291,14 +288,6 @@ These commands are obsolete but still available:
 -   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> _ or a [circular array](Draft_CircularArray.md) by changing its **Array Type** property. {{Obsolete|0.19}}
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> _ page. {{Obsolete|0.17}}
-
-These [3D view](3D_view.md) context menu options are still available when the [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft CubicBezCurve](Draft_CubicBezCurve.md) or [Draft BezCurve](Draft_BezCurve.md) command is active but will be removed in the near future:
-
--   <img alt="" src=images/Draft_UndoLine.svg  style="width:32px;"> [Undo last segment](Draft_Wire#Options.md): use the {{button|<img src="images/Draft_UndoLine.svg" width=16px> Undo}} button in the task panel of the command instead. {{Obsolete|0.20}}
-
--   <img alt="" src=images/Draft_FinishLine.svg  style="width:32px;"> [Finish line](Draft_Wire#Options.md): use the **<img src="images/Draft_FinishLine.svg" width=16px> Finish** button in the task panel of the command instead. {{Obsolete|0.20}}
-
--   <img alt="" src=images/Draft_CloseLine.svg  style="width:32px;"> [Close line](Draft_Wire#Options.md): use the **<img src="images/Draft_CloseLine.svg" width=16px> Close** button in the task panel of the command instead. {{Obsolete|0.20}}
 
 ## Preferences
 
@@ -342,9 +331,6 @@ doc = dto.create_test_file()
 ```
 
 Inspecting the code of this module can help to understand the programming interface.
-
-<img alt="" src=images/Draft_test_objects.png  style="width:500px;"> 
-*Test objects for the Draft Workbench.*
 
 ## Tutorials
 

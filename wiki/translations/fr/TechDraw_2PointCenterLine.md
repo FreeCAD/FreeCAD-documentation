@@ -17,6 +17,7 @@ L\'outil Ligne centrale entre 2 points ajoute une ligne centrale entre deux somm
 <img alt="" src=images/CL2PointsSample.png  style="width:200px;">
 
 
+
 *Ligne centrale entre 2 points*
 
 ## Utilisation

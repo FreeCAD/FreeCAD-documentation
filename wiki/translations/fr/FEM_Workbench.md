@@ -27,6 +27,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;">
 
 
+
 *Flux de travail de l'atelier FEM ; le plan de travail appelle deux programmes externes pour effectuer le maillage d'un objet solide et pour résoudre le problème des éléments finis*
 
 ## Menu : Modèle 

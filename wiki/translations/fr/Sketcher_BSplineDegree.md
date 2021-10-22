@@ -14,7 +14,8 @@
 
 Montre ou masque l\'affichage du **degré** d\'une courbe B-spline (voir [cette page](B-Splines/fr.md) pour plus d\'informations sur les B-splines).
 
-![](images/Sketcher_B-spline_example01.png ) *Une courbe B-spline. Le chiffre vert "3" au centre indique le degré de la courbe B-spline.*
+![](images/Sketcher_B-spline_example01.png ) 
+*Une courbe B-spline. Le chiffre vert "3" au centre indique le degré de la courbe B-spline.*
 
 ## Utilisation
 

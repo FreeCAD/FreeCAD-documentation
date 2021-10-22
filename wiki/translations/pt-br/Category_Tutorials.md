@@ -5,7 +5,7 @@ Special pages are [Offsite tutorials](Offsite_tutorials/pt-br.md) and [Video tut
 
 ### Contents:
 
-_ , [Tutorials/pt-br](Tutorials/pt-br.md) , [VRML Preparation for Robot Simulation/pt-br](VRML_Preparation_for_Robot_Simulation/pt-br.md)
+_ , _ , [Tutorials/pt-br](Tutorials/pt-br.md) , [Video tutorials/pt-br](Video_tutorials/pt-br.md) , [VRML Preparation for Robot Simulation/pt-br](VRML_Preparation_for_Robot_Simulation/pt-br.md)
 
 _
 

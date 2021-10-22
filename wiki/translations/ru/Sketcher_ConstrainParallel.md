@@ -21,6 +21,7 @@ The sketch contains two randomly oriented lines.
 <img alt="" src=images/ConstrainParallel1.png  style="width:500px;">
 
 
+
 *Select both lines by clicking successively on each of them.*
 
 <img alt="" src=images/ConstrainParallel2.png  style="width:500px;">
@@ -32,6 +33,7 @@ Apply the Constrain Parallel constraint by either:
 -   Use the **Sketch → Sketcher constraints → Constrain parallel** entry from the top menu.
 
 <img alt="" src=images/ConstrainParallel3.png  style="width:500px;">
+
 
 
 *Result: The selected lines are forced to be parallel to each other. Changing the orientation of one line will change the orientation of the other to be the same.*

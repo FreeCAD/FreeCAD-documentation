@@ -21,6 +21,7 @@ Per raggruppare gli oggetti 3D come una singola unità, con l\'intenzione di cre
 ![](images/Std_Group_example.png )
 
 
+
 *Vari elementi all'interno di Gruppo nella vista ad albero.*
 
 ## Utilizzo
@@ -72,6 +73,7 @@ Vedere [App FeaturePython](App_FeaturePython/it.md) per le proprietà di base de
 Un _ (`App::DocumentObject` class), e viene incrementato con un\'estensione del Gruppo.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Schema semplificato delle relazioni tra gli oggetti principali del programma. La classe `App::DocumentObjectGroup* è un semplice contenitore che utilizza l'estensione Gruppo per poter contenere qualsiasi tipo di oggetto.`

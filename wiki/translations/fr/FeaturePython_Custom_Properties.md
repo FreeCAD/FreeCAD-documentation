@@ -1,34 +1,36 @@
 # FeaturePython Custom Properties/fr
 {{TOCright}}
 
-
-<div class="mw-translate-fuzzy">
-
-**Espace réservé pour les descriptions détaillées des propriétés des fonctions de Python**
-
-
-</div>
+## Introduction
 
 Les propriétés sont les briques de base de construction des objets FeaturePython. Grâce à eux, l\'utilisateur pourra interagir et modifier son objet. Après avoir créé un nouvel objet FeaturePython dans votre document (obj=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\",\"Box\")), vous pouvez obtenir une liste des propriétés disponibles en tapant: 
 ```python
 obj.supportedProperties()
-```
+``` Vous obtiendrez une liste des propriétés disponibles.
+
+##  Créer un objet FeaturePython et lui ajouter une propriété 
 
 
 <div class="mw-translate-fuzzy">
 
-Vous obtiendrez une liste des propriétés disponibles:
+Ce code créera un objet avec le nom interne `InternalObjectName` (automatiquement renommé en `InternalObjectName001` et ainsi de suite, si un objet nommé `InternalObjectName` existe déjà) et lui donnera l\'étiquette personnalisée `User-friendly label`. (cette étiquette sera affichée dans la [Vue en arborescence](Tree_view/fr.md) et la [Vue combinée](Combo_view/fr.md). Les [Expressions](Expressions/fr.md) peuvent faire référence à cet objet par son étiquette en utilisant `<<User-friendly label>>`.
 
 
 </div>
-
-This code will create an object with internal name `InternalObjectName` (automatically renamed to `InternalObjectName001` and so on, if an object named `InternalObjectName` already exists) and give it the user-friendly label `User-friendly label` (this label will be displayed in the [Tree view](Tree_view.md) and [Combo view](Combo_view.md). [Expressions](Expressions.md) can refer to this object by its label using `<<User-friendly label>>`.
 
 
 ```python
 obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
 obj.Label = "User-friendly label"
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+Pour ajouter une propriété à cet objet, utilisez la forme longue de `addProperty` comme indiqué ci-dessous. FreeCAD divisera automatiquement `ThePropertyName` et l\'affichera avec des espaces (`The Property Name`) dans l\' [Onglet Données de la vue Propriété](Property_editor/fr#Vue_et_Propri.C3.A9t.C3.A9s_des_donn.C3.A9es.md) ou dans la [Vue combinée](Combo_view/fr.md).
+
+
+</div>
 
 
 ```python
@@ -40,14 +42,14 @@ obj.addProperty('App::PropertyBool', 'ThePropertyName', 'Subsection', "Descripti
 
 is the type of the property. The different types are described in more detail below.
 
-You can also use the short form which omits the last two arguments. The subsection defaults to `Base`, and the tooltip is not displayed with this form.
+Vous pouvez également utiliser la forme courte qui omet les deux derniers arguments. La sous-section a par défaut la valeur `Base` et l\'infobulle n\'est pas affichée avec ce formulaire.
 
 
 ```python
 obj.addProperty('App::PropertyBool', 'ThePropertyName')
 ```
 
-To get or set the property, use `obj.ThePropertyName`
+Pour obtenir ou définir la propriété, utilisez `obj.ThePropertyName`.
 
 
 ```python
@@ -58,7 +60,7 @@ obj.ThePropertyName = True
 thePropertyValue = obj.ThePropertyName
 ```
 
-If the type of the property is _, the setter has a special behaviour: setting a list of strings defines the cases allowed by the enumeration, setting a string selects one of these cases. To set the list of possible cases and set the current one, use:
+Si le type de la propriété est _, le setter a un comportement spécial : la définition d\'une liste de chaînes définit les cas autorisés par l\'énumération, la définition d\'une chaîne sélectionne l\'un de ces cas. Pour définir la liste des cas possibles et définir le cas actuel, utilisez :
 
 
 ```python
@@ -70,7 +72,7 @@ obj.ThePropertyName = "bbb"
 
 ## App::PropertyAcceleration
 
-A {{TODO}}acceleration property. It can contain {{TODO}}\"allowed type and/or values\". For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Une propriété {{TODO}} d\'accélération. Elle peut contenir des {{TODO}} \"types et/ou valeurs autorisés\". Pour plus de détails, voir la section [Créer un objet FeaturePython et lui ajouter une propriété](#Creating.md).
 
 
 ```python
@@ -83,7 +85,7 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 ## App::PropertyAngle
 
-An angle property. It can contain an `angle` value. You can use \"Value\" variable to get float variable. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+Une propriété d\'angle. Elle peut contenir une valeur `angle`. Vous pouvez utiliser la variable \"Value\" pour obtenir une variable flottante. Pour plus de détails, voir la section [Créer un objet FeaturePython et lui ajouter une propriété](#Creating.md).
 
 
 ```python
@@ -124,7 +126,7 @@ obj.ThePropertyName // returns False
 
 ## App::PropertyBoolList
 
-A property containing a list of booleans. It can contain a python list of booleans, e.g. `[True, False, True]`. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+A property containing a list of booleans. It can contain a Python list of booleans, e.g. `[True, False, True]`. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
 
 
 ```python
@@ -1258,7 +1260,7 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 
-_ _ _ _
+_ _
 
 ---
 [documentation index](../README.md) > [API](Category_API.md) > FeaturePython Custom Properties/fr

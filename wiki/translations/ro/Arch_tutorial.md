@@ -659,4 +659,4 @@ Fișierul creat pe durata acestui tutorial poate fi găsit la [here](http://yori
 }}
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch tutorial/ro
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/ro

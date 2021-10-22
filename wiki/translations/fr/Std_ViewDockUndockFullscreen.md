@@ -15,7 +15,8 @@
 
 La [Vues 3D](3D_view/fr.md) peut être déconnecté de l\'[interface de FreeCAD](Interface/fr.md) principale et déplacée vers un affichage différent par exemple.
 
-![](images/FinestraNonAgganciata.png ) *Une vue 3D undocked (séparée)*
+![](images/FinestraNonAgganciata.png ) 
+*Une vue 3D undocked (séparée)*
 
 ## Docked
 

@@ -15,7 +15,8 @@ Before [FCGear Workbench](FCGear_Workbench.md) can be started, it must be instal
 
 :   ![](images/FCGear_Drop-down-menu_example-en.png )
 :   
-    *The FCGear Drop down menu*
+    
+*The FCGear Drop down menu*
     
 
 ## Tipos de engranajes 
@@ -24,49 +25,56 @@ Before [FCGear Workbench](FCGear_Workbench.md) can be started, it must be instal
 
 :   ![](images/Involute-Gear_example.png )
 :   
-    *From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear InvoluteGear](FCGear_InvoluteGear.md))*
+    
+*From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear InvoluteGear](FCGear_InvoluteGear.md))*
     
 
 ### Involute Rack 
 
 :   ![](images/Involute-Rack_example.png )
 :   
-    *From left to right: Spur gearing, helical gearing, double helical gearing (See [FCGear InvoluteRack](FCGear_InvoluteRack.md))*
+    
+*From left to right: Spur gearing, helical gearing, double helical gearing (See [FCGear InvoluteRack](FCGear_InvoluteRack.md))*
     
 
 ### Engranaje cicloide 
 
 :   ![](images/Cycloid-Gear_example_1.png )
 :   
-    *From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear CycloideGear](FCGear_CycloideGear.md))*
+    
+*From left to right: Spur gearing, helical gearing, double helical gearing (see [FCGear CycloideGear](FCGear_CycloideGear.md))*
     
 
 ### Engranaje cónico 
 
 :   ![](images/Bevel-Gear_example.png )
 :   
-    *From left to right: Spur gearing, spiral gearing (see [FCGear BevelGear](FCGear_BevelGear.md))*
+    
+*From left to right: Spur gearing, spiral gearing (see [FCGear BevelGear](FCGear_BevelGear.md))*
     
 
 ### Engranaje sinfín 
 
 :   ![](images/Worm-Gear_example.png )
 :   
-    *Above: Worm gear (see [FCGear WormGear](FCGear_WormGear.md))*
+    
+*Above: Worm gear (see [FCGear WormGear](FCGear_WormGear.md))*
     
 
 ### Engranaje de la corona 
 
 :   ![](images/Crown-Gear_example.png )
 :   
-    *Above: Crown gear (see [FCGear CrownGear](FCGear_CrownGear.md))*
+    
+*Above: Crown gear (see [FCGear CrownGear](FCGear_CrownGear.md))*
     
 
 ### Timing Gear and Lantern Gear 
 
 :   ![](images/Timing+Latern-gear_example.png )
 :   
-    *From left to right: Timing gearing, lantern gearing (see [FCGear TimingGear](FCGear_TimingGear.md) or [FCGear LanternGear](FCGear_LanternGear.md))*
+    
+*From left to right: Timing gearing, lantern gearing (see [FCGear TimingGear](FCGear_TimingGear.md) or [FCGear LanternGear](FCGear_LanternGear.md))*
     
 
 ## Referencias

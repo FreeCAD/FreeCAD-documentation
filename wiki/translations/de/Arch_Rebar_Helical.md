@@ -20,6 +20,7 @@ Dieser Befehl ist Teil des _ über das Menü **Werkzeuge → Addon-Manager → R
 :   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width:80px;">
 
 
+
 *Ein fortlaufender spiralförmiger Bewehrungsstab in einer [Struktur](Arch_Structure/de.md)*
 
 ## Anwendung
@@ -36,6 +37,7 @@ Dieser Befehl ist Teil des _ über das Menü **Werkzeuge → Addon-Manager → R
 10. Klicke **Abbrechen** zum Verlassen des Aufgaben-Paneels.
 
 :   <img alt="" src=images/HelicalRebarDialog.png  style="width:250px;">
+
 
 
 *Aufgaben-Ansicht für das Arch Bewehrungsstab spiralförmig-Werkzeug*

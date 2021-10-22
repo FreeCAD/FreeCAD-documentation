@@ -13,7 +13,8 @@
 
 Der **Std Ausrichtung** Befehl richtet ein Objekt in Bezug auf ein festes Referenzobjekt unter Nutzung eines oder mehrerer Punktepaare aus.
 
-![](images/Std_Alignment_example.png ) *Die Befehlsschnittstelle nach zwei Punktepaaren wurde definiert*
+![](images/Std_Alignment_example.png ) 
+*Die Befehlsschnittstelle nach zwei Punktepaaren wurde definiert*
 
 ## Anwendung
 

@@ -1,4 +1,13 @@
 # Topological data scripting/it
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/it|[Script per Mesh](Mesh_Scripting/it.md)|[Da Mesh a Parte e viceversa](Mesh_to_Part/it.md)}}
+
+
+</div>
+
+
 {{TOCright}}
 
 ## Introduzione
@@ -1465,9 +1474,18 @@ Per convertire un file **.stp** in un file **.igs** fare:
 {{Top}}
 
 
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/it|[Script per Mesh](Mesh_Scripting/it.md)|[Da Mesh a Parte e viceversa](Mesh_to_Part/it.md)}}
+
+
+</div>
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

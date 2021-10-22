@@ -344,9 +344,16 @@ As usual you can modify the tool bars and add or remove single tools. Be sure to
 
 [inicio](#top.md)
 
+
+<div class="mw-translate-fuzzy">
+
 ### Restricciones
 
 El diseñador utiliza las restricciones para conseguir el resultado deseado en la relación de dos partes. El arte consiste en la selección de las restricciones adecuadas que mejor se adaptan a cada problema. Cada GL (grado de libertad) eliminado debería, en teoría, ser eliminado sólo una vez entre dos objetos, pero en la práctica, con muchas herramientas CAD, las restricciones seleccionadas causan combinaciones de exceso de restricciones, a menudo compensadas por complejos algoritmos, a veces no. Assembly3 utiliza algoritmos para detectar y compensar el exceso de restricciones, pero es evidente que aún no están muy maduros. Así que en la práctica, para Assembly3 las restricciones evitan problemas al ser conscientes de cuántos grados de libertad (GL) se han utilizado y cuáles quedan por bloquear mediante restricciones. Ninguna pieza debería tener una conexión por restricciones que utilice más de 6GL.
+
+
+</div>
+
 
 :   Note: If the solver meets a combination that can not be solved, it will give an error. It is very difficult for the solver to find out what caused the problem, so typically from this error given it will not be clear *where* the problem is. In larger assemblies this can lead to complex problem searches. Unfortunately there is no easy way to avoid this. However, it helps to be fully aware how the system works (.e.g see [Elements](#Elements.md) below), use clear names for all components involved and only ever add additional constraints when the solver solves the current assembly. Very helpful to track down a problem is the \"ContexMenu/Deactivate\" function of each Constraint.
 

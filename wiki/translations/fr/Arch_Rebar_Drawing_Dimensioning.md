@@ -19,6 +19,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width:800px;">
 
 
+
 *Dessin et dimensionnement des armatures*
 
 ## Utilisation

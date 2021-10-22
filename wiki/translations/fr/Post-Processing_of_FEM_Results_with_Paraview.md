@@ -1,8 +1,8 @@
 # Post-Processing of FEM Results with Paraview/fr
 {{TutorialInfo/fr
-|Topic= Post-traitement des résultats FEM avec Paraview
-|Level= Intermédiaire
-|Time= 120 minutes
+|Topic=Post-traitement des résultats FEM avec Paraview
+|Level=Intermédiaire
+|Time=120 minutes
 |Author=[http://www.freecadweb.org/wiki/index.php?title=User: HarryvL]
 |FCVersion=0.19
 |Files=[https://forum.freecadweb.org/download/file.php?id=103403 beam] et [https://forum.freecadweb.org/download/file.php?id=103557 wall] dans ce [https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734 fil du forum Freecad]
@@ -21,13 +21,13 @@ Certains messages et tutoriels sur le forum utilisent Paraview pour examiner et 
 
 ## Transfert de données depuis l\'atelier FEM 
 
-Dans l\'atelier FEM, mettez en surbrillance l\'objet CCX\_Results. Ensuite, utilisez l\'option de menu **Fichier> Exporter> FEM result VTK (*.vtk *.vtu)** pour exporter les données VTK.
+Dans l\'atelier FEM, mettez en surbrillance l\'objet CCX\_Results. Ensuite, utilisez l\'option de menu **Fichier > Exporter > FEM result VTK (*.vtk *.vtu)** pour exporter les données VTK.
 
 ## Importation de données dans Paraview 
 
 L\'écran de démarrage affiche un navigateur de pipeline vide. C\'est là que les objets de données VTK importés et les objets de filtre appliqués (pour la géométrie ou les données) seront visibles. <img alt="" src=images/PVPic1.png  style="width:500px;">
 
-Utilisez l\'option de menu **File> Open> *.vtk** pour ouvrir le fichier VTK généré avec l\'atelier FEM.
+Utilisez l\'option de menu **File > Open > *.vtk** pour ouvrir le fichier VTK généré avec l\'atelier FEM.
 
 <img alt="" src=images/PVPic2.png  style="width:500px;">
 
@@ -65,7 +65,7 @@ Jusqu\'à présent, aucun résultat n\'est affiché. Pour cela, nous devons chan
 
 <img alt="" src=images/PVPic9.png  style="width:400px;">
 
-Aux fins de ce tutoriel, nous choisissons ReinforcementRatio\_x mais il est facile de passer à n\'importe quel type de données.
+Pour les besoins de ce tutoriel, nous avons choisi ReinforcementRatio\_x, mais il est facile de le changer par n\'importe quel type de données.
 
 La fenêtre RenderView affichera maintenant un iso-plot du type de données sélectionné et une légende de couleur de la plage de données.
 
@@ -75,7 +75,7 @@ La légende des couleurs peut être déplacée à un emplacement plus pratique e
 
 <img alt="" src=images/PVPic11.png  style="width:700px;">
 
-Alternativement, les paramètres de la légende des couleurs peuvent être contrôlés de manière très détaillée en ouvrant la boîte de dialogue Modifier les propriétés de la légende des couleurs depuis l\'onglet Propriétés (appuyez sur la dernière icône à droite).
+Il est également possible de contrôler les paramètres de la légende des couleurs de manière très détaillée en ouvrant la boîte de dialogue Modifier les propriétés de la légende des couleurs à partir de l\'onglet Propriétés (cliquez sur la dernière icône à droite).
 
 <img alt="" src=images/PVPic12.png  style="width:400px;">
 

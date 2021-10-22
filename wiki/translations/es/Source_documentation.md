@@ -27,6 +27,7 @@ La compilación de la documentación de la API sigue los mismos pasos generales 
 <img alt="" src=images/FreeCAD_documentation_compilation_workflow.svg  style="width:800px;">
 
 
+
 *Flujo de trabajo general para compilar la documentación de programación de FreeCAD. Los paquetes Doxygen y Graphviz deben estar en el sistema, así como el propio código fuente de FreeCAD. CMake configura el sistema de manera que con una sola instrucción de fabricación la documentación de todo el proyecto se compila en muchos archivos HTML con diagramas.*
 
 ## Construcción de la documentación del código fuente 

@@ -41,6 +41,7 @@ Atelierul de Randare funcționează împreună cu modulele [templates](Raytracin
 <img alt="" src=images/Raytracing_Workbench_workflow.svg  style="width:600px;">
 
 
+
 *Workflow of the Raytracing Workbench; atelierul de lucru pregătește un fișier de proiect dintr-un șablon dat și apoi apelează un program extern pentru a produce randarea reală a scenei. Programul de randare extern poate fi folosit independent de FreeCAD.*
 
 ## Instrumente

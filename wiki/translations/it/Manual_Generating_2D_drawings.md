@@ -207,4 +207,4 @@ La pagina può essere esportato in formato SVG per essere ulteriormente lavorata
 _
 
 ---
-[documentation index](../README.md) > Manual:Generating 2D drawings/it
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Generating 2D drawings/it

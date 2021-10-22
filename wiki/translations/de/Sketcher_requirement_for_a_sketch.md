@@ -16,6 +16,7 @@ Dass eine geschlossene Kurve vorliegt, ist nicht selbstverständlich und nicht e
 ![](images/Skizze2a.png )
 
 
+
 *Eine einfache Skizze. 
 Links: Kurve nur an vier Stellen (rot, automatische Beschränkungen beim Zeichnen mit <img src=images/_Sketcher_CreatePolyline.svg style="width:32px"> [Polylinie](Sketcher_CreatePolyline/de.md)) geschlossen. 
 Mitte: Warnung - ... gebrochene Fläche (gebrochene Kurve). 
@@ -28,6 +29,7 @@ Konsequentes parametrisches Arbeiten bedeutet allerdings, dass die Skizze vollst
 Selbst eine noch relativ einfache Skizze kann schon Dutzende von Unbestimmtheiten (in der Combo-Ansicht als Zahl von \"Freiheitsgraden\" angegeben) enthalten. Sie erst am Ende alle gemeinsam zu beseitigen, ist eine relativ unübersichtliche Arbeit.
 
 ![](images/Skizze4a.png )
+
 
 
 *Eine einfache Skizze; vollständig bestimmt durch 25 Beschränkungen, von denen nur 5 Bemaßungsbeschränkungen sind.*

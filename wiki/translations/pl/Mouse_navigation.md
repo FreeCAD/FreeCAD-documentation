@@ -11,8 +11,8 @@ Ruch myszką używany do manipulacji obiektem różni się w zależności od wyb
 
 Istnieją dwa sposoby zmiany stylu nawigacji:
 
--   W menu [Edytor preferencji](Preferences_Editor/pl#Nawigacja.md), {{MenuCommand/pl|Edycja → Preferencje → Wyświetlanie → Widok 3D → Nawigacja 3D}}.
--   Klikając prawym przyciskiem myszy w pustym miejscu okienka widoku 3D, a następnie wybierając {{MenuCommand/pl|Style Nawigacji}} w menu kontekstowym.
+-   W menu [Edytor preferencji](Preferences_Editor/pl#Nawigacja.md), **Edycja → Preferencje → Wyświetlanie → Widok 3D → Nawigacja 3D**.
+-   Klikając prawym przyciskiem myszy w pustym miejscu okienka widoku 3D, a następnie wybierając **Style Nawigacji** w menu kontekstowym.
 
 ### CAD
 

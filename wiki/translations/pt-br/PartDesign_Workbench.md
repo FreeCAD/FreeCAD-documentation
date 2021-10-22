@@ -189,7 +189,13 @@ Algumas funcionalidades adicionais encontradas no menu Design da peça:
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Cores definidas](Part_FaceColors/pt-br.md): atribui cores aos rostos das peças.
 
+
+<div class="mw-translate-fuzzy">
+
 ### Preferências
+
+
+</div>
 
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Preferências](PartDesign_Preferences/pt-br.md): preferências disponíveis para as Ferramentas PartDesign.
 -   [Sintonia fina](Fine-tuning/pt-br.md): alguns parâmetros extras para afinar o comportamento do PartDesign.

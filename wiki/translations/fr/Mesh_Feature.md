@@ -13,6 +13,7 @@ Veuillez noter que l\'**<img src="images/Workbench_FEM.svg" width=16px> [atelier
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Diagramme simplifié des relations entre les objets centraux du programme. La classe `Mesh::Feature* est à l'origine de la plupart des objets possédant un [maillage triangulaire](Mesh_MeshObject/fr.md). Ces objets sont créés à partir de l'[atelier Mesh](Mesh_Workbench/fr.md) ou en important des fichiers STL, OBJ et des formats de maillage similaires.`
 
 ## Utilisation

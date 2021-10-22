@@ -177,7 +177,13 @@ Alcune funzionalità aggiuntive che si trovano nel menu di Part Design:
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Imposta i colori](Part_FaceColors/it.md): assegna i colori alle facce delle parti.
 
+
+<div class="mw-translate-fuzzy">
+
 ### Preferenze
+
+
+</div>
 
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Preferenze](PartDesign_Preferences/it.md): preferenze disponibili negli strumenti PartDesign.
 -   [Ottimizzare l\'installazione](Fine-tuning/it.md): alcuni parametri extra per ottimizzare il comportamento di PartDesign.

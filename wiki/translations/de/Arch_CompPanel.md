@@ -22,4 +22,4 @@ Gruppierung mehrerer Paneel bezogener Werkzeuge.
 -   <img alt="" src=images/Arch_Nest.svg  style="width:32px;"> [Verschachteln](Arch_Nest/de.md): Mehrere flache Objekte innerhalb einer Behälterform verschachteln <small>(v0.17)</small>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/de
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/de

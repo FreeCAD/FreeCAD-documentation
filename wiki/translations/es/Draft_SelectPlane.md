@@ -35,6 +35,7 @@ El <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente de
 <div class="mw-translate-fuzzy">
 
 
+
 *Se pueden establecer diferentes planos de trabajo en los que dibujar las formas*
 
 

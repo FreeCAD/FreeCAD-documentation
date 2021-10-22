@@ -16,7 +16,8 @@
 
 Con il comando **Utilità di progetto** è possibile estrarre i file da un file di progetto FreeCAD ({{FileName|*.FCStd}}), che in realtà è un file [ZIP](https://en.wikipedia.org/wiki/Zip_(file_format)) e, dopo le modifiche manuali, creare un nuovo file di progetto da essi.
 
-![](images/Project_utility_en.png ) *La finestra di dialogo Utilità di progetto*
+![](images/Project_utility_en.png ) 
+*La finestra di dialogo Utilità di progetto*
 
 ## Utilizzo
 

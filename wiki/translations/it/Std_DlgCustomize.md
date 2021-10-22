@@ -9,6 +9,7 @@ Il comando **Personalizza** apre la finestra di dialogo Personalizza dando acces
 ![](images/Std_DlgCustomize_tab_Toolbars.png )
 
 
+
 *La finestra di dialogo Personalizza*
 
 ## Utilizzo

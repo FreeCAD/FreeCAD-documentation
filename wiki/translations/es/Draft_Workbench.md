@@ -13,7 +13,8 @@ The Draft Workbench also provides tools to define a [working plane](Draft_Select
 
 Si tu objetivo principal es la producción de dibujos 2D complejos y archivos [DXF](DXF/es.md), y no necesitas el modelado 3D, FreeCAD puede no ser la elección correcta para ti. Es posible que desee considerar un programa de software dedicado para el dibujo técnico en su lugar, como [LibreCAD](https://es.wikipedia.org/wiki/LibreCAD) o [QCad](https://es.wikipedia.org/wiki/QCad).
 
-![](images/Draft_Workbench_Example.png ) *The image shows the [grid](Draft_Snap_Grid.md) aligned with the XY plane.<br>
+![](images/Draft_Workbench_Example.png ) 
+*The image shows the [grid](Draft_Snap_Grid.md) aligned with the XY plane.<br>
 On the left, in white, several planar objects.<br>
 On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of a [Draft PathArray](Draft_PathArray.md).*
 
@@ -52,6 +53,8 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 -   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Facebinder](Draft_Facebinder.md): creates a surface object from selected faces.
 
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [ShapeString](Draft_ShapeString.md): creates a compound shape that represents a text string.
+
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the faces of a selected object. <small>(v0.20)</small> 
 
 ## Annotation
 
@@ -194,9 +197,7 @@ La barra de herramientas [Borrador Atrapar](Draft_Snap/es.md) permite selecciona
 
 -   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> _. <small>(v0.19)</small> 
 
--   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> _.
-
--   <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:32px;"> [Toggle normal/wireframe display](Draft_ToggleDisplayMode.md): switches the **Display Mode** property of selected objects between {{Value|Flat Lines}} and {{Value|Wireframe}}.
+-   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> _ and moves selected objects to that group. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> _. It can also ungroup objects.
 
@@ -204,15 +205,19 @@ La barra de herramientas [Borrador Atrapar](Draft_Snap/es.md) permite selecciona
 
 -   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> _.
 
+-   <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:32px;"> [Toggle normal/wireframe display](Draft_ToggleDisplayMode.md): switches the **Display Mode** property of selected objects between {{Value|Flat Lines}} and {{Value|Wireframe}}.
+
+-   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> _.
+
 ## Herramientas adicionales 
 
 Herramientas adicionales disponibles desde el menú **Bosquejo → Utilidades**, o a través del menú contextual del botón derecho, dependiendo de los objeto seleccionados.
 
+-   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Apply current style](Draft_ApplyStyle.md): applies the current style settings to selected objects.
+
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Heal](Draft_Heal.md): heals problematic Draft objects found in very old files.
 
 -   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md): switches continue mode on or off.
-
--   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Apply current style](Draft_ApplyStyle.md): applies the current style settings to selected objects.
 
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> _.
 
@@ -235,9 +240,9 @@ Herramientas adicionales disponibles desde el menú **Bosquejo → Utilidades**,
 
 The following additional options are available in the [Tree view](Tree_view.md) context menu:
 
-### Opciones de selección 
+### Default options 
 
-If there is a selection the context menu contains one additional sub-menu:
+If there is an active document the context menu contains one additional sub-menu:
 
 -    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
@@ -275,17 +280,9 @@ For a [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md) these additional opt
 
 The following additional options are available in the [3D view](3D_view.md) context menu:
 
-### Opciones no-selección 
+### Default options 
 
-If there is no selection the context menu contains one additional sub-menu:
-
--    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
-
-### Opciones de selección 
-
-If there is a selection the context menu contains two additional sub-menus:
-
--    **Draft**: tools for [drawing objects](#Drafting.md) and [modifying objects](#Modification.md).
+If there is an active document the context menu contains one additional sub-menu:
 
 -    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
@@ -308,14 +305,6 @@ Finalización línea\]\]: termina el dibujo del [Borrador Alambre](Draft_Wire/es
 </div>
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> _ page. {{Obsolete|0.17}}
-
-These [3D view](3D_view.md) context menu options are still available when the [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft CubicBezCurve](Draft_CubicBezCurve.md) or [Draft BezCurve](Draft_BezCurve.md) command is active but will be removed in the near future:
-
--   <img alt="" src=images/Draft_UndoLine.svg  style="width:32px;"> [Undo last segment](Draft_Wire#Options.md): use the {{button|<img src="images/Draft_UndoLine.svg" width=16px> Undo}} button in the task panel of the command instead. {{Obsolete|0.20}}
-
--   <img alt="" src=images/Draft_FinishLine.svg  style="width:32px;"> [Finish line](Draft_Wire#Options.md): use the **<img src="images/Draft_FinishLine.svg" width=16px> Finish** button in the task panel of the command instead. {{Obsolete|0.20}}
-
--   <img alt="" src=images/Draft_CloseLine.svg  style="width:32px;"> [Close line](Draft_Wire#Options.md): use the **<img src="images/Draft_CloseLine.svg" width=16px> Close** button in the task panel of the command instead. {{Obsolete|0.20}}
 
 ## Preferencias
 
@@ -408,17 +397,6 @@ doc = dto.create_test_file()
 <div class="mw-translate-fuzzy">
 
 Inspeccionar el código de este módulo es útil para entender cómo utilizar la interfaz de programación.
-
-
-</div>
-
-<img alt="" src=images/Draft_test_objects.png  style="width:500px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-*Test objects for the [Ambiente de trabajo Borrador](Draft_Workbench/de.md).*
 
 
 </div>

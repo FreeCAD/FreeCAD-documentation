@@ -14,7 +14,8 @@
 
 The FHSolver tool inserts a FHSolver object. 
 
-![](images/EM_FHSolver_Example.png )  *FHSolver object*
+![](images/EM_FHSolver_Example.png )  
+*FHSolver object*
 
 ## Usage
 

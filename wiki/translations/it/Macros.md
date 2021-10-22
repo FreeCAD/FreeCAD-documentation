@@ -27,7 +27,8 @@ Enable the console output in the menu **Edit → Preferences → General → Mac
 
 È molto semplice da usare: premere il pulsante di registrazione, dare un nome alla macro, quindi eseguire alcune azioni. Al termine, fare clic sul pulsante Interrompi registrazione, e le azioni compiute vengono salvate. Ora è possibile accedere alla finestra di dialogo delle macro utilizzando il pulsante Modifica,
 
-![](images/Macros.png ) *Finestra di dialogo Macro, che elenca le macro disponibili nel sistema*
+![](images/Macros.png ) 
+*Finestra di dialogo Macro, che elenca le macro disponibili nel sistema*
 
 Quì è possibile gestire le macro, eliminarle, duplicarle, installarle, modificarle o crearne di nuove partendo da zero. Quando si modifica una macro, essa viene aperta in una finestra dell\'editor in cui è possibile apportare le proprie modifiche al codice. È possibile installare delle nuove macro utilizzando il pulsante {{button|Addons ...}}, che collega al [Addon Manager](AddonManager/it.md).
 

@@ -18,7 +18,8 @@ Les addons marqués par {{emphasis|Python 2 uniquement}} ne fonctionneront pas d
 
 En raison des modifications apportées à la plate-forme GitHub en 2020, le gestionnaire de modules complémentaires ne fonctionne plus si vous utilisez des versions de FreeCAD inférieure ou égale à 0.17. Vous devez passer à la version _ ci-dessous.
 
-![](images/Std_AddonMgr_dialog.png ) *Boîte de dialogue du Gestionnaire de modules complémentaires ou Addon Manager*
+![](images/Std_AddonMgr_dialog.png ) 
+*Boîte de dialogue du Gestionnaire de modules complémentaires ou Addon Manager*
 
 ## Utilisation
 

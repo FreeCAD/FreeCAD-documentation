@@ -13,7 +13,8 @@
 
 The **Std ViewRear** command points the camera in the active [3D view](3D_view.md) in the direction of the negative Y axis.
 
- ![](images/FreeCAD_views_rear.svg )  *Arrow 4 points in the direction of the rear view*
+ ![](images/FreeCAD_views_rear.svg )  
+*Arrow 4 points in the direction of the rear view*
 
 ## Usage
 

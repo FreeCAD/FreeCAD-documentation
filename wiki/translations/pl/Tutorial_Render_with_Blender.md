@@ -26,11 +26,13 @@ Podobny opis tego procesu jest zaprezentowany w serii filmów, [Renderuj modele 
 <img alt="" src=images/01_T03_FreeCAD_Blender_model.png  style="width:600px;">
 
 
+
 *align=center|Złożenie trzech brył stworzonych w programie FreeCAD, z przypisanymi kolorami lub materiałami.*
 
 2\. Jeśli twój model jest bardzo szczegółowy, upewnij się, że wartość {{PropertyView/pl|Odchyłka}} zawartości jest ustawiona na niską wielkość, pomiędzy `0.1` a `0.01`, lub nawet mniejszą. Im niższa jest ta wartość, tym bardziej szczegółowa będzie wyeksportowana siatka, a co za tym idzie, tym lepsza będzie jakość otrzymanego renderu.
 
 ![](images/02_T03_FreeCAD_Blender_deviation.png )
+
 
 
 *align=center|Właściwość odchylenia zawartości utworzonych w programie FreeCAD. Wartość odchylenia musi być małe, aby można było eksportować części z dobrą rozdzielczością.*
@@ -140,6 +142,7 @@ for obj in bpy.data.objects:
 ![](images/03_T03_FreeCAD_Blender_imported_assembly.png )
 
 
+
 *align=center|Zespół stworzony w programie FreeCAD zaimportowany do Blendera; model został obrócony, a jednostki sceny dopasowane do zaimportowanych obiektów.*
 
 ### Przygotuj ujęcie kadru 
@@ -158,6 +161,7 @@ bpy.context.object.data.clip_end = 1e+03
 Jeśli widzisz obiekt w ujęciu widoku, możesz teraz szybko wyrenderować model, naciskając **F12**, co spowoduje otwarcie `Image Editor` z wynikiem. Naciśnij **Esc**, aby wyjść i powrócić do `3D Viewport`.
 
 <img alt="" src=images/04_T03_FreeCAD_Blender_first_render.png  style="width:600px;">
+
 
 
 *align=center|Pierwszy render montażu w Blenderze, z ujęciem z poprawnym clippingiem, ale bez oświetlenia*
@@ -197,6 +201,7 @@ Naciśnij ponownie klawisz **F12**, aby zobaczyć wstępny render modelu.
 <img alt="" src=images/05_T03_FreeCAD_Blender_render_sun_lamp.png  style="width:600px;">
 
 
+
 *align=center|Render złożenia w Blenderze z dodaną lampą słoneczną, która emituje równoległe promienie świetlne o stałym kącie*
 
 ### Więcej ustawień: podłoga, oświetlenie globalne, odbicia i miękkie cienie 
@@ -229,6 +234,7 @@ bpy.context.scene.eevee.use_soft_shadows = True
 ![](images/06_T03_FreeCAD_Blender_Principled_shader.png )
 
 
+
 *align=center|Podstawowy shader BSDF używany w Blenderze do symulacji różnych materiałów, od błyszczących metali po szorstkie i nieprzezroczyste bryły..*
 
 13.2. Zaznacz każdą z części modelu i dostosuj odpowiedni węzeł materiałowy `Principled BSDF`. W przypadku części metalowych ustaw właściwość `Metallic` na wartość `1.000`. Dostosuj wartość właściwości `Roughness`, aby mieściła się w przedziale od `0.2` do `0.7`. Im bardziej `0.000` zbliża się do wartości `Roughness`, tym bardziej będzie się odbijał *(przypominał lustro)*.
@@ -246,6 +252,7 @@ Naciśnij przycisk **F12**, aby wyświetlić widok z kamery i sprawdzić jakoś�
 15\. Jeśli Twój model wygląda w miarę dobrze z rendererem EEVEE możesz już zapisać obraz poprzez **Image → Save As** lub naciskając **Shift**+**S** w {{Incode|Image Editor}}.
 
 <img alt="" src=images/07_T03_FreeCAD_Blender_EEVEE_render.png  style="width:600px;">
+
 
 
 *align=center|Renderowane złożenie wykonane w Blenderze EEVEE. Wszystkie materiały używają shadera Principled BSDF, użyta jest tylko jedna lampa słoneczna, z niewielką ilością światła otoczenia.*
@@ -268,6 +275,7 @@ Wciśnij klawisz **F12** aby wyrenderować końcowy widok przez kamerę. W zale�
 17\. Kiedy jesteś zadowolony z jakości renderingu, w `Image Editor` przejdź do **Image → Save As** lub naciśnij **Shift**+**S**.
 
 <img alt="" src=images/08_T03_FreeCAD_Blender_Cycles_render.png  style="width:600px;">
+
 
 
 *align=center|Renderowane złożenie wyprodukowane w Blender Cycles. Wszystkie opcje, materiały i światła, które były używane w EEVEE zostały zachowane do użycia w Cycles.*

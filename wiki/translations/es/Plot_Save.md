@@ -1,6 +1,6 @@
 # Plot Save/es
 ---
-- GuiCommand:/es   Name:Plot Save   Workbenches:[[Plot Module/es   Plot]]|MenuLocation:Plot → Guardar gráfico---
+- GuiCommand:/es   Name:Plot Save   Workbenches:[[Plot_Workbench/es   Plot]]|MenuLocation:Plot → Guardar gráfico---
 
 
 </div>
@@ -31,7 +31,8 @@ Selecciona el gráfico que deseas salvar mediante las pestañas de la vista prin
 
 </div>
 
-![Path selection button](images/Plot_Save_Path.png‎ ) *Path selection button*
+![Path selection button](images/Plot_Save_Path.png‎ ) 
+*Path selection button*
 
 ## Options
 

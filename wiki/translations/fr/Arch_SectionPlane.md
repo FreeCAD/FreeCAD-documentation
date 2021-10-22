@@ -60,6 +60,7 @@ Le Plan de section seul ne permet pas de créer une vue de son ensemble d\'objet
 <img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
 
 
+
 *Le plan de coupe Arch avec l'option de vue Clip se comportera comme une caméra, limitant le champ de vision de la vue.*
 
 ## Ajustements
@@ -112,4 +113,4 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/fr
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/fr

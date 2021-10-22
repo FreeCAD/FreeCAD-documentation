@@ -24,7 +24,13 @@ Lo strumento <img alt="" src=images/SheetMetal_Junction.svg  style="width:24px;"
 
 </div>
 
-<img alt="" src=images/PostGap.png  style="width:320px;">
+This command is the second of three steps to convert a shell object made with the [Part Workbench](Part_Workbench.md) or [PartDesign Workbench](PartDesign_Workbench.md) into an unfoldable sheet metal object:
+
+1.  [SheetMetal AddRelief](SheetMetal_AddRelief.md)
+2.  [SheetMetal AddJunction](SheetMetal_AddJunction.md)
+3.  [SheetMetal AddBend](SheetMetal_AddBend.md)
+
+<img alt="" src=images/SheetMetal_ConvertShellObject-01.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-02.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-04.png  style="width:100px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -32,7 +38,8 @@ Lo strumento <img alt="" src=images/SheetMetal_Junction.svg  style="width:24px;"
 
 :   <img alt="" src=images/PostGap.png  style="width:320px;">
 :   
-    *Giunzione applicata all'angolo.
+    
+*Giunzione applicata all'angolo.
     *
     
 
@@ -41,10 +48,20 @@ Lo strumento <img alt="" src=images/SheetMetal_Junction.svg  style="width:24px;"
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 Per aggiungere la giunzione nel vertice di un angolo:
 
 1.  Iniziare con una piastra di base o un foglio, selezionare un vertice d\'angolo a cui applicare lo scarico
 2.  Fare clic sullo strumento <img alt="" src=images/SheetMetal_Junction.svg  style="width:24px;"> **Junction** per aggiungere un taglio di giunzione all\'angolo.
+
+
+</div>
+
+<img alt="" src=images/SheetMetal_ConvertShellObject-06.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-07.png  style="width:200px;">
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">
@@ -78,9 +95,15 @@ Per aggiungere la giunzione nel vertice di un angolo:
 </div>
 
 
+<div class="mw-translate-fuzzy">
+
+
 :   
 
     :   Se si inizia con un <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> Corpo di PartDesign, è possibile combinare funzioni di Sheet Metal con funzioni di PartDesign come <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> _.
+
+
+</div>
 
 ## Proprietà
 

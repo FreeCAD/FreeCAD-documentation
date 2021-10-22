@@ -108,4 +108,4 @@ It is possible to add your own properties to objects. These are called [Dynamic 
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Schedule/pt-br
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Schedule/pt-br

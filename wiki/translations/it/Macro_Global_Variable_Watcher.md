@@ -10,9 +10,22 @@
 |Download=[https://www.freecadweb.org/wiki/images/c/c1/Macro_Global_Variable_Watcher.png ToolBar Icon]
 }}
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Questa macro visualizza le variabili Python di tipo \"FreeCAD.variable1\" create nel sistema FreeCAD. L\'utente può aggiungere e rimuovere le variabili dal visualizzatore che può essere aggiornato periodicamente in modo automatico.
+
+
+</div>
+
+## Installation
+
+
+<div class="mw-translate-fuzzy">
 
 ## Installazione
 
@@ -21,23 +34,44 @@ Tutto il codice di variableWatcher.FCMacro è contenuto in una macro, quindi per
 -   Per informazioni su come installare il codice delle macro vedere la pagina [Come installare le macro](How_to_install_macros/it.md)
 -   Per informazioni su come installarla abbinata a un pulsante in una barra degli strumenti vedere la pagina [Personalizzare la barra degli strumenti](Customize_Toolbars/it.md)
 
+
+</div>
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
+
 ## Uso
 
 Selezionare le variabili globali da monitorare utilizzando il menu a comparsa di destra. Fare clic sul \"Display Now\" per visualizzare immediatamente la variabile e il suo valore, o cliccare sul \"Timer On\" per avviare un timer automatico. L\'intervallo per il timer si trova nel menu a comparsa di sinistra. La prima opzione del menu pop-up di destra, quella più in alto, serve per aggiornare l\'elenco delle variabili globali in quanto ne potrebbero essere state aggiunte di nuove, o qualcuna potrebbe essere stata sottratta al controllo del programma.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Una variabile può essere rimossa dall\'elenco di quelle controllate facendo clic destro su di essa o sul suo valore, e selezionando \"remove variable\"
+
+
+</div>
 
 ## Interfaccia utente 
 
 ![](images/MacroVariableWatcherGui1.jpg )
 
-## Opzioni
+## Remarks
 
-Non ci sono opzioni.
+
+<div class="mw-translate-fuzzy">
 
 ## Osservazioni
 
 Questa è una versione pre-release e non tutti gli aspetti sono finalizzati - in particolare l\'elencazione delle variabili globali e del loro valore
+
+
+</div>
 
 ## Script
 

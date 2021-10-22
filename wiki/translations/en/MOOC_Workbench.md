@@ -18,7 +18,8 @@ The MOOC Workbench is an [external workbench](External_workbenches.md) with whic
 **Interactive** tutorials (AKA <img alt="" src=images/MOOC_Player.svg  style="width:24px;"> Player) are step-by-step guided exercises with objective checks. It launches directly into FreeCAD and allows you to advance one step at a time of modeling of an object. The user has a text, a video and above all a check that the objectives have been achieved.
 
 <img alt="" src=images/MOOC_Player_Dialog_Context.png  style="width:1024px;"> 
-*align=center|MOOC Player Dialog within FreeCAD GUI* ![](images/MOOC_Player_Dialog.png ) *MOOC Player Dialog close up*
+*align=center|MOOC Player Dialog within FreeCAD GUI* ![](images/MOOC_Player_Dialog.png ) 
+*MOOC Player Dialog close up*
 
 ### Evaluations
 

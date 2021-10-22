@@ -21,6 +21,7 @@ Lo strumento Taglia con piano permette di tagliare un oggetto Arch secondo un pi
 <img alt="" src=images/Arch_CutPlane_example.jpg  style="width:640px;">
 
 
+
 *A sinistra: prima di applicare lo strumento Taglia con piano. Al centro: parete risultante dopo il taglio. A destra: un altro risultato opzionale*
 
 ## Utilizzo
@@ -107,4 +108,4 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/it
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutPlane/it

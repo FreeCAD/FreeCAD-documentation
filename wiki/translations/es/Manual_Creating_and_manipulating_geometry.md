@@ -33,9 +33,9 @@ Ahora podemos crear fácilmente un objeto de documento \"genérico\" en el docum
 
 ```python
 boxShape = Part.makeBox(3,5,7)
- myObj = FreeCAD.ActiveDocument.addObject("Part::Feature","MyNewBox")
- myObj.Shape = boxShape
- FreeCAD.ActiveDocument.recompute()
+myObj = FreeCAD.ActiveDocument.addObject("Part::Feature","MyNewBox")
+myObj.Shape = boxShape
+FreeCAD.ActiveDocument.recompute()
 ```
 
 Observe como manejamos miObj.Shape , note que se hace exactamente como lo hicimos en el capítulo anterior, cuando cambiamos otras propiedades de un objeto, como box.Height = 5 . De hecho, **Forma** también es una propiedad, al igual que **Altura**\'. Sólo que toma una Forma Pieza, no un número. En el próximo capítulo veremos mejor cómo se construyen estos objetos paramétricos.
@@ -45,11 +45,11 @@ Por ahora, vamos a explorar nuestras Formas Pieza con más detalle. Al final del
 
 ```python
 print(boxShape.Vertexes)
- print(boxShape.Edges)
- print(boxShape.Wires)
- print(boxShape.Faces)
- print(boxShape.Shells)
- print(boxShape.Solids)
+print(boxShape.Edges)
+print(boxShape.Wires)
+print(boxShape.Faces)
+print(boxShape.Shells)
+print(boxShape.Solids)
 ```
 
 Por ejemplo, vamos a encontrar el área de cada cara de nuestra forma de caja anterior:
@@ -79,8 +79,8 @@ Siempre podemos comprobar cuál es el tipo de una forma:
 
 ```python
 print(boxShape.ShapeType)
- print(boxShape.Faces[0].ShapeType)
- print(boxShape.Vertexes[2].ShapeType)
+print(boxShape.Faces[0].ShapeType)
+print(boxShape.Vertexes[2].ShapeType)
 ```
 
 Así que para retomar el tema de las Formas Pieza: Todo comienza con los vértices. Con uno o dos vértices, se forma una Arista (los círculos completos sólo tienen un vértice). Con una o más aristas, se forma un hilo. Con uno o más hilos cerrados, se forma una cara (los hilos adicionales se convierten en \"agujeros\" en la cara). Con una o más Caras, se forma una Cáscara. Cuando una carcasa está completamente cerrada (hermética), se puede formar un sólido a partir de ella. Y, por último, se puede unir cualquier número de formas de cualquier tipo, lo que se denomina un compuesto.
@@ -98,9 +98,9 @@ En primer lugar, vamos a crear los cuatro puntos base:
 
 ```python
 V1 = FreeCAD.Vector(0,10,0)
- V2 = FreeCAD.Vector(30,10,0)
- V3 = FreeCAD.Vector(30,-10,0)
- V4 = FreeCAD.Vector(0,-10,0)
+V2 = FreeCAD.Vector(30,10,0)
+V3 = FreeCAD.Vector(30,-10,0)
+V4 = FreeCAD.Vector(0,-10,0)
 ```
 
 Entonces podemos crear los dos segmentos lineales:
@@ -127,9 +127,9 @@ te mostrará qué tipo de arista es, es decir, si está basada en una línea, en
 
 ```python
 VC1 = FreeCAD.Vector(-10,0,0)
- C1 = Part.Arc(V1,VC1,V4)
- VC2 = FreeCAD.Vector(40,0,0)
- C2 = Part.Arc(V2,VC2,V3)
+C1 = Part.Arc(V1,VC1,V4)
+VC2 = FreeCAD.Vector(40,0,0)
+C2 = Part.Arc(V2,VC2,V3)
 ```
 
 Ahora tenemos 2 líneas (L1 y L2) y 2 arcos (C1 y C2). Tenemos que convertirlos en aristas:
@@ -137,9 +137,9 @@ Ahora tenemos 2 líneas (L1 y L2) y 2 arcos (C1 y C2). Tenemos que convertirlos 
 
 ```python
 E1 = Part.Edge(L1)
- E2 = Part.Edge(L2)
- E3 = Part.Edge(C1)
- E4 = Part.Edge(C2)
+E2 = Part.Edge(L2)
+E3 = Part.Edge(C1)
+E4 = Part.Edge(C2)
 ```
 
 Alternativamente, las geometrías base también tienen una función toShape() que hace exactamente lo mismo:
@@ -147,7 +147,7 @@ Alternativamente, las geometrías base también tienen una función toShape() qu
 
 ```python
 E1 = L1.toShape()
- E2 = L2.toShape()
+E2 = L2.toShape()
  ...
 ```
 
@@ -191,7 +191,7 @@ Esto se debe a que cuando extruimos una sola Cara, siempre obtenemos un Sólido.
 
 ```python
 S = W.extrude(FreeCAD.Vector(0,0,10))
- print(s.ShapeType)
+print(s.ShapeType)
 ```
 
 Lo que, por supuesto, nos dará una carcasa hueca, a la que le faltan las caras superior e inferior.
@@ -201,8 +201,8 @@ Ahora que tenemos nuestra forma final, estamos ansiosos por verla en pantalla. A
 
 ```python
 myObj2 = FreeCAD.ActiveDocument.addObject("Part::Feature","My_Strange_Solid")
- myObj2.Shape = P
- FreeCAD.ActiveDocument.recompute()
+myObj2.Shape = P
+FreeCAD.ActiveDocument.recompute()
 ```
 
 Como alternativa, el módulo Pieza también proporciona un acceso directo que realiza la operación anterior más rápidamente (pero no se puede elegir el nombre del objeto):

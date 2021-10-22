@@ -21,6 +21,7 @@ La herramienta **Simetría** realiza una operación de simetría o espejo sobre 
 ![](images/PartDesign_Mirrored_example.svg )
 
 
+
 *Arriba: Una operación de vaciado fue creada desde un boceto que contenía un círculo (A). Dicho vaciado fue usado posteriormente para crear una operación de Simetría. El eje vertical del boceto (B) se usó como eje de simetría. El resultado se muestra a la derecha. (C) *
 
 ## Uso

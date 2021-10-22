@@ -23,7 +23,8 @@ If you only want to produce a single view, there is no advantage in using Projec
 2.  Press the **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Insert Projection Group](TechDraw_ProjectionGroup.md)** button.
 3.  A dialog will open in which you can select which views should appear in the group, the group\'s scale and other parameters:
 
-![](images/TaskProjGroup.png ) *Projection Group [task panel](Task_panel.md). The central field indicates the current view direction with percentages of the x, y and z-axes.*
+![](images/TaskProjGroup.png ) 
+*Projection Group [task panel](Task_panel.md). The central field indicates the current view direction with percentages of the x, y and z-axes.*
 
 After you created the Projection Group you can move the group as a whole by dragging the central view. You can also move the projection views by dragging.
 

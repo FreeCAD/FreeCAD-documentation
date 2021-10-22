@@ -17,9 +17,11 @@ Gli strumenti Gmsh e Netgen supportano i corpi mesh creati in [Part](Part_Workbe
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;">
 
 
+
 *L'ambiente FEM chiama lo strumento esterno Gmsh per ottenere una mesh da un corpo solido creato con qualsiasi ambiente in FreeCAD; può anche importare una mesh creata esternamente*
 
 <img alt="" src=images/FEM_Mesh.png  style="width:600px;">
+
 
 
 *(1) Corpo solido creato con PartDesign; (2) mesh prodotta dallo strumento Gmsh all'interno di FEM (tutti triangoli); e (3) mesh prodotta esternamente da Gmsh, esportata nel formato Abaqus {{FileName|.inp*, e poi importata in FreeCAD (tutti quadrangoli)}}

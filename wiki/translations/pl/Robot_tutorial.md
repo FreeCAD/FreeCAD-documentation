@@ -12,7 +12,8 @@
 
 W tym poradniku przedstawiono, jak korzystać z <img alt="" src=images/_Workbench_Robot.svg  style="width:24px;"> [Środowiska pracy Robot](Robot_Workbench/pl.md) do symulacji konfiguracji jednostki robota.
 
-![](images/Robot_Tutorial_RobotSimulation.gif ) *Efekt końcowy tego poradnika.*
+![](images/Robot_Tutorial_RobotSimulation.gif ) 
+*Efekt końcowy tego poradnika.*
 
 ## Przed rozpoczęciem 
 

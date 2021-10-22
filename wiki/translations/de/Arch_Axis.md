@@ -12,7 +12,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das **<img src="images/Arch_Axis.svg" width=16px> [Architektur Achsen](Arch_Axis/de.md)** Werkzeug ermöglicht es dir, eine Reihe von Achsen im aktuellen Dokument zu platzieren. Der Abstand und der Winkel zwischen den Achsen ist anpassbar, ebenso wie der Nummerierungsstil. Die Achsen dienen hauptsächlich als Referenzen, auf die Objekte gefangen werden, können aber auch zusammen mit **<img src="images/Arch_Axis_System.svg" width=16px> [ Architektur AchsenSysteme](Arch_AxisSystem.md)** verwendet werden und kann auch von anderen Architekturobjekten referenziert werden, um parametrische Anordnungen, z.B. von Trägern oder Stützen, zu erstellen. **<img src="images/Arch_Grid.svg" width=16px> [Architektur Gitter](Arch_Grid/de.md)** können auch an Stellen von Achsen verwendet werden.
+
+
+</div>
 
 <img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;"> 
 *Zwei Achsenobjekte, die rechtwinklig zueinander ausgerichtet sind, um ein Raster zu erzeugen*
@@ -25,10 +31,16 @@ Das **<img src="images/Arch_Axis.svg" width=16px> [Architektur Achsen](Arch_Axis
 
 ## Optionen
 
+
+<div class="mw-translate-fuzzy">
+
 -   Jede Achse in der Abfolge hat ihren eigenen Abstand und Winkel in Bezug auf die vorherige Achse. Dies ermöglicht sehr komplexe Systeme wie nicht-orthogonale Systeme, polare Systeme oder jede Art von nicht-uniformem System.
 -   Durch Doppelklicken auf die Achse in der Baumansicht erlaubt das bearbeiten der Abstände, Winkel und Beschriftungen jeder Achse
 -   Achslänge, Größe der Blasen und Nummerierungsstile sind direkt über die Eigenschaften des Achsensystems anpassbar.
 -   Jede Achse kann auch eine Beschriftung anzeigen, die auch über den Dialog des Aufgabenpaneel bearbeitet werden kann.
+
+
+</div>
 
 ## Eigenschaften
 
@@ -93,4 +105,4 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Axis/de
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/de

@@ -1,158 +1,157 @@
 # Basic Sketcher Tutorial/es
-<div class="mw-translate-fuzzy">
-
-
 {{TutorialInfo/es
-|Topic= Sketcher
-|Level= Beginner
-|Time= 10 minutes
-|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei]
-|FCVersion=0.16 or above
-|Files=
+|Topic=Croquizador
+|Level=Principiante
+|Time=60 minutos
+|Author=[http://freecadweb.org/wiki/index.php?title=User:Drei Drei] y vocx
+|FCVersion=0.19
+|Files=[https://forum.freecadweb.org/viewtopic.php?f=36&t=43594 Basic Sketcher tutorial updated]
 }}
 
+## Introducción
 
-</div>
+Este tutorial fue escrito originalmente por Drei, y fue reescrito e ilustrado por vocx.
 
-## Introduction
+Este tutorial pretende introducir al lector en el flujo de trabajo básico del <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md).
 
-This tutorial was originally written by Drei, and it was rewritten and illustrated by vocx.
+El <img src=images/PartDesign_Pad.svg style="width:Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md) existe como un módulo independiente, por lo que puede ser utilizado para dibujar objetos genéricos en 2D (planos). Sin embargo, se utiliza principalmente junto con el <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo de DiseñoPiezas](PartDesign_Workbench/es.md). Un croquis cerrado se utiliza normalmente para crear una cara o un perfil que se extruirá en un [cuerpo](PartDesign_Body/es.md) sólido con una operación como **[16px"> [DiseñoPiezas Pastilla](PartDesign_Pad/es.md)**.
 
-This tutorial is meant to introduce the reader to the basic workflow of the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md).
+El lector practicará:
 
-The <img src=images/PartDesign_Pad.svg style="width:Sketcher Workbench](Sketcher_Workbench.md) exists as a standalone module, so it can be used to draw generic 2D (planar) objects. However, it is mostly used in conjunction with the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md). A closed sketch is normally used to create a face or a profile to be extruded into a solid [body](PartDesign_Body.md) with an operation such as **[16px"> [PartDesign Pad](PartDesign_Pad.md)**.
+-   La creación de geometría de construcción
+-   Creación de geometría real
+-   Aplicación de restricciones geométricas
+-   Aplicación de restricciones de datos
+-   Obtención de un perfil cerrado
 
-The reader will practice:
+Para una descripción más profunda del croquizador, lee la [Referencia del croquizador](Sketcher_reference/es.md).
 
--   Creating construction geometry
--   Creating real geometry
--   Applying geometric constraints
--   Applying datum constraints
--   Obtaining a closed profile
+![](images/00_Sk01_Sketcher_fully_constrained_final.png ) 
+*Resultado final del croquis, con toda la geometría totalmente restringida, incluida la geometría de construcción para el soporte.*
 
-For a more in depth description of the sketcher, read the [Sketcher reference](Sketcher_reference.md).
+## Instalación
 
-![](images/00_Sk01_Sketcher_fully_constrained_final.png ) *Final result of the sketch, with all geometry fully constrained, including construction geometry for support.*
+1\. Abre FreeCAD, crea un nuevo documento vacío con **Archivo → <img src=images/Std_New.svg style="width:16px"> [Nuevo](Std_New/es.md)**.
 
-## Setup
+:   1.1. Cambie al [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md) desde el [selector ambiente de trabajo](Std_Workbench/es.md), o el menú **[Vista](Std_View_Menu/es.md) → Ambiente de trabajo → Croquizador**.
 
-1\. Open FreeCAD, create a new empty document with **File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)**.
+Algunas acciones para recordar:
 
-:   1.1. Switch to the [Sketcher Workbench](Sketcher_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu **[View](Std_View_Menu.md) → Workbench → Sketcher**.
+-   Pulsar el botón derecho del ratón, o pulsar **Esc** en el teclado una vez, para deseleccionar la herramienta activa en el modo de edición.
+-   Para salir del modo de edición de croquis, pulse el botón **Cerrado** en el [panel de tareas](task_panel/es.md), o pulse **Esc** dos veces en el teclado.
+-   Para entrar de nuevo en el modo de edición, haz doble clic en el croquis en la <img src=images/Sketcher_EditSketch.svg style="width:vista de árbol](tree_view/es.md), o selecciónalo, y luego haz clic en el **[16px"> [Editar croquis](Sketcher_EditSketch/es.md)**.
 
-Some actions to remember:
+## Crear un croquis 
 
--   Press the right mouse button, or press **Esc** in the keyboard once, to deselect the active tool in edit mode.
--   To exit the sketch edit mode, press the **Close** button in the [task panel](task_panel.md), or press **Esc** twice in the keyboard.
--   To enter again edit mode, double click on the sketch in the <img src=images/Sketcher_EditSketch.svg style="width:tree view](tree_view.md), or select it, and then click on **[16px"> [Edit sketch](Sketcher_EditSketch.md)**.
+2\. Haga clic en **<img src="images/Sketcher_NewSketch.svg" width=16px> [Nuevo croquis](Sketcher_NewSketch/es.md)**.
 
-## Create a sketch 
+:   2.1. Elige la orientación del croquis, es decir, uno de los planos base XY, XZ o YZ. Elija también si desea una orientación invertida, y un desplazamiento del plano base.
+:   2.2. Utilizaremos el plano y las opciones por defecto.
+:   2.3. Haga clic en **Aceptar** para empezar a construir el croquis.
 
-2\. Click on **<img src="images/Sketcher_NewSketch.svg‎‎" width=16px> [New sketch](Sketcher_NewSketch.md)**.
-
-:   2.1. Choose the sketch orientation, that is, one of the base XY, XZ, or YZ planes. Also choose if you want an inverted orientation, and an offset from the base plane.
-:   2.2. We will use the default plane and options.
-:   2.3. Click **OK** to start constructing the sketch.
-
-We are now inside the sketch edit mode. Within it, we\'re able to make use of the majority of the tools of this workbench.
+Ahora estamos dentro del modo de edición de croquis. Dentro de él, podemos hacer uso de la mayoría de las herramientas de este ambiente de trabajo.
 
 
-**Note:**
+**Nota:**
 
-the [tree view](tree_view.md) will switch to the [task panel](task_panel.md); in this interface expand the **Edit controls** section, and make sure the **Auto constraints** option is enabled. Other options can be changed including the size of the visible grid, and whether we want to snap to it; in this tutorial we will not snap to the grid and we will also hide it. In other sections of the [task panel](task_panel.md) you can also see which geometrical elements and constraints have been defined.
+la [vista de árbol](tree_view/es.md) cambiará al [panel de tareas](task_panel/es.md); en esta interfaz expande la sección **Controles de edición**, y asegúrate de que la opción **Restricciones automáticas** está activada. Otras opciones se pueden cambiar, incluyendo el tamaño de la rejilla visible, y si queremos ajustarnos a ella; en este tutorial no nos ajustaremos a la rejilla y también la ocultaremos. En otras secciones del [panel de tareas](task_panel/es.md) también se puede ver qué elementos geométricos y restricciones se han definido.
 
 <img alt="" src=images/01_Sk01_Sketcher_Task_panel.png  style="width:" height="400px;">
 
 
-*Upper part of the [task panel](task_panel.md) of the sketcher.*
 
-## Construction geometry 
+*Parte superior del [panel de tareas](task_panel/es.md) del croquizador.*
 
-3\. Construction geometry is used to guide the creation of \"real\" geometry. Real geometry will be the one shown outside of the sketch edit mode, while construction geometry will only be shown inside the edit mode. Therefore, you can use as much construction geometry as you need to build real shapes.
+## Geometría de la construcción 
 
-:   3.1. Click on **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> [Toggle construction](Sketcher_ToggleConstruction.md)**. Now geometrical elements will be drawn in **Construction mode**.
-:   3.2. Click on **<img src="images/Sketcher_Line.svg" width=16px> [Create line](Sketcher_CreateLine.md)**.
-:   3.3. Approach the **origin** of the sketch, the point should highlight and near your cursor the <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [coincident constraint](Sketcher_ConstrainCoincident.md) icon will appear.
-:   3.4. Click on the point, then move the pointer to start drawing a new line from it. Move the pointer so that the line has a length to around {{Value|30 mm}}. You don\'t have to be very precise in this step; later we will set the correct dimension.
-:   3.5. Repeat this procedure four more times to place construction lines in a star pattern. Don\'t worry too much about their size or position, just extend them in the four quadrants.
-:   3.6. Now exit construction mode by clicking again on **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction](Sketcher_ToggleConstruction.md)**.
+3\. La geometría de construcción se utiliza para guiar la creación de la geometría \"real\". La geometría real será la que se muestre fuera del modo de edición del croquis, mientras que la geometría de construcción sólo se mostrará dentro del modo de edición. Por lo tanto, puede utilizar tanta geometría de construcción como necesite para construir formas reales.
 
-
-**Note:**
-
-up to this point the [line tool](Sketcher_CreateLine.md) is still active. This means we can keep clicking on the [3D view](3D_view.md) to draw as many lines as we want. If we wish to exit this tool, we can press the right mouse button, or press **Esc** in the keyboard once. By doing this the pointer won\'t create lines any more, it will just be a pointer allowing us to select the objects we just created. In this pointer mode we can pick and drag the endpoints of each line to adjust its placement.
+:   3.1. Haz clic en **<img src="images/Sketcher_ToggleConstruction.svg" width=16px> [Conmutar construcción](Sketcher_ToggleConstruction/es.md)**. Ahora los elementos geométricos se dibujarán en **Modo de construcción**.
+:   3.2. Haz clic en **<img src="images/Sketcher_Line.svg" width=16px> [Crear línea](Sketcher_CreateLine/es.md)**.
+:   3.3. Acércate al **origen** del croquis, el punto debe resaltar y cerca de tu cursor el <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [coincidente de restricción](Sketcher_ConstrainCoincident/es.md) aparecerá.
+:   3.4. Haga clic en el punto y mueva el puntero para empezar a dibujar una nueva línea a partir de él. Mueva el puntero para que la línea tenga una longitud de alrededor de {{Value|30 mm}}. No tiene que ser muy preciso en este paso; más tarde estableceremos la dimensión correcta.
+:   3.5. Repita este procedimiento cuatro veces más para colocar las líneas de construcción en forma de estrella. No te preocupes demasiado por su tamaño o posición, simplemente extiéndelas en los cuatro cuadrantes.
+:   3.6. Ahora sal del modo de construcción haciendo clic de nuevo en **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Conmutar construcción](Sketcher_ToggleConstruction/es.md)**.
 
 
-**Note 2:**
+**Nota:**
 
-do not press **Esc** a second time as this will exit the sketch edit mode. If you do this, re-enter the edit mode by double clicking on the sketch in the [tree view](tree_view.md).
+hasta este punto la herramienta [línea](Sketcher_CreateLine/es.md) sigue activa. Esto significa que podemos seguir haciendo clic en la [Vista 3D](3D_view/es.md) para dibujar todas las líneas que queramos. Si queremos salir de esta herramienta, podemos pulsar el botón derecho del ratón, o pulsar **Esc** en el teclado una vez. Al hacer esto el puntero ya no creará líneas, sólo será un puntero que nos permitirá seleccionar los objetos que acabamos de crear. En este modo de puntero podemos elegir y arrastrar los puntos finales de cada línea para ajustar su colocación.
 
-Take a look at the [task panel](task_panel.md) again. The **Solver messages** section already indicates that the sketch is under-constrained, and it mentions the number of **degrees of freedom**.
 
-Look at the **Constraints** and **Elements** sections to see the new listed constraints and lines. Once your sketches have many elements, it may be difficult to select them in the [3D view](3D_view.md), so you can use these lists to select the object that you wish exactly.
+**Nota 2:**
+
+no pulse **Esc** por segunda vez, ya que saldrá del modo de edición de croquis. Si lo hace, vuelva a entrar en el modo de edición haciendo doble clic en el croquis en la [vista de árbol](tree_view/es.md).
+
+Echa un vistazo al [panel de tareas](task_panel/es.md) de nuevo. La sección **Mensajes del solucionador** ya indica que el croquis está poco restringido, y menciona el número de **grados de libertad**.
+
+Mira las secciones **Restricciones** y **Elementos** para ver la nueva lista de restricciones y líneas. Cuando tus croquis tengan muchos elementos, puede ser difícil seleccionarlos en la [Vista 3D](3D_view/es.md), así que puedes usar estas listas para seleccionar el objeto que desees exactamente.
 
 <img alt="" src=images/02_Sk01_Sketcher_construction.png  style="width:" height="400px;">
 
 
-*Construction lines forming a star shape with its center in the origin.*
 
-## Real geometry 
+*Líneas de construcción que forman una forma de estrella con su centro en el origen.*
 
-Real geometry must make a closed shape if it is to be used as a profile that can be extruded by tools such as **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Pad](PartDesign_Pad.md)**.
+## Geometría real 
 
-Make sure you are not in construction mode by clicking on **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction](Sketcher_ToggleConstruction.md)**, if you have not previously exited this mode.
+La geometría real debe hacer una forma cerrada si se va a utilizar como un perfil que pueda ser extruido por herramientas como **<img src=images/PartDesign_Pad.svg style="width:16px"> [DiseñoPiezas Pastilla](PartDesign_Pad/es.md)**.
 
-### Outer arcs 
+Asegúrate de que no estás en modo construcción haciendo clic en **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Conmutar construcción](Sketcher_ToggleConstruction/es.md)**, si no has salido previamente de este modo.
 
-4\. Create a circle.
+### Arcos exteriores 
 
-:   4.1. Click on **<img src=images/Sketcher_Circle.svg style="width:16px"> [Create circle](Sketcher_CreateCircle.md)**.
-:   4.2. Click on the **origin** of the sketch to position its center point.
-:   4.3. Click anywhere in the [3D view](3D_view.md) to set the circumference radius as a distance from the origin. Make it approximately {{Value|8 mm}}. Again the dimension will be fixed later.
+4\. Crea un círculo.
 
-5\. Create a series of arcs.
+:   4.1. Haz clic en **<img src=images/Sketcher_Circle.svg style="width:16px"> [Crear círculo](Sketcher_CreateCircle/es.md)**.
+:   4.2. Haz clic en el **origen** del croquis para posicionar su punto central.
+:   4.3. Haga clic en cualquier lugar de la [Vista 3D](3D_view/es.md) para establecer el radio de la circunferencia como una distancia desde el origen. Que sea aproximadamente {{Value|8 mm}}. De nuevo, la dimensión se fijará más tarde.
 
-:   5.1. Click on **<img src=images/Sketcher_Arc.svg style="width:16px"> [Create arc](Sketcher_CreateArc.md)**.
-:   5.2. Approach the endpoint of one of the construction lines, and click on it. This will set the center point of the circular arc to be <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [coincident](Sketcher_ConstrainCoincident.md) with this line\'s endpoint.
-:   5.3. Click once in the [3D view](3D_view.md) at an arbitrary location to set simultaneously the radius of the arc, and the first endpoint of it. Define an approximate radius of {{Value|8 mm}}.
-:   5.4. Move the pointer in an anti-clockwise direction to trace an arc that has its concavity pointing towards the origin of the sketch. Click to set the final endpoint of the arc, defining a circular arc that approximately sweeps {{Value|180°}} or half a circle.
-:   5.5. Repeat these steps with each construction line, so that each of them has a circular arc at its tip. We will call these O-arcs for outwards-arcs.
+5\. Crea una serie de arcos.
+
+:   5.1. Haga clic en **<img src=images/Sketcher_Arc.svg style="width:16px"> [Crear arco](Sketcher_CreateArc/es.md)**.
+:   5.2. Acércate al punto final de una de las líneas de construcción y haz clic sobre ella. Esto hará que el punto central del arco circular sea <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [coincidente](Sketcher_ConstrainCoincident/es.md) con el punto final de esta línea.
+:   5.3. Haga clic una vez en la [Vista 3D](3D_view/es.md) en un lugar arbitrario para establecer simultáneamente el radio del arco, y el primer punto final del mismo. Defina un radio aproximado de {{Value|8 mm}}.
+:   5.4. Mueva el puntero en sentido contrario a las agujas del reloj para trazar un arco cuya concavidad apunte hacia el origen del croquis. Haga clic para fijar el punto final del arco, definiendo un arco circular que barre aproximadamente {{Value|180°}} o media circunferencia.
+:   5.5. Repita estos pasos con cada línea de construcción, de modo que cada una de ellas tenga un arco circular en su extremo. Llamaremos a estos arcos O por arcos hacia afuera.
 
 <img alt="" src=images/03_Sk01_Sketcher_outer_arcs.png  style="width:" height="400px;">
 
 
-*Circular arcs added at the endpoints of the construction lines. Also a central circle.*
 
-### Inner arcs 
+*Arcos circulares añadidos en los puntos finales de las líneas de construcción. También un círculo central.*
 
-6\. Create an arc between each pair of the previous O-arcs.
+### Arcos interiores 
 
-:   6.1. Still with the **<img src=images/Sketcher_Arc.svg style="width:16px"> [Create arc](Sketcher_CreateArc.md)** tool active, click somewhere between two O-arcs but further away from the origin of the sketch, to set the center point of a new arc.
-:   6.2. Click somewhere close to the endpoint of one O-arc, and move the pointer to sweep another arc finishing close to another endpoint of a different O-arc, as if you were trying to join the endpoints. This time the concavity must point away from the origin.
-:   6.3. Repeat these steps, so that each pair of O-arcs has a new arc between them. We will call these I-arcs for inwards-arcs.
+6\. Crear un arco entre cada par de los anteriores O-arcos.
 
-To summarize, the O-arcs should have their curvature pointing outwards, and their concavity pointing towards the origin of the sketch; the I-arcs should have their curvature pointing inwards, and their concavity pointing away from the same origin.
+:   6.1. Todavía con el **<img src=images/Sketcher_Arc.svg style="width:16px"> [Crear arco](Sketcher_CreateArc/es.md)** hierramenta activo, haz clic en algún lugar entre dos O-arcos pero más lejos del origen del croquis, para establecer el punto central de un nuevo arco.
+:   6.2. Haga clic en algún lugar cerca del punto final de un arco en O, y mueva el puntero para barrer otro arco que termine cerca de otro punto final de un arco en O diferente, como si tratara de unir los puntos finales. Esta vez la concavidad debe apuntar lejos del origen.
+:   6.3. Repite estos pasos, de modo que cada par de arcos en O tenga un nuevo arco entre ellos. Los llamaremos arcos I por arcos hacia adentro.
+
+En resumen, los arcos O deben tener su curvatura hacia fuera y su concavidad hacia el origen del croquis; los arcos I deben tener su curvatura hacia dentro y su concavidad hacia fuera del mismo origen.
 
 <img alt="" src=images/04_Sk01_Sketcher_inner_arcs.png  style="width:" height="400px;">
 
 
-*Circular arcs added between the first set of arcs placed.*
 
-## Constraints
+*Arcos circulares añadidos entre el primer conjunto de arcos colocados.*
 
-Take a look at the [task panel](task_panel.md) again. Due to the new geometrical elements that we have drawn, the **Solver messages** section indicates even more **degrees of freedom**. A **degree of freedom** (DOF) indicates a possible movement of one element. For example, a point can be moved both in horizontal and vertical directions, so it has two degrees of freedom. A line is defined by two points, therefore in total it has four degrees of freedom. If we fix one of those points, then the entire system has only two degrees of freedom available; if we additionally fix the horizontal movement of the remaining point, we only have one degree of freedom left; and if we also fix the vertical movement of this point, then the last degree of freedom disappears, and the line cannot move from its position any more.
+## Restricciones
 
-Up to now when we have drawn lines and curves, the sketcher has added automatic constraints for us, those that keep the lines tied to the origin, and the O-arcs tied to the construction lines. But we haven\'t added other explicit constraints so the geometrical shapes can still be moved in many directions. **Constraints are \"rules\" that tell us under which conditions a geometrical object can move and by how much.** They are used to eliminate the degrees of freedom so that the sketch has a stable shape. If we eliminate all degrees of freedom, then the sketch is **fully constrained**, and has a fixed shape, that is, its points cannot move at all. In general, it is a good idea to fully constrain sketches because this will result in stable models.
+Vuelve a echar un vistazo al [panel de tareas](task_panel/es.md). Debido a los nuevos elementos geométricos que hemos dibujado, la sección **Mensajes del solucionador** indica aún más **grados de libertad**. Un **grado de libertad** (DOF) indica un posible movimiento de un elemento. Por ejemplo, un punto se puede mover tanto en dirección horizontal como vertical, por lo que tiene dos grados de libertad. Una línea está definida por dos puntos, por lo que en total tiene cuatro grados de libertad. Si fijamos uno de esos puntos, entonces todo el sistema sólo dispone de dos grados de libertad; si además fijamos el movimiento horizontal del punto restante, sólo nos queda un grado de libertad; y si también fijamos el movimiento vertical de este punto, entonces el último grado de libertad desaparece, y la línea ya no puede moverse de su posición.
 
-There are two principal types of constraints:
+Hasta ahora, cuando hemos dibujado líneas y curvas, el croquis ha añadido restricciones automáticas por nosotros, las que mantienen las líneas atadas al origen, y los arcos en O atados a las líneas de construcción. Pero no hemos añadido otras restricciones explícitas para que las formas geométricas puedan seguir moviéndose en muchas direcciones. Las restricciones son \"reglas\" que nos dicen bajo qué condiciones puede moverse un objeto geométrico y en qué medida\". Sirven para eliminar los grados de libertad de forma que el boceto tenga una forma estable. Si eliminamos todos los grados de libertad, entonces el croquis está **totalmente restringido**, y tiene una forma fija, es decir, sus puntos no pueden moverse en absoluto. En general, es una buena idea restringir completamente los croquis porque esto dará lugar a modelos estables.
 
--    **Geometric constraints**define characteristics of the shapes without specifying exact dimensions, for example, horizontality, verticality, parallelism, perpendicularity, and tangency.
+Hay dos tipos principales de restricciones:
 
--    **Datum constraints**define characteristics of the shapes by specifying dimensions, for example, a numeric length or an angle.
+-    **Las restricciones geométricas**definen las características de las formas sin especificar las dimensiones exactas, por ejemplo, la horizontalidad, la verticalidad, el paralelismo, la perpendicularidad y la tangencia.
 
-## Geometric constraints 
+-    **Las restricciones de datos**definen las características de las formas especificando las dimensiones, por ejemplo, una longitud numérica o un ángulo.
 
-### Equal length and radius 
+## Restricciones geométricas 
+
+### Igualdad de longitud y radio 
 
 7\. Geometrically constrain the lines and arcs.
 
@@ -193,9 +192,10 @@ if you wish to temporarily disable the constraint, you may select it and press *
 <img alt="" src=images/05c_Sk01_Sketcher_equality_constraints_I-arcs.png  style="width:" height="400px;">
 
 
+
 *Sketch with equality constraints applied to the construction lines, and to the two sets of arcs.*
 
-### Tangency
+### Tangencia
 
 8\. Apply tangency to the arcs.
 
@@ -213,13 +213,14 @@ As of this step, we have now created a closed profile, as all arcs have been tie
 <img alt="" src=images/06_Sk01_Sketcher_tangency_constraints.png  style="width:" height="400px;">
 
 
+
 *Sketch with tangential constraints applied to the arcs, which closes the shape.*
 
-## Datum constraints 
+## Restricciones de los datos 
 
 These constraints specify the numerical distances between two points, and angles between two lines.
 
-### Distances and angles 
+### Distancias y ángulos 
 
 9\. Adjust the size of the construction lines.
 
@@ -239,9 +240,10 @@ These constraints specify the numerical distances between two points, and angles
 <img alt="" src=images/07a_Sk01_Sketcher_length_constraint.png  style="width:" height="400px;"> <img alt="" src=images/07b_Sk01_Sketcher_angle_constraint.png  style="width:" height="400px;">
 
 
+
 *Sketch with length constraint applied to one vertical construction line (left), and angle constraints to three pairs of construction lines (right).*
 
-### Radius
+### Radio
 
 11\. Adjust the size of the arcs.
 
@@ -255,6 +257,7 @@ These constraints specify the numerical distances between two points, and angles
 <img alt="" src=images/08a_Sk01_Sketcher_radius_1_constraint.png  style="width:" height="400px;"> <img alt="" src=images/08b_Sk01_Sketcher_radius_2_constraint.png  style="width:" height="400px;">
 
 
+
 *Sketch with radius constraints applied to the outwards arcs (left), and inwards arcs (right).*
 
 
@@ -265,32 +268,34 @@ We should end up with a fully constrained sketch. It can be confirmed by noticin
 <img alt="" src=images/09_Sk01_Sketcher_fully_constrained.png  style="width:" height="400px;">
 
 
+
 *Sketch with all geometrical and datum constraints applied.*
 
-## Extrusion
+## Extrusión
 
-12\. Now that we have a fully constrained sketch, it can be used to create a solid body.
+12\. Ahora que tenemos un croquis totalmente restringido, puede utilizarse para crear un cuerpo sólido.
 
-:   12.1. Exit the sketch edit mode by pressing the **Close** button, or pressing **Esc** twice. The sketch should appear in the [tree view](tree_view.md) and the [3D view](3D_view.md).
-:   12.2. Switch to the [PartDesign Workbench](PartDesign_Workbench.md).
-:   12.3. With the sketch selected in the <img src=images/PartDesign_Body.svg style="width:tree view](tree_view.md), press **[16px"> [PartDesign Body](PartDesign_Body.md)**, choose the default XY-plane, and press **OK**. The sketch should appear now inside the Body.
-:   12.4. Select the sketch, and then press **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Pad](PartDesign_Pad.md)**, choose the default options, and press **OK** to create a solid extrusion.
+:   12.1. Salga del modo de edición del croquis pulsando el botón **Cerrar**, o pulsando **Esc** dos veces. El boceto debería aparecer en la [vista de árbol](tree_view/es.md) y en la [vista 3D](3D_view/es.md).
+:   12.2. Cambie al [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md).
+:   12.3. Con el croquis seleccionado en la <img src=images/PartDesign_Body.svg style="width:vista de árbol](tree_view/esl.md), pulse **[16px"> [DiseñoPieza Cuerpo](PartDesign_Body/es.md)**, elija el plano XY por defecto y pulse **OK**. El croquis debería aparecer ahora dentro del Cuerpo.
+:   12.4. Seleccione el croquis, y luego pulse **<img src=images/PartDesign_Pad.svg style="width:16px"> [DiseñoPieza Pastilla](PartDesign_Pad/es.md)**, elija las opciones por defecto y pulse **OK** para crear una extrusión sólida.
 
 <img alt="" src=images/09b_Sk01_Sketcher_fully_constrained_clean.png  style="width:" height="400px;"> <img alt="" src=images/10_Sk01_Sketcher_solid_extrusion.png  style="width:" height="400px;">
 
 
-*Left: fully constrained sketch with only the most important constraints showing. Right: solid extrusion produced with [PartDesign Pad](PartDesign_Pad.md).*
 
-## Additional information 
+*Izquierda: croquis totalmente restringido en el que sólo se muestran las restricciones más importantes. Derecha: extrusión sólida producida con [DiseñoPiezas Pastilla](PartDesign_Pad/es.md).*
 
-For a more in depth description of the sketcher, visit the [Sketcher Workbench](Sketcher_Workbench.md) documentation and also read the [Sketcher reference](Sketcher_reference.md).
+## Información adicional 
 
-Constraining a sketch can be done in many different ways. In general, it is recommended to use geometrical constraints first, and minimize the number of datum constraints, as this simplifies the task of the internal constraint solver. To investigate this, repeat this example, now adding the constraints in different order.
+Para una descripción más profunda del croquizador, visita la documentación de [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md) y lee también la [Referencia Croquizador](Sketcher_reference/es.md).
 
--   First constrain the construction lines before drawing the arcs.
--   Or constrain the size of the arcs before making them tangent.
--   Or set the angle of the construction lines before adding more elements.
--   Try using other construction geometry.
+La restricción de un croquis puede hacerse de muchas maneras diferentes. En general, se recomienda utilizar primero las restricciones geométricas y minimizar el número de restricciones de datos, ya que esto simplifica la tarea del solucionador de restricciones internas. Para investigar esto, repita este ejemplo, ahora añadiendo las restricciones en diferente orden.
+
+-   Primero limite las líneas de construcción antes de dibujar los arcos.
+-   O restringir el tamaño de los arcos antes de hacerlos tangentes.
+-   O bien, establezca el ángulo de las líneas de construcción antes de añadir más elementos.
+-   Intente utilizar otra geometría de construcción.
 
 
 {{Tutorials navi

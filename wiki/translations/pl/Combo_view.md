@@ -24,6 +24,7 @@ Zakładka **Zadania** zawiera [panel zadań](task_panel/pl.md), który pokazuje 
 <img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="600px;">
 
 
+
 *Widok połączony posiada dwie karty: <br />kartę Model, która steruje wyświetlaniem [widoku drzewa](tree_view/pl.md) i [edytor właściwości](property_editor/pl.md), <br />oraz kartę Zadania, która kontroluje wyświetlanie [panel zadań](task_panel/pl.md).*
 
 ## Sekcja dolna 
@@ -35,6 +36,7 @@ W dolnej części widoku połączonego wyświetlane są [edytor właściwości](
 -   Zakładka **Dane** pokazuje właściwości parametryczne obiektów, które określają sposób rzeczywistego definiowania kształtów geometrycznych.
 
 <img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Tree_Data_properties.png  style="width:" height="600px;">
+
 
 
 *W dolnej części widoku połączonego znajduje się edytor właściwości, prezentujący właściwości widoku i danych.*

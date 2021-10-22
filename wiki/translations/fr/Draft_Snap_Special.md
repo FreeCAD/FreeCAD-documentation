@@ -13,7 +13,8 @@
 
 L\'option <img alt="" src=images/Draft_Snap_Special.svg  style="width:24px;"> **Draft Aimantation Spécial** permet de s\'aimanter à des [points spéciaux](#Points_sp.C3.A9ciaux_accept.C3.A9s.md) définis par l\'objet. Les objets acceptés sont les [Arch Murs](Arch_Wall/fr.md), les [Arch Structures](Arch_Structure/fr.md) et les [Arch Equipements](Arch_Equipment/fr.md).
 
-![](images/Draft_Snap_Special_example.png ) *Aimantation du deuxième point d'une ligne à un point spécial d'un Arch mur, qui est un sommet de son objet Base.*
+![](images/Draft_Snap_Special_example.png ) 
+*Aimantation du deuxième point d'une ligne à un point spécial d'un Arch mur, qui est un sommet de son objet Base.*
 
 ## Utilisation
 

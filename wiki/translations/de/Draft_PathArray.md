@@ -37,6 +37,7 @@ Das PfadAnordnungswerkzeug kann auf jedes Objekt verwendet werden das eine [Part
 <div class="mw-translate-fuzzy">
 
 
+
 *Objekt entlang eines Pfades angeordnet*
 
 
@@ -59,7 +60,8 @@ Das PfadAnordnungswerkzeug kann auf jedes Objekt verwendet werden das eine [Part
 
 The alignment of the elements in a Draft PathArray depends on the properties of the array and the orientation of the source object. The position of the source object is ignored: for the purpose of the array the {{Value|x}}, {{Value|y}} and {{Value|z}} are set to {{Value|0}}. If the **Align** property of the array is set to `False` the orientation of the array elements is identical to that of the source object. If it is set to `True` the X axis of the local coordinate system of each element placement is tangent to the path. The Y and Z axes of the local coordinate systems depend on the **Align Mode** property of the array. Other array properties involved in the alignment include **Tangent Vector**, **Force Vertical** and **Vertical Vector**.
 
-<img alt="" src=images/Draft_PathArray_example2.png  style="width:600px;"> *3 arrays based on the same non-planar path. From left to right: Align is false, Align is true with Align Mode Original and Align is true with Align Mode Frenet*.
+<img alt="" src=images/Draft_PathArray_example2.png  style="width:600px;"> 
+*3 arrays based on the same non-planar path. From left to right: Align is false, Align is true with Align Mode Original and Align is true with Align Mode Frenet*.
 
 ### Align Mode 
 

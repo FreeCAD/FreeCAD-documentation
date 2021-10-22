@@ -13,7 +13,8 @@
 
 L\'outil Vue ajoute une représentation d\'un ou plusieurs objets à une Page de dessin. C\'est le bloc de construction de base de l\'atelier TechDraw. La plupart des autres vues sont dérivées d\'une manière ou d\'une autre de Nouvelle Vue.
 
-![](images/TechDraw_View_example.png ) *Vue d'une boîte pleine avec des lignes cachées*
+![](images/TechDraw_View_example.png ) 
+*Vue d'une boîte pleine avec des lignes cachées*
 
 ## Utilisation
 

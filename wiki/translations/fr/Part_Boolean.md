@@ -21,6 +21,7 @@ Pour des opérations booléennes plus rapides, voir aussi **<img src=images/Part
 ![PartBooleansDialog](images/PartBooleansDialog.png )
 
 
+
 *Boîte de dialogue pour sélectionner des objets et effectuer des opérations booléennes avec eux.*
 
 ## Utilisation
@@ -56,11 +57,13 @@ En cas de coplanarité, même si la première opération booléenne réussit, le
 <img alt="" src=images/Part_Boolean_cut_coplanar_2.png  style="width:500px;">
 
 
+
 *À gauche : formes qui partagent une face, une soustraction booléenne peut produire des résultats incorrects. À droite : les formes qui s'entrecroisent clairement, la soustraction booléenne réussira dans la plupart des cas.*
 
 <img alt="" src=images/Part_Boolean_fusion_coplanar_1.png  style="width:500px;">
 
 <img alt="" src=images/Part_Boolean_fusion_coplanar_2.png  style="width:500px;">
+
 
 
 *À gauche : formes qui partagent un visage, une union booléenne peut produire des résultats incorrects. À droite : des formes qui se croisent clairement, l'union booléenne réussira dans la plupart des cas.*

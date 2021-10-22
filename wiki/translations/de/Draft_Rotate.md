@@ -38,6 +38,7 @@ Das Drehen-Werkzeug kann mit 2D-Formen verwendet werden, die mit dem [Draft](Dra
 <div class="mw-translate-fuzzy">
 
 
+
 *Drehen eines Objekts mit einem Mittelpunkt-Referenzpunkt, von einem Referenzwinkel zu einen anderen Winkel*
 
 

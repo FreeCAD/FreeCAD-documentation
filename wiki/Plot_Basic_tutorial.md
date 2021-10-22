@@ -30,7 +30,7 @@ To plot data you don\'t need a FreeCAD document, simply open the [Python console
 
 ### Creating plot document 
 
-Plots are special documents that can be created manually in order to add data later, or the module can create one automatically when you start plotting data. Creating your own plot document has two advantages:
+Plots are special documents that can be created manually in order to add data later, or the workbench can create one automatically when you start plotting data. Creating your own plot document has two advantages:
 
 -   You can set the document window label.
 -   You can control the document where you plot your data.
@@ -76,27 +76,30 @@ Plot.plot(t,s)
 Plot.plot(t,c)
 ```
 
-The **plot** command allows the series label as an argument, but since we will edit it later using the Plot module tools, we don\'t pass this data yet.
+The **plot** command allows the series label as an argument, but since we will edit it later using the Plot workbench tools, we don\'t pass this data yet.
 
 ## Configuring plot 
 
 ### Showing grid and legend 
 
-Change the FreeCAD workbench to the [Plot module](Plot_Module.md) with **View → Workbench → Plot** (you must install the add-on first with the [Add-on manager](Std_AddonMgr.md)). When the module has been loaded, use the [grid tool](Plot_Grid.md) to show the grid.
+Change the FreeCAD workbench to the [Plot Workbench](Plot_Workbench.md) with **View → Workbench → Plot** (you must install the add-on first with the [Add-on manager](Std_AddonMgr.md)). When the workbench has been loaded, use the [grid tool](Plot_Grid.md) to show the grid.
 
- ![](images/Plot_Grid.svg‎ )  *Show/hide grid tool icon*
+ ![](images/Plot_Grid.svg‎ )  
+*Show/hide grid tool icon*
 
 You can repeat the action to hide the grid. Use the [legend tool](Plot_Legend.md) to show, or hide, the legend.
 
- ![](images/Plot_Legend.svg )  *Show/hide legend tool icon*
+ ![](images/Plot_Legend.svg )  
+*Show/hide legend tool icon*
 
-As you can see, the legend is very small and empty because we have not set any series label yet. In the [Plot module](Plot_Module.md) series without a label are not displayed in the legend.
+As you can see, the legend is very small and empty because we have not set any series label yet. In the [Plot Workbench](Plot_Workbench.md) series without a label are not displayed in the legend.
 
 ### Setting series label 
 
 With the [series tool](Plot_Series.md) you can edit the parameters of each series.
 
- ![](images/Plot_Series.svg‎ )  *Series configuration tool icon*
+ ![](images/Plot_Series.svg‎ )  
+*Series configuration tool icon*
 
 Select the series you want to edit, we will start with the first one. Uncheck **No label** and set this label:
 
@@ -120,7 +123,8 @@ You can set many series properties. Try to set the properties shown in the examp
 
 With the [labels tool](Plot_Labels.md) you can set the title and the labels for the axes.
 
- ![](images/Plot_Labels.svg‎ )  *Labels tool icon*
+ ![](images/Plot_Labels.svg‎ )  
+*Labels tool icon*
 
 Set this data:
 
@@ -134,7 +138,8 @@ Also change the font size of the title and all labels to 20.
 
 With the [save tool](Plot_Save.md) you can save your plot as an image file in several formats.
 
- ![](images/Plot_Save.svg )  *Save tool icon*
+ ![](images/Plot_Save.svg )  
+*Save tool icon*
 
 First select the path and filename for the output file.
 

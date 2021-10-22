@@ -31,6 +31,7 @@ Ci sono alcune possibilità per creare una linea centrale per i fori. Prima si d
 Nella finestra di dialogo della Vista combinata associata selezionare nel pannello Azioni in \"Orientamento\" \"Allineato\" per gli assi diversi dagli assi principali. \"Estendi di\" indica la lunghezza della linea centrale oltre la linea del corpo nel disegno. Con \"Sposta in orizzontale\" e \"Sposta in verticale\" la linea centrale può spostarsi in direzione orizzontale o verticale, se necessario. \"Stile\" indica il tipo della linea centrale.
 
 <img alt="" src=images/Create-Center-Line3P.JPG  style="width:250px;">
+
 *Sopra: la finestra di dialogo*
 La linea centrale creata può essere modificata. Selezionare la linea centrale e premere il pulsante <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:24px;"> o <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:24px;"> dalla barra degli strumenti con cui è stata creata la linea centrale. Eliminare solo la linea centrale con <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:24px;"> dalla barra degli strumenti dopo aver selezionato la linea centrale.
 2. Impostazione degli angoli:
@@ -38,6 +39,7 @@ La linea centrale creata può essere modificata. Selezionare la linea centrale e
 Selezionare i punti del quadrante con <img alt="" src=images/TechDraw_Quadrants.svg  style="width:24px;"> dalla barra degli strumenti. Quindi selezionare i punti come mostrato sotto e utilizzare <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:24px;"> dalla barra degli strumenti per creare l\'angolo. Altre successioni creano altri angoli. Se non ci sono punti di aggancio sulla linea centrale cambiare \"ISO count\" nelle proprietà.
 
 <img alt="" src=images/AnHi11.PNG  style="width:250px;">
+
 *Sopra: successione di selezione* {{TechDraw Tools navi}} {{Tutorials navi}}
 
 ---

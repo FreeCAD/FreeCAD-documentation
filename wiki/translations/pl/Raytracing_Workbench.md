@@ -31,6 +31,7 @@ Stanowisko pracy Raytracing jest w zasadzie przestarzałe. Zmiany zachodzą w [R
 <img alt="" src=images/Raytracing_Workbench_workflow.svg  style="width:600px;">
 
 
+
 *Przepływ pracy Środowiska pracy Raytracing; <br />Środowisko to  przygotowuje plik projektu z danego szablonu, a następnie wywołuje zewnętrzny program w celu wytworzenia rzeczywistego renderingu sceny. Zewnętrzny renderer może być używany niezależnie od FreeCAD.*
 
 ## Przybory

@@ -17,7 +17,8 @@ Se apropie de cel mai apropiat punct de pe cel mai apropiat obiect.
 
 </div>
 
-![](images/Draft_Snap_Near_example.png ) *Snapping the second point of a line to the nearest point on an edge*
+![](images/Draft_Snap_Near_example.png ) 
+*Snapping the second point of a line to the nearest point on an edge*
 
 ## Usage
 

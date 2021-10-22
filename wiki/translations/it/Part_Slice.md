@@ -18,6 +18,7 @@ Strumento<img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Affetta in
 ![600px](images/Part_Slice_Demo.png)
 
 
+
 *Nella figura sopra, i pezzi sono stati separati manualmente dopo l'operazione, per rendere visibili le singole parti*
 
 

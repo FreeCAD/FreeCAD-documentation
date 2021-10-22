@@ -14,7 +14,8 @@
 
 Der Befehl **Std Bodenansicht** wendet die Kamerasicht der aktiven [3D Ansicht](3D_view/de.md) in die Richtung der positiven Z Achse.
 
-![](images/FreeCAD_views_rear.svg ) *Pfeil 5 zeigt in Richtung der Bodenansicht*
+![](images/FreeCAD_views_rear.svg ) 
+*Pfeil 5 zeigt in Richtung der Bodenansicht*
 
 ## Anwendung
 

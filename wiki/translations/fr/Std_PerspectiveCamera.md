@@ -14,7 +14,8 @@
 
 La commande **Std Vue en perspective** fait passer la vision du mode actif [vue 3D](3D_view/fr.md) en mode de vue en perspective. Dans ce mode, les objets qui sont plus éloignés de l\'appareil photo apparaissent plus petits que ceux qui sont plus proches.
 
-![](images/Std_PerspectiveCamera_example.svg ) *Deux cubes de mêmes dimensions vus en perspective*
+![](images/Std_PerspectiveCamera_example.svg ) 
+*Deux cubes de mêmes dimensions vus en perspective*
 
 ## Utilisation
 

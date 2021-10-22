@@ -25,6 +25,7 @@
 ![](images/PartDesign_Boolean_example.png )
 
 
+
 *A sinistra il corpo attivo (A) con i corpi utensile (B) e (C); a destra il risultato dopo un taglio booleano.*
 
 ## Utilizzo

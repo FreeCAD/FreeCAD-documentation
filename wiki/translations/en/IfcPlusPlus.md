@@ -11,6 +11,7 @@ The IFC++ library can be used for general purpose, and it also includes a sample
 <img alt="" src=images/IfcQuery_viewer_example.png  style="width:600px;">
 
 
+
 *The sample IFC viewer included in the source distribution of the IfcQuery/IFC++ libraries.*
 
 

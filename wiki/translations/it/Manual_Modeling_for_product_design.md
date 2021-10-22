@@ -1,4 +1,13 @@
 # Manual:Modeling for product design/it
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
 {{Manual:TOC/it}}
 
 [Product design](https://en.wikipedia.org/wiki/Product_design) è in origine un termine commerciale, ma nel mondo 3D, significa spesso modellazione di qualcosa con l\'idea di [stamparlo in 3D](https://en.wikipedia.org/wiki/3D_printing) o, più in generale, prodotto da una macchina, per esempio con una stampante 3D o con una [macchina CNC](https://en.wikipedia.org/wiki/Numerical_control).
@@ -245,9 +254,15 @@ Ma esiste anche il meglio dei due mondi, che è _ e <img alt="" src=images/Draft
 </div>
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 _
 
 ---
-[documentation index](../README.md) > Manual:Modeling for product design/it
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/it

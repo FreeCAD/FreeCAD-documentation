@@ -20,6 +20,7 @@ The **Mirrored** tool mirrors features on a plane.
 ![](images/PartDesign_Mirrored_example.svg )
 
 
+
 *Above: a Pocket feature was created from a sketch containing a circle (A), the Pocket was subsequently used to create a Mirrored feature. The sketch vertical axis (B) was used as axis of symmetry. The result (C) is shown on the right.*
 
 

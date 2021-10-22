@@ -12,7 +12,8 @@
 
 The Image tool inserts a [bitmap](bitmap.md) image (PNG, TIFF, JPEG, etc.) from a file into the page as a view.
 
- ![](images/TechDraw_Image_example.png )  *Image inserted in the drawing page*
+ ![](images/TechDraw_Image_example.png )  
+*Image inserted in the drawing page*
 
 ## Usage
 

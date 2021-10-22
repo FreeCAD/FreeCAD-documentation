@@ -16,6 +16,7 @@ La herramienta Achurado rellena una región cerrada en una Vista con un patrón 
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
 
 
+
 *SVG achurado patrón en una cara*
 
 ## Utilización

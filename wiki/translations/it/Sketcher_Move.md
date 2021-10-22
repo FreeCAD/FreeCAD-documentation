@@ -18,7 +18,8 @@
 
 Sposta da un punto a un altro gli elementi dello schizzo selezionati, utilizzando l\'ultimo punto selezionato come riferimento.
 
-![](images/sketcher_move.png‎ ) *La sequenza dei clic è indicata dalle frecce gialle con i numeri. Selezionare l'elemento '''A'''; appare una linea vettoriale indicata da due linee rosse dal punto di cardine '''A''' che punta alla posizione numero '''2''' del mouse. Spostare il puntatore del mouse sulla posizione di destinazione '''3''' e vedere che ora l'elemento '''B''' è auto vincolato sul punto '''3'''.*
+![](images/sketcher_move.png‎ ) 
+*La sequenza dei clic è indicata dalle frecce gialle con i numeri. Selezionare l'elemento '''A'''; appare una linea vettoriale indicata da due linee rosse dal punto di cardine '''A''' che punta alla posizione numero '''2''' del mouse. Spostare il puntatore del mouse sulla posizione di destinazione '''3''' e vedere che ora l'elemento '''B''' è auto vincolato sul punto '''3'''.*
 
 ## Utilizzo
 

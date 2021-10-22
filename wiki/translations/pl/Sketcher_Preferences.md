@@ -1,9 +1,9 @@
 # Sketcher Preferences/pl
 {{TOCright}}
 
-Ekran preferencji środowiska pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Szkicownik](Sketcher_Workbench/pl.md) można znaleźć w [Edytorze Preferencji](Preferences_Editor/pl.md), **Edycja → Preferencje → Szkicownik**.
+Ekran preferencji środowiska pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Szkicownik](Sketcher_Workbench/pl.md) można znaleźć w [Edytorze Preferencji](Preferences_Editor/pl.md), zlokalizowane w menu **Edycja → Preferencje → Szkicownik**.
 
-Znajdują się tam trzy zakładki: Ogólne, Wyświetlanie i Kolory.
+Znajdują się tam trzy zakładki: [Ogólne](#Ogólne.md), [Wyświetlanie](#Wyświetlanie.md) and [Kolory](#Kolory.md).
 
 ## Ogólne
 

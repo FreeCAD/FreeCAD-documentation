@@ -13,12 +13,12 @@
 -   Każde środowisko pracy posiada swoją zakładkę wstążki.
 -   zakładka **Modern UI** zastępuje menu główne.
 -   Aktywowanie zakładki dla danego środowiska pracy pokazuje grupy narzędzi tego środowiska.
--   Panele takie jak **Widok połączony** są zwijane / rozwijane po najechaniu kursorem myszki.
+-   Panele takie jak [Widok połączony](Combo_view/pl.md) są zwijane / rozwijane po najechaniu kursorem myszki.
 
 ## Ustawienia
 
 -   Autor: Hakan Seven
--   Kod źródłowy na portalu github: <https://github.com/HakanSeven12/Modern-UI>
+-   Kod źródłowy na portalu github: [Source code Modern-UI](https://github.com/HakanSeven12/Modern-UI)
 
 ## Ograniczenia i rozwiązywanie problemów 
 

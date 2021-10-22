@@ -17,12 +17,18 @@ Versões anteriores podem ser baixadas da página [releases](https://github.com/
 | _ 64-bit |
 +------------------------------------------------------------------------------------------------------------------------------------------+---+--------------------------------------------------------------------------------------------------------------------------------------------------------+---+-------------------------------------------------------------------------+
 
+
+<div class="mw-translate-fuzzy">
+
 ### Notas para usuários do Windows 
 
 -   O instalador de 32 bits (x86) suporta as seguintes versões do Windows: 7/8/10.
 -   O instalador de 64 bits (x64) suporta as seguintes versões do Windows: 7/8/10.
 -   Uma versão portátil ([64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD-0.19.2.7b5e18a-WIN-x64-portable1.7z)) que não precisa de instalação está na página de lançamento.
 -   O pacote também pode ser instalado a partir do gerenciador [Chocolatey](https://chocolatey.org/packages/freecad).
+
+
+</div>
 
 ### Notas para usuários de Mac OS X 
 

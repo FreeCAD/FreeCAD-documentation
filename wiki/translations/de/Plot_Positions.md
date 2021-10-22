@@ -2,7 +2,7 @@
 - GuiCommand:
    Name:Plot Positions
    MenuLocation:Plot → Set positions and sizes
-   Workbenches:[Plot](Plot_Module.md)
+   Workbenches:[Plot](Plot_Workbench.md)
 ---
 
 # Plot Positions/de
@@ -17,7 +17,8 @@ This tool allows the user to edit the position of some items like titles, axes l
 
 Select the plot tab that you want to edit, and run this tool. Then you can select the item you want to edit in the selector
 
-![Items position selector](images/Plot_Position_Item_Selector.png ) *Selector for the item to de edited*
+![Items position selector](images/Plot_Position_Item_Selector.png ) 
+*Selector for the item to de edited*
 
 ## Optionen
 

@@ -29,7 +29,8 @@ Constraining is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_
 
 <div class="mw-translate-fuzzy">
 
-![](images/Draft_Constrain_Shift_Taskview_example.png ) *La scheda Azioni quando si utilizza un vincolo orizzontale mentre si tiene premuto il tasto Maiusc*
+![](images/Draft_Constrain_Shift_Taskview_example.png ) 
+*La scheda Azioni quando si utilizza un vincolo orizzontale mentre si tiene premuto il tasto Maiusc*
 
 
 </div>

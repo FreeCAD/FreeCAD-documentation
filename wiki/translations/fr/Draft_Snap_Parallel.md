@@ -16,7 +16,8 @@ Jusqu\'à deux arêtes peuvent être référencées par cette option d\'aimantat
 
 Cette option d\'aimantation ne fonctionne pas actuellement si le curseur se trouve à côté de l\'arête référencée. Vous devez déplacer le curseur vers une zone située au-delà des extrémités de l\'arête.
 
-![](images/Draft_Snap_Parallel_example.png ) *Aimantation du deuxième point d'une ligne à une ligne invisible parallèle à une arête*
+![](images/Draft_Snap_Parallel_example.png ) 
+*Aimantation du deuxième point d'une ligne à une ligne invisible parallèle à une arête*
 
 ## Utilisation
 

@@ -31,6 +31,7 @@ A copy of the original **<img src=images/Std_Part.svg style="width:16px"> [Std P
 ![](images/Std_Link_tree_import_1_example.png ) ![](images/Std_Link_tree_import_2_example.png )
 
 
+
 *Left: a Link points to the object in the "source" document. Right: the original object was imported (copied) into the "target" document, and the existing Link was changed to point to this copy, so it no longer points to the object in "source".*
 
 

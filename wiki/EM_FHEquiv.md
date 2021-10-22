@@ -14,7 +14,8 @@
 
 The FHEquiv tool short-circuits two FHNode objects. 
 
-![](images/EM_FHEquiv_Example.png )  *FastHenry FHEquiv*
+![](images/EM_FHEquiv_Example.png )  
+*FastHenry FHEquiv*
 
 ## Usage
 

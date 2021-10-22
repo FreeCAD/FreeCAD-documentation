@@ -18,7 +18,8 @@ Der <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> **Entwur
 
 </div>
 
-![](images/Draft_Draft2Sketch_example.png ) *Konvertieren von Entwurfsobjekten in Skizzierer Skizzen*
+![](images/Draft_Draft2Sketch_example.png ) 
+*Konvertieren von Entwurfsobjekten in Skizzierer Skizzen*
 
 ## Anwendung
 

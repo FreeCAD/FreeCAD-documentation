@@ -17,6 +17,7 @@ Vous trouverez ci-dessous des instructions détaillées du processus complet, qu
 <img alt="" src=images/FreeCAD_source_compilation_workflow.svg  style="width:800px;">
 
 
+
 *Processus général pour compiler FreeCAD à partir des sources. Les dépendances tierces doivent être dans le système, ainsi que le code source de FreeCAD lui-même. CMake configure le système de manière à ce que le projet entier soit compilé avec une seule instruction make.*
 
 ## Obtenir le code source 
@@ -682,6 +683,14 @@ cmake ../freecad-source -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3
 }}
 
 L\'option `-j` de `make` contrôle le nombre de jobs (fichiers) compilés en parallèle. Le programme `nproc` retourne le nombre de cœurs de processeur de votre système utilisés avec l\'option `-j`, vous pouvez choisir de procéder sur autant de fichiers que vous avez de cœurs afin d\'accélérer la compilation. Dans l\'exemple ci-dessus, il sera utilisé tous les cœurs de votre système sauf deux ; Cela permettra à votre ordinateur de rester réactif pour d\'autres usages pendant la compilation en arrière-plan. L\'exécutable FreeCAD apparaîtra éventuellement dans le dossier `freecad-build/bin`. Voir aussi [Compilation (accélération)](Compiling_(Speeding_up)/fr.md) pour améliorer la vitesse de compilation.
+
+### Résoudre les problèmes de cmake 
+
+Si vous avez déjà effectué une construction hors source et que vous êtes bloqué par une dépendance qui n\'est pas reconnue ou qui ne semble pas pouvoir être résolue, essayez ce qui suit :
+
+-   Supprimez le contenu du répertoire de construction avant de relancer cmake. FreeCAD est une cible qui évolue rapidement, vous pouvez rencontrer des informations de cmake en cache qui pointent vers une version plus ancienne que celle que la nouvelle tête de dépôt peut utiliser. Vider le cache peut permettre à cmake de récupérer et de reconnaître la version dont vous avez réellement besoin.
+
+-   Si cmake se plaint qu\'il manque un fichier spécifique, utilisez un outil tel que \"apt-file search\" ou son équivalent dans d\'autres systèmes de paquets, pour découvrir à quel paquetage appartient ce fichier et l\'installer. Gardez à l\'esprit que vous aurez probablement besoin de la version -dev du paquetage qui contient les fichiers d\'en-tête ou de configuration nécessaires à FreeCAD pour utiliser le paquetage.
 
 ### Compilation in-source 
 

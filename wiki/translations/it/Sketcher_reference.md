@@ -19,7 +19,8 @@ Il manuale è in costante evoluzione, in quanto alcune sezioni vengono riviste e
 
 Due to the evolving nature of the manual, the document is also known as the \"Sketcher lecture\".
 
-![](images/Sketcher_reference.png ) *Esempio di schizzo nel manuale di riferimento.*
+![](images/Sketcher_reference.png ) 
+*Esempio di schizzo nel manuale di riferimento.*
 
 ## Indice
 

@@ -11,47 +11,50 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/SheetMetal_AddWall.svg  style="width:24px;"> [Kante ansetzen](SheetMetal_AddWall/de.md) erzeugt am gewählten Flächenrand eine Kante (Umbug).
+Der Befehl <img alt="" src=images/SheetMetal_AddWall.svg  style="width:24px;"> [Kante ansetzen](SheetMetal_AddWall/de.md) erzeugt Kanten (Falze) an den ausgewählten Flächenrändern einer Grundplatte. Durch das Ändern der {{PropertyData/de|angle}} kann aus einer Kante ein Falz werden.
 
-<img alt="" src=images/PostBend.png  style="width:320px;">
+Eine **Kante** (auch stehender Falz / Stehfalz genannt) besteht aus einem zylindrischen 90° Bogen und einem ebenen Streifen.
+
+<img alt="" src=images/SheetMetal_AddWall-12.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddWall-13.png  style="width:200px;"> 
+*Zwei gewählte Kanten (edges) -> zwei Kanten (flanges)*
+
+Trägt man in einem zweiten Schritt die für die {{PropertyData/de|angle}} ungefähr 180° ein erhält man einen **Falz** anstelle einer Kante.
+
+<img alt="" src=images/SheetMetal_AddWall-14.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddWall-15.png  style="width:200px;"> 
+*Zwei gewählte Kanten (edges) -> zwei Falze (hems)*
 
 ## Anwendung
 
-Um eine Kante hinzuzufügen:
+1.  Eine oder mehrere Randflächen einer Grundplatte auswählen.
+2.  Den Befehl <img alt="" src=images/SheetMetal_AddWall.svg  style="width:24px;"> [Kante ansetzen](SheetMetal_AddWall/de.md) aktivieren durch:
+    -   Die Schaltfläche **<img src="images/SheetMetal_AddWall.svg" width=16px> [Kante ansetzen](SheetMetal_AddWall/de.md)**.
+    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_AddWall.svg" width=16px> Kante ansetzen**.
+    -   Das Tastenkürzel: **W**.
 
-1.  Zur <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:22px;"> [Blech](SheetMetal_Workbench/de.md)-Arbeitsumgebung wechseln.
-2.  Mit einer Basisplatte oder einem Blech starten und eine oder mehrere Randflächen auswählen, die eine Kante (Umbug) erhalten sollen.
-3.  Schaltfläche <img alt="" src=images/SheetMetal_AddWall.svg  style="width:24px;"> [Kante ansetzen](SheetMetal_AddWall/de.md) drücken, um die Kante(n) hinzuzufügen.
+## Hinweise
 
+Um eine Grundplatte zu erzeugen, wird eine geschlossene 2D-Kontur - vorzugsweise eine <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> _ verwendet.
 
-**Hinweis**
+Alternativ kann eine Grundplatte (Platine) auch mit Befehlen der Arbeitsbereiche <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ erstellt werden.
 
-: Um eine Grundplatte (Platine) zu erstellen, verwendet man eine geschlossene 2D-Kontur - vorzugsweise eine <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> _.
-Alternativ kann man eine Grundplatte auch mit einer der folgenden Methoden erstellen:
+Eine Platine mit dem Arbeitsbereich [Part](Part_Workbench/de.md) erstellen:
 
-:\* Methode 1: Einen <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Würfel](Part_Box/de.md) erstellen
+1.  Einen Festkörper erstellen durch
+    -   Anwendung des Befehls <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Part Würfel (Box)](Part_Box/de.md)
+    -   Verwendung des Befehls <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> [Part Extrudieren\...](Part_Extrude/de.md) mit
+        -   einem <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [Draft Rechteck](Draft_Rectangle/de.md).
+        -   einem <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Draft Linienzug](Draft_Wire/de.md).
+        -   einer <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Skizze](Sketcher_NewSketch/de.md).
+2.  Es ist darauf zu achten, dass ein Maß der Box bzw. die Extrusionslänge der Blechstärke entspricht.
 
-:\* Methode 2: Einen Festkörper extrudieren mit <img alt="" src=images/Part_Extrude.svg  style="width:24px;"> [Part Extrudieren](Part_Extrude/de.md) aus wahlweise
+Eine Platine mit dem Arbeitsbereich [PartDesign](PartDesign_Workbench.md) erstellen:
 
-::\* Einem <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Draft Rechteck](Draft_Rectangle/de.md)
+1.  Einen Festkörper erstellen durch
+    -   Anwendung des Befehls <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> [Zu addierender Quader (Additive Box)](PartDesign_AdditiveBox/de.md).
+    -   Verwendung des Befehls <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> _.
+2.  Es ist darauf zu achten, dass ein Maß des Quaders bzw. die {{PropertyData/de|Length}} des Pads der Blechstärke entspricht.
 
-::\* Einem <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Draft Linienzug](Draft_Wire/de.md)
-
-::\* Einer <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Skizze](Sketcher_NewSketch.md)
-
-::\* Dann <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Part Dicke\...](Part_Thickness/de.md) verwenden, um ein Schalenobjekt zu erstellen (**Typischerweise mit der Wandstärke des Blechs.**)
-
-:\* Methode 3: Einen <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Körper](PartDesign_Body/de.md) erstellen und Objekte der folgenden Werkzeuge hinzufügen
-
-::\* <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:24px;"> [PartDesign Zu addierender Quader](PartDesign_AdditiveBox/de.md)
-
-::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> _.
-
-::\* Dann <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> [PartDesign Dicke](PartDesign_Thickness/de.md) verwenden, um ein Schalenobjekt zu erstellen (**Typischerweise mit der Wandstärke des Blechs.**)
-
-:   
-
-    :   Wenn mit <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> _ oder <img alt="" src=images/PartDesign_Hole.svg  style="width:24px;"> [Bohrung](PartDesign_Hole/de.md) gemischt werden.
+Wenn mit <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> _ oder <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> [Bohrung](PartDesign_Hole/de.md) kombiniert werden.
 
 ## Eigenschaften
 

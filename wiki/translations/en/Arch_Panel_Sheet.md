@@ -116,4 +116,4 @@ Sheet = Arch.makePanelSheet([Cut1, Cut2, Cut3])
 -   [Wikihouse porting tutorial](Wikihouse_porting_tutorial.md)
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/en
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Panel Sheet/en

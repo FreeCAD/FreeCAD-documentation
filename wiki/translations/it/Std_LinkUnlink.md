@@ -27,9 +27,11 @@ L\'originale <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="widt
 ![](images/Std_Link_tree_replace_1_example.png ) ![](images/Std_Link_tree_unlink_1_example.png )
 
 
+
 *Un link all'interno di un altro oggetto viene scollegato e l'oggetto reale viene invece posizionato all'interno.*
 
 ![](images/Std_Link_tree_replace_2_example.png ) ![](images/Std_Link_tree_unlink_2_example.png )
+
 
 
 *Un link all'interno di un gruppo viene scollegato e l'oggetto reale viene invece posizionato all'interno.*

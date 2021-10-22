@@ -18,6 +18,7 @@ Tento nástroj funguje podobně jako [Skicář Přímka](Sketcher_CreateLine/cs.
 ![](images/Sketcher_PolylineExample1.png )
 
 
+
 *Polyline started with a line, a tangent arc, a perpendicular arc then a tangent line.*
 
 

@@ -1,4 +1,7 @@
 # Macro FCInfo/cs
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/cs
 |Name=Macro_FCInfo
 |Translate=FCInfo
@@ -12,9 +15,18 @@
 |SeeAlso=<img src=images/Arch_Survey.svg style="width:Arch Survey|24px"> [Arch Survey](Arch_Survey/cs.md)<br />[Macro SimpleProperties](Macro_SimpleProperties/cs.md)
 }}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## Popis
 
 Dává řadu informací o vybraném tvaru a může zobrazit konverzi délky, sklonu (stupně, radiány, procenta) tělesa, povrchu, objemu a váhy tvaru s měrnou hmotností vybranou v různých jednotkách hmotnosti mezinárodních i Anglo-Saských.
+
+
+</div>
 
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/4ff055ff5eb117f75beea5843efca4791990cf62/FCInfo_en_Ver_1-22-rmu_Docked.FCMacro}}

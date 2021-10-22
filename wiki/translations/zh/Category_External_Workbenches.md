@@ -3,7 +3,7 @@ This category collects pages from the [external workbenches](external_workbenche
 
 ### Contents:
 
-[Plot Module/zh](Plot_Module/zh.md) , [Ship Workbench/zh](Ship_Workbench/zh.md)
+[Plot Workbench/zh](Plot_Workbench/zh.md) , [Ship Workbench/zh](Ship_Workbench/zh.md)
 
 _ _
 

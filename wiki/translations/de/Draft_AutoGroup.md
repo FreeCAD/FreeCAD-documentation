@@ -30,6 +30,7 @@ This command was originally intended for groups, hence its name, but was redesig
 <div class="mw-translate-fuzzy">
 
 
+
 *Entwurfskassette, die die aktive Autogruppe durch Klicken auf das Ordnersymbol und Auswahl einer Gruppe einstellt*
 
 

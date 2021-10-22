@@ -29,6 +29,7 @@ Questo strumento imposta la proprietà **Display Mode** dell\'oggetto selezionat
 <div class="mw-translate-fuzzy">
 
 
+
 *L'oggetto frontale ostruisce la vista dell'oggetto nella parte posteriore; pertanto, il primo è impostato su "Wireframe" per facilitare la selezione delloggetto coperto.*
 
 

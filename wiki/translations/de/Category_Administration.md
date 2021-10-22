@@ -9,7 +9,7 @@ Den betreffenden Artikeln folgende Zeile anhängen:
 
 ### Contents:
 
-_ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , [WikiPages/de](WikiPages/de.md) , [WikiRobots/de](WikiRobots/de.md) , ,
+_ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , [WikiPages/de](WikiPages/de.md) , [WikiRobots/de](WikiRobots/de.md) , ,
 
 _ _ _
 

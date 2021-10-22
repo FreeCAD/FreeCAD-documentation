@@ -12,7 +12,8 @@
 
 Applies a flow velocity as boundary condition to an edge in 2D or to a face in 3D.
 
- ![](images/FEM-constraint-flow-velocity_task-panel.png )  *Constraint flow velocity menus within the [task panel](Task_panel.md)*
+ ![](images/FEM-constraint-flow-velocity_task-panel.png )  
+*Constraint flow velocity menus within the [task panel](Task_panel.md)*
 
 ## Usage
 

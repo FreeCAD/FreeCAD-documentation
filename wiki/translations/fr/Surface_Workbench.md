@@ -24,6 +24,7 @@ L\'objectif de l\'atelier Surface est de créer des faces avec des formes qui ne
 <img alt="" src=images/Toy_Duck.png  style="width:350px;">
 
 
+
 *Surface créée avec des esquisses placées dans des plans de référence avec les outils de l'[atelier PartDesign](PartDesign_Workbench/fr.md)*
 
 L\'atelier Surface s\'intègre à d\'autres ateliers de FreeCAD. L\'exemple ci-dessus a été créé à partir d\'**<img src=images/Sketcher_NewSketch.svg style="width:16px"> <img src=images/PartDesign_Plane.svg style="width:esquisses](Sketch/fr.md)** placé sur des **_. La conception peut être entièrement paramétrique si tous les plans et esquisses de référence sont définis en conséquence. Dans la plupart des cas, il suffit de dessiner une esquisse fermée pour définir la limite d\'une face, puis d\'utiliser différentes options pour modifier davantage sa forme.

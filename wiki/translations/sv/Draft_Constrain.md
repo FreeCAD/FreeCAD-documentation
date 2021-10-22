@@ -13,7 +13,8 @@ För att använda begränsning, tryck på **SKIFT** medan du ritar.
 
 Constraining is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md) commands.
 
-![](images/Draft_Constrain_taskpanel_example.png ) *While the cursor is constrained the task panel locks the values that are not being modified*
+![](images/Draft_Constrain_taskpanel_example.png ) 
+*While the cursor is constrained the task panel locks the values that are not being modified*
 
 ## Usage horizontal and vertical constraints 
 

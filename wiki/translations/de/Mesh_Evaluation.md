@@ -12,7 +12,8 @@
 
 The **Mesh Evaluation** command evaluates and repairs a mesh object.
 
-![](images/Mesh_Evaluation_dialog.png ) *The Evaluate & Repair Mesh dialog box with the Folds on surface option enabled*
+![](images/Mesh_Evaluation_dialog.png ) 
+*The Evaluate & Repair Mesh dialog box with the Folds on surface option enabled*
 
 ## Anwendung
 

@@ -12,9 +12,11 @@
 
 The **Std ToggleClipPlane** command temporarily hides objects and parts of objects on one side of up to three virtual planes in the active [3D view](3D_view.md).
 
-![](images/Std_ToggleClipPlane_example.png ) *Сечение полой фигуры*
+![](images/Std_ToggleClipPlane_example.png ) 
+*Сечение полой фигуры*
 
-![](images/Std_ToggleClipPlane_taskpanel.png ) *Внешний вид панели "Плоскость сечения"*
+![](images/Std_ToggleClipPlane_taskpanel.png ) 
+*Внешний вид панели "Плоскость сечения"*
 
 ## Применение
 

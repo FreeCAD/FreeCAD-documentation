@@ -13,6 +13,8 @@
 
 Polecenie <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> **Rysunek Roboczy: Linia łamana** [tworzy](#Utwórz.md) polilinię, czyli sekwencję kilku połączonych segmentów linii. Polecenie to może być również użyte do [łączenia](#Przyłącz.md) [linii](Draft_Line/pl.md) i polilinii.
 
+Rogi prostokąta mogą być zaokrąglone lub sfazowane poprzez zmianę właściwości {{PropertyData/pl|Promień zaokrąglenia}} lub {{PropertyData/pl|Rozmiar fazki}}. Możliwe jest również dzielenie krawędzi polilinii poprzez zmianę jego właściwości {{PropertyData/pl|Podziały}}.
+
 <img alt="" src=images/Draft_Polyline_example.jpg  style="width:400px;"> 
 *Linia zdefiniowana przez wiele punktów*
 

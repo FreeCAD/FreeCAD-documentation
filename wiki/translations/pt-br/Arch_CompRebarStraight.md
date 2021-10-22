@@ -50,4 +50,4 @@ Back to [Workbenches](Workbenches#External_workbenches.md) / [External Workbench
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/pt-br
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompRebarStraight/pt-br

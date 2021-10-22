@@ -60,14 +60,21 @@ La protrusion sera prolongée jusqu\'à la face sélectionnée du support. La fa
 
 Définit la longueur de la protrusion. Plusieurs unités peuvent être utilisées, indépendamment des préférences de l\'utilisateur (m, cm, mm, nm, ft ou \' pour pieds, in ou \" pour pouces).
 
-### Utiliser une direction personnalisée 
+### Direction
 
+#### Direction/bord
 
-{{Version/fr|0.19}}
+Vous pouvez sélectionner la direction de la protrusion :
 
-Si coché, la direction de la protrusion ne sera pas le vecteur normal de l\'esquisse mais le vecteur donné. La longueur de la protrusion est cependant réglée selon la direction normale du vecteur.
+-   **Sketch normal**\' L\'esquisse est extrudée le long de sa normale.
+-   **Select reference\...** L\'esquisse est extrudée le long d\'une arête du modèle 3D. Lorsque cette méthode est sélectionnée, vous pouvez cliquer sur n\'importe quelle arête du modèle 3D. Celle-ci devient alors le vecteur de direction pour la protrusion. {{Version/fr|0.20}}
+-   **Custom direction** L\'esquisse est extrudée selon une direction qui peut être spécifiée par des valeurs vectorielles. {{Version/fr|0.19}}
 
-### Longueur le long de la normale à l\'esquisse 
+#### Afficher la direction personnalisée 
+
+Si cette case est cochée, la direction du pad sera affichée. Si la protrusion utilise une **direction personnalisée**, elle peut être modifiée. {{Version/fr|0.20}}
+
+#### Longueur le long de la normale à l\'esquisse 
 
 Si cette case est cochée, la longueur de la protrusion est mesurée le long de la normale à l\'esquisse, sinon le long de la direction personnalisée. {{Version/fr|0.20}}
 

@@ -21,13 +21,15 @@ Informazioni su FreeCAD apre una finestra che mostra informazioni sul programma.
 
 </div>
 
-![](images/Help-About-Dropdown-screenshot.png ) *Activate the About dialog via **Help → <img src="images/Std_About.svg" width=16px> About FreeCAD
+![](images/Help-About-Dropdown-screenshot.png ) 
+*Activate the About dialog via **Help → <img src="images/Std_About.svg" width=16px> About FreeCAD
 ***
 
 ![](images/Std_About_example.png )
 
 
 <div class="mw-translate-fuzzy">
+
 
 
 *Finestra con le informazioni su FreeCAD. Non scattare una foto di questa finestra; fare clic sul pulsante "Copia negli Appunti" per poter incollare le informazioni con qualsiasi richiesta di aiuto.*

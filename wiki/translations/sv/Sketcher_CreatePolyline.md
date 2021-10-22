@@ -12,6 +12,7 @@ This tool works like the [Sketcher Line](Sketcher_CreateLine.md) tool, but creat
 ![](images/Sketcher_PolylineExample1.png )
 
 
+
 *Polyline started with a line, a tangent arc, a perpendicular arc then a tangent line.*
 
 ## Usage

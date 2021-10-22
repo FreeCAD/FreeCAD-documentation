@@ -3,7 +3,7 @@
    Name:Plot Positions
    Name/fr:Plot Positions
    MenuLocation:Plot → Définir les tailles et positions
-   Workbenches:[Plot](Plot_Module/fr.md)
+   Workbenches:[Plot](Plot_Workbench/fr.md)
 ---
 
 # Plot Positions/fr
@@ -18,7 +18,8 @@ Cet outil permet à l\'utilisateur de modifier la position de certains élément
 
 Sélectionnez l\'onglet du graphique que vous souhaitez modifier, puis exécutez cet outil. Vous pouvez ensuite sélectionner l\'élément que vous souhaitez modifier dans le sélecteur.
 
-![Items position selector](images/Plot_Position_Item_Selector.png ) *Sélecteur de l'élément à éditer*
+![Items position selector](images/Plot_Position_Item_Selector.png ) 
+*Sélecteur de l'élément à éditer*
 
 ## Options
 

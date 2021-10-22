@@ -12,7 +12,8 @@
 
 L\'option <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> **Draft Aimantation Terminaison** permet de s\'aimanter aux extrémités des arêtes. Les arêtes peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
 
-![](images/Draft_Snap_Endpoint_example.png ) *Aimantation du deuxième point d'une ligne au point d'extrémité d'une arête*
+![](images/Draft_Snap_Endpoint_example.png ) 
+*Aimantation du deuxième point d'une ligne au point d'extrémité d'une arête*
 
 ## Utilisation
 

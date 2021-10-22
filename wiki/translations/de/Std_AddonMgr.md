@@ -18,7 +18,8 @@ Erweiterungen, die als {{emphasis|Nur Python 2}} markiert sind, funktionieren ni
 
 Aufgrund von Änderungen an der GitHub Plattform im Jahr 2020 funktioniert der Erweiterungsverwalter nicht mehr, wenn du FreeCAD Version 0.17 oder früher verwendest. Du musst auf die Version _ unten.
 
-![](images/Std_AddonMgr_dialog.png ) *Das Dialogfeld des Erweiterungsverwalters*
+![](images/Std_AddonMgr_dialog.png ) 
+*Das Dialogfeld des Erweiterungsverwalters*
 
 ## Anwendung
 

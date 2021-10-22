@@ -31,6 +31,7 @@ Questa modalità di aggancio consente di selezionare i punti finali degli elemen
 <div class="mw-translate-fuzzy">
 
 
+
 *Aggancio del secondo punto di una linea al punto finale di un bordo di un rettangolo*
 
 

@@ -16,6 +16,7 @@ El comando **Std DiálogoPersonalizar** abre el cuadro de diálogo Personalizar 
 ![](images/Std_DlgCustomize_tab_Toolbars.png )
 
 
+
 *El cuadro diálogo Personalizar*
 
 ## Utilización

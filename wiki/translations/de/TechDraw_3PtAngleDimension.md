@@ -23,7 +23,8 @@ Das <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:24px;">
 
 </div>
 
-<img alt="" src=images/TechDraw_Dimension_Angle3Pt_example.png  style="width:200px;"> *Beim Messen des Winkels zwischen zwei Geraden unter Verwendung von drei Knoten; der zweite Knoten sollte der Scheitelpunkt des Winkels sein*.
+<img alt="" src=images/TechDraw_Dimension_Angle3Pt_example.png  style="width:200px;"> 
+*Beim Messen des Winkels zwischen zwei Geraden unter Verwendung von drei Knoten; der zweite Knoten sollte der Scheitelpunkt des Winkels sein*.
 
 ## Anwendung
 

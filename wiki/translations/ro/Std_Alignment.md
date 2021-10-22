@@ -21,7 +21,8 @@ Această funcție vă permite să poziționați și să orientați două forme s
 
 </div>
 
-![](images/Std_Alignment_example.png ) *The command interface after two point pairs have been defined*
+![](images/Std_Alignment_example.png ) 
+*The command interface after two point pairs have been defined*
 
 ## Usage
 

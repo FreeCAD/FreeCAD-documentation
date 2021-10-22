@@ -19,7 +19,8 @@ La herramienta [Architectura Estructura](Arch_Structure/es.md) permite construir
 
 Si no se da ningún perfil, se dispone de un conjunto de preajustes para construir rápidamente un elemento estructural a partir de un perfil estándar predefinido.
 
-![](images/Arch_Structure_example.jpg ) *Columna basada en un perfil base 2D; una columna y una viga definidas por su altura, longitud y anchura, sin perfil base; una estructura metálica basada en una cara 2D*
+![](images/Arch_Structure_example.jpg ) 
+*Columna basada en un perfil base 2D; una columna y una viga definidas por su altura, longitud y anchura, sin perfil base; una estructura metálica basada en una cara 2D*
 
 ## Utilización
 
@@ -71,7 +72,8 @@ Si no se da ningún perfil, se dispone de un conjunto de preajustes para constru
 
 La herramienta Estructura también presenta una serie de elementos predefinidos que permiten construir rápidamente perfiles metálicos estándar o elementos prefabricados de hormigón.
 
-![](images/Arch_presets_example.jpg ) *Algunos preajustes para estructuras de acero*
+![](images/Arch_presets_example.jpg ) 
+*Algunos preajustes para estructuras de acero*
 
 Los elementos predefinidos se obtienen al elegir una **Categoría** del panel de opciones de estructura. Las categorías disponibles son **Prefabricados de hormigón** o cualquiera de los perfiles metálicos estándar de la industria, tales como **HEA**, **HEB** o **INP**. Para cada una de estas categorías, hay una cantidad de predefinidos disponibles. Una vez que se selecciona un predefinido, se pueden ajustar sus parámetros individuales tales como **Longitud**, **Ancho** o **Altura**. Sin embargo, para perfiles metálicos, el tamaño del perfil está establecido por el elemento predefinido y no se puede cambiar.
 
@@ -137,4 +139,4 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Structure/es
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Structure/es

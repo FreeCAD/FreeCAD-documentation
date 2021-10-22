@@ -48,6 +48,7 @@ Nachdem **OK** drücken, werden die ausgewählten Objekte in den Speicher kopier
 ![](images/ObjectSelection.png )
 
 
+
 *Objektauswahldialog, der aus der [Auswahlansicht](Selection_view/de.md) heraus gestartet wird.*
 
 ## Baumansicht

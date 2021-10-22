@@ -42,7 +42,8 @@ You will practice:
 -   modifying their [placement](placement.md)
 -   doing boolean operations
 
-![](images/10_T03_Part_ball_fillet.png ) *Final model of the wiffle ball*
+![](images/10_T03_Part_ball_fillet.png ) 
+*Final model of the wiffle ball*
 
 
 <div class="mw-translate-fuzzy">
@@ -153,7 +154,8 @@ cliccare semplicemente nello spazio vuoto della vista 3D (Con lo stile di Naviga
 :   5.1. Select `Cube001`, the smaller cube, in the [tree view](tree_view.md), and change the color. In the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a green color; also change the value of **Line Width** to `2.0`.
 :   5.2. Select `Cube`, the larger cube, in the [tree view](tree_view.md), and change the transparency. In the **View** tab, change the value of **Transparency** to `70`.
 
-![](images/01_T03_Part_cubes_visibility.png ) *Solid cube inside another solid cube*
+![](images/01_T03_Part_cubes_visibility.png ) 
+*Solid cube inside another solid cube*
 
 ## Insert primitive cylinders 
 
@@ -196,7 +198,8 @@ cliccare semplicemente nello spazio vuoto della vista 3D (Con lo stile di Naviga
 :   9.4. Select `Cylinder002`, in the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a pink color.
 :   9.5. Select the three cylinders, in the **View** tab also change the value of **Line Width** to `2.0`.
 
-![](images/02_T03_Part_cylinders_visibility.png ) *Solid cylinders that intersect themselves and the solid cubes.*
+![](images/02_T03_Part_cylinders_visibility.png ) 
+*Solid cylinders that intersect themselves and the solid cubes.*
 
 ## Fuse and cut 
 
@@ -259,7 +262,8 @@ We\'ll duplicate the previous two objects again to use once more as cutting obje
 :   16.1. Select the `Cut` object, in the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a blue color.
 :   16.2. Select all new cubes, `Cube002`, `Cube003`, `Cube004`, and `Cube005`, in the **View** tab, change the value of **Transparency** to `80`.
 
-![](images/04_T03_Part_cube_additional.png ) *Additional external cubes that will be used as cutting objects for the internal solid.*
+![](images/04_T03_Part_cube_additional.png ) 
+*Additional external cubes that will be used as cutting objects for the internal solid.*
 
 
 <div class="mw-translate-fuzzy">
@@ -316,7 +320,8 @@ We\'ll duplicate the previous two objects again to use once more as cutting obje
 :   19.1. Select `Cube004` and `Cube005`, in the **View** tab, then change the value of **Visibility** to `false`, or press **Space** in the keyboard.
 :   19.2. Select `Cut001`, click on the **Shape Color** value to open the **Select color** dialog, then choose a red color; also change the value of **Transparency** to `90`.
 
-![](images/05_T03_Part_cube_additional_cut_1.png ) *A rotated, hollowed solid, which will be used as a cutting object for some corners of the internal solid.*
+![](images/05_T03_Part_cube_additional_cut_1.png ) 
+*A rotated, hollowed solid, which will be used as a cutting object for some corners of the internal solid.*
 
 
 <div class="mw-translate-fuzzy">
@@ -384,20 +389,23 @@ Se tutto è andato bene, il modello dovrebbe assomigliare a questo:
 
 24\. Make sure all objects are visible. In the [tree view](tree_view.md) select all objects, in the **View** tab, change the value of **Visibility** to `true`, or press **Space** in the keyboard.
 
-![](images/07_T03_Part_ball_additional_both.png ) *The internal hollowed solid, together with the external objects which will be used to cut it.*
+![](images/07_T03_Part_ball_additional_both.png ) 
+*The internal hollowed solid, together with the external objects which will be used to cut it.*
 
 25\. In the [tree view](tree_view.md) de-select the objects; then select `Cut` first, and then `Cut001`.
 
 :   25.1. Then press **<img src=images/Part_Cut.svg style="width:16px"> [Cut](Part_Cut.md)**. This will create `Cut003`.
 
-![](images/08_T03_Part_ball_cut_1.png ) *The internal hollowed solid, cut by `Cut001*.`
+![](images/08_T03_Part_ball_cut_1.png ) 
+*The internal hollowed solid, cut by `Cut001*.`
 
 26\. In the [tree view](tree_view.md) de-select the objects; then select `Cut003` first, and then `Cut002`.
 
 :   26.1. Then press **<img src=images/Part_Cut.svg style="width:16px"> [Cut](Part_Cut.md)**. This will create `Cut004`. This is the final object.
 :   26.2. Select `Cut004`, click on the **Shape Color** value to open the **Select color** dialog, then choose a green color; also change the value of **Line Width** to `2.0`.
 
-![](images/09_T03_Part_ball_cut_2.png ) *The internal hollowed solid, cut by `Cut001* and {{incode|Cut002`. Final model.}}
+![](images/09_T03_Part_ball_cut_2.png ) 
+*The internal hollowed solid, cut by `Cut001* and {{incode|Cut002`. Final model.}}
 
 27\. Real objects don\'t have perfectly sharp edges or corners, so applying a fillet to the edges can be done to refine the model.
 
@@ -406,7 +414,8 @@ Se tutto è andato bene, il modello dovrebbe assomigliare a questo:
 :   24.3. Press **OK**. This will create a `Fillet` object.
 :   27.4. In the **View** tab, change the value of **Line Width** to `2.0`.
 
-![](images/10_T03_Part_ball_fillet.png ) *Final whiffle ball model with fillets applied to the edges.*
+![](images/10_T03_Part_ball_fillet.png ) 
+*Final whiffle ball model with fillets applied to the edges.*
 
 
 {{Tutorials navi

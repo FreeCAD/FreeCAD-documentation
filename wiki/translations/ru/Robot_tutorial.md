@@ -12,7 +12,8 @@
 
 This tutorial is here to teach you how to use the <img alt="" src=images/Workbench_Robot.svg  style="width:24px;"> [Robot Workbench](Robot_Workbench.md) to simulate a robot cell set-up.
 
-![](images/Robot_Tutorial_RobotSimulation.gif ) *Final result of this tutorial*
+![](images/Robot_Tutorial_RobotSimulation.gif ) 
+*Final result of this tutorial*
 
 ## Before you begin 
 

@@ -14,7 +14,8 @@ Für weitere Informationen siehe:
 -   [Wikipedia:PySide](http://en.wikipedia.org/wiki/PySide)
 -   [Unterschiede zwischen PySide und PyQt](http://qt-project.org/wiki/Differences_Between_PySide_and_PyQt)
 
-![](images/PySideScreenSnapshot1.jpg ) ![](images/PySideScreenSnapshot2.jpg ) *Mit PySide erstellte Beispiele. Links: ein einfacher Dialog. Rechts: ein komplexerer Dialog mit Diagrammen.*
+![](images/PySideScreenSnapshot1.jpg ) ![](images/PySideScreenSnapshot2.jpg ) 
+*Mit PySide erstellte Beispiele. Links: ein einfacher Dialog. Rechts: ein komplexerer Dialog mit Diagrammen.*
 
 ## PySide in FreeCAD mit Qt5 
 

@@ -38,7 +38,7 @@ Applying a horizontal or vertical constraint, or an angle constraint (relative t
 
 Multiple objects can be constrained between one another. Two lines can be joined through one of their points with the coincident point constraint. An angle can be set between them, or they can be set perpendicular. A line can be tangent to an arc or a circle, and so on. A complex Sketch with multiple objects will have a number of different solutions, and making it **fully-constrained** means that just one of these possible solutions has been reached based on the applied constraints.
 
-There are two kinds of constraints: geometric and dimensional. They are detailed in the [\'The tools\'](#The_tools.md) section below.
+There are two kinds of constraints: geometric and dimensional. They are detailed in the [\'Tools\'](#Tools.md) section below.
 
 #### What the Sketcher is not good for 
 
@@ -56,7 +56,7 @@ Inside the enclosed area we can have smaller non-overlapping areas. These will b
 
 Once a Sketch is fully constrained, the Sketch features will turn green; Construction Geometry will remain blue. It is usually \"finished\" at this point and suitable for use in creating a 3D solid. However, once the Sketch dialog is closed it may be worthwhile going to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:Part Workbench](Part_Workbench.md) and running **[16px"> [Check geometry](Part_CheckGeometry.md)** to ensure there are no features in the Sketch which may cause later problems.
 
-## The tools 
+## Tools
 
 The Sketcher Workbench tools are all located in the Sketch menu that appears when you load the Sketcher Workbench.
 
@@ -282,7 +282,7 @@ The following tools can be used the change the effect of constraints:
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Switch Virtual Space](Sketcher_SwitchVirtualSpace.md): Allows you to hide all constraints of a sketch and make them visible again.
 
-### Preferences
+## Preferences
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Preferences](Sketcher_Preferences.md): Preferences for the **Sketcher** workbench.
 

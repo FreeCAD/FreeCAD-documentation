@@ -62,6 +62,7 @@ A fundamental difference between FreeCAD and other programs, like Catia, is that
  <img alt="" src=images/PartDesign_Body_non-contiguous.png  style="width:550px;"> 
 
 
+
 *Difference between Catia and FreeCAD. Left: Catia allows disconnected bodies from the previous features of the body. In FreeCAD this causes an error; Right: the newer feature should always contact or intersect the previous feature so that it is fused to it, and becomes a single contiguous solid.*
 
 ## Datum geometry 
@@ -81,6 +82,7 @@ Both sketches and datum planes should be attached to base planes. Referencing ge
 Even if not used for supporting sketches, datum objects are still helpful as visual indicators, to draw attention to important features or distances in the modelling process. (Though, simply adding geometry to a sketch also provides similar visual feedback.)
 
  <img alt="" src=images/PartDesign_Body_non-contiguous_slanted.png  style="width:550px;"> 
+
 
 
 *Difference between Catia and FreeCAD. Left: Catia allows disconnected bodies from the previous features of the body. In FreeCAD this causes an error; Right: the newer feature should always contact or intersect the previous feature, so that it is fused to it, and becomes a single contiguous solid. In this example, the new solid is based on a datum plane that is rotated around the Y axis.*

@@ -14,7 +14,8 @@
 
 Das FührungsLinien Werkzeug fügt einer Ansicht eine Führungslinie hinzu. Andere Anmerkungsobjekte (wie z.B. [Formatierte Text Anmerkungen](TechDraw_RichTextAnnotation/de.md)) können mit der Führungslinie verbunden werden, um komplexe Anmerkungen zu bilden.
 
-![](images/TechDraw_LeaderLine_sample.png ) *Führungslinie zur Ansicht View hinzugefügt*
+![](images/TechDraw_LeaderLine_sample.png ) 
+*Führungslinie zur Ansicht View hinzugefügt*
 
 ## Anwendung
 

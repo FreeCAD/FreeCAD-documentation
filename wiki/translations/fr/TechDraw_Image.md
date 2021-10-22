@@ -13,7 +13,8 @@
 
 L\'outil Image insère une image [bitmap](bitmap/fr.md) (png, jpeg, jpg, bmp, etc.) à partir d\'un fichier dans la page en tant que vue.
 
-![](images/TechDraw_Image_example.png ) *Image insérée dans la page de dessin*
+![](images/TechDraw_Image_example.png ) 
+*Image insérée dans la page de dessin*
 
 ## Comment faire 
 

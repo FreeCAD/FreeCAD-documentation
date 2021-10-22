@@ -17,6 +17,7 @@ Funkcja **Otwór** tworzy jeden lub więcej otworów z okręgów wybranego szkic
 <img alt="" src=images/Countersunk_and_counterbored_holes_cross-section1.png  style="width:600px;">
 
 
+
 *Otwory pogłębione stożkowo ''(z lewej strony)'' i otwory pogłębione walcowo ''(z prawej strony)'' przekrój podłużny.*
 
 ## Użycie

@@ -30,6 +30,7 @@ This snap option will also find points on the extension of straight edges. Circu
 <div class="mw-translate-fuzzy">
 
 
+
 *Einrasten des zweiten Punkts einer Linie an einer unsichtbaren Verlängerung einer anderen Linie, so dass die erste rechtwinklig zur zweiten ist*
 
 

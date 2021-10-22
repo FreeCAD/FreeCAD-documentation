@@ -15,6 +15,7 @@ Każdy obiekt stworzony za pomocą środowiska [Część](Part_Workbench/pl.md) 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Uproszczony diagram zależności pomiędzy podstawowymi obiektami w programie. Klasa `Part::Feature* jest źródłem większości obiektów 2D ''(Rysunek roboczy, Szkicownik)'' i 3D ''(Część, Projekt części)'', które posiadają [kształt topologiczny](Part_TopoShape/pl.md).`
 
 ## Użycie
@@ -149,7 +150,8 @@ deviation_in_mm = (w + h + d)/3 * deviation/100
 
 ### Wartość odchylenia 
 
-<img alt="" src=images/View_property_Deviation.svg  style="width:500px;"> *Parametry ugięcia algorytmu `BRepMesh_IncrementalMesh*; d < ugięcie liniowe, α < ugięcie kątowe.`
+<img alt="" src=images/View_property_Deviation.svg  style="width:500px;"> 
+*Parametry ugięcia algorytmu `BRepMesh_IncrementalMesh*; d < ugięcie liniowe, α < ugięcie kątowe.`
 
 Zobacz wątek na forum, [Odchylenie i odchylenie kątowe](https://forum.freecadweb.org/viewtopic.php?f=3&t=45512).
 

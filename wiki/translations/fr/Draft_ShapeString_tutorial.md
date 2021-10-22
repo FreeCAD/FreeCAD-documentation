@@ -21,7 +21,8 @@ Ce didacticiel décrit une méthode pour créer du texte 3D et l\'utiliser avec 
 
 Pour utiliser ShapeStrings à l\'intérieur de l\'_ pour l\'extruder. allez à la fin de ce didacticiel pour plus d\'informations.
 
-![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) *Maquette finale du texte gravé.*
+![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) 
+*Maquette finale du texte gravé.*
 
 L\'[atelier Sketcher](Sketcher_Workbench/fr.md) est utilisé brièvement pour tracer une ligne auxiliaire. Pour plus d\'informations sur les outils de cet atelier, consultez
 
@@ -52,7 +53,8 @@ L\'[atelier Sketcher](Sketcher_Workbench/fr.md) est utilisé brièvement pour tr
 :   3.4. Appuyez sur {{Button | OK}}. Cela créera un objet `Chamfer`.
 :   3,5. Dans la [vue en arborescence](tree_view.md), sélectionnez `Chamfer`, dans l\'onglet **View**, changez la valeur de **Line Width** à `2.0`.
 
-![](images/01_T04_Part_Cube_base_long.png ) *Objet de base créé à partir d'un cube et d'une opération de chanfrein.*
+![](images/01_T04_Part_Cube_base_long.png ) 
+*Objet de base créé à partir d'un cube et d'une opération de chanfrein.*
 
 ## Insertion du texte avec l\'outil Dessin de ShapeString 
 
@@ -82,7 +84,8 @@ L\'[atelier Sketcher](Sketcher_Workbench/fr.md) est utilisé brièvement pour tr
 :   5.12. Pour voir la ShapeString ci-dessus, changez la vue en appuyant sur **<img src=images/View-top.svg style="width:16px"> [Vue de dessus (XY)](Std_ViewTop/fr.md)** ou **2** dans le clavier.
 :   5.13. Pour restaurer la vue en isométrique, appuyez sur **<img src=images/Std_ViewIsometric.svg style="width:16px"> [Vue isométrique](Std_ViewIsometric/fr.md)** ou **0** sur le clavier.
 
-![](images/02_T04_Part_ShapeString.png ) *Texte créé en tant que ShapeString, c'est-à-dire en tant que collection d'arêtes dans un plan.*
+![](images/02_T04_Part_ShapeString.png ) 
+*Texte créé en tant que ShapeString, c'est-à-dire en tant que collection d'arêtes dans un plan.*
 
 ## Créer un texte 3D 
 
@@ -93,7 +96,8 @@ L\'[atelier Sketcher](Sketcher_Workbench/fr.md) est utilisé brièvement pour tr
 :   6.3. Appuyez sur **OK**. Cela créera un objet `Extrude`.
 :   6.4. Dans la [vue en arborescence](tree_view/fr.md), sélectionnez `Extrude`, dans l\'onglet **View**, changez la valeur de **Line Width** en `2.0`.
 
-![](images/03_T04_Part_ShapeString_Extrude.png ) *Texte créé comme un ShapeString et transformé en solide par extrusion.*
+![](images/03_T04_Part_ShapeString_Extrude.png ) 
+*Texte créé comme un ShapeString et transformé en solide par extrusion.*
 
 ## Insérer l\'esquisse pour le positionnement 
 
@@ -144,9 +148,11 @@ Nous allons maintenant dessiner une simple esquisse qui sera utilisée comme gé
     **Remarque:**si vous rencontrez des problèmes lors de l\'accrochage aux sommets, assurez-vous que seule la méthode **<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Terminaison](Draft_Snap_Endpoint/fr.md)** est activée . Le fait d\'avoir plusieurs méthodes d\'accrochage actives en même temps peut rendre difficile la sélection de la bonne fonction.
 :   13.4. Le texte extrudé doit maintenant se trouver dans le corps de l\'objet `Fillet`.
 
-![](images/06_T04_Part_ShapeString_move.svg ) *La chaîne de forme extrudée doit être déplacée à la position de la ligne esquissée qui se trouve sur la face du corps de base.*
+![](images/06_T04_Part_ShapeString_move.svg ) 
+*La chaîne de forme extrudée doit être déplacée à la position de la ligne esquissée qui se trouve sur la face du corps de base.*
 
-![](images/07_T04_Part_ShapesString_Extrude_in_place.png ) *Chaîne de forme extrudée positionnée dans le `Fillet*.`
+![](images/07_T04_Part_ShapesString_Extrude_in_place.png ) 
+*Chaîne de forme extrudée positionnée dans le `Fillet*.`
 
 ## Création de texte gravé 
 
@@ -162,7 +168,8 @@ Nous allons maintenant dessiner une simple esquisse qui sera utilisée comme gé
     **Remarque:**l\'ordre dans lequel vous sélectionnez les objets est important pour l\'opération de découpe. L\'objet de base est sélectionné en premier et l\'objet soustractif arrive à la fin.
 :   15.2. Dans la [Vue en arborescence](tree_view.md), sélectionnez `Cut`, dans l\'onglet **Affichage**, changez la valeur de **Line Width** en `2.0`.
 
-![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) *Modèle terminé d'un cube avec filet avec du texte gravé créé à partir des opérations ShapeString, extrusion et soustraction bouléenne.*
+![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) 
+*Modèle terminé d'un cube avec filet avec du texte gravé créé à partir des opérations ShapeString, extrusion et soustraction bouléenne.*
 
 ## Gravure de texte 3D avec l\'atelier PartDesign 
 

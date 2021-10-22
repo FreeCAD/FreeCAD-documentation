@@ -277,7 +277,7 @@ Następujące narzędzia mogą być wykorzystane do zmiany działania wiązań:
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Przełącz wirtualną przestrzeń](Sketcher_SwitchVirtualSpace.md): Umożliwia ukrycie wszystkich wiązań szkicu i ponowne ich wyeksponowanie.
 
-### Ustawienia
+## Ustawienia
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Ustawienia](Sketcher_Preferences.md): Konfiguracja Środowiska pracy **Szkicownik**.
 

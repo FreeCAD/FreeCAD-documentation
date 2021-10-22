@@ -3,7 +3,7 @@
 - GuiCommand:/tr
    Name/tr:Konum
    MenuLocation:Arsa → Konum
-‏‎   |Workbenches:[Arsa](Plot_Module/tr.md)
+‏‎   |Workbenches:[Arsa](Plot_Workbench/tr.md)
    Shortcut:
    SeeAlso:---
 
@@ -20,7 +20,8 @@ This tool allows the user to edit the position of some items like titles, axes l
 
 Select the plot tab that you want to edit, and run this tool. Then you can select the item you want to edit in the selector
 
-![Items position selector](images/Plot_Position_Item_Selector.png ) *Selector for the item to de edited*
+![Items position selector](images/Plot_Position_Item_Selector.png ) 
+*Selector for the item to de edited*
 
 ## Options
 

@@ -14,7 +14,8 @@
 
 Il comando **Vista isometrica** orienta la camera della _, ma il comando funziona anche se la vista è in [modalità prospettiva](Std_PerspectiveCamera.md).
 
-![](images/Std_ViewIsometric_example.svg ) *Il [sistema di assi](Std_AxisCross.md) e un cubo in vista isometrica.*
+![](images/Std_ViewIsometric_example.svg ) 
+*Il [sistema di assi](Std_AxisCross.md) e un cubo in vista isometrica.*
 
 ## Utilizzo
 

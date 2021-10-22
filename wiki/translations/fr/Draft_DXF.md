@@ -5,7 +5,8 @@
 
 Draft DXF est un module logiciel utilisé par <img alt="" src=images/Std_Open.svg  style="width:24px;"> _ et <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Exporter](Std_Export/fr.md) pour gérer le format de fichier DXF.
 
-![](images/Screenshot_qcad.jpg ) *Qcad plan exporté en DXF qui est ensuite ouvert dans FreeCAD*
+![](images/Screenshot_qcad.jpg ) 
+*Qcad plan exporté en DXF qui est ensuite ouvert dans FreeCAD*
 
 ## Importation
 

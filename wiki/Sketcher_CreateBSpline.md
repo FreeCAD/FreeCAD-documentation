@@ -13,7 +13,8 @@
 
 This tool creates B-Spline curve from its control points. (See [this page](B-Splines.md) for more info about B-Splines.)
 
- ![](images/Sketcher_B-spline_example01.png )  *A B-Spline curve (in white) defined by 4 control points. Pictured are the control polygon in green (the straight lines connecting the control points) and the weight circles in dark yellow. The green digit "3" in the center refers to the [degree](Sketcher_BSplineIncreaseDegree#Description.md) of the B-spline and the digits "(4)" at the ends of the B-spline refer to their [knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity#Description.md). The red digit "3" denotes the control point weight which is defined as radius constraint to the control point circle.*
+ ![](images/Sketcher_B-spline_example01.png )  
+*A B-Spline curve (in white) defined by 4 control points. Pictured are the control polygon in green (the straight lines connecting the control points) and the weight circles in dark yellow. The green digit "3" in the center refers to the [degree](Sketcher_BSplineIncreaseDegree#Description.md) of the B-spline and the digits "(4)" at the ends of the B-spline refer to their [knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity#Description.md). The red digit "3" denotes the control point weight which is defined as radius constraint to the control point circle.*
 
 ## Usage
 

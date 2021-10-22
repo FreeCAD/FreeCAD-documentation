@@ -17,9 +17,11 @@ L\'outil Apparence des lignes modifie l\'apparence des lignes (Edges).
 <img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width:180px;">
 
 
+
 *Exemple de lignes avant modifications*
 
 <img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width:180px;">
+
 
 
 *Exemple de lignes après modifications*

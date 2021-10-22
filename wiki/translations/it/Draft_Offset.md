@@ -29,6 +29,7 @@ Lo strumento Offset sposta l\'oggetto selezionato di una determinata distanza (o
 <div class="mw-translate-fuzzy">
 
 
+
 *Offset di un contorno a una certa distanza da uno dei suoi bordi*
 
 

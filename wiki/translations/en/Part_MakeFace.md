@@ -18,6 +18,7 @@ It is possible to nest closed contours, for example to have circles inside a pol
 <img alt="" src=images/Part_MakeFace-example.png  style="width:300px;">
 
 
+
 *Example of a face created from a nested set of contours.*
 
 ## Usage

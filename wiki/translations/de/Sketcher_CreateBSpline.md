@@ -14,7 +14,8 @@
 
 Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine offene B-Splinekurve auf. (Siehe [diese Seite](B-Splines/de.md) für weitere Informationen über B-Splines).
 
-![](images/Sketcher_B-spline_example01.png ) *Eine B-Spline Kurve (in weiß), definiert durch 4 Kontrollpunkte. Abgebildet sind das Kontrollpolygon in Grün (die Geraden, die die Kontrollpunkte verbinden) und die Gewichtskreise in Dunkelgelb. Die grüne Ziffer "3" in der Mitte bezieht sich auf den [Grad](Sketcher_BSplineIncreaseDegree/de#Beschreibung.md) des B-Splines und die Ziffern "(4)" an den Enden des B-Splines beziehen sich auf dessen [Knotenvielfalt](Sketcher_BSplineDecreaseKnotMultiplicity/de#Beschreibung.md). Die rote Ziffer "3" steht für das Kontrollpunktgewicht, das als Radiusbindung an den Kontrollpunktkreis definiert ist.*
+![](images/Sketcher_B-spline_example01.png ) 
+*Eine B-Spline Kurve (in weiß), definiert durch 4 Kontrollpunkte. Abgebildet sind das Kontrollpolygon in Grün (die Geraden, die die Kontrollpunkte verbinden) und die Gewichtskreise in Dunkelgelb. Die grüne Ziffer "3" in der Mitte bezieht sich auf den [Grad](Sketcher_BSplineIncreaseDegree/de#Beschreibung.md) des B-Splines und die Ziffern "(4)" an den Enden des B-Splines beziehen sich auf dessen [Knotenvielfalt](Sketcher_BSplineDecreaseKnotMultiplicity/de#Beschreibung.md). Die rote Ziffer "3" steht für das Kontrollpunktgewicht, das als Radiusbindung an den Kontrollpunktkreis definiert ist.*
 
 ## Anwendung
 

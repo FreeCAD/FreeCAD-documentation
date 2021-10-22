@@ -12,7 +12,8 @@
 
 The **Std DlgMacroRecord** command starts a [macro](Macros.md) recording session during which user actions are stored in a FreeCAD macro, a file with the {{FileName|.FCMacro}} extension. A macro can later be replayed, executed, to repeat the recorded actions.
 
-![](images/Std_DlgMacroRecord_dialog.png ) *The Macro recording dialog box*
+![](images/Std_DlgMacroRecord_dialog.png ) 
+*The Macro recording dialog box*
 
 ## Usage
 

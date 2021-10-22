@@ -27,7 +27,8 @@ Lo strumento Vista di sezione crea una vista in sezione trasversale basata sulla
 4.  Si apre una finestra di dialogo che aiuta a calcolare le varie proprietà della sezione. La finestra di dialogo calcola ragionevoli punti di partenza per SectionNormal e Direzione della vista, ma per esigenze speciali questi possono essere modificati dopo la creazione.
 5.  Se si commette un errore o si cambia idea durante l\'impostazione dei parametri della sezione, premere il pulsante **Reset** e si può ricominciare da capo.
 
-![](images/TechDraw_Section_Taskview.png ) *La scheda Azioni per definire il taglio in sezione di una vista*
+![](images/TechDraw_Section_Taskview.png ) 
+*La scheda Azioni per definire il taglio in sezione di una vista*
 
 ## Proprietà
 

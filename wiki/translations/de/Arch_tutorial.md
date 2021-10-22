@@ -476,4 +476,4 @@ Die in diesem Tutorial erzeugten Dateien finden Sie [hier](http://yorik.uncreate
 }}
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch tutorial/de
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/de

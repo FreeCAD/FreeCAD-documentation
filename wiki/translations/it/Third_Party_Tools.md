@@ -62,12 +62,12 @@ Uno strumento molto buono e stabile per generare la documentazione del codice pa
 
 </div>
 
-#### The Gimp 
+#### Gimp
 
 
 <div class="mw-translate-fuzzy">
 
-##### Gimp
+##### Gimp 
 
 Non c\'è molto da dire su **GNU Image Manipulation Program** (Programma di manipolazione di immagini di GNU). Può anche gestire i file .xpm che sono un modo molto pratico per gestire le icone nei programmi di QT. XPM è sostanzialmente un codice C compilabile in un programma. Gimp produce il formato .png libero utilizzato nella wiki.
 

@@ -419,9 +419,16 @@ Come al solito è possibile modificare le barre degli strumenti e aggiungere o r
 
 [Torna all\'inizio](#top.md)
 
+
+<div class="mw-translate-fuzzy">
+
 ### Vincoli
 
 Il progettista utilizza i vincoli per ottenere il risultato desiderato nella relazione tra due parti. L\'arte è la selezione dei giusti vincoli più adatti ad affrontare ogni problema. Ogni DOF eliminato dovrebbe in teoria essere eliminato solo una volta tra due oggetti, ma in pratica con molti strumenti CAD i vincoli selezionati causano combinazioni di vincoli eccessivi, spesso compensati da algoritmi complessi, a volte no. Assembly3 utilizza algoritmi per rilevare e compensare gli eccessi di vincoli, ma chiaramente non sono ancora molto maturi. Quindi in pratica per i vincoli di Assembly3 si evitano problemi essendo consapevoli di quanti gradi di libertà (DOF) sono stati utilizzati e quali devono ancora essere bloccati dai vincoli. Nessuna parte dovrebbe avere una connessione di vincoli utilizzati maggiore di 6DOF.
+
+
+</div>
+
 
 :   Nota: Se il risolutore incontra una combinazione che non può essere risolta, darà un errore. È molto difficile per il risolutore scoprire cosa ha causato il problema, quindi tipicamente da questo errore dato non sarà chiaro *dove* è il problema. In assemblaggi più grandi questo può portare a ricerche complesse del problema. Purtroppo non c\'è un modo semplice per evitarlo. Tuttavia, aiuta essere pienamente consapevoli di come funziona il sistema (.e.g. vedi [Elementi](#Elements.md) qui sotto), utilizzare nomi chiari per tutti i componenti coinvolti e aggiungere vincoli aggiuntivi solo quando il risolutore risolve l\'assemblaggio corrente. Molto utile per rintracciare un problema è la funzione \"ContexMenu/Deactivate\" di ogni Vincolo.
 

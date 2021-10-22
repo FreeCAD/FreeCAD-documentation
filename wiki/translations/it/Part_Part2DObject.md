@@ -13,6 +13,7 @@ Un _ che può essere visualizzato nella [Vista 3D](3D_view/it.md).
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Diagramma semplificato delle relazioni tra gli oggetti principali in FreeCAD. La classe `Part::Part2DObject* è specializzata per le forme 2D, quindi è la classe di base per gli oggetti planari creati con gli ambienti Draft e Sketcher. Include un'estensione che consente di collegarla a facce e piani`
 
 ## Utilizzo

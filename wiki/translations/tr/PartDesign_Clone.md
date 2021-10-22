@@ -22,7 +22,8 @@
 
 </div>
 
-![*Clone of the inner gear while being translated in 3D space as an independent object*](images/clone.png ) *Clone of the inner gear while being translated in 3D space as an independent object*
+![*Clone of the inner gear while being translated in 3D space as an independent object*](images/clone.png ) 
+*Clone of the inner gear while being translated in 3D space as an independent object*
 
 ## Nasıl Kullanılır 
 

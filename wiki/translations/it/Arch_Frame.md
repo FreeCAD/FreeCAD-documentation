@@ -29,6 +29,7 @@ Lo strumento <img alt="" src=images/Arch_Frame.svg  style="width:16px;"> Carpent
 <div class="mw-translate-fuzzy">
 
 
+
 *Oggetto Carpenteria creato da una [schiera](Draft_Array/it.md) derivata da una [linea](Draft_Line/it.md), utilizzando un [cerchio](Draft_Circle/it.md) come profilo.*
 
 
@@ -142,4 +143,4 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Frame/it
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Frame/it

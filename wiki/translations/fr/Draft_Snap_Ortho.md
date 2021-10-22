@@ -12,7 +12,8 @@
 
 L\'option <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:24px;"> **Draft Aimantation Orthogonal** permet de s\'aimanter sur des lignes imaginaires qui croisent le point précédent à 0°, 45°, 90° et 135°. Les lignes et les angles sont relatifs au plan XY du système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md).
 
-![](images/Draft_Snap_Ortho_example.png ) *Aimantation du deuxième point d'une ligne à une ligne imaginaire qui fait un angle de 45° avec l'axe X. Les petits cercles magenta indiquent toutes les directions possibles.*
+![](images/Draft_Snap_Ortho_example.png ) 
+*Aimantation du deuxième point d'une ligne à une ligne imaginaire qui fait un angle de 45° avec l'axe X. Les petits cercles magenta indiquent toutes les directions possibles.*
 
 ## Utilisation
 

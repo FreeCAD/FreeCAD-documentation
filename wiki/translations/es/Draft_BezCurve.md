@@ -34,6 +34,9 @@ Los comandos [Borrador CubicBezCurva](Draft_CubicBezCurve/es.md) utilizan **punt
 
 Ver también: [Bandeja Borrador](Draft_Tray/es.md), [Borrador Atrapar](Draft_Snap/es.md) y [Borrador Restricción](Draft_Constrain/es.md).
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Hay varias formas de invocar el comando:
     -   Pulsar el **<img src="images/Draft_BezCurve.svg" width=16px> [Borrador BezCurve](Draft_BezCurve/es.md)**.
     -   Seleccione la opción **Borrador → Herramientas Bézier → <img src="images/Draft_BezCurve.svg" width=16px> Curva Bézier** en el menú.
@@ -41,6 +44,9 @@ Ver también: [Bandeja Borrador](Draft_Tray/es.md), [Borrador Atrapar](Draft_Sna
 3.  Escoge el primer punto en la [Vista 3D](3D_view/es.md), o escribe las coordenadas y pulsa el **<img src="images/Borrador_AddPoint.svg" width=16px> Introducir punto** botón.
 4.  Escoge puntos adicionales en la [Vista 3D](3D_view/es.md), o escribe las coordenadas y pulsa el **<img src="images/Borrador_AddPoint.svg" width=16px> Introducir punto** botón.
 5.  Pulse **Esc** o el botón **Cerrar** para finalizar el comando.
+
+
+</div>
 
 ## Opciones
 

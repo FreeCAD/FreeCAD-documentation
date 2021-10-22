@@ -25,7 +25,8 @@ Bu yakalama modu, öğelerin orta noktasını seçmenizi sağlar.
 
 </div>
 
-![](images/Draft_Snap_Midpoint_example.png ) *Snapping the second point of a line to the midpoint of an edge*
+![](images/Draft_Snap_Midpoint_example.png ) 
+*Snapping the second point of a line to the midpoint of an edge*
 
 ## Usage
 

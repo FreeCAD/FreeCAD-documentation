@@ -13,7 +13,8 @@
 
 Applique une vitesse d\'écoulement comme condition aux limites à une arête en 2D ou à une face en 3D.
 
-![](images/FEM-constraint-flow-velocity_task-panel.png ) *Menus des contraintes de vitesse d'écoulement dans le [Panneau des tâches](Task_panel/fr.md)*
+![](images/FEM-constraint-flow-velocity_task-panel.png ) 
+*Menus des contraintes de vitesse d'écoulement dans le [Panneau des tâches](Task_panel/fr.md)*
 
 ## Utilisation
 

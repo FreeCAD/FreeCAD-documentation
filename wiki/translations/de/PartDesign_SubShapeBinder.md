@@ -27,6 +27,7 @@ Es kann auch an Objekte binden, die innerhalb von [Std Parts](Std_Part/de.md) ve
 <img alt="" src=images/PartDesign_SubShapeBinder_example_1.png  style="width:" height="300px;"> <img alt="" src=images/PartDesign_SubShapeBinder_example_2.png  style="width:" height="300px;">
 
 
+
 *Links: zwei Körper, die in zwei separaten [Körpern](PartDesign_Body/de.md) erzeugt wurden. Rechts: zwei UnterFormBinder, die aus dem ersten Körper extrahiert, in den zweiten Körper importiert und an eine andere Position verschoben wurden.*
 
 <img alt="" src=images/PartDesign_SubShapeBinder_example_3.png  style="width:" height="300px;"> 

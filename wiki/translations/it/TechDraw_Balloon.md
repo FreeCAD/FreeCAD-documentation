@@ -33,7 +33,11 @@ Lo strumento Pallinatura aggiunge le bolle con una linea guida in un disegno.
 
 </div>
 
-**Note:** The position of the balloon is relative to the View and uses the same scale factor as the View.
+To move the bubble of a Balloon, press and hold the left mouse button on its center and drag the mouse.
+
+To change the properties of a Balloon double-click it on the page or in the [Tree view](Tree_view.md). This will open the Balloon task panel.
+
+**Note:** The position of a Balloon is relative to its Source View and uses the same scale factor.
 
 ## Utilizzo dei separatori 
 

@@ -21,7 +21,13 @@ Das **<img src=images/Spreadsheet_SetAlias.svg style="width:16px"> [Kalkulations
 4.  Gib einen Alias ein. Nur alphanumerische Zeichen und Unterstriche (`[A]` bis `Z`, `a` bis `z`, `0` bis `9` und `_`) sind erlaubt.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Spreadsheet_Tools_navi

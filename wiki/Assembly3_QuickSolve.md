@@ -1,0 +1,24 @@
+---
+- GuiCommand:
+   Name:Assembly3 QuickSolve
+   Icon:Assembly_QuickSolve.svg
+   Workbenches:[Assembly3](Assembly3_Workbench.md)
+   MenuLocation:Assembly3 → Quick solve
+   Shortcut:**A** then **F**
+---
+
+# Assembly3 QuickSolve
+
+## Description
+
+The <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:24px;"> [Quick solve](Assembly3_QuickSolve.md) command does\...
+
+## Usage
+
+1.  Activate the <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:16px;"> **Quick solve** command using one of the following:
+    -   The **<img src="images/Assembly_QuickSolve.svg‎‎" width=16px> [Quick solve](Assembly3_QuickSolve.md)** button.
+    -   The **Assembly3 → <img src="images/Assembly_QuickSolve.svg‎‎" width=16px> Quick solve** menu option.
+    -   The keyboard shortcut: **A** then **F**.
+
+---
+[documentation index](../README.md) > Assembly3 QuickSolve

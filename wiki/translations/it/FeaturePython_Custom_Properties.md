@@ -31,6 +31,12 @@ obj.Label = "User-friendly label"
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
+</div>
+
+
 ```python
 obj.addProperty('App::PropertyBool', 'ThePropertyName', 'Subsection', "Description for tooltip")
 ```
@@ -124,7 +130,7 @@ obj.ThePropertyName // returns False
 
 ## App::PropertyBoolList
 
-A property containing a list of booleans. It can contain a python list of booleans, e.g. `[True, False, True]`. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+A property containing a list of booleans. It can contain a Python list of booleans, e.g. `[True, False, True]`. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
 
 
 ```python

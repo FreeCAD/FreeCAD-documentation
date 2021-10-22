@@ -21,6 +21,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_TwoTies_example.png  style="width:400px;">
 
 
+
 *Renfort 2x6 de colonne à l'intérieur d'une colonne [Arch Structure](Arch_Structure/fr.md)*
 
 ## Utilisation
@@ -31,10 +32,12 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 <img alt="" src=images/ColumnReinforcementDialog_Ties.png  style="width:700px;">
 
 
+
 *Boîte de dialogue pour l'outil Arch Rebar ColumnReinforcement*
 
 4\. Sélectionnez le type de ferraillage de colonne TwoTiesSixRebars dans le menu déroulant situé à droite.
 <img alt="" src=images/TwoTiesColumnReinforcementDialog_Ties.png  style="width:700px;">
+
 
 
 *Dialog Box pour TwoTiesSixRebars ColumnReinforcement*
@@ -42,6 +45,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 5\. Donnez des entrées pour les données relatives aux liens.
 6. Cliquez sur **Next** et la boîte de dialogue sera mise à jour comme indiqué ci-dessous.
 <img alt="" src=images/TwoTiesColumnReinforcementDialog_MainRebars.png  style="width:700px;">
+
 
 
 *Boîte de dialogue pour les données de barres principales*

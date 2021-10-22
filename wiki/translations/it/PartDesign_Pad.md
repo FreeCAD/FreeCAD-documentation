@@ -60,14 +60,42 @@ Il solido verrà estruso fino a una faccia del supporto che può essere scelta c
 
 Definisce la lunghezza dell\'estrusione. Si possono utilizzare diverse unità di misura, indipendentemente dalle unità definite nelle preferenze dell\'utente (m, cm, mm, nm, ft o \', in o \").
 
+### Direction
+
+#### Direction/edge
+
+You can select the direction of the padding:
+
+-   **Sketch normal** The sketch is extruded along its normal
+-   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model. This becomes then the direction vector for the padding. <small>(v0.20)</small> 
+-   **Custom direction** The sketch is extruded along a direction that can be specified via vector values. <small>(v0.19)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Utilizzare una direzione personalizzata 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 <small>(v0.19)</small> 
 
 Se spuntato, la direzione del prisma non sarà il vettore normale dello schizzo ma il vettore dato. La lunghezza dell\'estrusione è comunque impostata secondo la direzione del vettore normale.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ### Lunghezza lungo la normale del disegno 
+
+
+</div>
 
 Se selezionata, la lunghezza del prisma è misurata lungo la normale dello schizzo, altrimenti lungo la direzione personalizzata. {{Version/it|0.20}}
 

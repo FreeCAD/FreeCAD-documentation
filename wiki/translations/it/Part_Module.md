@@ -25,6 +25,7 @@ Gli oggetti Parte sono più complessi degli oggetti mesh creati con l\'ambiente 
 <img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;">
 
 
+
 *Part Workbench è lo strato base che espone le funzioni di disegno OCCT a tutti gli ambienti di FreeCAD.*
 
 ## Gli strumenti 

@@ -26,7 +26,8 @@ Der Leser wird üben:
 
 Für eine genauere Beschreibung des Skizzierers, lese die [Skizzierer Referenz](Sketcher_reference/de.md).
 
-![](images/00_Sk01_Sketcher_fully_constrained_final.png ) *Endergebnis der Skizze, wobei die gesamte Geometrie vollständig beschränkt ist, einschließlich der Konstruktionsgeometrie zur Unterstützung.*
+![](images/00_Sk01_Sketcher_fully_constrained_final.png ) 
+*Endergebnis der Skizze, wobei die gesamte Geometrie vollständig beschränkt ist, einschließlich der Konstruktionsgeometrie zur Unterstützung.*
 
 ## Einrichtung
 
@@ -56,6 +57,7 @@ Wir befinden uns jetzt im Skizzenbearbeitungsmodus. Innerhalb dieses Modus könn
 Die [Baumansicht](tree_view/de.md) wechselt zum [Aufgabenpaneel](task_panel/de.md); in dieser Oberfläche erweitere den **Bedienelemente bearbeiten** Abschnitt und stelle sicher, dass die **Auto Beschränkungen** Option aktiviert ist. Andere Optionen können geändert werden, einschließlich der Größe des sichtbaren Gitters und der Frage, ob wir am Gitter einrasten wollen; in diesem Tutorium werden wir nicht am Gitter einrasten und wir werden es auch ausblenden. In anderen Abschnitten des [Aufgabenpaneel](task_panel/de.md) kannst du auch sehen, welche geometrischen Elemente und Beschränkungen definiert wurden.
 
 <img alt="" src=images/01_Sk01_Sketcher_Task_panel.png  style="width:" height="400px;">
+
 
 
 *Oberer Teil des [Aufgabenpaneel](task_panel/de.md) des Skizzierers.*
@@ -88,6 +90,7 @@ Schaue dir die Abschnitte **Beschränkungen** und **Elemente** an, um die neu au
 <img alt="" src=images/02_Sk01_Sketcher_construction.png  style="width:" height="400px;">
 
 
+
 *Konstruktionslinien, die eine Sternform mit dem Zentrum im Ursprung bilden.*
 
 ## Reale Geometrie 
@@ -115,6 +118,7 @@ Vergewissere dich, dass du dich nicht im Konstruktionsmodus befindest, durch kli
 <img alt="" src=images/03_Sk01_Sketcher_outer_arcs.png  style="width:" height="400px;">
 
 
+
 *Kreisbögen hinzugefügt an den Endpunkten der Konstruktionslinien. Ebenso ein zentraler Kreis.*
 
 ### Innere Bögen 
@@ -128,6 +132,7 @@ Vergewissere dich, dass du dich nicht im Konstruktionsmodus befindest, durch kli
 Zusammenfassend lässt sich sagen, dass die Krümmung der O-Bögen nach außen und die Konkavität zum Ursprung der Skizze hin zeigen sollte; die Krümmung der I-Bögen sollte nach innen und die Konkavität vom gleichen Ursprung weg zeigen.
 
 <img alt="" src=images/04_Sk01_Sketcher_inner_arcs.png  style="width:" height="400px;">
+
 
 
 *Kreisbögen, die zwischen dem ersten Satz von Bögen hinzugefügt wurden.*
@@ -187,6 +192,7 @@ Wenn du die Beschränkung vorübergehend deaktivieren möchtest, kannst du sie a
 <img alt="" src=images/05c_Sk01_Sketcher_equality_constraints_I-arcs.png  style="width:" height="400px;">
 
 
+
 *Skizze mit Gleichheitsbeschränkungen, die auf die Konstruktionslinien und die beiden Bogensätze angewendet werden.*
 
 ### Tangentialität
@@ -205,6 +211,7 @@ Durch die Anwendung der tangentialen Beschränkung wird die Geometrie sehr oft v
 Ab diesem Schritt haben wir nun ein geschlossenes Profil erstellt, da alle Bögen miteinander verbunden wurden. Jetzt können wir Bezugsbeschränkungen angeben, um die Form der Skizze zu fixieren. Während die Bemaßungen von Linien und Bögen unfixiert bleiben, können wir die Punkte der Skizze ziehen und beobachten, wie sich die gesamte Skizze verändert.
 
 <img alt="" src=images/06_Sk01_Sketcher_tangency_constraints.png  style="width:" height="400px;">
+
 
 
 *Skizze mit tangentialen Beschränkungen, die auf die Bögen angewendet werden, wodurch die Form geschlossen wird.*
@@ -233,6 +240,7 @@ Diese Beschränkungen geben die numerischen Abstände zwischen zwei Punkten und 
 <img alt="" src=images/07a_Sk01_Sketcher_length_constraint.png  style="width:" height="400px;"> <img alt="" src=images/07b_Sk01_Sketcher_angle_constraint.png  style="width:" height="400px;">
 
 
+
 *Skizze mit Längenbeschränkung auf eine vertikale Konstruktionslinie (links) und Winkelbeschränkungen auf drei Paare von Konstruktionslinien (rechts).*
 
 ### Radius
@@ -249,6 +257,7 @@ Diese Beschränkungen geben die numerischen Abstände zwischen zwei Punkten und 
 <img alt="" src=images/08a_Sk01_Sketcher_radius_1_constraint.png  style="width:" height="400px;"> <img alt="" src=images/08b_Sk01_Sketcher_radius_2_constraint.png  style="width:" height="400px;">
 
 
+
 *Skizze mit Radiusbeschränkungen, die auf die nach außen gerichteten Bögen (links) und die nach innen gerichteten Bögen (rechts) angewendet werden.*
 
 
@@ -257,6 +266,7 @@ Diese Beschränkungen geben die numerischen Abstände zwischen zwei Punkten und 
 Wir sollten am Ende eine völlig beschränkte Skizze erhalten. Dies kann bestätigt werden, indem man die Farbänderung der realen Geometrie bemerkt, und durch die Nachricht, die im [Aufgabenpaneel](task_panel/de.md) angezeigt wird.
 
 <img alt="" src=images/09_Sk01_Sketcher_fully_constrained.png  style="width:" height="400px;">
+
 
 
 *Skizze mit allen angewandten geometrischen und Datumsbeschränkungen.*
@@ -271,6 +281,7 @@ Wir sollten am Ende eine völlig beschränkte Skizze erhalten. Dies kann bestät
 :   12.4. Wähle die Skizze aus, und drücke dann **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Polster](PartDesign_Pad/de.md)**, wähle die Standardoptionen und drücke **OK**, um eine Volumenextrusion zu erzeugen.
 
 <img alt="" src=images/09b_Sk01_Sketcher_fully_constrained_clean.png  style="width:" height="400px;"> <img alt="" src=images/10_Sk01_Sketcher_solid_extrusion.png  style="width:" height="400px;">
+
 
 
 *Links: vollständig beschränkte Skizze, in der nur die wichtigsten Beschränkungen gezeigt werden. Rechts: Volumenextrusion erzeugt mit [PartDesign Polster](PartDesign_Pad/de.md).*

@@ -15,7 +15,8 @@
 
 Semplice esempio di animazione dentro l\'ambiente Draft utilizzando le [espressioni](Expressions/it.md) per associare vari contorni e simulare o verificare la cinematica del complessivo.
 
-![](images/Constraint_Draft00.gif ) *Animazione utilizzando il vincolo espressioni*
+![](images/Constraint_Draft00.gif ) 
+*Animazione utilizzando il vincolo espressioni*
 
 ## Utilizzo
 

@@ -1,6 +1,6 @@
 # Plot Save/it
 ---
-- GuiCommand:/it   Name:Plot Save   Name/it:Salva grafico   Workbenches:[[Plot Module/it   Grafico]]|MenuLocation:Grafico  → Salva grafico---
+- GuiCommand:/it   Name:Plot Save   Name/it:Salva grafico   Workbenches:[[Plot_Workbench/it   Grafico]]|MenuLocation:Grafico  → Salva grafico---
 
 
 </div>
@@ -31,7 +31,8 @@ Selezionare l\'immagine che si desidera salvare utilizzando le schede nella vist
 
 </div>
 
-![Path selection button](images/Plot_Save_Path.png‎ ) *Path selection button*
+![Path selection button](images/Plot_Save_Path.png‎ ) 
+*Path selection button*
 
 ## Options
 

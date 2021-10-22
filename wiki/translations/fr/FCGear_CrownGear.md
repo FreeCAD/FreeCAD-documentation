@@ -23,7 +23,8 @@ Champ d\'application connu des couronnes:
 
 :   ![](images/Crown-Gear_example.png )
 :   
-    *Au-dessus : Engrenage couronne*
+    
+*Au-dessus : Engrenage couronne*
     
 
 ## Utilisation

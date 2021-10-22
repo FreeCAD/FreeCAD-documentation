@@ -12,7 +12,8 @@
 
 Con el comando **Std ProjectoUtil** puedes extraer archivos de un archivo de proyecto de FreeCAD ({{FileName|*.FCStd}}), que es de hecho un archivo [ZIP](https://en.wikipedia.org/wiki/Zip_(file_format)), y, después de ediciones manuales, crear un nuevo archivo de proyecto a partir de ellos.
 
-![](images/Project_utility_en.png ) *El cuadro de diálogo de la utilidad del proyecto*
+![](images/Project_utility_en.png ) 
+*El cuadro de diálogo de la utilidad del proyecto*
 
 ## Utilización
 

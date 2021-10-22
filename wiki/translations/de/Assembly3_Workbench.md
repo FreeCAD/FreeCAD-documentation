@@ -338,9 +338,15 @@ Wie gewohnt, kann die Werkzeugleiste geändert und einzelne Werkzeuge hinzugefü
 
 [Anfang](#top.md)
 
+
+<div class="mw-translate-fuzzy">
+
 ### Beschränkungen
 
 Der Konstrukteur verwendet Beschränkungen um das gewünschte Ergebnis für die Beziehung zweier Teile zu erreichen. Die Kunst besteht darin, für jedes Problem die richtigen Beschränkungen auszuwählen, die sich am besten dafür eignen. Jeder beseitigte Freiheitsgrad sollte theoretisch nur einmal zwischen zwei Objekten beseitigt werden, aber in der Praxis mit vielen CAD Werkzeugen verursachen gewählte Beschränkungen über-beschränkte Kombinationen, oftmals kompensiert durch komplexe Algorithmen, manchmal aber auch nicht. Assembly3 benutzt Algorithmen, um über-bestimmte Beschränkungen zu entdecken und zu kompensieren, aber sie sind bisher noch nicht sehr ausgereift. So für Assembly3 Beschränkungen praktisch angewendet vermeide Probleme indem du dir bewusst machst, wie viele Freiheitsgrade genutzt wurden und welche noch durch Beschränkungen gesperrt werden müssen. Kein Teil sollte eine Verbindung durch Beschränkungen haben, die mehr als 6 Freiheitsgrade verwenden.
+
+
+</div>
 
 Hinweis: Wenn der Löser auf eine Kombination trifft, die nicht gelöst werden kann, gibt er einen Fehler aus. Es ist sehr schwierig für den Löser herauszufinden, was das Problem verursacht hat, so dass typischerweise aus dieser Fehlermeldung nicht klar hervorgeht, *wo* das Problem liegt. Bei größeren Baugruppen kann dies zu einer komplexen Problemsuche führen. Leider gibt es keine einfache Möglichkeit, dies zu vermeiden. Es ist jedoch hilfreich, sich über die Funktionsweise des Systems im Klaren zu sein (siehe z.B. [Elemente](#Elemente.md) unten), eindeutige Namen für alle beteiligten Komponenten zu verwenden und immer nur dann zusätzliche Beschränkungen hinzuzufügen, wenn der Löser die aktuelle Baugruppe gelöst hat. Sehr hilfreich, um ein Problem aufzuspüren, ist die \"KontexMenü/Deaktivieren\" Funktion jeder Beschränkung.
 

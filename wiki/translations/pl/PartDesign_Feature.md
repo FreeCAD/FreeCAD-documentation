@@ -40,6 +40,7 @@ Cechy mogą być umieszczone w różnych kategoriach:
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Uproszczony diagram zależności pomiędzy podstawowymi obiektami programu. Obiekty `PartDesign::Feature* są używane do budowania parametrycznych brył 3D, a więc pochodzą z podstawowego obiektu {{incode|Part::Feature`..}}
 
 ## Tworzenie skryptów 

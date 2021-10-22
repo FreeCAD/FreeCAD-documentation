@@ -14,9 +14,16 @@
 
 Der <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft StilFestlegen**-Befehl legt die Standardstilvorgaben für neue Objekte fest.
 
+
+<div class="mw-translate-fuzzy">
+
 Dieser Befehl ist aktuell in Bearbeitung und sowohl die V0.19- als auch die V0.20-Version haben diverse Fehler.
 
-![](images/Draft_SetStyle_taskpanel.png ) *Der Stileinstellungs-Aufgaben-Reiter*
+
+</div>
+
+![](images/Draft_SetStyle_taskpanel.png ) 
+*Der Stileinstellungs-Aufgaben-Reiter*
 
 ## Anwendung
 
@@ -46,12 +53,12 @@ Dieser Befehl ist aktuell in Bearbeitung und sowohl die V0.19- als auch die V0.2
     -   
         **Draw style**
         
-        . This feature currently does not work.
+        .
 
     -   
         **Display mode**
         
-        . This feature currently does not work.
+        .
 
     -   
         **Shape color**
@@ -61,7 +68,7 @@ Dieser Befehl ist aktuell in Bearbeitung und sowohl die V0.19- als auch die V0.2
     -   
         **Transparency**
         
-        . This feature currently does not work.
+        .
 -   In the **Annotations** section the following settings can be specified:
     -   
         **Text font**
@@ -86,7 +93,7 @@ Dieser Befehl ist aktuell in Bearbeitung und sowohl die V0.19- als auch die V0.2
     -   
         **Line spacing**
         
-        . This scale factor is applied to the line height. This feature currently does not work. <small>(v0.20)</small> 
+        . This scale factor is applied to the line height. <small>(v0.20)</small> 
 
     -   
         **Arrow style**

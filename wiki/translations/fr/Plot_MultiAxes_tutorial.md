@@ -8,68 +8,25 @@
 |Files=
 }}
 
+Veuillez effectuer le [tutoriel de base](Plot_Basic_tutorial/fr.md) avant de commencer avec ce tutoriel. Dans ce didacticiel, nous allons apprendre à créer et à modifier un tracé multiaxes. Vous pouvez en savoir plus sur l\'[Atelier Plot ici](Plot_Workbench/fr.md).
 
-<div class="mw-translate-fuzzy">
+<img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;"> 
+*Exemple de tracé multiaxe*
 
-Assurez-vous d\'avoir lu le [tutoriel de base](Plot_Basic_tutorial/fr.md) avant de commencer avec ce tutoriel. Dans ce didacticiel, nous allons apprendre à créer et à modifier un tracé multiaxes. Vous pouvez en savoir plus sur l\'[Atelier Plot ici](Plot_Module/fr.md).
+Dans l\'image, vous pouvez voir le résultat que nous obtiendrons approximativement. En suivant ce tutoriel, vous apprendrez :
 
+-   Comment créer un graphe multi-axes à partir de la [console Python](Python_console/fr.md).
+-   Comment éditer les propriétés des axes.
+-   Comment contrôler la grille et la légende lorsque plusieurs ensembles d\'axes sont présents.
+-   Comment éditer la position des étiquettes, titres et légendes.
 
-</div>
+## Traçage des données 
 
-<img alt="" src=images/Plot_MultiAxes_Example.png  style="width:600px;">
+Comme nous l\'avons fait dans le [tutoriel précédent](Plot_Basic_tutorial/fr.md), nous allons utiliser la [console Python](Python_console/fr.md) ou des [macros](Macros/fr.md) pour tracer les données, mais dans ce cas, nous allons tracer les données en utilisant deux ensembles d\'axes.
 
+### Création de données de tracé 
 
-<div class="mw-translate-fuzzy">
-
-<img alt="exemple Multiaxes Plot" src=images/Plot_MultiAxes_Example.png  style="width:480px;">
-
-
-<center>
-
-exemple Plot Multiaxes.
-
-
-</center>
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Dans l\'image précédente, vous pouvez voir le résultat que nous obtiendrons approximativement. Après ce tutoriel, vous apprendrez:
-
--   Comment créer un graphique multi-axes à partir de la console Python.
--   Comment modifier les propriétés des axes.
--   Comment contrôler la grille/légende lorsque plusieurs axes sont présents.
--   Comment modifier les étiquettes, les titres et les positions des légendes.
-
-
-</div>
-
-## Plotting data 
-
-
-<div class="mw-translate-fuzzy">
-
-## Traceur de données 
-
-Comme nous l\'avons fait dans le [tutoriel précédent](Plot_Basic_tutorial/fr.md), nous utiliserons la console Python intégrée ou des [macros](Macros/fr.md) afin de tracer les données, à la différence que dans ce cas nous tracerons les données sur deux axes différents.
-
-
-</div>
-
-### Creating plot data 
-
-
-<div class="mw-translate-fuzzy">
-
-### Création de données Plot 
-
-Dans cet exemple, nous allons tracer 3 fonctions, deux utilisées dans le [Tutoriel de base](Plot_Basic_tutorial/fr.md) et un polynôme. Le fait est que le polynôme aura besoin de nouveaux axes car la plage de variation est différente de toutes les autres. Les commandes suivantes créeront des tableaux de données pour nous:
-
-
-</div>
+Dans cet exemple, nous allons tracer 3 fonctions, les deux utilisées dans le [tutoriel précédent](Plot_Basic_tutorial/fr.md) et une nouvelle fonction polynomiale. L\'étendue de la fonction polynomiale est différente des autres fonctions, donc de nouveaux axes sont nécessaires. Les commandes suivantes vont créer les tableaux de données pour nous :
 
 
 ```python
@@ -82,25 +39,11 @@ s = [math.sin(math.pi*2.0*tt) for tt in t]
 c = [math.cos(math.pi*2.0*tt) for tt in t]
 ```
 
+Comme *x* se déplace de 0 à 2, la fonction *y* a une valeur maximale de 4, donc si nous essayons de tracer cette fonction avec les fonctions trigonométriques, au moins une fonction sera tronquée ou mal mise à l\'échelle, donc nous avons besoin d\'un tracé multi-axes. Un tracé multiaxe dans FreeCAD est destiné à obtenir un tracé avec plusieurs axes, et non à obtenir plusieurs tracés dans le même document.
 
-<div class="mw-translate-fuzzy">
+### Fonctions de dessin, ajout de nouveaux axes 
 
-Lorsque *x* passe de 0 à 2, la fonction *y* a une valeur maximale de 4, donc si nous essayons de tracer cette fonction avec des fonctions trigonométriques, au moins une fonction sera tronquée ou mal mise à l\'échelle, alors nous besoin d\'un tracé multiaxes. Le tracé multiaxes dans FreeCAD est orienté pour obtenir un tracé avec plusieurs axes et non pour obtenir plusieurs tracés dans le même document.
-
-
-</div>
-
-### Drawing functions, adding new axes 
-
-
-<div class="mw-translate-fuzzy">
-
-### Fonction ajoutant de nouveaux axes de dessin 
-
-Nous allons dessiner une fonction polynomiale sur les axes principaux. Si tous vos axes ont la même taille, il importe peu de savoir quelle fonction est tracée sur quels axes, mais si votre tracé comporte des axes de taille différente (comme dans cet exemple), les axes principaux doivent être les plus grands (car ces axes ont un fond blanc). Pour ce faire, il suffit de lancer une commande
-
-
-</div>
+Nous allons tracer les fonctions trigonométriques en utilisant les axes principaux. Si tous vos axes ont la même taille, il n\'est pas important de savoir quelle fonction est tracée en premier. Mais si ce n\'est pas le cas, la fonction qui utilise les plus grands axes, dans notre cas la fonction polynomiale, doit être tracée en dernier. La légende sera attachée au dernier système d\'axes et il est plus pratique que ce soit le plus grand. Pour tracer les fonctions trigonométriques, il suffit de lancer quelques commandes.
 
 
 ```python
@@ -113,21 +56,9 @@ Plot.plot(t,s,r"$\sin\left( 2 \pi t \right)$")
 Plot.plot(t,c,r"$\cos\left( 2 \pi t \right)$")
 ```
 
+Dans cet exemple, nous transmettons directement les étiquettes des séries pour la légende. Notez que les chaînes d\'étiquettes ont le préfixe *r* afin d\'empêcher Python d\'essayer d\'interpréter des caractères spéciaux (le symbole *\\* est fréquemment utilisé dans la syntaxe [LaTeX](http://www.latex-project.org)).
 
-<div class="mw-translate-fuzzy">
-
-Dans cet exemple, nous transmettons directement l\'étiquette (label) de la série pour la légende. Notez que la chaîne d\'étiquettes, a le préfixe **r**, afin d\'éviter que Python ne tente d\'interpréter les caractères spéciaux (symbole **\\** qui est fréquemment utilisé dans la syntaxe [LaTeX](http://www.latex-project.org)).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Maintenant nous pouvons tracer des fonctions trigonométriques, mais avant, créez de nouveaux axes. Dans **[FreeCAD Plot module](Plot_Module/fr.md)** lorsque vous créez de nouveaux axes, ces axes sont sélectionnés comme actifs, donc, de nouveaux **Plots**, seront associés à ces axes.
-
-
-</div>
+Avant de pouvoir tracer la fonction polynomiale, nous devons créer de nouveaux axes. Dans l\'[atelier Plot](Plot_Workbench/fr.md), les nouveaux axes sont automatiquement sélectionnés comme axes actifs et les nouveaux tracés seront associés à ces axes.
 
 
 ```python
@@ -135,206 +66,62 @@ Plot.addNewAxes()
 Plot.plot(x,y,r"$x^2$")
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-Comme vous pouvez le voir **Plot** est devenu fou, avec axes qui pointes, et, qui s\'empiètent, courbes de même couleur, etc.. .
-
-Maintenant nous avons besoin d\'utiliser **[FreeCAD Plot module](Plot_Module/fr.md)**, avec la complexité de ce graphique.
-
-
-</div>
+Comme vous pouvez le constater, votre graphique est devenu fou, avec des repères d\'axes qui se chevauchent, des courbes de la même couleur, etc. Nous devons maintenant utiliser l\'[atelier Plot](Plot_Workbench/fr.md) pour corriger ce graphique.
 
 ## Configurer Plot 
 
-### Configuring axes 
-
-
-<div class="mw-translate-fuzzy">
-
 ### Configurer les axes 
 
-La fonction [FreeCAD Plot module](Plot_Module/fr.md) fournit un outil, pour modifier les propriétés de chacun des axes.
+L\'[atelier Plot](Plot_Workbench/fr.md) fournit un outil permettant de modifier les propriétés des axes.
 
+![](images/Plot_Axes.svg‎ ) 
+*Icône de l'outil de configuration des axes*
 
-</div>
+Avec l\'outil [axes](Plot_Axes/fr.md), vous pouvez ajouter ou supprimer des axes, et définir les axes actifs, qui seront ensuite utilisés si vous tracer d\'autres données.
 
-![](images/Plot_Axes.svg‎ )
+Pour modifier la taille du premier ensemble d\'axes, associé aux fonctions trigonométriques, il faut d\'abord l\'activer en faisant passer les axes actifs de 1 à 0. Nous pouvons ensuite déplacer les curseurs de dimension horizontale et verticale pour réduire sa taille (essayez d\'imiter l\'exemple). Nous devons également modifier l\'alignement des axes : sélectionnez respectivement haut et droite.
 
+### Configurer les séries 
 
-<div class="mw-translate-fuzzy">
+Définissez les propriétés de la série comme nous l\'avons fait dans le [tutoriel précédent](Plot_Basic_tutorial/fr.md).
 
-![Axes configuration tool icon](images/Plot_Axes.svg‎ )
+### Affichage de la grille et de la légende 
 
+La [grille](Plot_Grid/fr.md) et la [légende](Plot_Legend/fr.md) peuvent être affichées, et masquées, avec les outils déjà décrits dans le [tutoriel précédent](Plot_Basic_tutorial/fr.md) mais dans ce cas le comportement est un peu différent car il y a deux ensembles d\'axes.
 
-<center>
+Les lignes de la grille sont ajoutées à l\'ensemble des axes actifs. Pour ajouter des lignes au deuxième ensemble d\'axes dans notre exemple, il faut d\'abord l\'activer en faisant passer les axes actifs de 0 à 1 dans l\'outil [axes](Plot_Axes/fr.md).
 
-Axes configuration tool icon.
+Comme déjà mentionné, la légende sera positionnée par rapport aux derniers axes définis. Si vous montrez la légende maintenant, vous verrez qu\'elle est vraiment mal placée mais nous corrigerons cela plus tard.
 
+### Définir les étiquettes des axes 
 
-</center>
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-La première chose que vous trouverez dans l\'outil, **![](images/)_[Plot_Axes](Plot_Axes/fr.md)**, est le sélecteur d\'axes actif. Pour l\'instant, nous allons travailler sur l\'ensemble des axes 1, la dernière chose que nous générons
-
-Puisque les axes actifs sont les derniers, les axes actifs sont placés en premier.
-
-L\'outil axes, comme l\'outil **![](images/)_[Plot_Labels](Plot_Labels/fr.md)**, permettent de définir les axes actifs, et, permettent de tracer plus de données dans l\'axe que vous souhaitez (y compris ajouter/supprimer des axes). Pour l\'instant, nous allons travailler sur les axes sélectionnés, et, qui sont associés aux fonctions trigonométriques.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Utilisez les ascenseurs pour modifier les réglages, déplaçons le curseur gauche pour les réglages **horizontaux**, et, le curseur du bas pour les réglages **verticaux** (essayez d\'imiter l\'exemple) afin de réduire la taille des axes.
-
-Nous pouvons alors définir l\'alignement des axes, et, changer en haut, et, à droite, en définissant un petit décalage de deux unités.
-
-
-</div>
-
-### Configuring series 
-
-
-<div class="mw-translate-fuzzy">
-
-### Configurer les Series 
-
-Pour définir les propriétés des **![](images/)_[Plot_Series](Plot_Series/fr.md)** que nous avons fait, regardez dans [Tutoriel](Plot_Basic_tutorial/fr.md).
-
-
-</div>
-
-### Showing grid and legend 
-
-
-<div class="mw-translate-fuzzy">
-
-### Afficher la grille et les légendes 
-
-Les **![](images/)_[Plot_Grid_(grilles)](Plot_Grid/fr.md)**, et, les **![](images/)_[Plot_Legend_(légendes)](Plot_Legend/fr.md)** apparaissent cachées avec les mêmes outils utilisés dans le [tutoriel](Plot_Basic_tutorial/fr.md), mais dans ce cas, le comportement est un peu différent, en raison de la présence de **deux axes différents**.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Concernant les lignes de la grille, vous pouvez, afficher les lignes pour chaque ensemble d\'axes, par exemple, si vous essayez d\'afficher une grille maintenant vous montrerez uniquement la grille des fonctions trigonométriques, donc afin de montrer la grille du tracé de la fonction polynôme, vous avez besoin de mettre les axes actifs à **0** (en utilisant l\'outil de configuration des **![](images/)_[Plot_Axes](Plot_Axes/fr.md)**), pour utiliser l\'outil **![](images/)_[Plot_Grid](Plot_Grid/fr.md)** une autre fois (il faut appuyer une deuxième fois sur l\'outil).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Au sujet de la **![](images/)_[légende_(Plot_Legend)](Plot_Legend/fr.md)**, la légende sera la même pour les deux axes, vous pouvez donc choisir les axes que vous souhaitez, afin d\'afficher la **![](images/)_[légende_(Plot_Legend)](Plot_Legend/fr.md)**, mais il est fortement recommandé, d\'utiliser les plus grands (0 dans cet exemple), parce que la position sera référée, à cet axe de coordonnées.
-
-Il est possible que vous affichiez une légende, et, que cette légende soit très mal placée, patientez un peu, ce problème sera résolu plus tard.
-
-
-</div>
-
-### Setting axes labels 
-
-
-<div class="mw-translate-fuzzy">
-
-### Définition des étiquettes axiales 
-
-Vous pouvez définir des étiquettes, et, des axes avec le même outil, utilisé dans [previous Tutoriel](Plot_Basic_tutorial/fr.md), à la différence près, que maintenant vous avez plus d\'axes.
-
-Les étiquettes utilisées sur les axes, sont habituellement, une par axe, il n\'y a pas de différence significative, mais le [Module Plot de FreeCAD](Plot_Module/fr.md) permet de définir un titre en plus par axe.
-
-Dans cet exemple nous ne ne mettons un titre, qu\'aux axes principaux, alors la valeur :
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Lorsqu\'il s\'agit de définir les [étiquettes](Plot_Labels/fr.md) des axes, nous devons à nouveau composer avec nos deux ensembles d\'axes. Mais comme les étiquettes sont généralement définies pour tous les axes, la procédure est la même que celle décrite dans le [tutoriel précédent](Plot_Basic_tutorial/fr.md). L\'[atelier Plot](Plot_Workbench/fr.md) vous permet de définir un titre par ensemble d\'axes. Dans ce cas, nous voulons seulement définir un titre pour le dernier ensemble d\'axes, le plus grand.
 
 **Axes 0:**
-
--   Title = Multiaxes example
--   X Label = \$x\$
--   Y Label = \$\\mathrm{f} \\left( x \\right)\$
-
-**Axes 1:**
 
 -   X Label = \$t\$
 -   Y Label = \$\\mathrm{f} \\left( t \\right)\$
 
+**Axes 1:**
 
-</div>
+-   Title = Exemple multiaxes
+-   X Label = \$x\$
+-   Y Label = \$\\mathrm{f} \\left( x \\right)\$
 
+Modifiez la taille de la police de toutes les étiquettes à 20, et celle du titre à 24. Encore une fois, il y a un élément, le titre, qui est mal placé.
 
-<div class="mw-translate-fuzzy">
+### Définir la position des éléments 
 
-La valeur de la police est **20** pour tous, sauf le titre, qui utilise une valeur de police de **24**.
+L\'[atelier Plot](Plot_Workbench/fr.md) fournit un outil permettant de modifier la position de plusieurs éléments de tracé, tels que les titres, les étiquettes et les légendes.
 
-Que se passe-t-il avec la légende, et, le titre mal placé, intersection avec le deuxième ensemble d\'axes, donc nous devons résoudre ces deux problèmes.
+![](images/Plot_Positions.svg ) 
+*Icône de l'éditeur de position*
 
-
-</div>
-
-### Setting elements position 
-
-
-<div class="mw-translate-fuzzy">
-
-### Définition de la position des éléments 
-
-[FreeCAD Plot module](Plot_Module/fr.md) fournit un outil pour définir la position de plusieurs éléments, comme, les **![](images/)_[titres_(Series)](Plot_Series/fr.md)**, les **![](images/)_[labels](Plot_Labels/fr.md)**, ou la **![](images/)_[légende](Plot_Legend/fr.md)**.
-
-
-</div>
-
-![](images/Plot_Positions.svg )
-
-
-<div class="mw-translate-fuzzy">
-
-![Position editor icon](images/Plot_Positions.svg‎ )
-
-
-<center>
-
-Position editor icon.
-
-
-</center>
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Lorsque vous exécutez l\'outil, vous voyez une liste, avec tous les éléments modifiables.
-
-Les éléments de titres, ainsi que les légendes, peuvent être déplacés dans les deux sens, les étiquettes des axes, ne peuvent être déplacées uniquement sur l\'orientation des axes.
-
-Sélectionnez le titre des axes **0**, et, déplacez-le vers (**0.24,1.01**), puis sélectionnez la légende, et, déplacez-le dans une meilleure position. Vous pouvez augmenter la dimension de la police.
-
-
-</div>
+Lorsque vous exécutez l\'outil, vous verrez une liste de tous les éléments modifiables. Les titres et les légendes peuvent être déplacés dans les deux sens, mais les étiquettes d\'axe ne peuvent être déplacées que le long de l\'axe auquel elles appartiennent. Sélectionnez le titre de l\'axe 1 et déplacez-le vers (0,24,1,01), puis sélectionnez la légende et déplacez-la vers une meilleure position. Vous pouvez également augmenter la taille de la police des étiquettes de la légende.
 
 ## Sauvegarder un fichier Plot 
 
-
-<div class="mw-translate-fuzzy">
-
-Vous pouvez maintenant enregistrer votre travail. Voir [tutoriel précédent](Plot_Basic_tutorial/fr.md) si vous ne savez pas comment faire.
-
-
-</div>
+Vous pouvez maintenant enregistrer votre travail. Voir le [tutoriel précédent](Plot_Basic_tutorial/fr.md) si vous ne savez pas comment faire.
 
 
 {{Tutorials_navi

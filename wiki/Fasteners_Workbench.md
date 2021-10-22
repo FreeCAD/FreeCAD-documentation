@@ -37,7 +37,8 @@ This workbench can be installed from the <img alt="" src=images/Std_AddonMgr.svg
 
 The Fasteners Workbench has two toolbars. The **FS Screws** toolbar contains many tools. If required it can be expanded by pressing the **&gt;&gt;** button.
 
-![](images/Fasteners_toolbars.png ) *The Fasteners Workbench toolbars*
+![](images/Fasteners_toolbars.png ) 
+*The Fasteners Workbench toolbars*
 
 ## Tools
 
@@ -63,7 +64,11 @@ For a detailed description see <http://theseger.com/projects/2015/06/fasteners-w
 
 -   <img alt="" src=images/Fasteners_ChangeParameters.svg  style="width:32px;"> [Change fastener parameters](Fasteners_ChangeParameters.md): change parameters of selected fasteners.
 
-### Self-clinching fasteners and fasteners for PCB 
+### Fasteners
+
+**Note:** Fasteners with metric dimensions have light orange icons. Fasteners with inch dimensions have green icons.
+
+#### Self-clinching fasteners and fasteners for PCB 
 
 -   <img alt="" src=images/Fasteners_PEMPressNut.svg  style="width:32px;"> Self-clinching metric nut.
 
@@ -75,7 +80,9 @@ For a detailed description see <http://theseger.com/projects/2015/06/fasteners-w
 
 -   <img alt="" src=images/Fasteners_PCBSpacer.svg  style="width:32px;"> **PCB** Metric spacer Female/Female.
 
-### DIN, EN and ISO fasteners 
+#### ISO, DIN and EN fasteners 
+
+ISO, DIN and EN fasteners have metric dimensions.
 
 -   <img alt="" src=images/Fasteners_ISO4017.svg  style="width:32px;"> 
 **ISO 4017** Hexagon head screw. *Product grades A and B.*
@@ -174,7 +181,9 @@ For a detailed description see <http://theseger.com/projects/2015/06/fasteners-w
 
 -   <img alt="" src=images/Fasteners_DIN985.svg  style="width:32px;"> **DIN 985** Nyloc nut.
 
-### ASME fasteners 
+#### ASME fasteners 
+
+ASME fasteners have inch dimensions.
 
 -   <img alt="" src=images/Fasteners_ASMEB18.2.1.6.svg  style="width:32px;"> **ASME B18.2.1.6** UNC Hex head screw.
 

@@ -17,6 +17,7 @@ Esta herramienta dibuja una elipse eligiendo tres puntos: el centro, el extremo 
 <img alt="" src=images/Sketcher_EllipseExample1.png‎  style="width:500px;">
 
 
+
 *La secuencia de clics se indica con flechas amarillas con números. C es el centro, a - diámetro mayor, b - diámetro menor, F1, F2 son focos.*
 
 ## Utilización

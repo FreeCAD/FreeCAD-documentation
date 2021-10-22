@@ -12,6 +12,7 @@ Please note that the **<img src="images/Workbench_FEM.svg" width=16px> [FEM Work
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Simplified diagram of the relationships between the core objects in the program. The `Mesh::Feature* class is the origin of most objects that posses a [triangular mesh](Mesh_MeshObject.md). These objects are created from the [Mesh Workbench](Mesh_Workbench.md) or by importing STL, OBJ, and similar mesh format files.`
 
 ## Usage

@@ -21,6 +21,7 @@ Szkic zawiera dwie linie o przypadkowej lokalizacji.
 <img alt="" src=images/ConstrainParallel1.png  style="width:500px;">
 
 
+
 *Zaznacz obie linie, klikając kolejno na każdą z nich..*
 
 <img alt="" src=images/ConstrainParallel2.png  style="width:500px;">
@@ -32,6 +33,7 @@ Zastosuj wiązanie równoległości poprzez:
 -   Używając pozycji **Szkic → Wiązania Szkicownika → Wiązanie równoległości** z menu głównego.
 
 <img alt="" src=images/ConstrainParallel3.png  style="width:500px;">
+
 
 
 *Result: Wybrane linie zostają ustawione równolegle do siebie. Zmiana orientacji jednej linii spowoduje zmianę orientacji drugiej, tak aby zachować tę samą orientację.*

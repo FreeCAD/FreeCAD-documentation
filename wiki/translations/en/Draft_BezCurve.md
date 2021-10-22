@@ -3,6 +3,7 @@
    Name:Draft BezCurve
    MenuLocation:Drafting → Bézier tools → Bézier curve
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut:**B** **Z**
    Version:0.14
    SeeAlso:[Draft CubicBezCurve](Draft_CubicBezCurve.md), [Draft BSpline](Draft_BSpline.md)
 ---
@@ -27,6 +28,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_BezCurve.svg" width=16px> [Draft BezCurve](Draft_BezCurve.md)** button.
     -   Select the **Drafting → Bézier tools → <img src="images/Draft_BezCurve.svg" width=16px> Bézier curve** option from the menu.
+    -   Use the keyboard shortcut: **B** then **Z**. <small>(v0.20)</small> 
 2.  The **Bézier curve** task panel opens. See [Options](#Options.md) for more information.
 3.  Pick the first point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.
 4.  Pick additional points in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button.

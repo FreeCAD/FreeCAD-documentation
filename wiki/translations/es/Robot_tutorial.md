@@ -16,7 +16,8 @@ Este tutorial te mostrará cómo utilizar el [Entorno de simulación de Robots](
 
 </div>
 
-![](images/Robot_Tutorial_RobotSimulation.gif ) *Final result of this tutorial*
+![](images/Robot_Tutorial_RobotSimulation.gif ) 
+*Final result of this tutorial*
 
 
 <div class="mw-translate-fuzzy">

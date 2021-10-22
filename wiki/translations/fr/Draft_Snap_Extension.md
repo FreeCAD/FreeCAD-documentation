@@ -14,7 +14,8 @@ L\'option <img alt="" src=images/Draft_Snap_Extension.svg  style="width:24px;"> 
 
 Jusqu\'à deux arêtes peuvent être référencées par cette option d\'aimantation et par [Draft Aimantation Parallèle](Draft_Snap_Parallel/fr.md), ce qui permet d\'aimanter des intersections virtuelles. Les deux options d\'aimantation peuvent également être combinées avec d\'autres options d\'aimantation.
 
-![](images/Draft_Snap_Extension_example.png ) *Aimantation du deuxième point d'une ligne au prolongement d'une arête*
+![](images/Draft_Snap_Extension_example.png ) 
+*Aimantation du deuxième point d'une ligne au prolongement d'une arête*
 
 ## Utilisation
 

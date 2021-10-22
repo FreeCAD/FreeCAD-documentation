@@ -1,6 +1,6 @@
 ---
 - GuiCommand:
-   Name:TechDraw ExtensionArc
+   Name:TechDraw ExtensionDrawArc
    MenuLocation:
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
@@ -12,7 +12,7 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ExtensionArc.svg  style="width:24px;"> **Draw Cosmetic Arc** tool adds an arc.
+The <img alt="" src=images/TechDraw_ExtensionDrawArc.svg  style="width:24px;"> **Draw Cosmetic Arc** tool adds an arc.
 
  <img alt="" src=images/TechDraw_ExtensionArcExample.png  style="width:500px;">  
 *On the right an added arc*
@@ -20,7 +20,7 @@ The <img alt="" src=images/TechDraw_ExtensionArc.svg  style="width:24px;"> **Dra
 ## Usage
 
 1.  Select the three vertexes (1),(2) and (3).
-2.  Press the **<img src="images/TechDraw_ExtensionArc.svg" width=16px> [Draw Cosmetic Arc](TechDraw_ExtensionDrawArc.md)** button.
+2.  Press the **<img src="images/TechDraw_ExtensionDrawArc.svg" width=16px> [TechDraw ExtensionDrawArc](TechDraw_ExtensionDrawArc.md)** button.
 3.  A cosmetic arc is created.
 
 -   The arc always rotates math. positive (counter clockwise)

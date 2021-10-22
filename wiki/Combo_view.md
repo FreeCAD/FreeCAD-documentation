@@ -20,6 +20,7 @@ The **Tasks** tab shows the [task panel](task_panel.md), which will show differe
 <img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="600px;">
 
 
+
 *The combo view has two tabs: the Model tab that controls displaying the [tree view](tree_view.md) and the [property editor](property_editor.md), and the Tasks tab that controls showing the [task panel](task_panel.md).*
 
 ## Lower section 
@@ -31,6 +32,7 @@ The lower part of the combo view shows the [property editor](property_editor.md)
 -   The **Data** tab shows the parametric properties of the objects, which determine how the geometrical shapes are really defined.
 
 <img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Tree_Data_properties.png  style="width:" height="600px;">
+
 
 
 *The lower part of the combo view is the property editor, which shows View and Data properties.*

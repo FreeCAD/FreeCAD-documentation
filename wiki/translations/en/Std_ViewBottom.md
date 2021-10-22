@@ -13,7 +13,8 @@
 
 The **Std ViewBottom** command points the camera in the active [3D view](3D_view.md) in the direction of the positive Z axis.
 
-![](images/FreeCAD_views_rear.svg ) *Arrow 5 points in the direction of the bottom view*
+![](images/FreeCAD_views_rear.svg ) 
+*Arrow 5 points in the direction of the bottom view*
 
 ## Usage
 

@@ -50,4 +50,4 @@ Opțiunea preferinței **Edit -\> Preferences → Arch → Apply Construction st
 The [Draft construction](Draft_ToggleConstructionMode.md) style can be set in the [Draft Preferences](Draft_Preferences.md), in the menu **Preferences → Draft → General Draft**.
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/ro
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/ro

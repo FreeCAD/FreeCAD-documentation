@@ -1,4 +1,13 @@
 # Manual:Modeling for product design/de
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
 {{Manual:TOC/de}}
 
 [Produktdesign](https://de.wikipedia.org/wiki/Produktdesign) ist ursprünglich ein kommerzieller Begriff, aber in der 3D-Welt bedeutet er oft, etwas zu modellieren mit der Idee, es per [3D-Druck](https://de.wikipedia.org/wiki/3D-Druck), oder allgemeiner, maschinell herzustellen, z.B. mit einem 3D-Drucker oder einer [CNC-Maschine](https://de.wikipedia.org/wiki/CNC-Maschine).
@@ -153,9 +162,15 @@ Aber das Beste aus beiden Welten existiert ebenfalls, das ist die _ und <img alt
 -   [Der Assembly2 Arbeitsbereich](https://github.com/hamish2014/FreeCAD_assembly2)
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 _
 
 ---
-[documentation index](../README.md) > Manual:Modeling for product design/de
+[documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/de

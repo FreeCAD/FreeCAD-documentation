@@ -24,7 +24,8 @@ Das Abschnitt Werkzeug erstellt eine Querschnittdarstellung aus einer bereits be
 4.  Ein Dialogfeld wird geöffnet, das bei der Berechnung der verschiedenen Querschnittseigenschaften hilft. Das Dialogfeld berechnet sinnvolle Startpunkte für SchnittNormal und Ansichtsrichtung, die jedoch nach der Erstellung für spezielle Anforderungen geändert werden können.
 5.  Wenn du beim Einrichten der Abschnittsparameter einen Fehler machst oder deine Meinung änderst, drücke die **Reset** Taste und du kannst von vorn beginnen.
 
-![](images/TechDraw_Section_Taskview.png ) *Aufgabenansicht zum Definieren des Schnitts einer Ansicht*
+![](images/TechDraw_Section_Taskview.png ) 
+*Aufgabenansicht zum Definieren des Schnitts einer Ansicht*
 
 ## Eigenschaften
 

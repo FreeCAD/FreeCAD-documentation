@@ -29,6 +29,7 @@ Una copia della <img alt="" src=images/Std_Part.svg  style="width:16px;"> Parte 
 ![](images/Std_Link_tree_import_1_example.png ) ![](images/Std_Link_tree_import_2_example.png )
 
 
+
 *A sinistra: un collegamento punta all'oggetto nel documento "sorgente". A destra: l'oggetto originale è stato importato (copiato) nel documento "destinazione" e il collegamento esistente è stato modificato per puntare a questa copia, quindi non punta più all'oggetto del  "sorgente".*
 
 

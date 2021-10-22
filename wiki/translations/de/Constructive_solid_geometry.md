@@ -10,6 +10,7 @@ In FreeCAD wird diese Methode hauptsächlich mit dem <img alt="" src=images/Work
 <img alt="" src=images/Part_Constructive_Solid_Geometry_workflow.svg  style="width:800px;">
 
 
+
 *Konstruktive Festkörpergeometrie (CSG) Arbeitsablauf; eine beliebige Anzahl von Operationen kann mit Volumenelementen durchgeführt werden, um andere Volumenobjekte zu erzeugen, und diese dann zu verschmelzen oder zu schneiden, bis die endgültige Form erzeugt wird.*
 
 Der [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) verwendet einen moderneren Ansatz als einfaches CSG; diese Methode heißt [Formmerkmale bearbeiten](feature_editing/de.md), was bedeutet, dass ein Basisfestkörper erstellt und dann aufeinanderfolgende parametrische Umwandlungen hinzugefügt werden, um einen endgültigen Körper zu erhalten.
@@ -22,6 +23,7 @@ Ein [PartDesign Körper](PartDesign_Body/de.md), der mit dem [PartDesign Arbeits
 ## Beispiel
 
 <img alt="" src=images/Part_CGS_workflow_example.svg  style="width:600px;">
+
 
 
 * Beispiel für den Arbeitsablauf der konstruktiven Festkörpergeometrie (CSG): Basisteile werden verschmolzen (Vereinigung); der Schnittpunkt zweier anderer Basisteile wird berechnet (gemeinsam); die Differenz (Schnitt) der beiden vorherigen Formen wird erhalten.*

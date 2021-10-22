@@ -31,11 +31,13 @@ The original <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="widt
 ![](images/Std_Link_tree_replace_fuse_1_example.png ) ![](images/Std_Link_tree_replace_fuse_2_example.png )
 
 
+
 *An object inside another one is replaced by a Link; the Link is now inside, and the real object is placed outside.*
 
 This can also be done with objects contained inside {{button|<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Parts](Std_Part.md)}} and {{button|[16px"> [Std Groups](Std_Group.md)}}.
 
 ![](images/Std_Link_tree_replace_part_1_examples.png ) ![](images/Std_Link_tree_replace_part_2_examples.png )
+
 
 
 *An object inside a container is replaced by a Link; the Link is now inside, and the real object is placed outside.*

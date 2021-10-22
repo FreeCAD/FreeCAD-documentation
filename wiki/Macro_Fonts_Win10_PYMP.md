@@ -19,6 +19,7 @@ This little macro is dedicate to users of Windows 10. The explorer fonts for use
 ![](images/Macro_Fonts_Win10_PYMP_00.png )
 
 
+
 *Macro Fonts Win10 PYMP*
 
 
@@ -28,7 +29,8 @@ This little macro is dedicate to users of Windows 10. The explorer fonts for use
 
 ## Uses
 
-Launch the macro select the font and apply.  ![Macro Fonts Win10 PYMP](images/Macro_Fonts_Win10_PYMP_01.png )  *Macro Fonts Win10 PYMP window *
+Launch the macro select the font and apply.  ![Macro Fonts Win10 PYMP](images/Macro_Fonts_Win10_PYMP_01.png )  
+*Macro Fonts Win10 PYMP window *
 -   **Text edit** : Window for your text
 
 -   **Line edit** : for visualise your path and file used

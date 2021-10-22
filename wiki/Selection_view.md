@@ -8,6 +8,7 @@ A selection can be made by picking an object in the [3D view](3D_view.md) or in 
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
+
 *Selection view indicated by the number 5, in the standard [interface](interface.md).*
 
 ## Selection of objects 

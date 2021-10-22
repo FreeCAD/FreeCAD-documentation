@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Antes de comenzar con el presente tutorial aseguresé de haber completado el [tutorial sobre graficado básico](Plot_Basic_tutorial/es.md). En este tutorial aprenderemos a crear y trabajar con gráficos con múltiples ejes de referencia. Puedes aprender más sobre el [Módulo de graficado aquí](Plot_Module.md).
+Antes de comenzar con el presente tutorial aseguresé de haber completado el [tutorial sobre graficado básico](Plot_Basic_tutorial/es.md). En este tutorial aprenderemos a crear y trabajar con gráficos con múltiples ejes de referencia. Puedes aprender más sobre el [Módulo de graficado aquí](Plot_Workbench.md).
 
 
 </div>
@@ -130,7 +130,7 @@ En este ejemplo optamos por pasar directamente el título de la serie como pará
 
 <div class="mw-translate-fuzzy">
 
-Para graficar las series trigonométricas creamos unos nuevos ejes sobre los que llamamos a la función plot. En el [módulo de graficado de FreeCAD](Plot_Module/es.md) cuando se crea un nuevo juego de ejes, este se establece como el activo, y por tanto todas las curvas que se trazen se referirán a estos nuevos ejes.
+Para graficar las series trigonométricas creamos unos nuevos ejes sobre los que llamamos a la función plot. En el [módulo de graficado de FreeCAD](Plot_Workbench/es.md) cuando se crea un nuevo juego de ejes, este se establece como el activo, y por tanto todas las curvas que se trazen se referirán a estos nuevos ejes.
 
 
 </div>
@@ -144,7 +144,7 @@ Plot.plot(x,y,r"$x^2$")
 
 <div class="mw-translate-fuzzy">
 
-Como podrá comprobar el gráfico obtenido es una locura, con ejes que se superponen y curvas del mismo color. Para erreglarlo vamos a recurrir al [módulo de graficado de FreeCAD](Plot_Module/es.md).
+Como podrá comprobar el gráfico obtenido es una locura, con ejes que se superponen y curvas del mismo color. Para erreglarlo vamos a recurrir al [módulo de graficado de FreeCAD](Plot_Workbench/es.md).
 
 
 </div>
@@ -158,7 +158,7 @@ Como podrá comprobar el gráfico obtenido es una locura, con ejes que se superp
 
 ### Configuring axes 
 
-El [módulo de graficado de FreeCAD](Plot_Module/es.md) dispone de una herramienta para modificar las propiedades de cada eje.
+El [módulo de graficado de FreeCAD](Plot_Workbench/es.md) dispone de una herramienta para modificar las propiedades de cada eje.
 
 
 </div>
@@ -244,7 +244,7 @@ Respecto de la legenda, ésta será única, pero dependiendo de en que juego de 
 
 ### Establecer los títulos 
 
-Puede establecer los títulos de la misma manera que lo hacía en el [anterior tutorial](Plot_Basic_tutorial/es.md). En este caso observará que el número de elementos es mayor, y que puede establecer un título por cada juego de ejes. En el [módulo de graficado de FreeCAD](Plot_Module/es.md) se permite establecer un título por cada juego de ejes, aunque en este caso estamos interesados en un único título, por tanto establezca las siguietnes etiquetas:
+Puede establecer los títulos de la misma manera que lo hacía en el [anterior tutorial](Plot_Basic_tutorial/es.md). En este caso observará que el número de elementos es mayor, y que puede establecer un título por cada juego de ejes. En el [módulo de graficado de FreeCAD](Plot_Workbench/es.md) se permite establecer un título por cada juego de ejes, aunque en este caso estamos interesados en un único título, por tanto establezca las siguietnes etiquetas:
 
 
 </div>
@@ -281,7 +281,7 @@ Establezca también el tamaño de fuente a 20 a todos ellos salvo al título, al
 
 ### Reposicionar elementos del gráfico 
 
-El [módulo de graficado de FreeCAD](Plot_Module/es.md) dispone también de una herramienta para reposicionar algunos elementos del gráfico como son títulos y legenda.
+El [módulo de graficado de FreeCAD](Plot_Workbench/es.md) dispone también de una herramienta para reposicionar algunos elementos del gráfico como son títulos y legenda.
 
 
 </div>

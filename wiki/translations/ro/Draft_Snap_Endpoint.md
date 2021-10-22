@@ -17,7 +17,8 @@ Acest mod snap vă permite să selectați punctele finale ale elementelor.
 
 </div>
 
-![](images/Draft_Snap_Endpoint_example.png ) *Snapping the second point of a line to the endpoint of an edge*
+![](images/Draft_Snap_Endpoint_example.png ) 
+*Snapping the second point of a line to the endpoint of an edge*
 
 ### Utilizare
 

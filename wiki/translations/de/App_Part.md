@@ -10,6 +10,7 @@ Es wurde für die Verwendung in Baugruppen entwickelt, da es über einen {{MenuC
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die Klasse `App::Part* ist ein einfacher Container, der eine Position im 3D Raum hat und einen Ursprung zur Steuerung der Platzierung der darunter gruppierten Objekte besitzt.`
 
 ## Anwendung

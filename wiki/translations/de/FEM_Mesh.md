@@ -17,9 +17,11 @@ Die Gmsh und Netgen Werkzeuge unterstützen die Vernetzung von Körpern, die mit
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;">
 
 
+
 *Der FEM Arbeitsbereich ruft das externe Werkzeug Gmsh auf, um ein Netz aus einem Volumenkörper zu erhalten, der mit einem beliebigen Arbeitsbereich in FreeCAD erstellt wurde; es kann auch ein extern erstelltes Netz importieren*
 
 <img alt="" src=images/FEM_Mesh.png  style="width:600px;">
+
 
 
 *(1) Festkörper, der mit PartDesign erzeugt wurde; (2) Netz, das mit dem Gmsh Werkzeug innerhalb des FEM Arbeitsbereich erzeugt wurde (alle Dreiecke); und (3) Netz, das extern mit Gmsh erzeugt wurde, in das Abaqus Format {{FileName|.inp* exportiert und dann in FreeCAD importiert wurde (alle Vierecke)}}

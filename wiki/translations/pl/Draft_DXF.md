@@ -5,7 +5,8 @@
 
 Funkcja DXF, środowiska Rysunek Roboczy jest modułem oprogramowania używanym przez polecenia <img alt="" src=images/Std_Open.svg  style="width:24px;"> _ i <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Eksportuj](Std_Export/pl.md) do obsługi formatu pliku DXF.
 
-![](images/Screenshot_qcad.jpg ) *Rysunek Qcad wyeksportowany do DXF, który jest następnie otwierany w programie FreeCAD*
+![](images/Screenshot_qcad.jpg ) 
+*Rysunek Qcad wyeksportowany do DXF, który jest następnie otwierany w programie FreeCAD*
 
 ## Importowanie
 

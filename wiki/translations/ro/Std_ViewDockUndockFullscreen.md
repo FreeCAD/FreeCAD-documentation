@@ -9,7 +9,8 @@
 
 [3D views](3D_view.md) can be undocked from the main [FreeCAD interface](Interface.md) and moved to a different display for example.
 
-![](images/FinestraNonAgganciata.png ) *An undocked 3D view*
+![](images/FinestraNonAgganciata.png ) 
+*An undocked 3D view*
 
 ## Docked
 

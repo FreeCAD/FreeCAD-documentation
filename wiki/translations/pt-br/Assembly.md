@@ -11,6 +11,7 @@ For example, a bolt, a washer and a nut are three separate bodies that when put 
 <img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;">
 
 
+
 *Left: three individual contiguous solids, each of them modelled by a _ to create an assembly.*
 
 ## Utilização

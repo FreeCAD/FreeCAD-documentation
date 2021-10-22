@@ -12,7 +12,13 @@ Veja outras formas de _(documentação, tradução).
 
 Existe uma conta oficial da [equipe FreeCAD](https://liberapay.com/FreeCAD); doe via cartão de crédito, Paypal ou transferência bancária SEPA (Single Euro Payments Area). Todo o dinheiro recebido aqui é dividido igualmente entre os programadores listados. Esta é a opção ideal, visto que ajuda diretamente os programadores.
 
+
+<div class="mw-translate-fuzzy">
+
 Existe uma conta [Bountysource](https://salt.bountysource.com/teams/freecad); para doar dinheiro para o projeto FreeCAD como um todo, ou oferecer uma \"recompensa\" para resolver um problema ou erro específico. Esta é uma opção interessante porque a sua doação pode ser utilizada especificamente numa determinada área. Contudo, a utilização do dinheiro da Bountysource é um processo mais complexo para nós, e pode haver um atraso entre a transferência da doação e o dinheiro cair na conta para o uso efetivo.
+
+
+</div>
 
 Apoiar os custos de alojamento 'web' doando diretamente para a [conta paypal de Jürgen Riegel](https://www.paypal.com/cgi-bin/webscr?item_name=Donation+to+FreeCAD&cmd=_donations&business=Mail%40juergen-riegel.net). Jürgen é o criador original do FreeCAD.
 

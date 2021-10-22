@@ -15,7 +15,13 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 El herramienta **<img src=images/Spreadsheet_Import.svg style="width:16px"> _.
+
+
+</div>
 
 ## Utilización
 

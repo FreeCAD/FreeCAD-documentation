@@ -14,7 +14,8 @@
 
 The **Std ViewRight** command points the camera in the active [3D view](3D_view.md) in the direction of the negative X axis.
 
-![](images/FreeCAD_views_front.svg ) *Arrow 3 points in the direction of the right view*
+![](images/FreeCAD_views_front.svg ) 
+*Arrow 3 points in the direction of the right view*
 
 ## Применение
 

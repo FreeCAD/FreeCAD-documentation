@@ -39,9 +39,9 @@ Part.makeBox(3,5,7)
 
 ```python
 boxShape = Part.makeBox(3,5,7)
- myObj = FreeCAD.ActiveDocument.addObject("Part::Feature","MyNewBox")
- myObj.Shape = boxShape
- FreeCAD.ActiveDocument.recompute()
+myObj = FreeCAD.ActiveDocument.addObject("Part::Feature","MyNewBox")
+myObj.Shape = boxShape
+FreeCAD.ActiveDocument.recompute()
 ```
 
 Обратите внимание на то, как мы обрабатывали myObj.Shape , мы сделали это в точности как в предыдущей главе мы меняли другие параметры объекта, такие как box.Height = 5 . Фактически, **Shape** это так же параметр, подобно **Height**. Но его тип Part Shape, а не число. В следующей главе мы рассмотрим глубже конструкцию этих параметрических объектов.
@@ -51,11 +51,11 @@ boxShape = Part.makeBox(3,5,7)
 
 ```python
 print(boxShape.Vertexes)
- print(boxShape.Edges)
- print(boxShape.Wires)
- print(boxShape.Faces)
- print(boxShape.Shells)
- print(boxShape.Solids)
+print(boxShape.Edges)
+print(boxShape.Wires)
+print(boxShape.Faces)
+print(boxShape.Shells)
+print(boxShape.Solids)
 ```
 
 Например, найдём площадь каждой грани нашей формы куба:
@@ -85,8 +85,8 @@ for e in boxShape.Edges:
 
 ```python
 print(boxShape.ShapeType)
- print(boxShape.Faces[0].ShapeType)
- print(boxShape.Vertexes[2].ShapeType)
+print(boxShape.Faces[0].ShapeType)
+print(boxShape.Vertexes[2].ShapeType)
 ```
 
 Так что возобновим тему Part Shape: всё начинается с вершин (Vertice). С одной или двумя вершинами (окружность имеет только одну вершину) формируется ребро (Edge). С несколькими рёбрами формируется ломаная (Wire). С одной или несколькими замкнутыми ломаными формируется грань (Face) (дополнительные ломаные образуют в грани \"отверстия\"). Несколько граней создают оболочку (Shell). Когда оболочка замкнута (водонепроницаемо), из неё можно создать тело (Solid). И в конце можно соединить несколько форм (Shape) различных видов, это называется соединение (Compound).
@@ -104,9 +104,9 @@ print(boxShape.ShapeType)
 
 ```python
 V1 = FreeCAD.Vector(0,10,0)
- V2 = FreeCAD.Vector(30,10,0)
- V3 = FreeCAD.Vector(30,-10,0)
- V4 = FreeCAD.Vector(0,-10,0)
+V2 = FreeCAD.Vector(30,10,0)
+V3 = FreeCAD.Vector(30,-10,0)
+V4 = FreeCAD.Vector(0,-10,0)
 ```
 
 Затем создадим два линейных сегмента
@@ -133,9 +133,9 @@ print(Edge.Curve)
 
 ```python
 VC1 = FreeCAD.Vector(-10,0,0)
- C1 = Part.Arc(V1,VC1,V4)
- VC2 = FreeCAD.Vector(40,0,0)
- C2 = Part.Arc(V2,VC2,V3)
+C1 = Part.Arc(V1,VC1,V4)
+VC2 = FreeCAD.Vector(40,0,0)
+C2 = Part.Arc(V2,VC2,V3)
 ```
 
 Теперь у нас 2 линии (L1 и L2) и 2 дуги (C1 и C2). Их надо превратить в ребро (Edge):
@@ -143,9 +143,9 @@ VC1 = FreeCAD.Vector(-10,0,0)
 
 ```python
 E1 = Part.Edge(L1)
- E2 = Part.Edge(L2)
- E3 = Part.Edge(C1)
- E4 = Part.Edge(C2)
+E2 = Part.Edge(L2)
+E3 = Part.Edge(C1)
+E4 = Part.Edge(C2)
 ```
 
 Иначе, базовая геометрия так же имеет функцию toShape(), которая делает то же самое:
@@ -153,7 +153,7 @@ E1 = Part.Edge(L1)
 
 ```python
 E1 = L1.toShape()
- E2 = L2.toShape()
+E2 = L2.toShape()
  ...
 ```
 
@@ -197,7 +197,7 @@ This is because when we extrude a single Face, we always get a Solid. This would
 
 ```python
 S = W.extrude(FreeCAD.Vector(0,0,10))
- print(s.ShapeType)
+print(s.ShapeType)
 ```
 
 Это, разумеется, даст нам полую оболочку, без верхней и нижней плоскости.
@@ -207,8 +207,8 @@ S = W.extrude(FreeCAD.Vector(0,0,10))
 
 ```python
 myObj2 = FreeCAD.ActiveDocument.addObject("Part::Feature","My_Strange_Solid")
- myObj2.Shape = P
- FreeCAD.ActiveDocument.recompute()
+myObj2.Shape = P
+FreeCAD.ActiveDocument.recompute()
 ```
 
 Альтернативно модуль Part предлагает ярлык, делающий эту операцию быстрее (но Вы не сможете выбрать имя объекта):

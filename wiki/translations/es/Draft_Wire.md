@@ -26,6 +26,8 @@ La herramienta Contorno crea polilíneas (secuencias de líneas formadas por var
 
 </div>
 
+The corners of a Draft Wire can be filleted (rounded) or chamfered by changing its **Fillet Radius** or **Chamfer Size** respectively. It is also possible to subdivide the edges of a Draft Wire by changing its **Subdivisions** property.
+
 <img alt="" src=images/Draft_Polyline_example.jpg  style="width:400px;">
 
 

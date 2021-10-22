@@ -24,6 +24,7 @@ Questo comando essenzialmente esegue <img alt="" src=images/Std_LinkImport.svg  
 ![](images/Std_Link_tree_import_all_1_example.png ) ![](images/Std_Link_tree_import_all_2_example.png )
 
 
+
 *A sinistra: vari collegamenti che puntano a oggetti nel documento "sorgente". A destra: gli oggetti originali sono stati importati (copiati) nel documento di "destinazione", ed i collegamenti esistenti sono stati modificati per puntare a queste copie, quindi non puntano più agli oggetti del  "sorgente".*
 
 

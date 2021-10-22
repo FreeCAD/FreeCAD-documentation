@@ -33,7 +33,8 @@ Due to changes to the GitHub platform in the year 2020 the Addon manager no long
 
 <div class="mw-translate-fuzzy">
 
-![](images/Addon_Manager_example.png ) *Interface of the [Addon Manager](Addon_Manager/ro.md)*
+![](images/Addon_Manager_example.png ) 
+*Interface of the [Addon Manager](Addon_Manager/ro.md)*
 
 
 </div>

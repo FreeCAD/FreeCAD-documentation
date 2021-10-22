@@ -6,16 +6,16 @@ Dies ist eine umfangreiche, aber nicht vollständige Liste von Funktionen, die F
 
 ## Versionshinweise
 
--   [Version 0.11](Release_notes_0.11/de.md) - März 2011
--   [Version 0.12](Release_notes_0.12/de.md) - Dezember 2011
--   [Version 0.13](Release_notes_0.13/de.md) - Januar 2013
--   [Version 0.14](Release_notes_0.14/de.md) - Mai 2014
--   [Version 0.15](Release_notes_0.15/de.md) - März 2015
--   [Version 0.16](Release_notes_0.16/de.md) - April 2016
--   [Version 0.17](Release_notes_0.17/de.md) - April 2018
--   [Version 0.18](Release_notes_0.18/de.md) - März 2019
+-   [Version 0.20](Release_notes_0.20/de.md) - Zu definieren
 -   [Version 0.19](Release_notes_0.19/de.md) - März 2021
--   [Version 0.20](Release_notes_0.20/de.md) - Noch nicht definiert
+-   [Version 0.18](Release_notes_0.18/de.md) - März 2019
+-   [Version 0.17](Release_notes_0.17/de.md) - April 2018
+-   [Version 0.16](Release_notes_0.16/de.md) - April 2016
+-   [Version 0.15](Release_notes_0.15/de.md) - März 2015
+-   [Version 0.14](Release_notes_0.14/de.md) - März 2014
+-   [Version 0.13](Release_notes_0.13/de.md) - Januar 2013
+-   [Version 0.12](Release_notes_0.12/de.md) - Dezember 2011
+-   [Version 0.11](Release_notes_0.11/de.md) - März 2011
 
 ## Schlüsselfunktionen
 

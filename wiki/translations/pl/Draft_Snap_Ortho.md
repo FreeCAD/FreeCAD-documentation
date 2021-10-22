@@ -11,7 +11,8 @@
 
 The <img alt="" src=images/Draft_Snap_Ortho.svg  style="width:24px;"> **Draft Snap Ortho** option snaps to imaginary lines that cross the previous point at 0°, 45°, 90° and 135°. The lines and angles are relative to the XY plane of the [working plane](Draft_SelectPlane.md) coordinate system.
 
-![](images/Draft_Snap_Ortho_example.png ) *Snapping the second point of a line to an imaginary line that has an angle of 45° with the X axis. The small magenta circles indicate all possible directions.*
+![](images/Draft_Snap_Ortho_example.png ) 
+*Snapping the second point of a line to an imaginary line that has an angle of 45° with the X axis. The small magenta circles indicate all possible directions.*
 
 ## Usage
 

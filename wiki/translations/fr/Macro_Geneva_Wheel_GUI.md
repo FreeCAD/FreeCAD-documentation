@@ -18,7 +18,8 @@ Interface graphique permettant à l'utilisateur de créer un mécanisme de roue 
 
 Pour utiliser cette macro, la copier dans votre répertoire Macro de FreeCAD et inclure l\'icône [GW\_Dim.png](http://www.freecadweb.org/wiki/images/8/8d/GW_Dim.png) ci-dessous dans le même répertoire que le macro.
 
-![](images/GW_Dim.png ) *Copier et inclure dans la même répertoire que la macro.*
+![](images/GW_Dim.png ) 
+*Copier et inclure dans la même répertoire que la macro.*
 
 ## Prise d\'écran 
 

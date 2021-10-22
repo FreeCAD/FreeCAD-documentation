@@ -24,6 +24,7 @@ Questo comando fa parte dell\'ambiente _, tramite il menu **Strumenti → Addon 
 :   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width:80px;">
 
 
+
 *Una barra di rinforzo elicoidale continua all'interno di una [Struttura](Arch_Structure/it.md)*
 
 ## Utilizzo
@@ -50,6 +51,7 @@ Questo comando fa parte dell\'ambiente _, tramite il menu **Strumenti → Addon 
 10. Cliccare **Annulla** per uscire dal pannello delle azioni.
 
 :   <img alt="" src=images/HelicalRebarDialog.png  style="width:250px;">
+
 
 
 *Pannello Azioni per lo strumento Armatura elicoidale di Arch*

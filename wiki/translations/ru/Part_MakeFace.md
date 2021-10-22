@@ -19,6 +19,7 @@
 <img alt="" src=images/Part_MakeFace-example.png  style="width:300px;">
 
 
+
 *Пример грани(плоскости), созданной из вложенного набора контуров.*
 
 ## Применение

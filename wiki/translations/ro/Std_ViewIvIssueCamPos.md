@@ -33,6 +33,7 @@ Exemplu de locație a camerei în vizualizarea Raport:
 ```
 
 
+
 *Example output: camera settings after changing to [isometric view](Std_ViewIsometric.md) in a new document*
 
 ## Usage

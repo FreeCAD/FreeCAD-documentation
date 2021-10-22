@@ -13,7 +13,8 @@
 
 La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro. À partir de cette boîte de dialogue, les macros peuvent être exécutées, modifiées et gérées.
 
-![](images/Std_DlgMacroExecute_dialog.png ) *La boîte de dialogue Execute macro*
+![](images/Std_DlgMacroExecute_dialog.png ) 
+*La boîte de dialogue Execute macro*
 
 ## Utilisation
 

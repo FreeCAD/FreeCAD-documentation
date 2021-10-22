@@ -2,7 +2,8 @@
 {{Macro
 |Name=Macro FCInfo
 |Icon=FCInfo.png
-|Description=Gives a series of information on the form.<br />FRench Version [https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/c1dd823886fe2e75dc5c6dd490157c259051b651/FCInfo_fr_Ver_1-22-rmu_Docked.FCMacro]
+|Description=Gives a series of informations about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, pour-cent) shape, surface, volume and the weight of the form in the density selected in different units of quantities international and Anglo-Saxon.
+<br />FRench Version [https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/c1dd823886fe2e75dc5c6dd490157c259051b651/FCInfo_fr_Ver_1-22-rmu_Docked.FCMacro]
 |Author=Mario52
 |Version=1.22
 |Date=2020/11/12
@@ -13,7 +14,7 @@
 
 ## Description
 
-Gives a series of informations about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, pourcent) shape, surface, volume and the weight of the form in the density selected in different units of quantities international and Anglo-Saxon.
+Gives a series of informations about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, pour-cent) shape, surface, volume and the weight of the form in the density selected in different units of quantities international and Anglo-Saxon.
 
  
 

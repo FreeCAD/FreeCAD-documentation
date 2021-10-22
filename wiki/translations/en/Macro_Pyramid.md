@@ -28,6 +28,7 @@ You can also make use of the the external workbench [Pyramids\_and\_Polyhedrons]
 ![](images/Polyhedrons.png )
 
 
+
 *Example creation with the external workbench [https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons Pyramids_and_Polyhedrons] (github link) that contains the same function.*
 
 ## Usage

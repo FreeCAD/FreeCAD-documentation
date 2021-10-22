@@ -389,7 +389,7 @@ Some relevant data is shown at real time:
 
 <div class="mw-translate-fuzzy">
 
-Cand apasati butonul **Accept** se face un grafic (în funcție de complexitatea geometriei poate dura ceva timp, puteți vedea progresul pe terminal și opriți lucrul apăsând **Ctrl + C**). După terminarea activității, FreeCAD va genera un Plot (a se vedea documentația [ plot module module](Plot_Module.md)) și o SpreadSheet (a se vedea documentația [Spreadsheet workbench documentation](Spreadsheet_Workbench.md)).
+Cand apasati butonul **Accept** se face un grafic (în funcție de complexitatea geometriei poate dura ceva timp, puteți vedea progresul pe terminal și opriți lucrul apăsând **Ctrl + C**). După terminarea activității, FreeCAD va genera un Plot (a se vedea documentația [ plot module module](Plot_Workbench.md)) și o SpreadSheet (a se vedea documentația [Spreadsheet workbench documentation](Spreadsheet_Workbench.md)).
 
 
 </div>
@@ -432,7 +432,7 @@ Așadar, am stabilit următoarele date:
 
 <div class="mw-translate-fuzzy">
 
-Atunci când sunt apăsate butoanele Accept \'\'\' (vezi [plot module documentation](Plot_Module.md)) și o foaie de calul este generată (vezi [Spreadsheet workbench documentation](Spreadsheet_Workbench.md)).
+Atunci când sunt apăsate butoanele Accept \'\'\' (vezi [plot module documentation](Plot_Workbench.md)) și o foaie de calul este generată (vezi [Spreadsheet workbench documentation](Spreadsheet_Workbench.md)).
 
 
 </div>

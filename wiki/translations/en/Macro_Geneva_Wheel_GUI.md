@@ -18,7 +18,8 @@ A GUI front end that allows the user to create a Geneva wheel mechanism from scr
 
 To use this Macro, copy it to your FreeCAD Macro directory and include the icon graphic in the same directory as the Macro.
 
-![](images/GW_Dim.png ) *Copy and include this graphic with the macro.*
+![](images/GW_Dim.png ) 
+*Copy and include this graphic with the macro.*
 
 ## Screenshot
 

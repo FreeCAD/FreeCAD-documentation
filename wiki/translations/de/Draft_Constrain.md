@@ -7,7 +7,8 @@ Neben der Eingabe von Koordinaten oder der Verwendung vom _ und dem <img alt="" 
 
 Das Beschränken ist mit den meisten [Entwurf](Draft_Workbench/de.md)- und [Architektur](Arch_Workbench/de.md)-Befehlen verfügbar.
 
-![](images/Draft_Constrain_taskpanel_example.png ) *Während der Mauszeiger beschränkt ist, sperrt das Aufgabenfeld die Werte, die nicht geändert werden*
+![](images/Draft_Constrain_taskpanel_example.png ) 
+*Während der Mauszeiger beschränkt ist, sperrt das Aufgabenfeld die Werte, die nicht geändert werden*
 
 ## Anwendung horizontaler und vertikaler Beschränkungen 
 

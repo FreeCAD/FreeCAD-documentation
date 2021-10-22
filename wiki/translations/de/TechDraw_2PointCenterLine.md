@@ -17,6 +17,7 @@ Das Werkzeug fügt eine Mittellinie hinzu, die zwischen zwei Punkten verlaufen s
 <img alt="" src=images/CL2PointsSample.png  style="width:200px;">
 
 
+
 *Mittellinie zwischen zwei Punkten*
 
 ## Anwendung

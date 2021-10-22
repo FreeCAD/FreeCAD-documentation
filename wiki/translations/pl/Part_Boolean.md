@@ -16,6 +16,7 @@ Aby uzyskać szybszy dostęp do tych operacji, użyj **<img src=images/Part_Fuse
 ![](images/PartBooleansDialog.png )
 
 
+
 *Okno dialogowe do wyboru obiektów i wykonywania na nich operacji logicznych.*
 
 ## Jak używać 
@@ -51,11 +52,13 @@ W przypadku współbieżności, nawet jeśli pierwsza operacja logiczna zakończ
 <img alt="" src=images/Part_Boolean_cut_coplanar_2.png  style="width:500px;">
 
 
+
 *Po lewej: kształty, które mają wspólną powierzchnię czołową, cięcie logiczne może dawać nieprawidłowe wyniki. <br> Po prawej: kształty, które przecinają się wyraźnie, cięcie logiczne będzie skuteczne w większości przypadków.*
 
 <img alt="" src=images/Part_Boolean_fusion_coplanar_1.png  style="width:500px;">
 
 <img alt="" src=images/Part_Boolean_fusion_coplanar_2.png  style="width:500px;">
+
 
 
 *Po lewej: kształty, które mają wspólną powierzchnię, połączenie logiczne może dać nieprawidłowe wyniki. <br>Po prawej: kształty, które przecinają się wyraźnie, połączenie logiczne będzie skuteczne w większości przypadków.*

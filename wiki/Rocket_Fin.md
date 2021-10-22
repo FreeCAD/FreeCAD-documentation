@@ -76,7 +76,8 @@ The cross sectional shape of a fin can greatly affect its performance at differe
 ### Through the Wall (TTW) Tabs 
 
 Through the Wall fins add structural strength by extending though the outer body tube to an inner body tube such as a motor mount. Instead of attaching just to the outside of the outer body tube, it can be attached at multiple points. As such, tthe height of the tab would be the distance from the outer diameter of the inner body tube to the outer diameter of the outer body tube. Other parameters would vary depending on requirements.
- ![](images/TTWx4.png )  *4 TTW fins attached to a central motor mount inside the outer body tube*
+ ![](images/TTWx4.png )  
+*4 TTW fins attached to a central motor mount inside the outer body tube*
 
 ## Properties
 

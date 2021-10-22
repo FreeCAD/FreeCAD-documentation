@@ -1,10 +1,16 @@
 # The FreeCAD documentation
 
-**Note**: This repository contains an automatic conversion of the FreeCAD wiki located at https://wiki.freecadweb.org to the [markdown format](https://en.wikipedia.org/wiki/Markdown). The conversion is done automatically through the [migrate.py](./migrate.py) script located within this repository. The script downloads the wiki contents in XML format using the MediaWiki API and uses [pandoc](https://pandoc.org/) to convert between mediawiki and markdown formats. This is a work in progress towards a more usable version of the documentation. Check the [TODO](TODO.md) file for more explanation.
+**Note**: This repository contains an automatic conversion of the FreeCAD wiki located at https://wiki.freecadweb.org to the [markdown format](https://en.wikipedia.org/wiki/Markdown). The conversion is done automatically through the [migrate.py](./migrate.py) script located within this repository. The script downloads the wiki contents in XML format using the MediaWiki API and uses [pandoc](https://pandoc.org/) to convert between MediaWiki and markdown formats. This is a work in progress towards a more usable version of the documentation.
+
+This documentation can be installed via the FreeCAD [addons manager](wiki/Std_AddonMgr.md) for offline browsing.
+
+
 
 ## Introduction
 
-This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There are several ways to use this documentation: by exploring the **hubs**, by following the **manual**, or by **searching** for a specific page. The **Help menu** entries from within FreeCAD also allow you to browse this documentation, online or offline. This documentation is a work in progress, written by the community of users and developers of FreeCAD. If you find information that is wrong or missing, please [help](Special:MyLanguage/help_FreeCAD.md)! 
+This is the officiadocumentation of [FreeCAD](http://www.freecadweb.org). There are several ways to use this documentation: by exploring the **hubs**, by following the **manual**, or by **searching** for a specific page. The **Help menu** entries from within FreeCAD also allow you to browse this documentation, online or offline. This documentation is a work in progress, written by the community of users and developers of FreeCAD. If you find information that is wrong or missing, please [help](Special:MyLanguage/help_FreeCAD.md)! 
+
+
 
 ## The hubs 
 
@@ -19,11 +25,15 @@ This page gathers documentation for advanced users and people interested in writ
 
 This section contains material for developers: How to compile FreeCAD yourself, how the FreeCAD source code is structured, how to navigate the source code, how to develop new workbenches, and embed FreeCAD in your own application. 
 
+
+
 ## Manual
 
 #### <img alt="" src=wiki/images/Crystal_Clear_manual.png  style="width:32px;"> [The FreeCAD manual](wiki/Manual:Introduction.md)
 
 The manual is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecadweb.org/manual/). 
+
+
 
 ## Translations
 
@@ -39,26 +49,28 @@ This documentation is fully translatable by users to other languages, and is in 
 | ![Flag sv](wiki/images/Flag-sv.jpg) [Swedish / svenska](wiki/translations/sv/Main_Page.md) | ![Flag de](wiki/images/Flag-de.jpg) [German / Deutsch](wiki/translations/de/Main_Page.md) | ![Flag zh-tw](wiki/images/Flag-zh-tw.jpg) [Chinese (Taiwan) / 繁體中文](wiki/translations/zh-tw/Main_Page.md) |
 | ![Flag ru](wiki/images/Flag-ru.jpg) [Russian / русский](wiki/translations/ru/Main_Page.md) | ![Flag pt-br](wiki/images/Flag-pt-br.jpg) [Portuguese (Brazil) / português](wiki/translations/pt-br/Main_Page.md) 
 
-## Get involved 
+
+
+## Get involved with FreeCAD
 
 ### How to participate 
 
-There is plenty to do inside the FreeCAD project, if you are interested in helping us. Of course, there are programming tasks for C++ or Python programmers, but there are also many things you can do even if you cannot code, such as
+There is plenty to do inside the FreeCAD project, if you are interested in helping the project to develop. Of course, there are programming tasks for C++ or Python programmers, but there are also many things you can do even if you cannot code, such as:
 
--   writing documentation and [editing the wiki](WikiPages.md)
+-   writing, updating and translating this documentation
 -   helping newcomers
--   translating the application and documentation
+-   translating the FreeCAD application
 -   helping with the packaging of the latest release of FreeCAD for your favourite operating system
--   helping other people around you to discover FreeCAD.
+-   helping other people around you to discover FreeCAD
+-   testing new functionality, and report bugs
 
 The [help FreeCAD](Special:MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](wiki/Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
 
-### Source code 
+### Working with the source code 
 
 FreeCAD can be compiled on all platforms using [CMake](https://cmake.org/). The source code is [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)-licensed and hosted on [GitHub](https://github.com/FreeCAD/FreeCAD) and mirrored on [GitLab](https://gitlab.com/freecad/FreeCAD) and [CodeBerg](https://codeberg.org/FreeCAD/FreeCAD). There are build instructions for [Windows](wiki/Compile_on_Windows.md), [Linux](wiki/Compile_on_Linux.md) and [MacOS](wiki/Compile_on_MacOS.md). The source code documentation is [hosted here](http://www.freecadweb.org/api/), generated by [Doxygen](Doxygen.md), and [documented on the wiki](wiki/Source_documentation.md).
 
 ### About the development 
 
 Check the [Development roadmap](wiki/Development_roadmap.md) for news about what is being planned, the [Changelog](http://www.freecadweb.org/tracker/changelog_page.php) and [Roadmap](http://www.freecadweb.org/tracker/roadmap_page.php) pages on the [FreeCAD tracker](http://www.freecadweb.org/tracker) to see the progress towards next release, or the [Project statistics](http://www.ohloh.net/p/freecad) for even more information about the FreeCAD codebase. All the development communication happens on the [forum](http://forum.freecadweb.org), so be sure to visit it if you are interested in participating.
-
 

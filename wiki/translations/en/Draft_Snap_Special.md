@@ -12,7 +12,8 @@
 
 The <img alt="" src=images/Draft_Snap_Special.svg  style="width:24px;"> **Draft Snap Special** option snaps to [special points](#Supported_special_points.md) defined by the object. The supported objects are [Arch Walls](Arch_Wall.md), [Arch Structures](Arch_Structure.md) and [Arch Equipment](Arch_Equipment.md).
 
-![](images/Draft_Snap_Special_example.png ) *Snapping the second point of a line to a special point of an  Arch Wall, which is a vertex of its Base object*
+![](images/Draft_Snap_Special_example.png ) 
+*Snapping the second point of a line to a special point of an  Arch Wall, which is a vertex of its Base object*
 
 ## Usage
 

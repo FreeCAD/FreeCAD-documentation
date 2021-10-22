@@ -9,12 +9,12 @@ The [ModernUI Workbench](ModernUI_Workbench.md) is an [external workbench](Exter
 -   Each workbench has its ribbon tab.
 -   **Modern UI** ribbon tab replaces the top-level menu.
 -   Activating a workbench\'s ribbon tab shows groups of the workbench\'s tools.
--   Panels such as **Combo View** are collapsed/expanded upon mouse-over.
+-   Panels such as [Combo View](Combo_view.md) are collapsed/expanded upon mouse-over.
 
 ## References
 
 -   Author: Hakan Seven
--   Source code on github: <https://github.com/HakanSeven12/Modern-UI>
+-   Source code on github: [Source code Modern-UI](https://github.com/HakanSeven12/Modern-UI)
 
 ## Limitations and Troubleshooting 
 
@@ -24,7 +24,7 @@ The [ModernUI Workbench](ModernUI_Workbench.md) is an [external workbench](Exter
 
 ## Install
 
-Install with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md).
+Install with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
 
 Note: To uninstall, you have to create a macro and execute it. If you do not feel confident about this, consider to not install.
 
@@ -58,7 +58,7 @@ Detailed instructions can be found on [GitHub](https://github.com/HakanSeven12/M
 
 The uninstall sequence is as follows:
 
-1.  Uninstall with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md).
+1.  Uninstall with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
 2.  Restart FreeCAD.
 3.  Create a macro with this code:
 

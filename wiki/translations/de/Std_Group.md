@@ -20,6 +20,7 @@ Um 3D-Objekte zu einer einzelnen Einheit zu gruppieren, um Baugruppen zu erzeuge
 ![](images/Std_Group_example.png )
 
 
+
 *Verschiedene Elemente innerhalb Standart Gruppe in der Baumansicht.*
 
 ## Anwendung
@@ -71,6 +72,7 @@ Siehe [App FeaturePython](App_FeaturePython.md) zu grundlegenden Ansichtseigensc
 _(`App::DocumentObject`) ist und um eine Gruppen-Erweiterung erweitert wird.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die `App::DocumentObjectGroup* Klasse ist ein einfacher Behälter der der die Gruppenerweiterung nutzt, um alle Typen von Objekten aufzunehmen.`

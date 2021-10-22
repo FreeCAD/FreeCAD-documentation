@@ -3,7 +3,7 @@ This category collects pages from the [external workbenches](external_workbenche
 
 ### Contents:
 
-[Plot Module/bg](Plot_Module/bg.md) , [Ship Workbench/bg](Ship_Workbench/bg.md)
+[Plot Workbench/bg](Plot_Workbench/bg.md) , [Ship Workbench/bg](Ship_Workbench/bg.md)
 
 _ _
 

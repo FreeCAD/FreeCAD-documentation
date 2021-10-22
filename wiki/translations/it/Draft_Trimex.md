@@ -29,6 +29,7 @@ Lo strumento Tronca/Estendi taglia o estende le [Linee](Draft_Line/it.md) e le [
 <div class="mw-translate-fuzzy">
 
 
+
 *Segmento del contorno esteso, poi segmento tagliato; faccia estrusa in un corpo solido*
 
 

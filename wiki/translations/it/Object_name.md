@@ -4,7 +4,13 @@
 
 {{TOCright}}
 
+
+<div class="mw-translate-fuzzy">
+
 Tutti gli oggetti nel programma hanno un [nome dell\'oggetto](Object_name/it.md) che li identifica in modo univoco in un dato [Documento](App_Document/it.md).
+
+
+</div>
 
 Queste informazioni si applicano a tutti gli oggetti derivati da un oggetto [App DocumentObject](App_DocumentObject/it.md) (classe `App::DocumentObject`), che essenzialmente comprende tutti gli oggetti che è possibile creare in un documento.
 
@@ -26,11 +32,11 @@ In summary, the `Name` essentially acts like a unique identifier (UID) for an ob
 There are various properties for Labels:
 
 -   The `Label` can accept any UTF8 string, including accents and spaces.
--   The [tree view](tree_view.md) actually displays the `Label` of the object, not the `Name`. Therefore, whenever a new object is created, it is a good practice to change the `Label` to a more descriptive string. To rename (relabel) the object, select it in the tree view and press **F2**, or open the context menu (right-click) and choose **Rename**.
--   Even after an object was renamed (relabelled), the internal `Name` will still be reported in many places, for example, in the [status bar](status_bar.md) or in the [selection view](selection_view.md), when the object is selected.
+-   The [tree view](tree_view.md) actually displays the `Label` of the object, not the `Name`. Therefore, whenever a new object is created, it is a good practice to change the `Label` to a more descriptive string. To rename (relabel) the object, select it in the tree view and press **F2** (or rather **Return** on macOS), or open the context menu (right-click) and choose **Rename**.
+-   Even after an object was renamed (relabelled), the internal `Name` will still be reported in many places, for example, in the [status bar](Status_bar.md) or in the [selection view](Selection_view.md), when the object is selected.
 -   Since the internal functions of the program refer to the objects by `Name`, many dialogs will display the `Name` first, followed by the user editable `Label` in parentheses, for example, `Box (Extruded piece)`.
 -   By default the `Label` is unique, just like the `Name`. However, this behavior can be changed in the [preferences editor](Preferences_Editor.md), **Edit → Preferences → General → Document → Allow duplicate object labels in one document**. This means that in general the `Label` is not unique in the document, and may actually be repeated. However, the recommendation is to keep the `Label` unique, as this is probably what is most useful to identify different objects. When writing custom functions that manipulate objects, the methods should use the `Name` of the object rather than its `Label` to guarantee that the correct object is used.
--   When using [expressions](expressions.md), for example, in the [property editor](property_editor.md) or in a [spreadsheet](spreadsheet.md), the Label can be referenced using double brackets made of the less than and greater than symbols.
+-   When using [expressions](Expressions.md), for example, in the [property editor](Property_editor.md) or in a [spreadsheet](Spreadsheet.md), the Label can be referenced using double brackets made of the less than and greater than symbols.
 
 
 ```python
@@ -42,16 +48,22 @@ There are various properties for Labels:
 
 This property was introduced in v0.19. It is a simple string that can contain arbitrary text, and therefore can be used for documenting (describing with more detail) the created object.
 
--   In the [tree view](tree_view.md) edit the field next to the icon, under \"Description\", by clicking on it and pressing **F2**.
+-   In the [tree view](Tree_view.md) edit the field next to the icon, under \"Description\", by clicking on it and pressing **F2** (or rather **Return** on macOS).
 -   You can also change this property by modifying the `Label2` attribute from the [Python console](Python_console.md).
--   The **Label2** attribute is normally hidden in the [property editor](property_editor.md) but can be made visible by opening the context menu (right click) and selecting **Show all**.
+-   The **Label2** attribute is normally hidden in the [property editor](Property_editor.md) but can be made visible by opening the context menu (right click) and selecting **Show all**.
 
 ## Script
+
+
+<div class="mw-translate-fuzzy">
 
 
 **Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md), e [script di oggetti](scripted_objects/it.md).
+
+
+</div>
 
 Any object in the software is internally created with the `addObject()` method of the document. The majority of 2D and 3D objects that the user will see in the [3D view](3D_view.md) are derived from a [Part Feature](Part_Feature.md). In the following example, the object created is a [Part Box](Part_Box.md).
 
@@ -85,7 +97,7 @@ The `Label` is a property of the created object and can be changed to a more mea
 
 ### Getting an object by Name or Label 
 
-All objects in a document are data attributes of the corresponding [Document](App_Document.md) object. The attribute\'s name correspond to the internal `Name` of the object.
+All objects in a document are data attributes of the corresponding [Document](App_DocumentObject.md) object. The attribute\'s name correspond to the internal `Name` of the object.
 
 
 ```python

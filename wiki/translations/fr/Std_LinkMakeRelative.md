@@ -32,6 +32,7 @@ Sans sélection :
 <img alt="" src=images/Std_Link_tree_sublink_example.png ) ![](images/Std_Link_sublink_example.png  style="width:500px;">
 
 
+
 *Corps d'origine et trois liens créés à partir de ses sous-éléments, y compris les arêtes et les faces.*
 
 ## Propriétés

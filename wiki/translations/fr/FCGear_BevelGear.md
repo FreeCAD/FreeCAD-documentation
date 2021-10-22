@@ -17,7 +17,8 @@ Les engrenages coniques en spirale ont des dents incurvées pour fournir un enga
 
 :   ![](images/Bevel-Gear_example.png )
 :   
-    *De gauche à droite : engrenage droit, engrenage en spirale*
+    
+*De gauche à droite : engrenage droit, engrenage en spirale*
     
 
 ## Utilisation

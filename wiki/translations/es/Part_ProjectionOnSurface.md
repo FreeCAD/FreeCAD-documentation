@@ -37,6 +37,7 @@ Esta herramienta puede proyectar toda la cara, o sólo un alambre o borde de una
 <div class="mw-translate-fuzzy">
 
 
+
 *Proyección en una superficie curva*
 
 

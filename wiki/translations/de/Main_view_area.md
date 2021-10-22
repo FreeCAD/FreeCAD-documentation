@@ -8,6 +8,7 @@ Er enthält normalerweise Reiter für die Startseite vom [\|Start-Arbeitsbereich
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
+
 *Der Hauptansichtsbereich ist bezeichnet mit Nummer 1 und kann verschiedene Fenster-Reiter enthalten, prinziell die Startseite und die [3D-Ansicht](3D_view/de.md).*
 
 ## Fenster

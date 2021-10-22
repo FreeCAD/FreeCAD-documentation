@@ -242,7 +242,9 @@ Allows changing the order of transformations in the list \|}
 
 ## Beispiele
 
-![c\|800px](images/mt_example2.png ) *Die kleinste Aufpolsterung wurde zunächst dreimal in X Richtung gemustert und dann auf den Faktor zwei skaliert (die drei Vorkommen haben also den Skalierungsfaktor 1,0, 1,5 und 2,0). Dann wurde ein lineares Muster mit 8 Vorkommen angewendet.* ![c\|800px](images/mt_example3.png ) *Die Tasche wurde zunächst auf der YZ Ebene gespiegelt und dann mit zwei linearen Mustern gemustert, um ein rechteckiges Muster zu erhalten.* 
+![c\|800px](images/mt_example2.png ) 
+*Die kleinste Aufpolsterung wurde zunächst dreimal in X Richtung gemustert und dann auf den Faktor zwei skaliert (die drei Vorkommen haben also den Skalierungsfaktor 1,0, 1,5 und 2,0). Dann wurde ein lineares Muster mit 8 Vorkommen angewendet.* ![c\|800px](images/mt_example3.png ) 
+*Die Tasche wurde zunächst auf der YZ Ebene gespiegelt und dann mit zwei linearen Mustern gemustert, um ein rechteckiges Muster zu erhalten.* 
 
 
 </div>

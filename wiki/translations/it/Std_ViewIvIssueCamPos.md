@@ -21,6 +21,7 @@ Esempio casuale dei dati di posizione della camera nel pannello Report:
 ```
 
 
+
 *Example output: camera settings after changing to [isometric view](Std_ViewIsometric.md) in a new document*
 
 ## Utilizzo

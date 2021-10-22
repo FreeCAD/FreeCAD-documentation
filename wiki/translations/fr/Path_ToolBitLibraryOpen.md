@@ -65,19 +65,22 @@ A. En cliquant sur les en-têtes de colonne de la bibliothèque, vous pouvez tri
 
 :   ![](images/Librarysort.png )
 :   
-    *Tri de la bibliothèque toolbit via les en-têtes de colonne*
+    
+*Tri de la bibliothèque toolbit via les en-têtes de colonne*
     
 
 B. En double-cliquant dans la première colonne, vous pouvez modifier le numéro du toolbit. Ce sera le numéro d\'outil par défaut utilisé lors de la création d\'un nouveau contrôleur d\'outils. Il est possible d\'utiliser le même numéro pour plusieurs toolbits.
 
 :   ![](images/Edittoolnumber.png )
 :   
-    *Double-cliquez sur la première colonne pour modifier le numéro d'outil*.
+    
+*Double-cliquez sur la première colonne pour modifier le numéro d'outil*.
 
 C. Double-cliquez n\'importe où ailleurs dans la ligne pour ouvrir le panneau d\'édition du toolbit. A partir de là, vous pouvez modifier d\'autres propriétés du toolbit.
 
 :   ![](images/Editingpanel.png )
-:   : *Ouverture du panneau d'édition du toolbit en cliquant n'importe où ailleurs dans la rangée.*
+:   : 
+*Ouverture du panneau d'édition du toolbit en cliquant n'importe où ailleurs dans la rangée.*
 
 ## En relation 
 

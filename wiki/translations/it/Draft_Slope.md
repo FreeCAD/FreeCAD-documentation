@@ -29,6 +29,7 @@ Per una [Linea](Draft_Line/it.md) o una [Polilinea](Draft_Wire/it.md) selezionat
 <div class="mw-translate-fuzzy">
 
 
+
 *Linea orizzontale; linea con la pendenza modificata di 45°*
 
 

@@ -13,6 +13,7 @@ Bitte beachte, dass der **<img src="images/Workbench_FEM.svg" width=16px> [FEM A
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die `Mesh::Feature* Klasse ist der Ursprung der meisten Objekte, die über ein [Dreieckspolygonnetz](Mesh_MeshObject/de.md) verfügen. Diese Objekte werden von der [Polygonnetz Arbeitsbereich](Mesh_Workbench/de.md) oder durch Importieren von STL, OBJ und ähnlichen Polygonnetzformatdateien erstellt.`
 
 ## Anwendung

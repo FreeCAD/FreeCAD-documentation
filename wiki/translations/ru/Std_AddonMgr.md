@@ -23,7 +23,8 @@
 
 Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version _ below.
 
-![](images/Std_AddonMgr_dialog.png ) *Диалоговое окно Менеджера дополнений*
+![](images/Std_AddonMgr_dialog.png ) 
+*Диалоговое окно Менеджера дополнений*
 
 ## Применение
 

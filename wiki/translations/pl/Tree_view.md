@@ -10,6 +10,7 @@ Obiekty te niekoniecznie muszą być kształtami geometrycznymi widocznymi w [ok
 ![](images/FreeCAD_Tree_view.png )
 
 
+
 *Widok drzewa pokazujący różne elementy w dokumencie.*
 
 ## Praca z widokiem drzewa 
@@ -22,6 +23,7 @@ Wiele operacji tworzy obiekty, które są zależne od wcześniej utworzonego obi
 <img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width:" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width:" height="304px;">
 
 <img alt="" src=images/FreeCAD_Tree_view_parametric_history_3.png  style="width:" height="304px;">
+
 
 
 *Najwyższy z obiektów jest tworzony przez wykonywanie operacji parametrycznych na obiektach, które same zostały utworzone przez poprzednie operacje. Rozwinięcie drzewa na wielu poziomach ujawnia oryginalne elementy, które zostały użyte do utworzenia brył cząstkowych.*

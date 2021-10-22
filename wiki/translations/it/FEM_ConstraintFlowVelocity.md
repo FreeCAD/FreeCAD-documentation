@@ -6,7 +6,8 @@
 
 Applica una velocità del flusso come condizione al contorno a un bordo in 2D o a una faccia in 3D.
 
-![](images/FEM-constraint-flow-velocity_task-panel.png ) *Constraint flow velocity menus within the [task panel](Task_panel.md)*
+![](images/FEM-constraint-flow-velocity_task-panel.png ) 
+*Constraint flow velocity menus within the [task panel](Task_panel.md)*
 
 ## Utilizzo
 
@@ -18,7 +19,8 @@ Applica una velocità del flusso come condizione al contorno a un bordo in 2D o 
 
     :   ![](images/FEM-constraint-flow-velocity_task-panel.png )
     :   
-        *Sopra: il menu per vincolare la velocità del flusso nella scheda azioni*
+        
+*Sopra: il menu per vincolare la velocità del flusso nella scheda azioni*
         
 3.  Selezionare i bordi o le facce di destinazione.
 4.  Cliccare su **Aggiungi**

@@ -21,6 +21,7 @@ The **Std SendToPythonConsole** command creates a variable in the [Python consol
 >>> ### End command Std_SendToPythonConsole
 
 
+
 *Example output: an edge of a [Part Box](Part_Box.md) was selected*
 
 ## Применение

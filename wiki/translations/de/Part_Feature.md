@@ -15,6 +15,7 @@ Jedes mit dem [Part Arbeitsbereich](Part_Workbench/de.md) erstellte Objekt ist i
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die `Part::Feature* Klasse ist der Ursprung der meisten 2D  (Entwurf, Skizzierer) und 3D (Part, PartDesign) Objekte, die eine [Part TopoForm](Part_TopoShape/de.md) haben.`
 
 ## Anwendung
@@ -155,7 +156,8 @@ deviation_in_mm = (w + h + d)/3 * deviation/100
 
 ### Abweichungswert
 
-<img alt="" src=images/View_property_Deviation.svg  style="width:500px;"> *Deflection parameters of `BRepMesh_IncrementalMesh* algorithm; d < linear deflection, α < angular deflection.`
+<img alt="" src=images/View_property_Deviation.svg  style="width:500px;"> 
+*Deflection parameters of `BRepMesh_IncrementalMesh* algorithm; d < linear deflection, α < angular deflection.`
 
 See the forum thread, [Deviation and Angular deflection](https://forum.freecadweb.org/viewtopic.php?f=3&t=45512).
 

@@ -12,6 +12,7 @@ Nie wszystkie właściwości mogą być zawsze modyfikowane. W zależności od o
 ![](images/FreeCAD_Property_editor_empty.png )
 
 
+
 *Pusty edytor właściwości, gdy żaden obiekt nie jest zaznaczony.*
 
 ## Typy właściwości 
@@ -63,6 +64,7 @@ print(obj.Label)
 ```
 
 <img alt="" src=images/FreeCAD_Property_editor_View_basic.png  style="width:" height="264px;"> <img alt="" src=images/FreeCAD_Property_editor_Data_basic.png  style="width:" height="264px;">
+
 
 
 *Zakładki Widok i Dane edytora właściwości, dla podstawowego obiektu skryptowego '''App::FeaturePython'''.*
@@ -214,7 +216,8 @@ obj.CustomCamelProperty = 1000
 print(obj.CustomCamelProperty)
 ```
 
-![](images/FreeCAD_Property_editor_Custom.png ) *Edytor właściwości obiektu pokazujący właściwości danych [PartDesign Body](PartDesign_Body.md), z dwiema dodatkowymi właściwościami, ''Custom'' oraz ''Custom Camel Property''.*
+![](images/FreeCAD_Property_editor_Custom.png ) 
+*Edytor właściwości obiektu pokazujący właściwości danych [PartDesign Body](PartDesign_Body.md), z dwiema dodatkowymi właściwościami, ''Custom'' oraz ''Custom Camel Property''.*
 
 W podobny sposób dodawane są właściwości **widoku**, nie do obiektu bazowego, ale do jego reprezentacji `ViewObject`. Wynika z tego, że właściwości takie jak **Angular Deflection**, **Bounding Box**, **Display Mode Mode Body**, **Line Color** i inne mogą być badane i zmieniane z konsoli [Python](Python_console.md).
 

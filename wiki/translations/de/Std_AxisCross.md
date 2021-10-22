@@ -15,7 +15,8 @@ Der **Std AxisCross**-Befehl schaltet das Achsenkreuz in der aktiven [3D-Ansicht
 
 Das Achsenkreuz besteht aus drei Pfeilen, die positiven X-, Y- und Z-Achsen des globalen Koordinatensystems darstellen. Ihr gemeinsamer Startpunkt ist der Ursprung des globalen Koordinatensystems.
 
-![](images/Std_AxisCross_example.svg ) *Das Achsenkreuz (die Buchstaben sind nicht Teil des Achsenkreuzes)*
+![](images/Std_AxisCross_example.svg ) 
+*Das Achsenkreuz (die Buchstaben sind nicht Teil des Achsenkreuzes)*
 
 ## Anwendung
 

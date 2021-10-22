@@ -14,7 +14,8 @@
 
 The **Std ViewLeft** command points the camera in the active [3D view](3D_view.md) in the direction of the positive X axis.
 
-![](images/FreeCAD_views_rear.svg ) *Arrow 6 points in the direction of the left view*
+![](images/FreeCAD_views_rear.svg ) 
+*Arrow 6 points in the direction of the left view*
 
 ## Применение
 

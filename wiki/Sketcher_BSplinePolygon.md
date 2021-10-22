@@ -13,7 +13,8 @@
 
 Shows or hides the display of the defininig Polygon of a B-spline (see [this page](B-Splines.md) for more info about B-splines).
 
- ![](images/Sketcher_B-spline_example01.png )  *A B-spline curve. The control polygon are the green straight lines connecting the control points.*
+ ![](images/Sketcher_B-spline_example01.png )  
+*A B-spline curve. The control polygon are the green straight lines connecting the control points.*
 
 ## Usage
 

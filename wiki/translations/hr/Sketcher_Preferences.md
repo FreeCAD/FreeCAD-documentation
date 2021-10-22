@@ -1,9 +1,9 @@
 # Sketcher Preferences/hr
 {{TOCright}}
 
-The preferences screen of the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md) are found in the [Preferences Editor](Preferences_Editor.md), **Edit → Preferences → Sketcher**.
+The preferences for the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md) can be found in the [Preferences Editor](Preferences_Editor.md). In the menu select **Edit → Preferences...** and then **Sketcher**.
 
-There are three tabs: General, Display, and Colors.
+There are three tabs: [General](#General.md), [Display](#Display.md) and [Colors](#Colors.md).
 
 ## General
 

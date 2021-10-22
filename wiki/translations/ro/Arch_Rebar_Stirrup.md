@@ -68,6 +68,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 :   <img alt="" src=images/StirrupDialog.png  style="width:250px;">
 
 
+
 *Taskview panel for the Arch Rebar Stirrup tool*
 
 ## Proprietăți

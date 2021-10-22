@@ -21,9 +21,11 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 ![](images/Macro_Screen_Wiki_00.png )
 
 
+
 *Macro Screen Wiki Immagine e finestra di configurazione*
 
 ![](images/Macro_Screen_Wiki_01.png )
+
 
 
 *Finestra Rotazione Wiki schermo macro*
@@ -231,9 +233,11 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 ![](images/Macro_Screen_Wiki_03_Set_Screen.png )
 
 
+
 *Mode Set Screen 640 px x 400 px*
 
 ![](images/Macro_Screen_Wiki_04_Tile_Screen.png )
+
 
 
 *Mode Tile Screen 640 px x 400 px ad esempio: sposta la finestra. L'immagine viene salvata nello stesso modo ché Set Screen qui sopra*
@@ -241,14 +245,17 @@ Macro speciale per Wiki Worker. Questa macro consente di salvare la vista 3D nel
 ![](images/Macro_Screen_Wiki_Object_Direction_Object.gif )
 
 
+
 *Modalità animazione Oggetto selezionato e direzione BoundBox center Object. <br/> Le immagini devono essere assemblate con un altro programma per creare un GIF animato<br/>Esempio [https://www.gimp.org/downloads/ Gimp] o [https://www.screentogif.com ScreenToGif]*
 
 ![](images/Macro_Screen_Wiki_Object_Direction_SUBObject.gif )
 
 
+
 *Oggetto di animazione Direzione oggetto selezionato. <br/> Le immagini devono essere assemblate con un altro programma per creare un'animazione GIF<br/>Example [https://www.gimp.org/downloads/ Gimp] or [https://www.screentogif.com ScreenToGif]*
 
 ![](images/Macro_Screen_Wiki_07.png )
+
 
 
 *La finestra di FreeCAD ridimensionata. La dimensione può essere diversa dalla definizione (dipende dal Widget, dalla barra del titolo ... utilizzata)*

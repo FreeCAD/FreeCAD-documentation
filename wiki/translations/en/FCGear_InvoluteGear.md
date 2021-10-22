@@ -16,7 +16,8 @@ Due to the favourable meshing ratio and the relatively simple production, involu
 
 :   ![](images/Involute-Gear_example.png )
 :   
-    *From left to right: Spur gearing, helical gearing, double helical gearing
+    
+*From left to right: Spur gearing, helical gearing, double helical gearing
     *
     
 

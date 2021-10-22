@@ -17,6 +17,7 @@ Nachfolgend finden sich detaillierte Erklärungen des gesamten Prozesses, einige
 <img alt="" src=images/FreeCAD_source_compilation_workflow.svg  style="width:800px;">
 
 
+
 *Allgemeiner Arbeitsablauf zur Kompilierung von FreeCAD aus der Quelle. Die Abhängigkeiten von Drittanbietern müssen im System vorhanden sein, ebenso wie der FreeCAD-Quellcode selbst. CMake konfiguriert das System so, dass mit einer einzigen make Anweisung das gesamte Projekt kompiliert wird.*
 
 ## Abruf der Quelle 
@@ -682,6 +683,14 @@ cmake ../freecad-source -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3
 }}
 
 Die Option `-j` von `make` steuert, wie viele Aufträge (Dateien) parallel kompiliert werden. Das Programm `nproc` druckt die Anzahl der CPU-Kerne in Deinem System; indem Du es zusammen mit der Option `-j` verwendest, kannst Du wählen, ob Du so viele Dateien wie möglich verarbeiten möchtest, um die Gesamtübersetzung des Programms zu beschleunigen. Im obigen Beispiel verwendet es alle Kerne in Deinem System mit Ausnahme von zwei; dies hält Deinen Computer für andere Anwendungen reaktionsschnell, während die Kompilierung im Hintergrund abläuft. Die FreeCAD-Ausführdatei wird schließlich im Verzeichnis `freecad-build/bin` erscheinen. Siehe auch [Kompilieren (Beschleunigen)](Kompilieren_(Beschleunigen_auf).md), um die Kompilierungsgeschwindigkeit zu verbessern.
+
+### Behebung von cmake Problemen 
+
+Wenn du schon einmal einen Aus-der-Quelle Bau durchgeführt hast und an einer Abhängigkeit hängen bleibyt, die nicht erkannt wird oder nicht aufgelöst werden kann, versuche Folgendes:
+
+-   Lösche die Inhalte des Bau Verzeichnisses, vor dem erneuten ausführen von cmake. FreeCAD ist ein sich schnell veränderndes Ziel, möglicherweise stolperst du über zwischengespeicherte cmake Informationen, die auf eine ältere Version verweisen, als der neue Repositoriumdkopf verwenden kann. Leeren des Zwischenspeichers, kann cmake erlauben sich zu erholen und die Version erkennen, die du tatsächlich benötigst.
+
+-   Wenn sich cmake darüber beschwert, dass eine bestimmte Datei fehlt, verwende ein Werkzeug wie \"apt-file search\" oder ein entsprechendes Werkzeug in anderen Paketsystemen, um herauszufinden, zu welchem Paket diese Datei gehört und installiere sie. Denke daran, dass du wahrscheinlich die -dev-Version des Pakets benötigst, die Kopf- oder Konfigurationsdateien enthält, die FreeCAD benötigt, um das Paket zu verwenden.
 
 ### Im Quellcode Bau 
 

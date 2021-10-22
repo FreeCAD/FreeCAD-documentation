@@ -15,7 +15,8 @@ Cette petite macro vous permet d'ajouter une Propriété (mémo ou autre texte) 
 
 Cette petite macro vous permet d\'ajouter une Propriété (mémo ou autre texte) à un objet Draft (pour le moment uniquement sur objet Draft)
 
-![](images/Macro_FCPropertyMemo_00.png ) *Addin one property Memo → Name*
+![](images/Macro_FCPropertyMemo_00.png ) 
+*Addin one property Memo → Name*
 
 ## Utilisation
 

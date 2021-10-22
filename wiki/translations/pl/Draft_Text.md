@@ -46,7 +46,8 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 ## Uwagi
 
-Teksty utworzone za pomocą funkcji [z wydania 0.18](Release_notes_0.18/pl.md) nie są wstecznie kompatybilne.
+-   Tekst może być edytowany poprzez dwukrotne kliknięcie na nim w [Widoku drzewa](Tree_view.md). <small>(v0.20)</small> 
+-   Teksty utworzone za pomocą funkcji [z wydania 0.18](Release_notes_0.18/pl.md) nie są wstecznie kompatybilne.
 
 ## Właściwości
 

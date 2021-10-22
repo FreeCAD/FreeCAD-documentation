@@ -18,9 +18,11 @@ Another type of class is that of [meshes](Mesh.md); this class is not very param
 ![](images/Shape_and_mesh.svg )
 
 
+
 *Left: parametric _, defined by vertices and triangular surfaces.*
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Diagramma semplificato delle relazioni tra gli oggetti principali del programma. La classe `Part::TopoShape* è incorporata nell'oggetto {{incode|Part::Feature` e da lì viene propagata a tutti gli oggetti che ne derivano.}}

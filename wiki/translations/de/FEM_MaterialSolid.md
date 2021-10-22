@@ -16,7 +16,8 @@
 
 Fügt Materialeigenschaften einem Teil hinzu.
 
-![](images/FEMMaterialSolidProperties.png ) *The FEM material task panel*
+![](images/FEMMaterialSolidProperties.png ) 
+*The FEM material task panel*
 
 ## Anwendung
 

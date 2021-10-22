@@ -14,7 +14,8 @@ The **Std DlgParameter** command opens the Parameter Editor. In the Parameter Ed
 
 Working with the Parameter Editor requires some experience. For the most common parameters you can also use the more convenient [Preferences Editor](Preferences_Editor.md).
 
- ![](images/Std_DlgParameter_dialog.png )  *The Parameter Editor dialog box*
+ ![](images/Std_DlgParameter_dialog.png )  
+*The Parameter Editor dialog box*
 
 ## Usage
 

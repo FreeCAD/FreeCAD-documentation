@@ -18,13 +18,23 @@ L\'outil Annotation bulle peut ajouter des bulles avec une ligne de repère dans
 
 ## Utilisation
 
-1.  Sélectionnez la vue à laquelle la bulle sera attachée.
-2.  Appuyez sur le bouton **<img src="images/TechDraw_Balloon.svg" width=16px> [Insérer une annotation bulle](TechDraw_Balloon/fr.md)**.
-3.  Le curseur est maintenant affiché sous forme d'icône bulle. Cliquez sur la page pour placer l\'origine de la bulle à la position souhaitée.
-4.  La bulle peut être déplacée à la position désirée. Utilisez CTRL-glisser pour déplacer la bulle et la flèche.
-5.  Pour modifier les propriétés de la bulle, double-cliquez dessus dans le dessin ou double-cliquez sur l\'objet bulle dans l\'arborescence du modèle. Cela ouvrira la boîte de dialogue des bulles.
+1.  Sélectionnez l\'un des éléments suivants :
+    -   Une vue (sur la page ou dans la [Vue en arborescence](Tree_view/fr.md)).
+    -   Un sommet dans une vue. {{Version/fr|0.20}}
+    -   Une arête dans une vue. {{Version/fr|0.20}}
+    -   Une région fermée dans une vue. {{Version/fr|0.20}}
+2.  Il existe plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le **<img src="images/TechDraw_Balloon.svg" width=16px> [Insérer une annotation bulle](TechDraw_Balloon/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → Annotations → <img src="images/TechDraw_Balloon.svg" width=16px> Insérer une annotation bulle** dans le menu.
+3.  Si une vue ou une région a été sélectionnée :
+    1.  Le curseur se transforme en une icône bulle.
+    2.  Cliquez sur un point de la page pour l\'origine de la bulle.
 
-**Remarque:** La position de la bulle est relative à la vue et utilise le même facteur d\'échelle que la vue.
+Pour déplacer la bulle de la bulle, appuyez et maintenez le bouton gauche de la souris sur son centre et faites glisser la souris.
+
+Pour modifier les propriétés d\'une bulle, double-cliquez dessus dans la page ou dans la [Vue en arborescence](Tree_view/fr.md). Cela ouvrira le panneau des tâches de la bulle.
+
+**Remarque:** la position de la bulle est relative à sa vue source et utilise le même facteur d\'échelle.
 
 ## Utiliser les séparateurs 
 

@@ -74,7 +74,7 @@ Oltre al pannello di visualizzazione 3D, sono disponibili i seguenti pannelli di
 
 L\'interfaccia di FreeCAD è altamente personalizzabile. Tutti i pannelli e le barre degli strumenti possono essere spostati in luoghi diversi o impilati uno sull\'altro. Quando è necessario possono anche essere chiusi e riaperti dal menu Visualizza o facendo clic destro su un\'area vuota dell\'interfaccia. Inoltre sono disponibili molte altre opzioni, come la creazione di barre degli strumenti personalizzate contenenti gli strumenti di uno qualsiasi degli ambienti, o l\'assegnazione e la modifica dei tasti di scelta rapida.
 
-Le opzioni di personalizzazione avanzate sono disponibili dal menu {{MenuCommand/it|Strumenti → Personalizza}}:
+Le opzioni di personalizzazione avanzate sono disponibili dal menu **Strumenti → Personalizza**:
 
 ![](images/FreeCAD-v0-18-CustomizeInterface.png )
 

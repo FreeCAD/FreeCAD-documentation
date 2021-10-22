@@ -131,6 +131,16 @@ FreeCAD are un importator și exportator nativ pentru fișierele DXF, programate
 
 FreeCAD has a native importer and exporter for DXF files, programmed in C++. Currently they do not implement all features of the DXF format. For those features the legacy Python importer and exporter are still available. These require the _ page for more information.
 
+### DWG converters 
+
+FreeCAD cannot directly read and write DWG files. To convert DXF files to DWG files, and vice-versa, FreeCAD relies on external converters. There is built-in support for the following DWG converters:
+
+-   [LibreDWG](https://www.gnu.org/software/libredwg) (open-source, lacks support for some DWG entities).
+-   [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) (free).
+-   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial). <small>(v0.20)</small> 
+
+See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) for more information.
+
 
 <div class="mw-translate-fuzzy">
 
@@ -146,22 +156,6 @@ _ ({{VersionMinus|0.18}}) and [BIM IfcExplorer](BIM_IfcExplorer.md) tools. IfcOp
 ### IfcJson
 
 [IfcJson](https://github.com/buildingSMART/ifcJSON) is a library required for exporting to the IFCJSON file format. IFCJSON is a new IFC format that is not yet supported by many applications.
-
-### LibreDWG
-
-Support for _ page for more information.
-
-
-<div class="mw-translate-fuzzy">
-
-### ODA File Converter 
-
-Convertorul de fișiere ODA este o aplicație proprietară, închisă, binară și disponibilă în mod gratuit pentru a importa și a exporta formate de fișiere DWG și DXF. În FreeCAD se poate utiliza din meniurile {{MenuCommand | File-> Import}} și {{MenuCommand | File-> Export}} atunci când selectați tipul de fișier {{MenuCommand | AutoDesk DWG 2D}}. Se poate descărca de la <https://www.opendesign.com/guestfiles/oda_file_converter>.
-
-
-</div>
-
-The _ page for more information.
 
 
 <div class="mw-translate-fuzzy">

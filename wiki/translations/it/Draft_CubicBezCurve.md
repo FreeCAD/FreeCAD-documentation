@@ -39,6 +39,7 @@ Gli strumenti [Curva di Bézier](Draft_BezCurve/it.md) e [Curva di Bézier cubic
 <div class="mw-translate-fuzzy">
 
 
+
 *Spline cubica di Bezier definita da tre segmenti. Ogni Bezier cubica è definita da quattro punti, ma quando lo strumento viene utilizzato graficamente, vengono posizionati solo tre di questi punti: 1-2-3 per il primo segmento, 3-4-5 per il secondo segmento e 5-6-7 per il terzo segmento; il quarto punto in ciascun segmento è definito implicitamente; l'ultimo punto 8 è necessario per completare l'operazione e farebbe parte di un quarto segmento di Bezier se l'operazione viene continuata.*
 
 
@@ -130,6 +131,7 @@ Per ogni segmento di Bezier cubica devono essere utilizzati quattro punti, di cu
 
 
 <div class="mw-translate-fuzzy">
+
 
 
 *Esempi di curve di Bezier prodotte utilizzando 2, 3, 4, 5, 6, 7 e 8 punti. Le linee continue indicano segmenti cubici di Bezier; le altre linee sono quadratiche o lineari.*

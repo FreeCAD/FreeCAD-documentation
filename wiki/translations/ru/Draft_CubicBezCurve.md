@@ -80,6 +80,7 @@ For each cubic Bézier segment four points must be used, of which the two extrem
 <img alt="" src=images/Draft_CubicBezCurve_API_example.png  style="width:600px;">
 
 
+
 *Examples of Bézier curves produced by using 2, 3, 4, 5, 6, 7, and 8 points. The solid lines indicate cubic Bézier segments; the other lines are quadratic or linear.*
 
 Пример:

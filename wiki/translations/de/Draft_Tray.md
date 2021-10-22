@@ -13,7 +13,8 @@ Die [Entwurf Ablage](Entwurf_Ablage.md) erlaubt dir, die visuellen Eigenschaften
 
 </div>
 
-![](images/Draft_tray_default.png ) *The Draft Tray*
+![](images/Draft_tray_default.png ) 
+*The Draft Tray*
 
 ## Available tools 
 

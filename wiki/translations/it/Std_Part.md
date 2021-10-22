@@ -25,6 +25,7 @@ Lo strumento Parte non è definito da un particolare ambiente di lavoro, ma dal 
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
 
+
 *A sinistra: elementi all'interno di una Parte nella vista ad albero. A destra: oggetti posizionati nello spazio, riferiti all'Origine della Parte.*
 
 ## Utilizzo
@@ -133,7 +134,8 @@ Esempi che potrebbero essere Parti:
 -   Un cuscinetto a sfere composto da più sfere d\'acciaio, un anello interno, un fermo, una guarnizione e un anello esterno.
 -   Un assemblaggio di una vite con una rondella e un dado corrispondente.
 
-<img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;"> *A sinistra: tre singoli solidi contigui, ciascuno modellato da un [Corpo di PartDesign](PartDesign_Body.md).
+<img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;"> 
+*A sinistra: tre singoli solidi contigui, ciascuno modellato da un [Corpo di PartDesign](PartDesign_Body.md).
 </br>
 A destra: i singoli corpi messi insieme all'interno di una Parte per creare un assemblaggio.*
 
@@ -160,6 +162,7 @@ Per attivare o disattivare un Parte:
 ![](images/Std_Part_active.png )
 
 
+
 *Documento con due Parti, di cui la seconda è attiva.*
 
 ### Origine
@@ -167,6 +170,7 @@ Per attivare o disattivare un Parte:
 L\'Origine è costituita dai tre assi standard (X, Y, Z) e da tre piani standard (XY, XZ e YZ). A questi elementi possono essere collegati, al momento della creazione, [Schizzi](Sketch/it.md) e altri oggetti.
 
 ![](images/Part_Origin_tree.png ) ![](images/Part_Origin_view.png )
+
 
 
 *A sinistra: Origine di Part nella _.*
@@ -185,13 +189,15 @@ tutti gli elementi all\'interno della Parte sono riferiti all\'Origine della Par
 
 La visibilità della Parte sostituisce la visibilità di qualsiasi oggetto in essa contenuto. Se la Parte è nascosta, anche gli oggetti in essa contenuti saranno nascosti, anche se la loro proprietà individuale **Visibilità** è impostata su `True`. Se la Parte è visibile, allora la **Visibilità** di ogni oggetto determina se l\'oggetto è mostrato o meno.
 
-!_.</br>Destra: la Parte è visibile, quindi ogni oggetto controlla la propria visibilità.*
+![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) 
+*La visibilità della parte Std determina se gli oggetti raggruppati sotto di essa sono mostrati o meno nella _.</br>Destra: la Parte è visibile, quindi ogni oggetto controlla la propria visibilità.*
 
 ## Eredità
 
 Una _. (`App::GeoFeature` class), ed è incrementato con un\'estensione di Origine.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Diagramma semplificato delle relazioni tra gli oggetti principali del programma. La classe `App::Part* è un semplice contenitore che ha una posizione nello spazio 3D e ha un'origine per controllare il posizionamento degli oggetti raggruppati sotto di essa.`

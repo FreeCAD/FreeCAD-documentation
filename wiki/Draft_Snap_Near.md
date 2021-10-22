@@ -11,7 +11,8 @@
 
 The <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> **Draft Snap Near** option snaps to the nearest point on faces or edges. The faces and edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
 
- ![](images/Draft_Snap_Near_example.png )  *Snapping the second point of a line to the nearest point on an edge*
+ ![](images/Draft_Snap_Near_example.png )  
+*Snapping the second point of a line to the nearest point on an edge*
 
 ## Usage
 

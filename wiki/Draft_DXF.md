@@ -3,7 +3,8 @@
 
 Draft DXF is a software module used by the <img alt="" src=images/Std_Open.svg  style="width:24px;"> _ and <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Export](Std_Export.md) commands to handle the DXF file format.
 
- ![](images/Screenshot_qcad.jpg )  *Qcad drawing exported to DXF, which is subsequently opened in FreeCAD*
+ ![](images/Screenshot_qcad.jpg )  
+*Qcad drawing exported to DXF, which is subsequently opened in FreeCAD*
 
 ## Importing
 
@@ -76,6 +77,17 @@ For licensing reasons, the required _.
 ## Preferences
 
 See [Import Export Preferences](Import_Export_Preferences.md).
+
+## DWG
+
+The DXF importer is used to import and export both DXF and DWG files. The DWG format being a proprietary, closed and undocumented format, however, turns it hard for open-source projects like FreeCAD to support it. For this reason, FreeCAD doesn\'t handle the DWG format directly, but converts it first to and from DXF. It\'s important to note that the DXF format allows a 1:1 conversion of the DWG format. All applications that can write/read DWG files can also do the same with DXF files, with no data loss. It is always possible to work with DXF files the same way as with DWG files, without creating problems for the people who will need to read your files. However, for convenience, FreeCAD also allows to import and export directly to the DWG format using one of the following conversion applications, to be configured under menu *Edit -\> Preferences -\> Import/Export -\> DWG*:
+
+-   Automatic: FreeCAD will try to find a converter application automatically following the list below:
+-   [LibreDWG](https://www.gnu.org/software/libredwg/): LibreDWG is an open-source DWG reading and writing library. It is included in the official FreeCAD packages that you can download from the FreeCAD website. It is the preferred choice as it is an open-source project. However, it lacks support for several DWG enitites, and might not give a faithful result.
+-   [ODA Converter](https://www.opendesign.com/guestfiles/oda_file_converter): This is a proprietary but free to use utility provided by the Open Design Alliance. It gives very good and reliable results, but it is not open-source and there is no guarantee how long they will offer it for free.
+-   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg): <small>(v0.20)</small>  QCAD is a well-known open-source DXF-based 2D CAD platform. It also offers a paid pro version, which is basically the open-source version plus support for the DWG format. When buying the pro version, QCAD also includes a DWG to DXF conversion utility that gives excellent results and can be used by FreeCAD.
+
+If FreeCAD is unable to find the desired application above, you might need to indicate its path in the field below, on the preferences screen. Choose the \"dwg2dxf\" utility if using LibreDWG, \"ODAFileConverter\" if using the ODA file converter, or the \"dwg2dwg\" utility if using the pro version of QCAD.
 
 ## Scripting
 

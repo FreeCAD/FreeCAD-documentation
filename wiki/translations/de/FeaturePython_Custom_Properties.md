@@ -10,13 +10,25 @@ obj.supportedProperties()
 
 ##  Erstellen eines FeaturePython Objekts und Hinzufügen einer Eigenschaft zu diesem 
 
+
+<div class="mw-translate-fuzzy">
+
 Dieser Code erstellt ein Objekt mit dem internen Namen `InternalObjectName` (automatisch umbenannt in `InternalObjectName001` und so weiter, wenn ein Objekt mit dem Namen `InternalObjectName` bereits existiert) und gibt ihm die benutzerfreundliche Bezeichnung `Benutzerfreundliche Bezeichnung` (diese Bezeichnung wird in der [Baumansicht](Tree_view/de.md) und der [Comboansicht](Combo_view/de.md) angezeigt. [Ausdrücke](Expressions/de.md) können mit `<<Benutzerfreundliches Etikett>>` auf dieses Objekt durch sein Etikett verweisen.
+
+
+</div>
 
 
 ```python
 obj=FreeCAD.ActiveDocument.addObject("App::FeaturePython","InternalObjectName")
 obj.Label = "User-friendly label"
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+</div>
 
 
 ```python
@@ -112,7 +124,7 @@ obj.ThePropertyName // returns False
 
 ## App::PropertyBoolList
 
-A property containing a list of booleans. It can contain a python list of booleans, e.g. `[True, False, True]`. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
+A property containing a list of booleans. It can contain a Python list of booleans, e.g. `[True, False, True]`. For more details, see the section about [Creating a FeaturePython object and adding a property to it](#Creating.md).
 
 
 ```python

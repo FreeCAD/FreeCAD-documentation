@@ -25,6 +25,7 @@ Vincola due linee a disporsi secondo la legge della rifrazione di un raggio di l
 <img alt="" src=images/Snells_law2_witheq.svg  style="width:" height="400px;">
 
 
+
 *Snell's Law*
 
 ## Utilizzo

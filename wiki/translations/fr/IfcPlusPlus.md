@@ -11,6 +11,7 @@ La bibliothèque IFC++ peut être utilisée à des fins générales et comprend 
 <img alt="" src=images/IfcQuery_viewer_example.png  style="width:600px;">
 
 
+
 *L'exemple de visionneuse IFC inclus dans la distribution source des bibliothèques IfcQuery/IFC ++.*
 
 

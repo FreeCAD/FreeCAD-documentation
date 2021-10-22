@@ -58,7 +58,6 @@ C\'è un altro sommario per il _.
 -   [Elenco di tutti i comandi di FreeCAD](List_of_Commands/it.md)
 -   [ Lista per categorie](ComandiPerCategorie/it.md)
 -   [Tutorial](Tutorials/it.md)
--   [Esercitazioni](Esercitazioni.md)
 
 
 </div>

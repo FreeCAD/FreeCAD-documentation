@@ -17,6 +17,7 @@
 Strumento per dividere le forme per intersezione con altre forme. Ad esempio, per un cubo e un piano, vengono creati due solidi. ![600px](images/Part_Slice_Demo.png)
 
 
+
 * Nella figura sopra, i pezzi sono stati separati manualmente dopo l'operazione, per rendere visibili le singole parti.*
 
 _ seguito da <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Esplodi composto](Part_ExplodeCompound/it.md). Mentre \"Affetta in composto\" è completamente parametrico e non crea problemi mentre il numero di pezzi cambia, \"Affetta in parti\" non aggiorna il numero di oggetti quando il numero di pezzi cambia. Entrambi creano la funzione parametrica Slice, che mette i pezzi tagliati in un composto, ma \"Affetta in parti\" esplode il composto risultante in oggetti separati.

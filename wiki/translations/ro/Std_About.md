@@ -15,10 +15,12 @@ Oferă informații despre versiunea FreeCAD folosită și despre bibliotecile ne
 
 </div>
 
-![](images/Help-About-Dropdown-screenshot.png ) *Activate the About dialog via **Help → <img src="images/Std_About.svg" width=16px> About FreeCAD
+![](images/Help-About-Dropdown-screenshot.png ) 
+*Activate the About dialog via **Help → <img src="images/Std_About.svg" width=16px> About FreeCAD
 ***
 
-![](images/Std_About_example.png ) *The About FreeCAD dialog box*
+![](images/Std_About_example.png ) 
+*The About FreeCAD dialog box*
 
 
 **'''ATTENTION''': Do not take a screenshot of this dialog box! Instead press the **Copy to clipboard** button and then paste the information in your help request.**

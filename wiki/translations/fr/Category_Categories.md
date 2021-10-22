@@ -10,7 +10,7 @@ Utilisez les outils suivants pour travailler avec les :
 
 ### Contents:
 
-[API documentation/fr](API_documentation/fr.md) , , , , , , , , , , , , , , , , , , , , ,
+, , , , , , , , , , , , , , , , , , , ,
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 

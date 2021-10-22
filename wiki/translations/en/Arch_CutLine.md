@@ -16,6 +16,7 @@ The [Arch CutLine](Arch_CutLine.md) tool allows you to cut a solid Arch object l
 <img alt="" src=images/Arch_CutLine_example_1.png  style="width:" height="300px;"> <img alt="" src=images/Arch_CutLine_example_2.png  style="width:" height="300px;">
 
 
+
 *[Arch Wall](Arch_Wall.md) cut by a line. Left: subtractive box that appears when using the tool. Right: resulting wall after the cut is done.*
 
 ## Usage
@@ -34,4 +35,4 @@ The [Arch CutLine](Arch_CutLine.md) tool allows you to cut a solid Arch object l
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CutLine/en
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/en

@@ -15,6 +15,7 @@ Part objects are more complex than mesh objects created with the [Mesh Workbench
  <img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;"> 
 
 
+
 *The Part Workbench is the basic layer that exposes the OCCT drawing functions to all workbenches in FreeCAD.*
 
 ## Tools

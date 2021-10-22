@@ -18,6 +18,7 @@ La funzione **Foro** crea uno o più fori da uno schizzo selezionato. Possono es
 <img alt="" src=images/Countersunk_and_counterbored_holes_cross-section1.png  style="width:600px;">
 
 
+
 *Sezione longitudinale di foro svasato a sinistra e di foro lamato a destra (countersunk e counterbored).*
 
 ## Utilizzo

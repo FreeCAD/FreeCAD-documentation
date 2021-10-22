@@ -10,6 +10,7 @@ Le `Part::Part2DObject` est dérivé d\'un [Part Feature](Part_Feature/fr.md) ma
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Diagramme simplifié des relations entre les objets centraux du programme. La classe `Part::Part2DObject* est spécialisée pour les formes 2D, c'est donc la classe de base pour les objets plans créés avec les ateliers Draft et Sketcher. Il comprend une extension qui lui permet d'être attaché aux faces et aux plans.`
 
 ## Utilisation
@@ -80,7 +81,7 @@ Les deux propriétés suivantes sont normalement masquées. Ils deviennent visib
 ##### Propriétés cachées de Données 
 
 
-{{TitleProperty/fr|Base}}
+{{TitleProperty|Base}}
 
 -    {{PropertyView/fr|Proxy|PythonObject}}: classe personnalisée associée à cet objet. Cela n\'existe que pour la version [Python](Python/fr.md). Voir [Script](Part_Part2DObject/fr#Script.md).
 

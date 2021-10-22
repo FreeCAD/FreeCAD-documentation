@@ -60,6 +60,7 @@ Die Schnittebene allein wird keine Ansicht der gesetzten Objekte erzeugen. Dazu 
 <img alt="" src=images/Arch_SectionPlane_ClipView.png  style="width:600px;">
 
 
+
 *Die Arch Schnittebene mit der Option Clip Ansicht verhält sich wie eine Kamera und begrenzt das Sichtfeld.*
 
 ## Kleine Verbesserungen 
@@ -112,4 +113,4 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/de
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch SectionPlane/de

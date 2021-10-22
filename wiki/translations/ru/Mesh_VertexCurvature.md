@@ -16,7 +16,8 @@
 
 The **Mesh VertexCurvature** command creates Mesh Curvature objects for mesh objects. A curvature object displays the curvature of a mesh using different colors for the convex, flat and concave parts.
 
-![](images/Mesh_VertexCurvature_example.png ) *Example of a Mesh Curvature object*
+![](images/Mesh_VertexCurvature_example.png ) 
+*Example of a Mesh Curvature object*
 
 ## Применение
 

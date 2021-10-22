@@ -30,4 +30,4 @@ Die Farbe eines Subtraktionselements kann dem Stil der [Entwurfskonstruktion](Dr
 Der [Entwurfskonstruktion](Draft_ToggleConstructionMode/de.md) Stil kann in den [Entwurf Einstellungen](Draft_Preferences/de.md), im Menü {{MenuCommand/de|Einstellungen → Entwurf → Allgemeiner Entwurf}} eingestellt werden.
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/de
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch ToggleSubs/de

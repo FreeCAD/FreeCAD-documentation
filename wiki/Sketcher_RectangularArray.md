@@ -20,7 +20,7 @@ Creates an array of selected sketcher elements.
     -   Select the **Sketch → Sketcher tools → <img src=images/Sketcher_RectangularArray.svg style="width:16px"> Rectangular array** option from the menu.
 3.  Specify the options for the array in the dialog that opens.
 4.  Press the **OK** button.
-5.  Move the mouse in the in the [3D view](3D_view.md) towards the desired reference point.By keeping {{KEY | SHIFT}} pressed, the angle to the reference point can be fixed in steps of 10°. <small>(v0.20)</small> 
+5.  Move the mouse in the [3D view](3D_view.md) towards the desired reference point.By keeping **SHIFT** pressed, the angle to the reference point can be fixed in steps of 5°. <small>(v0.20)</small> 
 6.  Left-click in the 3D view to create the array.
 7.  To set the distances between the array elements, edit the dimensional constraints of the array.
 

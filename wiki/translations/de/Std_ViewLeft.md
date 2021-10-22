@@ -14,7 +14,8 @@
 
 Der Befehl **Std Ansicht von links** wendet die Kamerasicht der aktiven [3D Ansicht](3D_view/de.md) in die Richtung der positiven X-Achse.
 
-![](images/FreeCAD_views_rear.svg ) *Pfeil 6 zeigt in Richtung der Ansicht von links*
+![](images/FreeCAD_views_rear.svg ) 
+*Pfeil 6 zeigt in Richtung der Ansicht von links*
 
 ## Anwendung
 

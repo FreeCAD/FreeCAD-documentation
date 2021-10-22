@@ -1,61 +1,39 @@
-# <img alt="Test workbench icon" src=images/Workbench_Test.svg  style="width:64px;"> Testing/es
+# <img alt="Icono del ambiente Prueba" src=images/Workbench_Test.svg  style="width:64px;"> Testing/es
 
 
 {{TOCright}}
 
-
-<div class="mw-translate-fuzzy">
-
 ## Introducción
 
-Esta es la lista de aplicaciones de prueba a partir de 0.15 Git 4207:
+El [Ambiente de trabajo del marco Pruebas](Test_Framework_Workbench/es.md) no es realmente un ambiente de trabajo de modelado, pero contiene un conjunto de scripts de [Python](Python/es.md) para realizar diferentes pruebas en los componentes principales de FreeCAD, con el fin de depurar problemas. Ver también [depuración](debugging/es.md).
 
+Puede ejecutar las pruebas desde la línea de comandos, utilizando las opciones `-t` o `--run-test`.
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-FreeCAD incorpora un extenso entorno de pruebas. Las pruebas se basan en un conjunto de archivos de guión de Python ubicados en el módulo test.
-
-
-</div>
-
-You can run the tests from the command line, by using the `-t` or `--run-test` options.
-
-Run all tests:
+Ejecutar todas las pruebas:
 
 
 ```python
 freecad --run-test 0
 ```
 
-Run only some the specified unit test, for example:
+Ejecutar sólo algunas de las pruebas unitarias especificadas, por ejemplo:
 
 
 ```python
 freecad -t TestDraft
 ```
 
-## Test menu 
+## Menú de prueba 
 
-Each top level directory in FreeCAD should have a file with the tests that can be run for that particular workbench or module. The file usually starts with the word `Test`.
+Cada directorio de nivel superior en FreeCAD debe tener un archivo con las pruebas que se pueden ejecutar para ese ambiente de trabajo o módulo en particular. El archivo suele empezar con la palabra `Test`.
 
-To run a test from within FreeCAD, switch to the Test Workbench, then **Test commands → TestToolsGui → Self test → Select test name**, then enter the name of the Python file with the tests; for example, for the [Draft Workbench](Draft_Workbench.md), this would be **TestDraft**, then press **Start**.
+Para ejecutar una prueba desde FreeCAD, cambia al ambiente de trabajo Pruebas, luego **Comandos de prueba → TestHierramientasGui → Autoprueba → Seleccionar nombre de la prueba**, luego introduce el nombre del archivo Python con las pruebas; por ejemplo, para el [Ambiente de trabajo Borrador](Draft_Workbench/es.md), esto sería **PruebaBorrador**, luego presiona **Inicio**.
 
-## Test functions 
+## Funciones de prueba 
 
-This is the list of test apps as of 0.15 git 4207:
-
-
-<div class="mw-translate-fuzzy">
+Esta es la lista de aplicaciones de prueba a partir de la versión 0.15 git 4207:
 
 ### TestAPP.All
-
-Add test function
-
-
-</div>
 
 Add test function
 
@@ -67,7 +45,7 @@ Add test function
 
 Add test function
 
-### Document
+### Documento
 
 Add test function
 
@@ -123,11 +101,11 @@ Path workbench test cases:
 -   TestPathVcarve: Test general functionality of Vcarve operation.
 -   TestPathVoronoi:
 
-### Workbench
+### Ambiente de trabajo 
 
 Add test function
 
-### Menu
+### Menú
 
 Add test function
 
@@ -139,14 +117,14 @@ Add test function
 
 Add test function
 
-## Scripting
+## Guionización
 
 
-**See also:**
+**Ver también:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Básicos de Guionización FreeCAD](FreeCAD_Scripting_Basics/es.md).
 
-### Example 1 
+### Ejemplo 1 
 
 Within the Python Console of FreeCAD, the following code format may be used to run built-in tests. Replace the red \"**TestFem**\" text in the code below with the desired module test name.
 
@@ -165,20 +143,14 @@ r = unittest.TextTestRunner()
 r.run(suite)
 ```
 
-## Additional Resources 
+## Recursos adicionales 
 
-### Forum Topics 
+### Temas del foro 
 
 -   [Support for running specific unit tests with \--run-test \#331](https://forum.freecadweb.org/viewtopic.php?style=3&f=27&t=18379)
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav|Debugging|Continuous Integration}}
-
-
-</div>
 
 
 

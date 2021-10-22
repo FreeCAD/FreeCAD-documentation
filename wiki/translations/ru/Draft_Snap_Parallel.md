@@ -21,7 +21,8 @@ Up to two edges can be referenced by this snap option and [Draft Snap Extension]
 
 This snap option currently does not work if the cursor is next to the referenced edge. You must move the cursor to an area beyond the endpoints of the edge.
 
-![](images/Draft_Snap_Parallel_example.png ) *Snapping the second point of a line to an invisible line that is parallel to an edge*
+![](images/Draft_Snap_Parallel_example.png ) 
+*Snapping the second point of a line to an invisible line that is parallel to an edge*
 
 ## Usage
 

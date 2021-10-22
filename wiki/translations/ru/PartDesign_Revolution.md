@@ -12,7 +12,8 @@
 
 The **Revolution** tool creates a solid by revolving a selected sketch or 2D object about a given axis.
 
-![](images/PartDesign_Revolution_example.svg ) *Above: sketch (A) is revolved 270 degrees counter-clockwise around axis (B); resulting solid (C) is shown right.*
+![](images/PartDesign_Revolution_example.svg ) 
+*Above: sketch (A) is revolved 270 degrees counter-clockwise around axis (B); resulting solid (C) is shown right.*
 
 ## Применение
 

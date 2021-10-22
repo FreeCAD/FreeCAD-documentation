@@ -18,7 +18,8 @@ Le Corps fournit un objet **Origine** qui comprend les axes X, Y, Z, et les plan
 
 Ne pas confondre le <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> _. Le premier est un objet spécifique utilisé dans l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Atelier PartDesign](PartDesign_Workbench/fr.md), destiné à modéliser un [simple solide contigu](PartDesign_Body/fr#Solide_contigu_unique.md) au moyen de [PartDesign Fonctionnalités](PartDesign_Feature/fr.md). [Std Part](Std_Part/fr.md) est un objet de regroupement destiné à créer des [assemblages](assembly/fr.md). Il n\'est pas utilisé pour la modélisation, juste pour organiser différents objets dans l\'espace. Plusieurs corps et d\'autres [Std Parts](Std_Part/fr.md) peuvent être placés à l\'intérieur d\'un seul [Std Part](Std_Part/fr.md) pour créer un assemblage complexe.
 
-!_.*
+![](images/PartDesign_Body_tree.png ) ![](images/PartDesign_Body_example.png ) 
+*A gauche: l'arborescence montrant les entités qui produisent séquentiellement la forme finale de l'objet. A droite: l'objet définitif visible dans la [Vue 3D](3D_view/fr.md).*
 
 ## Utilisation
 
@@ -101,7 +102,8 @@ Un PartDesign Corps effectuera une [union](Part_Fuse/fr.md) automatique des él�
 <img alt="" src=images/PartDesign_Body_two_intersection.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_two_fusion.png  style="width:" height="200px;"> 
 *À gauche: deux solides individuels qui se coupent. À droite: un PartDesign Corps unique avec deux [fonctions additives](PartDesign_Feature/fr.md). Elles sont automatiquement fusionnées ensemble, donc au lieu de se recouper, elles forment un solide contigu unique.*
 
-!_ doit toujours entrer en contact avec la fonction précédente ou l'intersecter afin qu'elle lui soit fusionnée et devienne un solide contigu unique.*
+![](images/PartDesign_Body_non-contiguous.png ) 
+*À gauche: deux solides déconnectés. Ce n'est pas un PartDesign Corps valide. À droite: deux solides se touchant. Cela se traduit par un PartDesign Corps valide. La nouvelle [fonction](PartDesign_Feature/fr.md) doit toujours entrer en contact avec la fonction précédente ou l'intersecter afin qu'elle lui soit fusionnée et devienne un solide contigu unique.*
 
 
 **Remarque:**
@@ -122,6 +124,7 @@ Pour activer ou désactiver un Corps:
 L\'activation d\'un Corps bascule automatiquement vers l\'[atelier PartDesign](PartDesign_Workbench/fr.md). Un seul Corps ne peut être actif à la fois.
 
 ![](images/PartDesign_Body_active.png )
+
 
 
 *Document avec deux PartDesign Corps dont le second est actif.*
@@ -150,13 +153,15 @@ tous les éléments à l\'intérieur du Corps sont référencés à l\'Origine d
 <img alt="" src=images/PartDesign_Body_Origin_tree.png ) ![](images/PartDesign_Body_Origin_view.png  style="width:" height="400px;">
 
 
+
 *A gauche: PartDesign Origin du Corps dans la _.*
 
 ### Base Feature 
 
 La Base Feature (fonction de base) est la première [PartDesign Fonction](PartDesign_Feature/fr.md) dans le Corps quand le Corps est basé sur une autre forme solide. Ce solide peut être créé par n\'importe quel atelier ou importé à partir d\'un fichier externe, par exemple un fichier STEP.
 
-![](images/PartDesign_Body_BaseFeature_tree.png ) *Deux PartDesign Corps, chacun avec une seule Base Feature qui est prises des solides créés précédemment.*
+![](images/PartDesign_Body_BaseFeature_tree.png ) 
+*Deux PartDesign Corps, chacun avec une seule Base Feature qui est prises des solides créés précédemment.*
 
 Pour créer la fonction de base:
 
@@ -188,6 +193,7 @@ La fonction de base (Base Feature) est entièrement facultative. Elle n\'est pr�
 ![](images/PartDesign_Body_BaseFeature_Tip.svg )
 
 
+
 *A gauche:un PartDesign Corps avec une fonction de base issue d'un objet solide externe et de nombreuses [PartDesign Fonctions](PartDesign_Feature/fr.md) ultérieures en haut. A droite: un Corps qui n'a pas de fonction de base explicite (Base Feature).*
 
 ### Tip (fonction résultante) 
@@ -195,6 +201,7 @@ La fonction de base (Base Feature) est entièrement facultative. Elle n\'est pr�
 Le Tip (fonction résultante) est une <img src=images/Part_SimpleCopy.svg style="width:PartDesign Fonctionnalité](PartDesign_Feature/fr.md) qui est exposée à l\'extérieur du Corps, c\'est-à-dire que si un autre outil de n\'importe quel atelier (par exemple, **[16px"> <img src=images/Part_Cut.svg style="width:Part Copie simple](Part_SimpleCopy/fr.md)** ou **[16px"> [Part Soustraction](Part_Cut/fr.md)**) doit utiliser la forme du Corps, il utilisera la forme du Tip. Autrement dit, le Tip est la représentation finale du Corps comme si l\'historique paramétrique n\'existait pas.
 
 ![](images/PartDesign_Body_Tip_final.svg )
+
 
 
 *A gauche: un PartDesign Corps avec l'historique paramétrique complet incluant les fonctions intermédiaires. À droite: le Tip est la forme finale qui peut être exportée à partir du Corps, tout en omettant l'historique du modèle.*
@@ -205,7 +212,8 @@ Le fait de modifier le Tip permet en effet de revenir en arrière et d\'ajouter 
 
 Dans la [Vue en arborescence](Tree_view/fr.md), le Tip du Corps est reconnue par la [PartDesign Fonctionnalité](PartDesign_Feature/fr.md) qui a une superposition d\'icônes consistant en une flèche blanche à l\'intérieur d\'un cercle vert.
 
-![](images/PartDesign_Body_Tip_tree.png ) *Deux PartDesign Corps, chacun avec des [PartDesign Fonctions](PartDesign_Feature/fr.md). Le Tip est la dernière fonction de celles-ci et est marqué par un symbole de superposition.*
+![](images/PartDesign_Body_Tip_tree.png ) 
+*Deux PartDesign Corps, chacun avec des [PartDesign Fonctions](PartDesign_Feature/fr.md). Le Tip est la dernière fonction de celles-ci et est marqué par un symbole de superposition.*
 
 ### Interaction avec d\'autres ateliers 
 
@@ -218,6 +226,7 @@ Une fois que les sous-éléments ont été utilisés avec d\'autres ateliers, la
 ![](images/PartDesign_Body_Tip_Display_mode.svg )
 
 
+
 *A gauche: lorsque "Display Mode Body" est réglé sur `Through*, il est possible de sélectionner et d'effectuer des opérations avec la [PartDesign Fonction](PartDesign_Feature/fr.md); en général, ce n'est pas recommandé. A droite: lorsque "Display Mode Body" est réglé sur {{incode|Tip` toutes les sélections et opérations effectuées sur le Corps seront effectuées sur le Tip, en s'assurant que seule la forme finale du Corps est exposée.}}
 
 ### Gestion de la visibilité 
@@ -226,7 +235,8 @@ La visibilité du Corps remplace la visibilité de tout objet qu\'il contient. S
 
 Plusieurs [Esquisses](Sketch/fr.md) peuvent être visibles à la fois mais une seule [PartDesign Fonction](PartDesign_Feature/fr.md) (résultat solide) peut être visible à la fois. Sélectionner une fonction cachée et appuyer sur la barre **Espace** du clavier la rendra visible et masquera automatiquement la fonction précédemment visible.
 
-!_ peuvent être visibles simultanément, mais une seule [PartDesign Fonctionnalité (feature)](PartDesign_Feature/fr.md) peut être visible à la fois, que ce soit le Tip ou non.*
+![](images/PartDesign_Body_Visibility.png ) 
+*PartDesign Corps: plusieurs [Esquisses](Sketch/fr.md) peuvent être visibles simultanément, mais une seule [PartDesign Fonctionnalité (feature)](PartDesign_Feature/fr.md) peut être visible à la fois, que ce soit le Tip ou non.*
 
 ### Ancrage
 
@@ -236,13 +246,15 @@ Les [esquisses](Sketch/fr.md) sont normalement ancrées à un plan lors de leur 
 
 Une [PartDesign Fonctionnalité (feature)](PartDesign_Feature/fr.md) qui n\'est pas ancrée sera affichée avec un symbole de superposition rouge à côté de son icône dans la [Vue en arborescence](Tree_view/fr.md).
 
-!_ qui ne sont pas ancrées à un plan ou à un système de coordonnées seront affichées avec un symbole de superposition à côté de leur icône dans la [Vue en arborescence](Tree_view/fr.md).*
+![](images/PartDesign_Body_Feature_attachment.png ) 
+*PartDesign Corps: les [PartDesign Fonctions](PartDesign_Feature/fr.md) qui ne sont pas ancrées à un plan ou à un système de coordonnées seront affichées avec un symbole de superposition à côté de leur icône dans la [Vue en arborescence](Tree_view/fr.md).*
 
 ### Héritage
 
 Un _ (classe `Part::Feature`) via la classe intermédiaire `Part::BodyBase` et est complétée par une extension Origin.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Diagramme simplifié des relations entre les objets centraux du programme. L'objet `PartDesign::Body* est destiné à construire des solides 3D paramétriques et est donc dérivé de l'objet de base {{incode|Part::Feature`. Il possède une Origine pour contrôler le placement des fonctionnalités utilisées à l'intérieur.}}

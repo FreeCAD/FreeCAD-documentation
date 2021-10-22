@@ -28,6 +28,7 @@ L\'outil **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
 
+
 *À gauche : éléments à l'intérieur d'une Std Part dans la [Vue en arborescence](Tree_view/fr.md). À droite : les objets positionnés dans l'espace, référés à l'origine de Std Part.*
 
 ## Utilisation
@@ -114,7 +115,7 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property
 App Part n\'a que les cinq propriétés de la base [App FeaturePython](App_FeaturePython/fr.md) et n\'a pas de propriétés masquées.
 
 
-{{TitleProperty/fr|Base}}
+{{TitleProperty|Base}}
 
 -    {{PropertyView/fr|Display Mode|Enumeration}}: {{value|Group}}.
 
@@ -164,6 +165,7 @@ Pour activer ou désactiver un Part :
 ![](images/Std_Part_active.png )
 
 
+
 *Document avec deux Std Parts, dont le second est actif.*
 
 ### Origine
@@ -171,6 +173,7 @@ Pour activer ou désactiver un Part :
 L\'Origine se compose des trois axes standard (X, Y, Z) et de trois plans standard (XY, XZ et YZ). Les [Esquisses](Sketch/fr.md) et d\'autres objets peuvent être attachés à ces éléments lors de leur création.
 
 ![](images/Part_Origin_tree.png ) ![](images/Part_Origin_view.png )
+
 
 
 *À gauche : Part Origin dans la _.*
@@ -189,13 +192,15 @@ tous les éléments à l\'intérieur du Part sont référencés à l\'origine du
 
 La visibilité d\'un Part remplace la visibilité de tout objet qu\'elle contient. Si Part est masqué, les objets qu\'il contient seront également masqués, même si leur propriété individuelle **Visibility** est définie sur `True`. Si Part est visible, la **Visibility** de chaque objet détermine si l\'objet est affiché ou non.
 
-!_. À droite : Part est visible, donc chaque objet contrôle sa propre visibilité.*
+![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) 
+*La visibilité de Std Part détermine si les objets regroupés sous lui sont affichés dans la _. À droite : Part est visible, donc chaque objet contrôle sa propre visibilité.*
 
 ### Héritage
 
 Un _ (`App::GeoFeature` class) et est complété par une extension Origin.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Diagramme simplifié des relations entre les objets centraux du programme. La classe `App::Part* est un simple conteneur qui a une position dans l'espace 3D et a une origine pour contrôler le placement des objets regroupés sous celui-ci`

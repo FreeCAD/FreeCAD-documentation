@@ -3,7 +3,7 @@ Cette catégorie répertorie les modèles au format texte donnés en entrée.
 
 ### Contents:
 
-_ , _ , _
+_ , _
 
 _
 

@@ -53,10 +53,16 @@ Instrumentul Axis vă permite să plasați o serie de axe în documentul curent.
 
 ## Opţiuni
 
+
+<div class="mw-translate-fuzzy">
+
 -   Fiecare axă din serie are distanța și unghiul propriu față de axa anterioară. Aceasta permite realizarea unor sisteme foarte complexe, cum ar fi sistemele non-ortogonale, sistemele polar sau orice alt sistem neuniform
 -   Dublu clic pe axă în arborele vederilor permite editarea distanțelor, unghiurilor și etichetei fiecărei axe
 -   Lungimile axelor, dimensiunea bulelor și stilurile de numerotare sunt personalizabile direct prin proprietățile sistemului de axe
 -   Fiecare axă poate afișa, de asemenea, o etichetă, editabilă și prin dialogul panoului de activități
+
+
+</div>
 
 ## Proprietăți
 
@@ -150,4 +156,4 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Axis/ro
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/ro

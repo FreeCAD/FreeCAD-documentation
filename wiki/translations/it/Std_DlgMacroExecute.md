@@ -21,7 +21,8 @@ Questa funzione esegue la macro selezionata o attiva nell\'editor. E\' accessibi
 
 </div>
 
-![](images/Std_DlgMacroExecute_dialog.png ) *The Execute macro dialog box*
+![](images/Std_DlgMacroExecute_dialog.png ) 
+*The Execute macro dialog box*
 
 
 <div class="mw-translate-fuzzy">

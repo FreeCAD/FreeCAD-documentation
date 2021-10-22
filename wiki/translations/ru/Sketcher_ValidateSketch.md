@@ -22,7 +22,8 @@
 
 </div>
 
-![](images/Sketcher_ValidateSketch_taskpanel.png ) *The Sketcher validation task panel*
+![](images/Sketcher_ValidateSketch_taskpanel.png ) 
+*The Sketcher validation task panel*
 
 ## Применение
 

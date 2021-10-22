@@ -22,7 +22,8 @@ Gear racks are used to convert a rotary motion into a linear motion or vice vers
 
 :   ![](images/Involute-Rack_example.png )
 :   
-    *From left to right: Spur gearing, helical gearing, double helical gearing
+    
+*From left to right: Spur gearing, helical gearing, double helical gearing
     *
     
 

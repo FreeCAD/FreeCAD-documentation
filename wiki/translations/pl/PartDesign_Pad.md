@@ -60,14 +60,21 @@ Wyciągnięcie będzie wytłaczane do powierzchni, którą można wybrać klikaj
 
 Określa długość wyciągnięcia. Może być używanych wiele jednostek, niezależnie od ustawionych w programie preferencji użytkownika (m, cm, mm, nm, ft lub \', in lub \").
 
-### Użyj określonego kierunku 
+### Kierunek
 
+#### Kierunek / krawędź 
 
-{{Version/pl|0.19}}
+Można wybrać kierunek wyciągania:
 
-Jeśli opcja ta jest zaznaczona, kierunek wyciągnięcia nie będzie normalnym wektorem szkicu, ale wektorem podanym. Długość wyciągnięcia jest jednak ustawiona zgodnie z kierunkiem wektora normalnego.
+-   **Normalna szkicu** Szkic zostanie wyciągnięty wzdłuż swojego wektora normalnego,
+-   **Wybierz odniesienie\...**. Szkic zostanie wyciągnięty wzdłuż krawędzi modelu 3D. Gdy ta metoda jest wybrana, można wybrać dowolną krawędź w modelu 3D. Stanie się ona wtedy wektorem kierunku dla wyłożenia. {{Version/pl|0.20}}
+-   **Kierunek niestandardowy** Szkic jest wyciskany wzdłuż kierunku, który można określić za pomocą wartości wektorowych. {{Version/pl|0.19}}
 
-### Długość wzdłuż wektora normalnego szkicu 
+#### Użyj niestandardowego kierunku 
+
+Jeśli opcja jest zaznaczona, kierunek wyciągnięcia zostanie wyświetlony. W przypadku, gdy pad używa **Niestandardowego kierunku**, można go zmienić. {{Version/pl|0.20}}
+
+#### Długość wzdłuż wektora normalnego szkicu 
 
 Jeśli opcja jest zaznaczona, długość wyciągnięcia jest mierzona wzdłuż kierunku wektora normalnego szkicu, w przeciwnym razie wzdłuż kierunku niestandardowego. {{Version/pl|0.20}}
 

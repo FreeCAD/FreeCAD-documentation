@@ -26,7 +26,7 @@ La commande **Std Ajouter un document texte** crée un objet capable de contenir
 ### Vue
 
 
-{{TitleProperty/fr|Editor}}
+{{TitleProperty|Editor}}
 
 -    {{PropertyView/fr|Font Name|Font}}: un nom de police, par exemple, {{Value|Ubuntu Mono}}.
 

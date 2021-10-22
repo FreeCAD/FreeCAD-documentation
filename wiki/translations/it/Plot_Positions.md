@@ -1,6 +1,6 @@
 # Plot Positions/it
 ---
-- GuiCommand:/it   Name:Plot Positions   Name/it:Posizione   MenuLocation:Grafico → Posizione   |Workbenches:[[Plot Module/it   Grafico]]|Shortcut:   SeeAlso:---
+- GuiCommand:/it   Name:Plot Positions   Name/it:Posizione   MenuLocation:Grafico → Posizione   |Workbenches:[[Plot_Workbench/it   Grafico]]|Shortcut:   SeeAlso:---
 
 
 </div>
@@ -15,7 +15,8 @@ This tool allows the user to edit the position of some items like titles, axes l
 
 Select the plot tab that you want to edit, and run this tool. Then you can select the item you want to edit in the selector
 
-![Items position selector](images/Plot_Position_Item_Selector.png ) *Selector for the item to de edited*
+![Items position selector](images/Plot_Position_Item_Selector.png ) 
+*Selector for the item to de edited*
 
 ## Options
 

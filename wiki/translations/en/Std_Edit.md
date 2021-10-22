@@ -16,14 +16,14 @@ The **Std Edit** command activates or deactivates an object\'s edit mode.
 
 1.  If no object is in edit mode: select a single object.
 2.  Select the **Edit → <img src="images/Std_Edit.svg" width=16px> Toggle Edit mode** option from the menu.
-3.  Either the edit mode of the selected object is activated or the existing edit mode deactivated.
+3.  Either the default edit mode of the selected object is activated or the existing edit mode deactivated.
 
 ## Notes
 
 -   Some tools will be disabled (greyed-out) in the user interface while an object\'s edit mode is active.
 -   Not all object types have an edit mode.
 -   The functionality available in edit mode depends on the object type.
--   Edit mode can also be activated by double-clicking an object in the [Tree view](Tree_view.md).
+-   An object\'s edit mode can also be activated by double-clicking it in the [Tree view](Tree_view.md). In that case the edit mode that is used can be defined with the [Std UserEditMode](Std_UserEditMode.md) command.
 
 ## Scripting
 

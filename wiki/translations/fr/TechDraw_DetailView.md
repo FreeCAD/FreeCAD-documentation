@@ -14,7 +14,8 @@
 
 L\'outil Détail crée une vue d\'une petite zone d\'une vue existante.
 
-![](images/ViewDetail.png ) *Vue détaillée avec vue circulaire d'une vue existante*
+![](images/ViewDetail.png ) 
+*Vue détaillée avec vue circulaire d'une vue existante*
 
 ## Utilisation
 
@@ -77,7 +78,8 @@ Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
 
 Pour ce faire, placez la vue Détails dans une [Fenêtre de rognage](TechDraw_ClipGroup/fr.md):
 
-![](images/TechDraw_DetailClipped.png ) *Vue détaillée d'une fenêtre de rognage*
+![](images/TechDraw_DetailClipped.png ) 
+*Vue détaillée d'une fenêtre de rognage*
 
 -   Pour les vues de détail avec un contour rond, la position de l\'étiquette de référence dans la vue de base peut être modifiée via la propriété de vue de base {{PropertyView/fr|Highlight Adjust}}.
 

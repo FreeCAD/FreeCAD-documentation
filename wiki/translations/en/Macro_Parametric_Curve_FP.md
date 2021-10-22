@@ -8,7 +8,7 @@
 |Date=2021-09-17
 |FCVersion=All Python 3
 |Download=[https://wiki.freecadweb.org/images/5/59/Parametric_Curve_FP.svg ToolBar Icon]
-|SeeAlso=[Macro 3D Parametric Curve](Macro_3D_Parametric_Curve.md)
+|SeeAlso=[Macro 3D Parametric Curve](Macro_3D_Parametric_Curve.md) <img src="images/Macro_3D_Parametric_Curve.png" width=24px>
 |Links=[https://github.com/mwganson/Parametric_Curve_FP Full Documentation on Github]
 }}
 

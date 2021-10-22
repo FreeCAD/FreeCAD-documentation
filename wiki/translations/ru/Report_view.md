@@ -8,6 +8,7 @@ Certain properties of this panel, like color of the text and whether to display 
 <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 
 
+
 *The report view showing messages when FreeCAD has just started.*
 
 ## Сообщения
@@ -30,6 +31,7 @@ The report view displays messages from the internal FreeCAD `Console` class.
 These functions can be used from the [Python console](Python_console.md) directly, or from [macros](Macros.md) and custom workbenches.
 
 <img alt="" src=images/FreeCAD_Report_view_example.png  style="width:800px;">
+
 
 
 *Example messages in the report view: a general message, a warning, an error, and a logged message.*

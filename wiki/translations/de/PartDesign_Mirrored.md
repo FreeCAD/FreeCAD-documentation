@@ -15,6 +15,7 @@ Das **Gespiegelt** Werkzeug spiegelt Formelemente auf einer Ebene.
 ![](images/PartDesign_Mirrored_example.svg )
 
 
+
 *Oben: Eine Taschenformelement wurde aus einer Skizze erstellt, die einen Kreis (A) enthält. Die Tasche wurde anschließend zum Erstellen eines gespiegelten Formelements verwendet. Die vertikale Skizzenachse (B) wurde als Symmetrieachse verwendet. Das Ergebnis (C) wird rechts angezeigt.*
 
 ## Anwendung

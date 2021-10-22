@@ -5,14 +5,12 @@
 **!!! All images on this page must use the {{FileName|_relnotes_0.20** suffix !!!}}
 
 
-<div style="text-align:center; background:#e0e0ee; margin:1em 7em; padding:0.5em 2em; border:2px solid #bb7736;">
+{{Message|
+Are features missing? Mention them in the [https://forum.freecadweb.org/viewtopic.php?f&#61;10&t&#61;56135 Release notes for v0.20] forum thread.
 
-Are features missing? Mention them in the [Release notes for v0.20](https://forum.freecadweb.org/viewtopic.php?f=10&t=56135) forum thread.
 
 See [Help FreeCAD](Help_FreeCAD.md) for ways to contribute to FreeCAD.
-
-
-</div>
+}}
 
  
 
@@ -33,6 +31,14 @@ Older FreeCAD release notes can be found in [Feature list](Feature_list#Release_
 To [compile FreeCAD under Windows](Compile_on_Windows.md), there are different Libpacks (prepackaged libraries) available:
 
 -   Libpack for Windows with Qt xx, OCC yy, and Python zz
+
+Lowest supported Python version is 3.6.9 according to <https://forum.freecadweb.org/viewtopic.php?f=10&t=62701>
+
+Supported Operating Systems:
+
+-   Windows 7, 8 and 10
+-   Linux Ubuntu Bionic Beaver (18.04) and Focal Fossa (20.04)
+-   MacOS minimum version 10.12 Siera
 
 Other development news:
 
@@ -80,10 +86,29 @@ Other development news:
 
 ## Draft Workbench 
 
+-   A **Global** checkbox was added to the task panel of many drafting commands. Checking it allows input of coordinates in the global coordinate system even if the [working plane](Draft_SelectPlane.md) is not aligned with the global XY plane.
+
+-   The <img alt="" src=images/Draft_Hatch.svg  style="width:24px;"> [Draft Hatch](Draft_Hatch.md) command was introduced. It creates hatches on the faces of a selected object using patterns from AutoCAD PAT files.
+
+-   The <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:24px;"> _ command was extended with the same functionality.
+
+-   Work on the <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> [Draft SetStyle](Draft_SetStyle.md) command, still in progress in FreeCAD version 0.19, was completed.
+
+-   A double-click edit option was added for <img alt="" src=images/Draft_Text.svg  style="width:24px;"> [Draft Texts](Draft_Text.md). It opens the same edit task panel used when creating a text.
+
+-   For <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> [Draft Dimensions](Draft_Dimension.md) the {{Value|arch}} **Unit Override** for imperial architectural dimensions was introduced.
+
+-   <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> [Draft Shape2DView](Draft_Shape2DView.md) objects now have an **Auto Update** property. Setting it to {{False}} can be useful if there are many Draft Shape2DViews in a document or if they are complex.
+
+-   It is now possible to reverse a _ context menu. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=23&t=58643&start=20), [pull request \#4811](https://github.com/FreeCAD/FreeCAD/pull/4811).
+
 ### Further Draft improvements 
 
--   It is now possible to reverse a [Draft Wire](Draft_Wire.md) via the [Draft Edit](Draft_Edit.md) context menu. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=23&t=58643&start=20), [pull request \#4811](https://github.com/FreeCAD/FreeCAD/pull/4811).
 -   Fixed [Draft Snap Grid](Draft_Snap_Grid.md) when the cursor is over a face. [Forum discussion](https://forum.freecad.org/viewtopic.php?f=23&t=62274). [Git commit](https://github.com/FreeCAD/FreeCAD/commit/1761eb8ce).
+
+-   New [Draft Texts](Draft_Text.md) are now aligned with the [working plane](Draft_SelectPlane.md), [pull request \#5092](https://github.com/FreeCAD/FreeCAD/pull/5092).
+
+-   Support for two DWG converters was added: _ and [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) for more information.
 
 ## FEM Workbench 
 
@@ -139,6 +164,7 @@ There is also a text box for feedback of OpenSCAD errors.
 ## PartDesign Workbench 
 
   -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  <img alt="" src=images/PD_Pad-Length-along-reference_relnotes_0.20.gif  style="width:384px;">Padding along an edge from the model.Click on the image to show the animation.                  There is a new option to pad along the direction of an edge in the 3D model. [pull request \#4685](https://github.com/FreeCAD/FreeCAD/pull/4685)
   <img alt="" src=images/PD_Pad-Length-alog-direction_relnotes_0.20.gif  style="width:384px;">Effect of the new option *Length along sketch normal*.Click on the image to show the animation.   There is a new option to pad a certain length along the direction. The length is either measured along the sketch normal or along the custom direction. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=17&t=50466), [pull request \#3893](https://github.com/FreeCAD/FreeCAD/pull/3893)
   <img alt="" src=images/PartDesign_Cylinder_direction_relnotes_0.20.png  style="width:384px;">                                                                                                                                The dialog to edit [Cylinder](PartDesign_AdditiveCylinder.md) (additive and subtractive) allows now to specify an angle in respect to the normal of the chosen attachment plane. This way one can create skew cylinders. [pull request \#4708](https://github.com/FreeCAD/FreeCAD/pull/4708)
   <img alt="" src=images/PartDesign_Chamfer_Face_Selection_relnotes_0.20.png  style="width:384px;">                                                                                                                        When Distance and Angle is specified in the [Chamfer](PartDesign_Chamfer.md) tool and faces are selected, the distance will be applied along the selected faces. Likewise if two distances are specified then Size 1 will be applied along the selected face. This behaviour can be swapped to the other face using the flip direction button. [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=19&t=62084), [pull request \#5039](https://github.com/FreeCAD/FreeCAD/pull/5039)
@@ -172,7 +198,8 @@ There is also a text box for feedback of OpenSCAD errors.
 -   Option to display the dimensional constraint name and use a custom format for it. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4966) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?t=61153)
 -   When sketching a [3-point arc](Sketcher_Create3PointArc.md) with Autoconstraint enabled, [tangent constraint](Sketcher_ConstrainTangent.md) is proposed for all 3 points when hovering a line/curve. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4945) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=60596&p=520217#p520209)
 -   Radius/diameter constraints are displayed using an angular rotation to ease visualization. Angle and optional randomness are user settable through parameters documented in [Fine-tuning](Fine-tuning.md) [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4934) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=22&t=60370)
--   It is now possible to fix the angle of the direction when using the [Rectangular array](Sketcher_RectangularArray.md) tool. [commit](https://github.com/FreeCAD/FreeCAD/commit/c9eaa2393d339cec1985227091935051ae67a6ef) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?p=535691#p535691)
+-   It is now possible to fix the angle of the direction when using the [Rectangular array](Sketcher_RectangularArray.md) tool. [commit](https://github.com/FreeCAD/FreeCAD/commit/c9eaa2393d33) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?p=535691#p535691)
+-   It is now possible to fix the angle of the direction when using the tools [Clone](Sketcher_Clone.md), [Copy](Sketcher_Copy.md) and [Move](Sketcher_Move.md). [commit](https://github.com/FreeCAD/FreeCAD/commit/6e4a09f569cf) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=62799)
 
 ### Sketcher bug fixes 
 
@@ -180,13 +207,31 @@ There is also a text box for feedback of OpenSCAD errors.
 
 ## Spreadsheet Workbench 
 
--   It is now possible to select in the row/column context-menu at what positions new rows/columns will be inserted. Furthermore, when selecting several rows/columns, the row/column context-menu offers now to insert as many new rows/columns as selected. [pull request \#4704](https://github.com/FreeCAD/FreeCAD/pull/4704).
+  -------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )   The workbench now also has !_. They are used by the <img alt="" src=images/Spreadsheet_Import.svg  style="width:16px;"> _ commands. [Pull request \#5073](https://github.com/FreeCAD/FreeCAD/pull/5073)
+  -------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+-   It is now possible to select in the row/column context-menu at what positions new rows/columns will be inserted. [Pull request \#4704](https://github.com/FreeCAD/FreeCAD/pull/4704).
+
+### Further Spreadsheet improvements 
+
+-   Import XLSX (used by [Std Import](Std_Import.md)): Added support for floor and ceil functions. [Pull request \#5015](https://github.com/FreeCAD/FreeCAD/pull/5015).
 
 ## Start Workbench 
 
 ## Surface Workbench 
 
 ## TechDraw Workbench 
+
++-------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| <img alt="" src=images/TechDraw_ExtensionExample_relnotes_0.20.png  style="width:400px;"> | Several new tools, so-called [Extensions tools](TechDraw_Workbench#Extensions.md), are now available. They offer new cosmetic features to enhance drawings:                              |
+|                                                                                                             |                                                                                                                                                                                                  |
+|                                                                                                             | -   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:24px;"> [TechDraw ExtensionCircleCenterLines](TechDraw_ExtensionCircleCenterLines.md) |
+|                                                                                                             | -   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:24px;"> [TechDraw ExtensionThreadHoleSide](TechDraw_ExtensionThreadHoleSide.md)             |
+|                                                                                                             | -   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> [TechDraw ExtensionThreadBoltSide](TechDraw_ExtensionThreadBoltSide.md)             |
+|                                                                                                             | -   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:24px;"> [TechDraw ExtensionThreadHoleBottom](TechDraw_ExtensionThreadHoleBottom.md)     |
+|                                                                                                             | -   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:24px;"> [TechDraw ExtensionThreadBoltBottom](TechDraw_ExtensionThreadBoltBottom.md)     |
++-------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ### Further TechDraw improvements 
 

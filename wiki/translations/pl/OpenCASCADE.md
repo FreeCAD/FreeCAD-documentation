@@ -10,6 +10,7 @@ The geometrical classes of OCCT are mostly implemented and made available in Fre
 <img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;">
 
 
+
 *OpenCASCADE provides the basic geometrical classes and drawing functions to the [Part](Part_Workbench.md) module, which are then used by all workbenches in FreeCAD.*
 
 OpenCASCADE should not be confused with _.
@@ -64,6 +65,7 @@ From an edge or face you can also go back to its geometric primitive counterpart
 Thus, out of shapes you can build very complex parts or, the other way round, extract all sub-shapes a more complex shape is made of.
 
 <img alt="" src=images/Part_TopoShape_relationships.svg  style="width:600px;">
+
 
 
 *The `Part::TopoShape* class is the geometrical object that is seen on screen. Essentially all workbenches use these [TopoShapes](Part_TopoShape.md) internally to build and display edges, faces, and solids.`

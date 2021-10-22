@@ -15,7 +15,8 @@
 
 L\'outil FHPath insère un objet FHPath, c\'est-à-dire un ensemble de segments FastHenry le long d\'un chemin.
 
-![](images/EM_FHPath_Example.png ) *FastHenry FHPath*
+![](images/EM_FHPath_Example.png ) 
+*FastHenry FHPath*
 
 ## Utilisation
 

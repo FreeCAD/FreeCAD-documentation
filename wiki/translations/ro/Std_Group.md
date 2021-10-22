@@ -29,6 +29,7 @@ To group 3D objects as a single unit, with the intention of creating assemblies,
 </div>
 
 
+
 *Various elements inside Std Groups in the tree view.*
 
 
@@ -99,6 +100,7 @@ See [App FeaturePython](App_FeaturePython.md) for the basic view properties.
 A _ (`App::DocumentObject` class), and is augmented with a Group extension.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Simplified diagram of the relationships between the core objects in the program. The `App::DocumentObjectGroup* class is a simple container which uses the Group extension to be able to hold any type of object.`

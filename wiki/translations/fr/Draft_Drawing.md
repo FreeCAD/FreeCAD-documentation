@@ -38,6 +38,7 @@ This command is now obsolete. Use the [TechDraw Workbench](TechDraw_Workbench.md
 <div class="mw-translate-fuzzy">
 
 
+
 *Objet Draft object et dimensions importés dans une page de dessin*
 
 

@@ -17,6 +17,7 @@ Das 2LinienMittelLinie Werkzeug fügt eine Mittellinie zwischen zwei Kanten hinz
 <img alt="" src=images/CL2LinesSample.png  style="width:350px;">
 
 
+
 *Ausgerichtete Mittellinie zwischen 2 Kanten*
 
 ## Anwendung

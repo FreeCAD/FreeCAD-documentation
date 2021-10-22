@@ -37,6 +37,7 @@ L\'atelier Raytracing est essentiellement obsolète. Un nouveau développement e
 <img alt="" src=images/Raytracing_Workbench_workflow.svg  style="width:600px;">
 
 
+
 *Le flux de travail de l'atelier Raytracing; l'atelier prépare un fichier de projet à partir d'un modèle donné, puis appelle un programme externe pour produire le rendu réel de la scène. Le rendu externe peut être utilisé indépendamment de FreeCAD.*
 
 ## Outils

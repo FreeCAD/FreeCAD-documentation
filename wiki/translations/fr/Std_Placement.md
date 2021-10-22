@@ -13,7 +13,8 @@
 
 La commande **Std Positionnement** affiche le [Panneau des tâches](Task_Panel/fr.md) Placement pour un objet sélectionné.
 
-![](images/Std_Placement_taskpanel.png ) *Le panneau des tâches Placement*
+![](images/Std_Placement_taskpanel.png ) 
+*Le panneau des tâches Placement*
 
 ## Utilisation
 

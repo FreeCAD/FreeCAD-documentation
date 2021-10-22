@@ -18,7 +18,8 @@
 
 Il comando **Vista trimetrica** orienta la camera della _, ma il comando funziona anche se la vista è in [modalità prospettiva](Std_PerspectiveCamera.md).
 
-![](images/Std_ViewTrimetric_example.svg ) *Il [sistema di assi](Std_AxisCross.md) e un cubo in vista trimetrica.*
+![](images/Std_ViewTrimetric_example.svg ) 
+*Il [sistema di assi](Std_AxisCross.md) e un cubo in vista trimetrica.*
 
 ## Utilizzo
 

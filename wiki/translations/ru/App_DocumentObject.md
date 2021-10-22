@@ -12,9 +12,11 @@
 ![](images/App_DocumentObject_example.png )
 
 
+
 *Tree view showing different objects in the document. Each of them is a "document object", ultimately derived from the base `App::DocumentObject* class.`
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Simplified diagram of the relationships between the core objects in the program. The `App::DocumentObject* class is the base class of essentially all objects in the software.`

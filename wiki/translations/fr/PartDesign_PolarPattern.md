@@ -31,7 +31,8 @@ L\'outil *répétition circulaire* prend une fonction sélectionnée et produit 
 
 #### Organiser les fonctionnalités 
 
-![](images/PartDesign_feature-order.gif ) *Effet de l'ordre des fonctionnalités*
+![](images/PartDesign_feature-order.gif ) 
+*Effet de l'ordre des fonctionnalités*
 
 
 {{Version/fr|0.19}}

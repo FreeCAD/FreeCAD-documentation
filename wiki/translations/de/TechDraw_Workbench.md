@@ -61,6 +61,20 @@ Dies sind Werkzeuge zum Erstellen und Verwalten von Ausschnittfenstern.
 
 -   <img alt="" src=images/techdraw-clipminus.svg  style="width:32px;"> [Ausschnittfenster entfernen](TechDraw_ClipMinus/de.md): Entfernt eine Ansicht aus einer Gruppe von Ausschnittfenstern.
 
+## Ausgestaltung
+
+Dies sind Werkzeuge zur Ausgestaltung von Seiten oder Ansichten:
+
+-   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Schraffierte Fläche unter Verwendung einer Bilddatei](TechDraw_Hatch/de.md): wendet ein Schraffurmuster aus einer Datei auf eine Fläche an.
+
+-   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Geometrische Schraffur auf Fläche anwenden](TechDraw_GeometricHatch/de.md): wendet ein Schraffurmuster unter Verwendung einer Autodesk PAT Spezifikation auf eine Fläche an.
+
+-   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ Datei in eine Seite ein.
+
+-   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ Bild in eine Seite ein.
+
+-   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Ansichtsrahmen drehen On/Off](TechDraw_ToggleFrame/de.md): schaltet Rahmen und Beschriftungen, die eine Ansicht umgeben, an/aus.
+
 ## Bemaßungen
 
 Dies sind Werkzeuge für die Erstellung und Arbeit mit Bemaßungs-Objekten.
@@ -166,6 +180,50 @@ Lineare Bemaßungen können auf zwei Punkten, auf einer Linie oder auf zwei Lini
 
 <div class="mw-translate-fuzzy">
 
+## Anmerkung
+
+
+</div>
+
+Die Anmerkungswerkzeuge dienen dazu, eine Zeichnung mit zusätzlichen Informationen zu \"markieren\".
+
+-   <img alt="" src=images/TechDraw_Annotation.svg  style="width:32px;"> [Anmerkung einfügen](TechDraw_Annotation/de.md): fügt einen reinen Textblock als Anmerkung hinzu.
+
+-   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:32px;"> [Führungslinie zur Ansicht hinzufügen](TechDraw_LeaderLine/de.md): fügt einer Ansicht eine Führungslinie hinzu. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:32px;"> [Formatierte Text Anmerkung einfügen](TechDraw_RichTextAnnotation/de.md): fügt einen Formatierten Text Block als Anmerkung zu einer Führungslinie oder einer Ansicht hinzu. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:32px;"> [Kosmetischen Knoten Hinzufügen](TechDraw_CosmeticVertex/de.md): fügt einen Knoten hinzu, der nicht Teil der Quellgeometrie ist. {{Version/de|0.19}}
+
+-   <img alt="" src=images/TechDraw_Midpoints.svg  style="width:32px;"> [Mittenpunktknoten hinzufügen](TechDraw_Midpoints/de.md): fügt kosmetische Knoten an den Mittenpunkten der ausgewählten Kanten hinzu. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_Quadrants.svg  style="width:32px;"> [Quadrantenknoten hinzufügen](TechDraw_Quadrants/de.md): fügt kosmetische Knoten an Viertelpunkten ausgewählter (kreisförmiger) Kanten hinzu. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:32px;"> [Mittellinie zu Flächen hinzufügen](TechDraw_FaceCenterLine/de.md): fügt der/den ausgewählten Fläche(n) eine Mittellinie hinzu. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:32px;"> [Mittellinie zwischen 2 Linien hinzufügen](TechDraw_2LineCenterLine/de.md): fügt eine Mittellinie zwischen 2 Linien hinzu. {{Version/de|0.19}}
+
+-   <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:32px;"> [Mittellinie zwischen 2 Punkten hinzufügen](TechDraw_2PointCenterLine/de.md): fügt eine Mittellinie zwischen 2 Punkten hinzu. {{Version/de|0.19}}
+
+
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Eine kosmetische Linie hinzufügen](TechDraw_2PointCosmeticLine/de.md): fügt eine kosmetische Linie hinzu, die 2 Knoten verbindet. <small>(v0.19)</small> 
+
+
+</div>
+
+-   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Entferne Kosmetische Objekt](TechDraw_CosmeticEraser/de.md): entfernt kosmetische Objekte von einer Seite. {{Version/de|0.19}}
+
+-   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:32px;"> [Aussehen von Linien ändern](TechDraw_DecorateLine/de.md): ändert das Aussehen der ausgewählten Linie(n). {{Version/de|0.19}}
+
+-   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Unsichtbare Kanten anzeigen/verbergen](TechDraw_ShowAll/de.md): zeigt/verbirgt unsichtbare Linien/Kanten in einer Ansicht. {{Version/de|0.19}}
+
+-   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Schweißinformationen zu Führungslinie hinzufügen](TechDraw_WeldSymbol/de.md): fügt Schweißspezifikationen zu einer vorhandenen Führungslinie hinzu. {{Version/de|0.19}}
+
+
+<div class="mw-translate-fuzzy">
+
 ## Erweiterungspaket
 
 
@@ -211,58 +269,6 @@ Dies sind Werkzeuge zum Exportieren von Seiten in andere Anwendungen.
 -   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _ Datei.
 
 -   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _ Datei.
-
-## Ausgestaltung
-
-Dies sind Werkzeuge zur Ausgestaltung von Seiten oder Ansichten:
-
--   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Schraffierte Fläche unter Verwendung einer Bilddatei](TechDraw_Hatch/de.md): wendet ein Schraffurmuster aus einer Datei auf eine Fläche an.
-
--   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Geometrische Schraffur auf Fläche anwenden](TechDraw_GeometricHatch/de.md): wendet ein Schraffurmuster unter Verwendung einer Autodesk PAT Spezifikation auf eine Fläche an.
-
--   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ Datei in eine Seite ein.
-
--   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ Bild in eine Seite ein.
-
--   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Ansichtsrahmen drehen On/Off](TechDraw_ToggleFrame/de.md): schaltet Rahmen und Beschriftungen, die eine Ansicht umgeben, an/aus.
-
-## Anmerkung
-
-Die Anmerkungswerkzeuge dienen dazu, eine Zeichnung mit zusätzlichen Informationen zu \"markieren\".
-
--   <img alt="" src=images/TechDraw_Annotation.svg  style="width:32px;"> [Anmerkung einfügen](TechDraw_Annotation/de.md): fügt einen reinen Textblock als Anmerkung hinzu.
-
--   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:32px;"> [Führungslinie zur Ansicht hinzufügen](TechDraw_LeaderLine/de.md): fügt einer Ansicht eine Führungslinie hinzu. <small>(v0.19)</small> 
-
--   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:32px;"> [Formatierte Text Anmerkung einfügen](TechDraw_RichTextAnnotation/de.md): fügt einen Formatierten Text Block als Anmerkung zu einer Führungslinie oder einer Ansicht hinzu. <small>(v0.19)</small> 
-
--   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:32px;"> [Kosmetischen Knoten Hinzufügen](TechDraw_CosmeticVertex/de.md): fügt einen Knoten hinzu, der nicht Teil der Quellgeometrie ist. {{Version/de|0.19}}
-
--   <img alt="" src=images/TechDraw_Midpoints.svg  style="width:32px;"> [Mittenpunktknoten hinzufügen](TechDraw_Midpoints/de.md): fügt kosmetische Knoten an den Mittenpunkten der ausgewählten Kanten hinzu. <small>(v0.19)</small> 
-
--   <img alt="" src=images/TechDraw_Quadrants.svg  style="width:32px;"> [Quadrantenknoten hinzufügen](TechDraw_Quadrants/de.md): fügt kosmetische Knoten an Viertelpunkten ausgewählter (kreisförmiger) Kanten hinzu. <small>(v0.19)</small> 
-
--   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:32px;"> [Mittellinie zu Flächen hinzufügen](TechDraw_FaceCenterLine/de.md): fügt der/den ausgewählten Fläche(n) eine Mittellinie hinzu. <small>(v0.19)</small> 
-
--   <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:32px;"> [Mittellinie zwischen 2 Linien hinzufügen](TechDraw_2LineCenterLine/de.md): fügt eine Mittellinie zwischen 2 Linien hinzu. {{Version/de|0.19}}
-
--   <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:32px;"> [Mittellinie zwischen 2 Punkten hinzufügen](TechDraw_2PointCenterLine/de.md): fügt eine Mittellinie zwischen 2 Punkten hinzu. {{Version/de|0.19}}
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Eine kosmetische Linie hinzufügen](TechDraw_2PointCosmeticLine/de.md): fügt eine kosmetische Linie hinzu, die 2 Knoten verbindet. <small>(v0.19)</small> 
-
-
-</div>
-
--   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Entferne Kosmetische Objekt](TechDraw_CosmeticEraser/de.md): entfernt kosmetische Objekte von einer Seite. {{Version/de|0.19}}
-
--   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:32px;"> [Aussehen von Linien ändern](TechDraw_DecorateLine/de.md): ändert das Aussehen der ausgewählten Linie(n). {{Version/de|0.19}}
-
--   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Unsichtbare Kanten anzeigen/verbergen](TechDraw_ShowAll/de.md): zeigt/verbirgt unsichtbare Linien/Kanten in einer Ansicht. {{Version/de|0.19}}
-
--   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Schweißinformationen zu Führungslinie hinzufügen](TechDraw_WeldSymbol/de.md): fügt Schweißspezifikationen zu einer vorhandenen Führungslinie hinzu. {{Version/de|0.19}}
 
 ## Zusatzfunktionen
 

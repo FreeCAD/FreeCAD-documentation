@@ -28,6 +28,7 @@ Diese Methode fängt den Mittelpunkt von Linien oder Kanten von Elmenten ein.
 <div class="mw-translate-fuzzy">
 
 
+
 *Einrasten des zweiten Punkts einer Linie am Mittelpunkt einer Kante eines Rechtecks*
 
 

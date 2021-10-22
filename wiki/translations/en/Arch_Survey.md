@@ -67,4 +67,4 @@ for obj in selection:
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Survey/en
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Survey/en

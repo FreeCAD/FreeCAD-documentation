@@ -42,6 +42,7 @@ Dopo aver premuto **OK**, gli oggetti selezionati vengono copiati in memoria e q
 ![](images/ObjectSelection.png )
 
 
+
 *Finestra di dialogo per la selezione degli oggetti avviata da [vista selezione](Selection_view/it.md).*
 
 ## Vista ad albero 

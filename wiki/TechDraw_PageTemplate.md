@@ -16,7 +16,8 @@ The starting directory for the dialog can be specified in the [TechDraw Preferen
 
  <img alt="" src=images/A4_Landscape_ISO7200_Pep.svg  style="width:400px;">
 
- *One of the templates that comes with TechDraw: A4 ISO 7200_Pep, page in landscape orientation, with editable text fields*
+ 
+*One of the templates that comes with TechDraw: A4 ISO 7200_Pep, page in landscape orientation, with editable text fields*
 
 ## Usage
 

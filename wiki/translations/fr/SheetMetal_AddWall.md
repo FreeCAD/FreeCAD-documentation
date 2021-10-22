@@ -11,47 +11,50 @@
 
 ## Description
 
-La commande <img alt="" src=images/SheetMetal_Bend.svg  style="width:24px;"> **SheetMetal AddWall** crée un pli sur le bord sélectionné.
+La commande <img alt="" src=images/SheetMetal_AddWall.svg  style="width:24px;"> **SheetMetal Tôle pliée** crée des rebords sur les bords sélectionnés d\'une plaque de base. En modifiant la propriété **angle** d\'un rebord, on peut le transformer en bord.
 
-<img alt="" src=images/PostBend.png  style="width:320px;">
+Un *bord* est constitué d\'un coude cylindrique à 90° et d\'une bande plane (paroi).
+
+<img alt="" src=images/SheetMetal_AddWall-12.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddWall-13.png  style="width:200px;"> 
+*Deux bords sélectionnés -> deux bords*
+
+La réinitialisation de la propriété **angle** à environ 180° dans une deuxième étape créera un *ourlet* à la place.
+
+<img alt="" src=images/SheetMetal_AddWall-14.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddWall-15.png  style="width:200px;"> 
+*Deux bords sélectionnés -> deux ourlets*
 
 ## Utilisation
 
-Pour ajouter un pli:
+1.  Sélectionnez un ou plusieurs bords d\'une plaque de base.
+2.  Activez la commande <img alt="" src=images/SheetMetal_AddWall.svg  style="width:16px;"> **SheetMetal Tôle pliée**\' en utilisant l\'une des méthodes suivantes :
+    -   Le bouton **<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall/fr.md)**.
+    -   L\'option de menu **SheetMetal → <img src="images/SheetMetal_AddWall.svg" width=16px> Make Wall**.
+    -   Le raccourci clavier : **W**.
 
-1.  Basculez vers l\'<img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:22px;"> [atelier SheetMetal](SheetMetal_Workbench/fr.md).
-2.  Commencez avec une plaque de base ou une feuille, sélectionnez un ou plusieurs bords pour recevoir un pli.
-3.  Cliquez sur l\'outil <img alt="" src=images/SheetMetal_AddWall.svg  style="width:24px;"> [Make Wall](SheetMetal_AddWall/fr.md) pour ajouter un pli.
+## Remarques
 
+Pour créer une plaque de base, utilisez un contour 2D fermé - de préférence une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> _.
 
-**Remarque**
+Il est également possible de créer une plaque de base (vierge) à l\'aide des commandes de l\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _.
 
-: Pour créer une plaque de base, utilisez un contour 2D fermé - de préférence une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;">. _.
-Au lieu de cela, vous pouvez également générer une plaque de base avec l\'une des méthodes suivantes :
+Pour créer une ébauche avec l\'[atelier Part](Part_Workbench/fr.md) : :
 
-:\* Method 1: <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Cube](Part_Box/fr.md)
+1.  Créez un solide en utilisant soit :
+    -   <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Part Box](Part_Box.md).
+    -   <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> [Part Extrusion](Part_Extrude/fr.md) de :
+        -   Un <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [Draft Rectangle](Draft_Rectangle/fr.md).
+        -   Une <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Draft Polyligne](Draft_Wire/fr.md).
+        -   Une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Esquisse](Sketcher_NewSketch/fr.md).
+2.  Assurez-vous que l\'une des dimensions de la boîte ou la distance d\'extrusion est égale à l\'épaisseur de la tôle.
 
-:\* Method 2: un solide extrudé fait avec <img alt="" src=images/Part_Extrude.svg  style="width:24px;"> [Part Extrusion](Part_Extrude/fr.md) à partir d\'un :
+Pour créer une ébauche avec l\'[atelier PartDesign](PartDesign_Workbench/fr.md) :
 
-::\* <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Draft Rectangle](Draft_Rectangle/fr.md) ou un
+1.  Créez un solide en utilisant soit :
+    -   Un <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> [Cube additif](PartDesign_AdditiveBox/fr.md).
+    -   Une <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> _.
+2.  Assurez-vous que l\'une des dimensions de la boîte ou la propriété **Length** du bloc est égale à l\'épaisseur de la tôle.
 
-::\* <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Draft Polyligne](Draft_Wire/fr.md) ou une
-
-::\* <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)
-
-::\* Utilisez <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Part Évidement](Part_Thickness/fr.md) pour créer une coque (**Typiquement avec la valeur d'épaisseur de la tôle.**)
-
-:\* Method 3: <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Corps](PartDesign_Body/fr.md) contenant soit un
-
-::\* <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:24px;"> [PartDesign Cube additif](PartDesign_AdditiveBox.md) ou une
-
-::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> _.
-
-::\* Utilisez <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> [PartDesign Epaisseur](PartDesign_Thickness/fr.md) pour créer une coque (**Typiquement avec la valeur d'épaisseur de la tôle.**)
-
-:   
-
-    :   Si vous commencez avec un <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> PartDesign Corps, vous pouvez mélanger des fonctions de tôlerie avec des fonctions PartDesign telles que <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> _.
+Si vous commencez avec un <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> _ ou <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> [PartDesign Perçages](PartDesign_Hole/fr.md).
 
 ## Propriétés
 
@@ -123,7 +126,8 @@ Un objet SheetMetal Bend est dérivé d\'un objet [Part Feature](Part_Feature/fr
     == Exemple ==
 
     <img src="images/SheetMetal_AddWall-01.png" width=300px>
-    *Un plateau tout simple*
+    
+*Un plateau tout simple*
     <div class="mw-collapsible mw-collapsed">
     <div class="mw-collapsible-content">
 
@@ -132,7 +136,8 @@ Un objet SheetMetal Bend est dérivé d\'un objet [Part Feature](Part_Feature/fr
     Ce plateau est constitué d'une ébauche rectangulaire à laquelle on a ajouté des parois sur les bords de son contour. Il faut donc préparer à l'avance un croquis de contour pour l'ébauche.
 
     <img src="images/SheetMetal_AddWall-02.png" width=200px>
-    *Un simple contour rectangulaire*
+    
+*Un simple contour rectangulaire*
 
     === Processus de travail ===
 

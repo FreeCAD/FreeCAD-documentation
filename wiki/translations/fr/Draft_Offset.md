@@ -19,7 +19,7 @@ La commande <img alt="" src=images/Draft_Offset.svg  style="width:24px;"> **Draf
 
 ## Utilisation
 
-Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Sélectionner un objet au choix.
 2.  Il existe plusieurs façons d\'invoquer la commande :
@@ -30,7 +30,11 @@ Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Co
 4.  Le panneau de tâches **Offset** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 5.  Pour définir la distance de décalage, effectuez l\'une des opérations suivantes :
     -   Choisissez un point dans la [Vue 3D](3D_view/fr.md).
-    -   Assurez-vous que le pointeur se trouve du bon côté de l\'objet dans la [Vue 3D](3D_view/fr.md) et entrez une **Distance**.
+    -   Entrez une valeur numérique :
+        1.  Assurez-vous que le pointeur se trouve du bon côté de l\'objet dans la [Vue 3D](3D_view/fr.md).
+        2.  Ne déplacez pas le pointeur en dehors de la [Vue 3D](3D_view/fr.md).
+        3.  Saisissez une **Distance**.
+        4.  Appuyez sur **Enter** pour terminer la commande.
 
 ## Options
 
@@ -40,7 +44,7 @@ Les raccourcis clavier à caractère unique et les touches de modification menti
 -   Appuyez sur **P** ou cliquez sur la case **Copie** pour activer le mode de copie. Si le mode de copie est activé, la commande créera une copie décalée au lieu de décaler l\'objet original.
 -   Si vous maintenez la touche **Alt** enfoncée avant de sélectionner des points dans la [Vue 3D](3D_view/fr.md), vous pouvez également activer le mode de copie. Lorsque vous maintenez la touche **Alt** enfoncée, vous pouvez sélectionner plusieurs points de décalage. Relâchez **Alt** pour terminer la commande et voir les copies créées.
 -   Maintenez **Shift** enfoncé pour que la distance de décalage reste liée au segment actuel.
--   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
+-   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
 
 ## Remarques

@@ -14,7 +14,8 @@
 
 **Additive Loft** creates a solid in the active Body by making a transition between two or more sketches (also referred to as cross-sections). If the Body already contains features, the additive loft will be merged to them.
 
-![](images/PartDesign_AddLoft_example.png ) *On the left: cross-sections (A), (B) and (C); created Additive loft on the right.*
+![](images/PartDesign_AddLoft_example.png ) 
+*On the left: cross-sections (A), (B) and (C); created Additive loft on the right.*
 
 ## Применение
 

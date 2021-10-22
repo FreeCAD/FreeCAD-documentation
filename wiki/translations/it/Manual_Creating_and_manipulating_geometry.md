@@ -48,9 +48,9 @@ Ora possiamo creare facilmente un \"generico\" document object nel documento cor
 
 ```python
 boxShape = Part.makeBox(3,5,7)
- myObj = FreeCAD.ActiveDocument.addObject("Part::Feature","MyNewBox")
- myObj.Shape = boxShape
- FreeCAD.ActiveDocument.recompute()
+myObj = FreeCAD.ActiveDocument.addObject("Part::Feature","MyNewBox")
+myObj.Shape = boxShape
+FreeCAD.ActiveDocument.recompute()
 ```
 
 Notare come abbiamo gestito myObj.Shape, vedere che abbiamo fatto esattamente come abbiamo fatto nel capitolo precedente, quando abbiamo cambiato altre proprietà di un oggetto, come ad esempio box.Height = 5. Infatti, **Shape** è anche una proprietà, proprio come **Height**. Solo che prende una Part Shape, non un numero. Nel prossimo capitolo daremo uno sguardo più approfondito su come sono costruiti tali oggetti parametrici.
@@ -66,11 +66,11 @@ Per il momento, esploriamo la Part Shape più in dettaglio. Alla fine del capito
 
 ```python
 print(boxShape.Vertexes)
- print(boxShape.Edges)
- print(boxShape.Wires)
- print(boxShape.Faces)
- print(boxShape.Shells)
- print(boxShape.Solids)
+print(boxShape.Edges)
+print(boxShape.Wires)
+print(boxShape.Faces)
+print(boxShape.Shells)
+print(boxShape.Solids)
 ```
 
 Per esempio, troviamo l\'area di ogni faccia della nostra forma box:
@@ -100,8 +100,8 @@ Possiamo sempre controllare il tipo di una forma:
 
 ```python
 print(boxShape.ShapeType)
- print(boxShape.Faces[0].ShapeType)
- print(boxShape.Vertexes[2].ShapeType)
+print(boxShape.Faces[0].ShapeType)
+print(boxShape.Vertexes[2].ShapeType)
 ```
 
 Quindi, per riassumere l\'intero schema di una Part Shapes: Tutto comincia con i Vertici. Con uno o due vertici, si forma un bordo (i cerchi completi hanno un solo vertice). Con uno o più bordi, si forma un contorno, un Wire. Con uno o più contorni chiusi, si forma una faccia (i bordi aggiuntivi diventano \"buchi\" in una faccia). Con una o più facce, si forma un Guscio, un Shell. Quando un Shell è completamente chiusa (stagno), è possibile formare da esso un solido. E, infine, è possibile unire qualsiasi numero di forme di qualsiasi tipo, e produrre un Compoud, un Composto.
@@ -119,9 +119,9 @@ In primo luogo, creiamo i quattro punti di base:
 
 ```python
 V1 = FreeCAD.Vector(0,10,0)
- V2 = FreeCAD.Vector(30,10,0)
- V3 = FreeCAD.Vector(30,-10,0)
- V4 = FreeCAD.Vector(0,-10,0)
+V2 = FreeCAD.Vector(30,10,0)
+V3 = FreeCAD.Vector(30,-10,0)
+V4 = FreeCAD.Vector(0,-10,0)
 ```
 
 Poi possiamo creare i due segmenti lineari:
@@ -148,9 +148,9 @@ mostra di che tipo di bordo si tratta, cioè, se si basa su una linea, un arco, 
 
 ```python
 VC1 = FreeCAD.Vector(-10,0,0)
- C1 = Part.Arc(V1,VC1,V4)
- VC2 = FreeCAD.Vector(40,0,0)
- C2 = Part.Arc(V2,VC2,V3)
+C1 = Part.Arc(V1,VC1,V4)
+VC2 = FreeCAD.Vector(40,0,0)
+C2 = Part.Arc(V2,VC2,V3)
 ```
 
 Ora abbiamo 2 linee (L1 e L2) e 2 archi (C1 e C2). Bisogna trasformarli in bordi:
@@ -158,9 +158,9 @@ Ora abbiamo 2 linee (L1 e L2) e 2 archi (C1 e C2). Bisogna trasformarli in bordi
 
 ```python
 E1 = Part.Edge(L1)
- E2 = Part.Edge(L2)
- E3 = Part.Edge(C1)
- E4 = Part.Edge(C2)
+E2 = Part.Edge(L2)
+E3 = Part.Edge(C1)
+E4 = Part.Edge(C2)
 ```
 
 In alternativa, le geometrie di base hanno anche una funzione toShape() che fa esattamente la stessa cosa:
@@ -168,7 +168,7 @@ In alternativa, le geometrie di base hanno anche una funzione toShape() che fa e
 
 ```python
 E1 = L1.toShape()
- E2 = L2.toShape()
+E2 = L2.toShape()
  ...
 ```
 
@@ -212,7 +212,7 @@ Questo perché quando si estrude una sola faccia, si ottiene sempre una solido. 
 
 ```python
 S = W.extrude(FreeCAD.Vector(0,0,10))
- print(s.ShapeType)
+print(s.ShapeType)
 ```
 
 Che ovviamente ci dà un guscio vuoto, con le facce superiore e inferiore mancanti.
@@ -222,8 +222,8 @@ Ora che abbiamo la forma finale, siamo ansiosi di vederla sullo schermo! Quindi 
 
 ```python
 myObj2 = FreeCAD.ActiveDocument.addObject("Part::Feature","My_Strange_Solid")
- myObj2.Shape = P
- FreeCAD.ActiveDocument.recompute()
+myObj2.Shape = P
+FreeCAD.ActiveDocument.recompute()
 ```
 
 In alternativa, il modulo Parte fornisce anche una scorciatoia che esegue più velocemente l\'operazione descritta sopra (ma non è possibile scegliere il nome dell\'oggetto):

@@ -13,7 +13,8 @@
 
 Das Dienstprogramm **Skizze validieren** kann verwendet werden, um eine Skizze zu analysieren und zu reparieren, die nicht mehr bearbeitbar ist oder ungültige Beschränkungen enthält, oder um fehlende [Deckungsgleiche Beschränkungen](Sketcher_ConstrainCoincident/de.md) zu einer Skizze hinzuzufügen, die aus importierter Geometrie wie DXF Dateien erstellt wurde. Es kann auch nützlich sein, eine fehlende Deckungsgleichheit in einer ursprünglichen Skizze zu finden, die beim Versuch, eine PartDesign Funktion anzuwenden, die Fehlermeldung \"kann gebrochene Fläche nicht validieren\" erzeugt.
 
-![](images/Sketcher_ValidateSketch_taskpanel.png ) *Das Skizzierer Aufgabenpaneel Validierung*
+![](images/Sketcher_ValidateSketch_taskpanel.png ) 
+*Das Skizzierer Aufgabenpaneel Validierung*
 
 ## Anwendung
 

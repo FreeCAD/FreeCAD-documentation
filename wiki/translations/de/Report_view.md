@@ -8,6 +8,7 @@ Bestimmte Eigenschaften dieser Konsole, wie die Farbe des Textes und ob er bei W
 <img alt="" src=images/FreeCAD_Report_view.png  style="width:800px;">
 
 
+
 *Die Berichtsansicht zeigt Meldungen an, wenn FreeCAD gerade gestartet wurde.*
 
 ## Meldungen
@@ -30,6 +31,7 @@ Die Berichtsansicht zeigt Meldungen der internen FreeCAD `Console` Klasse an.
 Diese Funktionen können direkt von der [Python Konsole](Python_console/de.md) oder von [Makros](Macros/de.md) und benutzerdefinierten Arbeitsbereichen aus verwendet werden.
 
 <img alt="" src=images/FreeCAD_Report_view_example.png  style="width:800px;">
+
 
 
 *Beispielmeldungen in der Berichtsansicht: eine allgemeine Meldung, eine Warnung, ein Fehler und eine protokollierte Meldung.*

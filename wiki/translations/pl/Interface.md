@@ -8,6 +8,7 @@
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
+
 *Standardowy interfejs w wersji 0.19.*
 
 Główne okno aplikacji można podzielić z grubsza na 11 sekcji:

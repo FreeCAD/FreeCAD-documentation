@@ -20,6 +20,7 @@ The surface can be modified by adding constraint edges and vertices which the su
 <img alt="" src=images/Surface_Filling_example.png  style="width:600px;">
 
 
+
 *Example of a filled surface, delimited by four edges located in the XY plane; (left) only the four edges, and (right) one additional curve in space that defines the curvature of the surface*
 
 ## Usage

@@ -14,7 +14,8 @@
 
 Der Befehl **Std Rückansicht** wendet die Kamerasicht der aktiven [3D-Ansicht](3D_view/de.md) in die Richtung der negativen Y-Achse.
 
-![](images/FreeCAD_views_rear.svg ) *Der Peil 4 zeigt in Richtung der Rückansicht*
+![](images/FreeCAD_views_rear.svg ) 
+*Der Peil 4 zeigt in Richtung der Rückansicht*
 
 ## Anwendung
 

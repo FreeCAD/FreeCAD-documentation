@@ -20,9 +20,11 @@ Lo strumento Decora linea modifica l\'aspetto dei bordi.
 <img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width:180px;">
 
 
+
 *Bordi prima della decorazione*
 
 <img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width:180px;">
+
 
 
 *Bordi dopo la decorazione*

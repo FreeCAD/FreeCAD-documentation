@@ -24,7 +24,8 @@ Il lettore farà pratica su:
 
 Per una descrizione più approfondita dello sketcher, leggere il [Manuale di riferimento per Sketcher](Sketcher_reference/it.md).
 
-![](images/00_Sk01_Sketcher_fully_constrained_final.png ) *Risultato finale dello schizzo, con tutta la geometria completamente vincolata, inclusa la geometria di costruzione per il supporto.*
+![](images/00_Sk01_Sketcher_fully_constrained_final.png ) 
+*Risultato finale dello schizzo, con tutta la geometria completamente vincolata, inclusa la geometria di costruzione per il supporto.*
 
 ## Setup
 
@@ -54,6 +55,7 @@ Siamo ora nella modalità di modifica dello schizzo. Al suo interno, è possibil
 la [vista ad albero](tree_view/it.md) passa alla [scheda azioni](task_panel/it.md); in questa interfaccia espandere la sezione **Modifica controlli** e assicurarsi che l\'opzione **Vincoli automatici** sia abilitata. Altre opzioni possono essere modificate inclusa la dimensione della griglia visibile e se si vuole agganciarla; in questo tutorial non ci agganceremo alla griglia e la nasconderemo anche. In altre sezioni della [scheda azioni](task_panel/it.md) si può anche vedere quali elementi geometrici e vincoli sono stati definiti.
 
 <img alt="" src=images/01_Sk01_Sketcher_Task_panel.png  style="width:" height="400px;">
+
 
 
 *Upper part of the [task panel](task_panel.md) of the sketcher.*
@@ -90,6 +92,7 @@ Look at the **Constraints** and **Elements** sections to see the new listed cons
 <img alt="" src=images/02_Sk01_Sketcher_construction.png  style="width:" height="400px;">
 
 
+
 *Construction lines forming a star shape with its center in the origin.*
 
 ## La geometria reale 
@@ -117,6 +120,7 @@ Make sure you are not in construction mode by clicking on **<img src=images/Sket
 <img alt="" src=images/03_Sk01_Sketcher_outer_arcs.png  style="width:" height="400px;">
 
 
+
 *Circular arcs added at the endpoints of the construction lines. Also a central circle.*
 
 ### Inner arcs 
@@ -130,6 +134,7 @@ Make sure you are not in construction mode by clicking on **<img src=images/Sket
 To summarize, the O-arcs should have their curvature pointing outwards, and their concavity pointing towards the origin of the sketch; the I-arcs should have their curvature pointing inwards, and their concavity pointing away from the same origin.
 
 <img alt="" src=images/04_Sk01_Sketcher_inner_arcs.png  style="width:" height="400px;">
+
 
 
 *Circular arcs added between the first set of arcs placed.*
@@ -190,6 +195,7 @@ if you wish to temporarily disable the constraint, you may select it and press *
 <img alt="" src=images/05c_Sk01_Sketcher_equality_constraints_I-arcs.png  style="width:" height="400px;">
 
 
+
 *Sketch with equality constraints applied to the construction lines, and to the two sets of arcs.*
 
 ### Tangency
@@ -218,6 +224,7 @@ A questo punto, il profilo è chiuso e può essere regolato con le dimensioni de
 </div>
 
 <img alt="" src=images/06_Sk01_Sketcher_tangency_constraints.png  style="width:" height="400px;">
+
 
 
 *Sketch with tangential constraints applied to the arcs, which closes the shape.*
@@ -252,6 +259,7 @@ These constraints specify the numerical distances between two points, and angles
 <img alt="" src=images/07a_Sk01_Sketcher_length_constraint.png  style="width:" height="400px;"> <img alt="" src=images/07b_Sk01_Sketcher_angle_constraint.png  style="width:" height="400px;">
 
 
+
 *Sketch with length constraint applied to one vertical construction line (left), and angle constraints to three pairs of construction lines (right).*
 
 ### Radius
@@ -268,6 +276,7 @@ These constraints specify the numerical distances between two points, and angles
 <img alt="" src=images/08a_Sk01_Sketcher_radius_1_constraint.png  style="width:" height="400px;"> <img alt="" src=images/08b_Sk01_Sketcher_radius_2_constraint.png  style="width:" height="400px;">
 
 
+
 *Sketch with radius constraints applied to the outwards arcs (left), and inwards arcs (right).*
 
 
@@ -276,6 +285,7 @@ These constraints specify the numerical distances between two points, and angles
 Alla fine si dovrebbe ottenere uno schizzo completamente vincolato. Questo può essere confermato dal cambio di colore della geometria reale e dal messaggio che viene mostrato nella [scheda azioni](task_panel/it.md).
 
 <img alt="" src=images/09_Sk01_Sketcher_fully_constrained.png  style="width:" height="400px;">
+
 
 
 *Sketch with all geometrical and datum constraints applied.*
@@ -290,6 +300,7 @@ Alla fine si dovrebbe ottenere uno schizzo completamente vincolato. Questo può 
 :   12.4. Select the sketch, and then press **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Pad](PartDesign_Pad.md)**, choose the default options, and press **OK** to create a solid extrusion.
 
 <img alt="" src=images/09b_Sk01_Sketcher_fully_constrained_clean.png  style="width:" height="400px;"> <img alt="" src=images/10_Sk01_Sketcher_solid_extrusion.png  style="width:" height="400px;">
+
 
 
 *Left: fully constrained sketch with only the most important constraints showing. Right: solid extrusion produced with [PartDesign Pad](PartDesign_Pad.md).*

@@ -5,18 +5,9 @@
 
 ## Введение
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Верстак Path](Path_Workbench/ru.md) используется для генерации машинных инструкций для [станков с ЧПУ](https://en.wikipedia.org/wiki/CNC_router) из моделей FreeCAD. В результате мы получаем изделия, изготовленные на станках с ЧПУ, таких как фрезерные, токарные станки, лазерные резаки и так далее. Обычно эти инструкции на языке [G-кодов](https://en.wikipedia.org/wiki/G-code).
-
-
-</div>
+<img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Верстак Path](Path_Workbench/ru.md) используется для создания машинных инструкций для [станков с ЧПУ](https://en.wikipedia.org/wiki/CNC_router) из 3D-моделей FreeCAD. Это позволяет изготавливать реальные вещи на станках с ЧПУ, таких как: фрезерные, токарные станки, лазерные резаки и тому подобном оборудовании. Обычно эти инструкции на языке [G-кодов](https://en.wikipedia.org/wiki/G-code). Здесь представлен [общий пример моделирования траектории движения инструмента на токарном станке с ЧПУ](https://www.ange-softs.com/SIMULCNCHTML/index.html).
 
 <img alt="" src=images/pathwb.png  style="width:600px;">
-
-
-<div class="mw-translate-fuzzy">
 
 Рабочий процесс создания инструкций в верстаке FreeCAD Path выглядит следующим образом:
 
@@ -26,32 +17,13 @@
 -   Операции обработки задаются с использованием, например, [Контуров](Path_Profile/ru.md) и [Вырезов](Path_Pocket_3D.md). Эти [Операции обработки](Path_objects.md) используют внутренний диалект FreeCAD G-Code, независимо от станка с ЧПУ.
 -   Экспортируйте задание в g-код, соответствующий вашему станку. Этот шаг называется «постобработка», доступны разные постпроцессоры.
 
-
-</div>
-
-## General concepts 
-
-
-<div class="mw-translate-fuzzy">
-
-## ОСновные понятия 
+## Основные понятия 
 
 Верстак Path генерирует G-код, определяющий траектории движения фрезы, необходимую для фрезерования проекта, представленного 3D-моделью на [FreeCAD диалекте G-Кода](https://www.freecadweb.org/wiki/Path_scripting#FreeCAD.27s_internal_GCode_format), который впоследствии переводится на соответствующий диалект для целевого контроллера ЧПУ путем выбора соответствующего постпроцессора.
 
 G-код генерируется из директив и операций, содержащихся в Задании на обработку. Job Workflow перечисляет их в порядке их выполнения. Список заполняется путем добавления Path Operations, Path Dressups, Path Partial Commands и Path Modifications из Path меню или кнопок GUI.
 
-
-</div>
-
-The G-code is generated from directives and Operations contained in a Path Job. The Job Workflow lists these in the order they will be executed. The list is populated by adding Path Operations, Path Dressups, Path Supplemental Commands, and Path Modifications from the Path Menu, or GUI buttons.
-
-
-<div class="mw-translate-fuzzy">
-
-Верстак Path предоставляет Диспетчер инструментов (Библиотека, Таблица инструментов), инструменты контроля G-кода и Симуляции. Он связывает Postprocessor и позволяет импортировать и экспортировать Шаблоны Заданий.
-
-
-</div>
+Верстак Path предоставляет диспетчер инструментов (библиотека и таблица инструментов), инструменты проверки G-кода и симуляции обработки. Он содержит постпроцессор и позволяет импортировать и экспортировать шаблоны заданий.
 
 
 <div class="mw-translate-fuzzy">
@@ -67,14 +39,14 @@ The G-code is generated from directives and Operations contained in a Path Job. 
 
 </div>
 
-## Limitations
+## Ограничения
 
-Some current limitations of which you should be aware are:
+Некоторые текущие ограничения, о которых вам следует знать:
 
--   Most of the Path Tools are not true 3D tools but only 2.5D capable. This means that they take a fixed 2D shape and can cut it down to a given depth. However, there are two tools which produce true 3D paths: **<img src="images/Path_3DPocket.svg" width=24px> [3D Pocket](Path_Pocket_3D.md)** and **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)** (which is still an [experimental feature](Path_experimental.md) as of November 2020).
--   Most of Path workbench is designed for a simple, standard 3-axis (xyz) CNC mill/router, but lathe tools are under development in 0.19\_pre.
--   Most operations in Path workbench will return paths based on a standard endmill tool/bit only, regardless of the tool/bit type assigned in a given tool controller with the exception of the **<img src="images/Path_Engrave.svg" width=24px> [Engrave](Path_Engrave.md)** and **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)** operations.
--   The operations within the Path workbench are not aware of clamping mechanisms in use to secure the model to your machine. Consequently, please review and simulate the paths you generate prior to sending the code to your machine. If necessary, model your clamping mechanisms in FreeCAD in order to better inspect the paths generated. Look for possible collisions with clamps or other obstacles along the paths.
+-   Большинство инструментов Path Tools не являются настоящими 3D-инструментами, поскольку поддерживают только 2.5D-обработку. Это означает, что они фактически обрабатывают плоскую форму, но могут вырезать ее до заданной глубины. Однако есть два инструмента, которые создают истинные трехмерные пути: **<img src="images/Path_3DPocket.svg" width=24px> [3D Pocket](Path_Pocket_3D.md)** и **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)** (он все еще является [экспериментальной функцией](Path_experimental.md) по состоянию на ноябрь 2020 г.).
+-   Большая часть верстака Path разработана для простых, стандартных 3-осевых (xyz) фрезерных станков и роутеров с ЧПУ, но операции для токарной обработки находятся в разработке в версии 0.19\_pre.
+-   Большинство операций в верстаке Path будут создавать пути, основанные лишь на стандартной концевой фрезе, независимо от типа инструмента , назначенного в данном контроллере инструмента, за исключением **<img src="images/Path_Engrave.svg" width=24px> [Engrave](Path_Engrave.md)** и **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)**.
+-   Операции в верстаке Path не знают о зажимных механизмах, используемых для закрепления заготовки на вашем станке. Следовательно, внимательно просмотрите и симулируйте пути, которые вы создаете, перед отправкой кода на ваш станок. При необходимости смоделируйте свои зажимные механизмы в FreeCAD, чтобы лучше проверять создаваемые пути. Ищите возможные столкновения с зажимами или другими препятствиями на пути движения инструмента.
 
 ## Единицы измерения 
 
@@ -84,7 +56,7 @@ Some current limitations of which you should be aware are:
 2.  В схеме единиц измерения по умолчанию используются единицы измерения по умолчанию. Если вы используете схему по умолчанию и вводите скорость подачи без единиц измерения, она будет восприниматься как «мм/с»
 3.  Большинство станков с ЧПУ предполагает, что скорость подачи будет в «мм/мин» или «дюйм/мин». Большинство постпроцессоров автоматически конвертируют единицы при генерации gcode.
 
-Schemas:
+Схемы:
 
 1.  Изменение схемы в настройках изменяет строку по умолчанию для полей ввода. Если вы являетесь пользователем Path и предпочитаете проектировать в метрической системе настоятельно рекомендуется использовать схему «Метрические мелкие детали и ЧПУ». Если вы проектируете в единицах США, то будет работать Imperial Decimal и Building US
 2.  Изменение предпочитаемой схемы объекта не повлияет на вывод, но поможет избежать ошибок ввода
@@ -101,91 +73,52 @@ Schemas:
 
 1.  Если вы используете инструмент Path Inspect для просмотра g-кода, вы увидите подачу в «мм/с», потому что он не подвергается пост-обработке
 
-## Heights and depths 
+## Высоты и глубины 
 
-
-<div class="mw-translate-fuzzy">
-
-## Команды Path 
-
-Многие из команд имеют различные высоты и глубины: <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
-*Визуальная справка по свойствам Depth (установки)*
-
-
-</div>
+Многие из команд имеют различные высоты и глубины:
 
 <img alt="" src=images/Path-DepthsAndHeights.gif  style="width:500px;"> 
-*Visual reference for Depth properties (settings)*
+*Визуальная справка по свойствам Depth (установки)*
 
-## Commands
+## Команды
 
-Some commands are experimental and not available by default. To enable them see [Path experimental](Path_experimental.md).
+Некоторые команды являются экспериментальными и недоступны по умолчанию. Для их включения, см. [Path experimental](Path_experimental.md).
 
-### Project Commands 
+### Команды проекта 
 
+-   <img alt="" src=images/Path_Job.svg  style="width:32px;"> [Проект](Path_Job.md): Создаёт новую программу для ЧПУ
 
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Job.svg  style="width:32px;"> [Проект](Path_Job/ru.md): Создаёт новый проект ЧПУ
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_PostProcess.svg  style="width:32px;"> [Post Process](Path_Post/ru.md): Экспортирует проект в G-код
-
-
-</div>
+-   <img alt="" src=images/Path_Post.svg  style="width:32px;"> [Постобработка](Path_Post.md): Экспортирует проект в G-код
 
 -   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> _. <small>(v0.19)</small> 
 
+-   <img alt="" src=images/Path_ExportTemplate.svg  style="width:32px;"> [Экспорт шаблона](Path_ExportTemplate.md): Экспортирует текущий проект в качестве шаблона
 
-<div class="mw-translate-fuzzy">
+### Инструментальные команды 
 
--   <img alt="" src=images/Path_ExportTemplate.svg  style="width:32px;"> [Экспорт Шаблона](Path_ExportTemplate.md): Экспортирует текущий проект в качестве шаблона
+-   <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [Inspect G-code](Path_Inspect.md): Показывает G-код для проверки
 
+-   <img alt="" src=images/Path_Simulator.svg  style="width:32px;"> [CAM Simulator](Path_Simulator.md): Показывает операции фрезерной обработки, эмулируя станок
 
-</div>
+-   <img alt="" src=images/Path_SelectLoop.svg  style="width:32px;"> [Finish Selecting Loop](Path_SelectLoop.md): Завершает петлю между двумя выбранными кромками.
 
-### Tool Commands 
+-   <img alt="" src=images/Path_OpActiveToggle.svg  style="width:32px;"> [Toggle the Active State of the Operation](Path_OpActiveToggle.md): Активирует или деактивирует операцию.
 
+-   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width:32px;"> [ToolBit Library editor](Path_ToolBitLibraryOpen.md): Открывает редактор для управления библиотеками инструментов ToolBit. <small>(v0.19)</small> 
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Открывает панель ToolBit. <small>(v0.19)</small> 
 
--   <img alt="" src=images/Path_Inspect.svg  style="width:32px;"> [G-Code Inspector](Path_Inspect/ru.md): Показывает G-код для проверки
+### Основные операции 
 
+-   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile.md): Создает операцию обработки профиля для всей модели или для одной или нескольких выбранных граней или кромок. <small>(v0.19)</small> 
 
-</div>
+-   <img alt="" src=images/Path_Pocket_Shape.svg  style="width:32px;"> [Pocket Shape](Path_Pocket_Shape.md): Создает операцию обработки кармана для одного или нескольких выбранных карманов.
 
+-   <img alt="" src=images/Path_Drilling.svg  style="width:32px;"> [Drilling](Path_Drilling.md): Создает цикл сверления.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_Face.svg  style="width:32px;"> [Face](Path_MillFace.md): Создает путь обработки поверхности.
 
--   <img alt="" src=images/Path_Simulator.png  style="width:32px;"> [Simulator](Path_Simulator.md):Показывает операции фрезерной обработки, эмулируя станок
-
-
-</div>
-
--   <img alt="" src=images/Path_SelectLoop.svg  style="width:32px;"> [Finish Selecting Loop](Path_SelectLoop.md): Completes a loop from two selected edges.
-
--   <img alt="" src=images/Path_OpActiveToggle.svg  style="width:32px;"> [Toggle the Active State of the Operation](Path_OpActiveToggle.md): Activates or de-activates a path operation.
-
--   <img alt="" src=images/Path_ToolBitLibraryOpen.svg  style="width:32px;"> [ToolBit Library editor](Path_ToolBitLibraryOpen.md): Opens an editor to manage ToolBit libraries. <small>(v0.19)</small> 
-
--   <img alt="" src=images/Path_ToolBitDock.svg  style="width:32px;"> [ToolBit Dock](Path_ToolBitDock.md): Toggles the ToolBit Dock. <small>(v0.19)</small> 
-
-### Basic Operations 
-
--   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile.md): Creates a profile operation of the entire model, or from one or more selected faces or edges. <small>(v0.19)</small> 
-
--   <img alt="" src=images/Path_Pocket_Shape.svg  style="width:32px;"> [Pocket Shape](Path_Pocket_Shape.md): Creates a pocketing operation from one ore more selected pocket(s).
-
--   <img alt="" src=images/Path_Drilling.svg  style="width:32px;"> [Drilling](Path_Drilling.md): Performs a drilling cycle.
-
--   <img alt="" src=images/Path_Face.svg  style="width:32px;"> [Face](Path_MillFace.md): Creates a surfacing path.
-
--   <img alt="" src=images/Path_Helix.svg  style="width:32px;"> [Helix](Path_Helix.md): Creates a helical path.
+-   <img alt="" src=images/Path_Helix.svg  style="width:32px;"> [Helix](Path_Helix.md): Создает спиральную траекторию.
 
 -   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptive](Path_Adaptive.md): Creates an adaptive clearing and profiling operation.
 
@@ -217,43 +150,25 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_DressupTag.svg  style="width:32px;"> [Tag Dressup](Path_DressupTag.md): Adds a holding tag dressup modification to a selected path.
 
-### Supplemental Commands 
+### Дополнительные команды 
 
+-   <img alt="" src=images/Path_Fixture.svg  style="width:32px;"> [Крепление](Path_Fixture.md): Изменяет позицию крепления
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_Comment.svg  style="width:32px;"> [Comment](Path_Comment.md): Вставляет комментарий в G-код.
 
--   <img alt="" src=images/Path_Fixture.png  style="width:32px;"> [Крепление](Path_Fixture/ru.md): Изменяет позицию фиксации
+-   <img alt="" src=images/Path_Stop.svg  style="width:32px;"> [Stop](Path_Stop.md): Вставить команду полной остановки станка.
 
+-   <img alt="" src=images/Path_Custom.svg  style="width:32px;"> [Custom](Path_Custom.md): Вставляет пользовательский G-код.
 
-</div>
+-   <img alt="" src=images/Path_Shape.svg  style="width:32px;"> _.
 
--   <img alt="" src=images/Path_Comment.svg  style="width:32px;"> [Comment](Path_Comment.md): Inserts a comment in the G-code of a path.
+### Модификация траектории 
 
+-   <img alt="" src=images/Path_Copy.svg  style="width:32px;"> [Copy the operation in the job](Path_Copy.md): Создает параметрическую копию выбранного объекта траектории.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_Array.svg  style="width:32px;"> [Array](Path_Array.md): Создает массив путем дублирования выбранного участка траектории.
 
--   <img alt="" src=images/Path_Stop.svg  style="width:32px;"> [Остановить](Path_Stop/ru.md): Вставить команду полной остановки машины
-
-
-</div>
-
--   <img alt="" src=images/Path_Custom.svg  style="width:32px;"> [Custom](Path_Custom.md): Inserts custom G-code.
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Shape.svg  style="width:32px;"> [Gcode from a Shape](Path_Shape/ru.md): Создаёт траекторию из существующего объекта Part
-
-
-</div>
-
-### Path Modification 
-
--   <img alt="" src=images/Path_Copy.svg  style="width:32px;"> [Copy the operation in the job](Path_Copy.md): Creates a parametric Copy of a selected path object.
-
--   <img alt="" src=images/Path_Array.svg  style="width:32px;"> [Array](Path_Array.md): Creates an array by duplicating a selected path.
-
--   <img alt="" src=images/Path_SimpleCopy.svg  style="width:32px;"> [Simple Copy](Path_SimpleCopy.md): Creates a non-parametric copy of a selected path object.
+-   <img alt="" src=images/Path_SimpleCopy.svg  style="width:32px;"> [Simple Copy](Path_SimpleCopy.md): Создает непараметрическую копию выбранного объекта траектории.
 
 ### Miscellaneous
 
@@ -263,17 +178,11 @@ Some commands are experimental and not available by default. To enable them see 
 
 ### Obsolete
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_ToolLibraryEdit.png  style="width:32px;"> [Tool Manager](Path_ToolLibraryEdit.md): Редактировать таблицу инструментов
-
-
-</div>
+-   <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:32px;"> [Диспетчер инструментов](Path_ToolLibraryEdit.md): Редактор таблицу инструментов. «Устаревшая» система работы с инструментами.{{VersionMinus|0.18}}
 
 ## ToolBit architecture 
 
-Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <small>(v0.19)</small> 
+Управляйте инструментами и библиотекой инструментов. Основано на архитектуре ToolBit. <small>(v0.19)</small> 
 
 -   [Path Tools](Path_Tools.md)
 -   [Path ToolShape](Path_ToolShape.md)
@@ -281,7 +190,7 @@ Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <sm
 -   [Path ToolBit Library](Path_ToolBit_Library.md)
 -   [Path ToolController](Path_ToolController.md)
 
-## Other
+## Прочее
 
 -   [Path FAQ](Path_FAQ.md): The Path Workbench shares many concepts with other CAM software packages but has its own peculiarities. If something seems wrong this is a good place to start.
 -   [Path SetupSheet](Path_SetupSheet.md): You can use a SetupSheet to customize how various property values for operations are calculated.
@@ -289,19 +198,19 @@ Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <sm
 -   [Path fourth axis](Path_fourth_axis.md): Experimental four axis milling.
 -   [Path Development Roadmap](Path_Development_Roadmap.md): Read this if you are a developer and want to contribute to Path.
 
-## Preferences
+## Настройки
 
--   <img alt="" src=images/Preferences-path.svg  style="width:32px;"> [Preferences\...](Path_Preferences.md): Preferences available for the Path Workbench.
+-   <img alt="" src=images/Preferences-path.svg  style="width:32px;"> [Настройки\...](Path_Preferences.md): Настройки, доступные для верстака Path.
 
 ## Скриптование
 
-See [Path scripting](Path_scripting.md).
+Смотри [Создание сценариев (скриптов) модуля Part](Part_scripting/ru.md)
 
-## Tutorials
+## Руководства
 
--   [Path Walkthrough for the Impatient](Path_Walkthrough_for_the_Impatient.md): a quick tutorial to get familiar with Path.
+-   [Path Walkthrough for the Impatient](Path_Walkthrough_for_the_Impatient.md): краткое руководство для ознакомления с верстаком Path.
 
-## Videos
+## Видео
 
 -   _.
 -   [FreeCAD CAM Path Workbench](https://www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC): a playlist with a series of 7 videos in English by CAD CAM Lessons.

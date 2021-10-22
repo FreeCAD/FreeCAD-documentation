@@ -20,6 +20,7 @@ Lo strumento Linea centrale a 2 punti aggiunge una linea centrale tra due vertic
 <img alt="" src=images/CL2PointsSample.png  style="width:200px;">
 
 
+
 *Linea centrale tra 2 punti*
 
 ## Utilizzo

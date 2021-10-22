@@ -10,6 +10,7 @@ An _ from smaller subassemblies, and from multiple reusable components like scre
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Simplified diagram of the relationships between the core objects in the program. The `App::Link* object is a core component of the system, it does not depend on any workbench, but it can be used with most objects created in all workbenches.`
 
 ## Usage

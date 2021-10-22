@@ -13,15 +13,7 @@
 
 ## Description
 
-
-<div class="mw-translate-fuzzy">
-
-## Description 
-
 Cette petite macro permet de construire très facilement un projet 3D à partir d\'une image bitmap avec 256 nuances de gris.
-
-
-</div>
 
 J\'espère que cette macro va changer notre façon de penser lors de la modélisation avec la CAO et la conversion CNC en objets 3D avec peu ou pas d\'intervention.
 
@@ -32,28 +24,12 @@ La macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/262317bc7d8555885b0e/raw/3ec2ab127d8ad01a6b657aa5df9a6127ff07c7c0/Macro%2520FCTexture.FCMacro}}
 
-<img alt="" src=images/Texture_004_Honda.png  style="width:480px;">
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="Texture 004 Honda" src=images/Texture_004_Honda.png  style="width:480px;"> 
+<img alt="" src=images/Texture_004_Honda.png  style="width:480px;"> 
 *Texture 004 Honda*
-
-
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
 
 ## Utilisation
 
 Cette macro nécessite une image en 256 nuances de gris (0-255). Par conséquent, avant d\'exécuter la macro, convertissez votre image en niveaux de gris (noir et blanc). Lors de l\'exécution de la macro, le nombre de couleurs est détecté automatiquement. Note : si l\'image a plus de 256 couleurs, une autre fonction est attendue (WIP). Chaque couleur (niveau de gris) est considérée comme une profondeur, le blanc (255) le niveau haut et le noir (0) le niveau le plus bas (profond).
-
-
-</div>
 
 La configuration se fait avant l\'ouverture du fichier, les valeurs par défaut sont les réglages prévu pour obtenir un projet de dimensions :
 
@@ -67,18 +43,7 @@ Remarque importante : selon la taille de l\'image, le projet peut devenir très 
 
 ### Interface
 
-
-<div class="mw-translate-fuzzy">
-
 <img alt="Texture 002" src=images/Texture_002.png  style="width:300px;">
-
-
-</div>
-
-#### Coordinates
-
-
-<div class="mw-translate-fuzzy">
 
 #### Coordonnées
 
@@ -88,14 +53,6 @@ Remarque importante : selon la taille de l\'image, le projet peut devenir très 
 
 -    **Coordinate Z <img src="images/Std_CoordinateSystem.svg" width=24px>**{{SpinBox|0,00 mm}} : La position de la coordonnée **Z** de l\'objet (par défaut: 0).
 
-
-</div>
-
-#### Stretching
-
-
-<div class="mw-translate-fuzzy">
-
 #### Étirement
 
 -    **Stretching X**{{SpinBox|0,00 mm}} : rétrécissement ou agrandissement du **X** (longueur) de l\'objet (par défaut : 0)
@@ -104,15 +61,7 @@ Remarque importante : selon la taille de l\'image, le projet peut devenir très 
 
 -    **Stretching Z**{{SpinBox|0,00 mm}} : rétrécissement ou agrandissement du **Z** (profondeur) de l\'objet (par défaut : 0).
 
-
-</div>
-
 #### Inversion
-
-
-<div class="mw-translate-fuzzy">
-
-#### Inversion 
 
 -    {{CheckBox|Axis X}}: inverse les coordonnées *X* de l\'image.
 
@@ -120,20 +69,9 @@ Remarque importante : selon la taille de l\'image, le projet peut devenir très 
 
 -    {{CheckBox|Axis Z}}: inverse les coordonnées *Z* de l\'image.
 
-
-</div>
-
-#### 8 bit Mode 
-
-
-<div class="mw-translate-fuzzy">
-
 #### Mode 8 Bits 
 
 La valeur de début de l\'opération s\'adapte automatiquement à la fonction choisie : 0 si le réglage est sur noir (**Black**) ou sur 255 si le réglage est sur blanc (**White**) ou 19 si le réglage est sur noir (**Black**)
-
-
-</div>
 
 -    {{RadioButton|TRUE|<img src="images/Draft_Wire.svg" width=24px> Wire}}: Construit la ligne (les vecteurs) sous forme de Wire.
 
@@ -145,38 +83,17 @@ La valeur de début de l\'opération s\'adapte automatiquement à la fonction ch
 
 -    {{CheckBox|Nuance}}: Si l\'option ombre est cochée, la couleur du point est représentée sous forme d\'image.
 
-#### 32 bit Mode 
-
-
-<div class="mw-translate-fuzzy">
-
 #### Mode 32 Bits 
 
 -    {{RadioButton|TRUE|Photo}}: le mode photo est automatiquement activé lorsqu\'une **image 32 bits** est détectée. (Note : cette procédure est gourmande en ressources CPU)
 
 -    {{RadioButton|Plan}}: permet d\'importer une **image 32 bits** et d\'ignorer le fond du plan. Par défaut le fond de plan est noir à ignorer les couleurs sont ajustables avec la commande **Capping**. Si Blanc est coché, le fond a ignorer sera blanc. (Note : cette procédure est gourmande en ressources CPU)
 
-
-</div>
-
-#### File
-
-
-<div class="mw-translate-fuzzy">
-
 #### Fichier
 
 -    {{CheckBox|.pcd}}: si coché, un fichier (originalName.bmp.pcd) est enregistré dans le même répertoire que le fichier (pcd v0.7).
 
 -    {{CheckBox|.asc}}: si coché, un fichier (originalName.bmp.asc) est enregistré dans le même répertoire que le fichier. Ce fichier peut être utilisé comme un nuage de points (format : X Y Z).
-
-
-</div>
-
-#### Capping (10mm) 
-
-
-<div class="mw-translate-fuzzy">
 
 #### Ecrêtement (10 mm) 
 
@@ -194,14 +111,6 @@ La valeur de début de l\'opération s\'adapte automatiquement à la fonction ch
 
 -    {{SpinBox|20 Capping}}: cette fenêtre de saisie donne les degrés d\'ecrêtement.
 
-
-</div>
-
-#### Command
-
-
-<div class="mw-translate-fuzzy">
-
 #### Commande
 
 -    **File and launch**: Ouvre le fichier image et lance la conversion.
@@ -215,9 +124,6 @@ La valeur de début de l\'opération s\'adapte automatiquement à la fonction ch
     -   \_\_Pour la recherche si la macro est mise à jour:\_\_
     -   Paramètre utilisateur: **BaseApp/Preferences/Macros/FCMmacros/FCTexture → switchVesionMacroSearch**
     -   Réglez switchVesionMacroSearch sur `True` (`False` par défaut)
-
-
-</div>
 
 -    **Quit**: sort de la fonction.
 
@@ -329,25 +235,11 @@ Image:Texture\_003\_napperon.png\|Une portion d\'une nappe de table. Image:Textu
 </center>
 
 
-## Links
-
-
-<div class="mw-translate-fuzzy">
-
 ## Liens
 
 La discussion sur [le forum](http://forum.freecadweb.org/viewtopic.php?f=24&t=5893) pour donner vos impressions.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
 La macro <img alt="FCCreaLoft" src=images/FCCreaLoft.png  style="width:32px;"> [Macro Loft](Macro_Loft/fr.md) pour automatiser le multi loft.
-
-
-</div>
 
 [apply hair cell texture](http://forum.freecadweb.org/viewtopic.php?f=3&t=4708&start=10#p46353)
 

@@ -38,9 +38,9 @@ Ez az eszköz lehetővé teszi egy [\*.STL](https://en.wikipedia.org/wiki/STL_(f
 
 </div>
 
-## Supported file types 
+## Supported file formats 
 
-The **Mesh Import** supports: bms, stl, ast, iv, nas, bdf, obj, smf, off and ply files. For NASTRAN nas/bdf file, only GRID, CTRIA3 and CQUAD4 cards are supported. In each data line, a space must exist between two variables.
+The command supports: stl, ast, bms, obj, off, iv, ply, nas and bdf files. For the NASTRAN (nas/bdf) file format, only GRID, CTRIA3 and CQUAD4 cards are supported.
 
 ## Preferences
 

@@ -35,11 +35,13 @@ So a curve with which you can connect two points tangentially to a reference poi
 
 Bézier curves are polynomials to describe the connection between 2 points. The simplest polynomial connecting 2 points is a line ($A*x^1+B$) thus also linear Bézier curves are linear:
 
- ![](images/Bezier_linear_anim.gif )  *Animation 1: Linear Bézier curve.*
+ ![](images/Bezier_linear_anim.gif )  
+*Animation 1: Linear Bézier curve.*
 
 However a polynomial becomes first be useful when we can control it. So there should be a point between the 2 endpoints that allows us to define how the endpoints are connected. Like in the above example option 3 the curve is helpful when it starts and ends tangentially to lines crossing the endpoints. And this is a main feature of Bézier curves. So let\'s add a control point between the 2 endpoints. The curve will start tangentially towards this control point, meaning it is tangential to the line that we can draw between the startpoint and the control point. Going backwards from the endpoint the curve will also be tangential to the line we can draw between the control point and the end point. Animation 2 shows how such a curve looks.
 
- ![](images/Bezier_quadratic_anim.gif )  *Animation 2: Quadratic Bézier curve. P1 is hereby the control point.*
+ ![](images/Bezier_quadratic_anim.gif )  
+*Animation 2: Quadratic Bézier curve. P1 is hereby the control point.*
 
 The animation makes clear what the curve basically is - a transition from P0 to P2 by rotating the line P0-P1 to become the line P1-P2. Therefore we get the nice tangential start/end feature.
 
@@ -47,7 +49,8 @@ Such a curve can only be described by a quadratic polynomial. (The number of lef
 
 Having only one control point is often not sufficient. Take the above motivation example. There in option 3 we end the curve tangentially in x-direction. But how can you connect the points (20, 0) and (80, 40) so that the curve ends tangentially in y-direction? To achieve this you need first a right-hand and then a left-hand turn, so a cubic (third order) polynomial. And that means for a Bézier curve that we need (or you can say we gain) a second control point. Animation 3 shows a cubic Bézier curve.
 
- ![](images/Bezier_cubic_anim.gif )  *Animation 3: Cubic Bézier curve.*
+ ![](images/Bezier_cubic_anim.gif )  
+*Animation 3: Cubic Bézier curve.*
 
 To answer the question, the solution with the tangential y-direction ending for the example is this one:
 
@@ -102,7 +105,8 @@ Hereby $p_k$ is the $k$-th control point of the B-spline and also a factor for t
 
 As explained in the video, the basis polynomials are Bernstein polynomials. The set of basis polynomials for a certain B-spline can be visualized this way:
 
- ![](images/Bernstein_Polynomials.svg )  *A set of Bernstein polynomials with order 4. They describe a 4th order B-spline with 5 control points.*
+ ![](images/Bernstein_Polynomials.svg )  
+*A set of Bernstein polynomials with order 4. They describe a 4th order B-spline with 5 control points.*
 
 At every spline position $t$ the sum of polynomials is 1 (indicated by the orange line). At the start only the red polynomial has an influence since all other polynomials are there 0. At greater $t$ the spline is described by a linear combination of different basis polynomials. In the image above, every polynomial is greater than 1 for the whole range $0 < t < 1$. This is not necessarily the case. As shown in the video, the basis polynomials are basically only greater than 0 for a certain spline position range. The interval at which a basis polynomial is greater than 0 is described by the *knot vector*. If you are interested in learning about the knot vector, have a look at [this video](https://www.youtube.com/watch?v=ni5NNPCVvDY).
 

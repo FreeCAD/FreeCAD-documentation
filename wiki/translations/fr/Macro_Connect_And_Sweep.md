@@ -30,7 +30,12 @@ lancez la macro sélectionnez vos objets ou points choisissez la forme et régle
 <img alt="" src=images/Macro_Connect_And_Sweep_01.png  style="width:350px;"> 
 *Macro_Connect_And_Sweep*
 
-![](images/Macro_Connect_And_Sweep_Discretize.png ) *Discretize* ![](images/Macro_Connect_And_Sweep_Duplicate.png ) *Duplicate* ![](images/Macro_Connect_And_Sweep_Sweep.png ) *Sweep* ![](images/Macro_Connect_And_Sweep_Loft.png ) *Loft* ![](images/Macro_Connect_And_Sweep_Reset.png ) *Reset*
+![](images/Macro_Connect_And_Sweep_Discretize.png ) 
+*Discretize* ![](images/Macro_Connect_And_Sweep_Duplicate.png ) 
+*Duplicate* ![](images/Macro_Connect_And_Sweep_Sweep.png ) 
+*Sweep* ![](images/Macro_Connect_And_Sweep_Loft.png ) 
+*Loft* ![](images/Macro_Connect_And_Sweep_Reset.png ) 
+*Reset*
 
 ## Images
 
@@ -113,15 +118,18 @@ Créer un tubage en suivant un chemin avec Macro\_Connect\_And\_Sweep et [Macro\
 ==Exemples animés==
 
 
+
 *align=center|
 [[File:Macro Connect And Sweep Sweep2.gif]]*
 
 {clear}}
 
 
+
 *align=center|
 Objet et Objet, connexion boundBox center objet 1 et boundBox center objet 2
 [[File:Connect_And_Sweep_01_Object_Object.gif]]*
+
 
 
 
@@ -135,6 +143,7 @@ Object SubObject, connexion boundBox center objet 1 et boundBox center Subobjet 
 
 
 
+
 *align=center|
 SubObject SubObject, connexion boundBox center Subobject 1 et boundBox center Subobject 2
 [[File:Connect_And_Sweep_03_SubObject_SubObject.gif]]*
@@ -143,9 +152,11 @@ SubObject SubObject, connexion boundBox center Subobject 1 et boundBox center Su
 
 
 
+
 *align=center|
 Connect And Sweep Direction un objet sélectionne ou Subobject selectionné
 [[File:Connect And Sweep 4 Direction.gif]]*
+
 
 
 

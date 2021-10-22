@@ -18,7 +18,8 @@
 
 Lo strumento Linea guida aggiunge una linea a una vista. Altri oggetti di annotazione, come un [Blocco di testo](TechDraw_RichTextAnnotation/it.md), possono essere collegati alla linea guida per formare annotazioni complesse.
 
-![](images/TechDraw_LeaderLine_sample.png ) *Linea guida aggiunta a View001*
+![](images/TechDraw_LeaderLine_sample.png ) 
+*Linea guida aggiunta a View001*
 
 ## Utilizzo
 

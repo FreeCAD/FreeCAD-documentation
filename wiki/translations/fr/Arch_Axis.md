@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil **<img src="images/Arch_Axis.svg" width=16px> [Axes](Arch_Axis/fr.md)** vous permet de placer une série d\'axes dans le document en cours. La distance et l\'angle entre les axes sont personnalisables, ainsi que le style de numérotation. Les axes servent principalement de références pour accrocher des objets mais peuvent également être utilisés avec **<img src="images/Arch_Axis_System.svg" width=16px> [Arch Système d'axes](Arch_AxisSystem/fr.md)**, et peuvent également être référencés par d\'autres objets Arch pour créer des réseaux paramétriques, par exemple des poutres ou des colonnes. **<img src="images/Arch_Grid.svg" width=16px> [Arch Grilles](Arch_Grid/fr.md)** peut également être utilisé à la place des axes.
+L\'outil **<img src="images/Arch_Axis.svg" width=16px> [Axes](Arch_Axis/fr.md)** vous permet de placer une série d\'axes dans le document en cours. La distance et l\'angle entre les axes sont personnalisables, ainsi que le style de numérotation. Les axes servent principalement de références pour accrocher des objets mais peuvent également être utilisés avec **<img src="images/Arch_Axis_System.svg" width=16px> [Arch Système d'axes](Arch_AxisSystem/fr.md)**. Ils peuvent également être référencés par d\'autres objets Arch pour créer des réseaux paramétriques, par exemple des poutres ou des colonnes. **<img src="images/Arch_Grid.svg" width=16px> [Arch Grilles](Arch_Grid/fr.md)** peut également être utilisé à la place des axes.
 
 <img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;"> 
 *Deux objets axes placés perpendiculairement l'un par rapport à l'autre pour créer une grille*
@@ -25,10 +25,10 @@ L\'outil **<img src="images/Arch_Axis.svg" width=16px> [Axes](Arch_Axis/fr.md)**
 
 ## Options
 
--   Chaque axe de la série a sa propre distance et son propre angle par rapport à l\'axe précédent. Cela permet de faire des systèmes très complexes tels que des systèmes non orthogonaux, des systèmes polaires ou tout type de système non uniforme
--   Double-cliquer sur l\'axe dans l\'arborescence permet d\'éditer les distances, les angles et les étiquettes de chaque axe
--   La longueur des axes, la taille des bulles et les styles de numérotation sont personnalisables directement via les propriétés du système d\'axes
--   Chaque axe peut également afficher une étiquette, également modifiable via la boîte de dialogue du panneau des tâches
+-   Chaque axe de la série a sa propre distance et son propre angle par rapport à l\'axe précédent. Cela permet de faire des systèmes très complexes tels que des systèmes non orthogonaux, des systèmes polaires ou tout type de système non uniforme.
+-   Double-cliquer sur l\'axe dans l\'arborescence permet d\'éditer les distances, les angles et les étiquettes de chaque axe.
+-   La longueur des axes, la taille des bulles et les styles de numérotation sont personnalisables directement via les propriétés du système d\'axes.
+-   Chaque axe peut également afficher une étiquette, modifiable via la boîte de dialogue du panneau des tâches.
 
 ## Propriétés
 
@@ -93,4 +93,4 @@ FreeCAD.ActiveDocument.recompute()
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Axis/fr
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/fr

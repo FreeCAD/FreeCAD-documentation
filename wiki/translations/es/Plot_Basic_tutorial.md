@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-En este tutorial vamos a aprender a crear gráficos usando el módulo de graficado y la consola Python. Puedes aprender más sobre el [módulo de graficado aquí](Plot_Module/es.md).
+En este tutorial vamos a aprender a crear gráficos usando el módulo de graficado y la consola Python. Puedes aprender más sobre el [módulo de graficado aquí](Plot_Workbench/es.md).
 
 
 </div>
@@ -170,7 +170,7 @@ Lo que graficará los datos. El comando **plot** admite que se le pase el títul
 
 ### Mostrar la malla y la legenda 
 
-Cambie al [módulo de graficado](Plot_Module.md) mediante el menú Ver/Escenario. Cuando haya cargado el módulo podrá emplear la herramienta de mostrado/ocultado de la malla para mostrar la malla.
+Cambie al [módulo de graficado](Plot_Workbench.md) mediante el menú Ver/Escenario. Cuando haya cargado el módulo podrá emplear la herramienta de mostrado/ocultado de la malla para mostrar la malla.
 
 
 </div>
@@ -222,7 +222,7 @@ Icono de la herramienta para mostrar/ocultar la legenda.
 
 <div class="mw-translate-fuzzy">
 
-Como observará la legenda está vacía debido a que las series no tienen asignado un título todavía. En el [módulo de graficado](Plot_Module.md) las series sin título asignado no son consideradas por la legenda, permitiendo crear líneas auxiliares dentro del gráfico.
+Como observará la legenda está vacía debido a que las series no tienen asignado un título todavía. En el [módulo de graficado](Plot_Workbench.md) las series sin título asignado no son consideradas por la legenda, permitiendo crear líneas auxiliares dentro del gráfico.
 
 
 </div>

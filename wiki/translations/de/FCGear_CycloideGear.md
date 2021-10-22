@@ -16,7 +16,8 @@ Cycloidal gears are very sensitive to an inaccurate adjustment of the centre dis
 
 :   ![](images/Cycloid-Gear_example_1.png )
 :   
-    *From left to right: Spur gearing, helical gearing, double helical gearing*
+    
+*From left to right: Spur gearing, helical gearing, double helical gearing*
     
 
 ## Anwendung

@@ -112,7 +112,7 @@ obj.ThePropertyName // returns False
 
 ## App::PropertyBoolList
 
- A property containing a list of booleans. It can contain a python list of booleans, e.g. 
+ A property containing a list of booleans. It can contain a Python list of booleans, e.g. 
 
 
 ```python

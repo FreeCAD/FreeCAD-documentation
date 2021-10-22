@@ -22,7 +22,8 @@ N\'oubliez pas d\'utiliser _, _, _ et _ le cas échéant.
 
 Par exemple: La fonctionnalité pour utiliser `App::Link` {{Version/fr|0.19}} permet la liaison entre les sous-ensembles, etc\....
 
-Ajoutez une image si possible et suivez les instructions dans [WikiPages\#Graphics](WikiPages#Graphics.md) (page en Anglais). Exemple tiré de [Part Balayage](Part_Sweep/fr.md) : ![](images/Part_Sweep_simple.png ) *Facultatif : ajoutez une légende sous l'image pour expliquer le fonctionnement de l'outil.*
+Ajoutez une image si possible et suivez les instructions dans [WikiPages\#Graphics](WikiPages#Graphics.md) (page en Anglais). Exemple tiré de [Part Balayage](Part_Sweep/fr.md) : ![](images/Part_Sweep_simple.png ) 
+*Facultatif : ajoutez une légende sous l'image pour expliquer le fonctionnement de l'outil.*
 
 La fermeture et l'ouverture des balises de traduction doivent entourer les images et d'autres éléments fixes, s'ils ne nécessitent pas de traduction. La légende doit toujours être traduite.
 
@@ -124,6 +125,7 @@ Add an image if possible, and please follow the guidelines in [Part 
 </translate>
 ![](images/)
 <translate>
+
 *Optional: add a caption below the image to explain what the tool does*
 
 Closing and opening translate tags should surround images, and other fixed elements, if they don't need to be translated. The caption should always be translated.

@@ -11,6 +11,7 @@ Par exemple, un boulon, une rondelle et un écrou sont trois corps distincts qui
 <img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;">
 
 
+
 *À gauche: trois solides contigus individuels, chacun modélisé par un _ pour créer un assemblage.*
 
 ## Utilisation

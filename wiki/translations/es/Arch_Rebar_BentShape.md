@@ -62,6 +62,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 :   <img alt="" src=images/BentShapeDialog.png  style="width:250px;">
 
 
+
 *Taskview panel for the Arch Rebar BentShape tool*
 
 ## Propiedades

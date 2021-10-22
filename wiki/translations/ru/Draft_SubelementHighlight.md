@@ -17,7 +17,8 @@
 
 The <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> **Draft SubelementHighlight** command temporarily highlights selected objects, or the base objects of selected objects. It is intended to be used in conjunction with the subelement mode of the [Draft Move](Draft_Move.md) command, the [Draft Rotate](Draft_Rotate.md) command or the [Draft Scale](Draft_Scale.md) command. Currently subelement mode only works properly for [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md).
 
-![](images/Draft_SubelementHighlight_example.png ) *An Arch Wall whose base, a Draft Wire, has been highlighted*
+![](images/Draft_SubelementHighlight_example.png ) 
+*An Arch Wall whose base, a Draft Wire, has been highlighted*
 
 ## Использование
 

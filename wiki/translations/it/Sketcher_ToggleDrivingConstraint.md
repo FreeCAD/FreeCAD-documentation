@@ -22,9 +22,11 @@ Lo strumento <img alt="" src=images/Sketcher_ToggleConstraint.svg  style="width:
 
 </div>
 
-![](images/Sketcher_Constraint_Toolbar_ReferenceMode.png ) *La barra degli strumenti Vincolo di Sketcher con i vincoli dimensionali nella modalità quote di riferimento (blu).*
+![](images/Sketcher_Constraint_Toolbar_ReferenceMode.png ) 
+*La barra degli strumenti Vincolo di Sketcher con i vincoli dimensionali nella modalità quote di riferimento (blu).*
 
-![](images/Sketcher_ToggleConstraint_example.png ) *Per definire il profilo sono stati impostati un vincolo di distanza orizzontale (50 mm), un vincolo verticale (30 mm) e un vincolo di angolo (75°); poi al segmento inclinato è stata aggiunta una quota di riferimento per conoscerne la sua lunghezza (31,0583 mm).*
+![](images/Sketcher_ToggleConstraint_example.png ) 
+*Per definire il profilo sono stati impostati un vincolo di distanza orizzontale (50 mm), un vincolo verticale (30 mm) e un vincolo di angolo (75°); poi al segmento inclinato è stata aggiunta una quota di riferimento per conoscerne la sua lunghezza (31,0583 mm).*
 
 ## Utilizzo
 

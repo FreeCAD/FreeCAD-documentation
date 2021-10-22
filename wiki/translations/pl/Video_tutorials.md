@@ -48,7 +48,7 @@ Filmy przedstawiające modelowanie pomieszczeń, domów, budynków biurowych i p
 
 Ponieważ istnieje wiele filmów, które dotyczą tego tematu, proszę odwiedzić stronę: [Wideo poradniki dotyczące projektów architektonicznych](Video_tutorials_for_architectural_design.md).
 
-## Symulacja elementu skończonego *(MES)* 
+## Metoda elementów skończonych *(MES)* Symulacja 
 
 -   _, przez Eklavya Self Learning Tutorials.
 
@@ -58,7 +58,7 @@ Ponieważ istnieje wiele filmów, które dotyczą tego tematu, proszę odwiedzi�
 
 ## Pozostałe
 
--   _, które może być instalowane z poziomu <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Menadżer dodatków](Addon_Manager/pl.md).
+-   _, które może być instalowane z poziomu <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md).
 
 -   [Samouczki FreeCAD - OGÓLNE](https://www.youtube.com/watch?v=WdBQPXeAeMc&list=PLKu--JcOZKTPZjy761ELQ7ba45yZmxOpj) autorstwa AllVisuals4U. FreeCAD 0.16, seria 28 krótkich filmów wideo na temat ogólnych zagadnień związanych z programem FreeCAD, na przykład pokazuje jak zmienić jednostki, kolor tła, ekran powitalny, wiązania, ustawić perspektywę, ustawić przezroczystość, zmienić rozmiar ikon na pasku narzędzi, przygotować się do druku 3D i wytłoczyć tekst. Niektóre bardziej zaawansowane instrukcje obejmują sposób projektowania logo, gięcie metalu i montaż. Większość filmów opisuje FreeCAD 0.16, ale ponieważ nie koncentrują się one na aspektach modelowania, informacje te mają ogólne zastosowanie dla pozostałych wersji.
 

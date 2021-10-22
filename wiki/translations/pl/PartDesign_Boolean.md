@@ -15,6 +15,7 @@
 ![](images/PartDesign_Boolean_example.png )
 
 
+
 *On the left: active body (A) with tool bodies (B) and (C); result on the right after a Boolean Cut.*
 
 ## Usage

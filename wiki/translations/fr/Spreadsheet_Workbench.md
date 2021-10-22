@@ -1,12 +1,4 @@
-# Spreadsheet Workbench/fr
-{{Page_in_progress}}
-
-
-
-
-
-
-<img alt="Icône de l\'atelier Spreadsheet" src=images/Workbench_Spreadsheet.svg  style="width:128px;">
+# <img alt="Icône de l\'atelier Spreadsheet" src=images/Workbench_Spreadsheet.svg  style="width:64px;"> Spreadsheet Workbench/fr
 
 ## Introduction
 
@@ -22,36 +14,57 @@ L\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [ateli
 
 -   <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:24px;"> [Créer une feuille de calcul](Spreadsheet_CreateSheet/fr.md): créer un nouveau tableur.
 
--   <img alt="" src=images/Spreadsheet_Import.svg  style="width:24px;"> [Importer](Spreadsheet_Import/fr.md): importe un fichier de valeurs séparées par des tabulations dans une feuille de calcul.
--   <img alt="" src=images/Spreadsheet_Export.svg  style="width:24px;"> [Exporter](Spreadsheet_Export/fr.md): exporte un fichier de valeurs séparées par des tabulations dans une feuille de calcul.
+-   <img alt="" src=images/Spreadsheet_Import.svg  style="width:24px;"> [Importer](Spreadsheet_Import/fr.md) : importe un fichier CSV dans une feuille de calcul.
 
--   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:24px;"> [Fusionner des cellules](Spreadsheet_MergeCells/fr.md): fusionne les cellules sélectionnées.
--   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:24px;"> [Diviser des cellules](Spreadsheet_SplitCell/fr.md): fractionne les cellules précédemment fusionnées.
+-   <img alt="" src=images/Spreadsheet_Export.svg  style="width:24px;"> [Exporter](Spreadsheet_Export/fr.md) : exporte un fichier CSV depuis une feuille de calcul.
 
--   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;"> [Alignement à gauche](Spreadsheet_AlignLeft/fr.md): aligne le contenu des cellules sélectionnées vers la gauche.
--   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:24px;"> [Alignement au centre](Spreadsheet_AlignCenter/fr.md): aligne horizontalement le contenu des cellules sélectionnées sur le centre.
--   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:24px;"> [Alignement à droite](Spreadsheet_AlignRight/fr.md): aligne le contenu des cellules sélectionnées vers la droite.
--   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:24px;"> [Alignement en haut](Spreadsheet_AlignTop/fr.md): aligne le contenu des cellules sélectionnées vers le haut.
--   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width:24px;"> [Alignement vertical au centre](Spreadsheet_AlignVCenter/fr.md): aligne le contenu des cellules sélectionnées sur le centre de la verticale.
--   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Alignement en bas](Spreadsheet_AlignBottom/fr.md): aligne le contenu des cellules sélectionnées vers le bas.
+-   <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:24px;"> [Fusionner des cellules](Spreadsheet_MergeCells/fr.md) : fusionne les cellules sélectionnées.
 
--   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Texte en gras](Spreadsheet_StyleBold/fr.md): met le contenu des cellules sélectionnées en gras.
--   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Texte en italique](Spreadsheet_StyleItalic/fr.md): met le contenu des cellules sélectionnées en italique.
--   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Texte souligné](Spreadsheet_StyleUnderline/fr.md): met le contenu des cellules sélectionnées en souligné.
+-   <img alt="" src=images/Spreadsheet_SplitCell.svg  style="width:24px;"> [Diviser une cellule](Spreadsheet_SplitCell/fr.md) : divise les cellules précédemment fusionnées.
+
+-   <img alt="" src=images/Spreadsheet_AlignLeft.svg  style="width:24px;"> [Alignement à gauche](Spreadsheet_AlignLeft/fr.md) : aligne le contenu des cellules sélectionnées vers la gauche.
+
+-   <img alt="" src=images/Spreadsheet_AlignCenter.svg  style="width:24px;"> [Alignement au centre](Spreadsheet_AlignCenter/fr.md) : aligne le contenu des cellules sélectionnées au centre, horizontalement.
+
+-   <img alt="" src=images/Spreadsheet_AlignRight.svg  style="width:24px;"> [Alignement à droite](Spreadsheet_AlignRight/fr.md) : aligne le contenu des cellules sélectionnées vers la droite.
+
+-   <img alt="" src=images/Spreadsheet_AlignTop.svg  style="width:24px;"> [Alignement en haut](Spreadsheet_AlignTop/fr.md) : aligne le contenu des cellules sélectionnées en haut.
+
+-   <img alt="" src=images/Spreadsheet_AlignVCenter.svg  style="width:24px;"> [Alignement vertical au centre](Spreadsheet_AlignVCenter/fr.md) : aligne le contenu des cellules sélectionnées au centre, verticalement.
+
+-   <img alt="" src=images/Spreadsheet_AlignBottom.svg  style="width:24px;"> [Alignement en bas](Spreadsheet_AlignBottom/fr.md) : aligne le contenu des cellules sélectionnées vers le bas.
+
+-   <img alt="" src=images/Spreadsheet_StyleBold.svg  style="width:24px;"> [Texte en gras](Spreadsheet_StyleBold/fr.md) : met en gras le contenu des cellules sélectionnées.
+
+-   <img alt="" src=images/Spreadsheet_StyleItalic.svg  style="width:24px;"> [Texte en italique](Spreadsheet_StyleItalic/fr.md) : met le contenu des cellules sélectionnées en italique.
+
+-   <img alt="" src=images/Spreadsheet_StyleUnderline.svg  style="width:24px;"> [Texte souligné](Spreadsheet_StyleUnderline/fr.md) : permet de souligner le contenu des cellules sélectionnées.
 
 -   <img alt="" src=images/Spreadsheet_SetAlias.svg  style="width:24px;"> [Alias](Spreadsheet_SetAlias/fr.md): définit l\'alias d\'une cellule sélectionnée.
 
 -    **Noir**et **Blanc** définissent les couleurs de premier plan et d\'arrière-plan des cellules sélectionnées.
 
--   Menu contextuel des lignes et colonnes de la feuille de calcul : cliquez avec le bouton droit de la souris sur l\'en-tête d\'une ligne ou d\'une colonne pour insérer une nouvelle ligne au-dessus ou une nouvelle colonne à gauche ou pour supprimer la ligne/colonne actuelle. Vous pouvez également sélectionner plusieurs lignes ou colonnes pour les supprimer.{{Version/fr|0.20}} Vous pouvez également sélectionner là où les nouvelles lignes/colonnes seront insérées. De plus, pour insérer par exemple 3 nouvelles colonnes en une seule fois, sélectionnez 3 colonnes et utilisez le menu contextuel qui vous proposera désormais d\'insérer 3 colonnes.
+## Préférences
 
-## Edition de feuilles de calcul 
+-   <img alt="" src=images/Preferences-spreadsheet.svg  style="width:32px;"> [Préférences](Spreadsheet_Preferences/fr.md) : les préférences pour le tableur. {{Version/fr|0.20}}
 
-Comme indiqué ci-dessus dans la section Outils, un clic droit sur un en-tête de ligne ou de colonne fait apparaître un menu déroulant qui vous permet de supprimer la ligne/colonne ou d\'en insérer une nouvelle vierge. Les références de formules aux cellules qui sont déplacées par ces opérations sont corrigées pour faire référence au nouvel emplacement.
+## Insérer et supprimer des lignes et des colonnes 
 
-Les fonctions couper/copier/coller peuvent être utilisées pour modifier des données. Les fonctions Couper et Copier fonctionnent toutes deux sur des cellules individuelles, des rectangles ou tout groupe de cellules que vous avez sélectionné. Couper efface le contenu des cellules sélectionnées. Couper et copier stockent le contenu et les propriétés de la cellule dans le Presse-papiers. Une opération de collage écrit les données mises en mémoire tampon de manière à ce que le contenu de la cellule la plus haute et la plus à gauche de l\'ensemble mis en mémoire tampon soit déposé dans la cellule où se trouve le curseur lorsque vous collez. Les autres contenus mis en mémoire tampon sont déposés là où ils auront la même relation avec cette cible qu\'avec la cellule la plus haute et la plus à gauche de votre ensemble couper/coller.
+Des lignes et des colonnes peuvent être insérées ou supprimées en faisant un clic droit sur un en-tête de ligne ou de colonne et en sélectionnant l\'option appropriée dans le menu contextuel. Il est possible de sélectionner d\'abord plusieurs lignes ou colonnes. Soit en maintenant la touche **Ctrl** enfoncée tout en sélectionnant les en-têtes, soit en maintenant le bouton gauche de la souris enfoncé et en faisant glisser la souris.
 
-Une mise en garde importante : les opérations couper/copier/coller ne réparent pas les références des formules. Si vous déplacez le contenu d\'une cellule, les formules qui faisaient référence à l\'ancien emplacement seront rompues. Si l\'ancien emplacement devient vide, la rupture sera visible car l\'évaluateur d\'expression affichera \#ERR dans les cellules dépendantes.
+Dans la version 0.19 de FreeCAD et antérieure, les lignes sont insérées au-dessus des lignes sélectionnées et les colonnes à gauche des colonnes sélectionnées. Dans la version 0.20 de FreeCAD, vous pouvez spécifier le côté d\'insertion.
+
+Remarquez que la suppression de lignes ou de colonnes contenant des données peut entraîner la rupture de la feuille de calcul et de votre modèle si celui-ci repose sur la feuille de calcul. Vous n\'êtes pas prévenu si cela se produit.
+
+## Couper et copier-coller des cellules 
+
+Les opérations couper et copier-coller peuvent être utilisées sur les cellules des feuilles de calcul FreeCAD. Vous pouvez utiliser les raccourcis normaux pour ces opérations : **Ctrl**+**X**, **Ctrl**+**C** et **Ctrl**+**V** respectivement. Pour sélectionner plusieurs cellules, maintenez la touche **Ctrl** enfoncée tout en sélectionnant, ou maintenez le bouton gauche de la souris enfoncé et faites glisser pour sélectionner une plage de cellules rectangulaires.
+
+Les opérations couper et copier stockent le contenu et les propriétés des cellules dans le presse-papiers. L\'opération coller écrit les données de manière à ce que le contenu de la cellule supérieure gauche des données stockées soit déposé dans la cellule active. Les autres contenus stockés sont placés par rapport à cette cellule. Les formules sont mises à jour en conséquence.
+
+Remarquez que la suppression des cellules contenant des données peut casser la feuille de calcul et votre modèle s\'il repose sur la feuille de calcul. Vous n\'êtes pas prévenu si cela se produit.
+
+Dans la version 0.19 de FreeCAD et antérieures, il y a un bug qui peut provoquer un blocage de FreeCAD si une plage de cellules non-rectangulaire est collée. Il est conseillé d\'enregistrer votre travail avant d\'effectuer toute opération de collage.
 
 ### Propriétés d\'une cellule 
 
@@ -187,15 +200,19 @@ Parfois, il peut être souhaitable de supprimer une dimension dans une expressio
 
 ## Importation et exportation 
 
-Les feuilles de calculs peuvent être importées et exportées au format [​​csv](https://fr.wikipedia.org/wiki/Comma-separated_values) qui peut également être lu et écrit par la plupart des tableurs tels que Microsoft Excel ou LibreOffice Calc. Lors de l\'importation de fichiers dans FreeCAD, le délimiteur (le caractère utilisé pour séparer les colonnes) doit être le caractère TAB (ceci peut être défini lors de l\'exportation à partir d\'autres applications). L\'importation d\'un fichier CSV est disponible via le menu **Spreadsheet → Importer une feuille de calcul** ou en cliquant sur l\'icône <img alt="" src=images/SpreadsheetImport.svg  style="width:24px;">. Cette fonction d\'importation n\'ouvre pas les fichiers Excel ou tout autre format de tableur.
+### Format CSV 
 
-Les feuilles de calculs au format Excel \"xlsx\" peuvent être importées via le menu **Fichier → Importer...** dans un document FreeCAD. Les feuilles de calculs Excel peuvent également être ouvertes par FreeCAD en cliquant dans le menu **Fichier → Ouvrir...** ou en cliquant sur l\'icône <img alt="" src=images/Document-open.svg  style="width:24px;">. Dans ce cas un nouveau document avec une feuille de calcul à l\'intérieur est créé. Les fonctionnalités suivantes sont prises en charge :
+Les feuilles de calcul FreeCAD peuvent être importées et exportées au format _ et [Spreadsheet Exporter](Spreadsheet_Export/fr.md) pour plus d\'informations.
+
+### Format XLSX 
+
+Les feuilles de calcul au format Excel XLSX peuvent être importées avec la commande [Std Importer](Std_Import/fr.md) ou la commande [Std Ouvrir](Std_Open/fr.md). Les fonctionnalités suivantes sont prises en charge :
 
 -   Toutes les fonctions qui sont également disponibles dans la feuille de calcul FreeCAD. D\'autres fonctions donnent une erreur dans la cellule correspondante après l\'importation.
--   Noms d\'alias pour les cellules
+-   Noms d\'alias pour les cellules.
 -   Plusieurs tableaux dans une feuille Excel. Dans ce cas, une feuille de calcul FreeCAD est créée pour chaque tableau Excel.
 
-Les autres fonctionnalités ne sont pas importées dans la feuille de calcul FreeCAD. L\'importation Excel est possible à partir de la {{Version/fr|0.17}} de FreeCAD.
+Les autres fonctionnalités ne sont pas importées dans la feuille de calcul FreeCAD.
 
 ## Imprimer
 

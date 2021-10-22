@@ -12,7 +12,8 @@
 
 The **Std ViewDimetric** command realigns the camera in the active _, but the command also works if the view is in [perspective mode](Std_PerspectiveCamera.md).
 
- ![](images/Std_ViewDimetric_example.svg )  *The [axis cross](Std_AxisCross.md) and a cube in dimetric view*
+ ![](images/Std_ViewDimetric_example.svg )  
+*The [axis cross](Std_AxisCross.md) and a cube in dimetric view*
 
 ## Usage
 

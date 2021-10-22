@@ -22,6 +22,7 @@ La scheda **Azioni** contiene il [pannello delle azioni](task_panel/it.md), che 
 <img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="600px;">
 
 
+
 *La vista combinata ha due schede: la scheda Modello che mostra e controlla la [vista ad albero](tree_view/it.md) e l'[editor delle proprietà](property_editor/it.md), e la scheda Azioni che mostra e controlla il [pannello delle azioni](task_panel/it.md).*
 
 ## Sezione inferiore 
@@ -33,6 +34,7 @@ La parte inferiore della vista combinata mostra l\'[editor delle proprietà](pro
 -   La scheda **Dati** mostra le proprietà parametriche degli oggetti, quelle che definiscono le forme geometriche.
 
 <img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Tree_Data_properties.png  style="width:" height="600px;">
+
 
 
 *La parte inferiore della vista combinata è l'editor delle proprietà, che mostra le proprietà Vista e Dati.*

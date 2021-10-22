@@ -12,7 +12,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das **<img src=images/Spreadsheet_Import.svg style="width:16px"> _ verwendet werden kann.
+
+
+</div>
 
 ## Anwendung
 

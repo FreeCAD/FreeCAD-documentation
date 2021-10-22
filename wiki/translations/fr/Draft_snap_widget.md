@@ -5,13 +5,15 @@
 
 Le **Draft Widget aimantation** ({{Version/fr|0.19}}) est une alternative à la barre d\'outils Draft Aimantation. Le widget est disponible dans l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _. Il s\'agit d\'un élément de l\'interface graphique [optionnel](#Pr.C3.A9f.C3.A9rences.md) qui se trouve dans la [barre d\'état](Status_bar/fr.md).
 
-![](images/Draft_snap_widget_button.png ) *Le widget aimantation de Draft*
+![](images/Draft_snap_widget_button.png ) 
+*Le widget aimantation de Draft*
 
 ## Utilisation
 
 Voir [Draft Aimantation](Draft_Snap/fr.md).
 
-![](images/Draft_snap_widget_menu.png ) *Le menu du widget*
+![](images/Draft_snap_widget_menu.png ) 
+*Le menu du widget*
 
 ## Préférences
 

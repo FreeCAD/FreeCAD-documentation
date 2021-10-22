@@ -12,6 +12,7 @@ Questo strumento rivoluziona uno schizzo selezionato o un oggetto 2D attorno ad 
 ![](images/PartDesign_Groove_example.svg )
 
 
+
 *A sinistra lo schizzo (A) è ruotato attorno all'asse (B); a destra la scanalatura risultante sul solido (C).*
 
 ## Utilizzo

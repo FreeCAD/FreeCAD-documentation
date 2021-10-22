@@ -17,7 +17,8 @@
 
 </div>
 
-![](images/PartDesign_Revolution_example.svg ) *Above: sketch (A) is revolved 270 degrees counter-clockwise around axis (B); resulting solid (C) is shown right.*
+![](images/PartDesign_Revolution_example.svg ) 
+*Above: sketch (A) is revolved 270 degrees counter-clockwise around axis (B); resulting solid (C) is shown right.*
 
 ## Usage
 

@@ -212,7 +212,7 @@ The dimension dialog offers the following settings:
         
         \- Override the automatically chosen direction and force the opposite one.
 
-## Limitations
+## Ograniczenia
 
 Dimension objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". This means that if you modify the 3D geometry the faces and edges of the model may be renamed internally; if a dimension is attached to an edge that is then modified, the dimension may break. In general, it is not possible to keep the projected 2D dimensions synchronized with the actual 3D objects.
 

@@ -5,7 +5,8 @@
 
 Интерфейс FreeCAD базируется на современном инструментарии [Qt](http://ru.wikipedia.org/wiki/Qt_(toolkit)), и имеет современную организацию. Некоторые аспекты интерфейса могут быть настроены. Вы можете, например, добавить пользовательские панели инструментов с инструментами из нескольких рабочих мест или инструментами, определенными в макросах, и вы можете создавать свои собственные сочетания клавиш. Не могут быть изменены меню и панели инструментов по умолчанию, которые поставляются с FreeCAD и его верстаками.
 
-![](images/Std_DlgCustomize_tab_Toolbars.png ) *Диалоговое окно настройки*
+![](images/Std_DlgCustomize_tab_Toolbars.png ) 
+*Диалоговое окно настройки*
 
 ## Применение
 
@@ -23,7 +24,8 @@ In the Customize dialog box the following tabs are available:
 
 ### Команды
 
-![](images/Std_DlgCustomize_tab_Commands.png ) *The Commands tab*
+![](images/Std_DlgCustomize_tab_Commands.png ) 
+*The Commands tab*
 
 On this tab you can browse the available commands.
 
@@ -39,7 +41,8 @@ On this tab you can browse the available commands.
 
 ### Клавиатура
 
-![](images/Std_DlgCustomize_tab_Keyboard.png ) *The Keyboard tab*
+![](images/Std_DlgCustomize_tab_Keyboard.png ) 
+*The Keyboard tab*
 
 On this tab custom keyboard shortcuts can be defined. Shortcuts for macro commands can be defined on the [Macros](#Macros.md) tab.
 
@@ -75,7 +78,8 @@ On this tab custom keyboard shortcuts can be defined. Shortcuts for macro comman
 
 ### Верстаки
 
-![](images/Std_DlgCustomize_tab_Workbenches.png ) *The Workbenches tab*
+![](images/Std_DlgCustomize_tab_Workbenches.png ) 
+*The Workbenches tab*
 
 On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The **Enabled workbenches** list shows the workbenches as they will appear in the Workbench selector.
 
@@ -110,7 +114,8 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 
 ### Панели инструментов 
 
-![](images/Std_DlgCustomize_tab_Toolbars.png ) *The Toolbars tab*
+![](images/Std_DlgCustomize_tab_Toolbars.png ) 
+*The Toolbars tab*
 
 На этой вкладке можно создать и изменить специальные панели инструментов.
 
@@ -176,7 +181,8 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 
 ### Macros
 
-![](images/Std_DlgCustomize_tab_Macros.png ) *The Macros tab*
+![](images/Std_DlgCustomize_tab_Macros.png ) 
+*The Macros tab*
 
 On this tab user macro commands can be set up. Once set up, they can be added to custom toolbars. FreeCAD uses a dedicated folder for user macros and only macros in that folder can be set up. Use the <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) command to find this folder on your system.
 

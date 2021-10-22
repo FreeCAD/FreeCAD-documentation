@@ -33,7 +33,8 @@ Poiché si suppone che il Corpo sia un [singolo solido contiguo](PartDesign_Body
 
 </div>
 
-!_.
+![](images/PartDesign_Body_tree.png ) ![](images/PartDesign_Body_example.png ) 
+*A sinistra: la vista ad albero che mostra le funzioni che producono in sequenza la forma finale dell'oggetto. A destra: l'oggetto finale visibile nella [vista 3D](3D_view/it.md).
 *
 
 ## Utilizzo
@@ -123,7 +124,8 @@ Un corpo di PartDesign esegue una [fusione](Part_Union/it.md) (unione) automatic
 <img alt="" src=images/PartDesign_Body_two_intersection.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_two_fusion.png  style="width:" height="200px;"> 
 *A sinistra: due singoli solidi che si intersecano. A destra: un singolo corpo di PartDesign creato con due [funzioni additive](PartDesign_Feature/it.md), che vengono automaticamente fuse insieme, quindi invece di intersecarsi, formano un singolo solido contiguo.*
 
-!_ più recente deve sempre contattare o intersecare la funzione precedente in modo che sia fusa con essa e diventi un singolo solido contiguo.*
+![](images/PartDesign_Body_non-contiguous.png ) 
+*A sinistra: due solidi disconnessi; questo non è un corpo PartDesign valido. A destra: due solidi che si toccano; ciò si traduce in un corpo PartDesign valido. La [funzione](PartDesign_Feature/it.md) più recente deve sempre contattare o intersecare la funzione precedente in modo che sia fusa con essa e diventi un singolo solido contiguo.*
 
 
 **Nota:**
@@ -144,6 +146,7 @@ Per attivare o disattivare un corpo:
 L\'attivazione di un corpo commuta automaticamente anche l\'interfaccia nell\'ambiente [PartDesign](PartDesign_Workbench/it.md), se questo non era già l\'ambiente attivo. Può essere attivo solo un singolo corpo per volta.
 
 ![](images/PartDesign_Body_active.png )
+
 
 
 *Documento con due corpi PartDesign, di cui il secondo è attivo.*
@@ -172,13 +175,15 @@ all elements inside the Body are referenced to the Body\'s Origin which means th
 <img alt="" src=images/PartDesign_Body_Origin_tree.png ) ![](images/PartDesign_Body_Origin_view.png  style="width:" height="400px;">
 
 
+
 *Left: PartDesign Body Origin in the _.*
 
 ### Funzione di base 
 
 La Funzione di base, Base feature, è la prima [Funzione PartDesign](PartDesign_Feature/it.md) creata nel corpo quando il corpo si basa su un\'altra forma solida. Questo solido può essere creato in qualsiasi ambiente di lavoro o importato da un file esterno, ad esempio un file STEP.
 
-![](images/PartDesign_Body_BaseFeature_tree.png ) *PartDesign Bodies, each of them with a single Base Feature, which are taken from previously created solids.*
+![](images/PartDesign_Body_BaseFeature_tree.png ) 
+*PartDesign Bodies, each of them with a single Base Feature, which are taken from previously created solids.*
 
 To create the Base Feature:
 
@@ -210,6 +215,7 @@ The Base Feature is entirely optional; it is only present when including an obje
 ![](images/PartDesign_Body_BaseFeature_Tip.svg )
 
 
+
 *Left: PartDesign Body with a Base Feature that is taken from an external solid object, and many subsequent [PartDesign Features](PartDesign_Feature.md) on top. Right: Body which doesn't have an explicit Base Feature.*
 
 ### Tip
@@ -223,6 +229,7 @@ La cima o punta (Tip) è la [PartDesign Feature](PartDesign_Feature/it.md) del c
 </div>
 
 ![](images/PartDesign_Body_Tip_final.svg )
+
 
 
 *Left: PartDesign Body with full parametric history including intermediate features. Right: the Tip is the final shape that can be exported from the Body, while omitting the model's history.*
@@ -239,7 +246,8 @@ Nella [vista ad albero](tree_view/it.md), la funzione finale del corpo è ricono
 
 </div>
 
-![](images/PartDesign_Body_Tip_tree.png ) *Two PartDesign Bodies, each of them with [PartDesign Features](PartDesign_Feature.md). The Tip is the last feature in them, and is marked with an overlay symbol.*
+![](images/PartDesign_Body_Tip_tree.png ) 
+*Two PartDesign Bodies, each of them with [PartDesign Features](PartDesign_Feature.md). The Tip is the last feature in them, and is marked with an overlay symbol.*
 
 ### Interazione con gli altri ambienti di lavoro 
 
@@ -258,6 +266,7 @@ Una volta completate le operazioni in altri ambienti, non dimenticare di riprist
 ![](images/PartDesign_Body_Tip_Display_mode.svg )
 
 
+
 *Left: when "Display Mode Body" is set to `Through* it is possible to select and perform operations with the individual [PartDesign Features](PartDesign_Feature.md); in general, this is not recommended. Right: when "Display Mode Body" is set to {{incode|Tip` all selections and operations done on the Body will be done on the Tip, making sure only the final shape of the Body is exposed.}}
 
 ### Gestione della visibilità 
@@ -266,7 +275,8 @@ La visibilità del corpo prevale sulla visibilità di qualsiasi oggetto in esso 
 
 Multiple [Sketches](Sketch.md) may be visible at one time, but only one [PartDesign Feature](PartDesign_Feature.md) (solid result) can be visible at a time. Selecting a hidden feature and pressing the **Space** bar in the keyboard will make it visible, and automatically hide the previously visible feature.
 
-!_ may be visible simultaneously, but only one solid [PartDesign Feature](PartDesign_Feature.md) may be visible at one time, whether it is the Tip or not.*
+![](images/PartDesign_Body_Visibility.png ) 
+*PartDesign Body: multiple [Sketches](Sketch.md) may be visible simultaneously, but only one solid [PartDesign Feature](PartDesign_Feature.md) may be visible at one time, whether it is the Tip or not.*
 
 ### Attachment
 
@@ -276,13 +286,15 @@ Multiple [Sketches](Sketch.md) may be visible at one time, but only one [PartDes
 
 A [PartDesign Feature](PartDesign_Feature.md) that is not attached will be shown with a red overlay symbol next to their icon in the [tree view](tree_view.md).
 
-!_ that are not attached to a plane or coordinate system will be shown with an overlay symbol next to their icon in the [tree view](tree_view.md).*
+![](images/PartDesign_Body_Feature_attachment.png ) 
+*PartDesign Body: [PartDesign Features](PartDesign_Feature.md) that are not attached to a plane or coordinate system will be shown with an overlay symbol next to their icon in the [tree view](tree_view.md).*
 
 ### Inheritance
 
 A _ (`Part::Feature` class) through the intermediate `Part::BodyBase` class, and is augmented with an Origin extension.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Simplified diagram of the relationships between the core objects in the program. The `PartDesign::Body* object is intended to build parametric 3D solids, and thus is derived from the basic {{incode|Part::Feature` object, and has an Origin to control the placement of the features used inside of it.}}

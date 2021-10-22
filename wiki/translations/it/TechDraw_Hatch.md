@@ -18,6 +18,7 @@ Lo strumento Tratteggio da modello riempie una regione chiusa di una vista con u
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
 
 
+
 *Esempio di tratteggio SVG su una faccia*
 
 ## Utilizzo

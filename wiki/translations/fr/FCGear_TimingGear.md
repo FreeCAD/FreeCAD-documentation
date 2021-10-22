@@ -17,7 +17,8 @@ Les engrenages de distribution sont connectés à une courroie de distribution o
 
 :   ![](images/Timing-Gear_example.png )
 :   
-    *Au-dessus: engrenage de distribution*
+    
+*Au-dessus: engrenage de distribution*
     
 
 ## Utilisation

@@ -21,7 +21,8 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 
 :   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width:80px;">
 
- *One continuous helical reinforcement bar inside an [Arch Structure](Arch_Structure.md)*
+ 
+*One continuous helical reinforcement bar inside an [Arch Structure](Arch_Structure.md)*
 
 ## Usage
 
@@ -46,6 +47,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 9.  Click **Cancel** to exit the task panel.
 
 :   <img alt="" src=images/HelicalRebarDialog.png  style="width:250px;">
+
 
 
 *Taskview panel for the Arch Rebar Helical tool*

@@ -5,7 +5,8 @@
 
 Draft SVG est un module logiciel utilisé par <img alt="" src=images/Std_Open.svg  style="width:24px;"> _ et <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Exporter](Std_Export.md) pour gérer le format de fichier [SVG](SVG/fr.md).
 
-![](images/Screenshot_inkscape.jpg ) *Inkscape exporte le dessin au format SVG, qui est ensuite ouvert et utilisé dans FreeCAD*
+![](images/Screenshot_inkscape.jpg ) 
+*Inkscape exporte le dessin au format SVG, qui est ensuite ouvert et utilisé dans FreeCAD*
 
 ## Importer
 

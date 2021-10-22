@@ -14,7 +14,8 @@
 
 La commande **Std Vue isométrique** réaligne la caméra dans la _ mais la commande fonctionne également si la vue est en [mode perspective](Std_PerspectiveCamera/fr.md).
 
-![](images/Std_ViewIsometric_example.svg ) *L'[Axes du repère](Std_AxisCross/fr.md) et un cube en vue isométrique*
+![](images/Std_ViewIsometric_example.svg ) 
+*L'[Axes du repère](Std_AxisCross/fr.md) et un cube en vue isométrique*
 
 ## Utilisation
 

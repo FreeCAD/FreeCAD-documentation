@@ -18,6 +18,7 @@ Constrains two lines to follow the law of refraction of light as it penetrates t
 <img alt="" src=images/Snells_law2_witheq.svg  style="width:" height="400px;">
 
 
+
 *Snell's Law*
 
 ## Применение

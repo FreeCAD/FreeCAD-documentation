@@ -38,6 +38,7 @@ Das Polygon wird in einem Kreis mit dem angegebenen Radius einbeschrieben; es ka
 <div class="mw-translate-fuzzy">
 
 
+
 *Regelmäßiges Polygon, das durch den Mittelpunkt und den Radius definiert ist*
 
 

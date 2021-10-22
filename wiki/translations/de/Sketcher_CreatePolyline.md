@@ -16,6 +16,7 @@ Dieses Werkzeug arbeitet wie das [Skizzierer Linie](Sketcher_CreateLine/de.md) W
 ![](images/Sketcher_PolylineExample1.png )
 
 
+
 *Polylinie beginnt mit einer Linie, einem tangentialen Bogen, einem senkrechten Bogen und dann einer tangentialen Linie.*
 
 ## Anwendung

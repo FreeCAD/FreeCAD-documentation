@@ -21,4 +21,4 @@ Grouping of several Panel related tools.
 -   <img alt="" src=images/Arch_Nest.svg  style="width:32px;"> [Nest](Arch_Nest.md): Allow to nest several flat objects inside a container shape <small>(v0.17)</small>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CompPanel
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPanel

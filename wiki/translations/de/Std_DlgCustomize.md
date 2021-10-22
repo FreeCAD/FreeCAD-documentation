@@ -16,6 +16,7 @@ Der **Std DlgAnpassen** Befehl öffnet das Dialogfeld Anpassen, das Zugriff auf 
 ![](images/Std_DlgCustomize_tab_Toolbars.png )
 
 
+
 *Das Dialogfeld Anpassen*
 
 ## Anwendung

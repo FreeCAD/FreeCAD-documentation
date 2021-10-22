@@ -13,7 +13,8 @@ Der Arbeitsbereich Entwurf bietet auch Werkzeuge zur Definition einer [Arbeitseb
 
 Wenn dein Hauptziel die Erstellung komplexer 2D-Zeichnungen und [DXF](DXF.md) Dateien ist und du keine 3D Modellierung benötigst, ist FreeCAD möglicherweise nicht die richtige Wahl für dich. Vielleicht möchtest du stattdessen ein spezielles Softwareprogramm für technisches Zeichnen in Betracht ziehen, wie [LibreCAD](https://de.wikipedia.org/wiki/LibreCAD) oder [QCad](https://de.wikipedia.org/wiki/QCad).
 
-![](images/Draft_Workbench_Example.png ) *Das Bild zeigt das [Giter](Draft_Snap_Grid/de.md), das an der XY Ebene ausgerichtet ist.<br>
+![](images/Draft_Workbench_Example.png ) 
+*Das Bild zeigt das [Giter](Draft_Snap_Grid/de.md), das an der XY Ebene ausgerichtet ist.<br>
 Links, in weiß, mehrere planare Objekte.<br>
 Rechts ein nicht-planarer [Entwurf Draht](Draft_Wire/de.md), der als Pfadobjekt einer [Entwurf PfadAnordnung](Draft_PathArray/de.md) verwendet wird.*
 
@@ -52,6 +53,8 @@ Rechts ein nicht-planarer [Entwurf Draht](Draft_Wire/de.md), der als Pfadobjekt 
 -   <img alt="" src=images/Draft_Facebinder.svg  style="width:32px;"> [Flächenbinder](Draft_Facebinder/de.md): erstellt ein Oberflächenobjekt aus ausgewählten Flächen.
 
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [FormZeichenfolge](Draft_ShapeString/de.md): erstellt eine Verbundform, die eine Textzeichenfolge darstellt.
+
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the faces of a selected object. <small>(v0.20)</small> 
 
 ## Anmerkung
 
@@ -147,7 +150,7 @@ The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for 
 
 ## Entwurf Fang Werkzeugleiste 
 
-Die [Entwurf Fang](Draft_Snap/de.md) Werkzeugleiste ermöglicht die Auswahl des aktuellen Fangmodus. Seine Schaltfläche gedrückt halten, wenn ein Modus aktiv ist.
+Die Entwurf Fang Werkzeugleiste erlaubt das Auswählen der aktiven Fangoption. Die zu den aktiven Optionen gehörenden Schaltflächen bleiben niedergedrückt. Für allgemeine Informationen zum Fangen siehe: [Entwurf Fang](Draft_Snap/de.md)
 
 -   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Snap Lock](Draft_Snap_Lock.md): enables or disables snapping globally.
 
@@ -185,9 +188,7 @@ Die [Entwurf Fang](Draft_Snap/de.md) Werkzeugleiste ermöglicht die Auswahl des 
 
 -   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> _. <small>(v0.19)</small> 
 
--   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> _.
-
--   <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:32px;"> [Toggle normal/wireframe display](Draft_ToggleDisplayMode.md): switches the **Display Mode** property of selected objects between {{Value|Flat Lines}} and {{Value|Wireframe}}.
+-   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> _ and moves selected objects to that group. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> _. It can also ungroup objects.
 
@@ -195,15 +196,19 @@ Die [Entwurf Fang](Draft_Snap/de.md) Werkzeugleiste ermöglicht die Auswahl des 
 
 -   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> _.
 
+-   <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:32px;"> [Toggle normal/wireframe display](Draft_ToggleDisplayMode.md): switches the **Display Mode** property of selected objects between {{Value|Flat Lines}} and {{Value|Wireframe}}.
+
+-   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> _.
+
 ## Zusätzliche Werkzeuge 
 
 Weitere Werkzeuge die, abhängig vom ausgewählten Objekt, über das Menü **Entwurf → Hilfsprogramme** oder über das Rechtsklick Kontextmenü, je nach ausgewähltem Objekt.
 
+-   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Apply current style](Draft_ApplyStyle.md): applies the current style settings to selected objects.
+
 -   <img alt="" src=images/Draft_Heal.svg  style="width:32px;"> [Heal](Draft_Heal.md): heals problematic Draft objects found in very old files.
 
 -   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md): switches continue mode on or off.
-
--   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Apply current style](Draft_ApplyStyle.md): applies the current style settings to selected objects.
 
 -   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> _.
 
@@ -212,13 +217,11 @@ Weitere Werkzeuge die, abhängig vom ausgewählten Objekt, über das Menü **Ent
 
 <div class="mw-translate-fuzzy">
 
--   [Koordinaten](Draft_Coordinates/de.md): Koordinaten eingeben, anstatt auf die 3D-Ansicht zu klicken, um einen neuen Punkt zu definieren.
--   [Beschränken](Draft_Constrain/de.md): den Zeiger auf horizontale oder vertikale Bewegungen in Bezug auf einen vorherigen Punkt beschränken.
--   [Fangen](Draft_Snap/de.md): neue Punkte an speziellen Stellen auf bestehenden Objekten oder auf dem Gitter platzieren.
--   [Kopiermodus](Draft_Copying/de.md): Alle Modifikationswerkzeuge können entweder die ausgewählten Objekte modifizieren oder eine modifizierte Kopie davon erstellen.
-    Durch Drücken und Halten von **Alt** während das Objekt modifiziert wird, z.B. während das Objekt geändert wird, z.B. verschoben oder gedreht, erstellt eine Kopie, wenn die Taste losgelassen wird.
--   [Konstruktionsmodus](Draft_ToggleConstructionMode/de.md): Erlaubt dir, Geometrien getrennt vom Rest zu erstellen, indem man sie einfach ein- und ausschalten.
--   [Arbeitsebene](Draft_SelectPlane/de.md): Erlaubt dir, eine Oberfläche zu wählen, auf welcher du deine Formen baust.
+-   _, in der neue Entwurfsobjekte erstellt werden.
+-   [Fangen](Draft_Snap/de.md): wählt exakte geometrische Punkte auf vorhandenen Objekten oder auf dem Gitter aus, die durch diese definiert sind.
+-   [Beschränken](Draft_Constrain/de.md): für jeden nachfolgenden Punkt kannst du die Bewegung des Mauszeigers auf die X, Y oder Z Richtung beschränken.
+-   [Konstruktionsmodus](Draft_ToggleConstructionMode/de.md): platziert neue Entwurfsobjekte in einer eigenen Gruppe, was das Ausblenden oder Löschen erleichtert.
+-   [Muster](Draft_Pattern/de.md): Entwurfsobjekte mit einer **Make Face** Eigenschaft können ein Schraffurmuster anstelle einer einfarbigen Fläche anzeigen.
 
 
 </div>
@@ -227,9 +230,9 @@ Weitere Werkzeuge die, abhängig vom ausgewählten Objekt, über das Menü **Ent
 
 The following additional options are available in the [Tree view](Tree_view.md) context menu:
 
-### Auswahlmöglichkeiten
+### Default options 
 
-If there is a selection the context menu contains one additional sub-menu:
+If there is an active document the context menu contains one additional sub-menu:
 
 -    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
@@ -267,17 +270,9 @@ For a [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md) these additional opt
 
 The following additional options are available in the [3D view](3D_view.md) context menu:
 
-### No-selection options 
+### Default options 
 
-If there is no selection the context menu contains one additional sub-menu:
-
--    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
-
-### Selection options 
-
-If there is a selection the context menu contains two additional sub-menus:
-
--    **Draft**: tools for [drawing objects](#Drafting.md) and [modifying objects](#Modification.md).
+If there is an active document the context menu contains one additional sub-menu:
 
 -    **Utilities**: a subset of the tools available in the main Draft Utilities menu.
 
@@ -297,14 +292,6 @@ Diese Werkzeuge sind veraltet, aber weiterhin verfügbar.
 </div>
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> _ page. {{Obsolete|0.17}}
-
-These [3D view](3D_view.md) context menu options are still available when the [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft CubicBezCurve](Draft_CubicBezCurve.md) or [Draft BezCurve](Draft_BezCurve.md) command is active but will be removed in the near future:
-
--   <img alt="" src=images/Draft_UndoLine.svg  style="width:32px;"> [Undo last segment](Draft_Wire#Options.md): use the {{button|<img src="images/Draft_UndoLine.svg" width=16px> Undo}} button in the task panel of the command instead. {{Obsolete|0.20}}
-
--   <img alt="" src=images/Draft_FinishLine.svg  style="width:32px;"> [Finish line](Draft_Wire#Options.md): use the **<img src="images/Draft_FinishLine.svg" width=16px> Finish** button in the task panel of the command instead. {{Obsolete|0.20}}
-
--   <img alt="" src=images/Draft_CloseLine.svg  style="width:32px;"> [Close line](Draft_Wire#Options.md): use the **<img src="images/Draft_CloseLine.svg" width=16px> Close** button in the task panel of the command instead. {{Obsolete|0.20}}
 
 ## Einstellungen
 
@@ -397,17 +384,6 @@ doc = dto.create_test_file()
 <div class="mw-translate-fuzzy">
 
 Der Einblick in den Code dieses Moduls ist nützlich, um zu verstehen, wie die Programmierschnittstelle zu verwenden ist.
-
-
-</div>
-
-<img alt="" src=images/Draft_test_objects.png  style="width:500px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-*Testobjekte für den [Entwurf Arbeitsbereich](Draft_Workbench/de.md).*
 
 
 </div>

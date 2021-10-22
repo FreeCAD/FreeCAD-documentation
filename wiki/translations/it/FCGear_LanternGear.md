@@ -21,7 +21,8 @@ L\'ingranaggio a lanterna combinato con una catena a rulli rappresenta un\'alter
 
 :   ![](images/Latern_Gear_example.png )
 :   
-    *Above: Lantern gear*
+    
+*Above: Lantern gear*
     
 
 ## Usage

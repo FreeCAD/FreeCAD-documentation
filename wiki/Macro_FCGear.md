@@ -15,7 +15,8 @@
 
 Additional Workbench to create different types of gears, involute gear, involute rack, cycloide gear, bevel gear.
 
-![](images/FCGear_00.png ) *FCGear*
+![](images/FCGear_00.png ) 
+*FCGear*
 
 ## Install
 

@@ -17,6 +17,7 @@ Cet outil trace une courbe B-spline périodique (fermée) à partir de ses point
 ![](images/Sketcher_Periodic_B-spline_example01.png )
 
 
+
 *Une courbe B-spline périodique (en blanc) composée de 5 points. Sur la photo, le polygone de contrôle en vert (les lignes droites reliant les points rouges), les cercles de poids en bleu et le peigne de courbure en vert. Le chiffre (3) au centre fait référence au degré de la spline B et les chiffres (1) et (2) des nœuds situés sur la courbe font référence à leur multiplicité.*
 
 ## Utilisation

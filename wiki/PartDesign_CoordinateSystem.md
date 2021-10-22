@@ -16,6 +16,7 @@ Creates a **local coordinate system** which can be used as reference for other d
 ![](images/PartDesign_LocalCoordinateSystem_Example.png )
 
 
+
 *Local coordinate system originating out of a datum plane's origin.*
 
 ## Usage

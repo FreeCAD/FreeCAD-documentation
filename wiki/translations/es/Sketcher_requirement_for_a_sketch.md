@@ -16,6 +16,7 @@ Que una curva cerrada está presente, no es evidente y no es reconocible. Cuando
 ![](images/Skizze2a.png )
 
 
+
 *Un boceto sencillo. 
 Izquierda: Curva sólo en cuatro lugares (rojo, restricciones automáticas al dibujar con <img src=images/_Sketcher_CreatePolyline.svg style="width:32px"> [Polilínea](Sketcher_CreatePolyline/es.md)) cerrada. 
 Medio: Advertencia - ... cara rota (curva rota). 
@@ -28,6 +29,7 @@ Sin embargo, el trabajo paramétrico consistente significa que el croquis está 
 Incluso un croquis relativamente sencillo puede contener docenas de indeterminaciones (indicadas en la vista combinada como un número de \"grados de libertad\"). Eliminarlas juntas al final es una tarea relativamente confusa.
 
 ![](images/Skizze4a.png )
+
 
 
 *Un croquis sencillo; completamente determinado por 25 restricciones, de las cuales sólo 5 son restricciones de dimensión.*

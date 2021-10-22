@@ -478,4 +478,4 @@ Plik utworzony podczas tego ćwiczenia można znaleźć [ze strony yorik-a](http
 }}
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch tutorial/pl
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch tutorial/pl

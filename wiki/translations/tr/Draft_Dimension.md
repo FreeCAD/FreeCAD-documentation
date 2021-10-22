@@ -287,7 +287,7 @@ A Draft Dimension object is derived from an [App FeaturePython](App_FeaturePytho
 
 {{TitleProperty|Units}}
 
--    **Decimals|Integer**: specifies the number of decimal places to display for the measurement. Not used for angular dimensions.
+-    **Decimals|Integer**: specifies the number of decimal places to display for the measurement.
 
 -    **Show Unit|Bool**: specifies whether to display the unit next to the numerical value of the measurement. Not used for angular dimensions.
 

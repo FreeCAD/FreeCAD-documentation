@@ -31,6 +31,7 @@ Questo metodo crea un aggancio a un punto su una linea immaginaria che si estend
 <div class="mw-translate-fuzzy">
 
 
+
 *Snap del secondo punto di una linea all'estensione di un'altra linea
 *
 

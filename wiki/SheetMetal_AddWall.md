@@ -10,47 +10,50 @@
 
 ## Description
 
-The <img alt="" src=images/SheetMetal_AddWall.svg  style="width:24px;"> **SheetMetal AddWall** command creates a bend on a selected edge.
+The <img alt="" src=images/SheetMetal_AddWall.svg  style="width:24px;"> **SheetMetal AddWall** command creates flanges on selected edges of a base plate. By changing the **angle** property a flange it can be turned into a hem.
 
- <img alt="" src=images/PostBend.png  style="width:320px;"> 
+A **flange** consists of a 90° cylindrical bend and a planar strip (wall).
+
+ <img alt="" src=images/SheetMetal_AddWall-12.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddWall-13.png  style="width:200px;">  
+*Two selected edges -> two flanges*
+
+Resetting the **angle** property to about 180° in a second step will create a **hem** instead.
+
+ <img alt="" src=images/SheetMetal_AddWall-14.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddWall-15.png  style="width:200px;">  
+*Two selected edges -> two hems*
 
 ## Usage
 
-To add a Bend:
+1.  Select one or more edge(s) of a base plate.
+2.  Activate the <img alt="" src=images/SheetMetal_AddWall.svg  style="width:16px;"> **SheetMetal AddWall** command using one of the following:
+    -   The **<img src="images/SheetMetal_AddWall.svg" width=16px> [Make Wall](SheetMetal_AddWall.md)** button.
+    -   The **SheetMetal → <img src="images/SheetMetal_AddWall.svg" width=16px> Make Wall** menu option.
+    -   The keyboard shortcut: **W**.
 
-1.  Switch to the <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:22px;"> [SheetMetal Workbench](SheetMetal_Workbench.md).
-2.  Start with a base plate or sheet, select one or more edges to receive a bend.
-3.  Click on the <img alt="" src=images/SheetMetal_AddWall.svg  style="width:24px;"> [Make Wall](SheetMetal_AddWall.md) tool to add a wall.
+## Notes
 
+To create a base plate use a closed 2D outline - preferably a <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> _ command.
 
-**Note**
+Alternatively a base plate (blank) can be created with commands from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _.
 
-: To create a base plate use a closed 2D outline - preferably a <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> _ command.
-Alternatively you can generate a base plate with one of the following methods as well:
+To create a blank with the [Part Workbench](Part_Workbench.md):
 
-:\* Method 1: <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Cube](Part_Box.md)
+1.  Create a solid using either:
+    -   <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Part Box](Part_Box.md).
+    -   <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> [Part Extrude](Part_Extrude.md) from:
+        -   A <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [Draft Rectangle](Draft_Rectangle.md).
+        -   A <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Draft Wire](Draft_Wire.md).
+        -   A <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Sketch](Sketcher_NewSketch.md).
+2.  Make sure one the dimensions of the Box or the extrusion distance equals the sheet metal thickness.
 
-:\* Method 2: An extruded solid made with <img alt="" src=images/Part_Extrude.svg  style="width:24px;"> [Part Extrude](Part_Extrude.md) from either a:
+To create a blank with the [PartDesign Workbench](PartDesign_Workbench.md):
 
-::\* <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Draft Rectangle](Draft_Rectangle.md) or a
+1.  Create a solid using either:
+    -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> [Additive Box](PartDesign_AdditiveBox.md).
+    -   <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> _.
+2.  Make sure one the dimensions of the Box or the **Length** property of the Pad equals the sheet metal thickness.
 
-::\* <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Draft Wire](Draft_Wire.md) or a
-
-::\* <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketch](Sketcher_NewSketch.md)
-
-::\* Use <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Part Thickness](Part_Thickness.md) to create shell (**Typically with the thickness value of the sheet metal.**)
-
-:\* Method 3: <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Body](PartDesign_Body.md) containing either an
-
-::\* <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:24px;"> [additive box](PartDesign_AdditiveBox.md) or a
-
-::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> _.
-
-::\* Use <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> [PartDesign Thickness](PartDesign_Thickness.md) to create shell (**Typically with the thickness value of the sheet metal.**)
-
-:   
-
-    :   If you start with a <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> PartDesign Body, you can mix Sheet Metal features with PartDesign features such as <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> _.
+If you start with a <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> _ or <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> [PartDesign Hole](PartDesign_Hole.md).
 
 ## Properties
 

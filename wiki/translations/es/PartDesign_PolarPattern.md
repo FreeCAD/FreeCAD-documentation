@@ -31,7 +31,8 @@ La herramienta **Patrón polar** crea copias de una operación girando alrededor
 
 #### Ordenar operaciones 
 
-![](images/PartDesign_feature-order.gif ) *Efecto del orden de operaciones*
+![](images/PartDesign_feature-order.gif ) 
+*Efecto del orden de operaciones*
 
 
 {{Version/es|0.19}}

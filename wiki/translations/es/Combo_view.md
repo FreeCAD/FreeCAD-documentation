@@ -22,6 +22,7 @@ La pestaña **Tareas** muestra el [panel de tareas](task_panel/es.md), que mostr
 <img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Task_panel.png  style="width:" height="600px;">
 
 
+
 *La vista combinada tiene dos pestañas: la pestaña Modelo que controla la visualización de la [ vista de árbol](tree_view/es.md) y el [editor de propiedades](property_editor/es.md), y la pestaña Tareas que controla la visualización del [ panel de tareas](task_panel/es.md).*
 
 ## Sección inferior 
@@ -33,6 +34,7 @@ La parte inferior de la vista combinada muestra el [editor de propiedades](prope
 -   La pestaña **Datos** muestra las propiedades paramétricas de los objetos, que determinan cómo se definen realmente las formas geométricas.
 
 <img alt="" src=images/FreeCAD_Combo_view_Tree_View_properties.png  style="width:" height="600px;"> <img alt="" src=images/FreeCAD_Combo_view_Tree_Data_properties.png  style="width:" height="600px;">
+
 
 
 *La parte inferior de la vista combinada es el editor de propiedades, que muestra las propiedades de la Vista y los Datos.*

@@ -18,11 +18,17 @@ Ein Klon eines Klons wird eine [Kopie](Sketcher_Copy/de.md). Wenn verbundene Bes
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle die zu klonenden Skizzenelemente.
 2.  Klicke auf **<img src=images/Sketcher_Clone.svg style="width:16px"> <img src=images/Sketcher_Clone.svg style="width:Skizierer Klonen](Sketcher_Clone/de.md)** oder wähle **Skizze → Skizierer Werkzeuge  → [16px"> Klonen** aus dem Hauptmenü.
 3.  Platziere den Klon in der [3D Ansicht](3D_view.md).
 
 Es werden keine zusätzlichen Beschränkungen für das Klonverhalten hinzugefügt.
+
+
+</div>
 
 
 

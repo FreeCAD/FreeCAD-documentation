@@ -10,6 +10,7 @@ La console Python di FreeCAD ha l\'evidenziazione di base della sintassi, in gra
 <img alt="" src=images/FreeCAD_Python_console.png  style="width:800px;">
 
 
+
 *Console Python che mostra i messaggi quando FreeCAD è appena stato avviato.*
 
 ## Script
@@ -29,6 +30,7 @@ La console Python può eseguire il completamento del codice di base quando viene
 La console è anche in grado di mostrare la stringa di documentazione di una particolare funzione quando viene scritta la parentesi iniziale, ad esempio `function(`
 
 <img alt="" src=images/FreeCAD_Python_console_example.png  style="width:800px;">
+
 
 
 *Esempio di codice Python che produce degli oggetti nella vista 3D.*

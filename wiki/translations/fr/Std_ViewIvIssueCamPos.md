@@ -18,6 +18,7 @@ La commande **Std Position de la caméra** affiche les paramètres de la caméra
 ```
 
 
+
 *Exemple de sortie: paramètres de la caméra après être passé à [vue isométrique](Std_ViewIsometric/fr.md) dans un nouveau document*
 
 ## Utilisation

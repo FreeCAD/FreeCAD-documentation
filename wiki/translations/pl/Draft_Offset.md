@@ -30,7 +30,11 @@ Zobacz także strony: _.
 4.  Otwiera się panel zadań **Odsunięcie**. Zobacz [Opcje](#Opcje.md), aby uzyskać więcej informacji.
 5.  Aby zdefiniować odległość przesunięcia, wykonaj jedną z poniższych czynności:
     -   Wybierz punkt w oknie [widoku 3D](3D_view/pl.md)
-    -   Upewnij się, że kursor znajduje się po właściwej stronie obiektu w oknie [widoku 3D](3D_view/pl.md) i wprowadź **Odległość**.
+    -   Wprowadź wartość:
+        1.  Upewnij się, że kursor znajduje się po właściwej stronie obiektu w oknie [widoku 3D](3D_view/pl.md).
+        2.  Nie wysuwaj kursora poza okno [widoku 3D](3D_view/pl.md).
+        3.  Wprowadź **Dystans**.
+        4.  Naciśnij klawisz **Enter** aby zakończyć polecenie.
 
 ## Opcje
 

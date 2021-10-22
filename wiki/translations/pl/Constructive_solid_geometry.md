@@ -10,6 +10,7 @@ W programie FreeCAD metoda ta jest najczęściej wykorzystywana przy użyciu śr
 <img alt="" src=images/Part_Constructive_Solid_Geometry_workflow.svg  style="width:800px;">
 
 
+
 *Konstruktywna geometria bryłowa ''(CSG)''. Można wykonać dowolną liczbę operacji na bryłach pierwotnych, aby utworzyć inne obiekty bryłowe, a następnie połączyć je lub wyciąć, aż do uzyskania ostatecznego kształtu.*
 
 Alternatywnie, środowisko pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md) używa bardziej nowoczesnego podejścia niż proste CSG. Metoda ta jest nazywana [Edycja cech](Feature_editing/pl.md), co oznacza tworzenie bryły bazowej, a następnie dodawanie sekwencyjnych przekształceń parametrycznych w celu uzyskania ostatecznej zawartości.
@@ -22,6 +23,7 @@ Alternatywnie, środowisko pracy <img alt="" src=images/Workbench_PartDesign.svg
 ## Przykład
 
 <img alt="" src=images/Part_CGS_workflow_example.svg  style="width:600px;">
+
 
 
 *Przykład przepływu pracy z wykorzystaniem geometrii brył konstrukcyjnych ''(CSG)'': <br>elementy pierwotne są łączone ''(połączenie)''. Obliczany jest punkt przecięcia dwóch innych elementów pierwotnych ''(wspólny)'',

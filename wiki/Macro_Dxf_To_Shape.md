@@ -51,9 +51,11 @@ The script on github [Macro\_DXF\_to\_Shape.FCMacro](https://gist.github.com/mar
 
 ## Example
 
-![](images/Macro_Dxf_To_Shape_Convert_Wire_To_BSplineCurve.gif ) *Convert Wire (multi lines) in BsplineCurve*
+![](images/Macro_Dxf_To_Shape_Convert_Wire_To_BSplineCurve.gif ) 
+*Convert Wire (multi lines) in BsplineCurve*
 
-![](images/Macro_Dxf_To_Shape_Convert_Wire_To_BSplineCurve02.gif ) *Convert wire with selected face*
+![](images/Macro_Dxf_To_Shape_Convert_Wire_To_BSplineCurve02.gif ) 
+*Convert wire with selected face*
 
 ## Links
 

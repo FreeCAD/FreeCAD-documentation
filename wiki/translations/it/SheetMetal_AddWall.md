@@ -26,7 +26,15 @@ Lo strumento di piegatura di SheetMetal <img alt="" src=images/SheetMetal_Bend.s
 
 </div>
 
-<img alt="" src=images/PostBend.png  style="width:320px;">
+A **flange** consists of a 90° cylindrical bend and a planar strip (wall).
+
+<img alt="" src=images/SheetMetal_AddWall-12.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddWall-13.png  style="width:200px;"> 
+*Two selected edges -> two flanges*
+
+Resetting the **angle** property to about 180° in a second step will create a **hem** instead.
+
+<img alt="" src=images/SheetMetal_AddWall-14.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddWall-15.png  style="width:200px;"> 
+*Two selected edges -> two hems*
 
 ## Utilizzo
 
@@ -41,6 +49,8 @@ Per aggiungere una piega:
 
 
 </div>
+
+## Notes
 
 
 <div class="mw-translate-fuzzy">
@@ -73,10 +83,35 @@ Per aggiungere una piega:
 
 </div>
 
+Alternatively a base plate (blank) can be created with commands from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _.
+
+To create a blank with the [Part Workbench](Part_Workbench.md):
+
+1.  Create a solid using either:
+    -   <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Part Box](Part_Box.md).
+    -   <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> [Part Extrude](Part_Extrude.md) from:
+        -   A <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [Draft Rectangle](Draft_Rectangle.md).
+        -   A <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Draft Wire](Draft_Wire.md).
+        -   A <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Sketch](Sketcher_NewSketch.md).
+2.  Make sure one the dimensions of the Box or the extrusion distance equals the sheet metal thickness.
+
+To create a blank with the [PartDesign Workbench](PartDesign_Workbench.md):
+
+1.  Create a solid using either:
+    -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> [Additive Box](PartDesign_AdditiveBox.md).
+    -   <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> _.
+2.  Make sure one the dimensions of the Box or the **Length** property of the Pad equals the sheet metal thickness.
+
+
+<div class="mw-translate-fuzzy">
+
 
 :   
 
     :   Se si inizia con un <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> Corpo di PartDesign, è possibile combinare funzioni di Sheet Metal con funzioni di PartDesign come <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> _.
+
+
+</div>
 
 ## Proprietà
 

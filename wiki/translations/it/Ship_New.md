@@ -17,9 +17,18 @@ Da fare
 
 Create a New Ship or new Ship Instance.
 
+Ship works over **Ship entities**, that must be created on top of provided geometry. Geometry must be a solid, or set of solids.The following criteria must be taken into account:
+
+-   All hull geometry must be provided (including symmetric bodies).
+-   Starboard geometry must be included at negatives *y* domain.
+-   Origin (0,0,0) point is the **Midship section** (Midpoint between after and forward perpendicular) and **base line** intersection.
+
+![](images/FreeCAD-Ship-SignCriteria.jpg ) 
+*Ship sign criteria*
+
 ## Usage
 
-In order to create a **Ship instance** (in other words, a New Ship), select s60 geometry and execute the **ship creation tool** **Ship design → Create a new ship**
+In order to create a **Ship instance** (in other words, a New Ship), select the hull solid geometry and invoke **Ship design → Create a new ship**.
 
 
 <div class="mw-translate-fuzzy">
@@ -47,6 +56,8 @@ Le dimensioni principali che devono essere introdotte qui:
 
 </div>
 
+![](images/FreeCAD-Ship-S60ShipCreationFront.png )
+
 
 <div class="mw-translate-fuzzy">
 
@@ -64,6 +75,8 @@ Annotazioni di lunghezza nella vista frontale.
 </div>
 
 La distanza tra le perpendicolari dipende dall\'immersione, quindi se non si conosce la lunghezza tra le perpendicolari è possibile impostare l\'immersione e regolare la lunghezza in modo da ottenere l\'intersezione del dritto o ruota di prua (linea superiore della prua) con la [linea di galleggiamento](http://it.wikipedia.org/wiki/Linea_di_galleggiamento).
+
+![](images/FreeCAD-Ship-S60ShipCreationSide.png )
 
 
 <div class="mw-translate-fuzzy">
@@ -97,20 +110,19 @@ Quando si preme il pulsante **OK**, il programma crea la nuova istanza barca, qu
 
 </div>
 
+## Tutorial
+
 
 <div class="mw-translate-fuzzy">
-
-Da questo punto in poi, è necessario che **Ship** sia sempre selezionata prima di eseguire qualsiasi strumento di Ship.
-
-
-</div>
-
-## Tutorial
 
 -   [/it\|Tutorial Ship s60, prima parte ](FreeCAD-Ship_s60_tutorial.md)
 -   [Tutorial Ship s60, seconda parte](FreeCAD-Ship_s60_tutorial_(II)/it.md)
 
-\|[Ship Geometries Examples Loader](Ship_Geometries_Examples.md) \|[Lines drawing](Ship_Outline.md) \|[Ship](Ship_Workbench.md) \|IconL=Ship\_Load.svg \|IconC=Workbench\_Ship.svg \|IconR=Ship\_OutlineDraw.svg }}
+
+</div>
+
+
+
 
 
 {{Ship_Tools_navi

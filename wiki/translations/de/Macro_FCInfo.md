@@ -1,4 +1,7 @@
 # Macro FCInfo/de
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/de
 |Name=Macro FCInfo
 |Translate=Macro FCInfo
@@ -12,9 +15,18 @@
 |SeeAlso=<img src=images/Arch_Survey.svg/de style="width:Arch Survey|24px"> [Arch Survey](Arch_Survey/de.md)<br />[Macro SimpleProperties](Macro_SimpleProperties/de.md)
 }}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Gibt eine Reihe von Informationen über die ausgewählte Form und kann eine Umwandlung von Länge, Neigung (Grad, Bogenmaß, Neigung, Fließvermögen), Form, Oberfläche, Volumen und Gewicht der Form in der ausgewählten Dichte in verschiedenen Mengeneinheiten international und englisch anzeigen-Saxon.
+
+
+</div>
 
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/4ff055ff5eb117f75beea5843efca4791990cf62/FCInfo_en_Ver_1-22-rmu_Docked.FCMacro}}

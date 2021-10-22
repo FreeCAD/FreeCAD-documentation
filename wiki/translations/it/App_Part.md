@@ -10,6 +10,7 @@ Un oggetto [App Part](App_Part/it.md), o formalmente un `App::Part`, è un eleme
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Diagramma semplificato delle relazioni tra gli oggetti principali del programma. La classe `App::Part* è un semplice contenitore che ha una posizione nello spazio 3D e ha un'origine per controllare il posizionamento degli oggetti raggruppati sotto di essa.`
 
 ## Utilizzo

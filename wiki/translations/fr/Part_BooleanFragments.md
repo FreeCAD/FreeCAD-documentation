@@ -5,7 +5,7 @@
    MenuLocation:Pièce → Scinder → Fragments booléens
    Workbenches:[Part](Part_Workbench/fr.md)
    Version:0.17
-   SeeAlso:[Part Trancher](Part_Slice/fr.md), [Part OU exclusif](Part_XOR/fr.md), [Part Joindre](Part_CompJoinFeatures/fr.md), [Part Opérations booléennes](Part_Boolean/fr.md)
+   SeeAlso:[Part Scinder](Part_Slice/fr.md), [Part OU exclusif](Part_XOR/fr.md), [Part Joindre](Part_CompJoinFeatures/fr.md), [Part Opérations booléennes](Part_Boolean/fr.md)
 ---
 
 # Part BooleanFragments/fr
@@ -15,6 +15,7 @@
 Outil permettant de calculer tous les fragments pouvant résulter de l\'application d\'opérations booléennes entre des formes d\'entrée. Par exemple, pour deux sphères entrecroisées, trois solides non chevauchants mais touchants sont générés.
 
 ![600px](images/Part_BooleanFragments_Demo.png)
+
 
 
 *Dans l'image ci-dessus, les pièces ont été déplacées manuellement après, pour révéler la fragmentation.*

@@ -13,7 +13,8 @@
 
 Cet outil crée une fenêtre de rognage qui peut contenir des vues.
 
-![](images/TechDraw_Clipview.png ) *Fenêtre de rognage de différentes vues existantes*
+![](images/TechDraw_Clipview.png ) 
+*Fenêtre de rognage de différentes vues existantes*
 
 ## Utilisation
 

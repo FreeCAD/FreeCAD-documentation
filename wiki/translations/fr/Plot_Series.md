@@ -3,7 +3,7 @@
    Name:Plot Series
    Name/fr:Plot Séries
    MenuLocation:Plot → Configurer les séries‏‎
-   Workbenches:[Plot](Plot_Module/fr.md)
+   Workbenches:[Plot](Plot_Workbench/fr.md)
 ---
 
 # Plot Series/fr
@@ -18,7 +18,8 @@ Le module plot standard fournit déjà un outil permettant de modifier le style 
 
 Sélectionnez l\'onglet du graphique que vous voulez modifier et exécutez cet outil. Sélectionnez ensuite la série à éditer et procédez à la définition des nouvelles options. Vous pouvez même supprimer la série sélectionnée.
 
-![Remove the selected series](images/Plot_Remove_Series.png ) *Bouton de suppression de la série sélectionnée*
+![Remove the selected series](images/Plot_Remove_Series.png ) 
+*Bouton de suppression de la série sélectionnée*
 
 ## Options
 

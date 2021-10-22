@@ -12,7 +12,8 @@
 
 L\'outil **Révolution** produit un solide par révolution d\'une esquisse ou d\'un objet 2D sélectionné autour d\'un axe donné.
 
-![](images/PartDesign_Revolution_example.svg ) *Ci-dessus : l'esquisse (A) est révolutionnée de 270 degrés dans le sens antihoraire autour de l'axe (B) ; le solide résultant (C) est montré à droite.*
+![](images/PartDesign_Revolution_example.svg ) 
+*Ci-dessus : l'esquisse (A) est révolutionnée de 270 degrés dans le sens antihoraire autour de l'axe (B) ; le solide résultant (C) est montré à droite.*
 
 ## Utilisation
 

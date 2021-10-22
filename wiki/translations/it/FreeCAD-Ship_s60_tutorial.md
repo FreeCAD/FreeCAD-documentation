@@ -391,7 +391,7 @@ Alcuni dati rilevanti vengono visualizzati in tempo reale:
 
 <div class="mw-translate-fuzzy">
 
-Quando si preme il pulsante **OK** viene prodotto il grafico (secondo la complessità della geometria può richiedere del tempo, si può vedere l\'avanzamento dell\'elaborazione nel terminale e si può fermarla premendo **Ctrl + C**). Quando l\'attività è terminata FreeCAD genera un grafico (vedere la documentazione del modulo [Plot](Plot_Module/it.md)) e un foglio di calcolo (vedere la documentazione del modulo [Spreadsheet](Spreadsheet_Workbench/it.md)).
+Quando si preme il pulsante **OK** viene prodotto il grafico (secondo la complessità della geometria può richiedere del tempo, si può vedere l\'avanzamento dell\'elaborazione nel terminale e si può fermarla premendo **Ctrl + C**). Quando l\'attività è terminata FreeCAD genera un grafico (vedere la documentazione del modulo [Plot](Plot_Workbench/it.md)) e un foglio di calcolo (vedere la documentazione del modulo [Spreadsheet](Spreadsheet_Workbench/it.md)).
 
 
 </div>
@@ -434,7 +434,7 @@ Quindi impostare i seguenti valori:
 
 <div class="mw-translate-fuzzy">
 
-Quando si preme il pulsante **OK** viene prodotto un grafico (vedere la documentazione del modulo [Plot](Plot_Module/it.md)) e un foglio di calcolo (vedere la documentazione del modulo [Spreadsheet](Spreadsheet_Workbench/it.md)).
+Quando si preme il pulsante **OK** viene prodotto un grafico (vedere la documentazione del modulo [Plot](Plot_Workbench/it.md)) e un foglio di calcolo (vedere la documentazione del modulo [Spreadsheet](Spreadsheet_Workbench/it.md)).
 
 
 </div>

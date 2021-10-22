@@ -21,6 +21,7 @@ This macro makes use of the <img alt="" src=images/Draft_ShapeString.svg  style=
 :   <img alt="360 degree orientation" src=images/FCCircularText_01.png  style="width:400px;">
 
 
+
 *Example of the macro displaying text in a 360 degree orientation*
 
 ## Usage

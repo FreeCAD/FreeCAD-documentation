@@ -21,6 +21,7 @@ Il peut également se lier à des objets imbriqués dans des [Std Parts](Std_Par
 <img alt="" src=images/PartDesign_SubShapeBinder_example_1.png  style="width:" height="300px;"> <img alt="" src=images/PartDesign_SubShapeBinder_example_2.png  style="width:" height="300px;">
 
 
+
 *A gauche: deux solides créés dans deux [Corps](PartDesign_Body/fr.md) distincts. À droite: deux Sous formes liées extraites du premier corps, importées dans le deuxième corps et déplacés vers une position différente.*
 
 <img alt="" src=images/PartDesign_SubShapeBinder_example_3.png  style="width:" height="300px;"> 
@@ -41,7 +42,7 @@ _, les propriétés suivantes sont disponibles dans l\'[Éditeur de propriétés
 ### Données
 
 
-{{TitleProperty/fr|Base}}
+{{TitleProperty|Base}}
 
 -    {{PropertyData/fr|Support|XLinkSubList|hidden}}: support de la géométrie.
 
@@ -64,7 +65,7 @@ _, les propriétés suivantes sont disponibles dans l\'[Éditeur de propriétés
 -    {{PropertyData/fr|Shape|PartShape|hidden}}: [Part TopoShape](Part_TopoShape/fr.md) de cet objet.
 
 
-{{TitleProperty/fr|Cache}}
+{{TitleProperty|Cache}}
 
 -    {{PropertyData/fr|Body|Matrix|hidden}}: matrice d\'unité de cet objet.
 

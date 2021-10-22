@@ -21,6 +21,7 @@ Dieser Befehl ist Teil der _ über das {{MenuCommand/de|Werkzeuge → Erweiterun
 ![](images/Arch_Rebar_BeamReinforcement_example.png )
 
 
+
 *Balkenbewehrung innerhalb eines Balkenss [Architektur Struktur](Arch_Structure/de.md)*
 
 ## Anwendung
@@ -34,6 +35,7 @@ Dieser Befehl ist Teil der _ über das {{MenuCommand/de|Werkzeuge → Erweiterun
 :   <img alt="" src=images/BeamReinforcementDialog_Stirrups.png  style="width:700px;">
 
 
+
 *Dialog Box for the Arch Rebar BeamReinforcement tool*
 
 4\. Select the desired type of beam reinforcement.
@@ -43,6 +45,7 @@ Dieser Befehl ist Teil der _ über das {{MenuCommand/de|Werkzeuge → Erweiterun
 6\. Click **Next** and the dialog box will be updated as shown below.
 
 :   <img alt="" src=images/BeamReinforcementDialog_TopRebars.png  style="width:700px;">
+
 
 
 *Dialog Box for Top Rebars data*
@@ -82,6 +85,7 @@ Dieser Befehl ist Teil der _ über das {{MenuCommand/de|Werkzeuge → Erweiterun
 :   <img alt="" src=images/BeamReinforcementDialog_BottomRebars.png  style="width:700px;">
 
 
+
 *Dialog Box for Bottom Rebars data*
 
 9\. Set data for bottom rebars similar to top rebars data.
@@ -89,6 +93,7 @@ Dieser Befehl ist Teil der _ über das {{MenuCommand/de|Werkzeuge → Erweiterun
 10\. Click **Next** and the dialog box will be updated as shown below.
 
 :   <img alt="" src=images/BeamReinforcementDialog_LeftRebars.png  style="width:700px;">
+
 
 
 *Dialog Box for Left Shear Rebars data*
@@ -122,6 +127,7 @@ Dieser Befehl ist Teil der _ über das {{MenuCommand/de|Werkzeuge → Erweiterun
 12\. Click **Next** and the dialog box will be updated as shown below.
 
 :   <img alt="" src=images/BeamReinforcementDialog_RightRebars.png  style="width:700px;">
+
 
 
 *Dialog Box for Right Shear Rebars data*

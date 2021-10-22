@@ -13,7 +13,8 @@
 
 Das <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> _ Werkzeug, werden die mit diesem Werkzeug erstellten Ansichten mit dem <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf Arbeitsbereich](Draft_Workbench/de.md) bearbeitet und speziell für die Darstellung von 2D-Objekten entwickelt. Siehe Anmerkungen.
 
-![](images/TechDraw_DraftView_example.png ) *Entwurfselemente wie Kreise und Anordnungen importiert in eine TechDraw Zeichnungsseite*
+![](images/TechDraw_DraftView_example.png ) 
+*Entwurfselemente wie Kreise und Anordnungen importiert in eine TechDraw Zeichnungsseite*
 
 ## Anwendung
 

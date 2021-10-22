@@ -29,6 +29,7 @@ L\'_, con un colore definito. La geometria di costruzione è composta da linee, 
 <div class="mw-translate-fuzzy">
 
 
+
 *Geometria di costruzione in blu che aiuta a impostare il centro del cerchio*
 
 

@@ -17,7 +17,8 @@ Acest mod de ancorare vă permite să selectați intersecția a două segmente d
 
 </div>
 
-![](images/Draft_Snap_Intersection_example.png ) *Snapping the second point of a line to the intersection of two edges*
+![](images/Draft_Snap_Intersection_example.png ) 
+*Snapping the second point of a line to the intersection of two edges*
 
 ## Usage
 

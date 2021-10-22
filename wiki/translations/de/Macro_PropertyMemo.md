@@ -20,7 +20,8 @@
 
 Dieses kleine Makro erstellt eine zusätzliche Eigenschaft (Memo oder anderer Text) für Ihr Objekt (nur Entwurf).
 
-![](images/Macro_FCPropertyMemo_00.png ) *Addin one property Memo → Name*
+![](images/Macro_FCPropertyMemo_00.png ) 
+*Addin one property Memo → Name*
 
 ## Verwendet
 

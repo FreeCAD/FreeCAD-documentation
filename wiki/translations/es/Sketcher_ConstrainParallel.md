@@ -24,6 +24,7 @@ El croquis contiene dos líneas de orientación aleatoria.
 <img alt="" src=images/ConstrainParallel1.png  style="width:500px;">
 
 
+
 *Seleccione ambas líneas haciendo clic sucesivamente en cada una de ellas.*
 
 <img alt="" src=images/ConstrainParallel2.png  style="width:500px;">

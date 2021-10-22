@@ -17,6 +17,7 @@ A continuación, encontrará explicaciones detalladas de todo el proceso, alguno
 <img alt="" src=images/FreeCAD_source_compilation_workflow.svg  style="width:800px;">
 
 
+
 *Flujo de trabajo general para compilar FreeCAD desde la fuente. Las dependencias de terceros deben estar en el sistema, así como el propio código fuente de FreeCAD. CMake configura el sistema de manera que con una sola instrucción de creación se compila todo el proyecto.*
 
 ## Obtener la fuente 
@@ -694,6 +695,14 @@ cmake ../freecad-source -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3
 }}
 
 La opción `-j` de `make` controla cuántos trabajos (archivos) se compilan en paralelo. El programa `nproc` imprime el número de núcleos de la CPU en su sistema; usándolo junto con la opción `-j` puede elegir procesar tantos archivos como núcleos tenga, para acelerar la compilación general del programa. En el ejemplo anterior, utilizará todos los núcleos de tu sistema excepto dos; esto mantendrá a tu ordenador respondiendo para otros usos mientras la compilación se realiza en segundo plano. El ejecutable de FreeCAD aparecerá finalmente en el directorio `freecad-build/bin`. Ver también [Compilación (aceleración)](Compiling_(Speeding_up)/es.md) para mejorar la velocidad de compilación.
+
+### Resolving cmake issues 
+
+If you have done an out-of-source build before and get stuck on a dependency that is not recognized or can\'t seem to be resolved, try the following:
+
+-   Delete the contents of the build directory before running cmake again. FreeCAD is a rapidly moving target, you may be tripping over cached cmake information that points at an older version than the new repository head can use. Clearing the cache may allow cmake to recover and recognize the version you actually need.
+
+-   If cmake complains about missing a specific file, use a tool such as \"apt-file search\", or its equivalent in other package systems, to discover what package that file belongs to and install it. Bear in mind that you are likely to need the -dev version of the package that carries header or config files files required for FreeCAD to use the package.
 
 ### Creación interna fuentes 
 

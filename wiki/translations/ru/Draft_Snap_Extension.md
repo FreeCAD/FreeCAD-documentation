@@ -18,6 +18,7 @@
 Этот метод соответствует точке на воображаемой линии, которая простирается за пределы концов отрезков. <img alt="" src=images/Draft_Snap_Extension.png  style="width:400px;">
 
 
+
 *Snapping the second point of a line to the extension of another line*
 
 ## Использование
@@ -41,7 +42,8 @@ The <img alt="" src=images/Draft_Snap_Extension.svg  style="width:24px;"> **Draf
 
 Up to two edged can be referenced by this snap option and [Draft Snap Parallel](Draft_Snap_Parallel.md), making it possible to snap to virtual intersections. Both snap options can also be combined with other snap options.
 
-![](images/Draft_Snap_Extension_example.png ) *Snapping the second point of a line to the extension of an edge*
+![](images/Draft_Snap_Extension_example.png ) 
+*Snapping the second point of a line to the extension of an edge*
 
 ## Usage
 

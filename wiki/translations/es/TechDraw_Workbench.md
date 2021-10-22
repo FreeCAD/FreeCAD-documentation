@@ -61,6 +61,20 @@ Estas son herramientas para crear y administrar objetos clip (vistas recortadas)
 
 -   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Eliminar la vista del grupo de clips](TechDraw_ClipGroupRemove/es.md): Elimina una vista de un grupo de clip.
 
+## Decoración
+
+Estas son herramientas para decorar páginas o vistas:
+
+-   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Achurado plano utilizar un archivo de imagen](TechDraw_Hatch/es.md): Aplica un achurado patrón desde un archivo a uno plano.
+
+-   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Geometric Hatch](TechDraw_GeometricHatch/es.md): aplica una sombrea uno plano usando una especificación PAT de Autodesk.
+
+-   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ en una página.
+
+-   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ en una página.
+
+-   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Turn View Frames On/Off](TechDraw_ToggleFrame/es.md): activa y desactiva ver marcos y etiquetas que rodean una vista.
+
 ## Dimensiones
 
 Estas son herramientas para crear y trabajar con los objetos de las Dimensiones.
@@ -165,52 +179,13 @@ Agrega una dimensión de ángulo usando tres vértices.
 
 </div>
 
-## Extensions
-
-These are tools to improve your TechDraw drawings.
-
-
-**Some of these tools have yet to be released.**
-
--   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Draw circle centerlines](TechDraw_ExtensionCircleCenterLines.md): adds centerlines to circles and arcs. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Cosmetic thread hole side view](TechDraw_ExtensionThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Cosmetic thread bolt side view](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Cosmetic thread hole bottom view](TechDraw_ExtensionThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Cosmetic thread bolt bottom view](TechDraw_ExtensionThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
-
 
 <div class="mw-translate-fuzzy">
 
-## Importar/Exportar
+## Anotación
 
 
 </div>
-
-Estas son herramientas para exportar páginas a otras aplicaciones.
-
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _.
-
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _.
-
-## Decoración
-
-Estas son herramientas para decorar páginas o vistas:
-
--   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Achurado plano utilizar un archivo de imagen](TechDraw_Hatch/es.md): Aplica un achurado patrón desde un archivo a uno plano.
-
--   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Geometric Hatch](TechDraw_GeometricHatch/es.md): aplica una sombrea uno plano usando una especificación PAT de Autodesk.
-
--   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ en una página.
-
--   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ en una página.
-
--   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Turn View Frames On/Off](TechDraw_ToggleFrame/es.md): activa y desactiva ver marcos y etiquetas que rodean una vista.
-
-## Anotación
 
 Los instrumentos de anotación sirven para \"marcar\" un dibujo con información adicional.
 
@@ -247,6 +222,37 @@ Los instrumentos de anotación sirven para \"marcar\" un dibujo con información
 -   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:24px;"> [Mostrar/Ocultar Bordes Invisibles](TechDraw_ShowAll/es.md): muestra/oculta las líneas/bordes invisibles en una vista. {{Version/es|0.19}}
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:24px;"> [Añadir información de soldadura a la línea de mando](TechDraw_WeldSymbol/es.md): añade especificaciones de soldadura a una línea de mando existente. {{Version/es|0.19}}
+
+## Extensions
+
+These are tools to improve your TechDraw drawings.
+
+
+**Some of these tools have yet to be released.**
+
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Draw circle centerlines](TechDraw_ExtensionCircleCenterLines.md): adds centerlines to circles and arcs. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Cosmetic thread hole side view](TechDraw_ExtensionThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Cosmetic thread bolt side view](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Cosmetic thread hole bottom view](TechDraw_ExtensionThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Cosmetic thread bolt bottom view](TechDraw_ExtensionThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
+## Importar/Exportar
+
+
+</div>
+
+Estas son herramientas para exportar páginas a otras aplicaciones.
+
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _.
+
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _.
 
 ## Características adicionales 
 

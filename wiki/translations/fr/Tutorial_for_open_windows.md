@@ -127,9 +127,11 @@ occasionnellement, la fenêtre peut être placée à l\'extérieur du [Arch Mur]
 :   11.4. Changez le `Opening mode` en **Arc 90**, ou toute autre option.
 :   11.5. Cliquez sur le bouton **+Create/update component** puis sur **Fermer** pour terminer la modification de la porte. L\'esquisse peut redevenir masquée.
 
-![](images/05_T01_window_edit.png ) *align=center|Dialogue pour modifier une fenêtre ou une porte*
+![](images/05_T01_window_edit.png ) 
+*align=center|Dialogue pour modifier une fenêtre ou une porte*
 
-![](images/06_T01_window_edit_component.png ) *align=center|Dialogue pour éditer les éléments qui composent une fenêtre ou une porte*
+![](images/06_T01_window_edit_component.png ) 
+*align=center|Dialogue pour éditer les éléments qui composent une fenêtre ou une porte*
 
 <img alt="" src=images/06.1_T01_window_edit_wire_door_front.png  style="width:600px;"> 
 *align=center|Bord vertical de l'esquisse choisie comme charnière pour une porte*
@@ -140,7 +142,8 @@ occasionnellement, la fenêtre peut être placée à l\'extérieur du [Arch Mur]
 
 14\. Répétez les étapes avec `Door001` et le `Sketch001` sous-jacent pour ouvrir la porte à 75 degrés vers l\'intérieur du bâtiment. Activez également les symboles d\'élévation et de plan.
 
-![](images/07_T01_window_property_view.png ) *align=center|Vue des propriétés de la porte pour modifier la valeur d'ouverture, l'élévation du symbole, le plan du symbole et d'autres options*
+![](images/07_T01_window_property_view.png ) 
+*align=center|Vue des propriétés de la porte pour modifier la valeur d'ouverture, l'élévation du symbole, le plan du symbole et d'autres options*
 
 <img alt="" src=images/08_T01_window_symbol_elevation.png  style="width:600px;"> 
 *align=center|Porte avec symbole d'élévation d'ouverture, vue de face*

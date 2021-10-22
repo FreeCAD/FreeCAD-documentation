@@ -35,5 +35,14 @@ Dieser Befehl behandelt aktuell nur fünf der Einstellungen, die der [Draft Stil
 
 -   In FreeCAD version 0.20 kann der [Draft Aktuellen Style anwenden](Draft_SetStyle/de.md)-Befehl auch die Einstellungen anwenden.
 
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ApplyStyle/de

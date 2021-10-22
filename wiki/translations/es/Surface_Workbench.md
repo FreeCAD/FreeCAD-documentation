@@ -33,6 +33,7 @@ El ambiente de trabajo de superficies pretende crear caras con formas, lo que no
 <img alt="" src=images/Toy_Duck.png  style="width:350px;">
 
 
+
 *Superficie creada con bocetos colocados en planos de referencia con las herramientas del [DiseñoPieza ambiente de trabajo](PartDesign_Workbench/es.md)*
 
 El ambiente de trabajo de superficies se integra con otros ambientes de trabajo de FreeCAD. El ejemplo anterior fue creado a partir de **<img src=images/Sketcher_NewSketch.svg style="width:16px"> <img src=images/PartDesign_Plane.svg style="width:Bocetos](Sketch/es.md)** colocado en **_. El diseño puede ser totalmente paramétrico si todos los planos de referencia y los bocetos se definen en consecuencia. En la mayoría de los casos es suficiente dibujar un croquis cerrado para definir el límite de una cara, y luego utilizar diferentes opciones para modificar aún más su forma.

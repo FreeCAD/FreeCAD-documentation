@@ -14,7 +14,10 @@
 
 The FHPlaneHole tool inserts a plane hole object, that represents a FastHenry uniform conductive plane hole.
 
-![](images/EM_point_FHPlaneHole_Example.png ) *FastHenry Point FHPlaneHole* ![](images/EM_rect_FHPlaneHole_Example.png ) *FastHenry Rect FHPlaneHole* ![](images/EM_circle_FHPlaneHole_Example.png ) *FastHenry Circle FHPlaneHole*
+![](images/EM_point_FHPlaneHole_Example.png ) 
+*FastHenry Point FHPlaneHole* ![](images/EM_rect_FHPlaneHole_Example.png ) 
+*FastHenry Rect FHPlaneHole* ![](images/EM_circle_FHPlaneHole_Example.png ) 
+*FastHenry Circle FHPlaneHole*
 
 ## Usage
 

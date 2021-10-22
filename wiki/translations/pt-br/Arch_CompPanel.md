@@ -30,4 +30,4 @@ Grouping of several Panel related tools.
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/pt-br
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompPanel/pt-br

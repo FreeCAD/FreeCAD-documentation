@@ -8,6 +8,7 @@ In FreeCAD, this method is mostly utilized with the <img alt="" src=images/Workb
 <img alt="" src=images/Part_Constructive_Solid_Geometry_workflow.svg  style="width:800px;">
 
 
+
 *Constructive solid geometry (CSG) workflow; any number of operations can be done on solid primitives to create other solid objects, and then fuse or cut them until the final shape is produced.*
 
 Alternatively, the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) uses a more modern approach than simple CSG; this method is called [feature editing](feature_editing.md), which means creating a base solid, and then adding sequential parametric transformations to obtain a final body.
@@ -20,6 +21,7 @@ A [PartDesign Body](PartDesign_Body.md) created with the [PartDesign Workbench](
 ## Example
 
 <img alt="" src=images/Part_CGS_workflow_example.svg  style="width:600px;">
+
 
 
 *Example of constructive solid geometry (CSG) workflow: primitive parts are fused (union); the intersection of two other primitive parts is calculated (common); the difference (cut) of the two previous shapes is obtained.*

@@ -10,6 +10,9 @@
 
 # Assembly3 GoToRelation/de
 
+
+</div>
+
 ## Beschreibung
 
 Der Befehl **Assembly3 Zur Beziehung gehen** kann dabei helfen Beziehungen im Baugruppenbaum zu finden. Ab der ersten Benutzung wird die Beziehungsgruppe (Relations group) sichtbar geschaltet.

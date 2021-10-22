@@ -17,7 +17,8 @@
 
 Lo strumento Quadrante aggiunge dei [vertici cosmetici](TechDraw_CosmeticVertex/it.md) nei punti a 90/180/270° di un bordo circolare. Il vertice di 0° dovrebbe già essere presente come vertice geometrico.
 
-<img alt="" src=images/TechDraw_CosmeticQuadrant_Sample.png  style="width:250px;"> *Vertici cosmetici nei punti del quadrante di un cerchio
+<img alt="" src=images/TechDraw_CosmeticQuadrant_Sample.png  style="width:250px;"> 
+*Vertici cosmetici nei punti del quadrante di un cerchio
 *
 
 ## Utilizzo

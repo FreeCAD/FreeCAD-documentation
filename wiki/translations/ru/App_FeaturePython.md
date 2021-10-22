@@ -8,6 +8,7 @@
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Упрощенная схема взаимосвязей между основными объектами в программе. Класс `App::FeaturePython* является простой реализацией {{incode|App::DocumentObject`, который можно использовать для любых целей, так как по умолчанию в нем нет [TopoShape](Part_TopoShape/ru.md).}}
 
 ## Применение

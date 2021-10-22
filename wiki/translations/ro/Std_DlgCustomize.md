@@ -22,6 +22,7 @@ Este vorba despre Personalizarea unor opțiuni diferite în FreeCAD. Deoarece in
 ![](images/Std_DlgCustomize_tab_Toolbars.png )
 
 
+
 *The Customize dialog box*
 
 ## Usage

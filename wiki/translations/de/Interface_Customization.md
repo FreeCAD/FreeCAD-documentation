@@ -5,7 +5,8 @@
 
 Die FreeCAD Oberfläche basiert auf dem modernen [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) Werkzeugsatz und hat einen Aufbau nach Stand der Technik. Einige Aspekte der Oberfläche können angepasst werden. Du kannst z.B. benutzerdefinierte Werkzeugleisten hinzufügen, mit Werkzeugen von mehreren Arbeitsbereichen oder in Makros festgelegten Werkzeugen, und du kannst eigene Tastaturkürzel erstellen. Die Menüs und Standardwerkzeugleisten, die mit FreeCAD und seinen Arbeitsbereichen geliefert werden, können jedoch nicht geändert werden.
 
-![](images/Std_DlgCustomize_tab_Toolbars.png ) *Das Dialogfeld Anpassen*
+![](images/Std_DlgCustomize_tab_Toolbars.png ) 
+*Das Dialogfeld Anpassen*
 
 ## Anwendung
 
@@ -23,7 +24,8 @@ Im Dialogfeld Anpassen sind die folgenden Reiter verfügbar:
 
 ### Befehle
 
-![](images/Std_DlgCustomize_tab_Commands.png ) *Der Befehlsreiter*
+![](images/Std_DlgCustomize_tab_Commands.png ) 
+*Der Befehlsreiter*
 
 Auf diesem Reiter kannst Du die verfügbaren Befehle durchsuchen.
 
@@ -39,7 +41,8 @@ Auf diesem Reiter kannst Du die verfügbaren Befehle durchsuchen.
 
 ### Tastatur
 
-![](images/Std_DlgCustomize_tab_Keyboard.png ) *Der Tastaturreiter*
+![](images/Std_DlgCustomize_tab_Keyboard.png ) 
+*Der Tastaturreiter*
 
 Auf diesem Reiter können benutzerdefinierte Tastaturkürzel definiert werden. Tastaturkürzel für Makrobefehle können auf dem [Makros](#Makros.md) Reiter definiert werden.
 
@@ -75,7 +78,8 @@ Auf diesem Reiter können benutzerdefinierte Tastaturkürzel definiert werden. T
 
 ### Arbeitsbereiche
 
-![](images/Std_DlgCustomize_tab_Workbenches.png ) *Der Arbeitsbereiche Reiter*
+![](images/Std_DlgCustomize_tab_Workbenches.png ) 
+*Der Arbeitsbereiche Reiter*
 
 Auf diesem Reiter kann die [Arbeitsbereichswählerliste](Std_Workbench/de.md) geändert werden. Die Liste **Aktivierte Arbeitsbereiche** zeigt die Arbeitsbereiche, wie sie in der Arbeitsbereichsauswahl erscheinen werden.
 
@@ -110,7 +114,8 @@ Auf diesem Reiter kann die [Arbeitsbereichswählerliste](Std_Workbench/de.md) ge
 
 ### Werkzeugleisten
 
-![](images/Std_DlgCustomize_tab_Toolbars.png ) *Der Werkzeugleistenreiter*
+![](images/Std_DlgCustomize_tab_Toolbars.png ) 
+*Der Werkzeugleistenreiter*
 
 Auf diesem Reiter können benutzerdefinierte Werkzeugleisten erstellt und geändert werden.
 
@@ -177,7 +182,8 @@ Eine inaktive Werkzeugleiste wird im FreeCAD Userinterface nicht angezeigt.
 
 ### Makros
 
-![](images/Std_DlgCustomize_tab_Macros.png ) *Der Reiter Makros*
+![](images/Std_DlgCustomize_tab_Macros.png ) 
+*Der Reiter Makros*
 
 Auf diesem Tab können Makro-Kommandos eingerichtet werden. Sobald sie eingerichtet wurden, können sie einer Werkzeugleiste hinzugefügt werden. FreeCAD verwendet einen speziellen Ordner für User-Makros und nur Makros in diesem Folder können eingerichtet werden. Verwende die Kommandos <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Std DlgMacroExecute](Std_DlgMacroExecute.md) um diesen Ordner auf deinem System zu finden.
 

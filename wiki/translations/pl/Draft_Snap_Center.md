@@ -11,9 +11,11 @@
 
 The <img alt="" src=images/Draft_Snap_Center.svg  style="width:24px;"> **Draft Snap Center** option snaps to the center point of faces and circular edges, and to the **Placement** point of [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md) and [Arch BuildingParts](Arch_BuildingPart.md). The faces and edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
 
-![](images/Draft_Snap_Center_example_arc.png ) *Snapping the second point of a line to the center of a circular edge*
+![](images/Draft_Snap_Center_example_arc.png ) 
+*Snapping the second point of a line to the center of a circular edge*
 
-![](images/Draft_Snap_Center_example_buildingpart.png ) *Snapping the second point of a line to the Placement point of an Arch BuildingPart*
+![](images/Draft_Snap_Center_example_buildingpart.png ) 
+*Snapping the second point of a line to the Placement point of an Arch BuildingPart*
 
 ## Usage
 

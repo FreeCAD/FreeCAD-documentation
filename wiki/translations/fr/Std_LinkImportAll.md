@@ -27,6 +27,7 @@ Cette commande exécute essentiellement **<img src=images/Std_LinkImport.svg sty
 ![](images/Std_Link_tree_import_all_1_example.png ) ![](images/Std_Link_tree_import_all_2_example.png )
 
 
+
 *À gauche : divers liens qui pointent vers des objets dans le document "source". À droite : les objets originaux ont été importés (copiés) dans le document "cible" et les liens existants ont été modifiés pour pointer vers ces copies, de sorte qu'ils ne pointent plus vers des objets dans "source".*
 
 

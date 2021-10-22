@@ -11,13 +11,44 @@
 
 ## Description
 
-La commande <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> **SheetMetal AddFoldWall** permet de plier une tôle selon une ligne choisie avec un rayon de courbure spécifié.
+La commande <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> **SheetMetal AddFoldWall** plie une plaque de tôle (brute) selon une ligne choisie.
+
+Elle peut être utilisée avec une plaque prédécoupée pour
+
+-   créer une zone de pliage perforée
+-   laisser des sections planes dans la zone de pliage et au-delà, par exemple des languettes. (nécessite des espaces dans la ligne de pliage)
+
+<img alt="" src=images/SheetMetal_AddFoldWall-13.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddFoldWall-14.png  style="width:300px;">
+
+
+
+*Plaque prédécoupée et ligne de pliage avec deux espaces -> zone de pliage perforée avec une géométrie encore plane*
+
+.
 
 ## Utilisation
 
-1.  Sélectionner une face plane de l\'objet SheetMetal
-2.  Sélectionnez une ligne coplanaire
-3.  Appuyez sur le bouton ou utilisez le raccourci clavier : **C** puis **F**.
+1.  Sélectionnez le côté à plier.
+2.  Maintenez la touche **Ctrl** (ou la touche **Command** sur macOS).
+3.  Sélectionnez la face coplanaire de l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [esquisse](Sketcher_Workbench/fr.md) (c\'est-à-dire située sur le même plan) contenant la **ligne de pliage (segments)**. (de préférence à partir de la [Vue en arborescence](Tree_view/fr.md)).
+4.  Relâchez la touche **Ctrl** (ou la touche **Command**).
+5.  Lancez <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:16px;"> **SheetMetal Pli sur tôle** en utilisant l\'une des commandes suivantes :
+    -   Le bouton **<img src="images/SheetMetal_AddFoldWall.svg" width=16px> [Fold a Wall](SheetMetal_AddFoldWall/fr.md)**.
+    -   L\'option du menu **SheetMetal → <img src="images/SheetMetal_AddFoldWall.svg" width=16px> Fold a Wall**.
+    -   Le raccourci clavier : **C** Puis **F**.
+6.  Modifiez la valeur de la propriété **Position** pour ajuster la position du pliage en fonction de la ligne de pliage.
+
+<img alt="" src=images/SheetMetal_AddFoldWall-15.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddFoldWall-14.png  style="width:300px;">
+
+
+
+*La ou les lignes de pliage situées au milieu de la perforation -> pour que le pliage soit centré de la même manière, la propriété **Position* doit être définie sur {{value|middle**}}
+
+### Remarques
+
+-   La ligne de pliage doit être **coplanaire** à la face sélectionnée.
+
+-   Les segments de la ligne de pliage doivent être **colinéaires** les uns par rapport aux autres.
 
 ## Propriétés
 

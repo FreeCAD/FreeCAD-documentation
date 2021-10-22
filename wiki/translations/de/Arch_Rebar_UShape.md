@@ -36,6 +36,7 @@ Dieser Befehl ist Teil der _ über das {{MenuCommand/de|Werkzeuge → Erweiterun
 :   <img alt="" src=images/UShapeDialog.png  style="width:250px;">
 
 
+
 *Aufgaben-Ansicht für das Arch Bewehrungsstab U-förmig-Werkzeug*
 
 ## Eigenschaften

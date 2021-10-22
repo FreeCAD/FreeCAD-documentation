@@ -34,7 +34,8 @@ Luego vaya a **Vista → Paneles** y compruebe:
 
 Existen dos modos sencillos de escribir código de Python en FreeCAD: Desde la consola de Python (disponible en el menú Vista -\> Vistas -\> Consola de Python) o desde el editor de macros (Herramientas -\> Macros). En la consola, escribes comandos de Python uno a uno, que son ejecutados al presionar Enter, mientras que las macros pueden contener archivos de guión más completos formados por varias líneas, que se ejecutan sólo cuando la macro es ejecutada.
 
-![](images/Screenshot_pythoninterpreter.jpg ) *La consola FreeCAD Python*
+![](images/Screenshot_pythoninterpreter.jpg ) 
+*La consola FreeCAD Python*
 
 En este tutorial se pueden utilizar ambos métodos. Puede copiar-pegar cada línea en la consola Python y luego presionar **Enter**, o copiar-pegar todo el código en una nueva ventana de Macro.
 
@@ -49,9 +50,16 @@ Vamos a empezar creando un nuevo documento vacío:
 doc = FreeCAD.newDocument()
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Si escribe esto en la consola de FreeCAD Python, notará que en cuanto teclee `FreeCAD.` aparece una ventana que le permite autocompletar rápidamente el resto de su línea. Mejor aún, cada entrada de la lista de autocompletar tiene un tooltip que explica lo que hace. Esto facilita la exploración de la funcionalidad disponible. Antes de elegir `newDocument`, eche un vistazo a las otras opciones.
 
-![](images/Screenshot_classbrowser.jpg ) *El mecanismo de autocompletar de la consola Python de FreeCAD*
+
+</div>
+
+![](images/Screenshot_classbrowser.jpg ) 
+*El mecanismo de autocompletar de la consola Python de FreeCAD*
 
 Ahora nuestro nuevo documento se creará. Esto es similar a presionar el botón \"Nuevo documento\" en la barra de herramientas. En realidad, la mayoría de botones en FreeCAD no hacen nada más que ejecutar una línea o dos de código en Python. Aún mejor, puedes establecer una opción en Editar -\> Preferencias -\> General -\> Macro para \"mostrar los comandos de los archivos de guión en la consola de Python\". Esto mostrará en la consola todo el código de Python ejecutado cuando presionas los botones. Muy útil para aprender como reproducir acciones en Python.
 
@@ -69,14 +77,26 @@ Explore las opciones disponibles. Normalmente los nombres que empiezan con mayú
 box = doc.addObject("Part::Box", "myBox")
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 No pasa nada. ¿Por qué? Porque FreeCAD está hecho para la gran imagen. Un día, trabajará con cientos de objetos complejos, todos dependiendo unos de otros. Hacer un pequeño cambio en algún lugar puede tener un gran impacto, puede necesitar recalcular todo el documento, lo que puede llevar mucho tiempo. Por esa razón casi ningún comando actualiza la escena automáticamente. Debes hacerlo manualmente:
+
+
+</div>
 
 
 ```python
 doc.recompute()
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Ahora nuestra caja apareció. Muchos de los botones que añaden objetos en FreeCAD en realidad hacen dos cosas: añadir el objeto, y volver a calcular. Si activaste la opción **Mostrar comandos de script en la consola de python** de arriba, intenta añadir una esfera con el botón de la GUI, verás las dos líneas de código Python ejecutándose una tras otra.
+
+
+</div>
 
 Ahora vamos a explorar el contenido de nuestro cubo:
 
@@ -99,9 +119,15 @@ Esto mostrará la altura actual de nuestro cubo. Ahora vamos a intentar cambiarl
 box.Height = 5
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Si seleccionas tu caja con el ratón, verás que en el [Editor de propiedades](Property_editor/es.md), en la pestaña **Datos**, aparece nuestra propiedad **Altura**. Todas las propiedades de un objeto de FreeCAD que aparecen ahí (y también en la pestaña **Vista**, más adelante), son directamente accesibles por Python también, por sus nombres, como hicimos con la propiedad **Altura**. Prueba a cambiar las otras dimensiones de la caja.
 
 Traducción realizada con la versión gratuita del traductor www.DeepL.com/Translator
+
+
+</div>
 
 [inicio](#top.md)
 

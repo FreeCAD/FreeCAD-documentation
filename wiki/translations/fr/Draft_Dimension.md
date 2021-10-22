@@ -180,23 +180,23 @@ Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_Featur
 
 {{TitleProperty|Graphics}}
 
--    {{PropertyView/fr|Arrow Size|Length}}: spécifie la taille des symboles affichés aux extrémités de la ligne ou de l\'arc de dimension.
+-    **Arrow Size|Length**: spécifie la taille des symboles affichés aux extrémités de la ligne ou de l\'arc de dimension.
 
--    {{PropertyView/fr|Arrow Type|Enumeration}}: spécifie le type de symbole affiché aux extrémités de la ligne ou de l\'arc de dimension, qui peut être {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} ou {{value|Tick-2}}.
+-    **Arrow Type|Enumeration**: spécifie le type de symbole affiché aux extrémités de la ligne ou de l\'arc de dimension, qui peut être {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} ou {{value|Tick-2}}.
 
--    {{PropertyView/fr|Dim Overshoot|Distance}}: spécifie la longueur supplémentaire ajoutée à la ligne de cote. Non utilisé pour les cotes angulaires.
+-    **Dim Overshoot|Distance**: spécifie la longueur supplémentaire ajoutée à la ligne de cote. Non utilisé pour les cotes angulaires.
 
--    {{PropertyView/fr|Ext Lines|Distance}}: spécifie la longueur maximale des lignes d\'extension qui vont des points mesurés à la ligne de cote. Non utilisé pour les dimensions angulaires.
+-    **Ext Lines|Distance**: spécifie la longueur des lignes d\'extension qui vont de la ligne de dimension aux points mesurés. Utilisez {{Value|0}} pour des lignes d\'extension complètes. Une valeur négative définit l\'écart entre les extrémités des lignes d\'extension et les points mesurés. Une valeur positive définit la longueur maximale des lignes d\'extension. Utilisé uniquement pour les dimensions linéaires.
 
--    {{PropertyView/fr|Ext Overshoot|Distance}}: spécifie la longueur supplémentaire des lignes d\'extension au-delà de la ligne de cote. Non utilisé pour les dimensions angulaires.
+-    **Ext Overshoot|Distance**: spécifie la longueur supplémentaire des lignes d\'extension au-delà de la ligne de cote. Non utilisé pour les dimensions angulaires.
 
--    {{PropertyView/fr|Flip Arrows|Bool}}: indique s\'il faut inverser l\'orientation des symboles aux extrémités de la ligne de cote ou de l\'arc. Ne fonctionne que si les symboles sont des flèches.
+-    **Flip Arrows|Bool**: indique s\'il faut inverser l\'orientation des symboles aux extrémités de la ligne de cote ou de l\'arc. Ne fonctionne que si les symboles sont des flèches.
 
--    {{PropertyView/fr|Line Color|Color}}: spécifie la couleur de la dimension, y compris le texte.
+-    **Line Color|Color**: spécifie la couleur de la dimension, y compris le texte.
 
--    {{PropertyView/fr|Line Width|Float}}: spécifie la largeur des lignes ou de l\'arc appartenant à la dimension.
+-    **Line Width|Float**: spécifie la largeur des lignes ou de l\'arc appartenant à la dimension.
 
--    {{PropertyView/fr|Show Line|Bool}}: spécifie s\'il faut afficher la ligne de la dimension. N\'affecte pas l\'affichage des lignes d\'extension et des dépassements. Non utilisé pour les dimensions angulaires.
+-    **Show Line|Bool**: spécifie s\'il faut afficher la ligne de la dimension. N\'affecte pas l\'affichage des lignes d\'extension et des dépassements. Non utilisé pour les dimensions angulaires.
 
 
 {{TitleProperty|Text}}
@@ -216,11 +216,11 @@ Un objet Draft Dimension est dérivé d\'un objet [App FeaturePython](App_Featur
 
 {{TitleProperty|Units}}
 
--    {{PropertyView/fr|Decimals|Integer}}: spécifie le nombre de décimales à afficher pour la mesure. Non utilisé pour les dimensions angulaires.
+-    **Decimals|Integer**: spécifie le nombre de décimales à afficher pour la mesure.
 
--    {{PropertyView/fr|Show Unit|Bool}}: indique s\'il faut afficher l\'unité à côté de la valeur numérique de la mesure. Non utilisé pour les dimensions angulaires.
+-    **Show Unit|Bool**: indique s\'il faut afficher l\'unité à côté de la valeur numérique de la mesure. Non utilisé pour les dimensions angulaires.
 
--    {{PropertyView/fr|Unit Override|String}}: spécifie l\'unité dans laquelle exprimer la mesure, par exemple, {{value|km}}, {{value|m}}, {{value|cm}}, {{value|mm}}, {{value|mi}}, {{value|ft}}, {{value|in}} ou {{value|arch}} pour les unités arch. Laissez ce champ vide pour utiliser l\'unité par défaut. Non utilisé pour les dimensions angulaires.
+-    **Unit Override|String**: spécifie l\'unité dans laquelle exprimer la mesure, par exemple, {{value|km}}, {{value|m}}, {{value|cm}}, {{value|mm}}, {{value|mi}}, {{value|ft}}, {{value|in}} ou {{value|arch}} pour les unités arch. Laissez ce champ vide pour utiliser l\'unité par défaut. Non utilisé pour les dimensions angulaires.
 
 ## Script
 

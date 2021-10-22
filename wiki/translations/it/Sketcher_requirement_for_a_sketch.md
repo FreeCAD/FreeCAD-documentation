@@ -16,6 +16,7 @@ Se un profilo è chiuso o aperto non è evidente e non riconoscibile. Ad esempio
 ![](images/Skizze2a.png )
 
 
+
 *Un semplice schizzo. A sinistra una curva chiusa solo in quattro punti indicati in rosso, che sono i vincoli automatici applicati quando si disegna con lo strumento <img src=images/_Sketcher_CreatePolyline.svg style="width:32px"> [Polilinea](Sketcher_CreatePolyline.md). Al centro un avviso di faccia non valida perché il contorno è aperto. A destra il contorno chiuso nei restanti quattro punti indicati in verde.*
 
 Un funzionamento parametrico coerente significa che lo schizzo è completamente determinato.
@@ -25,6 +26,7 @@ Un funzionamento parametrico coerente significa che lo schizzo è completamente 
 Anche uno schizzo relativamente semplice può contenere numerose indeterminazioni, indicate nella vista combinata come numero di \"gradi di libertà\". Eliminarle tutte insieme alla fine è un compito abbastanza complicato.
 
 ![](images/Skizze4a.png )
+
 
 
 *Un semplice schizzo, completamente determinato da 25 vincoli, di cui solo 5 sono vincoli di dimensione*

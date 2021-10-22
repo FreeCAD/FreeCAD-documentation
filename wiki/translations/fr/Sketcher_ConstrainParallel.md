@@ -21,6 +21,7 @@ L\'esquisse contient deux lignes, orientées de façon aléatoire.
 <img alt="" src=images/ConstrainParallel1.png  style="width:500px;">
 
 
+
 *Sélectionnez les deux lignes en cliquant successivement sur chacune d'elle.*
 
 <img alt="" src=images/ConstrainParallel2.png  style="width:500px;">
@@ -32,6 +33,7 @@ Appliquez la contrainte parallèle par :
 -   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → Contrainte parallèle** dans le menu supérieur.
 
 <img alt="" src=images/ConstrainParallel3.png  style="width:500px;">
+
 
 
 *Résultat : les lignes sélectionnées sont forcées d'être parallèles les unes aux autres. Changer l'orientation d'une ligne changera l'orientation de l'autre pour qu'elle soit la même.*

@@ -13,7 +13,8 @@
 
 La commande **Mesh Tracé de courbure** crée des objets maillés de courbure pour les objets maillés. Un objet de courbure affiche la courbure d\'un maillage en utilisant différentes couleurs pour les parties convexes, plates et concaves.
 
-![](images/Mesh_VertexCurvature_example.png ) *Exemple d'un objet maillé de courbure*
+![](images/Mesh_VertexCurvature_example.png ) 
+*Exemple d'un objet maillé de courbure*
 
 ## Utilisation
 

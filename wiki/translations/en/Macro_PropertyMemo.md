@@ -15,7 +15,8 @@ This little macro create one Property additional (memo or other text) for you ob
 
 This little macro create one Property additional (memo or other text) for you object (only Draft)
 
-![](images/Macro_FCPropertyMemo_00.png ) *Addin one property Memo → Name*
+![](images/Macro_FCPropertyMemo_00.png ) 
+*Addin one property Memo → Name*
 
 ## Uses
 

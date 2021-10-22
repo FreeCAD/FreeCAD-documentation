@@ -39,6 +39,7 @@ Klonla aracı, [Taslak tezgahı](Draft_Workbench/tr.md) ile oluşturulan 2D şek
 <div class="mw-translate-fuzzy">
 
 
+
 *Klonla Orijinal nesnenin yanındadır*
 
 

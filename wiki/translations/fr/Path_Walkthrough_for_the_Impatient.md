@@ -19,6 +19,7 @@ Démonstration de la création d\'une tâche <img alt="" src=images/Workbench_Pa
 :   ![](images/Path-SquarePocketModel.png )
 
 
+
 *Au dessus: créé dans l'atelier <img src="images/Workbench_PartDesign.svg" width=24px> [Part Design](PartDesign_Workbench/fr.md) incluant un Corps, une boîte avec une poche, basée sur une esquisse (Sketch) orientée dans le plan XY 
 **![](images/)*.**
 
@@ -37,7 +38,8 @@ Démonstration de la création d\'une tâche <img alt="" src=images/Workbench_Pa
 :   
 
     :   
-        *Ci-dessus: la boîte de dialogue de création [Path Taĉhe](Path_Job/fr.md)*
+        
+*Ci-dessus: la boîte de dialogue de création [Path Taĉhe](Path_Job/fr.md)*
         
 
 4\. Cela ouvre une boîte de dialogue de création de tâche. Dans cette boîte de dialogue, cliquez sur **OK** pour accepter le corps comme modèle de base, sans modèle.
@@ -52,21 +54,24 @@ Démonstration de la création d\'une tâche <img alt="" src=images/Workbench_Pa
 
 :   ![](images/Path-JobOutput.png )
 :   
-    *Ci-dessus: la boîte de dialogue Modifier de [Path Taĉhe](Path_Job/fr.md) avec l'onglet Sortie sélectionné*
+    
+*Ci-dessus: la boîte de dialogue Modifier de [Path Taĉhe](Path_Job/fr.md) avec l'onglet Sortie sélectionné*
     
 
 ### Outils
 
 :   ![](images/Path-JobTools.png )
 :   
-    *Ci-dessus: la boîte de dialogue Modifier [Path Taĉhe](Path_Job/fr.md) avec l'onglet Outils sélectionné*
+    
+*Ci-dessus: la boîte de dialogue Modifier [Path Taĉhe](Path_Job/fr.md) avec l'onglet Outils sélectionné*
     
 
 7\. Modifiezs l\'outil Par défaut en le sélectionnant et en cliquant sur le bouton **Edit** (modifier). Cela ouvre la fenêtre d\'édition du contrôleur d\'outil.
 
 :   ![](images/Path-ToolConfig.gif )
 :   
-    *Ci-dessus: la boîte de dialogue d'édition de [Path Taĉhe](Path_Job/fr.md) du sous-panneau du contrôleur d'outil*
+    
+*Ci-dessus: la boîte de dialogue d'édition de [Path Taĉhe](Path_Job/fr.md) du sous-panneau du contrôleur d'outil*
     
 
 8\. Le nom donné à l\'outil et le numéro d\'outil correspondent au numéro d\'outil de la machine. Dans la boîte de dialogue (voir ci-dessus), c\'est Tool Nr. 4. Le contrôleur d\'outil est configuré pour des vitesses d\'avance horizontale et verticale de `2mm/s` et une vitesse de fraise de `2000 rpm`.
@@ -75,7 +80,8 @@ Démonstration de la création d\'une tâche <img alt="" src=images/Workbench_Pa
 
 :   ![](images/Path-ToolAdd.gif )
 :   
-    *Ci-dessus: La boîte de dialogue de [Path Tâche](Path_Job/fr.md) du sous-panneau 'Tool' du contrôleur d'outil*
+    
+*Ci-dessus: La boîte de dialogue de [Path Tâche](Path_Job/fr.md) du sous-panneau 'Tool' du contrôleur d'outil*
     
 
 10\. Les valeurs seront confirmées avec **OK**.
@@ -100,7 +106,8 @@ Cette arborescence apparaît après la configuration du travail une fois celui-c
 
 :   ![](images/Path-PocketOperation.gif )
 :   
-    *Ci-dessus: la boîte de dialogue Forme de poche avec le sous-panneau Operation sélectionné*
+    
+*Ci-dessus: la boîte de dialogue Forme de poche avec le sous-panneau Operation sélectionné*
     
 
 14\. Le motif est changé en \"Offset\" et l\'opération de tâche est confirmée pour la configuration de la poche avec **OK**.
@@ -109,7 +116,8 @@ Le résultat est un modèle avec deux parcours d\'usinage:
 
 :   ![](images/Path-WalkThroughResult.gif )
 :   
-    *Ci-dessus: le résultat avec un modèle à deux trajectoires*
+    
+*Ci-dessus: le résultat avec un modèle à deux trajectoires*
     
 
 ## Vérification des parcours d\'usinage 
@@ -120,7 +128,8 @@ Pour inspecter le G-code, utilisez l\'outil <img alt="" src=images/Path_Inspect.
 
 :   ![](images/Path-InspectWindow.gif )
 :   
-    *Ci-dessus: L'outil [Path Inspecteur G-Code](Path_Inspect/fr.md) ouvre la boîte de dialogue Inspection G-Code*
+    
+*Ci-dessus: L'outil [Path Inspecteur G-Code](Path_Inspect/fr.md) ouvre la boîte de dialogue Inspection G-Code*
     
 
 Démarrer la simulation en utilisant l\'outil <img alt="" src=images/Path_Simulator.svg  style="width:32px;"> [Simulateur d\'usinage](Path_Simulator/fr.md) .
@@ -129,7 +138,8 @@ Réglez la vitesse et la précision et lancez la simulation avec le bouton de le
 
 :   ![](images/Path-Simulation.gif )
 :   
-    *Ci-dessus: [Simulateur d'usinage](Path_Simulator/fr.md) en cours*
+    
+*Ci-dessus: [Simulateur d'usinage](Path_Simulator/fr.md) en cours*
     
 
 Si vous souhaitez mettre fin à la simulation, cliquez sur le bouton **Annuler** pour supprimer le brut créé pour la simulation. Si vous cliquez sur **OK**, cet objet sera conservé dans votre travail.
@@ -143,7 +153,8 @@ La dernière étape pour générer le G-code pour la fraiseuse cible consiste à
 
 :   ![](images/Path-PostOutput.gif )
 :   
-    *Ci-dessus: la fenêtre G-Code permettant l'inspection du fichier de sortie final*
+    
+*Ci-dessus: la fenêtre G-Code permettant l'inspection du fichier de sortie final*
     
 
 

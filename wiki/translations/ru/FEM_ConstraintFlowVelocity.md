@@ -18,7 +18,8 @@
 
 Устанавливает скорость потока в качестве граничного условия к кромке в 2D или к грани в 3D.
 
-![](images/FEM-constraint-flow-velocity_task-panel.png ) *Constraint flow velocity menus within the [task panel](Task_panel.md)*
+![](images/FEM-constraint-flow-velocity_task-panel.png ) 
+*Constraint flow velocity menus within the [task panel](Task_panel.md)*
 
 ## Использование
 

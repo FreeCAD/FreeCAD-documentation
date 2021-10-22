@@ -12,9 +12,9 @@
 
 The <img alt="" src=images/SheetMetal_Forming.svg  style="width:24px;"> **SheetMetal Forming** command creates an embossed shape in a SheetMetal wall using a separate solid object.
 
-The back side plane of the shape defining solid and the face to be embossed are used to position and orient the embossed shape, i.e. their local coordinate systems will have the same origin and the same orientation by default.  The angle around the z-axis and offsets in x, y, and z direction may be altered by changing the parameter values in the properties window.
+The back side face of the solid defining the shape, and the face to be embossed are used to position and orient the solid, i.e. their local coordinate systems will have the same origin and the same orientation by default. The angle around the Z axis and offsets in the X, Y, and Z direction can be altered by changing their values in the [Property editor](Property_editor.md).
 
-A sketch can be added to multiply and distribute the embossed shape in regular or irregular patterns (using the center points of circles or arcs)
+A sketch can be added to multiply and distribute the embossed shape in regular or irregular patterns (using the center points of circles or arcs).
 
 A small selection of features that can be created:
 
@@ -23,54 +23,46 @@ A small selection of features that can be created:
 
 ## Usage
 
-Make sure that the body containing the object to be embossed is the active body.
-
-:   If required Double click on its representation in the tree view to activate it.
+Make sure that the body containing the object to be embossed is the active body. If required double-click it in the [Tree view](Tree_view.md).
 
 ### Dimple
 
-1.  Select the face of the SheetMetal object to be embossed
-2.  Select the **bottom face** (back side) of the shape defining solid
-    -   **Note:** Both the object to be embossed **and** the shape defining solid must be selected. Activate the multi-select method appropriate for your operating system: **Control**/**Command**.
-3.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming.md) command using:
-    -   
-        **<img src="images/SheetMetal_Forming.svg" width=16px> [Make Forming in Wall](SheetMetal_Forming.md)
-**
-        
-        button
-
-    -   
-        **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=16px> Make Forming in Wall
-**
-        
-        drop down menu
-
-    -   keyboard shortcut: **M** then **F**
+1.  Select the face of the SheetMetal object to be embossed.
+2.  Hold down the **Ctrl** key (or the **Command** key on macOS).
+3.  Add the **bottom face** (back side) of the solid defining the shape to the selection.
+4.  Release the **Ctrl** key (or the **Command** key).
+5.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [SheetMetal Forming](SheetMetal_Forming.md) command using one of the following:
+    -   The **<img src="images/SheetMetal_Forming.svg" width=16px> [SheetMetal Forming](SheetMetal_Forming.md)** button.
+    -   The **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=16px> Make Forming in Wall** menu option.
+    -   The keyboard shortcut: **M** then **F**.
 
 ### Louvre
 
-1.  Select the face of the SheetMetal object to be embossed
-2.  Select the **bottom face** (back side) of the shape defining solid
-3.  Select a **side face** adjoined to the bottom face to mark the area to be cut open
-    -   **Note:** The object to be embossed **and** the shape defining solid **and** the marking cut face must be selected. Activate the multi-select method appropriate for your operating system: **Control**/**Command**.
-4.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming.md) command (see above)
+1.  Select the face of the SheetMetal object to be embossed.
+2.  Hold down the **Ctrl** key (or the **Command** key on macOS).
+3.  Add the **bottom face** (back side) of the solid defining the shape to the selection.
+4.  Add a **side face** adjoined the bottom face to indicate the position of the cut to the selection.
+5.  Release the **Ctrl** key (or the **Command** key).
+6.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [SheetMetal Forming](SheetMetal_Forming.md) command (see above).
 
 ### Bridge
 
-1.  Select the face of the SheetMetal object to be embossed
-2.  Select the **bottom face** (back side) of the shape defining solid
-3.  Select a **side face** adjoined to the bottom face to mark one area to be cut open
-4.  Select the **opposite face** adjoined to the bottom face to mark the other area to be cut open
-    -   **Note:** The object to be embossed **and** the shape defining solid, **and** both marking cut faces must be selected. Activate the multi-select method appropriate for your operating system: **Control**/**Command**.
-5.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming.md) command (see above)
+1.  Select the face of the SheetMetal object to be embossed.
+2.  Hold down the **Ctrl** key (or the **Command** key on macOS).
+3.  Add the **bottom face** (back side) of the solid defining the shape to the selection.
+4.  Add a **side face** adjoined the bottom face to indicate the position of the first cut to the selection.
+5.  Add the **opposite side face** adjoined the bottom face to indicate the position of the second cut to the selection.
+6.  Release the **Ctrl** key (or the **Command** key).
+7.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [SheetMetal Forming](SheetMetal_Forming.md) command (see above).
 
 ### Drawn Cutout 
 
-1.  Select the face of the SheetMetal object to be embossed
-2.  Select the **bottom face** (back side) of the shape defining solid
-3.  Select the **top face** opposite the bottom face to mark the area to be cut open
-    -   **Note:** The object to be embossed **and** the shape defining solid **and** marking face must be selected. Activate the multi-select method appropriate for your operating system: **Control**/**Command**.
-4.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming.md) command (see above)
+1.  Select the face of the SheetMetal object to be embossed.
+2.  Hold down the **Ctrl** key (or the **Command** key on macOS).
+3.  Add the **bottom face** (back side) of the solid defining the shape to the selection.
+4.  Add the **top face** opposite the bottom face to mark the area to be cut open to the selection.
+5.  Release the **Ctrl** key (or the **Command** key).
+6.  Activate the <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [SheetMetal Forming](SheetMetal_Forming.md) command (see above).
 
 ### Multiply and Pattern 
 
@@ -84,21 +76,20 @@ The orientation still depends on the orientation of the first selected face.
 
 1.  Switch to the <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench.md) workbench
 2.  Select an edge on the upper side of the SheetMetal object to receive a fillet
-3.  Activate the <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [Fillet](PartDesign_Fillet.md) command using:
-    -   
-        **<img src="images/PartDesign_Fillet.svg" width=16px> [Fillet](PartDesign_Fillet.md)
-**
-        
-        button
+3.  Activate the <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [PartDesign Fillet](PartDesign_Fillet.md) command using one of the following:
+    -   The **<img src="images/PartDesign_Fillet.svg" width=16px> [PartDesign Fillet](PartDesign_Fillet.md)** button.
+    -   The **PartDesign → Apply a dress-up feature → <img src="images/PartDesign_Fillet.svg" width=16px> Fillet** menu option.
+4.  Set the Fillet object\'s **Refine** property to `True`. This is important for the next fillet.
+5.  Select an edge on the bottom side of the SheetMetal object to receive a fillet.
+6.  Activate the <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [PartDesign Fillet](PartDesign_Fillet.md) command (see above)
 
-    -   
-        **PartDesign → Apply a dress-up feature → <img src="images/PartDesign_Fillet.svg" width=16px> Fillet
-**
-        
-        drop down menu
-4.  Set the Fillet object\'s property  (It is quite **important** for the next fillet)
-5.  Select an edge on the bottom side of the SheetMetal object to receive a fillet
-6.  Activate the <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [Fillet](PartDesign_Fillet.md) command (see above)
+## Notes
+
+The embossed geometry is not restricted to planar walls and cylindrical connections and so after such a geometry is applied to a SheetMetal object **the object is no longer unfoldable**.
+
+The forming can be deactivated (by setting the property **Suppress Feature** to {{True}}) to unfold the object, but following fillets lose their defining edges and show an error when the forming is reactivated.
+
+Forming and fillets should be the last steps in creating a SheetMetal object.
 
 ## Properties
 

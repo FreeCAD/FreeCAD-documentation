@@ -28,6 +28,7 @@ Diese Methode fängt am Schnittpunkt zweier Linien oder Bogensegmente.
 <div class="mw-translate-fuzzy">
 
 
+
 *Fangen des zweiten Punktes einer Linie an einem Schnittpunkt zweier anderer Linien*
 
 

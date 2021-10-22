@@ -17,7 +17,8 @@ Este modo de ajuste le permite seleccionar la intersecci√≥n de 2 segmentos de l√
 
 </div>
 
-![](images/Draft_Snap_Intersection_example.png ) *Snapping the second point of a line to the intersection of two edges*
+![](images/Draft_Snap_Intersection_example.png ) 
+*Snapping the second point of a line to the intersection of two edges*
 
 ## Usage
 

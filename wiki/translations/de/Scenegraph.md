@@ -19,6 +19,7 @@ OpenInventor beschreibt eine 3D Szene in Form einer [Szenengraph](https://de.wik
 <div class="mw-translate-fuzzy">
 
 
+
 *Bild entnommen aus [http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/ Inventor mentor]*
 
 

@@ -17,9 +17,11 @@
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;">
 
 
+
 *The FEM Workbench calls the external tool Gmsh to obtain a mesh from a solid body created with any workbench in FreeCAD; it can also import a mesh created externally*
 
 <img alt="" src=images/FEM_Mesh.png  style="width:600px;">
+
 
 
 *(1) Solid body created with PartDesign; (2) mesh produced by the Gmsh tool inside the FEM Workbench (all triangles); and (3) mesh produced externally by Gmsh, exported to Abaqus format {{FileName|.inp*, and then imported into FreeCAD (all quadrangles)}}

@@ -19,7 +19,8 @@ Gli ingranaggi di distribuzione sono collegati a una cinghia o catena di distrib
 
 :   ![](images/Timing-Gear_example.png )
 :   
-    *Above: Timing gear*
+    
+*Above: Timing gear*
     
 
 ## Usage

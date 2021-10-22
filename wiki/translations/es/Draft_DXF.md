@@ -14,7 +14,8 @@
 
 El borrador DXF es un módulo de software utilizado por el <img alt="" src=images/Std_Open.svg  style="width:24px;"> _ y <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Exportar](Std_Export/es.md) para manejar el formato de archivo DXF.
 
-![](images/Screenshot_qcad.jpg ) *Dibujo Qcad exportado a DXF, que posteriormente se abre en FreeCAD*
+![](images/Screenshot_qcad.jpg ) 
+*Dibujo Qcad exportado a DXF, que posteriormente se abre en FreeCAD*
 
 ## Importación
 

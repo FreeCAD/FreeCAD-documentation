@@ -35,16 +35,20 @@ Les transitions prennent en charge tous les styles pris en charge par Coiffe, vo
 
 De plus, les transitions ont une autre option de style, *Solid Core*. Pour ce style, la transition est solide mais avec un trou d\'une extrémité à l\'autre. Un exemple où cela pourrait être utilisé est une transition en balsa conçue pour maintenir un tube du corps à la manière d\'une bague de centrage.
 
-![](images/Core_transition_with_tube.png ) *Transition avec épaulement arrière tenant un tube du corps*
+![](images/Core_transition_with_tube.png ) 
+*Transition avec épaulement arrière tenant un tube du corps*
 
-![](images/Core_transition.png ) *Transition avec épaulement arrière montrant le noyau interne*
+![](images/Core_transition.png ) 
+*Transition avec épaulement arrière montrant le noyau interne*
 
 ### Coupé
 
 Des formes telles qu\'une ogive ou une parabole peuvent être appliquées de deux manières. Le standard, non coupé, traite l\'axe parallèle à l\'axe central décalé par le plus petit des rayons avant et arrière comme l\'axe de dessin de la forme. La méthode découpée applique une version plus grande de la courbe centrée autour de l\'axe de transition et coupe la partie en avant du rayon le plus petit. Dans cet exemple, la courbe non découpée est dessinée de *x=0* à *x=60* autour de l\'axe *y=0*. La version découpée étend la forme le long de l\'axe x jusqu\'à *y=0* et ne prend que la partie de *x=0* à *x=60*.
-![](images/ParabolaClippedVsNon.png ) *Courbes coupées et non coupées pour une transition parabolique*
+![](images/ParabolaClippedVsNon.png ) 
+*Courbes coupées et non coupées pour une transition parabolique*
 Pour certaines formes, cela ne fait aucune différence dans la forme de la transition, comme pour les formes coniques ou ogives. Dans ces cas, le découpage est ignoré.
-![](images/OgiveClippedVsNon.png ) *Courbes coupées et non coupées pour une transition en ogive*
+![](images/OgiveClippedVsNon.png ) 
+*Courbes coupées et non coupées pour une transition en ogive*
 
 ## Remarques
 

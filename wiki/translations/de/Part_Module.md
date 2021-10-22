@@ -16,6 +16,7 @@ Part Objekte sind komplexer als Polygonnetz Objekte, die mit dem [Arbeitsbereich
 <img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;">
 
 
+
 *Der Part Arbeitsbereich ist die Basisschicht, die die OCCT Zeichenfunktionen allen Arbeitsbereichen in FreeCAD zur Verfügung stellt.*
 
 ## Werkzeuge

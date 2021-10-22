@@ -17,7 +17,8 @@ The purpose of this explorer is simply to allow you to check what is really writ
 <img alt="" src=images/Arch_IfcExplorer_example.jpg  style="width:800px;">
 
 :   
-    *Ifc Explorer with several properties*
+    
+*Ifc Explorer with several properties*
     
 
 ## Utilização

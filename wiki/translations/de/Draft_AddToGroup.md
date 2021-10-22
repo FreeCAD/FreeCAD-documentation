@@ -9,6 +9,9 @@
 
 # Draft AddToGroup/de
 
+
+</div>
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft AddToGroup**-Befehl verschiebt Objekte in eine[Std Gruppe](Std_Group/de.md). Damit können auch Objekte von der aktuellen Gruppe entfernt werden.
@@ -16,6 +19,9 @@ Der <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> **Draft Ad
 In FreeCAD v0.20 kann der Befehl auch gruppenähnliche [Arch](Arch_Workbench/de.md)-Objekte handhaben.
 
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Um diesen Befehl zu benutzen, muss wenigstens eine Gruppe existieren.
 2.  Wähle ein oder mehrere Objekte.
@@ -27,11 +33,23 @@ In FreeCAD v0.20 kann der Befehl auch gruppenähnliche [Arch](Arch_Workbench/de.
     -   Wähle die Gruppe, in die Objekte verschoben werden sollen.
     -   Wähle **Ungroup**, um die Objekte aus der/den Gruppe/n zu verschieben, in denen sie sich befinden.
 
+
+</div>
+
 ## Hinweise
 
 -   Objekte können auch Drag&Drop in der [Baumansicht](Tree_view/de.md) in die Gruppe verschoben werden.
 -   Dieser Befehl kann benutzt werden, um Objekte in die [Draft UmschaltenKonstruktionsmodus](Draft_ToggleConstructionMode/de.md) zu verschieben, aber, im Gegensatz zu [Draft AddConstruction](Draft_AddConstruction/de.md)-Befehl gilt dies nicht für die [construction geometry color](Draft_ToggleConstructionMode/de#Preferences.md).
 -   Für weitere Informationen zum organisieren deines Modells siehe [Dokumentstruktur](Document_structure/de.md) und [Arch-Tutorial](Arch_tutorial/de#Organizing_your_model.md).
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft AddToGroup/de

@@ -17,9 +17,11 @@ Das Werkzeug AusgestaltenLinie ändert die Darstellung von Kanten.
 <img alt="" src=images/TechDrawLineDecorSampleBefore.png  style="width:180px;">
 
 
+
 *Beispielkanten vor der Ausgestaltung*
 
 <img alt="" src=images/TechDrawLineDecorSampleAfter.png  style="width:180px;">
+
 
 
 *Beispielkanten nach der Ausgestaltung*

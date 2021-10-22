@@ -11,6 +11,7 @@ Eine Auswahl kann durch aufnehmen eines Objekts in der [3D Ansicht](3D_view/de.m
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:1024px;">
 
 
+
 *Auswahlansicht, gekennzeichnet durch die Zahl 5 in der Standard [Oberfläche](interface/de.md).*
 
 ## Objektauswahl

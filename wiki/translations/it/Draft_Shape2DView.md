@@ -34,6 +34,7 @@ La proiezione risultante è un oggetto Draft e viene posizionata nella vista 3D.
 <div class="mw-translate-fuzzy">
 
 
+
 *Proiezione di forme solide nel piano XY*
 
 

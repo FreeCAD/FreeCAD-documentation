@@ -3,7 +3,7 @@ In dieser Kategorie werden Vorlagen aufgelistet, die als Eingabe angegebenen Tex
 
 ### Contents:
 
-_ , _ , _ , _
+_ , _ , _
 
 _
 

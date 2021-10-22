@@ -12,7 +12,8 @@
 ## Description
 
 Un anneau de centrage est un objet solide utilisé pour maintenir un ou plusieurs tubes du corps à l\'intérieur d\'un autre tube du corps.
-![](images/CR_with_tubes.png ) *Conique*
+![](images/CR_with_tubes.png ) 
+*Conique*
 
 ## Utilisation
 
@@ -27,7 +28,8 @@ Un anneau de centrage est un objet solide utilisé pour maintenir un ou plusieur
 ### Encoche
 
 Les anneaux de centrage, en particulier ceux utilisés pour les fusées de faible puissance, ont souvent besoin d\'une encoche pour accueillir un crochet de moteur. L\'outil **Centering Ring** peut les générer pour vous.
-![](images/Notched_CR.png ) *Anneau de centrage avec une encoche de crochet moteur*
+![](images/Notched_CR.png ) 
+*Anneau de centrage avec une encoche de crochet moteur*
 
 ## Propriétés
 

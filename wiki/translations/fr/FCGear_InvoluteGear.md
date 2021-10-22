@@ -17,7 +17,8 @@ En raison du rapport d\'engrènement favorable et de la production relativement 
 
 :   ![](images/Involute-Gear_example.png )
 :   
-    *De gauche à droite: Engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal*
+    
+*De gauche à droite: Engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal*
     
 
 ## Utilisation

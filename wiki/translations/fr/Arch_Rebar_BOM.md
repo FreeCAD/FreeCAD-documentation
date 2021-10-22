@@ -19,6 +19,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 <img alt="" src=images/Arch_Rebar_BOM_example.png  style="width:1000px;">
 
 
+
 *Nomenclature de barres d'armature*
 
 ## Utilisation
@@ -32,6 +33,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 <img alt="" src=images/BOMDialog_General.png  style="width:500px;">
 
 
+
 *Boîte de dialogue pour l'outil de nomenclature de barres d'armature Arch*
 
 4\. Modifiez les données en fonction de vos besoins.
@@ -39,6 +41,7 @@ Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon
 5\. Pour modifier la **<img src="images/Arch_Rebar_BOM.svg" width=16px> [Bill Of Material](Arch_Rebar_BOM/fr.md)** des configurations SVG, cliquez sur **Edit SVG Configurations**. Une boîte de dialogue apparaîtra comme illustré ci-dessous.
 
 <img alt="" src=images/BOMDialog_SVG.png  style="width:500px;">
+
 
 
 *Boîte de dialogue pour l'édition de la configuration SVG de la nomenclature de Armature personnalisée *

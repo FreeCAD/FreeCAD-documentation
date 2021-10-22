@@ -1,5 +1,5 @@
 # Package Metadata
-**This page documents a feature currently under development.
+**This page documents a new feature in the 0.20 development branch. It is not available in previous releases.
 **
 
 ## Introduction
@@ -38,11 +38,11 @@ The top-level  element must contain at least the following tags:
 -   [](#.3Cdescription.3E.md)
 -   [](#.3Cmaintainer.3E.md) (multiple, but at least one)
 -   [](#.3Clicense.3E.md) (multiple, but at least one)
+-   [](#.3Cicon.3E.md)
 -   [](#.3Ccontent.3E.md) (container element for package content items)
-    -   [](#.3Cicon.3E.md)
     -   [](#.3Cclassname.3E.md)
+    -   [](#.3Cicon.3E.md)
     -   [](#.3Cfile.3E.md) (multiple)
-    -   [](#.3Ctype.3E.md)
 
 #### Optional child tags 
 
@@ -115,7 +115,7 @@ Commonly-used license strings:
 
 REQUIRED
 
-The  tag describes the actual contents of the package. It has no attributes, and contains any number of children. Those children can have arbitrary tag names, only some of which may be recognized by FreeCAD. During this preliminary development phase of the metadata standard, only \"\" children are recognized. In the future, support for \"\" and \"\" is planned. Each child is then defined recursively by this standard, containing any or all of the elements allowed for the root  node. For example:
+The  tag describes the actual contents of the package. It has no attributes, and contains any number of children. Those children can have arbitrary tag names, only some of which may be recognized by FreeCAD. FreeCAD currently supports \"workbench\", \"macro\", and \"preferencepack\" elements. Each child is then defined recursively by this standard, containing any or all of the elements allowed for the root  node. For example:
 
     <content>
       <preferencepack>
@@ -137,6 +137,8 @@ The existence of  items implies a set of subfolders, one for each content item, 
         (the theme's other files)
 
 In addition to the other elements of , content items can optionally provide information in , , , and  tags (technically these can be provided to the root  tag as well, but they are generally unused there).
+
+**Backwards-compatibility note**: to support easier transition for packages that predate the metadata standard, if a package contains only a single content item, that item is not required to be located in a subfolder. If no subfolder with the appropriate name exists, the content is assumed to be located in the top-level folder.
 
 ####  
 
@@ -173,6 +175,7 @@ It is a good idea to include  tags pointing users to these resources. The websit
 #### Attributes 
 
 -   type=\"TYPE\" (required): The type should be one of the following identifiers \-- \"website\", \"bugtracker\", \"repository\", \"readme\", or \"documentation\".
+-   branch=\"BRANCH\" (required for type=\"repository\"): The name of the branch to check out to obtain this package. Typically the name of your main development branch.
 
 ###  
 
@@ -241,15 +244,17 @@ The maximum version of FreeCAD required to use package/element, as a semantic ve
       <description>Preference Packs included with the FreeCAD distribution</description>
       <version>1.0.0</version>
       <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
-      <license file="../../LICENSE">LGPL2</license>
-      <url type="repository">https://github.com/FreeCAD/FreeCAD</url>
+      <license file="LICENSE">LGPL2</license>
+      <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
+      <icon>PackageIcon.svg</icon>
 
       <content>
         <preferencepack>
           <name>FreeCAD Classic Colors</name>
           <description>FreeCAD default colors for core app and included Mods.</description>
           <version>1.0.0</version>
-          <type>appearance</type>
+          <tag>color</tag>
+          <tag>stylesheet</tag>
         </preferencepack>
       </content>
 

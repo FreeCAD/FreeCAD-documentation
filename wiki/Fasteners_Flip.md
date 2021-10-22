@@ -3,15 +3,13 @@
    Name:Fasteners Flip
    MenuLocation:Fasteners → Flip
    Workbenches:[Fasteners](Fasteners_Workbench.md)
-   Shortcut:None
-   SeeAlso:
 ---
 
 # Fasteners Flip
 
 ## Description
 
-The <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> [Fasteners Flip](Fasteners_Flip.md) re-orientates the selection to a different direction (in case it was added inverted in some way). This tool is part of the [external workbench](external_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
+The <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> [Fasteners Flip](Fasteners_Flip.md) re-orientates the selection to a different direction (in case it was added inverted in some way). This tool is part of the [external workbench](External_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
 
 ## Usage
 
@@ -23,7 +21,7 @@ The <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> [Fasteners F
 
 Result: object will invert/flip
 
-<img alt="" src=images/Fasteners_Flip_example-1.FCStd.png  style="width:1000px;">
+ <img alt="" src=images/Fasteners_Flip_example-1.FCStd.png  style="width:1000px;"> 
 
 ## Notes
 
@@ -37,6 +35,8 @@ Result: object will invert/flip
 -    **View**: Invert, boolean, default: false
 
 ## Scripting
+
+
 
 
 

@@ -55,6 +55,20 @@ Są to narzędzia do tworzenia i zarządzania obiektami wycinków *(przycięte w
 
 -   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Usuń widok z grupy wycinków](TechDraw_ClipGroupRemove/pl.md): usuwa widok z grupy wycinków.
 
+## Wystrój
+
+Są to narzędzia do modyfikowania wyglądu stron lub widoków.
+
+-   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Kreskowanie powierzchni \...](TechDraw_Hatch/pl.md): nakłada wzór kreskowania z pliku na ścianę.
+
+-   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Geometryczne kreskowanie \...](TechDraw_GeometricHatch/pl.md): stosuje wzór kreskowania na powierzchni przy użyciu specyfikacji Autodesk PAT.
+
+-   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _.
+
+-   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ do zawartości strony.
+
+-   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Przełącz widoczność ramki](TechDraw_ToggleFrame/pl.md): włącza i wyłącza ramki oraz etykiety otaczające widok.
+
 ## Wymiary
 
 Są to narzędzia do tworzenia i pracy z obiektami Wymiarowymi.
@@ -88,97 +102,10 @@ Wymiary liniowe mogą być wyznaczone w oparciu o dwa punkty, na jednej linii lu
 
 <div class="mw-translate-fuzzy">
 
-## Pakiet rozszerzeń 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Pakiet rozszerzeń zawiera wiele przydatnych narzędzi do ulepszenia Twoich rysunków technicznych.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-**Niektóre z tych narzędzi nie zostały jeszcze wydane.**
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Oś otworu](TechDraw_ExtensionCircleCenterLines/pl.md): dodaje linie środkowe do okręgów i łuków. {{Version/pl|0.20}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Oś otworu, widok z boku](TechDraw_ExtensionThreadHoleSide/pl.md): dodaje symboliczną linię do bocznego widoku otworu. {{Version/pl|0.20}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Symbol gwintu, widoku boczny śruby](TechDraw_ExtensionThreadBoltSide/pl.md): dodaje symbole gwintu do widoku bocznego śruby. {{Version/pl|0.20}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Otwór gwintowany, widok od dołu](TechDraw_ExtensionThreadHoleBottom.md): dodaje symboliczny gwint do widoku otworów od dołu. {{Version/pl|0.20}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Symbol gwintu, widoku śruby od od dołu](TechDraw_ExtensionThreadBoltBottom/pl.md): dodaje symbol gwintu do widoku śruby od dołu. {{Version/pl|0.20}}
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-## Import/Eksport
-
-
-</div>
-
-Są to narzędzia do eksportu zawartości stron do innych programów.
-
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _.
-
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _.
-
-## Wystrój
-
-Są to narzędzia do modyfikowania wyglądu stron lub widoków.
-
--   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Kreskowanie powierzchni \...](TechDraw_Hatch/pl.md): nakłada wzór kreskowania z pliku na ścianę.
-
--   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Geometryczne kreskowanie \...](TechDraw_GeometricHatch/pl.md): stosuje wzór kreskowania na powierzchni przy użyciu specyfikacji Autodesk PAT.
-
--   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _.
-
--   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ do zawartości strony.
-
--   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Przełącz widoczność ramki](TechDraw_ToggleFrame/pl.md): włącza i wyłącza ramki oraz etykiety otaczające widok.
-
 ## Adnotacje
+
+
+</div>
 
 Narzędzia do nanoszenia adnotacji służą do \" oznaczania \" rysunku dodatkowymi informacjami.
 
@@ -210,6 +137,31 @@ Narzędzia do nanoszenia adnotacji służą do \" oznaczania \" rysunku dodatkow
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Dodaj informacje spawalnicze](TechDraw_WeldSymbol/pl.md): Narzędzie dodaje specyfikacje dotyczące spawania do istniejącej linii odniesienia. {{Version/pl|0.19}}
 
+## Pakiet rozszerzeń 
+
+Pakiet rozszerzeń zawiera wiele przydatnych narzędzi do ulepszenia Twoich rysunków technicznych.
+
+
+**Niektóre z tych narzędzi nie zostały jeszcze wydane.**
+
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Oś otworu](TechDraw_ExtensionCircleCenterLines/pl.md): dodaje linie środkowe do okręgów i łuków. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Geometria pomocnicza dla otworu gwintowanego, widok z boku](TechDraw_ExtensionThreadHoleSide/pl.md): dodaje symboliczną linię do bocznego widoku otworu. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Geometria pomocnicza dla gwintu śruby, widok z boku](TechDraw_ExtensionThreadBoltSide/pl.md): dodaje symbole gwintu do widoku bocznego śruby. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Geometria pomocnicza dla otworu gwintowanego, widok od dołu](TechDraw_ExtensionThreadHoleBottom/pl.md): dodaje symboliczny gwint do widoku otworów od dołu. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Geometria pomocnicza dla śruby, widok od dołu](TechDraw_ExtensionThreadBoltBottom/pl.md): dodaje symbol gwintu do widoku śruby od dołu. {{Version/pl|0.20}}
+
+## Eksport
+
+Są to narzędzia do eksportu zawartości stron do innych programów.
+
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _.
+
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _.
+
 ## Dodatkowe właściwości 
 
 -   [Grupy linii](TechDraw_LineGroup/pl.md): domyślne wagi można przypisać do różnych typów linii.
@@ -238,17 +190,11 @@ Narzędzi środowiska Rysunek Techniczny można używać w [makrodefinicjach](Ma
 
 ## Poradniki
 
-
-<div class="mw-translate-fuzzy">
-
--   [Poradnik: Podstawy dla Środowiska pracy Rysunek Techniczny](Basic_TechDraw_Tutorial/pl.md): wprowadzenie do tworzenia rysunków przy użyciu środowiska pracy TechDraw.
+-   [Poradnik: Podstawy dla Środowiska pracy Rysunek Techniczny](Basic_TechDraw_Tutorial/pl.md): wprowadzenie do tworzenia rysunków przy użyciu środowiska pracy Rysunek Techniczny.
 -   [Rysunek Techniczny: Jak wykonać nowy szablon ramki](TechDraw_TemplateHowTo/pl.md): instrukcja tworzenia nowego szablonu strony w programie Inkscape do użycia w środowisku pracy Rysunek Techniczny.
 -   [Pomiar kątów na otworach](Measurement_Of_Angles_On_Holes/pl.md): instrukcje dotyczące dodawania linii centrujących i kolejnych oznaczeń kątowych na otworach.
 -   [Rozmaitości](TechDraw_HowTo_Page/pl.md): instrukcje dotyczące różnych ustawień, takich jak znaki środka, itp.
 -   [Tworzenie koła podziałowego](TechDraw_pitch_circle_tutorial/pl.md): instrukcja dodawania koła podziałowego.
-
-
-</div>
 
 Wideo poradniki przygotowane przez użytkownika sliptonic
 

@@ -34,16 +34,20 @@ Transitions support all the styles supported by Nose Cones, see [Nose Cone Optio
 
 In addition, transitions have one more style option, *Solid Core*. For this style, the transition is solid but with a hole from one end to another. One example where this might be used is a balsa transition designed to hold a body tube in the manner of a centering ring.
 
-![](images/Core_transition_with_tube.png ) *Transition with aft shoulder holding a body tube*
+![](images/Core_transition_with_tube.png ) 
+*Transition with aft shoulder holding a body tube*
 
-![](images/Core_transition.png ) *Transition with fore and aft shoulders showing the internal core*
+![](images/Core_transition.png ) 
+*Transition with fore and aft shoulders showing the internal core*
 
 ### Clipped
 
 Shapes such as an ogive or a parabola can be applied in one of two ways. The standard, non-clipped, treats the axis parallel to the central axis offset by the smaller of the fore and aft radius as the axis for drawing the shape. The clipped method applies a larger version of the curve centered around the transition axis, and clips the portion forward of the smaller radius. In this example, the non-clipped curve is drawn from *x=0* to *x=60* around the *y=10* axis. The clipped version extends the shape along the x axis until *y=0* and takes only the portion from *x=0* to *x=60*.
-![](images/ParabolaClippedVsNon.png ) *Clipped and non-clipped curves for a parabolic transition*
+![](images/ParabolaClippedVsNon.png ) 
+*Clipped and non-clipped curves for a parabolic transition*
 For some shapes, this makes no difference in the shape of the transition, such as for conical or ogive shapes. In these cases, clipping is ignored.
-![](images/OgiveClippedVsNon.png ) *Clipped and non-clipped curves for an ogive transition*
+![](images/OgiveClippedVsNon.png ) 
+*Clipped and non-clipped curves for an ogive transition*
 
 ## Notes
 

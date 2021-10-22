@@ -17,7 +17,8 @@ The <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> **Draft S
 
 Draft Shape2DView projections can be displayed on a [TechDraw Workbench](TechDraw_Workbench.md) page using the [TechDraw DraftView](TechDraw_DraftView.md) command. Alternatively the [TechDraw Workbench](TechDraw_Workbench.md) offer its own projection commands. But these create projections that are only displayed on the drawing page and not in the [3D view](3D_view.md).
 
-![](images/Draft_Shape2DView_example.jpg ) *Projection of solid shapes onto the XY plane*
+![](images/Draft_Shape2DView_example.jpg ) 
+*Projection of solid shapes onto the XY plane*
 
 ## Usage
 
@@ -45,6 +46,8 @@ A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObje
 
 
 {{TitleProperty|Draft}}
+
+-    **Auto Update|Bool**: specifies if the projection should be automatically recomputed if the **Base** object changes. Selecting {{False}} can be useful if there are many Draft Shape2DViews in a document or if they are complex. If set to {{False}} the [Std Refresh](Std_Refresh.md) command must be used to update the projection. <small>(v0.20)</small> 
 
 -    **Base|Link**: specifies the object to be projected.
 

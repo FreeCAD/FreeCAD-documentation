@@ -44,19 +44,44 @@ Both of these options support the automatic insertion of various pieces of infor
 
 Any other characters are treated literally. If the resulting filename is illegal it will be changed on saving, with illegal characters replaced by the underscore (\_).
 
+### Sketcher Constraint Label Colors 
+
+The label in Sketcher that displays the current status of the constraints (e.g. \"Underconstrained,\" \"Overconstrained,\" \"Fully Constrained,\" etc.) is styleable on a per-state basis either using the Qt stylesheet, or via user preferences. User preferences take precedence if they have been set (in **Mod/Sketcher/General**):
+
+-   **EmptySketchMessageColor** - Defaults to 50% opacity black
+-   **UnderconstrainedMessageColor** - Defaults to black
+-   **MalformedConstraintMessageColor** - Defaults to red
+-   **ConflictingConstraintMessageColor** - Defaults to red
+-   **RedundantConstraintMessageColor** - Defaults to orange red
+-   **PartiallyRedundantConstraintMessageColor** - Defaults to royal blue
+-   **SolverFailedMessageColor** - Defaults to red
+-   **FullyConstrainedMessageColor** - Defaults to green
+
 ## Mausbezogenes
+
+
+<div class="mw-translate-fuzzy">
 
 -   **General/ComboBoxWheelEventFilter** (boolesch) : Setze den Wert auf `True`, damit sich Mausradereignisse nicht auf Elemente auswirken und rollbare (scrollbar) Bereiche nicht gerollt werden.
 -   **View/GestureMoveThreshold** (ganzzahlig / integer) : der Weg (px), den der Mauszeiger sich bewegen muss, um einen Rotations- oder Schwenkmodus des Gesture-Navigationsstils zu starten. Der Standardwert ist 5.
 -   **View/GestureRollFwdCommand**, **View/GestureRollBackCommand** (Zeichenfolge / string): sind Befehle des Gesture-Navigationsstils, die durch Rollgesten mit der Maustaste ausgeführt werden.
 -   **View/GestureTapHoldTimeout** (ganzzahlig / integer) : der Wert besagt in Millisekunden, wie lange gewartet wird, um im Gesture-Navigationsstil den Schwenkmodus (pan-mode) zu starten. Den Wert zu erhöhen kann helfen, wenn das Ziehen einer Geometrie mit der Maus im Skizzierer schwierig ist. Der Standardwert ist 700.
 
+
+</div>
+
 ## Tastaturkurzbefehle
 
 ### Abbruchtaste
 
+
+<div class="mw-translate-fuzzy">
+
 -   **General/TasksKeyEsc** (boolesch): erstelle und setze den Parameter auf `False`, um die Funktion der **Esc**-Taste, den _
 -   **Mod/Sketcher/ViewKeyEsc** (boolesch): erstelle und setze den Parameter auf `False`, um Fehler zu vermeiden, wenn die **Esc**-Taste während des Fortführmodus zur Erstellung von Geometrie/Einschränkungen im Skizzierer einmal zu oft gedrückt wird (siehe [Foren-Thema](https://forum.freecadweb.org/viewtopic.php?f=3&t=42207&start=60#p367584))
+
+
+</div>
 
 ## Bestimmte Arbeitsbereiche 
 

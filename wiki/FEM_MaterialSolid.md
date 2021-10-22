@@ -13,7 +13,8 @@
 
 Adds material properties to a part.
 
- ![](images/FEMMaterialSolidProperties.png )  *The FEM material task panel*
+ ![](images/FEMMaterialSolidProperties.png )  
+*The FEM material task panel*
 
 ## Usage
 

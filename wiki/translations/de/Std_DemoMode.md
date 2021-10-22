@@ -12,7 +12,8 @@
 
 Der **Std DemoModus**-Befehl dreht die Kamera kontinuierlich in einer [3D-Ansicht](3D_view/de.md).
 
-![](images/Std_DemoMode_dialog.png ) *Die Drehscheibe-Dialogbox*
+![](images/Std_DemoMode_dialog.png ) 
+*Die Drehscheibe-Dialogbox*
 
 ## Anwendung
 

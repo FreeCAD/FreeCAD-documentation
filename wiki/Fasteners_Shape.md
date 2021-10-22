@@ -3,8 +3,6 @@
    Name:Fasteners Shape
    MenuLocation:Fasteners → Shape
    Workbenches:[Fasteners](Fasteners_Workbench.md)
-   Shortcut:None
-   SeeAlso:
 ---
 
 # Fasteners Shape
@@ -17,7 +15,7 @@ It is important to note that if you wish to share FCStd files that contains fast
 
 However, if you just want to share the resulting parts, with no need to change object's parameters, you can use the Simplify (SimplifyObj) function, to convert the fasteners to simple shapes. They will appear as new Shape parts in the model tree. You can then delete the original fasteners and save as a simple FCStd that can be read and used on any FreeCAD installation.
 
-This tool is part of the [external workbench](external_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
+This tool is part of the [external workbench](External_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
 
 ## Usage
 

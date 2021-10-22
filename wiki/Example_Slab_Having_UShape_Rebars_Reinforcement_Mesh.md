@@ -1,12 +1,12 @@
----
-- GuiCommand:
-   Name:Arch Rebar Slab Reinforcement
-   MenuLocation:Arch → Rebar tools → Slab Reinforcement
-   Workbenches:[Arch](Arch_Workbench.md)
-   SeeAlso:[Reinforcement](Reinforcement_Workbench.md), [Arch Rebar](Arch_Rebar.md), [Arch Helical Rebar](Arch_Rebar_Helical.md)
----
-
 # Example Slab Having UShape Rebars Reinforcement Mesh
+{{TutorialInfo
+|Topic=Example Slab Having U-Shape Rebars Reinforcement Mesh
+|Level=Intermediate
+|Time=
+|Author=Shiv Charan
+|FCVersion=0.20
+|Files=
+}}
 
 ## Description
 
@@ -16,31 +16,40 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 
 In this example we will create Slab Reinforcement having U-Shape Rebars for both direction as shown in below figure.
 
-<img alt="" src=images/U-shape_rebars_isometric_view.png  style="width:800px;"> 
+ <img alt="" src=images/U-shape_rebars_isometric_view.png  style="width:800px;">  
 *A Example of Slab Reinforcement having U-Shape Rebars in Slab [Arch Structure](Arch_Structure.md)*
 
 ## Usage
 
 1\. Select any face of a previously created Slab **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** object. as shown in below image.
-<img alt="" src=images/Selected_face_for_Slab_Arch_Structure.png  style="width:400px;"> 
+
+ <img alt="" src=images/Selected_face_for_Slab_Arch_Structure.png  style="width:400px;">  
 *Selected face for Slab Arch Structure*
 
 2\. Then select **<img src="images/Arch_Rebar_Slab_Reinforcement.svg" width=16px> [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md)** from the rebar tools.
 
 3\. A dialog box will pop-out on screen as shown below.
-![Slab Reinforcement input dialog box](images/Slab_Reinforcement_input_dialog_box.png ) *Dialog Box for the Slab Reinforcement*
+
+ ![](images/Slab_Reinforcement_input_dialog_box.png )  
+*Dialog Box for the Slab Reinforcement*
 
 4\. Select the desired type of cover of reinforcement mesh (Top or Bottom) In example Bottom is selected.
 
-5\. Select the UShapeRebar raber type and other input data for rabars in parallel direction of selected face as show in below image.
-![](images/U-shape_parallel_rebars_inputs.png ) *Dialog Box for Slab Reinforcement of the Rebars in parallel direction of selected face*
+5\. Select the UShapeRebar rebar type and other input data for radars in parallel direction of selected face as show in below image.
+
+ ![](images/U-shape_parallel_rebars_inputs.png )  
+*Dialog Box for Slab Reinforcement of the Rebars in parallel direction of selected face*
 
 6\. Now click on **Next** button or select Cross Rebars in list view.
-7. Now select UShapeRebar rebar type and other desired data for input data for rabars in cross direction of selected face as show in below image.
-![](images/U-Shape_rebars_in_cross_direction_inputs.png ) *Dialog Box for Slab Reinforcement of the Rebars in cross direction of selected face*
+
+7\. Now select UShapeRebar rebar type and other desired data for input data for rebars in cross direction of selected face as show in below image.
+
+ ![](images/U-Shape_rebars_in_cross_direction_inputs.png )  
+*Dialog Box for Slab Reinforcement of the Rebars in cross direction of selected face*
 
 8\. Click **OK** or **Apply** or **Finish** to generate Slab reinforcement.
-9. Click **Cancel** to exit the dialog box.
+
+9\. Click **Cancel** to exit the dialog box.
 
 ## Properties Used for Slab Reinforcement Having U-Shape Rebars 
 
@@ -88,7 +97,6 @@ To create Slab reinforcement U-Shape Rebars as shown in above figures you can us
 
  
 ```python
-
 from SlabReinforcement.SlabReinforcement import makeSlabReinforcement
 SlabReinforcementGroup = makeSlabReinforcement(
     parallel_rebar_type="UShapeRebar",
@@ -186,7 +194,6 @@ You can change the properties of the Slab Reinforcement having U-Shape Rebars by
 
  
 ```python
-   
 from SlabReinforcement.SlabReinforcement import editSlabReinforcement
 SlabReinforcementGroup = editSlabReinforcement(
     SlabReinforcementGroup,
@@ -224,9 +231,7 @@ SlabReinforcementGroup = editSlabReinforcement(
 
 you can change any property to edit Slab Reinforcement.
 
-  
-
-_
+   \[\[Category:Reinforcement\]
 
 ---
 [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Example Slab Having UShape Rebars Reinforcement Mesh

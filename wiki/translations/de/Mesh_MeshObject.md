@@ -10,6 +10,7 @@ Please note that the **<img src="images/Workbench_FEM.svg" width=16px> [FEM Work
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Simplified diagram of the relationships between the core objects in the program. The `Mesh::MeshObject* class is embedded in the {{incode|Mesh::Feature` object and from there it is propagated to all objects that are derived from it.}}
 
 ## Usage

@@ -11,16 +11,47 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Basisprofil erstellen](SheetMetal_AddBase/de.md) erzeugt ein Blechprofil aus einer Skizze.
+Der Befehl <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Basisprofil erstellen](SheetMetal_AddBase/de.md) erzeugt ein SheetMetal-Basisobjekt aus einer Skizze.
+
+
+<div class="mw-translate-fuzzy">
+
+Er erzeugt entweder ein prismatisches Profil aus einer offenen Kontur oder eine Platine aus einem geschlossenen Umriss.
+
+
+</div>
+
+<img alt="" src=images/SheetMetal_AddBase-01.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddBase-02.png  style="width:200px;">
+
+From a closed outline it creates a base **plate** (blank):
+
+<img alt="" src=images/SheetMetal_AddBase-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddBase-04.png  style="width:200px;">
 
 ## Anwendung
+
+### Profile
+
+
+<div class="mw-translate-fuzzy">
 
 Dieses Werkzeug erzeugt ein Blech auf der Basis einer Skizze:
 
 -   Eine offene Skizzenkontur wird mit einer bestimmten Länge ({{Parameter|length}}) extrudiert und erzeugt ein Blech mit einer gewählten Stärke ({{Parameter|thickness}}) und vorgegebenen Kantradius ({{Parameter|radius}}). Der Parameter {{Parameter|bend side}} bestimmt die Lage des Bleches bezüglich der Skizzenlinie.
 -   Eine geschlossene Skizzenkontur wird zu einer Platine mit einer gewählten Stärke ({{Parameter|thickness}}) extrudiert. In diesem Falle werden die Parameter {{Parameter|length}} und {{Parameter|radius}} nicht benutzt.
 
-<img alt="" src=images/Sheetmetal.png  style="width:400px;">
+
+</div>
+
+### Plate
+
+1.  Select a **closed outline** <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md).
+2.  Activate the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [SheetMetal AddBase](SheetMetal_AddBase.md) (see above).
+3.  Adjust the plate\'s parameter by editing the corresponding value in the [Property editor](Property_editor.md):
+    -   The property **thickness** for the thickness of the plate.
+
+:   
+
+    :   (The properties **length** and **radius** are not used for plates.)
 
 ## Eigenschaften
 

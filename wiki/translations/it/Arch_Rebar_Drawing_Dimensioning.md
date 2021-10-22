@@ -34,6 +34,7 @@ Questo comando fa parte dell\'ambiente aggiuntivo _, tramite il menu **Strumenti
 <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width:800px;">
 
 
+
 *Disegno e dimensionamento dei ferri d'armatura*
 
 ## Utilizzo

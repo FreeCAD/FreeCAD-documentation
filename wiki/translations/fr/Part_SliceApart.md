@@ -15,6 +15,7 @@
 Outil pour diviser des formes par intersection avec d\'autres formes. Par exemple, pour une boîte et un plan, deux solides sont créés. ![600px](images/Part_Slice_Demo.png)
 
 
+
 *Ci-dessus : les morceaux ont été séparés manuellement par la suite pour révéler le découpage.*
 
 _ suivi de <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Part Éclater le composé](Part_ExplodeCompound/fr.md). Alors que \"Slice to compound (Scinder vers composé)\" est totalement paramétrique et ne pose aucun problème lorsque le nombre de pièces change, \"Slice apart (Séparer/exploser)\" ne met pas à jour le nombre d\'objets lorsque le nombre de pièces change. Ils créent tous deux la fonction paramétrique Slice, qui place les morceaux scindés dans un composé, mais \"Slice apart\" fait exploser le composé résultant en objets séparés.

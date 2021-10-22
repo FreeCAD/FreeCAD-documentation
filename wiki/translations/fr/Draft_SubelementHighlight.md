@@ -15,7 +15,8 @@
 
 La commande <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> **Draft Surligner les sous éléments** met temporairement en évidence les objets sélectionnés ou les objets de base des objets sélectionnés. Elle est destinée à être utilisée en conjonction avec le mode sous-élément de la commande [Draft Déplacer](Draft_Move/fr.md), la commande [Draft Rotation](Draft_Rotate/fr.md) ou la commande [Draft Scale](Draft_Scale/fr.md). Actuellement, le mode sous-élément ne fonctionne correctement que pour les [Draft Lignes](Draft_Line/fr.md) et les [Draft Polylignes](Draft_Wire/fr.md).
 
-![](images/Draft_SubelementHighlight_example.png ) *Un Arch mur dont la base, une Draft Polyligne, a été mise en surbrillance.*
+![](images/Draft_SubelementHighlight_example.png ) 
+*Un Arch mur dont la base, une Draft Polyligne, a été mise en surbrillance.*
 
 ## Utilisation
 

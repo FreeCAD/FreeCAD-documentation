@@ -32,6 +32,7 @@ Une copie de l\'original **<img src=images/Std_Part.svg style="width:16px"> [Std
 ![](images/Std_Link_tree_import_1_example.png ) ![](images/Std_Link_tree_import_2_example.png )
 
 
+
 *À gauche : un lien pointe vers l'objet dans le document "source". À droite : l'objet d'origine a été importé (copié) dans le document "cible" et le lien existant a été modifié pour pointer vers cette copie, de sorte qu'il ne pointe plus vers l'objet dans "source".*
 
 

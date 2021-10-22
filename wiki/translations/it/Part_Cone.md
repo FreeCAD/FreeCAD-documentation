@@ -15,6 +15,7 @@ Crea un tronco di cono parametrico.
 <div class="mw-translate-fuzzy">
 
 
+
 *Sopra: un cono di Parte con il parametro "Angolo" impostato su 270° e tutti gli altri parametri con i valori predefiniti.*
 
 

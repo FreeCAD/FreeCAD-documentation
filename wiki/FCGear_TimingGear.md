@@ -18,7 +18,8 @@ Timing gears are connected to a timing belt or timing chain.
 
 :   ![](images/Timing-Gear_example.png )
 :   
-    *Above: Timing gear*
+    
+*Above: Timing gear*
     
 
 ## Usage

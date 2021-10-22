@@ -10,13 +10,42 @@
 
 ## Description
 
-The <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> **SheetMetal AddFoldWall** command folds a wall at a chosen line with a specified bend radius.
+The <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> **SheetMetal AddFoldWall** command folds a sheet metal plate (blank) at a chosen line.
+
+It can be used with a pre-cut blank to
+
+-   create a perforated bend zone
+-   leave planar sections within the bend area and beyond e.g. tabs. (needs gaps in the bend line)
+
+<img alt="" src=images/SheetMetal_AddFoldWall-13.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddFoldWall-14.png  style="width:300px;">
+
+
+
+*Pre-cut blank and bend line with two gaps -> perforated bend zone with some still planar geometry*
 
 ## Usage
 
-1.  Select a planar face of the SheetMetal object
-2.  Select a coplanar line
-3.  Press the  or use the keyboard shortcut: **C** then **F**.
+1.  Select the face to be bent.
+2.  Hold down the **Ctrl** key (or the **Command** key on macOS).
+3.  Select the coplanar <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md) (i.e. lying on the same plane) containing the **bend line (segments)** (preferably from the [tree view](Tree_view.md)).
+4.  Release the **Ctrl** key (or the **Command** key).
+5.  Activate the <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:16px;"> **SheetMetal AddFoldWall** command using one of the following:
+    -   The **<img src="images/SheetMetal_AddFoldWall.svg" width=16px> [Fold a Wall](SheetMetal_AddFoldWall.md)** button.
+    -   The **SheetMetal → <img src="images/SheetMetal_AddFoldWall.svg" width=16px> Fold a Wall** menu option.
+    -   The keyboard shortcut: **C** Then **F**.
+6.  Change the value of the property **Position** to adjust the position of the bend according to the bend line.
+
+<img alt="" src=images/SheetMetal_AddFoldWall-15.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddFoldWall-14.png  style="width:300px;">
+
+
+
+*The bend line(s) lying in the middle of the perforation -> to keep the bend centred the same way the property **Position* has to be set to {{value|middle**}}
+
+### Notes
+
+-   The bend line sketch has to be **coplanar** to the selected face.
+
+-   The bend line segments have to be **colinear** to each other.
 
 ## Properties
 

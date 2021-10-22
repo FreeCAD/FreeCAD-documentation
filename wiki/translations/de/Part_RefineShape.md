@@ -27,6 +27,7 @@ Nach bestimmten booleschen Operationen, wie [Part Verschmelzen](Part_Fuse/de.md)
 <div class="mw-translate-fuzzy">
 
 
+
 *Ursprüngliches boolesches Ergebnis (links) und verfeinerte Formenkopie (rechts).*
 
 

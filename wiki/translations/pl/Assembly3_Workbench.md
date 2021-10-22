@@ -341,7 +341,8 @@ Głównymi cechami Środowiska Assembly3 są
 
 As usual you can modify the tool bars and add or remove single tools. Be sure to check the menu Assembly3 for functions that may not be present in the tool bars.
 
-[top](#top.md)
+
+{{top}}
 
 ### Wiązania
 
@@ -406,7 +407,8 @@ Wcześniejszy przykład pokazał, że możliwa jest zmiana Elementów wykorzysty
 -   Możesz dodać wiązanie w całkowicie innej kolejności: najpierw dodaj kilka Elementów do \"Listy Elementów\" *(nadawanie nazw jest przydatne, np. \"Górna Ściana Prostopadłościanu czy \"Przednia Ściana Prostopadłościanu\")* a następnie dodaj wiązanie bez zaznaczania czegokolwiek - będzie ono pustym wiązaniem. Potem przeciągnij Elementy z listy \"Elementów\". Wynik będzie takim sam jak po tym co zrobiliśmy w pierwszym przykładzie. Po wykonaniu tego ćwiczenia natura działania wiązań z Elementami powinna stać się jasna.
 -   Możesz zmienić istniejące wiązanie pomiędzy istniejącymi Elementami po prostu przez wybranie innej pozycji w właściwości Okno Właściwości/ConstraintType.
 
-[top](#top.md)
+
+{{top}}
 
 ## Zgodność
 
@@ -416,7 +418,8 @@ Nowe modele wykonane przy użyciu środowiska Złożenie 3 powinny być otwieran
 
 Mimo, że mogą mieć podobne narzędzia, środowisko Złożenie 3 nie jest zgodne ze środowiskiem [A2plus](A2plus_Workbench/pl.md) ani [Złożenie 4](Assembly4_Workbench/pl.md). Modele stworzone w tych środowiskach powinny być otwierane tylko w odpowiadających im środowiskach.
 
-[top](#top.md)
+
+{{top}}
 
 ## Testing
 
@@ -429,7 +432,8 @@ You can test it in two ways:
 
 Since the AppImage only works for Linux, for Windows users at the moment the only option to test Assembly3 is the first option (realthunder\'s fork).
 
-[top](#top.md)
+
+{{top}}
 
 ## HowTo
 
@@ -486,7 +490,8 @@ If you like you can move the **Locked** constraint upwards in the tree. Use the 
 :   Without doing that FreeCAD can not give a file handle to the Assembly3 Workbench and it can not find the new part.
 :   When all parts are in the same file, you should **save**, **close** and re-**open** this file, too.
 
-[top](#top.md)
+
+{{top}}
 
 ### Add an Offset 
 
@@ -505,7 +510,8 @@ Example:
 
 :\* Test with other axes or the angle/axis fields. Also verify that you get the same result when using the other Element. This is the same approach for all other constraints.
 
-[top](#top.md)
+
+{{top}}
 
 ### Solve a Solver Failure 
 
@@ -515,7 +521,8 @@ The easiest way to find the problem is to click relevant constraints in the tree
 
 Note: as Assembly3 tries to compensate for over-constraint parts behind the scenes, sometimes the problem is just triggered by a new constraint but the root cause is somewhere different. Before deleting all and starting again, remember that you can re-use Elements. If you named them you can identify the required elements and re-build the constraints without using the 3D view at all. See [Elements](#Elements.md) seciton above.
 
-[top](#top.md)
+
+{{top}}
 
 ### Replace a part or rename a filename 
 
@@ -556,7 +563,8 @@ One way to solve this is to just delete all invalid constraints and elements, im
 
 \'\'
 
-[top](#top.md)
+
+{{top}}
 
 ### Tips & Tricks 
 
@@ -573,9 +581,10 @@ One way to solve this is to just delete all invalid constraints and elements, im
 
 -   Using the [TabBar Workbench](https://github.com/triplus/TabBar) speeds up working with assembly. This adds a Toolbar with one button for each workbench. You can sort the toolbar and can put it where every you want it. Many people put it vertically on the left side just beside the tree view. Of you have Assembly3, Part, PartDesign and other often used workbenches close to the top switching between them becomes extremely easy.
 
-[top](#top.md)
 
-## Links
+{{top}}
+
+## Odnośniki internetowe 
 
 -   [App Link](App_Link.md) object that makes Assembly3 work.
 -   [FreeCAD\_assembly3](https://github.com/realthunder/FreeCAD_assembly3) repository and documentation.

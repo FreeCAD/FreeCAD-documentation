@@ -13,7 +13,8 @@
 
 The **Std ViewIsometric** command realigns the camera in the active _, but the command also works if the view is in [perspective mode](Std_PerspectiveCamera.md).
 
- ![](images/Std_ViewIsometric_example.svg )  *The [axis cross](Std_AxisCross.md) and a cube in isometric view*
+ ![](images/Std_ViewIsometric_example.svg )  
+*The [axis cross](Std_AxisCross.md) and a cube in isometric view*
 
 ## Usage
 

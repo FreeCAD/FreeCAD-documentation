@@ -3,8 +3,6 @@ This category lists templates that format text given as input.
 
 ### Contents:
 
-_ , _
-
 _
 
 ---

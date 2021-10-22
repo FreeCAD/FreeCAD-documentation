@@ -4,8 +4,8 @@
 |Icon=Macro_HighlightCommon.png
 |Description=Crée un volume des parties communes des objets sélectionnés|See=[[http://linuxforanengineer.blogspot.com.es/ linuxforanengineer]]
 |Author=JMG
-|Version=1.0
-|Date=2015-09-24
+|Version=2.3.2
+|Date=2021-07-01
 |FCVersion=0.17 et au dessus
 |Download=[https://www.freecadweb.org/wiki/images/8/85/Macro_HighlightCommon.png ToolBar Icon]
 }}
@@ -14,12 +14,13 @@
 
 Crée un volume de l\'intersection des objets sélectionnées, les objets originaux deviennent semi transparents pour permettre la visualisation de l\'objet \"intersection commune\" nouvellement créé.
 
-Les objet originaux peuvent retrouver leurs transparence originale dans **Vue combinée \> Vue \> Transparency** (les objets originaux ne sont pas modifiés)
+Les objet originaux peuvent retrouver leurs transparence originale dans **Vue combinée → Vue → Transparency** (les objets originaux ne sont pas modifiés)
 
 
 {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Utility/HighlightCommon.FCMacro}}
 
-![Volume commun des objets selectionnés](images/Captura_de_pantalla_de_2015-09-10_11-17-30.png ) *Volume common of objects selected*
+![Volume commun des objets selectionnés](images/Captura_de_pantalla_de_2015-09-10_11-17-30.png ) 
+*Volume common of objects selected*
 
 ## Script
 

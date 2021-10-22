@@ -9,14 +9,41 @@
 
 # SheetMetal AddJunction/de
 
+
+</div>
+
 ## Beschreibung
+
+
+<div class="mw-translate-fuzzy">
 
 Der Befehl <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:24px;"> **Stoß hinzufügen**\...
 
-<img alt="" src=images/PostGap.png  style="width:320px;"> 
+
+</div>
+
+This command is the second of three steps to convert a shell object made with the [Part Workbench](Part_Workbench.md) or [PartDesign Workbench](PartDesign_Workbench.md) into an unfoldable sheet metal object:
+
+1.  [SheetMetal AddRelief](SheetMetal_AddRelief.md)
+2.  [SheetMetal AddJunction](SheetMetal_AddJunction.md)
+3.  [SheetMetal AddBend](SheetMetal_AddBend.md)
+
+<img alt="" src=images/SheetMetal_ConvertShellObject-01.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-02.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-04.png  style="width:100px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Kante mit Stoß versehen*
 
+
+</div>
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 Eine Kante zwischen zwei Flächen durch einen Stoß ersetzen:
 
@@ -26,33 +53,15 @@ Eine Kante zwischen zwei Flächen durch einen Stoß ersetzen:
 2.  Click on the <img alt="" src=images/SheetMetal_Junction.svg  style="width:24px;"> **Junction** tool to add a junction cut to corner.
 
 
-**Note**
+</div>
 
-: The workbench does not have a tool to create a base plate, so you need to start your model with one of the following methods:
+<img alt="" src=images/SheetMetal_ConvertShellObject-06.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-07.png  style="width:200px;">
 
-:\* Method 1: <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Cube](Part_Box.md)
+## Notes
 
-:\* Method 2: An extruded solid made with <img alt="" src=images/Part_Extrude.svg  style="width:24px;"> [Part Extrude](Part_Extrude.md) from either a:
+The commands <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **_**, and <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[SheetMetal AddBend](SheetMetal_AddBend.md)** work best with hollow cuboids i.e. shell objects with a constant thickness and only 90° angles between faces.
 
-::\* <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Draft Rectangle](Draft_Rectangle.md) or a
-
-::\* <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Draft Wire](Draft_Wire.md) or a
-
-::\* <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketch](Sketcher_NewSketch.md)
-
-::\* Use <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Part Thickness](Part_Thickness.md) to create shell (**Typically with the thickness value of the sheet metal.**)
-
-:\* Method 3: <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Body](PartDesign_Body.md) containing either an
-
-::\* <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:24px;"> [additive box](PartDesign_AdditiveBox.md) or a
-
-::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> _.
-
-::\* Use <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> [PartDesign Thickness](PartDesign_Thickness.md) to create shell (**Typically with the thickness value of the sheet metal.**)
-
-:   
-
-    :   If you start with a <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> PartDesign Body, you can mix Sheet Metal features with PartDesign features such as <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> _.
+See [SheetMetal AddRelief](SheetMetal_AddRelief#Notes.md) for hints about creating shell objects of cuboids.
 
 ## Eigenschaften
 

@@ -10,45 +10,68 @@
 
 ## Description
 
-The <img alt="" src=images/SheetMetal_Extrude.svg  style="width:24px;"> **SheetMetal Extrude** command extends a sheet metal face.
+The <img alt="" src=images/SheetMetal_Extrude.svg  style="width:24px;"> **SheetMetal Extrude** command extends a sheet metal plate at a selected edge face.
+
+It creates a **simple extension** along the face normal of the selected edge face:
+
+ <img alt="" src=images/SheetMetal_Extrude-01.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-02.png  style="width:200px;"> 
+
+If an outline sketch is added it creates **interlocking geometry** to close a profile:
+
+ <img alt="" src=images/SheetMetal_Extrude-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-04.png  style="width:200px;"> 
+
+
+
+*Three profiles with outline sketches to add -> three results*
 
 ## Usage
 
-To Extend the face:
+### Simple Extension 
 
-1.  Start with a base plate or sheet, select a thin face representing the thickness of the metal sheet
-2.  Click on the <img alt="" src=images/SheetMetal_Extrude.svg  style="width:24px;"> **Extrude** tool to extend the face.
+1.  Select one or more edge face(s) to be extended.
+2.  Activate the <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> **SheetMetal Extrude** command using one of the following:
+    -   The **<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude.md)** button.
+    -   The **SheetMetal → <img src="images/SheetMetal_Extrude.svg" width=16px> Extend Face** menu option.
+    -   The keyboard shortcut: **E**.
+3.  Change the value of the property **length** to adjust the length of the extension.
 
+### Interlocking Extension 
 
-**Note**
+1.  Select one edge face to be extended.
+2.  Activate the <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> **SheetMetal Extrude** command (see above).
+3.  Add a coplanar outline sketch to the property **Sketch**.
+4.  Set the property **Use Subtraction** to `True` to create cut-outs to make room for the extensions.
+5.  Set the property **Offset** to adjust the clearance around the extension.
 
-: To create a base plate use a closed 2D outline - preferably a <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> _ command.
-Alternatively you can generate a base plate with one of the following methods as well:
-
-:\* Method 1: <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Cube](Part_Box.md)
-
-:\* Method 2: An extruded solid made with <img alt="" src=images/Part_Extrude.svg  style="width:24px;"> [Part Extrude](Part_Extrude.md) from either a:
-
-::\* <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Draft Rectangle](Draft_Rectangle.md) or a
-
-::\* <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Draft Wire](Draft_Wire.md) or a
-
-::\* <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketch](Sketcher_NewSketch.md)
-
-:\* Method 3: <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Body](PartDesign_Body.md) containing either an
-
-::\* <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:24px;"> [additive box](PartDesign_AdditiveBox.md) or a
-
-::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> _.
-
-:   
-
-    :   If you start with a <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> PartDesign Body, you can mix Sheet Metal features with PartDesign features such as <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> _.
+ <img alt="" src=images/SheetMetal_Extrude-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-06.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-04.png  style="width:200px;"> 
 
 
-**Note**
 
-: In an extension operation, set `Refine {{:=` true}}.
+*Three profiles -> position of the sketches -> results without cut-outs -> final results*
+
+### Notes
+
+-   A sketch can contain more than one outline.
+
+:   After inserting a sketch, at least one of its outlines must at least touch one opposite face or the tool will fail to create any extension or cut-out.
+
+
+
+
+
+:   Just one outline touching an opposite face is enough to create extension geometry from all outlines of the sketch.
+
+-   Each cut-out will have a cuboid shape, no matter what shape the corresponding outline sketch is.
+
+-   Shapes other than rectangles may behave little bit strange and even though the object can be unfolded, the result will not turn out as expected.
+
+ <img alt="" src=images/SheetMetal_Extrude-07.png  style="width:250px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-08.png  style="width:250px;"> 
+
+
+
+*Three outline sketches and their resulting extensions: separate triangle plate with a rectangular cut-out, circle without clearance -> unfold solid is split at an unexpected position *
+
+-   In an extension operation it is recommended to leave the property **Refine** set to `True` (default).
 
 ## Properties
 
@@ -81,13 +104,13 @@ A SheetMetal Extend object is derived from a [Part Feature](Part_Feature.md) obj
 
 {{Properties_Title|Parameters Ext.}}
 
--    **Offset|Distance**: \"Offset for substraction\". Default: {{value|20,00 µm}}.
+-    **Offset|Distance**: \"Offset for subtraction\". Default: {{value|20,00 µm}}.
 
 -    **Refine|Bool**: \"Use Refine\". Default: `True`.
 
 -    **Sketch|Link**: \"Wall Sketch\".
 
--    **Use Substraction|Bool**: \"Use Substraction\". Default: `False`
+-    **Use Subtraction|Bool**: \"Use Subtraction\". Default: `False`
 
 
 

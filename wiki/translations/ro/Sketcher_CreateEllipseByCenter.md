@@ -26,6 +26,7 @@ Acest instrument desenează o elipsă prin alegerea a 3 puncte: centrul, sfârș
 </div>
 
 
+
 *The sequence of clicks is indicated by yellow arrows with numbers. C is the center, a - major diameter, b - minor diameter, F1, F2 are foci.*
 
 

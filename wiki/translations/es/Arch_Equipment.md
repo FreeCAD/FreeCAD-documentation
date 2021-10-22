@@ -35,7 +35,8 @@ La herramienta de equipamiento le ofrece una manera simple y conveniente de inse
 
 </div>
 
-![](images/Arch_equipment_example.jpg ) *Furniture objects enclosed in an [Arch Equipment](Arch_Equipment.md) object. The flat projections can be obtained by the [Draft Shape2DView](Draft_Shape2DView.md) tool*
+![](images/Arch_equipment_example.jpg ) 
+*Furniture objects enclosed in an [Arch Equipment](Arch_Equipment.md) object. The flat projections can be obtained by the [Draft Shape2DView](Draft_Shape2DView.md) tool*
 
 
 <div class="mw-translate-fuzzy">
@@ -45,7 +46,8 @@ A partir de la versión 0.17, los objetos de equipamiento también tienen una pr
 
 </div>
 
-![](images/Arch_equipment_mesh.jpg ) *Furniture objects enclosed in an [Arch Equipment](Arch_Equipment.md) object, with a high resolution mesh attached*
+![](images/Arch_equipment_mesh.jpg ) 
+*Furniture objects enclosed in an [Arch Equipment](Arch_Equipment.md) object, with a high resolution mesh attached*
 
 
 <div class="mw-translate-fuzzy">
@@ -138,4 +140,4 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Equipment/es
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/es

@@ -29,6 +29,8 @@ Las Funcionalidades Python siguen las mismas reglas que todas las Funcionalidade
 
 </div>
 
+## Basic example 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -53,11 +55,11 @@ class Box:
         obj.addProperty("App::PropertyLength","Width","Box","Width of the box").Width=1.0
         obj.addProperty("App::PropertyLength","Height","Box", "Height of the box").Height=1.0
         obj.Proxy = self
-   
+
     def onChanged(self, fp, prop):
         '''Do something when a property has changed'''
         FreeCAD.Console.PrintMessage("Change property: " + str(prop) + "\n")
- 
+
     def execute(self, fp):
         '''Do something when doing a recomputation, this method is mandatory'''
         FreeCAD.Console.PrintMessage("Recompute Python Box feature\n")
@@ -67,14 +69,14 @@ class ViewProviderBox:
         '''Set this object to the proxy object of the actual view provider'''
         obj.addProperty("App::PropertyColor","Color","Box","Color of the box").Color=(1.0,0.0,0.0)
         obj.Proxy = self
- 
+
     def attach(self, obj):
         '''Setup the scene sub-graph of the view provider, this method is mandatory'''
         self.shaded = coin.SoGroup()
         self.wireframe = coin.SoGroup()
         self.scale = coin.SoScale()
         self.color = coin.SoBaseColor()
-       
+
         data=coin.SoCube()
         self.shaded.addChild(self.scale)
         self.shaded.addChild(self.color)
@@ -88,7 +90,7 @@ class ViewProviderBox:
         self.wireframe.addChild(data)
         obj.addDisplayMode(self.wireframe,"Wireframe");
         self.onChanged(obj,"Color")
- 
+
     def updateData(self, fp, prop):
         '''If a property of the handled feature has changed we have the chance to handle this here'''
         # fp is the handled feature, prop is the name of the property that has changed
@@ -97,30 +99,30 @@ class ViewProviderBox:
         h = fp.getPropertyByName("Height")
         self.scale.scaleFactor.setValue(float(l),float(w),float(h))
         pass
- 
+
     def getDisplayModes(self,obj):
         '''Return a list of display modes.'''
         modes=[]
         modes.append("Shaded")
         modes.append("Wireframe")
         return modes
- 
+
     def getDefaultDisplayMode(self):
         '''Return the name of the default display mode. It must be defined in getDisplayModes.'''
         return "Shaded"
- 
+
     def setDisplayMode(self,mode):
         '''Map the display mode defined in attach with those defined in getDisplayModes.\
                 Since they have the same names nothing needs to be done. This method is optional'''
         return mode
- 
+
     def onChanged(self, vp, prop):
         '''Here we can do something when a single property got changed'''
         FreeCAD.Console.PrintMessage("Change property: " + str(prop) + "\n")
         if prop == "Color":
             c = vp.getPropertyByName("Color")
             self.color.rgb.setValue(c[0],c[1],c[2])
- 
+
     def getIcon(self):
         '''Return the icon in XPM format which will appear in the tree view. This method is\
                 optional and if not defined a default icon is shown.'''
@@ -151,18 +153,17 @@ class ViewProviderBox:
             "  ##$$$$$#      ",
             "   #######      "};
             """
- 
+
     def __getstate__(self):
         '''When saving the document this object gets stored using Python's json module.\
                 Since we have some un-serializable parts here -- the Coin stuff -- we must define this method\
                 to return a tuple of all serializable objects or None.'''
         return None
- 
+
     def __setstate__(self,state):
         '''When restoring the serialized object from document we have the chance to set some internals here.\
                 Since no data were serialized nothing needs to be done here.'''
         return None
-
 
 def makeBox():
     FreeCAD.newDocument()
@@ -171,7 +172,6 @@ def makeBox():
     ViewProviderBox(a.ViewObject)
 
 makeBox()
-
 ```
 
 ### Things to note 
@@ -186,9 +186,17 @@ An explanation of `__getstate__` and `__setstate__` is in the forum thread [obj.
 
 See [FeaturePython methods](FeaturePython_methods.md) for the complete reference.
 
+## Available properties 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Propiedades disponibles 
 
 Las propiedades son las auténticas piedras de construcción de los objetos FeaturePython. A través de ellas, el usuario será capaz de interactuar y modificar su objeto. Después de crear un nuevo objeto FeaturePython en tu documento ( a=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\",\"Box\") ), puedes obtener una lista de las propiedades disponibles escribiendo:
+
+
+</div>
 
 
 ```python
@@ -306,7 +314,7 @@ prop = (value, lower, upper, stepsize)
 
 ## Property Type 
 
-By default the properties can be updated. It is possible to make the properties read-only, for instance in the case one wants to show the result of a method. It is also possible to hide the property. The property type can be set using
+By default the properties can be updated. It is possible to make the properties read-only, for instance in the case one wants to show the result of a method. It is also possible to hide the property. The property type can be set using:
 
 
 ```python
@@ -339,7 +347,9 @@ The property types that can be set at last parameter of the addProperty function
  8 -- Prop_Output, Modified property doesn't touch its parent container
  16 -- Prop_NoRecompute, Modified property doesn't touch its container for recompute
 
-You can find these different property types defined in the [source code C++ header for PropertyContainer](https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyContainer.h)
+You can find these different property types defined in the [source code C++ header for PropertyContainer](https://github.com/FreeCAD/FreeCAD/blob/master/src/App/PropertyContainer.h).
+
+## Other more complex example 
 
 
 <div class="mw-translate-fuzzy">
@@ -376,7 +386,7 @@ class Octahedron:
      v4 = FreeCAD.Vector(fp.Length,fp.Width,0)
      v5 = FreeCAD.Vector(fp.Length/2,fp.Width/2,fp.Height/2)
      v6 = FreeCAD.Vector(fp.Length/2,fp.Width/2,-fp.Height/2)
-     
+
      # Make the wires/faces
      f1 = self.make_face(v1,v2,v5)
      f2 = self.make_face(v2,v4,v5)
@@ -442,7 +452,7 @@ class ViewProviderOctahedron:
         for i in s.Vertexes:
            self.data.point.set1Value(cnt,i.X,i.Y,i.Z)
            cnt=cnt+1
-        
+
         self.face.coordIndex.set1Value(0,0)
         self.face.coordIndex.set1Value(1,1)
         self.face.coordIndex.set1Value(2,2)
@@ -550,6 +560,8 @@ Octahedron(a)
 ViewProviderOctahedron(a.ViewObject)
 ```
 
+## Making objects selectable 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -562,7 +574,9 @@ Si deseas hacer tu objeto seleccionable, o al menos parte de el, haciendo clic s
 
 Once the parts of the scenegraph that are to be selectable are inside SoFCSelection nodes, you then need to provide two methods to handle the selection path. The selection path can take the form of a string giving the names of each element in the path, or of an array of scenegraph objects. The two methods you provide are `getDetailPath`, which converts from a string path to an array of scenegraph objects, and `getElementPicked`, which takes an element which has been clicked on in the scenegraph and returns its string name (note, not its string path).
 
-Here is the molecule example above, adapted to make the elements of the molecule selectable: 
+Here is the molecule example above, adapted to make the elements of the molecule selectable:
+
+
 ```python
 class Molecule:
     def __init__(self, obj):
@@ -634,7 +648,6 @@ class ViewProviderMolecule:
             return 'Atom2'
         raise NotImplementedError
 
-
     def updateData(self, fp, prop):
         "If a property of the handled feature has changed we have the chance to handle this here"
         # fp is the handled feature, prop is the name of the property that has changed
@@ -659,9 +672,17 @@ def makeMolecule():
     FreeCAD.ActiveDocument.recompute()
 ```
 
+## Working with simple shapes 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Trabajar con formas simples 
 
 Si tu objeto paramétrico saca simplemente una forma, no es necesario utilizar un objeto proveedor de vista. La forma se mostrará en la representación de formas de FreeCAD:
+
+
+</div>
 
 
 ```python
@@ -701,7 +722,7 @@ class Line:
          obj.addProperty("App::PropertyVector","p1","Line","Start point")
          obj.addProperty("App::PropertyVector","p2","Line","End point").p2=FreeCAD.Vector(100,0,0)
          obj.Proxy = self
-   
+
     def execute(self, fp):
         '''"Print a short message when doing a recomputation, this method is mandatory" '''
         fp.Shape = Part.makeLine(fp.p1,fp.p2)
@@ -866,7 +887,6 @@ class ViewProviderMolecule:
             return 'Line'
         raise NotImplementedError
 
-
     def updateData(self, fp, prop):
         "If a property of the handled feature has changed we have the chance to handle this here"
         # fp is the handled feature, prop is the name of the property that has changed
@@ -906,6 +926,186 @@ def makeMolecule():
 a,b = makeMolecule()
 ```
 
+## Part Design scripted objects 
+
+When making scripted objects in Part Design the process is similar to the scripted objects discussed above, but with a few additional considerations. We must handle 2 shape properties, one for the shape we see in the 3D view and another for the shape used by the pattern tools, such as polar pattern features. The object shapes also needs to be fused to any existing material already in the Body (or cut from it in the case of Subtractive features). And we must account for the placement and attachment of our objects a little bit differently.
+
+Part Design scripted solid object features should be based on either PartDesign::FeaturePython, PartDesign::FeatureAdditivePython, or PartDesign::FeatureSubtractivePython rather than Part::FeaturePython. Only the Additive and Subtractive variants can be used in pattern features, and if based on Part::FeaturePython when the user drops the object into a Part Design Body it becomes a BaseFeature rather than being treated by the Body as a native Part Design object. Note: all of these are expected to be solids, so if you are making a non-solid feature it should be based on Part::FeaturePython or else the next feature in the tree will attempt to fuse to as a solid and it will fail.
+
+Here is a simple example of making a Tube primitive, similar to the Tube primitive in Part Workbench except this one will be a Part Design solid feature object. For this we will 2 separate files: pdtube.FCMacro and pdtube.py. The .FCMacro file will be executed by the user to create the object. The .py file will hold the class definitions, imported by the .FCMacro. The reason for doing it this way is to maintain the parametric nature of the object after restarting FreeCAD and opening a document containing one of our Tubes.
+
+First, the class definition file:
+
+
+```python
+# -*- coding: utf-8 -*-
+#classes should go in pdtube.py
+import FreeCAD, FreeCADGui, Part
+class PDTube:
+    def __init__(self,obj):
+        obj.addProperty("App::PropertyLength","Radius1","Tube","Radius1").Radius1 = 5
+        obj.addProperty("App::PropertyLength","Radius2","Tube","Radius2").Radius2 = 10
+        obj.addProperty("App::PropertyLength","Height","Tube","Height of tube").Height = 10
+        self.makeAttachable(obj)
+        obj.Proxy = self
+
+    def makeAttachable(self, obj):
+
+        if int(FreeCAD.Version()[1]) >= 19:
+            obj.addExtension('Part::AttachExtensionPython')
+        else:
+            obj.addExtension('Part::AttachExtensionPython', obj)
+
+        obj.setEditorMode('Placement', 0) #non-readonly non-hidden
+
+    def execute(self,fp):
+        outer_cylinder = Part.makeCylinder(fp.Radius2, fp.Height)
+        inner_cylinder = Part.makeCylinder(fp.Radius1, fp.Height)
+        if fp.Radius1 == fp.Radius2: #just make cylinder
+            tube_shape = outer_cylinder
+        elif fp.Radius1 < fp.Radius2:
+            tube_shape = outer_cylinder.cut(inner_cylinder)
+        else: #invert rather than error out
+            tube_shape = inner_cylinder.cut(outer_cylinder)
+
+        if not hasattr(fp, "positionBySupport"):
+            self.makeAttachable(fp)
+        fp.positionBySupport()
+        tube_shape.Placement = fp.Placement
+
+        #BaseFeature (shape property of type Part::PropertyPartShape) is provided for us
+        #with the PartDesign::FeaturePython and related classes, but it might be empty
+        #if our object is the first object in the tree.  it's a good idea to check
+        #for its existence in case we want to make type Part::FeaturePython, which won't have it
+
+        if hasattr(fp, "BaseFeature") and fp.BaseFeature != None:
+            if "Subtractive" in fp.TypeId:
+                full_shape = fp.BaseFeature.Shape.cut(tube_shape)
+            else:
+                full_shape = fp.BaseFeature.Shape.fuse(tube_shape)
+            full_shape.transformShape(fp.Placement.inverse().toMatrix(), True) #borrowed from gears workbench
+            fp.Shape = full_shape
+        else:
+            fp.Shape = tube_shape
+        if hasattr(fp,"AddSubShape"): #PartDesign::FeatureAdditivePython and
+                                      #PartDesign::FeatureSubtractivePython have this
+                                      #property but PartDesign::FeaturePython does not
+                                      #It is the shape used for copying in pattern features
+                                      #for example in making a polar pattern
+            tube_shape.transformShape(fp.Placement.inverse().toMatrix(), True)
+            fp.AddSubShape = tube_shape
+
+class PDTubeVP:
+    def __init__(self, obj):
+        '''Set this object to the proxy object of the actual view provider'''
+        obj.Proxy = self
+
+    def attach(self,vobj):
+        self.vobj = vobj
+
+    def updateData(self, fp, prop):
+        '''If a property of the handled feature has changed we have the chance to handle this here'''
+        pass
+
+    def getDisplayModes(self,obj):
+        '''Return a list of display modes.'''
+        modes=[]
+        modes.append("Flat Lines")
+        modes.append("Shaded")
+        modes.append("Wireframe")
+        return modes
+
+    def getDefaultDisplayMode(self):
+        '''Return the name of the default display mode. It must be defined in getDisplayModes.'''
+        return "Flat Lines"
+
+    def setDisplayMode(self,mode):
+        '''Map the display mode defined in attach with those defined in getDisplayModes.\
+                Since they have the same names nothing needs to be done. This method is optional'''
+        return mode
+
+    def onChanged(self, vp, prop):
+        '''Here we can do something when a single property got changed'''
+        #FreeCAD.Console.PrintMessage("Change property: " + str(prop) + "\n")
+        pass
+
+    def getIcon(self):
+        '''Return the icon in XPM format which will appear in the tree view. This method is\
+                optional and if not defined a default icon is shown.'''
+        return """
+            /* XPM */
+            static const char * ViewProviderBox_xpm[] = {
+            "16 16 6 1",
+            "   c None",
+            ".  c #141010",
+            "+  c #615BD2",
+            "@  c #C39D55",
+            "#  c #000000",
+            "$  c #57C355",
+            "        ........",
+            "   ......++..+..",
+            "   .@@@@.++..++.",
+            "   .@@@@.++..++.",
+            "   .@@  .++++++.",
+            "  ..@@  .++..++.",
+            "###@@@@ .++..++.",
+            "##$.@@$#.++++++.",
+            "#$#$.$$$........",
+            "#$$#######      ",
+            "#$$#$$$$$#      ",
+            "#$$#$$$$$#      ",
+            "#$$#$$$$$#      ",
+            " #$#$$$$$#      ",
+            "  ##$$$$$#      ",
+            "   #######      "};
+            """
+
+    def __getstate__(self):
+        '''When saving the document this object gets stored using Python's json module.\
+                Since we have some un-serializable parts here -- the Coin stuff -- we must define this method\
+                to return a tuple of all serializable objects or None.'''
+        return None
+
+    def __setstate__(self,state):
+        '''When restoring the serialized object from document we have the chance to set some internals here.\
+                Since no data were serialized nothing needs to be done here.'''
+        return None
+```
+
+And now the macro file to create the object:
+
+
+```python
+# -*- coding: utf-8 -*-
+
+#pdtube.FCMacro
+import pdtube
+#above line needed if the class definitions above are place in another file: PDTube.py
+#this is needed if the tube object is to remain parametric after restarting FreeCAD and loading
+#a document containing the object
+
+body = FreeCADGui.ActiveDocument.ActiveView.getActiveObject("pdbody")
+if not body:
+    FreeCAD.Console.PrintError("No active body.\n")
+else:
+    from PySide import QtGui
+    window = FreeCADGui.getMainWindow()
+    items = ["Additive","Subtractive","Neither additive nor subtractive"]
+    item,ok =QtGui.QInputDialog.getItem(window,"Select tube type","Select whether you want additive, subtractive, or neither:",items,0,False)
+    if ok:
+        if item == items[0]:
+            className = "PartDesign::FeatureAdditivePython"
+        elif item == items[1]:
+            className = "PartDesign::FeatureSubtractivePython"
+        else:
+            className = "PartDesign::FeaturePython" #not usable in pattern features, such as polar pattern
+
+        tube = FreeCAD.ActiveDocument.addObject(className,"Tube")
+        pdtube.PDTube(tube)
+        pdtube.PDTubeVP(tube.ViewObject)
+        body.addObject(tube) #optionally we can also use body.insertObject() for placing at particular place in tree
+```
+
 
 <div class="mw-translate-fuzzy">
 
@@ -935,7 +1135,7 @@ In addition to the examples presented here have a look at FreeCAD source code [s
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

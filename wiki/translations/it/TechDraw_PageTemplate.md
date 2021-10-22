@@ -27,6 +27,7 @@ La directory di partenza per il dialogo può essere specificata nelle [Preferenz
 <img alt="" src=images/A4_Landscape_ISO7200_Pep.svg  style="width:400px;">
 
 
+
 *Uno dei modelli che viene fornito con TechDraw: A4 ISO 7200_Pep, pagina con orientamento orizzontale, e con campi di testo modificabili*
 
 ## Utilizzo

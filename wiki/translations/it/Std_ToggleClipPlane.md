@@ -22,9 +22,11 @@ Un **piano di taglio** divide lo spazio dell\'oggetto in due metà. Tutte le par
 
 </div>
 
-![](images/Std_ToggleClipPlane_example.png ) *A clipped hollow object*
+![](images/Std_ToggleClipPlane_example.png ) 
+*A clipped hollow object*
 
-![](images/Std_ToggleClipPlane_taskpanel.png ) *The Clipping task panel*
+![](images/Std_ToggleClipPlane_taskpanel.png ) 
+*The Clipping task panel*
 
 ## Utilizzo
 

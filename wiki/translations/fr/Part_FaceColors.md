@@ -29,7 +29,8 @@ Pour réinitialiser toutes les couleurs de la face:
 
 1.  Cliquez sur **Définir par défaut**. Cela définit les couleurs de toutes les faces de la pièce à la couleur par défaut. Le bouton fonctionne instantanément, c\'est-à-dire que vous ne pouvez pas revenir en arrière avec le bouton **Annuler**.
 
-![](images/Part_FaceColors-dialog.png ) *La boîte de dialogue Définir la couleur des faces*
+![](images/Part_FaceColors-dialog.png ) 
+*La boîte de dialogue Définir la couleur des faces*
 
 
 

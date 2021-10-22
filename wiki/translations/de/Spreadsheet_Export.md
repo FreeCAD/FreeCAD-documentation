@@ -12,7 +12,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das **<img src=images/Spreadsheet_Export.svg style="width:16px"> [Kalkulationstabelle Export](Spreadsheet_Export/de.md)** Werkzeug ermöglcht dir eine Kalkulationstabelle als Komma-getrennte Werte Datei (frei als CSV bezeichnet) (engl.: Comma Separated Values) in eine Kalkulationstabelle zu exportieren, die anschließend geöffnet und in anderen Anwendungen verwendet werden kann.
+
+
+</div>
 
 ## Anwendung
 

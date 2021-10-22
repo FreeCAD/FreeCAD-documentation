@@ -10,6 +10,7 @@ The `Sketcher::SketchObject` is derived from [Part Part2DObject](Part_Part2DObje
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Simplified diagram of the relationships between the core objects in FreeCAD. The `Sketcher::SketchObject* class is specialized for 2D shapes, and additionally it includes an extension to handle geometrical constraints of its elements.`
 
 ## Usage

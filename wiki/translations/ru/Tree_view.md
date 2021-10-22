@@ -10,6 +10,7 @@
 ![](images/FreeCAD_Tree_view.png )
 
 
+
 *Древо проекта, показывающее различные элементы документа*
 
 ## Работа с древом проекта 
@@ -21,6 +22,7 @@
 <img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width:" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width:" height="304px;">
 
 <img alt="" src=images/FreeCAD_Tree_view_parametric_history_3.png  style="width:" height="304px;">
+
 
 
 *Самый верхний объект создается путем выполнения параметрических операций над объектами, которые сами были созданы предыдущими операциями. Разворачивание списка в древе на много уровней, раскрывает исходные элементы, которые были использованы для создания элементов твердых тел.*

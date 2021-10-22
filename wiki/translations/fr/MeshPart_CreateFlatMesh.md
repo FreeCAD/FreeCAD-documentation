@@ -13,7 +13,8 @@
 
 La commande **MeshPart Développer un objet maillé** crée une représentation plate d\'un objet maillé en le développant, en le dépliant. Le contour créé est une [Part Feature](Part_Feature/fr.md).
 
-![](images/MeshPart_CreateFlatMesh_example.png ) *Un objet maillé et en rouge sa représentation plate*
+![](images/MeshPart_CreateFlatMesh_example.png ) 
+*Un objet maillé et en rouge sa représentation plate*
 
 ## Utilisation
 

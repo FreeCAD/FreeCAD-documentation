@@ -23,7 +23,8 @@ _.
 
 </div>
 
-![](images/FEM_Example_gui.png ) *Диалог выбора примера*
+![](images/FEM_Example_gui.png ) 
+*Диалог выбора примера*
 
 ## Применение
 

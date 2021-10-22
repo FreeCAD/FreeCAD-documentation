@@ -64,7 +64,13 @@ Aplicar uma restrição horizontal ou vertical, ou uma restrição angular (em r
 
 Vários objetos podem ser restringidos entre si. Duas linhas podem ser unidas por meio de um de seus pontos com a restrição de ponto coincidente. Um ângulo pode ser definido entre elas, ou elas podem ser postas como perpendiculares. Uma linha pode ser tangente a um arco ou círculo e assim por diante. Um esboço complexo com vários objetos terá uma série de soluções diferentes e torná-lo **totalmente restrito** significa que apenas uma dessas soluções possíveis foi alcançada com base nas restrições aplicadas.
 
+
+<div class="mw-translate-fuzzy">
+
 Existem dois tipos de restrições: geométricas e dimensionais. Eles são detalhados na seção [\'As Ferramentas\'](#As_Ferramentas/pt-br.md) abaixo.
+
+
+</div>
 
 #### What the Sketcher is not good for 
 
@@ -102,7 +108,7 @@ Depois que um esboço está totalmente restrito, seu contorno ficará verde; a g
 
 </div>
 
-## The tools 
+## Tools
 
 
 <div class="mw-translate-fuzzy">
@@ -456,7 +462,13 @@ As seguintes ferramentas podem ser usadas para modificar o efeito das restriçõ
 
 -   <img alt="" src=images/Sketcher_SwitchVirtualSpace.svg  style="width:32px;"> [Trocar espaço virtual](Sketcher_SwitchVirtualSpace/pt-br.md): Permite esconder todas as restrições de um esboço e fazê-las visíveis novamente.
 
+
+<div class="mw-translate-fuzzy">
+
 ### Preferências
+
+
+</div>
 
 -   <img alt="" src=images/Preferences-general.svg  style="width:32px;"> [Preferências](Sketcher_Preferences/pt-br.md): Preferências para a bancada de trabalho **Sketcher**.
 

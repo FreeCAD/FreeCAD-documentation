@@ -6,7 +6,8 @@
 
 Il comando **Convertitore di unità** apre la finestra di dialogo per convertire i valori da un sistema di unità di misura ad un altro.
 
-![](images/Units_Calculator_it.png ) *La finestra di dialogo del Convertitore di unità*
+![](images/Units_Calculator_it.png ) 
+*La finestra di dialogo del Convertitore di unità*
 
 ## Utilizzo
 

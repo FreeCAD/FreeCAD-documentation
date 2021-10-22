@@ -32,6 +32,7 @@ This snap option will also find points on the extension of straight edges. Circu
 <div class="mw-translate-fuzzy">
 
 
+
 *Aggancio del secondo punto di una linea a un'estensione invisibile di un'altra linea, in modo che il primo sia perpendicolare al secondo*
 
 

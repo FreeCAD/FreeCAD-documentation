@@ -20,4 +20,4 @@ Mit den Materialwerkzeugen können Materialien zum aktiven Dokument hinzugefügt
 -   <img alt="" src=images/Arch_MultiMaterial.svg  style="width:32px;"> [Mehrfach-Material](Arch_MultiMaterial/de.md): Erstellt ein Mehrfach-Material und ordnet es ausgewählten Objekten zu, falls vorhanden <small>(v0.17)</small>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CompSetMaterial/de
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CompSetMaterial/de

@@ -28,6 +28,7 @@ Lo strumento <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:16px;">
 <div class="mw-translate-fuzzy">
 
 
+
 *Conversione di forme Draft in forme di Sketcher con vincoli*
 
 

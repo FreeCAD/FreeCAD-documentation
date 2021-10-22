@@ -16,6 +16,7 @@ This tool traces a periodic (closed) B-spline curve from its control points. (Se
  ![](images/Sketcher_Periodic_B-spline_example01.png ) 
 
 
+
 *A periodic B-spline curve (in white) made from 5 points. Pictured are the control polygon in green (the straight lines connecting the red points), the weight circles in blue and the curvature comb in green. The (3) digit in the centre refers to the degree of the B-spline, and the (1) and (2) digits on the knots lying on the curve refer to their multiplicity.*
 
 ## Usage

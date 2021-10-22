@@ -45,7 +45,8 @@ Per ripristinare il colore di tutte le facce
 
 </div>
 
-![](images/Part_FaceColors-dialog.png ) *The FaceColors dialog*
+![](images/Part_FaceColors-dialog.png ) 
+*The FaceColors dialog*
 
 
 <div class="mw-translate-fuzzy">

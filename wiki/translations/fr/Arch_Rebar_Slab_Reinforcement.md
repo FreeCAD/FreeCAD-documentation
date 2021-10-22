@@ -15,36 +15,46 @@ L\'outil [Renfort de dalle](Arch_Rebar_Slab_Reinforcement/fr.md) permet à l\'ut
 
 Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
-<img alt="en ligne" src=images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
+<img alt="" src=images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
 *Un exemple d'armature de dalle à l'intérieur d'une dalle [Arch Structure](Arch_Structure/fr.md)*
 
 <img alt="" src=images/Right_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
-*Vue de droite de l'exemple d'armature de dalle donné*
+*Vue de droite de l'exemple d'armature de dalle*
 
-<img alt="Vue de face des barres d\'armature pliées en parallèle et en croix avec les barres d\'armature de distribution." src=images/Front_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
-*Vue de face de l'exemple d'armature de dalle donné*
+<img alt="" src=images/Front_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;"> 
+*Vue de face de l'exemple d'armature de dalle*
 
 ## Utilisation
 
 1\. Sélectionnez n\'importe quelle face d\'une dalle **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure/fr.md)** déjà créée comme indiqué dans l\'image ci-dessous.
-<img alt="" src=images/Selected_face_for_Slab_Arch_Structure.png  style="width:400px;"> *Face sélectionnée de la dalle Arch Structure*.
+
+<img alt="" src=images/Selected_face_for_Slab_Arch_Structure.png  style="width:400px;"> 
+*Face sélectionnée de la dalle Arch Structure*.
 
 2\. Sélectionnez ensuite **<img src="images/Arch_Rebar_Slab_Reinforcement.svg" width=16px> [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement/fr.md)** dans les outils d\'armature.
 
 3\. Une boîte de dialogue apparaîtra à l\'écran comme indiqué ci-dessous.
-![Boîte de dialogue de saisie de l\'armature des dalles](images/Slab_Reinforcement_input_dialog_box.png ) *Boîte de dialogue pour le renforcement des dalles*.
+
+![](images/Slab_Reinforcement_input_dialog_box.png ) 
+*Boîte de dialogue pour le renforcement des dalles*.
 
 4\. Sélectionnez le type de couverture de la maille d\'armature souhaité (Top ou Bottom).
 
 5\. Sélectionnez le type de barre d\'armature souhaité et les autres données d\'entrée pour les barres d\'armature dans la direction parallèle à la face sélectionnée, comme le montre l\'image ci-dessous.
-![Armatures de forme pliée en parallèle avec les entrées des armatures de distribution pour le renforcement des dalles.](images/Bent_Shape_rebars_in_parallel_with_distribution_rebars_inputs_for_Slab_Reinforcement.png ). *Boîte de dialogue pour l'armature de dalle des armatures en direction parallèle de la face sélectionnée*.
+
+![](images/Bent_Shape_rebars_in_parallel_with_distribution_rebars_inputs_for_Slab_Reinforcement.png ) 
+*Boîte de dialogue pour l'armature de dalle des armatures en direction parallèle de la face sélectionnée*.
 
 6\. Cliquez maintenant sur le bouton **Suivant** ou sélectionnez Cross Rebars dans la vue en liste.
-7. Maintenant, sélectionnez les données souhaitées pour les données d\'entrée pour les barres dans la direction transversale de la face sélectionnée comme le montre l\'image ci-dessous.
-![Armatures de forme courbées dans le sens transversal avec des armatures de répartition](images/Bent_Shape_rebars_in_cross_direction_with_distribution_rebars.png ). *Boîte de dialogue pour le renforcement de la dalle des armatures dans le sens transversal de la face sélectionnée*.
+
+7\. Maintenant, sélectionnez les données souhaitées pour les données d\'entrée pour les barres dans la direction transversale de la face sélectionnée comme le montre l\'image ci-dessous.
+
+![](images/Bent_Shape_rebars_in_cross_direction_with_distribution_rebars.png ) 
+*Boîte de dialogue pour le renforcement de la dalle des armatures dans le sens transversal de la face sélectionnée*.
 
 8\. Cliquez sur **OK** ou **Apply** ou **Finish** pour générer le ferraillage des dalles.
-9. Cliquez sur **Cancel** pour quitter la boîte de dialogue.
+
+9\. Cliquez sur **Cancel** pour quitter la boîte de dialogue.
 
 ## Propriétés
 
@@ -321,21 +331,21 @@ slabReinforcementGroup = editSlabReinforcement(
 
 -   [Portée des dalles dans deux directions](Example_Slab_Spanning_in_Two_Directions/fr.md)
 
-<img alt="en ligne" src=images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;">
+<img alt="" src=images/Isometric_view_of_Bent_Shape_rebars_in_parallel_and_cross_direction_with_distribution_rebars.png  style="width:800px;">
 
 -   [Portée de la dalle dans une direction](Example_Slab_Spanning_in_One_Direction/fr.md)
 
-<img alt="en ligne" src=images/Slab_spanning_in_one_Direction.png  style="width:800px;">
+<img alt="" src=images/Slab_spanning_in_one_Direction.png  style="width:800px;">
 
--   [Dalle avec armatures droites Mailles d\'armature](Example_Slab_Having_Mesh_Of_Straight_Rebars/fr.md)
+-   [Dalle avec maillage d\'armatures droites](Example_Slab_Having_Mesh_Of_Straight_Rebars/fr.md)
 
 <img alt="" src=images/Slab_having_straight_rebars_in_both_direction.png  style="width:800px;">
 
--   [Dalle avec armatures en forme de U Maillage d\'armature](Example_Slab_Having_UShape_Rebars_Reinforcement_Mesh/fr.md)
+-   [Dalle avec armatures en forme de U Rebars Reinforcement Maillage](Example_Slab_Having_UShape_Rebars_Reinforcement_Mesh/fr.md)
 
 <img alt="" src=images/U-shape_rebars_isometric_view.png  style="width:800px;">
 
--   [Dalle avec armatures en forme de L Maillage d\'armature](Example_Slab_Having_LShape_Rebars_Reinforcement_Mesh/fr.md)
+-   [Dalle avec armatures en forme de L Rebars Reinforcement Maillage](Example_Slab_Having_LShape_Rebars_Reinforcement_Mesh/fr.md)
 
 <img alt="" src=images/L-Shape_Rebars_isometric_view.png  style="width:800px;">
 

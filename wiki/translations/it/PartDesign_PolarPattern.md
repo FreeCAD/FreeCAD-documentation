@@ -48,7 +48,8 @@ Lo strumento **Serie polare** prende una funzione selezionata e ne crea una seri
 
 #### Ordering features 
 
-![](images/PartDesign_feature-order.gif ) *Effect of the feature order*
+![](images/PartDesign_feature-order.gif ) 
+*Effect of the feature order*
 
 
 <small>(v0.19)</small> 

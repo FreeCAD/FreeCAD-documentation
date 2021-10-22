@@ -177,7 +177,13 @@ PartDesign Workbench неразрывно связан с [верстаком Sk
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Установить цвета](Part_FaceColors/ru.md): позволяет назначить цвета для граней детали.
 
+
+<div class="mw-translate-fuzzy">
+
 ### Настройки
+
+
+</div>
 
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [Настройки](PartDesign_Preferences/ru.md): настройки, доступные для инструментов проектирования деталей.
 -   [Точная настройка](Fine-tuning/ru.md): некоторые дополнительные параметры для точной настройки при проектировании деталей.

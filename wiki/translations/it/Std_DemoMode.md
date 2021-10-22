@@ -16,7 +16,8 @@
 
 Il comando **Visualizza rotazione oggetti** ruota continuamente la telecamera in una [vista 3D](3D_view/it.md).
 
-![](images/Std_DemoMode_dialog.png ) *La finestra di dialogo Visualizza rotazione oggetti*
+![](images/Std_DemoMode_dialog.png ) 
+*La finestra di dialogo Visualizza rotazione oggetti*
 
 ## Utilizzo
 

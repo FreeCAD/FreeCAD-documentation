@@ -7,7 +7,8 @@ Auf dieser Seite werden wir zeigen, wie man mit _ Code umgewandelt und dann inne
 
 In diesem Beispiel ist die gesamte Oberfläche in [Python](Python/de.md) definiert. Obwohl dies bei kleinen Schnittstellen möglich ist, empfiehlt es sich bei größeren Schnittstellen, die erstellten {{FileName|.ui}} Dateien direkt in das Programm zu laden. Siehe [Obeflächenerstellung mit UI Dateien](Interface_creation_with_UI_files/de.md) für weitere Informationen.
 
-<img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> *Zwei allgemeine Methoden zur Erstellung von Oberflächen, durch Einfügen der Schnittstelle in die Python Datei oder durch die Verwendung von `.ui* Dateien.`
+<img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> 
+*Zwei allgemeine Methoden zur Erstellung von Oberflächen, durch Einfügen der Schnittstelle in die Python Datei oder durch die Verwendung von `.ui* Dateien.`
 
 ## Gestalten des Dialogs 
 

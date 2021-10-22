@@ -26,6 +26,7 @@ This command essentially runs **<img src=images/Std_LinkImport.svg style="width:
 ![](images/Std_Link_tree_import_all_1_example.png ) ![](images/Std_Link_tree_import_all_2_example.png )
 
 
+
 *Left: various Links that point to objects in the "source" document. Right: the original objects were imported (copied) into the "target" document, and the existing Links were changed to point to these copies, so they no longer point to objects in "source".*
 
 

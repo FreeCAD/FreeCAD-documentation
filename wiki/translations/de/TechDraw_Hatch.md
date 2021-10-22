@@ -16,6 +16,7 @@ Das Schraffur Werkzeug füllt einen geschlossenen Bereich in einer Ansicht mit e
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
 
 
+
 *SVG Schraffurmuster auf einer Fläche*
 
 ## Anwendung

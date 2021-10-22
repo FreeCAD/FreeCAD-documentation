@@ -23,7 +23,8 @@ The Section tool creates a cross section view based on an existing part view.
 4.  A dialog will open which will help calculate the various Section properties. The dialog calculates reasonable starting points for SectionNormal and view Direction, but these may be changed after creation for special needs.
 5.  If you make a mistake, or change your mind while setting up the Section parameters, press the **Reset** button, and you can start over.
 
-![](images/TechDraw_Section_Taskview.png ) *Taskview to define the sectional cut of a view*
+![](images/TechDraw_Section_Taskview.png ) 
+*Taskview to define the sectional cut of a view*
 
 ## Propiedades
 

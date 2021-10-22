@@ -11,9 +11,17 @@
 |Download=[https://www.freecadweb.org/wiki/images/2/2f/Macro_FlattenWire.png ToolBar Icon]
 }}
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Deskriptivní
 
 Toto makro vyrovná nakreslený drát, který není vyrovnán (není v jedné rovině), do roviny, která odpovídá střední výšce nevyrovnaných drátů.
+
+
+</div>
 
 ## Skript
 
@@ -22,8 +30,7 @@ ToolBar Icon ![](images/Macro_FlattenWire.png )
 **Macro\_FlattenWire.FCMacro**
 
 
-{{MacroCode|code=
-
+```python
 import FreeCAD
 obj = FreeCAD.ActiveDocument.ActiveObject
 z = 0
@@ -32,8 +39,7 @@ z = z/len(obj.Points)
 newpoints = []
 for p in obj.Points: newppoints.append(FreeCAD.Vector(p.x,p.y,z))
 obj.Points = newppoints
-
-}}
+```
 
 ---
 [documentation index](../README.md) > Macro FlattenWire/cs

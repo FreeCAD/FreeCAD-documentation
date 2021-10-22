@@ -7,7 +7,8 @@ Oprócz wprowadzania współrzędnych lub używania _ i <img alt="" src=images/W
 
 Wiązania są dostępne z większością poleceń środowisk [Rysunek Roboczy](Draft_Workbench/pl.md) i [Architektura](Arch_Workbench/pl.md).
 
-![](images/Draft_Constrain_taskpanel_example.png ) *Gdy kursor jest związany, panel zadań blokuje wartości, które nie są modyfikowane.*
+![](images/Draft_Constrain_taskpanel_example.png ) 
+*Gdy kursor jest związany, panel zadań blokuje wartości, które nie są modyfikowane.*
 
 ## Używanie wiązań poziomych i pionowych 
 

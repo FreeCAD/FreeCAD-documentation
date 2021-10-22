@@ -3,7 +3,7 @@ This category contains articles and categories about wiki administrative subject
 
 ### Contents:
 
-_ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , [Tracker/pt-br](Tracker/pt-br.md) , [WikiPages/pt-br](WikiPages/pt-br.md)
+_ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , [Tracker/pt-br](Tracker/pt-br.md) , [WikiPages/pt-br](WikiPages/pt-br.md)
 
 _
 

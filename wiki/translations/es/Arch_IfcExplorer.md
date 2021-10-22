@@ -21,7 +21,8 @@ El propósito de este explorador es simplemente permitirte comprobar lo que real
 <img alt="" src=images/Arch_IfcExplorer_example.jpg  style="width:800px;">
 
 :   
-    *Ifc Explorador con varias propiedades*
+    
+*Ifc Explorador con varias propiedades*
     
 
 ## Utilización

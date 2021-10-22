@@ -20,7 +20,8 @@ A worm can only be used with a worm wheel. This is called a worm drive. Like oth
 
 :   ![](images/Worm-Gear_example.png )
 :   
-    *Worm gear (No. of teeth 3)*
+    
+*Worm gear (No. of teeth 3)*
     
 
 ## Usage
@@ -102,7 +103,8 @@ The worm wheel must be designed manually. For this purpose **FCGear InvoluteGear
 
 :   ![](images/Worm-Gear_example3.png )
 :   
-    *Worm with worm wheel*
+    
+*Worm with worm wheel*
     
 
 

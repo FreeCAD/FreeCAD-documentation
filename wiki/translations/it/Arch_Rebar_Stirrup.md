@@ -50,6 +50,7 @@ Questo comando fa parte dell\'ambiente _, tramite il menu **Strumenti → Addon 
 :   <img alt="" src=images/StirrupDialog.png  style="width:250px;">
 
 
+
 *Pannello Azioni per lo strumento Staffe armatura di Arch*
 
 ## Proprietà

@@ -20,6 +20,7 @@ Lo strumento [Taglia con una linea](Arch_CutLine/it.md) consente di tagliare un 
 <img alt="" src=images/Arch_CutLine_example_1.png  style="width:" height="300px;"> <img alt="" src=images/Arch_CutLine_example_2.png  style="width:" height="300px;">
 
 
+
 *Muro tagliato da una linea. A sinistra: parallelepipedo sottrattivo che appare quando si utilizza lo strumento. A destra: parete risultante dopo il taglio.*
 
 ## Utilizzo
@@ -50,4 +51,4 @@ Lo strumento [Taglia con una linea](Arch_CutLine/it.md) consente di tagliare un 
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch CutLine/it
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/it

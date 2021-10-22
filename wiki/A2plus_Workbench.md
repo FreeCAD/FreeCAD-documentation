@@ -52,7 +52,8 @@ The more parts you add, the more important it is to keep track. A2plus therefore
 
 When creating a constraint such a dialog will be displayed after you pressed a constraint toolbar button:
 
- ![](images/A2p_ConstraintPropertiesDialog.png )  *Above: The A2plus Constraint Properties Dialog*
+ ![](images/A2p_ConstraintPropertiesDialog.png )  
+*Above: The A2plus Constraint Properties Dialog*
 
 For certain constraints it allows you to modify the constraint direction. With the button **<img src="images/A2p_solver.svg" width=24px> Solve** you can check beforehand if this new constraint can be solved by A2plus. If not, have a look at section [Troubleshooting](#Troubleshooting.md).
 
@@ -329,6 +330,7 @@ Dragging animations are interactive since you trigger it by dragging a part of t
 Here is an example assembly to try out the dragging animation: [A2p\_example-for-dragging-animation.FCStd](https://forum.freecadweb.org/download/file.php?id=99204)
 
 ![](images/A2p_dragging-animation-result.gif )
+
 
 
 *Above: The dragging animation using the example assembly*

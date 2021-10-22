@@ -16,6 +16,7 @@ The **Hole** feature creates one or more holes from a selected sketch\'s circles
 <img alt="" src=images/Countersunk_and_counterbored_holes_cross-section1.png  style="width:600px;">
 
 
+
 *Countersunk (to the left) and counterbored (to the right) holes longitudinal section.*
 
 ## Usage

@@ -15,7 +15,8 @@
 
 L\'outil FHPort crée un port FastHenry entre deux objets FHNode.
 
-![](images/EM_FHPort_Example.png ) *FastHenry FHPort*
+![](images/EM_FHPort_Example.png ) 
+*FastHenry FHPort*
 
 ## Utilisation
 

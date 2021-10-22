@@ -23,7 +23,8 @@ Lo strumento Arredo offre un modo semplice e comodo per inserire nei progetti de
 
 </div>
 
-![](images/Arch_equipment_example.jpg ) *Oggetti di arredamento racchiusi in un oggetto [Arredo](Arch_Equipment/it.md). Le proiezioni piatte possono essere ottenute dallo strumento [Vista 2D di Draft](Draft_Shape2DView/it.md)*
+![](images/Arch_equipment_example.jpg ) 
+*Oggetti di arredamento racchiusi in un oggetto [Arredo](Arch_Equipment/it.md). Le proiezioni piatte possono essere ottenute dallo strumento [Vista 2D di Draft](Draft_Shape2DView/it.md)*
 
 
 <div class="mw-translate-fuzzy">
@@ -33,7 +34,8 @@ A partire dalla versione 0.17, gli oggetti arredo hanno anche una proprietà **H
 
 </div>
 
-![](images/Arch_equipment_mesh.jpg ) *Oggetti di arredamento racchiusi in un oggetto [Arredo](Arch_Equipment/it.md), con allegata una mesh ad alta risoluzione*
+![](images/Arch_equipment_mesh.jpg ) 
+*Oggetti di arredamento racchiusi in un oggetto [Arredo](Arch_Equipment/it.md), con allegata una mesh ad alta risoluzione*
 
 Quando si utilizza l\'esportatore OBJ di Arch, tutti gli oggetti arredo che si trovano in modalità di visualizzazione Mesh vengono esportati come loro mesh, invece della loro forma.
 
@@ -93,4 +95,4 @@ FreeCAD.ActiveDocument.recompute()
 </div>
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Equipment/it
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Equipment/it

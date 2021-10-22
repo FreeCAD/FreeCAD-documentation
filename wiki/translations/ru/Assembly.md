@@ -11,6 +11,7 @@
 <img alt="" src=images/PartDesign_Body_contiguous_separate.png  style="width:" height="200px;"> <img alt="" src=images/PartDesign_Body_contiguous_assembly.png  style="width:" height="200px;">
 
 
+
 *Слева: три отдельных смежных тела, каждое из которых моделируется как _ для создания сборки.*
 
 ## Применение

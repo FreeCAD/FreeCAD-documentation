@@ -30,12 +30,14 @@ Diese Methode rastet am Mittelpunkt von Kreisen und Kreisbögen ein.
 <div class="mw-translate-fuzzy">
 
 
+
 *Einrasten des zweiten Punkts einer Linie am Mittelpunkt eines Kreises*
 
 
 </div>
 
-![](images/Draft_Snap_Center_example_buildingpart.png ) *Snapping the second point of a line to the Placement point of an Arch BuildingPart*
+![](images/Draft_Snap_Center_example_buildingpart.png ) 
+*Snapping the second point of a line to the Placement point of an Arch BuildingPart*
 
 ## Usage
 

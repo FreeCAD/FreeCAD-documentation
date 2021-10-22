@@ -60,14 +60,42 @@ Die Aufpolsterung wird zu einer Fläche im Ausgangskörper extrudiert, welche du
 
 Definiert die Länge der Extrusion(m, cm, mm, nm, ft oder \', in oder \"). Einheiten können unabhängig von der gewählten Standardeinheit angegeben werden.
 
+### Direction
+
+#### Direction/edge
+
+You can select the direction of the padding:
+
+-   **Sketch normal** The sketch is extruded along its normal
+-   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model. This becomes then the direction vector for the padding. <small>(v0.20)</small> 
+-   **Custom direction** The sketch is extruded along a direction that can be specified via vector values. <small>(v0.19)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Verwende benutzerdefinierte Richtung 
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 
 <small>(v0.19)</small> 
 
 Wenn angehakt, ist die Polster Richtung nicht der Normalenvektor der Skizze, sondern der vorgegebene Vektor. Die Polster Länge wird jedoch entsprechend der Richtung des Normalenvektors festgelegt.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ### Länge entlang der Skizzennormalen 
+
+
+</div>
 
 Wenn angehakt, wird die Polsterlänge entlang der Skizzen Normalen gemessen, sonst entlang der benutzerdefinierten Richtung. {{Version/de|0.20}}
 

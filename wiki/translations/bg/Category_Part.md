@@ -5,7 +5,5 @@ This category lists pages related to the [Part\_Workbench/bg](Part_Workbench/bg.
 
 _
 
-_
-
 ---
 [documentation index](../README.md) > Category:Part/bg

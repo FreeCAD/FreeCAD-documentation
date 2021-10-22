@@ -10,6 +10,7 @@ Ces objets ne doivent pas nécessairement être des formes géométriques visibl
 ![](images/FreeCAD_Tree_view.png )
 
 
+
 *L'arborescence montrant divers éléments du document.*
 
 ## Travailler avec la vue en arborescence 
@@ -21,6 +22,7 @@ De nombreuses opérations créent des objets qui dépendent d\'un objet déjà e
 <img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width:" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width:" height="304px;">
 
 <img alt="" src=images/FreeCAD_Tree_view_parametric_history_3.png  style="width:" height="304px;">
+
 
 
 *L'objet au sommet est créé en effectuant des opérations paramétriques sur des objets qui ont eux-mêmes été créés par des opérations précédentes. L'élargissement de l'arbre à plusieurs niveaux révèle les éléments originaux qui ont été utilisés pour créer les solides partiels.*

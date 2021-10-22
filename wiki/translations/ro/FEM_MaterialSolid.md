@@ -9,7 +9,8 @@
 
 Adaugă proprietăți materiale la o piesă.
 
-![](images/FEMMaterialSolidProperties.png ) *The FEM material task panel*
+![](images/FEMMaterialSolidProperties.png ) 
+*The FEM material task panel*
 
 
 <div class="mw-translate-fuzzy">

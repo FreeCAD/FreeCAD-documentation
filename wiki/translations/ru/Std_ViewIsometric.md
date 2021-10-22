@@ -14,7 +14,8 @@
 
 Команда **Std ViewIsometric** перестраивает камеру в активном _, но команда также работает, если вид находится в [режиме перспективы](Std_PerspectiveCamera/ru.md).
 
-![](images/Std_ViewIsometric_example.svg ) *The [axis cross](Std_AxisCross.md) and a cube in isometric view*
+![](images/Std_ViewIsometric_example.svg ) 
+*The [axis cross](Std_AxisCross.md) and a cube in isometric view*
 
 ## Применение
 

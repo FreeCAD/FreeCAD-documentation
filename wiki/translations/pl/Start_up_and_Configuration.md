@@ -1,26 +1,26 @@
 # Start up and Configuration/pl
 {{TOCright}}
 
-## Overview
+## Przegląd
 
-This page shows the different ways to start FreeCAD and the most important configuration features.
+Ta strona pokazuje różne sposoby uruchamiania programu FreeCAD i najważniejsze funkcje konfiguracyjne.
 
-## Starting FreeCAD from the Command line 
+## Uruchamianie FreeCAD z wiersza poleceń 
 
-FreeCAD can be started normally by double-clicking on its desktop icon or selecting it from the start menu, but it can also be started directly from the command line. This allows you to change some of the default startup options.
+FreeCAD może być uruchomiony normalnie poprzez dwukrotne kliknięcie na ikonie na pulpicie lub wybranie go z menu startowego, ale może być również uruchomiony bezpośrednio z wiersza poleceń. Pozwala to zmienić niektóre z domyślnych opcji uruchamiania.
 
-### Using command line options without a command line shell 
+### Używanie opcji wiersza poleceń bez powłoki wiersza poleceń 
 
--   On Ubuntu you can create a desktop icon and edit its properties. Add the command line options separated by spaces behind the program name in the \"Command\" field.
--   On Windows create a shortcut and edit the properties. Add the command line options separated by spaces to \"Target\" field.
+-   W Ubuntu możesz utworzyć ikonę na pulpicie i edytować jej właściwości. Dodaj opcje wiersza poleceń oddzielone spacjami za nazwą programu w polu \"Polecenie\".
+-   W systemie Windows utwórz skrót i edytuj jego właściwości. Dodaj opcje wiersza poleceń oddzielone spacjami do pola \"Cel\".
 
-### Command line options 
+### Argumenty dla wiersza poleceń 
 
-The command line options are subject to frequent changes.Therefore, it is a good idea to check the current options by typing:
+Opcje wiersza poleceń podlegają częstym zmianom, dlatego dobrze jest sprawdzić aktualne opcje wpisując:
 
 FreeCAD --help
 
-From the response you can read the possible parameters:
+Z odpowiedzi można odczytać możliwe parametry:
 
  Usage: FreeCAD [options] File1 File2 ...
  
@@ -46,65 +46,65 @@ From the response you can read the possible parameters:
    -P [ --python-path ] arg  Additional python paths
    --single-instance         Allow to run a single instance of the application
 
-In the following table, selected options are described in more detail:
+W poniższej tabeli wybrane opcje zostały opisane bardziej szczegółowo:
 
-+-------------------------------------------+----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| Long option                               | Corresponding [config var name](#Configuration_set.md) | Synopsis                                                                                                                                                                                                                                                         |
-+===========================================+================================================================+==================================================================================================================================================================================================================================================================+
-|                            | UserParameter                                                  | Filename or relative path that ends with a filename. Defaults to `user.cfg`.                                                                                                                                                              |
-| `--user-cfg <filename>`          |                                                                |                                                                                                                                                                                                                                                                  |
-|                                        |                                                                |                                                                                                                                                                                                                                                                  |
-+-------------------------------------------+----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                            | Prepends to AdditionalModulePaths                              | Directory that contains modules. This option can be given repeatedly to specify multiple directories.                                                                                                                                                            |
-| `--module-path <dir>`            |                                                                |                                                                                                                                                                                                                                                                  |
-|                                        |                                                                |                                                                                                                                                                                                                                                                  |
-+-------------------------------------------+----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                            | most                                                           | Outputs the requested value in a popup dialog. Exits upon confirmation with **OK**. Cannot be used repeatedly. If an unknown/illegal variable name is used, the response is empty. The `--console` flag is not honored. |
-| `--get-config <config-var-name>` |                                                                |                                                                                                                                                                                                                                                                  |
-|                                        |                                                                |                                                                                                                                                                                                                                                                  |
-+-------------------------------------------+----------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-------------------------------------------+----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Długa opcja                               | Odpowiednio [nazwa zmiennej konfiguracji](#Zestaw_konfiguracji.md) | Opis                                                                                                                                                                                                                                                                                                   |
++===========================================+============================================================================+========================================================================================================================================================================================================================================================================================================+
+|                            | UserParameter                                                              | Nazwa pliku lub ścieżka względna, która kończy się nazwą pliku. Domyślnie `user.cfg`.                                                                                                                                                                                           |
+| `--user-cfg <filename>`          |                                                                            |                                                                                                                                                                                                                                                                                                        |
+|                                        |                                                                            |                                                                                                                                                                                                                                                                                                        |
++-------------------------------------------+----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                            | Poprzedza AdditionalModulePaths                                            | Katalog zawierający moduły. Opcja ta może być podana wielokrotnie, aby określić wiele katalogów.                                                                                                                                                                                                       |
+| `--module-path <dir>`            |                                                                            |                                                                                                                                                                                                                                                                                                        |
+|                                        |                                                                            |                                                                                                                                                                                                                                                                                                        |
++-------------------------------------------+----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                            | most                                                                       | Wyprowadza żądaną wartość w oknie kontekstowym. Kończy pracę po potwierdzeniu przyciskiem **OK**. Nie może być używane wielokrotnie. Jeśli użyto nieznanej / nieprawidłowej nazwy zmiennej, odpowiedź jest pusta. Flaga `--console` nie jest respektowana. |
+| `--get-config <config-var-name>` |                                                                            |                                                                                                                                                                                                                                                                                                        |
+|                                        |                                                                            |                                                                                                                                                                                                                                                                                                        |
++-------------------------------------------+----------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-Options can written in two forms: `--long-option arg` and `--long-option<nowiki>=</nowiki>arg`.
+Opcje mogą być zapisane w dwóch formach: `--long-option arg` oraz `--long-option<nowiki>=</nowiki>arg`.
 
-### Response and config files 
+### Pliki odpowiedzi i konfiguracji 
 
-FreeCAD can read some of these options from a config file. This file must be in the bin path and must be named {{FileName|FreeCAD.cfg}}. Be aware that options specified in the command line override the config file!
+FreeCAD może odczytać niektóre z tych opcji z pliku konfiguracyjnego. Plik ten musi znajdować się w ścieżce bin i musi mieć nazwę {{FileName|FreeCAD.cfg}}. Pamiętaj, że opcje podane w linii poleceń nadpisują plik konfiguracyjny!
 
-Some operating systems have a very low limit of characters on the command line. The common way to work around those limitations is using response files. A response file is just a configuration file which uses the same syntax as the command line. If the command line specifies a response file, it\'s loaded and parsed in addition to the command line:
+Niektóre systemy operacyjne mają bardzo niski limit znaków w wierszu poleceń. Powszechnym sposobem na obejście tych ograniczeń jest użycie plików odpowiedzi. Plik odpowiedzi jest po prostu plikiem konfiguracyjnym, który używa tej samej składni co wiersz poleceń. Jeśli linia poleceń określa plik odpowiedzi, jest on ładowany i przetwarzany dodatkowo do linii poleceń:
 
     FreeCAD @ResponseFile.txt 
 
-or:
+lub:
 
     FreeCAD --response-file=ResponseFile.txt
 
-or:
+lub:
 
     FreeCAD --response-file ResponseFile.txt
 
-### Hidden options 
+### Opcje ukryte 
 
-There are a couple of options not visible to the user. These options are e.g. the X-Window parameters parsed by the Windows system:
+Istnieje kilka opcji niewidocznych dla użytkownika. Opcje te są np. parametrami X-Window parsowanymi przez system Windows:
 
--   *-display* - Sets the X display (default is \$DISPLAY).
--   *-geometry* - Sets the client geometry of the first window that is shown.
--   *-fn* or *-font* - Defines the application font. The font should be specified using an X logical font description.
--   *-bg* or *-background* - Sets the default background color and an application palette (light and dark shades are calculated).
--   *-fg* or *-foreground* - Sets the default foreground color.
--   *-btn* or *-button* - Sets the default button color.
--   *-name* - Sets the application name.
--   *-title* - Sets the application title.
--   *-visual* - Forces the application to use a TrueColor visual on an 8-bit display.
--   *-ncols* - Limits the number of colors allocated in the color cube on an 8-bit display, if the application is using the QApplication::ManyColor color specification. If count is 216 then a 6x6x6 color cube is used (i.e. 6 levels of red, 6 of green, and 6 of blue); for other values, a cube approximately proportional to a 2x3x1 cube is used.
--   *-cmap* - Causes the application to install a private color map on an 8-bit display.
+-   *-display* - Ustawia wyświetlanie X-ów (domyślnie \$DISPLAY).
+-   *-geometry* - ustawia geometrię klienta pierwszego wyświetlanego okna.
+-   *-fn* lub *-font* - definiuje czcionkę aplikacji. Czcionka powinna być określona przy użyciu logicznego opisu czcionki X.
+-   *-bg* lub *-background* - Ustawia domyślny kolor tła i paletę aplikacji (obliczane są jasne i ciemne odcienie).
+-   *-fg* lub *-foreground* - Ustawia domyślny kolor pierwszego planu.
+-   *-btn* lub *-button* - Ustawia domyślny kolor przycisku.
+-   *-name* - Ustawia nazwę aplikacji.
+-   *-title* - Ustawia tytuł aplikacji.
+-   *-visual* - Zmusza aplikację do używania obrazu TrueColor na 8-bitowym wyświetlaczu.
+-   *-ncols* - Ogranicza liczbę kolorów alokowanych w kostce kolorów na wyświetlaczu 8-bitowym, jeżeli aplikacja używa specyfikacji kolorów QApplication::ManyColor. Jeśli licznik wynosi 216, to używana jest kostka koloru 6x6x6 (tj. 6 poziomów czerwonego, 6 zielonego i 6 niebieskiego); dla innych wartości używana jest kostka w przybliżeniu proporcjonalna do kostki 2x3x1.
+-   *-cmap* - Powoduje, że aplikacja instaluje prywatną mapę kolorów na 8-bitowym wyświetlaczu.
 
-### Running FreeCAD without GUI (headless) 
+### Uruchamianie FreeCAD bez GUI 
 
-FreeCAD is usually built with two executables: a GUI-capable one called {{FileName|FreeCAD}} or {{FileName|freecad}}, and a headless one, called {{FileName|FreeCADCmd}} or {{FileName|freecadcmd}}. FreeCAD can be used in console mode using the `--console` switch (which is the default behavior of {{FileName|FreeCADCmd}}):
+FreeCAD jest zazwyczaj zbudowany z dwóch plików wykonywalnych: obsługującego GUI, zwanego {{FileName|FreeCAD}} lub {{FileName|freecad}}, oraz bez interfejsu graficznego, zwanego {{FileName|FreeCADCmd}} lub {{FileName|freecadcmd}}. FreeCAD może być używany w trybie konsoli przy użyciu przełącznika `--console` *(co jest domyślnym zachowaniem {{FileName|FreeCADCmd}})*:
 
 FreeCAD --console
 
-In console mode, no graphical user interface will be displayed, and you will be presented with a Python interpreter prompt: `>>>`. From that prompt, you have the same functionality as the Python interpreter that runs inside the FreeCAD GUI, and access to all modules and plugins of FreeCAD, except the FreeCADGui module. Be aware that modules that depend on FreeCADGui might also be unavailable.
+W trybie konsoli nie będzie wyświetlany żaden graficzny interfejs użytkownika, a pojawi się znak zachęty interpretera Python: `>>>`. Z poziomu tego monitu masz taką samą funkcjonalność jak z interpreterem Python, który działa wewnątrz GUI FreeCAD, oraz dostęp do wszystkich modułów i wtyczek programu, z wyjątkiem modułu FreeCADGui. Należy pamiętać, że moduły zależne od FreeCADGui mogą być również niedostępne.
 
 To read more about console or headless mode, checkout [Headless FreeCAD](Headless_FreeCAD.md).
 
@@ -202,7 +202,7 @@ Some libraries need to call system environment variables. Sometimes when there i
 -   CSF\_IGESDefaults
 -   CSF\_STEPDefaults
 
-## Configuration set 
+## Zestaw konfiguracji 
 
 On every startup FreeCAD examines its surrounding and the command line parameters. It builds up a **configuration set** which holds the essence of the runtime information. This information is later used to determine the place where to save user data or log files. It is also very important for post postmortem analyzes. Therefore it is saved in the log file.
 
@@ -246,7 +246,7 @@ On every startup FreeCAD examines its surrounding and the command line parameter
 
 Note: For Linux distributions, an additional configuration file that relates to [Qt](Third_Party_Tools#Qt-Toolkit.md) may exist at path {{FileName|/home/username/.config/FreeCAD/FreeCAD.conf}}.
 
-### Command line arguments 
+### Argumenty dla wiersza poleceń 
 
 +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------+
 | Config var name       | Synopsis                                                                                                                                                                                                                                                                                    | Example                                                                     |
@@ -349,34 +349,36 @@ Use the `--get-config <config-var-name>` option to query a single name. Not all 
 
 Use the `--dump-config` option to get a list of names and their values. Not all names are supported.
 
-**From FreeCAD console**
+**Z konsoli FreeCAD**
 
-Start FreeCAD in console mode with `--console` and query with Python code. For example:
+Uruchom FreeCAD w trybie konsoli za pomocą `--console` i zadawaj pytania za pomocą kodu Python. Na przykład: 
+```python
+  $ FreeCAD_0.19 --console
+  [FreeCAD Console mode <Use Ctrl-D (i.e. EOF) to exit.>]
+  >>> FreeCAD.ConfigGet("ExeVersion")
+  '0.19'
+  >>> exit()
+```
 
- $ FreeCAD_0.19 --console
- [FreeCAD Console mode <Use Ctrl-D (i.e. EOF) to exit.>]
- >>> FreeCAD.ConfigGet("ExeVersion")
- '0.19'
- >>> exit()
-
-For Linux (bash shell) you can modify the following command line to suit your needs:
-
- $ FreeCAD_0.19 --console <<EOF
- print( "FREECAD_USER_HOME: " + ( "not set" if ( os.environ.get('FREECAD_USER_HOME') is None ) else os.environ.get('FREECAD_USER_HOME') ) )
- print( "UserHomePath: " + FreeCAD.ConfigGet("UserHomePath") )
- exit()
- EOF
+Dla Linuksa *(powłoka bash)* możesz zmodyfikować następującą linię poleceń, aby dostosować ją do swoich potrzeb: 
+```python
+  $ FreeCAD_0.19 --console <<EOF
+  print( "FREECAD_USER_HOME: " + ( "not set" if ( os.environ.get('FREECAD_USER_HOME') is None ) else os.environ.get('FREECAD_USER_HOME') ) )
+  print( "UserHomePath: " + FreeCAD.ConfigGet("UserHomePath") )
+  exit()
+  EOF
+```
 
 ## Uruchamianie programu FreeCAD z pulpitu 
 
-### Linux: Creating an additional start option 
+### Linux: Tworzenie dodatkowej opcji startowej 
 
-The following assumes that your desktop is configured such that you can launch FreeCAD from it. Depending on your Linux distribution and desktop environment, you may have to adapt the following steps:
+Poniżej zakładamy, że Twój pulpit jest tak skonfigurowany, że możesz z niego uruchomić FreeCAD. W zależności od dystrybucji Linuksa i środowiska graficznego, być może będziesz musiał dostosować następujące kroki:
 
-1.  Copy the freedesktop entry file for FreeCAD from {{FileName|/usr/share/applications/freecad.desktop}} to {{FileName|~/.local/share/applications}}.
-2.  Change the name from {{FileName|freecad.desktop}} to something else (e.g. {{FileName|MyFreeCADConfig.desktop}}).
-3.  Open the file with a text editor and change how FreeCAD is invoked by modifying the line starting with `Exec`.
-4.  As a result, an additional entry in your start menu/application launcher is available. This way, you can have multiple FreeCAD entries with various launch options.
+1.  Skopiuj plik wpisu freedesktop dla FreeCAD z lokalizacji {{FileName|/usr/share/applications/freecad.desktop}} do {{FileName|~/.local/share/applications}}.
+2.  Zmień nazwę pliku z {{FileName|freecad.desktop}} na coś innego *(np. {{FileName|MyFreeCADConfig.desktop}})*.
+3.  Otwórz plik w edytorze tekstu i zmień sposób wywoływania aplikacji FreeCAD, modyfikując linię zaczynającą się od `Exec`.
+4.  W wyniku tego pojawi się dodatkowa pozycja w Twoim menu startowym/uruchomieniu aplikacji. W ten sposób możesz mieć wiele wpisów dla FreeCAD z różnymi opcjami uruchamiania.
 
 ## Uruchamianie programu FreeCAD z nośnika USB 
 
@@ -385,7 +387,7 @@ The following assumes that your desktop is configured such that you can launch F
 
 **Windows**
 
-Put the FreeCAD executable, {{FileName|FreeCAD.exe}}, on the USB medium. Create a batch file, {{FileName|FreeCAD.bat}}, and put it into the same directory as {{FileName|FreeCAD.exe}}. Inside the batch file write:
+Umieść plik wykonywalny FreeCAD, {{FileName|FreeCAD.exe}}, na nośniku USB. Utwórz plik wsadowy {{FileName|FreeCAD.bat}} i umieść go w tym samym katalogu co {{FileName|FreeCAD.exe}}. Wewnątrz pliku wsadowego napisz:
 
 
 ```python
@@ -402,7 +404,16 @@ set CURRENTDIR="%cd%"
 set FREECAD_USER_DATA=%CURRENTDIR%/..
 start FreeCAD.exe -u %FREECAD_USER_DATA%/user.cfg -s %FREECAD_USER_DATA%/system.cfg```
 
-Now double-click the batch file to start FreeCAD. ([see](https://forum.freecadweb.org/viewtopic.php?f=4&t=49028))
+za pomocą skryptu umieszczonego w katalogu głównym nośnika USB
+
+
+```python
+set CURRENTDIR=%cd%
+set FREECAD_USER_DATA=%CURRENTDIR%FreeCAD\
+start %cd%FreeCAD\bin\FreeCAD.exe -u %FREECAD_USER_DATA%user.cfg -s %FREECAD_USER_DATA%system.cfg
+```
+
+Teraz kliknij dwukrotnie plik wsadowy, aby uruchomić program FreeCAD. *([zobacz](https://forum.freecadweb.org/viewtopic.php?f=4&t=49028))*
 
 
 

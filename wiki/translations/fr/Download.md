@@ -19,8 +19,7 @@ Les versions précédentes peuvent être téléchargées à partir de la page [r
 
 ### Notes aux utilisateurs de Windows 
 
--   L\'installateur 32 bits (x86) est compatible avec les versions de Windows suivantes : 7/8/10.
--   L\'installateur 64 bits (x64) est compatible avec les versions de Windows suivantes : 7/8/10.
+-   Les versions suivantes de Windows sont prises en charge : 7/8/10.
 -   Une version portable ([64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD-0.19.2.7b5e18a-WIN-x64-portable1.7z)), qui n\'a pas besoin d\'installation, est à la page des publications.
 -   Le paquet peut également être installé à partir du gestionnaire [Chocolatey](https://chocolatey.org/packages/freecad).
 

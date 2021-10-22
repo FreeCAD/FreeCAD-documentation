@@ -11,7 +11,8 @@
 
 The <img alt="" src=images/Draft_Snap_Grid.svg  style="width:24px;"> **Draft Snap Grid** option snaps to the intersections of grid lines. The grid can only be used if the **Use grid** preference is selected. See [Preferences](#Preferences.md).
 
-![](images/Draft_Snap_Grid_example.png ) *Snapping the second point of a line to the grid*
+![](images/Draft_Snap_Grid_example.png ) 
+*Snapping the second point of a line to the grid*
 
 ## Usage
 

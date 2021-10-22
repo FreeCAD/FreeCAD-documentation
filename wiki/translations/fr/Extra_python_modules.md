@@ -683,14 +683,6 @@ Pour créer le **IfcPython wrapper**, **SWIG** doit être installé. Télécharg
 
 Tutoriel [Import/Export IFC - compiling IfcOpenShell](Import/Export_IFC_-_compiling_IfcOpenShell.md)
 
-## ODA Converter (précédemment Teigha Converter) 
-
--   page d\'accueil: <https://www.opendesign.com/guestfiles/oda_file_converter>
--   licence: freeware
--   optionnel, utilisé pour permettre l\'importation et l\'exportation de fichiers DWG
-
-Le convertisseur ODA Converter est un petit utilitaire disponible gratuitement qui permet de convertir plusieurs versions de fichiers DWG et DXF. FreeCAD peut l\'utiliser pour permettre l\'importation et l\'exportation de fichiers DWG, en convertissant les fichiers DWG au format DXF de manière transparente, puis utiliser son importateur DXF standard pour importer le contenu du fichier. Les restrictions de l\'[importateur DXF](Draft_DXF/fr.md) s\'appliquent.
-
 ### Installation 
 
 S\'installe sur toutes les plateformes, par l\'installation du paquet approprié disponible à <https://www.opendesign.com/guestfiles/oda_file_converter>. Après l\'installation, si l\'utilitaire n\'est pas trouvé automatiquement par FreeCAD, vous devrez configurer manuellement le chemin de l\'exécutable du convertisseur via le menu Édition → Préférences → Importer-Exporter → DWG et renseignez le champs \"Chemin d'accès du convertisseur de fichier Teiga\".

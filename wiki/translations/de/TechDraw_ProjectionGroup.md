@@ -24,7 +24,8 @@ Wenn du nur eine einzige Ansicht erzeugen möchtest, ist es nicht von Vorteil, P
 2.  Drücke die **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Projektionsgruppe einfügen](TechDraw_ProjectionGroup/de.md)** Schaltfläche
 3.  Ein Dialogfeld wird geöffnet, in dem du auswählen kannst, welche Ansichten in der Gruppe erscheinen sollen, den Maßstab der Gruppe und andere Parameter:
 
-![](images/TaskProjGroup.png ) *Projektionsgruppe [Aufgabenkonsole](Task_panel/de.md). Das zentrale Feld zeigt die aktuelle Blickrichtung mit Prozentsätzen der x, y und z-Achse an.*
+![](images/TaskProjGroup.png ) 
+*Projektionsgruppe [Aufgabenkonsole](Task_panel/de.md). Das zentrale Feld zeigt die aktuelle Blickrichtung mit Prozentsätzen der x, y und z-Achse an.*
 
 Nachdem du die Projektionsgruppe erstellt hast, kannst du die Gruppe als Ganzes durch Ziehen der zentralen Ansicht verschieben. Du kannst die Projektionsansichten auch durch Ziehen verschieben.
 

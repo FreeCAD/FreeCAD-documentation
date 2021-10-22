@@ -61,6 +61,20 @@ Questi sono strumenti per creare e gestire gli oggetti Clip (ritagli di viste).
 
 -   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Rimuovi la vista dal gruppo clip](TechDraw_ClipGroupRemove/it.md): rimuove una vista da un gruppo di clip.
 
+## Aspetto
+
+Si tratta di strumenti per modificare l\'aspetto delle pagine e della vista.
+
+-   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Tratteggio da modello](TechDraw_Hatch/it.md): applica a una faccia un modello di tratteggio preso da un file.
+
+-   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md): tratteggia una faccia usando uno specifico Autodesk PAT.
+
+-   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ in una pagina.
+
+-   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ PNG o JPG in una pagina.
+
+-   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Attiva o disattiva la cornice](TechDraw_ToggleFrame/it.md): mostra o nasconde le cornici e le etichette che circondano una vista.
+
 ## Dimensioni
 
 Questi sono strumenti per creare e lavorare con gli oggetti Dimension.
@@ -163,52 +177,13 @@ Le dimensioni lineari possono essere basate su due punti, su una linea o su due 
 
 </div>
 
-## Extensions
-
-These are tools to improve your TechDraw drawings.
-
-
-**Some of these tools have yet to be released.**
-
--   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Draw circle centerlines](TechDraw_ExtensionCircleCenterLines.md): adds centerlines to circles and arcs. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Cosmetic thread hole side view](TechDraw_ExtensionThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Cosmetic thread bolt side view](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Cosmetic thread hole bottom view](TechDraw_ExtensionThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
-
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Cosmetic thread bolt bottom view](TechDraw_ExtensionThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
-
 
 <div class="mw-translate-fuzzy">
 
-## Importazione e Esportazione 
+## Annotazioni
 
 
 </div>
-
-Questi sono gli strumenti per esportare le pagine in altre applicazioni.
-
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _.
-
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _.
-
-## Aspetto
-
-Si tratta di strumenti per modificare l\'aspetto delle pagine e della vista.
-
--   <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [Tratteggio da modello](TechDraw_Hatch/it.md): applica a una faccia un modello di tratteggio preso da un file.
-
--   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md): tratteggia una faccia usando uno specifico Autodesk PAT.
-
--   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ in una pagina.
-
--   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ PNG o JPG in una pagina.
-
--   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Attiva o disattiva la cornice](TechDraw_ToggleFrame/it.md): mostra o nasconde le cornici e le etichette che circondano una vista.
-
-## Annotazioni
 
 Gli strumenti di annotazione servono per \"commentare\" un disegno con informazioni aggiuntive.
 
@@ -245,6 +220,37 @@ Gli strumenti di annotazione servono per \"commentare\" un disegno con informazi
 -   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:24px;"> [Mostra/nascondi i bordi invisibili](TechDraw_ShowAll/it.md): Lo strumento mostra o nasconde i bordi impostati invisibili in una vista. {{Version/it|0.19}}
 
 -   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:24px;"> [Informazioni di saldatura](TechDraw_WeldSymbol/it.md): Lo strumento Informazioni di saldatura aggiunge le specifiche di saldatura a una linea guida esistente. {{Version/it|0.19}}
+
+## Extensions
+
+These are tools to improve your TechDraw drawings.
+
+
+**Some of these tools have yet to be released.**
+
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Draw circle centerlines](TechDraw_ExtensionCircleCenterLines.md): adds centerlines to circles and arcs. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Cosmetic thread hole side view](TechDraw_ExtensionThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Cosmetic thread bolt side view](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Cosmetic thread hole bottom view](TechDraw_ExtensionThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Cosmetic thread bolt bottom view](TechDraw_ExtensionThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
+
+
+<div class="mw-translate-fuzzy">
+
+## Importazione e Esportazione 
+
+
+</div>
+
+Questi sono gli strumenti per esportare le pagine in altre applicazioni.
+
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _.
+
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _.
 
 ## Ulteriori funzioni 
 

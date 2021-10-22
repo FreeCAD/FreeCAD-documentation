@@ -24,6 +24,7 @@ Le menu standard donne accès à des outils utilisables dans tous les ateliers. 
 }}
 
 
+
 *Le menu standard*
 
 ## Sous-menus 

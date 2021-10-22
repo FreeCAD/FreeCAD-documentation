@@ -21,9 +21,11 @@ Macro spéciale pour le Wiki passionné. Cette macro permet d\'enregistrer la [v
 ![](images/Macro_Screen_Wiki_00.png )
 
 
+
 *Macro Screen Wiki Image et configuration de la fenêtre*
 
 ![](images/Macro_Screen_Wiki_01.png )
+
 
 
 *Macro Screen Wiki Rotation window*
@@ -231,14 +233,17 @@ Macro spéciale pour le Wiki passionné. Cette macro permet d\'enregistrer la [v
 ![](images/Macro_Screen_Wiki_03_Set_Screen.png )
 
 
+
 *Mode Set Ecran 640 px x 400 px*
 
 ![](images/Macro_Screen_Wiki_04_Tile_Screen.png )
 
 
+
 *Mode Tile Screen 640 px x 400 px par ex: déplacez la fenêtre. L'image est enregistrée dans le même mode Définir l'écran ci-dessus*
 
 ![](images/Macro_Screen_Wiki_Object_Direction_Object.gif )
+
 
 
 *Mode d'animation Objet sélectionné et direction BoundBox center Objet. <br/> Les images doivent être assemblées avec un autre programme pour créer un Gif animé <br/> Exemple [https://daviesmediadesign.com/project/make-animated-gif-gimp/ GIMP] ou [https://www.screentogif.com ScreenToGif]*
@@ -249,6 +254,7 @@ Macro spéciale pour le Wiki passionné. Cette macro permet d\'enregistrer la [v
 **Sous-objet Direction de l’objet d’animation sélectionné. <br/> Les images doivent être assemblées avec un autre programme pour créer un Gif animated<br/>Example [https://daviesmediadesign.com/project/make-animated-gif-gimp/ GIMP] ou [https://www.screentogif.com ScreenToGif]**
 
 ![](images/Macro_Screen_Wiki_07.png )
+
 
 
 *La fenêtre FreeCAD a été redimensionnée. La dimension peut être différente de la définition (dépend du Widget, la barre de titre ... utilisés)*

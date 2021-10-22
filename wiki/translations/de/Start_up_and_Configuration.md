@@ -404,6 +404,15 @@ set CURRENTDIR="%cd%"
 set FREECAD_USER_DATA=%CURRENTDIR%/..
 start FreeCAD.exe -u %FREECAD_USER_DATA%/user.cfg -s %FREECAD_USER_DATA%/system.cfg```
 
+with the batch on the root of the key USB
+
+
+```python
+set CURRENTDIR=%cd%
+set FREECAD_USER_DATA=%CURRENTDIR%FreeCAD\
+start %cd%FreeCAD\bin\FreeCAD.exe -u %FREECAD_USER_DATA%user.cfg -s %FREECAD_USER_DATA%system.cfg
+```
+
 Doppelklicke nun auf die Stapelverarbeitungsdatei, um FreeCAD zu starten. ([siehe](https://forum.freecadweb.org/viewtopic.php?f=4&t=49028))
 
 

@@ -31,7 +31,8 @@ Plot Saveツールはアクテイブなプロットを希望した位置に保�
 
 </div>
 
-![Path selection button](images/Plot_Save_Path.png‎ ) *Path selection button*
+![Path selection button](images/Plot_Save_Path.png‎ ) 
+*Path selection button*
 
 ## Options
 

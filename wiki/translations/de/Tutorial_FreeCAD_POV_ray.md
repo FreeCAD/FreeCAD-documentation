@@ -20,6 +20,7 @@ Dieses Tutorial basiert auf dem Forumsbeitrag von schupin [FreeCAD / pov ray tut
 <img alt="" src=images/Povray_before_after.png  style="width:600px;">
 
 
+
 *align=center|Beispiel von schupin eines mit FreeCAD und POV-Ray erstellten 3D Modells und eines qualitativ hochwertigen Renderings.*
 
 Die in diesem Tutorial verwendeten Dateien befinden sich im Beitrag Nr. 8 [im selben Diskussionsbeitrag](https://forum.freecadweb.org/viewtopic.php?f=36&t=32745#p305169).
@@ -37,11 +38,13 @@ Damit das direkte Rendern funktioniert, muss die ausführbare Datei `povray` in 
 <img alt="" src=images/01_T04_FreeCAD_POVray_model.png  style="width:600px;">
 
 
+
 *align=center|Zusammenbau von drei Körpern, die in FreeCAD erstellt und mit Farben oder Materialien versehen wurden.*
 
 2\. Wenn dein Modell sehr detailliert ist, stelle sicher, dass die {{PropertyView/de|Ablenkung}} des Körpers auf einen niedrigen Wert zwischen `0.1` und `0.01` oder sogar kleiner eingestellt ist. Je niedriger dieser Wert ist, desto detaillierter wird das exportierte Mesh sein und desto besser wird die Qualität des Renderings sein.
 
 ![](images/02_T04_FreeCAD_POVray_deviation.png )
+
 
 
 *align=center|Abweichungseigenschaft der in FreeCAD erstellten Körper; die Abweichung muss gering sein, um die Teile mit guter Auflösung exportieren zu können.*
@@ -69,6 +72,7 @@ Alle Objekte im POV-Ray Projekt werden einen Namen haben, der auf ihrem internen
 <img alt="" src=images/03_T04_FreeCAD_POVray_first_render.png  style="width:600px;">
 
 
+
 *align=center|Erstes Rendern der mit POV-Ray erstellten Baugruppe mit der von der Raytracing Workbench geschriebenen Standardvorlage.*
 
 7.1. Wenn die `.pov` Datei bereits erstellt wurde, ist es auch möglich, `povray` von der Befehlszeile aus zu starten. 
@@ -87,9 +91,11 @@ Um das Aussehen des Bildes zu verbessern, verwende eine bessere Vorlage. Doppelk
 <img alt="" src=images/04_T04_FreeCAD_POVray_first_render_radiosity.png  style="width:600px;">
 
 
+
 *align=center|Rendern der mit POV-Ray erzeugten Baugruppe mit der von der Raytracing Workbench geschriebenen RadiosityNormal-Vorlage.*
 
 Doppelklicke noch einmal auf das Objekt `PovProject` und wähle nun die Vorlage `RadiosityOutdoorHQ.pov`. Exportiere dann eine neue `.pov` Datei und führe den Renderer erneut aus. Die Erzeugung des Bildes sollte länger dauern, aber das Ergebnis sollte eine bessere Qualität haben. <img alt="" src=images/05_T04_FreeCAD_POVray_first_render_radiosity_outdoor.png  style="width:600px;">
+
 
 
 *align=center|Rendern der mit POV-Ray erzeugten Baugruppe, mit der von der Raytracing Workbench geschriebenen RadiosityOutdoorHQ Vorlage.*
@@ -294,6 +300,7 @@ sky_sphere {
 <img alt="" src=images/06_T04_FreeCAD_POVray_render_lights.png  style="width:600px;">
 
 
+
 *align=center|Ausgehend von der Standardvorlage, Rendern der Szene mit POV-Ray, wobei die Lichtquelle und die Himmelskugel eingerichtet werden.*
 
 ### Bereite die Körpertexturen vor 
@@ -414,6 +421,7 @@ object {Pov_Body001
 <img alt="" src=images/07_T04_FreeCAD_POVray_render_materials.png  style="width:600px;">
 
 
+
 *align=center|Ausgehend von der Standardvorlage, Rendern der Szene mit POV-Ray, mit der Lichtquelle und der Himmelskugel eingerichtet und den Materialien zugeordnet.*
 
 ### Ebenen vorbereiten 
@@ -439,6 +447,7 @@ plane {
 ```
 
 <img alt="" src=images/08_T04_FreeCAD_POVray_render_floor_gray.png  style="width:600px;">
+
 
 
 *align=center|Ausgehend von der Standardvorlage wird die Szene mit POV-Ray gerendert, wobei die Lichtquelle und die Himmelskugel eingerichtet, die Materialien zugeordnet und eine Bodenebene mit einer grauen Grundtextur erstellt werden.*
@@ -480,6 +489,7 @@ plane {
 <img alt="" src=images/09_T04_FreeCAD_POVray_render_floor_wood.png  style="width:600px;">
 
 
+
 *align=center|Ausgehend von der Standardvorlage, Rendern der Szene mit POV-Ray, mit der Lichtquelle und der Himmelskugel eingerichtet, Materialien zugeordnet und einer Bodenebene mit einer Parketttextur.*
 
 18\. Füge eine zweite Ebene hinzu, diesmal senkrecht zur Z Richtung, um als Rückwand zu dienen. Verschiebe sie ein wenig hinter das Modell, um den Spiegel nicht zu verdecken. Füge die `stones.inc` Bibliothek ein, füge eine generische Granittextur hinzu und skaliere sie ein wenig. Dadurch wird das Aussehen einer einfachen Trockenbauwand erreicht.
@@ -511,6 +521,7 @@ plane {
 ```
 
 <img alt="" src=images/10_T04_FreeCAD_POVray_render_floor_wood_walls.png  style="width:600px;">
+
 
 
 *align=center|Ausgehend von der Standardvorlage, Rendern der Szene mit POV-Ray, wobei die Lichtquelle und die Himmelskugel eingerichtet, die Materialien zugeordnet, eine Bodenebene mit einer Parketttextur und Rückwände mit Trockenbautexturen.*
@@ -574,6 +585,7 @@ global_settings {
 ```
 
 <img alt="" src=images/11_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_1.png  style="width:600px;">
+
 
 
 *align=center|Ausgehend von der Standardvorlage wird die Szene mit POV-Ray gerendert, wobei die Lichtquelle und die Himmelskugel eingerichtet, die Materialien zugeordnet, eine Bodenebene mit einer Parketttextur und die Rückwände mit Trockenbautexturen versehen werden. Radiosity Einstellungen für schnelles Rendern.*
@@ -678,6 +690,7 @@ povray assembly.pov +W800 +H600 +AM2 +A
 ```
 
 <img alt="" src=images/12_T04_FreeCAD_POVray_render_floor_wood_walls_radiosity_final.png  style="width:600px;">
+
 
 
 *align=center|Ausgehend von der Standardvorlage wird die Szene mit POV-Ray gerendert, wobei die Lichtquelle und die Himmelskugel eingerichtet, die Materialien zugeordnet, eine Bodenebene mit einer Parketttextur und die Rückwände mit Trockenbautexturen versehen werden. Radiosity Einstellungen für ein qualitativ hochwertiges Ergebnis: `Radiosity_Final* und {{incode|recursion_limit 2`.}}

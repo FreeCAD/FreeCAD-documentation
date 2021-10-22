@@ -14,7 +14,8 @@
 
 **표준 직교투영 카메라(Std OrthographicCamera)** 명령은 활성 [3D 보기의](3D_view/ko.md) 카메라를 직교투영 보기 모드로 전환합니다. 이 모드에서는 카메라에서 먼 개체가 가까운 개체보다 작게 보이지 않습니다.
 
-![](images/Std_OrthographicCamera_example.svg ) *직교 투영 보기에서 크기가 같은 두 육면체*
+![](images/Std_OrthographicCamera_example.svg ) 
+*직교 투영 보기에서 크기가 같은 두 육면체*
 
 ## 용법
 

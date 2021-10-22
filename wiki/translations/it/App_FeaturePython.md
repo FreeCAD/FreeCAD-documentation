@@ -8,6 +8,7 @@ Questo è un oggetto semplice che per impostazione predefinita non ha molte prop
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Diagramma semplificato delle relazioni tra gli oggetti principali del programma. La classe `App::FeaturePython* è una semplice implementazione di {{incode|App::DocumentObject` che può essere utilizzata per qualsiasi scopo, poiché di default non ha una [forma topologica](Part_TopoShape/it.md).}}
 
 ## Utilizzo

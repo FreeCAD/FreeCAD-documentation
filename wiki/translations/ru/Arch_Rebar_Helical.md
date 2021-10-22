@@ -63,6 +63,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 :   <img alt="" src=images/HelicalRebarDialog.png  style="width:250px;">
 
 
+
 *Taskview panel for the Arch Rebar Helical tool*
 
 ## Свойства

@@ -8,6 +8,7 @@ Un objet _ car il inclut la propriété {{PropertyData/fr|Placement}}.
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Diagramme simplifié des relations entre les objets centraux du programme. La classe `App::GeoFeature* est la classe de base de pratiquement tous les objets du logiciel qui affichera la géométrie dans le [Vue 3D](3D_view/fr.md).`
 
 ## Utilisation

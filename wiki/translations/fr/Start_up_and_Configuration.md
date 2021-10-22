@@ -406,6 +406,15 @@ set CURRENTDIR="%cd%"
 set FREECAD_USER_DATA=%CURRENTDIR%/..
 start FreeCAD.exe -u %FREECAD_USER_DATA%/user.cfg -s %FREECAD_USER_DATA%/system.cfg```
 
+avec le fichier batch sur la racine de la clef USB
+
+
+```python
+set CURRENTDIR=%cd%
+set FREECAD_USER_DATA=%CURRENTDIR%FreeCAD\
+start %cd%FreeCAD\bin\FreeCAD.exe -u %FREECAD_USER_DATA%user.cfg -s %FREECAD_USER_DATA%system.cfg
+```
+
 Maintenant, double-cliquez sur le fichier de commandes pour démarrer FreeCAD. ([voir ce fil](https://forum.freecadweb.org/viewtopic.php?f=4&t=49028))
 
 

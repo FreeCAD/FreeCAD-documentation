@@ -34,6 +34,7 @@ El encaje está disponible con la mayoría de las herramientas <img src=images/D
 <div class="mw-translate-fuzzy">
 
 
+
 *La línea atrapar perpendicularmente a otra línea*
 
 
@@ -84,9 +85,11 @@ Note that circular edges do not have to be full circles.
 -   Press **Q** to insert a \"hold point\" at the current location of the cursor. You can snap to the orthogonal axes of hold points, and to the intersections of these axes. If the [Draft Snap Midpoint](Draft_Snap_Midpoint.md) option is active, you can also snap to the midpoint between two hold points.
 -   Press **** one or more times to snap to an object that is obscured by other geometry. This is called \"snap cycling\". Note that you must move the cursor by a small amount in the [3D view](3D_view.md) after pressing the key.
 
-![](images/Draft_Snap_example_cycling_1.png ) *Snap cycling 1: The red rectangle was created first therefore it has snap priority. Without snap cycling you cannot snap to the green rectangle where it is overlapped by the red rectangle.*
+![](images/Draft_Snap_example_cycling_1.png ) 
+*Snap cycling 1: The red rectangle was created first therefore it has snap priority. Without snap cycling you cannot snap to the green rectangle where it is overlapped by the red rectangle.*
 
-![](images/Draft_Snap_example_cycling_2.png ) *Snap cycling 2: After using the snap cycle key once the green rectangle receives snap priority. Snapping to the midpoint of the overlapped green edge is now possible.*
+![](images/Draft_Snap_example_cycling_2.png ) 
+*Snap cycling 2: After using the snap cycle key once the green rectangle receives snap priority. Snapping to the midpoint of the overlapped green edge is now possible.*
 
 ## Notas
 

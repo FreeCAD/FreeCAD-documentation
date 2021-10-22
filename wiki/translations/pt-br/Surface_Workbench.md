@@ -33,6 +33,7 @@ A bancada de trabalho Superfície tem por objetivo criar faces com formas, o que
 <img alt="" src=images/Toy_Duck.png  style="width:350px;">
 
 
+
 *Superfície criada com esboços colocados em um plano de referência com as ferramentas de [PartDesign Workbench](PartDesign_Workbench/pt-br.md).*
 
 A bancada Superfície se integra com outras bancadas do FreeCAD. O exemplo acima foi criado a partir de [esboços](Sketcher_Workbench/pt-br.md) colocado sobre [planos de referência](PartDesign_Plane/pt-br.md) na [Bancada PartDesign](PartDesign_Workbench/pt-br.md). O projeto pode ser totalmente paramétrico, quando todos os planos de referência e esboços são definidos de acordo. Na maioria dos casos é suficiente desejar um esboço fechado para definir a borda para uma face; então, opções estão disponíveis para modificar ainda mais sua forma.

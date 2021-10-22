@@ -232,4 +232,4 @@ Door = Arch.makeWindowPreset("Simple door",
 {{docnav/it|[Riferimento esterno](Arch_Reference/it.md)|[Piano di sezione](Arch_SectionPlane/it.md)|[Arch](Arch_Workbench/it.md)|IconL=Arch_Reference.svg |IconC=Workbench_Arch.svg |IconR=Arch_SectionPlane.svg}}
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Window/it
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Window/it

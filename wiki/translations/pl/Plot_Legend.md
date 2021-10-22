@@ -3,7 +3,7 @@
    Name:Plot Legend
    Name/pl:Wykres: Pokaz / ukryj legendę
    MenuLocation:Wykres → Pokaz / ukryj legendę
-   Workbenches:[Wykres](Plot_Module/pl.md)
+   Workbenches:[Wykres](Plot_Workbench/pl.md)
 ---
 
 # Plot Legend/pl

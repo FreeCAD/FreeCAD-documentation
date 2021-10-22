@@ -10,6 +10,7 @@ The `Part::Part2DObject` is derived from a [Part Feature](Part_Feature.md), but 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
 
+
 *Simplified diagram of the relationships between the core objects in the program. The `Part::Part2DObject* class is specialized for 2D shapes, so it is the base class for planar objects created with the Draft and Sketcher workbenches. It includes an extension that allows it to be attached to faces and planes.`
 
 ## Usage

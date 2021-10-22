@@ -1,17 +1,18 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std ArrangeIcons
+   Name/pl:Std: Rozmieszczanie ikon
    Empty:1
-   MenuLocation:Windows → Arrange Icons
-   Workbenches:All
-   SeeAlso:[Std TileWindows](Std_TileWindows.md)
+   MenuLocation:Okna → Rozmieszczanie ikon
+   Workbenches:wszystkie
+   SeeAlso:[Sąsiadująco](Std_TileWindows/pl.md)
 ---
 
 # Std ArrangeIcons/pl
 
-## Description
+## Opis
 
-The **Std ArrangeIcons** command does not work properly. It has the same effect as the [Std TileWindows](Std_TileWindows.md) command. See there.
+Polecenie **Std: Rozmieszczenie ikon** nie działa poprawnie. Ma ono taki sam efekt jak polecenie [Okna sąsiadująco](Std_TileWindows/pl.md).
 
 
 

@@ -18,6 +18,7 @@
 Tool to split shapes by intersection with other shapes. For example, for a box and a plane, two solids are created. ![600px](images/Part_Slice_Demo.png)
 
 
+
 * Above: the pieces were moved apart manually afterwards, to reveal the slicing.*
 
 _ followed by <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Part Explode Compound](Part_ExplodeCompound.md). While \"Slice to compound\" is fully-parametric, and causes no trouble as the number of pieces changes, \"Slice apart\" will not update the number of objects as the number of pieces changes. They both create Slice parametric feature, that puts the sliced pieces into a compound, but \"Slice apart\" explodes the resulting compound into separate objects.

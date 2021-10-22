@@ -12,7 +12,8 @@
 
 This tool removes a View from an existing Clip and returns it to the Page area.
 
-![](images/TechDraw_Clipview.png ) *Viewport window clipping different existing views*
+![](images/TechDraw_Clipview.png ) 
+*Viewport window clipping different existing views*
 
 ## Usage
 

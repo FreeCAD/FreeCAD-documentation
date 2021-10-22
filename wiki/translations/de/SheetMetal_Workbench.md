@@ -88,6 +88,9 @@ Nun sollte geprüft werden, ob das resultierende Blechobjekt abgewickelt werden 
 
 #### Weitere Elemente hinzufügen 
 
+
+<div class="mw-translate-fuzzy">
+
 Die abwickelbaren Blech-Basisobjekte können erweitert werden:
 
 1.  Den Befehl <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> [Fläche erweitern](SheetMetal_Extrude/de.md) verwenden, um Flächen zu vergrößern.
@@ -97,11 +100,20 @@ Die abwickelbaren Blech-Basisobjekte können erweitert werden:
 5.  Der Befehl <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Skizze auf Blech](SheetMetal_SketchOnSheet/de.md) schneidet Löcher in das Objekt, beginnend an der ausgewählten Fläche und dann den angrenzenden Flächen und Verbindungen folgend.
 6.  Der Befehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Prägen](SheetMetal_Forming/de.md) Prägt (oder Stanzt) ein Formobjekt in eine Fläche.
 
+
+</div>
+
 Einige Werkzeuge aus anderen Arbeitsbereichen können verwendet werden, um Löcher hinzuzufügen oder Kanten umzuformen.
 
 ### Abwickeln eines Blechobjekts 
 
+
+<div class="mw-translate-fuzzy">
+
 Um ein Blechobjekt abzuwickeln, verwendet man das Werkzeug <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> _.
+
+
+</div>
 
 Das Ergebnis ist ein 3D-Objekt, wahlweise mit Kontur inklusive Biegelinien.
 

@@ -39,9 +39,11 @@ patience.show()                    #show the image
 
 ```
 
-![](images/Qlabel_Image00.png ) *Exemple QLabel avec image et texte.*
+![](images/Qlabel_Image00.png ) 
+*Exemple QLabel avec image et texte.*
 
-![](images/Qlabel_Image_Animee00.gif ) *Exemple QLabel avec GIF animé.*
+![](images/Qlabel_Image_Animee00.gif ) 
+*Exemple QLabel avec GIF animé.*
 
 
 {{Powerdocnavi

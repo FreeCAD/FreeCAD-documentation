@@ -6,7 +6,8 @@
 
 Il comando **Crea una nuova vista** crea una nuova [vista 3D](3D_view/it.md) per il documento attivo. Le viste aggiuntive 3D possono essere utili se si desidera ispezionare il modello da più direzioni o con diversi livelli di zoom.
 
-![](images/ViewCreate1.png ) *L'interfaccia di FreeCAD con più viste 3D*
+![](images/ViewCreate1.png ) 
+*L'interfaccia di FreeCAD con più viste 3D*
 
 ## Utilizzo
 

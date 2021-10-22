@@ -58,6 +58,7 @@ It also allows to perform some actions like [Std ViewFitSelection](Std_ViewFitSe
 ![](images/ObjectSelection.png )
 
 
+
 *Диалог выбора объекта, запускаемый из [панель выделения](Selection_view/ru.md).*
 
 ## Древо проекта 

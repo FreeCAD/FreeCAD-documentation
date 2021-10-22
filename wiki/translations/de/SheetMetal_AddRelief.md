@@ -9,48 +9,69 @@
 
 # SheetMetal AddRelief/de
 
+
+</div>
+
 ## Beschreibung
+
+
+<div class="mw-translate-fuzzy">
 
 Der Befehl <img alt="" src=images/SheetMetal_Relief.svg  style="width:24px;"> **Entlastungsausschnitt hinzufügen**\...
 
-<img alt="" src=images/PostRelief.png  style="width:320px;"> 
+
+</div>
+
+This command is the first of three steps to convert a shell object made with the [Part Workbench](Part_Workbench.md) or [PartDesign Workbench](PartDesign_Workbench.md) into an unfoldable sheet metal object:
+
+1.  [SheetMetal AddRelief](SheetMetal_AddRelief.md)
+2.  [SheetMetal AddJunction](SheetMetal_AddJunction.md)
+3.  [SheetMetal AddBend](SheetMetal_AddBend.md)
+
+<img alt="" src=images/SheetMetal_ConvertShellObject-01.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-02.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-03.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-04.png  style="width:100px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Entlastungsausschnitt für eine Blechabkantung erzeugen*
+
+
+</div>
 
 ## Anwendung
 
-To add relief to corner of bend:
+1.  Select one or more corner vertex(es).
+2.  Activate the <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **SheetMetal AddRelief** command using one of the following:
+    -   The **<img src="images/SheetMetal_AddRelief.svg" width=16px> [SheetMetal AddRelief](SheetMetal_AddRelief.md)** button.
+    -   The **SheetMetal → <img src="images/SheetMetal_AddRelief.svg" width=16px> Make Relief** menu option.
+    -   The keyboard shortcut: **S** then **R**
 
-1.  Start with a base plate or sheet, select a corner vertex to apply relief
-2.  Click on the <img alt="" src=images/SheetMetal_Relief.svg  style="width:24px;"> **Relief** tool to add relief cut to corner.
+<img alt="" src=images/SheetMetal_ConvertShellObject-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-06.png  style="width:200px;">
 
+## Notes
 
-**Note**
+The commands <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **_**, and <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[SheetMetal AddBend](SheetMetal_AddBend.md)** work best with hollow cuboids i.e. shell objects with a constant thickness and only 90° angles between faces.
 
-: The workbench does not have a tool to create a base plate, so you need to start your model with one of the following methods:
+Shell objects can be created with commands from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _.
 
-:\* Method 1: <img alt="" src=images/Part_Box.svg  style="width:24px;"> [Part Cube](Part_Box.md)
+To create a hollow cuboid with the [Part Workbench](Part_Workbench.md):
 
-:\* Method 2: An extruded solid made with <img alt="" src=images/Part_Extrude.svg  style="width:24px;"> [Part Extrude](Part_Extrude.md) from either a:
+1.  Create a solid using either:
+    -   <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Part Box](Part_Box.md).
+    -   <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> [Part Extrude](Part_Extrude.md) from:
+        -   A <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [Draft Rectangle](Draft_Rectangle.md).
+        -   A <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Draft Wire](Draft_Wire.md).
+        -   A <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Sketch](Sketcher_NewSketch.md).
+2.  Use <img alt="" src=images/Part_Thickness.svg  style="width:16px;"> [Part Thickness](Part_Thickness.md) to create a shell object from the solid (Typically with the thickness value of the sheet metal).
 
-::\* <img alt="" src=images/Draft_Rectangle.svg  style="width:24px;"> [Draft Rectangle](Draft_Rectangle.md) or a
+To create a hollow cuboid with the [PartDesign Workbench](PartDesign_Workbench.md):
 
-::\* <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Draft Wire](Draft_Wire.md) or a
-
-::\* <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketch](Sketcher_NewSketch.md)
-
-::\* Use <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Part Thickness](Part_Thickness.md) to create shell (**Typically with the thickness value of the sheet metal.**)
-
-:\* Method 3: <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Body](PartDesign_Body.md) containing either an
-
-::\* <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:24px;"> [additive box](PartDesign_AdditiveBox.md) or a
-
-::\* <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> _.
-
-::\* Use <img alt="" src=images/PartDesign_Thickness.svg  style="width:24px;"> [PartDesign Thickness](PartDesign_Thickness.md) to create shell (**Typically with the thickness value of the sheet metal.**)
-
-:   
-
-    :   If you start with a <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> PartDesign Body, you can mix Sheet Metal features with PartDesign features such as <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> _.
+1.  Create a solid using either:
+    -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> [Additive Box](PartDesign_AdditiveBox.md).
+    -   <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> _.
+2.  Use <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> [PartDesign Thickness](PartDesign_Thickness.md) to create a shell object from the solid (Typically with the thickness value of the sheet metal).
 
 ## Eigenschaften
 

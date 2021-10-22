@@ -5,8 +5,8 @@
 |Translate=Evidenzia parti comuni
 |Description=Evidenzia le parti comuni
 |Author=JMG
-|Version=1.0
-|Date=2015-09-24
+|Version=2.3.2
+|Date=2021-07-01
 |FCVersion=0.17 e sopra
 |Download=[https://www.freecadweb.org/wiki/images/8/85/Macro_HighlightCommon.png ToolBar Icon]
 }}
@@ -18,7 +18,8 @@ Evidenzia e visualizza le parti comuni in rosso e imposta la semi-trasparenza de
 
 {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Utility/HighlightCommon.FCMacro}}
 
-![](images/Captura_de_pantalla_de_2015-09-10_11-17-30.png ) *Volume common of objects selected*
+![](images/Captura_de_pantalla_de_2015-09-10_11-17-30.png ) 
+*Volume common of objects selected*
 
 ## Script
 

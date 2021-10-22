@@ -1,5 +1,5 @@
 # Mesh API/pl
-{{VeryImportantMessage/pl
+{{VeryImportantMessage
 |''(listopad 2018 r.)'' Informacje te mogą być niekompletne i nieaktualne. Najnowsze API - patrz [https://www.freecadweb.org/api dokumentacja API generowana automatycznie].}}
 
 Obiektami Siatek można manipulować poprzez dodawanie nowych elementów, usuwanie elementów, importowanie z pliku STL, przekształcanie siatki i wiele więcej. Dla pełnego przeglądu tego, co można zrobić zobacz także dokumentację środowiska pracy [Siatka](Mesh_Workbench/pl.md). Obiekt siatki nie może być dodany bezpośrednio do istniejącego dokumentu. Dlatego dokument musi tworzyć obiekt z klasą właściwości, która obsługuje siatki. Przykład:

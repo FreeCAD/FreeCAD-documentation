@@ -19,6 +19,7 @@ Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kre
 ![](images/Ellipse_3Point.png‎ )
 
 
+
 *Die Reihenfolge der Klicks wird durch gelbe Pfeile mit Zahlen angezeigt. 1 ist die Periapsis, 2 ist die Apoapsis, 3 ist der Definitionspunkt für kleinere Durchmesser, grüne Linien sind größere und kleinere Durchmesser. Blaue Linien sind zufällige Konstruktionslinien nur zur Veranschaulichung.*
 
 ## Anwendung

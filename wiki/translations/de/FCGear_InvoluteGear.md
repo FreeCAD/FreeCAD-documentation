@@ -17,7 +17,8 @@ Due to the favourable meshing ratio and the relatively simple production, involu
 
 :   ![](images/Involute-Gear_example.png )
 :   
-    *Von links nach rechts: Stirnradverzahnung, Schrägverzahnung, Doppelschrägverzahnung
+    
+*Von links nach rechts: Stirnradverzahnung, Schrägverzahnung, Doppelschrägverzahnung
     *
     
 

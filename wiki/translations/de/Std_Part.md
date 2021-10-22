@@ -28,6 +28,7 @@ Das Werkzeug **<img src=images/Std_Part.svg style="width:16px"> <img src=images/
 ![](images/Std_Part-tree.png )![](images/Std_Part_example.png )
 
 
+
 *Links: Elemente innerhalt eines 'Std Part's in der [Baumansicht](tree_view/de.md). Rechts: Objekte im Raum, positioniert bezogen auf den Ursprung von 'Std Part'.*
 
 ## Anwendung
@@ -162,6 +163,7 @@ Eine Zusammenstellung aktivieren oder deaktivieren:
 ![](images/Std_Part_active.png )
 
 
+
 *Dokument mit zwei Std Teilen, in der das zweite aktiv ist.*
 
 ### Ursprung
@@ -169,6 +171,7 @@ Eine Zusammenstellung aktivieren oder deaktivieren:
 Der Ursprung besteht aus den drei Standardachsen (X, Y, Z) und drei Standardebenen (XY, XZ und YZ). An diese können [Skizzen](Sketch/de.md) und andere Ojekte angehängt werden, wenn sie erstellt werden.
 
 ![](images/Part_Origin_tree.png ) ![](images/Part_Origin_view.png )
+
 
 
 *Links: Teil Ursprung in der _.*
@@ -187,13 +190,15 @@ alle Elemente innerhalb einer Zusammenstellung beziehen sich auf den Ursprung de
 
 Die Sichtbarkeit der Zusammenstellung verdrängt die Sichtbarkeit jedes darin enthaltenen Objekts. Wenn die Zusammenstellung ausgeblendet ist, werden auch die darin enthaltenen Objekte ausgeblendet, auch wenn ihre jeweilige Eigenschaft **Sichtbarkeit** auf `True` (wahr) gesetzt ist. Ist die Zusammenstellung sichtbar, entscheidet die Eigenschaft **Sichtbarkeit** jedes Objektes, ob das Objekt angezeigt wird oder nicht.
 
-!_ angezeigt. Rechts: die Zusammenstellung ist sichtbar und jedes Objekt kontrolliert seine Sichtbarkeit selbst.*
+![](images/Part_Visibility_off.png ) ![](images/Part_Visibility_on.png ) 
+*Die Sichtbarkeitseigenschaft von 'Std Part' entscheidet, ob die Objekte, die unter der Zusammenstellung zusammengestellt sind, in der _ angezeigt. Rechts: die Zusammenstellung ist sichtbar und jedes Objekt kontrolliert seine Sichtbarkeit selbst.*
 
 ### Vererbung
 
 _(`App::GeoFeature`) ist und um eine Origin-Erweiterung erweitert wird.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
+
 
 
 *Vereinfachtes Diagramm der Beziehungen zwischen den Kernobjekten im Programm. Die`App::Part* Klasse ist ein einfacher Behälter der im 3D-Raum positioniert ist und der einen Ursprung zur Steuerung der Positionierung der Objekte hat, die in ihm gruppiert sind.`

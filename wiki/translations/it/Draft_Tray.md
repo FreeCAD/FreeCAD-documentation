@@ -13,7 +13,8 @@ La [barra di Draft](Draft_Tray/it.md) consente di modificare rapidamente le prop
 
 </div>
 
-![](images/Draft_tray_default.png ) *The Draft Tray*
+![](images/Draft_tray_default.png ) 
+*The Draft Tray*
 
 ## Available tools 
 

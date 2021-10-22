@@ -76,9 +76,11 @@ w = Draft.makeWire(p, closed=False)
 <img alt="" src=images/01_T02_wire_wall.png  style="width:600px;">
 
 
+
 *align=center|Basis-Linienzug für die Wände*
 
 <img alt="" src=images/02_T02_just_wall.png  style="width:600px;">
+
 
 
 *align=center|Die aus dem Linienzug konstruierten Wände*
@@ -91,6 +93,7 @@ w = Draft.makeWire(p, closed=False)
 :   7.2. Klicke noch einmal auf das Werkzeug [Arch:Fenster](Arch_Window/de.md) und platziere eine weitere Tür, aber diesmal am Mittelpunkt der am weitesten rechts befindlichen Wand; verdrehe dazu die 3D-Ansicht soweit wie nötig.
 
 <img alt="" src=images/03_T02_wall_place_doors.png  style="width:600px;">
+
 
 
 *align=center|Fangen des Mittelpunktes der unteren Wandkante um die Tür zu platzieren*
@@ -113,9 +116,11 @@ w = Draft.makeWire(p, closed=False)
 ![](images/04_T02_window_constraints_outer_frame.png )
 
 
+
 *align=center|Beschränkungen für die äußeren Linienzüge der Skizze, welche das Fenster beschreiben*
 
 ![](images/05_T02_window_constraints_inner_frame.png )
+
 
 
 *align=center|Beschränkungen für die inneren Linienzüge des Skizze, welche das Fenster beschreiben*
@@ -128,9 +133,11 @@ w = Draft.makeWire(p, closed=False)
 <img alt="" src=images/07_T02_window_sketch_in_wall.png  style="width:600px;">
 
 
+
 *align=center|Fenster-Skizze, verschoben zur gewünschten Position auf der Wand*
 
 <img alt="" src=images/06_T02_window_sketch_properties_constraints.png  style="width:600px;">
+
 
 
 *align=center|Benannte Einschränkungen der Skizze, welche verändert werden können, ohne die Skizze zu öffnen*
@@ -138,6 +145,7 @@ w = Draft.makeWire(p, closed=False)
 11\. Wechsele zurück zum _. Es wird ein Fenster erstellt und eine Öffnung in der Wand erzeugt. Da das Fenster aus einer benutzerdefinierten Skizze erstellt wurde und nicht mittels einer Voreinstellung, ist es erforderlich, seine Einzelkomponenten, d.h. fester Rahmen, Fensterflügel und Glasscheibe, für eine korrekte Darstellung zu bearbeiten.
 
 <img alt="" src=images/08_T02_window_basic_in_wall.png  style="width:600px;">
+
 
 
 *align=center|Benutzerdefiniertes Fenster, erzeugt aus einer Skizze; noch hat es weder einen echten Rahmen noch eine Glasscheibe*
@@ -151,6 +159,7 @@ w = Draft.makeWire(p, closed=False)
 :   13.1. Im Dialog `Window elements` befinden sich zwei Felder: `Wires` und `Components`. Es gibt 3 \'Wires\': `Wire0`, `Wire1` und `Wire2` sowie 1 \'Component\': `Default`. Die \'Wires\' entsprechen den in der Skizze gezeichneten Linienzügen; Die \'Components\' definieren die Bereiche in der Skizze, welche extrudiert werden, um Rahmen oder Glasscheibe mit realer Dicke zu erzeugen; diese Bereiche werden durch die Linienzüge begrenzt. Ein mittels Voreinstellung erzeugtes Fenster hat bereits 2 \'Components\': `OuterFrame` und `Glass`. Das benutzerdefinierte Fenster muss bearbeitet werden, um eine ähnliche Struktur zu erhalten.
 
 ![](images/09_T02_window_edit_default.png )
+
 
 
 *align=center|Dialog zum Bearbeiten eines Fensters oder einer Tür*
@@ -179,6 +188,7 @@ w = Draft.makeWire(p, closed=False)
 ![](images/10_T02_window_edit_components.png )
 
 
+
 *align=center|Bearbeitung einer zuvor definierten Komponente eines Fensters oder einer Tür*
 
 
@@ -187,9 +197,11 @@ w = Draft.makeWire(p, closed=False)
 ![](images/11_T02_window_property_view.png )
 
 
+
 *align=center|Eigenschafts-Dialog des Fensters, um  die Default-Rahmenlänge, einen Versatz (Offset) und andere Einstellungen einzutragen*
 
 <img alt="" src=images/12_T02_window_finished.png  style="width:600px;">
+
 
 
 *align=center|fertiges Fenster mit zugehörigen Komponenten, eingefügt in die Wand*
@@ -206,6 +218,7 @@ w = Draft.makeWire(p, closed=False)
 ![](images/13_T02_sketch_attachment_edit.png )
 
 
+
 *align=center|Dialog zum Editieren der Verbindungsebene der Skizze*
 
 16\. Du kannst die Abmessungen des neuen Fensters durch Ändern der benannten Parameter im `Sketch003` unter **Constraints** einstellen. Setze zum Beispiel `Height` auf `2 m` und `Frame Fixed Bottom` auf `0 m`. Drücke dann **Ctrl**+**R**, um das Modell zu [aktualisieren](Std_Refresh/de.md). Falls in der Wand kein vergrößertes Loch für das neue Fenster erscheint, wähle die Wand im Modellbaum mit Rechtsklick aus, klicke auf `Markieren, um neu zu berechnen` und drücke dann **Ctrl**+**R** noch einmal.
@@ -213,6 +226,7 @@ w = Draft.makeWire(p, closed=False)
 17\. Diese Operationen haben die Position des neuen Fensters verändert, aber die Öffnung in der Wand sieht noch nicht korrekt aus. Sie ist schief, was daran liegt, dass das Loch nicht senkrecht zur Wandoberfläche liegt und daher andere Teile der Wand schneidet. Das Problem besteht darin, dass `Window001` die **Normal**-Information des originalen `Window` beibehalten hat.
 
 <img alt="" src=images/14_T02_sketch_2_attached_slanted.png  style="width:600px;">
+
 
 
 *align=center|Falsche Öffnung in der Wand wegen eines falschen Normalenvektors des Fensters*
@@ -239,9 +253,11 @@ Wenn eine Skizze erzeugt wird, hat sie immer 2 Achsen: eine lokale X-Achse (rot)
 <img alt="" src=images/15_T02_sketch_local_coordinates.png  style="width:600px;">
 
 
+
 *align=center|lokale Koordinaten einer "aufrecht stehenden" Skizze, d.h. bezogen auf die globale XZ-Ebene*
 
 <img alt="" src=images/16_T02_sketch_correct_normal_direction.png  style="width:600px;">
+
 
 
 *align=center|verwendete Richtungen der Normalen für jede Tür und jedes Fenster*
@@ -299,6 +315,7 @@ Nach Erledigung dieser Änderungen berechne das Modell mit **Ctrl**+**R** neu. W
 19\. Die Extrusionsrichtung der Fenster ist gelöst, zusammen nut der Öffnung in der Wand.
 
 <img alt="" src=images/17_T02_sketch_2_attached_correctly.png  style="width:600px;">
+
 
 
 *align=center|Korrekte Öffnung in der Wand, genau passend zur Normalen des Fensters*

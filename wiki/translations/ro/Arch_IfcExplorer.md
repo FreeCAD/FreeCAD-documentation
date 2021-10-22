@@ -33,7 +33,8 @@ Scopul acestui explorator este pur și simplu să vă permită să verificați c
 <img alt="" src=images/Arch_IfcExplorer_example.jpg  style="width:800px;">
 
 :   
-    *Ifc Explorer with several properties*
+    
+*Ifc Explorer with several properties*
     
 
 ## Usage

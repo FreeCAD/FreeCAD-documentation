@@ -10,6 +10,7 @@ Estos objetos no tienen que ser necesariamente formas geométricas visibles en l
 ![](images/FreeCAD_Tree_view.png )
 
 
+
 *La vista de árbol que muestra varios elementos del documento.*
 
 ## Trabajando con el vista arbol 
@@ -21,6 +22,7 @@ Many operations create objects that are dependent on a previously existing objec
 <img alt="" src=images/FreeCAD_Tree_view_parametric_history_1.png  style="width:" height="304px;"> <img alt="" src=images/FreeCAD_Tree_view_parametric_history_2.png  style="width:" height="304px;">
 
 <img alt="" src=images/FreeCAD_Tree_view_parametric_history_3.png  style="width:" height="304px;">
+
 
 
 *The topmost object is created by doing parametric operations on objects which themselves were created by previous operations. Expanding the tree many levels reveals the original elements that were used to create the partial solids.*

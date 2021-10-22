@@ -31,31 +31,40 @@ Les types de coiffes pris en charge comprennent:
 
 -   Cône.
 
-![](images/NC_Cone_small.png ) *Conique*
+![](images/NC_Cone_small.png ) 
+*Conique*
 
 -   Ogive.
 
-![](images/NC_Ogive_small.png ) *Ogive*
+![](images/NC_Ogive_small.png ) 
+*Ogive*
 
 -   Elliptique.
 
-![](images/NC_Elliptical_small.png ) *Elliptique*
+![](images/NC_Elliptical_small.png ) 
+*Elliptique*
 
 -   Parabole. La forme généralement considérée comme une parabole n\'est pas générée à l\'aide d\'une série parabolique, mais d\'une série de puissance avec un coefficient de 1/2. Ceci est expliqué dans l\'article de Wikipédia.
 
-![](images/NC_Parabola_small.png ) *Parabole (Série de puissances de coefficient 1/2)*
+![](images/NC_Parabola_small.png ) 
+*Parabole (Série de puissances de coefficient 1/2)*
 
 -   Série parabolique. Cette forme est contrainte à l\'aide d\'un coefficient, comme expliqué dans l\'article de Wikipédia.
 
-![](images/NC_Parabolic_0.5_small.png ) *Série parabolique de coefficient 1/2* ![](images/NC_Parabolic_1_small.png ) *Série parabolique de coefficient 1*
+![](images/NC_Parabolic_0.5_small.png ) 
+*Série parabolique de coefficient 1/2* ![](images/NC_Parabolic_1_small.png ) 
+*Série parabolique de coefficient 1*
 
 -   Von Karman. Une série Haack avec un coefficient de 0
 
-![](images/NC_Karman_small.png ) *Von Karman (Série Haack de coefficient 0)*
+![](images/NC_Karman_small.png ) 
+*Von Karman (Série Haack de coefficient 0)*
 
 -   Série Haack. Cette forme est contrainte à l\'aide d\'un coefficient, comme expliqué dans l\'article de Wikipédia.
 
-![](images/NC_Haack_0.33_small.png ) *Série Haack de coefficient 1/3* ![](images/NC_Haack_2_small.png ) *Série Haack de coefficient 2*
+![](images/NC_Haack_0.33_small.png ) 
+*Série Haack de coefficient 1/3* ![](images/NC_Haack_2_small.png ) 
+*Série Haack de coefficient 2*
 
 ### Types de coiffe 
 
@@ -76,7 +85,9 @@ Les coiffes peuvent être dessinées dans l\'un des 3 styles
 ### Epaulements
 
 Les coiffes peuvent être créés avec ou sans épaulements
-![](images/NC_Ogive_small.png ) *Ogive avec épaulement* ![](images/NC_No_Shoulder_small.png ) *Ogive sans épaulement*
+![](images/NC_Ogive_small.png ) 
+*Ogive avec épaulement* ![](images/NC_No_Shoulder_small.png ) 
+*Ogive sans épaulement*
 
 ## Propriétés
 

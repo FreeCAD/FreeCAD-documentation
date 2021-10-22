@@ -48,4 +48,4 @@ spreadsheet = Arch.makeIfcSpreadsheet(Wall)
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/fr
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch IfcSpreadsheet/fr

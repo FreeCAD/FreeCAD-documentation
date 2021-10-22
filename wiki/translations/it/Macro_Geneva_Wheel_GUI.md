@@ -19,7 +19,8 @@ Una GUI front-end che consente all\'utente di creare un meccanismo Croce di Malt
 
 Per utilizzare questa macro, copiarla nella directory delle Macro di FreeCAD e includere l\'immagine nella stessa directory
 
-![](images/GW_Dim.png ) *Copy and include this graphic with the macro.*
+![](images/GW_Dim.png ) 
+*Copy and include this graphic with the macro.*
 
 ## Schermata
 

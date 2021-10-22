@@ -24,7 +24,8 @@ Le lecteur pratiquera:
 
 Pour une description plus approfondie de l\'esquisse, lisez le [Manuel de référence pour Sketcher](Sketcher_reference/fr.md).
 
-![](images/00_Sk01_Sketcher_fully_constrained_final.png ) *Résultat final de l'esquisse avec toute la géométrie entièrement contrainte y compris la géométrie de construction pour le support.*
+![](images/00_Sk01_Sketcher_fully_constrained_final.png ) 
+*Résultat final de l'esquisse avec toute la géométrie entièrement contrainte y compris la géométrie de construction pour le support.*
 
 ## Installation
 
@@ -54,6 +55,7 @@ Nous sommes maintenant dans le mode d\'édition d\'esquisse. Une fois là, nous 
 la [vue en arborescence](tree_view/fr.md) basculera en [Panneau des tâches](Task_Panel/fr.md). Dans cette interface, développez la section **Edit controls** et assurez-vous que l\'option **Auto constraints** est activée. D\'autres options peuvent être modifiées, notamment la taille de la grille visible et si nous voulons nous y accrocher. Dans ce tutoriel, nous ne nous accrocherons pas à la grille et nous la cacherons également. Dans d\'autres sections du [Panneau des tâches](Task_Panel/fr.md), vous pouvez également voir quels éléments géométriques et contraintes ont été définis.
 
 <img alt="" src=images/01_Sk01_Sketcher_Task_panel.png  style="width:" height="400px;">
+
 
 
 *Partie supérieure du [Panneau des tâches](Task_Panel/fr.md) de l'esquisse.*
@@ -86,6 +88,7 @@ Consultez les sections **Constraints** et **Elements** pour voir les nouvelles c
 <img alt="" src=images/02_Sk01_Sketcher_construction.png  style="width:" height="400px;">
 
 
+
 *Lignes de construction formant une étoile avec son centre à l'origine.*
 
 ## Géométrie réelle 
@@ -113,6 +116,7 @@ Assurez-vous que vous n\'êtes pas en mode construction en cliquant sur **<img s
 <img alt="" src=images/03_Sk01_Sketcher_outer_arcs.png  style="width:" height="400px;">
 
 
+
 *Arcs de cercle ajoutés aux extrémités des lignes de construction. Ainsi qu'un cercle central.*
 
 ### Les arcs intérieurs 
@@ -126,6 +130,7 @@ Assurez-vous que vous n\'êtes pas en mode construction en cliquant sur **<img s
 Pour résumer, les O-arcs devraient avoir leur courbure pointant vers l\'extérieur et leur concavité pointant vers l\'origine de l\'esquisse; les I-arcs devraient avoir leur courbure pointant vers l\'intérieur et leur concavité pointant loin de la même origine.
 
 <img alt="" src=images/04_Sk01_Sketcher_inner_arcs.png  style="width:" height="400px;">
+
 
 
 *Arcs de cercle ajoutés entre le premier ensemble d'arcs placé.*
@@ -185,6 +190,7 @@ si vous souhaitez désactiver temporairement la contrainte, vous pouvez la séle
 <img alt="" src=images/05c_Sk01_Sketcher_equality_constraints_I-arcs.png  style="width:" height="400px;">
 
 
+
 *Esquisse avec des contraintes d'égalité appliquées aux lignes de construction et aux deux ensembles d'arcs.*
 
 ### Tangence
@@ -203,6 +209,7 @@ L\'application de la contrainte tangentielle déplacera très souvent la géomé
 À partir de cette étape, nous avons maintenant créé un profil fermé, car tous les arcs ont été liés ensemble. Nous pouvons maintenant fournir des contraintes de référence pour fixer la forme de l\'esquisse. Alors que les dimensions des lignes et des arcs ne sont pas fixées, nous pouvons faire glisser les points de l\'esquisse et observer les modifications de l\'esquisse entière.
 
 <img alt="" src=images/06_Sk01_Sketcher_tangency_constraints.png  style="width:" height="400px;">
+
 
 
 *Esquisse avec des contraintes tangentielles appliquées aux arcs, ce qui ferme la forme.*
@@ -231,6 +238,7 @@ Ces contraintes spécifient les distances numériques entre deux points et les a
 <img alt="" src=images/07a_Sk01_Sketcher_length_constraint.png  style="width:" height="400px;"> <img alt="" src=images/07b_Sk01_Sketcher_angle_constraint.png  style="width:" height="400px;">
 
 
+
 *Esquisse avec contrainte de longueur appliquée à une ligne de construction verticale (gauche) et contraintes d'angle à trois paires de lignes de construction (droite).*
 
 ### Rayon
@@ -247,6 +255,7 @@ Ces contraintes spécifient les distances numériques entre deux points et les a
 <img alt="" src=images/08a_Sk01_Sketcher_radius_1_constraint.png  style="width:" height="400px;"> <img alt="" src=images/08b_Sk01_Sketcher_radius_2_constraint.png  style="width:" height="400px;">
 
 
+
 *Esquisse avec des contraintes de rayon appliquées aux arcs extérieurs (gauche) et intérieurs (droite).*
 
 
@@ -255,6 +264,7 @@ Ces contraintes spécifient les distances numériques entre deux points et les a
 Nous devrions nous retrouver avec un croquis entièrement contraint. Cela peut être confirmé en remarquant le changement de couleur de la géométrie réelle et par le message affiché dans le [Panneau des tâches](Task_Panel/fr.md).
 
 <img alt="" src=images/09_Sk01_Sketcher_fully_constrained.png  style="width:" height="400px;">
+
 
 
 *Esquisse avec toutes les contraintes géométriques et de référence appliquées.*
@@ -269,6 +279,7 @@ Nous devrions nous retrouver avec un croquis entièrement contraint. Cela peut �
 :   12.4. Sélectionnez l\'esquisse, puis appuyez sur **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Protrusion](PartDesign_Pad/fr.md)**, choisissez les options par défaut et appuyez sur **OK** pour créer un extrusion solide.
 
 <img alt="" src=images/09b_Sk01_Sketcher_fully_constrained_clean.png  style="width:" height="400px;"> <img alt="" src=images/10_Sk01_Sketcher_solid_extrusion.png  style="width:" height="400px;">
+
 
 
 *A gauche: l'esquisse entièrement contrainte avec seulement les contraintes les plus importantes. A droite: l'extrusion solide produite avec [PartDesign Protrusion](PartDesign_Pad/fr.md).*

@@ -18,6 +18,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 <img alt="" src=images/Reinforcement_Bar_Bending_Schedule_example.svg  style="width:1300px;">
 
 
+
 *Bar Bending Schedule of reinforcing bars*
 
 ## Usage
@@ -29,6 +30,7 @@ This command is part of the _ via the **Tools → Addon manager → Reinforcemen
 3\. A dialog box will pop-out on the screen as shown below.
 
 ![](images/Reinforcement_Bar_Bending_Schedule_Dialog.png )
+
 
 
 *Dialog Box for the Reinforcement Bar Bending Schedule tool*

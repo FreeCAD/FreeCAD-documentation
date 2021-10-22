@@ -28,6 +28,7 @@ Diese Methode fängt an einem Punkt auf einer imaginären Linie, die vom vorheri
 <div class="mw-translate-fuzzy">
 
 
+
 *Fangen des zweiten Punktes einer Linie an einem Punkt, der mit der Horizontalen einen Winkel von 135° bildet; kleine Kreise zeigen alle möglichen Fangrichtungen an*
 
 

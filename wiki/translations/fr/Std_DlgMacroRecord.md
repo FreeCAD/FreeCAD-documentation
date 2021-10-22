@@ -13,7 +13,8 @@
 
 La commande **Std Enregistrement de macro** démarre une session d\'enregistrement de [macro](Macros/fr.md) pendant laquelle les actions de l\'utilisateur sont stockées dans une macro FreeCAD, un fichier avec l\'extension {{FileName|.FCMacro}}. Une macro peut ensuite être rejouée, exécutée, pour répéter les actions enregistrées.
 
-![](images/Std_DlgMacroRecord_dialog.png ) *La boîte de dialogue d'enregistrement de macro*
+![](images/Std_DlgMacroRecord_dialog.png ) 
+*La boîte de dialogue d'enregistrement de macro*
 
 ## Utilisation
 

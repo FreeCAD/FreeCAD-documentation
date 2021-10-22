@@ -6,7 +6,8 @@
 
 Il comando **Vista ortografica** commuta la [vista 3D](3D_view/it.md) attiva nella modalità di visualizzazione ortografica. In questa modalità, gli oggetti più lontani dalla fotocamera non appaiono più piccoli di quelli più vicini.
 
-![](images/Std_OrthographicCamera_example.svg ) *Due cubi con le stesse dimensioni in vista ortografica*
+![](images/Std_OrthographicCamera_example.svg ) 
+*Due cubi con le stesse dimensioni in vista ortografica*
 
 ## Utilizzo
 

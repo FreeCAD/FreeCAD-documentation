@@ -36,6 +36,7 @@ Questo strumento può essere utilizzato su forme 2D create con [Draft](Draft_Wor
 <div class="mw-translate-fuzzy">
 
 
+
 *Oggetto speculare creato utilizzando una linea di riflessione*
 
 

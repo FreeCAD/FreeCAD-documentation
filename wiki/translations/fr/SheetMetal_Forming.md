@@ -13,7 +13,7 @@
 
 La commande <img alt="" src=images/SheetMetal_Forming.svg  style="width:24px;"> **SheetMetal Forming** crée une forme emboutie dans une paroi en tôle à l\'aide d\'un objet solide distinct.
 
-Le plan arrière du solide définissant la forme et la face à emboutir sont utilisés pour positionner et orienter la forme emboutie, c\'est-à-dire que leurs systèmes de coordonnées locales auront la même origine et la même orientation par défaut. L\'angle autour de l\'axe z et les décalages dans les directions x, y et z peuvent être modifiés en changeant les valeurs des paramètres dans la fenêtre des propriétés.
+La face arrière du solide définissant la forme, et la face à emboutir sont utilisées pour positionner et orienter le solide, c\'est-à-dire que leurs systèmes de coordonnées locales auront la même origine et la même orientation par défaut. L\'angle autour de l\'axe Z et les décalages dans les directions X, Y et Z peuvent être modifiés en changeant leurs valeurs dans l\'[Éditeur de propriétés](Property_editor/fr.md).
 
 Une esquisse peut être ajoutée pour multiplier et distribuer la forme emboutie selon des motifs réguliers ou irréguliers (en utilisant les points centraux de cercles ou d\'arcs).
 
@@ -24,41 +24,45 @@ Une petite sélection de fonctions qui peuvent être créées :
 
 ## Utilisation
 
+Assurez-vous que le corps contenant l\'objet à emboutir est le corps actif. Si nécessaire, double-cliquez dessus dans la [Vue en arborescence](Tree_view/fr.md).
+
 ### Fossette
 
-1.  Sélectionnez la face de l\'objet SheetMetal à emboutir.
-2.  Sélectionnez la **face inférieure** (face arrière) de la forme définissant le solide.
-    -   **Remarque:** n\'oubliez pas la touche **Control**/**Command**!
-3.  Activez la commande <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md) en utilisant :
-    -   le bouton **<img src="images/SheetMetal_Forming.svg" width=16px> [Make Forming in Wall](SheetMetal_Forming/fr.md)**.
-    -   par le menu déroulant **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=16px> Make Forming in Wall
-**
-    -   par le raccourci clavier : **M** puis **F**
+1.  Maintenez la touche **Ctrl** (ou la touche **Command** sur macOS).
+2.  Ajoutez la **face inférieure** (face arrière) du solide définissant la forme à la sélection.
+3.  Relâchez la touche **Ctrl** (ou la touche **Command**).
+4.  Activez la fonction <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md) en utilisant l\'une des commandes suivantes :
+    -   Le bouton **<img src="images/SheetMetal_Forming.svg" width=16px> [SheetMetal Forming](SheetMetal_Forming/fr.md)**.
+    -   L\'option de menu **SheetMetal → <img src="images/SheetMetal_Forming.svg" width=16px> Make Forming in Wall**.
+    -   Le raccourci clavier : **M** puis **F**.
 
 ### Persienne
 
 1.  Sélectionnez la face de l\'objet SheetMetal à emboutir.
-2.  Sélectionnez la **face inférieure** (face arrière) de la forme définissant le solide.
-3.  Sélectionnez une **face latérale** adjacente à la face inférieure pour marquer la zone à découper.
-    -   **Remarque:** n\'oubliez pas la touche **Control**/**Command**!
-4.  Activez la commande <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming/fr.md) (voir ci-dessus)
+2.  Maintenez la touche **Ctrl** (ou la touche **Command** sur macOS).
+3.  Ajoutez la **face inférieure** (face arrière) du solide définissant la forme à la sélection.
+4.  Ajoutez à la sélection une **face latérale** adjointe à la face inférieure pour indiquer la position de la coupe.
+5.  Relâchez la touche **Ctrl** (ou la touche **Command**).
+6.  Activez la fonction <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md) (voir ci-dessus).
 
 ### Pont
 
 1.  Sélectionnez la face de l\'objet SheetMetal à emboutir.
-2.  Sélectionnez la **face inférieure** (face arrière) de la forme définissant le solide.
-3.  Sélectionnez une **face latérale** adjacente à la face inférieure pour marquer une zone à découper.
-4.  Sélectionnez la **face opposée** adjacente à la face inférieure pour marquer l\'autre zone à découper.
-    -   **Remarque:** n\'oubliez pas la touche **Control**/**Command**!
-5.  Activez la commande <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming/fr.md) (voir ci-dessus)
+2.  Maintenez la touche **Ctrl** (ou la touche **Command** sur macOS).
+3.  Ajoutez la **face inférieure** (face arrière) du solide définissant la forme à la sélection.
+4.  Ajoutez une **face latérale** adjacente à la face inférieure pour indiquer la position de la première coupe à la sélection.
+5.  Ajoutez la **face latérale opposée** adjointe à la face inférieure pour indiquer la position de la deuxième coupe à la sélection.
+6.  Relâchez la touche **Ctrl** (ou la touche **Command**).
+7.  Activez la fonction <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md) (voir ci-dessus).
 
 ### Découpe dessinée 
 
 1.  Sélectionnez la face de l\'objet SheetMetal à emboutir.
-2.  Sélectionnez la **face inférieure** (face arrière) de la forme définissant le solide.
-3.  Sélectionnez la **face supérieure** opposée à la face inférieure pour marquer la zone à découper.
-    -   **Remarque:** n\'oubliez pas la touche **Control**/**Command**!
-4.  Activez la commande <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming/fr.md) (voir ci-dessus)
+2.  Maintenez la touche **Ctrl** (ou la touche **Command** sur macOS).
+3.  Ajoutez la **face inférieure** (face arrière) du solide définissant la forme à la sélection.
+4.  Ajoutez la **face supérieure** opposée à la face inférieure pour marquer la zone à découper à la sélection.
+5.  Relâchez la touche **Ctrl** (ou la touche **Command**).
+6.  Activez la fonction <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md) (voir ci-dessus).
 
 ### Multiplication et motif 
 
@@ -72,14 +76,22 @@ L\'orientation dépend toujours de l\'orientation de la première face sélectio
 
 1.  Passez à l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [atelier PartDesign](PartDesign_Workbench/fr.md).
 2.  Sélectionnez un bord sur la face supérieure de l\'objet SheetMetal pour recevoir un congé.
-3.  Activez le <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [Congé](PartDesign_Fillet/fr.md) en utilisant la commande :
-    -   par le bouton **<img src="images/PartDesign_Fillet.svg" width=16px> [Congé](PartDesign_Fillet/fr.md)
+3.  Activez le <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [ PartDesignCongé](PartDesign_Fillet/fr.md) en utilisant une des commandes :
+    -   par le bouton **<img src="images/PartDesign_Fillet.svg" width=16px> [PartDesign Congé](PartDesign_Fillet/fr.md)
 **
     -   par le menu déroulant **Conception de pièce → Appliquer une fonction d'habillage → <img src="images/PartDesign_Fillet.svg" width=16px> Congé
 **
 4.  Mettez la propriété  (C\'est assez **important** pour le prochain congé).
 5.  Sélectionnez un bord sur la face inférieure de l\'objet SheetMetal pour recevoir un congé.
-6.  Activez le <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [Congé](PartDesign_Fillet/fr.md) (voir ci-dessus)
+6.  Activez le <img alt="" src=images/PartDesign_Fillet.svg  style="width:16px;"> [PartDesign Congé](PartDesign_Fillet/fr.md) (voir ci-dessus)
+
+## Remarques
+
+La géométrie emboutie n\'est pas limitée aux parois planes et aux connexions cylindriques, de sorte qu\'après l\'application d\'une telle géométrie à un objet SheetMetal **l\'objet n\'est plus dépliable**.
+
+L\'emboutissage peut être désactivé (en définissant la propriété **Suppress Feature** sur {{True}}) pour déplier l\'objet mais les congés suivants perdent leurs bords de définition et affichent une erreur lorsque le formage est réactivé.
+
+L\'emboutissage et les congés doivent être les dernières étapes de la création d\'un objet SheetMetal.
 
 ## Propriétés
 
@@ -141,7 +153,7 @@ Il n\'est pas nécessaire de travailler avec des esquisses coplanaires ici.
 ### Processus de travail 
 
 1.  Sélectionnez la paroi de l\'objet SheetMetal à emboutir.
-2.  Sélectionnez la **face arrière** de la forme définissant le solide (N\'oubliez pas la touche <img alt="" src=images/SheetMetal_Forming-04.png  style="width:240px;">
+2.  Sélectionnez la **face arrière** du solide définissant la forme (Rappelez-vous que l\'objet à emboutir **et** le solide définissant la forme doivent tous deux être sélectionnés. Activez la méthode de sélection multiple appropriée à votre système d\'exploitation : <img alt="" src=images/SheetMetal_Forming-04.png  style="width:240px;">
 3.  Appuyez sur le bouton ou utilisez le raccourci clavier :  <img alt="" src=images/SheetMetal_Forming-05.png  style="width:240px;">
 4.  Filetter les arêtes vives :
     -   Retournez le bol et sélectionnez une ou plusieurs arêtes pour les plus petits rayons intérieurs.

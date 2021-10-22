@@ -61,6 +61,20 @@ Acestea sunt instrumente pentru a crea și a gestiona vederile mascate Clip obje
 
 -   <img alt="" src=images/techdraw-clipminus.svg  style="width:32px;"> [ClipMinus](TechDraw_ClipMinus.md): Extrage o vedere dintr-un grup mascat.
 
+## Decorațiune
+
+Acestea sunt instrumente pentru modificarea aspectului paginilor și al vizualizărilor.
+
+-   <img alt="" src=images/techdraw-hatch.png  style="width:32px;"> [Hatch Area](TechDraw_Hatch.md): aplică un model de hașurare dintr-un fișier, unei fațete
+
+-   <img alt="" src=images/techdraw-geomhatch.png  style="width:32px;"> [Geometric Hatch](TechDraw_GeomHatch.md): aplică un model de trasură la o față folosind o specificație Autodesk PAT.
+
+-   <img alt="" src=images/techdraw-symbol.png  style="width:32px;"> _ în pagină.
+
+-   <img alt="" src=images/Techdraw-image.png  style="width:32px;"> _ în pagină.
+
+-   <img alt="" src=images/techdraw-toggleframe.png  style="width:32px;"> [Toggle Frames](TechDraw_Toggle.md): Comuntă on/off cadrele și etichete care înconjoară o pagină.
+
 ## Cotare
 
 Acestea sunt instrumente pentru a crea și lucra cu obiicte tip Cotă.
@@ -141,6 +155,38 @@ Cotele liniare pot fi bazate pe două puncte, o linie sau două linii.
 
 -   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Insert Landmark Dimension](TechDraw_LandmarkDimension.md): adds a landmark distance dimension. <small>(v0.19)</small> 
 
+## Annotations
+
+The annotation tools are for \"marking up\" a drawing with additional information.
+
+-   <img alt="" src=images/techdraw-annotation.png  style="width:32px;"> [New Annotation](TechDraw_NewAnnotation.md): adaugă un bloc de text care servește ca adnotare
+
+-   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:32px;"> [Add Leaderline to View](TechDraw_LeaderLine.md): adds a leaderline to a view. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:32px;"> [Insert Rich Text Annotation](TechDraw_RichTextAnnotation.md): adds an rich text block as annotation to a leaderline or a view. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:32px;"> [Add Cosmetic Vertex](TechDraw_CosmeticVertex.md): adds a Vertex which is not part of the source geometry. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_Midpoints.svg  style="width:32px;"> [Add Midpoint Vertices](TechDraw_Midpoints.md): adds Cosmetic Vertices at midpoints of selected edges. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_Quadrants.svg  style="width:32px;"> [Add Quadrant Vertices](TechDraw_Quadrants.md): adds Cosmetic Vertices at quarter points of selected (circular) edges. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:32px;"> [Add Centerline to Faces](TechDraw_FaceCenterLine.md): adds a centerline to selected face(s). <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:32px;"> [Add Centerline between 2 Lines](TechDraw_2LineCenterLine.md): adds a centerline between 2 lines. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:32px;"> [Add Centerline between 2 Points](TechDraw_2PointCenterLine.md): adds a centerline between 2 points. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Add Cosmetic Line Through 2 points](TechDraw_2PointCosmeticLine.md): adds a cosmetic line connecting 2 vertices. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md): removes cosmetic objects from a page. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:32px;"> [Change Appearance of Lines](TechDraw_DecorateLine.md): changes the appearance of selected line(s). <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Show/Hide Invisible Edges](TechDraw_ShowAll.md): shows/hides invisible lines/edges in a view. <small>(v0.19)</small> 
+
+-   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Add Welding Information to Leader](TechDraw_WeldSymbol.md): adds welding specifications to an existing leaderline. <small>(v0.19)</small> 
+
 ## Extensions
 
 These are tools to improve your TechDraw drawings.
@@ -172,52 +218,6 @@ These are tools for exporting pages to other applications.
 -   <img alt="" src=images/techdraw-saveDXF.svg  style="width:32px;"> _.
 
 -   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _ file.
-
-## Decorațiune
-
-Acestea sunt instrumente pentru modificarea aspectului paginilor și al vizualizărilor.
-
--   <img alt="" src=images/techdraw-hatch.png  style="width:32px;"> [Hatch Area](TechDraw_Hatch.md): aplică un model de hașurare dintr-un fișier, unei fațete
-
--   <img alt="" src=images/techdraw-geomhatch.png  style="width:32px;"> [Geometric Hatch](TechDraw_GeomHatch.md): aplică un model de trasură la o față folosind o specificație Autodesk PAT.
-
--   <img alt="" src=images/techdraw-symbol.png  style="width:32px;"> _ în pagină.
-
--   <img alt="" src=images/Techdraw-image.png  style="width:32px;"> _ în pagină.
-
--   <img alt="" src=images/techdraw-toggleframe.png  style="width:32px;"> [Toggle Frames](TechDraw_Toggle.md): Comuntă on/off cadrele și etichete care înconjoară o pagină.
-
-## Annotation
-
-The annotation tools are for \"marking up\" a drawing with additional information.
-
--   <img alt="" src=images/techdraw-annotation.png  style="width:32px;"> [New Annotation](TechDraw_NewAnnotation.md): adaugă un bloc de text care servește ca adnotare
-
--   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:32px;"> [Add Leaderline to View](TechDraw_LeaderLine.md): adds a leaderline to a view. <small>(v0.19)</small> 
-
--   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:32px;"> [Insert Rich Text Annotation](TechDraw_RichTextAnnotation.md): adds an rich text block as annotation to a leaderline or a view. <small>(v0.19)</small> 
-
--   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:32px;"> [Add Cosmetic Vertex](TechDraw_CosmeticVertex.md): adds a Vertex which is not part of the source geometry. <small>(v0.19)</small> 
-
--   <img alt="" src=images/TechDraw_Midpoints.svg  style="width:32px;"> [Add Midpoint Vertices](TechDraw_Midpoints.md): adds Cosmetic Vertices at midpoints of selected edges. <small>(v0.19)</small> 
-
--   <img alt="" src=images/TechDraw_Quadrants.svg  style="width:32px;"> [Add Quadrant Vertices](TechDraw_Quadrants.md): adds Cosmetic Vertices at quarter points of selected (circular) edges. <small>(v0.19)</small> 
-
--   <img alt="" src=images/TechDraw_FaceCenterLine.svg  style="width:32px;"> [Add Centerline to Faces](TechDraw_FaceCenterLine.md): adds a centerline to selected face(s). <small>(v0.19)</small> 
-
--   <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:32px;"> [Add Centerline between 2 Lines](TechDraw_2LineCenterLine.md): adds a centerline between 2 lines. <small>(v0.19)</small> 
-
--   <img alt="" src=images/TechDraw_2PointCenterLine.svg  style="width:32px;"> [Add Centerline between 2 Points](TechDraw_2PointCenterLine.md): adds a centerline between 2 points. <small>(v0.19)</small> 
-
--   <img alt="" src=images/TechDraw_2PointCosmeticLine.svg  style="width:32px;"> [Add Cosmetic Line Through 2 points](TechDraw_2PointCosmeticLine.md): adds a cosmetic line connecting 2 vertices. <small>(v0.19)</small> 
-
--   <img alt="" src=images/TechDraw_CosmeticEraser.svg  style="width:32px;"> [Remove Cosmetic Object](TechDraw_CosmeticEraser.md): removes cosmetic objects from a page. <small>(v0.19)</small> 
-
--   <img alt="" src=images/TechDraw_DecorateLine.svg  style="width:32px;"> [Change Appearance of Lines](TechDraw_DecorateLine.md): changes the appearance of selected line(s). <small>(v0.19)</small> 
-
--   <img alt="" src=images/TechDraw_ShowAll.svg  style="width:32px;"> [Show/Hide Invisible Edges](TechDraw_ShowAll.md): shows/hides invisible lines/edges in a view. <small>(v0.19)</small> 
-
--   <img alt="" src=images/TechDraw_WeldSymbol.svg  style="width:32px;"> [Add Welding Information to Leader](TechDraw_WeldSymbol.md): adds welding specifications to an existing leaderline. <small>(v0.19)</small> 
 
 ## Caracteristici suplimentare 
 

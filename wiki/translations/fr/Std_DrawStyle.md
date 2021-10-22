@@ -24,47 +24,54 @@ La commande **Std DrawStyle** peut remplacer l\'effet de la [propriété](Proper
 
 ## Styles de représentation disponibles 
 
-### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:32px;"> Tel quel 
+### <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:24px;"> Comme actuellement 
 
-Le style **Tel quel** ne remplace pas le {{PropertyView/fr|Display Mode}} des objets.
+Le style **Comme actuellement** ne supplante pas {{PropertyView/fr|Display Mode}} des objets.
 
-![](images/Std_DrawStyleAsIs_example.png ) *4 objets identiques chacun avec un mode d'affichage différent (de gauche à droite: «Points», «Filaire», «Ombré» et «Lignes plates») avec le style de dessin «Tel quel» appliqué*
+![](images/Std_DrawStyleAsIs_example.png ) 
+*4 objets identiques chacun avec un mode d'affichage différent (de gauche à droite: «Points», «Filaire», «Ombré» et «Lignes plates») avec le style de dessin «Tel quel» appliqué*
 
-### <img alt="" src=images/Std_DrawStylePoints.svg  style="width:32px;"> Points 
+### <img alt="" src=images/Std_DrawStylePoints.svg  style="width:24px;"> Points 
 
-Le style **Points** remplace le {{PropertyView/fr|Display Mode}} des objets. Ce style correspond au mode d\'affichage «Points». Les sommets sont affichés en couleurs unies. Les arêtes et les faces ne sont pas affichées.
+Le style **Points** remplace {{PropertyView/fr|Display Mode}} des objets. Ce style correspond au mode d\'affichage \'Points\'. Les sommets sont affichés en couleurs unies. Les arêtes et les faces ne sont pas affichées.
 
-![](images/Std_DrawStylePoints_example.png ) *Les mêmes objets avec le style de dessin «Points» appliqué*
+![](images/Std_DrawStylePoints_example.png ) 
+*Les mêmes objets avec le style de dessin 'Points' appliqué*
 
-### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:32px;"> Filaire 
+### <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:24px;"> Filaire 
 
-Le style **Filaire** remplace la {{PropertyView/fr|Display Mode}} des objets. Ce style correspond au mode d\'affichage «Filaire». Les sommets et les bords sont affichés en couleurs unies. Les faces ne sont pas affichés.
+Le style **Filaire** remplace {{PropertyView/fr|Display Mode}} des objets. Ce style correspond au mode d\'affichage \'Filaire\'. Les sommets et les bords sont affichés en couleurs unies. Les faces ne sont pas affichés.
 
-![](images/Std_DrawStyleWireframe_example.png ) *Les mêmes objets avec le style de dessin «Filaire» appliqué*
+![](images/Std_DrawStyleWireframe_example.png ) 
+*Les mêmes objets avec le style de dessin 'Filaire' appliqué*
 
-### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:32px;"> Ligne cachée 
+### <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:24px;"> Ligne cachée 
 
-Le style **Ligne cachée** remplace la {{PropertyView/fr|Display Mode}} des objets. Les objets sont affichés comme s\'ils étaient convertis en maillages triangulaires.
+Le style **Ligne cachée** remplace {{PropertyView/fr|Display Mode}} des objets. Les objets sont affichés comme s\'ils étaient convertis en maillages triangulaires.
 
-![](images/Std_DrawStyleHiddenLine_example.png ) *Les mêmes objets avec le style de dessin «Ligne cachée» appliqué*
+![](images/Std_DrawStyleHiddenLine_example.png ) 
+*Les mêmes objets avec le style de dessin 'Ligne cachée' appliqué*
 
-### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:32px;"> Pas d\'ombre 
+### <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:24px;"> Pas d\'ombrage 
 
-Le style **Pas d\'ombre** remplace la {{PropertyView/fr|Display Mode}} des objets. Les sommets, les bords et les faces sont affichés en couleurs unies.
+Le style **Pas d\'ombrage** remplace {{PropertyView/fr|Display Mode}} des objets. Les sommets, les bords et les faces sont affichés en couleurs unies.
 
-![](images/Std_DrawStyleNoShading_example.png ) *Les mêmes objets avec le style de dessin «Sans ombre» appliqué*
+![](images/Std_DrawStyleNoShading_example.png ) 
+*Les mêmes objets avec le style de dessin 'Pas d'ombrage' appliqué*
 
-### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:32px;"> Ombré 
+### <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:24px;"> Ombré 
 
-Le style **Ombré** remplace le {{PropertyView/fr|Display Mode}} des objets. Ce style correspond au mode d\'affichage «ombré». Les sommets et les bords ne sont pas affichés. Les faces sont éclairés en fonction de leur orientation.
+Le style **Ombré** remplace {{PropertyView/fr|Display Mode}} des objets. Ce style correspond au mode d\'affichage \'ombré\'. Les sommets et les bords ne sont pas affichés. Les faces sont éclairés en fonction de leur orientation.
 
-![](images/Std_DrawStyleShaded_example.png ) *Les mêmes objets avec le style de dessin «Ombré» appliqué*
+![](images/Std_DrawStyleShaded_example.png ) 
+*Les mêmes objets avec le style de dessin 'Ombré' appliqué*
 
-### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> Lignes plates 
+### <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:24px;"> Filaire ombré 
 
-Le style **Lignes plates** remplace le {{PropertyView/fr|Display Mode}} des objets. Ce style correspond au mode d\'affichage «Lignes plates». Les sommets et les bords sont affichés en couleurs unies. Les faces sont éclairés en fonction de leur orientation.
+Le style **Filaire ombré** remplace {{PropertyView/fr|Display Mode}} des objets. Ce style correspond au mode d\'affichage \'Filaire ombré\'. Les sommets et les bords sont affichés en couleurs unies. Les faces sont éclairés en fonction de leur orientation.
 
-![](images/Std_DrawStyleFlatLines_example.png ) *Les mêmes objets avec le style de dessin «Lignes plates» appliqué*
+![](images/Std_DrawStyleFlatLines_example.png ) 
+*Les mêmes objets avec le style de dessin 'Filaire ombré' appliqué*
 
 ## Remarques
 

@@ -37,11 +37,13 @@ Ainsi, une courbe avec laquelle vous pouvez relier deux points tangentiellement 
 
 Les courbes de Bézier sont des polynômes permettant de décrire la liaison entre 2 points. Le polynôme le plus simple reliant 2 points est une droite ($A*x^1+B$) donc les courbes de Bézier linéaires sont aussi linéaires :
 
-![](images/Bezier_linear_anim.gif ) *Animation 1 : courbe de Bézier linéaire.*
+![](images/Bezier_linear_anim.gif ) 
+*Animation 1 : courbe de Bézier linéaire.*
 
 Cependant un polynôme devient d\'abord utile quand on peut le contrôler. Il doit donc y avoir un point entre les deux extrémités qui nous permet de définir comment les extrémités sont connectées. Comme dans l\'exemple ci-dessus, option 3, la courbe est utile lorsqu\'elle commence et se termine tangentiellement aux lignes qui croisent les points d\'extrémité. C\'est l\'une des principales caractéristiques des courbes de Bézier. Ajoutons donc un point de contrôle entre les deux extrémités. La courbe commencera tangentiellement vers ce point de contrôle, ce qui signifie qu\'elle est tangente à la ligne que nous pouvons tracer entre le point de départ et le point de contrôle. En reculant à partir du point d\'extrémité, la courbe sera également tangente à la ligne que nous pouvons tracer entre le point de contrôle et le point d\'extrémité. L\'animation 2 montre à quoi ressemble une telle courbe.
 
-![](images/Bezier_quadratic_anim.gif ) *Animation 2 : Courbe de Bézier quadratique. P1 est le point de contrôle.*
+![](images/Bezier_quadratic_anim.gif ) 
+*Animation 2 : Courbe de Bézier quadratique. P1 est le point de contrôle.*
 
 L\'animation montre clairement ce qu\'est la courbe - une transition de P0 à P2 en faisant pivoter la ligne P0-P1 pour qu\'elle devienne la ligne P1-P2. Nous obtenons ainsi la caractéristique de début/fin tangentielle.
 
@@ -49,7 +51,8 @@ Une telle courbe ne peut être décrite que par un polynôme quadratique. (Le no
 
 Avoir un seul point de contrôle n\'est souvent pas suffisant. Prenons l\'exemple de la simulation ci-dessus. Dans l\'option 3, nous terminons la courbe de manière tangentielle dans la direction x. Mais comment relier les points (20, 0) et (80, 40) pour que la courbe se termine de manière tangentielle dans la direction des y ? Pour y parvenir, il faut d\'abord un virage à droite, puis un virage à gauche, donc un polynôme cubique (du troisième ordre). Et cela signifie que pour une courbe de Bézier, nous avons besoin (ou nous pouvons dire que nous gagnons) un deuxième point de contrôle. L\'animation 3 montre une courbe de Bézier cubique.
 
-![](images/Bezier_cubic_anim.gif ) *Animation 3: Courbe de Bézier cubique.*
+![](images/Bezier_cubic_anim.gif ) 
+*Animation 3: Courbe de Bézier cubique.*
 
 Pour répondre à la question, la solution avec la terminaison tangentielle de la direction y pour l\'exemple est celle-ci :
 
@@ -104,7 +107,8 @@ Par conséquent, $p_k$ est le $k$-ème point de contrôle de la B-spline et éga
 
 Comme expliqué dans la vidéo, les polynômes de base sont des polynômes de Bernstein. L\'ensemble des polynômes de base pour une certaine B-spline peut être visualisé de cette façon :
 
-![](images/Bernstein_Polynomials.svg ) *Un ensemble de polynômes de Bernstein d'ordre 4. Ils décrivent une B-spline d'ordre 4 avec 5 points de contrôle.*
+![](images/Bernstein_Polynomials.svg ) 
+*Un ensemble de polynômes de Bernstein d'ordre 4. Ils décrivent une B-spline d'ordre 4 avec 5 points de contrôle.*
 
 À chaque position de la spline $t$, la somme des polynômes est égale à 1 (indiquée par la ligne orange). Au départ, seul le polynôme rouge a une influence puisque tous les autres polynômes sont à 0. À $t$ plus grand, la spline est décrite par une combinaison linéaire de différents polynômes de base. Dans l\'image ci-dessus, chaque polynôme est supérieur à 1 pour toute la plage $0 < t < 1$. Ce n\'est pas nécessairement le cas. Comme le montre la vidéo, les polynômes de base ne sont fondamentalement supérieurs à 0 que pour une certaine plage de position de la spline. L\'intervalle pour lequel un polynôme de base est supérieur à 0 est décrit par le *vecteur nœud*. Si vous souhaitez en savoir plus sur le vecteur nœud, consultez le site [cette vidéo](https://www.youtube.com/watch?v=ni5NNPCVvDY).
 

@@ -15,7 +15,8 @@ The **Draft AutoGroup** command changes the active [Draft Layer](Draft_Layer.md)
 
 This command was originally intended for groups, hence its name, but was redesigned in FreeCAD version 0.19 when a layer system was introduced. Because handling layers is now the default for the command the rest of this page will primarily focus on layers.
 
- ![](images/Draft_tray_menu.png )  *The layer menu of the Draft Tray*
+ ![](images/Draft_tray_menu.png )  
+*The layer menu of the Draft Tray*
 
 ## Usage
 

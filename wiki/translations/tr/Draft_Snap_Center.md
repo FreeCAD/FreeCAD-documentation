@@ -36,7 +36,8 @@ Bu metodla yayların ve çemberlerin orta noktasını yakalar.
 
 </div>
 
-![](images/Draft_Snap_Center_example_buildingpart.png ) *Snapping the second point of a line to the Placement point of an Arch BuildingPart*
+![](images/Draft_Snap_Center_example_buildingpart.png ) 
+*Snapping the second point of a line to the Placement point of an Arch BuildingPart*
 
 ## Usage
 

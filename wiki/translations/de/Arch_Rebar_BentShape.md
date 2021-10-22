@@ -36,6 +36,7 @@ Dieser Befehl ist Teil des [Reinforcement-Workbench](Reinforcement_Workbench/de.
 :   <img alt="" src=images/BentShapeDialog.png  style="width:250px;">
 
 
+
 *Aufgaben-Ansicht für das Arch Bewehrungsstab abgewinkelt-Werkzeug*
 
 ## Eigenschaften

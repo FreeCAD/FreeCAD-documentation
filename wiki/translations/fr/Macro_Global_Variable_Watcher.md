@@ -11,34 +11,26 @@
 
 ## Description
 
-Cette macro affiche les variables Python dans la forme \"FreeCAD.variable1\" que le code Python a créé dans le système FreeCAD. L\'utilisateur peut ajouter et supprimer des variables depuis l\'écran, et peuvent également être mises à jour à intervalles régulier.
+Cette macro affiche les variables globales du système FreeCAD (par exemple FreeCAD.myVariable). L\'utilisateur peut ajouter et supprimer des variables de l\'affichage, qui peut également être mis à jour sur une base temporelle.
 
 ## Installation
 
-Tout le code pour variableWatcher.FCMacro est dans une macro. Donc, copier la macro dans le répertoire macro appropriée et en lançant variableWatcher par le menu Macro, la console de Python ou un bouton dans que vous aurez créer dans la barre d\'outils (la méthode préférée).
+L\'installation consiste donc à copier le code dans le répertoire Macro approprié et à invoquer le Global Variable Watcher depuis le menu Macro, la console Python ou un bouton de la barre d\'outils (la méthode préférée).
 
 -   Tutoriel sur [Comment installer une macro](How_to_install_macros/fr.md) et faire face à certaines erreurs.
 -   Tutoriel sur [Comment créer une barre d\'outils](Customize_Toolbars/fr.md) et créer un bouton pour votre macro.
 
 ## Utilisation
 
-Sélectionnez des variables globales pour les visualiser en utilisant le menu pop-up le plus à droite.
+Sélectionnez les variables globales à surveiller à l\'aide du menu contextuel le plus à droite. Cliquez sur le bouton \"Display Now\" pour afficher immédiatement la variable et sa valeur, ou cliquez sur le bouton \"Timer On\" pour lancer une minuterie automatique. L\'intervalle de la minuterie est défini dans le menu contextuel le plus à gauche. L\'option supérieure du menu contextuel le plus à droite permet de mettre à jour la liste des variables globales, car elles ont pu être créées ou supprimées sous le contrôle du programme.
 
-Cliquez sur le \"Display Now\" pour afficher immédiatement la variable et sa valeur, ou cliquez sur le bouton \"Timer On\" pour démarrer une minuterie automatique. L\'intervalle de la minuterie est réglée dans le menu pop-up qui est à l\'extrême gauche.
-
-L\'option sur le menu pop-up le plus à droite met à jour la liste des variables globales, car elles peuvent avoir été créées ou supprimées pendant l\'exécution du programme.
-
-Une variable peut être retirée de la liste par un clic droit sur elle ou sa valeur, et en sélectionnant \"remove variable\"
+Une variable peut être retirée de la liste par un clic droit sur elle ou sa valeur, et en sélectionnant \"remove variable\".
 
 ## Interface utilisateur 
 
 ![](images/MacroVariableWatcherGui1.jpg )
 
-## Options
-
-Il n\'y a pas d\'options.
-
-## Remarque
+## Remarques
 
 Cette macro est une version de développement et tous les aspects ne sont pas finalisés - en particulier la liste des variables globales et leurs valeurs.
 

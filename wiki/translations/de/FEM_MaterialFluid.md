@@ -20,7 +20,8 @@ Fügt einem Teil Flüssigkeitseigenschaften hinzu.
 
 </div>
 
-![](images/FEMMaterialFluidProperties.png ) *The FEM material task panel*
+![](images/FEMMaterialFluidProperties.png ) 
+*The FEM material task panel*
 
 ## Anwendung
 

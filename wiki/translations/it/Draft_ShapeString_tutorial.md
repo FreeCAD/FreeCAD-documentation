@@ -21,7 +21,8 @@ This tutorial describes a method to create 3D text and use it with solid objects
 
 To use ShapeStrings inside the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md), the process is essentially the same as with the Part Workbench, but the ShapeString is placed inside the [PartDesign Body](PartDesign_Body.md) to extrude it. Go to the end of this tutorial for more information.
 
-![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) *Final model of the engraved text.*
+![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) 
+*Final model of the engraved text.*
 
 Per disegnare una linea ausiliaria viene utilizzato l\'ambiente [Sketcher](Sketcher_Workbench/it.md). Maggiori informazioni sugli strumenti di questo workbench sono disponibili in
 
@@ -52,7 +53,8 @@ Per disegnare una linea ausiliaria viene utilizzato l\'ambiente [Sketcher](Sketc
 :   3.4. Press **OK**. This will create a `Chamfer` object.
 :   3.5. In the [tree view](tree_view.md), select `Chamfer`, in the **View** tab change the value of **Line Width** to `2.0`.
 
-![](images/01_T04_Part_Cube_base_long.png ) *Base object created from a cube and a chamfer operation.*
+![](images/01_T04_Part_Cube_base_long.png ) 
+*Base object created from a cube and a chamfer operation.*
 
 ## Inserire il testo con lo strumento ShapeString di Draft 
 
@@ -82,7 +84,8 @@ Per disegnare una linea ausiliaria viene utilizzato l\'ambiente [Sketcher](Sketc
 :   5.12. To see the ShapeString from above change the view by pressing **<img src=images/View-top.svg style="width:16px"> [Top (XY)](Std_ViewTop.md)**, or **2** in the keyboard.
 :   5.13. To restore the view to isometric, press **<img src=images/Std_ViewIsometric.svg style="width:16px"> [View isometric](Std_ViewIsometric.md)**, or **0** in the keyboard.
 
-![](images/02_T04_Part_ShapeString.png ) *Text created as a ShapeString, that is, as a collection of edges in a plane.*
+![](images/02_T04_Part_ShapeString.png ) 
+*Text created as a ShapeString, that is, as a collection of edges in a plane.*
 
 ## Creare il testo solido 3D 
 
@@ -93,7 +96,8 @@ Per disegnare una linea ausiliaria viene utilizzato l\'ambiente [Sketcher](Sketc
 :   6.3. Press **OK**. This will create an `Extrude` object.
 :   6.4. In the [tree view](tree_view.md), select `Extrude`, in the **View** tab change the value of **Line Width** to `2.0`.
 
-![](images/03_T04_Part_ShapeString_Extrude.png ) *Text created as a ShapeString, and turned into a solid by extrusion.*
+![](images/03_T04_Part_ShapeString_Extrude.png ) 
+*Text created as a ShapeString, and turned into a solid by extrusion.*
 
 ## Inserire lo schizzo ausiliario per il posizionamento 
 
@@ -144,9 +148,11 @@ Now we will draw a simple sketch that will be used as auxiliary geometry to posi
     **Note:**if you have problems snapping to vertices, make sure only the **<img src=images/Snap_Endpoint.svg style="width:16px"> [Snap endpoint](Draft_Snap_Endpoint.md)** method is enabled. Having multiple snapping methods active at the same time may make it difficult to select the right feature.
 :   13.4. The extruded text should now be inside the body of the `Fillet` object.
 
-![](images/06_T04_Part_ShapeString_move.svg ) *The extruded ShapeString should be moved to the position of the sketched line that lies on the face of the base body.*
+![](images/06_T04_Part_ShapeString_move.svg ) 
+*The extruded ShapeString should be moved to the position of the sketched line that lies on the face of the base body.*
 
-![](images/07_T04_Part_ShapesString_Extrude_in_place.png ) *Extruded ShapeString positioned in the `Fillet*.`
+![](images/07_T04_Part_ShapesString_Extrude_in_place.png ) 
+*Extruded ShapeString positioned in the `Fillet*.`
 
 ## Creare il testo inciso 
 
@@ -162,7 +168,8 @@ Now we will draw a simple sketch that will be used as auxiliary geometry to posi
     **Note:**the order in which you select the objects is important for the cut operation. The base object is selected first, and the subtracting object comes at the end.
 :   15.2. In the [tree view](tree_view.md), select `Cut`, in the **View** tab change the value of **Line Width** to `2.0`.
 
-![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) *Final model of a filleted cube, with carved text created from a ShapeString, Extrude, and boolean Cut operations.*
+![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) 
+*Final model of a filleted cube, with carved text created from a ShapeString, Extrude, and boolean Cut operations.*
 
 ## Engraving 3D text with the PartDesign Workbench 
 

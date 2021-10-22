@@ -30,6 +30,7 @@ Questa modalità di aggancio consente di selezionare i punti medi degli elementi
 <div class="mw-translate-fuzzy">
 
 
+
 *Aggancio del secondo punto di una linea al punto medio di un bordo di un rettangolo*
 
 

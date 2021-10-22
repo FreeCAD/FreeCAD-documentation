@@ -24,7 +24,8 @@ Il comando **Origine degli assi** attiva o disattiva il sistema di assi nella vi
 
 Il sistema di assi è composto da tre frecce che rappresentano gli assi X, Y e Z positivi del sistema di coordinate globale. Il loro punto di partenza comune è l\'origine del sistema di coordinate globale.
 
-![](images/Std_AxisCross_example.svg ) *Il sistema di assi (le lettere non fanno parte del sistema di assi)*
+![](images/Std_AxisCross_example.svg ) 
+*Il sistema di assi (le lettere non fanno parte del sistema di assi)*
 
 ## Utilizzo
 

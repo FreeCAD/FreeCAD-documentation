@@ -32,6 +32,7 @@ Here is a cubic spline ($d=3$) whose knots have the multiplicity 1. The multipli
 <div class="mw-translate-fuzzy">
 
 
+
 *B-spline Kurve zeigt abnehmende Knotenvielfalt.*
 
 

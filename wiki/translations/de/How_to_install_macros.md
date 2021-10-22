@@ -78,7 +78,8 @@ Der `$ROOT_DIR` könnte das Verzeichnis eines bestimmten Benutzers sein.
 
 1\. Öffne das Menü {{MenuCommand/de|Makro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Makros...](Std_DlgMacroExecute/de.md)}}, um den [Makrodialog ausführen](Std_DlgMacroExecute/de.md).
 
-![](images/Dxf_Importer_Install_01.png ) *align=center|Öffnen des Makro ausführen Dialogs*
+![](images/Dxf_Importer_Install_01.png ) 
+*align=center|Öffnen des Makro ausführen Dialogs*
 
 2\. Setze den entsprechenden `Nutzer Makros Standort`.
 
@@ -86,7 +87,8 @@ Der `$ROOT_DIR` könnte das Verzeichnis eines bestimmten Benutzers sein.
 -   Windows: normalerweise `C:\Users\username\AppData\Roaming\FreeCAD\`
 -   MacOS: normalerweise `/Users/username/Library/Preferences/FreeCAD/`
 
-![](images/Dxf_Importer_Install_02.png ) *align=center|Setting of the macros directory*
+![](images/Dxf_Importer_Install_02.png ) 
+*align=center|Setting of the macros directory*
 
 3\. Navigiere zu diesem Verzeichnis auf deinem Computer.
 
@@ -94,7 +96,8 @@ Der `$ROOT_DIR` könnte das Verzeichnis eines bestimmten Benutzers sein.
 -   Windows: Füge die Adresse in dein \"Datei Suchprogramm\" ein und bestätige.
 -   MacOS: Suche den Ordner im \"Finder\" oder füge die Adresse in ein \"Datei Suchprogramm\" ein; merke dir das `file:///` Vorsatzzeichen im \"Datei Suchprogramm\" für eine Datei auf der Festplatte.
 
-![](images/Dxf_Importer_Install_03.png ) *align=center|Accessing the macros directory in the operating system*
+![](images/Dxf_Importer_Install_03.png ) 
+*align=center|Accessing the macros directory in the operating system*
 
 4\. Füge diesem Verzeichnis Makrodateien hinzu.
 
@@ -102,7 +105,8 @@ Der `$ROOT_DIR` könnte das Verzeichnis eines bestimmten Benutzers sein.
 -   Windows: Lasse das Datei Suchprogramm geöffnet.
 -   MacOS: Lasse entweder ein \"Finder\"-Fenster geöffnet, oder setze ein Lesezeichen für den Speicherort in deinem \"Datei Suchprogramm\", oder richte einen \"Alias\" ein, um darauf zu zeigen, oder ziehe den Ordner in die \" Seitenleiste\" des \"Finders\", so dass er von anderen Programmen, wie z.B. Texteditoren, verwendet werden kann.
 
-![](images/Dxf_Importer_Install_04.png ) *align=center|Macros directory*
+![](images/Dxf_Importer_Install_04.png ) 
+*align=center|Macros directory*
 
 
 
@@ -156,61 +160,74 @@ Wir werden <img alt="" src=images/Part_Prism_Apothem.svg  style="width:24px;"> [
 
 Wenn es ein benutzerdefiniertes Symbol gibt, lade es herunter; klicke mit der rechten Maustaste darauf und wähle `Bild speichern unter...`; platziere das Symbol im Makroverzeichnis. Dieses Symbol kann als Tastaturkürzel für das Makro in einer [benutzerdefinierten Werkzeugleiste](Customize_Toolbars/de.md) verwendet werden. Das Standardsymbol ist <img alt="" src=images/Text-x-python.png  style="width:24px;">.
 
-![](images/Macro_Install_HowTo_28.png ) *align=center|Downloading the icon from the macro page*
+![](images/Macro_Install_HowTo_28.png ) 
+*align=center|Downloading the icon from the macro page*
 
 2\. Wähle auf der Makroseite den Code innerhalb der Abschnitte **Skript** oder **Makro** aus und kopiere ihn.
 
 3\. Öffne in FreeCad das Menü {{MenuCommand/de|Makro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Makros...](Std_DlgMacroExecute/de.md)}}, um den [Makro Dialog ausführen](Std_DlgMacroExecute/de.md) zu öffnen.
 
-![](images/Dxf_Importer_Install_01.png ) *align=center|Öffnen des Makro ausführen Dialogs*
+![](images/Dxf_Importer_Install_01.png ) 
+*align=center|Öffnen des Makro ausführen Dialogs*
 
 4\. Klicke **Erstelle**.
 
-![](images/Macro_Install_HowTo_17.png ) *align=center|Creating a new macro*
+![](images/Macro_Install_HowTo_17.png ) 
+*align=center|Creating a new macro*
 
 5\. Gib den Makronamen ein, hier `Macro_Apothem_Based_Prism_GUI`, und drücke **OK**.
 
-![](images/Macro_Install_HowTo_18.png ) *align=center|Entering the macro name*
+![](images/Macro_Install_HowTo_18.png ) 
+*align=center|Entering the macro name*
 
 6\. Der Makro Editor öffnet sich und zeigt den vollständigen Pfad des neuen Makros an.
 
-![](images/Macro_Install_HowTo_19.png ) *align=center|The macro editor*
+![](images/Macro_Install_HowTo_19.png ) 
+*align=center|The macro editor*
 
 7\. Füge den Code in das Editorfenster ein und klicke dann auf das Kreuz auf der Registerkarte, um das Fenster zu schließen.
 
-![](images/Macro_Install_HowTo_20.png ) *align=center|Closing the macro editor*
+![](images/Macro_Install_HowTo_20.png ) 
+*align=center|Closing the macro editor*
 
 8\. Ein Fenster erscheint, das nach Bestätigung zum Speichern des Codes fragt; klicke auf **Ja**. Du kannst auch **Ctrl**+**S** verwenden, um die Datei zu speichern.
 
 Starte FreeCAD neu, um das neue Makro korrekt zu registrieren.
 
-![](images/Macro_Install_HowTo_27.png ) *align=center|Asking for confirmation to save the code*
+![](images/Macro_Install_HowTo_27.png ) 
+*align=center|Asking for confirmation to save the code*
 
 9\. Öffne dann das Menü erneut, **Makro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Makros...](Std_DlgMacroExecuteDirect/de.md)**, wähle das neue Makro und drücke **Ausführen**.
 
-![](images/Macro_Install_HowTo_21.png ) *align=center|Selecting the macro to run it*
+![](images/Macro_Install_HowTo_21.png ) 
+*align=center|Selecting the macro to run it*
 
 10\. Das Makro läuft jetzt. Fülle die Felder mit deinen Werten aus und klicke auf die Schaltfläche **OK**.
 
-![](images/Macro_Install_HowTo_22.png ) *align=center|The macro in action; fill in the information and press OK when ready*
+![](images/Macro_Install_HowTo_22.png ) 
+*align=center|The macro in action; fill in the information and press OK when ready*
 
 11\. Dieses Makro sollte einen Fehler zurückgeben, wenn kein Dokument aktiv ist; andere Makros öffnen ein neues Dokument, wenn keines existiert.
 
 Erstelle ein neues Dokument mit **Datei → <img src="images/Std_New.svg" width=16px>  [Neu](Std_New/de.md)**, und wiederhole dann die vorherigen Schritte, um das Makro auszuführen.
 
-![](images/Macro_Install_HowTo_23.png ) *align=center|Das Makro gibt einen Fehler zurück, wenn kein Dokument aktiv ist*
+![](images/Macro_Install_HowTo_23.png ) 
+*align=center|Das Makro gibt einen Fehler zurück, wenn kein Dokument aktiv ist*
 
 12\. Sobald ein aktives Dokument verfügbar ist, wird das Makro ausgeführt und ein Objekt erstellt.
 
-![](images/Macro_Install_HowTo_24.png ) *align=center|Vom Makro erzeugtes Objekt*
+![](images/Macro_Install_HowTo_24.png ) 
+*align=center|Vom Makro erzeugtes Objekt*
 
 13\. Du kannst das Makro erneut im Editor öffnen, um es auszuführen oder zu modifizieren. Gehe zu **Makro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Makros...](Std_DlgMacroExecute/de.md)**, wähle das Makro aus und drücke **Bearbeiten**.
 
-![](images/Macro_Install_HowTo_25.png ) *align=center|Öffnen des Makros im Editor*
+![](images/Macro_Install_HowTo_25.png ) 
+*align=center|Öffnen des Makros im Editor*
 
 14\. Das Makro kann nun mit {{MenuCommand/de|Makro → <img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Makro ausführen](Std_DlgMacroExecute.md)}}, oder durch Klicken auf die **<img src="images/Std_DlgMacroExecuteDirect.svg" width=16px> [Ausführen](Std_DlgMacroExecute/de.md)** Taste in der Werkzeugleiste.
 
-![](images/Macro_Install_HowTo_26.png ) *align=center|Ausführen des im Editor geladenen Makros*
+![](images/Macro_Install_HowTo_26.png ) 
+*align=center|Ausführen des im Editor geladenen Makros*
 
 
 </div>
@@ -244,38 +261,46 @@ unzip your_file.zip -d your_directory
 
 2\. Lade das komprimierte Archiv mit dem Makrocode in einen lokalen Ordner herunter.
 
-![](images/Macro_Install_HowTo_01.png ) *align=center|Herunterladen des komprimierten Archivs in ein lokales Verzeichnis*
+![](images/Macro_Install_HowTo_01.png ) 
+*align=center|Herunterladen des komprimierten Archivs in ein lokales Verzeichnis*
 
 3\. Entpacke die Datei in dem Ordner.
 
-![](images/Macro_Install_HowTo_02.png ) *align=center|Entpacken der Datei im Ordner*
+![](images/Macro_Install_HowTo_02.png ) 
+*align=center|Entpacken der Datei im Ordner*
 
 4\. Der Entpacker erstellt ein neues Verzeichnis mit den entpackten Dateien.
 
-![](images/Macro_Install_HowTo_03.png ) *align=center|Neues Verzeichnis nach dem Entpacken des Archivs erstellt*
+![](images/Macro_Install_HowTo_03.png ) 
+*align=center|Neues Verzeichnis nach dem Entpacken des Archivs erstellt*
 
 5\. Gehe in das neue Verzeichnis und kopiere oder schneide die Makrodatei aus.
 
-![](images/Macro_Install_HowTo_04.png ) *align=center|Eingeben des neu erstellten Verzeichnisses mit der entpackten Makrodatei*
+![](images/Macro_Install_HowTo_04.png ) 
+*align=center|Eingeben des neu erstellten Verzeichnisses mit der entpackten Makrodatei*
 
 6\. Gehe in das Makroverzeichnis und füge die Datei dort ein.
 
-![](images/Macro_Install_HowTo_05.png ) *align=center|Platzieren der Makrodatei im Makroverzeichnis*
+![](images/Macro_Install_HowTo_05.png ) 
+*align=center|Platzieren der Makrodatei im Makroverzeichnis*
 
 7\. Öffne in FreeCAD das Menü **Makro → <img src="images/Std_DlgMacroExecute.svg" width=16px> [Makros...](Std_DlgMacroExecute/de.md)**, um den [Makro Dialog ausführen](Std_DlgMacroExecute/de.md) zu öffnen.
 
-![](images/Macro_Install_HowTo_06.png ) *align=center|Öffnen des Makro ausführen Dialogs*
+![](images/Macro_Install_HowTo_06.png ) 
+*align=center|Öffnen des Makro ausführen Dialogs*
 
 8\. Wähle das neue Makro aus und drücke **Ausführen**.
 
-![](images/Macro_Install_HowTo_07.png ) *align=center|Auswählen des Makros zur Ausführung*
+![](images/Macro_Install_HowTo_07.png ) 
+*align=center|Auswählen des Makros zur Ausführung*
 
 9\. Das Makro läuft jetzt. Wähle die gewünschten Optionen aus und klicke auf die Schaltfläche **Erstellen**.
 
 <img alt="" src=images/Macro_Install_HowTo_08.png  style="width:640px;"> 
 *align=center|Das Makro in Aktion; wähle die gewünschten Optionen und drücke Erstellen, wenn du bereit bist.*
 
-![](images/Macro_Install_HowTo_30.png ) *align=center|Vom Makro erzeugtes Objekt*
+![](images/Macro_Install_HowTo_30.png ) 
+*align=center|Vom Makro erzeugtes Objekt*
 
 
 </div>
@@ -340,47 +365,56 @@ Wenn der Code keine Einrückung aufweist, wird der Code nicht funktionieren. Kla
 
 Dieser Fehler ist möglich, wenn der Benutzer den Code nicht korrekt kopiert und alle Leerzeichen versehentlich entfernt wurden.
 
-![](images/Macro_Install_HowTo_09.png ) *align=center|Python Code, der keine Einrückung hat; er wird einen Fehler verursachen, wenn er ausgeführt wird*
+![](images/Macro_Install_HowTo_09.png ) 
+*align=center|Python Code, der keine Einrückung hat; er wird einen Fehler verursachen, wenn er ausgeführt wird*
 
 Einrückungsproblem behoben.
 
-![](images/Macro_Install_HowTo_10.png ) *align=center|Python Code mit der richtigen Einrückung*
+![](images/Macro_Install_HowTo_10.png ) 
+*align=center|Python Code mit der richtigen Einrückung*
 
 Wenn der Code ausgewählt ist, sollten alle Zeilen bis zum linken Rand hervorgehoben werden, um anzuzeigen, dass die Zeilen ausgerichtet sind.
 
-![](images/Macro_Install_HowTo_11.png ) *align=center|Python Code hervorgehoben, was zeigt, dass alle Zeilen am linken Rand beginnen*
+![](images/Macro_Install_HowTo_11.png ) 
+*align=center|Python Code hervorgehoben, was zeigt, dass alle Zeilen am linken Rand beginnen*
 
 #### Beispiel 2 
 
 Wenn ein zusätzliches Leerzeichen am Anfang aller Zeilen eingefügt, wird der Python Interpreter versagen und sich über unnötige Einrückungen beschweren. In diesem Fall muss in alle Zeilen das anfangs Leerzeichen entfernt werden.
 
-![](images/Macro_Install_HowTo_12.png ) *align=center|Python Code mit zusätzlichem Leerzeichen in jeder Zeile*
+![](images/Macro_Install_HowTo_12.png ) 
+*align=center|Python Code mit zusätzlichem Leerzeichen in jeder Zeile*
 
 #### Beispiel 3 
 
 Hier wurde der Code aus einem Foren Thema durch Verwendung **Alles auswählen** Schaltfläche kopiert. Anscheinend ist die Auswahl gut.
 
-![](images/Macro_Install_HowTo_14.png ) *align=center|Python Code kopiert aus einem Forum*
+![](images/Macro_Install_HowTo_14.png ) 
+*align=center|Python Code kopiert aus einem Forum*
 
 Wenn die Auswahl jedoch in den Makro Editor eingefügt wird, scheint es zu einer unerwünschten Einrückung zu kommen.
 
-![](images/Macro_Install_HowTo_15.png ) *align=center|Python Code aus einem Forum in den Makro Editor kopiert; unnötige Einrückung wird hinzugefügt*
+![](images/Macro_Install_HowTo_15.png ) 
+*align=center|Python Code aus einem Forum in den Makro Editor kopiert; unnötige Einrückung wird hinzugefügt*
 
 In this case, the initial spaces need to be removed. This can be done with a specialized text editor to quickly decrease the indentation of the lines.
 
 Unter Windows [Notepad++](http://notepad-plus-plus.org/) kann die Auswahl ausgeführt mit **Alt** + Maus ziehen und dann verwenden {{MenuCommand/de|Bearbeiten → Einrücken → Verringere die Einrückung}}.
 
-![](images/Macro_Install_HowTo_16.png ) *align=center|Python Code mit der korrekten Einrückung*
+![](images/Macro_Install_HowTo_16.png ) 
+*align=center|Python Code mit der korrekten Einrückung*
 
 #### Beispiel 4 
 
 Hier wählt die Auswahl auch die Zeilennummern im Codebeispiel aus. Wenn diese Auswahl in den Makro Editor eingefügt wird, funktioniert sie nicht. Es müssen alle Zeilennummern entfernt und die Leerzeichen so angepasst werden, dass der Python Code die richtige Einrückung hat.
 
-![](images/Macro_Install_HowTo_29.png ) *align=center|Auswahl, die auch die Zeilennummern auswählt; wenn dieser Code in den Makro Editor eingefügt wird, wird es nicht funktionieren*
+![](images/Macro_Install_HowTo_29.png ) 
+*align=center|Auswahl, die auch die Zeilennummern auswählt; wenn dieser Code in den Makro Editor eingefügt wird, wird es nicht funktionieren*
 
 #### Guter Code 
 
-![](images/Macro_Install_HowTo_13.png ) *align=center|Python Code mit der richtigen Einrückung*
+![](images/Macro_Install_HowTo_13.png ) 
+*align=center|Python Code mit der richtigen Einrückung*
 
 
 </div>
@@ -428,25 +462,30 @@ Um die in der Konsole angezeigten Informationen zu sehen, solltest Du:
 
 ![](images/Macro_Install_HowTo_31.png )
 
-![](images/Macro_Install_HowTo_32.png ) *align=center|Sichtbarmachung der Panels im Menü Ansicht → Paneele*
+![](images/Macro_Install_HowTo_32.png ) 
+*align=center|Sichtbarmachung der Panels im Menü Ansicht → Paneele*
 
 2\. Aktiviere die `Berichtansicht` und die `Python Konsole`.
 
-![](images/Macro_Install_HowTo_33.png ) *align=center|Aktivieren der Berichtsansicht und der Python Konsole*
+![](images/Macro_Install_HowTo_33.png ) 
+*align=center|Aktivieren der Berichtsansicht und der Python Konsole*
 
 3\. Die Bedienfelder sind jetzt sichtbar, und Befehle wie `FreeCAD.Console.PrintMessage()` geben jetzt Informationen aus, die in der `Berichtansicht` angezeigt werden.
 
-![](images/Macro_Install_HowTo_34.png ) *align=center|FreeCAD Hauptfenster mit der Berichtsansicht und der Python Konsole*
+![](images/Macro_Install_HowTo_34.png ) 
+*align=center|FreeCAD Hauptfenster mit der Berichtsansicht und der Python Konsole*
 
 ===== Aktivieren des Befehls print() ==== FreeCAD muss möglicherweise so konfiguriert werden, dass die Funktion `print()` von [Python](Python/de.md) seine Ausgabe korrekt in die Berichtsansicht umleitet.
 
 1\. Gehe in den [Einstellungs Editor](Preferences_Editor/de.md) mit dem Menü {{MenuCommand/de|Bearbeiten → Einstellungen}}.
 
-![](images/Macro_Install_HowTo_35.png ) *align=center|In den Einstellungen Editor gehen*
+![](images/Macro_Install_HowTo_35.png ) 
+*align=center|In den Einstellungen Editor gehen*
 
 2\. Gehe zum Abschnitt {{MenuCommand/de|Allgemein}}, und dann **Ausgabefenster → Python Interpreter**.
 
-![](images/Macro_Install_HowTo_36.png ) *align=center|Ausgabefenster Einstellungen*
+![](images/Macro_Install_HowTo_36.png ) 
+*align=center|Ausgabefenster Einstellungen*
 
 3\. Beide Kästchen ankreuzen:
 
@@ -456,9 +495,11 @@ Um die in der Konsole angezeigten Informationen zu sehen, solltest Du:
 
 und drücke dann die **OK** Schaltfläche.
 
-![](images/Macro_Install_HowTo_37.png ) *align=center|Umleitung der Python-Ausgabe in die Berichtsansicht.*
+![](images/Macro_Install_HowTo_37.png ) 
+*align=center|Umleitung der Python-Ausgabe in die Berichtsansicht.*
 
-![](images/Macro_Install_HowTo_38.png ) *align=center|Python Befehle zum Drucken von Informationen in die Berichtsansicht.*
+![](images/Macro_Install_HowTo_38.png ) 
+*align=center|Python Befehle zum Drucken von Informationen in die Berichtsansicht.*
 
 
 </div>

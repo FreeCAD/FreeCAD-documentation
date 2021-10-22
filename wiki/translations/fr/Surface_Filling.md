@@ -22,6 +22,7 @@ La surface peut être modifiée en ajoutant des arêtes et des sommets de contra
 <img alt="" src=images/Surface_Filling_example.png  style="width:600px;">
 
 
+
 *Exemple de surface remplie, délimitée par quatre arêtes situées dans le plan XY; (à gauche) uniquement les quatre arêtes et (à droite) une courbe supplémentaire dans l'espace définissant la courbure de la surface*
 
 ## Utilisation

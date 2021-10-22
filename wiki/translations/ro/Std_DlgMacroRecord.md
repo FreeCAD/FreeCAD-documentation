@@ -28,7 +28,8 @@ Această funcție înregistrează la macro, toate operațiile efectuate în spa�
 
 </div>
 
-![](images/Std_DlgMacroRecord_dialog.png ) *The Macro recording dialog box*
+![](images/Std_DlgMacroRecord_dialog.png ) 
+*The Macro recording dialog box*
 
 
 <div class="mw-translate-fuzzy">

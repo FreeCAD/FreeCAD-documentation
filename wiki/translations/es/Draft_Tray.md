@@ -13,7 +13,8 @@ La [Bandeja Borrador](Bandeja_Borrador.md) te permite cambiar rápidamente las p
 
 </div>
 
-![](images/Draft_tray_default.png ) *The Draft Tray*
+![](images/Draft_tray_default.png ) 
+*The Draft Tray*
 
 ## Available tools 
 

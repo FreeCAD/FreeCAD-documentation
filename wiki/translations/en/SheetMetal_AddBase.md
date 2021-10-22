@@ -10,16 +10,40 @@
 
 ## Description
 
-The <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> **SheetMetal AddBase** command creates a sheetmetal wall from a sketch.
+The <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> **SheetMetal AddBase** command creates a SheetMetal base object from a sketch.
+
+From an open contour it creates a prismatic **profile**:
+
+<img alt="" src=images/SheetMetal_AddBase-01.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddBase-02.png  style="width:200px;">
+
+From a closed outline it creates a base **plate** (blank):
+
+<img alt="" src=images/SheetMetal_AddBase-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddBase-04.png  style="width:200px;">
 
 ## Usage
 
-The tool creates a sheet based on a sketch:
+### Profile
 
--   An open sketch contour gets extruded by {{Parameter|length}}, creating a sheet of {{Parameter|thickness}} with corners rounded to {{Parameter|radius}}. The parameter {{Parameter|bend side}} determines the orientation of the sheet relative to the line.
--   A closed sketch contour gets extruded to a sheet of {{Parameter|thickness}}. In this case {{Parameter|length}} and {{Parameter|radius}} are not used.
+1.  Select an **open contour** <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md).
+2.  Activate the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [SheetMetal AddBase](SheetMetal_AddBase.md) command using one of the following:
+    -   The **<img src="images/SheetMetal_AddBase.svg" width=16px> [Make Base Wall](SheetMetal_AddBase.md)** button.
+    -   The **SheetMetal → <img src="images/SheetMetal_AddBase.svg" width=16px> Make Base Wall** menu option.
+    -   The keyboard shortcut: **C** then **B**.
+3.  Adjust the profile\'s parameters by editing the corresponding values in the [Property editor](Property_editor.md):
+    -   The property **length** for the profile length,
+    -   The property **thickness** for the profile thickness,
+    -   The property **radius** for the inner radius of the bends.
 
-<img alt="" src=images/Sheetmetal.png  style="width:400px;">
+### Plate
+
+1.  Select a **closed outline** <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md).
+2.  Activate the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [SheetMetal AddBase](SheetMetal_AddBase.md) (see above).
+3.  Adjust the plate\'s parameter by editing the corresponding value in the [Property editor](Property_editor.md):
+    -   The property **thickness** for the thickness of the plate.
+
+:   
+
+    :   (The properties **length** and **radius** are not used for plates.)
 
 ## Properties
 

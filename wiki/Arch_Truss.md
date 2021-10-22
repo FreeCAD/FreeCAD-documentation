@@ -92,4 +92,4 @@ truss.HeightEnd = 400
 ```
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > [Arch](Arch_Workbench.md) > Arch Truss
+[documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Truss

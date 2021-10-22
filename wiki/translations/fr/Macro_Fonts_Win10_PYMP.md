@@ -17,6 +17,7 @@ Cette petite macro est dédiée aux utilisateurs de Windows 10. Les polices de l
 ![](images/Macro_Fonts_Win10_PYMP_00.png )
 
 
+
 *Macro Fonts Win10 PYMP*
 
 
@@ -24,7 +25,8 @@ Cette petite macro est dédiée aux utilisateurs de Windows 10. Les polices de l
 
 ## Utilisation
 
-Lancez la macro, sélectionnez la police et appliquez-la. ![Macro Fonts Win10 PYMP](images/Macro_Fonts_Win10_PYMP_01.png )  *Macro Fonts Win10 PYMP window *
+Lancez la macro, sélectionnez la police et appliquez-la. ![Macro Fonts Win10 PYMP](images/Macro_Fonts_Win10_PYMP_01.png )  
+*Macro Fonts Win10 PYMP window *
 
 -   Fenêtre pour votre texte.
 

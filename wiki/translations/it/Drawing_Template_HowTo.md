@@ -1,5 +1,11 @@
 # Drawing Template HowTo/it
+<div class="mw-translate-fuzzy">
+
+
 **L'ambiente [Drawing](Drawing_Workbench/it.md) è diventato obsoleto nella versione 0.17. Al suo posto utilizzare [TechDraw](TechDraw_Workbench/it.md).**
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

@@ -53,7 +53,8 @@ Plus vous ajoutez de pièces, plus il est important de conserver une trace. A2p
 
 Lors de la création d\'une contrainte, une boîte de dialogue s\'affiche après avoir appuyé sur un bouton de la barre d\'outils de contrainte:
 
-![](images/A2p_ConstraintPropertiesDialog.png ) *Ci-dessus: la boîte de dialogue Propriétés de la contrainte A2plus*
+![](images/A2p_ConstraintPropertiesDialog.png ) 
+*Ci-dessus: la boîte de dialogue Propriétés de la contrainte A2plus*
 
 Pour certaines contraintes, il vous permet de modifier la direction des contraintes. Avec le bouton **<img src="images/A2p_solver.svg" width=24px> Solve** vous pouvez vérifier au préalable si cette nouvelle contrainte peut être résolue par A2plus. Sinon, consultez la section [Dépannage](#D.C3.A9pannage.md).
 
@@ -327,6 +328,7 @@ Les animations de glissement sont interactives. Vous les déclenchez en faisant 
 Voici un exemple d\'assemblage pour tester l\'animation de glissement: [A2p\_example-for-dragging-animation.FCStd](https://forum.freecadweb.org/download/file.php?id=99204)
 
 ![](images/A2p_dragging-animation-result.gif )
+
 
 
 *Ci-dessus: l'animation de glissement à l'aide de l'exemple d'assemblage*

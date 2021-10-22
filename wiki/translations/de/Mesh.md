@@ -12,6 +12,7 @@ Siehe [Polygonnetz PolygonnetzObjekt](Mesh_MeshObject/de.md) für weitere Inform
 ![](images/Shape_and_mesh.svg )
 
 
+
 *Links: parametrische _, definiert durch Eckpunkte und Dreiecksflächen.*
 
 ## Anwendung

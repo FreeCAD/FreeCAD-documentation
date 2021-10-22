@@ -23,7 +23,8 @@ Deschide caseta de dialog a calculatorului unității, care permite transformare
 
 </div>
 
-![](images/Units_Calculator_it.png ) *The Units calculator dialog box*
+![](images/Units_Calculator_it.png ) 
+*The Units calculator dialog box*
 
 ## Usage
 

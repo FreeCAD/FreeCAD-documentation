@@ -20,7 +20,8 @@ L\'atelier MOOC est un [atelier externe](External_workbenches/fr.md) avec lequel
 Les tutoriels **interactifs** (aussi appelés <img alt="" src=images/MOOC_Player.svg  style="width:24px;"> Player) sont des exercices guidés étape par étape avec des vérifications objectives. Il se lance directement dans FreeCAD et vous permet d\'avancer une étape à la fois de la modélisation d\'un objet. L\'utilisateur dispose d\'un texte, d\'une vidéo et surtout d\'un contrôle que les objectifs ont bien été atteints.
 
 <img alt="" src=images/MOOC_Player_Dialog_Context.png  style="width:1024px;"> 
-*align=center|Boîte de dialogue du lecteur MOOC dans l'interface graphique de FreeCAD* ![](images/MOOC_Player_Dialog.png ) *Boîte de dialogue du lecteur MOOC de plus près*
+*align=center|Boîte de dialogue du lecteur MOOC dans l'interface graphique de FreeCAD* ![](images/MOOC_Player_Dialog.png ) 
+*Boîte de dialogue du lecteur MOOC de plus près*
 
 ### Evaluations
 
