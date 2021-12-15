@@ -68,15 +68,17 @@ import sys
 import os
 import re
 import json
-from datetime import datetime
+from datetime import datetime, date
 import pypandoc
 import threading
 from PySide2 import QtCore
 import FreeCAD
+import git
 
 unhandledTemplates = [] # holder for unhandled templates
 BASE_URL = "https://wiki.freecadweb.org"
 THREADS = 4 # number of threads for file writing
+WIKIFOLDER = "wiki"
 
 class MediaWiki:
 
@@ -98,7 +100,7 @@ class MediaWiki:
         self.readCache()
         self.imagecount = 0
         self.images = {}
-        self.wikifolder = "wiki"
+        self.wikifolder = WIKIFOLDER
         self.output = os.path.join(os.path.dirname(__file__),self.wikifolder)
         if not os.path.exists(self.output):
             os.mkdir(self.output)
@@ -1100,6 +1102,19 @@ def updatereadme():
 
     wiki = MediaWiki()
     wiki.updateReadme()
+
+
+def push():
+
+    """pushes to the remote git repo, if configured"""
+
+    txt = "update " + str(date.today())
+    repo = git.Repo(os.path.curdir)
+    repo.git.add(WIKIFOLDER)
+    repo.index.commit(txt)
+    origin = repo.remote(name='origin')
+    origin.push()
+    print("Successfully committed",txt)
 
 
 
