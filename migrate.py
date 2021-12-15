@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python
 
 #***************************************************************************
 #*   Copyright (c) 2021 Yorik van Havre <yorik@uncreated.net>              *
@@ -106,6 +106,10 @@ class MediaWiki:
         self.translationfolder = "translations"
         self.rootpage = "README.md"
         self.workbenches = self.getWorkbenches()
+        self.icon_function = os.path.join(self.imagefolder,"type_method.svg")
+        self.icon_module = os.path.join(self.imagefolder,"type_module.svg")
+        self.icon_type = os.path.join(self.imagefolder,"type_class.svg")
+        self.icon_builtin = os.path.join(self.imagefolder,"Type_enum.svg")
 
 
     ### UTILS
@@ -143,7 +147,7 @@ class MediaWiki:
 
 
     def getWorkbench(self,page):
-        
+
         """getWorkbench(page):
         Returns the workbench this page belongs to"""
 
@@ -400,6 +404,8 @@ class MediaWiki:
         """getPageCategory(self,page):
         Returns the first category a page belongs to, or None"""
 
+        if "API" in page:
+            return "API"
         if page in self.pagecontents:
             content = self.pagecontents[page]
             cats = re.findall("Category:(.*?)[{}\[]",content)
@@ -918,6 +924,94 @@ class MediaWiki:
         f.close()
 
 
+### API docs
+
+
+    def getAPIPages(self):
+
+        """getAPIPages():
+        Returns a list of API pages"""
+
+        return [p for p in os.listdir(self.output) if (p.endswith("_API.md") and (not "Category" in p))]
+
+
+    def rebuildAAllPI(self):
+
+        """rebuildAllAPI():
+        Rebuilds all the API pages"""
+
+        apipages = self.getAPIPages()
+        for apipage in apipages:
+            self.rebuildAPIPage(apipage)
+
+
+    def rebuildAPIPage(self,apipage):
+
+        """rebuildAPIPage(apipage):
+        Rebuilds an API page"""
+
+        def make_icon(icon):
+            return "<img src=\""+icon+"\" style=\"max-width:24px;\">"
+
+        modname = apipage.split("_")[0]
+        md = "# " + modname + " API\n\n"
+        module = None
+        if modname == "Object":
+            d = FreeCAD.newDocument()
+            module = d.addObject("App::FeaturePython","Test")
+        elif modname == "ViewObject":
+            import FreeCADGui
+            d = FreeCAD.newDocument()
+            o = d.addObject("App::FeaturePython","Test")
+            module = o.ViewObject
+        elif modname == "Selection":
+            #import FreeCADGui
+            #module = FreeCADGui.Selection
+            pass # TODO : handle this
+        else:
+            import importlib
+            try:
+                module = importlib.import_module(modname)
+            except:
+                print("Unable to import module",modname)
+        if module:
+            import inspect
+            if module.__doc__:
+                md += module.__doc__
+            md += "\n\n\n\n"
+            for membername in [m for m in dir(module) if not(m.startswith("_"))]:
+                member = getattr(module,membername)
+                membertype = str(type(member))
+                memberattrs = None
+                if callable(member):
+                    try:
+                        memberattrs = str(inspect.signature(member))
+                    except:
+                        pass
+                md += "#### "
+                if ("builtin" in membertype) or ("function" in membertype):
+                     md += make_icon(self.icon_function)
+                elif("module" in membertype):
+                    md += make_icon(self.icon_module)
+                elif("Type" in membertype):
+                    md += make_icon(self.icon_type)
+                else:
+                    md += make_icon(self.icon_builtin)
+                md += membername
+                if memberattrs:
+                    md += " <small>" + memberattrs + "</small>"
+                md += "\n\n"
+                if member.__doc__:
+                    md += member.__doc__
+                md += "\n\n\n\n"
+        md += "\n\n"
+        md = self.addFooter(apipage[:-3],md)
+        fname = os.path.join(self.output,apipage)
+        with open(fname,"w") as apifile:
+            apifile.write(md)
+        print("Regenerated",apipage)
+
+
 
 ### GENERAL FUNCTIONS (USABLE THROUGH COMMAND-LINE)
 
@@ -958,6 +1052,7 @@ def update():
     wiki.printProgress()
     wiki.getAllImages()
     wiki.updateReadme()
+    wiki.rebuildAAllPI()
     print("All done!\n")
     if errors:
         print("page with write errors: ",errors)

@@ -32,4 +32,6 @@ A system that stops using Qt Assistant, allows people to still use the wiki (for
 * The Help system can display pages outside the official FreeCAD documentation, so it can be used in addons as well
 * The help system is available in non-GUI mode too
 * Markdown is becoming widely universal, and is much more recognised and parsable by all kinds of applications or systems than the MediaWiki syntax. So our documentation becomes much more integratable into other systems.
+* Python API documentation can be regenerated each time, precisely tailored and tighly integrated into the documentation
+* The documentation can be much better integrated everywhere: In menus, in tooltips (for ex. tooltips could display some contents from the docs, ex. images)
 
