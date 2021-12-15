@@ -1,6 +1,6 @@
 # The FreeCAD documentation
 
-**Note**: This repository contains an automatic conversion of the FreeCAD wiki located at https://wiki.freecadweb.org to the [markdown format](https://en.wikipedia.org/wiki/Markdown). The conversion is done automatically through the [migrate.py](./migrate.py) script located within this repository. The script downloads the wiki contents in XML format using the MediaWiki API and uses [pandoc](https://pandoc.org/) to convert between MediaWiki and markdown formats. This is a work in progress towards a more usable version of the documentation.
+**Note**: This repository contains an automatic conversion of the FreeCAD wiki located at https://wiki.freecadweb.org to the [markdown format](https://en.wikipedia.org/wiki/Markdown). The conversion is done automatically through the [migrate.py](./migrate.py) script located within this repository. The script downloads the wiki contents in XML format using the MediaWiki API and uses [pandoc](https://pandoc.org/) to convert between MediaWiki and markdown formats. This is a work in progress towards a more usable and portable version of the documentation.
 
 This documentation can be installed via the FreeCAD [addons manager](wiki/Std_AddonMgr.md) for offline browsing.
 
@@ -8,7 +8,7 @@ This documentation can be installed via the FreeCAD [addons manager](wiki/Std_Ad
 
 ## Introduction
 
-This is the officiadocumentation of [FreeCAD](http://www.freecadweb.org). There are several ways to use this documentation: by exploring the **hubs**, by following the **manual**, or by **searching** for a specific page. The **Help menu** entries from within FreeCAD also allow you to browse this documentation, online or offline. This documentation is a work in progress, written by the community of users and developers of FreeCAD. If you find information that is wrong or missing, please [help](Special:MyLanguage/help_FreeCAD.md)! 
+This is the official documentation of [FreeCAD](http://www.freecadweb.org). There are several ways to use this documentation: by exploring the **hubs**, by following the **manual**, or by **searching** for a specific page. The **Help menu** entries from within FreeCAD also allow you to browse this documentation, online or offline. This documentation is a work in progress, written by the community of users and developers of FreeCAD. If you find information that is wrong or missing, please [help](Special:MyLanguage/help_FreeCAD.md)! 
 
 
 
