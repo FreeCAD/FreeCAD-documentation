@@ -25,7 +25,7 @@ Inserează un elipsoid substractiv în corpul activ. Forma lui este extrasă din
 <div class="mw-translate-fuzzy">
 
 1.  Apăsați mai întâi butonul **<img src="images/PartDesign_SubtractiveEllipsoid.png" width=24px> '''Subtractive Ellipsoid'''** . **Notă**: Elipsoidul Subtractiv face parte dintr-un meniu cu pictograme etichetat *Create an additive primitive*. După lansarea FreeCAD, Subtractiv Elipsoid este printe cele afișate în toolbar. Pentru a obține butonul Ellipsoid, click pe săgeata în jos alături de iconița vizibilă și selectați Ellipsoid in meniu.
-2.  Definiți parametrii Primitivei geometrice și [Attachment](Part_Attachment.md).
+2.  Definiți parametrii Primitivei geometrice și [Attachment](Part_EditAttachment.md).
 3.  Click pe **OK**.
 4.  O funcție(onalitate) Ellipsoid apare sub Copul activ.
 
@@ -50,7 +50,7 @@ Elipsoidul poate fi editat după crearea sa în două moduri:
 
 <div class="mw-translate-fuzzy">
 
--    **Attachment**: definește modul de atașament ca și Attachment Offset. A se vedea [Part Attachment](Part_Attachment.md).
+-    **Attachment**: definește modul de atașament ca și Attachment Offset. A se vedea [Part EditAttachment](Part_EditAttachment.md).
 
 -    **Label**: label given to the Ellipsoid object. Change to suit your needs.
 

@@ -126,9 +126,9 @@ There is another table of contents for the _.
     -   [Licenser](Licence/sv.md)
     -   Kompilera FreeCAD
         -   [Hitta assistans](Tracker/sv.md)
-        -   [Kompilera på Windows](CompileOnWindows/sv.md)
-        -   [Kompilera på Unix](CompileOnUnix/sv.md)
-        -   [Kompilera på Mac](CompileOnMac/sv.md)
+        -   [Kompilera på Windows](Compile_on_Windows/sv.md)
+        -   [Kompilera på Unix](Compile_on_Linux/sv.md)
+        -   [Kompilera på Mac](Compile_on_MacOS/sv.md)
         -   [Tredjepartsbibliotek](Third_Party_Libraries/sv.md)
         -   [Tredjepartsverktyg](Third_Party_Tools/sv.md)
         -   [Uppstart och konfiguration](Start_up_and_Configuration/sv.md)

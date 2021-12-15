@@ -53,7 +53,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  Selezionare gli oggetti che si desidera ruotare o copiare
 2.  Premere il pulsante **<img src="images/Draft_Rotate.svg" width=16px> [Ruota](Draft_Rotate/it.md)**, or press premere i tasi **R** e poi **O**. Se nessun oggetto è selezionato, si viene inviti a selezionarne uno.
-3.  Selezionare un primo punto nella vista 3D, oppure digitare le sue [coordinate ](Draft_Coordinates/it.md) e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [Aggiungi punto](Draft_AddPoint/it.md)**. Questo punto serve da punto base dell\'operazione, attraverso il quale passerà l\'asse di rotazione.
+3.  Selezionare un primo punto nella vista 3D, oppure digitare le sue coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Aggiungi punto**. Questo punto serve da punto base dell\'operazione, attraverso il quale passerà l\'asse di rotazione.
 4.  Fare clic su un secondo punto nella vista 3D o digitare un angolo base. Questo definisce una linea di base che ruoterà attorno al primo punto.
 5.  Fare clic su un terzo punto nella vista 3D o digitare un angolo di rotazione. Questo indica la rotazione della linea di base, e quindi degli oggetti.
 
@@ -68,7 +68,7 @@ The single character keyboard shortcuts and the modifier key mentioned here can 
 <div class="mw-translate-fuzzy">
 
 -   Premere **X**, **Y** o **Z** dopo un punto per vincolare il prossimo punto sull\'asse dato.
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [Inserisci punto](Draft_AddPoint/it.md)** quando si hanno i valori desiderati per inserire il punto.
+-   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
 -   Premere **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Ruota viene riavviato al termine dell\'operazione, consentendo di ruotare o copiare nuovamente gli oggetti senza premere nuovamente il pulsante dello strumento.
 -   Premere **P** oppure fare clic sulla casella di controllo per attivare la modalità *Copia*. Se la modalità copia è attiva, lo strumento Ruota mantiene la forma originale al suo posto e crea una copia con l\'angolo impostato impostato dal terzo punto.
 

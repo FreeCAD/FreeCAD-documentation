@@ -335,7 +335,7 @@ arc1 = Part.makeCircle(10, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), 0, 180)
 arc2 = Part.makeCircle(10, Base.Vector(0, 0, 0), Base.Vector(0, 0, 1), 180, 360)
 ```
 
-Winkel sollten in Grad angegeben werden. Wenn Du Bogenmaß hast, wandelst Du sie einfach mit der Formel um: {{incode/de|Grad <nowiki>=</nowiki> Bogenmaß * 180/pi}} oder mit Hilfe des Python `math` Moduls:
+Winkel sollten in Grad angegeben werden. Wenn Du Bogenmaß hast, wandelst Du sie einfach mit der Formel um: `Grad <nowiki>=</nowiki> Bogenmaß * 180/pi` oder mit Hilfe des Python `math` Moduls:
 
 
 ```python

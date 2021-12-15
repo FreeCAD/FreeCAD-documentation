@@ -44,10 +44,16 @@ Estas são as ferramentas para criar objetos arquitetônicos:
 -   <img alt="" src=images/Arch_Window.svg  style="width:32px;"> [Janela](Arch_Window/pt-br.md): Cria uma janela usando um objeto selecionado como base.
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Plano de corte](Arch_SectionPlane/pt-br.md): Adiciona um objeto do Plano de Seção ao documento.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Ferramentas de eixo](Arch_CompAxis/pt-br.md): A ferramenta Eixo permite que você coloque uma série de eixos no documento atual.
     -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Eixo](Arch_Axis/pt-br.md): Adiciona ao documento um conjunto de eixos de 1-direção
     -   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Sistema de eixos](Arch_AxisSystem/pt-br.md): Adiciona ao documento um sistema de eixos composto de vários eixos
     -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Grade](Arch_Grid/pt-br.md): Adiciona um objeto em forma de grade ao documento
+
+
+</div>
 
 -   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Telhado](Arch_Roof/pt-br.md): Cria um teto inclinado a partir de uma face selecionada
 -   <img alt="" src=images/Arch_Space.svg  style="width:32px;"> [Espaço](Arch_Space/pt-br.md): Cria um objeto espacial no documento
@@ -119,7 +125,13 @@ Estas são as ferramentas adicionais para te ajudar em tarefas específicas.
 
 ## API
 
+
+<div class="mw-translate-fuzzy">
+
 A bancada (módulo) Arch pode ser usado em scripts [Python](Python/pt-br.md) e [macros](macros/pt-br.md) usando as funções [Arch Python API](http://www.freecadweb.org/api/Arch.html).
+
+
+</div>
 
 ## Tutoriais
 

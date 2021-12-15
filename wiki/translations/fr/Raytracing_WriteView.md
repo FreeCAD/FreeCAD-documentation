@@ -10,9 +10,6 @@
 
 # Raytracing WriteView/fr
 
-
-</div>
-
 ## Description
 
 Exporte les propriétés de la vue actuelle vers un fichier pov à utiliser dans un projet POV-Ray.
@@ -27,13 +24,7 @@ Exporte les propriétés de la vue actuelle vers un fichier pov à utiliser dans
 ## Remarques
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Raytracing_Tools_navi

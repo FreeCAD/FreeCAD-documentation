@@ -27,29 +27,29 @@ Dieser Arbeitsbereich kann über den [Erweiterungsverwalter](Std_AddonMgr/de.md)
 
 Eine detaillierte Beschreibung der Werkzeuge kann unter [Blog des Autors](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/) gefunden werden. Sie ist jetzt etwas veraltet, da inzwischen einige neue Werkzeuge hinzugekommen sind.
 
--   <img alt="" src=images/SheetMetal_AddBase.svg  style="width:32px;"> [Basisprofil erstellen](SheetMetal_AddBase/de.md): Erzeugt ein Blechprofil aus einer Skizze.
+-   <img alt="" src=images/SheetMetal_AddBase.svg  style="width:32px;"> [Basisobjekt erstellen](SheetMetal_AddBase/de.md): Erzeugt ein Blech-Basisobjekt aus einer Skizze, entweder ein Profil oder eine Platine.
 
--   <img alt="" src=images/SheetMetal_AddWall.svg  style="width:32px;"> [Kante ansetzen](SheetMetal_AddWall/de.md): Setzt eine weitere Kante an eine gewählte Randfläche des Blechobjekts an.
+-   <img alt="" src=images/SheetMetal_AddWall.svg  style="width:32px;"> [Kante ansetzen](SheetMetal_AddWall/de.md): Setzt eine Kante an jede ausgewählte Kantenfläche einer Grundfläche an. (Die Kante kann durch das Ändern des Winkels zu einem Falz gewandelt werden.)
 
--   <img alt="" src=images/SheetMetal_Extrude.svg  style="width:32px;"> [Fläche erweitern](SheetMetal_Extrude/de.md): Erweitert eine Seitenfläche entlang der Flächennormalen.
+-   <img alt="" src=images/SheetMetal_Extrude.svg  style="width:32px;"> [Fläche erweitern](SheetMetal_Extrude/de.md): Erweitert eine gewählte Kantenfläche in Richtung ihrer Flächennormalen. (Durch das Hinzufügen einer Konturskizze kann es dazu genutzt werden, verzahnte Geometrie zu erzeugen.)
 
--   <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:32px;"> [Abkanten](SheetMetal_AddFoldWall/de.md): Biegt eine Fläche entlang einer gewählten Linie (und) mit einem vorgegebenen Biegeradius.
+-   <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:32px;"> [Abkanten](SheetMetal_AddFoldWall/de.md): Kantet eine Fläche entlang einer gewählten Linie mit einem vorgegebenen Biegeradius ab.
 
--   <img alt="" src=images/SheetMetal_Unfold.svg  style="width:32px;"> [Abwickeln](SheetMetal_Unfold/de.md): Ebnet ein gekantetes Blechobjekt und erzeugt einen Abwicklungskörper und eine Skizze (stellt ein Dialogfenster zum Festlegen von Parametern bereit).
+-   <img alt="" src=images/SheetMetal_Unfold.svg  style="width:32px;"> [Abwickeln](SheetMetal_Unfold/de.md): Ebnet ein gekantetes Blechobjekt und erzeugt einen Abwicklungskörper sowie eine Konturskizze mit Biegelinien (stellt ein Dialogfenster zum Festlegen von Parametern bereit).
 
--   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Abwickeln ohne Eingaben](SheetMetal_UnattendedUnfold/de.md): Ebnet ein gekantetes Blechobjekt und erzeugt einen Abwicklungskörper und eine Skizze (wenn die Parameter bereits festgelegt sind).
+-   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Abwickeln ohne Eingaben](SheetMetal_UnattendedUnfold/de.md): Ebnet ein gekantetes Blechobjekt und erzeugt einen Abwicklungskörper sowie eine Konturskizze mit Biegelinien (wenn die Parameter bereits festgelegt sind).
 
 -   <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:32px;"> [Eckentlastung hinzufügen](SheetMetal_AddCornerRelief/de.md): Fügt einer Ecke einen Ausschnitt zur Eckentlastung hinzu.
 
--   <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:32px;"> [Entlastungsausschnitt hinzufügen](SheetMetal_AddRelief/de.md): Fügt einer Ecke einen Entlastungsausschnitt hinzu.
+-   <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:32px;"> [Entlastungsausschnitt hinzufügen](SheetMetal_AddRelief/de.md): Erster Schritt um ein Schalenobjekt in ein abwickelbares Blechobjekt zu wandeln, fügt einer Ecke einen Entlastungsausschnitt hinzu.
 
--   <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:32px;"> [Stoß hinzufügen](SheetMetal_AddJunction/de.md): Fügt einen Stoß mit Spalt auf der Kante zweier Wände ein.
+-   <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:32px;"> [Stoß hinzufügen](SheetMetal_AddJunction/de.md): Zweiter Schritt um ein Schalenobjekt in ein abwickelbares Blechobjekt zu wandeln, fügt einen Stoß mit Spalt auf der Kante zweier Wände ein.
 
--   <img alt="" src=images/SheetMetal_AddBend.svg  style="width:32px;"> [Bogen einfügen](SheetMetal_AddBend/de.md): Fügt eine Ausrundung an Stelle einer eckigen Kante ein.
+-   <img alt="" src=images/SheetMetal_AddBend.svg  style="width:32px;"> [Bogen einfügen](SheetMetal_AddBend/de.md): Dritter Schritt um ein Schalenobjekt in ein abwickelbares Blechobjekt zu wandeln, ersetzt scharfe Kanten durch runde Bögen.
 
--   <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:32px;"> [Skizze auf Blech](SheetMetal_SketchOnSheet/de.md): Schneidet ein Loch in ein Blechobjekt, auf Basis einer Skizze.
+-   <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:32px;"> [Skizze auf Blech](SheetMetal_SketchOnSheet/de.md): Schneidet den abgekanteten Flächen folgend skizzenbasierte Ausschnitte in ein Blechobjekt.
 
--   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Prägen](SheetMetal_Forming/de.md): Werkzeug fügt eine Einprägung hinzu.
+-   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Prägen](SheetMetal_Forming/de.md): Prägt Formen mit und ohne Löcher in eine Blechplatine.
 
 ## Kurzbeschreibung
 
@@ -88,32 +88,24 @@ Nun sollte geprüft werden, ob das resultierende Blechobjekt abgewickelt werden 
 
 #### Weitere Elemente hinzufügen 
 
-
-<div class="mw-translate-fuzzy">
-
 Die abwickelbaren Blech-Basisobjekte können erweitert werden:
 
 1.  Den Befehl <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> [Fläche erweitern](SheetMetal_Extrude/de.md) verwenden, um Flächen zu vergrößern.
-2.  Der Befehl <img alt="" src=images/SheetMetal_AddWall.svg  style="width:16px;"> [Kante ansetzen](SheetMetal_AddWall/de.md) fügt dem bestehenden Objekt neue Flächen (Kanten) hinzu.
+2.  Der Befehl <img alt="" src=images/SheetMetal_AddWall.svg  style="width:16px;"> [Kante ansetzen](SheetMetal_AddWall/de.md) fügt dem bestehenden Objekt neue Kanten oder Falze hinzu.
 3.  Den Befehl <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:16px;"> [Eckentlastung hinzufügen](SheetMetal_AddCornerRelief/de.md) verwenden, um Eckentlastungen hinzuzufügen oder umzuformen.
 4.  Der Befehl <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:16px;"> [Abkanten](SheetMetal_AddFoldWall/de.md) kantet eine Fläche entlang einer gewählten Linie ab, d.h. er trimmt die Fläche an besagter linie, setzt die abgeschnittene Seite um und verbindet beide mit einem zylindrischen Übergang.
 5.  Der Befehl <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Skizze auf Blech](SheetMetal_SketchOnSheet/de.md) schneidet Löcher in das Objekt, beginnend an der ausgewählten Fläche und dann den angrenzenden Flächen und Verbindungen folgend.
 6.  Der Befehl <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Prägen](SheetMetal_Forming/de.md) Prägt (oder Stanzt) ein Formobjekt in eine Fläche.
 
+:   
 
-</div>
+    :   Nach der Erzeugung eines WallForming-Objekts ist das Blechobjekt **nicht länger abwickelbar**!
 
 Einige Werkzeuge aus anderen Arbeitsbereichen können verwendet werden, um Löcher hinzuzufügen oder Kanten umzuformen.
 
 ### Abwickeln eines Blechobjekts 
 
-
-<div class="mw-translate-fuzzy">
-
 Um ein Blechobjekt abzuwickeln, verwendet man das Werkzeug <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> _.
-
-
-</div>
 
 Das Ergebnis ist ein 3D-Objekt, wahlweise mit Kontur inklusive Biegelinien.
 

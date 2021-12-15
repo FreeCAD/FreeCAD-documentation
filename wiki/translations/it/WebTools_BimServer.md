@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/it
-   Name:Arch BimServer
+   Name:WebTools BimServer
    Name/it:BimServer
 ‏‎‏‎   MenuLocation:Arch → Utilità → BIM server
    Workbenches:[Arch](Arch_Workbench/it.md)
@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-**Nota:** A partire da FreeCAD v0.17, questo strumento è stato rimosso dall\'ambiente Arch e ora fa parte dell\'[ambiente esterno Webtools](WebTools_Workbench/it.md) che è possibile installare tramite il menu Strumenti → [Addons Manager](Addon_Manager/it.md).
+**Nota:** A partire da FreeCAD v0.17, questo strumento è stato rimosso dall\'ambiente Arch e ora fa parte dell\'[ambiente esterno Webtools](WebTools_Workbench/it.md) che è possibile installare tramite il menu Strumenti → [Addons Manager](Std_AddonMgr/it.md).
 
 
 </div>

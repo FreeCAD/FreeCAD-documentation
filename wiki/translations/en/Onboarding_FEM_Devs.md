@@ -113,7 +113,7 @@ A new FEM solver requires the following:
 
 See also:
 
--   [Add FEM solver tutorial](Add_FEM_solver_tutorial.md)
+-   _
 -   [Extend FEM Module](Extend_FEM_Module.md)
 -   The implementation efforts of the [oofem](https://github.com/berndhahnebach/FreeCAD_bhb/commits/femoofem) solver
 -   The implementation efforts of the \[<https://github.com/FreeCAD/FreeCAD/compare/a03eb6b9625ba>\...dfc01ec949525 myStran\] solver
@@ -125,7 +125,7 @@ TBD
 ## Informative
 
 -   [Wrapping a Cplusplus class in Python](Wrapping_a_Cplusplus_class_in_Python.md)
--   [Add FEM equation tutorial](Add_FEM_equation_tutorial.md)
+-   [Add FEM Equation Tutorial](Add_FEM_Equation_Tutorial.md)
 -   [Add Button to FEM Toolbar Tutorial](Add_Button_to_FEM_Toolbar_Tutorial.md)
 
 ## Related

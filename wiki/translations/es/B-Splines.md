@@ -155,7 +155,7 @@ Para crear B-splines, entra en un sketch y utiliza el botón de la barra de herr
 
 Por defecto se crean splines cúbicas uniformes, excepto que no hay suficientes puntos de control para hacerlo. Así que cuando se crea una B-splinecon sólo 2 puntos de control, se obtiene por supuesto una spline que es curva lineal simple de Bézier, para 3 puntos de control se obtiene una curva cuadrática de Bézier, primero con 5 puntos de control se obtiene una spline B cúbica que consiste en 2 segmentos de Bézier.
 
-Para crear B-splines periódicas (B-splines que forman una curva cerrada), utiliza el botón de la barra de herramientas {{Botón|<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [B-spline periódica](Sketcher_CreatePeriodicBSpline/es.md)}}. No es necesario fijar el último punto de control sobre el primero porque la B-spline se cerrará automáticamente:
+Para crear B-splines periódicas (B-splines que forman una curva cerrada), utiliza el botón de la barra de herramientas **<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [B-spline periódica](Sketcher_CreatePeriodicBSpline/es.md)**. No es necesario fijar el último punto de control sobre el primero porque la B-spline se cerrará automáticamente:
 
 ![](images/Sketcher_Periodic-B-spline-creation.gif )
 

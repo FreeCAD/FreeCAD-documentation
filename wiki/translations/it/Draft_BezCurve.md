@@ -60,8 +60,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 <div class="mw-translate-fuzzy">
 
 1.  Premere il pulsante **<img src="images/Draft_BezCurve.png" width=16px> [Curva di Bézier](Draft_BezCurve/it.md)**, o premere i tasti **B** e poi **Z**.
-2.  Selezionare un primo punto nella vista 3D, oppure digitare le sue [coordinate ](Draft_Coordinates/it.md) e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**.
-3.  Selezionare un nuovo punto nella vista 3D, oppure digitare le sue [coordinate ](Draft_Coordinates/it.md) e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**.
+2.  Selezionare un primo punto nella vista 3D, oppure digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
+3.  Selezionare un nuovo punto nella vista 3D, oppure digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
 4.  Premere il tasto **Esc** o il pulsante {{button|Chiudi}}, o fare doppio clic sull\'ultimo punto per terminare l\'edizione.
 
 
@@ -74,9 +74,9 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 <div class="mw-translate-fuzzy">
 
--   Premere il tasto **A** o il pulsante **<img src="images/Draft_FinishLine.svg" width=12px> [Termina](Draft_FinishLine/it.md)** per terminare la curva, lasciandola aperta.
--   Premere il tasto **O** o il pulsante **<img src="images/Draft_CloseLine.svg" width=12px> [Chiudi](Draft_CloseLine.md)** per chiudere la curva, cioè per aggiungere un segmento dall\'ultimo punto al primo per formare una faccia. Per formare una faccia sono necessari almeno quattro punti, e una curva di grado tre.
--   Premere il tasto **W** o il pulsante **<img src="images/Draft_Wipe.svg" width=12px> [Pulisci](Draft_Wipe.md)** per rimuovere i segmenti della curva già posizionati, ma continuare a creare la curva dall\'ultimo punto.
+-   Premere il tasto **A** o il pulsante **<img src="images/Draft_FinishLine.svg" width=12px> Termina** per terminare la curva, lasciandola aperta.
+-   Premere il tasto **O** o il pulsante **<img src="images/Draft_CloseLine.svg" width=12px> Chiudi** per chiudere la curva, cioè per aggiungere un segmento dall\'ultimo punto al primo per formare una faccia. Per formare una faccia sono necessari almeno quattro punti, e una curva di grado tre.
+-   Premere il tasto **W** o il pulsante **<img src="images/Draft_Wipe.svg" width=12px> Pulisci** per rimuovere i segmenti della curva già posizionati, ma continuare a creare la curva dall\'ultimo punto.
 -   Premere il tasto **U** o il pulsante **<img src="images/Draft_SelectPlane.svg" width=12px> [Imposta il piano](Draft_SelectPlane/it.md)** per posizionare il piano di lavoro corrente nell\'orientamento dell\'ultimo punto.
 -   Premere il tasto **X**, o **Y** o **Z** dopo un punto per vincolare il successivo punto sul dato asse.
 -   Per inserire le coordinate manualmente, basta inserire i valori e poi premere **Invio** per ciascun componente X, Y e Z.
@@ -89,7 +89,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   Tenere premuto **Ctrl** mentre si disegna per forzare [l\'aggancio](Draft_Snap.md) del proprio punto alla posizione di aggancio più vicina, indipendentemente dalla distanza.
 -   Tenere premuto **Maiusc** mentre si disegna per [vincolare](Draft_Constrain.md) il punto successivo in orizzontale o in verticale rispetto all\'ultimo.
--   Premere **Ctrl**+**Z** o il pulsante **<img src="images/Draft_UndoLine.svg" width=12px> [Undo](Draft_UndoLine/it.md)** per annullare l\'ultimo punto.
+-   Premere **Ctrl**+**Z** o il pulsante **<img src="images/Draft_UndoLine.svg" width=12px> Undo** per annullare l\'ultimo punto.
 -   Premere il tasto **Esc** o il pulsante {{button|Chiudi}} per interrompere il comando corrente; le curve già posizionate rimamgono.
 
 

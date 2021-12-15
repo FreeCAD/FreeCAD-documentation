@@ -44,11 +44,11 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 <div class="mw-translate-fuzzy">
 
 1.  Wähle ein Objekt aus, das Du dehnen möchtest.
-2.  Drücke die Taste **_ [[Draft Stretch]]**. Wenn kein Objekt ausgewählt ist, wirst Du aufgefordert, eines auszuwählen.
-3.  Klicke auf einen Punkt in der 3D Ansicht, oder gib eine [Koordinate](Draft_Coordinates.md) ein und drücke die Taste **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** .
-4.  Klicke auf einen zweiten Punkt in der 3D Ansicht, oder gib eine [Koordinate](Draft_Coordinates/de.md) and drücke die **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** Taste. Die ersten beiden Punkte definieren ein Auswahlrechteck. Die von diesem Rechteck eingeschlossenen Eckpunkte des ursprünglichen Objekts werden hervorgehoben.
-5.  Klicke auf einen dritten Punkt in der 3D Ansicht, oder gib eine [Koordinate](Draft_Coordinates/de.md) und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** Taste.
-6.  Klicke auf einen vierten Punkt in der 3D Ansicht, oder gib eine [Koordinate](Draft_Coordinates/de.md) und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** Taste. Das zweite Punktpaar definiert eine Linie, deren Abstand und Richtung verwendet wird, um die an den markierten Punkten angebrachte Figur zu strecken.
+2.  Drücke die Taste **<img src="images/Draft_Stretch.svg" width=16px> [[Draft Stretch]]**. Wenn kein Objekt ausgewählt ist, wirst Du aufgefordert, eines auszuwählen.
+3.  Klicke auf einen Punkt in der 3D Ansicht, oder gib eine Koordinate ein und drücke die Taste **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** .
+4.  Klicke auf einen zweiten Punkt in der 3D Ansicht, oder gib eine Koordinate and drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste. Die ersten beiden Punkte definieren ein Auswahlrechteck. Die von diesem Rechteck eingeschlossenen Eckpunkte des ursprünglichen Objekts werden hervorgehoben.
+5.  Klicke auf einen dritten Punkt in der 3D Ansicht, oder gib eine Koordinate und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste.
+6.  Klicke auf einen vierten Punkt in der 3D Ansicht, oder gib eine Koordinate und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste. Das zweite Punktpaar definiert eine Linie, deren Abstand und Richtung verwendet wird, um die an den markierten Punkten angebrachte Figur zu strecken.
 
 
 </div>

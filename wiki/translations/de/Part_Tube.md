@@ -28,11 +28,11 @@ Um das Rohr zu bearbeiten
 -   entweder
     -   wähle es im Baum aus und doppelklicke darauf
     -   bearbeite die Parameter im erscheinenden Dialog
--   oder verwende den [ Eigenschaftseditor](Property_Editor/de.md), um die Parameter zu bearbeiten
+-   oder verwende den [ Eigenschaftseditor](Property_editor/de.md), um die Parameter zu bearbeiten
 
 ## Eigenschaften
 
--   Über den [ Eigenschafteneditor](Property_Editor/de.md):
+-   Über den [ Eigenschafteneditor](Property_editor/de.md):
     -   **Höhe:** Legt die Höhe fest (Standardwert ist 10 mm).
     -   **Innerer Radius:** Legt den inneren Radius fest (Standardwert ist 2 mm).
     -   **Außenradius:** Legt den Außenradius fest (Standardwert ist 5 mm).

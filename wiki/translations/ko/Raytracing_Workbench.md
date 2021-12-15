@@ -49,6 +49,9 @@ The Raytracing workbench is essentially obsolete. New development is happening i
 
 ### Project 도구 
 
+
+<div class="mw-translate-fuzzy">
+
 These are the main tools for exporting your 3D work to external renderers.
 
 -   <img alt="" src=images/Raytracing_New.png  style="width:32px;"> [New PovRay project](Raytracing_New.md): Insert new PovRay project in the document
@@ -57,6 +60,9 @@ These are the main tools for exporting your 3D work to external renderers.
 -   <img alt="" src=images/Raytracing_ResetCamera.png  style="width:32px;"> [Reset camera](Raytracing_ResetCamera.md): Matches the camera position of a raytracing project to the current view
 -   <img alt="" src=images/Raytracing_ExportProject.png  style="width:32px;"> [Export project](Raytracing_ExportProject.md): Exports a raytracing project to a scene file for rendering in an external renderer
 -   <img alt="" src=images/Raytracing_Render.png  style="width:32px;"> [Render](Raytracing_Render.md): Renders a raytracing project with an external renderer
+
+
+</div>
 
 ### 유틸리티
 

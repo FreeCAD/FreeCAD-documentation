@@ -80,7 +80,7 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 -   Menu contextuel du nœud de départ : {{Value|set first angle}}.
 -   Menu contextuel du nœud final : {{Value|set last angle}}.
 -   Menu contextuel du nœud central : {{Value|set radius}}.
--   Menu contextuel du bord : {{Value|invert arc}}. Pour l\'instant, cela ne fonctionne pas.
+-   Menu contextuel du bord : {{Value|invert arc}}. Ne fonctionne pas avec la version 0.19.
 
 ### <img alt="" src=images/Draft_Circle.svg  style="width:24px;"> [Draft Cercle](Draft_Circle/fr.md) 
 
@@ -163,7 +163,7 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 
 ### <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketcher Esquisse](Sketcher_NewSketch/fr.md) 
 
--   Seules les esquisses qui contiennent une seule ligne non contrainte peuvent être éditées. Pour l\'instant, cela ne fonctionne pas correctement.
+-   Seules les esquisses qui contiennent une seule ligne non contrainte peuvent être éditées. Cela ne fonctionne pas correctement dans FreeCAD version 0.19.
 -   Pas de menus contextuels pour cet objet.
 
 ## Préférences

@@ -5,21 +5,17 @@
 
 ## Einführung
 
-Der <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Pfad Arbeitsbereich](Path_Workbench/de.md) wird verwendet, um Maschinenanweisungen für [CNC Maschinen](https://en.wikipedia.org/wiki/CNC_router) aus einem FreeCAD 3D Modell zu erstellen. Diese erzeugen reale 3D Objekte auf CNC Maschinen wie Fräsmaschinen, Drehbänken, Laserschneidern oder ähnlichem. Typischerweise handelt es sich bei den Anweisungen um einen [G-code](https://en.wikipedia.org/wiki/G-code) Dialekt. Hier wird ein [allgemeines Beispiel für die Simulation einer CNC Drehbank Werkzeugpfadfolge](https://www.ange-softs.com/SIMULCNCHTML/index.html) vorgestellt.
+Der <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Arbeitsbereich Path](Path_Workbench/de.md) wird verwendet, um Maschinenanweisungen für [CNC Maschinen](https://en.wikipedia.org/wiki/CNC_router) aus einem FreeCAD 3D Modell zu erstellen. Diese erzeugen reale 3D Objekte auf CNC Maschinen wie Fräsmaschinen, Drehbänken, Laserschneidern oder ähnlichem. Typischerweise handelt es sich bei den Anweisungen um einen [G-code](https://en.wikipedia.org/wiki/G-code) Dialekt. Hier wird ein [allgemeines Beispiel für die Simulation einer CNC Drehbank Werkzeugpfadfolge](https://www.ange-softs.com/SIMULCNCHTML/index.html) vorgestellt.
 
 <img alt="" src=images/pathwb.png  style="width:600px;">
 
-Der FreeCAD Pfad Arbeitsbereich Arbeitsablauf erstellt diese Maschinenanweisungen wie folgt:
+Der FreeCAD Arbeitsbereich Path erstellt diese Maschinenanweisungen mit folgendem Arbeitsablauf:
 
--   Ein 3D Modell ist das Basisobjekt, das typischerweise mit einer oder mehreren der Arbeitsbereiche <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;">
-
-[Part Design](PartDesign_Workbench/de.md), <img alt="Workbench_Part.svg" src=images/Workbench_Part.svg  style="width:24px;"> 
-_ erstellt wird.
-
+-   Ein 3D Modell ist das Basisobjekt, das typischerweise mit einer oder mehreren der Arbeitsbereiche <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _ oder <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) erstellt wird.
 -   Ein _ und es folgen bestimmte Befehle, die die Geschwindigkeit und die Bewegungen steuern (normalerweise G-code).
 -   Die Werkzeuge werden entsprechend den Anforderungen der Arbeitsauftragsabläufe ausgewählt.
--   Fräsbahnen werden z.B. mit [Kontur](Path_Profile/de.md) und [Tasche](Path_Pocket_3D/de.md) Abläufen erzeugt. Diese [Bahnobjekte](Path_objects/de.md) verwenden den internen FreeCAD G-code Dialekt, unabhängig von der CNC Maschine.
--   Exportiere den Job mit einem G-code, der zu Ihrer Maschine passt. Dieser Schritt wird *Nachbearbeitung* genannt; es sind unterschiedliche Nachbearbeitungsprozessoren verfügbar.
+-   Fräsbahnen werden z.B. mit [Kontur](Path_Profile/de.md) und [Tasche](Path_Pocket_3D/de.md) Abläufen erzeugt. Diese Bahnobjekte verwenden den internen FreeCAD G-code Dialekt, unabhängig von der CNC Maschine.
+-   Der [Path Auftrag](Path_Job/de.md) wird mit einem Post Processor als G-code exportiert. Der eingesetzte Post Processor muss zur verwendeten Maschine passen, da dieser den FreeCAD intern verwendeten G-code in den \"Dialekt\" der Maschine übersetzt.
 
 ## Allgemeine Konzepte 
 
@@ -39,12 +35,18 @@ Der Pfad Arbeitsbereich hat externe Abhängigkeiten einschließlich:
 
 ## Begrenzungen
 
+
+<div class="mw-translate-fuzzy">
+
 Einige aktuelle Begrenzungen, derer du dir bewusst sein solltest, sind:
 
--   Die meisten der Pfadwerkzeuge sind keine echten 3D Werkzeuge, sondern nur 2,5D fähig. Das bedeutet, dass sie eine festgelegte 2D Form nehmen und diese bis zu einer bestimmten Tiefe herunterschneiden können. Es gibt jedoch zwei Werkzeuge, die echte 3D Pfade erzeugen: **<img src="images/Path_3DPocket.svg" width=24px> [3D Tasche](Path_Pocket_3D/de.md)** und **<img src="images/Path_3DSurface.svg" width=24px> [3D Oberfläche](Path_3DSurface/de.md)** (was ab November 2020 noch ein [experimentelle Funktion](Path_experimental/de.md) ist).
+-   Die meisten der Pfadwerkzeuge sind keine echten 3D Werkzeuge, sondern nur 2,5D fähig. Das bedeutet, dass sie eine festgelegte 2D Form nehmen und diese bis zu einer bestimmten Tiefe herunterschneiden können. Es gibt jedoch zwei Werkzeuge, die echte 3D Pfade erzeugen: **<img src="images/Path_3DPocket.svg" width=24px> [3D Tasche](Path_Pocket_3D/de.md)** und **<img src="images/Path_Surface.svg" width=24px> [3D Oberfläche](Path_Surface/de.md)** (was ab November 2020 noch ein [experimentelle Funktion](Path_experimental/de.md) ist).
 -   Der größte Teil des Pfad Arbeitsbereichs ist für eine einfache, standardmäßige 3-Achsen (xyz) CNC Fräse/Router ausgelegt, aber Drehwerkzeuge sind in 0.19\_pre in Entwicklung.
--   Die meisten Operationen im Pfad Arbeitsbereich geben nur Pfade zurück, die auf einem Standard Endfräser Werkzeug/Bit basieren, unabhängig vom zugewiesenen Werkzeug/Bit Typ in einer bestimmten Werkzeugsteuerung, mit Ausnahme der **<img src="images/Path_Engrave.svg" width=24px> [Gravur](Path_Engrave/de.md)** und **<img src="images/Path_3DSurface.svg" width=24px> [3D Oberfläche](Path_3DSurface/de.md)** Operationen.
+-   Die meisten Operationen im Pfad Arbeitsbereich geben nur Pfade zurück, die auf einem Standard Endfräser Werkzeug/Bit basieren, unabhängig vom zugewiesenen Werkzeug/Bit Typ in einer bestimmten Werkzeugsteuerung, mit Ausnahme der **<img src="images/Path_Engrave.svg" width=24px> [Gravur](Path_Engrave/de.md)** und **<img src="images/Path_Surface.svg" width=24px> [3D Oberfläche](Path_Surface/de.md)** Operationen.
 -   Die Operationen innerhalb des Pfad Arbeitsbereichs kennen keine Spannmechanismen, die zur Befestigung des Modells an deiner Maschine verwendet werden. Überprüfe und simuliere daher die von dir erzeugten Bahnen, bevor du den Code an deine Maschine sendest. Wenn nötig, modelliere deine Spannmechanismen in FreeCAD, um die erzeugten Bahnen besser überprüfen zu können. Achte auf mögliche Kollisionen mit Spannern oder anderen Hindernissen entlang der Bahnen.
+
+
+</div>
 
 ## Einheiten
 
@@ -80,7 +82,7 @@ Viele der Befehle haben unterschiedliche Höhen und Tiefen:
 
 ## Befehle
 
-Some commands are experimental and not available by default. To enable them see [Path experimental](Path_experimental.md).
+Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie zu aktivieren, siehe [Pfad experimentell](Path_experimental/de.md).
 
 ### Projektbefehle
 
@@ -108,279 +110,87 @@ Some commands are experimental and not available by default. To enable them see 
 
 ### Grundlegende Bearbeitungen 
 
+-   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile/de.md): Erzeugt eine Profilbearbeitung des gesamten Modells oder von einer oder mehreren ausgewählten Flächen oder Kanten. {{Version/de|0.19}}
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_Pocket.svg  style="width:32px;"> [Taschenform](Path_Pocket_Shape/de.md): Erzeugt eine Taschenbearbeitung aus einer oder mehreren ausgewählten Taschen.
 
--   <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Profile](Path_Profile/de.md) (Neu in 0.19): Erzeugt eine Profilbearbeitung des gesamten Modells oder von einer oder mehreren ausgewählten Flächen oder Kanten. Diese Bearbeitung kombiniert die bereits vorhandenen Kontur-, Profilflächen- und Profilkantenbearbeitungen.
+-   <img alt="" src=images/Path_Drilling.svg  style="width:32px;"> [Bohren](Path_Drilling/de.md): Führt einen Bohrzyklus durch.
 
+-   <img alt="" src=images/Path_Face.svg  style="width:32px;"> [Fläche](Path_MillFace/de.md): Erzeugt einen Oberflächenpfad
 
-</div>
+-   <img alt="" src=images/Path_Helix.svg  style="width:32px;"> [Helix](Path_Helix/de.md): Erzeugt eine spiralförmige Bahn.
 
+-   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptiv](Path_Adaptive/de.md): Erstellt eine adaptive Räum- und Profilierungsbearbeitung.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> _. {{Version/de|0.19}}
 
--   <img alt="" src=images/Path_Pocket.svg  style="width:32px;"> [Tasche](Path_Pocket_Shape/de.md): Erzeugt eine Taschenbearbeitung aus einer oder mehreren ausgewählten Taschen
+-   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Gravieren](Path_Engrave/de.md): Erstellt einen Gravurpfad.
 
+-   <img alt="" src=images/Path_Vcarve.svg  style="width:32px;"> [VGravur](Path_Vcarve/de.md): Erzeugt einen Gravurpfad unter Verwendung einer V-Werkzeugform. {{Version/de|0.19}}
 
-</div>
+### 3D Bearbeitungen 
 
+-   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [3D Tasche](Path_Pocket_3D/de.md): Erzeugt einen Pfad für eine 3D Tasche.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> _. {{Version/de|0.19}}
 
--   <img alt="" src=images/Path_Drilling.svg  style="width:32px;"> [Bohren](Path_Drilling/de.md): Führt einen Bohrzyklus durch
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Face.svg  style="width:32px;"> [Fläche fräsen](Path_MillFace/de.md): Erzeugt einen Oberflächenpfad
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Helix.svg  style="width:32px;"> [Helix](Path_Helix/de.md): Erzeugt eine spiralförmige Bahn
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptiv](Path_Adaptive/de.md): Erstellt eine adaptive Räum- und Profilierungsoperation
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Nut](Path_Slot/de.md) (Neu in 0.19): Erzeugt eine Nutenfräsbearbeitung aus ausgewählten Formelementen oder benutzerdefinierten Punkten
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Gravieren](Path_Engrave/de.md): Erstellt einen Gravurpfad
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Vcarve.svg  style="width:32px;"> [VGravur](Path_Vcarve/de.md): Erzeugt einen Pfad für eine 3D Tasche
-
-
-</div>
-
-### 3D Operations 
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [3D Tasche](Path_Pocket_3D/de.md): Erzeugt einen Pfad für eine 3D Tasche
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path-3DSurface.svg  style="width:32px;"> [3D Oberfläche](Path_3DSurface/de.md): Erstellt einen Pfad für eine 3D Oberfläche (experimentell, 0.19 )
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Wasserlinie](Path_Waterline/de.md): Erzeugt einen Wasserlinienpfad für eine 3D Oberfläche (experimentell, 0.19)
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> _. {{Version/de|0.19}}
 
 ### Pfad Aufbereitung 
 
+-   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Randaufbereitung](Path_DressupPathBoundary/de.md): Fügt eine Randaufbereitungsänderung einem ausgewählten Pfad hinzu.
 
-</div>
+-   <img alt="" src=images/Path_DressupDogbone.svg  style="width:32px;"> [Hundeknochen Aufbereitung](Path_DressupDogbone/de.md): Fügt eine Hundeknochen Aufbereitungsänderung einem ausgewählten Pfad hinzu.
 
+-   <img alt="" src=images/Path_DressupDragKnife.svg  style="width:32px;"> [Ziehmesser Aufbereitung](Path_DressupDragKnife/de.md): Fügt eine Ziehmesser Aufbereitungsänderung einem ausgewählten Pfad hinzu.
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width:32px;"> [EinAusAusführung Aufbereitung](Path_DressupLeadInOut/de.md): Fügt einen Einführungs- und/oder Ausführungspunkt einem ausgewählten Pfad hinzu.
 
--   <img alt="" src=images/Path_DressupPathBoundary.svg  style="width:32px;"> [Randaufbereitung](Path_DressupBoundary/de.md): Fügt eine Randaufbereitungsänderung einem ausgewählten Pfad hinzu
+-   <img alt="" src=images/Path_DressupRampEntry.svg  style="width:32px;"> [Anfahrrampen Aufbereitung](Path_DressupRampEntry/de.md): Fügt dem ausgewählten Pfad eine vertikale Anfahrrampe hinzu.
 
+-   <img alt="" src=images/Path_DressupTag.svg  style="width:32px;"> [Tag Aufbereitung](Path_DressupTag/de.md): Fügt dem ausgewählten Pfad eine Erweiterung für Haltestege zu.
 
-</div>
+### Ergänzende Befehle 
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_DressupDogbone.svg  style="width:32px;"> [Hundeknochen Aufbereitung](Path_DressupDogbone/de.md): Fügt eine Hundeknochen Aufbereitungsänderung einem ausgewählten Pfad hinzu
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_DressupDragKnife.svg  style="width:32px;"> [Ziehmesser Aufbereitung](Path_DressupDragKnife/de.md): Fügt eine Ziehmesser Aufbereitungsänderung einem ausgewählten Pfad hinzu
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_DressupLeadInOut.svg  style="width:32px;"> [Lead In Dressup](Path_DressupLeadInOut/de.md): Fügt einen Einführungs- und/oder Ausführungspunkt einem ausgewählten Pfad hinzu
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_DressupRampEntry.svg  style="width:32px;"> [Ramp Entry Dressup](Path_DressupRampEntry/de.md): Fügt dem ausgewählten Pfad eine vertikale Anfahrrampe hinzu
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_DressupTag.svg  style="width:32px;"> [Tag Dressup](Path_DressupTag.md): Fügt dem ausgewählten Pfad eine Erweiterung für Haltestege zu
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-### Teilbefehle
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Fixture.png  style="width:32px;"> [Vorrichtung](Path_Fixture/de.md): Ändert die Position der Vorrichtung
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_Fixture.png  style="width:32px;"> [Vorrichtung](Path_Fixture/de.md): Ändert die Position der Vorrichtung.
 
 -   <img alt="" src=images/Path_Comment.svg  style="width:32px;"> [Kommentar](Path_Comment/de.md): Fügt einen Kommentar in den G-Code eines Pfades ein.
 
+-   <img alt="" src=images/Path_Stop.svg  style="width:32px;"> [Halt](Path_Stop/de.md): Fügt einen Halt der Maschine ein.
 
-</div>
+-   <img alt="" src=images/Path_Custom.svg  style="width:32px;"> [Benutzerdefiniert](Path_Custom/de.md): Fügt benutzerdefinierten G-Code ein.
 
+<img alt="Path_GcodeFromShape.svg" src=images/Path_GcodeFromShape.svg  style="width:32px;"> _.
 
-<div class="mw-translate-fuzzy">
+### Pfadänderungen
 
--   <img alt="" src=images/Path_Stop.svg  style="width:32px;"> [Stop](Path_Stop/de.md): Fügt einen Maschinen Stop ein.
+-   <img alt="" src=images/Path_Copy.svg  style="width:32px;"> [Kopieren der Bearbeitung im Auftrag](Path_Copy/de.md): Erstellt eine parametrische Kopie eines gewählten Pfadobjekts.
 
+-   <img alt="" src=images/Path_Array.svg  style="width:32px;"> [Anordnung](Path_Array.md): Erstellt eine Anordnung durch Duplizieren eines ausgewählten Pfades.
 
-</div>
+-   <img alt="" src=images/Path_SimpleCopy.svg  style="width:32px;"> [Einfache Kopie](Path_SimpleCopy/de.md): Erstellt eine nichtparametrische Kopie eines ausgewählten Pfadobjekts.
 
+### Sonstiges
 
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/Path_Area.svg  style="width:32px;"> _.
 
--   <img alt="" src=images/Path_Custom.svg  style="width:32px;"> [Custom](Path_Custom/de.md): Fügt benutzerdefinierten G-Code ein
+-   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> _.
 
+### Veraltet
 
-</div>
+-   <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:32px;"> [Werkzeugverwalter](Path_ToolLibraryEdit/de.md): Bearbeiten des Werkzeugverwalters. \'Altes\' Werkzeugsystem. {{VersionMinus/de|0.18}}
 
+## ToolBit Architektur 
 
-<div class="mw-translate-fuzzy">
+Verwalte Werkzeuge, Bits und die Werkzeugbibliothek. Basiert auf der ToolBit Architektur. {{Version/de|0.19}}
 
-<img alt="Path_GcodeFromShape.svg" src=images/Path_GcodeFromShape.svg  style="width:32px;"> [Gcode aus einer Form](Path_Shapes.md): Erstellt ein  Pfadobjekt aus einem gewählten Part Objekt
+-   [Pfad Werkzeuge](Path_Tools/de.md)
+-   [Pfad WerkzeugForm](Path_ToolShape/de.md)
+-   [Pfad WerkzeugBit](Path_ToolBit/de.md)
+-   [Pfad WerkzeugBit Bibliothek](Path_ToolBit_Library/de.md)
+-   [Pfad WerkzeugController](Path_ToolController/de.md)
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-### Pfad Modifikation 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Copy.svg  style="width:32px;"> [Kopieren](Path_Copy/de.md): Erstellt eine parametrische Kopie eines gewählten Pfadobjekts
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Array.svg  style="width:32px;"> [Anordnung](Path_Array.md): Erstellt eine Anordnung durch Duplizieren eines ausgewählten Pfades
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_SimpleCopy.svg  style="width:32px;"> [Einfache Kopie](Path_SimpleCopy/de.md): Erstellt eine nichtparametrische Kopie eines ausgewählten Pfadobjekts
-
-
-</div>
-
-### Miscellaneous
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Area.svg  style="width:32px;"> [Funktionsbereich](Path_Area/de.md): Erstellt einen Funktionsbereich aus gewählten Objekten
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> [Funktionsbereich Arbeitsebene](Path_Area_Workplane/de.md): Erstellt eine Funktionsbereich Arbeitsebene.
-
-
-</div>
-
-### Obsolete
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:32px;"> [Werkzeugverwalter](Path_ToolLibraryEdit/de.md): Den Werkzeugverwalter bearbeiten
-
-
-</div>
-
-## ToolBit architecture 
-
-Manage tools, bits, and the Tool Library. Based on the ToolBit architecture. <small>(v0.19)</small> 
-
--   [Path Tools](Path_Tools.md)
--   [Path ToolShape](Path_ToolShape.md)
--   [Path ToolBit](Path_ToolBit.md)
--   [Path ToolBit Library](Path_ToolBit_Library.md)
--   [Path ToolController](Path_ToolController.md)
-
-## Other
+## Andere
 
 
 <div class="mw-translate-fuzzy">
@@ -390,33 +200,15 @@ Der Pfad Arbeitsbereich teilt viele Konzepte mit anderen CAM Softwarepaketen, ha
 
 </div>
 
+## Einstellungen
 
-<div class="mw-translate-fuzzy">
-
-### Einstellungen
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Einstellungen\...](Path_Preferences.md): Einstellungen verfügbar in den Pfadwerkzeugen.
-
-
-</div>
+-   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Einstellungen\...](Path_Preferences/de.md): Einstellungen verfügbar für den Pfad Arbeitsbereich.
 
 ## Skripten
 
+Siehe [Pfad Skripten](Path_scripting/de.md).
 
-<div class="mw-translate-fuzzy">
-
-Siehe [Path scripting/de](Path_scripting/de.md) Seite.
-
-
-</div>
-
-## Tutorials
+## Tutorien
 
 -   [Path Walkthrough for the Impatient](Path_Walkthrough_for_the_Impatient.md): a quick tutorial to get familiar with Path.
 

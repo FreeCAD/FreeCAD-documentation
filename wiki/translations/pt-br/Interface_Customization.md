@@ -3,83 +3,83 @@
 
 ## Introdução
 
-The FreeCAD interface is based on the modern [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) toolkit and has a state-of-the-art organization. Some aspects of the interface can be customized. You can, for example, add custom toolbars, with tools from several workbenches or tools defined in macros, and you can create you own keyboard shortcuts. But the menus and default toolbars that come with FreeCAD and its workbenches cannot be changed.
+A interface do FreeCAD é baseada no moderno kit de ferramentas [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) e tem uma organização de última geração. Alguns aspectos da interface podem ser personalizados. Você pode, por exemplo, adicionar barras de ferramentas personalizadas, com ferramentas de várias bancadas de trabalho (workbenches) ou ferramentas definidas em macros, e você pode criar seus próprios atalhos de teclado. Mas os menus e barras de ferramentas padrão que vêm com o FreeCAD e suas bancadas de trabalho não podem ser alterados.
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *The Customize dialog box*
 
 ## Utilização
 
-1.  The commands available in the Customize dialog box depend on the workbenches that have been loaded in the current FreeCAD session. So you should first load all workbenches whose commands you want to have access to.
-2.  There are several ways to invoke the <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std DlgCustomize](Std_DlgCustomize.md) command:
-    -   Select the **Tools → <img src="images/Std_DlgCustomize.svg" width=16px> Customize...** option from the menu.
-    -   Right-click a toolbar area and choose **<img src="images/Std_DlgCustomize.svg" width=16px> Customize...** from the context menu.
-3.  The Customize dialog box opens. For more information see [Options](#Options.md).
-4.  The **Help** button does not work at this time.
-5.  Press the **Close** button to close the dialog box.
+1.  Os comandos disponíveis na caixa de diálogo \"Customize\" (Personalizar) dependem das bancadas de trabalho que foram carregadas na sessão atual do FreeCAD. Portanto, você deve primeiro carregar todas as bancadas de trabalho cujos comandos deseja ter acesso.
+2.  Existem várias maneiras de invocar o comando <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std DlgCustomize](Std_DlgCustomize.md):
+    -   Selecionar a opção **Tools → <img src="images/Std_DlgCustomize.svg" width=16px> Customize...** do menu.
+    -   Clicar com o botão direito na área da barra de ferramentas e escolher **<img src="images/Std_DlgCustomize.svg" width=16px> Customize...** nos menus de contexto.
+3.  A caixa de diálogo Personalizar é aberta. Para obter mais informações, consulte [Options](#Options.md).
+4.  O botão **Help** não funciona neste momento.
+5.  Pressione o botão **Close** para fechar a caixa de diálogo.
 
 ## Opções
 
-In the Customize dialog box the following tabs are available:
+Na caixa de diálogo \"Customize\" (Personalizar), as seguintes guias estão disponíveis:
 
-### Commands
+### \"Commands\" (Comandos) 
 
 ![](images/Std_DlgCustomize_tab_Commands.png ) 
-*The Commands tab*
+*A guia "Commands" (Comandos)*
 
-On this tab you can browse the available commands.
+Nesta guia você pode navegar pelos comandos disponíveis.
 
-#### Browse commands 
+#### Comandos de navegação 
 
-1.  Select a command category in the **Category** panel on the left. Some categories match menu entries.
-2.  The tools available in the selected category are shown in the panel on the right.
-3.  Hover a command: its tooltip appears.
-4.  Select a command: its status bar text is displayed below the two panels.
+1.  Selecione uma categoria de comando no painel **\"Category\"** (Categoria) à esquerda. Algumas categorias correspondem às entradas do menu.
+2.  As ferramentas disponíveis na categoria selecionada são mostradas no painel à direita.
+3.  Passe o mouse sobre um comando: sua dica de ferramenta é exibida.
+4.  Selecione um comando: o texto da barra de status é exibido abaixo dos dois painéis.
 
 
 {{Top}}
 
-### Keyboard
+### \"Keyboard\" (Teclado) 
 
 ![](images/Std_DlgCustomize_tab_Keyboard.png ) 
-*The Keyboard tab*
+*A guia "Keyboard" (Teclado)*
 
-On this tab custom keyboard shortcuts can be defined. Shortcuts for macro commands can be defined on the [Macros](#Macros.md) tab.
+Nesta guia, atalhos de teclado personalizados podem ser definidos. Os atalhos para comandos de macro podem ser definidos na guia [Macros](#Macros.md).
 
-#### Add a custom shortcut 
+#### Adicionar um atalho personalizado 
 
-1.  Select a command category from the **Category** dropdown list.
-2.  Select a command from the **Commands** panel.
-3.  The **Current shortcut** box displays the current short cut, if available.
-4.  Enter a new shortcut in the **Press new shortcut** input box. Shortcuts can be up to 4 inputs long. Each input is either a single character, a combination of one or more special keys or a combination of one or more special keys and a character. Use **Backspace** to correct mistakes.
-5.  If the shortcut is already in use, a dialog box will ask you if you want to override it, and the command the shortcut is assigned to will appear in the **Currently assigned to** panel.
-6.  Press the **Assign** button to assign the new shortcut.
-7.  Press the **Clear** button to remove the entered shortcut. This will also remove the content of the **Current shortcut** box. Note that default shortcuts are not permanently removed. They will be restored upon restarting FreeCAD.
+1.  Selecione uma categoria de comando na lista suspensa **\"Category\" (Categoria)**.
+2.  Selecione um comando do painel **\"Commands\" (Comandos)**.
+3.  A caixa **\"Current shortcut\" (Atalho atual)** exibe o atalho atual, se disponível.
+4.  Insira um novo atalho na caixa de entrada **\"Press new shortcut\" (Digite um novo atalho)**. Os atalhos podem ter até 4 entradas. Cada entrada é um único caractere, uma combinação de uma ou mais teclas especiais ou uma combinação de uma ou mais teclas especiais e um caractere. Use **Backspace** para corrigir erros.
+5.  Se o atalho já estiver em uso, uma caixa de diálogo perguntará se você deseja substituí-lo e o comando ao qual o atalho está atribuído aparecerá no painel **\"Currently assigned to\" (Atualmente atribuído a)**.
+6.  Pressione o botão **Assign** para atribuir o novo atalho.
+7.  Pressione o botão **Clear** para remover o atalho inserido. Isso também removerá o conteúdo da caixa **\"Current shortcut\" (Atalho atual)**. Observe que os atalhos padrão não são removidos permanentemente. Eles serão restaurados ao reiniciar o FreeCAD.
 
-#### Remove a custom shortcut 
+#### Remover um atalho personalizado 
 
-1.  Select a command category from the **Category** dropdown list.
-2.  Select a command from the **Commands** panel.
-3.  Press the **Reset** button.
+1.  Selecione uma categoria de comando na lista suspensa **\"Category\" (Categoria)**.
+2.  Selecione um comando do painel **\"Commands\" (Comandos)**.
+3.  Pressione o botão **Reset**.
 
-#### Remove all custom shortcuts 
+#### Remover todos os atalhos personalizados 
 
-1.  Press the **Reset All** button.
+1.  Pressione o botão **Reset All**.
 
-#### Notes (Keyboard) 
+#### Notas (Keyboard) 
 
--   Shortcuts only work if their commands appear in the standard menu or in the menu of a workbench that has been loaded in the current FreeCAD session, or if their commands appear on a *visible* toolbar.
+-   Os atalhos só funcionam se seus comandos aparecerem no menu padrão ou no menu de uma bancada que foi carregada na sessão atual do FreeCAD, ou se seus comandos aparecerem em uma barra de ferramentas *visível*.
 
--   In V0.19 there is an issue with some Draft commands. Their default shortcuts do not work and/or custom shortcuts cannot be assigned to them.
--   To reassign a default shortcut a new shortcut has to be assigned to its original command first.
+-   Na V0.19, há um problema com alguns comandos da bancada de trabalho \"Draft\" (Rascunho). Seus atalhos padrão não funcionam e/ou atalhos personalizados não podem ser atribuídos a eles.
+-   Para reatribuir um atalho padrão, um novo atalho deve ser atribuído ao seu comando original primeiro.
 
 
 {{Top}}
 
-### Workbenches
+### \"Workbenches\" (Bancadas de trabalho) 
 
 ![](images/Std_DlgCustomize_tab_Workbenches.png ) 
-*The Workbenches tab*
+*A guia "Workbenches" (Bancadas de trabalho)*
 
 On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The **Enabled workbenches** list shows the workbenches as they will appear in the Workbench selector.
 

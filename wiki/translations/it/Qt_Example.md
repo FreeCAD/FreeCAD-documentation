@@ -1,4 +1,7 @@
 # Qt Example/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Icon=MEPlan.png
 |Name=Macro Qt Example
@@ -20,6 +23,9 @@
 |SeeAlso=[Dialog_creation](Dialog_creation/it.md)
 }}
 
+
+</div>
+
 Questa macro è un esempio di utilizzo dei principali comandi della finestra di una macro, da cui vengono estratti e assegnati i dati.
 
 
@@ -39,7 +45,16 @@ Image:Qt\_Example\_00.png\|Esempio con Qt Image:Qt\_Example\_01.png\|Descrizione
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Sono trattati:
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Icona per la finestra
 2.  Cursore orizzontale
@@ -58,13 +73,34 @@ Sono trattati:
 15. Campo editabile con un testo
 16. Campo di vista grafica con 2 grafici
 
-La pagina del codice e delle icone: [Qt\_Example](Qt_Example/it.md) Gli strumenti usati sono: [python-2.7.8](https://www.python.org/downloads/)
+La pagina del codice e delle icone: [Qt\_Example](Qt_Example/it.md)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Gli strumenti usati sono:
+
+
+</div>
+
+[python-2.7.8](https://www.python.org/downloads/)
 
 [PyQt4-4.11.4-gpl-Py2.7-Qt4.8.7-x32](https://riverbankcomputing.com/software/pyqt/download)
 
 Per convertire il file .ui in .py è necessario usare **pyuic.py** che si trova in \"C:\\Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" (per Windows)
 
-è possibile creare un file convertuitopy.bat per automatizzare il processo **1:** Creare un nuovo file nella directory di lavoro Qt e nominarlo **convertuitopy.bat**
+
+<div class="mw-translate-fuzzy">
+
+è possibile creare un file convertuitopy.bat per automatizzare il processo
+
+
+</div>
+
+**1:** Creare un nuovo file nella directory di lavoro Qt e nominarlo **convertuitopy.bat**
 
 **2:** Modificare il file e incollare questa linea
 
@@ -78,7 +114,15 @@ Per convertire il file .ui in .py è necessario usare **pyuic.py** che si trova 
 
 ![](images/MEpipe01.png ) ![](images/MEpipe02.png ) ![](images/MEPlan.png ) ![](images/MEPlanD.png ) ![](images/MEPlanF.png ) ![](images/MEPlanT.png ) ![](images/MEPlanI.png )
 
-![](images/MEPlanFC.png ) ![](images/MEPlanPY.png ) È necessario copiare e incollare le immagini nella stessa directory della macro, qui:
+![](images/MEPlanFC.png ) ![](images/MEPlanPY.png )
+
+
+<div class="mw-translate-fuzzy">
+
+È necessario copiare e incollare le immagini nella stessa directory della macro, qui:
+
+
+</div>
 
 Linux : \"**home/user/.FreeCAD/Macro**\"
 
@@ -87,9 +131,6 @@ Windows : \"**C:\\Users\\UserName\\AppData\\Roaming\\FreeCAD\\Macro**\"
 ## Script
 
 The contents of the file **Qt\_Example.FCMacro** are given below:
-
-
-
 
 
 {{MacroCode|code=
@@ -801,8 +842,6 @@ MainWindow = QtGui.QMainWindow()
 ui = Ui_MainWindow()
 ui.setupUi(MainWindow)
 MainWindow.show()
-
-
 }}
 
 Enjoy

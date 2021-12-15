@@ -5,7 +5,6 @@
 |Time=120 Minuten
 |Author=Pablo Gil
 |FCVersion=0.19.x
-|FCVersion=
 |Files=
 }}
 
@@ -40,7 +39,7 @@ import sys
 print sys.path
 ``` Du erhälst eine laaaaange Zeile mit allen Pfaden, die FreeCAD liest. Du könntest IfcOpenShell vielleicht in jedem dieser Pfade installieren, aber ich schlage vor, du platzierst es in einem, in dem du einen {{FileName|/site-packages/}} nach einem {{FileName|/Python/}} oder {{FileName|/python-something/}} findest. In meinem Fall war es {{FileName|/Library/Python/2.7/site-packages}}. (Hinweis: Du findest Pfade innerhalb deines Anwendungsverzeichnisses, aber ich schlage vor, sie nicht zu verwenden, da IfcOpenShell dann nur für diese Anwendung verfügbar ist)
 
-5\. Sobald du den Ort gefunden hast, an dem du es installieren willst/musst, gehe mit deinem Dateibrowser (Finder in OSX) dorthin. Das heißt, gehe in den Ordner {{Dateiname|/site-packages/}}
+5\. Sobald du den Ort gefunden hast, an dem du es installieren willst/musst, gehe mit deinem Dateibrowser (Finder in OSX) dorthin. Das heißt, gehe in den Ordner {{FileName|/site-packages/}}
 
 :   
     `cd site-packages/`

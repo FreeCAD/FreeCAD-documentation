@@ -8,7 +8,7 @@ Un objet <img alt="" src=images/Mesh_Tree.svg  style="width:32px;"> _ qui lui es
 
 Une fonction de maillage (Mesh Feature) est conceptuellement similaire à une [Part Feature](Part_Feature/fr.md). Le premier est l\'objet de base pour les éléments avec des informations de \"maillage\", tandis que le second est l\'objet de base pour les éléments avec des informations de \"forme géométrique\".
 
-Veuillez noter que l\'**<img src="images/Workbench_FEM.svg" width=16px> [atelier FEM](FEM_Workbench/fr.md)** utilise également des maillages, mais dans ce cas, il utilise un objet différent, appelé [Fem FemMeshObject](Fem_FemMeshObject/fr.md) (classe `Fem::FemMeshObject`). Cet objet n\'est pas dérivé de la fonction de maillage, il a donc des propriétés différentes.
+Notez que l\'**<img src="images/Workbench_FEM.svg" width=16px> [atelier FEM](FEM_Workbench/fr.md)** utilise également des maillages, mais dans ce cas, il utilise un objet différent, appelé [FEM FemMeshObject](FEM_Mesh/fr.md) (classe `Fem::FemMeshObject`). Cet objet n\'est pas dérivé de la fonction de maillage, il a donc des propriétés différentes.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -20,7 +20,7 @@ Veuillez noter que l\'**<img src="images/Workbench_FEM.svg" width=16px> [atelier
 
 Presque tous les objets maillés créés par les commandes disponibles dans l\'interface graphique de l\'[atelier Mesh](Mesh_Workbench/fr.md) sont des [Mesh Features](Mesh_Feature/fr.md). Les objets maillés paramétriques créés par la commande [Mesh Solide régulier](Mesh_BuildRegularSolid/fr.md) sont les seules exceptions. Un [Mesh Feature](Mesh_Feature/fr.md) peut également être créé à partir de la [console Python](Python_console/fr.md) comme décrit dans la section [Script](Mesh_Feature/fr#Script.md).
 
-L\'objet `Mesh::Feature` est défini dans l\'[atelier Mesh](Mesh_Workbench/fr.md) mais peut être utilisé comme classe de base pour [objets scripté](scripted_objects/fr.md) dans tous les [ateliers](Workbenches/fr.md) générant des formes géométriques 2D et 3D.
+L\'objet `Mesh::Feature` est défini dans l\'[atelier Mesh](Mesh_Workbench/fr.md) mais peut être utilisé comme classe de base pour les [objets scriptés](Scripted_objects/fr.md) dans tous les [ateliers](Workbenches/fr.md) générant des formes géométriques 2D et 3D.
 
 Un `Mesh::Feature` a des propriétés simples comme un [placement](Placement/fr.md) et des propriétés visuelles pour définir l\'apparence de ses arêtes et faces.
 
@@ -34,7 +34,7 @@ Les autres propriétés de cet objet sont celles liées à l\'apparence de son [
 
 Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les objets crées par script peuvent avoir.
 
-Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
+Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](Property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](Property_editor/fr.md).
 
 ### Données
 
@@ -77,7 +77,7 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property
 
 ### Vue
 
-La plupart des objets dans FreeCAD ont ce qu\'on appelle un \"fournisseur de vues\", c\'est-à-dire une classe qui définit l\'apparence visuelle de l\'objet dans la [vue 3D](3D_view/fr.md) et dans la [vue en arborescence](tree_view/fr.md) . Le fournisseur de vue par défaut des objets Mesh Feature définit les propriétés suivantes. Les objets scriptés dérivés de Mesh Feature auront également accès à ces propriétés.
+La plupart des objets dans FreeCAD ont ce qu\'on appelle un \"fournisseur de vues\", c\'est-à-dire une classe qui définit l\'apparence visuelle de l\'objet dans la [vue 3D](3D_view/fr.md) et dans la [vue en arborescence](Tree_view/fr.md). Le fournisseur de vue par défaut des objets Mesh Feature définit les propriétés suivantes. Les objets scriptés dérivés de Mesh Feature auront également accès à ces propriétés.
 
 
 {{TitleProperty|Base}}
@@ -128,9 +128,9 @@ La plupart des objets dans FreeCAD ont ce qu\'on appelle un \"fournisseur de vue
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
-[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](scripted_objects/fr.md).
+[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](Scripted_objects/fr.md).
 
 Voir [Part Feature](Part_Feature/fr.md) pour les informations générales sur l\'ajout d\'objets au programme.
 

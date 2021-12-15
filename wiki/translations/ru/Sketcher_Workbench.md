@@ -121,7 +121,13 @@ Sketcher не предназначен для создания 2D чертеже
     -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [Создать B-сплайн](Sketcher_CreateBSpline/ru.md): Рисует B-сплайн по его контрольным точкам.
     -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Создать периодический B-сплайн](Sketcher_CreatePeriodicBSpline/ru.md): Рисует периодическую (замкнутую) кривую B-сплайна по контрольным точкам.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Полилиния (линия состоящая из нескольких ребер)](Sketcher_CreatePolyline/ru.md): Рисует полилинию, состоящую из нескольких отрезков. Нажатие клавиши М во время рисования Полилинии переключает ее между различными режимами рисования.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Создать прямоугольник](Sketcher_CompCreateRectangles/ru.md): Данный элемент панели инструментов Sketcher, является меню и содержит следующие команды: {{Version/ru|0.20}}
 

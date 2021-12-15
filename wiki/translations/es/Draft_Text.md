@@ -45,7 +45,7 @@ See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 
 1.  Presiona el botón **<img src="images/Draft_Text.png" width=16px> [Texto](Draft_Text/es.md)
 **, o presiona las teclas **T** y **E**
-2.  Designa un punto en la vista 3D, o escribe unas [coordenadas](Draft_Coordinates/es.md)
+2.  Designa un punto en la vista 3D, o escribe unas coordenadas
 3.  Introduce el texto deseado, presionando **ENTER** entre cada línea
 4.  Presiona **ENTER** dos veces para terminar la operación.
 

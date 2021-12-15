@@ -76,7 +76,7 @@ Die Algorithmen hinter den Verbindungswerkzeugen sind ziemlich einfach und es is
 
 3\. Dieser größte Volumenkörper wird [verschmolzen](Part_Fuse/de.md) mit dem Werkzeug-Objekt.
 
-3\. Falls {{DataProperty|Refine}} den Wert `True` hat, ist die entstandene Form [verfeinert](Part_RefineShape/de.md).
+3\. Falls **Refine** den Wert `True` hat, ist die entstandene Form [verfeinert](Part_RefineShape/de.md).
 ![800px](images/JoinFeatures-Algo-Embed.png)
 
 ### Notes

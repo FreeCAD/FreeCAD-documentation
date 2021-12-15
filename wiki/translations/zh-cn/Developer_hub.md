@@ -26,9 +26,9 @@
 
 -   [源代码管理](Source_code_management/zh-cn.md)
 -   当你遇到了一个问题，或者认为你可能找到了一个Bug，你可以[寻找帮手](Tracker.md)。
--   [在Windows上编译](CompileOnWindows/zh-cn.md)
--   [在Unix上编译](CompileOnUnix/zh-cn.md)
--   [在Mac OS X上编译](CompileOnMac/zh-cn.md)
+-   [在Windows上编译](Compile_on_Windows/zh-cn.md)
+-   [在Unix上编译](Compile_on_Linux/zh-cn.md)
+-   [在Mac OS X上编译](Compile_on_MacOS/zh-cn.md)
 -   关于FreeCAD的[许可协议细节](Licence/zh-cn.md)
 -   [第三方程序库](Third_Party_Libraries/zh-cn.md)
 -   [第三方工具库](Third_Party_Tools/zh-cn.md)

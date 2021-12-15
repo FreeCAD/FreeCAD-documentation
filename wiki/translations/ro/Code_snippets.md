@@ -762,7 +762,7 @@ This script give the ability to manipulate the UI from the [Python console](Pyth
 -   [Tree view](Tree_view.md)
 -   [Property view](Property_editor.md)
 -   [Selection view](Selection_view.md)
--   [Combo View](Combo_View.md)
+-   [Combo view](Combo_view.md)
 -   [Python console](Python_console.md)
 -   draftToolbar
 

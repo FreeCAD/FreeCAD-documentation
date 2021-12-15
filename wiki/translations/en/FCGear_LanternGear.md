@@ -18,17 +18,14 @@ Because their construction is very simple, they are among the oldest forms of ge
 
 Lantern gear wheel with roller chains are a cost-effective and robust alternative to rack and pinion drives. By guiding the stretched lantern gear wheel chain tangentially along the lantern gear wheel, a linear movement of the chain is converted into a rotational movement of the wheel. Conversely, a linear motion of the chain can also be achieved by the rotary motion of the lantern gear wheel (motorbike/bicycle).
 
-:   ![](images/Latern_Gear_example.png )
-:   
-    
+![](images/Latern_Gear_example.png ) 
 *Above: Lantern gear*
-    
 
 ## Usage
 
 1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [FCGear Workbench](FCGear_Workbench.md).
 2.  Invoke the command several way:
-    -   Press the <img alt="" src=images/FCGear_LaternGear.svg  style="width:22px;"> [Create a Lantern gear](FCGear_LanternGear.md) button in the tool bar.
+    -   Press the <img alt="" src=images/FCGear_LanternGear.svg  style="width:22px;"> [Create a Lantern gear](FCGear_LanternGear.md) button in the tool bar.
     -   Using the **Gear Menu → Lantern gear**.
 3.  Change the gear parameter to the required conditions (see **Properties → Data** below).
 

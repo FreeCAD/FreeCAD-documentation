@@ -12,7 +12,7 @@
 
 Dieses Tutorium zeigt, wie man [Arch Fenster](Arch_Window/de.md) und Türen in einem Gebäudemodell platziert, wie man sie in der 3D Ansicht als offen anzeigt und wie man eine 2D Zeichnung (Grund- und Aufriss) für das Modell erstellt. Es verwendet die [Entwurf Arbeitsbereich](Draft_Workbench/de.md), [Architektur Arbeitsbereich](Arch_Workbench/de.md) und den [Technisches Zeichnen Arbeitsbereich](TechDraw_Workbench/de.md).
 
-Häufig verwendete Werkzeuge sind: [Entwurf Gitter](Draft_Snap_Grid/de.md), [Entwurf Fang](Draft_Snap/de.md), [Entwurf Draht](Draft_Wire/de.md), [Arch Wand ](Arch_Wall/de.md), [Arch Fenster](Arch_Window/de.md), [Arch Schnittebene](Arch_SectionPlane/de.md) und [TechDraw ArchAnsicht](TechDraw_NewArch/de.md).
+Häufig verwendete Werkzeuge sind: [Entwurf Gitter](Draft_Snap_Grid/de.md), [Entwurf Fang](Draft_Snap/de.md), [Entwurf Draht](Draft_Wire/de.md), [Arch Wand ](Arch_Wall/de.md), [Arch Fenster](Arch_Window/de.md), [Arch Schnittebene](Arch_SectionPlane/de.md) und [TechDraw ArchAnsicht](TechDraw_ArchView/de.md).
 
 Siehe auch die folgende Seite für einige Videos über das Ausrichten von Fenstern.
 

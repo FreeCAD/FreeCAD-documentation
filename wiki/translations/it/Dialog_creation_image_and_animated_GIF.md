@@ -3,7 +3,13 @@
 
 Questo è un esempio di [creazione di dialoghi](Dialog_creation/it.md) con [PySide](PySide/it.md).
 
-In questo esempio, l\'intera interfaccia è definita in [Python](Python/it.md). Sebbene ciò sia possibile per interfacce di piccole dimensioni, per le interfacce più grandi si raccomanda di creare i file {{FileName|.ui}} tramite Qt Designer e caricarli nel programma. Vedere [Creazione di una interfaccia con dei file UI](Interface_creation_with_UI_files/it.md).
+
+<div class="mw-translate-fuzzy">
+
+In questo esempio, l\'intera interfaccia è definita in [Python](Python/it.md). Sebbene ciò sia possibile per interfacce di piccole dimensioni, per le interfacce più grandi si raccomanda di creare i file {{FileName|.ui}} tramite Qt Designer e caricarli nel programma.
+
+
+</div>
 
 ## Finestra di dialogo con immagine (QLabel) e GIF animate (QMovie) 
 

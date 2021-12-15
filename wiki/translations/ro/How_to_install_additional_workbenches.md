@@ -48,7 +48,7 @@ How to install additional workbenches and addons on Windows
 
 **Note:**
 
-using the \"addons-installer\" is not recommended any more. Using the [Addon Manager](Addon_Manager.md) in all systems is the recommended way.
+using the \"addons-installer\" is not recommended any more. Using the [Addon Manager](Std_AddonMgr.md) in all systems is the recommended way.
 
 
 <div class="mw-translate-fuzzy">
@@ -216,7 +216,7 @@ How to install additional workbenches and addons on MacOS
 
 **Note:**
 
-This method is possible but not necessary with the introduction of the [Addon Manager](Addon_Manager.md). Nevertheless, the information here may still be useful to some.
+This method is possible but not necessary with the introduction of the [Addon Manager](Std_AddonMgr.md). Nevertheless, the information here may still be useful to some.
 
 
 <div class="mw-translate-fuzzy">

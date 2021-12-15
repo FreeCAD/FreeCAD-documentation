@@ -13,9 +13,16 @@
 
 Das [spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)-Werkzeug erlaubt es dem Anwender, einen fortlaufenden spiralförmigen Bewehrungsstab in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
 
-Das [Arch Spiralförmiger Bewehrungsstab](Arch_Rebar_HelicalShape/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
+Das [Arch Spiralförmiger Bewehrungsstab](Arch_Rebar_Helical/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
+
+
+<div class="mw-translate-fuzzy">
 
 Dieser Befehl ist Teil des _ über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
+
+
+</div>
+
 
 :   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width:80px;">
 

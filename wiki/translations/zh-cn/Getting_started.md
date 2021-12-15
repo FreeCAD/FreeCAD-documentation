@@ -92,7 +92,7 @@ FreeCAD接口背后的主要概念是将它分成[工作台](workbenches/zh-cn.m
 
 </div>
 
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
+<img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -111,39 +111,6 @@ FreeCAD有几种不同的[导航模式可用](Mouse_Model/zh-cn.md)，改变了�
 
 
 </div>
-
-
-{{CAD Navigation
-|Select_name=选择对象
-|Pan_name=移动视图
-|Zoom_name=缩放视图
-|Rotate_view_name=旋转视图<br>第一种方法
-|Rotate_view_alt_name=旋转视图<br>另一种方法
-|Ctrl=**Ctrl**
-|Shift=**Shift**
-|Select_text=在待选对象上点击鼠标左键。
-
-按住**Ctrl**键来选择多个对象。
-|Pan_text=按住鼠标中键，并移动鼠标指针。
-|Pan_mode_text=移动视图模式: 按住**Ctrl**键，按下鼠标右键一次，再移动鼠标指针。 <small>(v0.17)</small> 
-|Zoom_text=用鼠标滚轮来进行缩放。
-
-单击鼠标中键，以光标在视图中的位置进行重新定位(re-center)。
-|Zoom_mode_text=缩放视图模式: 按住**Ctrl**与**Shift**键, 并按下鼠标右键一次, 再移动鼠标指针。<small>(v0.17)</small> 
-|Rotate_view_text=按住鼠标中键，再按住鼠标左键，并移动鼠标指针。
-
-<div class="mw-translate-fuzzy">
-在按下鼠标中键时，指针所在位置确定了旋转中心。旋转操作如同令一个球绕其中心旋转。倘若开启了[[spinning]]，那么，如果在鼠标停止移动之前松开了按键，则视图会继续旋转。
-</div>
-
-双击鼠标中键将设置一个新的旋转中心。
-|Rotate_view_mode_text=旋转视图模式: 按住**Shift**键，按下鼠标右键一次，再移动鼠标指针。<small>(v0.17)</small> 
-|Rotate_view_alt_text=按住鼠标中键，再按住鼠标右键，并移动鼠标指针。
-
-若采用这种方法，则放开中键不放右键依然可以进行视图旋转。
-
-若用户惯用右手，便会发现此法较第一种方法更易使用。
-}}
 
 
 <div class="mw-translate-fuzzy">
@@ -211,7 +178,7 @@ FreeCAD的重点是允许您制作高精度3D模型，以便对这些模型进�
 
 这给你一个这样的对象：
 
-<img alt="" src=images/Partdesign_example.jpg  style="width:1024px;">
+<img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 在任何时候，您可以选择原始素描并进行修改，或更改垫或挤压操作的缩放参数，这将更新最终对象。
 
@@ -253,7 +220,7 @@ _[物体捕捉等特殊辅助系统中受益](Draft_Snap/zh-cn.md)。
 
 这样做会给你这个：
 
-<img alt="" src=images/Arch_workflow_example.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -271,7 +238,7 @@ More on the [指南](Tutorials/zh-cn.md) page.
 
 </div>
 
-Freecad, as an open source software, offers the possibility to supplement its workbenches with addons.
+FreeCAD, as an open source software, offers the possibility to supplement its workbenches with addons.
 
 The [Addon](Addon.md) principle is based on the development of a workbench complement. Any user can develop a function that he or she deems to be missing for her/his own needs or, ultimately, for the community. With the forum, the user can request an opinion, help on the forum. It can share, or not, the object of its development according to copyright rules to define. Free to her/him. To develop, the user has available [scripting](scripting.md) functions.
 
@@ -305,9 +272,9 @@ There are two types of addons:
 -   [版本 0.16 发行说明](Release_notes_0.16/zh-cn.md) : 检查 FreeCAD 发行版 0.16 的新特性
 -   [版本 0.15 发行说明](Release_notes_0.15/zh-cn.md) : 检查 FreeCAD 发行版 0.15 的新特性
 -   [版本 0.14 发行说明](Release_notes_0.14/zh-cn.md) : 检查 FreeCAD 发行版 0.14 的新特性
--   [版本 0.13 发行说明](Release_notes_013/zh-cn.md) : 检查 FreeCAD 发行版 0.13 的新特性
--   [版本 0.12 发行说明](Release_notes_012/zh-cn.md) : 检查 FreeCAD 发行版 0.12 的新特性
--   [版本 0.11 发行说明](Release_notes_011/zh-cn.md) : 检查 FreeCAD 发行版 0.11 的新特性
+-   [版本 0.13 发行说明](Release_notes_0.13/zh-cn.md) : 检查 FreeCAD 发行版 0.13 的新特性
+-   [版本 0.12 发行说明](Release_notes_0.12/zh-cn.md) : 检查 FreeCAD 发行版 0.12 的新特性
+-   [版本 0.11 发行说明](Release_notes_0.11/zh-cn.md) : 检查 FreeCAD 发行版 0.11 的新特性
 
 
 </div>

@@ -146,17 +146,5 @@ rectangle3 = Draft.make_rectangle(3500, 250, placement=place3)
 doc.recompute()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-
-{{Draft Tools navi/de}}
-
-
-{{Userdocnavi/de}}
-
-
-</div>
-
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rectangle/de

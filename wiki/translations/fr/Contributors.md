@@ -5,9 +5,9 @@
 
 FreeCAD ne serait pas ce qu\'il est sans les contributions généreuses de beaucoup de personnes. Voici un aperçu des gens et entreprises qui ont contribuer à FreeCAD avec leur temps. Pour les crédits des bibliothèques tierces voire la page des [Bibliothèques tierces](Third_Party_Libraries/fr.md).
 
-### Développement
+## Développement
 
-#### Chefs de projet 
+### Chefs de projet 
 
 Principaux développeurs du projet FreeCAD :
 
@@ -15,7 +15,7 @@ Principaux développeurs du projet FreeCAD :
 -   _
 -   _
 
-#### Principaux développeurs 
+### Principaux développeurs 
 
 Personnes qui travaillent régulièrement dans le code de FreeCAD (extrait de <https://github.com/FreeCAD/FreeCAD/graphs/contributors>):
 
@@ -43,7 +43,7 @@ Personnes qui travaillent régulièrement dans le code de FreeCAD (extrait de <h
 -   [Victor Titov (DeepSOIC)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3888)
 -   [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375)
 
-#### Autre codeurs 
+### Autre codeurs 
 
 Personnes qui ont contribué au code du projet FreeCAD :
 
@@ -82,7 +82,7 @@ Personnes qui ont contribué au code du projet FreeCAD :
 -   triplus
 -   usakhelo
 
-### Entreprises
+## Entreprises
 
 Entreprises qui ont fait don de code, d\'actifs ou de temps de développement :
 
@@ -91,7 +91,7 @@ Entreprises qui ont fait don de code, d\'actifs ou de temps de développement :
 -   [KiCad Services Corporation](https://www.kipro-pcb.com/)
 -   [OpeningDesign](https://openingdesign.com)
 
-### Modérateurs dans le Forum 
+## Modérateurs du forum 
 
 Personnes qui sont chargées de maintenir la bonne marche et les règles du [FreeCAD forum](http://forum.freecadweb.org) (retrieved from <http://forum.freecadweb.org/memberlist.php?mode=team>) :
 
@@ -112,9 +112,9 @@ Personnes qui sont chargées de maintenir la bonne marche et les règles du [Fre
 -   [wmayer](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=69)
 -   [yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68)
 
-### Communauté
+## Communauté
 
-Personnes de la communauté qui font beaucoup d\'effort pour aider le projet FreeCAD en étant actif sur le forum ou qui tiennent un blog sur FreeCAD ou qui font des tutoriels vidéo ou font des paquets FreeCAD pour Windows/Linux/MacOS X ou qui ont écrit un livre sur FreeCAD\... (liste par ordre alphabétique) (extrait de <http://forum.freecadweb.org/memberlist.php?mode=&sk=d&sd=d#memberlist>)
+Personnes de la communauté qui font beaucoup d\'effort pour aider le projet FreeCAD en étant actif sur le forum ou qui tiennent un blog sur FreeCAD ou qui font des tutoriels vidéo ou font des paquets FreeCAD pour Windows/Linux/MacOS X ou qui ont écrit un livre sur FreeCAD\... (liste par ordre alphabétique) (extrait de <http://forum.freecadweb.org/memberlist.php?mode=&sk=d&sd=d#memberlist>).
 
 -   [bejant](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1940)
 -   [Brad Collette](http://www.packtpub.com/freecad-solid-modeling-with-python/book)
@@ -134,12 +134,12 @@ Personnes de la communauté qui font beaucoup d\'effort pour aider le projet Fre
 -   [peterl94](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1819)
 -   [pperisin](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=356)
 -   _
--   _
+-   _ (renatorivo)
 -   _
 -   [triplus](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=782)
 -   [ulrich1a](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1928)
 
-### Créateurs de pages de documentation 
+## Rédacteurs de la documentation 
 
 Personnes écrivant des pages de documentation dans le [wiki](Main_Page/fr.md) :
 
@@ -155,7 +155,7 @@ Personnes écrivant des pages de documentation dans le [wiki](Main_Page/fr.md) :
 -   _
 -   _
 
-### Traducteurs
+## Traducteurs
 
 Personnes aidant pour la traduction des textes dans le programme FreeCAD (extrait de <https://crowdin.com/project/freecad>) :
 
@@ -219,8 +219,9 @@ Personnes aidant pour la traduction des textes dans le programme FreeCAD (extrai
 -   _
 -   _
 -   _
+-   _
 
-### Développeurs d\'Addons 
+## Développeurs d\'Addons 
 
 Développeurs d\'ateliers supplémentaires pour FreeCAD (extrait de <https://github.com/FreeCAD/FreeCAD-addons>) :
 

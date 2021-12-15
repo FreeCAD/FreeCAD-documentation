@@ -25,7 +25,7 @@ This tool creates B-Spline curve from its control points. (See [this page](B-Spl
 
 -   It is possible to define the weight of the control points by changing the radii of the weight circles. The equality constraints on the circles need to be deleted first. The radius constraint is arbitrary, the weight of the control points will be defined by the relative radii of the circles. It works similar to gravity: the bigger a circle is in relation to the others, the more the curve will be attracted to the control point.
 -   The visibility of the control polygon, the curvature comb, the degree and the knot multiplicity can be toggled on/off from the [B-spline tools](Sketcher_Workbench#Sketcher_B-spline_tools.md) toolbar.
--   Check out the other tools in the [B-Spline tools](Sketcher_Workbench#Sketcher_B-Spline_tools.md) toolbar for more B-Spline editing tools.
+-   Check out the other tools in the [B-spline tools](Sketcher_Workbench#Sketcher_B-spline_tools.md) toolbar for more B-Spline editing tools.
 
 ## Limitations
 

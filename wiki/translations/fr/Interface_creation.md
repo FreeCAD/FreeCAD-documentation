@@ -1,4 +1,6 @@
 # Interface creation/fr
+{{TOCright}}
+
 ## Introduction
 
 Les utilisateurs avancés ont la possibilité de [Créer des interfaces](Interface_creation/fr.md) pour les aider à produire des outils complexes pour leurs [addons](Addon/fr.md) personnalisés, tels que des [macros](Macros/fr.md) ou des [ateliers](Workbenches/fr.md) complets.
@@ -22,8 +24,6 @@ Dans cette méthode, l\'interface est définie dans un fichier `.ui` (un documen
 -   L\'interface `.ui` peut être utilisée dans une fenêtre autonome (modale), ou dans une fenêtre intégrée (non modale); par conséquent, cette méthode est idéale pour créer des [Panneau des tâches](Task_panel/fr.md) personnalisés.
 -   Puisque le fichier `.ui` décrit juste \"l\'apparence\" de l\'interface, il n\'a pas besoin d\'être lié à un langage de programmation particulier; il peut être utilisé à la fois dans le code [Python](Python/fr.md) et C++.
 
-Pour des exemples sur cette méthode, voir [Création d\'interface avec des fichiers UI](Interface_creation_with_UI_files/fr.md).
-
 ### Interface complètement en code Python 
 
 Dans cette méthode, toute l\'interface est définie par plusieurs appels Python.
@@ -37,9 +37,12 @@ Dans cette méthode, toute l\'interface est définie par plusieurs appels Python
 Pour des exemples sur cette méthode, voir [Création d\'interface complètement en Python](Dialog_creation/fr.md).
 
 
+
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

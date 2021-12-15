@@ -3,7 +3,7 @@
    Name:SheetMetal AddBase
    Name/de:SheetMetal BasisprofilErstellen
    MenuLocation:SheetMetal → Make Base Wall
-   Workbenches:[Blech (SheetMetal)](SheetMetal_Workbench/de.md)
+   Workbenches:[SheetMetal (Blech)](SheetMetal_Workbench/de.md)
    Shortcut:**C** **B**
 ---
 
@@ -13,45 +13,38 @@
 
 Der Befehl <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Basisprofil erstellen](SheetMetal_AddBase/de.md) erzeugt ein SheetMetal-Basisobjekt aus einer Skizze.
 
-
-<div class="mw-translate-fuzzy">
-
-Er erzeugt entweder ein prismatisches Profil aus einer offenen Kontur oder eine Platine aus einem geschlossenen Umriss.
-
-
-</div>
+Aus einer offenen Kontur erzeugt er ein prismatisches **Profil**:
 
 <img alt="" src=images/SheetMetal_AddBase-01.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddBase-02.png  style="width:200px;">
 
-From a closed outline it creates a base **plate** (blank):
+Aus einer geschlossenen Kontur erzeugt er eine Grund**platte** (Platine):
 
 <img alt="" src=images/SheetMetal_AddBase-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddBase-04.png  style="width:200px;">
 
 ## Anwendung
 
-### Profile
+### Profil
 
+1.  Eine <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizze](Sketcher_Workbench/de.md) **mit offener Kontur** auswählen.
+2.  Den Befehl <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Basisobjekt erstellen](SheetMetal_AddBase/de.md) aktivieren durch
+    -   Die Schaltfläche **<img src="images/SheetMetal_AddBase.svg" width=16px> [Basisobjekt erstellen](SheetMetal_AddBase/de.md)**.
+    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_AddBase.svg" width=16px> Basisobjekt erstellen**.
+    -   Das Tastenkürzel: **C** dann **B**.
+3.  Einstellen der Parameter des Profils durch das Ändern der zugehörigen Werte im [Eigenschafteneditor](Property_editor/de.md):
+    -   Die {{PropertyData/de|length}} für die Profillänge.
+    -   Die {{PropertyData/de|thickness}} für die Profilwandstärke.
+    -   Die {{PropertyData/de|radius}} für den Innenradius der Bögen.
 
-<div class="mw-translate-fuzzy">
+### Platine
 
-Dieses Werkzeug erzeugt ein Blech auf der Basis einer Skizze:
-
--   Eine offene Skizzenkontur wird mit einer bestimmten Länge ({{Parameter|length}}) extrudiert und erzeugt ein Blech mit einer gewählten Stärke ({{Parameter|thickness}}) und vorgegebenen Kantradius ({{Parameter|radius}}). Der Parameter {{Parameter|bend side}} bestimmt die Lage des Bleches bezüglich der Skizzenlinie.
--   Eine geschlossene Skizzenkontur wird zu einer Platine mit einer gewählten Stärke ({{Parameter|thickness}}) extrudiert. In diesem Falle werden die Parameter {{Parameter|length}} und {{Parameter|radius}} nicht benutzt.
-
-
-</div>
-
-### Plate
-
-1.  Select a **closed outline** <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md).
-2.  Activate the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [SheetMetal AddBase](SheetMetal_AddBase.md) (see above).
-3.  Adjust the plate\'s parameter by editing the corresponding value in the [Property editor](Property_editor.md):
-    -   The property **thickness** for the thickness of the plate.
+1.  Eine <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizze](Sketcher_Workbench/de.md) **mit geschlossener Kontur** auswählen.
+2.  Den Befehl <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Basisobjekt erstellen](SheetMetal_AddBase/de.md) aktivieren (siehe oben).
+3.  Einstellen der Parameter des Profils durch das Ändern der zugehörigen Werte im [Eigenschafteneditor](Property_editor/de.md):
+    -   Die {{PropertyData/de|thickness}} für die Wandstärke der Platine.
 
 :   
 
-    :   (The properties **length** and **radius** are not used for plates.)
+    :   (Die {{PropertyData/de|length}} und {{PropertyData/de|radius}} werden für Platinen nicht verwendet.)
 
 ## Eigenschaften
 

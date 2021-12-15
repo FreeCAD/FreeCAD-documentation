@@ -67,29 +67,49 @@ Para familiarizarse rápidamente con la estructura y el estilo del wiki de FreeC
 
 El [El centro de usuarios](User_hub/es.md) proporciona un [Índice de contenidos](Online_Help_Toc/es.md). Esto se utiliza como referencia principal para construir automáticamente la ayuda offline que puedes alcanzar desde FreeCAD, así como la documentación offline en PDF.
 
+
+<div class="mw-translate-fuzzy">
+
 La _ se utiliza para enlazar secuencialmente las páginas, siguiendo la estructura del [Índice de contenidos](Online_Help_Toc/es.md). Ver [\#Plantillas](#Plantillas.md) para una lista de todas las plantillas.
+
+
+</div>
 
 ### Nombres de páginas 
 
+
+<div class="mw-translate-fuzzy">
+
 Los nombres de las páginas deben ser cortos, y deben utilizar las mayúsculas y minúsculas: todas las palabras, excepto la primera y los nombres propios, deben ir en minúsculas. Este es el estilo [utilizado por Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Capital_letters#Headings,_headers,_and_captions) para sus artículos.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 
 Malo Nombre de página:
 :   Construction Of AeroCompany Airplanes
 
 
+</div>
 
+
+<div class="mw-translate-fuzzy">
 
 
 Buen nombre de página:
 :   Construction of AeroCompany airplanes
 
-Los nombres de las páginas de los ambientes de trabajo de nivel superior deben tener este formato XYZ Workbench, donde XYZ es el nombre del ambiente de trabajo, por ejemplo [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md). Y los nombres de las páginas que describen los comandos (o herramientas) pertenecientes a un banco de trabajo deben tener este formato XYZ Command, por ejemplo [DiseñoPieza Alcolchado](PartDesign_Pad/es.md). Ten en cuenta que debes utilizar el nombre del comando tal y como aparece en el código fuente.
 
-A previous convention was to use title case: every word should begin with a capital letter, unless they are articles, prepositions, conjunctions, or other grammatical particles (f.e. \'of\', \'on\', \'in\', \'a\', \'an\', \'and\'). There are many existing pages using this style, but it is discouraged for new pages. This was discussed in the forum thread [(Lowercase links) Use a lower case title for a wiki page](https://forum.freecadweb.org/viewtopic.php?p=266029#p266029).
+</div>
+
+Los nombres de las páginas de los ambientes de trabajo de nivel superior deben tener este formato XYZ Workbench, donde XYZ es el nombre del ambiente de trabajo, por ejemplo [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md). Y los nombres de las páginas que describen los comandos (o herramientas) pertenecientes a un banco de trabajo deben tener este formato XYZ Command, por ejemplo [DiseñoPieza Alcolchado](PartDesign_Pad/es.md). Ten en cuenta que debes utilizar el nombre del comando tal y como aparece en el código fuente.
 
 ### Rúbricas
 
-Like page names, paragraph headings should be short and use sentence case. You should not use H1 headings (= Heading =) in your wiki markup since the page title is automatically added as the main H1 heading.
+Paragraph headings should be short and use sentence case: all words except the first one and proper names, should be in lowercase. You should not use H1 headings (= Heading =) in your wiki markup since the page title is automatically added as the main H1 heading.
 
 ### Enlaces
 
@@ -107,11 +127,11 @@ Good link
 
 The preferred format for a link is:
 
-[name of page](Name_of_page.md)
+[Name of Page](Name_of_Page.md)
 
 Traducido:
 
-[nom de la page](Name_of_page/fr.md)
+[Nom de la Page](Name_of_Page/fr.md)
 
 Note that for the part before the | character, the actual link, case is relevant. If your page name is Name_of_page the link will fail if you type Name_of_Page (upper case P). Before the | character all spaces should be replaced by underscores (_). This is to assist translators using translation software, without the underscores the link would be translated by the software which is undesirable.
 
@@ -567,7 +587,7 @@ See [Glossary](Glossary.md).
 -   [Italiano](Italian_Translation.md)
 -   [Français](French_Translation.md)
 -   [Deutsch](German_Translation.md)
--   [Polish](Polish_translation.md)
+-   [Polish](Polish_Translation.md)
 
 _ _ _ _
 

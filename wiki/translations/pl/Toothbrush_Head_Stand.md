@@ -1,7 +1,7 @@
 # Toothbrush Head Stand/pl
 {{TutorialInfo|Topic=Modeling|Level=Beginner|Author=_|Time=1 hour|FCVersion=0.16 or greater|Files=[https://www.thingiverse.com/thing:2403310 Thingiverse 2403310]}}
 
-## A daily-life problem 
+## Problem z życia codziennego 
 
 Electric toothbrushes rarely come with a head stand, while in a family you will often see multiple heads used with one body. Many people facing a common problem lead us to a variety of solutions, as you can see on Thingiverse (200-800 projects are related to that). Here is the first answer and how to design it.
 

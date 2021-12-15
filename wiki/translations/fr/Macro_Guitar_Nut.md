@@ -27,8 +27,8 @@ Le diamètre de chaque chaîne est configurable et les fentes peuvent être rend
 
 ## Utilisation
 
-1.  Télécharger la macro depuis [Addon Manager](Addon_Manager/fr.md)
-2.  Exécuter macro
+1.  Télécharger la macro depuis le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md)
+2.  Exécuter la macro
 
 ## Limitations
 

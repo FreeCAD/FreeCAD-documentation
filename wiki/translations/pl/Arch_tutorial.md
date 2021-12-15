@@ -366,7 +366,7 @@ Teraz, gdy patrzymy na naszą tylną elewację i porównujemy ją z planem, widz
 
 <img alt="" src=images/Arch_tutorial_41.jpg  style="width:1024px;">
 
-Mamy oczywiście kilka sposobów, aby to zrobić, odejmowanie objętości byłoby łatwym sposobem, ale niepotrzebnie skomplikowałoby model. Lepiej zmontować linię główną każdego z pięter. Tutaj właśnie zaczyna działać tryb [Draft Edit](Draft_Edit/pl.md). Rozwijając zawartość tych pięter w widoku drzewa, a następnie czyniąc ich linie bazowe widocznymi, możemy je następnie kliknąć dwukrotnie, aby wejść w tryb edycji. Tam możemy przenieść ich punkty, lub [dodać](Draft_AddPoint/pl.md) nowe albo [usunąć](Draft_DelPoint/pl.md) wybrane punkty. Dzięki temu, edycja naszych płyt podłogowych staje się łatwa.
+Mamy oczywiście kilka sposobów, aby to zrobić, odejmowanie objętości byłoby łatwym sposobem, ale niepotrzebnie skomplikowałoby model. Lepiej zmontować linię główną każdego z pięter. Tutaj właśnie zaczyna działać tryb [Draft Edit](Draft_Edit/pl.md). Rozwijając zawartość tych pięter w widoku drzewa, a następnie czyniąc ich linie bazowe widocznymi, możemy je następnie kliknąć dwukrotnie, aby wejść w tryb edycji. Tam możemy przenieść ich punkty, lub dodać nowe albo usunąć wybrane punkty. Dzięki temu, edycja naszych płyt podłogowych staje się łatwa.
 
 <img alt="" src=images/Arch_tutorial_42.jpg  style="width:1024px;">
 

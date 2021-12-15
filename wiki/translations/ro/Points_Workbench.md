@@ -15,12 +15,7 @@ Un nor de puncte este o colecție de puncte în spațiul 3D. Un nor de puncte es
 
 Aceste scule și instrumente sunt deja disponibile:
 
--   <img alt="" src=images/Points_Import_Point_cloud.svg  style="width:32px;"> [Import](Points_Import.md): importă un nor de puncte dintr-un fișier text.
--   <img alt="" src=images/Points_Export_Point_cloud.svg  style="width:32px;"> [Export](Points_Export.md): exports a point cloud to a text file.
--   [Transform](Points_Transform.md): transforms a point cloud.
--   [Convert](Points_Convert.md): converts to points.
--   <img alt="" src=images/PolygonPick.svg  style="width:32px;"> [Polygon cut](Points_PolyCut.md): cuts a point cloud with a picked polygon.
--   [Merge](Points_Merge.md): fuzionează câțiva nori de puncte într-unul singur.
+All Points Workbench tools can be accessed from the **Points** menu. Some tools are also available in the **Points tools** toolbar.
 
 -   <img alt="" src=images/Points_Convert.svg  style="width:32px;"> [Convert to points\...](Points_Convert.md): Creates point clouds from shape objects.
 
@@ -40,7 +35,7 @@ Aceste scule și instrumente sunt deja disponibile:
 <div class="mw-translate-fuzzy">
 
 Bineînțeles că ați putea folosi și Atelierul de lucru Draft în cadrul FreeCAD și să conectați punctele folosind elemente de proiect.
-Utilizarea metodei de ancorare [Endpoint](Draft_Endpoint.md) va asigura că instrumentele ancorează punctele importate.
+Utilizarea metodei de ancorare [Endpoint](Draft_Snap_Endpoint.md) va asigura că instrumentele ancorează punctele importate.
 
 
 </div>

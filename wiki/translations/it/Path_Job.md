@@ -75,7 +75,7 @@ La finestra di dialogo della GUI della lavorazione ha cinque schede allineate or
 
 <div class="mw-translate-fuzzy">
 
-Aggiunge gli utensili necessari per le operazioni di questa lavorazione dalla [Tabella utensili](Path_EditToolsTable/it.md).
+Aggiunge gli utensili necessari per le operazioni di questa lavorazione dalla [Tabella utensili](Path_ToolLibraryEdit/it.md).
 
 
 </div>

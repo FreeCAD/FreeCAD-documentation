@@ -15,7 +15,7 @@ PySide (previously PyQt) is required by several modules of FreeCAD to access Fre
 
 **Note:** FreeCAD progressively moved away from PyQt after version 0.13, in favour of [PySide](http://qt-project.org/wiki/PySide), which does exactly the same job but has a license (LGPL) more compatible with FreeCAD.
 
-### Installation
+## Instalacja
 
 #### Linux
 
@@ -171,7 +171,7 @@ Working with setProperty (PyQt4) and setValue (PySide)
 self.doubleSpinBox.setProperty("value", 10.0)  # PyQt4
 ```
 
-replace with :
+zastąp:
 
 
 ```python
@@ -185,14 +185,14 @@ Working with setToolTip
 self.doubleSpinBox.setToolTip(_translate("MainWindow", "Coordinate placement Axis Y", None))  # PyQt4
 ```
 
-replace with :
+zastąp:
 
 
 ```python
 self.doubleSpinBox.setToolTip(_fromUtf8("Coordinate placement Axis Y"))  # PySide 
 ```
 
-or :
+lub:
 
 
 ```python
@@ -215,7 +215,7 @@ Some pyQt4 tutorials (including how to build interfaces with Qt Designer to use 
 
 Pivy is a needed by several modules to access the 3D view of FreeCAD. On windows, Pivy is already bundled inside the FreeCAD installer, and on Linux it is usually automatically installed when you install FreeCAD from an official repository. On MacOSX, unfortunately, you will need to compile pivy yourself.
 
-### Installation 
+### Installation
 
 #### Prerequisites
 

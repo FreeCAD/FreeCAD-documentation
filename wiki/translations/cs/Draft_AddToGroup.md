@@ -5,7 +5,7 @@
    MenuLocation:Draft -> Display option -> Add to group
    Workbenches:[Kreslení](Draft_Workbench/cs.md), [Architektura](Arch_Workbench/cs.md)
    Shortcut:
-   SeeAlso:[Draft SelectGroup](Draft_SelectGroup/cs.md), [Std CreateGroup](Std_CreateGroup/cs.md)
+   SeeAlso:[Draft SelectGroup](Draft_SelectGroup/cs.md), [Std Group](Std_Group/cs.md)
 ---
 
 # Draft AddToGroup/cs

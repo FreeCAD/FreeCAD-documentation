@@ -51,9 +51,7 @@ help("print")
 
 Obtendrá una larga y completa descripción de todo lo que puede hacer el comando `print()`.
 
-Ahora que entiendes el intérprete de Python, podemos continuar con las cosas más serias.
-
-[inicio](#top.md)
+Ahora que entiendes el intérprete de Python, podemos continuar con las cosas más serias. {{Top}}
 
 ## Variables
 
@@ -94,9 +92,7 @@ print(var2)
 
 Es aconsejable dar nombres significativos a sus variables. Después de un tiempo no recordarás qué representa tu variable llamada `a`. Pero si la nombras, por ejemplo, `myWelcomeMessage` recordarás fácilmente su propósito. Además, tu código está un paso más cerca de ser auto-documentado.
 
-El caso es muy importante, `myVariable` no es lo mismo que `myvariable`. Si se introdujera `print(myvariable)` se obtendría un error como no definido.
-
-[inicio](#top.md)
+El caso es muy importante, `myVariable` no es lo mismo que `myvariable`. Si se introdujera `print(myvariable)` se obtendría un error como no definido. {{Top}}
 
 ## Números
 
@@ -198,7 +194,8 @@ myVar = "hello friends"
 myVar
 ```
 
-[inicio](#top.md)
+
+{{Top}}
 
 ## Listas
 
@@ -240,9 +237,7 @@ myvar[2]
 
 Normalmente, lo que se puede hacer con las listas también se puede hacer con las cadenas. De hecho, tanto las listas como las cadenas son secuencias.
 
-Además de las cadenas, los enteros, los flotadores y las listas, hay más tipos de datos incorporados, como los diccionarios, e incluso puedes crear tus propios tipos de datos con clases.
-
-[inicio](#top.md)
+Además de las cadenas, los enteros, los flotadores y las listas, hay más tipos de datos incorporados, como los diccionarios, e incluso puedes crear tus propios tipos de datos con clases. {{Top}}
 
 ## Indentación
 
@@ -275,7 +270,7 @@ print("----")
 print(total)
 ```
 
-Si ha ejecutado los ejemplos de código en un intérprete copiando y pegando, encontrará que el bloque de texto anterior arrojará un error. En su lugar, copie hasta el final del bloque sangrado, es decir, el final de la línea `total <nowiki>=</nowiki> total + number` y luego pegue en el intérprete. En el intérprete pulsa {{Key|Intro}} hasta que desaparezca el aviso de los tres puntos y se ejecute el código. A continuación, copia las dos últimas líneas seguidas de otro **Intro**. Debería aparecer la respuesta final.
+Si ha ejecutado los ejemplos de código en un intérprete copiando y pegando, encontrará que el bloque de texto anterior arrojará un error. En su lugar, copie hasta el final del bloque sangrado, es decir, el final de la línea `total <nowiki>=</nowiki> total + number` y luego pegue en el intérprete. En el intérprete pulsa **Intro** hasta que desaparezca el aviso de los tres puntos y se ejecute el código. A continuación, copia las dos últimas líneas seguidas de otro **Intro**. Debería aparecer la respuesta final.
 
 Si escribe en el intérprete `help(range)` verá:
 
@@ -341,7 +336,8 @@ else:
     print("Such Dalton doesn't exist!")
 ```
 
-[inicio](#top.md)
+
+{{Top}}
 
 ## Funciones
 
@@ -375,9 +371,7 @@ def sum(val1, val2):
 myTotal = sum(45, 34)
 ```
 
-Aquí hicimos una función que recibe dos argumentos, los suma y devuelve ese valor. Devolver algo es muy útil, porque podemos hacer algo con el resultado, como almacenarlo en la variable `myTotal`.
-
-[inicio](#top.md)
+Aquí hicimos una función que recibe dos argumentos, los suma y devuelve ese valor. Devolver algo es muy útil, porque podemos hacer algo con el resultado, como almacenarlo en la variable `myTotal`. {{Top}}
 
 ## Módulos
 
@@ -473,7 +467,8 @@ Sin embargo, hay una alternativa:
 exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 ```
 
-[inicio](#top.md)
+
+{{Top}}
 
 ## Empezando con FreeCAD 
 
@@ -484,19 +479,30 @@ Esperemos que ahora tengas una buena idea de cómo funciona Python, y puedas emp
 dir()
 ```
 
-[inicio](#top.md)
+
+{{Top}}
 
 ## Notas
 
 -   FreeCAD fue diseñado originalmente para trabajar con Python 2. Desde que Python 2 llegó al final de su vida en 2020, el desarrollo futuro de FreeCAD se hará exclusivamente con Python 3, y no se soportará la compatibilidad hacia atrás.
 -   Se puede encontrar mucha más información sobre Python en el [tutorial oficial de Python](https://docs.python.org/3/tutorial/index.html) y en la [referencia oficial de Python](https://docs.python.org/3/reference/).
 
-[inicio](#top.md)
+
+{{Top}}
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/es|Macros/es|Python scripting tutorial/es}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

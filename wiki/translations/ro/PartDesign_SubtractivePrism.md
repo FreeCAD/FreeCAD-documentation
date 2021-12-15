@@ -25,7 +25,7 @@ Inserați o prismă substractivă în Corpul activ. Forma sa este scăzută/extr
 <div class="mw-translate-fuzzy">
 
 1.  Apăsați butonul **<img src="images/PartDesign_SubtractivePrism.png" width=24px> '''Subtractive Prism'''**. **Notă**: Prisma substractivă este parte a meniul de iocnițe denumit/etichetat *Create an subtractive primitive*. După lansarea FreeCAD, Cubul Substractiv este afișat în bara de instrumente. Pentru a obține Prisma, click pe săgeata în jos dincolo de isonițele vizibile și selectați Prisma Substractivă din meniu
-2.  Parametrii Primitivei și [Attachment](Part_Attachment.md).
+2.  Parametrii Primitivei și [Attachment](Part_EditAttachment.md).
 3.  Click **OK**.
 4.  Funcționalitatea Prismă apare sub Corpul activ.
 
@@ -52,7 +52,7 @@ Prisma poate fi definită după crearea sa în două moduri:
 
 <div class="mw-translate-fuzzy">
 
--    **Attachment**: definește modul attachment ca și Attachment Offset. Vezi [Part Attachment](Part_Attachment.md).
+-    **Attachment**: definește modul attachment ca și Attachment Offset. Vezi [Part EditAttachment](Part_EditAttachment.md).
 
 -    **Label**: NUme/etichetă dată obiectului Prismă. Schimbați dacă nevoile dvs o cer.
 

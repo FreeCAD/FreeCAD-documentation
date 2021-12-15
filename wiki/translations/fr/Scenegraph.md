@@ -16,7 +16,10 @@ OpenInventor décrit une scène 3D sous la forme d\'une [Graphe de scène](https
 ![](images/Scenegraph.gif ) 
 *Image prise de [https://web.archive.org/web/20190807185912/http://www-evasion.imag.fr/~Francois.Faure/doc/inventorMentor/sgi_html/ Inventor mentor]*
 
-Un graphe de scène openInventor décrit tout ce qui fait partie d\'une scène 3D, comme la géométrie, les couleurs, les matériaux, les lumières, etc et organise toutes ces données dans une structure pratique et claire. Tout peut être regroupé en sous-structures, ce qui vous permet d\'organiser le contenu de votre scène à peu près comme vous le souhaitez. Voici un exemple de fichier openInventor: {{Code|lang=bash|code=
+Un graphe de scène openInventor décrit tout ce qui fait partie d\'une scène 3D, comme la géométrie, les couleurs, les matériaux, les lumières, etc et organise toutes ces données dans une structure pratique et claire. Tout peut être regroupé en sous-structures, ce qui vous permet d\'organiser le contenu de votre scène à peu près comme vous le souhaitez. Voici un exemple de fichier openInventor:
+
+
+{{Code|lang=bash|code=
 #Inventor V2.0 ascii
  
 Separator { 
@@ -54,25 +57,30 @@ Normalement, dans FreeCAD, nous n\'avons pas besoin d\'interagir directement ave
 Mais il y a de nombreux avantages à accéder directement au scène de graphe. Par exemple, nous pouvons modifier temporairement l\'apparence d\'un objet ou nous pouvons ajouter des objets à la scène qui n\'ont aucune existence réelle dans le document FreeCAD, tels que la géométrie de construction, les aides, les conseils graphiques ou les outils telles que les manipulations ou les informations à l\'écran .
 
 FreeCAD dispose de plusieurs outils pour voir ou modifier le code OpenInventor.
-Par exemple, le code Python suivant, montre la représentation OpenInventor d\'un objet sélectionné: 
+Par exemple, le code Python suivant, montre la représentation OpenInventor d\'un objet sélectionné:
+
+
 ```python
 obj = FreeCAD.ActiveDocument.ActiveObject
 viewprovider = obj.ViewObject
 print viewprovider.toString()
 
-``` Mais nous avons aussi un module Python qui permet un accès complet à toute chose gérée par Coin3D, comme, notre scène graphique FreeCAD.
+```
+
+Mais nous avons aussi un module Python qui permet un accès complet à toute chose gérée par Coin3D, comme, notre scène graphique FreeCAD.
 Alors, lisez la suite sur la page de [pivy](Pivy/fr.md).
 
 ## Exemples de codage 
 
-Voir les [Coin3d snippets](Coin3d_snippets/fr.md) grâce aux recherches de MariwanJ pour l\'[atelier Design456](Design456_Workbench/fr.md). Le dépôt de code de ces exemples se trouve à l\'adresse <https://github.com/MariwanJ/COIN3D_Examples>.
+Voir les [Coin3d snippets](Coin3d_snippets/fr.md) grâce aux recherches de MariwanJ pour l\'[atelier Design456](Design456_Workbench/fr.md). Le dépôt de code de ces exemples se trouve à l\'adresse <https://github.com/MariwanJ/COIN3D_Examples>. {{Top}}
 
-[En haut](#top.md)
+
+
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _
 

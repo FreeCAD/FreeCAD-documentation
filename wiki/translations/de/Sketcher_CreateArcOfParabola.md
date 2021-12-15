@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/de
-   Name:Sketcher Arc of parabola
+   Name:Sketcher CreateArcOfParabola
    Name/de:Skizzierer Parabelbogen
    MenuLocation:Skizze → Skizzierergeometrien → Erstelle einen Parabelbogen
    Workbenches:[Skizzierer](Sketcher_Workbench/de.md)

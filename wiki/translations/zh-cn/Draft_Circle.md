@@ -52,7 +52,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 ## 如何使用
 
 1.  点击**<img src="images/Draft_Circle.png" width=16px> [Draft Circle](Draft_Circle.md)**按钮，或先后按下**C**、**I**键。
-2.  在3D视图中单击第一个点，或输入一个[coordinate并按下](Draft_Coordinates.md)**<img src="images/Draft_AddPoint.svg" width=16px> [add point](Draft_AddPoint.md)**按钮。
+2.  在3D视图中单击第一个点，或输入一个coordinate并按下**<img src="images/Draft_AddPoint.svg" width=16px> add point**按钮。
 3.  在3D视图中单击第二个点，或输入一个半径值。
 
 
@@ -69,7 +69,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   此工具绘制圆形的主要用法就是拾取两点，即圆形的中心点及其圆周上一点。
     -   通过按下**Alt**键，您就可以选取一条切线而非拾取一个点。You can therefore construct several types of circles by selecting one, two or three tangents.
--   为了手动输入坐标，您可以在输入X、Y或Z坐标值后，通过按下**Enter**键切换至下一个坐标分量。您可以在输入点的坐标值后按**<img src="images/Draft_AddPoint.svg" width=16px> [add point](Draft_AddPoint.md)**按钮来插入目标点。
+-   为了手动输入坐标，您可以在输入X、Y或Z坐标值后，通过按下**Enter**键切换至下一个坐标分量。您可以在输入点的坐标值后按**<img src="images/Draft_AddPoint.svg" width=16px> add point**按钮来插入目标点。
 -   按**T**键或单击continue多选框即可切换至*连续*模式。如果开启了连续模式，则圆形工具将在绘制完一个圆形后再次开启，并令您在不用按下圆形工具这一按钮的情况下，继续绘制下一个圆形。
 -   按**L**键或单击filled复选框即可切换至*填充*模式。若开启填充模式，此工具创建的将是一个圆形的面(**Make Face** `True`)；否则创建的仅是一个圆形而非圆面(**Make Face** `False`)。
 -   若希望将点强制绘至[捕捉到的最近位置](Draft_Snap.md)，请按住**Ctrl**键。

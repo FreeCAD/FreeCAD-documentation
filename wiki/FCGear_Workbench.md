@@ -99,7 +99,7 @@ Before [FCGear Workbench](FCGear_Workbench.md) can be started, it must be instal
 
 ### Automatic installation 
 
-The recommended method of installation as of v0.17 is via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md). It can be found in the 
+The recommended method of installation as of v0.17 is via the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). It can be found in the 
 **Tools → Addon Manager**
 
 

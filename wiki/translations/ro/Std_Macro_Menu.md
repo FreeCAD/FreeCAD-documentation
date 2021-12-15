@@ -49,7 +49,7 @@ The following tools are available in this menu:
 
 <div class="mw-translate-fuzzy">
 
-[Stop macro recording](Std_DlgMacroStop.md) încheie sesiunea de înregistrarea macrocomenzii curente
+[Stop macro recording](Std_MacroStopRecord.md) încheie sesiunea de înregistrarea macrocomenzii curente
 
 
 </div>
@@ -77,7 +77,7 @@ The following tools are available in this menu:
 
 <div class="mw-translate-fuzzy">
 
-[Debug macro](Std_DebugMacro.md) pornește sesiunea de depanarea pentru macrocomanda curentă aflată în editorul de macrocomenzi
+[Debug macro](Std_MacroStartDebug.md) pornește sesiunea de depanarea pentru macrocomanda curentă aflată în editorul de macrocomenzi
 
 
 </div>
@@ -85,7 +85,7 @@ The following tools are available in this menu:
 
 <div class="mw-translate-fuzzy">
 
-[Stop debugging](Std_DebugStop.md) încheie sesiunea de depanare.
+[Stop debugging](Std_MacroStopDebug.md) încheie sesiunea de depanare.
 
 
 </div>

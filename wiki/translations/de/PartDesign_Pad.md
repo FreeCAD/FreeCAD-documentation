@@ -11,38 +11,72 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Aufpolsterung](PartDesign_Pad/de.md)** Werkzeug extrudiert eine Skizze zu einem Festkörper senkrecht zur Ebene der Skizzenfläche. Ab {{VersionPlus/de|0.17}} können auch Flächen auf dem Festkörper verwendet werden.
+
+
+</div>
 
 ![](images/PartDesign_Pad_example.svg )
 
 *Skizze (A) links und der daraus resultierende Festkörper (B) rechts.*
 
-**Anmerkung:** {{VersionMinus/de|0.16}} Wurde die Aufpolsterung von einer Fläche des Festkörpers, oder eines Formelements dessen, aus erstellt ist das Resultat fest damit verbunden.
-
 ## Benutzung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wähle die Skizze, die aufgepolstert werden soll. **Anmerkung:** Ab <small>(v0.17)</small>  kann alternativ eine Fläche auf dem bestehenden Festkörper verwendet werden.
 2.  Drücke die **<img src="images/PartDesign_Pad.svg" width=16px> '''Aufpolstern'''** Taste.
 3.  Setze die Aufpolsterparameter, siehe [Optionen](#Options.md) unten.
 4.  Klicke **OK**.
 
+
+</div>
+
 ## Optionen
 
+
+<div class="mw-translate-fuzzy">
+
 Währen des Aufpolsterns schaltet die Kombiansicht in den Aufgabenbereich und zeigt dort den **Parameter der Aufpolsterung** Dialog.
+
+
+</div>
 
 ![](images/pad_parameters_cropped.png )
 
 ### Typ
 
+
+<div class="mw-translate-fuzzy">
+
 Typ bietet fünf verschiedene Möglichkeiten zum Festlegen der Länge, auf welche extrudiert werden soll.
+
+
+</div>
 
 #### Bemaßung
 
+
+<div class="mw-translate-fuzzy">
+
 Gib einen numerischen Wert für die Länge des Polsters ein. Die Standardrichtung für die Extrusion ist in Richtung positiver Normale des extrudierten Objekts, dies kann geändert werden, indem Sie die Option \'\' \'Umgekehrt\' \'\' ankreuzen. Extrusionen erfolgen [normal](http://en.wikipedia.org/wiki/Surface_normal) zur definierenden Ebene. Mit der Option \'Symmetrisch zu Ebene\' \'wird die Fläche um die Hälfte der gegebenen Länge auf jede Seite der Ebene verlängert. Negative Dimensionen sind nicht möglich. Verwenden Sie stattdessen die Option \'\' \'Umgekehrt\' \'\'.
+
+
+</div>
 
 #### Zwei Abmessungen 
 
+
+<div class="mw-translate-fuzzy">
+
 Dies ermöglicht die Eingabe einer zweiten Länge, in der sich das Polster in die entgegengesetzte Richtung (in die Halterung) erstrecken soll. Auch hier kann die Länge durch anhaken der **Umgekehrt** Option geändert werden.
+
+
+</div>
 
 #### Zur letzten 
 
@@ -54,20 +88,42 @@ Die Aufpolsterung wird in Extrusionsrichtung bis zur ersten Seite des tragenden 
 
 #### Bis zur Fläche 
 
+
+<div class="mw-translate-fuzzy">
+
 Die Aufpolsterung wird zu einer Fläche im Ausgangskörper extrudiert, welche durch Klicken ausgewählt werden kann. Wenn keine Fläche vorhanden ist, werden keine Auswahlmöglichkeiten akzeptiert.
+
+
+</div>
 
 ### Länge
 
+
+<div class="mw-translate-fuzzy">
+
 Definiert die Länge der Extrusion(m, cm, mm, nm, ft oder \', in oder \"). Einheiten können unabhängig von der gewählten Standardeinheit angegeben werden.
+
+
+</div>
+
+### Versatz zur Fläche 
+
+
+<div class="mw-translate-fuzzy">
+
+Versatz von der Fläche, in der das Polster enden soll. Diese Option ist nur verfügbar, wenn **Typ** entweder **Zur letzten**, **Zur ersten** oder **Bis zur Fläche** ist.
+
+
+</div>
 
 ### Direction
 
 #### Direction/edge
 
-You can select the direction of the padding:
+You can select the direction of the extrusion:
 
--   **Sketch normal** The sketch is extruded along its normal
--   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model. This becomes then the direction vector for the padding. <small>(v0.20)</small> 
+-   **Face/Sketch normal** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
+-   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
 -   **Custom direction** The sketch is extruded along a direction that can be specified via vector values. <small>(v0.19)</small> 
 
 
@@ -99,19 +155,24 @@ Wenn angehakt, ist die Polster Richtung nicht der Normalenvektor der Skizze, son
 
 Wenn angehakt, wird die Polsterlänge entlang der Skizzen Normalen gemessen, sonst entlang der benutzerdefinierten Richtung. {{Version/de|0.20}}
 
-### Versatz zur Fläche 
-
-Versatz von der Fläche, in der das Polster enden soll. Diese Option ist nur verfügbar, wenn **Typ** entweder **Zur letzten**, **Zur ersten** oder **Bis zur Fläche** ist.
-
 ### Symmetrisch zur Ebene 
 
+
+<div class="mw-translate-fuzzy">
+
 Diese Option extrudiert die Gesamtlänge exakt hälftig in beide Richtungen.
+
+
+</div>
 
 ### Umgekehrt
 
 Kehrt die Extrusionsrichtung um.
 
 ## Eigenschaften
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Typ**: Art und Weise, wie das Polster extrudiert wird, siehe [Optionen](#Options.md).
 
@@ -130,6 +191,9 @@ Kehrt die Extrusionsrichtung um.
 -    **Versatz**: Versatz von der Fläche, in der das Polster enden wird. Dies wird nur berücksichtigt, wenn die **Typ** Option **BisZurLetzen**, **BisZurErsten** oder **BisZurFläche** verwendet wird.
 
 -    **Verfeinern**: {{VersionPlus/de|0.17}} true oder false. Bereingt überflüssige entstandene Kanten nach der Berechnung. Diese Option richtet sich nach den Vorgeben des Benutzers in den Grundeinstellungen (zu finden in *Einstellungen → Part design → Allgemein → Modelleinstellungen*). Sie kann nachträglich manuell geändert werden. Diese Eigenschaft wird mit dem FreeCAD Dokument gespeichert.
+
+
+</div>
 
 ## Begrenzungen
 

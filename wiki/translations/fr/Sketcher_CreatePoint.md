@@ -10,27 +10,20 @@
 
 ## Description
 
-L\'outil Point crée un point dans l\'esquisse en cours, qui peut être utilisé pour construire des éléments de géométrie. Le point est un élément de construction et n\'apparaîtra jamais dans la vue 3D.
+L\'outil Point crée un point dans l\'esquisse en cours, qui peut être utilisé pour construire des éléments de géométrie.
 
-_ 
+_
 
 ## Utilisation
 
--   Cliquez sur le bouton **<img src="images/Sketcher_CreatePoint.svg" width=24px> Créer un point**, pour activer la fonction.
--   Cliquez dans l\'esquisse pour créer un ou plusieurs Point(s).
+-   Cliquez sur le bouton **<img src="images/Sketcher_CreatePoint.svg" width=24px> Créer un point** pour activer la fonction.
+-   Cliquez dans l\'esquisse pour créer un point.
 -   Pressez sur la touche **Echap** ou sur le bouton droit de la souris pour quitter la fonction.
 
 ## Options
 
-Un mode d\'accrocher à la grille peut être défini dans la page des [Préférences](Sketcher_Preferences/fr.md) du sketcher.
-
-Le point s\'aligne alors sur la grille, s\'il a une distance de grille inférieure à 25% par rapport à une ligne de grille.
-
-Le mode d\'accrochage ne fixe pas les points sur la grille. Les points peuvent être déplacés avec la souris ou des contraintes vers d\'autres emplacements.
-
-## Limitations
-
-Le point créé n\'est pas disponible en dehors de l\'esquisse. Dans le cas où un point de référence est nécessaire dans la vue 3D, utilisez [PartDesign Point](PartDesign_Point/fr.md) ou [Part Point](Part_Point/fr.md) à la place.
+-   Par défaut, les points sont créés en tant que géométrie de construction et ne sont donc pas visibles en dehors du mode d\'édition Sketch. Utilisez l\'outil <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:16px;"> [Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md) pour les transformer en géométrie normale. {{Version/fr|0.19}}
+-   Un mode d\'accrochage à la grille peut être défini dans le menu [Sketcher Préférences](Sketcher_Preferences/fr.md). Le point s\'accroche alors à la grille, s\'il a moins de 25% de distance à une ligne de la grille. Le mode d\'accrochage ne fixe pas le point sur la grille. Il possède toujours deux degrés de liberté et peut être déplacé avec la souris ou contraint à d\'autres emplacements.
 
 
 

@@ -1,6 +1,14 @@
-# Std Workbench/ro
 ---
-- GuiCommand:   Name:Std Workbench   MenuLocation:[[Std View Menu   View]] → Workbench|Workbenches:All   Shortcut:...   SeeAlso:...---
+- GuiCommand:
+   Name:Std Workbench
+   Empty:1
+   MenuLocation:[View](Std_View_Menu.md) → Workbench
+   Workbenches:All
+   Shortcut:
+   SeeAlso:
+---
+
+# Std Workbench/ro
 
 
 </div>

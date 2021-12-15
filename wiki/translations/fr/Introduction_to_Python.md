@@ -51,9 +51,7 @@ help("print")
 
 Vous obtiendrez une description longue et complète de tout ce que la commande `print()` peut faire.
 
-Maintenant que vous comprenez l\'interpréteur Python, nous pouvons continuer avec des choses plus sérieuses.
-
-[En haut](#top.md)
+Maintenant que vous comprenez l\'interpréteur Python, nous pouvons continuer avec des choses plus sérieuses. {{Top}}
 
 ## Les Variables 
 
@@ -94,9 +92,7 @@ print(var2)
 
 Il est conseillé de donner des noms significatifs à vos variables. Après un certain temps, vous ne vous souviendrez plus de ce que représente votre variable nommée `a`. Mais si vous l\'avez nommée, par exemple, `myWelcomeMessage` vous vous souviendrez facilement de son objectif. De plus, votre code est un pas supplémentaire vers l\'auto-documentation.
 
-La casse est très importante, `myVariable` n\'est pas la même chose que `myvariable`. Si vous deviez entrer `print(myvariable)`, il produirait une erreur \"not defined\" (non défini).
-
-[En haut](#top.md)
+La casse est très importante, `myVariable` n\'est pas la même chose que `myvariable`. Si vous deviez entrer `print(myvariable)`, il produirait une erreur \"not defined\" (non défini). {{Top}}
 
 ## Les Nombres 
 
@@ -198,7 +194,8 @@ myVar = "hello friends"
 myVar
 ```
 
-[En haut](#top.md)
+
+{{Top}}
 
 ## Les Listes (Tableaux) 
 
@@ -240,9 +237,7 @@ myvar[2]
 
 Habituellement ce que vous pouvez faire avec des listes peut également être fait avec les chaînes de caractères. En fait, les listes et les chaînes de caractères sont des séquences.
 
-Outre les chaînes de caractères, les entiers, les flottants et les listes, il existe davantage de types de données intégrés, tels que les dictionnaires et vous pouvez même créer vos propres types de données avec des classes.
-
-[En haut](#top.md)
+Outre les chaînes de caractères, les entiers, les flottants et les listes, il existe davantage de types de données intégrés, tels que les dictionnaires et vous pouvez même créer vos propres types de données avec des classes. {{Top}}
 
 ## L\'indentation
 
@@ -341,7 +336,8 @@ else:
     print("Such Dalton doesn't exist!")
 ```
 
-[En haut](#top.md)
+
+{{Top}}
 
 ## Les Fonctions 
 
@@ -375,9 +371,7 @@ def sum(val1, val2):
 myTotal = sum(45, 34)
 ```
 
-Ici nous avons créé une fonction qui reçoit deux arguments, les additionne et renvoie cette valeur. Renvoyer quelque chose est très utile, car nous pouvons faire quelque chose avec le résultat, comme le stocker dans la variable `myTotal`.
-
-[En haut](#top.md)
+Ici nous avons créé une fonction qui reçoit deux arguments, les additionne et renvoie cette valeur. Renvoyer quelque chose est très utile, car nous pouvons faire quelque chose avec le résultat, comme le stocker dans la variable `myTotal`. {{Top}}
 
 ## Les Modules 
 
@@ -473,7 +467,8 @@ Il existe cependant une alternative :
 exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 ```
 
-[En haut](#top.md)
+
+{{Top}}
 
 ## Démarrer avec FreeCAD 
 
@@ -484,19 +479,24 @@ Espérons que vous avez maintenant une bonne idée du fonctionnement de Python e
 dir()
 ```
 
-[En haut](#top.md)
+
+{{Top}}
 
 ## Notes
 
 -   FreeCAD a été initialement conçu pour fonctionner avec Python 2. Puisque Python 2 a atteint la fin de sa vie en 2020, le développement futur de FreeCAD se fera exclusivement avec Python 3 et la compatibilité descendante ne sera pas prise en charge.
 -   Beaucoup plus d\'informations sur Python peuvent être trouvées dans le [tutoriel Python officiel](https://docs.python.org/3/tutorial/index.html) et la [référence officielle Python](https://docs.python.org/3/reference/).
 
-[En haut](#top.md)
+
+{{Top}}
+
+
+
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

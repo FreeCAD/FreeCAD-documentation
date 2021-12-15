@@ -14,7 +14,7 @@ Jest kilka obszarów, w których z zadowoleniem przyjmiemy twoje zaangażowanie:
 
 -   Strona _ wyszczególnia i dokumentuje wszystkie [polecenia](command.md) FreeCAD. Wiele z nich zawiera niewiele lub nie zawiera żadnych informacji. Proszę zajrzeć do [Wiki](WikiPages/pl.md), aby znaleźć dobre przykłady tego, jak powinny wyglądać strony dokumentacji poleceń.
 -   Sekcja [Tutoriale](Tutorials/pl.md) potrzebuje przykładów, jak używać Środowisk pracy. Jeśli opracowałeś coś fajnego z FreeCAD, dlaczego nie udokumentować jak to zrobiłeś, dla dobra początkujących?
--   Są otwarte wejściówki na FreeCAD [bugtracker](bugtracker.md) oznaczone [\"dokumentacja\"](https://freecadweb.org/tracker/search.php?tag_string=documentation), które mogą potrzebować trochę miłości.
+-   Są otwarte wejściówki na FreeCAD [bugtracker](Tracker/pl.md) oznaczone [\"dokumentacja\"](https://freecadweb.org/tracker/search.php?tag_string=documentation), które mogą potrzebować trochę miłości.
 
 ## Dziel się swoją wiedzą na temat FreeCAD 
 

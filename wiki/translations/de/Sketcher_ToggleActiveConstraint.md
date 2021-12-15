@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Skizzierer UmschaltenAktiveBeschränkung
+   Name:Sketcher ToggleActiveConstraint
+   Name/de:Skizzierer UmschaltenAktiveBeschränkung
    Workbenches:[Skizzierer](Sketcher_Workbench/de.md)
    MenuLocation:Skizze → Skizzierer Beschränkungen → Umschalten Aktivieren/Deaktivieren Beschränkung
    SeeAlso:[Sketcher Umschalten treibende Beschränkungen](Sketcher_ToggleDrivingConstraint.md)

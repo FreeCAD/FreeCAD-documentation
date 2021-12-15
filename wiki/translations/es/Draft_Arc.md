@@ -48,7 +48,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Presiona el botón **<img src="images/Draft_Arc.png" width=16px> [Arco](Draft_Arc/es.md)
 **, o presiona las teclas **A** y **R**
-2.  Indica un primer punto en la vista 3D, o escribe unas [coordenadas](Draft_Coordinates/es.md)
+2.  Indica un primer punto en la vista 3D, o escribe unas coordenadas
 3.  Indica un segundo punto en la vista 3D, o introduce el valor del radio
 4.  Indica un tercer punto en la vista 3D, o introduce un ángulo de inicio
 5.  Indica un cuarto punto en la vista 3D, o introduce un ángulo final

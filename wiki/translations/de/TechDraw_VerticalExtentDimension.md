@@ -5,7 +5,7 @@
    MenuLocation:TechDraw → Bemaßung → Maß für die vertikale Ausdehnung einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
-   SeeAlso:[TechDraw Bemaßung Länge](TechDraw_Dimension_Length/de.md), [TechDraw Bemaßung Horizontale Ausdehnung](TechDraw_Dimension_Horizontal_Extent/de.md)
+   SeeAlso:[TechDraw Bemaßung Länge](TechDraw_LengthDimension/de.md), [TechDraw Bemaßung Horizontale Ausdehnung](TechDraw_HorizontalExtentDimension/de.md)
 ---
 
 # TechDraw VerticalExtentDimension/de
@@ -32,7 +32,7 @@ Das Werkzeug Vertikale Ausdehnung Bemaßen fügt einer Ansicht eine lineare Bema
 <div class="mw-translate-fuzzy">
 
 1.  Wähle eine Ansicht oder eine Sammlung von Kanten in einer Ansicht aus.
-2.  Drücke die **<img src="images/TechDraw_Dimension_Vertical_Extent.svg" width=16px> [Bemaßen Vertikale Ausdehnung](TechDraw_Dimension_Vertikal_Extent/de.md)** Taste
+2.  Drücke die **<img src="images/TechDraw_VerticalExtentDimension.svg" width=16px> [Bemaßen Vertikale Ausdehnung](TechDraw_VerticalExtentDimension/de.md)** Taste
 3.  Eine Bemaßung wird der Ansicht hinzugefügt. Die Bemaßung kann an die gewünschte Position gezogen werden.
 
 
@@ -43,7 +43,7 @@ Das Werkzeug Vertikale Ausdehnung Bemaßen fügt einer Ansicht eine lineare Bema
 
 <div class="mw-translate-fuzzy">
 
-Bemaßungsobjekte sind anfällig für \"[topologische Benennungs](topological_naming_problem/de.md)\" Probleme. Siehe dazu die Informationen im **<img src="images/TechDraw_Dimension_Length.svg" width=16px> [TechDraw Bemaßung Länge](TechDraw_Dimension_Length/de.md)** Werkzeug für weitere Informationen.
+Bemaßungsobjekte sind anfällig für \"[topologische Benennungs](topological_naming_problem/de.md)\" Probleme. Siehe dazu die Informationen im **<img src="images/TechDraw_LengthDimension.svg" width=16px> [TechDraw Bemaßung Länge](TechDraw_LengthDimension/de.md)** Werkzeug für weitere Informationen.
 
 
 </div>
@@ -53,7 +53,7 @@ Bemaßungsobjekte sind anfällig für \"[topologische Benennungs](topological_na
 
 <div class="mw-translate-fuzzy">
 
-Dieses Objekt hat die gleichen Eigenschaften wie das [TechDraw Bemaßung Länge](TechDraw_Dimension_Length/de.md) Werkzeug. Siehe dieses Werkzeug für Einzelheiten. Ausnahmen vermerkt.
+Dieses Objekt hat die gleichen Eigenschaften wie das [TechDraw Bemaßung Länge](TechDraw_LengthDimension/de.md) Werkzeug. Siehe dieses Werkzeug für Einzelheiten. Ausnahmen vermerkt.
 
 
 </div>

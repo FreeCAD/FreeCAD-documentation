@@ -35,7 +35,7 @@ Acest instrument convertește [ Draft objects](Draft_Workbench.md) la [Sketcher 
 ## Cum se utilizează 
 
 1.  Selectați un obiect Draft sau Sketch
-2.  Apăsați butonul {{KEY | _ [[Draft Draft2Sketch]]}}
+2.  Apăsați butonul {{KEY | <img src="images/_Draft_Draft2Sketch.svg_" width= 16px> [[Draft Draft2Sketch]]}}
 
 
 </div>
@@ -50,15 +50,7 @@ Acest instrument convertește [ Draft objects](Draft_Workbench.md) la [Sketcher 
 
 ## Scripting
 
-
-<div class="mw-translate-fuzzy">
-
-## Script-Programare 
-
-Nu este disponibil, consultați documentația [Module Sketcher](Module_Sketcher.md) pentru a crea schițe prin script-programare
-
-
-</div>
+See also: _.
 
 To convert objects to a sketch use the `make_sketch` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeSketch` method.
 

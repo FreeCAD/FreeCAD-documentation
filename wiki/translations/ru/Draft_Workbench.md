@@ -72,7 +72,7 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [ShapeString](Draft_ShapeString.md): creates a compound shape that represents a text string.
 
--   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the faces of a selected object. <small>(v0.20)</small> 
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the planar faces of a selected object. <small>(v0.20)</small> 
 
 ## Annotation
 
@@ -146,16 +146,7 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 ![](images/Draft_tray_default.png )
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Выбор плоскости](Draft_SelectPlane/ru.md): устанавливает вашу рабочую плоскость для следующих операций из стандартного вида либо выбранной плоскости.
--   <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:32px;"> [Переключить режим конструирования](Draft_ToggleConstructionMode/ru.md): включает и выключает режим конструирования в Draft.
--   <img alt="" src=images/Draft_AutoGroup.svg  style="width:32px;"> _ или [визуальную группу](Draft_VisGroup/ru.md). <small>(v0.17)</small> 
--   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Применить текущий стиль](Draft_Apply/ru.md): устанавливает для выделенных объектов указанный цвет и длину линий.
-
-
-</div>
+-   ![](images/Draft_tray_button_plane.png ) [Select Plane](Draft_SelectPlane.md): selects the current Draft working plane. Also available in the menu: **Draft → Utilities → <img src="images/Draft_SelectPlane.svg" width=16px> Select Plane**.
 
 -   ![](images/Draft_tray_button_style.png ) [Set style](Draft_SetStyle.md): sets the default style for new objects. Also available in the menu: **Draft → Utilities → <img src="images/Draft_SetStyle.svg" width=16px> Set style**. <small>(v0.19)</small> 
 
@@ -183,7 +174,7 @@ The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for 
 
 -   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Snap Endpoint](Draft_Snap_Endpoint.md): snaps to the endpoints of edges.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of straight and circular edges.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of edges.
 
 -   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ and [Arch BuildingParts](Arch_BuildingPart.md).
 
@@ -244,10 +235,8 @@ The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for 
 
 <div class="mw-translate-fuzzy">
 
--   [Работа с координатами вручную](Draft_Coordinates/ru.md): позволяет вводить координаты вручную, вместо указания их на экране.
 -   [Геометрические ограничения](Draft_Constrain/ru.md): ограничивает указатель в горизонтальном или вертикальном перемещении относительно предыдущей точки.
 -   [Привязка](Draft_Snap/ru.md): позволяет разместить новые точки на специальных частях существующих объектов или на сетке.
--   [Copy Mode](Draft_Copying/ru.md): Все инструменты редактирования могут либо модифицировать выделенный объект или создать его модифицированную копию. Нажатие и удержание **Alt** во время модификации объекта, то есть перемещения или вращения, создаёт копию при отпускании клавиши.
 -   [Construction Mode](Draft_ToggleConstructionMode/ru.md): позволяет создавать отдельную от остальной геометрию, просто включая или выключая этот режим.
 -   [Рабочая плоскость](Draft_SelectPlane/ru.md): позволяет задать плоскость в трёхмерном пространстве, где будут проводиться операции с плоскими фигурами
 
@@ -274,9 +263,9 @@ For a [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft Cub
 
 For a [Draft LayerContainer](Draft_Layer.md) these additional options are available:
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> Merge layer duplicates: this option currently does not work.
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Merge layer duplicates](Draft_Layer#Layer_container_options.md): merges all layers with the same base label. This does not work in FreeCAD version 0.19.
 
--   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer.md): adds a new layer to the current document.
+-   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer#Layer_container_options.md): adds a new layer to the current document.
 
 ### Layer options 
 
@@ -308,15 +297,7 @@ If there is an active document the context menu contains one additional sub-menu
 
 Эти инструменты удалены из интерфейса в v0.19, поскольку в них больше нет нужды.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Draft_FinishLine.svg  style="width:32px;"> _ или [сплайна](Draft_BSpline/ru.md) без их замыкания.
--   <img alt="" src=images/Draft_CloseLine.svg  style="width:32px;"> _ или [сплайна](Draft_BSpline/ru.md), и замыкает их.
--   <img alt="" src=images/Draft_UndoLine.svg  style="width:32px;"> _.
-
-
-</div>
+-   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> _ or a [circular array](Draft_CircularArray.md) by changing its **Array Type** property. {{Obsolete|0.19}}
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> _ page. {{Obsolete|0.17}}
 
@@ -326,7 +307,7 @@ If there is an active document the context menu contains one additional sub-menu
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Preferences-draft.svg  style="width:32px;"> [Preferences](Draft_Preferences/ru.md): общие настройки для рабочей плоскости и инструментов черчения.
--   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Import-Export Preferences](Import_Export_Preference/ru.md): настройки, доступные для импорта и экспорта в различные форматы файлов.
+-   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Import-Export Preferences](Import_Export_Preferences/ru.md): настройки, доступные для импорта и экспорта в различные форматы файлов.
 
 
 </div>
@@ -360,10 +341,7 @@ If there is an active document the context menu contains one additional sub-menu
 
 <div class="mw-translate-fuzzy">
 
-
-**Смотри так же:**
-
-[Test Workbench](Test_Workbench/ru.md).
+Смотри так же: [Test Workbench](Testing/ru.md).
 
 
 </div>
@@ -423,7 +401,6 @@ doc = dto.create_test_file()
 ## Учебники
 
 -   [Руководство по Draft](Draft_tutorial/ru.md)
--   [Устаревшее руководство по Draft](Draft_tutorial_Outdated/ru.md)
 -   [Руководство по инструменту Draft преобразования текста в кривые](Draft_ShapeString_tutorial/ru.md)
 
 

@@ -1,6 +1,14 @@
-# Std MergeProjects/de
 ---
-- GuiCommand:/de   Name:Std MergeProject   Name/de:Std Projekt zusammenführen   Workbenches:Alle   MenuLocation:[[Std File Menu/de   Datei]] → Projekt zusammenführen|Shortcut:-   SeeAlso:---
+- GuiCommand:/de
+   Name:Std MergeProjects
+   Name/de:Std Projekte zusammenführen
+   Workbenches:Alle
+   MenuLocation:[Datei](Std_File_Menu/de.md) → Projekt zusammenführen
+   Shortcut:
+   SeeAlso:
+---
+
+# Std MergeProjects/de
 
 
 </div>

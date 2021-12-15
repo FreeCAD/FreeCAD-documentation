@@ -11,9 +11,15 @@ Questo comando apre un menu a tendina della barra degli strumenti che contiene t
 
 ## Strumenti
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Part_JoinConnect.svg  style="width:24px;"> [Congiungi oggetti](Part_JoinConnect/it.md): collega gli interni di due oggetti con pareti (ad es. tubi). Può anche unire gusci e contorni.
 -   <img alt="" src=images/Part_JoinEmbed.svg  style="width:24px;"> [Incastra oggetto](Part_JoinEmbed/it.md): incastra un oggetto con pareti (ad es. un tubo) in un altro oggetto con pareti.
 -   <img alt="" src=images/Part_JoinCutout.svg  style="width:24px;"> [Asporta con oggetto](Part_JoinCutout/it.md): crea un ritaglio in un oggetto con pareti (ad es. un tubo) adatto a un altro oggetto con pareti.
+
+
+</div>
 
 ![](images/JoinFeatures_dropdownToolbarButton.png ) 
 *Menu a discesa delle diverse funzionalità di congiunzione all'interno dell'[interfaccia](interface/it.md)*

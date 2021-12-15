@@ -44,10 +44,11 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 <div class="mw-translate-fuzzy">
 
 1.  Opțional, selectați un obiect sau un subelement al unui obiect (Vertex, margine sau fațetă)
-2.  Apăsați butonul {{KEY | _ [[Etichetă de proiectare]]}} sau apăsați {{KEY | D}} apoi tastele **L**
-3.  Faceți clic pe un prim punct al vizualizării 3D sau introduceți un [Coordinate coordinate](Coordinate_coordinate.md) pentru a indica punctul țintă (poziția săgeții). Acest lucru poate fi oriunde, nu trebuie să fie exact pe elementul selectat
-4.  Faceți clic pe un al doilea punct din vizualizarea 3D sau tastați un [ coordinate](Draft_Coordinates.md) pentru a indica punctul intermediar care reprezintă începutul segmentului drept.
-5.  Faceți clic pe un al treilea punct din vizualizarea 3D sau tastați un [ coordinate](Draft_Coordinates.md) pentru a indica poziția textului.
+2.  Apăsați butonul {{KEY | <img src="images/_Draft_Label.svg_" width= 16px> [Etichetă de proiectare](Draft_Label/ro.md)}} sau apăsați {{KEY | D}} apoi tastele 
+**L**
+3.  Faceți clic pe un prim punct al vizualizării 3D sau introduceți un coordinate pentru a indica punctul țintă (poziția săgeții). Acest lucru poate fi oriunde, nu trebuie să fie exact pe elementul selectat
+4.  Faceți clic pe un al doilea punct din vizualizarea 3D sau tastați un coordinate pentru a indica punctul intermediar care reprezintă începutul segmentului drept.
+5.  Faceți clic pe un al treilea punct din vizualizarea 3D sau tastați un coordinate pentru a indica poziția textului.
 
 
 </div>

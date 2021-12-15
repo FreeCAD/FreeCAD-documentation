@@ -11,11 +11,17 @@
 
 # EM FHPath/it
 
+
+</div>
+
 ## Descrizione
 
 The FHPath tool inserts a FHPath object, that is a set of FastHenry segments along a path.
 
-![](images/EM_FHPath_Example.png ) 
+![](images/EM_FHPath_Example.png )
+
+
+
 *FastHenry FHPath*
 
 ## Utilizzo
@@ -72,7 +78,9 @@ The FHPath object can be based on any shape containing edges, but the FHPath obj
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The FHPath object can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The FHPath object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 path = makeFHPath(baseobj=None,name='FHPath')
 ```
@@ -83,7 +91,9 @@ path = makeFHPath(baseobj=None,name='FHPath')
 
 -    `name`is the name of the object
 
-Esempio: 
+Esempio:
+
+
 ```python
 import FreeCAD, EM
 from FreeCAD import Base
@@ -99,6 +109,9 @@ fhpath = EM.makeFHPath(spiral)
 fhpath.Discr = 40
 App.ActiveDocument.recompute()
 ```
+
+
+
 
 
 {{EM Tools navi

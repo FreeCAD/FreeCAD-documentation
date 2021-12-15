@@ -9,6 +9,9 @@
 
 # Image Open/ru
 
+
+</div>
+
 ## Описание
 
 The [Image Open](Image_Open.md) tool simply opens an image from your system in a new tab in the viewport.

@@ -14,13 +14,13 @@
 
 Cet outil crée un objet mur à partir de zéro ou sur la base de n\'importe quel objet [forme de Part](Part_Workbench/fr.md) ou sur la base de n\'importe quel objet [mesh](Mesh_Workbench/fr.md). Un mur peut être construit sans objet de base, il se comportera alors comme un volume cubique, il sera construit à l\'aide des propriétés de longueur, largeur et hauteur. Lorsque qu\'il est construit sur une forme existante, le mur peut être basé sur :
 
--   Un **linear 2D object** objet linéaire 2D, tel que ligne, fil, arc ou croquis, dans ce cas, vous pouvez modifier l\'épaisseur, l\'alignement (droite, gauche ou centré) et la hauteur. La propriété de longueur n\'a pas d\'effet.
--   Une **flat face** face plane, dans ce cas, vous ne pouvez pas changer la hauteur. La propriété length (longueur) n\'a pas d\'effet. Si le base de la face est verticale, le mur utilisera la propriété largeur au lieu de la propriété hauteur, vous permettant de construire des murs à partir d\'objets en forme d\'espace ou d\'étude de masse.
--   Un **solid** solide, les propriétés de longueur, de largeur et de hauteur n\'ont aucun effet. Le mur utilise simplement le solide sous-jacent comme forme.
--   Un **mesh** maille, dans ce cas, le maillage sous-jacent doit être un solide non multiple fermé.
+-   Un **objet linéaire 2D**, tel que ligne, fil, arc ou croquis, dans ce cas, vous pouvez modifier l\'épaisseur, l\'alignement (droite, gauche ou centré) et la hauteur. La propriété de longueur n\'a pas d\'effet.
+-   Une **face plane**, dans ce cas, vous ne pouvez pas changer la hauteur. La propriété length (longueur) n\'a pas d\'effet. Si le base de la face est verticale, le mur utilisera la propriété largeur au lieu de la propriété hauteur, vous permettant de construire des murs à partir d\'objets en forme d\'espace ou d\'étude de masse.
+-   Un **solide**, les propriétés de longueur, de largeur et de hauteur n\'ont aucun effet. Le mur utilise simplement le solide sous-jacent comme forme.
+-   Un **maillage**, dans ce cas, sous-jacente doit être un solide fermé, solide manifold.
 
 <img alt="" src=images/Arch_Wall_example.jpg  style="width:780px;"> 
-*L'exemple ci-dessus montre les murs en cours de construction au-dessus d'une ligne, un fil, une face, un solide, et, un croquis.*
+*Murs construits à partir d'une ligne, d'une polyligne, d'une face, d'un solide et d'une esquisse.*
 
 Les murs peuvent également avoir des ajouts ou des soustractions. Les ajouts sont d\'autres objets dont les formes sont jointes dans la forme de ce mur, tandis que les soustractions sont soustraites. Des ajouts et des soustractions peuvent être ajoutés avec les outils [Ajouter](Arch_Add/fr.md) et [Supprimer](Arch_Remove/fr.md). Les ajouts et soustractions n\'ont aucune influence sur les paramètres de mur tels que la hauteur et la largeur, qui peuvent encore être modifiés. Les murs peuvent également avoir leur hauteur automatique, s\'ils sont inclus dans un objet de niveau supérieur tel que des [Niveaux](Arch_Floor/fr.md). La hauteur doit être maintenue à 0, puis le mur adoptera la hauteur spécifiée dans l\'objet parent.
 
@@ -30,14 +30,14 @@ Lorsque plusieurs murs doivent se croiser, vous devez les placer sur un [niveau]
 
 ### Dessiner un mur de zéro 
 
-1.  Pressez le bouton **<img src="images/Arch_Wall.svg" width=16px> [Créer un objet mur...](Arch_Wall/fr.md)** ou pressez les touches **W** puis **A**.
-2.  Cliquez le premier point dans la vue 3D ou rentrez des coordonnées. [Draft ](Draft_Coordinates/fr.md).
+1.  Pressez le bouton **<img src="images/Arch_Wall.svg" width=16px> [Arch Mur](Arch_Wall/fr.md)** ou pressez les touches **W** puis **A**.
+2.  Cliquez le premier point dans la vue 3D ou rentrez des coordonnées.
 3.  Cliquez le second point dans la vue 3D ou rentrez des coordonnées.
 
 ### Dessinez un mur sur un objet sélectionné 
 
 1.  Sélectionnez un ou plusieurs objets géométriques de base (objet Draft, esquisse, etc)
-2.  Cliquez sur le bouton **<img src="images/Arch_Wall.svg" width=16px> [Créer un objet mur...](Arch_Wall/fr.md)** ou pressez les touches **W** et **A**.
+2.  Cliquez sur le bouton **<img src="images/Arch_Wall.svg" width=16px> [Arch Mur](Arch_Wall/fr.md)** ou pressez les touches **W** et **A**.
 3.  Ajustez les propriétés nécessaires telles que, la hauteur ou la largeur.
 
 ## Options
@@ -55,9 +55,9 @@ Lorsque plusieurs murs doivent se croiser, vous devez les placer sur un [niveau]
 -   Les murs peuvent également utiliser [Matériaux multiples](Arch_MultiMaterial/fr.md). Lors de l\'utilisation d\'un multi-matériau, le mur deviendra multi-couche, en utilisant les épaisseurs spécifiées par le multi-matériau. Toute couche d\'épaisseur zéro verra son épaisseur définie automatiquement par l\'espace restant défini par la valeur Largeur du mur, après avoir soustrait les autres couches.
 -   Les murs peuvent être conçus pour afficher des blocs, au lieu d\'un seul solide, en activant leur propriété {{PropertyData/fr|Make Blocks}}. La taille et le décalage des blocs peuvent être configurés avec différentes propriétés, et la quantité de blocs est automatiquement calculée. {{Version/fr|0.18}}
 
-## Accrochage (Snapping) 
+## Aimantation
 
-L\'accrochage (Snapping) fonctionne un peu différemment avec les murs Arch par rapport aux autres objets Arch et Draft. Si un mur a un objet de ligne de base, l\'accrochage s\'ancrera à l\'objet de base, au lieu de la géométrie de mur, permettant d\'aligner facilement les murs par leur ligne de base. Si, cependant, vous souhaitez spécifiquement accrocher à la géométrie du mur, appuyez sur **Ctrl** pour basculer l\'accrochage à l\'objet mur.
+L\'aimantation fonctionne un peu différemment avec les murs Arch par rapport aux autres objets Arch et Draft. Si un mur a un objet de ligne de base, l\'aimantation s\'ancrera à l\'objet de base, au lieu de la géométrie de mur, permettant d\'aligner facilement les murs par leur ligne de base. Si, cependant, vous souhaitez spécifiquement accrocher à la géométrie du mur, appuyez sur **Ctrl** pour basculer l\'aimantation à l\'objet mur.
 
 <img alt="" src=images/Arch_wall_snap.jpg  style="width:780px;"> 
 *Le deuxième mur se coupe perpendiculairement au premier*

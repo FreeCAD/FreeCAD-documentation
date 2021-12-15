@@ -7,7 +7,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Todos los objetos del programa tienen un [nombre de objeto](Object_name/es.md) que los identifica de forma única en un [Documento](App_Document/es.md) determinado.
+Todos los objetos del programa tienen un [nombre de objeto](Object_name/es.md) que los identifica de forma única en un documento determinado.
 
 
 </div>

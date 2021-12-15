@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Draft PolarAnordnung
+   Name:Draft PolarArray
+   Name/de:Draft PolarAnordnung
    MenuLocation:Entwurf → Polare Anordnung
    Workbenches:[Entwurf](Draft_Workbench/de.md)
    Version:0.19

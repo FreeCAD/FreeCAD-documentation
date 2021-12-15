@@ -25,7 +25,7 @@ The surface can be modified by adding constraint edges and vertices which the su
 
 ## Usage
 
-1.  Make sure you have at lease three edges or curves in space forming a closed contour. For example, these can be created with tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _. Using three edges would create a triangular surface; four edges a quadrilateral surface.
+1.  Make sure you have at least three edges or curves in space forming a closed contour. For example, these can be created with tools of the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _. Using three edges would create a triangular surface; four edges a quadrilateral surface.
     -   Optionally, curves can be drawn inside the closed contour, not necessarily touching the edges. These curves can be used to control the curvature of the resulting surface.
     -   Likewise, a number of vertices can be used with the same purpose to indicate where the surface must go through.
 2.  Press the **<img src=images/Surface_Filling.svg style="width:16px"> [Surface filling](Surface_Filling.md)** button.

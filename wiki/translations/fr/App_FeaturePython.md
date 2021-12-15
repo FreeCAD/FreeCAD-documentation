@@ -70,9 +70,9 @@ Ces propriétés correspondent aux propriétés basique de la base [viewprovider
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
-[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](scripted_objects/fr.md).
+[Notions de base sur les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md), et [Objets scriptés](Scripted_objects/fr.md).
 
 Voir [Part Feature](Part_Feature/fr.md) pour les informations générales sur l\'ajout d\'objets au programme.
 

@@ -23,7 +23,7 @@ A2plus工作台是[外部工作台](External_workbenches/zh-hans.md)，用于在
 
 ## 安装
 
-A2plus工作台是FreeCAD的插件。 可以通过菜单**工具→[插件管理器](Std_AddonMg.md)**轻松安装。 A2plus正在积极开发中，并将经常获得新功能。 因此，您还应该使用菜单**工具→[插件管理器](Std_AddonMg.md)**定期对其进行更新。 A2plus代码是在GitHub上托管和开发的[1](https://github.com/kbwbe/A2plus)，也可以通过将其复制到FreeCAD的MOD目录中进行手动安装。
+A2plus工作台是FreeCAD的插件。 可以通过菜单**工具→[插件管理器](Std_AddonMgr.md)**轻松安装。 A2plus正在积极开发中，并将经常获得新功能。 因此，您还应该使用菜单**工具→[插件管理器](Std_AddonMgr.md)**定期对其进行更新。 A2plus代码是在GitHub上托管和开发的[1](https://github.com/kbwbe/A2plus)，也可以通过将其复制到FreeCAD的MOD目录中进行手动安装。
 
 ## 入门
 
@@ -119,27 +119,27 @@ A2plus提供下列约束:
 
 #### 球面对球面
 
-在两个零件上选择球[面或](Glossary＃Face.md)[顶点](Glossary＃Verter.md)（点）。 点击工具栏按钮<img alt="" src=images/A2p_SphericalSurfaceConstraint.svg  style="width:24px;">添加{{Variable|球心重合}}约束。 它将使两个零件的球心，一个零件的球的中心与零件的顶点或两个零件的顶点重合。
+在两个零件上选择球[面或](Glossary#Face.md)[顶点](Glossary#Vertex.md)（点）。 点击工具栏按钮<img alt="" src=images/A2p_SphericalSurfaceConstraint.svg  style="width:24px;">添加{{Variable|球心重合}}约束。 它将使两个零件的球心，一个零件的球的中心与零件的顶点或两个零件的顶点重合。
 
 #### 圆边对圆边
 
-在两个零件上选择圆形[边](Glossary＃Edge.md)。 点击工具栏按钮<img alt="" src=images/A2p_CircularEdgeConstraint.svg  style="width:24px;">添加{{Variable|圆形边}}约束。 约束对话框允许您指定边缘之间的偏移。 该偏移量也可以翻转。 您还可以设置约束方向并锁定零件的旋转。 如果偏移量为零，则约束将使边缘同心于同一平面。
+在两个零件上选择圆形[边](Glossary#Edge.md)。 点击工具栏按钮<img alt="" src=images/A2p_CircularEdgeConstraint.svg  style="width:24px;">添加{{Variable|圆形边}}约束。 约束对话框允许您指定边缘之间的偏移。 该偏移量也可以翻转。 您还可以设置约束方向并锁定零件的旋转。 如果偏移量为零，则约束将使边缘同心于同一平面。
 
 #### 轴约束
 
-在两个部分上选择圆柱形[面或线性](Glossary＃Face.md)[边](Glossary＃Edge.md)。点击工具栏按钮 <img alt="" src=images/A2p_AxialConstraint.svg  style="width:24px;">添加{{Variable|轴约束}}。 约束对话框允许您指定轴方向。 该对话框还允许您锁定零件的旋转。 约束将使轴或线重合。
+在两个部分上选择圆柱形[面或线性](Glossary#Face.md)[边](Glossary#Edge.md)。点击工具栏按钮 <img alt="" src=images/A2p_AxialConstraint.svg  style="width:24px;">添加{{Variable|轴约束}}。 约束对话框允许您指定轴方向。 该对话框还允许您锁定零件的旋转。 约束将使轴或线重合。
 
 #### 轴平行
 
-在两个零件上选择圆柱形[面或线性](Glossary＃Face.md)[边](Glossary＃Edge.md)。 工具栏按钮<img alt="" src=images/A2p_AxisParallelConstraint.svg  style="width:24px;">添加了{{Variable|轴平行}}约束。 约束对话框允许您指定轴方向。 约束将使轴或线平行。
+在两个零件上选择圆柱形[面或线性](Glossary#Face.md)[边](Glossary#Edge.md)。 工具栏按钮<img alt="" src=images/A2p_AxisParallelConstraint.svg  style="width:24px;">添加了{{Variable|轴平行}}约束。 约束对话框允许您指定轴方向。 约束将使轴或线平行。
 
 #### 轴对面平行
 
-在一个零件上选择圆柱[面或线性](Glossary＃Face.md)[边](Glossary＃Edge.md)，在另一部分选择一个平面。 工具栏按钮<img alt="" src=images/A2p_AxisPlaneParallelConstraint.svg  style="width:24px;">添加{{Variable|轴与面平行}}约束。 约束将使轴或线平行于平面。
+在一个零件上选择圆柱[面或线性](Glossary#Face.md)[边](Glossary#Edge.md)，在另一部分选择一个平面。 工具栏按钮<img alt="" src=images/A2p_AxisPlaneParallelConstraint.svg  style="width:24px;">添加{{Variable|轴与面平行}}约束。 约束将使轴或线平行于平面。
 
 #### 轴对面法线
 
-在一个零件上选择圆柱[面或线性](Glossary＃Face.md)[边](Glossary＃Edge.md)，在另一零件选择一个平面。 工具栏按钮<img alt="" src=images/A2p_AxisPlaneNormalConstraint.svg  style="width:24px;">添加{{Variable|轴与面法线平行}}约束。 约束将使轴或线垂直于平面。
+在一个零件上选择圆柱[面或线性](Glossary#Face.md)[边](Glossary#Edge.md)，在另一零件选择一个平面。 工具栏按钮<img alt="" src=images/A2p_AxisPlaneNormalConstraint.svg  style="width:24px;">添加{{Variable|轴与面法线平行}}约束。 约束将使轴或线垂直于平面。
 
 #### Axis on Plane angle 
 
@@ -159,7 +159,7 @@ Select either a cylindrical [face](Glossary#Face.md) or a linear [edge](Glossary
 
 #### 重心重合
 
-在两个零件上选择闭合的[边或平面](Glossary＃Edg.md)。 点击工具栏按钮<img alt="" src=images/A2p_CenterOfMassConstraint.svg  style="width:24px;">添加{{Variable|重心}}约束。 约束对话框允许您指定边或平面之间的偏移。 该偏移量也可以翻转。 您还可以设置约束方向并锁定零件的旋转。 如果偏移量为零，则约束会将边或平面置于同一平面中。
+在两个零件上选择闭合的[边或平面](Glossary#Edge.md)。 点击工具栏按钮<img alt="" src=images/A2p_CenterOfMassConstraint.svg  style="width:24px;">添加{{Variable|重心}}约束。 约束对话框允许您指定边或平面之间的偏移。 该偏移量也可以翻转。 您还可以设置约束方向并锁定零件的旋转。 如果偏移量为零，则约束会将边或平面置于同一平面中。
 
 ### 子部件
 
@@ -229,7 +229,7 @@ The quantity (QTY) is automatically calculated from the assembly. If a parts is 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="A2p_DOFs.svg" src=images/A2p_DOFs.svg  style="width:24px;">按钮用其自由度标记部件的每个零件。 此外，它的输出包含所有零件及其依存关系的列表。 该列表输出到FreeCAD的小程序“报告视图”中。 如果当前不可见此小程序，则可以通过右键单击FreeCAD工具栏区域的空白部分，然后在出现的上下文菜单中或通过菜单 **View → [Panels](Std_Panels.md) → Report view**。
+<img alt="A2p_DOFs.svg" src=images/A2p_DOFs.svg  style="width:24px;">按钮用其自由度标记部件的每个零件。 此外，它的输出包含所有零件及其依存关系的列表。 该列表输出到FreeCAD的小程序“报告视图”中。 如果当前不可见此小程序，则可以通过右键单击FreeCAD工具栏区域的空白部分，然后在出现的上下文菜单中或通过菜单 **View → Panels → Report view**。
 再次单击按钮<img alt="A2p_DOFs.svg" src=images/A2p_DOFs.svg  style="width:24px;">可以删除自由度标签。
 
 
@@ -246,7 +246,7 @@ The degrees of freedom labels can be removed by clicking the button <img alt="" 
 
 <div class="mw-translate-fuzzy">
 
-有时有必要将整个组件组合为一个形状。 然后，该形状可以用于[网格工作台中的](Mesh_Workbench/zh-hans.md)3D打印或[技术图纸工作台中的图形](TechDraw_Module/zh-hans.md)。 使用工具栏按钮<img alt="" src=images/A2p_SimpleAssemblyShape.svg  style="width:24px;">创建。 默认情况下，该形状不可见。 如果部件发生更改，请使用相同的工具栏按钮来更新形状。
+有时有必要将整个组件组合为一个形状。 然后，该形状可以用于[网格工作台中的](Mesh_Workbench/zh-hans.md)3D打印或[技术图纸工作台中的图形](TechDraw_Workbench/zh-hans.md)。 使用工具栏按钮<img alt="" src=images/A2p_SimpleAssemblyShape.svg  style="width:24px;">创建。 默认情况下，该形状不可见。 如果部件发生更改，请使用相同的工具栏按钮来更新形状。
 
 
 </div>

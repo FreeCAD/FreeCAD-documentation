@@ -10,9 +10,6 @@
 
 # Raytracing WritePart/fr
 
-
-</div>
-
 ## Description
 
 Exporte la pièce sélectionnée dans un fichier pov à utiliser dans un projet POV-Ray.
@@ -27,13 +24,7 @@ Exporte la pièce sélectionnée dans un fichier pov à utiliser dans un projet 
 ## Remarques
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Raytracing_Tools_navi

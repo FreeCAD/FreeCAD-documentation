@@ -10,7 +10,13 @@
 
 ## Introduzione
 
-Questo esempio ha lo scopo di mostrare come simulare il sesto esempio di _. Illustra come impostare l\'esempio, studiarne le varie parti, risolverlo usando il [solver Elmer](FEM_SolverElmer/it.md) e visualizzare i risultati usando [Clip Filter](FEM_PostCreateClipFilter/it.md).
+
+<div class="mw-translate-fuzzy">
+
+Questo esempio ha lo scopo di mostrare come simulare il sesto esempio di _. Illustra come impostare l\'esempio, studiarne le varie parti, risolverlo usando il [solver Elmer](FEM_SolverElmer/it.md) e visualizzare i risultati usando [Clip Filter](FEM_PostFilterClipRegion/it.md).
+
+
+</div>
 
 <img alt="" src=images/Two_balls_result_2.png  style="width:1200px;">
 
@@ -113,7 +119,7 @@ This case presents the solution of the capacitance of perfectly conducting balls
     StatElecSolve:   1  2    1.70071E+00
     StatElecSolve:   2  2    5.07960E+00
 
--   Here, our desired result is C~12~ = 1.70071. This value is close to the `1.691` given in the _ but this activity is left for the user. Also, the user is advised to play with the [Clip Filter](FEM_PostCreateClipFilter.md) to get a visual result similar to the first picture of this tutorial.
+-   Here, our desired result is C~12~ = 1.70071. This value is close to the `1.691` given in the _ but this activity is left for the user. Also, the user is advised to play with the [Clip Filter](FEM_PostFilterClipRegion.md) to get a visual result similar to the first picture of this tutorial.
 
 
 {{Tutorials navi

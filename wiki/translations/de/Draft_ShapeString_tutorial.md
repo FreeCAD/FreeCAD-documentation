@@ -34,7 +34,7 @@ Der [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) wird kurzzeitig zum Ze
 1\. Öffne FreeCAD, erstelle ein neues leeres Dokument mit {{MenuCommand/de|Datei → <img src=images/Std_New.svg style="width:16px"> [Neu](Std_New/de.md)}}, und wechsle in den [Part Arbeitsbereich](Part_Workbench/de.md).
 
 :   1.1. Drücke die **<img src=images/Std_ViewIsometric.svg style="width:16px"> [Ansicht isometrisch](Std_ViewIsometric/de.md)** Schaltfläche oder drücke **0** auf dem Ziffernblock deiner Tastatur, um die Ansicht auf isometrisch zu ändern und die 3D Körper besser zu veranschaulichen.
-:   1.2. Drücke die **<img src=images/Std_ViewFitAll.svg style="width:16px"> [Ansicht alles einpassen](Std_ViewFitAll/de.md)** Schaltfläche wenn Du Objekte hinzufügst, um die [3D Ansicht](3D_View/de.md) so zu schwenken und zu zoomen, dass alle Elemente in der Ansicht zu sehen sind.
+:   1.2. Drücke die **<img src=images/Std_ViewFitAll.svg style="width:16px"> [Ansicht alles einpassen](Std_ViewFitAll/de.md)** Schaltfläche wenn Du Objekte hinzufügst, um die [3D Ansicht](3D_view/de.md) so zu schwenken und zu zoomen, dass alle Elemente in der Ansicht zu sehen sind.
 :   1.3. Halte **Strg** gedrückt, währen Du klickst, um mehrere Elemente auszuwählen. Wenn Du etwas falsch ausgewählt hast oder alles abwählen willst, klickst Du einfach auf eine leere Stelle in der [3D Ansicht](3D_view/de.md).
 
 ## Erstelle die Grundform 
@@ -137,7 +137,7 @@ Nun zeichnen wir eine einfache Skizze, die als Hilfsgeometrie zur Positionierung
 12\. Wechsle wieder in die [Entwurf Arbeitsbereich](Draft_Workbench/de.md).
 
 :   12.1. Wechsle zum *Drahtgitter* Zeichenstil mit **Ansicht → <img src=images/DrawStyleWireFrame.svg style="width:Zeichen Stil](Std_DrawStyle/de.md) → [16px"> Drahtgitter**, oder drücke **<img src=images/DrawStyleWireFrame.svg style="width:16px"> [Drahtgitter](Std_DrawStyle/de.md)** Schaltfläche in der Ansichtswerkzeugleiste. Damit kannst du die Objekte hinter anderen Objekten sehen.
-:   12.2. Stelle sicher, dass die Schaltfläche <img src=images/Draft_ToggleSnap.svg style="width:Entwurf Fang](Draft_Snap/de.md) die Methode \"Am Endpunkt fangen\" aktiv ist . Dies kann über das Menü **Entwurf→ Fang → _**, oder durch Drücken der **[16px"> <img src=images/Snap_Endpoint.svg style="width:UmschaltenFang](Draft_ToggleSnap/de.md)** und **[16px"> [Fang Endpunkt](Draft_Endpoint.md)** Schaltflächen in der Fang Werkzeugleiste.
+:   12.2. Stelle sicher, dass die Schaltfläche <img src=images/Draft_Snap_Lock.svg style="width:Entwurf Fang](Draft_Snap/de.md) die Methode \"Am Endpunkt fangen\" aktiv ist . Dies kann über das Menü **Entwurf→ Fang → _**, oder durch Drücken der **[16px"> <img src=images/Draft_Snap_Endpoint.svg style="width:UmschaltenFang](Draft_Snap_Lock/de.md)** und **[16px"> [Fang Endpunkt](Draft_Snap_Endpoint.md)** Schaltflächen in der Fang Werkzeugleiste.
 
 13\. Wähle in der [Baumansicht](tree_view/de.md) `Extrudieren`.
 
@@ -186,8 +186,8 @@ Ein ähnlicher Ablauf wie oben beschrieben kann mit der [PartDesign Arbeitsberei
 1.  Erstelle die **<img src=images/Draft_ShapeString.svg style="width:16px"> [Entwurf FormZeichenfolge](Draft_ShapeString/de.md)** zuerst
 2.  Erstelle einen **<img src=images/PartDesign_Body_Tree.svg style="width:16px"> <img src=images/PartDesign_Pad.svg style="width:PartDesign Körper](PartDesign_Body/de.md)**, aktiviere ihn und füge einen Basis-Volumenkörper hinzu, indem du Primitive hinzufügst, oder verwende eine Skizze und extrudiere sie mit **[16px"> [PartDesign Polster](PartDesign_Pad/de.md)**.
 3.  Bewege das `FormZeichenfolge` Objekt in den aktiven Körper.
-4.  Hänge das `FormZeichenfolge` Objekt an eine der Flächen des Volumenkörpers oder an ein **<img src=images/PartDesign_Plane.svg style="width:16px"> <img src=images/Part_Attachment.svg style="width:PartDesign Ebene](PartDesign_Plane/de.md)**, unter Verwendung **[16px"> [/de|Part Bindung](Part_Attachment.md)**.
-5.  Erstelle jetzt ein **<img src=images/PartDesign_Pad.svg style="width:16px"> _ [PartDesign Tasche](PartDesign_Pocket/de.md)** aus der `Formzeichenfolge`, um eine additive bzw. subtraktive [Grundelement](PartDesign_Feature/de.md) des Grundkörpers zu erzeugen.
+4.  Hänge das `FormZeichenfolge` Objekt an eine der Flächen des Volumenkörpers oder an ein **<img src=images/PartDesign_Plane.svg style="width:16px"> <img src=images/Part_Attachment.svg style="width:PartDesign Ebene](PartDesign_Plane/de.md)**, unter Verwendung **[16px"> [/de|Part Bindung](Part_EditAttachment.md)**.
+5.  Erstelle jetzt ein **<img src=images/PartDesign_Pad.svg style="width:16px"> <img src=images/PartDesign_Pocket.svg style="width:PartDesign Polster](PartDesign_Pad/de.md)** oder ein **[16px"> [PartDesign Tasche](PartDesign_Pocket/de.md)** aus der `Formzeichenfolge`, um eine additive bzw. subtraktive [Grundelement](PartDesign_Feature/de.md) des Grundkörpers zu erzeugen.
 
 
 </div>
@@ -196,8 +196,14 @@ Siehe den Forumsbeitrag, [Wie man FormZeichenfolgen in PartDesign verwendet](htt
 
 ## Anmerkungen
 
--   Um gekrümmten Text zu erstellen, kannst Du das Makro <img alt="" src=images/FCCircularTextButtom.png  style="width:32px;"> verwenden. [Kreisförmiger Text](Macro_Circular_Text/de.md).
+
+<div class="mw-translate-fuzzy">
+
+-   Um gekrümmten Text zu erstellen, kannst Du das Makro <img alt="" src=images/FCCircularTextButtom.png  style="width:32px;"> verwenden. [Macro FCCircularText](Macro_FCCircularText/de.md).
 -   Um Text aus einer SVG Datei zu importieren, schaue dir das Tutorium [Importieren von Text und Geometrie von Inkscape](Import_text_and_geometry_from_Inkscape/de.md) an.
+
+
+</div>
 
 
 {{Tutorials navi

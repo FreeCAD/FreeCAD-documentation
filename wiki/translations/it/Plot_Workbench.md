@@ -50,7 +50,7 @@ If you decide to install the <img alt="" src=images/Workbench_Plot.svg  style="w
 
 ### Script
 
-Poiché il modulo Grafico è costruito su `matplotlib`, si è liberi di utilizzare tutti i comandi matplotlib per le istanze del grafico. Consultare la sezione [esempi di script](Scripting_examples/it.md) per vedere degli esempi.
+Poiché il modulo Grafico è costruito su `matplotlib`, si è liberi di utilizzare tutti i comandi matplotlib per le istanze del grafico. Consultare la sezione [Scripting and macros](Scripting_and_macros.md) per vedere degli esempi.
 
 ## Tutorial
 

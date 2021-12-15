@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/tr
-   Name:Referans noktası oluştur
+   Name:PartDesign Point
+   Name/tr:Referans noktası oluştur
    Workbenches:[Parça tasarım](PartDesign_Workbench/tr.md)
    MenuLocation:Parça tasarım→ Referans noktası oluştur
    Version:0.17
@@ -61,7 +62,7 @@ Z = 2\'de ek konumu olan bir küreye tutturulmuş bir referans noktası
 
 <div class="mw-translate-fuzzy">
 
-Model ağacında Referans noktası etiketine çift tıklayın veya sağ tıklayın ve parametrelerini düzenlemek için bağlam menüsünde **Referans Düzenle** seçeneğini seçin. Ek mod ve Ek ofset hakkında daha fazla bilgi için [Ek](Part_Attachment/tr.md) bkz.
+Model ağacında Referans noktası etiketine çift tıklayın veya sağ tıklayın ve parametrelerini düzenlemek için bağlam menüsünde **Referans Düzenle** seçeneğini seçin. Ek mod ve Ek ofset hakkında daha fazla bilgi için [Ek](Part_EditAttachment/tr.md) bkz.
 
 
 </div>

@@ -38,7 +38,7 @@ Configuration :
 
 Si vous exécutez une version de FreeCAD à partir de l\'extrémité saillante de la courbe de développement, il se peut qu\'il se \"bloque\". Vous pouvez aider à résoudre ces problèmes en fournissant aux développeurs une \"backtrace\". Pour ce faire, vous devez exécuter une \"version de débogage\" du logiciel. \"Debug build\" est un paramètre qui est défini au moment de la compilation, donc vous devrez soit compiler vous-même FreeCAD, soit obtenir une version \"debug\" précompilée.
 
-### For Linux 
+### Pour Linux 
 
 
 <div class="toccolours mw-collapsible mw-collapsed" style="width:800px;">

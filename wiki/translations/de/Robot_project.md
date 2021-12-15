@@ -8,7 +8,13 @@ If you are not involved with the development discussed here:<br>
 
 {{TOCright}}
 
+
+<div class="mw-translate-fuzzy">
+
 Dies ist der _ zusammengefasst.
+
+
+</div>
 
 ## Zweck und Grundsätze 
 

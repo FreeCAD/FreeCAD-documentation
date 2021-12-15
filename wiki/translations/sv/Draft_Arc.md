@@ -42,8 +42,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 -   Cirkelbågsverktyget ärver [Cirkelverktygets](Draft_Circle/sv.md) funktionalitet för de två första stegen, så du kan trycka på **ALT** för att välja en tangent istället för centrum eller radie.
 -   Nedtryckning av **CTRL** kommer att [snäppa](Draft_Snap/sv.md) din punkt till tillgängliga snäpp-punkter.
 -   Nedtryckning av **SKIFT** kommer att [begränsa](Draft_Constrain/sv.md) din nya punkt i relation till föregående punkt.
--   Skriv in siffror för att [manuellt mata in en koordinat](Draft_Coordinates/sv.md).
--   Den skapade cirkelbågen kommer att ha nuvarande [linjestil](Draft_Linestyle/sv.md).
+-   Skriv in siffror för att manuellt mata in en koordinat.
 -   Nedtryckning av **ALT** när du väljer slutvinkeln kommer att ändra riktningen till moturs.
 -   Om du trycker på **ESC** så avbryts funktionen.
 
@@ -55,7 +54,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 -   To manually enter the coordinates for the center enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   The **Relative** checkbox has no purpose for this command.
+-   The **Relative** checkbox, displayed in FreeCAD version 0.19 and earlier, has no purpose for this command.
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
 -   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating arcs.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.

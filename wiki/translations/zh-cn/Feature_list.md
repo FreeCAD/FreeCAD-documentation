@@ -14,12 +14,12 @@
 
 <div class="mw-translate-fuzzy">
 
--   [版本 0.11](Release_notes_011/zh-cn.md) - 2011 三月
--   [版本 0.12](Release_notes_012/zh-cn.md) - 2011 十二月
--   [版本 0.13](Release_notes_013/zh-cn.md) - 2013 一月
--   [版本 0.14](Release_notes_014/zh-cn.md) - 2014 三月
--   [版本 0.15](Release_notes_015/zh-cn.md) - 2015 三月
--   [版本 0.16](Release_notes_016/zh-cn.md) - 2016 四月
+-   [版本 0.11](Release_notes_0.11/zh-cn.md) - 2011 三月
+-   [版本 0.12](Release_notes_0.12/zh-cn.md) - 2011 十二月
+-   [版本 0.13](Release_notes_0.13/zh-cn.md) - 2013 一月
+-   [版本 0.14](Release_notes_0.14/zh-cn.md) - 2014 三月
+-   [版本 0.15](Release_notes_0.15/zh-cn.md) - 2015 三月
+-   [版本 0.16](Release_notes_0.16/zh-cn.md) - 2016 四月
 
 
 </div>
@@ -222,7 +222,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   **(ZIP压缩的)文件保存格式**: FreeCAD 文档以 .[fcstd](fcstd_file_format/zh-cn.md) 为扩展名，可以包含多种信息类型，如几何形状信息，脚本以及缩略图图标。这个 .fcstd 文件本身是 ZIP 文档，所以 FreeCAD 文件已经被压缩了。
+-   **(ZIP压缩的)文件保存格式**: FreeCAD 文档以 .[fcstd](File_Format_FCStd/zh-cn.md) 为扩展名，可以包含多种信息类型，如几何形状信息，脚本以及缩略图图标。这个 .fcstd 文件本身是 ZIP 文档，所以 FreeCAD 文件已经被压缩了。
 
 
 </div>

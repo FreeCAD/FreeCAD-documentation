@@ -43,7 +43,13 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 -   <img alt="" src=images/Arch_Window.png  style="width:32px;"> [窓](Arch_Window/jp.md): 選択されているオブジェクトを基礎として使って窓を作成します
 -   <img alt="" src=images/Arch_SectionPlane.png  style="width:32px;"> [断面](Arch_SectionPlane/jp.md): ドキュメントに断面を追加します
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_Axis.png  style="width:32px;"> [座標系](Arch_Axis/jp.md): ドキュメントに座標系を追加します
+
+
+</div>
 
 -   <img alt="" src=images/Arch_Roof.png  style="width:32px;"> [屋根](Arch_Roof/jp.md): 選択されている面から傾斜屋根を作成します
 
@@ -98,7 +104,7 @@ These are tools for modifying architectural objects.
 
 ## API
 
-The Arch module can be used in [Python](Python.md) scripts and [macros](macros.md) using the [Arch Python API](http://www.freecadweb.org/api/Arch.html) functions.
+The Arch module can be used in [Python](Python.md) scripts and [macros](Macros.md) using the [Arch Python API](Arch_API.md) functions.
 
 ## Tutorials
 

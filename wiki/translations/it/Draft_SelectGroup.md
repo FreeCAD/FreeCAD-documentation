@@ -46,16 +46,6 @@ The command currently does not work well with layers and can produce confusing r
 
 -   [Struttura del documento](Document_structure/it.md).
 -   [Esempio di organizzazione del modello](Arch_tutorial/it#Organizzare_il_modello.md) quando si lavora con oggetti Arch.
--   [Organizzare gli oggetti nel documento](Ways_To_Organize_Objects/it.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-
 
 
 </div>

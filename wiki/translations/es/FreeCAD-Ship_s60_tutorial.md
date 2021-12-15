@@ -10,7 +10,7 @@
 
 ## Introducción
 
-En este tutorial trabajaremos con un nave de la Serie 60, de la Universidad de Iowa. El tutorial está orientado a mostrar cómo se trabaja con un barco monocasco simétrico, sin embargo se pueden realizar barcos multicasco o no simétricos con el mismo procedimiento.
+En este tutorial trabajaremos con un nave de la Serie 60, de la Universidad de Iowa. El tutorial está orientado a mostrar cómo se trabaja con un nave monocasco simétrico, sin embargo se pueden realizar nave multicasco o no simétricos con el mismo procedimiento.
 
 Más información sobre <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [Ambiente de trabajo de naves](Ship_Workbench/es.md).
 
@@ -18,7 +18,7 @@ Más información sobre <img alt="" src=images/Workbench_Ship.svg  style="width:
 
 ### Fondo
 
-El <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [Ambiente de trabajo nave](Ship_Workbench/es.md) trabaja sobre **Entidades de barco**, que deben ser creadas sobre la geometría proporcionada. La geometría debe ser un sólido (o conjunto de sólidos), se deben tener en cuenta los siguientes criterios:
+El <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> [Ambiente de trabajo nave](Ship_Workbench/es.md) trabaja sobre **Entidades de nave**, que deben ser creadas sobre la geometría proporcionada. La geometría debe ser un sólido (o conjunto de sólidos), se deben tener en cuenta los siguientes criterios:
 
 -   Se debe proporcionar toda la geometría del casco (incluyendo los cuerpos simétricos).
 -   La geometría de estribor debe incluirse en el dominio *y* negativo.
@@ -43,17 +43,17 @@ Para ayudar a los nuevos usuarios, el banco de trabajo Ship incluye un cargador 
 -   Catamarán de la serie 60
 -   Catamarán de Wigley
 
-![Icono del cargador de geometrías de barcos de ejemplo](images/Ship_Load.SVG )
+![Icono del cargador de geometrías de naves de ejemplo](images/Ship_Load.svg )
 
 
 <center>
 
-Icono del cargador de ejemplos de geometrías de barcos
+Icono del cargador de ejemplos de geometrías de naves
 
 
 </center>
 
-Ejecutando la herramienta (Diseño de buques/Cargar un ejemplo de geometría de barco) se mostrará un cuadro de diálogo. Selecciona **Serie 60 de la Universidad de Iowa** y pulsa Aceptar. La herramienta carga un nuevo documento con la geometría **s60\_IowaUniversity**.
+Ejecutando la herramienta (Diseño de buques/Cargar un ejemplo de geometría de nave) se mostrará un cuadro de diálogo. Selecciona **Serie 60 de la Universidad de Iowa** y pulsa Aceptar. La herramienta carga un nuevo documento con la geometría **s60\_IowaUniversity**.
 
 
 **'''¡Atención, antes de editar nada!''
@@ -62,31 +62,31 @@ Para preservar el ejemplo original sin editar, '''debes guardarlo primero como u
 
 .
 
-## Crear instancia del barco 
+## Crear instancia del nave 
 
-Para crear una **Instancia de barco** selecciona la geometría s60 y ejecuta la **herramienta de creación de barco** (Diseño de buques/Crear un nuevo barco).
+Para crear una **Instancia de nave** selecciona la geometría s60 y ejecuta la **herramienta de creación de nave** (Diseño de buques/Crear un nuevo nave).
 
-![Herramienta de creación de barcos](images/Ship_Logo.svg )
+![Herramienta de creación nave](images/Ship_Logo.svg )
 
 
 <center>
 
-Icono de la herramienta de creación de barcos
+Icono de la herramienta de creación de naves
 
 
 </center>
 
 Se mostrará el diálogo de la tarea de creación de una nave y algunas anotaciones en la [vista 3D](3D_view/es.md). Las anotaciones desaparecerán cuando cierres la herramienta de creación de naves, así que no te preocupes por esto.
 
-Se deben introducir los datos más relevantes del barco (el <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> El ambiente de trabajo de barcos utiliza un sistema de introducción de datos progresivo, por lo que las operaciones básicas pueden realizarse conociendo sólo los datos básicos del barco, siendo necesaria más información a medida que las operaciones se hacen más complejas).
+Se deben introducir los datos más relevantes del nave (el <img alt="" src=images/Workbench_Ship.svg  style="width:24px;"> El ambiente de trabajo nave utiliza un sistema de introducción de datos progresivo, por lo que las operaciones básicas pueden realizarse conociendo sólo los datos básicos del nave, siendo necesaria más información a medida que las operaciones se hacen más complejas).
 
-### Datos del barco 
+### Datos del nave 
 
 Las principales dimensiones deben ser introducidas aquí:
 
--   Eslora: Eslora entre perpendiculares, 25,5 m para este barco.
--   Manga: Manga total del barco, 3,389 m para este barco.
--   Calado: Calado de diseño, 1,0 m para este barco.
+-   Eslora: Eslora entre perpendiculares, 25,5 m para este nave.
+-   Manga: Manga total del nave, 3,389 m para este nave.
+-   Calado: Calado de diseño, 1,0 m para este nave.
 
 ![Anotaciones sobre la vista frontal.](images/FreeCAD-Ship-S60ShipCreationFront.png )
 
@@ -110,7 +110,7 @@ Anotaciones sobre la vista lateral.
 
 </center>
 
-Se puede seguir la misma metodología para proceder con la manga. Conviene darse cuenta que se trata de la manga total, luego se debe considerar el barco completo, aunque la anotación sólo marque el costado de estribor.
+Se puede seguir la misma metodología para proceder con la manga. Conviene darse cuenta que se trata de la manga total, luego se debe considerar el nave completo, aunque la anotación sólo marque el costado de estribor.
 
 Cuando se pulsa el botón **Aceptar**, se crea una nueva instancia de Nave llamada **Nave** en el diálogo *Etiquetas y Atributos*. Ya no necesitamos la geometría, así que puedes ocultarla.
 
@@ -148,7 +148,7 @@ El dibujo de líneas es un conjunto de líneas de cortes de sección en los 3 ej
 
 ### Cortes transversales 
 
-Normalmente se deben realizar 21 secciones transversales equidistantes entre perpendiculares. para ello FreeCAD proporciona una herramienta automática para poder hacerlo, simplemente selecciona el tipo de secciones **Transversales**, ve a la casilla **Auto crear** y pon **21** secciones, luego pulsa {{Bitton|Crear secciones}}
+Normalmente se deben realizar 21 secciones transversales equidistantes entre perpendiculares. para ello FreeCAD proporciona una herramienta automática para poder hacerlo, simplemente selecciona el tipo de secciones **Transversales**, ve a la casilla **Auto crear** y pon **21** secciones, luego pulsa **Crear secciones**
 
 ![Vista previa de las cuadernas.](images/S60OutlineTransversal.png )
 
@@ -189,9 +189,9 @@ Hay que añadir varias líneas de agua adicionales:
 -   Z~9~ = 1.8 m
 -   Z~10~ = 2.0 m
 
-### Perform plot 
+### Realizar el trazado 
 
-Select **1:100** scale and press **Accept** to let the tool to generate the 3D sections in a new object.
+Selecciona la escala **1:100** y pulsa **Aceptar** para que la herramienta genere las secciones 3D en un nuevo objeto.
 
 ![Plano de formas.](images/FreeCAD-Ship-S60OutlinePlot.png )
 
@@ -203,7 +203,7 @@ Plano de formas.
 
 </center>
 
-In order to plot these sections you can use the [Drawing workbench](Drawing_Workbench.md):
+Para trazar estas secciones puedes utilizar el [Ambiente de trabajo de dibujo](Drawing_Workbench/es.md):
 
 ![Secciones resultantes.](images/FreeCAD-Ship-S60Outline3DSections.png )
 
@@ -238,26 +238,20 @@ El calado y el trimado (ángulo de rotación del *borde y* del casco, positivo s
 -   Curva de áreas transversales de diseño: Sin ángulo de trimado y utilizando el calado de diseño, 1,0 m en este caso.
 -   Curva de áreas transversales de máximo calado: Sin ángulo de trimado y con el máximo calado permitido, 2,0 m en este caso.
 
-
-<div class="mw-translate-fuzzy">
-
 ### Datos de salida 
 
-FreeCAD-Ship muestra un informe de salida que se actualiza en tiempo real, que incluye los siguientes datos:
+Se muestran algunos datos relevantes en tiempo real:
 
--   **L**: Eslora entre perpendiculares, valor que se estableció durante la creación del buque.
--   **B**: Manga total que se estableció durante la creación del buque.
--   **T**: Calado actual en la cuaderna maestra.
+-   **L**: Longitud entre perpendiculares, valor establecido en la creación de la instancia de la nave.
+-   **B**: Viga seleccionada en la creación del nave.
+-   T\'\'\': Calado real en el centro del nave.
 -   **Trim**: Ángulo de trimado.
--   **T~AP~**: Calado en la perpendicular de popa.
--   **T~FP~**: Calado en la perpendicular de proa.
--   **Displacement**: Desplazamiento del buque (Se considera agua salada, por tanto se debe dividir por 1.025 para conocer el volumen desplazado).
--   **XCB**: Coordenada *X* del centro de flotación (relativo a la cuaderna maestra).
+-   T~AP~\'\': Después del calado perpendicular.
+-   T~FP~\'\': Calado perpendicular a proa.
+-   **Desplazamiento**: Desplazamiento del buque (considerado el agua salada, dividir por 1,025 para conocer el volumen desplazado).
+-   XCB\'\'\': Coordenada X del punto central de flotación (relativa a la sección media del nave).
 
-
-</div>
-
-When **Accept** button is pressed a plot is performed (depending on geometry complexity can take some time, you can see progress on terminal, and stop the work pressing **Ctrl**+**C**). When the task has finished FreeCAD will generate a Plot (see the [Plot workbench](Plot_Workbench.md) documentation) and a SpreadSheet (see the [Spreadsheet workbench](Spreadsheet_Workbench.md) documentation).
+Cuando se pulsa el botón **Aceptar** se realiza un trazado (dependiendo de la complejidad de la geometría puede llevar algún tiempo, puedes ver el progreso en el terminal, y detener el trabajo pulsando **Ctrl**+**C**). Cuando la tarea ha terminado FreeCAD generará un gráfico (ver la documentación del [Ambiente de trabajo diagrama](Plot_Workbench/es.md)) y una hoja de cálculo (ver la documentación del [Ambiente de trabajo Hoja de cálculo](Spreadsheet_Workbench/es.md)).
 
 ![Curva de áreas para el calado de diseño. ](images/FreeCAD-Ship-s60Areas.png )
 
@@ -285,7 +279,7 @@ Icono de la herramienta de Hidrostáticas.
 
 </center>
 
-Al lanzar la herramienta se muestra el cuadro de diálogo donde deberemos establecer los valores de trimado y calados. Normalmente las curvas hidrostáticas se presentan en un rango de calados para cada ángulo de trimado. En este tutorial sólo consideraremos el barco sin trimar, y puesto que no conocemos las situaciones de carga, para un amplio rango de calados (Convencionalmente se ajustan al rango de calados plausible para el buque).
+Al lanzar la herramienta se muestra el cuadro de diálogo donde deberemos establecer los valores de trimado y calados. Normalmente las curvas hidrostáticas se presentan en un rango de calados para cada ángulo de trimado. En este tutorial sólo consideraremos el nave sin trimar, y puesto que no conocemos las situaciones de carga, para un amplio rango de calados (Convencionalmente se ajustan al rango de calados plausible para el buque).
 
 Por tanto establecemos los siguientes valores:
 
@@ -294,7 +288,7 @@ Por tanto establecemos los siguientes valores:
 -   **Calado máximo** = 2.0 m
 -   **Numero de puntos** = 39. Un gran número de puntos implica largos tiempos de cálculo, y en ocasiones las diferencias no serán perceptibles. Para el número propuesto el cálculo puede llevar un minuto aproximadamente.
 
-When **Accept** button is pressed plots are performed (see the [Plot workbench](Plot_Workbench.md) documentation) and a spreadsheet is generated (see the [Spreadsheet workbench](Spreadsheet_Workbench.md) documentation).
+Cuando se pulsa el botón **Aceptar** se realizan gráficos (ver la documentación de [Ambiente de trabajo diagrama](Plot_Workbench/rs.md)) y se genera una hoja de cálculo (ver la documentación de [Ambiente de trabajo hoja de cálculo](Spreadsheet_Workbench/es.md)).
 
 ![Curvas hidrostáticas.](images/FreeCAD-Ship-HydrostaticsCurves.jpg )
 

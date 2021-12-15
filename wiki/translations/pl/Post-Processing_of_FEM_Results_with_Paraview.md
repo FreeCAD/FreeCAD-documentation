@@ -8,11 +8,11 @@
 |Files=[https://forum.freecadweb.org/download/file.php?id=103403 beam] and [https://forum.freecadweb.org/download/file.php?id=103557 wall] found in this [https://forum.freecadweb.org/viewtopic.php?f=18&t=37253&start=10#p367734 FC forum thread]
 }}
 
-## Introduction
+## Wprowadzenie
 
 Some forum posts and tutorials use Paraview (PV) to review and analyse FreeCAD <img alt="" src=images/_Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md) (FEMWB) results. This tutorial explains the basics of transferring data from FEMWB to PV and shows some of the options and settings for displaying data.
 
-## Prerequisites
+## Wymagania wstępne 
 
 -   FreeCAD using a version that is compatible with the designated version of this Tutorial.
 -   [Paraview](https://www.paraview.org) downloaded directly from it\'s [website](https://www.paraview.org/download/) or your preferred package manager.

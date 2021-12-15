@@ -21,11 +21,8 @@ Champ d\'application connu des couronnes:
 -   Têtes de fraisage angulaires
 -   Systèmes d\'outils motorisés avec plusieurs pignons et couronne dentée
 
-:   ![](images/Crown-Gear_example.png )
-:   
-    
+![](images/Crown-Gear_example.png ) 
 *Au-dessus : Engrenage couronne*
-    
 
 ## Utilisation
 
@@ -42,34 +39,34 @@ Champ d\'application connu des couronnes:
 
 {{Properties_Title|Base}}
 
--    {{PropertyData/fr|Placement}}: [Placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
+-    **Placement**: [Placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
 
--    {{PropertyData/fr|Label}}: nom d\'utilisateur de l\'objet dans [vue en arborescence](tree_view/fr.md).
+-    **Label**: nom d\'utilisateur de l\'objet dans [vue en arborescence](Tree_view/fr.md).
 
 
 {{Properties_Title|accuracy}}
 
--    {{PropertyData/fr|construct}}: valeur par défaut est **True**. Passez à **False** et le composant de construction disparaît. **construct** appartient à **other_teeth**.
+-    **construct**: valeur par défaut est **True**. Passez à **False** et le composant de construction disparaît. **construct** appartient à **other_teeth**.
 
--    {{PropertyData/fr|num_profiles}}: nombre de profils utilisés pour le loft.
+-    **num_profiles**: nombre de profils utilisés pour le loft.
 
 
 {{Properties_Title|gear_parameter}}
 
--    {{PropertyData/fr|height}}: valeur de la largeur de dent.
+-    **height**: valeur de la largeur de dent.
 
--    {{PropertyData/fr|module}}: module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans **Remarque**).
+-    **module**: module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans **Remarque**).
 
--    {{PropertyData/fr|other_teeth}}: nombre de dents de l\'engrenage (pignon) de **construction**. (voir aussi les informations dans **Remarque**).
+-    **other_teeth**: nombre de dents de l\'engrenage (pignon) de **construction**. (voir aussi les informations dans **Remarque**).
 
--    {{PropertyData/fr|teeth}}: nombre de dents
+-    **teeth**: nombre de dents
 
--    {{PropertyData/fr|thickness}}: hauteur de la pointe de la dent au côté inférieur de la couronne.
+-    **thickness**: hauteur de la pointe de la dent au côté inférieur de la couronne.
 
 
 {{Properties_Title|involute_parameter}}
 
--    {{PropertyData/fr|pressure_parameter}}: valeur par défaut 20 (voir aussi les informations dans **Remarque**).
+-    **pressure_parameter**: valeur par défaut 20 (voir aussi les informations dans **Remarque**).
 
 ### Vue
 
@@ -95,7 +92,7 @@ Aucune limitation n\'est connue.
 
 ## Vue d\'ensemble de l\'ensemble couronne et pignon droit 
 
-:   ![](images/Crown-spur-gear-set_example.png )
+![](images/Crown-spur-gear-set_example.png )
 
 -   \(1\) Engrenage droit
 -   \(2\) Couronne dentée

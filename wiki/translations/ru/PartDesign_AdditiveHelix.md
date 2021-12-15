@@ -14,7 +14,7 @@
 
 The **AdditiveHelix** tool creates a solid by sweeping a selected sketch or 2D object along a helix path.
 
-![](images/PartDesign_AdditiveHelix_example_overview.png )
+<img alt="" src=images/PartDesign_AdditiveHelix_example_overview.png  style="width:650px;">
 
 *The profile (B), is swept around axis (A) in order to produce the solid helix (C)*
 
@@ -36,7 +36,8 @@ When creating an Additive Helix, the **Helix parameters** dialogue offers severa
 
 This option specifies the axis about which the sketch is to be swept.
 
--   **Vertical sketch axis**: selects the vertical sketch axis.
+-   **Normal sketch axis**: selects the normal of the sketch that runs through the sketch origin as axis. <small>(v0.20)</small> 
+-   **Vertical sketch axis**: selects the vertical sketch axis. This is the default for new helices.
 -   **Horizontal sketch axis**: selects the horizontal sketch axis.
 -   **Construction line**: selects a construction line contained in the sketch used by the Helix. The drop down list will contain an entry for each construction line. The first construction line created in the sketch will be labelled *Construction line 1*.
 -   **Base (X/Y/Z) axis**: selects the X, Y or Z axis of the Body\'s Origin;
@@ -65,7 +66,7 @@ The number of turns in the helix. Define as Height/Pitch
 
 ### Cone Angle 
 
-The rate at which the radius of the helix increase along the axis. Allowable range: \[-89°, +89°\].
+Angle of the cone that forms a hull around the helix. Allowable range: \[-89°, +89°\].
 
 ### Left handed 
 
@@ -91,9 +92,9 @@ If checked, the helix will be shown in the view, and updated automatically on ev
 
 -    **Turns**: The number of turns (does not need to be a whole number)
 
--    **Left Handed**:
+-    **Left Handed**: See [Left Handed](#Left_handed.md).
 
--    **Reversed**: true or false. See [Reversed](#Reversed.md).
+-    **Reversed**: See [Reversed](#Reversed.md).
 
 -    **Angle**: The rate at which the radius of the helix increase along the axis. Allowable range: \[-89°, +89°\].
 

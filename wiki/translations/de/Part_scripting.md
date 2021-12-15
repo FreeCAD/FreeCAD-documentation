@@ -178,9 +178,12 @@ Hier nehmen wir die Form unseres Objekts f, dann nehmen wir die Liste der Kanten
 Gehe auf die Seite [Topologisches Datenskripting](Topological_data_scripting/de.md), wenn du mehr wissen möchtest.
 
 
+
+
+
 {{Powerdocnavi
 
-}}  
+}} 
 
 _ _
 

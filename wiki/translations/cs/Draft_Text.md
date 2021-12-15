@@ -38,7 +38,7 @@ See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 
 1.  Stiskněte tlačítko **<img src="images/Draft_Text.png" width=16px> [Text](Draft_Text.md)
 ** nebo klávesy **T** a potom **E**
-2.  Klikněte na bod ve 3D pohledu nebo zadejte jeho [souřadnice](Draft_Coordinates.md)
+2.  Klikněte na bod ve 3D pohledu nebo zadejte jeho souřadnice
 3.  Vložte požadovaný text, mezi každým řádkem stiskněte **ENTER**
 4.  Klávesu **ENTER** stiskněte 2x pro ukončení operace.
 

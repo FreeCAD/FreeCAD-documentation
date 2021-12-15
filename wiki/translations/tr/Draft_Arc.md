@@ -51,7 +51,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 1.  
     **<img src="images/Draft_Arc.png" width=16px> [Yay](Draft_Arc/tr.md)**düğmesine basınız veya **A** ve **R** tuşlarına basınız.
 
-2.  3D görünümünde bir ilk noktaya tıklayın veya bir [Koordinat](Draft_Coordinates/tr.md) yazın ve **<img src="images/Draft_AddPoint.svg" width=16px> [add point](Draft_AddPoint/tr.md)** basın
+2.  3D görünümünde bir ilk noktaya tıklayın veya bir Koordinat yazın ve **<img src="images/Draft_AddPoint.svg" width=16px> add point** basın
 
 3.  3D görünümünde ikinci bir noktaya tıklayın veya bir yarıçap değeri girin
 
@@ -77,7 +77,7 @@ The single character keyboard shortcuts available in the task panel can be chang
         
         tuşuna basarak arkın temel çemberini tanımlamak için toplama noktası yerine bir teğet seçebilirsiniz. Bu nedenle, bir, iki veya üç teğet seçerek birkaç daire tipi oluşturabilirsiniz.
 -   Yay yönü, farenizle yaptığınız harekete bağlıdır. Üçüncü nokta girildikten sonra saat yönünde hareket etmeye başlarsanız, yayınız saat yönünde gider. Saat yönünün tersine gitmek için, farenizi yay diğer yöne çekmeye başlayana kadar üçüncü noktanın üzerine getirin.
--   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında **Enter** tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda **<img src="images/_Draft_AddPoint.svg" width=16px> [Nokta ekle](Draft_AddPoint/tr.md)** düğmesine basabilirsiniz.
+-   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında **Enter** tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda **<img src="images/_Draft_AddPoint.svg" width=16px> Nokta ekle** düğmesine basabilirsiniz.
 -   *Devam* moduna geçmek için **T** tuşuna basın veya onay kutusunu tıklayın. Devam modu açıksa, yay aracı, yayı bitirdikten sonra yeniden başlatılır ve takım düğmesine tekrar basmadan bir tane daha çizmenize olanak sağlar.
 -   [snapping](Draft_Snap/tr.md) noktanızı mesafeden bağımsız olarak, en yakın çeki konumuna yönlendirmek için çizim yaparken **Ctrl** tuşunu basılı tutun.
 -   Ortaya göre noktanızı yatay veya dikey olarak [constrain](Draft_Constrain/fr.md) öğesine çizerken **Shift** tuşunu basılı tutun.

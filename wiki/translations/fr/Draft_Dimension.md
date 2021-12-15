@@ -24,7 +24,7 @@ Les Draft Dimensions peuvent être affichées sur une page de l\'[Atelier Techdr
 
 ## Créer
 
-Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 ### Utilisation pour une dimension linéaire 
 
@@ -70,13 +70,13 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Accrochage](Draft_Snap/f
 ### Utilisation pour une dimension angulaire 
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_Dimension.svg" width=16px> [Créer une cote](Draft_Dimension/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Draft_Dimension.svg" width=16px> [Dimension](Draft_Dimension/fr.md)**.
     -   Sélectionnez l\'option **Annotation → <img src="images/Draft_Dimension.svg" width=16px> Dimension** dans le menu.
     -   Utilisez le raccourci clavier : **D** puis **I**.
 2.  Le panneau de tâches **Dimension** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Maintenez la touche **Alt** enfoncée, sélectionnez deux arêtes droites dans la [Vue 3D](3D_view/fr.md) et relâchez la touche **Alt**.
 4.  Pour positionner l\'arc de cotes, sélectionnez un point dans la [Vue 3D](3D_view/fr.md).
-5.  Selon les bords et le point choisi, l\'angle affiché sera l\'angle aigu (pointu) ou obtus (émoussé) entre les bords, ou l\'angle d\'un des bords avec l\'horizontale. Dans certains cas, vous devrez d\'abord ajouter une géométrie auxiliaire ([Draft Lignes](Draft_Line/fr.md) par exemple) pour obtenir un angle particulier.
+5.  L\'angle affiché dépend des bords et du point choisi.
 
 ### Options
 

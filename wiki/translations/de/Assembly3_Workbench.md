@@ -54,9 +54,9 @@ Ab 2020 verfügt die Assembly3 Arbeitsbereich über die folgenden Werkzeugleiste
 
 :\* <img alt="" src=images/Assembly_Move.svg‎‎  style="width:32px;"> [Teil bewegen](Assembly3_MovePart/de.md): Teil in 3D bewegen, dies ist ein spezielles Assembly3-Werkzeug
 
-:\* <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width:32px;"> [Axiale Bewegung](Assembly3_AxialMove/de.md): Teil axial in 3D bewegen, dies ist das übliche Werkzeug, das auch anderen Bereichen von FreeCAD zur Verfügung steht
+:\* <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width:32px;"> [Axial bewegen](Assembly3_AxialMove/de.md): Teil axial in 3D bewegen, dies ist das übliche Werkzeug, das auch anderen Bereichen von FreeCAD zur Verfügung steht
 
-:\* <img alt="" src=images/Assembly_QuickMove.svg‎‎  style="width:32px;"> [Quick move](Assembly3_QuickMove/de.md): Schnelles Bewegen. Dies hängt das im Baum ausgewählte Teil an den Mauszeiger. Es verändert die Position des Teils, mit einem Mausklick.
+:\* <img alt="" src=images/Assembly_QuickMove.svg‎‎  style="width:32px;"> [Schnelles Bewegen](Assembly3_QuickMove/de.md): Schnelles Bewegen. Dies hängt das im Baum ausgewählte Teil an den Mauszeiger. Es verändert die Position des Teils, mit einem Mausklick.
 
 :\*: Oft befinden sich hinzugefügte Teile übereinander gestapelt im Ursprung. Diese Funktion kann benutzt werden, um nicht sichtbare Teile zu erreichen.
 
@@ -66,7 +66,7 @@ Ab 2020 verfügt die Assembly3 Arbeitsbereich über die folgenden Werkzeugleiste
 
 :\*: Achtung, dies unterscheidet sich von der Benutzung der Leertaste. Die Benutzung der Leertaste mit ausgewählten Elementen einer Unterbaugruppe in der 3D-Ansicht liefert oft nicht das erwartete Verhalten. In solchen Fällen sollte diese Funktion benutzt werden (oder das Tastenkürzel A, Leertaste)
 
-:\* <img alt="" src=images/Assembly_Trace.svg‎‎  style="width:32px;"> [Bewegungsbahn aufzeichnen](Assembly3_TracePartMove/de.md):Bewegungsbahn aufzeichnen (TBD)
+:\* <img alt="" src=images/Assembly_Trace.svg‎‎  style="width:32px;"> [Bewegung aufzeichnen](Assembly3_TracePartMove/de.md):Bewegungsbahn aufzeichnen (TBD)
 
 :\* <img alt="" src=images/Assembly_AutoRecompute.svg‎‎  style="width:32px;"> [Automatische Berechnung](Assembly3_AutoRecompute/de.md):Automatische Berechnung. Standardmäßig aktiviert.
 
@@ -80,15 +80,15 @@ Ab 2020 verfügt die Assembly3 Arbeitsbereich über die folgenden Werkzeugleiste
 
 :\*\* <img alt="" src=images/Assembly_AutoElementVis.svg‎‎  style="width:32px;"> [Element automatisch anzeigen](Assembly3_AutoElementVisibility/de.md): Element automatisch anzeigen
 
-:\*\* <img alt="" src=images/Assembly_ShowElementCS.svg‎‎  style="width:32px;"> [Koordinatensystem des Elements anzeigen](Assembly3_ShowElementCS/de.md): Koordinatensystem des Elements anzeigen
+:\*\* <img alt="" src=images/Assembly_ShowElementCS.svg‎‎  style="width:32px;"> [Element-Koordinatensystem anzeigen](Assembly3_ShowElementCS/de.md): Koordinatensystem des Elements anzeigen
 
 :\* Arbeitsebene und Ursprung. Fügt eine Arbeitsebene, eine Platzierung oder einen Ursprung hinzu. Es muss ein Teil ausgewählt sein. Hier gibt es fünf Einstellungen.
 
-:\*\* <img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:32px;"> [Arbeitsebene hinzufügen](Assembly3_AddXYWorkplane/de.md): Arbeitsebene hinzufügen
+:\*\* <img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:32px;"> [XY-Arbeitsebene hinzufügen](Assembly3_AddXYWorkplane/de.md): Arbeitsebene hinzufügen
 
 :\*\* <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg‎‎  style="width:32px;"> [XZ-Arbeitsebene hinzufügen](Assembly3_AddXZWorkplane/de.md): XZ-Arbeitsebene hinzufügen
 
-:\*\* <img alt="" src=images/Assembly_Add_WorkplaneZY.svg‎‎  style="width:32px;"> [YZ-Arbeitsebene hinzufügen](Assembly3_AddZYWorkplane/de.md):YZ-Arbeitsebene hinzufügen
+:\*\* <img alt="" src=images/Assembly_Add_WorkplaneZY.svg‎‎  style="width:32px;"> [ZY-Arbeitsebene hinzufügen](Assembly3_AddZYWorkplane/de.md):YZ-Arbeitsebene hinzufügen
 
 :\*\* <img alt="" src=images/Assembly_Add_Placement.svg‎‎  style="width:32px;"> [Platzierung hinzufügen](Assembly3_AddPlacement/de.md): Platzierung hinzufügen
 
@@ -100,7 +100,7 @@ Ab 2020 verfügt die Assembly3 Arbeitsbereich über die folgenden Werkzeugleiste
 
 :\*: Erlaubt es Teile, Elemente oder Einschränkungen im Baum umzusortieren. Mit \"Element roll over\" (von der ersten zur letzten Position und umgekehrt). Funktioniert nur mit einer einzelnen Auswahl.
 
-:\* <img alt="" src=images/Assembly_ConstraintMultiply.svg‎‎  style="width:32px;"> [Beziehung vervielfachen](Assembly3_MultiplyConstraint/de.md): Beziehung vervielfachen. Dies kann ausgewählt werden, wenn Teile und geeignete Elemente mehrfach vorhanden sind. Es kann z.B. benutzt werden um mehrfach vorhandene Befestigungselemente mehrfach vorhandenen Löchern mit nur einer Beziehung zuzuordnen.
+:\* <img alt="" src=images/Assembly_ConstraintMultiply.svg‎‎  style="width:32px;"> [Beziehung vervielfältigen](Assembly3_MultiplyConstraint/de.md): Beziehung vervielfachen. Dies kann ausgewählt werden, wenn Teile und geeignete Elemente mehrfach vorhanden sind. Es kann z.B. benutzt werden um mehrfach vorhandene Befestigungselemente mehrfach vorhandenen Löchern mit nur einer Beziehung zuzuordnen.
 
 
 </div>
@@ -185,9 +185,9 @@ Ab 2020 verfügt die Assembly3 Arbeitsbereich über die folgenden Werkzeugleiste
 
 :\*: Unterstützte Elemente sind gerade Kanten und ebene Flächen.
 
-:\* <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width:32px;"> [Weitere](Assembly3_ConstraintMore/de.md): Zum Anzeigen weiterer Werkzeugleisten mit mehr Beziehungen.
+:\* <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width:32px;"> [Weitere](Assembly3_ConstraintMore/de.md): Werkzeugleisten umschalten für weitere Beschränkungen
 
-:\*: Nicht wirklich eine Beziehnung, sondern ein Umschalter zum Anzeigen oder Ausblenden der **Zusatzwerkzeugleiste für Beziehungen**.
+:\*: Nicht wirklich eine Beschränkung, sondern ein Umschalter zum Anzeigen/Ausblenden der **Werkzeugleisten für zusätzliche Beschränkungen**.
 
 
 </div>
@@ -262,7 +262,7 @@ Ab 2020 verfügt die Assembly3 Arbeitsbereich über die folgenden Werkzeugleiste
 
 :\* <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg‎‎  style="width:32px;"> [Gleicher Punkt-Linien-Abstand](Assembly3_ConstraintEqualPointLineDistance/de.md): Zum Festlegen, dass der Abstand eines Punktes zu einer Linie gleich dem Abstand eines weiteren Punktes zu einer anderen Linie ist.
 
-:\* <img alt="" src=images/Assembly_ConstraintColinear.svg‎‎  style="width:32px;"> [Kollinear](Assembly3_ConstraintColinear/de.md): Zum Festlegen, dass zwei Linien fluchten d.h. kollinear sind.
+:\* <img alt="" src=images/Assembly_ConstraintColinear.svg‎‎  style="width:32px;"> [Kollinear](Assembly3_ConstraintColinear/de.md): Hinzufügen einer \"kollinearen\" Beschränkung um zwei Linien kollinear zu machen.
 
 
 </div>
@@ -295,7 +295,7 @@ Diese Funktionen sind nützlich, wenn eine Baugruppe mit einer Hierarchie von ve
 
 :\* <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Verknüpftes Objekt auswählen](Std_LinkSelectLinked/de.md): Wählt das verknüpfte Objekt aus und wechselt zu dessen Dokument. {{Version/de|0.19}}
 
-:\* <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Letztes verknüpftes Objekt auswählen](Std_LinkSelectLinkedFinal/de.md): Wählt das Objekt am Ende der Verknüpfungskette aus und wechselt zu dessen Dokument. <small>(v0.19)</small> 
+:\* <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Letztes verknüpftes Objekt auswählen](Std_LinkSelectLinkedFinal/de.md): Wählt das Objekt am Ende der Verknüpfungskette aus und wechselt zu dessen Dokument. {{Version/de|0.19}}
 
 
 </div>
@@ -305,7 +305,7 @@ Diese Funktionen sind nützlich, wenn eine Baugruppe mit einer Hierarchie von ve
 
 #### Messwerkzeugleiste
 
-:   <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasurePointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasureAngle.svg‎‎  style="width:28px;">
+:   <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasurePointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasureAngle.svg‎‎  style="width:28px;">
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -391,7 +391,7 @@ Sehen wir uns ein Beispiel an
 
 :   Es wird eine neue Datei erstellt und mit der Part-Arbeitsumgebung ein Würfel und ein Zylinder hinzugefügt. Es soll der Zylinder auf den Würfel gestellt werden. Zuerst wird das Basisteil fixiert, in diesem Fall der Würfel. Dazu wird die Unterseite des Würfels und danach die Fixiereinschränkung (das erste Symbol in der [Werkzeugleiste](#Toolbars.md) der Haupteinschränkungen) ausgewählt. Es werden die Oberseite des Würfels und die Oberseite des Zylinders ausgewählt. Danach wird die \'Plane Coincident\'-Einschränkung ausgewählt. Nun hat sich der Zylinder in den Würfel hinein bewegt und im Baum wurde ein neues Blatt mit zwei Kindknoten unter \'Constraints\' hinzugefügt. Zusätzlich wurden die selben zwei Kindknoten unter \'Elements\' hinzugefügt. Falls der Zylinder im Inneren des Würfels liegt, anstatt auf seiner Oberseite wird dies als nächstes korrigiert: Den Kindknoten unter \'Constraints\' auswählen, zu dem die Zylinderfläche gehört, und mit einem Rechtsklick im Kontextmenü \'Flip Part\' auswählen. Nun wurde der Zylinder auf die Würfeloberseite gestapelt.
 
-Der Schlüsselgedanke ist, zu verstehen, dass eine Einschränkung mit den Verweisen zu den Elementen in der Liste im \'Elements\'-Baumabschnitt arbeiten. Dies erlaubt es die Struktur aus Einschränkungen intakt zu halten, während Teile ausgetauscht werden. Ohne Beispiel ist dies nur schwer zu begreifen.
+Der wichtigste Gedanke, den es zu verstehen gilt, ist dass die Beschränkung auf Verknüpfungen zu Elementen in der Liste im \"Elements\"-Baumabschnitt wirkt. Dies erlaubt, die Bindungsstruktur intakt zu halten, während die Teile geändert werden. Dies ist ohne ein Beispiel sehr schwer zu erkennen.
 
 Zurück zum obigen Beispiel
 
@@ -548,11 +548,17 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
         -   Falls ein Element ausversehen einer falschen Fläche zugeordnet wurde, wird die Zuordnung einfach mit der korrekten Fläche wiederholt.
     3.  Ändern des Objektnamens in FreeCAD, falls gewünscht
 
+
+<div class="mw-translate-fuzzy">
+
 \'\'Hinweise
 \* Es ist nicht so kompliziert, wie es hier auf den ersten Blick aussieht. Nach 2-3 Durchläufen sollten die Abläufe in Fleisch und Blut übergehen und die Ausführung leicht von der Hand gehen.
 
 -   Es ist nicht nur viel schneller als das Löschen und erneute Anlegen von Einschränkungen, sondern auch sicherer, da ein Element in einem übergeordneten Zusammenbau eingesetzt sein könnte. Das Original zu löschen, würde den Verweis zerstören, es neu zuzuordnen würde ihn erhalten.
 -   Ferner beschleunigt und vereinfacht es diesen Ablauf, wenn Einschränkungen und Elemente benannt werden. Es gäbe kein Raten, wo die Flächen hingezogen und abgelegt werden sollten, da es aus den Namen hervorgeht (siehe auch [Tipps & Tricks](#Tips_&_Tricks.md)).
+
+
+</div>
 
 [Zum Anfang](#top.md)
 
@@ -575,6 +581,9 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
 
 ## Verweise
 
+
+<div class="mw-translate-fuzzy">
+
 -   [App-Link](App_Link.md)-Objekt macht, dass Assembly3 funktioniert.
 -   [FreeCAD\_assembly3](https://github.com/realthunder/FreeCAD_assembly3) Repository und Dokumentation.
 -   [Assembly3 preview](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712), große Diskussionsrunde.
@@ -582,6 +591,9 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
 -   [Current Assembly Status](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [Externe Arbeitsbereiche](External_workbenches.md)
 -   [Altes Assembly Projekt](Assembly_project.md) Entwicklungsablauf, um sich mit der Geschichte des Themas vertraut zu machen.
+
+
+</div>
 
 
 

@@ -19,8 +19,8 @@ Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base
 
 ### Requisiti
 
--   FreeCAD versione 0.16 o superiore
--   Il lettore abbia terminato il [tutorial di Schizzo](Sketcher_tutorial/it.md)
+-   FreeCAD versione 0.17 o superiore
+-   Il lettore abbia terminato il [tutorial di Schizzo](Basic_Sketcher_Tutorial/it.md)
 
 
 </div>
@@ -43,7 +43,7 @@ Per raggiungere questo obiettivo ci sono due funzioni fondamentali : <img alt=""
 <div class="mw-translate-fuzzy">
 
 1.  Passare nell\'ambiente PartDesign
-2.  Selezionare lo schizzo creato nel [tutorial di Schizzo](Sketcher_tutorial/it.md)
+2.  Selezionare lo schizzo creato nel [tutorial di Schizzo](Basic_Sketcher_Tutorial/it.md)
 3.  Selezionare <img alt="" src=images/PartDesign_Pad.png  style="width:32px;"> [Pad](PartDesign_Pad/it.md)
 4.  Impostare la distanza 5 mm
 5.  Selezionare **Ok**

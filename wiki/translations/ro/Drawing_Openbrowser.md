@@ -15,7 +15,7 @@ Această comandă vă permite să afișați o [ Drawing page](Drawing_Landscape_
 </div>
 
 1.  Creați o [Drawing page](Drawing_Landscape_A3.md)
-2.  Adăugați pe pagina dvs. unele [ Vizualizări](Vizualizare_desene.md) sau alt conținut
+2.  Adăugați pe pagina dvs. unele [ Vizualizări](Drawing_View/ro.md) sau alt conținut
 3.  [Refresh](Std_Refresh.md) vizualizarea dacă nu a fost deschisă o vizualizare Desen
 4.  Apăsați butonul **<img src="images/Drawing_Openbrowser.png" width=16px> [[Drawing Openbrowser]]
 **

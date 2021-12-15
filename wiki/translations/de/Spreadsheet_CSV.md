@@ -3,11 +3,11 @@ Das [CSV-Format](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) (Komma-separie
 
 ## Importieren
 
-Das Importieren einer .csv-Datei in FreeCAD erstellt ein <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:16px;"> [Kalkulationstabellen](Spreadsheet_Create/de.md)-Objekt und füllt es mit den Werten aus der Datei.
+Das Importieren einer .csv-Datei in FreeCAD erstellt ein <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:16px;"> [Kalkulationstabellen](Spreadsheet_CreateSheet/de.md)-Objekt und füllt es mit den Werten aus der Datei.
 
 ## Exportieren
 
-Das Exportieren eines <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:16px;"> [Kalkulationstabellen](Spreadsheet_Create/de.md)-Objekts in eine .csv-Datei schreibt einfach alle Werte des Kalkulationstabellen-Objekt. Funktionen, wie =A3+B5 werden als Funktionen geschrieben, nicht als Ergebnisse.
+Das Exportieren eines <img alt="" src=images/Spreadsheet_CreateSheet.svg  style="width:16px;"> [Kalkulationstabellen](Spreadsheet_CreateSheet/de.md)-Objekts in eine .csv-Datei schreibt einfach alle Werte des Kalkulationstabellen-Objekt. Funktionen, wie =A3+B5 werden als Funktionen geschrieben, nicht als Ergebnisse.
 
 
  

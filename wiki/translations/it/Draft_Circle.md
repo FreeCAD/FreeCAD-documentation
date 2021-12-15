@@ -51,7 +51,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Premere il pulsante **<img src="images/Draft_Circle.svg" width=16px> [Cerchio](Draft_Circle/it.md)
 **, o premere i tasti **C** e **I**
-2.  Selezionare un primo punto nella vista 3D per stabilire il centro, oppure digitare le sue [coordinate ](Draft_Coordinates/it.md) e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [Inserisci punto](Draft_AddPoint/it.md)
+2.  Selezionare un primo punto nella vista 3D per stabilire il centro, oppure digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto
 **
 3.  Selezionare un secondo punto nella vista 3D, o introdurre il valore del raggio.
 
@@ -69,7 +69,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   L\'uso principale dello strumento cerchio è selezionando due punti, il centro e un punto sulla circonferenza.
     -   Premendo **Alt**, si può selezionare una tangente invece di selezionare un punto. È quindi possibile costruire diversi tipi di cerchi selezionando una, due o tre tangenti.
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [Inserisci punto](Draft_AddPoint/it.md)** quando si hanno i valori desiderati per inserire il punto.
+-   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
 -   Premere il tasto **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Cerchio si riavvia dopo aver terminato il cerchio in costruzione, e consente di disegnare un nuovo cerchio senza premere nuovamente il pulsante dello strumento.
 -   Premere il tasto **L** oppure fare clic sulla casella di controllo per attivare la modalità *riempito*. Se la modalità di riempimento è attiva, il cerchio crea una faccia piena (**Make Face** `True`); in caso contrario, il cerchio non crea una faccia (**Make Face** `False`).
 -   Tenere premuto **Ctrl** mentre si disegna per forzare [l\'aggancio](Draft_Snap.md) del proprio punto alla posizione di aggancio più vicina, indipendentemente dalla distanza.

@@ -23,7 +23,7 @@ El flujo de trabajo del ambiente de trabajo Trayectoria crea estas instrucciones
 -   Un modelo 3D es la base del objeto, tipicamente creado utilizando uno o más de los bancos de trabajo [Diseño de parte](PartDesign_Workbench/es.md), [Parte](Part_Workbench/es.md) o [Boceto](Draft_Workbench/es.md).
 -   Un _ y estos siguen cierto comandos de control de velocidad y movimientos (Usualmente codigo G).
 -   Herramientas son seleccionadas como son requeridas por las operaciones de trabajo.
--   Trayectorias de mecanizado son creadas utilizando por ejemplo, operaciones [Contorno](Path_Profile.md) and [Vaciado](Path_Pocket_3D.md). Esos [Objectos trayectoria](Path_objects.md) utilizan una dialecto de código G el cual es independiente de la maquina CNC.
+-   Trayectorias de mecanizado son creadas utilizando por ejemplo, operaciones [Contorno](Path_Profile.md) and [Vaciado](Path_Pocket_3D.md). Esos Objectos trayectoria utilizan una dialecto de código G el cual es independiente de la maquina CNC.
 -   Exporte el trabajo con un código G, que coincida con su máquina.
 
 Este paso se denomina *postprocesamiento*; hay diferentes postprocesadores disponibles.
@@ -71,9 +71,9 @@ Path Workbench tiene dependencias externas que incluyen:
 
 Some current limitations of which you should be aware are:
 
--   Most of the Path Tools are not true 3D tools but only 2.5D capable. This means that they take a fixed 2D shape and can cut it down to a given depth. However, there are two tools which produce true 3D paths: **<img src="images/Path_3DPocket.svg" width=24px> [3D Pocket](Path_Pocket_3D.md)** and **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)** (which is still an [experimental feature](Path_experimental.md) as of November 2020).
+-   Most of the Path Tools are not true 3D tools but only 2.5D capable. This means that they take a fixed 2D shape and can cut it down to a given depth. However, there are two tools which produce true 3D paths: **<img src="images/Path_3DPocket.svg" width=24px> [3D Pocket](Path_Pocket_3D.md)** and **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** (which is still an [experimental feature](Path_experimental.md) as of November 2020).
 -   Most of Path workbench is designed for a simple, standard 3-axis (xyz) CNC mill/router, but lathe tools are under development in 0.19\_pre.
--   Most operations in Path workbench will return paths based on a standard endmill tool/bit only, regardless of the tool/bit type assigned in a given tool controller with the exception of the **<img src="images/Path_Engrave.svg" width=24px> [Engrave](Path_Engrave.md)** and **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)** operations.
+-   Most operations in Path workbench will return paths based on a standard endmill tool/bit only, regardless of the tool/bit type assigned in a given tool controller with the exception of the **<img src="images/Path_Engrave.svg" width=24px> [Engrave](Path_Engrave.md)** and **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** operations.
 -   The operations within the Path workbench are not aware of clamping mechanisms in use to secure the model to your machine. Consequently, please review and simulate the paths you generate prior to sending the code to your machine. If necessary, model your clamping mechanisms in FreeCAD in order to better inspect the paths generated. Look for possible collisions with clamps or other obstacles along the paths.
 
 ## Unidades
@@ -176,7 +176,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Path_CompleteLoop.svg  style="width:32px;"> [Completar ciclo](Path_SelectLoop/es.md): Completa un ciclo a partir de dos esquinas seleccionadas
+-   <img alt="" src=images/Path_SelectLoop.svg  style="width:32px;"> [Completar ciclo](Path_SelectLoop/es.md): Completa un ciclo a partir de dos esquinas seleccionadas
 
 
 </div>

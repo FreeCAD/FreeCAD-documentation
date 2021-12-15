@@ -174,7 +174,7 @@ Um festzulegen, welcher Teil einer Linie von einer Beschränkung betroffen ist, 
 
 -    `3`, um anzuzeigen, dass die Beschränkung den Mittelpunkt der Kante betrifft. Für <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:24px;">_ (Ellipsen) ist dies der Mittelpunkt des Kreises bzw. das Zentrum (Schnittpunkt von Haupt- und Nebenachse) der Ellipse. Bei geraden <img alt="" src=images/Sketcher_CreateLine.svg  style="width:24px;">[Linien](Sketcher_CreateLine/de.md) kann `3` nicht zur Angabe des Mittelpunktes verwendet werden.
 
--    `n`, um anzuzeigen, dass die Beschränkung den n-ten Pol eines <img alt="" src=images/Sketcher_CreateBSpline.png  style="width:24px;">[B-Spline](Sketcher_CompCreateBSpline/de.md) betrifft.
+-    `n`, um anzuzeigen, dass die Beschränkung den n-ten Pol eines <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:24px;">[B-Spline](Sketcher_CompCreateBSpline/de.md) betrifft.
 
 Die mit 1 und 2 gekennzeichneten Knoten sind in der Reihenfolge ihrer Erstellung nummeriert. Um die Reihenfolge ihrer Erstellung herauszufinden (wenn du viele Linien hast, kannst du dich nicht erinnern, welchen Knoten du zuerst erstellt hast), musst du nur den Mauszeiger über die beiden Knoten einer Linie bewegen, siehe folgende Abbildung.
 

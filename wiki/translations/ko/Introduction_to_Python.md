@@ -1,4 +1,13 @@
 # Introduction to Python/ko
+<div class="mw-translate-fuzzy">
+
+
+{{docnav|Macros|Python scripting tutorial}}
+
+
+</div>
+
+
 {{TOCright}}
 
 ## Introduction
@@ -51,9 +60,7 @@ help("print")
 
 You\'ll get a long and complete description of everything the `print()` command can do.
 
-Now that you understand the Python interpreter, we can continue with the more serious stuff.
-
-[top](#top.md)
+Now that you understand the Python interpreter, we can continue with the more serious stuff. {{Top}}
 
 ## Variables
 
@@ -94,9 +101,7 @@ print(var2)
 
 It is advisable to give meaningful names to your variables. After a while you won\'t remember what your variable named `a` represents. But if you named it, for example, `myWelcomeMessage` you\'ll easily remember its purpose. Plus your code is a step closer to being self-documenting.
 
-Case is very important, `myVariable` is not the same as `myvariable`. If you were to enter `print(myvariable)` it would come back with an error as not defined.
-
-[top](#top.md)
+Case is very important, `myVariable` is not the same as `myvariable`. If you were to enter `print(myvariable)` it would come back with an error as not defined. {{Top}}
 
 ## Numbers
 
@@ -198,7 +203,8 @@ myVar = "hello friends"
 myVar
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Lists
 
@@ -240,9 +246,7 @@ myvar[2]
 
 Usually what you can do with lists can also be done with strings. In fact both lists and strings are sequences.
 
-Apart from strings, integers, floats and lists, there are more built-in data types, such as dictionaries, and you can even create your own data types with classes.
-
-[top](#top.md)
+Apart from strings, integers, floats and lists, there are more built-in data types, such as dictionaries, and you can even create your own data types with classes. {{Top}}
 
 ## Indentation
 
@@ -341,7 +345,8 @@ else:
     print("Such Dalton doesn't exist!")
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Functions
 
@@ -375,9 +380,7 @@ def sum(val1, val2):
 myTotal = sum(45, 34)
 ```
 
-Here we made a function that receives two arguments, sums them, and returns that value. Returning something is very useful, because we can do something with the result, such as store it in the `myTotal` variable.
-
-[top](#top.md)
+Here we made a function that receives two arguments, sums them, and returns that value. Returning something is very useful, because we can do something with the result, such as store it in the `myTotal` variable. {{Top}}
 
 ## Modules
 
@@ -473,7 +476,8 @@ There is however an alternative:
 exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## FreeCAD 시작 
 
@@ -484,19 +488,30 @@ Hopefully you now have a good idea of how Python works, and you can start explor
 dir()
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Notes
 
 -   FreeCAD was originally designed to work with Python 2. Since Python 2 reached the end of its life in 2020, future development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.
 -   Much more information about Python can be found in the [official Python tutorial](https://docs.python.org/3/tutorial/index.html) and the [official Python reference](https://docs.python.org/3/reference/).
 
-[top](#top.md)
+
+{{Top}}
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav|[Macros](Macros.md)|[Python 스크립팅 자습서](Python_scripting_tutorial.md)}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

@@ -37,8 +37,8 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 1.  Selecciona los objetos que deseas mover o copiar
 2.  Presiona el botón **<img src="images/Draft_Move.png" width=16px> [Mover](Draft_Move/es.md)
 **, o presiona las teclas **M** y **V**
-3.  Designa un primer punto en la vista 3D, o tipo en [coordenadas](Draft_Coordinates/es.md)
-4.  Designa otro punto en la vista 3D, o escribe unas [coordenadas](Draft_Coordinates/es.md)
+3.  Designa un primer punto en la vista 3D, o tipo en coordenadas
+4.  Designa otro punto en la vista 3D, o escribe unas coordenadas
 
 
 </div>

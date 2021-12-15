@@ -51,7 +51,7 @@ Si Tip est sur **Pad**, le Pad peut exister séparément, mais si Tip est sur **
 
 ## Les implications 
 
-Bien que non recommandé pour les nouveaux arrivants, il est possible de combiner les outils de Part WB et PartDesign WB, à condition de savoir ce que vous faites. Par example :
+Bien que non recommandé pour les nouveaux arrivants, il est possible de combiner les outils de l\'atelier Part et de l\'atelier PartDesign, à condition de savoir ce que vous faites. Par exemple :
 
 Les gens se font prendre lorsqu\'ils tentent d\'utiliser une fonction sous le corps (plutôt que le corps lui-même) comme sélection d\'une opération booléenne Part Workbench. Ceci pose un problème, car la fonction sélectionnée ne représente pas «LE» solide complet.
 
@@ -75,11 +75,11 @@ Voir la page wiki de l\'outil <img alt="" src=images/PartDesign_Mirrored.svg  st
 
 ## Comparaison
 
-Vous pouvez voir ci-dessous le même exemple construit avec chacun des deux ateliers. Bien sûr, il existe toujours plusieurs chronologies de construction possibles avec chaque atelier. ![Comparaison des constructions avec Part WB et PartDesign WB](images/PartWBvsPartDesignWBexample.jpg )
+Vous pouvez voir ci-dessous le même exemple construit avec chacun des deux ateliers. Bien sûr, il existe toujours plusieurs chronologies de construction possibles avec chaque atelier. ![Comparaison des constructions avec l\'atelier Part et l\'atelier PartDesign](images/PartWBvsPartDesignWBexample.jpg )
 
-  Dans <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> PartDesign WB                                                                                    Dans <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> Part WB
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  01- <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> Corps (Body) + <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Esquisse dans plan XZ   01- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Sketcher WB \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Esquisse dans plan XZ
+  Dans <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> l\'atelier PartDesign                                                                            Dans <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> l\'atelier Part
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  01- <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> Corps (Body) + <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Esquisse dans plan XZ   01- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Atelier Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Esquisse dans plan XZ
   ![](images/01sketchXZ_PartWBvsPartDesignWBn.jpg )                                                                                               ![](images/01Psketch_PartWBvsPartDesignWBn.jpg )
                                                                                                                                                                                  
 
@@ -89,11 +89,11 @@ Vous pouvez voir ci-dessous le même exemple construit avec chacun des deux atel
                                                                                                   
   ----------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------
 
-  ------------------------------------------------------------------------------------------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  03- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Esquisse dans plan XY   03- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Sketcher WB \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Esquisse dans plan XY
+  ------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  03- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Esquisse dans plan XY   03- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Atelier Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Esquisse dans plan XY
   ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )                 ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )
                                                                                                    
-  ------------------------------------------------------------------------------------------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   ------------------------------------------------------------------------------ --------------------------------------------------------------------------------
   04- <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> Poche   04a- <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> Extrusion
@@ -107,11 +107,11 @@ Vous pouvez voir ci-dessous le même exemple construit avec chacun des deux atel
                                                                                  
   ------------------------------------------------------------------------------ ------------------------------------------------------------------------
 
-  ------------------------------------------------------------------------------------------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  05- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Esquisse dans plan XZ   05- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Sketcher WB \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Esquisse dans plan XZ
+  ------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  05- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Esquisse dans plan XZ   05- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Atelier Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Esquisse dans plan XZ
   ![](images/05sketchXZ_PartWBvsPartDesignWB.jpg )                   ![](images/05PsketchXZ_PartWBvsPartDesignWB.jpg )
                                                                                                    
-  ------------------------------------------------------------------------------------------------ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------ ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   ----------------------------------------------------------------------------------- --------------------------------------------------------------------------------
   06- <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> Extrusion sym/XZ   06a- <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> Extrusion sym/XZ
@@ -131,11 +131,11 @@ Vous pouvez voir ci-dessous le même exemple construit avec chacun des deux atel
                                                                                  
   ------------------------------------------------------------------------------ ------------------------------------------------------------------------------
 
-  ------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  07- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Esquisse sur face plane de la base   07- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Sketcher WB \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Esquisse dans plan XZ
+  ------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  07- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Esquisse sur face plane de la base   07- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Atelier Sketcher \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Esquisse dans plan XZ
   ![](images/07sketchBaseSupFace_PartWBvsPartDesignWB.jpg )              ![](images/07PsketchXZ_PartWBvsPartDesignWB.jpg )
                                                                                                                 
-  ------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   ------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------
   08- <img alt="" src=images/PartDesign_Hole.svg  style="width:32px;"> Trou lamé                     08a- <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> Révolution

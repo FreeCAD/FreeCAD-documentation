@@ -108,7 +108,13 @@ Individual symbols are formed by 64x64 pixel SVG files. Additional symbols can b
 -   There is a [preference parameter](TechDraw_Preferences.md) for the default welding symbol directory. You can add your own symbols in a personal directory.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

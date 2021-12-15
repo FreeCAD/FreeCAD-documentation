@@ -1,12 +1,12 @@
 ---
 - GuiCommand:/it
-   Name:Draft Special
+   Name:Draft Snap Special
    Name/it:Speciale
    Icon:Snap_Special.svg
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    MenuLocation:Draft → [Snap](Draft_Snap/it.md) → Speciale
    Shortcut:
-   SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_ToggleSnap/it.md)
+   SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
    Version:0.17
 ---
 
@@ -44,7 +44,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 <div class="mw-translate-fuzzy">
 
-1.  Accertarsi che **<img src="images/Snap_Lock.svg" width=16px> [Aggancia](Draft_ToggleSnap/it.md)** e **<img src="images/Snap_Special.svg" width=16px> [Speciale](Draft_Special/it.md)** siano attivati.
+1.  Accertarsi che **<img src="images/Draft_Snap_Lock.svg" width=16px> [Aggancia](Draft_Snap_Lock/it.md)** e **<img src="images/Draft_Snap_Special.svg" width=16px> [Speciale](Draft_Snap_Special/it.md)** siano attivati.
 2.  Scegliere uno strumento Draft per disegnare una forma.
 3.  Spostare il cursore su un oggetto speciale, ad esempio un [Muro](Arch_Wall/it.md).
 4.  Un piccolo cerchio bianco indica il punto speciale al quale è possibile collegare il nuovo punto.
@@ -62,15 +62,6 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 ## Preferences
 
 See [Draft Snap](Draft_Snap#Preferences.md).
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Special/it

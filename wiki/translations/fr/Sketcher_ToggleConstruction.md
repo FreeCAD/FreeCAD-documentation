@@ -4,6 +4,7 @@
    Name/fr:Sketcher Basculer construction
    MenuLocation:Sketch → Géométries d'esquisse → Basculer mode géométrie de construction
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
+   SeeAlso:[Sketcher Basculer les contraintes pilotes](Sketcher_ToggleDrivingConstraint/fr.md)
 ---
 
 # Sketcher ToggleConstruction/fr
@@ -42,6 +43,10 @@ Utilisez le mode de construction sur des géométries d\'esquisse,
 puis une fois que vous quittez le **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [mode d'édition d'esquisse](Sketcher_LeaveSketch/fr.md)**, les géométries qui ont été basculées en mode construction sont devenues invisibles à l\'écran dans la [vue 3D](3D_view/fr.md) (mais sont toujours présentes dans le mode d\'édition d\'esquisse).
 
 <img alt="" src=images/Sketcher_ConstructionMode_fr_02.png  style="width:450px;">
+
+## Remarques
+
+-    **<img src=images/Sketcher_CreatePoint.svg style="width:16px"> <img src=images/Sketcher_ToggleConstruction.svg style="width:Création d'un point](Sketcher_CreatePoint/fr.md)**créera toujours des points en mode construction, quel que soit l\'état du basculement de la barre d\'outils. Sélectionnez les points souhaités dans la [Vue 3D](3D_view/fr.md) après la création et cliquez sur **[16px"> [Basculer en géométrie de construction](Sketcher_ToggleConstruction/fr.md)** pour les transformer en géométrie normale. {{Version/fr|0.19}}
 
 
 

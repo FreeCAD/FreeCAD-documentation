@@ -43,7 +43,7 @@ Die Werkzeugleisten, die in der Oberfläche erscheinen, sind:
 
 -   Datei Werkzeugleiste: Werkzeuge zum Arbeiten mit Dateien, Öffnen von Dokumenten, Kopieren, Einfügen, Rückgängigmachen und Wiederherstellen von Aktionen.
 -   _.
--   Makro Werkzeugleiste: Werkzeuge zum Aufnehmen, Bearbeiten und Ausführen von [Makros](makros/de.md).
+-   Makro Werkzeugleiste: Werkzeuge zum Aufnehmen, Bearbeiten und Ausführen von [Makros](macros/de.md).
 -   Ansicht Werkzeugleiste: Werkzeuge zur Steuerung der Darstellung von Objekten in der [3D Ansicht](3D_view/de.md).
 -   Struktur Werkzeugleiste: Werkzeuge zum Strukturieren von Objekten im Dokument und zum Erstellen von Verknüpfungen zu weiteren Dokumenten.
 
@@ -70,10 +70,16 @@ Um die Statusleiste zu aktivieren und zu deaktivieren, verwenden Sie das Menü {
 
 ### Andere
 
+
+<div class="mw-translate-fuzzy">
+
 Weitere nützliche Oberflächen und Fenster umfassen:
 
 -   _ zusammensetzt. Für Erfahrene Anwender und Entwickler kann es sinnvoll sein, Vorgänge, die die Szene direkt manipulieren, und die in der [3D Ansicht](3D_view/de.md) erstellten Objekte zu beheben.
--   _ erstellt wurden. Es ist hilfreich, Probleme bei der Erstellung von Objekten zu erkennen, wie z.B. zirkuläre Abhängigkeiten, die aus der [Baumansicht](tree_view/de.md) oder der [DAG Ansicht](DAG_view/de.md) nicht ganz ersichtlich sind.
+-   _ oder der [DAG Ansicht](DAG_view/de.md) nicht ganz ersichtlich sind.
+
+
+</div>
 
 ### Anpassung
 

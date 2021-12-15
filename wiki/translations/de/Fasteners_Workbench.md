@@ -9,12 +9,18 @@ Der <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [A
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 Die Verwendung ist ziemlich unkompliziert:
 
-1.  Installiere den Arbeitsbereich Verbindungselemente über den [Erweiterungsverwalter](Addon_Manager/de.md).
+1.  Installiere den Arbeitsbereich Verbindungselemente über den [Erweiterungsverwalter](Std_AddonMgr/de.md).
 2.  Starte ein neues Dokument in FreeCAD.
 3.  Wähle den <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Arbeitsbereich Verbindungselemente](Fasteners_Workbench/de.md) aus der [Arbeitsbereich Aufklappliste](Std_Workbench/de.md) aus.
 4.  Die zum Arbeitsbereich gehörenden [Werkzeugleisten](#Toolbars/de.md) werden angezeigt.
+
+
+</div>
 
 Einfache Anwendung: Wenn Du auf eine der Verbindungselemente klickst, wird dieses Verbindungselement an der Ursprungsposition mit den Standardeigenschaften erstellt. Um die Eigenschaften eines Verbindungselements zu ändern, wähle es und gehe dann zum **Daten** Reiter des [Eigenschaftseditors](Property_editor/de.md).
 
@@ -32,7 +38,7 @@ Einfache Anwendung: Wenn Du auf eine der Verbindungselemente klickst, wird diese
 
 ## Einrichtung
 
-Dieser Arbeitsbereich kann über den <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Erweiterungsverwalter](Addon_Manager/de.md) installiert werden. Für Informationen zu manuellen Installation siehe [Weitere Arbeitsbereiche installieren](Installing_more_workbenches/de.md).
+Dieser Arbeitsbereich kann über den <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden. Für Informationen zu manuellen Installation siehe [Weitere Arbeitsbereiche installieren](Installing_more_workbenches/de.md).
 
 ## Werkzeugleisten
 

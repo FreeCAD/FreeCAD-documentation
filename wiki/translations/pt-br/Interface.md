@@ -69,7 +69,7 @@ To activate and deactivate the status bar use the menu, **View → Status bar**.
 Other useful interfaces and windows include:
 
 -   _. For power users and developers, it may be useful to troubleshoot operations that manipulate the scene directly, and the objects created in the [3D view](3D_view.md).
--   _. It is helpful to recognize problems in the creation of objects, such as circular dependencies, which may not be entirely evident from the [tree view](tree_view.md) or the [DAG view](DAG_view.md).
+-   _ or the [DAG view](DAG_view.md).
 
 ### Customization
 

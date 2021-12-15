@@ -184,7 +184,7 @@ The `$ROOT_DIR` could be a particular user\'s directory.
 
 ### Automatic method 
 
-Starting with FreeCAD 0.17, use the [Addon Manager](Addon_Manager.md) in **Tools → Addon manager** to install a macro that has been included in the [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros) repository.
+Starting with FreeCAD 0.17, use the [Addon Manager](Std_AddonMgr.md) in **Tools → Addon manager** to install a macro that has been included in the [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros) repository.
 
 
 <div class="mw-collapsible-content">
@@ -194,7 +194,7 @@ In past versions of FreeCAD you could use two automated ways to install macros a
 -   [addons\_installer.FCMacro](https://github.com/FreeCAD/FreeCAD-addons): itself a macro, this was the precursor to the Addon Manager, and is hosted in the [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons) repository. You don\'t need to use this tool in new installations of FreeCAD.
 -   [freecad-pluginloader](https://github.com/microelly2/freecad-pluginloader): also a macro, it could be used to install new components to FreeCAD. It is no longer developed.
 
-The recommended way to install addons, that is, [external workbenches](external_workbenches.md) and macros, is the [Addon Manager](Addon_Manager.md). However, you can still add macros to your system with the manual methods described in the following sections; this is useful if you are developing and testing your own code.
+The recommended way to install addons, that is, [external workbenches](external_workbenches.md) and macros, is the [Addon Manager](Std_AddonMgr.md). However, you can still add macros to your system with the manual methods described in the following sections; this is useful if you are developing and testing your own code.
 
 
 </div>

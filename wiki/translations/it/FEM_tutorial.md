@@ -37,7 +37,7 @@ Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base
 
 -   Versione 0.16.6700 o superiore di FreeCAD.
 -   [Netgen](http://sourceforge.net/projects/netgen-mesher/) e/o [GMSH](http://geuz.org/gmsh/) installati nel sistema.
--   Nel caso si usi GMSH installare la [Macro GMSH](Macro_GMSH.md) da [Addon manager](AddonManager/it.md), sviluppata da [psicofil](https://github.com/psicofil/Macros_FreeCAD).
+-   Nel caso si usi GMSH installare la [Macro GMSH](Macro_GMSH.md) da [Addon manager](Std_AddonMgr/it.md), sviluppata da [psicofil](https://github.com/psicofil/Macros_FreeCAD).
 -   [Calculix](http://www.calculix.de/) installato nel sistema.
 -   Il lettore abbia le conoscenze di base per utilizzare gli ambienti [Parte](Part_Workbench/it.md) e [PartDesign](PartDesign_Workbench/it.md)
 

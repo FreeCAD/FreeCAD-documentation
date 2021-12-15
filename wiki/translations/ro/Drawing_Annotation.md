@@ -34,7 +34,7 @@ Această comandă vă permite să plasați un bloc de text pe un [Drawing page](
 
 <div class="mw-translate-fuzzy">
 
--   Textele întinse pe mai multe linii nu sunt acceptate de vizualizatorul Svg intern bazat pe Qt, dar comanda [ Open Browser](Draw_Openbrowser.md) prezintă aceste texte în mod corect.
+-   Textele întinse pe mai multe linii nu sunt acceptate de vizualizatorul Svg intern bazat pe Qt, dar comanda [ Open Browser](Drawing_Openbrowser.md) prezintă aceste texte în mod corect.
 
 
 </div>

@@ -1,6 +1,14 @@
-# Ship New/fr
 ---
-- GuiCommand:/fr   Name:Ship New‏‎   Name/fr:Ship New‏‎    MenuLocation:Ship design → Create a new ship   |Workbenches:[[Ship Workbench/fr   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:/fr
+   Name:Ship New
+‏‎   Name/fr:Ship New
+   MenuLocation:Ship design → Create a new ship
+   Workbenches:[Ship](Ship_Workbench/fr.md)
+   Shortcut:
+   SeeAlso:
+---
+
+# Ship New/fr
 
 
 </div>

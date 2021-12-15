@@ -22,7 +22,7 @@ Fügt ein Prisma in den aktiven Körper (Body) als Basisformelement ein oder ver
 <div class="mw-translate-fuzzy">
 
 1.  Drücke die **<img src="images/PartDesign_AdditivePrism.svg" width=24px> '''Additives Prisma'''** Schaltfläche. **Hinweis**: das Additive Prisma ist Teil eines Symbolmenüs mit der Bezeichnung *Erstellen eines additiven Grundelements*. Nach dem Start von FreeCAD wird der Additiv Quader in der Werkzeugleiste angezeigt. Um das Prisma zu erhalten, klicke auf den Abwärtspfeil neben dem sichtbaren Symbol und wähle Additives Prisma im Menü.
-2.  Stelle die Grundelement Parameter und [Anhang](Part_Attachment/de.md) ein.
+2.  Stelle die Grundelement Parameter und [Anhang](Part_EditAttachment/de.md) ein.
 3.  Klicke **OK**.
 4.  Eine Prismafunktion wird unter dem aktiven Körper angezeigt.
 
@@ -43,7 +43,7 @@ Das Prisma kann nach seiner Erstellung auf zwei Arten bearbeitet werden:
 
 <div class="mw-translate-fuzzy">
 
--    **Befestigung**: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Part Befestigung](Part_Attachment/de.md).
+-    **Befestigung**: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Part Befestigung](Part_EditAttachment/de.md).
 
 -    **Beschriftung**: Die vom Benutzer vergebene Beschriftung für das Prismenobjekt. Ändere dies nach deinen Bedürfnissen.
 

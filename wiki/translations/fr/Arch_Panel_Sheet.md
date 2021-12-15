@@ -72,7 +72,7 @@ Cet outil permet de construire une feuille en 2D, y compris n\'importe quel nomb
 
 **Voir aussi:**
 
-[Arch API](Arch_API.md) et [FreeCAD Script de Base](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
 L\'outil panneau peut être utilisé dans une [macro](macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante:
 

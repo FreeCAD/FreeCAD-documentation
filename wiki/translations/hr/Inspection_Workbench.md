@@ -6,7 +6,7 @@ The <img alt="" src=images/Workbench_Inspection.svg  style="width:24px;"> [Inspe
 
 <img alt="Screenshot" src=images/InspectionEx.png  style="width:500px;">
 
-## Intended Workflow 
+## Usage
 
 -   Select two shapes to be compared, preferably that intersect each other.
 -   Then use the menu **Inspection → Visual inspection**.

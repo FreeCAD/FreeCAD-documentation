@@ -101,7 +101,7 @@ Prerequisites:
 <div class="mw-translate-fuzzy">
 
 -   varianta software de package gdb instalat
--   o depanare a variantei compilate a FreeCAD (în acest moment disponibilă prin [building from source](CompileOnUnix#For_a_Debug_build.md))
+-   o depanare a variantei compilate a FreeCAD (în acest moment disponibilă prin [building from source](Compile_on_Linux#For_a_Debug_build.md))
 -   un model FreeCAD care a cauzat crash-ul
 
 

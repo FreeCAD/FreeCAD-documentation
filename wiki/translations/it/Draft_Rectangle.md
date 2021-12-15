@@ -46,8 +46,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 <div class="mw-translate-fuzzy">
 
 1.  Premere il pulsante **<img src="images/Draft_Rectangle.svg" width=16px> [Rettangolo](Draft_Rectangle/it.md)**, o premere i tasti **R** e poi **E**.
-2.  Selezionare un primo vertice nella vista 3D, oppure digitare le sue [coordinate ](Draft_Coordinates/it.md) e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [Inserisci punto](Draft_AddPoint/it.md)**.
-3.  Fare clic su un altro punto sulla vista 3D opposto al primo o digitare le sue [coordinate ](Draft_Coordinates/it.md) e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [Inserisci punto](Draft_AddPoint/it.md)**.
+2.  Selezionare un primo vertice nella vista 3D, oppure digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+3.  Fare clic su un altro punto sulla vista 3D opposto al primo o digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
 
 :   Il secondo punto non deve essere vincolato agli assi X, Y o Z, altrimenti il rettangolo risultante non è corretto.
 
@@ -61,7 +61,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 <div class="mw-translate-fuzzy">
 
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [Inserisci punto](Draft_AddPoint/it.md)** quando si hanno i valori desiderati per inserire il punto.
+-   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
 -   Premere il tasto **R** oppure fare clic sulla casella di controllo per attivare la modalità \"relativo\". Se la modalità relativo è attiva, le coordinate del punto successivo sono relative all\'ultimo; in caso contrario, sono assolute, prese dall\'origine (0,0,0).
 -   Premere il tasto **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Rettangolo si riavvia dopo aver terminato la figura in costruzione, e consente di disegnare un nuovo rettangolo senza premere nuovamente il pulsante dello strumento.
 -   Premere il tasto **L** oppure fare clic sulla casella di controllo per attivare la modalità *riempito*. Se la modalità di riempimento è attiva, il rettangolo crea una faccia piena (**Make Face** `True`); in caso contrario, il rettangolo non crea una faccia (**Make Face** `False`).

@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -19,16 +21,30 @@
 
 ## Usage
 
-1.  Select the sketch to be pocketed.
-
-    :   The sketch must be mapped to the planar face of an existing solid or Part Design feature, or an error message will appear. {{VersionMinus|0.16}}
+1.  Select the sketch or face to be pocketed. <small>(v0.20)</small>  Alternatively you can select several sketches or faces.
 2.  Press the **<img src="images/PartDesign_Pocket.svg" width=16px> '''Pocket'''** button.
-3.  Set the Pocket parameters (see next section).
+3.  Set the Pocket parameters, see the [Options](#Options.md) below.
 4.  Click OK.
+
+
+<div class="mw-translate-fuzzy">
 
 ## Volby
 
 ![](images/Pocket_options_cs.png )
+
+
+</div>
+
+When creating a pocket, the the **Pocket parameters** dialog will be shown. It offers the following settings:
+
+![](images/pocket_parameters_cropped.png )
+
+### Type
+
+Type offers four different ways of specifying the length to which the pocket will be extruded:
+
+### Dimension
 
 
 <div class="mw-translate-fuzzy">
@@ -54,22 +70,89 @@ Kapsa bude vysunuta až k ploše podkladu, která může být vybrána kliknutí
 
 </div>
 
-### Up to face 
+#### Through all 
 
-The pocket will extrude up to a face in the support that can be chosen by clicking on it.
+The pocket will extrude through all objects in the extrusion direction. With the option **Symmetric to plane** the pad will cut through all material in both directions.**Note:** For technical reasons, *Through All* is actually a 10 meter deep pocket. If you need deeper pockets, use the type **Dimension**.
 
-### Two dimensions 
+#### To first 
 
-This allows to enter a second length in which the pocket should extend in the opposite direction (into the support). Again can be changed by ticking the **Reversed** option. <small>(v0.17)</small> 
+The pocket will extrude up to the first face of the support in the extrusion direction. In other words, it will cut through all material until it reaches an empty space.
+
+#### Up to face 
+
+The pocket will extrude up to a face in the model that can be chosen by clicking on it.
+
+#### Two dimensions 
+
+This allows to enter a second length in which the pocket should extend in the opposite direction (into the support). The directions can be switched by ticking the **Reversed** option.
+
+### Length
+
+Defines the length of the pocket. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \"). This option is only available when **Type** is either **Dimension** or **Two dimensions**.
+
+### Offset to face 
+
+Offset from face at which the pocket will end. This option is only available when **Type** is either **Through all**, **To first** or **Up to face**.
+
+### Direction
+
+
+<small>(v0.20)</small> 
+
+#### Direction/edge
+
+You can select the direction of the extrusion:
+
+-   **Face/Sketch normal** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
+-   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion.
+-   **Custom direction** The sketch is extruded along a direction that can be specified via vector values.
+
+#### Show direction 
+
+If checked, the pocket direction will be shown. In case the pocket uses a **Custom direction**, it can be changed.
+
+#### Length along sketch normal 
+
+If checked, the pocket length is measured along the sketch normal, otherwise along the custom direction.
+
+### Symmetric to plane 
+
+Tick the checkbox to extrude half of the given length to either side of the sketch or plane.
+
+### Reversed
+
+Reverses the direction of the pocket.
+
+## Properties
+
+-    **Type**: Type of ways how the pocket will be extruded, see [Options](#Options.md).
+
+-    **Length**: Defines the length of the pocket, see [Options](#Options.md).
+
+-    **Length2**: Second pocket length in case the **Type** is **TwoLengths**, see [Options](#Options.md).
+
+-    **Use Custom Vector**: <small>(v0.20)</small>  If checked, the pocket direction will not be the normal vector of the sketch but the given vector, see [Options](#Options.md).
+
+-    **Direction**: <small>(v0.20)</small>  Vector of the pocket direction if **Use Custom Vector** is used.
+
+-    **Along Sketch Normal**: <small>(v0.20)</small>  If *true*, the pocket length is measured along the sketch normal. Otherwise and if **Use Custom Vector** is used, it is measured along the custom direction.
+
+-    **Up To Face**: A face the pocket will extrude up to, see [Options](#Options.md).
+
+-    **Refine**: True or false. Cleans up residual edges left after the operation. This property is initially set according to the user\'s settings (found in **Preferences → Part design → General → Model settings**). It can be manually changed afterwards. This property will be saved with the FreeCAD document.
+
+## Limitations
+
+
+<div class="mw-translate-fuzzy">
 
 ## Omezení
 
 -   Použijte **Rozměr** nebo **Skrz vše** kdykoliv je to možné, protože s ostatními typy jsou někdy problémy, když jsou vzorkovány
 -   Jinak objekt kapsa má stejná [omezení](PartDesign_Pad/cs#Limitations.md) jako objekt Deska.
 
-## Užitečné odkazy 
 
-[Příklad](http://forum.freecadweb.org/viewtopic.php?f=3&t=3733&start=10) na fóru.
+</div>
 
 
 

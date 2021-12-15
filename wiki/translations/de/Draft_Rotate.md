@@ -53,7 +53,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  Die Objekte auswählen, die gedreht oder kopiert werden sollen
 2.  Auf die Schaltfläche **<img src="images/Draft_Rotate.svg" width=16px> [Entwurf Drehen](Draft_Rotate.md)** klicken oder die Tasten **R** und dann **O** drücken. Wenn kein Objekt ausgewählt wurde, erscheint die Bitte, das zu tun.
-3.  Auf einen ersten Punkt in der [3D-Ansicht](3D_view/de.md) klicken oder die [Entwurfskoordinaten](Draft_Coordinates/de.md) eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** drücken. Dieser dient als Basispunkt der Operation, durch den die Drehachse verlaufen wird.
+3.  Auf einen ersten Punkt in der [3D-Ansicht](3D_view/de.md) klicken oder die Entwurfskoordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** drücken. Dieser dient als Basispunkt der Operation, durch den die Drehachse verlaufen wird.
 4.  Auf einen zweiten Punkt in der [3D-Ansicht](3D_view/de.md) klicken oder einen Basiswinkel angeben. Dies definiert eine Grundlinie, die sich um den ersten Punkt dreht.
 5.  Auf einen dritten Punkt in der [3D-Ansicht](3D_view/de.md) klicken oder einen Rotationswinkel angeben. Dies startet die Drehung der Grundlinie und dadurch auch der Objekte.
 
@@ -70,7 +70,7 @@ The single character keyboard shortcuts and the modifier key mentioned here can 
 -   Die Taste **X**, **Y** oder **Z** nach einem Punkt betätigen, um den nächsten Punkt auf der entsprechenden Achse einzuschränken.
 -   Zur manuellen Eingabe der Koordinaten einfach die Werte eingeben und jeweils die **ENTER**-Taste zwischen jeder X-, Y- und Z-Komponente betätigen.
 
-:   Die **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)**-Schaltfläche betätigen, wenn die gewünschten Werte für den einzufügenden Punkt eingegeben sind.
+:   Die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen**-Schaltfläche betätigen, wenn die gewünschten Werte für den einzufügenden Punkt eingegeben sind.
 
 -   Die **T**-Taste betätigen oder auf das Auswahlkästchen klicken, um in den \"Nächstes-Modus\" umzuschalten. Wenn der \"Nächstes\_Modus\" aktiv ist, wird das Werkzeug Drehen wieder aufgerufen, nachdem die Operation abgeschlossen wurde. Dies ermöglicht es, weitere Objekte zu drehen oder zu kopieren ohne jedesmal wieder auf die Drehen-Schaltfläche klicken zu müssen.
 -   Die **P**-Taste betätigen oder auf das Auswahlkästchen klicken, um in den \"Kopiermodus\" umzuschalten. Wenn der \"Kopier\_Modus\" aktiv ist, wird das Werkzeug Drehen die Originalform bzw. das Originalobjekt an seinem Platz lassen, aber eine Kopie erzeugen und mit dem angegebenen Winkel am dritten Punkt einfügen.

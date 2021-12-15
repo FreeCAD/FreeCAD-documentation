@@ -10,11 +10,17 @@ Se gosta do FreeCAD e gostaria de ajudar no seu desenvolvimento, para além de _
 
 Ajude-nos a construir, corrigir e ampliar esta documentação. Corrigir erros, estender ou corrigir páginas que não estejam claras, criar novas páginas se faltar um tópico, etc. Contribuir para o wiki do FreeCAD é fácil, em _ você pode encontrar as diretrizes gerais e a ajuda necessária para começar. Para editar o wiki, você precisará de uma conta wiki com permissões de \"Editor\" (o wiki é protegido contra gravação para evitar 'spam'). Pode solicitar uma conta [fórum](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830%7Cno) ou no [IRC](https://wiki.freecadweb.org/Help#Chat%7Ccanal). Note que o canal do IRC pode não ser tão responsivo como o fórum. [O fórum oficial do FreeCAD](https://forum.freecadweb.org) deve ser o local principal para fazer perguntas e iniciar discussões, pois ajudará a preservar a experiência e o conhecimento da comunidade.
 
+
+<div class="mw-translate-fuzzy">
+
 Algumas áreas indicadas para iniciar o trabalho:
 
 -   A página _ lista e documenta todos os _ do FreeCAD. A maioria deles contém pouca ou nenhuma informação. Por favor, consulte _ para bons exemplos de como devem ser as páginas de documentação de comandos.
 -   A seção _ precisa de exemplos sobre como utilizar as bancadas de trabalho. Se desenvolveu algo interessante com o FreeCAD, porque não documentar como o fez para a posteridade?
 -   Existem entradas pendentes no _ marcadas como [\"documentation\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) use com amor.
+
+
+</div>
 
 ## Partilhe o seu conhecimento do FreeCAD 
 

@@ -32,7 +32,7 @@ Das [Entwurf Verrundungswerkzeug](Draft_Fillet/de.md) erstellt eine Verrundung, 
 <div class="mw-translate-fuzzy">
 
 1.  Wähle zwei [Entwurf Linie](Draft_Line/de.md), die bereits auf dem Dokument platziert sind und sich an einem Punkt treffen.
-2.  Drücke die Taste **_ [Entwurf Verrundung](Draft_Fillet/de.md)** Taste.
+2.  Drücke die Taste **<img src="images/Draft_Fillet.svg" width=16px> [Entwurf Verrundung](Draft_Fillet/de.md)** Taste.
 3.  Wähle den Radius der Verrundung und drücke dann **Enter**.
 
 

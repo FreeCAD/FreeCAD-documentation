@@ -40,8 +40,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Stiskněte tlačítko **<img src="images/Draft_Line.png" width=16px> [Přímka](Draft_Line.md)
 ** nebo klávesy **L** pak **I**
-2.  Klikněte na první bod ve 3D pohledu nebo zadejte [souřadnice](Draft_Coordinates.md)
-3.  Klikněte na druhý bod ve 3D pohledu nebo zadejte [souřadnice](Draft_Coordinates.md).
+2.  Klikněte na první bod ve 3D pohledu nebo zadejte souřadnice
+3.  Klikněte na druhý bod ve 3D pohledu nebo zadejte souřadnice.
 
 
 </div>
@@ -61,7 +61,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Stiskněte klávesu **T** nebo klikněte/odklikněte zaklikávací políčko **'''Pokračovat'''**. Je-li nastaven pokračovací mód, nástroj Přímka bude po ukončení křivky restartován a připraven ke kreslení další přímky bez nutnosti znovu jej spouštět klikáním na tlačítko Přímka.
 -   Stiskněte při kreslení klávesu **CTRL** pro [přichycení](Draft_Snap.md) Vašeho bodu k nejbližšímu uchopovacímu místu, nezávisle na vzdálenosti od něho.
 -   Stiskněte při kreslení klávesu **SHIFT** pro nastavení [vazby](Draft_Constrain.md) Vašeho dalšího bodu vodorovně nebo svisle v relaci k předchozímu bodu.
--   Stiskněte klávesy **CTRL**+**Z** nebo tlačítko **<img src="images/Draft_UndoLine.png" width=12px> '''[Undo](Draft_UndoLine.md)'''** ke zrušení posledního bodu.
+-   Stiskněte klávesy **CTRL**+**Z** nebo tlačítko **<img src="images/Draft_UndoLine.png" width=12px> '''Undo'''** ke zrušení posledního bodu.
 -   Stiskněte klávesu **ESC** nebo tlačítko **'''Cancel'''** pro ukončení aktuálního příkazu Přímka.
 
 

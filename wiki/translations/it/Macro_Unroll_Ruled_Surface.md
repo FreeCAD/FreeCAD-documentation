@@ -46,7 +46,13 @@ Aggiungere i modelli del foglio : A3\_Landscape\_Empty.svg A3\_Landscape.svg A4\
 
 ## Codice
 
-L\'ultima versione della macro si trova in _ <img alt="Addon Manager" src=images/AddonManager.svg  style="width:24px;"> .
+
+<div class="mw-translate-fuzzy">
+
+L\'ultima versione della macro si trova in _ <img alt="Std\_AddonMgr" src=images/Std_AddonMgr.svg  style="width:24px;"> .
+
+
+</div>
 
 ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
 

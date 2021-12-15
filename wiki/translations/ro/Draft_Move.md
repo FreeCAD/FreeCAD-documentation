@@ -38,8 +38,8 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  Select objects you wish to move or copy
 2.  Press the **<img src="images/Draft_Move.png" width=16px> [[Draft Move]]** button, or press **M** then **V** keys
-3.  Click a first point on the 3D view, or type a [coordinate](Draft_Coordinates.md)
-4.  Click another point on the 3D view, or type a [coordinate](Draft_Coordinates.md)
+3.  Click a first point on the 3D view, or type a coordinate
+4.  Click another point on the 3D view, or type a coordinate
 
 
 </div>

@@ -115,7 +115,6 @@ Postoji još jedna tablica sadržaja za_.
     -   [Rad sa PySide](PySide/hr.md)
     -   [Izrada parametarskih objekata](Scripted_objects/hr.md)
     -   [Integracija FreeCAD-a](Embedding_FreeCAD/hr.md)
-    -   [API dokumentacija](API_documentation/hr.md)
     -   Primjeri skripta
         -   [Code snippets](Code_snippets/hr.md)
         -   [Funkcija crtanja linija](Line_drawing_function/hr.md)
@@ -128,27 +127,27 @@ Postoji još jedna tablica sadržaja za_.
 <div class="mw-translate-fuzzy">
 
 -   Razvojne aplikacije za FreeCAD
-    -   [Licenca](Licence/hr.md)
+    -   [Licenca](Licence.md)
     -   Kompiliraj FreeCAD
-        -   [Potražite podršku](Tracker/hr.md)
-        -   [Kompiliranje na Windowsima](CompileOnWindows/hr.md)
-        -   [Kompiliranje na Unix](CompileOnUnix.md)
-        -   [Kompiliranje na Mac](CompileOnMac.md)
-        -   [Kompiliranje (ubrzanje)](Compiling_(Speeding_up).md)
+        -   [Potražite podršku](Tracker.md)
+        -   [Kompiliranje na Windowsima](Compile_on_Windows/hr.md)
+        -   [Kompiliranje na Unix](Compile_on_Linux.md)
+        -   [Kompiliranje na Mac](Compile_on_MacOS/hr.md)
+        -   [Kompiliranje (ubrzanje)](Compiling_(Speeding_up)/hr.md)
         -   [Dodatni izvori koda](Third_Party_Libraries.md)
         -   [Dodatni programi](Third_Party_Tools.md)
         -   [Pokretanje i konfiguracija](Start_up_and_Configuration.md)
     -   Alati podrške za izgradnju
         -   [The FreeCAD build tool](FreeCAD_Build_Tool.md)
-        -   [Adding an application module](Module_Creation.md)
-        -   [Debugging FreeCAD](Debugging.md)
+        -   [Adding a workbench](Workbench_creation.md)
+        -   [Debugging FreeCAD](Debugging/hr.md)
         -   [Testiranje FreeCAD-a](Testing.md)
         -   [Integracija](Continuous_Integration.md)
     -   Prilagodite FreeCAD
-        -   [Brendiranje](Branding.md)
+        -   [Brendiranje](Branding/hr.md)
         -   [Prevedi FreeCAD](Localisation/hr.md)
         -   [Instalacija extra python modula](Extra_python_modules.md)
-    -   [Dokumentacija izvora](Source_documentation.md)
+    -   [Dokumentacija izvora](Source_documentation/hr.md)
 
 
 </div>

@@ -7,14 +7,32 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Cea mai usoară cale de instalare sub Windows este de a descărca unul dintre programele de instalare de mai jos.
+
+
+</div>
 
 
 {{DownloadWindowsStable}}
 
+
+<div class="mw-translate-fuzzy">
+
 Dupa ce fișierul .msi (Microsoft Installer) a fost descarcat, doar faceți dublu-click pe el pentru a începe instalarea.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Mai jos sunt descrise opțiunile de instalare. Daca pare complicat nu va ingrijorați! Cei mai mulți utilizatori nu vor avea nevoie de nimic mai mult decat fișierul de mai sus .msi și articolul **[ Primii pasi](Getting_started/ro.md)**!
+
+
+</div>
 
 ### Instalare Simpla Folosind Microsoft Installer 
 

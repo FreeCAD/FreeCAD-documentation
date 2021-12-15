@@ -1,6 +1,14 @@
-# Std Group/tr
 ---
-- GuiCommand:/tr   Name:Grup Oluştur   MenuLocation:Ağaç görünüm → Belge üzerine sağ tıkla   |Workbenches:Hepsi   Shortcut:   SeeAlso:[Taslak grup seçme](Draft_SelectGroup.md), [Taslak gruba ekle](Draft_AddToGroup.md)---
+- GuiCommand:/tr
+   Name:Std Group
+   Name/tr:Grup Oluştur
+   MenuLocation:Ağaç görünüm → Belge üzerine sağ tıkla
+   Workbenches:Hepsi
+   Shortcut:
+   SeeAlso:[Taslak grup seçme](Draft_SelectGroup.md), [Taslak gruba ekle](Draft_AddToGroup.md)
+---
+
+# Std Group/tr
 
 
 </div>
@@ -154,7 +162,6 @@ For example, a [FEM Analysis](FEM_Analysis.md) is an `App::DocumentObjectGroupPy
 -   [Use case in Arch Tutorial](Arch_tutorial#Organizing_your_model/tr.md)
 -   [Belge Yapısı](Document_structure/tr.md)
 -   [Modelinizi düzenleyin](http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial#Organizing_your_model)
--   [Belge içerisindeki nesneyi düzenleme](Ways_To_Organize_Objects/tr.md)
 
 
 </div>

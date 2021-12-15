@@ -19,19 +19,34 @@ Da sie sehr einfach aufgebaut sind, gehören sie zu den ältesten Formen von Get
 
 Triebstockräder mit Rollenketten sind eine kostengünstige und robuste Alternative zu Zahnstangen- und Ritzelantrieben. Durch die tangentiale Führung der gespannten Triebstockkette entlang des Triebstocks wird eine lineare Bewegung der Kette in eine Drehbewegung des Rades umgesetzt. Umgekehrt kann eine lineare Bewegung der Kette auch durch die Drehbewegung des Triebstockrades (Motorrad/Fahrrad) erreicht werden.
 
+![](images/Latern_Gear_example.png )
+
+
+<div class="mw-translate-fuzzy">
+
+
 :   ![](images/Latern_Gear_example.png )
 :   
     
 *Oben: Triebstockzahnrad*
     
 
+
+</div>
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wechsle zur <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [Arbeitsbereich FCZahnrad](FCGear_Workbench/de.md).
 2.  Rufe den Befehl auf verschiedene Weise auf:
-    -   Drücke die <img alt="" src=images/FCGear_LaternGear.svg  style="width:22px;"> [TriebstockZahnrad erstellen](FCGear_LaternGear/de.md) Schaltfläche in der Werkzeugleiste.
+    -   Drücke die <img alt="" src=images/FCGear_LanternGear.svg  style="width:22px;"> [TriebstockZahnrad erstellen](FCGear_LanternGear/de.md) Schaltfläche in der Werkzeugleiste.
     -   Mit dem **Zahnradmenü → Triebstock Zahnrad**.
 3.  Ändere die Zahnrad Parameter auf die gewünschten Bedingungen (siehe **Eigenschaften → Daten** unten).
+
+
+</div>
 
 ## Eigenschaften
 
@@ -81,7 +96,13 @@ Begrenzungen sind noch nicht bekannt.
 -    **axle base**= **pitch diameter (lantern gear 1 + 2)** : 2
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 _ _ _
 

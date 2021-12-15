@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/fr
-   Name:Path Inspect G-code
-   Name/fr:Path Inspecteur de G-code
+   Name:Path Inspect
+   Name/fr:Path Inspect
    MenuLocation:Path → Inspecter le G-code
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **I**

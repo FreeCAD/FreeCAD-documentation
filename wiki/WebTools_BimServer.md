@@ -8,7 +8,7 @@
 # WebTools BimServer
 
 
-**Starting from FreeCAD v0.17, this tool has been removed from the Arch Workbench and is now part of the external [WebTools Workbench](WebTools_Workbench.md) that you can install via menu Tools → <img src="images/AddonManager.svg" width=24px> [Addon manager](Addon_manager.md).
+**Starting from FreeCAD v0.17, this tool has been removed from the Arch Workbench and is now part of the external [WebTools Workbench](WebTools_Workbench.md) that you can install via menu Tools → <img src="images/AddonManager.svg" width=24px> [Addon manager](Std_AddonMgr.md).
 **
 
 ## Description

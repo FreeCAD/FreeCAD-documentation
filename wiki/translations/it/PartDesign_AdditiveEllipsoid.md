@@ -17,7 +17,7 @@ Inserisce un ellissoide primitivo nel corpo attivo come prima caratteristica o l
 <div class="mw-translate-fuzzy">
 
 1.  Premere il pulsante **<img src="images/PartDesign_AdditiveEllipsoid.png" width=24px> '''Ellissoide additivo'''**. **Nota**: L\'ellissoide additivo fa parte di un menu di icone etichettato *Crea una primitiva additiva*. Dopo l\'avvio, FreeCAD visualizza Cubo additivo nella barra degli strumenti. Per accedere all\'ellissoide, fare clic sulla freccia verso il basso accanto all\'icona visibile e selezionare l\'ellissoide nel menu.
-2.  Impostare i parametri della primitiva e [Associazione](Part_Attachment/it.md).
+2.  Impostare i parametri della primitiva e [Associazione](Part_EditAttachment/it.md).
 3.  Cliccare **OK**.
 4.  Nel corpo attivo viene visualizzata una funzione Ellissoide.
 
@@ -42,7 +42,7 @@ Dopo la sua creazione l\'ellissoide può essere modificato in due modi:
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/it|Attachment}}: Definisce la modalità e l\'offset di associazione. Vedere [Associazione](Part_Attachment/it.md).
+-    {{PropertyData/it|Attachment}}: Definisce la modalità e l\'offset di associazione. Vedere [Associazione](Part_EditAttachment/it.md).
 
 -    {{PropertyData/it|Label}}: Etichetta data all\'oggetto ellissoide. Modificabile secondo le proprie esigenze.
 

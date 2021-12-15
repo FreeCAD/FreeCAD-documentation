@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Der Zweck dieser Seite ist es, ein minimales Beispiel für die Funktion [Part Anhänge](Part_Attachment/de.md) unter Verwendung von [Scripted Objects](Scripted_Objects.md) in Python zu zeigen.
+Der Zweck dieser Seite ist es, ein minimales Beispiel für die Funktion [Part Anhänge](Part_EditAttachment/de.md) unter Verwendung von [Scripted objects](Scripted_objects.md) in Python zu zeigen.
 
 
 </div>

@@ -19,13 +19,13 @@ Cette commande a remplacé la commande Draft Groupe visuel dans la version 0.19 
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_Layer.svg" width=16px> [Draft Ajouter un calque au document](Draft_Layer/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Draft_Layer.svg" width=16px> [Calque](Draft_Layer/fr.md)**.
     -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_Layer.svg" width=16px> Calque** dans le menu.
     -   Si le conteneur de calque existe déjà : clic droit dessus dans la [Vue en arborescence](Tree_view/fr.md) et sélectionnez l\'option **<img src="images/Draft_NewLayer.svg" width=16px> Ajouter un nouveau calque** dans le menu contextuel.
 2.  S\'il n\'existe pas, le conteneur de calque est créé en premier.
 3.  Un calque est créé et placé dans le conteneur de calque.
 4.  Si vous le souhaitez, vous pouvez modifier les [propriétés](#Propri.C3.A9t.C3.A9s.md) du calque.
-5.  Optionnellement, vous pouvez placer des objets dans le calque en les glissant et en les déposant sur le calque dans la [Vue en arborescence](Tree_view/fr.md). Les objets peuvent également être placés dans un calque en modifiant la propriété {{PropertyData/fr|Group}} du calque.
+5.  Optionnellement, vous pouvez placer des objets dans le calque en les glissant et en les déposant sur le calque dans la [Vue en arborescence](Tree_view/fr.md). Les objets peuvent également être placés dans un calque en modifiant la propriété **Group** du calque.
 6.  Vous pouvez également [activer](#Options_du_calque.md) le calque.
 
 ## Menu contextuel 
@@ -34,9 +34,11 @@ Cette commande a remplacé la commande Draft Groupe visuel dans la version 0.19 
 
 Pour un Draft LayerContainer, ces options supplémentaires sont disponibles dans le menu contextuel de la [Vue en arborescence](Tree_view/fr.md) :
 
--    **<img src="images/Draft_Layer.svg" width=16px> Merge layer duplicates**: cette option ne fonctionne pas actuellement.
+-    **<img src="images/Draft_Layer.svg" width=16px> Fusionner les calques en double**: fusionne toutes les calques ayant la même étiquette de base.
 
--    **<img src="images/Draft_NewLayer.svg" width=16px> Add new layer**: ajoute un nouveau calque au document actuel.
+:   L\'étiquette de base d\'un calque est son étiquette **Label** débarrassée des chiffres et des espaces de fin. Tous les calques avec la même étiquette de base sont fusionnés en un seule calque avec **Label** défini à cette étiquette de base. Ceci ne fonctionne pas dans la version 0.19 de FreeCAD.
+
+-    **<img src="images/Draft_NewLayer.svg" width=16px> Ajouter un nouveau calque**: ajoute un nouveau calque au document en cours.
 
 ### Options du calque 
 
@@ -62,41 +64,41 @@ Un objet Draft Calque est dérivé d\'un [App FeaturePython](App_FeaturePython/f
 
 {{TitleProperty|Layer}}
 
--    {{PropertyData/fr|Group|LinkList}}: spécifie les objets qui se trouvent à l\'intérieur du calque.
+-    **Group|LinkList**: spécifie les objets qui se trouvent à l\'intérieur du calque.
 
 ### Vue
 
 
 {{TitleProperty|Layer}}
 
-Les propriétés de cette section sont appliquées aux objets qui sont placés à l\'intérieur du calque. Toute modification de ces propriétés leur est propagée. Pour deux propriétés, {{PropertyView/fr|Line Color}} et {{PropertyView/fr|Shape Color}}, ce comportement est facultatif.
+Les propriétés de cette section sont appliquées aux objets qui sont placés à l\'intérieur du calque. Toute modification de ces propriétés leur est propagée. Pour deux propriétés, **Line Color** et **Shape Color**, ce comportement est facultatif.
 
--    {{PropertyView/fr|Draw Style|Enumeration}}: spécifie le style de dessin du calque : {{value|Solid}}, {{value|Dashed}}, {{value|Dotted}} ou {{value|Dashdot}}.
+-    **Draw Style|Enumeration**: spécifie le style de dessin du calque : {{value|Solid}}, {{value|Dashed}}, {{value|Dotted}} ou {{value|Dashdot}}.
 
--    {{PropertyView/fr|Line Color|Color}}: spécifie la couleur de la ligne du calque.
+-    **Line Color|Color**: spécifie la couleur de la ligne du calque.
 
--    {{PropertyView/fr|Line Width|Float}}: spécifie la largeur de ligne de la couche.
+-    **Line Width|Float**: spécifie la largeur de ligne de la couche.
 
--    {{PropertyView/fr|Override Line Color Children|Bool}}: indique si les modifications apportées à {{PropertyView/fr|Line Color}} du calque sont propagées aux objets situés à l\'intérieur du calque.
+-    **Override Line Color Children|Bool**: indique si les modifications apportées à **Line Color** du calque sont propagées aux objets situés à l\'intérieur du calque.
 
--    {{PropertyView/fr|Override Shape Color Children|Bool}}: spécifie si les modifications apportées à {{PropertyView/fr|Shape Color}} du calque sont propagées aux objets situés dans le calque.
+-    **Override Shape Color Children|Bool**: spécifie si les modifications apportées à **Shape Color** du calque sont propagées aux objets situés dans le calque.
 
--    {{PropertyView/fr|Shape Color|Color}}: spécifie la couleur de la forme du calque.
+-    **Shape Color|Color**: spécifie la couleur de la forme du calque.
 
--    {{PropertyView/fr|Transparency|Percent}}: spécifie la transparence du calque.
+-    **Transparency|Percent**: spécifie la transparence du calque.
 
 
 {{TitleProperty|Print}}
 
--    {{PropertyView/fr|Line Print Color|Color}}: spécifie la couleur d\'impression des lignes du calque.
+-    **Line Print Color|Color**: spécifie la couleur d\'impression des lignes du calque.
 
--    {{PropertyView/fr|Use Print Color|Bool}}: indique si la {{PropertyView/fr|Line Print Color|}} du calque est utilisée lorsqu\'un [TechDraw Vue Draft](TechDraw_DraftView/fr.md) est créé à partir des objets contenus dans le calque.
+-    **Use Print Color|Bool**: indique si la **Line Print Color|** du calque est utilisée lorsqu\'une [TechDraw Vue Draft](TechDraw_DraftView/fr.md) est créée à partir des objets contenus dans le calque.
 
 ## Script
 
 Voir aussi: _.
 
-Pour créer un Draft calque, utilisez la méthode `make_layer` du module Draft. Pour ajouter des objets à un calque ou en supprimer, modifiez sa propriété `Group`.
+Pour créer un Draft Calque, utilisez la méthode `make_layer` du module Draft. Pour ajouter des objets à un calque ou en supprimer, modifiez sa propriété `Group`.
 
 
 ```python

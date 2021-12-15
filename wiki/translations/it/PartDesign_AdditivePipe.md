@@ -112,7 +112,7 @@ Per utilizzare più di una sezione trasversale, iniziare con il primo schizzo de
 
 -    {{PropertyData/it|Transformation}}: \"Costante\" usa una singola sezione trasversale. \"Multisezione\" utilizza due o più sezioni trasversali. \"Linear\", \"S-shape\" e \"Interpolation\" non sono al momento funzionanti.
 
-## Limitazioni
+## Notes
 
 
 <div class="mw-translate-fuzzy">

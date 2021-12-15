@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Kurven EinfügenSVG
+   Name:Curves PasteSVG
+   Name/de:Kurven EinfügenSVG
    MenuLocation:Kurven → Einfügen SVG
    Workbenches:[Kurven](Curves_Workbench/de.md)
    Shortcut:Kein

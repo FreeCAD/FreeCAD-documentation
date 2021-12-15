@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Part Spirale
+   Name:Part Spiral
+   Name/de:Part Spirale
    MenuLocation:[Formteil](Part_Workbench/de.md) → [Grundkörper erstellen...](Part_CreatePrimitives/de.md) → Spirale
    Workbenches:[Part](Part_Workbench/de.md)
    Version:0.14

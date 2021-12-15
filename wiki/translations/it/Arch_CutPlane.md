@@ -26,7 +26,7 @@ Lo strumento Taglia con piano permette di tagliare un oggetto Arch secondo un pi
 
 ## Utilizzo
 
-1.  Selezionare prima l\'oggetto da tagliare, quindi la faccia (la faccia deve essere l\'ultimo elemento selezionato, e deve essere selezionata nella [vista 3D](3D_View/it.md)).
+1.  Selezionare prima l\'oggetto da tagliare, quindi la faccia (la faccia deve essere l\'ultimo elemento selezionato, e deve essere selezionata nella [vista 3D](3D_view/it.md)).
 2.  Premere il pulsante **<img src="images/Arch_CutPlane.svg" width=24px> [Taglia con piano](Arch_CutPlane/it.md)**.
 3.  Scegliere se l\'oggetto deve essere tagliato dalla parte normale **posteriore** alla faccia oppure dalla parte normale **anteriore** della faccia
 4.  Cliccare sul pulsante **OK**.

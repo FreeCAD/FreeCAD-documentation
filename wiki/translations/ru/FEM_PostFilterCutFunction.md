@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/ru
-   Name:FEM PostCreateCutFilter
-   Name/ru:FEM PostCreateCutFilter
+   Name:FEM PostFilterCutFunction
+   Name/ru:FEM PostFilterCutFunction
    MenuLocation:Results → Function cut filter
    Workbenches:[FEM](FEM_Workbench/ru.md)
    Shortcut:
@@ -20,13 +20,7 @@ ToDo
 ## Использование
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

@@ -1,4 +1,9 @@
 # PartDesign Bearingholder Tutorial I/de
+**This tutorial was originally written for a now deprecated development version of FreeCAD. This tutorial requires a complete rewrite to align with the PartDesign changes that will be in the upcoming v0.17 release.**
+
+
+
+
 {{TutorialInfo/de
 |Topic=Modellierung
 |Level=Erfahrene Anwender
@@ -6,12 +11,7 @@
 |FCVersion=0.19.23300 oder höher
 }}
 
-
-**Dieses Tutorium wurde ursprünglich für eine inzwischen veraltete Entwicklungsversion von FreeCAD geschrieben. Dieses Tutorium muss komplett neu geschrieben werden, um es an die Änderungen im PartDesign anzupassen, die in der kommenden Version 0.17 vorgenommen werden. Das Neuschreiben wurde in _**
-
 ![Lagergehäuse Tutorium - Fertiges Lagergehäuse (oben)\|thumb\|right\|400px](images/HolderTop1-1.jpg )
-
-~~Wie der Warnhinweis oben auf der Seite bereits andeutet, funktioniert dieses **Tutorium NICHT, es sei denn, du kompilierst einen speziellen, sehr experimentellen Zweig aus dem FreeCAD Quellcode** und ist ein einführendes Tutorium zur Modellierung mit dem PartDesign Arbeitsbereich in FreeCAD **unter Verwendung von Datumsebenen, die in den meisten FreeCAD Versionen noch nicht vorhanden sind**.~~
 
 ## Kurze Zweckbestimmung 
 

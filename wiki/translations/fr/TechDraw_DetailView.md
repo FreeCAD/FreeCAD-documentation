@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil Détail crée une vue d\'une petite zone d\'une vue existante.
+L\'outil Vue détaillée crée une vue d\'une petite zone d\'une vue existante.
 
 ![](images/ViewDetail.png ) 
 *Vue détaillée avec vue circulaire d'une vue existante*
@@ -25,37 +25,37 @@ L\'outil Détail crée une vue d\'une petite zone d\'une vue existante.
     -   soit en changeant les coordonnées
     -   ou en appuyant sur le bouton **Drag Highlight**. Dans ce cas, la bordure d\'origine du détail est mise en évidence en gras et avec l\'étiquette *drag*. Cliquez sur la bordure ou l\'étiquette, maintenez le bouton de la souris enfoncé et faites-la glisser à la position souhaitée. Relâchez enfin la souris pour accepter le changement.
 
-La vue détaillée peut être affichée dans une boîte de vue ronde ou carrée. Ceci est contrôlé par le paramètre [préférences](TechDraw_Preferences/fr#Annotation.md) **Forme de contour de la vue détaillée**.
+La Vue détaillée peut être affichée dans une boîte de vue ronde ou carrée. Ceci est contrôlé par le paramètre [préférences](TechDraw_Preferences/fr#Annotation.md) **Forme de contour de la vue détaillée**.
 
 ## Propriétés
 
 ### Vue détaillée 
 
--    {{PropertyData/fr|BaseView}}: la vue sur laquelle cette vue détaillée est basée.
+-    **BaseView**: la vue sur laquelle cette vue détaillée est basée.
 
--    {{PropertyData/fr|Anchor Point}}: centre de la vue détaillée dans {{PropertyData/fr|BaseView}}.
+-    **Anchor Point**: centre de la vue détaillée dans **BaseView**.
 
--    {{PropertyData/fr|Radius}}: taille de la zone dans la {{PropertyData/fr|BaseView}} affichée dans la vue détaillée.
+-    **Radius**: taille de la zone dans la **BaseView** affichée dans la vue détaillée.
 
--    {{PropertyData/fr|Scale Type}}: type de l\'échelles. Les choix sont:
+-    **Scale Type**: type de l\'échelles. Les choix sont:
 
     -   *Page*: facteur d\'échelle de la [Page](TechDraw_PageDefault/fr.md) du dessin utilisé
     -   *Automatic*: dans le cas où la vue détaillée serait plus grande que la page, elle sera réduite pour tenir dans la page
-    -   *Custom*: facteur d\'échelle personnalisé défini par {{PropertyData/fr|Scale}}
+    -   *Custom*: facteur d\'échelle personnalisé défini par **Scale**
 
--    {{PropertyData/fr|Scale}}: niveau d\'agrandissement.
+-    **Scale**: niveau d\'agrandissement.
 
--    {{PropertyData/fr|Reference}}: identifiant pour indiquer la zone de {{PropertyData/fr|BaseView}} affichée.
+-    **Reference**: identifiant pour indiquer la zone de **BaseView** affichée.
 
 ### Base View 
 
-Une vue détaillée hérite de toutes les propriétés applicables de la vue spécifiée comme {{PropertyData/fr|BaseView}}. Dans les propriétés de cette vue, vous pouvez modifier l\'apparence du contour du détail:
+Une vue détaillée hérite de toutes les propriétés applicables de la vue spécifiée comme **BaseView**. Dans les propriétés de cette vue, vous pouvez modifier l\'apparence du contour du détail:
 
--    {{PropertyView/fr|Highlight Adjust}}: angle de rotation dans le sens horaire de la vue de détail.
+-    **Highlight Adjust**: angle de rotation dans le sens horaire de la vue de détail.
 
--    {{PropertyView/fr|Highlight Line Color}}: couleur de ligne pour la forme du contour. Le paramètre par défaut pour cela est le paramètre **Detail Highlight** dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
+-    **Highlight Line Color**: couleur de ligne pour la forme du contour. Le paramètre par défaut pour cela est le paramètre **Detail Highlight** dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
--    {{PropertyView/fr|Highlight Line Style}}: style de ligne pour la forme du contour. Le paramètre par défaut pour cela est le paramètre **Detail Highlight Style** dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
+-    **Highlight Line Style**: style de ligne pour la forme du contour. Le paramètre par défaut pour cela est le paramètre **Detail Highlight Style** dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
 ## Script
 
@@ -76,12 +76,12 @@ Detail = FreeCAD.ActiveDocument.addObject('TechDraw::DrawViewDetail','Detail')
 
 -   L\'espace autour du contour de la vue et de la bordure de l\'objet de vue est par défaut une zone blanche. Cela signifie qu\'il couvre tout derrière. Parfois, il n\'y a pas assez d\'espace sur la page et vous pouvez économiser de l\'espace en réduisant cette zone blanche inutile.
 
-Pour ce faire, placez la vue Détails dans une [Fenêtre de rognage](TechDraw_ClipGroup/fr.md):
+Pour ce faire, placez la Vue détaillée dans une [Fenêtre de rognage](TechDraw_ClipGroup/fr.md):
 
 ![](images/TechDraw_DetailClipped.png ) 
 *Vue détaillée d'une fenêtre de rognage*
 
--   Pour les vues de détail avec un contour rond, la position de l\'étiquette de référence dans la vue de base peut être modifiée via la propriété de vue de base {{PropertyView/fr|Highlight Adjust}}.
+-   Pour les vues détaillées avec un contour rond, la position de l\'étiquette de référence dans la vue de base peut être modifiée via la propriété de vue de base **Highlight Adjust**.
 
 ## Remarques
 

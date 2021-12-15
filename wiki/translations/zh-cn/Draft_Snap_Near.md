@@ -40,7 +40,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 ## 如何使用
 
-1.  确保开启了**<img src="images/Snap_Lock.svg" width=16px> [Draft ToggleSnap](Draft_ToggleSnap.md)** 与 **<img src="images/Snap_Near.svg" width=16px> [Snap Near](Draft_Near.md)**。
+1.  确保开启了**<img src="images/Draft_Snap_Lock.svg" width=16px> [Draft ToggleSnap](Draft_Snap_Lock.md)** 与 **<img src="images/Draft_Snap_Near.svg" width=16px> [Snap Near](Draft_Snap_Near.md)**。
 2.  选中底图工具来绘制一个几何图形。
 3.  将鼠标指针移至希望将点所附对象的附近。
 4.  一个小黄圈将出现，指示的是目标点将放置的位置；目标点所附对象可以是一个顶点或一个边。

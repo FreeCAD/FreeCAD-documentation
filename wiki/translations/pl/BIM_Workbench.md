@@ -41,7 +41,7 @@ Samouczek [Obsługa BIM](BIM_ingame_tutorial/pl.md) jest łatwym sposobem na szy
 
 ## Przybory
 
-Środowisko pracy BIM gromadzi narzędzia z kilku innych środowisk programu FreeCAD, głównie [Rysunek Roboczy](Draft_Part_Workbench/pl.md), [Architektura](Arch_Part_Workbench/pl.md) i [Część](Part_Part_Workbench/pl.md), z grubsza zreorganizowane w logiczne kategorie: **rysowanie 2D**, **modelowanie 3D**, **adnotacje** i *\'modyfikacje*. Kategoria **zarządzanie** zawiera narzędzia, które są specyficzne dla środowiska BIM.
+Środowisko pracy BIM gromadzi narzędzia z kilku innych środowisk programu FreeCAD, głównie [Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md) i [Część](Part_Workbench/pl.md), z grubsza zreorganizowane w logiczne kategorie: **rysowanie 2D**, **modelowanie 3D**, **adnotacje** i *\'modyfikacje*. Kategoria **zarządzanie** zawiera narzędzia, które są specyficzne dla środowiska BIM.
 
 Dodatkowo, jeżeli są zainstalowane [dodatki](External_workbenches/pl.md), narzędzia ze środowiska [Zbrojenie](Arch_Rebar/pl.md) *(dodatkowe narzędzia do prętów zbrojeniowych)*, [Elementy złączne](Fasteners_Workbench/pl.md) *(śruby i wkręty)*, [Flamingo / Dodo](Flamingo_Workbench/pl.md) *(narzędzia do konstrukcji stalowych i rurociągów)* oraz [Biblioteka podzespołów](Parts_Library_Workbench/pl.md) są automatycznie dołączane do środowiska BIM.
 
@@ -74,8 +74,8 @@ Adnotacje są wizualnymi obiektami pomocniczymi, które mogą być umieszczone w
 -   <img alt="" src=images/Draft_Dimension.svg  style="width:32px;"> [Wymiarowanie](Draft_Dimension/pl.md): Rysuje wymiar liniowy, kątowy, promieniowy lub średnicy.
 -   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [Etykieta](Draft_Label/pl.md): Umieszcza etykietę ze strzałką wskazującą na wybrany element.
 -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Osie](Arch_Axis/pl.md): Tworzy pojedynczą oś lub jednokierunkowy szereg osi dla dokumentu.
--   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Układ osi](Arch_AxisSystem/pl.md): Tworzy układ osi składający się z maksymalnie trzech serii osi.
--   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Siatka](Arch_Grid/pl.md): Tworzy obiekt typu kratka w dokumencie.
+-   <img alt="" src=images/Arch_AxisSystem.svg  style="width:32px;"> [Układ osi](Arch_AxisSystem/pl.md): Tworzy układ osi składający się z maksymalnie trzech serii osi.
+-   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Siatka](Arch_Grid/pl.md): Tworzy obiekt typu siatka w dokumencie.
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Płaszczyzna przekroju](Arch_SectionPlane/pl.md): Dodaje obiekt płaszczyzny przekroju w dokumencie. Płaszczyzny przekroju definiują widoki 2D, takie jak plany, przekroje i elewacje.
 -   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> _ z [szablonu SVG](TechDraw_Templates/pl.md).
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Widok](TechDraw_ArchView/pl.md): Wstawia widok płaszczyzny przekroju na stronie.

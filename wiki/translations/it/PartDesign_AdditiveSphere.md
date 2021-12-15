@@ -17,7 +17,7 @@ Inserisce una sfera primitiva nel corpo attivo come prima caratteristica o la fo
 <div class="mw-translate-fuzzy">
 
 1.  Premere il pulsante **<img src="images/PartDesign_AdditiveSphere.png" width=24px> '''Sfera additiva'''**. **Nota**: La sfera additiva fa parte di un menu di icone etichettato *Crea una primitiva additiva*. Dopo l\'avvio, FreeCAD visualizza Cubo additivo nella barra degli strumenti. Per accedere alla sfera, fare clic sulla freccia verso il basso accanto all\'icona visibile e selezionare Sfera nel menu.
-2.  Impostare i parametri della primitiva e [Associazione](Part_Attachment/it.md).
+2.  Impostare i parametri della primitiva e [Associazione](Part_EditAttachment/it.md).
 3.  Cliccare **OK**.
 4.  Nel corpo attivo viene visualizzata una funzione Sfera.
 
@@ -42,7 +42,7 @@ Dopo la sua creazione la sfera può essere modificata in due modi:
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/it|Attachment}}: Definisce la modalità e l\'offset di associazione. Vedere [Associazione](Part_Attachment/it.md).
+-    {{PropertyData/it|Attachment}}: Definisce la modalità e l\'offset di associazione. Vedere [Associazione](Part_EditAttachment/it.md).
 
 -    {{PropertyData/it|Label}}: Etichetta data all\'oggetto Cono. Modificabile secondo le proprie esigenze.
 

@@ -78,7 +78,7 @@ The following two properties are normally hidden. They become visible once **Map
 #### Ausgeblendete Eigenschaften Ansicht 
 
 
-{{TitleProperty/de|Grundlage}}
+{{TitleProperty|Grundlage}}
 
 -    **Proxy|PythonObject**: eine benutzerdefinierte Providerklasse, die mit diesem Objekt verknüpft ist. Das gibt es nur für die [Python](Python/de.md) Version. Siehe [Skripten](Std_Group/de#Skripten.md).
 

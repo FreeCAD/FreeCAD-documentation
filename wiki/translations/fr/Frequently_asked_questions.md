@@ -23,7 +23,7 @@ Seulement l\'architecture MacIntel est prise en charge. Il n\'y a aucune version
 
 ### Que faire si je veux compiler FreeCAD moi-même ? 
 
-Le code source de FreeCAD est toujours disponible dans le répertoire du code source du projet. Compiler vous-même avec FreeCAD vous permet d'utiliser les dernières fonctionnalités en cours de développement mais nécessite quelques connaissances informatiques, bien que la procédure soit relativement simple. L\'accès au code source est expliqué [ici](Compile_on_Linux/fr#Obtenir_le_code_source.md) et ici des instructions détaillées pour la compilation sur [Windows](Compile_on_Windows/fr.md), [Linux](Compile_on_Linux/Unix/fr.md) et [macOS](Compile_on_MacOS/fr.md).
+Le code source de FreeCAD est toujours disponible dans le répertoire du code source du projet. Compiler vous-même avec FreeCAD vous permet d'utiliser les dernières fonctionnalités en cours de développement mais nécessite quelques connaissances informatiques, bien que la procédure soit relativement simple. L\'accès au code source est expliqué [ici](Compile_on_Linux/fr#Obtenir_le_code_source.md) et ici des instructions détaillées pour la compilation sur [Windows](Compile_on_Windows/fr.md), [Linux](Compile_on_Linux/fr.md) et [macOS](Compile_on_MacOS/fr.md).
 
 ### FreeCAD me signale que certains modules ou applications sont manquants 
 
@@ -158,7 +158,7 @@ En cliquant sur le bouton central de la souris, la vue est recentrée sur l'empl
 |Zoom_mode_text=Mode zoom: maintenez les touches **Ctrl** et **Maj** enfoncées, appuyez simultanément sur le bouton droit de la souris, puis déplacez le pointeur. {{Version/fr|0.17}}
 |Rotate_view_text=Maintenez le bouton central de la souris enfoncé, appuyez ensuite sur le bouton gauche de la souris, puis déplacez le pointeur.
 
-Lorsque le bouton central de la souris est enfoncé l'emplacement du curseur détermine le centre de rotation. La rotation fonctionne comme une balle qui tourne autour de son centre. Si les boutons sont relâchés avant d'arrêter le mouvement de la souris, la vue continue [sa rotation](spinning/fr.md), si cette option est activée.
+Lorsque le bouton central de la souris est enfoncé l'emplacement du curseur détermine le centre de rotation. La rotation fonctionne comme une balle qui tourne autour de son centre. Si les boutons sont relâchés avant que vous n'arrêtiez le mouvement de la souris, la vue continue de tourner, si cette option est activée.
 
 Double cliquer avec le bouton central de la souris définit un nouveau centre de rotation.
 |Rotate_view_mode_text=Mode rotation: maintenez la touche **Shift** enfoncée, appuyez à la fois sur le bouton droit de la souris, puis déplacez le pointeur. {{Version/fr|0.17}}

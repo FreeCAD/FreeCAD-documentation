@@ -115,7 +115,7 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 <div class="mw-translate-fuzzy">
 
--   **Standard della linea di sezione**: standard da utilizzare per tracciare le linee di sezione nelle [viste di sezioni](TechDraw_NewSection/it.md).
+-   **Standard della linea di sezione**: standard da utilizzare per tracciare le linee di sezione nelle [viste di sezioni](TechDraw_SectionView/it.md).
 -   **Stile della linea di sezione**: stile per le linee di sezione.
 -   **Superficie della sezione tagliata**: stile per la superficie tagliata nella sezione. Le opzioni sono: {{Version/it|0.19}}
     -   *Nascosta*: la superficie non è visibile.

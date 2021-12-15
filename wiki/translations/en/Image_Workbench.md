@@ -1,17 +1,17 @@
 # <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/en
 
-## Introduction
-
 
 {{TOCright}}
+
+## Introduction
 
 The <img alt="" src=images/Workbench_Image.svg  style="width:24px;"> [Image Workbench](Image_Workbench.md) manages different types of [bitmap](bitmap.md) images, and allows you to open them in FreeCAD.
 
 ## Tools
 
--   <img alt="" src=images/Image_Open.svg  style="width:32px;"> [Open](Image_Open.md): open an image on a new viewport.
--   <img alt="" src=images/Image-import-to-plane.svg  style="width:32px;"> [Import to plane](Image_CreateImagePlane.md): import an image to a plane in the 3D view.
--   <img alt="" src=images/Image-scale.svg  style="width:32px;"> [Scaling](Image_Scaling.md): scale an image imported to a plane.
+-   <img alt="" src=images/Image_Open.svg  style="width:32px;"> [Open\...](Image_Open.md): open an image on a new viewport.
+-   <img alt="" src=images/Image_CreateImagePlane.svg  style="width:32px;"> [Create image plane\...](Image_CreateImagePlane.md): import an image to a plane in the 3D view.
+-   <img alt="" src=images/Image_Scaling.svg  style="width:32px;"> [Scale image plane](Image_Scaling.md): scale an image imported to a plane.
 
 ## Features
 

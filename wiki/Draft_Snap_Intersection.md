@@ -26,9 +26,11 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 4.  Note that you can also change snap options while a command is active.
 5.  Move the cursor over one of the edges that intersect.
 6.  The edge is highlighted.
-7.  If an intersection is found the point is marked and the <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:16px;"> icon is displayed near the cursor.
-8.  If the edges have multiple intersections: optionally move the cursor closer to another intersection.
-9.  Click to confirm the point.
+7.  Move the cursor over the other edge.
+8.  The edge is highlighted.
+9.  If an intersection is found the point is marked and the <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:16px;"> icon is displayed near the cursor.
+10. If the edges have multiple intersections: optionally move the cursor closer to another intersection.
+11. Click to confirm the point.
 
 ## Preferences
 

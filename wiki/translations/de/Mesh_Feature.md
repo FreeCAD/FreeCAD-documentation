@@ -8,7 +8,13 @@ Ein <img alt="" src=images/Mesh_Tree.svg  style="width:32px;"> _, das in der [3D
 
 Ein Polygonnetz Formelement ähnelt konzeptionell einem [Part Formelement](Part_Feature/de.md); Ersteres ist das Basisobjekt für Elemente mit \"Polygonnetz\" Information, während Letzteres das Basisobjekt für Elemente mit \"geometrischer Form\" Information ist.
 
-Bitte beachte, dass der **<img src="images/Workbench_FEM.svg" width=16px> [FEM Arbeitsbereich](FEM_Workbench/de.md)** ebenfalls Polygonnetze verwendet, aber in diesem Fall wird ein anderes Objekt verwendet, das [Fem FemPolygonnetzObjekt](Fem_FemMeshObject/de.md) (`Fem::FemMeshObject` Klasse) genannt wird. Dieses Objekt ist nicht von Polygonnetz Formelement abgeleitet und hat daher andere Eigenschaften.
+
+<div class="mw-translate-fuzzy">
+
+Bitte beachte, dass der **<img src="images/Workbench_FEM.svg" width=16px> [FEM Arbeitsbereich](FEM_Workbench/de.md)** ebenfalls Polygonnetze verwendet, aber in diesem Fall wird ein anderes Objekt verwendet, das [Fem FemPolygonnetzObjekt](FEM_Mesh/de.md) (`Fem::FemMeshObject` Klasse) genannt wird. Dieses Objekt ist nicht von Polygonnetz Formelement abgeleitet und hat daher andere Eigenschaften.
+
+
+</div>
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -20,7 +26,7 @@ Bitte beachte, dass der **<img src="images/Workbench_FEM.svg" width=16px> [FEM A
 
 Fast alle Polygonnetz Objekte, die mit den in der grafischen Oberfläche [Polygonnetz Arbeitsbereich](Mesh_Workbench/de.md) verfügbaren Befehlen erzeugt werden, sind [Polygonnetz Funktionen](Mesh_Feature/de.md). Die einzige Ausnahme bilden die parametrischen Polygonnetzobjekte, die mit dem Befehl [Polygonnetz BauRegularSolid](Mesh_BuildRegularSolid/de.md) erzeugt werden. Ein [Polygonnetz Funktion](Mesh_Feature/de.md) kann auch über die [Python Konsole](Python_console/de.md) erzeugt werden, wie im Abschnitt [Skripten](Mesh_Feature/de#Skripten.md) beschrieben.
 
-The `Mesh::Feature` is defined in the [Mesh Workbench](Mesh_Workbench.md) but can be used as the base class for [scripted objects](scripted_objects.md) in all [workbenches](Workbenches.md) that produce 2D and 3D meshes.
+The `Mesh::Feature` is defined in the [Mesh Workbench](Mesh_Workbench.md) but can be used as the base class for [scripted objects](Scripted_objects.md) in all [workbenches](Workbenches.md) that produce 2D and 3D meshes.
 
 A `Mesh::Feature` has simple properties like a [placement](Placement.md), and visual properties to define the appearance of its edges and faces.
 
@@ -34,7 +40,7 @@ Other properties that this object has are those related to the appearance of its
 
 See [Property](Property.md) for all property types that scripted objects can have.
 
-These are the properties available in the [property editor](property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](property_editor.md).
+These are the properties available in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](property_editor.md).
 
 ### Daten
 
@@ -77,7 +83,7 @@ These are the properties available in the [property editor](property_editor.md).
 
 ### Ansicht
 
-Most objects in FreeCAD have what is called a \"view provider\", which is a class that defines the visual appearance of the object in the [3D view](3D_view.md), and in the [tree view](tree_view.md). The default view provider of Mesh Feature objects defines the following properties. Scripted objects that are derived from Mesh Feature will have access to these properties as well.
+Most objects in FreeCAD have what is called a \"view provider\", which is a class that defines the visual appearance of the object in the [3D view](3D_view.md), and in the [tree view](Tree_view.md). The default view provider of Mesh Feature objects defines the following properties. Scripted objects that are derived from Mesh Feature will have access to these properties as well.
 
 
 {{TitleProperty|Base}}
@@ -130,7 +136,7 @@ Most objects in FreeCAD have what is called a \"view provider\", which is a clas
 
 **See also:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), and [scripted objects](scripted_objects.md).
+[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), and [scripted objects](Scripted_objects.md).
 
 See [Part Feature](Part_Feature.md) for the general information on adding objects to the program.
 

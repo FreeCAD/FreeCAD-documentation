@@ -1,6 +1,7 @@
 # Macro PartToVRML/it
 {{Macro/it
 |Name=Macro Macro PartToVRML
+|Icon=PartToVRML.png
 |Translate=Da Part a VRML
 |Description=Converte le parti selezionate in mesh VRML.|Author=Easyw-fc
 |Version=1.9.2

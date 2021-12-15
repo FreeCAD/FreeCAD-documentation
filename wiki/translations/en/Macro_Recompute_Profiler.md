@@ -35,7 +35,7 @@ ToolBar Icon ![](images/Macro_Recompute_Profiler.png )
 **RecomputeProfiler.FCMacro**
 
 
-{{MacroCode|code=
+```python
 __Title__="Macro Recompute Profiler"
 __Author__ = "DeepSOIC"
 __Version__ = "0.1"
@@ -155,11 +155,14 @@ def run():
         App.ActiveDocument.RecomputesFrozen = False
 
 run()
-}}
+```
 
 ## Post-processing results 
 
-The output of the macro will be interleaved with general messages produced by recomputing features. It generally looks like this: {{code|code=
+The output of the macro will be interleaved with general messages produced by recomputing features. It generally looks like this:
+
+
+{{code|code=
 Recomputing... (time in seconds, label)
 Sketcher::setUpSketch()-T:0
 Sketcher::Solve()-DogLeg-T:0
@@ -179,7 +182,12 @@ Sketcher::Solve()-DogLeg-T:0
 Sketcher::setUpSketch()-T:0
 Sketcher::Solve()-DogLeg-T:0
 ...
-}} The result lines have an easy signature to separate them off: they start with a tab. So, if you copy-paste the whole chunk to a spreadsheet program, generic messages will end up in column 1, while the results are in columns 2 and 3. So, you can sort by column 2, to get a nice table like that: {{code|code=
+}}
+
+The result lines have an easy signature to separate them off: they start with a tab. So, if you copy-paste the whole chunk to a spreadsheet program, generic messages will end up in column 1, while the results are in columns 2 and 3. So, you can sort by column 2, to get a nice table like that:
+
+
+{{code|code=
 0.59100008  Slice
 0.352999926 Populate LinearArray with Compound
 0.160000086 CompoundFilter
@@ -192,13 +200,17 @@ Sketcher::Solve()-DogLeg-T:0
 0.019999981 Clone of Sketch - master section (2D)001
 0.010999918 ArrayFilter003
 ...
-}} (For MS-Excel, pasting right after copying text from report view doesn\'t split it into columns, don\'t know why\... pasting the text to Notepad and re-copying it from Notepad and pasting to excel helps.)
+}}
 
-## FC version 
+(For MS-Excel, pasting right after copying text from report view doesn\'t split it into columns, don\'t know why\... pasting the text to Notepad and re-copying it from Notepad and pasting to excel helps.)
+
+## FreeCAD version 
 
 This macro requires FreeCAD no less than 0.17.10644, which was the version where App.ActiveDocument.RecomputesFrozen became available. It might be functional with a bit older FreeCAD, but certainly won\'t work with v0.16.
 
-This macro was created using this version of FreeCAD: 
+This macro was created using this version of FreeCAD:
+
+
 ```python
 OS: Windows 10
 Word size of OS: 64-bit

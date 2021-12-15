@@ -38,7 +38,13 @@ Creare il filetto richiede molto tempo. Siate pazienti e date un\'occhiata all\'
 
 ## Codice
 
+
+<div class="mw-translate-fuzzy">
+
 L\'ultima versione della macro è disponibile all\'indirizzo _.
+
+
+</div>
 
 ToolBar Icon ![](images/Macro_screw_maker1_2.png )
 

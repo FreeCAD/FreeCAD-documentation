@@ -54,9 +54,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 <div class="mw-translate-fuzzy">
 
 1.  Premere il pulsante **<img src="images/Draft_Label.svg" width=16px> [Etichetta](Draft_Label/it.md)**, o premere i tasti **D** e poi **L**.
-2.  Selezionare un primo punto nella vista 3D, oppure digitare le sue [coordinate ](Draft_Coordinates/it.md) e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [Aggiungi punto](Draft_AddPoint/it.md)**. Questo punto indica l\'obiettivo (punta della freccia) che può essere ovunque, non è necessario che sia un elemento.
-3.  Fare clic su un secondo punto nella vista 3D o digitare una [coordinata](Draft_Coordinates/it.md) e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**. Questo punto indica l\'inizio di una linea guida orizzontale o verticale.
-4.  Fare clic su un terzo punto nella vista 3D o digitare una [coordinata](Draft_Coordinates/it.md) e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**. Questo punto indica il punto base del testo.
+2.  Selezionare un primo punto nella vista 3D, oppure digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Aggiungi punto**. Questo punto indica l\'obiettivo (punta della freccia) che può essere ovunque, non è necessario che sia un elemento.
+3.  Fare clic su un secondo punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**. Questo punto indica l\'inizio di una linea guida orizzontale o verticale.
+4.  Fare clic su un terzo punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**. Questo punto indica il punto base del testo.
 
 
 </div>
@@ -69,7 +69,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 <div class="mw-translate-fuzzy">
 
 -   Cliccare su **Label type** per selezionare il tipo di informazioni da visualizzare, incluso \"Custom\", \"Name\", \"Label\", \"Position\", \"Length\", \"Area\", \"Volume\", \"Tag\", e \"Material\". (Vedere le spiegazioni sotto, in [Tipi di etichette](Draft_Label/it#Tipi_di_etichette.md))
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [Inserisci punto](Draft_AddPoint/it.md)** quando si hanno i valori desiderati per inserire il punto.
+-   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
 -   Tenere premuto **Ctrl** mentre si posiziona l\'etichetta per forzare lo [snap](Draft_Snap.md) al punto di aggancio più vicino, indipendentemente dalla distanza.
 -   Premere il tasto **Esc** o il pulsante **Chiudi** per interrompere il comando corrente.
 

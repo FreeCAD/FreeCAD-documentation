@@ -45,46 +45,33 @@ En primer lugar, descarga e instala FreeCAD. Consulte la página [Descargar](Dow
 
 El concepto principal detras de la interface de Freecad es que esta separado en [Ambientes de trabajos](workbenches/es.md). Un Ambiente de trabajo es una colección de herramientas adecuadas para una tarea especifica, tal como trabajar con [mallas](Mesh_Workbench/es.md), o dibujar [objetos 2D](Draft_Workbench/es.md), o [Croquis restringido](Sketcher_Workbench/es.md). Puedes cambiar el ambiente de trabajo actual con el [selector de ambientes de trabajo](Std_Workbench/es.md). Puedes [personalizar](Interface_Customization/es.md) la herramientas incuidas en cada ambiente de trabajo, agregar herramientas de otros ambiente de trabajo o incluso herramientas propias, que nosotros llamamos [macros](macros/es.md). Puntos de inicio ampliamente utilizados son [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md) and [Ambiente de trabajo Pieza](Part_Workbench/es.md).
 
+
+<div class="mw-translate-fuzzy">
+
 Cuando comienzas FreeCAD por primera vez, se te presenta la página de inicio. EEsto es lo que parece para la versión 0.18:
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
+
+
+</div>
 
 La página de inicio te permite saltar rápidamente a uno de los ambientes de trabajo más comunes, abrir uno de los archivos recientes, o ver las últimas noticias del mundo de FreeCAD. Puedes cambiar el ambientes de trabajo por defecto en las [preferencias](Preferences_Editor/es.md).
 
 ## Navegando en el espacio 3D 
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD tiene tres diferentes [Modos de navegación](Mouse_navigation/es.md) disponibles, que se pueden establecer en las preferencias del diálogo de configuración o cambiar pulsando el botón derecho en la vista 3D. Para ver más detalles sobre los modos mira la página [Modos de navegación](Mouse_navigation/es.md). Para el modo de navegación por defecto **Navegación CAD**(Puedes cambiar rapidamente el actual modo de navegación dado clic derecho en un area vaci de la vista 3D):
 
 
-{{CAD Navigation
-|Select_name=Select
-|Pan_name=Pan
-|Zoom_name=Zoom
-|Rotate_view_name=Rotate view<br>First method
-|Rotate_view_alt_name=Rotate view<br>Alternate method
-|Ctrl=**Ctrl**
-|Shift=**Shift**
-|Select_text=Press the left mouse button over an object you want to select.
-
-Mantener pulsado **Ctrl** permite la selección de múltiples objetos.
-|Pan_text=Mantener pulsado el botón central del ratón, luego mover el puntero.
-|Pan_mode_text=Modo Pan: mantener pulsada la tecla **Ctrl**, pulsar el botón derecho del ratón una vez, y luego mover el puntero. {{Version/es|0.17}}
-|Zoom_text=Utiliza la rueda del ratón para acercar y alejar la imagen.
-
-Si se pulsa el botón central del ratón, se vuelve a centrar la vista en la ubicación del cursor.
-|Zoom_mode_text=Modo de zoom: mantener pulsadas las teclas **Ctrl** y **Shift**, pulsar una vez el botón derecho del ratón y mover el puntero. {{Version/es|0.17}}
-|Rotate_view_text=Mantenga pulsado el botón central del ratón, pulse y mantenga pulsado el botón izquierdo del ratón, luego mueva el puntero.
-
-La ubicación del cursor cuando se pulsa el botón central del ratón determina el centro de rotación. La rotación funciona como hacer girar una pelota que gira alrededor de su centro. Si se sueltan los botones antes de que se detenga el movimiento del ratón, la vista continúa [girando](spinning/es.md), si esto está habilitado.
-
-Un doble clic con el botón central del ratón establece un nuevo centro de rotación.
-|Rotate_view_mode_text=Modo de rotación: mantén la tecla **Shift**, pulsa el botón derecho del ratón una vez, luego mueve el puntero. {{Version/es|0.17}}
-|Rotate_view_alt_text=Mantener pulsado el botón central del ratón, pulsar una vez el botón derecho del ratón y mover el puntero.
-
-Con este método se puede soltar el botón central del ratón después de mantener pulsado el botón derecho.
-
-Los usuarios que utilizan el ratón con la mano derecha pueden encontrar este método más fácil que el primero.
-}}
+</div>
 
 También tiene varias vistas preconfiguradas (vista superior, vista frontal, etc.) disponibles en el menú Ver, en la barra de herramientas Ver, y, por atajos numéricos (**1**, **2**, etc\...). Dado clic derecho sobre un objeto o sobre un area vacia de la vista 3D, tienes acceso directo a algunas operaciones comunes, tal como configurar una vista particular, o ubicar un objeto en la vista de árbol.
 
@@ -116,7 +103,7 @@ Esas formas 2D hechas con Boceto son utilizadas mucho en el banco de trabajo dis
 
 El cual te da un objeto como este:
 
-<img alt="" src=images/Partdesign_example.jpg  style="width:1024px;">
+<img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 En cualquier momento, puedes seleccionar el origen del croquis y modificarlo, o cambiar los parametros de extrusión de la plataforma u operaciones de baciado, las cuales actualizarán el objeto final.
 
@@ -140,13 +127,19 @@ Un flujo de trabajo típico con los ambientes de trabajo Arquitectura y Borrador
 
 El cual te dará esto:
 
-<img alt="" src=images/Arch_workflow_example.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
 
 Más en la [Tutorialespágina](Tutorials/es.md).
 
 ## Complementos, Macro y Ambiente de trabajo Externos 
 
+
+<div class="mw-translate-fuzzy">
+
 Freecad, como software de código abierto, ofrece la posibilidad de complementar sus ambiente de trabajo con complementos.
+
+
+</div>
 
 El principio de [Complementos](Addon/es.md) se basa en el desarrollo de un complemento del ambiente de trabajo. Cualquier usuario puede desarrollar una función que considere que falta para sus propias necesidades o, en última instancia, para la comunidad. Con el foro, el usuario puede solicitar una opinión, una ayuda en el foro. Puede compartir, o no, el objeto de su desarrollo según las normas de derechos de autor a definir. Libre para ella/él. Para desarrollar, el usuario dispone de funciones de [guiones](scripting/es.md).
 

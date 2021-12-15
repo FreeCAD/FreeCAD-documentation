@@ -13,9 +13,15 @@
 Intensivnutzer haben FreeCAD um verschiedene kundenspezifische [externe Arbeitsbereiche](external_workbenches/de.md) erweitert, die nicht in den FreeCAD Quellcodekern integriert sind, sind aber leicht auf einer bestehenden FreeCAD Installation zu installieren. Hier werden wir die Installationsmethoden für die verschiedenen Betriebssysteme behandeln.
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Hinweis:**
 
-Ab Version 0.17 verfügt FreeCAD über einen <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Erweiterungsverwalter](Addon_Manager/de.md) im **Werkzeuge → Erweiterungsverwalter** Menü, das die Installation sowohl von Makros als auch von Workbenches erlaubt. Die folgenden Anweisungen sind nur erforderlich, wenn du einen Arbeitsbereich manuell installieren möchtest. Dies könnte notwendig sein, wenn aus irgendeinem Grund der Erweiterungsverwalter nicht funktioniert, du aber Zugriff auf den als {{FileName|.zip}} Paket heruntergeladenen Arbeitsbereich hast.
+Ab Version 0.17 verfügt FreeCAD über einen <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) im **Werkzeuge → Erweiterungsverwalter** Menü, das die Installation sowohl von Makros als auch von Workbenches erlaubt. Die folgenden Anweisungen sind nur erforderlich, wenn du einen Arbeitsbereich manuell installieren möchtest. Dies könnte notwendig sein, wenn aus irgendeinem Grund der Erweiterungsverwalter nicht funktioniert, du aber Zugriff auf den als {{FileName|.zip}} Paket heruntergeladenen Arbeitsbereich hast.
+
+
+</div>
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -30,20 +36,32 @@ Wie man zusätzliche Arbeitsbereiche und Erweiterungen unter Windows installiert
 ### Veraltet
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Hinweis:**
 
-Die Verwendung des \"Erweiteruns-Installierers\" wird nicht mehr empfohlen. Die Verwendung des [Erweiterungsverwalters](Addon_Manager/de.md) in allen Systemen ist der empfohlene Weg.
+Die Verwendung des \"Erweiteruns-Installierers\" wird nicht mehr empfohlen. Die Verwendung des [Erweiterungsverwalters](Std_AddonMgr/de.md) in allen Systemen ist der empfohlene Weg.
+
+
+</div>
 
 Benutze den [addons-installer von Github](https://github.com/FreeCAD/FreeCAD-addons).
 
 Während des Google Summer of Code 2016 begann der Student Mandeep Singh mit der Arbeit an einer verbesserten Version ([hier verfügbar](https://github.com/mandeeps708/PluginManager)), die jedoch noch weitere Bearbeitung benötigt, bevor sie vollständig in FreeCAD integriert werden kann.
+
+
+<div class="mw-translate-fuzzy">
 
 ### Manuelle Installation 
 
 
 **Hinweis:**
 
-Diese Methode ist mit der Einführung des [Erweiterungsverwalters](Addon_Manager/de.md) möglich, aber nicht notwendig. Nichtsdestotrotz können die Informationen hier für einige noch nützlich sein.
+Diese Methode ist mit der Einführung des [Erweiterungsverwalters](Std_AddonMgr/de.md) möglich, aber nicht notwendig. Nichtsdestotrotz können die Informationen hier für einige noch nützlich sein.
+
+
+</div>
 
 -   Lade den Arbeitsbereich von github herunter, durch anklicken auf die Schaltfläche **Clone** oder **Download** auf der github Seite (obere rechte Ecke) klickest und \"Download ZIP\" wählst
 -   Entpacke das heruntergeladene Archiv auf deiner lokalen Festplatte
@@ -96,12 +114,18 @@ $ git pull
 $ rm *.pyc
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 ### Manuelle Installation 
 
 
 **Hinweis:**
 
-Diese Methode ist mit der Einführung des [Erweiterungsverwalters](Addon_Manager/de.md) möglich, aber nicht notwendig. Nichtsdestotrotz können die Informationen hier für einige noch nützlich sein.
+Diese Methode ist mit der Einführung des [Erweiterungsverwalters](Std_AddonMgr/de.md) möglich, aber nicht notwendig. Nichtsdestotrotz können die Informationen hier für einige noch nützlich sein.
+
+
+</div>
 
 -   Lade den Arbeitsbereich von github durch Klicken auf die Schaltfläche **Clone** oder **Download** auf der github Seite (obere rechte Ecke) und Auswahl von \"Download ZIP\"
 -   Entpacke das heruntergeladene Archiv auf deiner lokalen Festplatte
@@ -128,12 +152,18 @@ Wie man zusätzliche Arbeitsbereiche und Erweiterungen auf MacOS installiert
 
 <div class="mw-collapsible-content">
 
+
+<div class="mw-translate-fuzzy">
+
 ### Manuelle Installation 
 
 
 **Hinweis:**
 
-Diese Methode ist mit der Einführung des [Erweiterungsverwalters](Addon_Manager/de.md) möglich, aber nicht notwendig. Nichtsdestotrotz können die Informationen hier für einige noch nützlich sein.
+Diese Methode ist mit der Einführung des [Erweiterungsverwalters](Std_AddonMgr/de.md) möglich, aber nicht notwendig. Nichtsdestotrotz können die Informationen hier für einige noch nützlich sein.
+
+
+</div>
 
 Der Einfachheit halber für dieses Beispiel, sage du hast die [Arbeitsbereich Kurven](Curves_Workbench/de.md) als den externen Arbeitsbereich gewählt, den du installieren möchtest:
 

@@ -51,10 +51,10 @@
 
 <div class="mw-translate-fuzzy">
 
--   [アプリケーションの概要](About_FreeCAD/jp.md): ：FreeCADの一般的な概要
--   [FreeCADのインストール](Install_on_Windows/jp.md)：Linux / UnixおよびWindowsでの、FreeCADのインストールの仕方
--   [はじめよう](Getting_started/jp.md)：利用可能なツールの簡単な概要
--   [FAQ/jp](FAQ/jp.md)：よくある質問
+-   [アプリケーションの概要](About_FreeCAD/ja.md): ：FreeCADの一般的な概要
+-   [FreeCADのインストール](Install_on_Windows/ja.md)：Linux / UnixおよびWindowsでの、FreeCADのインストールの仕方
+-   [はじめよう](Getting_started/ja.md)：利用可能なツールの簡単な概要
+-   [Frequently\_asked\_questions/ja](Frequently_asked_questions/ja.md)：よくある質問
 -   [Tutorials](Tutorials/jp.md) covering different parts of FreeCAD
 
 
@@ -75,12 +75,12 @@ See also:
 
 <div class="mw-translate-fuzzy">
 
--   [マウスモデル](Mouse_Model/jp.md)：3D空間を操作するためのマウスの使い方
--   [ドキュメントの構造](Document_structure/jp.md)：FreeCADドキュメントの作られ方
--   [設定](Preferences_Editor/jp.md) と [カスタマイズ](Interface_Customization.md)：FreeCADを用途に応じて設定する方法
--   [プロパティ](Property/jp.md)：FreeCADプロパティオブジェクトの仕組み
--   [ワークベンチのコンセプト](Workbenches/jp.md)：FreeCADインターフェースの作り方
--   [マクロ](Macros/jp.md)：頻繁に繰り返す作業の簡単な自動化方法
+-   [マウスモデル](Mouse_navigation/ja.md)：3D空間を操作するためのマウスの使い方
+-   [ドキュメントの構造](Document_structure/ja.md)：FreeCADドキュメントの作られ方
+-   [設定](Preferences_Editor/ja.md) と [カスタマイズ](Interface_Customization.md)：FreeCADを用途に応じて設定する方法
+-   [プロパティ](Property/ja.md)：FreeCADプロパティオブジェクトの仕組み
+-   [ワークベンチのコンセプト](Workbenches/ja.md)：FreeCADインターフェースの作り方
+-   [マクロ](Macros/ja.md)：頻繁に繰り返す作業の簡単な自動化方法
 
 
 </div>
@@ -162,7 +162,7 @@ Since FreeCAD 0.17, many workbenches can be installed using the [Addon Manager](
 
 <div class="mw-translate-fuzzy">
 
--   [コマンドリファレンス](List_of_Commands/jp.md)：使用可能なFreeCADコマンドの完全なリストです。
+-   [コマンドリファレンス](List_of_Commands/ja.md)：使用可能なFreeCADコマンドの完全なリストです。
 
 
 </div>

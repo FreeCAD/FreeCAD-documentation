@@ -1,6 +1,13 @@
-# Raytracing WriteView/es
 ---
-- GuiCommand:/es   Name:Raytracing Export‏‎    MenuLocation:Raytracing  → Export‏‎   |Workbenches:[[Raytracing_Workbench/es   Raytracing]]|Shortcut:   SeeAlso:---
+- GuiCommand:/es
+   Name:Raytracing WriteView
+   MenuLocation:Raytracing → Export
+   Workbenches:[Raytracing](Raytracing_Workbench/es.md)
+   Shortcut:
+   SeeAlso:
+---
+
+# Raytracing WriteView/es
 
 
 </div>

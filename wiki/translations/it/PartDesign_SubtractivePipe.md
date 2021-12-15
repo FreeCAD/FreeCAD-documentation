@@ -89,12 +89,18 @@
 
 </div>
 
-## Limitazioni
+## Notes
+
+
+<div class="mw-translate-fuzzy">
 
 -   Gli schizzi devono formare profili chiusi.
 -   Non è possibile utilizzare un vertice come sezione trasversale.
 -   Una sezione trasversale non può giacere sullo stesso piano di quella immediatamente precedente.
 -   Per controllare meglio la forma dello sweep, è consigliabile che tutte le sezioni abbiano lo stesso numero di segmenti. Ad esempio, per uno sweep tra un rettangolo e un cerchio, il cerchio può essere suddiviso in 4 archi collegati.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

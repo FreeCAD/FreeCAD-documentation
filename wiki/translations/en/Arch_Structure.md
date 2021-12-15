@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Arch Structure
-   MenuLocation:Arch → Structure
+   MenuLocation:Arch → Structure tools → Structure
    Workbenches:[Arch](Arch_Workbench.md)
    Shortcut:**S** **T**
    SeeAlso:[Arch Wall](Arch_Wall.md), [Arch Rebar](Arch_Rebar.md)
@@ -20,8 +20,8 @@ If no profile is given, a set of presets are available to quickly build a struct
 
 ## Usage
 
-1.  Select a 2D shape (draft object, face or sketch) (optional).
-2.  Press the **<img src="images/Arch_Structure.svg" width=16px> [[Arch Structure]]** button, or press **S** then **T** keys.
+1.  Select a 2D shape (Draft object, face or sketch) (optional).
+2.  Press the **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** button, or press **S** then **T** keys.
 3.  Adjust the desired properties.
 
 ## Options
@@ -97,7 +97,9 @@ Structural objects also have the ability to display structural nodes. Structural
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Structure tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Structure tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 Structure = makeStructure(baseobj=None, height=None)
 Structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")

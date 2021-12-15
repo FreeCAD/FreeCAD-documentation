@@ -2,7 +2,7 @@
 - GuiCommand:/ru
    Name:Part Measure Refresh
    Name/ru:Part Measure Refresh
-   MenuLocation:{{StdMenu|[Measure](Std_Measure_Menu/ru.md)}} → Refresh
+   MenuLocation:Measure → Refresh
    Workbenches:[Part](Part_Workbench/ru.md)
    SeeAlso:[Measure Linear](Part_Measure_Linear/ru.md), [Measure Angular](Part_Measure_Angular/ru.md)
 ---

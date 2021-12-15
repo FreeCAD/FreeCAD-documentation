@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/it
-   Name:FEM_RunSolver
+   Name:FEM SolverRun
    Name/it:Avvia il solutore
    MenuLocation:Soluzione → Avvia il solutore
    Workbenches:[FEM](FEM_Workbench/it.md)

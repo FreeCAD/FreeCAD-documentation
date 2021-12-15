@@ -75,7 +75,7 @@ To reference any items in the <img src=images/Sketcher_CarbonCopy.svg style="wid
 
 <div class="mw-translate-fuzzy">
 
--    **Map Mode**: modalità di associazione dello schizzo ad un altro oggetto, solitamente un piano o una faccia ma possono essere altri tipi di oggetti. Fare clic una volta sul campo per rendere visibile un pulsante ** ...** e premerlo per aprire la finestra di dialogo [Associazione](Part_Attachment/it.md). Se è impostato su Disattivato, la proprietà Posizionamento è abilitata.
+-    **Map Mode**: modalità di associazione dello schizzo ad un altro oggetto, solitamente un piano o una faccia ma possono essere altri tipi di oggetti. Fare clic una volta sul campo per rendere visibile un pulsante ** ...** e premerlo per aprire la finestra di dialogo [Associazione](Part_EditAttachment/it.md). Se è impostato su Disattivato, la proprietà Posizionamento è abilitata.
 
 -    **Placement**: controlla l\'orientamento dello schizzo nello spazio 3D; vedere [Posizionamento](Std_Placement/it.md). Disabilitato se lo schizzo è associato tramite la proprietà Map Mode.
 

@@ -1,4 +1,13 @@
 # Macros/it
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
 {{TOCright}}
 
 ## Introduzione
@@ -30,7 +39,13 @@ Enable the console output in the menu **Edit → Preferences → General → Mac
 ![](images/Macros.png ) 
 *Finestra di dialogo Macro, che elenca le macro disponibili nel sistema*
 
-Quì è possibile gestire le macro, eliminarle, duplicarle, installarle, modificarle o crearne di nuove partendo da zero. Quando si modifica una macro, essa viene aperta in una finestra dell\'editor in cui è possibile apportare le proprie modifiche al codice. È possibile installare delle nuove macro utilizzando il pulsante {{button|Addons ...}}, che collega al [Addon Manager](AddonManager/it.md).
+
+<div class="mw-translate-fuzzy">
+
+Quì è possibile gestire le macro, eliminarle, duplicarle, installarle, modificarle o crearne di nuove partendo da zero. Quando si modifica una macro, essa viene aperta in una finestra dell\'editor in cui è possibile apportare le proprie modifiche al codice. È possibile installare delle nuove macro utilizzando il pulsante {{button|Addons ...}}, che collega al [Addon Manager](Std_AddonMgr/it.md).
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -123,9 +138,18 @@ You can manually install extensions, however, it is much simpler to just use the
 -   [How to install additional workbenches](How_to_install_additional_workbenches.md)
 
 
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _ _
 

@@ -1,6 +1,14 @@
-# FEM PostFilterWarp/it
 ---
-- GuiCommand:/it   Name:FEM PostCreateWarpVectorFilter   Name/it:FEM PostCreateWarpVectorFilter   MenuLocation: Risultati → Wrap vector filter    |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:/it
+   Name:FEM PostFilterWarp
+   Name/it:FEM PostFilterWarp
+   MenuLocation: Risultati → Wrap vector filter
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:
+   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+---
+
+# FEM PostFilterWarp/it
 
 
 </div>
@@ -12,13 +20,7 @@ Da fare
 ## Utilizzo
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

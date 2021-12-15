@@ -223,6 +223,8 @@ Para hacer que la ubicación del \"Boceto\" sea la misma que la del \"Cilindro\"
 <<Cubo>>.Placement
 ``` ![Estableciendo la Ubicación completa en una sola expresión](images/PlacementInExpression.png )
 
+**NOTE:** It\'s also possible to *create* Placement objects in expressions. See the [Expressions](Expressions#Placement.md) page for details.
+
 ## Notas
 
 -   Las propiedades de Ubicación (Placement) en la pestaña de datos aparecen como desactivadas en los objetos que están adjuntos a algún otro objeto. En ese caso, el desplazamiento (Attachment) del adjunto tiene que ser editado.

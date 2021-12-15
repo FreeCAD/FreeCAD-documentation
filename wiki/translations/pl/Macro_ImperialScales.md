@@ -1,6 +1,7 @@
 # Macro ImperialScales/pl
 {{Macro/pl
-|Name=Skale w calach
+|Name=ImperialScales
+|Translate=Skale w calach
 |Description=To makro wyświetla listę amerykańskich imperialnych skal Architektonicznych wraz z odpowiednim współczynnikiem do zastosowania na stronach lub widokach Rysunku Technicznego.
 |Author=Yorik
 |Date=2021-06-01

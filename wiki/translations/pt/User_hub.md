@@ -54,7 +54,7 @@ Se tiver alguma informação que gostaria que aparecesse aqui, porque não contr
 -   [Acerca do FreeCAD](About_FreeCAD/pt.md): Uma visão global do FreeCAD
 -   _ e no [Instalação em Linux\|Linux](Install_on_Unix/pt.md)
 -   [Primeiros passos](Getting_started/pt.md): Uma visão geral das ferramentas disponíveis
--   [FAQ](FAQ/pt.md): Perguntas frequentes
+-   [FAQ](Frequently_asked_questions/pt.md): Perguntas frequentes
 
 
 </div>

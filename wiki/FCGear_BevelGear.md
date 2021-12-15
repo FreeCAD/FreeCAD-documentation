@@ -14,11 +14,8 @@ Partly because of the noise they generate, bevel gears are not used as often as 
 
 Spiral bevel gears have curved teeth to provide softer engagement and greater tooth to tooth contact compared to a straight bevel gear. This reduces the vibration and noise. They can be used at high speeds and are typically used in motorcycle and bicycle transmissions.
 
-:   ![](images/Bevel-Gear_example.png )
-:   
-    
+ ![](images/Bevel-Gear_example.png )  
 *From left to right: Spur gearing, spiral gearing*
-    
 
 ## Usage
 

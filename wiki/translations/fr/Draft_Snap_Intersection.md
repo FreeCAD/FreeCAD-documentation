@@ -26,10 +26,12 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
 3.  Choisissez une commande [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) pour créer votre géométrie.
 4.  Notez que vous pouvez également modifier les options d\'aimantation lorsqu\'une commande est active.
 5.  Déplacez le curseur sur l\'une des arêtes qui se croisent.
-6.  L\'arête est mise en évidence.
-7.  Si une intersection est trouvée, le point est marqué et l\'icône <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:16px;"> est affichée près du curseur.
-8.  Si les bords ont plusieurs intersections : déplacez éventuellement le curseur plus près d\'une autre intersection.
-9.  Cliquez pour confirmer le point.
+6.  L\'arête est mis en évidence.
+7.  Déplacez le curseur sur l\'autre arête.
+8.  L\'arête est mise en évidence.
+9.  Si une intersection est trouvée, le point est marqué et l\'icône <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:16px;"> est affichée près du curseur.
+10. Si les bords ont plusieurs intersections : déplacez éventuellement le curseur plus près d\'une autre intersection.
+11. Cliquez pour confirmer le point.
 
 ## Préférences
 

@@ -37,7 +37,7 @@ Si possono usare le [costanti predefinite](#Costanti_supportate.md) e le [funzio
 
 </div>
 
-### Function Arguments 
+### Function arguments 
 
 
 <div class="mw-translate-fuzzy">
@@ -94,6 +94,9 @@ Per ulteriori informazioni sul riferimento a oggetti, vedere [questa sezione](#R
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Sono supportate le seguenti costanti:
 
   Constante   Descrizione
@@ -101,7 +104,13 @@ Sono supportate le seguenti costanti:
   **e**       [Numero di Eulero](https://en.wikipedia.org/wiki/E_(mathematical_constant))
   **pi**      [Pi greco](https://en.wikipedia.org/wiki/Pi)
 
+
+</div>
+
 ## Supported operators 
+
+
+<div class="mw-translate-fuzzy">
 
 Sono supportati i seguenti operatori:
 
@@ -113,6 +122,9 @@ Sono supportati i seguenti operatori:
   **/**       [Divisione](https://en.wikipedia.org/wiki/Division_(mathematics)) virgola mobile
   **%**       [Resto](https://en.wikipedia.org/wiki/Remainder)
   **\^**      [Potenze](https://en.wikipedia.org/wiki/Exponentiation)
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -154,6 +166,9 @@ Sono supportate le seguenti funzioni trigonometriche:
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Per esponenziazione e logaritmizzazione sono supportate le seguenti funzioni:
 
   Funzione    Descrizione                                                                                    Intervallo di valori
@@ -163,6 +178,9 @@ Per esponenziazione e logaritmizzazione sono supportate le seguenti funzioni:
   log10(x)    [Common logarithm](https://en.wikipedia.org/wiki/Common_logarithm)                             x \> 0
   pow(x, y)   [Exponentiation](https://en.wikipedia.org/wiki/Exponentiation)                                 all
   sqrt(x)     [Square root](https://en.wikipedia.org/wiki/Square_root)                                       x \>= 0
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -195,7 +213,7 @@ Gli argomenti possono includere intervalli di celle usando due riferimenti di ce
 
 </div>
 
-Individual arguments to aggregate functions may consist of ranges of cells. A range of cells is expressed as two cell references separated by a colon {{Incode|:}}, for example {{Incode|average(B1:B8)}} or {{Incode|sum(A1:A4; B1:B4)}}. The cell references may also use cell aliases, for example {{Incode|average(StartTemp:EndTemp)}} <small>(v0.19)</small> .
+Individual arguments to aggregate functions may consist of ranges of cells. A range of cells is expressed as two cell references separated by a colon {{Incode|:}}, for example {{Incode|average(B1:B8)}} or {{Incode|sum(A1:A4; B1:B4)}}. The cell references may also use cell aliases, for example {{Incode|average(StartTemp:EndTemp)}}.
 
 
 <div class="mw-translate-fuzzy">
@@ -240,6 +258,127 @@ A limitation is that only one %-specifier is allowed in string, thus you have to
 
 A FreeCAD sample file using string formatting is available [in the forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=58657)
 
+### Create function 
+
+The following objects may be created in expressions via the `create` function:
+
+-   Vector
+-   Matrix
+-   Rotation
+-   Placement
+
+The `create` function passes subsequent arguments to the underlying Python constructor when creating the object.
+
+Various mathematical operations such as multiplication, addition, and subtraction are supported via standard mathematical operators (e.g. `*`, `+`, `-`).
+
+#### Vector
+
+When `create` is passed `<<vector>>` as the 1st argument, the next 3 arguments are the X, Y, and Z coordinates for the `Vector` respectively.
+
+Example:
+
+
+`create(<<vector>>; 2; 1; 2)`
+
+#### Matrix
+
+When `create` is passed `<<matrix>>` as the 1st argument, the next 16 arguments are the elements for the `Matrix` in [row-major order](https://en.wikipedia.org/wiki/Row-_and_column-major_order).
+
+Example:
+
+
+`create(<<matrix>>; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16)`
+
+#### Rotation
+
+When `create` is passed `<<rotation>>` as the 1st argument, there are two ways to create a `Rotation`:
+
+1\. Specify an axis vector and a rotation angle.
+
+Example:
+
+
+`create(<<rotation>>; create(<<vector>>; 0; 1; 0); 45)`
+
+2\. Specify 3 rotations about the X, Y, and Z axes as Euler angles.
+
+Example:
+
+
+`create(<<rotation>>; 30; 30; 30)`
+
+#### Placement
+
+When `create` is passed `<<placement>>` as the 1st argument, there are five ways to create a `Placement`.
+
+These possible combinations are documented in the below table and are based on the [Placement API](Placement_API.md) page.
+
++---------------------+----------------------------------------------------------+
+| Number of arguments | Description                                              |
++=====================+==========================================================+
+| 2                   |                                           |
+|                     | `create(<<placement>>; Placement)`              |
+|                     |                                                       |
++---------------------+----------------------------------------------------------+
+| 2                   |                                           |
+|                     | `create(<<placement>>; Matrix)`                 |
+|                     |                                                       |
++---------------------+----------------------------------------------------------+
+| 3                   |                                           |
+|                     | `create(<<placement>>; Base; Rotation)`         |
+|                     |                                                       |
++---------------------+----------------------------------------------------------+
+| 4                   |                                           |
+|                     | `create(<<placement>>; Base; Rotation; Center)` |
+|                     |                                                       |
++---------------------+----------------------------------------------------------+
+| 4                   |                                           |
+|                     | `create(<<placement>>; Base; Axis; Angle)`      |
+|                     |                                                       |
++---------------------+----------------------------------------------------------+
+
+The following example shows the syntax for creating a `Placement` from a `Base` (vector) and a `Rotation`:
+
+
+`create(<<placement>>; create(<<vector>>; 2; 1; 2); create(<<rotation>>; create(<<vector>>; 0; 1; 0); 45))`
+
+For readability, you can define vectors and rotations in separate cells, and then reference the cells in your expression.
+
+### Matrix functions 
+
+#### mscale
+
+Scale a `Matrix` with a given `Vector`.
+
+
+`mscale(Matrix; Vector)`
+
+
+`mscale(Matrix; x; y; z)`
+
+#### minvert
+
+Invert the given `Matrix`, `Rotation`, or `Placement`.
+
+
+`minvert(Matrix)`
+
+
+`minvert(Rotation)`
+
+
+`minvert(Placement)`
+
+### Tuple & list 
+
+You can create Python `tuple` or `list` objects via their respective functions.
+
+
+`tuple(2; 1; 2)`
+
+
+`list(2; 1; 2)`
+
 
 <div class="mw-translate-fuzzy">
 
@@ -256,6 +395,9 @@ Le espressioni condizionali sono nella forma **condition ? resultTrue : resultFa
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Sono definiti i seguenti [operatori relazionali](https://en.wikipedia.org/wiki/Relational_operator#Standard_relational_operators):
 
   Operatore   Descrizione
@@ -266,6 +408,9 @@ Sono definiti i seguenti [operatori relazionali](https://en.wikipedia.org/wiki/R
   **\<**      minore
   **\>=**     maggiore o uguale
   **\<=**     minore o uguale
+
+
+</div>
 
 ## Unità
 
@@ -304,12 +449,21 @@ Se una variabile ha il nome di un\'unità di misura, bisogna inserire la variabi
 
 Il parser delle espressioni riconosce le seguenti unità:
 
+
+<div class="mw-translate-fuzzy">
+
 Quantità di sostanza:
 
   Unità   Descrizione
   ------- --------------------------------------------------------
   mmol    Milli[mole](https://en.wikipedia.org/wiki/Mole_(unit))
   mol     [Mole](https://en.wikipedia.org/wiki/Mole_(unit))
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Angolo:
 
@@ -324,6 +478,12 @@ Angolo:
   M       [Minuto di arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc)
   ′       [Minuto di arco](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternativa all\'unità *M*
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Corrente:
 
   Unità   Descrizione
@@ -333,59 +493,8 @@ Corrente:
   kA      Kilo[ampere](https://en.wikipedia.org/wiki/Ampere)
   MA      Mega[ampere](https://en.wikipedia.org/wiki/Ampere)
 
-Electrical capacitance:
 
-  Unit   Description
-  ------ -----------------------------------------------------------------------------------------------------------------
-  pF     Pico[farad](https://en.wikipedia.org/wiki/Farad), <small>(v0.19)</small> 
-  nF     Nano[farad](https://en.wikipedia.org/wiki/Farad), <small>(v0.19)</small> 
-  uF     Micro[farad](https://en.wikipedia.org/wiki/Farad); alternative to the unit *µF*, <small>(v0.19)</small> 
-  µF     Micro[farad](https://en.wikipedia.org/wiki/Farad); alternative to the unit *uF*, <small>(v0.19)</small> 
-  mF     Milli[farad](https://en.wikipedia.org/wiki/Farad), <small>(v0.19)</small> 
-  F      [Farad](https://en.wikipedia.org/wiki/Farad); 1 F = 1 s\^4·A\^2/m\^2/kg, <small>(v0.19)</small> 
-
-Electrical conductance:
-
-  Unit   Description
-  ------ ----------------------------------------------------------------------------------------------------------------------------
-  uS     Micro[siemens](https://en.wikipedia.org/wiki/Siemens_(unit)); alternative to the unit *µS*, <small>(v0.19)</small> 
-  µS     Micro[siemens](https://en.wikipedia.org/wiki/Siemens_(unit)); alternative to the unit *uS*, <small>(v0.19)</small> 
-  mS     Milli[siemens](https://en.wikipedia.org/wiki/Siemens_(unit)), <small>(v0.19)</small> 
-  S      [Siemens](https://en.wikipedia.org/wiki/Siemens_(unit)); 1 S = 1 s\^3·A\^2/kg/m\^2, <small>(v0.19)</small> 
-  kS     Kilo[siemens](https://en.wikipedia.org/wiki/Siemens_(unit)), <small>(v0.20)</small> 
-  MS     Mega[siemens](https://en.wikipedia.org/wiki/Siemens_(unit)), <small>(v0.20)</small> 
-
-Electrical inductance:
-
-  Unit   Description
-  ------ ------------------------------------------------------------------------------------------------------------------------
-  nH     Nano[henry](https://en.wikipedia.org/wiki/Henry_(unit)), <small>(v0.19)</small> 
-  uH     Micro[henry](https://en.wikipedia.org/wiki/Henry_(unit)); alternative to the unit *µH*, <small>(v0.19)</small> 
-  µH     Micro[henry](https://en.wikipedia.org/wiki/Henry_(unit)); alternative to the unit *uH*, <small>(v0.19)</small> 
-  mH     Milli[henry](https://en.wikipedia.org/wiki/Henry_(unit)), <small>(v0.19)</small> 
-  H      [Henry](https://en.wikipedia.org/wiki/Henry_(unit)); 1 H = 1 kg·m\^2/s\^2/A\^2, <small>(v0.19)</small> 
-
-Electrical resistance:
-
-  Unit   Description
-  ------ -------------------------------------------------------------------------------------------------------
-  Ohm    [Ohm](https://en.wikipedia.org/wiki/Ohm); 1 Ohm = 1 kg·m\^2/s\^3/A\^2, <small>(v0.19)</small> 
-  kOhm   Kilo[ohm](https://en.wikipedia.org/wiki/Ohm), <small>(v0.19)</small> 
-  MOhm   Mega[ohm](https://en.wikipedia.org/wiki/Ohm), <small>(v0.19)</small> 
-
-Electric charge:
-
-  Unit   Description
-  ------ -----------------------------------------------------------------------------------------------
-  C      [Coulomb](https://en.wikipedia.org/wiki/Coulomb); 1 C = 1 A·s, <small>(v0.19)</small> 
-
-Electric potential:
-
-  Unit   Description
-  ------ -------------------------------------------------
-  mV     Milli[volt](https://en.wikipedia.org/wiki/Volt)
-  V      [Volt](https://en.wikipedia.org/wiki/Volt)
-  kV     Kilo[volt](https://en.wikipedia.org/wiki/Volt)
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -410,6 +519,9 @@ Energia / Lavoro:
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Forza:
 
   Unità   Descrizione
@@ -419,6 +531,9 @@ Forza:
   kN      Kilo[newton](https://en.wikipedia.org/wiki/Newton_(unit))
   MN      Mega[newton](https://en.wikipedia.org/wiki/Newton_(unit))
   lbf     [Pound of force](https://en.wikipedia.org/wiki/Pound_(force))
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -459,24 +574,8 @@ Intensità luminosa:
 
 </div>
 
-Magnetic field strength:
 
-  Unit   Description
-  ------ -------------------------------------------------------------------------------------------------------
-  Oe     [Oersted](https://en.wikipedia.org/wiki/Oersted); 1 Oe = 79.57747 A/m, <small>(v0.19)</small> 
-
-Magnetic flux:
-
-  Unit   Description
-  ------ ---------------------------------------------------------------------------------------------------------------
-  Wb     [Weber](https://en.wikipedia.org/wiki/Weber_(unit)); 1 Wb = 1 kg\*m\^2/s\^2/A, <small>(v0.19)</small> 
-
-Magnetic flux density:
-
-  Unit   Description
-  ------ --------------------------------------------------------------------------------------------------------
-  G      [Gauss](https://en.wikipedia.org/wiki/Gauss_(unit)); 1 G = 1 e-4 T, <small>(v0.19)</small> 
-  T      [Tesla](https://en.wikipedia.org/wiki/Tesla_(unit)); 1 T = 1 kg/s\^2/A, <small>(v0.19)</small> 
+<div class="mw-translate-fuzzy">
 
 Massa:
 
@@ -494,6 +593,12 @@ Massa:
   st      [Stone](https://en.wikipedia.org/wiki/Stone_(weight))
   cwt     [Hundredweight](https://en.wikipedia.org/wiki/Hundredweight)
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Potenza:
 
   Unità   Descrizione
@@ -501,6 +606,12 @@ Potenza:
   W       [Watt](https://en.wikipedia.org/wiki/Watt)
   kW      Kilo[watt](https://en.wikipedia.org/wiki/Watt), {{Version/it|0.19}}
   VA      [Volt-ampere](https://en.wikipedia.org/wiki/Volt-ampere)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Pressione:
 
@@ -520,6 +631,12 @@ Pressione:
   ksi     Kilo[libbre per pollice quadrato](https://en.wikipedia.org/wiki/Pounds_per_square_inch)
   Mpsi    Mega[libbre per pollice quadrato](https://en.wikipedia.org/wiki/Pounds_per_square_inch), {{Version/it|0.19}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Temperatura:
 
   Unità   Descrizione
@@ -528,6 +645,12 @@ Temperatura:
   µK      Micro[kelvin](https://en.wikipedia.org/wiki/Kelvin); alternativa all\'unità *uK*
   mK      Milli[kelvin](https://en.wikipedia.org/wiki/Kelvin)
   K       [Kelvin](https://en.wikipedia.org/wiki/Kelvin)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Tempo:
 
@@ -542,6 +665,12 @@ Tempo:
   GHz        Giga[hertz](https://en.wikipedia.org/wiki/Hertz), {{Version/it|0.19}}
   THz        Tera[hertz](https://en.wikipedia.org/wiki/Hertz), {{Version/it|0.19}}
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Volume:
 
   Unità   Descrizione
@@ -550,12 +679,11 @@ Volume:
   l       [litro](https://en.wikipedia.org/wiki/Litre)
   cft     Cubic[foot](https://en.wikipedia.org/wiki/Foot_(unit)) (piede cubico), {{Version/it|0.19}}
 
-Special imperial units:
 
-  Unit   Description
-  ------ ------------------------------------------------------------------------------------------------
-  mph    [Miles per hour](https://en.wikipedia.org/wiki/Miles_per_hour), <small>(v0.19)</small> 
-  sqft   [Square foot](https://en.wikipedia.org/wiki/Square_foot), <small>(v0.19)</small> 
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Le seguenti unità comunemente utilizzate non sono ancora supportate:
 
@@ -569,6 +697,9 @@ Le seguenti unità comunemente utilizzate non sono ancora supportate:
   lm      [Lumen](https://en.wikipedia.org/wiki/Lumen_(unit))                                                          not directly
   lx      [Lux](https://en.wikipedia.org/wiki/Lux)                                                                     not directly
   px      [Pixel](https://en.wikipedia.org/wiki/Pixel)                                                                 not directly
+
+
+</div>
 
 ## Invalid characters and names 
 
@@ -735,7 +866,7 @@ Naturalmente, dopo spetta all\'utente il compito di caricare i documenti corrisp
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _
 

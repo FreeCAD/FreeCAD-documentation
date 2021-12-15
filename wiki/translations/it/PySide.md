@@ -1,4 +1,13 @@
 # PySide/it
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/it|[Pivy](Pivy/it.md)|[Ogetti FeaturePython](FeaturePython_Objects/it.md)}}
+
+
+</div>
+
+
 {{TOCright}}
 
 
@@ -51,9 +60,7 @@ PySide2.QtUiTools -> PySide.QtUiTools
 The only unusual aspect is that the `PySide2.QtWidgets` classes are placed in the `PySide.QtGui` namespace. 
 ```python
 PySide2.QtWidgets.QCheckBox -> PySide.QtGui.QCheckBox
-```
-
-[top](#top.md)
+``` {{Top}}\]
 
 ## Examples of PySide use 
 
@@ -85,7 +92,8 @@ Con le pagine allegate si intende fornire del semplice codice Python per eseguir
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## Documentation
 
@@ -97,12 +105,22 @@ The PySide documentation refers to the Python-style classes; however, since Qt i
 -   [All Qt classes by module](https://doc.qt.io/qt-5/modules-cpp.html) in Qt5 for C++.
 -   [Qt Modules](https://deptinfo-ensip.univ-poitiers.fr/ENS/pyside-docs/index.html) available from PySide (Qt4).
 
-[top](#top.md)
+
+{{Top}}
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/it|[Pivy](Pivy/it.md)|[Ogetti FeaturePython](FeaturePython_Objects/it.md)}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

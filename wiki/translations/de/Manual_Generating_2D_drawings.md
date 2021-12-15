@@ -33,7 +33,7 @@ In der folgenden Übung werden wir sehen, wie eine einfache Zeichnung eines Stuh
     -   Unter der Projektionskategorie (klicke auf den Aufklapppfeil, um die x-, y- und z-Komponenten dieser Eigenschaften einzeln zu ändern):
         -   Richtung: \[0 0 1\]
         -   XRichtung: \[0 -1 0\] (Ändere zuerst das y-Feld, dann das x-Feld)
--   Wir haben jetzt eine hübsche Draufsicht auf unseren Stuhl. Drücke die <img alt="" src=images/Techdraw_Toggleframe.svg  style="width:16px;"> [UmschaltenRahmen](TechDraw_ToggleFrame/de.md)-Schaltfläche, um die Ansichtsrahmen, Beschriftungen und Knoten auszuschalten.
+-   Wir haben jetzt eine hübsche Draufsicht auf unseren Stuhl. Drücke die <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> [UmschaltenRahmen](TechDraw_ToggleFrame/de.md)-Schaltfläche, um die Ansichtsrahmen, Beschriftungen und Knoten auszuschalten.
 
 ![](images/Exercise_drawing_02.jpg )
 
@@ -53,9 +53,9 @@ Wir werden nun Bemaßungen und Hinweise auf unserer Zeichnung platzieren. Es gib
 
 <div class="mw-translate-fuzzy">
 
--   Drücke die <img alt="" src=images/Techdraw_Toggleframe.svg  style="width:16px;"> Umschalttaste zum Einschalten der Knoten.
+-   Drücke die <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> Umschalttaste zum Einschalten der Knoten.
 -   Verwende **Strg** + Linker Mausklick, um die beiden Knoten auszuwählen, zwischen denen du den Abstand messen möchtest.
--   Drücke die <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:16px;"> [Abmessungslänge](TechDraw_Dimension_Length.md)-Schaltfläche.
+-   Drücke die <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:16px;"> [Abmessungslänge](TechDraw_LengthDimension.md)-Schaltfläche.
 
 
 </div>
@@ -65,8 +65,8 @@ Wir werden nun Bemaßungen und Hinweise auf unserer Zeichnung platzieren. Es gib
 
 <div class="mw-translate-fuzzy">
 
--   Wiederhole den Vorgang, bis alle Abmessungen, die du angeben möchtest, platziert sind. Verwende die <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:16px;"> _ Werkzeuge nach Bedarf.
--   Nimm dir eine Minute Zeit, um dir die [Eigenschaften](TechDraw_Dimension_Length/de#Properties.md) des Bemaßungsobjekts in der Combo-Ansicht anzusehen.
+-   Wiederhole den Vorgang, bis alle Abmessungen, die du angeben möchtest, platziert sind. Verwende die <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> _ Werkzeuge nach Bedarf.
+-   Nimm dir eine Minute Zeit, um dir die [Eigenschaften](TechDraw_LengthDimension/de#Properties.md) des Bemaßungsobjekts in der Combo-Ansicht anzusehen.
 -   Bitte beachte, dass bei der Bemaßung einer _ Werkzeug verwenden musst, um eine genaue Bemaßung zu erhalten.
 
 
@@ -87,7 +87,7 @@ Wir werden nun Bemaßungen und Hinweise auf unserer Zeichnung platzieren. Es gib
 7.  Wiederhole den Vorgang für den zweite Aufruf.
 
 -   Wir werden nun das Blatttitelfeld ausfüllen.
-    -   Stelle sicher, dass die Ansichtsrahmen, Beschriftungen und Knoten sichtbar sind. Wenn dies nicht der Fall ist, drücke die <img alt="" src=images/Techdraw_Toggleframe.svg  style="width:16px;">-Umschalttaste.
+    -   Stelle sicher, dass die Ansichtsrahmen, Beschriftungen und Knoten sichtbar sind. Wenn dies nicht der Fall ist, drücke die <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;">-Umschalttaste.
     -   Bearbeite den Text in jedem Abschnitt des Blatttitelblocks, indem du auf das kleine grüne Quadrat auf der linken Seite des Textes klickst.
 
 Unsere Seite kann nun ins SVG für eine weitere Verarbeitung in grafischen Anwendungen wie _ und wähle dann Menü **Datei → Export**. Das DXF-Format ist in fast allen vorhandenen 2D CAD Anwendungen importierbar. TechDraw-Seiten können auch direkt gedruckt oder in PDF exportiert werden.

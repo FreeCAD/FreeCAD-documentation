@@ -3,58 +3,24 @@
 
 # Description
 
-
-<div class="mw-translate-fuzzy">
-
-# Description 
-
 _ avec [POV-Ray](POV-Ray/fr.md). En 2013, le projet a été redémarré pour devenir [LuxCoreRender](LuxCoreRender/fr.md), avec une réécriture majeure du code et des changements de compatibilité, le projet LuxRender a donc été abandonné. Officiellement, [LuxCoreRender](LuxCoreRender/fr.md) n\'est pas supporté par l\'[atelier Raytracing](Raytracing_Workbench/fr.md), bien qu\'il puisse être intéressant d\'essayer.
 
-
-</div>
-
 # Installation
-
-## Raytracing Workbench 
-
-
-<div class="mw-translate-fuzzy">
-
-# Installation 
 
 ## Atelier Raytracing 
 
 
-**L'_, arrêté et dépassé. Le Render Workbench peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing et parce que le nouveau module devrait fondamentalement fonctionner de la même manière**
+**L'_, arrêté et dépassé. L'atelier Render peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing et parce que le nouveau module devrait fondamentalement fonctionner de la même manière**
 
 .
-
-
-</div>
-
-### Stable Version 
-
-
-<div class="mw-translate-fuzzy">
 
 ### Version stable 
 
 La dernière version stable est [LuxRender 1.6 (2017-12-28)](https://github.com/LuxCoreRender/LuxCore/releases/tag/luxrender_v1.6).
 
-
-</div>
-
 #### Linux
 
-
-<div class="mw-translate-fuzzy">
-
-#### Linux 
-
 ***Binaires compilés***
-
-
-</div>
 
 Comme LuxRender n\'est plus développé, presque aucune distribution ne le possède encore dans ses dépôts, vous devrez donc installer manuellement les binaires officiels. Déterminez d\'abord si votre carte graphique supporte [OpenCL](https://en.wikipedia.org/wiki/OpenCL) et si vous avez installé toutes les dépendances nécessaires. Si c\'est le cas, téléchargez [LuxRender 1.6 with OpenCL support](https://github.com/LuxCoreRender/LuxCore/releases/download/luxrender_v1.6/lux-v1.6-x86_64-sse2-OpenCL.tar.bz2). Sinon, téléchargez [LuxRender 1.6 sans OpenCL](https://github.com/LuxCoreRender/LuxCore/releases/download/luxrender_v1.6/lux-v1.6-x86_64-sse2-NoOpenCL.tar.bz2), mais pensez à vous procurer une carte graphique plus récente ou à installer les logiciels nécessaires pour l\'activer sur votre ordinateur.
 
@@ -72,63 +38,25 @@ Définissez le chemin de l\'exécutable Luxrender pour qu\'il pointe vers votre 
 
 #### macOS
 
-
-<div class="mw-translate-fuzzy">
-
-#### macOS 
-
 Utilisez l\'[installateur pour OSX officiel LuxRender 1.6](https://github.com/LuxCoreRender/LuxCore/releases/download/luxrender_v1.6/LuxRender_1.6_OSXIntel_64bit.dmg).
-
-
-</div>
 
 #### Windows
 
-
-<div class="mw-translate-fuzzy">
-
-#### Windows 
-
 Déterminez d\'abord si votre carte graphique supporte [OpenCL](https://fr.wikipedia.org/wiki/OpenCL) et si vous avez installé les pilotes graphiques nécessaires. Si c\'est le cas, téléchargez [Configuration de LuxRender 1.6 avec support OpenCL](https://github.com/LuxCoreRender/LuxCore/releases/download/luxrender_v1.6/LuxRender.1.6.x64.OpenCL.Setup.exe). Sinon, téléchargez [Configuration de LuxRender 1.6 sans support OpenCL](https://github.com/LuxCoreRender/LuxCore/releases/download/luxrender_v1.6/LuxRender.1.6.x64.NoOpenCL.Setup.exe), mais pensez à vous procurer une carte graphique plus récente ou à installer les logiciels nécessaires pour l\'activer sur votre ordinateur. Exécutez ensuite le programme d\'installation téléchargé et suivez les étapes proposées.
-
-
-</div>
 
 Par défaut, le dossier de destination est *C:\\Program Files\\LuxRender*, avec des exemples de scènes dans *C:\\Users\\Public\\Documents\\LuxRender\\Example Scene*.
 
-
-<div class="mw-translate-fuzzy">
-
-Après avoir installé LuxCoreRender, lancez FreeCAD, ouvrez [Réglage des préférences](Preferences_Editor/fr.md), [charger l\'atelier Raytracing](Preferences_Editor/fr#Ateliers_non_charg.C3.A9s.md) et allez dans les [Raytracing Préférences](Raytracing_Preferences/fr.md).
-
-
-</div>
+Après avoir installé LuxCoreRender, lancez FreeCAD, ouvrez [Réglage des préférences](Preferences_Editor/fr.md), [charger l\'atelier Raytracing](Preferences_Editor/fr#Ateliers_non_charg.C3.A9s.md) et allez dans les [Préférences de Raytracing ](Raytracing_Preferences/fr.md).
 
 Définissez le chemin de l\'exécutable de Luxrender pour qu\'il pointe vers votre installation de LuxRender, généralement c\'est *C:/Program Files/LuxRender/luxrender.exe* et appliquez.
-
-### Development Version 
-
-
-<div class="mw-translate-fuzzy">
 
 ### Version de développement 
 
 Il n\'existe pas de version de développement de LuxRender, le développement ayant été arrêté au profit du reboot [LuxCoreRender](LuxCoreRender/fr.md).
 
-
-</div>
-
-## Render Workbench 
-
-
-<div class="mw-translate-fuzzy">
-
 ## Atelier Render 
 
 L\'_.
-
-
-</div>
 
 ---
 [documentation index](../README.md) > LuxRender/fr

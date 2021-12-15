@@ -8,27 +8,15 @@
 |Files=
 }}
 
-## Overview
+## Vista general 
 
+Antes de empezar este tutorial, asegúrate de que ya has realizado [la primera parte](FreeCAD-Ship_s60_tutorial/es.md).
 
-<div class="mw-translate-fuzzy">
-
-Asegúrese de haber realizado la [primera parte](FreeCAD-Ship_s60_tutorial/es.md) de este tutorial antes de comenzar con este capítulo.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Puedes encontrar más información sobre [FreeCAD-Ship aquí](FreeCADShip_Workbench/es.md)
-
-
-</div>
+Aprende más sobre el ambiente de trabajo de la nave en su página wiki dedicada: [Ambiente de trabajo Nave](Ship_Workbench/es.md)
 
 ## Introducción
 
-En el tutorial anterior nos centramos en cálculos hidrostáticos, mientras que en el presente tutorial comenzaremos a trabajar con pesos, aprendiendo a definir los pesos del barco y sus tanques, para así poder calcular la curva de GZ, que es el parámetro hidrostático más importante en cuanto a estabilidad transversal del buque se refiere. GZ es el brazo del momento estático generado cuando el buque adquiere una escora. Por supuesto siempre que GZ sea positivo, el barco tendrá un momento adrizante que tratará de reponer la situación de equilibrio anterior a la escora, pero cuando GZ se torna negativo la estabilidad del buque se habrá agotado, tendiendo éste a dar la vuelta buscando un nuevo equilibrio.
+En el tutorial anterior nos centramos en cálculos hidrostáticos, mientras que en el presente tutorial comenzaremos a trabajar con pesos, aprendiendo a definir los pesos del nave y sus tanques, para así poder calcular la curva de GZ, que es el parámetro hidrostático más importante en cuanto a estabilidad transversal del buque se refiere. GZ es el brazo del momento estático generado cuando el buque adquiere una escora. Por supuesto siempre que GZ sea positivo, el nave tendrá un momento adrizante que tratará de reponer la situación de equilibrio anterior a la escora, pero cuando GZ se torna negativo la estabilidad del buque se habrá agotado, tendiendo éste a dar la vuelta buscando un nuevo equilibrio.
 
 La IMO (Organización Marítima Internacional) establece los siguientes criterios mínimos de estabilidad transversal:
 
@@ -39,28 +27,16 @@ La IMO (Organización Marítima Internacional) establece los siguientes criterio
 -   El área por debajo de la curva de *GZ* hasta los 30 grados de escora debe ser al menos de 0.055 m · rad.
 -   El área por debajo de la curva de *GZ* entre los 30 y los 40 grados de escora debe ser al menos de 0.030 m · rad.
 
-
-<div class="mw-translate-fuzzy">
-
-Trabajaremos en este tutorial sobre nuestro serie 60, generando una distribución irreal de tanques y pesos.
-
-
-</div>
+En este tutorial vamos a configurar los pesos y los depósitos de nuestra nave de la serie 60, en una situación simulada.
 
 ## Pesos del buque 
 
 De cara a poder calcular la curva de GZ se necesita conocer el peso del buque, y la posición del centro de gravedad para cada ángulo de escora. de tal forma que los pesos se pueden dividir en dos categorías:
 
--   Pesos fijos que se mueven solidariamente con el barco.
+-   Pesos fijos que se mueven solidariamente con el nave.
 -   Tanques, cuyo líquido en su interior modifica su forma desplazando el centro de gravedad, siendo necesario recalcularlo para ángulo de escora.
 
-
-<div class="mw-translate-fuzzy">
-
-Cada tipo de peso tiene una herramienta específica en FreeCAD-Ship.
-
-
-</div>
+El ambiente de trabajo del buque ofrece dos herramientas diferentes para generar cada instancia.
 
 ![Icono de la herramienta de definición de pesos.](images/FreeCAD-Ship-WeightIco.png )
 
@@ -72,29 +48,17 @@ Icono de la herramienta de definición de pesos.
 
 </center>
 
-
-<div class="mw-translate-fuzzy">
-
-La herramienta de definición de pesos se usa para definir los pesos de la primera categoría. En el momento en que se lanza la herramienta por primera vez para un barco, este inicializa un peso como su peso en rosca, que es igual a su desplazamiento, y esta situado en la coordenada longitudinal del centro de empujes y en la flotación. Este peso en rosca se guarda automáticamente independientemente de si aceptamos o cancelamos. Normalmente existen al menos dos importantes partidas de peso:
+La herramienta de definición de pesos puede utilizarse para establecer la primera categoría de pesos. Cuando se lanza la herramienta por primera vez (con la instancia del nave seleccionada), la mesa de trabajo del nave inicializa los pesos del nave con el nave ligero (igual al desplazamiento del nave) que se coloca en la coordenada X del centro de gravedad del nave, y a la altura del calado de diseño. Normalmente hay al menos 2 pesos relevantes:
 
 -   Estructura.
--   Motores.
+-   Motor principal (o varios de ellos).
 
+Así que vamos a cambiarlo. Haciendo doble clic sobre cada celda podemos editar el valor, estableciendo los pesos:
 
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Nostros vamos a establecer los siguientes pesos y posiciones para nuestro serie 60:
-
--   Structure, 15000 kg, (-0.1, 0, 1.25) m
--   Starboard engine, 5000 kg, (-6.5, -0.65, 0.5) m
--   Board engine, 5000 kg, (-6.5, 0.65, 0.5) m
--   Emergency engine, 2500 kg, (0.2, 0, 2.5) m
-
-
-</div>
+-   Estructura, 15000 kg, (-0,1, 0, 1,25) m
+-   Motor de estribor, 5000 kg, (-6,5, -0,65, 0,5) m
+-   Motor de babor, 5000 kg, (-6,5, 0,65, 0,5) m
+-   Motor de emergencia, 2500 kg, (0,2, 0, 2,5) m
 
 ![Vista previa de los pesos.](images/FreeCAD-Ship-S60WeightsPreview.png )
 
@@ -106,37 +70,19 @@ Vista previa de los pesos.
 
 </center>
 
-
-<div class="mw-translate-fuzzy">
-
-Los pesos se previsualizan en la ventana 3D. Todas estas anotaciones se eliminarán al terminar de trabajar con la herramienta, luego no se preocupe de ellas.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+La posición de los pesos se muestra en la [vista 3D](3D_view/es.md). Nota: las anotaciones se eliminarán cuando se cierre la herramienta. Al pulsar **Aceptar** los pesos se almacenarán en la instancia de su nave.
 
 ## Tanques
 
-Los tanques se generan a partir de geometrías solidas, de una forma similar a como trabajamos para crear un buque. Por tanto comenzaremos creando dos solidos (uno a cada banda) que más tarde convertiremos en instancias tanque. En este ejemplo nos limitaremos a considerar dos tanques a proa, aunque usualmente un barco puede tener decenas o incluso cientos de ellos.
-
-
-</div>
+Los tanques deben ser creados en la parte superior de la geometría sólida, como la instancia de la nave, por lo que el primer paso es crear dos tanques de proa (uno por cada lado de la nave) las geometrías sólidas que vamos a considerar (por lo general los buques tienen una gran cantidad de tanques de combustible, agua dulce, agua salada, carga, etc).
 
 ### Creación de la geometría 
 
-Para generar la geometría nos cambiados al [modulo de piezas](Part_Workbench/es.md), y creamos una caja sólida.
+Para generar tanques cargamos [modulo de piezas](Part_Workbench/es.md), y creamos una caja sólida.
 
+Tenemos que editar la caja, por lo que la seleccionamos en el árbol **Atributos y etiquetas**, y cambiamos de vista a la pestaña de datos. Expandir Colocación, y en ellos Posición, y establecer *x* a 1,5, y z a -1. Queremos cambiar la longitud de la caja también el cambio de 5,0 (tenga en cuenta que las unidades pueden ser en mm, no se preocupe por esto).
 
-<div class="mw-translate-fuzzy">
-
-Las dimensions de la caja, y su posición, no nos convienen, y por tanto vamos a modificarla. Para ello la seleccionamos en el árbol de **etiquetas y atributos**, y en la pestaña Datos desplegamos el emplazamiento, y dentro de él la posición, cambiando la coordenada *x* a 1.5, y la coordenada *z* a -1. También modificamos la longitud de la caja por 5.0 (las unidades pueden estar en milímetros, no te preocupes por ello).
-
-
-</div>
-
-La geometría de nuestro tanque será la parte común de la caja que acabamos de crear, y del barco. Como estamos interesados en la geometría del barco podemos ocultar nuestra instancia de buque **Ship**, y mostrar la geometría **s60\_IowaUniversity**. Seleccionando la caja y la geometría del buque empleamos la herramienta intersección, generandose así la geometría de nuestro tanque de estribor.
+La geometría de nuestro tanque será la parte común de la caja que acabamos de crear, y del nave. Como estamos interesados en la geometría del nave podemos ocultar nuestra instancia de buque **Ship**, y mostrar la geometría **s60\_IowaUniversity**. Seleccionando la caja y la geometría del buque empleamos la herramienta intersección, generandose así la geometría de nuestro tanque de estribor.
 
 ![Geometría del tanque generada.](images/FreeCAD-Ship-S60TankGeometry.png )
 
@@ -157,15 +103,9 @@ Para convertir las geometrías en el tipo convencional simplemente cargamos el [
 
 También podemos borrar la caja, pues no la necesitaremos más.
 
+### Generación de instancias de tanques 
 
-<div class="mw-translate-fuzzy">
-
-### Creación de las instancias de tanque. 
-
-Recuperando nuestro [módulo FreeCAD-Ship](FreeCADShip_Workbench/es.md), podremos encontrar la herramienta de generación de tanques.
-
-
-</div>
+Si recargamos [módulo FreeCAD-Ship](Ship_Workbench/es.md) otra vez, podemos encontrar la herramienta generadora de instancias de tanques.
 
 ![Icono de la herramienta de generación de tanques.](images/FreeCAD-Ship-TankIco.png )
 

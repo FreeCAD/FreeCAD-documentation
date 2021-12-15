@@ -23,7 +23,7 @@ Primitiva geometrică tip Cilindru se introduc în corpul activ drept prima func
 <div class="mw-translate-fuzzy">
 
 1.  Prima dată apăsați butonul **<img src="images/PartDesign_AdditiveCylinder.png" width=24px> '''Additive Cylinder'''**. **Notă**: cilindrul aditiv face parte dintr-un meniu cu pictograme intitulat*Create an additive primitive*. După lansarea FreeCAD, Additive Box este cea afișată în bara de instrumente. Pentru a ajunge la butonul Cilindru, faceți clic pe butonul săgeată în jos dincolo de de iconițele vizibile și selectați Cilindru Aditiv din meniu.
-2.  Definiți parametrii Primitive și [Attachment](Part_Attachment.md).
+2.  Definiți parametrii Primitive și [Attachment](Part_EditAttachment.md).
 3.  Click pe **OK**.
 4.  O funcționalitatea Cylinder apare sub corpul activ(Body).
 
@@ -50,7 +50,7 @@ Cilindrul poate fi editat, după crearea sa, în două moduri:
 
 <div class="mw-translate-fuzzy">
 
--    **Attachment**: Determină modul de atașare și dispunerea atașamentului(Attachment Offset). Vedeți [Part Attachment](Part_Attachment.md).
+-    **Attachment**: Determină modul de atașare și dispunerea atașamentului(Attachment Offset). Vedeți [Part EditAttachment](Part_EditAttachment.md).
 
 -    **Label**: numel/eticheta dată obiectului Cylinder. Schimbați pentru a vi se potrivi nevoilor dvs.
 

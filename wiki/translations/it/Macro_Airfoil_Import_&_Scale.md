@@ -46,7 +46,13 @@ La selezione del file avviene come per la versione 1.5. Con la versione 2 si pu√
 
 ### Ultima versione 
 
+
+<div class="mw-translate-fuzzy">
+
 L\'ultima versione della macro si trova in _.
+
+
+</div>
 
 ### Versione 2.1.2 
 

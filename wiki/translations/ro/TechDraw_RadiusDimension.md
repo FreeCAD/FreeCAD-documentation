@@ -16,14 +16,6 @@ The Radius Dimension tool adds a radius dimension to a View. The dimension may b
 
 ## Cum se folosește 
 
-1.  Selectați un cerc sau un arc circular în desen. (Notați că anumite arce de cerc apar ca fiind circulare dar de fapt sunt elipse sau curbe BSplines. Nu puteți realiza radius dimension în aceste cazuri)
-2.  Apăsați butonul **<img src="images/Dimension_Radius.png" width=24px> [Dimension Radius](TechDraw_Dimension_Radius.md)
-**
-3.  O cotă/distanță va fi adăugată în View. Cota poate fi glisată până în poziția dorită.
-
-
-
-
 1.  Select a circle or circular arc in the drawing. (Note some arcs which appear to be circular are actually ellipses or BSplines. You cannot make a radius dimension in these cases)
 2.  Press the **<img src="images/TechDraw_RadiusDimension.svg" width=16px> [Radius Dimension](TechDraw_RadiusDimension.md)** button
 3.  A dimension will be added to the View. The dimension may be dragged to the desired position.
@@ -36,8 +28,6 @@ To change the properties of a dimension object either double-clicking it in the 
 Dimension objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". See [TechDraw LengthDimension](TechDraw_LengthDimension.md) for more information.
 
 ## Proprietăți
-
-This object has the same properties as the [TechDraw Dimension Length](TechDraw_Dimension_Length/ro.md) tool. See that tool for details.
 
 See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md).
 

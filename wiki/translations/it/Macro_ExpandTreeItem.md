@@ -1,4 +1,7 @@
 # Macro ExpandTreeItem/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro ExpandTreeItem
 |Translate=Macro ExpandTreeItem
@@ -10,13 +13,28 @@
 |Download=[https://www.freecadweb.org/wiki/images/9/94/Macro_ExpandTreeItem.svg ToolBar Icon]
 }}
 
+
+</div>
+
 ## Descrizione
 
 Espande l\'albero selezionato e tutti i sottoalberi nella vista ad albero.
 
+
+<div class="mw-translate-fuzzy">
+
 se l\'albero selezionato è già espanso, questo albero e tutti gli alberi secondari vengono compressi
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 se non ci sono selezioni vengono compressi
+
+
+</div>
 
 ![](images/Collapsed00.gif )
 
@@ -42,7 +60,7 @@ ToolBar Icon .PNG ![](images/Macro_ExpandTreeItem.png ) and the .SVG ![](images/
 #
 # Expands selected tree and all sub trees in the tree view.
 # if selected tree is already expanded this tree and all sub trees are collapsed True/False
-# if there is no selection all trees are collapse False
+# if there is no selection all trees are expanded
 #
 __Title__    = "Macro ExpandTreeItem"
 __Author__   = "wmayer, UR_"

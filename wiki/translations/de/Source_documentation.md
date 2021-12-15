@@ -35,12 +35,18 @@ Wenn du Doxygen installiert hast, ist es sehr einfach, die Dokumentation zu erst
 sudo apt install doxygen graphviz
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Folge dann den gleichen Schritten, die Du bei der Kompilierung von FreeCAD durchführen würdest, wie auf der Seite [Kompilieren auf Unix](Compile_on_Linux/Unix/de.md) beschrieben, und hier aus Gründen der Übersichtlichkeit zusammengefasst.
 
 -   Hole Dir den Quellcode von FreeCAD und lege ihn in ein eigenes Verzeichnis `freecad-source`.
 -   Erstelle ein anderes Verzeichnis `freecad-build`, in dem Du FreeCAD und seine Dokumentation kompilieren wirst.
 -   Konfiguriere die Quellen mit `cmake`, stelle sicher, dass Du das Quellverzeichnis angibst und die erforderlichen Optionen für Dein Build angibst .
 -   Triggere die Erstellung der Dokumentation mit `make`.
+
+
+</div>
 
 
 ```python

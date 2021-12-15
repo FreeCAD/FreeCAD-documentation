@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/it
-   Name:Draft Angle
+   Name:Draft Snap Angle
    Name/it:Angolo
    Icon:Snap_Angle.svg
    MenuLocation:Draft → [Snap](Draft_Snap/it.md) → Angolo
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso:[Snap](Draft_Snap/it.md), [Attiva/disattiva snap](Draft_ToggleSnap/it.md)
+   SeeAlso:[Snap](Draft_Snap/it.md), [Attiva/disattiva snap](Draft_Snap_Lock/it.md)
 ---
 
 # Draft Snap Angle/it
@@ -50,7 +50,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 ## Utilizzo
 
-1.  Accertarsi che <img alt="" src=images/Snap_Lock.svg  style="width:16px;"> _ siano attivati.
+1.  Accertarsi che <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> _ siano attivati.
 2.  Sceglire uno strumento Drfat per disegnare una forma.
 3.  Sposta il cursore su un oggetto cerchio o un arco.
 4.  Il cerchio o l\'arco si evidenziano in giallo, e un piccolo cerchio bianco indica il punto sull\'arco su cui verrà agganciato il nuovo punto; questo punto formerà un angolo con l\'orizzontale di 30° o 45°, o un loro multiplo.
@@ -63,15 +63,6 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 ## Preferences
 
 See [Draft Snap](Draft_Snap#Preferences.md).
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Angle/it

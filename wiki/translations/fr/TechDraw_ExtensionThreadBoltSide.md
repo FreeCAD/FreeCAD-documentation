@@ -1,28 +1,28 @@
 ---
 - GuiCommand:/fr
    Name:TechDraw ExtensionThreadBoltSide
-   Name/fr:TechDraw Symbole filetage boulon
-   MenuLocation:TechDraw → Extensions: centerlines and threading → Cosmetic thread bolt side view
+   Name/fr:TechDraw Corps de filetage
+   MenuLocation:TechDraw → Extensions: centerlines and threading → Thread section Shaft
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    Version:0.20
-   SeeAlso:[TechDraw Symbole filetage perçage](TechDraw_ExtensionThreadHoleSide/fr.md)
+   SeeAlso:[TechDraw Corps de taraudage](TechDraw_ExtensionThreadHoleSide/fr.md)
 ---
 
 # TechDraw ExtensionThreadBoltSide/fr
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> **TechDraw Symbole filetage boulon** ajoute un filetage symbolique à la vue latérale d\'un boulon.
+L\'outil <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:24px;"> **TechDraw Corps de filetage** ajoute un filetage symbolique à la vue latérale d\'une vis.
 
 <img alt="" src=images/TechDraw_ExtensionThreadBoltSideExample.png  style="width:400px;"> 
-*À droite, un boulon avec un filetage symbolique.*
+*À droite, une vis avec un filetage symbolique.*
 
 ## Utilisation
 
 1.  Sélectionner les deux lignes parallèles d\'un boulon.
 2.  Il existe plusieurs façons de lancer l\'outil :
-    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> [Cosmetic thread bolt side view](TechDraw_ExtensionThreadBoltSide/fr.md)**.
-    -   Sélectionnez l\'option du menu **TechDraw → Extensions: centerlines and threading → <img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> Cosmetic thread bolt side view**.
+    -   Appuyez sur le bouton **<img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> [Thread section Shaft](TechDraw_ExtensionThreadBoltSide/fr.md)**.
+    -   Sélectionnez l\'option du menu **TechDraw → Extensions: centerlines and threading → <img src="images/TechDraw_ExtensionThreadBoltSide.svg" width=16px> Thread section Shaft**.
 3.  Un filetage symbolique est ajouté.
 
 

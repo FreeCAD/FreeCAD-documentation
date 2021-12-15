@@ -23,7 +23,7 @@ Exportiert die aktuellen Ansicht Eigenschaften in eine pov-Datei für die Verwen
 
 ==
 
-1.  Stelle sicher, dass die Ansicht auf [Perspektive](Std._PerspektiveKamera.md) eingestellt ist.
+1.  Stelle sicher, dass die Ansicht auf [Perspektive](Std_PerspectiveCamera.md) eingestellt ist.
 2.  Wähle ** Raytracing** → ** Utilities** →**<img src="images/Raytracing_Export.png" width=32px>  Ansicht nach POV-Ray exportieren...** aus dem oberen Menü.
 
 

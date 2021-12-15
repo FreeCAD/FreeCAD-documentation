@@ -1,4 +1,7 @@
 # Macro Fonts Win10 PYMP/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro Fonts Win10 PYMP
 |Icon=Macro_Fonts_Win10_PYMP.png
@@ -10,22 +13,21 @@
 |Download=[https://www.freecadweb.org/wiki/images/f/fa/Macro_Fonts_Win10_PYMP.png ToolBar Icon]
 }}
 
+
+</div>
+
 ## Descrizione
 
 Questa piccola macro è dedicata agli utenti di Windows 10. I font dentro explorer per utilizzare ShapeString sono invisibili e questa piccola macro può aiutarvi a vedere il font in modo efficace.
 
-![](images/Macro_Fonts_Win10_PYMP_00.png )
-
-
-
+![](images/Macro_Fonts_Win10_PYMP_00.png ) 
 *Macro Fonts Win10 PYMP*
-
-
-
 
 ## Utilizzo
 
-Lancia la macro cerca la tua font è applica ![Macro Fonts Win10 PYMP](images/Macro_Fonts_Win10_PYMP_01.png )  
+Lancia la macro cerca la tua font è applica
+
+![Macro Fonts Win10 PYMP](images/Macro_Fonts_Win10_PYMP_01.png ) 
 *Macro Fonts Win10 PYMP window *
 
 -   Finestra per il vostro testo

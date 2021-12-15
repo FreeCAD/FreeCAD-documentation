@@ -51,8 +51,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Presiona el botón **<img src="images/Draft_Wire.png" width=16px> [Contorno](Draft_Wire/es.md)
 **, o presiona las teclas **W** y **I**
-2.  Selecciona un primer punto en la vista 3D, o escribe unas [coordenadas](Draft_Coordinates/es.md)
-3.  Selecciona puntos adicionales en la vista 3D, o escribe [coordenadas](Draft_Coordinates/es.md)
+2.  Selecciona un primer punto en la vista 3D, o escribe unas coordenadas
+3.  Selecciona puntos adicionales en la vista 3D, o escribe coordenadas
 4.  Presiona **F** o **C**, o haz doble clic en el último punto, o selecciona el primer punto para terminar o cerrar el contorno. Si el contorno es cerrado, también será una cara, aunque su apariencia sea alámbrica.
 
 
@@ -68,8 +68,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 ## Opciones
 
 -   Si se seleccionan [ Draft Lineas](Draft_Line/es.md) conectadas al presionar el botón **Draft Wire**, se convertirán en un Wire y el comando terminara. {{Version | 0.17}}
--   Presiona **F** o el botón **<img src="images/Draft_FinishLine.png" width=12px> '''[Terminar](Draft_FinishLine/es.md)'''** para finalizar el contorno, dejándolo abierto
--   Presiona **C** o el botón **<img src="images/Draft_CloseLine.png" width=12px> '''[Cerrar](Draft_CloseLine/es.md)'''** o selecciona el primer punto para finalizar el contorno, pero haciendo que se cierre añadiendo un último segmento entre el último punto y el primero.
+-   Presiona **F** o el botón **<img src="images/Draft_FinishLine.png" width=12px> '''Terminar'''** para finalizar el contorno, dejándolo abierto
+-   Presiona **C** o el botón **<img src="images/Draft_CloseLine.png" width=12px> '''Cerrar'''** o selecciona el primer punto para finalizar el contorno, pero haciendo que se cierre añadiendo un último segmento entre el último punto y el primero.
 -   Presiona **X**, **Y** o **Z** después de un punto para restringir el siguiente punto con respecto al eje dado.
 -   Para introducir coordenadas manualmente, simplemente introduce los números, presiona **ENTER** entre cada componente X, Y y Z.
 -   Presiona **R** o selecciona la casilla para activar / desactivar el modo **'''Relativo'''**. Si está activado el modo relativo, las coordenadas del siguiente punto son relativas al anterior. En caso contrario, son absolutas, desde el origen de coordenadas (0,0,0).
@@ -77,7 +77,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Presiona **CTRL** mientras dibujas para forzar el [ajuste](Draft_Snap/es.md) del punto a la ubicación de ajuste más cercana, independientemente de la distancia.
 -   Presiona **SHIFT** mientras dibujas para [restringir](Draft_Constrain/es.md) tu siguiente punto horizontal o verticalmente en relación al último punto indicado.
 -   Presiona **W** o el botón **<img src="images/Draft_Wipe.png" width=12px> '''Contorno'''** para eliminar el segmento existente y comenzar el contorno desde el último punto.
--   Presiona **CTRL**+**Z** o el botón **<img src="images/Draft_UndoLine.png" width=12px> '''[Deshacer](Draft_UndoLine/es.md)'''** para deshacer el último punto.
+-   Presiona **CTRL**+**Z** o el botón **<img src="images/Draft_UndoLine.png" width=12px> '''Deshacer'''** para deshacer el último punto.
 -   Presiona **I** o el botón **'''Relleno'''** para que el Wire se muestre como una cara si esta cerrada.
 -   Presiona **ESC** o el botón **'''Cancelar'''** para abortar el comando Línea actual.
 -   Los Wires cerrados, cuando están en el modo de visualización \"Líneas planas\", pueden mostrar un patrón de sombreado, configurando a continuación la propiedad \"Patrón\".

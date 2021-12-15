@@ -104,7 +104,7 @@ En el momento de escribir este tutorial, [Módulo de arquitectura](Arch_Workbenc
 <div class="mw-translate-fuzzy">
 
 
-{{Note|Se necesita la versión 0.14 de FreeCAD|Este tutorial se ha escrito usando la [ version 0.14 de FreeCAD](Release_notes_014.md). Es necesario tener esta versión o superiores para poder seguir las instrucciones, ya que versiones anteriores pueden no tener todas las herramientas u opciones necesarias.}}
+{{Note|Se necesita la versión 0.14 de FreeCAD|Este tutorial se ha escrito usando la [ version 0.14 de FreeCAD](Release_notes_0.14/es.md). Es necesario tener esta versión o superiores para poder seguir las instrucciones, ya que versiones anteriores pueden no tener todas las herramientas u opciones necesarias.}}
 
 
 </div>

@@ -85,7 +85,7 @@ El Ambiente de trabajo MEF puede utilizarse en Linux, Windows y Mac OSX. Dado qu
 
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Empate de restricciones](FEM_ConstraintTie/es.md): {{Version/es|0.19}}
 
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a tie constraint (\"bonded contact\") between two faces. <small>(v0.20)</small> 
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Restricción de fuerza](FEM_ConstraintForce/es.md): Utilizada para definir una fuerza en Newtons aplicada uniformemente a una cara seleccionada en una dirección definida.
 
@@ -255,11 +255,17 @@ The FEM Workbench is under constant development. An objective of the project is 
 
 The following information is aimed at power users and developers who want to extend the FEM Workbench in different ways. Familiarity with C++ and Python is expected, and also some knowledge of the \"document object\" system used in FreeCAD is necessary; this information is available in the [Power users hub](Power_users_hub.md) and the [Developer hub](Developer_hub.md). Please notice that since FreeCAD is under active development, some articles may be too old, and thus obsolete. The most up to date information is discussed in the [FreeCAD forums](https://forum.freecadweb.org/index.php), in the Development section. For FEM discussions, advice or assistance in extending the workbench, the reader should refer to the [FEM subforum](https://forum.freecadweb.org/viewforum.php?f=18).
 
+
+<div class="mw-translate-fuzzy">
+
 Los siguientes artículos explican cómo se puede ampliar el banco de trabajo, por ejemplo, añadiendo nuevos tipos de condiciones de contorno (restricciones) o ecuaciones.
 
 -   [Extender modulo MEF](Extend_FEM_Module/es.md)
 -   [Tutorial de adición de restricciones MEF](Add_FEM_Constraint_Tutorial/es.md)
 -   [Añadir el tutorial de la ecuación MEF](Add_FEM_Equation_Tutorial/es.md)
+
+
+</div>
 
 A developer\'s guide has been written to help power users in understanding the complex FreeCAD codebase and the interactions between the core elements and the individual workbenches. The book is hosted at github so multiple users can contribute to it and keep it updated.
 

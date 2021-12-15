@@ -1,10 +1,10 @@
 ---
 - GuiCommand:/de
-   Name:TechDraw  Dimension Landmark   Name/de:TechDraw Leitbemaßung
+   Name:TechDraw Dimension Landmark   Name/de:TechDraw Leitbemaßung
    MenuLocation:TechDraw → Bemaßungen → Leitmaß einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.19
-   SeeAlso:[TechDraw Horizontalbemaßung](TechDraw_Dimension_Horizontal/de.md), [TechDraw Vertikalbemaßung](TechDraw_Dimension_Vertical/de.md)
+   SeeAlso:[TechDraw Horizontalbemaßung](TechDraw_HorizontalDimension/de.md), [TechDraw Vertikalbemaßung](TechDraw_VerticalDimension/de.md)
 ---
 
 # TechDraw LandmarkDimension/de
@@ -22,12 +22,12 @@ Das Leitbemaßungswerkzeug fügt einer Ansicht eine lineare Dimension hinzu. Die
 
 </div>
 
-Der Zweck dieses Werkzeugs ist es, eine Abhilfe gegen das Korrumpieren der Bemaßung zu schaffen, die durch \"[topologische Benennung](topological_naming_problem/de.md)\" Themen verursacht wird. Die Quellpunkte sollten [Ausdrücke](Expressions/de.md) oder andere enthaltenden Mechanismen verwenden, um ihre Position zu bestimmen. Da es sich bei den Punkten um [Dokumentobjekte](App_DocumentObjects/de.md) und nicht um Formkomponenten handelt, ändert sich ihr Name bei Neuberechnungen nicht, so dass sie leicht gefunden werden können.
+Der Zweck dieses Werkzeugs ist es, eine Abhilfe gegen das Korrumpieren der Bemaßung zu schaffen, die durch \"[topologische Benennung](topological_naming_problem/de.md)\" Themen verursacht wird. Die Quellpunkte sollten [Ausdrücke](Expressions/de.md) oder andere enthaltenden Mechanismen verwenden, um ihre Position zu bestimmen. Da es sich bei den Punkten um [Dokumentobjekte](App_DocumentObject/de.md) und nicht um Formkomponenten handelt, ändert sich ihr Name bei Neuberechnungen nicht, so dass sie leicht gefunden werden können.
 
 
 <div class="mw-translate-fuzzy">
 
-Siehe die Begrenzung und Abhilfeabschnitte der [TechDraw Bemaßungslänge](TechDraw_Dimension_Length/de.md) für Weiteres über Bemaßungen und topologische Benennung.
+Siehe die Begrenzung und Abhilfeabschnitte der [TechDraw Bemaßungslänge](TechDraw_LengthDimension/de.md) für Weiteres über Bemaßungen und topologische Benennung.
 
 
 </div>
@@ -47,7 +47,7 @@ Die Leitbemaßung verhält sich im Allgemeinen wie jede andere Bemaßung
 
 1.  Wähle 2 Punktobjekte in der [Baumansicht](Tree_view/de.md) oder der [3D Ansicht](3D_view/de.md).
 2.  Wähle auch die Ansicht, zu der die Bemaßung hinzugefügt werden soll.
-3.  Drücke die **<img src="images/Techdraw-landmarkdistance.svg" width=20px> [Leitbemaßung](TechDraw_Dimension_Landmark/de.md)** Schaltfläche oder {{MenuCommand/de|TechDraw → Leitbemaßung}}
+3.  Drücke die **<img src="images/TechDraw_LandmarkDimension.svg" width=20px> [Leitbemaßung](TechDraw_LandmarkDimension/de.md)** Schaltfläche oder {{MenuCommand/de|TechDraw → Leitbemaßung}}
 4.  Eine Bemaßung wird der Ansicht hinzugefügt. Der Bemaßungstext kann an die gewünschte Position gezogen werden.
 
 

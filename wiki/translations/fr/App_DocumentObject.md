@@ -51,9 +51,9 @@ Pour les objets dérivés, seul {{PropertyData/fr|Label}} sera répertoriée par
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
-[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](scripted_objects/fr.md).
+[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](Scripted_objects/fr.md).
 
 Voir [Part Feature](Part_Feature/fr.md) pour les informations générales sur l\'ajout d\'objets au programme.
 

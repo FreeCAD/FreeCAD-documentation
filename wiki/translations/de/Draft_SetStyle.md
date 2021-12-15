@@ -10,6 +10,9 @@
 
 # Draft SetStyle/de
 
+
+</div>
+
 ## Beschreibung
 
 Der <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> **Draft StilFestlegen**-Befehl legt die Standardstilvorgaben für neue Objekte fest.
@@ -27,6 +30,9 @@ Dieser Befehl ist aktuell in Bearbeitung und sowohl die V0.19- als auch die V0.2
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Es gibt mehrere Wege, den Befehl aufzurufen:
     -   Drücke die ![](images/Draft_tray_button_style.png )-Schaltfläche in der [Draft Ablage](Draft_Tray/de.md). Abhängig von den aktuellen Stileinstellungen kann diese Schaltfläche unterschiedlich aussehen.
     -   Wähle die **Utilities → <img src="images/Draft_SetStyle.svg" width=16px> Stil festlegen**-Option aus dem Menü.
@@ -34,6 +40,9 @@ Dieser Befehl ist aktuell in Bearbeitung und sowohl die V0.19- als auch die V0.2
 3.  Ändere optional ein oder mehrere Einstellungen.
 4.  Drücke die **OK**-Schaltfläche.
 5.  Die Schaltfläche in der [Draft Ablage](Draft_Tray/de.md) wird aktualisiert.
+
+
+</div>
 
 ## Optionen
 

@@ -86,7 +86,7 @@ Python is a popular all-purpose scripting language that is widely used in Linux 
 -   to write test scripts to test for different conditions, such as memory leaks, to ensure functionality of the software after changes, for post build checks, and test coverage tests,
 -   to write [macros](macros.md) and macro recording,
 -   to implement application logic for standard packages,
--   to implement auxiliary tools such as the [Addon Manager](Addon_Manager.md),
+-   to implement auxiliary tools such as the [Addon Manager](Std_AddonMgr.md),
 -   to implement entire workbenches like [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md),
 -   to dynamically load packages,
 -   to implement rules for design (knowledge engineering),

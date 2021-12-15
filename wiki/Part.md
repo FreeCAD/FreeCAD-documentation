@@ -1,7 +1,9 @@
 # Part
 ## Introduction
 
-  In FreeCAD the word \"_ (`App::Part` class), a type of container object that is defined by the base system. This Part is used to manage the position of 3D shapes in order to create mechanical assemblies.
+ 
+
+In FreeCAD the word \"_ (`App::Part` class), a type of container object that is defined by the base system. This Part is used to manage the position of 3D shapes in order to create mechanical assemblies.
 
 See <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std Part](Std_Part.md) for more information about this type of object.
 

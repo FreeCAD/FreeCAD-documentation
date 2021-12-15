@@ -48,7 +48,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 <div class="mw-translate-fuzzy">
 
 1.  按下**<img src="images/Draft_Arc_3Points.svg" width=16px> [[Draft Arc 3Points]]**按钮，或先按**A**键再按**T**键。
-2.  在3D视图中点击第一个点，或输入一个 [坐标并按下](Draft_Coordinates.md)**<img src="images/Draft_AddPoint.svg" width=16px> [add point](Draft_AddPoint.md)**按钮。
+2.  在3D视图中点击第一个点，或输入一个坐标并按下**<img src="images/Draft_AddPoint.svg" width=16px> add point**按钮。
 3.  在3D视图中点击第二个点，或输入一个半径值。
 4.  在3D视图中点击第三个点，或输入一个起始角度。
 
@@ -62,6 +62,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
 -   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, coordinates are relative to the last point, if available, else they are relative to the coordinate system origin.
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
+-   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating arcs. <small>(v0.20)</small> 
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 

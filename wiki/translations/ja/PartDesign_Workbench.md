@@ -15,28 +15,7 @@
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-## 基本的な作業の流れ
-
-スケッチとはソリッド部品を作成、編集するための基本となる要素のことです。作業の流れを要約するとこうなります：まず最初に2D形状を含むスケッチを作成します。次にスケッチに対してソリッド作成ツールを使用します。この時に利用可能なツールは以下の通りです。
-
--   **パッド** スケッチの押し出しを行います
--   **ポケット** 既存のソリッドにポケット（くぼみ）を作成します
--   **回転** 軸の周りにスケッチを回転させてソリッドを作成します
--   **溝** 既存のソリッドに溝を作成します
-
-将来のリリースではさらなるツールが計画されています。
-
-パートデザインワークベンチで非常に重要となるコンセプトは**スケッチのサポート（支持物）**です。スケッチは標準面（**XY**、**XZ**、**YZ**とそれらに平行な面）上または既存のソリッドの面上に作成することができます。後者の場合、既存のソリッドがスケッチの**サポート**となります。ツールの中にはサポートを持っているスケッチに対してだけ使用できるものがいくつかあります。例えば**ポケット**です - サポートがない場合、マテリアルからは何も取り除かれません！
-
-いったんソリッド形状が作成されれば面取りやフィレットといった変更やミラーやパターンといった変形を行うことができるようになります。
-
-パートデザインワークベンチは一つのつながったソリッドを作るためのものです。複数のソリッドは[アセンブリワークベンチで取り扱うことができます](Assembly_Workbench/jp.md)。
-
-
-</div>
+The PartDesign Workbench is intrinsically related to the [Sketcher Workbench](Sketcher_Workbench.md). The user normally creates a Sketch, then uses the [PartDesign Pad](PartDesign_Pad.md) tool to extrude it and create a basic solid, and then this solid is further modified.
 
 While the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) is based on a [constructive solid geometry](constructive_solid_geometry.md) (CSG) methodology for building shapes, the PartDesign Workbench uses a parametric, feature editing methodology, which means a basic solid is sequentially transformed by adding features on top until the final shape is obtained. See the [feature editing](feature_editing.md) page for a more complete explanation of this process, and then see [Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md) to get started with creating solids.
 
@@ -48,25 +27,7 @@ The bodies created with PartDesign are often subject to the [topological naming 
 
 ## ツール
 
-
-<div class="mw-translate-fuzzy">
-
-パートデザインツールは全てパートデザインを読み込んだ時点で表示される**Part Design**メニューにあります。
-
-ここには[スケッチャーワークベンチのツールも含まれています](Sketcher_Workbench/jp.md)。これはパートデザインモジュールがそれらと深く関係しているからです。
-
-### スケッチャーツール
-
-
-{{Sketcher Tools/jp}}
-
-### パートデザインツール
-
-
-{{PartDesign Tools/jp}}
-
-
-</div>
+The Part Design tools are all located in the **Part Design** menu and the PartDesign toolbar that appear when you load the Part Design workbench.
 
 ### Structure tools 
 
@@ -198,18 +159,7 @@ These tools apply a treatment to the selected edges or faces.
 
 -   <img alt="" src=images/PartDesign_Boolean.svg  style="width:32px;"> [Boolean operation](PartDesign_Boolean.md): imports one or more Bodies or PartDesign Clones into the active body and applies a Boolean operation.
 
-## 追加
-
-
-{{PartDesign Extras/jp}}
-
-## フィーチャープロパティ
-
-
-{{PartDesign Placement/jp}}
-
-
-
+#### Extras
 
 Some additional functionality found in the Part Design menu:
 

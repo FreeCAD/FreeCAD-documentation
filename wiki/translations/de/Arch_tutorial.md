@@ -393,7 +393,7 @@ Bevor wir mit dem Export beginnen, gibt es eine interessante Überlegung: Wie Si
 
 Eins der sehr wesentlichen Dinge bei der Arbeit mit Gebäudedatenmodellierung ist die Möglichkeit zum Im- und Export von _-Format wird bereits unterstützt und der Import in FreeCAD funktioniert bereits ziemlich zuverlässig. Der Export ist allerdings noch experimentell und hat momentan noch viele Einschränkungen. Die Dinge werden besser und wir sollten sehr schnell einen sauberen IFC-Export erhalten.
 
-[IFC-Export](Arch_IFC/de.md) erfordert sehr wenig Konfiguration, sobald die notwendigen Software-Bibliotheken installiert sind. Sie müssen nur die Gebäudestruktur auffrischen, was in allen IFC-Dateien nötig ist, indem Sie zu Ihrer Datei ein [Gebäude](Arch_Buildung/de.md) hinzufügen, dann ein [Geschoss](Arch_Floor/de.md) und anschließend alle Gruppen mit Objekten, aus denen Ihr Modell besteht, dorthin verschieben. Achten Sie darauf, dass Ihre Konstruktionselemente (die ganzen 2D-Objekte, die wir gezeichnet haben) ausgenommen bleiben, denn sonst wird die IFC-Datei unnötig aufgebläht.
+[IFC-Export](Arch_IFC/de.md) erfordert sehr wenig Konfiguration, sobald die notwendigen Software-Bibliotheken installiert sind. Sie müssen nur die Gebäudestruktur auffrischen, was in allen IFC-Dateien nötig ist, indem Sie zu Ihrer Datei ein [Gebäude](Arch_Building/de.md) hinzufügen, dann ein [Geschoss](Arch_Floor/de.md) und anschließend alle Gruppen mit Objekten, aus denen Ihr Modell besteht, dorthin verschieben. Achten Sie darauf, dass Ihre Konstruktionselemente (die ganzen 2D-Objekte, die wir gezeichnet haben) ausgenommen bleiben, denn sonst wird die IFC-Datei unnötig aufgebläht.
 
 Eine weitere Einstellung ist das Prüfen der \"Rolle\"-Eigenschaft von Strukturelementen. Da IFC im Gegensatz zu FreeCAD keine \"generischen\" Strukturelemente hat, müssen wir ihnen Rollen (Säule, Balken, etc.) zuweisen, so dass der Export-Prozess weiß, welches Element in der IFC-Datei zu erzeugen ist.
 
@@ -428,11 +428,11 @@ Die Schnittebenen können zwei verschiedene Ausgaben erzeugen: [Formteil](Part_W
 
 **Formteilansichten**
 
-Diese Ausgabe wird bei ausgewählter Schnittebene durch den [Draft Form in 2D-Ansicht](Draft_Shape2Dview/de.md)-Arbeitsbereich erstellt. Sie erzeugen direkt im 3D-Raum eine 2D-Ansicht des Modells, wie im obigen Bild. Der Hauptvorteil hier ist, dass Sie mit dem [Draft-Arbeitsbereich](Draft_Workbench/de.md)-Werkzeug (oder jedem anderen Standard-Werkzeug) auf dieser Ansicht arbeiten können, so dass Sie Texte, Bemaßungen, Symbole, etc. hinzufügen können.
+Diese Ausgabe wird bei ausgewählter Schnittebene durch den [Draft Form in 2D-Ansicht](Draft_Shape2DView/de.md)-Arbeitsbereich erstellt. Sie erzeugen direkt im 3D-Raum eine 2D-Ansicht des Modells, wie im obigen Bild. Der Hauptvorteil hier ist, dass Sie mit dem [Draft-Arbeitsbereich](Draft_Workbench/de.md)-Werkzeug (oder jedem anderen Standard-Werkzeug) auf dieser Ansicht arbeiten können, so dass Sie Texte, Bemaßungen, Symbole, etc. hinzufügen können.
 
 <img alt="" src=images/Arch_tutorial_50.jpg  style="width:1024px;">
 
-Auf dem obigen Bild wurden zwei [Draft Form zu 2D-Ansichten](Draft_Shape2Dview/de.md) für jeden Schnitt erstellt, eine, die alles zeigt, und eine andere, die nur die Schnittlinien zeigt. Dies erlaubt uns, andere Linienbreiten und Schraffuren einzustellen. Dann wurden Bemaßungen, Texte und Symbole hinzugefügt und eine Reihe von DXF-Blöcken für die Darstellung von Möbeln importiert. Diese Ansichten können dann einfach nach DXF oder DWG exportiert und in Ihrer bevorzugten 2D-CAD-Anwendung geöffnet werden, wie [LibreCAD](http://www.librecad.org) oder [DraftSight](http://www.3ds.com/products-services/draftsight/overview/), wo Sie weiter daran arbeiten können:
+Auf dem obigen Bild wurden zwei [Draft Form zu 2D-Ansichten](Draft_Shape2DView/de.md) für jeden Schnitt erstellt, eine, die alles zeigt, und eine andere, die nur die Schnittlinien zeigt. Dies erlaubt uns, andere Linienbreiten und Schraffuren einzustellen. Dann wurden Bemaßungen, Texte und Symbole hinzugefügt und eine Reihe von DXF-Blöcken für die Darstellung von Möbeln importiert. Diese Ansichten können dann einfach nach DXF oder DWG exportiert und in Ihrer bevorzugten 2D-CAD-Anwendung geöffnet werden, wie [LibreCAD](http://www.librecad.org) oder [DraftSight](http://www.3ds.com/products-services/draftsight/overview/), wo Sie weiter daran arbeiten können:
 
 <img alt="" src=images/Arch_tutorial_51.jpg  style="width:1024px;">
 

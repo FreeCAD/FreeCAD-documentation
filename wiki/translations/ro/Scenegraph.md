@@ -121,7 +121,9 @@ Dar există multe avantaje pentru a putea accesa scenegraful direct. De exemplu,
 
 </div>
 
-FreeCAD dispune de mai multe instrumente pentru a vedea sau a modifica codul openInventor. De exemplu, următorul cod python va afișa reprezentarea openInventor a unui obiect selectat: 
+FreeCAD dispune de mai multe instrumente pentru a vedea sau a modifica codul openInventor. De exemplu, următorul cod python va afișa reprezentarea openInventor a unui obiect selectat:
+
+
 ```python
 obj = FreeCAD.ActiveDocument.ActiveObject
 viewprovider = obj.ViewObject
@@ -139,14 +141,21 @@ Dar avem, de asemenea, un modul python care permite accesul complet la tot ceea 
 
 ## Coding examples 
 
-See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository of said examples can be found at <https://github.com/MariwanJ/COIN3D_Examples>.
+See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository of said examples can be found at <https://github.com/MariwanJ/COIN3D_Examples>. {{Top}}
 
-[top](#top.md)
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/ro|Mesh to Part/ro|Pivy/ro}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _
 

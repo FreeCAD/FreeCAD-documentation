@@ -634,7 +634,7 @@ Dieses Skript bietet die M√∂glichkeit, das UI von der Python Konsole aus zu ver√
 -   [Baumansicht](Tree_view/de.md)
 -   [Eigenschaftsansicht](Property_editor/de.md)
 -   [Auswahlansicht](Selection_view/de.md)
--   [Combo Ansicht](Combo_View/de.md)
+-   [Combo Ansicht](Combo_view/de.md)
 -   [Python Konsole](Python_console/de.md)
 -   EntwurfWerkzeugleiste
 

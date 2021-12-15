@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:FEM BeschränkungKraft
+   Name:FEM ConstraintForce
+   Name/de:FEM BeschränkungKraft
    MenuLocation:Model → Mechanische Beschränkungen → Beschränkung Kraft
    Workbenches:[FEM](FEM_Workbench/de.md)
    Shortcut:
@@ -18,43 +19,25 @@ Dieser Befehl wendet eine Kraft mit dem gegebenen Wert \[N\] auf die ausgewählt
 
 ## Anwendung
 
-1\) Applying a force in normal direction to a face
+Applying a force to a face, line or point:
 
--   -   In FEM workbench, click on <img alt="Constraint Force" src=images/FEM_ConstraintForce.svg  style="width:24px;"> or select **Model** → **Mechanical Constraints** → **Constraint force** to open Force Constraint properties dialog
+-   In FEM workbench, click on <img alt="Constraint Force" src=images/FEM_ConstraintForce.svg  style="width:24px;"> or select **Model** → **Mechanical Constraints** → **Constraint force** to open Force Constraint properties dialog.
 
-![](images/FEMForceConstraintProperties.PNG )
+-   If you have Mesh displayed, you need to hide it (select the mesh object and press **spacebar** or right-click and select **Hide item**) and show the original model.
 
--   -   If you have Mesh displayed, you need to hide it (select the mesh object and press **spacebar** or right click and select **Hide item**) and show the original model.
-    -   Click on a *face* to which a force should be applied. It will appear in the list of geometrical objects.
-    -   Fill in **Line load** with a force value in \[N\] (attention: *Not* in \[N/m\])
+-   Click on a *face*, *line* or *point* to which a force should be applied. It will appear in the list of geometrical objects.
 
-![](images/ApplyingForceToFace.PNG )
+-   Fill in **Load [N]** with a force value in \[N\].
 
--   -   
-        **Direction**
-        
-        : In a typical case, you\'ll click this field empty to apply a force in normal direction to the face. You can revert the direction of the force by clicking **Reverse direction**. In other cases, you need to pick a face or plane, which is in normal to the force direction (it could differ from the face, to which the force is being applied)
+-    **Direction**: In a typical case, you\'ll leave this field empty to apply a force in the normal direction. You can revert the direction of the force by clicking **Reverse direction**. In other cases, you need to pick a face/plane or edge, which serves as reference for force direction.
 
-    -   Click **Close** to finish the dialog and create **<img src=images/FEM_ConstraintForce.svg style="width:24px"> ConstraintForce** object
+![](images/FEM_ConstraintForce_example.JPG )
 
-2\) Applying a force in to line in selected direction
+-   Click **OK** to finish the dialog and create **<img src=images/FEM_ConstraintForce.svg style="width:24px"> ConstraintForce** object.
 
--   -   In FEM workbench, click on <img alt="Constraint Force" src=images/FEM_ConstraintForce.svg  style="width:24px;"> or select **Model** → **Mechanical Constraints** → **Constraint force** to open Force Constraint properties dialog
+## Notes
 
-    -   If you have Mesh displayed, you need to hide it (select the mesh object and press **spacebar** or right click and select **Hide item**) and show the original model.
-
-    -   Click on a *line segment* to which a force should be applied. It will appear in the list of geometrical objects.
-
-    -   Fill in **Area load** with a force value in \[N\]
-
-    -   
-        **Direction**
-        
-        : Now, with line segment selected, it si likely that the force is applied in a wrong direction. We need to specify the direction by clicking the button **Direction** and then clicking a face pointing with its normal to the direction of the force (or reversed direction). Again, you can revert the direction of the force by clicking **Reverse direction**.
-
-![](images/FEMforceonline.PNG )
-
--   -   Click **Close** to finish the dialog and create **<img src=images/FEM_ConstraintForce.svg style="width:24px"> ConstraintForce** object
+Defined force is applied uniformly to selected objects. For example, if you define one force constraint with 200 N applied to two faces having the same area, each face will be uniformly loaded with 100 N.
 
 
 <div class="mw-translate-fuzzy">

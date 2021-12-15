@@ -1,5 +1,6 @@
 # Tutorial FreeCAD POV ray/fr
-**L'_, arrêté et dépassé. Le Render Workbench peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing et parce que le nouveau atelier devrait fondamentalement fonctionner de la même manière**
+**L'_, arrêté et dépassé. Le Render Workbench peut être installé via le <img src="images/Std_AddonMgr.svg" width=24px> [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing et parce que le nouveau atelier devrait fondamentalement fonctionner de la même manière
+**
 
 .
 

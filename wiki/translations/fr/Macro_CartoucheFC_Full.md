@@ -2,29 +2,29 @@
 {{Macro/fr
 |Name=Macro_CartoucheFC_Full
 |Icon=Macro_CartoucheFC_Full.png
-|Description=Cette macro est une application complète, elle permet de remplir le cartouche de la feuille de dessin avec tous les champs textéditables (Pour l'[atelier Drawing](Drawing_Workbench/fr.md)).
+|Description=Cette macro est une application complète, elle permet de remplir le cartouche de la feuille de dessin avec tous les champs éditables (Pour l'[atelier Drawing](Drawing_Workbench/fr.md)).
 |Author=Mario52
 |Version=00.10
 |Date=2017-02-15
-|FCVersion=Toutes Versions utilisant l'atelier Drawing
-|Download=[https://www.freecadweb.org/wiki/images/6/68/Macro_CartoucheFC_Full.png ToolBar Icon]
+|FCVersion=Toutes les versions utilisant l'atelier Drawing
+|Download=[https://www.freecadweb.org/wiki/images/6/68/Macro_CartoucheFC_Full.png Icône de la barre d'outils]
 }}
 
 ## Description
 
-Cette macro est une application complète, elle permet de remplir simplement tous les champs du cartouche de la feuille de dessin
+Cette macro est une application complète, elle permet de remplir simplement tous les champs du cartouche.
 
 Téléchargez les feuilles [Misc\_templates\_Full](Misc_templates_Full/fr.md)
 
-La date et l\'heure sont séparés par un \"espace tiret espace\" **\" - \"** et constitue une seule ligne dans le textéditable de FreeCAD.
+Voici l\'ordre de remplissage de la ligne éditable de FreeCAD. Les champs date et heure sont séparés par un **\'espace négatif espace\'\' \" - \"** et constituent une seule ligne éditable.
 
 <img alt="CartoucheFC\_Full" src=images/Macro_CartoucheFC_Full_00.png  style="width:680px;">
 
 ## Utilisation
 
-**PS : certains caractères comme & \$ ne sont pas acceptés (et peut être d\'autres caractères spéciaux) !**
+**PS : certains caractères comme & \$ ne sont pas acceptés (et peut être d\'autres caractères spéciaux).**
 
-Si vous avez des questions ou désirez ajouter une fonction, vous pouvez vous adresse sur le forum [Remplir cartouche](http://forum.freecadweb.org/viewtopic.php?f=12&t=2049)
+Si vous avez des questions ou si vous voulez ajouter une fonction, vous pouvez vous adresser au forum français [Remplir cartouche](http://forum.freecadweb.org/viewtopic.php?f=12&t=2049)
 
 -   La fenêtre reste au dessus des autres fenêtres et permet ainsi de contrôler le cartouche sans quitter le programme.
 
@@ -1151,9 +1151,9 @@ MainWindow.show()
 
 Les champs n\'ont pas de limite de longueur, vérifiez l\'affichage dans votre cartouche.
 
-Ce programme crée sur votre projet un dessin représentant le symbole régional de projection, n\'y touchez pas il est enregistré sous forme cachée donc invisible.
+Ce programme crée sur votre projet un dessin représentant le symbole régional de projection, n\'y touchez pas, il est enregistré sous forme cachée donc invisible.
 
-Si vous voulez qu\'il soit effacée dé-commentez ces lignes commentées et vice versa.
+Si vous voulez qu\'il soit effacée dé-commentez les lignes commentées et vice versa.
 
 
 ```python

@@ -53,7 +53,7 @@ Wenn ein Körper bereits existiert, muss er vor der Verwendung von **<img src=im
 
 Ein _ abgeleitet. (`Part::Feature` Klasse), daher teilt sie alle Eigenschaften der letzteren.
 
-Zusätzlich zu den unter [Part Formelementen](Part_Feature/de.md) beschriebenen Eigenschaften hat der PartDesign Körper die folgenden Eigenschaften im [Eigenschaftseditor](Property_Editor/de.md).
+Zusätzlich zu den unter [Part Formelementen](Part_Feature/de.md) beschriebenen Eigenschaften hat der PartDesign Körper die folgenden Eigenschaften im [Eigenschaftseditor](Property_editor/de.md).
 
 ### Daten
 
@@ -201,7 +201,7 @@ Ziehen und Ablegen funktioniert nur bei Körpern, die noch kein Basis Formelemen
 
 Wenn der Körper bereits mehrere Formelemente hat, wird das Basis Formelement beim Ziehen und Ablegen des externen Festkörpers am Anfang der Liste der Formelemente erzeugt, d. h. es wird am Anfang der {{PropertyData/de|Gruppe}} Eigenschaft hinzugefügt.
 
-Das Basis Formelement ist vollkommen optional; es ist nur dann vorhanden, wenn ein Objekt von außerhalb des Körpers einbezogen wird. Wenn kein externer Festkörper enthalten ist, kannst Du Deine Form trotzdem mit [Skizzen](Sketch/de.md), [Polster](PartDesign_Pad/de.md), [GrundObjekte](PartDesign_CompimitiveAdditive/de.md) und anderen [PartDesign Formelementen](PartDesign_Feature/de.md) erstellen. In diesem Fall bleibt die Eigenschaft {{PropertyData/de|Basis Formelement}} leer.
+Das Basis Formelement ist vollkommen optional; es ist nur dann vorhanden, wenn ein Objekt von außerhalb des Körpers einbezogen wird. Wenn kein externer Festkörper enthalten ist, kannst Du Deine Form trotzdem mit [Skizzen](Sketch/de.md), [Polster](PartDesign_Pad/de.md), [GrundObjekte](PartDesign_CompPrimitiveAdditive/de.md) und anderen [PartDesign Formelementen](PartDesign_Feature/de.md) erstellen. In diesem Fall bleibt die Eigenschaft {{PropertyData/de|Basis Formelement}} leer.
 
 ![](images/PartDesign_Body_BaseFeature_Tip.svg )
 
@@ -233,7 +233,7 @@ In der [Baumansicht](tree_view/de.md) wird die Spitze des Körpers durch das [Pa
 
 <div class="mw-translate-fuzzy">
 
-Standardmäßig sind Objekte unter einem Körper auswählbar, was natürlich erforderlich ist, um Merkmale in PartDesign zu bearbeiten und hinzuzufügen. Die Auswahl der Funktionen eines Körpers zur Erstellung von Operationen aus anderen Arbeitsbereichen (wie [Part](Part_Workbench/de.md) oder [Draft](Draft_Workbench/de.md)) wird jedoch nicht empfohlen, da die Ergebnisse unerwartet sein können; in allen Fällen wird im Ausgabefenster ein Fehler gekennzeichnet mit *Links go out of the allowed scope* angezeigt.
+Standardmäßig sind [PartDesign Funktionen](PartDesign_Feature/de.md) in einem Körper auswählbar, da dies zur Bearbeitung und zum Hinzufügen weiterer Eigenschaften mit [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) Werkzeugen erforderlich ist. Die Auswahl einzelner Funktionen zur Verwendung mit Werkzeugen anderer Arbeitsbereiche, wie [Part](Part_Workbench/de.md) oder [Draft](Draft_Workbench/de.md)) wird jedoch nicht empfohlen, da die Ergebnisse unerwartet sein können. Wenn dies gemacht wird, kann in der [Berichtsansicht](Report_view/de.md) ein Fehler angezeigt werden **Links go out of the allowed scope (Verknüpfungen liegen außerhalb des erlaubten Bereiches)**.
 
 
 </div>
@@ -261,13 +261,7 @@ Mehrfache [Skizzen](Sketch/de.md) können gleichzeitig sichtbar sein, aber nur e
 
 [PartDesign Formelemente](PartDesign_Feature/de.md), genau wie [Ebene Objekte](Part_Part2DObject/de.md), können an unterschiedliche Ebenen angehängt werden, normalerweise an die Standardebenen, die durch die [Ursprung](PartDesign_Body#Origin/de.md) des Körpers definiert sind, oder an benutzerdefinierte [PartDesign Ebenen](PartDesign_Plane/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-[Skizzen](Sketch/de.md) werden normalerweise bei ihrer Erstellung an eine Ebene angehängt. Auf ähnliche Weise können auch [Grundformelemente](PartDesign_CompPrimitiveAdditive/de.md) angehängt werden. Das Anhängen dieser Objekte an eine Ebene ermöglicht es, sie innerhalb des Körpers zu bewegen, indem ihre Eigenschaft {{PropertyData/de|Anfügung Versatz}} geändert wird. Weitere Informationen zu den Anfügemodi findest Du unter [Part Anfügung](Part_Attachment/de.md).
-
-
-</div>
+[Skizzen](Sketch/de.md) werden normalerweise bei ihrer Erstellung an eine Ebene angehängt. Auf ähnliche Weise können auch [Grundformelemente](PartDesign_CompPrimitiveAdditive/de.md) angehängt werden. Das Anhängen dieser Objekte an eine Ebene ermöglicht es, sie innerhalb des Körpers zu bewegen, indem ihre Eigenschaft {{PropertyData/de|Anfügung Versatz}} geändert wird. Weitere Informationen zu den Anfügemodi findest Du unter [Part Anhang bearbeiten](Part_EditAttachment/de.md).
 
 Ein [PartDesign Formelement](PartDesign_Feature/de.md), das nicht angehängt ist, wird mit einem roten Überlagerungssymbol neben seinem Symbol in der [Baumansicht](tree_view/de.md) angezeigt.
 
@@ -312,7 +306,7 @@ obj.addObjects([feat1, feat2])
 App.ActiveDocument.recompute()
 ```
 
-In einem Dokument, das viele Körper hat, kann der [Aktive Status](PartDesign_body/de#Aktiv_status.md) mit der Methode `setzeAktivesObjekt` der {`AktiveAnsicht`} gesetzt werden. Das erste Argument ist die feste Zeichenkette `"pdbody"`, und das zweite Argument ist das Körperobjekt, das aktiviert werden soll. 
+In einem Dokument, das viele Körper hat, kann der [Aktive Status](PartDesign_Body/de#Aktiv_status.md) mit der Methode `setzeAktivesObjekt` der {`AktiveAnsicht`} gesetzt werden. Das erste Argument ist die feste Zeichenkette `"pdbody"`, und das zweite Argument ist das Körperobjekt, das aktiviert werden soll. 
 ```python
 import FreeCAD as App
 import FreeCADGui as Gui

@@ -97,15 +97,15 @@
 
 -   Если анализ активирован, FreeCAD сам изменит текущую рабочую среду на FEM.
 -   Для статического механического анализа необходимо как минимум 5 объектов.
--   <img alt="" src=images/FEM_Analysis.png  style="width:32px;"> контейнер анализа
+-   <img alt="" src=images/FEM_Analysis.svg  style="width:32px;"> контейнер анализа
 
-1.  <img alt="" src=images/FEM_Solver.png  style="width:32px;"> решатель
-2.  <img alt="" src=images/FEM_Material.png  style="width:32px;"> материал
-3.  <img alt="" src=images/FEM_FixedConstraint.png  style="width:32px;"> фиксированные ограничения
-4.  <img alt="" src=images/FEM_ForceConstraint.png  style="width:32px;"> ограничения силы
-5.  <img alt="" src=images/FEM_Create.png  style="width:32px;"> сетка МКЭ
+1.  <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> решатель
+2.  <img alt="" src=images/FEM_MaterialSolid.svg  style="width:32px;"> материал
+3.  <img alt="" src=images/FEM_ConstraintFixed.svg  style="width:32px;"> фиксированные ограничения
+4.  <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> ограничения силы
+5.  <img alt="" src=images/FEM_FEMMesh.svg  style="width:32px;"> сетка МКЭ
 
--   Поскольку в приведённом здесь примере так же присутствуют результаты, имеется шестой объект, результаты <img alt="" src=images/FEM_ShowResult.png  style="width:16px;">.
+-   Поскольку в приведённом здесь примере так же присутствуют результаты, имеется шестой объект, результаты <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;">.
 
 
 </div>
@@ -187,7 +187,7 @@
 
 ### Изменение направления и значения нагрузки 
 
--   В [древе проекта](tree_view/ru.md) выберите объект сетки FEM <img alt="" src=images/FEM_Create.png  style="width:32px;"> и нажмите клавишу **Space**.
+-   В [древе проекта](tree_view/ru.md) выберите объект сетки FEM <img alt="" src=images/FEM_FEMMesh.svg  style="width:32px;"> и нажмите клавишу **Space**.
     -   **Результат:** Видимость сетки FEM будет отключена. Геометрическая модель останется видна.
 -   В [древе проекта](tree_view/ru.md) дважды щелкните объект ограничения силы, чтобы открыть его [панель задач](task_panel/ru.md)
 -   В окне задачи измените значение нагрузки на **500000000 N = 500 MN** (**Примечание:** единица силы в окне задачи должна быть в N)
@@ -200,7 +200,7 @@
 
 <img alt="" src=images/FEM_example01_pic05.jpg  style="width:700px;">
 
--   Включите [видимость](Std_ToggleVisibility/ru.md) сетки FEM <img alt="" src=images/FEM_Create.png  style="width:32px;">, выбрав ее в дереве и нажав клавишу **Пробел**.
+-   Включите [видимость](Std_ToggleVisibility/ru.md) сетки FEM <img alt="" src=images/FEM_FEMMesh.svg  style="width:32px;">, выбрав ее в дереве и нажав клавишу **Пробел**.
 -   Вы уже знаете, как запустить анализ и как визуализировать результаты.
 -   Деформация по оси x должна оказаться 19,05 мм.
 

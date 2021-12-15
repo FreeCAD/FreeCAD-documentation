@@ -21,15 +21,11 @@ Alors, commencez ici en tapant `App.` ou `Gui.` et voyez ce qui se passe. Une au
 
 Une autre fonctionnalité utile de l\'interpréteur est la possibilité de parcourir l\'historique des commandes et de récupérer une ligne de code que vous avez déjà tapée précédemment. Pour parcourir l\'historique des commandes, utilisez simplement **Flèche haut** ou **Flèche bas**.
 
-Si vous cliquez avec le bouton droit de la souris dans la fenêtre de l\'interpréteur, vous avez également les options classiques d\'un traitement de texte, telles que copier tout l\'histoire (utile lorsque vous voulez expérimenter votre code avant de faire votre script final), ou d\'insérer un nom de fichier avec le chemin complet.
-
-[En haut](#top.md)
+Si vous cliquez avec le bouton droit de la souris dans la fenêtre de l\'interpréteur, vous avez également les options classiques d\'un traitement de texte, telles que copier tout l\'histoire (utile lorsque vous voulez expérimenter votre code avant de faire votre script final), ou d\'insérer un nom de fichier avec le chemin complet. {{Top}}
 
 ### Aide Python 
 
-Dans le menu **Aide** de FreeCAD, vous trouverez une entrée intitulée **Documentation automatique des modules python**, qui ouvrira une fenêtre de navigateur contenant une documentation complète et générée en temps réel de tous les modules Python disponibles pour l\'interpréteur FreeCAD ; y compris les modules intégrés Python et FreeCAD, les modules installés par le système et les modules supplémentaires FreeCAD. La documentation ainsi disponible, dépend de l\'effort que chaque développeur de modules, met à documenter son code ; mais les modules Python ont la réputation d\'être assez bien documentés. Votre fenêtre FreeCAD doit rester ouverte pour que ce système de documentation fonctionne. L\'entrée **Documentation de script Python** vous donnera un lien rapide vers la section wiki [Documentation pour utilisateurs expérimentés](Power_users_hub/fr.md).
-
-[En haut](#top.md)
+Dans le menu **Aide** de FreeCAD, vous trouverez une entrée intitulée **Documentation automatique des modules python**, qui ouvrira une fenêtre de navigateur contenant une documentation complète et générée en temps réel de tous les modules Python disponibles pour l\'interpréteur FreeCAD ; y compris les modules intégrés Python et FreeCAD, les modules installés par le système et les modules supplémentaires FreeCAD. La documentation ainsi disponible, dépend de l\'effort que chaque développeur de modules, met à documenter son code ; mais les modules Python ont la réputation d\'être assez bien documentés. Votre fenêtre FreeCAD doit rester ouverte pour que ce système de documentation fonctionne. L\'entrée **Documentation de script Python** vous donnera un lien rapide vers la section wiki [Documentation pour utilisateurs expérimentés](Power_users_hub/fr.md). {{Top}}
 
 ## Modules intégrés 
 
@@ -39,9 +35,7 @@ Dans le menu **Aide** de FreeCAD, vous trouverez une entrée intitulée **Docume
 
 -   Dans le module `Gui`, vous trouverez des outils pour accéder et gérer les éléments Gui, comme les établis et leurs barres d\'outils et plus intéressant, la représentation graphique de l\'ensemble du contenu FreeCAD.
 
-Lister le contenu de ces modules n\'est pas très utile, car ces derniers se développent assez rapidement avec la croissance de FreeCAD. Mais les deux outils de navigation fournis (le navigateur de classe et l\'aide Python), devraient vous fournir à tout moment, une documentation complète et à jour.
-
-[En haut](#top.md)
+Lister le contenu de ces modules n\'est pas très utile, car ces derniers se développent assez rapidement avec la croissance de FreeCAD. Mais les deux outils de navigation fournis (le navigateur de classe et l\'aide Python), devraient vous fournir à tout moment, une documentation complète et à jour. {{Top}}
 
 ### Les objets App et Gui 
 
@@ -79,9 +73,7 @@ où `"ObjectName"` est le nom de votre objet. Vous pouvez également taper :
 myViewObject = App.ActiveDocument.ObjectName.ViewObject
 ```
 
-Si vous êtes en mode ligne de commande et n\'avez pas d\'interface graphique, la dernière ligne renverra `None`.
-
-[En haut](#top.md)
+Si vous êtes en mode ligne de commande et n\'avez pas d\'interface graphique, la dernière ligne renverra `None`. {{Top}}
 
 ### Les objets dans un document 
 
@@ -115,13 +107,12 @@ Pour accéder à la vue courante, tapez :
 myView = Gui.ActiveDocument.ActiveView
 ```
 
-[En haut](#top.md)
+
+{{Top}}
 
 ## Utilisation des modules supplémentaires 
 
-Les modules `FreeCAD` et `FreeCADGui` sont uniquement responsables de la création et de la gestion des objets dans le document FreeCAD. En fait, ils ne font rien de plus que la création ou la modification de la géométrie. En effet, cette géométrie peut être de plusieurs types et nécessite donc des modules supplémentaires, chacun étant responsable de la gestion d\'un certain type de géométrie. Par exemple, l\'_, est capable de construire et de modifier des objets maillés. De cette manière, FreeCAD est capable de gérer une grande variété de types d\'objets, qui peuvent tous coexister dans le même document et de nouveaux types d\'objets, peuvent facilement être ajoutés à l\'avenir.
-
-[En haut](#top.md)
+Les modules `FreeCAD` et `FreeCADGui` sont uniquement responsables de la création et de la gestion des objets dans le document FreeCAD. En fait, ils ne font rien de plus que la création ou la modification de la géométrie. En effet, cette géométrie peut être de plusieurs types et nécessite donc des modules supplémentaires, chacun étant responsable de la gestion d\'un certain type de géométrie. Par exemple, l\'_, est capable de construire et de modifier des objets maillés. De cette manière, FreeCAD est capable de gérer une grande variété de types d\'objets, qui peuvent tous coexister dans le même document et de nouveaux types d\'objets, peuvent facilement être ajoutés à l\'avenir. {{Top}}
 
 ### Création d\'objets 
 
@@ -158,7 +149,8 @@ cube = Part.makeBox(2, 2, 2)
 Part.show(cube)
 ```
 
-[En haut](#top.md)
+
+{{Top}}
 
 ### Modification d\'objets 
 
@@ -179,7 +171,8 @@ biggercube = Part.makeBox(5, 5, 5)
 myPart.Shape = biggercube
 ```
 
-[En haut](#top.md)
+
+{{Top}}
 
 ### Interroger les objets 
 
@@ -198,14 +191,15 @@ ou vérifier si un objet est dérivé de l\'un des objets de base (créé avec u
 print(myObj.isDerivedFrom("Part::Feature"))
 ```
 
-Maintenant, vous pouvez vraiment commencer à vous amuser avec FreeCAD ! Pour une liste complète des modules disponibles et de leurs outils, visitez la section _.
+Maintenant, vous pouvez vraiment commencer à vous amuser avec FreeCAD ! Pour une liste complète des modules disponibles et de leurs outils, visitez la section _. {{Top}}
 
-[En haut](#top.md)
+
+
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

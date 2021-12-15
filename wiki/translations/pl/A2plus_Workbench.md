@@ -1,6 +1,6 @@
-# <img alt="A2plus workbench icon" src=images/A2p_workbench.svg  style="width:64px;"> A2plus Workbench/pl
+# <img alt="Ikonka FreeCAD dla środowiska pracy A2plus" src=images/A2p_workbench.svg  style="width:64px;"> A2plus Workbench/pl
 
-## Introduction
+## Wprowadzenie
 
 
 {{TOCright}}

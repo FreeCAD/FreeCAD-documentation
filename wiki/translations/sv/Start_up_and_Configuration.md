@@ -1,6 +1,8 @@
 # Start up and Configuration/sv
 {{TOCright}}
 
+## Overview
+
 
 <div class="mw-translate-fuzzy">
 
@@ -140,7 +142,7 @@ på kommandoraden. I konsolläge, så kommer inget användargränssnitt att visa
 
 </div>
 
-To read more about console or headless mode, checkout [Headless FreeCAD](Headless_FreeCAD.md).
+To read more about console or headless mode, refer to [Headless FreeCAD](Headless_FreeCAD.md).
 
 ### Running modules, macros and scripts 
 
@@ -209,6 +211,8 @@ FreeCad itself does not honor the `HOME` environmental variable (because it dete
 ### `TMPDIR` 
 
 The default temporary directory is {{FileName|/tmp/}}. The `TMPDIR` environmental variable can be used to override the default. (*Editor: precedence?*).
+
+### Libraries
 
 
 <div class="mw-translate-fuzzy">
@@ -446,7 +450,7 @@ set FREECAD_USER_HOME=%CURRENTDIR%
 start FreeCAD.exe -u FreeCAD/user.cfg -s FreeCAD/system.cfg --write-log 
 ```
 
-[or](https://forum.freecadweb.org/viewtopic.php?f=12&t=54784&start=60#p474759) with `FREECAD_USER_DATA`
+Or with `FREECAD_USER_DATA` ([see](https://forum.freecadweb.org/viewtopic.php?f=12&t=54784&start=60#p474759)):
 
 
 ```python
@@ -454,7 +458,7 @@ set CURRENTDIR="%cd%"
 set FREECAD_USER_DATA=%CURRENTDIR%/..
 start FreeCAD.exe -u %FREECAD_USER_DATA%/user.cfg -s %FREECAD_USER_DATA%/system.cfg```
 
-with the batch on the root of the key USB
+With the batch in the root of the USB medium:
 
 
 ```python
@@ -475,7 +479,7 @@ Now double-click the batch file to start FreeCAD. ([see](https://forum.freecadwe
 </div>
 
 
- 
+
 
 _
 

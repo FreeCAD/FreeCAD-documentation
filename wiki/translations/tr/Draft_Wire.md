@@ -45,9 +45,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 1.  
     **<img src="images/_Draft_Wire.svg" width=16px> [Tel](Draft_Wire/tr.md)**düğmesine basın veya **W** ardından **I** tuşları.
 
-2.  3D görünümde bir ilk noktaya tıklayın veya bir [koordinat](Draft_Coordinates/tr.md) yazın ve **<img src="images/_Draft_AddPoint.svg" width=16px> [add point](Draft_AddPoint/tr.md)** düğmesine basın.
+2.  3D görünümde bir ilk noktaya tıklayın veya bir koordinat yazın ve **<img src="images/_Draft_AddPoint.svg" width=16px> Nokta ekle** düğmesine basın.
 
-3.  3D görünümünde ek noktalara tıklayın veya bir [ koordinat](Draft_Coordinates/tr.md) yazın ve **<img src="images/_Draft_AddPoint.svg" width=16px> [Nokta ekle](Draft_AddPoint/tr.md)** düğmesine basın.
+3.  3D görünümünde ek noktalara tıklayın veya bir koordinat yazın ve **<img src="images/_Draft_AddPoint.svg" width=16px> Nokta ekle** düğmesine basın.
 
 4.  İşlemi tamamlamak için **Esc** veya **Kapat** tuşuna basınız.
 
@@ -63,12 +63,12 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Seçenekler
 
--   Teli bitirmek için **A** veya **<img src="images/_Draft_FinishLine.png" width=12px> [Bitir](Draft_FinishLine/tr.md)** düğmesine basarak açık bırakın.
--   Teli kapatmak için **O** veya **<img src="images/_Draft_CloseLine.png" width=12px> [Kapat](Draft_CloseLine_/tr.md)** düğmesine basın, yani bir parça eklenecektir. Son noktadan ilkine bir yüz oluşturmak. Bir yüz oluşturmak için en az üç nokta gerekir.
--   Önceden yerleştirilmiş çizgi parçalarını kaldırmak için **W** veya **<img src="images/_Draft_Wipe.svg" width=12px> [Silme](Draft_Wipe/tr.md)** düğmesine basın, ancak teli düzenlemeye devam edin
+-   Teli bitirmek için **A** veya **<img src="images/_Draft_FinishLine.png" width=12px> Bitir** düğmesine basarak açık bırakın.
+-   Teli kapatmak için **O** veya **<img src="images/_Draft_CloseLine.png" width=12px> Kapat** düğmesine basın, yani bir parça eklenecektir. Son noktadan ilkine bir yüz oluşturmak. Bir yüz oluşturmak için en az üç nokta gerekir.
+-   Önceden yerleştirilmiş çizgi parçalarını kaldırmak için **W** veya **<img src="images/_Draft_Wipe.svg" width=12px> Silme** düğmesine basın, ancak teli düzenlemeye devam edin
 -   Geçerli çalışma düzlemini en son yönde ayarlamak için **U** veya **<img src="images/_Draft_SelectPlane.svg" width=12px> [Çalışma düzlemi](Draft_SelectPlane/tr.md)** ayarla düğmesine basın puan.
 -   Verilen eksendeki bir sonraki noktayı sınırlamak için bir noktadan sonra **X**, **Y** veya **Z** tuşlarına basın.
--   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında **Enter** tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda **<img src="images/_Draft_AddPoint.svg" width=16px> [Nokta ekle](Draft_AddPoint/tr.md)** düğmesine basabilirsiniz.
+-   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında **Enter** tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda **<img src="images/_Draft_AddPoint.svg" width=16px> Nokta ekle** düğmesine basabilirsiniz.
 -   **Göreceli** moduna geçmek için **R** tuşuna basın veya onay kutusunu tıklayın. Göreceli mod açıksa, bir sonraki noktanın koordinatları sonuncusuna göre değişir; değilse, kesindir, kökenlerinden alınır (0,0,0).
 -   **Devam**moduna geçmek için **T** tuşuna basın veya onay kutusunu tıklayın. Devam modu açıksa, Tel aracı teli bitirdikten sonra yeniden başlatılır ve araç düğmesine tekrar basmadan bir tane daha çizmenize olanak sağlar.
 -   **Dolu** moduna geçmek için **L** tuşuna basın veya onay kutusunu tıklayın. Dolu modu açıksa, kapalı bir tel dolgulu bir yüz oluşturur ({{PropertyData/tr|Make Face}} `True`); değilse, kapalı tel bir yüz oluşturmaz ({{PropertyData/tr|Make Face}} `False`).
@@ -78,7 +78,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   [Yakalama](Draft_Snap/tr.md) noktanızı mesafeden bağımsız olarak, en yakın çeki konumuna yönlendirmek için çizim yaparken **Ctrl** tuşunu basılı tutun.
 -   Bir sonraki noktanızı yatay veya dikey olarak son noktaya göre [Kısıtlama](Draft_Constrain/tr.md) çizerken **Shift** tuşunu basılı tutun.
--   Son noktayı geri almak için **Ctrl** **Z** tuşuna basınız veya {{button|<img src="images/_Draft_UndoLine.png" width=12px> [Geri al](Draft_UndoLine/tr.md)}} düğmesine basınız. .
+-   Son noktayı geri almak için **Ctrl** **Z** tuşuna basınız veya {{button|<img src="images/_Draft_UndoLine.svg" width=16px> Geri al}} düğmesine basınız. .
 -   Geçerli komutu iptal etmek için **Esc** veya {{button|Kapat}} tuşuna basınız; Yerleştirilen çizgi bölümleri kalacaktır.
 
 
@@ -100,7 +100,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 <div class="mw-translate-fuzzy">
 
-Tel, ağaç görünümündeki öğeye çift tıklayarak veya {{Button | <img src="images/_Draft_Edit.svg_" width= 16px> [Düzenle](Draft_Edit/tr.md)}} düğmesine basılarak düzenlenebilir. Ardından noktaları yeni bir konuma taşıyabilir veya {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [Nokta ekle](Draft_AddPoint/tr_.md)}} veya {{Button | <img src="images/_Draft_DelPoint.svg_" width= 16px> öğesini tıklayabilirsiniz.[ Nokta kaldır](Draft_DelPoint/tr_.md)}} ve ardından noktaları eklemek veya kaldırmak için teli tıklatın.
+Tel, ağaç görünümündeki öğeye çift tıklayarak veya {{Button | <img src="images/_Draft_Edit.svg_" width= 16px> [Düzenle](Draft_Edit/tr.md)}} düğmesine basılarak düzenlenebilir. Ardından noktaları yeni bir konuma taşıyabilir veya {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} veya {{Button | <img src="images/_Draft_DelPoint.svg_" width= 16px> Nokta kaldır}} ve ardından noktaları eklemek veya kaldırmak için teli tıklatın.
 
 
 </div>
@@ -168,7 +168,7 @@ A Draft Wire object is derived from a [Part Part2DObject](Part_Part2DObject.md) 
 
 -    {{PropertyView/tr|Pattern}}: kapalı telin yüzünü doldurmak için bir [Desen](Draft_Pattern/tr.md) belirtir. Bu özellik yalnızca {{PropertyData/tr|Make Face}} `True` ise ve {{PropertyView/tr|Display Mode}} \"Düz Çizgiler\" ise çalışır.
 
--    {{PropertyView/tr|Pattern Size}}: [Desen](Draft_Desen/tr.md) \'in boyutunu belirtir.
+-    {{PropertyView/tr|Pattern Size}}: [Desen](Draft_Pattern/tr.md) \'in boyutunu belirtir.
 
 
 </div>

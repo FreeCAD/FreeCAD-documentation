@@ -51,7 +51,7 @@ Cette propriété a été introduite dans la version 0.19. Il s\'agit d\'une cha
 
 **Voir aussi :**
 
-[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](scripted_objects/fr.md).
+[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](Scripted_objects/fr.md).
 
 Tout objet du logiciel est créé en interne avec la méthode `addObject()` du document. La majorité des objets 2D et 3D que l\'utilisateur verra dans la [vue 3D](3D_view/fr.md) sont dérivés d\'un [Part Feature](Part_Feature/fr.md). Dans l\'exemple suivant, l\'objet créé est une [Part Box](Part_Box/fr.md).
 

@@ -1,6 +1,14 @@
-# TechDraw 3PtAngleDimension/it
 ---
-- GuiCommand:/it   Name:TechDraw Dimension Angle3Pt   Name/it:Angolo da 3 punti   Workbenches:[MenuLocation:TechDraw → Angolo da 3 punti   Shortcut:   SeeAlso:[[TechDraw Dimension Angle/it   Angolo](TechDraw_Workbench/it___TechDraw]].md)|Version:0.18---
+- GuiCommand:/it
+   Name:TechDraw Dimension Angle3Pt
+   Name/it:Angolo da 3 punti
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   MenuLocation:TechDraw → Angolo da 3 punti
+   Shortcut:
+   SeeAlso:[Angolo](TechDraw_AngleDimension/it.md)
+---
+
+# TechDraw 3PtAngleDimension/it
 
 
 </div>
@@ -10,8 +18,8 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:24px;"> Angolo da 3 punti aggiunge una dimensione angolare a una vista. La dimensione può essere specificata selezionando tre vertici su una vista. 
-**Notare che il secondo dei tre vertici è l\'apice dell\'angolo**. Inizialmente viene indicato il valore dell\'angolo proiettato (vale a dire, come mostrato nel disegno), ma questo valore può essere sostituito con quello dell\'angolo 3D effettivo utilizzando lo strumento **<img src="images/TechDraw_Dimension_Link.svg" width=16px> [Link alla dimensione](TechDraw_Dimension_Link/it.md)**
+Lo strumento <img alt="" src=images/TechDraw_3PtAngleDimension.svg  style="width:24px;"> Angolo da 3 punti aggiunge una dimensione angolare a una vista. La dimensione può essere specificata selezionando tre vertici su una vista. 
+**Notare che il secondo dei tre vertici è l\'apice dell\'angolo**. Inizialmente viene indicato il valore dell\'angolo proiettato (vale a dire, come mostrato nel disegno), ma questo valore può essere sostituito con quello dell\'angolo 3D effettivo utilizzando lo strumento **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Link alla dimensione](TechDraw_LinkDimension/it.md)**
 
 
 </div>
@@ -25,7 +33,7 @@ Lo strumento <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="widt
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare i punti o bordi che definiscono la misura.
-2.  Premere il pulsante **<img src="images/TechDraw_Dimension_Angle3Pt.png" width=16px> [Angolo da 3 punti](TechDraw_Dimension_Angle3Pt/it.md)
+2.  Premere il pulsante **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> [Angolo da 3 punti](TechDraw_3PtAngleDimension/it.md)
 **
 3.  Alla Vista viene aggiunta una dimensione. La dimensione può essere trascinata nella posizione desiderata.
 
@@ -39,7 +47,7 @@ To change the properties of a dimension object either double-clicking it in the 
 
 <div class="mw-translate-fuzzy">
 
-Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologica\". Per maggiori informazioni vedere le informazioni nello strumento <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:16px;"> [Lunghezza](TechDraw_Dimension_Length/it.md).
+Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologica\". Per maggiori informazioni vedere le informazioni nello strumento <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:16px;"> [Lunghezza](TechDraw_LengthDimension/it.md).
 
 
 </div>
@@ -49,7 +57,7 @@ Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologic
 
 <div class="mw-translate-fuzzy">
 
-Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_Dimension_Length/it.md)
+Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_LengthDimension/it.md)
 
 
 </div>

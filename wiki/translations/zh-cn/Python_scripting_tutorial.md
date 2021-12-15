@@ -1,4 +1,15 @@
 # Python scripting tutorial/zh-cn
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/zh-cn
+|[Introduction to Python](Introduction_to_Python/zh-cn.md)
+|[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/zh-cn.md)}}
+
+
+</div>
+
+
 {{TOCright}}
 
 ## Introduction
@@ -91,7 +102,8 @@ There are two ways to write Python code in FreeCAD. In the [Python console](Pyth
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -212,7 +224,8 @@ box.Height = 5
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -253,9 +266,7 @@ otherpla = FreeCAD.Placement()
 box.Placement = otherpla
 ```
 
-现在，在我们进一步讨论之前，您一定了解了上述重要概念。
-
-[top](#top.md)
+现在，在我们进一步讨论之前，您一定了解了上述重要概念。 {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -305,7 +316,8 @@ vo.show()
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -348,9 +360,7 @@ import Part
 Part.
 ```
 
-我们将在后面更多地讨论零件模块。
-
-[top](#top.md)
+我们将在后面更多地讨论零件模块。 {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -398,9 +408,7 @@ doc.recompute()
 
 </div>
 
-[阅读更多关于网格脚本的文档\...](Mesh_Scripting.md)
-
-[top](#top.md)
+[阅读更多关于网格脚本的文档\...](Mesh_Scripting.md) {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -465,7 +473,8 @@ Part.show(myshape)
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -496,7 +505,8 @@ Draft.move(rec, mvec)
 Draft.move(box, mvec)
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -532,9 +542,7 @@ Qt确实是一款非常强大的界面系统，您可以利用它实现非常复
 
 </div>
 
-[在此阅读关于PySide的更多内容\...](PySide.md)
-
-[top](#top.md)
+[在此阅读关于PySide的更多内容\...](PySide.md) {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -556,12 +564,24 @@ Now that you have a good understanding of the basics, where are we going to keep
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/zh-cn
+|[Introduction to Python](Introduction_to_Python/zh-cn.md)
+|[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/zh-cn.md)}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

@@ -25,7 +25,13 @@ Per impostazione predefinita, la GUI viene visualizzata in alto a destra dello s
 
 ## Codice
 
+
+<div class="mw-translate-fuzzy">
+
 L\'ultima versione della macro è disponibile all\'indirizzo _.
+
+
+</div>
 
 ToolBar Icon ![](images/Macro_View_Rotation.png )
 

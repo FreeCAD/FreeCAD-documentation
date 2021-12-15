@@ -96,7 +96,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Part_Attachment.svg  style="width:32px;"> [Attachment (Прикрепить)](Part_Attachment/ru.md): Прикрепляет расположение одного объекта относительно другого.
+-   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Attachment (Прикрепить)](Part_EditAttachment/ru.md): Прикрепляет расположение одного объекта относительно другого.
 
 
 </div>

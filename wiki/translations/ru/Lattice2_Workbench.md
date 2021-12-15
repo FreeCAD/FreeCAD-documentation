@@ -10,7 +10,13 @@
 
 {{TOCright}}
 
+
+<div class="mw-translate-fuzzy">
+
 Верстак Lattice2 это [внешний верстак](external_workbenches/ru.md) FreeCADа, который служит для работы с размещением и матрицами размещений. Это похоже на верстак сборок, но с упором на массивы. Ограничений и связей нет, здесь только матрицы размещений, которые могут создаваться, комбинироваться, преобразовываться, накладываться и заполняться фигурами.
+
+
+</div>
 
 Когда-то думали, как создать угломер с помощью FreeCAD? Это задача для данного верстака (включая разметку делений). Разнесённые сборки так же могут быть созданы с помощью этого верстака.
 
@@ -115,11 +121,17 @@ Other
 
 ## Установка
 
-**Prerequisites** Lattice2 WB requires FreeCAD \>= v0.16.5155.
+**Prerequisites** Lattice2 Workbench requires FreeCAD \>= v0.16.5155.
 
 ### Автоматическая установка 
 
-Начиная с v0.17 можно использовать для установки <img alt="" src=images/Lattice2_Lattice2.svg  style="width:24px;"> верстака Lattice2 <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager/ru.md). Используйте {MenuCommand\|инструменты → Addon Manager}}
+
+<div class="mw-translate-fuzzy">
+
+Начиная с v0.17 можно использовать для установки <img alt="" src=images/Lattice2_Lattice2.svg  style="width:24px;"> верстака Lattice2 <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/ru.md). Используйте {MenuCommand\|инструменты → Addon Manager}}
+
+
+</div>
 
 ### Ручная установка 
 
@@ -147,10 +159,16 @@ After you install the workbench, it should appear at the bottom of list of workb
 
 ## Other useful links 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Lattice aka Lattice1 Workbench (obsolete)](https://github.com/DeepSOIC/Lattice)
 -   [Внешние верстаки](External_Workbenches/ru.md): Список верстаков FreeCAD.
 -   [Рецепты макросов](Macros_recipes/ru.md)
 -   [Портал сообщества FreeCAD](FreeCAD_Community_Portal/ru.md)
+
+
+</div>
 
 
 

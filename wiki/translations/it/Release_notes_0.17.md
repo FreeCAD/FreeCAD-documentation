@@ -25,7 +25,15 @@ Sono trascorsi quasi due anni dalla precedente versione 0.16, ma il team di Free
 
 L\'ambiente **PartDesign** è stato completamente revisionato. Ora c\'è un nuovo contenitore chiamato Corpo che contiene una catena di funzioni e solleva dalla necessità di mappare gli schizzi su delle facce planari. Ci sono dei nuovi strumenti per creare le geometrie datum (riferimento) come punti, assi e piani che rendono PartDesign molto più versatile. ![](images/PartDesign_Body_tree.png )
 
-Il nuovo [Addon manager](AddonManager/it.md) disponibile dal menu Strumenti (che era precedentemente disponibile come [addons installatore di macro](https://github.com/FreeCAD/FreeCAD-addons)) rende l\'installazione e l\'aggiornamento di moduli e macro aggiuntivi molto più semplice e standardizzato per Windows, Mac OS X e Linux. <img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
+
+<div class="mw-translate-fuzzy">
+
+Il nuovo [Addon manager](Std_AddonMgr/it.md) disponibile dal menu Strumenti (che era precedentemente disponibile come [addons installatore di macro](https://github.com/FreeCAD/FreeCAD-addons)) rende l\'installazione e l\'aggiornamento di moduli e macro aggiuntivi molto più semplice e standardizzato per Windows, Mac OS X e Linux.
+
+
+</div>
+
+<img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
 
 **Sketcher** ora supporta la creazione delle B-spline con molti modi per controllare le curve e visualizzare le informazioni sulla curva. <img alt="" src=images/FC017_Sketcher_B-spline_01.png  style="width:300px;">
 
@@ -190,7 +198,7 @@ Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce
 
 <div class="mw-translate-fuzzy">
 
--   La nuova utility [Associazione](Part_Attachment/it.md) accessibile dal menu *Part → Attachment...* può essere usata per collegare parametricamente la maggior parte dei tipi di oggetti ad altre geometrie.
+-   La nuova utility [Associazione](Part_EditAttachment/it.md) accessibile dal menu *Part → Attachment...* può essere usata per collegare parametricamente la maggior parte dei tipi di oggetti ad altre geometrie.
 
 
 </div>
@@ -213,7 +221,13 @@ Il workbench PartDesign ha ricevuto enormi cambiamenti, frutto degli sforzi cong
 
 Il workbench Path è stato ampiamente revisionato nella versione 0.17. La revisione ha visto la rimozione di tutti i vecchi codici HeeksCNC e la sostituzione del wrapper libarea python con il nuovo modulo Path-Area. Di conseguenza le operazioni sono diventate molto più potenti, più veloci, con una base di codice semplificata.
 
--   Il supporto per le operazioni 2.5D è completo e include [contour](Path_Contour/it.md), [face-milling](Path_MillFace/it.md), [pocketing](Path_Pocket_Shape/it.md), [profiling](Path_ProfileFace/it.md), e [drilling](Path_Drilling/it.md)
+
+<div class="mw-translate-fuzzy">
+
+-   Il supporto per le operazioni 2.5D è completo e include [contour](Path_Profile/it.md), [face-milling](Path_MillFace/it.md), [pocketing](Path_Pocket_Shape/it.md), [profiling](Path_Profile/it.md), e [drilling](Path_Drilling/it.md)
+
+
+</div>
 
 -   Supporto limitato per le operazioni [3D pocketing](Path_Pocket_3D/it.md).
 

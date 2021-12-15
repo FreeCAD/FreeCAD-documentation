@@ -125,9 +125,12 @@ You can manually install extensions, however, it is much simpler to just use the
 -   [How to install additional workbenches](How_to_install_additional_workbenches.md)
 
 
+{{docnav/cs|[Modul obrázků](Image_Workbench/cs.md)|[Úvod do Pythonu](Introduction_to_Python/cs.md)}}
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _ _
 

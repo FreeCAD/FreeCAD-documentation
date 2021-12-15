@@ -4,7 +4,7 @@
    Name/pl:Część: Wyciągnij szkic
    MenuLocation:Część → Wyciągnięcie
    Workbenches:[Środowisko pracy Część](Part_Workbench/pl.md)
-   SeeAlso:[[Przytnij]]
+   SeeAlso:[Draft Trimex](Draft_Trimex.md)
 ---
 
 # Part Extrude/pl

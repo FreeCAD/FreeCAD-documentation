@@ -71,7 +71,13 @@ Sobald FreeCAD installiert ist, möchtest du es vielleicht öffnen und einige Ei
 
 ## Installieren zusätzlicher Inhalte 
 
-Da das FreeCAD Projekt und seine Gemeinschaft schnell wächst, und auch weil es einfach zu erweitern ist, beginnen externe Beiträge und Nebenprojekte von Gemeinschaftsmitgliedern und anderen Enthusiasten überall im Internet zu erscheinen. Die meisten dieser externen Projekte sind Arbeitsbereiche oder Makros, und können einfach direkt aus FreeCAD heraus über den [Addon Manager](AddonManager/de.md) im Menü **Werkzeuge** installiert werden. Der Addon Manager erlaubt es z.B. viele interessante Komponenten zu installieren:
+
+<div class="mw-translate-fuzzy">
+
+Da das FreeCAD Projekt und seine Gemeinschaft schnell wächst, und auch weil es einfach zu erweitern ist, beginnen externe Beiträge und Nebenprojekte von Gemeinschaftsmitgliedern und anderen Enthusiasten überall im Internet zu erscheinen. Die meisten dieser externen Projekte sind Arbeitsbereiche oder Makros, und können einfach direkt aus FreeCAD heraus über den [Addon Manager](Std_AddonMgr/de.md) im Menü **Werkzeuge** installiert werden. Der Addon Manager erlaubt es z.B. viele interessante Komponenten zu installieren:
+
+
+</div>
 
 1.  Eine [Teilebibliothek](https://github.com/FreeCAD/FreeCAD-library), die alle Arten von nützlichen Modellen oder Modellteilen enthält, die von FreeCAD Anwendern erstellt wurden und in deinen Projekten frei verwendet werden kann. Die Bibliothek kann direkt aus deiner FreeCAD Installation heraus verwendet und aufgerufen werden.
 2.  [Zusätzliche Arbeitsbereiche](https://github.com/FreeCAD/FreeCAD-addons), die die Funktionalität von FreeCAD für bestimmte Aufgaben erweitern, z.B. für die Animation von Teilen deiner Modelle oder Bereichen, wie z.B. Blechbiegen oder BIM. Weitere Erläuterungen zu den einzelnen Arbeitsbereichen und den darin enthaltenen Werkzeugen findest du auf jeder Addon Seite, die du durch einen Klick auf den entsprechenden Link im Addon Manager aufrufen kannst.

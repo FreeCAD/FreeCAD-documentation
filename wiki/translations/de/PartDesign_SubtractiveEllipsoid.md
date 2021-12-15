@@ -24,7 +24,7 @@ Fügt ein abzuziehendes Ellipsoid in den aktiven Körper (Body) ein. Die Form wi
 <div class="mw-translate-fuzzy">
 
 1.  Auf die Schaltfläche **<img src="images/PartDesign_SubtractiveEllipsoid.svg" width=24px> '''Abzuziehendes Ellipsoid'''** klicken. **Anmerkung**: Abzuziehendes Ellipsoid ist Teil des benannten Symbols *Erzeuge einen abzuziehenden Grundkörper*. Direkt nach dem Start von FreeCAD wird das Symbol von „Abzuziehender Quader" in der Werkzeugleiste angezeigt. Wenn ein anderer Grundkörper zu sehen ist, kann durch Klicken auf den Pfeil neben dem Symbol das abzuziehende Ellipsoid in dem aufklappenden Menü ausgewählt werden.
-2.  Die Parameter des Grundkörpers und über [Attachment](Part_Attachment/de.md) den räumlichen Bezug einstellen.
+2.  Die Parameter des Grundkörpers und über [Attachment](Part_EditAttachment/de.md) den räumlichen Bezug einstellen.
 3.  Mit Klick auf **OK** bestätigen.
 4.  Das Feature (Formelement) Ellipsoid erscheint unterhalb des aktiven Körpers (Body).
 
@@ -43,7 +43,7 @@ Das Ellipsoid kann auf zwei verschieden Wege bearbeitet werden:
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_Attachment/de.md).
+-    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_EditAttachment/de.md).
 
 -    {{PropertyData/de|Label}}: Die vom Benutzer vergebene Bezeichung für das Ellipsoid-Objekt. Dies kann nach Bedarf geändert werden.
 

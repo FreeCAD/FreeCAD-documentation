@@ -28,7 +28,7 @@ L\'outil Ligne de référence ajoute une ligne à une vue. D\'autres objets d\'a
     2.  ajoutez d\'autres points pour définir davantage de segments de ligne.
 6.  Pour terminer la création, appuyez sur **OK** pour fermer la boîte de dialogue.
 
-**Remarque:** Si vous n\'avez défini aucun point lors de la création de la ligne de rappel, une ligne courte sera placée au centre de la vue.
+**Remarque:** Si vous n\'avez défini aucun point lors de la création de la ligne de référence, une ligne courte sera placée au centre de la vue.
 
 ### Édition
 
@@ -39,25 +39,25 @@ L\'outil Ligne de référence ajoute une ligne à une vue. D\'autres objets d\'a
 
 ## Propriétés
 
--    {{PropertyData/fr|X, Y}}: Le point auquel la ligne de référence est connectée à la vue.
+-    **X, Y**: point auquel la ligne de référence est connectée à la vue.
 
--    {{PropertyData/fr|Leader Parent}}: la vue à laquelle la ligne est attachée.
+-    **Leader Parent**: vue à laquelle la ligne est attachée.
 
--    {{PropertyData/fr|Start Symbol}}: Le symbole au début: <img alt="" src=images/Arrownone.svg  style="width:20px;"> Aucun, <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Flèche pleine, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Flèche ouverte, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Coché, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Point, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Cercle ouvert, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Fourche, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Triangle rempli
+-    **Start Symbol**: symbole au début: <img alt="" src=images/Arrownone.svg  style="width:20px;"> Aucun, <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Flèche pleine, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Flèche ouverte, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Coché, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Point, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Cercle ouvert, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Fourche, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Triangle rempli
 
--    {{PropertyData/fr|End Symbol}}: le symbole de fin de ligne à l\'autre extrémité.
+-    **End Symbol**: symbole de fin de ligne à l\'autre extrémité.
 
--    {{PropertyData/fr|WayPoints}}: noeuds sur la ligne de rappel.
+-    **WayPoints**: noeuds sur la ligne de rappel.
 
--    {{PropertyData/fr|Scalable}}: la ligne de rappel évolue avec LeaderLine Parent.
+-    **Scalable**: mise en échelle de la ligne de référence avec le parent de la ligne de référence.
 
--    {{PropertyData/fr|Auto Horizontal}}: force le dernier segment de ligne de rappel à être horizontal.
+-    **Auto Horizontal**: force le dernier segment de la ligne de référence à être horizontal.
 
--    {{PropertyView/fr|Color}}: Couleur de stylo pour la ligne de rappel.
+-    **Color**: couleur de stylo pour la ligne de référence.
 
--    {{PropertyView/fr|Line Style}}: 0 Pas de ligne, 1 <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continu, 2 <img alt="" src=images/Dash-line.svg  style="width:20px;"> Tiret, 3 <img alt="" src=images/Dot-line.svg  style="width:20px;"> Point , 4 <img alt="" src=images/DashDot-line.svg  style="width:20px;"> Tiret Point, 5 <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> Tiret Point Point
+-    **Line Style**: 0 Pas de ligne, 1 <img alt="" src=images/Continuous-line.svg  style="width:20px;"> Continu, 2 <img alt="" src=images/Dash-line.svg  style="width:20px;"> Tiret, 3 <img alt="" src=images/Dot-line.svg  style="width:20px;"> Point , 4 <img alt="" src=images/DashDot-line.svg  style="width:20px;"> Tiret Point, 5 <img alt="" src=images/DashDotDot-line.svg  style="width:20px;"> Tiret Point Point
 
--    {{PropertyView/fr|Line Width}}: largeur de la ligne de rappel.
+-    **Line Width**: largeur de la ligne de référence.
 
 ## Script
 
@@ -66,7 +66,7 @@ L\'outil Ligne de référence ajoute une ligne à une vue. D\'autres objets d\'a
 
 [TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Ligne de rappel peut être utilisée dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante:
+L\'outil Ligne de référence peut être utilisée dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante:
 
 
 ```python
@@ -84,10 +84,10 @@ leaderObj.Y = 5
 
 ## Remarques
 
--   Vous pouvez modifier une ligne de rappel en double-cliquant dessus dans l\'arborescence. Le double-clic dans la zone graphique n\'est pas encore pris en charge. Le ou les segments de ligne peuvent être modifiés en appuyant sur **Edit points**. Pour quitter la modification des points, appuyez sur **Save changes** ou **Discard changes**.
--   Si vous n\'avez défini aucun point lors de la création de la ligne de rappel, une ligne courte sera placée au centre de la vue. Vous ne pourrez plus ajouter ultérieurement de points.
+-   Vous pouvez modifier une Ligne de référence en double-cliquant dessus dans l\'arborescence. Le double-clic dans la zone graphique n\'est pas encore pris en charge. Le ou les segments de la ligne peuvent être modifiés en appuyant sur **Edit points**. Pour quitter la modification des points, appuyez sur **Save changes** ou **Discard changes**.
+-   Si vous n\'avez défini aucun point lors de la création de la Ligne de référence, une ligne courte sera placée au centre de la vue. Vous ne pourrez plus ajouter ultérieurement de points.
 -   Par défaut, l\'option [TechDraw Préférences](TechDraw_Preferences/fr.md) **Ligne de référence automatique horizontale** est activée. Par conséquent, le dernier segment de ligne sera horizontal. Donc, si vous n\'avez qu\'un seul segment, vous obtenez une ligne horizontale, peu importe où vous avez choisi le deuxième point.
--   Vous pouvez désactiver la fonction horizontale automatique pour les lignes de rappel existantes en modifiant la propriété {{PropertyData/fr|Auto Horizontal}}.
+-   Vous pouvez désactiver la fonction horizontale automatique pour les lignes de référence existantes en modifiant la propriété {{PropertyData/fr|Auto Horizontal}}.
 
 
 

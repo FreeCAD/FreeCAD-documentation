@@ -62,7 +62,7 @@ Jest jeszcze jeden spis treści dla _.
     -   [Ustawienia importu-eksportu](Import_Export_Preferences/pl.md)
     -   [Uruchomienie i konfiguracja](Start_up_and_Configuration/pl.md)
 
--   Skrypty w Pythonie
+-   [Skrypty w środowisku Python](Scripting_and_macros/pl.md)
     -   [Makrodefinicje](Macros/pl.md)
     -   [Tworzenie skryptów](Scripts/pl.md)
     -   [Wprowadzenie do środowiska Python](Introduction_to_Python/pl.md)

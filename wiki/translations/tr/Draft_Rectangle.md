@@ -51,9 +51,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 1.  
     {{Button | <img src="images/_Draft_Rectangle.png_" width= 16px> [Dikdörtgen](Draft_Rectangle/tr.md)}}düğmesine basın veya {{KEY | R}} ardından {{KEY | E}} tuşları.
 
-2.  3D görünümde bir ilk köşe noktasını tıklayın veya bir [ koordinat](Draft_Coordinates/tr.md) yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [ Nokta ekle](Draft_AddPoint/tr_.md)}} düğmesine basın .
+2.  3D görünümde bir ilk köşe noktasını tıklayın veya bir koordinat yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} düğmesine basın .
 
-3.  3D görünümünde birincinin karşısındaki başka bir noktaya tıklayın veya bir [ koordinat](Draft_Coordinates/tr.md) yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [ Nokta ekle](Draft_AddPoint/tr_.md)}} tuşuna basın.
+3.  3D görünümünde birincinin karşısındaki başka bir noktaya tıklayın veya bir koordinat yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} tuşuna basın.
 
 :   İkinci nokta, X, Y veya Z eksenleriyle sınırlandırılmamalıdır, aksi takdirde elde edilen dikdörtgen yanlış biçimlendirilir.
 
@@ -69,7 +69,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Seçenekler
 
--   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında {{KEY | Enter}} tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [ Nokta ekle](Draft_AddPoint/tr_.md)}} düğmesine basabilirsiniz.
+-   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında {{KEY | Enter}} tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} düğmesine basabilirsiniz.
 -   **Göreceli** moduna geçmek için {{KEY | R}} tuşuna basın veya onay kutusunu tıklayın. Göreceli mod açıksa, ikinci noktanın koordinatları birincisine göredir; değilse, kesindir, kökenlerinden alınır (0,0,0).
 -   **Devam** moduna geçmek için {{KEY | T}} tuşuna basın veya onay kutusunu tıklayın. Devam modu açıksa, ikinci noktayı verdikten sonra Dikdörtgen aracı yeniden başlatılır, böylece araç düğmesine tekrar basmadan başka bir dikdörtgen çizebilirsiniz.
 -   **Dolu** moduna geçmek için {{KEY | L}} tuşuna basın veya onay kutusunu tıklayın. Dolu modu açıksa, dikdörtgen dolgulu bir yüz oluşturur ({{PropertyData | Make Face}} `True`); değilse, dikdörtgen bir yüz oluşturmaz ({{PropertyData | Make Face}} `False`).

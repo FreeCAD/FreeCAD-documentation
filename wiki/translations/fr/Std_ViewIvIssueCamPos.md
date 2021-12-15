@@ -4,7 +4,7 @@
    Name/fr:Std Position de la caméra
    MenuLocation:Affichage → Stéréo → Récupérer la position de la caméra
    Workbenches:Tous
-   Workbenches:[Std Figer l'affichage](Std_FreezeViews/fr.md)
+   SeeAlso:[Std Figer l'affichage](Std_FreezeViews/fr.md)
 ---
 
 # Std ViewIvIssueCamPos/fr

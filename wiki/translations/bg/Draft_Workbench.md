@@ -68,7 +68,7 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [ShapeString](Draft_ShapeString.md): creates a compound shape that represents a text string.
 
--   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the faces of a selected object. <small>(v0.20)</small> 
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the planar faces of a selected object. <small>(v0.20)</small> 
 
 ## Annotation
 
@@ -170,7 +170,7 @@ The Draft Snap toolbar allows selecting the active snap options. The buttons bel
 
 -   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Snap Endpoint](Draft_Snap_Endpoint.md): snaps to the endpoints of edges.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of straight and circular edges.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of edges.
 
 -   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ and [Arch BuildingParts](Arch_BuildingPart.md).
 
@@ -254,9 +254,9 @@ For a [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft Cub
 
 For a [Draft LayerContainer](Draft_Layer.md) these additional options are available:
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> Merge layer duplicates: this option currently does not work.
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Merge layer duplicates](Draft_Layer#Layer_container_options.md): merges all layers with the same base label. This does not work in FreeCAD version 0.19.
 
--   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer.md): adds a new layer to the current document.
+-   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer#Layer_container_options.md): adds a new layer to the current document.
 
 ### Layer options 
 
@@ -303,7 +303,7 @@ These commands are obsolete but still available:
 The Draft Workbench provides FreeCAD with importers and exporters for several file formats. These are used by the [Std Import](Std_Import.md) and [Std Export](Std_Export.md) commands.
 
 -   _.
--   _ utility is installed. See also [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md).
+-   _.
 -   [Scalable Vector Graphics .SVG](Draft_SVG.md): imports and exports [Scalable Vector Graphics](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) files.
 -   [Open Cad format .OCA](Draft_OCA.md): imports and exports [OCA/GCAD](http://groups.google.com/group/open_cad_format) files.
 -   [Airfoil Data Format .DAT](Draft_DAT.md): imports DAT files describing Airfoil profiles.

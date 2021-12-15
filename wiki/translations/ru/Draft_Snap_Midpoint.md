@@ -25,6 +25,8 @@
 
 </div>
 
+In FreeCAD version 0.19 this snap option only works for straight and circular edges.
+
 ![](images/Draft_Snap_Midpoint_example.png ) 
 *Snapping the second point of a line to the midpoint of an edge*
 

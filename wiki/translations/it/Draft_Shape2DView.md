@@ -23,7 +23,7 @@ Questo strumento produce una proiezione 2D da un oggetto solido 3D selezionato c
 
 <div class="mw-translate-fuzzy">
 
-La proiezione risultante è un oggetto Draft e viene posizionata nella vista 3D. Questo oggetto può essere visualizzato in una pagina di [TechDraw](TechDraw_Workbench/it.md), usando lo strumento [Nuova vista di Draft](TechDraw_NewDraft/it.md). In alternativa, TechDraw ha i suoi propri strumenti per creare delle viste proiettate, gli strumenti **<img src="images/TechDraw_View.svg" width=16px> [Vista](TechDraw_View/it.md)** e **<img src="images/TechDraw_NewProjGroup.svg" width=16px> [Gruppo di proiezioni](TechDraw_NewProjGroup/it.md)**; però, questi strumenti sono pensati per preparare i disegni tecnici, quindi creano le viste solo nella pagina di disegno e non nella vista 3D.
+La proiezione risultante è un oggetto Draft e viene posizionata nella vista 3D. Questo oggetto può essere visualizzato in una pagina di [TechDraw](TechDraw_Workbench/it.md), usando lo strumento [Nuova vista di Draft](TechDraw_DraftView/it.md). In alternativa, TechDraw ha i suoi propri strumenti per creare delle viste proiettate. Ma questi creano proiezioni che vengono visualizzate solo sulla pagina di disegno e non nella [3D view](3D_view.md).
 
 
 </div>
@@ -60,7 +60,7 @@ Drawings with different linewidths for viewed and cut lines can easily be produc
 
 ## Proprietà
 
-See also: [Property editor](property_editor.md).
+See also: [Property editor](Property_editor.md).
 
 A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 
@@ -178,15 +178,6 @@ shape3.ProjectionMode = "Individual Faces"
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Shape2DView/it

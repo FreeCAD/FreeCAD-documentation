@@ -127,7 +127,7 @@ Algoritmii din spatele instrumentelor de conectare sunt destul de simple, iar î
 
 ### Notă
 
--   Dacă după pasul 1, obiectul rămâne într-o singură bucată, rezultatul Cutout va fi echivalent cu [ boolean cut](Cut_Cut.md) al Base with Tool.
+-   Dacă după pasul 1, obiectul rămâne într-o singură bucată, rezultatul Cutout va fi echivalent cu [boolean cut](Part_Cut.md) al Base with Tool.
 -   Now, the tool will produce unexpected result, if a compound is supplied as Base. This may be changed in the future.
 -   Because the largest piece is determined by comparing volumes of pieces, the tool can only work with solids. This may be changed in the future.
 

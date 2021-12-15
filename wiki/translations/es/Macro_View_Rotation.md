@@ -23,7 +23,13 @@ La GUI se muestra en la parte superior derecha de la pantalla, este comportamien
 
 ## Script
 
+
+<div class="mw-translate-fuzzy">
+
 La última versión de la macro se encuentra en _.
+
+
+</div>
 
 ToolBar Icon ![](images/Macro_View_Rotation.png )
 

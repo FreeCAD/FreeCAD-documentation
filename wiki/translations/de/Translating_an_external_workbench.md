@@ -208,7 +208,7 @@ Yorik maintains a convenience script for the BIM workbench, that can gather, upl
 
 ## Verwandte Seiten 
 
--   [Externe Arbeitsbereiche](External_Workbenches/de.md)
+-   [Externe Arbeitsbereiche](External_workbenches/de.md)
 -   [Lokalisierung](Localisation/de.md)
 -   Für weitere Informationen stelle deine Anfragen hier [Übersetzen externer Arbeitsbereiche](https://forum.freecadweb.org/viewtopic.php?f=10&t=36413)
 

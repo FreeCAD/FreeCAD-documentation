@@ -41,10 +41,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 -   Markera punkter i ett tomt område i 3d vyn, eller på ett existerande objekt.
 -   Nedtryckning av **CTRL** kommer att [snäppa](Draft_Snap/sv.md) din punkt till tillgängliga snäpp-punkter.
 -   Nedtryckning av **SKIFT** kommer att [begränsa](Draft_Constrain/sv.md) din nya punkt i relation till föregående punkt.
--   Skriv in siffror för att [manuellt mata in en koordinat](Draft_Coordinates/sv.md).
+-   Skriv in siffror för att \[manuellt mata in en koordinat.
 -   Nedtryckning av **CTRL**+**Z** eller klickning på \"Undo\" knappen kommer att ångra den sista punkten.
 -   Om du trycker på **ESC** så avbryts funktionen.
--   Den skapade cirkeln kommer att ha nuvarande [linjestil](Draft_Linestyle/sv.md).
 
 
 </div>
@@ -60,7 +59,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Press **R** or click the **Relative** checkbox to toggle relative mode. If relative mode is on, the coordinates of the second point are relative to the first point, else they are relative to the coordinate system origin.
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
 -   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating lines.
--   The {{button|<img src="images/Draft_UndoLine.svg" width=16px> Undo}} button has no purpose for this command.
+-   The {{button|<img src="images/Draft_UndoLine.svg" width=16px> Undo}} button, displayed in FreeCAD version 0.19 and earlier, has no purpose for this command.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 

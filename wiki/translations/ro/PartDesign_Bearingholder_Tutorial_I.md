@@ -1,4 +1,9 @@
 # PartDesign Bearingholder Tutorial I/ro
+**This tutorial was originally written for a now deprecated development version of FreeCAD. This tutorial requires a complete rewrite to align with the PartDesign changes that will be in the upcoming v0.17 release.**
+
+
+
+
 {{TutorialInfo
 |Topic=Modeling
 |Level=Experienced User
@@ -8,18 +13,7 @@
 |Files=
 }}
 
-
-**Acest tutorial a fost scris pentru o variantă acum abandonată de FreeCAD. Acest tutorial solicită o rescriere completă pentru a se alinia la schimbările efectuate la Atelierul PartDesign, schimbări care sunt în varianta v0.17. Rescrierea a fost începută în _**
-
 ![Bearing Holder Tutorial - Locaș de rulment finalizat (top)\|thumb\|right\|400px](images/HolderTop1-1.jpg )
-
-
-<div class="mw-translate-fuzzy">
-
-Așa cum avertizează deja în partea de sus a paginii, this **tutorial will NOT WORK unless you compile a special highly experimental branch from FreeCAD source code** and is an introductory tutorial to modeling with the PartDesign workbench in FreeCAD **using Datum planes which are a feature that does not yet exist in most FreeCAD versions**. The purpose of the tutorial is to introduce you to two different work flows for creating a cast part with drafts and fillets. Depending on what other CAD programs you have been using, one or the other might be familiar to you. As a working example we will be modeling a simple bearing holder.
-
-
-</div>
 
 ## Purpose in Brief 
 

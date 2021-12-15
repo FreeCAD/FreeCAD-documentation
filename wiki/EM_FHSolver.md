@@ -2,19 +2,22 @@
 - GuiCommand:
    Name:EM FHSolver
    MenuLocation:EM → FHSolver
-   Workbenches:[EM](EM_Workbench.md) (add-on)
+   Workbenches:[EM](EM_Workbench.md)
    Shortcut:**E** **X**
-   SeeAlso:[EM FHInputFile](EM_FHInputFile.md), [EM FHNode](EM_FHNode.md), [EM FHSegment](EM_FHSegment.md), [EM FHPath](EM_FHPath.md), [EM FHPlane](EM_FHPlane.md), [EM FHEquiv](EM_FHEquiv.md), [EM FHPort](EM_FHPort.md)
    Version:0.17
+   SeeAlso:[EM FHInputFile](EM_FHInputFile.md), [EM FHNode](EM_FHNode.md), [EM FHSegment](EM_FHSegment.md), [EM FHPath](EM_FHPath.md), [EM FHPlane](EM_FHPlane.md), [EM FHEquiv](EM_FHEquiv.md), [EM FHPort](EM_FHPort.md)
 ---
 
 # EM FHSolver
 
 ## Description
 
-The FHSolver tool inserts a FHSolver object. 
+The FHSolver tool inserts a FHSolver object.
 
-![](images/EM_FHSolver_Example.png )  
+ ![](images/EM_FHSolver_Example.png ) 
+
+
+
 *FHSolver object*
 
 ## Usage
@@ -60,7 +63,9 @@ To insert a FHSolver object in the Document:
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The FHSolver object can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:  
+The FHSolver object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+ 
 ```python
 node = makeFHSolver(units=None, sigma=None, nhinc=None, nwinc=None, rh=None, rw=None, fmin=None, fmax=None, ndec=None, folder=None, filename=None, name='FHSolver')
 ```
@@ -91,7 +96,9 @@ node = makeFHSolver(units=None, sigma=None, nhinc=None, nwinc=None, rh=None, rw=
 
 -    `name`is the name of the object
 
-Example:  
+Example:
+
+ 
 ```python
 import FreeCAD, EM
 
@@ -99,9 +106,9 @@ fhsolver = EM.makeFHSolver()
 ```
 
 
-{{EM Tools navi
 
-}}
+
+ {{EM Tools navi}}
 
 ---
 [documentation index](../README.md) > EM FHSolver

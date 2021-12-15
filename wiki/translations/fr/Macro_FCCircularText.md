@@ -9,7 +9,7 @@ Cette macro utilise l'outil [Draft Formes à partir texte](Draft_ShapeString/fr.
 |Version=0.20
 |Date=2021/04/05
 |FCVersion=0.19
-|Download=[https://www.freecadweb.org/wiki/images/c/c1/FCCircularTextButtom.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/c/c1/FCCircularTextButtom.png Icône de la barre d'outils]
 }}
 
 ## Description
@@ -19,7 +19,11 @@ Cette macro utilise l\'outil <img alt="" src=images/Draft_ShapeString.svg  style
 
 {{Codeextralink|https://gist.githubusercontent.com/mario52a/a25e802498bae6959335/raw/45fe27566892bc630ad12bc67c2ecffa3041c27c/Macro_FCCircularText.FCMacro}}
 
-<img alt="Orientation à 360 degrés" src=images/FCCircularText_01.png  style="width:400px;"> 
+
+:   <img alt="Orientation à 360 degrés" src=images/FCCircularText_01.png  style="width:400px;">
+
+
+
 *Exemple de la macro affichant le texte avec une orientation à 360 degrés*
 
 ## Utilisation

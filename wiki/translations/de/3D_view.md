@@ -34,9 +34,7 @@ Sobald jedoch ein [Arbeitsbereich](Workbenches/de.md) geladen ist, gibt es zusä
     -   
         {{MenuCommand/de|Link Gruppe erstellen}}
         
-        : [Einfache Gruppe](Std_LinkMakeGroup/de.md),
-
-[Group mit Links](Std_LinkMakeGroup/de.md), [Gruppe mit Transformations Links](Std_LinkMakeGroup/de.md).
+        : [Einfache Gruppe](Std_LinkMakeGroup/de.md), [Group mit Links](Std_LinkMakeGroup/de.md), [Gruppe mit Transformations Links](Std_LinkMakeGroup/de.md).
 
 -    {{MenuCommand/de|[Einpassen Alles](Std_ViewFitAll/de.md)}}: schwenkt und zoomt die Ansicht so, dass alle Objekte im Dokument auf dem Bildschirm angezeigt werden.
 
@@ -44,7 +42,7 @@ Sobald jedoch ein [Arbeitsbereich](Workbenches/de.md) geladen ist, gibt es zusä
 
 -    {{MenuCommand/de|[Zeichenstil](Std_DrawStyle/de.md)}}: wie es ist, flache Linien, schattiert, Drahtgitter, Punkte, versteckte Linie, keine Schattierung.
 
--    {{MenuCommand/de|_, [Front](Std_ViewFront/de.md), [Top](Std_ViewTop/de.md), [Right](Std_ViewRight/de.md), [Rear](Std_ViewRear/de.md), [Bottom](Std_ViewBottom/de.md), [Links](Std_ViewLinks/de.md), [Links drehen](Std_ViewRotateLinks/de.md), [Rechts drehen](Std_ViewRotateRechts/de.md).
+-    {{MenuCommand/de|_, [Front](Std_ViewFront/de.md), [Top](Std_ViewTop/de.md), [Right](Std_ViewRight/de.md), [Rear](Std_ViewRear/de.md), [Bottom](Std_ViewBottom/de.md), [Links](Std_ViewLeft/de.md), [Links drehen](Std_ViewRotateLeft/de.md), [Rechts drehen](Std_ViewRotateRight/de.md).
 
 -    {{MenuCommand/de|Messung}}: [Toggle Messung](View_Measure_Toggle_All/de.md), [clear measurement](View_Measure_Clear_All/de.md).
 

@@ -7,7 +7,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Tutti gli oggetti nel programma hanno un [nome dell\'oggetto](Object_name/it.md) che li identifica in modo univoco in un dato [Documento](App_Document/it.md).
+Tutti gli oggetti nel programma hanno un [nome dell\'oggetto](Object_name/it.md) che li identifica in modo univoco in un dato documento.
 
 
 </div>

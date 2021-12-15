@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Kurven AnKonsole
+   Name:Curves ToConsole
+   Name/de:Kurven AnKonsole
    MenuLocation:Kurven → 
    Workbenches:[Kurven](Curves_Workbench/de.md)
    Shortcut:Kein

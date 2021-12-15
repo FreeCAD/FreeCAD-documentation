@@ -35,11 +35,20 @@ Acest instrument vă permite să construiți elemente structurale, cum ar fi col
 
 ## Cum se folosește 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Select a 2D shape (draft object, face or sketch) (optional)
 2.  Press the **<img src="images/Arch_Structure.svg" width=16px> [[Arch Structure]]** button, or press **S** then **T** keys
 3.  Adjust the desired properties
 
+
+</div>
+
 ## Opţiuni
+
+
+<div class="mw-translate-fuzzy">
 
 -   Când nu este selectat niciun obiect de bază 2D, instrumentul de structură are 2 moduri de desen: Coloană și grindă:
     -   În modul coloană, vi se cere să alegeți un punct pe ecran sau prin introducerea coordonatelor. Noul obiect structural va fi plasat la acel punct.
@@ -50,9 +59,15 @@ Acest instrument vă permite să construiți elemente structurale, cum ar fi col
 -   Dați dublu clic pe structură din vizualizarea arborescentă după ce este creată vă permite să intrați în modul de editare și să accesați și să modificați completările și subtractele
 -   În modul de editare, este posibil să adăugați elemente [axes systems](Arch_Axis.md) la elementul structural. La adăugarea unui sistem de axe, elementul structural va fi copiat o dată pe fiecare axă a sistemului. Atunci când se adaugă două sisteme de axe, elementul structural va fi copiat o singură dată pe fiecare intersecție a celor două sisteme.
 
+
+</div>
+
 ## Proprietăți
 
 ### Data
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Tool**: an optional extrusion path, which can be any type of wire. If this property is empty, the extrusion will be straight, and happen in the direction given by the Normal property
 
@@ -79,6 +94,9 @@ Acest instrument vă permite să construiți elemente structurale, cum ar fi col
 -    **Nodes Type**: Tipul nodurilor structurale ale acestui obiect, linear sau matrice.
 
 -    **Show Nodes**: Afișează sau ascunde nodurile structurale.
+
+
+</div>
 
 ### Vizualizare 3D 
 
@@ -107,6 +125,9 @@ Obiectele structurale au, de asemenea, capacitatea de a afișa noduri structural
 <img alt="" src=images/Arch_structural_nodes.jpg  style="width:960px;"> 
 *Structural nodes made visible for a set of structures*
 
+
+<div class="mw-translate-fuzzy">
+
 -   Nodurile sunt calculate și actualizate automat, atâta timp cât nu le modificați manual. Dacă ați făcut-o, acestea nu vor fi actualizate dacă se modifică forma obiectului structural, cu excepția cazului în care utilizați instrumentul \"Reset nodes\" de mai jos.
 -   Structurile arcului pot avea nu numai noduri lineare, ci și noduri plane. Pentru aceasta, 1- trebuie să existe cel puțin 3 vectori în proprietatea \"Noduri\" a obiectului, 2 - proprietatea \"NodesType\" a ViewObject lor trebuie să fie setată la \"Area\".
 -   Când calculul nodurilor este automat (adică, dacă nu le-ați atins manual), când setați proprietatea Role a unei structuri la \"placă\", va deveni automat un nod planar (vor exista mai mult de 3 vectori și NodesType va fi setat la \"Zonă\").
@@ -117,6 +138,14 @@ Obiectele structurale au, de asemenea, capacitatea de a afișa noduri structural
     -   Faceți nodul acestui obiect și altul coincid
     -   Comutați între afișarea tuturor nodurilor tuturor obiectelor structurale ale documentului pornită / oprită
 
+
+</div>
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Scrip-Programare 
 
 
@@ -124,11 +153,23 @@ Obiectele structurale au, de asemenea, capacitatea de a afișa noduri structural
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-Instrumentul Structură poate fi utilizat în [macros](macros.md) și din consola [Python](Python.md) utilizând următoarea funcție: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Instrumentul Structură poate fi utilizat în [macros](macros.md) și din consola [Python](Python.md) utilizând următoarea funcție:
+
+
+</div>
+
+
 ```python
 Structure = makeStructure(baseobj=None, height=None)
 Structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")
 ```
+
 
 :   creează un element de structură bazat pe obiectul profil dat și pe înălțimea de extrudare dată. Dacă nu se dă niciun obiect de bază, puteți specifica lungimea și lățimea unui obiect cubic.
 

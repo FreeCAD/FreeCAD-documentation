@@ -5,7 +5,7 @@
 
 [OpenCASCADE Tecnología](OpenCASCADE/es.md), La *OCC* o *OCCT*, para abreviar, es una colección de bibliotecas C++ que juntas constituyen un núcleo de diseño asistido por ordenador (CAD) profesional para modelar objetos 2D y 3D, y construir herramientas especializadas para la fabricación, simulación o visualización. OpenCASCADE es el corazón de las capacidades geométricas de FreeCAD.
 
-Las clases geométricas de OCCT están en su mayoría implementadas y disponibles en FreeCAD a través del módulo [Pieza](Part_Workbench/es.md), del que dependen la mayoría de los otros [Ambiente de trabajo](Workbench/es.md). También proporciona funciones internas para leer y escribir diferentes formatos de archivo como STEP e IGES, y para realizar proyecciones 2D, que pueden ser utilizadas para crear dibujos técnicos en [TechDraw](TechDraw_Workbench/es.md).
+Las clases geométricas de OCCT están en su mayoría implementadas y disponibles en FreeCAD a través del módulo [Pieza](Part_Workbench/es.md), del que dependen la mayoría de los otros [Ambiente de trabajo](Workbenches/es.md). También proporciona funciones internas para leer y escribir diferentes formatos de archivo como STEP e IGES, y para realizar proyecciones 2D, que pueden ser utilizadas para crear dibujos técnicos en [TechDraw](TechDraw_Workbench/es.md).
 
 <img alt="" src=images/Part_Workbench_relationships.svg  style="width:600px;">
 

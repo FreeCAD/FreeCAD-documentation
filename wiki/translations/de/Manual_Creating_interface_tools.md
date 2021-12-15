@@ -32,7 +32,13 @@ Beginnen wir mit der Erstellung des Widgets. Starte Qt Creator, dann Menü **Dat
 
 ![](images/Exercise_python_08.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 -   Platziere jetzt 3 **Double Spin Box** Widgets neben unseren Etiketten Länge, Breite und Höhe. Suche für jedes dieser Widgets in der unteren rechten Leiste, die alle verfügbaren Einstellungen für das ausgewählte Widget anzeigt, nach **Suffix** und setze deren Suffix auf **mm**. FreeCAD hat ein fortschrittlicheres Widget, das verschiedene Einheiten handhaben kann, das aber im Qt Creator nicht standardmäßig verfügbar ist (aber [Kompiliert](Compile_on_Linux/Unix/de#Qt_designer_plugin.md)), so dass wir für den Moment eine Standard Double Spin Box verwenden werden, und wir fügen das Suffix **mm** hinzu, um sicherzustellen, dass der Benutzer weiß, in welchen Einheiten er arbeitet:
+
+
+</div>
 
 ![](images/Exercise_python_09.jpg )
 

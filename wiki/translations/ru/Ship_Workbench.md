@@ -5,7 +5,13 @@
 
 ## Введение
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> [Верстак Ship](Ship_Workbench/ru.md) FreeCADа используется для создания структур, общих для судостроения.
+
+
+</div>
 
 ## Инструменты
 
@@ -15,7 +21,7 @@
 <div class="mw-translate-fuzzy">
 
 -   <img alt="Ship geometries examples loader" src=images/Ship_Load.svg  style="width:32px;"> [Загрузить пример геометрии судна](Ship_Geometries_Examples/ru.md)
--   <img alt="Ship instance creation tool" src=images/Ship_Logo.svg.png  style="width:32px;"> [Задание параметров плавательного судна](Ship_New/ru.md)
+-   <img alt="Ship instance creation tool" src=images/Ship_Logo.svg  style="width:32px;"> [Задание параметров плавательного судна](Ship_New/ru.md)
 -   <img alt="Ship Lines drawing tool" src=images/Ship_OutlineDraw.svg  style="width:32px;"> [Контурный чертёж](Ship_Outline/ru.md)
 -   <img alt="Sectional Area Curve tool" src=images/FreeCAD-Ship-AreaCurveIco.png  style="width:32px;"> [Строевая](Ship_Area/ru.md)
 -   <img alt="Hydrostatics tool icon" src=images/Ship_Hydrostatics.png  style="width:32px;"> [Гидростатика](Ship_Hydrostatics/ru.md)
@@ -50,7 +56,7 @@
 
 ## History
 
-The Ship Workbench was unmaintained since v0.17 but has been resurrected in v0.19. As of v0.19 it also now designated an [external workbench](external_workbenches.md), so it is no longer included in the base system. Instead it\'s available via the [Addon Manager](Addon_Manager.md)
+The Ship Workbench was unmaintained since v0.17 but has been resurrected in v0.19. As of v0.19 it also now designated an [external workbench](External_workbenches.md), so it is no longer included in the base system. Instead it\'s available via the [Addon Manager](Std_AddonMgr.md).
 
 ## References
 

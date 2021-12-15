@@ -49,7 +49,7 @@ Questo strumento permette di creare delle tubazioni partendo da zero, o dagli og
 
 <div class="mw-translate-fuzzy">
 
--   Gli oggetti Arch Equipment ora hanno una nuova proprietà **SnapPoints**, che è una lista di vettori 3D. Questo consente di aggiungere dei punti di aggancio personalizzati, a cui è possibile ancorarsi quando il nuovo tasto snap [Speciale](Draft_Special/it.md) è attivo. Attualmente però la proprietà è disponibile solo per python. Nel caso sopra è stato aggiunto un nuovo punto di snap all\'uscita dell\'apparecchio wc. I vettori all\'interno di SnapPoints appaiono sul modello come puntini bianchi:
+-   Gli oggetti Arch Equipment ora hanno una nuova proprietà **SnapPoints**, che è una lista di vettori 3D. Questo consente di aggiungere dei punti di aggancio personalizzati, a cui è possibile ancorarsi quando il nuovo tasto snap [Speciale](Draft_Snap_Special/it.md) è attivo. Attualmente però la proprietà è disponibile solo per python. Nel caso sopra è stato aggiunto un nuovo punto di snap all\'uscita dell\'apparecchio wc. I vettori all\'interno di SnapPoints appaiono sul modello come puntini bianchi:
 
 
 </div>

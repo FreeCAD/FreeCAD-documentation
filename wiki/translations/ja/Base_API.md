@@ -4,16 +4,16 @@
 BaseモジュールはFreeCADモジュール内部に含まれ、FreeCADでよく使われる様々なオブジェクトのためのコンストラクタが含まれています。
 
 
-{{APIClass/jp|BoundBox|[Xmin,Ymin,Zmin,Xmax,Ymax,Zmax] ) または ( Tuple, Tuple ) または ( Vector, Vector|バウンディングボックスを作成します。バウンディングボックスとは外部との境界を表現するための直方体です。様々な3D型からバウンディングボックスを取得することができます。バウンディングボックスは3D構成要素が他のオブジェクトの占める領域と重なっているかどうか判定するために使われることが多いです。最初に境界の干渉チェックを行うと計算時間を大幅に節約することができるのです！}}
+{{APIClass|BoundBox|[Xmin,Ymin,Zmin,Xmax,Ymax,Zmax] ) または ( Tuple, Tuple ) または ( Vector, Vector|バウンディングボックスを作成します。バウンディングボックスとは外部との境界を表現するための直方体です。様々な3D型からバウンディングボックスを取得することができます。バウンディングボックスは3D構成要素が他のオブジェクトの占める領域と重なっているかどうか判定するために使われることが多いです。最初に境界の干渉チェックを行うと計算時間を大幅に節約することができるのです！}}
 
 
-{{APIClass/jp|Matrix| |[行列](Matrix_API/jp.md)を作成します。行列はオブジェクトに対する変換の適用に使用できます。}}
+{{APIClass|Matrix| |[行列](Matrix_API/jp.md)を作成します。行列はオブジェクトに対する変換の適用に使用できます。}}
 
 
-{{APIClass/jp|Vector|) または ( x,y,z|FreeCADの3次元[ベクトル](Vector_API/jp.md)を作成します。ベクトルは3次元上の点または方向を表します。}}
+{{APIClass|Vector|) または ( x,y,z|FreeCADの3次元[ベクトル](Vector_API/jp.md)を作成します。ベクトルは3次元上の点または方向を表します。}}
 
 
-{{APIClass/jp|Placement| |[配置](Placement_API/jp.md)を作成します。}}
+{{APIClass|Placement| |[配置](Placement_API/jp.md)を作成します。}}
 
 
  

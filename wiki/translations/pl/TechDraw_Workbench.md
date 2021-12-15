@@ -79,7 +79,7 @@ Wymiary liniowe mogą być wyznaczone w oparciu o dwa punkty, na jednej linii lu
 
 -   <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [Wstaw wymiar poziomy](TechDraw_HorizontalDimension/pl.md): dodaje poziomy wymiar długości.
 
--   <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:32px;"> [Wstaw wymiar pionowy](TechDraw_Dimension_Vertical/pl.md): dodaje pionowy wymiar długości.
+-   <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [Wstaw wymiar pionowy](TechDraw_VerticalDimension/pl.md): dodaje pionowy wymiar długości.
 
 -   <img alt="" src=images/TechDraw_RadiusDimension.svg  style="width:32px;"> [Wstaw wymiar promienia](TechDraw_RadiusDimension/pl.md): dodaje wymiar promienia do okręgu lub łuku.
 
@@ -97,15 +97,9 @@ Wymiary liniowe mogą być wyznaczone w oparciu o dwa punkty, na jednej linii lu
 
 -   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Wstaw adnotację w formie dymka](TechDraw_Balloon/pl.md): dodaje na stronie adnotację w *baloniku*. {{Version/pl|0.19}}
 
--   <img alt="" src=images/TechDraw_Dimension_Landmark.svg  style="width:32px;"> [Wstaw wymiar przestrzenny](TechDraw_Dimension_Landmark/pl.md): dodaje wymiar dystansu. {{Version/pl|0.19}}
-
-
-<div class="mw-translate-fuzzy">
+-   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Wstaw wymiar przestrzenny](TechDraw_LandmarkDimension/pl.md): dodaje wymiar dystansu. {{Version/pl|0.19}}
 
 ## Adnotacje
-
-
-</div>
 
 Narzędzia do nanoszenia adnotacji służą do \" oznaczania \" rysunku dodatkowymi informacjami.
 
@@ -144,7 +138,47 @@ Pakiet rozszerzeń zawiera wiele przydatnych narzędzi do ulepszenia Twoich rysu
 
 **Niektóre z tych narzędzi nie zostały jeszcze wydane.**
 
+### Właściwości i modyfikacje 
+
+-   <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:32px;"> [Wybierz atrybuty linii](TechDraw_ExtensionSelectLineAttributes/pl.md): wybierz styl, szerokość i kolor linii. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width:32px;"> [Rozciągnij linię](TechDraw_ExtensionExtendLine/pl.md): przedłuża linię na obu końcach. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:32px;"> [Skróć linię](TechDraw_ExtensionShortenLine/pl.md): skraca linię na obu końcach. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="width:32px;"> [Zablokuj / odblokuj](TechDraw_ExtensionLockUnlockView/pl.md): blokuje / odblokowuje widok. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  style="width:32px;"> [Wyrównaj przekrój](TechDraw_ExtensionPositionSectionView/pl.md): wyrównaj widok przekroju ortogonalnie do widoku źródłowego. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg  style="width:32px;"> [Wyrównaj poziomo](TechDraw_ExtensionPosHorizChainDimension/pl.md): wyrównaj ciąg wymiarów poziomych. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionPosVertChainDimension.svg  style="width:32px;"> [Wyrównaj pionowo](TechDraw_ExtensionPosVertChainDimension/pl.md): wyrównaj ciąg wymiarów pionowych. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimension.svg  style="width:32px;"> [Wyrównaj ukośnie](TechDraw_ExtensionPosObliqueChainDimension/pl.md): wyrównaj ciąg wymiarów ukośnych. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimension.svg  style="width:32px;"> [Odstęp poziomo](TechDraw_ExtensionCascadeHorizDimension/pl.md): kaskada wymiarów poziomych. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionCascadeVertDimension.svg  style="width:32px;"> [Odstęp pionowo](TechDraw_ExtensionCascadeVertDimension/pl.md): kaskada wymiarów poziomych. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  style="width:32px;"> [Odstęp ukośnie](TechDraw_ExtensionCascadeObliqueDimension/pl.md): kaskada wymiarów poziomych. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionChangeLineAttributes.svg  style="width:32px;"> [Zmień atrybuty linii](TechDraw_ExtensionChangeLineAttributes/pl.md): zmienia styl, szerokość i kolor linii. {{Version/pl|0.20}}
+
+### Linie środka i gwinty 
+
 -   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Oś otworu](TechDraw_ExtensionCircleCenterLines/pl.md): dodaje linie środkowe do okręgów i łuków. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionHoleCircle.svg  style="width:32px;"> [Osie otworów w okręgu](TechDraw_ExtensionHoleCircle/pl.md): rysuje linie środka śruby / otworu na okręgu. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Utwórz wierzchołki w przecięciu](TechDraw_ExtensionVertexAtIntersection/pl.md): tworzy wierzchołki w miejscu przecięcia linii. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width:32px;"> [Geometria pomocnicza obwodu](TechDraw_ExtensionDrawCosmCircle/pl.md): rysuje symboliczną linię obwodu, używając środka i wierzchołka promienia. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionDrawArc.svg  style="width:32px;"> [Geometria pomocnicza łuku](TechDraw_ExtensionDrawArc/pl.md): rysuje łuk przez obrót w kierunku wskazówek zegara. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width:32px;"> [Rysuj linię prostopadłą](TechDraw_ExtensionLinePerpendicular/pl.md): rysuje prostą prostopadłą do innej prostej, przez wierzchołek. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:32px;"> [Rysuj linie równoległą](TechDraw_ExtensionLineParallel/pl.md): rysuje prostą równoległą do innej prostej, przez wierzchołek. {{Version/pl|0.20}}
 
 -   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Geometria pomocnicza dla otworu gwintowanego, widok z boku](TechDraw_ExtensionThreadHoleSide/pl.md): dodaje symboliczną linię do bocznego widoku otworu. {{Version/pl|0.20}}
 
@@ -153,6 +187,34 @@ Pakiet rozszerzeń zawiera wiele przydatnych narzędzi do ulepszenia Twoich rysu
 -   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Geometria pomocnicza dla otworu gwintowanego, widok od dołu](TechDraw_ExtensionThreadHoleBottom/pl.md): dodaje symboliczny gwint do widoku otworów od dołu. {{Version/pl|0.20}}
 
 -   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Geometria pomocnicza dla śruby, widok od dołu](TechDraw_ExtensionThreadBoltBottom/pl.md): dodaje symbol gwintu do widoku śruby od dołu. {{Version/pl|0.20}}
+
+### Wymiarowanie
+
+-   <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width:32px;"> [Symbol średnicy](TechDraw_ExtensionInsertDiameter/pl.md): wstaw znak średnicy jako znak przedrostka. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionInsertSquare.svg  style="width:32px;"> [Symbol rury](TechDraw_ExtensionInsertSquare/pl.md): wstaw znak kwadratu jako znak przedrostka. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateHorizChainDimension.svg  style="width:32px;"> [Seria poziomo](TechDraw_ExtensionCreateHorizChainDimension/pl.md): tworzy ciąg wymiarów poziomych. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimension.svg  style="width:32px;"> [Seria pionowo](TechDraw_ExtensionCreateVertChainDimension/pl.md): tworzy ciąg wymiarów pionowych. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateObliqueChainDimension.svg  style="width:32px;"> [Seria ukośnie](TechDraw_ExtensionCreateObliqueChainDimension/pl.md): tworzy ciąg wymiarów ukośnych. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimension.svg  style="width:32px;"> [Równolegle poziomo](TechDraw_ExtensionCreateHorizCoordDimension/pl.md): tworzy wymiary poziome ułożone kaskadowo. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimension.svg  style="width:32px;"> [Równolegle pionowo](TechDraw_ExtensionCreateVertCoordDimension/pl.md): tworzy wymiary pionowe ułożone kaskadowo. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimension.svg  style="width:32px;"> [Równolegle ukośnie](TechDraw_ExtensionCreateObliqueCoordDimension/pl.md): tworzy wymiary ukośne ułożone kaskadowo. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.svg  style="width:32px;"> [Wymiar poziomy fazki](TechDraw_ExtensionCreateHorizChamferDimension/pl.md): tworzy wymiar fazy poziomo. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimension.svg  style="width:32px;"> [Wymiar pionowy fazki](TechDraw_ExtensionCreateVertChamferDimension/pl.md): tworzy wymiar fazy pionowo. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateLengthArc.svg  style="width:32px;"> [Długość łuku](TechDraw_ExtensionCreateLengthArc/pl.md): tworzy wymiar długości łuku. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style="width:32px;"> [Zwiększenie dokładności](TechDraw_ExtensionIncreaseDecimal/pl.md): zwiększenie liczby miejsc po przecinku. {{Version/pl|0.20}}
+
+-   <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:32px;"> [Zmniejszenie dokładności](TechDraw_ExtensionDecreaseDecimal/pl.md): zmniejszenie liczby miejsc po przecinku. {{Version/pl|0.20}}
 
 ## Eksport
 
@@ -194,7 +256,7 @@ Narzędzi środowiska Rysunek Techniczny można używać w [makrodefinicjach](Ma
 -   [Rysunek Techniczny: Jak wykonać nowy szablon ramki](TechDraw_TemplateHowTo/pl.md): instrukcja tworzenia nowego szablonu strony w programie Inkscape do użycia w środowisku pracy Rysunek Techniczny.
 -   [Pomiar kątów na otworach](Measurement_Of_Angles_On_Holes/pl.md): instrukcje dotyczące dodawania linii centrujących i kolejnych oznaczeń kątowych na otworach.
 -   [Rozmaitości](TechDraw_HowTo_Page/pl.md): instrukcje dotyczące różnych ustawień, takich jak znaki środka, itp.
--   [Tworzenie koła podziałowego](TechDraw_pitch_circle_tutorial/pl.md): instrukcja dodawania koła podziałowego.
+-   [Tworzenie koła podziałowego](TechDraw_Pitch_Circle_Tutorial/pl.md): instrukcja dodawania koła podziałowego.
 
 Wideo poradniki przygotowane przez użytkownika sliptonic
 

@@ -6,7 +6,7 @@
 
 <img alt="Zrzut ekranu" src=images/InspectionEx.png  style="width:500px;">
 
-## Przewidywany przepływ pracy 
+## Użycie
 
 -   Wybierz dwa kształty do porównania, najlepiej przecinające się ze sobą.
 -   Następnie użyj menu **Inspection → Kontrola wzrokowa**.

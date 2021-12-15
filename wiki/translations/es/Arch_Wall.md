@@ -31,7 +31,7 @@ Esta herramienta construye un objeto Muro desde cero o sobre cualquier otro obje
 <img alt="" src=images/Arch_Wall_example.jpg  style="width:780px;"> 
 *Muros construidos a partir de una línea, un cable, una cara, un sólido y un boceto*
 
-Los muros también pueden tener adiciones o sustracciones. Las adiciones son otros objetos cuyas formas se unen en la forma de este Muro, mientras que las sustracciones se restan. Las adiciones y sustracciones se pueden añadir con las herramientas [Arco Añadir](Arco_Añadir.md) y [Arco Quitar](Arco_Quitar.md). Las adiciones y sustracciones no influyen en los parámetros de los muros, como la altura y la anchura, que aún pueden modificarse. Los muros también pueden tener su altura automática, si están incluidos en un objeto de nivel superior como [floors](Arch_Floor.md). La altura debe mantenerse en 0, entonces el muro adoptará la altura especificada en el objeto padre.
+Los muros también pueden tener adiciones o sustracciones. Las adiciones son otros objetos cuyas formas se unen en la forma de este Muro, mientras que las sustracciones se restan. Las adiciones y sustracciones se pueden añadir con las herramientas [Arco Añadir](Arch_Add.md) y [Arco Quitar](Arch_Remove.md). Las adiciones y sustracciones no influyen en los parámetros de los muros, como la altura y la anchura, que aún pueden modificarse. Los muros también pueden tener su altura automática, si están incluidos en un objeto de nivel superior como [floors](Arch_Floor.md). La altura debe mantenerse en 0, entonces el muro adoptará la altura especificada en el objeto padre.
 
 Cuando varios muros deberían intersecar, tienes que ubicarlos en un [piso](Arch_Floor/es.md) para tener su geometría intersecada.
 
@@ -43,8 +43,8 @@ Cuando varios muros deberían intersecar, tienes que ubicarlos en un [piso](Arch
 <div class="mw-translate-fuzzy">
 
 1.  Pulse el **<img src="images/Arch_Wall.svg" width=16px> [Muro de Arco](Arch_Wall/es.md)**, o pulse las teclas **W** y luego **A**.
-2.  Haga clic en un primer punto en la vista 3D, o escriba una [coordenada](Draft_Coordinates/es.md)
-3.  Haz clic en un segundo punto en la vista 3D, o escribe una [coordenada](Draft_Coordinates.md)
+2.  Haga clic en un primer punto en la vista 3D, o escriba una coordenada
+3.  Haz clic en un segundo punto en la vista 3D, o escribe una coordenada
 
 
 </div>

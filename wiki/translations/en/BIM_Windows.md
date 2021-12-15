@@ -16,11 +16,6 @@ The BIM windows manager dialog allows you to browse and modify all the [windows 
 
 ## Usage
 
-
-{{BIM Tools navi
-
-}}
-
 _
 
 ---

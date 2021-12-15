@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Part VerbundTeilungsWerkzeuge
+   Name:Part CompSplittingTools
+   Name/de:Part VerbundTeilungsWerkzeuge
    MenuLocation:Part → Teilen
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:

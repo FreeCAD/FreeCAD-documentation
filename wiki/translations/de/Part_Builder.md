@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/de
    Name:Part Builder
-   Name:Part Erbauer
+   Name/de:Part Erbauer
    MenuLocation:Formteil → Formbauer...
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Grundkörper](Part_Primitives/de.md)

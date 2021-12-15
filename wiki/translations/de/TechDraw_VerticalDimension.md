@@ -5,7 +5,7 @@
    MenuLocation:TechDraw → Bemaßungen → Vertikales Maß einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Shortcut:**Shift** + **V**
-   SeeAlso:[TechDraw Längenbemaßung](TechDraw_Dimension_Length/de.md), [TechDraw Horizontale Bemaßung](TechDraw_Dimension_Horizontal/de.md)
+   SeeAlso:[TechDraw Längenbemaßung](TechDraw_LengthDimension/de.md), [TechDraw Horizontale Bemaßung](TechDraw_HorizontalDimension/de.md)
 ---
 
 # TechDraw VerticalDimension/de
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Das Werkzeug »Vertikale Längenbemaßung« fügt ein vertikales Maß in einer Ansicht hinzu. Die Bemaßung kann zwischen zwei Ecken liegen, die Länge einer Kante oder der vertikale Abstand zwischen zwei Kanten sein. Der Abstand ist zuerst der projizierte Abstand (wie in der Zeichnung dargestellt), aber dieser kann unter Verwendung des **<img src="images/TechDraw_Dimension_Link.svg" width=16px> [Bemaßungen verlinken](TechDraw_Dimension_Link/de.md)**-Werkzeugs zum eigentlichen 3D-Abstand geändert werden.
+Das Werkzeug »Vertikale Längenbemaßung« fügt ein vertikales Maß in einer Ansicht hinzu. Die Bemaßung kann zwischen zwei Ecken liegen, die Länge einer Kante oder der vertikale Abstand zwischen zwei Kanten sein. Der Abstand ist zuerst der projizierte Abstand (wie in der Zeichnung dargestellt), aber dieser kann unter Verwendung des **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Bemaßungen verlinken](TechDraw_LinkDimension/de.md)**-Werkzeugs zum eigentlichen 3D-Abstand geändert werden.
 
 
 </div>
@@ -32,7 +32,7 @@ Das Werkzeug »Vertikale Längenbemaßung« fügt ein vertikales Maß in einer A
 <div class="mw-translate-fuzzy">
 
 1.  Punkte oder Kanten auswählen, die für die Abmessung benötigt werden.
-2.  Drücke die **<img src="images/TechDraw_Dimension_Vertical.svg" width=16px> [Vertikal Bemaßung](TechDraw_Dimension_Vertical/de.md)** Schaltfläche
+2.  Drücke die **<img src="images/TechDraw_VerticalDimension.svg" width=16px> [Vertikal Bemaßung](TechDraw_VerticalDimension/de.md)** Schaltfläche
 3.  Eine Bemaßung wird in die Ansicht eingefügt. Die Bemaßung kann an die gewünschte Position gezogen werden.
 4.  Falls erforderlich, füge Toleranzen, wie in [diese Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzu.
 
@@ -42,7 +42,7 @@ Das Werkzeug »Vertikale Längenbemaßung« fügt ein vertikales Maß in einer A
 
 <div class="mw-translate-fuzzy">
 
-Um die Eigenschaften eines Bemaßungsobjekts zu ändern, doppel-klicke sie entweder in der Zeichnung oder in der [Baumansicht](Tree_view/de.md). Dadurch wird der [Bemaßungsdialog](TechDraw_Dimension_Length/de#Bemaßung_Dialog.md) geöffnet.
+Um die Eigenschaften eines Bemaßungsobjekts zu ändern, doppel-klicke sie entweder in der Zeichnung oder in der [Baumansicht](Tree_view/de.md). Dadurch wird der [Bemaßungsdialog](TechDraw_LengthDimension/de#Bemaßung_Dialog.md) geöffnet.
 
 
 </div>
@@ -52,7 +52,7 @@ Um die Eigenschaften eines Bemaßungsobjekts zu ändern, doppel-klicke sie entwe
 
 <div class="mw-translate-fuzzy">
 
-Bemaßungsobjekte sind anfällig für \"[topologische Benennungs](Topological_naming_problem/de.md)\" Probleme. Siehe die Information im [TechDraw Längenbemaßungs](TechDraw_Dimension_Length/de.md) Werkzeug.
+Bemaßungsobjekte sind anfällig für \"[topologische Benennungs](Topological_naming_problem/de.md)\" Probleme. Siehe die Information im [TechDraw Längenbemaßungs](TechDraw_LengthDimension/de.md) Werkzeug.
 
 
 </div>
@@ -62,7 +62,7 @@ Bemaßungsobjekte sind anfällig für \"[topologische Benennungs](Topological_na
 
 <div class="mw-translate-fuzzy">
 
-Dieses Objekt hat die gleichen Eigenschaften wie das [TechDraw Längenbemassung](TechDraw_Dimension_Length/de.md) Werkzeug. Siehe das Werkzeug für Einzelheiten.
+Dieses Objekt hat die gleichen Eigenschaften wie das [TechDraw Längenbemassung](TechDraw_LengthDimension/de.md) Werkzeug. Siehe das Werkzeug für Einzelheiten.
 
 
 </div>

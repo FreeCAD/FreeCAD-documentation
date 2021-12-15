@@ -84,7 +84,7 @@ OpenCamLibrary is not integrated into FreeCAD to ensure no licensing violations 
 
 For Pocket Operations, the Start Point defaults to XYZ = 000, and is always on, but it too can be configured in the Property view window. Pocket and Facing Operations provide explicit Climb versus Conventional Cut Mode specification in the Operation tab.
 
-For Contour style Operations, the Operation tab has a \"Direction\" input that may be configured as CW, or CCW, which defines the cut direction. For reference:
+For Contour style Operations, the Operation tab has a \"Direction\" input that may be configured as CW (clockwise), or CCW (counterclockwise), which defines the cut direction. For reference:
 
 1.  Cut Side = Outside, Cut Direction = CCW, Climb Cut
 2.  Cut Side = Outside, Cut Direction = CW, Conventional Cut
@@ -92,7 +92,7 @@ For Contour style Operations, the Operation tab has a \"Direction\" input that m
 
 Cut Side = Inside, Cut Direction = CCW, Climb Cut
 
-Start Points can be enabled\--and configured in the Property view window.
+Start Points can be enabled and configured in the Property view window.
 
 In FaceMill Operations Material Allowance can be specified, allowing overcutting for positive values, and undercutting for negative values.
 
@@ -110,19 +110,19 @@ Judicious care should be exercised when specifying Material Allowances and Offse
 
 ## What do I do if an Operation generates more Vertical movements than my Job can tolerate? 
 
-Operations such as 3D\_Pocket, Pocket\_Shape, and FaceMill, but not Contour Operations have a configuration option to keep the tool down, in the Data tab of the Property View.
+Operations such as [Pocket 3D](Path_Pocket_3D.md), [Pocket Shape](Path_Pocket_Shape.md), and [MillFace](Path_MillFace.md), but not Contour Operations have a configuration option to keep the tool down, in the Data tab of the Property View.
 
 [top](#top.md)
 
 ## How can I leave tabs to clamp my milled work? 
 
-Path workbench provides a Tag dressup for just this purpose.
+Path workbench provides a [Tag dressup](Path_DressupTag.md) for just this purpose.
 
 [top](#top.md)
 
 ## What is a Postprocessor? 
 
-The Postprocessor is used to tailor output code to target CNC controllers for various machines, in their G-Code dialect.
+The [Postprocessor](Path_Post.md) is used to tailor output code to target CNC controllers for various machines, in their G-Code dialect.
 
 [top](#top.md)
 
@@ -134,7 +134,7 @@ Postprocessors are Python scripts, and are saved in the Macro file path. They ar
 
 ## I only want to use one Postprocessor\--can I make it the default, or hide other options? 
 
-Yes, The path preferences has a section for post processors where you can select which post processors to display and select a default post.
+Yes, the [Path preferences](Path_Preferences.md) has a section for post processors where you can select which post processors to display and select a default post.
 
 [top](#top.md)
 
@@ -160,7 +160,7 @@ If the path lines obscure the simulation result, their visibility should be togg
 
 ## What is the significance of the path line colors? 
 
-Path line colors are defined in the Edit-\>Preference\...-\>Path-\>Path colors tab. Default colors include:
+Path line colors are defined in the Edit-\>Preference\...-\>Path-\>GUI-\>Default Path colors. Default colors include:
 
 1.  Green for normal paths.
 2.  Red for rapid paths.
@@ -170,7 +170,7 @@ Path line colors are defined in the Edit-\>Preference\...-\>Path-\>Path colors t
 
 ## How do I Enable/Disable visibility of path lines? 
 
-Path workbench allows control of the display of path lines by toggling the visibility of the Job by selecting it in the Combo View. The visibility of individual or groups of Operations are then toggled from the Combo View.
+Path workbench allows control of the display of path lines by toggling the visibility of the Job by selecting it in the [Combo View](Combo_view.md). The visibility of individual or groups of Operations are then toggled from the Combo View.
 
 [top](#top.md)
 
@@ -194,7 +194,7 @@ Commonly, the Custom G-Code command because the format is always in Units/second
 
 However, Path Compounds can make use of the Placement of their children (see below).\"
 
-_
+[Path scripting ](Path_scripting.md)
 
 [top](#top.md)
 

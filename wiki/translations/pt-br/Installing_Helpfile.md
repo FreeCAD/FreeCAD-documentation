@@ -23,7 +23,13 @@ Os arquivos de ajuda podem ser baixados aqui: <https://github.com/FreeCAD/FreeCA
 
 </div>
 
-Como opção futura, eles podem ser instalados de dentro do FreeCAD com o [Gerenciador de Extensões](Addon_Manager/pt-br.md).
+
+<div class="mw-translate-fuzzy">
+
+Como opção futura, eles podem ser instalados de dentro do FreeCAD com o [Gerenciador de Extensões](Std_AddonMgr/pt-br.md).
+
+
+</div>
 
 Os arquivos de ajuda têm sempre os mesmos nomes: {{FileName|freecad.qhc}} e {{FileName|freecad.qch}}. Para ter versões diferentes dos arquivos de ajuda, estes precisam ser instalados em diretórios diferentes. No caso de um download manual, basta armazenar o arquivo zip localmente e extrair o arquivo para o diretório desejado.
 

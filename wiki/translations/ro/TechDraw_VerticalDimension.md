@@ -5,7 +5,7 @@
    MenuLocation:TechDraw → Dimension Vertical
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
-   SeeAlso:[TechDraw Dimension Length](TechDraw_Dimension_Length.md), [TechDraw Dimension Horizontal](TechDraw_Dimension_Horizontal.md)
+   SeeAlso:[TechDraw Dimension Length](TechDraw_LengthDimension.md), [TechDraw Dimension Horizontal](TechDraw_HorizontalDimension.md)
 ---
 
 # TechDraw VerticalDimension/ro
@@ -24,14 +24,6 @@ The Vertical Dimension tool adds a vertical dimension to a View. The dimension m
 
 ## Cum se folosește 
 
-1.  Selectați punctele sau muchiile care definesc măsurarea dvs.
-2.  Apăsați butonul **<img src="images/Dimension_Vertical.png" width=24px> [Dimension Vertical](TechDraw_Dimension_Vertical.md)
-**
-3.  O cotă va fi adăugată la View. Cota poate fi glisată în poziția dorită.
-
-
-
-
 1.  Select the points or edge which define your measurement.
 2.  Press the **<img src="images/TechDraw_VerticalDimension.svg" width=16px> [Vertical Dimension](TechDraw_VerticalDimension.md)** button
 3.  A dimension will be added to the View. The dimension may be dragged to the desired position.
@@ -44,8 +36,6 @@ To change the properties of a dimension object either double-clicking it in the 
 Dimension objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". See [TechDraw LengthDimension](TechDraw_LengthDimension.md) for more information.
 
 ## Proprietăți
-
-This object has the same properties as the [TechDraw Dimension Length](TechDraw_Dimension_Length/ro.md) tool. See that tool for details.
 
 See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md).
 

@@ -5,7 +5,6 @@
    MenuLocation:3D Modeling → Library
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/fr.md)
    Addon:BIM
-   MenuLocation:3D Modeling → Library
    SeeAlso:[Arch Equipement](Arch_Equipment/fr.md)
 ---
 
@@ -13,7 +12,7 @@
 
 ## Description
 
-L\'outil Bibliothèque BIM vous permet de placer dans le modèle en cours un objet de la [Bibliothèque de pièces](Parts_Library/fr.md). Il doit être installé via le [Addon Manager](Addon_Manager/fr.md) pour que cet outil soit disponible.
+L\'outil Bibliothèque BIM vous permet de placer dans le modèle en cours un objet de la _ pour que cet outil soit disponible.
 
 <img alt="" src=images/BIM_Library_screenshot.png  style="width:800px;"> 
 *Above: Voir la boîte de dialogue '''Navigateur de bibliothèque''' dans le [Panneau des tâches](Task_panel/fr.md) à gauche*

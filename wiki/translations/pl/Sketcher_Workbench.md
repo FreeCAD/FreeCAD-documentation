@@ -51,7 +51,7 @@ Wewnątrz zamkniętego obszaru możemy mieć mniejsze powierzchnie nie zachodzą
 
 Gdy szkic jest w pełni związany, jego elementy zmienią kolor na zielony, geometria konstrukcji pozostanie niebieska. Zazwyczaj jest on gotowy w tym miejscu i nadaje się do wykorzystania przy tworzeniu bryły przestrzennej. Jednakże, gdy okno dialogowe Szkic jest zamknięte, warto przejść do Środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:Część](Part_Workbench/pl.md) i uruchomić funkcję **[16px"> [Sprawdź geometrię](Part_CheckGeometry/pl.md)**, aby upewnić się, że w Szkicu nie ma elementów, które mogą spowodować późniejsze problemy.
 
-## Narzędzia
+## Przybory
 
 Wszystkie narzędzia Środowiska prascy Szkicownik znajdują się w menu głównym **Szkicownik**, które pojawia się po załadowaniu tego środowiska pracy.
 

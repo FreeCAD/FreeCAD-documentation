@@ -15,12 +15,7 @@ A point cloud is a collection of points in 3D space. A point cloud is generally 
 
 这些工具已经可用:
 
--   <img alt="" src=images/Points_Import_Point_cloud.svg  style="width:32px;"> [导入点云](Points_Import/zh-cn.md): 将会从一个文本文件导入点云的三维点坐标集
--   <img alt="" src=images/Points_Export_Point_cloud.svg  style="width:32px;"> [导出点云](Points_Export/zh-cn.md): 将会导出点云的三维点坐标集到一个文本文件
--   [Transform](Points_Transform.md): transforms a point cloud.
--   [Convert](Points_Convert.md): converts to points.
--   <img alt="" src=images/PolygonPick.svg  style="width:32px;"> 多边型选择：计划中
--   [Merge](Points_Merge.md): merge several point clouds into one.
+All Points Workbench tools can be accessed from the **Points** menu. Some tools are also available in the **Points tools** toolbar.
 
 -   <img alt="" src=images/Points_Convert.svg  style="width:32px;"> [Convert to points\...](Points_Convert.md): Creates point clouds from shape objects.
 

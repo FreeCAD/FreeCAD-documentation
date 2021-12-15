@@ -59,7 +59,7 @@ page.Template = FreeCAD.ActiveDocument.Template
 
 [TechDraw Modèles](TechDraw_Templates/fr.md) pour plus d\'informations sur la création de modèles.
 
-Voir les informations dans [TechDraw Nouvelle page par défaut](TechDraw_New_Default/fr.md) pour modifier manuellement les champs de texte modifiables dans le code de la feuille.
+Voir les informations dans [TechDraw Nouvelle page par défaut](TechDraw_PageDefault/fr.md) pour modifier manuellement les champs de texte modifiables dans le code de la feuille.
 
 
 

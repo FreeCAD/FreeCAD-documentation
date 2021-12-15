@@ -12,7 +12,7 @@
 
 ## Beschreibung
 
-Der **Std Print**-Befehl ist in erster Linie zum Drucken von [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) Seiten gedacht, kann aber auch verwendet werden, um zu drucken, was gerade in der [3D Ansicht](3D_View/de.md) sichtbar ist.
+Der **Std Print**-Befehl ist in erster Linie zum Drucken von [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) Seiten gedacht, kann aber auch verwendet werden, um zu drucken, was gerade in der [3D Ansicht](3D_view/de.md) sichtbar ist.
 
 ## Anwendung
 

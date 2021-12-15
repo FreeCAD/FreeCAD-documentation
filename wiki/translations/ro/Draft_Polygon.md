@@ -46,9 +46,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 ## Cum se utilizează 
 
-1.  Apăsați tasta **_ 
-    [Proiect Polygon](Draft_Polygon/ro.md)** sau apăsați **P** apoi tastele **G**
-2.  Faceți clic pe un prim punct al vizualizării 3D sau tastați un [coordinate](Draft_Coordinates/ro.md) pentru a indica centrul
+1.  Apăsați tasta **<img src="images/_Draft_Polygon.svg_" width= 16px> [Proiect Polygon](Draft_Polygon/ro.md)
+** sau apăsați **P** apoi tastele **G**
+2.  Faceți clic pe un prim punct al vizualizării 3D sau tastați un coordinate pentru a indica centrul
 3.  Ajustați numărul dorit de laturi în dialogul de opțiuni,
 4.  Faceți clic pe un alt punct al vizualizării 3D sau tastați o valoare de rază pentru a defini raza poligonului. Poligonul va fi, de asemenea, o fațetă, chiar dacă apare ca un cadru de sârmă.
 

@@ -3,9 +3,18 @@
 
 ## Einführung
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD verwendet als interne Darstellungen für die erzeugten Pfade so genannte G-Codes. Sie können solche Dinge beschreiben wie: Geschwindigkeit und Vorschübe, Anhalten des Motors usw\... Aber das Wichtigste sind die Bewegungen, die sie beschreiben. Diese Bewegungen sind ziemlich einfach: Sie können gerade Linien oder Kreisbögen sein. Anspruchsvollere Kurven wie B-Splines werden bereits von FreeCADs <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Pfad Arbeitsbereich](Path_Workbench/de.md) angenähert.
 
+
+</div>
+
 ## Was der Postprozessor für dich tun kann 
+
+
+<div class="mw-translate-fuzzy">
 
 Viele Fräsen verwenden ebenfalls G-Codes zur Steuerung des Fräsprozesses. Sie mögen fast wie die internen Codes aussehen, aber es kann einige Unterschiede geben:
 
@@ -19,6 +28,9 @@ Viele Fräsen verwenden ebenfalls G-Codes zur Steuerung des Fräsprozesses. Sie 
 -   Vielleicht möchtest du Kommentare zur besseren Lesbarkeit hinzufügen oder sie unterdrücken, um das Programm klein zu halten.
 -   Möglicherweise möchtest du eine benutzerdefinierte Kopfzeile einfügen, um das Programm für zukünftige Referenzen zu identifizieren oder zu dokumentieren.
 -   \...
+
+
+</div>
 
 Darüber hinaus gibt es weitere Sprachen zur Steuerung einer Fräse, wie z.B. HPGL, DXF oder andere.
 
@@ -36,23 +48,43 @@ Der Pfad in FreeCAD würde wie folgt aussehen. Bitte beachte den kleinen blauen 
 
 ![](images/Path_PostProcessorModel.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Du kannst dir dann die Datei anschauen und sie mit der Ausgabe bestehender Postprozessoren wie {{FileName|linux_cnc_post.py}} oder {{FileName|grbl_post.py}} und versuche selbst, sie anzupassen, oder lade deine auf das Pfadforum <https://forum.freecadweb.org/viewforum.php?f=15> hoch, um Hilfe zu bekommen.
+
+
+</div>
 
 ## Namenskonvention
 
-Für ein Dateiformat {{FileName|<filename>}} sollte der Postprozessor den Namen {{FileName|<filename>_post.py}} erhalten. Bitte beachte, dass die Nachsilbe und die Erweiterung {{Dateiname|_post.py}} klein geschrieben werden müssen.
+Für ein Dateiformat {{FileName|<filename>}} sollte der Postprozessor den Namen {{FileName|<filename>_post.py}} erhalten. Bitte beachte, dass die Nachsilbe und die Erweiterung {{FileName|_post.py}} klein geschrieben werden müssen.
 
 Wenn du testest, leg es in dein Makroverzeichnis. Wenn es gut funktioniert, erwäge bitte, es anderen zur Verfügung zu stellen (poste es im FreeCAD Pfad Forum), damit es in Zukunft in die FreeCAD Distribution aufgenommen werden kann.
 
 ## Andere vorhandene Postprozessoren 
 
+
+<div class="mw-translate-fuzzy">
+
 Zum Vergleich kannst du dir die Postprozessoren ansehen, die mit deiner FreeCAD Installation geliefert werden. Sie befinden sich unter dem Mod Verzeichnis in Path/PathScripts/post. Weit verbreitet sind die Postprozessoren [linuxcnc](http://linuxcnc.org/) und [grbl](https://github.com/grbl/grbl). Das Studium ihres Codes kann hilfreiche Einblicke geben.
 
 -   Unter Linux lautet der Pfad /usr/share/freecad/Mod/Path/PathScripts/post
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 ## Programmierung deines eigenen Postprozessors 
 
 In diesem Beitrag werden einige Interna des linuxcnc Postprozessors diskutiert. Die gleiche Struktur wird auch in anderen Postprozessoren verwendet.
+
+
+</div>
+
+This post discusses some internals from the linuxcnc postprocessors. The same strucure is used in other postprocessors as well.
 
 Beim ansehen von linuxcnc\_post.py, siehst du die Exportfunktion (ab 0.19.20514 ist es in Zeile 156)
 
@@ -98,7 +130,7 @@ Du wirst sehen, dass beide Funktionen auch die Funktion \"Zeilennummer()\" aufru
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Path_PostProcess.svg  style="width:24px;"> [Pfad PostProzess](Path_PostProcess/de.md)
+-   <img alt="" src=images/Path_Post.svg  style="width:24px;"> [Pfad PostProzess](Path_Post/de.md)
 
 
 </div>

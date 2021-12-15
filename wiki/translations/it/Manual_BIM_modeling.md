@@ -1,7 +1,4 @@
 # Manual:BIM modeling/it
-}
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -100,7 +97,7 @@ Le singole pareti sono comunque ancora accessibili, espandendo il muro nella vis
 -   Impostare il [Piano di lavoro](Draft_SelectPlane/it.md) su **auto** in modo da non sono limitati al piano terra
 -   Premere il pulsante <img alt="" src=images/Arch_Window.png  style="width:16px;"> [Finestra](Arch_Window/it.md).
 -   Nel pannello di creazione della finestra, selezionare la preset **Simple door** , e impostare la sua **Width** a 0.9 m e la sua **Height** a 2.1 m
--   Assicurarsi che la casella di aggancio a <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Vicinanza](Draft_Near/it.md) sia attivata, in modo che sia possibile agganciarsi alle facce
+-   Assicurarsi che la casella di aggancio a <img alt="" src=images/Draft_Snap_Near.svg  style="width:16px;"> [Vicinanza](Draft_Snap_Near/it.md) sia attivata, in modo che sia possibile agganciarsi alle facce
 -   Posizionare la finestra verso il centro della faccia anteriore del muro:
 
 
@@ -226,7 +223,7 @@ Ora aggiungiamo alcune dimensioni. A differenza del _, dove abbiamo disegnato tu
 
 -   Fare clic sul documento \"house\" nella vista ad albero, e di creare due nuovi gruppi: **Plan dimensions** and **Elevation dimensions**.
 -   Impostare come [Piano di lavoro](Draft_SelectPlane/it.md) il piano **XY**
--   Accertarsi che l\'aggancio <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:16px;"> [limita al piano di lavoro](Draft_WorkingPlane/it.md) sia attivato, in modo che tutto quello che si disegna sia posizionato nel piano di lavoro.
+-   Accertarsi che l\'aggancio <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:16px;"> [limita al piano di lavoro](Draft_Snap_WorkingPlane/it.md) sia attivato, in modo che tutto quello che si disegna sia posizionato nel piano di lavoro.
 -   Disegnare un paio di <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> [dimensioni](Draft_Dimension/it.md), per esempio come nell\'immagine sottostante. Premendo **Shift** e **Ctrl** mentre si agganciano i punti di quota si ottengono opzioni aggiuntive.
 
 

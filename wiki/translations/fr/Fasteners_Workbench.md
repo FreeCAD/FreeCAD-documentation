@@ -11,10 +11,9 @@ L\'<img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [at
 
 L\'utilisation est assez simple :
 
-1.  Installez l\'atelier Fasteners via le [gestionnaire d'addon](Addon_Manager/fr.md)
-2.  Démarrer un nouveau document dans FreeCAD. Sélectionnez l\'atelier Fasteners dans la liste déroulante.
-3.  Sélectionnez l\'<img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [atelier Fasteners](Fasteners_Workbench/fr.md) dans le [menu déroulant des ateliers](Std_Workbench/fr#Dans_le_menu_d.C3.A9roulant.md).
-4.  La [barre d\'outils](#Barre_d.27outils.md) appartenant à l\'atelier sera affichée.
+1.  Installez l\'atelier Fasteners via le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md)
+2.  Créez un nouveau document.
+3.  Sélectionnez l\'<img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [atelier Fasteners](Fasteners_Workbench/fr.md) dans le [menu déroulant des ateliers](Std_Workbench/fr.md). La [barre d\'outils](#Barre_d.27outils.md) appartenant à l\'atelier sera affichée.
 
 Utilisation simple : En cliquant sur l\'un des boutons de fixation, la fixation en question sera créée à l\'origine avec des propriétés par défaut. Pour modifier les propriétés d\'une fixation, sélectionnez-la et allez dans l\'onglet **Data** de l\'[Éditeur de propriétés](Property_editor/fr.md).
 

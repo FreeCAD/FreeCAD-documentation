@@ -52,9 +52,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 1.  
     **<img src="images/Draft_Line.svg" width=16px> [Çizgi](Draft_Line/tr.md)**düğmesine basın veya **L** ardından **I** tuşları.
 
-2.  3D görünümde bir ilk noktaya tıklayın veya bir [koordinat](Draft_Coordinates/tr.md) yazın ve **<img src="images/_Draft_AddPoint.svg" width=16px> [Nokta ekle](Draft_AddPoint/tr_.md)** düğmesine basın.
+2.  3D görünümde bir ilk noktaya tıklayın veya bir koordinat yazın ve **<img src="images/_Draft_AddPoint.svg" width=16px> Nokta ekle** düğmesine basın.
 
-3.  3D görünümünde ikinci bir noktaya tıklayın veya bir [koordinat](Draft_Coordinates/tr.md) yazın ve **<img src="images/_Draft_AddPoint.svg" width=16px> [Nokta ekle](Draft_AddPoint/tr.md)** düğmesine basın.
+3.  3D görünümünde ikinci bir noktaya tıklayın veya bir koordinat yazın ve **<img src="images/_Draft_AddPoint.svg" width=16px> Nokta ekle** düğmesine basın.
 
 
 </div>
@@ -71,7 +71,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Verilen eksendeki ikinci noktayı kısıtlamak için ilk noktadan sonra **X**, **Y** veya **Z** tuşlarına basın.
 
 -   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında **Enter** tuşuna basın.
-    -   Noktanın kutupsal koordinatlarını \"Uzunluk\" ve \"Açı\" değerlerini vererek de tanımlayabilirsiniz. İşaretçiyi belirtilen açıyla sınırlamak için \"Açı\" nın yanındaki onay kutusunu tıklayın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda **<img src="images/_Draft_AddPoint.svg" width=16px> [Nokta ekle](Draft_AddPoint/tr.md)** düğmesine basabilirsiniz.
+    -   Noktanın kutupsal koordinatlarını \"Uzunluk\" ve \"Açı\" değerlerini vererek de tanımlayabilirsiniz. İşaretçiyi belirtilen açıyla sınırlamak için \"Açı\" nın yanındaki onay kutusunu tıklayın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda **<img src="images/_Draft_AddPoint.svg" width=16px> Nokta ekle** düğmesine basabilirsiniz.
 
 -   **Göreceli**moduna geçmek için **R** tuşuna basın veya onay kutusunu tıklayın. Göreceli mod açıksa, ikinci noktanın koordinatları birincisine göredir; değilse, kesindir, kökenlerinden alınır (0,0,0).
 
@@ -81,7 +81,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   İlk noktanıza göre ikinci noktanızı yatay veya dikey olarak [constrain](Draft_Constrain/tr.md) çizerken **Shift** tuşunu basılı tutun.
 
--    **Ctrl**\+ **Z** tuşuna basınız veya sonuncuyu geri almak için {{button|<img src="images/Draft_UndoLine.png" width=12px> [Undo](Draft_UndoLine/tr.md)}} düğmesine basınız. puan.
+-    **Ctrl**\+ **Z** tuşuna basınız veya sonuncuyu geri almak için {{button|<img src="images/Draft_UndoLine.png" width=12px> Undo}} düğmesine basınız. puan.
 
 -   Geçerli komutu iptal etmek için **Esc** veya **Close** düğmesine basınız.
 

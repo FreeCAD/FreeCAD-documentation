@@ -42,7 +42,13 @@ Das Teil Austragungswerkzeug ähnelt dem <img alt="" src=images/Part_Loft.svg  s
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Pfad**: kann eine Linie (Kante) oder eine Reihe von Verbindungslinien, Draht oder verschiedene Part Arbeitsbereich Grundelementen, Entwurf Arbeitsbereich Formelemente oder eine Skizze sein. Der Pfad wird oft direkt aus dem Hauptmodellfenster ausgewählt, kann aber auch in der _ ausgewählt werden als Pfad). Der Pfad kann entweder offen oder geschlossen sein und erzeugt somit entweder eine offene oder geschlossene Austragung. Ein geschlossener Pfad, wie z.B. ein Teilkreis, führt zu einer geschlossenen Austragung. Beispielsweise erzeugt die Austragung eines kleineren Kreises um eine Bahn mit einem größeren Kreis einen Torus.
+
+
+</div>
 
 ## Eigenschaften
 

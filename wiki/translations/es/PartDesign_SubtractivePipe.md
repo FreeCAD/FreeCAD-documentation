@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/es
-   Name:PartDesign SubstractivePipe
+   Name:PartDesign SubtractivePipe
    Name/es:PartDesign Barrido sustractivo
    MenuLocation:Part Design → Create a substractive feature → Tubo sustractivo
    Workbenches:[PartDesign](PartDesign_Workbench/es.md)
@@ -85,12 +85,18 @@ El **Barrido sustractivo** crea un sólido sustractivo en el Body (cuerpo) activ
 
 -    {{PropertyData/es|Transformation}}: *Constant* usa una única sección. *Multisection* usa dos o más secciones. *Linear*, *S-shape* and *Interpolation* no funcionan actualmente.
 
-## Limitaciones
+## Notes
+
+
+<div class="mw-translate-fuzzy">
 
 -   Los bocetos usados como secciones deben formar perfiles cerrados.
 -   No es posible usar un vértice como sección.
 -   Una sección no puede estar situada sobre el mismo plano que la que la precede.
 -   Para un mejor control de la forma del barrido, es recomendable que todas las secciones tengan el mismo número de segmentos. Por ejemplo, para un barrido entre un rectángulo y un círculo, el círculo debe ser dividido en 4 arcos conectados.
+
+
+</div>
 
 
 

@@ -1,7 +1,7 @@
 # Viewprovider
 ## Introduction
 
-[Viewproviders](Viewprovider.md) are classes that define the way objects will look like in the [tree view](tree_view.md) and the [3D view](3D_view.md), and how they will interact with certain graphical actions such as [selection](selection.md).
+[Viewproviders](Viewprovider.md) are classes that define the way objects will look like in the [tree view](tree_view.md) and the [3D view](3D_view.md), and how they will interact with certain graphical actions such as [selection](Selection_methods.md).
 
 They complement the [scripted objects](scripted_objects.md). While the base class of the scripted object defines its **data** [properties](property.md), the viewprovider defines it **view** [properties](property.md). These view properties are not essential information of the object, as they only indicate superficial information like line width, line color, face color, etc. In a terminal only session, the viewprovider is not loaded because there will be no interface to manipulate those visible properties.
 

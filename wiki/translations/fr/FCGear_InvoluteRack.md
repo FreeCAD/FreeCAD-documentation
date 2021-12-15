@@ -20,11 +20,8 @@ Les crémaillères sont utilisées pour convertir un mouvement rotatif en un mou
 -   Treuil à crémaillère et pignon comme palan mécanique (par exemple cric de voiture).
 -   Entraînements pneumatiques à crémaillère et pignon utilisés pour contrôler les vannes dans le transport par pipeline.
 
-:   ![](images/Involute-Rack_example.png )
-:   
-    
+![](images/Involute-Rack_example.png ) 
 *De gauche à droite: Engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal*
-    
 
 ## Utilisation
 
@@ -41,9 +38,9 @@ Les crémaillères sont utilisées pour convertir un mouvement rotatif en un mou
 
 {{Properties_Title|Base}}
 
--    {{PropertyData/fr|Placement}}: [Placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
+-    **Placement**: [Placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
 
--    {{PropertyData/fr|Label}}: nom d\'utilisateur de l\'objet dans [vue en arborescence](tree_view/fr.md).
+-    **Label**: nom d\'utilisateur de l\'objet dans [vue en arborescence](Tree_view/fr.md).
 
 
 {{Properties_Title|computed}}
@@ -53,32 +50,32 @@ Les crémaillères sont utilisées pour convertir un mouvement rotatif en un mou
 
 {{Properties_Title|gear_parameter}}
 
--    {{PropertyData/fr|add_endings}}: si **True** alors la longueur totale de la crémaillère est dents \* pas, sinon la crémaillère commence avec un flanc de dent.
+-    **add_endings**: si **True** alors la longueur totale de la crémaillère est dents \* pas, sinon la crémaillère commence avec un flanc de dent.
 
--    {{PropertyData/fr|beta}}: avec l\'angle d\'hélice β, un engrenage hélicoïdal est créé (valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche).
+-    **beta**: avec l\'angle d\'hélice β, un engrenage hélicoïdal est créé (valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche).
 
--    {{PropertyData/fr|clearance}}: La valeur par défaut est 0,25 (voir aussi les informations dans les **Remarques**).
+-    **clearance**: La valeur par défaut est 0,25 (voir aussi les informations dans les **Remarques**).
 
--    {{PropertyData/fr|double_helix}}: **True** crée un engrenage à double hélice (voir aussi les informations dans les **Remarques**).
+-    **double_helix**: **True** crée un engrenage à double hélice (voir aussi les informations dans les **Remarques**).
 
--    {{PropertyData/fr|head}}: valeur par défaut est 0,00. Cette valeur est utilisée pour modifier la hauteur des dents.
+-    **head**: valeur par défaut est 0,00. Cette valeur est utilisée pour modifier la hauteur des dents.
 
--    {{PropertyData/fr|height}}: valeur de la largeur de l\'engrenage.
+-    **height**: valeur de la largeur de l\'engrenage.
 
--    {{PropertyData/fr|module}}: module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans les **Remarques**).
+-    **module**: module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans les **Remarques**).
 
--    {{PropertyData/fr|properties_from_tool}}: si l\'angle d\'hélice β est donné et que **properties_from-tool** est activé, les paramètres d\'engrenage sont recalculés en interne pour l\'engrenage tourné.
+-    **properties_from_tool**: si l\'angle d\'hélice β est donné et que **properties_from-tool** est activé, les paramètres d\'engrenage sont recalculés en interne pour l\'engrenage tourné.
 
--    {{PropertyData/fr|simplified}}: **True** génère un affichage simplifié (sans dents).
+-    **simplified**: **True** génère un affichage simplifié (sans dents).
 
--    {{PropertyData/fr|teeth}}: nombre de dents.
+-    **teeth**: nombre de dents.
 
--    {{PropertyData/fr|thickness}}: hauteur de la racine de la dent juqu\'au côté inférieur de la tige.
+-    **thickness**: hauteur de la racine de la dent juqu\'au côté inférieur de la tige.
 
 
 {{Properties_Title|involute_parameter}}
 
--    {{PropertyData/fr|pressure_parameter}}: valeur par défaut 20 (voir aussi les informations dans les **Remarques**).
+-    **pressure_parameter**: valeur par défaut 20 (voir aussi les informations dans les **Remarques**).
 
 ### Vue
 
@@ -117,7 +114,10 @@ gear.height = 10
 gear.double_helix = True
 App.ActiveDocument.recompute()
 Gui.SendMsgToActiveView("ViewFit")
-``` 
+```
+
+
+
 
 _ _ _
 

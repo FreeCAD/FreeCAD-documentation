@@ -11,7 +11,13 @@ Eine funktionsfähige lokale Dokumentation besteht aus mindestens zwei Dateien: 
 
 Die Hilfedateien können hier heruntergeladen werden: <https://github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD.0_19.Offline.Doc.7z>
 
-Als zukünftige Option sollen sie auch innerhalb von FreeCAD mit dem [Erweiterungsverwalter](AddonManager/de.md) installiert werden können.
+
+<div class="mw-translate-fuzzy">
+
+Als zukünftige Option sollen sie auch innerhalb von FreeCAD mit dem [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden können.
+
+
+</div>
 
 Die Hilfedateien haben immer die gleichen Namen:{{FileName|freecad.qhc}} und {{FileName|freecad.qch}}. Um verschiedene Versionen dieser Hilfsdateien zu haben, müssen sie in unterschiedlichen Verzeichnissen gespeichert werden. Falls die Dokumentation manuell heruntergeladen wird, ist die ZIP-Datei lokal zu speichern und in das gewünschte Dateiverzeichnis zu extrahieren.
 

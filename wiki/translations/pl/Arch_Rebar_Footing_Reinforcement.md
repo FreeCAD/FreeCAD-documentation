@@ -40,180 +40,180 @@ To polecenie jest częścią _ poprzez menu **Przybory → Menadżera dodatków 
 ![](images/Input_Fields_for_Parallel_rebars_in_footing_GUI_Dialog_box.png ) 
 *Okno dialogowe dla zbrojenia stóp fundamentowych zbrojenie w kierunku równoległym do wybranej ściany*
 
-5\. Now click on Next button or select Cross Rebars in list view and fill desired data for input data for rabars in cross direction of selected face in footing reinforcement mesh as show in below image.
+5\. Teraz kliknij na przycisk Dalej lub wybierz Poprzeczne pręty zbrojeniowe z listy i wypełnij żądane dane wejściowe dla prętów zbrojeniowych w kierunku poprzecznym wybranej ściany w siatce zbrojenia ławy fundamentowej, jak pokazano na poniższym rysunku.
 
 ![](images/GUICrossRebarInputsFooting.png ) 
-*Dialog Box for Footing Reinforcement of the Rebars in cross direction of selected face*
+*Okno dialogowe dla zbrojenia stóp fundamentowych zbrojenie w kierunku poprzecznym do wybranej ściany*
 
-6\. Click next or click on Columns in list view and fill desired input for columns in footing reinforcement. Here you can select to add secondary rebars in columns or not.
+6\. Kliknij przycisk Dalej lub kliknij na Słupy w widoku listy i wpisz żądane dane dla słupów w zbrojeniu ławy fundamentowej. W tym miejscu można wybrać, czy w słupach mają być dodawane dodatkowe pręty zbrojeniowe, czy nie.
 
 ![](images/Columns_input_fields_for_column_footing.png ) 
-*Dialog Box for input fields of Colums in Footing Reinforcement*
+*Okno dialogowe dla pól wprowadzania danych w słupach zbrojenia ławy fundamentowej*
 
-7\. Click next or click on Ties in list view and fill desired input for Ties in columns of footing reinforcement.
+7\. Kliknij Dalej lub kliknij na Więzy w widoku listy i wpisz żądane dane dla Ściągów w słupach zbrojenia ławy fundamentowej.
 
 ![](images/Ties_input_fields_for_column_footing.png ) 
-*Dialog Box for input fields of Ties in columns of Footing Reinforcement*
+*Okno dialogowe dla pól wprowadzania danych dla Ściągów w kolumnach Zbrojenie ławy fundamentowej*
 
-8\. Click next or click on Main rebars in list view and fill desired input for main rebars in columns of footing reinforcement.
+8\. Kliknij Dalej lub kliknij na Pręty zbrojeniowe główne w widoku listy i wpisz żądane dane dla prętów zbrojeniowych głównych w słupach zbrojenia ławy fundamentowej.
 
 ![](images/Main_Rebar_input_fields_for_column_footing.png ) 
-*Dialog Box for input fields of Main rebars in columns of Footing Reinforcement *
+*Okno dialogowe dla pól wprowadzania danych dotyczących zbrojenia głównego w kolumnach zbrojenia ławy fundamentowej*
 
-Note: step 9 and 10 are required, only if secondary rebars check is enable in step 6.
+Uwaga: kroki 9 i 10 są wymagane tylko wtedy, gdy w kroku 6 włączona jest kontrola pomocniczych prętów zbrojeniowych.
 
-9\. Click next or click on XDir Secondary rebar in list view and fill desired input for secondary rebars in X direction in a column in footing reinforcement.
+9\. Kliknij Dalej lub kliknij na XDir Pręty zbrojeniowe pomocnicze w widoku listy i wpisz żądane dane dla prętów zbrojeniowych pomocniczych w kierunku X w kolumnie w zbrojeniu ławy fundamentowej.
 
 ![](images/X_Direction_secondary_rebar_sinput_fields_for_column_footing_Reinforcement.png ) 
-*Dialog Box for input fields of X direction rebars in columns of Footing Reinforcement*
+*Okno dialogowe dla pól wprowadzania danych dotyczących prętów zbrojeniowych w kierunku X w słupach zbrojenia ławy fundamentowej*
 
-10\. Click next or click on YDir Secondary rebar in list view and fill desired input for secondary rebars in Y direction in a column in footing reinforcement.
+10\. Kliknij przycisk Dalej lub kliknij na YDir Pręty zbrojeniowe pomocnicze w widoku listy i wpisz żądane dane dla prętów zbrojeniowych pomocniczych w kierunku Y w kolumnie w zbrojeniu ławy fundamentowej.
 
 ![](images/Y_Direction_secondary_rebars_input_fields_for_Column_footing_reinforcement.png ) 
-*Dialog Box for input fields of Y direction rebars in columns of Footing Reinforcement*
+*Okno dialogowe dla pól wprowadzania danych dla prętów zbrojeniowych w kierunku Y w kolumnach zbrojenia ławy fundamentowej*
 
-11\. Click **OK** or **Apply** or **Finish** to generate Footing reinforcement.
-12. Click **Cancel** to exit the dialog box.
+11\. Kliknij przycisk **OK** lub **Zastosuj** lub **Zakończ**, aby wygenerować zbrojenie ławy.
+. 12. Kliknij przycisk **Anuluj**, aby opuścić okno dialogowe.
 
-## Properties
+## Właściwości
 
-**Properties for Rebars in Parallel Direction to selected face in footing Reinforcement:**
+### **Właściwości prętów zbrojeniowych w kierunku równoległym do wybranej ściany w zbrojeniu stopy fundamentowej:** 
 
--   {{ PropertyData\|Mesh Cover Along}}: It represent alignment of rebar mesh along top and/or bottom face of structure. It can have three values \"Top\", \"Bottom\" and \"Both\".
--   {{ PropertyData\|Rebar Type}}: Type of rebar for parallel rebars for footing reinforcement. It can have three values \'StraightRebar\', \'LShapeRebar\' and \'UShapeRebar\'.
--   {{ PropertyData\|Front Cover}}: The distance between parallel rebar and selected face.
--   {{ PropertyData\|Left Cover}}: The distance between the left end of the parallel rebar to the left face of the structure.
--   {{ PropertyData\|Right Cover}}: The distance between the right end of the parallel rebar to right face of the structure.
--   {{ PropertyData\|Bottom Cover}}: The distance between parallel rebars from the bottom face of the structure.
--   {{ PropertyData\|Top Cover}}: The distance between parallel rebars from the top face of the structure.
--   {{ PropertyData\|Rear Cover}}: Rear cover for footing reinforcement of parallel rebars.
--   {{ PropertyData\|Rounding}}: A rounding value to be applied to the corners of the bars, expressed in times of diameter of parallel rebars.
--   {{ PropertyData\|Diameter}}: Diameter of parallel rebars
--   {{ PropertyData\|Amount}}: It contains count of parallel rebars.
--   {{ PropertyData\|Spacing}}: It contains spacing between parallel rebars.
+-   {{ PropertyData/pl\|Wzdłużne pokrycie siatką}}: Reprezentuje wyrównanie siatki zbrojeniowej wzdłuż górnej i / lub dolnej powierzchni konstrukcji. Może mieć trzy wartości \"Góra\", \"Dół\" i \"Obie\".
+-   {{ PropertyData/pl\|Typ zbrojenia}}: Typ prętów zbrojeniowych dla równoległych prętów zbrojeniowych do zbrojenia stóp fundamentowych. Może mieć trzy wartości: \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)* i \"UShapeRebar\" *(pręt zbrojeniowy w kształcie litery U)*.
+-   {{ PropertyData/pl\|Pokrycie od przodu}}: Odległość równoległego pręta zbrojeniowego od wybranej powierzchni.
+-   {{ PropertyData/pl\|Pokrycie z lewej}}: Odległość lewego końca równoległego pręta zbrojeniowego do lewego boku konstrukcji.
+-   {{ PropertyData/pl\|Pokrycie z prawej}}: Odległość prawego końca równoległego pręta zbrojeniowego do prawego boku konstrukcji.
+-   {{ PropertyData/pl\|Pokrycie od dołu}}: Odległość równoległych prętów zbrojeniowych od dolnej powierzchni konstrukcji.
+-   {{ PropertyData/pl\|Pokrycie od góry}}: Odległość równoległych prętów zbrojeniowych od górnej powierzchni konstrukcji.
+-   {{ PropertyData/pl\|Pokrycie od tyłu}}: Pokrycie zbrojeniem tyłu stopy fundamentowej z równolegle ułożonych prętów zbrojeniowych.
+-   {{ PropertyData/pl\|Zaokrąglanie}}: Wartość zaokrąglenia, którą należy zastosować do narożników prętów, wyrażona w krotności średnicy równoległych prętów zbrojeniowych.
+-   {{ PropertyData/pl\|Średnica}}: Średnica równoległych prętów zbrojeniowych.
+-   {{ PropertyData/pl\|Ilość}}: Zawiera liczbę równoległych prętów zbrojeniowych.
+-   {{ PropertyData/pl\|Rozstawienie}}: Zawiera odstępy między równoległymi prętami zbrojeniowymi.
 
-**Properties for Rebars in Cross Direction to selected face in footing Reinforcement:**
+### **Właściwości prętów zbrojeniowych w kierunku poprzecznym do wybranej ściany w zbrojeniu stopy fundamentowej:** 
 
--    **Rebar Type**: Type of rebar for cross rebars for footing reinforcement. It can have three values \'StraightRebar\', \'LShapeRebar\' and \'UShapeRebar\'.
+-    {{PropertyData/pl|Typ zbrojenia}}: Typ prętów zbrojeniowych dla poprzecznych prętów zbrojeniowych do zbrojenia stóp fundamentowych. Może mieć trzy wartości: \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)* i \"UShapeRebar\" *(pręt zbrojeniowy w kształcie litery U)*.
 
--    **Front Cover**: The distance between cross rebar and cross\_face (face perpendicular to selected face).
+-    {{PropertyData/pl|Pokrycie od przodu}}: Odległość poprzecznego pręta zbrojeniowego do powierzchni poprzecznej \"cross\_face\" *(powierzchnia prostopadła do wybranej powierzchni)*.
 
--    **Left Cover**: The distance between the left end of the cross rebar to the left face of the structure.
+-    {{PropertyData/pl|Pokrycie z lewej}}: Odległość lewego końca poprzecznego pręta zbrojeniowego do lewego boku konstrukcji.
 
--    **Right Cover**: The distance between the right end of the cross rebar to right face of the structure.
+-    {{PropertyData/pl|Pokrycie z prawej}}: Odległość prawego końca poprzecznego pręta zbrojeniowego do prawego boku konstrukcji.
 
--    **Bottom Cover**: The distance between cross rebars from the bottom face of the structure.
+-    {{PropertyData/pl|Pokrycie od dołu}}: Odległość poprzecznego prętów zbrojeniowych od dolnej powierzchni konstrukcji.
 
--    **Top Cover**: The distance between cross rebars from the top face of the structure.
+-    {{PropertyData/pl|Pokrycie od góry}}: Odległość poprzecznego prętów zbrojeniowych od górnej powierzchni konstrukcji.
 
--    **Rear Cover**: Rear cover for footing reinforcement of cross rebars.
+-    {{PropertyData/pl|Pokrycie od tyłu}}: Pokrycie zbrojeniem tyłu stopy fundamentowej z poprzecznie ułożonych prętów zbrojeniowych.
 
--    **Rounding**: A rounding value to be applied to the corners of the bars, expressed in times of diameter of cross rebars.
+-    {{PropertyData/pl|Zaokrąglanie}}: Wartość zaokrąglenia, którą należy zastosować do narożników prętów, wyrażona w krotności średnicy równoległych prętów zbrojeniowych.
 
--    **Diameter**: Diameter of cross rebars
+-    {{PropertyData/pl|Średnica}}: Średnica równoległych prętów zbrojeniowych.
 
--    **Amount**: It contains count of cross rebars.
+-    {{PropertyData/pl|Ilość}}: Zawiera liczbę równoległych prętów zbrojeniowych.
 
--    **Spacing**: It contains spacing between cross rebars.
+-    {{PropertyData/pl|Rozstawienie}}: Zawiera odstępy między równoległymi prętami zbrojeniowymi.
 
-**Properties for Columns in footing Reinforcement:**
+### **Właściwości zbrojenia słupów w stopie fundamentowej:** 
 
--    **Front Cover**: Distance between selected face and columns.
+-   {{ PropertyData/pl\|Pokrycie od przodu}}: Odległość między wybraną ścianą a słupem.
 
--    **Left Cover**: Distance between left face and columns.
+-   {{ PropertyData/pl\|Pokrycie z lewej}}: Odległość między lewą ścianą a słupem.
 
--    **Right Cover**: Distance between right face and columns.
+-    {{PropertyData/pl|Pokrycie od prawej}}: Odległość między prawą stroną a słupem.
 
--    **Rear Cover**: Distance between rear face and columns.
+-    {{PropertyData/pl|Pokrycie od tyłu}}: Odległość między tylną ścianą a słupem.
 
--    **Column Width**: Width of column.
+-    {{PropertyData/pl|Szerokość słupa}}: Szerokość dla słupa.
 
--    **Column Length**: Length of column.
+-    {{PropertyData/pl|Długość słupa}}: Długość słupa.
 
--    **X direction column amount**: It contains count of columns in x direction. If X direction amount radio button is enabled.
+-    {{PropertyData/pl|Ilość słupów w kierunku X}}: Zawiera liczbę słupów w kierunku X. Jeśli opcja Ilość w kierunku X jest włączona.
 
--    **X direction column spacing**: It contains spacing between columns in x direction. If X direction spacing radio button is enabled.
+-    {{PropertyData/pl|Odstępy między słupami w kierunku X}}: Zawiera odstępy między słupami w kierunku X. Jeśli opcja ta jest włączona.
 
--    **Y direction column amount**: It contains count of columns in y direction. If Y direction amount radio button is enabled.
+-    {{PropertyData/pl|Ilość kolumn w kierunku Y}}: Zawiera ilość słupów w kierunku Y. Jeśli opcja Ilość w kierunku Y jest włączona.
 
--    **Y direction column spacing**: It contains spacing between columns in y direction. If Y direction spacing radio button is enabled.
+-    {{PropertyData/pl|Odstępy między słupami w kierunku Y}}: Zawiera odstępy między słupami w kierunku Y. Jeśli opcja ta jest włączona.
 
--    **Add Secondary Rebars**: If checked add secoundary x and y direction rebars in columns.
+-    {{PropertyData/pl|Dodaj pomocnicze pręty zbrojeniowe}}: Jeżeli opcja jest zaznaczona, dodaje pomocnicze pręty zbrojeniowe w słupach w kierunku X i Y.
 
-**Properties for Ties in Columns of footing Reinforcement:**
+### **Właściwości zbrojenia prętami cienkimi słupów w stopach fundamentowych:** 
 
--    **Top Cover**: Top cover for ties outside footing from Main Rebars end.
+-    {{PropertyData/pl|Pokrycie od góry}}: Wierzchnie pokrycie prętami cienkimi na zewnątrz ławy fundamentowej od strony głównych prętów zbrojeniowych.
 
--    **Bottom Cover **: Bottom cover of ties from Bottom of Main Rebars in footing near mesh.
+-    {{PropertyData/pl|Pokrycie od dołu}}: Dolne pokrycie prętami cienkimi, od spodu głównych prętów zbrojeniowych w ławie fundamentowej w pobliżu siatki.
 
--    **Diameter**: Diameter of ties.
+-    {{PropertyData/pl|Średnica}}: Średnica prętów.
 
--    **Bent Angle**: Bent angle for ties.
+-    {{PropertyData/pl|Kąt gięcia}}: Kąt wygięcia dla prętów.
 
--    **Extension Factor**: Extension factor for ties extended edge.
+-    {{PropertyData/pl|Współczynnik wydłużenia}}: Współczynnik wydłużenia dla przedłużonej krawędzi pręta.
 
--    **Tie Number**: It contains count of rebars or spacing between ties, if Number radio button is enabled.
+-    {{PropertyData/pl|Liczba prętów}}: Zawiera liczbę prętów zbrojeniowych lub odstępy między prętami, jeśli opcja Ilość jest włączona.
 
--    **Tie Spacing**: It contains the spacing between ties, if Spacing radio button is enabled.
+-    {{PropertyData/pl|Rozstaw prętów}}: Zawiera odstępy między prętami, jeśli opcja Odstępy jest włączona.
 
-**Properties for Main Rebars in Columns of footing Reinforcement:**
+### **Właściwości zbrojenia prętami głównymi słupów w stopach fundamentowych:** 
 
--    **Rabar Type**: Rebar type for main rebars of column. It takes two different inputs for \'StraightRebar\', \'LShapeRebar\'.
+-    {{PropertyData/pl|Typ zbrojenia}}: Typ prętów zbrojeniowych dla głównych prętów zbrojeniowych słupa. Pobiera on dwa typy danych wejściowych: \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)*.
 
--    **Hook Orientation**: Hook orientation of main rebars in columns if main rabar type is LShapeRebar. It takes eight different orientations input for L-shaped hooks i.e. \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
+-    {{PropertyData/pl|Orientacja haka}}: Orientacja haka głównych prętów zbrojeniowych w kolumnach, jeśli typem głównego pręta jest LShapeRebar. Przyjmuje osiem różnych określeń dla haków w kształcie litery L, tj. \"Góra Wewnątrz\", \"Góra Na zewnątrz\", \"Dół Wewnątrz\", \"Dół Na zewnątrz\", \"Góra Lewo\", \"Góra Prawo\", \"Dól Lewo\", \"Dół Prawo\".
 
--    **Hook Extend Along**: Direction of main rebar (LShapeRebar) hook. it has two option \"x-axis\" and \"y-axis\".
+-    {{PropertyData/pl|Przedłużenie haka wzdłuż}}: Kierunek głównego haka pręta zbrojeniowego *(LShapeRebar)*. posiada dwie opcje \"x-axis\" i \"y-axis\".
 
--    **Hook Extension**: It specifies length of hook of main rebar (LShapeRebar).
+-    {{PropertyData/pl|Przedłużenie haka}}: Określa długość haka głównego pręta zbrojeniowego *(LShapeRebar)*.
 
--    **Rebar Rounding**: A rounding value to be applied to the corners of the bars, expressed in times the Main Rebar Diameter.
+-    {{PropertyData/pl|Zaokrąglanie prętów zbrojeniowych}}: Wartość zaokrąglenia, która ma być zastosowana do narożników prętów, wyrażona w krotności średnicy głównego pręta zbrojeniowego.
 
--    **Top Offset**: Top offset of main rebars in column outside footing Top face.
+-    {{PropertyData/pl|Przesunięcie w górę}}: Górne odsunięcie głównych prętów zbrojeniowych w słupie poza górną powierzchnią stopy.
 
--    **Diameter**: Diameter of main rebars in columns.
+-    {{PropertyData/pl|Średnica}}: Średnica głównych prętów zbrojeniowych w słupach.
 
-**Properties for X Direction Rebars in Columns of footing Reinforcement:**
+### **Właściwości zbrojenia o kierunku X w słupach stóp fundamentowych:** 
 
-Rebars along x-direction except main rebars
+Pręty zbrojeniowe wzdłuż kierunku osi X z wyjątkiem głównych prętów zbrojeniowych
 
--    **Rebar Type**: Type of x-direction rebars in a column.It has two values, \'StraightRebar\' and \'LShapeRebar\'.
+-    {{PropertyData/pl|Typ zbrojenia}}: Typ prętów zbrojeniowych w kierunku X. Ma dwie wartości: \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)*.
 
--    **Hook Orientation**: Orientation of L-Shaped rebar hooks.It takes eight different orientations input for L-shaped hooks i.e. \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
+-    {{PropertyData/pl|Orientacja haka}}: Orientacja haka głównych prętów zbrojeniowych w kolumnach, jeśli typem głównego pręta jest LShapeRebar. Przyjmuje osiem różnych określeń dla haków w kształcie litery L, tj. \"Góra Wewnątrz\", \"Góra Na zewnątrz\", \"Dół Wewnątrz\", \"Dół Na zewnątrz\", \"Góra Lewo\", \"Góra Prawo\", \"Dól Lewo\", \"Dół Prawo\".
 
--    **Hook Extension**: Length of hook of L-Shape rebars.
+-    {{PropertyData/pl|Przedłużenie haka}}: Określa długość haka głównego pręta zbrojeniowego *(LShapeRebar)*.
 
--    **Rounding**: A rounding value to be applied to the corners of the L-Shape rebars, expressed in times the diameter.
+-    {{PropertyData/pl|Zaokrąglanie}}: Wartość zaokrąglenia, która ma być zastosowana do narożników prętów, wyrażona w krotności średnicy głównego pręta zbrojeniowego.
 
--    **Top Offset**: The distance between rebar from the top face of the structure.
+-    {{PropertyData/pl|Przesunięcie w górę}}: Odległość pomiędzy prętami zbrojeniowymi od górnej powierzchni konstrukcji.
 
--    **Number#Diameter**: Number\#Diameter set of the x-direction rebars.
+-    {{PropertyData/pl|Ilość#Średnica}}: Liczba\#Średnica zestawu prętów zbrojeniowych w kierunku X.
 
-**Properties for Y Direction Rebars in Columns of footing Reinforcement:**
+### **Właściwości zbrojenia o kierunku Y w słupach stóp fundamentowych:** 
 
-Rebars along y-direction except main rebars
+Pręty zbrojeniowe wzdłuż kierunku osi Y z wyjątkiem głównych prętów zbrojeniowych
 
--    **Rebar Type**: Type of y-direction rebars. It has two values, \'StraightRebar\' and \'LShapeRebar\'.
+-    {{PropertyData/pl|Typ zbrojenia}}: Typ prętów zbrojeniowych w kierunku Y. Ma dwie wartości: \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)*.
 
--    **Hook Orientation**: Orientation of LShaped hooks. It takes eight different orientations input for L-shaped hooks i.e. \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
+-    {{PropertyData/pl|Orientacja haka}}: Orientacja haka głównych prętów zbrojeniowych w kolumnach, jeśli typem głównego pręta jest LShapeRebar. Przyjmuje osiem różnych określeń dla haków w kształcie litery L, tj. \"Góra Wewnątrz\", \"Góra Na zewnątrz\", \"Dół Wewnątrz\", \"Dół Na zewnątrz\", \"Góra Lewo\", \"Góra Prawo\", \"Dól Lewo\", \"Dół Prawo\".
 
--    **Hook Extension**: Length of hook of L-Shape rebars.
+-    {{PropertyData/pl|Przedłużenie haka}}: Określa długość haka głównego pręta zbrojeniowego *(LShapeRebar)*.
 
--    **Rounding**: A rounding value to be applied to the corners of the L-Shape rebars, expressed in times the diameter.
+-    {{PropertyData/pl|Zaokrąglanie}}: Wartość zaokrąglenia, która ma być zastosowana do narożników prętów, wyrażona w krotności średnicy głównego pręta zbrojeniowego.
 
--    **Top Offset**: The distance between rebar from the top face of the structure.
+-    {{PropertyData/pl|Przesunięcie w górę}}: Odległość pomiędzy prętami zbrojeniowymi od górnej powierzchni konstrukcji.
 
--    **Number#Diameter**: Number\#Diameter set of the y-direction rebars.
+-    {{PropertyData/pl|Ilość#Średnica}}: Liczba\#Średnica zestawu prętów zbrojeniowych w kierunku Y.
 
 ## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również:**
 
-[Arch API](Arch_API.md), [Reinforcement API](Reinforcement_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Skrypty Architektury](Arch_API/pl.md), [Skrypty Zbrojenia](Reinforcement_API/pl.md) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
-The Footing Reinforcement tool can be used from the [Python](Python.md) console by using the following function:
+Narzędzie zbrojenie stóp fundamentowych może być używane z konsoli środowiska [Python](Python/pl.md) za pomocą następującej funkcji:
 
-### Create Footing Reinforcement 
+### Wykonanie zbrojenia stopy 
 
 
 ```python
@@ -290,142 +290,142 @@ footingReinforcementGroup = makeFootingReinforcement(
 )
 ```
 
--   Creates a `footingReinforcementGroup` object from the given `structure`, which is a Footing [Arch Structure](Arch_Structure.md), and `facename`, which is a face of that structure.
-    -   If no `structure` nor `facename` are given, it will take the user selected face as input.
+-   Tworzy obiekt `footingReinforcementGroup` z podanej `struktury`, która jest stopą [konstrukcyjną architektury](Arch_Structure/pl.md) i `nazwy ściany`, która jest ścianą tej konstrukcji.
+    -   Jeśli nie podano ani jako parametr `struktury` ani `nazwy ściany`, program przyjmie jako dane wejściowe ścianę wybraną przez użytkownika.
 
-**Properties for Rebars in Parallel Direction to selected face:**
+**Właściwości prętów zbrojeniowych w kierunku równoległym do wybranej ściany:**.
 
--    `parallel_rebar_type`: Type of rebar for parallel rebars for footing reinforcement. It can have three values \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\'.
+-    `parallel_rebar_type`: Typ prętów zbrojeniowych dla równoległych prętów zbrojeniowych do zbrojenia stóp fundamentowych. Może mieć trzy wartości: \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)* i \"UShapeRebar\" *(pręt zbrojeniowy w kształcie litery U)*.
 
--    `parallel_front_cover`: The distance between parallel rebar and selected face.
+-    `parallel_front_cover`: Odległość równoległego pręta zbrojeniowego od wybranej powierzchni.
 
--    `parallel_rear_cover`: Rear cover for footing reinforcement of parallel rebars.
+-    `parallel_rear_cover`: Pokrycie zbrojeniem tyłu stopy fundamentowej z równolegle ułożonych prętów zbrojeniowych.
 
--    `parallel_left_cover`: The distance between the left end of the parallel rebar to the left face of the structure.
+-    `parallel_left_cover`: Odległość lewego końca równoległego pręta zbrojeniowego do lewego boku konstrukcji.
 
--    `parallel_right_cover`: The distance between the right end of the parallel rebar to right face of the structure.
+-    `parallel_right_cover`: Odległość prawego końca równoległego pręta zbrojeniowego do prawego boku konstrukcji.
 
--    `parallel_top_cover`: The distance between parallel rebars from the top face of the structure.
+-    `parallel_top_cover`: Odległość równoległych prętów zbrojeniowych od górnej powierzchni konstrukcji.
 
--    `parallel_bottom_cover`: The distance between parallel rebars from the bottom face of the structure.
+-    `parallel_bottom_cover`: Odległość równoległych prętów zbrojeniowych od dolnej powierzchni konstrukcji.
 
--    `parallel_diameter`: Diameter of parallel rebars.
+-    `parallel_diameter`: Średnica równoległych prętów zbrojeniowych.
 
--    `parallel_amount_spacing_check`: If is set to True, then value of parallel\_amount\_spacing\_value is used as rebars count else parallel\_amount\_spacing\_value\'s value is used as spacing in parallel rebars.
+-    `parallel_amount_spacing_check`: Jeśli wartość jest ustawiona na {{True/pl}}, to parametr parallel\_amount\_spacing\_value jest używany jako liczba prętów zbrojeniowych, w przeciwnym razie wartość parallel\_amount\_spacing\_value jest używana jako odstęp między prętami równoległymi.
 
--    `parallel_amount_spacing_value`: It contains count of rebars or spacing between parallel rebars based on value of amount\_spacing\_check.
+-    `parallel_amount_spacing_value`: Zawiera liczbę prętów zbrojeniowych lub odstępy między równoległymi prętami zbrojeniowymi w oparciu o parametr amount\_spacing\_check.
 
--    `parallel_rounding`: A rounding value to be applied to the corners of the bars, expressed in times the parallel\_diameter.
+-    `parallel_rounding`: Wartość zaokrąglenia, którą należy zastosować do narożników prętów, wyrażona w krotności średnicy równoległych prętów zbrojeniowych.
 
--    `parallel_l_shape_hook_orintation`: It represents orintation of hook of parallel L-Shape rebar if parallel\_rebar\_type is LShapeRebar. It can have three values \"Left\", \"Right\",\"Alternate\"
+-    `parallel_l_shape_hook_orintation`: Przedstawia orientację haka równoległego pręta zbrojeniowego typu L-Shape, jeżeli parametr parallel\_rebar\_type to LShapeRebar. Może mieć trzy wartości \"Lewy\", \"Prawy\", \"Alternatywny\".
 
-**Properties for Rebars in Cross Direction to selected face:**
+**Właściwości prętów zbrojeniowych w kierunku poprzecznym do wybranej ściany:**
 
--    `cross_rebar_type`: Type of rebar for cross rebars for footing reinforcement. It can have three values \'StraightRebar\', \'LShapeRebar\', \'UShapeRebar\'.
+-    `parallel_rebar_type`: Typ prętów zbrojeniowych dla poprzecznych prętów zbrojeniowych do zbrojenia stóp fundamentowych. Może mieć trzy wartości: \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)* i \"UShapeRebar\" *(pręt zbrojeniowy w kształcie litery U)*.
 
--    `cross_front_cover`: The distance between cross rebar and cross\_face (face perpendicular to selected face).
+-    `parallel_front_cover`: Odległość pomiędzy poprzecznym prętem zbrojeniowym a cross\_face *(ściana prostopadła do wybranej powierzchni)*.
 
--    `cross_rear_cover`: Rear cover for footing reinforcement of cross rebars.
+-    `parallel_rear_cover`: Pokrycie zbrojeniem tyłu stopy fundamentowej z prostopadle ułożonych prętów zbrojeniowych.
 
--    `cross_left_cover`: The distance between the left end of the cross rebar to the left face of the structure.
+-    `parallel_left_cover`: Odległość między lewym końcem poprzecznego pręta zbrojeniowego a lewą powierzchnią konstrukcji.
 
--    `cross_right_cover`: The distance between the right end of the rebar to right face of the structure relative to cross\_face.
+-    `parallel_right_cover`: Odległość prawego końca pręta zbrojeniowego od prawego lica konstrukcji odniesiona do powierzchni cross\_face.
 
--    `cross_top_cover`: The distance between cross rebar from the top face of the structure.
+-    `parallel_top_cover`: Odległość poprzecznych prętów zbrojeniowych od górnej powierzchni konstrukcji.
 
--    `cross_bottom_cover`: The distance between cross rebar from the bottom face of the structure.
+-    `parallel_bottom_cover`: Odległość poprzecznych prętów zbrojeniowych od dolnej powierzchni konstrukcji.
 
--    `cross_diameter`: Diameter of cross rebars.
+-    `parallel_diameter`: Średnica oprzecznych prętów zbrojeniowych.
 
--    `cross_amount_spacing_check`: If is set to True, then value of cross\_amount\_spacing\_value is used as rebars count else cross\_amount\_spacing\_value\'s value is used as spacing in rebars.
+-    `parallel_amount_spacing_check`: Jeśli wartość jest ustawiona na {{True/pl}}, to parametr parallel\_amount\_spacing\_value jest używany jako liczba prętów zbrojeniowych, w przeciwnym razie wartość parallel\_amount\_spacing\_value jest używana jako odstęp między prętami równoległymi.
 
--    `cross_amount_spacing_value`: It contains count of rebars or spacing between rebars based on value of cross\_amount\_spacing\_check.
+-    `parallel_amount_spacing_value`: Zawiera liczbę prętów zbrojeniowych lub odstępy między równoległymi prętami zbrojeniowymi w oparciu o parametr amount\_spacing\_check.
 
--    `cross_rounding`: A rounding value to be applied to the corners of the bars, expressed in times the cross\_diameter.
+-    `parallel_rounding`: Wartość zaokrąglenia, którą należy zastosować do narożników prętów, wyrażona w krotności średnicy poprzecznych prętów zbrojeniowych.
 
--    `cross_l_shape_hook_orintation`: It represents orintation of hook of cross L-Shape rebar if cross\_rebar\_type is LShapeRebar. It can have three values \"Left\", \"Right\", \"Alternate\"
+-    `parallel_l_shape_hook_orintation`: Przedstawia orientację haka poprzecznego pręta zbrojeniowego typu L-Shape, jeżeli parametr cross\_rebar\_type to LShapeRebar. Może mieć trzy wartości \"Lewy\", \"Prawy\", \"Alternatywny\".
 
-**Properties for Columns in footing Reinforcement:**
+**Właściwości zbrojenia słupów w stopie fundamentowej:**
 
--    `column_front_cover`: Distance between selected face and columns.
+-    `column_front_cover`: Odległość między wybraną ścianą a słupem.
 
--    `column_left_cover`: Distance between left face and columns.
+-    `column_left_cover`: Odległość między wybraną ścianą a słupem.
 
--    `column_right_cover`: Distance between right face and right columns.
+-    `column_right_cover`: Odległość między prawą ścianą przednią a słupem
 
--    `column_rear_cover`: Distance between rear face and rear columns.
+-    `column_rear_cover`: Odległość między tylną ścianą a tylnymi kolumnami.
 
--    `column_width`: Width of columns.
+-    `column_width`: Szerokość dla słupa.
 
--    `column_length`: Length of columns.
+-    `column_length`: Długość słupa.
 
--    `xdir_column_amount_spacing_check`: If is set to True, then value of xdir\_column\_amount\_spacing\_value is used as columns count else xdir\_column\_amount\_spacing\_value\'s value is used as spacing between columns in x direction.
+-    `xdir_column_amount_spacing_check`: Jeśli wartość jest ustawiona na {{True/pl}}, to parametr xdir\_column\_amount\_spacing\_value jest używany jako liczba kolumn, w przeciwnym razie wartość xdir\_column\_amount\_spacing\_value jest używana jako odstęp między kolumnami w kierunku X.
 
--    `xdir_column_amount_spacing_value`: It contains count of columns or spacing between columns in x direction based on value of xdir\_column\_amount\_spacing\_check.
+-    `xdir_column_amount_spacing_value`: Zawiera liczbę kolumn lub rozstaw kolumn w kierunku X na podstawie wartości xdir\_column\_amount\_spacing\_check.
 
--    `ydir_column_amount_spacing_check`: If is set to True, then value of ydir\_column\_amount\_spacing\_value is used as columns count else ydir\_column\_amount\_spacing\_value\'s value is used as spacing between columns in y direction.
+-    `ydir_column_amount_spacing_check`: Jeśli wartość jest ustawiona na {{True/pl}}, to parametr ydir\_column\_amount\_spacing\_value jest używany jako liczba kolumn, w przeciwnym razie wartość ydir\_column\_amount\_spacing\_valuejest używana jako odstęp między kolumnami w kierunku Y.
 
--    `ydir_column_amount_spacing_value`: It contains count of columns or spacing between columns in y direction based on value of ydir\_column\_amount\_spacing\_check.
+-    `ydir_column_amount_spacing_value`: Zawiera liczbę kolumn lub rozstaw kolumn w kierunku Y na podstawie wartości ydir\_column\_amount\_spacing\_check.
 
--    `column_sec_rebar_check`: If True add secondary x and y direction rebars in columns.
+-    `column_sec_rebar_check`: Jeśli wartość tego parametru to {{True/pl}}, dodaj dodatkowe pręty zbrojeniowe w kierunku X i Y w słupach.
 
-**Properties for Ties of columns in footing Reinforcement:**
+**Właściwości zbrojenia prętami cienkimi słupów w stopach fundamentowych:**
 
--    `tie_top_cover`:Top cover for ties outside footing from Main Rebars end.
+-    `tie_top_cover`: Wierzchnie pokrycie prętami cienkimi na zewnątrz ławy fundamentowej od strony głównych prętów zbrojeniowych.
 
--    `tie_bottom_cover`:Bottom cover of ties from Bottom of Main Rebars in footing near mesh.
+-    `tie_bottom_cover`: Dolne pokrycie prętami cienkimi od spodu prętów zbrojeniowych w ławie fundamentowej w pobliżu siatki.
 
--    `tie_bent_angle`:Bent angle for ties.
+-    `tie_bent_angle`: Kąt wygięcia dla prętów.
 
--    `tie_extension_factor`:Extension factor for ties extended edge.
+-    `tie_extension_factor`: Współczynnik wydłużenia dla przedłużonej krawędzi pręta.
 
--    `tie_diameter`:Diameter of ties.
+-    `tie_diameter`: Średnica prętów.
 
--    `tie_number_spacing_check`:If is set to True, then value of tie\_number\_spacing\_value is used as ties count else tie\_number\_spacing\_value\'s value is used as spacing in ties.
+-    `tie_number_spacing_check`: Jeśli wartość ta jest ustawiona na {{True/pl}}, to parametr tie\_number\_spacing\_value jest używany jako liczba cienkich prętów, w przeciwnym razie wartość tie\_number\_spacing\_value jest używana jako odstęp pomiędzy prętami.
 
--    `tie_number_spacing_value`:It contains count of ties or spacing between ties based on value of tie\_number\_spacing\_check.
+-    `tie_number_spacing_value`:Zawiera liczbę cienkich prętów lub odstępów między nimi na podstawie wartości tie\_number\_spacing\_check.
 
-**Properties for Main rebar of columns in footing Reinforcement:**
+**Właściwości zbrojenia prętami głównymi słupów w stopach fundamentowych:**
 
--    `column_main_rebar_diameter`:Diameter of main rebars in columns.
+-    `column_main_rebar_diameter`: Średnica głównych prętów zbrojeniowych w słupach.
 
--    `column_main_rebars_t_offset`:Top offset of main rebars in column outside footing.
+-    `column_main_rebars_t_offset`: Górne odsunięcie głównych prętów zbrojeniowych w słupie poza górną powierzchnią stopy.
 
--    `column_main_hook_extend_along`:Direction of main rebar (LShapeRebar) hook. it has two option \"x-axis\" and \"y-axis\".
+-    `column_main_hook_extend_along`: Kierunek głównego haka pręta zbrojeniowego *(LShapeRebar)*. posiada dwie opcje \"x-axis\" i \"y-axis\".
 
--    `column_l_main_rebar_rounding`:A rounding value to be applied to the corners of the bars, expressed in times the column\_main\_rebar\_diameter.
+-    `column_l_main_rebar_rounding`: Wartość zaokrąglenia, która ma być zastosowana dla naroży prętów, wyrażona jako krotność średnicy column\_main\_rebar\_diameter.
 
--    `column_main_hook_extension`:It specifies length of hook of main rebar (LShapeRebar).
+-    `column_main_hook_extension`: Określa długość haka głównego pręta zbrojeniowego *(LShapeRebar)*.
 
--    `column_main_rebars_type`:Rebar type for main rebars of column. It takes two different inputs for \'StraightRebar\', \'LShapeRebar\'. Default is StraightRebar.
+-    `column_main_rebars_type`: Typ prętów zbrojeniowych dla głównych prętów zbrojeniowych słupa. Pobiera on dwa typy danych wejściowych: \"StraightRebar\" *(pręt zbrojeniowy prosty)*, \"LShapeRebar\" *(pręt zbrojeniowy w kształcie litery L)*. Wartość domyślna to StraightRebar.
 
--    `column_main_hook_orientation`:Hook orientation of main rebars in columns if column\_main\_rebars\_type is LShapeRebar. It takes eight different orientations input for L-shaped hooks i.e. \'Top Inside\', \'Top Outside\', \'Bottom Inside\', \'Bottom Outside\', \'Top Left\', \'Top Right\', \'Bottom Left\', \'Bottom Right\'.
+-    `column_main_hook_orientation`: Orientacja haka głównych prętów zbrojeniowych w kolumnach, jeśli typem głównego pręta jest LShapeRebar. Przyjmuje osiem różnych określeń dla haków w kształcie litery L, tj. \"Góra Wewnątrz\", \"Góra Na zewnątrz\", \"Dół Wewnątrz\", \"Dół Na zewnątrz\", \"Góra Lewo\", \"Góra Prawo\", \"Dól Lewo\", \"Dół Prawo\".
 
-**Properties for Secondary X and Y direction Rebar of columns in footing Reinforcement:**
+**Właściwości dla drugiego kierunku X i Y prętów zbrojeniowych słupów w stopie fundamentowej:**
 
--    `column_sec_rebars_t_offset`and `sec_rebars_b_offset` are tuples (xdir\_rebars\_t\_offset, ydir\_rebars\_t\_offset) that defines offset distances (or hight) for the secondary x-direction and y-direction rebars with respect to the top faces of the structure, respectively.
+-    `column_sec_rebars_t_offset`oraz `sec_rebars_b_offset` to tuple *(xdir\_rebars\_t\_offset, ydir\_rebars\_t\_offset)* które określają odległości przesunięcia *(lub wysokość)* dla pomocniczych prętów zbrojeniowych w kierunku x i y odpowiednio w stosunku do górnych powierzchni konstrukcji.
 
--    `column_sec_rebars_number_diameter`is a tuple (xdir\_rebars\_number\_diameter, ydir\_rebars\_number\_diameter) that defines number\#diameter set of the secondary x-direction and y-direction rebars, respectively.
+-    `column_sec_rebars_number_diameter`to tuple *(xdir\_rebars\_number\_diameter, ydir\_rebars\_number\_diameter)* określające odpowiednio zestaw ilości\#średnic pomocniczych prętów zbrojeniowych w kierunku X i w kierunku Y.
 
--    `column_sec_rebars_type`is a tuple (xdir\_rebars\_type, ydir\_rebars\_type) that defines the type of secondary x-direction and y-direction rebars ,respectively; it can have `"StraightRebar"` or `"LShapeRebar"` as rebar type.
+-    `column_sec_rebars_type`to tuple *(xdir\_rebars\_type, ydir\_rebars\_type)* określające typ pomocniczych prętów zbrojeniowych, odpowiednio w kierunku X i Y. Typem pręta zbrojeniowego może być `"StraightRebar"` lub `"LShapeRebar"`.
 
--    `column_sec_hook_orientation`is a tuple (xdir\_hook\_orientation, ydir\_hook\_orientation) that defines the orientation of secondary x-direction and y-direction LShaped hook; it can have `"Top Inside"`, `"Top Outside"`, `"Bottom Inside"`, `"Bottom Outside"`, `"Top Right"`, `"Top Left"`, `"Bottom Right"` or `"Bottom Left"` as hook\_orientation.
+-    `column_sec_hook_orientation`to tuple *(xdir\_hook\_orientation, ydir\_hook\_orientation)* określające orientację pomocniczego haka pręta typu LShaped w kierunku x i y. Może mieć wartość `"Góra Wewnątrz"`, `"Góra Zewnątrz"`, `"Dół Wewnątrz"`, `"Dół Zewnątrz"`, `"Góra Prawy"`, `"Góra Lewy"`, `"Dół Prawy"` lub `"Dół Lewy"` jako hook\_orientation.
 
--    `column_l_sec_rebar_rounding`is a tuple (l\_xdir\_rebar\_rounding, l\_ydir\_rebar\_rounding) that determines the bending radius of the LShaped secondary x-direction and y-direction LShaped rebars, expressed as times the diameter of x-direction and y-direction LShaped rebars, respectively.
+-    `column_l_sec_rebar_rounding`to tuple (l\_xdir\_rebar\_rounding, l\_ydir\_rebar\_rounding) określające promień gięcia pomocniczych prętów zbrojeniowych typu LShaped w kierunku X i w kierunku Y, wyrażony jako krotność średnicy odpowiednio prętów zbrojeniowych typu LShaped w kierunku X i w kierunku Y.
 
--    `column_sec_hook_extension`is a tuple (xdir\_hook\_extension, ydir\_hook\_extension) that defines the length of hook of secondary x-direction and y-direction LShaped rebars.
+-    `column_sec_hook_extension`to tuple *(xdir\_hook\_extension, ydir\_hook\_extension)* określające długość haka pomocniczych prętów zbrojeniowych typu LShaped w kierunku X i Y.
 
-**Common Properties for Footing Reinforcement:**
+**Wspólne właściwości zbrojenia stóp fundamentowych:**
 
--    `mesh_cover_along`: It can have three values \"Top\", \"Bottom\" and \"Both\". It represent alignment of rebar mesh along top and/or bottom face of structure.
+-    `mesh_cover_along`: Może mieć trzy wartości \" Góra\", \"Dół\" i \"Oba\". Reprezentuje wyrównanie siatki zbrojeniowej wzdłuż górnej i/lub dolnej powierzchni konstrukcji.
 
--    `structure`: Arch structure object. Default is None
+-    `structure`: Obiekt konstrukcji Architektury. Domyślnie przyjmuje wartość Brak.
 
--    `facename`: selected face of structure. Default is None
+-    `facename`: wybrana ściana konstrukcji. Domyślnie przyjmuje wartość Brak.
 
-### Edition of Footing Reinforcement 
+### Edycja zbrojenia stopy 
 
-You can change the properties of the Footing Reinforcement with the following function
+Właściwości zbrojenia stóp fundamentowych można zmienić za pomocą następującej funkcji
 
 
 ```python
@@ -503,9 +503,9 @@ footingReinforcementGroup = editFootingReinforcement(
 )
 ```
 
--    `footngReinforcementGroup`is a previously created `Footing Reinforcement` group object.
+-    `footngReinforcementGroup`to wcześniej utworzony obiekt grupy `Footing Reinforcement`.
 
--   The other parameters are the same as required by the `makeFootingReinforcement()` function.
+-   Pozostałe parametry są takie same, jak wymagane przez funkcję `makeFootingReinforcement()`.
 
 
 

@@ -25,11 +25,9 @@
 
 *Sketch (A) shown on the left; end result after pad operation (B) on the right.*
 
-**Note:** {{VersionMinus|0.16}} If the selected sketch is mapped to the face of an existing solid or another Part Design feature, the pad will be fused to it.
-
 ## Usage
 
-1.  Select the sketch to be padded. **Note:** As of <small>(v0.17)</small>  a face on the existing solid can alternatively be used.
+1.  Select one sketch or face to be padded. <small>(v0.20)</small>  Alternatively you can select several sketches or faces.
 2.  Press the **<img src="images/PartDesign_Pad.svg" width=16px> '''Pad'''** button.
 3.  Set the Pad parameters, see the [Options](#Options.md) below.
 4.  Click **OK**.
@@ -48,15 +46,33 @@ Při vytváření desky nabízí dialogové okno \'parametrů desky\' pět různ
 
 ### Type
 
+
+<div class="mw-translate-fuzzy">
+
 Typ nabízí pět různých způsobů určení délky, na kterou bude podložka protlačována.
+
+
+</div>
 
 #### Rozměr
 
+
+<div class="mw-translate-fuzzy">
+
 Zadání číselné hodnoty pro výšku desky. Defaultní směr vysunutí je ven z podkladu, ale může to být změněno zakliknutím volby **Opačně**. Vysunutí je ve směru [kolmém](http://en.wikipedia.org/wiki/Surface_normal) k definující rovině náčrtu. S volbou **Symetricky s rovinou** bude deska vysunuta z poloviny na jedné straně roviny a z poloviny na druhé straně roviny. Záporný rozměr není povolen. Místo toho použijte volbu **Opačně**.
+
+
+</div>
 
 ### Dva rozměry 
 
+
+<div class="mw-translate-fuzzy">
+
 Umožňuje zadat druhý rozměr. Pak se deska o tuto vzdálenost vysune na opačnou stranu (vzhledem k podkladové rovině). Opět lze využít volby **Opačně**.
+
+
+</div>
 
 ### K poslední 
 
@@ -68,23 +84,33 @@ Deska se vysune k první ploše tělesa ve směru vysunutí. Není-li v daném s
 
 ### Až k ploše 
 
+
+<div class="mw-translate-fuzzy">
+
 Deska se vysune až k ploše v objektu, která je vybrána kliknutím na ni. Není-li zde žádný objekt, nebude akceptován žádný výběr.
+
+
+</div>
 
 ### Length
 
-Defines the length of the pad. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \").
+Defines the length of the pad. Multiple units can be used independently of the user\'s units preferences (m, cm, mm, nm, ft or \', in or \"). This option is only available when **Type** is either **Dimension** or **Two dimensions**.
+
+### Offset to face 
+
+Offset from face at which the pad will end. This option is only available when **Type** is either **To last**, **To first** or **Up to face**.
 
 ### Direction
 
 #### Direction/edge
 
-You can select the direction of the padding:
+You can select the direction of the extrusion:
 
--   **Sketch normal** The sketch is extruded along its normal
--   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model. This becomes then the direction vector for the padding. <small>(v0.20)</small> 
+-   **Face/Sketch normal** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
+-   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
 -   **Custom direction** The sketch is extruded along a direction that can be specified via vector values. <small>(v0.19)</small> 
 
-#### Show custom direction 
+#### Show direction 
 
 If checked, the pad direction will be shown. In case the pad uses a **Custom direction**, it can be changed. <small>(v0.20)</small> 
 
@@ -92,13 +118,9 @@ If checked, the pad direction will be shown. In case the pad uses a **Custom dir
 
 If checked, the pad length is measured along the sketch normal, otherwise along the custom direction. <small>(v0.20)</small> 
 
-### Offset to face 
-
-Offset from face in which the pad will end. This option is only available when **Type** is either **To last**, **To first** or **Up to face**.
-
 ### Symmetric to plane 
 
-Tick the checkbox to extend half of the given length to either side of the sketch plane.
+Tick the checkbox to extrude half of the given length to either side of the sketch or plane.
 
 ### Reversed
 
@@ -110,7 +132,7 @@ Reverses the direction of the pad.
 
 -    **Length**: Defines the length of the pad, see [Options](#Options.md).
 
--    **Length2**: Second pad length in case the **Type** option **TwoLengths** is used, see [Options](#Options.md).
+-    **Length2**: Second pad length in case the **Type** is **TwoLengths**, see [Options](#Options.md).
 
 -    **Use Custom Vector**: <small>(v0.19)</small>  If checked, the pad direction will not be the normal vector of the sketch but the given vector, see [Options](#Options.md).
 
@@ -122,7 +144,7 @@ Reverses the direction of the pad.
 
 -    **Offset**: Offset from face in which the pad will end. This is only taken into account if the **Type** option **UpToLast**, **UpToFirst** or **UpToFace** is used.
 
--    **Refine**: <small>(v0.17)</small>  true or false. Cleans up residual edges left after the operation. This property is initially set according to the user\'s settings (found in *Preferences → Part design → General → Model settings*). It can be manually changed afterwards. This property will be saved with the FreeCAD document.
+-    **Refine**: True or false. Cleans up residual edges left after the operation. This property is initially set according to the user\'s settings (found in **Preferences → Part design → General → Model settings**). It can be manually changed afterwards. This property will be saved with the FreeCAD document.
 
 ## Omezení
 

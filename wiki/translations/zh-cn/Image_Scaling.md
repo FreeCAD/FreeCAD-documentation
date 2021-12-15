@@ -1,9 +1,8 @@
 ---
 - GuiCommand:
    Name:Image Scaling
-   MenuLocation:None
+   MenuLocation:
    Workbenches:[Image](Image_Workbench.md)
-   Version:0.18
    SeeAlso:[Image Open](Image_Open.md), [Image CreateImagePlane](Image_CreateImagePlane.md)
 ---
 

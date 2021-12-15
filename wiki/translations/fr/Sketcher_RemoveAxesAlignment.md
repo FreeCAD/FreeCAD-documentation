@@ -11,12 +11,12 @@
 
 ## Description
 
-Cet outil supprime les alignements d\'axe (<img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> _) des éléments sélectionnés en essayant de préserver la relation de contrainte.
+Cet outil supprime les alignements d\'axe (contraintes <img alt="" src=images/Sketcher_ConstrainHorizontal.svg  style="width:16px;"> _) des éléments sélectionnés en essayant de préserver la relation de contrainte.
 
 ## Utilisation
 
 1.  Sélectionnez une géométrie avec des alignements d\'axes, par exemple un [rectangle](Sketcher_CreateRectangle/fr.md).
-2.  Appuyez sur le bouton de la barre d\'outils <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> **Modifie les contraintes pour supprimer l\'alignement des axes\...**.
+2.  Appuyez sur le bouton de la barre d\'outils <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> **Supprimer l\'alignement des axes**.
 
 Le résultat est que les contraintes (horizontales et verticales) seront supprimées. Dans l\'exemple d\'un rectangle, il reste un rectangle mais devient pivotable.
 

@@ -84,7 +84,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Contrainte de liaison](FEM_ConstraintTie/fr.md) : Utilisé pour définir une contrainte de liaison (\"contact lié\") entre deux faces. {{Version/fr|0.19}}
 
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Contrainte de ressort](FEM_ConstraintSpring/fr.md) : utilisé pour définir une contrainte de liaison (\"contact collé\") entre deux faces. {{Version/fr|0.20}}
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Contrainte de ressort](FEM_ConstraintSpring/fr.md) : utilisé pour définir un ressort. {{Version/fr|0.20}}
 
 -   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Contrainte de force](FEM_ConstraintForce/fr.md) : Utilisé pour définir une force dans \[N\] appliquée uniformément à une face sélectionnable dans une direction définissable.
 

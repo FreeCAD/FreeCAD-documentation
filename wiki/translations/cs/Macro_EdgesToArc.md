@@ -4,6 +4,7 @@
 
 {{Macro/cs
 |Name=EdgesToArc
+|Icon=Macro_EdgesToArc.png
 |Translate=EdgesToArc
 |Description=Pokud je to možné nahradí vybrané hrany kružnicovým obloukem. Užitečné pro obnovu oblouků rozpadlých do krátkých přímek.
 |Author=Jreinhardt

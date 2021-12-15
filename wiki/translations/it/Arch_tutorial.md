@@ -104,7 +104,7 @@ In questo momento, però, l\'ambiente Arch, come il resto di FreeCAD, soffre di 
 <div class="mw-translate-fuzzy">
 
 
-{{Note|È richiesta la versione 0.14 di FreeCAD|Questo tutorial è stato scritto utilizzando la [versione 0.14 di FreeCAD](Release_notes_014/it.md). Per seguirlo è necessario avere almeno questa versione. Con le precedenti versioni possono mancare degli strumenti necessari o delle opzioni che sono presentate qui.}}
+{{Note|È richiesta la versione 0.14 di FreeCAD|Questo tutorial è stato scritto utilizzando la [versione 0.14 di FreeCAD](Release_notes_0.14/it.md). Per seguirlo è necessario avere almeno questa versione. Con le precedenti versioni possono mancare degli strumenti necessari o delle opzioni che sono presentate qui.}}
 
 
 </div>
@@ -500,7 +500,7 @@ Ora, se guardiamo la nostra elevazione da dietro e lo confrontiamo con il piano,
 
 <div class="mw-translate-fuzzy">
 
-Naturalmente ci sono diversi modi per farlo, creando un volume sottrazione sarebbe un modo semplice, ma sarebbe aggiungere inutili complessità al modello. Meglio modificare il contorno di base di ogni pavimento. Qui è dove entra in azione la modalità [Modifica](Draft_Edit/it.md). Espandere i pavimenti nella vista ad albero, poi rendere visibile il loro contorno di base, quindi fare doppio clic su di essi per entrare nella modalità di modifica. Ora possiamo spostare i punti, oppure [aggiungere](Draft_AddPoint/it.md) o [rimuovere](Draft_DelPoint/it.md) dei punti. Con questo, modificare i nostri pavimenti diventa facile.
+Naturalmente ci sono diversi modi per farlo, creando un volume sottrazione sarebbe un modo semplice, ma sarebbe aggiungere inutili complessità al modello. Meglio modificare il contorno di base di ogni pavimento. Qui è dove entra in azione la modalità [Modifica](Draft_Edit/it.md). Espandere i pavimenti nella vista ad albero, poi rendere visibile il loro contorno di base, quindi fare doppio clic su di essi per entrare nella modalità di modifica. Ora possiamo spostare i punti, oppure aggiungere o rimuovere dei punti. Con questo, modificare i nostri pavimenti diventa facile.
 
 
 </div>

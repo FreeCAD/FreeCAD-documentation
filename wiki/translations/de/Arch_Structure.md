@@ -9,9 +9,18 @@
 
 # Arch Structure/de
 
+
+</div>
+
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das [Arch Struktur](Arch_Structure/de.md)-Werkzeug ermöglicht die Konstruktion von Bauelementen wie Ständern oder Querträgern, indem Breite, Länge und Höhe angegeben werden, oder das Element aus einem 2D-Profil heraus erzeugt wird (Fläche, Kantenzug oder Skizze).
+
+
+</div>
 
 Falls kein Profil angegeben wurde, ist eine Anzahl von Voreinstellungen verfügbar, die eine schnelle Errichtung von Strukturelementen aus einem vordefinierten Standardprofil erlaubt.
 
@@ -20,12 +29,21 @@ Falls kein Profil angegeben wurde, ist eine Anzahl von Voreinstellungen verfügb
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wählen Sie eine 2D-Form (Draft-Objekt, Fläche oder Skizze) (optional)
 2.  Drücken Sie den **<img src="images/Arch_Structure.svg" width=16px>[Struktur](Arch_Structure/de.md)
 **-Knopf oder die Tasten **S** und **T**
 3.  Passen Sie die Eigenschaften des Objektes Ihren Erfordernissen an.
 
+
+</div>
+
 ## Optionen
+
+
+<div class="mw-translate-fuzzy">
 
 -   Wenn keine Basis-2D-Objekte ausgewählt sind, besitzt das Struktur-Werkzeug
 
@@ -42,9 +60,15 @@ zwei Zeichenmodi: Säule und Träger:
 
 -   Im Editiermodus ist es ebenfalls möglich, [Achsensysteme](Arch_Axis/de.md) zum Bauelement hinzuzufügen. Wird ein Achsensystem hinzugefügt, wird das Bauelement auf jede Achse kopiert. Werden zwei Achsensysteme hinzugefügt, wird das Bauelement auf jeden Achsenschnittpunkt kopiert.
 
+
+</div>
+
 ## Eigenschaften
 
 ### Daten
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/de|Tool}}: Ein optionaler Extrusionspfad, der jede Art von Linienzug sein kann. Falls diese Eigenschaft leer ist, wird die Extrusion gerade sein und in der durch die Normal-Eigenschaft angegebenen Richtung erfolgen
 
@@ -59,6 +83,9 @@ zwei Zeichenmodi: Säule und Träger:
 -    {{PropertyData/de|Height}}: Objekthöhe (Höhe des Bauelements oder Auszugslänge, wenn auf Profil basierend). Wenn keine Höhe angegeben ist und das Bauelement in einem [Boden/Geschoss](Arch_Floor/de.md)-Objekt mit definierter Höhe ist, übernimmt das Bauelement automatisch den Wert der Bodenhöhe.
 
 -    {{PropertyData/de|Nodes Offset}}: Knotenabstand zwischen der (Mittel)achse (centerline) und den Knotenlinien.
+
+
+</div>
 
 ### Ansicht
 
@@ -87,6 +114,9 @@ Bauelemente haben auch die Fähigkeit, Knotenpunkte anzuzeigen. Knotenpunkte sin
 <img alt="" src=images/Arch_structural_nodes.jpg  style="width:960px;"> 
 *Sichtbarmachung von Knotenpunkten für eine Reihe von Bauelementen*
 
+
+<div class="mw-translate-fuzzy">
+
 -   Knoten werden automatisch berechnet und aktualisiert, solange man sie nicht manuell ändert. Wenn Du das getan hast, werden sie nicht aktualisiert, wenn sich die Form des Struktur-Objekts ändert, außer Du benutzt das \"Reset Nodes\"-Werkzeug weiter unten.
 -   Arch-Strukturen können nicht nur lineare Knoten haben, sondern auch planare Knoten. Dafür müssen 1- mindestens drei Vektoren in der \"Nodes\"-Eigenschaft des Objekts vorhanden sein, 2- die \"NodesType\"-Eigenschaft des ViewObject auf \"Area\" gesetzt sein
 -   Wenn die Knotenberechnung automatisch erfolgt (Du sie nie manuell verändert hast) und die Role-Eigenschaft einer Struktur auf \"Slab\" gesetzt wird, wird daraus automatisch ein planarer Knoten (es gibt mehr als drei Vektoren und der NodesType wird auf \"Area\" gesetzt).
@@ -97,14 +127,33 @@ Bauelemente haben auch die Fähigkeit, Knotenpunkte anzuzeigen. Knotenpunkte sin
     -   Sorgt für das Zusammenfallen (coincident) des Knotens dieses Objekts und eines anderen
     -   Umschalten der Anzeige aller Knoten aller Bauelemente des Dokuments (on/off)
 
+
+</div>
+
 ## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
+## Scripting 
 
 
 **Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/de.md).
 
-Das Struktur-Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus über folgende Funktion angesprochen werden: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Das Struktur-Werkzeug kann in [Makros](macros/de.md) ebenso wie aus der Python-Konsole heraus über folgende Funktion angesprochen werden:
+
+
+</div>
+
+
 ```python
 Structure = makeStructure(baseobj=None, height=None)
 Structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")

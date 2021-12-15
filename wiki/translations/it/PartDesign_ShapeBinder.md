@@ -22,6 +22,9 @@ Un esempio di utilizzo potrebbe essere la costruzione di una scatola con copertu
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 Uso generale:
 
 1.  Attivare il corpo destinatario (corpo che deve ricevere l\'oggetto forma legata).
@@ -31,6 +34,9 @@ Uso generale:
 5.  Per rimuovere la geometria selezionata, premere il pulsante **Rimuovi geometria** e selezionare la geometria nella vista 3D. Per annullare, premere nuovamente il pulsante.
 6.  In alternativa, è possibile selezionare il corpo da copiare prima di avviare il comando Forma legata.
 7.  Premere **OK**.
+
+
+</div>
 
 **Esempio**
 
@@ -79,17 +85,26 @@ Ecco come utilizzare la funzione ShapeBinder per ottenerlo:
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Fatto.
 
 :   Ora i due fori sono collegati in due corpi diversi. Se si modifica la geometria o le posizioni dei fori, entrambi i fori si adatteranno. Solo quando si aggiunge un nuovo foro, bisogna aggiornare lo schizzo nel secondo cubo per il secondo foro.
 
 
+</div>
 
+
+<div class="mw-translate-fuzzy">
 
 
 :   Notare
 :   che esiste un altro modo per creare uno ShapeBinder: con il cubo posteriore attivato, fare clic sulla faccia anteriore del cubo anteriore e creare un nuovo schizzo. Appare una finestra di dialogo in cui si seleziona \"Schizzo dipendente\". Ciò crea effettivamente un raccoglitore di forme. È possibile visualizzare il parametro **Supporto traccia** nella finestra delle proprietà. Sono pochi clic in meno rispetto alla nostra procedura.
 :   Notare inoltre che usare ShapeBinder con gli schizzi è solo un sottoinsieme delle sue capacità. È anche possibile utilizzare parti della geometria 3D come mostrato nell\'esempio sopra.
+
+
+</div>
 
 ## Opzioni
 
@@ -97,11 +112,20 @@ Fare doppio clic sull\'etichetta ShapeBinder nell\'albero del modello o fare cli
 
 ## Proprietà
 
+
+<div class="mw-translate-fuzzy">
+
 -    {{PropertyData/it|Label}}: nome dato all\'oggetto, questo nome può essere cambiato a piacere.
 
 -    **Trace Support**: Impostando questa opzione su true, Shapebinder osserva i posizionamenti relativi delle parti e dei corpi. L\'impostazione predefinita è false. Vedere l\'esempio sopra per come funziona. {{Version/it|0.18}}
 
+
+</div>
+
 ## Limitazioni
+
+
+<div class="mw-translate-fuzzy">
 
 -   La selezione multipla non è supportata. Per ogni singola selezione devono essere premuti i pulsanti Aggiungi geometria e Rimuovi geometria.
 
@@ -111,6 +135,9 @@ C\'è una soluzione alternativa per la selezione multipla: selezionando tutti gl
 -   La geometria selezionata su un corpo deve essere contigua.
 -   Se il corpo da copiare viene selezionato prima di avviare il comando, o se viene utilizzato il pulsante **Object**, non è più possibile selezionare solo specifici elementi di geometria.
 -   La posizione relativa del corpo destinatario e del corpo copiato non viene presa in considerazione. forma legata adotta le stesse coordinate interne del corpo copiato. Dalla versione 0.18 ha una nuova proprietà \"Trace Support\", che permette di cambiare questo comportamento e prendere in considerazione i posizionamenti relativi.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

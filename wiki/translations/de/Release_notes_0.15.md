@@ -78,10 +78,16 @@ Für die Nostalgiker alter CAD Software können nun Linienschriftarten (\"sticky
 
 ### Kleinere Verbesserungen 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Linien](Draft_Line.md) können nun durch ihre Länge und Winkel in der aktuellen Arbeitsebene definiert werden.
 -   Relative Erweiterung von Linien für [dimensions](Draft_Snap_Dimensions.md)
--   Unterstützung von [Ellipsen](Sketcher_Ellipse.md)
+-   Unterstützung von [Ellipsen](Sketcher_CompCreateConic/de.md)
 -   [Array](Draft_Array.md) Objekte können nun verschmolzen werden.
+
+
+</div>
 
 ## Arbeitsbereich Zeichnung 
 

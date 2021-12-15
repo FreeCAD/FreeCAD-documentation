@@ -1,23 +1,10 @@
 # Main Page/hr
-<div class="mw-translate-fuzzy">
-
 ## Uvod
 
-Ovdje se nalazi wiki dokumentacija programa _!
+Ovdje se nalazi wiki dokumentacija programa _! 
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 ## Korisnička okruženja 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 <img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Korisničko okruženje](User_hub/hr.md): Ova stranica sadrži dokumentaciju korisnu za korisnike FreeCAD-a: lista radnih površina programa, detaljne upute kako instalirati i koristiti FreeCAD aplikacije, vježbe, i sve što trebate za početi sa radom u programu FreeCAD.
 
@@ -25,23 +12,17 @@ Ovdje se nalazi wiki dokumentacija programa _!
 
 
 
-<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Napredno korisničko okruženje](Power_users_hub/hr.md):Ova stranica prikuplja dokumentaciju za napredne korisnike i ljude zainteresirane za pisanje python skripti. Tamo ćete naći i spremište makronaredbi, upute o tome kako ih instalirati i koristiti te više informacija o prilagodbi FreeCAD-a prema vašim specifičnim potrebama. 
- <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Programersko okruženje](Developer_hub/hr.md):Ovaj odjeljak sadrži materijal za programere: Kako sastaviti FreeCAD, kako je strukturiran izvorni kod FreeCAD-a i kako se kretati u njemu, i kako razviti nove radne površine, ili kako ugraditi FreeCAD u svoj program. 
+<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Napredno korisničko okruženje](Power_users_hub/hr.md):Ova stranica prikuplja dokumentaciju za napredne korisnike i ljude zainteresirane za pisanje python skripti. Tamo će te naći i spremište makronaredbi, upute o tome kako ih instalirati i koristiti te više informacija o prilagodbi FreeCAD-a prema vašim specifičnim potrebama. 
+ <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Programersko okruženje](Developer_hub/hr.md):Ovaj odjeljak sadrži materijal za programere: Kako sastaviti FreeCAD, kako je strukturiran izvorni kod FreeCAD-a i kako se kretati u izvornom kodu, i kako razviti nove radne površine, i kako ugraditi FreeCAD u svoj program. 
 
-
-
-</div>
 
 ## Priručnik
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> _ je još jedan, linearniji način prikazivanja informacija sadržanih na ovoj wiki stranici. Napravljen je za čitanje poput knjige i upoznaje vas s mnogim drugim stranicama iz okruženja gore. Također su dostupne i [ebook verzija](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details), kao i [nekoliko prijevoda u pdf formatu](https://www.freecadweb.org/manual/). 
+<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> _ je još jedan, linearniji način prikazivanja informacija sadržanih na ovoj wiki stranici. Dizajniran je za čitanje poput knjige i upoznaje vas s mnogim drugim stranicama iz okruženja gore. Također su dostupne i [ebook verzija](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details), kao i [nekoliko prijevoda u pdf formatu](https://www.freecadweb.org/manual/).
 
 
 
-</div>
+
 
 ## Sadržaj
 
@@ -54,7 +35,7 @@ Slijedeća tabela lista sve artikle kostura wiki stranice izvan-mrežne (offline
 | -   ![](images/Flag-cn.jpg ) [目录](Online_Help_Toc/zh-cn.md) zh-cn        | -   ![](images/Flag-it.jpg ) [Sommario](Online_Help_Toc/it.md)           | -   ![](images/Flag-ru.jpg ) [Содержание](Online_Help_Toc/ru.md)             |
 | -   ![](images/Flag-cn.jpg‎ ) [目錄](Online_Help_Toc/zh-tw.md) zh-tw      | -   ![](images/Flag-jp.jpg ) [目次](Online_Help_Toc/ja.md) ja            | -   ![](images/Flag-sv.jpg ) [Innehallsforteckning](Online_Help_Toc/sv.md)   |
 | -   ![](images/Flag-cs.jpg ) [Obsah](Online_Help_Toc/cs.md)                | -   ![](images/Flag-ko.jpg ) [온라인 도움말](Online_Help_Toc/ko.md)      | -   ![](images/Flag-tr.jpg ) [İçindekiler](Online_Help_Toc/tr.md)            |
-| -   ![](images/Flag-de.jpg ) [Inhaltsverzeichnis](Online_Help_Toc/de.md)   | -   ![](images/Flag-pl.jpg ) [Spis Treści](Online_Help_Toc/pl.md)        | -   ![](images/Flag-uk.jpg ) [Інтернет Допомога](Online_Help_Toc/uk.md)      |
+| -   ![](images/Flag-de.jpg ) [Inhaltsverzeichnis](Online_Help_Toc/de.md)   | -   ![](images/Flag-pl.jpg ) [Spis Treści](Online_Help_Toc/pl.md)        | -   ![](images/Flag-uk.jpg ) [Вміст](Online_Help_Toc/uk.md)                  |
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                            |                                                                                                |
 +----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 
@@ -74,13 +55,7 @@ Stranica_ opisuje sve to s više pojedinosti. Od 2016. godine, FreeCAD također 
 
 ### Izvorni kod 
 
-
-<div class="mw-translate-fuzzy">
-
 FreeCAD može biti kompiliran na svim platformama koristeći _, _, i [dokumentirana na wiki stranici](Source_documentation.md)
-
-
-</div>
 
 ### O razvoju 
 

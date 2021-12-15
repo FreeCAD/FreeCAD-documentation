@@ -1,4 +1,7 @@
 # Macro Toggle Visibility/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Toggle Visibility
 |Translate=Visibilità oggetti
@@ -8,8 +11,14 @@
 |Version=00.02
 |Date=2015-11-12|FCVersion=All
 |Download=[https://www.freecadweb.org/wiki/images/4/42/Macro_SelectVisible.png ToolBar Icon]
-|SeeAlso=[Macro_Toggle_Visibility2](Macro_Toggle_Visibility2/it.md)<br />[Macro VisibleAlls](Macro_VisibleAlls/it.md)<br />[Macro HiddenAlls](Macro_HiddenAlls/it.md)<br />[Macro If Selected Stay If Not Then Delete](Macro_If_Selected_Stay_If_Not_Then_Delete/it.md)
+|SeeAlso=[Macro Toggle Visibility2 1-2](Macro_Toggle_Visibility2_1-2/it.md)<br>[Macro Toggle Visibility2 2-2](Macro_Toggle_Visibility2_2-2/it.md)<br>[Macro VisibleAlls](Macro_VisibleAlls/it.md)<br>[Macro HiddenAlls](Macro_HiddenAlls/it.md)<br>[Macro If Selected Stay If Not Then Delete](Macro_If_Selected_Stay_If_Not_Then_Delete/it.md)
 }}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## Descrizione
 
@@ -19,19 +28,61 @@ Questo è un insieme di tre macro correlate che servono per gestire la visibilit
     -   se non ci sono oggetti selezionati allora tutti gli oggetti sono nascosti
     -   se vengono selezionati tutti gli oggetti allora tutti gli oggetti vengono resi visibili
 
+
+</div>
+
+Objects that are selected in a document are made visible while objects that are not selected are made invisible.
+
+-   if no objects are selected then all objects are hidden
+-   if all objects are selected then all objects are made visible
+
+
+<div class="mw-translate-fuzzy">
+
 ## Uso
 
 Copiare la macro e l\'icona nella cartella delle macro ed eseguirle (vedere [Come installare le macro](How_to_install_macros/it.md))
+
+
+</div>
+
+Copy the macro and the icon in your folder macros and run (see [How to install macros](How_to_install_macros.md))
+
+
+<div class="mw-translate-fuzzy">
 
 ## ToggleVisibility
 
 Selezionare gli oggetti in una delle viste di FreeCAD. Questa macro rende visibili tutti gli oggetti selezionati e nasconde tutti gli oggetti non selezionati.
 
+
+</div>
+
+Using the selection of objects in the one of the FreeCAD views, this macro makes all selected objects visible and hides all objects which are not selected.
+
+
+<div class="mw-translate-fuzzy">
+
 Se non ci sono oggetti selezionati tutti gli oggetti vengono nascosti
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Se tutti gli oggetti sono nascosti e nella Vista Combinata non ci sono oggetti selezionati, rende visibili tutti gli oggetti
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 La nuova versione (00.02) comprende le tre macro in una
+
+
+</div>
 
 ## Script
 
@@ -73,11 +124,27 @@ except Exception:
     None
 }}
 
+
+<div class="mw-translate-fuzzy">
+
 ## Link
 
 La discussione nel forum [Proposal: select one or more pieces, hide the others.](http://forum.freecadweb.org/viewtopic.php?f=8&t=13152)
 
+
+</div>
+
+The discussion on the forum [Proposal: select one or more pieces, hide the others.](http://forum.freecadweb.org/viewtopic.php?f=8&t=13152)
+
+
+<div class="mw-translate-fuzzy">
+
 ## Version
+
+ver 00.02 12/11/2015 **macro Macro\_SelectVisible** : hidden the objects not selected, if not object selected displayed all objects, hidden all objects. This version include the tree macro in one
+
+
+</div>
 
 ver 00.02 12/11/2015 **macro Macro\_SelectVisible** : hidden the objects not selected, if not object selected displayed all objects, hidden all objects. This version include the tree macro in one
 

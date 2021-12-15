@@ -35,7 +35,13 @@ Die Erstellung des Threads dauert einige Zeit. Seien Sie geduldig und sehen Sie 
 
 ## Skript
 
+
+<div class="mw-translate-fuzzy">
+
 Die neueste Version des Makros finden Sie unter _.
+
+
+</div>
 
 ToolBar Icon ![](images/Macro_screw_maker1_2.png )
 

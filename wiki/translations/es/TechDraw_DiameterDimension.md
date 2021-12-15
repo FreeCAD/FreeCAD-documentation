@@ -4,7 +4,7 @@
    Name/es:TechDraw  Dimensión Diámetro
    MenuLocation:TechDraw → Dimensión Diámetro
    Workbenches:[TechDraw](TechDraw_Workbench/es.md)
-   SeeAlso:[TechDraw Dimensión Radio](TechDraw_Dimension_Radius/es.md)
+   SeeAlso:[TechDraw Dimensión Radio](TechDraw_RadiusDimension/es.md)
 ---
 
 # TechDraw DiameterDimension/es

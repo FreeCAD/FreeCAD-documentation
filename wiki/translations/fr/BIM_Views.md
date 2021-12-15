@@ -33,11 +33,6 @@ Le gestionnaire de vues BIM affichera tous les niveaux (éléments de constructi
 -   Cliquez sur le bouton **Save camera position** stocke les paramètres d\'affichage actuels dans l\'objet sélectionné, ce qui permet de le restaurer si sa propriété **Restore View** est définie sur True
 -   Cliquez sur le bouton **Rename** vous permet de renommer un objet sélectionné
 
-
-{{BIM Tools navi
-
-}}
-
 _
 
 ---

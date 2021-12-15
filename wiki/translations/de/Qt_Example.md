@@ -1,4 +1,7 @@
 # Qt Example/de
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/de
 |Name=Makro Qt Beispiel
 |Icon=MEPlan.png
@@ -19,7 +22,13 @@
 |SeeAlso=[Dialog_Erstellung](Dialog_creation/de.md)
 }}
 
+
+</div>
+
 Dieses Makro ist ein Beispiel für die Verwendung von Qt Befehlen, deren Verbindungen, Extraktion und Datenzuweisung.
+
+
+<div class="mw-translate-fuzzy">
 
 
 <center>
@@ -29,7 +38,19 @@ Image:Qt\_Example\_00.png\|Qt Beispiel Image:Qt\_Example\_01.png\|Qt Beispiel De
 
 </center>
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Werden behandelt :
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 1.  **icon for window** : Das im Hauptfenster angezeigte Symbol
 2.  **horizontalSlider** : horizontaler Schieberegler seine Verbindung und Datenextraktion / Zuweisung
@@ -48,13 +69,32 @@ Werden behandelt :
 15. **textEdit** : Textbearbeitung seiner Verbindung und Datenextraktion / Zuweisung
 16. **graphicsView** : graphische Ansicht mit 2 Diagrammen und Methode zur Änderung des Bildes
 
-Die verwendeten Werkzeuge sind : [python-2.7.8](https://www.python.org/downloads/)
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Die verwendeten Werkzeuge sind :
+
+
+</div>
+
+[python-2.7.8](https://www.python.org/downloads/)
 
 [PyQt4-4.11.4-gpl-Py2.7-Qt4.8.7-x32](https://riverbankcomputing.com/software/pyqt/download)
 
 Um die Datei .ui in .py zu konvertieren, musst du **pyuic.py** verwenden, befindet sich in \"C:\\Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" (für Windows)
 
-Du kannst eine Datei convertuitopy.bat erstellen, um den Prozess zu automatisieren **1:** Erstelle eine neue Datei in deinem Qt Arbeitsverzeichnis und nenne sie **convertuitopy.bat**
+
+<div class="mw-translate-fuzzy">
+
+Du kannst eine Datei convertuitopy.bat erstellen, um den Prozess zu automatisieren
+
+
+</div>
+
+**1:** Erstelle eine neue Datei in deinem Qt Arbeitsverzeichnis und nenne sie **convertuitopy.bat**
 
 **2:** Bearbeite die Datei und füge diese Zeile dort ein
 
@@ -68,7 +108,15 @@ Du kannst eine Datei convertuitopy.bat erstellen, um den Prozess zu automatisier
 
 ![](images/MEpipe01.png ) ![](images/MEpipe02.png ) ![](images/MEPlan.png ) ![](images/MEPlanD.png ) ![](images/MEPlanF.png ) ![](images/MEPlanT.png ) ![](images/MEPlanI.png )
 
-![](images/MEPlanFC.png ) ![](images/MEPlanPY.png ) Du musst die Bilder in dasselbe Verzeichnis wie das Makro kopieren und einfügen, hier :
+![](images/MEPlanFC.png ) ![](images/MEPlanPY.png )
+
+
+<div class="mw-translate-fuzzy">
+
+Du musst die Bilder in dasselbe Verzeichnis wie das Makro kopieren und einfügen, hier :
+
+
+</div>
 
 Linux : \"**home/user/.FreeCAD/Macro**\"
 
@@ -77,9 +125,6 @@ Windows : \"**C:\\Users\\UserName\\AppData\\Roaming\\FreeCAD\\Macro**\"
 ## Skript
 
 The contents of the file **Qt\_Example.FCMacro** are given below:
-
-
-
 
 
 {{MacroCode|code=
@@ -791,8 +836,6 @@ MainWindow = QtGui.QMainWindow()
 ui = Ui_MainWindow()
 ui.setupUi(MainWindow)
 MainWindow.show()
-
-
 }}
 
 Viel Spaß

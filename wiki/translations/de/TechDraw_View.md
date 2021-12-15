@@ -29,6 +29,12 @@ Ansicht wird versuchen, alles mit einer `Form` Eigenschaft zu zeichnen. Du kanns
 ### Daten
 
 
+{{TitleProperty|Base}}
+
+
+<div class="mw-translate-fuzzy">
+
+
 {{TitleProperty|Basis}}
 
 -    {{PropertyData/de|X}}: Die horizontale Position der Ansicht auf der Seite. (1)
@@ -46,7 +52,16 @@ Ansicht wird versuchen, alles mit einer `Form` Eigenschaft zu zeichnen. Du kanns
 -    {{PropertyData/de|Bildunterschrift}}: Optionale kurze Textunterschrift.
 
 
+</div>
+
+
 {{TitleProperty|Kosmetik}}
+
+
+{{TitleProperty|HLR Parameters}}
+
+
+<div class="mw-translate-fuzzy">
 
 
 {{TitleProperty|HLR Parameters}}
@@ -73,6 +88,15 @@ Ansicht wird versuchen, alles mit einer `Form` Eigenschaft zu zeichnen. Du kanns
 -    **Iso Anzahl**: Anzahl der isometrischen(u,v) Linien, die auf jede Fläche gezeichnet werden sollen.
 
 
+</div>
+
+
+{{TitleProperty|Projection}}
+
+
+<div class="mw-translate-fuzzy">
+
+
 {{TitleProperty|Projektion}}
 
 -    **Source**: Verweise auf die abgebildeten zeichenbaren Objekten.
@@ -87,7 +111,15 @@ Ansicht wird versuchen, alles mit einer `Form` Eigenschaft zu zeichnen. Du kanns
 
 -    **Focus**: Abstand von der Kamera zur Projektionsebene für perspektivische Projektionen. Muss an das Objekt angepasst werden. Zu weit und die Perspektive geht verloren, zu nah und das Objekt wird verzerrt.
 
+
+</div>
+
 \(1\) Diese Eigenschaften sind allen Ansichtstypen gemeinsam.
+
+### View
+
+
+<div class="mw-translate-fuzzy">
 
 ### Ansicht
 
@@ -110,6 +142,9 @@ Ansicht wird versuchen, alles mit einer `Form` Eigenschaft zu zeichnen. Du kanns
 -    {{PropertyView/de|VertCenterLine}}: Vertikale Mittellinie durch die Ansicht wird dargestellt.
 
 -    {{PropertyView/de|ShowSectionLine}}: Schnittlinie ein- und ausblenden, falls vorhanden.
+
+
+</div>
 
 ## Skripten
 

@@ -27,7 +27,7 @@ Această comandă vă permite să plasați un dreptunghi de tăiere pe un ecran 
 
 ## Limite
 
--   Obiectele clipire nu sunt afișate corect de vizualizatorul Svg intern bazat pe Qt, dar comanda [ Open Browser](Draw_Openbrowser.md) le afișează corect.
+-   Obiectele clipire nu sunt afișate corect de vizualizatorul Svg intern bazat pe Qt, dar comanda [ Open Browser](Drawing_Openbrowser.md) le afișează corect.
 
 
 {{docnav|[Annotation](Drawing_Annotation.md)|[Open Browser](Drawing_Openbrowser.md)|[Drawing Workbench](Drawing_Workbench.md)|IconL=Drawing_Annotation.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Openbrowser.png}}

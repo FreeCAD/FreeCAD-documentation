@@ -33,7 +33,7 @@ Crea un **sistema di coordinate locali** che può essere usato come riferimento 
 
 <div class="mw-translate-fuzzy">
 
-Fare doppio clic sull\'etichetta **Local\_CS** nell\'albero del modello o fare clic con il tasto destro e selezionare **Modifica il riferimento** nel menu contestuale per modificarne i parametri. Per ulteriori dettagli sulla modalità e l\'offset di associazione, vedere [Associazione](Part_Attachment/it.md).
+Fare doppio clic sull\'etichetta **Local\_CS** nell\'albero del modello o fare clic con il tasto destro e selezionare **Modifica il riferimento** nel menu contestuale per modificarne i parametri. Per ulteriori dettagli sulla modalità e l\'offset di associazione, vedere [Associazione](Part_EditAttachment/it.md).
 
 
 </div>

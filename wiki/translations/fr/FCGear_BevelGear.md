@@ -15,11 +15,8 @@ Les engrenages coniques ne sont pas utilisés aussi souvent que les autres types
 
 Les engrenages coniques en spirale ont des dents incurvées pour fournir un engagement plus doux et un plus grand contact dent sur dent par rapport à un engrenage conique droit. Cela réduit les vibrations et le bruit. Ils peuvent être utilisés à des vitesses élevées et sont généralement utilisés dans les transmissions de motos et de vélos.
 
-:   ![](images/Bevel-Gear_example.png )
-:   
-    
+![](images/Bevel-Gear_example.png ) 
 *De gauche à droite : engrenage droit, engrenage en spirale*
-    
 
 ## Utilisation
 
@@ -36,31 +33,31 @@ Les engrenages coniques en spirale ont des dents incurvées pour fournir un enga
 
 {{Properties_Title|Base}}
 
--    {{PropertyData/fr|Placement}}: [placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
+-    **Placement**: [Placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
 
--    {{PropertyData/fr|Label}}: nom d\'utilisateur de l\'objet dans la [vue en arborescence](tree_view/fr.md).
-
-
-{{Properties_Title|gear_parameter}}
-
--    {{PropertyData/fr|beta}}: avec l\'angle β, un engrenage conique hélicoïdal est créé (valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche).
+-    **Label**: nom d\'utilisateur de l\'objet dans [vue en arborescence](Tree_view/fr.md).
 
 
 {{Properties_Title|gear_parameter}}
 
--    {{PropertyData/fr|backslash}}: valeur par défaut est 0.00. Le recul, également appelé battement ou jeu, est la distance entre les dents d\'une paire d\'engrenages.
+-    **beta**: avec l\'angle β, un engrenage conique hélicoïdal est créé (valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche).
 
--    {{PropertyData/fr|clearance}}: valeur par défaut est 0.10 (voir aussi les informations dans **Remarque**).
 
--    {{PropertyData/fr|height}}: valeur de la largeur de l\'engrenage conique.
+{{Properties_Title|gear_parameter}}
 
--    {{PropertyData/fr|module}}: module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans **Remarque**).
+-    **backslash**: valeur par défaut est 0.00. Le recul, également appelé battement ou jeu, est la distance entre les dents d\'une paire d\'engrenages.
 
--    {{PropertyData/fr|numpoints}}: valeur par défaut est 6, modification du profil de développante. La modification de la valeur peut entraîner des résultats inattendus.
+-    **clearance**: valeur par défaut est 0.10 (voir aussi les informations dans **Remarque**).
 
--    {{PropertyData/fr|reset_origin}}: si la valeur est **True**, le centre de l\'axe est au centre du bas de l\'engrenage (voir aussi les informations dans **Remarques**).
+-    **height**: valeur de la largeur de l\'engrenage conique.
 
--    {{PropertyData/fr|teeth}}: nombre de dents.
+-    **module**: module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans **Remarque**).
+
+-    **numpoints**: valeur par défaut est 6, modification du profil de développante. La modification de la valeur peut entraîner des résultats inattendus.
+
+-    **reset_origin**: si la valeur est **True**, le centre de l\'axe est au centre du bas de l\'engrenage (voir aussi les informations dans **Remarques**).
+
+-    **teeth**: nombre de dents.
 
 
 {{Properties_Title|involute_parameter}}

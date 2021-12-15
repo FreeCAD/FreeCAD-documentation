@@ -43,7 +43,7 @@ Le [BIM Tutoriel](BIM_ingame_tutorial/fr.md) est un moyen facile de se mettre ra
 
 L\'atelier BIM regroupe les outils de plusieurs autres ateliers FreeCAD, principalement [Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md) et [Part](Part_Workbench/fr.md), grossièrement réorganisés en catégories logiques: **dessin 2D**, **modélisation 3D**, **annotation** et **modification**. La catégorie **gérer** contient des outils spécifiques à l\'atelier BIM.
 
-De plus, si de tels [Ateliers externes](External_workbenches/fr.md) sont installés, des outils de [Reinforcement](Arch_Rebar/fr.md) (outils de barre de renforcement supplémentaires), [Fixations](Fasteners_Workbench/fr.md) (boulons et vis), [Flamingo/Dodo](Flamingo_Workbench/fr.md) (outils de structure métallique et de tuyauterie) et [Bibliothèque de pièces](Parts_Library/fr.md) sont automatiquement inclus dans l\'atelier BIM.
+De plus, si de tels [Ateliers externes](External_workbenches/fr.md) sont installés, des outils de [Reinforcement](Arch_Rebar/fr.md) (outils de barre de renforcement supplémentaires), [Fasteners](Fasteners_Workbench/fr.md) (boulons et vis), [Flamingo/Dodo](Flamingo_Workbench/fr.md) (outils de structure métallique et de tuyauterie) et [Atelier Bibliothèques de pièces](Parts_Library_Workbench/fr.md) sont automatiquement inclus dans l\'atelier BIM.
 
 L\'atelier BIM ajoute également une série d\'éléments dans la **barre d\'état** de FreeCAD et quelques **éléments de menu contextuel**, accessibles en cliquant avec le bouton droit de la souris dans la vue 3D ou dans l\'arborescence.
 
@@ -74,7 +74,7 @@ Les annotations sont des objets d\'aide visuels pouvant être placés dans votre
 -   <img alt="" src=images/Draft_Dimension.svg  style="width:32px;"> [Cote](Draft_Dimension/fr.md) : trace une cote linéaire, angulaire, radiale ou de diamètre
 -   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [Label](Draft_Label/fr.md): place une étiquette avec une flèche pointant vers un élément sélectionné
 -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Outils axes et grilles](Arch_Axis/fr.md) : crée un axe unique ou un tableau d\'axes dans le sens du document
--   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Système d\'axes](Arch_AxisSystem/fr.md) : crée un système d\'axes composé de jusqu\'à 3 séries d\'axes
+-   <img alt="" src=images/Arch_AxisSystem.svg  style="width:32px;"> [Système d\'axes](Arch_AxisSystem/fr.md) : crée un système d\'axes composé de jusqu\'à 3 séries d\'axes
 -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Grille](Arch_Grid/fr.md) : crée un objet de type grille dans le document
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Plan de coupe](Arch_SectionPlane/fr.md): ajoute un plan de coupe au document. Les plans de coupe définissent des vues 2D telles que des plans, des coupes et des élévations
 -   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> _ à partir d\'un [modèle SVG](TechDraw_Templates/fr.md)

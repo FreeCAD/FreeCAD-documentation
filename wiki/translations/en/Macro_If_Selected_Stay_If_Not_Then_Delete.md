@@ -8,7 +8,7 @@
 |Date=2015-11-12
 |FCVersion=All
 |Download=[https://www.freecadweb.org/wiki/images/6/62/Macro_If_Selected_Stay_If_Not_Then_Delete.png ToolBar Icon]
-|SeeAlso=[Macro_Toggle_Visibility2](Macro_Toggle_Visibility2.md)<br />[Macro_Toggle_Visibility](Macro_Toggle_Visibility.md)<br />[Macro HiddenAlls](Macro_HiddenAlls.md)<br />[Macro_VisibleAlls](Macro_VisibleAlls.md)
+|SeeAlso=[Macro Toggle Visibility2 1-2](Macro_Toggle_Visibility2_1-2.md)<br>[Macro Toggle Visibility2 2-2](Macro_Toggle_Visibility2_2-2.md)<br>[Macro_Toggle_Visibility](Macro_Toggle_Visibility.md)<br>[Macro HiddenAlls](Macro_HiddenAlls.md)<br>[Macro_VisibleAlls](Macro_VisibleAlls.md)
 }}
 
 ## Description

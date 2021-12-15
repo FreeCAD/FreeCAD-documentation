@@ -43,13 +43,7 @@ Um alle Flächenfarben zurückzusetzen:
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

@@ -102,7 +102,7 @@ It is also possible to create Arch Pipes without a base line, in this case use i
 
 <div class="mw-translate-fuzzy">
 
-Pipeツールは、[macros](macros.md)/[マクロやPythonコンソールから次の関数を使って使うことができます](マクロ.md)：
+Pipeツールは、[マクロやPythonコンソールから次の関数を使って使うことができます](macros.md)：
 
 
 </div>

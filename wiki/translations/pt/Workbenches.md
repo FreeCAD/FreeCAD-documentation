@@ -86,7 +86,7 @@ The following workbenches are still included in the base installation for compat
 
 FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main development area.
 
-The [external workbenches](external_workbenches.md) page lists all that are known to this community. Most are easily installable from within FreeCAD, using the [Addon Manager](Addon_Manager.md), found under menu **Tools → <img src="images/AddonManager.svg" width=24px> Addon manager**.
+The [external workbenches](external_workbenches.md) page lists all that are known to this community. Most are easily installable from within FreeCAD, using the [Addon Manager](Std_AddonMgr.md), found under menu **Tools → <img src="images/Std_AddonMgr.svg" width=24px> Addon manager**.
 
 
 <div class="mw-translate-fuzzy">

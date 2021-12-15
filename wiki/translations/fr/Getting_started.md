@@ -45,46 +45,15 @@ Tout d\'abord (si ce n\'est pas déjà fait) téléchargez et installez FreeCAD.
 
 Le concept principal de l\'interface FreeCAD est qu\'il est composé d\'[ateliers](workbenches/fr.md). Un atelier est une collection d\'outils adaptés pour une tâche spécifique, comme travailler avec des [maillages](Mesh_Workbench/fr.md), faire du [dessin 2D](Draft_Workbench/fr.md), ou faire des [esquisses contraintes](Sketcher_Workbench/fr.md). Vous pouvez changer l\'[atelier](Std_Workbench.md) actuel avec le sélecteur d\'ateliers (7). Vous pouvez [personnaliser](Interface_Customization/fr.md) les outils inclus dans chaque atelier, ajouter des outils provenant d\'autres ateliers ou même créer vos propres outils, que nous appelons [macros](Macros/fr.md). Les points de départ largement utilisés sont [l\'atelier PartDesign](PartDesign_Workbench/fr.md) et [l\'atelier Part](Part_Workbench/fr.md).
 
-Lorsque vous démarrez FreeCAD pour la première fois, la page Start s\'affiche. Voici son apparence sous la version 0.18 :
+Lorsque vous démarrez FreeCAD pour la première fois, la page Start s\'affiche. Voici son apparence sous la version 0.19 :
 
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
+<img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
 
 La page Start permet de passer rapidement à l\'un des ateliers les plus usuels, ouvrir un des fichiers récents ou voir les dernières nouvelles du monde de FreeCAD. Vous pouvez modifier l\'atelier par défaut dans l\'[éditeur de préférences](Preferences_Editor/fr.md).
 
 ## Naviguer dans l\'espace 3D 
 
-FreeCAD propose différents [modes de navigation](Mouse_navigation/fr.md), qui changent la façon dont vous utilisez votre souris pour interagir avec les objets de la vue 3D et la vue elle-même. L\'un d\'eux est spécialement conçu pour les [touchpads](Mouse_navigation/fr#Mode_Touchpad.md), où le bouton central de la souris n\'est pas utilisé. Le tableau suivant décrit le mode par défaut, appelé **Navigation CAD** (vous pouvez modifier rapidement le mode de navigation actuel en cliquant avec le bouton droit de la souris sur une zone vide de la vue 3D) :
-
-
-{{CAD Navigation
-|Select_name=Sélection
-|Pan_name=Pan (déplacement)
-|Zoom_name=Zoom
-|Rotate_view_name=Rotation<br>1ère méthode
-|Rotate_view_alt_name=Rotation<br>2è méthode
-|Ctrl=**Ctrl**
-|Shift=**Maj**
-|Select_text=Cliquez avec le bouton gauche de la souris sur l'objet que vous souhaitez sélectionner.
-
-Maintenez la touche **Ctrl** enfoncée pour sélectionner plusieurs objets.
-|Pan_text=Maintenez le bouton central de la souris enfoncé et glisser le pointeur pour déplacer l'objet dans l'écran graphique.
-|Pan_mode_text=Pan mode: maintenez la touche **Ctrl** enfoncée, appuyez à la fois sur le bouton droit de la souris, puis déplacez le pointeur. {{Version/fr|0.17}}
-|Zoom_text=Utilisez la molette de la souris pour zoomer et dézoomer
-
-En cliquant sur le bouton central de la souris, la vue est recentrée sur l'emplacement du curseur.
-|Zoom_mode_text=Mode zoom: maintenez les touches **Ctrl** et **Shift** enfoncées, appuyez à la fois sur le bouton droit de la souris, puis déplacez le pointeur. {{Version/fr|0.17}}
-|Rotate_view_text=Maintenez le bouton central de la souris enfoncé, appuyez ensuite sur le bouton gauche de la souris, puis déplacez le pointeur.
-
-Lorsque le bouton central de la souris est enfoncé l'emplacement du curseur détermine le centre de rotation. La rotation fonctionne comme une balle qui tourne autour de son centre. Si les boutons sont relâchés avant d'arrêter le mouvement de la souris, la vue continue [sa rotation](spinning/fr.md), si cette option est activée.
-
-Double cliquer avec le bouton central de la souris définit un nouveau centre de rotation.
-|Rotate_view_mode_text=Mode rotation: maintenez la touche **Shift** enfoncée, appuyez à la fois sur le bouton droit de la souris, puis déplacez le pointeur. {{Version/fr|0.17}}
-|Rotate_view_alt_text=Maintenez le bouton central de la souris enfoncé, appuyez ensuite sur le bouton droit de la souris, puis déplacez le pointeur.
-
-Avec cette méthode, le bouton central de la souris peut être relâché si vous maintenez le bouton droit de la souris enfoncé.
-
-Les utilisateurs qui utilisent la souris avec leur main droite peuvent trouver cette méthode plus facile que la première.
-}}
+FreeCAD propose différents <img src=images/NavigationCAD.svg style="width:modes de navigation](Mouse_navigation/fr.md), qui changent la façon dont vous utilisez votre souris pour interagir avec les objets de la vue 3D et la vue elle-même. L\'un d\'eux est spécialement conçu pour les [touchpads](Mouse_navigation/fr#Mode_Touchpad.md) où le bouton central de la souris n\'est pas utilisé. Le mode de navigation par défaut est le [mode CAD](Mouse_navigation/fr#Mode_CAD.md). Vous pouvez rapidement changer le mode de navigation utilisé par le bouton **[16px">** dans la [barre d\'état](Status_bar/fr.md) ou en cliquant avec le bouton droit de la souris sur une zone vide de la [Vue\_3D](3D_view/fr.md).
 
 Plusieurs vue prédéfinies (vue de dessus, vue de face, etc.) sont disponibles dans le menu Affichage, dans la barre d\'outils ainsi que par des raccourcis numériques (**1**, **2**, etc\...). Un clic droit sur un objet ou sur une zone vide de la vue 3D vous donne un accès rapide à certaines opérations courantes, telles que la définition d\'une vue particulière, ou localiser un objet dans l\'arborescence.
 
@@ -116,7 +85,7 @@ Les formes 2D faites avec le Sketcher servent beaucoup dans l\'atelier PartDesig
 
 Ce qui vous donne un objet comme ceci :
 
-<img alt="" src=images/Partdesign_example.jpg  style="width:1024px;">
+<img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 À tout moment, vous pouvez sélectionner les esquisses originales et les modifier, ou changer les paramètres d\'extrusion des opérations de protrusion ou de cavité, qui mettront automatiquement à jour l\'objet final.
 
@@ -140,13 +109,13 @@ Le travail typique avec les ateliers Arch et Draft peut être :
 
 Le résultat sera :
 
-<img alt="" src=images/Arch_workflow_example.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
 
 Plus d\'informations sur la page [tutoriels](Tutorials/fr.md).
 
 ## Addons, Macro et ateliers externe 
 
-Freecad, en tant que logiciel open source, offre la possibilité de compléter ses ateliers avec des addons.
+FreeCAD, en tant que logiciel open source, offre la possibilité de compléter ses ateliers avec des addons.
 
 Le principe des [Addon](Addon/fr.md) est basé sur le développement d\'un atelier complémentaire. Tout utilisateur peut développer une fonction qu\'il estime manquante pour ses propres besoins ou, finalement, pour la communauté. Dans le forum, l\'utilisateur peut demander un avis, une aide. Il peut partager, ou non, l\'objet de son développement selon les règles du droit d\'auteur à définir. Gratuit pour elle/lui. Pour le développer, l\'utilisateur dispose de fonctions [scriptées](scripting/fr.md).
 

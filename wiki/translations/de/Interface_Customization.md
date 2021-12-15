@@ -236,11 +236,11 @@ FreeCAD unterstützt die vollständige Themensetzung der Oberfläche über .qss 
 
 Du kannst auch ein eigenes Thema erstellen, wenn du mit den Themen, die mit FreeCAD mitgeliefert werden, nicht zufrieden bist, z.B. indem du ein [existierende Gestaltungsbögen](https://github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets) bearbeitest. Ihre neue Grstaltung muss in einem bestimmten Ordner abgelegt werden, damit er von FreeCAD gefunden wird:
 
--    {{Dateiname|%APPDATA%/FreeCAD/Gui/Stylesheets}}(unter Windows). Der Ordner {{Dateiname|%APPDATA%}} kann durch Eingabe von {{Incode|App.getUserAppDataDir()}} in der [Python-Konsole](Python_console.md) abgerufen werden.
+-    {{FileName|%APPDATA%/FreeCAD/Gui/Stylesheets}}(unter Windows). Der Ordner {{FileName|%APPDATA%}} kann durch Eingabe von {{Incode|App.getUserAppDataDir()}} in der [Python-Konsole](Python_console.md) abgerufen werden.
 
 -    {{FileName|$HOME/.FreeCAD/Gui/Stylesheets}}(unter Linux).
 
--    {{Dateiname|$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets}}(unter MacOS).
+-    {{FileName|$HOME/Library/Preferences/FreeCAD/Gui/Stylesheets}}(unter MacOS).
 
 
 {{Top}}

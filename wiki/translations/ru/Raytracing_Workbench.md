@@ -38,6 +38,9 @@
 
 ### Инструменты проекта 
 
+
+<div class="mw-translate-fuzzy">
+
 Это главные инструменты для экспорта Вашей трёхмерной работы во внешние визуализаторы.
 
 -   <img alt="" src=images/Raytrace_New.svg  style="width:32px;"> [New PovRay project](Raytracing_New/ru.md): Вставляет в документ новый проект PovRay
@@ -46,6 +49,9 @@
 -   <img alt="" src=images/Raytrace_ResetCamera.svg  style="width:32px;"> [Reset camera](Raytracing_ResetCamera/ru.md): Сопоставляет позицию камеры проекта трассировки лучей с текущим видом
 -   <img alt="" src=images/Raytrace_ExportProject.svg  style="width:32px;"> [Export project](Raytracing_ExportProject/ru.md): Экспортирует проект визуализации в файл сцены для отрисовки во внешнем визуализаторе
 -   <img alt="" src=images/Raytrace_Render.svg  style="width:32px;"> [Render](Raytracing_Render/ru.md): Визуализирует проект трассировки лучей во внешнем визуализаторе
+
+
+</div>
 
 ### Утилиты
 

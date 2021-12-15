@@ -9,7 +9,7 @@ The navigation cube consists of a number of parts:
 -   Main Navigation Cube
 -   Mini-cube Menu
 
-Hovering the mouse pointer over a feature of the navigational cube turns the feature light blue; clicking will reorient the 3D view as indicated by the feature. In the example below, the 3D view has been rotated by a [mouse gesture](Mouse_Model.md) to a \"non-standard\" orientation. The pointer is over a corner (indicated by the blue color); clicking will reorient the 3D view to a standard axonometric view with that corner facing you.
+Hovering the mouse pointer over a feature of the navigational cube turns the feature light blue; clicking will reorient the 3D view as indicated by the feature. In the example below, the 3D view has been rotated by a [mouse gesture](Mouse_navigation.md) to a \"non-standard\" orientation. The pointer is over a corner (indicated by the blue color); clicking will reorient the 3D view to a standard axonometric view with that corner facing you.
 
 ![](images/FreeCAD-v0-18-NavCube_SelectCorner.png )
 

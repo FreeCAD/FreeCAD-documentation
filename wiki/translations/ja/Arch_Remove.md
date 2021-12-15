@@ -1,11 +1,11 @@
 # Arch Remove/ja
 ---
-- GuiCommand:/jp
+- GuiCommand:/ja
    Name:Arch Remove
    Name/ja:Removeツール
    MenuLocation:Arch -> Remove
-   Workbenches:[建築](Arch_Module/jp.md)
-   SeeAlso:[Arch Add](Arch_Add/jp.md)---
+   Workbenches:[建築](Arch_Workbench/ja.md)
+   SeeAlso:[Arch Add](Arch_Add/ja.md)---
 
 
 </div>

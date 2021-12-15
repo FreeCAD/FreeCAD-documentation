@@ -34,6 +34,9 @@ Der Dialog **Helix parameters** bietet verschiedene Parameter an, wie die Zeichn
 
 ### Axis
 
+
+<div class="mw-translate-fuzzy">
+
 Diese Option legt die Achse fest, um die die Skizze geführt werden soll.
 
 -   **Vertical sketch axis**: wählt die vertikale Skizzen-Achse.
@@ -41,6 +44,9 @@ Diese Option legt die Achse fest, um die die Skizze geführt werden soll.
 -   **Construction line**: wählt eine eine Konstruktionslinie der Skizze, die für die Helix genutzt wird. In der Drop-Down-Liste ist jede Konstruktionslinie vorhanden.Die erste in der Skizze erstellte Konsruktionslinie hat die Bezeichnung *Construction line 1*.
 -   **Base (X/Y/Z) axis**: wählt die X, Y or Z Achse des Ursprungs des Körpers.
 -   **Select reference\...**: erlaubt in der 3D-Ansicht die Auswahl einer Kante auf dem Körper oder eine [Datum Linie](PartDesign_Line.md).
+
+
+</div>
 
 ### Mode
 
@@ -66,7 +72,13 @@ Die Anzahl der Umdrehungen der Helix. Ergibt sich aus Höhe/Abstand zwischen den
 
 ### Cone Angle 
 
+
+<div class="mw-translate-fuzzy">
+
 Der Winkel mit dem der Radius der Helix zu- oder abnimmt. Zulässige Werte: \[-89°, +89°\].
+
+
+</div>
 
 ### Left handed 
 
@@ -89,6 +101,9 @@ Wenn gewählt, ändert sich die Ansicht bei jeder Parameteränderung automatisch
 Eine subtraktive Helix, die sich nicht selbst überschneidet ist sichtbar, wenn **Tools → Edit parameters... → BaseApp → Preferences → Mod → PartDesign → SubtractiveHelixPreview** auf `True` steht. Die Voreinstellung ist `True`. <small>(v0.20)</small> 
 
 ## Eigenschaften
+
+
+<div class="mw-translate-fuzzy">
 
 -    **Pitch**: Der axiale Abstand zwischen zwei Umdrehungen.
 
@@ -119,6 +134,9 @@ Eine subtraktive Helix, die sich nicht selbst überschneidet ist sichtbar, wenn 
 -    **Up to face**: Nicht genutzt.
 
 -    **Allow multiple face**: Nicht genutzt.
+
+
+</div>
 
 
 

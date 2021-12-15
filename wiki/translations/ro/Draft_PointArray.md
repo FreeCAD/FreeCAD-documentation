@@ -40,9 +40,9 @@ Both commands can be used on 2D objects created with the [Draft Workbench](Draft
 <div class="mw-translate-fuzzy">
 
 1.  Creați un obiect de formă pe care doriți să îl distribuiți. Veți obține cele mai bune rezultate dacă obiectul dvs. este centrat în jurul originii \"\" \', adică dacă {{PropertyData | position}} este \[0, 0, 0\].
-2.  Poziționați punctele folosind [Punct de tragere](Punct_de_tragere.md).
+2.  Poziționați punctele folosind Punct de tragere.
 3.  Selectați punctele și creați o combinație a acestora utilizând [Draft Upgrade](Draft_Upgrade.md).
-4.  Mai întâi selectați forma, apoi noul compus punct, apoi apăsați butonul {{KEY | _ [[Draft PointArray]]}}.
+4.  Mai întâi selectați forma, apoi noul compus punct, apoi apăsați butonul {{KEY | <img src="images/_Draft_PointArray.svg_" width= 16px> [[Draft PointArray]]}}.
 
 
 </div>

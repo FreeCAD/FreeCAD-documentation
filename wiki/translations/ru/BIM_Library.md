@@ -12,7 +12,13 @@
 
 ## Описание
 
+
+<div class="mw-translate-fuzzy">
+
 Инструмент «Библиотека BIM» позволяет разместить в текущей модели объект из _, чтобы этот инструмент был доступен.
+
+
+</div>
 
 <img alt="" src=images/BIM_Library_screenshot.png  style="width:800px;"> 
 *Выше: Смотрите диалог '''Library browser''' [панели задач](Task_panel/ru.md) слева*

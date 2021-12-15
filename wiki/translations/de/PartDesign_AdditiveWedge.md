@@ -23,7 +23,7 @@ Fügt den Grundkörper Keil in den aktiven Körper (Body) als Basisformelement e
 <div class="mw-translate-fuzzy">
 
 1.  Auf die Schaltfläche **<img src="images/PartDesign_AdditiveWedge.svg" width=24px> '''Zu addierender Keil'''** klicken. **Anmerkung**: zu addierender Keil ist Teil des benannten Symbols *Erzeugen eines zusätzlichen geometrischen Körpers*. Direkt nach dem Start von FreeCAD wird das Symbol von „zu addierender Quader" in der Werkzeugleiste angezeigt. Durch Klicken auf den Pfeil neben dem Symbol kann der zu addierenden Keil in dem aufklappenden Menü ausgewählt werden.
-2.  Die Parameter des Grundkörpers und über [Attachment](Part_Attachment/de.md) den räumlichen Bezug einstellen.
+2.  Die Parameter des Grundkörpers und über [Attachment](Part_EditAttachment/de.md) den räumlichen Bezug einstellen.
 3.  Mit Klick auf **OK** bestätigen.
 4.  Das Element Keil erscheint unterhalb des aktiven Körpers (Body).
 

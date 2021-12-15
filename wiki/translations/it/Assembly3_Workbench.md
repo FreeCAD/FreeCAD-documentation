@@ -386,7 +386,7 @@ A partire dal 2020 il banco da lavoro Assembly3 è dotato delle seguenti barre d
 </div>
 
 
-:   <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasurePointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasureAngle.svg‎‎  style="width:28px;">
+:   <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasurePointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasureAngle.svg‎‎  style="width:28px;">
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -691,6 +691,9 @@ Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e g
         -   Se un elemento è stato assegnato per caso alla superficie sbagliata, basta ripetere con la superficie corretta.
     3.  Se si vuole, modificare il nome dell\'oggetto in FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
 \'\'Nota
 \* Non sono così complicate come qui può sembrare . Dopo 2-3 volte dovrebbero diventare naturali ed essere molto facili da fare.
 
@@ -698,6 +701,9 @@ Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e g
 -   Questa procedura diventa davvero veloce e facile da fare se si dà un nome ai vincoli e agli elementi. Non c\'è modo di indovinare dove le superfici devono essere trascinate, perché i nomi lo dicono (vedi [Consigli e suggerimenti](#Tips_&_Tricks.md)).
 
 \'\'
+
+
+</div>
 
 [Torna all\'inizio](#top.md)
 
@@ -720,6 +726,9 @@ Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e g
 
 ## Link
 
+
+<div class="mw-translate-fuzzy">
+
 -   [App Link](App_Link/it.md) oggetto che fa funzionare Assembly3.
 -   [FreeCAD\_assembly3](https://github.com/realthunder/FreeCAD_assembly3) archivio e documentazione.
 -   [Assembly3 preview](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712), big discussion thread.
@@ -727,6 +736,9 @@ Un modo per risolvere questo problema è quello di eliminare tutti i vincoli e g
 -   [Current Assembly Status](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [Ambienti complementari](External_workbenches/it.md)
 -   [Progetto di Assemblaggio](Assembly_project/it.md) piano di sviluppo, per conoscere la storia della materia.
+
+
+</div>
 
 
 

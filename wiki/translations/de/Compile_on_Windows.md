@@ -1,7 +1,13 @@
 # Compile on Windows/de
 {{TOCright}}
 
+
+<div class="mw-translate-fuzzy">
+
 Diese Seite erklärt Schritt für Schritt, **wie man FreeCAD 0.19 oder neuer unter Windows kompiliert**. Für andere Plattformen siehe [Compiling](Compiling.md).
+
+
+</div>
 
 ## Voraussetzungen
 
@@ -15,9 +21,15 @@ Kompilieren von FreeCAD unter Windows erfordert einige Werkzeuge und Bibliotheke
 
 -   [CMake](https://cmake.org/download/) Version 3.11.x oder neuer. *Tipp:* Wenn du bei der Installation von CMake die Option *CMake zum System PFAD für alle Benutzer hinzufügen* wählst, ist CMake von der Windows Eingabeaufforderung aus zugänglich, was nützlich sein kann.
 
+
+<div class="mw-translate-fuzzy">
+
 -   LibPack (auch FreeCADLibs genannt). Dies ist ein einzelnes Paket, das alle Bibliotheken enthält, die notwendig sind, um FreeCAD unter Windows zu kompilieren.
 
 Lade die Version von LibPack herunter, die zur FreeCAD-Version passt, die du kompilieren möchtest. Um FreeCAD 0.19 oder die letzte Entwicklerversion 0.20 zu kompilieren, lade [LibPack for 0.19/0.20](https://github.com/apeltauer/FreeCAD/releases/tag/LibPack_12.5.2) herunter (nur 64-bit). Entpacke LibPack an einem geeigneten Ord. (Wenn dein Computer die Erweiterung .7z nicht erkennt, solltest du das Programm [7-zip](https://www.7-zip.org) installieren.)  **Hinweis**: Es wird dringend empfohlen, FreeCAD mit der Compiler-Version zu kompilieren, für die das LibPack vorgesehen ist. Du könntest bspw. Probleme bekommen, FreeCAD 0.19 mit MSVC 15 zu kompilieren, weil das LibPack für 0.19 für den Compile mit MSVC 17 vorgesehen ist.
+
+
+</div>
 
 ### Optionale Programme 
 
@@ -143,6 +155,9 @@ Das CMake Bau System gibt dir die Kontrolle über einige Aspekte des Bauprozesse
 
 Hier ist eine Beschreibung einiger dieser Variablen:
 
+
+<div class="mw-translate-fuzzy">
+
   Variablenname                            Beschreibung                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            Vorgabewert
   ---------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------
   BUILD\_XXX                               Erstelle FreeCAD mit der Komponente XXX. Falls du bspw. den Arbeitsbereich *OpenSCAD* nicht willst/brauchst, deaktiviere die Variable *BUILD\_OPENSCAD*. FreeCAD wird diesen Arbeitsbereich dann nicht enthalten. **Hinweis:** Einige Komponenten werden für andere Komponenten benötigt. Wenn du bspw. *BUILD\_ROBOT* deaktivierst, wird CMake dich darüber informieren, dass die Komponente *Path* nicht korrekt kompiliert werden kann. Prüfe daher die CMake-Ausgaben nach dem Ändern einer BUILD\_XXX-Option!                                                                                                                                      hängt davon ab
@@ -155,6 +170,9 @@ Hier ist eine Beschreibung einiger dieser Variablen:
   FREECAD\_LIBPACK\_DIR                    Verzeichnis, in dem sich LibPack befindet                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               FreeCAD\'s Quell-Code-Verzeichnis
   FREECAD\_RELEASE\_PDB                    Erstelle Debug-Bibliotheken auch für Freigabe-Versionen                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 ON
 
+
+</div>
+
 ## FreeCAD bauen 
 
 Abhängig von deinem Compiler wird der Prozess zur Erstellung von FreeCAD etwas anders ablaufen. In den folgenden Abschnitten werden die bekannten Arbeitsabläufe beschrieben. Wenn Du mit Qt Creator baust, gehe zu [Bau mit Qt Erzeuger](#Building_with_Qt_Creator/de.md), ansonsten fahre direkt fort:
@@ -162,7 +180,13 @@ Abhängig von deinem Compiler wird der Prozess zur Erstellung von FreeCAD etwas 
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
+
+<div class="mw-translate-fuzzy">
+
 ### Bau mit Visual Studio 15 (2017) und 16 (2019) 
+
+
+</div>
 
 
 <div class="mw-collapsible-content">
@@ -450,10 +474,15 @@ Sobald du CMake verwendet hast, um die Build-Datei für FreeCAD zu generieren, �
 
 ## Referenzen
 
+
+<div class="mw-translate-fuzzy">
+
 Siehe auch
 
--   [Kompilieren unter Windows mit Visual Studio 2013](Compile_on_Windows_with_VS2013.md)
 -   [Kompilieren - Beschleunigen](Compiling_(Speeding_up).md)
+
+
+</div>
 
 
 

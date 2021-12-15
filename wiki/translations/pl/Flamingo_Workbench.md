@@ -1,7 +1,7 @@
 # Flamingo Workbench/pl
 **Flamingo Workbench (Python2/Qt4) has been superseded by the Dodo Workbench (Python3/Qt5). This wiki page will highlight the differences between these two workbenches. Currently [Dodo Workbench](Dodo_Workbench.md) links here.**
 
-## Introduction
+## Wprowadzenie
 
 This is a set of customized FreeCAD commands and objects that help to speed-up the drawing of frames and pipelines, mainly.
 

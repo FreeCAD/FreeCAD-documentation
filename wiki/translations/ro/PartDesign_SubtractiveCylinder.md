@@ -25,7 +25,7 @@ Inserează un cilindru subtractiv în Corpul Activ. Forma sa este extrasă din s
 <div class="mw-translate-fuzzy">
 
 1.  Apăsați butonul **<img src="images/PartDesign_SubtractiveCylinder.png" width=24px> '''Subtractive Cylinder'''** . **Notă**: Cilindrul substractiv este parte a meniul de iocnițe denumit/etichetat *Create an subtractive primitive*. După lansarea FreeCAD, Cubul Substractiv este afișat în bara de instrumente. Pentru a obține Cilindru, click pe săgeata în jos dincolo de iconițele vizibile și selectați Cilindrul Substractiv din meniu
-2.  Parametrii Primitivei și [Attachment](Part_Attachment.md).
+2.  Parametrii Primitivei și [Attachment](Part_EditAttachment.md).
 3.  Click **OK**.
 4.  Funcția Cilindru apare sub Corpul activ.
 
@@ -52,7 +52,7 @@ Cilindrul poate fi editat, după crearea sa, în două moduri:
 
 <div class="mw-translate-fuzzy">
 
--    **Attachment**: Determină modul de atașare și dispunerea atașamentului(Attachment Offset). Vedeți [Part Attachment](Part_Attachment.md).
+-    **Attachment**: Determină modul de atașare și dispunerea atașamentului(Attachment Offset). Vedeți [Part EditAttachment](Part_EditAttachment.md).
 
 -    **Label**: numel/eticheta dată obiectului Cylinder. Schimbați pentru a vi se potrivi nevoilor dvs.
 

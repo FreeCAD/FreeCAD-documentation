@@ -181,7 +181,7 @@ Es gibt drei Lösungen, die sich damit beschäftigen:
     -   Lade [skipSheet.FCMacro](https://forum.freecadweb.org/viewtopic.php?f=8&t=48600#p419301) herunter und führe es aus.
     -   Diese Lösung spart ein paar Schritte im Vergleich zur ersten Lösung, hat aber auch den erwähnten Nachteil.
 3.  Lege das Tabellenblatt in eine separate [FreeCAD Datei](File_Format_FCStd/de.md):
-    -   Du kannst Tabellenkalkulationsdaten aus einer externen {{Dateiname|.FCStd}} Datei mit dieser Syntax referenzieren: `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
+    -   Du kannst Tabellenkalkulationsdaten aus einer externen {{FileName|.FCStd}} Datei mit dieser Syntax referenzieren: `<nowiki>=NameOfFile#<<MySpreadsheet>>.MyAlias</nowiki>`.
     -   Der Vorteil, das Tabellenblatt in einer anderen Datei zu haben, gegenüber dem Ausschalten der Neuberechnung, ist, dass das Arbeitsblatt selbst neu berechnet wird.
     -   Der Nachteil ist, dass das Modell nach Änderungen am Tabellenblatt nicht automatisch neu berechnet wird.
     -   In dem Szenario, in dem du zuerst die \'Tabellenblatt\' Datei öffnest, einen oder mehrere Werte änderst und dann die \'Modell\' Datei öffnest, wird es keinen Hinweis geben, dass das Modell neu berechnet werden muss. Wenn jedoch beide Dateien geöffnet sind, wird das [Std Aktualisieren](Std_Refresh/de.md) Symbol für die \"Modell\" Datei nach Änderungen in der \"Tabellenblatt\" Datei korrekt aktualisiert.

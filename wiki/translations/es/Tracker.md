@@ -183,13 +183,7 @@ For the inquisitive here is the regex MantisBT uses for this operation:
 -   [Source Code Management](Source_Code_Management.md)
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/es|Licence/es|CompileOnWindows/es}}
-
-
-</div>
 
 
 

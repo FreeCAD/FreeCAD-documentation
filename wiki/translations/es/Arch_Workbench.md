@@ -44,10 +44,16 @@ Estas son herramientas para crear objetos arquitectónicos.
 -   <img alt="" src=images/Arch_Window.svg  style="width:32px;"> [Ventana](Arch_Window/es.md): Crea una ventana utilizando un objeto seleccionado como base
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Plano de sección](Arch_SectionPlane/es.md): Añade un objeto plano de sección al documento
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Herramientas del eje](Arch_CompAxis/es.md): La herramienta Eje permite colocar una serie de ejes en el documento actual.
     -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Ejes](Arch_Axis/es.md): Agrega una matriz de ejes de una dirección al documento
     -   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Sistema de ejes](Arch_AxisSystem/es.md): Agrega un sistema de ejes compuesto por varios ejes al documento
     -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Regilla](Arch_Grid/es.md): Agrega un objeto similar a una cuadrícula al documento
+
+
+</div>
 
 -   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Techo](Arch_Roof/es.md): Crea un techo con pendiente a partir de la cara seleccionada
 -   <img alt="" src=images/Arch_Space.svg  style="width:32px;"> [Espacio](Arch_Space/es.md): Crea un objeto de espacio en el documento
@@ -88,8 +94,10 @@ Estas son herramientas para modificar objetos de arquitectura.
 
 Estas son herramientas adicionales para ayudarte en tareas específicas.
 
-!!FUZZY!!\* <img alt="" src=images/Arch_Component.svg  style="width:32px;"> [Componente](Arch_Component/es.md): Crea un componente Arch no paramétrico
 
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Arch_Component.svg  style="width:32px;"> [Componente](Arch_Component/es.md): Crea un componente Arch no paramétrico
 -   <img alt="" src=images/Arch_Component_Clone.svg  style="width:32px;"> _)
 -   <img alt="" src=images/Arch_SplitMesh.svg  style="width:32px;"> [Dividir malla](Arch_SplitMesh/es.md): Divide una malla seleccionada en componentes separados
 -   <img alt="" src=images/Arch_MeshToShape.svg  style="width:32px;"> [Malla a forma](Arch_MeshToShape/es.md): Convierte una malla en una forma, unificando caras coplanares
@@ -98,11 +106,14 @@ Estas son herramientas adicionales para ayudarte en tareas específicas.
 -   <img alt="" src=images/Arch_CloseHoles.svg  style="width:32px;"> [Tapar agujeros](Arch_CloseHoles/es.md): Cierra los agujeros en el objeto basado en formas seleccionado
 -   <img alt="" src=images/Arch_MergeWalls.svg  style="width:32px;"> [Fusionar las paredes](Arch_MergeWalls/es.md): Fusionar dos o más paredes
 -   <img alt="" src=images/Arch_Check.svg  style="width:32px;"> [Comprobar](Arch_Check/es.md): Comprueba si los objetos seleccionados son sólidos y no contienen defectos
--   <img alt="" src=images/Ifc.svg  style="width:32px;"> _
+-   <img alt="" src=images/IFC.svg  style="width:32px;"> _
 -   <img alt="" src=images/Arch_ToggleIfcBrepFlag.svg  style="width:32px;"> [Cambia IFC-Brep bandera](Arch_ToggleIfcBrepFlag/es.md): Obliga a exportar un objeto seleccionado como [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm).
 -   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> _.
 -   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> _ de un objeto
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Alternar subcomponentes](Arch_ToggleSubs/es.md): Muestra u oculta los subcomponentes de un objeto Arch.
+
+
+</div>
 
 ### Preferencias
 
@@ -119,7 +130,13 @@ Estas son herramientas adicionales para ayudarte en tareas específicas.
 
 ## API
 
+
+<div class="mw-translate-fuzzy">
+
 El Módulo de arquitectura puede usarse en scripts de [Python](Python/es.md) y en [macros](macros/es.md) usando las funciones de [Arch Python API](http://www.freecadweb.org/api/Arch.html)
+
+
+</div>
 
 ## Tutoriales
 

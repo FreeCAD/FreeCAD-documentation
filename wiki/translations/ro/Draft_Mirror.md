@@ -48,8 +48,8 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 1.  Selectați obiectele pe care doriți să le reflectați
 2.  Apăsați butonul **<img src="images/Draft_Mirror.png" width=16px> [[Draft Mirror]]
 **
-3.  Faceți clic pe primul punct al liniei de oglindă din vizualizarea 3D sau tastați un [ coordinate](Draft_Coordinates.md)
-4.  Faceți clic pe celălalt punct al liniei de simetrie/oglindire din vizualizarea 3D sau tastați un [ coordinate](Draft_Coordinates.md)
+3.  Faceți clic pe primul punct al liniei de oglindă din vizualizarea 3D sau tastați un coordinate
+4.  Faceți clic pe celălalt punct al liniei de simetrie/oglindire din vizualizarea 3D sau tastați un coordinate
 
 
 </div>
@@ -63,7 +63,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ## Opțiuni
 
--   După crearea oglinzii, legarea sa cu obiectul original poate fi eliminată folosind instrumentul [ Creare parțială simplă](Part_CreateSimpleCopy.md).
+-   După crearea oglinzii, legarea sa cu obiectul original poate fi eliminată folosind instrumentul [ Creare parțială simplă](Part_SimpleCopy.md).
 -   Oglinda unui obiect Draft poate fi de asemenea transformată într-un Wire Draft, utilizând [Draft Downgrade](Draft_Downgrade.md) apoi [Draft Upgrade](Draft_Upgrade.md).
 
 
@@ -131,7 +131,7 @@ mirrored_list = mirror(objlist, p1, p2)
 <div class="mw-translate-fuzzy">
 
 -   Realizează oglinda (obiectelor) obiectului dat peste un plan definit de o linie de la p1 la p2 și paralel cu vizualizarea curentă
--   Rezultatul este un obiect [Mirror Object](Mirror_Object.md)
+-   Rezultatul este un obiect `Part::Mirroring`
 -   Dacă obiectul original se modifică, obiectul final se schimbă și el, dar rămâne oglindit
 
 

@@ -44,10 +44,16 @@ Strumenti per creare gli oggetti architettonici.
 -   <img alt="" src=images/Arch_Window.svg  style="width:32px;"> [Finestra](Arch_Window/it.md): Crea una finestra utilizzando come base un oggetto selezionato
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Piano di sezione](Arch_SectionPlane/it.md): Aggiunge un oggetto *Piano di sezione* al documento
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Assi](Arch_CompAxis/it.md): Lo strumento Assi consente di posizionare una serie di assi nel documento corrente.
     -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Asse](Arch_Axis/it.md): Aggiunge al documento un sistema di assi in 1 direzione
     -   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Sistema di assi](Arch_AxisSystem/it.md): Aggiunge al documento un sistema di assi composto da più assi
     -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Griglia](Arch_Grid/it.md): Inserisce un oggetto tipo griglia nel documento.
+
+
+</div>
 
 -   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Tetto](Arch_Roof/it.md): Crea le falde del tetto partendo da una faccia selezionata
 -   <img alt="" src=images/Arch_Space.svg  style="width:32px;"> [Spazio](Arch_Space/it.md): Crea un oggetto spazio
@@ -88,9 +94,11 @@ Strumenti per modificare gli oggetti architettonici.
 
 Strumenti aggiuntivi di aiuto per operazioni specifiche.
 
-!!FUZZY!!\* <img alt="" src=images/Arch_Component.svg  style="width:32px;"> [Componenti](Arch_Component/it.md): Crea un componente Arch non parametrico
 
--   <img alt="" src=images/Arch_ComponentClone.svg  style="width:32px;"> _)
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Arch_Component.svg  style="width:32px;"> [Componenti](Arch_Component/it.md): Crea un componente Arch non parametrico
+-   <img alt="" src=images/Arch_CloneComponent.svg  style="width:32px;"> _)
 -   <img alt="" src=images/Arch_SplitMesh.svg  style="width:32px;"> [Dividi mesh](Arch_SplitMesh/it.md): Divide una maglia selezionata in componenti separati
 -   <img alt="" src=images/Arch_MeshToShape.svg  style="width:32px;"> [Forma da Mesh](Arch_MeshToShape/it.md): Converte una maglia in una forma, unificando le facce complanari
 -   <img alt="" src=images/Arch_SelectNonManifold.svg  style="width:32px;"> [Seleziona le mesh non-manifold](Arch_SelectNonSolidMeshes/it.md): Seleziona tutti gli oggetti maglia non-solidi della selezione corrente o del documento
@@ -103,6 +111,9 @@ Strumenti aggiuntivi di aiuto per operazioni specifiche.
 -   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> _.
 -   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> _ di un oggetto
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Mostra/Nascondi sottocomponenti](Arch_ToggleSubs/it.md): Mostra o nasconde i sotto-componenti di un oggetto Arch.
+
+
+</div>
 
 ### Preferences
 
@@ -119,7 +130,13 @@ Strumenti aggiuntivi di aiuto per operazioni specifiche.
 
 ## API
 
+
+<div class="mw-translate-fuzzy">
+
 Il Modulo Arch può essere usato negli [Python](Python/it.md) e [macro](macros/it.md) utilizzando la funzione [Arch Python API](http://www.freecadweb.org/api/Arch.html).
+
+
+</div>
 
 ## Tutorial
 

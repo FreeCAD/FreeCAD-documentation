@@ -67,7 +67,7 @@ Następujące środowiska pracy są nadal objęte zakresem instalacji podstawowe
 
 Środowiska pracy FreeCAD są łatwe do zaprogramowania w [Python](Python.md). Dlatego też, wiele osób opracowuje dodatkowe stoły robocze wykraczające poza główny obszar rozwoju programu FreeCAD.
 
-Strona [zewnętrzne Środowiska pracy](external_workbenches.md) zawiera listę wszystkich, które są znane tej społeczności. Większość z nich można łatwo zainstalować z poziomu FreeCAD, używając [Menadżera dodatków](Std_AddonMgr/pl.md), znajdującego się w menu **Narzędzia → <img src="images/AddonManager.svg" width=24px> Menadżer dodatków**.
+Strona [zewnętrzne środowiska pracy](External_workbenches/pl.md) zawiera listę wszystkich, które są znane tej społeczności. Większość z nich można łatwo zainstalować z poziomu FreeCAD, używając [Menadżera dodatków](Std_AddonMgr/pl.md), znajdującego się w menu **Narzędzia → <img src="images/Std_AddonMgr.svg" width=24px> Menadżer dodatków**.
 
 Wciąż powstają kolejne środowiska pacy, obserwuj zmiany i bądź na bieżąco!
 

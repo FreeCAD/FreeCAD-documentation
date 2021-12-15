@@ -5,7 +5,7 @@
    MenuLocation:[Файл](Std_File_Menu/ru.md) → Сохранить
    Workbenches:All
    Shortcut:**Ctrl**+**S**
-   SeeAlso:[Сохранить как...](Std_SaveAs/ru.md), [Std SaveCopy](Std_SaveaCopy/ru.md), [Std SaveAll](Std_SaveAll/ru.md)
+   SeeAlso:[Сохранить как...](Std_SaveAs/ru.md), [Std SaveCopy](Std_SaveCopy/ru.md), [Std SaveAll](Std_SaveAll/ru.md)
 ---
 
 # Std Save/ru

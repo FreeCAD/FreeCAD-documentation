@@ -50,7 +50,7 @@ If you decide to install the <img alt="" src=images/Workbench_Plot.svg  style="w
 
 ## Scripting 
 
-Since Plot module is a layer over matplotlib, you are free to use all matplotlib commands over plot instances. See [scripting examples](Scripting_examples/cs.md) section to see examples.
+Since Plot module is a layer over matplotlib, you are free to use all matplotlib commands over plot instances. See [Scripting and macros](Scripting_and_macros/cs.md) section to see examples.
 
 ## Tutorial
 

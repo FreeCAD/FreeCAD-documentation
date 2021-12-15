@@ -37,7 +37,7 @@ Dieses Tutorium soll den Leser in den grundlegenden Arbeitsablauf des FEM Arbeit
 
 -   FreeCAD Version 0.16.6700 oder höher
 -   [Netgen](http://sourceforge.net/projects/netgen-mesher/) und/oder [GMSH](http://geuz.org/gmsh/) ist auf dem System installiert
--   Im Falle von GMSH installiere [Makro GMSH](Macro_GMSH/de.md) aus dem [Erweiterungsverwalter](AddonManager/de.md), entwickelt von [psicofil](https://github.com/psicofil/Macros_FreeCAD).
+-   Im Falle von GMSH installiere [Makro GMSH](Macro_GMSH/de.md) aus dem [Erweiterungsverwalter](Std_AddonMgr/de.md), entwickelt von [psicofil](https://github.com/psicofil/Macros_FreeCAD).
 -   [Calculix](http://www.calculix.de/) ist auf dem System installiert
 -   Der Leser verfügt über die Grundkenntnisse zur Verwendung der [Part](Part_Workbench/de.md) und [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md)
 
@@ -203,7 +203,7 @@ Wir haben jetzt die Beschränkungen und Kräfte für unsere statische Studie fes
 </div>
 
 
-{{Hinweis|Vergleich zur vorherigen Beispieldatei|Wenn du den Ergebnistyp '''Z Verschiebung''' wählst, kannst du sehen, dass der erhaltene Wert fast identisch mit dem von FreeCAD gelieferten Testbeispiel ist. Unterschiede können aufgrund der Qualität des Netzes und der Anzahl der Knoten, die es besitzt, auftreten.}}
+{{Note|Vergleich zur vorherigen Beispieldatei|Wenn du den Ergebnistyp '''Z Verschiebung''' wählst, kannst du sehen, dass der erhaltene Wert fast identisch mit dem von FreeCAD gelieferten Testbeispiel ist. Unterschiede können aufgrund der Qualität des Netzes und der Anzahl der Knoten, die es besitzt, auftreten.}}
 
 
 <div class="mw-translate-fuzzy">

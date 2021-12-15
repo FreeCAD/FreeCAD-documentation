@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Arch Floor är en speciell sorts [Arch Cell](Arch_Cell/sv.md) som har några extra egenskaper speciellt anpassade för att bygga golv. De har bland annat en höjdegenskap, som dess barnobjekt ([väggar](Arch_Wall.md) och [strukturer](Arch_Structure.md)) kan använda för att ställa in sin egen höjd automatiskt
+Arch Floor är en speciell typ av FreeCAD group objekt som har några extra egenskaper speciellt anpassade för att bygga golv. De har bland annat en höjdegenskap, som dess barnobjekt ([väggar](Arch_Wall.md) och [strukturer](Arch_Structure.md)) kan använda för att ställa in sin egen höjd automatiskt.
 
 
 </div>

@@ -104,7 +104,7 @@ V době, kdy je psán tento text, [Pracovní ploch Architektura](Arch_Workbench/
 <div class="mw-translate-fuzzy">
 
 
-{{Note|FreeCAD verze 0.14 je požadována|Tento výukový program byl psán za použití [FreeCAD verze 0.14](Release_notes_014/cs.md). Pokud budete zkoušet podle tohoto programu, budete potřebovat minimálně tuto verzi. Dřívější verze nemusejí obsahovat všechny potřebné nástroje nebo volby používané zde.}}
+{{Note|FreeCAD verze 0.14 je požadována|Tento výukový program byl psán za použití [FreeCAD verze 0.14](Release_notes_0.14/cs.md). Pokud budete zkoušet podle tohoto programu, budete potřebovat minimálně tuto verzi. Dřívější verze nemusejí obsahovat všechny potřebné nástroje nebo volby používané zde.}}
 
 
 </div>
@@ -145,7 +145,7 @@ Takto vypadá soubor po otevření ve FreeCADu. Změnil jsem taky tloušťku zd�
 
 ![](images/Arch_tutorial_02.jpg )
 
-[DXF importer](Draft_DXF/cs.md) (který se také umí postarat o DWG soubory, protože při importu DWG souborů jsou nejdříve jednoduše zkonvertovány do DXF) seskupuje importované objekty podle vrstev. Ve FreeCADu nejsou vrstvy, ale [skupiny](Std_CreateGroup/cs.md). [Skupiny](Std_CreateGroup/cs.md) nabízejí jednoduchý způsob organizace objektů v souborech, ale nemají specifické vlastnosti jako vrstvy v AutoCADu, které se aplikují na jejich obsah. Ale mohou být umístěny uvnitř jiných skupin což je velmi šikovné. První věc, kterou zde budeme chtít udělat je vytvořit novou [skupinu](Std_CreateGroup/cs.md) (v [okně stromu](Document_structure/cs.md)), klikněte pravým tlačítkem myši na ikonu dokumentu, přidejte skupinu, klikněte na ni pravým tlačítkem myši a přejmenujte ji na \"base 2D plans\" a přetáhněte do ní všechny ostatní objekty .
+[DXF importer](Draft_DXF/cs.md) (který se také umí postarat o DWG soubory, protože při importu DWG souborů jsou nejdříve jednoduše zkonvertovány do DXF) seskupuje importované objekty podle vrstev. Ve FreeCADu nejsou vrstvy, ale [skupiny](Std_Group/cs.md). [Skupiny](Std_Group/cs.md) nabízejí jednoduchý způsob organizace objektů v souborech, ale nemají specifické vlastnosti jako vrstvy v AutoCADu, které se aplikují na jejich obsah. Ale mohou být umístěny uvnitř jiných skupin což je velmi šikovné. První věc, kterou zde budeme chtít udělat je vytvořit novou [skupinu](Std_Group/cs.md) (v [okně stromu](Document_structure/cs.md)), klikněte pravým tlačítkem myši na ikonu dokumentu, přidejte skupinu, klikněte na ni pravým tlačítkem myši a přejmenujte ji na \"base 2D plans\" a přetáhněte do ní všechny ostatní objekty .
 
 ## Výstavba zdí 
 
@@ -169,7 +169,7 @@ Ve FreeCADu existuje několik možných strategií jak stavět zdi. Jedna umož�
 
 Jak vidíte nakreslil jsem červeně přímky, ze kterých budou betonové zdi ([vyhledání obrázků](http://www.google.com/search?tbm=isch&q=casa+artigas+brooklin) domu Vám může usnadnit rozlišení různých typů zdí), zelené přímky jsou vnější cihlové zdi a modré přímky se stanou vnitřními zdmi. Přímky procházejí i dveřmi, protože dveře budou vloženy do zdí později a vytvoří si otvory automaticky samostatně. Zdi mohou být k jejich základové přímce zarovnány zleva, zprava nebo centrálně, takže nezáleží na tom, po které straně základovou přímku nakreslíte. Také jsem si dával pozor abych se co nejvíce vyhnul protínáni, protože tak se model stane co nejčistším. Ale o protínání se postaráme později.
 
-Když je to hotovo, můžete všechny tyto přímky umístit do nové [skupinu](Std_CreateGroup/cs.md). Postupně vybírejte přímky a stiskem tlačítka [Zeď](Arch_Wall/cs.md) z nich stavějte zdi. Můžete vybrat i několik přímek zároveň. Po dokončení a úpravě šířek (externí zdi jsou široké 25cm, vnitřní 15cm) a některých zarovnání. My už máme zdi připraveny:
+Když je to hotovo, můžete všechny tyto přímky umístit do nové [skupinu](Std_Group/cs.md). Postupně vybírejte přímky a stiskem tlačítka [Zeď](Arch_Wall/cs.md) z nich stavějte zdi. Můžete vybrat i několik přímek zároveň. Po dokončení a úpravě šířek (externí zdi jsou široké 25cm, vnitřní 15cm) a některých zarovnání. My už máme zdi připraveny:
 
 ![](images/Arch_tutorial_04.jpg )
 
@@ -354,7 +354,7 @@ Takže všechno co musíme udělat je vybrat dveře, stisknout nástroj [Kreslen
 
 <img alt="" src=images/Arch_tutorial_24.jpg  style="width:400px;">
 
-Nyní je vhodný čas udělat malou očistu domu. Protože už máme dvě okna, je vhodný čas pro pročištění okna stromu: Vytvořte novou [skupinu](Std_CreateGroup/cs.md), přejmenujte ji na \"Windows\" a přesuňte do ní obě okna. Doporučuji Vám také další prvky oddělit tímto způsobem, jako jsou zdi a struktury. Protože můžete vytvořit i skupiny uvnitř [skupin](Std_CreateGroup/cs.md), můžete organizovat dále, například umístění všech prvků, které vytvářejí střechu do samostatné skupiny, takže bude snadné ji zapnout nebo vypnout (přepínání viditelnosti skupin platí i pro všechny objekty uvnitř nich).
+Nyní je vhodný čas udělat malou očistu domu. Protože už máme dvě okna, je vhodný čas pro pročištění okna stromu: Vytvořte novou [skupinu](Std_Group/cs.md), přejmenujte ji na \"Windows\" a přesuňte do ní obě okna. Doporučuji Vám také další prvky oddělit tímto způsobem, jako jsou zdi a struktury. Protože můžete vytvořit i skupiny uvnitř [skupin](Std_Group/cs.md), můžete organizovat dále, například umístění všech prvků, které vytvářejí střechu do samostatné skupiny, takže bude snadné ji zapnout nebo vypnout (přepínání viditelnosti skupin platí i pro všechny objekty uvnitř nich).
 
 
 <div class="mw-translate-fuzzy">
@@ -506,7 +506,7 @@ Když se nyní podíváme na zadní průčelí a porovnáme je s plánem , vidí
 
 <div class="mw-translate-fuzzy">
 
-Samozřejmě to můžemeudělat několika způsoby. Snadný způsob by byl odečtení objemu, ale to by zase přineslo zbytečné zesložitění modelu. Lepší je úprava základového drátu každého podlaží. A teď přichází na řadu mód [Kreslení Úpravy](Draft_Edit/cs.md). Rozbalením těchto podlaží v okně stromu a potom zviditelněním základového drátu můžeme dvojklikem na něj přejít do editačního módu. Můžeme posunovat jeho body nebo [přidávat](Draft_AddPoint/cs.md) nebo [odebírat](Draft_DelPoint.md) body. Tak se snadno upraví podlahové desky.
+Samozřejmě to můžemeudělat několika způsoby. Snadný způsob by byl odečtení objemu, ale to by zase přineslo zbytečné zesložitění modelu. Lepší je úprava základového drátu každého podlaží. A teď přichází na řadu mód [Kreslení Úpravy](Draft_Edit/cs.md). Rozbalením těchto podlaží v okně stromu a potom zviditelněním základového drátu můžeme dvojklikem na něj přejít do editačního módu. Můžeme posunovat jeho body nebo přidávat nebo odebírat body. Tak se snadno upraví podlahové desky.
 
 
 </div>

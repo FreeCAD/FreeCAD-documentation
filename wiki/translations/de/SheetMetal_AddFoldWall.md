@@ -11,108 +11,85 @@
 
 ## Beschreibung
 
+Der Befehl <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> [Abkanten](SheetMetal_AddFoldWall/de.md) kantet eine Blechplatte (Platine) entlang einer gewählten Linie mit einem vorgegebenen Radius ab.
 
-<div class="mw-translate-fuzzy">
+Er kann mit einer zuvor zugeschnittenen Platine verwendet werden, um
 
-Der Befehl <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> [Abkanten](SheetMetal_AddFoldWall/de.md) kantet eine Fläche entlang einer gewählten Linie mit einem vorgegebenen Radius ab.
-
-
-</div>
-
-It can be used with a pre-cut blank to
-
--   create a perforated bend zone
--   leave planar sections within the bend area and beyond e.g. tabs. (needs gaps in the bend line)
+-   eine perforierte Biegezone zu erzeugen.
+-   ebene Abschnitte innerhalb der Biegezone und darüber hinausgehend zu erzeugen wie z.B. Zapfen oder Laschen. (erfordert Lücken in der Biegelinie)
 
 <img alt="" src=images/SheetMetal_AddFoldWall-13.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddFoldWall-14.png  style="width:300px;">
 
 
 
-*Pre-cut blank and bend line with two gaps -> perforated bend zone with some still planar geometry*
+*Vorab beschnittene Platine und Biegelinie mit zwei Lücken -> perforierte Biegezone mit einigen weiterhin ebenen Geometrien*
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Eine ebene Fläche des Blechobjekts auswählen
-2.  Eine komplanare Linie auswählen
-3.  Schaltfläche  or use the keyboard shortcut: **C** then **F**.
-
-
-</div>
+1.  Die Fläche auswählen, die abgekantet werden soll.
+2.  Die **Ctrl**-Taste (bzw. die**Command** Taste für macOS) drücken und halten.
+3.  Eine komplanare <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizze](Sketcher_Workbench/de.md) auswählen (d.h. eine auf derselben Ebene liegende) für die (Abschnitte der) **Biegelinie** (vorzugsweise aus der [Baumansich](Tree_view/de.md)).
+4.  Die **Ctrl**-Taste (bzw. die**Command** Taste für macOS) loslassen.
+5.  Den Befehl <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:16px;"> **SheetMetal Abkanten** aktivieren durch
+    -   Die Schaltfläche **<img src="images/SheetMetal_AddFoldWall.svg" width=16px> [Abkanten](SheetMetal_AddFoldWall/de.md)**.
+    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_AddFoldWall.svg" width=16px> Abkanten** menu option.
+    -   Das Tastenkürzel: **C** dann **F**.
+6.  Den Wert der Eigenschaft {{PropertyData/de|Position}} verändern, um die Lage der Biegung im Bezug auf die Biegelinie einzustellen.
 
 <img alt="" src=images/SheetMetal_AddFoldWall-15.png  style="width:300px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_AddFoldWall-14.png  style="width:300px;">
 
 
 
-*The bend line(s) lying in the middle of the perforation -> to keep the bend centred the same way the property **Position* has to be set to {{value|middle**}}
+*Biegelinie(n) in der Mitter der Perforation liegend -> Damit die Biegung gleichfalls zentriert bleibt, muss die {{PropertyData/de|Position* auf {{value|middle}} gesetzt werden}}
 
-### Notes
+### Hinweise
 
--   The bend line sketch has to be **coplanar** to the selected face.
+-   Die Biegelinienskizze muss **komplanar** zu der ausgewählten Fläche sein.
 
--   The bend line segments have to be **colinear** to each other.
+-   Die Biegelinienabschnitte müssen zueinander kollinear sein.
 
 ## Eigenschaften
 
-See also: [Property editor](Property_editor.md).
+Siehe auch: [Eigenschafteneditor](Property_editor/de.md).
 
-A SheetMetal Fold object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties. It also has the following additional properties:
+Ein SheetMetal-Fold-Objekt wird von einem [Part-Formelement](Part_Feature/de.md) abgeleitet und erbt alle seine Eigenschaften. Außerdem hat es die folgenden zusätzlichen Eigenschaften:
 
-### Data
-
-
-{{Properties_Title|Base}}
-
--    **Label|String**: Default value: The user editable name of this object, it may be any arbitrary UTF8 string.
-
--    **Base Feature|Link|hidden**: Base Feature. Link to the parent feature.
-
--    **_Body|LinkHidden|hidden**: Hidden link to the parent body.
+### Daten
 
 
-{{Properties_Title|Parameters}}
+{{Properties_Title/de|Basis}}
+
+-    {{PropertyData/de|Label|String}}: Standardwert: Der vom Benutzer änderbare Name dieses Objekts, der aus einer beliebigen UTF8-Zeichenkette bestehen kann.
+
+-    {{PropertyData/de|Base Feature|Link|hidden}}: Base Feature. Verweis zum Eltern-Objekt.
+
+-    {{PropertyData/de|_Body|LinkHidden|hidden}}: Unsichtbarer Verweis zum Eltern-Body.
 
 
-<div class="mw-translate-fuzzy">
+{{Properties_Title/de|Parameters}}
 
--    **Bend Line**: Biegelinie. Voreingestellt: none
+-    {{PropertyData/de|Bend Line|Link}}: \"Bend Reference Line List\". Verknüpfung zu den Biegelinienobjekten.
 
--    **Position**: Lage der Biegelinie. Mögliche Werte: forward, middle, backward; Voreingestellt: forward
+-    {{PropertyData/de|Position|Enumeration}}: \"Bend Line Position\". Lage der Biegelinie. {{value|forward}} (standard), {{value|middle}}, {{value|backward}}.
 
--    **angle**: Biegewinkel. Voreingestellt: 90.0
+-    {{PropertyData/de|angle|Angle}}: \"Bend Angle\". Biegewinkel. Standardwinkel: {{value|90,00°}}.
 
--    **base Object**: Basisobjekt. Voreingestellt: none
+-    {{PropertyData/de|base Object|LinkSub}}: \"Base Object\". Basisobjekt. Verknüpfung zu der ebenen Fläche, die gekantet wird.
 
--    **invert**: Biegerichtung umkehren. Voreingestellt: False
+-    {{PropertyData/de|invert|Bool}}: \"Invert Bend Direction\". Biegerichtung umkehren. Standardwert: `False`
 
--    **invert bend**: Abzukantende Seite wechseln. Voreingestellt: False
+-    {{PropertyData/de|invertbend|Bool}}: \"Invert Solid Bend Direction\". Abzukantende Seite wechseln. Standardwert:  `True` tauscht die Seite neben der Biegelinie, die gekantet wird.
 
--    **kfactor**: Lage der neutralen Faser. Voreingestellt: 0.50
+-    {{PropertyData/de|kfactor|FloatConstraint}}: \"Neutral Axis Position\". Lage der neutralen Faser. Standardwert: {{value|0,50}}.
 
--    **radius**: Biegeradius. Voreingestellt: 1.0
+-    {{PropertyData/de|radius|Length}}: \"Bend Radius\". Biegeradius. Standardwert: {{value|1,00 mm}}.
 
--    **unfold**: Abwickeln. Voreingestellt: False
-
-
-</div>
+-    {{PropertyData/de|unfold|Bool}}: \"Unfold Bend\". Abwickeln. Standardwert: `False`
 
 ## Beispiel
 
-<img alt="" src=images/SheetMetal_AddFoldWall-01.png  style="width:300px;">
-
-
-<div class="mw-translate-fuzzy">
-
 <img alt="" src=images/SheetMetal_AddFoldWall-01.png  style="width:300px;"> 
 *Ein einfacher Klipp*
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -121,9 +98,6 @@ A SheetMetal Fold object is derived from a [Part Feature](Part_Feature.md) objec
 <div class="mw-collapsible-content">
 
 ### Vorbereitung
-
-
-</div>
 
 Dieser Klipp wird aus einer Platine hergestellt, die dreimal abgekantet wird, d.h. es müssen vier Skizzen vorbereitet werden:
 
@@ -136,16 +110,8 @@ Der einfachste Weg, um sicherzustellen, dass eine Fläche der Platine (Rohling) 
 
 Die Biegelinien könnten mit einem anderen Werkzeug erstellt werden, aber hey, wir haben einen <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench.md)!
 
-<img alt="" src=images/SheetMetal_AddFoldWall-21.png  style="width:280px;"> <img alt="" src=images/SheetMetal_AddFoldWall-20.png  style="width:200px;">
-
-
-<div class="mw-translate-fuzzy">
-
 <img alt="" src=images/SheetMetal_AddFoldWall-21.png  style="width:280px;"> <img alt="" src=images/SheetMetal_AddFoldWall-20.png  style="width:200px;"> 
 *Skizzen auf ihrer gemeinsamen Ebene und ihre Darstellung im Konstruktionsbaum*
-
-
-</div>
 
 ## Arbeitsablauf
 
@@ -173,7 +139,7 @@ Die Biegelinien könnten mit einem anderen Werkzeug erstellt werden, aber hey, w
 
 Fertig!
 
-Achtung!: Im wirklichen Leben muss die Kantung nach oben vor der Kantung nach unten erfolgen. Nur die virtuelle CAD-Welt erlaubt es, durch festes Werkstoffe hindurch zu biegen. Auf diesem Weg ändert sich die Lage des feststehenden Bereiches nicht.  Alle Skizzen liegen auf derselben Ebene, um Skizzen, die bewegten Flächen zugeordnet sind, zu vermeiden.
+Achtung!: Im wirklichen Leben muss die Kantung nach oben vor der Kantung nach unten erfolgen. Nur die virtuelle CAD-Welt erlaubt es, durch feste Werkstoffe hindurch zu biegen. Auf diesem Weg ändert sich die Lage des feststehenden Bereiches nicht.  Alle Skizzen liegen auf derselben Ebene, um Skizzen, die bewegten Flächen zugeordnet sind, zu vermeiden.
 
 
 </div>

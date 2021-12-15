@@ -24,7 +24,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  Optionally select one or more objects. Note that although multiple objects can be in Draft Edit mode, objects can only be edited one at a time.
 2.  There are several ways to invoke the command:
-    -   If you have not yet selected an object: double-click an object in the [Tree view](Tree_view.md). This only work for supported Draft objects.
+    -   If you have not yet selected an object: double-click an object in the [Tree view](Tree_view.md). This only works for supported Draft objects.
     -   Press the **<img src="images/Draft_Edit.svg" width=16px> [Draft Edit](Draft_Edit.md)** button.
     -   Select the **Modification → <img src="images/Draft_Edit.svg" width=16px> Edit** option from the menu.
     -   Use the keyboard shortcut: **D** then **E**.
@@ -68,7 +68,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 -   Nedtryckning av **SKIFT** kommer att koppla ihop x och y värdena , så att formen behålls
 -   Om du trycker på **ESC** så avbryts funktionen.
 -   Om du klickar på redigeringskanppen igen så avslutas redigeringsläget
--   Skriv in siffror för att [manuellt mata in en koordinat](Draft_Coordinates/sv.md).
+-   Skriv in siffror för att manuellt mata in en koordinat.
 
 
 </div>
@@ -87,7 +87,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 -   Start node context menu: {{Value|set first angle}}.
 -   End node context menu: {{Value|set last angle}}.
 -   Mid node context menu: {{Value|set radius}}.
--   Edge context menu: {{Value|invert arc}}. Currently this does not work.
+-   Edge context menu: {{Value|invert arc}}. This does not work in FreeCAD version 0.19.
 
 ### <img alt="" src=images/Draft_Circle.svg  style="width:24px;"> [Draft Circle](Draft_Circle.md) 
 
@@ -170,7 +170,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ### <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketcher Sketch](Sketcher_NewSketch.md) 
 
--   Only sketches that contain a single unconstrained line can be edited. Currently this does not work properly.
+-   Only sketches that contain a single unconstrained line can be edited. This does not work properly in FreeCAD version 0.19.
 -   No context menus for this object.
 
 ## Preferences

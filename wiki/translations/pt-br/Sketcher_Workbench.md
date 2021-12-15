@@ -181,7 +181,13 @@ Estas são ferramentas para criar objetos.
     -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [Criar B-spline](Sketcher_CreateBSpline/pt-br.md): Desenha uma curva B-spline por seus pontos de controle.
     -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Criar B-spline periódica](Sketcher_CreatePeriodicBSpline/pt-br.md): Desenha uma curva B-spline periódica (fechada) por seus pontos de controle.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polilinha (linha de múltiplos pontos)](Sketcher_CreatePolyline/pt-br.md): Desenha uma linha composta de vários segmentos de linha. Pressionar a tecla M enquanto se desenha uma polilinha alterna entre os diferentes modos de polilinha.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Criar retângulos](Sketcher_CompCreateRectangles/pt-br.md): Este é um menu de ícones na barra de ferramentas Sketcher que contém os seguintes comandos: <small>(v0.20)</small> 
 

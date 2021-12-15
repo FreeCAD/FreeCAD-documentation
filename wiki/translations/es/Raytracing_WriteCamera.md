@@ -1,6 +1,14 @@
-# Raytracing WriteCamera/es
 ---
-- GuiCommand:/es   Name:Raytracing Camera‏‎   Name/es:Raytracing Camera   MenuLocation:Raytracing → Camera‏‎   |Workbenches:[[Raytracing_Workbench/es   Raytracing]]|Shortcut:   SeeAlso:---
+- GuiCommand:/es
+   Name:Raytracing WriteCamera‏‎
+   Name/es:Raytracing WriteCamera‏‎
+   MenuLocation:Raytracing → Camera‏‎
+   Workbenches:[Raytracing](Raytracing_Workbench/es.md)
+   Shortcut:
+   SeeAlso:
+---
+
+# Raytracing WriteCamera/es
 
 
 </div>
@@ -23,6 +31,7 @@ Exports the current camera properties to a pov-file for use in a POV-Ray project
 ## Limitations
 
 ## Notes
+
 
 
 

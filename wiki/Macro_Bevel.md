@@ -4,8 +4,8 @@
 |Icon=Bevel.svg
 |Description=Bevel selected vertices of solid objects, parametric, compatible with Part Design
 |Author=TheMarkster
-|Version=0.2021.10.10.rev4
-|Date=2021-10-10.rev4
+|Version=0.2021.12.14
+|Date=2021-10-14
 |FCVersion=python 3 versions
 |Download=[https://wiki.freecadweb.org/File:bevel.svg ToolBar Icon]
 |SeeAlso=

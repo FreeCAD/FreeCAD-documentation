@@ -35,7 +35,7 @@ class VariousStates:
         pass
 ```
 
-Mit dieser Klasse kann ein Objekt erstellt und unter {{Dateiname|mein_Dokument.FCstd}} gespeichert werden. Wenn dem neuen Objekt kein bestimmter [Ansichtsanbieter](viewprovider/de.md) zugewiesen ist, wird seine Proxy Klasse einfach auf einen anderen Wert als `None` gesetzt, in diesem Fall auf `1`. 
+Mit dieser Klasse kann ein Objekt erstellt und unter {{FileName|mein_Dokument.FCstd}} gespeichert werden. Wenn dem neuen Objekt kein bestimmter [Ansichtsanbieter](viewprovider/de.md) zugewiesen ist, wird seine Proxy Klasse einfach auf einen anderen Wert als `None` gesetzt, in diesem Fall auf `1`. 
 ```python
 import FreeCAD as App
 import various_states

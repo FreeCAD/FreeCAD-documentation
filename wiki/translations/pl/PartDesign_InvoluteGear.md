@@ -12,9 +12,10 @@
 ## Opis
 
 Narzędzie to pozwala na utworzenie dwuwymiarowego profilu koła zębatego. Ten profil 2D jest w pełni parametryczny i może być wyciągnięty funkcją [Projekt części: wyciągnięcie](PartDesign_Pad/pl.md).
+
 Bardziej szczegółowe informacje można znaleźć również na stronach Wiki: [przekładnie](https://en.wikipedia.org/wiki/Gear) oraz [Zarys ewolwentowy](https://en.wikipedia.org/wiki/Involute_gear)
 
-![](images/PartDesign_Involute_Gear_01.png ) 
+![](images/PartDesign_Involute_Gear_01.png )
 
 ## Użycie
 
@@ -31,11 +32,15 @@ Bardziej szczegółowe informacje można znaleźć również na stronach Wiki: [
 
 -   Kąt przyporu: Kąt ostry między linią działania a normalną do linii łączącej środki kół zębatych. Domyślnie jest to 20 stopni
 
-([Więcej informacji](http://en.wikipedia.org/wiki/Involute_gear)).
+([Więcej informacji](https://en.wikipedia.org/wiki/Involute_gear)).
 
 -   Wysoka dokładność: Wybierz: tak lub nie.
 
 -   Zarys zewnętrzny: Wybierz: tak lub nie.
+
+## Poradniki
+
+[Jak zrobić przekładnie zębate w FreeCAD](https://www.youtube.com/watch?v=8VNhTrnFMfE)
 
 ## Powiązane
 

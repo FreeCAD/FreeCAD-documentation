@@ -6,7 +6,13 @@
 
 Esta é a principal área de ajuda para os recém chegados ao FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
 Estas páginas estão em contínuo desenvolvimento, portanto, pode haver informações ausentes ou desatualizadas. Se você não conseguir encontrar as informações de que necessita, não hesite perguntar no [fórum FreeCAD](http://forum.freecadweb.org).
+
+
+</div>
 
 Se você gostaria de contribuir com o FreeCAD, por favor _ para as diretrizes gerais que você deve seguir.
 
@@ -33,7 +39,7 @@ Veja também:
 -   _, o [Vista em árvore](Tree_view/pt-br.md), o [Editor de propriedade](Property_editor/pt-br.md), o [Painel de tarefas](Task_panel/pt-br.md), e o [Console Python](Python_console/pt-br.md).
 -   [Estilos de Navegação](Mouse_navigation/pt-br.md): os diferentes tipos de uso do mouse ou trackpad para navegar na visualização 3D.
 -   [Métodos de seleção](Selection_methods/pt-br.md): os diferentes métodos de seleção de objetos no software.
--   [Nome do objeto](Object_name/pt-br.md): todos os objetos têm um {{{incódigo|Nome}}} somente de leitura que os identifica de forma única, e um {{incódigo|Label}} que é editável pelo usuário.
+-   [Nome do objeto](Object_name/pt-br.md): todos os objetos têm um `Nome` somente de leitura que os identifica de forma única, e um `Label` que é editável pelo usuário.
 -   [Editor de Preferências](Preferences_Editor/pt-br.md): o sistema que permite controlar muitas propriedades do sistema base e das bancadas de trabalho individuais.
 -   [Formatos de arquivo](Import_Export/pt-br.md): os diferentes formatos de arquivo que o FreeCAD pode ler e escrever.
 

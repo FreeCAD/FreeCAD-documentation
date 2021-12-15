@@ -10,7 +10,7 @@
 
 ## Opis
 
-Narzędzie wzorca kołowego przyjmuje wybrany element i tworzy zestaw kopii obróconych wokół wybranej osi. Zaczynając od v0.17, może wzorować się na wielu elementach.
+Narzędzie wzorca kołowego przyjmuje wybrany element i tworzy zestaw kopii obróconych wokół wybranej osi. {{Version/pl|0.17}} Listę cech można modelować.
 
 ![](images/PartDesign_PolarPattern_example.png )
 
@@ -21,7 +21,7 @@ Narzędzie wzorca kołowego przyjmuje wybrany element i tworzy zestaw kopii obr�
 #### Aby stworzyć wzorzec 
 
 1.  Wybierz element *({{Version/pl|0.19}} lub kilka elementów)*, które mają być układane we wzór.
-2.  Naciśnij przycisk **<img src=images/PartDesign_PolarPattern.svg style="width:24px">** **Szyk kołowy**.
+2.  Naciśnij przycisk **<img src="images/PartDesign_PolarPattern.svg" width=24px> '''Szyk kołowy'''**.
 3.  \* Jeśli początkowo nie wybrałeś żadnych elementów, będziesz mógł wybrać „jeden" bazowy.
 4.  Zdefiniuj **Oś**. Patrz [Opcje](#Opcje.md).
 5.  Określ **Kąt** pomiędzy ostatnim skopiowanym wystąpieniem a oryginalnym elementem.
@@ -117,15 +117,11 @@ Umożliwia wybranie linii odniesienia lub krawędzi obiektu lub linii szkicu do 
 
 ### Kąt i wystąpienia 
 
-Określa kąt, który ma zostać ujęty we wzorcu, oraz całkowitą liczbę kształtów wzoru *(łącznie z elementem oryginalnym)*. Na przykład, cztery wystąpienia pod kątem 180° dają odstęp 60° między wzorcami. Jest jeden wyjątek: Jeśli kąt wynosi 360°, ponieważ pierwsze i ostatnie wystąpienie są identyczne, cztery wystąpienia będą od siebie oddalone o 90 stopni. 
-
+Określa kąt, który ma zostać ujęty we wzorcu, oraz całkowitą liczbę kształtów wzoru *(łącznie z elementem oryginalnym)*. Na przykład, cztery wystąpienia pod kątem 180° dają odstęp 60° między wzorcami. Jest jeden wyjątek: Jeśli kąt wynosi 360°, ponieważ pierwsze i ostatnie wystąpienie są identyczne, cztery wystąpienia będą od siebie oddalone o 90 stopni.
 
 ## Ograniczenia
 
--   Zapoznaj sie z tematem [ograniczenia cech wzorca liniowego](PartDesign_LinearPattern/pl#Ograniczenia.md).
-
-
-
+-   Zapoznaj się z tematem [ograniczenia cech wzorca liniowego](PartDesign_LinearPattern/pl#Ograniczenia.md).
 
 
 

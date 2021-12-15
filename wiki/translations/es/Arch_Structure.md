@@ -15,7 +15,13 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 La herramienta [Architectura Estructura](Arch_Structure/es.md) permite construir elementos estructurales como columnas o vigas, especificando su anchura, longitud y altura, o basándose en un perfil 2D (cara, alambre o croquis).
+
+
+</div>
 
 Si no se da ningún perfil, se dispone de un conjunto de preajustes para construir rápidamente un elemento estructural a partir de un perfil estándar predefinido.
 
@@ -24,10 +30,16 @@ Si no se da ningún perfil, se dispone de un conjunto de preajustes para constru
 
 ## Utilización
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Seleccionar una forma 2D (objeto bocetado, cara o croquis) (opcional)
 2.  Pulse el botón **<img src="images/Arch_Structure.svg" width=16px>  [Estructura](Arch_Structure/es.md)
 **, o pulsar las teclas **S** y **T**
 3.  Ajusta las propiedades deseadas.
+
+
+</div>
 
 ## Opciones
 
@@ -48,6 +60,9 @@ Si no se da ningún perfil, se dispone de un conjunto de preajustes para constru
 
 ### Datos
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Tool**: una trayectoria de extrusión opcional, que puede ser cualquier tipo de hilo. Si esta propiedad está vacía, la extrusión será recta, y ocurrirá en la dirección dada por la propiedad Normal
 
 -    **Normal**: especifica la dirección en la que se extruirá la cara base de esta estructura. Si esta propiedad se mantiene en (0,0,0), la dirección se establecerá automáticamente a la dirección normal de la cara base.
@@ -61,6 +76,9 @@ Si no se da ningún perfil, se dispone de un conjunto de preajustes para constru
 -    **Height**: especifica la altura de la estructura, o la longitud de la extrusión cuando se basa en un perfil. Si no se da la altura, y la estructura está dentro de un objeto [Arquitectura Piso](Arch_Floor/es.md) con su altura definida, la estructura tomará automáticamente el valor de la altura del piso.
 
 -    **Nodes Offset**: especifica un desplazamiento opcional entre la línea central y la línea de nodos.
+
+
+</div>
 
 ### Vista
 
@@ -89,6 +107,9 @@ Los objetos estructurales también tienen la capacidad de mostrar nodos estructu
 <img alt="" src=images/Arch_structural_nodes.jpg  style="width:960px;"> 
 *Nodos estructurales visibles para un conjunto de estructuras*
 
+
+<div class="mw-translate-fuzzy">
+
 -   Los nodos se calculan y actualizan automáticamente, siempre que no los modifiques manualmente. Si lo hizo, no se actualizarán si la forma del objeto estructural cambia, a menos que use la herramienta \"Restablecer nodos\" a continuación.
 -   Las estructuras de arco pueden tener nodos lineales, sino también nodos planos. Para esto, 1- Debe haber al menos 3 vectores en la propiedad \"Nodes\" del objeto, 2- la propiedad \"NodesType\" de su ViewObject se debe establecer en \"Área\".
 -   Cuando el cálculo de nodos es automático (es decir, si nunca los tocó manualmente), al establecer la propiedad Rol de una estructura a \"Slab\", se convertirá automáticamente en un nodo plano (habrá más de 3 vectores y el NodesType se establecerá en \"Área\").
@@ -99,6 +120,14 @@ Los objetos estructurales también tienen la capacidad de mostrar nodos estructu
     -   Hacer el nodo de este objeto y otro coincidente
     -   Activa/desactiva la visualización de todos los nodos de todos los objetos estructurales del documento
 
+
+</div>
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Guion
 
 
@@ -106,7 +135,18 @@ Los objetos estructurales también tienen la capacidad de mostrar nodos estructu
 
 [Arch\_API/es](Arch_API/es.md) y [FreeCAD\_Scripting\_Basics/es](FreeCAD_Scripting_Basics/es.md).
 
-La herramienta Estructura se puede utilizar en [macros](macros/es.md) y desde la consola de [Python](Python/es.md) utilizando las siguientes funciones: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+La herramienta Estructura se puede utilizar en [macros](macros/es.md) y desde la consola de [Python](Python/es.md) utilizando las siguientes funciones:
+
+
+</div>
+
+
 ```python
 Structure = makeStructure(baseobj=None, height=None)
 Structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")

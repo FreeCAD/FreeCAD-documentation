@@ -108,7 +108,7 @@ Im April 2019 wurde das Team der Kernentwickler erweitert: Zu Jürgen, Werner un
   0.15      \-                      2015-04-08               [Versionshinweise 0.15](Release_notes_0.15/de.md)   [release commit 0.15](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-15)
   0.14      \-                      2014-07-01               [Versionshinweise 0.14](Release_notes_0.14/de.md)   [release commit 0.14](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-14)
   0.13      \-                      2013-01-29               [Versionshinweise 0.13](Release_notes_0.13/de.md)   [release commit 0.13](https://github.com/FreeCAD/FreeCAD/commits/releases/FreeCAD-0-13)
-  0.12      \-                      2011-12-20               [Versionshinweise 0.12](Release_notes_0.12/de.md)   
+  0.12      \-                      2011-12-20               [Versionshinweise 0.12](Release_notes_0.12.md)      
   0.11      \-                      2011-05-03               [Versionshinweise 0.11](Release_notes_0.11/de.md)   
   0.10      \-                      2010-07-24                                                                           
   0.9       \-                      2010-01-16                                                                           

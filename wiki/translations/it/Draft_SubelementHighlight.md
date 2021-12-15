@@ -44,7 +44,7 @@ Lo strumento <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:
 1.  Selezionare un oggetto.
 2.  Premere il pulsante **<img src="images/Draft_SubelementHighlight.svg" width=16px> [Evidenzia i sottoelementi](Draft_SubelementHighlight/it.md)**.
 3.  Cliccare su tutti i punti che si desidera spostare.
-4.  Fare clic su un altro punto nella vista 3D, o digitare le sue [coordinate](Draft_Coordinates/it.md) e poi permere il pulsante **<img src="images/Draft_AddPoint.svg" width=24px> [aggiungi punto](Draft_AddPoint/it.md)**.
+4.  Fare clic su un altro punto nella vista 3D, o digitare le sue coordinate e poi permere il pulsante **<img src="images/Draft_AddPoint.svg" width=24px> aggiungi punto**.
 5.  Premere **Esc** o il pulsante **Chiudi** per completare il comando corrente.
 
 

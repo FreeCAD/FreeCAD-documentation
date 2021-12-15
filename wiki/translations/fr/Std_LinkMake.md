@@ -322,7 +322,7 @@ Un _ (classe `App::DocumentObject`). C\'est un objet de très bas niveau, qui pe
 
 **Voir aussi :**
 
-[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](scripted_objects/fr.md).
+[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](Scripted_objects/fr.md).
 
 Voir [Part Feature](Part_Feature/fr.md) pour plus d\'informations.
 

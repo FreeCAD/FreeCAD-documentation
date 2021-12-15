@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Kurven VerbindeKurve
+   Name:Curves JoinCurve
+   Name/de:Kurven VerbindeKurve
    MenuLocation:Kurven → Verbinde Kurven
    Workbenches:[Kurven](Curves_Workbench/de.md)
    Shortcut:None

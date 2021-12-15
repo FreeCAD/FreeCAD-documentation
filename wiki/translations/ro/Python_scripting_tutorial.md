@@ -91,7 +91,8 @@ There are two ways to write Python code in FreeCAD. In the [Python console](Pyth
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -212,7 +213,8 @@ Dacă selectați o casetă cu mouse-ul, veți vedea că în panoul proprietăți
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -253,9 +255,7 @@ otherpla = FreeCAD.Placement()
 box.Placement = otherpla
 ```
 
-Acum trebuie să înțelegeți câteva concepte importante înainte de a ajunge mai departe.
-
-[top](#top.md)
+Acum trebuie să înțelegeți câteva concepte importante înainte de a ajunge mai departe. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -305,7 +305,8 @@ Când porniți FreeCAD, consola python are încarcate deja 2 module de bază: Fr
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -348,9 +349,7 @@ import Part
 Part.
 ```
 
-Dar vom vorbi mai multe despre modulul Piese mai jos.
-
-[top](#top.md)
+Dar vom vorbi mai multe despre modulul Piese mai jos. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -404,9 +403,7 @@ Acesta este un exemplu standard, care folosește metoda createSphere() pentru a 
 
 </div>
 
-[Read more about mesh scripting\...](Mesh_Scripting.md)
-
-[top](#top.md)
+[Read more about mesh scripting\...](Mesh_Scripting.md) {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -471,7 +468,8 @@ Prin explorarea conținutului myshape, veți observa multe subcomponente interes
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -502,7 +500,8 @@ Draft.move(rec, mvec)
 Draft.move(box, mvec)
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -538,9 +537,7 @@ Qt este un sistem de interfață foarte puternic, care vă permite să faceți l
 
 </div>
 
-[Read more about PySide here\...](PySide.md)
-
-[top](#top.md)
+[Read more about PySide here\...](PySide.md) {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -562,12 +559,22 @@ Acum sunteți gata pentru mai multă programare/script FreeCAD în profunzime. D
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav|Introduction to Python|FreeCAD Scripting Basics}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

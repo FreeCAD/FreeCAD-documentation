@@ -8,7 +8,7 @@
 |Date=2015-11-12
 |FCVersion=All
 |Download=[https://www.freecadweb.org/wiki/images/d/d6/Macro_HiddenAlls.png ToolBar Icon]
-|SeeAlso=[Macro_Toggle_Visibility2](Macro_Toggle_Visibility2.md)<br />[Macro_Toggle_Visibility](Macro_Toggle_Visibility.md)<br />[Macro VisibleAlls](Macro_VisibleAlls.md)<br />[Macro If Selected Stay If Not Then Delete](Macro_If_Selected_Stay_If_Not_Then_Delete.md)
+|SeeAlso=[Macro Toggle Visibility2 1-2](Macro_Toggle_Visibility2_1-2.md)<br>[Macro Toggle Visibility2 2-2](Macro_Toggle_Visibility2_2-2.md)<br>[Macro_Toggle_Visibility](Macro_Toggle_Visibility.md)<br>[Macro VisibleAlls](Macro_VisibleAlls.md)<br>[Macro If Selected Stay If Not Then Delete](Macro_If_Selected_Stay_If_Not_Then_Delete.md)
 }}
 
 ## Описание

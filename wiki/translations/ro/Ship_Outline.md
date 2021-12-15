@@ -1,6 +1,14 @@
-# Ship Outline/ro
 ---
-- GuiCommand:   Name:Ship Outline   MenuLocation:Ship design → Outline draw   |Workbenches:[[Ship Workbench   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:
+   Name:Ship Outline
+   Icon:Ship_OutlineDraw.svg
+   MenuLocation:Ship design → Outline draw
+   Workbenches:[Ship](Ship_Workbench.md)
+   Shortcut:
+   SeeAlso:
+---
+
+# Ship Outline/ro
 
 
 </div>

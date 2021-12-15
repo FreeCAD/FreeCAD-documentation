@@ -54,7 +54,7 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [ShapeString](Draft_ShapeString.md): creates a compound shape that represents a text string.
 
--   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the faces of a selected object. <small>(v0.20)</small> 
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the planar faces of a selected object. <small>(v0.20)</small> 
 
 ## Annotation
 
@@ -165,7 +165,7 @@ La barra de herramientas [Borrador Atrapar](Draft_Snap/es.md) permite selecciona
 
 -   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Snap Endpoint](Draft_Snap_Endpoint.md): snaps to the endpoints of edges.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of straight and circular edges.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of edges.
 
 -   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ and [Arch BuildingParts](Arch_BuildingPart.md).
 
@@ -226,10 +226,8 @@ Herramientas adicionales disponibles desde el menú **Bosquejo → Utilidades**,
 
 <div class="mw-translate-fuzzy">
 
--   [Coordinates](Draft_Coordinates/es.md): introducir coordenadas en lugar de hacer clic en la vista 3D para definir un nuevo punto.
 -   [Restricción](Draft_Constrain/es.md): limitar el puntero a movimientos horizontales o verticales en relación con un punto previo.
 -   [Ajuste](Draft_Snap/es.md): colocar nuevos puntos en lugares especiales de los objetos existentes o en la cuadrícula.
--   [Modo de copia](Draft_Copying/es.md): Todas las herramientas de modificación pueden modificar los objetos seleccionados o crear una copia modificada de los mismos. Si se mantiene pulsada la tecla **Alt** mientras se modifica el objeto, por ejemplo, moviéndolo o rotándolo, se crea una copia cuando se suelta la tecla.
 -   [Modo de construcción](Draft_ToggleConstructionMode/es.md): Permite crear geometrías separadas del resto, simplemente activándolas y desactivándolas.
 -   [Plano de trabajo](Draft_SelectPlane/es.md): permite seleccionar una superficie sobre la que construir las formas.
 
@@ -256,9 +254,9 @@ For a [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft Cub
 
 For a [Draft LayerContainer](Draft_Layer.md) these additional options are available:
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> Merge layer duplicates: this option currently does not work.
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Merge layer duplicates](Draft_Layer#Layer_container_options.md): merges all layers with the same base label. This does not work in FreeCAD version 0.19.
 
--   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer.md): adds a new layer to the current document.
+-   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer#Layer_container_options.md): adds a new layer to the current document.
 
 ### Opciones capa 
 
@@ -290,19 +288,7 @@ If there is an active document the context menu contains one additional sub-menu
 
 Estas herramientas se eliminaron de la interfaz en la v0.19 porque ya no tenían ninguna utilidad.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Draft_VisGroup.svg  style="width:32px;"> _. {{Obsoleto/es|0.19}}
--   <img alt="" src=images/Draft_FinishLine.svg  style="width:32px;"> \[\[Draft\_FinishLine/es\|
-
-Finalización línea\]\]: termina el dibujo del [Borrador Alambre](Draft_Wire/es.md) o [Borrador BSpline](Draft_BSpline/es.md) actual, sin cerrarlo. {{Obsoleto/es|0.19}}{{Obsolete/es|0.19}}
-
--   <img alt="" src=images/Draft_CloseLine.svg  style="width:32px;"> _ o [Borrador BSpline](Draft_BSpline/es.md) actual, y lo cierra. {{Obsoleto/es|0.19}}
--   <img alt="" src=images/Draft_UndoLine.svg  style="width:32px;"> _. {{Obsoleto/es|0.19}}
-
-
-</div>
+-   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> _ or a [circular array](Draft_CircularArray.md) by changing its **Array Type** property. {{Obsolete|0.19}}
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> _ page. {{Obsolete|0.17}}
 
@@ -333,7 +319,7 @@ Son funciones para abrir, importar o exportar otros formatos de archivo. Abrir a
 <div class="mw-translate-fuzzy">
 
 -   _.
--   _ está instalada. Ver también [FreeCAD y DWG Importación](FreeCAD_y_DWG_Import/es.md).
+-   _ está instalada. Ver también [FreeCAD y DWG Importación](FreeCAD_and_DWG_Import/es.md).
 -   [SVG (como geometría)](Draft_SVG/es.md): importa y exporta archivos [Scalable Vector Graphics](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) creados con aplicaciones de dibujo vectoriales
 -   [Open Cad format .OCA](Draft_OCA/es.md): importa y exporta archivos OCA/GCAD, un potencialmente nuevo [formato de archivo abierto para CAD](http://groups.google.com/group/open_cad_format)
 -   [Ala Data Format .DAT](Draft_DAT/es.md): importa archivos DAT describiendo [Ala perfiles](http://www.ae.illinois.edu/m-selig/ads/coord_database.html)
@@ -346,10 +332,7 @@ Son funciones para abrir, importar o exportar otros formatos de archivo. Abrir a
 
 <div class="mw-translate-fuzzy">
 
-
-**Véase también:**
-
-[Ambiente de trabajo Prueba](Test_Workbench/es.md).
+Véase también: [Ambiente de trabajo Prueba](Testing/es.md).
 
 
 </div>

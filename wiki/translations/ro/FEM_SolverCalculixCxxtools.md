@@ -1,6 +1,13 @@
-# FEM SolverCalculixCxxtools/ro
 ---
-- GuiCommand:   Name:FEM Solver   MenuLocation:Solve → Solver CalculiX Standard   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial|FEM tutorial](FEM_Workbench___FEM]].md)---
+- GuiCommand:
+   Name:FEM SolverCalculixCxxtools
+   MenuLocation:Solve → Solver CalculiX Standard
+   Workbenches:[FEM](FEM_Workbench.md)
+   Shortcut:
+   SeeAlso:[FEM tutorial](FEM_tutorial.md)
+---
+
+# FEM SolverCalculixCxxtools/ro
 
 
 </div>
@@ -30,11 +37,11 @@ CalculiXccxTools permit utilizarea calculatorului [CalculiX](http://dhondt.de/).
 
 <div class="mw-translate-fuzzy">
 
-Acest obiect este creat automat cu crearea cotainerului **<img src="images/_FEM_Analysis.png_" width= 24px> [Container de analiză](FEM_Analysis.md)
+Acest obiect este creat automat cu crearea cotainerului **<img src="images/_FEM_Analysis.svg_" width= 24px> [Container de analiză](FEM_Analysis.md)
 **. Altfel utilizați **Solve** → **Solver CalculiX Standard** sau apăsați **S** apoi tastele **X**
 
-1.  Opțional setați proprietățile de date ale obiectului **<img src="images/_FEM_Solver.png_" width= 24px> CalculiXccxTools** obiect
-2.  Faceți dublu clic pe **_ CalculiXccxTools** obiect
+1.  Opțional setați proprietățile de date ale obiectului **<img src="images/_FEM_SolverCalculixCxxtools.svg_" width= 24px> CalculiXccxTools** obiect
+2.  Faceți dublu clic pe **<img src="images/_FEM_SolverCalculixCxxtools.svg" width=24px> CalculiXccxTools** obiect
 3.  Selectați tipul analizei
 4.  Faceți clic pe **Write .inp file**
 5.  Faceți clic pe **Run CalculiX**

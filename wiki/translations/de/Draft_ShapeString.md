@@ -66,7 +66,7 @@ Wenn der Entwurf Benutzeroberflächenmodus auf Aufgabenansicht eingestellt ist:
 
 <div class="mw-translate-fuzzy">
 
--   Um Koordinaten von Hand einzugeben, gib einfach die Zahlen ein und drücke dann **Enter** zwischen jeder X-, Y- und Z-Komponente. Du kannst den **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügent](Draft_AddPoint/de.md)** drücken, wenn Du die gewünschten Werte zum Einfügen des Punktes hast.
+-   Um Koordinaten von Hand einzugeben, gib einfach die Zahlen ein und drücke dann **Enter** zwischen jeder X-, Y- und Z-Komponente. Du kannst den **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügent** drücken, wenn Du die gewünschten Werte zum Einfügen des Punktes hast.
 -   Drücke die Taste **Esc** oder die Taste **Close**, um den aktuellen Befehl abzubrechen.
 
 
@@ -81,7 +81,7 @@ Wenn der Entwurf Benutzeroberflächenmodus auf Aufgabenansicht eingestellt ist:
 
 -   Sehr kleine Texthöhen können durch Detailverlust bei der Skalierung zu verzerrten Zeichenformen führen.
 -   Die aktuelle Version ist auf die von Links nach Rechts Schreiben begrenzt.
--   Um kreisförmig angeordneten Text zu erstellen, verwende den **<img src=images/FCCircularTextButtom.png style="width:24px"> [Rundtext](Macro_Circular_Text.md)**.
+-   Um kreisförmig angeordneten Text zu erstellen, verwende <img alt="" src=images/FCCircularTextButtom.png  style="width:24px;"> [Macro FCCircularText](Macro_FCCircularText/de.md).
 
 
 </div>
@@ -184,11 +184,11 @@ shapestring = make_shapestring(String, FontFile, Size=100, Tracking=0)
 
 <div class="mw-translate-fuzzy">
 
--   Erzeugt eine {{incode/de|Formfolge}} verbundene Form unter Verwendung der angegebenen {{incode/de|Folge}} und des vollständigen Pfades einer unterstützten {{incode/de|Schriftartdatei}}.
+-   Erzeugt eine `Formfolge` verbundene Form unter Verwendung der angegebenen `Folge` und des vollständigen Pfades einer unterstützten `Schriftartdatei`.
 
--    {{incode/de|Größe}}ist die Höhe des resultierenden Textes in Millimetern.
+-    `Größe`ist die Höhe des resultierenden Textes in Millimetern.
 
--    {{incode/de|Laufweite}}ist der zusätzliche Zeichenabstand in Millimetern.
+-    `Laufweite`ist der zusätzliche Zeichenabstand in Millimetern.
 
 
 </div>

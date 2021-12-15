@@ -11,11 +11,17 @@
 
 # EM FHSegment/it
 
+
+</div>
+
 ## Descrizione
 
 The FHSegment tool inserts a FastHenry segment object.
 
-![](images/EM_FHSegment_Example.png ) 
+![](images/EM_FHSegment_Example.png )
+
+
+
 *FastHenry FHSegment*
 
 ## Utilizzo
@@ -78,7 +84,9 @@ Oppure:
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The FHSegment object can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The FHSegment object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 segment = makeFHSegment(baseobj=None, nodeStart=None, nodeEnd=None, width=None, height=None, name='FHSegment')
 ```
@@ -97,7 +105,9 @@ segment = makeFHSegment(baseobj=None, nodeStart=None, nodeEnd=None, width=None, 
 
 -    `name`is the name of the object
 
-Esempio: 
+Esempio:
+
+
 ```python
 import FreeCAD, EM
 
@@ -106,6 +116,9 @@ fhnode2 = EM.makeFHNode(X=0,Y=1.0,Z=0)
 
 fhsegment = EM.makeFHSegment(nodeStart=fhnode1, nodeEnd=fhnode2)
 ```
+
+
+
 
 
 {{EM Tools navi

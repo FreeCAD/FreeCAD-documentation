@@ -29,7 +29,7 @@ Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Mo�
 ### Dane
 
 
-{{Properties_Title/pl|Podstawowe}}
+{{TitleProperty|Podstawowe}}
 
 -    {{PropertyData/pl|X}}: Położenie widoku w poziomie na stronie. *(1)*
 

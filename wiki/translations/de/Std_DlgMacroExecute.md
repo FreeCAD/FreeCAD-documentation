@@ -119,7 +119,7 @@ Wenn Du in {{MenuCommand/de|<img src=images/Std_DlgMacroExecuteDirect.png style=
 
 ### Addons
 
-1.  Press the **Addons...** button to start the [Addon manager](Addon_manager.md).
+1.  Press the **Addons...** button to start the [Addon manager](Std_AddonMgr.md).
 
 ## Notes
 

@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Entwurf Versetzen
+   Name:Draft Offset
+   Name/de:Entwurf Versetzen
    MenuLocation:Entwurf → Versetzen
    Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**O** **S**

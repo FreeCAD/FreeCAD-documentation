@@ -42,7 +42,7 @@ ToolBar Icon ![](images/Macro_Recompute_Profiler.png )
 **RecomputeProfiler.FCMacro**
 
 
-{{MacroCode|code=
+```python
 __Title__="Macro Recompute Profiler"
 __Author__ = "DeepSOIC"
 __Version__ = "0.1"
@@ -162,11 +162,14 @@ def run():
         App.ActiveDocument.RecomputesFrozen = False
 
 run()
-}}
+```
 
 ## Post-processing resultati 
 
-La sortita della macro sarà interfogliato con i messaggi generici prodotti dalle funzioni di ricalcolo. Generalmente si presenta così: {{code|code=
+La sortita della macro sarà interfogliato con i messaggi generici prodotti dalle funzioni di ricalcolo. Generalmente si presenta così:
+
+
+{{code|code=
 Recomputing... (time in seconds, label)
 Sketcher::setUpSketch()-T:0
 Sketcher::Solve()-DogLeg-T:0
@@ -186,7 +189,12 @@ Sketcher::Solve()-DogLeg-T:0
 Sketcher::setUpSketch()-T:0
 Sketcher::Solve()-DogLeg-T:0
 ...
-}} Le righe dei risultati hanno una firma semplice per separarle: iniziano con una scheda. Quindi, se copi e incolli l\'intero blocco su un foglio di calcolo, i messaggi generici finiranno nella colonna 1, mentre i risultati saranno nelle colonne 2 e 3. Quindi, puoi ordinare per colonna 2, per ottenere una tabella simile a quella : {{code|code=
+}}
+
+Le righe dei risultati hanno una firma semplice per separarle: iniziano con una scheda. Quindi, se copi e incolli l\'intero blocco su un foglio di calcolo, i messaggi generici finiranno nella colonna 1, mentre i risultati saranno nelle colonne 2 e 3. Quindi, puoi ordinare per colonna 2, per ottenere una tabella simile a quella :
+
+
+{{code|code=
 0.59100008  Slice
 0.352999926 Populate LinearArray with Compound
 0.160000086 CompoundFilter
@@ -199,13 +207,25 @@ Sketcher::Solve()-DogLeg-T:0
 0.019999981 Clone of Sketch - master section (2D)001
 0.010999918 ArrayFilter003
 ...
-}} (Per MS-Excel, facendo copia-incolla del testo dal rapporto non lo divide in colonne, non so perché \... incollando il testo in Notepad e ri-copiandolo poi da Notepad funziona meglio.)
+}}
+
+(Per MS-Excel, facendo copia-incolla del testo dal rapporto non lo divide in colonne, non so perché \... incollando il testo in Notepad e ri-copiandolo poi da Notepad funziona meglio.)
+
+## FreeCAD version 
+
+
+<div class="mw-translate-fuzzy">
 
 ## Versione di FreeCAD 
 
 Questa macro richiede una versione di FreeCAD non inferiore alla 0.17.10644, che è la versione in cui è stato reso disponibile App.ActiveDocument.RecomputesFrozen. Potrebbe essere funzionare anche con una vesrsione di FreeCAD un po\' più vecchia, ma certamente non funziona con v0.16.
 
-Questa macro è stata creata usando questa versione di FreeCAD: 
+
+</div>
+
+Questa macro è stata creata usando questa versione di FreeCAD:
+
+
 ```python
 OS: Windows 10
 Word size of OS: 64-bit

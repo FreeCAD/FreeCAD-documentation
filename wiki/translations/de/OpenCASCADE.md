@@ -78,7 +78,7 @@ So kannst du aus Formen sehr komplexe Teile bauen oder umgekehrt alle Unterforme
 -   OCCT [git Repositorium](https://git.dev.opencascade.org/gitweb/?p=occt.git)
 -   OpenCASCADE Gemeinschaftsausgabe (OCE) [git Repositorium](https://github.com/tpaviot/oce)
 -   [Open Cascade Technologie OCCT](http://en.wikipedia.org/wiki/Open_Cascade_Technology) auf Wikipedia
--   Glossar, [Open CASCADE](Glossar#Open_CASCADE.md)
+-   Glossar, [Open CASCADE](Glossary/de#Open_CASCADE.md)
 -   Verfolgung von OCCT Fehlern im FreeCAD Bugtracker [(Beitrag)](https://forum.freecadweb.org/viewtopic.php?f=10&t=20264)
 
 

@@ -105,7 +105,7 @@ La plupart des fichiers liés à un solveur sont dans un sous-package du package
 -   **femsolver/elmer/tasks.py:** module contenant une classe de tâches par tâche requise pour une implémentation du solveur. Ces tâches divisent le processus de résolution d'une analyse en plusieurs étapes: vérification, préparation, résolution, résultats.
 -   **femcommands/commands.py:** ajoute l\'objet document du solveur au document actif. Il est nécessaire pour accéder à l\'objet solveur à partir de l\'interface graphique.
 
-Il existe un tutoriel sur l\'ajout d\'un nouveau solveur : [Tutoriel Ajouter un solveur FEM](Add_FEM_solver_tutorial/fr.md).
+Il existe un tutoriel sur l\'ajout d\'un nouveau solveur : _.
 
 ## Equations
 

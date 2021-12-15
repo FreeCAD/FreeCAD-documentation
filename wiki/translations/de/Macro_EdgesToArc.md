@@ -20,7 +20,7 @@ Um dieses Makro zu verwenden, muss man den Linienzug mit der **<img src="images/
 
 Das Macro prüft, ob alle Segmente auf einem gemeinsamen Kreisbogen liegen und bricht ab, falls nicht. Im anderen Fall wird der Kreisbogen erstellt, und die geraden Segmente entfernt.
 
-Bei den Berechnungen treten kleine Fehler auf. Aus diesem Grund kann es manchmal passieren, dass die **<img src="images/Draft:Upgrade.svg" width=16px> [Hochstufen](Draft_Upgrade/de.md)**-Funktion die Kreisbögen und die unveränderten Segmente nicht wieder zu einem Linienzug zusammensetzen kann. In diesem Fall ist das [SuperWire](Macro_SuperWire/de.md)-Makro eine robustere Alternative.
+Bei den Berechnungen treten kleine Fehler auf. Aus diesem Grund kann es manchmal passieren, dass die **<img src="images/Draft_Upgrade.svg" width=16px> [Hochstufen](Draft_Upgrade/de.md)**-Funktion die Kreisbögen und die unveränderten Segmente nicht wieder zu einem Linienzug zusammensetzen kann. In diesem Fall ist das [SuperWire](Macro_SuperWire/de.md)-Makro eine robustere Alternative.
 
 ## Script
 

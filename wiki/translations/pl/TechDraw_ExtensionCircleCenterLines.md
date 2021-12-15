@@ -1,8 +1,9 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:TechDraw ExtensionCircleCenterLines
-   MenuLocation:TechDraw → Extensions: centerlines and threading → Draw circle centerlines
-   Workbenches:[TechDraw](TechDraw_Workbench.md)
+   Name/pl:Rysunek Techniczny: Oś otworu
+   MenuLocation:Rysunek Techniczny → Rozszerzenie: linie środka i gwinty → Rysuj osie środka okręgu
+   Workbenches:[Rysunek Techniczny](TechDraw_Workbench/pl.md)
    Shortcut:
    Version:0.20
    SeeAlso:
@@ -12,18 +13,21 @@
 
 ## Opis
 
-The <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:24px;"> **TechDraw ExtensionCircleCenterLines** tool adds centerlines to circles and arcs.
+Narzędzie <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:24px;"> **Oś otworu** środowiska Rysunek Techniczny dodaje linie środkowe do okręgów i łuków.
 
 <img alt="" src=images/TechDraw_ExtensionCircleCenterLinesExample.png  style="width:200px;"> 
 *Po prawej stronie okrąg z liniami środkowymi*
 
 ## Użycie
 
-1.  Select one or more circles or arcs.
-2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionCircleCenterLines.svg" width=16px> [TechDraw ExtensionCircleCenterLines](TechDraw_ExtensionCircleCenterLines.md)** button.
-    -   Select the **TechDraw → Extensions: centerlines and threading → <img src="images/TechDraw_ExtensionCircleCenterLines.svg" width=16px> Draw circle centerlines** option from the menu.
-3.  Centerlines are added to each circle or arc.
+1.  Opcjonalnie wybierz preferowane atrybuty linii używając funkcji **<img src="images/TechDraw_ExtensionSelectLineAttributes.svg" width=24px> [Zmień atrybuty linii](TechDraw_ExtensionSelectLineAttributes/pl.md)**.
+2.  Wybierz jeden lub więcej okręgów lub łuków.
+3.  Istnieje kilka sposobów na wywołanie narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_ExtensionCircleCenterLines.svg" width=16px> [Rysuj osie środka okręgu](TechDraw_ExtensionCircleCenterLines/pl.md)**.
+    -   Wybierz opcję z menu **Rysunek Techniczny → Rozszerzenie: linie środka i gwinty → <img src="images/TechDraw_ExtensionCircleCenterLines.svg" width=16px> Rysuj osie środka okręgu**.
+4.  Linie środkowe są dodawane do każdego okręgu lub łuku.
+
+-   Dodane linie środkowe mają atrybuty *(styl, szerokość, kolor)* wybrane za pomocą funkcji **<img src="images/TechDraw_ExtensionSelectLineAttributes.svg" width=24px> [Zmień atrybuty linii](TechDraw_ExtensionSelectLineAttributes/pl.md)**.
 
 
 

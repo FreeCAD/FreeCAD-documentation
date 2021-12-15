@@ -14,7 +14,7 @@ Der Part Arbeitsbereich bietet grundlegende Werkzeuge für die Arbeit mit Volume
   <img alt="" src=images/Part_Box.svg  style="width:32px;"> _                                          Zeichnet einen Kegel
   <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> _                                    Zeichnet eine Kugel
   <img alt="" src=images/Part_Torus.svg  style="width:32px;"> _            Erstellt verschiedene andere parametrische geometrische Primitive
-  <img alt="" src=images/Part_Builder.svg  style="width:32px;"> _                                 Verschmilzt (Vereinigt) zwei Objekte
+  <img alt="" src=images/Part_Builder.svg  style="width:32px;"> _                                    Verschmilzt (Vereinigt) zwei Objekte
   <img alt="" src=images/Part_Common.svg  style="width:32px;"> _                                               Schneidet (subtrahiert) ein Objekt von einem anderen
   <img alt="" src=images/Part_JoinConnect.svg  style="width:32px;"> _                   Bettet ein Hohlobjekt in ein anderes Hohlobjekt ein
   <img alt="" src=images/Part_JoinCutout.svg  style="width:32px;"> _                           Extrudiert ebene Flächen eines Objekts
@@ -50,29 +50,29 @@ Der Arbeitsbereich Entwurf bietet Werkzeuge zur Durchführung grundlegender 2D C
 
 Der Skizzierer Arbeitsbereich enthält Werkzeuge zum Erstellen und Bearbeiten komplexer 2D Objekte, genannt Skizzen. Die Geometrie innerhalb dieser Skizzen kann durch die Verwendung von Beschränkungen präzise positioniert und in Beziehung gesetzt werden. Sie sind in erster Linie als Bausteine der PartDesign Geometrie gedacht, sind aber überall in FreeCAD nützlich.
 
-  Werkzeug                                                                                                                                                         Beschreibung                                                                                                                                                                              Werkzeug                                                                                                                                                     Beschreibung
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  <img alt="" src=images/Sketcher_CreatePoint.svg  style="width:32px;"> _                                                        Zeichnet einen Linienabschnitt aus zwei Punkten
-  <img alt="" src=images/Sketcher_Arc.svg  style="width:32px;"> _                    Zeichnet ein Bogensegment aus zwei Endpunkten und einem weiteren Punkt auf dem Umfang
-  <img alt="" src=images/Sketcher_Circle.svg  style="width:32px;"> _          Zeichnet einen Kreis aus drei Punkten auf dem Umfang
+  Werkzeug                                                                                                                                                         Beschreibung                                                                                                                                                                              Werkzeug                                                                                                                                                           Beschreibung
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  <img alt="" src=images/Sketcher_CreatePoint.svg  style="width:32px;"> _                                                              Zeichnet einen Linienabschnitt aus zwei Punkten
+  <img alt="" src=images/Sketcher_Arc.svg  style="width:32px;"> _                          Zeichnet ein Bogensegment aus zwei Endpunkten und einem weiteren Punkt auf dem Umfang
+  <img alt="" src=images/Sketcher_Circle.svg  style="width:32px;"> _                Zeichnet einen Kreis aus drei Punkten auf dem Umfang
   <img alt="" src=images/Sketcher_CreateEllipse.svg  style="width:32px;"> _   Zeichnet eine Ellipse nach Hauptdurchmesser (2 Punkte) und Nebenradiuspunkt
-  <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:32px;"> _                            Zeichnet eine Linie, die aus mehreren Liniensegmenten besteht. Mehrere Zeichenmodi verfügbar
-  <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> _                              Zeichnet ein regelmäßiges Dreieck, einbeschrieben in einen Kreis der Konstruktionsgeometrie
-  <img alt="" src=images/Sketcher_CreateSquare.svg  style="width:32px;"> _                              Zeichnet ein regelmäßiges Fünfeck, einbeschrieben in einen Kreis der Konstruktionsgeometrie
-  <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:32px;"> _                            Zeichnet ein regelmäßiges Siebeneck, einbeschrieben in einen Kreis der Konstruktionsgeometrie
-  <img alt="" src=images/Sketcher_CreateOctagon.svg  style="width:32px;"> _                                              Zeichnet ein Oval durch Auswahl des Zentrums eines Halbkreises und eines Endpunktes des anderen Halbkreises
-  <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:32px;"> _                                                Stutzt eine Linie, einen Kreis oder einen Bogen in Bezug auf einen angeklickten Punkt
-  <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> _       Schaltet ein Element in den/aus dem Konstruktionsmodus um. Ein Konstruktionsobjekt wird nicht in einer 3D Geometrieoperation verwendet und ist nur während der Bearbeitung der Skizze, die es enthält, sichtbar.
-  <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> _        Befestigt einen Punkt auf einem anderen Objekt, z.B. einer Linie, einem Bogen oder einer Achse.
-  <img alt="" src=images/Constraint_Vertical.svg  style="width:32px;"> _                       Beschränkt die ausgewählten Linien oder Polylinienelemente auf eine echte horizontale Anordnung. Es kann mehr als ein Objekt ausgewählt werden, bevor diese Beschränkung angewendet wird.
-  <img alt="" src=images/Constraint_Parallel.svg  style="width:32px;"> _               Beschränkt zwei Linien, die senkrecht zueinander stehen, oder beschränkt eine Linie, die senkrecht zu einem Bogenendpunkt steht.
-  <img alt="" src=images/Constraint_Tangent.svg  style="width:32px;"> _                          Beschränkt zwei gewählte Einheiten gleich zueinander. Wenn sie auf Kreise oder Bögen angewendet werden, werden ihre Radien gleich gesetzt.
-  <img alt="" src=images/Constraint_Symmetric.svg  style="width:32px;"> _                                 Beschränkt das ausgewählte Element, indem vertikale und horizontale Abstände relativ zum Ursprung festgelegt werden, wodurch die Position dieses Elements gesperrt wird.
-  <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width:32px;"> _       Fixiert den vertikalen Abstand zwischen 2 Punkten oder Linienendpunkten. Wenn nur ein Punkt ausgewählt ist, wird der Abstand auf den Ursprung gesetzt.
-  <img alt="" src=images/Constraint_Length.svg  style="width:32px;"> _                                          Definiert den Radius eines ausgewählten Bogens oder Kreises durch Beschränkung des Radius.
-  <img alt="" src=images/Constraint_InternalAngle.svg  style="width:32px;"> _                   Beschränkt zwei Linien auf die Einhaltung eines Brechungsgesetzes, um das durch eine Grenzfläche gehende Licht zu simulieren
-  <img alt="" src=images/Constraint_InternalAlignment.svg  style="width:32px;"> _                                     Weist eine Skizze der zuvor ausgewählten Seite eines Volumenkörpers zu
-  <img alt="" src=images/Sketcher_MergeSketch.svg  style="width:32px;"> _                                   Spiegelt ausgewählte Elemente einer Skizze
+  <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:32px;"> _                                  Zeichnet eine Linie, die aus mehreren Liniensegmenten besteht. Mehrere Zeichenmodi verfügbar
+  <img alt="" src=images/Sketcher_CreateRectangle.svg  style="width:32px;"> _                                    Zeichnet ein regelmäßiges Dreieck, einbeschrieben in einen Kreis der Konstruktionsgeometrie
+  <img alt="" src=images/Sketcher_CreateSquare.svg  style="width:32px;"> _                                    Zeichnet ein regelmäßiges Fünfeck, einbeschrieben in einen Kreis der Konstruktionsgeometrie
+  <img alt="" src=images/Sketcher_CreateHexagon.svg  style="width:32px;"> _                                  Zeichnet ein regelmäßiges Siebeneck, einbeschrieben in einen Kreis der Konstruktionsgeometrie
+  <img alt="" src=images/Sketcher_CreateOctagon.svg  style="width:32px;"> _                                                    Zeichnet ein Oval durch Auswahl des Zentrums eines Halbkreises und eines Endpunktes des anderen Halbkreises
+  <img alt="" src=images/Sketcher_CreateFillet.svg  style="width:32px;"> _                                                      Stutzt eine Linie, einen Kreis oder einen Bogen in Bezug auf einen angeklickten Punkt
+  <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> _             Schaltet ein Element in den/aus dem Konstruktionsmodus um. Ein Konstruktionsobjekt wird nicht in einer 3D Geometrieoperation verwendet und ist nur während der Bearbeitung der Skizze, die es enthält, sichtbar.
+  <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> _                 Befestigt einen Punkt auf einem anderen Objekt, z.B. einer Linie, einem Bogen oder einer Achse.
+  <img alt="" src=images/Constraint_Vertical.svg  style="width:32px;"> _                                Beschränkt die ausgewählten Linien oder Polylinienelemente auf eine echte horizontale Anordnung. Es kann mehr als ein Objekt ausgewählt werden, bevor diese Beschränkung angewendet wird.
+  <img alt="" src=images/Constraint_Parallel.svg  style="width:32px;"> _                     Beschränkt zwei Linien, die senkrecht zueinander stehen, oder beschränkt eine Linie, die senkrecht zu einem Bogenendpunkt steht.
+  <img alt="" src=images/Constraint_Tangent.svg  style="width:32px;"> _                                Beschränkt zwei gewählte Einheiten gleich zueinander. Wenn sie auf Kreise oder Bögen angewendet werden, werden ihre Radien gleich gesetzt.
+  <img alt="" src=images/Constraint_Symmetric.svg  style="width:32px;"> _                                       Beschränkt das ausgewählte Element, indem vertikale und horizontale Abstände relativ zum Ursprung festgelegt werden, wodurch die Position dieses Elements gesperrt wird.
+  <img alt="" src=images/Constraint_HorizontalDistance.svg  style="width:32px;"> _             Fixiert den vertikalen Abstand zwischen 2 Punkten oder Linienendpunkten. Wenn nur ein Punkt ausgewählt ist, wird der Abstand auf den Ursprung gesetzt.
+  <img alt="" src=images/Constraint_Length.svg  style="width:32px;"> _                                                Definiert den Radius eines ausgewählten Bogens oder Kreises durch Beschränkung des Radius.
+  <img alt="" src=images/Constraint_InternalAngle.svg  style="width:32px;"> _                         Beschränkt zwei Linien auf die Einhaltung eines Brechungsgesetzes, um das durch eine Grenzfläche gehende Licht zu simulieren
+  <img alt="" src=images/Constraint_InternalAlignment.svg  style="width:32px;"> _                                           Weist eine Skizze der zuvor ausgewählten Seite eines Volumenkörpers zu
+  <img alt="" src=images/Sketcher_MergeSketch.svg  style="width:32px;"> _                                         Spiegelt ausgewählte Elemente einer Skizze
 
 ### Part Design 
 
@@ -113,13 +113,19 @@ Der Architektur Arbeitsbereich enthält Werkzeuge für die Arbeit mit [Bauwerksd
 
 Der Arbeitsbereich Zeichnung übernimmt die Erstellung und Bearbeitung von 2D Zeichnungsblättern, die für die Anzeige von Ansichten Ihrer 3D Arbeiten in 2D verwendet werden. Diese Blätter können dann in 2D Anwendungen im SVG oder DXF Format, in eine PDF Datei oder zum Drucken exportiert werden.
 
+
+<div class="mw-translate-fuzzy">
+
   Werkzeug                                                                                                                     Beschreibung                                                                         Werkzeug                                                                                                                            Beschreibung
   ---------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------ ----------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------
   <img alt="" src=images/Drawing_Landscape_A3.png  style="width:32px;"> _                                      Fügt eine Ansicht des ausgewählten Objekts in das aktive Zeichnungsblatt ein
   <img alt="" src=images/Drawing_Annotation.png  style="width:32px;"> _                                         Fügt dem aktuellen Zeichenblatt eine Clip Gruppe hinzu
   <img alt="" src=images/Drawing_Openbrowser.png  style="width:32px;"> _   Erstellt automatisch orthographische Ansichten eines Objekts auf dem aktuellen Zeichenblatt
-  <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> _               Fügt eine spezielle Entwurfsansicht des ausgewählten Objekts in das aktuelle Zeichnungsblatt ein
+  <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> _                           Fügt eine spezielle Entwurfsansicht des ausgewählten Objekts in das aktuelle Zeichnungsblatt ein
   <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [Speichern](Drawing_Save/de.md)                             Speichert das aktuelle Blatt als SVG Datei                                                                                                                                                                               
+
+
+</div>
 
 ### Andere eingebaute Arbeitsbereiche 
 

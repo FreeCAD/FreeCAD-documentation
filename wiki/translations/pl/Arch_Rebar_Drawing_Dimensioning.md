@@ -361,7 +361,7 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 </div>
 
-# <img alt="" src=images/Arch_Rebar_Drawing.svg  style="width:32px;"> Reinforcement Drawing 
+# <img alt="" src=images/Arch_Rebar_Drawing.svg  style="width:32px;"> Rysunek zbrojenia 
 
 ## Usage 
 
@@ -737,7 +737,7 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 </div>
 
-# <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width:32px;"> Reinforcement Dimensioning 
+# <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width:32px;"> Wymiarowanie zbrojenia 
 
 ## Usage 
 

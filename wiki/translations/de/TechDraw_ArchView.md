@@ -63,7 +63,13 @@ Die ArchView wird innerhalb des [Arch Arbeitsbereichs](Arch_Workbench/de.md) ger
 
 [TechDraw API](TechDraw_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
+
+<div class="mw-translate-fuzzy">
+
 Das Neue Arch Werkzeug kann in [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole aus mit den folgenden Funktionen verwendet werden:
+
+
+</div>
 
 
 ```python

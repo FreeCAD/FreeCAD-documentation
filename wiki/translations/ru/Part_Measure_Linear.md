@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/ru
-   Name:Std MeasureLinear
-   Name/ru:Std MeasureLinear
-   MenuLocation:[Measure](Std_Measure_Menu/ru.md) → Измерить длину
+   Name:Part Measure Linear
+   Name/ru:Part Measure Linear
+   MenuLocation:Measure → Измерить длину
    Workbenches:[Part](Part_Workbench/ru.md)
    Shortcut:
    SeeAlso:

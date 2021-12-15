@@ -63,7 +63,9 @@ The Grid is a 2D object, and can therefore be used anywhere a 2D shape such as a
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Grid tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The Grid tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 Grid = makeGrid(name="Grid")
 ```

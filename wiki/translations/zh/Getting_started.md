@@ -73,7 +73,7 @@ FreeCAD界面背后的主要概念是它被分成 [工作台](workbenches.md)。
 
 </div>
 
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
+<img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -92,43 +92,6 @@ FreeCAD有许多不同的[鼠标操控模式可用](Mouse_Model.md), 选择不�
 
 
 </div>
-
-
-{{CAD Navigation
-|Select_name=选择
-|Pan_name=移动
-|Zoom_name=缩放
-|Rotate_view_name=旋转视图<br>第一种方法
-|Rotate_view_alt_name=旋转视图<br>其他方法
-|Ctrl=**Ctrl**
-|Shift=**Shift**
-|Select_text=选择单个对象：在你想要选取的目标上点击鼠标左键。
-选择多个对象：按住键盘上的**Ctrl**的同时逐个在你需要选取的对象的上点击鼠标左键。
-|Pan_text=按住鼠标中键，然后移动光标.
-|Pan_mode_text=移动模式：按住键盘上的**Ctrl**不放,点击鼠标右键一次后移动光标. <small>(v0.17)</small> 
-|Zoom_text=使用鼠标滚轮进行缩放操作.
-单击鼠标中键可将视图重新置于光标位置的中心。 
-|Zoom_mode_text=Zoom mode: 按住键盘上的**Ctrl** 和**Shift**键不放, 点击鼠标右键一次后移动光标. <small>(v0.17)</small> 
-|Rotate_view_text=按住鼠标中键不放, 然后按下鼠标左键不放, 然后移动光标.
-鼠标中键按下时光标的位置决定了旋转操作的旋转中心。旋转操作就像旋转一个围绕中心旋转的球。如果在停止鼠标移动之前释放按钮，视图将继续[旋转](spinning.md)(此选项启用时)。 
-双击鼠标中键以设定一个新的旋转中心。
-|Rotate_view_mode_text=Rotate mode: 按住**Shift**键不放,点击鼠标右键一次后移动光标.  <small>(v0.17)</small> 
-|Rotate_view_alt_text=按住鼠标中键不放, 然后按下鼠标右键不放, 然后移动光标.
-该方法下鼠标中键可以在鼠标右键按下后放开。 
-习惯用右手的用户可能会觉得这种方法比第一种方法要容易些。
-}}
-
-选择多个对象：按住键盘上的**Ctrl**的同时逐个在你需要选取的对象的上点击鼠标左键。 \|Pan\_text=按住鼠标中键，然后移动光标. \|Pan\_mode\_text=移动模式：按住键盘上的**Ctrl**不放,点击鼠标右键一次后移动光标. <small>(v0.17)</small>  \|Zoom\_text=使用鼠标滚轮进行缩放操作.
-
-单击鼠标中键可将视图重新置于光标位置的中心。 \|Zoom\_mode\_text=Zoom mode: 按住键盘上的**Ctrl** 和**Shift**键不放, 点击鼠标右键一次后移动光标. <small>(v0.17)</small>  \|Rotate\_view\_text=按住鼠标中键不放, 然后按下鼠标左键不放, 然后移动光标.
-
-鼠标中键按下时光标的位置决定了旋转操作的旋转中心。旋转操作就像旋转一个围绕中心旋转的球。如果在停止鼠标移动之前释放按钮，视图将继续[旋转](spinning.md)(此选项启用时)。
-
-双击鼠标中键以设定一个新的旋转中心。 \|Rotate\_view\_mode\_text=Rotate mode: 按住**Shift**键不放,点击鼠标右键一次后移动光标. <small>(v0.17)</small>  \|Rotate\_view\_alt\_text=按住鼠标中键不放, 然后按下鼠标右键不放, 然后移动光标.
-
-该方法下鼠标中键可以在鼠标右键按下后放开。
-
-习惯用右手的用户可能会觉得这种方法比第一种方法要容易些。}}
 
 预设的视图(顶视图、前视图等)，可以通过试图菜单、视图工具栏和数字快捷键(**1**, **2**, 等等)进行使用。通过右键单击对象或三维视图的空白区域，可以快速使用一些常见操作，例如设置特定视图或在树视图中定位对象。
 
@@ -157,7 +120,7 @@ Freecad的关注点是让你能够制作高精度的3D模型，对这些模型�
 
 <div class="mw-translate-fuzzy">
 
-[零件设计工作台是专门为构建复杂对象而设计的](partdesign_workbench.md)，从简单的形状开始，然后添加或删除一些而部分（被称为"功能"），直到完成最终对象。在建模过程中应用的所有功能都存储在一个名为[树视图的单独视图中](Document_structure.md)，该视图还包含文档中的其他对象。您可以将零件设计对象视为一系列操作，每个操作都应用于前一个操作的结果，形成一个大链路。在树视图中，可以看到最终对象，但可以展开它并检索所有先前的状态，并更改它们的任何参数，这些参数将自动更新最终对象。
+[零件设计工作台是专门为构建复杂对象而设计的](PartDesign_Workbench.md)，从简单的形状开始，然后添加或删除一些而部分（被称为"功能"），直到完成最终对象。在建模过程中应用的所有功能都存储在一个名为[树视图的单独视图中](Document_structure.md)，该视图还包含文档中的其他对象。您可以将零件设计对象视为一系列操作，每个操作都应用于前一个操作的结果，形成一个大链路。在树视图中，可以看到最终对象，但可以展开它并检索所有先前的状态，并更改它们的任何参数，这些参数将自动更新最终对象。
 
 
 </div>
@@ -184,7 +147,7 @@ Freecad的关注点是让你能够制作高精度的3D模型，对这些模型�
 
 以上操作会给你如下的结果：
 
-<img alt="" src=images/Partdesign_example.jpg  style="width:1024px;">
+<img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 你随时可以选择原始草图并对其进行修改，或者更改"填充"或"挖槽"操作的拉伸参数以更新最终对象。
 
@@ -226,13 +189,19 @@ _[对象捕捉](Draft_Snap.md)。
 
 你将得到如下结果：
 
-<img alt="" src=images/Arch_workflow_example.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
 
 更多信息见[指南页面](Tutorials.md).
 
 ## 插件，宏文件和外部工作台
 
+
+<div class="mw-translate-fuzzy">
+
 Freecad作为一种开放源代码软件，提供了使用插件补充其工作台的可能性。
+
+
+</div>
 
 [插件原理基于工作台补充的开发](Addon.md)。 任何用户都可以开发出他或她认为自己或自己的社区或最终社区所需的功能。 使用论坛，用户可以在论坛上提出意见和帮助。 它可以根据版权规则定义是否共享其开发对象。 对她或他免费。 为了进行开发，用户具有可用的[脚本功能](scripting.md)。
 
@@ -246,7 +215,7 @@ Freecad作为一种开放源代码软件，提供了使用插件补充其工作�
 
 ## 脚本编写
 
-最后，FreeCad最强大的功能之一是[脚本编写环境](scripting.md)。从集成的python控制台（或任何其他外部python脚本），您可以控制FreeCAD的几乎任何部分。创建或修改几何图形、修改3D场景中这些对象的表现形式、或控制和修改FreeCAD界面。python脚本也可以用于[宏脚本](Marco.md)，它提供了一种创建自定义命令的简单方法。
+最后，FreeCad最强大的功能之一是[脚本编写环境](scripting.md)。从集成的python控制台（或任何其他外部python脚本），您可以控制FreeCAD的几乎任何部分。创建或修改几何图形、修改3D场景中这些对象的表现形式、或控制和修改FreeCAD界面。python脚本也可以用于[宏脚本](Macros.md)，它提供了一种创建自定义命令的简单方法。
 
 ## 新特性
 

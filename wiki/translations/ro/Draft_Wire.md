@@ -50,8 +50,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Apăsați tasta **<img src="images/Draft_Wire.png" width=16px> [Draft Wire](Draft_Wire/ro.md)
 ** button, or press **W** then **I** sau apăsați **W** apoi tastele **I**
-2.  Faceți clic pe un prim punct din vizualizarea 3D sau tastați un [coordinate](Draft_Coordinates/ro.md)
-3.  Faceți clic pe un punct suplimentar în vizualizarea 3D sau tastați un [coordinate](Draft_Coordinates/ro.md)
+2.  Faceți clic pe un prim punct din vizualizarea 3D sau tastați un coordinate
+3.  Faceți clic pe un punct suplimentar în vizualizarea 3D sau tastați un coordinate
 4.  Apăsați **F** sau **C** sau faceți dublu clic pe ultimul punct sau faceți clic pe primul punct pentru a termina sau a închide filamentul/polilinia. Dacă filamentul este închis, acesta va fi, de asemenea, o fațetă, chiar dacă acesta apare ca o rețea wireframe.
 
 
@@ -67,8 +67,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 ## Opțiuni
 
 -   Dacă sunt selectate mai multe linii [Draft Lines](Draft_Line/ro.md) atunci când apăsați butonul **Draft Wire**, acestea vor fi transformate într-un fir și comanda va ieși. <small>(v0.17/ro)</small> 
--   Apăsați butonul **F** sau butonul **<img src="images/_Draft_FinishLine.png" width=12px> '''[Finish](Draft_FinishLine/ro.md)'''** pentru a finalize firul și a-l lăsa deschis
--   Apăsați butonul **C** or the **<img src="images/Draft_CloseLine.png" width=12px> '''[Close](Draft_CloseLine/ro.md)'''** terminați firul, dar închizându-l prin adăugarea unui ultim segment între ultimul punct și primul.
+-   Apăsați butonul **F** sau butonul **<img src="images/_Draft_FinishLine.png" width=12px> '''Finish'''** pentru a finalize firul și a-l lăsa deschis
+-   Apăsați butonul **C** or the **<img src="images/Draft_CloseLine.png" width=12px> '''Close'''** terminați firul, dar închizându-l prin adăugarea unui ultim segment între ultimul punct și primul.
 -   Apăsați **X**, **Y** sau **Z** după un punct pentru a restrânge următorul punct de pe axa dată.
 -   Pentru a introduce manual coordonatele, pur și simplu introduceți numerele, apoi apăsați **ENTER** între fiecare componentă X, Y și Z.
 -   Apăsați tasta **R** sau faceți clic pe caseta de selectare pentru a bifa/debifa butonul **'''Relativ'''**. Dacă modul relativ este activ, coordonatele punctului următor sunt relative la ultimul. Dacă nu, ele sunt absolute, luate din punctul de origine (0,0,0).
@@ -76,7 +76,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Apăsați **CTRL** în timp ce desenați pentru a forța ancorarea [snapping](Draft_Snap/ro.md) punctului dvs. către cea mai apropiată locație, independent de distanța.
 -   Apăsați pe **SHIFT** în timp ce desenați [constrain](Draft_Constrain/ro.md) următorul punct pe orizontală sau pe verticală în raport cu ultimul.
 -   Apăsați butonul **W** sau apăsați butonul **<img src="images/_Draft_Wipe.png" width=12px> '''Șterge'''** pentru a elimina segmentele existente și a porni firul de la ultima punct.
--   Apăsați tasta **CTRL** + **Z** sau apăsați pe **<img src="images/_Draft_UndoLine.png" width=12px> '''[Undo](Draft_UndoLine/ro.md)'''** pentru a anula ultimul punct.
+-   Apăsați tasta **CTRL** + **Z** sau apăsați pe **<img src="images/_Draft_UndoLine.png" width=12px> '''Undo'''** pentru a anula ultimul punct.
 -   Apăsați butonul **I** sau butonul **'''Fillet'''** pentru a avea firul umplut cu o fațetă dacă este închis.
 -   Apăsați butonul **ESC** sau butonul **'''Cancel'''** pentru a întrerupe comanda curentă.
 -   Firele închise, atunci când sunt în modul de afișare \"Flat Lines\", pot afișa un model de hașură, prin setarea proprietății \"Pattern\" de mai jos.

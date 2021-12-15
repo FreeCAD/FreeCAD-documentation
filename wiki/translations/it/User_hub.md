@@ -6,7 +6,13 @@
 
 Questa è l\'area principale di aiuto per i nuovi utenti di FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
 Queste pagine sono in continuo sviluppo, quindi potrebbero esserci informazioni mancanti o obsolete. Se non riuscite a trovare le informazioni di cui avete bisogno, non esitate a chiedere nel [forum di FreeCAD](http://forum.freecadweb.org).
+
+
+</div>
 
 Se vuoi contribuire a FreeCAD, per favore _ per le linee guida generali che dovresti seguire.
 

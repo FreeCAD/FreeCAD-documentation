@@ -25,7 +25,7 @@ Fügt ein abzuziehendes Prisma in den aktiven Körper (Body) ein. Die Form wird 
 <div class="mw-translate-fuzzy">
 
 1.  Auf die Schaltfläche **<img src="images/PartDesign_SubtractivePrism.svg" width=24px> '''Abzuziehendes Prisma'''** klicken. **Anmerkung**: Abzuziehendes Prisma ist Teil des benannten Symbols *Erzeuge einen abzuziehenden Grundkörper*. Direkt nach dem Start von FreeCAD wird das Symbol von „Abzuziehender Quader" in der Werkzeugleiste angezeigt. Wenn ein anderer Grundkörper zu sehen ist, kann durch Klicken auf den Pfeil neben dem Symbol das abzuziehende Prisma in dem aufklappenden Menü ausgewählt werden.
-2.  Die Parameter des Grundkörpers und über [Attachment](Part_Attachment/de.md) den räumlichen Bezug einstellen.
+2.  Die Parameter des Grundkörpers und über [Attachment](Part_EditAttachment/de.md) den räumlichen Bezug einstellen.
 3.  Mit Klick auf **OK** bestätigen.
 4.  Das Feature (Formelement) Prisma (Prism) erscheint unterhalb des aktiven Körpers (Body).
 
@@ -46,7 +46,7 @@ Das Prisma kann auf zwei verschieden Wege bearbeitet werden:
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_Attachment/de.md).
+-    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_EditAttachment/de.md).
 
 -    {{PropertyData/de|Label}}: lDie vom Benutzer vergebene Bezeichung für das Prisma-Objekt. Dies kann nach Bedarf geändert werden.
 

@@ -66,9 +66,9 @@ Remarquez que la suppression des cellules contenant des données peut casser la 
 
 Dans la version 0.19 de FreeCAD et antérieures, il y a un bug qui peut provoquer un blocage de FreeCAD si une plage de cellules non-rectangulaire est collée. Il est conseillé d\'enregistrer votre travail avant d\'effectuer toute opération de collage.
 
-### Propriétés d\'une cellule 
+## Propriétés d\'une cellule 
 
-Les propriétés d\'un cellule de feuille de calcul peuvent être éditées avec un clic-droit sur la cellule. La boîte de dialogue suivante apparaît :
+Les propriétés d\'une cellule de feuille de calcul peuvent être éditées avec un clic-droit sur la cellule. La boîte de dialogue suivante apparaît :
 
 ![](images/SpreadsheetCellPropDialog.png )
 
@@ -84,7 +84,7 @@ Comme mentionné dans les onglets, les propriétés suivantes peuvent être chan
 
 Une cellule de feuille de calcul peut contenir du texte arbitraire ou une expression. Techniquement, les expressions doivent commencer par un signe égal \'=\'. Cependant, le tableur tente d'être intelligent ; si vous entrez ce qui ressemble à une expression sans le signe \'=\', celui-ci sera ajouté automatiquement.
 
-Les expressions cellulaires peuvent contenir des nombres, des fonctions, des références à d\'autres cellules et des références à des propriétés du modèle (voir toutefois les [limitations courantes](#Limitations_Courantes.md) ci-dessous). Les cellules sont référencées par leur colonne (lettre CAPITALE) et leur rangée (nombre). Une cellule peut également être référencée par son [alias](#alias_name.md) (ci-dessous). Exemple: B4 + A6
+Les expressions cellulaires peuvent contenir des nombres, des fonctions, des références à d\'autres cellules et des références à des propriétés du modèle (voir toutefois les [limitations courantes](#Limitations_Courantes.md) ci-dessous). Les cellules sont référencées par leur colonne (lettre CAPITALE) et leur rangée (nombre). Une cellule peut également être référencée par son [alias](#alias_name.md) (voir ci-dessous). Exemple: B4 + A6
 
 **Remarque:** Les expressions de cellule sont traitées par FreeCAD comme du code de programmation. Par conséquent, lorsque vous modifiez une cellule, vous voyez que le contenu ne suit pas vos paramètres d\'affichage:
 
@@ -122,13 +122,13 @@ Une façon d\'éviter ces problèmes consiste à préfixer les étiquettes de te
 
 Le tableau suivant montre quelques exemples en supposant que le modèle a une fonctionnalité nommée \"MonCube\" :
 
-  Donnée CAO                                              Appel dans la feuille de calcul   Résultat
-  ------------------------------------------------------- --------------------------------- -------------------------------
-  Longueur paramétrique d\'un Cube dans l\'Atelier Part   =MonCube.Longueur                 Longueur en mm
-  Volume du Cube                                          =MonCube.Shape.Volume             Volume en mm³ sans unité
-  Type de la forme du Cube                                =MonCube.Shape.ShapeType          String: Solid
-  Nom du Cube                                             =MonCube.Label                    String: MonCube
-  Coordonnée x du centre de gravité du Cube               =MonCube.Shape.CenterOfMass.x     Coordonnée x en mm sans unité
+  Donnée CAO                                              Cellule dans la feuille de calcul   Résultat
+  ------------------------------------------------------- ----------------------------------- -------------------------------
+  Longueur paramétrique d\'un Cube dans l\'Atelier Part   =MonCube.Longueur                   Longueur en mm
+  Volume du Cube                                          =MonCube.Shape.Volume               Volume en mm³ sans unité
+  Type de la forme du Cube                                =MonCube.Shape.ShapeType            String: Solid
+  Nom du Cube                                             =MonCube.Label                      String: MonCube
+  Coordonnée x du centre de gravité du Cube               =MonCube.Shape.CenterOfMass.x       Coordonnée x en mm sans unité
 
 ### Données de la feuille de calcul dans les expressions 
 

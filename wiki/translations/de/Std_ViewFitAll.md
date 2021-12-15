@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Std AnsichtEinpassenAlles
+   Name:Std ViewFitAll
+   Name/de:Std AnsichtEinpassenAlles
    MenuLocation:Ansicht → Standardansichten‏‎ → EinpassenAlles
    Workbenches:Alle
    Shortcut:**V** **F**
@@ -14,8 +15,6 @@
 Der **Std AnsichtEinpassenAlles**-Befehl zoomt und schwenkt, bis alle sichtbaren Objekte in die aktive [3D Ansicht](3D_view/de.md) passen.
 
 ## Anwendung
-
-==
 
 1.  Es gibt mehrere Wege, den ViewFitAll Befehl aufzurufen:
     -   Drücke die **<img src="images/Std_ViewFitAll.svg" width=16px> [Std AnsichtEinpassenAlles](Std_ViewFitAll/de.md)**-Schaltfläche.

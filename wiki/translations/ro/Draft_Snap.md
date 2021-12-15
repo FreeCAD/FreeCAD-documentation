@@ -34,7 +34,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Snap Endpoint](Draft_Snap_Endpoint.md): snaps to the endpoints of edges.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of straight and circular edges.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of edges.
 
 -   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ and [Arch BuildingParts](Arch_BuildingPart.md).
 
@@ -91,7 +91,7 @@ Note that after changing some preferences you must restart FreeCAD.
 
 ## Opțiuni
 
--   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Lock](Draft_ToggleSnap.md): activează global ancorarea on/off
+-   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Lock](Draft_Snap_Lock.md): activează global ancorarea on/off
 -   Anumite locații de fixare suplimentare pot fi obținute prin combinarea a două locații snap, cum ar fi extensia orto +, care vă va oferi un punct de fixare la intersecția liniilor lor imaginare.
 -   Alte locații, mai complexe, pot fi obținute prin utilizarea [constraining](Draft_Constrain.md) (by pressing **SHIFT** or **X** or **Y** or **Z** while drawing).
 -   apăsarea tastei **L** în timpul desenării, blochează unghiul curent al segmentului de linie care este desenat.

@@ -90,7 +90,7 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Legame di vincolo](FEM_ConstraintTie/it.md): <small>(v0.19)</small> 
 
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a tie constraint (\"bonded contact\") between two faces. <small>(v0.20)</small> 
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Vincolo forza](FEM_ConstraintForce/it.md): Usato per definire una forza in N applicata uniformemente ad una faccia selezionabile, nella direzione definibile.
 
@@ -158,7 +158,7 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/Fem-equation-flow.svg  style="width:32px;"> [Equation flow](FEM_EquationFlow/it.md):
 
--   <img alt="" src=images/Fem-equation-fluxsolver.svg  style="width:32px;"> [Equation fluxsolver](FEM_EquationFluxsolver/it.md):
+-   <img alt="" src=images/FEM_EquationFlux.svg  style="width:32px;"> [Equation fluxsolver](FEM_EquationFlux/it.md):
 
 -   <img alt="" src=images/Fem-equation-heat.svg  style="width:32px;"> [Equation heat](FEM_EquationHeat/it.md):
 
@@ -176,19 +176,19 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/Fem-data.svg  style="width:32px;"> [Post Mappa i colori dal risultato](FEM_PostPipelineFromResult/it.md):
 
--   <img alt="" src=images/Fem-warp.svg  style="width:32px;"> [Post Crea filtro vettoriale warp](FEM_PostCreateWarpVectorFilter/it.md):
+-   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Warp filter](FEM_PostFilterWarp/it.md):
 
--   <img alt="" src=images/Fem-clip-scalar.svg  style="width:32px;"> [Post Crea scalar clip filter](FEM_PostCreateScalarClipFilter/it.md):
+-   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Scalar clip filter](FEM_PostFilterClipScalar/it.md):
 
--   <img alt="" src=images/Fem-cut.svg  style="width:32px;"> [Post Crea cut filter](FEM_PostCreateCutFilter/it.md):
+-   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:32px;"> [Function cut filter](FEM_PostFilterCutFunction/it.md):
 
--   <img alt="" src=images/Fem-clip.svg  style="width:32px;"> [Post Crea clip filter](FEM_PostCreateClipFilter/it.md):
+-   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:32px;"> [Post Crea clip filter](FEM_PostFilterClipRegion/it.md):
 
--   <img alt="" src=images/Fem-DataAlongLine.svg  style="width:32px;"> [Post Crea data along line filter](FEM_PostCreateDataAlongLineFilter/it.md):
+-   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width:32px;"> [Post Crea data along line filter](FEM_PostFilterDataAlongLine/it.md):
 
--   <img alt="" src=images/Fem-linearizedstresses.svg  style="width:32px;"> [Post Crea linearized stresses](FEM_PostCreateLinearizedStressesFilter/it.md):
+-   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width:32px;"> [Stress linearization plot](FEM_PostFilterLinearizedStresses/it.md):
 
--   <img alt="" src=images/fem-post-filter-data-at-point.png  style="width:32px;"> [Post Crea data at point filter](FEM_PostCreateDataAtPointFilter/it.md):
+-   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Data at point clip filter](FEM_PostFilterDataAtPoint/it.md):
 
 -   <img alt="" src=images/Fem_CompPostCreateFunctions.png  style="width:48px;"> [Post Crea funzioni](FEM_PostCreateFunctions/it.md):
     -   <img alt="" src=images/Fem-sphere.svg  style="width:32px;"> :
@@ -206,7 +206,7 @@ Il modulo FEM può essere usato su piattaforme Windows, Mac OSX e Linux. Dato ch
 
 -   <img alt="" src=images/Fem-femmesh-clear-mesh.svg  style="width:32px;"> [Pulisci mesh FEM](FEM_MeshClear/it.md):
 
--   <img alt="" src=images/Fem-femmesh-print-info.svg  style="width:32px;"> [Stampa info mesh FEM](FEM_MeshPrintInfo/it.md):
+-   <img alt="" src=images/FEM_MeshDisplayInfo.svg  style="width:32px;"> [Stampa info mesh FEM](FEM_MeshDisplayInfo/it.md):
 
 ## Preferenze
 
@@ -258,11 +258,17 @@ L\'ambiente FEM è in costante sviluppo. Un obiettivo del progetto è trovare i 
 
 Le seguenti informazioni sono rivolte agli utenti esperti e agli sviluppatori che desiderano estendere l\'ambiente FEM in modi diversi. Serve avere familiarità con C++ e Python, ed è anche necessaria una certa conoscenza del sistema \"document object\" utilizzato in FreeCAD; queste informazioni sono disponibili nella [documentazione per utenti esperti](Power_users_hub/it.md) e nella [documentazione per gli sviluppatore](Developer_hub/it.md). Notare che, poiché FreeCAD è in fase di sviluppo attivo, alcuni articoli potrebbero essere vecchi e quindi obsoleti. Le informazioni più aggiornate sono discusse nel [forum di FreeCAD](https://forum.freecadweb.org/index.php), nella sezione Development. Per discussioni, consigli o assistenza FEM sull\'estensione dell\'ambiente, il fare riferimento al [subforum FEM](https://forum.freecadweb.org/viewforum.php?f=18).
 
+
+<div class="mw-translate-fuzzy">
+
 I seguenti articoli spiegano come è possibile estendere il workbench, ad esempio aggiungendo nuovi tipi di condizioni (vincoli) o equazioni.
 
 -   [Estendere il modulo FEM](Extend_FEM_Module/it.md)
 -   [Tutorial Aggiungere equazioni FEM](Add_FEM_Equation_Tutorial/it.md)
 -   [Tutorial Aggiungere vincoli FEM](Add_FEM_Constraint_Tutorial/it.md)
+
+
+</div>
 
 Per aiutare gli utenti a comprendere la complessa base di codici di FreeCAD e le interazioni tra gli elementi principali e i singoli ambienti è stata scritta una guida per lo sviluppatore . Il libro è ospitato su github in modo che più utenti possano contribuirvi e tenerlo aggiornato.
 

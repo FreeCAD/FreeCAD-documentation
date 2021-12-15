@@ -16,7 +16,7 @@ Obiekty te niekoniecznie muszą być kształtami geometrycznymi widocznymi w [ok
 ## Praca z widokiem drzewa 
 
 Domyślnie, zawsze gdy tworzony jest nowy obiekt, jest on dodawany na końcu listy w widoku drzewa. Widok drzewa umożliwia zarządzanie obiektami w celu utrzymania ich w zorganizowanym szyku.
-Pozwala na tworzenie [group](Std_Group.md), przesuwanie obiektów wewnątrz grup, przesuwanie grup wewnątrz innych grup, zmianę nazwy obiektów, kopiowanie obiektów, usuwanie obiektów i inne operacje w menu kontekstowym *(kliknięcie prawym przyciskiem myszki)*, które zależą od aktualnie wybranego obiektu i aktualnie aktywnego warsztatu.
+Pozwala na tworzenie [grup](Std_Group/pl.md), przesuwanie obiektów wewnątrz grup, przesuwanie grup wewnątrz innych grup, zmianę nazwy obiektów, kopiowanie obiektów, usuwanie obiektów i inne operacje w menu kontekstowym *(kliknięcie prawym przyciskiem myszki)*, które zależą od aktualnie wybranego obiektu i aktualnie aktywnego warsztatu.
 
 Wiele operacji tworzy obiekty, które są zależne od wcześniej utworzonego obiektu. W tym przypadku widok drzewa pokazuje tę zależność poprzez pochłanianie starszego obiektu wewnątrz nowego obiektu. Rozwijanie i zwijanie obiektów w widoku drzewa pokazuje parametryczną historię tego obiektu. Obiekty głębiej położone wewnątrz innych są starsze, natomiast obiekty znajdujące się na zewnątrz są nowsze i pochodzą od obiektów starszych. Modyfikując obiekty wewnętrzne, operacje parametryczne rozprzestrzeniają się aż do góry, generując nowy wynik.
 
@@ -30,29 +30,40 @@ Wiele operacji tworzy obiekty, które są zależne od wcześniej utworzonego obi
 
 ## Działania
 
+Ponieważ widok drzewa zawiera listę obiektów, które mogą być widoczne w oknie [widoku 3D](3D_view/pl.md), wiele z tych działań jest takich samych jak te, które mogą być wykonane bezpośrednio z okna [widoku 3D](3D_view/pl.md).
 
-**Note:**
+Po uruchomieniu aplikacji domyślnym Środowiskiem pracy jest [Start](Start_Workbench/pl.md) jest aktywny i nie stworzono żadnego dokumentu, a kliknięcie prawym przyciskiem myszy na [widoku drzewa](Tree_view/pl.md) pokazuje jedno podmenu z czterema poleceniami::
 
-wyrażenia i akcje związane z linkami zostały dodane w wersji **0.19**.
+-    **Akcje z wyrażeniami**:
 
-Ponieważ widok drzewa zawiera listę obiektów, które mogą być widoczne w oknie [widoku 3D](3D_view.md), wiele z tych działań jest takich samych jak te, które mogą być wykonane bezpośrednio z okna [widoku 3D](3D_view.md).
+    -   [Kopiuj wybrane](Std_Expressions/pl.md),
+    -   [Kopiuj aktywny element](Std_Expressions/pl.md),
+    -   [Kopiuj wszystkie dokumenty](Std_Expressions/pl.md),
+    -   [Wklej](Std_Paste/pl.md).
 
-Po uruchomieniu aplikacji domyślnym Środowiskiem pracy jest [Start](Start_Workbench.md) jest aktywny i nie stworzono żadnego dokumentu, a kliknięcie prawym przyciskiem myszy na [widoku drzewa](Tree_view.md) pokazuje tylko jedno polecenie:
-
--    **Expression actions**: [Kopiuj wybrane](Std_Expressions.md), [Kopiuj aktywny element](Std_Expressions.md), [Kopiuj wszystkie dokumenty](Std_Expressions.md), Wklej. Umożliwiają one pracę z różnymi dokumentami, ale są wyłączone, jeśli nie ma dokumentu.
+Umożliwiają one pracę z różnymi dokumentami, ale są wyłączone, jeśli nie ma dokumentu.
 
 Po utworzeniu nowego dokumentu aktywne stają się następujące elementy:
 
--    **Expression actions**: [Kopiuj aktywny dokument](Std_Expressions.md), [Kopiuj wszystkie dokumenty](Std_Expressions.md).
+-    **Akcje z wyrażeniami**:
+
+    -   [Kopiuj aktywny dokument](Std_Expressions.md),
+    -   [Kopiuj wszystkie dokumenty](Std_Expressions.md).
 
 Ponadto dostępne są dodatkowe akcje [Link](Std_LinkMake.md).
 
--    **Link actions**: [Utwórz link](Std_LinkMake.md).
+-    **Akcje z łączami**:
 
     -   
         **Utwórz link grupy**
         
-        : [Grupa podstawowa](Std_LinkMakeGroup.md), [Grupa linków](Std_LinkMakeGroup.md), [Grupa linków umożliwiających modyfikację](Std_LinkMakeGroup.md).
+        :
+
+        -   [Grupa podstawowa](Std_LinkMakeGroup/pl.md),
+        -   [Grupa linków](Std_LinkMakeGroup/pl.md),
+        -   [Grupa linków umożliwiających modyfikację](Std_LinkMakeGroup/pl.md),
+
+    -   [Utwórz link](Std_LinkMake/pl.md)
 
 ### Wybór dokumentu 
 
@@ -62,7 +73,7 @@ Jeśli wybierzesz aktywny dokument i klikniesz prawym przyciskiem myszy, oprócz
 
 -    **Znajdź**: Wyświetli pole do wprowadzania nazwy obiektu, do znalezienia wewnątrz wybranego dokumentu.
 
--    **Zamknij dokument**: zamyka wybrany dokument, wywołując funkcję `closeDocument()`.
+-    **Zamknij dokument**: zamyka wybrany dokument.
 
 -    **Pomiń ponowne obliczenia**: Jeśli opcja jest aktywna, obiekty dokumentu nie będą automatycznie [przeliczane](Std_Refresh.md).
 
@@ -73,54 +84,82 @@ Jeśli wybierzesz aktywny dokument i klikniesz prawym przyciskiem myszy, oprócz
 
 -    **Zaznacz do przeliczenia**: zaznacza wszystkie obiekty dokumentu jako zmodyfikowane i gotowe do [przeliczenia](Std_Refresh.md).
 
--    **_ w wybranym dokumencie, przy użyciu następujących funkcji `addObject()`.
+-    **_ w wybranym dokumencie.
 
 ### Zaznaczanie obiektów 
 
-Gdy do dokumentu zostaną dodane nowe obiekty, kliknięcie prawym przyciskiem myszy na pustej części widoku drzewa spowoduje wyświetlenie dodatkowych poleceń na liście dostępnych działań.
-Ich dostępność zależy od typu obiektu i aktywnego środowiska roboczego.
+Po dodaniu obiektów do dokumentu kliknięcie na nich prawym przyciskiem myszki powoduje wyświetlenie dodatkowych poleceń. Zależą one od liczby wybranych obiektów, ich typu, a także od aktywnego obszaru roboczego. W większości przypadków i w większości środowisk pracy *(z wyjątkiem [Start](Start_Workbench/pl.md))* dostępne są wtedy następujące polecenia:
 
-Na przykład, gdy aktywne jest Środowisko pracy [Draft](Draft_Workbench.md), najpierw wybierz obiekt, a następnie kliknij prawym przyciskiem myszy na puste miejsce w widoku drzewa:
+-    **[Wygląd zewnętrzny](Std_SetAppearance/pl.md)**: uruchamia okno dialogowe do zmiany właściwości wizualnych całego obiektu.
+
+-    **[Nadaj kolor losowo](Std_RandomColor/pl.md)**: przypisuje kolor losowo do obiektu.
+
+-    **[Wytnij](Std_Cut/pl.md)**: wyłączone.
+
+-    **[Kopiuj](Std_Copy/pl.md)**: kopiuje obiekt do pamięci.
+
+-    **[Wklej](Std_Paste/pl.md)**: wkleja skopiowany obiekt do dokumentu; kopia jest dodawana na ostatniej pozycji widoku drzewa.
+
+-    **[Usuń](Std_Delete/pl.md)**: usuwa obiekt z dokumentu.
+
+-    **Ukryj element**: jeżeli jest aktywny, wybrany obiekt zostanie ustawiony jako ukryty.
+
+-    **Dodaj do wyboru obiekty zależne**: wszystkie obiekty zależne zostaną dodane do zaznaczenia. W ten sposób można zobaczyć zależności i np. usunąć wszystkie obiekty zależne za jednym razem. Opcja ta jest dostępna tylko wtedy, gdy jeden z wybranych obiektów posiada powiązania. {{Version/pl|0.20}}
+
+-    **Zaznacz do przeliczenia**: zaznacza wybrany obiekt jako \"dotknięty\" i gotowy do [przeliczenia](Std_Refresh/pl.md).
+
+-    **Przelicz obiekt**: oblicza ponownie wybrany obiekt.
+
+-    **Zmień nazwę**: rozpoczyna edycję etykiety wybranego obiektu, a nie nazwy, która jest tylko do odczytu. Opcja ta jest dostępna tylko wtedy, gdy wybrany jest pojedynczy obiekt.
+
+Jako przykład rozszerzenia menu kontekstowego, jeśli [sześcian](Part_Box/pl.md) jest kliknięty prawym przyciskiem myszy, gdy aktywne jest środowisko pracy [Część](Part_Workbench/pl.md), dostępne są następujące dodatkowe polecenia:
+
+-    **[Edytuj](Std_Edit/pl.md)**: uruchamia tryb edycji obiektu.
+
+-    **[Transform](Std_TransformManip/pl.md)**: uruchamia widżet transformacji, aby przesunąć lub obrócić obiekt.
+
+-    **[Edytor dołączenia](Part_EditAttachment/pl.md)**: uruchamia okno dialogowe dołączenia obiektu do jednego lub więcej innych obiektów.
+
+-    **[Ustaw kolory ...](Part_FaceColors/pl.md)**: ustawia kolor wybranych powierzchni obiektu.
 
 -    **_.
 
--    **[Pokaż zaznaczone](Std_ShowSelection.md)**: sprawia, że wybrane obiekty są widoczne.
+-    **[Pokaż zaznaczone](Std_ShowSelection/pl.md)**: czyni zaznaczony obiekt widocznym.
 
--    **[Ukryj zaznaczone](Std_HideSelection.md)**:sprawia, że wybrane obiekty są niewidoczne.
+-    **[Ukryj zaznaczone](Std_HideSelection/pl.md)**: czyni zaznaczony obiekt niewidocznym.
 
--    **_. Ponowne użycie tego polecenia, anuluje jego efekt działania. Ustawia atrybuty obiektu `Selectable` na wartość `True` lub `False`. Zmień właściwości przez przełączanie wartości obiektu {{PropertyView/pl|Selectable}} w [edytorze właściwości](Property_editor/pl.md).
+-    **_.
 
 -    **[Wybierz wszystkie wystąpienia](Std_TreeSelectAllInstances.md)**: zaznacza wszystkie wystąpienia tego obiektu w widoku drzewa.
 
--    **[Wygląd](Std_SetAppearance.md)**: uruchamia okno dialogowe w celu zmiany koloru i rozmiaru linii i wierzchołków oraz koloru ścian.
+-    **_ odwołującą się do obiektu.
 
--    **_.
+### Operacje na klawiaturze 
 
--    **[Wytnij](Std_Cut.md)**: Opcja jest niedostępna, jeśli kliknięcie prawym przyciskiem myszy nie następuje na obiekcie.
+Gdy użytkownik jest skupiony na widoku drzewa, dostępne są następujące operacje klawiaturowe:
 
--    **[Kopiuj](Std_Copy.md)**: Kopiuje obiekt do pamięci komputera.
+-    **Ctrl**\+**F**: otwiera okno wyszukiwania na dole drzewa, umożliwiając wyszukiwanie i docieranie do obiektów za pomocą ich nazw lub etykiet.
 
--    **[Wklej](Std_Paste.md)**: Wkleja skopiowany obiekt do dokumentu; kopia jest dodawana do widoku drzewa na ostatniej pozycji.
+-   Rozwijanie i zwijanie za pomocą kombinacji klawiszy **Alt**+**Arrow**: {{WVersion/pl|0.20}}
+    -   
+        **Alt**
+        
+        \+**Lewy**: zwija zaznaczony element *(lub elementy)*.
 
--    **[Usuń](Std_Delete.md)**: usuwa obiekt z dokumentu, a także z widoku drzewa, wywołując obiekt `removeObject()`.
+    -   
+        **Alt**
+        
+        \+**Prawo**: rozwija zaznaczony element *(elementy)*.
 
--    **Utilities**: **(optional)** Dodatkowe polecenia kontekstowe dostarczane przez Środowisko pracy [Draft](Draft_Workbench/pl.md).
+    -   
+        **Alt**
+        
+        \+**Up**: rozwija zaznaczony element*(y)*, zwijając wszystkie jego elementy podrzędne z poziomu pierwszego *(głębsze elementy podrzędne pozostają bez zmian)*.
 
-Gdy obiekt zostanie wybrany, na przykład, [Draft Linia](Draft_Line/pl.md), i kolejnie wykonamy na nim kliknięcie prawym przyciskiem myszy, mogą być dostępne dodatkowe polecenia:
-
--    **Transform**: uruchamia widżet transformacji, aby przesunąć lub obrócić obiekt.
-
--    **Ustaw kolor**: określa kolory obiektu.
-
--    **Spłaszcz ścieżkę**: **(Draft)** polecenie specjalne dla [Draft Linia](Draft_Line/pl.md).
-
--    **ukryj**: jeśli opcja jest aktywna, wybrany obiekt zostanie ustawiony jako ukryty.
-
--    **Zaznacz do przeliczenia**: zaznacza wszystkie obiekty dokumentu jako zmodyfikowane i gotowe do [przeliczenia](Std_Refresh.md).
-
--    **Przelicz**: Przelicza aktywny obiekt.
-
--    **Zmień nazwę**: rozpoczyna edycję nazwy zaznaczonego obiektu. Pozwala to na zmianę nazwy atrybutu `Etykieta`, ale nie w odniesieniu do atrybutu `Name`, jako że ten ostatni jest tylko do odczytu.
+    -   
+        **Alt**
+        
+        \+**Down**: rozwija zaznaczony element *(elementy)* wraz z rozwijając elementy podrzędne z pierwszego poziomu *(głębsze elementy podrzędne pozostają bez zmian)*.
 
 ## Ikonki dodatków 
 

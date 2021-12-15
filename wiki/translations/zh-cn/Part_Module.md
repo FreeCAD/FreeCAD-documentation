@@ -197,16 +197,7 @@ These tools perform boolean operations.
     -   <img alt="" src=images/Part_ExplodeCompound.svg  style="width:32px;"> [Explode Compound](Part_ExplodeCompound.md): Splits up compounds.
     -   <img alt="" src=images/Part_Compound‏‎Filter.svg  style="width:32px;"> [Compound Filter](Part_Compound‏‎Filter.md): Extracts the individual pieces from compounds.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Part_Booleans.png  style="width:32px;"> [Booleans](Part_Booleans.md): 在对象上执行布尔运算
--   <img alt="" src=images/Part_Union.png  style="width:32px;"> [Union](Part_Union.md): 将两个对象融为一体 (并集)
--   <img alt="" src=images/Part_Common.png  style="width:32px;"> [Common](Part_Common.md): 提取出两个对象中的共有部分(交集)
--   <img alt="" src=images/Part_Cut.png  style="width:32px;"> [Cut](Part_Cut.md): 从一个对象中去掉另一个对象(差集)
-
-
-</div>
+-   <img alt="" src=images/Part_Boolean.svg  style="width:32px;"> [Boolean](Part_Boolean.md): 在对象上执行布尔运算
 
 -   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Cut](Part_Cut.md): Cuts (subtracts) one object from another.
 
@@ -254,16 +245,7 @@ These tools perform boolean operations.
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Part_ImportCAD.png  style="width:32px;"> [Import CAD](Part_ImportCAD.md): 您可利用此工具为当前文档添加\*.IGES、\*.STEP、\*.BREP文档。
--   <img alt="" src=images/Part_ExportCAD.png  style="width:32px;"> [Export CAD](Part_ExportCAD.md): 您可利用此工具将一个零件对象导出至一个\*.IGES、\*.STEP、\*.BREP文件。
--   <img alt="" src=images/Part_ShapeFromMesh.png  style="width:32px;"> [Shape from Mesh](Part_ShapeFromMesh.md): 根据一个网格对象创建一个几何形状对象。
--   [Convert to solid](Part_ConvertToSolid.md): 将一个几何形状对象转换为一个实体对象。
--   [Reverse shapes](Part_ReverseShapes.md): 调转选中对象所有表面上的法线方向。
--   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Create simple copy](Part_CreateSimpleCopy.md): 为选中的对象创建一个简单的副本。
--   <img alt="" src=images/Part_RefineShape.png  style="width:32px;"> [Refine shape](Part_RefineShape.md): 通过去除不必要的线条来清理表面。
--   <img alt="" src=images/Part_CheckGeometry.png  style="width:32px;"> [Check geometry](Part_CheckGeometry.md): 检测选中对象的几何体是否存在错误。
--   [Measure](Std_Measure_Menu.md): 令用户可以实现点/边/面间的线性测量与角度测量。
--   <img alt="" src=images/Part_Attachment.svg  style="width:32px;"> [Attachment](Part_Attachment.md): 本工具的功能为令一个对象附着于另一对象之上。
+-   <img alt="" src=images/Part_Import.svg  style="width:32px;"> [Import](Part_Import/zh-cn.md): 您可利用此工具为当前文档添加\*.IGES、\*.STEP、\*.BREP文档。
 
 
 </div>
@@ -301,7 +283,7 @@ These tools perform boolean operations.
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Preference \...](Import_Export_Preference.md) 导入 导出
+-   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Preference \...](Import_Export_Preferences.md) 导入 导出
 
 
 </div>

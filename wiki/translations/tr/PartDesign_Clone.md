@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/tr
-   Name:Klon oluştur
+   Name:PartDesign Clone
+   Name/tr:Klon oluştur
    Workbenches:[Parça tasarım](PartDesign_Workbench/tr.md)
    MenuLocation:Parça tasarım → Klon oluştur
    Version:0.17

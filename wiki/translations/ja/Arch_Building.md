@@ -1,6 +1,13 @@
-# Arch Building/ja
 ---
-- GuiCommand:/jp   Name:Std_Edit   MenuLocation:Edit -> Toggle Editmode   Workbenches:All   SeeAlso:...---
+- GuiCommand:/ja
+   Name:Std_Edit
+   Name/ja:Std_Edit
+   MenuLocation:Edit -> Toggle Editmode
+   Workbenches:All
+   SeeAlso:
+---
+
+# Arch Building/ja
 
 
 </div>

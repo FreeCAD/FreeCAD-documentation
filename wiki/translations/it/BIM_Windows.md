@@ -17,11 +17,6 @@ La finestra di dialogo Gestione finestre BIM consente di sfogliare e modificare 
 
 ## Utilizzo
 
-
-{{BIM Tools navi
-
-}}
-
 _
 
 ---

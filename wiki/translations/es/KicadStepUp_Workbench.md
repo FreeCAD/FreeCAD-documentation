@@ -21,7 +21,13 @@ KicadStepUp ambiente de trabajo tiene como objetivo ayudar a los usuarios de KiC
 
 ## Fondo
 
+
+<div class="mw-translate-fuzzy">
+
 Kicad ([website](https://kicad-pcb.org/)) es una suite de automatización del diseño electrónico de código abierto. Permite diseñar un circuito eléctrico y crear una placa de circuito de una o varias capas utilizando una amplia biblioteca de piezas. Lo mejor es que el uso de FreeCAD y KicadStepUp ambiente de trabajo es la forma oficial de Kicad para crear piezas 3D de componentes eléctricos para Kicad. Las bibliotecas están alojadas [aquí](https://kicad.github.io/), por lo que todo el mundo puede crear y comprobar las piezas.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -31,9 +37,15 @@ La filosofía de la interfaz gráfica de KiCAD es un poco diferente en comparaci
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Si uno no conoce todavía [Kicad](https://kicad-pcb.org/), se recomienda completar un PCB autónomo de acuerdo con la [Guía de inicio](https://docs.kicad-pcb.org/5.1/en/getting_started_in_kicad/getting_started_in_kicad.pdf) para entender los conceptos involucrados. Aunque algunos temas como la adición de nuevos esquemas y huellas (Inglés:footprints) a una biblioteca local parecen ser de poco interés para el principiante, en la práctica se encuentran rápidamente después de comenzar un proyecto serio.
 
 Para todos estos conceptos [Kicad](https://kicad-pcb.org/) se puede encontrar una función de algún tipo en el ambiente de trabajo KicadStepUp. Por lo tanto, conocer estos conceptos hace que sea mucho más fácil de entender cómo utilizar este ambiente de trabajo.
+
+
+</div>
 
 ## Características
 
@@ -53,7 +65,13 @@ Para todos estos conceptos [Kicad](https://kicad-pcb.org/) se puede encontrar un
 
 ## Instalación
 
+
+<div class="mw-translate-fuzzy">
+
 KicadStepUp es parte de los _ que viene incluido con FreeCAD 0.17, en el menú **Herramientas → Gestor de complementos**.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

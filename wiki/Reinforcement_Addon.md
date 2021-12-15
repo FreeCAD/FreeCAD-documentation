@@ -3,7 +3,7 @@
 
 The [Reinforcement Addon](Reinforcement_Addon.md) augments the [Arch Workbench](Arch_Workbench.md) by providing new interfaces and presets for the creation of common rebar types for use with [Arch Structures](Arch_Structure.md).
 
-The tools can be installed with the [Addon Manager](Addon_Manager.md) via the menu **Tools → Addon manager → Reinforcement**. FreeCAD needs to be restarted for the new tools to appear under the **<img src="images/Arch_Rebar.svg" width=16px> [Arch Rebar](Arch_Rebar.md)** button.
+The tools can be installed with the [Addon Manager](Std_AddonMgr.md) via the menu **Tools → Addon manager → Reinforcement**. FreeCAD needs to be restarted for the new tools to appear under the **<img src="images/Arch_Rebar.svg" width=16px> [Arch Rebar](Arch_Rebar.md)** button.
 
 This addon was developed during the [Google Summer of Code](Google_Summer_of_Code.md) 2017, and is hosted in the [FreeCAD-Reinforcement](https://github.com/amrit3701/FreeCAD-Reinforcement) Github repository, which is separate from the main FreeCAD repository.
 

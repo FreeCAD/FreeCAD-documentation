@@ -19,11 +19,8 @@ Pour une vis sans fin à démarrage unique, chaque tour complet (360 degrés) de
 
 Une vis sans fin ne peut être utilisée qu\'avec une roue à vis sans fin. C\'est ce qu\'on appelle un entraînement par vis sans fin. Comme d\'autres systèmes de transmission, un entraînement à vis sans fin peut réduire la vitesse de rotation ou transmettre un couple plus élevé. L\'un des principaux avantages des engrenages à vis sans fin est qu\'ils peuvent transmettre un mouvement à 90 degrés. Un entraînement à vis sans fin est également autobloquant.
 
-:   ![](images/Worm-Gear_example.png )
-:   
-    
+![](images/Worm-Gear_example.png ) 
 *Engrenage à vis sans fin (nombre de dents 3)*
-    
 
 ## Utilisation
 
@@ -102,11 +99,8 @@ Les limitations ne sont pas encore connues.
 
 La roue à vis sans fin doit être conçue manuellement. À cet effet, **FCGear InvoluteGear** peut être utilisé pour une construction simple. Dans tous les cas, une connaissance approfondie des types d\'engrenages est requise.
 
-:   ![](images/Worm-Gear_example3.png )
-:   
-    
+![](images/Worm-Gear_example3.png ) 
 *Vis sans fin avec roue à vis sans fin*
-    
 
 
 

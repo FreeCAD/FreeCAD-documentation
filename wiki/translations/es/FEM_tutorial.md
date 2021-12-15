@@ -92,7 +92,7 @@ Ahora tenemos un modelo con el que se puede trabajar.
 ##### Netgen 
 
 1.  Seleccione el modelo
-2.  Clic en <img alt="" src=images/FEM_Analysis.png  style="width:32px;"> [Nuevo Análisis Mecánico](Fem_Analysis/es.md) desde el menú para crear un análisis con el objeto seleccionado
+2.  Clic en <img alt="" src=images/FEM_Analysis.png  style="width:32px;"> [Nuevo Análisis Mecánico](FEM_Analysis/es.md) desde el menú para crear un análisis con el objeto seleccionado
 3.  En el diálogo de mallado, dé clic en **OK**
 
 
@@ -153,7 +153,7 @@ Hemos establecido las restricciones y fuerzas para nuestro estudio estático.
 
 #### Preparaciones finales 
 
-1.  Seleccione <img alt="" src=images/FEM_Material.png  style="width:32px;"> [Material Mecánico\...](Fem_MechanicalMaterial/es.md) y seleccione Calculix como el material
+1.  Seleccione <img alt="" src=images/FEM_Material.png  style="width:32px;"> [Material Mecánico\...](FEM_MaterialSolid/es.md) y seleccione Calculix como el material
 2.  Clic **OK**
 
 

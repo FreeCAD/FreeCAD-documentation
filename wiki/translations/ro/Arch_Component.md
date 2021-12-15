@@ -53,7 +53,7 @@ Obiectul componentă Arch este, de asemenea, o bază partajată de toate celelal
 
 <div class="mw-translate-fuzzy">
 
--   **Forma de bază**: Componentele Arc sunt întotdeauna bazate pe un obiect de bază bazat pe [ Formă](Module.md). Unele tipuri de obiecte Arch vor utiliza doar forma de bază așa cum este, altele (de exemplu[Wall](Arch_Wall.md)) vor face unele operații suplimentare, cum ar fi o extrudare. Pentru unele tipuri, având un obiect de bază nu este obligatoriu ([ Structure](Arch_Structure.md))
+-   **Forma de bază**: Componentele Arc sunt întotdeauna bazate pe un obiect de bază bazat pe [Formă](Part_Workbench.md). Unele tipuri de obiecte Arch vor utiliza doar forma de bază așa cum este, altele (de exemplu[Wall](Arch_Wall.md)) vor face unele operații suplimentare, cum ar fi o extrudare. Pentru unele tipuri, având un obiect de bază nu este obligatoriu ([ Structure](Arch_Structure.md))
 
 
 </div>
@@ -69,7 +69,7 @@ Obiectul componentă Arch este, de asemenea, o bază partajată de toate celelal
 
 <div class="mw-translate-fuzzy">
 
--   \'\'\' Subtractions \'\'\': Componentele arhitecturale au o proprietate de substracție/scădere, care poate deține referință la orice număr de obiecte bazate pe [ Formă](Module.md). Forma acestor obiecte va fi scăzută din forma de bază a componentei, pentru a produce forma finală.
+-   \'\'\' Subtractions \'\'\': Componentele arhitecturale au o proprietate de substracție/scădere, care poate deține referință la orice număr de obiecte bazate pe [Formă](Part_Workbench.md). Forma acestor obiecte va fi scăzută din forma de bază a componentei, pentru a produce forma finală.
 
 
 </div>

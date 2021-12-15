@@ -5,8 +5,6 @@ Esta página presenta una selección de video tutoriales hechos por usuarios y d
 
 Visite _.
 
-Visite [tutoriales externos](offsite_tutorials/es.md) para ver las listas de tutoriales alojados en sitios externos.
-
 Si desea contribuir con la redacción de documentación y tutoriales del wiki, consulte [Ayuda FreeCAD](Help_FreeCAD/es.md), las directrices generales del wiki en [WikiPages](WikiPages.md), y siga las [pautas para el tutorial](tutorial_guidelines/es.md).
 
 ## Diseño de productos 
@@ -58,7 +56,7 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 ## Otros
 
--   _ that can be installed from the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md).
+-   _ that can be installed from the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
 
 -   [FreeCAD Tutorials - GENERAL](https://www.youtube.com/watch?v=WdBQPXeAeMc&list=PLKu--JcOZKTPZjy761ELQ7ba45yZmxOpj) by AllVisuals4U: FreeCAD 0.16, a series of 28 short videos on general aspects of FreeCAD; for example, it shows how to change units, background color, the splash screen, constraints, set perspective view, set transparency, change the size of toolbar icons, prepare for 3D print, and extrude text. Some more advanced instructions include how to do logo design, metal bending, and assembly. Most videos describe FreeCAD 0.16, but since they don\'t focus on modelling aspects, the information is generally applicable for other versions.
 

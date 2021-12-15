@@ -2,9 +2,10 @@
 ---
 - GuiCommand:/de
    Name:Part_XOR
+   Name/de:Part_XOR
    MenuLocation:Part → Split → Boolean Xor
    Workbenches:[Part](Part_Workbench/de.md)
-   SeeAlso:[Part Boolean Fragments](Part_BooleanFragments.md), [Part Slice](Part_Slice.md), [Join features](Part_CompJoinFeatures.md), [Part Booleans](Part_Booleans.md)---
+   SeeAlso:[Part Boolean Fragments](Part_BooleanFragments.md), [Part Slice](Part_Slice.md), [Join features](Part_CompJoinFeatures.md), [Part Boolean](Part_Boolean.md)---
 
 
 </div>

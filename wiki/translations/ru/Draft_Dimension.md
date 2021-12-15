@@ -51,9 +51,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 ## Использование
 
 1.  Нажмите кнопку **<img src="images/Draft_Dimension.png" width=16px> [[Draft Dimension]]** или нажмите {{KEY | D}}, затем клавиши {{KEY | I}}
-2.  Нажмите точку на трехмерном изображении или введите [coordinate](Draft_Coordinates.md)
-3.  Нажмите вторую точку на трехмерном представлении или введите [coordinate](Draft_Coordinates.md)
-4.  Нажмите третью кнопку на трехмерном представлении или введите [coordinate](Draft_Coordinates.md)
+2.  Нажмите точку на трехмерном изображении или введите coordinate
+3.  Нажмите вторую точку на трехмерном представлении или введите coordinate
+4.  Нажмите третью кнопку на трехмерном представлении или введите coordinate
 
 
 </div>
@@ -84,7 +84,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 2.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
 3.  Hold down the **Alt** key, select two straight edges in the [3D view](3D_view.md) and release the **Alt** key.
 4.  To position the dimension arc pick a point in the [3D view](3D_view.md).
-5.  Depending on the edges and the picked point the displayed angle will be the acute (sharp) or obtuse (blunt) angle between the edges, or the angle of one of the edges with the horizontal. In some cases you may have to first add auxiliary geometry ([Draft Lines](Draft_Line.md) for example) to get a particular angle.
+5.  The displayed angle depends on the edges and the picked point.
 
 ### Options
 
@@ -261,7 +261,7 @@ dimension = make_dimension(object, i1, mode, p4=None)
 <div class="mw-translate-fuzzy">
 
 -   Создает объект Dimension с размерной линией, проходящей через p3.
--   Объект Dimension принимает значение [ Черновая линия ширины и цвет](Черновик_Linestyle.md), заданное в командной строке.
+-   Объект Dimension принимает значение [Черновая линия ширины и цвет](Draft_Tray.md), заданное в командной строке.
 -   Существует несколько способов создания измерения, в зависимости от аргументов, которые вы передаете ему:
 
 1.  (p1, p2, p3): создает стандартный размер от p1 до p2.

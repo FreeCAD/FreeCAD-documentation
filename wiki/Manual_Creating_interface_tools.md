@@ -33,7 +33,7 @@ Let\'s start by creating the widget. Start Qt Creator, then menu **File → New 
 
 ![](images/Exercise_python_08.jpg )
 
--   Now place 3 **Double Spin Box** widgets next to our Length, Width and Height labels. For each of them, in the lower right panel, which shows all the available settings for the selected widget, locate **Suffix** and set their suffix to **mm**. FreeCAD has a more advanced widget, that can handle different units, but that is not available in Qt Creator by default (but can be [compiled](Compile_on_Linux/Unix#Qt_designer_plugin.md)), so for now we will use a standard Double Spin Box, and we add the \"mm\" suffix to make sure the user knows in which units they work:
+-   Now place 3 **Double Spin Box** widgets next to our Length, Width and Height labels. For each of them, in the lower right panel, which shows all the available settings for the selected widget, locate **Suffix** and set their suffix to **mm**. FreeCAD has a more advanced widget, that can handle different units, but that is not available in Qt Creator by default (but can be [compiled](Compile_on_Linux#Qt_designer_plugin.md)), so for now we will use a standard Double Spin Box, and we add the \"mm\" suffix to make sure the user knows in which units they work:
 
 ![](images/Exercise_python_09.jpg )
 

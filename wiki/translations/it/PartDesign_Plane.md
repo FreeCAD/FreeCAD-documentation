@@ -33,7 +33,7 @@ A partire da FreeCAD 0.18 un piano di riferimento può essere creato solo all\'i
 <div class="mw-translate-fuzzy">
 
 1.  Premere il pulsante **<img src="images/PartDesign_Plane.svg" width=24px> '''Crea un piano di riferimento'''**.
-2.  Definire i parametri del piano. Selezionare un primo riferimento nella vista 3D per filtrare le modalità di [associazione](Part_Attachment/it.md) disponibili.
+2.  Definire i parametri del piano. Selezionare un primo riferimento nella vista 3D per filtrare le modalità di [associazione](Part_EditAttachment/it.md) disponibili.
 3.  A seconda del riferimento selezionato, nell\'elenco possono essere disponibili una o più modalità di associazione. La più probabile è automaticamente selezionata e mostrata in grassetto nell\'elenco. Il testo *Associato in modalità* insieme al nome della modalità do associazione appare in verde nella parte superiore del pannello Parametri.
 4.  Per aggiungere un riferimento aggiuntivo, premere il successivo tasto **Riferimento**. Una volta premuto, l\'etichetta cambia in \"Seleziona \...\" fino a quando viene effettuata una selezione.
 5.  Selezionare una modalità di aassociazione nell\'elenco.
@@ -49,7 +49,7 @@ A partire da FreeCAD 0.18 un piano di riferimento può essere creato solo all\'i
 
 <div class="mw-translate-fuzzy">
 
-Fare doppio clic sull\'etichetta DatumPlane nell\'albero del modello o fare clic con il tasto destro e selezionare **Modifica il riferimento** nel menu contestuale per modificarne i parametri. Per ulteriori dettagli sulla modalità e l\'offset di associazione, vedere [Associazione](Part_Attachment/it.md).
+Fare doppio clic sull\'etichetta DatumPlane nell\'albero del modello o fare clic con il tasto destro e selezionare **Modifica il riferimento** nel menu contestuale per modificarne i parametri. Per ulteriori dettagli sulla modalità e l\'offset di associazione, vedere [Associazione](Part_EditAttachment/it.md).
 
 
 </div>

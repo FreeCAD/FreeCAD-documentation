@@ -7,9 +7,15 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Acest instrument creează o nouă operație 3D de suprafață. O operație 3D Surface utilizează întreaga suprafață superioară a modelului 3D pentru a genera codul G pentru lucrare.
 
-The **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)** operation is also capable of generating basic rotational 3D surfacing paths. The rotational capabilities are limited to the entire model, and do not allow for specific faces or regions to be isolated. The rotational paths are also limited to line cut patterns.
+
+</div>
+
+The **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** operation is also capable of generating basic rotational 3D surfacing paths. The rotational capabilities are limited to the entire model, and do not allow for specific faces or regions to be isolated. The rotational paths are also limited to line cut patterns.
 
 The 3D Surface Tool interfaces to OCL.pyd, a 3rd party Open Source module titled OpenCamLib, that generates tool paths from a 3D Model. OpenCamLib is not integrated directly into FreeCAD to ensure their license is not violated. It requires that [Experimental Features](Path_experimental.md) are enabled.
 
@@ -21,15 +27,21 @@ The 3D Surface Tool interfaces to OCL.pyd, a 3rd party Open Source module titled
 
 ## Usage
 
-Usage instructions for multiple variations of the [3D Surface](Path_3DSurface.md) operation are presented here.
+Usage instructions for multiple variations of the [3D Surface](Path_Surface.md) operation are presented here.
 
 #### Basic Operation 
 
-1.  Apăsați butonul **<img src="images/Path_3DSurface.png" width=16px> [3D Surface](Path_3DSurface.md)** button.
+
+<div class="mw-translate-fuzzy">
+
+1.  Apăsați butonul **<img src="images/Path_Surface.svg" width=16px> [3D Surface](Path_Surface.md)** button.
 2.  Select the tool controller for the Operation from the Tool controller dialogue pop up window.
 3.  Set the Finish Depth.
 4.  Select between Dropcutter and Waterline for the Tool algorithm.
 5.  Apicați, apoi apăsați OK pentru confirmare.
+
+
+</div>
 
 To achieve different, or more complex, effects, adjust additional operation properties within the Data tab of the Properties View for the operation.
 
@@ -37,7 +49,7 @@ To achieve different, or more complex, effects, adjust additional operation prop
 
 1.  Initiate a [Basic Operation](#Basic_Operation.md) as described above and set the **Scan Type** to **Rotational**.
 2.  **Note:** Face selection is unavailable for Rotational scans, so changes to Base Geometry are ignored.
-3.  Locate the Data tab and Properties View for the new [3D Surface](Path_3DSurface.md) operation. A **Rotation** section should be available with additional properties to adjust, listed below.
+3.  Locate the Data tab and Properties View for the new [3D Surface](Path_Surface.md) operation. A **Rotation** section should be available with additional properties to adjust, listed below.
     It is recommended that you set the desired rotation properties all at once before recomputing. This is done by clicking the ENTER key immediately after changing a property setting. This process will allow you to change and save multiple properties before recomputing the operation.
 4.  Adjust the following settings as needed:
     -   Set **Cutter Tilt** to the offset index(angle) \[0-90\]. (Used for ball mill cutters)
@@ -55,7 +67,7 @@ To achieve different, or more complex, effects, adjust additional operation prop
 -   For time purposes, it is better that you not recompute a rotational scan after every property change; rather, consider one of the following:
     -   use the \' *change all settings with ENTER key* \' technique mentioned in Step 2 above, then **<img src=images/View-refresh.svg style="width:16px"> Recompute** the operation.
     -   deactivate the operation with the **<img src="images/Path_OpActiveToggle.svg" width=16px> [Active](Path_OpActiveToggle.md)** toggle tool, make your changes to the operation\'s properties, then click the **<img src="images/Path_OpActiveToggle.svg" width=16px> [Active](Path_OpActiveToggle.md)** icon again to re-activate the operation - which triggers a recompute internally.
--   The **<img src="images/Path_3DSurface.svg" width=16px> [3D Surface](Path_3DSurface.md)** operation is still considered an *experimental feature* as of 2019-06-25. As such, it may contain a few bugs yet to be clearly identified. Please report bugs and issues in the [FreeCAD Path/CAM Forum](https://forum.freecadweb.org/viewforum.php?f=15).
+-   The **<img src="images/Path_Surface.svg" width=16px> [3D Surface](Path_Surface.md)** operation is still considered an *experimental feature* as of 2019-06-25. As such, it may contain a few bugs yet to be clearly identified. Please report bugs and issues in the [FreeCAD Path/CAM Forum](https://forum.freecadweb.org/viewforum.php?f=15).
 -   The built in **<img src="images/Path_Simulator.svg" width=16px> [CAM Simulator](Path_Simulator.md)** does NOT support 4th-axis simulation. You will need to use a third party simulator to inspect or verify paths visually. See the [Resources](#Resources.md) section below for suggestions.
 -   You will likely see red rotational lines around your model in the viewport. This is normal in FreeCAD for the time being.
 
@@ -67,12 +79,12 @@ Excessively long processing times (longer than 10 minutes) can occur when proces
 Check how much memory is available while the scan is running using a tool such as the Windows **Task Manager, Memory tab**. If more than 90% of memory is consistently being used then a small **Linear Deflection** parameter could be generating a mesh that is too large for the available memory.
 To confirm this \...
 
-1.  Create a new **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)** operation.
+1.  Create a new **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** operation.
 2.  Switch to the Model tab and increase the **Linear Deflection** value. For example change from 2.5um to 20um
 3.  Switch back to the Tasks tab to complete setting up the operation.
 4.  Click **OK** button to confirm and generate paths.
 
-To make this value the default for all new **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)** operations, change the **GeometryTolerance** parameter.
+To make this value the default for all new **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** operations, change the **GeometryTolerance** parameter.
 **Tools → Edit Parameters ... → Preferences → Mod → Path → GeometryTolerance **.
 Note as of version 0.19 the **Linear Deflection** default = GeometryTolerance / 4
 

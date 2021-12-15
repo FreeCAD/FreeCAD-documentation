@@ -15,7 +15,7 @@ Zobacz stronę [Część: Kształt topologiczny](Part_TopoShape/pl.md) aby uzysk
 
 ## Użycie
 
-Kształty są zwykle tworzone przez wewnętrzne funkcje środowiska pracy [Część](Part_Part_Workbench/pl.md), i są ostatecznie definiowane przez kernel *(OCCT)* w technologii [OpenCASCADE](OpenCASCADE/pl.md).
+Kształty są zwykle tworzone przez wewnętrzne funkcje środowiska pracy [Część](Part_Workbench/pl.md), i są ostatecznie definiowane przez kernel *(OCCT)* w technologii [OpenCASCADE](OpenCASCADE/pl.md).
 
 Raz utworzony Kształt może być używany i modyfikowany przez wszystkie [środowiska pracy](Workbenches/pl.md) poprzez [obiekty tworzone skryptami](Scripted_objects/pl.md) wokół tego Kształtu.
 

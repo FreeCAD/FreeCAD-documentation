@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Image CreateImagePlane
-   Name/fr:Image Créer une image plane
-   MenuLocation:Barres d'outils → Créer une image plane dans l'espace 3D
+   Name/fr:Image Créer un plan d'image
+   MenuLocation:
    Workbenches:[Image](Image_Workbench/fr.md)
    SeeAlso:[Image Ouvrir une image](Image_Open/fr.md), [Image Redimensionner une image](Image_Scaling/fr.md)
 ---
@@ -11,11 +11,11 @@
 
 ## Description
 
-L\'outil [Créer une image plane](Image_CreateImagePlane/fr.md) importe une image [bitmap](bitmap/fr.md) et la place sur l\'un des plans XY, YZ ou XZ.
+L\'outil [Créer un plan d\'image](Image_CreateImagePlane/fr.md) importe une image [bitmap](bitmap/fr.md) et la place sur l\'un des plans XY, YZ ou XZ.
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src="images/Image_CreateImagePlane.svg" width=16px> [Créer une image plane dans l'espace 3D](Image_CreateImagePlane/fr.md)**.
+1.  Appuyez sur le bouton **<img src="images/Image_CreateImagePlane.svg" width=16px> [Créer un plan d'image](Image_CreateImagePlane/fr.md)**.
 2.  Sélectionnez l\'image souhaitée dans votre système.
 3.  Choisissez le plan dans lequel l\'image sera placée, indiquez une valeur de décalage puis appuyez sur **OK**.
 
@@ -28,7 +28,7 @@ Si aucun décalage n\'est initialement attribué à l\'image, sa position peut t
 ## Propriétés
 
 
-{{Properties Title|Base}}
+{{Properties_Title|Base}}
 
 -    **Position**: spécifie les coordonnées du point de base du plan image.
 

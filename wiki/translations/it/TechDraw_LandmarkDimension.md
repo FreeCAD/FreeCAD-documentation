@@ -5,7 +5,7 @@
    Icon:Techdraw-landmarkdistance.svg
    MenuLocation:TechDraw → Quota da punti di riferimento
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Dimensione orizzontale](TechDraw_Dimension_Horizontal/it.md), [Dimensione verticale](TechDraw_Dimension_Vertical/it.md)
+   SeeAlso:[Dimensione orizzontale](TechDraw_HorizontalDimension/it.md), [Dimensione verticale](TechDraw_VerticalDimension/it.md)
    Version:0.19
 ---
 
@@ -24,12 +24,12 @@ Lo strumento Quota da punti di riferimento aggiunge una quota lineare a una vist
 
 </div>
 
-Lo scopo di questo strumento è fornire una soluzione alternativa alla corruzione della dimensione causata dai problemi di \" \"[denominazione topologica](topological_naming_problem/it.md)\"\". I punti sorgente dovrebbero usare [Espressioni](Expressions/it.md) o altri meccanismi di contenimento per stabilire la loro posizione. Poiché i punti sono [Oggetti documento](Document_Objects/it.md) e non modellano i componenti, il loro nome non cambia con i ricalcoli e quindi sono facilmente reperibili.
+Lo scopo di questo strumento è fornire una soluzione alternativa alla corruzione della dimensione causata dai problemi di \" \"[denominazione topologica](topological_naming_problem/it.md)\"\". I punti sorgente dovrebbero usare [Espressioni](Expressions/it.md) o altri meccanismi di contenimento per stabilire la loro posizione. Poiché i punti sono [Oggetti documento](App_DocumentObject/it.md) e non modellano i componenti, il loro nome non cambia con i ricalcoli e quindi sono facilmente reperibili.
 
 
 <div class="mw-translate-fuzzy">
 
-Vedere le sezioni Limitazione e soluzioni di [Lunghezza](TechDraw_Dimension_Length/it.md) per ulteriori informazioni su dimensioni e denominazione topologica.
+Vedere le sezioni Limitazione e soluzioni di [Lunghezza](TechDraw_LengthDimension/it.md) per ulteriori informazioni su dimensioni e denominazione topologica.
 
 
 </div>
@@ -49,7 +49,7 @@ La quota da punti di riferimento generalmente si comporta come qualsiasi altra q
 
 1.  Selezionare 2 oggetti Punto nella [vista ad albero](tree_view/it.md) o nella [Vista 3D](3D_view/it.md).
 2.  Selezionare anche la vista a cui aggiungere la dimensione.
-3.  Premere il pulsante **<img src="images/Techdraw-landmarkdistance.svg" width=20px> [Quota da punti di riferimento](TechDraw_Dimension_Landmark/it.md)** o usare **TechDraw → Dimensioni → Quota da punti di riferimento**.
+3.  Premere il pulsante **<img src="images/TechDraw_LandmarkDimension.svg" width=16px> [Quota da punti di riferimento](TechDraw_LandmarkDimension/it.md)** o usare **TechDraw → Dimensioni → Quota da punti di riferimento**.
 4.  Alla vista viene aggiunta una dimensione. Il testo della quota può essere trascinato nella posizione desiderata.
 
 

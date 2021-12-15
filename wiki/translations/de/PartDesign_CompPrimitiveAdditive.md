@@ -6,7 +6,6 @@
    Workbenches:[PartDesign](PartDesign_Workbench.md)
    Version:0.17
    Shortcut:
-   Version:
    SeeAlso:[PartDesign Abzuziehender Grundkörper](PartDesign_CompPrimitiveSubtractive.md)
 ---
 

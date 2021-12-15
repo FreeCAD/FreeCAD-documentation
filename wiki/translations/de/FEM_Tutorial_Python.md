@@ -13,7 +13,7 @@
 
 ## Einführung
 
-Dieses Tutorium soll zeigen, wie eine einfache Finite Element Analyse (**FEA**) in FreeCAD <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM Arbeitsbereich](FEM-Modul/de.md) mit Python erstellt wird. Das Modell aus dem [FEM CalculiX Freiträger 3D](FEM_CalculiX_Cantilever_3D/de.md) Tutorium wird für dieses Beispiel verwendet.
+Dieses Tutorium soll zeigen, wie eine einfache Finite Element Analyse (**FEA**) in FreeCAD <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [FEM Arbeitsbereich](FEM_Workbench/de.md) mit Python erstellt wird. Das Modell aus dem [FEM CalculiX Freiträger 3D](FEM_CalculiX_Cantilever_3D/de.md) Tutorium wird für dieses Beispiel verwendet.
 
 
 </div>

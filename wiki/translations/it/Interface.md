@@ -72,10 +72,16 @@ Per attivare e disattivare la barra di stato utilizzare il menu **Visualizza →
 
 ### Altro
 
+
+<div class="mw-translate-fuzzy">
+
 Altre interfacce e finestre utili includono:
 
 -   _. Per utenti esperti e sviluppatori, può essere utile per risolvere le operazioni che manipolano direttamente la scena e gli oggetti creati nella [Vista 3D](3D_view/it.md).
--   _. È utile per riconoscere i problemi nella creazione di oggetti, come le dipendenze circolari, che potrebbero non essere del tutto evidenti dalla [vista ad albero](tree_view/it.md) o dalla [vista DAG](DAG_view/it.md).
+-   _ o dalla [vista DAG](DAG_view/it.md).
+
+
+</div>
 
 ### Personalizzazione
 

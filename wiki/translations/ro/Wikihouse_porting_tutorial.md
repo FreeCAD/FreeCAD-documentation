@@ -129,7 +129,13 @@ After a while, all our Microhouse section is done.
 
 ![](images/Arch_Wikihouse_01.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 We can now easily create the cut sheets, which are DXF files that will be sent to the shop that will cut the actual panels. The easiest way to do this is to select everything in your document with Ctrl+A, and then use the [Arch Panel Cut](Arch_Panel_Cut.md) tool. This will produce one Panel Cut object for each Panel object found in the selection. By moving them apart, we get a clear view of all our pieces:
+
+
+</div>
 
 ![](images/Arch_Wikihouse_02.jpg )
 

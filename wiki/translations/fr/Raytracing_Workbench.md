@@ -1,5 +1,5 @@
 # Raytracing Workbench/fr
-**L'atelier Raytracing est essentiellement obsolète. Un nouveau développement est en cours dans le [https://github.com/FreeCAD/FreeCAD-render atelier Render] qui est destiné à le remplacer. Cet atelier est entièrement programmé en Python, il est donc beaucoup plus facile à étendre.
+**L'atelier Raytracing est quasiment obsolète. De nouveaux développements sont en cours avec l'[https://github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. Cet atelier est entièrement programmé en Python et il est donc beaucoup plus facile de le faire évoluer.
 
 Néanmoins, les informations de cette page sont généralement utiles pour le nouvel atelier, car les deux modules fonctionnent essentiellement de la même manière.
 **
@@ -17,22 +17,16 @@ L\'atelier Raytracing fonctionne avec des [modèles](Raytracing_templates/fr.md)
 
 Actuellement, deux moteurs de rendu sont pris en charge : [POV-Ray](POV-Ray/fr.md) et [LuxRender](LuxRender/fr.md). Pour être en mesure d\'interpréter directement à partir de FreeCAD, au moins un de ces moteurs de rendu doit être installé sur votre système, et son chemin doit être configuré dans les préférences FreeCAD Raytracing. Cependant, sans aucun moteur de rendu installé, vous êtes toujours en mesure d\'exporter un fichier de scène qui peut être utilisé plus tard, dans n\'importe quel moteur de rendu, ou sur une autre machine.
 
-L\'atelier Raytracing est essentiellement obsolète. Un nouveau développement est en cours dans le [Render Workbench](https://github.com/FreeCAD/FreeCAD-render), qui est destiné à le remplacer. Ce plan de travail est entièrement programmé en Python, il est donc beaucoup plus facile à étendre que le plan de travail actuel qui est programmé en C ++. Néanmoins, les informations de cette page sont généralement utiles pour le nouveau plan de travail, car les deux modules fonctionnent essentiellement de la même manière.
+L\'atelier Raytracing est quasiment obsolète. De nouveaux développements sont en cours avec l\'[atelier Render](https://github.com/FreeCAD/FreeCAD-render), qui est destiné à le remplacer. Cet atelier est entièrement programmé en Python et il est donc beaucoup plus facile de le faire évoluer que l\'actuel qui est programmé en C ++. Néanmoins, les informations de cette page sont généralement utiles pour le nouvel atelier car les deux modules fonctionnent essentiellement de la même manière.
 
 <img alt="" src=images/Raytracing_example.jpg  style="width:1024px;">
 
+## Déroulement typique du travail 
 
-<div class="mw-translate-fuzzy">
-
-## Flux de travail classique 
-
-1.  Créez ou ouvrez un projet dans FreeCAD, ajouter quelques objets solides [Part](Part_Workbench/fr.md) ou [PartDesign](PartDesign_Workbench.md); le maillage n\'est actuellement pas pris en charge.
+1.  Créez ou ouvrez un projet dans FreeCAD, ajouter quelques objets solides [Part](Part_Workbench/fr.md) ou [PartDesign](PartDesign_Workbench/fr.md); le maillage n\'est actuellement pas pris en charge.
 2.  Créez un projet de Raytracing (povray ou luxrender)
 3.  Sélectionnez les objets que vous souhaitez ajouter au projet Raytracing et ajoutez-les au projet avec l\'outil \"Insert Part\"
 4.  Exportez le fichier projet ou créer le rendu directement
-
-
-</div>
 
 <img alt="" src=images/Raytracing_Workbench_workflow.svg  style="width:600px;">
 
@@ -46,12 +40,12 @@ L\'atelier Raytracing est essentiellement obsolète. Un nouveau développement e
 
 Ce sont les principaux outils d'exportation de votre travail 3D vers des rendus externes.
 
--   <img alt="" src=images/Raytrace_New.svg  style="width:32px;"> [Nouveau projet PovRay](Raytracing_New/fr.md): Insérer un nouveau projet PovRay dans le document
--   <img alt="" src=images/Raytrace_Lux.svg  style="width:32px;"> [Nouveau projet LuxRender](Raytracing_Lux/fr.md): Insérer un nouveau projet LuxRender dans le document
--   <img alt="" src=images/Raytrace_NewPartSegment.svg  style="width:32px;"> [Insérer une vue](Raytracing_InsertPart/fr.md): Insérer une vue d\'une pièce dans un projet de lancer de rayons
--   <img alt="" src=images/Raytrace_ResetCamera.svg  style="width:32px;"> [Reset caméra](Raytracing_ResetCamera/fr.md): Fait correspondre la position de la caméra d\'un projet de lancer de rayons à la vue actuelle
--   <img alt="" src=images/Raytrace_ExportProject.svg  style="width:32px;"> [Exporte un projet](Raytracing_ExportProject/fr.md): Exporte un projet de lancer de rayons dans un fichier de scène pour le rendu dans un rendu externe
--   <img alt="" src=images/Raytrace_Render.svg  style="width:32px;"> [Lancer de rayons](Raytracing_Render/fr.md): Rend un projet de lancer de rayons avec un moteur de rendu externe
+-   <img alt="" src=images/Raytracing_New.svg  style="width:32px;"> [Nouveau projet PovRay](Raytracing_New/fr.md): Insérer un nouveau projet PovRay dans le document
+-   <img alt="" src=images/Raytracing_Lux.svg  style="width:32px;"> [Nouveau projet LuxRender](Raytracing_Lux/fr.md): Insérer un nouveau projet LuxRender dans le document
+-   <img alt="" src=images/Raytracing_InsertPart.svg  style="width:32px;"> [Insérer une vue](Raytracing_InsertPart/fr.md): Insérer une vue d\'une pièce dans un projet de lancer de rayons
+-   <img alt="" src=images/Raytracing_ResetCamera.svg  style="width:32px;"> [Reset caméra](Raytracing_ResetCamera/fr.md): Fait correspondre la position de la caméra d\'un projet de lancer de rayons à la vue actuelle
+-   <img alt="" src=images/Raytracing_ExportProject.svg  style="width:32px;"> [Exporte un projet](Raytracing_ExportProject/fr.md): Exporte un projet de lancer de rayons dans un fichier de scène pour le rendu dans un rendu externe
+-   <img alt="" src=images/Raytracing_Render.svg  style="width:32px;"> [Lancer de rayons](Raytracing_Render/fr.md): Rend un projet de lancer de rayons avec un moteur de rendu externe
 
 ### Utilitaires
 

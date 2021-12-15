@@ -61,7 +61,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 2.  
     {{Button | <img src="images/_Draft_Rotate.svg_" width= 16px> [Döndür](Draft_Rotate/tr.md)}}düğmesine basın veya {{KEY | R}} ardından {{KEY | O}} tuşlarına basın. Hiçbir nesne seçilmezse, birini seçmeye davet edilirsiniz.
 
-3.  3D görünümde bir ilk noktaya tıklayın veya bir [ koordinat](Draft_Coordinates/tr.md) yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [ Nokta ekle](Draft_AddPoint_.md)}} düğmesine basın. Bu, işlemin dönme ekseninin geçeceği temel noktası olarak işlev görür.
+3.  3D görünümde bir ilk noktaya tıklayın veya bir koordinat yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} düğmesine basın. Bu, işlemin dönme ekseninin geçeceği temel noktası olarak işlev görür.
 
 4.  3D görünümünde ikinci bir noktaya tıklayın veya taban açısını yazın. Bu, ilk nokta etrafında dönecek bir taban çizgisini tanımlar.
 
@@ -78,7 +78,7 @@ The single character keyboard shortcuts and the modifier key mentioned here can 
 <div class="mw-translate-fuzzy">
 
 -   Verilen eksendeki bir sonraki noktayı sınırlamak için bir noktadan sonra **X**, **Y** veya **Z** tuşlarına basın.
--   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında **Enter** tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda **<img src="images/_Draft_AddPoint.svg" width=16px> [add point](Draft_AddPoint/tr.md)** düğmesine basabilirsiniz.
+-   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında **Enter** tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda **<img src="images/_Draft_AddPoint.svg" width=16px> add point** düğmesine basabilirsiniz.
 -   **Devam**moduna geçmek için **T** tuşuna basın veya onay kutusunu tıklayın. Devam modu açıksa, işlemi tamamladıktan sonra Döndürme aracı yeniden başlatılır ve böylece araç düğmesine tekrar basmadan nesneleri döndürmenizi veya kopyalamanızı sağlar.
 -   **Kopyalama**moduna geçmek için **P** tuşuna basın veya onay kutusunu tıklayın. Kopyalama modu açıksa, Döndürme aracı orijinal şeklini yerinde tutacaktır, ancak üçüncü noktada ayarlanan açıyla bir kopya oluşturur. : Sırayla birkaç kopya yerleştirmek için hem **T** hem de **P** kullanabilirsiniz. Bu durumda, kopyalanan öğe en son yerleştirilen kopyadır.
 -   Kopyalama moduna geçmek için ikinci noktadan sonra **Alt** tuşunu basılı tutun. Üçüncü noktaya tıkladıktan sonra **Alt** tuşunu basılı tutmak, aynı döndürme temel noktasını ve taban çizgisini kullanarak kopya yerleştirmeye devam etmenizi sağlar; İşlemi bitirmek ve tüm kopyaları görmek için **Alt** tuşunu bırakın.

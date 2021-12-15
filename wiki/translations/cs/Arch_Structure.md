@@ -107,6 +107,8 @@ Structural objects also have the ability to display structural nodes. Structural
     -   Make the node of this object and another one coincident
     -   Toggle the display of all nodes of all structural objects of the document on/off
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 

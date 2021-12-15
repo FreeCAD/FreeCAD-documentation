@@ -5,73 +5,56 @@
    MenuLocation:SheetMetal → Make Relief
    Workbenches:[Blech (SheetMetal)](SheetMetal_Workbench/de.md)
    Shortcut:**S** **R**
+   SeeAlso:[SheetMetal Stoß hinzufügen](SheetMetal_AddJunction/de.md), [SheetMetal Biegung hinzufügen](SheetMetal_AddBend/de.md)
 ---
 
 # SheetMetal AddRelief/de
 
-
-</div>
-
 ## Beschreibung
 
+Der Befehl <img alt="" src=images/SheetMetal_Relief.svg  style="width:16px;"> [Entlastungsausschnitt hinzufügen](SheetMetal_AddRelief/de.md) erzeugt Eckentlastungen, Ausschnitte an den Eckpunkten, an denen sich drei Abschnitte (Grundplatte/Kanten/Falze) eines SheetMetal-Objekts treffen. Ohne diese Entlastungen wäre das Objekt nicht abwickelbar.
 
-<div class="mw-translate-fuzzy">
+Dieser Befehl ist der erste von drei Schritten, um ein Schalenobjekt, das mit dem Arbeitsbereich [Part](Part_Workbench/de.md) oder [PartDesign](PartDesign_Workbench/de.md) erzeugt wurde, in ein abwickelbares SheetMetal-Objekt umzuwandeln:
 
-Der Befehl <img alt="" src=images/SheetMetal_Relief.svg  style="width:24px;"> **Entlastungsausschnitt hinzufügen**\...
+1.  [SheetMetal Entlastungsausschnitt hizufügen](SheetMetal_AddRelief/de.md)
+2.  [SheetMetal Stoß hinzufügen](SheetMetal_AddJunction/de.md)
+3.  [SheetMetal Biegung hinzufügen](SheetMetal_AddBend/de.md)
 
-
-</div>
-
-This command is the first of three steps to convert a shell object made with the [Part Workbench](Part_Workbench.md) or [PartDesign Workbench](PartDesign_Workbench.md) into an unfoldable sheet metal object:
-
-1.  [SheetMetal AddRelief](SheetMetal_AddRelief.md)
-2.  [SheetMetal AddJunction](SheetMetal_AddJunction.md)
-3.  [SheetMetal AddBend](SheetMetal_AddBend.md)
-
-<img alt="" src=images/SheetMetal_ConvertShellObject-01.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-02.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-03.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-04.png  style="width:100px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Entlastungsausschnitt für eine Blechabkantung erzeugen*
-
-
-</div>
+<img alt="" src=images/SheetMetal_ConvertShellObject-01.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-02.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-03.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-04.png  style="width:100px;"> 
+*Entlastungsausschnitt hinzufügen - Ecken abschneiden*
 
 ## Anwendung
 
-1.  Select one or more corner vertex(es).
-2.  Activate the <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **SheetMetal AddRelief** command using one of the following:
-    -   The **<img src="images/SheetMetal_AddRelief.svg" width=16px> [SheetMetal AddRelief](SheetMetal_AddRelief.md)** button.
-    -   The **SheetMetal → <img src="images/SheetMetal_AddRelief.svg" width=16px> Make Relief** menu option.
-    -   The keyboard shortcut: **S** then **R**
+1.  Einen oder mehrere Eckpunkte auswählen.
+2.  Den Befehl <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> [Entlastungsausschnitt hinzufügen](SheetMetal_AddRelief/de.md) aktivieren durch:
+    -   Die Schaltfläche **<img src="images/SheetMetal_AddRelief.svg" width=16px> [Entlastungsausschnitt hinzufügen](SheetMetal_AddRelief/de.md)**.
+    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_AddRelief.svg" width=16px> Entlastungsausschnitt hinzufügen**.
+    -   Das Tastenkürzel: **S** dann **R**.
 
 <img alt="" src=images/SheetMetal_ConvertShellObject-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-06.png  style="width:200px;">
 
-## Notes
+## Hinweise
 
-The commands <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **_**, and <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[SheetMetal AddBend](SheetMetal_AddBend.md)** work best with hollow cuboids i.e. shell objects with a constant thickness and only 90° angles between faces.
+Die Befehle <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **_** und <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[Biegung hinzufügen](SheetMetal_AddBend.md)** funktionieren am besten mit hohlen Quadern, d.h. Schalenobjekten mit einer konstanten Wandstärke und nur 90° Winkeln zwischen den Flächen.
 
-Shell objects can be created with commands from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _.
+Schalenobjekte können mit Befehlen der Arbeitsbereiche <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ erstellt werden.
 
-To create a hollow cuboid with the [Part Workbench](Part_Workbench.md):
+Zum Erstellen eines hohlen Quaders mit dem Arbeitsbereich [Part](Part_Workbench/de.md):
 
-1.  Create a solid using either:
-    -   <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Part Box](Part_Box.md).
-    -   <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> [Part Extrude](Part_Extrude.md) from:
-        -   A <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [Draft Rectangle](Draft_Rectangle.md).
-        -   A <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Draft Wire](Draft_Wire.md).
-        -   A <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Sketch](Sketcher_NewSketch.md).
-2.  Use <img alt="" src=images/Part_Thickness.svg  style="width:16px;"> [Part Thickness](Part_Thickness.md) to create a shell object from the solid (Typically with the thickness value of the sheet metal).
+1.  Einen Festkörper erstellen durch
+    -   Anwendung des Befehls <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Part Würfel (Box)](Part_Box/de.md)
+    -   Verwendung des Befehls <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> [Part Extrudieren\...](Part_Extrude/de.md) mit
+        -   einem <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [Draft Rechteck](Draft_Rectangle/de.md).
+        -   einem <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Draft Linienzug](Draft_Wire/de.md).
+        -   einer <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Skizze](Sketcher_NewSketch/de.md).
+2.  Den Befehl <img alt="" src=images/Part_Thickness.svg  style="width:16px;"> [Part Dicke\...](Part_Thickness.md) verwenden, um aus dem Festkörper ein Schalenobjekt zu erzeugen (typischerweise mit einer Wandstärke, die der Blechstärke entspricht).
 
-To create a hollow cuboid with the [PartDesign Workbench](PartDesign_Workbench.md):
+Zum Erstellen eines hohlen Quaders mit dem Arbeitsbereich [PartDesign](PartDesign_Workbench/de.md):
 
-1.  Create a solid using either:
-    -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> [Additive Box](PartDesign_AdditiveBox.md).
+1.  Einen Festkörper erstellen durch
+    -   Anwendung des Befehls <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> [Zu addierender Quader](PartDesign_AdditiveBox/de.md).
     -   <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> _.
-2.  Use <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> [PartDesign Thickness](PartDesign_Thickness.md) to create a shell object from the solid (Typically with the thickness value of the sheet metal).
+2.  Den Befehl <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> [PartDesign Dicke](PartDesign_Thickness/de.md) verwenden, um aus dem Festkörper ein Schalenobjekt zu erzeugen (typischerweise mit einer Wandstärke, die der Blechstärke entspricht).
 
 ## Eigenschaften
 

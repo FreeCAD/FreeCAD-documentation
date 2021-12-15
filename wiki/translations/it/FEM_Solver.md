@@ -84,7 +84,7 @@ Per CfdOF: [Computational Fluid Dynamics (CFD) workbench using OpenFOAM](https:/
 
 <div class="mw-translate-fuzzy">
 
-Entrambi gli ambienti possono essere installati tramite [Addon manager](AddonManager/it.md), ed entrambi hanno un posto per la discussione nel subforum [CfdOF / CFD](https://forum.freecadweb.org/viewforum.php?f=37).
+Entrambi gli ambienti possono essere installati tramite [Addon manager](Std_AddonMgr/it.md), ed entrambi hanno un posto per la discussione nel subforum [CfdOF / CFD](https://forum.freecadweb.org/viewforum.php?f=37).
 
 
 </div>
@@ -98,7 +98,7 @@ DesignSPHysics è un ambiente esterno integrato in FreeCAD che fornisce un\'inte
 
 <div class="mw-translate-fuzzy">
 
-DesignSPHysics può essere installato tramite [Addon manager](AddonManager/it.md).
+DesignSPHysics può essere installato tramite [Addon manager](Std_AddonMgr/it.md).
 
 
 </div>
@@ -114,7 +114,7 @@ Vedere: [ElectroMagnetic Workbench](https://forum.freecadweb.org/viewtopic.php?f
 
 <div class="mw-translate-fuzzy">
 
-L\'ambiente EM può essere installato tramite [Addon manager](AddonManager/it.md).
+L\'ambiente EM può essere installato tramite [Addon manager](Std_AddonMgr/it.md).
 
 
 </div>

@@ -1,23 +1,23 @@
 # Macro Wiki Object Properties List Generator Basic Version/en
 {{Macro
 |Name=Wiki List Generator of Object Properties
-|Description=This macro generate properties list of selected object. List presented in wiki format into python report view window.
+|Description=This macro generate properties list of selected object. List presented in wiki format into Python report view.
 |Author=Evgeniy
 |Date=2021-09
 |Version=0.1
-|SeeAlso=
+|SeeAlso=[Macro Wiki Object Properties List Generator](Macro_Wiki_Object_Properties_List_Generator.md)
 }}
 
 ## Description
 
-This simple macro generate properties list of selected object. The parameters list is printed to the \"view Report\" panel of FreeCAD. This example is more educational in nature and is not applicable for use without editing after generate, since it includes absolutely all the parameters of the object. The lists of properties that are published in this wiki contain, as a rule, only unique parameters. The parameters inherited from the parents objects are not published.
+This simple macro generate properties list of selected object. The parameters list is printed to the [Report view](Report_view.md) of FreeCAD. This example is more educational in nature and is not applicable for use without editing after generate, since it includes absolutely all the parameters of the object. The lists of properties that are published in this wiki contain, as a rule, only unique parameters. The parameters inherited from the parents objects are not published.
 
 ## How To Use 
 
 -   Preparing:
-    -   Copy code of Macro from this page and place it new \*.FCMacro file.
-    -   Save FCMacro file. And place it to FreeCAD Macros folder.
-    -   Disable **Include a time code for each entry** checkbox in Preferences -\> General -\> Output window (Tab).
+    -   Copy code of Macro from this page and place it in a new \*.FCMacro file.
+    -   Save FCMacro file, and place it in the FreeCAD Macros folder.
+    -   Disable **Include a timecode for each entry** checkbox in Preferences -\> General -\> Output window (Tab).
 -   First using:
     -   Select (or create and select) object the type of you need in tree view.
     -   Select Macro -\> Macros\... item in main menu.

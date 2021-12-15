@@ -1,6 +1,7 @@
 # Macro CenterFace/cs
 {{Macro/cs
 |Name=Macro CenterFace
+|Icon=CenterFace.png
 |Translate=Macro CenterFace
 |Description=This macro red trace (editable) the center face (mass) with 1 point and print the coordinates.
 |Author=Mario52

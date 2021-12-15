@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Part Quader
+   Name:Part Box
+   Name/de:Part Quader
    MenuLocation:Formteil → Grundkörper → Würfel 
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Grundkörper](Part_Primitives/de.md)

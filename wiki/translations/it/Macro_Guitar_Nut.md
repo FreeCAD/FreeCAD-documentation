@@ -27,8 +27,14 @@ Il diametro di ogni stringa è configurabile e gli slot possono essere resi una 
 
 ## Utilizzo
 
-1.  Scarica la macro dal [Addon Manager](Addon_Manager/it.md)
+
+<div class="mw-translate-fuzzy">
+
+1.  Scarica la macro dal [Addon Manager](Std_AddonMgr/it.md)
 2.  Eseguire la macro
+
+
+</div>
 
 ## Limitativo
 

@@ -1,42 +1,43 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std Workbench
+   Name/pl:Std Środowiska pracy
    Empty:1
-   MenuLocation:View → Workbench
-   Workbenches:[Workbenches](Workbenches.md)
+   MenuLocation:Widok → Środowiska pracy
+   Workbenches:[Środowiska pracy](Workbenches/pl.md)
 ---
 
 # Std Workbench/pl
 
-## Description
+## Opis
 
-The **Std Workbench** command activates a selected [workbench](Workbenches.md) including its graphical user interface (GUI).
+Polecenie **Środowiska pracy** aktywuje wybrane [Środowisko pracy](Workbenches/pl.md) wraz z jego graficznym interfejsem użytkownika *(GUI)*.
 
 <img alt="" src=images/FreeCAD_interface_base_divisions.svg  style="width:800px;"> 
-*The Workbench dropdown list indicated by number 10 in the standard [interface](interface.md)*
+*Menu rozwijane dla środowisk pracy oznaczone numerem '''10''' w standardowym [interfejsie](interface/pl.md).*
 
-## Usage
+## Użycie
 
-1.  There are several ways to invoke the command:
-    -   Select a workbench from the **Workbench dropdown list** in the Workbench toolbar. This option is not available if the current workbench is `<none>` (no workbench).
-    -   Select a workbench from the **View → Workbench** sub-menu.
+1.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Wybierz środowisko pracy z **rozwijanej listy środowisk pracy** na pasku narzędziowym środowiska. Opcja ta nie jest dostępna, jeśli bieżącym środowiskiem roboczym jest `<none>`. (brak środowiska pracy).
+    -   Wybierz środowisko pracy z menu podrzędnego **Widok → Środowiska pracy**.
 
-## Notes
+## Uwagi
 
--   Additional _.
+-   Dodatkowe _.
 
-## Preferences
+## Ustawienia
 
--   The start up workbench can be changed in the preferences: **Edit → Preferences... → General → General → Start up**. See [Preferences Editor](Preferences_Editor#General.md).
+-   Rozruchowy warsztat pracy można zmienić w preferencjach: **Edycja → Preferenceje → Ogólne → Ogólne → Uruchamianie**. Zobacz też [Edytor ustawień](Preferences_Editor/pl#Informacje_og.C3.B3lne.md).
 
-## Scripting
+## Tworzenie skryptów 
 
 
-**See also:**
+**Zobacz również:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[FreeCAD podstawy tworzenia skryptów](FreeCAD_Scripting_Basics/pl.md).
 
-To change the worbench use the `activateWorkbench` method of the FreeCADGui module. This method is not available if FreeCAD is in console mode.
+Aby zmienić środowisko pracy należy użyć metody `activateWorkbench` modułu FreeCADGui. Metoda ta nie jest dostępna, jeśli FreeCAD jest uruchomiony w trybie konsoli.
 
 
 ```python

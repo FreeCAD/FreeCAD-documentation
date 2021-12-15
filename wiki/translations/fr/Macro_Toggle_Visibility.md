@@ -1,29 +1,30 @@
 # Macro Toggle Visibility/fr
 {{Macro/fr
-|Icon=Macro SelectVisible.png
 |Name=Toggle Visibility
-|Description=Flip/Flop Cache/Affiche tous les objets qui ne sont pas sélectionnés.
+|Icon=Macro SelectVisible.png
+|Description=Bascule caché/affiché tous les objets non sélectionnés.<br />Les objets qui sont sélectionnés dans un document sont rendus visibles tandis que les objets qui ne sont pas sélectionnés sont rendus invisibles.<br />Si aucun objet n'est sélectionné alors tous les objets sont cachés.<br />Si tous les objets sont sélectionnés alors tous les objets sont rendus visibles.
 |Author=Mario52
 |Version=00.02
 |Date=2015-11-12
-|SeeAlso=[Macro_Toggle_Visibility2](Macro_Toggle_Visibility2/fr.md)<br />[Macro VisibleAlls](Macro_VisibleAlls/fr.md)<br />[Macro HiddenAlls](Macro_HiddenAlls/fr.md)<br />[Macro If Selected Stay If Not Then Delete](Macro_If_Selected_Stay_If_Not_Then_Delete/fr.md)
+|FCVersion=Toutes
+|Download=[https://www.freecadweb.org/wiki/images/4/42/Macro_SelectVisible.png Icône de la barre d'outils]
+|SeeAlso=[Macro Toggle Visibility2 1-2](Macro_Toggle_Visibility2_1-2/fr.md)<br>[Macro Toggle Visibility2 2-2](Macro_Toggle_Visibility2_2-2/fr.md)<br>[Macro VisibleAlls](Macro_VisibleAlls/fr.md)<br>[Macro HiddenAlls](Macro_HiddenAlls/fr.md)<br>[Macro If Selected Stay If Not Then Delete](Macro_If_Selected_Stay_If_Not_Then_Delete/fr.md)
 }}
 
 ## Description
 
-Ceci est un ensemble de quatre macros liées à la gestion de la visibilité des objets dans la vue 3D :
+Les objets qui sont sélectionnés dans un document sont rendus visibles tandis que les objets qui ne sont pas sélectionnés sont rendus invisibles.
 
-1.  Cache les objets qui ne sont pas sélectionnés
-    -   s\'il n\'y a pas d\'objet sélectionné tous les objets seront cachés
-    -   si les objets sont cachés et qu\'aucun objet n\'est sélectionné dans la Vue combinée tous les objets seront visibles.
+-   si aucun objet n\'est sélectionné, tous les objets sont cachés.
+-   si tous les objets sont sélectionnés, tous les objets deviennent visibles.
 
 ## Utilisation
 
-Copiez la macro et l\'icône dans votre répertoire de macros (voir [Comment installer une Macro](How_to_install_macros/fr.md)).
+Copiez la macro et l\'icône dans votre répertoire de macros (voir [Comment installer une macro](How_to_install_macros/fr.md)).
 
-## ToggleVisibility
+## Basculer la visibilité 
 
-En utilisant la sélection d\'objets dans l\'une des vues FreeCAD, cette macro rend tous les objets sélectionnés visibles et masque tous les objets non sélectionnés..
+En utilisant la sélection d\'objets dans l\'une des vues FreeCAD, cette macro rend tous les objets sélectionnés visibles et masque tous les objets non sélectionnés.
 
 Si aucun objet n\'est sélectionné tous les objets seront cachés.
 

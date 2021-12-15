@@ -1,5 +1,5 @@
 # Engine Block Tutorial/fr
-} {{TutorialInfo/fr
+{{TutorialInfo/fr
 |Topic=  Atelier Part
 |Level=  Débutant
 |Time=   1 heure

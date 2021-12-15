@@ -12,9 +12,10 @@
 ## Description
 
 Cet outil permet de créer un profil 2D d\'une roue d\'engrenage à développante. Ce profil 2D est pleinement paramétrique et peut être extrudé avec la fonction [PartDesign Protrusion](PartDesign_Pad/fr.md).
+
 Pour des informations plus détaillées, voir également [Engrenage](https://fr.wikipedia.org/wiki/Engrenage) et [Involute Gear](https://en.wikipedia.org/wiki/Involute_gear)
 
-![](images/PartDesign_Involute_Gear_01.png ) 
+![](images/PartDesign_Involute_Gear_01.png )
 
 ## Utilisation
 
@@ -29,11 +30,15 @@ Pour des informations plus détaillées, voir également [Engrenage](https://fr.
 
 -   Module : diamètre de pas divisé par le nombre de dents.
 
--   Angle de pression : angle aigu entre la ligne d\'action et une normale à la ligne reliant les centres d\'engrenage. La valeur par défaut est de 20 degrés. ([plus d\'info](http://fr.wikipedia.org/wiki/Roue_dent%C3%A9e))
+-   Angle de pression : angle aigu entre la ligne d\'action et une normale à la ligne reliant les centres d\'engrenage. La valeur par défaut est de 20 degrés. ([plus d\'info](https://fr.wikipedia.org/wiki/Roue_dent%C3%A9e))
 
 -   Haute précision : vrai ou faux
 
 -   Engrenages externes : vrai ou faux
+
+## Tutoriels
+
+[How to make gears in FreeCAD](https://www.youtube.com/watch?v=8VNhTrnFMfE)
 
 ## En relation 
 

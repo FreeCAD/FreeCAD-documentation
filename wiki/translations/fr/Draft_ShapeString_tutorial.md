@@ -185,7 +185,7 @@ Voir le fil du forum [How to use ShapeStrings in PartDesign](https://forum.freec
 
 ## Remarques
 
--   pour créer un texte courbé, vous pouvez utiliser la macro <img alt="" src=images/FCCircularTextButtom.png  style="width:32px;"> [Circular Text](Macro_Circular_Text.md).
+-   pour créer un texte courbé, vous pouvez utiliser <img alt="" src=images/FCCircularTextButtom.png  style="width:32px;"> [Macro FCCircularText](Macro_FCCircularText/fr.md).
 -   pour importer du texte depuis Inkscape, regardez l\' [Importation de texte à partir du tutoriel Inkscape](Import_text_and_geometry_from_Inkscape/fr.md).
 
 

@@ -122,7 +122,8 @@ help("print")
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## 变量
 
@@ -201,7 +202,8 @@ print(var2)
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## 数字
 
@@ -375,7 +377,8 @@ myVar = "hello friends"
 myVar
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## 列表
 
@@ -461,7 +464,8 @@ myvar[2]
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## 缩进
 
@@ -637,7 +641,8 @@ else:
     print("Such Dalton doesn't exist!")
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## 函数
 
@@ -703,7 +708,8 @@ myTotal = sum(45, 34)
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## 模块
 
@@ -891,7 +897,8 @@ importlib.reload(myTest)
 exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## 在FreeCAD中使用Python
 
@@ -908,19 +915,24 @@ exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 dir()
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Notes
 
 -   FreeCAD was originally designed to work with Python 2. Since Python 2 reached the end of its life in 2020, future development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.
 -   Much more information about Python can be found in the [official Python tutorial](https://docs.python.org/3/tutorial/index.html) and the [official Python reference](https://docs.python.org/3/reference/).
 
-[top](#top.md)
+
+{{Top}}
+
+
+
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

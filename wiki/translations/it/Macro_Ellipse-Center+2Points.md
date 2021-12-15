@@ -19,7 +19,13 @@ Crea un\'ellisse selezionando tre punti, in questo ordine: centro, raggio maggio
 
 ## Ultima versione 
 
+
+<div class="mw-translate-fuzzy">
+
 L\'ultima versione della macro si trova in _.
+
+
+</div>
 
 ## Script
 

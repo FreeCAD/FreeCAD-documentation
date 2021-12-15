@@ -288,7 +288,7 @@ Wir sollten am Ende eine völlig beschränkte Skizze erhalten. Dies kann bestät
 
 ## Zusätzliche Informationen 
 
-Für eine eingehendere Beschreibung des Skizzierers besuche die [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) Dokumentation und lies auch die [Skizzierer Referenz](Sketcher_Referenz/de.md).
+Für eine eingehendere Beschreibung des Skizzierers besuche die [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) Dokumentation und lies auch die [Skizzierer Referenz](Sketcher_reference/de.md).
 
 Die Beschränkung einer Skizze kann auf viele verschiedene Arten erfolgen. Im Allgemeinen empfiehlt es sich, zuerst geometrische Beschränkungen zu verwenden und die Anzahl der Bezugsbeschränkungen zu minimieren, da dies die Aufgabe des internen Beschränkungslösers vereinfacht. Um dies zu untersuchen, wiederhole dieses Beispiel und füge nun die Abhängigkeiten in anderer Reihenfolge hinzu.
 

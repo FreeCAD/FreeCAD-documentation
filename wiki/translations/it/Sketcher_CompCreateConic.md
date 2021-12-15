@@ -1,16 +1,13 @@
 ---
 - GuiCommand:/it
    Name:Sketcher Conics
-   Name/it:Conica   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
+   Name/it:Conica
+   Workbenches:[Sketcher](Sketcher_Workbench/it.md)
    Icon:Sketcher_CompCreateConic.png
-   MenuLocation:Sketch → Sketcher geometrie → Crea conica...
    MenuLocation:Nessuno (solo sulla barra degli strumenti)
 ---
 
 # Sketcher CompCreateConic/it
-
-
-</div>
 
 ## Descrizione
 

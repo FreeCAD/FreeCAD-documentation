@@ -72,7 +72,7 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [ShapeString](Draft_ShapeString.md): creates a compound shape that represents a text string.
 
--   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the faces of a selected object. <small>(v0.20)</small> 
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the planar faces of a selected object. <small>(v0.20)</small> 
 
 ## Annotation
 
@@ -189,7 +189,7 @@ A barra de ferramentas [Captura](Draft_Snap/pt-br.md) permite selecionar o modo 
 
 -   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Snap Endpoint](Draft_Snap_Endpoint.md): snaps to the endpoints of edges.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of straight and circular edges.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of edges.
 
 -   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ and [Arch BuildingParts](Arch_BuildingPart.md).
 
@@ -252,7 +252,6 @@ The **Draft → Utilities** menu contains several tools. Most of them can also b
 
 -   [Restrições](Draft_Constrain/pt-br.md): limitar o ponteiro a movimentos horizontais ou verticais em relação a um ponto anterior.
 -   [Captura](Draft_Snap/pt-br.md): colocar novos pontos em lugares especiais sobre objetos existentes ou sobre a grade.
--   [Modo de cópia](Draft_Copying/pt-br.md): Todas as ferramentas de modificação podem modificar os objetos selecionados ou criar uma cópia modificada dos mesmos. Pressionar e segurar **Alt** enquanto o objeto está sendo modificado, por exemplo, movido ou girado, cria uma cópia quando a chave é liberada.
 -   [Modo de construção](Draft_ToggleConstructionMode/pt-br.md): Permite criar geometrias separadas das demais, simplesmente ligando e desligando-as.
 -   [Plano de trabalho](Draft_SelectPlane/pt-br.md): permite selecionar uma superfície sobre a qual você pode construir suas formas.
 
@@ -279,9 +278,9 @@ For a [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft Cub
 
 For a [Draft LayerContainer](Draft_Layer.md) these additional options are available:
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> Merge layer duplicates: this option currently does not work.
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Merge layer duplicates](Draft_Layer#Layer_container_options.md): merges all layers with the same base label. This does not work in FreeCAD version 0.19.
 
--   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer.md): adds a new layer to the current document.
+-   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer#Layer_container_options.md): adds a new layer to the current document.
 
 ### Layer options 
 
@@ -313,17 +312,7 @@ If there is an active document the context menu contains one additional sub-menu
 
 Estes comandos são obsoletos, mas ainda estão disponíveis.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Matriz](Draft_Array/pt-br.md): cria uma matriz polar ou retangular a partir de objetos selecionados. {{Obsolete|0.19}}
--   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> _. {{Obsolete|0.17}}
--   <img alt="" src=images/Draft_CloseLine.svg  style="width:32px;"> _ ou [Draft BSpline](Draft_BSpline/pt-br.md), e o fecha. {{Obsolete|0.19}}
--   <img alt="" src=images/Draft_FinishLine.svg  style="width:32px;"> _ ou [Draft BSpline](Draft_BSpline/pt-br.md), sem fechá-lo. {{Obsolete|0.19}}
--   <img alt="" src=images/Draft_UndoLine.svg  style="width:32px;"> _. {{Obsolete|0.19}}
-
-
-</div>
+-   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> _ or a [circular array](Draft_CircularArray.md) by changing its **Array Type** property. {{Obsolete|0.19}}
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> _ page. {{Obsolete|0.17}}
 

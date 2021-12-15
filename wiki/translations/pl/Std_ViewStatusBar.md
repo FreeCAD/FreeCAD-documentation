@@ -1,20 +1,21 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std ViewStatusBar
+   Name/pl:Std: Pasek stanu
    Empty:1
-   MenuLocation:View → Status bar
-   Workbenches:All
+   MenuLocation:Widok → Pasek stanu
+   Workbenches:Wszystkie
 ---
 
 # Std ViewStatusBar/pl
 
-## Description
+## Opis
 
-The **Std ViewStatusBar** command toggles the display of the [Status bar](Status_bar.md).
+Polecenie **Pasek stanu** przełącza wyświetlanie [Paska stanu](Status_bar/pl.md).
 
-## Usage
+## Użycie
 
-1.  Select the **View → Status bar** option from the menu.
+1.  Wybierz z menu opcję **Widok → Pasek stanu**.
 
 
 

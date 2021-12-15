@@ -14,7 +14,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento **Serie polare** prende una funzione selezionata e ne crea una serie di copie ruotate attorno a un asse prescelto. A partire da v0.17, è in grado di replicare più funzioni.
+
+
+</div>
 
 ![](images/PartDesign_PolarPattern_example.png )
 
@@ -104,10 +110,18 @@ or
 
 Durante la creazione di una funzione di serie polare, il dialogo \'Parametri serie polare\' offre modi diversi per specificare l\'asse di rotazione del modello.
 
+#### Normal sketch axis 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Asse normale dello schizzo 
 
 Come asse della serie viene preso un asse essendo perpendicolare al disegno e posto nell\'origine del disegno.
 La direzione della schiera può essere invertita barrando \'direzione inversa\'.
+
+
+</div>
 
 #### Asse orizzontale dello schizzo 
 
@@ -129,17 +143,30 @@ v0.17 e superiore Seleziona uno degli assi standard di Origine del Corpo (X, Y o
 
 Consente di selezionare una linea di riferimento, DatumLine, o un bordo di un oggetto o una linea di uno schizzo da utilizzare per l\'asse.
 
+### Angle and Occurrences 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Angolo e numero di duplicati 
 
-Specifica l\'angolo da coprire con la schiera e il numero totale di forme della schiera (inclusa la forma originale). Per esempio, la combinazione quattro copie in un angolo di 180 gradi produce una spaziatura di 60 gradi tra ogni copia. C\'è una eccezione: quando l\'angolo è di 360 gradi e la prima e l\'ultima copia sono identiche, vengono prodotte quattro copie distanziate 90 gradi. 
+Specifica l\'angolo da coprire con la schiera e il numero totale di forme della schiera (inclusa la forma originale). Per esempio, la combinazione quattro copie in un angolo di 180 gradi produce una spaziatura di 60 gradi tra ogni copia. C\'è una eccezione: quando l\'angolo è di 360 gradi e la prima e l\'ultima copia sono identiche, vengono prodotte quattro copie distanziate 90 gradi.
 
+
+</div>
 
 ## Limitazioni
+
+
+<div class="mw-translate-fuzzy">
 
 -   Per le limitazioni vedere la funzione [Serie lineare](PartDesign_LinearPattern/it#Limitazioni.md).
 
 
 
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

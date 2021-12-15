@@ -33,7 +33,7 @@ L\'outil [Arch Couper suivant une ligne](Arch_CutLine/fr.md) vous permet de coup
 
 **Voir aussi:**
 
-[Arch API](Arch_API.md) et [FreeCAD Script de Base](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
 ---
 [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch CutLine/fr

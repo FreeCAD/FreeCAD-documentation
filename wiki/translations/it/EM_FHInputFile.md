@@ -11,6 +11,9 @@
 
 # EM FHInputFile/it
 
+
+</div>
+
 ## Descrizione
 
 The FHInputFile tool creates the input FastHenry file based on the Document EM workbench objects.
@@ -35,7 +38,9 @@ To create a FastHenry input file:
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The FHInputFile command can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The FHInputFile command can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 node = createFHInputFile(doc=None,filename=None,folder=None)
 ```
@@ -48,12 +53,17 @@ node = createFHInputFile(doc=None,filename=None,folder=None)
 
 -    `folder`is the folder where the file will be stored. If not passed as an argument, the **Folder** property of the FHSolver object contained in the document will be used. If the **Folder** string in the FHSolver object is empty, the function defaults to the user\'s home path (e.g. in Windows \"C:\\Documents and Settings\\username\\My Documents\", in Linux \"/home/username\")
 
-Example: 
+Example:
+
+
 ```python
 import FreeCAD, EM
 
 fhsolver = EM.createFHInputFile()
 ```
+
+
+
 
 
 {{EM Tools navi

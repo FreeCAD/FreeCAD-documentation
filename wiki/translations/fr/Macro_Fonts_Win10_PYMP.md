@@ -1,32 +1,28 @@
 # Macro Fonts Win10 PYMP/fr
-{{Macro
+{{Macro/fr
 |Name=Macro Fonts Win10 PYMP
 |Icon=Macro_Fonts_Win10_PYMP.png
-|Description= Cette petite macro est dédiée aux utilisateurs de Windows 10. Les polices de l’explorateur à utiliser avec ShapeString sont vides et cette petite macro peut vous aider à voir la police à utiliser.
+|Description={{ColoredText|#ff0000|#ffffff|Nouvelle version GUI modifiée pour la HD dpi (QGridLayout) ne fonctionne que sur FC version 0.18 et plus (PySide2 Qt5)}}. <br/> <br/>Pour la version précédente, voir [https://gist.githubusercontent.com/mario52a/e7aa19a9dc8ea28ad4f03944ffc8f731/raw/0f5d54209d6c242b49519c83e96c548b06a8f4c6/Macro_Fonts_Win10_PYMP.FCMacro Macro Fonts Win10 PYMP] et l'installer manuellement. Cette petite macro est dédiée aux utilisateurs de Windows 10. Les polices de l'explorateur pour utiliser la ShapeString est vide et cette petite macro peut vous aider à voir facilement la police à utiliser.
 |Author=Mario52
 |Version=02.00
 |Date=2020-06-06
 |FCVersion=0.18 and more
-|Download=[https://www.freecadweb.org/wiki/images/f/fa/Macro_Fonts_Win10_PYMP.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/f/fa/Macro_Fonts_Win10_PYMP.png Icône de la barre d'outils]
 }}
 
 ## Description
 
 Cette petite macro est dédiée aux utilisateurs de Windows 10. Les polices de l'explorateur à utiliser avec ShapeString sont invisibles et cette petite macro peut vous aider à voir la police à utiliser.
 
-![](images/Macro_Fonts_Win10_PYMP_00.png )
-
-
-
-*Macro Fonts Win10 PYMP*
-
-
-
+![](images/Macro_Fonts_Win10_PYMP_00.png ) 
+*Polices Macro Win10 PYMP*
 
 ## Utilisation
 
-Lancez la macro, sélectionnez la police et appliquez-la. ![Macro Fonts Win10 PYMP](images/Macro_Fonts_Win10_PYMP_01.png )  
-*Macro Fonts Win10 PYMP window *
+Lancez la macro, sélectionnez la police et appliquez-la.
+
+![Macro Fonts Win10 PYMP](images/Macro_Fonts_Win10_PYMP_01.png ) 
+*Polices Macro Win10 PYMP*
 
 -   Fenêtre pour votre texte.
 
@@ -66,33 +62,33 @@ Après le premier lancement, configurer :
     -   
         `True`
         
-        permet le switchFontComBox 1 (default)
+        permet le switchFontComBox 1
 -   **switchFontComBox**
     -   
         `False`
         
-        (et switchModeTextList= `True`) mode texte (en couleur) dans liste ComboBox plus rapide (default)
+        (et switchModeTextList= `True`) mode texte (en couleur) dans liste ComboBox plus rapide
 
     -   
         `True`
         
-        (et switchModeTextList= `True`) fontFamily dans liste ComboBox plus lent mais plus beau!
+        (et switchModeTextList= `True`) la liste dans la ComboBox est affichée en fontFamily, plus lent mais plus beau !
 -   **setSystemFonts**
     -   
         `False`
         
         matplotlib.font\_manager.findSystemFonts(\"C:/\", \"ttf\")
 
-        -   fait toutes les fontes (dans tous les dossiers et sous dossiers du DD) time !!
+        -   fait toutes les fontes (dans tous les dossiers et sous dossiers du DD) !!
 
     -   
         `True`
         
         fontman.findSystemFonts(self.pathFont)
 
-        -   fait toutes les fontes du repertoire (et dans tous les sous dossiers) (default)
+        -   fait toutes les fontes du repertoire (et dans tous les sous dossiers)
 -   **seTtextAlignement**
-    -   0 = AlignLeft (default)
+    -   0 = AlignLeft (défaut)
     -   1 = AlignCenter
     -   2 = AlignRight
 -   **setFontByDefault**
@@ -102,7 +98,7 @@ Après le premier lancement, configurer :
 
 ## Script
 
-ToolBar Icon ![](images/Macro_Fonts_Win10_PYMP.png )
+Icône de la barre d\'outils ![](images/Macro_Fonts_Win10_PYMP.png )
 
 **Macro Fonts Win10 PYMP.FCMacro**
 
@@ -1141,11 +1137,11 @@ MainWindow.show()
 
 Le forum [TTF Text Font](https://forum.freecadweb.org/viewtopic.php?t=28900)
 
-Mes macros sur [mario52a](https://gist.github.com/mario52a) gists
+Mes macros sur les dépôts de [mario52a](https://gist.github.com/mario52a)
 
 ## Version
 
-Version = \"2.0 Date = 2020/06/06 : Layout ajout du bouton et icônes
+Version = \"2.0 Date = 2020/06/06 : Mise en page ajout d\'un bouton et une icône
 
 Version = \"01.00\" Date = \"2019/05/10\"
 

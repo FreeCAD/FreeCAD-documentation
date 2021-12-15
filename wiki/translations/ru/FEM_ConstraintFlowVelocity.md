@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/ru
    Name:FEM ConstraintFlowVelocity
-   Name:FEM ConstraintFlowVelocity
+   Name/ru:FEM ConstraintFlowVelocity
    Icon:Fem-constraint-flow-velocity.svg
    MenuLocation: Model → Fluid constraints → Constraint flow velocity
    Workbenches:[FEM](FEM_Workbench/ru.md)
@@ -10,9 +10,6 @@
 ---
 
 # FEM ConstraintFlowVelocity/ru
-
-
-</div>
 
 ## Описание
 

@@ -8,7 +8,13 @@ Cada sistema operativo tiene su propia página para compilar FreeCAD en la [Docu
 
 Para compilar en BSD, y otros sistemas Unix, puede seguir las instrucciones generales en [Compilar en Linux](Compile_on_Linux/es.md) pero utilizando las dependencias apropiadas en esos sistemas.
 
+
+<div class="mw-translate-fuzzy">
+
 También es posible compilar FreeCAD en Windows siguiendo las instrucciones en [Compilar en Windows](Compile_on_Windows/es.md).
+
+
+</div>
 
 Para compilar FreeCAD sin su interfaz gráfica de usuario utiliza la imagen [FreeCAD Docker CLI modo](FreeCAD_Docker_CLI_mode/es.md).
 

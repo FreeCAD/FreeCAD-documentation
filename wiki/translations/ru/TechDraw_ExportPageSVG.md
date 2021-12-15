@@ -40,7 +40,13 @@ TechDrawGui.exportPageAsSvg(DrawPageObject,FilePath)
 Note that the FreeCADGui module must be active to use this function.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

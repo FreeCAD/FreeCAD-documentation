@@ -38,7 +38,7 @@ The following tools are available in this menu:
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Std_Close.png  style="width:32px;">[Close](Std_Close/ro.md) Închide documentul curent.
+<img alt="" src=images/Std_CloseActiveWindow.svg  style="width:32px;">[Close](Std_CloseActiveWindow/ro.md) Închide documentul curent.
 
 
 </div>
@@ -46,7 +46,7 @@ The following tools are available in this menu:
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Std_CloseAll.png  style="width:32px;">[Close All](Std_CloseAll/ro.md) închide toate documentele deschise.
+<img alt="" src=images/Std_CloseAllWindows.svg  style="width:32px;">[Close All](Std_CloseAllWindows/ro.md) închide toate documentele deschise.
 
 
 </div>
@@ -67,20 +67,14 @@ The following tools are available in this menu:
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Std_SaveaCopy.png  style="width:32px;">[Save a Copy](Std_SaveaCopy/ro.md) v 0.16
-
-
-</div>
+-   <img alt="" src=images/Std_SaveCopy.svg  style="width:32px;"> [Save a Copy\...](Std_SaveCopy/ro.md): Saves a copy of the document under a new file name.
 
 -   <img alt="" src=images/Std_SaveAll.svg  style="width:32px;"> [Save All](Std_SaveAll.md): Saves all opened documents.
 
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Std_Revert.png  style="width:32px;">[Restabilire](Std_Revert/ro.md) v 0.16
+<img alt="" src=images/Std_Revert.svg  style="width:32px;">[Restabilire](Std_Revert/ro.md) v 0.16
 
 
 </div>
@@ -101,13 +95,7 @@ The following tools are available in this menu:
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Std_MergeProject.png  style="width:32px;">[Fuzionați Proiectul](Std_MergeProject/ro.md) adăugați obiectele din fișierul FreeCAD în documentul curent.
-
-
-</div>
+<img alt="" src=images/Std_MergeProjects.svg  style="width:32px;">[Fuzionați Proiectul](Std_MergeProject/ro.md) adăugați obiectele din fișierul FreeCAD în documentul curent.
 
 
 <div class="mw-translate-fuzzy">
@@ -141,21 +129,9 @@ The following tools are available in this menu:
 
 </div>
 
+-   [Fișiere recente](Std_RecentFiles/ro.md) este o scurtătură care deschide o casetă de dialog și listează ultimele documente deschise în Free CAD oricare ar fi originea sau extensia lor.
 
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Std_RecentFiles.png  style="width:32px;">[Fișiere recente](Std_RecentFiles/ro.md) este o scurtătură care deschide o casetă de dialog și listează ultimele documente deschise în Free CAD oricare ar fi originea sau extensia lor.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Std_Quit.png  style="width:32px;"> [Ieșire](Std_Exit/ro.md) închide FreeCAD.
-
-
-</div>
+<img alt="" src=images/Std_Quit.svg  style="width:32px;"> [Ieșire](Std_Quit/ro.md) închide FreeCAD.
 
 
 

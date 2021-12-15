@@ -15,12 +15,12 @@ The list below shows parameters that are not accessible via the preferences edit
 -   **DockWindows/DAGView/Enabled** (boolean): Set to `True` to enable a beta [DAG view](DAG_view.md) dockable widget. After changing the parameter value, a FreeCAD restart is needed so the widget is available in the View/Panels list.
 -   **DockWindows/PropertyView/Enabled** (boolean): Set to `True` to enable a [Property View](Property_editor.md) dockable widget independent from the Combo View. After changing the parameter value, a FreeCAD restart is needed so the widget is available in the View/Panels list.
 -   **DockWindows/TreeView/Enabled** (boolean): Set to `True` to enable a [Tree View](Document_structure.md) dockable widget independent from the Combo View. After changing the parameter value, a FreeCAD restart is needed so the widget is available in the View/Panels list.
+-   **Document/AutoNameDynamicProperty** (boolean): Set to `True` to make FreeCAD automatically rename dynamic properties with an invalid specified name instead of throwing an exception. Note that Python code will not have access to the new name.
 -   **Document/ChangeViewProviderTouchDocument** (boolean): Set to `False` so items visibility changes won\'t mark the document as changed.
 -   **Document/SaveThumbnailFix** (boolean): Set to `True` to fix a problem with Qt5 that prevents the generation of `.FCStd` file thumbnails.
 -   **General/LockToolBars** (boolean): Set to `True` to prevent toolbars from being draggable, and to hide the small drag handles. Mostly used in conjunction with stylesheets that make the toolbars vertical.
 -   **General/RecentIncludesExported** (boolean): Set to `True` to include exported files in the Recent Files list. Defaults to `False`.
 -   **General/RecentIncludesImported** (boolean): Set to `False` to exclude imported files from the Recent Files list. Defaults to `True`.
--   **General/SubstituteDecimalSeparator** (boolean): If set to `True`, the dot/period key will be substituted with the regional decimal separator when entering a number in a spin box. Substitution will only happen if dot isn\'t your regional decimal separator and at least one of the following conditions applies: dot isn\'t your regional thousand separator or dot was entered from the numerical pad. Defaults to `False`.
 -   **Macro/DuplicateFrom001** (boolean): Set to `True` to always begin searching for suggested duplicate macro filename with \@001 instead of current \@NNN, if applicable. Defaults to `False`.
 -   **Macro/DuplicateIgnoreExtraNote** (boolean): Set to `True` to ignore extra note when suggesting duplicate macro filename. Extra note is text in the filename following \"\@NNN\" and before \".FCMacro\". Example: \"my\_macro\@005.my\_note.FCMacro\". If `True` the next suggested filename is \"my\_macro\@006.FCMacro\". If set to `False` the next suggested filename is \"my\_macro\@006.my\_note.FCMacro\". To be recognized as an extra note the text should begin with a dot (\".\") following the \"\@NNN\". Otherwise, for example \"my\_macro\@006\_my\_note.FCMacro\" gets \"my\_macro\@006\_my\_note\@001.FCMacro\" as suggested new filename, which might be desirable in some cases. Defaults to `False`.
 -   **Macro/ReplaceSpaces** (boolean): Set to `False` if you do not want spaces in your filenames automatically converted to underscores when creating, renaming, or duplicating a macro. Does not affect existing files, only matters when creating new file or renaming or duplicating existing file. Defaults to `True`.
@@ -67,7 +67,7 @@ The label in Sketcher that displays the current status of the constraints (e.g. 
 
 ## Связанные с Мышью 
 
--   **General/ComboBoxWheelEventFilter** (boolean): Set to `True` so widgets do not catch mouse wheel event and prevent scrollable areas to be scrolled.
+-   **General/ComboBoxWheelEventFilter** (boolean): Set to `True` so widgets do not catch mouse wheel event and prevent scrollable areas to be scrolled. Needs FreeCAD restart to be taken into account.
 -   **View/GestureMoveThreshold** (integer): the distance (px) mouse cursor has to move to enter rotation or pan modes of Gesture navigation style. Default is 5.
 -   **View/GestureRollFwdCommand**, **View/GestureRollBackCommand** (string): commands to be executed by mouse button roll gestures of Gesture navigation style.
 -   **View/GestureTapHoldTimeout** (integer): sets for how long to wait (in milliseconds) to enter pan mode in Gesture navigation style. It can be helpful to increase it if dragging geometry in sketcher is difficult. Default is 700.

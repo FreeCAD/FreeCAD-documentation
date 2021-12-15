@@ -27,7 +27,13 @@ Da FreeCAD in erster Linie als Volumenmodellierer konzipiert ist, ist es besser 
 
 In FreeCAD kann sich das Wort \"[Polygonnetz](Mesh/de.md)\" auch auf ein bestimmtes Objekt beziehen, das in der Finite Elemente Analyse (FEA) verwendet wird.
 
+
+<div class="mw-translate-fuzzy">
+
 Wenn ein Objekt mit einem Volumenkörper _ (`Mesh::Feature` Klasse) abgeleitet.
+
+
+</div>
 
 Für weitere Informationen siehe [FEM Arbeitsbereich](FEM_Workbench/de.md) und [FEM Polygonnetz](FEM_Mesh/de.md).
 

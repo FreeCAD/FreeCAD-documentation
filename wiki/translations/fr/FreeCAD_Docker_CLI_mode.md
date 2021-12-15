@@ -3,14 +3,14 @@
 
 ## Présentation
 
-Image Docker de FreeCAD compilée sans GUI. Cette image de Docker est spécialement destinée aux développeurs qui ne souhaitent utiliser FreeCAD que dans l\'interface de ligne de commande (CLI).
+Image Docker de FreeCAD compilée sans GUI. Cette image Docker est spécialement destinée aux développeurs qui ne souhaitent utiliser FreeCAD que en mode interface de ligne de commande (CLI).
 
-### Bénéfices
+### Avantages
 
 Toutes les dépendances de FreeCAD sont déjà installées, compatibles les unes avec les autres et configurées de manière appropriée, ce qui vous permet de commencer à développer très rapidement.
 
 -   Facile à utiliser et léger.
--   Il donne de meilleures performances en termes de vitesse.
+-   Meilleures performances en termes de vitesse.
 -   Pas besoin d\'ajouter des chemins FreeCAD pour l\'importer dans Python.
 
 ## Dépôt Docker 
@@ -28,13 +28,13 @@ Toutes les dépendances de FreeCAD sont déjà installées, compatibles les unes
 1.  Récupérez l\'image Docker.{{Code|lang=bash|code=
     docker pull amrit3701/freecad-cli:latest
     }}
-2.  Quand vous avez réussi à extraire l\'image du docker, vous pouvez maintenant lancer l\'image.{{Code|lang=bash|code=
+2.  Quand vous avez réussi à extraire l\'image Docker, vous pouvez maintenant lancer l\'image.{{Code|lang=bash|code=
     docker run -it amrit3701/freecad-cli:lastest bash
     }}
 
-## Information Supplémentaire 
+## Informations supplémentaires 
 
-### Extension de l\'image de Docker 
+### Extension de l\'image Docker 
 
 Vous pouvez également étendre ces images Docker pour ajouter des dépendances supplémentaires pour votre projet. Par exemple {{Code|lang=docker|code=
 
@@ -49,7 +49,7 @@ FROM amrit3701/freecad-cli:lastest
 
 ### Importer FreeCAD en Python 
 
-Après avoir exécuté l\'image du Docker, il suffit de lancer Python.
+Après avoir exécuté l\'image Docker, il suffit de lancer Python.
 
 
 {{Code|lang=bash|code=
@@ -66,7 +66,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ### Lancer FreeCADCmd 
 
-Pour lancer FreeCAD dans l\'image de Docker, exécutez simplement la commande FreeCADCmd .
+Pour lancer FreeCAD dans l\'image Docker, exécutez simplement la commande FreeCADCmd .
 
 ## Discussion
 

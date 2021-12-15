@@ -50,7 +50,7 @@ If you decide to install the <img alt="" src=images/Workbench_Plot.svg  style="w
 
 ## Scripting 
 
-Siendo el módulo de graficado una adaptación de `matplotlib`, usted puede hacer uso libremente de todas las posibilidades del mismo. Acuda a la sección [ejemplos de scripting](Scripting_examples/es.md) para saber más.
+Siendo el módulo de graficado una adaptación de `matplotlib`, usted puede hacer uso libremente de todas las posibilidades del mismo. Acuda a la sección [Scripting and macros](Scripting_and_macros.md) para saber más.
 
 ## Tutorial
 

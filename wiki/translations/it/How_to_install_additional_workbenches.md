@@ -6,9 +6,15 @@
 Gli utenti esperti hanno esteso FreeCAD con vari [ambienti di lavoro esterni](external_workbenches/it.md) personalizzati, che non sono integrati nel codice sorgente di FreeCAD, ma che sono facili da implementare in una distribuzione FreeCAD esistente. Qui sono descritti i metodi di installazione per i diversi sistemi operativi.
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Nota:**
 
 a partire dalla versione 0.17, FreeCAD include un <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md) nel menu **Strumenti → Addon manager**, che permette di installare sia macro che ambienti di lavoro. Le istruzioni seguenti sono necessarie solo si desidera installare manualmente un ambiente. Ciò potrebbe essere necessario se per qualche motivo Addon Manager non funziona ma si ha accesso all\'ambiente scaricato come pacchetto {{FileName|.zip}}.
+
+
+</div>
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -23,21 +29,33 @@ Come installare ulteriori ambienti e componenti aggiuntivi su Windows
 ### Obsoleto
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Note:**
 
-l\'uso di \"addons-installer\" non è più consigliato. Si consiglia di utilizzare [Addon Manager](Addon_Manager/it.md) in tutti i sistemi.
+l\'uso di \"addons-installer\" non è più consigliato. Si consiglia di utilizzare [Addon Manager](Std_AddonMgr/it.md) in tutti i sistemi.
+
+
+</div>
 
 Usare [addons-installer da Github](https://github.com/FreeCAD/FreeCAD-addons).
 
 Durante il Google Summer of Code 2016 lo studente Mandeep Singh ha iniziato a lavorare su una versione migliore
 ([disponibile qui](https://github.com/mandeeps708/PluginManager)) ma tale versione necessita di ulteriori lavori prima di poter essere completamente integrata in FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
 ### Installazione manuale 
 
 
 **Note:**
 
-Dopo l\'introduzione di [Addon Manager](Addon_Manager/it.md) questo metodo è possibile ma non necessario. Tuttavia, queste informazioni potrebbero essere ancora utili per alcuni.
+Dopo l\'introduzione di [Addon Manager](Std_AddonMgr/it.md) questo metodo è possibile ma non necessario. Tuttavia, queste informazioni potrebbero essere ancora utili per alcuni.
+
+
+</div>
 
 -   Scaricare il workbench da github cliccando sul pulsante **Clone** o **Download** sulla pagina GitHub (in alto a destra) e scegliendo \"Download ZIP\"
 -   Decomprimere l\'archivio scaricato sul disco rigido locale
@@ -90,12 +108,18 @@ $ git pull
 $ rm *.pyc
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 ### Installazione manuale 
 
 
 **Note:**
 
-Dopo l\'introduzione di [Addon Manager](Addon_Manager/it.md) questo metodo è possibile ma non necessario. Tuttavia, queste informazioni potrebbero essere ancora utili per alcuni.
+Dopo l\'introduzione di [Addon Manager](Std_AddonMgr/it.md) questo metodo è possibile ma non necessario. Tuttavia, queste informazioni potrebbero essere ancora utili per alcuni.
+
+
+</div>
 
 -   Scaricare il workbench da github cliccando sul pulsante **Clone** o **Download** sulla pagina GitHub (in alto a destra) e scegliendo \"Download ZIP\"
 -   Decomprimere l\'archivio scaricato sul disco rigido locale
@@ -122,12 +146,18 @@ Come installare ulteriori ambienti e componenti aggiuntivi su MacOS
 
 <div class="mw-collapsible-content">
 
+
+<div class="mw-translate-fuzzy">
+
 ### Installazione manuale 
 
 
 **Note:**
 
-Dopo l\'introduzione di [Addon Manager](Addon_Manager/it.md) questo metodo è possibile ma non necessario. Tuttavia, queste informazioni potrebbero essere ancora utili per alcuni.
+Dopo l\'introduzione di [Addon Manager](Std_AddonMgr/it.md) questo metodo è possibile ma non necessario. Tuttavia, queste informazioni potrebbero essere ancora utili per alcuni.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

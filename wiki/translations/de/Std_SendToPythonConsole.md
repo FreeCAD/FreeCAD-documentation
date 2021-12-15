@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Std SendeAnPythonKonsole
+   Name:Std SendToPythonConsole
+   Name/de:Std SendeAnPythonKonsole
    MenuLocation:Bearbeiten → Sende an Python Konsole
    Workbenches:Alle
    Shortcut:**Ctrl**+**Shift**+**P**
@@ -25,11 +26,17 @@ Der **Std SendeAnPythonKonsole** Befehl erstellt eine Variable in der [Python Ko
 
 ## Verwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle ein einzelnes Objekt aus.
 2.  Es gibt mehrere Wege, den Befehl aufzurufen:
     -   Wähle die **Bearbeiten → <img src="images/Std_SendToPythonConsole.svg" width=16px> Sende an Python Konsole** Option aus dem Menü.
     -   Wähle die Option {{MenuCommand/de|<img src="images/Std_SendToPythonConsole.svg" width=16px> Sende an Python Konsole}} Option aus dem [Baumansicht](Tree_view/de.md) Kontextmenü oder [3D Ansicht](3D_view/de.md) Kontextmenü.
     -   Verwende die Tastaturkürzel: **Strg**+**Shift**+**P**.
+
+
+</div>
 
 
 

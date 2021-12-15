@@ -143,7 +143,7 @@ Most files related to a solver reside in a sub-package of the FemSolver package 
 
 </div>
 
-There is a tutorial of adding a new solver: [Add FEM solver tutorial](Add_FEM_solver_tutorial.md)
+There is a tutorial of adding a new solver: _
 
 ## Ecuații
 

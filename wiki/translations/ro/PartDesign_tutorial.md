@@ -19,8 +19,8 @@ Acest tutorial are rolul de a introduce cititorul în fluxul de lucru de bază a
 
 ### Cerințe
 
--   FreeCAD version 0.16 or above
--   The reader has finished the [Sketcher tutorial](Sketcher_tutorial.md)
+-   FreeCAD version 0.17 or above
+-   The reader has finished the [Basic Sketcher Tutorial](Basic_Sketcher_Tutorial/ro.md)
 
 
 </div>
@@ -39,17 +39,11 @@ Pentru a realiza acest lucru, există două instrumente:<img alt="" src=images/P
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Switch to the PartDesign Workbench
-2.  Select the sketch that was created in the [Sketcher tutorial](Sketcher_tutorial.md)
-3.  Select <img alt="" src=images/PartDesign_Pad.png  style="width:32px;"> [Pad](PartDesign_Pad.md)
+2.  With the sketch selected in the <img src=images/PartDesign_Body.svg style="width:tree view](tree_view.md), press **[16px"> [PartDesign Body](PartDesign_Body.md)**, choose the default XY-plane, and press **OK**. The sketch should appear now inside the Body.
+3.  Select <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Pad](PartDesign_Pad.md)
 4.  Set the distance to 5 mm
 5.  Select **Ok**
-
-
-</div>
 
 
 <div class="mw-translate-fuzzy">

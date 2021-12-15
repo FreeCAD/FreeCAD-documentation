@@ -228,6 +228,8 @@ Um die Positionierung von \"Sketch\" mit der von \"Cylinder\" gleichzusetzen, w√
 <<Cube>>.Placement
 ``` ![Einstellung der gesamten Positionierung in einem Ausdruck](images/PlacementInExpression.png )
 
+**NOTE:** It\'s also possible to *create* Placement objects in expressions. See the [Expressions](Expressions#Placement.md) page for details.
+
 ## Notes
 
 

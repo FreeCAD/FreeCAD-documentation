@@ -45,7 +45,13 @@ Die Dateiauswahl entspricht der Version 1.5. Mit Version 2 haben Sie nun die Wah
 
 ## Neueste Version 
 
+
+<div class="mw-translate-fuzzy">
+
 Die neueste Version des Makros ist zu finden auf _.
+
+
+</div>
 
 ### Version 2.1.2 
 

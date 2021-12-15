@@ -10,11 +10,17 @@
 
 帮助我们构建、修正并扩充这份文档。例如修正错误，扩充并修正表达不清晰的页面，创建主题缺失的页面。为FreeCAD wiki的文档做贡献很简单，在[WikiPages页面](WikiPages.md)，你能找到起步所需的指导以及帮助。要编辑wiki，你需要一个具有编辑权限的wiki账号（为避免网络垃圾，wiki是写保护的）。你可以通过[论坛](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830)或者[IRC频道](https://wiki.freecadweb.org/Help#Chat)索要一个账号。注意IRC频道的响应应该没有论坛快。[FreeCAD官网论坛](https://forum.freecadweb.org)是主要的提问和讨论地方，它将保存社区的经验与知识。
 
+
+<div class="mw-translate-fuzzy">
+
 一些期待您工作的地方：
 
 -   _[命令文档](Command.md)。它们大多数还只含有很少的信息，或者根本就是空白的。良好的命令文档页面如何编写您可以参考[WikiPages](WikiPages.md)。
 -   [教程部分需要一些例子以说明如何使用工作台](Tutorials.md)。如果你用FreeCAD做出了挺酷的东西，为什么不为后人记录下来你的做法呢？
 -   在FreeCAD的[Bug追踪中仍有一些具有](bugtracker.md)[\"文档\"](https://freecadweb.org/tracker/search.php?tag_string=documentation)标签的，期待您的关照。
+
+
+</div>
 
 ## 分享你的FreeCAD知识
 

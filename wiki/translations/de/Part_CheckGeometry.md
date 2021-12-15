@@ -54,7 +54,7 @@ If ticked, subsequent invocations of the tool skip showing the **Settings** task
 
 <div class="mw-translate-fuzzy">
 
-Die Funktion PrüfeGeometrie prüft, ob die _) des Modells ist gültig. Zusätzlich zu dieser BRep Prüfung ist es möglich, eine zusätzliche BOP Prüfung (BOP= Boolesche OPerationen) durchzuführen.
+Die Funktion PrüfeGeometrie prüft, ob die [Randdarstellung](https://en.wikipedia.org/wiki/Boundary_representation) korrekt ist. (BRep oder B-rep) des Modells ist gültig. Zusätzlich zu dieser BRep Prüfung ist es möglich, eine zusätzliche BOP Prüfung (BOP= Boolesche OPerationen) durchzuführen.
 
 
 </div>

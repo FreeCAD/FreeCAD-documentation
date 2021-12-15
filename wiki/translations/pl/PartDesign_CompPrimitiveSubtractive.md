@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/pl
-   Name:PartDesign CompPrimitiveAdditive
+   Name:PartDesign CompPrimitiveSubtractive
    Name/pl:PartDesign Utwórz cechę subtraktywną
    MenuLocation:Projekt części → Utwórz cechę subtraktywną
    Workbenches:[Projekt części](PartDesign_Workbench/pl.md)

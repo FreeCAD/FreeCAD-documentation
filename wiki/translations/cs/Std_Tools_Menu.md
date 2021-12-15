@@ -33,7 +33,7 @@ The following tools are available in this menu:
 
 <div class="mw-translate-fuzzy">
 
-[Project utility](Project_utility/cs.md) assists in repairing damaged project files.
+[Project utility](Std_ProjectUtil/cs.md) assists in repairing damaged project files.
 
 
 </div>

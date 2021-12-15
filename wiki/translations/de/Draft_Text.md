@@ -53,7 +53,7 @@ See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 ## Anwendung
 
 1.  Drücke die Schaltfläche **<img src="images/Draft_Text.png" width=16px> [Draft Text](Draft_Text/de.md)** oder drücke **T**, dann **E** Tasten.
-2.  Klicke auf einen Punkt in der 3D Ansicht oder gib eine [Koordinate](Draft_Coordinates/de.md) ein und drücke die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)**.
+2.  Klicke auf einen Punkt in der 3D Ansicht oder gib eine Koordinate ein und drücke die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen**.
 3.  Gib den gewünschten Text ein, drücke **Enter** zwischen jeder Zeile.
 4.  Drücke **Enter** zweimal , um den Vorgang abzuschließen.
 
@@ -67,7 +67,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 <div class="mw-translate-fuzzy">
 
--   Um Koordinaten manuell einzugeben, gib einfach die Zahlen ein und drücke dann **Enter** zwischen jeder X, Y und Z Komponente. Du kannst den **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** Schaltfläche drücken, wenn Du die gewünschten Werte zum Einfügen des Punktes hast.
+-   Um Koordinaten manuell einzugeben, gib einfach die Zahlen ein und drücke dann **Enter** zwischen jeder X, Y und Z Komponente. Du kannst den **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Schaltfläche drücken, wenn Du die gewünschten Werte zum Einfügen des Punktes hast.
 -   Halte **Ctrl** gedrückt, während du den Text platzierst, um [Fang](Draft_Snap/de.md) deinen Punkt unabhängig von der Entfernung an die nächste Fangposition zu zwingen.
 -   Drücke **Enter** oder **↓ Pfeil nach unten**, um eine neue Textzeile einzugeben.
 -   Drücke **↑ Pfeil nach oben**, um die vorherige Textzeile zu bearbeiten.

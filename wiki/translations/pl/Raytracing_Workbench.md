@@ -40,12 +40,12 @@ Stanowisko pracy Raytracing jest w zasadzie przestarzałe. Zmiany zachodzą w [R
 
 Są to główne narzędzia do eksportowania projektu 3D do zewnętrznych rendererów.
 
--   <img alt="" src=images/Raytrace_New.svg  style="width:32px;"> [Wstaw nowy projekt PovRay \...](Raytracing_New.md): Wstawia nowy projekt PovRay do dokumentu.
--   <img alt="" src=images/Raytrace_Lux.svg  style="width:32px;"> [Wstaw nowy projekt LuxRender \...](Raytracing_Lux.md): Wstawia nowy projekt LuxRender do dokumentu.
--   <img alt="" src=images/Raytrace_NewPartSegment.svg  style="width:32px;"> [Wstaw nową część do projektu](Raytracing_InsertPart.md): Wstawienie widoku części do projektu raytracingu.
--   <img alt="" src=images/Raytrace_ResetCamera.svg  style="width:32px;"> [Ustawia widok kamery z wybranego projektu \...](Raytracing_ResetCamera.md): Dopasowuje pozycję kamery projektu raytracingu do aktualnego widoku.
--   <img alt="" src=images/Raytrace_ExportProject.svg  style="width:32px;"> [Eksport projektu Raytracing do pliku](Raytracing_ExportProject.md): Eksportuje projekt raytracingu do pliku sceny w celu renderowania w zewnętrznym programie renderującym.
--   <img alt="" src=images/Raytrace_Render.svg  style="width:32px;"> [Renderuje obecny projekt \...](Raytracing_Render.md): Renderuje projekt raytracingu za pomocą zewnętrznego programu renderującego.
+-   <img alt="" src=images/Raytrace_New.svg  style="width:32px;"> [Wstaw nowy projekt PovRay \...](Raytracing_New/pl.md): Wstawia nowy projekt PovRay do dokumentu.
+-   <img alt="" src=images/Raytrace_Lux.svg  style="width:32px;"> [Wstaw nowy projekt LuxRender \...](Raytracing_Lux/pl.md): Wstawia nowy projekt LuxRender do dokumentu.
+-   <img alt="" src=images/Raytrace_NewPartSegment.svg  style="width:32px;"> [Wstaw nową część do projektu](Raytracing_InsertPart/pl.md): Wstawienie widoku części do projektu raytracingu.
+-   <img alt="" src=images/Raytrace_ResetCamera.svg  style="width:32px;"> [Ustawia widok kamery z wybranego projektu \...](Raytracing_ResetCamera/pl.md): Dopasowuje pozycję kamery projektu raytracingu do aktualnego widoku.
+-   <img alt="" src=images/Raytrace_ExportProject.svg  style="width:32px;"> [Eksport projektu Raytracing do pliku](Raytracing_ExportProject/pl.md): Eksportuje projekt raytracingu do pliku sceny w celu renderowania w zewnętrznym programie renderującym.
+-   <img alt="" src=images/Raytrace_Render.svg  style="width:32px;"> [Renderuje obecny projekt \...](Raytracing_Render/pl.md): Renderuje projekt raytracingu za pomocą zewnętrznego programu renderującego.
 
 ### Przydatne narzędzia 
 

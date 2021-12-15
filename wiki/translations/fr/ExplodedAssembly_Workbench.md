@@ -1,61 +1,88 @@
-# ExplodedAssembly Workbench/fr
-## Introduction
+# <img alt="Icône de l\'atelier ExplodedAssembly" src=images/ExplodedAssembly_workbench_icon.svg  style="width:64px;"> ExplodedAssembly Workbench/fr
 
 
 {{TOCright}}
 
-Atelier de FreeCAD pour créer des vues éclatées et des animations d\'assemblages.
+## Introduction
 
-\'\'\'Remarque. Cet atelier a été migré vers un nouveau dépôt: \'\'\'[ExplodedAssembly](https://github.com/JMG1/ExplodedAssembly)
+L\'<img alt="" src=images/ExplodedAssembly_workbench_icon.svg  style="width:24px;"> [atelier ExplodedAssembly](ExplodedAssembly_Workbench/fr.md) est un atelier externe permettant de créer des vues éclatées et des animations d\'assemblages.
 
-Fonctionnalités:
+## Fonctions
 
--   Créez de belles éclatés d\'assemblages graphiquement (pas de code du tout!)
--   Créez des groupes sous-éclatés
--   Donnez une rotation aux vis et aux écrous pour des démontages réalistes
--   Utilisez les outils d\'assemblage auxiliaires fournis pour placer vos pièces ensemble
--   Fonction TODO: créer une trajectoire à partir de fils et de croquis
+-   Crée de beaux éclatés d\'assemblages graphiquement (pas de code du tout!)
+-   Crée des groupes sous-éclatés
+-   Donne une rotation aux vis et aux écrous pour des démontages réalistes
+-   Utilise les outils d\'assemblage auxiliaires fournis pour placer vos pièces ensemble
+-   Fonction A FAIRE: créer une trajectoire à partir de polylignes et d\'esquisses
 
 ## Références
 
--   Auteur: JMG1
--   Page d\'accueil: [Old repo](https://github.com/JMG1/FreeCAD_ExplodedAssemblyAnimationWorkbench).
--   Code source sur github: [Old repo](https://github.com/JMG1/FreeCAD_ExplodedAssemblyAnimationWorkbench).
+-   Auteur : JMG1
+-   Page d\'accueil : [ExplodedAssembly](https://github.com/JMG1/ExplodedAssembly)
+-   Code source sur github : [ExplodedAssembly](https://github.com/JMG1/ExplodedAssembly)
+
+## Outils
+
+![](images/ExplodedAssembly-menu-orizz.png ) 
+*Barre d'outils*
+
+![](images/ExplodedAssembly-menu-vert.png ) 
+*Menu*
+
+### Outils standards 
+
+-   <img alt="" src=images/ExplodedAssembly_CreateBoltGroup.png  style="width:32px;"> Créer un groupe de boulons
+-   <img alt="" src=images/ExplodedAssembly_CreateSimpleGroup.png  style="width:32px;"> Créer un groupe simple
+-   <img alt="" src=images/ExplodedAssembly_ModifyIndividualObjectTrajectory.png  style="width:32px;"> Modifier la trajectoire d\'un objet individuel
+-   <img alt="" src=images/ExplodedAssembly_PlaceBefore.png  style="width:32px;"> Placer avant
+-   <img alt="" src=images/ExplodedAssembly_ExplodeToSelection.png  style="width:32px;"> Exploser vers la sélection
+-   <img alt="" src=images/ExplodedAssembly_Assemble.png  style="width:32px;"> Assembler
+-   <img alt="" src=images/ExplodedAssembly_PlayBackwards.png  style="width:32px;"> Jouer à l\'envers
+-   <img alt="" src=images/ExplodedAssembly_StopAnimation.png  style="width:32px;"> Arrêter l\'animation
+-   <img alt="" src=images/ExplodedAssembly_PlayForward.png  style="width:32px;"> Lire en avant
+-   <img alt="" src=images/ExplodedAssembly_Disassemble.png  style="width:32px;"> Désassembler
+-   <img alt="" src=images/ExplodedAssembly_TrajectoryVisibility.png  style="width:32px;"> Visibilité de la trajectoire
+-   <img alt="" src=images/ExplodedAssembly_AlignToEdge.png  style="width:32px;"> Alignement sur le bord
+-   <img alt="" src=images/ExplodedAssembly_Rotate90.png  style="width:32px;"> Rotation de 90
+-   <img alt="" src=images/ExplodedAssembly_PoinToPoint.png  style="width:32px;"> Pointer vers le point
+-   <img alt="" src=images/ExplodedAssembly_PlaceConcentrically.png  style="width:32px;"> Placer de façon concentrique
+
+### Outils supplémentaires 
+
+Ces outils peuvent être ajoutés à une barre d\'outils personnalisée. Voir [Personnalisation de l\'interface](Interface_Customization/fr.md).
+
+-   <img alt="" src=images/ExplodedAssembly_AnimationCameraEdge.png  style="width:32px;"> Bord de la caméra d\'animation
+-   <img alt="" src=images/ExplodedAssembly_AnimationCameraFollow.png  style="width:32px;"> Suivi de la caméra d\'animation
+-   <img alt="" src=images/ExplodedAssembly_AnimationCameraManual.png  style="width:32px;"> Manuel de la caméra d\'animation
+-   <img alt="" src=images/ExplodedAssembly_WireTrajectory.png  style="width:32px;"> Trajectoire de la ligne
 
 ## Installation
 
-### Installation Automatique 
+### Installation automatique 
 
 Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
 ### Depuis GitHub 
 
-**Ubuntu & Mint**
+Utilisation de git sur Ubuntu et Mint :
 
--   Ouvrez la commande propmpt (terminal) avec les touches ctrl+alt+t
--   Installez git: sudo apt-get install git
--   Dépôt de clonage: git clone <https://github.com/JMG1/ExplodedAssembly> \~/.FreeCAD/Mod/ExplodedAssembly
+-   Ouvrez l\'invite de commande (terminal) avec les touches **Ctrl**+**Alt**+**t**
+-   Installez git : {{Incode|sudo apt-get install git}}
+-   Cloner le dépôt : {{Incode|<nowiki>git clone https://github.com/JMG1/ExplodedAssembly ~/.FreeCAD/Mod/ExplodedAssembly</nowiki>}}
 
-C\'est tout, la prochaine fois que vous lancerez FreeCAD, l\'atelier devrait être incorporé automatiquement. Pour installer manuellement, téléchargez ce référentiel au format ZIP et:
+C\'est tout, la prochaine fois que vous lancerez FreeCAD, l\'atelier devrait être disponible.
 
--   Pour Ubuntu, Mint et les systèmes d\'exploitation similaires, extrayez-le dans /home/username/.FreeCAD/Mod
--   Pour Windows, extrayez-le dans le lecteur: \\Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\Mod
+Pour installer manuellement, téléchargez ce dépôt en ZIP et :
 
-## Outils
+-   Pour Ubuntu, Mint et les OS similaires, extrayez-le à l\'intérieur de : {{FileName|/home/username/.FreeCAD/Mod}}.
+-   Pour Windows, extrayez-le à l\'intérieur de : {{FileName|C:\Users\votre_nom_d'utilisateur\AppData\Roaming\FreeCAD\Mod}}.
 
-![](images/ExplodedAnimation-menu-orizz.png )
+## Liens vers l\'atelier ExplodedAssembly 
 
-![](images/ExplodedAnimation-menu-vert.png )
-
-## Liens avec l\'atelier ExplodedAnimation 
-
--   Wiki Workbench:
--   Wiki FreeCAD:
--   Forum FreeCAD: <http://forum.freecadweb.org/viewtopic.php?f=24&t=9028>
--   Tutoriels:
--   Vidéos: [tutoriel](https://www.youtube.com/watch?v=t72qdG772Q8&feature=youtu.be)
--   Des dossiers:
--   Signaler les bogues: veuillez signaler les bogues à
+-   Forum FreeCAD : <http://forum.freecadweb.org/viewtopic.php?f=24&t=9028>
+-   Vidéos : [1](https://www.youtube.com/watch?v=lzYR7I2h7KQ) [2](https://www.youtube.com/watch?v=t72qdG772Q8&feature=youtu.be)
+-   Fichiers : à l\'intérieur de l\'atelier
+-   Signaler les bogues : Veuillez signaler les bogues sur <https://github.com/JMG1/ExplodedAssembly/issues>
 
 ## Autres liens intéressants 
 
@@ -64,7 +91,8 @@ C\'est tout, la prochaine fois que vous lancerez FreeCAD, l\'atelier devrait êt
 
 
 
-_ _ _ _
+
+_ _
 
 ---
-[documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > ExplodedAssembly Workbench/fr
+[documentation index](../README.md) > [Addons](Category_Addons.md) > ExplodedAssembly Workbench/fr

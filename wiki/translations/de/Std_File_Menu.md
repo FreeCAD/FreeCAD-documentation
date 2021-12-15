@@ -35,9 +35,9 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   <img alt="" src=images/Std_Open.svg  style="width:32px;"> [ Öffne\...](Std_Open/de.md): Öffnet ein Dokument oder importiert Dateien.
 
--   <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:32px;"> [Schließen](Std_Close/de.md): Schließt das aktive Fenster.
+-   <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:32px;"> [Schließen](Std_CloseActiveWindow/de.md): Schließt das aktive Fenster.
 
--   <img alt="" src=images/Std_CloseAllWindows.svg  style="width:32px;"> [Alles schließen](Std_CloseAll/de.md): Schließt alle Fenster.
+-   <img alt="" src=images/Std_CloseAllWindows.svg  style="width:32px;"> [Alles schließen](Std_CloseAllWindows/de.md): Schließt alle Fenster.
 
 -   <img alt="" src=images/Std_Save.svg  style="width:32px;"> [Speichern](Std_Save/de.md) Speichert das Dokument.
 

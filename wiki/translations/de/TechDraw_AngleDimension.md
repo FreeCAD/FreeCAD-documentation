@@ -4,7 +4,7 @@
    Name/de:TechDraw Winkelbemaßung
    MenuLocation:TechDraw → Bemaßungen → Winkelmaß einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Bemaßung Winkel3Punkte](TechDraw_Dimension_Angle3Pt/de.md)
+   SeeAlso:[TechDraw Bemaßung Winkel3Punkte](TechDraw_3PtAngleDimension/de.md)
 ---
 
 # TechDraw AngleDimension/de
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Das Werkzeug Winkelbemaßung fügt ein Winkelbemaßung einer Ansicht hinzu. Die Bemaßung kann der Innenwinkel zweier beliebiger gerader Kanten sein. Der Winkel wird zunächst der projizierte Winkel sein (d.h. wie auf der Zeichnung dargestellt), aber dieser kann mit der **<img src="images/TechDraw_Dimension_Link.svg" width=16px> [Bemaßungen verknüpfen](TechDraw_Dimension_Link/de.md)** Werkzeug zum eigentlichen 3D Winkel geändert werden.
+Das Werkzeug Winkelbemaßung fügt ein Winkelbemaßung einer Ansicht hinzu. Die Bemaßung kann der Innenwinkel zweier beliebiger gerader Kanten sein. Der Winkel wird zunächst der projizierte Winkel sein (d.h. wie auf der Zeichnung dargestellt), aber dieser kann mit der **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Bemaßungen verknüpfen](TechDraw_LinkDimension/de.md)** Werkzeug zum eigentlichen 3D Winkel geändert werden.
 
 
 </div>
@@ -31,7 +31,7 @@ Das Werkzeug Winkelbemaßung fügt ein Winkelbemaßung einer Ansicht hinzu. Die 
 <div class="mw-translate-fuzzy">
 
 1.  Wähle die Punkte oder die Kante, die deine Messung definieren.
-2.  Drücke die **<img src="images/TechDraw_Dimension_Angle.svg" width=16px> [Winkel bemaßen](TechDraw_Dimension_Angle/de.md)** Schaltfläche
+2.  Drücke die **<img src="images/TechDraw_AngleDimension.svg" width=16px> [Winkel bemaßen](TechDraw_AngleDimension/de.md)** Schaltfläche
 3.  Eine Bemaßung wird zur Ansicht hinzugefügt. Die Bemaßung kann an die gewünschte Position gezogen werden.
 4.  Falls erforderlich, füge Toleranzen, wie in [diese Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzu.
 
@@ -41,7 +41,7 @@ Das Werkzeug Winkelbemaßung fügt ein Winkelbemaßung einer Ansicht hinzu. Die 
 
 <div class="mw-translate-fuzzy">
 
-Um die Eigenschaften eines Bemaßungsobjekts zu ändern, doppel-klicke sie entweder in der Zeichnung oder in der [Baumansicht](Tree_view/de.md). Dadurch wird der [Bemaßungsdialog](TechDraw_Dimension_Length/de#Bemaßung_Dialog.md) geöffnet.
+Um die Eigenschaften eines Bemaßungsobjekts zu ändern, doppel-klicke sie entweder in der Zeichnung oder in der [Baumansicht](Tree_view/de.md). Dadurch wird der [Bemaßungsdialog](TechDraw_LengthDimension/de#Bemaßung_Dialog.md) geöffnet.
 
 
 </div>
@@ -51,7 +51,7 @@ Um die Eigenschaften eines Bemaßungsobjekts zu ändern, doppel-klicke sie entwe
 
 <div class="mw-translate-fuzzy">
 
-Bemaßungsobjekte sind anfällig für \"[topologische Benennungs](topological_naming_problem/de.md)\" Probleme. Siehe dazu die Informationen im **<img src="images/TechDraw_Dimension_Length.svg" width=16px> [TechDraw Bemaßung Länge](TechDraw_Dimension_Length/de.md)** Werkzeug für weitere Informationen.
+Bemaßungsobjekte sind anfällig für \"[topologische Benennungs](topological_naming_problem/de.md)\" Probleme. Siehe dazu die Informationen im **<img src="images/TechDraw_LengthDimension.svg" width=16px> [TechDraw Bemaßung Länge](TechDraw_LengthDimension/de.md)** Werkzeug für weitere Informationen.
 
 
 </div>
@@ -61,7 +61,7 @@ Bemaßungsobjekte sind anfällig für \"[topologische Benennungs](topological_na
 
 <div class="mw-translate-fuzzy">
 
-Dieses Objekt hat die gleichen Eigenschaften wie das [TechDraw Längenbemassung](TechDraw_Dimension_Length/de.md) Werkzeug. Siehe das Werkzeug für Einzelheiten.
+Dieses Objekt hat die gleichen Eigenschaften wie das [TechDraw Längenbemassung](TechDraw_LengthDimension/de.md) Werkzeug. Siehe das Werkzeug für Einzelheiten.
 
 
 </div>

@@ -200,7 +200,8 @@ For 2D geometry, most objects are derived from `Part::Part2DObject` (itself deri
 
 ## Actions
 
-Actions in the property view were implemented in 0.19.
+
+<small>(v0.19)</small> 
 
 Right clicking in an empty space of the view, or with a property selected, shows only one command:
 

@@ -71,7 +71,7 @@ Instrumentul de referință vă permite să plasați un obiect în documentul cu
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Reference poate fi utilizat în [macro-uri](macro-uri.md) și din consola Python utilizând următoarea funcție:
+Instrumentul Reference poate fi utilizat în [macro-uri](Macros/ro.md) și din consola Python utilizând următoarea funcție:
 
 
 </div>

@@ -7,7 +7,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Diese Seite sammelt Informationen über die von der [FEM Arbeitsbereich](FEM-Workbench/de.md) verwendeten Finite Elemente Löser. Die Schnittstelle zwischen einem Löser und FreeCAD sowohl in der Vor- als auch in der Nachbearbeitung erfolgt über Textdateien. Das bedeutet, dass theoretisch jeder Löser, der über Textdateien konfiguriert und gesteuert werden kann, mit FreeCAD zusammenarbeiten kann; für diese Kommunikation muss ein geeigneter Parser und Schreiber von Ein- und Ausgabedateien programmiert werden.
+Diese Seite sammelt Informationen über die von der [FEM Arbeitsbereich](FEM_Workbench/de.md) verwendeten Finite Elemente Löser. Die Schnittstelle zwischen einem Löser und FreeCAD sowohl in der Vor- als auch in der Nachbearbeitung erfolgt über Textdateien. Das bedeutet, dass theoretisch jeder Löser, der über Textdateien konfiguriert und gesteuert werden kann, mit FreeCAD zusammenarbeiten kann; für diese Kommunikation muss ein geeigneter Parser und Schreiber von Ein- und Ausgabedateien programmiert werden.
 
 
 </div>
@@ -84,7 +84,7 @@ Füor CfdOF: [Computational Fluid Dynamics (CFD) Arbeitsbereich OpenFOAM verwend
 
 <div class="mw-translate-fuzzy">
 
-Beide Arbeitsbereiche können über den [AddonManager/de](AddonManager/de.md) installiert werden, und beide haben einen Platz für Diskussionen im [CfdOF / CFD Unterforum](https://forum.freecadweb.org/viewforum.php?f=37).
+Beide Arbeitsbereiche können über den [Std\_AddonMgr/de](Std_AddonMgr/de.md) installiert werden, und beide haben einen Platz für Diskussionen im [CfdOF / CFD Unterforum](https://forum.freecadweb.org/viewforum.php?f=37).
 
 
 </div>
@@ -98,7 +98,7 @@ DesignSPHysics ist ein in FreeCAD integrierter externer Arbeitsbereich, der eine
 
 <div class="mw-translate-fuzzy">
 
-DesignSPHysics kann über den [AddonManager/de](AddonManager/de.md) installiert werden.
+DesignSPHysics kann über den [Std\_AddonMgr/de](Std_AddonMgr/de.md) installiert werden.
 
 
 </div>
@@ -163,8 +163,8 @@ The following solvers have not been integrated into FreeCAD but they have garner
 The following articles may be outdated, but the information they contain may still be useful to understand how to integrate solvers into FreeCAD
 
 -   [Extend FEM Module](Extend_FEM_Module.md)
--   [Add FEM equation tutorial](Add_FEM_equation_tutorial.md)
--   [Add FEM constraint tutorial](Add_FEM_constraint_tutorial.md)
+-   [Add FEM Equation Tutorial](Add_FEM_Equation_Tutorial.md)
+-   [Add FEM Constraint Tutorial](Add_FEM_Constraint_Tutorial.md)
 
 ### Agros2D and Hermes 
 

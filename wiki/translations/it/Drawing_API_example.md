@@ -246,4 +246,4 @@ With those two, you can proceed as above for displaying them on the drawing page
 _ _
 
 ---
-[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing API example/it
+[documentation index](../README.md) > [API](Category_API.md) > [Drawing](Drawing_Workbench.md) > Drawing API example/it

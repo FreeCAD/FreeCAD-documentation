@@ -51,8 +51,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Presiona el botón **<img src="images/Draft_Rectangle.png" width=16px> [rectángulo](Draft_Rectangle/es.md)
 **, o presiona las teclas **R** y **E**
-2.  Designa un primer punto de la diagonal en la vista 3D, o escribe unas [coordenadas](Draft_Coordinates/es.md)
-3.  Designa el punto apuesto de la diagonal en la vista 3D, o escribe unas [coordenadas](Draft_Coordinates/es.md). El rectángulo también será una cara, incluso aunque se muestre como en modo alámbrico.
+2.  Designa un primer punto de la diagonal en la vista 3D, o escribe unas coordenadas
+3.  Designa el punto apuesto de la diagonal en la vista 3D, o escribe unas coordenadas. El rectángulo también será una cara, incluso aunque se muestre como en modo alámbrico.
 
 
 </div>

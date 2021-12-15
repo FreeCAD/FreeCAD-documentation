@@ -4,7 +4,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Meshオブジェクトに対しては新しいファセットの追加、ファセットの削除、STLファイルからのインポート、メッシュの変換などの操作を行うことができます。何ができるのかを全て概観するには[メッシュモジュールドキュメントも参照してください](Mesh_Module/jp.md)。メッシュオブジェクトを既存のドキュメントに直接追加することはできません。それを行うにはドキュメントにメッシュをサポートするプロパティクラスを持つオブジェクトを作成する必要があります。 例：
+Meshオブジェクトに対しては新しいファセットの追加、ファセットの削除、STLファイルからのインポート、メッシュの変換などの操作を行うことができます。何ができるのかを全て概観するには[メッシュモジュールドキュメントも参照してください](Mesh_Workbench/ja.md)。メッシュオブジェクトを既存のドキュメントに直接追加することはできません。それを行うにはドキュメントにメッシュをサポートするプロパティクラスを持つオブジェクトを作成する必要があります。 例：
 
 
 </div>
@@ -17,220 +17,220 @@ f.Mesh = m # メッシュオブジェクトを内部のプロパティに代
 d.recompute()
 
 
-{{APIFunction/jp|addFacet|Facet|メッシュにファセットを追加します。| }}
+{{APIFunction|addFacet|Facet|メッシュにファセットを追加します。| }}
 
 
-{{APIFunction/jp|addFacets|list|メッシュにファセットのリストを追加します。| }}
+{{APIFunction|addFacets|list|メッシュにファセットのリストを追加します。| }}
 
 
-{{APIFunction/jp|addMesh|Mesh|メッシュと別のメッシュをつなぎ合わせます。| }}
+{{APIFunction|addMesh|Mesh|メッシュと別のメッシュをつなぎ合わせます。| }}
 
 
-{{APIFunction/jp|clear| |メッシュを消去します。| }}
+{{APIFunction|clear| |メッシュを消去します。| }}
 
 
-{{APIFunction/jp|coarsen| |メッシュを粗くします。| }}
+{{APIFunction|coarsen| |メッシュを粗くします。| }}
 
 
-{{APIFunction/jp|collapseEdge|Edge|エッジとエッジを共有する両側のファセットを削除します。| }}
+{{APIFunction|collapseEdge|Edge|エッジとエッジを共有する両側のファセットを削除します。| }}
 
 
-{{APIFunction/jp|collapseFacet|Facet|ファセットを削除します。| }}
+{{APIFunction|collapseFacet|Facet|ファセットを削除します。| }}
 
 
-{{APIFunction/jp|collapseFacets|list|ファセットのリストを削除します。| }}
+{{APIFunction|collapseFacets|list|ファセットのリストを削除します。| }}
 
 
-{{APIFunction/jp|copy| |メッシュのコピーを作成します。|Meshオブジェクト}}
+{{APIFunction|copy| |メッシュのコピーを作成します。|Meshオブジェクト}}
 
 
-{{APIFunction/jp|countComponents| |位相的に独立した領域の数を取得します。|整数}}
+{{APIFunction|countComponents| |位相的に独立した領域の数を取得します。|整数}}
 
 
-{{APIFunction/jp|countNonUniformOrientedFacets| |不正な方向を向いたファセットの数を取得します。|整数}}
+{{APIFunction|countNonUniformOrientedFacets| |不正な方向を向いたファセットの数を取得します。|整数}}
 
 
-{{APIFunction/jp|countSegments| |セグメントの数を取得します。0となる場合もあります。|整数}}
+{{APIFunction|countSegments| |セグメントの数を取得します。0となる場合もあります。|整数}}
 
 
-{{APIFunction/jp|crossSections| |複数の平面によっるメッシュの断面を取得します。| }}
+{{APIFunction|crossSections| |複数の平面によっるメッシュの断面を取得します。| }}
 
 
-{{APIFunction/jp|difference|Mesh|与えられたMeshオブジェクトとの差分を計算します。| }}
+{{APIFunction|difference|Mesh|与えられたMeshオブジェクトとの差分を計算します。| }}
 
 
-{{APIFunction/jp|fillupHoles| |穴を埋めます。| }}
+{{APIFunction|fillupHoles| |穴を埋めます。| }}
 
 
-{{APIFunction/jp|fixDeformations| |歪んだファセットを修正します。| }}
+{{APIFunction|fixDeformations| |歪んだファセットを修正します。| }}
 
 
-{{APIFunction/jp|fixDegenerations| |縮退したファセットを削除します。| }}
+{{APIFunction|fixDegenerations| |縮退したファセットを削除します。| }}
 
 
-{{APIFunction/jp|fixIndices| |全ての無効なインデックスを修正します。| }}
+{{APIFunction|fixIndices| |全ての無効なインデックスを修正します。| }}
 
 
-{{APIFunction/jp|fixSelfIntersections| |自己干渉を修正します。| }}
+{{APIFunction|fixSelfIntersections| |自己干渉を修正します。| }}
 
 
-{{APIFunction/jp|flipNormals| |メッシュの法線を反転します。| }}
+{{APIFunction|flipNormals| |メッシュの法線を反転します。| }}
 
 
-{{APIFunction/jp|foraminate| |ファセットのインデックスと干渉している点のリストと取得します。| }}
+{{APIFunction|foraminate| |ファセットのインデックスと干渉している点のリストと取得します。| }}
 
 
-{{APIFunction/jp|getPlanes| |全てのメッシュの平面をセグメントとして取得します。最悪の場合、各三角形が一つの平面と見なされる場合があります。つまり隣接するファセットで同一平面上に乗るものがない場合です。| }}
+{{APIFunction|getPlanes| |全てのメッシュの平面をセグメントとして取得します。最悪の場合、各三角形が一つの平面と見なされる場合があります。つまり隣接するファセットで同一平面上に乗るものがない場合です。| }}
 
 
-{{APIFunction/jp|getSegment|integer|一つのセグメントを構成するファセットのインデックスのリストを取得します。| }}
+{{APIFunction|getSegment|integer|一つのセグメントを構成するファセットのインデックスのリストを取得します。| }}
 
 
-{{APIFunction/jp|getSeparateComponents| |異なる構成要素（別れた領域）を保持するリストを分割されたメッシュとして返します。|リスト}}
+{{APIFunction|getSeparateComponents| |異なる構成要素（別れた領域）を保持するリストを分割されたメッシュとして返します。|リスト}}
 
 
-{{APIFunction/jp|harmonizeNormals| |不正な向きのファセットを調整します。| }}
+{{APIFunction|harmonizeNormals| |不正な向きのファセットを調整します。| }}
 
 
-{{APIFunction/jp|hasNonManifolds| |メッシュにノンマニホールドな形状があるかどうかチェックします。|ブール値}}
+{{APIFunction|hasNonManifolds| |メッシュにノンマニホールドな形状があるかどうかチェックします。|ブール値}}
 
 
-{{APIFunction/jp|hasNonUniformOrientedFacets| |メッシュに矛盾する向きのファセットがあるかどうかチェックします。| }}
+{{APIFunction|hasNonUniformOrientedFacets| |メッシュに矛盾する向きのファセットがあるかどうかチェックします。| }}
 
 
-{{APIFunction/jp|hasSelfIntersections| |メッシュに自己干渉があるかどうかチェックします。| }}
+{{APIFunction|hasSelfIntersections| |メッシュに自己干渉があるかどうかチェックします。| }}
 
 
-{{APIFunction/jp|inner| |共通集合内部のパーツを取得します。| }}
+{{APIFunction|inner| |共通集合内部のパーツを取得します。| }}
 
 
-{{APIFunction/jp|insertVertex|Vertex|ファセットに頂点を挿入します。| }}
+{{APIFunction|insertVertex|Vertex|ファセットに頂点を挿入します。| }}
 
 
-{{APIFunction/jp|intersect|Mesh|与えられたメッシュとの共通集合を計算します。| }}
+{{APIFunction|intersect|Mesh|与えられたメッシュとの共通集合を計算します。| }}
 
 
-{{APIFunction/jp|isSolid| |メッシュがソリッドとなっているかどうかをチェックします。| }}
+{{APIFunction|isSolid| |メッシュがソリッドとなっているかどうかをチェックします。| }}
 
 
-{{APIFunction/jp|meshFromSegment| |セグメントからメッシュを作成します。| }}
+{{APIFunction|meshFromSegment| |セグメントからメッシュを作成します。| }}
 
 
-{{APIFunction/jp|nearestFacetOnRay|tuple, tuple|直線（レイ/光線）に最も近接するファセットの交点とインデックスを取得します。一番目のパラメーターは三つのfloat値のタプルで直線の始点を、二番目のパラメーターは三つのfloat値のタプルで方向を表します。結果はインデックス付きの辞書と交点、あるいは交点がない場合は空の辞書です。|辞書}}
+{{APIFunction|nearestFacetOnRay|tuple, tuple|直線（レイ/光線）に最も近接するファセットの交点とインデックスを取得します。一番目のパラメーターは三つのfloat値のタプルで直線の始点を、二番目のパラメーターは三つのfloat値のタプルで方向を表します。結果はインデックス付きの辞書と交点、あるいは交点がない場合は空の辞書です。|辞書}}
 
 
-{{APIFunction/jp|offset|float|法線に沿って点を動かします。| }}
+{{APIFunction|offset|float|法線に沿って点を動かします。| }}
 
 
-{{APIFunction/jp|offsetSpecial|float|法線に沿って点を動かします。| }}
+{{APIFunction|offsetSpecial|float|法線に沿って点を動かします。| }}
 
 
-{{APIFunction/jp|optimizeEdges| |ファセットの形が良くなるようにエッジを最適化します。| }}
+{{APIFunction|optimizeEdges| |ファセットの形が良くなるようにエッジを最適化します。| }}
 
 
-{{APIFunction/jp|optimizeTopology| |ファセットの形が良くなるようにエッジを最適化します。| }}
+{{APIFunction|optimizeTopology| |ファセットの形が良くなるようにエッジを最適化します。| }}
 
 
-{{APIFunction/jp|outer| |共通集合外部のパーツを取得します。| }}
+{{APIFunction|outer| |共通集合外部のパーツを取得します。| }}
 
 
-{{APIFunction/jp|printInfo| |メッシュに関する詳細情報を取得します。| }}
+{{APIFunction|printInfo| |メッシュに関する詳細情報を取得します。| }}
 
 
-{{APIFunction/jp|read| |ファイルからメッシュを読み込みます。| }}
+{{APIFunction|read| |ファイルからメッシュを読み込みます。| }}
 
 
-{{APIFunction/jp|refine| |メッシュを細かくします。| }}
+{{APIFunction|refine| |メッシュを細かくします。| }}
 
 
-{{APIFunction/jp|removeComponents|integer|与えられたファセット数より少なくなるように構成要素を削除します。| }}
+{{APIFunction|removeComponents|integer|与えられたファセット数より少なくなるように構成要素を削除します。| }}
 
 
-{{APIFunction/jp|removeDuplicatedFacets| |二重定義されたファセットを削除します。| }}
+{{APIFunction|removeDuplicatedFacets| |二重定義されたファセットを削除します。| }}
 
 
-{{APIFunction/jp|removeDuplicatedPoints| |二重定義された点を削除します。| }}
+{{APIFunction|removeDuplicatedPoints| |二重定義された点を削除します。| }}
 
 
-{{APIFunction/jp|removeFacets|list|メッシュからファセットのインデックスのリストを削除します。| }}
+{{APIFunction|removeFacets|list|メッシュからファセットのインデックスのリストを削除します。| }}
 
 
-{{APIFunction/jp|removeFoldsOnSurface| |表面上のしわを削除します。| }}
+{{APIFunction|removeFoldsOnSurface| |表面上のしわを削除します。| }}
 
 
-{{APIFunction/jp|removeNonManifolds| |ノンマニホールドな形状を削除します。| }}
+{{APIFunction|removeNonManifolds| |ノンマニホールドな形状を削除します。| }}
 
 
-{{APIFunction/jp|rotate| |メッシュに対して回転を適用します。| }}
+{{APIFunction|rotate| |メッシュに対して回転を適用します。| }}
 
 
-{{APIFunction/jp|setPoint|int, Vector|インデックスの点を設定します。| }}
+{{APIFunction|setPoint|int, Vector|インデックスの点を設定します。| }}
 
 
-{{APIFunction/jp|smooth| |メッシュを滑らかにします。| }}
+{{APIFunction|smooth| |メッシュを滑らかにします。| }}
 
 
-{{APIFunction/jp|snapVertex| |縁に新しいファセットを挿入します。| }}
+{{APIFunction|snapVertex| |縁に新しいファセットを挿入します。| }}
 
 
-{{APIFunction/jp|splitEdge| |エッジを分割します。| }}
+{{APIFunction|splitEdge| |エッジを分割します。| }}
 
 
-{{APIFunction/jp|splitEdges| |全てのエッジを分割します。| }}
+{{APIFunction|splitEdges| |全てのエッジを分割します。| }}
 
 
-{{APIFunction/jp|splitFacet| |ファセットを分割します。| }}
+{{APIFunction|splitFacet| |ファセットを分割します。| }}
 
 
-{{APIFunction/jp|swapEdge| |隣接ファセットと共有するエッジをスワップします。| }}
+{{APIFunction|swapEdge| |隣接ファセットと共有するエッジをスワップします。| }}
 
 
-{{APIFunction/jp|transform| |メッシュに変換を適用します。| }}
+{{APIFunction|transform| |メッシュに変換を適用します。| }}
 
 
-{{APIFunction/jp|transformToEigen| |メッシュを固有基底に変換します。| }}
+{{APIFunction|transformToEigen| |メッシュを固有基底に変換します。| }}
 
 
-{{APIFunction/jp|translate|Vector|メッシュに変換を適用します。| }}
+{{APIFunction|translate|Vector|メッシュに変換を適用します。| }}
 
 
-{{APIFunction/jp|unite|Mesh|メッシュと別のメッシュをつなぎ合わせます。| }}
+{{APIFunction|unite|Mesh|メッシュと別のメッシュをつなぎ合わせます。| }}
 
 
-{{APIFunction/jp|write|string|ファイルにメッシュオブジェクトを書き込みます。| }}
+{{APIFunction|write|string|ファイルにメッシュオブジェクトを書き込みます。| }}
 
 
-{{APIFunction/jp|writeInventor| |OpenInventor形式のメッシュを文字列に書き込みます。|文字列}}
+{{APIFunction|writeInventor| |OpenInventor形式のメッシュを文字列に書き込みます。|文字列}}
 
 
-{{APIProperty/jp|Area|メッシュオブジェクトの面積}}
+{{APIProperty|Area|メッシュオブジェクトの面積}}
 
 
-{{APIProperty/jp|CountFacets|メッシュオブジェクトのファセット数}}
+{{APIProperty|CountFacets|メッシュオブジェクトのファセット数}}
 
 
-{{APIProperty/jp|CountPoints|メッシュオブジェクトの頂点数}}
+{{APIProperty|CountPoints|メッシュオブジェクトの頂点数}}
 
 
-{{APIProperty/jp|Facets|ファセットのコレクション。この属性を使うと次のようにしてメッシュのファセットにアクセスできます。for p in mesh.Facets: print p}}
+{{APIProperty|Facets|ファセットのコレクション。この属性を使うと次のようにしてメッシュのファセットにアクセスできます。for p in mesh.Facets: print p}}
 
 
-{{APIProperty/jp|Points|メッシュの点のコレクション。この属性を使うと次のようにしてメッシュの点にアクセスできます。for p in mesh.Points: print p.x, p.y, p.z}}
+{{APIProperty|Points|メッシュの点のコレクション。この属性を使うと次のようにしてメッシュの点にアクセスできます。for p in mesh.Points: print p.x, p.y, p.z}}
 
 
-{{APIProperty/jp|Topology|タプルでの点と面のインデックス}}
+{{APIProperty|Topology|タプルでの点と面のインデックス}}
 
 
-{{APIProperty/jp|Volume|メッシュオブジェクトの体積}}
+{{APIProperty|Volume|メッシュオブジェクトの体積}}
 
 
-{{APIProperty/jp|BoundBox|オブジェクトのバウンディングボックス}}
+{{APIProperty|BoundBox|オブジェクトのバウンディングボックス}}
 
 
-{{APIProperty/jp|Matrix|行列形式でのオブジェクトの現在の変換}}
+{{APIProperty|Matrix|行列形式でのオブジェクトの現在の変換}}
 
 
-{{APIProperty/jp|Placement|Placement形式でのオブジェクトの現在の変換}}
+{{APIProperty|Placement|Placement形式でのオブジェクトの現在の変換}}
 
 
  

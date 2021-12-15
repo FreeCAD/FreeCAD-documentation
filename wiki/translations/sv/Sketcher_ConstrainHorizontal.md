@@ -5,7 +5,7 @@
    Workbenches:[Sketcher](Sketcher_Workbench/sv.md)
    Shortcut:H
    MenuLocation:Sketch → Sketcher constraints → Constrain horizontally
-   SeeAlso:[Constraint Vertical](Constraint_Vertical/sv.md)
+   SeeAlso:[Constraint Vertical](Sketcher_ConstrainVertical/sv.md)
 ---
 
 # Sketcher ConstrainHorizontal/sv

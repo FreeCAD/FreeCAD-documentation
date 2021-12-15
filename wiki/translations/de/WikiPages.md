@@ -68,29 +68,55 @@ Um dich schnell mit der Struktur und dem Stil des FreeCAD Wikis vertraut zu mach
 
 Der [Anlaufstelle für Anwender](User_hub/de.md) bietet ein [Inhaltsverzeichnis](Online_Help_Toc/de.md). Dies wird als Hauptreferenz für die automatische Erstellung der Hilfe ohne Internetverbindung, die du von FreeCAD aus erreichen kannst, sowie der PDF Dokumentation ohne Internetverbindung verwendet.
 
+
+<div class="mw-translate-fuzzy">
+
 Die _ dient dem sequentiellen Verweis von Seiten, entsprechend der Struktur des [Inhaltsverzeichnisses](Online_Help_Toc/de.md). Siehe [\#Vorlagen](#Vorlagen.md) für eine Liste aller Vorlagen.
+
+
+</div>
 
 ### Seitennamen
 
+
+<div class="mw-translate-fuzzy">
+
 Die Seitennamen sollten kurz sein, und sie sollten \"Satzfall\" statt \"Titelfall\" verwenden. Dies ist der [von Wikipedia verwendete Stil](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Capital_letters#Headings,_headers,_and_captions) für deine Artikel.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 
 Schlechter Seitenname:
 :   Konstruktion von LuftfahrtUnternehmensflugzeugen
 
 
+</div>
 
+
+<div class="mw-translate-fuzzy">
 
 
 Guter Seitenname:
 :   Konstruktion von LuftfahrtUnternehmensflugzeugen
 
-Die Arbeitsbereichsseite der obersten Ebene muss das Format XYZ Arbeitsbereich haben, wobei XYZ der Name des Arbeitsbereichs ist, zum Beispiel _. Beachte, dass du den Befehlsnamen so verwenden solltest, wie er im Quellcode vorkommt.
 
-Eine frühere Konvention sah die Verwendung des Titelfalles vor; jedes Wort sollte mit einem Großbuchstaben beginnen, es sei denn, es handelt sich um Artikel, Präpositionen, Konjunktionen oder andere grammatikalische Partikel, d.h. \"von, auf, in, a, an, und\" usw. Es gibt viele Seiten, die diesen Stil verwenden, aber davon wird bei neuen Seiten abgeraten. Dies wird im Forumsbeitrag diskutiert [(Verweise in Kleinbuchstaben) Verwende einen kleingeschriebenen Titel für eine Wiki Seite](https://forum.freecadweb.org/viewtopic.php?p=266029#p266029).
+</div>
+
+Die Arbeitsbereichsseite der obersten Ebene muss das Format XYZ Arbeitsbereich haben, wobei XYZ der Name des Arbeitsbereichs ist, zum Beispiel _. Beachte, dass du den Befehlsnamen so verwenden solltest, wie er im Quellcode vorkommt.
 
 ### Oberbegriffe
 
+
+<div class="mw-translate-fuzzy">
+
 Wie die Seitennamen sollten auch die Absatzüberschriften kurz sein und Groß- und Kleinschreibung verwenden. Du solltest keine H1 Überschriften (= Überschrift =) in feinem Wiki Markup verwenden, da der Seitentitel automatisch als Hauptüberschrift H1 hinzugefügt wird.
+
+
+</div>
 
 ### Verweise
 
@@ -108,11 +134,23 @@ Guter Verweis
 
 Das bevorzugte Format für einen Verweis ist:
 
+
+<div class="mw-translate-fuzzy">
+
 [Seitenname](Name_of_page/de.md)
+
+
+</div>
 
 Übersetzt:
 
+
+<div class="mw-translate-fuzzy">
+
 [nom de la page](Name_of_page/fr.md)
+
+
+</div>
 
 Beachte, dass für den Teil vor dem | Zeichen, der eigentliche Verweis, die Groß-/Kleinschreibung relevant ist. Wenn dein Seitenname Name_der_Seite lautet, wird der Verweis fehlschlagen, wenn du Name_der_Seite (Großbuchstabe P) eingibst. Vor dem Zeichen | sollten alle Leerzeichen durch Unterstriche (_) ersetzt werden. Dies dient der Unterstützung von Übersetzern, die eine Übersetzungssoftware verwenden. Ohne die Unterstriche würde der Verweis von der Software übersetzt werden, was unerwünscht ist.
 
@@ -289,7 +327,7 @@ Diese Vorlagen akzeptieren einen einfachen Textparameter und formatieren es mit 
 |                                                                                                               | {{VersionPlus/de|0.17}}              |                                                                                                                                                                                                                                                                                                                |
 |                                                                                                               |                                   |                                                                                                                                                                                                                                                                                                                |
 +---------------------------------------------------------------------------------------------------------------+--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| _                                                                |                       | Verwende diese Vorlage, um den Hintergrund, den Text oder Hintergrund und Text einzufärben. (_ Seite für weitere Beispiele)                                                                                                                                   |
+| _                                                                |                       | Verwende diese Vorlage, um den Hintergrund, den Text oder Hintergrund und Text einzufärben. (_ Seite für weitere Beispiele)                                                                                                                                      |
 |                                                                                                               | {{ColoredText|Farbiger Text}}        |                                                                                                                                                                                                                                                                                                                |
 |                                                                                                               |                                   |                                                                                                                                                                                                                                                                                                                |
 +---------------------------------------------------------------------------------------------------------------+--------------------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -353,7 +391,7 @@ Diese Vorlagen erfordern mehr Eingabeparameter oder erzeugen einen Textblock mit
 | _                                                 |                                                                                                                                         | Verwende es anstelle der normalen Umleitung, wenn du auf eine spezielle Seite (z. B. Media: oder Category:) umleitest, in deren Fällen die normale Umleitung deaktiviert ist.                                                                                                                                                                   |
 +--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | _                                                               |                                                                                                                          | Verwende es, um einen Textkasten mit einem wörtlichen Zitat und einer Referenz zu erstellen.                                                                                                                                                                                                                                                    |
-|                                                                                                  | {{Quote|Text=Rufe "Verwüstung" und lass die Hunde des Krieges los.|sign=William Shakespeare|source=''Julius Cäsar'', Akt III, Szene I}} |                                                                                                                                                                                                                                                                                                                                                 |
+|                                                                                                  | {{Quote|text=Rufe "Verwüstung" und lass die Hunde des Krieges los.|sign=William Shakespeare|source=''Julius Cäsar'', Akt III, Szene I}} |                                                                                                                                                                                                                                                                                                                                                 |
 |                                                                                                  |                                                                                                                                      |                                                                                                                                                                                                                                                                                                                                                 |
 +--------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | _, _ |                                                                                                                                         | Verwende diese, um Navigationsboxen für die Benutzerdokumentation, die Dokumentation für erfahrene Nutzer und die Entwicklerdokumentation zu erstellen. Dies ermöglicht ein schnelles Springen zwischen verschiedenen Abschnitten der Dokumentation. Außerdem platzieren sie die entsprechende Seite in der richtigen Kategorie.                |
@@ -390,7 +428,7 @@ Gib deinem Bild einen aussagekräftigen Namen. Wenn du ein Bild hast, das die Me
 
 Empfohlene Größen für Bildschirmfotos sind:
 
--   Natürliches 400x200 (oder Breite=400 und Höhe\<=200), für [Gui Befehl](Gui_Command//de.md) Seiten, damit das Bild in den linken Teil der Seite passt, und für andere Standard-Schnappschüsse.
+-   Natürliches 400x200 (oder Breite=400 und Höhe\<=200), für [Gui Befehl](Gui_Command/de.md) Seiten, damit das Bild in den linken Teil der Seite passt, und für andere Standard-Schnappschüsse.
 -   Natürliches 600x400 (oder Breite=600 und Höhe\<=400), für [Gui Befehl](Gui_Command/de.md) Seiten, wenn du wirklich ein größeres Bild benötigst und das Bild trotzdem in den linken Teil der Seite passen soll, und für andere Standard Schnappschüsse.
 -   Natürliches 1024x768 (oder Breite=1024 und Höhe\<=768), nur für Vollbildschirm Bilder.
 -   Kleinere Größen sind bei der Darstellung von Details möglich, verwende jedoch die natürliche Auflösung, keine Größenänderung oder Miniaturbilder, es sei denn, du hast einen sehr guten Grund dafür.
@@ -533,9 +571,15 @@ Siehe [Glossar](Glossary/de.md)
 
 ### Andere Sprachen 
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Italienisch](Italian_Translation.md)
 -   [Französisch](French_Translation.md)
 -   [Deutsch](German_Translation.md)
+
+
+</div>
 
 _ _ _ _
 

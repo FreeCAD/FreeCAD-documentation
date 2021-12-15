@@ -139,7 +139,7 @@ FreeCAD kann nun, Dank des kostenlosen, plattformübergreifenden _.
 
 ### Entwurf zu Zeichnung jetzt auch für Gruppen 
 
-Das Werkzeug [Entwurf zu Zeichnung](Draft_Drawing.md), mit dem man Entwurfsobjekte in eine [Zeichnung](DrawingWorkbench/de.md) einfügen kann, kann jetzt auch auf Gruppen angewandt werden, wodurch weniger Ansichtsobjekten benötigt werden. Indem man Entwurfsobjekte geschickt in Gruppen zusammenfasst, kann man schnell das Erscheinungsbild vieler Objekte auf einer Seite anpassen.
+Das Werkzeug [Entwurf zu Zeichnung](Draft_Drawing.md), mit dem man Entwurfsobjekte in eine [Zeichnung](Drawing_Workbench/de.md) einfügen kann, kann jetzt auch auf Gruppen angewandt werden, wodurch weniger Ansichtsobjekten benötigt werden. Indem man Entwurfsobjekte geschickt in Gruppen zusammenfasst, kann man schnell das Erscheinungsbild vieler Objekte auf einer Seite anpassen.
 
 ### Überarbeite Bemaßungen 
 

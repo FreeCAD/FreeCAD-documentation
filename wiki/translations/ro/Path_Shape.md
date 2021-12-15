@@ -29,7 +29,7 @@ Traiectoria uneltelor nu sunt compensate pentru raza sculei. Nici un controler d
 Toate muchiile asociate cu selecția Modelului 3D vor fi incluse.
 
 1.  Selectați muchiile prin selectarea întregului obiect din vizualizarea 3D sau din arborescența document, sau prin selectarea muchiilor individuale, sau a Fațetelor din vizualizarea 3D
-2.  apăsați butonul **<img src="images/Path_GcodeFromShape.png_‎" width=16px> [From Shape](Path_FromShapes.md)
+2.  apăsați butonul **<img src="images/Path_GcodeFromShape.png_‎" width=16px> [From Shape](Path_Shape.md)
 **
 
 

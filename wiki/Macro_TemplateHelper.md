@@ -20,18 +20,21 @@ If you wish, you can fill the space between the title block and the upper border
 
 ## Usage
 
-1.  Open a FreeCAD file or add a new one
-2.  Launch the Macro
-3.  Select page format
-4.  Select language for the title block
-5.  If you need a BOM change the number of rows
+1.  Open a FreeCAD file or add a new one.
+2.  Find the macro file in your macro directory using <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Macros\...](Std_DlgMacroExecute.md) and select it.
+
+    :   (The Script section below describes how to put it there.)
+3.  Press **Execute** to start the macro.
+4.  Select page format.
+5.  Select language for the title block.
+6.  If you need a BOM change the number of rows.
 
 :   
 
     :   You can use the right mouse button to reset to 0 or
-    :   to set the maximum number of rows that fit on your chosen page size
+    :   to set the maximum number of rows that fit on your chosen page size.
 
-:   Finally: Click OK to continue
+:   Finally: Click **OK** to continue.
 
 ## Dialogue window 
 
@@ -50,6 +53,15 @@ English is default and just one version, but maybe someone likes to distinguish 
 *BOM options*
 
 ## Script
+
+The Macro should be found in the macro directory. To put it there, you need to:
+
+1.  Select the macro below (from **\#! pyth\...** to **\...main()**).
+2.  Copy the selection.
+3.  Create a new macro file using <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> [Macros\...](Std_DlgMacroExecute.md) and select **Create**.
+4.  Type in the name (TemplateHelper) and select **OK**. (*.FCMacro* is added automatically.)
+5.  Paste the clipboard content into the Editor window.
+6.  Press <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:16px;"> [Execute macro](Std_DlgMacroExecuteDirect.md) to start the macro.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">

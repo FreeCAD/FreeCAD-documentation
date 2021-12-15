@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:TechDraw ProjectionGroup
-   Name/fr:TechDraw Groupe de projection
-   MenuLocation:TechDraw → Insérer un groupe de projection
+   Name/fr:TechDraw Groupe de projections
+   MenuLocation:TechDraw → Insérer un groupe de projections
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    SeeAlso:[TechDraw Vue active](TechDraw_View/fr.md), [TechDraw Vue de coupe](TechDraw_SectionView/fr.md)
 ---
@@ -11,9 +11,9 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:24px;"> [Groupe de projection](TechDraw_ProjectionGroup/fr.md) crée une [projection multi-vue](https://en.wikipedia.org/wiki/Multiview_projection) d\'un ou plusieurs objets 3D. Les vues isométriques des 4 coins de devant peuvent également être incluses.
+L\'outil <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:24px;"> [Groupe de projections](TechDraw_ProjectionGroup/fr.md) crée une [projection multi-vue](https://en.wikipedia.org/wiki/Multiview_projection) d\'un ou plusieurs objets 3D. Les vues isométriques des 4 coins de devant peuvent également être incluses.
 
-Si vous ne voulez produire qu\'une seule vue, l\'utilisation de Projection de groupe ne présente aucun avantage. Vous devez alors utiliser _) au lieu de *Groupe de projection*.
+Si vous ne voulez produire qu\'une seule vue, l\'utilisation de Groupe de projections ne présente aucun avantage. Vous devez alors utiliser _) au lieu de *Groupe de projections*.
 
 <img alt="" src=images/TechDraw_ProjGroup_example.png  style="width:400px;"> 
 *Trois vues orthogonales et une vue isométrique d'un objet solide*
@@ -22,13 +22,13 @@ Si vous ne voulez produire qu\'une seule vue, l\'utilisation de Projection de gr
 
 1.  Sélectionnez un ou plusieurs objets \"Corps\" et/ou \"Part\" dans la fenêtre 3D ou dans l\'arborescence .
 2.  Si vous avez plusieurs pages de dessin dans votre document, vous devrez également sélectionner la page désirée dans l\'arborescence.
-3.  Appuyez sur le bouton **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Insérer un groupe de projection](TechDraw_ProjectionGroup/fr.md)**.
+3.  Appuyez sur le bouton **<img src="images/TechDraw_ProjectionGroup.svg" width=16px> [Insérer un groupe de projections](TechDraw_ProjectionGroup/fr.md)**.
 4.  Une boîte de dialogue s\'ouvre dans laquelle vous pouvez sélectionner les vues qui doivent apparaître dans le groupe, l\'échelle du groupe et d\'autres paramètres.
 
 ![](images/TaskProjGroup.png ) 
-*[Panneau des tâches](Task_Panel/fr.md) de Projection Group pour choisir les options du groupe de projection. Le champ central indique la direction de la vue en cours avec les pourcentages des axes x, y et z.*
+*[Panneau des tâches](Task_Panel/fr.md) de Groupe de projections pour choisir les options du groupe de projection. Le champ central indique la direction de la vue en cours avec les pourcentages des axes x, y et z.*
 
-Après avoir créé le Groupe de projection, vous pouvez déplacer le groupe dans son ensemble en faisant glisser la vue centrale. Vous pouvez également déplacer les vues de projection en les faisant glisser.
+Après avoir créé le Groupe de projections, vous pouvez déplacer le groupe dans son ensemble en faisant glisser la vue centrale. Vous pouvez également déplacer les vues de projection en les faisant glisser.
 
 ## Propriétés
 
@@ -42,7 +42,7 @@ Après avoir créé le Groupe de projection, vous pouvez déplacer le groupe dan
 
 -    **spacingY**: Espace vertical entre les vues si le positionnement automatique est demandé.
 
-ProjectionGroup dans son ensemble hérite de X, Y, ScaleType, Scale (Échelle) et Rotation à partir de la vue de base.
+Groupe de projections dans son ensemble hérite de X, Y, ScaleType, Scale (Échelle) et Rotation à partir de la vue de base.
 
 Les vues individuelles au sein du groupe héritent de toutes les propriétés de vue de la pièce, mais l\'objet ProjectionGroup contrôle l\'échelle de toutes ses vues membres.
 

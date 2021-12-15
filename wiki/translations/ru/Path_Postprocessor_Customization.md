@@ -3,7 +3,13 @@
 
 ## Введение
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD использует внутреннее представление для сгенерированных трасс инструментов, называемых G-кодами. Они могут описывать такие вещи как: скорость и глубина резания, остановка мотора и так далее\... Но важнее всего описываемое ими движение. Эти движения обычно просты: это могут быть прямые линии или дуги. Более сложные кривые вроде B-сплайнов апроксимируются <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [верстаком Path](Path_Workbench/ru.md) FreeCADа.
+
+
+</div>
 
 ## Что для вас может сделать постпроцессор 
 
@@ -14,10 +20,10 @@ Many mills use G-codes as well to control the milling process. They may look alm
 -   arcs can be defined with a relative or an absolute center
 -   it may require line numbers in a certain format
 -   it can used so called canned cycles for predefined subprocesses such as drilling
--   You might prefer your G-code output in either metric or imperial units.
--   It might be useful to perform a set of moves prior to calling for a tool change to make the action easier for the operator
--   You might wish to include comments for readability or suppress them to keep the program small
--   You might wish to include a custom header to identify or document the program for future reference.
+-   you might prefer your G-code output in either metric or imperial units.
+-   it might be useful to perform a set of moves prior to calling for a tool change to make the action easier for the operator
+-   you might wish to include comments for readability or suppress them to keep the program small
+-   you might wish to include a custom header to identify or document the program for future reference.
 -   \...
 
 Furthermore there are other languages to control a mill, such as HPGL, DXF, or others.
@@ -36,7 +42,7 @@ The path in FreeCAD would look like this. Please note the small blue arrow, it i
 
 ![](images/Path_PostProcessorModel.png )
 
-You can then have a look at the file and compare it to the output of existing postprocessors such as {{FileName|linux_cnc_post.py}} or {{FileName|grbl_post.py}} and try yourself to adapt them or you upload your to the Path forum <https://forum.freecadweb.org/viewforum.php?f=15> to get some help.
+You can then have a look at the file and compare it to the output of existing postprocessors such as {{FileName|linux_cnc_post.py}} or {{FileName|grbl_post.py}} and try yourself to adapt them or you upload your to the [Path forum](https://forum.freecadweb.org/viewforum.php?f=15) to get some help.
 
 ## Naming convention 
 
@@ -46,9 +52,7 @@ If you are testing, place it in your macro directory. If it functions well, plea
 
 ## Other existing postprocessors 
 
-For comparison you may look at the postprocessors which come with your FreeCAD installation. They are located under the Mod directory in Path/PathScripts/post. Widely used are the [linuxcnc](http://linuxcnc.org/) and the [grbl](https://github.com/grbl/grbl) postprocessors. Studying their code can give helpful insights.
-
--   On Linux the path is /usr/share/freecad/Mod/Path/PathScripts/post
+For comparison you may look at the postprocessors which come with your FreeCAD installation. They are located under the directory /Mod/Path/PathScripts/post. Widely used are the [linuxcnc](http://linuxcnc.org/) and the [grbl](https://github.com/grbl/grbl) postprocessors. Studying their code can give helpful insights.
 
 ## Programming your own postprocessor 
 

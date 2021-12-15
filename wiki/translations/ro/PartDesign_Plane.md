@@ -31,7 +31,7 @@ A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" s
 <div class="mw-translate-fuzzy">
 
 1.  Apăsați butonul **<img src="images/PartDesign_Plane.png" width=24px> '''Create a datum plane'''**.
-2.  Define Plane parameters. Select a first reference in the 3D view to filter the available [attachment](Part_Attachment.md) modes.
+2.  Define Plane parameters. Select a first reference in the 3D view to filter the available [attachment](Part_EditAttachment.md) modes.
 3.  Depending on the selected reference, there may be one or more attachment modes available in the the list. The most likely one will automatically be selected and shown in bold in the list. The text *Attached with mode* along with the attachment mode name will appear in green at the top of the Parameters panel.
 4.  To add an additional reference, press the next **Reference** button. Once pressed its label changes to *Selecting\...* until a selection is made.
 5.  Select an attachment mode in the list.
@@ -52,7 +52,7 @@ A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" s
 
 <div class="mw-translate-fuzzy">
 
-Faceți dublu clic pe eticheta DatumPlane din arborescența Model sau faceți clic cu butonul din dreapta și selectați **Editați datum** din meniul contextual pentru a edita parametrii. Pentru mai multe detalii despre modul referențiere și offset (decalajul referinței), consultați [Attachment](Part_Attachment.md).
+Faceți dublu clic pe eticheta DatumPlane din arborescența Model sau faceți clic cu butonul din dreapta și selectați **Editați datum** din meniul contextual pentru a edita parametrii. Pentru mai multe detalii despre modul referențiere și offset (decalajul referinței), consultați [Attachment](Part_EditAttachment.md).
 
 
 </div>

@@ -102,13 +102,7 @@ Estas são ferramentas para criar novos objetos e modificar os existentes.
 
 -   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Projeção na superfície](Part_ProjectionOnSurface/pt-br.md): Projeta um logotipo, texto ou qualquer face, fio ou borda em uma superfície. <small>(v0.19)</small> 
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Part_Attachment.svg  style="width:32px;"> [Anexo](Part_Attachment/pt-br.md): Prende um objeto a outro objeto.
-
-
-</div>
+-   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Anexo](Part_EditAttachment/pt-br.md): Prende um objeto a outro objeto.
 
 ### Booleano
 

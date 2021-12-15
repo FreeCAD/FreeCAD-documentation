@@ -5,7 +5,7 @@
    MenuLocation:TechDraw → Bemaßung Winkel3Punkte
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
    Version:0.18
-   SeeAlso:[TechDraw Bemaßung Winkel](TechDraw_Dimension_Angle/de.md)
+   SeeAlso:[TechDraw Bemaßung Winkel](TechDraw_AngleDimension/de.md)
 ---
 
 # TechDraw 3PtAngleDimension/de
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Das <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:24px;"> Bemaßung Winkel3Punkte Werkzeug fügt einer Ansicht eine Winkelbemaßung hinzu. Der Winkel kann durch Auswahl von drei Knoten in einer Ansicht festgelegt werden. **Beachte, dass der zweite der drei Knoten der Scheitelpunkt des Winkels ist.**. Der Winkel3Punkte ist zunächst der projizierte Winkel (d. h. wie in der Zeichnung gezeigt), kann aber mit Hilfe des **<img src="images/TechDraw_Dimension_Link.svg" width=16px> [Bemaßungen verknüpfen](TechDraw_Dimension_Link/de.md)** Werkzeugs in den tatsächlichen 3D Winkel geändert werden.
+Das <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:24px;"> Bemaßung Winkel3Punkte Werkzeug fügt einer Ansicht eine Winkelbemaßung hinzu. Der Winkel kann durch Auswahl von drei Knoten in einer Ansicht festgelegt werden. **Beachte, dass der zweite der drei Knoten der Scheitelpunkt des Winkels ist.**. Der Winkel3Punkte ist zunächst der projizierte Winkel (d. h. wie in der Zeichnung gezeigt), kann aber mit Hilfe des **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Bemaßungen verknüpfen](TechDraw_LinkDimension/de.md)** Werkzeugs in den tatsächlichen 3D Winkel geändert werden.
 
 
 </div>
@@ -32,7 +32,7 @@ Das <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:24px;">
 <div class="mw-translate-fuzzy">
 
 1.  Wähle die Punkte oder die Kante, die die Messung festlegt.
-2.  Drücke die **<img src="images/TechDraw_Dimension_Angle3Pt.png" width=16px> [Bemaßung Winkel3Punkte](TechDraw_Dimension_Angle3Pt/de.md)** Schaltfläche
+2.  Drücke die **<img src="images/TechDraw_3PtAngleDimension.svg" width=16px> [Bemaßung Winkel3Punkte](TechDraw_3PtAngleDimension/de.md)** Schaltfläche
 3.  Eine Bemaßung wird zur Ansicht hinzugefügt. Die Bemaßung kann an die gewünschte Position gezogen werden.
 4.  Falls erforderlich, füge Toleranzen, wie in [diese Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzu.
 
@@ -42,7 +42,7 @@ Das <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:24px;">
 
 <div class="mw-translate-fuzzy">
 
-Um die Eigenschaften eines Bemaßungsobjekts zu ändern, doppel-klicke sie entweder in der Zeichnung oder in der [Baumansicht](Tree_view/de.md). Dadurch wird der [Bemaßungsdialog](TechDraw_Dimension_Length/de#Bemaßung_Dialog.md) geöffnet.
+Um die Eigenschaften eines Bemaßungsobjekts zu ändern, doppel-klicke sie entweder in der Zeichnung oder in der [Baumansicht](Tree_view/de.md). Dadurch wird der [Bemaßungsdialog](TechDraw_LengthDimension/de#Bemaßung_Dialog.md) geöffnet.
 
 
 </div>
@@ -52,7 +52,7 @@ Um die Eigenschaften eines Bemaßungsobjekts zu ändern, doppel-klicke sie entwe
 
 <div class="mw-translate-fuzzy">
 
-Bemaßungsobjekte sind anfällig für \"[topologische Benennungs](topological_naming_problem/de.md)\" Probleme. Siehe dazu die Informationen im **<img src="images/TechDraw_Dimension_Length.svg" width=16px> [TechDraw Bemaßung Länge](TechDraw_Dimension_Length/de.md)** Werkzeug für weitere Informationen.
+Bemaßungsobjekte sind anfällig für \"[topologische Benennungs](topological_naming_problem/de.md)\" Probleme. Siehe dazu die Informationen im **<img src="images/TechDraw_LengthDimension.svg" width=16px> [TechDraw Bemaßung Länge](TechDraw_LengthDimension/de.md)** Werkzeug für weitere Informationen.
 
 
 </div>
@@ -62,7 +62,7 @@ Bemaßungsobjekte sind anfällig für \"[topologische Benennungs](topological_na
 
 <div class="mw-translate-fuzzy">
 
-Dieses Objekt hat die gleichen Eigenschaften wie das [TechDraw Längenbemassung](TechDraw_Dimension_Length/de.md) Werkzeug. Siehe das Werkzeug für Einzelheiten.
+Dieses Objekt hat die gleichen Eigenschaften wie das [TechDraw Längenbemassung](TechDraw_LengthDimension/de.md) Werkzeug. Siehe das Werkzeug für Einzelheiten.
 
 
 </div>

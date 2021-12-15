@@ -1,10 +1,4 @@
 # Manual:BIM modeling/fr
-}
-
-
-
-
-
 {{Manual:TOC/fr}}
 
 BIM signifie [Building Information Modeling](https://en.wikipedia.org/wiki/Building_information_modeling). La définition exacte du contenu varie, mais nous pouvons simplement dire que c\'est comme cela que les bâtiments et autres grandes structures comme les ponts, les tunnels, etc. sont modélisés aujourd\'hui. Les modèles BIM sont généralement basés sur des modèles 3D et incluent également une série de couches d\'informations supplémentaires, telles que des informations sur les matériaux, des relations avec d\'autres objets ou modèles ou des instructions spéciales pour la construction ou la maintenance. Ces informations supplémentaires permettent toutes sortes d\'analyses avancées du modèle, telles que la résistance structurelle, les estimations de coût et de temps de construction, ou les calculs de consommation d\'énergie.

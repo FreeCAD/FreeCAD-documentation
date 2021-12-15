@@ -26,7 +26,7 @@ The diameter of each string is configurable and the slots can be made a configur
 
 ## Usage
 
-1.  Download macro from the [Addon Manager](Addon_Manager.md)
+1.  Download macro from the [Addon Manager](Std_AddonMgr.md)
 2.  Execute macro
 
 ## Limitations

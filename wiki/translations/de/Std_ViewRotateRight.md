@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/de
-   Name:Std_RotateRight
+   Name:Std ViewRotateRight
    Name/de:Std_DrehenRechts
    MenuLocation:{{StdMenu|[Ansicht](Std_View_Menu/de.md)}}→ Standardansichten → Rechtsherum rotieren
    Shortcut:**Umschalten** + **Rechts**

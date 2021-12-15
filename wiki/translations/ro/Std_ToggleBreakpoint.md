@@ -1,9 +1,14 @@
-# Std ToggleBreakpoint/ro
 ---
-- GuiCommand:   Name:Std DebugToggle   Workbenches:All   MenuLocation:[[Std Macro Menu   Macro]] → Toggle breakpoint |Shortcut:F9   SeeAlso:---
+- GuiCommand:
+   Name:Std ToggleBreakpoint
+   Empty:1
+   MenuLocation:Macro → Toggle breakpoint
+   Workbenches:All
+   Shortcut:**F9**
+   SeeAlso:[Std MacroStepOver](Std_MacroStepOver.md), [Std MacroStepInto](Std_MacroStepInto.md)
+---
 
-
-</div>
+# Std ToggleBreakpoint/ro
 
 ## Description
 

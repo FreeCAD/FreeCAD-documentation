@@ -9,13 +9,13 @@ KicadStepUp Workbench is aimed at helping both KiCad and FreeCAD users in collab
 
 ## Background
 
-Kicad ([website](https://kicad-pcb.org/)) is an Open Source Electronics Design Automation Suite. It allows to design an electric circuit and create a single or multilayer circuit board using an extensive library of parts. The great thing is that using FreeCAD and KicadStepUp Workbench is official Kicad way to create 3D parts for electrical components for Kicad. The libraries are hosted [here](https://kicad.github.io/), so everyone can create and check in parts.
+Kicad ([website](https://kicad.org/)) is an Open Source Electronics Design Automation Suite. It allows to design an electric circuit and create a single or multilayer circuit board using an extensive library of parts. The great thing is that using FreeCAD and KicadStepUp Workbench is official Kicad way to create 3D parts for electrical components for Kicad. The libraries are hosted [here](https://kicad.github.io/), so everyone can create and check in parts.
 
 KiCADs GUI philosophy is a bit different compared to FreeCAD, expecially when it comes down to create elements and move them around. However, since Kicad is being used in production for years there is an excellent documentation, e.g. a very good \"Getting Started\" document. Additionally each tool has its own manual.
 
-If one does not know [Kicad](https://kicad-pcb.org/) yet, its recommended to complete a stand-alone PCB according to the [Getting Started Guide](https://docs.kicad-pcb.org/5.1/en/getting_started_in_kicad/getting_started_in_kicad.pdf) to understand the concepts involved. Although some topics like adding new schematics and footprints to a local library seem to be of little interet for the beginner, in practice they are often encountered quickly after starting a serious project.
+If one does not know [Kicad](https://kicad.org/) yet, its recommended to complete a stand-alone PCB according to the [Getting Started Guide](https://docs.kicad.org/5.1/en/getting_started_in_kicad/getting_started_in_kicad.pdf) to understand the concepts involved. Although some topics like adding new schematics and footprints to a local library seem to be of little interet for the beginner, in practice they are often encountered quickly after starting a serious project.
 
-For all these [Kicad](https://kicad-pcb.org/) concepts one can find a feature of some sort in the KicadStepUp workbench. So knowing those makes it a lot easier to understand how to use this workbench.
+For all these [Kicad](https://kicad.org/) concepts one can find a feature of some sort in the KicadStepUp workbench. So knowing those makes it a lot easier to understand how to use this workbench.
 
 
 <div class="mw-translate-fuzzy">

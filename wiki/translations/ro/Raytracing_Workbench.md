@@ -48,6 +48,9 @@ Atelierul de Randare funcționează împreună cu modulele [templates](Raytracin
 
 ### Instrumente de Proiect 
 
+
+<div class="mw-translate-fuzzy">
+
 Acestea sunt instrumentele principale pentru exportul lucrării dvs. 3D la programe de randare externe.
 
 -   <img alt="" src=images/Raytracing_New.png  style="width:32px;"> [New PovRay project](Raytracing_New.md): Inserează un nou proiect PovRay project în document
@@ -57,13 +60,16 @@ Acestea sunt instrumentele principale pentru exportul lucrării dvs. 3D la progr
 -   <img alt="" src=images/Raytracing_ExportProject.png  style="width:32px;"> [Export project](Raytracing_ExportProject.md): Exportă un proiect raytracing unui fișier de scenă pentru randarea într-un renderer extern
 -   <img alt="" src=images/Raytracing_Render.png  style="width:32px;"> [Render](Raytracing_Render.md): Proiectarea unui proiect de raytracing cu un renderer extern
 
+
+</div>
+
 ### Utilități
 
 Acestea sunt instrumente de ajutor pentru a efectua sarcini specifice în mod manual.
 
--   <img alt="" src=images/Raytracing_Export.png  style="width:32px;"> [Export view to povray](Raytracing_Export.md): Scrieți vizualizarea 3D activă cu camera și tot conținutul acesteia într-un fișier povray
--   <img alt="" src=images/Raytracing_Camera.png  style="width:32px;"> [Export camera to povray](Raytracing_Camera.md): Exportați poziția aparatului foto în vizualizarea 3D activă în format POV-Ray într-un fișier
--   <img alt="" src=images/Raytracing_Part.png  style="width:32px;"> [Export part to povray](Raytracing_Part.md): Scrieți Partea (obiect) selectată ca fișier povray
+-   <img alt="" src=images/Raytracing_WriteView.svg  style="width:32px;"> [Export view to povray](Raytracing_WriteView.md): Scrieți vizualizarea 3D activă cu camera și tot conținutul acesteia într-un fișier povray
+-   <img alt="" src=images/Raytracing_WriteCamera.svg  style="width:32px;"> [Export camera to povray](Raytracing_WriteCamera.md) Exportați poziția aparatului foto în vizualizarea 3D activă în format POV-Ray într-un fișier
+-   <img alt="" src=images/Raytracing_WritePart.svg  style="width:32px;"> [Export part to povray](Raytracing_WritePart.md): Scrieți Partea (obiect) selectată ca fișier povray
 
 ## Preferințe
 

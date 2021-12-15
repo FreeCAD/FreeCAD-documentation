@@ -8,7 +8,7 @@
 
 ## Descripción
 
-La [Bandeja Borrador](Bandeja_Borrador.md) te permite cambiar rápidamente las propiedades visuales de los objetos del [Ambiente de trabajo Borrador](Ambiente_de_trabajo_Borrador.md).
+La [Bandeja Borrador](Draft_Tray.md) te permite cambiar rápidamente las propiedades visuales de los objetos del [Ambiente de trabajo Borrador](Draft_Workbench.md).
 
 
 </div>

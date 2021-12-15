@@ -1,27 +1,28 @@
-# <img alt="Assembly3 workbench icon" src=images/Assembly3_workbench_icon.svg  style="width:64px;"> Assembly3 Workbench/pl
+# <img alt="Ikonka FreeCAD dla środowiska pracy Złożenie 3" src=images/Assembly3_workbench_icon.svg  style="width:64px;"> Assembly3 Workbench/pl
 
 
 {{TOCright}}
 
 ## Wprowadzenie
 
-<img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/pl.md) jest [zewnętrznym środowiskiem pracy](External_workbenches/pl.md), które jest używane do wykonywania złożeń różnych części zawartych w jednym lub wielu dokumentach. Środowisko to bazuje na kilku zmianach funkcji rdzenia FreeCAD w wersji 0.19 *(np. [App Link](App_Link/pl.md))*. Dlatego środowisko Assembly3 nie może być używane ze starszymi wersjami programu.
+<img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Złożenie 3](Assembly3_Workbench/pl.md) jest [zewnętrznym środowiskiem pracy](External_workbenches/pl.md), które jest używane do wykonywania złożeń różnych części zawartych w jednym lub wielu dokumentach. Środowisko to bazuje na kilku zmianach funkcji rdzenia FreeCAD w wersji 0.19 *(np. [App Link](App_Link/pl.md))*. Dlatego środowisko Złożenie 3 nie może być używane ze starszymi wersjami programu.
 
-Głównymi cechami Środowiska Assembly3 są
+Głównymi cechami środowiska **Złożenie 3** są:
 
--   **dynamiczny/interaktywny solwer**. Oznacza to, że możesz przesuwać części myszką, podczas gdy solwer będzie ograniczał ruch. To pozwala na przykład, na połączenie koła z osią i interaktywne poruszanie kołem przy pomocy myszki.
+-   **dynamiczny/interaktywny solver**. Oznacza to, że możesz przesuwać części myszką, podczas gdy solver będzie ograniczał ruch. To pozwala na przykład, na połączenie koła z osią i interaktywne poruszanie kołem przy pomocy myszki.
 -   **łącza**. To oznacza, że możesz używać pojedynczej części, np wkrętu, wielokrotnie w złożeniu *(w różnych miejscach)* bez kopiowania geometrii.
 -   **łącza zewnętrzne**. Możliwe jest posiadanie dokumentu FreeCAD zawierającego tylko złożenie, a nie części. Każda z części może być osobnym plikiem. Pliki mogą znajdować się nawet w bibliotece lub gdziekolwiek indziej w systemie plików. Jedynym wymogiem jest to, że ten plik musi być załadowany, kiedy tworzone jest łącze. Po utworzeniu łącza, plik musi być otwarty to wykonywania aktualizacji łączy dotyczących tego pliku. Assembly3 rozwiązuje to przez otwieranie plików w tle, gdy jest to konieczne.
--   **złożenia hierarchiczne**. W prawdziwym życiu złożenia mechaniczne mogą składać się z podzłożeń. One mogą składać się z kolejnych podzłozeń, a te z kolejnych, itd.
--   **zamrażanie złożeń**. Jako, że procesor potrafi zarządzać tylko określoną liczbą wiązań w czasie rzeczywistym, zamrażanie złożeń pozwala na używanie wiązań nawet do wielkich złożeń. Po zamrożeniu ukończonych złożeń lub wiązań, które nie muszą pozostać dynamiczne *(np. spawane, skręcane lub klejone części)* są one wyłączane z aktualizacji obliczeń i uznawane przez solwer Assembly3 za ustaloną geometrię.
+-   **złożenia hierarchiczne**. W prawdziwym życiu złożenia mechaniczne mogą składać się z złożeń podrzędnych. One mogą składać się z kolejnych złożeń podrzędnych, a te z kolejnych, itd.
+-   **zamrażanie złożeń**. Jako, że procesor potrafi zarządzać tylko określoną liczbą wiązań w czasie rzeczywistym, zamrażanie złożeń pozwala na używanie wiązań nawet do wielkich złożeń. Po zamrożeniu ukończonych złożeń lub wiązań, które nie muszą pozostać dynamiczne *(np. spawane, skręcane lub klejone części)* są one wyłączane z aktualizacji obliczeń i uznawane przez solver Złożenie 3 za ustaloną geometrię.
 
-    :   Zauważ inne podejścia rozwiązujące ten problem odmiennie, np. <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Środowisko Assembly4](Assembly4_Workbench/pl.md).
+    :   Zauważ inne podejścia rozwiązujące ten problem odmiennie, np. środowisko <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Złożenie 4](Assembly4_Workbench/pl.md).
 
-[na początek strony](#top.md)
+
+{{top}}
 
 ### Paski narzędzi 
 
-Środowisko Assembly3 zawiera następujące paski narzędzi - stan na rok 2020.
+Środowisko Złożenie 3 zawiera następujące paski narzędzi - stan na rok 2020.
 
 #### Główny pasek narzędzi 
 
@@ -36,73 +37,73 @@ Głównymi cechami Środowiska Assembly3 są
 
 <div class="mw-collapsible-content toccolours">
 
-:\* <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width:32px;"> [Create assembly](Assembly3_CreateAssembly.md): Add an assembly folder
+:\* <img alt="" src=images/Assembly_New_Assembly.svg‎‎  style="width:32px;"> [Utwórz złożenie](Assembly3_CreateAssembly/pl.md): Dodaj folder montażu.
 
-:\* <img alt="" src=images/Assembly_New_Group.svg‎‎  style="width:32px;"> [Group objects](Assembly3_GroupObjects.md): Group objects
+:\* <img alt="" src=images/Assembly_New_Group.svg‎‎  style="width:32px;"> [Grupuj obiekty](Assembly3_GroupObjects/pl.md): Grupuje obiekty.
 
-:\* <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:32px;"> [Create element](Assembly3_CreateElement.md): Create element.
+:\* <img alt="" src=images/Assembly_New_Element.svg‎‎  style="width:32px;"> [Utwórz element](Assembly3_CreateElement/pl.md): Tworzye element.
 
-:\* Import from STEP. This has two settings
+:\* Import z formatu STEP. Posiada dwa ustawienia
 
-:\*\* <img alt="" src=images/Assembly_Import.svg‎‎  style="width:32px;"> [Import from STEP](Assembly3_ImportFromSTEP.md): Import STEP files
+:\*\* <img alt="" src=images/Assembly_Import.svg‎‎  style="width:32px;"> [Importuj z formatu STEP](Assembly3_ImportFromSTEP/pl.md): Import plików w formacie STEP.
 
-:\*\* <img alt="" src=images/Assembly_ImportMulti.svg‎‎  style="width:32px;"> [Import as multi-document](Assembly3_ImportMultiDocument.md): Import assemblies from STEP into separate documents
+:\*\* <img alt="" src=images/Assembly_ImportMulti.svg‎‎  style="width:32px;"> [Importuj wiele dokumentów](Assembly3_ImportMultiDocument/pl.md): Import zespołów z dokumentu STEP do osobnych dokumentów.
 
-:\* <img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="width:32px;"> [Resolve constraints](Assembly3_ResolveConstraints.md): Resolve constraints
+:\* <img alt="" src=images/Assembly3_workbench_icon.svg‎‎  style="width:32px;"> [Rozwiąż wiązania](Assembly3_ResolveConstraints/pl.md): Rozwiązuje wiązania.
 
-:\* <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:32px;"> [Quick solve](Assembly3_QuickSolve.md): Quick resolve constraints
+:\* <img alt="" src=images/Assembly_QuickSolve.svg‎‎  style="width:32px;"> [Rozwiąż szybko](Assembly3_QuickSolve/pl.md): Wstępnie rozwiązuje wiązania.
 
-:\* <img alt="" src=images/Assembly_Move.svg‎‎  style="width:32px;"> [Move part](Assembly3_MovePart.md): Move parts in 3D, this is specific to Assembly3
+:\* <img alt="" src=images/Assembly_Move.svg‎‎  style="width:32px;"> [Przenieś część](Assembly3_MovePart/pl.md): Przesuwanie części w przestrzeni 3D, jest to specyficzne dla środowiska Złożenie3.
 
-:\* <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width:32px;"> [Axial move](Assembly3_AxialMove.md): Axial move parts in 3D, this is the classical tool available elsewhere in FreeCAD
+:\* <img alt="" src=images/Assembly_AxialMove.svg‎‎  style="width:32px;"> [Przesunięcie osiowe](Assembly3_AxialMove/pl.md): Przesuwanie w osi części w przestrzeni 3D, jest to klasyczne narzędzie dostępne w innych miejscach programu FreeCAD.
 
-:\* <img alt="" src=images/Assembly_QuickMove.svg‎‎  style="width:32px;"> [Quick move](Assembly3_QuickMove.md): This will attach the part selected in the tree to the mouse cursor. It will change the position of the part when you click.
+:\* <img alt="" src=images/Assembly_QuickMove.svg‎‎  style="width:32px;"> [Szybkie przesunięcie](Assembly3_QuickMove/pl.md): Spowoduje to dołączenie części zaznaczonej w drzewie do kursora myszki. Przy kliknięciu zmieni pozycję części.
 
-:\*: Often added parts are stacked upon each other in the origin. Use this function to grab a part you can not see.
+:\*: Często dodawane części są ułożone jedna na drugiej w miejscu początkowym. Użyj tej funkcji, aby chwycić część, której nie widzisz.
 
-:\* <img alt="" src=images/Assembly_LockMover.svg‎‎  style="width:32px;"> [Lock mover](Assembly3_LockMover.md): Lock mover for fixed part. Toggle Button. When this is un-selected you can move the parts that have a \"Locked\" constraint.
+:\* <img alt="" src=images/Assembly_LockMover.svg‎‎  style="width:32px;"> [Zablokuj przesunięcie](Assembly3_LockMover/pl.md): Blokada ruchu dla ustalonej części. Przycisk przełączający. Gdy nie jest aktywny, można przesuwać części, które mają wiązanie \"Zablokowane\".
 
-:\* <img alt="" src=images/Assembly_TogglePartVisibility.svg‎‎  style="width:32px;"> [Toggle part visibility](Assembly3_TogglePartVisibility.md): This toggles the visiblity of the selected part on/off.
+:\* <img alt="" src=images/Assembly_TogglePartVisibility.svg‎‎  style="width:32px;"> [Przełącz widoczność części](Assembly3_TogglePartVisibility/pl.md): Włącza/wyłącza wyświetlanie wybranej części.
 
-:\*: Note that this differs from using space. Using space with selected items from a sub-assembly in the 3D view often does not behave as expected. Use this function in those cases (or shortcut A-Space)
+:\*: Należy zauważyć, że funkcja ta różni się od użycia klawisza **Space**. Użycie spacji z wybranymi elementami podzespołu w widoku 3D często nie zachowuje się zgodnie z oczekiwaniami. W takich przypadkach należy użyć tej funkcji *(lub skrótu **A** + **Space**)*.
 
-:\* <img alt="" src=images/Assembly_Trace.svg‎‎  style="width:32px;"> [Trace part move](Assembly3_TracePartMove.md): Trace part move (TBD)
+:\* <img alt="" src=images/Assembly_Trace.svg‎‎  style="width:32px;"> [Śledzenie ruchu części](Assembly3_TracePartMove/pl.md): Śledzenie ruchu części *(do ustalenia)*.
 
-:\* <img alt="" src=images/Assembly_AutoRecompute.svg‎‎  style="width:32px;"> [Auto recompute](Assembly3_AutoRecompute.md): Auto recompute. Usually enabled.
+:\* <img alt="" src=images/Assembly_AutoRecompute.svg‎‎  style="width:32px;"> [Przelicz automatycznie](Assembly3_AutoRecompute/pl.md): Automatyczne ponowne obliczanie. Zazwyczaj włączone.
 
-:\*: May be un-selected when repairing constraints or fixing parts where the solver gives a *\"do not converge\"* message (e.g. by turning the part 180deg)
+:\*: Może być odznaczone podczas naprawiania wiązań lub naprawiania części, gdy solver daje komunikat *nie zbiega się* *(np. przez obrócenie części o 180 stopni)*.
 
-:\* <img alt="" src=images/Assembly_SmartRecompute.svg‎‎  style="width:32px;"> [Smart recompute](Assembly3_SmartRecompute.md): Smart recompute. Usually enabled.
+:\* <img alt="" src=images/Assembly_SmartRecompute.svg‎‎  style="width:32px;"> [Inteligentne przeliczanie](Assembly3_SmartRecompute/pl.md): Inteligentne ponowne obliczanie. Zazwyczaj włączone.
 
-:\* <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width:32px;"> [Auto fix element](Assembly3_AutoFixElement.md): Element Auto Fixing. Experimental feature in 0.19\_pre
+:\* <img alt="" src=images/Assembly_AutoFixElement.svg‎‎  style="width:32px;"> [Napraw element automatycznie](Assembly3_AutoFixElement/pl.md): Automatyczne naprawianie elementów. Funkcja eksperymentalna w wersji 0.19\_pre.
 
-:\* Element Style. This has two settings
+:\* Styl elementu. Ma on dwa ustawienia
 
-:\*\* <img alt="" src=images/Assembly_AutoElementVis.svg‎‎  style="width:32px;"> [Auto element visibility](Assembly3_AutoElementVisibility.md): Auto element visibility
+:\*\* <img alt="" src=images/Assembly_AutoElementVis.svg‎‎  style="width:32px;"> [Automatyczna widoczność elementów](Assembly3_AutoElementVisibility/pl.md): Automatyczne ustawianie widoczności elementów.
 
-:\*\* <img alt="" src=images/Assembly_ShowElementCS.svg‎‎  style="width:32px;"> [Show element coordinate system](Assembly3_ShowElementCS.md): Show element coordinate system
+:\*\* <img alt="" src=images/Assembly_ShowElementCS.svg‎‎  style="width:32px;"> [Wyświetl układ współrzędnych elementu](Assembly3_ShowElementCS/pl.md): Wyświetla układ współrzędnych elementu.
 
-:\* Workplane and origin. Adds a workplane, placement or origin. A part must be selected. This has five settings
+:\* Płaszczyzna robocza i punkt odniesienia. Dodaje płaszczyznę roboczą, położenie lub punkt odniesienia. Część musi być wybrana. Opcja ta ma pięć ustawień.
 
-:\*\* <img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:32px;"> [Add workplane](Assembly3_AddXYWorkplane.md): Add XY workplane
+:\*\* <img alt="" src=images/Assembly_Add_Workplane.svg‎‎  style="width:32px;"> [Dodaj płaszczyznę roboczą XY](Assembly3_AddXYWorkplane/pl.md): Dodaje płaszczyznę roboczą w płaszczyźnie XY.
 
-:\*\* <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg‎‎  style="width:32px;"> [Add XZ workplane](Assembly3_AddXZWorkplane.md): Add XZ workplane
+:\*\* <img alt="" src=images/Assembly_Add_WorkplaneXZ.svg‎‎  style="width:32px;"> [Dodaj płaszczyznę roboczą XZ](Assembly3_AddXZWorkplane/pl.md): Dodaje płaszczyznę roboczą w płaszczyźnie XZ.
 
-:\*\* <img alt="" src=images/Assembly_Add_WorkplaneZY.svg‎‎  style="width:32px;"> [Add ZY workplane](Assembly3_AddZYWorkplane.md): Add YZ workplane
+:\*\* <img alt="" src=images/Assembly_Add_WorkplaneZY.svg‎‎  style="width:32px;"> [Dodaj płaszczyznę roboczą ZY](Assembly3_AddZYWorkplane/pl.md): Dodaje płaszczyznę roboczą w płaszczyźnie YZ.
 
-:\*\* <img alt="" src=images/Assembly_Add_Placement.svg‎‎  style="width:32px;"> [Add placement](Assembly3_AddPlacement.md): Add placement
+:\*\* <img alt="" src=images/Assembly_Add_Placement.svg‎‎  style="width:32px;"> [Dodaj umiejscowienie](Assembly3_AddPlacement/pl.md): Dodaje umiejscowienie.
 
-:\*\* <img alt="" src=images/Assembly_Add_Origin.svg‎‎  style="width:32px;"> [Add Origin](Assembly3_AddOrigin.md): Add Origin
+:\*\* <img alt="" src=images/Assembly_Add_Origin.svg‎‎  style="width:32px;"> [Dodaj odniesienie położenia](Assembly3_AddOrigin/pl.md): Dodaje odniesienie położenia.
 
-:\* <img alt="" src=images/Assembly_TreeItemUp.svg‎‎  style="width:32px;"> [Move item up](Assembly3_MoveItemUp.md): Move selected tree item up
+:\* <img alt="" src=images/Assembly_TreeItemUp.svg‎‎  style="width:32px;"> [Przenieś pozycję w górę](Assembly3_MoveItemUp/pl.md): Przesuwa wybrany element na drzewie w górę.
 
-:\* <img alt="" src=images/Assembly_TreeItemDown.svg‎‎  style="width:32px;"> [Move item down](Assembly3_MoveItemDown.md): Move selected tree item down
+:\* <img alt="" src=images/Assembly_TreeItemDown.svg‎‎  style="width:32px;"> [Przenieś pozycję w dół](Assembly3_MoveItemDown/pl.md): Przesuwa wybrany element na drzewie w dół.
 
-:\*: Allows to sort Parts, Elements or Constraints in the tree. Element roll over (top to bottom and vice versa). Only works for a single selection.
+:\*: Umożliwia sortowanie Części, Elementów lub Wiązań w drzewie. Przewijanie elementów *(z góry na dół i odwrotnie)*. Działa tylko dla pojedynczego zaznaczenia.
 
-:\* <img alt="" src=images/Assembly_ConstraintMultiply.svg‎‎  style="width:32px;"> [Multiply constraint](Assembly3_MultiplyConstraint.md): Multiply Constraint. This can be selected if multiple parts and suitable Elements are present.
+:\* <img alt="" src=images/Assembly_ConstraintMultiply.svg‎‎  style="width:32px;"> [Pomnóż więz](Assembly3_MultiplyConstraint/pl.md): Mnożenie wiązań. Można go wybrać, jeśli występuje wiele części i odpowiednich elementów.
 
-:\*: It is used e.g. to assign multiple fasteners of the same type into multiple holes with one constraint.
+:\*: Używa się go np. do przypisania wielu elementów złącznych tego samego typu do wielu otworów za pomocą jednego wiązania.
 
 
 </div>
@@ -123,81 +124,81 @@ Głównymi cechami Środowiska Assembly3 są
 
 <div class="mw-collapsible-content toccolours">
 
-:\* <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:32px;"> [Locked](Assembly3_ConstraintLock.md): Add a \"Locked\" constraint to fix one or more parts.
+:\* <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:32px;"> [Wiązanie zablokowania](Assembly3_ConstraintLock/pl.md): Dodaj wiązanie **Zablokowania**, aby zablokować jedną lub więcej części.
 
-:\*: You must select a geometry element of the part.
+:\*: Musisz wybrać element geometrii części.
 
-:\*: If you fix a vertex or an edge the part is still free to rotate around the vertex or edge.
+:\*: Jeśli unieruchomisz wierzchołek lub krawędź, część nadal może swobodnie obracać się wokół tego wierzchołka lub krawędzi.
 
-:\*: Fixing a face will completely lock the part.
+:\*: Zablokowanie ściany spowoduje całkowite zablokowanie części.
 
-:\* <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width:32px;"> [Plane Alignment](Assembly3_ConstraintAlignment.md): Add a \"Plane alignment\" constraint to align planar faces of two or more parts.
+:\* <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width:32px;"> [Wiązanie wyrównania](Assembly3_ConstraintAlignment/pl.md): Dodaj wiązanie **Wyrównania płaszczyzn**, aby wyrównać płaszczyzny dwóch lub więcej części.
 
-:\*: The faces become coplanar or parallel with an optional distance.
+:\*: Powierzchnie czołowe stają się koplanarne lub równoległe z opcjonalną odległością.
 
-:\* <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width:32px;"> [Plane Coincidence](Assembly3_ConstraintCoincidence.md): Add a \"Plane coincidence\" constraint to coincide planar faces of two or more parts.
+:\* <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width:32px;"> [Wiązanie zbieżności](Assembly3_ConstraintCoincidence/pl.md): Dodaj wiązanie \"Zbieżność płaszczyzn\", aby płaszczyzny dwóch lub więcej części były zbieżne.
 
-:\*: The faces are coincided at their centers with an optional distance.
+:\*: Ściany są zbieżne w swoich środkach z opcjonalną odległością.
 
-:\* <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width:32px;"> [Attachment](Assembly3_ConstraintAttachment.md): Add an \"Attachment\" constraint to attach two parts by the selected geometry elements.
+:\* <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width:32px;"> [Wiązanie umocowania](Assembly3_ConstraintAttachment/pl.md): Dodaj wiązanie **Umocowania**, aby połączyć dwie części za pomocą wybranych elementów geometrii.
 
-:\*: This constraint completely fixes the parts relative to each other.
+:\*: To wiązanie całkowicie unieruchamia części względem siebie.
 
-:\* <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width:32px;"> [Axial Alignment](Assembly3_ConstraintAxial.md): Add an \"Axial alignment\" constraint to align edges/faces of two or more parts.
+:\* <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width:32px;"> [Wiązanie wyrównanie do osi](Assembly3_ConstraintAxial.md): Dodaj wiązanie \"wyrównanie osiowe\", aby wyrównać krawędzie/ściany dwóch lub więcej części.
 
-:\*: The constraint accepts
+:\*: To wiązanie akceptuje.
 
-:\*:: linear edges, which become collinear,
+:\*:: krawędzie liniowe, które stają się współliniowe,
 
-:\*:: planar faces, which are aligned using their surface normal axis,
+:\*:: powierzchnie płaskie, które są wyrównywane przy użyciu osi normalnej ich powierzchni,
 
-:\*:: and cylindrical face, which are aligned using the axial direction.
+:\*:: i powierzchnie cylindryczne, które są wyrównywane za pomocą kierunku osiowego.
 
-:\*: Different types of geometry elements can be mixed.
+:\*: Różne typy elementów geometrii mogą być mieszane.
 
-:\* <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width:32px;"> [Same orientation](Assembly3_ConstraintSameOrientation.md): Add a \"Same orientation\" constraint to align faces of two or more parts.
+:\* <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width:32px;"> [Wiązanie identycznej orientacji](Assembly3_ConstraintSameOrientation/pl.md): Dodaj wiązanie \"Ta sama orientacja\", aby wyrównać powierzchnie dwóch lub więcej części.
 
-:\*: The planes are aligned to have the same orientation (i.e. rotation)
+:\*: Płaszczyzny są wyrównane, aby miały tę samą orientację *(tj. obrót)*.
 
-:\* <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width:32px;"> [Multi parallel](Assembly3_ConstraintMultiParallel.md): Add a \"Multi parallel\" constraint to make planar faces or linear edges of two or more parts parallel.
+:\* <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width:32px;"> [Wiązanie wielu równoległości](Assembly3_ConstraintMultiParallel/pl.md): Dodaj wiązanie **Wielo równoległe**, aby powierzchnie płaskie lub krawędzie liniowe dwóch lub więcej części były równoległe.
 
-:\* <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width:32px;"> [Angle](Assembly3_ConstraintAngle.md): Add an \"Angle\" constraint to set the angle of planar faces or linear edges of two parts.
+:\* <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width:32px;"> [Wiązanie kąta](Assembly3_ConstraintAngle/pl.md): Dodaj wiązanie **Kąta**, aby ustawić kąt powierzchni płaskich lub krawędzi liniowych dwóch części.
 
-:\* <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width:32px;"> [Perpendicular](Assembly3_ConstraintPerpendicular.md): Add a \"Perpendicular\" constraint to make planar faces or linear edges of two parts perpendicular.
+:\* <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width:32px;"> [Wiązanie prostopadłości](Assembly3_ConstraintPerpendicular/pl.md): Dodaj wiązanie \"prostopadłe\", aby płaszczyzny lub krawędzie liniowe dwóch części były prostopadłe.
 
-:\* <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width:32px;"> [Points coincident](Assembly3_ConstraintPointsCoincident.md): Add a \"Point coincident\" constraint to coincide two points in 2D or 3D.
+:\* <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width:32px;"> [Wiązanie zbieżności punktów](Assembly3_ConstraintPointsCoincident/pl.md): Dodaj wiązanie \"Zbieżność punktów\", aby zrównać dwa punkty w przestrzeni 2D lub 3D.
 
-:\* <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width:32px;"> [Point on plane](Assembly3_ConstraintPointInPlane.md): Add a \"Point on plane\" to constrain one or more point onto a plane.
+:\* <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width:32px;"> [Wiązanie punkt na płaszczyźnie](Assembly3_ConstraintPointInPlane/pl.md): Dodaj **Punkt na płaszczyźnie**, aby powiązać jeden lub więcej punktów z płaszczyzną.
 
-:\* <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width:32px;"> [Point on line](Assembly3_ConstraintPointOnLine.md): Add a \"Point on line\" to constrain a point onto a line in 2D or 3D.
+:\* <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width:32px;"> [Wiązanie punkt na linii](Assembly3_ConstraintPointOnLine/pl.md): Dodaj **Punkt na linii**, aby powiązać punkt z linią w przestrzeni 2D lub 3D.
 
-:\* <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width:32px;"> [Point on circle](Assembly3_ConstraintPointOnCircle.md): Add a \"Point on circle\" to constrain one or more points on to a clyndrical surface defined by a cricle.
+:\* <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width:32px;"> [Wiązanie punkt na okręgu](Assembly3_ConstraintPointOnCircle/pl.md): Dodaj \'\'\'Punkt na okręgu\", aby powiązać jeden lub więcej punktów z powierzchnią współśrodkową zdefiniowaną przez okrąg.
 
-:\*: Note that you must select a point (any geometry element can define a point), and then select the circle (or clyndrical surface),
+:\*: Zauważ, że musisz wybrać punkt *(każdy element geometrii może zdefiniować punkt)*, a następnie wybrać okrąg *(lub powierzchnię clyndryczną)*,
 
-:\*: after which you can add more points to your selection if you want.
+:\*: Po czym możesz dodać więcej punktów do zaznaczenia, jeśli chcesz.
 
-:\* <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width:32px;"> [Points distance](Assembly3_ConstraintPointsDistance.md): Add a \"Points distance\" to constrain the distance of two or more points.
+:\* <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width:32px;"> [Wiązanie odległości punktów](Assembly3_ConstraintPointsDistance/pl.md): Dodaj **Odległość punktów**, aby ustalić odległość dwóch lub więcej punktów.
 
-:\* <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width:32px;"> [Point plane distance](Assembly3_ConstraintPointPlaneDistance.md): Add a \"Point plane distance\" to constrain the distance between one or more points and a plane.
+:\* <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width:32px;"> [Wiązanie odległość punktu od płaszczyzny](Assembly3_ConstraintPointPlaneDistance/pl.md): Dodaj \"Odległość punkt-płaszczyzna\", aby ustalić odległość pomiędzy jednym lub więcej punktami a płaszczyzną.
 
-:\* <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width:32px;"> [Point line distance](Assembly3_ConstraintPointLineDistance.md): Add a \"Point line distance\" to constrain the distance between a point and a linear edge in 2D or 3D.
+:\* <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width:32px;"> [Wiązanie odległości punktu od linii](Assembly3_ConstraintPointLineDistance/pl.md): Dodaj **Odległość linii punktu**, aby określić odległość między punktem a krawędzią liniową w przestrzeni 2D lub 3D.
 
-:\* <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width:32px;"> [Symmetric](Assembly3_ConstraintSymmetric.md): Add a \"Symmetric\" constraint to make geometry elements of two parts symmetric about a plane.
+:\* <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width:32px;"> [Wiązanie symetrii](Assembly3_ConstraintSymmetric/pl.md): Dodaj wiązanie \"Symetrii\", aby elementy geometrii z dwóch części były symetryczne względem płaszczyzny.
 
-:\*: The supported elements are linear edge and planar face.
+:\*: Obsługiwane elementy to krawędź liniowa i ściana planarna.
 
-:\* <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width:32px;"> [More](Assembly3_ConstraintMore.md): Toggle toolbars for more constraints
+:\* <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width:32px;"> [Więcej wiązań](Assembly3_ConstraintMore/pl.md): Przełącz paski narzędzi, aby uzyskać więcej wiązań
 
-:\*: Not really a constraint but a toggle switch to show/hide the **Additional Constraints Toolbars**.
-
-
-</div>
+:\*: Tak naprawdę nie jest to żadne wiązanie, ale przełącznik pokazujący / ukrywający **Paski narzędzi dodatkowych wiązań**.
 
 
 </div>
 
-#### Additional Constraints Toolbars 
+
+</div>
+
+#### Dodatkowe paski narzędziowe wiązań 
 
 :   <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:28px;"> (Assembly3 Constraints2)
 
@@ -216,27 +217,27 @@ Głównymi cechami Środowiska Assembly3 są
 
 <div class="mw-collapsible-content toccolours">
 
-:\* <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:32px;"> [Point distance](Assembly3_ConstraintPointDistance.md): Add a \"Point distance\" to constrain the distance of two points in 2D or 3D.
+:\* <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:32px;"> [Odległość punktu](Assembly3_ConstraintPointDistance/pl.md): Dodaj **Odległość punktu**, aby ograniczyć odległość dwóch punktów w przestrzeni 2D lub 3D.
 
-:\* <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:32px;"> [Equal angle](Assembly3_ConstraintEqualAngle.md): Add an \"Equal angle\" to equate the angles between two lines or normals.
+:\* <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:32px;"> [Równy kąt](Assembly3_ConstraintEqualAngle/pl.md): Dodaj \"Kąt równy\", aby zrównać kąty między dwiema liniami lub wektorami normalnej.
 
-:\* <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:32px;"> [Points symmetric](Assembly3_ConstraintPointsSymmetric.md): Add a \"Points symmetric\" constraint to make two points symmetric about a plane.
+:\* <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:32px;"> [Symetria punktów](Assembly3_ConstraintPointsSymmetric/pl.md): Dodaj wiązanie \"Symetria punktów\", aby uczynić dwa punkty symetrycznymi względem płaszczyzny.
 
-:\* <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:32px;"> () [Symmetric horizontal](Assembly3_ConstraintSymmetricHorizontal.md): Symmetric horizontal
+:\* <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:32px;"> [Symetria pozioma](Assembly3_ConstraintSymmetricHorizontal/pl.md): Symetrycznie poziomo.
 
-:\* <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:32px;"> () [Symmetric vertical](Assembly3_ConstraintSymmetricVertical.md): Symmetric vertical
+:\* <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:32px;"> [Symetria pionowa](Assembly3_ConstraintSymmetricVertical/pl.md): Symetrycznie pionowo.
 
-:\* <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:32px;"> [Symmetric line](Assembly3_ConstraintSymmetricLine.md): Add a \"Symmetric line\" constraint to make two points symmetric about a line.
+:\* <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:32px;"> [Symetria linii](Assembly3_ConstraintSymmetricLine/pl.md): Dodaj wiązanie **Symetria linii**, aby uczynić dwa punkty symetrycznymi względem linii.
 
-:\* <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:32px;"> [Points horizontal](Assembly3_ConstraintPointsHorizontal.md): Add a \"Points horizontal\" constraint to make two points horizontal with each other when projected onto a plane.
+:\* <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:32px;"> [Punkty poziomo](Assembly3_ConstraintPointsHorizontal/pl.md): Dodaj wiązanie **Punkty poziomo**, aby dwa punkty były względem siebie poziome podczas rzutowania na płaszczyznę.
 
-:\* <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:32px;"> [Points vertical](Assembly3_ConstraintPointsVertical.md): Add a \"Points vertical\" constraint to make two points vertical with each other when projected onto a plane.
+:\* <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:32px;"> [Punkty pionowo](Assembly3_ConstraintPointsVertical/pl.md): Dodaj wiązanie **Punkty pionowo**, aby dwa punkty były względem siebie pionowe podczas rzutowania na płaszczyznę.
 
-:\* <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:32px;"> [Line horizontal](Assembly3_ConstraintLineHorizontal.md):Add a \"Line horizontal\" constraint to make a line segment horizontal when projected onto a plane.
+:\* <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:32px;"> [Linia poziomo](Assembly3_ConstraintLineHorizontal/pl.md): Dodaj wiązanie **Linia poziomo**, aby segment linii był poziomy podczas rzutowania na płaszczyznę.
 
-:\* <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:32px;"> [Line vertical](Assembly3_ConstraintLineVertical.md): Add a \"Line vertical\" constraint to make a line segment vertical when projected onto a plane.
+:\* <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:32px;"> [Linia pionowo](Assembly3_ConstraintLineVertical/pl.md): Dodaj wiązanie **Linia pionowo**, aby segment linii był pionowy podczas rzutowania na płaszczyznę.
 
-:\* <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:32px;"> [Arc line tangent](Assembly3_ConstraintArcLineTangent.md): Add an \"Arc line tangent\" constraint to make a line tangent to an arc at the start or end point of the arc.
+:\* <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:32px;"> [Stycznie do linii łuku](Assembly3_ConstraintArcLineTangent/pl.md): Dodaj wiązanie \"Stycznie do linii łuku\", aby linia była styczna do łuku w punkcie początkowym lub końcowym łuku.
 
 :\* <img alt="" src=images/Assembly_ConstraintSketchPlane.svg‎‎  style="width:32px;"> [Sketch plane](Assembly3_ConstraintSketchPlane.md): Add a \"Sketch plane\" to define the work plane of any draft element inside or following this constraint.
 
@@ -308,9 +309,9 @@ Głównymi cechami Środowiska Assembly3 są
 
 </div>
 
-#### Measurement Toolbar 
+#### Pasek narzędzi pomiarowych 
 
-:   <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasurePointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasureAngle.svg‎‎  style="width:28px;">
+:   <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasurePointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasureAngle.svg‎‎  style="width:28px;">
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -379,7 +380,8 @@ Other
 
 *: Note: In the following list Tx,Ty,Tz and Rx,Ry,Rz are used to describe translations and rotations about the reference coordinate systems of the involved Element\'s. This is not always exact or fully defined, e.g. when a line is involved it is not defined if it runs in X, Y or any angle in betweeen. The system is used for bevity and easy comparison in favour of a correct but more complex definition. So Z is generally the normal direction of any faces involved. Please feel free to modify this with a better approach with improved readability.*
 
-[na początek strony](#top.md)
+
+{{top}}
 
 ### Elementy
 
@@ -421,7 +423,7 @@ Mimo, że mogą mieć podobne narzędzia, środowisko Złożenie 3 nie jest zgod
 
 {{top}}
 
-## Testing
+## Testowanie
 
 The [Assembly3 Workbench](Assembly3_Workbench.md) is under development and is not yet available (April 2020) through the [Addon Manager](Std_AddonMgr.md), but it is expected that this will happen at some point.
 
@@ -559,7 +561,7 @@ One way to solve this is to just delete all invalid constraints and elements, im
 \* They are not as complicated as it may seem here. After 2-3 times they should become second nature and feel really easy to do.
 
 -   Its not only usually ways quicker than deleting and re-doing constraints, its also safer because an element could have been used in a parent assembly. Deleting the original would destroy that link, re-assingning would keep it.
--   Also this procedure becomes really quick and easy to do if constraints and elements are named. There is no guessing where the surfaces should be dragged&dropped to because the names tell it (see [Tips & Tricks](#Tips_&_Tricks.md)).
+-   Also this procedure becomes really quick and easy to do if constraints and elements are named. There is no guessing where the surfaces should be dragged&dropped to because the names tell it (see [Tips & Tricks](#Tips_.26_Tricks.md)).
 
 \'\'
 
@@ -589,7 +591,7 @@ One way to solve this is to just delete all invalid constraints and elements, im
 -   [App Link](App_Link.md) object that makes Assembly3 work.
 -   [FreeCAD\_assembly3](https://github.com/realthunder/FreeCAD_assembly3) repository and documentation.
 -   [Assembly3 preview](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712), big discussion thread.
--   [Test tutorial for Assembly 3 WB](https://forum.freecadweb.org/viewtopic.php?f=36&t=29562) by jpg87.
+-   [Test tutorial for Assembly 3 Workbench](https://forum.freecadweb.org/viewtopic.php?f=36&t=29562) by jpg87.
 -   [Current Assembly Status](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [External workbenches](External_workbenches.md)
 -   [Old Assembly project](Assembly_project.md) development plan, to get acquainted with the history of the issue.

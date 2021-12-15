@@ -48,7 +48,7 @@ In FreeCAD version 0.19 this command and the [Draft ToggleConstructionMode](Draf
 
 <div class="mw-translate-fuzzy">
 
-Nesneleri [Grup](Std_Group/tr.md) veya [Draft VisGroup](Draft_VisGroup.md) \'a eklemek için [Gruba ekle](Draft_AddToGroup/tr.md) komutunu kullanın.
+Nesneleri [Grup](Std_Group/tr.md) veya [Draft Layer](Draft_Layer.md) \'a eklemek için [Gruba ekle](Draft_AddToGroup/tr.md) komutunu kullanın.
 
 
 </div>

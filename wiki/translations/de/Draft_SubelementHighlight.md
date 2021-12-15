@@ -32,7 +32,7 @@ Der <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:24px;"> *
     -   Verwende den **D** dann **E** Tastaturkürzel
     -   Verwende den **Änderung → UnterelementMarkieren** Eintrag im Menü Entwurf
     -   Klicke auf alle Punkte, die du verschieben möchtest.
-    -   Klicke einen anderen Punkt in der 3D Ansicht an, oder gib eine [Koordinate](Draft_Coordinates/de.md) ein und drücke den **<img src="images/Draft_AddPoint.svg" width=24px> [Punkt hinzufügen](Draft_AddPoint/de.md)**.
+    -   Klicke einen anderen Punkt in der 3D Ansicht an, oder gib eine Koordinate ein und drücke den **<img src="images/Draft_AddPoint.svg" width=24px> Punkt hinzufügen**.
 3.  Drücke **Esc** oder die **Schliessen** Schaltfläche , um den aktuellen Befehl abzuschließen.
 
 

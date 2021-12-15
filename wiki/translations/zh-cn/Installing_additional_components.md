@@ -60,7 +60,7 @@ FreeCAD supports several third party software packages out of the box. In many c
 
 ### GitPython
 
-一种用于与Git仓库进行交互的python库。FreeCAD中的此功能在还处于开发状态中。[插件管理器可利用此库从Git仓库中导入各种扩展插件](Addon_Manager.md)。此项目托管在GitHub中的 <https://github.com/gitpython-developers/GitPython> 。
+一种用于与Git仓库进行交互的python库。FreeCAD中的此功能在还处于开发状态中。[插件管理器可利用此库从Git仓库中导入各种扩展插件](Std_AddonMgr.md)。此项目托管在GitHub中的 <https://github.com/gitpython-developers/GitPython> 。
 
 
 </div>

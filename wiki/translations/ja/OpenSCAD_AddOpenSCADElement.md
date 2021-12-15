@@ -1,6 +1,6 @@
 # OpenSCAD AddOpenSCADElement/ja
 ---
-- GuiCommand:/jp   Name:OpenSCAD_AddOpenSCADElement   Name/jp:OpenSCAD_AddOpenSCADElement   Workbenches:[[OpenSCAD Module   OpenSCAD]]|MenuLocation:OpenSCAD -> Add OpenSCAD Element---
+- GuiCommand:/ja   Name:OpenSCAD_AddOpenSCADElement   Name/ja:OpenSCAD_AddOpenSCADElement   Workbenches:[[OpenSCAD Module   OpenSCAD]]|MenuLocation:OpenSCAD -> Add OpenSCAD Element---
 
 
 </div>

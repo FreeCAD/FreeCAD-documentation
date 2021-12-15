@@ -46,9 +46,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 <div class="mw-translate-fuzzy">
 
 1.  Premere il pulsante **<img src="images/Draft_Arc_3Points.svg" width=16px> [Arco da tre punti](Draft_Arc_3Points/it.md)**, o premere i tasti **A** e poi **T**.
-2.  Selezionare un primo punto nella vista 3D, oppure digitare le sue [coordinate](Draft_Coordinates/it.md) poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**.
-3.  Selezionare un secondo punto nella vista 3D, oppure digitare le sue [coordinate](Draft_Coordinates/it.md) poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**.
-4.  Selezionare un terzo punto nella vista 3D, oppure digitare le sue [coordinate](Draft_Coordinates/it.md) poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**.
+2.  Selezionare un primo punto nella vista 3D, oppure digitare le sue coordinate poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
+3.  Selezionare un secondo punto nella vista 3D, oppure digitare le sue coordinate poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
+4.  Selezionare un terzo punto nella vista 3D, oppure digitare le sue coordinate poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
 5.  L\'arco viene creato dopo aver assegnato il terzo punto.
 
 
@@ -63,7 +63,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   Premere **X**, **Y** o **Z** dopo un punto per vincolare il punto seguente sull\'asse dato.
 -   Per inserire le coordinate manualmente, basta inserire i valori, quindi premere **Invio** tra ciascun componente X, Y e Z.
-    -   Per inserire il punto è possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)** dopo aver inserito i valori desiderati.
+    -   Per inserire il punto è possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto** dopo aver inserito i valori desiderati.
 -   Premere **R** oppure fare clic sulla casella di controllo per attivare la modalità *relativo*. Se la modalità relativo è attiva, le coordinate del punto seguente sono relative al punto precedente; in caso contrario, sono assolute, prese dall\'origine `(0, 0, 0)`.
 -   Tenere premuto **Maiusc** mentre si disegna per [vincolare](Draft_Constrain/it.md) in orizzontale o in verticale il prossimo punto rispetto al precedente.
 -   Premere il pulsante **Esc** o **Chiudi** per interrompere il comando corrente.
@@ -128,7 +128,7 @@ arc = make_arc_3points(points, placement=None, face=False, support=None, map_mod
 
 :   Per esempio, support=[(obj, ("Face1"))]
 
--   Se viene fornito un `map_mode`, è una stringa che definisce un tipo di mappatura, ad esempio,map_mode='FlatFace', map_mode='ThreePointsPlane', etc. Per ulteriori informazioni vedere [Part Associazione](Part_Attachment/it.md).
+-   Se viene fornito un `map_mode`, è una stringa che definisce un tipo di mappatura, ad esempio,map_mode='FlatFace', map_mode='ThreePointsPlane', etc. Per ulteriori informazioni vedere [Part Associazione](Part_EditAttachment/it.md).
 -   Se `primitive` è `True`, l\'arco creato sarà un semplice [Part Feature](Part_Feature/it.md), e non un oggetto Draft complesso.
 
 

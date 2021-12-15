@@ -14,7 +14,7 @@
 
 La herramienta **Hélice aditiva** crea un sólido realizando un barrido de un boceto seleccionado o de un objeto 2D a lo largo de la trayectoria de una hélice.
 
-![](images/PartDesign_AdditiveHelix_example_overview.png )
+<img alt="" src=images/PartDesign_AdditiveHelix_example_overview.png  style="width:650px;">
 
 *El perfil (B), es extruido en forma de barrido alrededor del eje (A) para producir una hélice sólida (C)*
 
@@ -34,6 +34,9 @@ Cuando se crea una hélice aditiva, la caja de diálogo **Helix parameters** o p
 
 ### Axis o Eje 
 
+
+<div class="mw-translate-fuzzy">
+
 Esta opción especifica el eje alrededor del cual el boceto va a realizar el barrido.
 
 -   **Eje vertical del boceto**: Selecciona el eje vertical del objeto.
@@ -41,6 +44,9 @@ Esta opción especifica el eje alrededor del cual el boceto va a realizar el bar
 -   **Línea de construcción**: Selecciona una línea de construcción contenida en el boceto para ser usada como eje. La lista desplegable contendrá una entrada para cada línea de construcción existente en el boceto. La primera línea de construcción creada se llamará *Línea de construcción 1*.
 -   **Base (X/Y/Z) axis**: Selecciona los ejes X, Y o Z del origen del Body (cuerpo).
 -   **Select reference\...** o Seleccionar referencia: Permite la selección en la vista 3D de una arista del Body, o de una [línea de referencia](PartDesign_Line/es.md).
+
+
+</div>
 
 ### Modo
 
@@ -65,7 +71,13 @@ El número de vueltas en la hélice. Definido como Altura/Pitch
 
 ### Ángulo del cono 
 
+
+<div class="mw-translate-fuzzy">
+
 La proporción en la que el radio de la hélice se incrementa a lo largo del eje. Rango permitido: \[-89°, +89°\].
+
+
+</div>
 
 ### Left handed o Hacia la izquierda 
 
@@ -84,6 +96,9 @@ Si está marcada esta casilla, la hélice se mostrará en la vista y se actualiz
 -   Una hélice aditiva que no intersecte con el Body será visible en la vista preliminar si **Herramientas → Editar parámetros... → BaseApp → Preferences → Mod → PartDesign → AdditiveHelixPreview** está seleccionado como `True`. Este preferencia por defecto es `False`. {{Version/es|0.20}}
 
 ## Propiedades
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/es|Pitch}}: La distancia axial entre dos vueltas.
 
@@ -114,6 +129,9 @@ Si está marcada esta casilla, la hélice se mostrará en la vista y se actualiz
 -    {{PropertyData/es|Up to face}}: No usada.
 
 -    {{PropertyData/es|Allow multiple face}}: No usada.
+
+
+</div>
 
 ## Ejemplos
 

@@ -1,13 +1,4 @@
 # Bug Triage/it
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{TOCright}}
 
 ## Why
@@ -152,13 +143,7 @@ An important methodology to track tickets by a certain subject/theme/category. I
 [Bugtracker](Tracker.md)
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 

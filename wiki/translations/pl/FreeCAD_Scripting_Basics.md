@@ -21,17 +21,11 @@ Więc, zacznij od wpisania `App.` albo `Gui.` i zobacz co się stanie. Innym, ba
 
 Kolejną przydatną funkcją interpretera jest możliwość cofnięcia się przez całą historię poleceń i odtworzenia linii kodu, którą już wcześniej wpisałeś. Aby poruszać się po historii poleceń, wystarczy użyć klawisza **Strzałka w górę** lub **Strzałka w dół**.
 
-Klikając prawym przyciskiem myszy w oknie interpretera, masz również kilka innych opcji, takich jak skopiowanie całej historii *(przydatne, gdy chcesz eksperymentować z rzeczami przed utworzeniem pełnego skryptu)*, lub wstawienie nazwy pliku z pełną ścieżką.
-
-
-{{top}}
+Klikając prawym przyciskiem myszy w oknie interpretera, masz również kilka innych opcji, takich jak skopiowanie całej historii *(przydatne, gdy chcesz eksperymentować z rzeczami przed utworzeniem pełnego skryptu)*, lub wstawienie nazwy pliku z pełną ścieżką. {{Top}}
 
 ### Pomoc dla Pythona 
 
-W menu FreeCAD **Pomoc** znajdziesz wpis oznaczony **Automatyczna dokumentacja modułów Python**, który otworzy okno przeglądarki zawierające pełną, rzeczywistą dokumentację wszystkich modułów Pythona dostępnych dla interpretera FreeCAD, w tym modułów wbudowanych Pythona i FreeCAD, modułów zainstalowanych w systemie oraz modułów dodatkowych FreeCAD. Dostępna tam dokumentacja jest uzależniona od tego, ile wysiłku każdy programista wkłada w dokumentację swojego kodu, ale moduły Python mają reputację dość dobrze udokumentowanych. Okno Twojego FreeCAD musi pozostać otwarte, aby ten system dokumentacji mógł działać. Wprowadzenie do **dokumentacji skryptowej Python** zapewni Ci szybki link do sekcji wiki [Centrum Power użytkownika](Power_users_hub/pl.md).
-
-
-{{top}}
+W menu FreeCAD **Pomoc** znajdziesz wpis oznaczony **Automatyczna dokumentacja modułów Python**, który otworzy okno przeglądarki zawierające pełną, rzeczywistą dokumentację wszystkich modułów Pythona dostępnych dla interpretera FreeCAD, w tym modułów wbudowanych Pythona i FreeCAD, modułów zainstalowanych w systemie oraz modułów dodatkowych FreeCAD. Dostępna tam dokumentacja jest uzależniona od tego, ile wysiłku każdy programista wkłada w dokumentację swojego kodu, ale moduły Python mają reputację dość dobrze udokumentowanych. Okno Twojego FreeCAD musi pozostać otwarte, aby ten system dokumentacji mógł działać. Wprowadzenie do **dokumentacji skryptowej Python** zapewni Ci szybki link do sekcji wiki [Centrum Power użytkownika](Power_users_hub/pl.md). {{Top}}
 
 ## Moduły wbudowane 
 
@@ -41,10 +35,7 @@ Ponieważ FreeCAD został zaprojektowany tak, aby mógł być uruchamiany równi
 
 -   W module `Gui` znajdziesz narzędzia do uzyskiwania dostępu i zarządzania elementami Gui, takimi jak Środowiska pracy i ich paski narzędzi oraz, co ciekawsze, graficzną reprezentację całej zawartości FreeCAD.
 
-Listowanie zawartości tych modułów nie jest zbyt przydatne, ponieważ rozwijają się one dość szybko w miarę rozwoju FreeCAD. Ale dwa dostarczone narzędzia do przeglądania *(przeglądarka klasy i pomoc dla Pythona)* powinny w każdej chwili dostarczyć Ci kompletną i aktualną dokumentację.
-
-
-{{top}}
+Listowanie zawartości tych modułów nie jest zbyt przydatne, ponieważ rozwijają się one dość szybko w miarę rozwoju FreeCAD. Ale dwa dostarczone narzędzia do przeglądania *(przeglądarka klasy i pomoc dla Pythona)* powinny w każdej chwili dostarczyć Ci kompletną i aktualną dokumentację. {{Top}}
 
 ### Obiekty App i Gui 
 
@@ -82,10 +73,7 @@ gdzie `"ObjectName"` jest nazwą twojego obiektu. Możesz też wpisać:
 myViewObject = App.ActiveDocument.ObjectName.ViewObject
 ```
 
-Jeśli jesteś w trybie linii poleceń i nie masz GUI, ostatnia linia zwróci `None`.
-
-
-{{top}}
+Jeśli jesteś w trybie linii poleceń i nie masz GUI, ostatnia linia zwróci `None`. {{Top}}
 
 ### Obiekty dokumentu 
 
@@ -120,14 +108,11 @@ myView = Gui.ActiveDocument.ActiveView
 ```
 
 
-{{top}}
+{{Top}}
 
 ## Używanie dodatkowych modułów 
 
-Moduły `FreeCAD` i `FreeCADGui` są odpowiedzialne tylko za tworzenie i zarządzanie obiektami w dokumencie FreeCAD. W rzeczywistości nie robią one nic więcej, jak tworzenie lub modyfikowanie geometrii. Dzieje się tak, ponieważ geometria ta może być kilku typów i dlatego wymaga dodatkowych modułów, z których każdy jest odpowiedzialny za zarządzanie danym typem geometrii. Na przykład, środowisko pracy _ jest w stanie budować i modyfikować obiekty typu siatka. W ten sposób FreeCAD jest w stanie obsłużyć wiele różnych typów obiektów, które mogą współistnieć w tym samym dokumencie, a nowe typy mogą być łatwo dodawane w przyszłości.
-
-
-{{top}}
+Moduły `FreeCAD` i `FreeCADGui` są odpowiedzialne tylko za tworzenie i zarządzanie obiektami w dokumencie FreeCAD. W rzeczywistości nie robią one nic więcej, jak tworzenie lub modyfikowanie geometrii. Dzieje się tak, ponieważ geometria ta może być kilku typów i dlatego wymaga dodatkowych modułów, z których każdy jest odpowiedzialny za zarządzanie danym typem geometrii. Na przykład, środowisko pracy _ jest w stanie budować i modyfikować obiekty typu siatka. W ten sposób FreeCAD jest w stanie obsłużyć wiele różnych typów obiektów, które mogą współistnieć w tym samym dokumencie, a nowe typy mogą być łatwo dodawane w przyszłości. {{Top}}
 
 ### Tworzenie obiektów 
 
@@ -165,7 +150,7 @@ Part.show(cube)
 ```
 
 
-{{top}}
+{{Top}}
 
 ### Modyfikowanie obiektów 
 
@@ -187,7 +172,7 @@ myPart.Shape = biggercube
 ```
 
 
-{{top}}
+{{Top}}
 
 ### Zapytania o obiekty 
 
@@ -206,15 +191,18 @@ lub sprawdzić, czy obiekt jest pochodną jednej z podstawowych własności (cz�
 print(myObj.isDerivedFrom("Part::Feature"))
 ```
 
-Teraz naprawdę możesz zacząć zabawę z FreeCAD! Pełna lista dostępnych modułów i ich narzędzi znajduje się w sekcji _.
+Teraz naprawdę możesz zacząć zabawę z FreeCAD! Pełna lista dostępnych modułów i ich narzędzi znajduje się w sekcji _. {{Top}}
 
 
-{{top}}
+{{docnav/pl
+|[Poradnik: Tworzenie skryptów Python](Python_scripting_tutorial/pl.md)
+|[Skrypty w środowisku Część](Part_scripting/pl.md)
+}}
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

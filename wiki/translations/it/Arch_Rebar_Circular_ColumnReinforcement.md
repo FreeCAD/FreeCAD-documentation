@@ -17,7 +17,13 @@
 
 Lo strumento [Armatura di colonna](Arch_Rebar_Circular_ColumnReinforcement/it.md) consente all\'utente di creare delle barre di rinforzo all\'interno di un oggetto [Struttura](Arch_Structure/it.md) Colonna.
 
+
+<div class="mw-translate-fuzzy">
+
 Questo comando fa parte dell\'ambiente aggiuntivo _, tramite il menu **Strumenti → Addon manager → Reinforcement**.
+
+
+</div>
 
 <img alt="" src=images/Arch_Rebar_Circular_ColumnReinforcement_example.png  style="width:400px;"> 
 *Rinforzo di colonna all'interno di una [Struttura](Arch_Structure/it.md) colonna*

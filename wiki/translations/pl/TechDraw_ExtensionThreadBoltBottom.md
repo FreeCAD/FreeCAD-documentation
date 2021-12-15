@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionThreadBoltBottom
-   MenuLocation:TechDraw → Extensions: centerlines and threading → Cosmetic thread bolt bottom view
+   MenuLocation:TechDraw → Extensions: centerlines and threading → Thread Shaft
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20
@@ -12,7 +12,7 @@
 
 ## Description
 
-The <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:24px;"> **TechDraw ExtensionThreadBoltBottom** tool adds symbolic threads to the bottom view of bolts.
+The <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:24px;"> **Thread Shaft** tool adds symbolic threads to the bottom view of bolts.
 
 <img alt="" src=images/TechDraw_ExtensionThreadBoltBottomExample.png  style="width:200px;"> 
 *On the right a bolt with a symbolic thread*
@@ -21,7 +21,7 @@ The <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:
 
 1.  Select one or more circles representing bolts.
 2.  There are several ways to invoke the tool:
-    -   Press the **<img src="images/TechDraw_ExtensionThreadBoltBottom.svg" width=16px> [TechDraw ExtensionThreadBoltBottom](TechDraw_ExtensionThreadBoltBottom.md)** button.
+    -   Press the **<img src="images/TechDraw_ExtensionThreadBoltBottom.svg" width=16px> [Thread Shaft](TechDraw_ExtensionThreadBoltBottom.md)** button.
     -   Select the **TechDraw → Extensions: centerlines and threading → <img src="images/TechDraw_ExtensionThreadBoltBottom.svg" width=16px> Cosmetic thread bolt bottom view** option from the menu.
 3.  Symbolic threads are added.
 

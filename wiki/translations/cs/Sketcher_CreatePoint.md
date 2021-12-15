@@ -7,9 +7,15 @@
 
 ## Popis
 
-Nástroj **![](images/)_[Bod](Sketcher_Point/cs.md)** vytvoří bod v aktuálním listu \"**Skicáře**\".
 
-_ 
+<div class="mw-translate-fuzzy">
+
+Nástroj Bod vytvoří bod v aktuálním listu \"**Skicáře**\".
+
+
+</div>
+
+_
 
 
 <div class="mw-translate-fuzzy">
@@ -22,7 +28,7 @@ _
 
 <div class="mw-translate-fuzzy">
 
--   Funkci aktivujete stisknutím tlačítka **![](images/)_[Bod](Sketcher_Point/cs.md)**.
+-   Funkci aktivujete stisknutím tlačítka **<img src="images/Sketcher_CreatePoint.svg" width=24px> Bod**.
 -   Musí být stisknuto tolikrát, kolik bodů chcete vytvořit.
 -   Při podržení klávesy **Ctrl** při kreslení zajistí [zachycení](Draft_Snap/cs.md) bodu k nejbližšímu zachycovacímu bodu, bez ohledu na jeho vzdálenost.
 -   Klávesu **Esc** stiskněte pokud chcete přerušit operaci a ukončit funkci.
@@ -32,11 +38,8 @@ _
 
 ## Volby
 
-A mode to snap to the grid can be set in the [Sketcher Preferences](Sketcher_Preferences.md). The point snaps then to the grid, if it has less than 25% grid distance to a grid line. The snap mode does not fix them to the grid. The points can be moved with the mouse or constraints to other locations.
-
-## Omezení
-
-The created point is not available outside of the sketch. In case a point is needed in the 3D-view, use the [PartDesign Point](PartDesign_Point.md) for a datum point or the [Part Point](Part_Point.md) instead.
+-   By default points are created as construction geometry and therefore are not visible outside of Sketch editing mode. Use the <img alt="" src=images/Sketcher_ToggleConstruction.svg  style="width:16px;"> [Toggle Construction](Sketcher_ToggleConstruction.md) tool to change them to normal geometry. <small>(v0.19)</small> 
+-   A mode to snap to the grid can be set in the [Sketcher Preferences](Sketcher_Preferences.md). The point then snaps to the grid, if it has less than 25% grid distance to a grid line. The snap mode does not fix the point to the grid. It still has two degrees of freedom and can be moved with the mouse or constrained to other locations.
 
 
 

@@ -5,7 +5,7 @@
    MenuLocation:Modification → Array tools → Array
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Version:0.19
-   SeeAlso:[Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau selon une courbe](Draft_PathArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
+   SeeAlso:[Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau selon une courbe](Draft_PathArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
 ---
 
 # Draft OrthoArray/fr
@@ -239,7 +239,7 @@ Voir aussi : _.
 
 ### Réseau paramétrique 
 
-Pour créer un réseau orthogonal paramétrique, utilisez la méthode `make_array` ({{Version/fr|0.19}}) de l\'atelier Draft. Cette méthode remplace la méthode dépréciée `makeArray`. La méthode `make_array` peut créer des Draft Réseaux orthogonaux, [Draft Réseaux polaires](Draft_PolarArray.md) et [Draft Réseaux cirucalires](Draft_CircularArray.md). Pour chaque type de réseau, un ou plusieurs wrappers sont disponibles.
+Pour créer un réseau orthogonal paramétrique, utilisez la méthode `make_array` ({{Version/fr|0.19}}) de l\'atelier Draft. Cette méthode remplace la méthode dépréciée `makeArray`. La méthode `make_array` peut créer des Draft Réseaux orthogonaux, [Draft Réseaux polaires](Draft_PolarArray/fr.md) et [Draft Réseaux circulaires](Draft_CircularArray/fr.md). Pour chaque type de réseau, un ou plusieurs wrappers sont disponibles.
 
 La méthode principale :
 

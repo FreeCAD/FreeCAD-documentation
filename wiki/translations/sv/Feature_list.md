@@ -256,7 +256,6 @@ Detta är en extensiv, fast inte komplett, lista på de funktioner som FreeCAD h
 <div class="mw-translate-fuzzy">
 
 -   ![](images/Feature-assembly.jpg ) An [Församling](Assembly_project/sv.md) modul som gör det möjligt för att arbeta med flera projekt, flera former, flera dokument, flera filer, flera relationer\...
--   ![](images/Feature-CAM.jpg ) [CAM modulen](Cam_Module/sv.md) är tillägnad mekanisk bearbetning som till exempel fräsning. Denna modul har just påbörjats och är för tillfället mest tillägnad [Inkrementell plåtformning](http://en.wikipedia.org/wiki/Incremental_sheet_forming). Fastän det finns en del algoritmer för verktygsväg planering, så är de inte användbara för slutanvändaren för tillfället.
 
 
 </div>

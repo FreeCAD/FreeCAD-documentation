@@ -55,8 +55,8 @@
 <div class="mw-translate-fuzzy">
 
 1.  按下**<img src="images/Arch_Wall.svg" width=16px> [Arch Wall](Arch_Wall/zh-cn.md)**按钮，或先后依次按下**W**与 **A**键
-2.  在3D视图中点选第一个点，或输入一个 [坐标（coordinate）](Draft_Coordinates.md)
-3.  在3D视图中点选第二个点，或输入一个 [坐标（coordinate）](Draft_Coordinates.md)
+2.  在3D视图中点选第一个点，或输入一个 坐标
+3.  在3D视图中点选第二个点，或输入一个 坐标
 
 
 </div>

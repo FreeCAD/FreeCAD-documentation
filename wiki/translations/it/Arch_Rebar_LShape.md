@@ -19,7 +19,13 @@ Lo strumento [Armatura a L](Arch_Rebar_LShape/it.md) consente all\'utente di cre
 
 Lo strumento **Armatura a L** è anche integrato in [BIM](BIM_Workbench/it.md).
 
+
+<div class="mw-translate-fuzzy">
+
 Questo comando fa parte dell\'ambiente _, tramite il menu **Strumenti → Addon manager → Reinforcement**.
+
+
+</div>
 
 <img alt="" src=images/Arch_Rebar_LShape_example.png  style="width:400px;"> 
 *Quattro serie di barre di rinforzo a forma di L all'interno di una [Struttura](Arch_Structure/it.md)*

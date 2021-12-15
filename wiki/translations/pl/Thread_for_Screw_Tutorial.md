@@ -116,7 +116,7 @@ Prawdziwy gwint składa się z zamkniętego profilu prowadzącego bryłę wzdłu
 
 Proces ten można również wykonać za pomocą narzędzi środowiska pracy [Część](Part_Workbench/pl.md).
 
-1.  Znajdując się w środowisku pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Primitives.svg style="width:Część](Part_Workbench/pl.md) kliknij w przycisk **_ [Część: Helisa](Part_Helix/pl.md)**. Podaj odpowiednie wartości dla parametrów **Gęstość** {{Value|3mm}}, **Wysokość** {{Value|23mm}} i **Promień** {{Value|10mm}}.
+1.  Znajdując się w środowisku pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Primitives.svg style="width:Część](Part_Workbench/pl.md) kliknij w przycisk **_**. Podaj odpowiednie wartości dla parametrów **Gęstość** {{Value|3mm}}, **Wysokość** {{Value|23mm}} i **Promień** {{Value|10mm}}.
 
 Teraz możesz przystąpić do dodawania innych elementów pierwotnych, takich jak **<img src=images/Part_Cylinder.svg style="width:16px"> <img src=images/Part_Fuse.svg style="width:Część: Cylinder](Part_Cylinder/pl.md)** , lub innych kształtów, aby posłużyć się funkcją **_**.
 

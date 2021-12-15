@@ -1,6 +1,14 @@
-# Raytracing WritePart/ro
 ---
-- GuiCommand:/ro   Name:Raytracing Part‏‎   Name/ro:Raytracing Part   MenuLocation:Raytracing → Part‏‎   |Workbenches:[[Raytracing Workbench/ro   Raytracing]]|Shortcut:   SeeAlso:---
+- GuiCommand:/ro
+   Name:Raytracing WritePart
+   Name/ro:Raytracing WritePart
+   MenuLocation:Raytracing → Part
+   Workbenches:[Raytracing](Raytracing_Workbench/ro.md)
+   Shortcut:
+   SeeAlso:
+---
+
+# Raytracing WritePart/ro
 
 
 </div>

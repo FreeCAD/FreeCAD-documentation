@@ -16,7 +16,13 @@ Lo strumento [Armatura di pilastro con due staffe e sei barre](Arch_Rebar_Column
 
 The [Column Reinforcement TwoTiesSixRebars](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
+
+<div class="mw-translate-fuzzy">
+
 Questo comando fa parte dell\'ambiente _, tramite il menu **Strumenti → Addon manager → Reinforcement**.
+
+
+</div>
 
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_TwoTies_example.png  style="width:400px;">
 

@@ -14,22 +14,22 @@ import FreeCAD
 FreeCAD.PrintMessage("Hello World!\n")
 
 
-{{APIFunction/jp|GetStatus|"Log" または "Msg" または "Wrn" または "Err"|Log、Msg、Wrn、Wrnのいずれかのステータスを監視用に取得します。|ステータス文字列}}
+{{APIFunction|GetStatus|"Log" または "Msg" または "Wrn" または "Err"|Log、Msg、Wrn、Wrnのいずれかのステータスを監視用に取得します。|ステータス文字列}}
 
 
-{{APIFunction/jp|PrintError|string|出力にエラーメッセージをプリントします。|なし}}
+{{APIFunction|PrintError|string|出力にエラーメッセージをプリントします。|なし}}
 
 
-{{APIFunction/jp|PrintLog|string|出力にログメッセージをプリントします。|なし}}
+{{APIFunction|PrintLog|string|出力にログメッセージをプリントします。|なし}}
 
 
-{{APIFunction/jp|PrintMessage|string|出力にメッセージをプリントします。|なし}}
+{{APIFunction|PrintMessage|string|出力にメッセージをプリントします。|なし}}
 
 
-{{APIFunction/jp|PrintWarning|string|出力に警告をプリントします。|なし}}
+{{APIFunction|PrintWarning|string|出力に警告をプリントします。|なし}}
 
 
-{{APIFunction/jp|SetStatus|string|Log、Msg、Wrn、Wrnのいずれかのステータスを監視用に設定します。| }}
+{{APIFunction|SetStatus|string|Log、Msg、Wrn、Wrnのいずれかのステータスを監視用に設定します。| }}
 
 
  

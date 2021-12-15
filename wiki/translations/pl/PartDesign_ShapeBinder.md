@@ -23,13 +23,15 @@ Przykładem zastosowania może być zbudowanie skrzynki z dopasowaną pokrywą w
 
 Ogólne zastosowanie:
 
-1.  [Aktywuj obiekt](PartDesign_Body#Active_status.md), który ma przyjąć obiekt łącznika kształtu.
-2.  Naciśnij przycisk **<img src="images/PartDesign_ShapeBinder.svg" width=16px> [Utwórz nowy łącznik kształtu](PartDesign_ShapeBinder.md)**.
+1.  [Aktywuj obiekt](PartDesign_Body/pl#Aktywny_status.md), który ma przyjąć obiekt łącznika kształtu.
+2.  Naciśnij przycisk **<img src="images/PartDesign_ShapeBinder.svg" width=24px> [Utwórz nowy łącznik kształtu](PartDesign_ShapeBinder/pl.md)**.
 3.  Naciśnij przycisk **Obiekt** lub **Dodaj geometrię**.
-4.  W oknie [widoku 3D](3D_view/pl.md) wybierz obiekt lub geometrię do skopiowania. **Obiekt** wybierze całą bryłę, **Dodaj geometrię** wybierze dowolny element *(wierzchołek, krawędź, ściana)*.
-5.  Aby usunąć wybraną geometrię, naciśnij przycisk **Usuń geometrię** po czym wybierz element w oknie [widoku 3D](3D_view/pl.md). Aby anulować operację, należy ponownie nacisnąć przycisk .
-6.  Alternatywnie, bryłę do skopiowania można wybrać przed uruchomieniem polecenia Łącznik kształtów.
+4.  W oknie [widoku 3D](3D_view/pl.md) wybierz obiekt lub geometrię do skopiowania. **Obiekt** wybierze cały kształt, *Dodaj geometrię* wybiera podświetlony element geometrii *(np. wierzchołek, krawędź lub ściana)*.
+5.  Aby usunąć wybraną geometrię, naciśnij przycisk **Usuń geometrię** po czym wybierz element w oknie [widoku 3D](3D_view/pl.md).
+6.  Alternatywnie, element geometrii do skopiowania można wybrać w oknie [widoku 3D](3D_view/pl.md) przed uruchomieniem polecenia Łącznik kształtów.
 7.  Naciśnij przycisk **OK**.
+
+Aby anulować działanie, które zostało rozpoczęte za pomocą przycisku, należy ponownie nacisnąć ten sam przycisk.
 
 **Przykład**
 
@@ -47,25 +49,25 @@ Ogólne zastosowanie:
 Oto jak użyć funkcji Łącznik kształtów, aby osiągnąć ten efekt:
 
 1.  Przygotuj scenę jak na powyższym obrazku. Jeśli używasz sześcianów ze środowiska [Part](Part_Workbench/pl.md), pamiętaj, że musisz je umieścić w kontenerze *zawartość*. Każdy z nich w oddzielnym kontenerze *zawartość*. W przeciwnym razie funkcje środowiska pracy [Projekt części](PartDesign_Workbench/pl.md) nie działałyby. Jeśli budujesz je ze szkiców, system powinien domyślnie tworzyć kontenery typu *zawartość*.
-2.  Wybierz zakładkę PropertiesDialog/Data, aby przesunąć drugi sześcian tak, by zetknął się z pierwszym z przemieszczeniem w bok.
+2.  Wybierz zakładkę PropertiesDialog Data, aby przesunąć drugi sześcian tak, by zetknął się z pierwszym z przemieszczeniem w bok.
 3.  Wybierz środowisko pracy Projekt części.
 4.  Utwórz szkic na powierzchni czołowej pierwszego sześcianu i umieść w dowolnym miejscu okrąg, a następnie zamknij szkic.
-5.  Zaznacz szkic w drzewie i naciśnij przycisk funkcyjny [Utwórz otwór \...](PartDesign_Hole/pl.md). Najpierw upewnij się, że pierwsza bryła jest bryłą aktywną *(podwójne kliknięcie)*.
+5.  Zaznacz szkic w drzewie i naciśnij przycisk funkcyjny [Utwórz otwór \...](PartDesign_Hole/pl.md). Najpierw upewnij się, że pierwsza bryła jest [bryłą aktywną](PartDesign_Body/pl#Aktywny_status.md) *(podwójne kliknięcie)*.
 6.  Wybierz otwór w odpowiednim rozmiarze. Na powyższym rysunku wybrano również pogłębienie walcowe. Zamykamy funkcję [Utwórz otwór \...](PartDesign_Hole/pl.md).
 
     :   Teraz obrazek powinien wyglądać jak powyżej. Po ukryciu pierwszego sześcianu *(zaznaczamy i wciskamy spację)* widać, że otwór nie sięga do drugiego sześcianu. Nie dosięgnie, nawet jeśli wybierzesz opcję *Przez wszystkie* lub jeśli podasz naprawdę dużą odległość w oknie dialogowym [Utwórz otwór \...](PartDesign_Hole/pl.md). Funkcja otworu jest zawsze ograniczona do jednej bryły.
     :   Tutaj z pomocą przychodzi nasz łącznik kształtu.
-7.  Najpierw wybierz tylną kostkę. To jest cel, do którego zostanie dodany łącznik kształtu. Musi on być aktywny, więc upewnij się, że został dwukrotnie kliknięty.
+7.  Najpierw wybierz tylną kostkę. To jest cel, do którego zostanie dodany łącznik kształtu. Musi on być [aktywny](PartDesign_Body/pl#Aktywny_status.md), więc upewnij się, że został dwukrotnie kliknięty.
 8.  W drzewie wybierz szkic, którego użyliśmy do wykonania otworu. Ważne jest, aby nie aktywować pierwszej bryły.
 9.  Wybierz funkcję łączenia kształtów.
 
     :   Powinno się otworzyć okno dialogowe. W wierszu **Obiekt** powinna być widoczna nazwa naszego szkicu. Jeśli wybrałeś funkcję bez wybierania szkicu, możesz nacisnąć **Obiekt** i wybrać szkic z listy. Zalecane jest wybranie go najpierw, aby uzyskać właściwą nazwę, szczególnie jeśli mamy wiele szkiców z automatycznie generowanymi nazwami Sketch001, \... Funkcja **Dodaj geometrię** nie jest dla nas przydatna, ponieważ chcemy wybrać cały szkic. Opcja **Dodaj geometrię** jest używana, jeśli chcemy wybrać tylko części.
-10. Naciśnij przycisk **OK**, aby zamknąć funkcję szkicu i sprawdzić, czy nowy element został dodany do drzewa drugiego sześcianu.
+10. Naciśnij przycisk **OK**, aby zamknąć okno i sprawdzić, czy nowy element został dodany do drzewa drugiego sześcianu.
 
     :   Kiedy przełączasz widoczność segregatora kształtów, jest on wyświetlany na żółto w oknie [widoku 3D](3D_view/pl.md). Jest on jednak w złej pozycji, tak jak białe kółko na powyższym obrazku. Jest to spowodowane domyślnym ustawieniem parametru Śledzenia.
-11. W widoku właściwości łącznika kształtu w zakładce **Dane** ustaw wartość parametru **Wsparcie śledzenia** na {{true}}. Domyślnie ustawiona była wartość {{false}}.
+11. W widoku właściwości łącznika kształtu w zakładce **Dane** ustaw wartość parametru **Wsparcie śledzenia** na {{true/pl}}. Domyślnie ustawiona była wartość {{false/pl}}.
 
-    :   Jeśli parametr **Wsparcie śledzenia** ma wartość {{true}}, na łącznik kształtu nie mają wpływu lokalne transformacje bryły docelowej, np. nasze translacje. Kształt pozostaje dokładnie tam, gdzie znajdował się oryginalny kształt obiektu przedniego. Spróbuj przesunąć przedni obiekt dookoła, a zobaczysz, że łącznik kształtu zawsze podąża do nowej pozycji.
+    :   Jeśli parametr **Wsparcie śledzenia** ma wartość {{true/pl}}, na łącznik kształtu nie mają wpływu lokalne transformacje bryły docelowej, np. nasze translacje. Kształt pozostaje dokładnie tam, gdzie znajdował się oryginalny kształt obiektu przedniego. Spróbuj przesunąć przedni obiekt dookoła, a zobaczysz, że łącznik kształtu zawsze podąża do nowej pozycji.
     :   Niestety nie możemy wybrać funkcji łączenia kształtów dla funkcji [Utwórz otwór \...](PartDesign_Hole/pl.md). Dlatego tworzymy szkic lokalny i używamy go do naszego otworu w drugim sześcianie.
 12. Zaznacz przednią ścianę tylnego sześcianu i utwórz nowy szkic *(kliknij w przycisk **OK** dla sugestii w oknie dialogowym)*.
 13. Spraw, aby cała geometria była niewidoczna, a łącznik kształtów widoczny. Teraz możesz użyć funkcji geometrii zewnętrznej i wybrać okrąg w łączniku kształtów. Potrzebujemy punktu środkowego tego okręgu.
@@ -92,18 +94,19 @@ Kliknij dwukrotnie etykietę Łącznik kształtu w okienku [widoku drzewa](Tree_
 
 -    **Etykieta**: nazwa nadana obiektowi, nazwa ta może być zmieniona dla wygody.
 
--    **Wsparcie śledzenia**: Przy ustawieniu tej opcji na wartość {{true}}, Łącznik kształtów stosuje się do względnego rozmieszczenia części i brył. Wartość domyślna to {{false}}. Zobacz powyższy przykład, jak to działa i jak to jest używane {{Version/pl|0.18}}.
+-    **Wsparcie śledzenia**:
+
+Domyślnie przyjmuje wartość {{false/pl}}. Przy ustawieniu tej opcji na wartość {{true/pl}}, Łącznik kształtów obserwuje względne rozmieszczenie części i zawartości *(poprzez manipulowanie wartościami ukrytej właściwości **Umiejscowienie**)*. Zobacz powyższy przykład, jak to działa i jak to jest używane.
 
 ## Ograniczenia
 
 -   Nie jest obsługiwany wybór wielokrotny. Przyciski **Dodaj geometrię** i **Usuń geometrię** muszą zostać naciśnięte dla każdego z poszczególnych wyborów.
-
-Istnieje obejście dla wielokrotnego wyboru: Jeśli zaznaczysz wszystkie elementy, które chcesz mieć *przed* utworzeniem łącznika kształtów, pojawią się one na liście początkowej.
-
--   Segregator kształtów nie może służyć jako element bazowy.
+    -   Istnieje obejście dla wielokrotnego wyboru: Jeśli zaznaczysz wszystkie elementy, które chcesz mieć *przed* utworzeniem łącznika kształtów, pojawią się one na liście początkowej.
+    -   Segregator kształtów nie może służyć jako element bazowy.
 -   Wybrana geometria na bryle musi być przyległa.
 -   Jeśli przed uruchomieniem polecenia zostanie najpierw wybrana bryła, która ma zostać skopiowana, lub jeśli zostanie użyty przycisk **Obiekt**, nie jest już możliwe wybranie tylko określonych elementów geometrii.
--   Względne położenie bryły docelowej i kopiowanej nie jest brane pod uwagę. Łącznik kształtów przyjmie te same współrzędne wewnętrzne, jakie posiada skopiowana bryła. Od wersji **0.18** dostępna jest nowa właściwość *Trace Support*, która pozwala przełączyć to zachowanie tak, aby uwzględniało względne umiejscowienie.
+-   Względne położenie zawartości docelowej i zawartości odniesienia nie jest brane pod uwagę. Segregator kształtu przyjmie te same współrzędne wewnętrzne, co zawartość odniesienia.
+    -   Użycie właściwości *Wsparcie śledzenia*, pozwala przełączyć to zachowanie.
 
 
 

@@ -23,7 +23,7 @@
 
 </div>
 
-In FreeCAD version 0.19 and 0.20 the grid is always displayed when a command becomes active and toggling the grid while a command is active does not work.
+In FreeCAD version 0.19 the grid is always displayed when a command becomes active and toggling the grid while a command is active does not work.
 
 ## Usage
 

@@ -23,7 +23,13 @@
 
 ## Code
 
+
+<div class="mw-translate-fuzzy">
+
 Die neueste Version des Makros finden Sie unter _.
+
+
+</div>
 
 ToolBar Icon ![](images/Macro_View_Rotation.png )
 

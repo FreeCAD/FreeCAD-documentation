@@ -1,21 +1,21 @@
 # Artwork Start/pl
-These icons are in the indicated source path.
+Ikony te znajdują się we wskazanej ścieżce źródłowej.
 
-For all icons in the source tree, see [Artwork](Artwork.md).
+Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md).
 
 ## src/Mod/Start/
 
-### From src/Mod/Start/Gui/Resources/icons/ 
+### Ikonki src/Mod/Start/Gui/Resources/icons/ 
 
 ![](images/StartWorkbench.svg )
 
-### From src/Mod/Start/StartPage/Images/ 
+### Ikonki src/Mod/Start/StartPage/Images/ 
 
 <img alt="" src=images/ArchDesign.png  style="width:32px;"> <img alt="" src=images/Blank.png  style="width:32px;"> <img alt="" src=images/Complete.png  style="width:32px;"> <img alt="" src=images/freecad.png  style="width:32px;"> <img alt="" src=images/freecad-doc.png  style="width:32px;"> <img alt="" src=images/mesh.png  style="width:32px;"> <img alt="" src=images/PartDesign.png  style="width:32px;"> <img alt="" src=images/ship.png  style="width:32px;"> <img alt="" src=images/web.png  style="width:32px;">
 
 ![](images/ArchExample.png )
 
-The following image has been re-sized to a display width of 480 pixels:
+Poniższe zdjęcie zostało zmniejszone do szerokości wyświetlania 480 pikseli:
 
 <img alt="" src=images/Background.jpg  style="width:480px;">
 

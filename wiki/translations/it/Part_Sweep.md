@@ -41,7 +41,13 @@ I profili possono essere un punto (vertice), una linea (bordo), un wire o una fa
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Il percorso può essere costituito da una linea (bordo) o una serie di linee collegate, un wire o da alcune primitive di Parte, da funzioni di Draft e da Schizzi. Il percorso viene spesso selezionato direttamente nella finestra del modello principale, ma può anche essere selezionato dalla Vista ad albero, nella scheda Modello della Vista Combinata. Il percorso può essere una forma unica appropriata oppure un sotto-componente appropriato di una forma più complessa (ad esempio, come percorso può essere selezionato un bordo di un cubo di Parte). Il percorso può essere aperto o chiuso e quindi si può creare un Sweep aperto o chiuso. Un percorso chiuso come un cerchio Parte produce un Sweep chiuso. Ad esempio, lo Sweep di un cerchio piccolo lungo il percorso di un cerchio più grande crea un toro.
+
+
+</div>
 
 ## Properties
 

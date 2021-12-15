@@ -17,17 +17,14 @@ Parce que leur construction est très simple, ils sont parmi les plus anciennes 
 
 La roue dentée du pignon lanterne avec chaînes à rouleaux est une alternative économique et robuste aux entraînements à pignon et crémaillère. En guidant la chaîne de roue dentée de lanterne étirée tangentiellement le long de la roue dentée du pignon lanterne, un mouvement linéaire de la chaîne est converti en un mouvement de rotation de la roue. A l\'inverse, un mouvement linéaire de la chaîne peut également être obtenu par le mouvement de rotation du pignon lanterne (moto/vélo).
 
-:   ![](images/Latern_Gear_example.png )
-:   
-    
+![](images/Latern_Gear_example.png ) 
 *Au-dessus: pignon lanterne*
-    
 
 ## Utilisation
 
 1.  Basculez vers l\'<img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [atelier FCGear](FCGear_Workbench/fr.md).
 2.  Lancez la commande d\'une de ces manières :
-    -   Appuyez sur le bouton <img alt="" src=images/FCGear_LaternGear.svg  style="width:22px;"> [Create a Lantern gear](FCGear_LanternGear/fr.md) dans la barre d\'outils.
+    -   Appuyez sur le bouton <img alt="" src=images/FCGear_LanternGear.svg  style="width:22px;"> [Create a Lantern gear](FCGear_LanternGear/fr.md) dans la barre d\'outils.
     -   Utilisez le **Menu → Lantern gear**.
 3.  Modifier le paramètre d\'engrenage selon les conditions requises (voir **Propriétés → Données** ci-dessous).
 

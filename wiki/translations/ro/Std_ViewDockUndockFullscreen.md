@@ -1,9 +1,15 @@
-# Std ViewDockUndockFullscreen/ro
 ---
-- GuiCommand:   Name:Std ViewDockUndockFullscreen   MenuLocation:[[Std View Menu   View]] → Document window‏‎||Workbenches:All   Shortcut:   SeeAlso:---
+- GuiCommand:
 
+   Name:Std ViewDockUndockFullscreen
+   Empty:1
+   MenuLocation:View → Document window → Docked/Undocked
+   Workbenches:All
+   Shortcut:**V** **D** / **V** **U**
+   SeeAlso:[Std ViewFullscreen](Std_ViewFullscreen.md), [Std MainFullscreen](Std_MainFullscreen.md)
+---
 
-</div>
+# Std ViewDockUndockFullscreen/ro
 
 ## Introduction
 

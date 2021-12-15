@@ -33,10 +33,16 @@ Tyto nástroje slouží pro vytváření architektonických objektů.
 -   <img alt="" src=images/Arch_Window.png  style="width:32px;"> [Okno](Arch_Window/cs.md): Vytváří okno použitím vybraného objektu jako základu
 -   <img alt="" src=images/Arch_SectionPlane.png  style="width:32px;"> [Řez](Arch_SectionPlane/cs.md): Přidává do dokumentu řez objektem
 
+
+<div class="mw-translate-fuzzy">
+
 -   Axis tools
     -   <img alt="" src=images/Arch_Axis.png  style="width:32px;"> [Osový systém](Arch_Axis/cs.md): Přidává do dokumentu osový systém
     -   <img alt="" src=images/Arch_AxisSystem.png  style="width:32px;"> [Axes system](Arch_AxisSystem.md): Adds an axes system composed of several axes to the document
     -   <img alt="" src=images/Arch_Grid.png  style="width:32px;"> [Grid](Arch_Grid.md): Adds a grid-like object to the document
+
+
+</div>
 
 -   <img alt="" src=images/Arch_Roof.png  style="width:32px;"> [Střecha](Arch_Roof/cs.md): Vytváří šikmou střechu z vybrané plochy
 -   <img alt="" src=images/Arch_Space.png  style="width:32px;"> [Prostor](Arch_Space/cs.md): Vytváří v dokumentu objekt prostoru
@@ -104,7 +110,13 @@ These are additional tools to help you in specific tasks.
 
 ## API
 
+
+<div class="mw-translate-fuzzy">
+
 Modul Architektura může být použit v pythonovských skriptech a [makrech](macros/cs.md) použitím funkcí [Arch Python API](http://www.freecadweb.org/api/Arch.html).
+
+
+</div>
 
 ## Výukový program 
 

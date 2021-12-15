@@ -38,7 +38,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 <div class="mw-translate-fuzzy">
 
-1.  确保开启了**<img src="images/Snap_Lock.svg" width=16px> [Draft ToggleSnap](Draft_ToggleSnap.md)**与 **<img src="images/Snap_Endpoint.svg" width=16px> [Snap Endpoint](Draft_Endpoint.md)**按钮。
+1.  确保开启了**<img src="images/Draft_Snap_Lock.svg" width=16px> [Draft ToggleSnap](Draft_Snap_Lock.md)**与 **<img src="images/Draft_Snap_Endpoint.svg" width=16px> [Snap Endpoint](Draft_Snap_Endpoint.md)**按钮。
 2.  选取底图工具来绘制一个图形。
 3.  将鼠标指针移至一条线段或另一对象的边上，选取其中的一个端点。
 4.  鼠标下的边将变为高亮黄色，且指针变为一个白色小圈，表示当前点将附于此顶点。

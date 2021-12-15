@@ -28,7 +28,7 @@
 
 ## Instalacja
 
-Instalację wykonaj za pomocą <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md).
+Instalację wykonaj za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md).
 
 Uwaga: Aby odinstalować, musisz utworzyć makro i wykonać je. Jeśli nie czujesz się pewnie w tej kwestii, rozważ możliwość zaniechania instalacji.
 

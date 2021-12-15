@@ -1,9 +1,14 @@
-# Raytracing WriteView/sv
 ---
-- GuiCommand:/sv   Name:Raytracing Export‏‎   Name/sv:Raytracing Export   MenuLocation:Raytracing → Export‏‎   |Workbenches:[[Raytracing_Workbench/sv   Raytracing]]|Shortcut:   SeeAlso:---
+- GuiCommand:/sv
+   Name:Raytracing WriteView
+‏‎   Name/sv:Raytracing WriteView
+   MenuLocation:Raytracing → Export
+   Workbenches:[Raytracing](Raytracing_Workbench/sv.md)
+   Shortcut:
+   SeeAlso:
+---
 
-
-</div>
+# Raytracing WriteView/sv
 
 ## Description
 

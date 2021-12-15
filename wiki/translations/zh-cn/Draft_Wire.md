@@ -39,8 +39,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 ## 如何使用
 
 1.  按下**<img src="images/Draft_Wire.svg" width=16px> [Draft Wire](Draft_Wire/zh-cn.md)**按钮，或先按**W**键再按**I**键。
-2.  在3D视图中点击第一个点，或输入一个[坐标再按](Draft_Coordinates.md)**<img src="images/Draft_AddPoint.svg" width=16px> [add point](Draft_AddPoint.md)**按钮。
-3.  在3D视图中单击另一个点，或输入一个[坐标再按](Draft_Coordinates.md)**<img src="images/Draft_AddPoint.svg" width=16px> [add point](Draft_AddPoint.md)**按钮。
+2.  在3D视图中点击第一个点，或输入一个坐标再按**<img src="images/Draft_AddPoint.svg" width=16px> add point**按钮。
+3.  在3D视图中单击另一个点，或输入一个坐标再按**<img src="images/Draft_AddPoint.svg" width=16px> add point**按钮。
 4.  按**Esc**键或**Close**按钮来结束本次编辑。
 
 
@@ -55,12 +55,12 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## 选项
 
--   按**A**键或**<img src="images/Draft_FinishLine.png" width=12px> [Finish](Draft_FinishLine.md)**按钮来结束当前连线的绘制，并关闭对此连线的编辑。
--   按**O**键或**<img src="images/Draft_CloseLine.png" width=12px> [Close](Draft_CloseLine.md)**按钮令当前连线闭合，即一条线段将连接当前连线首尾两点，从而构成一个面。而构成一个面则最少需要三个点。
--   按**W**键或**<img src="images/Draft_Wipe.svg" width=12px> [Wipe](Draft_Wipe.md)**按钮来移除刚画好的线段，但是将继续保持从前一个点的位置继续编辑连线。
+-   按**A**键或**<img src="images/Draft_FinishLine.png" width=12px> Finish**按钮来结束当前连线的绘制，并关闭对此连线的编辑。
+-   按**O**键或**<img src="images/Draft_CloseLine.png" width=12px> Close**按钮令当前连线闭合，即一条线段将连接当前连线首尾两点，从而构成一个面。而构成一个面则最少需要三个点。
+-   按**W**键或**<img src="images/Draft_Wipe.svg" width=12px> Wipe**按钮来移除刚画好的线段，但是将继续保持从前一个点的位置继续编辑连线。
 -   按**U**键或**<img src="images/Draft_SelectPlane.svg" width=12px> [Set WP](Draft_SelectPlane.md)**按钮根据前一个点的方位来调整当前的工作平面。
 -   在创建一个点后，按**X**、**Y**或 **Z**键来在对应轴上约束下一个点。
--   为了手动输入坐标，每当设置好X、Y、Z分量后都要按下**Enter**键。当您需要以特定坐标值插入一个点时，可点击**<img src="images/Draft_AddPoint.svg" width=16px> [add point](Draft_AddPoint.md)**按钮。
+-   为了手动输入坐标，每当设置好X、Y、Z分量后都要按下**Enter**键。当您需要以特定坐标值插入一个点时，可点击**<img src="images/Draft_AddPoint.svg" width=16px> |add point**按钮。
 -   按**R**键或点击relative多选框切换至*相对* 模式。若开启了相对模式，则后一个相对于前一个的坐标而定；否则采用绝对坐标，即相对原点(0,0,0)定后一个点的坐标。
 -   按**T**键或点击continue多选框切换至*连续（绘制）*模式。若开启了连续模式，则连线工具在绘制一条连线后会自动重启，即允许您在不用点击连线工具的情况下，继续绘制下一条连线。
 -   按**L**键或点击filled多选框切换至*填充*模式。若开启了填充模式，则一条闭合的连线将创建出一个填充面(**Make Face** `True`); 否则，闭合的连线将不会创建出一个面(**Make Face** `False`)。
@@ -70,7 +70,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   按住**Ctrl**键，将当前所绘点强制放在与之最近的[捕捉位置处](Draft_Snap.md)。
 -   按住**Shift**键，将下一个点的位置[约束于上一个的水平方向或垂直方向上](Draft_Constrain.md)。
--   按**Ctrl**+**Z**组合键或点击{{button|<img src="images/Draft_UndoLine.png" width=12px> [Undo](Draft_UndoLine.md)}}按钮来撤销当前操作，返回上一个操作点。
+-   按**Ctrl**+**Z**组合键或点击{{button|<img src="images/Draft_UndoLine.png" width=12px> Undo}}按钮来撤销当前操作，返回上一个操作点。
 -   按**Esc**键或{{button|Close}}按钮来终止当前连线命令；但此前绘制好的线段仍会保留。
 
 
@@ -92,7 +92,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 <div class="mw-translate-fuzzy">
 
-双击树状视图中的元素或点击**<img src="images/Draft_Edit.svg" width=16px> [add point](Draft_Edit]]**按钮即可编辑连线。接下来，您可以将其中的点移到一个新位置，或点击**<img_src="images/Draft_AddPoint.svg" width=16px> [[Draft_AddPoint.md)**或**<img src="images/Draft_DelPoint.svg" width=16px> [remove point](Draft_DelPoint.md)**按钮再点选连线来增添其中的点。
+双击树状视图中的元素或点击**<img src="images/Draft_Edit.svg" width=16px> [[Draft Edit]]**按钮即可编辑连线。接下来，您可以将其中的点移到一个新位置，或点击**<img src="images/Draft_AddPoint.svg" width=16px> add point**或**<img src="images/Draft_DelPoint.svg" width=16px> remove point**按钮再点选连线来增添其中的点。
 
 
 </div>

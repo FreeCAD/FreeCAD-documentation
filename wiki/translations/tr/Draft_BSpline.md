@@ -2,7 +2,7 @@
 - GuiCommand:/tr
    Name:Draft BSpline
    Name/tr:BSpline
-   MenuLocation:Taslak → BSpline   Shortcut:B S
+   MenuLocation:Taslak → BSpline
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
    Shortcut:**B** **S**
    Version:0.7
@@ -10,9 +10,6 @@
 ---
 
 # Draft BSpline/tr
-
-
-</div>
 
 ## Description
 
@@ -49,9 +46,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 1.  
     {{Button | <img src="images/_Draft_BSpline.png_" width= 16px> [BSpline](Draft_BSpline/tr.md)}}düğmesine basın veya {{KEY | B}} ardından {{KEY | S}} tuşuna basın
 
-2.  3D görünümde bir ilk noktaya tıklayın veya bir [ koordinat](Draft_Coordinates/tr.md) yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [Nokta ekle](Draft_AddPoint/tr_.md)}} tuşuna basın.
+2.  3D görünümde bir ilk noktaya tıklayın veya bir koordinat yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} tuşuna basın.
 
-3.  3D görünümünde ek noktalara tıklayın veya bir [ koordinate](Draft_Coordinates.md) yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [Nokta ekle](Draft_AddPoint/tr_.md)}} düğmesine basın.
+3.  3D görünümünde ek noktalara tıklayın veya bir koordinate yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} düğmesine basın.
 
 4.  Basımı tamamlamak için {{KEY | Esc}} veya {{Button | Kapat}} tuşuna basınız.
 
@@ -67,17 +64,17 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Seçenekler
 
--   Spline\'ı açık bırakmak için **A** veya **<img src="images/_Draft_FinishLine.png" width=12px> [Çizgiyi bitir](Draft_FinishLine/tr.md)** düğmesine basın.
+-   Spline\'ı açık bırakmak için **A** veya **<img src="images/_Draft_FinishLine.png" width=12px> Çizgiyi bitir** düğmesine basın.
 
--    **O**ya veya **<img src="images/Draft_CloseLine.png" width=12px> [Çizgiyi kapat](Draft_CloseLine/tr.md)** Spline kapatmak için düğmelerine basın. Bir yüz oluşturmak için son noktadan ilkine bir eğri eklenecektir. Bir yüz oluşturmak için en az üç nokta gerekir.
+-    **O**ya veya **<img src="images/Draft_CloseLine.png" width=12px> Çizgiyi kapat** Spline kapatmak için düğmelerine basın. Bir yüz oluşturmak için son noktadan ilkine bir eğri eklenecektir. Bir yüz oluşturmak için en az üç nokta gerekir.
 
--   Önceden yerleştirilmiş eğri parçalarını kaldırmak için **W** veya **<img src="images/_Draft_Wipe.svg" width=12px> [Kaldır](Draft_Wipe/tr.md)** düğmesine basın, ancak spline\'ı son noktadan düzenlemeye devam edin.
+-   Önceden yerleştirilmiş eğri parçalarını kaldırmak için **W** veya **<img src="images/_Draft_Wipe.svg" width=12px> Kaldır** düğmesine basın, ancak spline\'ı son noktadan düzenlemeye devam edin.
 
 -   Geçerli çalışma düzlemini en son yönde ayarlamak için **U** veya **<img src="images/_Draft_SelectPlane.svg" width=12px> [Set WP](Draft_SelectPlane/tr.md)** düğmesine basın puan.
 
 -   Verilen eksendeki bir sonraki noktayı sınırlamak için bir noktadan sonra **X**, **Y** veya **Z** tuşlarına basın.
 
--   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında **Enter** tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda **<img src="images/_Draft_AddPoint.svg" width=16px> [Nokta ekle](Draft_AddPoint/tr_.md)** düğmesine basabilirsiniz.
+-   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında **Enter** tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda **<img src="images/_Draft_AddPoint.svg" width=16px> Nokta ekle** düğmesine basabilirsiniz.
 
 -   **Göreceli**moduna geçmek için **R** tuşuna basın veya onay kutusunu tıklayın. Göreceli mod açıksa, bir sonraki noktanın koordinatları sonuncusuna göre değişir; değilse, kesindir, kökenlerinden alınır (0,0,0).
 
@@ -90,7 +87,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   [snapping](Draft_Snap/tr.md) noktanızı mesafeden bağımsız olarak, en yakın çeki konumuna yönlendirmek için çizim yaparken **Ctrl** tuşunu basılı tutun.
 -   Bir sonraki noktanızı yatay veya dikey olarak son noktaya göre [sınırlamak](Draft_Constrain/tr.md) çizerken **Shift** tuşunu basılı tutun.
--   Son noktayı geri almak için **Ctrl** **Z** tuşuna basınız veya **_ [Geri alma](Draft_UndoLine/tr.md)** düğmesine basınız. .
+-   Son noktayı geri almak için **Ctrl** **Z** tuşuna basınız veya **<img src="images/Draft_UndoLine.png" width=12px> Geri alma** düğmesine basınız. .
 -   Geçerli komutu iptal etmek için **Esc** veya **Close** tuşuna basınız; Önceden yerleştirilmiş eğri parçaları kalacaktır.
 
 

@@ -1,5 +1,5 @@
 ---
-- GuiCommand:/
+- GuiCommand:/de
    Name:Arch Rebar BOM
    Name/de:Arch Bewehrung Stückliste
    MenuLocation:Reinforcement → Stückliste
@@ -14,7 +14,13 @@
 
 Das [Stücklisten](Arch_Rebar_BOM/de.md)-Werkzeug ermöglicht dem Benutzer eine Stückliste von Bewehrungsstäben zu erstellen.
 
+
+<div class="mw-translate-fuzzy">
+
 Dieser Befehl ist Teil der _ über das {{MenuCommand/de|Werkzeuge → Erweiterungsverwalter → Bewehrung}}-Menü installiert werden kann.
+
+
+</div>
 
 <img alt="" src=images/Arch_Rebar_BOM_example.png  style="width:1000px;">
 

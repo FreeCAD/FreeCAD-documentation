@@ -17,7 +17,13 @@
 
 Lo strumento **Sagomatura dei ferri** consente all\'utente di creare una lista per il taglio e la piega delle barre d\'armatura.
 
+
+<div class="mw-translate-fuzzy">
+
 Questo comando fa parte dell\'ambiente _, tramite il menu **Strumenti → Addon manager → Reinforcement**.
+
+
+</div>
 
 <img alt="" src=images/Reinforcement_Bar_Shape_Cut_List_example.svg  style="width:800px;">
 

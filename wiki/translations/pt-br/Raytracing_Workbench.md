@@ -43,6 +43,9 @@ Uma nova bancada Render está em desenvolvimento para suportar múltiplos back-e
 
 ### Ferramentas de Projeto 
 
+
+<div class="mw-translate-fuzzy">
+
 Essas são as principais ferramentas para exportar o seu trabalho 3D para os renderizadores externos:
 
 -   <img alt="" src=images/Raytracing_New.png  style="width:32px;"> [Novo Projeto PovRay](Raytracing_New.md): Insere um novo projeto PovRay no documento.
@@ -52,13 +55,16 @@ Essas são as principais ferramentas para exportar o seu trabalho 3D para os ren
 -   <img alt="" src=images/Raytracing_ExportProject.png  style="width:32px;"> [Exportar projeto](Raytracing_ExportProject.md): Exporta um projeto raytracing para o arquivo de cena para renderizar em um renderizador externo.
 -   <img alt="" src=images/Raytracing_Render.png  style="width:32px;"> [Renderizador](Raytracing_Render.md): Renderiza um projeto raytracing com um renderizador externo.
 
+
+</div>
+
 ### Utilidades
 
 Estas são ferramentas auxiliares para realizar tarefas específicas manualmente.
 
--   <img alt="" src=images/Raytracing_Export.png  style="width:32px;"> [Exportar vista para povray](Raytracing_Export.md): Escreve uma vista 3D ativa com câmera e todo seu conteúdo para um arquivo povray.
--   <img alt="" src=images/Raytracing_Camera.png  style="width:32px;"> [Exportar câmera para o povray](Raytracing_Camera.md): Exporta a posição da câmera de uma vista 3D ativa no formato POV-Ray para um arquivo.
--   <img alt="" src=images/Raytracing_Part.png  style="width:32px;"> [Exportar peça para o povray](Raytracing_Part.md): Escreve a Peça selecionada (objeto) como um arquivo povray.
+-   <img alt="" src=images/Raytracing_WriteView.svg  style="width:32px;"> [Exportar vista para povray](Raytracing_WriteView.md): Escreve uma vista 3D ativa com câmera e todo seu conteúdo para um arquivo povray.
+-   <img alt="" src=images/Raytracing_WriteCamera.svg  style="width:32px;"> [Exportar câmera para o povray](Raytracing_WriteCamera.md): Exporta a posição da câmera de uma vista 3D ativa no formato POV-Ray para um arquivo.
+-   <img alt="" src=images/Raytracing_WritePart.svg  style="width:32px;"> [Exportar peça para o povray](Raytracing_WritePart.md): Escreve a Peça selecionada (objeto) como um arquivo povray.
 
 ## Preferências
 

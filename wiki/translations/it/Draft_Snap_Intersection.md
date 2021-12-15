@@ -1,12 +1,12 @@
 ---
 - GuiCommand:/it
-   Name:Draft Intersection
+   Name:Draft Snap Intersection
    Name/it:Intersezione
    Icon:Snap_Intersection.svg
    MenuLocation:Draft → [Ancoraggio](Draft_Snap/it.md) → Intersezione
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:
-   SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_ToggleSnap/it.md)
+   SeeAlso:[Agganciare](Draft_Snap/it.md), [Aggancia](Draft_Snap_Lock/it.md)
 ---
 
 # Draft Snap Intersection/it
@@ -43,7 +43,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 <div class="mw-translate-fuzzy">
 
-1.  Accertarsi che **<img src="images/Snap_Lock.svg" width=16px> [Aggancia](Draft_ToggleSnap/it.md)** e **<img src="images/Snap_Intersection.svg" width=16px> [Intersezione](Draft_Intersection/it.md)** siano attivati.
+1.  Accertarsi che **<img src="images/Draft_Snap_Lock.svg" width=16px> [Aggancia](Draft_Snap_Lock/it.md)** e **<img src="images/Draft_Snap_Intersection.svg" width=16px> [Intersezione](Draft_Snap_Intersection/it.md)** siano attivati.
 2.  Scegliere uno strumento Draft per disegnare una forma.
 3.  Spostare il cursore su una delle due linee che si incrociano.
 4.  Una delle linee si evidenzia in giallo, e un piccolo cerchio bianco indica il punto di intersezione a cui collegare il nuovo punto.
@@ -55,15 +55,6 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 ## Preferences
 
 See [Draft Snap](Draft_Snap#Preferences.md).
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Intersection/it

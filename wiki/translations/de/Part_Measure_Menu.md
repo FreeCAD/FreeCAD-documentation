@@ -1,10 +1,10 @@
 ---
 - GuiCommand:/de
-   Name:Std Measure Menu
-   Name/de:Std Menü Messung
+   Name:Part Measure Menu
+   Name/de:Part Menü Messung
    MenuLocation:
    Workbenches:[Arbeitsbereich Part](Part_Workbench/de.md)
-   SeeAlso:
+   SeeAlso:[Std MeasureDistance](Std_MeasureDistance.md), [Draft Dimension](Draft_Dimension.md), [Arch Survey](Arch_Survey.md)
 ---
 
 # Part Measure Menu/de

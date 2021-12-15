@@ -11,7 +11,7 @@
 
 ## Opis
 
-Polecenie **Prostopadłościan** ze środowiska prazy [Część](Part_Part_Workbench/pl.md) wstawia parametryczny [prostokątny prostopadłościan](http://en.wikipedia.org/wiki/Cuboid#Rectangular_cuboid), jako geometryczną bryłę pierwotną do aktywnego dokumentu. Domyślnie, polecenie Prostopadłościan wstawia sześcian o wymiarach 10 x 10 x 10mm, umieszczony w punkcie początkowym, z etykietą \"sześcian\". Parametry te mogą być modyfikowane po dodaniu obiektu.
+Polecenie **Prostopadłościan** ze środowiska prazy [Część](Part_Workbench/pl.md) wstawia parametryczny [prostokątny prostopadłościan](http://en.wikipedia.org/wiki/Cuboid#Rectangular_cuboid), jako geometryczną bryłę pierwotną do aktywnego dokumentu. Domyślnie, polecenie Prostopadłościan wstawia sześcian o wymiarach 10 x 10 x 10mm, umieszczony w punkcie początkowym, z etykietą \"sześcian\". Parametry te mogą być modyfikowane po dodaniu obiektu.
 
 <img alt="Part\_Box/pl\|Część: Sześcian" src=images/Part_Box.jpg  style="width:400px;">
 

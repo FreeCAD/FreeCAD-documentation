@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Arch Structure
    Name/fr:Arch Structure
-   MenuLocation:Arch → Structure
+   MenuLocation:Arch → Structure tools → Structure
    Workbenches:[Arch](Arch_Workbench/fr.md)
    Shortcut:**S** **T**
    SeeAlso:[Arch Mur](Arch_Wall/fr.md), [Arch Armature personnalisée](Arch_Rebar/fr.md)
@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'atelier [Arch Structure](Arch_Structure/fr.md) vous permet de construire les éléments structurels, tels que colonnes ou poutres, en précisant leur largeur, longueur et hauteur, ou en les fondant sur un profil 2D (face, fil ou esquisse).
+L\'outil [Arch Structure](Arch_Structure/fr.md) vous permet de construire les éléments structurels, tels que colonnes ou poutres, en précisant leur largeur, longueur et hauteur ou en les basant sur un profil 2D (face, polyligne ou esquisse).
 
 Si aucun profil n\'est fourni, un ensemble de préréglages est disponible pour construire rapidement un élément structurel à partir d\'un profil standard prédéfini.
 
@@ -21,13 +21,13 @@ Si aucun profil n\'est fourni, un ensemble de préréglages est disponible pour 
 
 ## Utilisation
 
--   Sélectionnez une forme 2D (objet draft, une face ou une esquisse) (en option).
+-   Sélectionnez une forme 2D (objet Draft, une face ou une esquisse) (en option).
 -   Appuyez sur le bouton **<img src="images/Arch_Structure.svg" width=16px> [Créer un objet de structure...](Arch_Structure/fr.md)** ou appuyez sur les touches **S** puis **T**.
 -   Réglez les propriétés désirées.
 
 ## Options
 
--   Lorsqu\'aucun objet 2D de base n\'est sélectionné, l\'outil Structure dispose de 2 modes de dessin: Colonne et Poutre :
+-   Lorsqu\'aucun objet 2D de base n\'est sélectionné, l\'outil Structure dispose de 2 modes de dessin: colonne et poutre :
     -   En mode colonne, il vous est demandé de choisir un point à l\'écran ou en entrant les coordonnées. Le nouvel objet de structure sera placé à cet endroit.
     -   En mode poutre, il vous est demandé de choisir deux points à l\'écran ou en entrant les coordonnées. Le nouvel objet structurel s\'étendra entre ces deux points.
 -   Les éléments structurels partagent les propriétés communes et les comportements de tous les [Arch Composants](Arch_Component/fr.md)
@@ -40,19 +40,19 @@ Si aucun profil n\'est fourni, un ensemble de préréglages est disponible pour 
 
 ### Données
 
--    {{PropertyData/fr|Tool}}: un chemin d\'extrusion facultatif, qui peut être n\'importe quel type de fil. Si cette propriété est vide, l\'extrusion sera droite et se déroulera dans le sens indiqué par la propriété Normal.
+-    **Tool**: un chemin d\'extrusion facultatif, qui peut être n\'importe quel type de fil. Si cette propriété est vide, l\'extrusion sera droite et se déroulera dans le sens indiqué par la propriété Normal.
 
--    {{PropertyData/fr|Normal}}: spécifie la direction dans laquelle la face de base de cette structure sera extrudée. Si cette propriété est maintenue à (0,0,0), la direction sera automatiquement définie sur la direction normale de la face de base.
+-    **Normal**: spécifie la direction dans laquelle la face de base de cette structure sera extrudée. Si cette propriété est maintenue à (0,0,0), la direction sera automatiquement définie sur la direction normale de la face de base.
 
--    {{PropertyData/fr|Face Maker}}: spécifie le type d\'algorithme de génération de face à utiliser pour créer le profil. Les choix sont None, Simple, Cheese and Bullseye.
+-    **Face Maker**: spécifie le type d\'algorithme de génération de face à utiliser pour créer le profil. Les choix sont None, Simple, Cheese and Bullseye.
 
--    {{PropertyData/fr|Length}}: spécifie la longueur de la structure. Ceci n\'est utilisé que si la structure n\'est pas basée sur un profil.
+-    **Length**: spécifie la longueur de la structure. Ceci n\'est utilisé que si la structure n\'est pas basée sur un profil.
 
--    {{PropertyData/fr|Width}}: spécifie la largeur de la structure. Ceci n\'est utilisé que si la structure n\'est pas basée sur un profil.
+-    **Width**: spécifie la largeur de la structure. Ceci n\'est utilisé que si la structure n\'est pas basée sur un profil.
 
--    {{PropertyData/fr|Height}}: spécifie la hauteur de la structure ou la longueur d\'extrusion lorsqu\'elle est basée sur un profil. Si aucune hauteur n\'est donnée et que la structure est à l\'intérieur d\'un objet [Arch Niveaux](Arch_Floor/fr.md) avec sa hauteur définie, la structure prendra automatiquement la valeur de la hauteur du sol.
+-    **Height**: spécifie la hauteur de la structure ou la longueur d\'extrusion lorsqu\'elle est basée sur un profil. Si aucune hauteur n\'est donnée et que la structure est à l\'intérieur d\'un objet [Arch Niveaux](Arch_Floor/fr.md) avec sa hauteur définie, la structure prendra automatiquement la valeur de la hauteur du sol.
 
--    {{PropertyData/fr|Nodes Offset}}: spécifie un décalage facultatif entre la ligne médiane et la ligne des nœuds.
+-    **Nodes Offset**: spécifie un décalage facultatif entre la ligne médiane et la ligne des nœuds.
 
 ### Vues
 
@@ -89,16 +89,18 @@ L\'objet structurel a également la possibilité d\'afficher les nœuds structur
     -   Modifier les nœuds graphiquement, fonctionne de la même manière que dans l\'[Draft Edition](Draft_Edit/fr.md).
     -   Étendre les nœuds de l\'objet modifié jusqu\'à ce qu\'il touchent le nœud d\'un autre objet.
     -   Construire le nœud de cet objet et le rendre coïncidant à un autre.
-    -   Basculer l\'affichage on/off de tous les nœuds et de tous les éléments structurels dans le document.
+    -   Activer/désactiver l\'affichage de tous les nœuds de tous les objets structurels du document
 
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi:**
 
-[Arch API](Arch_API.md) et [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Structure peut être utilisé dans des [macros](macros.md) et à partir de la console [Python](Python.md) à l\'aide de la fonction suivante : 
+L\'outil Structure peut être utilisé dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante :
+
+
 ```python
 Structure = makeStructure(baseobj=None, height=None)
 Structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")

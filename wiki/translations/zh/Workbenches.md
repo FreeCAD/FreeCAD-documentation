@@ -1,17 +1,4 @@
 # Workbenches/zh
-<div class="mw-translate-fuzzy">
-
-
-{{docnav
-|[属性编辑器](Property_editor/zh-hans.md)
-|[建筑模块](Arch_Module/zh-hans.md)
-|IconL=
-|IconR=Workbench_Arch.svg
-}}
-
-
-</div>
-
 FreeCad和许多现代设计应用程序一样，如_ _，都基于 _。工作台可以看作是为某个任务专门归类的一组工具。在一个传统的家具车间里，你会有一张工作台给木材工人，另一张给金属件工人，也许还有第三张给把所有零件组装在一起的工人。
 
 在FreeCad中，同样的概念也适用。工具根据与之相关的任务分组归类到工作台中。
@@ -87,8 +74,8 @@ Freecad安装后具有以下工作台：
 
 出于兼容性目的，以下工作台仍包含在基本安装中，但不再使用。
 
--   <img alt="" src=images/Workbench_Complete.svg  style="width:32px;"> [完整工作台包含满足特定质量标准的所有模块和工作台的所有命令和功能](Complete_Workbench/zh-hans.md)。 {{Obsolete| 0.17}}
--   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> [绘图工作台用于在](Drawing_Module/zh-hans.md)2D图纸上显示3D作品，但现已不建议使用，仍然需要阅读包含以下内容的旧FreeCAD文件： 最初使用此工作台制作的绘图对象。 请参阅[TechDraw工作台](TechDraw_Module/zh-hans.md)，它是更高级的替代品。 {{Obsolete|0.17}}
+-   <img alt="" src=images/Workbench_Complete.svg  style="width:32px;"> [完整工作台包含满足特定质量标准的所有模块和工作台的所有命令和功能](Complete_Workbench/zh.md)。 {{Obsolete| 0.17}}
+-   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> [绘图工作台用于在](Drawing_Workbench/zh.md)2D图纸上显示3D作品，但现已不建议使用，仍然需要阅读包含以下内容的旧FreeCAD文件： 最初使用此工作台制作的绘图对象。 请参阅[TechDraw工作台](TechDraw_Workbench/zh.md)，它是更高级的替代品。 {{Obsolete|0.17}}
 
 
 </div>
@@ -101,7 +88,13 @@ Freecad安装后具有以下工作台：
 
 FreeCAD工作台易于通过[Python进行编程开发](Python.md)，因此FreeCAD主要开发领域之外的很多人自己开发额外的工作台。
 
-[外部工作台页面列出了该社区已知的所有内容](external_workbenches.md)。 大多数功能都可以使用菜单 **工具 → <img src="images/AddonManager.svg" width=24px> 插件管理器**下的[插件管理器从FreeCAD轻松安装](Addon_Manager.md)。
+
+<div class="mw-translate-fuzzy">
+
+[外部工作台页面列出了该社区已知的所有内容](external_workbenches.md)。 大多数功能都可以使用菜单 **工具 → <img src="images/Std_AddonMgr.svg" width=24px> 插件管理器**下的[插件管理器从FreeCAD轻松安装](Std_AddonMgr.md)。
+
+
+</div>
 
 新的工作台持续在开发中，敬请关注。
 

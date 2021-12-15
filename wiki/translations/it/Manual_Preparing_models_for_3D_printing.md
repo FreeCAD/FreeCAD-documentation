@@ -144,7 +144,7 @@ La generazione di percorsi di fresatura CNC è un altro argomento troppo grande 
 
 -   Caricare il file che contiene il pezzo di Lego, e passare all\'ambiente [Path](Path_Workbench/it.md).
 -   Dato che il pezzo finale non contiene più nessuna faccia piana rettangolare, nascondere il pezzo lego finale, e mostrare il primo pad cubico fatto, che ha la faccia superiore rettangolare.
--   Selezionare la faccia superiore e premere il pulsante <img alt="" src=images/Path_FaceProfile.png  style="width:16px;"> [Face Profile](Path_FaceProfile/it.md).
+-   Selezionare la faccia superiore e premere il pulsante <img alt="" src=images/Path_Profile.svg  style="width:16px;"> [Face Profile](Path_Profile/it.md).
 -   Impostare la sua proprietà **Offset** a 1mm.
 
 
@@ -167,7 +167,7 @@ La generazione di percorsi di fresatura CNC è un altro argomento troppo grande 
 <div class="mw-translate-fuzzy">
 
 -   Abbiamo definito un percorso che, quando seguita dalla fresatrice, intaglierà un volume rettangolare da un blocco di materiale. Ora bisogna intagliare lo spazio tra le bugne, per renderle evidenti. Nascondere il Pad, e mostrare di nuovo il pezzo finale, in modo che si possa selezionare la faccia che si trova tra le bugne.
--   Selezionare la faccia superiore, e premere il pulsante <img alt="" src=images/Path_FacePocket.png  style="width:16px;"> [Scava faccia](Path_FacePocket/it.md). Impostare la proprietà **Offset** a 1mm, e la **retraction height** a 20mm. Questo è l\'altezza a cui l\'utensile viaggerà nel passaggio da un ciclo all\'altro. Altrimenti, l\'utensile può tagliare una delle bugne:
+-   Selezionare la faccia superiore, e premere il pulsante <img alt="" src=images/Path_Pocket_Shape.svg  style="width:16px;"> [Scava faccia](Path_Pocket_Shape/it.md). Impostare la proprietà **Offset** a 1mm, e la **retraction height** a 20mm. Questo è l\'altezza a cui l\'utensile viaggerà nel passaggio da un ciclo all\'altro. Altrimenti, l\'utensile può tagliare una delle bugne:
 
 
 </div>
@@ -187,7 +187,7 @@ La generazione di percorsi di fresatura CNC è un altro argomento troppo grande 
 
 <div class="mw-translate-fuzzy">
 
--   Ora tutto ciò che rimane da fare è unire queste due operazioni in una sola. Questo può essere fatto con un percorso _.
+-   Ora tutto ciò che rimane da fare è unire queste due operazioni in una sola. Questo può essere fatto con un _.
 -   Impostare la proprietà **Usa Posizionamento** del progetto su True, perché cambiamo il posizionamento delle matrici, e vogliamo che questo sia preso in considerazione nel progetto.
 -   Nella visualizzazione ad albero, trascinare e rilasciare i due array nel progetto. Se necessario, è possibile riordinare le matrici all\'interno del progetto facendo un doppio clic su di esso.
 -   Il progetto può essere esportato in codice G, selezionandolo, scegliendo menù **File -\> Esporta**, selezionando il formato G-code, e nella finestra di pop-up che si apre, selezionando uno script di post-elaborazione in base alla macchina.

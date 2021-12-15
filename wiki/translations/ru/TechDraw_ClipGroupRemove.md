@@ -22,7 +22,13 @@
 -   Нажмите кнопку **<img src="images/TechDraw_ClipGroupRemove.svg" width=16px> [Удалить Вид из группы](TechDraw_ClipGroupRemove/ru.md)**, чтобы убрать выбранный вид из группы Видов.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

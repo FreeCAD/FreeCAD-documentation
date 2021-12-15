@@ -22,7 +22,7 @@ Diese Methode fängt an einem Punkt auf einer imaginären Linie, die sich über 
 
 </div>
 
-Up to two edged can be referenced by this snap option and [Draft Snap Parallel](Draft_Snap_Parallel.md), making it possible to snap to virtual intersections. Both snap options can also be combined with other snap options.
+Up to 2 (or 8 <small>(v0.20)</small> ) edges can be referenced by this snap option and [Draft Snap Parallel](Draft_Snap_Parallel.md), making it possible to snap to virtual intersections. Both snap options can also be combined with other snap options.
 
 ![](images/Draft_Snap_Extension_example.png )
 

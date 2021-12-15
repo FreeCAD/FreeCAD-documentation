@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Std ViewAnsichtIvStereoRotGrün
+   Name:Std ViewIvStereoRedGreen
+   Name/de:Std ViewAnsichtIvStereoRotGrün
    MenuLocation:Ansicht → Stereo → Stereo rot/cyan
    Workbenches:Alle
    SeeAlso:[Std AnsichtIvStereoVierfachPuffer](Std_ViewIvStereoQuadBuff/de.md), [Std AnsichtIvStereoÜberlappteZeilen](Std_ViewIvStereoInterleavedRows/de.md), [Std AnsichtIvStereoÜberlappteSpalten](Std_ViewIvStereoInterleavedColumns/de.md), [Std AnsichtIvStereoAus](Std_ViewIvStereoOff/de.md)
@@ -14,7 +15,7 @@ Der **Std AnsichtIvStereoRotGrün** Befehl ändert die aktive [3D Ansicht](3D_vi
 
 ## Anwendung
 
-1.  Wähle die {{MenuCommand/de|Ansicht → Stereo → _ Stereo rot/cyan}} Option aus dem Menü.
+1.  Wähle die {{MenuCommand/de|Ansicht → Stereo → <img src="images/Std_ViewIvStereoRedGreen.svg" width=16px> Stereo rot/cyan}} Option aus dem Menü.
 
 ## Einstellungen
 

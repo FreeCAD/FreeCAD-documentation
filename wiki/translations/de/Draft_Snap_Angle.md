@@ -4,7 +4,7 @@
    Name/de:Draft Angle
    MenuLocation:Entwurf → [Objektfang](Draft_Snap/de.md) → Winkel
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[Objektfang](Draft_Snap/de.md), [Objektfang umschalten](Draft_ToggleSnap/de.md)
+   SeeAlso:[Objektfang](Draft_Snap/de.md), [Objektfang umschalten](Draft_Snap_Lock/de.md)
 ---
 
 # Draft Snap Angle/de
@@ -49,7 +49,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 ### Anwendung
 
-1.  Stelle sicher, dass **<img src="images/Snap_Lock.svg" width=16px> [Draft Umschalten Ein/Aus](Draft_ToggleSnap/de.md)** und **<img src="images/Snap_Angle.svg" width=16px> [Snap Winkel](Draft_Angle/de.md)** eingeschaltet sind.
+1.  Stelle sicher, dass **<img src="images/Snap_Lock.svg" width=16px> [Draft Umschalten Ein/Aus](Draft_Snap_Lock/de.md)** und **<img src="images/Draft_Snap_Angle.svg" width=16px> [Snap Winkel](Draft_Snap_Angle/de.md)** eingeschaltet sind.
 2.  Wähle ein Draft-Werkzeug zum Zeichnen einer Form.
 3.  Bewege den Cursor über ein Kreis- oder Kreisbogenobjekt.
 4.  Der Kreis oder Kreisbogen wird gelb hervorgehoben und ein kleiner weißer Kreis wird den Punkt des Kreisbogens anzeigen, an dem der neue Punkt verbunden wird; dieser Punkt wird im Winkel von 30° oder 45° oder einem Vielfachen zur Horizontalen angezeigt.
@@ -61,22 +61,6 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 ## Preferences
 
 See [Draft Snap](Draft_Snap#Preferences.md).
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/de
-|[Senkrecht](Draft_Perpendicular/de.md)
-|[Mittelpunkt](Draft_Center/de.md)
-|[Draft Snap](Draft_Snap/de.md)
-|IconL=Draft Perpendicular.png
-|IconC=Workbench_Draft.svg
-|IconR=Draft Center.png
-}}
-
-
-</div>
 
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Angle/de

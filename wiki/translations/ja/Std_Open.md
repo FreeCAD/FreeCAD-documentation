@@ -1,6 +1,12 @@
-# Std Open/ja
 ---
-- GuiCommand:/jp   Name:Std_Open   Workbenches:All   SeeAlso:[[Std_Save]],[[Std_Import]]---
+- GuiCommand:/ja
+   Name:Std_Open
+   Name/ja:Std_Open
+   Workbenches:All
+   SeeAlso:[[Std_Save]],[[Std_Import]]
+---
+
+# Std Open/ja
 
 
 </div>

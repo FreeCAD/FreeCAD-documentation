@@ -41,7 +41,13 @@ You can adjust the size of the vertex dots in the [TechDraw Preferences/Scale ta
 The Toggle tool currently doesn\'t have a programming interface.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

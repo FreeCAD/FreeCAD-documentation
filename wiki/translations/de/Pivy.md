@@ -101,7 +101,8 @@ Zum Schluß etwas entfernen wird ausgeführt mit:
 sg.removeChild(myCustomNode)
 ```
 
-[Anfang](#top.md)
+
+{{Top}}
 
 ## Rückrufe
 
@@ -127,9 +128,7 @@ class ButtonTest:
 ButtonTest()
 ```
 
-Der Rückruf muss von einem Objekt initiiert werden, da dieses Objekt zum Zeitpunkt des Rückrufs noch laufen muss. Siehe auch eine [complete list](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md) von möglichen Ereignissen und deren Parameter, oder die offizielle Coin Dokumentation.
-
-[Anfang](#top.md)
+Der Rückruf muss von einem Objekt initiiert werden, da dieses Objekt zum Zeitpunkt des Rückrufs noch laufen muss. Siehe auch eine [complete list](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md) von möglichen Ereignissen und deren Parameter, oder die offizielle Coin Dokumentation. {{Top}}
 
 ## Dokumentation
 
@@ -169,12 +168,16 @@ These links provide reference documentation for Coin v3.x. The differences with 
 -   [Coin3D Documentation](https://grey.colorado.edu/coin3d/index.html), at University of Colorado.
 -   [Open Inventor Reference Documentation](https://mevislabdownloads.mevis.de/docs/current/MeVis/ThirdParty/Documentation/Publish/OpenInventorReference/index.html), by MeVisLab.
 
-[Anfang](#top.md)
+
+{{Top}}
+
+
+
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

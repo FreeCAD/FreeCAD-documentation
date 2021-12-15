@@ -1,6 +1,13 @@
-# Arch Add/ja
 ---
-- GuiCommand:/jp   Name:Arch Add   Workbenches:[MenuLocation:Arch -> Add   SeeAlso:[[Arch Remove/jp|Arch Remove](Arch_Module/jp___建築]].md)---
+- GuiCommand:/ja
+   Name:Arch Add
+   Name/ja:Arch Add
+   Workbenches:[建築](Arch_Workbench/ja.md)
+   MenuLocation:Arch -> Add
+   SeeAlso:[Arch Remove](Arch_Remove/ja.md)
+---
+
+# Arch Add/ja
 
 
 </div>
@@ -12,8 +19,8 @@
 
 Addツールは2種類の操作を提供します：
 
--   [シェイプベースのオブジェクトを](Part_Module/jp.md)[壁や](Arch_Wall/jp.md)[骨組みといった](Arch_Structure/jp.md) Archコンポーネントに追加します。これらのオブジェクトはArchコンポーネントのパーツとなってその高さや厚みといった基本プロパティを保持するだけでなく、その形状を変更する機能を提供します。
--   [壁](Arch_Wall/jp.md)、[骨組み](Arch_Structure/jp.md)、[セルあるいは](Arch_Cell/jp.md)[床などのセルベースのオブジェクトといったArchコンポーネントを追加します](Arch_Floor/jp.md)。
+-   [シェイプベースのオブジェクトを](Part_Workbench/ja.md)[壁や](Arch_Wall/ja.md)[骨組みといった](Arch_Structure/ja.md) Archコンポーネントに追加します。これらのオブジェクトはArchコンポーネントのパーツとなってその高さや厚みといった基本プロパティを保持するだけでなく、その形状を変更する機能を提供します。
+-   [壁](Arch_Wall/ja.md)、[骨組みあるいは](Arch_Structure/ja.md)[床などのセルベースのオブジェクトといったArchコンポーネントを追加します](Arch_Floor/ja.md)。
 -   [axis systems](Arch_Axis.md) に[structural objectsを追加する](Arch_Structure.md)
 -   [ section planesにオブジェクトを追加する](Arch_SectionPlane.md)
 
@@ -60,7 +67,7 @@ The counterpart of this tool is the **<img src="images/Arch_Remove.svg" width=16
 
 <div class="mw-translate-fuzzy">
 
-Add ツールは、[macros](macros.md)/[マクロやPythonコンソールから次の関数を使って使うことができます](マクロ.md)：
+Add ツールは、[マクロやPythonコンソールから次の関数を使って使うことができます](macros.md)：
 
 
 </div>

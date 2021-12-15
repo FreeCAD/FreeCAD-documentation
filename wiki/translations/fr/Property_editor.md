@@ -75,7 +75,8 @@ Pour la géométrie 2D, la plupart des objets sont dérivés de _) qui est la ba
 
 ## Actions
 
-Les actions dans la vue de la propriété ont été implémentées dans 0.19.
+
+{{Version/fr|0.19}}
 
 Un clic droit dans un espace vide de la vue ou avec une propriété sélectionnée ne montre qu\'une seule commande:
 

@@ -26,7 +26,7 @@ La gestione è semplice:
 
 -   Import\...: Importa una tabella utensili da un file XML. {{Note|Avviso | Attualmente questo è in parte rovinato e non funziona se non si è mai usato un file xml prima.}}
 -   Export\...: Esporta la tabella degli utensili in un file XML.
--   New Tool: Apre una finestra di dialogo in cui si può inserire i parametri dell\'utensile. Vedere [Nuovo utensile](Path_NewTool/it.md)
+-   New Tool: Apre una finestra di dialogo in cui si può inserire i parametri dell\'utensile. Vedere Nuovo utensile
 -   Delete: cancella le linee attualmente selezionate. {{Note| Avvertenza | Gli strumenti vengono cancellati dalla tabella degli utensili anche se si annulla la finestra di dialogo}}
 -   Move up: Non è possibile modificare il numero dello strumento, ma è possibile spostare la linea selezionata verso l\'alto per diminuirne il numero
 -   Move down: È possibile spostare la linea selezionata verso il basso per aumentare il numero dell\'utensile
@@ -42,7 +42,7 @@ La gestione è semplice:
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare una [Lavorazione](Path_Job/it.md)
-2.  Premere il pulsante **<img src="images/Path_ToolLibraryEdit.png" width=16px> [Gestione utensili](Path_EditToolsTable/it.md)
+2.  Premere il pulsante **<img src="images/Path_ToolLibraryEdit.svg" width=16px> [Gestione utensili](Path_ToolLibraryEdit/it.md)
 **
 3.  Creare dei nuovi utensili o modificare le proprietà di quelli esistenti.
     Impostare almeno il diametro, FreeCAD ne ha bisogno per calcolare la compensazione del raggio. A partire dalla versione 0.17 questo è l\'unico valore utilizzato per creare il percorso. Tuttavia, se si desidera utilizzare lo strumento di simulazione in un secondo momento, aggiungere anche l\'angolo e l\'altezza del tagliente.

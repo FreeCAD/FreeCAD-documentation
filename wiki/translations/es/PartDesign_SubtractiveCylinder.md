@@ -24,7 +24,7 @@ Inserta un Cilindro sustractivo en el Body (cuerpo) activo. Su forma es sustraí
 <div class="mw-translate-fuzzy">
 
 1.  Presionar el botón **<img src="images/PartDesign_SubtractiveCylinder.svg" width=24px> '''Cilindro Sustractivo'''** . **Nota**: El Cilindro sustractivo forma parte de un icono de herramientas llamado *Crear una primitiva sustractiva*. Tras abrir FreeCAD, la Caja sustractiva es la única mostrada en la barra de herramientas. Para obtener el botón del Cilindro, pinchar en la flecha que indica hacia abajo que está al lado del icono visible y seleccionar Cilindro sustractivo en el menú desplegable.
-2.  Seleccionar los parámetros de la primitiva y el [Attachment](Part_Attachment.md).
+2.  Seleccionar los parámetros de la primitiva y el [Attachment](Part_EditAttachment.md).
 3.  Aceptar **OK**.
 4.  Una operación de Cilindro aparece dentro del Body (cuerpo) activo.
 
@@ -45,7 +45,7 @@ Tras su creación, el Cilindro puede ser editado de dos maneras:
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/es|Attachment}}: Define el modo de Attachment y la separación del archivo adjunto. Ver [Part Attachment](Part_Attachment.md).
+-    {{PropertyData/es|Attachment}}: Define el modo de Attachment y la separación del archivo adjunto. Ver [Part EditAttachment](Part_EditAttachment.md).
 
 -    {{PropertyData/es|Label}}: Nombre dado al objeto Cilindro. Se puede cambiar para adaptarlo a sus necesidades.
 

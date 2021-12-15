@@ -1,7 +1,7 @@
 # Online Help Toc/ja
 <div class="mw-translate-fuzzy">
 
-FreeCADオンラインヘルプシステムの目次です。ここで参照された記事は、wiki2chm.pyツールによって自動的にFreeCAD.chmファイルに取り込まれます。このツールはsrc/Tools/wiki2chm.pyにあります。このマニュアルの[印刷用バージョンも利用できます](Manual/jp.md)。
+FreeCADオンラインヘルプシステムの目次です。ここで参照された記事は、wiki2chm.pyツールによって自動的にFreeCAD.chmファイルに取り込まれます。このツールはsrc/Tools/wiki2chm.pyにあります。このマニュアルの印刷用バージョンも利用できます。
 
 これはFreeCADのオンラインヘルプシステムの自動ビルドに使用される目次です。 このマニュアルの印刷版は、\[[https://github.com/FreeCAD/FreeCAD/Releasesリリース\]ページでも利用できます](https://github.com/FreeCAD/FreeCAD/Releasesリリース%5Dページでも利用できます)。
 
@@ -10,20 +10,7 @@ FreeCADオンラインヘルプシステムの目次です。ここで参照さ�
 
 There is another table of contents for the _.
 
-
-<div class="mw-translate-fuzzy">
-
--   はじめに
--   [ようこそ](Online_Help_Startpage/ja.md)
-    -   [FreeCADについて](About_FreeCAD/ja.md)
-    -   [機能](Feature_list/jp.md)
-    -   [Windows上でのインストール](Install_on_Windows/jp.md)
-    -   [Linux/Unix上でのインストール](Install_on_Unix/jp.md)
-    -   [Mac上でのインストール](Install_on_Mac/jp.md)
-    -   [Installing additional contents](Installing.md)
-
-
-</div>
+<img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
 -   Introduction
     -   [Welcome](Online_Help_Startpage.md)
@@ -38,13 +25,13 @@ There is another table of contents for the _.
 <div class="mw-translate-fuzzy">
 
 -   FreeCADでの作業
-    -   [はじめてみよう](Getting_started/jp.md)
-    -   [3次元空間での操作](Mouse_Model/jp.md)
+    -   [はじめてみよう](Getting_started/ja.md)
+    -   [3次元空間での操作](Mouse_navigation/ja.md)
     -   [Use of the navigation cluster](Navigation_Cube.md)
-    -   [FreeCADのドキュメント](Document_structure/jp.md)
-    -   [ユーザー環境設定](Preferences_Editor/jp.md)
-    -   [インターフェイスのカスタマイズ](Interface_Customization/jp.md)
-    -   [オブジェクトのプロパティ](Property/jp.md)
+    -   [FreeCADのドキュメント](Document_structure/ja.md)
+    -   [ユーザー環境設定](Preferences_Editor/ja.md)
+    -   [インターフェイスのカスタマイズ](Interface_Customization/ja.md)
+    -   [オブジェクトのプロパティ](Property/ja.md)
 
 
 </div>
@@ -78,7 +65,7 @@ There is another table of contents for the _.
 
 <div class="mw-translate-fuzzy">
 
--   -   [FreeCADの全コマンドリスト](List_of_Commands/jp.md)
+-   -   [FreeCADの全コマンドリスト](List_of_Commands/ja.md)
     -   [チュートリアル](Tutorials/jp.md)
 
 
@@ -105,24 +92,23 @@ There is another table of contents for the _.
 <div class="mw-translate-fuzzy">
 
 -   スクリプトとマクロ
-    -   [マクロでの作業](Macros/jp.md)
-    -   [pythonの紹介](Introduction_to_Python/jp.md)
-    -   [pythonスクリプト処理チュートリアル](Python_scripting_tutorial/jp.md)
-    -   [FreeCADの基本スクリプト](FreeCAD_Scripting_Basics/jp.md)
-    -   [メッシュスクリプト](Mesh_Scripting/jp.md)
-    -   [パートスクリプト](Topological_data_scripting/jp.md)
-    -   [メッシュからパートへの変換](Mesh_to_Part/jp.md)
-    -   [コインシーングラフ](Scenegraph/jp.md)
-    -   [Pivyでの作業](Pivy/jp.md)
+    -   [マクロでの作業](Macros/ja.md)
+    -   [pythonの紹介](Introduction_to_Python/ja.md)
+    -   [pythonスクリプト処理チュートリアル](Python_scripting_tutorial/ja.md)
+    -   [FreeCADの基本スクリプト](FreeCAD_Scripting_Basics/ja.md)
+    -   [メッシュスクリプト](Mesh_Scripting/ja.md)
+    -   [パートスクリプト](Topological_data_scripting/ja.md)
+    -   [メッシュからパートへの変換](Mesh_to_Part/ja.md)
+    -   [コインシーングラフ](Scenegraph/ja.md)
+    -   [Pivyでの作業](Pivy/ja.md)
     -   [Working with PySide](PySide.md)
-    -   [PyQtでの作業](PyQt/jp.md)
-    -   [パラメトリックオブジェクトの作成](Scripted_objects/jp.md)
-    -   [FreeCADの埋め込み](Embedding_FreeCAD/jp.md)
-    -   [APIドキュメント](API_documentation/jp.md)
+    -   [PyQtでの作業](PyQt/ja.md)
+    -   [パラメトリックオブジェクトの作成](Scripted_objects/ja.md)
+    -   [FreeCADの埋め込み](Embedding_FreeCAD/ja.md)
     -   スクリプトの例
-        -   [コードスニペット](Code_snippets/jp.md)
-        -   [線描画機能](Line_drawing_function/jp.md)
-        -   [ダイアログの作成](Dialog_creation/jp.md)
+        -   [コードスニペット](Code_snippets/ja.md)
+        -   [線描画機能](Line_drawing_function/ja.md)
+        -   [ダイアログの作成](Dialog_creation/ja.md)
 
 
 </div>
@@ -131,27 +117,27 @@ There is another table of contents for the _.
 <div class="mw-translate-fuzzy">
 
 -   FreeCAD用のアプリケーションの開発
-    -   [ライセンス](Licence/jp.md)
+    -   [ライセンス](Licence/ja.md)
     -   FreeCADのコンパイル
-        -   [発見の支援](Tracker/jp.md)
-        -   [Windows上でのコンパイル](CompileOnWindows/jp.md)
-        -   [Unix上でのコンパイル](CompileOnUnix/jp.md)
-        -   [Mac上でのコンパイル](CompileOnMac/jp.md)
+        -   [発見の支援](Tracker/ja.md)
+        -   [Windows上でのコンパイル](Compile_on_Windows/ja.md)
+        -   [Unix上でのコンパイル](Compile_on_Linux/ja.md)
+        -   [Mac上でのコンパイル](Compile_on_MacOS/ja.md)
         -   [Compiling (Speeding up)](Compiling_(Speeding_up).md)
-        -   [サードパーティライブラリ](Third_Party_Libraries/jp.md)
-        -   [サードパーティツール](Third_Party_Tools/jp.md)
-        -   [セットアップと構成](Start_up_and_Configuration/jp.md)
+        -   [サードパーティライブラリ](Third_Party_Libraries/ja.md)
+        -   [サードパーティツール](Third_Party_Tools/ja.md)
+        -   [セットアップと構成](Start_up_and_Configuration/ja.md)
     -   ビルドを支援するツール
-        -   [FreeCAD ビルドツール](FreeCAD_Build_Tool/jp.md)
-        -   [アプリケーションモジュールの追加](Module_Creation/jp.md)
-        -   [FreeCADのデバッグ](Debugging/jp.md)
-        -   [FreeCADのテスト](Testing/jp.md)
+        -   [FreeCAD ビルドツール](FreeCAD_Build_Tool/ja.md)
+        -   [アプリケーションモジュールの追加](Workbench_creation/ja.md)
+        -   [FreeCADのデバッグ](Debugging/ja.md)
+        -   [FreeCADのテスト](Testing/ja.md)
         -   [Continuous Integration](Continuous_Integration.md)
     -   FreeCADを改変する
-        -   [ブランディング](Branding/jp.md)
-        -   [FreeCADの翻訳](Localisation/jp.md)
-        -   [追加のpythonモジュールのインストール](Extra_python_modules/jp.md)
-    -   [ソースドキュメント](Source_documentation/jp.md)
+        -   [ブランディング](Branding/ja.md)
+        -   [FreeCADの翻訳](Localisation/ja.md)
+        -   [追加のpythonモジュールのインストール](Extra_python_modules/ja.md)
+    -   [ソースドキュメント](Source_documentation/ja.md)
 
 
 </div>

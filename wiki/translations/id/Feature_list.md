@@ -11,15 +11,16 @@ Ini luas, belum sepenuhnya lengkap, daftar implementasi dari fitur - fitur FreeC
 
 ## Catatan rilis 
 
-
-<div class="mw-translate-fuzzy">
-
--   [Rilis 0.11](Release_notes_0.11/id.md) - March 2011
--   [Rilis 0.12](Release_notes_0.12/id.md) - December 2011
--   [Rilis 0.13](Release_notes_0.13/id.md) - January 2013
-
-
-</div>
+-   [Release 0.20](Release_notes_0.20.md) - TBD
+-   [Release 0.19](Release_notes_0.19.md) - March 2021
+-   [Release 0.18](Release_notes_0.18.md) - March 2019
+-   [Release 0.17](Release_notes_0.17.md) - April 2018
+-   [Release 0.16](Release_notes_0.16.md) - April 2016
+-   [Release 0.15](Release_notes_0.15.md) - March 2015
+-   [Release 0.14](Release_notes_0.14.md) - March 2014
+-   [Release 0.13](Release_notes_0.13.md) - January 2013
+-   [Release 0.12](Release_notes_0.12.md) - December 2011
+-   [Release 0.11](Release_notes_0.11.md) - March 2011
 
 ## Fitur - fitur utama 
 

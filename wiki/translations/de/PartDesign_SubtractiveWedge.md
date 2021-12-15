@@ -23,7 +23,7 @@ Fügt einen abzuziehenden Keil in den aktiven Körper (Body) ein. Die Form wird 
 <div class="mw-translate-fuzzy">
 
 1.  Auf die Schaltfläche **<img src="images/PartDesign_SubtractiveWedge.svg" width=24px> '''Abzuziehender Keil'''** klicken. **Anmerkung**: Abzuziehender Keil ist Teil des benannten Symbols *Erzeugen eines zusätzlichen geometrischen Körpers*. Direkt nach dem Start von FreeCAD wird das Symbol von „Abzuziehender Quader" in der Werkzeugleiste angezeigt. Wenn ein anderer Grundkörper zu sehen ist, kann durch Klicken auf den Pfeil neben dem Symbol der abzuziehende Keil in dem aufklappenden Menü ausgewählt werden.
-2.  Die Parameter des Grundkörpers und über [Attachment](Part_Attachment/de.md) den räumlichen Bezug einstellen.
+2.  Die Parameter des Grundkörpers und über [Attachment](Part_EditAttachment/de.md) den räumlichen Bezug einstellen.
 3.  Mit Klick auf **OK** bestätigen.
 4.  Das Feature (Formelement) Torus erscheint unterhalb des aktiven Körpers (Body).
 

@@ -115,22 +115,22 @@ Die Datei sollte enthalten:
 -   **name**: Der Name der Definition. Dieser muss eindeutig sein, da er als Bezeichner in der FreeCAD Benutzeroberfläche und als interner Index verwendet wird.
 -   **cut\_type**: Entweder `countersink` oder `counterbore`.
 -   **thread\_type**: Entweder `metric` oder `metricfine`.
--   **angle**: Der Winkel einer Senkung (nicht notwendig bei Senkungen).
--   **Daten**: Eine Liste von Größen, bestehend aus:
-    -   **Gewinde**: Name des Gewindes, das FreeCAD bekannt ist.
-    -   **Durchmesser**: Der Durchmesser des Schnitts.
-    -   **Tiefe**: Tiefe der Senkung (nicht notwendig bei Senkungen).
+-   **angle**: Der Winkel einer Kegelsenkung (nicht notwendig bei Flachsenkungen).
+-   **data**: Eine Liste von Größen, bestehend aus:
+    -   **thread**: Name des Gewindes, das FreeCAD bekannt ist.
+    -   **diameter**: Der Durchmesser des Schnitts.
+    -   **depth**: Tiefe der Flachsenkung (nicht notwendig bei Kegelsenkungen).
 
 Beispiel: {{Code|lang=json|code=
 {
-        "'''Name''': "DIN 7984",
-        "cut_type": "Senkbohrung",
-        "thread_type": "metrisch",
-        "data": [
-                { "thread": "M2", "Durchmesser":  4.3, "Tiefe":  1.6 },
-                { "Gewinde": "M2.5", "Durchmesser":  5.0, "Tiefe":  2.0 },
-                ...
-        ]
+    "name": "DIN 7984",
+    "cut_type": "counterbore",
+    "thread_type": "metric",
+    "data": [
+        { "thread": "M2",   "diameter":  4.3, "depth":  1.6 },
+        { "thread": "M2.5", "diameter":  5.0, "depth":  2.0 },
+        …
+    ]
 }
 }}
 

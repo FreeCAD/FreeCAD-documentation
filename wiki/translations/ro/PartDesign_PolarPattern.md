@@ -13,7 +13,13 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Instrumentul **PolarPattern** ia o funcție selectată ca intrare și creează plecând de la aceasta un set de copii rotite (în jurul unei axe date). Începând cu v0.17, se pot modela mai multe funcții.
+
+
+</div>
 
 ![](images/PartDesign_PolarPattern_example.png )
 
@@ -29,8 +35,8 @@ Instrumentul **PolarPattern** ia o funcție selectată ca intrare și creează p
 
 #### To create a pattern 
 
-1.  (Optional) Select the feature (<small>(v0.19)</small>  or several features) to be patterned.
-2.  Press the **<img src=images/PartDesign_PolarPattern.svg style="width:24px">** **PolarPattern** button.
+1.  (Optional) Select the feature (or <small>(v0.19)</small>  several features) to be patterned.
+2.  Press the **<img src="images/PartDesign_PolarPattern.svg" width=16px> '''PolarPattern'''** button.
     -   If you didn\'t initially select any features, you\'ll be able to select a *single* base feature
 3.  Define the **Axis**. See [Options](#Options.md).
 4.  Define the **Angle** between the last copied occurrence and the original feature.
@@ -96,10 +102,18 @@ or
 
 Atunci când se creează o caracteristică de model polar, dialogul \'Parametrii de tip polar\' oferă modalități diferite de a specifica axa de rotație a modelului.
 
+#### Normal sketch axis 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Axa Normalăa schiței 
 
 O axă care este normală față de schiță și pornind de la originea schiței funcției utilizate este considerată ca axă pentru modelul polar.
 Direcția modelului poate fi inversată prin bifarea \'Direcție inversă\'.
+
+
+</div>
 
 #### Axa orizontală a schiței 
 
@@ -124,17 +138,30 @@ Select one of the Body Origin\'s standard axis (X, Y or Z) as axis.
 
 Allows you to select either a DatumLine or an edge of an object or a line of a sketch to use for axis.
 
+### Angle and Occurrences 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Unghiuri și apariții 
 
-Specifică unghiul care trebuie acoperit de model și numărul total de forme (inclusiv caracteristica originală). De exemplu, patru apariții la un unghi de 180 de grade ar da o distanță de 60 de grade între modele. Există o excepție: dacă unghiul este de 360 ​​de grade, deoarece prima și ultima apariție sunt identice, cele patru apariții vor fi distanțate la 90 de grade. 
+Specifică unghiul care trebuie acoperit de model și numărul total de forme (inclusiv caracteristica originală). De exemplu, patru apariții la un unghi de 180 de grade ar da o distanță de 60 de grade între modele. Există o excepție: dacă unghiul este de 360 ​​de grade, deoarece prima și ultima apariție sunt identice, cele patru apariții vor fi distanțate la 90 de grade.
 
+
+</div>
 
 ## Limite
+
+
+<div class="mw-translate-fuzzy">
 
 -   Vedere [Repetiție Liniară](PartDesign_LinearPattern/ro#Limitări.md).
 
 
 
+
+
+</div>
 
 
 

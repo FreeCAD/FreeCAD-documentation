@@ -90,7 +90,7 @@ See also:
 
 </div>
 
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
+<img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -109,58 +109,6 @@ FreeCAD има няколко различни режима за [навигац
 
 
 </div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{CAD Navigation/bg}}
-
-
-{{CAD Navigation
-|Select_name=Select
-|Pan_name=Pan
-|Zoom_name=Zoom
-|Rotate_view_name=Rotate view<br>First method
-|Rotate_view_alt_name=Rotate view<br>Alternate method
-|Ctrl=**Ctrl**
-|Shift=**Shift**
-|Select_text=Press the left mouse button over an object you want to select.
-
-Holding down **Ctrl** allows the selection of multiple objects.
-|Pan_text=Hold the middle mouse button, then move the pointer.
-|Pan_mode_text=Pan mode: hold the **Ctrl** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
-|Zoom_text=Use the mouse wheel to zoom in and out.
-
-Clicking the middle mouse button re-centers the view on the location of the cursor.
-|Zoom_mode_text=Zoom mode: hold the **Ctrl** and **Shift** keys, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
-|Rotate_view_text=Hold the middle mouse button, then press and hold the left mouse button, then move the pointer.
-
-The cursor location when the middle mouse button is pressed determines the center of rotation. Rotation works like spinning a ball which rotates around its center. If the buttons are released before you stop the mouse motion, the view continues [[spinning]], if this is enabled.
-
-A double click with the middle mouse button sets a new center of rotation.
-|Rotate_view_mode_text=Rotate mode: hold the **Shift** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
-|Rotate_view_alt_text=Hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
-
-With this method the middle mouse button may be released after the right mouse button is held pressed.
-
-Users who use the mouse with their right hand may find this method easier than the first method.
-}}
-
-
-</div>
-
-Holding down **Ctrl** allows the selection of multiple objects. \|Pan\_text=Hold the middle mouse button, then move the pointer. \|Pan\_mode\_text=Pan mode: hold the **Ctrl** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small>  \|Zoom\_text=Use the mouse wheel to zoom in and out.
-
-Clicking the middle mouse button re-centers the view on the location of the cursor. \|Zoom\_mode\_text=Zoom mode: hold the **Ctrl** and **Shift** keys, press the right mouse button once, then move the pointer. <small>(v0.17)</small>  \|Rotate\_view\_text=Hold the middle mouse button, then press and hold the left mouse button, then move the pointer.
-
-The cursor location when the middle mouse button is pressed determines the center of rotation. Rotation works like spinning a ball which rotates around its center. If the buttons are released before you stop the mouse motion, the view continues [spinning](spinning.md), if this is enabled.
-
-A double click with the middle mouse button sets a new center of rotation. \|Rotate\_view\_mode\_text=Rotate mode: hold the **Shift** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small>  \|Rotate\_view\_alt\_text=Hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
-
-With this method the middle mouse button may be released after the right mouse button is held pressed.
-
-Users who use the mouse with their right hand may find this method easier than the first method. }}
 
 
 <div class="mw-translate-fuzzy">
@@ -228,7 +176,7 @@ Users who use the mouse with their right hand may find this method easier than t
 
 Би трябвало да получите обект подобен на този:
 
-<img alt="" src=images/Partdesign_example.jpg  style="width:1024px;">
+<img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 Във всеки един момент може да изберете и промените оригиналната скица, или височината на издигнатия елемент(pad extrusion parameters), или дълбочината на дупката която сте създали. Вашите промени веднага ще бъдат отразени върху крайния обект.
 
@@ -270,7 +218,7 @@ Users who use the mouse with their right hand may find this method easier than t
 
 Би трябвало да получите нещо подобно на следния обект:
 
-<img alt="" src=images/Arch_workflow_example.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -288,7 +236,7 @@ Users who use the mouse with their right hand may find this method easier than t
 
 </div>
 
-Freecad, as an open source software, offers the possibility to supplement its workbenches with addons.
+FreeCAD, as an open source software, offers the possibility to supplement its workbenches with addons.
 
 The [Addon](Addon.md) principle is based on the development of a workbench complement. Any user can develop a function that he or she deems to be missing for her/his own needs or, ultimately, for the community. With the forum, the user can request an opinion, help on the forum. It can share, or not, the object of its development according to copyright rules to define. Free to her/him. To develop, the user has available [scripting](scripting.md) functions.
 

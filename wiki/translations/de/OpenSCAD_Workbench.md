@@ -64,6 +64,23 @@ OpenSCAD erstellt CSG (constructive solid geometry) genauso wie es Netz-Körper 
 
 OpenSCAD nutzt intern Netz-Körper. Manche Operationen, die bei Netz-Körpern nützlich sind, sind bei BREP-Körpern nicht sinnvoll und können daher nicht voll unterstützt werden. Unter diesen sind konvexe Hülle, Minkowski-Summe, glide und subdiv. Im Moment benutzen wir die OpenSCAD-Ausführungsdatei, um Hüllen und Minkowski-Operationen durchzuführen und die Ergebnisse zu importieren. Das bedeutet, das die beteiligte Geometrie trianguliert (temporär in Netz-Körper verwandelt) wird. In OpenSCAD wird nicht-einheitliches Skalieren oft benutzt, das keinerlei Probleme bei der Benutzung mit Netz-Köpern macht. In unserem Geometriekern werden geometrische Grundelemente (Linien, Kreissegmente) in BSplines konvertiert, bevor man solche Operationen durchführt. Diese BSplines sind bekannt dafür, dass Sie später in bool\'schen Operationen Fehler verursachen. Eine automatisierte Lösung ist im Moment nicht verfügbar. Bitte posten Sie im Fourm, wenn Sie solche Fehler entdecken. Oft können solche Problem dadurch vermieden werden, dass man kleine Teile des Modelles anders aufbaut. Ein Zylindersegment kann ersetzt werden durch ein extrudiertes Stück einer Ellipse.
 
+## Importing text 
+
+Importing OpenSCAD code with texts requires that the fonts that are used are properly installed on your system. You can verify this by opening OpenSCAD as a standalone tool and checking the list in **Help → Font List**. The list will also give you the correct font names. If a font does not appear in the list after installing, you may have to manually copy the font file to the appropriate system directory.
+
+Importing texts is relatively slow. Behind the scenes FreeCAD uses a DXF file created by OpenSCAD. The more contours there are the slower the import.
+
+It can be a good idea to first import a simple test case (replace {{Incode|NameOfFont}} with the correct font name):
+
+    TESTFONT="NameOfFont";
+    linear_extrude(0.001) {
+      text("A", size=5, font=TESTFONT, script="Latn");
+    };
+
+The {{Incode|<nowiki>script="Latn"</nowiki>}} parameter can be left out here, but is required if the text string does not contain any letters, but only punctuation and/or numbers.
+
+Please note that {{Incode|<nowiki>use <FONT>;</nowiki>}} statements in your source files are ignored when importing in FreeCAD. Under OpenSCAD the effect of a {{Incode|use}} statement is that the provided font file is temporarily added to the list of known fonts (although even there the statement does not work when a script is modified interactively).
+
 ## Hinweise
 
 Wenn [DXF](DXF/de.md) importiert wird, sollte die \"Draft Präzision\" auf einen sinnvollen Wert eingestellt werden, um so die Erkennung von verbundenen Kanten zu erleichtern.

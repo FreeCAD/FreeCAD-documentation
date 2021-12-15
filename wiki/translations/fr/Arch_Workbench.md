@@ -46,8 +46,8 @@ Ces outils permettent la création d\'objets architecturaux.
 
 -   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Outils axes](Arch_CompAxis/fr.md) : l\'outil Axe vous permet de placer une série d\'axes dans le document actuel.
     -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Axes](Arch_Axis/fr.md) : ajoute un (des) Axe(s) dans le document.
-    -   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Système d\'Axes](Arch_AxisSystem/fr.md) : ajoute un système d\'axes composé de plusieurs axes au document
-    -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Grid](Arch_Grid/fr.md) : ajoute un objet de type grille dans le document
+    -   <img alt="" src=images/Arch_AxisSystem.svg  style="width:32px;"> [Système d\'Axes](Arch_AxisSystem/fr.md) : ajoute un système d\'axes composé de plusieurs axes au document.
+    -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Grid](Arch_Grid/fr.md) : ajoute un objet de type grille dans le document.
 
 -   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Toiture](Arch_Roof/fr.md) : crée un toit en pente à partir d\'une face sélectionnée.
 -   <img alt="" src=images/Arch_Space.svg  style="width:32px;"> [Espace](Arch_Space/fr.md) : crée un objet volume dans le document.
@@ -105,7 +105,7 @@ Ce sont des outils supplémentaires, pour vous aider dans des tâches spécifiqu
 
 ### Préférences
 
--   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Arch Préférences](Arch_Preferences/fr.md) : préférences pour l\'aspect par défaut des murs, des structures, des barres d\'armature, des fenêtres, des escaliers, des panneaux, des tuyaux, des grilles et axes.
+-   <img alt="" src=images/Preferences-arch.svg  style="width:32px;"> [Préférences](Arch_Preferences/fr.md) : préférences pour l\'apparence par défaut des murs, structures, armatures, fenêtres, escaliers, panneaux, tuyaux, grilles et axes.
 
 ### Formats de fichiers 
 
@@ -118,7 +118,7 @@ Ce sont des outils supplémentaires, pour vous aider dans des tâches spécifiqu
 
 ## API
 
-L\'atelier Arch peut être utilisé dans des scripts [Python](Python/fr.md) et dans des [macros](macros/fr.md) grâce aux fonctions [Arch Python API](http://www.freecadweb.org/api/Arch.html).
+L\'atelier Arch peut être utilisé dans des scripts [Python](Python/fr.md) et dans des [macros](Macros/fr.md) grâce aux fonctions [Arch Python API](Arch_API/fr.md).
 
 ## Tutoriels
 

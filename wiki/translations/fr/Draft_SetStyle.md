@@ -4,6 +4,7 @@
    Name/fr:Draft Définir le style
    MenuLocation:Utilities → Définir le style
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
+   Shortcut:**S** **S**
    Version:0.19
    SeeAlso:[Draft Éditeur de styles d'annotations](Draft_AnnotationStyleEditor/fr.md), [Draft Appliquer le style](Draft_ApplyStyle/fr.md)
 ---
@@ -24,6 +25,7 @@ Notez que plusieurs fonctionnalités ne fonctionnent pas dans la version V0.19 d
 1.  Il y a plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton ![](images/Draft_tray_button_style.png ) de la [Draft Barre](Draft_Tray/fr.md). En fonction des paramètres de style en cours, ce bouton peut avoir un aspect différent.
     -   Sélectionnez l\'option **Utilitaires → <img src="images/Draft_SetStyle.svg" width=16px> Définir le style** dans le menu.
+    -   Utilisez le raccourci clavier : **S** puis **S**. {{Version/fr|0.20}}
 2.  Le panneau de tâches **Paramètres de style** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 3.  Modifiez éventuellement un ou plusieurs paramètres.
 4.  Appuyez sur le bouton **OK**.

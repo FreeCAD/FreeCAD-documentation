@@ -2,7 +2,7 @@
 - GuiCommand:/ja
    Name:Arch PipeConnector   Name/ja:Arch PipeConnector
    MenuLocation:Arch → Pipe Tools → Pipe Connector
-   Workbenches:[Arch](Arch_Module/ja.md)
+   Workbenches:[Arch](Arch_Workbench/ja.md)
    Shortcut:**P** **C**
    SeeAlso:[[Arch Pipe/ja]], [[Arch Equipment/ja]]
    Version:0.17
@@ -31,7 +31,7 @@
 
 <div class="mw-translate-fuzzy">
 
-＃2本または3本のパイプ[アーチパイプを選択します](アーチパイプ.md)。 3本のパイプを選択する場合は、2本を正確に位置合わせする必要があります。 ＃**<img src="images/Arch_PipeConnector.png" width=16px> [[Arch PipeConnector]]**ボタンを押すか、{{KEY | P}}キーを押してから{{KEY | C}}キーを押します。
+＃2本または3本のパイプ[アーチパイプを選択します](Arch_Pipe.md)。 3本のパイプを選択する場合は、2本を正確に位置合わせする必要があります。 ＃**<img src="images/Arch_PipeConnector.png" width=16px> [[Arch PipeConnector]]**ボタンを押すか、{{KEY | P}}キーを押してから{{KEY | C}}キーを押します。
 
 
 </div>
@@ -61,7 +61,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Pipe Connectorツールは、[macros](macros.md)/[マクロやPythonコンソールから次の関数を使って使うことができます](マクロ.md)：
+Pipe Connectorツールは、[マクロやPythonコンソールから次の関数を使って使うことができます](macros.md)：
 
 
 </div>

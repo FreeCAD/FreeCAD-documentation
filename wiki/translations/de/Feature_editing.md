@@ -109,7 +109,13 @@ Weitere Information findet man auf der [Anhang](Part_EditAttachment/de.md)-Seite
 
 ## Ratschläge zur Erstellung stabiler Modelle 
 
+
+<div class="mw-translate-fuzzy">
+
 Die Idee der parametrischen Modellierung beinhaltet, dass du die Werte bestimmter Parameter ändern kannst und die nachfolgenden Schritte entsprechend den neuen Werten geändert werden. Bei schwerwiegenden Änderungen kann das Modell jedoch aufgrund des in FreeCAD noch ungelösten [topologischen Namensproblems](topological_naming_problem/de.md) brechen. Der Bruch kann minimiert werden, wenn du die folgenden Konstruktionsprinzipien einhältst:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -138,7 +144,13 @@ Die Idee der parametrischen Modellierung beinhaltet, dass du die Werte bestimmte
 
 ## Körperbau Arbeitsablauf 
 
+
+<div class="mw-translate-fuzzy">
+
 Es gibt mehrere Arbeitsabläufe, die mit der [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) möglich sind. Was immer zu beachten ist, ist, dass alle in einem [PartDesign Körper](PartDesign_Body/de.md) erstellten Formelemente miteinander verschmolzen werden, um das endgültige Objekt zu erhalten.
+
+
+</div>
 
 ### Verschiedene Skizzen 
 
@@ -148,7 +160,13 @@ Skizzen müssen von einer Ebene unterstützt werden. Diese Ebene kann eine der H
 
 ### Fortlaufende Merkmale 
 
+
+<div class="mw-translate-fuzzy">
+
 Skizzen können an Flächen früherer Festkörperoperationen befestigt werden. Dies kann notwendig sein, wenn man auf eine Fläche zugreifen muss, die erst nach der Erstellung eines bestimmten Merkmals verfügbar ist. Dieser Arbeitsablauf ist jedoch nicht besonders empfehlenswert, da bei einer Änderung des ursprünglichen Merkmals die folgenden Merkmale in der Sequenz ungültig werden können. Siehe [Topologisches Benennungsproblem](topological_naming_problem/de.md).
+
+
+</div>
 
 <img alt="" src=images/PartDesign_workflow_2.svg  style="width:600px;">
 
@@ -174,15 +192,29 @@ Using datum objects is often the best way to produce stable models, when used wi
 
 ## Tutorien
 
+
+<div class="mw-translate-fuzzy">
+
 Die _.
 
 -   [Erstellen eines einfachen Teils mit PartDesign](Creating_a_simple_part_with_PartDesign/de.md)
 -   [Grundlagen Part Design Tutorium](Basic_Part_Design_Tutorial/de.md)
 -   [Basic\_Attachment\_Tutorial/de](Basic_Attachment_Tutorial/de.md)
 
+
+</div>
+
+## Related
+
+
+<div class="mw-translate-fuzzy">
+
 ## Verwandt
 
 -   [Konstruktive Volumengeometrie](Constructive_solid_geometry/de.md)
+
+
+</div>
 
 <img alt="" src=images/PartDesign_workflow_3.svg  style="width:600px;">
 

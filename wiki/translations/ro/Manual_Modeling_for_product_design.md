@@ -211,7 +211,7 @@ But we could also want to get rid of the history, for example if we are going to
 
 <div class="mw-translate-fuzzy">
 
-There are two simple ways to get rid of the history, one is using the [Create simple copy](Part_CreateSimpleCopy.md) tool from the [Part Workbench](Part_Workbench.md), which will create a copy of our piece that doesn\'t depend anymore on the history (you can delete the whole history afterwards), the other way is exporting the piece as a STEP file and reimporting it.
+There are two simple ways to get rid of the history, one is using the [Create simple copy](Part_SimpleCopy.md) tool from the [Part Workbench](Part_Workbench.md), which will create a copy of our piece that doesn\'t depend anymore on the history (you can delete the whole history afterwards), the other way is exporting the piece as a STEP file and reimporting it.
 
 
 </div>

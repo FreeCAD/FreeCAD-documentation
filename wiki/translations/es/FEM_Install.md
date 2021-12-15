@@ -243,7 +243,7 @@ The following posts may be outdated:
 
 <div class="mw-translate-fuzzy">
 
-El [Ambiente de trabajo MEF](FEM_Module/rs.md) está en constante desarrollo. La información más reciente se encuentra en el [FreeCAD foro](http://www.forum.freecadweb.org/).
+El [Ambiente de trabajo MEF](FEM_Workbench/es.md) está en constante desarrollo. La información más reciente se encuentra en el [FreeCAD foro](http://www.forum.freecadweb.org/).
 
 
 </div>

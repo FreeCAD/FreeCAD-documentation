@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Acest instrument încearcă să înlăture forma cubică interioară a unui [Arc Wall](Arc_Wall.md) sau [Arch Structure](Arch_Structure.md) și să-și ajusteze proprietățile, făcând-o complet parametrică. Acest instrument va funcționa numai dacă forma subiacentă este cubică (exact 6 fețe, toate colțurile au doar unghiuri drepte).
+Acest instrument încearcă să înlăture forma cubică interioară a unui [Arch Wall](Arch_Wall.md) sau [Arch Structure](Arch_Structure.md) și să-și ajusteze proprietățile, făcând-o complet parametrică. Acest instrument va funcționa numai dacă forma subiacentă este cubică (exact 6 fețe, toate colțurile au doar unghiuri drepte).
 
 
 </div>

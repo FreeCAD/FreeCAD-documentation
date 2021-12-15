@@ -45,7 +45,7 @@ Führt das Makro aus, das sich derzeit im Python Editor befindet.
 
 -   [An Remote Debugger anhängen\...](Std_MacroAttachDebugger/de.md): Hängt FreeCAD an einen Remote Debugger an.
 
--   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Makro debuggen](Std_DebugMacro/de.md): startet eine Debugger-Sitzung für das aktuelle Makro im Python-Editor.
+-   <img alt="" src=images/Std_MacroStartDebug.svg  style="width:32px;"> [Makro debuggen](Std_MacroStartDebug/de.md): startet eine Debugger-Sitzung für das aktuelle Makro im Python-Editor.
 
 -   <img alt="" src=images/Std_MacroStopDebug.svg  style="width:32px;"> [Debuggen stoppen](Std_MacroStopDebug/de.md): beendet die Debugger-Sitzung.
 
@@ -53,7 +53,7 @@ Führt das Makro aus, das sich derzeit im Python Editor befindet.
 
 -   [Treten Sie ein](Std_MacroStepInto/de.md): Eine Ebene tiefer (z.B. Unterprogramm)
 
--   [Haltepunkt ein/aus](StdToggleBreakpoint/de.md): Haltepunkt ein-/ausschalten.
+-   [Haltepunkt ein/aus](Std_ToggleBreakpoint/de.md): Haltepunkt ein-/ausschalten.
 
 
 

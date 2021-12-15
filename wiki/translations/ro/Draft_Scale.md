@@ -38,7 +38,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 1.  Selectați obiectele pe care doriți să le modificați
 2.  Apăsați butonul **<img src="images/Draft_Scale.png" width=16px> [[Draft Scale]]
 ** sau apăsați {{KEY | S}} apoi tasta **C**
-3.  Faceți clic pe un prim punct al vizualizării 3D sau introduceți un [ coordinate](Draft_Coordinates.md) pentru a defini punctul de bază al scalei
+3.  Faceți clic pe un prim punct al vizualizării 3D sau introduceți un coordinate pentru a defini punctul de bază al scalei
 4.  Se deschide un alt dialog cu opțiunile de scalare. Completați diferitele opțiuni și apăsați pe {{KEY | OK}} pentru a accepta
 
 

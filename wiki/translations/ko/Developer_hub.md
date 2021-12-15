@@ -26,9 +26,9 @@ The developer documentation comprises the following sections:
 
 -   [Source code management](Source_code_management.md)
 -   [Find assistance](Tracker.md) when you have a problem or think you may have found a bug
--   [Compiling on Windows](CompileOnWindows.md)
--   [Compiling on Unix](CompileOnUnix.md)
--   [Compiling on Mac OS X](CompileOnMac.md)
+-   [Compiling on Windows](Compile_on_Windows.md)
+-   [Compiling on Unix](Compile_on_Linux.md)
+-   [Compiling on Mac OS X](Compile_on_MacOS.md)
 -   [Licence details](Licence.md) about the FreeCAD licences
 -   [Third Party Libraries](Third_Party_Libraries.md)
 -   [Third Party Tools](Third_Party_Tools.md)
@@ -57,7 +57,7 @@ The developer documentation comprises the following sections:
 ### 지원 도구 만들기 
 
 -   The [FreeCAD Build Tool](FreeCAD_Build_Tool.md)
-    -   [Adding an application module](Module_Creation.md) to FreeCAD
+    -   [Adding an application module](Workbench_creation.md) to FreeCAD
 -   [Debugging](Debugging.md) FreeCAD
 -   [Testing](Testing.md) FreeCAD
 -   [Compiling (Speeding up)](Compiling_(Speeding_up).md) FreeCAD

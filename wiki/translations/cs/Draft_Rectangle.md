@@ -40,8 +40,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Stiskněte tlačítko **<img src="images/Draft_Rectangle.png" width=16px> [Obdélník](Draft_Rectangle/cs.md)
 ** nebo klávesy **R** a potom **E**
-2.  Klikněte na první roh ve 3D pohledu nebo zadejte [souřadnice](Draft_Coordinates/cs.md)
-3.  Klikněte na protější bod ve 3D pohledu nebo zadejte [souřadnice](Draft_Coordinates/cs.md). Obdélník je také povrchem, i když se jeví jako drátový model.
+2.  Klikněte na první roh ve 3D pohledu nebo zadejte souřadnice
+3.  Klikněte na protější bod ve 3D pohledu nebo zadejte souřadnice. Obdélník je také povrchem, i když se jeví jako drátový model.
 
 
 </div>

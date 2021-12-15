@@ -43,9 +43,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 -   Markera en punkt på ett tomt område i 3D vyn, eller på ett existerande objekt.
 -   Om du håller ned **CTRL** så kommer din punkt att [snäppa](Draft_Snap/sv.md) till tillgängliga snäpp platser.
 -   Om du håller ned**SKIFT** så kommer din punkt att [begränsas](Draft_Constrain/sv.md) i relation till den sista punkten.
--   Skriv in siffror för att [mata in en koordinat manuellt](Draft_Coordinates.md)
+-   Skriv in siffror för att mata in en koordinat manuellt
 -   Om du trycker ned **ESC** så kommer operationen att avbrytas.
--   Den nyss skapade tråden kommer att anta gällande [linjestil](Draft_Linestyle/sv.md).
 -   Polygonen kan visas som en yta eller som en trådmodell, genom att ändra dess visningsläge.
 
 
@@ -56,7 +55,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 -   To manually enter the coordinates for the center enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   The **Relative** checkbox has no purpose for this command.
+-   The **Relative** checkbox, displayed in FreeCAD version 0.19 and earlier, has no purpose for this command.
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
 -   Press **L** or click the **Filled** checkbox to toggle filled mode. If filled mode is on, the created polygon will have **Make Face** set to `True` and will have a filled face.
 -   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating polygons.

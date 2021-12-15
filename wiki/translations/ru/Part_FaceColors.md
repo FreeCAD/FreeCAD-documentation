@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Part FaceColors
-   MenuLocation:Contextual menu → Set colors
+   MenuLocation:Context menu → Set colors
    Workbenches:[Part](Part_Workbench.md), [PartDesign](PartDesign_Workbench.md)
    SeeAlso:[Std Appearance](Std_SetAppearance.md)
 ---

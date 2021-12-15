@@ -5,7 +5,7 @@ A _ but for [meshes](Mesh.md).
 
 Meshes are normally created with the [Mesh Workbench](Mesh_Workbench.md), or imported from STL, OBJ, and similar mesh file formats.
 
-Please note that the **<img src="images/Workbench_FEM.svg" width=16px> [FEM Workbench](FEM_Workbench.md)** also uses meshes, but in this case, it uses a different data structure, called [Fem FemMesh](Fem_FemMesh.md) (`Fem::FemMesh` class). This information does not apply to FEM meshes.
+Please note that the **<img src="images/Workbench_FEM.svg" width=16px> [FEM Workbench](FEM_Workbench.md)** also uses meshes, but in this case, it uses a different data structure, called [FEM FemMesh](FEM_Mesh.md) (`Fem::FemMesh` class). This information does not apply to FEM meshes.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -29,9 +29,11 @@ The most notable objects that will have a Mesh MeshObject are the following:
 
 **See also:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), and [scripted objects](scripted_objects.md). For a full list of attributes and methods, consult the [source documentation](Source_documentation.md), and the [Std PythonHelp](Std_PythonHelp.md) tool.
+[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), and [scripted objects](Scripted_objects.md). For a full list of attributes and methods, consult the [source documentation](Source_documentation.md), and the [Std PythonHelp](Std_PythonHelp.md) tool.
 
-All objects derived from `Mesh::Feature` will have a [Mesh MeshObject](Mesh_MeshObject.md), which is normally accessible from its `Mesh` attribute. 
+All objects derived from `Mesh::Feature` will have a [Mesh MeshObject](Mesh_MeshObject.md), which is normally accessible from its `Mesh` attribute.
+
+
 ```python
 import FreeCAD as App
 
@@ -41,7 +43,9 @@ App.ActiveDocument.recompute()
 print(obj.Mesh)
 ```
 
-A MeshObject has many attributes (variables) and methods that contain information about it, and which allow doing operations with it. These variables and methods can be tested in the [Python console](Python_console.md). 
+A MeshObject has many attributes (variables) and methods that contain information about it, and which allow doing operations with it. These variables and methods can be tested in the [Python console](Python_console.md).
+
+
 ```python
 print(obj.Mesh.Area)
 print(obj.Mesh.BoundBox)

@@ -33,7 +33,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 <div class="mw-translate-fuzzy">
 
-1.  Stelle sicher, dass **<img src="images/Snap_Lock.svg" width=16px> [Draft Umschalten](Draft_ToggleSnap/de.md)** und **<img src="images/Snap_Dimensions.svg" width=16px> [Snap Dimensions](Draft_Dimensions/de.md)** aktiviert sind.
+1.  Stelle sicher, dass **<img src="images/Draft_Snap_Lock.svg" width=16px> [Draft Umschalten](Draft_Snap_Lock/de.md)** und **<img src="images/Draft_Snap_Dimensions.svg" width=16px> [Snap Dimensions](Draft_Snap_Dimensions/de.md)** aktiviert sind.
 2.  Wähle ein Draft-Werkzeug zum Zeichnen eines Formteils.
 3.  Klicke einen ersten Punkt.
 
@@ -43,22 +43,6 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 ## Preferences
 
 See [Draft Snap](Draft_Snap#Preferences.md).
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/de
-|[Spezial](Draft_Special/de.md)
-|[Arbeitsebene](Draft_WorkingPlane/de.md)
-|[Draft Objektfang](Draft_Snap/de.md)
-|IconL=Draft Special.png
-|IconC=Workbench_Draft.svg
-|IconR=Draft WorkingPlane.png
-}}
-
-
-</div>
 
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Dimensions/de

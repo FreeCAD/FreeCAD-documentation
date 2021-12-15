@@ -24,7 +24,7 @@ The [ModernUI Workbench](ModernUI_Workbench.md) is an [external workbench](Exter
 
 ## Install
 
-Install with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
+Install with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
 
 Note: To uninstall, you have to create a macro and execute it. If you do not feel confident about this, consider to not install.
 

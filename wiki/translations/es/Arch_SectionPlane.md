@@ -25,7 +25,7 @@ Esta herramienta coloca en el documento actual un gizmo de plano de sección, qu
 
 <div class="mw-translate-fuzzy">
 
-El plano de sección por sí solo no creará ninguna vista de sus objetos establecidos. Para eso, debe crear un [ Drawing DraftView](Draft_Drawing/es.md) para crear una vista en un [ Drawing page](Drawing_Workbench/es.md), un [Draft Shape2DView/es](Draft_Shape2DView/es.md) para crear una vista en el documento 3D en sí mismo, o a [ TechDraw ArchView](TechDraw_NewArch/es.md) para crear una vista en un [ TechDraw page](TechDraw_Workbench/es.md).
+El plano de sección por sí solo no creará ninguna vista de sus objetos establecidos. Para eso, debe crear un [ Drawing DraftView](Draft_Drawing/es.md) para crear una vista en un [ Drawing page](Drawing_Workbench/es.md), un [Draft Shape2DView/es](Draft_Shape2DView/es.md) para crear una vista en el documento 3D en sí mismo, o a [ TechDraw ArchView](TechDraw_ArchView/es.md) para crear una vista en un [ TechDraw page](TechDraw_Workbench/es.md).
 
 
 </div>
@@ -49,7 +49,7 @@ El plano de sección por sí solo no creará ninguna vista de sus objetos establ
 **Plano de sección** o pulsar las teclas **S** y **P**
 4.  [ Mover](Draft_Move/es.md) / [ rotar](Draft_Rotate/es.md) el plano de sección en la posición correcta si es necesario
 5.  Seleccione el plano de sección si no está seleccionado
-6.  Use ya sea [ Drawing DraftView](Draft_Drawing/es.md), [Draft Shape2DView/es](Draft_Shape2DView/es.md) o [ TechDraw ArchView](TechDraw_NewArch/es.md) para crear una vista
+6.  Use ya sea [ Drawing DraftView](Draft_Drawing/es.md), [Draft Shape2DView/es](Draft_Shape2DView/es.md) o [ TechDraw ArchView](TechDraw_ArchView/es.md) para crear una vista
 
 
 </div>
@@ -77,7 +77,7 @@ El plano de sección por sí solo no creará ninguna vista de sus objetos establ
 
 <div class="mw-translate-fuzzy">
 
--   Crear [ Drawing DraftViews](Draft_Drawing/es.md) si está trabajando con [ Drawing Workbench](Drawing_Workbench/es.md), o [ TechDraw ArchView](TechDraw_NewArch/es.md) si está utilizando [ TechDraw Workbench](TechDraw_Workbench/es.md) .
+-   Crear [ Drawing DraftViews](Draft_Drawing/es.md) si está trabajando con [ Drawing Workbench](Drawing_Workbench/es.md), o [ TechDraw ArchView](TechDraw_ArchView/es.md) si está utilizando [ TechDraw Workbench](TechDraw_Workbench/es.md) .
 
 
 </div>

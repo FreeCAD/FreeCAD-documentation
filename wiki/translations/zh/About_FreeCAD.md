@@ -25,7 +25,7 @@ FreeCad也是完全的[跨平台](http://en.wikipedia.org/wiki/cross-platform)�
 
 <div class="mw-translate-fuzzy">
 
-有关FreeCAD功能的更多信息，请查看[功能列表](Feature_list.md)，[ 最新发布说明](Feature_list＃Release_notes.md)，[入门文章](Getting_started.md)，或查看更多[截图集锦](screenshots.md)。
+有关FreeCAD功能的更多信息，请查看[功能列表](Feature_list.md)，[ 最新发布说明](Feature_list/zh.md)，[入门文章](Getting_started.md)，或查看更多[截图集锦](screenshots.md)。
 
 
 </div>

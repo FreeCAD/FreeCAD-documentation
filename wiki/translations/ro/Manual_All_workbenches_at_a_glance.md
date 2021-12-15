@@ -154,6 +154,9 @@ Atelierul de lucru Desen 3 D (Drawing) se ocupă de crearea și manipularea foil
 
 The Drawing Workbench handles the creation and manipulation of 2D drawing sheets, used for displaying views of your 3D work in 2D. These sheets can then be exported to 2D applications in SVG or DXF formats, to a PDF file or printed.
 
+
+<div class="mw-translate-fuzzy">
+
   Instrument                                                                                                              Descriere                                                              instrument                                                                                                          Descriere
   ----------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------
   <img alt="" src=images/Drawing_Landscape_A3.png  style="width:32px;"> _                            Se inserează în foaia de desen activă
@@ -161,6 +164,9 @@ The Drawing Workbench handles the creation and manipulation of 2D drawing sheets
   <img alt="" src=images/Drawing_Openbrowser.png  style="width:32px;"> _   Creează automat vederi ortografice ale unui obiect
   <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> _       Inserie o vizualizare grafică specială a obiectului selectat în foaia de desen curent
   <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [Save](Drawing_Save.md)                                Salvează foaia curentă ca fișier SVG                                                                                                                                                       
+
+
+</div>
 
 ### Alte ateliere integrate 
 

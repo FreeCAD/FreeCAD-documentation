@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/it
-   Name:FEM_PurgeResults
+   Name:FEM ResultsPurge
    Name/it:Azzera risultati
    MenuLocation:Risultati → Azzera risultati
    Workbenches:[FEM](FEM_Workbench/it.md)

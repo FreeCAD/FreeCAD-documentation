@@ -279,6 +279,9 @@ Python 2 и Qt4 уже устарели и не рекомендуются к п
 -    `python3-pyside2.qtwidgets`
     
 
+-    `python3-pyside2.qtnetwork`
+    
+
 -    `python3-pyside2uic`
     
 
@@ -353,6 +356,9 @@ sudo apt install libocct*-dev
 
 #### Необязательные к установке пакеты 
 
+
+<div class="mw-translate-fuzzy">
+
 При желании вы также можете установить эти дополнительные пакеты:
 
 -    `libsimage-dev`, чтобы Coin поддерживал дополнительные форматы файлов изображений.
@@ -363,13 +369,16 @@ sudo apt install libocct*-dev
 
 -    `checkinstall`, если вы хотите зарегистрировать установленные файлы в диспетчере пакетов вашей системы, чтобы вы могли удалить их позже.
 
+
+</div>
+
 #### Устаовка Python 3 и Qt5 одной командой 
 
 Требуется, чтобы Pyside2 был доступен в Debian buster и [freecad-stable/freecad-daily PPAs](Installing_on_Linux#Official_Ubuntu_repository.md).
 
 
 ```python
-sudo apt install cmake cmake-gui libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside2-dev libqt5opengl5-dev libqt5svg5-dev libqt5webkit5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev libshiboken2-dev libspnav-dev libvtk7-dev libx11-dev libxerces-c-dev libzipios++-dev occt-draw pyside2-tools python3-dev python3-matplotlib python3-pivy python3-ply python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-pyside2uic qtbase5-dev qttools5-dev swig
+sudo apt install cmake cmake-gui libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside2-dev libqt5opengl5-dev libqt5svg5-dev libqt5webkit5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev libshiboken2-dev libspnav-dev libvtk7-dev libx11-dev libxerces-c-dev libzipios++-dev occt-draw pyside2-tools python3-dev python3-matplotlib python3-pivy python3-ply python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-pyside2.qtnetwork python3-markdown python3-git python3-pyside2uic qtbase5-dev qttools5-dev swig
 ```
 
 ПРИМЕЧАНИЕ: В некоторых версиях Ubuntu и некоторых версиях Qt вы получите сообщение об ошибке, что python3-pyside2uic не может быть найден-в этих системах вы можете безопасно опустить его. В Ubuntu 20.04 вам нужно будет добавить `pyqt5-dev-tools`. Более подробную информацию можно найти в [это обсуждение на форуме](https://forum.freecadweb.org/viewtopic.php?t=51324).
@@ -496,8 +505,14 @@ make -j2
 
 Можете добавить, если требуется:
 
+
+<div class="mw-translate-fuzzy">
+
 -   libspnav-devel (для поддержки устройств 3Dconnexion, вроде Space Navigator или Space Pilot)
 -   pivy ( <https://bugzilla.redhat.com/show_bug.cgi?id=458975> Pivy не обязателен, но нужен для верстака Draft)
+
+
+</div>
 
 
 </div>
@@ -628,7 +643,7 @@ sudo pacman -S boost curl desktop-file-utils glew hicolor-icon-theme jsoncpp lib
 
 В других дистрибутивах у нас очень мало отзывов от пользователей, поэтому может быть сложнее найти необходимые пакеты.
 
-Сначала попробуйте найти необходимые библиотеки, упомянутые в [сторонние библиотеки](Сторонние_библиотеки.md) в диспетчере пакетов. Остерегайтесь, что у некоторых из них может быть немного другое имя пакета; ищите `name`, но также `libname`, `name-dev`, `name-devel` и аналогичные. Если это невозможно, попробуйте скомпилировать эти библиотеки самостоятельно.
+Сначала попробуйте найти необходимые библиотеки, упомянутые в [сторонние библиотеки](Third_Party_Libraries.md) в диспетчере пакетов. Остерегайтесь, что у некоторых из них может быть немного другое имя пакета; ищите `name`, но также `libname`, `name-dev`, `name-devel` и аналогичные. Если это невозможно, попробуйте скомпилировать эти библиотеки самостоятельно.
 
 Для FreeCAD требуется версия компилятора GNU g++, равная или выше 3.0.0, так как FreeCAD в основном написан на C++. Во время компиляции выполняются некоторые сценарии Python, поэтому интерпретатор Python должен работать должным образом. Чтобы избежать каких-либо проблем с компоновщиком, также рекомендуется иметь пути к библиотеке в переменной `LD_LIBRARY_PATH` или в файле `ld.so.conf`. Это уже сделано в современных дистрибутивах Linux, но, возможно, потребуется установить в более старых.
 
@@ -824,7 +839,7 @@ locate python3.6
 
 2\. Кликните на **Open Project**.
 
-3\. Перейдите в каталог, в котором находится исходный код, `freecad-source/`, и выберите самый верхний файл {{incode/CMakeLists.txt}}.
+3\. Перейдите в каталог, в котором находится исходный код, `freecad-source/`, и выберите самый верхний файл `CMakeLists.txt`.
 
 4\. Выбрав файл, он автоматически запустит `cmake` на нем, но может выйти из строя, если соответствующие параметры установлены неправильно.
 

@@ -1,13 +1,13 @@
 # Arch Building/sv
 ---
-- GuiCommand:/sv   Name:Arch Building   Name/sv:Arch Building   Workbenches:[MenuLocation:Arch → Building   Shortcut:B U   SeeAlso:[[Arch Cell/sv](Arch_Workbench/sv___Arch]].md)---
+- GuiCommand:/sv   Name:Arch Building   Name/sv:Arch Building   Workbenches:[[Arch_Workbench/sv   Arch]]|MenuLocation:Arch → Building   Shortcut:B U   SeeAlso:---
 
 
 </div>
 
 ## Beskrivning
 
-Byggnad är en speciell typ av [Cell](Arch_Cell/sv.md) som är tänkt att innehålla en komplett byggnadsenhet. För närvarande är den enda skillnaden att den har en annan ikon.
+Byggnad är en speciell typ av FreeCAD group objekt som är tänkt att innehålla en komplett byggnadsenhet. För närvarande är den enda skillnaden att den har en annan ikon.
 
 ## Usage
 

@@ -47,7 +47,7 @@ Le esercitazioni **Interattive** (anche chiamate Player) sono esercizi guidati s
 
 <div class="mw-translate-fuzzy">
 
-Questo ambiente può essere facilmente installato e aggiornato dal [Addon Manager](AddonManager/it.md) disponibile in FreeCAD 0.17 e superiore. Per gli utenti di FreeCAD 0.16 e per altri metodi di installazione, fare riferimento alla pagina [Installare componenti aggiuntivi](Installing/it#Installare_componenti_aggiuntivi.md).
+Questo ambiente può essere facilmente installato e aggiornato dal [Addon Manager](Std_AddonMgr/it.md) disponibile in FreeCAD 0.17 e superiore. Per gli utenti di FreeCAD 0.16 e per altri metodi di installazione, fare riferimento alla pagina [Installare componenti aggiuntivi](Installing/it#Installare_componenti_aggiuntivi.md).
 
 
 </div>

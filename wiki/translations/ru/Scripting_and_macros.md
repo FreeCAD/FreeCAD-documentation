@@ -1,4 +1,12 @@
 # Scripting and macros/ru
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
 ## Overview of Python scripting pages 
 
 -   Python related pages in the Manual:
@@ -64,7 +72,6 @@
     -   [Code snippets](Code_snippets.md)
     -   [Macros recipes](Macros_recipes.md)
     -   [Line drawing function](Line_drawing_function.md)
-    -   [Macro Half-Hull Model](Piffpoof_Macro_Half-Hull_Model.md)
 
 -   Miscellaneous:
     -   [Debugging](Debugging.md)
@@ -94,7 +101,7 @@
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

@@ -51,7 +51,7 @@ You\'ll get a long and complete description of everything the `print()` command 
 
 Now that you understand the Python interpreter, we can continue with the more serious stuff.
 
-[top](#top.md)
+
 
 ## Variables
 
@@ -94,7 +94,7 @@ It is advisable to give meaningful names to your variables. After a while you wo
 
 Case is very important, `myVariable` is not the same as `myvariable`. If you were to enter `print(myvariable)` it would come back with an error as not defined.
 
-[top](#top.md)
+
 
 ## Numbers
 
@@ -196,7 +196,7 @@ myVar = "hello friends"
 myVar
 ```
 
-[top](#top.md)
+
 
 ## Lists
 
@@ -240,7 +240,7 @@ Usually what you can do with lists can also be done with strings. In fact both l
 
 Apart from strings, integers, floats and lists, there are more built-in data types, such as dictionaries, and you can even create your own data types with classes.
 
-[top](#top.md)
+
 
 ## Indentation
 
@@ -339,7 +339,7 @@ else:
     print("Such Dalton doesn't exist!")
 ```
 
-[top](#top.md)
+
 
 ## Functions
 
@@ -375,7 +375,7 @@ myTotal = sum(45, 34)
 
 Here we made a function that receives two arguments, sums them, and returns that value. Returning something is very useful, because we can do something with the result, such as store it in the `myTotal` variable.
 
-[top](#top.md)
+
 
 ## Modules
 
@@ -471,7 +471,7 @@ There is however an alternative:
 exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 ```
 
-[top](#top.md)
+
 
 ## Starting with FreeCAD 
 
@@ -482,16 +482,19 @@ Hopefully you now have a good idea of how Python works, and you can start explor
 dir()
 ```
 
-[top](#top.md)
+
 
 ## Notes
 
 -   FreeCAD was originally designed to work with Python 2. Since Python 2 reached the end of its life in 2020, future development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.
 -   Much more information about Python can be found in the [official Python tutorial](https://docs.python.org/3/tutorial/index.html) and the [official Python reference](https://docs.python.org/3/reference/).
 
-[top](#top.md)
 
- {{Powerdocnavi}} 
+
+
+
+
+ {{Powerdocnavi}}
 
 _ _
 

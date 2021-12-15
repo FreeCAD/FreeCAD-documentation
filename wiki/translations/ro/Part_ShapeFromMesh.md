@@ -1,9 +1,13 @@
-# Part ShapeFromMesh/ro
 ---
-- GuiCommand:   Name:Part ShapeFromMesh‏‎   MenuLocation:Part → Create shape from mesh...   Workbenches:[SeeAlso:[[Part ConvertToSolid](Part_Workbench___Part]].md), [[Part RefineShape]]---
+- GuiCommand:/ro
+   Name:Part ShapeFromMesh‏‎
+   Name/ro:Part ShapeFromMesh‏‎
+   MenuLocation:Part → Create shape from mesh...
+   Workbenches:[Part](Part_Workbench/ro.md)
+   SeeAlso:[Part ConvertToSolid](Part_MakeSolid/ro.md), [Part RefineShape](Part_RefineShape/ro.md), [Part PointsFromMesh](Part_PointsFromMesh/ro.md)
+---
 
-
-</div>
+# Part ShapeFromMesh/ro
 
 ## Introduction
 

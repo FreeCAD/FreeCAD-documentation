@@ -77,7 +77,7 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 -   Para utilizar coordenadas polares introduzca un valor para el **Length** y un valor para el **Angle**, y pulse **Enter** después de cada uno.
 -   Marque la casilla **Angle** para restringir el puntero al ángulo especificado.
 -   La casilla **Relative** no tiene sentido para este comando.
--   Pulse **G** o haga clic en la casilla **Global** para activar el modo global. Si el modo global está activado, las coordenadas son relativas al sistema de coordenadas global, de lo contrario son relativas al sistema de coordenadas del [plano de trabajo](Draft_SelectPlane/es.md). {{Versión|0.20}}
+-   Pulse **G** o haga clic en la casilla **Global** para activar el modo global. Si el modo global está activado, las coordenadas son relativas al sistema de coordenadas global, de lo contrario son relativas al sistema de coordenadas del [plano de trabajo](Draft_SelectPlane/es.md). {{Version/es|0.20}}
 -   La casilla **Continue** no tiene ningún propósito para este comando.
 -   Pulse **S** para activar o desactivar el ajuste de borradores.
 -   El **<img src="images/Draft_UndoLine.svg" width=16px> Deshacer** no tiene ningún propósito para este comando.
@@ -92,11 +92,17 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 
 ### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> _ 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Menú contextual del nodo central: {{Value|mover arco}}.
 -   Menú contextual del nodo de inicio: {{Value|poner el primer ángulo}}.
 -   Menú contextual del nodo final: {{Value|poner el último ángulo}}.
 -   Menú contextual del nodo medio: {{Value|poner radio}}.
 -   Menú contextual del borde: {{Value|invertir arco}}. Actualmente esto no funciona.
+
+
+</div>
 
 ### <img alt="" src=images/Draft_Circle.svg  style="width:24px;"> [Borrador Círculo](Draft_Circle/es.md) 
 
@@ -179,14 +185,20 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 
 ### <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Sketcher Sketch](Sketcher_NewSketch.md) 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Sólo se pueden editar los croquis que contengan una sola línea sin restricciones. Actualmente esto no funciona correctamente.
 -   No hay menús contextuales para este objeto.
+
+
+</div>
 
 ## Preferencias
 
 Ver también: [Editor de preferencias](Preferences_Editor/es.md) y [Borrador Preferencias](Draft_Preferences/es.md).
 
--   El color de los nodos temporales es el mismo que el color de los símbolos atrapar. Este color se puede cambiar en las preferencias: **Edición → Preferencias... → Borrador → Ajustes visuales → Color**. Tenga en cuenta que este color no se utiliza para los nodos temporales que se muestran para [Borrador BezCurvas](Borrador_BezCurve/es.md). Estos nodos utilizan el **Color de la línea** de la curva en su lugar.
+-   El color de los nodos temporales es el mismo que el color de los símbolos atrapar. Este color se puede cambiar en las preferencias: **Edición → Preferencias... → Borrador → Ajustes visuales → Color**. Tenga en cuenta que este color no se utiliza para los nodos temporales que se muestran para [Borrador BezCurvas](Draft_BezCurve/es.md). Estos nodos utilizan el **Color de la línea** de la curva en su lugar.
 
 ## Guión
 

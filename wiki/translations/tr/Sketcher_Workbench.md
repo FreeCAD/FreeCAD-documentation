@@ -200,7 +200,7 @@ Eskiz Tezgahı araçlarının tümü, Eskiz Tezgahını yüklediğinizde görün
 
 <div class="mw-translate-fuzzy">
 
--   [Eskizi uyarla](Sketcher_Reorient/tr.md): Eskizin konumunu değiştirmek için kullanılır.
+-   <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:32px;"> [Eskizi uyarla](Sketcher_ReorientSketch/tr.md): Eskizin konumunu değiştirmek için kullanılır.
 
 
 </div>
@@ -807,13 +807,7 @@ Kenarları Bağla\]\]: Uç noktalarını çakıştırarak eskiz elemanlarını b
 
 -   <img alt="" src=images/Sketcher_BSplinePoleWeight.svg  style="width:32px;"> [Show/hide B-spline control point weight](Sketcher_BSplinePoleWeight.md), <small>(v0.19)</small> 
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Geometriyi B-spline\'a Dönüştür](Sketcher_ConvertToNURB/tr.md)
-
-
-</div>
+-   <img alt="" src=images/Sketcher_BSplineApproximate.svg  style="width:32px;"> [Geometriyi B-spline\'a Dönüştür](Sketcher_BSplineApproximate/tr.md)
 
 
 <div class="mw-translate-fuzzy">
@@ -885,10 +879,6 @@ Her CAD kullanıcısı zaman içinde kendi çalışma tarzını geliştirir, anc
 <div class="mw-translate-fuzzy">
 
 ## Kılavuzlar
-
--   [Eskiz kılavuzu](Sketcher_tutorial/tr.md) yeni başlayanlar için
--   [Eskiz kılavuzu](Sketcher_Tutorial/tr.md)
--   [Eskiz mini kılavuz - Kısıtlama alıştırmaları](Sketcher_Micro_Tutorial_-_Constraint_Practices.md)
 
 
 </div>

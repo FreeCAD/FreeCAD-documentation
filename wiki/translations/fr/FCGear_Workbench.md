@@ -100,7 +100,7 @@ Avant de démarrer l\'[atelier FCGear](FCGear_Workbench/fr.md), il doit être in
 
 ### Installation Automatique 
 
-La méthode d\'installation recommandée à partir de la v0.17 est via <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Elle est accessible dans le menu **Outils → Gestionnaire d'Addon**.
+La méthode d\'installation recommandée à partir de la v0.17 est via le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Elle est accessible dans le menu **Outils → Gestionnaire d'Addon**.
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:700px">

@@ -67,7 +67,13 @@ The following workbenches are still included in the base installation for compat
 
 Верстаки FreeCAD легко программируются в [Python](Python/ru.md), поэтому многие разрабатывают дополнительные верстаки вне кодовой базы FreeCAD.
 
-Страница [внешние верстаки](External_workbenches/ru.md) перечисляет все известные сообществу. Большинство из них легко устанавливается из FreeCAD, используя [Addon Manager](Addon_Manager/ru.md) через меню **Инструменты → <img src="images/AddonManager.svg" width=24px> Addon manager**.
+
+<div class="mw-translate-fuzzy">
+
+Страница [внешние верстаки](External_workbenches/ru.md) перечисляет все известные сообществу. Большинство из них легко устанавливается из FreeCAD, используя [Addon Manager](Std_AddonMgr/ru.md) через меню **Инструменты → <img src="images/Std_AddonMgr.svg" width=24px> Addon manager**.
+
+
+</div>
 
 Новые верстаки всегда в разработке, следите за обновлениями!
 

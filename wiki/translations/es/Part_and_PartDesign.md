@@ -37,7 +37,13 @@ Por tanto, **para obtener el sólido completo**, por un lado la operación de \"
 
 Esto hará posible, en el caso de una modificación, **tener siempre la última versión del sólido representado.**
 
+
+<div class="mw-translate-fuzzy">
+
 **Nota y añadidos :** A cada etapa de la construcción, la última función usada es la \"Punta\", la cual puede ser definida también como \"estado activo en la construcción del objeto\" o \"estado precedente a la siguiente acción en la construcción del objeto\". Cuando el diseño del objeto está completo, la Punta es naturalmente el último estado de operación de la construcción. Pero si se desea, en caso de olvido, cualquier operación de la construcción puede ser declarada provisionalmente como Punta, convirtiéndose entonces en el paso precedente a la siguiente acción en la construcción del objeto, lo que quiere decir que una nueva operación u operaciones pueden ser insertadas en cualquier sitio de la construcción, **con la condición de no crear ninguna incompatibilidad con lo siguiente**.
+
+
+</div>
 
 Cuando todo esté finalizado, se tendrá que volver a declarar la última operación como Punta, la cual corresponde al objeto terminado.
 
@@ -51,7 +57,13 @@ Si la Punta es **Pad**, la extrusión puede existir por separado, pero si la Pun
 
 ## Ramificaciones
 
+
+<div class="mw-translate-fuzzy">
+
 Aunque no es recomendable para los principiantes, es posible combinar herramientas de los bancos de trabajo Part y PartDesign, siempre y cuando se sepa lo que se está haciendo. Por ejemplo:
+
+
+</div>
 
 La gente se queda atascada cuando intenta usar alguna operación dentro del Body (en vez de con el Body en sí mismo) como una selección de una operación booleana del banco de trabajo Part. Esto es un problema, porque la operación seleccionada no representa **EL** sólido completo.
 
@@ -75,7 +87,16 @@ Ver la página wiki de la herramienta <img alt="" src=images/PartDesign_Mirrored
 
 ## Comparación
 
+
+<div class="mw-translate-fuzzy">
+
 Puede ver debajo el mismo ejemplo construído con cada uno de los dos bancos de trabajo. Por supuesto, siempre hay diferentes métodos posibles de construcción con cada banco de trabajo. ![Compare constructions with Part WB and PartDesign WB](images/PartWBvsPartDesignWBexample.jpg )
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   En <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> Banco de trabajo PartDesign                                                                             En <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> Banco de trabajo Part
   ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -83,17 +104,26 @@ Puede ver debajo el mismo ejemplo construído con cada uno de los dos bancos de 
   ![](images/01sketchXZ_PartWBvsPartDesignWBn.jpg )                                                                                                    ![](images/01Psketch_PartWBvsPartDesignWBn.jpg )
                                                                                                                                                                                       
 
+
+</div>
+
   ----------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------
   02- <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> Revolución / Z   02- <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> Revolución / Z
   ![](images/02revolutionZ_PartWBvsPartDesignWBn.jpg )          ![](images/02revolveZ_PartWBvsPartDesignWBn.jpg )
                                                                                                   
   ----------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------
 
+
+<div class="mw-translate-fuzzy">
+
   ------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   03- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Nuevo boceto en el plano XY   03- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Banco de trabajo PartDesign \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Nuevo boceto en el plano XY
   ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )                       ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )
                                                                                                          
   ------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+</div>
 
   -------------------------------------------------------------------------------- --------------------------------------------------------------------------------
   04- <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> Vaciado   04a- <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> Extrusión
@@ -107,11 +137,17 @@ Puede ver debajo el mismo ejemplo construído con cada uno de los dos bancos de 
                                                                                  
   ------------------------------------------------------------------------------ ------------------------------------------------------------------------
 
+
+<div class="mw-translate-fuzzy">
+
   ------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   05- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Nuevo boceto en el plano XZ   05- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Banco de trabajo PartDesign \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Nuevo boceto en el plano XZ
   ![](images/05sketchXZ_PartWBvsPartDesignWB.jpg )                         ![](images/05PsketchXZ_PartWBvsPartDesignWB.jpg )
                                                                                                          
   ------------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+</div>
 
   ----------------------------------------------------------------------------------- --------------------------------------------------------------------------------
   06- <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> Extrusión sim/XZ   06a- <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> Extrusión sim/XZ
@@ -131,11 +167,17 @@ Puede ver debajo el mismo ejemplo construído con cada uno de los dos bancos de 
                                                                                  
   ------------------------------------------------------------------------------ ------------------------------------------------------------------------------
 
+
+<div class="mw-translate-fuzzy">
+
   ---------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
   07- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> Nuevo boceto sobre la cara de la base   07- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Sketcher WB \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Nuevo boceto en el plano XZ
   ![](images/07sketchBaseSupFace_PartWBvsPartDesignWB.jpg )                 ![](images/07PsketchXZ_PartWBvsPartDesignWB.jpg )
                                                                                                                    
   ---------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+</div>
 
   ------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------
   08- <img alt="" src=images/PartDesign_Hole.svg  style="width:32px;"> Taladro abocardado            08a- <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> Revolución
@@ -158,7 +200,7 @@ Puede ver debajo el mismo ejemplo construído con cada uno de los dos bancos de 
 Compare the construction trees in the two workbenches as well as their organization and reading timeline :
 
   ------------------------------------------------------------------------------------ ------------------------------------------------------------------------
-  10- Construction tree in PartDesign WB                                               10- Construction tree in Part WB
+  10- Construction tree in PartDesign workbench                                        10- Construction tree in Part workbench
   ![](images/PartvsPartDesign_TreePartDesignWB.jpg )   ![](images/PartvsPartDesign_TreePartWB.jpg )
                                                                                        
   ------------------------------------------------------------------------------------ ------------------------------------------------------------------------

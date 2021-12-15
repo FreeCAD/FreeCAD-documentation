@@ -28,9 +28,15 @@ In diesem Beispiel wird ein Würfel mit einem Zylinder zerschnitten:
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle das Basisobjekt aus
 2.  Wähle das Abschnittswerkzeug
-3.  Klicke auf **Part** → **![](images/)_Abschnitt**_aus_dem_oberen_Menü.
+3.  Klicke auf **Part** → **<img src="images/Part_Section.svg" width=24px> Abschnitt** aus dem oberen Menü.
+
+
+</div>
 
 ## Verknüpfungen
 

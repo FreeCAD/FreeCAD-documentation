@@ -1,4 +1,9 @@
 # PartDesign Bearingholder Tutorial I/fr
+**This tutorial was originally written for a now deprecated development version of FreeCAD. This tutorial requires a complete rewrite to align with the PartDesign changes that will be in the upcoming v0.17 release.**
+
+
+
+
 {{TutorialInfo
 |Topic=Modélisation
 |Level=Utilisateur expérimenté
@@ -8,12 +13,7 @@
 |Files=
 }}
 
-
-**Ce tutoriel a été écrit à l'origine pour une version de développement maintenant obsolète de FreeCAD. Ce tutoriel nécessite une réécriture complète pour s'aligner sur les modifications apportées à PartDesign dans la prochaine version v.17. La réécriture a été lancée dans _**
-
 Tutoriel Support de Roulement - Support de roulement terminé
-
-~~Comme l\'indique l\'avertissement en haut de la page , ce **tutoriel ne fonctionnera que si vous compilez une branche spéciale hautement expérimentale du code source FreeCAD** et est un tutoriel d\'introduction à la modélisation avec l\'atelier PartDesign dans FreeCAD **utilisant des plans de référence qui sont une caractéristique qui n\'existe pas encore dans la plupart des versions de FreeCAD**.~~
 
 ## L\'objectif en deux mots 
 

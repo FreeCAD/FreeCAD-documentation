@@ -25,17 +25,6 @@ Instrumentul **Pad** extrude o schiță într-un solid în direcția normală la
 
 *Sketch (A) shown on the left; end result after pad operation (B) on the right.*
 
-
-<div class="mw-translate-fuzzy">
-
-
-{{VersionMinus|0.16}}
-
-If the selected sketch is mapped to the face of an existing solid or another Part Design feature, the pad will be fused to it.
-
-
-</div>
-
 ## Cum se utilizează 
 
 
@@ -63,15 +52,27 @@ Când se creează o protuberanță(Pad), vizualizarea Combo se comută automat �
 
 ### Type
 
+
+<div class="mw-translate-fuzzy">
+
 Tipul oferă cinci modalități diferite de a specifica lungimea la care va fi extrudat tamponul.
+
+
+</div>
 
 #### Dimension
 
+
+<div class="mw-translate-fuzzy">
+
 Enter a numeric value for the length of the pad. The default direction for extrusion is away (outside of) the support, but it can be changed by ticking the **Reversed** option. Extrusions occur [normal](http://en.wikipedia.org/wiki/Surface_normal) to the defining sketch plane. With the option **Symmetric to plane** the pad will extend half of the given length to either side of the sketch plane. Negative dimensions are not possible. Use the **Reversed** option instead.
+
+
+</div>
 
 #### Two dimensions 
 
-This allows to enter a second length in which the pad should extend in the opposite direction (into the support). Again can be changed by ticking the **Reversed** option.
+This allows to enter a second length in which the pad should extend in the opposite direction (into the support). The directions can be switched by ticking the **Reversed** option.
 
 #### To last 
 
@@ -83,33 +84,39 @@ The pad will extrude up to the first face of the support in the extrusion direct
 
 #### Up to face 
 
-The pad will extrude up to a face in the support that can be chosen by clicking on it. If there is no support, no selections will be accepted.
+The pad will extrude up to a face in the model that can be chosen by clicking on it.
 
 ### Length
 
+
+<div class="mw-translate-fuzzy">
+
 Definește lungimea protuberanței. Unitățile multiple pot fi utilizate independent de preferințele unităților utilizatorului(m, cm, mm, nm, ft or \', in or \").
+
+
+</div>
+
+### Offset to face 
+
+Offset from face at which the pad will end. This option is only available when **Type** is either **To last**, **To first** or **Up to face**.
 
 ### Direction
 
 #### Direction/edge
 
-You can select the direction of the padding:
+You can select the direction of the extrusion:
 
--   **Sketch normal** The sketch is extruded along its normal
--   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model. This becomes then the direction vector for the padding. <small>(v0.20)</small> 
+-   **Face/Sketch normal** The sketch or face is extruded along its normal. If you have selected several sketches or faces to be extruded, the normal of the first one will be used. <small>(v0.20)</small> 
+-   **Select reference\...** The sketch is extruded along an edge of the 3D model. When this is method selected, you can click on any edge in the 3D model and it becomes the direction vector for the extrusion. <small>(v0.20)</small> 
 -   **Custom direction** The sketch is extruded along a direction that can be specified via vector values. <small>(v0.19)</small> 
 
-#### Show custom direction 
+#### Show direction 
 
 If checked, the pad direction will be shown. In case the pad uses a **Custom direction**, it can be changed. <small>(v0.20)</small> 
 
 #### Length along sketch normal 
 
 If checked, the pad length is measured along the sketch normal, otherwise along the custom direction. <small>(v0.20)</small> 
-
-### Offset to face 
-
-Offset from face in which the pad will end. This option is only available when **Type** is either **To last**, **To first** or **Up to face**.
 
 
 <div class="mw-translate-fuzzy">
@@ -119,7 +126,13 @@ Offset from face in which the pad will end. This option is only available when *
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Bifați caseta de selectare pentru a extinde jumătate din lungimea dată la fiecare parte a planului de schiță.
+
+
+</div>
 
 ### Reversed
 
@@ -139,14 +152,12 @@ Reverses the direction of the pad.
 
 -   Like all Part Design features, Pad creates a solid, thus the sketch must include a closed profile or it will fail with a *Failed to validate broken face* error. There can be multiple enclosed profiles inside a larger one, provided none intersect each other (for example, a rectangle with two circles inside it).
 -   The algorithm used for **To First** and **To Last** is:
-    -   Create a line through the centre of gravity of the sketch
+    -   Create a line through the center of gravity of the sketch
     -   Find all faces of the support cut by this line
     -   Choose the face where the intersection point is nearest/furthest from the sketch
 
 :   This means that the face that is found might not always be what you expected. If you run into this problem, use the **Up to face** type instead, and pick the face you want.
 :   For the very special case of extrusion to a concave surface, where the sketch is larger than this surface, extrusion will fail. This is a unresolved bug.
-
--    {{VersionMinus|0.16}}There is no automatic cleanup, e.g. of adjacent planar surfaces into a single surface. You can fix this manually in the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ which creates a parametric feature.
 
 
 <div class="mw-translate-fuzzy">

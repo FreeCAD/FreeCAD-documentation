@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/ru
-   Name:FEM PurgeResults
-   Name/ru:FEM PurgeResults
+   Name:FEM ResultsPurge
+   Name/ru:FEM ResultsPurge
    MenuLocation:Results → Purge results
    Workbenches:[FEM](FEM_Workbench/ru.md)
    Shortcut:**S** **S**

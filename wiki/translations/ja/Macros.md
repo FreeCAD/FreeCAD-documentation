@@ -50,7 +50,7 @@ Enable the console output in the menu **Edit → Preferences → General → Mac
 
 <div class="mw-translate-fuzzy">
 
-マクロダイアログには、あなたのマクロを管理、編集、削除、新規作成ができます。マクロを編集する場合、コードに変更を加えることができるエディタウィンドウが開きます。 新しいマクロは[AddonManagerにリンクするAddons](AddonManager.md) \...ボタンを使ってインストールできます。
+マクロダイアログには、あなたのマクロを管理、編集、削除、新規作成ができます。マクロを編集する場合、コードに変更を加えることができるエディタウィンドウが開きます。 新しいマクロは[Addon ManagerにリンクするAddons](Std_AddonMgr.md) \...ボタンを使ってインストールできます。
 
 
 </div>
@@ -60,7 +60,7 @@ Enable the console output in the menu **Edit → Preferences → General → Mac
 
 ### 例
 
-「記録」ボタンを押して名前をつけてみましょう。\"cylinder 10×10\"にします。その後、[パートワークベンチで](Part_Workbench/jp.md)、半径= 10、高さ= 10でシリンダを作成します。そして、「記録停止」ボタンを押してください。マクロ編集のダイアログでは、記録されているPythonのコードを見ることができ、必要に応じて変更を加えることができます。マクロを実行する簡単な方法は、マクロをエディタで開きツールバー上の「実行」ボタンを押します。 マクロは常にディスクに保存され、あなたが行ったすべての変更、または新しく作成したマクロはFreeCADを次回起動時も利用できるようになっています。
+「記録」ボタンを押して名前をつけてみましょう。\"cylinder 10×10\"にします。その後、[パートワークベンチで](Part_Workbench/ja.md)、半径= 10、高さ= 10でシリンダを作成します。そして、「記録停止」ボタンを押してください。マクロ編集のダイアログでは、記録されているPythonのコードを見ることができ、必要に応じて変更を加えることができます。マクロを実行する簡単な方法は、マクロをエディタで開きツールバー上の「実行」ボタンを押します。 マクロは常にディスクに保存され、あなたが行ったすべての変更、または新しく作成したマクロはFreeCADを次回起動時も利用できるようになっています。
 
 
 </div>
@@ -146,9 +146,18 @@ You can manually install extensions, however, it is much simpler to just use the
 -   [How to install additional workbenches](How_to_install_additional_workbenches.md)
 
 
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/ja|Image Workbench/ja|Introduction to Python/ja}}
+
+
+</div>
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _ _
 

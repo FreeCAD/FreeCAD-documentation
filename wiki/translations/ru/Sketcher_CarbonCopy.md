@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/ru
-   Name:Sketcher Carbon Copy
+   Name:Sketcher CarbonCopy
    Name/ru:Структурная Копия
    MenuLocation:Эскиз → Геометрия эскиза → Структурная Копия
    Workbenches:[Sketcher](Sketcher_Workbench/ru.md)

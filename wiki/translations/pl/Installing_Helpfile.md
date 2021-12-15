@@ -11,7 +11,7 @@ Dokumentacja działająca w trybie offline składa się z co najmniej dwóch pli
 
 Pliki pomocy można pobrać tutaj: <https://github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD.0_19.Offline.Doc.7z>
 
-W przyszłości będzie można je zainstalować z poziomu FreeCAD za pomocą [Addon Manager](Addon_Manager.md).
+W przyszłości będzie można je zainstalować z poziomu FreeCAD za pomocą [Menadżera Dodatków](Std_AddonMgr/pl.md).
 
 Pliki pomocy mają zawsze te same nazwy: {{FileName|freecad.qhc}} i {{FileName|freecad.qch}}. Aby mieć różne wersje plików pomocy, pliki te muszą być zainstalowane w różnych katalogach. W przypadku ręcznego pobierania, wystarczy zapisać plik zip lokalnie i rozpakować archiwum do wybranego katalogu.
 

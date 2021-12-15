@@ -51,7 +51,13 @@ Questo ambiente di lavoro può essere installato da [Addon Manager](Std_AddonMgr
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/SheetMetal_AddBase.svg  style="width:32px;"> [Make Base Wall](SheetMetal_AddBase/it.md): Crea un foglio di lamiera da uno schizzo.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -85,7 +91,7 @@ Questo ambiente di lavoro può essere installato da [Addon Manager](Std_AddonMgr
 
 </div>
 
--   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md): Flattens a folded sheet metal object and generates a solid and a sketch (if parameters have already been set).
+-   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md): Flattens a folded sheet metal object and generates an unfold solid and an outline sketch with bend lines (if parameters have already been set).
 
 
 <div class="mw-translate-fuzzy">

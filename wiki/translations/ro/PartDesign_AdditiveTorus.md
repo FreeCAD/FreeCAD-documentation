@@ -23,7 +23,7 @@ Inserează o primitivă geometrică tip tor în Corpul activ ca prima funcție(o
 <div class="mw-translate-fuzzy">
 
 1.  Apăsați butonul **<img src="images/PartDesign_AdditiveTorus.png" width=24px> '''Additive Torus'''** . **Note**: the Additive Torus is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get the Torus, click on the down arrow besides the visible icon and select Additive Torus in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_Attachment.md).
+2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
 3.  Click **OK**.
 4.  OP funcție Tor apare sub Corpul activ.
 
@@ -48,7 +48,7 @@ Torul poate fi definit după crearea sa în două moduri:
 
 <div class="mw-translate-fuzzy">
 
--    **Attachment**: definește atașamentul ca și Attachment Offset. A se vedea [Part Attachment](Part_Attachment.md).
+-    **Attachment**: definește atașamentul ca și Attachment Offset. A se vedea [Part EditAttachment](Part_EditAttachment.md).
 
 -    **Label**: Label given to the Torus object. Change to suit your needs.
 

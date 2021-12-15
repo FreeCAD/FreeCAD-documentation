@@ -3,7 +3,7 @@
    Name:Part Common
    Name/ro:Part Common
    MenuLocation:Part → Common
-   Workbenches:[Part](_Workbench/ro.md), Complete
+   Workbenches:[Part](Part_Workbench/ro.md)
    SeeAlso:[Part Union](Part_Union/ro.md), [Part Cut](Part_Cut/ro.md)
 ---
 
@@ -22,53 +22,10 @@ Funcția **![](images/)_[Intersection](Part_Common/fr.md)**, extrage partea com
 _
 
 
+### Usage
 
-<div class="mw-translate-fuzzy">
-
-### Cum se folosește 
-
-1.  Selectați două forme
-2.  Apăsați butonul **<img src="images/Part_Common.png" width=16px> '''Part Common'''**.
-
-## Utilisation
-
-Selectați atelierul **Part _**, sur la **barre d\'outils**, ou sur **Affichage → Atelier → Part**.
-Pour effectuer une opération d\'**![](images/)_[Intersection](Part_Common/fr.md)**, sélectionnez deux ou plusieurs objets, puis cliquez sur le bouton **![](images/)_[Intersection](Part_Common/fr.md)**, et, la partie commune des objets sélectionnés sera extraite.
-
-## Options
-
-
-{{PartBooleanProprietes/fr}}
-
-## Exemple
-
-
-<center>
-
-Image:Part\_Common\_fr\_02.gif\| Construisez votre combinaison, puis, sélectionnez les objet à modifier, en tenant appuyée la touche **CTRL**, et, cliquez sur le **bouton gauche** de la souris,
-puis cliquez sur le bouton **![](images/)_[Intersection](Part_Common/fr.md)**, et, les pièces communes seront extraites.
-
-
-</center>
-
-
-
-<center>
-
-Image:Part\_Common\_fr\_03.png\|Une nouvelle icône s\'affiche dans la **Vue combinnée** renseignant l\'opération.
-Si vous cliquez sur la flèche, vous pouvez voir les formes d\'origine, qui ont servi dans l\'opération d\'**![](images/)_[Intersection](Part_Common/fr.md)**
-Les formes originales peuvent être effacées, pour ne conserver que le produit final.
-
-
-</center>
-
-
-## Les outils Booléens 
-
-_    _    _    _    _   
-
-
-</div>
+1.  Select two shapes
+2.  Press the **![](images/)_[Common](Part_Common.md)** button.
 
 ### Intrări suportate 
 

@@ -19,7 +19,7 @@ It\'s been 2 years since the previous 0.16 release, but the FreeCAD team didn\'t
 
 The **PartDesign workbench** has been completely overhauled. A new Body container now holds a chain of features and lifts the requirement of mapping sketches to planar faces. New tools to create datum (reference) geometry such as points, axes and planes make PartDesign a lot more versatile. ![](images/PartDesign_Body_tree.png )
 
-The new [Addon Manager](Addon_Manager.md) available from the Tools menu (which was previously available as the [addons installer macro](https://github.com/FreeCAD/FreeCAD-addons)) makes installing and updating add-on modules and macros much easier and standardized across Windows, Mac OS X and Linux. <img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
+Nowy [menadżer ddatków](Std_AddonMgr/pl.md) dostępny z menu Narzędzia *(który wcześniej był dostępny jako [instalator dodatków makro](https://github.com/FreeCAD/FreeCAD-addons))* sprawia, że instalacja i aktualizacja modułów dodatków i makr jest znacznie łatwiejsza i ustandaryzowana w systemach Linux, Mac OS X i Windows. <img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
 
 The **Sketcher** now supports B-spline creation with many ways to control curves and display curve information. <img alt="" src=images/FC017_Sketcher_B-spline_01.png  style="width:300px;">
 
@@ -195,7 +195,7 @@ The PartDesign workbench received massive changes, the fruit of combined efforts
 
 The Path workbench has been massively overhauled in version 0.17. The overhaul saw the removal of all older HeeksCNC code and replacement of the libarea python wrapper with the new Path-Area module. As a result operations have gotten much more powerful, faster, with a simplified code base.
 
--   Support for 2.5D operations is complete including [contour](Path_Contour.md), [face-milling](Path_MillFace.md), [pocketing](Path_Pocket_Shape.md), [profiling](Path_ProfileFace.md), and [drilling](Path_Drilling.md)
+-   Support for 2.5D operations is complete including [contour](Path_Profile.md), [face-milling](Path_MillFace.md), [pocketing](Path_Pocket_Shape.md), [profiling](Path_Profile.md), and [drilling](Path_Drilling.md)
 
 -   Limited support for [3D pocketing](Path_Pocket_3D.md) operations.
 

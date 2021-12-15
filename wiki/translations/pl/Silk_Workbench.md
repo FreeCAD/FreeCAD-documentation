@@ -11,7 +11,7 @@ The Silk workbench is an [External workbench](external_workbenches.md) that crea
 
 ## Installation
 
-Recommended install is via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) found under the **Tools → Addon Manager** menu.
+Recommended install is via the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) found under the **Tools → Addon Manager** menu.
 
 ## References
 

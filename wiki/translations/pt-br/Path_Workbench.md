@@ -23,7 +23,7 @@ O fluxo de trabalho da bancada Path do FreeCAD Path cria essas instruções de m
 -   Um modelo 3D é o objeto base, normalmente criado usando uma ou mais das Bancadas de trabalho [ Part Design](PartDesign_Workbench/pt-br.md), [ Part](Part_Workbench/pt-br.md) ou [ Draft](Draft_Workbench/pt-br.md).
 -   Um _ e segue certos comandos controlando a velocidade e os movimentos (geralmente G-Code).
 -   As ferramentas são selecionadas conforme exigido pelas operações do trabalho.
--   Os caminhos de fresagem são criados usando, por exemplo, operações [ Contorno](Path_Profile/pt-br.md) e [ Corte](Path_Pocket_3D/pt-br.md). Estes [ Objetos de caminho](Path_objects/pt-br.md) usam o dialeto interno do G-Code do FreeCAD, independente da máquina CNC.
+-   Os caminhos de fresagem são criados usando, por exemplo, operações [ Contorno](Path_Profile/pt-br.md) e [ Corte](Path_Pocket_3D/pt-br.md). Estes Objetos de caminho usam o dialeto interno do G-Code do FreeCAD, independente da máquina CNC.
 -   Exporte o trabalho com um G-Code, correspondente à sua máquina. Essa etapa é chamada de \"pós-processamento\"; existem diferentes pós-processadores disponíveis.
 
 
@@ -69,11 +69,17 @@ A bancada de trabalho Path tem dependências externas, incluindo:
 
 ## Limitações
 
-Algumas das limitações atuais das quais você deve estar ciente são: A maioria das ferramentas Path Tools não são verdadeiras ferramentas 3D, mas apenas 2.5D capazes. Isto significa que elas assumem uma forma 2D fixa e podem cortá-lo até uma determinada profundidade. Entretanto, existem duas ferramentas que produzem verdadeiros caminhos em 3D:**<img src="images/Path_3DPocket.svg" width=24px> [Fenda 3D](Path_Pocket_3D/pt-br.md)** e **<img src="images/Path_3DSurface.svg" width=24px> [Superfície 3D](Path_3DSurface/pt-br.md)** (que ainda é um [recurso experimental](Path_experimental/pt-br.md) a partir de novembro 2020).
+
+<div class="mw-translate-fuzzy">
+
+Algumas das limitações atuais das quais você deve estar ciente são: A maioria das ferramentas Path Tools não são verdadeiras ferramentas 3D, mas apenas 2.5D capazes. Isto significa que elas assumem uma forma 2D fixa e podem cortá-lo até uma determinada profundidade. Entretanto, existem duas ferramentas que produzem verdadeiros caminhos em 3D:**<img src="images/Path_3DPocket.svg" width=24px> [Fenda 3D](Path_Pocket_3D/pt-br.md)** e **<img src="images/Path_Surface.svg" width=24px> [Superfície 3D](Path_Surface/pt-br.md)** (que ainda é um [recurso experimental](Path_experimental/pt-br.md) a partir de novembro 2020).
 
 -   A maior parte da bancada de trabalho Path foi projetada para uma fresa/router CNC de 3 eixos (xyz) simples e padrão, mas as ferramentas de torno estão em desenvolvimento em 0,19\_pre.
--   A maioria das operações na bancada de trabalho Path retornará caminhos baseados apenas em uma ferramenta padrão de fresa/bit, independentemente do tipo de ferramenta/bit atribuído em um determinado controlador de ferramentas, com exceção dos **<img src="images/Path_Engrave.svg" width=24px> [Gravação](Path_Engrave/pt-br.md)** e **<img src="images/Path_3DSurface.svg" width=24px> [Superfície 3D](Path_3DSurface/pt-br.md)** operações.
+-   A maioria das operações na bancada de trabalho Path retornará caminhos baseados apenas em uma ferramenta padrão de fresa/bit, independentemente do tipo de ferramenta/bit atribuído em um determinado controlador de ferramentas, com exceção dos **<img src="images/Path_Engrave.svg" width=24px> [Gravação](Path_Engrave/pt-br.md)** e **<img src="images/Path_Surface.svg" width=24px> [Superfície 3D](Path_Surface/pt-br.md)** operações.
 -   As operações dentro da bancada de trabalho Path não estão conscientes dos mecanismos de fixação em uso para fixar o modelo à sua máquina. Consequentemente, por favor, revise e simule os caminhos que você gera antes de enviar o código para sua máquina. Se necessário, modele seus mecanismos de fixação no FreeCAD a fim de inspecionar melhor os caminhos gerados. Procure por possíveis colisões com grampos ou outros obstáculos ao longo dos caminhos.
+
+
+</div>
 
 ## Unidades
 
@@ -133,7 +139,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Path_PostProcess.svg  style="width:32px;"> [Pós-processar](Path_PostProcess/pt-br.md): Exporta um projeto para o G-Code.
+-   <img alt="" src=images/Path_Post.svg  style="width:32px;"> [Pós-processar](Path_Post/pt-br.md): Exporta um projeto para o G-Code.
 
 
 </div>
@@ -285,7 +291,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Path_3DSurface.svg  style="width:32px;"> [Superfície 3D](Path_3DSurface/pt-br.md): Cria um caminho para uma superfície 3D.(experimental, 0.19)
+-   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> [Superfície 3D](Path_Surface/pt-br.md): Cria um caminho para uma superfície 3D.(experimental, 0.19)
 
 
 </div>

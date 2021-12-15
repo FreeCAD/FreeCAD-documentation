@@ -4,6 +4,7 @@
 
 {{Macro/cs
 |Name=MessageBox
+|Icon=Macro MessageBox.png
 |Translate=MessageBox
 |Description=Ukazuje jak uživateli dávat informace v makrech.
 |Author=Gaël Ecorchard

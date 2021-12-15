@@ -75,7 +75,8 @@ Dla geometrii 2D większość obiektów pochodzi z _)*, która jest podstawą Ś
 
 ## Działania
 
-Działania w zakresie widoku właściwości zostały wdrożone w wersji **0.19**.
+
+{{Version/pl|0.19}}
 
 Kliknięcie prawym przyciskiem myszy w pustym miejscu widoku lub z wybraną właściwością powoduje wyświetlenie tylko jednego polecenia:
 
@@ -116,11 +117,11 @@ Większość z tych właściwości jest dziedziczona z obiektu podstawowego [Par
 
 <img alt="" src=images/FreeCAD_Property_editor_View.png  style="width:490px;"> {{TitleProperty|Base}}
 
--    **Angular Deflection**: jest to sposób na określenie, jak dokładnie wygenerować siatkę do renderowania na ekranie lub przy eksporcie. Domyślną wartość stanowi 28,5 stopnia lub 0,5 radiana. Im mniejsza wartość, tym gładszy będzie wygląd w [3D view](widok_3D.md), oraz tym gęstsza siatka będzie eksportowana.
+-    **Angular Deflection**: jest to sposób na określenie, jak dokładnie wygenerować siatkę do renderowania na ekranie lub przy eksporcie. Domyślną wartość stanowi 28,5 stopnia lub 0,5 radiana. Im mniejsza wartość, tym gładszy będzie wygląd w [widok 3D](3D_view.md), oraz tym gęstsza siatka będzie eksportowana.
 
 -    **Bounding Box**: określa, czy wyświetlana jest ramka pokazująca ogólny obszar obiektu.
 
--    **Deviation**: ustawia precyzję reprezentacji wielokątnej modelu w oknie [widoku 3D](D_view.md) *(teselacja)*. Niższe wartości wskazują na lepszą jakość. Wartość jest wyrażona w procentach wielkości obiektu.
+-    **Deviation**: ustawia precyzję reprezentacji wielokątnej modelu w oknie [widoku 3D](3D_view.md) *(teselacja)*. Niższe wartości wskazują na lepszą jakość. Wartość jest wyrażona w procentach wielkości obiektu.
 
 -    **Styl wyświetlania**: tryb wyświetlania całej bryły, {{Value|Linie konturu}} *(domyślnie)*, {{Value|Zacieniony}}, {{Value|Szkielet}}, {{Value|Punkty}}.
 

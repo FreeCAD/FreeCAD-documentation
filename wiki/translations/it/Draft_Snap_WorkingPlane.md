@@ -45,7 +45,7 @@ Questo metodo posiziona sempre un nuovo punto sull\'attuale [piano di lavoro](Dr
 <div class="mw-translate-fuzzy">
 
 1.  Accertarsi che il piano di lavoro sia impostato con **<img src="images/Draft_SelectPlane.svg" width=16px> [Seleziona il piano di lavoro](Draft_SelectPlane/it.md)**.
-2.  Accertarsi che **<img src="images/Snap_Lock.svg" width=16px> [Aggancia](Draft_ToggleSnap/it.md)** e **<img src="images/Snap_WorkingPlane.svg" width=16px> [Piano di lavoro](Draft_WorkingPlane/it.md)** siano attivati.
+2.  Accertarsi che **<img src="images/Draft_Snap_Lock.svg" width=16px> [Aggancia](Draft_Snap_Lock/it.md)** e **<img src="images/Draft_Snap_WorkingPlane.svg" width=16px> [Piano di lavoro](Draft_Snap_WorkingPlane/it.md)** siano attivati.
 3.  Facoltativamente, attivare qualsiasi altro metodo di [Aggancio](Draft_Snap/it.md).
 4.  Scegliere uno strumento Draft per disegnare una forma.
 5.  Spostare il cursore su qualsiasi linea, bordo, vertice o oggetto, come si farebbe con altri metodi di aggancio.

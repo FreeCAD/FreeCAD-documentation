@@ -1,6 +1,13 @@
-# WebTools Git/ro
 ---
-- GuiCommand:   Name:Arch Git‏‎   Workbenches:[[Arch_Workbench/ro   Arch]]|MenuLocation:Arch → Utilities → Git   Shortcut:‏‎   SeeAlso:---
+- GuiCommand:
+   Name:WebTools Git‏‎
+   Workbenches:[Arch](Arch_Workbench/ro.md)
+   MenuLocation:Arch → Utilities → Git
+   Shortcut:
+   SeeAlso:
+---
+
+# WebTools Git/ro
 
 
 </div>
@@ -86,7 +93,7 @@ Git este un instrument complex, înainte de a folosi acest instrument să ia în
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD [Fcstd format de fișier](Fcstd_format_de_fișier.md) este un format binar bazat pe zip, pentru care Git nu poate produce diferențe corecte. Aceasta înseamnă că nu puteți vedea ce s-a schimbat între o versiune și o altă versiune și că fiecare nouă versiune stocată în repozitoriul Git este o copie completă a fișierului.
+FreeCAD [Fcstd format de fișier](File_Format_FCStd/ro.md) este un format binar bazat pe zip, pentru care Git nu poate produce diferențe corecte. Aceasta înseamnă că nu puteți vedea ce s-a schimbat între o versiune și o altă versiune și că fiecare nouă versiune stocată în repozitoriul Git este o copie completă a fișierului.
 
 
 </div>

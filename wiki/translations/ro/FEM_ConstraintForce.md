@@ -42,30 +42,9 @@ Această comandă aplică o forță de valoare dată \[N\] la geometria țintei 
 
 </div>
 
+## Notes
 
-<div class="mw-translate-fuzzy">
-
-2\) Applying a force in to line in selected direction
-
--   -   In FEM workbench, click on <img alt="Constraint Force" src=images/FEM_ConstraintForce.png  style="width:24px;"> or select **Model** → **Mechanical Constraints** → **Constraint force** to open Force Constraint properties dialog
-
-    -   If you have Mesh displayed, you need to hide it (select the mesh object and press **spacebar** or right click and select **Hide item**) and show the original model.
-
-    -   Click on a *line segment* to which a force should be applied. It will appear in the list of geometrical objects.
-
-    -   Fill in **Area load** with a force value in \[N\]
-
-    -   
-        **Direction**
-        
-        : Acum, cu segmentul de linie selectat, probabil că forța este aplicată într-o direcție greșită. Trebuie să specificăm direcția făcând clic pe butonul **Direction** și apoi făcând clic pe o fațetă care indică direcția sa normală în direcția forței (sau direcția inversă). Din nou, puteți reveni la direcția forței făcând clic pe **Reverse direction**.
-
-![](images/FEMforceonline.PNG )
-
--   -   Click pe **Close** pentru a încheia dealogul și a crea obiectul **<img src=images/FEM_ConstraintForce.png style="width:24px"> ConstraintForce**
-
-
-</div>
+Defined force is applied uniformly to selected objects. For example, if you define one force constraint with 200 N applied to two faces having the same area, each face will be uniformly loaded with 100 N.
 
 
 

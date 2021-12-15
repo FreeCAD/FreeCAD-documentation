@@ -5,8 +5,6 @@ Ci-dessous vous trouverez une collection de tutoriels vidéos faite par les util
 
 Consultez la page _.
 
-Consultez la page [didacticiels externes](offsite_tutorials/fr.md) pour avoir une liste des didacticiels hébergés sur des sites externes.
-
 Si vous souhaitez contribuer à la rédaction de la documentation et des didacticiels du wiki, voir [Aider FreeCAD](Help_FreeCAD/fr.md), reportez-vous aux instructions générales du wiki dans [WikiPages (en)](WikiPages.md) et suivez les [recommandations pour didacticiel (en)](tutorial_guidelines.md).
 
 ## Conception de produit 
@@ -58,7 +56,7 @@ Puisqu\'il existe de nombreuses vidéos traitant de ce sujet, vous pouvez vous r
 
 ## Autres
 
--   _ qui peut être installé à partir du <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md).
+-   _ qui peut être installé à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
 -   [FreeCAD Tutorials - GENERAL](https://www.youtube.com/watch?v=WdBQPXeAeMc&list=PLKu--JcOZKTPZjy761ELQ7ba45yZmxOpj) par AllVisuals4U: FreeCAD 0.16, une série de 28 courtes vidéos sur les aspects généraux de FreeCAD; par exemple, il montre comment changer les unités, la couleur d\'arrière-plan, l\'écran de démarrage, les contraintes, définir la vue en perspective, définir la transparence, modifier la taille des icônes de la barre d\'outils, préparer l\'impression 3D et extruder le texte. Certaines instructions plus avancées incluent la création de logo, le pliage du métal et l\'assemblage. La plupart des vidéos décrivent FreeCAD 0.16, mais comme elles ne se concentrent pas sur les aspects de modélisation, les informations sont généralement applicables pour d\'autres versions.
 

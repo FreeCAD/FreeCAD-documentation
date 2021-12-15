@@ -18,7 +18,7 @@
 
 1.  Press the **<img src="images/PartDesign_SubtractivePipe.svg" width=24px> '''Subtractive pipe'''** button.
 2.  In the **Select feature** dialog, select a sketch to be used as first cross-section and click **OK**.
-    -   Alternatively, a single sketch can be selected prior to pressing the Subtractive pipe button.
+    -   Alternatively, a sketch or a face of a 3D object (<small>(v0.20)</small> ) can be selected prior to pressing the Subtractive pipe button.
 3.  In the **Pipe parameters** under **Profile**, press the **Object** button.
 4.  Select the sketch to be used as path in the 3D view:
     -   Alternatively, edges of the body can be selected by pressing **Add Edge** and selecting edges in the 3D view.
@@ -76,12 +76,18 @@
 
 -    **Transformation**: *Constant* uses a single cross-section. *Multisection* uses two or more cross-sections. *Linear*, *S-shape* and *Interpolation* are currently not functional.
 
-## Ограничения
+## Notes
+
+
+<div class="mw-translate-fuzzy">
 
 -   Эскизы, используемые для поперечных сечений, должны образовывать замкнутые профили.
 -   Невозможно использовать вершину в качестве поперечного сечения.
 -   Поперечное сечение не может лежать в той же плоскости, что и непосредственно предшествующее ему.
 -   Чтобы лучше контролировать форму трубы, рекомендуется, чтобы все поперечные сечения имели одинаковое количество сегментов. Например, для трубы между прямоугольником и окружностью окружность может быть разбита на 4 соединенные дуги.
+
+
+</div>
 
 
 

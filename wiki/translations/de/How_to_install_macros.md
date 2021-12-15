@@ -124,7 +124,13 @@ Der `$ROOT_DIR` könnte das Verzeichnis eines bestimmten Benutzers sein.
 
 ### Automatische Methode 
 
-Ab FreeCAD 0.17 verwende den [Zusatzmanager](Addon_Manager.md) in {{MenuCommand/de|Werkzeuge → Zusatzmanager}}, um ein Makro zu installieren, das in das [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros) Repositorium aufgenommen wurde.
+
+<div class="mw-translate-fuzzy">
+
+Ab FreeCAD 0.17 verwende den [Zusatzmanager](Std_AddonMgr.md) in {{MenuCommand/de|Werkzeuge → Zusatzmanager}}, um ein Makro zu installieren, das in das [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros) Repositorium aufgenommen wurde.
+
+
+</div>
 
 
 <div class="mw-collapsible-content">
@@ -134,7 +140,13 @@ In früheren Versionen von FreeCAD konntest du zwei automatisierte Wege nutzen, 
 -   [addons\_installer.FCMacro](https://github.com/FreeCAD/FreeCAD-addons): selbst ein Makro, dies war der Vorläufer des Zusatzmanagers, und wird im [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons) Repositorium beherbergt. Bei Neuinstallationen von FreeCAD muss dieses Tool nicht verwendet werden.
 -   [freecad-pluginloader](https://github.com/microelly2/freecad-pluginloader): ebenfalls ein Makro, es kann verwendet werden, um neue Komponenten in FreeCAD zu installieren. Es wird nicht mehr weiterentwickelt.
 
-Der empfohlene Weg, Zusätze, d.h. [externe Arbeitsbereiche](external_workbenches/de.md) und Makros zu installieren, ist der [Zusatzmanager](Addon_Manager.md). Du kannst jedoch immer noch Makros mit den in den folgenden Abschnitten beschriebenen manuellen Methoden zu deinem System hinzufügen; dies ist nützlich, wenn du deinen eigenen Code entwickelst und testest.
+
+<div class="mw-translate-fuzzy">
+
+Der empfohlene Weg, Zusätze, d.h. [externe Arbeitsbereiche](external_workbenches/de.md) und Makros zu installieren, ist der [Zusatzmanager](Std_AddonMgr.md). Du kannst jedoch immer noch Makros mit den in den folgenden Abschnitten beschriebenen manuellen Methoden zu deinem System hinzufügen; dies ist nützlich, wenn du deinen eigenen Code entwickelst und testest.
+
+
+</div>
 
 
 </div>

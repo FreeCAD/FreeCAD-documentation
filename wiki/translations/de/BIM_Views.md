@@ -1,6 +1,7 @@
 ---
 - GuiCommand:Addon/de
-   Name:BIM Ansichten
+   Name:BIM Views
+   Name/de:BIM Ansichten
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
    Addon:BIM
    MenuLocation:Verwalten → Ansichten
@@ -31,11 +32,6 @@ Der BIM Ansichtenverwalter zeigt alle Ebenen (Gebäudeteile) und Arbeitsebenen P
 -   Anklicken der **Isolate**-Schaltfläche schaltet alle Ebenen aus bis auf die ausgewählte
 -   Anklicken der **Save camera position**-Schaltfläche speichert die aktuellen Ansichteinstellungen im ausgewählten Objekt, um sie beim Setzen der **Restore View**-Eigenschaft auf {{PropertyData/de|True}} wiederherzustellen
 -   Anklicken der **Rename**-Schaltfläche erlaubt das Umbenennen eine ausgewählten Objekts
-
-
-{{BIM Tools navi
-
-}}
 
 _
 

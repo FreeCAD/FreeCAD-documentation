@@ -4,12 +4,12 @@
 |Level=Basic skills of Python and svg-structures are helpful
 |FCVersion=0.19.1 and later
 |Time=(I don't know yet)
-|Author=[[User:FBXL5]]
+|Author=_
 }}
 
 ## Introduction
 
-This tutorial is describes how to generate a simple template to use with the TechDraw workbench out of some lines of Python code.
+This tutorial describes how to generate a simple template to use with the TechDraw workbench out of some lines of Python code.
 
 Any text editor can be used to code. My choice is Atom, but FreeCAD\'s built-in editor works well, too.
 
@@ -519,8 +519,6 @@ And this is the svg-code coming out of this macro:
 And what it should look like when inserted (plus magnified title block):
 
 ![TechDraw TemplateGenerator.png](images/TechDraw_TemplateGenerator.png )
-
-_
 
 ---
 [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateGenerator/en

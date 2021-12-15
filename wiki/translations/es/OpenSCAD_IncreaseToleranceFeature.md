@@ -1,6 +1,13 @@
-# OpenSCAD IncreaseToleranceFeature/es
 ---
-- GuiCommand:/es   Name:OpenSCAD IncreaseTolerance‏‎    MenuLocation:OpenSCAD → Increase Tolerance Feature‏‎   |Workbenches:[[OpenSCAD_Workbench/es   OpenSCAD]]|Shortcut:none   SeeAlso:------
+- GuiCommand:/es
+   Name:OpenSCAD IncreaseTolerance‏‎Feature
+   MenuLocation:OpenSCAD → Increase Tolerance Feature‏‎
+   Workbenches:[OpenSCAD](OpenSCAD_Workbench/es.md)
+   Shortcut:
+   SeeAlso:
+---
+
+# OpenSCAD IncreaseToleranceFeature/es
 
 
 </div>

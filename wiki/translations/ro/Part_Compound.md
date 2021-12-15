@@ -1,6 +1,12 @@
-# Part Compound/ro
 ---
-- GuiCommand:   Name:Part MakeCompound‏‎   MenuLocation:Part → Make compound   Workbenches:[[Part Workbench   Part]]|SeeAlso:---
+- GuiCommand:
+   Name:Part Compound
+‏‎   MenuLocation:Part → Make compound
+   Workbenches:[Part](Part_Workbench.md)
+   SeeAlso:
+---
+
+# Part Compound/ro
 
 
 </div>

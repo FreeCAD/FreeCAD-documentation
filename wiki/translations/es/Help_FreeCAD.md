@@ -10,11 +10,17 @@ Si te gusta FreeCAD y quieres ayudar a su desarrollo, además de [Donación dire
 
 Ayúdanos a construir, corregir y extender esta documentación. Corrige errores, extiende o corrige páginas que no estén claras, crea nuevas páginas si falta un tema, etc. Contribuir al wiki de FreeCAD es fácil, en [WikiPages](WikiPages.md) puedes encontrar las directrices generales y la ayuda necesaria para empezar. Para editar el wiki, necesitarás una cuenta wiki con permisos de \"Editor\" (el wiki está protegido contra escritura para evitar el spam). Puedes solicitar una cuenta [en el foro](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830) o en el [canal IRC](https://wiki.freecadweb.org/Help#Chat). Por favor, ten en cuenta que el canal IRC puede no ser tan receptivo como el foro. [El foro oficial de FreeCAD](https://forum.freecadweb.org) debería ser el lugar principal para hacer preguntas y comenzar discusiones, ya que ayudará a preservar la experiencia y el conocimiento de la comunidad.
 
+
+<div class="mw-translate-fuzzy">
+
 Algunas áreas en las que será bienvenido tu trabajo:
 
 -   La página _ lista y documenta todos los FreeCAD [comandos](command/es.md). La mayoría de ellos contienen poca o ninguna información. Por favor, consulta [WikiPáginas](WikiPages/es.md) para ver buenos ejemplos de cómo deberían ser las páginas de documentación de comandos.
 -   La sección [Tutorials](Tutorials/es.md) necesita ejemplos sobre cómo usar los ambientes de trabajo. Si desarrollaste algo genial con FreeCAD, ¿por qué no documentar cómo lo hiciste para la posteridad?
--   Hay tickets abiertos en el [bugtracker](bugtracker/es.md) de FreeCAD etiquetados como [\"documentation\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) que podrían necesitar algo de amor.
+-   Hay tickets abiertos en el [bugtracker](Tracker/es.md) de FreeCAD etiquetados como [\"documentation\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) que podrían necesitar algo de amor.
+
+
+</div>
 
 ## Comparte tus conocimientos de FreeCAD 
 

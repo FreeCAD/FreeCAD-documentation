@@ -103,13 +103,13 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 -   Dacă analiza este activată, FreeCAD va schimba bancul de lucru curent cu FEM.
 -   Există cel puțin cele 5 obiecte necesare pentru a efectua o analiză mecanică statică.
--   _ container de analiză
+-   ![ 32px](images/_FEM_Analysis.svg ) container de analiză
 
-1.  _ un solver
-2.  _ un material
-3.  ![ 32px](images/_FEM_FixedConstraint.png ) o constrângere fixă
-4.  ![ 32px](images/_FEM_ForceConstraint.png ) o constrângere de forță
-5.  _ FEM mesh
+1.  ![ 32px](images/_FEM_SolverCalculixCxxtools.svg ) un solver
+2.  ![ 32px](images/_FEM_MaterialSolid.svg ) un material
+3.  ![ 32px](images/_FEM_ConstraintFixed.svg ) o constrângere fixă
+4.  ![ 32px](images/_FEM_ConstraintForce.svg ) o constrângere de forță
+5.  ![ 32px](images/_FEM_FEMMesh.svg ) FEM mesh
 
 -   Deoarece în exemplul de aici sunt incluse rezultatele și există un al șaselea obiect, rezultatele ![ 16px](images/_FEM_ShowResult.png ).
 
@@ -195,7 +195,7 @@ Acest exemplu este menit să arate o analiză simplă a elementelor finite (AEF)
 
 #### Schimbarea direcției de încărcare și a valorii de încărcare 
 
--   În vizualizarea arborescentă selectați obiectul mesh FEM ![ 32px](images/_FEM_Create.png ) și apăsați tasta spațiu.
+-   În vizualizarea arborescentă selectați obiectul mesh FEM ![ 32px](images/FEM_FEMMesh.svg ) și apăsați tasta spațiu.
 -   Vizibilitatea rețelei FEM va fi oprită. Modelul geometric este încă vizibil.
 -   În vizualizarea arborescentă faceți dublu clic pe obiectul de constrângere de forță pentru a deschide fereastra de sarcini.
 -   În fereastra de sarcini se modifică valoarea de încărcare la 500000000 N = 500 MN (forța în fereastra de sarcină trebuie să fie în N)
@@ -212,7 +212,7 @@ Săgețile roșii ale forței își vor schimba direcția.
 
 <img alt="" src=images/FEM_example01_pic05.jpg  style="width:700px;">
 
--   Întoarceți vizibilitatea mesei FEM <img alt="" src=images/FEM_Create.png  style="width:32px;"> pe pagină.
+-   Întoarceți vizibilitatea mesei FEM <img alt="" src=images/FEM_FEMMesh.svg  style="width:32px;"> pe pagină.
 -   Acum știți deja cum să declanșați o analiză și cum să vizualizați rezultatele.
 
 Deformarea în direcția x trebuie să fie de 19,05 mm.

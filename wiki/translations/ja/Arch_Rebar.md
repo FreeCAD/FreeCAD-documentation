@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Rebarツールを使用すると、_ /[スケッチや](スケッチャーモジュール.md)[draft objects](Draft_Workbench.md)/[ドラフトオブジェクトなどの](ドラフトモジュール.md)2Dプロファイルに基づいており、構造オブジェクトの面に描画する必要があります。バーの数や直径、または構造要素の両端のオフセット距離など、リバーの構成を調整することができます。
+Rebarツールを使用すると、_ /[スケッチや](Sketcher_Workbench.md)[draft objects](Draft_Workbench.md)/[ドラフトオブジェクトなどの](Draft_Workbench.md)2Dプロファイルに基づいており、構造オブジェクトの面に描画する必要があります。バーの数や直径、または構造要素の両端のオフセット距離など、リバーの構成を調整することができます。
 
 
 </div>
@@ -39,7 +39,7 @@ Rebar objects are based on 2D profiles such as [Draft objects](Draft_Workbench.m
 
 ## 利用可能なエクステンション
 
-The Rebar tool is enhanced by the [Reinforcement Workbench](Reinforcement_Workbench.md), which is installed by the [Addon Manager](Addon_Manager.md). The additional rebar types available with the addon are:
+The Rebar tool is enhanced by the [Reinforcement Workbench](Reinforcement_Workbench.md), which is installed by the [Addon Manager](Std_AddonMgr.md). The additional rebar types available with the addon are:
 
 -   <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Straight Rebar](Arch_Rebar_Straight.md)
 -   <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [UShape Rebar](Arch_Rebar_UShape.md)
@@ -105,7 +105,7 @@ Although normally a rebar is used inside an Arch Structure, since FreeCAD 0.19 t
 
 <div class="mw-translate-fuzzy">
 
-Rebarツールは、[macros](macros.md)/[マクロやPythonコンソールから次の関数を使って使うことができます](マクロ.md)：
+Rebarツールは、[マクロやPythonコンソールから次の関数を使って使うことができます](macros.md)：
 
 
 </div>

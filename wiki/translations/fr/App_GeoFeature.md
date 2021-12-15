@@ -108,7 +108,7 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
 [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](scripted_objects/fr.md).
 

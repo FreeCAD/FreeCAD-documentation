@@ -35,7 +35,7 @@ Où `$INSTALL_DIR` est le dossier d\'installation de FreeCAD, par exemple
 
 Vous pouvez spécifier vos valeurs préférées par défaut dans [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
-## Chemin d\'accès LineGroup 
+## Chemin de LineGroup 
 
 -   **Windows**: `C:\Program Files\FreeCAD\data\Mod\TechDraw\LineGroup\`
 -   **Mac**: `/Applications/FreeCAD.app/Contents/Mod/TechDraw/LineGroup/`

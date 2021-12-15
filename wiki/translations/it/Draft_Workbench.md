@@ -72,7 +72,7 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [ShapeString](Draft_ShapeString.md): creates a compound shape that represents a text string.
 
--   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the faces of a selected object. <small>(v0.20)</small> 
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the planar faces of a selected object. <small>(v0.20)</small> 
 
 ## Annotation
 
@@ -183,7 +183,7 @@ La barra degli strumenti di [Aggancio](Draft_Snap/it.md) consente di selezionare
 
 -   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Snap Endpoint](Draft_Snap_Endpoint.md): snaps to the endpoints of edges.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of straight and circular edges.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of edges.
 
 -   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ and [Arch BuildingParts](Arch_BuildingPart.md).
 
@@ -244,10 +244,8 @@ Strumenti aggiuntivi disponibili dal menu **Draft → Utilità** o tramite il me
 
 <div class="mw-translate-fuzzy">
 
--   [Digitare le coordinate](Draft_Coordinates/it.md): permette di inserire le coordinate invece di fare clic sulla vista 3D per definire un nuovo punto.
 -   [Vincolare](Draft_Constrain/it.md): limita il puntatore nei movimenti orizzontali o verticali rispetto a un punto precedente.
 -   [Ancorare (Snap)](Draft_Snap/it.md): posiziona nuovi punti su posti speciali su oggetti esistenti o sulla griglia.
--   [Modalità copia](Draft_Copying/it.md): Tutti gli strumenti di modifica possono modificare gli oggetti selezionati o crearne una copia modificata. Tenendo premuto **Alt** durante la modifica dell\'oggetto, ad es. spostato o ruotato, crea una copia quando si rilascia il tasto.
 -   [Modalità costruzione](Draft_ToggleConstructionMode/it.md): Permette di creare geometrie separate dalle altre semplicemente attivandola o disattivandola.
 -   [Piano di lavoro](Draft_SelectPlane/it.md): consente di selezionare una superficie nello spazio 3D su cui lavorare.
 
@@ -274,9 +272,9 @@ For a [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft Cub
 
 For a [Draft LayerContainer](Draft_Layer.md) these additional options are available:
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> Merge layer duplicates: this option currently does not work.
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Merge layer duplicates](Draft_Layer#Layer_container_options.md): merges all layers with the same base label. This does not work in FreeCAD version 0.19.
 
--   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer.md): adds a new layer to the current document.
+-   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer#Layer_container_options.md): adds a new layer to the current document.
 
 ### Layer options 
 
@@ -308,16 +306,7 @@ If there is an active document the context menu contains one additional sub-menu
 
 Questi strumenti sono stati rimossi dall\'interfaccia in v0.19 perché non avevano più alcuno scopo.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Draft_VisGroup.svg  style="width:32px;"> [VisGruppo](Draft_VisGroup/it.md): crea nel documento corrente un gruppo di elementi con le stesse proprietà Vista. {{Obsolete/it|0.19}}
--   <img alt="" src=images/Draft_FinishLine.svg  style="width:32px;"> _ o [BSpline](Draft_BSpline/it.md), senza chiuderla. {{Obsolete/it|0.19}}
--   <img alt="" src=images/Draft_CloseLine.svg  style="width:32px;"> _ o [BSpline](Draft_BSpline/it.md), e la chiude. {{Obsolete/it|0.19}}
--   <img alt="" src=images/Draft_UndoLine.svg  style="width:32px;"> _. {{Obsolete/it|0.19}}
-
-
-</div>
+-   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> _ or a [circular array](Draft_CircularArray.md) by changing its **Array Type** property. {{Obsolete|0.19}}
 
 -   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> _ page. {{Obsolete|0.17}}
 
@@ -361,10 +350,7 @@ Queste sono le funzioni per l\'apertura, l\'importazione o l\'esportazione di al
 
 <div class="mw-translate-fuzzy">
 
-
-**Vedere anche:**
-
-[Ambiente Test](Test_Workbench/it.md).
+Vedere anche: [Ambiente Test](Testing/it.md).
 
 
 </div>
@@ -424,7 +410,6 @@ Ispezionare il codice di questo modulo è utile per capire come utilizzare l\'in
 ## Tutorial
 
 -   [Draft tutorial](Draft_tutorial/it.md)
--   [Draft tutorial obsoleto](Draft_tutorial_Outdated/it.md)
 -   [Draft ShapeString tutorial](Draft_ShapeString_tutorial/it.md)
 
 

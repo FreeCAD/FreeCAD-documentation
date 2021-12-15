@@ -46,7 +46,7 @@ Questi strumenti permettono di creare, configurare e esportare le proiezioni dei
 
 ## Flusso di lavoro 
 
-Il documento contiene un oggetto di forma 3D (Schenkel) da si vuole produrre un disegno. Pertanto viene creata una \"Pagina\". Una pagina è istanziata da un modello, ad esempio il modello \"A3\_Landscape\". Il modello è un documento [SVG](SVG/i.md) che può contenere una cornice di pagina, un logo e altri elementi.
+Il documento contiene un oggetto di forma 3D (Schenkel) da si vuole produrre un disegno. Pertanto viene creata una \"Pagina\". Una pagina è istanziata da un modello, ad esempio il modello \"A3\_Landscape\". Il modello è un documento [SVG](SVG/it.md) che può contenere una cornice di pagina, un logo e altri elementi.
 
 Nella pagina si possono inserire una o più viste. Ogni vista ha una posizione nella pagina, un fattore di scala (proprietà di scala) e delle proprietà aggiuntive. Ogni volta che la pagina, la vista o l\'oggetto a cui si fa riferimento subiscono delle modifiche, la pagina viene rigenerata e viene anche aggiornata la sua visualizzazione.
 

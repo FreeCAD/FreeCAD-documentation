@@ -1,17 +1,28 @@
 # Installing on Windows/id
+<div class="mw-translate-fuzzy">
+
 Cara termudah untuk menginstal FreeCAD di Windows adalam dengan mengunduh installer dibawah ini.
 
 
 {{DownloadWindowsStable}}
 
 
+</div>
+
+
 {{DownloadWindowsStable}}
+
+
+<div class="mw-translate-fuzzy">
 
 Setelah pengunduhan file msi (Microsoft Installer) selesai, cukup dobel klik file tersebut untuk memulai proses instalasi.
 
 \.....Konversi bahasa belum selesai\...\...
 
-Below is more information about some technical options. Nevertheless, most users don\'t need more than the above .exe files. Head to [Get started](Getting_started.md) after installation is complete.
+
+</div>
+
+Below is more information about some technical options. But most users don\'t need more than the above .exe file. Head to [Getting started](Getting_started.md) after installation is complete.
 
 ## Simple NSIS Installer Installation 
 

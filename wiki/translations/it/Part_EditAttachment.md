@@ -307,7 +307,7 @@ Allegato Spostamento viene utilizzato per applicare uno spostamento lineare o ro
 
 ## Limitazioni
 
--   I contenitori [Part](Std_Part/it.md) e [Corpo](PartDesign_BodyIt.md) non sono supportati. Mentre è possibile usare Allegato per allinearli, l\'allegato non sarà collegato parametricamente.
+-   I contenitori [Part](Std_Part/it.md) e [Corpo](PartDesign_Body/it.md) non sono supportati. Mentre è possibile usare Allegato per allinearli, l\'allegato non sarà collegato parametricamente.
 -   Se selezionando due linee si ottiene un traceback con \"i punti sono collineari. Non si può fare un piano\", prova invece a selezionare tre punti [1](https://forum.freecadweb.org/viewtopic.php?f=8&t=55088&p=473614#p473594).
 
 !!FUZZY!!

@@ -1,6 +1,14 @@
-# Ship Outline/it
 ---
-- GuiCommand:/it   Name:Ship Outline   Name/it:Contorno   MenuLocation:Ship design → Disegno del contorno   |Workbenches:[[Ship Workbench/it   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:/it
+   Name:Ship Outline
+   Name/it:Contorno   MenuLocation:Ship design → Disegno del contorno
+   Icon:Ship_OutlineDraw.svg
+   Workbenches:[Ship](Ship_Workbench/it.md)
+   Shortcut:
+   SeeAlso:
+---
+
+# Ship Outline/it
 
 
 </div>

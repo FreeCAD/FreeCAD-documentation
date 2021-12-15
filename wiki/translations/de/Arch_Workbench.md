@@ -44,10 +44,16 @@ Dies sind Werkzeuge zum Erstellen von Architekturobjekten.
 -   <img alt="" src=images/Arch_Window.svg  style="width:32px;"> [Fenster](Arch_Window/de.md): Erzeugt ein Fenster im ausgewählten Objekt
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Schnittebene](Arch_SectionPlane/de.md): Fügt eine Schnittebene zum Dokument hinzu
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Achsenwerkzeuge](Arch_CompAxis/de.md): Das Achsen Werkzeug erlaubt dir das Platzieren einer Reihe von Achsen im aktuellen Dokument.
     -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Achsen](Arch_Axis/de.md): Fügt eine 1-Richtungsanordnung von Achsen zum Dokument hinzu
     -   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Achsensystem](Arch_AxisSystem/de.md): Fügt ein aus mehreren Achsen gebildetes Achsensystem dem Dokument hinzu
     -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Gitter](Arch_Grid/de.md): Fügt dem Dokument ein gitterartiges Objekt hinzu
+
+
+</div>
 
 -   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Dach](Arch_Roof/de.md): Erzeugt eine Dachneigung aus der selektierten Fläche
 -   <img alt="" src=images/Arch_Space.svg  style="width:32px;"> [Raum](Arch_Space/de.md): Erstellt ein Raumobjekt im Dokument
@@ -121,7 +127,13 @@ Hier sind zusätzliche Hilfsmittel für spezifische Aufgaben:
 
 ## API
 
+
+<div class="mw-translate-fuzzy">
+
 Der Arch-Arbeitsbereich kann mit den _-Skripten und [Makros](macros/de.md) benutzt werden.
+
+
+</div>
 
 ## Übungen
 

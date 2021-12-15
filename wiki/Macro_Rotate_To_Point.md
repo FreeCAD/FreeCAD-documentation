@@ -21,7 +21,7 @@ Macro to rotate an object on itself with the axis of rotation being either the:
 
 ## Usage
 
-1.  Download the macro from the [Addon Manager](Addon_Manager.md)
+1.  Download the macro from the [Addon Manager](Std_AddonMgr.md)
 2.  Execute the macro
 3.  Select one object
 4.  Choose one of the following orientations:

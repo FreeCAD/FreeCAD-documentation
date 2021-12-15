@@ -45,8 +45,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 <div class="mw-translate-fuzzy">
 
 1.  Premere il pulsante **<img src="images/Draft_Wire.svg" width=16px> [Polilinea](Draft_Wire/it.md)**, o premere i tasti **P** e **L**.
-2.  Selezionare il primo punto nella vista 3D, o digitare le [coordinate](Draft_Coordinates/it.md) e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**.
-3.  Selezionare un punto successivo nella vista 3D, o digitare le coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**.
+2.  Selezionare il primo punto nella vista 3D, o digitare le coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
+3.  Selezionare un punto successivo nella vista 3D, o digitare le coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
 4.  Premere **Esc** o il pulsante **Chiudi** per completare l\'editazione.
 
 
@@ -65,12 +65,12 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 <div class="mw-translate-fuzzy">
 
--   Premere il tasto **A** o il pulsante **<img src="images/Draft_FinishLine.svg" width=12px> [Termina](Draft_FinishLine/it.md)** per finire la polilinea lasciandola aperta.
--   Premere il tasto **O** o il pulsante **<img src="images/Draft_CloseLine.svg" width=12px> [Chiudi](Draft_CloseLine/it.md)** per chiudere la polilinea, prciò viene aggiunto un segmento dall\'ultimo punto al primo per formare una faccia. Per formare una faccia sono necessari almeno tre punti.
--   Premere il tasto **W** o il pulsante **<img src="images/Draft_Wipe.svg" width=12px> [Pulisci](Draft_Wipe/it.md)** per rimuovere i segmenti di linea già posizionati, ma continuare a editare la polilinea dall\'ultimo punto.
+-   Premere il tasto **A** o il pulsante **<img src="images/Draft_FinishLine.svg" width=12px> |Termina** per finire la polilinea lasciandola aperta.
+-   Premere il tasto **O** o il pulsante **<img src="images/Draft_CloseLine.svg" width=12px> Chiudi** per chiudere la polilinea, prciò viene aggiunto un segmento dall\'ultimo punto al primo per formare una faccia. Per formare una faccia sono necessari almeno tre punti.
+-   Premere il tasto **W** o il pulsante **<img src="images/Draft_Wipe.svg" width=12px> Pulisci** per rimuovere i segmenti di linea già posizionati, ma continuare a editare la polilinea dall\'ultimo punto.
 -   Premere il tasto **U** o il pulsante **<img src="images/Draft_SelectPlane.svg" width=12px> [Imposta il piano](Draft_SelectPlane.md)** per adattare il piano di lavoro corrente all\'orientamento dell\'ultimo punto.
 -   Premere il tasto **X**, o **Y** o **Z** dopo un punto per vincolare il prossimo punto sull\'asse dato.
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z.. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [Inserisci punto](Draft_AddPoint/it.md)** quando si hanno i valori desiderati per inserire il punto.
+-   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z.. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
 -   Premere il tasto **R** oppure fare clic sulla casella di controllo per attivare la modalità \"relativo\". Se la modalità relativo è attiva, le coordinate del punto successivo sono relative all\'ultimo; in caso contrario, sono assolute, prese dall\'origine (0,0,0).
 -   Premere il tasto **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Polilinea si riavvia dopo aver terminato la polilinea in costruzione, e consente di disegnare una nuova polilinea senza premere nuovamente il pulsante dello strumento.
 -   Premere il tasto **L** oppure fare clic sulla casella di controllo per attivare la modalità *riempito*. Se la modalità di riempimento è attiva, una polilinea chiusa crea una faccia piena (**Make Face** `True`); in caso contrario, la polilinea chiusa non crea una faccia (**Make Face** `False`).
@@ -80,7 +80,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   Tenere premuto **Ctrl** mentre si disegna per forzare [l\'aggancio](Draft_Snap.md) del proprio punto alla posizione di aggancio più vicina, indipendentemente dalla distanza.
 -   Tenere premuto **Maiusc** mentre si disegna per [vincolare](Draft_Constrain.md) il prossimo punto in orizzontale o in verticale rispetto all\'ultimo.
--   Premere i tasti **Ctrl**+**Z** o premere il pulsante {{button|<img src="images/Draft_UndoLine.svg" width=12px> [Undo](Draft_UndoLine/it.md)}} per annullare l\'ultimo punto.
+-   Premere i tasti **Ctrl**+**Z** o premere il pulsante {{button|<img src="images/Draft_UndoLine.svg" width=12px> Undo}} per annullare l\'ultimo punto.
 -   Premere il tasto **Esc** o il pulsante {{button|Chiudi}} per interrompere il comando corrente; i segmenti di linea già posizionati rimamgono.
 
 
@@ -102,7 +102,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 <div class="mw-translate-fuzzy">
 
-La polilinea può essere modificata facendo doppio clic sull\'elemento nella vista ad albero o premendo il pulsante **<img src="images/Draft_Edit.svg" width=16px> [Modifica](Draft_Edit/it.md)**. Quindi si può spostare i punti in una nuova posizione o fare clic su **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)** o **<img src="images/Draft_DelPoint.svg" width=16px> [rimuovi punto](Draft_DelPoint/it.md)** e quindi fare clic sul wire per aggiungere o rimuovere punti.
+La polilinea può essere modificata facendo doppio clic sull\'elemento nella vista ad albero o premendo il pulsante **<img src="images/Draft_Edit.svg" width=16px> [Modifica](Draft_Edit/it.md)**. Quindi si può spostare i punti in una nuova posizione o fare clic su **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto** o **<img src="images/Draft_DelPoint.svg" width=16px> rimuovi punto** e quindi fare clic sul wire per aggiungere o rimuovere punti.
 
 
 </div>

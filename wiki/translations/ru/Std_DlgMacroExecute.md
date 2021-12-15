@@ -95,7 +95,7 @@ The **Std DlgMacroExecute** command opens the Execute macro dialog box. From thi
 
 ### Дополнения
 
-1.  Press the **Addons...** button to start the [Addon manager](Addon_manager.md).
+1.  Press the **Addons...** button to start the [Addon manager](Std_AddonMgr.md).
 
 ## Примечания
 

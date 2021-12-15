@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/ru
-   Name:Mesh MeshFromShape‏‎
+   Name:Mesh FromPartShape
    Name/ru:Mesh MeshFromShape‏‎
    MenuLocation:Полигональные Сетки → Создать полигональную сетку из фигуры
    Workbenches:[Mesh](Mesh_Workbench/ru.md)

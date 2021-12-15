@@ -85,12 +85,18 @@
 
 -    **Transformation**: *Konstante* verwendet einen einzigen Querschnitt. *Mehrfachschnitt* verwendet zwei oder mehr Querschnitte. *Linear*, *S-förmig* und *Interpolation* sind derzeit nicht funktionsfähig.
 
-## Begrenzungen
+## Notes
+
+
+<div class="mw-translate-fuzzy">
 
 -   Skizzen, die für Querschnitte verwendet werden, müssen geschlossene Profile bilden.
 -   Es ist nicht möglich, einen Knotenpunkt als Querschnitt zu verwenden.
 -   Ein Querschnitt kann nicht auf der gleichen Ebene liegen wie die unmittelbar vorausgehende.
 -   Um die Form des Rohres besser kontrollieren zu können, wird empfohlen, dass alle Querschnitte die gleiche Anzahl von Segmenten haben. Beispielsweise kann bei einem Rohr zwischen einem Rechteck und einem Kreis der Kreis in 4 zusammenhängende Bögen aufgeteilt werden.
+
+
+</div>
 
 
 

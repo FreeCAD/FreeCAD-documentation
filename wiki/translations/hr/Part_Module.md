@@ -23,13 +23,7 @@ Part objects are more complex than mesh objects created with the [Mesh Workbench
 
 The tools are located in the **Part** menu or the **Measure** menu.
 
-
-<div class="mw-translate-fuzzy">
-
-### Primitives
-
-
-</div>
+### Jednostavni
 
 These are tools for creating primitive objects.
 

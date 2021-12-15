@@ -1,18 +1,34 @@
 # Start up and Configuration/es
 {{TOCright}}
 
+## Overview
+
+
+<div class="mw-translate-fuzzy">
+
 ## Vista general 
 
 Esta página muestra las diferentes formas de iniciar FreeCAD y las características de configuración más importantes.
+
+
+</div>
 
 ## Iniciando FreeCAD desde la línea de comandos 
 
 FreeCAD puede iniciarse normalmente, haciendo doble clic en el icono del escritorio o seleccionándolo en el menú de inicio, pero también sr puede iniciar directamente desde la línea de comandos. Esto te permite cambiar algunos de las opciones por defecto de inicio.
 
+### Using command line options without a command line shell 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Usar las opciones de la línea de comandos sin un shell de línea de comandos 
 
 -   En Ubuntu puedes crear un icono de escritorio y editar sus propiedades. Añade las opciones de la línea de comandos separadas por espacios detrás del nombre del programa en el campo \"Comando\".
 -   En Windows crea un acceso directo y edita las propiedades. Añade las opciones de la línea de comandos separadas por espacios en el campo \"Objetivo\".
+
+
+</div>
 
 ### Opciones de la línea de comandos 
 
@@ -124,7 +140,7 @@ desde la línea de comandos. En el modo consola, no se mostrará el interfaz de 
 
 </div>
 
-To read more about console or headless mode, checkout [Headless FreeCAD](Headless_FreeCAD.md).
+To read more about console or headless mode, refer to [Headless FreeCAD](Headless_FreeCAD.md).
 
 ### Running modules, macros and scripts 
 
@@ -193,6 +209,8 @@ FreeCad itself does not honor the `HOME` environmental variable (because it dete
 ### `TMPDIR` 
 
 The default temporary directory is {{FileName|/tmp/}}. The `TMPDIR` environmental variable can be used to override the default. (*Editor: precedence?*).
+
+### Libraries
 
 
 <div class="mw-translate-fuzzy">
@@ -430,7 +448,7 @@ set FREECAD_USER_HOME=%CURRENTDIR%
 start FreeCAD.exe -u FreeCAD/user.cfg -s FreeCAD/system.cfg --write-log 
 ```
 
-[or](https://forum.freecadweb.org/viewtopic.php?f=12&t=54784&start=60#p474759) with `FREECAD_USER_DATA`
+Or with `FREECAD_USER_DATA` ([see](https://forum.freecadweb.org/viewtopic.php?f=12&t=54784&start=60#p474759)):
 
 
 ```python
@@ -438,7 +456,7 @@ set CURRENTDIR="%cd%"
 set FREECAD_USER_DATA=%CURRENTDIR%/..
 start FreeCAD.exe -u %FREECAD_USER_DATA%/user.cfg -s %FREECAD_USER_DATA%/system.cfg```
 
-with the batch on the root of the key USB
+With the batch in the root of the USB medium:
 
 
 ```python
@@ -459,7 +477,7 @@ Now double-click the batch file to start FreeCAD. ([see](https://forum.freecadwe
 </div>
 
 
- 
+
 
 _
 

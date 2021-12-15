@@ -4,7 +4,7 @@
    Name/it:Barra Snap
    MenuLocation:Draft → Utilità → Mostra barra Snap
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
-   SeeAlso:[Agganciare](Draft_Snap/it.md), [Attiva/disattiva Aggancio](Draft_ToggleSnap/it.md)
+   SeeAlso:[Agganciare](Draft_Snap/it.md)
 ---
 
 # Draft ShowSnapBar/it
@@ -14,13 +14,7 @@
 
 ## Descrizione
 
-
-<div class="mw-translate-fuzzy">
-
-Questo comando mostra la barra [Snap](Draft_Snap/it.md), che contiene i pulsanti **<img src="images/Draft_Grid.svg" width=16px> [Attiva/disattiva Griglia](Draft_ToggleGrid/it.md)** e **<img src="images/Snap_Lock.svg" width=16px> [Attiva/disattiva Aggancia](Draft_ToggleSnap/it.md)** e i diversi [metodi di snap](Draft_Snap/it.md).
-
-
-</div>
+The <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:24px;"> **Draft ShowSnapBar** command shows the Draft Snap toolbar. Some users only want to see this toolbar when a command is active and have changed their [preferences](Draft_Snap#Preferences.md) accordingly. For them this command is a way to show the toolbar to inspect, and optionally change, the [snap options](Draft_Snap.md).
 
 ## Utilizzo
 

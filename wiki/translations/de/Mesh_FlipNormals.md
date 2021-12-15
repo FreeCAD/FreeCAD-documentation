@@ -1,60 +1,34 @@
 # Mesh FlipNormals/de
 ---
-- GuiCommand:/de   Name:Mesh FlipNormals‏‎   MenuLocation:Meshes → Flip Normals   Workbenches:[[Mesh Workbench/de   Mesh]]|Shortcut:   SeeAlso:---
+- GuiCommand:/de
+   Name:Mesh FlipNormals‏‎
+   Name/de:Netz Normalen spiegeln
+   MenuLocation:Meshes → Flip Normals
+   Workbenches:[Arbeitsbereich Netze](Mesh_Workbench/de.md)
+   Shortcut:   SeeAlso:---
 
+## Beschreibung
 
-</div>
-
-## Description
-
-
-<div class="mw-translate-fuzzy">
-
-## Einleitung
-
-Dreht (invertiert die Richtung) der Normalen ein oder mehrerer ausgewählter Netze um.
-
-
-</div>
-
-## Usage
-
-
-<div class="mw-translate-fuzzy">
+Die Anweisung **Netze Normalen spiegeln** dreht und spiegelt die Normalen von Netzobjekten.
 
 ## Anwendung
 
-1.  Wähle Netz(e) in der Baumansicht
-2.  Wähle **Netze** → **<img src="images/Mesh_FlipNormals.png" width=32px> Normalen umdrehen** aus der Menüleiste.
+1.  Wähle eines oder mehrere Netzobjekt(e)
+2.  Es gibt mehrere Wege die Anweisung auszuführen:
+    -   Betätige die Schaltfläche **<img src="images/Mesh_FlipNormals.svg" width=16px> [Netze Normalen spiegeln](Mesh_FlipNormals/de.md)**.
+    -   Wähle die Anweisungsoption **Netze → <img src="images/Mesh_FlipNormals.svg" width=16px> Normalen spiegeln** aus dem Menü.
+
+## Hinweise
+
+-   Für eine deutliche Anzeige der Ausrichtung der Oberflächen eines Netzobjektes muß dessen Eigenschaft **Beleuchtung** {{Value|Eine Seite}} gesetzt sein. Die Farbe der Rückseite deren Oberflächen hängt dann von den Einstellungen der Hintergrundbeleuchtung ab:
 
 
-</div>
+**Bearbeiten → Eigenschaften... → Anzeige → 3D Ansicht → Hintergrundlichtfarbe - Intensität**
 
-## Notes
-
-
-<div class="mw-translate-fuzzy">
-
-## Anmerkungen
-
-Überprüfe diese Aktion durch
-
--   auswählen des Netzes in der Baumansicht
--   wechseln zum Anzeige-Reiter
--   setzen von \'Lighting\' auf \"one side\"
--   Flächen mit Normalen, die vom Bildschirm weg zeigen, werden schwarz
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+. Siehe: [Editor Eigenschaften](Preferences_Editor#3D_View.md)
 
 
 
-
-
-</div>
 
 
 {{Mesh Tools navi

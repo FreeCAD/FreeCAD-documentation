@@ -23,7 +23,7 @@ L\'ambiente Path di FreeCAD crea le istruzioni macchina con il seguente flusso d
 -   Il modello base 3D è un oggetto che in genere viene creato utilizzando uno o più ambienti quali [Disegno](PartDesign_Workbench/it.md), [Parte](Part_Workbench/it.md) o [Draft](Draft_Workbench/it.md).
 -   L\'ambiente Path crea una _ e segue determinati comandi che controllano la velocità ed i movimenti (solitamente G-Code).
 -   Gli utensili vengono selezionati come richiesto dalle operazioni di lavorazione.
--   I percorsi di fresatura sono creati utilizzando, ad es. le operazioni di [Profilo](Path_Profile/it.md) e [Cavità 3D](Path_Pocket_3D/it.md). Questi [oggetti Percorso](Path_objects/it.md) (Path) utilizzano il linguaggio G-Code interno di FreeCAD, indipendente dalla macchina CNC.
+-   I percorsi di fresatura sono creati utilizzando, ad es. le operazioni di [Profilo](Path_Profile/it.md) e [Cavità 3D](Path_Pocket_3D/it.md). Questi oggetti Percorso (Path) utilizzano il linguaggio G-Code interno di FreeCAD, indipendente dalla macchina CNC.
 -   Si può esportare la lavorazione con un codice G, corrispondente alla propria macchina. Questo passaggio è chiamato \"post-elaborazione\"; sono disponibili diversi post processori.
 
 
@@ -69,12 +69,18 @@ L\'ambiente Path ha delle dipendenze esterne tra cui:
 
 ## Limitazioni
 
+
+<div class="mw-translate-fuzzy">
+
 Alcune limitazioni attuali di cui dovreste essere consapevoli sono:
 
--   La maggior parte degli strumenti Path non sono veri strumenti 3D ma solo 2.5D. Questo significa che prendono una forma 2D fissa e possono tagliarla fino ad una data profondità. Tuttavia, ci sono due strumenti che producono veri percorsi 3D: **<img src="images/Path_3DPocket.svg" width=24px> [Cavità 3D](Path_Pocket_3D/it.md)** and **<img src="images/Path_3DSurface.svg" width=24px> [Sfacciatura 3D](Path_3DSurface/it.md)** (La quale è ancora una [caratteristica sperimentale](Path_experimental/it.md) a partire da novembre 2020).
+-   La maggior parte degli strumenti Path non sono veri strumenti 3D ma solo 2.5D. Questo significa che prendono una forma 2D fissa e possono tagliarla fino ad una data profondità. Tuttavia, ci sono due strumenti che producono veri percorsi 3D: **<img src="images/Path_3DPocket.svg" width=24px> [Cavità 3D](Path_Pocket_3D/it.md)** and **<img src="images/Path_Surface.svg" width=24px> [Sfacciatura 3D](Path_Surface/it.md)** (La quale è ancora una [caratteristica sperimentale](Path_experimental/it.md) a partire da novembre 2020).
 -   La maggior parte del banco di lavoro Path è progettato per una semplice fresa/router CNC standard a 3 assi (xyz), ma gli strumenti per il tornio sono in fase di sviluppo nella 0.19\_pre.
--   La maggior parte delle operazioni in Path workbench restituirà percorsi basati solo su un utensile/bit standard, indipendentemente dal tipo di utensile/bit assegnato in un dato controllore di utensili, ad eccezione delle operazioni **<img src="images/Path_Engrave.svg" width=24px> [Incisione](Path_Engrave/it.md)** and **<img src="images/Path_3DSurface.svg" width=24px> [Safcciatura 3D](Path_3DSurface/it.md)**.
+-   La maggior parte delle operazioni in Path workbench restituirà percorsi basati solo su un utensile/bit standard, indipendentemente dal tipo di utensile/bit assegnato in un dato controllore di utensili, ad eccezione delle operazioni **<img src="images/Path_Engrave.svg" width=24px> [Incisione](Path_Engrave/it.md)** and **<img src="images/Path_Surface.svg" width=24px> [Safcciatura 3D](Path_Surface/it.md)**.
 -   Le operazioni all\'interno del Path workbench non sono a conoscenza dei meccanismi di bloccaggio in uso per fissare il modello alla vostra macchina. Di conseguenza, si prega di rivedere e simulare i percorsi generati prima di inviare il codice alla macchina. Se necessario, modella i tuoi meccanismi di serraggio in FreeCAD per controllare meglio i percorsi generati. Cercate le possibili collisioni con i morsetti o altri ostacoli lungo i percorsi.
+
+
+</div>
 
 ## Unità di misura 
 
@@ -286,7 +292,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Path_3DSurface.svg  style="width:32px;"> [Sfacciatura 3D](Path_3DSurface/it.md): crea un percorso per una sfacciatura 3D (sperimentale, 0.19).
+-   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> [Sfacciatura 3D](Path_Surface/it.md): crea un percorso per una sfacciatura 3D (sperimentale, 0.19).
 
 
 </div>

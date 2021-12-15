@@ -90,7 +90,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Constraint tie](FEM_ConstraintTie.md): Used to define a tie constraint (\"bonded contact\") between two faces. <small>(v0.19)</small> 
 
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a tie constraint (\"bonded contact\") between two faces. <small>(v0.20)</small> 
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/Fem-constraint-force.svg  style="width:32px;"> [Constraint force](FEM_ConstraintForce/ro.md): Utilizat pentru a defini o forță exprimată în \[N\] aplicată unifrom pe fațetă selectată într-o direcție definibilă.
 
@@ -158,7 +158,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-equation-flow.svg  style="width:32px;"> [Equation flow](FEM_EquationFlow.md):
 
--   <img alt="" src=images/Fem-equation-fluxsolver.svg  style="width:32px;"> [Equation fluxsolver](FEM_EquationFluxsolver.md):
+-   <img alt="" src=images/FEM_EquationFlux.svg  style="width:32px;"> [Equation fluxsolver](FEM_EquationFlux.md):
 
 -   <img alt="" src=images/Fem-equation-heat.svg  style="width:32px;"> [Equation heat](FEM_EquationHeat.md):
 
@@ -176,19 +176,19 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-data.svg  style="width:32px;"> [Post Pipeline from result](FEM_PostPipelineFromResult.md):
 
--   <img alt="" src=images/Fem-warp.svg  style="width:32px;"> [Post Create warp vector filter](FEM_PostCreateWarpVectorFilter.md):
+-   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Warp filter](FEM_PostFilterWarp/ro.md):
 
--   <img alt="" src=images/Fem-clip-scalar.svg  style="width:32px;"> [Post Create scalar clip filter](FEM_PostCreateScalarClipFilter.md):
+-   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Scalar clip filter](FEM_PostFilterClipScalar/ro.md):
 
--   <img alt="" src=images/Fem-cut.svg  style="width:32px;"> [Post Create cut filter](FEM_PostCreateCutFilter.md):
+-   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:32px;"> [Function cut filter](FEM_PostFilterCutFunction/ro.md):
 
--   <img alt="" src=images/Fem-clip.svg  style="width:32px;"> [Post Create clip filter](FEM_PostCreateClipFilter.md):
+-   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:32px;"> [Region clip filter](FEM_PostFilterClipRegion/ro.md):
 
--   <img alt="" src=images/Fem-DataAlongLine.svg  style="width:32px;"> [Post Create data along line filter](FEM_PostCreateDataAlongLineFilter.md):
+-   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width:32px;"> [Line clip filter](FEM_PostFilterDataAlongLine/ro.md):
 
--   <img alt="" src=images/Fem-linearizedstresses.svg  style="width:32px;"> [Post Create linearized stresses](FEM_PostCreateLinearizedStressesFilter.md):
+-   <img alt="" src=images/FEM_PostFilterLinearizedStresses.svg  style="width:32px;"> [Stress linearization plot](FEM_PostFilterLinearizedStresses/ro.md):
 
--   <img alt="" src=images/fem-post-filter-data-at-point.png  style="width:32px;"> [Post Create data at point filter](FEM_PostCreateDataAtPointFilter.md):
+-   <img alt="" src=images/FEM_PostFilterDataAtPoint.svg  style="width:32px;"> [Data at point clip filter](FEM_PostFilterDataAtPoint/ro.md):
 
 -   <img alt="" src=images/Fem-sphere.svg  style="width:32px;"> [Post Create functions](FEM_PostCreateFunctions.md):
 
@@ -204,7 +204,7 @@ Pașii pentru a face AEF în Atelierul AEF din FreeCAD GUI sunt:
 
 -   <img alt="" src=images/Fem-femmesh-clear-mesh.svg  style="width:32px;"> [FEM mesh clear](FEM_MeshClear.md):
 
--   <img alt="" src=images/Fem-femmesh-print-info.svg  style="width:32px;"> [FEM mesh print info](FEM_MeshPrintInfo.md):
+-   <img alt="" src=images/FEM_MeshDisplayInfo.svg  style="width:32px;"> [Display FEM mesh info](FEM_MeshDisplayInfo/ro.md): Displays basic statistics of existing mesh - number of nodes and elements of each type.
 
 ## Preferințe
 
@@ -260,9 +260,15 @@ The FEM Workbench is under constant development. An objective of the project is 
 
 The following information is aimed at power users and developers who want to extend the FEM Workbench in different ways. Familiarity with C++ and Python is expected, and also some knowledge of the \"document object\" system used in FreeCAD is necessary; this information is available in the [Power users hub](Power_users_hub.md) and the [Developer hub](Developer_hub.md). Please notice that since FreeCAD is under active development, some articles may be too old, and thus obsolete. The most up to date information is discussed in the [FreeCAD forums](https://forum.freecadweb.org/index.php), in the Development section. For FEM discussions, advice or assistance in extending the workbench, the reader should refer to the [FEM subforum](https://forum.freecadweb.org/viewforum.php?f=18).
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Extend FEM Module](Extend_FEM_Module.md)
     -   [Add FEM Equation Tutorial](Add_FEM_Equation_Tutorial.md)
     -   [Add FEM Constraint Tutorial](Add_FEM_Constraint_Tutorial.md)
+
+
+</div>
 
 A developer\'s guide has been written to help power users in understanding the complex FreeCAD codebase and the interactions between the core elements and the individual workbenches. The book is hosted at github so multiple users can contribute to it and keep it updated.
 

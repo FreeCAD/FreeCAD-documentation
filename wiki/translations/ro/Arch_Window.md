@@ -79,7 +79,7 @@ Toate informațiile aplicabile unui [Arch Window](Arch_Window.md) se aplică și
 
 **Note:**
 
-if you install the \"Parts Library\" from the [AddonManager](AddonManager.md), the window tool will search this library for additional presets. These presets are FreeCAD files containing a single window based on a parametric sketch that has named constrains. You may place additional presets in the `parts_library` directory so that they are found by the window tool.
+if you install the \"Parts Library\" from the [Addon Manager](Std_AddonMgr.md), the window tool will search this library for additional presets. These presets are FreeCAD files containing a single window based on a parametric sketch that has named constrains. You may place additional presets in the `parts_library` directory so that they are found by the window tool.
 
 
 ```python
@@ -249,7 +249,7 @@ You can use any other kind of workflow than the one described above, the importa
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul pentru ferestre poate fi utilizat în [macro-uri](macro-uri.md) și din consola [Python](Python.md) utilizând următoarea funcție:
+Instrumentul pentru ferestre poate fi utilizat în [macro-uri](Macros/ro.md) și din consola [Python](Python.md) utilizând următoarea funcție:
 
 
 </div>

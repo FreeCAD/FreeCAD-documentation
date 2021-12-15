@@ -3,7 +3,13 @@
 
 ## Introducción
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD utiliza como representación interna para las trayectorias generadas, los llamados G-codes. Pueden describir cosas como: la velocidad y el avance, la parada del motor, etc\... Pero lo más importante son los movimientos que describen. Estos movimientos son bastante simples: Pueden ser líneas rectas o arcos circulares. Curvas más sofisticadas como las B-splines ya son aproximadas por el <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> de FreeCAD. [Ambiente de trabajo Trayectoria](Path_Workbench/es.md).
+
+
+</div>
 
 ## Lo que el postprocesador puede hacer por ti 
 
@@ -42,14 +48,20 @@ La trayectoria en FreeCAD tendría este aspecto. Tenga en cuenta la pequeña fle
 
 ![](images/Path_PostProcessorModel.png )
 
+
+<div class="mw-translate-fuzzy">
+
 A continuación, puede echar un vistazo al archivo y compararlo con la salida de los postprocesadores existentes como {{FileName|linux_cnc_post.py}} o {{FileName|grbl_post.py}} y tratar de adaptarlos usted mismo o subir el suyo al foro Path <https://forum.freecadweb.org/viewforum.php?f=15> para obtener ayuda.
+
+
+</div>
 
 ## Convención de denominación 
 
 
 <div class="mw-translate-fuzzy">
 
-Para un formato de archivo {{FileName|<filename>}} el postprocesador debe obtener el nombre {{FileName|<filename>_post.py}}. Tenga en cuenta que {{NombreDeArchivo|_post.py}} tiene que estar en minúsculas.
+Para un formato de archivo {{FileName|<filename>}} el postprocesador debe obtener el nombre {{FileName|<filename>_post.py}}. Tenga en cuenta que {{FileName|_post.py}} tiene que estar en minúsculas.
 
 
 </div>
@@ -68,9 +80,17 @@ Para comparar puedes mirar los postprocesadores que vienen con tu instalación d
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ## Programación de tu propio postprocesador 
 
 Este post discute algunos aspectos internos de los postprocesadores linuxcnc. La misma estructura se utiliza en otros postprocesadores también.
+
+
+</div>
+
+This post discusses some internals from the linuxcnc postprocessors. The same strucure is used in other postprocessors as well.
 
 Mirando linux\_cnc\_post.py, verás la función de exportación (a partir de 0.19.20514 está en la línea 156)
 

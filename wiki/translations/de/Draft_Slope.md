@@ -41,14 +41,5 @@ Siehe auch: _.
 
 Es gibt keine Python Methode zur Neigung von Objekten. Um die Ergebnisse des Entwurf Neigung Befehls zu emulieren, muss die `Points`-Eigenschaft von Drahtobjekten geändert werden.
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Slope/de

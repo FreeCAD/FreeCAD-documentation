@@ -43,7 +43,7 @@ Diese Ebene ist immer parallel zur GebäudeTeil Basisebene, aber du kannst den V
 <div class="mw-translate-fuzzy">
 
 -   Nach der Erstellung eines GebäudeTeil kannst du weitere Objekte durch Ziehen und Ablegen in der Baumansicht oder mit dem **<img src="images/Arch_Add.svg" width=16px> [Arch Hinzufügen](Arch_Add/de.md)** Werkzeug verwenden.
--   Du kannst Objekte, durch Ziehen und Ablegen aus der Baumansicht heraus oder durch verwenden des **_ [Arch Entfernen](Arch_Remove.md)** Werkzeugs aus einem GebäudeTeil entfernen.
+-   Du kannst Objekte, durch Ziehen und Ablegen aus der Baumansicht heraus oder durch verwenden des **<img src="images/Arch_Remove.svg" width=16px> [Arch Entfernen](Arch_Remove.md)** Werkzeugs aus einem GebäudeTeil entfernen.
 -   Durch doppelklicken auf das GebäudeTeil Objekt in der Baumansicht wird die [Working Plane](Draft_SelectPlane.md) auf dessen Stelle gesetzt, und das BuildingPart wird aktiv, was bedeutet daß neue Objekte automatisch dazu hinzugefügt werden.
 
 Erneutes Doppelklicken auf das GebäudeTeil deaktiviert es und setzt die Arbeitsebene wieder auf die vorherige Position zurück (in Version 0.19, damit diese Option verfügbar ist, muss sie als true gesetzt werden, im Paneel Ansichtseigenschaften - Interaktion - Doppelklick aktiviert es).

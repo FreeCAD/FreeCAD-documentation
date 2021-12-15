@@ -112,24 +112,21 @@ For licensing reasons, the required _.
 
 ## Preferences
 
+See [Import Export Preferences](Import_Export_Preferences.md).
 
-<div class="mw-translate-fuzzy">
+## DWG
 
-### Alternativ
+Because the DWG format is a proprietary, closed and undocumented format it is hard for open-source projects like FreeCAD to support it. That is why FreeCAD relies on external converters to read and write DWG files. To import a DWG file a converter is used to create a DXF first, which can then be processed by the FreeCAD DXF importer. When exporting to DWG the opposite conversion happens: the DXF created by the FreeCAD DXF exporter is turned into a DWG.
 
-Följande parametrar kan specificeras i [Skissalternativ](Draft_Preferences/sv.md) tabben (meny Redigera -\> Alternativ -\> Draft):
+Note that the DXF format allows a 1:1 conversion of the DWG format. All applications that can read and write DWG files can do the same with DXF files, with no data loss. So asking for DXF files instead of DWG files, and supplying DXF files in turn, should not cause any problems.
 
--   Import stil: Detta låter dig välja på vilket sätt som objekt från dxf filen kommer att ritas i FreeCAD. Du kan välja mellan:
-    -   None: detta är den snabbare sättet, ingen konvertering sker, alla objekt kommer att vara svarta med 2 pixels bredd (FreeCAD standard)
-    -   Use default color and linewidth: Alla importerade dxf objekt kommer at anta nuvarande linjebredd/färg från Skisskommandolådan
-    -   Original color and linewidth: Objekten kommer att behålla den färg och linjebredd (om det är specificerat) de har i dxf filen
-    -   Colors mapped to linewidth: Om detta alternativ väljs så används kartfilen nedan.
--   Color mapping file: Denna tillåter dig att specificera en kartfil som ska användas för översättning av dxf färger till färg och linjebredd, på samma sätt som en plottningsstil fungerar i Autocad. Kartfilen måste vara en tabb-separerad textfil. Det finns ett bra fritt program som heter _ tillgängliga här.
--   Import texts: Detta tillåter dig att specificera om du vill importera dxf text och dimensioner eller inte. Många texter kan göra ditt arbete i FreeCAD mycket tungrott, så du kanske vill använda detta alternativ ibland.
--   Import layout objects: Sätt på detta om du vill importera paper space objekt. De kommer att infogas i samma dokument som model space objekt.
+There is built-in support for the following DWG converters:
 
+-   [LibreDWG](https://www.gnu.org/software/libredwg) (open-source, lacks support for some DWG entities).
+-   [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) (free).
+-   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial). <small>(v0.20)</small> 
 
-</div>
+See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) for more information.
 
 ## Scripting
 

@@ -49,7 +49,7 @@ El punto puede indicarse con el ratón en una vista 3D o introduciendo coordenad
 
 1.  Presiona el botón **<img src="images/Draft_Polygon.png" width=16px> [Polígono](Draft_Polygon/es.md)
 **, o presiona las teclas **P** y **G**
-2.  Designa un primer punto en la vista 3D, o escribe unas [coordenadas](Draft_Coordinates/es.md) para indicar el centro
+2.  Designa un primer punto en la vista 3D, o escribe unas coordenadas para indicar el centro
 3.  Ajusta el número deseado de dados en el letrero de diálogo de opciones,
 4.  Designa otro punto en la vista 3D, o escribe un valor de radio para definir el radio del polígono. El polígono será también una cara, aunque se muestre en modo alámbrico.
 

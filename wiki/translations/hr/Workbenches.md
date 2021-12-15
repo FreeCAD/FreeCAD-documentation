@@ -1,12 +1,4 @@
 # Workbenches/hr
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
 FreeCAD, like many modern design applications such as _ or _, is based on the concept of _. A workbench can be considered as a set of tools specially grouped for a certain task. In a traditional furniture workshop, you would have a work table for the person who works with wood, another one for the one who works with metal pieces, and maybe a third one for the guy who mounts all the pieces together.
 
 In FreeCAD, the same concept applies. Tools are grouped into workbenches according to the tasks they are related to.
@@ -75,18 +67,12 @@ The following workbenches are still included in the base installation for compat
 
 FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main development area.
 
-The [external workbenches](external_workbenches.md) page lists all that are known to this community. Most are easily installable from within FreeCAD, using the [Addon Manager](Addon_Manager.md), found under menu **Tools → <img src="images/AddonManager.svg" width=24px> Addon manager**.
+The [external workbenches](external_workbenches.md) page lists all that are known to this community. Most are easily installable from within FreeCAD, using the [Addon Manager](Std_AddonMgr.md), found under menu **Tools → <img src="images/Std_AddonMgr.svg" width=24px> Addon manager**.
 
 New workbenches are always in development, stay tuned!
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 

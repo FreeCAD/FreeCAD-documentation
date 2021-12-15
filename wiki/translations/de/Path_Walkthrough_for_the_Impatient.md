@@ -148,7 +148,7 @@ Die Werte werden mit OK bestätigt.
 
 <div class="mw-translate-fuzzy">
 
-Für einen einfachen Zugriff können alle Werkzeuge vordefiniert und über den [Werkzeugverwalter](Path_EditToolsTable/de.md) ausgewählt werden.
+Für einen einfachen Zugriff können alle Werkzeuge vordefiniert und über den [Werkzeugverwalter](Path_ToolLibraryEdit/de.md) ausgewählt werden.
 
 
 </div>
@@ -178,7 +178,7 @@ Dieser Baum wird nach der Konfiguration des Auftrags angezeigt, sobald der Pfada
 
 <div class="mw-translate-fuzzy">
 
-Es werden zwei Bearbeitungen hinzugefügt, um Fräsbahnen für diesen Pfadauftrag zu erzeugen. Der Ablauf [Kontur](Path_Contour/de.md) erzeugt eine Bahn um den Kasten herum und der Ablauf [Tasche](ath_Pocket_Shape/de.md) erzeugt eine Bahn für die Innentasche.
+Es werden zwei Bearbeitungen hinzugefügt, um Fräsbahnen für diesen Pfadauftrag zu erzeugen. Der Ablauf [Kontur](Path_Profile/de.md) erzeugt eine Bahn um den Kasten herum und der Ablauf [Tasche](Path_Pocket_Shape/de.md) erzeugt eine Bahn für die Innentasche.
 
 
 </div>
@@ -186,7 +186,7 @@ Es werden zwei Bearbeitungen hinzugefügt, um Fräsbahnen für diesen Pfadauftra
 
 <div class="mw-translate-fuzzy">
 
-Fürs Erste werden wir es einfach halten. Die <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Kontur](Path_Contour/de.md) Schaltfläche öffnet das Konturpaneel. Nach der Bestätigung mit OK unter Verwendung der Standardwerte siehst du, dass der grüne Pfad um das Objekt herum sichtbar ist.
+Fürs Erste werden wir es einfach halten. Die <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Kontur](Path_Profile/de.md) Schaltfläche öffnet das Konturpaneel. Nach der Bestätigung mit OK unter Verwendung der Standardwerte siehst du, dass der grüne Pfad um das Objekt herum sichtbar ist.
 
 
 </div>

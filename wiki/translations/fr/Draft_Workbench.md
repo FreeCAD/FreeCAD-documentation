@@ -54,7 +54,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [Formes à partir de texte](Draft_ShapeString/fr.md) : crée une forme composée qui représente une chaîne de texte.
 
--   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hachure](Draft_Hatch/fr.md) : crée des hachures sur les faces d\'un objet sélectionné. {{Version/fr|0.20}}
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hachure](Draft_Hatch/fr.md) : crée des hachures sur les faces planes d\'un objet sélectionné. {{Version/fr|0.20}}
 
 ## Annotation
 
@@ -156,7 +156,7 @@ La barre d\'outils [Draft Accrochage](Draft_Snap/fr.md) permet de sélectionner 
 
 -   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Aimantation Terminaison](Draft_Snap_Endpoint/fr.md): aimante aux extrémités des segments.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Aimantation Milieu](Draft_Snap_Midpoint/fr.md) : aimante au point milieu des segments droits et circulaires.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Aimantation Milieu](Draft_Snap_Midpoint/fr.md) : aimante au point milieu des segments.
 
 -   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ et [Arch Partie de bâtiment](Arch_BuildingPart/fr.md).
 
@@ -240,9 +240,9 @@ Cette option supplémentaire est disponible pour un [Draft Polyligne](Draft_Wire
 
 Pour un [Draft Calque](Draft_Layer/fr.md), les options supplémentaires sont disponibles :
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> Fusionner les doublons de calques : cette option ne fonctionne pas actuellement.
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Fusionner les calques en double](Draft_Layer/fr#Options_du_conteneur_du_calque.md) : fusionne tous les calques ayant la même étiquette de base. Ne fonctionne pas avec Freecad version 0.19.
 
--   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Ajouter un nouveau calque](Draft_Layer/fr.md) : ajoute un nouveau calque au document en cours.
+-   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Ajouter un nouveau calque](Draft_Layer/fr#Options_du_conteneur_du_calque.md) : ajoute un nouveau calque au document en cours.
 
 ### Options du calque 
 
@@ -289,7 +289,7 @@ Ces outils ont été supprimés de l\'interface dans la v0.19 car ils n\'avaient
 L\'atelier Draft fournit à FreeCAD des importateurs et des exportateurs pour différents formats de fichiers. Ceux-ci sont utilisés par les commandes [Std Importer](Std_Import/fr.md) et [Std Exporter](Std_Export/fr.md).
 
 -   _.
--   _ est installé. Voir aussi [ Importation FreeCAD et DWG](FreeCAD_and_DWG_Import/fr.md).
+-   _.
 -   [Scalable Vector Graphics .SVG](Draft_SVG/fr.md) : Importe et exporte les fichiers [Scalable Vector Graphics(SVG)](http://fr.wikipedia.org/wiki/Scalable_Vector_Graphics) créés avec des applications de dessin vectoriel
 -   [Open Cad format .OCA](Draft_OCA/fr.md) : importe et exporte des fichiers [OCA/GCAD](http://groups.google.com/group/open_cad_format).
 -   [Airfoil Data Format .DAT](Draft_DAT/fr.md) : importe des fichiers DAT décrivant des profils d\'ailes.

@@ -35,11 +35,10 @@ Dann gehe zu **Ansicht → Paneele** und hake an:
 
 Es gibt zwei einfache Wege, Python Code in FreeCAD zu schreiben: Über die Python Konsole (verfügbar im Menü Ansicht → Paneele → Python Konsole) oder über den Makro Editor (Werkzeuge → Makros). In der Konsole schreibst Du nacheinander Python Befehle, die ausgeführt werden, wenn Du die Eingabetaste drückst, während die Makros ein komplexeres Skript aus mehreren Zeilen enthalten können, das erst bei der Ausführung des Makros ausgeführt wird.
 
-![](images/Screenshot_pythoninterpreter.jpg ) [Die FreeCAD Python Konsole](Caption.md)
+![](images/Screenshot_pythoninterpreter.jpg ) 
+*Die FreeCAD Python Konsole*
 
-In diesem Tutorium kannst Du beide Methoden verwenden. Du kannst Kopieren/Einfügen von einzelnen Zeilen in die Python Konsole und drücken der **Eingabetaste** oder Kopieren/Einfügen des gesamten Codes in ein neues Makro Fenster.
-
-[Anfang](#top.md)
+In diesem Tutorium kannst Du beide Methoden verwenden. Du kannst Kopieren/Einfügen von einzelnen Zeilen in die Python Konsole und drücken der **Eingabetaste** oder Kopieren/Einfügen des gesamten Codes in ein neues Makro Fenster. {{Top}}
 
 ## Erkunden von FreeCAD 
 
@@ -127,7 +126,8 @@ Wenn du dein Feld mit der Maus auswählst, siehst du, dass im [Eigenschaftsedito
 
 </div>
 
-[Anfang](#top.md)
+
+{{Top}}
 
 ## Vektoren und Platzierungen 
 
@@ -154,9 +154,7 @@ otherpla = FreeCAD.Placement()
 box.Placement = otherpla
 ```
 
-Nun musst du einige wichtige Konzepte verstehen, bevor wir weiter kommen.
-
-[Anfang](#top.md)
+Nun musst du einige wichtige Konzepte verstehen, bevor wir weiter kommen. {{Top}}
 
 ## App und GUI 
 
@@ -178,9 +176,7 @@ vo.hide()
 vo.show()
 ```
 
-Wenn du FreeCAD startest, lädt die Python Konsole bereits zwei Basismodule: `FreeCAD` und `FreeCADGui` (die auch über ihre Kürzel `App` und `Gui` erreicht werden können). Sie enthalten alle Arten von generischer Funktionalität für die Arbeit mit Dokumenten und ihren Objekten. Um unser Konzept zu veranschaulichen, siehe, dass sowohl `FreeCAD` als auch `FreeCADGui` ein `ActiveDocument` Attribut enthalten, das das aktuell geöffnete Dokument ist. `FreeCAD.ActiveDocument` und `FreeCADGui.ActiveDocument` sind jedoch nicht dasselbe Objekt. Sie sind die beiden Komponenten eines FreeCAD Dokuments, und sie enthalten unterschiedliche Attribute und Methoden. So enthält z.B. `FreeCADGui.ActiveDocument` `ActiveView`, welches die aktuell geöffnete [3D Ansicht](3D_view/de.md) ist.
-
-[Anfang](#top.md)
+Wenn du FreeCAD startest, lädt die Python Konsole bereits zwei Basismodule: `FreeCAD` und `FreeCADGui` (die auch über ihre Kürzel `App` und `Gui` erreicht werden können). Sie enthalten alle Arten von generischer Funktionalität für die Arbeit mit Dokumenten und ihren Objekten. Um unser Konzept zu veranschaulichen, siehe, dass sowohl `FreeCAD` als auch `FreeCADGui` ein `ActiveDocument` Attribut enthalten, das das aktuell geöffnete Dokument ist. `FreeCAD.ActiveDocument` und `FreeCADGui.ActiveDocument` sind jedoch nicht dasselbe Objekt. Sie sind die beiden Komponenten eines FreeCAD Dokuments, und sie enthalten unterschiedliche Attribute und Methoden. So enthält z.B. `FreeCADGui.ActiveDocument` `ActiveView`, welches die aktuell geöffnete [3D Ansicht](3D_view/de.md) ist. {{Top}}
 
 ## Module
 
@@ -203,11 +199,15 @@ import Part
 Part.
 ```
 
-Aber wir werden weiter unten mehr über das Part Modul sprechen.
+Aber wir werden weiter unten mehr über das Part Modul sprechen. {{Top}}
 
-[Anfang](#top.md)
+
+<div class="mw-translate-fuzzy">
 
 ## Netz
+
+
+</div>
 
 [Polygonnetze](https://de.wikipedia.org/wiki/Polygonnetz) (engl.: Meshes) sind eine sehr einfache Art von 3D Objekten, die z.B. von [Sketchup](https://en.wikipedia.org/wiki/SketchUp), [Blender](https://en.wikipedia.org/wiki/Blender_(software)) und [3D Studio Max](https://en.wikipedia.org/wiki/Autodesk_3ds_Max) verwendet werden. Sie werden aus 3 Elementen gebildet: Punkte (auch Knoten genannt), Linien (auch Kanten genannt) und Flächen. In vielen Anwendungen, einschließlich FreeCAD, können Flächen nur 3 Knoten haben. Natürlich hindert Dich nichts daran, eine größere ebene Fläche aus mehreren nebeneinander liegenden Dreiecken zu haben.
 
@@ -229,11 +229,15 @@ doc.recompute()
 
 Dies ist ein Standardbeispiel, das die `createSphere()` Methode verwendet, um eine Kugel zu erstellen, aber Du kannst auch benutzerdefinierte Netze von Grund auf neu erstellen, indem Du ihre Knoten und Flächen definierst.
 
-[Lies mehr über Netz Skripten\...](Mesh_Skripten.md)
+[Lies mehr über Netz Skripten\...](Mesh_Scripting/de.md) {{Top}}
 
-[Anfang](#top.md)
+
+<div class="mw-translate-fuzzy">
 
 ## Part
+
+
+</div>
 
 Das [Part](Part_Workbench/de.md) Modul ist das leistungsfähigste Modul im gesamten FreeCAD. Es erlaubt Dir [BREP](http://en.wikipedia.org/wiki/Boundary_representation) Objekte zu erstellen und zu verändern. Diese Art von Objekten kann, im Gegensatz zu Netzen, eine Vielzahl von Komponenten haben. BREP steht für Begrenzungsflächenmodell (engl.: Boundary Representation), was bedeutet, dass BREP Objekte durch ihre Oberflächen definiert werden; diese Oberflächen umschließen und definieren ein Innenvolumen. Eine Oberfläche kann eine Vielzahl von Dingen sein, wie z.B. ebene Flächen oder sehr komplexe NURBS Oberflächen.
 
@@ -262,11 +266,15 @@ Part.show(myshape)
 
 Beim erforschen der Inhalt von myshape, wirst Du viele interessante Unterkomponenten wie `Flächen`, `Kanten`, `Knoten`, `Festkörper` und `Schalen`, und eine weite Bandbreite von Geometrieoperationen wie `Schnitt` (Subtraktion), `Gemeinsam` (Schnittpunkt) oder `Verschmelzung` (Vereinigung) bemerken. Die [Topologisches Daten Skripten](Topological_data_scripting/de.md) Seite erklärt all das im Detail.
 
-[Lies mehr über Part Skripten\...](Topological_data_scripting/de.md)
+[Lies mehr über Part Skripten\...](Topological_data_scripting/de.md) {{Top}}
 
-[Anfang](#top.md)
+
+<div class="mw-translate-fuzzy">
 
 ## Entwurf
+
+
+</div>
 
 FreeCAD bietet noch viele weitere Module, wie [Skizzierer](Sketcher_Workbench/de.md) und [Entwurf](Draft_Workbench/de.md), die ebenfalls Teilobjekte erzeugen. Diese Module fügen zusätzliche Parameter zu den erzeugten Objekten hinzu oder implementieren sogar eine völlig neue Art und Weise, die Teilegeometrie in ihnen zu handhaben. Unser obiges Box Beispiel ist ein perfektes Beispiel für ein parametrisches Objekt. Alles was Du zur Definition der Box benötigst, ist die Angabe der Parameter Höhe, Breite und Länge. Basierend auf diesen Parametern berechnet das Objekt automatisch seine Teileform. FreeCAD erlaubt es Dir [Erzeuge solche Objekte in Python](Scripted_objects/de.md).
 
@@ -281,7 +289,8 @@ Draft.move(rec, mvec)
 Draft.move(box, mvec)
 ```
 
-[Anfang](#top.md)
+
+{{Top}}
 
 ## Benutzeroberfläche
 
@@ -297,22 +306,21 @@ Beachte, dass der erscheinende Dialog das FreeCAD Symbol in seiner Werkzeugleist
 
 Qt ist ein sehr mächtiges Schnittstellensystem, das es dir erlaubt, sehr komplexe Dinge zu tun. Es hat auch einige einfach zu benutzende Werkzeuge wie den Qt Designer, mit dem du Dialoge grafisch entwerfen kannst und sie dann mit ein paar Zeilen Python Code zur FreeCAD Oberfläche hinzufügen kannst.
 
-[Erfahre hier mehr über PySide\...](PySide/de.md)
-
-[Anfang](#top.md)
+[Erfahre hier mehr über PySide\...](PySide/de.md) {{Top}}
 
 ## Makros
 
 Nun, da Du ein gutes Verständnis der Grundlagen hast, wo werden wir unsere Python Skripte aufbewahren und wie werden wir sie einfach von FreeCAD aus starten? Dafür gibt es einen einfachen Mechanismus, genannt [Makros](Macros/de.md). Ein Makro ist einfach ein Python Skript, das zu einer Werkzeugleiste hinzugefügt und per Mausklick gestartet werden kann. FreeCAD bietet dir einen einfachen Texteditor (**Makro → Makros → Erstellen**), in dem du Skripte schreiben oder einfügen kannst. Sobald das Skript fertig ist, verwende **Werkzeuge → Anpassung → Makros**, um eine Schaltfläche dafür zu definieren, die zu den Werkzeugleisten hinzugefügt werden kann.
 
-Jetzt bist Du bereit für eine vertieftere FreeCAD Skripterstellung. Gehe weiter zum [Verteiler für Erfahrene Anwender](Power_users_hub/de.md)!
+Jetzt bist Du bereit für eine vertieftere FreeCAD Skripterstellung. Gehe weiter zum [Verteiler für Erfahrene Anwender](Power_users_hub/de.md)! {{Top}}
 
-[Anfang](#top.md)
+
+
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

@@ -29,96 +29,136 @@ De nombreuses opérations créent des objets qui dépendent d\'un objet déjà e
 
 ## Actions
 
+Étant donné que l\'arborescence répertorie les objets pouvant être visibles dans la [vue 3D](3D_view/fr.md), de nombreuses actions sont identiques comme celles qui peuvent être exécutées à partir de la [vue 3D](3D_view/fr.md).
 
-**Remarque :**
+Lorsque l\'application démarre, l\'[Atelier Start](Start_Workbench/fr.md) par défaut est actif et aucun document n\'a été créé, un clic droit sur la [vue en arborescence](Tree_view/fr.md) affiche un sous-menu avec quatre commandes :
 
-des expressions et des actions de liaison ont été ajoutées dans la version 0.19.
+-    **Actions sur les expressions**:
 
-Étant donné que l\'arborescence répertorie les objets pouvant être visibles dans la [vue 3D](3D_view/fr.md), de nombreuses actions sont identiques à celles qui peuvent être exécutées à partir de la [vue 3D](3D_view/fr.md).
+    -   [Copier la sélection](Std_Expressions/fr.md)
+    -   [Copier le document actif](Std_Expressions/fr.md)
+    -   [Copier tous les documents](Std_Expressions/fr.md)
+    -   [Coller](Std_Paste/fr.md)
 
-Lorsque l\'application démarre, la valeur par défaut de l\'[Atelier Start](Start_Workbench/fr.md) est active, aucun document n\'a été créé, un clic droit sur la [vue en arborescence](Tree_view/fr.md) affiche une seule commande:
-
--    **Expression actions**: [Copy selected](Std_Expressions.md), [Copy active document](Std_Expressions.md), [Copy all documents](Std_Expressions.md), coller. Celles-ci permettent de travailler avec divers documents mais sont désactivées si aucun document n\'est présent.
+Elles permettent de travailler avec divers documents, mais sont désactivées si aucun document n\'est présent.
 
 Une fois un nouveau document créé, les éléments suivants deviennent actifs:
 
--    **Expression actions**: [Copy active document](Std_Expressions.md), [Copy all documents](Std_Expressions.md).
+-    **Actions sur les expressions**:
+
+    -   [Copier le document actif](Std_Expressions/fr.md)
+    -   [Copier tous les documents](Std_Expressions/fr.md)
 
 De plus, les actions [Liens](Std_LinkMake/fr.md) sont disponibles.
 
--    **Link actions**: [Std Créer un lien](Std_LinkMake/fr.md).
+-    **Actions de liens**:
 
     -   
-        **Make Link group**
+        **Créer un groupe de liens**
         
-        : [Simple group](Std_LinkMakeGroup.md), [Group with links](Std_LinkMakeGroup.md), [Group with transform links](Std_LinkMakeGroup.md).
+        :
+
+        -   [Groupe simple](Std_LinkMakeGroup/fr.md)
+        -   [Groupe avec liens](Std_LinkMakeGroup/fr.md)
+        -   [Groupe avec liens transformés](Std_LinkMakeGroup/fr.md)
+
+    -   [Créer un lien](Std_LinkMake/fr.md)
 
 ### Sélection du document 
 
-Si vous sélectionnez le document actif et cliquez avec le bouton droit, en plus de **Expression actions** et **Link actions**, les commandes suivantes apparaissent :
+Si vous sélectionnez le document actif et cliquez avec le bouton droit, en plus de **Actions sur les expressions** et **Actions de liens**, les commandes suivantes apparaissent :
 
--    **Show hidden items**: si elle est active, l\'arborescence affichera les éléments masqués.
+-    **Montrer les objets cachés**: si elle est active, l\'arborescence affichera les éléments masqués.
 
--    **Search**: affiche un champ de saisie pour rechercher des objets à l\'intérieur du document sélectionné.
+-    **Rechercher...**: affiche un champ de saisie pour rechercher des objets à l\'intérieur du document sélectionné.
 
--    **Close document**: ferme le document sélectionné en appelant la méthode `closeDocument()` de l\'application.
+-    **Fermer le document**: ferme le document sélectionné.
 
--    **Skip recomputes**: s\'il est actif, les objets du document ne seront pas [recalculés](Std_Refresh/fr.md) automatiquement.
+-    **Abandonner le recalcul**: si actif, les objets du document ne seront pas [recalculés](Std_Refresh/fr.md) automatiquement.
 
     -   
-        **Allow partial recomputes**
+        **Permettre un recalcul partiel**
         
-        : s\'il est actif, le document n\'autorisera le [recalcul](Std_Refresh/fr.md) que pour certains objets.
+        : si actif, le document n\'autorisera le [recalcul](Std_Refresh/fr.md) que pour certains objets.
 
--    **Mark to recompute**: marque tous les objets du document comme touchés et prêts pour [recalcul](Std_Refresh/fr.md).
+-    **Marquer pour recalculer**: marque tous les objets du document comme touchés et prêts pour [recalcul](Std_Refresh/fr.md).
 
--    **_ dans le document sélectionné en utilisant la méthode `addObject()` du document.
+-    **_ dans le document sélectionné.
 
 ### Sélection d\'objets 
 
-Une fois les objets ajoutés au document, en plus des actions précédentes, un clic droit sur une partie vide de l\'arborescence affichera des commandes supplémentaires. Ceux-ci dépendent du type d\'objet et de l\'atelier actif.
+Une fois que les objets ont été ajoutés au document, un clic droit sur ceux-ci fait apparaître des commandes supplémentaires. Celles-ci dépendent du nombre d\'objets sélectionnés, de leur type et également du plan de travail actif. Dans la plupart des cas et avec la plupart des ateliers (sauf l\'[atelier Start](Start_Workbench/fr.md)), les commandes suivantes sont alors disponibles :
 
-Par exemple, avec [Atelier Draft](Draft_Workbench/fr.md) actif, sélectionnez d\'abord un objet, puis cliquez avec le bouton droit sur un emplacement vide dans l\'arborescence :
+-    **[Apparence](Std_SetAppearance/fr.md)**: lance une boîte de dialogue permettant de modifier les propriétés visuelles de l\'objet entier.
+
+-    **[Couleur aléatoire](Std_RandomColor/fr.md)**: attribue une couleur aléatoire à l\'objet.
+
+-    **[Couper](Std_Cut/fr.md)**: désactivé.
+
+-    **[Copier](Std_Copy/fr.md)**: copie un objet en mémoire.
+
+-    **[Coller](Std_Paste/fr.md)**: colle l\'objet copié dans le document ; la copie est ajoutée à la fin de l\'arborescence.
+
+-    **[Supprimer](Std_Delete/fr.md)**: supprime l\'objet du document.
+
+-    **Cacher l'élément**: s\'il est actif, l\'objet sélectionné sera défini comme caché.
+
+-    **Ajouter des objets dépendants à la sélection**: tous les objets dépendants seront ajoutés à la sélection. De cette façon, vous pouvez voir les dépendances et, par exemple, supprimer tous les objets dépendants en une seule fois. {{Version/fr|0.20}}
+
+-    **Marquer pour recalculer**: marque l\'objet sélectionné comme touché, et prêt pour [recalculer](Std_Refresh/fr.md).
+
+-    **Recalculer l'objet**: recompute l\'objet sélectionné.
+
+-    **Renommer**: commence à éditer l\'étiquette de l\'objet sélectionné, pas le nom qui est en lecture seule.
+
+Comme exemple d\'extension du menu contextuel, si un [Part Cube](Part_Box/fr.md) est cliqué du bouton droit de la souris alors que l\'[atelier Part](Part_Workbench/fr.md) est actif, les commandes supplémentaires suivantes sont disponibles :
+
+-    **[Modifier](Std_Edit/fr.md)**: active le mode d\'édition de l\'objet.
+
+-    **[Transformer](Std_TransformManip/fr.md)**: lance le widget de transformation pour déplacer ou faire tourner l\'objet.
+
+-    **[Editeur de pièces jointes](Part_EditAttachment/fr.md)**: lance une boîte de dialogue pour attacher l\'objet à un ou plusieurs autres objets.
+
+-    **[Définir les couleurs...](Part_FaceColors/fr.md)**: définit la couleur des faces sélectionnées de l\'objet.
 
 -    **_.
 
--    **[Afficher la sélection](Std_ShowSelection/fr.md)**: rend les objets sélectionnés visibles.
+-    **[Afficher la selection](Std_ShowSelection/fr.md)**: rend visible l\'objet sélectionné.
 
--    **[Masquer la sélection](Std_HideSelection/fr.md)**: rend les objets sélectionnés invisibles.
-
--    **_. Utilisez à nouveau cette commande pour annuler son effet. Il définit l\'attribut `Selectable` de l\'objet sur `True` ou `False`. Modifiez la propriété en basculant {{PropertyView/fr|Selectable}} dans l\'[Éditeur de propriétés](Property_editor/fr.md).
-
--    **[Select all instances](Std_TreeSelectAllInstances.md)**: sélectionne toutes les instances de cet objet dans l\'arborescence.
-
--    **[Apparence](Std_SetAppearance/fr.md)**: ouvre la boîte de dialogue pour changer la couleur et la taille des lignes et des sommets et la couleur des faces.
+-    **[Masquer la selection](Std_HideSelection/fr.md)**: rend l\'objet sélectionné invisible.
 
 -    **_.
 
--    **[Couper](Std_Cut.md)**: désactivé si le clic droit n\'est pas sur l\'objet.
+-    **[Sélectionner tous les cas](Std_TreeSelectAllInstances/fr.md)**: sélectionne toutes les instances de cet objet dans l\'arborescence.
 
--    **[Copier](Std_Copy.md)**: copie un objet en mémoire.
+-    **_ faisant référence à l\'objet
 
--    **[Coller](Std_Paste.md)**: pastes the copied object into the document; the copy is added to the end of the tree view.
+### Actions du clavier 
 
--    **[Effacer](Std_Delete.md)**: supprime l\'objet du document et de l\'arborescence en appelant la méthode `removeObject()` du document.
+Les actions clavier suivantes sont disponibles lorsque le curseur est sur l\'arborescence :
 
--    **Utilities**: **(optionnel)** commandes contextuelles supplémentaires fournies par l\'[Atelier Draft](Draft_Workbench/fr.md).
+-    **Ctrl**\+**F** : ouvre une boîte de recherche au bas de l\'arbre, permettant de rechercher et d\'atteindre des objets en utilisant leurs noms ou leurs étiquettes.
 
-Si un objet est sélectionné, par exemple, une [Draft Ligne](Draft_Line/fr.md) et qu\'un clic droit est effectué dans le même objet, des commandes supplémentaires peuvent être disponibles:
+-   Actions d\'expansion et de réduction à l\'aide des combinaisons **Alt**+**Flèche** : {{Version/fr|0.20}}
+    -   
+        **Alt**
+        
+        \+**Flèche gauche** : réduit le(s) élément(s) sélectionné(s).
 
--    **Transform**: lance le widget de transformation pour déplacer ou faire pivoter l\'objet.
+    -   
+        **Alt**
+        
+        \+**Flèche droit** : développe le(s) élément(s) sélectionné(s).
 
--    **Set colors**: définit les couleurs de l\'objet.
+    -   
+        **Alt**
+        
+        \+**Flèche haut** : développe le ou les éléments sélectionnés avec tous leurs enfants de niveau 1 réduits (les enfants plus profonds restent inchangés).
 
--    **Flatten this wire**: **(Draft)** commande spécifique pour une [Draft Ligne](Draft_Line/fr.md)
-
--    **Hide item**: si actif, l\'objet sélectionné sera défini comme masqué.
-
--    **Mark to recompute**: marque l\'objet sélectionné comme coché et prêt pour être [recalculer](Std_Refresh/fr.md).
-
--    **Recompute**: recalcule l\'objet sélectionné.
-
--    **Rename**: commence à modifier le nom de l\'objet sélectionné. Cela permet de modifier l\'attribut `Label` mais pas l\'attribut `Name` car ce dernier est en lecture seule.
+    -   
+        **Alt**
+        
+        \+**Flèche bas** : développe le ou les éléments sélectionnés avec tous leurs enfants de niveau 1 également développés (les enfants plus profonds restent inchangés).
 
 ## Icônes de superposition 
 

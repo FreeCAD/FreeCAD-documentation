@@ -3,8 +3,6 @@
 
 Dies sind Codeschnipsel, die bei [Erstellen von Oberflächen](Dialog_creation/de.md) mit [PySide](PySide/de.md) nützlich sind.
 
-For more information on creating full interfaces see [Interface creation with UI files](Interface_creation_with_UI_files.md).
-
 ## Some useful commands 
 
 

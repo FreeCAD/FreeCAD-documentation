@@ -43,9 +43,9 @@ Dieses Werkzeug verlinkt die tatsächliche Länge einer Linie im 3D-Bauteil mit 
 
 <div class="mw-translate-fuzzy">
 
-1.  Erstelle eine geeignete Bemaßung auf dem Zeichenblatt mit einer der folgenden Methoden [Bemaßung Länge](TechDraw_Dimension_Length/de.md), [Bemaßung Horizontal](TechDraw_Dimension_Horizontal/de.md), usw. Diese Bemaßung steht an der richtigen Stelle auf der Seite, zeigt aber den projizierten Bemaßungswert an.
+1.  Erstelle eine geeignete Bemaßung auf dem Zeichenblatt mit einer der folgenden Methoden [Bemaßung Länge](TechDraw_LengthDimension/de.md), [Bemaßung Horizontal](TechDraw_HorizontalDimension/de.md), usw. Diese Bemaßung steht an der richtigen Stelle auf der Seite, zeigt aber den projizierten Bemaßungswert an.
 2.  Wähle die Geometrie in der 3D Ansicht, z.B. eine Kante, die der projizierten Geometrie Ihrer Bemaßung entspricht.
-3.  Drücke die **<img src="images/TechDraw_Dimension_Link.svg" width=16px> [Bemaßungsverknüpfung](TechDraw_Dimension_Link/de.md)** Schaltfläche.
+3.  Drücke die **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Bemaßungsverknüpfung](TechDraw_LinkDimension/de.md)** Schaltfläche.
 4.  Ein Dialog öffnet sich. Wähle eine oder mehrere Bemaßungen aus, die mit der ausgewählten 3D Geometrie verknüpft werden sollen.
 5.  Drücke **OK**.
 
@@ -59,7 +59,7 @@ Nachdem die Verknüpfungsoperation abgeschlossen ist, ändert sich die **Measure
 
 <div class="mw-translate-fuzzy">
 
-Bemaßungsobjekte sind anfällig für Probleme der \"topologischen Benennung\". Weitere Informationen findest Du in den Informationen im Werkzeug [TechDraw Längenbemaßung](TechDraw_Dimension_Length/de.md). Es wird empfohlen, dass das Verknüpfen von Bemaßungen einer der letzten Schritte im Zeichenprozess ist.
+Bemaßungsobjekte sind anfällig für Probleme der \"topologischen Benennung\". Weitere Informationen findest Du in den Informationen im Werkzeug [TechDraw Längenbemaßung](TechDraw_LengthDimension/de.md). Es wird empfohlen, dass das Verknüpfen von Bemaßungen einer der letzten Schritte im Zeichenprozess ist.
 
 
 </div>

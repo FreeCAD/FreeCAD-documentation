@@ -31,7 +31,7 @@ Lo strumento Tratteggio geometrico riempie una regione chiusa in una vista con u
 
 <div class="mw-translate-fuzzy">
 
--   Il tratteggio è vulnerabile al problema della \"[denominazione topologica](Topological_naming_problem/it.md)\". Per maggiori informazioni vedere lo strumento **<img src="images/TechDraw_Dimension_Length.png" width=16px> [Lunghezza](TechDraw_Dimension_Length/it.md)**. Si consiglia che il tratteggio sia uno degli ultimi passaggi del processo di disegno.
+-   Il tratteggio è vulnerabile al problema della \"[denominazione topologica](Topological_naming_problem/it.md)\". Per maggiori informazioni vedere lo strumento **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Lunghezza](TechDraw_LengthDimension/it.md)**. Si consiglia che il tratteggio sia uno degli ultimi passaggi del processo di disegno.
 
 
 </div>

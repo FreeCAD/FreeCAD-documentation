@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/ru
-   Name:FEM PostCreateScalarClipFilter
-   Name/ru:FEM PostCreateScalarClipFilter
+   Name:FEM PostFilterClipScalar
+   Name/ru:FEM PostFilterClipScalar
    MenuLocation: Results → scalar clip filter
    Workbenches:[FEM](FEM_Workbench/ru.md)
    Shortcut:
@@ -20,13 +20,7 @@ ToDo
 ## Использование
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

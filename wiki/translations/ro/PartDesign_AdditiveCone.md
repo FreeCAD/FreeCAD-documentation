@@ -31,7 +31,7 @@ Inserează o primitivă geometrică tip con în corpul activ ca prima funcție(o
 <div class="mw-translate-fuzzy">
 
 1.  Apăsați butonul **<img src="images/PartDesign_AdditiveCone.png" width=24px> '''Additive Cone'''**. **Notă**: Conul Aditiv este parte a meniului cu iconițe numit *Create an additive primitive*. După lansrea FreeCAD, Caseta Aditivă este afișată în bara de instrumente. Pentru a ajunge la butonul Cone, faceți clic pe săgeata în jos dincolo de iconițele vizibile și selectați în meniu Additive Cone .
-2.  Definiți parametrii Primivei geometrice și [Attachment](Part_Attachment.md).
+2.  Definiți parametrii Primivei geometrice și [Attachment](Part_EditAttachment.md).
 3.  Click pe **OK**.
 4.  O funcționalitate Cone apare sub Corpul (Body) activ.
 
@@ -56,7 +56,7 @@ Conul poate fi editat după crearea pe două căi:
 
 <div class="mw-translate-fuzzy">
 
--    **Attachment**: definește modul de conectare, precum și decalajul atașamentului(Offset). Vedeți [Part Attachment](Part_Attachment.md).
+-    **Attachment**: definește modul de conectare, precum și decalajul atașamentului(Offset). Vedeți [Part EditAttachment](Part_EditAttachment.md).
 
 -    **Label**: nume/eticheta dată obiectului Cone. Modificați pentru a se potrivi nevoilor dvs.
 

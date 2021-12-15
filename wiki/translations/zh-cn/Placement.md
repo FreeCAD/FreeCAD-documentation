@@ -272,6 +272,8 @@ To make the placement of \"Sketch\" equal to that of \"Cylinder\", you would ent
 <<Cube>>.Placement
 ``` ![Setting the whole Placement in one expression](images/PlacementInExpression.png )
 
+**NOTE:** It\'s also possible to *create* Placement objects in expressions. See the [Expressions](Expressions#Placement.md) page for details.
+
 ## Notes
 
 -   The Placement properties in the Data tab are disabled for objects which are attached to some other object. The Attachment Offset has to be edited instead.

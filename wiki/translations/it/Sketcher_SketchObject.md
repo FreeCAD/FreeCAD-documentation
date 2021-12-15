@@ -64,7 +64,7 @@ Oltre alle proprietà descritte in [Part Part2DObject](Part_Part2DObject/it.md),
 
 {{TitleProperty|Attachment}}
 
--    **Map Mode**: vedere [Part Attachment](Part_Attachment/it.md) per ulteriori informazioni su tutte le modalità di associazione.
+-    **Map Mode**: vedere [Part EditAttachment](Part_EditAttachment/it.md) per ulteriori informazioni su tutte le modalità di associazione.
 
 
 </div>

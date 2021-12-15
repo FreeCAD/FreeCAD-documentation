@@ -1,6 +1,10 @@
 # Macro FlattenWire/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=FlattenWire
+|Icon=Macro_FlattenWire.png
 |Translate=Wire appiattita su piano mediano
 |Description=Questa macro appiattisce i contorni che non sono su un unico piano al valore mediano della loro coordinata Z
 |Author=Yorik
@@ -9,6 +13,9 @@
 |FCVersion=Tutte
 |Download=[https://www.freecadweb.org/wiki/images/2/2f/Macro_FlattenWire.png ToolBar Icon]
 }}
+
+
+</div>
 
 ## Description
 
@@ -36,8 +43,8 @@ z = 0
 for p in obj.Points: z += p.z
 z = z/len(obj.Points)
 newpoints = []
-for p in obj.Points: newppoints.append(FreeCAD.Vector(p.x,p.y,z))
-obj.Points = newppoints
+for p in obj.Points: newpoints.append(FreeCAD.Vector(p.x, p.y, z))
+obj.Points = newpoints
 ```
 
 ---

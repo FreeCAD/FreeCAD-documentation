@@ -64,7 +64,7 @@ The FreeCAD installer is provided as a app package (.app) enclosed in a disk ima
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/jp|Install on Unix/jp|Getting started/jp}}
+{{docnav/ja|Install on Unix/ja|Getting started/ja}}
 
 
 </div>

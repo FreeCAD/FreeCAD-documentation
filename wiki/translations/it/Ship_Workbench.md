@@ -5,7 +5,13 @@
 
 ## Introduzione
 
+
+<div class="mw-translate-fuzzy">
+
 L\'ambiente <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> Ship serve per creare strutture comuni di navi.
+
+
+</div>
 
 ## Gli strumenti 
 
@@ -50,7 +56,7 @@ L\'ambiente <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> Ship
 
 ## History
 
-The Ship Workbench was unmaintained since v0.17 but has been resurrected in v0.19. As of v0.19 it also now designated an [external workbench](external_workbenches.md), so it is no longer included in the base system. Instead it\'s available via the [Addon Manager](Addon_Manager.md)
+The Ship Workbench was unmaintained since v0.17 but has been resurrected in v0.19. As of v0.19 it also now designated an [external workbench](External_workbenches.md), so it is no longer included in the base system. Instead it\'s available via the [Addon Manager](Std_AddonMgr.md).
 
 ## References
 

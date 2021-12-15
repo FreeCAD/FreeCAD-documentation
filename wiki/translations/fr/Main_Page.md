@@ -6,14 +6,14 @@ Ceci est la documentation wiki de _!
 
 ## Les documentations 
 
-<img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Documentation pour utilisateurs](User_hub/fr.md) : Cette page contient de la documentation utile aux utilisateurs de FreeCAD en général : une liste de tous les ateliers, des instructions détaillées sur l'installation et l'utilisation de l'application FreeCAD, des tutoriels, et tout ce dont vous avez besoin pour commencer.
+<img alt="Crystal_Clear_app_display.png" src=images/Crystal_Clear_app_display.png  style="width:64px;"> [Documentation pour utilisateurs](User_hub/fr.md) : Cette page contient de la documentation utile aux utilisateurs de FreeCAD en général : une liste de tous les ateliers, des instructions détaillées sur l'installation et l'utilisation de l'application FreeCAD, des tutoriels et tout ce dont vous avez besoin pour commencer.
 
 
 
 
 
-<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Documentation pour utilisateurs expérimentés](Power_users_hub/fr.md) : Cette page rassemble la documentation destinée aux utilisateurs avancés et aux personnes intéressées par l\'écriture de scripts Python. Vous y trouverez également un référentiel de macros, des instructions sur la façon de les installer et de les utiliser, ainsi que de plus amples informations sur la personnalisation de FreeCAD selon vos besoins spécifiques. 
- <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Documentation pour développeurs](Developer_hub/fr.md) : Cette section contient du matériel destiné aux développeurs : Comment compiler FreeCAD vous-même, comment le code source de FreeCAD est structuré, comment naviguer dans le code source, comment développer de nouveaux ateliers, et intégrer FreeCAD dans votre propre application. 
+<img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:64px;"> [Documentation pour utilisateurs expérimentés](Power_users_hub/fr.md) : Cette page rassemble la documentation destinée aux utilisateurs avancés et aux personnes intéressées par l\'écriture de scripts Python. Vous y trouverez également un dépôt de macros, des instructions sur la façon de les installer et de les utiliser, ainsi que de plus amples informations sur la personnalisation de FreeCAD selon vos besoins spécifiques. 
+ <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:64px;"> [Documentation pour développeurs](Developer_hub/fr.md) : Cette section contient du matériel destiné aux développeurs : comment compiler FreeCAD vous-même, comment le code source de FreeCAD est structuré, comment naviguer dans le code source, comment développer de nouveaux ateliers et intégrer FreeCAD dans votre propre application. 
 
 
 ## Manuel
@@ -35,7 +35,7 @@ La table des matières suivante liste tous les articles de ce wiki qui constitue
 | -   ![](images/Flag-cn.jpg ) [目录](Online_Help_Toc/zh-cn.md) zh-cn        | -   ![](images/Flag-it.jpg ) [Sommario](Online_Help_Toc/it.md)           | -   ![](images/Flag-ru.jpg ) [Содержание](Online_Help_Toc/ru.md)             |
 | -   ![](images/Flag-cn.jpg‎ ) [目錄](Online_Help_Toc/zh-tw.md) zh-tw      | -   ![](images/Flag-jp.jpg ) [目次](Online_Help_Toc/ja.md) ja            | -   ![](images/Flag-sv.jpg ) [Innehallsforteckning](Online_Help_Toc/sv.md)   |
 | -   ![](images/Flag-cs.jpg ) [Obsah](Online_Help_Toc/cs.md)                | -   ![](images/Flag-ko.jpg ) [온라인 도움말](Online_Help_Toc/ko.md)      | -   ![](images/Flag-tr.jpg ) [İçindekiler](Online_Help_Toc/tr.md)            |
-| -   ![](images/Flag-de.jpg ) [Inhaltsverzeichnis](Online_Help_Toc/de.md)   | -   ![](images/Flag-pl.jpg ) [Spis Treści](Online_Help_Toc/pl.md)        | -   ![](images/Flag-uk.jpg ) [Інтернет Допомога](Online_Help_Toc/uk.md)      |
+| -   ![](images/Flag-de.jpg ) [Inhaltsverzeichnis](Online_Help_Toc/de.md)   | -   ![](images/Flag-pl.jpg ) [Spis Treści](Online_Help_Toc/pl.md)        | -   ![](images/Flag-uk.jpg ) [Вміст](Online_Help_Toc/uk.md)                  |
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                            |                                                                                                |
 +----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 

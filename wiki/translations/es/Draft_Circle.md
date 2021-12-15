@@ -49,7 +49,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Presiona el botón **<img src="images/Draft_Circle.png" width=16px> [Circunferencia](Draft_Circle/es.md)
 **, o presiona las teclas **C** y **I**
-2.  Selecciona un primer punto en la vista 3D, o escribe una [coordenadas](Draft_Coordinates/es.md)
+2.  Selecciona un primer punto en la vista 3D, o escribe una coordenadas
 3.  Selecciona un segundo punto en la vista 3D, o introduce un valor de radio.
 
 

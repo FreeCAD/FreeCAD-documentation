@@ -23,7 +23,13 @@ Toto grafické rozhraní umožňuje pohledu aby byl otáčen s mnohem větší p
 
 ## Kód
 
+
+<div class="mw-translate-fuzzy">
+
 Nejnovější verze makra se nachází na adrese _.
+
+
+</div>
 
 ToolBar Icon ![](images/Macro_View_Rotation.png )
 

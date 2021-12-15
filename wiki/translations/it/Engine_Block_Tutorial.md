@@ -1,5 +1,5 @@
 # Engine Block Tutorial/it
-} {{TutorialInfo/it
+{{TutorialInfo/it
 |Topic= Part
 |Level= Base
 |Time= 1 ora

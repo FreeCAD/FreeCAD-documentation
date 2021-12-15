@@ -40,7 +40,7 @@
 ## Usage
 
 1.  Invoke the Ifc Explorer via:
-    -   Pressing the <img alt="" src=images/IFC.svg  style="width:24px;"> button
+    -   Pressing the <img alt="" src=images/Arch_IfcExplorer.svg  style="width:24px;"> button
     -   Using the **Arch → Utilities → Ifc Explorer** entry from the Arch dropdown menu.
 
 

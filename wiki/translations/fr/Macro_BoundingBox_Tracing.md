@@ -1,6 +1,5 @@
 # Macro BoundingBox Tracing/fr
 {{Macro/fr
-|Icon=BoundBoxTracing.png
 |Name=Macro BoundingBox Tracing
 |Icon=BoundBoxTracing.png
 |Description=Crée un contour rouge de la BoundingBox (6 faces avec 6 rectangles) d'un objet, crée le volume du boundBox.

@@ -5,7 +5,7 @@
    MenuLocation:Modification → Array tools → Circular array
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Version:0.19
-   SeeAlso:[Draft Réseau orthogonal](Draft_OrthoArray.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Chemin pour série de copies](Draft_PathArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
+   SeeAlso:[Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau polaire](Draft_PolarArray/fr.md), [Draft Réseau selon une courbe](Draft_PathArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
 ---
 
 # Draft CircularArray/fr
@@ -21,7 +21,7 @@ Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier D
 
 ## Utilisation
 
-Voir aussi : [Draft Accrochage](Draft_Snap/fr.md).
+Voir aussi : [Draft Aimantation](Draft_Snap/fr.md).
 
 1.  Optionnellement, sélectionnez un objet.
 2.  Il existe plusieurs façons de lancer la commande :
@@ -45,12 +45,12 @@ Voir aussi : [Draft Accrochage](Draft_Snap/fr.md).
 -   Appuyez sur le bouton **Réinitialiser le point** pour réinitialiser le **Centre de rotation** à l\'origine.
 -   Si la case **Union** est cochée, les éléments qui se chevauchent dans le réseau seront fusionnés. Cela ne fonctionne pas pour les réseaux de liens.
 -   Si la case **Réseau de liens** est cochée, un réseau de liens est créé au lieu d\'un réseau normal. Un réseau de liens est plus performant car ses éléments sont des objets [App Link](App_Link/fr.md).
--   Appuyez sur **Echap** ou sur le bouton **Annuler** pour abandonner la commande.
+-   Appuyez sur **Échap** ou sur le bouton **Annuler** pour abandonner la commande.
 
 ## Remarques
 
--   L\'axe de rotation par défaut du tableau est l\'axe Z positif. Il peut être modifié en éditant sa propriété {{PropertyData/fr|Axis}}.
--   Un Draft Réseau circulaire peut être transformé en un [Draft Réseau orthogonal](Draft_OrthoArray/fr.md) ou un [Draft Réseau polaire](Draft_PolarArray/fr.md) en modifiant sa propriété {{PropertyData/fr|Array Type}}.
+-   L\'axe de rotation par défaut du tableau est l\'axe Z positif. Il peut être modifié en éditant sa propriété **Axis**.
+-   Un Draft Réseau circulaire peut être transformé en un [Draft Réseau orthogonal](Draft_OrthoArray/fr.md) ou un [Draft Réseau polaire](Draft_PolarArray/fr.md) en modifiant sa propriété **Array Type**.
 -   Un réseau de liens ne peut pas être transformé en un réseau normal ou vice versa. Le type de réseau doit être décidé au moment de la création.
 
 ## Préférences

@@ -244,7 +244,7 @@ An Arch BuildingPart is derived from an [App GeoFeature](App_GeoFeature.md) obje
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul BuildingPart poate fi utilizat în [macro-uri](macro-uri.md) și din consola Python utilizând următoarea funcție:
+Instrumentul BuildingPart poate fi utilizat în [macro-uri](Macros/ro.md) și din consola Python utilizând următoarea funcție:
 
 
 </div>

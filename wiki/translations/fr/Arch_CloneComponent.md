@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/fr
-   Name:Arch cloneComponent‏‎‏‎
+   Name:Arch CloneComponent‏‎‏‎
    Name/fr:Arch Composant de clone
    MenuLocation:Arch → Utilities → Composant de clone
    Workbenches:[Arch](Arch_Workbench/fr.md)

@@ -1,7 +1,7 @@
 # Macro HighlightDifference/fr
 {{Macro/fr
 |Name=HighlightDifference
-|Description=Crée un objet(s) différence entre deux objets qui se chevauchent
+|Description=Calcule la différence entre deux formes. Les ajouts sont marqués en rouge, les retraits sont marqués en vert. Les deux parties originales seront à moitié transparentes. Le volume des ajouts et des retraits est imprimé dans la console.
 |Author=Gaël Ecorchard
 |Version=1.0
 |Date=2015-09-24
@@ -9,13 +9,13 @@
 
 ## Description
 
-Crée des objets calculés sur la différence du chevauchement des objets originaux. les nouveaux objets sont coloré en rouge et vert. les objets originaux ne sont pas modifiés mais rendu transparent à 80%. le volume de chaque nouveau objet est affiché dans la Vue rapport.
+Calcule la différence entre deux formes. Les ajouts sont marqués en rouge, les retraits sont marqués en vert. Les deux parties originales seront à moitié transparentes. Le volume des ajouts et des retraits est imprimé dans la console.
 
 
 {{Codeextralink|https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Utility/HighlightDifference.FCMacro}}
 
-<img alt="Le résultat de la différence entre les deux objets est créé" src=images/Macro_HighlightDifference_02.png  style="width:400px;"> 
-*Result difference two objects created*
+<img alt="" src=images/Macro_HighlightDifference_02.png  style="width:400px;"> 
+*Le résultat de la différence entre les deux objets est créé*
 
 ## Exemple
 
@@ -31,8 +31,6 @@ Image:Macro HighlightDifference 00.png\|Objets originaux Image:Macro HighlightDi
 
 
 ## Script
-
-**Macro\_HighlightDifference.FCMacro**
 
 Le code est visible sur Github: [Utility/HighlightDifference.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Utility/HighlightDifference.FCMacro).
 

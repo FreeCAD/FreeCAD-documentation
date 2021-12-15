@@ -20,7 +20,13 @@ Extrahiert den gemeinsamen Teil (Schnittmenge) zwischen ausgewählten Teilobjekt
 
 ### Unterstützte Eingaben 
 
-Eingabeobjekte müssen [OpenCascade ](OpenCascade/de.md) Formen sein. Beispiele: Dinge, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurde. Keine Polygonnetze (es sei denn, diese wurden in Formen konvertiert) - für Polygonnetze gibt es gesonderte boolesche Werkzeuge im Netzkonstruktionsarbeitsbereich.
+
+<div class="mw-translate-fuzzy">
+
+Eingabeobjekte müssen [OpenCascade](OpenCASCADE/de.md) Formen sein. Beispiele: Dinge, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurde. Keine Polygonnetze (es sei denn, diese wurden in Formen konvertiert) - für Polygonnetze gibt es gesonderte boolesche Werkzeuge im Netzkonstruktionsarbeitsbereich.
+
+
+</div>
 
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/de

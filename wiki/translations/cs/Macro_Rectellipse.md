@@ -4,6 +4,7 @@
 
 {{Macro/cs
 |Name=Rectellipse Macro
+|Icon=Macro_Rectellipse.png
 |Translate=Rectellipse Macro
 |Description=Vytváří parametrickou obdélníkovou elipsu
 |Author=fcaponi78

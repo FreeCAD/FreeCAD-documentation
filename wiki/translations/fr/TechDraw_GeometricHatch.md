@@ -4,14 +4,14 @@
    Name/fr:TechDraw Hachures géométriques
    MenuLocation:TechDraw → Appliquer un motif de hachure géométrique à une face
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
-   SeeAlso:[TechDraw Hachures par motifs](TechDraw_Hatch/fr.md), [TechDraw Hachures](TechDraw_Hatching/fr.md)
+   SeeAlso:[TechDraw Hachures par motif](TechDraw_Hatch/fr.md), [TechDraw Hachures](TechDraw_Hatching/fr.md)
 ---
 
 # TechDraw GeometricHatch/fr
 
 ## Description
 
-L\'outil Hachures géométriques remplit une région fermée dans une vue avec un motif basé sur une spécification de hachures AutoDesk PAT. **Alternativement**, l\'outil [TechDraw Hachures par motifs](TechDraw_Hatch/fr.md) utilise un fichier [SVG](SVG/fr.md) ou [bitmap](bitmap/fr.md) comme motif de hachures, voir [TechDraw Hachures](TechDraw_Hatching/fr.md) pour plus de détails.
+L\'outil Hachures géométriques remplit une région fermée dans une vue avec un motif basé sur une spécification de hachures AutoDesk PAT. **Alternativement**, l\'outil [TechDraw Hachures par motif](TechDraw_Hatch/fr.md) utilise un fichier [SVG](SVG/fr.md) ou [bitmap](bitmap/fr.md) comme motif de hachures, voir [TechDraw Hachures](TechDraw_Hatching/fr.md) pour plus de détails.
 
 <img alt="" src=images/TechDraw_GeomHatch_example.png  style="width:300px;"> 
 *Motif de hachures géométriques sur une face*
@@ -46,17 +46,17 @@ est le répertoire où FreeCAD a été installé, par exemple
 
 ## Propriétés
 
--    {{PropertyData/fr|Source}}: vue et la face pour recevoir le motif de hachures.
+-    **Source**: vue et la face pour recevoir le motif de hachures.
 
--    {{PropertyData/fr|File Pattern}}: emplacement du fichier PAT à utiliser.
+-    **File Pattern**: emplacement du fichier PAT à utiliser.
 
--    {{PropertyData/fr|Name Pattern}}: nom de la spécification PAT dans File Pattern.
+-    **Name Pattern**: nom de la spécification PAT dans File Pattern.
 
--    {{PropertyData/fr|Scale Pattern}}: échelle à appliquer au motif (doit être\> 0.0).
+-    **Scale Pattern**: échelle à appliquer au motif (doit être\> 0.0).
 
--    {{PropertyView/fr|Weight Pattern}}: épaisseur des lignes de motif.
+-    **Weight Pattern**: épaisseur des lignes de motif.
 
--    {{PropertyView/fr|Color Pattern}}: couleur des lignes de motif.
+-    **Color Pattern**: couleur des lignes de motif.
 
 ## Script
 

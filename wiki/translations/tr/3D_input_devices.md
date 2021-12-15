@@ -7,7 +7,7 @@ FreeCAD, 3D fareler gibi bazı özel giriş aygıtlarını destekler. Bunlar, ku
 <div class="mw-translate-fuzzy">
 
 -   3Dconnexion [SpaceNavigator](http://www.3dconnexion.com/products/spacenavigator.html)
-    -   Kurulum Talimatları: [3Dconnexion input devices](3Dconnexion_input_devices.md)
+-   Kurulum Talimatları: [3Dconnexion input devices](3Dconnexion_input_devices/tr.md)
 
 
 </div>

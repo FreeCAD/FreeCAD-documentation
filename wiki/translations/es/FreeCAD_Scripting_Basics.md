@@ -21,15 +21,11 @@ Por lo tanto, comience aquí escribiendo `App.` o `Gui.` y vea lo que sucede. Ot
 
 Otra característica útil del intérprete es la posibilidad de retroceder en el historial de comandos y recuperar una línea de código que ya hayas escrito anteriormente. Para navegar por el historial de comandos, basta con utilizar **Flecha arriba** o **Flecha abajo**.
 
-Al hacer clic derecho en la ventana del intérprete también tienes otras opciones, tales como copiar todo el historial (útil para experimentar con algo, y luego hacer un archivo de guión con todo ello), o insertar el nombre de un archivo con su ruta completa.
-
-[inicio](#top.md)
+Al hacer clic derecho en la ventana del intérprete también tienes otras opciones, tales como copiar todo el historial (útil para experimentar con algo, y luego hacer un archivo de guión con todo ello), o insertar el nombre de un archivo con su ruta completa. {{Top}}
 
 ### Ayuda de Python 
 
-En el menú de FreeCAD **Ayuda**, encontrarás una entrada etiquetada como **Documentación automática de los módulos de Python**, que abrirá una ventana del navegador que contiene una documentación completa, generada en tiempo real, de todos los módulos de Python disponibles para el intérprete de FreeCAD, incluyendo los módulos incorporados de Python y FreeCAD, los módulos instalados en el sistema y los módulos adicionales de FreeCAD. La documentación disponible allí depende del esfuerzo que cada desarrollador de módulos ponga en documentar su código, pero los módulos de Python tienen la reputación de estar bastante bien documentados. Tu ventana de FreeCAD debe permanecer abierta para que este sistema de documentación funcione. La entrada **Documentación Guionización en Python** te dará un enlace rápido a la sección wiki [Centro usuarios avanzados](Power_users_hub/es.md).
-
-[inicio](#top.md)
+En el menú de FreeCAD **Ayuda**, encontrarás una entrada etiquetada como **Documentación automática de los módulos de Python**, que abrirá una ventana del navegador que contiene una documentación completa, generada en tiempo real, de todos los módulos de Python disponibles para el intérprete de FreeCAD, incluyendo los módulos incorporados de Python y FreeCAD, los módulos instalados en el sistema y los módulos adicionales de FreeCAD. La documentación disponible allí depende del esfuerzo que cada desarrollador de módulos ponga en documentar su código, pero los módulos de Python tienen la reputación de estar bastante bien documentados. Tu ventana de FreeCAD debe permanecer abierta para que este sistema de documentación funcione. La entrada **Documentación Guionización en Python** te dará un enlace rápido a la sección wiki [Centro usuarios avanzados](Power_users_hub/es.md). {{Top}}
 
 ## Módulos incorporados 
 
@@ -39,9 +35,7 @@ Dado que FreeCAD está diseñado para que también pueda ejecutarse sin una inte
 
 -   En el módulo `Gui`, encontrarás herramientas para acceder y gestionar los elementos de la Gui, como los ambientes de trabajo y sus barras de herramientas, y, lo que es más interesante, la representación gráfica de todo el contenido de FreeCAD.
 
-Listar el contenido de estos módulos no es muy útil porque crecen bastante rápido a medida que FreeCAD se desarrolla. Pero las dos herramientas de navegación proporcionadas (el navegador de clases y la ayuda de Python) deberían darte una documentación completa y actualizada en cualquier momento.
-
-[inicio](#top.md)
+Listar el contenido de estos módulos no es muy útil porque crecen bastante rápido a medida que FreeCAD se desarrolla. Pero las dos herramientas de navegación proporcionadas (el navegador de clases y la ayuda de Python) deberían darte una documentación completa y actualizada en cualquier momento. {{Top}}
 
 ### Los objetos App y Gui 
 
@@ -79,9 +73,7 @@ donde `"ObjectName"` es el nombre de su objeto. También puede teclea:
 myViewObject = App.ActiveDocument.ObjectName.ViewObject
 ```
 
-Si está en modo de línea de comandos y no tiene GUI, la última línea devolverá `None`.
-
-[inicio](#top.md)
+Si está en modo de línea de comandos y no tiene GUI, la última línea devolverá `None`. {{Top}}
 
 ### Los objetos Documento 
 
@@ -115,13 +107,12 @@ Para acceder a la vista actual, teclea:
 myView = Gui.ActiveDocument.ActiveView
 ```
 
-[inicio](#top.md)
+
+{{Top}}
 
 ## Utilizando módulos adicionales 
 
-Los módulos `FreeCAD` y `FreeCADGui` sólo se encargan de crear y gestionar objetos en el documento de FreeCAD. En realidad no hacen nada más como crear o modificar la geometría. Esto se debe a que la geometría puede ser de varios tipos, y por lo tanto requiere módulos adicionales, cada uno responsable de la gestión de un determinado tipo de geometría. Por ejemplo, el _ es capaz de construir y modificar objetos de malla. De esta manera FreeCAD es capaz de manejar una amplia variedad de tipos de objetos, que pueden coexistir en el mismo documento, y nuevos tipos pueden ser fácilmente añadidos en el futuro.
-
-[inicio](#top.md)
+Los módulos `FreeCAD` y `FreeCADGui` sólo se encargan de crear y gestionar objetos en el documento de FreeCAD. En realidad no hacen nada más como crear o modificar la geometría. Esto se debe a que la geometría puede ser de varios tipos, y por lo tanto requiere módulos adicionales, cada uno responsable de la gestión de un determinado tipo de geometría. Por ejemplo, el _ es capaz de construir y modificar objetos de malla. De esta manera FreeCAD es capaz de manejar una amplia variedad de tipos de objetos, que pueden coexistir en el mismo documento, y nuevos tipos pueden ser fácilmente añadidos en el futuro. {{Top}}
 
 ### Creación objetos 
 
@@ -158,7 +149,8 @@ cube = Part.makeBox(2, 2, 2)
 Part.show(cube)
 ```
 
-[inicio](#top.md)
+
+{{Top}}
 
 ### Modificando objetos 
 
@@ -179,7 +171,8 @@ biggercube = Part.makeBox(5, 5, 5)
 myPart.Shape = biggercube
 ```
 
-[inicio](#top.md)
+
+{{Top}}
 
 ### Consultar objetos 
 
@@ -198,14 +191,21 @@ o comprobar si un objeto deriva de uno de los básicos (Característica Pieza, C
 print(myObj.isDerivedFrom("Part::Feature"))
 ```
 
-¡Ahora puedes empezar a jugar de verdad con FreeCAD! Para una lista completa de los módulos disponibles y sus herramientas, visite la sección _.
+¡Ahora puedes empezar a jugar de verdad con FreeCAD! Para una lista completa de los módulos disponibles y sus herramientas, visite la sección _. {{Top}}
 
-[inicio](#top.md)
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/es|Python scripting tutorial/es|Mesh Scripting/es}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

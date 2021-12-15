@@ -1,11 +1,15 @@
-# Ship Area/ru
 ---
 - GuiCommand:/ru
    Name:Ship Area
    Name/ru:Ship Area
+   Icon:Ship_AreaCurve.svg
    MenuLocation:Ship design → Строевая
    Workbenches:[Ship](Ship_Workbench/ru.md)
-   Shortcut:   SeeAlso:---
+   Shortcut:
+   SeeAlso:
+---
+
+# Ship Area/ru
 
 
 </div>

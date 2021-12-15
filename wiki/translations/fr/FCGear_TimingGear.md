@@ -15,11 +15,8 @@ Le but des engrenages de distribution est de permettre à l\'arbre à cames et a
 
 Les engrenages de distribution sont connectés à une courroie de distribution ou une chaîne de distribution.
 
-:   ![](images/Timing-Gear_example.png )
-:   
-    
+![](images/Timing-Gear_example.png ) 
 *Au-dessus: engrenage de distribution*
-    
 
 ## Utilisation
 

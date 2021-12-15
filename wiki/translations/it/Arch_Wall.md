@@ -47,8 +47,8 @@ Quando più muri devono essere intersecati, è necessario inserirli in un [piano
 <div class="mw-translate-fuzzy">
 
 1.  Premere il pulsante **<img src="images/Arch_Wall.svg" width=16px> [Muro](Arch_Wall/it.md)**, oppure premere i tasti **W** e poi **A**.
-2.  Definire un primo punto nella vista 3D, o digitare le sue [coordinate](Draft_Coordinates/it.md).
-3.  Definire un secondo punto nella vista 3D, o digitare le sue [coordinate](Draft_Coordinates/it.md).
+2.  Definire un primo punto nella vista 3D, o digitare le sue coordinate.
+3.  Definire un secondo punto nella vista 3D, o digitare le sue coordinate.
 
 
 </div>

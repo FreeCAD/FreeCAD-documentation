@@ -169,10 +169,6 @@ brew uninstall --ignore-dependencies --force cartr/qt4/shiboken@1.2 cartr/qt4/py
 
 *\"No CMAKE\_Fortran\_COMPILER could be found.\"* (Aucun CMAKE\_Fortran\_COMPILER n\'a pu être trouvé) lors de la configuration - Les anciennes versions de FreeCAD nécessiteront l\'installation d\'un compilateur Fortran. Avec Homebrew, faites \"brew install gcc\" et essayez à nouveau de configurer cmake en donnant le chemin à Fortran, c\'est-à-dire -DCMAKE\_Fortran\_COMPILER=/opt/local/bin/gfortran-mp-4.9, ou utilisez de préférence une version plus récente de la source FreeCAD!
 
-### OpenGL
-
-Voir [OpenGL sur MacOS](OpenGL_on_MacOS.md) pour les problèmes OpenGL lorsque Qt 4.8 et versions antérieures sont utilisées sous MacOS.
-
 ### FreeType
 
 Si vous utilisez des versions de CMake antérieures à la version 3.1.0, il est nécessaire de définir la variable CMake FREETYPE\_INCLUDE\_DIR\_freetype2 manuellement, par exemple /usr/local/include/freetype2.

@@ -58,7 +58,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 1.  
     **<img src="images/_Draft_Circle.png" width=16px> [Çember](Draft_Circle/tr.md)**düğmesine basın veya **C** ardından **I** tuşlarına basın .
 
-2.  3D görünümde bir ilk noktaya tıklayın veya bir [koordinat](Draft_Coordinates/tr.md) yazın ve **<img src="images/_Draft_AddPoint.svg" width=16px> [Nokta ekle](Draft_AddPoint/tr.md)** düğmesine basın.
+2.  3D görünümde bir ilk noktaya tıklayın veya bir koordinat yazın ve **<img src="images/_Draft_AddPoint.svg" width=16px> Nokta ekle** düğmesine basın.
 
 3.  3D görünümünde ikinci bir noktaya tıklayın veya bir yarıçap değeri girin.
 
@@ -79,7 +79,7 @@ The single character keyboard shortcuts available in the task panel can be chang
         **Alt**
         
         tuşuna basarak, bir nokta seçmek yerine bir teğet seçebilirsiniz. Bu nedenle, bir, iki veya üç teğet seçerek birkaç daire tipi oluşturabilirsiniz.
--   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında **Enter** tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda **<img src="images/_Draft_AddPoint.svg" width=16px> [Nokta ekle](Draft_AddPoint/tr.md)** düğmesine basabilirsiniz.
+-   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında **Enter** tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda **<img src="images/_Draft_AddPoint.svg" width=16px> Nokta ekle** düğmesine basabilirsiniz.
 -   **Devam** moduna geçmek için **T** tuşuna basın veya onay kutusunu tıklayın. Devam modu açıksa, daireyi tamamladıktan sonra Daire aracı yeniden başlatılır ve araç düğmesine tekrar basmadan bir tane daha çizmenize olanak sağlar.
 -   **Dolgu** moduna geçmek için **L** tuşuna basın veya onay kutusunu tıklayın. Dolgu modu açıksa, daire dolgulu bir yüz oluşturur ({{PropertyData/tr|Make Face}} `True`); değilse, daire bir yüz oluşturmaz ({{PropertyData/tr|Make Face}} `False`).
 -   [snapping](Draft_Snap/tr.md) noktanızı mesafeden bağımsız olarak, en yakın çeki konumuna yönlendirmek için çizim yaparken **Ctrl** tuşunu basılı tutun.

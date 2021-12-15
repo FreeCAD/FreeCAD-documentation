@@ -46,8 +46,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 <div class="mw-translate-fuzzy">
 
 1.  Drücke die **<img src="images/Draft_Line.svg" width=16px> [Entwurf Linie](Draft_Line/de.md)** Schaltfläche, oder verwende **Entwurf** → **<img src="images/Draft_Line.svg" width=16px> [Linie](Draft_Line/de.md)** aus dem oberen Menü oder verwende die Tastaturkürzel: **L**, dann **I**.
-2.  Klicke auf einen ersten Punkt in der 3D Ansicht, oder gib eine [Koordinate](Draft_Coordinates/de.md) ein und drücke die Taste **<img src="images/Draft_AddPoint.svg" width=16px>[Punkt hinzufügen](Draft_AddPoint/de.md)** Taste.
-3.  Klicke auf einen zweiten Punkt in der 3D Ansicht, oder gib eine [Koordinate](Draft_Coordinates/de.md) ein und drücke die Taste **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** Taste.
+2.  Klicke auf einen ersten Punkt in der 3D Ansicht, oder gib eine Koordinate ein und drücke die Taste **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste.
+3.  Klicke auf einen zweiten Punkt in der 3D Ansicht, oder gib eine Koordinate ein und drücke die Taste **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste.
 
 
 </div>
@@ -61,15 +61,15 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Optionen
 
--   Drücke **X**}, **Y** oder **Z** nach dem ersten Punkt, um den zweiten Punkt auf der angegebenen Achse zu beschränken.
+-   Drücke **X**, **Y** oder **Z** nach dem ersten Punkt, um den zweiten Punkt auf der angegebenen Achse zu beschränken.
 -   Um Koordinaten manuell einzugeben, gib einfach die Zahlen ein und drücken dann **Enter** zwischen den einzelnen X-, Y- und Z-Komponenten.
     -   Du kannst auch die Polarkoordinaten des Punktes definieren, indem du einen Wert für \"Länge\" und \"Winkel\" angibst. Klicke auf das Kontrollkästchen neben \"Winkel\", um den Zeiger auf den angegebenen Winkel zu beschränken.
-    -   Du kannst die **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** Taste drücken wenn Du die gewünschten Werte hast, um den Punkt einzufügen.
+    -   Du kannst die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste drücken wenn Du die gewünschten Werte hast, um den Punkt einzufügen.
 -   Drücke {**R** oder klicke auf das Kontrollkästchen, um den *relativen* Modus umzuschalten. Wenn der Relativmodus eingeschaltet ist, sind die Koordinaten des zweiten Punktes relativ zum ersten; wenn nicht, sind sie absolut, bezogen auf den Ursprung (0,0,0).
 -   Drücke **T** oder klicke auf das Kontrollkästchen, um den *Weiter*-Modus umzuschalten. Wenn der Fortsetzungsmodus eingeschaltet ist, wird das Linienwerkzeug nach der Eingabe des zweiten Punktes neu gestartet, so dass du ein weiteres Liniensegment zeichnen kannst, ohne die Werkzeugtaste erneut zu drücken.
 -   Halte **Ctrl** während des Zeichnens gedrückt, um [Fang](Draft_Snap/de.md) deinen Punkt auf die nächstgelegene Fangposition zu zwingen, unabhängig von der Entfernung.
 -   Halte **Shift** während des Zeichnens gedrückt, um deinen zweiten Punkt horizontal oder vertikal in Bezug auf den ersten zu [Beschränkung](Draft_Constrain/de.md).
--   Drücke **Strg**+**Z** oder drücke die {{button|<img src="images/Draft_UndoLine.svg" width=12px> [Rückgängig](Draft_UndoLine/de.md)}} Schaltfläche, um den letzten Punkt rückgängig zu machen.
+-   Drücke **Strg**+**Z** oder drücke die {{button|<img src="images/Draft_UndoLine.svg" width=12px> Rückgängig}} Schaltfläche, um den letzten Punkt rückgängig zu machen.
 -   Drücke **Esc** oder die Taste **Close**, um den aktuellen Befehl abzubrechen.
 
 

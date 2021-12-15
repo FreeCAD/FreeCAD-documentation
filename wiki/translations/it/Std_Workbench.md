@@ -20,7 +20,13 @@ Il comando **Ambienti** attiva l\'[ambiente di lavoro](Workbenches/it.md) selezi
 
 ## Note
 
+
+<div class="mw-translate-fuzzy">
+
 -   Ulteriori _.
+
+
+</div>
 
 ## Preferenze
 

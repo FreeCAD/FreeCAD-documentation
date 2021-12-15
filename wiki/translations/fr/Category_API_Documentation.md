@@ -8,4 +8,4 @@ Cette catégorie regroupe tous les articles documentant l'API python de FreeCAD 
 _
 
 ---
-[documentation index](../README.md) > Category:API Documentation/fr
+[documentation index](../README.md) > [API](Category_API.md) > Category:API Documentation/fr

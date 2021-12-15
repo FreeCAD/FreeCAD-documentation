@@ -1,15 +1,15 @@
-# <img alt="FEM workbench icon" src=images/Workbench_FEM.svg  style="width:64px;"> FEM Workbench/pl
+# <img alt="Ikonka FreeCAD dla środowiska pracy MES" src=images/Workbench_FEM.svg  style="width:64px;"> FEM Workbench/pl
 
 
 {{TOCright}}
 
-## Introduction
+## Wprowadzenie
 
 The [FEM Workbench](FEM_Workbench.md) provides a modern [finite element analysis](https://en.wikipedia.org/wiki/Finite_element_analysis) (FEA) workflow for FreeCAD. Mainly this means all tools to make an analysis are combined into one graphical user interface (GUI).
 
 <img alt="" src=images/FemWorkbench.jpg  style="width:300px;">
 
-## Workflow
+## Przepływ pracy 
 
 The steps to carry out a finite element analysis are:
 
@@ -84,7 +84,7 @@ The FEM Workbench can be used on Linux, Windows, and Mac OSX. Since the workbenc
 
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Constraint tie](FEM_ConstraintTie.md): Used to define a tie constraint (\"bonded contact\") between two faces. <small>(v0.19)</small> 
 
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a tie constraint (\"bonded contact\") between two faces. <small>(v0.20)</small> 
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Constraint force](FEM_ConstraintForce.md): Used to define a force in \[N\] applied uniformly to a selectable face in a definable direction.
 
@@ -256,8 +256,8 @@ The following articles explain how the workbench can be extended, for example, b
 
 -   [Extend FEM Module](Extend_FEM_Module.md)
 -   [Onboarding FEM Devs](Onboarding_FEM_Devs.md) attempts to orient new devs on how to contribute to the FEM workbench.
--   [Add FEM constraint tutorial](Add_FEM_constraint_tutorial.md)
--   [Add FEM equation\_tutorial](Add_FEM_equation_tutorial.md)
+-   [Add FEM Constraint Tutorial](Add_FEM_Constraint_Tutorial.md)
+-   [Add FEM Equation Tutorial](Add_FEM_Equation_Tutorial.md)
 
 A developer\'s guide has been written to help power users in understanding the complex FreeCAD codebase and the interactions between the core elements and the individual workbenches. The book is hosted at github so multiple users can contribute to it and keep it updated.
 

@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/de
-   Name:Mesh MeshFromShape‏‎
+   Name:Mesh FromPartShape
    Name/de:Netz AusTeilForm
    MenuLocation:Polygonnetze → Erzeuge Polygonnetz aus Form...
    Workbenches:[Polygonnetz](Mesh_Workbench/de.md)

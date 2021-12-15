@@ -4,7 +4,7 @@
    Name/de:TechDraw Längenbemaßung
    MenuLocation:TechDraw → Bemaßungen → Längenmaß einfügen
    Workbenches:[TechDraw](TechDraw_Workbench/de.md)
-   SeeAlso:[TechDraw Bemaßung Horizontal](TechDraw_Dimension_Horizontal/de.md), [TechDraw Bemaßung Vertikal](TechDraw_Dimension_Vertical/de.md)
+   SeeAlso:[TechDraw Bemaßung Horizontal](TechDraw_HorizontalDimension/de.md), [TechDraw Bemaßung Vertikal](TechDraw_VerticalDimension/de.md)
 ---
 
 # TechDraw LengthDimension/de
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Das Werkzeug »Längenbemaßung« fügt ein lineares Maß in einer Ansicht hinzu. Das Längenmaß kann der Abstand zwischen zwei Ecken, die Länge einer Kante oder der Abstand zwischen zwei Kanten sein. Der Abstand ist zuerst der projizierte Abstand (wie in der Zeichnung dargestellt), aber dieser kann unter Verwendung des **<img src="images/TechDraw_Dimension_Link.svg" width=16px> [Bemaßungen verlinken](TechDraw_Dimension_Link/de.md)**-Werkzeugs zum eigentlichen 3D-Abstand geändert werden.
+Das Werkzeug »Längenbemaßung« fügt ein lineares Maß in einer Ansicht hinzu. Das Längenmaß kann der Abstand zwischen zwei Ecken, die Länge einer Kante oder der Abstand zwischen zwei Kanten sein. Der Abstand ist zuerst der projizierte Abstand (wie in der Zeichnung dargestellt), aber dieser kann unter Verwendung des **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Bemaßungen verlinken](TechDraw_LinkDimension/de.md)**-Werkzeugs zum eigentlichen 3D-Abstand geändert werden.
 
 
 </div>
@@ -31,7 +31,7 @@ Das Werkzeug »Längenbemaßung« fügt ein lineares Maß in einer Ansicht hinzu
 <div class="mw-translate-fuzzy">
 
 1.  Wähle die Punkte oder die Kante, die deine Messung definieren.
-2.  Drücke die **<img src="images/TechDraw_Dimension_Length.svg" width=20px> [Bemaßung Länge](TechDraw_Dimension_Length/de.md)** Schaltfläche
+2.  Drücke die **<img src="images/TechDraw_LengthDimension.svg" width=20px> [Bemaßung Länge](TechDraw_LengthDimension/de.md)** Schaltfläche
 3.  Eine Bemaßung wird der Ansicht hinzugefügt. Die Bemaßung kann an die gewünschte Position gezogen werden.
 4.  Falls erforderlich, füge Toleranzen, wie in [diese Seite](TechDraw_Geometric_dimensioning_and_tolerancing/de#Toleranzen.md) beschrieben, hinzu.
 
@@ -249,7 +249,7 @@ Wenn du eine TechDraw Ansicht mit Bemaßungen behalten möchtest, die nicht brec
 
 <div class="mw-translate-fuzzy">
 
-Siehe [Leitbemaßungen](TechDraw_Dimension_Landmark/de.md) für einen weiteren Ansatz zur Umgehung des topologischen Benennungsproblems.
+Siehe [Leitbemaßungen](TechDraw_LandmarkDimension/de.md) für einen weiteren Ansatz zur Umgehung des topologischen Benennungsproblems.
 
 
 </div>

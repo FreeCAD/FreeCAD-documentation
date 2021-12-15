@@ -20,7 +20,7 @@ Extrait la partie commune (intersection) entre les objets Part sélectionnés. C
 
 ### Entrées supportées 
 
-L\'objet doit être un objet (forme) [OpenCascade](OpenCascade/fr.md). Exemples : les trucs faits avec un des ateliers Part, PartDesign, Sketcher. Pas de maillages (sauf s\'ils ont été convertis en formes) - pour les maillages, il existe des outils booléens spécifiques dans l\'atelier MeshDesign.
+Les objets utilisés doivent être des formes [OpenCASCADE](OpenCASCADE/fr.md). Exemples : les trucs faits avec un des ateliers Part, PartDesign, Sketcher. Pas de maillages (sauf s\'ils ont été convertis en formes) - pour les maillages, il existe des outils booléens spécifiques dans l\'atelier MeshDesign.
 
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Common/fr

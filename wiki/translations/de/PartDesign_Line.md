@@ -35,7 +35,7 @@ Erstellt eine **Bezugslinie** (DatumLine), die als Referenz für Skizzen, weiter
 
 <div class="mw-translate-fuzzy">
 
-Mittels Doppelklick auf den Eintrag DatumLine in der Baumstruktur oder einen Rechtsklick mit der Auswahl **Bezug ändern** können die Eigenschaften der Bezugslinie editiert werden. Mehr Details zum Befestigungsmodus und dem Befestigungsversatz gibt es in [Attachment](Part_Attachment/de.md).
+Mittels Doppelklick auf den Eintrag DatumLine in der Baumstruktur oder einen Rechtsklick mit der Auswahl **Bezug ändern** können die Eigenschaften der Bezugslinie editiert werden. Mehr Details zum Befestigungsmodus und dem Befestigungsversatz gibt es in [Attachment](Part_EditAttachment/de.md).
 
 
 </div>

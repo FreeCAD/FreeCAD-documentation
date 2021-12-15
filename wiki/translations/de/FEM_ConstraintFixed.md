@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:FEM BeschränkungFestgelegt
+   Name:FEM ConstraintFixed
+   Name/de:FEM BeschränkungFestgelegt
    MenuLocation:Modell → Mechanische Beschränkungen → Beschränkung festgelegt
    Workbenches:[FEM](FEM_Workbench/de.md)
    Shortcut:

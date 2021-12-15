@@ -13,9 +13,9 @@ Die Entwicklerdokumentation umfasst die folgenden Abschnitte:
 
 -   _
 -   [Kompilieren mit Docker](Compile_on_Docker.md)
--   [Kompilieren auf Windows](CompileOnWindows/de.md)
--   [Komplieren auf Unix](CompileOnUnix/de.md)
--   [Kompilieren auf Mac OS X](CompileOnMac/de.md)
+-   [Kompilieren auf Windows](Compile_on_Windows/de.md)
+-   [Komplieren auf Unix](Compile_on_Linux/de.md)
+-   [Kompilieren auf Mac OS X](Compile_on_MacOS/de.md)
 -   [Lizenz](Licence/de.md) über die FreeCAD Lizenzen
 -   [Drittanbieter Bibliotheken](Third_Party_Libraries/de.md)
 -   [Drittanbieter Werkzeuge](Third_Party_Tools/de.md)
@@ -37,7 +37,7 @@ Die Entwicklerdokumentation umfasst die folgenden Abschnitte:
 ### Bau Unterstützungswerkzeuge 
 
 -   Das [FreeCAD Bau Werkzeug](FreeCAD_Build_Tool/de.md)
-    -   [Ein Anwendungsmodul hinzufügen](Module_creation/de.md) zu FreeCAD
+    -   [Ein Anwendungsmodul hinzufügen](Workbench_creation/de.md) zu FreeCAD
 -   [Fehlersuche](Debugging/de.md) FreeCAD
 -   [Testen](Testing/de.md) FreeCAD
 -   [Kompilieren (beschleunigen)](Compiling_(Speeding_up)/de.md) FreeCAD

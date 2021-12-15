@@ -27,11 +27,6 @@ The View tool adds a representation of one or more objects to a Drawing page. Th
 
 ## Cum se utilizează 
 
-1.  Selectați unul sau mai multe obiecte (Corp, Aplicație :: Parte, Parte :: Funcție, Proiect de obiect, \... Vezi Note) în fereastra sau arborele 3D.
-2.  Dacă aveți mai multe pagini de desen în document, va trebui, de asemenea, să selectați pagina dorită din arborescență.
-3.  Apăsați butonul **<img src="images/Techdraw-view.png" width=24px> [View](TechDraw_NewView.md)
-**
-
 
 </div>
 
@@ -146,6 +141,11 @@ View will try to draw anything with a `Shape` property. You can select _ contain
 
 \(1\) Aceste proprietăți sunt comune tuturor tipurilor de vizualizare.
 
+### View
+
+
+<div class="mw-translate-fuzzy">
+
 -    **Keep Label**: Afișați întotdeauna eticheta de vizualizare dacă este True.
 
 -    **LineWidth**: Grosimea liniilor vizibile. Vezi [Line Groups](TechDraw_LineGroup.md).
@@ -165,6 +165,9 @@ View will try to draw anything with a `Shape` property. You can select _ contain
 -    **VertCenterLine**: Afișează o linie verticală pe centrul vizualizării.
 
 -    **ShowSectionLine**: Arată/ascunde linia de scțiune dacă există
+
+
+</div>
 
 ## Script
 

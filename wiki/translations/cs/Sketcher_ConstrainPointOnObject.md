@@ -1,6 +1,13 @@
-# Sketcher ConstrainPointOnObject/cs
 ---
-- GuiCommand:/cs   Name:Constraint PointOnObject   Name/cs:Constraint PointOnObject   Workbenches:_---
+- GuiCommand:/cs
+   Name:Constraint PointOnObject
+   Name/cs:Constraint PointOnObject
+   Workbenches:[Náčrt](Sketcher_Workbench/cs.md), [Návrh dílu](PartDesign_Workbench/cs.md)
+   MenuLocation:Sketch → Sketcher constraints → Constrain point onto object
+   SeeAlso:[Vazba totožnosti](Sketcher_ConstrainCoincident/cs.md)
+---
+
+# Sketcher ConstrainPointOnObject/cs
 
 
 </div>
@@ -34,7 +41,7 @@
 
 ## Scripting
 
-The constraint can be created from macros and from the python console by using the following command:
+The constraint can be created from [macros](Macros.md) and from the [Python](Python.md) console by using the following command:
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`

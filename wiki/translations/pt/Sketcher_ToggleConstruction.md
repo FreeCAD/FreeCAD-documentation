@@ -47,6 +47,10 @@ and once you **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [lea
 
 <img alt="" src=images/Sketcher_ConstructionMode_fr_02.png  style="width:450px;">
 
+## Notes
+
+-    **<img src=images/Sketcher_CreatePoint.svg style="width:16px"> <img src=images/Sketcher_ToggleConstruction.svg style="width:Create Point](Sketcher_CreatePoint.md)**will always create points in construction mode regardless of the toolbar toggle state, select the desired points in the [3D view](3D_view.md) after creation and click **[16px"> [Toggle construction](Sketcher_ToggleConstruction.md)** to change them to normal geometry. <small>(v0.19)</small> 
+
 
 
 

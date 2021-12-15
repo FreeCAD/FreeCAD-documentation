@@ -1,6 +1,7 @@
 ---
 - GuiCommand:Addon/de
-   Name:BIM Einrichtung
+   Name:BIM Setup
+   Name/de:BIM Einrichtung
    Workbenches:<img src="images/IFC.svg" width=16px> [BIM](BIM_Workbench/de.md)
    Addon:BIM
    MenuLocation:Verwalten → Einrichtung

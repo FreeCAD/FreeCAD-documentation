@@ -9,13 +9,13 @@ L\'atelier KicadStepUp a pour but d\'aider les utilisateurs de KiCad et de FreeC
 
 ## Contexte
 
-Kicad ([site Web](https://kicad-pcb.org/)) est une suite d\'automatisation de conception électronique Open Source. Il permet de concevoir un circuit électrique et de créer un circuit imprimé monocouche ou multicouche en utilisant une vaste bibliothèque de pièces. Le point important est que l\'utilisation de FreeCAD et KicadStepUp est le moyen officiel de Kicad de créer des pièces 3D pour des composants électriques pour Kicad. Les bibliothèques sont hébergées [ici](https://kicad.github.io/) et donc tout le monde peut créer et archiver des pièces.
+Kicad ([site Web](https://kicad.org/)) est une suite d\'automatisation de conception électronique Open Source. Il permet de concevoir un circuit électrique et de créer un circuit imprimé monocouche ou multicouche en utilisant une vaste bibliothèque de pièces. Le point important est que l\'utilisation de FreeCAD et KicadStepUp est le moyen officiel de Kicad de créer des pièces 3D pour des composants électriques pour Kicad. Les bibliothèques sont hébergées [ici](https://kicad.github.io/) et donc tout le monde peut créer et archiver des pièces.
 
 La philosophie de l\'interface graphique de KiCAD est un peu différente de celle de FreeCAD, en particulier lorsqu\'il s\'agit de créer des éléments et de les déplacer. Cependant, comme Kicad est utilisé en production depuis des années, il existe une excellente documentation, par ex. un très bon document \"Getting Started\". De plus, chaque outil a son propre manuel.
 
-Si on ne connaît pas encore [Kicad](https://kicad-pcb.org/), il est recommandé de compléter un PCB autonome selon le [Guide de démarrage](https://docs.kicad-pcb.org/5.1/en/getting_started_in_kicad/getting_started_in_kicad.pdf) pour comprendre les concepts. Bien que certains sujets comme l\'ajout de nouveaux schémas et empreintes à une bibliothèque locale semblent peu intéressants pour le débutant, dans la pratique, ils sont souvent rencontrés rapidement après le démarrage d\'un projet sérieux.
+Si on ne connaît pas encore [Kicad](https://kicad.org/), il est recommandé de compléter un PCB autonome selon le [Guide pour débuter](https://docs.kicad.org/5.1/en/getting_started_in_kicad/getting_started_in_kicad.pdf) pour comprendre les concepts. Bien que certains sujets comme l\'ajout de nouveaux schémas et empreintes à une bibliothèque locale semblent peu intéressants pour le débutant, dans la pratique, ils sont souvent rencontrés rapidement après le démarrage d\'un projet sérieux.
 
-Pour tous ces concepts [Kicad](https://kicad-pcb.org/), on peut trouver une fonctionnalité quelconque dans l\'atelier KicadStepUp. Donc, en sachant cela, il est beaucoup plus facile de comprendre comment utiliser cet atelier.
+Pour tous ces concepts [Kicad](https://kicad.org/), on peut trouver une fonctionnalité quelconque dans l\'atelier KicadStepUp. Donc, en sachant cela, il est beaucoup plus facile de comprendre comment utiliser cet atelier.
 
 ## Fonctionnalités
 

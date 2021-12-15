@@ -5,24 +5,15 @@
    MenuLocation:Part → Anhang...
    Workbenches:[Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
    Version:0.17
-   SeeAlso:[Platzierung](Placement/de.md),
+   SeeAlso:[Positionierung](Placement/de.md),
 [Basic Attachment Tutorial](Basic_Attachment_Tutorial/de.md) [Part Teil2DObject](Part_Part2DObject/de.md)
 ---
 
 # Part EditAttachment/de
 
-
-</div>
-
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-**Anhang** ist ein Hilfsmittel, um ein Objekt an ein anderes anzuhängen. Das angehängte Objekt ist mit dem anderen Objekt verknüpft, d.h. wenn die Platzierung des letzteren nachträglich geändert wird, wird das angehängte Objekt auf seine neue Position aktualisiert.
-
-
-</div>
+**Teil AnhangBearbeiten** ist ein Hilfsmittel, um ein Objekt an ein anderes anzuhängen. Das angehängte Objekt ist mit dem anderen Objekt verknüpft, d.h. wenn die Platzierung des letzteren nachträglich geändert wird, wird das angehängte Objekt auf seine neue Position aktualisiert.
 
 ## Anwendung
 
@@ -307,7 +298,7 @@ Attachment Versatz wird verwendet, um einen linearen oder rotatorischen Versatz 
 
 ## Begrenzungen
 
--   [Formteil](Std_Part/de.md) und [Körper](PartDesign_Body/de.md) Behälter werden nicht unterstützt. Während es möglich ist, Befestigungsmodi zu verwenden, um sie auszurichten, wird die Befestigung nicht parametrisch verknüpft.
+-   [Std Teil](Std_Part/de.md) und [PartDesign Körper](PartDesign_Body/de.md) Behälter werden nicht unterstützt. Während es möglich ist, Befestigungsmodi zu verwenden, um sie auszurichten, wird die Befestigung nicht parametrisch verknüpft.
 -   Falls das Auswählen zweier Linien in einem \"Traceback\" mit der Meldung \"points are collinear. Can\'t make a plane\" endet, versuche stattdessen drei Punkte auszuwählen [1](https://forum.freecadweb.org/viewtopic.php?f=8&t=55088&p=473614#p473594) (engl.).
 
 

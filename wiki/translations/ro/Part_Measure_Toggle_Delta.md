@@ -2,7 +2,7 @@
 - GuiCommand:/ro
    Name:Part Measure Toggle Delta
    Name/ro:Part Measure Toggle Delta
-   MenuLocation:[Measure](Std_Measure_Menu/ro.md) → Toggle Delta‏‎
+   MenuLocation:Measure → Toggle Delta‏‎
    Workbenches:[Part](Part_Workbench/ro.md)
 ---
 

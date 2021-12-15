@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/fr
    Name:TechDraw Hatch
-   Name/fr:TechDraw Hachures par motifs
+   Name/fr:TechDraw Hachures par motif
    MenuLocation:TechDraw → Hachurer une face en utilisant un fichier image
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
    SeeAlso:[TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md), [TechDraw Hachures](TechDraw_Hatching/fr.md)
@@ -43,13 +43,13 @@ où `$INSTALL_DIR` est le répertoire où FreeCAD a été installé, par exemple
 
 ## Propriétés
 
--    {{PropertyData/fr|Source}}: la vue et la région qui va recevoir le motif de hachures.
+-    **Source**: la vue et la région qui va recevoir le motif de hachures.
 
--    {{PropertyData/fr|Hatch Pattern}}: chemin d\'accès complet et nom de fichier vers un fichier de motif SVG.
+-    **Hatch Pattern**: chemin d\'accès complet et nom de fichier vers un fichier de motif SVG.
 
--    {{PropertyView/fr|Hatch Color}}: le motif de hachures sera affiché dans cette couleur.
+-    **Hatch Color**: le motif de hachures sera affiché dans cette couleur.
 
--    {{PropertyView/fr|Hatch Scale}}: modificateur de taille de motif de hachures.
+-    **Hatch Scale**: modificateur de taille de motif de hachures.
 
 ## Script
 
@@ -58,7 +58,7 @@ où `$INSTALL_DIR` est le répertoire où FreeCAD a été installé, par exemple
 
 [TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Hachures par motifs peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
+L\'outil Hachures par motif peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
 
 
 ```python

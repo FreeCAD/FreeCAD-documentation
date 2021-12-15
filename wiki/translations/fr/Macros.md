@@ -22,7 +22,7 @@ C\'est très simple à utiliser : appuyez sur le bouton d\'enregistrement, il vo
 ![](images/Macros.png ) 
 *Interface listant les macros disponibles dans le système*
 
-Vous pouvez y gérer vos macros, les supprimer, les modifier, les dupliquer, les installer ou en créer de nouvelles à partir de zéro. Si vous modifiez une macro, elle sera ouverte dans une fenêtre d\'éditeur où vous pourrez apporter des modifications à son code. De nouvelles macros peuvent être installées en utilisant le bouton {{button|Addons...}}, qui relie au [Gestionnaire d\'Addon](AddonManager/fr.md).
+Vous pouvez y gérer vos macros, les supprimer, les modifier, les dupliquer, les installer ou en créer de nouvelles à partir de zéro. Si vous modifiez une macro, elle sera ouverte dans une fenêtre d\'éditeur où vous pourrez apporter des modifications à son code. De nouvelles macros peuvent être installées en utilisant le bouton {{button|Addons...}}, qui relie le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
 ## Exemple
 
@@ -61,9 +61,12 @@ Vous pouvez installer manuellement des extensions, cependant, il est beaucoup pl
 -   [Comment installer des ateliers supplémentaires](How_to_install_additional_workbenches/fr.md)
 
 
+
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _ _
 

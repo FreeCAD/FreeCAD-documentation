@@ -33,8 +33,8 @@ Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md)
 <div class="mw-translate-fuzzy">
 
 1.  Drücke die **<img src="images/Draft_Wire.svg" width=16px> [Entwurf Draht](Draft_Wire/de.md)** Schaltfläche, oder drücke **P** dann **L** Tasten.
-2.  Klicke auf einen ersten Punkt in der 3D Ansicht, oder gib eine [Koordinate](Draft_Coordinates/de.md) ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** Schaltfläche im zugehörigen Aufgabenpaneel Linie.
-3.  Klicke auf weitere Punkte in der 3D Ansicht, oder gib eine [Koordinate](Draft_Coordinates/de.md) und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** Schaltfläche im zugehörigen Aufgabenpaneel Linie.
+2.  Klicke auf einen ersten Punkt in der 3D Ansicht, oder gib eine Koordinate ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Schaltfläche im zugehörigen Aufgabenpaneel Linie.
+3.  Klicke auf weitere Punkte in der 3D Ansicht, oder gib eine Koordinate und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Schaltfläche im zugehörigen Aufgabenpaneel Linie.
 4.  Drücke **Esc** oder die **Close** Schaltfläche, um die Bearbeitung abzuschließen.
 
 
@@ -47,12 +47,12 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geände
 
 <div class="mw-translate-fuzzy">
 
--   Drücke **A** oder die **<img src="images/Draft_FinishLine.svg" width=12px> [Beenden](Draft_FinishLine/de.md)** Taste, um den Draht fertigzustellen, offen hinterlassend.
--   Drücke **O** oder die **<img src="images/Draft_CloseLine.svg" width=12px> [Schliessen](Draft_CloseLine/de.md)** Schaltfläche um den Draht zu schliessen, d.h. es wird ein Segment vom letzten Punkt zum ersten hinzugefügt, um eine Fläche zu bilden. Es sind mindestens drei Punkte erforderlich, um eine Fläche zu bilden.
--   Drücke **W** oder die **<img src="images/Draft_Wipe.svg" width=12px> [Wischen](Draft_Wipe/de.md)** Taste um die bereits platzierten Liniensegmente zu entfernen, aber den Draht vom letzten Punkt aus weiter zu bearbeiten.
+-   Drücke **A** oder die **<img src="images/Draft_FinishLine.svg" width=12px> Beenden** Taste, um den Draht fertigzustellen, offen hinterlassend.
+-   Drücke **O** oder die **<img src="images/Draft_CloseLine.svg" width=12px> Schliessen** Schaltfläche um den Draht zu schliessen, d.h. es wird ein Segment vom letzten Punkt zum ersten hinzugefügt, um eine Fläche zu bilden. Es sind mindestens drei Punkte erforderlich, um eine Fläche zu bilden.
+-   Drücke **W** oder die **<img src="images/Draft_Wipe.svg" width=12px> Wischen** Taste um die bereits platzierten Liniensegmente zu entfernen, aber den Draht vom letzten Punkt aus weiter zu bearbeiten.
 -   Drücke **U** oder die **<img src="images/Draft_SelectPlane.svg" width=12px> [Setze WP](Draft_SelectPlane/de.md)** Taste um die aktuelle Arbeitsebene in der Orientierung des letzten Punktes anzupassen.
 -   Drücke **X**, **Y** oder **Z** nach einem Punkt, um den nächsten Punkt auf der gegebenen Achse zu beschränken.
--   Um Koordinaten manuell einzugeben, gib einfach die Zahlen ein und drücke dann **Enter** zwischen jeder X, Y und Z Komponente. Du kannst die **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** Schaltfläche drücken wenn Du die gewünschten Werte zum Einfügen des Punktes hast.
+-   Um Koordinaten manuell einzugeben, gib einfach die Zahlen ein und drücke dann **Enter** zwischen jeder X, Y und Z Komponente. Du kannst die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Schaltfläche drücken wenn Du die gewünschten Werte zum Einfügen des Punktes hast.
 -   Drücke **R** oder klicke auf das Kontrollkästchen, um den *relativen* Modus umzuschalten. Wenn der Modus \"relativ\" eingeschaltet ist, sind die Koordinaten des nächsten Punktes relativ zum letzten; wenn nicht, sind sie absolut, ausgehend vom Ursprung (0,0,0).
 -   Drücke **T** oder klicke das Kontrollkästchen an, um den Modus *fortsetzen* zu aktivieren. Wenn der Fortsetzungsmodus eingeschaltet ist, wird das Drahtwerkzeug nach Beendigung des Drahtes neu gestartet, so dass Du einen weiteren Draht zeichnen kannst, ohne den Werkzeugknopf erneut zu drücken.
 -   Drücke **L** oder klicke auf das Kontrollkästchen, um den *ausgefüllten* Modus umzuschalten. Wenn der Modus \"ausgefüllt\" eingeschaltet ist, erzeugt ein geschlossener Draht eine ausgefüllte Fläche {{PropertyData/de|Erstelle Fläche}} `True`; wenn nicht, erzeugt der geschlossene Draht keine Fläche {{PropertyData/de|Erstelle Fläche}} `False`
@@ -62,8 +62,8 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geände
 
 -   Halte **Ctrl** während des Zeichnens gedrückt, um [Fangen](Draft_Snap/de.md) Deinen Punkt unabhängig vom Abstand zur nächsten Fangposition zu zwingen.
 -   Halte **Umschalten**, während Du [Beschränken](Draft_Constrain/de.md) Deinen nächsten Punkt horizontal oder vertikal in Bezug auf den letzten zeichnest.
--   Drücke **Ctrl**+**Z** oder drücke die {{button|<img src="images/Draft_UndoLine.svg" width=12px> [rückgängig](Draft_UndoLine/de.md)}} Schaltfläche um den letzten Punkt rückgängig machen.
--   Drücke **Esc** oder die {{button/de|Schliessen}} Taste, um den aktuellen Befehl abzubrechen; bereits platzierte Liniensegmente bleiben erhalten.
+-   Drücke **Ctrl**+**Z** oder drücke die {{button|<img src="images/Draft_UndoLine.svg" width=12px> rückgängig}} Schaltfläche um den letzten Punkt rückgängig machen.
+-   Drücke **Esc** oder die **Schliessen** Taste, um den aktuellen Befehl abzubrechen; bereits platzierte Liniensegmente bleiben erhalten.
 
 
 </div>
@@ -84,7 +84,7 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geände
 
 <div class="mw-translate-fuzzy">
 
-Der Draht kann nach doppelklicken auf das Element in der Baumansicht oder durch drücken der Taste **<img src="images/Draft_Edit.svg" width=16px> [Entwurf Bearbeiten](Draft_Edit/de.md)** geändert werden. Dann kannst Du die Punkte an eine neue Position verschieben oder **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** oder **<img src="images/Draft_DelPoint.svg" width=16px> [Punkt entfernen](Draft_DelPoint/de.md)** und dann den Draht anklicken, um Punkte hinzuzufügen oder zu entfernen.
+Der Draht kann nach doppelklicken auf das Element in der Baumansicht oder durch drücken der Taste **<img src="images/Draft_Edit.svg" width=16px> [Entwurf Bearbeiten](Draft_Edit/de.md)** geändert werden. Dann kannst Du die Punkte an eine neue Position verschieben oder **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** oder **<img src="images/Draft_DelPoint.svg" width=16px> Punkt entfernen** und dann den Draht anklicken, um Punkte hinzuzufügen oder zu entfernen.
 
 
 </div>

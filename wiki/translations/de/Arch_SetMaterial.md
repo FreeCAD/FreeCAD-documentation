@@ -24,7 +24,7 @@ Die Material Werkzeuge erlauben dir [Materialien](Material/de.md) zum aktiven Do
     -   Verwende die **M** dann **T** Tastaturkürzel.
     -   Verwende die **Arch → Material Werkzeuge → Material** Eintrag aus dem oberen Menü.
 3.  Lade ein voreingestelltes Material, oder erstelle ein neues durch Ausfüllen der Felder .
-4.  Drücke {{Taste|OK}}.
+4.  Drücke **OK**.
 
 ## Optionen
 

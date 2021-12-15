@@ -1,9 +1,12 @@
-# Std SaveCopy/ro
 ---
-- GuiCommand:/ro   Name:Std SaveaCopy   Name/ro:Std SaveaCopy   MenuLocation:[Workbenches:All   Shortcut:C   SeeAlso:[[Std_Save/ro|Save](Std_File_Menu/ro___File]]_→_Save_a_Copy....md), [Save as...](Std_SaveAs/ro.md) ---
+- GuiCommand:
+   Name:Std SaveCopy
+   MenuLocation:File → Save a Copy...
+   Workbenches:All
+   SeeAlso:[Std SaveAs](Std_SaveAs.md), [Std Save](Std_Save.md)
+---
 
-
-</div>
+# Std SaveCopy/ro
 
 ## Descriere
 

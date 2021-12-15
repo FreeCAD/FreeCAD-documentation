@@ -20,7 +20,7 @@ Remarquez que les bords circulaires ne doivent pas nécessairement être des cer
 
 -   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Aimantation Terminaison](Draft_Snap_Endpoint/fr.md): aimante aux extrémités des segments.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Aimantation Milieu](Draft_Snap_Midpoint/fr.md) : aimante au point milieu des segments droits et circulaires.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Aimantation Milieu](Draft_Snap_Midpoint/fr.md) : aimante au point milieu des segments.
 
 -   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ et [Arch Partie de bâtiment](Arch_BuildingPart/fr.md).
 

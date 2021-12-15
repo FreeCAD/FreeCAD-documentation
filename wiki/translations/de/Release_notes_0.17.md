@@ -19,7 +19,15 @@ Es ist beinahe zwei Jahre her, seit der Veröffentlichung der vorherigen Version
 
 Der Arbeitsbereich **PartDesign** wurde komplett überarbeitet. Ein neuer Körpercontainer nimmt jetzt eine Kette von Features (Formelementen) auf und enthebt von der Anforderung, die Skizzen auf ebenen Körperflächen anbringen zu müssen. Neue Werkzeuge zum Erstellen von Bezugsgeometrien wie Punkte, Achsen und Ebenen machen PartDesign erheblich vielseitiger. ![](images/PartDesign_Body_tree.png )
 
-Der neue über das Werkzeug-Menü zugängliche [Addon manager](AddonManager/de.md) (der vorher als Makro zur Verfügung stand unter [addons installer macro](https://github.com/FreeCAD/FreeCAD-addons)) macht das Installieren und das Aktualisieren von zusätzlichen Modulen und Makros viel leichter und einheitlicher unter Windows, Mac OS X und Linux. <img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
+
+<div class="mw-translate-fuzzy">
+
+Der neue über das Werkzeug-Menü zugängliche [Addon manager](Std_AddonMgr/de.md) (der vorher als Makro zur Verfügung stand unter [addons installer macro](https://github.com/FreeCAD/FreeCAD-addons)) macht das Installieren und das Aktualisieren von zusätzlichen Modulen und Makros viel leichter und einheitlicher unter Windows, Mac OS X und Linux.
+
+
+</div>
+
+<img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
 
 Der Arbeitsbereich **Sketcher** unterstützt nun die Erstellung von B-splines mit verschiedenen Weisen die Kontrollkurven zu bearbeiten und die Kurvendaten anzuzeigen. <img alt="" src=images/FC017_Sketcher_B-spline_01.png  style="width:300px;">
 
@@ -187,7 +195,7 @@ Der neue **Arbeitsbereich TechDraw** zielt darauf den Arbeitsbereich Drawing zu 
 
 <div class="mw-translate-fuzzy">
 
--   Die neue Hilfsfunktion [Part Attachment](Part_Attachment/de.md) verfügbar über das Menü *Part → Attachment...* kann benutzt werden, um die meisten Typen von Objekten miteinander parametrisch zu verbinden.
+-   Die neue Hilfsfunktion [Part EditAttachment](Part_EditAttachment/de.md) verfügbar über das Menü *Part → Attachment...* kann benutzt werden, um die meisten Typen von Objekten miteinander parametrisch zu verbinden.
 
 
 </div>
@@ -210,7 +218,13 @@ Der Arbeitsbereich PartDesign erlebte massive Änderungen, die Frucht der gemein
 
 Der Arbeitsbereich Path wurde massiv überarbeitet in der Version 0.17. Die Überarbeitung resultierte in der Entfernung des alten Codes von HeeksCNC und den Ersatz der Python-Bibliothek für den Zugriff auf die Bibliothek libarea mit dem neuen Path-Area-Modul. Das Ergebnis war, dass die Operationen weit leistungsfähiger und schneller wurden mit einer deutlich vereinfachten Code-Basis.
 
--   Die Unterstützung für 2.5D Operationen ist komplett einschließlich [contour](Path_Contour.md), [face-milling](Path_MillFace.md), [pocketing](Path_Pocket_Shape.md), [profiling](Path_ProfileFace.md) und [drilling](Path_Drilling.md)
+
+<div class="mw-translate-fuzzy">
+
+-   Die Unterstützung für 2.5D Operationen ist komplett einschließlich [contour](Path_Profile.md), [face-milling](Path_MillFace.md), [pocketing](Path_Pocket_Shape.md), [profiling](Path_Profile.md) und [drilling](Path_Drilling.md)
+
+
+</div>
 
 -   Es gibt eine eingeschränkte Unterstützung für [3D pocketing](Path_Pocket_3D.md) Operationen.
 

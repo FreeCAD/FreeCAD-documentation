@@ -74,7 +74,13 @@ Per la geometria 2D, la maggior parte degli oggetti deriva da `Part::Part2DObjec
 
 ## Azioni
 
+
+<div class="mw-translate-fuzzy">
+
 Le azioni nelle proprietà vista sono state implementate nella versione 0.19.
+
+
+</div>
 
 Facendo clic con il tasto destro in uno spazio vuoto della vista o con una proprietà selezionata, viene visualizzato solo un comando:
 

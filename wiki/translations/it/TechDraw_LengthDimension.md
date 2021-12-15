@@ -1,6 +1,14 @@
-# TechDraw LengthDimension/it
 ---
-- GuiCommand:/it   Name:TechDraw_Dimension_Length   Name/it:Lunghezza   Workbenches:[MenuLocation:TechDraw → Lunghezza   Shortcut:   SeeAlso:[[TechDraw Dimension Horizontal/it|Dimensione orizzontale](TechDraw_Workbench/it___TechDraw]].md), [Dimensione verticale](TechDraw_Dimension_Vertical/it.md)---
+- GuiCommand:/it
+   Name:TechDraw_Dimension_Length
+   Name/it:Lunghezza
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   MenuLocation:TechDraw → Lunghezza
+   Shortcut:
+   SeeAlso:[Dimensione orizzontale](TechDraw_HorizontalDimension/it.md), [Dimensione verticale](TechDraw_VerticalDimension/it.md)
+---
+
+# TechDraw LengthDimension/it
 
 
 </div>
@@ -10,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Lunghezza aggiunge una dimensione lineare ad una vista. La dimensione può essere la distanza tra due vertici, la lunghezza di uno spigolo o la distanza tra 2 spigoli. La distanza indicata all\'inizio è la distanza proiettata (vale a dire, come mostrata nel disegno), ma utilizzando lo strumento **<img src="images/TechDraw_Dimension_Link.svg" width=16px> [Link alla dimensione](TechDraw_Dimension_Link/it.md)** essa può essere modificata con la distanza 3D effettiva.
+Lo strumento Lunghezza aggiunge una dimensione lineare ad una vista. La dimensione può essere la distanza tra due vertici, la lunghezza di uno spigolo o la distanza tra 2 spigoli. La distanza indicata all\'inizio è la distanza proiettata (vale a dire, come mostrata nel disegno), ma utilizzando lo strumento **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Link alla dimensione](TechDraw_LinkDimension/it.md)** essa può essere modificata con la distanza 3D effettiva.
 
 
 </div>
@@ -24,7 +32,7 @@ Lo strumento Lunghezza aggiunge una dimensione lineare ad una vista. La dimensio
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare i punti o i bordi che definiscono la misura.
-2.  Premere il pulsante **<img src="images/TechDraw_Dimension_Length.svg" width=20px> [Lunghezza](TechDraw_Dimension_Length/it.md)
+2.  Premere il pulsante **<img src="images/TechDraw_LengthDimension.svg" width=20px> [Lunghezza](TechDraw_LengthDimension/it.md)
 **
 3.  Alla vista viene aggiunta una dimensione. La dimensione può essere trascinata nella posizione desiderata.
 
@@ -215,13 +223,13 @@ Pertanto, si consiglia di aggiungere le dimensioni verso la fine del processo di
 Se si desidera mantenere una vista di TechDraw con dimensioni che non si interrompono, è necessario dimensionare un oggetto che non cambierà più.
 
 -   Selezionare l\'oggetto che si vuole proiettare, quindi passare a <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md) e usare **Part → <img src="images/Part_SimpleCopy.svg" width=16px> [Crea una copia semplice](Part_SimpleCopy/it.md)**. Questo crea un singolo oggetto che non è parametrico, quindi non è più modificabile.
--   Selezionare questa copia, quindi usare [Nuova vista](TechDraw_NewView/it.md), e aggiungere le dimensioni desiderate.
+-   Selezionare questa copia, quindi usare [vista](TechDraw_View/it.md), e aggiungere le dimensioni desiderate.
 -   Se il modello 3D originale viene modificato, le modifiche non avranno effetto sulla copia semplice, né sulle dimensioni nella vista di TechDraw.
 
 
 <div class="mw-translate-fuzzy">
 
-Vedere [Dimensione da punti di riferimento](TechDraw_Dimension_Landmark/it.md) per un altro approccio per aggirare il problema della denominazione topologica.
+Vedere [Dimensione da punti di riferimento](TechDraw_LandmarkDimension/it.md) per un altro approccio per aggirare il problema della denominazione topologica.
 
 
 </div>

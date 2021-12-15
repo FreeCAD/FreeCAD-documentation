@@ -173,7 +173,7 @@ Valorile sunt confirmate prin apăsare lui OK.
 
 <div class="mw-translate-fuzzy">
 
-Pentru accesul facil, toate instrumentele pot fi predefinite [Tool manager](Path_EditToolsTable.md).
+Pentru accesul facil, toate instrumentele pot fi predefinite <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:24px;">[Tool manager](Path_ToolLibraryEdit.md).
 
 
 </div>
@@ -203,7 +203,7 @@ Această arborescență este afișată după configurarea Sarcinii de lucru odat
 
 <div class="mw-translate-fuzzy">
 
-Două operații vor adăugate petnru a genera triectoria de frezare pentru this Path Job. Operația [Contour](Path_Contour.md) creează o traiectorie în jurul casetei și
+Două operații vor adăugate petnru a genera triectoria de frezare pentru this Path Job. Operația [Profile](Path_Profile.md) creează o traiectorie în jurul casetei și
 
 [Pocket](Path_Pocket_Shape.md)  creează o traiectorie pentru frezarea interiorului buzunarului.
 
@@ -213,7 +213,7 @@ Două operații vor adăugate petnru a genera triectoria de frezare pentru this 
 
 <div class="mw-translate-fuzzy">
 
-For now we will keep it simple. The <img alt="" src=images/Path_Profile.png  style="width:32px;"> [Contour](Path_Contour.md) button opens the Contour panel. After confirming with OK using the default values, see the green path around the object is visible.
+For now we will keep it simple. The <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Contour](Path_Profile.md) button opens the Contour panel. After confirming with OK using the default values, see the green path around the object is visible.
 
 
 </div>

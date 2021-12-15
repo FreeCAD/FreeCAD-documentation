@@ -4,7 +4,7 @@
    Name/pl:Tworzenie szkicu
    MenuLocation:Sketch → Utwórz szkic
    Workbenches:[Sketcher](Sketcher_Workbench/pl.md)
-   SeeAlso:   SeeAlso:[Nowy szkic](PartDesign_NewSketch.md), [Zmień orientację szkicu...](Sketcher_ReorientSketch/pl.md)
+   SeeAlso:[Nowy szkic](PartDesign_NewSketch.md), [Zmień orientację szkicu...](Sketcher_ReorientSketch/pl.md)
 ---
 
 # Sketcher NewSketch/pl

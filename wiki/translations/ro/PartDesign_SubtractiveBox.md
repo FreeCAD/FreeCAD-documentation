@@ -26,7 +26,7 @@ Inserts a subtractive box in the active Body. Its shape is subtracted from the e
 
 După lansarea FreeCAD, caseta Subtractive este cea afișată în bara de instrumente. Dacă este afișat un primitiv diferit, faceți clic pe săgeata în jos, în afară de pictogramă, și selectați caseta Subtractor din meniu.
 
-1.  Definiți parametrii Primitivei geometrice și [Attachment](Part_Attachment.md).
+1.  Definiți parametrii Primitivei geometrice și [Attachment](Part_EditAttachment.md).
 2.  Click pe **OK**.
 3.  O funcție Box apare sub corpul activ Body.
 
@@ -51,7 +51,7 @@ The Box can be edited after its creation in two ways:
 
 <div class="mw-translate-fuzzy">
 
--    **Attachment**: definește modul de tașamante ca și Attachment Offset. A se vedea [Part Attachment](Part_Attachment.md).
+-    **Attachment**: definește modul de tașamante ca și Attachment Offset. A se vedea [Part EditAttachment](Part_EditAttachment.md).
 
 -    **Label**: Label given to the Box object. Change to suit your needs.
 

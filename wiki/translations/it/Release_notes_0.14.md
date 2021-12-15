@@ -111,7 +111,7 @@ Un nuovo set di strumenti di misura è stato aggiunto a [Part](Part_Workbench/it
 
 <div class="mw-translate-fuzzy">
 
-Ora l\'ambiente [Sketcher](Sketcher_Workbench/it.md) dispone del nuovo strumento [Validate sketch](Sketcher_Validate/it.md) per aiutarvi a convalidare uno schizzo, trovando vincoli mancanti o ridondanti. Si può anche aggiungere automaticamente alcuni vincoli mancanti, al fine di rendere lo schizzo completamente vincolato.
+Ora l\'ambiente [Sketcher](Sketcher_Workbench/it.md) dispone del nuovo strumento [Validate sketch](Sketcher_ValidateSketch/it.md) per aiutarvi a convalidare uno schizzo, trovando vincoli mancanti o ridondanti. Si può anche aggiungere automaticamente alcuni vincoli mancanti, al fine di rendere lo schizzo completamente vincolato.
 
 
 </div>

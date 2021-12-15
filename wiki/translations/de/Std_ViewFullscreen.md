@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Std AnsichtVollbild
+   Name:Std ViewFullscreen
+   Name/de:Std AnsichtVollbild
    MenuLocation:Ansicht → Dokumentfenster → Vollbild
    Workbenches:Alle
    Shortcut:**F11**

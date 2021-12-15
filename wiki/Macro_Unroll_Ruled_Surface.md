@@ -43,7 +43,7 @@ Cf [Macro for unrolling ruled surfaces](http://forum.freecadweb.org/viewtopic.ph
 
 ## Script
 
-The lastest version of the macro is to be found at _ <img alt="Addon Manager" src=images/AddonManager.svg  style="width:24px;"> . 
+The lastest version of the macro is to be found at _ <img alt="Std\_AddonMgr" src=images/Std_AddonMgr.svg  style="width:24px;"> . 
 
 ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
 

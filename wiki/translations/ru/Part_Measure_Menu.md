@@ -18,7 +18,7 @@
 #### Примечания
 
 -   Не спутайте это меню с инструментом <img alt="" src=images/Std_MeasureDistance.svg  style="width:24px;"> [Distance](Std_MeasureDistance/ru.md)
--   Если вам требуется более полный набор измерительных инструментов вы можете установить <img alt="" src=images/Manipulator_Workbench_icon.svg  style="width:24px;"> [верстак Manipulator](Manipulator_Workbench/ru.md) (который является [внешним верстаком](External_workbenches/ru.md))
+-   Если вам требуется более полный набор измерительных инструментов вы можете установить <img alt="" src=images/Manipulator_workbench_icon.svg  style="width:24px;"> [верстак Manipulator](Manipulator_Workbench/ru.md) (который является [внешним верстаком](External_workbenches/ru.md))
 
 <img alt="" src=images/Part_Measure_Linear.svg  style="width:32px;"> [Измерить длину](Part_Measure_Linear/ru.md) - даёт возможность линейных измерений.
 

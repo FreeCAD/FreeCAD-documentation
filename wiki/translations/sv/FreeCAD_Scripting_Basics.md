@@ -61,9 +61,7 @@ En annan användbar egenskap hos tolken är möjligheten att backa i kommandohis
 
 </div>
 
-Genom att högerklicka i tolkfönstret, så har du flera andra alternativ, som att kopiera hela historian (användbart för att göra en experimentskript, och sedan kunna spara det), eller att sätta in ett filnamn med full sökväg.
-
-[top](#top.md)
+Genom att högerklicka i tolkfönstret, så har du flera andra alternativ, som att kopiera hela historian (användbart för att göra en experimentskript, och sedan kunna spara det), eller att sätta in ett filnamn med full sökväg. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -75,9 +73,7 @@ I FreeCAD Hjälpmenyn, så hittar du en menypunkt som heter \"Python hjälp\", v
 
 </div>
 
-In the FreeCAD **Help** menu, you\'ll find an entry labeled **Automatic python modules documentation**, which will open a browser window containing a complete, realtime-generated documentation of all Python modules available to the FreeCAD interpreter, including Python and FreeCAD built-in modules, system-installed modules, and FreeCAD additional modules. The documentation available there depends on how much effort each module developer put into documenting his code, but Python modules have a reputation for being fairly well documented. Your FreeCAD window must stay open for this documentation system to work. The entry **Python scripting documentation** will give you a quick link to the [Power users hub](Power_users_hub.md) wiki section.
-
-[top](#top.md)
+In the FreeCAD **Help** menu, you\'ll find an entry labeled **Automatic python modules documentation**, which will open a browser window containing a complete, realtime-generated documentation of all Python modules available to the FreeCAD interpreter, including Python and FreeCAD built-in modules, system-installed modules, and FreeCAD additional modules. The documentation available there depends on how much effort each module developer put into documenting his code, but Python modules have a reputation for being fairly well documented. Your FreeCAD window must stay open for this documentation system to work. The entry **Python scripting documentation** will give you a quick link to the [Power users hub](Power_users_hub.md) wiki section. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -115,7 +111,8 @@ Att lista allt innehåll av dessa moduler är en lite improduktiv uppgift, efter
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -199,7 +196,8 @@ Om vi inte har något gränssnitt (vi är till exempel i kommandoradsläge), så
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -253,13 +251,12 @@ För att komma åt nuvarande vy, skriv:
 myView = Gui.ActiveDocument.ActiveView
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Using additional modules 
 
-The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and managing objects in the FreeCAD document. They don\'t actually do anything more such as creating or modifying geometry. This is because that geometry can be of several types, and therefore requires additional modules, each responsible for managing a certain geometry type. For example, the _ is able to build and modify mesh objects. In this manner FreeCAD is able to handle a wide variety of object types, that can all coexist in the same document, and new types can easily be added in the future.
-
-[top](#top.md)
+The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and managing objects in the FreeCAD document. They don\'t actually do anything more such as creating or modifying geometry. This is because that geometry can be of several types, and therefore requires additional modules, each responsible for managing a certain geometry type. For example, the _ is able to build and modify mesh objects. In this manner FreeCAD is able to handle a wide variety of object types, that can all coexist in the same document, and new types can easily be added in the future. {{Top}}
 
 ### Creating objects 
 
@@ -296,7 +293,8 @@ cube = Part.makeBox(2, 2, 2)
 Part.show(cube)
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ### Modifying objects 
 
@@ -317,7 +315,8 @@ biggercube = Part.makeBox(5, 5, 5)
 myPart.Shape = biggercube
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ### Querying objects 
 
@@ -336,14 +335,21 @@ or check if an object is derived from one of the basic ones (Part Feature, Mesh 
 print(myObj.isDerivedFrom("Part::Feature"))
 ```
 
-Now you can really start playing with FreeCAD! For a complete list of available modules and their tools, visit the _ section.
+Now you can really start playing with FreeCAD! For a complete list of available modules and their tools, visit the _ section. {{Top}}
 
-[top](#top.md)
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/sv|Introduction to Python/sv|Mesh Scripting/sv}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

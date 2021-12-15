@@ -49,7 +49,7 @@ FreeCAD 0.18发布于2019年3月12日，您可从此[下载页获得它](Downloa
 
 -   [Walls](Arch_Wall.md) can now be displayed as a stack of blocks. There are many options to configure their size and how blocks must be stacked.
 -   [Building Parts](Arch_BuildingPart.md) are the new use-for-all Arch container. They can group any number of objects, they can be used to make floors (storeys), buildings (the [Arch Floor](Arch_Floor.md) and [Arch Building](Arch_Building.md) tools now produce Building Parts), or any other group of Arch objects. They can be moved like [Parts](Std_Part.md), and they are [clonable](Draft_Clone.md) and [referencable](Arch_Reference.md)!
--   The [BIM Workbench](BIM_Workbench.md) (added via the [Addon Manager](AddonManager.md)), is a new external, experimental counterpart of [Arch](Arch_Workbench.md). In it, we test new features and workflows in a more free environment. Be sure to give it a test ride!
+-   The [BIM Workbench](BIM_Workbench.md) (added via the [Addon Manager](Std_AddonMgr.md)), is a new external, experimental counterpart of [Arch](Arch_Workbench.md). In it, we test new features and workflows in a more free environment. Be sure to give it a test ride!
 -   [Windows](Arch_Window.md) have new presets such as a 4-pane sliding window, plus, if the [Parts Library](https://github.com/FreeCAD/FreeCAD-library/tree/c5eea12cdda7a3e6349323808815f63b0f97ef2e) is installed, all the doors and windows from the library.
 -   [Panels](Arch_Panel.md) can now do different kinds of corrugated panels, such as undulated sheets, or even sandwich panels.
 -   [Structure](Arch_Structure.md) objects have a new beam drawing mode, which allow you to click two points to place a structural element between them.
@@ -74,7 +74,7 @@ FreeCAD 0.18发布于2019年3月12日，您可从此[下载页获得它](Downloa
 -   New [Draft Join](Draft_Join.md) tool, which allows you to join individual wires and lines into a single wire
 -   New [Draft Split](Draft_Split.md) tool, which splits a line or a wire at a point to create another wire or line
 -   Pressing the **** key while drawing in draft mode cycles the snapping object target, allowing you to snap on objects that are obscured by others
--   The [Draft AddPoint](Draft_AddPoint.md) tool has be improved to more reliably add nodes on lines and wires exactly where you click
+-   The Draft AddPoint tool has been improved to more reliably add nodes on lines and wires exactly where you click
 
 
 

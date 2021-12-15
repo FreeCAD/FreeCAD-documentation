@@ -10,6 +10,9 @@
 
 # Arch Axis/de
 
+
+</div>
+
 ## Beschreibung
 
 
@@ -103,6 +106,15 @@ Draft.rotate(Axes2, -90)
 Draft.move(Axes2, FreeCAD.Vector(-1000, 2500, 0))
 FreeCAD.ActiveDocument.recompute()
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 ---
 [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Axis/de

@@ -3,10 +3,14 @@
 
 ## Einführung
 
-Eigenschaften sind die wahren Bausteine von PythonFunktions Objekten. Durch sie wird der Benutzer in der Lage sein, mit Deinem Objekt zu interagieren und es zu modifizieren. Nachdem du ein neues PythonFunktions Objekt in deinem Dokument erstellt hast (obj=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\", \"Box\")), kannst du eine Liste der verfügbaren Eigenschaften durch Ausgabe erhalten: 
+Eigenschaften sind die wahren Bausteine von PythonFunktions Objekten. Durch sie wird der Benutzer in der Lage sein, mit Deinem Objekt zu interagieren und es zu modifizieren. Nachdem du ein neues PythonFunktions Objekt in deinem Dokument erstellt hast (obj=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\", \"Box\")), kannst du eine Liste der verfügbaren Eigenschaften durch Ausgabe erhalten:
+
+
 ```python
 obj.supportedProperties()
-``` Du erhältst eine Liste der verfügbaren Eigenschaften.
+```
+
+Du erhältst eine Liste der verfügbaren Eigenschaften.
 
 ##  Erstellen eines FeaturePython Objekts und Hinzufügen einer Eigenschaft zu diesem 
 

@@ -12,7 +12,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Ein [PartDesign UnterFormBinder](PartDesign_SubShapeBinder/de.md) importiert ein Element aus einem anderen Körper in den aktiven [Körper](PartDesign_Body/de.md). Es kann die [Form](Shape/de.md) eines anderen Objekts übernehmen oder an ein oder mehrere Objekte oder Unterelemente (Kanten oder Flächen) eines anderen Objekts \"gebunden\" werden.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -35,11 +41,17 @@ Es kann auch an Objekte binden, die innerhalb von [Std Parts](Std_Part/de.md) ve
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Beginne mit einem bereits positionierten **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/PartDesign_AdditivePrism.svg style="width:Körper](PartDesign_Body/de.md)**, der ein einzelnes [Formelement](PartDesign_Feature/de.md), z. B., ein **[16px">  [AdditivesPrisma](PartDesign_AdditivePrism/de.md)** enthält.
 2.  Erstelle einen zweiten **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/PartDesign_AdditiveBox.svg style="width:Körper](PartDesign_Body/de.md)**, der ein einzelnes [Formelement](PartDesign_Feature/de.md), z. B., ein **[16px"> [AdditiverQuader](PartDesign_AdditiveBox/de.md)**. Dies wird der aktive Körper sein.
 3.  Wähle den gesamten ersten Körper aus und drücke **<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [UnterFormBinder](PartDesign_SubShapeBinder/de.md)**.
 4.  Ändere die Eigenschaften dieses Binderobjekts, zum Beispiel seine Positionierung.
 5.  Verwende es mit einer anderen Aktion, wie z.B. **<img src=images/PartDesign_Boolean.svg style="width:16px"> [Boolesche](PartDesign_Boolean/de.md)**.
+
+
+</div>
 
 ## Eigenschaften
 
@@ -50,9 +62,12 @@ Der _ aufgelisteten Eigenschaften sind die folgenden Eigenschaften im [Eigenscha
 
 {{TitleProperty|Base}}
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Unterstützung|XVerknüpfungUnterListe|ausgeblendet**: Unterstützung für die Geometrie.
 
--    **Verschmelzen|Bool**: wenn es {`True` ist, werden die verknüpften Volumenkörperformen verschmolzen.
+-    **Verschmelzen|Bool**: wenn es `True` ist, werden die verknüpften Volumenkörperformen verschmolzen.
 
 -    **Flächen erstellen|Bool**: Wenn der Wert `True` ist, wird eine Fläche für die verknüpften Drahtobjekte erstellt.
 
@@ -60,7 +75,7 @@ Der _ aufgelisteten Eigenschaften sind die folgenden Eigenschaften im [Eigenscha
 
 -    **Relativ|Bool**: wenn es`True` ist, ermöglicht es die relative Verknüpfung von Unterobjekten.
 
--    **Bindungsmodus|Aufzählung**: Bindungsmodus, {{Wert|Synchronisiert}}, {{Wert|Eingefroren}}, {{Wert|Abgehängt}}.
+-    **Bindungsmodus|Aufzählung**: Bindungsmodus, {{value|Synchronisiert}}, {{value|Eingefroren}}, {{value|Abgehängt}}.
 
 -    **Teilweise laden|Bool**}: wenn es `True` ist, ermöglicht es Objekte teilweise zu Laden.
 
@@ -69,6 +84,9 @@ Der _ aufgelisteten Eigenschaften sind die folgenden Eigenschaften im [Eigenscha
 -    **_Version|Integer|ausgeblendet**: Version dieses Objekttyps.
 
 -    **Form|PartForm|ausgeblendet**: [Part TopoForm](Part_TopoShape/de.md) dieses Objekttyps.
+
+
+</div>
 
 
 {{TitleProperty|Cache}}

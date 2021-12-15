@@ -49,10 +49,16 @@ Acestea sunt instrumente pentru crearea obiectelor arhitecturale.
 -   <img alt="" src=images/Arch_Window.png  style="width:32px;"> [Window](Arch_Window.md): Creează o fereastră utilizând obiectul selectat ca bază
 -   <img alt="" src=images/Arch_SectionPlane.png  style="width:32px;"> [Section Plane](Arch_SectionPlane.md): Adaugă un obiect plan de secțiune al documentului
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Axis tools](Arch_CompAxis.md): The Axis tool allows you to places a series of axes in the current document.
     -   <img alt="" src=images/Arch_Axis.png  style="width:32px;"> [Axis](Arch_Axis.md): Adaugă o matrice tip șir /1-direction array a axelor documentului
     -   <img alt="" src=images/Arch_AxisSystem.png  style="width:32px;"> [Axes system](Arch_AxisSystem.md): Adaugă un sitem de axe compus din câteva axe ale documetnului
     -   <img alt="" src=images/Arch_Grid.png  style="width:32px;"> [Grid](Arch_Grid.md): Adaugă un obiect tip grilă la document
+
+
+</div>
 
 -   <img alt="" src=images/Arch_Roof.png  style="width:32px;"> [Roof](Arch_Roof.md): Creează un acoperiș înclinat din fațeletel selectate
 -   <img alt="" src=images/Arch_Space.png  style="width:32px;"> [Space](Arch_Space.md): Creează un obeict tip spațiu în document
@@ -124,7 +130,13 @@ Acestea sunt instrumente suplimentare care vă ajută în îndeplinirea unor sar
 
 ## API
 
+
+<div class="mw-translate-fuzzy">
+
 Modulul Arch poate fi folosit în scripturile [Python](Python.md) scripts și [macros](macros.md) utilizând funcții [Arch Python API](http://www.freecadweb.org/api/Arch.html) .
+
+
+</div>
 
 ## Tutoriale
 

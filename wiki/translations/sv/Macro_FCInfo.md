@@ -18,6 +18,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -29,14 +31,22 @@ Ger en serie information om den valda formen och kan visa en konvertering av lä
 </div>
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/4ff055ff5eb117f75beea5843efca4791990cf62/FCInfo_en_Ver_1-22-rmu_Docked.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/4ecf1b82162b7a9e600c9ee511410ddf06c6e534/FCInfo_en_Ver_1-25d-rmu_Docked.FCMacro}}
 
 <img alt="" src=images/Macro_FCInfo_00_en.png  style="width:480px;"> 
 *FCInfo*
 
+## Utilisation
+
+
+<div class="mw-translate-fuzzy">
+
 ## Utnyttjande
 
 Välj ett objekt eller starta programmet och välj ett objekt och en serie information visas. Hans beräkningar baserade på FreeCADs enhet, som är **mm** för varje nytt val, kommer längdsenheten alltid tillbaka på **mm** och vinkel på **decimalgrader**. <img alt="upper window" src=images/Macro_FCInfo_06.png  style="width:200px;"><img alt="lower window" src=images/Macro_FCInfo_07.png  style="width:200px;">
+
+
+</div>
 
 
 
@@ -49,15 +59,30 @@ Välj ett objekt eller starta programmet och välj ett objekt och en serie infor
 -   Subelementets namn på objektet
 -   Typ av objektet
 
-**Sektor 2: Koordinater klicka på musen**
 
--   Koordinater X, Y och Z klickar på musen
--   Knappen skapas på punkt, axel, plan, kopiera vektoraxelformat **FreeCAD.Vector (-24.0, 240.0, 7.0)**
+<div class="mw-translate-fuzzy">
 
 **Sektor 2: Koordinater klicka på musen**
 
 -   Koordinater X, Y och Z klickar på musen
 -   Knappen skapas på punkt, axel, plan, kopiera vektoraxelformat **FreeCAD.Vector (-24.0, 240.0, 7.0)**
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+**Sektor 2: Koordinater klicka på musen**
+
+-   Koordinater X, Y och Z klickar på musen
+-   Knappen skapas på punkt, axel, plan, kopiera vektoraxelformat **FreeCAD.Vector (-24.0, 240.0, 7.0)**
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Sektor 4: Vertexes och detaljer**
 
@@ -65,6 +90,12 @@ Välj ett objekt eller starta programmet och välj ett objekt och en serie infor
 -   Vertexes och detaljer om formen (compt\_Edge), (compt\_Faces), (compt\_Vector of the Face)
     Max 200 linjer i tabellen, om det finns mer än 200 linjer visas det (! + 200) och antalet rader
     (fullständiga detaljer kan spara **Save** -knappen i en fil i CSV-format och kan ses i filen i kalkylbladet med **Read** eller av ett externt kalkylblad som[LibreOffice](https://www.libreoffice.org/) [OpenOffice](http://openoffice.apache.org/downloads.html) or other)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Sektor 5: Höjning**
 
@@ -82,6 +113,12 @@ Välj ett objekt eller starta programmet och välj ett objekt och en serie infor
         den här knappen skapar en rad i riktning mot objektet
 -   *\' ValueAt*\' returnerar 3D-vektorn som motsvarar ett parametervärde.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 **Sektor 6: Yta och volym**
 
 -   Ytan på formuläret visat enhetsstorlek kan väljas
@@ -94,15 +131,33 @@ Välj ett objekt eller starta programmet och välj ett objekt och en serie infor
     lb t (livre troy), lb (livre av) , cwt (hundra vikt), tonneau fr, ct
 -   Vikten av formuläret som visas enhetens massa kan väljas
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 **Sektor 7: BoundBox**
 
 -   BoundBox extrema dimensioner av formen
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Sektor 8: Centrum för:**
 
 -   Centrum för formen och dessa koordinater XYZ
 -   Masscentrum och dessa koordinater XYZ
 -   Knappen skapas på punkt, axel, plan, kopiera vektoraxelformat **FreeCAD.Vector (-24.0, 240.0, 7.0)**
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Sektor 9: Tröghet**
 
@@ -118,6 +173,9 @@ samma för längd och vikt
 -   Bestämmer 1: beräknar determinanten av matrisens vetenskapliga värde
 -   Bestämmer 2: beräknar determinanten av matris decimalvärdet
 
+
+</div>
+
 **Avsnitt 10: SpreadSheet**
 
 -    **Read**: läs data i ett kalkylblad sparat **.FCInfo** eller txt, asc, csv
@@ -132,12 +190,21 @@ samma för längd och vikt
 
 -    **Space**: separatorn är Space
 
+
+<div class="mw-translate-fuzzy">
+
 Alternativ för att spara eller läsa spreadSheet med olika separator, Tabulation, Comma, Semicolon, Space
 Tabellen är separatorn för FreeCAD spreadSheet-modulen
 Numret på den här fyra separatorn beräknas för hjälp om det är okänt
 Kommunen är den gamla (01.16 och tidigare) separatorn av FCInfo makro
 Nu för kompatibilitet med FreeCAD spreadSheet och sedan 01.17 versionen är tabellen separator som standard
 Om du vill konvertera ditt gamla FCInfo-kalkylblad: Öppna det i FCInfo och spara det med Tabuleringsalternativet markerat
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Avsnitt 11: Huvud**
 
@@ -157,7 +224,13 @@ Om du vill konvertera ditt gamla FCInfo-kalkylblad: Öppna det i FCInfo och spar
 
 -    **CheckBox****2**: Om den här kryssrutan inte är markerad visas fönstret makro till höger (standard). Om den är markerad visas fönstret makro till vänster
 
+
+</div>
+
 När makroen är lanserad, förblir makroen aktiv och fönstret är synligt. För att lämna makroet genom att trycka på **Exit**. Om du lämnar vid korset kvarstår makrot i minnet och data visas i \"Rapportvy\" av FreeCAD.
+
+
+<div class="mw-translate-fuzzy">
 
 
 <center>
@@ -170,6 +243,14 @@ Image:Macro\_FCInfo\_04.png\|Dockad till höger, Image:Macro FCInfo 05.png\|elle
 
 
 
+
+</div>
+
+## Options
+
+
+<div class="mw-translate-fuzzy">
+
 ## Alternativ
 
 ### Den enhet som används 
@@ -178,6 +259,18 @@ Image:Macro\_FCInfo\_04.png\|Dockad till höger, Image:Macro FCInfo 05.png\|elle
 
 km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 
+
+</div>
+
+#### Length unit: 
+
+km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
+
+#### Angle degrees : 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Vinkelgrader :
 
 1.  **decimal degree**, ex: 174.831872611°
@@ -185,6 +278,9 @@ km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, 
 3.  radian, ex: 3.05139181449 rad
 4.  grade, ex: 194.257636235 gon
 5.  pourcent ex: 30° = 57.74%
+
+
+</div>
 
 Förståelse av vinklar i FCInfo-displayen.
 
@@ -200,6 +296,11 @@ klicka två gånger för att se animationen (bilden måste vara i helskärm)
 
 
 
+#### Weight unit : 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Viktenhet :
 
 ton, quintal, kg, hg, dag, **gram**, dg, cg, mg, µg, ng, pg, fg, gr (grain), dr (drachm), oz (once), oz t (once troy),
@@ -207,11 +308,23 @@ lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight)
 \"spinboxen\" är inställd på **7,5** kg, medeltäthet av stål. Om du vill ha ett annat standardvärde, ändra värdet på densiteten, linje 208
 
 
+</div>
+
+
 ```python
  global densite       ; densite       = 7.5  # (steel = 7.5 kg par dm3)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 En fil kan skapas med knappen **Save**. Filen är skriven som en fil [csv](https://fr.wikipedia.org/wiki/Comma-separated_values) på så sätt kan data studeras i ett kalkylblad i FreeCAD eller Openoffice, LibreOffice\...
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## Script
 
@@ -223,7 +336,26 @@ Kopiera innehållet i makroet i en fil med namnet \"FCInfo.FCMacro\"
 Eller direkt i gränssnittet till FreeCAD
 Ikonen måste vara i samma katalog som makroen.
 Ladda ner bildpositionering på ikonen <img alt="" src=images/FCInfo.png  style="width:64px;"> <img alt="" src=images/FCInfoSpreadsheet.png  style="width:64px;"> och dra sedan musen med högerklicka \"spara som\" (ändra inte namnet)
+
+
+</div>
+
+Copy the contents of the macro in a file named \"FCInfo.FCMacro\"
+
+-   Windows: the form is usually **\" drive:\\Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\ \"**
+-   Ubuntu: the form is usually **\" /home/your\_user\_name/.FreeCAD \"**.
+
+Or, directly in the interface of FreeCAD
+The icon must be in the same directory as the macro.
+Download image positioning on the icon <img alt="" src=images/FCInfo.png  style="width:64px;"> <img alt="" src=images/FCInfoSpreadsheet.png  style="width:64px;"> and then drag the mouse right click \"save as\" (do not change the name)
+
+
+<div class="mw-translate-fuzzy">
+
 **PS: för länge att finnas på wikisidan (för tillfället wiki sidorna accepterar endast 64 KB) makrokoden har placerats i forumet**
+
+
+</div>
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
@@ -232,6 +364,9 @@ Det finns också FCInfo\_Alternate\_Linux för endast för FreeCAD-versionen 0.1
 
 
 <div class="mw-collapsible-content">
+
+
+<div class="mw-translate-fuzzy">
 
 Det finns även en [Macro\_FCInfo\_Alternate\_Linux](http://www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux) här ändras koden (på grund av teckenfönstret : **² ³ ° μ** ordinal not in range (128)\") vilket innebar problem i vissa konfigurationer funktionerna är desamma
 Example : 
@@ -252,26 +387,66 @@ global uniteAs       ; uniteAs       = iso8859(unichr(176))
 
 </div>
 
+
+
+</div>
+
 Ladda ner ikonfilen [Macro\_FCInfo\_Icon](https://forum.freecadweb.org/download/file.php?id=50755) Unzip och kopiera ikonen i samma katalog i makroet
+
+
+<div class="mw-translate-fuzzy">
 
 Hämta makrofilen på **docked to right**
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
 {{CodeDownload|https://gist.github.com/mario52a/8d40ab6c018c2bde678f|senaste versionen Macro_FCInfo och ikonerna i slutet av sidan}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 (Eller **[On the forum.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=47748#p47748)** )
 **PS:** detta makro använder **getSelection ()** och listan över objekt börjar till 1 ex: för en ruta **Edge1 till Edge12** och koden i konsolen börjar vid 0 ex: for a box **Edge\[0\] to Edge\[11\]**
 Detta är normalt att räkna på arrayer / listor i OpenCascade börjar alltid på **1 och inte på 0**
 
+
+</div>
+
+### Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ### Begränsningar
 
 Lämna alltid knappen **Exit**. Om man lämnar programmet utan att gå igenom knappen **Exit**, förblir programmet i minnet och fortsätter att springa och displayen kommer att vara kvar i \"visningsrapporten\". Du måste lämna FreeCAD för att radera det från minnet.
 Endast de första 200 elementen i objektet är synliga i tabellen om det finns mer än 200 objekt i objektet kommer en signal att visas med **(! +200)**. Den fullständiga listan med data är synlig i filen som sparas med knappen **Save**.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Om fönstret makro är osynligt efter körningen, se nedre fönstret:
+
+
+</div>
 
 ![](images/Macro_FCInfo_08.png )
 
 ![](images/FCInfo_begin_00.gif ) 
+
+
+<div class="mw-translate-fuzzy">
 
 projekt:
 ~~läs filen direkt i en tabell.~~ gjort
@@ -280,8 +455,30 @@ Sammansättning av ett ämne för dens densitet
 ~~lutning på elementet snarare än det globala objektet~~ gjort
 ~~inlägg direkt i gränssnittet till FreeCAD~~ gjort
 
+
+</div>
+
 ## Version
 
+
+<div class="mw-translate-fuzzy">
+
+-   ver 1.22 , 12/11/2020 : now the macro is totally uninstalled i use :
+
+
+</div>
+
+
+```python
+FreeCAD.ActiveDocument.openTransaction(u"FCInfo")    # memorise les actions (avec annuler restore)
+FreeCAD.ActiveDocument.commitTransaction()           # restore les actions  (avec annuler restore)
+#FreeCAD.ActiveDocument.abortTransaction()            # abandonne les actions(avec annuler restore)
+```
+
+-   ver 1.25d, 13/12/2021 little correction material field uncomment the \"\'try\...Except\" !!!
+-   ver 1.25c, 12/12/2021 little correction new material
+-   ver 1.23b, 20/11/2021 little correction, add text info in beginning run macro, and ordinal the text code
+-   ver 1.23 , 19/11/2021 include icon in macro, number decimal displayed, text height, configure options in the Preference FC, correct info for elements of sketch in edit mode.
 -   ver 1.22 , 12/11/2020 : now the macro is totally uninstalled i use :
 
 
@@ -343,6 +540,8 @@ Se även [Arch Survey](Arch_Survey/sv.md) <img alt="Arch Survey" src=images/Arch
 
 
 </div>
+
+See Also: <img alt="Arch Survey" src=images/Arch_Survey.svg  style="width:36px;"> [Arch Survey](Arch_Survey.md)
 
 Du kan dela dina kommentarer på forumet [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 Här ett annat inlägg av [FCInfo Macro](http://forum.freecadweb.org/viewtopic.php?f=8&t=6005)

@@ -16,13 +16,6 @@ The Length Dimension tool adds a linear dimension to a View. The dimension may b
 
 ## Cum se folosește 
 
-1.  Selectați punctele sau muchiile care definesc măsurarea dvs.
-2.  Apăsați butonul **<img src="images/TechDraw_Dimension_Length.png" width=24px> [Dimension Length](TechDraw_Dimension_Length.md)** button
-3.  O cotă va fi adăugată la View. Cota poate fi glisată în poziția dorită.
-
-
-
-
 1.  Select the points or edge which define your measurement.
 2.  Press the **<img src="images/TechDraw_LengthDimension.svg" width=20px> [Length Dimension](TechDraw_LengthDimension.md)** button.
 3.  A dimension will be added to the View. The dimension may be dragged to the desired position.

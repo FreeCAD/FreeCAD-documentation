@@ -1,4 +1,7 @@
 # Macro HiddenAlls/it
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/it
 |Name=Macro HiddenAlls
 |Icon=Macro_HiddenAlls.png
@@ -8,8 +11,11 @@
 |Date=2015-11-12
 |FCVersion=Tutte versione
 |Download=[https://www.freecadweb.org/wiki/images/d/d6/Macro_HiddenAlls.png ToolBar Icon]
-|SeeAlso=[Macro_Toggle_Visibility2](Macro_Toggle_Visibility2/it.md)<br />[Macro_Toggle_Visibility](Macro_Toggle_Visibility/it.md)<br />[Macro VisibleAlls](Macro_VisibleAlls/it.md)<br />[Macro If Selected Stay If Not Then Delete](Macro_If_Selected_Stay_If_Not_Then_Delete/it.md)
+|SeeAlso=[Macro Toggle Visibility2 1-2](Macro_Toggle_Visibility2_1-2/it.md)<br>[Macro Toggle Visibility2 2-2](Macro_Toggle_Visibility2_2-2/it.md)<br>[Macro_Toggle_Visibility](Macro_Toggle_Visibility/it.md)<br>[Macro VisibleAlls](Macro_VisibleAlls/it.md)<br>[Macro If Selected Stay If Not Then Delete](Macro_If_Selected_Stay_If_Not_Then_Delete/it.md)
 }}
+
+
+</div>
 
 ## Descrizione
 

@@ -105,13 +105,13 @@ After a while, all our Microhouse section is done.
 
 ![](images/Arch_Wikihouse_01.jpg )
 
-We can now easily create the cut sheets, which are DXF files that will be sent to the shop that will cut the actual panels. The easiest way to do this is to select everything in your document with Ctrl+A, and then use the [Arch Panel Cut](Arch_Panel_Cut.md) tool. This will produce one Panel Cut object for each Panel object found in the selection. By moving them apart, we get a clear view of all our pieces:
+We can now easily create the cut sheets, which are DXF files that will be sent to the shop that will cut the actual panels. The easiest way to do this is to select everything in your document with **Ctrl**+**A**, and then use the [Arch Panel Cut](Arch_Panel_Cut.md) tool. This will produce one Panel Cut object for each Panel object found in the selection. By moving them apart, we get a clear view of all our pieces:
 
 ![](images/Arch_Wikihouse_02.jpg )
 
 We must then \"nest\" our pieces, that is, move and rotate them so they occupy as much as possible to space of a given panel, to generate as little material loss as possible. This operation unfortunately needs to be done by hand, but if you are using a Wikihouse project that already has produced cut sheets, copying them goes pretty fast:
 
-1.  To make sure everything will stay in the XY plane, it is advised to set the [Workign Plane](Draft_SelectPlane.md) to XY (top)
+1.  To make sure everything will stay in the XY plane, it is advised to set the [Working Plane](Draft_SelectPlane.md) to XY (top)
 2.  Create an [Arch Panel Sheet](Arch_Panel_Sheet.md)
 3.  Give it the desired width and height values (Wikihouses are typically printed on 122x244cm plywood sheets)
 4.  Move it to a convenient place with [Draft Move](Draft_Move.md)

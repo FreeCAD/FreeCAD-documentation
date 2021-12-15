@@ -113,7 +113,7 @@ Un nouveau solveur FEM nécessite les éléments suivants :
 
 Voir aussi :
 
--   [Ajouter un tutoriel sur le solveur FEM](Add_FEM_solver_tutorial/fr.md).
+-   _.
 -   [Tutoriel FEM Module d\'extension](Extend_FEM_Module/fr.md)
 -   Les efforts d\'implémentation du solveur [oofem](https://github.com/berndhahnebach/FreeCAD_bhb/commits/femoofem).
 -   Les efforts de mise en œuvre du solveur \[<https://github.com/FreeCAD/FreeCAD/compare/a03eb6b9625ba>\...dfc01ec949525 myStran\].
@@ -125,7 +125,7 @@ A définir
 ## Informatif
 
 -   [Encapsuler une classe Cplusplus dans Python](Wrapping_a_Cplusplus_class_in_Python/fr.md)
--   [Tutoriel: Ajouter des équations FEM](Add_FEM_equation_tutorial/fr.md)
+-   [Tutoriel: Ajouter des équations FEM](Add_FEM_Equation_Tutorial/fr.md)
 -   [Tutoriel Ajout d\'un bouton dans la barre d\'outils FEM](Add_Button_to_FEM_Toolbar_Tutorial/fr.md)
 
 ## En relation 

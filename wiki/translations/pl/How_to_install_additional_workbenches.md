@@ -15,7 +15,7 @@ Power users have extended FreeCAD with various custom [external workbenches](ext
 
 **Note:**
 
-starting from version 0.17, FreeCAD features an <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) in the **Tools → Addon Manager** menu, that allows installing both macros and workbenches. The instructions below are only required if you wish to manually install a workbench. This may be necessary if for some reason the Addon Manager doesn\'t work but you have access to the workbench downloaded as a {{FileName|.zip}} package.
+starting from version 0.17, FreeCAD features an <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) in the **Tools → Addon Manager** menu, that allows installing both macros and workbenches. The instructions below are only required if you wish to manually install a workbench. This may be necessary if for some reason the Addon Manager doesn\'t work but you have access to the workbench downloaded as a {{FileName|.zip}} package.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -32,7 +32,7 @@ How to install additional workbenches and addons on Windows
 
 **Note:**
 
-using the \"addons-installer\" is not recommended any more. Using the [Addon Manager](Addon_Manager.md) in all systems is the recommended way.
+using the \"addons-installer\" is not recommended any more. Using the [Addon Manager](Std_AddonMgr.md) in all systems is the recommended way.
 
 Use the [addons-installer from Github](https://github.com/FreeCAD/FreeCAD-addons).
 
@@ -43,7 +43,7 @@ During Google Summer of Code 2016 student Mandeep Singh started work on an impro
 
 **Note:**
 
-This method is possible but not necessary with the introduction of the [Addon Manager](Addon_Manager.md). Nevertheless, the information here may still be useful to some.
+This method is possible but not necessary with the introduction of the [Addon Manager](Std_AddonMgr.md). Nevertheless, the information here may still be useful to some.
 
 -   Download the workbench from github by clicking on the button **Clone** or **Download** on the github page (upper right corner) and choosing \"Download ZIP\"
 -   Unpack the downloaded archive on your local hard disk
@@ -101,7 +101,7 @@ $ rm *.pyc
 
 **Note:**
 
-This method is possible but not necessary with the introduction of the [Addon Manager](Addon_Manager.md). Nevertheless, the information here may still be useful to some.
+This method is possible but not necessary with the introduction of the [Addon Manager](Std_AddonMgr.md). Nevertheless, the information here may still be useful to some.
 
 -   Download the workbench from github by clicking on the button **Clone** or **Download** on the github page (upper right corner) and choosing \"Download ZIP\"
 -   Unpack the downloaded archive on your local hard disk
@@ -133,7 +133,7 @@ How to install additional workbenches and addons on MacOS
 
 **Note:**
 
-This method is possible but not necessary with the introduction of the [Addon Manager](Addon_Manager.md). Nevertheless, the information here may still be useful to some.
+This method is possible but not necessary with the introduction of the [Addon Manager](Std_AddonMgr.md). Nevertheless, the information here may still be useful to some.
 
 For the sake of this example, say you\'ve chosen the [Curves Workbench](Curves_Workbench.md) as the external workbench you want to install:
 

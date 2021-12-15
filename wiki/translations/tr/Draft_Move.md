@@ -27,7 +27,7 @@ Taşı aracı, seçilen nesneleri bir noktadan diğerine taşır veya kopyalar.
 
 <div class="mw-translate-fuzzy">
 
-Taşı aracı, [Taslak tezgahı](Draft_Workbench/tr.md) veya [Eskiz tezgahı](Sketcher_Workbench/tr.md) ile oluşturulan 2D şekillerde kullanılabilir, ancak [Parça tezgahı](Part_Workbench/tr.md) ve [Yapı tezgahı](Arch_Tezgahı/tr.md) ile oluşturulanlar gibi birçok 3D nesne üzerinde de kullanılabilir.
+Taşı aracı, [Taslak tezgahı](Draft_Workbench/tr.md) veya [Eskiz tezgahı](Sketcher_Workbench/tr.md) ile oluşturulan 2D şekillerde kullanılabilir, ancak [Parça tezgahı](Part_Workbench/tr.md) ve [Yapı tezgahı](Arch_Workbench/tr.md) ile oluşturulanlar gibi birçok 3D nesne üzerinde de kullanılabilir.
 
 
 </div>
@@ -55,9 +55,9 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 2.  
     {{Button | <img src="images/_Draft_Move.svg_" width= 16px> [Taşı](Draft_Move/tr.md)}}düğmesine basın veya {{KEY | M}} ardından {{KEY | V}} tuşlarına basın. Hiçbir nesne seçilmezse, birini seçmeye davet edilirsiniz.
 
-3.  3B görünümde bir ilk noktaya tıklayın veya bir [ koordinat](Draft_Coordinates/tr.md) yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [ Nokta ekle](Draft_AddPoint/tr_.md)}} düğmesine basın. Bu işlemin temel noktası olarak görev yapar.
+3.  3B görünümde bir ilk noktaya tıklayın veya bir koordinat yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} düğmesine basın. Bu işlemin temel noktası olarak görev yapar.
 
-4.  3B görünümünde başka bir noktaya tıklayın veya bir [ koordinat](Draft_Coordinates/tr.md) yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [ Nokta](Draft_AddPoint_.md)}} düğmesine basın. Bu, temel noktadaki yeni konumdur.
+4.  3B görünümünde başka bir noktaya tıklayın veya bir koordinat yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta}} düğmesine basın. Bu, temel noktadaki yeni konumdur.
 
 
 </div>
@@ -70,7 +70,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 <div class="mw-translate-fuzzy">
 
 -   Verilen eksendeki bir sonraki noktayı sınırlamak için bir noktadan sonra {{KEY | X}}, {{KEY | Y}} veya {{KEY | Z}} tuşlarına basın.
--   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında {{KEY | Enter}} tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [ Nokta ekle](Draft_AddPoint_.md)}} düğmesine basabilirsiniz.
+-   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında {{KEY | Enter}} tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} düğmesine basabilirsiniz.
 -   **Göreceli**moduna geçmek için {{KEY | R}} tuşuna basın veya onay kutusunu tıklayın. Göreceli mod açıksa, bir sonraki noktanın koordinatları sonuncusuna göre değişir; değilse, kesindir, kökenlerinden alınır (0,0,0).
 -   **Devam**moduna geçmek için {{KEY | T}} tuşuna basın veya onay kutusunu tıklayın. Devam modu açıksa, işlemi tamamladıktan sonra Taşı aracı yeniden başlatılır ve böylece araç düğmesine tekrar basmadan nesneleri yeniden taşımanıza veya kopyalamanıza olanak tanır.
 -   **Kopyalama**moduna geçmek için {{KEY | P}} tuşuna basın veya onay kutusunu tıklayın. Kopyalama modu açıksa, Taşıma aracı orijinal şekli yerinde tutacak ancak ikinci noktada bir kopya oluşturacaktır. : Sırayla birkaç kopya yerleştirmek için hem {{KEY | T}} hem de {{KEY | P}} kullanabilirsiniz. Bu durumda, kopyalanan öğe en son yerleştirilen kopyadır.

@@ -1,6 +1,7 @@
 ---
 - GuiCommand:
-   Name:Part FügeVerbinden
+   Name:Part JoinConnect
+   Name/de:Part FügeVerbinden
    MenuLocation:Part → Join → Connect objects
    Workbenches:[Part](Part_Workbench/de.md)
    Version:0.16
@@ -51,7 +52,7 @@ Ein parametrisches Verbindungsobjekt wird erstellt. Originalobjekte werden ausge
 
 == Die Algorithmen hinter den Fügewerkzeugen sind recht einfach, und es ist wichtig, sie zu verstehen, um die Werkzeuge richtig zu verwenden. Insbesondere der Algorithmus von Verbinden ist etwas komplexer als andere, aber es genügt im Allgemeinen, ihn als symmetrische Variante von [Algorithmus einbetten](Part_JoinEmbed#Algorithm/de.md) zu betrachten.
 
-1\. Jedes Objekt wird durch Überschneidungen mit anderen Objekten in Stücke zerlegt. (siehe [Part Boolsche Fragmente](Part_Boolsche_Fragmente.md))
+1\. Jedes Objekt wird durch Überschneidungen mit anderen Objekten in Stücke zerlegt. (siehe [Part Boolsche Fragmente](Part_BooleanFragments.md))
 
 2\. Von den Teilen eines Objekts wird nur das größte beibehalten; alle anderen werden entfernt.
 

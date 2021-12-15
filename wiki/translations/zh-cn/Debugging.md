@@ -107,7 +107,7 @@ Prerequisites:
 <div class="mw-translate-fuzzy">
 
 -   安装的 gdb 软件包
--   FreeCAD 的调试版本 (此时仅可通过 [从源代码构建](CompileOnUnix#For_a_Debug_build.md))
+-   FreeCAD 的调试版本 (此时仅可通过 [从源代码构建](Compile_on_Linux#For_a_Debug_build.md))
 -   导致崩溃的 FreeCAD 模式
 
 

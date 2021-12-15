@@ -1,9 +1,11 @@
-# Part MakeSolid/ro
 ---
-- GuiCommand:   Name:Part ConvertToSolid‏‎   MenuLocation:Part → Convert to solid   Workbenches:[[Part Workbench   Part]]|SeeAlso:---
+- GuiCommand:
+   Name:Part MakeSolid
+   MenuLocation:Part → Convert to solid
+   Workbenches:[Part](Part_Workbench.md)
+---
 
-
-</div>
+# Part MakeSolid/ro
 
 ## Description
 

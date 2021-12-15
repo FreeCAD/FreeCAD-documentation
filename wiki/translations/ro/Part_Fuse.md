@@ -16,7 +16,7 @@
 
 Unites (fuses) selected Part objects into one. This operation is fully parametric and the components can be modified and the result recomputed.
 
-This command allows you to perform quickly this [Boolean operation](Part_Booleans.md).
+**Note:** This command is an automated form of the <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Boolean operation](Part_Boolean.md).
 
 ## Cum se folosește 
 
@@ -33,7 +33,13 @@ This command allows you to perform quickly this [Boolean operation](Part_Boolean
 
 ## Intrări suportate 
 
+
+<div class="mw-translate-fuzzy">
+
 Elementele de intrare trebuie să fie forme OpenCascade. Exemple: chestii realizate cu Atelierele: Part, PartDesign, Sketcher. Nu este vorba despre plase (cu excepția cazului în care acestea au fost convertite în forme) - pentru ochiurile de plasă, există unelte specifice Booleene în Atelierul de lucru MeshDesign.
+
+
+</div>
 
 -   Solid + Solid: the result is a solid that occupies all the volume covered by the inputs
 

@@ -6,7 +6,7 @@
 
 Cette zone est la source d\'aide principale pour les nouveaux utilisateurs de FreeCAD.
 
-Veuillez noter que tout comme FreeCAD, ces pages sont continuellement en développement. Si vous ne trouvez pas les informations dont vous avez besoin, n\'hésitez pas à les demander sur le [forum FreeCAD](http://forum.freecadweb.org).
+FreeCAD est en développement continu, il peut donc y avoir des informations manquantes ou périmées. Si vous ne trouvez pas l\'information dont vous avez besoin, n\'hésitez pas à la demander sur le [forum FreeCAD](http://forum.freecadweb.org).
 
 Si vous voulez apporter votre contribution à FreeCAD, vous pouvez _ pour les règles générales à suivre.
 

@@ -99,14 +99,5 @@ wire_from_spline = Draft.make_wire(points2)
 doc.recompute()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft WireToBSpline/it

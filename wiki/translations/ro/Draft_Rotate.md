@@ -42,7 +42,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  Select objects you wish to rotate or copy
 2.  Press the **<img src="images/Draft_Rotate.png" width=16px> [[Draft Rotate]]** button, or press **R** then **O** keys
-3.  Click a center point on the 3D view, or type a [coordinate](Draft_Coordinates.md)
+3.  Click a center point on the 3D view, or type a coordinate
 4.  Click a second point on the 3D view, or give a reference angle
 5.  Click a third point on the 3D view, or give a rotation angle
 

@@ -51,7 +51,6 @@ The command currently does not work well with layers and can produce confusing r
 
 -   [Belge yapısı](Document_structure/tr.md)
 -   [Kendi modelinizi oluşturun](http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial#Organizing_your_model)
--   [Belge içerisinde nesne düzenleme](Ways_To_Organize_Objects/tr.md)
 
 
 </div>

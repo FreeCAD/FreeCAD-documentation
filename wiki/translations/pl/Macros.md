@@ -23,7 +23,7 @@ Naciśnij przycisk {{button|Rejestrowanie makr}}, zostaniesz poproszony o podani
 ![](images/Macros.png ) 
 *Okno dialogowe Makro, zawierające listę makrodefinicji dostępnych w systemie.*
 
-W tym miejscu możesz zarządzać swoimi makrami, usuwać, edytować, powielać, instalować lub tworzyć nowe od podstaw. Jeśli edytujesz makro, zostanie ono otwarte w oknie edytora, w którym możesz dokonać zmian w jego kodzie. Nowe makra można zainstalować za pomocą przycisku {{button|Dodatki...}}, który prowadzi do [Addon Manager](AddonManager.md).
+W tym miejscu możesz zarządzać swoimi makrami, usuwać, edytować, powielać, instalować lub tworzyć nowe od podstaw. Jeśli edytujesz makro, zostanie ono otwarte w oknie edytora, w którym możesz dokonać zmian w jego kodzie. Nowe makra można zainstalować za pomocą przycisku {{button|Dodatki...}}, który prowadzi do [Menadżera dodatków](Std_AddonMgr/pl.md).
 
 ## Przykład
 
@@ -62,9 +62,12 @@ Możesz ręcznie instalować rozszerzenia, jednak znacznie prostsze jest użycie
 -   [Jak zainstalować dodatkowe Środowiska pracy](How_to_install_additional_workbenches/pl.md)
 
 
+
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _ _
 

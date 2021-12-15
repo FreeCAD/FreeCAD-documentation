@@ -75,7 +75,7 @@ Quando você inicia o FreeCAD pela primeira vez, é apresentado ao Start Center.
 
 </div>
 
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
+<img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -94,37 +94,6 @@ FreeCAD tem vários modos diferentes [estilos de navegação](Mouse_Model/pt-br.
 
 
 </div>
-
-
-{{CAD Navigation
-|Select_name=Selecionar
-|Pan_name=Pan
-|Zoom_name=Zoom
-|Rotate_view_name=Rotacionar vista<br>Primeiro método
-|Rotate_view_alt_name=Rotacionar vista<br>Método alternativo
-|Ctrl=**Ctrl**
-|Shift=**Shift**
-|Select_text=Pressione o botão esquerdo do mouse sobre um objeto que você deseja selecionar.
-
-Manter pressionado **Ctrl** permite a seleção de múltiplos objetos.
-|Pan_text=Segure o botão do meio do mouse, depois mova o ponteiro.
-|Pan_mode_text=Pan mode: segure a tecla **Ctrl**, pressione o botão direito do mouse uma vez, depois mova o ponteiro. <small>(v0.17)</small> 
-|Zoom_text=Utilizar a roda do mouse para aumentar e diminuir o zoom.
-
-Clicando no botão do meio do mouse, a vista é centrada novamente na localização do cursor.
-|Zoom_mode_text=Zoom mode: segure as teclas **Ctrl** e **Shift**, pressione o botão direito do mouse uma vez, depois mova o ponteiro. 
-<small>(v0.17)</small> 
-|Rotate_view_text=Segure o botão central do mouse, depois pressione e segure o botão esquerdo do mouse, depois mova o ponteiro.
-
-A localização do cursor quando o botão central do mouse é pressionado determina o centro de rotação. A rotação funciona como girar uma bola que gira ao redor de seu centro. Se os botões forem soltos antes de você parar o movimento do mouse, a visualização continua [girando](Std_DemoMode/pt-br.md), se isto estiver habilitado.
-
-Um duplo clique com o botão do meio do mouse define um novo centro de rotação.
-|Rotate_view_mode_text=Rotate mode: pressione a tecla **Shift**, pressione o botão direito do mouse uma vez, depois mova o ponteiro. <small>(v0.17)</small> 
-|Rotate_view_alt_text=Segure o botão central do mouse, depois pressione e segure o botão direito do mouse, depois mova o ponteiro.
-
-Com este método, o botão central do mouse pode ser solto depois que o botão direito do mouse for pressionado.
-
-Os usuários que usam o mouse com a mão direita podem achar este método mais fácil do que o primeiro método.}}
 
 Você também tem várias predefinições de visualização (vista superior, vista frontal, etc.) disponíveis no menu Ver, na barra de ferramentas Ver, e por atalhos numéricos (**1**, **2**, etc\...). Clicando com o botão direito do mouse em um objeto ou em uma área vazia da visualização 3D, você tem acesso rápido a algumas operações comuns, tais como definir uma determinada visualização, ou localizar um objeto na visualização em árvore.
 
@@ -180,7 +149,7 @@ Essas formas 2D feitas com o desenhista são muito utilizadas na bancada de trab
 
 O que lhe dá um objeto como este:
 
-<img alt="" src=images/Partdesign_example.jpg  style="width:1024px;">
+<img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 A qualquer momento, você pode selecionar os esboços originais e modificá-los, ou alterar os parâmetros de extrusão das operações de bloco ou bolso, o que atualizará o objeto final.
 
@@ -222,13 +191,19 @@ O fluxo de trabalho típico com a as bancadas de trabalho \"Arch\" (Arquitetura)
 
 O que lhe dará isto:
 
-<img alt="" src=images/Arch_workflow_example.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
 
 Para mais informações, visite a página [Tutoriais](Tutorials.md) .
 
 ## Addons, Macro e Bancadas Externas 
 
+
+<div class="mw-translate-fuzzy">
+
 O Freecad, como um software de código aberto, oferece a possibilidade de complementar suas bancadas de trabalho com addons.
+
+
+</div>
 
 O princípio [Extensões](Addon/pt-br.md) é baseado no desenvolvimento de um complemento de bancada de trabalho. Qualquer usuário pode desenvolver uma função que ele ou ela considere faltar para suas próprias necessidades ou, em última instância, para a comunidade. Com o fórum, o usuário pode solicitar uma opinião, ajuda no fórum. Ele pode compartilhar, ou não, o objeto de seu desenvolvimento de acordo com as regras de direitos autorais a definir. Livre para ela/ele. Para desenvolver, o usuário tem disponíveis funções [scripting](Power_users_hub/pt-br.md).
 

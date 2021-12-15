@@ -1,6 +1,7 @@
 # Sketcher CompConstrainRadDia/fr
 {{GuiCommand/fr
-|Name=Sketcher constraindre un arc or un cercle
+|Name=Sketcher constrain an arc or a circle
+|Name/fr=Sketcher constraindre un arc or un cercle
 |Workbenches=[Atelier Sketcher](Sketcher_Workbench/fr.md)
 |MenuLocation=Aucun (barre d'outils seulement)
 }}

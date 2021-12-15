@@ -60,7 +60,7 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [ShapeString](Draft_ShapeString.md): creates a compound shape that represents a text string.
 
--   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the faces of a selected object. <small>(v0.20)</small> 
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the planar faces of a selected object. <small>(v0.20)</small> 
 
 ## Annotation
 
@@ -162,7 +162,7 @@ The Draft Snap toolbar allows selecting the active snap options. The buttons bel
 
 -   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Snap Endpoint](Draft_Snap_Endpoint.md): snaps to the endpoints of edges.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of straight and circular edges.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of edges.
 
 -   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ and [Arch BuildingParts](Arch_BuildingPart.md).
 
@@ -225,7 +225,6 @@ The **Draft → Utilities** menu contains several tools. Most of them can also b
 
 -   [Uchopování](Draft_Snap/cs.md): Umožňuje umístit nové body na zvláštní místa na existujících objektech
 -   [Omezování](Draft_Constrain/cs.md): Umožňuje umístit nové body horizontálně nebo vertikálně v relaci k předchozím bodům
--   [Práce s ručními koordináty](Draft_Coordinates/cs.md): Umožňuje vkládat koordináty ručně místo klikání po obrazovce
 -   [Working plane](Draft_SelectPlane/cs.md): Allows you to define a plane in the 3D space, where next operations will take place
 
 
@@ -251,9 +250,9 @@ For a [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft Cub
 
 For a [Draft LayerContainer](Draft_Layer.md) these additional options are available:
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> Merge layer duplicates: this option currently does not work.
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Merge layer duplicates](Draft_Layer#Layer_container_options.md): merges all layers with the same base label. This does not work in FreeCAD version 0.19.
 
--   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer.md): adds a new layer to the current document.
+-   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer#Layer_container_options.md): adds a new layer to the current document.
 
 ### Layer options 
 
@@ -358,7 +357,7 @@ Inspecting the code of this module can help to understand the programming interf
 ### Tutorials 
 
 -   [Draft tutorial](Draft_tutorial/cs.md)
--   [Draft tutorial Outdated](Draft_tutorial_Outdated/cs.md)
+-   [Draft ShapeString tutorial](Draft_ShapeString_tutorial.md)
 
 
 </div>

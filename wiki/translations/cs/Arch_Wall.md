@@ -54,8 +54,8 @@ Pokud se má několik zdí protínat, musíte je umístit do [podlaží](Arch_Fl
 
 1.  Stiskněte tlačítko **<img src="images/Arch_Wall.png" width=16px> [Zeď](Arch_Wall.md)
 ** nebo klávesy **W** a **A**
-2.  Klikněte na první bod v 3D pohledu nebo zadejte [koordináty](Draft_Coordinates.md)
-3.  Klikněte na druhý bod v 3D pohledu nebo zadejte [koordináty](Draft_Coordinates.md)
+2.  Klikněte na první bod v 3D pohledu nebo zadejte koordináty
+3.  Klikněte na druhý bod v 3D pohledu nebo zadejte koordináty
 
 
 </div>

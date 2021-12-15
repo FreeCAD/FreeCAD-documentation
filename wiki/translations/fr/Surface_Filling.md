@@ -27,6 +27,9 @@ La surface peut être modifiée en ajoutant des arêtes et des sommets de contra
 
 ## Utilisation
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Assurez-vous d\'avoir au moins trois arêtes ou courbes dans l\'espace formant un contour fermé. Par exemple, ceux-ci peuvent être créés avec des outils de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _ . L\'utilisation de trois arêtes créerait une surface triangulaire; quatre arêtes une surface quadrilatérale.
     -   En option, les courbes peuvent être dessinées à l\'intérieur du contour fermé, sans nécessairement toucher les bords. Ces courbes peuvent être utilisées pour contrôler la courbure de la surface résultante.
     -   De même, un certain nombre de sommets peuvent être utilisés dans le même but pour indiquer où la surface doit passer.
@@ -36,6 +39,9 @@ La surface peut être modifiée en ajoutant des arêtes et des sommets de contra
     -   En option, allez dans la section **Curvature: non-boundary edges**, appuyez sur **Add edge**, et choisissez les arêtes souhaitées dans la [Vue 3D](3D_view/fr.md) .
     -   En option, allez dans la section **Curvature: non-boundary vertices**, appuyez sur **Add vertex**, et choisissez les sommets désirés dans la [Vue 3D](3D_view/fr.md) .
 5.  Appuyez sur **OK** pour terminer l\'opération.
+
+
+</div>
 
 Les arêtes de base qui forment le contour fermé, ainsi que les sommets et arêtes auxiliaires, peuvent appartenir à des courbes 2D de <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _ mais peut également appartenir à des objets solides 3D tels que ceux créés avec <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _.
 

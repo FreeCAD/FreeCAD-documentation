@@ -1,6 +1,13 @@
-# Arch Structure/ja
 ---
-- GuiCommand:/jp   Name:Arch Structure   Workbenches:[MenuLocation:Arch -> Structure   Shortcut:S T   SeeAlso:[[Arch Wall/jp](Arch_Module/jp___建築]].md)---
+- GuiCommand:/ja
+   Name:Arch Structure
+   Name/ja:Arch Structure
+   Workbenches:[建築](Arch_Workbench/ja.md)
+   MenuLocation:Arch -> Structure   Shortcut:S T
+   SeeAlso:[[Arch Wall/ja]]
+---
+
+# Arch Structure/ja
 
 
 </div>
@@ -28,9 +35,15 @@
 
 ## 使用方法
 
+
+<div class="mw-translate-fuzzy">
+
 -   2D形状（製図オブジェクト、面、スケッチ）を選択してください（オプション）
 -   <img alt="" src=images/Arch_Structure.png  style="width:16px;"> **Arch Structure**ボタンを押してください
 -   必要に応じてプロパティを調整します
+
+
+</div>
 
 ## オプション
 
@@ -98,6 +111,11 @@ Structural objects also have the ability to display structural nodes. Structural
     -   Make the node of this object and another one coincident
     -   Toggle the display of all nodes of all structural objects of the document on/off
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## スクリプト処理
 
 
@@ -105,7 +123,12 @@ Structural objects also have the ability to display structural nodes. Structural
 
 [Arch API](Arch_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The Structure tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+
+</div>
+
+The Structure tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 Structure = makeStructure(baseobj=None, height=None)
 Structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")

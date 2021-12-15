@@ -44,6 +44,9 @@ Die Arbeitsbereich Strahlverfolgung ist im Wesentlichen veraltet. Eine Neuentwic
 
 ### Projekt Werkzeuge 
 
+
+<div class="mw-translate-fuzzy">
+
 Dies sind die wichtigsten Werkzeuge für den Export deiner 3D Arbeit in externe Renderer.
 
 -   <img alt="" src=images/Raytrace_New.svg  style="width:32px;"> [Neues PovRay Projekt](Raytracing_New/de.md): Neues PovRay Projekt in das Dokument einfügen
@@ -52,6 +55,9 @@ Dies sind die wichtigsten Werkzeuge für den Export deiner 3D Arbeit in externe 
 -   <img alt="" src=images/Raytrace_ResetCamera.svg  style="width:32px;"> [Kamera zurücksetzen](Raytracing_ResetCamera/de.md): Stimmt die Kameraposition eines Raytracing Projekts mit der aktuellen Ansicht ab.
 -   <img alt="" src=images/Raytrace_ExportProject.svg  style="width:32px;"> [Export Projekt](Raytracing_ExportProject/de.md): Exportiert ein Strahlverfolgungsprojekt in eine Szene Datei zum Rendern in einem externen Renderer.
 -   <img alt="" src=images/Raytrace_Render.svg  style="width:32px;"> [Rendern](Raytracing_Render/de.md): Rendert ein Strahlverfolgungsprojekt mit einem externen Renderer.
+
+
+</div>
 
 ### Hilfsmittel
 
@@ -142,7 +148,7 @@ Diese Seiten beziehen sich auf den neuen, in Python programmierten Arbeitsbereic
 Diese Seiten beziehen sich auf einen in C++ programmierten Ersatzarbeitsbereich, der um das Jahr 2012 herum vorgeschlagen und nie fertiggestellt wurde.
 
 -   [Strahlverfolgungsprojekt](Raytracing_project/de.md)
--   [Projekt rendern](Rendern_Projekt/de.md)
+-   [Projekt rendern](Render_project/de.md)
 
 
 

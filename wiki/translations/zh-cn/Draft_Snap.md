@@ -14,7 +14,7 @@
 
 <div class="mw-translate-fuzzy">
 
-捕捉功能可用于[底图工作台与](Draft_Workbench.md)[建筑工作台（Arch Workbench）中的大多工具](Arch_Workbench.md)，利用捕捉工具栏中的**<img src="images/Snap_Lock.svg" width=16px> [Draft ToggleSnap](Draft_ToggleSnap.md)**按钮即可对此功能进行全局开启或关闭。而通过**View → Toolbars → Draft Snap**菜单便可以激活捕捉工具栏。通过点选捕捉工具栏中的各按钮，即可开启或关闭对应的捕捉方法。
+捕捉功能可用于[底图工作台与](Draft_Workbench.md)[建筑工作台（Arch Workbench）中的大多工具](Arch_Workbench.md)，利用捕捉工具栏中的**<img src="images/Draft_Snap_Lock.svg" width=16px> [Draft ToggleSnap](Draft_Snap_Lock.md)**按钮即可对此功能进行全局开启或关闭。而通过**View → Toolbars → Draft Snap**菜单便可以激活捕捉工具栏。通过点选捕捉工具栏中的各按钮，即可开启或关闭对应的捕捉方法。
 
 
 </div>
@@ -41,7 +41,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Snap Endpoint](Draft_Snap_Endpoint.md): snaps to the endpoints of edges.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of straight and circular edges.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of edges.
 
 -   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ and [Arch BuildingParts](Arch_BuildingPart.md).
 

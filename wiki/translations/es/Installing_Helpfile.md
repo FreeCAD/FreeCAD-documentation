@@ -11,7 +11,7 @@ Una documentación funcionando offline consiste en al menos dos archivos: {{File
 
 The helpfiles can be downloaded here: <https://github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD.0_19.Offline.Doc.7z>
 
-As a future option they can be installed from within FreeCAD with the [Addon Manager](Addon_Manager.md).
+As a future option they can be installed from within FreeCAD with the [Addon Manager](Std_AddonMgr.md).
 
 The help files do always have the same names: {{FileName|freecad.qhc}} and {{FileName|freecad.qch}}. In order to have different version of the helpfiles, these need to be installed in different directories. In case of a manual download, just store the zip-file locally and extract the archive into the wanted directory.
 

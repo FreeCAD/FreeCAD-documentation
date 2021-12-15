@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Draft WorkingPlane   Name/de:Draft Arbeitsebene
+   Name:Draft Snap WorkingPlane
+   Name/de:Draft Arbeitsebene
    MenuLocation:Entwurf → [Objektfang](Draft_Snap/de.md) → Arbeitsebene
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    SeeAlso:[Draft Objektfang](Draft_Snap/de.md), [Draft Ebene markieren](Draft_SelectPlane/de.md)
@@ -35,8 +36,7 @@ Diese Methode platziert immer einen neuen Punkt auf der aktuellen [Arbeitsebene]
 
 ## Anwendung
 
-
-{{Draft Tools navi/de}}
+For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 1.  Optionally change the [working plane](Draft_SelectPlane.md).
 2.  Make sure snapping is enabled. See <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Draft Snap Lock](Draft_Snap_Lock.md).

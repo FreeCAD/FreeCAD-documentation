@@ -1,9 +1,4 @@
 # Add Button to FEM Toolbar Tutorial/fr
-{{Page_in_progress}}
-
-
-
-
 {{TutorialInfo
 |Topic=FEM
 |Level=Avancé
@@ -19,9 +14,9 @@ L\'atelier FEM dispose de barres d\'outils et de menus. Ce tutoriel montre comme
 La tâche peut être divisée en quatre parties :
 
 -   **Créer un nouveau fichier d\'icône**.
--   **Enregistrer le nouveau fichier d\'icône**. Modification nécessaire dans 
--   **Créer une nouvelle classe de commande**. Modification nécessaire dans 
--   **Ajout d\'une nouvelle commande à l\'atelier**. Modification nécessaire dans .
+-   **Enregistrer le nouveau fichier d\'icône**. Modification nécessaire dans `src/Mod/Fem//Gui/Resources/Fem.qrc`
+-   **Créer une nouvelle classe de commande**. Modification nécessaire dans `src/Mod/Fem/femcommands/commands.py`
+-   **Ajout d\'une nouvelle commande à l\'atelier**. Modification nécessaire dans `src/Mod/Fem/Gui/Workbench.cpp`
 
 ## Créer un nouveau fichier d\'icône 
 

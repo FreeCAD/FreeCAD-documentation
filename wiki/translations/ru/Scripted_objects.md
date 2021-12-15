@@ -1156,6 +1156,9 @@ else:
 В дополнение к представленным примерам, посмотрите FreeCAD [src/Mod/TemplatePyMod/FeaturePython.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py), находящийся в папке с исходными кодами FreeCAD.
 
 
+
+
+
 {{Powerdocnavi
 
 }}

@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Kurven TeileKurve
+   Name:Curves SplitCurve
+   Name/de:Kurven TeileKurve
    MenuLocation:Kurven → 
    Workbenches:[Kurven](Curves_Workbench/de.md)
    Shortcut:Kein

@@ -5,8 +5,6 @@ Ta strona prezentuje zestaw filmików instruktażowych wykonanych przez użytkow
 
 Odwiedź stronę _.
 
-Odwiedź stronę [Poradniki zewnętrzne](offsite_tutorials.md), aby uzyskać dostęp do listy samouczków umieszczonych na zewnętrznych stronach.
-
 Jeśli chciałbyś pomóc w pisaniu dokumentacji wiki oraz poradników, zapoznaj się z [Pomóż w rozwoju FreeCAD](Help_FreeCAD/pl.md), ogólnymi wytycznymi dotyczącymi Wiki w [WikiPages](WikiPages.md), i postępuj zgodnie z [Wskazówkami dotyczącymi poradników](tutorial_guidelines.md).
 
 ## Projektowanie produktów 
@@ -58,7 +56,7 @@ Ponieważ istnieje wiele filmów, które dotyczą tego tematu, proszę odwiedzi�
 
 ## Pozostałe
 
--   _, które może być instalowane z poziomu <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md).
+-   _, które może być instalowane z poziomu <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md).
 
 -   [Samouczki FreeCAD - OGÓLNE](https://www.youtube.com/watch?v=WdBQPXeAeMc&list=PLKu--JcOZKTPZjy761ELQ7ba45yZmxOpj) autorstwa AllVisuals4U. FreeCAD 0.16, seria 28 krótkich filmów wideo na temat ogólnych zagadnień związanych z programem FreeCAD, na przykład pokazuje jak zmienić jednostki, kolor tła, ekran powitalny, wiązania, ustawić perspektywę, ustawić przezroczystość, zmienić rozmiar ikon na pasku narzędzi, przygotować się do druku 3D i wytłoczyć tekst. Niektóre bardziej zaawansowane instrukcje obejmują sposób projektowania logo, gięcie metalu i montaż. Większość filmów opisuje FreeCAD 0.16, ale ponieważ nie koncentrują się one na aspektach modelowania, informacje te mają ogólne zastosowanie dla pozostałych wersji.
 

@@ -13,12 +13,7 @@ The <img alt="" src=images/Workbench_Points.svg  style="width:24px;"> [Points Wo
 
 ## Инструменты
 
--   <img alt="" src=images/Points_Import_Point_cloud.svg  style="width:32px;"> [Import](Points_Import.md): импортирует облако точек из текстового файла.
--   <img alt="" src=images/Points_Export_Point_cloud.svg  style="width:32px;"> [Export](Points_Export.md): экспортирует облако точек в текстовый файл.
--   [Transform](Points_Transform.md): трансформирует облако точек.
--   [Convert](Points_Convert.md): преобразуется в облако точек.
--   <img alt="" src=images/PolygonPick.svg  style="width:32px;"> [Polygon cut](Points_PolyCut.md): облако точек с выбранным многоугольником.
--   [Merge](Points_Merge.md): объединить несколько облаков точек в одно.
+All Points Workbench tools can be accessed from the **Points** menu. Some tools are also available in the **Points tools** toolbar.
 
 -   <img alt="" src=images/Points_Convert.svg  style="width:32px;"> [Convert to points\...](Points_Convert.md): Creates point clouds from shape objects.
 

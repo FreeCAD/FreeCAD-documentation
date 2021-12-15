@@ -27,7 +27,7 @@ Przyłącza punkt do innego obiektu, takiego jak linia, łuk lub oś szkicu.
 
 ## Tworzenie skryptów 
 
-Wiązanie może być utworzone zarówno przez makrodefinicje jak i z konsoli Python za pomocą następującego polecenia:
+Wiązanie może być utworzone zarówno przez [makrodefinicje](Macros/pl.md) jak i z konsoli [Python](Python/pl.md) za pomocą następującego polecenia:
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`

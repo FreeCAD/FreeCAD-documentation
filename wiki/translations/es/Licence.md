@@ -123,7 +123,7 @@ No obstante, esta decisión se ha tomado sólo para el sistema básico de FreeCA
 </div>
 
 
- 
+
 
 _
 

@@ -1,19 +1,30 @@
 # CurvedShapes Workbench/it
-} <img alt="CurvedShapes External Workbench Icon" src=images/CurvedShapes_workbench_icon.svg  style="width:128px;"> {{TOCright}}
+}
 
-## Introduzione
+<img alt="CurvedShapes Workbench icon" src=images/CurvedShapes_workbench_icon.svg  style="width:128px;">
 
 
 {{TOCright}}
 
+## Introduzione
+
+
+<div class="mw-translate-fuzzy">
+
 Curved Shapes è un [ambiente esterno](external_workbenches/it.md) di FreeCAD che crea forme 3D da curve 2D.
+
+
+</div>
 
 ## Installazione
 
-Si consiglia di installarlo tramite <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager/it.md) che si trova sotto il menu **Strumenti → Addon Manager**.
+
+<div class="mw-translate-fuzzy">
+
+Si consiglia di installarlo tramite <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md) che si trova sotto il menu **Strumenti → Addon Manager**.
 
 
-**Note: for manual installation see [Manual installation](Addon_Manager#Manual_installation.md)**
+</div>
 
 ## Strumenti
 
@@ -24,8 +35,8 @@ Si consiglia di installarlo tramite <img alt="" src=images/AddonManager.svg  sty
 
 ### Esempi
 
--   <img alt="" src=images/CurvedShapes_HortenHIX.svg  style="width:24px;"> [HortenHIX](CurvedShapes_HortenHIX.md): A python script that creates the shape of the [Horten Ho 229 (also called Horten H IX)](https://en.wikipedia.org/wiki/Horten_Ho_229), a stealth fighter that has been build in Germany in 1944.
--   <img alt="" src=images/CurvedShapes_FlyingWingS800.svg  style="width:24px;"> [FlyingWingS800](CurvedShapes_FlyingWingS800.md): A python script that creates the shape of a flying wing RC model.
+-   <img alt="" src=images/CurvedShapes_HortenHIX.svg  style="width:24px;"> [HortenHIX](CurvedShapes_HortenHIX.md): A Python script that creates the shape of the [Horten Ho 229 (also called Horten H IX)](https://en.wikipedia.org/wiki/Horten_Ho_229), a stealth fighter that has been build in Germany in 1944.
+-   <img alt="" src=images/CurvedShapes_FlyingWingS800.svg  style="width:24px;"> [FlyingWingS800](CurvedShapes_FlyingWingS800.md): A Python script that creates the shape of a flying wing radio-controlled model.
 
 ## Riferimenti
 
@@ -35,7 +46,7 @@ Si consiglia di installarlo tramite <img alt="" src=images/AddonManager.svg  sty
 ## Correlazioni
 
 -   [Curves Workbench](Curves_Workbench.md)
--   [AirPlaneDesign Workbench](AirPlaneDesign_Workbench.md)
+-   [AirPlaneDesign Workbench](https://github.com/FredsFactory/FreeCAD_AirPlaneDesign)
 
 ## External Workbenches 
 

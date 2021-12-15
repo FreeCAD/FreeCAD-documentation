@@ -123,7 +123,13 @@ App.activeDocument().DrawTileWeld001.CenterText = "center text"
 -   Es gibt einen [Einstellungsparameter](TechDraw_Preferences/de.md) für das Standard Schweißsymbolverzeichnis. Du kannst deine eigenen Symbole in einem persönlichen Verzeichnis hinzufügen.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

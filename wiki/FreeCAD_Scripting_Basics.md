@@ -21,13 +21,13 @@ Another useful feature of the interpreter is the possibility to go back through 
 
 By right-clicking in the interpreter window, you also have several other options, such as copy the entire history (useful when you want to experiment with things before making a full script of them), or insert a filename with complete path.
 
-[top](#top.md)
+
 
 ### Python Help 
 
 In the FreeCAD **Help** menu, you\'ll find an entry labeled **Automatic python modules documentation**, which will open a browser window containing a complete, realtime-generated documentation of all Python modules available to the FreeCAD interpreter, including Python and FreeCAD built-in modules, system-installed modules, and FreeCAD additional modules. The documentation available there depends on how much effort each module developer put into documenting his code, but Python modules have a reputation for being fairly well documented. Your FreeCAD window must stay open for this documentation system to work. The entry **Python scripting documentation** will give you a quick link to the [Power users hub](Power_users_hub.md) wiki section.
 
-[top](#top.md)
+
 
 ## Built-in modules 
 
@@ -39,7 +39,7 @@ Since FreeCAD is designed so that it can also be run without a Graphical User In
 
 Listing the content of these modules is not very useful because they grow quite fast as FreeCAD develops. But the two browsing tools provided (the class browser and the Python help) should give you complete and up-to-date documentation at any moment.
 
-[top](#top.md)
+
 
 ### The App and Gui objects 
 
@@ -79,7 +79,7 @@ myViewObject = App.ActiveDocument.ObjectName.ViewObject
 
 If you are in command-line mode and have no GUI, the last line will return `None`.
 
-[top](#top.md)
+
 
 ### The Document objects 
 
@@ -113,13 +113,13 @@ To access the current view, you type:
 myView = Gui.ActiveDocument.ActiveView
 ```
 
-[top](#top.md)
+
 
 ## Using additional modules 
 
 The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and managing objects in the FreeCAD document. They don\'t actually do anything more such as creating or modifying geometry. This is because that geometry can be of several types, and therefore requires additional modules, each responsible for managing a certain geometry type. For example, the _ is able to build and modify mesh objects. In this manner FreeCAD is able to handle a wide variety of object types, that can all coexist in the same document, and new types can easily be added in the future.
 
-[top](#top.md)
+
 
 ### Creating objects 
 
@@ -156,7 +156,7 @@ cube = Part.makeBox(2, 2, 2)
 Part.show(cube)
 ```
 
-[top](#top.md)
+
 
 ### Modifying objects 
 
@@ -177,7 +177,7 @@ biggercube = Part.makeBox(5, 5, 5)
 myPart.Shape = biggercube
 ```
 
-[top](#top.md)
+
 
 ### Querying objects 
 
@@ -198,9 +198,12 @@ print(myObj.isDerivedFrom("Part::Feature"))
 
 Now you can really start playing with FreeCAD! For a complete list of available modules and their tools, visit the _ section.
 
-[top](#top.md)
 
- {{Powerdocnavi}} 
+
+
+
+
+ {{Powerdocnavi}}
 
 _ _
 

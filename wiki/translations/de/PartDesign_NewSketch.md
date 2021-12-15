@@ -69,9 +69,9 @@ Um beliebige Elemente im _ und <img alt="" src=images/Sketcher_CarbonCopy.svg  s
 
 <div class="mw-translate-fuzzy">
 
--    **Abbildungsmodus**: der Skizze an einem anderen Objekt, normalerweise einer Ebene oder Fläche. Es können aber auch andere Objekttypen sein. Einmal in das Feld klicken, um eine Schaltfläche **...** anzuzeigen und dann diesen anklicken. Es öffnet sich der [Anhängendialog](Part_Attachment/de.md). Wenn der Modus *deaktiviert* ist, dann ist die Positions-Eigenschaft zur Bearbeitung freigegeben.
+-    **Abbildungsmodus**: der Skizze an einem anderen Objekt, normalerweise einer Ebene oder Fläche. Es können aber auch andere Objekttypen sein. Einmal in das Feld klicken, um eine Schaltfläche **...** anzuzeigen und dann diesen anklicken. Es öffnet sich der [Anhängendialog](Part_EditAttachment/de.md). Wenn der Modus *deaktiviert* ist, dann ist die Positions-Eigenschaft zur Bearbeitung freigegeben.
 
--    **Positonierung**: steuert die Ausrichtung der Skizze im 3D-Raum; siehe [Positionierung](Std_Placement/de.md). Dies ist gesperrt, wenn die Skizze über die Abbildungs-Eigenschaft angehängt ist.
+-    **Positonierung**: steuert die Ausrichtung der Skizze im 3D-Raum; siehe [Positionierung](Std_EditPlacement/de.md). Dies ist gesperrt, wenn die Skizze über die Abbildungs-Eigenschaft angehängt ist.
 
 
 </div>

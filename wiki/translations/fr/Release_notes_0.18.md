@@ -49,7 +49,7 @@ Outils [Arch (architecture) et BIM (Building information modeling)](#Atelier_Arc
 
 -   [ Walls](Arch_Wall/fr.md) peut maintenant être affiché comme une pile de blocs. Il existe de nombreuses options pour configurer leurs tailles et la manière dont les blocs doivent être empilés.
 -   Les [ Building Parts](Arch_BuildingPart/fr.md) sont le nouveau conteneur Arch à tout faire. Ils peuvent regrouper n'importe quel nombre d'objets, ils peuvent être utilisés pour créer des sols (étages), des bâtiments (les outils [Arch Floor](Arch_Floor/fr.md) et [ Arch Building](Arch_Building/fr.md) produisent désormais des parties de construction), ou tout autre groupe de Objets Arch. Ils peuvent être déplacés comme [ Parts](Std_Part/fr.md), et ils sont [ clonables](Draft_Clone/fr.md) et [ référençables](Arch_Reference/fr.md) !
--   L\'[Atelier BIM](BIM_Workbench/fr.md) (ajouté via [ Addon Manager](AddonManager/fr.md)) est un nouveau pendant externe expérimental de [ Arch](Arch_Workbench/fr.md). Nous y testons de nouvelles fonctionnalités et de nouveaux flux de travail dans un environnement plus libre. Pour en être sûr, faites un essai !
+-   L\'_) est un nouveau pendant externe expérimental de [ Arch](Arch_Workbench/fr.md). Nous y testons de nouvelles fonctionnalités et de nouveaux flux de travail dans un environnement plus libre. Pour en être sûr, faites un essai !
 -   [ Windows](Arch_Window/fr.md) dispose de nouveaux préréglages, tels qu\'une fenêtre coulissante à 4 volets. Si la [librairie Parts](https://github.com/FreeCAD/FreeCAD-library/tree/c5eea12cdda7a3e6349323808815f63b0f97ef2e) est installée, on dispose de toutes les portes et fenêtres de la bibliothèque.
 -   [ Panneaux](Arch_Panel/fr.md) peut désormais créer différents types de panneaux profilés, tels que des panneaux ondulés ou même des panneaux sandwich.
 -   Les objets [ Structure](Arch_Structure/fr.md) ont un nouveau mode de dessin de poutre, qui vous permet de cliquer sur deux points pour placer un élément structurel entre eux.
@@ -66,7 +66,7 @@ Outils [Arch (architecture) et BIM (Building information modeling)](#Atelier_Arc
 
 ## Atelier Draft (Planche à dessin) 
 
-![ 700px \| thumb \| right \| Outils d\'annotation Draft plus précis](images/_Draft_release018_example.jpg )
+<img alt="Outils d\'annotation Draft plus précis" src=images/Draft_release018_example.jpg  style="width:700px;">
 
 -   L\'outil [Draft Échelle](Draft_Scale/fr.md) a été entièrement repensé. Il comporte désormais plus d\'options et est beaucoup plus confortable à utiliser.
 -   L\'outil [Draft Texte](Draft_Text/fr.md) a également été entièrement repensé. Il dispose désormais de son propre objet paramétrique avec beaucoup plus d\'options. Attention, ces nouveaux textes ne sont pas supportés par la version 0.17
@@ -74,7 +74,7 @@ Outils [Arch (architecture) et BIM (Building information modeling)](#Atelier_Arc
 -   Nouvel outil [ Draft Joindre](Draft_Join/fr.md), qui vous permet de joindre des tracés et des lignes individuelles en un seul tracé.
 -   Nouvel outil [ Draft Fractionner](Draft_Split/fr.md), qui divise une ligne ou un tracé en un point pour créer un autre tracé ou une ligne.
 -   Si vous appuyez sur la touche **** pendant que vous dessinez en mode Draft, la cible de capture est activée, ce qui vous permet de capturer des objets masqués par d\'autres.
--   L\'outil [ Draft Ajouter un Point](Draft_AddPoint/fr.md) a été amélioré pour ajouter de manière plus fiable des nœuds sur des lignes et des tracés exactement à l\'endroit où vous cliquez.
+-   L\'outil Draft Ajouter un Point a été amélioré pour ajouter de manière plus fiable des nœuds sur des lignes et des tracés exactement à l\'endroit où vous cliquez.
 
 
 

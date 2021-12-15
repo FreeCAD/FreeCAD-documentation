@@ -5,7 +5,7 @@
    MenuLocation:Entwurf → Dienstprogramme → Umschalten Gitter
    Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Shortcut:**G** **R**
-   SeeAlso:[Entwurf Fang](Draft_Snap/de.md), [Entwurf UmschaltenFang](Draft_ToggleSnap/de.md)
+   SeeAlso:[Entwurf Fang](Draft_Snap/de.md)
 ---
 
 # Draft ToggleGrid/de
@@ -23,7 +23,7 @@ Dieses Werkzeug erlaubt dir das Gitter, definiert in den [Entwurf Einstellungen]
 
 </div>
 
-In FreeCAD version 0.19 and 0.20 the grid is always displayed when a command becomes active and toggling the grid while a command is active does not work.
+In FreeCAD version 0.19 the grid is always displayed when a command becomes active and toggling the grid while a command is active does not work.
 
 ## Anwendung
 
@@ -52,15 +52,6 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 -   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
 -   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/de

@@ -58,7 +58,7 @@ Structura de comprimare în modurile \"Standard\" și \"Split\" urmează structu
 ## Cum se utilizează 
 
 1.  Selectați obiectele care urmează să fie intersectate.
-    Ordinea de selecție nu este importantă, deoarece acțiunea instrumentului este simetrică. Este suficient să selectați o sub-formă a fiecărui obiect (de exemplu, fețele). De asemenea, puteți selecta un compus care conține toate formele de conectat, de ex. [Array Draft](Array_Draft.md).
+    Ordinea de selecție nu este importantă, deoarece acțiunea instrumentului este simetrică. Este suficient să selectați o sub-formă a fiecărui obiect (de exemplu, fețele). De asemenea, puteți selecta un compus care conține toate formele de conectat, de ex. [Array Draft](Draft_Array.md).
 2.  Invoca comanda BooleanFragments parte.
 
 

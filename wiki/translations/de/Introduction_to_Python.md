@@ -51,9 +51,7 @@ help("print")
 
 Du erhältst eine lange und vollständige Beschreibung von allem, was der `print()` Befehl tun kann.
 
-Jetzt, da du den Python Interpreter verstehst, können wir mit den ernsteren Dingen fortfahren.
-
-[Anfang](#top.md)
+Jetzt, da du den Python Interpreter verstehst, können wir mit den ernsteren Dingen fortfahren. {{Top}}
 
 ## Variablen
 
@@ -94,9 +92,7 @@ print(var2)
 
 Es ist ratsam, deinen Variablen aussagekräftige Namen zu geben. Nach einer Weile wirst du dich nicht mehr daran erinnern, was deine Variable mit dem Namen `a` darstellt. Aber wenn du sie zum Beispiel `myWelcomeMessage` genannt hast, wirst du dich leicht an ihren Zweck erinnern. Außerdem ist dein Code einen Schritt näher an der Selbst-erklärend.
 
-Der Fall ist sehr wichtig, `myVariable` ist nicht dasselbe wie `myvariable`. Wenn du `print(myvariable)` eingeben würdest, würde es mit einem Fehler als nicht definiert zurückgegeben werden.
-
-[Anfang](#top.md)
+Der Fall ist sehr wichtig, `myVariable` ist nicht dasselbe wie `myvariable`. Wenn du `print(myvariable)` eingeben würdest, würde es mit einem Fehler als nicht definiert zurückgegeben werden. {{Top}}
 
 ## Zahlen
 
@@ -198,7 +194,8 @@ myVar = "hello friends"
 myVar
 ```
 
-[Anfang](#top.md)
+
+{{Top}}
 
 ## Listen
 
@@ -240,9 +237,7 @@ myvar[2]
 
 Normalerweise kann das, was du mit Listen machen kannst, auch mit Zeichenketten gemacht werden. Tatsächlich sind sowohl Listen als auch Zeichenketten Sequenzen.
 
-Neben Zeichenketten, Ganzzahlen, Gleitkommazahlen und Listen gibt es weitere eingebaute Datentypen, wie z.B. Wörterbücher, und du kannst sogar eigene Datentypen mit Klassen erstellen.
-
-[Anfang](#top.md)
+Neben Zeichenketten, Ganzzahlen, Gleitkommazahlen und Listen gibt es weitere eingebaute Datentypen, wie z.B. Wörterbücher, und du kannst sogar eigene Datentypen mit Klassen erstellen. {{Top}}
 
 ## Einrückung
 
@@ -341,7 +336,8 @@ else:
     print("Such Dalton doesn't exist!")
 ```
 
-[Anfang](#top.md)
+
+{{Top}}
 
 ## Funktionen
 
@@ -375,9 +371,7 @@ def sum(val1, val2):
 myTotal = sum(45, 34)
 ```
 
-Hier haben wir eine Funktion erstellt, die zwei Argumente empfängt, sie summiert und diesen Wert zurückgibt. Etwas zurückzugeben ist sehr nützlich, da wir mit dem Ergebnis etwas tun können, wie es z.B. in der Variablen `myTotal` speichern können.
-
-[Anfang](#top.md)
+Hier haben wir eine Funktion erstellt, die zwei Argumente empfängt, sie summiert und diesen Wert zurückgibt. Etwas zurückzugeben ist sehr nützlich, da wir mit dem Ergebnis etwas tun können, wie es z.B. in der Variablen `myTotal` speichern können. {{Top}}
 
 ## Module
 
@@ -401,7 +395,7 @@ def sum(a,b):
 print("myTest.py succesfully loaded")
 ```
 
-Speichere die Datei als {{Dateiname|myTest.py}} im {{FileName|scripts}} Ordner und schreibe in das Interpreterfenster:
+Speichere die Datei als {{FileName|myTest.py}} im {{FileName|scripts}} Ordner und schreibe in das Interpreterfenster:
 
 
 ```python
@@ -473,7 +467,8 @@ Es gibt jedoch eine Alternative:
 exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 ```
 
-[Anfang](#top.md)
+
+{{Top}}
 
 ## Loslegen mit FreeCAD 
 
@@ -484,19 +479,24 @@ Hoffentlich hast du nun eine gute Vorstellung davon, wie Python funktioniert, un
 dir()
 ```
 
-[Anfang](#top.md)
+
+{{Top}}
 
 ## Hinweise
 
 -   FreeCAD wurde ursprünglich für die Arbeit mit Python 2 entwickelt. Da Python 2 im Jahr 2020 das Ende seiner Lebensdauer erreicht hat, wird die zukünftige Entwicklung von FreeCAD ausschließlich mit Python 3 erfolgen, und Rückwärtskompatibilität wird nicht unterstützt.
 -   Viele weitere Informationen über Python findest du im [offiziellen Python Tutorium](https://docs.python.org/3/tutorial/index.html) und in der [offiziellen Python Referenz](https://docs.python.org/3/reference/).
 
-[Anfang](#top.md)
+
+{{Top}}
+
+
+
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

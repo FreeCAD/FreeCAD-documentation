@@ -3,7 +3,7 @@
 
 All macros should be properly documented in the same way [Gui Commands](Gui_Command.md) are documented. They should have an individual wiki page, and should be listed in one of the categories in [Macros recipes](Macros_recipes.md).
 
-The [Macros recipes](Macros_recipes.md) page has a good selection of macros created by experienced users, and many of them can be directly installed from the [Addon Manager](Addon_Manager.md).
+The [Macros recipes](Macros_recipes.md) page has a good selection of macros created by experienced users, and many of them can be directly installed from the [Addon Manager](Std_AddonMgr.md).
 
 See [GuiCommand model](GuiCommand_model.md) and macro pages like [Macro Loft](Macro_Loft.md) and [Macro Site From Contours](Macro_Site_From_Contours.md) to see how macros should be documented. At least two sections should be included, a **Description** section with general usage information, and a **Script** section to hold the actual macro code. Other sections may be included as needed to explain with more detail the usage of the macro.
 
@@ -193,7 +193,7 @@ To localize this template, use the appropriate language link in the first argume
 
 ## Добавление нового макроса в центральный репозиторий 
 
-To make a macro installable from the [Addon Manager](Addon_Manager.md) it should be included in the central [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros) repository.
+To make a macro installable from the [Addon Manager](Std_AddonMgr.md) it should be included in the central [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros) repository.
 
 In order to include the macro there, first it must be reviewed by the FreeCAD community in the [Python scripting and macros](https://forum.freecadweb.org/viewforum.php?f=22) subforum. Once this is done, the FreeCAD-macros repository should be forked, the new macro should be included in a branch, and then the branch should be pushed and merged into the upstream repository.
 

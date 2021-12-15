@@ -1,43 +1,33 @@
 # Frequently asked questions/pt-br
-Esta página tenta responder as perguntas mais comuns feitas nos fóruns do FreeCAD. Se você tiver algum problema ou pergunta em relação ao FreeCAD, verifique abaixo primeiro. Depois, se você não encontrar uma resposta para sua pergunta específica, vá para o [Fórum FreeCAD](http://forum.freecadweb.org/viewforum.php?f=3)!
+Esta página apresenta respostas para algumas das perguntas mais comuns e que são feitas nos fóruns do FreeCAD. Se você tiver algum problema ou alguma dúvida sobre o FreeCAD, aqui é o primeiro lugar onde deve procurar por respostas. Se você não encontrar a resposta aqui, procure tirar sua dúvida no [fórum do FreeCAD](http://forum.freecadweb.org/viewforum.php?f=3)!
 
 ## Instalação
 
 ### Qual é a maneira mais fácil de instalar o FreeCAD no meu sistema? 
 
+Se você estiver no Windows ou Mac OS, a maneira mais simples é ir à página _, [Linux](Installing_on_Linux/pt-br.md) ou [Mac](Installing_on_Mac/pt-br.md)).
 
-<div class="mw-translate-fuzzy">
+### Quais os pré-requisitos para executar o FreeCAD? 
 
-Se você estiver no Windows ou Mac OS, a maneira mais simples é ir para a página [Download](Download.md), onde você encontrará vários pacotes prontos para instalar. Se você estiver no Debian, Fedora ou Ubuntu e em algumas outras distribuições, o FreeCAD já está incluído nos repositórios de software padrão e você pode simplesmente instalá-lo com o gerenciador de software. No Ubuntu, a equipe do FreeCAD também mantém seus próprios [Repositórios PPA](Installing_on_Linux/pt-br#Desenvolvimento_PPA.md). Para maiores detalhes sobre instalação, consulte a página de instalação de seu sistema operacional ([Windows](Installing_on_Windows/pt-br.md), [Linux](Installing_on_Linux/pt-br.md) ou [Mac](Installing_on_Mac/pt-br.md)).
+Em contraste com a maioria dos softwares CAD 3D, o FreeCAD pode funcionar sem problemas em computadores mais modestos - é conhecido por funcionar em CPUs Pentium IV e Intel Core2 Solo. Se o seu computador estiver rodando um sistema operacional atual, é provável que o FreeCAD seja executado. O único pré-requisito é que sua placa gráfica ou chipset deve suportar a tecnologia _ desta FAQ.
 
+#### Multitarefa
 
-</div>
-
-### Quais são os pré-requisitos para executar o FreeCAD? 
-
-Em contraste com a maioria dos softwares CAD 3D, o FreeCAD pode funcionar sem problemas nos computadores mais modestos - é conhecido por funcionar em CPUs Pentium IV e Intel Core2 Solo. Se seu computador estiver rodando um sistema operacional atual, é provável que o FreeCAD seja executado. O único pré-requisito é que sua placa gráfica ou chipset deve suportar _ desta FAQ.
-
-#### Multithreading
-
-O núcleo de modelagem geométrica subjacente do FreeCAD, a _ para mais detalhes.
+Neste momento, o núcleo de modelagem geométrica subjacente do FreeCAD (composto pela biblioteca _ para mais detalhes.
 
 #### Para usuários de Mac 
 
-Somente a arquitetura MacIntel é suportada. Não há construções disponíveis para a arquitetura PowerPC.
+Somente a arquitetura MacIntel é suportada. Não há builds disponíveis para a arquitetura PowerPC.
 
 ### E se eu quiser compilar o FreeCAD sozinho? 
 
+O código fonte do FreeCAD está sempre disponível no repositório de código-fonte do projeto. Você pode compilar o FreeCAD por conta própria, caso queira utilizar os recursos mais recentes em desenvolvimento. Para saber compilar, é preciso ter um pouco de conhecimento de informática. Acreditamos, porém, que o procedimento simples de realizar. Na página [aqui](Compile_on_Linux/pt-br#obtendo_a_fonte.md) explicamos como ter acesso ao código-fonte, e existem instruções detalhadas para compilar o código nas páginas [Compilar para Windows](Compile_on_Windows/pt-br.md), [Compilar para Linux](Compile_on_Linux/pt-br.md) e [Compilar para MacOS](Compile_on_MacOS/pt-br.md).
 
-<div class="mw-translate-fuzzy">
+### O FreeCAD me diz que algum módulo ou aplicativo está faltando 
 
-O código fonte do FreeCAD está sempre disponível no repositório de código fonte do projeto. A compilação do FreeCAD por conta própria permite utilizar os recursos mais recentes que estão sendo desenvolvidos, mas requer um pouco de conhecimento de informática, embora o procedimento seja bastante simples. O acesso ao código fonte é explicado [aqui](Compile_on_Linux/pt-br#Obtendo_a_fonte.md), e temos instruções detalhadas para compilação em [Windows](Compile_on_Windows/pt-br.md), [Linux](Compile_on_Linux/pt-br.md) e [MacOS](Compile_on_MacOS/pt-br.md).
+O FreeCAD depende de várias peças para oferecer todas as suas funcionalidades. Todos os principais componentes são agrupados dentro das instalações do FreeCAD (para Windows ou Mac) ou fornecidos pelo seu gerenciador de pacotes, no caso de distribuições Linux. Normalmente, portanto, você não tem com o que se preocupar. Se você instalou o FreeCAD a partir de fontes não-oficiais, ou se você mesmo compilou o FreeCAD, alguma peça pode estar faltando. A falta de um componente não compromete o funcionamento do FreeCAD, mas pode causar a indisponibilidade de alguma ferramenta.
 
-
-</div>
-
-### FreeCAD me diz que algum módulo ou aplicativo está faltando 
-
-O FreeCAD depende de muitas coisas para oferecer todas as suas funcionalidades. Todos os principais componentes necessários são geralmente agrupados dentro de sua instalação FreeCAD ou fornecidos pelo seu gerenciador de pacotes, portanto, normalmente você não tem nada com que se preocupar. No entanto, se você instalou o FreeCAD a partir de fontes não oficiais, ou se você mesmo compilou o FreeCAD, alguma peça pode estar faltando, o que não é crítico para o próprio FreeCAD, mas pode fazer com que alguma funcionalidade não esteja disponível. Alguns formatos específicos de arquivo como Collada ou DWG também requerem componentes extras, que não podem ser agrupados no FreeCAD, e devem ser instalados por você mesmo separadamente.
+Alguns componentes utilizados para a importação e exportação de alguns tipos de formatos de arquivo, como Collada ou DWG, não podem fazer parte dos pacotes de instalação do FreeCAD. Nestes casos, você mesmo deve realizar a instalação dos componentes.
 
 Todos esses componentes e a maneira apropriada de instalá-los estão listados na página [Módulos python extras](Extra_python_modules/pt-br.md)
 
@@ -45,38 +35,38 @@ Todos esses componentes e a maneira apropriada de instalá-los estão listados n
 
 ### O FreeCAD não inicia de forma alguma 
 
-Pode haver muitas razões para isso, a mais provável é que falte alguma biblioteca. Tente iniciar o FreeCAD a partir de um terminal (digite {{SystemInput|freecad}} em um prompt de comando, {{SystemInput|FreeCAD}} em alguns sistemas) para ver se alguma mensagem de erro aparece. Leia também o restante deste FAQ, pois ele pode lhe dar mais pistas para detectar a causa do problema. Se nada ajudar, fale sobre isso no [forum](http://forum.freecadweb.org/), certamente haverá alguém que poderá ajudar.
+Pode haver muitas razões para isso. A mais provável é que falte alguma biblioteca. Tente iniciar o FreeCAD a partir de um terminal (digite {{SystemInput|freecad}} em um prompt de comando, {{SystemInput|FreeCAD}} em alguns sistemas) para ver se alguma mensagem de erro aparece. Leia também o restante deste FAQ, pois aqui podem ter mais pistas para detectar a causa do problema. Se nada der certo, procure por auxílio no [forum](http://forum.freecadweb.org/), certamente haverá alguém que poderá ajudar.
 
-Em alguns sistemas Windows XP mais antigos, você pode receber uma mensagem de erro como esta: **A aplicação não pode iniciar, porque a configuração lado a lado está errada. A reinstalação do aplicativo pode resolver o problema.** A razão deste problema é que em seu sistema ou as bibliotecas de tempo de execução CRT estão ausentes, ou a versão instalada é muito antiga porque o FreeCAD foi vinculado a uma versão mais recente. Neste caso você tem que instalar o **Microsoft Visual C++ Redistributable Package** que você encontrará na Microsoft. Veja também a correspondente [mensagem do fórum](http://forum.freecadweb.org/viewtopic.php?f=3&t=1298&p=9961).
+Em alguns Windows mais antigos, como o XP, você pode receber esta mensagem de erro: **A aplicação não pode iniciar, porque a configuração lado a lado está errada. A reinstalação do aplicativo pode resolver o problema.**
 
-### FreeCAD inicia normalmente, mas nem todos os ícones são exibidos, alguns deles são substituídos por um \'X\' preto 
+Este problema pode ocorrer devido à falta de bibliotecas de tempo de execução CRT, ou a versão instalada destas bibliotecas é mais antiga que a versão vinculada à versão do FreeCAD que você está tentando instalar. Neste caso, será preciso instalar o **Microsoft Visual C++ Redistributable Package** que você encontrará no site da Microsoft. Veja também a [mensagem no fórum](http://forum.freecadweb.org/viewtopic.php?f=3&t=1298&p=9961) que trata do assunto.
 
-Algumas partes do FreeCAD dependem de um módulo Python externo chamado Pivy. No Windows, o pivy está incluído na instalação do FreeCAD. Em sistemas Debian/Ubuntu, o pacote python-pivy é parte de repositórios de software padrão. Em outros sistemas, no momento, você mesmo pode ter que compilar o pivy. Note que embora algumas ferramentas não estejam disponíveis sem pivy, o resto do FreeCAD funciona normalmente.
+### FreeCAD inicia normalmente, mas nem todos os ícones são exibidos; alguns são substituídos por um \'X\' preto 
 
-### Tenho problemas de visualização, a vista 3D não se comporta corretamente, há lixo quando movo/rodo a vista, etc. 
+Algumas partes do FreeCAD dependem de um módulo Python externo chamado Pivy. Na instalação do FreeCAD para Windows, o Pivy está incluído. Em sistemas Debian/Ubuntu, o pacote python-pivy é disponível, por padrão, nos respectivos repositórios. Em outros sistemas, no momento, você mesmo pode ter que compilar o Pivy. Note que, embora algumas ferramentas não estejam disponíveis sem o Pivy instalado, o resto do FreeCAD funciona normalmente.
 
-O FreeCAD depende do OpenGL para exibir conteúdos 3D, e portanto requer um ambiente OpenGL funcional. Em alguns sistemas, OpenGL não é ativado por padrão, e você pode precisar instalar ou atualizar seus drivers gráficos. Este problema acontece com mais freqüência em sistemas Linux ou em sistemas virtuais. Se você estiver em um sistema baseado em Linux, tente os seguintes passos:
+### Tenho problemas de visualização, a vista 3D não se comporta corretamente, há lixo quando movo ou rotaciono a vista, etc. 
 
--   verificar se seu computador possui uma placa gráfica com capacidade 3D
--   digite {{SystemInput|glxinfo}} em um terminal, e verifique na saída que a Renderização Direta está definida como \"sim\", e que o fornecedor/renderizador/versão OpenGL corresponde à sua placa gráfica.
--   instalar outro software baseado em OpenGL ([Blender](http://www.blender.org), por exemplo) e verificar se ele roda e exibe corretamente.
+O FreeCAD depende do OpenGL para exibir conteúdos 3D, e portanto requer que o ambiente OpenGL esteja funcionando corretamente. Em alguns sistemas, o OpenGL não é ativado por padrão, e você precisará ativá-lo no software da sua placa gráfica. Se isto não funcionar, talvez seja preciso, instalar ou atualizar os drivers da sua placa de vídeo. Este problema acontece com mais frequência em sistemas Linux ou em sistemas virtuais. Se você estiver em um sistema baseado em Linux, tente os seguintes passos:
 
-### FreeCAD falha na inicialização 
+-   verifique se seu computador possui uma placa gráfica com capacidade 3D
+-   digite {{SystemInput|glxinfo}} em um terminal e verifique se saída de vídeo tem a configuração Renderização Direta definida como \"sim\", e que o fornecedor/renderizador/versão OpenGL corresponde à versão da sua placa gráfica.
+-   instale outro software baseado em OpenGL ([Blender](http://www.blender.org), por exemplo) e verifique se ele roda e exibe corretamente.
 
-Uma falha pode indicar um bug mais sério, ou algum problema em sua configuração. A maioria das falhas na inicialização ocorre devido a uma das duas razões a seguir:
+### O FreeCAD falha na inicialização 
 
-#### Os drivers OpenGL não estão instalados, ou não funcionam corretamente 
+Um crash pode ser um sintoma de um bug mais sério, ou algum problema em sua configuração. A maior parte das falhas na inicialização ocorre devido a uma das razões a seguir:
 
-Esta é uma causa muito comum desse problema. Os sintomas são simplesmente que o FreeCAD trava na inicialização, ou sempre que você abre uma visualização 3D (por exemplo, criando um novo documento). Tente descobrir qual é seu chip gráfico, depois descubra se ele suporta [OpenGL](https://en.wikipedia.org/wiki/OpenGL) (os chips mais recentes suportam), depois encontre o driver correto e instale-o. Uma boa maneira de verificar se OpenGL está disponível é tentar executar outro aplicativo OpenGL, como [blender](http://www.blender.org).
+#### Os drivers OpenGL não estão instalados ou não estão funcionando corretamente 
 
+Esta é uma causa muito comum. Neste caso, o FreeCAD simplesmente trava na inicialização ou sempre que você abre uma visualização 3D (por exemplo, criando um novo documento).
 
-<div class="mw-translate-fuzzy">
+Tente descobrir qual é seu chip gráfico ou placa de vídeo e depois verifique se ele suporta [OpenGL](https://en.wikipedia.org/wiki/OpenGL). A seguir, verifique se o driver correto está instalado, Se não estiver, encontre o driver correto e instale-o. Uma boa maneira de verificar se OpenGL está disponível é tentar executar outro aplicativo que faz uso de OpenGL, como o [blender](http://www.blender.org).
 
-E como uma dica geral para obter mais informações sobre falhas com o FreeCAD, você pode iniciá-lo com o parâmetro do programa {{SystemInput|--write-log}}}. Isto criará o arquivo {{{FileName|FreeCAD.log}}} em {{{FileName|$HOME/.FreeCAD}}} no Linux e Mac OS X ou {{{FileName|%APPDATA%/FreeCAD}} em sistemas Windows.
-</div>
+Para obter mais informações sobre travamentos do seu FreeCAD, inicie-o utilizando o parâmetro {{SystemInput|--write-log}}}. Isto criará o arquivo {{{FileName|FreeCAD.log}}}, localizado em {{{FileName|$HOME/.FreeCAD}}} no Linux e Mac OS X, ou na pasta {{{FileName|%APPDATA%/FreeCAD}} em sistemas Windows.
 
-Em alguns casos raros, você pode ter um driver gráfico instalado que não se encaixa em sua placa gráfica. Tivemos um caso em que o laptop do usuário tinha um gráfico Intel on-board, mas alguns drivers ATI foram instalados. [http://forum.freecadweb.org/viewtopic.php?f=13&t=5160&start=10#p41042]
-Depois de remover os arquivos e reinstalar o driver correto, o FreeCAD começou a funcionar.
+Em alguns casos raros, você pode ter um driver de vídeo instalado que não é compatível com sua placa gráfica. Tivemos um caso em que o laptop do usuário tinha um chipset Intel on-board, mas alguns drivers ATI estavam instalados. [http://forum.freecadweb.org/viewtopic.php?f=13&t=5160&start=10#p41042]
+Depois de remover os arquivos da ATI e reinstalar o driver correto, o FreeCAD começou a funcionar.
 
 ==== Alguma biblioteca, necessária para o FreeCAD, não está presente em seu sistema, ou não foi encontrada pelo FreeCAD ====
 
@@ -110,23 +100,13 @@ Se houver alguma diferença, o FreeCAD ou o SoQt devem ser recompilados (melhor 
 
 Uma falha de segmentação acontece em {{SystemOutput|vbo_save_playback_vertex_list()}}. Isto significa que a implementação do VBO no driver gráfico é ruim. A fim de evitar o cache de chamadas OpenGL você pode tentar definir a variável de ambiente {{SystemInput|<nowiki>IV_SEPARATOR_MAX_CACHES=0</nowiki>}} e reiniciar o FreeCAD.
 
+### Tenho problemas para executar o FreeCAD no Mac OSX 
 
-<div class="mw-translate-fuzzy">
+Não é tão fácil dar um suporte adequado para plataforma Mac (o que não ocorre com as versões para Windows ou Linux) porque nenhum dos principais desenvolvedores possui um.
 
-### Eu tenho problemas para executar o FreeCAD no Mac OSX 
+Os pacotes OSX são compilados por usuários voluntários do FreeCAD, e pode ser que não funcionem corretamente em sua máquina, dependendo de seu sistema. Neste caso, vá aos fóruns e procure pelos tópicos relacionados ao Mac OSX.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-A plataforma Mac é não é tão fácil de suportar como o Windows ou Linux, já que nenhum dos principais desenvolvedores possui um. Os pacotes OSX são compilados por usuários voluntários do FreeCAD, e às vezes podem não funcionar corretamente em sua máquina, dependendo de seu sistema. Sua melhor chance é provavelmente ir aos fóruns, procurar por tópicos relacionados ao Mac OSX e discutir seu problema lá ou ver se alguém encontrou uma solução.
-
-
-</div>
-
-### Não posso alterar valores numéricos nos painéis de propriedades do FreeCAD 
+### Não consigo alterar valores numéricos nos painéis de propriedades do FreeCAD 
 
 <img alt="language options" src=images/Jj62l.png  style="width:480px;">
 
@@ -163,13 +143,7 @@ Image:Style\_of\_navigation.png\|A partir do **botão direito** do mouse Image:S
 
 
 
-
-<div class="mw-translate-fuzzy">
-
-O FreeCAD tem vários modos diferentes [modos de navegação](Mouse_Model/pt-br.md) disponíveis, que podem ser definidos no diálogo de preferências ou alterados clicando com o botão direito do mouse na visualização 3D. Para detalhes completos sobre os modos, consulte a página [Modelo do mousePara](Mouse_Model/pt-br.md) o modo padrão (\"Navegação CAD\"), os comandos são os seguintes,
-
-
-</div>
+O FreeCAD oferece vários [modos de navegação](Mouse_Model/pt-br.md), que podem ser definidos pela janela de preferências ou clicando com o botão direito do mouse. Para saber mais sobre os modos de navegação, consulte a página [Modelo do mousePara](Mouse_Model/pt-br.md) o modo padrão, o \"Navegação CAD\", os comandos são os seguintes,
 
 
 {{CAD Navigation
@@ -192,7 +166,9 @@ Clicando no botão do meio do mouse, a vista é centrada novamente na localizaç
 <small>(v0.17)</small> 
 |Rotate_view_text=Segure o botão central do mouse, depois pressione e segure o botão esquerdo do mouse, depois mova o ponteiro.
 
-A localização do cursor quando o botão central do mouse é pressionado determina o centro de rotação. A rotação funciona como girar uma bola que gira ao redor de seu centro. Se os botões forem soltos antes de você parar o movimento do mouse, a visualização continua [girando](Std_DemoMode/pt-br.md), se isto estiver habilitado.
+Pressione o botão central o mouse para rotacionar a câmera. O centro da rotação é determinado pela posição do cursor, na tela, quando você clica no botão central.
+
+A operação de rotação funciona como se você estivesse girando uma bola a partir de seu centro. Se você soltar o botão antes de parar de movimentar o mouse, a visualização continua, se a opção [girando](Std_DemoMode/pt-br.md) estiver habilitada.
 
 Um duplo clique com o botão do meio do mouse define um novo centro de rotação.
 |Rotate_view_mode_text=Rotate mode: pressione a tecla **Shift**, pressione o botão direito do mouse uma vez, depois mova o ponteiro. <small>(v0.17)</small> 
@@ -215,16 +191,16 @@ Há muita documentação espalhada em diferentes lugares, tanto dentro como fora
 
 Favor consultar a página [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export.md). Talvez suas perguntas já tenham sido respondidas lá.
 
-## Trabalhando com a geometria da peça 
+## Modelando peças a partir de geometrias simples 
 
 =
 
-### Como posso extrudar coisas em sólidos? Eu não consigo o resultado certo 
+### Como crio sólidos a partir de extrusões? Não consigo o resultado pretendido 
 
 
 <div class="mw-translate-fuzzy">
 
-A teoria é simples: As linhas (ou fios), quando extrudidas, formam faces. Faces, quando extrudadas, formam sólidos. Se você extrudar algo e o resultado não for um sólido, então o algo não era uma face. Se você tiver linhas e quiser extrudar um sólido delas, você deve primeiro selecionar linhas que formam um perímetro fechado (selecione vários objetos pressionando **Ctrl**), junte-as em um fio usando (_ Ferramenta de atualização novamente). Aí está, se tudo correu bem, agora você pode extrudi-lo para um sólido.
+A teoria é simples: As linhas (ou fios), quando extrudidas, formam faces. Faces, quando extrudadas, formam sólidos. Se você extrudar algo e o resultado não for um sólido, então o algo não era uma face. Se você tiver linhas e quiser extrudar um sólido delas, você deve primeiro selecionar linhas que formam um perímetro fechado (selecione vários objetos pressionando **Ctrl**), junte-as em um fio usando ([Promomovedor Draft](Draft_Upgrade/pt-br.md)), depois faça uma face desse fio (<img alt="" src=images/Draft_Upgrade.svg  style="width:16px;"> Ferramenta de atualização novamente). Aí está, se tudo correu bem, agora você pode extrudi-lo para um sólido.
 
 
 </div>

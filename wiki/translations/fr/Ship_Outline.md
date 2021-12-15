@@ -1,6 +1,14 @@
-# Ship Outline/fr
 ---
-- GuiCommand:/fr   Name:Ship Outline   Name/fr:Ship Outline   MenuLocation:Ship design → Outline draw   |Workbenches:[[Ship Workbench/fr   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:/fr
+   Name:Ship Outline
+   Name/fr:Ship Outline   MenuLocation:Ship design → Outline draw
+   Icon:Ship_OutlineDraw.svg
+   Workbenches:[Ship](Ship_Workbench/fr.md)
+   Shortcut:
+   SeeAlso:
+---
+
+# Ship Outline/fr
 
 
 </div>

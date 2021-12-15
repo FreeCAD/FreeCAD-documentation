@@ -24,10 +24,10 @@ The <img alt="" src=images/Design456_Tweak.svg  style="width:24px;"> [Design456 
 
 ## Limitations
 
-The tool is actually quite limited:
+The tool is actually dose not work well:
 
 -   it can create only planar faces;
--   it frequently breaks the shape if it has to do with an hollow shape, and even if it can fix it automatically, it\'s behaviour is still not so tested.
+-   it frequently breaks the shape if it has to do with an hollow shape, and even if it can fix it automatically, it\'s still not tested totally and might be removed in the future.
 
 ## Properties
 

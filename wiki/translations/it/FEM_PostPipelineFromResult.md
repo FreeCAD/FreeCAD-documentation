@@ -50,13 +50,7 @@ Pipeline è un oggetto risultato, che crea una nuova rappresentazione grafica de
 Ancora una volta, si noti, che la rappresentazione Pipeline dei risultati (denominata VTK) sulla parte visualizzata è diversa dai risultati del gradiente di colore che sono visibili al termine della soluzione. I valori nella scala sfumatura non possono essere applicati all\'oggetto risultato della soluzione.
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

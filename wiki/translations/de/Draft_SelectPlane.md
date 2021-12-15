@@ -75,7 +75,7 @@ Der <img alt="" src=images/Workbench_Draft.svg  style="width:24px;">[Entwurf Arb
 1.  Drücke die **<img src="images/Draft_SelectPlane.svg" width=16px> [WähleEbene](Draft_SelectPlane/de.md)
 **, oder verwende **Entwurf** → **Hilfsmittel** → **<img src="images/Draft_SelectPlane.svg" width=16px> [WähleEbene](Draft_SelectPlane/de.md)** aus dem oberen Menü, oder das Tastaturkürzel **W** und dann **P**
 2.  Wähle den Versatz, den Rasterabstand und die Hauptlinien
-3.  Wähle eine der Voreinstellungen: **<img src="images/View-top.svg" width=16px> XY (oben)**, **<img src="images/View-front.svg" width=16px>  XZ (vorne)**, **<img src="images/Ansicht-rechts.svg" width=16px> YZ (Seite)**, **<img src="images/View-isometric.svg" width=16px> Ansicht**, oder **<img src="images/View-axonometric.svg" width=16px> Auto**.
+3.  Wähle eine der Voreinstellungen: **<img src="images/View-top.svg" width=16px> XY (oben)**, **<img src="images/View-front.svg" width=16px>  XZ (vorne)**, **<img src="images/View-right.svg" width=16px> YZ (Seite)**, **<img src="images/View-isometric.svg" width=16px> Ansicht**, oder **<img src="images/View-axonometric.svg" width=16px> Auto**.
 
 
 </div>

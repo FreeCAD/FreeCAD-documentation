@@ -12,7 +12,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Libreria BIM consente di posizionare nel modello corrente un oggetto della _ per essere disponibile con questo strumento.
+
+
+</div>
 
 <img alt="" src=images/BIM_Library_screenshot.png  style="width:800px;"> 
 *Sopra: vista della finestra di dialogo '''Browser della libreria''' nel [pannello delle azioni](Task_panel/it.md) a sinistra*

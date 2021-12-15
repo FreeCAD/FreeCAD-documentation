@@ -1,7 +1,4 @@
 # Manual:BIM modeling/es
-}
-
-
 <div class="mw-translate-fuzzy">
 
 

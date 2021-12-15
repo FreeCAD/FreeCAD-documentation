@@ -106,7 +106,7 @@ Dare uno sguardo al forum di FreeCAD o alla [Raccolta di macro](Macros_recipes/i
 
 <div class="mw-translate-fuzzy">
 
-Oltre alle opzioni di Modifica → Preferenze, l\'ambiente [TechDraw](TechDraw_Workbench/it.md) può anche esportare le pagine di disegno in DXF usando la funzione [Esporta pagina in DXF](TechDraw_SaveDXF/it.md).
+Oltre alle opzioni di Modifica → Preferenze, l\'ambiente [TechDraw](TechDraw_Workbench/it.md) può anche esportare le pagine di disegno in DXF usando la funzione [Esporta pagina in DXF](TechDraw_ExportPageDXF/it.md).
 
 
 </div>

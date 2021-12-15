@@ -11,6 +11,9 @@
 
 # EM FHNode/it
 
+
+</div>
+
 ## Descrizione
 
 The FHNode tool inserts a FastHenry node object.
@@ -51,7 +54,9 @@ Alternatively, you can also:
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The FHNode object can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The FHNode object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 node = makeFHNode(baseobj=None, X=0.0, Y=0.0, Z=0.0, color=None, size=None, name='FHNode')
 ```
@@ -74,7 +79,9 @@ node = makeFHNode(baseobj=None, X=0.0, Y=0.0, Z=0.0, color=None, size=None, name
 
 The placement of the FHNode can be changed by modifying its `Placement` property, or changing the `X`,`Y`,`Z` properties individually. Changing `X`,`Y`,`Z` modifies the node position in the relative coordinate system of the `Placement`.
 
-Additionally, the \_FHNode class exposes these methods. The \_FHNode class can be accessed through the FHNode object Proxy (e.g. fhnode.Proxy). 
+Additionally, the \_FHNode class exposes these methods. The \_FHNode class can be accessed through the FHNode object Proxy (e.g. fhnode.Proxy).
+
+
 ```python
 pos = getAbsCoord()
 ```
@@ -110,12 +117,17 @@ pos = setAbsCoord(abs_coord, placement=None)
 
 -    `placement`is a new FHNode placement. If `None`, the placement is not changed
 
-Example: 
+Example:
+
+
 ```python
 import FreeCAD, EM
 
 fhnode = EM.makeFHNode(X=1.0,Y=2.0,Z=0.0)
 ```
+
+
+
 
 
 {{EM Tools navi

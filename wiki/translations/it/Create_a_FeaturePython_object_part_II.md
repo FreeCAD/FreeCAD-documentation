@@ -1,7 +1,4 @@
 # Create a FeaturePython object part II/it
-{{docnav/it|[Oggetti FeaturePython](FeaturePython_Objects/it.md)|[Esempi di script](Scripting_examples/it.md)}}
-
-
 {{TOCright}}
 
 ## Introduzione
@@ -391,7 +388,7 @@ class ViewProviderBox:
 [top](#top.md)
 
 
-{{docnav/it|[Oggetti FeaturePython](FeaturePython_Objects/it.md)|[Esempi di script](Scripting_examples/it.md)}}
+
 
 
 {{Powerdocnavi

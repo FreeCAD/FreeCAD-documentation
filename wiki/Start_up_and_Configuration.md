@@ -14,11 +14,17 @@ FreeCAD can be started normally by double-clicking on its desktop icon or select
 
 ### Command line options 
 
-The command line options are subject to frequent changes.Therefore, it is a good idea to check the current options by typing: 
+The command line options are subject to frequent changes.Therefore, it is a good idea to check the current options by typing:
+
+
 
 FreeCAD --help
 
- From the response you can read the possible parameters: 
+
+
+From the response you can read the possible parameters:
+
+
 
  Usage: FreeCAD [options] File1 File2 ...
  
@@ -112,13 +118,17 @@ There are a couple of options not visible to the user. These options are e.g. th
 
 ### Running FreeCAD without GUI (headless) 
 
-FreeCAD is usually built with two executables: a GUI-capable one called 
+FreeCAD is usually built with two executables: a GUI-capable one called {{FileName|FreeCAD}} or {{FileName|freecad}}, and a headless one, called {{FileName|FreeCADCmd}} or {{FileName|freecadcmd}}. FreeCAD can be used in console mode using the `--console` switch (which is the default behavior of {{FileName|FreeCADCmd}}):
+
+
 
 FreeCAD --console
 
- In console mode, no graphical user interface will be displayed, and you will be presented with a Python interpreter prompt: `>>>`. From that prompt, you have the same functionality as the Python interpreter that runs inside the FreeCAD GUI, and access to all modules and plugins of FreeCAD, except the FreeCADGui module. Be aware that modules that depend on FreeCADGui might also be unavailable.
 
-To read more about console or headless mode, checkout [Headless FreeCAD](Headless_FreeCAD.md).
+
+In console mode, no graphical user interface will be displayed, and you will be presented with a Python interpreter prompt: `>>>`. From that prompt, you have the same functionality as the Python interpreter that runs inside the FreeCAD GUI, and access to all modules and plugins of FreeCAD, except the FreeCADGui module. Be aware that modules that depend on FreeCADGui might also be unavailable.
+
+To read more about console or headless mode, refer to [Headless FreeCAD](Headless_FreeCAD.md).
 
 ### Running modules, macros and scripts 
 
@@ -408,7 +418,7 @@ set FREECAD_USER_HOME=%CURRENTDIR%
 start FreeCAD.exe -u FreeCAD/user.cfg -s FreeCAD/system.cfg --write-log 
 ```
 
-[or](https://forum.freecadweb.org/viewtopic.php?f=12&t=54784&start=60#p474759) with `FREECAD_USER_DATA`
+Or with `FREECAD_USER_DATA` ([see](https://forum.freecadweb.org/viewtopic.php?f=12&t=54784&start=60#p474759)):
 
 
 ```python
@@ -418,7 +428,7 @@ start FreeCAD.exe -u %FREECAD_USER_DATA%/user.cfg -s %FREECAD_USER_DATA%/system.
 
 
 
-with the batch on the root of the key USB
+With the batch in the root of the USB medium:
 
  
 ```python
@@ -432,7 +442,7 @@ Now double-click the batch file to start FreeCAD. ([see](https://forum.freecadwe
 
 
 
-  
+ 
 
 _
 

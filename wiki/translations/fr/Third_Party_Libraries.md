@@ -81,7 +81,7 @@ Python est un langage de script polyvalent populaire largement utilisé sous Lin
 -   écrire des scripts de test pour tester différentes conditions, telles que des fuites de mémoire, afin de garantir la fonctionnalité du logiciel après les modifications, pour les vérifications après la construction et les tests de couverture,
 -   pour écrire [macros](macros/fr.md) et l\'enregistrement de macros,
 -   implémenter la logique d\'application pour les packages standard,
--   pour implémenter des outils auxiliaires tels que [Addon Manager](Addon_Manager/fr.md),
+-   pour implémenter des outils auxiliaires tels que le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md),
 -   mettre en place des ateliers complets comme [Draft](Draft_Workbench/fr.md) et [Arch](Arch_Workbench/fr.md),
 -   charger dynamiquement des paquets,
 -   mettre en place des règles de conception (des connaissances en ingénierie),

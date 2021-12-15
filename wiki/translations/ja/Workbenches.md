@@ -94,7 +94,7 @@ FreeCADワークベンチは[Pythonでプログラムするのが簡単です](P
 
 </div>
 
-The [external workbenches](external_workbenches.md) page lists all that are known to this community. Most are easily installable from within FreeCAD, using the [Addon Manager](Addon_Manager.md), found under menu **Tools → <img src="images/AddonManager.svg" width=24px> Addon manager**.
+The [external workbenches](external_workbenches.md) page lists all that are known to this community. Most are easily installable from within FreeCAD, using the [Addon Manager](Std_AddonMgr.md), found under menu **Tools → <img src="images/Std_AddonMgr.svg" width=24px> Addon manager**.
 
 
 <div class="mw-translate-fuzzy">
@@ -108,7 +108,7 @@ The [external workbenches](external_workbenches.md) page lists all that are know
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/jp|Property/jp|Mesh Module/jp}}
+{{docnav/ja|Property/ja|Mesh Workbench/ja}}
 
 
 </div>

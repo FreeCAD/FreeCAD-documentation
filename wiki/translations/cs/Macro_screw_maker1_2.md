@@ -34,7 +34,13 @@ Vytvoření podprocesu trvá dlouhou dobu. Buďte trpěliví a podívejte se na 
 
 ## Skript
 
+
+<div class="mw-translate-fuzzy">
+
 Nejnovější verze makra se nachází na adrese _.
+
+
+</div>
 
 ToolBar Icon ![](images/Macro_screw_maker1_2.png )
 

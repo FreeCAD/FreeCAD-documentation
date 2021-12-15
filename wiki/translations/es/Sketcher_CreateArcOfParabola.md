@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/es
-   Name:Sketcher Arc of parabola
+   Name:Sketcher CreateArcOfParabola
    Name/es:Croquizador Arc of parabola
    MenuLocation:Croquis → Croquizador Geometrías → Create an arc of parabola
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)

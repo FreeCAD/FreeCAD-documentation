@@ -42,7 +42,7 @@ FreeCAD Build Tool
 
 <div class="mw-translate-fuzzy">
 
-La promptul de introducere introduceți comanda abreviată pe care doriți să o apelați. De exemplu, tastați \"CM\" pentru crearea unui modul [creating a module](Module_Creation.md).
+La promptul de introducere introduceți comanda abreviată pe care doriți să o apelați. De exemplu, tastați \"CM\" pentru crearea unui modul [creating a workbench](Workbench_creation/ro.md).
 
 
 </div>
@@ -76,19 +76,13 @@ Comanda \"NBN\" \'\'\'incrementează numărul de compilări pentru a crea noua v
 
 ### CreateModule
 
-Comanda \"CM\" [creates a new application module](Module_Creation.md).
+Comanda \"CM\" [creates a new application module (Workbench)](Workbench_creation/ro.md).
 
 
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

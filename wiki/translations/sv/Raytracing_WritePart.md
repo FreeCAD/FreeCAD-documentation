@@ -1,6 +1,14 @@
-# Raytracing WritePart/sv
 ---
-- GuiCommand:/sv   Name:Raytracing Part   Name/sv:Raytracing Part‏‎    MenuLocation:Raytracing → Part‏‎   |Workbenches:[[Raytracing_Workbench/sv   Raytracing]]|Shortcut:   SeeAlso:---
+- GuiCommand:/sv
+   Name:Raytracing WritePart
+   Name/sv:Raytracing Part
+   MenuLocation:Raytracing → Part
+   Workbenches:[Raytracing](Raytracing_Workbench/sv.md)
+   Shortcut:
+   SeeAlso:
+---
+
+# Raytracing WritePart/sv
 
 
 </div>

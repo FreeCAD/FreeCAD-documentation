@@ -30,9 +30,15 @@ Lo scopo di questo explorer è semplicemente quello di permettere di controllare
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Richiamare Esplora Ifc tramite:
     -   Premere il pulsante <img alt="" src=images/IFC.svg  style="width:24px;">
     -   Usare la voce **Arch → Utilità → Esplora Ifc** dal menu a discesa di Arch.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

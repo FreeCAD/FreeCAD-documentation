@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:FEM Analyse
+   Name:FEM Analysis
+   Name/de:FEM Analyse
    MenuLocation:Modell → Analysecontainer‏‎
    Workbenches:[FEM](FEM_Workbench/de.md)
    Shortcut:**N** **A**

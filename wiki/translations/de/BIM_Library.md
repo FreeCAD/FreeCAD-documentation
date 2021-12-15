@@ -12,7 +12,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Mit dem BIM Bibliothek Werkzeug kannst du im aktuellen Modell ein Objekt aus der _ installiert werden muss, damit dieses Tool verfügbar ist.
+
+
+</div>
 
 <img alt="" src=images/BIM_Library_screenshot.png  style="width:800px;"> 
 *Oben: Siehe das '''Bibliotheksbrowser''' Dialogfeld im [Aufgabenpaneel](Task_panel/de.md) auf der linken Seite.*

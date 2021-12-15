@@ -27,7 +27,7 @@ In this example, a cube is sectioned with a cylinder:
 
 1.  Select the base object
 2.  Select the Section tool
-3.  Click on **Part** → **![](images/)_Section**_from_the_top_menu.
+3.  Click on **Part** → **<img src="images/Part_Section.svg" width=24px> Section** from the top menu.
 
 ## Ссылки
 

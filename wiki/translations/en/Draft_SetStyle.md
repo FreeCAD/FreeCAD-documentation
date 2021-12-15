@@ -3,6 +3,7 @@
    Name:Draft SetStyle
    MenuLocation:Utilities → Set style
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   Shortcut:**S** **S**
    Version:0.19
    SeeAlso:[Draft AnnotationStyleEditor](Draft_AnnotationStyleEditor.md), [Draft ApplyStyle](Draft_ApplyStyle.md)
 ---
@@ -23,6 +24,7 @@ Note that several features do not work in the V0.19 version of this command.
 1.  There are several ways to invoke the command:
     -   Press the ![](images/Draft_tray_button_style.png ) button in the [Draft Tray](Draft_Tray.md). Depending on the current style settings this button can look different.
     -   Select the **Utilities → <img src="images/Draft_SetStyle.svg" width=16px> Set style** option from the menu.
+    -   Use the keyboard shortcut: **S** then **S**. <small>(v0.20)</small> 
 2.  The **Style settings** task panel opens. See [Options](#Options.md) for more information.
 3.  Optionally change one or more settings.
 4.  Press the **OK** button.

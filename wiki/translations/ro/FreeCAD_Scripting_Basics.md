@@ -61,9 +61,7 @@ O altă caracteristică utilă a interpretului este posibilitatea de a reveni pr
 
 </div>
 
-Dacă faceți clic dreapta în fereastra interpretului, aveți și alte câteva opțiuni, cum ar fi copierea întregului istoric (util atunci când doriți să experimentați lucrurile înainte de a face un script complet al acestora) sau introduceți un nume de fișier cu cale completă.
-
-[top](#top.md)
+Dacă faceți clic dreapta în fereastra interpretului, aveți și alte câteva opțiuni, cum ar fi copierea întregului istoric (util atunci când doriți să experimentați lucrurile înainte de a face un script complet al acestora) sau introduceți un nume de fișier cu cale completă. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -75,9 +73,7 @@ Dacă faceți clic dreapta în fereastra interpretului, aveți și alte câteva 
 
 </div>
 
-In the FreeCAD **Help** menu, you\'ll find an entry labeled **Automatic python modules documentation**, which will open a browser window containing a complete, realtime-generated documentation of all Python modules available to the FreeCAD interpreter, including Python and FreeCAD built-in modules, system-installed modules, and FreeCAD additional modules. The documentation available there depends on how much effort each module developer put into documenting his code, but Python modules have a reputation for being fairly well documented. Your FreeCAD window must stay open for this documentation system to work. The entry **Python scripting documentation** will give you a quick link to the [Power users hub](Power_users_hub.md) wiki section.
-
-[top](#top.md)
+In the FreeCAD **Help** menu, you\'ll find an entry labeled **Automatic python modules documentation**, which will open a browser window containing a complete, realtime-generated documentation of all Python modules available to the FreeCAD interpreter, including Python and FreeCAD built-in modules, system-installed modules, and FreeCAD additional modules. The documentation available there depends on how much effort each module developer put into documenting his code, but Python modules have a reputation for being fairly well documented. Your FreeCAD window must stay open for this documentation system to work. The entry **Python scripting documentation** will give you a quick link to the [Power users hub](Power_users_hub.md) wiki section. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -115,7 +111,8 @@ Afișarea întregului conținut al acestor module este o sarcină puțin contrap
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -199,7 +196,8 @@ Dacă nu aveți nici un GUI (de exemplul sunten în modul linie-de-comandă), ul
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -253,7 +251,8 @@ Pentru a accesa vederea curentă, scrieți:
 myView = Gui.ActiveDocument.ActiveView
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -265,9 +264,7 @@ Modulele FreeCAD și FreeCADGui sunt singurele responsabile pentru crearea și g
 
 </div>
 
-The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and managing objects in the FreeCAD document. They don\'t actually do anything more such as creating or modifying geometry. This is because that geometry can be of several types, and therefore requires additional modules, each responsible for managing a certain geometry type. For example, the _ is able to build and modify mesh objects. In this manner FreeCAD is able to handle a wide variety of object types, that can all coexist in the same document, and new types can easily be added in the future.
-
-[top](#top.md)
+The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and managing objects in the FreeCAD document. They don\'t actually do anything more such as creating or modifying geometry. This is because that geometry can be of several types, and therefore requires additional modules, each responsible for managing a certain geometry type. For example, the _ is able to build and modify mesh objects. In this manner FreeCAD is able to handle a wide variety of object types, that can all coexist in the same document, and new types can easily be added in the future. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -330,7 +327,8 @@ cube = Part.makeBox(2, 2, 2)
 Part.show(cube)
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -359,7 +357,8 @@ biggercube = Part.makeBox(5, 5, 5)
 myPart.Shape = biggercube
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -400,12 +399,22 @@ Acum puteți începe să jucați cu FreeCAD! Pentru a vedea ce puteți face cu _
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav|Python scripting tutorial|Mesh Scripting}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

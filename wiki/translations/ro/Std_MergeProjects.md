@@ -1,6 +1,14 @@
-# Std MergeProjects/ro
 ---
-- GuiCommand:/ro   Name:Std MergeProject   Name/ro:Fuzionați Proiectul   Workbenches:All   MenuLocation:[[Std File Menu/ro   File]] → Fuzionați Proiectul|Shortcut:   SeeAlso:---
+- GuiCommand:/ro
+   Name:Std MergeProjects
+   Name/ro:Fuzionați Proiectul
+   Workbenches:All
+   MenuLocation:File → Fuzionați Proiectul
+   Shortcut:
+   SeeAlso:
+---
+
+# Std MergeProjects/ro
 
 
 </div>

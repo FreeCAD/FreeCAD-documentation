@@ -1,5 +1,5 @@
 # Engine Block Tutorial/pl
-} {{TutorialInfo
+{{TutorialInfo
 |Topic=     Part Workbench
 |Level=     Beginner
 |Time=      1 hour

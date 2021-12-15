@@ -54,8 +54,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Stiskněte tlačítko **<img src="images/Draft_BezCurve.png" width=16px> [Bezierova křivka](Draft_BezCurve.md)
 ** nebo klávesy **B** potom **Z**
-2.  Klikněte na první bod ve 3D pohledu nebo zadejte jeho [souřadnice](Draft_Coordinates.md)
-3.  Klikněte na další bod ve 3D pohledu nebo zadejte jeho [souřadnice](Draft_Coordinates.md)
+2.  Klikněte na první bod ve 3D pohledu nebo zadejte jeho souřadnice
+3.  Klikněte na další bod ve 3D pohledu nebo zadejte jeho souřadnice
 4.  Stiskněte klávesu **F** nebo **C** nebo dvojklikněte na poslední bod pro ukončení nebo na počáteční bod pro uzavření křivky.
 
 ## Volby
@@ -68,8 +68,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 <div class="mw-translate-fuzzy">
 
--   Stiskněte tlačítko **F** nebo **<img src="images/Draft_FinishLine.png" width=12px> '''[Dokončit](Draft_FinishLine.md)'''** pro ukončení křivky bez uzavření
--   Stiskněte tlačítko **C** nebo **<img src="images/Draft_CloseLine.png" width=12px> '''[Uzavřít](Draft_CloseLine.md)'''** nebo klikněte na první bod pro dokončení křivky s tím, že bude uzavřena a eventuálně bude přdán poslední segment do počátečního bodu.
+-   Stiskněte tlačítko **F** nebo **<img src="images/Draft_FinishLine.png" width=12px> '''Dokončit'''** pro ukončení křivky bez uzavření
+-   Stiskněte tlačítko **C** nebo **<img src="images/Draft_CloseLine.png" width=12px> '''Uzavřít'''** nebo klikněte na první bod pro dokončení křivky s tím, že bude uzavřena a eventuálně bude přdán poslední segment do počátečního bodu.
 -   Stiskněte tlačítko **X**, **Y** nebo **Z** po vybrání bodu a pak bude další výběr proveden v dané ose.
 -   Pro ruční zadání souřadnic jednoduše vložte číslo a stiskněte **ENTER** mezi každou z komponent X, Y a Z.
 -   Stiskněte tlačítko **R** nebo zaklikněte/odklikněte políčko **'''Relativně'''**. Je-li zapnut relativní mód souřadnice následujícího bodu bodou relativní k předchozímu bodu, jinak budou absolutní k počátku (0,0,0).
@@ -77,7 +77,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Stiskněte při kreslení tlačítko **CTRL** chcete-li [přichytit](Draft_Snap.md) Váš bod k nejbližšímu uchopovacímu místu, nezávisle na tom jak je daleko.
 -   Stiskněte při kreslení tlačítko **SHIFT** pro nastavení [vazby](Draft_Constrain.md) dalšího bodu svisle nebo vodorovně v relaci k poslednímu bodu.
 -   Stiskněte klávesu **W** nebo tlačítko **<img src="images/Draft_Wipe.png" width=12px> '''Smazat'''** pro smazání existujících segmentů a spuštění křivky od posledního bodu.
--   Stiskněte klávesy **CTRL**+**Z** nebo tlačítko **<img src="images/Draft_UndoLine.png" width=12px> '''[Undo](Draft_UndoLine.md)'''** pro vrácení k předchozímu bodu.
+-   Stiskněte klávesy **CTRL**+**Z** nebo tlačítko **<img src="images/Draft_UndoLine.png" width=12px> '''Undo'''** pro vrácení k předchozímu bodu.
 -   Stiskněte klávesu **ESC** nebo tlačítko **'''Zrušit'''** k ukončení aktuálního příkazu pro Bezierovu křivku.
 
 

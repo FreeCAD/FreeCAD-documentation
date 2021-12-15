@@ -1,6 +1,14 @@
-# TechDraw DiameterDimension/it
 ---
-- GuiCommand:/it   Name:TechDraw  Dimension Diameter   Name/it:Diametro   Workbenches:[MenuLocation:TechDraw → Diametro   Shortcut:   SeeAlso:[[TechDraw Dimension Radius/it|Raggio](TechDraw_Workbench/it___TechDraw]].md)---
+- GuiCommand:/it
+   Name:TechDraw  Dimension Diameter
+   Name/it:Diametro
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   MenuLocation:TechDraw → Diametro
+   Shortcut:
+   SeeAlso:[Raggio](TechDraw_RadiusDimension/it.md)
+---
+
+# TechDraw DiameterDimension/it
 
 
 </div>
@@ -12,7 +20,7 @@
 
 Lo strumento Diametro aggiunge una dimensione di diametro a una vista.
 
-La dimensione può essere applicata a qualsiasi parte circolare del disegno. Inizialmente viene indicato il valore della distanza proiettata (vale a dire, come mostrato nel disegno), ma questo valore può essere sostituito con quello dell\'effettiva distanza 3D utilizzando lo strumento **<img src="images/TechDraw_Dimension_Link.svg" width=16px>  [Link alla dimensione](TechDraw_Dimension_Link/it.md)**.
+La dimensione può essere applicata a qualsiasi parte circolare del disegno. Inizialmente viene indicato il valore della distanza proiettata (vale a dire, come mostrato nel disegno), ma questo valore può essere sostituito con quello dell\'effettiva distanza 3D utilizzando lo strumento **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Link alla dimensione](TechDraw_LinkDimension/it.md)**.
 
 
 </div>
@@ -26,7 +34,7 @@ La dimensione può essere applicata a qualsiasi parte circolare del disegno. Ini
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare un bordo circolare nel disegno. (Notare che alcuni archi che sembrano essere circolari sono in realtà ellissi o bspline. In questi casi non si può creare una dimensione di diametro)
-2.  Premere il pulsante **<img src="images/TechDraw_Dimension_Diameter.svg" width=24px> [Diametro](TechDraw_Dimension_Diameter/it.md)
+2.  Premere il pulsante **<img src="images/TechDraw_DiameterDimension.svg" width=24px> [Diametro](TechDraw_DiameterDimension/it.md)
 **
 3.  Alla Vista viene aggiunta una dimensione. La dimensione può essere trascinata nella posizione desiderata.
 
@@ -40,7 +48,7 @@ To change the properties of a dimension object either double-clicking it in the 
 
 <div class="mw-translate-fuzzy">
 
-Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologica\". Per maggiori informazioni vedere le informazioni nello strumento [Lunghezza](TechDraw_Dimension_Length/it.md).
+Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologica\". Per maggiori informazioni vedere le informazioni nello strumento [Lunghezza](TechDraw_LengthDimension/it.md).
 
 
 </div>
@@ -50,7 +58,7 @@ Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologic
 
 <div class="mw-translate-fuzzy">
 
-Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_Dimension_Length/it.md)
+Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_LengthDimension/it.md)
 
 
 </div>

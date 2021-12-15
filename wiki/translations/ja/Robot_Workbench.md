@@ -114,10 +114,7 @@ See the [Robot API example](Robot_API_example.md) for a description of the funct
 <div class="mw-translate-fuzzy">
 
 
-{{docnav|FEM Workbench|Standard Menu}}
-
-
-{{docnav/jp|Drawing Workbench/jp|Raytracing Workbench/jp}}
+{{docnav/ja|Drawing Workbench/ja|Raytracing Workbench/ja}}
 
 
 </div>

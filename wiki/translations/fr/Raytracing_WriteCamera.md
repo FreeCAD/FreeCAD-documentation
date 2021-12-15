@@ -10,9 +10,6 @@
 
 # Raytracing WriteCamera/fr
 
-
-</div>
-
 ## Description
 
 Exporte les propriétés actuelles de la caméra dans un fichier pov à utiliser dans un projet POV-Ray.
@@ -27,13 +24,7 @@ Exporte les propriétés actuelles de la caméra dans un fichier pov à utiliser
 ## Remarques
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Raytracing_Tools_navi

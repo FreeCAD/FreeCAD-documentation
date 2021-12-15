@@ -58,7 +58,7 @@ Die Algorithmen hinter den Verbindungswerkzeugen sind ziemlich einfach und es is
 
 2\. Der entstandene Verbund ist gefiltert: nur der größte Volumenkörper bleibt übrig.
 
-3\. Falls {{DataProperty|Refine}} den Wert `True` hat, ist die entstandene Form [verfeinert](Part_RefineShape/de.md).
+3\. Falls **Refine** den Wert `True` hat, ist die entstandene Form [verfeinert](Part_RefineShape/de.md).
 ![800px](images/JoinFeatures-Algo-Cutout.png)
 
 ### Hinweise

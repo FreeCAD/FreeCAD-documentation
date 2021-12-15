@@ -1,12 +1,29 @@
 # Installing on Windows/ru
+<div class="mw-translate-fuzzy">
+
 Наиболее лёгкий способ установить FreeCAD под Windows - это загрузить одну из программ установки по ссылке ниже.
+
+
+</div>
 
 
 {{DownloadWindowsStable}}
 
+
+<div class="mw-translate-fuzzy">
+
 После загрузки файла .msi (Microsoft Installer)дважды щёлкните по нему мышкой для начала установки.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Далее приведена информация о технических опциях. Если она выглядит обескураживающей, не волнуйтесь! Большинству пользователей Windows не потребуется ничего кроме файла .msi чтобы установить FreeCAD и **[ начать с ним работу](Getting_started.md)**!
+
+
+</div>
 
 ## Простая установка c Microsoft Installer 
 

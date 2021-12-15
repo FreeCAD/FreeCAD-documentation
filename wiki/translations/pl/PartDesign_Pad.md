@@ -11,34 +11,32 @@
 
 ## Opis
 
-Narzędzie **<img src="images/PartDesign_Pad.svg" width=16px> [Projekt Części: Wyciągnij przez obrót](PartDesign_Pad/pl.md)** narzędzie powoduje wyciągnięcie szkicu do bryły w kierunku normalnej do płaszczyzny szkicu. Od wersji {{VersionPlus/pl|0.17}} można również użyć ścian na bryle zamiast szkiców.
+Narzędzie **Wyciągnij** umożliwia wyciągnięcie szkicu lub powierzchni bryły wzdłuż prostej ścieżki.
 
 ![](images/PartDesign_Pad_example.svg )
 
 \"Szkic (A) jest pokazany po lewej stronie; wynik końcowy działania operacji wyciągnięcia (B) prezentowany jest po prawej stronie.
 
-**Note:** {{VersionMinus/pl|0.16}} Jeśli wybrany szkic jest przyporządkowany do powierzchni czołowej istniejącej bryły lub innej funkcji projektowania części, wyciągnięcie zostanie do niej połączone.
-
 ## Jak używać 
 
-1.  Wybierz szkic do wyciągnięcia. **Note:** W wersji {{VersionPlus/pl|0.17}} i wyższej można alternatywnie użyć powierzchni czołowej na istniejącej bryle.
-2.  Naciśnij przycisk**<img src="images/PartDesign_Pad.svg" width=16px> '''Wyciągnij przez obrót'''**.
+1.  Wybierz szkic lub ścianę do wyciągnięcia. {{Version/pl|0.20}} Alternatywnie można wybrać kilka szkiców lub kilka ścian.
+2.  Naciśnij przycisk**<img src="images/PartDesign_Pad.svg" width=24px> '''Wyciągnij przez obrót'''**.
 3.  Ustaw wymagane parametry dla tej operacji *(opisane w następnym akapicie [Opcje](#Opcje.md))*.
 4.  Naciśnij przycisk **OK**.
 
 ## Opcje
 
-Podczas tworzenia wyciągnięcia, widok złożony automatycznie przełącza się do panelu **Zadania**, pokazując okno dialogowe **Parametry wyciągnięcia**.
+Podczas tworzenia wyciągnięcia zostanie wyświetlone okno dialogowe **Parametry wyciągnięcia**. Oferuje ono następujące ustawienia:
 
 ![](images/pad_parameters_cropped.png )
 
 ### Typ
 
-Opcja **Typ** pozwala na wybranie pięciu różnych wariantów wyciągnięcia.
+Opcja **Typ** pozwala na wybranie pięciu różnych wariantów wyciągnięcia:
 
 #### Długość
 
-Podaj długość wyciągnięcia. Domyślnie, kształt wyciągany jest poza bryłę, ale może to zostać zmienione wybierając opcje **Odwrócony**. Wytłoczenia występują [normalnie](http://en.wikipedia.org/wiki/Surface_normal) do płaszczyzny szkicu definiującego. Za pomocą opcji **Symmetryczna do płaszczyzny** wyciągnięcie zostanie przemieszczone tak, aby płaszczyzna szkicu znajdowała się pośrodku zadanej długości. Wymiary poprzedzone znakiem minus nie są akceptowalne. Zamiast tego należy użyć opcji \"Odwrócony\".
+Podaj długość wyciągnięcia. Domyślnie, kształt wyciągany jest poza bryłę, ale może to zostać zmienione wybierając opcje **Odwrócony**. Wytłoczenia występują [normalnie](http://en.wikipedia.org/wiki/Surface_normal) do płaszczyzny szkicu definiującego. Można to zmienić określając inny **Kierunek**\'. Za pomocą opcji **Symetryczna do płaszczyzny** wyciągnięcie zostanie przemieszczone tak, aby płaszczyzna szkicu znajdowała się pośrodku zadanej długości. Wymiary poprzedzone znakiem minus nie są akceptowalne. Zamiast tego należy użyć opcji \"Odwrócony\".
 
 #### Dwa wymiary 
 
@@ -54,11 +52,15 @@ Wyciągnięcie będzie wytłaczane aż do pierwszej ściany podparcia w kierunku
 
 #### Do powierzchni 
 
-Wyciągnięcie będzie wytłaczane do powierzchni, którą można wybrać klikając. Jeśli podpora nie wystąpi, żaden wybór nie zostanie zaakceptowany.
+Wyciągnięcie będzie wytłaczane do powierzchni modelu, którą można wybrać klikając.
 
 ### Długość 
 
-Określa długość wyciągnięcia. Może być używanych wiele jednostek, niezależnie od ustawionych w programie preferencji użytkownika (m, cm, mm, nm, ft lub \', in lub \").
+Określa długość wyciągnięcia. Może być używanych wiele jednostek, niezależnie od ustawionych w programie preferencji użytkownika (m, cm, mm, nm, ft lub \', in lub \"). Opcja ta jest dostępna tylko wtedy, gdy opcja **Typ**\' ma wartość **Wymiar** lub **Dwa wymiary**.
+
+### Odsunięcie od ściany 
+
+Odsunięcie od powierzchni, na której ma się kończyć wyciągnięcie. Opcja ta jest dostępna tylko gdy **Typ** jest ustawiony na **Do ostatniego**, **Do pierwszego** lub *\'Do ściany*.
 
 ### Kierunek
 
@@ -66,21 +68,17 @@ Określa długość wyciągnięcia. Może być używanych wiele jednostek, nieza
 
 Można wybrać kierunek wyciągania:
 
--   **Normalna szkicu** Szkic zostanie wyciągnięty wzdłuż swojego wektora normalnego,
+-   **Ściana / Normalna szkicu** Szkic lub ściana zostanie wyciągnięty wzdłuż swojego wektora normalnego. Jeśli wybrałeś kilka szkiców lub ścian do wyciągnięcia, użyty zostanie wektor normalnej pierwszego z nich. {{Version/pl|0.20}}
 -   **Wybierz odniesienie\...**. Szkic zostanie wyciągnięty wzdłuż krawędzi modelu 3D. Gdy ta metoda jest wybrana, można wybrać dowolną krawędź w modelu 3D. Stanie się ona wtedy wektorem kierunku dla wyłożenia. {{Version/pl|0.20}}
 -   **Kierunek niestandardowy** Szkic jest wyciskany wzdłuż kierunku, który można określić za pomocą wartości wektorowych. {{Version/pl|0.19}}
 
-#### Użyj niestandardowego kierunku 
+#### Wskazanie kierunku 
 
 Jeśli opcja jest zaznaczona, kierunek wyciągnięcia zostanie wyświetlony. W przypadku, gdy pad używa **Niestandardowego kierunku**, można go zmienić. {{Version/pl|0.20}}
 
 #### Długość wzdłuż wektora normalnego szkicu 
 
 Jeśli opcja jest zaznaczona, długość wyciągnięcia jest mierzona wzdłuż kierunku wektora normalnego szkicu, w przeciwnym razie wzdłuż kierunku niestandardowego. {{Version/pl|0.20}}
-
-### Odsunięcie od ściany 
-
-Odsunięcie od powierzchni, na której ma się kończyć wyciągnięcie. Opcja ta jest dostępna tylko gdy **Typ** jest ustawiony na **Do ostatniego**, **Do pierwszego** lub *\'Do ściany*.
 
 ### Symetrycznie do płaszczyzny 
 
@@ -110,7 +108,7 @@ Odwraca kierunek wyciągnięcia.
 
 -    {{PropertyData/pl|Przesunięcie}}: Odsunięcie od powierzchni, w której ma zakończyć się wyciągniecie. Jest to brane pod uwagę tylko wtedy, gdy używana jest opcja {{PropertyData/pl|Typ}} **Do ostatniego**, **Do pierwszego** lub **Do powierzchni**.
 
--    {{PropertyData/pl|Udoskonal}}: {{VersionPlus/pl|0.17}} prawda lub fałsz. Czyści resztkowe krawędzie pozostawione po operacji. Ta właściwość jest początkowo ustawiana zgodnie z ustawieniami użytkownika (znajduje się w „Preferencje → Projekt części → Ogólne → Ustawienia modelu"). Można to zmienić ręcznie. Ta właściwość zostanie zapisana w dokumencie FreeCAD.
+-    {{PropertyData/pl|Udoskonal}}: {{True/pl}} lub {{false/pl}}. Czyści resztkowe krawędzie pozostawione po operacji. Ta właściwość jest początkowo ustawiana zgodnie z ustawieniami użytkownika *(znajduje się w **Preferencje → Projekt części → Ogólne → Ustawienia modelu**)*. Można to zmienić ręcznie. Ta właściwość zostanie zapisana w dokumencie FreeCAD.
 
 ## Ograniczenia
 
@@ -118,12 +116,10 @@ Odwraca kierunek wyciągnięcia.
 -   Algorytmy używane w **Do pierwszego** i **Do ostatniego**:
     -   utwórz linię przechodzącą przez środek ciężkości szkicu,
     -   znajdź wszystkie powierzchnie podparcia przecięte przez tę linię,
-    -   wybierz ścianę, na której punkt przecięcia znajduje się najbliżej/najdalej od szkicu.
+    -   wybierz ścianę, na której punkt przecięcia znajduje się najbliżej / najdalej od szkicu.
 
 :   Oznacza to, że znaleziona ściana może nie zawsze być tą, której się spodziewałeś. Jeśli natkniesz się na ten problem, zamiast tego użyj **odwrotnie do ściany** i wybierz ścianę, którą chcesz.
 :   W bardzo szczególnym przypadku wytłaczania do powierzchni wklęsłych, gdzie szkic jest większy niż ta powierzchnia, wytłoczenie nie powiedzie się. Jest to nierozwiązany błąd.
-
--    {{VersionMinus/pl|0.16}}Nie ma funkcjonalności automatycznej optymalizacji np. łączenia sąsiednich powierzchni płaskich w jedną powierzchnię. Można to naprawić samodzielnie w Środowisku pracy Part za pomocą środowiska pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _, który utworzy cechę parametryczną.
 
 
 

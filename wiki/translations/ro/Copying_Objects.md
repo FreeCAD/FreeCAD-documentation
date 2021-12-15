@@ -49,7 +49,7 @@ After the Copy/Paste operation, it may not be obvious where the new object(s) ar
 Ca multe lucruri în FreeCAD, există multe modalități de a face o copie. Pentru mai multe idei, uitați-vă la:
 
 -   PartDesign: [Mirror](PartDesign_Mirrored.md), [Linear Pattern](PartDesign_LinearPattern.md), [Polar Pattern](PartDesign_PolarPattern.md), [MultiTransform](PartDesign_MultiTransform.md)
--   Part: [Mirror](Part_Mirror.md), [Create simple copy](Part_CreateSimpleCopy.md)
+-   Part: [Mirror](Part_Mirror.md), [Simple copy](Part_SimpleCopy.md)
 -   Draft: [Offset](Draft_Offset.md), [Scale](Draft_Scale.md), [Array](Draft_Array.md), [PathArray](Draft_PathArray.md), [Clone](Draft_Clone.md), [Mirror](Draft_Mirror.md)
 
 ## Notă

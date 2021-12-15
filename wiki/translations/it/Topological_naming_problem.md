@@ -37,7 +37,7 @@ Il problema di denominazione topologica influisce molto spesso e confonde i nuov
 
 <img alt="" src=images/FreeCAD_topological_problem_07_solid_3.png  style="width:" height="400px;">
 
-5\. A questo punto, fare nuovamente doppio clic sul secondo schizzo e regolarne i punti in modo che una parte di esso sia fuori dai limiti definiti dal primo pad. In questo modo, il secondo pad viene ricalcolato correttamente, tuttavia, guardando nella [vista ad albero](vista_ad_albero.md), nel terzo pad viene indicato un errore.
+5\. A questo punto, fare nuovamente doppio clic sul secondo schizzo e regolarne i punti in modo che una parte di esso sia fuori dai limiti definiti dal primo pad. In questo modo, il secondo pad viene ricalcolato correttamente, tuttavia, guardando nella [vista ad albero](Tree_view/it.md), nel terzo pad viene indicato un errore.
 
   ----------------------------------------------------------------------------------------------------------------------------------- ---------------------------------------------------------------------------------------------------------------------
   <img alt="" src=images/FreeCAD_topological_problem_08_solid_sketch_2.png  style="width:" height="400px;">   <img alt="" src=images/FreeCAD_topological_problem_09_solid_2.png  style="width:" height="400px;">

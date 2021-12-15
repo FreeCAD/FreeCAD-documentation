@@ -14,9 +14,15 @@
 
 Das [Balken Verstärkung](Arch_Rebar_BeamReinforcement/de.md) Werkzeug erlaubt dem Anwender Bewehrungsstäbe innerhalb eines Balken [Architektur Struktur](Arch_Structure/de.md) Objekts erzeugen.
 
-Das [Arch Balkenverstärkung](Arch_Rebar_BentReinforcement/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
+Das [Arch Balkenverstärkung](Arch_Rebar_BeamReinforcement/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
+
+
+<div class="mw-translate-fuzzy">
 
 Dieser Befehl ist Teil der _ über das {{MenuCommand/de|Werkzeuge → Erweiterungsverwalter → Bewehrung}}-Menü installiert werden kann.
+
+
+</div>
 
 ![](images/Arch_Rebar_BeamReinforcement_example.png )
 

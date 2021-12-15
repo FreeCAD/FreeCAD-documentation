@@ -17,8 +17,6 @@ Mai jos este o colecție de tutoriale realizate de către utilizatorii și dezvo
 
 Visit _.
 
-Visit [offsite tutorials](offsite_tutorials.md) for lists of tutorials hosted on external sites.
-
 If you\'d like to contribute with writing wiki documentation and tutorials, see [Help FreeCAD](Help_FreeCAD.md), the general wiki guidelines in [WikiPages](WikiPages.md), and follow the [tutorial guidelines](tutorial_guidelines.md).
 
 

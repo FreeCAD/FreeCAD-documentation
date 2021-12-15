@@ -154,6 +154,9 @@ Drawing 工作台处理 2D 工程图纸的创建和操作，用于在 2D 平面�
 
 The Drawing Workbench handles the creation and manipulation of 2D drawing sheets, used for displaying views of your 3D work in 2D. These sheets can then be exported to 2D applications in SVG or DXF formats, to a PDF file or printed.
 
+
+<div class="mw-translate-fuzzy">
+
   工具                                                                                                                    描述                                          工具                                                                                                                描述
   ----------------------------------------------------------------------------------------------------------------------- --------------------------------------------- ------------------------------------------------------------------------------------------------------------------- ----------------------------------------
   <img alt="" src=images/Drawing_Landscape_A3.png  style="width:32px;"> _                            在活动图纸中插入所选对象的视图
@@ -161,6 +164,9 @@ The Drawing Workbench handles the creation and manipulation of 2D drawing sheets
   <img alt="" src=images/Drawing_Openbrowser.png  style="width:32px;"> _   在当前工程图纸上自动创建对象的正交视图
   <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> _       在当前图纸中插入所选对象的特殊草稿视图
   <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [Save](Drawing_Save.md)                                将当前工作表保存为 SVG 文件                                                                                                                                       
+
+
+</div>
 
 ### 其他内置工作台
 

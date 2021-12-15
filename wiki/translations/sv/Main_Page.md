@@ -41,7 +41,7 @@ FreeCAD manualen är ett pågående arbete av communityn för att få förstklas
 | -   ![](images/Flag-cn.jpg ) [目录](Online_Help_Toc/zh-cn.md) zh-cn        | -   ![](images/Flag-it.jpg ) [Sommario](Online_Help_Toc/it.md)           | -   ![](images/Flag-ru.jpg ) [Содержание](Online_Help_Toc/ru.md)             |
 | -   ![](images/Flag-cn.jpg‎ ) [目錄](Online_Help_Toc/zh-tw.md) zh-tw      | -   ![](images/Flag-jp.jpg ) [目次](Online_Help_Toc/ja.md) ja            | -   ![](images/Flag-sv.jpg ) [Innehallsforteckning](Online_Help_Toc/sv.md)   |
 | -   ![](images/Flag-cs.jpg ) [Obsah](Online_Help_Toc/cs.md)                | -   ![](images/Flag-ko.jpg ) [온라인 도움말](Online_Help_Toc/ko.md)      | -   ![](images/Flag-tr.jpg ) [İçindekiler](Online_Help_Toc/tr.md)            |
-| -   ![](images/Flag-de.jpg ) [Inhaltsverzeichnis](Online_Help_Toc/de.md)   | -   ![](images/Flag-pl.jpg ) [Spis Treści](Online_Help_Toc/pl.md)        | -   ![](images/Flag-uk.jpg ) [Інтернет Допомога](Online_Help_Toc/uk.md)      |
+| -   ![](images/Flag-de.jpg ) [Inhaltsverzeichnis](Online_Help_Toc/de.md)   | -   ![](images/Flag-pl.jpg ) [Spis Treści](Online_Help_Toc/pl.md)        | -   ![](images/Flag-uk.jpg ) [Вміст](Online_Help_Toc/uk.md)                  |
 | -   ![](images/Flag-es.jpg ) [Índice de contenidos](Online_Help_Toc/es.md) |                                                                                            |                                                                                                |
 +----------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------+
 
@@ -64,7 +64,7 @@ The _ page describes it all with more details. Starting from 2016, FreeCAD also 
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD kan kompileras med cMake eller autotools, subversion länken är <https://free-cad.svn.sourceforge.net/svnroot/free-cad/trunk> och det finns kompileringsinstruktioner [Windows](CompileOnWindows/sv.md), [Unix/Linux](CompileOnUnix/sv.md) och [MacOSX](CompileOnMac/sv.md).
+FreeCAD kan kompileras med cMake eller autotools, subversion länken är <https://free-cad.svn.sourceforge.net/svnroot/free-cad/trunk> och det finns kompileringsinstruktioner [Windows](Compile_on_Windows/sv.md), [Unix/Linux](Compile_on_Linux/sv.md) och [MacOSX](Compile_on_MacOS/sv.md).
 
 
 </div>

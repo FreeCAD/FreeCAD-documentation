@@ -21,7 +21,7 @@ Une Draft Ellipse peut être transformée en arc d\'ellipse en donnant à ses pr
 
 ## Utilisation
 
-Voir aussi: [Draft La barre](Draft_Tray/fr.md), [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Ellipse.svg" width=16px> [Créer une ellipse](Draft_Ellipse/fr.md)**.

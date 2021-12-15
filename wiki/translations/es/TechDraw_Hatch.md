@@ -69,7 +69,13 @@ rc = page.addView(hatch)
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

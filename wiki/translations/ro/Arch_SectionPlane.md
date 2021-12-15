@@ -5,7 +5,7 @@
    MenuLocation:Arch → Section Plane
    Workbenches:[Arch](Arch_Workbench/ro.md)
    Shortcut:**S** **P**
-   SeeAlso:[Draft Shape2DView](Draft_Shape2DView.md), [TechDraw NewArch](TechDraw_NewArch.md)
+   SeeAlso:[Draft Shape2DView](Draft_Shape2DView.md), [TechDraw NewArch](TechDraw_ArchView.md)
 ---
 
 # Arch SectionPlane/ro
@@ -18,18 +18,12 @@
 
 <div class="mw-translate-fuzzy">
 
-Acest instrumetn plasează în documentul curent un plan de secțiune gizmo, care definește secțiunea sau planul de vizualizare. Gizmo își ia locul în conformitate cu planul de lucru [ Draft Work Plan](Draft_SelectPlane.md) și poate fi mutat și reorientat prin mutarea și rotirea acestuia, până când descrie vizualizarea 2D pe care doriți să o obțineți. Obiectul plan de secțiune va lua în considerare numai un anumit set de obiecte. Obiectele selectate la crearea unei planuri de secțiune vor fi adăugate la setarea automată. Alte obiecte pot fi adăugate sau eliminate mai târziu dintr-un obiect SectionPlane cu ajutorul instrumentelor [Arch Add](Arch_Add.md) și [Remove Arch](Remove_Arch.md) sau prin dublu clic pe planul de secțiuni din vizualizarea arborescentă.
+Acest instrumetn plasează în documentul curent un plan de secțiune gizmo, care definește secțiunea sau planul de vizualizare. Gizmo își ia locul în conformitate cu planul de lucru [ Draft Work Plan](Draft_SelectPlane.md) și poate fi mutat și reorientat prin mutarea și rotirea acestuia, până când descrie vizualizarea 2D pe care doriți să o obțineți. Obiectul plan de secțiune va lua în considerare numai un anumit set de obiecte. Obiectele selectate la crearea unei planuri de secțiune vor fi adăugate la setarea automată. Alte obiecte pot fi adăugate sau eliminate mai târziu dintr-un obiect SectionPlane cu ajutorul instrumentelor [Arch Add](Arch_Add.md) și [Remove Arch](Arch_Remove.md) sau prin dublu clic pe planul de secțiuni din vizualizarea arborescentă.
 
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-Planul de secțiune singur nu va crea nici o vizualizare a setului său de obiecte. Pentru aceasta, trebuie să creați un [ Drawing DraftView](Draft_Drawing.md) pentru a crea o vizualizare în [ Drawing page](Drawing_Workbench.md), un [Shape2DView](Shape2DView.md) pentru a crea o vizualizare în documentul 3D sau un [ TechDraw ArchView](TechDraw_NewArch.md) pentru a crea o vizualizare într-o [ TechDraw page](TechDraw_Workbench.md).
-
-
-</div>
+The Section Plane alone won\'t create any view of its objects set. For that, you must create a [TechDraw ArchView](TechDraw_ArchView.md) to create a view in a [TechDraw page](TechDraw_Workbench.md).
 
 <img alt="" src=images/Arch_SectionPlane_example.jpg  style="width:600px;">
 
@@ -50,7 +44,7 @@ Planul de secțiune singur nu va crea nici o vizualizare a setului său de obiec
 ** sau apăsați tastele **S** apoi **P**
 4.  [Move](Draft_Move.md)/[rotate](Draft_Rotate.md) the Section Plane into correct position if needed
 5.  Selectați Section Plane dacă nu este deja selectați
-6.  Folosiți sau [Drawing DraftView](Draft_Drawing.md), [Draft Shape2DView](Draft_Shape2DView.md) sau [TechDraw ArchView](TechDraw_NewArch.md) pentru a crea o vizualizare
+6.  Folosiți sau [Drawing DraftView](Draft_Drawing.md), [Draft Shape2DView](Draft_Shape2DView.md) sau [TechDraw ArchView](TechDraw_ArchView.md) pentru a crea o vizualizare
 
 
 </div>
@@ -78,7 +72,7 @@ Planul de secțiune singur nu va crea nici o vizualizare a setului său de obiec
 
 <div class="mw-translate-fuzzy">
 
--   Create [Drawing DraftViews](Draft_Drawing.md) if you are working with the [Drawing Workbench](Drawing_Workbench.md), or [TechDraw ArchView](TechDraw_NewArch.md) if you are using the [TechDraw Workbench](TechDraw_Workbench.md).
+-   Create [Drawing DraftViews](Draft_Drawing.md) if you are working with the [Drawing Workbench](Drawing_Workbench.md), or [TechDraw ArchView](TechDraw_ArchView.md) if you are using the [TechDraw Workbench](TechDraw_Workbench.md).
 
 
 </div>

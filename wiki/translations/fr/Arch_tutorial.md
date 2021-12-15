@@ -39,7 +39,7 @@ A l\'heure où j\'écris ceci l\'atelier [Arch](Arch_Workbench/fr.md) comme le r
 -   [Les unités](Units/fr.md) sont en cours d'implémentation dans FreeCAD, ce qui vous permettra de travailler avec n\'importe quelles unités que vous souhaitez (même les unités impériales, à ce sujet vous pouvez être éternellement reconnaissant envers Jürgen, le parrain et initiateur de FreeCAD). Mais pour le moment l\'atelier [Architecture](Arch_Workbench/fr.md) ne les supporte toujours pas. Vous devez le considérer « sans unités ».
 
 
-{{Note|FreeCAD version 0.14 requis|Ce tutoriel a été réalisé avec [FreeCAD version 0.14](Release_notes_014/fr.md). Vous aurez besoin au moins de cette version pour le suivre. Les versions plus anciennes pourraient ne pas contenir tous les outils nécessaires ou certaines options risquent de ne pas être présentes.}}
+{{Note|FreeCAD version 0.14 requis|Ce tutoriel a été réalisé avec [FreeCAD version 0.14](Release_notes_0.14/fr.md). Vous aurez besoin au moins de cette version pour le suivre. Les versions plus anciennes pourraient ne pas contenir tous les outils nécessaires ou certaines options risquent de ne pas être présentes.}}
 
 ## Déroulement type des opérations 
 

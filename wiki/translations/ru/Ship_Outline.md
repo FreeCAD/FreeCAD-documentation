@@ -3,6 +3,7 @@
 - GuiCommand:/ru
    Name:Ship Outline
    Name/ru:Ship Outline
+   Icon:Ship_OutlineDraw.svg
    MenuLocation:Ship design → Контурный чертёж
    Workbenches:[Ship](Ship_Workbench/ru.md)
    Shortcut:   SeeAlso:---

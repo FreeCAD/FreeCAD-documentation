@@ -1,6 +1,7 @@
 ---
 - GuiCommand:
-   Name:Std NächstesFensterAktivieren
+   Name:Std ActivateNextWindow
+   Name/de:Std NächstesFensterAktivieren
    MenuLocation:Fenster → Nächstes
    Workbenches:Alle
    Shortcut:**Strg**+**Tab**

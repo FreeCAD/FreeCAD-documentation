@@ -3,7 +3,7 @@
    Name:Arch Project
    Name/de:Architektur Projekt
    MenuLocation:Architektur → Projekt
-   Workbenches:[Arch-Arbeitsbereich](Arch_Workbecnch.md)
+   Workbenches:[Arch-Arbeitsbereich](Arch_Workbench.md)
    Shortcut:**P** **O**/de
    SeeAlso:[Architektur Grundstück](Arch_Site/de.md), [Architektur Gebäude](Arch_Building/de.md)
 ---

@@ -52,7 +52,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 <div class="mw-translate-fuzzy">
 
 1.  Drücke die **<img src="images/Draft_Circle.png" width=16px> [Kreis](Draft_Circle/de.md)** Schaltfläche oder drücke **C**, dann **I** Tasten.
-2.  Klicke einen ersten Punkt in der 3D Ansicht oder tippe eine [Koordinate](Draft_Coordinates/de.md) und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)**-Schaltfläche.
+2.  Klicke einen ersten Punkt in der 3D Ansicht oder tippe eine Koordinate und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen**-Schaltfläche.
 3.  Klicke einen zweiten Punkt in der 3D Ansicht oder gib einen Wert für den Radius ein.
 
 
@@ -69,7 +69,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   Die primäre Anwendung des Kreis-Werkzeugs erfolgt durch Auswahl von zwei Punkten: dem Mittelpunkt und einem Punkt auf dem Umkreis zur Definition des Radius.
 -   Durch Drücken von **Alt** kannst Du eine Tangente anstatt eines Punkts zur Definition des Basiskreises des Bogens auswählen. Du kannst deshalb verschiedene Kreisarten durch Auswahl von ein, zwei oder drei Tangenten erstellen.
--   Um Koordinaten manuell einzugeben, gibt einfach die Ziffern ein, drücke dann **Enter** zwischen den X-, Y- und Z-Komponenten. Du kannst den **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)**-Button drücken, nachdem die gewünschten Werte eingegeben wurden.
+-   Um Koordinaten manuell einzugeben, gibt einfach die Ziffern ein, drücke dann **Enter** zwischen den X-, Y- und Z-Komponenten. Du kannst den **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen**-Button drücken, nachdem die gewünschten Werte eingegeben wurden.
 -   Drücke **Alt**+**N** oder klicke das Ankreuzkästchen zum de/aktivieren des Fortsetzungsmodus. Wenn der Fortsetzungsmodus aktiviert ist, wird das Kreis-Tool nach Eingabe des zweiten Punkts neugestartet, um das Zeichnen eines weiteren Kreises ohne erneutes Drücken des Kreis-Buttons zu ermöglichen.
 
 Klicke das Ankreuzkästchen zum de/aktivieren des **'''Gefüllt'''**-Modus. Wenn der \'Geüllt\'-Modus aktiviert ist, wird der Kreis mit einer Fläche gefüllt.

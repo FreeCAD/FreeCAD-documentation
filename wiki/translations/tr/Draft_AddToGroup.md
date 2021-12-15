@@ -49,7 +49,6 @@ In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workb
 
 -   [Belge yapısı](Document_structure/tr.md)
 -   Yapı nesneleriyle çalışıyorsanız[Kendi modelinizi düzenleyin](Arch_tutorial#Organizing_your_model.md)
--   [Belge içerisinde nesne düzenleme](Ways_To_Organize_Objects/tr.md)
 
 
 </div>

@@ -55,9 +55,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Välj en punkt i ett tomt område i 3d vyn, eller på ett existerande objekt.
 -   Nedtryckning av **CTRL** kommer att [snäppa](Draft_Snap/sv.md) din punkt till tillgängliga snäpp-punkter.
 -   Nedtryckning av **SKIFT** [begränsar](Draft_Constrain/sv.md) din nya punkt i relation till föregående punkt.
--   Skriv in siffror för att [manuellt mata in en koordinat](Draft_Coordinates/sv.md).
+-   Skriv in siffror för att manuellt mata in en koordinat.
 -   Om du trycker på **ESC** så avbryts funktionen.
--   Den skapade cirkeln kommer att ha nuvarande [linjestil](Draft_Linestyle/sv.md).
 
 
 </div>

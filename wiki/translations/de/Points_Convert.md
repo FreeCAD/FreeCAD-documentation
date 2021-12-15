@@ -19,7 +19,7 @@ Ein Formobjekt bezeichnet hier jedes Objekt mit einer **Form** Eigenschaft. Obje
 1.  Wähle ein oder mehrere Objekte aus.
 2.  Wähle die Option **Punkte → On Punkte umwandeln...** aus dem Menü.
 3.  Das Dialogfeld **Abstand** wird geöffnet.
-4.  Gib den **Maximalabstand** ein. Der Wert muss im Bereich {{Wert|0.05}} - Bereich von {{Wert|10.0}} liegen.
+4.  Gib den **Maximalabstand** ein. Der Wert muss im Bereich {{Value|0.05}} - Bereich von {{Value|10.0}} liegen.
 5.  Drücke die Schaltfläche **OK**, um das Dialogfeld zu schließen und den Befehl zu beenden.
 
 ## Eigenschaften

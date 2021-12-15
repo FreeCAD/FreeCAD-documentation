@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/ru
-   Name:FEM ControlSolver
+   Name:FEM SolverControl
    Name/ru:FEM ControlSolver
    MenuLocation:FEM → Solver job control
    Workbenches:[FEM](FEM_Workbench/ru.md)

@@ -117,7 +117,7 @@ The Drawing Workbench handles the creation and manipulation of 2D drawing sheets
   <img alt="" src=images/Drawing_Landscape_A3.png  style="width:32px;"> _                            Inserts a view of the selected object in the active drawing sheet
   <img alt="" src=images/Drawing_Annotation.png  style="width:32px;"> _                            Adds a clip group to the current drawing sheet
   <img alt="" src=images/Drawing_Openbrowser.png  style="width:32px;"> _   Automatically creates orthographic views of an object on the current drawing sheet
-  <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> _       Inserts a special Draft view of the selected object in the current drawing sheet
+  <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> _                   Inserts a special Draft view of the selected object in the current drawing sheet
   <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [Save](Drawing_Save.md)                                Saves the current sheet as a SVG file                                                                                                                                                          
 
 ### Other built-in workbenches 

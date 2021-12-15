@@ -15,12 +15,12 @@ Poniższa lista przedstawia parametry, które nie są dostępne za pośrednictwe
 -   **DockWindows/TreeView/Enabled** *(boolean)*: Ustaw wartość opcji na {{TRUE/pl}} aby umożliwić dokowanie widżetu [Widok drzewa](Document_structure/pl.md) niezależnie od Widoku Połączonego. Po zmianie wartości parametru potrzebny jest restart programu FreeCAD, aby widżet był dostępny na liście Panelu - Widok połączony.
 -   **DockWindows/PropertyView/Enabled** *(boolean)*: Ustaw wartość opcji na {{TRUE/pl}} aby umożliwić dokowanie widżetu [Widok właściwości](Property_editor/pl.md) niezależnie od Widoku Połączonego. Po zmianie wartości parametru potrzebny jest restart programu FreeCAD, aby widżet był dostępny na liście Panelu - Widok.
 -   **DockWindows/DAGView/Enabled** *(boolean)*: Ustaw wartość opcji na {{TRUE/pl}} aby włączyć wersję testową dokowanego widżetu [DAG view](DAG_view/pl.md). Po zmianie wartości parametru potrzebny jest restart programu FreeCAD, aby widżet był dostępny na liście Panelu - Widok.
+-   **Document/AutoNameDynamicProperty** *(boolean)*: Ustaw na wartość {{TRUE/pl}}, aby FreeCAD automatycznie zmieniał nazwy właściwości dynamicznych z niepoprawnie podaną nazwą zamiast wyrzucać wyjątek. Zwróć uwagę, że kod Pythona nie będzie miał dostępu do nowej nazwy.
 -   **Document/ChangeViewProviderTouchDocument** *(boolean)*: Ustaw wartość opcji na `False` aby zmiany widoczności elementów nie oznaczały dokumentu jako zmodyfikowany.
 -   **Document/SaveThumbnailFix** *(boolean)*: Ustaw wartość opcji na {{TRUE/pl}} aby naprawić problem z Qt5, który uniemożliwia generowanie miniaturek plików `.FCStd`.
 -   **General/LockToolBars** *(boolean)*: Ustaw wartość na {{TRUE/pl}}, aby uniemożliwić przeciąganie pasków narzędzi i ukryć małe uchwyty do przeciągania. Najczęściej używane w połączeniu z arkuszami stylów, które sprawiają, że paski narzędzi są pionowe.
 -   **General/RecentIncludesExported** *(boolean)*: Ustaw wartość opcji na {{TRUE/pl}} to include exported files in the Recent Files list. Defaults to {{FALSE/pl}}.
 -   **General/RecentIncludesImported** *(boolean)*: Ustaw wartość opcji na {{FALSE/pl}} to exclude imported files from the Recent Files list. Defaults to {{TRUE/pl}}.
--   **General/SubstituteDecimalSeparator** *(boolean)*: Jeśli opcja jest ustawiona na wartość {{TRUE/pl}},znak kropki / przecinka będzie zastępowany regionalnym separatorem dziesiętnym podczas wprowadzania liczby w polu numerycznym. Zastąpienie nastąpi tylko wtedy, gdy kropka nie jest regionalnym separatorem dziesiętnym i spełniony jest co najmniej jeden z następujących warunków: kropka nie jest regionalnym separatorem tysięcy lub kropka została wprowadzona z klawiatury numerycznej. Domyślna wartość {{FALSE/pl}}.
 -   **Macro/DuplicateFrom001** *(boolean)*: Ustaw wartość opcji na {{TRUE/pl}} aby zawsze rozpoczynać poszukiwanie sugerowanej nazwy pliku z duplikatem makra od \@001 zamiast aktualnego \@NNN *(jeśli dotyczy)*. Domyślna wartość {{FALSE/pl}}.
 -   **Macro/DuplicateIgnoreExtraNote** *(boolean)*: Ustaw wartość na {{TRUE/pl}}, aby zignorować dodatkową notatkę podczas sugerowania zduplikowanej nazwy pliku makra. Dodatkowa uwaga to tekst w nazwie pliku po \"\@NNN\" i przed \".FCMacro\". Przykład: \"my\_macro\@005.my\_note.FCMacro\". Jeżeli ustawiono wartość {{TRUE/pl}}, następną sugerowaną nazwą pliku będzie \"my\_macro\@006.FCMacro\". Jeżeli {{FALSE/pl}}, to następną sugerowaną nazwą pliku jest \"my\_macro\@006.my\_note.FCMacro\". Aby tekst został rozpoznany jako dodatkowa notatka, powinien zaczynać się od kropki (\".\") po członie \"\@NNN\". W przeciwnym razie, na przykład \"my\_macro\@006\_my\_note.FCMacro\" otrzyma \"my\_macro\@006\_my\_note\@001.FCMacro\" jako sugerowaną nową nazwę pliku, co może być pożądane w niektórych przypadkach. Domyślną wartością jest {{FALSE/pl}}.
 -   **Macro/ReplaceSpaces** *(boolean)*: Ustaw wartość na {{FALSE/pl}}, jeśli nie chcesz, aby spacje w nazwach plików były automatycznie zamieniane na podkreślenia podczas tworzenia, zmiany nazwy lub powielania makra. Nie ma to wpływu na istniejące pliki, ma znaczenie tylko przy tworzeniu nowego pliku, zmianie nazwy lub powielaniu istniejącego. Domyślną wartością jest {{TRUE/pl}}.
@@ -51,22 +51,22 @@ Obie te opcje umożliwiają automatyczne wstawianie do nazwy pliku różnych inf
 
 Wszelkie inne znaki traktowane są dosłownie. Jeśli wynikowa nazwa pliku jest nieprawidłowa, zostanie zmieniona przy zapisie, a nieprawidłowe znaki zostaną zastąpione znakiem podkreślenia \'\' \' **\_** \' \'\'.
 
-### Sketcher Constraint Label Colors 
+### Kolory etykiet wiązań Szkicownika 
 
-The label in Sketcher that displays the current status of the constraints (e.g. \"Underconstrained,\" \"Overconstrained,\" \"Fully Constrained,\" etc.) is styleable on a per-state basis either using the Qt stylesheet, or via user preferences. User preferences take precedence if they have been set (in **Mod/Sketcher/General**):
+Etykieta w Szkicowniku, która wyświetla aktualny stan wiązań (np. \" Nie w pełni wiązany\", \" Nadmiar wiązań\", \" W pełni wiązany\" itd.) jest stylizowana dla każdego stanu za pomocą arkusza stylów Qt lub preferencji użytkownika. Preferencje użytkownika mają pierwszeństwo, jeśli zostały ustawione *(w **Mod/Szkicownik/Ogólne**)*:
 
--   **EmptySketchMessageColor** - Defaults to 50% opacity black
--   **UnderconstrainedMessageColor** - Defaults to black
--   **MalformedConstraintMessageColor** - Defaults to red
--   **ConflictingConstraintMessageColor** - Defaults to red
--   **RedundantConstraintMessageColor** - Defaults to orange red
--   **PartiallyRedundantConstraintMessageColor** - Defaults to royal blue
--   **SolverFailedMessageColor** - Defaults to red
--   **FullyConstrainedMessageColor** - Defaults to green
+-   Kolor komunikatu **Pustego szkicu** - domyślnie czarny z 50% kryciem.
+-   Kolor komunikatu **Nie w pełni związany** - domyślnie czarny.
+-   Kolor komunikatu **Nieprawidłowo sformułowane wiązanie** - domyślnie czerwony.
+-   Kolor komunikatu **Wiązanie konfliktowe** - domyślnie czerwony.
+-   Kolor komunikatu **Wiązanie nadmiarowe** - domyślnie czerwony.
+-   Kolor komunikatu **Wiązanie częściowo nadmiarowe** - domyślnie królewski niebieski.
+-   Kolor komunikatu **Błąd solwera** - domyślnie czerwony.
+-   Kolor komunikatu **Związany w pełni** - domyślnie zielony.
 
 ## Powiązane z myszką 
 
--   **General/ComboBoxWheelEventFilter** *(boolean)*: Należy ustawić wartość `True`, aby widżety nie przechwytywały zdarzeń związanych z kółkiem myszy i uniemożliwiały przewijanie obszarów, które można przewijać.
+-   **General/ComboBoxWheelEventFilter** *(boolean)*: Należy ustawić wartość `True`, aby widżety nie przechwytywały zdarzeń związanych z kółkiem myszy i uniemożliwiały przewijanie obszarów, które można przewijać. Wymaga uwzględnienia ponownego uruchomienia programu FreeCAD.
 -   **View/GestureRollFwdCommand**, **View/GestureRollBackCommand** *(string)*: Komendy, które mają być wykonywane za pomocą gestów przewijania przycisków myszy w stylu nawigacji Gesture.
 -   **View/GestureMoveThreshold** *(integer)*: Odległość, jaką musi pokonać kursor myszy *(px)*, aby wejść w tryb obrotu lub przesuwania w stylu nawigacji Gesture. Wartość domyślna 5.
 -   **View/GestureTapHoldTimeout** *(integer)*: Określa jak długo trzeba czekać *(w milisekundach)*, aby wejść w tryb obrotu w stylu nawigacji Gesture. Pomocne może być zwiększenie wartości, jeśli przeciąganie geometrii w szkicowniku jest trudne. Domyślnie jest to wartość 700.

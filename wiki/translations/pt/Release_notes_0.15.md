@@ -80,7 +80,7 @@ For those nostalgic for old CAD software, sticky fonts (in which letters are mad
 
 -   [Lines](Draft_Line.md) can now be defined by their length and angle in the current working plane
 -   Relative extension lines for [dimensions](Draft_Snap_Dimensions.md)
--   Support for [sketcher ellipses](Sketcher_Ellipse.md)
+-   Support for [sketcher ellipses](Sketcher_CompCreateConic.md)
 -   [Array](Draft_Array.md) objects can now be fused
 
 ## Drawing Workbench 

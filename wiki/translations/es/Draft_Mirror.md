@@ -47,8 +47,8 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  Sélectionnez les objets que vous souhaitez mettre en miroir
 2.  Appuyez sur le bouton {{KEY | <img src="images/_Draft_Mirror.png_" width= 16px> [[Draft Mirror]]}}.
-3.  Cliquez sur le premier point de la ligne miroir sur la vue 3D ou tapez une [ coordonnée](Draft_Coordinates.md)
-4.  Cliquez sur l\'autre point de la ligne miroir de la vue 3D ou tapez une [ coordonnée](Draft_Coordinates.md)
+3.  Cliquez sur le premier point de la ligne miroir sur la vue 3D ou tapez une coordonnée
+4.  Cliquez sur l\'autre point de la ligne miroir de la vue 3D ou tapez une coordonnée
 
 
 </div>
@@ -62,7 +62,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 ## Opciones
 
--   Después de la creación del espejo, su enlace con el objeto original se puede eliminar con la herramienta [ Part Create Simple Copy](Part_CreateSimpleCopy.md).
+-   Después de la creación del espejo, su enlace con el objeto original se puede eliminar con la herramienta [ Part Simple Copy](Part_SimpleCopy.md).
 -   El espejo de un objeto Draft también se puede convertir en un Draft Wire, usando [Draft Downgrade](Draft_Downgrade.md) luego [Draft Upgrade](Draft_Upgrade.md).
 
 

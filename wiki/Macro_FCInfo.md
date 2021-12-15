@@ -2,19 +2,18 @@
 {{Macro
 |Name=Macro FCInfo
 |Icon=FCInfo.png
-|Description=Gives a series of informations about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, pour-cent) shape, surface, volume and the weight of the form in the density selected in different units of quantities international and Anglo-Saxon.
-<br />FRench Version [https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/c1dd823886fe2e75dc5c6dd490157c259051b651/FCInfo_fr_Ver_1-22-rmu_Docked.FCMacro]
+|Description=Gives information about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, percent), area, volume and weight in different units (metric and imperial). The macro now also works for the elements of a sketch in edit mode.
+<br />French Version [https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/6ca25a438c3c4cfb62c0b1d6a35b7ddbd80ace23/FCInfo_fr_Ver_1-25d-rmu_Docked.FCMacro Version française]
 |Author=Mario52
-|Version=1.22
-|Date=2020/11/12
+|Version=1.25d
+|Date=2021/12/13
 |FCVersion=All
-|Download=Download the [https://forum.freecadweb.org/download/file.php?id=50755 Macro_FCInfo_Icon] package and paste it in the same directory of the macro
 |SeeAlso=<img src=images/Arch_Survey.svg style="width:Arch Survey|24px"> [Arch Survey](Arch_Survey.md)<br />[Macro SimpleProperties](Macro_SimpleProperties.md)
 }}
 
 ## Description
 
-Gives a series of informations about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, pour-cent) shape, surface, volume and the weight of the form in the density selected in different units of quantities international and Anglo-Saxon.
+Gives information about the selected shape and can display a conversion of length, inclination (degrees, radians, grades, percent), area, volume and weight in different units (metric and imperial). The macro now also works for the elements of a sketch in edit mode.
 
  
 
@@ -39,63 +38,64 @@ Select an object or launch the application and select an object, and a series of
 **Sector 2: Coordinates click mouse**
 
 -   Coordinates X,Y and Z click to mouse
--   The button create on point, axis, plane, copy vector axis form **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+-   The button creates point, axis, plane, copy vector axis from **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
 **Sector 3: Value**
 
--   Length of the object if the object is a face perimeter is displayed unit size can be selected :
-    km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique. If the object is circle one second lineEdit is open ans display the radius of circle.
--   Perimeter of the shape
+-   If the object is a face perimeter, length of the object is displayed. Unit size can be selected :
+    km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
+-   If the object is a circle, a second line is opened and displays the radius of circle.
+-   Perimeter of the shape.
 
 **Sector 4: Vertexes and details**
 
--   CheckBox for for search or not all details of the object if is not checked only the principal value are displayed.
+-   CheckBox for for search or not all details of the object. If it is not checked, only the principal value is displayed.
 -   Vertexes and details of the shape (compt\_Edge), (compt\_Faces), (compt\_Vector of the Face)
     max 200 lines in the table, if there are more than 200 lines it appears (!+ 200) and the number of lines
     (full details can save be the **Save** button in a file in CSV format and can be viewed the file in spreadsheet with the **Read** or by an external spreadsheet as [LibreOffice](https://www.libreoffice.org/) [OpenOffice](http://openoffice.apache.org/downloads.html) or other)
 
 **Sector 5: Inclination**
 
--   Inclinations of the object can be displayed in:
--   **decimal degree**, ex: 174.831872611°
--   **degree minute seconde**, ex: 174° 49\' 54.741401\'\'
--   **radian**, ex: 3.05139181449 rad
--   **grade**, ex: 194.257636235 gon
--   **pourcent** ex: 30° = 57.74%
--   Inclinations in planes XY, YZ, ZX and their coordinates
--   **Direction object**, give the direction of object the calculate is : coord\_1 - coord\_2 = direction (or reverse)
+-   **Inclination of the object** can be displayed in:
+    -   decimal degree, ex: 174.831872611°
+    -   degree minute seconde, ex: 174° 49\' 54.741401\'\'
+    -   radian, ex: 3.05139181449 rad
+    -   grade, ex: 194.257636235 gon
+    -   pourcent, ex: 30° = 57.74%
+-   **Inclinations in planes XY, YZ, ZX** and their coordinates
+-   **Direction object**, give the direction of object. The calculate is : coord\_1 - coord\_2 = direction (or reverse)
     -   
         **Line**
         
-        this button create a line in direction of the object
+        this button create a line in direction of the object.
 -   **ValueAt**, returns the 3D vector corresponding to a parameter value.
 
 **Sector 6: Surface and Volume**
 
--   Surface of the form displayed unit size can be selected
--   Surface of the face displayed unit size can be selected
--   Volume of the form displayed unit size can be selected
--   density of the material in **kg by dm3**
-    (the \"spinBox\" is set to **7,5** kg, average density of steel. If you want a different default value, change the value of the density, line 204)
--   The **gram** buttom unit mass can be chosen :
+-   Surface of the form displayed, unit size can be selected.
+-   Surface of the face displayed, unit size can be selected.
+-   Volume of the form displayed, unit size can be selected.
+-   Density of the material in **kg by dm3**
+    (the \"spinBox\" is set to **7,5** kg, average density of steel. If you want a different default value, change the value of the density, line 204).
+-   The **gram** unit mass can be chosen :
     ton,quintal, kg, hg, dag, **gram**, dg, cg, mg, µg, ng, pg, fg, gr (grain), dr (drachm), oz (once), oz t (once troy),
-    lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight), tonneau fr, ct
--   weight of the form displayed unit mass can be selected
+    lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight), tonneau fr, ct.
+-   Weight of the form displayed, unit mass can be selected.
 
 **Sector 7: BoundBox**
 
--   BoundBox extreme dimensions of the shape
+-   BoundBox gives extreme dimensions of the shape.
 
 **Sector 8: Center of:**
 
 -   Center of the shape and these coordinates XYZ
 -   Center of mass and these coordinates XYZ
--   The button create on point, axis, plane, copy vector axis form **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+-   The button creates on point, axis, plane, copy vector axis form **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
 **Sector 9: Inertia**
 
 -   Moment of inertia and these coordinates length and weigth
--   The button create on point, axis, plane, copy vector axis form **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+-   The button creates on point, axis, plane, copy vector axis form **FreeCAD.Vector(-24.0, 240.0, 7.0)**
     -   action line 1 : x1, y1, z1
     -   action line 2 : x2, y2, z2
     -   action line 3 : x3, y3, z3
@@ -103,8 +103,8 @@ Select an object or launch the application and select an object, and a series of
 
 same for length and weigth
 
--   Determinant 1 : computes the determinant of the matrix scientific value
--   Determinant 2 : computes the determinant of the matrix decimal value
+-   Determinant 1 : computes the determinant of the matrix, in [scientific value](https://en.wikipedia.org/wiki/Scientific_notation)
+-   Determinant 2 : computes the determinant of the matrix, in decimal value
 
 **Section 10: SpreadSheet**
 
@@ -120,37 +120,37 @@ same for length and weigth
 
 -    **Space**: the separator is Space
 
-Option for save or read the spreadSheet with different separator, Tabulation, Comma, Semicolon, Space
-The Tabulation are the separator for the FreeCAD spreadSheet module
+Option for save or read the spreadsheet with different separator, Tabulation, Comma, Semicolon, Space
+The Tabulation are the separator for the FreeCAD \[Spreadsheet\_Workbench\|Spreadsheet workbench\]
 The number of this four separator are calculate for help if unknown
 The COMMA are the old (01.16 and before) separator of the FCInfo macro
-Now for compatibility with the FreeCAD spreadSheet and since 01.17 version the TABULATION is the separator by default
+Now for compatibility with the FreeCAD spreadsheet and since 01.17 version the TABULATION is the separator by default
 If you want to convert your old FCInfo spreadsheet : Open it in FCInfo and save it with the Tabulation option checked
 
 **Section 11: Main**
 
--    **CheckBox Clip Board**: if checked the coordinates are saved in clipBoard form : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+-    **CheckBox Clip Board**: if checked, the coordinates are saved in clipBoard form : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
--    **CheckBox Point**: if checked one point is created in the coordinate displayed form : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+-    **CheckBox Point**: if checked, one point is created in the coordinate displayed form : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
--    **CheckBox Axis **: if checked one axis is created in the coordinate displayed form : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+-    **CheckBox Axis**: if checked, one axis is created in the coordinate displayed form : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
--    **CheckBox Plane**: if checked one axis plane is created in the coordinate displayed form : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
+-    **CheckBox Plane**: if checked, one axis plane is created in the coordinate displayed form : **FreeCAD.Vector(-24.0, 240.0, 7.0)**
 
--    **Ref**: Refresh the display of data in report view
+-    **Ref**: refresh the display of data in report view
 
--    **Exit**: Exit the macro (you must restart from the tool bar button or menu \"View → Panels → FCInfo\"
+-    **Exit**: exit the macro (you must restart from the tool bar button or menu \"View → Panels → FCInfo\"
 
--    **CheckBox****1** : If this CheckBox is checked the informations are displayed in the report view window
+-    **CheckBox****1** : if this CheckBox is checked, the informations are displayed in the report view window
 
--    **CheckBox****2** : If this CheckBox is not checked the window macro are displayed to right (default). If it is checked the window macro are displayed to left
+-    **CheckBox****2** : if this CheckBox is not checked, the window macro are displayed to right (default). If it is checked the window macro are displayed to left
 
 Once launched macro, the macro remains active and the window remains visible. To exit the macro by pressing **Exit**. If you leave by the cross, the macro remains in memory and the data appears in the \"report view\" of FreeCAD.
 
 
 <center>
 
-Image:Macro\_FCInfo\_04.png\|Docked to rigth, Image:Macro FCInfo 05.png\|or left with Combo view and reachable by a tab, or not docked to the choice.
+Image:Macro\_FCInfo\_04.png\|Docked to right, Image:Macro FCInfo 05.png\|or left with Combo view and reachable by a tab, or not docked, to the choice.
 
 
 </center>
@@ -192,14 +192,14 @@ click twice to see the animation (the image must be in full screen)
 
 ton, quintal, kg, hg, dag, **gram**, dg, cg, mg, µg, ng, pg, fg, gr (grain), dr (drachm), oz (once), oz t (once troy),
 lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight), tonneau fr, ct
-the \"spinBox\" is set to **7,5** kg, average density of steel. If you want a different default value, change the value of the density, line 208 
+the \"spinBox\" is set to **7,5** kg, average density of steel. If you want a different default value, change the value of the density, line 208
 
-
+ 
 ```python
  global densite       ; densite       = 7.5  # (steel = 7.5 kg par dm3)
 ```
 
- A file can be created by the button **Save**. The file is written as a file [csv](https://fr.wikipedia.org/wiki/Comma-separated_values) in this way, the data can be studied in a spreadsheet in FreeCAD or Openoffice, LibreOffice\...
+A file can be created by the button **Save**. The file is written as a file [csv](https://fr.wikipedia.org/wiki/Comma-separated_values) in this way, the data can be studied in a spreadsheet in FreeCAD or OpenOffice, LibreOffice\...
 
 ## Script
 
@@ -211,7 +211,7 @@ Copy the contents of the macro in a file named \"FCInfo.FCMacro\"
 Or, directly in the interface of FreeCAD
 The icon must be in the same directory as the macro.
 Download image positioning on the icon <img alt="" src=images/FCInfo.png  style="width:64px;"> <img alt="" src=images/FCInfoSpreadsheet.png  style="width:64px;"> and then drag the mouse right click \"save as\" (do not change the name)
-  **PS: too long to be contained in the wiki page (for the time being the wiki pages accept only 64 KB) the macro code has been placed in the forum**
+  **PS: the code is too long to be contained in the wiki page (for the time being the wiki pages accept only 64 KB) the macro code has been placed in the forum**
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
@@ -221,7 +221,7 @@ There is also FCInfo\_Alternate\_Linux for only for FreeCAD version 0.13\... and
 
 <div class="mw-collapsible-content">
 
-There is also a [Macro\_FCInfo\_Alternate\_Linux](http://www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux) here the code is changed (due to the character display error : **² ³ ° μ** ordinal not in range (128)\") which posed problems in certain configurations the functions are the same
+There is also a [Macro\_FCInfo\_Alternate\_Linux](http://www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux). Here the code is changed (due to the character display error : **² ³ ° μ** ordinal not in range (128)\") which posed problems. In certain configurations the functions are the same
 Example : 
 ```python
 global uniteSs       ; uniteSs       = u"mm²"
@@ -242,20 +242,20 @@ global uniteAs       ; uniteAs       = iso8859(unichr(176))
 
 Download the icon file [Macro\_FCInfo\_Icon](https://forum.freecadweb.org/download/file.php?id=50755) unzip and copy the icon in the same directory of the macro
 
-Dwnload the macro file on gist **docked to right**
+Download the macro file on gist **docked to right**
 
 
-{{CodeDownload|https://gist.github.com/mario52a/8d40ab6c018c2bde678f|last version Macro_FCInfo and the icons at the end of the page}}
+{{CodeDownload|https://gist.github.com/mario52a/8d40ab6c018c2bde678f|last version Macro_FCInfo (the icons are at the end of the page)}}
 
-(Or **[On the forum.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=47748#p47748)** )
+(Or **[on the forum.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=47748#p47748)** )
 **PS:** this macro uses **getSelection()** and the list of object begin to 1 ex: for a box **Edge1 to Edge12** and the code in the console start at 0 ex: for a box **Edge\[0\] to Edge\[11\]**
-This is normal the counting on arrays/lists inside OpenCascade always starts at **1 and not at 0**  
+This is normal, the counting on arrays/lists inside OpenCascade always starts at **1 and not at 0**.  
 
 ### Limitations
 
-Always leave the button **Exit**. If one exits the program without going through the button **Exit** the program remains in memory and continues to run and the display will remain in the \"view report\". You must leave FreeCAD to erase it from memory.
-Only the first 200 elements of the object are visible in the table if there are more than 200 items in the object a signal will be displayed by \"\'(! +200)\" \'. The complete list of data is visible in the file saved by the button **Save**.
-If the window macro is invisible after the run , see the bottom window :
+Always leave the button **Exit**. If one exits the program without going through the button **Exit**, the program remains in memory and continues to run and the display will remain in the \"view report\". You must leave FreeCAD to erase it from memory.
+Only the first 200 elements of the object are visible in the table. If there are more than 200 items in the object, a signal will be displayed by **(! +200)**. The complete list of data is visible in the file saved by the button **Save**.
+If the window macro is invisible after the run, see the bottom window :
 
 ![](images/Macro_FCInfo_08.png )
 
@@ -264,12 +264,29 @@ If the window macro is invisible after the run , see the bottom window :
 project:
 ~~read the file directly in a table.~~ done
 ~~matches the \"Edges\" and their coordinates~~ done
-Association of a substance to its density
+~~Association of a substance to its density~~
 ~~inclination on the element rather than the global object~~ done
 ~~inlay right in the interface of FreeCAD~~ done
 
 ## Version
 
+-   ver 1.25c 12/12/2021 correct \"strAround((\" by \"str(Around(\" and other little \...
+-   ver 1.25b 11/12/2021 correction error in change/modify new material and reorganization
+-   ver 1.25 10/12/2021 PySide2 and add comboBox materials
+-   ver 1.24 02/12/2021 add [adjustedGlobalPlacement](https://forum.freecadweb.org/viewtopic.php?f=22&t=59852) modified by edwilliams16 for placement with Body, boundbox tracing
+-   ver 1.23cb 25/11/2021 delete **\"import Sketcher \* \"** create conflict with \"**open(OpenName, \"r\")**\" ??
+
+Adding  
+```python
+FreeCAD.ActiveDocument.openTransaction(u"FCInfo")    # memorise les actions (avec annuler restore)
+FreeCAD.ActiveDocument.commitTransaction()           # restore les actions  (avec annuler restore)
+#FreeCAD.ActiveDocument.abortTransaction()            # abandonne les actions(avec annuler restore)
+```
+
+-   ver 1.25d, 13/12/2021 little correction material field uncomment the \"\'try\...Except\" !!!
+-   ver 1.25c, 12/12/2021 little correction new material
+-   ver 1.23b, 20/11/2021 little correction, add text info in beginning run macro, and ordinal the text code
+-   ver 1.23 , 19/11/2021 include icon in macro, number decimal displayed, text height, configure options in the Preference FC, correct info for elements of sketch in edit mode.
 -   ver 1.22 , 12/11/2020 : now the macro is totally uninstalled i use :
 
  
@@ -325,7 +342,7 @@ In a Linux distribution and in the case of an error of **\"ordinal not in range 
 
 ## Links
 
-SeeAlso [Arch Survey](Arch_Survey.md) <img alt="Arch Survey" src=images/Arch_Survey.svg  style="width:36px;">
+See Also: <img alt="Arch Survey" src=images/Arch_Survey.svg  style="width:36px;"> [Arch Survey](Arch_Survey.md)
 
 You can share your comments on the forum [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 Here another post of [FCInfo Macro](http://forum.freecadweb.org/viewtopic.php?f=8&t=6005)

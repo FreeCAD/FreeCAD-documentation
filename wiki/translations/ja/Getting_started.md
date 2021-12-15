@@ -35,13 +35,7 @@ See also:
 
 ## インストール
 
-
-<div class="mw-translate-fuzzy">
-
-まず初めに（まだ済んでいなければですが）FreeCADをダウンロードしてインストールしてください。[ダウンロードページで現在のバージョンと更新を確認しましょう](Download.md)。インストールパッケージはWindows用（.msi）とUbuntuとDebian用（.deb）、openSUSE（rpm）とMac OSX用を用意しています。 See the [インストール](Installing/jp.md) page for information about how to install FreeCAD.
-
-
-</div>
+First of all, download and install FreeCAD. See the [Download](Download.md) page for information on current versions and updates, and the installation instructions for you operating system ([Windows](Installing_on_Windows.md), [Linux](Installing_on_Linux.md) or [Mac](Installing_on_Mac.md)). There are install packages ready for Windows (.msi), Debian and Ubuntu (.deb), openSUSE (.rpm), and Mac OSX. FreeCAD is available from the package managers of many other Linux distributions. A standalone [AppImage](AppImage.md) executable is also available, which will run on most recent 64-bit Linux systems. As FreeCAD is open-source, you can also grab the source code and [compile](Compiling.md) it yourself.
 
 
 <div class="mw-translate-fuzzy">
@@ -92,7 +86,7 @@ FreeCADは汎用の3Dモデリングアプリケーションです。機械工�
 
 </div>
 
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
+<img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -104,8 +98,6 @@ FreeCADは汎用の3Dモデリングアプリケーションです。機械工�
 
 ### 3次元空間での操作
 
-FreeCADは2つの異なる[操作モードを持っており](Mouse_Model/jp.md)、ユーザー設定ダイアログまたは3Dビューでの右クリックで変更できます。これらのモードの詳細については[マウスモデルのページを見てください](Mouse_Model/jp.md)。 デフォルトのモード(\"CAD操作モード\")ではコマンドは以下の通りです。
-
 
 <div class="mw-translate-fuzzy">
 
@@ -113,58 +105,6 @@ FreeCAD has several different [navigation modes](Mouse_Model.md) available, that
 
 
 </div>
-
-
-<div class="mw-translate-fuzzy">
-
-
-{{CAD Navigation/jp}}
-
-
-{{CAD Navigation
-|Select_name=Select
-|Pan_name=Pan
-|Zoom_name=Zoom
-|Rotate_view_name=Rotate view<br>First method
-|Rotate_view_alt_name=Rotate view<br>Alternate method
-|Ctrl=**Ctrl**
-|Shift=**Shift**
-|Select_text=Press the left mouse button over an object you want to select.
-
-Holding down **Ctrl** allows the selection of multiple objects.
-|Pan_text=Hold the middle mouse button, then move the pointer.
-|Pan_mode_text=Pan mode: hold the **Ctrl** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
-|Zoom_text=Use the mouse wheel to zoom in and out.
-
-Clicking the middle mouse button re-centers the view on the location of the cursor.
-|Zoom_mode_text=Zoom mode: hold the **Ctrl** and **Shift** keys, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
-|Rotate_view_text=Hold the middle mouse button, then press and hold the left mouse button, then move the pointer.
-
-The cursor location when the middle mouse button is pressed determines the center of rotation. Rotation works like spinning a ball which rotates around its center. If the buttons are released before you stop the mouse motion, the view continues [[spinning]], if this is enabled.
-
-A double click with the middle mouse button sets a new center of rotation.
-|Rotate_view_mode_text=Rotate mode: hold the **Shift** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
-|Rotate_view_alt_text=Hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
-
-With this method the middle mouse button may be released after the right mouse button is held pressed.
-
-Users who use the mouse with their right hand may find this method easier than the first method.
-}}
-
-
-</div>
-
-Holding down **Ctrl** allows the selection of multiple objects. \|Pan\_text=Hold the middle mouse button, then move the pointer. \|Pan\_mode\_text=Pan mode: hold the **Ctrl** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small>  \|Zoom\_text=Use the mouse wheel to zoom in and out.
-
-Clicking the middle mouse button re-centers the view on the location of the cursor. \|Zoom\_mode\_text=Zoom mode: hold the **Ctrl** and **Shift** keys, press the right mouse button once, then move the pointer. <small>(v0.17)</small>  \|Rotate\_view\_text=Hold the middle mouse button, then press and hold the left mouse button, then move the pointer.
-
-The cursor location when the middle mouse button is pressed determines the center of rotation. Rotation works like spinning a ball which rotates around its center. If the buttons are released before you stop the mouse motion, the view continues [spinning](spinning.md), if this is enabled.
-
-A double click with the middle mouse button sets a new center of rotation. \|Rotate\_view\_mode\_text=Rotate mode: hold the **Shift** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small>  \|Rotate\_view\_alt\_text=Hold the middle mouse button, then press and hold the right mouse button, then move the pointer.
-
-With this method the middle mouse button may be released after the right mouse button is held pressed.
-
-Users who use the mouse with their right hand may find this method easier than the first method. }}
 
 またViewメニュー、Viewツールバー、数値のショートカット（ **1** **2**など\...）からプリセットのビュー（トップビュー、フロントビューなど）が利用できます。
 
@@ -190,26 +130,6 @@ You can switch workbenches at any time, and also [customize](Interface_Customiza
 
 ## Working with the PartDesign and Sketcher workbenches 
 
-## ![](images/Workbench_Draft.png ) [2次元の製図](Draft_Module/jp.md) 
-
-
-{{Draft Tools/jp}}
-
-## ![](images/Workbench_Part.png ) [3Dパーツの作成](Part_Module/jp.md) 
-
-
-{{Part Tools/jp}}
-
-## [2D図面へのエクスポート](Drawing_Module/jp.md)
-
-
-{{Drawing Tools/jp}}
-
-## [外部レンダラーへのエクスポート](Raytracing_Module/jp.md)
-
-
-{{Raytracing Tools/jp}}
-
 The [PartDesign Workbench](PartDesign_Workbench.md) is made to build complex objects, starting from simple shapes, and adding or removing pieces (called \"features\"), until you get to your final object. All the features you applied during the modelling process are stored in a separate view called the [tree view](Document_structure.md), which also contains the other objects in your document. You can think of a PartDesign object as a succession of operations, each one applied to the result of the preceding one, forming one big chain. In the tree view, you see your final object, but you can expand it and retrieve all preceding states, and change any of their parameter, which automatically updates the final object.
 
 The PartDesign workbench makes heavy use of another workbench, the [Sketcher Workbench](Sketcher_Workbench.md). The sketcher allows you to draw 2D shapes, which are defined by applying Constraints to the 2D shape. For example, you might draw a rectangle and set the size of a side by applying a length constraint to one of the sides. That side then cannot be resized anymore (unless the constraint is changed).
@@ -228,7 +148,7 @@ Those 2D shapes made with the sketcher are used a lot in the PartDesign workbenc
 
 Which gives you an object like this:
 
-<img alt="" src=images/Partdesign_example.jpg  style="width:1024px;">
+<img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 At any moment, you can select the original sketches and modify them, or change the extrusion parameters of the pad or pocket operations, which will update the final object.
 
@@ -252,7 +172,7 @@ A typical workflow with Arch and Draft workbenches might be:
 
 これはあなたにこれを与える：
 
-<img alt="" src=images/Arch_workflow_example.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -265,12 +185,12 @@ A typical workflow with Arch and Draft workbenches might be:
 
 <div class="mw-translate-fuzzy">
 
-## [スクリプト](Scripting/jp.md)
+## [スクリプト](Scripting/ja.md)
 
 
 </div>
 
-Freecad, as an open source software, offers the possibility to supplement its workbenches with addons.
+FreeCAD, as an open source software, offers the possibility to supplement its workbenches with addons.
 
 The [Addon](Addon.md) principle is based on the development of a workbench complement. Any user can develop a function that he or she deems to be missing for her/his own needs or, ultimately, for the community. With the forum, the user can request an opinion, help on the forum. It can share, or not, the object of its development according to copyright rules to define. Free to her/him. To develop, the user has available [scripting](scripting.md) functions.
 
@@ -284,7 +204,7 @@ There are two types of addons:
 
 <div class="mw-translate-fuzzy">
 
-最後はFreeCADの最も強力な機能の一つ、[スクリプト環境です](scripting/jp.md) 。統合されたPythonコンソールから（あるいは他の外部のPythonスクリプトからでも）、FreeCADのほとんど全ての機能へアクセスできます。ジオメトリの作成や修正、3Dシーンでのオブジェクトの表示方法の変更、FreeCADインターフェースへのアクセスや変更が可能です。Pythonスクリプトはまた[マクロとしても使用され](macros/jp.md)、カスタムコマンドを簡単に作成することができます。
+最後はFreeCADの最も強力な機能の一つ、[スクリプト環境です](scripting/ja.md) 。統合されたPythonコンソールから（あるいは他の外部のPythonスクリプトからでも）、FreeCADのほとんど全ての機能へアクセスできます。ジオメトリの作成や修正、3Dシーンでのオブジェクトの表示方法の変更、FreeCADインターフェースへのアクセスや変更が可能です。Pythonスクリプトはまた[マクロとしても使用され](macros/ja.md)、カスタムコマンドを簡単に作成することができます。
 
 
 </div>
@@ -306,7 +226,7 @@ There are two types of addons:
 -   [Version 0.14 Release notes](Release_notes_0.14.md) : Check what\'s new in the 0.14 release of FreeCAD
 -   [Version 0.13 Release notes](Release_notes_0.13.md) : Check what\'s new in the 0.13 release of FreeCAD
 -   [Version 0.12 Release notes](Release_notes_0.12.md) : Check what\'s new in the 0.12 release of FreeCAD
--   [バージョン0.12リリースノート](Release_notes_0.12/jp.md) ： FreeCAD リリース 0.12 の新着情報をチェックしてください。
+-   [バージョン0.12リリースノート](Release_notes_0.12.md) ： FreeCAD リリース 0.12 の新着情報をチェックしてください。
 -   [Version 0.11 Release notes](Release_notes_0.11.md) : Check what\'s new in the 0.11 release of FreeCAD
 
 
@@ -316,7 +236,7 @@ There are two types of addons:
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/jp|Install on Mac/jp|Mouse Model/jp}}
+{{docnav/ja|Install on Mac/ja|Mouse Model/ja}}
 
 
 </div>

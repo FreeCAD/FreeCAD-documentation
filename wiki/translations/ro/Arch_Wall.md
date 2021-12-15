@@ -61,8 +61,8 @@ When several walls should intersect, you need to place them into a [floor](Arch_
 <div class="mw-translate-fuzzy">
 
 1.  Press the **<img src="images/Arch_Wall.png" width=16px> [[Arch Wall]]** button, or press **W** then **A** keys
-2.  Click a first point on the 3D view, or type a [coordinate](Draft_Coordinates.md)
-3.  Click a second point on the 3D view, or type a [coordinate](Draft_Coordinates.md)
+2.  Click a first point on the 3D view, or type a coordinate
+3.  Click a second point on the 3D view, or type a coordinate
 
 
 </div>

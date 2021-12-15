@@ -5,15 +5,11 @@
    MenuLocation:Entwurf → Bogen
    Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    Version:0.7
-   SeeAlso:[Entwurf Kreis](Draft_Circle/de.md), [Entwurf Ellipse](Draft_Ellipse/de.md)
    Shortcut:**A** **R**
-   SeeAlso:[Entwurf Kreis](Draft_Circle/de.md), [Entwurf Ellipse](Draft_Ellipse/de.md), [Entwurf Bogen 3Punkte](Draft_Arc_3Points/de.md)
+   SeeAlso:[Entwurf Bogen 3Punkte](Draft_Arc_3Points/de.md), [Entwurf Kreis](Draft_Circle/de.md)
 ---
 
 # Draft Arc/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -41,7 +37,7 @@ Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md)
 
 1.  Drücke den **<img src="images/Draft_Arc.svg" width=16px> [Bogen](Draft_Arc/de.md)
 ** Taste oder drücke **A**, dann **R**
-2.  Klicke einen ersten Punkt in der 3D Ansicht oder tippe eine [Koordinate](Draft_Coordinates/de.md) und drücke den **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** Taste.
+2.  Klicke einen ersten Punkt in der 3D Ansicht oder tippe eine Koordinate und drücke den **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Taste.
 3.  Klicke einen zweiten Punkt in der 3D Ansicht oder gib einen Wert für den Radius ein.
 4.  Klicke einen dritten Punkt in der 3D Ansicht oder gib einen Startwinkel ein.
 5.  Klicke einen vierten Punkt in der 3D Ansicht oder gib einen Öffnungswinkel ein.
@@ -61,7 +57,7 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen-Tastaturkürzel können geände
 -   Die primäre Anwendung des Kreisbogen-Werkzeugs erfolgt durch Auswahl von vier Punkten: dem Mittelpunkt, einem Punkt auf dem Umkreis, dem Startwinkel und dem Endpunkt.
 -   Durch Drücken von **Alt** kannst Du eine Tangente anstatt eines Punkts zur Definition des Basiskreises des Bogens auswählen. Du kannst deshalb verschiedene Kreisarten durch Auswahl von ein, zwei oder drei Tangenten erstellen.
 -   Die Richtung des Kreisbogens hängt von der Bewegung Deiner Maus ab. Wenn Du sie nach Eingabe des dritten Punkts im Uhrzeigersinn bewegst, wird auch der Kreisbogen im Uhrzeigersinn erstellt. Um ihn gegen den Uhrzeigersinn zu erstellen, bewege die Maus einfach zurück über den dritten Punkt, bis der Kreisbogen in die andere Richtung gezeichnet wird.
--   Um Koordinaten manuell einzugeben, gibt einfach die Ziffern ein, drücke dann **Enter** zwischen den X-, Y- und Z-Komponenten. Du kannst den **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)**-Button drücken, wenn Du die gewünschten Werte zum Einfügen des Punkts hast.
+-   Um Koordinaten manuell einzugeben, gibt einfach die Ziffern ein, drücke dann **Enter** zwischen den X-, Y- und Z-Komponenten. Du kannst den **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen**-Button drücken, wenn Du die gewünschten Werte zum Einfügen des Punkts hast.
 
 -   Drücke **T** oder klicke das Ankreuzkästchen zum de/aktivieren des **'''Nächstes'''**-Buttons. Wenn der Fortsetzungsmodus aktiviert ist, wird das Kreisbogen-Tool nach Beenden des Bogens neugestartet, um das Zeichnen eines weiteren ohne erneutes Drücken des Werkzeug-Buttons zu ermöglichen.
 -   Halte **Strg** während des Zeichnens, um das Einrasten Deines Punkts an der nächsten Einrastposition zu erzwingen, unabhängig vom Abstand.

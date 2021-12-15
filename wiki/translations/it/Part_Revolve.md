@@ -5,6 +5,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -49,10 +51,18 @@ Quando si seleziona un asse definito dall\'utente, i numeri definiscono la direz
 
 </div>
 
+## Notes
+
+
+<div class="mw-translate-fuzzy">
+
 ### Note
 
 -   Se la versione di FreeCAD ha la casella di controllo per Solid nella finestra di dialogo Revolve, è possibile creare dei solidi anche da Polilinee chiuse e da Bordi, Wires e Edges.
 -   Se la Rivoluzione viene eseguita utilizzando un asse che interseca la faccia da ruotare, e si desidera creare un solido, il risultato potrebbe non essere valido. Questo può accadere per diversi motivi, di auto-incrocio, direzione, etc.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

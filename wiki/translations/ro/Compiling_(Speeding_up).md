@@ -84,13 +84,7 @@ Distcc poate fi utilizat pentru compilarea distribuită în rețea.
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 

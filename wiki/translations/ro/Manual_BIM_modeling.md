@@ -1,10 +1,4 @@
 # Manual:BIM modeling/ro
-}
-
-
-
-
-
 {{Manual:TOC/ro}}
 
 BIM înseamnă [Building Information Modeling](https://en.wikipedia.org/wiki/Building_information_modeling). Definiția exactă a ceea ce este variază, dar putem spune pur și simplu că în prezent sunt modelate clădiri și alte structuri mari, cum ar fi poduri, tuneluri etc. Modelele BIM se bazează, de obicei, pe modele 3D și includ, de asemenea, o serie de informații suplimentare, cum ar fi informații despre materiale, relații cu alte obiecte sau modele sau instrucțiuni speciale pentru construirea sau întreținerea. Această informație suplimentară permite toate tipurile de analize avansate ale modelului, cum ar fi rezistența structurală, costurile și estimările timpului de construcție sau calculele consumului de energie.
@@ -218,7 +212,7 @@ We will now place some dimensions. Unlike the _, where we drew all the dimension
 
 -   Right-click the \"house\" document in the tree view, and create two new groups: **Plan dimensions** and **Elevation dimensions**.
 -   Set the [Working Plane](Draft_SelectPlane.md) to **XY** plane
--   Make sure the <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:16px;"> [restrict](Draft_WorkingPlane.md) snap location is turned on, so everything you draw stays on the working plane.
+-   Make sure the <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:16px;"> [restrict](Draft_Snap_WorkingPlane.md) snap location is turned on, so everything you draw stays on the working plane.
 -   Draw a couple of <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> [dimensions](Draft_Dimension.md), for example as on the image below. Pressing **Shift** and **Ctrl** while snapping the dimension points will give you additional options.
 
 

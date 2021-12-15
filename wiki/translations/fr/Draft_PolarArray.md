@@ -5,7 +5,7 @@
    MenuLocation:Modification → Array tools → Polar array
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Version:0.19
-   SeeAlso:[Draft Réseau orthogonal](Draft_OrthoArray.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Chemin pour série de copies](Draft_PathArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray.md), [Draft Matrice de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
+   SeeAlso:[Draft Réseau orthogonal](Draft_OrthoArray/fr.md), [Draft Réseau circulaire](Draft_CircularArray/fr.md), [Draft Réseau selon une courbe](Draft_PathArray/fr.md), [Draft Réseau lié selon une courbe](Draft_PathLinkArray/fr.md), [Draft Réseau de points](Draft_PointArray/fr.md), [Draft Réseau lié selon des points](Draft_PointLinkArray/fr.md)
 ---
 
 # Draft PolarArray/fr
@@ -21,7 +21,7 @@ Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier D
 
 ## Utilisation
 
-Voir aussi : [Draft Accrochage](Draft_Snap/fr.md).
+Voir aussi : [Draft Aimantation](Draft_Snap/fr.md).
 
 1.  Sélectionnez un objet au choix.
 2.  Il existe plusieurs façons d\'invoquer la commande :
@@ -40,10 +40,10 @@ Voir aussi : [Draft Accrochage](Draft_Snap/fr.md).
 -   Entrez l\'**Angle polaire** pour spécifier l\'angle total du réseau. L\'angle est positif dans le sens inverse des aiguilles d\'une montre.
 -   Entrez le **Nombre d'éléments**. Doit être au moins {{Value|2}}. Le maximum qui peut être saisi dans le panneau de tâches est {{Value|99}}, mais des valeurs plus élevées sont possibles en modifiant la propriété {{PropertyData/fr|Number Polar}} du réseau.
 -   Choisissez un point dans la [Vue 3D](3D_view/fr.md), notez que cela terminera également la commande ou rentrez des coordonnées pour le **Centre de rotation**. L\'axe de rotation du réseau passera par ce point. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   Appuyez sur le bouton **Reset point** pour réinitialiser le **Centre de rotation** à l\'origine.
+-   Appuyez sur le bouton **Réinitialiser le point** pour réinitialiser le **Centre de rotation** à l\'origine.
 -   Si la case **Union** est cochée, les éléments qui se chevauchent dans le réseau sont fusionnés. Cela ne fonctionne pas pour les réseaux de liens.
--   Si la case **Lier un réseau** est cochée, un réseau de liens est créé au lieu d\'un réseau régulier. Un réseau lié (Link) est plus efficace car ses éléments sont des objets [App Link](App_Link/fr.md).
--   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande en cours.
+-   Si la case **Réseau de liens** est cochée, un réseau de liens est créé au lieu d\'un réseau régulier. Un réseau de liens est plus efficace car ses éléments sont des objets [App Link](App_Link/fr.md).
+-   Appuyez sur **Échap** ou sur le bouton **Annuler** pour annuler la commande en cours.
 
 ## Remarques
 
@@ -67,7 +67,7 @@ Voir aussi: _.
 
 ### Réseau paramétrique 
 
-Pour créer un réseau orthogonal paramétrique, utilisez la méthode `make_array` ({{Version/fr|0.19}}) de l\'atelier Draft. Cette méthode remplace la méthode dépréciée `makeArray`. La méthode `make_array` peut créer des [Draft Réseaux orthogonaux](Draft_OrthoArray/fr.md), [Draft Réseaux polaires](Draft_PolarArray/fr.md) et [Draft Réseaux cirucalires](Draft_CircularArray/fr.md). Pour chaque type de réseau, un ou plusieurs wrappers sont disponibles.
+Pour créer un réseau orthogonal paramétrique, utilisez la méthode `make_array` ({{Version/fr|0.19}}) de l\'atelier Draft. Cette méthode remplace la méthode dépréciée `makeArray`. La méthode `make_array` peut créer des [Draft Réseaux orthogonaux](Draft_OrthoArray/fr.md), [Draft Réseaux polaires](Draft_PolarArray/fr.md) et [Draft Réseaux circulaires](Draft_CircularArray/fr.md). Pour chaque type de réseau, un ou plusieurs wrappers sont disponibles.
 
 La méthode principale :
 

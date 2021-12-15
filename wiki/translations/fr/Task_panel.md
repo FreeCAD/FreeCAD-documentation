@@ -9,13 +9,13 @@ Le [panneau de tâches](Task_panel/fr.md) apparaît dans l\'onglet **Tâches** d
 
 
 
-*Le panneau de tâches montrant diverses commandes lorsque l'[atelier PartDesign](PartDesign_Workbench/fr.md) est actif et qu'une [Esquisse (sketch)](Sketch/fr.md) est sélectionnée.*
+*Le panneau de tâches montrant diverses commandes lorsque l'[atelier PartDesign](PartDesign_Workbench/fr.md) est actif et qu'une [esquisse](Sketch/fr.md) est sélectionnée.*
 
 ## Travailler avec le panneau de tâches 
 
 Un panneau de tâches s\'ouvre normalement lorsqu\'un outil nécessitant une entrée de l\'utilisateur est activé, soit en appuyant sur un bouton de la barre d'outils ou en double-cliquant sur un objet. Si l\'outil n\'a pas besoin d\'entrée utilisateur, cela produira le résultat ou échouera, mais n\'affichera pas de panneau de tâches.
 
-L\'entrée utilisateur peut être un élément tel que du texte, des coordonnées de points 3D, certains éléments d\'une liste ou des faces d\'une forme, ou des options pour modifier le fonctionnement de l\'outil.
+L\'utilisateur peut entrer n\'importe quoi, par exemple du texte, des coordonnées de points 3D, des éléments d\'une liste, des faces d\'une forme ou des options pour modifier le fonctionnement de l\'outil.
 
 ![](images/FreeCAD_Combo_view_Task_panel_Sketcher.png )
 
@@ -23,7 +23,7 @@ L\'entrée utilisateur peut être un élément tel que du texte, des coordonnée
 
 *Panneau de tâches qui s'ouvre lors de la modification d'une [esquisse](Sketch/fr.md). Différents types d'informations sont présentés, tels que les messages du solveur, les options de la grille, les contraintes et les éléments géométriques.*
 
-De nombreuses commandes nécessitent la sélection de formes ou d\'objets présents dans le document. dans ce cas, le panneau de tâches attend que l\'utilisateur sélectionne les objets appropriés dans la [vue arborescente](tree_view/fr.md) ou la [vue 3D](3D_view/fr.md). Lorsqu\'un panneau des tâches est ouvert, il est possible de passer à l\'onglet **Modèle** pour afficher la [vue arborescente](Tree_view/fr.md) afin de choisir un objet. Une fois cette opération effectuée, il est possible de revenir à l\'onglet **Tâches** pour poursuivre la commande. Le panneau des tâches est généralement fermé en cliquant sur le bouton **OK**, ou le bouton **Fermer**, ou en appuyant sur la touche **Echap** du clavier pour annuler la commande.
+De nombreuses commandes requièrent la sélection de formes ou d\'objets présents dans le document ; dans ce cas, le panneau de tâches attendra que l\'utilisateur sélectionne les objets appropriés dans la [vue arborescente](tree_view/fr.md) ou la [vue 3D](3D_view/fr.md). Lorsqu\'un panneau de tâches est ouvert, il est possible de passer à l\'onglet **Modèle** pour afficher la [vue arborescente](Tree_view/fr.md) afin de choisir un objet ; une fois cela fait, il est possible de repasser à l\'onglet **Tâches** pour poursuivre la commande. Le panneau des tâches est généralement fermé en cliquant sur un bouton **OK** ou **Fermer**, ou en appuyant sur la touche **Échap** du clavier pour annuler la commande.
 
 ![](images/FreeCAD_Combo_view_Task_panel_ArchComponent.png )
 
@@ -35,7 +35,7 @@ De nombreuses commandes nécessitent la sélection de formes ou d\'objets prése
 
 ## Remarques
 
--   Les utilisateurs migrant depuis d\'autres solutions de CAO qui utilisent la touche **Echap** dans le cadre de leur flux de travail peuvent obtenir des résultats différents dans FreeCAD. Lorsque **Echap** est pressé dans FC si le panneau des tâches est en cours d\'exécution, le panneau des tâches sera automatiquement fermé. Pour désactiver cette fonctionnalité, veuillez consulter [Touche d\'échappement](Fine-tuning/fr#Touche_d.27.C3.A9chappement.md).
+-   Les utilisateurs migrant depuis d\'autres solutions de CAO qui utilisent la touche **Echap** dans le cadre de leur flux de travail peuvent obtenir des résultats différents dans FreeCAD. Lorsque **Echap** est pressé dans FC si le panneau des tâches est en cours d\'exécution, le panneau des tâches sera automatiquement fermé. Pour désactiver cette fonctionnalité, veuillez consulter [Touche Echap](Fine-tuning/fr#Touche_Echap.md).
 
 ## Script
 

@@ -14,7 +14,7 @@ myObj.Placement = pl
 ```
 
 
-{{APIClass/es|Placement| ) o (Placement) o (Matrix) o (Base, Rotation) o (Base,Rotation,Center) o (Base,Axis,Angle|Construye una ubicación, vacía o con los argumentos dados, o como una copia de la ubicación dada.}}
+{{APIClass|Placement| ) o (Placement) o (Matrix) o (Base, Rotation) o (Base,Rotation,Center) o (Base,Axis,Angle|Construye una ubicación, vacía o con los argumentos dados, o como una copia de la ubicación dada.}}
 
 
 {{APIProperty/es|Base|Un vector representando la posición de la Ubicación.}}

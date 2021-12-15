@@ -35,7 +35,7 @@ Crea una **linea di riferimento** che può essere utilizzata come riferimento pe
 
 <div class="mw-translate-fuzzy">
 
-Fare doppio clic sull\'etichetta DatumLine nell\'albero del modello o fare clic con il tasto destro e selezionare **Modifica il riferimento** nel menu contestuale per modificarne i parametri. Per ulteriori dettagli sulla modalità e l\'offset di associazione, vedere [Associazione](Part_Attachment/it.md).
+Fare doppio clic sull\'etichetta DatumLine nell\'albero del modello o fare clic con il tasto destro e selezionare **Modifica il riferimento** nel menu contestuale per modificarne i parametri. Per ulteriori dettagli sulla modalità e l\'offset di associazione, vedere [Associazione](Part_EditAttachment/it.md).
 
 
 </div>

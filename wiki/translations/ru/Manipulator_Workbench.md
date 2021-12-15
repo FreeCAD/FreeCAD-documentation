@@ -23,22 +23,23 @@ Each Tool has a **Help Button** ![](images/Help-btn.png ) to get some useful tip
 
 ## Ссылки
 
--   Author: Github: [\@easyw](https://github.com/easyw) \| FreeCAD Forums: [easyw-fc](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=6387)
+-   Author on github: [\@easyw](https://github.com/easyw)
+-   FreeCAD Forums: [easyw-fc](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=6387)
 -   Source code on github: <https://github.com/easyw/Manipulator>
 -   Forum announcements/discussion: <https://forum.freecadweb.org/viewtopic.php?t=24742>
 
 ## Tutorial
 
-_
+<img alt="Title Manipulator-WB-\@Work" src=images/Manipulator-WB-@Work.png  style="width:1024px;">
 
 
 
-*align=center|YouTube Tutorial [https://youtu.be/owGzsd1fyZc Manipulator WorkBench @Work]*
+*YouTube Tutorial [https://youtu.be/owGzsd1fyZc Manipulator WorkBench @Work]*
 
 ## Инструменты
 
 ![](images/Manipulator-WB-Tools.png ) 
-*center=align|Above: Manipulator workbench dialog. For a more detailed description see [https://github.com/easyw/Manipulator/blob/master/README.md README.md] on Github.*
+*Above: Manipulator workbench dialog. For a more detailed description see [https://github.com/easyw/Manipulator/blob/master/README.md README.md] on Github.*
 
 ### Aligner
 
@@ -81,7 +82,7 @@ _
 
 ### Automatic Installation 
 
-The recommended way to install the Manipulator Workbench is via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) under the **Tools → Addon Manager** menu.
+The recommended way to install the Manipulator Workbench is via the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) under the **Tools → Addon Manager** menu.
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:600px">

@@ -95,7 +95,8 @@ Finally, removing something is done with:
 sg.removeChild(myCustomNode)
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Callbacks
 
@@ -121,9 +122,7 @@ class ButtonTest:
 ButtonTest()
 ```
 
-The callback has to be initiated from an object, because that object must still be running when the callback occurs. See also a [complete list](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md) of possible events and their parameters, or the official Coin documentation.
-
-[top](#top.md)
+The callback has to be initiated from an object, because that object must still be running when the callback occurs. See also a [complete list](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md) of possible events and their parameters, or the official Coin documentation. {{Top}}
 
 ## Documentation
 
@@ -157,12 +156,16 @@ These links provide reference documentation for Coin v3.x. The differences with 
 -   [Coin3D Documentation](https://grey.colorado.edu/coin3d/index.html), at University of Colorado.
 -   [Open Inventor Reference Documentation](https://mevislabdownloads.mevis.de/docs/current/MeVis/ThirdParty/Documentation/Publish/OpenInventorReference/index.html), by MeVisLab.
 
-[top](#top.md)
+
+{{Top}}
+
+
+
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

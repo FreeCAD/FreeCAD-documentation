@@ -22,6 +22,8 @@ Diese Methode fängt den Mittelpunkt von Linien oder Kanten von Elmenten ein.
 
 </div>
 
+In FreeCAD version 0.19 this snap option only works for straight and circular edges.
+
 ![](images/Draft_Snap_Midpoint_example.png )
 
 
@@ -42,7 +44,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 <div class="mw-translate-fuzzy">
 
 1.  
-    **<img src="images/Snap_Lock.svg" width=16px> [Umschalten ein/aus](Draft_ToggleSnap/de.md)**und **<img src="images/Snap_Midpoint.svg" width=16px> [Mittelpunkt](Draft_Midpoint/de.md)** einschalten.
+    **<img src="images/Draft_Snap_Lock.svg" width=16px> [Umschalten ein/aus](Draft_Snap_Lock/de.md)**und **<img src="images/Draft_Snap_Midpoint.svg" width=16px> [Mittelpunkt](Draft_Snap_Midpoint/de.md)** einschalten.
 
 2.  Wähle ein Draftwerkzeug zum Zeichnen einer Form.
 
@@ -58,15 +60,6 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 ## Preferences
 
 See [Draft Snap](Draft_Snap#Preferences.md).
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Midpoint/de

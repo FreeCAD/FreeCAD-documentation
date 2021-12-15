@@ -21,16 +21,16 @@ Insère un **Balayage additif** dans un Corps actif par balayage d\'une ou plusi
 
 L\'exemple d\'image ci-dessus montre deux formes de section transversale différentes. Le texte ci-dessous décrit la procédure avec une seule forme. Cela permettra d\'obtenir une pièce avec la même section transversale le long de la trajectoire.
 
-1.  Créez deux esquisses distinctes.
-    -   une pour le chemin, par exemple deux lignes reliées par une courbe comme dans l\'image ci-dessus
-    -   une pour la forme de la section, par ex. un cercle comme première forme dans l\'image ci-dessus
-2.  **Arrangez** les deux formes en 3D correctement. Il est recommandé de placer l\'origine de la section transversale sur la ligne du chemin. Les deux esquisses doivent dans la plupart des cas être **orthogonales**. Cela peut être fait avec la fonction \'Map Mode\' (permet de rendre les deux esquisses visibles avec **Espace**. Sélectionnez l\'esquisse en coupe. Sélectionnez Properties/DataTab/MapMode. Cliquez le bouton droit **...** .Dans la boîte de dialogue des pièces jointes, sélectionnez un sommet de la esquisse du chemin et sélectionnez le mode correct pour aligner correctement les deux esquisses).
-3.  Presser le bouton **<img src="images/PartDesign_AdditivePipe.svg" width=24px> [Balayer une esquisse sélectionnée...](PartDesign_AdditivePipe/fr.md)**.
-4.  Dans la boite de dialogue **Select feature** comme section de départ et cliquer**OK**.
-    -   Alternative, l\'esquisse de section peut être sélectionnée avant d\'appuyer sur le bouton Balayer une esquisse sélectionnée\... Dans ce cas, vous n\'aurez pas de boîte de dialogue \"Sélectionner une fonction\".
-5.  Dans les **Paramètres de balayage** sous **Chemin le long duquel efectuer le balayge**, cliquez sur le bouton **Objet**.
-6.  Sélectionnez l\'esquisse à utiliser comme chemin dans la vue 3D. Dans ce cas, l\'esquisse entière sera utilisée comme chemin.
-    -   Alternative, vous pouvez également sélectionner des arêtes uniques de l\'esquisse en appuyant sur **Ajouter une arête** et en sélectionnant des arêtes dans la vue 3D. Notez que vous devez appuyer à nouveau sur **Ajouter une arête** pour chaque bord. Vous devez sélectionner une ligne continue sans branches.
+1.  Créez deux esquisses séparées ;
+    -   une pour la trajectoire, par exemple deux lignes reliées par une courbe comme dans l\'image ci-dessus,
+    -   une pour la forme de la section transversale, par exemple un cercle comme la première forme dans l\'image ci-dessus. Au lieu d\'une esquisse, on peut aussi utiliser la face d\'un objet 3D. ({{Version/fr|0.20}})
+2.  **Arrangez** les deux formes en 3D correctement. Il est recommandé de placer l\'origine de la section transversale sur la ligne de la trajectoire. Les deux esquisses devraient dans la plupart des cas être **orthogonales**. Ceci peut être fait avec la fonction \'Map Mode\' (rendez les deux esquisses visibles avec **Espace**. Sélectionnez l\'esquisse de coupe transversale. Sélectionnez Properties/DataTab/MapMode. Cliquez sur le bouton **...** qui apparaît sur le côté droit. Dans la boîte de dialogue d\'attachement, sélectionnez un sommet de l\'esquisse de trajectoire et sélectionnez le mode correct pour que les deux esquisses soient correctement alignées).
+3.  Appuyez sur le bouton **<img src="images/PartDesign_AdditivePipe.svg" width=24px> [Balayage additif](PartDesign_AdditivePipe/fr.md)**.
+4.  Dans la boîte de dialogue **Sélectionner un élément**, sélectionnez une section d\'esquisse à utiliser et cliquez sur **OK**.
+    -   Vous pouvez également sélectionner une esquisse ou une face d\'un objet 3D ({{Version/fr|0.20}}) avant d\'appuyer sur le bouton Additive pipe. Dans ce cas, vous n\'obtiendrez pas de boîte de dialogue \"Select feature\".
+5.  Dans les **Paramètres de balayage**, sous **Chemin le long duquel effectuer le balayage**, appuyez sur le bouton **Objet**.
+6.  Sélectionnez l\'esquisse à utiliser comme trajectoire dans la vue 3D. Dans ce cas, l\'esquisse entière sera utilisée comme trajectoire.
+    -   Vous pouvez également sélectionner des arêtes individuelles de l\'esquisse en appuyant sur **Ajouter une arête** et en sélectionnant des arêtes dans la vue 3D. Notez que vous devez appuyer à nouveau sur **Ajouter une arête** pour chaque arête. Vous devez sélectionner une ligne continue, sans branches.
 7.  Les autres paramètres devraient fonctionner avec les paramètres par défaut dans la plupart des cas.
 8.  Cliquez sur **OK**.
 
@@ -68,35 +68,36 @@ Pour utiliser plusieurs sections, commencez par la section comme décrit ci-dess
 
 ## Propriétés
 
--    {{PropertyData/fr|Label}}: Donne le nom de l\'opération, changer si nécessaire.
+-    **Label**: Donne le nom de l\'opération, changer si nécessaire.
 
--    {{PropertyData/fr|Refine}}: Vrai ou faux. Si \"Vrai\", les arêtes résiduelles sont lissées. Voir [Affiner la forme](Part_RefineShape/fr.md) pour plus de détails.
+-    **Refine**: Vrai ou faux. Si \"Vrai\", les arêtes résiduelles sont lissées. Voir [Affiner la forme](Part_RefineShape/fr.md) pour plus de détails.
 
--    {{PropertyData/fr|Sections}}: liste les esquisses de section utilisées.
+-    **Sections**: liste les esquisses de section utilisées.
 
--    {{PropertyData/fr|Spine Tangent}}: Vrai ou faux (défaut). \"Vrai\" étend le chemin aux arêtes tangentes.
+-    **Spine Tangent**: Vrai ou faux (défaut). \"Vrai\" étend le chemin aux arêtes tangentes.
 
--    {{PropertyData/fr|Auxiliary Spine Tangent}}: Vrai ou faux (défaut). \"Vrai\" étend le chemin aux arêtes tangentes auxiliaires.
+-    **Auxiliary Spine Tangent**: Vrai ou faux (défaut). \"Vrai\" étend le chemin aux arêtes tangentes auxiliaires.
 
--    {{PropertyData/fr|Auxiliary Curvelinear}}: Vrai ou faux (défaut). \"Vrai\" calcule la normale entre les points équidistants sur les deux courbes dorsales.
+-    **Auxiliary Curvelinear**: Vrai ou faux (défaut). \"Vrai\" calcule la normale entre les points équidistants sur les deux courbes dorsales.
 
--    {{PropertyData/fr|Mode}}: mode profil. Voir [Options](#Options.md).
+-    **Mode**: mode profil. Voir [Options](#Options.md).
 
--    {{PropertyData/fr|Binormal}}: vecteur de la binormale pour le mode d\'orientation correspondant.
+-    **Binormal**: vecteur de la binormale pour le mode d\'orientation correspondant.
 
--    {{PropertyData/fr|Transition}}: mode de transition. Les options sont \"Transformé\", \"Coin droit\" ou \"Coin arrondi\".
+-    **Transition**: mode de transition. Les options sont \"Transformé\", \"Coin droit\" ou \"Coin arrondi\".
 
--    {{PropertyData/fr|Transformation}}: \"Constant \" utilise une section unique. \"Sections multiples\" utilise deux ou plusieurs sections transversales. \"Linear\", \"S-shape\" et \"Interpolation\" ne sont actuellement pas fonctionnels.
+-    **Transformation**: \"Constant \" utilise une section unique. \"Sections multiples\" utilise deux ou plusieurs sections transversales. \"Linear\", \"S-shape\" et \"Interpolation\" ne sont actuellement pas fonctionnels.
 
-## Limites
+## Remarques
 
--   Les esquisses utilisées pour les sections transversales doivent être toutes fermées.
--   Le parcours ne peut provenir que d\'une seule esquisse, fonction ou d\'une forme liée. Si vous souhaitez balayer plusieurs arêtes à partir de différentes esquisses, utilisez une **<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [PartDesign Sous-forme liée](PartDesign_SubShapeBinder/fr.md)**.
--   Le chemin ne doit pas contenir de branches ou de jonctions en T, etc. Les boucles sont autorisées.
--   Il n\'est pas possible d\'utiliser un sommet comme section transversale.
--   Cela peut entraîner des problèmes si la section transversale n\'est pas perpendiculaire au tracé en 3D (certains autres systèmes de CAO considèrent l\'origine de la section transversale comme le chemin et ne nécessitent pas de placer cette esquisse explicitement).
--   Une section ne peut pas être sur le même plan que celle qui la précède.
--   Pour un meilleur résultat sur le lissage, il est recommandé que toutes les sections aient le même nombres de segments. Par exemple, pour un balayage entre un rectangle et un cercle, le cercle peut être divisé en 4 arcs connectés.
+-   Pour mieux contrôler la forme du tuyau, il est recommandé que toutes les sections transversales aient le même nombre de segments. Par exemple, pour un tuyau entre un rectangle et un cercle, le cercle doit être décomposé en 4 arcs connectés.
+-   Vous pouvez créer un tuyau à partir ou en direction d\'un seul [vertex (ou point)](Glossary/fr#V.md) d\'une esquisse ou du corps. {{Version/fr|0.20}}
+-   Lorsque vous sélectionnez un [vertex](Glossary/fr#V.md) comme section, il doit s\'agir de la dernière section du tuyau. Sinon, le corps du tuyau serait constitué de deux solides reliés en un seul point. Cela violerait la définition d\'un objet 3D du noyau de CAO. Vous pouvez modifier l\'ordre des sections en les faisant glisser dans la liste.
+-   La trajectoire ne peut provenir que d\'une seule esquisse, d\'une seule caractéristique ou d\'un seul ShapeBinder. Si vous souhaitez balayer plusieurs arêtes provenant de différentes esquisses, utilisez un **<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [PartDesign Sous-forme liée](PartDesign_SubShapeBinder/fr.md)**.
+-   La trajectoire ne doit pas contenir de branches ou de jonctions en T, etc. Les boucles sont autorisées.
+-   Il peut y avoir des problèmes si la section transversale n\'est pas perpendiculaire à la trajectoire en 3D.
+-   Une section transversale ne peut pas se trouver sur le même plan que celle qui la précède immédiatement.
+-   Les sections transversales ne doivent pas contenir de boucles disjointes ou croisées.
 
 
 

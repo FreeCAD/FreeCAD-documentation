@@ -41,8 +41,8 @@ Ver también: [Bandeja Borrador](Draft_Tray/es.md), [Borrador Atrapar](Draft_Sna
     -   Pulsar el **<img src="images/Draft_BezCurve.svg" width=16px> [Borrador BezCurve](Draft_BezCurve/es.md)**.
     -   Seleccione la opción **Borrador → Herramientas Bézier → <img src="images/Draft_BezCurve.svg" width=16px> Curva Bézier** en el menú.
 2.  Se abre el panel de tareas **Curva Bézier**. Ver [Opciones](#Opciones.md) para más información.
-3.  Escoge el primer punto en la [Vista 3D](3D_view/es.md), o escribe las coordenadas y pulsa el **<img src="images/Borrador_AddPoint.svg" width=16px> Introducir punto** botón.
-4.  Escoge puntos adicionales en la [Vista 3D](3D_view/es.md), o escribe las coordenadas y pulsa el **<img src="images/Borrador_AddPoint.svg" width=16px> Introducir punto** botón.
+3.  Escoge el primer punto en la [Vista 3D](3D_view/es.md), o escribe las coordenadas y pulsa el **<img src="images/Draft_AddPoint.svg" width=16px> Introducir punto** botón.
+4.  Escoge puntos adicionales en la [Vista 3D](3D_view/es.md), o escribe las coordenadas y pulsa el **<img src="images/Draft_AddPoint.svg" width=16px> Introducir punto** botón.
 5.  Pulse **Esc** o el botón **Cerrar** para finalizar el comando.
 
 

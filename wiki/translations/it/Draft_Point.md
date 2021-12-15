@@ -5,7 +5,6 @@
    Workbenches:[Draft](Draft_Workbench/it.md), [Architettura](Arch_Workbench/it.md)
    MenuLocation:Draft →  Punto
    Shortcut:**P** **T**
-   SeeAlso:[Aggiungi punto](Draft_AddPoint/it.md), [Linea](Draft_Line/it.md), [Polilinea](Draft_Wire/it.md)
    Version:0.7
 ---
 
@@ -35,7 +34,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Premere il pulsante **<img src="images/Draft_Point.svg" width=16px> Punto
 **, o premere i tasti **P** e **T**
-2.  Selezionare un punto nella vista 3D, oppure digitare le sue [coordinate ](Draft_Coordinates/it.md) e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**.
+2.  Selezionare un punto nella vista 3D, oppure digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
 
 
 </div>
@@ -47,7 +46,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 <div class="mw-translate-fuzzy">
 
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z.. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [Inserisci punto](Draft_AddPoint/it.md)** quando si hanno i valori desiderati per inserire il punto.
+-   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z.. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
 -   Premere il tasto **T** o fare clic sulla casella di controllo per attivare la modalità *continua*. Se la modalità continua è attiva, lo strumento punto viene riavviato dopo aver posizionato un punto, consentendo di posizionarne un altro senza premere nuovamente il pulsante dello strumento.
 -   Premere il tasto **Esc** o il pulsante {{button|Chiudi}} per interrompere il comando corrente.
 

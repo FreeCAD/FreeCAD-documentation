@@ -31,7 +31,7 @@ Du wirst üben:
 1\. Öffne FreeCAD, erstelle ein neues leeres Dokument mit **Datei → <img src=images/Std_New.svg style="width:16px"> [Neu](Std_New/de.md)**, und wechsle zum [Part Arbeitsbereich](Part_Workbench/de.md).
 
 :   1.1. Drücke die **<img src=images/Std_ViewIsometric.svg style="width:16px"> [Isometrische Ansicht](Std_ViewIsometric/de.md)** Schaltfläche oder drücke **0** auf dem Ziffernblock deiner Tastatur, um die Ansicht auf isometrisch zu ändern und die 3D Volumenkörper besser zu visualisieren.
-:   1.2. Drücke die **<img src=images/Std_ViewFitAll.svg style="width:16px"> [Ansicht alles einpassen](Std_ViewFitAll/de.md)** Schaltfläche wann immer du Objekte zum Schwenken und Zoomen der [3D Ansicht](3D_View/de.md) hinzufügst, so dass alle Elemente in der Ansicht zu sehen sind.
+:   1.2. Drücke die **<img src=images/Std_ViewFitAll.svg style="width:16px"> [Ansicht alles einpassen](Std_ViewFitAll/de.md)** Schaltfläche wann immer du Objekte zum Schwenken und Zoomen der [3D Ansicht](3D_view/de.md) hinzufügst, so dass alle Elemente in der Ansicht zu sehen sind.
 :   1.3. Halte **Strg** gedrückt, währen du klickst, um mehrere Elemente auszuwählen. Wenn du etwas falsch ausgewählt hast oder die Auswahl aufheben möchtest, klicke einfach auf eine leere Stelle in der [3D Ansicht](3D_view/de.md).
 
 ## Einfügen von Grundelementwürfeln 

@@ -31,7 +31,7 @@ L\'outil de balayage est similaire à l\'outil <img alt="" src=images/Part_Loft.
 
 -   **Profils** : peuvent être un point (sommet), ligne (Arête), filaire ou une face. Arêtes et filaires peuvent être soit ouverts ou fermés. Il existe différentes _, voir ci-dessous. Cependant, les profils peuvent provenir des primitives de l\'atelier Part, de fonctions de l\'atelier Draft et d\'esquisses.
 
--   **Chemin** : peut être une ligne (Arête) ou une série de lignes de connexion, filaire ou différentes primitives de l\'atelier Part (Pièce), une représentation de l\'atelier Draft (planche à dessin) ou un Sketch(esquisse). Le chemin est souvent sélectionné directement depuis la fenêtre du modèle principal, mais il peut aussi être choisi parmi la _ pourrait être choisi comme chemin). Le chemin peut être ouvert ou fermé et créer ainsi un balayage soit ouvert ou fermée. Un chemin fermé tel que la partie d\'un cercle se traduira par un balayage fermé. Par exemple, un balayage d\'un petit cercle autour d\'un chemin d\'un cercle plus large va créer un tore.
+-   **Chemin** : peut être une ligne (Arête) ou une série de lignes de connexion, filaire ou différentes primitives de l\'atelier Part, une fonction de l\'atelier Draft ou un esquisse. Le chemin est souvent sélectionné directement depuis la fenêtre du modèle principal, mais il peut aussi être choisi parmi la _ pourrait être choisi comme chemin). Le chemin peut être ouvert ou fermé et créer ainsi un balayage soit ouvert ou fermée. Un chemin fermé tel que la partie d\'un cercle se traduira par un balayage fermé. Par exemple, un balayage d\'un petit cercle autour d\'un chemin d\'un cercle plus large va créer un tore.
 
 ## Propriétés
 

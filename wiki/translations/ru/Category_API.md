@@ -10,4 +10,4 @@ This category gathers article that list objects and methods available to the pyt
 _
 
 ---
-[documentation index](../README.md) > Category:API/ru
+[documentation index](../README.md) > [API](Category_API.md) > Category:API/ru

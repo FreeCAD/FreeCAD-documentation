@@ -1,38 +1,24 @@
 # Raytracing project/fr
 **
-This roadmap is probably obsolete. For more information see [Development roadmap](Development_roadmap.md).<br>
-If you are not involved with the development discussed here:<br>
-!!! PLEASE DO NOT EDIT OR TRANSLATE !!!
+Ce plan de développement est probablement obsolète. Pour plus d'informations, voir [Plan de développement](Development_roadmap/fr.md).<br>
+Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
+!!! S'IL VOUS PLAÎT, NE MODIFIEZ PAS ET NE TRADUISEZ PAS !!!
 **
-
-
-<div class="mw-translate-fuzzy">
 
 
 **(2020) Cette page fait référence à une tentative de mise à jour de l'[Atelier Raytracing](Raytracing_Workbench/fr.md), proposé vers 2012. Son auteur d'origine n'ayant jamais terminé la mise en œuvre, ces informations sont obsolètes et ne doivent pas être considérées comme actuelles.
-</div>
 
-<div class="mw-translate-fuzzy">
 Un nouveau développement est en cours dans l'[https://github.com/FreeCAD/FreeCAD-render Atelier Render], un remplacement complet en Python pour l'[Atelier Raytracing](Raytracing_Workbench/fr.md).
 **
-
-
-</div>
 
 
 {{TOCright}}
 
 Ce projet est le développement de **FreeCAD Raytracing**. Il suit les règles de la _.
 
-
-<div class="mw-translate-fuzzy">
-
 ## Buts et principes 
 
 Ce projet vise à mettre à jour le [module de rendu](Raytracing_Workbench/fr.md) en cours, qui est actuellement utilisé par [povray](http://www.povray.org/), un moteur de rendu partiel qui donne des résultats satisfaisants, et, permettre l\'utilisation d\'un moteur de rendu plus moderne tel que [Lux Render](http://www.luxrender.net/en_GB/index), [Yafaray](http://www.yafaray.org/), [Indigo](http://www.indigorenderer.com/).
-
-
-</div>
 
 Également fournir une interface générique, pour permettre des rendus de fonds (profondeur de champ) multiples, pour être utilisé, pour la visualisation des caractéristiques au sein de FreeCAD. Fournir une interface de programmation plus générique, pour permettre une création de plugins de rendu plus facile.
 

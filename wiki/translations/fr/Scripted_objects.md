@@ -1067,6 +1067,9 @@ Fils de discussion intéressants sur les objets scriptés:
 En plus de ces exemples, vous pouvez voir dans le code source de FreeCAD [src/Mod/TemplatePyMod/FeaturePython.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py) pour plus d\'exemples.
 
 
+
+
+
 {{Powerdocnavi
 
 }}

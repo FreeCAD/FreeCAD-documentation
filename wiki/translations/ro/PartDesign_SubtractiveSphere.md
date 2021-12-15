@@ -23,7 +23,7 @@ Inserează o sferă substractivă în Corpul activ. forma sa este scăzută din 
 <div class="mw-translate-fuzzy">
 
 1.  Apăsați butonul **<img src="images/PartDesign_SubtractiveSphere.png" width=24px> '''Subtractive Sphere'''** . **Notă**: Sfera Substractivă este partea meniului de iconițe numit *Create an additive primitive*. După lansarea FreeCAD, și Cubul Substractiv apare în bara de sintrumetne. Pentru a ajunge la Sferă click pe săgeata în dincolo de iconițele vizibile și selectați <img alt="" src=images/PartDesign_SubtractiveSphere.png  style="width:24px;"> Subtractive Sphere din menu.
-2.  Definiți parametrii Primitivei și [Attachment](Part_Attachment.md).
+2.  Definiți parametrii Primitivei și [Attachment](Part_EditAttachment.md).
 3.  Click **OK**.
 4.  O funcționalitate sferă apare sub Corpul activ
 
@@ -48,7 +48,7 @@ The Sphere can be edited after its creation in two ways:
 
 <div class="mw-translate-fuzzy">
 
--    **Attachment**: definește modul attachment la fel de bine ca și Attachment Offset. Vezi[Part Attachment](Part_Attachment.md).
+-    **Attachment**: definește modul attachment la fel de bine ca și Attachment Offset. Vezi[Part EditAttachment](Part_EditAttachment.md).
 
 -    **Label**: Etichetă/nume dat obiectului Sphere. Modificați dacă vă este necesar cu nevoile dvs.
 

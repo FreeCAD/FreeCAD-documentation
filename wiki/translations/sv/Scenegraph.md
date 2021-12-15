@@ -121,7 +121,9 @@ Men det finns många fördelar med att kunna komma åt scengrafen direkt. Vi kan
 
 </div>
 
-Själva FreeCAD har flera verktyg för att se eller ändra openInventor kod. Till exempel, följande pythonkod kommer att visa openInventor representationen av ett valt objekt: 
+Själva FreeCAD har flera verktyg för att se eller ändra openInventor kod. Till exempel, följande pythonkod kommer att visa openInventor representationen av ett valt objekt:
+
+
 ```python
 obj = FreeCAD.ActiveDocument.ActiveObject
 viewprovider = obj.ViewObject
@@ -139,14 +141,21 @@ Men vi har också en python modul som tillåter komplett åtkomst till allt som 
 
 ## Coding examples 
 
-See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository of said examples can be found at <https://github.com/MariwanJ/COIN3D_Examples>.
+See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository of said examples can be found at <https://github.com/MariwanJ/COIN3D_Examples>. {{Top}}
 
-[top](#top.md)
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/sv|Mesh to Part/sv|Pivy/sv}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _
 

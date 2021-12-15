@@ -22,7 +22,7 @@ Esta herramienta dibuja una elipse eligiendo tres puntos: el centro, el extremo 
 
 ## Utilización
 
--   Invoca el comando haciendo clic en un botón de la barra de herramientas, eligiendo el elemento del menú, o utilizando el atajo de teclado (necesita ser asignado primero en [Personalización de la interfaz](Personalización_de_la_interfaz.md)).
+-   Invoca el comando haciendo clic en un botón de la barra de herramientas, eligiendo el elemento del menú, o utilizando el atajo de teclado (necesita ser asignado primero en [Personalización de la interfaz](Interface_Customization/es.md)).
 -   El primer clic en la vista 3D establece el centro de la elipse. El segundo clic establece el primer radio y la orientación de la elipse. El tercer clic establece el otro radio (la distancia desde la línea definida por los dos primeros clics es el segundo radio).
 -   Después del tercer clic, se crea la elipse, junto con un conjunto de geometría de construcción alineada con ella (diámetro mayor, diámetro menor, dos focos). La geometría de construcción puede ser eliminada manualmente si no se necesita, y recreada más tarde. Ver [Restricción de alineación interna](Sketcher_ConstrainInternalAlignment/es.md) y [Croquizador Mostrar Ocultar la geometría interna](Sketcher_RestoreInternalAlignmentGeometry/es.md).
 -   Pulsar **ESC** o hacer clic con el botón derecho del ratón cancela la función.

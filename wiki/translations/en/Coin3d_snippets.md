@@ -3,9 +3,9 @@
 
 ## Description of this list 
 
-Complex libraries like [COIN3D](https://en.wikipedia.org/wiki/Coin3D) need good documentation and good tutorials. Unfortunately, there aren\'t many tutorials for the COIN library. After a long search, the code examples listed below were found. They have been modified so that they can be loaded in FreeCAD. But some code may fail as these examples were created for other environments. You will find warnings to that effect in the code.
+Complex libraries like [COIN3D](https://en.wikipedia.org/wiki/Coin3D) need good documentation and good tutorials. Unfortunately, there aren\'t many tutorials for the COIN library. After much research, the code examples listed below were found. They have been modified so that they can be loaded in FreeCAD. But some code may fail as these examples were created for other environments. You will find warnings for those problems in the code.
 
-Users can run these scripts either as a [macro](Macro.md) or directly in the [Python console](Python_console.md). Please note that many of the functions have \'Exe\' or \'Execu\', short for \'Execute\', in their name.
+Users can run these scripts either as a [macro](Macros.md) or directly in the [Python console](Python_console.md). Please notice that many of the functions have \'Exe\' or \'Execu\', short for \'Execute\', in their name.
 
 These files are also mentioned in the [Inventor Mentor tutorial](http://www-evasion.imag.fr/Membres/Francois.Faure/doc/inventorMentor/sgi_html/pr01.html) for the C language.
 

@@ -11,7 +11,7 @@
 
 <div class="mw-translate-fuzzy">
 
-本指南用于指导你如何使用[机器人工作台来模拟一个机器人单元的设置](机器人工作台.md)。
+本指南用于指导你如何使用[机器人工作台来模拟一个机器人单元的设置](Robot_Workbench.md)。
 
 
 </div>
@@ -21,7 +21,7 @@
 
 ## 开始之前
 
-本指南用于FreeCAD 0.16.6703及以上版本,如果你没有在你的电脑上安装FreeCAD，请前往 [下载](下载.md) 页面并完成安装。
+本指南用于FreeCAD 0.16.6703及以上版本,如果你没有在你的电脑上安装FreeCAD，请前往 [下载](Download.md) 页面并完成安装。
 
 
 <div class="mw-translate-fuzzy">

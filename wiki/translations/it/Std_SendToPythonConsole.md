@@ -26,11 +26,17 @@ Il comando **Invia alla console Python** crea una variabile nel [console Python]
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Selezionare un singolo oggetto.
 2.  Esistono diversi modi per invocare il comando:
     -   Selezionare l\'opzione **Modifica → <img src="images/Std_SendToPythonConsole.svg" width=16px> Invia alla console Python** dal menu.
     -   Selezionare l\'opzione **<img src="images/Std_SendToPythonConsole.svg" width=16px> Invia alla console Python** dal menu contestuale della [vista ad albero](Tree_view/it.md) o della [vista 3D](3D_view/it.md).
     -   Usare la scorciatoia da tastiera: **Ctrl**+**Maiusc**+**P**.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

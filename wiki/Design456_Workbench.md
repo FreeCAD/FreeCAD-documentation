@@ -13,14 +13,14 @@ Traditionally, FreeCAD employs a Parametric Modeling methodology which is a powe
 
 ## Installation
 
-Download the Design456 workbench via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) 
+Download the Design456 workbench via the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) 
 **Tools → Addon Manager**
 
 ##### Note:
 
 If the above is not working for you please consider :
 
--   Addon manager no longer works in FreeCAD 0.18 due to changes in Github use FreeCAD 0.19 instead.
+-   Addon manager no longer works in FreeCAD 0.18 due to changes in Github use FreeCAD 0.20 instead.
 -   Invoke the Addon Manager - Tools \| Adddon manager.
 -   Select Configure..Into Custom repositories enter <https://github.com/MariwanJ/Design456>.
 -   Then OK.
@@ -78,10 +78,15 @@ The main WB development is on this part at the moment. There are some (almost- f
 -   smart Fillet
 -   samrt Chamfer
 -   smart Extrude
+-   smart Extrude Rotate
+-   smart Edge Extend
+-   smart Face Extend
+-   Paint
+-   Hole
 
 ##### Note: 
 
-Please notice that there is no version released yet for this workbench. Intensively development is ongoing and bug is expected on the tools. Don\'t use it on serious document yet.
+Please notice that there is no released version yet for this workbench. Intensively development is ongoing and bug is expected for the tools. Don\'t use it on serious document yet.
 
 ### [FreeCAD GUI Widgets toolkit](FreeCAD_GUI_Widgets_toolkit.md) 
 

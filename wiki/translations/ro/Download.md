@@ -25,15 +25,15 @@ Veți găsi SHA256 checksums (pentru a verifica integritatea descărcării) și 
 
 </div>
 
-Previous versions can be downloaded from the [releases](https://github.com/FreeCAD/FreeCAD/releases) page
+Previous versions can be downloaded from the [releases](https://github.com/FreeCAD/FreeCAD/releases) page.
 
-+:----------------------------------------------------------------------------------------------------------------------------------------:+---+:------------------------------------------------------------------------------------------------------------------------------------------------------:+---+:-----------------------------------------------------------------------:+
-| ![](images/Windows.png )                                                                                                           |   | ![](images/Mac.png )                                                                                                                                 |   | ![](images/AppImage-logo.png )                              |
-|                                                                                                                                          |   |                                                                                                                                                        |   |                                                                         |
-| Install on Windows                                                                                                                       |   | Install on Mac                                                                                                                                         |   | Install on Linux                                                        |
-|                                                                                                                                          |   |                                                                                                                                                        |   |                                                                         |
-| _ 64-bit |
-+------------------------------------------------------------------------------------------------------------------------------------------+---+--------------------------------------------------------------------------------------------------------------------------------------------------------+---+-------------------------------------------------------------------------+
++:---------------------------------------------------------------------------------------------------------------------------------:+---+:---------------------------------------------------------------------------------------------------------------:+---+:------------------------------------------:+
+| ![](images/Windows.png )                                                                                                    |   | ![](images/Mac.png )                                                                                          |   | ![](images/AppImage-logo.png ) |
+|                                                                                                                                   |   |                                                                                                                 |   |                                            |
+| Install on Windows                                                                                                                |   | Install on Mac                                                                                                  |   | Install on Linux                           |
+|                                                                                                                                   |   |                                                                                                                 |   |                                            |
+| _     |
++-----------------------------------------------------------------------------------------------------------------------------------+---+-----------------------------------------------------------------------------------------------------------------+---+--------------------------------------------+
 
 
 <div class="mw-translate-fuzzy">
@@ -77,8 +77,8 @@ Please see the [Installing on Linux](Installing_on_Linux.md) page for more insta
 A portable version that doesn\'t need installation can be achieved by starting FreeCAD with these commands: <small>(v0.19)</small>  
 ```python
 cd path/to/directory_containing_AppImage/
-chmod +x ./FreeCAD_0.19-23756-Linux-Conda_glibc2.12-x86_64.AppImage
-HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./FreeCAD_0.19-23756-Linux-Conda_glibc2.12-x86_64.AppImage
+chmod +x ./FreeCAD_0.19-24366-Linux-Conda_glibc2.12-x86_64.AppImage
+HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./FreeCAD_0.19-24366-Linux-Conda_glibc2.12-x86_64.AppImage
 ```
 
 More information about FreeCAD\'s environment variables can be found on [the configuration page](Start_up_and_Configuration#Environment_variables.md).
@@ -104,7 +104,7 @@ Dezvoltarea reeCAD-ului este întotdeauna activă! Doriți să verificați versi
 
 <div class="mw-translate-fuzzy">
 
-Comunitatea FreeCAD oferă o multitudine de module și macrocomenzi suplimentare. Ele pot fi ușor accesate din interiorul FreeCAD folosind [Addon manager](Addon_Manager.md).
+Comunitatea FreeCAD oferă o multitudine de module și macrocomenzi suplimentare. Ele pot fi ușor accesate din interiorul FreeCAD folosind [Addon manager](Std_AddonMgr.md).
 
 
 </div>

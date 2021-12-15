@@ -1,6 +1,13 @@
-# Std ViewScreenShot/ja
 ---
-- GuiCommand:/jp   Name:Std_ViewScreenShot   MenuLocation:Tools -> Save picture...   Workbenches:All   SeeAlso:...---
+- GuiCommand:/ja
+   Name:Std_ViewScreenShot
+   Name/ja:Std_ViewScreenShot
+   MenuLocation:Tools -> Save picture...
+   Workbenches:All
+   SeeAlso:
+---
+
+# Std ViewScreenShot/ja
 
 
 </div>

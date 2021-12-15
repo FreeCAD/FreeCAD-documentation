@@ -68,14 +68,5 @@ dimension.Normal = dimension.Normal.negative()
 doc.recompute()
 ```
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft FlipDimension/it

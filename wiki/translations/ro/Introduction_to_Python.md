@@ -129,7 +129,8 @@ Acum că stăpânim total interpretorul nostru , putem începe lucrurile serioas
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## Varibile
 
@@ -208,7 +209,8 @@ Cazul este foarte important. myVariable nu este aceeași cu myvariable, diferen�
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## Numere
 
@@ -382,7 +384,8 @@ myVar = "hello friends"
 myVar
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Liste/matrici
 
@@ -468,7 +471,8 @@ Outside strings, ints, floats and lists, există mai multe tipuri de date încor
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## Indentation
 
@@ -646,7 +650,8 @@ else:
     print("Such Dalton doesn't exist!")
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Funcții
 
@@ -712,7 +717,8 @@ Am făcut o funcție care primește două argumente, le însumează și returnea
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## Module
 
@@ -900,7 +906,8 @@ Cu toate acestea, există două alternative: în cadrul macro-ului se utilizeaz�
 exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Începeți cu FreeCAD 
 
@@ -917,19 +924,30 @@ Ei bine, cred că acum aveți o idee bună despre modul în care funcționează 
 dir()
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Notes
 
 -   FreeCAD was originally designed to work with Python 2. Since Python 2 reached the end of its life in 2020, future development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.
 -   Much more information about Python can be found in the [official Python tutorial](https://docs.python.org/3/tutorial/index.html) and the [official Python reference](https://docs.python.org/3/reference/).
 
-[top](#top.md)
+
+{{Top}}
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav|Macros|Python scripting tutorial}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

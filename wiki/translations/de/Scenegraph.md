@@ -25,7 +25,10 @@ OpenInventor beschreibt eine 3D Szene in Form einer [Szenengraph](https://de.wik
 
 </div>
 
-Ein OpenInventor Szenengraph beschreibt alles, was zu einer 3D Szene gehört, wie Geometrie, Farben, Materialien, Licht, usw. und organisiert all diese Daten in einer komfortablen und übersichtlichen Struktur. Alles kann in Unterstrukturen gruppiert werden, so dass Du Deine Szeneninhalte so gestalten kannst, wie Du es willst. Hier ist ein Beispiel für eine OpenInventor Datei: {{Code|lang=bash|code=
+Ein OpenInventor Szenengraph beschreibt alles, was zu einer 3D Szene gehört, wie Geometrie, Farben, Materialien, Licht, usw. und organisiert all diese Daten in einer komfortablen und übersichtlichen Struktur. Alles kann in Unterstrukturen gruppiert werden, so dass Du Deine Szeneninhalte so gestalten kannst, wie Du es willst. Hier ist ein Beispiel für eine OpenInventor Datei:
+
+
+{{Code|lang=bash|code=
 #Inventor V2.0 ascii
  
 Separator { 
@@ -60,24 +63,29 @@ In FreeCAD müssen wir normalerweise nicht direkt mit dem openInventor Szenengra
 
 Es gibt jedoch viele Vorteile, um direkt auf die Szenegrafik zugreifen zu können. So können wir beispielsweise das Aussehen eines Objekts vorübergehend ändern oder Objekte zur Szene hinzufügen, die im FreeCAD Dokument nicht wirklich existieren, wie z.B. Konstruktionsgeometrie, Helfer, grafische Hinweise oder Werkzeuge wie Manipulatoren oder Bildschirminformationen.
 
-FreeCAD selbst verfügt über mehrere Werkzeuge, um openInventor-Code zu sehen oder zu ändern. Der folgende Python Code zeigt beispielsweise die openInventor Darstellung eines ausgewählten Objekts: 
+FreeCAD selbst verfügt über mehrere Werkzeuge, um openInventor-Code zu sehen oder zu ändern. Der folgende Python Code zeigt beispielsweise die openInventor Darstellung eines ausgewählten Objekts:
+
+
 ```python
 obj = FreeCAD.ActiveDocument.ActiveObject
 viewprovider = obj.ViewObject
 print viewprovider.toString()
 
-``` Aber wir haben auch ein Python-Modul, das den vollständigen Zugriff auf alles, was von Coin3D verwaltet wird, ermöglicht, wie z.B. unsere FreeCAD-Szenengrafik. Also, lies weiter mit [Pivy](Pivy/de.md).
+```
+
+Aber wir haben auch ein Python-Modul, das den vollständigen Zugriff auf alles, was von Coin3D verwaltet wird, ermöglicht, wie z.B. unsere FreeCAD-Szenengrafik. Also, lies weiter mit [Pivy](Pivy/de.md).
 
 ## Coding examples 
 
-See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository of said examples can be found at <https://github.com/MariwanJ/COIN3D_Examples>.
+See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository of said examples can be found at <https://github.com/MariwanJ/COIN3D_Examples>. {{Top}}
 
-[Anfang](#top.md)
+
+
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _
 

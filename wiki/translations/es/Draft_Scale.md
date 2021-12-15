@@ -38,7 +38,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 1.  Selecciona los objetos que quieres escalar
 2.  Presiona el botón **<img src="images/Draft_Scale.png" width=16px> [Escala](Draft_Scale/es.md)
 **, o presiona las teclas **S** y **C**
-3.  Indica un primer punto en la vista 3D, o escribe unas [coordenadas](Draft_Coordinates/es.md) para definir el punto base del escalado. Indica otro punto en la vista 3D, o escribe unas [coordenadas](Draft_Coordinates/es.md)
+3.  Indica un primer punto en la vista 3D, o escribe unas coordenadas para definir el punto base del escalado. Indica otro punto en la vista 3D, o escribe unas coordenadas
 4.  Otro menú con opciones de escalado se abrirá. Rellena las diferentes opciones y pulsa **OK** para aceptar
 
 

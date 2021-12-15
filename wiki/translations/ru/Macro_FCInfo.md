@@ -12,11 +12,13 @@
 |Date=2020/11/12
 |FCVersion=All
 |Download=Download the [https://forum.freecadweb.org/download/file.php?id=50755 Macro_FCInfo_Icon] package and paste it in the same directory of the macro
-|SeeAlso=<img src=images/Arch_Survey.svg/ru style="width:Arch Survey|24px"> [Arch Survey](Arch_Survey/ru.md)<br />[Macro SimpleProperties](Macro_SimpleProperties/ru.md)
+|SeeAlso=<img src=images/Arch_Survey.svg style="width:Arch Survey|24px"> [Arch Survey](Arch_Survey/ru.md)<br />[Macro SimpleProperties](Macro_SimpleProperties/ru.md)
 }}
 
 
 </div>
+
+## Description
 
 
 <div class="mw-translate-fuzzy">
@@ -29,14 +31,22 @@
 </div>
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/4ff055ff5eb117f75beea5843efca4791990cf62/FCInfo_en_Ver_1-22-rmu_Docked.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/4ecf1b82162b7a9e600c9ee511410ddf06c6e534/FCInfo_en_Ver_1-25d-rmu_Docked.FCMacro}}
 
 <img alt="" src=images/Macro_FCInfo_00_en.png  style="width:480px;"> 
 *FCInfo*
 
+## Utilisation
+
+
+<div class="mw-translate-fuzzy">
+
 ## Использование
 
 Выберите объект или запустите приложение и выберите объект, и появится ряд информации. Его расчеты основаны на единстве FreeCAD, которое представляет собой «мм» для каждого нового выделения, единица длины всегда возвращается на \"mm\", а угол на «десятичные градусы». <img alt="upper window" src=images/Macro_FCInfo_06.png  style="width:200px;"><img alt="lower window" src=images/Macro_FCInfo_07.png  style="width:200px;">
+
+
+</div>
 
 
 
@@ -49,10 +59,19 @@
 -   Имя субэлемента объекта
 -   Тип объекта
 
+
+<div class="mw-translate-fuzzy">
+
 **Сектор 2: Координаты щелкают мышью**
 
 -   Координаты X, Y и Z щелкают мышью
 -   Кнопка создания в точке, оси, плоскости, копировать векторную ось формы **FreeCAD.Vector (-24.0, 240.0, 7.0)**
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Сектор 3: Ценность**
 
@@ -60,12 +79,24 @@
     km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique. Если объект является кругом, то одна секунда lineEdit открыта и отображает радиус круга.
 -   Периметр формы
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 **Сектор 4: вершины и детали**
 
 -   CheckBox для поиска или не все детали объекта, если не отмечен, отображаются только основные значения.
 -   Вершины и детали фигуры (compt\_Edge), (compt\_Faces), (compt\_Vector of Face)
     макс. 200 строк в таблице, если отображается более 200 строк (! + 200) и количество строки
     (полная информация может быть сохранена с помощью кнопки **Save** в файле в формате CSV, и его можно просмотреть в электронной таблице с помощью **Read** или с помощью внешней таблицы в виде[LibreOffice](https://www.libreoffice.org/) [OpenOffice](http://openoffice.apache.org/downloads.html) or other)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Сектор 5: Наклон**
 
@@ -83,6 +114,12 @@
         эта кнопка создает линию в направлении объекта
 -   **ValueAt**, возвращает трехмерный вектор, соответствующий значению параметра.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 **Сектор 6: Поверхность и Объем**
 
 -   Поверхность формы отображается размер блока может быть выбран
@@ -95,15 +132,33 @@
     lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight), tonneau fr, ct
 -   Вес формы отображается единица массы может быть выбран
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 \'\' \'Сектор 7: BoundBox\' \'\'
 
 -   BoundBox экстремальные размеры фигуры
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Сектор 8: Центр:**
 
 -   Центр формы и эти координаты XYZ
 -   Центр масс и эти координаты XYZ
 -   Кнопка создания в точке, оси, плоскости, копировать векторную ось формы **FreeCAD.Vector (-24.0, 240.0, 7.0)**
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Сектор 9: Инерция**
 
@@ -119,6 +174,9 @@
 -   Определитель 1: вычисляет определитель матрицы научного значения
 -   Определитель 2: вычисляет определитель десятичного значения матрицы
 
+
+</div>
+
 **Раздел 10: Электронная таблица**
 
 -    **Read**: читать данные в сохраненной электронной таблице **.FCInfo** или в формате txt, asc, csv
@@ -133,12 +191,21 @@
 
 -    **Space**: разделитель - Space
 
+
+<div class="mw-translate-fuzzy">
+
 Возможность сохранить или прочитать электронную таблицу с другим разделителем, табуляцией, запятой, точкой с запятой, пробелом
 Табуляция является разделителем для модуля электронных таблиц FreeCAD.
 Число этих четырех разделителей рассчитывается для справки, если неизвестно
 COMMA - это старый (01.16 и ранее) разделитель макроса FCInfo
 Теперь для совместимости с таблицей FreeCAD и начиная с версии 01.17 TABULATION является разделителем по умолчанию.
 Если вы хотите преобразовать свою старую электронную таблицу FCInfo: откройте ее в FCInfo и сохраните ее, выбрав опцию Tabulation
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Раздел 11: Главный**
 
@@ -158,7 +225,13 @@ COMMA - это старый (01.16 и ранее) разделитель мак�
 
 -    **CheckBox****2**: если этот флажок не установлен, макрос окна отображается справа (по умолчанию). Если это отмечено, макрос окна отображается слева
 
+
+</div>
+
 После запуска макроса макрос остается активным, а окно остается видимым. Чтобы выйти из макроса, нажмите **Exit**. Если вы уйдете крестиком, макрос останется в памяти, а данные появятся в \"представлении отчета\" FreeCAD.
+
+
+<div class="mw-translate-fuzzy">
 
 
 <center>
@@ -171,6 +244,14 @@ Image:Macro\_FCInfo\_04.png\|Docked to rigth, Image:Macro FCInfo 05.png\|or left
 
 
 
+
+</div>
+
+## Options
+
+
+<div class="mw-translate-fuzzy">
+
 ## Варианты
 
 ### Используемая единица 
@@ -179,6 +260,18 @@ Image:Macro\_FCInfo\_04.png\|Docked to rigth, Image:Macro FCInfo 05.png\|or left
 
 km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 
+
+</div>
+
+#### Length unit: 
+
+km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
+
+#### Angle degrees : 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Угол градусов : 
 
 1.  **decimal degree**, ex: 174.831872611°
@@ -186,6 +279,9 @@ km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, 
 3.  radian, ex: 3.05139181449 rad
 4.  grade, ex: 194.257636235 gon
 5.  pourcent ex: 30° = 57.74%
+
+
+</div>
 
 Понимание углов в дисплее FCInfo.
 
@@ -201,6 +297,11 @@ click twice to see the animation (the image must be in full screen)
 
 
 
+#### Weight unit : 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Единица измерения веса : 
 
 ton, quintal, kg, hg, dag, **gram**, dg, cg, mg, µg, ng, pg, fg, gr (grain), dr (drachm), oz (once), oz t (once troy),
@@ -208,11 +309,23 @@ lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight)
 the \"spinBox\" is set to **7,5** kg, средняя плотность стали. Если вы хотите другое значение по умолчанию, измените значение плотности, линии 208
 
 
+</div>
+
+
 ```python
  global densite       ; densite       = 7.5  # (steel = 7.5 kg par dm3)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Файл может быть создан кнопкой **Save**. Файл записан в виде файла [csv](https://fr.wikipedia.org/wiki/Comma-separated_values) таким образом, данные могут быть изучены в электронной таблице в FreeCAD or Openoffice, LibreOffice\...
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## скрипт
 
@@ -224,7 +337,26 @@ the \"spinBox\" is set to **7,5** kg, средняя плотность стал
 Или прямо в интерфейсе FreeCAD
 Значок должен находиться в том же каталоге, что и макрос.
 Загрузите расположение изображения на иконке <img alt="" src=images/FCInfo.png  style="width:64px;"> <img alt="" src=images/FCInfoSpreadsheet.png  style="width:64px;"> а затем перетащите мышкой правой кнопкой мыши «сохранить как» (не меняйте название)
+
+
+</div>
+
+Copy the contents of the macro in a file named \"FCInfo.FCMacro\"
+
+-   Windows: the form is usually **\" drive:\\Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\ \"**
+-   Ubuntu: the form is usually **\" /home/your\_user\_name/.FreeCAD \"**.
+
+Or, directly in the interface of FreeCAD
+The icon must be in the same directory as the macro.
+Download image positioning on the icon <img alt="" src=images/FCInfo.png  style="width:64px;"> <img alt="" src=images/FCInfoSpreadsheet.png  style="width:64px;"> and then drag the mouse right click \"save as\" (do not change the name)
+
+
+<div class="mw-translate-fuzzy">
+
 **PS: слишком долго, чтобы содержаться на вики-странице (в настоящее время вики-страницы принимают только 64 КБ), код макроса размещен на форуме**
+
+
+</div>
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
@@ -233,6 +365,9 @@ the \"spinBox\" is set to **7,5** kg, средняя плотность стал
 
 
 <div class="mw-collapsible-content">
+
+
+<div class="mw-translate-fuzzy">
 
 Также есть [Macro\_FCInfo\_Alternate\_Linux](http://www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux) здесь код изменяется (из-за ошибки отображения символов : **² ³ ° μ** порядковый номер не в диапазоне (128)\") что создает проблемы в определенных конфигурациях, функции одинаковы
 Example : 
@@ -253,26 +388,66 @@ global uniteAs       ; uniteAs       = iso8859(unichr(176))
 
 </div>
 
+
+
+</div>
+
 Загрузите файл значка [Macro\_FCInfo\_Icon](https://forum.freecadweb.org/download/file.php?id=50755) разархивируйте и скопируйте иконку в ту же директорию макроса
+
+
+<div class="mw-translate-fuzzy">
 
 Загрузите файл макроса в gist **docked to right**
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
 {{CodeDownload|https://gist.github.com/mario52a/8d40ab6c018c2bde678f|последняя версия Macro_FCInfo и значки в конце страницы}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 (Или **[На форуме.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=47748#p47748)**)
 **PS:** этот макрос использует **getSelection ()**, и список объектов начинается с 1 ex: для блока **Edge1 to Edge12** и код в консоли начинается с 0 ex: для поля **Edge \[0\] to Edge\[11\]**
 Это нормально, когда подсчет массивов/списков внутри OpenCascade всегда начинается с **1, а не с 0**
 
+
+</div>
+
+### Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ### Ограничения
 
 Всегда оставляйте кнопку **Exit**. Если выйти из программы, не нажимая кнопку **Exit**, программа останется в памяти и продолжит работу, а дисплей останется в «отчете о просмотре». Вы должны оставить FreeCAD, чтобы стереть его из памяти.
 В таблице видны только первые 200 элементов объекта, если в объекте более 200 элементов, сигнал будет отображаться как **(! +200)**. Полный список данных отображается в файле, сохраненном кнопкой **Save**.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Если макрос окна не виден после запуска, см. Нижнее окно:
+
+
+</div>
 
 ![](images/Macro_FCInfo_08.png )
 
 ![](images/FCInfo_begin_00.gif ) 
+
+
+<div class="mw-translate-fuzzy">
 
 проект:
 ~~читает файл прямо в таблице.~~ готово
@@ -281,8 +456,30 @@ global uniteAs       ; uniteAs       = iso8859(unichr(176))
 ~~наклон элемента, а не глобального объекта~~ готово
 ~~вставка прямо в интерфейс FreeCAD~~ выполнена
 
+
+</div>
+
 ## Version
 
+
+<div class="mw-translate-fuzzy">
+
+-   ver 1.22 , 12/11/2020 : now the macro is totally uninstalled i use :
+
+
+</div>
+
+
+```python
+FreeCAD.ActiveDocument.openTransaction(u"FCInfo")    # memorise les actions (avec annuler restore)
+FreeCAD.ActiveDocument.commitTransaction()           # restore les actions  (avec annuler restore)
+#FreeCAD.ActiveDocument.abortTransaction()            # abandonne les actions(avec annuler restore)
+```
+
+-   ver 1.25d, 13/12/2021 little correction material field uncomment the \"\'try\...Except\" !!!
+-   ver 1.25c, 12/12/2021 little correction new material
+-   ver 1.23b, 20/11/2021 little correction, add text info in beginning run macro, and ordinal the text code
+-   ver 1.23 , 19/11/2021 include icon in macro, number decimal displayed, text height, configure options in the Preference FC, correct info for elements of sketch in edit mode.
 -   ver 1.22 , 12/11/2020 : now the macro is totally uninstalled i use :
 
 
@@ -334,9 +531,17 @@ In a Linux distribution and in the case of an error of **\"ordinal not in range 
 \*ver 1.02 , 7/09/2013 : small updates
 \*ver 1.00 , 6/09/2013
 
+
+<div class="mw-translate-fuzzy">
+
 ## Links
 
 Смотрите также [Arch Survey](Arch_Survey/ru.md) <img alt="Arch Survey" src=images/Arch_Survey.svg  style="width:36px;">
+
+
+</div>
+
+See Also: <img alt="Arch Survey" src=images/Arch_Survey.svg  style="width:36px;"> [Arch Survey](Arch_Survey.md)
 
 Вы можете поделиться своими комментариями на форуме [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 Здесь еще один пост [FCInfo Macro](http://forum.freecadweb.org/viewtopic.php?f=8&t=6005)

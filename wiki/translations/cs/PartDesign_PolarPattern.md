@@ -13,7 +13,13 @@
 
 ## Popis
 
+
+<div class="mw-translate-fuzzy">
+
 Tento nástroj vezme skupinu jednoho nebo více objektů (originály) a vytvoří z nich druhou skupinu objektů pootočenou kolem dané osy.
+
+
+</div>
 
 ![](images/PartDesign_PolarPattern_example.png )
 
@@ -29,8 +35,8 @@ Tento nástroj vezme skupinu jednoho nebo více objektů (originály) a vytvoř�
 
 #### To create a pattern 
 
-1.  (Optional) Select the feature (<small>(v0.19)</small>  or several features) to be patterned.
-2.  Press the **<img src=images/PartDesign_PolarPattern.svg style="width:24px">** **PolarPattern** button.
+1.  (Optional) Select the feature (or <small>(v0.19)</small>  several features) to be patterned.
+2.  Press the **<img src="images/PartDesign_PolarPattern.svg" width=16px> '''PolarPattern'''** button.
     -   If you didn\'t initially select any features, you\'ll be able to select a *single* base feature
 3.  Define the **Axis**. See [Options](#Options.md).
 4.  Define the **Angle** between the last copied occurrence and the original feature.
@@ -124,17 +130,30 @@ Select one of the Body Origin\'s standard axis (X, Y or Z) as axis.
 
 Allows you to select either a DatumLine or an edge of an object or a line of a sketch to use for axis.
 
+### Angle and Occurrences 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Úhel a výskyty 
 
-Určuje úhel, který má být vzorky pokryt a celkový počet vzorků (včetně originálního). Například čtyři výskyty v úhlu 180 stupňů dá 60 stupnů mezi vzorky. Je zde jedna výjimka: Je-li úhel 360, protože první a poslední výskyt je identický, čtyři výskyty budou po 90 stupních. 
+Určuje úhel, který má být vzorky pokryt a celkový počet vzorků (včetně originálního). Například čtyři výskyty v úhlu 180 stupňů dá 60 stupnů mezi vzorky. Je zde jedna výjimka: Je-li úhel 360, protože první a poslední výskyt je identický, čtyři výskyty budou po 90 stupních.
 
+
+</div>
 
 ## Omezení
+
+
+<div class="mw-translate-fuzzy">
 
 -   Podívejte se na [Lineární vzorky](PartDesign_LinearPattern/cs.md)
 
 
 
+
+
+</div>
 
 
 

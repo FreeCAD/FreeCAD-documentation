@@ -55,7 +55,7 @@ See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 1.  
     **<img src="images/_Draft_Text.png" width=16px> [Metin](Draft_Text/tr.md)**düğmesine basın veya **T** ardından **E** tuşları.
 
-2.  3D görünümünde bir noktaya tıklayın veya bir [koordinat](Draft_Coordinates/tr.md) yazın ve **<img src="images/_Draft_AddPoint.svg" width=16px> [Nokta ekle](Draft_AddPoint/tr.md)** düğmesine basın.
+2.  3D görünümünde bir noktaya tıklayın veya bir koordinat yazın ve **<img src="images/_Draft_AddPoint.svg" width=16px> Nokta ekle** düğmesine basın.
 
 3.  İstediğiniz metni girin, her satırda **Enter** tuşuna basın.
 
@@ -71,7 +71,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 <div class="mw-translate-fuzzy">
 
--   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında **Enter** tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda **<img src="images/_Draft_AddPoint.svg" width=16px> [Nokta ekle](Draft_AddPoint/tr.md)** düğmesine basabilirsiniz.
+-   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında **Enter** tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda **<img src="images/_Draft_AddPoint.svg" width=16px> Nokta ekle** düğmesine basabilirsiniz.
 -   Metni yerleştirirken, [Yakalama](Draft_Snap/tr.md) noktanızı mesafeden bağımsız olarak en yakın çıtçıt konumuna zorlamak için **Ctrl** tuşunu basılı tutun.
 -   Yeni bir metin satırı girmek için **Enter** veya **↓ Down arrow** tuşuna basınız.
 -   Önceki metin satırını düzenlemek için **↑ Yukarı ok** tuşuna basınız.

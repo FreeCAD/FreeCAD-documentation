@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-El [panel de tareas](task_panel/es.md) aparece en la pestaña **Tareas** de la [vista combinada](combo_view/es.md), uno de los paneles importantes de la [interfaz](interfade/es.md). Es un espacio personalizable que puede contener cualquier tipo de widget gráfico como sub-ventanas plegables, tablas, campos de entrada, casillas de verificación, casillas de selección, cajas de texto, botones, etiquetas, imágenes y otros elementos, dependiendo del [Ambiente de trabajo](Workbenches/de.md) actualmente activo, y de la herramienta actualmente activa.
+El [panel de tareas](task_panel/es.md) aparece en la pestaña **Tareas** de la [vista combinada](combo_view/es.md), uno de los paneles importantes de la [interfaz](interface/es.md). Es un espacio personalizable que puede contener cualquier tipo de widget gráfico como sub-ventanas plegables, tablas, campos de entrada, casillas de verificación, casillas de selección, cajas de texto, botones, etiquetas, imágenes y otros elementos, dependiendo del [Ambiente de trabajo](Workbenches/de.md) actualmente activo, y de la herramienta actualmente activa.
 
 
 </div>
@@ -50,7 +50,7 @@ Hay muchos comandos que requieren la selección de formas u objetos presentes en
 
 
 
-*Panel de tareas que se abre cuando se edita un [Arch Componente](AArch_Component/es.md). El panel espera a que el usuario seleccione los objetos que pueden ser añadidos o sustraídos del componente.*
+*Panel de tareas que se abre cuando se edita un [Arch Componente](Arch_Component/es.md). El panel espera a que el usuario seleccione los objetos que pueden ser añadidos o sustraídos del componente.*
 
 
 </div>

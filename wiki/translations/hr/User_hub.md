@@ -6,7 +6,13 @@
 
 Ovo je osnovno područje pomoći za novo pridošle korisnike FreeCAD programa.
 
+
+<div class="mw-translate-fuzzy">
+
 Te stranice se neprestano razvijaju, pa možda nedostaju informacije ili su zastarjele . Ako ne možete pronaći potrebne informacije, ne ustručavajte se pitati na [FreeCAD forumu](http://forum.freecadweb.org).
+
+
+</div>
 
 Ako želite pridonijeti FreeCAD-u molimo _ za opće smjernice koje biste trebali slijediti.
 

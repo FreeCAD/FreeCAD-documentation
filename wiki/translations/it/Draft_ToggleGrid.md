@@ -5,7 +5,7 @@
    MenuLocation:Draft → Utilità → Mostra/Nascondi la griglia
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Shortcut:**G** **R**
-   SeeAlso:[Agganciare](Draft_Snap/it.md), [Attiva/Disattiva](Draft_ToggleSnap/it.md)
+   SeeAlso:[Agganciare](Draft_Snap/it.md)
 ---
 
 # Draft ToggleGrid/it
@@ -23,7 +23,7 @@ Questo strumento consente di mostrare e nascondere la griglia definita nelle [Pr
 
 </div>
 
-In FreeCAD version 0.19 and 0.20 the grid is always displayed when a command becomes active and toggling the grid while a command is active does not work.
+In FreeCAD version 0.19 the grid is always displayed when a command becomes active and toggling the grid while a command is active does not work.
 
 ## Utilizzo
 
@@ -46,15 +46,6 @@ See [Draft Snap](Draft_Snap#Preferences.md).
 
 -   To use the grid select: **Edit → Preferences... → Draft → Grid and snapping → Grid → Use grid**. After changing this preference you must restart FreeCAD.
 -   Several other grid preferences are also available: **Edit → Preferences... → Draft → Grid and snapping → Grid**.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft ToggleGrid/it

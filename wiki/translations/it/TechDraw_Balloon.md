@@ -5,7 +5,7 @@
    MenuLocation:TechDraw → Pallinatura
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
    Version:0.19
-   SeeAlso:[Annotazione](TechDraw_NewAnnotation/it.md)
+   SeeAlso:[Annotazione](TechDraw_Annotation/it.md)
 ---
 
 # TechDraw Balloon/it
@@ -53,6 +53,8 @@ Quando si utilizza una forma rettangolare, si possono aggiungere i separatori ut
 
 ## Proprietà
 
+### Data
+
 
 <div class="mw-translate-fuzzy">
 
@@ -68,7 +70,7 @@ Quando si utilizza una forma rettangolare, si possono aggiungere i separatori ut
 
 -    **End Type**: simbolo di fine linea della bolla. Opzioni: <img alt="" src=images/Arrownone.svg  style="width:20px;"> Nessuno, <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Freccia piena, <img alt="" src=images/Arrowopen.svg  style="width:20px;"> Freccia aperta, <img alt="" src=images/Arrowtick.svg  style="width:20px;"> Barra, <img alt="" src=images/Arrowdot.svg  style="width:20px;"> Dot, <img alt="" src=images/arrowopendot.svg  style="width:20px;"> Cerchio aperto, <img alt="" src=images/arrowfork.svg  style="width:20px;"> Biforcazione, <img alt="" src=images/arrowpyramid.svg  style="width:20px;"> Triangolo pieno
 
--    **Shape**: forma della bolla. Opzioni: <img alt="" src=images/Circular.svg  style="width:20px;"> Cerchio, Nessuna, <img alt="" src=images/Triangular.svg  style="width:20px;"> Triangolo, <img alt="" src=images/Inspection.svg  style="width:20px;"> Ispezione, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Esagono, <img alt="" src=images/Square-Shape.svg  style="width:20px;"> Quadrato, <img alt="" src=images/Rectangular.svg  style="width:20px;"> Rettangolo
+-    **Shape**: forma della bolla. Opzioni: <img alt="" src=images/Circular.svg  style="width:20px;"> Cerchio, Nessuna, <img alt="" src=images/Triangle.svg  style="width:20px;"> Triangolo, <img alt="" src=images/Inspection.svg  style="width:20px;"> Ispezione, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Esagono, <img alt="" src=images/TechDraw_Square.svg  style="width:20px;"> Quadrato, <img alt="" src=images/Rectangle.svg  style="width:20px;"> Rettangolo
 
 -    **Shape Scale**: fattore di scala per la **Shape**.
 
@@ -82,6 +84,8 @@ Quando si utilizza una forma rettangolare, si possono aggiungere i separatori ut
 
 
 </div>
+
+### View
 
 
 <div class="mw-translate-fuzzy">

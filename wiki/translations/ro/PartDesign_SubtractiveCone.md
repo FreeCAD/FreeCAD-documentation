@@ -25,7 +25,7 @@ Inserează un con subtractiv în Corpul Activ. Forma sa este extrasă din solidu
 <div class="mw-translate-fuzzy">
 
 1.  Apăsați butonul **<img src="images/PartDesign_SubtractiveCone.png" width=24px> '''Subtractive Cone'''**. **Notă**: Conul substractiv este parte a meniul de iocnițe denumit/etichetat *Create an subtractive primitive*. După lansarea FreeCAD, Cubul Substractiv este afișat în bara de instrumente. Pentru a obține Con, click pe săgeata în jos dincolo de iconițele vizibile și selectați Cunulo Substractiv din meniu
-2.  Parametrii Primitivei și [Attachment](Part_Attachment.md).
+2.  Parametrii Primitivei și [Attachment](Part_EditAttachment.md).
 3.  Click **OK**.
 4.  Funcția Con apare sub Corpul activ.
 
@@ -50,7 +50,7 @@ Conul poate fi editat după crearea pe două căi:
 
 <div class="mw-translate-fuzzy">
 
--    **Attachment**: definește modul de conectare, precum și decalajul atașamentului(Offset). Vedeți [Part Attachment](Part_Attachment.md).
+-    **Attachment**: definește modul de conectare, precum și decalajul atașamentului(Offset). Vedeți [Part EditAttachment](Part_EditAttachment.md).
 
 -    **Label**: nume/eticheta dată obiectului Cone. Modificați pentru a se potrivi nevoilor dvs.
 

@@ -46,6 +46,15 @@ import FreeCAD
 FreeCAD.ActiveDocument.undo()
 ```
 
+Lorsque vous exécutez FreeCAD en mode console pure (CLI), le mécanisme d\'annulation/rétablissement n\'est pas activé par défaut. Il doit être explicitement activé pour chaque document.
+
+
+```python
+import FreeCAD
+
+FreeCAD.ActiveDocument.UndoMode = 1
+```
+
 
 
 

@@ -1,5 +1,5 @@
 # Tutorial FreeCAD POV ray/ru
-**The _. The Render Workbench can be installed through the [Addon Manager](AddonManager.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench, and because the new workbench should basically work in the same way**
+**The _. The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench, and because the new workbench should basically work in the same way**
 
 
 {{TutorialInfo/ru

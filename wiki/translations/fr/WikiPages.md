@@ -65,25 +65,23 @@ Le _ est utilisé pour lier séquentiellement des pages, en suivant la structure
 
 ### Noms de page 
 
-Les noms de page doivent être courts et utiliser la casse des phrases: tous les mots sauf le premier et les noms propres doivent être en minuscules. Il s\'agit du [style utilisé par Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Capital_letters#Headings,_headers,_and_captions) pour leurs articles.
+Les noms de page doivent être courts et utiliser la casse : chaque mot doit commencer par une majuscule, sauf s\'il s\'agit d\'articles, de prépositions, de conjonctions ou d\'autres particules grammaticales (par exemple, \"of\", \"on\", \"in\", \"a\", \"an\", \"and\").
 
 Nom de page incorrect:
-:   Construction Of AeroCompany Airplanes
+:   Construction of AeroCompany airplanes
 
 
 
 
 
 Bon nom de page:
-:   Construction of AeroCompany airplanes
+:   Construction of AeroCompany Airplanes
 
 Les noms des pages d\'atelier de premier niveau doivent avoir le format suivant : XYZ Workbench, où XYZ est le nom de l\'atelier, par exemple _. Notez que vous devez utiliser le nom de la commande tel qu\'il apparaît dans le code source.
 
-Une ancienne convention consistait à utiliser la casse : chaque mot devait commencer par une majuscule, sauf s\'il s\'agissait d\'articles, de prépositions, de conjonctions ou d\'autres particules grammaticales (par exemple, \'de\', \'sur\', \'dans\', \'a\', \'an\', \'et\'). De nombreuses pages existantes utilisent ce style, mais il est déconseillé de l\'utiliser pour les nouvelles pages. Ce point a été discuté dans le fil de discussion du forum [(Liens en minuscules) Utiliser un titre en minuscules pour une page wiki](https://forum.freecadweb.org/viewtopic.php?p=266029#p266029).
-
 ### En-têtes 
 
-Comme les noms de pages, les titres de paragraphes doivent être courts et utiliser la casse des phrases. Vous ne devez pas utiliser les titres H1 (= Heading =) dans votre balisage wiki puisque le titre de la page est automatiquement ajouté comme titre principal H1.
+Les titres des paragraphes doivent être courts et utiliser la casse : tous les mots, sauf le premier et les noms propres, doivent être en minuscules. Vous ne devriez pas utiliser les titres H1 (= Heading =) dans votre balisage wiki puisque le titre de la page est automatiquement ajouté comme titre principal H1.
 
 ### Liens
 
@@ -101,11 +99,11 @@ Bon lien
 
 Le format préféré pour un lien est:
 
-[name of page](Name_of_page.md)
+[Name of Page](Name_of_Page.md)
 
 Traduit en:
 
-[nom de la page](Name_of_page/fr.md)
+[Nom de la Page](Name_of_Page/fr.md)
 
 Notez que pour la partie avant le caractère |, le lien réel, la casse est pertinente. Si le nom de votre page est Nom_de_page, le lien échouera si vous tapez Nom_de_page (P majuscule). Avant le caractère |, tous les espaces doivent être remplacés par des tirets bas (_). Ceci a pour but d\'aider les traducteurs qui utilisent un logiciel de traduction. Sans les traits de soulignement, le lien serait traduit par le logiciel, ce qui n\'est pas souhaitable.
 
@@ -524,9 +522,10 @@ Voir [Glossaire](Glossary/fr.md).
 
 ### Autres langues 
 
--   [Italiano](Italian_Translation.md)
+-   [Italien](Italian_Translation.md)
 -   [Français](French_Translation.md)
--   [Deutsch](German_Translation.md)
+-   [Allemand](German_Translation.md)
+-   [Polonais](Polish_Translation.md)
 
 _ _ _ _
 

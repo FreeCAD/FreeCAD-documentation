@@ -15,7 +15,13 @@ Diese Objekte müssen nicht unbedingt geometrische Formen sein, die in der [3D A
 
 ## Arbeiten mit der Baumansicht 
 
+
+<div class="mw-translate-fuzzy">
+
 Immer wenn ein neues Objekt erstellt wird, wird es standardmäßig am Ende der Liste in der Baumansicht hinzugefügt. Die Baumansicht erlaubt die Verwaltung der Objekte, um sie übersichtlich zu halten; sie erlaubt das Erstellen von [Gruppen](Std_Group/de.md), das Verschieben von Objekten innerhalb von Gruppen, das Verschieben von Gruppen innerhalb anderer Gruppen, das Umbenennen von Objekten, das Kopieren von Objekten, das Löschen von Objekten und andere Operationen im Kontextmenü (Rechtsklick), die vom aktuell ausgewählten Objekt und des aktuell aktiven Arbeitsbereichs abhängen.
+
+
+</div>
 
 Viele Vorgänge erzeugen Objekte, die von einem zuvor existierenden Objekt abhängig sind. In diesem Fall zeigt die Baumansicht diese Beziehung, indem sie das ältere Objekt innerhalb des neuen Objekts aufnimmt. Das Auf- und Zuklappen der Objekte in der Baumansicht zeigt die parametrische Historie dieses Objekts. Objekte, die tiefer in anderen sind, sind älter, während Objekte, die sich außerhalb befinden, neuer sind und von den älteren Objekten abgeleitet werden. Durch die Modifikation der inneren Objekte breiten sich die parametrischen Operationen bis nach oben aus und erzeugen ein neues Ergebnis.
 
@@ -30,19 +36,35 @@ Viele Vorgänge erzeugen Objekte, die von einem zuvor existierenden Objekt abhä
 ## Maßnahmen
 
 
-**Hinweis:**
-
-Ausdrücke und Verknüpfungsvorgänge wurden in Version 0.19 hinzugefügt.
+<div class="mw-translate-fuzzy">
 
 Da die Baumansicht Objekte auflistet, die in der [3D Ansicht](3D_view/de.md) sichtbar sein können, sind viele der Aktionen identisch mit denen, die aus der [3D Ansicht](3D_view/de.md) ausgeführt werden können.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Beim Start der Anwendung ist die Standardeinstellung [Start Arbeitsbereich](Start_Workbench/de.md) aktiv, und kein Dokument wurde erstellt, wenn Du mit der rechten Maustaste auf die Schaltfläche [Baumansicht](Tree_view/de.md) klickst, wird nur ein Befehl angezeigt:
 
 -    **Expression Aktionen**: [Ausgewähltes kopieren](Std_Expressions.md), [Aktives Dokument kopieren](Std_Expressions.md), [Alle Dokumente kopieren](Std_Expressions.md), Einfügen. Diese ermöglichen das Arbeiten mit verschiedenen Dokumenten, sind aber deaktiviert, wenn kein Dokument vorhanden ist.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Sobald ein neues Dokument erstellt wurde, wird folgendes aktiv:
 
 -    **Expression actions**: [Aktives Dokument kopieren](Std_Expressions/de.md), [Alle Dokumente kopieren](Std_Expressions/de.md).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Zusätzlich sind [Verweis](Std_LinkMake/de.md) Aktionen verfügbar.
 
@@ -53,7 +75,13 @@ Zusätzlich sind [Verweis](Std_LinkMake/de.md) Aktionen verfügbar.
         
         : [Einfache Gruppe](Std_LinkMakeGroup/de.md), [Gruppe mit Verweisen](Std_LinkMakeGroup/de.md), [Gruppe mit Umwandlungsverweisen](Std_LinkMakeGroup/de.md).
 
+
+</div>
+
 ### Auswählen des Dokuments 
+
+
+<div class="mw-translate-fuzzy">
 
 Wenn du das aktive Dokument auswählst und mit der rechten Maustaste klickst, musst du zusätzlich zum {{MenuCommand/de|Expression actions}} und {{MenuCommand/de|Link actions}}, werden die folgenden Befehle angezeigt:
 
@@ -63,46 +91,32 @@ Wenn du das aktive Dokument auswählst und mit der rechten Maustaste klickst, mu
 
 -    {{MenuCommand/de|Close document}}: schließt das ausgewählte Dokument, indem es die Anwendung aufruft. `closeDocument()` Methode.
 
--    {{MenuCommand/de|Skip recomputes}}: wenn aktiv, werden die Objekte des Dokuments nicht automatisch [Neuberechnen](recompute/de.md).
+-    {{MenuCommand/de|Skip recomputes}}: wenn aktiv, werden die Objekte des Dokuments nicht automatisch [Neuberechnen](Std_Refresh/de.md).
 
     -   
         {{MenuCommand/de|Allow partial recomputes}}
         
-        : wenn aktiv, erlaubt das Dokument [Neuberechnen](recompute/de.md) nur für einige Objekte.
+        : wenn aktiv, erlaubt das Dokument [Neuberechnen](Std_Refresh/de.md) nur für einige Objekte.
 
--    {{MenuCommand/de|Markieren zum Neuberechnen}}: markiert alle Objekte des Dokuments als berührt und bereit für [Neuberechnen](recompute/de.md).
+-    {{MenuCommand/de|Markieren zum Neuberechnen}}: markiert alle Objekte des Dokuments als berührt und bereit für [Neuberechnen](Std_Refresh/de.md).
 
 -    {{MenuCommand/de|_ im ausgewählten Dokument, indem du die Dokumenten `addObject()` Methode.
 
+
+</div>
+
 ### Objekte auswählen 
+
+
+<div class="mw-translate-fuzzy">
 
 Sobald Objekte zum Dokument hinzugefügt wurden, zeigt ein Rechtsklick auf einen leeren Teil der Baumansicht zusätzlich zu den vorherigen Aktionen weitere Befehle an, die vom Objekttyp und dem aktiven Arbeitsbereich abhängen.
 
-Zum Beispiel mit angewähltem [Arbeitsbereich Entwurf](Draft_Workbench/de.md), wähle zuerst ein Objekt und klicke dann mit der rechten Maustaste auf eine leere Stelle in der Baumansicht:
 
--    {{MenuCommand/de|_ sichtbar oder unsichtbar.
+</div>
 
--    {{MenuCommand/de|[Show selection](Std_ShowSelection/de.md)}}: macht die ausgewählten Objekte sichtbar.
 
--    {{MenuCommand/de|[Hide selection](Std_HideSelection/de.md)}}: macht die ausgewählten Objekte unsichtbar.
-
--    {{MenuCommand/de|_ nicht mehr auswählbar; verwende diesen Befehl erneut, um die Wirkung aufzuheben. Es setzt das Attribut `Selectable` des Objekts auf `True` oder `False`. Ändere die Eigenschaft, indem Du {{PropertyView/de|Selectable}} im [Property Editor](Property_Editor/de.md) umschaltest.
-
--    {{MenuCommand/de|[Select all instances](Std_TreeSelectAllInstances/de.md)}}: wählt alle Instanzen dieses Objekts in der Baumansicht aus.
-
--    {{MenuCommand/de|[Appearance](Std_SetAppearance/de.md)}}: startet den Dialog zum Ändern der Farbe und Größe von Linien und Knoten sowie der Farbe von Flächen.
-
--    {{MenuCommand/de|_ ändert.
-
--    {{MenuCommand/de|[Schnitt](Std_Cut/de.md)}}: deaktiviert, wenn der Rechtsklick nicht auf das Objekt erfolgt.
-
--    {{MenuCommand/de|[Kopie](Std_Copy/de.md)}}: kopiert ein Objekt in den Speicher.
-
--    **[Einfügen](Std_Paste/de.md)**: fügt das kopierte Objekt in das Dokument ein; die Kopie wird am Ende der Baumansicht hinzugefügt.
-
--    {{MenuCommand/de|[Löschen](Std_Delete/de.md)}}: entfernt das Objekt aus dem Dokument und aus der Baumansicht, indem die Methode `Objekt entfernen()` des Dokuments aufgerufen wird.
-
--    {{MenuCommand/de|Hilfsmittel}}: Zusätzliche inhaltliche Befehle, die von der [Arbeitsbereich Entwurf](Draft_Workbench/de.md) zur Verfügung gestellt werden.
+<div class="mw-translate-fuzzy">
 
 Wenn ein Objekt ausgewählt wird, z.B. eine [ Entwurfslinie](Draft_Line/de.md), und ein Rechtsklick auf das gleiche Objekt ausgeführt wird, können zusätzliche Befehle verfügbar sein:
 
@@ -119,6 +133,36 @@ Wenn ein Objekt ausgewählt wird, z.B. eine [ Entwurfslinie](Draft_Line/de.md), 
 -    **Neuberechnung**: Berechnet das ausgewählte Objekt neu.
 
 -    **Umbenennen**:beginnt mit der Bearbeitung des Namens des ausgewählten Objekts. Dies ermöglicht es, das Attribut `Label` zu ändern, nicht aber das Attribut `Name`, da letzteres schreibgeschützt ist.
+
+
+</div>
+
+### Keyboard actions 
+
+The following keyboard actions are available when the focus is on the Tree view:
+
+-    **Ctrl**\+**F**: opens a search box at the bottom of the tree, allowing to search and reach objects using their names or labels.
+
+-   Expand and collapse actions using **Alt**+**Arrow** combinations: <small>(v0.20)</small> 
+    -   
+        **Alt**
+        
+        \+**Left**: collapses selected item(s).
+
+    -   
+        **Alt**
+        
+        \+**Right**: expands selected item(s).
+
+    -   
+        **Alt**
+        
+        \+**Up**: expands selected item(s) with all their tier-1 children collapsed (deeper children remain unchanged).
+
+    -   
+        **Alt**
+        
+        \+**Down**: expands selected item(s) with all their tier-1 children expanded as well (deeper children remain unchanged).
 
 ## Überlagerungssymbole
 

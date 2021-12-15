@@ -9,12 +9,9 @@ The <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [F
 
 ## Usage
 
-Usage is pretty straightforward:
-
-1.  Install the Fasteners Workbench via the [Addon Manager](Addon_Manager.md).
-2.  Start a new document in FreeCAD.
-3.  Select the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners Workbench](Fasteners_Workbench.md) from the [Workbench dropdown list](Std_Workbench.md).
-4.  The [toolbars](#Toolbars.md) belonging to the workbench will be displayed.
+1.  Install the Fasteners Workbench via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
+2.  Create a new document.
+3.  Select the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Fasteners Workbench](Fasteners_Workbench.md) from the [Workbench dropdown list](Std_Workbench.md). The [toolbars](#Toolbars.md) belonging to the workbench will be displayed.
 
 Simple Usage: Clicking on any of the fastener buttons will create that fastener at the origin with default properties. To change the properties of a fastener select it and go to the **Data** tab of the [Property editor](Property_editor.md).
 

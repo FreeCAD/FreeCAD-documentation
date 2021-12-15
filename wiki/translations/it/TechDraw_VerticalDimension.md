@@ -1,6 +1,14 @@
-# TechDraw VerticalDimension/it
 ---
-- GuiCommand:/it   Name:TechDraw Dimension Vertical   Name/it:Dimensione verticale   Workbenches:[MenuLocation:TechDraw → Dimensione verticale   Shortcut:   SeeAlso:[[TechDraw Dimension Length/it|Lunghezza](TechDraw_Workbench/it___TechDraw]].md), [Orizzontale](TechDraw_Dimension_Horizontal/it.md)---
+- GuiCommand:/it
+   Name:TechDraw Dimension Vertical
+   Name/it:Dimensione verticale
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   MenuLocation:TechDraw → Dimensione verticale
+   Shortcut:
+   SeeAlso:[Lunghezza](TechDraw_LengthDimension/it.md), [Orizzontale](TechDraw_HorizontalDimension/it.md)
+---
+
+# TechDraw VerticalDimension/it
 
 
 </div>
@@ -10,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Dimensione verticale aggiunge una dimensione verticale ad una Vista. La dimensione può essere la distanza tra due vertici, la lunghezza di uno spigolo o la distanza verticale tra 2 spigoli. La distanza indicata all\'inizio è la distanza proiettata (vale a dire, come mostrata nel disegno), ma utilizzando lo strumento **<img src="images/TechDraw_Dimension_Link.svg" width=16px> [Link alla dimensione](TechDraw_Dimension_Link/it.md)** essa può essere modificata con la distanza 3D effettiva.
+Lo strumento Dimensione verticale aggiunge una dimensione verticale ad una Vista. La dimensione può essere la distanza tra due vertici, la lunghezza di uno spigolo o la distanza verticale tra 2 spigoli. La distanza indicata all\'inizio è la distanza proiettata (vale a dire, come mostrata nel disegno), ma utilizzando lo strumento **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Link alla dimensione](TechDraw_LinkDimension/it.md)** essa può essere modificata con la distanza 3D effettiva.
 
 
 </div>
@@ -24,7 +32,7 @@ Lo strumento Dimensione verticale aggiunge una dimensione verticale ad una Vista
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare i punti o i bordi che definiscono la misura.
-2.  Premere il pulsante **<img src="images/TechDraw_Dimension_Vertical.svg" width=24px> [Dimensione verticale](TechDraw_Dimension_Vertical/it.md)
+2.  Premere il pulsante **<img src="images/TechDraw_VerticalDimension.svg" width=24px> [Dimensione verticale](TechDraw_VerticalDimension/it.md)
 **
 3.  Viene aggiunta una dimensione alla vista. La dimensione può essere trascinata nella posizione desiderata.
 
@@ -38,7 +46,7 @@ To change the properties of a dimension object either double-clicking it in the 
 
 <div class="mw-translate-fuzzy">
 
-Gli oggetti dimensione sono vulnerabili ai problemi di \"[denominazione topologica](Topological_naming_problem/it.md)\". Per maggiori informazioni vedere le informazioni nello strumento [Lunghezza](TechDraw_Dimension_Length/it.md).
+Gli oggetti dimensione sono vulnerabili ai problemi di \"[denominazione topologica](Topological_naming_problem/it.md)\". Per maggiori informazioni vedere le informazioni nello strumento [Lunghezza](TechDraw_LengthDimension/it.md).
 
 
 </div>
@@ -48,7 +56,7 @@ Gli oggetti dimensione sono vulnerabili ai problemi di \"[denominazione topologi
 
 <div class="mw-translate-fuzzy">
 
-Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_Dimension_Length/it.md)
+Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_LengthDimension/it.md)
 
 
 </div>

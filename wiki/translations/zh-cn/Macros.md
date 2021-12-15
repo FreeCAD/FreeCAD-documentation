@@ -44,7 +44,13 @@ Enable the console output in the menu **Edit → Preferences → General → Mac
 ![](images/Macros.png ) 
 *宏对话框, 列举了系统中存在的宏*
 
-您可以管理您的宏：删除、编辑、复制、安装，或者从头创建一个新的宏。如果您要编辑一个宏，它便会在编辑器窗口中打开，在此就可以修改其代码。可以用{{button|Addons...}}按钮来安装一个新的宏，它将跳转至[Addon Manager](AddonManager.md)。
+
+<div class="mw-translate-fuzzy">
+
+您可以管理您的宏：删除、编辑、复制、安装，或者从头创建一个新的宏。如果您要编辑一个宏，它便会在编辑器窗口中打开，在此就可以修改其代码。可以用{{button|Addons...}}按钮来安装一个新的宏，它将跳转至[Addon Manager](Std_AddonMgr.md)。
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -137,9 +143,12 @@ You can manually install extensions, however, it is much simpler to just use the
 -   [How to install additional workbenches](How_to_install_additional_workbenches.md)
 
 
+
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _ _
 

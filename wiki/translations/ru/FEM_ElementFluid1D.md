@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/ru
    Name:FEM ElementFluid1D
-   Name:FEM ElementFluid1D
+   Name/ru:FEM ElementFluid1D
    MenuLocation:Model → Fluid section for 1D flow
    Workbenches:[FEM](FEM_Workbench/ru.md)
    Shortcut:
@@ -9,9 +9,6 @@
 ---
 
 # FEM ElementFluid1D/ru
-
-
-</div>
 
 ## Описание
 

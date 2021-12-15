@@ -21,20 +21,20 @@ La commande <img alt="" src=images/Draft_Offset.svg  style="width:24px;"> **Draf
 
 Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
-1.  Sélectionner un objet au choix.
-2.  Il existe plusieurs façons d\'invoquer la commande :
+1.  Sélectionner un objet au choix. L\'objet doit se trouver sur le [Draft plan de travail](Draft_SelectPlane.md) en cours.
+2.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Offset.svg" width=16px> [Décalage de l'objet sélectionné](Draft_Offset/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Offset.svg" width=16px> Décalage** dans le menu.
     -   Utilisez le raccourci clavier : **O** puis **S**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
-4.  Le panneau de tâches **Offset** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+4.  Le panneau de tâches **Décalage** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 5.  Pour définir la distance de décalage, effectuez l\'une des opérations suivantes :
     -   Choisissez un point dans la [Vue 3D](3D_view/fr.md).
     -   Entrez une valeur numérique :
         1.  Assurez-vous que le pointeur se trouve du bon côté de l\'objet dans la [Vue 3D](3D_view/fr.md).
         2.  Ne déplacez pas le pointeur en dehors de la [Vue 3D](3D_view/fr.md).
         3.  Saisissez une **Distance**.
-        4.  Appuyez sur **Enter** pour terminer la commande.
+        4.  Appuyez sur **Entrée** pour terminer la commande.
 
 ## Options
 
@@ -50,7 +50,7 @@ Les raccourcis clavier à caractère unique et les touches de modification menti
 ## Remarques
 
 -   Pour créer une version décalée d\'une [Draft B-splines](Draft_BSpline/fr.md), ses points sont décalés individuellement et une nouvelle spline est calculée à partir des nouveaux points. Cette nouvelle spline n\'est pas parallèle à la spline d\'origine. Pour un décalage parallèle d\'une [Draft B-splines](Draft_BSpline/fr.md), la commande [Part Décalage 2D](Part_Offset2D/fr.md) doit être utilisée.
--   La commande Draft Offset ne peut pas traiter les [Draft Courbes de Bézier](Draft_BezCurve/fr.md). Utilisez plutôt la commande [Part Décalage 2D](Part_Offset2D/fr.md).
+-   La commande Draft Décalage ne peut pas traiter les [Draft Courbes de Bézier](Draft_BezCurve/fr.md). Utilisez plutôt la commande [Part Décalage 2D](Part_Offset2D/fr.md).
 
 ## Préférences
 

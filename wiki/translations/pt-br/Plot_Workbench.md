@@ -48,9 +48,15 @@ If you decide to install the <img alt="" src=images/Workbench_Plot.svg  style="w
 
 ## Scripting
 
+
+<div class="mw-translate-fuzzy">
+
 ## Scripting 
 
-Como o Plot Workbench é uma camada sobre `matplotlib`, você está livre para usar qualquer função desta biblioteca em instâncias de plotagem. Veja [exemplos de scripting](Scripting_examples/pt-br.md) para exemplos.
+Como o Plot Workbench é uma camada sobre `matplotlib`, você está livre para usar qualquer função desta biblioteca em instâncias de plotagem. Veja \[\[Scripting\_and\_macros/pt-br\|Scripting and macros\] para exemplos.
+
+
+</div>
 
 ## Tutorial
 

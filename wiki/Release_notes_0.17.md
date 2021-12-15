@@ -23,7 +23,7 @@ The **PartDesign workbench** has been completely overhauled. A new Body containe
 
 ![](images/PartDesign_Body_tree.png )
 
-The new [Addon manager](AddonManager.md) available from the Tools menu (which was previously available as the [addons installer macro](https://github.com/FreeCAD/FreeCAD-addons)) makes installing and updating add-on modules and macros much easier and standardized across Windows, Mac OS X and Linux.
+The new [Addon manager](Std_AddonMgr.md) available from the Tools menu (which was previously available as the [addons installer macro](https://github.com/FreeCAD/FreeCAD-addons)) makes installing and updating add-on modules and macros much easier and standardized across Windows, Mac OS X and Linux.
 
 <img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
 
@@ -207,7 +207,7 @@ The PartDesign workbench received massive changes, the fruit of combined efforts
 
 The Path workbench has been massively overhauled in version 0.17. The overhaul saw the removal of all older HeeksCNC code and replacement of the libarea python wrapper with the new Path-Area module. As a result operations have gotten much more powerful, faster, with a simplified code base.
 
--   Support for 2.5D operations is complete including [contour](Path_Contour.md), [face-milling](Path_MillFace.md), [pocketing](Path_Pocket_Shape.md), [profiling](Path_ProfileFace.md), and [drilling](Path_Drilling.md)
+-   Support for 2.5D operations is complete including [contour](Path_Profile.md), [face-milling](Path_MillFace.md), [pocketing](Path_Pocket_Shape.md), [profiling](Path_Profile.md), and [drilling](Path_Drilling.md)
 
 -   Limited support for [3D pocketing](Path_Pocket_3D.md) operations.
 

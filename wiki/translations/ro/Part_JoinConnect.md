@@ -103,7 +103,7 @@ Algoritmii din spatele instrumentelor de conectare sunt relativ de simple, iar �
 
 ### Note
 
--   Dacă la etapa 1 fiecare obiect rămâne într-o singură bucată, rezultatul Connect va fi echivalent cu [union](Union_Union.md) de obiecte.
+-   Dacă la etapa 1 fiecare obiect rămâne într-o singură bucată, rezultatul Connect va fi echivalent cu [union](Part_Fuse/ro.md) de obiecte.
 -   Now, all compounds supplied are exploded prior to connecting. This means that self-intersecting compounds, which are invalid for all other Boolean operations, are valid for Connect. (This may be changed in the future.)
 -   The \"largest\" piece is the one that has largest mass. That is, for solids, volumes are compared; for shells and faces, areas are compared, and so on.
 -   Since FreeCAD v0.17.8053, and if OCC version is 6.9.0 and above, Connect is almost as fast as all other Boolean operations. For older versions, Connect is approximately 5 times slower than a regular Boolean operation, and works only on solids.

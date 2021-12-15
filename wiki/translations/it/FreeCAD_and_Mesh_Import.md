@@ -18,11 +18,11 @@ Dopo l\'importazione, per FreeCAD, il modello è solo un insieme di facce. Si po
 
 Per fare questo:
 
-1.  Passare nel\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_workbench/it.md)
+1.  Passare nel\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench/it.md)
 2.  Selezionare la mesh e andare in **Part → _
 3.  Cliccare **OK** nel dialogo
 4.  Selezionare la forma appena creata
-5.  Andare in **Part → [Converti in solido](Part_ConvertToSolid/it.md)**
+5.  Andare in **Part → [Converti in solido](Part_MakeSolid/it.md)**
 6.  Selezionare il solido appena creato
 7.  Andare in **Part → _
 

@@ -3,7 +3,7 @@
    Name:Draft ShapeString
    MenuLocation:Drafting → Shape from text
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   Shortcut:**S** **S**
+   Shortcut:
    Version:0.14
    SeeAlso:[Draft Text](Draft_Text.md), [Draft Label](Draft_Label.md), [Part Extrude](Part_Extrude.md)
 ---
@@ -26,7 +26,6 @@ For Windows users: please read the [Font file selection on Windows](#Font_file_s
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_ShapeString.svg" width=16px> [Draft ShapeString](Draft_ShapeString.md)** button.
     -   Select the **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
-    -   Use the keyboard shortcut: **S** then **S**.
 2.  The **ShapeString** task panel opens.
 3.  Click a point in the [3D view](3D_view.md), or type coordinates.
 4.  Optionally press the **Reset Point** button to reset the point to the origin.
@@ -39,7 +38,7 @@ For Windows users: please read the [Font file selection on Windows](#Font_file_s
 
 ## Opções
 
--   Press **Esc** or the **Close** button to abort the command.
+-   Press **Esc** or the **Cancel** button to abort the command.
 
 ## Notas
 

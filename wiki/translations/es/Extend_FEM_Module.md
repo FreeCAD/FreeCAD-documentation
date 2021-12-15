@@ -118,7 +118,7 @@ Most files related to a solver reside in a sub-package of the `femsolver` packag
 -   **femsolver/elmer/tasks.py:** Module containing one task class per task required for a solver implementation. Those tasks divide the process of solving a analysis into the following steps: check, prepare, solve, results.
 -   **femcommands/commands.py:** Adds the solver document object to the active document. Required to access the solver object from the GUI.
 
-There is a tutorial of adding a new solver: [Add FEM solver tutorial](Add_FEM_solver_tutorial.md)
+There is a tutorial of adding a new solver: _
 
 ## Equations
 
@@ -134,7 +134,7 @@ Most solver specific options (e.g. max. iterations, method of solving, etc) are 
 
 The actual implementation can be split into the generic and the solver specific part. The generic part can be found in the `femsolver.equationbase` module. The solver specific part resides inside individual Equations sub-packages of the solver packages (e.g. `femsolver/elmer/equations`).
 
-Adding a new equations to Elmer should be very easy. For newcomers there exists a tutorial which shows how to add a new equation to Elmer by adding the existing elasticity solver to FreeCAD: [Add FEM equation tutorial](Add_FEM_equation_tutorial.md).
+Adding a new equations to Elmer should be very easy. For newcomers there exists a tutorial which shows how to add a new equation to Elmer by adding the existing elasticity solver to FreeCAD: [Add FEM Equation Tutorial](Add_FEM_Equation_Tutorial.md).
 
 ## Restricciones
 

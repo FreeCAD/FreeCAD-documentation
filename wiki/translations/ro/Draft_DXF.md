@@ -126,24 +126,21 @@ Some of the features and limitations of this exporter are:
 
 ## Preferences
 
+See [Import Export Preferences](Import_Export_Preferences.md).
 
-<div class="mw-translate-fuzzy">
+## DWG
 
-### Preferințe
+Because the DWG format is a proprietary, closed and undocumented format it is hard for open-source projects like FreeCAD to support it. That is why FreeCAD relies on external converters to read and write DWG files. To import a DWG file a converter is used to create a DXF first, which can then be processed by the FreeCAD DXF importer. When exporting to DWG the opposite conversion happens: the DXF created by the FreeCAD DXF exporter is turned into a DWG.
 
-Următorii parametrii pot fi specificați în tab-ul [Draft Preferences](Draft_Preferences.md) (menu Edit -\> Preferences -\> Draft):
+Note that the DXF format allows a 1:1 conversion of the DWG format. All applications that can read and write DWG files can do the same with DXF files, with no data loss. So asking for DXF files instead of DWG files, and supplying DXF files in turn, should not cause any problems.
 
--   Import style: Aceasta vă permite să alegeți modul în care vor fi desenate obiecte din fișierul dxf în FreeCAD. Puteți alege între:
-    -   None: aceasta este cea mai rapidă, nu există nici o conversie, toate obiectele vor fi negre cu lățimea de 2px (implicit FreeCAD)
-    -   Utilizați culoarea și lungimea liniei implicite: Toate obiectele importate dxf vor lua linia curentă / culoarea curentă din bara de comandă draft
-    -   Culoarea originală și lungimea liniei: Obiectele vor păstra culoarea și lățimea liniei (dacă este specificat) pe care le au în fișierul dxf
-    -   Culorile mapate la lungimea liniei: Dacă este selectată această opțiune, se folosește opțiunea de fișier de mapare de mai jos.
--   Fișier de mapare a culorilor: aceasta vă permite să specificați un fișier de mapare care va fi utilizat pentru traducerea culorilor dxf la culoare și la lungime de linie, la fel ca un stil de complot care funcționează în Autocad. Fișierul de mapare trebuie să fie un fișier text separat de file. Există o utilitate gratuită numită _ disponibile aici.
--   Import texts: Aceasta vă permite să specificați dacă doriți să importați texte și dimensiuni dxf sau nu. Multe texte ar putea face munca voastră în FreeCAD foarte grea, deci este posibil să doriți să folosiți această opțiune ceva timp.
--   Import obiecte layout: Porniți această opțiune dacă doriți să importați obiect spațiu de hârtie. Acestea vor fi îmbinate în același document ca obiectele spațiului model.
+There is built-in support for the following DWG converters:
 
+-   [LibreDWG](https://www.gnu.org/software/libredwg) (open-source, lacks support for some DWG entities).
+-   [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) (free).
+-   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial). <small>(v0.20)</small> 
 
-</div>
+See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) for more information.
 
 ## Scripting
 

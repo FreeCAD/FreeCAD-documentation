@@ -3,7 +3,7 @@
    Name:Draft AutoGroup
    MenuLocation:Draft → Utilities → AutoGroup
    Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
-   SeeAlso:[Std Group](Std_Group.md), [Entwurf VisGroup](Draft_VisGroup.md)
+   SeeAlso:[Draft Layer](Draft_Layer.md), [Std Group](Std_Group.md)
    Version:0.17
 ---
 
@@ -14,13 +14,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug \"Autogruppe\" legt eine ausgewählte [Std Gruppe](Std_Group.md) oder ein verwandtes Element wie [Entwurf VisGruppe](Draft_VisGroup.md), [Archbauwerk](Arch_Site.md), [Archbau](Arch_Building.md) oder [Archbauteil](Arch_BuildingPart.md) als aktive Autogruppe fest. Wenn eine Autogruppe festgelegt ist, werden neue Objekte beim Erstellen automatisch in die angegebene Gruppe verschoben.
-
-
-</div>
+The **Draft AutoGroup** command changes the active [Draft Layer](Draft_Layer.md) or, [optionally](#Preferences.md), the active [Std Group](Std_Group.md) or group-like [Arch](Arch_Workbench.md) object. New [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md) objects are automatically placed in this active layer or group.
 
 This command was originally intended for groups, hence its name, but was redesigned in FreeCAD version 0.19 when a layer system was introduced. Because handling layers is now the default for the command the rest of this page will primarily focus on layers.
 

@@ -1,10 +1,10 @@
 # Compile on MacOS/pl
-**There is an experimental FreeCAD Docker container that is being tested for FreeCAD development. Read more about it at [[Compile on Docker]]**
+**Istnieje eksperymentalny kontener FreeCAD Docker, który jest testowany pod kątem rozwoju FreeCAD. Przeczytaj więcej na ten temat na stronie [Kompilacja w Docker](Compile_on_Docker/pl.md)**
 
 
 {{TOCright}}
 
-## Overview
+## Informacje ogólne 
 
 This page describes how to compile the FreeCAD source code on MacOS X. For other platforms, see [Compiling](Compiling.md).
 
@@ -168,10 +168,6 @@ brew uninstall --ignore-dependencies --force cartr/qt4/shiboken@1.2 cartr/qt4/py
 ### Fortran
 
 *\"No CMAKE\_Fortran\_COMPILER could be found.\"* during configuration - Older versions of FreeCAD will need a fortran compiler installed. With Homebrew, do \"brew install gcc\" and try configuring again, giving cmake the path to Fortran ie -DCMAKE\_Fortran\_COMPILER=/opt/local/bin/gfortran-mp-4.9 . Or, preferably use a more current version of FreeCAD source!
-
-### OpenGL
-
-See [OpenGL on MacOS](OpenGL_on_MacOS.md) for OpenGL issues when Qt 4.8 and earlier are used on MacOS.
 
 ### FreeType
 

@@ -63,24 +63,22 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_MainFullscreen.svg  style="width:32px;"> [Fullscreen](Std_MainFullscreen.md): Toggles the main window\'s fullscreen mode.
 
-
-<div class="mw-translate-fuzzy">
-
--   Vizualizări standard
-    -   <img alt="vertical-align: top=zoom-all" src=images/View-zoom-all.png  style="width:24px;"> [Vizualizare integrală](Std_ViewFitAll.md)
-    -   _ [Vizualizare selecție](Std_ViewFitSelection.md)
-    -   _ Axonometric 0
-    -   _ Față 1
-    -   _ Sus 2
-    -   _ Dreapta 3
-    -   _ Spate 4
-    -   _ Jos 5
-    -   _ Stânga 6
-    -   <img alt="" src=images/Std_RotateLeft.png  style="width:24px;"> [Rotație stânga](Std_RotateLeft.md)
-    -   <img alt="" src=images/Std_RotateRight.png  style="width:24px;"> [Rotație sreapta](Std_RotateRight.md)
-
-
-</div>
+-   Standard views
+    -   <img alt="" src=images/Std_ViewFitAll.svg  style="width:32px;"> [Fit all](Std_ViewFitAll/ro.md): Fits all visible objects inside the view.
+    -   <img alt="" src=images/Std_ViewFitSelection.svg  style="width:32px;"> [Fit selection](Std_ViewFitSelection/ro.md): Fits selected objects inside the view.
+    -   Axonometric
+        -   <img alt="" src=images/Std_ViewIsometric.svg  style="width:32px;"> [Isometric](Std_ViewIsometric/ro.md): Switches to an isometric view.
+        -   <img alt="" src=images/Std_ViewDimetric.svg  style="width:32px;"> [Dimetric](Std_ViewDimetric/ro.md): Switches to a dimetric view.
+        -   <img alt="" src=images/Std_ViewTrimetric.svg  style="width:32px;"> [Trimetric](Std_ViewTrimetric/ro.md): Switches to a trimetric view.
+    -   <img alt="" src=images/Std_ViewHome.svg  style="width:32px;"> [Home](Std_ViewHome/ro.md): Switches to the default home view. <small>(v0.19)</small> 
+    -   <img alt="" src=images/Std_ViewFront.svg  style="width:32px;"> [Front](Std_ViewFront/ro.md): Switches to the front view.
+    -   <img alt="" src=images/Std_ViewTop.svg  style="width:32px;"> [Top](Std_ViewTop/ro.md): Switches to the top view.
+    -   <img alt="" src=images/Std_ViewRight.svg  style="width:32px;"> [Right](Std_ViewRight/ro.md): Switches to the right view.
+    -   <img alt="" src=images/Std_ViewRear.svg  style="width:32px;"> [Rear](Std_ViewRear/ro.md): Switches to the rear view.
+    -   <img alt="" src=images/Std_ViewBottom.svg  style="width:32px;"> [Bottom](Std_ViewBottom/ro.md): Switches to the bottom view.
+    -   <img alt="" src=images/Std_ViewLeft.svg  style="width:32px;"> [Left](Std_ViewLeft/ro.md): Switches to the left view.
+    -   <img alt="" src=images/Std_RotateLeft.png  style="width:32px;"> [Rotate Left](Std_ViewRotateLeft/ro.md): Rotates the view to the left.
+    -   <img alt="" src=images/Std_RotateRight.png  style="width:32px;"> [Rotate Right](Std_ViewRotateRight/ro.md): Rotates the view to the right.
 
 
 <div class="mw-translate-fuzzy">
@@ -109,19 +107,13 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_SelBoundingBox.svg  style="width:32px;"> [Bounding box](Std_SelBoundingBox.md): Toggles the bounding box highlighting mode. <small>(v0.19)</small> 
 
-
-<div class="mw-translate-fuzzy">
-
--   [Stereo](Std_ViewIvStereo.md)
-    -   <img alt="" src=images/Std_Tool7.png  style="width:24px;"> roșu/verde
-    -   <img alt="" src=images/Std_Tool7.png  style="width:24px;"> quad buffer
-    -   <img alt="" src=images/Std_Tool7.png  style="width:24px;"> rânduri intrețesute
-    -   <img alt="" src=images/Std_Tool7.png  style="width:24px;"> coloane întrețesuste
-    -   <img alt="" src=images/Std_Tool6.png  style="width:24px;"> Stereo Off
-    -   <img alt="" src=images/Std_Tool8.png  style="width:24px;"> [Editare poziția camerei](Std_ViewIvIssueCamPos.md)
-
-
-</div>
+-   Stereo
+    -   <img alt="" src=images/Std_ViewIvStereoRedGreen.svg  style="width:32px;"> [Stereo red/cyan](Std_ViewIvStereoRedGreen/ro.md): Switches to red/cyan stereo view.
+    -   <img alt="" src=images/Std_ViewIvStereoQuadBuff.svg  style="width:32px;"> [Stereo quad buffer](Std_ViewIvStereoQuadBuff/ro.md): Switches to quad buffer stereo view.
+    -   <img alt="" src=images/Std_ViewIvStereoInterleavedRows.svg  style="width:32px;"> [Stereo Interleaved Rows](Std_ViewIvStereoInterleavedRows/ro.md): Switches to interleaved rows stereo view.
+    -   <img alt="" src=images/Std_ViewIvStereoInterleavedColumns.svg  style="width:32px;"> [Stereo Interleaved Columns](Std_ViewIvStereoInterleavedColumns/ro.md): Switches to interleaved columns stereo view.
+    -   <img alt="" src=images/Std_ViewIvStereoOff.svg  style="width:32px;"> [Stereo Off](Std_ViewIvStereoOff/ro.md): Switches stereo view off.
+    -   <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:32px;"> _ and the [Python console](Python_console.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -151,13 +143,7 @@ The following tools are available in this menu:
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
--   [Clipping plane](Std_ClippingPlane.md)
-
-
-</div>
+-   <img alt="" src=images/Std_ToggleClipPlane.svg  style="width:32px;"> [Clipping plane](Std_ToggleClipPlane/ro.md): Temporarily clips objects.
 
 
 <div class="mw-translate-fuzzy">
@@ -275,19 +261,14 @@ The following tools are available in this menu:
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
--   [Panels](Std_Panels.md)
-    -   Report
-    -   Tree
-    -   Property
-    -   Selection
-    -   Combo View
-    -   [Python console](Std_PythonConsole.md)
-
-
-</div>
+-   Panels **-- Each panels can be switched on or off in the submenu.**
+    -   [Report view](Report_view/ro.md)
+    -   [Tree view](Tree_view/ro.md)
+    -   [Property view](Property_editor/ro.md)
+    -   [Selection view](Selection_view/ro.md)
+    -   [Combo view](Combo_view/ro.md)
+    -   [Python console](Python_console/ro.md)
+    -   [DAG view](DAG_view/ro.md)
 
 -   Tree view actions
     -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> _ SyncView mode. <small>(v0.19)</small> 

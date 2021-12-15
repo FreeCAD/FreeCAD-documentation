@@ -3,7 +3,7 @@
    Name:SheetMetal Extrude
    Name/de:SheetMetal KanteVerlängern
    MenuLocation:SheetMetal → Extend Face
-   Workbenches:[Blech (SheetMetal)](SheetMetal_Workbench/de.md)
+   Workbenches:[SheetMetal (Blech)](SheetMetal_Workbench/de.md)
    Shortcut:**E**
 ---
 
@@ -11,74 +11,68 @@
 
 ## Beschreibung
 
+Der Befehl <img alt="" src=images/SheetMetal_Extrude.svg  style="width:24px;"> **Kante verlängern** erweitert eine Blechplatte an einer ausgewählten Kantenfläche.
 
-<div class="mw-translate-fuzzy">
-
-Der Befehl <img alt="" src=images/SheetMetal_Extrude.svg  style="width:24px;"> **Kante verlängern** erweitert eine Blechfläche.
-
-
-</div>
-
-It creates a **simple extension** along the face normal of the selected edge face:
+Er erzeugt eine **einfache Verlängerung** in Richtung der Flächennormalen der ausgewählten Kantenfläche:
 
 <img alt="" src=images/SheetMetal_Extrude-01.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-02.png  style="width:200px;">
 
-If an outline sketch is added it creates **interlocking geometry** to close a profile:
+Wenn eine Konturskizze hinzugefügt wird, erzeugt er **verzahnte Geometrie** um ein Profil zu schließen:
 
 <img alt="" src=images/SheetMetal_Extrude-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-04.png  style="width:200px;">
 
 
 
-*Three profiles with outline sketches to add -> three results*
+*Drei Profile mit hinzuzufügenden Konturskizzen -> Drei Ergebnisse*
 
 ## Anwendung
 
-### Simple Extension 
+### Einfache Verlängerung 
 
-1.  Select one or more edge face(s) to be extended.
-2.  Activate the <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> **SheetMetal Extrude** command using one of the following:
-    -   The **<img src="images/SheetMetal_Extrude.svg" width=16px> [Extend Face](SheetMetal_Extrude.md)** button.
-    -   The **SheetMetal → <img src="images/SheetMetal_Extrude.svg" width=16px> Extend Face** menu option.
-    -   The keyboard shortcut: **E**.
-3.  Change the value of the property **length** to adjust the length of the extension.
+1.  Eine oder mehrere Flächen auswählen, die verlängert werden soll.
+2.  Den Befehl <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> **Kante verlängern** aktivieren durch
+    -   Die Schaltfläche **<img src="images/SheetMetal_Extrude.svg" width=16px> [Kante verlängern](SheetMetal_Extrude/de.md)**.
+    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_Extrude.svg" width=16px> Kante verlängern**.
+    -   Das Tastenkürzel: **E**.
+3.  Den Wert der {{PropertyData/de|length}} verändern, um die Länge der Verlängerung einzustellen.
 
-### Interlocking Extension 
+### Verzahnte Erweiterung 
 
-1.  Select one edge face to be extended.
-2.  Activate the <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> **SheetMetal Extrude** command (see above).
-3.  Add a coplanar outline sketch to the property **Sketch**.
-4.  Set the property **Use Subtraction** to `True` to create cut-outs to make room for the extensions.
-5.  Set the property **Offset** to adjust the clearance around the extension.
+1.  Eine Kantenfläche auswählen, die erweitert werden soll.
+2.  Den Befehl <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> **Kante verlängern** aktivieren (siehe oben).
+3.  Eine komplanare Konturskizze zur {{PropertyData/de|Sketch}} hinzufügen.
+    -   Den Menüeintrag **SheetMetal → <img src="images/SheetMetal_Extrude.svg" width=16px> Kante verlängern**.
+4.  Den Wert der {{PropertyData/de|Offset}} verändern, um den Spalt um die Erweiterung herum einzustellen.
 
 <img alt="" src=images/SheetMetal_Extrude-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-05.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-06.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-04.png  style="width:200px;">
 
 
 
-*Three profiles -> position of the sketches -> results without cut-outs -> final results*
+*Drei Profile -> Position der Skizzen -> Ergebnisse ohne Ausschnitte -> Endergebnisse*
 
-### Notes
+### Hinweise
 
--   A sketch can contain more than one outline.
+-   Eine Skizze kann mehr als nur eine Kontur enthalten.
 
-:   After inserting a sketch, at least one of its outlines must at least touch one opposite face or the tool will fail to create any extension or cut-out.
-
-
+:   Nach dem Einfügen einer Skizze muss mindestens eine ihrer Konturen eine gegenüberliegende Fläche wenigstens berühren, andernfalls kann das Werkzeug weder eine Erweiterung noch einen Ausschnitt erzeugen.
 
 
 
-:   Just one outline touching an opposite face is enough to create extension geometry from all outlines of the sketch.
 
--   Each cut-out will have a cuboid shape, no matter what shape the corresponding outline sketch is.
 
--   Shapes other than rectangles may behave little bit strange and even though the object can be unfolded, the result will not turn out as expected.
+:   Nur eine Kontur, die eine gegenüberliegende Fläche berührt, reicht um Erweiterungsgeometrie von allen Konturen einer Skizze zu erzeugen.
+
+-   Jeder Ausschnitt hat die Gestalt eines Quaders, egal welche form die zugehörige Konturskizze hat.
+
+-   Alle Formen außer Rechtecken können sich etwas merkwürdig verhalten und auch wenn das Objekt abgewickelt werden kann, wird das Ergebnis anders ausfallen als erwartet.
 
 <img alt="" src=images/SheetMetal_Extrude-07.png  style="width:250px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_Extrude-08.png  style="width:250px;">
 
 
 
-*Three outline sketches and their resulting extensions: separate triangle plate with a rectangular cut-out, circle without clearance -> unfold solid is split at an unexpected position *
+*Drei Konturskizzen und ihre resultierenden Erweiterungen: einzelne Dreiecksplatte mit rechteckigem Ausschnitt, Kreis ohne Spalt -> Abwicklungskörper wurde an unerwarteter Stelle aufgetrennt*
 
--   In an extension operation it is recommended to leave the property **Refine** set to `True` (default).
+-   Für eine Erweiterung wird empfohlen, die {{PropertyData/de|Refine}} auf `True` (default) gesetzt zu lassen.
 
 ## Eigenschaften
 
@@ -111,19 +105,13 @@ Ein SheetMetal-Extend-Objekt wird von einem [Part-Formelement](Part_Feature/de.m
 
 {{Properties_Title/de|Parameters Ext.}}
 
-
-<div class="mw-translate-fuzzy">
-
 -    {{PropertyData/de|Offset|Distance}}: \"Offset for subtraction\". Abstand zur Aussparung, Standardwert: {{value|20,00 µm}}.
 
 -    {{PropertyData/de|Refine|Bool}}: \"Use Refine\". Standardwert: `True`.
 
 -    {{PropertyData/de|Sketch|Link}}: \"Wall Sketch\". Skizze für den zu erweiternden Bereich
 
--    {{PropertyData/de|Use Substraction|Bool}}: \"Use Substraction\". Aussparung anwenden, Standardwert: `False`
-
-
-</div>
+-    {{PropertyData/de|Use Subtraction|Bool}}: \"Use Subtraction\". Aussparung anwenden, Standardwert: `False`
 
 
 

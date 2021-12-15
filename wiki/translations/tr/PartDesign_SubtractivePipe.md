@@ -17,7 +17,7 @@
 
 1.  Press the **<img src="images/PartDesign_SubtractivePipe.svg" width=24px> '''Subtractive pipe'''** button.
 2.  In the **Select feature** dialog, select a sketch to be used as first cross-section and click **OK**.
-    -   Alternatively, a single sketch can be selected prior to pressing the Subtractive pipe button.
+    -   Alternatively, a sketch or a face of a 3D object (<small>(v0.20)</small> ) can be selected prior to pressing the Subtractive pipe button.
 3.  In the **Pipe parameters** under **Profile**, press the **Object** button.
 4.  Select the sketch to be used as path in the 3D view:
     -   Alternatively, edges of the body can be selected by pressing **Add Edge** and selecting edges in the 3D view.
@@ -75,12 +75,16 @@
 
 -    **Transformation**: *Constant* uses a single cross-section. *Multisection* uses two or more cross-sections. *Linear*, *S-shape* and *Interpolation* are currently not functional.
 
-## Limitations
+## Notes
 
--   Sketches used for cross-sections must form closed profiles.
--   It is not possible to use a vertex as cross-section.
+-   To better control the shape of the pipe, it is recommended that all cross-sections have the same number of segments. For example, for a pipe between a rectangle and a circle, the circle should be broken down into 4 connected arcs.
+-   You can pipe from or toward a single [vertex](Glossary#V.md) from a sketch or the body. <small>(v0.20)</small> 
+-   When you select a [vertex](Glossary#V.md) as section, it must in most cases be the last section of the pipe. You can change the order of the sections by dragging them in the list.
+-   The path can only be from a single sketch, feature or ShapeBinder. In case you want to sweep along several edges from different sketches, use a **<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [SubShapeBinder](PartDesign_SubShapeBinder.md)**.
+-   The path must not contain branches or T-junctions etc. Loops are allowed.
+-   It can lead to issues if the cross-section is not perpendicular to the path in 3D.
 -   A cross-section cannot lie on the same plane as the one immediately preceding it.
--   To better control the shape of the pipe, it is recommended that all the cross-sections have the same number of segments. For example, for a pipe between a rectangle and a circle, the circle may be broken down into 4 connected arcs.
+-   The cross-sections must not contain disjoint or crossing loops.
 
 
 

@@ -80,7 +80,7 @@ Ca și în cazul oricărei constrângeri de referință, este posibil să modifi
 
 Constrângerea stabilește unghiul polar al direcției liniei. Este unghiul dintre linie și axa X a schiței.
 
-### Arc span (v0.15) 
+### Span of a circular arc 
 
 
 <div class="mw-translate-fuzzy">
@@ -112,7 +112,7 @@ In acest mod, constrângerea fixată unghiulară a unui arc circular.
 
 În acest mod, constrângerea stabilește unghiul dintre două linii. Nu este necesar ca liniile să se intersecteze.
 
-### Between curves at intersection (angle-via-point) (v0.15) 
+### Between curves at intersection (angle-via-point) 
 
 
 <div class="mw-translate-fuzzy">

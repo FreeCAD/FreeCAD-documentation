@@ -17,12 +17,12 @@ This tutorial attempts to help developers understand how to add their own custom
 
 ## Prerequisite
 
--   Familiarity with cplusplus syntax
+-   Familiarity with C++ syntax
 -   Ability to compile FreeCAD from source
 
 ## Relevant source files 
 
-At the time of writing this documentation the relevant source code files required are located at:
+At the time of writing this documentation the relevant source code files are located at:
 
 -    {{FileName|src/Gui/NavigationStyle.(h,cpp)}}
     
@@ -46,7 +46,9 @@ We can refer to previous code commits that added different mouse modes for orien
 
 {{Tutorials navi
 
-}} [Developer Documentation](Developer_Documentation.md)
+}}
+
+_
 
 ---
-[documentation index](../README.md) > Adding a new mouse navigation option to FreeCAD
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Adding a new mouse navigation option to FreeCAD

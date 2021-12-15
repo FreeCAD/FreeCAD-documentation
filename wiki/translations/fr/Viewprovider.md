@@ -1,7 +1,7 @@
 # Viewprovider/fr
 ## Introduction
 
-Les [Viewproviders](Viewprovider/fr.md) sont des classes qui définissent l\'apparence des objets dans la [vue en arborescence](tree_view/fr.md) et la [vue 3D](3D_view/fr.md) et comment ces derniers interagiront avec certaines actions graphiques telles que la [sélection](selection/fr.md).
+Les [Viewproviders](Viewprovider/fr.md) sont des classes qui définissent l\'apparence des objets dans la [vue en arborescence](Tree_view/fr.md) et la [vue 3D](3D_view/fr.md) et comment ces derniers interagiront avec certaines actions graphiques telles qu\'une [sélection](Selection_methods/fr.md).
 
 Elles complètent les [Objets définis par script](scripted_objects/fr.md). Alors que la classe de base de l\'objet scripté définit les [propriétés](property/fr.md) de ses **data**, le viewprovider définit les [propriétés](property/fr.md) de **view**. Ces propriétés de vue ne sont pas des informations essentielles de l\'objet car elles n\'indiquent que des informations superficielles telles que la largeur de ligne, la couleur de ligne, la couleur du visage, etc\... Dans un terminal uniquement, le fournisseur de vue (viewprovider) n\'est pas chargé car il n\'y aura pas d\'interface pour manipuler ces propriétés visibles.
 

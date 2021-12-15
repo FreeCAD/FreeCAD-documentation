@@ -51,8 +51,8 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  Selezionare un oggetto che si desidera riflettere
 2.  Premere il pulsante **<img src="images/Draft_Mirror.svg" width=16px> [Simmetria](Draft_Mirror/it.md)**. Se nessun oggetto è selezionato, si viene invitati a selezionarne uno.
-3.  Fare clic su un primo punto nella vista 3D o digitare una [coordinata](Draft_Coordinates/it.md) e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**.
-4.  Fare clic su un secondo punto nella vista 3D o digitare una [coordinata](Draft_Coordinates/it.md) e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**. Questi punti definiscono una linea che, insieme alla vista della telecamera, definisce un piano specchiante che viene utilizzato per creare l\'oggetto specchiato.
+3.  Fare clic su un primo punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
+4.  Fare clic su un secondo punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**. Questi punti definiscono una linea che, insieme alla vista della telecamera, definisce un piano specchiante che viene utilizzato per creare l\'oggetto specchiato.
 
 
 </div>

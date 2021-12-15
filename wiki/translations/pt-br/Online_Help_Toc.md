@@ -96,7 +96,7 @@ There is another table of contents for the _.
 
 </div>
 
--   Python scripting
+-   [Python scripting](Scripting_and_macros.md)
     -   [Working with macros](Macros.md)
     -   [Script tutorial](Scripts.md)
     -   [Introduction to Python](Introduction_to_Python.md)

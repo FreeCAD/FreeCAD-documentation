@@ -1,4 +1,4 @@
-# <img alt="Ikonka FreeCAD dla środowiska Elementów złącznych" src=images/Fasteners_workbench_icon.svg  style="width:64px;"> Fasteners Workbench/pl
+# <img alt="Ikonka FreeCAD dla środowiska pracy Elementy złączne" src=images/Fasteners_workbench_icon.svg  style="width:64px;"> Fasteners Workbench/pl
 
 
 {{TOCright}}
@@ -9,12 +9,11 @@
 
 ## Użycie
 
-Użycie jest całkiem proste:
-
-1.  Zainstaluj środowisko Elementów Złącznych poprzez [Menadżer dodatków](Std_AddonMgr/pl.md).
-2.  Rozpocznij nowy dokument w programie FreeCAD.
+1.  Zainstaluj środowisko Elementów Złącznych poprzez <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md).
+2.  Utwórz nowy dokument.
 3.  Wybierz środowisko <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> [Elementów Złącznych](Fasteners_Workbench/pl.md) z [listy menu rozwijanego](Std_Workbench/pl.md).
-4.  Na pasku narzędzi pojawi się seria śrub *(patrz [Pasek narzędzi Elementów złącznych](#Pasek_narz.C4.99dzi_Element.C3.B3w_z.C5.82.C4.85cznych.md) poniżej)*.
+
+Zostaną wyświetlone [paski narzędzi](#Toolbars.md) należące do danego środowiska pracy.
 
 Proste użycie: Kliknięcie na dowolną śrubę spowoduje utworzenie tej śruby w punkcie odniesienie położenia z domyślnymi właściwościami. Aby zmienić rozmiar / długość wybierz nowo utworzoną śrubę, następnie przejdź do zakładki **Dane** w [panelu właściwości](Property_editor/pl.md).
 

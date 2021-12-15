@@ -51,6 +51,9 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 ### Data
 
 
+{{TitleProperty|Base}}
+
+
 <div class="mw-translate-fuzzy">
 
 ### Dati
@@ -147,6 +150,11 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 
 \(1\) queste proprietà sono comuni a tutti i tipi di Viste.
 
+### View
+
+
+<div class="mw-translate-fuzzy">
+
 ### Vista
 
 -    **Keep Label**: se è vero mostra sempre Visualizza etichetta.
@@ -168,6 +176,9 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 -    **VertCenterLine**: mostra una linea centrale verticale attraverso la vista.
 
 -    **ShowSectionLine**: mostra o nasconde la linea della sezione se applicabile.
+
+
+</div>
 
 ## Script
 

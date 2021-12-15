@@ -30,7 +30,7 @@ Sólo se admite la arquitectura MacIntel. No hay versiones disponibles para la a
 
 <div class="mw-translate-fuzzy">
 
-El código fuente de FreeCAD está siempre disponible en el repositorio de código fuente del proyecto. Compilar FreeCAD por ti mismo te permite utilizar las características más recientes que se están desarrollando, pero requiere un poco de conocimiento informático, aunque el procedimiento es bastante sencillo. El acceso al código fuente se explica [aquí](Compile_on_Linux/es#Obtener_la_fuente.md), y tenemos instrucciones detalladas para compilar en [Windows](Compile_on_Windows/es.md), [Linux](Compile_on_Linux/Unix/es.md) y [MacOS](Compile_on_MacOS/es.md).
+El código fuente de FreeCAD está siempre disponible en el repositorio de código fuente del proyecto. Compilar FreeCAD por ti mismo te permite utilizar las características más recientes que se están desarrollando, pero requiere un poco de conocimiento informático, aunque el procedimiento es bastante sencillo. El acceso al código fuente se explica [aquí](Compile_on_Linux/es#Obtener_la_fuente.md), y tenemos instrucciones detalladas para compilar en [Windows](Compile_on_Windows/es.md), [Linux/Unix](Compile_on_Linux/es.md) y [MacOS](Compile_on_MacOS/es.md).
 
 
 </div>
@@ -186,7 +186,7 @@ Clicking the middle mouse button re-centers the view on the location of the curs
 |Zoom_mode_text=Zoom mode: hold the **Ctrl** and **Shift** keys, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 
 |Rotate_view_text=Hold the middle mouse button, then press and hold the left mouse button, then move the pointer.
 
-The cursor location when the middle mouse button is pressed determines the center of rotation. Rotation works like spinning a ball which rotates around its center. If the buttons are released before you stop the mouse motion, the view continues [spinning](spinning.md), if this is enabled.
+The cursor location when the middle mouse button is pressed determines the center of rotation. Rotation works like spinning a ball which rotates around its center. If the buttons are released before you stop the mouse motion, the view continues spinning, if this is enabled.
 
 A double click with the middle mouse button sets a new center of rotation.
 |Rotate_view_mode_text=Rotate mode: hold the **Shift** key, press the right mouse button once, then move the pointer. <small>(v0.17)</small> 

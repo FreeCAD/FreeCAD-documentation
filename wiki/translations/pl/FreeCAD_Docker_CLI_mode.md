@@ -28,7 +28,7 @@ All of FreeCAD\'s dependencies are already installed, compatible with each other
 1.  Pull the Docker image.{{Code|lang=bash|code=
     docker pull amrit3701/freecad-cli:latest
     }}
-2.  When you successfully pulled docker image, now you can run image.{{Code|lang=bash|code=
+2.  When you successfully pulled Docker image, now you can run image.{{Code|lang=bash|code=
     docker run -it amrit3701/freecad-cli:lastest bash
     }}
 

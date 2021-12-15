@@ -1,11 +1,11 @@
 ---
 - GuiCommand:/tr
-   Name:Draft Center
+   Name:Draft Snap Center
    Name/tr:Taslak Merkez
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)
    MenuLocation:Taslak → [Yakalama](Draft_Snap/tr.md) → Merkez
    Shortcut:
-   SeeAlso:[Taslak Yakalama](Draft_Snap/tr.md), [Taslak Geçiş yakalama](Draft_ToggleSnap/tr.md)
+   SeeAlso:[Taslak Yakalama](Draft_Snap/tr.md), [Taslak Geçiş yakalama](Draft_Snap_Lock/tr.md)
 ---
 
 # Draft Snap Center/tr
@@ -49,7 +49,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 ## Nasıl kullanılır 
 
 1.  
-    {{Button | <img src="images/_Snap_Lock.svg_" width= 16px> [ Taslak Geçiş yakala](Draft_ToggleSnap/tr_.md)}}ve {{Button | <img src="images/_Snap_Center.svg_" width= 16px> [ Merkez yakala](Draft_Center.md)}} açın
+    {{Button | <img src="images/_Draft_Snap_Lock.svg_" width= 16px> [ Taslak Geçiş yakala](Draft_Snap_Lock/tr_.md)}}ve {{Button | <img src="images/Draft_Snap_Center.svg_" width= 16px> [ Merkez yakala](Draft_Snap_Center.md)}} açın
 
 2.  Bir şekil çizmek için Taslak aracı seçin.
 

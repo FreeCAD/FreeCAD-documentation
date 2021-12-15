@@ -12,6 +12,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -24,7 +26,11 @@ Pentru a face un profil elicoidală, acesta trebuie extrudat cu ajutorul instrum
 
 </div>
 
-![](images/PartDesign_Involute_Gear_01.png ) 
+For more detailed information see Wikipedia\'s entries for: [Gear](https://en.wikipedia.org/wiki/Gear) and [Involute Gear](https://en.wikipedia.org/wiki/Involute_gear)
+
+![](images/PartDesign_Involute_Gear_01.png )
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -80,6 +86,10 @@ Valoarea implicită este de 20 de grade. ([More info](http://en.wikipedia
 
 
 </div>
+
+## Tutorials
+
+[How to make gears in FreeCAD](https://www.youtube.com/watch?v=8VNhTrnFMfE)
 
 ## Related
 

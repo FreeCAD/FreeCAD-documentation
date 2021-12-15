@@ -79,6 +79,23 @@ Por tanto la conversión de CSG a BREP en teoría debería ser posible. Mientras
 
 OpenSCAD funciona internamente sobre mallas. Algunas operaciones que son útiles en mallas no son significativas en un modelo BREP y no pueden ser totalmente compatibles. Entre estos se encuentran el convex hull, minkowski sum, glide y subdiv. Actualmente ejecutamos el binario OpenSCAD para realizar operaciones de hull y minkwoski e importar el resultado. Esto significa que la geometría involucrada será triangulada. En OpenSCAD, a menudo se usa una escala no uniforme, que no impone ningún problema cuando se usan mallas. En nuestra geometría, las primitivas geométricas del núcleo (líneas, secciones circulares, etc.) se convierten a BSpline antes de realizar tales deformaciones. Esas líneas de BS son conocidas por causar problemas en operaciones booleanas posteriores. Una solución automática no está disponible en este momento. Por favor, siéntase libre de publicar en el foro si encuentra tales problemas. A menudo, tales problemas se pueden resolver remodelando piezas pequeñas. Una deformación de un cilindro puede sustituirse por una extrusión de una elipsis.
 
+## Importing text 
+
+Importing OpenSCAD code with texts requires that the fonts that are used are properly installed on your system. You can verify this by opening OpenSCAD as a standalone tool and checking the list in **Help → Font List**. The list will also give you the correct font names. If a font does not appear in the list after installing, you may have to manually copy the font file to the appropriate system directory.
+
+Importing texts is relatively slow. Behind the scenes FreeCAD uses a DXF file created by OpenSCAD. The more contours there are the slower the import.
+
+It can be a good idea to first import a simple test case (replace {{Incode|NameOfFont}} with the correct font name):
+
+    TESTFONT="NameOfFont";
+    linear_extrude(0.001) {
+      text("A", size=5, font=TESTFONT, script="Latn");
+    };
+
+The {{Incode|<nowiki>script="Latn"</nowiki>}} parameter can be left out here, but is required if the text string does not contain any letters, but only punctuation and/or numbers.
+
+Please note that {{Incode|<nowiki>use <FONT>;</nowiki>}} statements in your source files are ignored when importing in FreeCAD. Under OpenSCAD the effect of a {{Incode|use}} statement is that the provided font file is temporarily added to the list of known fonts (although even there the statement does not work when a script is modified interactively).
+
 ## Pistas
 
 Cuando se importa [DXF](DXF/es.md) establecer la precisión Borrador a una cantidad sensible para que afecte a la detección de aristas conectadas.

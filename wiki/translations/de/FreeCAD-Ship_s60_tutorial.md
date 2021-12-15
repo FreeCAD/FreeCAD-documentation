@@ -249,7 +249,7 @@ Einige relevante Daten werden in Echtzeit angezeigt:
 -   **Verdrängung**\': Schiffsverdrängung (Salzwasser berücksichtigt, durch 1,025 teilen, um das verdrängte Volumen zu kennen).
 -   **XCB**\'\': Auftriebsmittelpunkt X Koordinate (relativ zum Mittschiffsabschnitt).
 
-Wenn die **Annehmen** Schaltfläche gedrückt wird, wird ein Plot ausgeführt (je nach Komplexität der Geometrie kann dies einige Zeit dauern, du kannst den Fortschritt am Terminal sehen und die Arbeit durch Drücken von **Strg**+**C** stoppen). Wenn die Aufgabe beendet ist, erzeugt FreeCAD einen Plot (siehe [Plot-Arbeitsbereich-Dokumentation](Plot_Arbeitsbereich/de.md)) und eine Kalkulationstabelle (siehe [Tabellenkalkulation Arbeitsbereich Dokumentation](Spreadsheet_Workbench/de.md)).
+Wenn die **Annehmen** Schaltfläche gedrückt wird, wird ein Plot ausgeführt (je nach Komplexität der Geometrie kann dies einige Zeit dauern, du kannst den Fortschritt am Terminal sehen und die Arbeit durch Drücken von **Strg**+**C** stoppen). Wenn die Aufgabe beendet ist, erzeugt FreeCAD einen Plot (siehe [Plot-Arbeitsbereich-Dokumentation](Plot_Workbench/de.md)) und eine Kalkulationstabelle (siehe [Tabellenkalkulation Arbeitsbereich Dokumentation](Spreadsheet_Workbench/de.md)).
 
 <img alt="Konstruktionsentwurf Transversalflächenkurve. " src=images/FreeCAD-Ship-s60Areas.png  style="width:800px;">
 

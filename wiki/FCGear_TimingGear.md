@@ -16,11 +16,8 @@ The purpose of timing gears is to allow the camshaft and crankshaft to turn the 
 
 Timing gears are connected to a timing belt or timing chain.
 
-:   ![](images/Timing-Gear_example.png )
-:   
-    
+ ![](images/Timing-Gear_example.png )  
 *Above: Timing gear*
-    
 
 ## Usage
 

@@ -3,7 +3,7 @@
    Name/ro:TechDraw Dimension Link
    MenuLocation:TechDraw → Dimension Link
    Workbenches:[TechDraw](TechDraw_Workbench.md)
-   SeeAlso:[TechDraw NewView](TechDraw_NewView.md), [TechDraw NewProjGroup](TechDraw_NewProjGroup.md)
+   SeeAlso:[TechDraw View](TechDraw_View.md), [TechDraw ProjectionGroup](TechDraw_ProjectionGroup.md)
 ---
 
 # TechDraw LinkDimension/ro
@@ -22,16 +22,6 @@ The Link Dimension tool\'s most common use is in dimensioning isometric views in
 The link instructs the Dimension to compute it\'s value directly from the 3D geometry.
 
 ## Cum se folosește 
-
-1.  Creați Dimensiunea dvs. pe pagina de desen, ca de obicei.
-2.  Selectați geometria (ex Edge) în vizualizarea modelului 3D care se potrivește dimensiunilor dvs..
-3.  Apăsați butonul **<img src="images/TechDraw_Dimension_Link.png" width=24px> [Dimension Link](TechDraw_Dimension_Link.md)
-**
-4.  Se va deschide un dialog. Selectați 1 sau mai multe Dimensiuni care să se lege la geometria 3D selectată.
-5.  Apăsați \"OK\"
-
-
-
 
 1.  Create an appropriate dimension on the drawing page using any of [TechDraw LengthDimensionh](TechDraw_LengthDimension.md), [TechDraw HorizontalDimension](TechDraw_HorizontalDimension.md), etc. This dimension will be in the right place on the Page, but will show the projected dimension value.
 2.  Select the geometry in the 3D view, for example, an edge, that corresponds to the projected geometry of your dimension.
@@ -81,13 +71,7 @@ to be defined
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{TechDraw Tools navi

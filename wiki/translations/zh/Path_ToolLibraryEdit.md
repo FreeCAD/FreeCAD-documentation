@@ -30,7 +30,7 @@
 
 -   导入\...: 从一个XML文件导入刀具表. {{Note|Warning|该功能当前有些问题，如果你从来没有在FreeCAD中使用过XML文件，该功能可能无法工作。}}
 -   导出\...: 以XML文件格式导出工具表。
--   新建刀具: 打开一个可以输入你的刀具参数的对话框。详见[新刀具](Path_NewTool.md)
+-   新建刀具: 打开一个可以输入你的刀具参数的对话框。详见新刀具
 -   删除: 删除当前所选行。{{Note|Warning|即便你取消会话刀具依旧会从你的刀具表中删除。}}
 -   上移: 你无法编辑刀具序号，但你可以将所选行上移来减少其刀具序号。。
 -   下移: 你也可以向下移动所选行来增大其刀具编号。
@@ -46,7 +46,7 @@
 <div class="mw-translate-fuzzy">
 
 1.  选择一个[刀路作业](Path_Job.md)
-2.  点击 **<img src="images/Path_ToolLibraryEdit.png" width=16px> [刀具管理器](Path_EditToolsTable.md)** 按钮
+2.  点击 **<img src="images/Path_ToolLibraryEdit.svg" width=16px> [刀具管理器](Path_ToolLibraryEdit/zh.md)** 按钮
 3.  创建新刀具或者调整现有刀具属性。
     至少设置刀具直径, FreeCAD需要它来计算半径补偿。 截至版本0.17这是唯一需要的用于刀路创建的参数，然而如果你希望之后使用模拟刀具，你也可以增加切削刃角和切削刃高。
     ![](images/Path-ToolAdd.gif )

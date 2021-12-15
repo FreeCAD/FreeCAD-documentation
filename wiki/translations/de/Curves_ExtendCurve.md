@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Kurven VerlängernKurve
+   Name:Curves ExtendCurve
+   Name/de:Kurven VerlängernKurve
    MenuLocation:Kurven → Kurve Verlängern
    Workbenches:[Kurven](Curves_Workbench/de.md)
    Shortcut:None

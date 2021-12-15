@@ -1,6 +1,12 @@
-# Sketcher ToggleConstruction/ja
 ---
-- GuiCommand:/jp   Name:Sketcher_ToggleConstruction   Workbenches:[パートデザイン](Sketcher_Workbench/jp___スケッチャー]],_[[PartDesign_Workbench/jp.md)|MenuLocation:Sketch → Sketcher geometries → Toggle construction line---
+- GuiCommand:/ja
+   Name:Sketcher_ToggleConstruction
+   Name/ja:Sketcher_ToggleConstruction
+   Workbenches:[スケッチャー](Sketcher_Workbench/ja.md), [パートデザイン](PartDesign_Workbench/ja.md)
+   MenuLocation:Sketch → Sketcher geometries → Toggle construction line
+---
+
+# Sketcher ToggleConstruction/ja
 
 
 </div>
@@ -22,7 +28,7 @@
 
 <div class="mw-translate-fuzzy">
 
-**注意：** v0.13からコンストラクションラインを[PartDesign Revolve機能の回転軸として使用できるようになりました](PartDesign_Revolve/jp.md)。
+**注意：** v0.13からコンストラクションラインを[PartDesign Revolve機能の回転軸として使用できるようになりました](PartDesign_Revolve/ja.md)。
 
 
 </div>
@@ -63,14 +69,12 @@ and once you **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [lea
 
 <img alt="" src=images/Sketcher_ConstructionMode_fr_02.png  style="width:450px;">
 
+## Notes
 
-<div class="mw-translate-fuzzy">
-
-
-{{languages/jp | {{en|Sketcher_ToggleConstruction}}  }}
+-    **<img src=images/Sketcher_CreatePoint.svg style="width:16px"> <img src=images/Sketcher_ToggleConstruction.svg style="width:Create Point](Sketcher_CreatePoint.md)**will always create points in construction mode regardless of the toolbar toggle state, select the desired points in the [3D view](3D_view.md) after creation and click **[16px"> [Toggle construction](Sketcher_ToggleConstruction.md)** to change them to normal geometry. <small>(v0.19)</small> 
 
 
-</div>
+
 
 
 {{Sketcher Tools navi

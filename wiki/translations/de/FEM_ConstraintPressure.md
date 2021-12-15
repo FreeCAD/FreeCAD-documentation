@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:FEM BeschränkungDruck
+   Name:FEM ConstraintPressure
+   Name/de:FEM BeschränkungDruck
    MenuLocation:Model → Mechanische Beschränkungen → Beschränkung Druck
    Workbenches:[FEM](FEM_Workbench/de.md)
    Shortcut:

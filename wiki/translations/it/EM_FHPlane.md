@@ -11,11 +11,17 @@
 
 # EM FHPlane/it
 
+
+</div>
+
 ## Descrizione
 
 The FHPlane tool inserts a FastHenry uniform conductive plane object.
 
-![](images/EM_FHPlane_Example.png ) 
+![](images/EM_FHPlane_Example.png )
+
+
+
 *FastHenry FHPlane*
 
 ## Utilizzo
@@ -30,7 +36,7 @@ In addition, you can also select together with the base object (the [Draft Recta
 1.  Create a [Draft Rectangle](Draft_Rectangle.md) or a [Part Box](Part_Box.md) object
 2.  Create one or more <img alt="" src=images/EM_FHNode.svg  style="width:16px;"> [EM FHNode](EM_FHNode.md) objects
 3.  Create one or more <img alt="" src=images/EM_FHPlaneHole.svg  style="width:16px;"> [EM FHPlaneHole](EM_FHPlaneHole.md) objects
-4.  Select the base object, the FHNode objects and the FHPlaneHole objects (for this multiple selection, you can point and click the objects in the [tree view](tree_view.md) or in the [3D view](3D_view.md), and to perform a multiple selection just keep the **CTRL** key pressed while selecting).
+4.  Select the base object, the FHNode objects and the FHPlaneHole objects (for this multiple selection, you can point and click the objects in the [tree view](Tree_view.md) or in the [3D view](3D_view.md), and to perform a multiple selection just keep the **CTRL** key pressed while selecting).
 5.  Press the **<img src="images/EM_FHPlane.svg" width=16px> [EM FHPlane](EM_FHPlane.md)** button, or press **E** then **P** keys.
 
 ### Remarks:
@@ -80,7 +86,9 @@ A FastHenry uniform conductive plane object is formed by laying down a gird of n
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The FHPlane object can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The FHPlane object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 plane = makeFHPlane(baseobj=None, thickness=None, seg1=None, seg2=None, nodes=[], holes=[], name='FHPlane')
 ```
@@ -101,7 +109,9 @@ plane = makeFHPlane(baseobj=None, thickness=None, seg1=None, seg2=None, nodes=[]
 
 -    `name`is the name of the object
 
-Example: 
+Example:
+
+
 ```python
 import FreeCAD, Draft, EM
 
@@ -117,6 +127,9 @@ hole = EM.makeFHPlaneHole(X=6.0,Y=3.5,Z=0.0)
 
 fhplane = EM.makeFHPlane(rect, thickness=1.0, seg1=15, seg2=15, nodes=[fhnode1, fhnode2], holes=[hole])
 ```
+
+
+
 
 
 {{EM Tools navi

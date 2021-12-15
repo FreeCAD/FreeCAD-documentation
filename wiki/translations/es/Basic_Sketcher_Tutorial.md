@@ -277,7 +277,7 @@ We should end up with a fully constrained sketch. It can be confirmed by noticin
 
 :   12.1. Salga del modo de edición del croquis pulsando el botón **Cerrar**, o pulsando **Esc** dos veces. El boceto debería aparecer en la [vista de árbol](tree_view/es.md) y en la [vista 3D](3D_view/es.md).
 :   12.2. Cambie al [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md).
-:   12.3. Con el croquis seleccionado en la <img src=images/PartDesign_Body.svg style="width:vista de árbol](tree_view/esl.md), pulse **[16px"> [DiseñoPieza Cuerpo](PartDesign_Body/es.md)**, elija el plano XY por defecto y pulse **OK**. El croquis debería aparecer ahora dentro del Cuerpo.
+:   12.3. Con el croquis seleccionado en la <img src=images/PartDesign_Body.svg style="width:vista de árbol](tree_view/es.md), pulse **[16px"> [DiseñoPieza Cuerpo](PartDesign_Body/es.md)**, elija el plano XY por defecto y pulse **OK**. El croquis debería aparecer ahora dentro del Cuerpo.
 :   12.4. Seleccione el croquis, y luego pulse **<img src=images/PartDesign_Pad.svg style="width:16px"> [DiseñoPieza Pastilla](PartDesign_Pad/es.md)**, elija las opciones por defecto y pulse **OK** para crear una extrusión sólida.
 
 <img alt="" src=images/09b_Sk01_Sketcher_fully_constrained_clean.png  style="width:" height="400px;"> <img alt="" src=images/10_Sk01_Sketcher_solid_extrusion.png  style="width:" height="400px;">

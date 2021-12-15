@@ -31,7 +31,7 @@ Include o primitivă tip casetă într-un Corp activ (Body) ca prima sa funcțio
 <div class="mw-translate-fuzzy">
 
 1.  Apăsați butonul **<img src="images/PartDesign_AdditiveBox.png" width=24px> '''Additive Box'''** . **Notă**: Adăugarea casetei face parte dintr-un meniu cu pictograma *Create an additive primitive*. După lansarea FreeCAD, Additive Box este cea afișată în bara de instrumente. Dacă este afișat o primitivă diferită, faceți clic pe caseta Adăugare săgeată din meniu.
-2.  Set the Primitive parameters and [Attachment](Part_Attachment.md).
+2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
 3.  Click **OK**.
 4.  A Box feature appears under the active Body.
 
@@ -56,7 +56,7 @@ Caseta poate fi editată după crearea acesteia în două moduri:
 
 <div class="mw-translate-fuzzy">
 
--    **Attachment**: definește atât modul atașament și decalajjul față de atașamentul (Offset). Vezi [Part Attachment](Part_Attachment.md).
+-    **Attachment**: definește atât modul atașament și decalajjul față de atașamentul (Offset). Vezi [Part EditAttachment](Part_EditAttachment.md).
 
 -    **Label**: Label given to the Box object. Change to suit your needs.
 

@@ -2,6 +2,7 @@
 - GuiCommand:/de
    Name:Std Workbench
    Name/de:Std Arbeitsbereich
+   Empty:1
    MenuLocation:Ansicht → Arbeitsbereich
    Workbenches:Alle
    SeeAlso:[Arbeitsbereiche](Workbenches/de.md)
@@ -24,7 +25,13 @@ Der **Std Arbeitsbereich** aktiviert einen ausgewählten [Arbetsbereich](Workben
 
 ## Hinweise
 
+
+<div class="mw-translate-fuzzy">
+
 -   Zusätzliche _ heruntergeladen werden.
+
+
+</div>
 
 ## Einstellungen
 

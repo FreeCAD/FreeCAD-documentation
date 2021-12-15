@@ -44,10 +44,10 @@ Są to narzędzia służące do tworzenia obiektów architektonicznych.
 -   <img alt="" src=images/Arch_Window.svg  style="width:32px;"> [Window](Arch_Window.md): tworzy okno z wykorzystaniem wybranego obiektu jako podstawy.
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Section Plane](Arch_SectionPlane.md): dodaje obiekt płaszczyzny przekroju do dokumentu.
 
--   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Axis tools](Arch_CompAxis.md): narzędzie Axis pozwala na umieszczenie szeregu osi w aktualnym dokumencie.
-    -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Axis](Arch_Axis.md): dodaje 1-kierunkowy układ osi do dokumentu.
-    -   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Axes system](Arch_AxisSystem.md): adds an axes system composed of several axes to the document.
-    -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Grid](Arch_Grid.md): dodaje do dokumentu obiekt podobny do siatki.
+-   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Narzędzia osi](Arch_CompAxis/pl.md): narzędzie Axis pozwala na umieszczenie szeregu osi w aktualnym dokumencie.
+    -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Osie](Arch_Axis/pl.md): dodaje 1-kierunkowy układ osi do dokumentu.
+    -   <img alt="" src=images/Arch_AxisSystem.svg  style="width:32px;"> [Układ osi](Arch_AxisSystem/pl.md): dodaje do dokumentu układ osi składający się z kilku osi.
+    -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Siatka](Arch_Grid/pl.md): dodaje do dokumentu obiekt podobny do siatki.
 
 -   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Roof](Arch_Roof.md): tworzy dach skośny z wybranej płaszczyzny.
 -   <img alt="" src=images/Arch_Space.svg  style="width:32px;"> [Space](Arch_Space.md): tworzy obiekt przestrzenny w dokumencie.
@@ -118,7 +118,7 @@ Są to dodatkowe narzędzia, które pomogą Ci w konkretnych zadaniach.
 
 ## API
 
-Moduł Arch może być używany w skryptach [Python](Python.md) i [makrodefiniacjach](macros/pl.md) za pomocą funkcji [Arch Python API](http://www.freecadweb.org/api/Arch.html).
+Moduł Arch może być używany w skryptach [Python](Python.md) i [makrodefiniacjach](Macros/pl.md) za pomocą funkcji [Arch Python API](Arch_API/pl.md).
 
 ## Poradniki
 

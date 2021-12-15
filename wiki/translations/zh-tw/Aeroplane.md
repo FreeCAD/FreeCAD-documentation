@@ -14,6 +14,8 @@
 
 </div>
 
+## First Steps 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -100,7 +102,7 @@ Click on [Placement and the three dots](Tasks_Placement.md) to get the Tasks vie
 
 <div class="mw-translate-fuzzy">
 
-We are now going to merge these two shapes together with a Boolean Operation. Click on the <img alt="" src=images/Part_Booleans.png  style="width:32px;"> [Booleans](Part_Booleans.md) button and the Tasks viewer will display the Boolean Operation selector.
+We are now going to merge these two shapes together with a Boolean Operation. Click on the <img alt="" src=images/Part_Boolean.svg  style="width:32px;"> [Boolean](Part_Boolean.md) button and the Tasks viewer will display the Boolean Operation selector.
 
 
 </div>

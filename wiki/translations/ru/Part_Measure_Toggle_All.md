@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/ru
-   Name:Std MeasureToggleAll
-   Name/ru:Std MeasureToggleAll
-   MenuLocation:[Measure](Std_Measure_Menu/ru.md) →  Скрыть/Показать всё
+   Name:Part Measure Toggle All
+   Name/ru:Part Measure Toggle All
+   MenuLocation:Measure → Скрыть/Показать всё
    Workbenches:[Part](Part_Workbench/ru.md)
    Shortcut:
    SeeAlso:

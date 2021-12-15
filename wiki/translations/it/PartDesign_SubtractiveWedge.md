@@ -17,7 +17,7 @@ Inserisce un cuneo sottrattivo nel corpo attivo. La sua forma viene sottratta da
 <div class="mw-translate-fuzzy">
 
 1.  Premere il pulsante **<img src="images/PartDesign_SubtractiveWedge.png" width=24px> '''Cuneo sottrattivo'''**. **Nota**: Il Cuneo sottrattivo fa parte di un menu di icone etichettato *Crea una primitiva sottrattiva*. Dopo l\'avvio, FreeCAD visualizza Cubo sottrattivo nella barra degli strumenti. Per accedere al Cuneo, fare clic sulla freccia verso il basso accanto all\'icona visibile e selezionare Cuneo nel menu.
-2.  Impostare i parametri della primitiva e il modo di [Associazione](Part_Attachment/it.md).
+2.  Impostare i parametri della primitiva e il modo di [Associazione](Part_EditAttachment/it.md).
 3.  Cliccare **OK**.
 4.  Nel corpo attivo viene visualizzata una funzione Cuneo.
 

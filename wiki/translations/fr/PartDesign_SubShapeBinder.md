@@ -2,8 +2,8 @@
 - GuiCommand:/fr
    Name:PartDesign SubShapeBinder
    Name/fr:PartDesign Sous forme liée
-   MenuLocation:Part Design → Create a sub-object shape binder
-   Workbenches:[PartDesign](PartDesign_Workbench.md)
+   MenuLocation:Conception de pièces → Créer une forme liée du sous-objet(s)
+   Workbenches:[PartDesign](PartDesign_Workbench/fr.md)
    Version:0.19
    SeeAlso:[PartDesign Forme liée](PartDesign_ShapeBinder/fr.md), [PartDesign Clone](PartDesign_Clone.md)
 ---
@@ -12,9 +12,9 @@
 
 ## Description
 
-[PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr.md) importe un élément d\'un autre corps dans le [Corps](PartDesign_Body/fr.md) actif. Il peut prendre la [Shape](Shape/fr.md) de, ou être \"lié\" à un ou plusieurs objets ou sous-éléments (bords ou faces) d\'un autre objet.
+[PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr.md) importe un élément d\'un autre corps dans le [Corps](PartDesign_Body/fr.md) actif. Il peut prendre la [forme](Shape/fr.md) de, ou être \"lié\" à un ou plusieurs objets ou sous-éléments (bords ou faces) d\'un autre objet.
 
-Ensuite, l\'objet liant résultant peut être déplacé ou être utilisé pour effectuer des opérations avancées comme [PartDesign Opérations booléennes](PartDesign_Boolean/fr.md) ou [PartDesign Protrusion](PartDesign_Pad/fr.md).
+Ensuite, l\'objet liant résultant peut être déplacé ou être utilisé pour effectuer des opérations avancées comme **<img src="images/PartDesign_Boolean.svg" width=16px> [PartDesign Opérations booléennes](PartDesign_Boolean/fr.md)** ou **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Protrusion](PartDesign_Pad/fr.md)**.
 
 Il peut également se lier à des objets imbriqués dans des [Std Parts](Std_Part/fr.md) et il suivra le placement relatif de ces fonctions. Ceci est utile dans le contexte de la création d\'[Assemblages](Assembly/fr.md) car souvent, l\'utilisateur doit référencer des [PartDesign Fonctionnalités](PartDesign_Feature/fr.md) qui sont déjà correctement placées dans un autre sous-assemblage.
 
@@ -29,9 +29,9 @@ Il peut également se lier à des objets imbriqués dans des [Std Parts](Std_Par
 
 ## Utilisation
 
-1.  Commencez avec un **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/PartDesign_AdditivePrism.svg style="width:Corps](PartDesign_Body/fr.md)** déjà en place contenant une seule [fonctionnalité](PartDesign_Feature/fr.md), par exemple un **[16px">  [Prisme](PartDesign_AdditivePrism/fr.md)**.
-2.  Créez un second **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/PartDesign_AdditiveBox.svg style="width:Corps](PartDesign_Body/fr.md)** contenant une seule [fonctionnalité](PartDesign_Feature/fr.md), par exemple, un **[16px"> [Cube additif](PartDesign_AdditiveBox/fr.md)**. Ce sera le corps actif.
-3.  Sélectionnez le premier corps entièrement puis appuyez sur **<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [SubShapeBinder](PartDesign_SubShapeBinder/fr.md)**.
+1.  Commencez avec un **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/PartDesign_AdditivePrism.svg style="width:corps](PartDesign_Body/fr.md)** déjà en place contenant une seule [fonction](PartDesign_Feature/fr.md), par exemple un **[16px">  [prisme](PartDesign_AdditivePrism/fr.md)**.
+2.  Créez un second **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/PartDesign_AdditiveBox.svg style="width:corps](PartDesign_Body/fr.md)** contenant une seule [fonction](PartDesign_Feature/fr.md), par exemple, un **[16px"> [cube additif](PartDesign_AdditiveBox/fr.md)**. Faites-en le [corps actif](PartDesign_Body/fr#Statut_actif.md).
+3.  Sélectionnez le premier corps entièrement puis appuyez sur **<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [Créer une forme liée du sous-objet(s)](PartDesign_SubShapeBinder/fr.md)**.
 4.  Modifiez les propriétés de cet objet liant, par exemple son placement.
 5.  Utilisez-le avec une autre opération telle que **<img src=images/PartDesign_Boolean.svg style="width:16px"> [Opération booléenne](PartDesign_Boolean/fr.md)**.
 
@@ -44,34 +44,34 @@ _, les propriétés suivantes sont disponibles dans l\'[Éditeur de propriétés
 
 {{TitleProperty|Base}}
 
--    {{PropertyData/fr|Support|XLinkSubList|hidden}}: support de la géométrie.
+-    **Support|XLinkSubList|hidden**: support de la géométrie.
 
--    {{PropertyData/fr|Fuse|Bool}}: si c\'est `True`, il fusionnera les formes liées solides.
+-    **Fuse|Bool**: si `True`, fusion les formes liées solides.
 
--    {{PropertyData/fr|Make Face|Bool}}: si c\'est `True`, il créera une face pour les fils liés.
+-    **Make Face|Bool**: si `True`, création d\'une face pour les polylignes liées.
 
--    {{PropertyData/fr|Claim Children|PropertyBool}}: s\'il s\'agit de `True`, il réclamera les objets liés en tant qu\'enfants dans la [vue en arborescence](Tree_view/fr.md).
+-    **Claim Children|PropertyBool**: si `True`, donnera les objets liés en tant qu\'enfants dans la [vue en arborescence](Tree_view/fr.md).
 
--    {{PropertyData/fr|Relative|Bool}}: s\'il s\'agit de `True`, il activera la liaison de sous-objet relative.
+-    **Relative|Bool**: si `True`, cela permettra d\'établir des liens relatifs entre les sous-objets.
 
--    {{PropertyData/fr|Bind Mode|Enumeration}}: mode de liaison, {{value|Synchronized}}, {{Value|Frozen}}, {{Value|Detached}}.
+-    **Bind Mode|Enumeration**: mode de liaison, {{value|Synchronized}}, {{Value|Frozen}}, {{Value|Detached}}.
 
--    {{PropertyData/fr|Partial Load|Bool}}: si c\'est `True`, cela permettra le chargement partiel des objets.
+-    **Partial Load|Bool**: si `True`, cela permettra le chargement partiel des objets.
 
--    {{PropertyData/fr|Context|XLink|hidden}}: objet conteneur de cet objet liant.
+-    **Context|XLink|hidden**: objet conteneur de cet objet liant.
 
--    {{PropertyData/fr|_Version|Integer|hidden}}: version de ce type d\'objet.
+-    **_Version|Integer|hidden**: version de ce type d\'objet.
 
--    {{PropertyData/fr|Shape|PartShape|hidden}}: [Part TopoShape](Part_TopoShape/fr.md) de cet objet.
+-    **Shape|PartShape|hidden**: [Part TopoShape](Part_TopoShape/fr.md) de cet objet.
 
 
 {{TitleProperty|Cache}}
 
--    {{PropertyData/fr|Body|Matrix|hidden}}: matrice d\'unité de cet objet.
+-    **Body|Matrix|hidden**: matrice d\'unité de cet objet.
 
 ### Vue
 
-Voir [Part Fonctionnalité](Part_Feature/fr.md).
+Voir [Part Feature](Part_Feature/fr.md).
 
 ## Liens
 

@@ -42,7 +42,7 @@ Designed as three (possibly Four) adjoining \'buildings\', from left to right in
 
 ### Initial Sketches 
 
-<img alt="" src=images/At03_02.jpg  style="width:640px;">
+<img alt="" src=images/Yvegg01x.jpg  style="width:260px;"> <img alt="" src=images/At03_02.jpg  style="width:640px;">
 
 # Modeling approach 
 

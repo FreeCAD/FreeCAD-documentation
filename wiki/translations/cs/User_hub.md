@@ -42,7 +42,7 @@ A máte-li nějaké poznatky, které byste rádi viděli i zde, není důvod aby
 -   [O aplikaci](About_FreeCAD/cs.md): Základní přehled FreeCADu
 -   _, [Unix/Linux](Install_on_Unix/cs.md) a [Mac](Install_on_Mac/cs.md)
 -   [Začínáme](Getting_started/cs.md): Rychlý přehled dostupných nástrojů
--   [FAQ](FAQ/cs.md): Často kladené otázky
+-   [FAQ](Frequently_asked_questions/cs.md): Často kladené otázky
 
 
 </div>

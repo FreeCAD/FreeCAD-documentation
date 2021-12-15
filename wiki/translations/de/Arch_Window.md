@@ -37,9 +37,15 @@ Jede auf ein [Arch Fenster](Arch_Window/de.md) zutreffende Information gilt auch
 5.  Klick auf die [3D Ansicht](3D_view/de.md) mit der Maus oder drücke die **Eingabe** Taste dreimal, um die X, Y, Z Koordinaten der Platzierung zu bestätigen.
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Hinweis:**
 
-Falls du die \"Parts Library\" über den [Erweiterungsverwalter](AddonManager/de.md) installierst, wird das Fenster-Werkzeug diese Bibliothek nach weiteren Voreinstellungen durchsuchen. Diese Voreinstellungen sind FreeCAD-Dateien, die jeweils ein einzelnes Fenster basierend auf einer parametrisierten Skizze mit benannten Beschränkungen enthalten. Du kannst zusätzliche Voreinstellungen im `parts_library`-Verzeichnis platzieren, so dass sie vom Fenster-Werkzeug gefunden werden.
+Falls du die \"Parts Library\" über den [Erweiterungsverwalter](Std_AddonMgr/de.md) installierst, wird das Fenster-Werkzeug diese Bibliothek nach weiteren Voreinstellungen durchsuchen. Diese Voreinstellungen sind FreeCAD-Dateien, die jeweils ein einzelnes Fenster basierend auf einer parametrisierten Skizze mit benannten Beschränkungen enthalten. Du kannst zusätzliche Voreinstellungen im `parts_library`-Verzeichnis platzieren, so dass sie vom Fenster-Werkzeug gefunden werden.
+
+
+</div>
 
 
 ```python

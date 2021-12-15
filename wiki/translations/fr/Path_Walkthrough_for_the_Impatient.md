@@ -5,12 +5,11 @@
 |Time=15 minutes
 |Author=Chrisb
 |FCVersion=0.19
-|Files=
 }}
 
 ## Objectif
 
-Démonstration de la création d\'une tâche <img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [atelier Path](Path_Workbench/fr.md) dérivé d\'un modèle 3D. Puis générer un G-Code correct pour dialoguer avec une fraiseuse CNC cible.
+Démonstration de la création d\'une tâche de l\'<img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [atelier Path](Path_Workbench/fr.md) dérivé d\'un modèle 3D, puis création du G-Code pour dialoguer avec une fraiseuse CNC cible.
 
 ## Le modèle 3D 
 
@@ -20,10 +19,10 @@ Démonstration de la création d\'une tâche <img alt="" src=images/Workbench_Pa
 
 
 
-*Au dessus: créé dans l'atelier <img src="images/Workbench_PartDesign.svg" width=24px> [Part Design](PartDesign_Workbench/fr.md) incluant un Corps, une boîte avec une poche, basée sur une esquisse (Sketch) orientée dans le plan XY 
+*Au dessus: créé dans l'atelier <img src="images/Workbench_PartDesign.svg" width=24px> [Part Design](PartDesign_Workbench/fr.md) incluant un Corps, une boîte avec une poche, basée sur une esquisse orientée dans le plan XY 
 **![](images/)*.**
 
-2\. Une fois le modèle 3D terminé, passez à l\'<img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [atelier Path Workbench](Path_Workbench/fr.md) via le [sélecteur d\'ateliers](Std_Workbench/fr.md) (menu déroulant)
+2\. Une fois le modèle 3D terminé, passez à l\'<img alt="" src=images/Workbench_Path.svg  style="width:32px;"> [atelier Path](Path_Workbench/fr.md) via le [sélecteur d\'ateliers](Std_Workbench/fr.md) (menu déroulant)
 
 ## La tâche 
 
@@ -39,7 +38,7 @@ Démonstration de la création d\'une tâche <img alt="" src=images/Workbench_Pa
 
     :   
         
-*Ci-dessus: la boîte de dialogue de création [Path Taĉhe](Path_Job/fr.md)*
+*Ci-dessus: la boîte de dialogue de création de [Path Tâche](Path_Job/fr.md)*
         
 
 4\. Cela ouvre une boîte de dialogue de création de tâche. Dans cette boîte de dialogue, cliquez sur **OK** pour accepter le corps comme modèle de base, sans modèle.
@@ -55,7 +54,7 @@ Démonstration de la création d\'une tâche <img alt="" src=images/Workbench_Pa
 :   ![](images/Path-JobOutput.png )
 :   
     
-*Ci-dessus: la boîte de dialogue Modifier de [Path Taĉhe](Path_Job/fr.md) avec l'onglet Sortie sélectionné*
+*Ci-dessus: la boîte de dialogue Modifier de [Path Tâche](Path_Job/fr.md) avec l'onglet Sortie sélectionné*
     
 
 ### Outils
@@ -63,15 +62,15 @@ Démonstration de la création d\'une tâche <img alt="" src=images/Workbench_Pa
 :   ![](images/Path-JobTools.png )
 :   
     
-*Ci-dessus: la boîte de dialogue Modifier [Path Taĉhe](Path_Job/fr.md) avec l'onglet Outils sélectionné*
+*Ci-dessus: la boîte de dialogue Modifier de [Path Tâche](Path_Job/fr.md) avec l'onglet Outils sélectionné*
     
 
-7\. Modifiezs l\'outil Par défaut en le sélectionnant et en cliquant sur le bouton **Edit** (modifier). Cela ouvre la fenêtre d\'édition du contrôleur d\'outil.
+7\. Modifier l\'outil Par défaut en le sélectionnant et en cliquant sur le bouton **Edit**. Cela ouvre la fenêtre d\'édition du contrôleur d\'outil.
 
 :   ![](images/Path-ToolConfig.gif )
 :   
     
-*Ci-dessus: la boîte de dialogue d'édition de [Path Taĉhe](Path_Job/fr.md) du sous-panneau du contrôleur d'outil*
+*Ci-dessus: la boîte de dialogue d'édition de [Path Tâche](Path_Job/fr.md) du sous-panneau du contrôleur d'outil*
     
 
 8\. Le nom donné à l\'outil et le numéro d\'outil correspondent au numéro d\'outil de la machine. Dans la boîte de dialogue (voir ci-dessus), c\'est Tool Nr. 4. Le contrôleur d\'outil est configuré pour des vitesses d\'avance horizontale et verticale de `2mm/s` et une vitesse de fraise de `2000 rpm`.

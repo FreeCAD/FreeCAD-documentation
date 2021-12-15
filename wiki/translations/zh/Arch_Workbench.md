@@ -12,7 +12,7 @@
 
 The <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _) files, and production of 2D floor plans in combination with the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md).
 
-建筑工作台导入来自[草图工作台的所有工具](Draft_Workbench.md)，因为它使用2D对象来构建其建筑对象。然而，建筑工作台还可以使用其他如[零件工作台和](Part_Workbench.md)[零件设计工作台的其他工作台上创建的实体对象](partdesign_workbench.md)。
+建筑工作台导入来自[草图工作台的所有工具](Draft_Workbench.md)，因为它使用2D对象来构建其建筑对象。然而，建筑工作台还可以使用其他如[零件工作台和](Part_Workbench.md)[零件设计工作台的其他工作台上创建的实体对象](PartDesign_Workbench.md)。
 
 FreeCAD的[BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling)功能在逐步融入具有所有基础BIM工具和[BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling)插件的建筑工作台。你可以通过工具→插件管理器, 在建筑工具之上添加一个新的界面层，其目的是使得Freecad中的BIM工作流更加直观和用户友好。
 
@@ -51,7 +51,7 @@ These are tools for creating architectural objects.
 
 -   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Axis tools](Arch_CompAxis.md): The Axis tool allows you to places a series of axes in the current document.
     -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Axis](Arch_Axis.md): Adds a 1-direction array of axes to the document
-    -   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Axes system](Arch_AxisSystem.md): Adds an axes system composed of several axes to the document
+    -   <img alt="" src=images/Arch_AxisSystem.svg  style="width:32px;"> [Axis System](Arch_AxisSystem.md): Adds an axis system composed of several axes to the document
     -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Grid](Arch_Grid.md): Adds a grid-like object to the document
 
 -   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Roof](Arch_Roof.md): Creates a sloped roof from a selected face
@@ -123,7 +123,7 @@ These are additional tools to help you in specific tasks.
 
 ## API
 
-The Arch module can be used in [Python](Python.md) scripts and [macros](macros.md) using the [Arch Python API](http://www.freecadweb.org/api/Arch.html) functions.
+The Arch module can be used in [Python](Python.md) scripts and [macros](Macros.md) using the [Arch Python API](Arch_API.md) functions.
 
 ## Tutorials
 

@@ -4,7 +4,7 @@
    Name/it:Estensione verticale
    MenuLocation:TechDraw → Estensione verticale
    Workbenches:[TechDraw](TechDraw_Workbench/it.md)
-   SeeAlso:[Lunghezza](TechDraw_Dimension_Length/it.md), [Estensione orizzontale](TechDraw_Dimension_Horizontal_Extent/it.md)
+   SeeAlso:[Lunghezza](TechDraw_LengthDimension/it.md), [Estensione orizzontale](TechDraw_HorizontalExtentDimension/it.md)
 ---
 
 # TechDraw VerticalExtentDimension/it
@@ -31,7 +31,7 @@ Lo strumento Estensione verticale aggiunge una quota lineare a una vista. La dim
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare una vista o una serie di bordi in una vista.
-2.  Premere il pulsante **<img src="images/TechDraw_Dimension_VExtent.svg" width=16px> [Estensione verticale](TechDraw_Dimension_Vertical_Extent/it.md)**.
+2.  Premere il pulsante **<img src="images/TechDraw_VerticalExtentDimension.svg" width=16px> [Estensione verticale](TechDraw_VerticalExtentDimension/it.md)**.
 3.  Viene aggiunta dimensione alla vista. La dimensione può essere trascinata nella posizione desiderata.
 
 
@@ -42,7 +42,7 @@ Lo strumento Estensione verticale aggiunge una quota lineare a una vista. La dim
 
 <div class="mw-translate-fuzzy">
 
-Gli oggetti dimensione sono vulnerabili ai problemi di \"[denominazione topologica](topological_naming_problem/it.md)\". Per maggiori informazioni vedere le informazioni nello strumento **<img src="images/TechDraw_Dimension_Length.svg" width=16px> [Lunghezza](TechDraw_Dimension_Length/it.md)**.
+Gli oggetti dimensione sono vulnerabili ai problemi di \"[denominazione topologica](topological_naming_problem/it.md)\". Per maggiori informazioni vedere le informazioni nello strumento **<img src="images/TechDraw_LengthDimension.svg" width=16px> [Lunghezza](TechDraw_LengthDimension/it.md)**.
 
 
 </div>
@@ -52,7 +52,7 @@ Gli oggetti dimensione sono vulnerabili ai problemi di \"[denominazione topologi
 
 <div class="mw-translate-fuzzy">
 
-Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_Dimension_Length/it.md). Eccezioni rilevate.
+Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_LengthDimension/it.md). Eccezioni rilevate.
 
 
 </div>

@@ -17,11 +17,6 @@ Okienko dialogowe menadżera okien BIM pozwala na przeglądanie i modyfikowanie 
 
 ## Użycie
 
-
-{{BIM Tools navi
-
-}}
-
 _
 
 ---

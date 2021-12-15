@@ -52,7 +52,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  Selezionare gli oggetti che si desidera scalare
 2.  Premere il pulsante **<img src="images/Draft_Scale.svg" width=16px> [Scala](Draft_Scale/it.md)**, o premere i tasti **S** quindi **C**. Se nessun oggetto è selezionato, si viene invitati a selezionarne uno.
-3.  Fare clic su un primo punto nella vista 3D o digitare le [coordinate](Draft_Coordinates/it.md) e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**. Questo serve come punto base dell\'operazione.
+3.  Fare clic su un primo punto nella vista 3D o digitare le coordinate e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**. Questo serve come punto base dell\'operazione.
 4.  Impostare i fattori X, Y e Z e le opzioni appropriate, quindi premere **Invio** o **OK** per completare l\'operazione.
 
 
@@ -76,7 +76,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 
 <div class="mw-translate-fuzzy">
 
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** tra ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)** quando si hanno i valori desiderati per inserire il punto.
+-   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** tra ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto** quando si hanno i valori desiderati per inserire il punto.
 -   Inserire i fattori X, Y e Z per definire il ridimensionamento lungo tali direzione.
     -   Fare clic sulla casella di controllo \"Scalatura uniforme\" per bloccare i fattori X, Y e Z sullo stesso valore.
     -   Fare clic sulla casella di controllo \"Orientamento del piano di lavoro\" per bloccare il ridimensionamento X, Y e Z lungo il corrente [piano di lavoro](Draft_SelectPlane/it.md); altrimenti, vengono utilizzate le direzioni globali X, Y e Z.

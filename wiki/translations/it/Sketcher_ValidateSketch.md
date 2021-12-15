@@ -109,13 +109,7 @@ Internally they work by constraining the angle between tangent vectors. With tan
 The locking mechanism typically works well and this tool should not be needed. **It should only used after making a backup of the open document.**
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Sketcher Tools navi

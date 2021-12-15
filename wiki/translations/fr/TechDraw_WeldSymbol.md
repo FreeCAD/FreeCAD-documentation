@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/fr
    Name:TechDraw WeldingSymbol
-   Name/fr:TechDraw Symbole de soudure
+   Name/fr:TechDraw Soudure
    Icon:techdraw-weldsymbol.svg
    MenuLocation:TechDraw → Ajouter les informations de soudage...
    Workbenches:[TechDraw](TechDraw_Workbench/fr.md)
@@ -13,7 +13,7 @@
 
 ## Description
 
-L\'outil Symbole de soudure ajoute les spécifications de soudage à une ligne directrice existante.
+L\'outil Soudure ajoute les spécifications de soudage à une ligne directrice existante.
 
 <img alt="" src=images/TechDraw_WeldingSymbol_example.png  style="width:330px;"> 
 *Spécification de soudage ajoutée à une ligne de référence*
@@ -30,35 +30,35 @@ L\'outil Symbole de soudure ajoute les spécifications de soudage à une ligne d
 
 ## Propriétés
 
-### Symbole de soudure 
+### Weld Symbol 
 
--    {{PropertyData/fr|All Around}}: affiche le symbole *All Around* ou *Tout autour* (cercle) au niveau de la brisure de la ligne de rappel.
+-    **All Around**: affiche le symbole *All Around* ou *Tout autour* (cercle) au niveau de la brisure de la ligne de rappel.
 
--    {{PropertyData/fr|Field Weld}}: affiche le symbole *Field Weld* ou *Soudure sur site* (indicateur) au niveau de la brisure de la ligne de rappel.
+-    **Field Weld**: affiche le symbole *Field Weld* ou *Soudure sur site* (indicateur) au niveau de la brisure de la ligne de rappel.
 
--    {{PropertyData/fr|Alternate Weld}}: décale le symbole inférieur pour indiquer des soudures alternées.
+-    **Alternate Weld**: décale le symbole inférieur pour indiquer des soudures alternées.
 
--    {{PropertyData/fr|Tail Text}}: texte à afficher à la fin de la ligne de rappel.
+-    **Tail Text**: texte à afficher à la fin de la ligne de rappel.
 
-### Tuile
+### Tile
 
 Chaque symbole individuel (\"côté flèche\" et \"autre côté\") est représenté par un objet \"tuile\". Un symbole de soudure est associé à 1 ou 2 tuiles. Chacun a les propriétés suivantes:
 
--    {{PropertyData/fr|Parent Tile}}: le symbole de soudure parent
+-    **Parent Tile**: le symbole de soudure parent
 
--    {{PropertyData/fr|Tile Row}}: ligne de la tuile. 0 signifie au-dessus de la ligne, -1 en dessous de la ligne. **Remarque:** Si vous changez la rangée d\'une tuile, vous devez également changer la tuile pour le deuxième côté! De cette façon, vous pouvez retourner les côtés.
+-    **Tile Row**: ligne de la tuile. 0 signifie au-dessus de la ligne, -1 en dessous de la ligne. **Remarque:** Si vous changez la rangée d\'une tuile, vous devez également changer la tuile pour le deuxième côté! De cette façon, vous pouvez retourner les côtés.
 
--    {{PropertyData/fr|Tile Column}}: colonne de la tuile. Pour le moment, il est toujours égal à 0, la propriété n\'est donc pas modifiable.
+-    **Tile Column**: colonne de la tuile. Pour le moment, il est toujours égal à 0, la propriété n\'est donc pas modifiable.
 
--    {{PropertyData/fr|Symbol File}}: répertoire et nom de fichier du fichier SVG du symbole.
+-    **Symbol File**: répertoire et nom de fichier du fichier SVG du symbole.
 
--    {{PropertyData/fr|Symbol Included}}: répertoire et nom de fichier du fichier SVG de symbole inclus réel. (Il s\'agit d\'un répertoire temporaire.)
+-    **Symbol Included**: répertoire et nom de fichier du fichier SVG de symbole inclus réel. (Il s\'agit d\'un répertoire temporaire.)
 
--    {{PropertyData/fr|Left Text}}: texte à afficher à gauche du symbole SVG.
+-    **Left Text**: texte à afficher à gauche du symbole SVG.
 
--    {{PropertyData/fr|Center Text}}: texte à afficher au-dessus/en dessous du symbole SVG.
+-    **Center Text**: texte à afficher au-dessus/en dessous du symbole SVG.
 
--    {{PropertyData/fr|Right Text}}: texte à afficher à droite du symbole SVG.
+-    **Right Text**: texte à afficher à droite du symbole SVG.
 
 ## Script
 
@@ -93,7 +93,7 @@ App.activeDocument().DrawTileWeld001.RightText = "right text"
 App.activeDocument().DrawTileWeld001.CenterText = "center text"
 ```
 
-## Tuiles symboles Svg 
+## Tuiles symbole Svg 
 
 Les symboles particuliers sont formés par des fichiers SVG de 64x64 pixels. Des symboles supplémentaires peuvent être créés dans un programme SVG comme [Inkscape](https://fr.wikipedia.org/wiki/Inkscape) en utilisant l\'un des symboles fournis par FreeCAD comme modèle.
 

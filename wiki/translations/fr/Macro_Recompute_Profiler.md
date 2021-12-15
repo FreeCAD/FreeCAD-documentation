@@ -2,17 +2,17 @@
 {{Macro/fr
 |Name=Macro Recompute Profiler
 |icone=Macro_Recompute_Profiler.png
-|Description=Cette macro chronomètre le temps nécessaire pour recalculer chaque fonction.
+|Description=Cette macro a pour but de vous aider à trouver les caractéristiques qui causent de longs retards dans les mises à jour du projet. Elle effectue un recalcul, en mesurant le temps qu'il faut pour recalculer chaque fonction.
 |Author=DeepSOIC
 |Version=0.1
 |Date=2017-04-03
 |FCVersion=0.17.10644 et au dessus
-|Download=[https://www.freecadweb.org/wiki/images/c/ca/Macro_Recompute_Profiler.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/c/ca/Macro_Recompute_Profiler.png Icône de la barre d'outils]
 }}
 
 ## Description
 
-Cette macro vous permet de localiser quelles fonctionnalités provoquent de longs retards dans les mises à jour de votre projet. cette macro chronomètre le temps nécessaire pour recalculer chaque fonction.
+Cette macro a pour but de vous aider à trouver les caractéristiques qui causent de longs retards dans les mises à jour du projet. Elle effectue un recalcul, en mesurant le temps qu\'il faut pour recalculer chaque fonction.
 
 ## Utilisation
 
@@ -30,12 +30,12 @@ Une barre de progression apparait. Votre objet est recalculé, une ligne est aff
 
 ## Macro
 
-ToolBar Icon ![](images/Macro_Recompute_Profiler.png )
+Icône de la barre d\'outils ![](images/Macro_Recompute_Profiler.png )
 
 **RecomputeProfiler.FCMacro**
 
 
-{{MacroCode|code=
+```python
 __Title__="Macro Recompute Profiler"
 __Author__ = "DeepSOIC"
 __Version__ = "0.1"
@@ -155,11 +155,14 @@ def run():
         App.ActiveDocument.RecomputesFrozen = False
 
 run()
-}}
+```
 
-## Post-processing resultats 
+## Résultats du post-traitement 
 
-La sortie de la macro sera entrelacée avec les messages généraux générés par le recalcul des fonctionnalités. Cela ressemble généralement à ceci: {{code|code=
+La sortie de la macro sera entrelacée avec les messages généraux générés par le recalcul des fonctionnalités. Cela ressemble généralement à ceci:
+
+
+{{code|code=
 Recomputing... (time in seconds, label)
 Sketcher::setUpSketch()-T:0
 Sketcher::Solve()-DogLeg-T:0
@@ -179,7 +182,12 @@ Sketcher::Solve()-DogLeg-T:0
 Sketcher::setUpSketch()-T:0
 Sketcher::Solve()-DogLeg-T:0
 ...
-}} Le résultat des lignes ont une signature facilement séparable: elles commencent par un onglet. Donc, si vous copiez-copiez l\'intégralité du bloc dans un tableur, les messages génériques se retrouveront dans la colonne 1, tandis que les résultats se trouvent dans les colonnes 2 et 3. Vous pouvez donc trier selon la colonne 2 pour obtenir une belle table : {{code|code=
+}}
+
+Le résultat des lignes ont une signature facilement séparable: elles commencent par un onglet. Donc, si vous copiez-copiez l\'intégralité du bloc dans un tableur, les messages génériques se retrouveront dans la colonne 1, tandis que les résultats se trouvent dans les colonnes 2 et 3. Vous pouvez donc trier selon la colonne 2 pour obtenir une belle table :
+
+
+{{code|code=
 0.59100008  Slice
 0.352999926 Populate LinearArray with Compound
 0.160000086 CompoundFilter
@@ -192,13 +200,17 @@ Sketcher::Solve()-DogLeg-T:0
 0.019999981 Clone of Sketch - master section (2D)001
 0.010999918 ArrayFilter003
 ...
-}} (Pour MS-Excel, après avoir copié le texte dans la vue rapport coller le texte dans le Bloc-notes et le recopier depuis Bloc-notes puis coller-le dans MS-Excel \... la copie dans la vue rapport ne sépare pas les colonnes car les tabulations sont inexplicablement perdues.)
+}}
 
-## FC version 
+(Pour MS-Excel, coller juste après avoir copié le texte de la vue du rapport ne le divise pas en colonnes, je ne sais pas pourquoi\... coller le texte dans Notepad et le recopier de Notepad et le coller dans Excel aide).
+
+## Version de FreeCAD 
 
 Cette macro nécessite FreeCAD 0.17.10644 ou plus, qui sont les versions où App.ActiveDocument.RecomputesFrozen est disponible. Elle ne fonctionnera pas avec la version v0.16.
 
-Cette macro a été créée avec cette version de FreeCAD: 
+Cette macro a été créée avec cette version de FreeCAD:
+
+
 ```python
 OS: Windows 10
 Word size of OS: 64-bit

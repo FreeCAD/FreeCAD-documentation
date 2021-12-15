@@ -1,6 +1,14 @@
-# Std SaveCopy/de
 ---
-- GuiCommand:/de   Name:Std SaveaCopy   Name/de:Std SaveaCopy   MenuLocation:[Workbenches:Alle   Shortcut:**C**   SeeAlso:[[Std_Save/de|Speichern](Std_File_Menu___Datei]]_→_Speichern_einer_Kopie....md), [Speichern unter...](Std_SaveAs/de.md) ---
+- GuiCommand:/de
+   Name:Std SaveCopy
+   Name/de:Std SaveCopy
+   MenuLocation:Datei → Speichern einer Kopie...
+   Workbenches:Alle
+   Shortcut:**C**
+   SeeAlso:[Speichern](Std_Save/de.md), [Speichern unter...](Std_SaveAs/de.md)
+---
+
+# Std SaveCopy/de
 
 
 </div>

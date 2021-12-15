@@ -80,7 +80,7 @@ To reference any items in the <img src=images/Sketcher_CarbonCopy.svg style="wid
 
 <div class="mw-translate-fuzzy">
 
--    **Map Mode**:Eskizin başka bir nesneye, genellikle bir düzlem veya yüze eklenme şekli, ancak başka tür nesneler olabilir. Bir **...** düğmesini görmek için alana bir kez tıklayın ve [Ek](Part_Attachment.md) iletişim kutusunu açmak için basın. Devre dışı bırakıldıysa, Yerleşim özelliği etkindir.
+-    **Map Mode**:Eskizin başka bir nesneye, genellikle bir düzlem veya yüze eklenme şekli, ancak başka tür nesneler olabilir. Bir **...** düğmesini görmek için alana bir kez tıklayın ve [Ek](Part_EditAttachment.md) iletişim kutusunu açmak için basın. Devre dışı bırakıldıysa, Yerleşim özelliği etkindir.
 
 -    **Placement**: Çizimin 3D alanda yönünü kontrol eder; [yerleşime](Std_Placement/tr.md) bakınız. Eskiz Harita Modu özelliği üzerinden eklenmişse devre dışı bırakılır.
 

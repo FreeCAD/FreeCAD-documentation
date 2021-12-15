@@ -24,7 +24,7 @@ Inserta un Elipsoide sustractivo en el Body (cuerpo) activo. Su forma es sustra�
 <div class="mw-translate-fuzzy">
 
 1.  Presionar el botón **<img src="images/PartDesign_SubtractiveEllipsoid.svg" width=24px> '''Elipsoide Sustractivo'''** . **Nota**: El Elipsoide sustractivo forma parte de un icono de herramientas llamado *Crear una primitiva sustractiva*. Tras abrir FreeCAD, la Caja sustractiva es la única mostrada en la barra de herramientas. Para obtener el botón del Elipsoide, pinchar en la flecha que indica hacia abajo que está al lado del icono visible y seleccionar Elipsoide sustractivo en el menú desplegable.
-2.  Seleccionar los parámetros de la primitiva y el [Attachment](Part_Attachment.md).
+2.  Seleccionar los parámetros de la primitiva y el [Attachment](Part_EditAttachment.md).
 3.  Aceptar **OK**.
 4.  Una operación de Elipsoide aparece dentro del Body(cuerpo) activo.
 
@@ -43,7 +43,7 @@ Tras su creación, el Elipsoide puede ser editado de dos maneras:
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/es|Attachment}}: Define el modo de Attachment y la separación del archivo adjunto. Ver [Part Attachment](Part_Attachment.md).
+-    {{PropertyData/es|Attachment}}: Define el modo de Attachment y la separación del archivo adjunto. Ver [Part EditAttachment](Part_EditAttachment.md).
 
 -    {{PropertyData/es|Label}}: Nombre dado al objeto Elipsoide. Se puede cambiar para adaptarlo a sus necesidades.
 

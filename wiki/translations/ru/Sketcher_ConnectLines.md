@@ -17,7 +17,7 @@ Applies [Coincident constraints](Sketcher_ConstrainCoincident.md) to endpoints w
 
 ## Применение
 
-1.  Select the elements in the [3D view](3D_view.md) or in the [Task panel](Task_panel.md) on the left side of the screen
+1.  Select the unconnected elements in the [3D view](3D_view.md) or in the [Task panel](Task_panel.md) on the left side of the screen
 2.  Invoke the command using several methods:
     -   Press the **<img src=images/Sketcher_ConnectLines.svg style="width:16px"> [Connect lines](Sketcher_ConnectLines.md)** button.
     -   Use the **Ctrl** + **Shift** + **K** keyboard shortcut.

@@ -7,7 +7,7 @@
 
 Die Festkörper Modellierungsfähigkeiten von FreeCAD basieren auf dem _ ist eine Schicht, die sich auf der Oberseite der OCCT Bibliotheken befindet und dem Benutzer Zugriff auf geometrische OCCT Grundkörper und -funktionen gewährt. Grundsätzlich basieren alle 2D und 3D Zeichenfunktionen in jedem Arbeitsbereich (<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md), usw.) auf diesen Funktionen, die vom Part Arbeitsbereich herausgestellt werden. Daher gilt der Part Arbeitsbereich als die Kernkomponente der Modellierungsfunktionen von FreeCAD.
 
-Eine detaillierte Diskussion des Arbeitsbereichs Part im Vergleich mit dem Arbeitsbereich Part Design findest du hier: [Part und Part Design](Part_and_Part_Design/de.md).
+Eine detaillierte Diskussion des Arbeitsbereichs Part im Vergleich mit dem Arbeitsbereich Part Design findest du hier: [Part und PartDesign](Part_and_PartDesign/de.md).
 
 Die mit dem Part Arbeitsbereich erstellten Objekte sind relativ einfach; sie sind für die Verwendung mit booleschen Operationen (Verbindungen und Schnitte) vorgesehen, um komplexere Formen zu erstellen. **Dieses Modellierungsparadigma ist bekannt als _) modifiziert wird, bis das endgültige Objekt vorliegt.
 

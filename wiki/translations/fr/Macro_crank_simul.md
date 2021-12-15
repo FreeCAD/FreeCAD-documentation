@@ -1,6 +1,7 @@
 # Macro crank simul/fr
 {{Macro/fr
 |Name=Crank Simul
+|Icon=Macro_crank_simul.png
 |Description=Simulation de mouvement d'un vilebrequin.
 |Author=kwahoo
 |Version=1.0

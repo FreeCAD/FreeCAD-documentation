@@ -155,7 +155,8 @@ Och vår kub skulle hoppa 2 enheter åt höger. Slutligen, att ta bort något g�
 sg.removeChild(myCustomNode)
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -203,7 +204,8 @@ Se även [den kompletta listan](Code_snippets#Observing_mouse_events_in_the_3D_v
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -249,12 +251,22 @@ These links provide reference documentation for Coin v3.x. The differences with 
 -   [Coin3D Documentation](https://grey.colorado.edu/coin3d/index.html), at University of Colorado.
 -   [Open Inventor Reference Documentation](https://mevislabdownloads.mevis.de/docs/current/MeVis/ThirdParty/Documentation/Publish/OpenInventorReference/index.html), by MeVisLab.
 
-[top](#top.md)
+
+{{Top}}
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/sv|Scenegraph/sv|PySide/sv}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

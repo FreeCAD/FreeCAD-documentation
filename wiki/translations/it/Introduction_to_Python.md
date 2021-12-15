@@ -1,4 +1,13 @@
 # Introduction to Python/it
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/it|[Macro](Macros/it.md)|[Guida agli script Python](Python_scripting_tutorial/it.md)}}
+
+
+</div>
+
+
 {{TOCright}}
 
 ## Introduzione
@@ -89,7 +98,8 @@ Ora che si ha il controllo totale dell\'interprete, si può cominciare con le co
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## Variabili
 
@@ -168,7 +178,8 @@ La differenza tra maiuscole e minuscole è molto importante. myVariable non è u
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## Numeri
 
@@ -342,7 +353,8 @@ myVar = "hello friends"
 myVar
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Liste
 
@@ -428,7 +440,8 @@ Oltre a stringhe, int, float e liste, in Python sono disponibili molti altri tip
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## Indentazione
 
@@ -595,7 +608,8 @@ else:
     print("Such Dalton doesn't exist!")
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Funzioni
 
@@ -663,7 +677,8 @@ Dove si crea una funzione che riceve due argomenti, li somma, e restituisce il v
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## Moduli
 
@@ -857,7 +872,8 @@ Però, si può fare in due modi: 1. Utilizzare una funzione exec o execfile di P
 exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Iniziare con FreeCAD 
 
@@ -874,19 +890,30 @@ Ora che si ha un\'idea di come funziona Python si può iniziare ad esplorare que
 dir()
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Notes
 
 -   FreeCAD was originally designed to work with Python 2. Since Python 2 reached the end of its life in 2020, future development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.
 -   Much more information about Python can be found in the [official Python tutorial](https://docs.python.org/3/tutorial/index.html) and the [official Python reference](https://docs.python.org/3/reference/).
 
-[top](#top.md)
+
+{{Top}}
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/it|[Macro](Macros/it.md)|[Guida agli script Python](Python_scripting_tutorial/it.md)}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

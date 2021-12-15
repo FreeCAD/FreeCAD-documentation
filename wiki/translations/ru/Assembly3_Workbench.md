@@ -386,7 +386,7 @@
 </div>
 
 
-:   <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasurePointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasureAngle.svg‎‎  style="width:28px;">
+:   <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasurePointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasureAngle.svg‎‎  style="width:28px;">
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -692,6 +692,9 @@ Assembly3 не предлагает смещение с константами, 
 -   \# \* Если элемент был случайно назначен не той поверхности, просто повторите с правильной гранью.
 -   \# При желании измените имя объекта в FreeCAD
 
+
+<div class="mw-translate-fuzzy">
+
 \'\'Примечания
 \* Эти способы не такие сложные, как могут показаться. Через 2--3 применения они станут гармоничнее и станут легче в применении.
 
@@ -699,6 +702,9 @@ Assembly3 не предлагает смещение с константами, 
 -   Также эта процедура становится действительно быстрой и простой, если ограничения и элементы имеют названия. Не нужно гадать, куда следует перетащить грани, потому что названия говорят сами за себя (см. [Tips & Tricks](#Tips_&_Tricks.md)).
 
 \'\'
+
+
+</div>
 
 [top](#top.md)
 
@@ -721,6 +727,9 @@ Assembly3 не предлагает смещение с константами, 
 
 ## Ссылки
 
+
+<div class="mw-translate-fuzzy">
+
 -   [Объект App Link](App_Link/ru.md), который обеспечивает работу Assembly3.
 -   [FreeCAD\_assembly3](https://github.com/realthunder/FreeCAD_assembly3) репозиторий и документация.
 -   [Обзор Assembly3](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712), большая ветка обсуждения.
@@ -728,6 +737,9 @@ Assembly3 не предлагает смещение с константами, 
 -   [Текущий статус Assembly](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [Внешние верстаки](External_workbenches/ru.md)
 -   План разработки [старого проекта Assembly](Assembly_project/ru.md), для знакомства с историей вопроса.
+
+
+</div>
 
 
 

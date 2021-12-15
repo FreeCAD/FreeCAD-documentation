@@ -24,7 +24,13 @@ El comando \'\'\'Ambiente de trabajo Std \'\'\' activa un [Ambiente de trabajo](
 
 ## Notas
 
+
+<div class="mw-translate-fuzzy">
+
 -   Se pueden descargar _.
+
+
+</div>
 
 ## Preferencias
 

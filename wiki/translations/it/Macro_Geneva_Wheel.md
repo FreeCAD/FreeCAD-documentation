@@ -3,7 +3,6 @@
 |Name=Geneva Wheel
 |Icon=GW_Dim.png
 |Translate=Croce di Malta
-|Icon=GW_Dim.png
 |Description=Consente all'utente di creare un meccanismo Croce di Malta da zero.
 |Author=Drei
 |Version=1.0

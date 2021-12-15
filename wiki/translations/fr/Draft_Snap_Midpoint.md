@@ -10,10 +10,12 @@
 
 ## Description
 
-L\'option <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> **Draft Aimantation Milieu** permet de s\'aimanter au point milieu des arêtes droites et circulaires. Les arêtes peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
+L\'option <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> **Draft Aimantation Milieu** permet de s\'aimanter au point milieu des segments. Les segments peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
+
+Dans la version 0.19 de FreeCAD, cette option d\'aimantation ne fonctionne que pour les segments droits et circulaires.
 
 ![](images/Draft_Snap_Midpoint_example.png ) 
-*Aimantation du deuxième point d'une ligne au milieu d'une arête*
+*Aimantation du deuxième point d'une ligne au milieu d'une segment*
 
 ## Utilisation
 
@@ -25,8 +27,8 @@ Pour des informations générales sur l\'aimantation voir [Draft Aimantation](Dr
     -   Appuyez sur le bouton **<img src="images/Draft_Snap_Lock.svg" width=16px><img src="images/Toolbar_flyout_arrow.svg" width=8px>** du [Draft Widget aimantation](Draft_snap_widget/fr.md) et dans le menu sélectionnez l\'option **<img src="images/Draft_Snap_Midpoint.svg" width=16px> Aimantation Milieu**.
 3.  Choisissez une commande [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) pour créer votre géométrie.
 4.  Notez que vous pouvez également modifier les options d\'aimantation lorsqu\'une commande est active.
-5.  Déplacez le curseur sur une arête droite ou circulaire.
-6.  L\'arête est mise en évidence.
+5.  Déplacez le curseur sur un segment.
+6.  Le segment est mis en évidence.
 7.  Si un point milieu est trouvé, il est marqué et l\'icône <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:16px;"> s\'affiche près du curseur.
 8.  Cliquez pour confirmer le point.
 

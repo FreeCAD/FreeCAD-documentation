@@ -65,7 +65,7 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 <div class="mw-translate-fuzzy">
 
--   Drücke **O** oder die **_ Schließen** Schaltfläche, um den Befehl zu beenden. Wenn ein einzelner [Entwurf Draht](Draft_Wire/de.md) ausgewählt wurde, wird der Draht geschlossen.
+-   Drücke **O** oder die **<img src="images/Draft_CloseLine.svg" width=16px> Schließen** Schaltfläche, um den Befehl zu beenden. Wenn ein einzelner [Entwurf Draht](Draft_Wire/de.md) ausgewählt wurde, wird der Draht geschlossen.
 -   Drücke **Esc** oder die **Schliessen** Schaltfläche, um den Befehl zu beenden.
 
 
@@ -92,11 +92,17 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 ### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> _ 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Knotenkontextmenü Zentrum: {{Value|Bogen verschieben}}.
 -   Knotenkontextmenü Anfang: {{Value|Ersten Winkel setzen}}.
 -   Knotenkontextmenü Ende: {{Value|letzten Winkel setzen}}.
 -   Kontextmenü des mittleren Knotens: {{Value|Radius setzen}}.
 -   Kante Kontextmenü: {{Value|Bogen invertieren}}. Derzeit funktioniert dies nicht.
+
+
+</div>
 
 ### <img alt="" src=images/Draft_Circle.svg  style="width:24px;"> [Entwurf Kreis](Draft_Circle/de.md) 
 
@@ -179,8 +185,14 @@ Die hier genannten Tastaturkürzel für einzelne Zeichen können geändert werde
 
 ### <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Skizzierer Skizze](Sketcher_NewSketch/de.md) 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Nur Skizzen, die eine einzelne unbeschränkte Linie enthalten können bearbeitet werden. Derzeit funktioniert dies nicht richtig.
 -   Keine Kontextmenüs für dieses Objekt.
+
+
+</div>
 
 ## Einstellungen
 

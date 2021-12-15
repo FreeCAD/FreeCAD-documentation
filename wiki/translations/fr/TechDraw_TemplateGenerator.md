@@ -1,4 +1,7 @@
 # TechDraw TemplateGenerator/fr
+<div class="mw-translate-fuzzy">
+
+
 {{TutorialInfo/fr
 |Topic=Création de modèles avec une macro Python
 |Level=Des connaissances de base de Python et de svg-structures sont utiles.
@@ -6,6 +9,9 @@
 |Time=(ne sait pas)
 |Author= [[User:FBXL5]]
 }}
+
+
+</div>
 
 ## Introduction
 
@@ -519,8 +525,6 @@ Et voici le code svg qui sort de cette macro :
 Et ce à quoi il devrait ressembler une fois inséré (avec un bloc titre agrandi) :
 
 ![TechDraw TemplateGenerator.png](images/TechDraw_TemplateGenerator.png )
-
-_
 
 ---
 [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateGenerator/fr

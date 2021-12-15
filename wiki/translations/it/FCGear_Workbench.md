@@ -107,8 +107,14 @@ Prima di poter avviare FCGear, è necessario installarlo (vedere come fare nel p
 
 ### Installazione automatica 
 
-Il metodo di installazione consigliato a partire dalla v0.17 è tramite il <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager/it.md). Si trova in 
+
+<div class="mw-translate-fuzzy">
+
+Il metodo di installazione consigliato a partire dalla v0.17 è tramite il <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md). Si trova in 
 **Strumenti → Addon manager**
+
+
+</div>
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:700px">

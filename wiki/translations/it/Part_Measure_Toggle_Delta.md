@@ -35,14 +35,5 @@ Mostra o nasconde tutte le misure Delta in corso.
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Measure Toggle Delta/it

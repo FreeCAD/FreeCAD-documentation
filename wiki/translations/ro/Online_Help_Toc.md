@@ -144,9 +144,9 @@ _.
     -   [Licenţa](Licence/ro.md)
     -   Compilarea FreeCAD
         -   [Ajutor pentru compilare](Tracker/ro.md)
-        -   [Compilarea sub Windows](CompileOnWindows/ro.md)
-        -   [Compilarea sub Unix](CompileOnUnix/ro.md)
-        -   [Compilarea sub Mac](CompileOnMac/ro.md)
+        -   [Compilarea sub Windows](Compile_on_Windows/ro.md)
+        -   [Compilarea sub Unix](Compile_on_Linux/ro.md)
+        -   [Compilarea sub Mac](Compile_on_MacOS/ro.md)
         -   [Compilare (sporirea vitezei de execuţie)](Compiling_(Speeding_up)/ro.md)
         -   [Biblioteci folosite](Third_Party_Libraries/ro.md)
         -   [Utilitare folosite](Third_Party_Tools/ro.md)

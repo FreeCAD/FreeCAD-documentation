@@ -37,9 +37,9 @@ See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 -   To manually enter coordinates enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   The **Relative** checkbox has no purpose for this command.
+-   The **Relative** checkbox, displayed in FreeCAD version 0.19 and earlier, has no purpose for this command.
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
--   Click the **Continue** checkbox on the second task panel to toggle continue mode. The **T** keyboard shortcut does not work. If continue mode is on, the command will restart after finishing, allowing you to continue creating texts.
+-   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating texts. The shortcut does not work in the second task panel. This option is not available in the first task panel in FreeCAD version 0.19 and earlier.
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
 
@@ -112,7 +112,7 @@ text = make_text(string, placement=None, screen=False)
 
 -    `string`is a string or a list of strings. If it is a list, each element is displayed on its own line.
 
--   If `screen` is `True`, the text always faces the camera, otherwise it aligns with the scene axes and lies on the XY plane.
+-   If `screen` is `True`, the text always faces the camera, otherwise it is displayed in a plane defined by its **Placement**.
 
 The view properties of `text` can be changed by overwriting its attributes; for example, overwrite `ViewObject.FontSize` with the new size in millimeters.
 

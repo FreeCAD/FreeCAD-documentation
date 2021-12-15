@@ -63,7 +63,7 @@ Il existe une autre table des matières pour le _.
     -   [Réglage des préférences import-export](Import_Export_Preferences/fr.md)
     -   [Démarrage et configuration](Start_up_and_Configuration/fr.md)
 
--   Faire des scripts en Python
+-   [Script en Python](Scripting_and_macros/fr.md)
     -   [Travailler avec des macros](Macros/fr.md)
     -   [Scripts](Scripts/fr.md)
     -   [Introduction à Python](Introduction_to_Python/fr.md)

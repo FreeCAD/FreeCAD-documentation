@@ -3,7 +3,7 @@
 
 Toutes les macros doivent être correctement documentées de la même manière que les [commandes Gui](Gui_Command/fr.md) le sont. Elles doivent avoir leur propre page wiki et être répertoriées dans l\'une des catégories de la[Liste des Macros](Macros_recipes/fr.md).
 
-La page [Liste des Macros](Macros_recipes/fr.md) contient une sélection de macros créées par des utilisateurs expérimentés, qui peuvent être installées directement à partir de l\'utilitaire [Gestionnaire d\'Addon](Addon_Manager/fr.md).
+La page _.
 
 Voir le [Modèle GuiCommand](GuiCommand_model/fr.md) et les pages de macros comme les [Macro Loft](Macro_Loft/fr.md) et [Macro Site From Contours](Macro_Site_From_Contours/fr.md) pour voir comment documenter les macros. Au moins deux sections doivent être incluses, une section **Description** avec des informations générales sur l'utilisation et une section **Script** pour contenir le code réel de la macro. D\'autres sections peuvent être incluses si nécessaire pour expliquer plus en détail l\'utilisation de la macro.
 
@@ -157,7 +157,7 @@ Exemple :
 
 Ce qui sera affiché comme : {{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/e16ad9ea7b38c0c47e42aa3019be01dd1267a620/FCInfo_en_Ver_1-20_Docked.FCMacro}}
 
-Ce modèle doit être placé au début de la page de macro, dans la section **Description**. Il doit s\'agir du premier bloc de code de la page pour que du _ pour un exemple d\'utilisation.
+Ce modèle doit être placé au début de la page de macro, dans la section **Description**. Il doit s\'agir du premier bloc de code de la page pour que du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) puisse le détecter automatiquement et l\'importer. Voir [Macro CirclePlus](Macro_CirclePlus/fr.md) pour un exemple d\'utilisation.
 
 
 {{ColoredParagraph|'''PS:''' En cas de mise à jour dans GitHub le chemin du code brut est modifié, ne pas oublier de modifier le lien dans le modèle Codeextralink.}}
@@ -193,7 +193,7 @@ Pour localiser ce modèle, utilisez le lien de langue approprié dans le premier
 
 ## Ajouter une nouvelle macro au dépôt central 
 
-Pour rendre une macro installable à partir du [Gestionnaire d\'Addon](Addon_Manager/fr.md), elle doit être incluse dans le dépôt central [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros).
+Pour rendre une macro installable à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md), elle doit être incluse dans le dépôt central [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros).
 
 Pour y inclure la macro, elle doit d'abord être examinée par la communauté FreeCAD du sous-forum [Python scripting and macros](https://forum.freecadweb.org/viewforum.php?f=22). Une fois que cela est fait, le dépôt des FreeCAD-macros doit être divisé, la nouvelle macro doit être incluse dans une branche, puis la branche doit être poussée et fusionnée dans le dépôt en amont.
 

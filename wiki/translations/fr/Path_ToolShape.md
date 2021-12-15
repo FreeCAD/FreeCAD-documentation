@@ -3,9 +3,9 @@
 
 ## Description
 
-Les ToolShapes sont un élément essentiel du système [Path Outils](Path_Tools/fr.md). Les ToolShapes sont les modèles à partir desquels les ToolBits sont créés. Elles représentent la forme physique spécifique d\'un outil. Un ToolShape ne décrit pas complètement l\'outil - pour cela, des paramètres supplémentaires sont nécessaires, qui seront ajoutés lorsqu\'un outil réel sera paramétré à partir du modèle.
+Les Formes d\'outils sont un élément essentiel du système [Path Outils](Path_Tools/fr.md). Les Formes d\'outils sont les modèles à partir desquels les Outils coupants sont créés. Elles représentent la forme physique spécifique d\'un outil. Une forme d\'outil ne décrit pas complètement l\'outil - pour cela, des paramètres supplémentaires sont nécessaires, qui seront ajoutés lorsqu\'un outil réel sera paramétré à partir du modèle.
 
-Initialement, les Formes d\'outil sont juste des documents FreeCAD avec un seul corps créé à partir de l\'atelier <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Part Design](PartDesign_Workbench/fr.md).
+Initialement, les Formes d\'outil sont juste des documents FreeCAD avec un seul corps créé à partir de l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier Part Design](PartDesign_Workbench/fr.md).
 
 La création de nouvelles Formes d\'outil est un sujet avancé. Les Formes d\'outil les plus couramment utilisés existent déjà et sont fournis avec l\'installation de FreeCAD à l\'adresse suivante:
 
@@ -73,7 +73,7 @@ Elles se trouvent dans le sous-répertoire {{FileName|/Mod/Path/Tools/Shape/}} o
 
 ## Images miniatures des outils 
 
-Les outils auront une petite image de l\'outil dans l\'arbre si l\'image est enregistrée avec les vignettes actives.
+Les outils coupants auront une petite image de l\'outil dans l\'arbre si l\'image est enregistrée avec les vignettes actives.
 
 Remarques importantes :
 

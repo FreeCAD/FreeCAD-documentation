@@ -165,16 +165,7 @@ These tools perform boolean operations.
     -   <img alt="" src=images/Part_ExplodeCompound.svg  style="width:32px;"> [Explode Compound](Part_ExplodeCompound.md): Splits up compounds.
     -   <img alt="" src=images/Part_Compound‏‎Filter.svg  style="width:32px;"> [Compound Filter](Part_Compound‏‎Filter.md): Extracts the individual pieces from compounds.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Part_Booleans.png  style="width:32px;"> [Boolesk](Part_Booleans/sv.md): Utför booleska operationer på objekt
--   <img alt="" src=images/Part_Union.png  style="width:32px;"> [Förena](Part_Union/sv.md): Förenar två objekt
--   <img alt="" src=images/Part_Common.png  style="width:32px;"> [Gemensamt](Part_Common/sv.md): Tar bort den gemensamma (skärningen) delen mellan två objekt
--   <img alt="" src=images/Part_Cut.png  style="width:32px;"> [Klipp](Part_Cut/sv.md): Klipper (tar bort) ett objekt från ett annat
-
-
-</div>
+-   <img alt="" src=images/Part_Boolean.svg  style="width:32px;"> [Boolean](Part_Boolean.md): Utför booleska operationer på objekt.
 
 -   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Cut](Part_Cut.md): Cuts (subtracts) one object from another.
 
@@ -238,9 +229,7 @@ These tools perform boolean operations.
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Defeaturing](Part_Defeaturing/sv.md): (v0.18)
--   <img alt="" src=images/Part_Section.png  style="width:32px;"> [Sektionera](Part_Section/sv.md): Skapar en sektion genom att skära ett objekt med ett sektioneringsplan
--   <img alt="" src=images/Part_SectionCross.png  style="width:32px;"> [Cross sections\...](Part_SectionCross/sv.md):
+-   <img alt="" src=images/Part_Defeaturing.svg  style="width:32px;"> [Defeaturing](Part_Defeaturing/sv.md):
 
 
 </div>

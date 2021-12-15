@@ -1,5 +1,5 @@
 # Engine Block Tutorial/de
-} {{TutorialInfo/de
+{{TutorialInfo/de
 |Topic=Part Arbeitsbereich
 |Level=Anfänger
 |Time=1 Stunde

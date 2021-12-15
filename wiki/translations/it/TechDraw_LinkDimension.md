@@ -1,6 +1,14 @@
-# TechDraw LinkDimension/it
 ---
-- GuiCommand:/it   Name:TechDraw  Dimension Link   Name/it:Link alla dimensione   Workbenches:[MenuLocation:TechDraw → Link alla geometria 3D   Shortcut:   SeeAlso:[[TechDraw NewView/it|Vista](TechDraw_Workbench/it___TechDraw]].md), [Proiezioni](TechDraw_NewProjGroup/it.md)---
+- GuiCommand:/it
+   Name:TechDraw LinkDimension
+   Name/it:Link alla dimensione
+   MenuLocation:TechDraw → Link alla geometria 3D
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   Shortcut:
+   SeeAlso:[Vista](TechDraw_View/it.md), [Proiezioni](TechDraw_ProjectionGroup/it.md)
+---
+
+# TechDraw LinkDimension/it
 
 
 </div>
@@ -36,9 +44,9 @@ Il link alla geomtria 3D indica alla quota di calcolare il valore direttamente d
 
 <div class="mw-translate-fuzzy">
 
-1.  Creare una dimensione appropriata nella pagina di disegno usando uno degli strumenti di [Lunghezza](TechDraw_Dimension_Length/it.md), [Dimensione orizzontale](TechDraw_Dimension_Horizontal/it.md), ecc. Questa dimensione sarà posizionata correttamente nella Pagina, ma mostrerà il valore della dimensione proiettata.
+1.  Creare una dimensione appropriata nella pagina di disegno usando uno degli strumenti di [Lunghezza](TechDraw_LengthDimension/it.md), [Dimensione orizzontale](TechDraw_HorizontalDimension/it.md), ecc. Questa dimensione sarà posizionata correttamente nella Pagina, ma mostrerà il valore della dimensione proiettata.
 2.  Nella vista 3D selezionare la geometria, ad esempio un bordo, che corrisponde alla geometria della dimensione proiettata.
-3.  Premere il pulsante **<img src="images/TechDraw_Dimension_Link.svg" width=16px> [Link alla geometria 3D](TechDraw_Dimension_Link/it.md)**.
+3.  Premere il pulsante **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Link alla geometria 3D](TechDraw_LinkDimension/it.md)**.
 4.  Si apre una finestra di dialogo. Selezionare una o più quote da collegare alla geometria 3D selezionata.
 5.  Premere **OK**.
 
@@ -52,7 +60,7 @@ Al termine dell\'operazione di collegamento, la proprietà **MeasureType** della
 
 <div class="mw-translate-fuzzy">
 
-Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologica\". Per maggiori informazioni vedere le informazioni nello strumento [Lunghezza](TechDraw_Dimension_Length/it.md).
+Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologica\". Per maggiori informazioni vedere le informazioni nello strumento [Lunghezza](TechDraw_LengthDimension/it.md).
 
 
 </div>

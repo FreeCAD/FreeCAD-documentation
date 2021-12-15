@@ -2,7 +2,7 @@
 - GuiCommand:/ru
    Name:Part Measure Angular
    Name/ru:Измерить угол
-   MenuLocation:[Measure](Std_Measure_Menu/ru.md) → Измерить угол‏‎
+   MenuLocation:Measure → Измерить угол‏‎
    Workbenches:[Part](Part_Workbench/ru.md)
 ---
 

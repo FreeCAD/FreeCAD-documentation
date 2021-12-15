@@ -5,7 +5,7 @@
 
 ## Introdução
 
-The [Test Framework Workbench](Test_Framework_Workbench.md) is not really a modelling workbench, but it contains a set of [Python](Python.md) scripts to perform different tests on the core components of FreeCAD, in order to debug problems. See also [debugging](debugging.md).
+The [Test Framework Workbench](Testing.md) is not really a modelling workbench, but it contains a set of [Python](Python.md) scripts to perform different tests on the core components of FreeCAD, in order to debug problems. See also [debugging](debugging.md).
 
 You can run the tests from the command line, by using the `-t` or `--run-test` options.
 

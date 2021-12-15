@@ -101,7 +101,13 @@ Więcej informacji można znaleźć na stronie _.
 
 ## Porady dotyczące tworzenia stabilnych modeli 
 
+
+<div class="mw-translate-fuzzy">
+
 Idea modelowania parametrycznego zakłada, że można zmieniać wartości pewnych parametrów, a kolejne kroki są zmieniane zgodnie z nowymi wartościami. Jednakże, gdy dokonywane są poważne zmiany, model może zostać uszkodzony z powodu [problemu nazewnictwa topologicznego](Topological_naming_problem/pl.md), który jest wciąż nierozwiązany w FreeCAD. Uszkodzenia można zminimalizować, jeśli przestrzega się następujących zasad projektowania:
+
+
+</div>
 
 -   Unikaj dołączania szkiców i obiektów odniesienia do wygenerowanej geometrii modelu. *(Wygenerowana geometria to każda powierzchnia lub krawędź utworzona w wyniku zastosowania wyciągnięcia, kieszeni itp.)*.
 -   Umieszczaj szkice na standardowych płaszczyznach współrzędnych lub na niestandardowych płaszczyznach odniesienia dołączonych do płaszczyzn standardowych.
@@ -124,7 +130,13 @@ Idea modelowania parametrycznego zakłada, że można zmieniać wartości pewnyc
 
 ## Przebieg pracy przy budowie zawartości 
 
+
+<div class="mw-translate-fuzzy">
+
 Istnieje kilka przepływów pracy, które są dostępne w środowisku [Projekt Części](PartDesign_Workbench/pl.md). To co powinno być zawsze zauważone to fakt, że wszystkie cechy utworzone wewnątrz [zawartości](PartDesign_Body/pl.md) zostaną połączone razem aby otrzymać końcowy obiekt.
+
+
+</div>
 
 ### Różne szkice 
 
@@ -134,7 +146,13 @@ Szkice muszą być osadzone na płaszczyźnie. Płaszczyzna ta może być jedną
 
 ### Cechy sekwencyjne 
 
+
+<div class="mw-translate-fuzzy">
+
 Szkice mogą być oparte na powierzchniach poprzednich operacji na bryłach. Może to być konieczne, jeśli trzeba uzyskać dostęp do powierzchni, która jest dostępna tylko po utworzeniu pewnego elementu. Jednakże, ten sposób pracy nie jest zalecany, ponieważ, jeśli oryginalny element zostanie zmodyfikowany, kolejne elementy w sekwencji mogą zostać uszkodzone. Jest to [problem nazewnictwa topologicznego](Topological_naming_problem/pl.md).
+
+
+</div>
 
 <img alt="" src=images/PartDesign_workflow_2.svg  style="width:600px;">
 
@@ -146,7 +164,13 @@ Płaszczyzny bazowe są przydatne do oparcia szkiców. Te pomocnicze płaszczyzn
 
 Podobnie jak w przypadku szkiców, możliwe jest dołączanie płaszczyzn odniesienia do generowanej geometrii *(krawędzi, powierzchni wcześniej utworzonych brył)*, **\'\' ale nie jest to zalecane**\'\', gdyż może powodować problem z nazewnictwem topologicznym.
 
+
+<div class="mw-translate-fuzzy">
+
 Dodatkowo, <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:24px;"> [łącznik kształtów](PartDesign_ShapeBinder/pl.md) może być użyty do zaimportowania zewnętrznej geometrii do bryły, aby służyła jako odniesienie; następnie szkice mogą być dołączone do tej pomocniczej zawartości, używając płaszczyzn odniesienia lub nie.
+
+
+</div>
 
 *Ponownie, Łącznik kształtów powinien bazować na Szkicach z poprzedniej bryły, a nie na wygenerowanej geometrii.*
 
@@ -154,15 +178,29 @@ Używanie obiektów odniesienia jest często najlepszym sposobem na tworzenie st
 
 ## Poradniki
 
+
+<div class="mw-translate-fuzzy">
+
 Strona _.
 
 -   [Projekt części: tworzenie podstawowych brył](Creating_a_simple_part_with_PartDesign/pl.md)
 -   [Poradnik: Podstawy dla Środowiska pracy Projekt Części](Basic_Part_Design_Tutorial/pl.md)
 -   [Poradnik: Podstawy dołączania](Basic_Attachment_Tutorial/pl.md)
 
+
+</div>
+
+## Related
+
+
+<div class="mw-translate-fuzzy">
+
 ## Powiązane
 
 -   [Konstrukcyjna geometria bryły](Constructive_solid_geometry/pl.md)
+
+
+</div>
 
 <img alt="" src=images/PartDesign_workflow_3.svg  style="width:600px;">
 

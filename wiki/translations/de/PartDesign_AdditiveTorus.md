@@ -25,7 +25,7 @@ Fügt den Grundkörper Torus in den aktiven Körper (Body) als Basisformelement 
 
 Nach dem Start von FreeCAD ist der Additive Quader derjenige, der in der Werkzeugleiste angezeigt wird. Um den Torus zu erhalten, klicke auf den Abwärtspfeil neben dem sichtbaren Symbol und wähle im Menü Additiver Torus.
 
-1.  Setze die Grundelementparameter und [Anhang](Part_Attachment/de.md).
+1.  Setze die Grundelementparameter und [Anhang](Part_EditAttachment/de.md).
 2.  Klicke auf **OK**.
 3.  Ein Torus Formelement erscheint unter dem aktiven Körper.
 
@@ -44,7 +44,7 @@ Der Torus kann auf zwei verschiedene Weisen bearbeitet werden:
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_Attachment/de.md).
+-    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_EditAttachment/de.md).
 
 -    {{PropertyData/de|Label}}: Die vom Benutzer vergebene Bezeichung für das Torus-Objekt. Dies kann nach Bedarf geändert werden.
 

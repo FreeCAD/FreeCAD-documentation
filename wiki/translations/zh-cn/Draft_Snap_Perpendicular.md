@@ -40,7 +40,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 <div class="mw-translate-fuzzy">
 
-1.  确定开启了**<img src="images/Snap_Lock.svg" width=16px> [Draft ToggleSnap](Draft_ToggleSnap.md)**与**<img src="images/Snap_Perpendicular.svg" width=16px> [Snap Perpendicular](Draft_Perpendicular.md)**。
+1.  确定开启了**<img src="images/Draft_Snap_Lock.svg" width=16px> [Draft ToggleSnap](Draft_Snap_Lock.md)**与**<img src="images/Draft_Snap_Perpendicular.svg" width=16px> [Snap Perpendicular](Draft_Snap_Perpendicular.md)**。
 2.  选中[底图线段工具进行绘制](Draft_Line.md)。先输入第一个端点。
 3.  将鼠标指针移至某线段或另一个对象的边上，下面来选取垂足（也就是确定线段的第二个端点）。
 4.  鼠标下的边将变为高亮黄色，且此边上有一个描述垂足的白色小圈；或者小圈位于目标边的延长线上，第二个端点将自动定位于两者的垂足。

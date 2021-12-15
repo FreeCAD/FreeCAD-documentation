@@ -9,7 +9,9 @@
 
 </div>
 
-Le proprietà sono i veri e propri mattoni per la costruzione degli oggetti FeaturePython. Attraverso di esse, l\'utente è in grado di interagire e modificare l\'oggetto. Dopo aver creato un nuovo oggetto FeaturePython nel documento (obj=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\",\"Box\")), è possibile ottenere un elenco delle proprietà disponibili digitando: 
+Le proprietà sono i veri e propri mattoni per la costruzione degli oggetti FeaturePython. Attraverso di esse, l\'utente è in grado di interagire e modificare l\'oggetto. Dopo aver creato un nuovo oggetto FeaturePython nel documento (obj=FreeCAD.ActiveDocument.addObject(\"App::FeaturePython\",\"Box\")), è possibile ottenere un elenco delle proprietà disponibili digitando:
+
+
 ```python
 obj.supportedProperties()
 ```
@@ -22,7 +24,7 @@ Si ottiene l\'elenco delle proprietà disponibili:
 
 </div>
 
-This code will create an object with internal name `InternalObjectName` (automatically renamed to `InternalObjectName001` and so on, if an object named `InternalObjectName` already exists) and give it the user-friendly label `User-friendly label` (this label will be displayed in the [Tree view](Tree_view.md) and [Combo view](Combo_view.md). [Expressions](Expressions.md) can refer to this object by its label using `<<User-friendly label>>`.
+This code will create an object with internal name `InternalObjectName` (automatically renamed to `InternalObjectName001` and so on, if an object named `InternalObjectName` already exists) and give it the user-friendly label `User-friendly label`. This label will be displayed in the [Tree view](Tree_view.md) and [Combo view](Combo_view.md). [Expressions](Expressions.md) can refer to this object by its label using `<<User-friendly label>>`.
 
 
 ```python

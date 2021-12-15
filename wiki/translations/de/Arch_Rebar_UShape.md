@@ -11,11 +11,17 @@
 
 ## Beschreibung
 
-Das [U-förmiger Bewehrungsstab](Arch_Rebar_UShape/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von U-förmigen Bewehrungsstäben in einem [Struktur](Arch_Structur/de.md)-Objekt zu erstellen.
+Das [U-förmiger Bewehrungsstab](Arch_Rebar_UShape/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von U-förmigen Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
 
 Das **<img src="images/Arch_Rebar_UShape.svg" width=16px>[Bewehrungsstab U-förmig](Arch_Rebar_UShape/de.md)**-Werkzeug ist auch in den [BIM Arbeitsbereich](BIM_Workbench/de.md) integriert.
 
+
+<div class="mw-translate-fuzzy">
+
 Dieser Befehl ist Teil der _ über das {{MenuCommand/de|Werkzeuge → Erweiterungsverwalter → Bewehrung}}-Menü installiert werden kann.
+
+
+</div>
 
 <img alt="" src=images/Arch_Rebar_UShape_example.png  style="width:400px;"> 
 *Zwei Sätze von U-förmigen Bewehrungsstäben in einer [Struktur](Arch_Structure/de.md)*

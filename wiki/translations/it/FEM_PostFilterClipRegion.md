@@ -1,6 +1,14 @@
-# FEM PostFilterClipRegion/it
 ---
-- GuiCommand:/it   Name:FEM_PostCreateClipFilter   Name/it:FEM PostCreateClipFilter   MenuLocation: Risultati → Crea clip filter    |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:/it
+   Name:FEM PostFilterClipRegion
+   Name/it:FEM PostFilterClipRegion
+   MenuLocation: Risultati → Crea clip filter
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:
+   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+---
+
+# FEM PostFilterClipRegion/it
 
 
 </div>
@@ -12,13 +20,7 @@ Da fare
 ## Utilizzo
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

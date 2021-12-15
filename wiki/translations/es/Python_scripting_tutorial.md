@@ -37,9 +37,7 @@ Existen dos modos sencillos de escribir código de Python en FreeCAD: Desde la c
 ![](images/Screenshot_pythoninterpreter.jpg ) 
 *La consola FreeCAD Python*
 
-En este tutorial se pueden utilizar ambos métodos. Puede copiar-pegar cada línea en la consola Python y luego presionar **Enter**, o copiar-pegar todo el código en una nueva ventana de Macro.
-
-[inicio](#top.md)
+En este tutorial se pueden utilizar ambos métodos. Puede copiar-pegar cada línea en la consola Python y luego presionar **Enter**, o copiar-pegar todo el código en una nueva ventana de Macro. {{Top}}
 
 ## Explorando FreeCAD 
 
@@ -129,7 +127,8 @@ Traducción realizada con la versión gratuita del traductor www.DeepL.com/Trans
 
 </div>
 
-[inicio](#top.md)
+
+{{Top}}
 
 ## Vectores y ubicaciones 
 
@@ -156,9 +155,7 @@ otherpla = FreeCAD.Placement()
 box.Placement = otherpla
 ```
 
-Ahora deberías comprender varios conceptos importantes antes de continuar avanzando.
-
-[inicio](#top.md)
+Ahora deberías comprender varios conceptos importantes antes de continuar avanzando. {{Top}}
 
 ## App y Gui 
 
@@ -180,9 +177,7 @@ vo.hide()
 vo.show()
 ```
 
-Cuando se inicia FreeCAD, la consola de Python ya carga dos módulos base: `FreeCAD` y `FreeCADGui` (a los que también se puede acceder por sus accesos directos `App` y `Gui`). Contienen todo tipo de funcionalidades genéricas para trabajar con documentos y sus objetos. Para ilustrar nuestro concepto, veamos que tanto `FreeCAD` como `FreeCADGui` contienen un atributo `ActiveDocument`, que es el documento actualmente abierto. `FreeCAD.ActiveDocument` y `FreeCADGui.ActiveDocument` no son el mismo objeto. Son los dos componentes de un documento de FreeCAD, y contienen diferentes atributos y métodos. Por ejemplo, `FreeCADGui.ActiveDocument` contiene `ActiveView`, que es la [Vista 3D](3D_view/es.md) actualmente abierta.
-
-[inicio](#top.md)
+Cuando se inicia FreeCAD, la consola de Python ya carga dos módulos base: `FreeCAD` y `FreeCADGui` (a los que también se puede acceder por sus accesos directos `App` y `Gui`). Contienen todo tipo de funcionalidades genéricas para trabajar con documentos y sus objetos. Para ilustrar nuestro concepto, veamos que tanto `FreeCAD` como `FreeCADGui` contienen un atributo `ActiveDocument`, que es el documento actualmente abierto. `FreeCAD.ActiveDocument` y `FreeCADGui.ActiveDocument` no son el mismo objeto. Son los dos componentes de un documento de FreeCAD, y contienen diferentes atributos y métodos. Por ejemplo, `FreeCADGui.ActiveDocument` contiene `ActiveView`, que es la [Vista 3D](3D_view/es.md) actualmente abierta. {{Top}}
 
 ## Módulos
 
@@ -205,11 +200,15 @@ import Part
 Part.
 ```
 
-Pero ya hablaremos más adelante del módulo de Piezas.
+Pero ya hablaremos más adelante del módulo de Piezas. {{Top}}
 
-[inicio](#top.md)
+
+<div class="mw-translate-fuzzy">
 
 ## Malla
+
+
+</div>
 
 Las [Mallas](https://en.wikipedia.org/wiki/Polygon_mesh) son un tipo de objeto 3D muy simple, utilizado por ejemplo por [Sketchup](https://en.wikipedia.org/wiki/SketchUp), [Blender](https://en.wikipedia.org/wiki/Blender_(software)) y [3D Studio Max](https://en.wikipedia.org/wiki/Autodesk_3ds_Max). Están compuestos por 3 elementos: puntos (también llamados vértices), líneas (también llamadas aristas) y caras. En muchas aplicaciones, incluido FreeCAD, las caras sólo pueden tener 3 vértices. Por supuesto, nada te impide tener una cara más grande formada por varios triángulos coplanares.
 
@@ -231,11 +230,15 @@ doc.recompute()
 
 Este es un ejemplo estándar que utiliza el método `createSphere()` para crear una esfera, pero también puedes crear mallas personalizadas desde cero definiendo sus vértices y caras.
 
-[Leer más sobre guionización de malla\...](Mesh_Scripting/es.md)
+[Leer más sobre guionización de malla\...](Mesh_Scripting/es.md) {{Top}}
 
-[inicio](#top.md)
+
+<div class="mw-translate-fuzzy">
 
 ## Piezas
+
+
+</div>
 
 El [Pieza](Part_Workbench/es.md) módulo es el módulo más potente de todo FreeCAD. Te permite crear y manipular objetos [BREP](http://en.wikipedia.org/wiki/Boundary_representation). BREP significa \"Representación de Límites\". Un objeto BREP está definido por superficies que encierran y definen un volumen interior. A diferencia de las mallas, los objetos BREP pueden tener una gran variedad de componentes, desde caras planas hasta superficies NURBS muy complejas.
 
@@ -264,11 +267,15 @@ Part.show(myshape)
 
 Al explorar el contenido de myshape, notarás muchos subcomponentes interesantes como `Faces`, `Edges`, `Vertexes`, `Solids` y `Shells`, y una amplia gama de operaciones de geometría como `cut` (sustracción), `common` (intersección) o `fuse` (unión). En la página [Guionización de topología de datos](Topological_data_scripting/es.md) se explica todo esto en detalle.
 
-[ Leer más sobre guionización pieza\...](Topological_data_scripting/es.md)
+[ Leer más sobre guionización pieza\...](Topological_data_scripting/es.md) {{Top}}
 
-[inicio](#top.md)
+
+<div class="mw-translate-fuzzy">
 
 ## Borrador
+
+
+</div>
 
 FreeCAD proporciona varios módulos, como el [Croquizador](Sketcher_Workbench/es.md) o [Borrador](Draft_Workbench/es.md), que también crean objetos de piezas, pero le añade parámetros, o incluso un nuevo modo de manejar la geometría de las piezas. Nuestro cubo de ejemplo de arriba, es un perfecto ejemplo de objeto paramétrico. Todo lo que necesitas, para definir el cubo, es especificar un conjunto de parámetros, como las altura, ancho y longitud. Basados en los cuales, el objeto calculará automáticamente su forma de Pieza. FreeCAD te permite [crear dichos objetos en Python](Scripted_objects/es.md).
 
@@ -283,7 +290,8 @@ Draft.move(rec, mvec)
 Draft.move(box, mvec)
 ```
 
-[inicio](#top.md)
+
+{{Top}}
 
 ## Interfaz
 
@@ -299,22 +307,21 @@ Observa que el diálogo que aparece tiene el icono de FreeCAD en su barra de her
 
 Qt es un sistema de interfaz muy potente que permite hacer cosas muy complejas. También tiene algunas herramientas fáciles de usar como el Qt Designer con el que puedes diseñar diálogos gráficamente y luego añadirlos a la interfaz de FreeCAD con unas pocas líneas de código Python.
 
-[Lee más sobre PySide aquí\...](PySide/es.md)
-
-[inicio](#top.md)
+[Lee más sobre PySide aquí\...](PySide/es.md) {{Top}}
 
 ## Macros
 
 Ahora que tienes una buena comprensión de los conceptos básicos, a dónde vamos para mantener nuestros archivos de guión en Python, y cómo vamos a ejecutarlos fácilmente desde FreeCAD? Existe un sencillo mecanismo para ello, denominado [Macros](Macros/es.md). Una macro es simplemente un archivo de guión en Python, que puede ser añadida a una barra de herramientas y lanzada desde un simple clic de ratón. FreeCAD proporciona un simple editor de textos (Macro -\> Macros -\> Crear) donde puedes escribir o pegar archivos de guión. Una vez esté terminado, Herramientas -\> Personalizar -\> Macros te permite definir un botón para ella, que se puede añadir a las barras de herramientas.
 
-Ahora estás listo para profundizar en guionización FreeCAD. Así que dirígete al [Centro usuarios avanzados](Power_users_hub/es.md)!
+Ahora estás listo para profundizar en guionización FreeCAD. Así que dirígete al [Centro usuarios avanzados](Power_users_hub/es.md)! {{Top}}
 
-[inicio](#top.md)
+
+
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

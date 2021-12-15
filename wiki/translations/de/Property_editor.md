@@ -19,7 +19,7 @@ Nicht alle Eigenschaften können immer geändert werden; je nach dem spezifische
 
 Eine Eigenschaft ist eine Information wie eine Zahl oder eine Textzeichenfolge, die an ein FreeCAD Dokument oder ein Objekt im Dokument angehängt ist.
 
-Benutzerdefinierte [Gescriptete Objekte](Scripted_Objects/de.md) können jeden der im Basissystem definierten Eigenschaftstypen verwenden. Die vollständige Liste finden Sie in [Eigenschaft](Property/de.md).
+Benutzerdefinierte [Gescriptete Objekte](Scripted_objects/de.md) können jeden der im Basissystem definierten Eigenschaftstypen verwenden. Die vollständige Liste finden Sie in [Eigenschaft](Property/de.md).
 
 Einige der am häufigsten verwendeten Eigenschaftstypen sind: 
 ```python
@@ -49,7 +49,7 @@ For this reason, **Data** properties are considered to be more \"real\", as they
 ### Grundlegende Eigenschaften 
 
 
-**Siehe auch: [Objektname](Objekt_name/de.md)**
+**Siehe auch: [Objektname](Object_name/de.md)**
 
 The most basic [scripted object](scripted_objects.md) won\'t show any **Data** property in the property editor, except for its `Label` attribute. The `Label` is a user editable string that identifies the object in the [tree view](tree_view.md). On the other hand, the `Name` attribute of an object is assigned at the moment of its creation and cannot be changed; this attribute is read-only, and is not displayed in the property editor either.
 
@@ -75,7 +75,13 @@ For 2D geometry, most objects are derived from `Part::Part2DObject` (itself deri
 
 ## Maßnahmen
 
+
+<div class="mw-translate-fuzzy">
+
 Aktionen in der Eigenschaftsansicht wurden in 0.19 implementiert.
+
+
+</div>
 
 Right clicking in an empty space of the view, or with a property selected, shows only one command:
 

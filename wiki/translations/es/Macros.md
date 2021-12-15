@@ -28,7 +28,13 @@ Su uso es muy sencillo: Pulsa el botón de grabar, se te pedirá que des un nomb
 ![](images/Macros.png ) 
 *Diálogo de macros, que enumera las macros disponibles en el sistema*
 
-Allí puedes gestionar tus macros, borrarlas, editarlas, duplicarlas, instalarlas o crear otras nuevas desde cero. Si editas una macro, se abrirá en una ventana del editor donde puedes hacer cambios en su código. Se pueden instalar nuevas macros utilizando el botón {{button|Complementos...}}, que enlaza con el [Gestor Complementos](AddonManager/es.md).
+
+<div class="mw-translate-fuzzy">
+
+Allí puedes gestionar tus macros, borrarlas, editarlas, duplicarlas, instalarlas o crear otras nuevas desde cero. Si editas una macro, se abrirá en una ventana del editor donde puedes hacer cambios en su código. Se pueden instalar nuevas macros utilizando el botón {{button|Complementos...}}, que enlaza con el [Gestor Complementos](Std_AddonMgr/es.md).
+
+
+</div>
 
 ## Ejemplo
 
@@ -103,9 +109,18 @@ Puede instalar manualmente las extensiones, sin embargo, es mucho más sencillo 
 </div>
 
 
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/es|Standard Menu/es|Introduction to Python/es}}
+
+
+</div>
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _ _
 

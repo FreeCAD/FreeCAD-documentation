@@ -24,7 +24,13 @@ Das **![](images/)_[Part_verschmelzen](Part_Fuse/de.md)** Werkzeug verschmilzt 
 
 ## Unterstützte Eingaben 
 
-Eingabeobjekte müssen [OpenCascade](OpenCascade.md) Formen sein. Beispiele: Dinge, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurde. Keine Polygonnetze (es sei denn, diese wurden in Formen konvertiert) - für Polygonnetze gibt es gesonderte boolesche Werkzeuge im Netzkonstruktionsarbeitsbereich.
+
+<div class="mw-translate-fuzzy">
+
+Eingabeobjekte müssen [OpenCASCADE](OpenCASCADE/de.md) Formen sein. Beispiele: Dinge, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurde. Keine Polygonnetze (es sei denn, diese wurden in Formen konvertiert) - für Polygonnetze gibt es gesonderte boolesche Werkzeuge im Netzkonstruktionsarbeitsbereich.
+
+
+</div>
 
 -   Festkörper + Festkörper: das Ergebnis ist ein Festkörper, der das gesamte von den Eingaben abgedeckte Volumen einnimmt
 

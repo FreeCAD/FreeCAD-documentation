@@ -40,7 +40,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Stiskněte tlačítko **<img src="images/Draft_Circle.png" width=16px> [Kružnice](Draft_Circle/cs.md)
 ** nebo klávesy **C** pak **I**
-2.  Klikněte na první bod ve 3D pohledu nebo zadejte [souřadnice](Draft_Coordinates/cs.md)
+2.  Klikněte na první bod ve 3D pohledu nebo zadejte souřadnice
 3.  Klikněte na druhý bod ve 3D pohledu nebo zadejte hodnotu poloměru.
 
 

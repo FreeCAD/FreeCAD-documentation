@@ -4,7 +4,7 @@
    Name/ro:Creaza schita
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
    MenuLocation:Sketch → Creaza schita
-   SeeAlso:[Asociază schiţa unei feţe...](Sketcher_MapSketch/ro.md), [Reorientați schița...](Sketcher_Reorient/ro.md)
+   SeeAlso:[Asociază schiţa unei feţe...](Sketcher_MapSketch/ro.md), [Reorientați schița...](Sketcher_ReorientSketch/ro.md)
 ---
 
 # Sketcher NewSketch/ro

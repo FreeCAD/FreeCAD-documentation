@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/de
-   Name:Std DlgEinstellungen
+   Name:Std DlgPreferences
    Name/de:Std DlgEinstellungen
    MenuLocation:Bearbeiten → Einstellungen...
    Workbenches:Alle

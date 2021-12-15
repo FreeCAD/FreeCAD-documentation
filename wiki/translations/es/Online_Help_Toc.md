@@ -58,10 +58,10 @@ Alli esta otra tabla de contenidos para el _.
 -   Personalizando FreeCAD
     -   [Personalizando la interfaz](Interface_Customization/es.md)
     -   [Configuración de las preferencias principales](Preferences_Editor/es.md)
-    -   [Configurando preferencias para importar-exportar](Import_Export_Preference/es.md)
+    -   [Configurando preferencias para importar-exportar](Import_Export_Preferences/es.md)
     -   [Inicio y configuración](Start_up_and_Configuration/es.md)
 
--   Guiones en Python
+-   [Guiones en Python](Scripting_and_macros/es.md)
     -   [Trabajando con macros](Macros/es.md)
     -   [Tutorial de guion](Scripts/es.md)
     -   [Introducción a Python](Introduction_to_Python/es.md)
@@ -75,9 +75,6 @@ Alli esta otra tabla de contenidos para el _.
     -   [Trabajar con PySide](PySide/es.md)
     -   [Creación de interfaces](Interface_creation/es.md)
     -   [Creación de diálogos](Dialog_creation/es.md)
-
-
-<div class="mw-translate-fuzzy">
 
 -   Desarrollo
     -   [Licencia](Licence/es.md)
@@ -101,13 +98,10 @@ Alli esta otra tabla de contenidos para el _.
     -   Modificando FreeCAD
         -   [Técnicas de marca](Branding/es.md)
         -   [Traduciendo FreeCAD](Localisation/es.md)
-        -   [Añadir un módulo de aplicación](Module_Creation/es.md)
-        -   [Instalando módulos extra de python](Extra_python_odules/es.md)
+        -   [Añadir un ambiente de trabajo](Workbench_creation/es.md)
+        -   [Instalando módulos extra de python](Extra_python_modules/es.md)
     -   [Fuentes de documentación](Source_documentation/es.md)
     -   [API](https://www.freecadweb.org/api/)
-
-
-</div>
 
 -   Créditos
     -   [Contribuciones](Contributors/es.md)

@@ -27,7 +27,7 @@ Fusiona (unión) los objetos Pieza seleccionados en uno. Esta operación es comp
 
 ## Supported inputs 
 
-Input objects must be [OpenCascade](OpenCascade.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
+Input objects must be [OpenCASCADE](OpenCASCADE.md) shapes. Examples: stuff made with Part, PartDesign, Sketcher workbenches. Not meshes (unless those were converted to shapes) - for meshes, there are specific Boolean tools in MeshDesign workbench.
 
 -   Solid + Solid: the result is a solid that occupies all the volume covered by the inputs
 

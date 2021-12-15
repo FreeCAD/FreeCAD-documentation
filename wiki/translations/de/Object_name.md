@@ -7,7 +7,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Alle Objekte im Programm haben einen [Objektnamen](Object_name/de.md), der sie in einem bestimmten [Dokument](App_Document/de.md) eindeutig identifiziert.
+Alle Objekte im Programm haben einen [Objektnamen](Object_name/de.md), der sie in einem bestimmten Dokument eindeutig identifiziert.
 
 
 </div>

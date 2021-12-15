@@ -49,7 +49,7 @@ Iată, de exemplu, câteva caracteristici interesante ale programului [Arch Work
 
 <div class="mw-translate-fuzzy">
 
--   Întreaga putere a FreeCAD vă este la îndemână. Aveți posibilitatea să proiectați obiecte arhitecturale cu orice alt instrument al FreeCAD, cum ar fi [Workbench PartDesign](Workbench_PartDesign.md), și atunci când acestea sunt gata, convertiți-le în obiecte arhitecturale. Ele vor păstra în continuare istoria lor de modelare completă și vor continua să fie complet editabile. De asemenea, [Arch Workbench](Arch_Workbench.md) moștenește o mare parte din funcți(ile)onalitatea [Draft Workbench](Draft_Workbench.md), cum ar fi [snapping](Draft_Snap.md) și [working planes](Draft_SelectPlane.md).
+-   Întreaga putere a FreeCAD vă este la îndemână. Aveți posibilitatea să proiectați obiecte arhitecturale cu orice alt instrument al FreeCAD, cum ar fi [PartDesign Workbench](PartDesign_Workbench.md), și atunci când acestea sunt gata, convertiți-le în obiecte arhitecturale. Ele vor păstra în continuare istoria lor de modelare completă și vor continua să fie complet editabile. De asemenea, [Arch Workbench](Arch_Workbench.md) moștenește o mare parte din funcți(ile)onalitatea [Draft Workbench](Draft_Workbench.md), cum ar fi [snapping](Draft_Snap.md) și [working planes](Draft_SelectPlane.md).
 
 
 </div>
@@ -104,7 +104,7 @@ Iată, de exemplu, câteva caracteristici interesante ale programului [Arch Work
 <div class="mw-translate-fuzzy">
 
 
-{{Note|FreeCAD version 0.14 required|This tutorial was written using [FreeCAD version 0.14](Release_notes_014.md). You will need at least this version number in order to follow it. Earlier versions might not contain all the needed tools, or they could lack options presented here.}}
+{{Note|FreeCAD version 0.14 required|This tutorial was written using [FreeCAD version 0.14](Release_notes_0.14.md). You will need at least this version number in order to follow it. Earlier versions might not contain all the needed tools, or they could lack options presented here.}}
 
 
 </div>
@@ -361,7 +361,7 @@ Acum ar fi un moment bun pentru a face un pic de curățenie de casă. Din momen
 
 <div class="mw-translate-fuzzy">
 
-Arhitectura _, [Arch Building](Arch_Building.md) și [Floor Arch](Floor_Arch.md). Aceste 3 obiecte se bazează pe grupul standard FreeCAD, deci se comportă exact ca grupuri, dar au și câteva proprietăți suplimentare. De exemplu, [floors](Arch_Floor.md) au capacitatea de a defini/seta și de a controla înălțimea pereților și structurii conținute și, atunci când sunt mutate, tot conținutul lor este mutat.
+Arhitectura _, [Arch Building](Arch_Building.md) și [Floor Arch](Arch_Floor.md). Aceste 3 obiecte se bazează pe grupul standard FreeCAD, deci se comportă exact ca grupuri, dar au și câteva proprietăți suplimentare. De exemplu, [floors](Arch_Floor.md) au capacitatea de a defini/seta și de a controla înălțimea pereților și structurii conținute și, atunci când sunt mutate, tot conținutul lor este mutat.
 
 
 </div>
@@ -502,7 +502,7 @@ Acum, când ne uităm la elevația noastră din spate și o comparăm cu planul,
 
 <div class="mw-translate-fuzzy">
 
-We have of course several ways to do that, making a subtraction volume would be an easy way, but it would add unnecessary complexity to the model. Better to edit the base wire of each floors. This is where the [Draft Edit](Draft_Edit.md) mode comes into action. By expanding these floors in the tree view, then making their base wire visible, we can then double-click them to enter edit mode. There, we can move their points, or [add](Draft_AddPoint.md) or [remove](Draft_DelPoint.md) points. With this,editing our floor plates becomes easy.
+We have of course several ways to do that, making a subtraction volume would be an easy way, but it would add unnecessary complexity to the model. Better to edit the base wire of each floors. This is where the [Draft Edit](Draft_Edit.md) mode comes into action. By expanding these floors in the tree view, then making their base wire visible, we can then double-click them to enter edit mode. There, we can move their points, or add or remove points. With this,editing our floor plates becomes easy.
 
 
 </div>

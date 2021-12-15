@@ -4,16 +4,12 @@
    Name/ro:Dreptunghi
    Workbenches:[Draft](Draft_Workbench/ro.md), [Arch](Arch_Workbench/ro.md)
    MenuLocation:Draft → Rectangle
-   Shortcut:R E
    Shortcut:**R** **E**
    Version:0.7
    SeeAlso:[Part Box](Part_Box/ro.md)
 ---
 
 # Draft Rectangle/ro
-
-
-</div>
 
 ## Description
 
@@ -49,8 +45,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 ## Cum se utiliează 
 
 1.  Press the **<img src="images/Draft_Rectangle.png" width=16px> [Draft Rectangle](Draft_Rectangle/ro.md)** button, or press **R** then **E** keys
-2.  Click a first corner point on the 3D view, or type a [coordinate](Draft_Coordinates/ro.md)
-3.  Click another opposite point on the 3D view, or type a [coordinate](Draft_Coordinates/ro.md). The rectangle will also be a face, even if it appears as wireframe.
+2.  Click a first corner point on the 3D view, or type a coordinate
+3.  Click another opposite point on the 3D view, or type a coordinate. The rectangle will also be a face, even if it appears as wireframe.
 
 
 </div>

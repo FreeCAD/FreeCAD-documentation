@@ -26,9 +26,9 @@ Dokumentace pro vývojáře zahrnuje následující sekce:
 
 -   [Správa zdrojového kódu](Source_code_management.md)
 -   [Vyledání podpory](Tracker.md) máte-li problém nebo si myslíte, že jste odhalili chybu
--   [Kompilace na Windows](CompileOnWindows.md)
--   [Kompilace na Unixu](CompileOnUnix.md)
--   [Kompilace na Mac OS X](CompileOnMac.md)
+-   [Kompilace na Windows](Compile_on_Windows.md)
+-   [Kompilace na Unixu](Compile_on_Linux.md)
+-   [Kompilace na Mac OS X](Compile_on_MacOS.md)
 -   [Detaily licence](Licence.md) - o licenci FreeCADu
 -   [Knihovny třetích stran](Third_Party_Libraries.md)
 -   [Nástroje třetích stran](Third_Party_Tools.md)
@@ -57,8 +57,8 @@ Dokumentace pro vývojáře zahrnuje následující sekce:
 ### Nástroje pro podporu buildu 
 
 -   [Nástroj pro build FreeCADu](FreeCAD_Build_Tool.md)
-    -   [Přidávání aplikačního modulu](Module_Creation.md) do FreeCADu
--   [Ladění](Debugging.md) FreeCADu
+-   [Přidávání aplikačního modulu](Workbench_creation.md) do FreeCADu
+-   [Ladění](Debugging/cs.md) FreeCADu
 -   [Testování](Testing.md) FreeCADu
 
 

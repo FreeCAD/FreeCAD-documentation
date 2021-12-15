@@ -30,9 +30,21 @@ Der <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;"> **Entwu
 
 ## Skripten
 
+
+<div class="mw-translate-fuzzy">
+
 Siehe auch: _.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Um einen Draht in einen Bspline umzuwandeln oder umgekehrt, übergib die Eigenschaft `Points` des Quellobjekts an die Methode `[make_bspline](Draft_BSpline/de#Skripten.md)` bzw. die Methode `[make_wire](Draft_Wire/de#Skripten.md)` des Entwurf Moduls.
+
+
+</div>
 
 Beispiel:
 

@@ -36,6 +36,10 @@ When starting the tool, the mouse pointer changes to a white cross with a red sl
 
 </div>
 
+## Notes
+
+-   A slot can also be constrained horizontally or vertically if the **Auto constraints** option is enabled. <small>(v0.20)</small> 
+
 
 
 

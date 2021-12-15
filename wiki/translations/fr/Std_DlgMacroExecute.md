@@ -95,7 +95,7 @@ La commande **Std Exécuter la macro** ouvre la boîte de dialogue Execute macro
 
 ### Greffons
 
-1.  Appuyez sur le bouton **Greffons...** pour démarrer [Gestionnaire d\'Addon](Addon_manager/fr.md).
+1.  Appuyez sur le bouton **Addons...** pour démarrer le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
 ## Remarques
 

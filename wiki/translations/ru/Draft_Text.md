@@ -41,7 +41,7 @@ See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 
 1.  Нажмите кнопку **<img src="images/Draft_Text.svg" width=16px> [Текст](Draft_Text/ru.md)
 **, или нажмите клавишу **T**, а затем**E**
-2.  Укажите точку на трёхмерном виде или задайте [координаты](Draft_Coordinates/ru.md) и нажмите кнопку **<img src="images/Draft_AddPoint.svg" width=16px> [add point](Draft_AddPoint/ru.md)**.
+2.  Укажите точку на трёхмерном виде или задайте координаты и нажмите кнопку **<img src="images/Draft_AddPoint.svg" width=16px> add point**.
 3.  Введите желаемый текст нажимая **Enter** между каждыми строками
 4.  Дважды нажмите **Enter** для завершения.
 
@@ -55,7 +55,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 <div class="mw-translate-fuzzy">
 
--   Для указания координат вручную, введите число и нажимайте **ENTER** для перехода между координатами X, Y и Z. Вы можете нажать кнопку **<img src="images/Draft_AddPoint.svg" width=16px> [добавить точку](Draft_AddPoint/ru.md)**, когда у вас есть нужные значения для вставки точки.
+-   Для указания координат вручную, введите число и нажимайте **ENTER** для перехода между координатами X, Y и Z. Вы можете нажать кнопку **<img src="images/Draft_AddPoint.svg" width=16px> добавить точку**, когда у вас есть нужные значения для вставки точки.
 -   Удерживайте **Ctrl** при размещении текста, чтобы принудительно установить [привязку](Draft_Snap/ru.md) вашей точки в ближайшее место привязки, независимо от расстояния.
 -   Нажмите **Enter** или **↓ Стрелка вниз**, чтобы ввести новую строку текста.
 -   Нажмите **↑ Стрелка вверх**, чтобы отредактировать предыдущую строку текста.

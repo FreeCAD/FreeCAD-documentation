@@ -31,7 +31,7 @@ Der **Std Schließen**-Befehl schließt das aktive Fenster. Um ein Dokument zu s
 ## Hinweise
 
 -   Der Befehl kann nur [docked](Std_ViewDockUndockFullscreen.md)-Fenster schließen.
--   \* Ein Dokument kann auch geschlossen werden, indem es in der [Baumansicht](Tree_View/de.md) mit einem Rechtsklick ausgewählt und **Dokument schließen** aus dem Kontextmenü benutzt wird.
+-   \* Ein Dokument kann auch geschlossen werden, indem es in der [Baumansicht](Tree_view/de.md) mit einem Rechtsklick ausgewählt und **Dokument schließen** aus dem Kontextmenü benutzt wird.
 
 ## Einstellungen
 

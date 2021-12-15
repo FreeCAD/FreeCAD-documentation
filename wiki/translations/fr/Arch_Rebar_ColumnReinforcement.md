@@ -559,13 +559,7 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
  

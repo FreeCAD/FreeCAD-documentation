@@ -2,6 +2,7 @@
 - GuiCommand:
    Name:Assembly3 CreateAssembly
    Icon:Assembly_New_Assembly.svg
+   MenuLocation:Assembly3 → Create assembly
    Workbenches:[Assembly3](Assembly3_Workbench.md)
    Shortcut:**A** **N**
 ---

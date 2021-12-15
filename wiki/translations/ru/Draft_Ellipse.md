@@ -45,8 +45,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 ## Использование
 
 1.  Нажмите кнопку **<img src="images/Draft_Ellipse.png" width=16px> [[Draft Ellipse]]** или нажмите клавиши {{KEY | C}}, затем {{KEY | I}}
-2.  Щелкните первую точку на трехмерном изображении или введите [coordinate](Draft_Coordinates.md)
-3.  Нажмите вторую точку на трехмерном представлении или введите [ coord](Draft_Coordinates.md).
+2.  Щелкните первую точку на трехмерном изображении или введите coordinate
+3.  Нажмите вторую точку на трехмерном представлении или введите coordinate.
 
 
 </div>

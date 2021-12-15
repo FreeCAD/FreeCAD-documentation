@@ -42,8 +42,8 @@ Si può anche usare lo strumento Facciata continua senza alcun oggetto seleziona
 1.  Assicurarsi che non sia selezionato nulla
 2.  Premere il pulsante **<img src="images/Arch_CurtainWall.svg" width=16px> [Facciata continua](Arch_CurtainWall/it.md)
 **, o premere i tasti **C** e poi **W**
-3.  Fare clic su un primo punto nella vista 3D o digitare le [coordinate](Draft_Coordinates/it.md)
-4.  Fare clic su un secondo punto nella vista 3D o digitare le [coordinate](Draft_Coordinates/it.md)
+3.  Fare clic su un primo punto nella vista 3D o digitare le coordinate
+4.  Fare clic su un secondo punto nella vista 3D o digitare le coordinate
 5.  Regolare le proprietà necessarie
 
 

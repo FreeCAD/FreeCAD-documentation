@@ -358,7 +358,7 @@ You can find these different property types defined in the [source code C++ head
 
 ## 其它更复杂的例子
 
-这个例子利用 [零件模块](零件模块/zh-cn.md) 来创建一个八面体, 然后用pivy创建它的coin表达。
+这个例子利用 [零件模块](Part_Workbench/zh-cn.md) 来创建一个八面体, 然后用pivy创建它的coin表达。
 
 
 </div>
@@ -1110,6 +1110,15 @@ Interesting forum threads about scripted objects:
 -   [how to implement python feature\'s setEdit properly?](https://forum.freecadweb.org/viewtopic.php?f=22&t=21330)
 
 In addition to the examples presented here have a look at FreeCAD source code [src/Mod/TemplatePyMod/FeaturePython.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py) for more examples.
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/zh-cn|[PySide](PySide/zh-cn.md)|[Embedding FreeCAD](Embedding_FreeCAD/zh-cn.md)}}
+
+
+</div>
 
 
 {{Powerdocnavi

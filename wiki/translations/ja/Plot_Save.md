@@ -1,6 +1,12 @@
-# Plot Save/ja
 ---
-- GuiCommand:/jp   Name:Plot Save   Workbenches:[[Plot Module   Plot]]|MenuLocation:Plot -> Save plot---
+- GuiCommand:/ja
+   Name:Plot Save
+   Name/ja:Plot Save
+   Workbenches:[Plot](Plot_Workbench.md)
+   MenuLocation:Plot -> Save plot
+---
+
+# Plot Save/ja
 
 
 </div>

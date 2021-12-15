@@ -48,8 +48,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Apăsați butonul **<img src="images/Draft_BSpline.png" width=16px> [Draft BSpline](Draft_BSpline/ro.md)
 **, sau apăsați tastele **B** apoi **S**
-2.  Click pe primul punct în vizualizarea 3D, sau tastați [coordinate](Draft_Coordinates/ro.md)
-3.  Click ăe punctele adiționale în vizualizarea 3D, sau tastați [coordinate](Draft_Coordinates/ro.md)
+2.  Click pe primul punct în vizualizarea 3D, sau tastați coordinate
+3.  Click ăe punctele adiționale în vizualizarea 3D, sau tastați coordinate
 4.  Apăsați tastele **F** sau **C** sau faceți dublu clic pe ultimul punct sau faceți clic pe primul punct pentru a termina sau închide curba spline. Dacă curba B spline este închisă, ea va fi de asemenea o fațetă, chiar dacă ea apare ca un cadru de tip wireframe.
 
 
@@ -64,8 +64,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Opțiuni
 
--   Apăsați **F** or the **<img src="images/Draft_FinishLine.png" width=12px> '''[Finish](Draft_FinishLine/ro.md)'''** button to finish the spline, leaving it open
--   Apăsați butonul **C** or the **<img src="images/Draft_CloseLine.png" width=12px> '''[Close](Draft_CloseLine/ro.md)'''** sau click pe primul punct pentru a finaliza curba Spline, dar care o închid prin adăugarea unui ultim segment între ultimul punct și primul punct.
+-   Apăsați **F** or the **<img src="images/Draft_FinishLine.png" width=12px> '''Finish'''** button to finish the spline, leaving it open
+-   Apăsați butonul **C** or the **<img src="images/Draft_CloseLine.png" width=12px> '''Close'''** sau click pe primul punct pentru a finaliza curba Spline, dar care o închid prin adăugarea unui ultim segment între ultimul punct și primul punct.
 -   Apăsați tasta **X**, **Y** sau **Z** după un punct pentru a constrânge următorul punct de pe axa dată.
 -   Pentru a introduce manual coordonatele, pur și simplu introduceți numerele, apoi apăsați **ENTER** între fiecare componentă X, Y și Z.
 -   Apăsați tasta **R** sau click pe checkbox pentru a bifa/debifa butonul **'''Relative'''**.Dacă modul relativ este activ, coordonatele punctului următor sunt relativ la ultima. Dacă nu, ele sunt absolute, luate din punctul de origine (0,0,0).
@@ -73,7 +73,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Apăsați tasta **CTRL** în timp ce desenați pentru a forța punctul [snapping](Draft_Snap/ro.md) punctul dvs. către cea mai apropiată locație, independent de distanța.
 -   Apăsați tasta **SHIFT** în timp ce desenați [constrain](Draft_Constrain/ro.md) punct dvs următor orizontal sau vertical în relație cu ultimul .
 -   Apăsați tasta **W** sau apăsați butonul **<img src="images/Draft_Wipe.png" width=12px> '''Wipe'''** pentru a șterge segmentele existente și să demarați funcția Spline de la ultimul punct.
--   Apăsați combinația de taste **CTRL**+**Z** sau apăsțai butonul **<img src="images/Draft_UndoLine.png" width=12px> '''[Undo](Draft_UndoLine/ro.md)'''** de undo a ultimului punct.
+-   Apăsați combinația de taste **CTRL**+**Z** sau apăsțai butonul **<img src="images/Draft_UndoLine.png" width=12px> '''Undo'''** de undo a ultimului punct.
 -   Apăsați tasta **I** sau apăsați butonul **'''Filled'''** pentru a avea funcția spline umplută cu o fațetă după ce a fost închisă.
 -   Apăsați tasta **ESC** sau tasta **'''Cancel'''** pentru a întrerupe comanda curentă BSpline.
 -   Planele BS, atunci când sunt în modul de afișare \"Flat Lines\", pot afișa un model de hașurare, prin setarea proprietății \"Pattern\" de mai jos.

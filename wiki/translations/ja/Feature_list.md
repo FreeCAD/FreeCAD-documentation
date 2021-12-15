@@ -101,7 +101,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   **組み込みの[スクリプトフレームワーク](Scripting/jp.md)**: FreeCADには[Python](http://www.python.org/)インタープリターが組み込まれています。またアプリケーション、インターフェイス、ジオメトリー、3Dビューワー上のジオメトリー表現のほとんど全てを網羅したAPIを兼ね備えています。インタープリターは1つのコマンドから複雑なスクリプトまで実行でき、実質的には全モジュールを完全にPythonでプログラムすることさえ可能です。
+-   **組み込みの[スクリプトフレームワーク](Scripting/ja.md)**: FreeCADには[Python](http://www.python.org/)インタープリターが組み込まれています。またアプリケーション、インターフェイス、ジオメトリー、3Dビューワー上のジオメトリー表現のほとんど全てを網羅したAPIを兼ね備えています。インタープリターは1つのコマンドから複雑なスクリプトまで実行でき、実質的には全モジュールを完全にPythonでプログラムすることさえ可能です。
 
 
 </div>
@@ -229,7 +229,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   **（ZIPベースの）複合ドキュメント保存フォーマット**: FreeCADドキュメントは.[fcstd拡張子で保存できます](fcstd_file_format/jp.md)。これにはジオメトリー、スクリプト、サムネイルアイコンといったさまざまな種類の情報を保存することができます。
+-   **（ZIPベースの）複合ドキュメント保存フォーマット**: FreeCADドキュメントは.[fcstd拡張子で保存できます](File_Format_FCStd/ja.md)。これにはジオメトリー、スクリプト、サムネイルアイコンといったさまざまな種類の情報を保存することができます。
 
 
 </div>
@@ -282,7 +282,7 @@ Power users have created various custom [external workbenches](external_workbenc
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/jp|About FreeCAD/jp|Install on Windows/jp}}
+{{docnav/ja|About FreeCAD/ja|Install on Windows/ja}}
 
 
 </div>

@@ -11,7 +11,7 @@ L\'atelier Silk est un [atelier externe](External_workbenches/fr.md) qui crée d
 
 ## Installation
 
-L\'installation recommandée se fait par <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) via **Outils → Gestionnaire d'Addon**.
+L\'installation recommandée se fait par le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via **Outils → Gestionnaire d'Addon**.
 
 ## Références
 

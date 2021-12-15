@@ -24,7 +24,7 @@ L\'outil **![](images/)_[Union](Part_Fuse/fr.md)** fusionne les objets Part sé
 
 ## Entrées prises en charge 
 
-L\'objet doit être un objet (forme) [OpenCascade](OpenCascade/fr.md). Exemples: les objets créés avec un des ateliers Part, PartDesign, Sketcher. Ne peut pas être un objet Mesh (sauf s\'il est converti en forme (shape)) - pour les objets Mesh, utilisez l\'outil booléen spécifique dans l\'atelier MeshDesign.
+Les objets utilisés doivent être des formes [OpenCASCADE](OpenCASCADE/fr.md). Exemples : les trucs faits avec un des ateliers Part, PartDesign, Sketcher. Pas de maillages (sauf s\'ils ont été convertis en formes) - pour les maillages, il existe des outils booléens spécifiques dans l\'atelier MeshDesign.
 
 -   Solide + Solide : le résultat est un solide qui occupe tout le volume couvert par les volumes d\'origine.
 

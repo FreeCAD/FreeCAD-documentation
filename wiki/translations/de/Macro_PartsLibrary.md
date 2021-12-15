@@ -3,7 +3,6 @@
 |Name=Parts Library
 |Icon=FreeCAD Doc.png
 |Translate=Parts Library
-|Icon=FreeCAD Doc.png
 |Description=Startet den Parts Library-Browser FreeCAD
 |Author=yorik
 |Version=01.00

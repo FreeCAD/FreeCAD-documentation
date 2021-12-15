@@ -28,7 +28,13 @@ Basta selezionare i vertici e il risultato viene mostrato nel pannello Report. I
 
 ## Codice
 
+
+<div class="mw-translate-fuzzy">
+
 L\'ultima versione della macro si trova in _.
+
+
+</div>
 
 ToolBar Icon ![](images/Macro_MeasureCircle.png )
 

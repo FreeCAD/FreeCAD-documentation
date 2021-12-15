@@ -1,9 +1,13 @@
-# Std ViewRotateRight/ro
 ---
-- GuiCommand:   Name:Std_RotateRight   Workbenches:All   SeeAlso:...---
+- GuiCommand:
+   Name:Std ViewRotateRight
+   MenuLocation:View → Standard views → Rotate Right
+   Workbenches:All
+   Shortcut:**Shift**+**Right**
+   SeeAlso:[Std ViewRotateLeft](Std_ViewRotateLeft.md)
+---
 
-
-</div>
+# Std ViewRotateRight/ro
 
 
 <div class="mw-translate-fuzzy">

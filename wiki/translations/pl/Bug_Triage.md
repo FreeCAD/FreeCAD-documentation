@@ -1,10 +1,10 @@
 # Bug Triage/pl
 {{TOCright}}
 
-## Why
+## Dlaczego
 
 
-{{ColoredParagraph|Triageː
+{{ColoredParagraph|Badanieː
 
 1a :  the sorting of and allocation of treatment to patients and especially battle and disaster victims according to a system of priorities designed to maximize the number of survivors
 

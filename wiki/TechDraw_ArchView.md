@@ -62,7 +62,7 @@ The ArchView is rendered within the [Arch Workbench](Arch_Workbench.md), therefo
 
 [TechDraw API](TechDraw_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The New Arch tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
+The ArchView tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following functions:
 
  
 ```python

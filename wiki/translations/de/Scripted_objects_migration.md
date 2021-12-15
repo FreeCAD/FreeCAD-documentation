@@ -60,7 +60,7 @@ class OldObject:
         pass
 ```
 
-Mit dieser Klasse kann ein Objekt erstellt und unter {{Dateiname|mein_Dokument.FCstd}} gespeichert werden. Wenn dem neuen Objekt kein bestimmter [Ansichtsanbieter](viewprovider/de.md) zugewiesen ist, wird seine Proxy Klasse einfach auf einen anderen Wert als `None` gesetzt, in diesem Fall auf `1`. 
+Mit dieser Klasse kann ein Objekt erstellt und unter {{FileName|mein_Dokument.FCstd}} gespeichert werden. Wenn dem neuen Objekt kein bestimmter [Ansichtsanbieter](viewprovider/de.md) zugewiesen ist, wird seine Proxy Klasse einfach auf einen anderen Wert als `None` gesetzt, in diesem Fall auf `1`. 
 ```python
 import FreeCAD as App
 import old_module
@@ -150,7 +150,7 @@ Wenn das Dokument nun gespeichert und wieder geöffnet wird, sucht es automatisc
 <class 'ModuleNotFoundError'>: No module named 'old_module'
 }}
 
-Wenn es realistischerweise nicht möglich ist, alle älteren Objekte zu migrieren, z.B. weil das alte Modul viele Jahre lang in einem Arbeitsbereich verwendet wurde, muss {{Dateiname|old_module.py}} so lange beibehalten werden, wie es für notwendig erachtet wird, um den Benutzern die Möglichkeit zu geben, ihre Objekte zu migrieren.
+Wenn es realistischerweise nicht möglich ist, alle älteren Objekte zu migrieren, z.B. weil das alte Modul viele Jahre lang in einem Arbeitsbereich verwendet wurde, muss {{FileName|old_module.py}} so lange beibehalten werden, wie es für notwendig erachtet wird, um den Benutzern die Möglichkeit zu geben, ihre Objekte zu migrieren.
 
 ### Vor- und Nachteile 
 

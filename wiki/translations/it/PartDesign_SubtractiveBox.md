@@ -17,7 +17,7 @@ Inserisce un cubo sottrattivo nel corpo attivo. La sua forma viene sottratta dal
 <div class="mw-translate-fuzzy">
 
 1.  Premere il pulsante **<img src="images/PartDesign_SubtractiveBox.png" width=24px> '''Cubo sottrattivo'''**. **Nota**: Il Cubo sottrattivo fa parte di un menu di icone etichettato *Crea una primitiva sottrattiva*. Dopo aver avviato FreeCAD, il cubo sottrattivo è quella visualizzata nella barra degli strumenti. Se viene visualizzata una primitiva diversa, fare clic sulla freccia rivolta verso il basso accanto all\'icona e selezionare Cubo sottrattiva
-2.  Impostare i parametri della primitiva e il modo di [Associazione](Part_Attachment/it.md).
+2.  Impostare i parametri della primitiva e il modo di [Associazione](Part_EditAttachment/it.md).
 3.  Cliccare **OK**.
 4.  Nel corpo attivo viene visualizzata una funzione Cubo.
 
@@ -42,7 +42,7 @@ Dopo la sua creazione il cubo può essere modificato in due modi:
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/it|Attachment}}: Definisce la modalità e l\'offset di associazione. Vedere [Associazione](Part_Attachment/it.md).
+-    {{PropertyData/it|Attachment}}: Definisce la modalità e l\'offset di associazione. Vedere [Associazione](Part_EditAttachment/it.md).
 
 -    {{PropertyData/it|Label}}: Etichetta data all\'oggetto Box. Modificabile secondo le proprie esigenze.
 

@@ -49,7 +49,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Premere il pulsante **<img src="images/Draft_Arc.svg" width=16px> [Arco](Draft_Arc/it.md)
 **, o premere i tasti **A** e **R**
-2.  Selezionare un primo punto nella vista 3D per stabilire il centro, oppure digitare le sue [coordinate](Draft_Coordinates/it.md) poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**.
+2.  Selezionare un primo punto nella vista 3D per stabilire il centro, oppure digitare le sue coordinate poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
 3.  Selezionare un secondo punto nella vista 3D, o introdurre il valore del raggio.
 4.  Selezionare un terzo punto nella vista 3D, o introdurre l\'angolo iniziale
 5.  Selezionare un quarto punto nella vista 3D, o introdurre l\'angolo di apertura
@@ -69,7 +69,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   L\'uso principale dello strumento arco è selezionando quattro punti: il centro, un punto sulla circonferenza, l\'inizio dell\'arco e la sua fine.
     -   Premendo **Alt**, si può selezionare una tangente invece diselezionare un punto, per definire il cerchio di base dell\'arco. È quindi possibile costruire diversi tipi di cerchi selezionando una, due o tre tangenti.
 -   La direzione dell\'arco dipende dal movimento che si sta facendo con il mouse. Se si inizia il movimento in senso orario dopo aver inserito il terzo punto, l\'arco va in senso orario. Per andare in senso antiorario, spostare semplicemente il mouse indietro sul terzo punto, finché l\'arco inizia a disegnare nell\'altra direzione.
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [Inserisci punto](Draft_AddPoint/it.md)** quando si hanno i valori desiderati per inserire il punto.
+-   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
 -   Premere il tasto **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Arco si riavvia dopo aver terminato l\'arco in costruzione, e consente di disegnarne un nuovo arco senza premere nuovamente il pulsante dello strumento.
 -   Tenere premuto **Ctrl** mentre si disegna per forzare [l\'aggancio](Draft_Snap.md) del proprio punto alla posizione di aggancio più vicina, indipendentemente dalla distanza.
 -   Tenere premuto **Maiusc** mentre si disegna per [vincolare](Draft_Constrain.md) il prossimo punto in orizzontale o in verticale rispetto all\'ultimo.

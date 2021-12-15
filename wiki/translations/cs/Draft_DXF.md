@@ -114,24 +114,21 @@ For licensing reasons, the required _.
 
 ## Preferences
 
+See [Import Export Preferences](Import_Export_Preferences.md).
 
-<div class="mw-translate-fuzzy">
+## DWG
 
-### Předvolby
+Because the DWG format is a proprietary, closed and undocumented format it is hard for open-source projects like FreeCAD to support it. That is why FreeCAD relies on external converters to read and write DWG files. To import a DWG file a converter is used to create a DXF first, which can then be processed by the FreeCAD DXF importer. When exporting to DWG the opposite conversion happens: the DXF created by the FreeCAD DXF exporter is turned into a DWG.
 
-V záložce [Předvoby kreslení](Draft_Preferences.md) (menu Úpravy -\> Předvolby -\> Kreslení) mohou být specifikovány následující parametry:
+Note that the DXF format allows a 1:1 conversion of the DWG format. All applications that can read and write DWG files can do the same with DXF files, with no data loss. So asking for DXF files instead of DWG files, and supplying DXF files in turn, should not cause any problems.
 
--   Styl importu: Ten umožňuje vybrat způsob jak budou objekty z DXF souboru vykresleny ve FreeCADu. Výběr je mezi:
-    -   Žádný: to je rychlejší způsob bez konverzí, všechny objekty budou černé se šířkou 2px (defaultně podle FreeCADu)
-    -   Použít defaultní barvu a tloušťku čáry: všechny importované DXF objekty budou přebírat barvu a tloušťku čáry z příkazového pruhu kreslení
-    -   Originální barvu a tloušťku čáry: Objektům zůstane barva a tloušťka čáry (pokud je specifikována) jakou mají v DXF souboru
-    -   Barvy mapovány na tloušťku čáry: Je-li vybrána tato volba, bude využit mapovací soubor uvedený dále
--   Mapovací soubor barev: Tato volba umožňuje specifikovat mapovací soubor, který bude využit pro transformaci DXF barev a tloušťek čar stejným způsobem jak funguje nákresový styl v Autocadu. Mapovací soubor musí být textový soubor s oddělovacím znakem tabelátorem. Existuje šikovná utilita nazvaná _ dostupné zde.
--   Import textů: To umožňuje specifikovat, zda chcete importovat DXF texty a kótování nebo ne. Mnoho textů může učinit práci ve FreeCADu velmi obtížnou, takže někdy se může tato volba docela hodit..
--   Import objektů rozložení: Zapnutím tohoto přepínače se importuje objekt prostoru papíru. Budou spojeny ve stejném dokumentu s objektem prostoru modelu.
+There is built-in support for the following DWG converters:
 
+-   [LibreDWG](https://www.gnu.org/software/libredwg) (open-source, lacks support for some DWG entities).
+-   [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) (free).
+-   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial). <small>(v0.20)</small> 
 
-</div>
+See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) for more information.
 
 ## Scripting
 

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/ru
-   Name:Draft Special
-   Name/ru:Draft Special
+   Name:Draft Snap Special
+   Name/ru:Draft Snap Special
    MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → Special
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:

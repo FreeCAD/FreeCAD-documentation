@@ -30,7 +30,7 @@ Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Co
     -   Utilisez le raccourci clavier : **S** puis **C**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
 4.  Le panneau des tâches **Échelle** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-5.  Si des sous-éléments ont été sélectionnés : cochez la case {{CommandeMenu|Modifier les sous-éléments}} pour activer le mode sous-élément.
+5.  Si des sous-éléments ont été sélectionnés : cochez la case **Modifier les sous-éléments** pour activer le mode sous-élément.
 6.  Choisissez le point de base dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 7.  Entrez les facteurs d\'échelle X, Y et Z.
 8.  Appuyez sur **Retour** ou sur le bouton **OK** pour terminer la commande.
@@ -46,7 +46,7 @@ Les raccourcis clavier à caractère unique mentionné ici peut être modifié. 
 -   Appuyez sur **G** ou cochez la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées de [Draft Plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
 -   Les cases à cocher restantes de ce panneau de tâches sont ignorées par la commande.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
--   Appuyez sur le bouton {{Bouton|Fermer}} pour annuler la commande.
+-   Appuyez sur le bouton **Fermer** pour annuler la commande.
 
 ### Deuxième panneau de tâches 
 
@@ -70,7 +70,7 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Pr
 -   Pour modifier le nombre de décimales utilisées pour la saisie des coordonnées : **Édition → Préférences... → Général → Unités → Réglage des unités → Nombre de décimales**.
 -   Pour modifier le nombre de décimales utilisées pour la saisie des facteurs d\'échelle : **Édition → Préférences... → Draft → Paramètres généraux → Réglages généraux Draft → Niveau de précision interne**.
 -   Pour stocker et réutiliser le même paramètre de mode de copie dans toutes les commandes : **Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Mode de copie global**.
--   Pour resélectionner les objets de base après avoir copié les objets : {{CommandeMenu|Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Sélectionner les objets de base après la copie}}.
+-   Pour resélectionner les objets de base après avoir copié les objets : **Édition → Préférences... → Draft → Paramètres généraux → Options de l'outil de dessin → Sélectionner les objets de base après la copie**.
 
 ## Script
 

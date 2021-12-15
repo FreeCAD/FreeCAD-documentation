@@ -10,7 +10,7 @@
 
 ## Wprowadzenie
 
-Ten tutorial został pierwotnie napisany przez Quick61 i został zaktualizowany i odnowiony przez vocx.
+Ten poradnik został pierwotnie napisany przez Quick61 i został zaktualizowany i odnowiony przez vocx.
 
 ## Witamy
 

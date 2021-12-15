@@ -52,8 +52,6 @@ The following operators are supported:
 
 ## Supported functions 
 
-The following list of functions are defined [here](https://github.com/FreeCAD/FreeCAD/blob/0.19.2/src/App/Expression.cpp#L2350-L2436) in the source code (for **v0.19.2**).
-
 ### General mathematical functions 
 
 The mathematical functions listed below are available.
@@ -62,7 +60,7 @@ The mathematical functions listed below are available.
 These trigonometric functions are supported:
 
   Function      Description                                                                                                          Value range
-  ------------- -------------------------------------------------------------------------------------------------------------------- ------------------------------------------
+  ------------- -------------------------------------------------------------------------------------------------------------------- -----------------------------------------------
   acos(x)       [Arc cosine](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties)                         -1 \<= x \<= 1
   asin(x)       [Arc sine](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties)                           -1 \<= x \<= 1
   atan(x)       [Arc tangent](https://en.wikipedia.org/wiki/Inverse_trigonometric_functions#Basic_properties)                        all
@@ -71,7 +69,7 @@ These trigonometric functions are supported:
   cosh(x)       [Hyperbolic cosine](https://en.wikipedia.org/wiki/Hyperbolic_function#Trigonometric_definitions)                     all
   sin(x)        [Sine](https://en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions)                      all
   sinh(x)       [Hyperbolic sine](https://en.wikipedia.org/wiki/Hyperbolic_function#Trigonometric_definitions)                       all
-  tan(x)        [Tangent](https://en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions)                   all, except of x = n·90 with n = integer
+  tan(x)        [Tangent](https://en.wikipedia.org/wiki/Trigonometric_functions#Right-angled_triangle_definitions)                   all, except x = n\*90 with n = uneven integer
   tanh(x)       [Hyperbolic tangent](https://en.wikipedia.org/wiki/Hyperbolic_function#Trigonometric_definitions)                    all
   hypot(x; y)   [Pythagorean addition](https://en.wikipedia.org/wiki/Pythagorean_addition) (**hypot**enuse). E.g. hypot(4; 3) = 5.   x and y \> 0
   cath(x; y)    Given hypotenuse, and one side, returns other side of triangle. E.g. cath(5; 3) = 4.                                 x and y \> 0, x \>= y
@@ -152,19 +150,20 @@ The `create` function passes subsequent arguments to the underlying Python const
 
 Various mathematical operations such as multiplication, addition, and subtraction are supported via standard mathematical operators (e.g. `*`, `+`, `-`).
 
-(The above types are defined [here](https://github.com/FreeCAD/FreeCAD/blob/0.19.2/src/App/Expression.cpp#L2077-L2086) in the source code for **v0.19.2**.)
-
 #### Vector
 
 When `create` is passed `<<vector>>` as the 1st argument, the next 3 arguments are the X, Y, and Z coordinates for the `Vector` respectively.
 
-**Example:** `create(<<vector>>; 2; 1; 2)`
+Example:
+
+
+`create(<<vector>>; 2; 1; 2)`
 
 #### Matrix
 
 When `create` is passed `<<matrix>>` as the 1st argument, the next 16 arguments are the elements for the `Matrix` in [row-major order](https://en.wikipedia.org/wiki/Row-_and_column-major_order).
 
-**Example:**
+Example:
 
 
 `create(<<matrix>>; 1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16)`
@@ -173,16 +172,16 @@ When `create` is passed `<<matrix>>` as the 1st argument, the next 16 arguments 
 
 When `create` is passed `<<rotation>>` as the 1st argument, there are two ways to create a `Rotation`:
 
-1\. Specify an axis vector, and angle of rotation.
+1\. Specify an axis vector and a rotation angle.
 
-**Example:**
+Example:
 
 
 `create(<<rotation>>; create(<<vector>>; 0; 1; 0); 45)`
 
-2\. Specify the Rotation decomposed into 3 rotations about X, Y, and Z axes as Euler angles.
+2\. Specify 3 rotations about the X, Y, and Z axes as Euler angles.
 
-**Example:**
+Example:
 
 
 `create(<<rotation>>; 30; 30; 30)`
@@ -193,57 +192,75 @@ When `create` is passed `<<placement>>` as the 1st argument, there are five ways
 
 These possible combinations are documented in the below table and are based on the [Placement API](Placement_API.md) page.
 
-  Number of Arguments   Description
-  --------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  1                     (`Placement`) **- OR -** (`Matrix`)
-  2                     (`Base`, `Rotation`)
-  3                     (`Base`, `Rotation`, `Center`) **- OR -** (`Base`, `Axis`, `Angle`)
-                        
++---------------------+----------------------------------------------------------+
+| Number of arguments | Description                                              |
++=====================+==========================================================+
+| 2                   |                                           |
+|                     | `create(<<placement>>; Placement)`              |
+|                     |                                                       |
++---------------------+----------------------------------------------------------+
+| 2                   |                                           |
+|                     | `create(<<placement>>; Matrix)`                 |
+|                     |                                                       |
++---------------------+----------------------------------------------------------+
+| 3                   |                                           |
+|                     | `create(<<placement>>; Base; Rotation)`         |
+|                     |                                                       |
++---------------------+----------------------------------------------------------+
+| 4                   |                                           |
+|                     | `create(<<placement>>; Base; Rotation; Center)` |
+|                     |                                                       |
++---------------------+----------------------------------------------------------+
+| 4                   |                                           |
+|                     | `create(<<placement>>; Base; Axis; Angle)`      |
+|                     |                                                       |
++---------------------+----------------------------------------------------------+
 
-The below example shows the syntax for creating a `Placement` from a `Vector` (`Base`) and `Rotation`.
-
-**Example:**
+The following example shows the syntax for creating a `Placement` from a `Base` (vector) and a `Rotation`:
 
 
 `create(<<placement>>; create(<<vector>>; 2; 1; 2); create(<<rotation>>; create(<<vector>>; 0; 1; 0); 45))`
 
-For readability, you can define vectors and rotations in separate cells, and then reference the cell via number (e.g. A1) or alias.
+For readability, you can define vectors and rotations in separate cells, and then reference the cells in your expression.
 
 ### Matrix functions 
 
 #### mscale
 
-Scale a matrix with a given vector.
+Scale a `Matrix` with a given `Vector`.
 
 
-`mscale(matrix; vector)`
+`mscale(Matrix; Vector)`
 
 
-`mscale(matrix; x; y; z)`
+`mscale(Matrix; x; y; z)`
 
 #### minvert
 
 Invert the given `Matrix`, `Rotation`, or `Placement`.
 
 
-`minvert(matrix)`
+`minvert(Matrix)`
 
 
-`minvert(rotation)`
+`minvert(Rotation)`
 
 
-`minvert(placement)`
+`minvert(Placement)`
 
 ### Tuple & list 
 
 You can create Python `tuple` or `list` objects via their respective functions.
 
--   Create a tuple - `tuple(2; 1; 2)`
--   Create a list - `list(2; 1; 2)`
+
+`tuple(2; 1; 2)`
+
+
+`list(2; 1; 2)`
 
 ## Conditional expressions 
 
-Conditional expressions are of the form `condition ? resultTrue : resultFalse`. The condition is defined as an expression that evaluates to either `0` (false) or non-zero (true). Note that enclosing the conditional expression in parentheses is currently considered an error. {{VersionMinus|0.19}}
+Conditional expressions are of the form `condition ? resultTrue : resultFalse`. The condition is defined as an expression that evaluates to either `0` (false) or non-zero (true). Note that enclosing the conditional expression in parentheses is currently considered an error.
 
 The following [relational operators](https://en.wikipedia.org/wiki/Relational_operator#Standard_relational_operators) are defined:
 
@@ -272,22 +289,21 @@ The following units are recognized by the expression parser:
 Amount of substance:
 
   Unit   Description
-  ------ --------------------------------------------------------
-  mmol   Milli[mole](https://en.wikipedia.org/wiki/Mole_(unit))
+  ------ ---------------------------------------------------
   mol    [Mole](https://en.wikipedia.org/wiki/Mole_(unit))
 
 Angle:
 
   Unit   Description
-  ------ ------------------------------------------------------------------------------------------------------
-  °      [Degree](https://en.wikipedia.org/wiki/Degree_(angle)); alternative to the unit *deg*
-  deg    [Degree](https://en.wikipedia.org/wiki/Degree_(angle)); alternative to the unit *°*
+  ------ ----------------------------------------------------------------------------------------------------
+  °      [Degree](https://en.wikipedia.org/wiki/Degree_(angle)); alternative to the unit deg
+  deg    [Degree](https://en.wikipedia.org/wiki/Degree_(angle)); alternative to the unit °
   rad    [Radian](https://en.wikipedia.org/wiki/Radian)
   gon    [Gradian](https://en.wikipedia.org/wiki/Gon_(unit))
-  S      [Second of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc)
-  ″      [Second of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternative to the unit *S*
-  M      [Minute of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc)
-  ′      [Minute of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternative to the unit *M*
+  S      [Second of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternative to the unit ″
+  ″      [Second of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternative to the unit S
+  M      [Minute of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternative to the unit ′
+  ′      [Minute of arc](https://en.wikipedia.org/wiki/Minute_and_second_of_arc); alternative to the unit M
 
 Current:
 
@@ -298,76 +314,14 @@ Current:
   kA     Kilo[ampere](https://en.wikipedia.org/wiki/Ampere)
   MA     Mega[ampere](https://en.wikipedia.org/wiki/Ampere)
 
-Electrical capacitance:
+Energy/work:
 
   Unit   Description
-  ------ ---------------------------------------------------------------------------------
-  pF     Pico[farad](https://en.wikipedia.org/wiki/Farad)
-  nF     Nano[farad](https://en.wikipedia.org/wiki/Farad)
-  uF     Micro[farad](https://en.wikipedia.org/wiki/Farad); alternative to the unit *µF*
-  µF     Micro[farad](https://en.wikipedia.org/wiki/Farad); alternative to the unit *uF*
-  mF     Milli[farad](https://en.wikipedia.org/wiki/Farad)
-  F      [Farad](https://en.wikipedia.org/wiki/Farad); 1 F = 1 s\^4·A\^2/m\^2/kg
-
-Electrical conductance:
-
-  Unit   Description
-  ------ ---------------------------------------------------------------------------------------------
-  uS     Micro[siemens](https://en.wikipedia.org/wiki/Siemens_(unit)); alternative to the unit *µS*
-  µS     Micro[siemens](https://en.wikipedia.org/wiki/Siemens_(unit)); alternative to the unit *uS*
-  mS     Milli[siemens](https://en.wikipedia.org/wiki/Siemens_(unit))
-  S      [Siemens](https://en.wikipedia.org/wiki/Siemens_(unit)); 1 S = 1 s\^3·A\^2/kg/m\^2
-  kS     Kilo[siemens](https://en.wikipedia.org/wiki/Siemens_(unit)), <small>(v0.20)</small> 
-  MS     Mega[siemens](https://en.wikipedia.org/wiki/Siemens_(unit)), <small>(v0.20)</small> 
-
-Electrical inductance:
-
-  Unit   Description
-  ------ ----------------------------------------------------------------------------------------
-  nH     Nano[henry](https://en.wikipedia.org/wiki/Henry_(unit))
-  uH     Micro[henry](https://en.wikipedia.org/wiki/Henry_(unit)); alternative to the unit *µH*
-  µH     Micro[henry](https://en.wikipedia.org/wiki/Henry_(unit)); alternative to the unit *uH*
-  mH     Milli[henry](https://en.wikipedia.org/wiki/Henry_(unit))
-  H      [Henry](https://en.wikipedia.org/wiki/Henry_(unit)); 1 H = 1 kg·m\^2/s\^2/A\^2
-
-Electrical resistance:
-
-  Unit   Description
-  ------ -----------------------------------------------------------------------
-  Ohm    [Ohm](https://en.wikipedia.org/wiki/Ohm); 1 Ohm = 1 kg·m\^2/s\^3/A\^2
-  kOhm   Kilo[ohm](https://en.wikipedia.org/wiki/Ohm)
-  MOhm   Mega[ohm](https://en.wikipedia.org/wiki/Ohm)
-
-Electric charge:
-
-  Unit   Description
-  ------ ---------------------------------------------------------------
-  C      [Coulomb](https://en.wikipedia.org/wiki/Coulomb); 1 C = 1 A·s
-
-Electric potential:
-
-  Unit   Description
-  ------ -------------------------------------------------
-  mV     Milli[volt](https://en.wikipedia.org/wiki/Volt)
-  V      [Volt](https://en.wikipedia.org/wiki/Volt)
-  kV     Kilo[volt](https://en.wikipedia.org/wiki/Volt)
-
-Energy / work:
-
-  Unit   Description
-  ------ -------------------------------------------------------------------------------------------------
-  mJ     Milli[joule](https://en.wikipedia.org/wiki/Joule)
+  ------ -----------------------------------------------------------------------------------------------
   J      [Joule](https://en.wikipedia.org/wiki/Joule)
-  kJ     Kilo[joule](https://en.wikipedia.org/wiki/Joule)
-  eV     [Electronvolt](https://en.wikipedia.org/wiki/Electronvolt); 1 ev = 1.602176634e-19 J
-  keV    Kilo[electronvolt](https://en.wikipedia.org/wiki/Electronvolt)
-  MeV    Mega[electronvolt](https://en.wikipedia.org/wiki/Electronvolt)
-  kWh    [Kilowatt hour](https://en.wikipedia.org/wiki/Kilowatt_hour); 1 kWh = 3.6e6 J
-  Ws     [Watt second](https://en.wikipedia.org/wiki/Joule#Watt_second); alternative to the unit *Joule*
-  VAs    [Volt-ampere-second](https://en.wikipedia.org/wiki/Joule); alternative to the unit *Joule*
-  CV     [Coulomb-volt](https://en.wikipedia.org/wiki/Joule); alternative to the unit *Joule*
-  cal    [Calorie](https://en.wikipedia.org/wiki/Calorie); 1 cal = 4.184 J
-  kcal   Kilo[calorie](https://en.wikipedia.org/wiki/Calorie)
+  Ws     [Watt second](https://en.wikipedia.org/wiki/Joule#Watt_second); alternative to the unit Joule
+  VAs    [Volt-ampere-second](https://en.wikipedia.org/wiki/Joule); alternative to the unit Joule
+  CV     [Coulomb-volt](https://en.wikipedia.org/wiki/Joule); alternative to the unit Joule
 
 Force:
 
@@ -382,20 +336,21 @@ Force:
 Length:
 
   Unit   Description
-  ------ --------------------------------------------------------------------------------------------------------------
+  ------ ------------------------------------------------------------------------------------------------------------
   nm     Nano[meter](https://en.wikipedia.org/wiki/Metre)
-  mu     Micro[meter](https://en.wikipedia.org/wiki/Metre); alternative to the unit *µm*
-  µm     Micro[meter](https://en.wikipedia.org/wiki/Metre); alternative to the unit *mu*
+  um     Micro[meter](https://en.wikipedia.org/wiki/Metre); alternative to the unit µm
+  µm     Micro[meter](https://en.wikipedia.org/wiki/Metre); alternative to the unit um
   mm     Milli[meter](https://en.wikipedia.org/wiki/Metre)
   cm     Centi[meter](https://en.wikipedia.org/wiki/Metre)
   dm     Deci[meter](https://en.wikipedia.org/wiki/Metre)
   m      [Meter](https://en.wikipedia.org/wiki/Metre)
   km     Kilo[meter](https://en.wikipedia.org/wiki/Metre)
-  mil    [Thousandth of an inch](https://en.wikipedia.org/wiki/Thousandth_of_an_inch); alternative to the unit *thou*
-  thou   [Thousandth of an inch](https://en.wikipedia.org/wiki/Thousandth_of_an_inch); alternative to the unit *mil*
-  in     [Inch](https://en.wikipedia.org/wiki/Inch)
+  mil    [Thousandth of an inch](https://en.wikipedia.org/wiki/Thousandth_of_an_inch); alternative to the unit thou
+  thou   [Thousandth of an inch](https://en.wikipedia.org/wiki/Thousandth_of_an_inch); alternative to the unit mil
+  in     [Inch](https://en.wikipedia.org/wiki/Inch); alternative to the unit \"
+  \"     [Inch](https://en.wikipedia.org/wiki/Inch); alternative to the unit in
   ft     [Foot](https://en.wikipedia.org/wiki/Foot_(unit)); alternative to the unit \'
-  \'     [Foot](https://en.wikipedia.org/wiki/Foot_(unit)); alternative to the unit *ft*
+  \'     [Foot](https://en.wikipedia.org/wiki/Foot_(unit)); alternative to the unit ft
   yd     [Yard](https://en.wikipedia.org/wiki/Yard)
   mi     [Mile](https://en.wikipedia.org/wiki/Mile)
 
@@ -405,38 +360,19 @@ Luminous intensity:
   ------ --------------------------------------------------
   cd     [Candela](https://en.wikipedia.org/wiki/Candela)
 
-Magnetic field strength:
-
-  Unit   Description
-  ------ -----------------------------------------------------------------------
-  Oe     [Oersted](https://en.wikipedia.org/wiki/Oersted); 1 Oe = 79.57747 A/m
-
-Magnetic flux:
-
-  Unit   Description
-  ------ -------------------------------------------------------------------------------
-  Wb     [Weber](https://en.wikipedia.org/wiki/Weber_(unit)); 1 Wb = 1 kg\*m\^2/s\^2/A
-
-Magnetic flux density:
-
-  Unit   Description
-  ------ ------------------------------------------------------------------------
-  G      [Gauss](https://en.wikipedia.org/wiki/Gauss_(unit)); 1 G = 1 e-4 T
-  T      [Tesla](https://en.wikipedia.org/wiki/Tesla_(unit)); 1 T = 1 kg/s\^2/A
-
 Mass:
 
   Unit   Description
-  ------ ------------------------------------------------------------------------------------
-  ug     Micro[gram](https://en.wikipedia.org/wiki/Gram); alternative to the unit *µg*
-  µg     Micro[gram](https://en.wikipedia.org/wiki/Gram); alternative to the unit *ug*
+  ------ ----------------------------------------------------------------------------------
+  ug     Micro[gram](https://en.wikipedia.org/wiki/Gram); alternative to the unit µg
+  µg     Micro[gram](https://en.wikipedia.org/wiki/Gram); alternative to the unit ug
   mg     Milli[gram](https://en.wikipedia.org/wiki/Gram)
   g      [Gram](https://en.wikipedia.org/wiki/Gram)
   kg     Kilo[gram](https://en.wikipedia.org/wiki/Gram)
   t      [Tonne](https://en.wikipedia.org/wiki/Tonne)
   oz     [Ounce](https://en.wikipedia.org/wiki/Ounce)
-  lb     [Pound](https://en.wikipedia.org/wiki/Pound_(mass)); alternative to the unit *lbm*
-  lbm    [Pound](https://en.wikipedia.org/wiki/Pound_(mass)); alternative to the unit *lb*
+  lb     [Pound](https://en.wikipedia.org/wiki/Pound_(mass)); alternative to the unit lbm
+  lbm    [Pound](https://en.wikipedia.org/wiki/Pound_(mass)); alternative to the unit lb
   st     [Stone](https://en.wikipedia.org/wiki/Stone_(weight))
   cwt    [Hundredweight](https://en.wikipedia.org/wiki/Hundredweight)
 
@@ -445,7 +381,6 @@ Power:
   Unit   Description
   ------ ----------------------------------------------------------
   W      [Watt](https://en.wikipedia.org/wiki/Watt)
-  kW     Kilo[watt](https://en.wikipedia.org/wiki/Watt)
   VA     [Volt-ampere](https://en.wikipedia.org/wiki/Volt-ampere)
 
 Pressure:
@@ -456,65 +391,48 @@ Pressure:
   kPa     Kilo[pascal](https://en.wikipedia.org/wiki/Pascal_(unit))
   MPa     Mega[pascal](https://en.wikipedia.org/wiki/Pascal_(unit))
   GPa     Giga[pascal](https://en.wikipedia.org/wiki/Pascal_(unit))
-  mbar    Milli[Bar](https://en.wikipedia.org/wiki/Bar_(unit))
-  bar     [Bar](https://en.wikipedia.org/wiki/Bar_(unit))
-  uTorr   Micro[torr](https://en.wikipedia.org/wiki/Torr); alternative to the unit *µTorr*
-  µTorr   Micro[torr](https://en.wikipedia.org/wiki/Torr); alternative to the unit *uTorr*
+  uTorr   Micro[torr](https://en.wikipedia.org/wiki/Torr); alternative to the unit µTorr
+  µTorr   Micro[torr](https://en.wikipedia.org/wiki/Torr); alternative to the unit uTorr
   mTorr   Milli[torr](https://en.wikipedia.org/wiki/Torr)
   Torr    [Torr](https://en.wikipedia.org/wiki/Torr); 1 Torr = 133.32 Pa
   psi     [Pound-force per square inch](https://en.wikipedia.org/wiki/Pounds_per_square_inch); 1 psi = 6.895 kPa
   ksi     Kilo[pound-force per square inch](https://en.wikipedia.org/wiki/Pounds_per_square_inch)
-  Mpsi    Mega[pound-force per square inch](https://en.wikipedia.org/wiki/Pounds_per_square_inch)
 
 Temperature:
 
   Unit   Description
-  ------ -----------------------------------------------------------------------------------
-  uK     Micro[kelvin](https://en.wikipedia.org/wiki/Kelvin); alternative to the unit *µK*
-  µK     Micro[kelvin](https://en.wikipedia.org/wiki/Kelvin); alternative to the unit *uK*
+  ------ ---------------------------------------------------------------------------------
+  uK     Micro[kelvin](https://en.wikipedia.org/wiki/Kelvin); alternative to the unit µK
+  µK     Micro[kelvin](https://en.wikipedia.org/wiki/Kelvin); alternative to the unit uK
   mK     Milli[kelvin](https://en.wikipedia.org/wiki/Kelvin)
   K      [Kelvin](https://en.wikipedia.org/wiki/Kelvin)
 
 Time:
 
-  Unit       Description
-  ---------- --------------------------------------------------
-  s          [Second](https://en.wikipedia.org/wiki/Second)
-  min        [Minute](https://en.wikipedia.org/wiki/Minute)
-  h          [Hour](https://en.wikipedia.org/wiki/Hour)
-  Hz (1/s)   [Hertz](https://en.wikipedia.org/wiki/Hertz)
-  kHz        Kilo[hertz](https://en.wikipedia.org/wiki/Hertz)
-  MHz        Mega[hertz](https://en.wikipedia.org/wiki/Hertz)
-  GHz        Giga[hertz](https://en.wikipedia.org/wiki/Hertz)
-  THz        Tera[hertz](https://en.wikipedia.org/wiki/Hertz)
+  Unit   Description
+  ------ ------------------------------------------------
+  s      [Second](https://en.wikipedia.org/wiki/Second)
+  min    [Minute](https://en.wikipedia.org/wiki/Minute)
+  h      [Hour](https://en.wikipedia.org/wiki/Hour)
 
 Volume:
 
   Unit   Description
-  ------ --------------------------------------------------------
-  ml     Milli[liter](https://en.wikipedia.org/wiki/Litre)
+  ------ ----------------------------------------------
   l      [Liter](https://en.wikipedia.org/wiki/Litre)
-  cft    Cubic[foot](https://en.wikipedia.org/wiki/Foot_(unit))
-
-Special imperial units:
-
-  Unit   Description
-  ------ ----------------------------------------------------------------
-  mph    [Miles per hour](https://en.wikipedia.org/wiki/Miles_per_hour)
-  sqft   [Square foot](https://en.wikipedia.org/wiki/Square_foot)
 
 The following commonly used units are not yet supported:
 
-  Unit   Description                                                                                                  Alternative
-  ------ ------------------------------------------------------------------------------------------------------------ --------------------------
-  °C     [Celsius](https://en.wikipedia.org/wiki/Celsius)                                                             \[°C\] + 273.15 K
-  °F     [Fahrenheit](https://en.wikipedia.org/wiki/Fahrenheit);                                                      (\[°F\] + 459.67) × ​5/9
-  u      [Atomic mass unit](https://en.wikipedia.org/wiki/Unified_atomic_mass_unit); alternative to the unit \'Da\'   1.66053906660e-27 kg
-  Da     [Dalton](https://en.wikipedia.org/wiki/Unified_atomic_mass_unit); alternative to the unit \'u\'              1.66053906660e-27 kg
-  sr     [Steradian](https://en.wikipedia.org/wiki/Steradian)                                                         not directly
-  lm     [Lumen](https://en.wikipedia.org/wiki/Lumen_(unit))                                                          not directly
-  lx     [Lux](https://en.wikipedia.org/wiki/Lux)                                                                     not directly
-  px     [Pixel](https://en.wikipedia.org/wiki/Pixel)                                                                 not directly
+  Unit   Description                                                                                              Alternative
+  ------ -------------------------------------------------------------------------------------------------------- --------------------------
+  °C     [Celsius](https://en.wikipedia.org/wiki/Celsius)                                                         \[°C\] + 273.15 K
+  °F     [Fahrenheit](https://en.wikipedia.org/wiki/Fahrenheit);                                                  (\[°F\] + 459.67) × ​5/9
+  u      [Atomic mass unit](https://en.wikipedia.org/wiki/Unified_atomic_mass_unit); alternative to the unit Da   1.66053906660e-27 kg
+  Da     [Dalton](https://en.wikipedia.org/wiki/Unified_atomic_mass_unit); alternative to the unit u              1.66053906660e-27 kg
+  sr     [Steradian](https://en.wikipedia.org/wiki/Steradian)                                                     not directly
+  lm     [Lumen](https://en.wikipedia.org/wiki/Lumen_(unit))                                                      not directly
+  lx     [Lux](https://en.wikipedia.org/wiki/Lux)                                                                 not directly
+  px     [Pixel](https://en.wikipedia.org/wiki/Pixel)                                                             not directly
 
 ## Invalid characters and names 
 

@@ -23,7 +23,7 @@ Inserează o primitivă geometrică tip prismă în corpul activ ca prima funcț
 <div class="mw-translate-fuzzy">
 
 1.  Apăsați butonul **<img src="images/PartDesign_AdditivePrism.png" width=24px> '''Additive Prism'''**. **Note**: the Additive Prism is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get the Prism, click on the down arrow besides the visible icon and select Additive Prism in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_Attachment.md).
+2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
 3.  Click **OK**.
 4.  O funcție Prismă apare sub Corpul activ
 
@@ -50,7 +50,7 @@ Prisma pote fi editată după crearea sa în două moduri:
 
 <div class="mw-translate-fuzzy">
 
--    **Attachment**: definește modul atașament, precum și offsetul atașamentului. Vedeți [Part Attachment](Part_Attachment.md).
+-    **Attachment**: definește modul atașament, precum și offsetul atașamentului. Vedeți [Part EditAttachment](Part_EditAttachment.md).
 
 -    **Label**: label given to the Prism object. Change to suit your needs.
 

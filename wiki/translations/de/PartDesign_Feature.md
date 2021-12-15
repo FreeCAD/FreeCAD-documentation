@@ -18,7 +18,7 @@ Die Formelemente können in verschiedene Kategorien eingeteilt werden:
 
 -   Formelement Basis: bezieht sich auf das Basis Formelementobjekt, das in einem [PartDesign Körper](PartDesign_Body/de.md) erstellt werden kann.
 -   Additiv und subtraktiv
-    -   Grundformen: [Quader](PartDesign_AdditiveBox/de.md), [Kegel](PartDesign_AdditiveCone/de.md), [Zylinder](PartDesign_AdditiveCylinder/de.md), [Ellipsoid](PartDesign_AdditiveEllipsoid/de.md), [Prisma](PartDesign_AdditivePrism/de.md), [Sphere](PartDesign_AdditivSphere/de.md), [Torus](PartDesign_AdditivTorus/de.md) und [Keil](PartDesign_AdditiveWedge/de.md).
+    -   Grundformen: [Quader](PartDesign_AdditiveBox/de.md), [Kegel](PartDesign_AdditiveCone/de.md), [Zylinder](PartDesign_AdditiveCylinder/de.md), [Ellipsoid](PartDesign_AdditiveEllipsoid/de.md), [Prisma](PartDesign_AdditivePrism/de.md), [Sphere](PartDesign_AdditiveSphere/de.md), [Torus](PartDesign_AdditiveTorus/de.md) und [Keil](PartDesign_AdditiveWedge/de.md).
     -   Grundformen subtraktiv:
 
 [Subtraktionsbox](PartDesign_SubtractiveBox/de.md), [Subtraktionskegel](PartDesign_SubtractiveCone/de.md), [Subtraktionszylinder](PartDesign_SubtractiveCylinder/de.md), [Subtraktionsellipsoid](PartDesign_SubtractiveEllipsoid/de.md), [Subtraktives Prisma](PartDesign_SubtractivePrism/de.md), [Subtraktive Kugel](PartDesign_SubtractiveSphere/de.md), [Subtraktiver Torus](PartDesign_SubtractiveTorus/de.md) und [Subtraktiver Keil](PartDesign_SubtractiveWedge/de.md).

@@ -39,9 +39,7 @@ PySide2.QtUiTools -> PySide.QtUiTools
 The only unusual aspect is that the `PySide2.QtWidgets` classes are placed in the `PySide.QtGui` namespace. 
 ```python
 PySide2.QtWidgets.QCheckBox -> PySide.QtGui.QCheckBox
-```
-
-[top](#top.md)
+``` {{Top}}\]
 
 ## Examples of PySide use 
 
@@ -51,9 +49,7 @@ PySide2.QtWidgets.QCheckBox -> PySide.QtGui.QCheckBox
 
 The examples of PySide are divided into 3 parts, differentiated by level of exposure to PySide, Python and the FreeCAD internals. The first page has an overview on PySide; the second and third pages are mostly code examples at different levels.
 
-It is expected that these examples are useful to get started, and afterwards the user can consult other resources online, or the official documentation.
-
-[top](#top.md)
+It is expected that these examples are useful to get started, and afterwards the user can consult other resources online, or the official documentation. {{Top}}
 
 ## Documentation
 
@@ -65,12 +61,16 @@ The PySide documentation refers to the Python-style classes; however, since Qt i
 -   [All Qt classes by module](https://doc.qt.io/qt-5/modules-cpp.html) in Qt5 for C++.
 -   [Qt Modules](https://deptinfo-ensip.univ-poitiers.fr/ENS/pyside-docs/index.html) available from PySide (Qt4).
 
-[top](#top.md)
+
+{{Top}}
+
+
+
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

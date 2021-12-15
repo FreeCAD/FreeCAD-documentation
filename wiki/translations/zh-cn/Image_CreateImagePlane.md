@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Image CreateImagePlane
-   MenuLocation:Toolbars → Create a planar image in the 3D space
+   MenuLocation:
    Workbenches:[Image](Image_Workbench.md)
    SeeAlso:[Image Open](Image_Open.md), [Image Scaling](Image_Scaling.md)
 ---
@@ -59,11 +59,26 @@
 
 {{Properties Title|Base}}
 
+
+<div class="mw-translate-fuzzy">
+
+
+{{Properties Title|Base}}
+
 -    **Position**: 指定图像平面的基准点（base point）坐标。
 
 -    **Angle**: 指定图像平面的旋转角度。
 
 -    **Axis**: 指定旋转轴。
+
+
+</div>
+
+
+{{Properties Title|Image Plane}}
+
+
+<div class="mw-translate-fuzzy">
 
 
 {{Properties Title|Image Plane}}
@@ -73,6 +88,9 @@
 -    **YSize**: 指定图像平面的高度。
 
 -    **Image Plane**: 指定用于此图像平面的对应图像。
+
+
+</div>
 
 
 

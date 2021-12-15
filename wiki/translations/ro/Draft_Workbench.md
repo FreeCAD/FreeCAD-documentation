@@ -74,7 +74,7 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [ShapeString](Draft_ShapeString.md): creates a compound shape that represents a text string.
 
--   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the faces of a selected object. <small>(v0.20)</small> 
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Hatch](Draft_Hatch.md): creates hatches on the planar faces of a selected object. <small>(v0.20)</small> 
 
 ## Annotation
 
@@ -176,7 +176,7 @@ The Draft Snap toolbar allows selecting the active snap options. The buttons bel
 
 -   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Snap Endpoint](Draft_Snap_Endpoint.md): snaps to the endpoints of edges.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of straight and circular edges.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of edges.
 
 -   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ and [Arch BuildingParts](Arch_BuildingPart.md).
 
@@ -237,7 +237,7 @@ O serie de instrumente suplimentare sunt oferite de un meniu **Draft → Utiliti
 
 <div class="mw-translate-fuzzy">
 
--   [Coordinates](Draft_Coordinates.md):
+-   Coordinates:
 
 introduceți coordonatele în loc să faceți clic pe vizualizarea 3D pentru a defini un nou punct.
 
@@ -272,9 +272,9 @@ For a [Draft Wire](Draft_Wire.md), [Draft BSpline](Draft_BSpline.md), [Draft Cub
 
 For a [Draft LayerContainer](Draft_Layer.md) these additional options are available:
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> Merge layer duplicates: this option currently does not work.
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Merge layer duplicates](Draft_Layer#Layer_container_options.md): merges all layers with the same base label. This does not work in FreeCAD version 0.19.
 
--   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer.md): adds a new layer to the current document.
+-   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Add new layer](Draft_Layer#Layer_container_options.md): adds a new layer to the current document.
 
 ### Layer options 
 
@@ -316,7 +316,7 @@ These commands are obsolete but still available:
 <div class="mw-translate-fuzzy">
 
 -   <img alt="" src=images/Preferences-draft.svg  style="width:32px;"> [Preferences](Draft_Preferences.md): Preferințe disponibile în Atelierul Draft Workbench.
--   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Import-Export Preferences](Import_Export_Preference.md): preferințele disponibile pentru importul și exportul în diferite formate de fișiere.
+-   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Import-Export Preferences](Import_Export_Preferences.md): preferințele disponibile pentru importul și exportul în diferite formate de fișiere.
 
 
 </div>
@@ -361,7 +361,7 @@ freecad -t TestDraft
 
 <div class="mw-translate-fuzzy">
 
-Instrumentele de proiectare pot fi utilizate în [macros](macros.md) și din consola [Python](Python.md) utilizând [API-ul de proiect](API-ul_de_proiect.md).
+Instrumentele de proiectare pot fi utilizate în [macros](macros.md) și din consola [Python](Python.md).
 
 
 </div>
@@ -386,7 +386,6 @@ Inspecting the code of this module can help to understand the programming interf
 ## Îndrumătoare
 
 -   [Îndrumător de folosire a Atelierului Desen 2D](Draft_tutorial/ro.md)
--   [Vechiul îndrumător de folosire a AtelieruluiDesen2D](Draft_tutorial_Outdated/ro.md)
 -   [Îndrumător modelare 3D a fonturilor cu ShapeString](Draft_ShapeString_tutorial/ro.md)
 
 

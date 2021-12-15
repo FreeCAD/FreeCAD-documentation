@@ -2,19 +2,22 @@
 - GuiCommand:
    Name:EM FHPath
    MenuLocation:EM → FHPath
-   Workbenches:[EM](EM_Workbench.md) (add-on)
+   Workbenches:[EM](EM_Workbench.md)
    Shortcut:**E** **T**
-   SeeAlso:[EM FHNode](EM_FHNode.md), [EM FHSegment](EM_FHSegment.md)
    Version:0.17
+   SeeAlso:[EM FHNode](EM_FHNode.md), [EM FHSegment](EM_FHSegment.md)
 ---
 
 # EM FHPath
 
 ## Description
 
-The FHPath tool inserts a FHPath object, that is a set of FastHenry segments along a path. 
+The FHPath tool inserts a FHPath object, that is a set of FastHenry segments along a path.
 
-![](images/EM_FHPath_Example.png )  
+ ![](images/EM_FHPath_Example.png ) 
+
+
+
 *FastHenry FHPath*
 
 ## Usage
@@ -71,7 +74,9 @@ The FHPath object can be based on any shape containing edges, but the FHPath obj
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The FHPath object can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function:  
+The FHPath object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+ 
 ```python
 path = makeFHPath(baseobj=None,name='FHPath')
 ```
@@ -82,7 +87,9 @@ path = makeFHPath(baseobj=None,name='FHPath')
 
 -    `name`is the name of the object
 
-Example:  
+Example:
+
+ 
 ```python
 import FreeCAD, EM
 from FreeCAD import Base
@@ -98,6 +105,11 @@ fhpath = EM.makeFHPath(spiral)
 fhpath.Discr = 40
 App.ActiveDocument.recompute()
 ```
+
+
+
+
+
 
 
 {{EM Tools navi

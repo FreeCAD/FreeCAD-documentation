@@ -9,7 +9,13 @@ Der Arbeitsbereich Kurven ist ein [Externer Arbeitsbereich](external_workbenches
 
 ## Einrichtung
 
-Lade den Arbeitsbereich Kurven über den <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Erweiterungsmanager](Addon_Manager/de.md) herunter {{MenuCommand/de|Werkzeuge → Erweiterungsmanager}}
+
+<div class="mw-translate-fuzzy">
+
+Lade den Arbeitsbereich Kurven über den <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsmanager](Std_AddonMgr/de.md) herunter {{MenuCommand/de|Werkzeuge → Erweiterungsmanager}}
+
+
+</div>
 
 ## Referenzen
 
@@ -40,7 +46,7 @@ Lade den Arbeitsbereich Kurven über den <img alt="" src=images/AddonManager.svg
 -   <img alt="" src=images/Curves_ProfileSupport.svg  style="width:32px;"> [Kurven Profilunterstützung](Curves_ProfileSupport/de.md): Erzeugt eine Stützebene für Skizzen.
 -   <img alt="" src=images/Curves_PasteSVG.svg  style="width:32px;"> [Kurven EinfügenSVG](Curves_PasteSVG/de.md): Fügt den SVG Inhalt der Zwischenablage ein.
 -   <img alt="" src=images/Curves_PipeshellProfile.svg  style="width:32px;"> [Kurven RohrHülleProfile](Curves_PipeshellProfile/de.md): Erzeugt ein Profilobjekt für RohrHülle.
--   <img alt="" src=images/Curves_Pipeshell.svg  style="width:32px;"> [Kurven RohrHülle](Curves_PipeShell/de.md): Erstellt eine RohrHülle Austragungsobjekt.
+-   <img alt="" src=images/Curves_Pipeshell.svg  style="width:32px;"> [Kurven RohrHülle](Curves_Pipeshell/de.md): Erstellt eine RohrHülle Austragungsobjekt.
 -   <img alt="" src=images/Curves_GordonSurface.svg  style="width:32px;"> [Kurven GordonOberfläche](Curves_GordonSurface/de.md): Erzeugt eine Oberfläche, die ein Netzwerk von Kurven überzieht
 -   <img alt="" src=images/Curves_SegmentSurface.svg  style="width:32px;"> [Kurven SegmentOberfläche](Curves_SegmentSurface/de.md): Eine Fläche auf Isokurven segmentieren
 -   <img alt="" src=images/Curves_ToConsole.svg  style="width:32px;"> [Kurven ZuKonsole](Curves_ToConsole/de.md): Objekte an Konsole.

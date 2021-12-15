@@ -21,12 +21,8 @@ Gear racks are used to convert a rotary motion into a linear motion or vice vers
 -   Rack and pinion winch as mechanical hoist (e.g. car jack).
 -   Pneumatic rack and pinion drives used to control valves in pipeline transport.
 
-:   ![](images/Involute-Rack_example.png )
-:   
-    
-*From left to right: Spur gearing, helical gearing, double helical gearing
-    *
-    
+![](images/Involute-Rack_example.png ) 
+*From left to right: Spur gearing, helical gearing, double helical gearing*
 
 ## Usage
 
@@ -119,7 +115,16 @@ gear.height = 10
 gear.double_helix = True
 App.ActiveDocument.recompute()
 Gui.SendMsgToActiveView("ViewFit")
-``` 
+```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 _ _ _
 

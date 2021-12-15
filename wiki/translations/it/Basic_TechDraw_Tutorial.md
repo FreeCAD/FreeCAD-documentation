@@ -38,7 +38,7 @@ In questo tutorial, si utilizzerà TechDraw per creare i disegni 2D della parte 
 
 In TechDraw tutti i lavori iniziano con una Pagina. Le pagine sono basate sui modelli e contengono le viste.
 
-1.  Per creare una nuova pagina cliccare su <img alt="" src=images/TechDraw_New_Default.svg  style="width:32px;"> [Nuovo disegno standard](TechDraw_New_Default/it.md).
+1.  Per creare una nuova pagina cliccare su <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Nuovo disegno standard](TechDraw_PageDefault/it.md).
 2.  Fare clic sul Corpo nella [vista 3D](3D_view/it.md) o nella [vista combinata](Combo_view/it.md).
 3.  Cliccare su <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [Vista](TechDraw_View/it.md). Questo aggiunge la vista alla pagina che è appena stata creata.
 
@@ -67,8 +67,8 @@ Ora nella pagina c\'è una vista dall\'alto del corpo, però è un po\' piccola.
 Meglio, ma un po\' noioso. Aggiungiamo alcune dimensioni.
 
 1.  Selezionare (tasto sinistro del mouse) il vertice in alto a sinistra (piccolo punto), quindi selezionare (**Ctrl**-tasto sinistro del mouse) il vertice in basso a sinistra.
-2.  Cliccare su <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:32px;"> [Nuova dimensione verticale](TechDraw_Dimension_Vertical/it.md). Trascinare il testo della quota lontano dal corpo.
-3.  Provare di nuovo con i vertici in alto a sinistra e in alto a destra e <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:32px;"> [Nuova dimensione orizzontale](TechDraw_Dimension_Horizontal/it.md).
+2.  Cliccare su <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [Nuova dimensione verticale](TechDraw_VerticalDimension/it.md). Trascinare il testo della quota lontano dal corpo.
+3.  Provare di nuovo con i vertici in alto a sinistra e in alto a destra e <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [Nuova dimensione orizzontale](TechDraw_HorizontalDimension/it.md).
 
 
 </div>
@@ -89,7 +89,7 @@ Miglioramenti. Aggiungere del testo alla pagina.
 
 <div class="mw-translate-fuzzy">
 
-1.  Cliccare su <img alt="" src=images/TechDraw_Annotation.svg  style="width:32px;"> [Annotazione](TechDraw_NewAnnotation/it.md). Al centro della pagina appare un blocco di testo.
+1.  Cliccare su <img alt="" src=images/TechDraw_Annotation.svg  style="width:32px;"> [Annotazione](TechDraw_Annotation/it.md). Al centro della pagina appare un blocco di testo.
 2.  Trascinare il blocco di testo lontano dalla vista principale.
 3.  Fare clic su Annotazione nella vista combinata e scorrere fino alla proprietà Testo nella scheda Dati.
 4.  Fare clic nell\'area dati, fare clic sui puntini a destra del campo. Si apre una finestra pop-up in cui si può cambiare il testo in qualcosa di più significativo.
@@ -104,7 +104,7 @@ Prima di lasciare questa pagina, vediamo come sarà quando la stamperemo.
 
 <div class="mw-translate-fuzzy">
 
-1.  Cliccare su <img alt="" src=images/TechDraw_Toggle.png  style="width:32px;"> [Impaginazione](TechDraw_Toggle/it.md). I riquadri Vertices e View scompaiono. Per riaverli fare nuovamente clic su Impaginazione.
+1.  Cliccare su <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Impaginazione](TechDraw_ToggleFrame/it.md). I riquadri Vertices e View scompaiono. Per riaverli fare nuovamente clic su Impaginazione.
 
 
 </div>
@@ -118,9 +118,9 @@ Creiamo un disegno a vista multipla utilizzando un modello diverso come punto di
 
 <div class="mw-translate-fuzzy">
 
-1.  Cliccare su <img alt="" src=images/TechDraw_New_Pick.svg  style="width:32px;"> [Nuovo disegno da modello](TechDraw_New_Pick/it.md). Appare una finestra di selezione dei file. Selezionare un file modello. Usare \"ANSIB.SVG\". Appare una nuova scheda.
+1.  Cliccare su <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Nuovo disegno da modello](TechDraw_PageTemplate/it.md). Appare una finestra di selezione dei file. Selezionare un file modello. Usare \"ANSIB.SVG\". Appare una nuova scheda.
 2.  Selezionare \"Body\" e \"Page001\" (se nel documento ci sono più pagine, bisogna dire a TechDraw quale deve usare).
-3.  Cliccare su <img alt="" src=images/TechDraw_NewProjGroup.svg  style="width:32px;"> [Nuovo gruppo di proiezioni](TechDraw_NewProjGroup/it.md). Appare la familiare vista piccola al centro della pagina e nel pannello Azioni appare una finestra di dialogo.
+3.  Cliccare su <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:32px;"> [Nuovo gruppo di proiezioni](TechDraw_ProjectionGroup/it.md). Appare la familiare vista piccola al centro della pagina e nel pannello Azioni appare una finestra di dialogo.
 4.  Fare clic su diverse caselle nella sezione Viste secondarie della finestra di dialogo.
 5.  Trascinare la vista con l\'etichetta \"Front\". Tutte le altre viste si muovono con essa.
 6.  Cambiare la casella a discesa Scala da Pagina a Personalizzata e cambiare la scala personalizzata in 2: 1. Premere il tasto **OK**.
@@ -134,7 +134,7 @@ Creiamo un disegno a vista multipla utilizzando un modello diverso come punto di
 <div class="mw-translate-fuzzy">
 
 1.  Nella vista denominata \"TopLeftFront\", selezionare i due vertici all\'estremità del bordo anteriore del pezzo.
-2.  Cliccare su <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [Nuova lunghezza](TechDraw_Dimension_Length/it.md). Trascinare il testo della quota lontano dal corpo.
+2.  Cliccare su <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [Nuova lunghezza](TechDraw_LengthDimension/it.md). Trascinare il testo della quota lontano dal corpo.
 
 
 </div>
@@ -152,7 +152,7 @@ Dalla prima parte di questo tutorial, sappiamo che il pezzo da lavorare è largo
 
 1.  Annotare il nome della dimensione difettosa nel pannello Combo. Ne avremo bisogno tra un minuto.
 2.  Passare alla scheda 3D e selezionare i vertici alle estremità del bordo anteriore del pezzo. Selezionare anche Page001.
-3.  Cliccare su <img alt="" src=images/TechDraw_Dimension_Link.png  style="width:32px;"> [Nuovo Link](TechDraw_Dimension_Link/it.md). Nel pannello Azioni si apre una finestra di dialogo.
+3.  Cliccare su <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Nuovo Link](TechDraw_LinkDimension/it.md). Nel pannello Azioni si apre una finestra di dialogo.
 4.  Nella finestra di dialogo, spostare la dimensione dalla colonna Disponibile alla colonna Selezionato. Premere **OK**.
 5.  Ritornare a Page001. Ora per la dimensione si dovrebbe leggere il valore corretto di 53. (se si continua a vedere 43.27, può essere necessario premere il pulsante **Ricalcola** o trascinare un po\' il valore della quota, fino a quando non cambia).
 

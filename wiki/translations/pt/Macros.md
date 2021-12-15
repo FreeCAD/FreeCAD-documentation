@@ -30,7 +30,7 @@ It is very simple to use: Press the record button, you will be asked to give a n
 
 <div class="mw-translate-fuzzy">
 
-There you can manage your macros, delete, edit, duplicate, install or create new ones from scratch. If you edit a macro, it will be opened in an editor window where you can make changes to its code. New macros can be installed using the Addons\... button, which links to the [Addon Manager](Addon_Manager.md).
+There you can manage your macros, delete, edit, duplicate, install or create new ones from scratch. If you edit a macro, it will be opened in an editor window where you can make changes to its code. New macros can be installed using the Addons\... button, which links to the [Addon Manager](Std_AddonMgr.md).
 
 
 </div>
@@ -72,9 +72,18 @@ You can manually install extensions, however, it is much simpler to just use the
 -   [How to install additional workbenches](How_to_install_additional_workbenches.md)
 
 
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/pt|Standard Menu/pt|Introduction to Python/pt}}
+
+
+</div>
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _ _
 

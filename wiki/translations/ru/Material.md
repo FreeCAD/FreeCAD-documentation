@@ -1,7 +1,4 @@
 # Material/ru
-}
-
-
 <div class="mw-translate-fuzzy">
 
 Эта страница описываем систему данных по материалам в FreeCAD.

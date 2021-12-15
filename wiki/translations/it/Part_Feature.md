@@ -6,17 +6,29 @@
 
 <img alt="" src=images/Part_3D_object.svg  style="width:32px;">
 
-Un oggetto _ che può essere visualizzato nella [Vista 3D](3D_view/it.md).
-
 
 <div class="mw-translate-fuzzy">
 
-Una Part Feauture è la classe genitore della maggior parte degli oggetti 2D (Draft, Sketcher) e 3D (Part, PartDesign), ad eccezione delle mesh, che normalmente si basano su [Mesh Feature](Mesh_Feature/it.md), o [Fem FemMeshObject](Fem_FemMeshObject/it.md) per gli oggetti FEM.
+Un oggetto _ che può essere visualizzato nella [Vista 3D](3D_view/it.md).
 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
+Una Part Feauture è la classe genitore della maggior parte degli oggetti 2D (Draft, Sketcher) e 3D (Part, PartDesign), ad eccezione delle mesh, che normalmente si basano su [Mesh Feature](Mesh_Feature/it.md), o [Fem FemMeshObject](FEM_Mesh/it.md) per gli oggetti FEM.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Ogni oggetto creato con [Part](Part_Workbench/it.md) è essenzialmente una [Part Feature](Part_Feature/it.md).
+
+
+</div>
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

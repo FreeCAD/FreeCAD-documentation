@@ -35,7 +35,7 @@ Das Werkzeug kann Kanten oder Linien messen, die direkt an festen Körpern befes
 
 <div class="mw-translate-fuzzy">
 
-Die resultierende Größe wird in der 3D-Ansicht angezeigt und als Zeichenobjekt behandelt. Das Zeichenobjekt kann auf einer [TechDraw Workbench](TechDraw_Workbench/de.md)-Seite angezeigt werden, in dem man die [Neue Draft-Ansicht](TechDraw_NewDraft/de.md)- oder [TechDraw Neuer Bogen](TechDraw_NewArch/de.md)-Werkzeuge verwendet. Alternativ hat TechDraw seine eigenen Werkzeuge, um Größen anzuzeigen, wie z.B. [TechDraw Längenbemaßung](TechDraw_Dimension_Length/de.md) und [TechDraw Radiusbemaßung](TechDraw_Dimension_Radius/de.md). Diese Tools sind jedoch für die Bereitung technischer Zeichnungen gedacht, wodurch sie die Größen nur auf der Zeichenfläche und nicht in der 3D-Ansicht generieren.
+Die resultierende Größe wird in der 3D-Ansicht angezeigt und als Zeichenobjekt behandelt. Das Zeichenobjekt kann auf einer [TechDraw Workbench](TechDraw_Workbench/de.md)-Seite angezeigt werden, in dem man die [Neue Draft-Ansicht](TechDraw_DraftView/de.md)- oder [TechDraw Neuer Bogen](TechDraw_ArchView/de.md)-Werkzeuge verwendet. Alternativ hat TechDraw seine eigenen Werkzeuge, um Größen anzuzeigen. Diese Tools sind jedoch für die Bereitung technischer Zeichnungen gedacht, wodurch sie die Größen nur auf der Zeichenfläche und nicht in der 3D-Ansicht generieren.
 
 
 </div>
@@ -55,9 +55,9 @@ Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md)
 ## Verwendung
 
 1.  Die Schaltfläche **<img src="images/Draft_Dimension.png" width=16px> [Draft-Dimension](Draft_Dimension/de.md)** klicken oder die Tasten **D** und dann **I** betätigen.
-2.  Einen Punkt in der 3D-Ansicht anklicken oder eine [Koordinate](Draft_Coordinates/de.md) eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** drücken.
-3.  Einen zweiten Punkt in der 3D-Ansicht anklicken oder eine [Koordinate](Draft_Coordinates.md) eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** drücken. Die ersten beiden Punkte den zu messenden Abstand.
-4.  Einen dritten Punkt in der 3D-Ansicht anklicken oder eine [Koordinate](Draft_Coordinates.md) eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** drücken. Der letzte Punkt definiert die Position der Bemaßungslinie.
+2.  Einen Punkt in der 3D-Ansicht anklicken oder eine Koordinate eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** drücken.
+3.  Einen zweiten Punkt in der 3D-Ansicht anklicken oder eine Koordinate eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** drücken. Die ersten beiden Punkte den zu messenden Abstand.
+4.  Einen dritten Punkt in der 3D-Ansicht anklicken oder eine Koordinate eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** drücken. Der letzte Punkt definiert die Position der Bemaßungslinie.
 
 
 </div>
@@ -88,7 +88,7 @@ Siehe auch: [Entwurf Ablage](Draft_Tray/de.md), [Entwurf Fang](Draft_Snap/de.md)
 2.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
 3.  Hold down the **Alt** key, select two straight edges in the [3D view](3D_view.md) and release the **Alt** key.
 4.  To position the dimension arc pick a point in the [3D view](3D_view.md).
-5.  Depending on the edges and the picked point the displayed angle will be the acute (sharp) or obtuse (blunt) angle between the edges, or the angle of one of the edges with the horizontal. In some cases you may have to first add auxiliary geometry ([Draft Lines](Draft_Line.md) for example) to get a particular angle.
+5.  The displayed angle depends on the edges and the picked point.
 
 ### Optionen
 

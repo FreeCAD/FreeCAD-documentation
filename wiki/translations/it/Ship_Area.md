@@ -1,6 +1,15 @@
-# Ship Area/it
 ---
-- GuiCommand:/it   Name:Ship Area   Name/it:Area   MenuLocation:Ship design → Curva delle sezioni   |Workbenches:[[Ship_Workbench/it   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:/it
+   Name:Ship Area
+   Name/it:Area
+   Icon:Ship_AreaCurve.svg
+   MenuLocation:Ship design → Curva delle sezioni
+   Workbenches:[Ship](Ship_Workbench/it.md)
+   Shortcut:
+   SeeAlso:
+---
+
+# Ship Area/it
 
 
 <div class="mw-translate-fuzzy">

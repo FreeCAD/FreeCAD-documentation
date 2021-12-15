@@ -17,7 +17,13 @@
 
 Lo strumento **Distinta dei ferri** (BOM) consente all\'utente di creare una distinta delle barre di rinforzo.
 
+
+<div class="mw-translate-fuzzy">
+
 Questo comando fa parte dell\'ambiente _, tramite il menu **Strumenti → Addon manager → Reinforcement**.
+
+
+</div>
 
 <img alt="" src=images/Arch_Rebar_BOM_example.png  style="width:1000px;">
 

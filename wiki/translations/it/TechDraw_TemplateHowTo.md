@@ -155,7 +155,7 @@ Dove `$INSTALL_DIR` è la directory in cui è stato installato FreeCAD, per esem
 
 <div class="mw-translate-fuzzy">
 
-21\. Provarlo in FreeCAD e [TechDraw](TechDraw_Workbench/it.md) con [Nuovo disegno da modello](TechDraw_New_Pick/it.md). ![](images/FCTemplateHow.png ) 
+21\. Provarlo in FreeCAD e [TechDraw](TechDraw_Workbench/it.md) con [Nuovo disegno da modello](TechDraw_PageTemplate/it.md). ![](images/FCTemplateHow.png ) 
 *align=center|FreeCAD: modello finito con un campo di testo modificabile modificato* 
 
 

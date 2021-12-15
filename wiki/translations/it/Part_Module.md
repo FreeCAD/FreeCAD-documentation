@@ -102,13 +102,7 @@ Questi sono strumenti per creare nuovi oggetti e modificare quelli esistenti.
 
 -   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Proiezione su superficie](Part_ProjectionOnSurface/it.md): Proietta un logo, un testo o qualsiasi faccia, polilinea o bordo su una superficie. {{Version/it|0.19}}
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Part_Attachment.svg  style="width:32px;"> [Allegato](Part_Attachment/it.md): Allega un oggetto ad un altro oggetto.
-
-
-</div>
+-   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Allegato](Part_EditAttachment/it.md): Allega un oggetto ad un altro oggetto.
 
 ### Boolean
 
@@ -168,7 +162,7 @@ Questi strumenti eseguono operazioni booleane.
 
 -   <img alt="" src=images/Part_PointsFromMesh.svg  style="width:32px;"> [Crea punti da mesh](Part_PointsFromMesh/it.md): Crea un oggetto forma composto da punti a partire da un oggetto mesh. <small>(v0.19)</small> 
 
--   <img alt="" src=images/Part_MakeSolid.svg  style="width:32px;">[Converti in solido](Part_ConvertToSolid/it.md): Converte un oggetto forma di un oggetto solido.
+-   <img alt="" src=images/Part_MakeSolid.svg  style="width:32px;">[Converti in solido](Part_MakeSolid/it.md): Converte un oggetto forma di un oggetto solido.
 
 -   <img alt="" src=images/Part_ReverseShapes.svg  style="width:32px;"> [Inverti le forme](Part_ReverseShapes/it.md): Capovolge le normali di tutte le facce dell\'oggetto selezionato.
 

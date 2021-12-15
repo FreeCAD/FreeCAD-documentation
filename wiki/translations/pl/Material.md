@@ -1,6 +1,4 @@
 # Material/pl
-}
-
 ## Overview
 
 

@@ -1,6 +1,4 @@
 # Material/pt-br
-}
-
 ## Overview
 
 

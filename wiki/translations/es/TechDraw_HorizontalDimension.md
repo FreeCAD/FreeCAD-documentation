@@ -5,7 +5,7 @@
    MenuLocation:TechDraw →  Dimensión Horizontal
    Workbenches:[TechDraw](TechDraw_Workbench/es.md)
    Shortcut:**Shift** + **H**
-   SeeAlso:[TechDraw Dimensión Longitud](TechDraw_Dimension_Length/es.md), [TechDraw Dimensión Vertical](TechDraw_Dimension_Vertical/es.md)
+   SeeAlso:[TechDraw Dimensión Longitud](TechDraw_LengthDimension/es.md), [TechDraw Dimensión Vertical](TechDraw_VerticalDimension/es.md)
 ---
 
 # TechDraw HorizontalDimension/es

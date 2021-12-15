@@ -8,9 +8,17 @@
 |Files=
 }}
 
+## First Steps 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Prima parte 
 
-L\'ambiente di lavoro è <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Parte](Part_Workbench/it.md) - selezionarlo tramite il menu **Visualizza → Ambiente → Parte** oppure tramite il [selettore degli ambienti](Workbench_Selector/it.md).
+L\'ambiente di lavoro è <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Parte](Part_Workbench/it.md) - selezionarlo tramite il menu **Visualizza → Ambiente → Parte** oppure tramite il [selettore degli ambienti](Std_Workbench/it.md).
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

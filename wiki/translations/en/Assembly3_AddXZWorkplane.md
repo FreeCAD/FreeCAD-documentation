@@ -2,8 +2,8 @@
 - GuiCommand:
    Name:Assembly3 AddXZWorkplane
    Icon:Assembly_Add_WorkplaneXZ.svg‎‎
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
    MenuLocation:Assembly3 → Workplane and origin → Add XZ workplane
+   Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 AddXZWorkplane/en

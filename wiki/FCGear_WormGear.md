@@ -18,11 +18,8 @@ For a single-start worm, each full turn (360 degrees) of the worm advances the g
 
 A worm can only be used with a worm wheel. This is called a worm drive. Like other gear arrangements, a worm drive can reduce rotational speed or transmit higher torque. One of the major advantages of worm gear drive units are that they can transfer motion in 90 degrees. A worm drive is also self-locking.
 
-:   ![](images/Worm-Gear_example.png )
-:   
-    
+ ![](images/Worm-Gear_example.png )  
 *Worm gear (No. of teeth 3)*
-    
 
 ## Usage
 
@@ -101,11 +98,8 @@ Limitations are not known yet.
 
 The worm wheel must be designed manually. For this purpose **FCGear InvoluteGear** can be used for a simple construction. In any case, in-depth knowledge of the gear types is required.
 
-:   ![](images/Worm-Gear_example3.png )
-:   
-    
+ ![](images/Worm-Gear_example3.png )  
 *Worm with worm wheel*
-    
 
 
 

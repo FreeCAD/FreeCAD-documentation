@@ -45,11 +45,14 @@ Strumenti di [Arch e BIM](#Ambiente_Arch.md) migliorati ed estesi.
 
 ## Ambiente Arch 
 
+
+<div class="mw-translate-fuzzy">
+
 <img alt="Arch al lavoro" src=images/Arch_release018_example.jpg  style="width:700px;">
 
 -   Le [Pareti](Arch_Wall/it.md) ora possono essere visualizzate come una pila di blocchi. Ci sono molte opzioni per configurare le loro dimensioni e come devono essere impilati i blocchi.
 -   [Parti di edificio](Arch_BuildingPart/it.md) sono i nuovi contenitori Arch per tutti gli usi. Possono raggruppare qualsiasi numero di oggetti, possono essere utilizzati per realizzare pavimenti (piani), edifici ( ora i [Piani](Arch_Floor/it.md) e gli [Edifici](Arch_Building/it.md) producono Parti di edifici), o qualsiasi altro gruppo di oggetti Arch. Possono essere spostati come [Parti](Std_Part/it.md), e sono [clonabili](Draft_Clone/it.md) e [referenziabili](Arch_Reference/it.md)!
--   L\'ambiente [BIM](BIM_Workbench/it.md) (aggiunto tramite il [Gestore degli Addon](AddonManager/it.md)), è una nuova controparte esterna, sperimentale di [Arch](Arch_Workbench/it.md). In esso, testiamo nuove funzionalità e flussi di lavoro in un ambiente più libero. Assicurati di fare un giro di prova!
+-   L\'ambiente [BIM](BIM_Workbench/it.md) (aggiunto tramite il [Gestore degli Addon](Std_AddonMgr/it.md)), è una nuova controparte esterna, sperimentale di [Arch](Arch_Workbench/it.md). In esso, testiamo nuove funzionalità e flussi di lavoro in un ambiente più libero. Assicurati di fare un giro di prova!
 -   [Finestre](Arch_Window/it.md) ha dei nuovi preset, quali una finestra scorrevole a 4 pannelli, in più, se [Parts Library](https://github.com/FreeCAD/FreeCAD-library/tree/c5eea12cdda7a3e6349323808815f63b0f97ef2e) è installato, tutte le porte e le finestre della libreria.
 -   [Pannelli](Arch_Panel/it.md) ora può creare diversi tipi di pannelli ondulati, come fogli ondulati o persino pannelli sandwich.
 -   Gli oggetti [Struttura](Arch_Structure/it.md) hanno una nuova modalità di disegno della trave, che consente di fare clic su due punti per posizionare tra loro un elemento strutturale.
@@ -62,9 +65,15 @@ Strumenti di [Arch e BIM](#Ambiente_Arch.md) migliorati ed estesi.
 -   Tutti gli oggetti ed i materiali di Arch ora supportano i sistemi di classificazione (non ancora supportati dall\'importazione o esportazione IFC).
 -   [Riferimento esterno](Arch_Reference/it.md) ora permette di collegare parti da un altro file di FreeCAD in un file di FreeCAD.
 
+
+</div>
+
 -   Ma c\'è molto di più! Controllare in [Arch/BIM development reports](https://github.com/yorikvanhavre/BIM_Workbench/wiki) per vedere tutto ciò che è stato fatto in quest\'anno.
 
 ## Ambiente Draft 
+
+
+<div class="mw-translate-fuzzy">
 
 <img alt="Strumenti di annotazione di Draft più precisi" src=images/Draft_release018_example.jpg  style="width:700px;">.
 
@@ -74,10 +83,13 @@ Strumenti di [Arch e BIM](#Ambiente_Arch.md) migliorati ed estesi.
 -   Nuovo strumento [Congiunzione](Draft_Join/it.md), che consente di unire contorni e linee individuali in un unico contorno.
 -   Nuovo strumento [Split](Draft_Split/it.md), che divide una linea o un contorno in un punto per creare un altro contorno o linea.
 -   Premendo il tasto **** mentre si disegna in modalità draft, l\'obiettivo dell\'oggetto si muove, consentendo di agganciare oggetti che sono oscurati da altri.
--   Lo strumento [Aggiungi punto](Draft_AddPoint/it.md) è stato migliorato in modo da aggiungere in modo più affidabile nodi su linee e contorni esattamente dove si fa clic.
+-   Lo strumento Aggiungi punto è stato migliorato in modo da aggiungere in modo più affidabile nodi su linee e contorni esattamente dove si fa clic.
 
 
 
+
+
+</div>
 
 ## Ambiente FEM 
 

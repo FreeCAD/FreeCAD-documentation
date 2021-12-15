@@ -1,5 +1,11 @@
 # Tutorial FreeCAD POV ray/de
-**Der _. Der Render-Arbeitsbereich kann mit dem [Erweiterungsverwalter](AddonManager/de.md) installiert werden. Diese Information wird bereitgestellt, weil FreeCAD als Standardeinstellung (mit Stand 0.19-24276) weiterhin mit dem Raytracing-Arbeitsbereich ausgeliefert wird und der neue Arbeitsbereich generell in der gleichen Weise arbeiten sollte**
+<div class="mw-translate-fuzzy">
+
+
+**Der _. Der Render-Arbeitsbereich kann mit dem [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden. Diese Information wird bereitgestellt, weil FreeCAD als Standardeinstellung (mit Stand 0.19-24276) weiterhin mit dem Raytracing-Arbeitsbereich ausgeliefert wird und der neue Arbeitsbereich generell in der gleichen Weise arbeiten sollte**
+
+
+</div>
 
 
 {{TutorialInfo/de

@@ -58,6 +58,7 @@
 1.  Select several sketches. It is hereby important in what order you select them:
     -   The sketch selected at first will become the base profile object in the next step
     -   The sketches selected after the first one will become the loft sections. Also here the selection order is important: The sketch selected as second will become the first loft section, the one selected as third becomes the second section and so on. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
+    -   The first or last selection can also be a face of a 3D object (<small>(v0.20)</small> )
 2.  Press the **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive loft](PartDesign_AdditiveLoft.md)** button.
 3.  Set options if needed and click **OK**.
 
@@ -95,7 +96,7 @@
 
 </div>
 
-## Limite
+## Notes
 
 
 <div class="mw-translate-fuzzy">
@@ -107,10 +108,6 @@
 
 
 </div>
-
-## Known Issues 
-
--   Some failure modes will turn the part black
 
 ## Legături
 

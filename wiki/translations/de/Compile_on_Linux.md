@@ -279,6 +279,9 @@ Um FreeCAD für Debian Buster, Ubuntu 19.04 und neueren, sowie Ubuntu 18.04/18.1
 -    `python3-pyside2.qtwidgets`
     
 
+-    `python3-pyside2.qtnetwork`
+    
+
 -    `python3-pyside2uic`
     
 
@@ -353,15 +356,21 @@ sudo apt install libocct*-dev
 
 #### Optionale Pakete 
 
+
+<div class="mw-translate-fuzzy">
+
 Optional kannst du diese zusätzlichen Pakete auch installieren:
 
 -    `libsimage-dev`, damit Coin zusätzliche Bilddateiformate unterstützt.
 
 -    `doxygen`und `libcoin-doc` (oder `libcoin80-doc` für ältere Systeme), wenn du beabsichtigst, Quellcode Dokumentation zu generieren.
 
--    `libspnav-dev`, für [3D-Eingabegeräte](3D-Eingabegeräte/de.md) Unterstützung, wie die 3D Verbindung \"Space Navigator\" oder \"Space Pilot\".
+-    `libspnav-dev`, für [3D-Eingabegeräte](3D_input_devices/de.md) Unterstützung, wie die 3D Verbindung \"Space Navigator\" oder \"Space Pilot\".
 
 -    `checkinstall`, wenn Du vorhast, Deine installierten Dateien im Paketmanager Deines Systems zu registrieren, damit Du sie später deinstallieren kannst.
+
+
+</div>
 
 #### Einzelbefehl für Python 3 und Qt5 
 
@@ -369,7 +378,7 @@ Erfordert Pyside2, das in Debian Buster und dem [freecad-stable/freecad-daily PP
 
 
 ```python
-sudo apt install cmake cmake-gui libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside2-dev libqt5opengl5-dev libqt5svg5-dev libqt5webkit5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev libshiboken2-dev libspnav-dev libvtk7-dev libx11-dev libxerces-c-dev libzipios++-dev occt-draw pyside2-tools python3-dev python3-matplotlib python3-pivy python3-ply python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-pyside2uic qtbase5-dev qttools5-dev swig
+sudo apt install cmake cmake-gui libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside2-dev libqt5opengl5-dev libqt5svg5-dev libqt5webkit5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev libshiboken2-dev libspnav-dev libvtk7-dev libx11-dev libxerces-c-dev libzipios++-dev occt-draw pyside2-tools python3-dev python3-matplotlib python3-pivy python3-ply python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-pyside2.qtnetwork python3-markdown python3-git python3-pyside2uic qtbase5-dev qttools5-dev swig
 ```
 
 HINWEIS: Auf einigen Versionen von Ubuntu und einigen Versionen von Qt erhälst du eine Fehlermeldung, dass python3-pyside2uic nicht gefunden werden kann - auf diesen Systemen kannst du es getrost weglassen. Unter Ubuntu 20.04 musst du `pyqt5-dev-tools`. hinzufügen. Weitere Informationen findest du in [diese Forumsdiskussion](https://forum.freecadweb.org/viewtopic.php?t=51324).
@@ -496,8 +505,14 @@ Du benötigst die folgenden Pakete:
 
 Und optional:
 
+
+<div class="mw-translate-fuzzy">
+
 -   libspnav-devel (für 3Dconnexion Geräte mit Unterstützung wie Space Navigator oder Space Pilot)
 -   python3-pivy ( <https://bugzilla.redhat.com/show_bug.cgi?id=458975> Pivy ist nicht obligatorisch, wird aber für den Draft Arbeitsbereich benötigt)
+
+
+</div>
 
 
 </div>
@@ -682,7 +697,7 @@ Hinweis: Wenn du den 0.19er Release Zweig kompilierst, musst du explizit angeben
 cmake ../freecad-source -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3
 }}
 
-Die Option `-j` von `make` steuert, wie viele Aufträge (Dateien) parallel kompiliert werden. Das Programm `nproc` druckt die Anzahl der CPU-Kerne in Deinem System; indem Du es zusammen mit der Option `-j` verwendest, kannst Du wählen, ob Du so viele Dateien wie möglich verarbeiten möchtest, um die Gesamtübersetzung des Programms zu beschleunigen. Im obigen Beispiel verwendet es alle Kerne in Deinem System mit Ausnahme von zwei; dies hält Deinen Computer für andere Anwendungen reaktionsschnell, während die Kompilierung im Hintergrund abläuft. Die FreeCAD-Ausführdatei wird schließlich im Verzeichnis `freecad-build/bin` erscheinen. Siehe auch [Kompilieren (Beschleunigen)](Kompilieren_(Beschleunigen_auf).md), um die Kompilierungsgeschwindigkeit zu verbessern.
+Die Option `-j` von `make` steuert, wie viele Aufträge (Dateien) parallel kompiliert werden. Das Programm `nproc` druckt die Anzahl der CPU-Kerne in Deinem System; indem Du es zusammen mit der Option `-j` verwendest, kannst Du wählen, ob Du so viele Dateien wie möglich verarbeiten möchtest, um die Gesamtübersetzung des Programms zu beschleunigen. Im obigen Beispiel verwendet es alle Kerne in Deinem System mit Ausnahme von zwei; dies hält Deinen Computer für andere Anwendungen reaktionsschnell, während die Kompilierung im Hintergrund abläuft. Die FreeCAD-Ausführdatei wird schließlich im Verzeichnis `freecad-build/bin` erscheinen. Siehe auch [Kompilieren (Beschleunigen)](Compiling_(Speeding_up)/de.md), um die Kompilierungsgeschwindigkeit zu verbessern.
 
 ### Behebung von cmake Problemen 
 

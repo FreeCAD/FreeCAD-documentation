@@ -1,4 +1,7 @@
 # Macro Bevel/fr
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/fr
 |Name=Macro Bevel
 |Icon=Bevel.svg
@@ -10,6 +13,9 @@
 |Download=[https://wiki.freecadweb.org/File:bevel.svg Icône de la barre d'outils]
 |Links=[https://github.com/mwganson/Bevel Full Documentation sur Github]
 }}
+
+
+</div>
 
 ## Description
 
@@ -25,7 +31,7 @@ La documentation complète se trouve sur github : [Bevel](https://github.com/mwg
 ## Légende
 
 
-{{Codeextralink|https://gist.github.com/mwganson/25ee4dc925c8bcf1182bd9979025ed2d/raw/058881c06c7e1f53600a6c58a0db4278c8aa9ecf/Bevel.FCMacro|Bevel.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/25ee4dc925c8bcf1182bd9979025ed2d/raw/bf199f31089f43d8a2bcbcaa0facde2221783c92/Bevel.FCMacro|Bevel.FCMacro}}
 
 Icône de la barre d\'outils ![](images/Bevel.svg )
 

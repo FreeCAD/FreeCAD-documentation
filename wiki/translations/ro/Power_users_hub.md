@@ -185,8 +185,8 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 <div class="mw-translate-fuzzy">
 
 -   [Start up and Configuration](Start_up_and_Configuration.md): Opțiunile de pornire și linia de comandă pentru FreeCad
--   [Install on Windows](Install_on_Windows.md): instalarea sub Windows
--   [Compiling FreeCAD on Windows](CompileOnWindows.md) and [Compiling FreeCAD on Unix](CompileOnUnix.md)
+-   [Installing\_on\_Windows](Installing_on_Windows.md): instalarea sub Windows
+-   [Compiling FreeCAD on Windows](Compile_on_Windows.md) and [Compiling FreeCAD on Unix](Compile_on_Linux.md)
 -   [Branding](Branding.md): Modificări simple pe care le puteți face la codul sursă pentru a schimba unele aspecte ale FreeCAD
 -   [Extra python modules](Extra_python_modules.md) : Extindeți interpretorul Python FreeCAD cu aceste module puternice!
 

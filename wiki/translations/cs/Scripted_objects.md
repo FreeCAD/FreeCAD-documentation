@@ -1141,6 +1141,9 @@ Interesting forum threads about scripted objects:
 In addition to the examples presented here have a look at FreeCAD source code [src/Mod/TemplatePyMod/FeaturePython.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py) for more examples.
 
 
+
+
+
 {{Powerdocnavi
 
 }}

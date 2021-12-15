@@ -6,7 +6,7 @@
    Workbenches:[Architettura](Arch_Workbench/it.md)
    MenuLocation:Arch → Piano di sezione
    Shortcut:**S** **P**
-   SeeAlso:[Vista 2D](Draft_Shape2DView/it.md), [Vista di Arch](TechDraw_NewArch/it.md)---
+   SeeAlso:[Vista 2D](Draft_Shape2DView/it.md), [Vista di Arch](TechDraw_ArchView/it.md)---
 
 
 </div>
@@ -18,7 +18,7 @@ Questo strumento posiziona nel documento corrente un attrezzo **Piano di sezione
 
 <div class="mw-translate-fuzzy">
 
-Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le viste, è necessario creare un [Disegno](Draft_Drawing/it.md) per creare una vista in una [Pagina di disegno ](Drawing_Workbench/it.md), e una [Vista 2D](Draft_Shape2DView/it.md) per creare una vista nel documento 3D stesso, o una [Vista TechDraw di Arch](TechDraw_NewArch/it.md) per creare una vista in una [Pagina di TechDraw](TechDraw_Workbench/it.md).
+Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le viste, è necessario creare un [Disegno](Draft_Drawing/it.md) per creare una vista in una [Pagina di disegno ](Drawing_Workbench/it.md), e una [Vista 2D](Draft_Shape2DView/it.md) per creare una vista nel documento 3D stesso, o una [Vista TechDraw di Arch](TechDraw_ArchView/it.md) per creare una vista in una [Pagina di TechDraw](TechDraw_Workbench/it.md).
 
 
 </div>
@@ -35,7 +35,7 @@ Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le vi
 3.  Premere il pulsante **<img src="images/Arch_SectionPlane.svg" width=16px> [Piano di sezione](Arch_SectionPlane/it.md)**, oppure premere i tasti {{KEY/it|S}} e {{KEY/it|P}}.
 4.  [Spostare](Draft_Move/it.md) o [ruotare](Draft_Rotate/it.md) il piano di sezione nella posizione corretta, se necessario.
 5.  Selezionare il piano di sezione se non è già stato selezionato.
-6.  Usare [Vista disegno di Drawing](Draft_Drawing/it.md), [Vista 2D di Draft](Draft_Shape2DView/it.md) o [Vista TechDraw di Arch](TechDraw_NewArch/it.md) per creare la vista.
+6.  Usare [Vista disegno di Drawing](Draft_Drawing/it.md), [Vista 2D di Draft](Draft_Shape2DView/it.md) o [Vista TechDraw di Arch](TechDraw_ArchView/it.md) per creare la vista.
 
 
 </div>
@@ -51,7 +51,7 @@ Il solo Piano di sezione non crea alcuna vista degli oggetti. Per ottenere le vi
 
 <div class="mw-translate-fuzzy">
 
--   Creare delle [Viste di disegno](Draft_Drawing/it.md) se si sta lavorando con [Drawing](Drawing_Workbench/it.md), o delle [Viste Arch di TechDraw](TechDraw_NewArch/it.md) se si sta lavorando con [TechDraw](TechDraw_Workbench/it.md).
+-   Creare delle [Viste di disegno](Draft_Drawing/it.md) se si sta lavorando con [Drawing](Drawing_Workbench/it.md), o delle [Viste Arch di TechDraw](TechDraw_ArchView/it.md) se si sta lavorando con [TechDraw](TechDraw_Workbench/it.md).
 
 
 </div>

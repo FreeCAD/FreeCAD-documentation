@@ -105,7 +105,7 @@
 
 <div class="mw-translate-fuzzy">
 
-もし印刷用の2次元表示を作成するだけで3次元モデルが必要ないのであれば[製図ワークベンチをチェックしてください](Draft_Module/jp.md)（製図ワークベンチでも2次元形状が作れることを記憶に留めておいてください。今のところスケッチャーでは使用できない機能、例えばB-スプラインなどを使うこともできます）。
+もし印刷用の2次元表示を作成するだけで3次元モデルが必要ないのであれば[製図ワークベンチをチェックしてください](Draft_Workbench/ja.md)（製図ワークベンチでも2次元形状が作れることを記憶に留めておいてください。今のところスケッチャーでは使用できない機能、例えばB-スプラインなどを使うこともできます）。
 
 
 </div>
@@ -201,7 +201,7 @@ These are tools for creating objects.
     -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [Create B-spline](Sketcher_CreateBSpline.md): Draws a B-spline curve by its control points.
     -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Create periodic B-spline](Sketcher_CreatePeriodicBSpline.md): Draws a periodic (closed) B-spline curve by its control points.
 
--   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polyline (multiple-point line)](Sketcher_CreatePolyline.md): Draws a line made of multiple line segments. Pressing the M key while drawing a Polyline toggles between the different polyline modes.
+-   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polyline (multiple-point line)](Sketcher_CreatePolyline.md): Draws a line made of multiple line segments. Pressing the **M** key while drawing a Polyline toggles between the different polyline modes.
 
 -   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Create rectangles](Sketcher_CompCreateRectangles.md): This is an icon menu in the Sketcher toolbar that holds the following commands: <small>(v0.20)</small> 
 
@@ -389,10 +389,6 @@ Every CAD user develops his own way of working over time, but there are some use
 <div class="mw-translate-fuzzy">
 
 ## チュートリアル
-
--   [Sketcher tutorial](Sketcher_tutorial.md) 初心者向け
--   [Sketcher Tutorial](Sketcher_Tutorial.md)
--   [Sketcher Micro Tutorial - Constraint Practices](Sketcher_Micro_Tutorial_-_Constraint_Practices.md)
 
 
 </div>

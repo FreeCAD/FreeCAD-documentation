@@ -1,128 +1,128 @@
 ---
-- GuiCommand:
-   Name:Draft Shape2DView
-   MenuLocation:Modification → Shape 2D view
-   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+- GuiCommand:/pl
+   Name:Rysunek Roboczy: Widok 2D kształtu
+   MenuLocation:Modyfikacja → Widok 2D kształtu
+   Workbenches:[Rysunek Roboczy](Draft_Workbench/pl.md), [Architektura](Arch_Workbench/pl.md)
 ---
 
 # Draft Shape2DView/pl
 
-## Description
+## Opis
 
-The <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> **Draft Shape2DView** command creates 2D projections from selected objects, usually 3D solids or [Arch SectionPlanes](Arch_SectionPlane.md). The projections are placed in the [3D view](3D_view.md).
+Polecenie <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> **Widok 2D kształtu**\' tworzy rzuty 2D z wybranych obiektów, zwykle brył przestrzennych lub [Płaszczyzny przekroju](Arch_SectionPlane/pl.md) środowiska Architektura. Rzuty są umieszczane w oknie [widoku 3D](3D_view/pl.md).
 
-Draft Shape2DView projections can be displayed on a [TechDraw Workbench](TechDraw_Workbench.md) page using the [TechDraw DraftView](TechDraw_DraftView.md) command. Alternatively the [TechDraw Workbench](TechDraw_Workbench.md) offer its own projection commands. But these create projections that are only displayed on the drawing page and not in the [3D view](3D_view.md).
+Rzuty **Widok 2D kształtu** mogą być wyświetlane w środowisku [Rysunek Techniczny](TechDraw_Workbench/pl.md) używając polecenia [Wstaw widok rysunku](TechDraw_DraftView/pl.md). Alternatywnie środowisko [Rysunek Techniczny](TechDraw_Workbench/pl.md) oferuje swoje własne narzędzia do rzutowania. Tworzą one jednak rzuty, które są wyświetlane tylko na stronie rysunku a nie w oknie [widoku 3D](3D_view/pl.md).
 
 ![](images/Draft_Shape2DView_example.jpg ) 
-*Projection of solid shapes onto the XY plane*
+*Rzutowanie brył na płaszczyznę XY*
 
-## Usage
+## Użycie
 
-1.  Optionally rotate the [3D view](3D_view.md). The camera direction in the [3D view](3D_view.md) determines the projection vector. For example, a [top view](Std_ViewTop.md) will project onto the XY plane. The projection vector is ignore for projections created from [Arch SectionPlanes](Arch_SectionPlane.md).
-2.  Optionally select one or more objects.
-3.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Draft_Shape2DView.svg" width=16px> [Draft Shape2DView](Draft_Shape2DView.md)** button.
-    -   Select the **Modification → <img src="images/Draft_Shape2DView.svg" width=16px> Shape 2D view** option from the menu.
-4.  If you have not yet selected an object: select an object in the [3D view](3D_view.md).
-5.  The projected objects are created on the XY plane.
+1.  Opcjonalnie obróć [widok 3D](3D_view/pl.md). Kierunek ujęcia widoku w oknie [widoku 3D](3D_view/pl.md) określa wektor projekcji. Na przykład, [widok od góry](Std_ViewTop/pl.md) będzie rzutować na płaszczyznę XY. Wektor projekcji jest ignorowany dla rzutów utworzonych przez funkcję [Płaszczyzna przekroju](Arch_SectionPlane/pl.md) środowiska Architektura.
+2.  Opcjonalnie wybierz jeden lub więcej obiektów.
+3.  Istnieje kilka sposobów na wywołanie polecenia:
+    -   Naciśnij przycisk **<img src="images/Draft_Shape2DView.svg" width=24px> [Widok 2D kształtu](Draft_Shape2DView/pl.md)**.
+    -   Wybierz opcję z menu **Modyfikacja → <img src="images/Draft_Shape2DView.svg" width=24px> Widok 2D kształtu**.
+4.  Jeśli nie wybrałeś jeszcze żadnego obiektu: wybierz obiekt w oknie [widoku 3D](3D_view/pl.md).
+5.  Rzutowane obiekty są tworzone na płaszczyźnie XY.
 
-## How to produce plans and sections with different linewidths 
+## Jak tworzyć plany i przekroje o różnych szerokościach linii 
 
 <img alt="" src=images/Draft_shape2dview_example_plan.png  style="width:700px;">
 
-Drawings with different linewidths for viewed and cut lines can easily be produced by using two shape2Dview objects from a same [Arch SectionPlane](Arch_SectionPlane.md). One of the shape2Dview objects has its projection mode set to **Solid**, which renders the viewed lines, and another set to **Cut lines** or **Cut faces** to render the cut lines. The two shape2Dviews are then placed at the same location, one on top of the other.
+Rysunki z różnymi szerokościami linii dla linii widocznych i linii cięcia mogą być łatwo utworzone przez użycie dwóch obiektów *Widok 2D kształtu* z tego samego [Płaszczyzna przekroju](Arch_SectionPlane/pl.md). Jeden z obiektów *Widok 2D kształtu* ma ustawiony tryb rzutowania na **Bryła**, który renderuje linie widoczne, a drugi ustawiony na **Linia cięcia** lub **Powierzchnia cięcia**, który renderuje linie cięcia. Oba obiekty *Widok 2D kształtu* są następnie umieszczone w tym samym miejscu, jeden na drugim.
 
-## Properties
+## Właściwości
 
-See also: [Property editor](property_editor.md).
+Zobacz również: [Edytor właściwości](Property_editor/pl.md).
 
-A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
+Obiekt *Widok 2D kształtu* wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObject/pl.md) i dziedziczy wszystkie jego właściwości. Posiada on również następujące dodatkowe właściwości:
 
-### Data
+### Dane
 
 
-{{TitleProperty|Draft}}
+{{TitleProperty|Rysunek Roboczy}}
 
--    **Auto Update|Bool**: specifies if the projection should be automatically recomputed if the **Base** object changes. Selecting {{False}} can be useful if there are many Draft Shape2DViews in a document or if they are complex. If set to {{False}} the [Std Refresh](Std_Refresh.md) command must be used to update the projection. <small>(v0.20)</small> 
+-    **Aktualizacja automatyczna|Bool**: określa, czy rzut powinien być automatycznie obliczany ponownie, jeśli obiekt **Podstawa** ulegnie zmianie. Wybór wartości {{False/pl}} może być użyteczny, jeśli w dokumencie jest wiele obiektów *Widok 2D kształtu* lub jeśli są one złożone. Jeśli wybrano wartość {{False/pl}}, do aktualizacji rzutów należy użyć polecenia [Std: Odśwież](Std_Refresh/pl.md). {{Version/pl|0.20}}
 
--    **Base|Link**: specifies the object to be projected.
+-    **Podstawa|Link**: określa obiekt, który ma być wyświetlany.
 
--    **Face Numbers|IntegerList**: specifies the indices of the faces to be projected. Only works if **Projection Mode** is {{Value|Individual Faces}}.
+-    **Numer ściany|IntegerList**: określa indeksy ścian, które mają być rzutowane. Działa tylko jeśli **Tryb rzutowania** ma wartość {{Value|Poszczególne ściany}}.
 
--    **Fuse Arch|Bool**: specifies if [Arch objects](Arch_Workbench.md) of the same type and material are fused or not.
+-    **Fuse Arch|Bool**: określa czy [obiekty Architektoniczne](Arch_Workbench/pl.md) tego samego typu i z tego samego materiału są łączone czy nie.
 
--    **Hidden Lines|Bool**: specifies if hidden lines are shown or not.
+-    **Ukryte linie|Bool**: określa, czy ukryte linie są wyświetlane, czy nie.
 
--    **In Place|Bool**: only works if the selected object is an [Arch SectionPlane](Arch_SectionPlane.md), and **Projection Mode** is {{Value|Cutlines}} or {{Value|Cutfaces}}, specifies if the projection will appear co-planar with the section plane.
+-    **W miejscu|Bool**: działa tylko jeśli wybrany obiekt jest [płaszczyzną przekroju](Arch_SectionPlane/pl.md) środowiska Architektura, a **Tryb rzutowania** to {{Value|Cutlines}} lub {{Value|Cutfaces}}, określa czy rzut będzie współplanarny z płaszczyzną przekroju.
 
--    **Projection|Vector**: specifies the direction of the projection. Ignored if **Base** is an [Arch SectionPlane](Arch_SectionPlane.md).
+-    **Rzut|Vector**: określa kierunek rzutowania. Ignorowane, jeśli **Podstawa** jest [płaszczyzna przekroju](Arch_SectionPlane/pl.md) Architektura.
 
--    **Projection Mode|Enumeration**: specifies the projection mode. The following modes are available:
-
-    -   
-        {{Value|Solid}}
-        
-        : projects the entire selected object.
+-    **Tryb projekcji|Enumeration**: określa tryb projekcji. Dostępne są następujące tryby:
 
     -   
-        {{Value|Individual Faces}}
+        {{Value|Bryła}}
         
-        : only projects the faces in the **Face Numbers** list.
+        : rzutuje cały wybrany obiekt.
+
+    -   
+        {{Value|Poszczególne ściany}}
+        
+        : wyświetla tylko ściany z listy **Numer ściany**.
 
     -   
         {{Value|Cutlines}}
         
-        : only works if the selected object is an [Arch SectionPlane](Arch_SectionPlane.md), projects only the edges cut by the section plane.
+        : działa tylko wtedy, gdy wybranym obiektem jest [płaszczyzna przekroju](Arch_SectionPlane/pl.md) środowiska Architektura, rzutuje tylko krawędzie przecięte przez płaszczyznę przekroju.
 
     -   
         {{Value|Cutfaces}}
         
-        : only works if the selected object is an [Arch SectionPlane](Arch_SectionPlane.md), projects the areas cut through solids by the section plane as faces.
+        : działa tylko wtedy, gdy wybranym obiektem jest [płaszczyzna przekroju](Arch_SectionPlane/pl.md) środowiska Architektura, rzutuje powierzchnie przecięte płaszczyzną przekroju przez bryłę jako powierzchnie czołowe.
 
     -   
-        {{Value|Solid faces}}
+        {{Value|Ściany bryły}}
         
-        : projects the entire selected object by cutting faces one by one. Can be used if the {{Value|Solid}} mode gives wrong results. <small>(v0.20)</small> 
+        : rzutuje cały wybrany obiekt poprzez cięcie powierzchni jedna po drugiej. Może być użyty, jeśli tryb {{Value|Bryła}} daje złe wyniki. {{Version/pl|0.20}}
 
--    **Segment Length|Float**: specifies the size in millimeters of linear segments if **Tessellation** is `True`.
+-    **Długość segmentu|Float**: określa rozmiar w milimetrach odcinków liniowych, jeżeli parametr **Tesselacja** ma wartość {{TRUE/pl}}.
 
--    **Tessellation|Bool**: specifies if tessellation should be performed. Tessellation means that curves are replaced by sequences of line segments. This can be computationally intensive if the **Segment Length** is too short.
+-    **Tesselacja|Bool**: określa czy teselacja powinna zostać wykonana. Teselacja oznacza, że krzywe są zastępowane przez sekwencje segmentów liniowych. Może to być pracochłonne obliczeniowo, jeśli wartość **Długość segmentu** jest zbyt krótka.
 
--    **Visible Only|Bool**: specifies if the projection should only be recomputed if it is visible.
+-    **Wyłącznie widoczne|Bool**: określa, czy rzut powinien być obliczany ponownie tylko wtedy, gdy jest widoczny.
 
--    **Exclusion Points|Vector list**: A list of exclusion points. Any edge passing through any of those points will not be drawn. <small>(v0.20)</small> 
+-    **Punkty wykluczenia|Vector list**: Lista punktów wykluczenia. Krawędź przechodząca przez którykolwiek z tych punktów nie zostanie narysowana. {{Version/pl|0.20}}
 
-### View
+### Widok
 
 
-{{TitleProperty|Draft}}
+{{TitleProperty|Rysunek Roboczy}}
 
--    **Pattern|Enumeration**: not used.
+-    **Wzór|Enumeration**: niewykorzystane.
 
--    **Pattern Size|Float**: not used.
+-    **Rozmiar wzoru|Float**: niewykorzystane.
 
-## Scripting
+## Tworzenie skryptów 
 
-See also: _.
+Zobacz również stronę: _.
 
-To create a 2D projection use the `make_shape2dview` method (<small>(v0.19)</small> ) of the Draft module. This method replaces the deprecated `makeShape2DView` method.
+Aby utworzyć rzut 2D użyj metody `make_shape2dview` modułu Rysunek Roboczy ({{Version/pl|0.19}}). Ta metoda zastępuje przestarzałą metodę `makeShape2DView`.
 
 
 ```python
 shape2dview = make_shape2dview(baseobj, projectionVector=None, facenumbers=[])
 ```
 
--    `baseobj`is the object to be projected.
+-    `baseobj`to obiekt, który ma być rzutowany.
 
--    `projectionVector`is the projection vector. If not supplied the Z axis is used.
+-    `projectionVector`jest wektorem projekcji. Jeżeli nie jest podany, używana jest oś Z.
 
--    `facenumbers`is a list of face numbers (0-based). If supplied only these faces are considered.
+-    `facenumbers`jest listą numerów ścian (0 - bazowy). Jeśli podano, tylko te ściany są brane pod uwagę.
 
--    `shape2dview`is returned with the created 2D projection.
+-    `shape2dview`jest zwracana wraz z utworzonym rzutem 2D.
 
-Change the `ProjectionMode` property of the created object if required. It can be: `"Solid"`, `"Individual Faces"`, `"Cutlines"`, `"Cutfaces"` or `"Solid faces"`.
+W razie potrzeby zmień właściwość `Tryb projekcji` tworzonego obiektu. Może to być: `"Bryła"`, `"Poszczególne ściany"`, `"Cutlines"`, `"Cutfaces"` lub `"Ściany bryły"`.
 
-Example:
+Przykład:
 
 
 ```python

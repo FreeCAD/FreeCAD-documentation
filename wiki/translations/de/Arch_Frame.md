@@ -15,7 +15,7 @@
 Das **<img src="images/Arch_Frame.svg" width=16px> [Arch Rahmen](Arch_Frame/de.md)**-Werkzeug wird verwendet, um alle Arten von Rahmenobjekten basierend auf einem Profil und einem Layout zu erstellen. Das Profil wird entlang der Kanten des Layouts extrudiert, bei dem es sich um ein beliebiges 2D-Objekt handeln kann, z. B. ein [Skizze](Sketcher_Workbench/de.md) oder ein [Entwurfsobjekt](Draft_Workbench/de.md). Es ist besonders nützlich, um Geländer oder Rahmenwände zu erstellen. Rahmenobjekte können dann leicht in [Wände](Arch_Wall/de.md) oder [Struktur](Arch_Structure/de.md)-Objekte umgewandelt werden.
 
 <img alt="" src=images/Arch_Frame_example.jpg  style="width:640px;"> 
-*Rahmenobjekt erstellt aus einem [Entwurf orthogonales Feld](DraftOrthoArray/de.md) aus einer [Entwurf Linie](Draft_Line/de.md), unter Verwendung eines [Kreises](Draft_Circle/de.md) als Profil*
+*Rahmenobjekt erstellt aus einem [Entwurf orthogonales Feld](Draft_OrthoArray/de.md) aus einer [Entwurf Linie](Draft_Line/de.md), unter Verwendung eines [Kreises](Draft_Circle/de.md) als Profil*
 
 ## Anwendung
 

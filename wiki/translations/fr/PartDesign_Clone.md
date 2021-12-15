@@ -20,15 +20,15 @@
 ## Utilisation
 
 1.  Dans l\'arborescence du modèle, sélectionnez l\'objet à cloner.
-2.  Appuyez sur le bouton **<img src=images/PartDesign_Clone.svg style="width:24px"> '''Créer un nouveau clone'''**.
+2.  Appuyez sur le bouton **<img src=images/PartDesign_Clone.svg style="width:24px"> '''Créer un clone'''**.
 
 ## Propriétés
 
--    {{PropertyData/fr|Base Feature}}: définit l\'objet d\'origine sur lequel le clone est basé. Pour le remplacer, appuyez sur le bouton **...** pour obtenir la liste des objets disponibles.
+-    **Base Feature**: définit l\'objet d\'origine sur lequel le clone est basé. Pour le remplacer, appuyez sur le bouton **...** pour obtenir la liste des objets disponibles.
 
--    {{PropertyData/fr|Placement}}: définit l\'orientation et la position du Clone dans l\'espace 3D. Voir [Placement](Placement/fr.md).
+-    **Placement**: définit l\'orientation et la position du Clone dans l\'espace 3D. Voir [Placement](Placement/fr.md).
 
--    {{PropertyData/fr|Label}}: étiquette donnée à l\'objet Clone. Changez en fonction de vos besoins.
+-    **Label**: étiquette donnée à l\'objet Clone. Changez en fonction de vos besoins.
 
 ## Limitations
 

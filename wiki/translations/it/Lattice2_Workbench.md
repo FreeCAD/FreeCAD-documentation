@@ -10,7 +10,7 @@
 
 {{TOCright}}
 
-The Lattice2 Workbench is a FreeCAD [external workbench](external_workbenches.md) that serves the purpose of working with placements and arrays of placements. It is a sort of Assembly workbench, but with emphasis on arrays. There are no constraints and relations, there are just arrays of placements that can be generated, combined, transformed, superimposed, and populated with shapes.
+The Lattice2 Workbench is a FreeCAD [external workbench](External_workbenches.md) that serves the purpose of working with placements and arrays of placements. It is a sort of Assembly workbench, but with emphasis on arrays. There are no constraints and relations, there are just arrays of placements that can be generated, combined, transformed, superimposed, and populated with shapes.
 
 Ever wondered how to create a protractor with FreeCAD? That\'s the aim of the workbench (including tick labeling). Also, exploded assemblies can be made with the workbench.
 
@@ -115,11 +115,12 @@ Other
 
 ## Installation
 
-**Prerequisites** Lattice2 WB requires FreeCAD \>= v0.16.5155.
+**Prerequisites** Lattice2 Workbench requires FreeCAD \>= v0.16.5155.
 
 ### Automatic installation 
 
-As of v0.17 one can use the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) to install the <img alt="" src=images/Lattice2_Lattice2.svg  style="width:24px;"> Lattice2 Workbench. Use {MenuCommand\|Tools → Addon Manager}}
+As of v0.17 one can use the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) to install the <img alt="" src=images/Lattice2_Lattice2.svg  style="width:24px;"> Lattice2 Workbench. Use 
+**Tools → Addon Manager**
 
 ### Manual Install 
 
@@ -148,7 +149,7 @@ After you install the workbench, it should appear at the bottom of list of workb
 ## Other useful links 
 
 -   [Lattice aka Lattice1 Workbench (obsolete)](https://github.com/DeepSOIC/Lattice)
--   [External Workbenches](External_Workbenches.md): List of FreeCAD workbenches.
+-   [External Workbenches](External_workbenches.md): List of FreeCAD workbenches.
 -   [Macros recipes](Macros_recipes.md)
 -   [FreeCAD Community Portal](FreeCAD_Community_Portal.md)
 

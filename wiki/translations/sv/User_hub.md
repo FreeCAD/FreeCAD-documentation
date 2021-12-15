@@ -42,7 +42,7 @@ Och om du har någon information som du vill ska finnas här, varför inte hjäl
 -   [Applikationsöversikt](About_FreeCAD/sv.md): En allmän översikt över FreeCAD
 -   _, [Unix/Linux](Install_on_Unix/sv.md) och [Mac](Install_on_Mac/sv.md)
 -   [Börja här](Getting_started/sv.md): En snabb överblick över de tillgängliga verktygen
--   [FAQ](FAQ/sv.md): Ofta ställda frågor
+-   [FAQ](Frequently_asked_questions/sv.md): Ofta ställda frågor
 
 
 </div>

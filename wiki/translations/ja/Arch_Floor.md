@@ -2,7 +2,7 @@
 - GuiCommand:/ja
    Name:Arch Floor   Name/ja:Arch Floor
    MenuLocation:Arch → Floor
-   Workbenches:[Arch](Arch_Module/ja.md)
+   Workbenches:[Arch](Arch_Workbench/ja.md)
    Shortcut:**F** **L**
    SeeAlso:[[Arch Building]], [[Arch BuildingPart]], [[Arch Site]]
 ---
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Arch Floorは床を作成するのに特に便利な追加プロパティを持った特殊なタイプの[Arch Cellです](Arch_Cell/jp.md)。特徴的なのがheightプロパティを持っていることで、その子オブジェクト（[壁や](Arch_Wall.md)[骨組み](Arch_Structure.md)）ではそれを使ってその高さを自動で設定することができます。
+Arch Floorは床を作成するのに特に便利な追加プロパティを持った特殊なタイプのです。特徴的なのがheightプロパティを持っていることで、その子オブジェクト（[壁や](Arch_Wall.md)[骨組み](Arch_Structure.md)）ではそれを使ってその高さを自動で設定することができます。
 
 
 </div>
@@ -29,7 +29,7 @@ As of <small>(v0.18)</small>  the Arch Floor is derived entirely from the [Arch 
 
 <div class="mw-translate-fuzzy">
 
-＃オプションで、新しいフロアに含める1つ以上のオブジェクトを選択します ＃{{KEY | [ 16px](Image：Arch_Floor.png .md) '''Arch Floor'''}}ボタンを押すか、{{KEY | F}}、その後{{KEY | L}}キーを押します
+＃オプションで、新しいフロアに含める1つ以上のオブジェクトを選択します ＃{{KEY | <img src="images/Arch_Floor.svg" width=16px> '''Arch Floor'''}}ボタンを押すか、{{KEY | F}}、その後{{KEY | L}}キーを押します
 
 
 </div>
@@ -54,7 +54,7 @@ An Arch Floor object shares all properties from an [Arch BuildingPart](Arch_Buil
 
 <div class="mw-translate-fuzzy">
 
-Floorツールは、[macros](macros.md)/[マクロやPythonコンソールから次の関数を使って使うことができます](マクロ.md)：
+Floorツールは、[マクロやPythonコンソールから次の関数を使って使うことができます](macros.md)：
 
 
 </div>

@@ -144,8 +144,8 @@ The following solvers have not been integrated into FreeCAD but they have garner
 The following articles may be outdated, but the information they contain may still be useful to understand how to integrate solvers into FreeCAD
 
 -   [Extend FEM Module](Extend_FEM_Module.md)
--   [Add FEM equation tutorial](Add_FEM_equation_tutorial.md)
--   [Add FEM constraint tutorial](Add_FEM_constraint_tutorial.md)
+-   [Add FEM Equation Tutorial](Add_FEM_Equation_Tutorial.md)
+-   [Add FEM Constraint Tutorial](Add_FEM_Constraint_Tutorial.md)
 
 ### Agros2D and Hermes 
 

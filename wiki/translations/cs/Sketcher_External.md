@@ -1,9 +1,14 @@
-# Sketcher External/cs
 ---
-- GuiCommand:/cs   Name:Sketcher_External   Name/cs:Skicář Povrchový Náčrt   Workbenches:_---
+- GuiCommand:/cs
+   Name:Sketcher External
+   Name/cs:Sketcher External
+   MenuLocation:Sketch → Sketcher geometries → Sketcher External
+   Workbenches:[Sketcher](Sketcher_Workbench/cs.md)
+   Shortcut:X
+   SeeAlso:[Sketcher ConstructionMode](Sketcher_ToggleConstruction/cs.md)
+---
 
-
-</div>
+# Sketcher External/cs
 
 ## Popis
 
@@ -65,7 +70,7 @@ Pokud je linka úspěšně přetažena změní se její barva na magenta. Pokud 
 
 ### Podobnost s Konstrukčními linkami 
 
-Přetažené konstrukční linky v barvě magenta mohou být využity jak [Konstrukční linky](Sketcher_ConstructionMode/cs.md). Konstrukční linky jsou vnitřní linky náčrtu a používají se pouze pro vytváření konstrukce a ne pro pozdější operace s tělesem, jako je třeba vysunutí.
+Přetažené konstrukční linky v barvě magenta mohou být využity jak [Konstrukční linky](Sketcher_ToggleConstruction/cs.md). Konstrukční linky jsou vnitřní linky náčrtu a používají se pouze pro vytváření konstrukce a ne pro pozdější operace s tělesem, jako je třeba vysunutí.
 
 
 </div>

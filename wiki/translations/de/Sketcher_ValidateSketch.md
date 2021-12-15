@@ -22,7 +22,7 @@ Das Dienstprogramm **Skizze validieren** kann verwendet werden, um eine Skizze z
 
 -   Drücke die **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Skizze verlassen](Sketcher_LeaveSketch/de.md)** Taste.
 
-\#\* Drücke die Schaltfläche **Schließen** am oberen Rand des [Aufgabenpaneels](Aufgabenpaneel.md).
+\#\* Drücke die Schaltfläche **Schließen** am oberen Rand des [Aufgabenpaneels](Task_panel/de.md).
 
 \#\* Verwende das Tastaturkürzel: **Esc** (falls in den [Skizzierer Einstellungen](Sketcher_Preferences/de#Allgemein.md) aktiviert).
 

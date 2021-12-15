@@ -19,7 +19,7 @@ Inserisce un prisma sottrattivo nel corpo attivo. La sua forma viene sottratta d
 <div class="mw-translate-fuzzy">
 
 1.  Premere il pulsante **<img src="images/PartDesign_SubtractivePrism.png" width=24px> '''Prisma sottrattivo'''**. **Nota**: Il Prisma sottrattivo fa parte di un menu di icone etichettato *Crea una primitiva sottrattiva*. Dopo l\'avvio, FreeCAD visualizza Cubo sottrattivo nella barra degli strumenti. Per accedere al Prisma, fare clic sulla freccia verso il basso accanto all\'icona visibile e selezionare Prisma nel menu.
-2.  Impostare i parametri della primitiva e il modo di [Associazione](Part_Attachment/it.md).
+2.  Impostare i parametri della primitiva e il modo di [Associazione](Part_EditAttachment/it.md).
 3.  Cliccare **OK**.
 4.  Nel corpo attivo viene visualizzata una funzione Prisma.
 
@@ -46,7 +46,7 @@ Dopo la sua creazione il Prisma può essere modificato in due modi:
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/it|Attachment}}: Definisce la modalità e l\'offset di associazione. Vedere [Associazione](Part_Attachment/it.md).
+-    {{PropertyData/it|Attachment}}: Definisce la modalità e l\'offset di associazione. Vedere [Associazione](Part_EditAttachment/it.md).
 
 -    {{PropertyData/it|Label}}: Etichetta data all\'oggetto Prisma. Modificabile secondo le proprie esigenze.
 

@@ -1,6 +1,13 @@
-# Sketcher MapSketch/tr
 ---
-- GuiCommand:   Name:Eskizi yüze eşle   Create a sketch on a face|Workbenches:_---
+- GuiCommand:/tr
+   Name:Sketcher MapSketch
+   Name/tr:Eskizi yüze eşle
+   Workbenches:[Sketcher](Sketcher_Workbench.md), [PartDesign](PartDesign_Workbench.md)
+   MenuLocation:Part Design/Sketch → Map sketch to face...
+   SeeAlso:[Create a new sketch](Sketcher_NewSketch.md)
+---
+
+# Sketcher MapSketch/tr
 
 
 </div>

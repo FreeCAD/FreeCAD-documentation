@@ -9,7 +9,7 @@
 
 ## Description
 
-The **polar pattern** tool takes a selected feature and creates a set of copies rotated around a chosen axis. Starting with v0.17, it can pattern multiple features.
+The **polar pattern** tool takes a chosen feature and creates a set of copies rotated around a chosen axis. <small>(v0.17)</small>  A list of features can be patterned.
 
 ![](images/PartDesign_PolarPattern_example.png )
 
@@ -19,8 +19,8 @@ The **polar pattern** tool takes a selected feature and creates a set of copies 
 
 #### To create a pattern 
 
-1.  (Optional) Select the feature (<small>(v0.19)</small>  or several features) to be patterned.
-2.  Press the **<img src=images/PartDesign_PolarPattern.svg style="width:24px">** **PolarPattern** button.
+1.  (Optional) Select the feature (or <small>(v0.19)</small>  several features) to be patterned.
+2.  Press the **<img src="images/PartDesign_PolarPattern.svg" width=16px> '''PolarPattern'''** button.
     -   If you didn\'t initially select any features, you\'ll be able to select a *single* base feature
 3.  Define the **Axis**. See [Options](#Options.md).
 4.  Define the **Angle** between the last copied occurrence and the original feature.
@@ -116,15 +116,11 @@ Allows you to select either a DatumLine or an edge of an object or a line of a s
 
 ### Angle and Occurrences 
 
-Specifies the angle to be covered by the pattern, and the total number of pattern shapes (including the original feature). For example, four occurrences in an angle of 180 degrees would give a spacing of 60 degrees between patterns. There is one exception: If the angle is 360 degrees, since first and last occurrence are identical, four occurrences will be spaced 90 degrees apart. 
-
+Specifies the angle to be covered by the pattern, and the total number of pattern shapes (including the original feature). For example, four occurrences in an angle of 180 degrees would give a spacing of 60 degrees between patterns. There is one exception: If the angle is 360 degrees, since first and last occurrence are identical, four occurrences will be spaced 90 degrees apart.
 
 ## Limitations
 
 -   See [linear pattern feature limitations](PartDesign_LinearPattern#Limitations.md).
-
-
-
 
 
 

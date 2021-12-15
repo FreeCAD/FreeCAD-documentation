@@ -1,4 +1,13 @@
 # Scenegraph/it
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/it|[Da Mesh a Parte](Mesh_to_Part/it.md)|[Pivy](Pivy/it.md)}}
+
+
+</div>
+
+
 {{TOCright}}
 
 ## Introduction
@@ -121,24 +130,35 @@ Potere accedere al direttamente al grafico di scena presenta comunque molti vant
 
 </div>
 
-FreeCAD dispone di diversi strumenti per visualizzare o modificare il codice OpenInventor. Ad esempio, il seguente codice Python mostra la rappresentazione OpenInventor di un oggetto selezionato: 
+FreeCAD dispone di diversi strumenti per visualizzare o modificare il codice OpenInventor. Ad esempio, il seguente codice Python mostra la rappresentazione OpenInventor di un oggetto selezionato:
+
+
 ```python
 obj = FreeCAD.ActiveDocument.ActiveObject
 viewprovider = obj.ViewObject
 print viewprovider.toString()
 
-``` Inoltre, c\'è anche un modulo Python che consente l\'accesso completo a tutto quello che è gestito da Coin3D, come il grafico di scena di FreeCAD. Continuate quindi la lettura in [Pivy](Pivy/it.md).
+```
+
+Inoltre, c\'è anche un modulo Python che consente l\'accesso completo a tutto quello che è gestito da Coin3D, come il grafico di scena di FreeCAD. Continuate quindi la lettura in [Pivy](Pivy/it.md).
 
 ## Coding examples 
 
-See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository of said examples can be found at <https://github.com/MariwanJ/COIN3D_Examples>.
+See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository of said examples can be found at <https://github.com/MariwanJ/COIN3D_Examples>. {{Top}}
 
-[top](#top.md)
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/it|[Da Mesh a Parte](Mesh_to_Part/it.md)|[Pivy](Pivy/it.md)}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _
 

@@ -877,7 +877,7 @@ Voir cette réponse dans [Stackoverflow](https://stackoverflow.com/a/35377654) p
 
 ## En relation 
 
--   [Documentation du code source](Source_Documentation/fr.md)
+-   [Documentation du code source](Source_documentation/fr.md)
 -   [FreeCAD API website](https://www.freecadweb.org/api/)
 
 _ _ _

@@ -2,8 +2,7 @@
 - GuiCommand:/fr
    Name:Assembly3 ConstraintCoincidence
    Name/fr:Assembly3 Contrainte de coïncidence
-   Icon:Plane_Coincidence.svg
-   Icon:Assembly ConstraintCoincidence.svg
+   Icon:Assembly_ConstraintCoincidence.svg
    Workbenches:[Assembly3](Assembly3_Workbench/fr.md)
 ---
 

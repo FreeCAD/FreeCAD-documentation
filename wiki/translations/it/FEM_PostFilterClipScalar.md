@@ -1,6 +1,14 @@
-# FEM PostFilterClipScalar/it
 ---
-- GuiCommand:/it   Name:FEM_PostCreateScalarClipFilter   Name/it:FEM PostCreateScalarClipFilter   MenuLocation: Risultati → scalar clip filter    |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:/it
+   Name:FEM PostFilterClipScalar
+   Name/it:FEM PostFilterClipScalar
+   MenuLocation: Risultati → scalar clip filter
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:
+   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+---
+
+# FEM PostFilterClipScalar/it
 
 
 </div>
@@ -15,13 +23,7 @@ Da fare
 
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

@@ -4,7 +4,7 @@
 
 ## Introduction
 
-The FreeCAD <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> [Ship Workbench](Ship_Workbench.md) is used to create structures that are common to ships.
+The <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> [Ship Workbench](Ship_Workbench.md) is used to create structures that are common to ships.
 
 ## The Tools 
 
@@ -18,7 +18,7 @@ The FreeCAD <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> [Shi
 
 ### Weights
 
--   <img alt="Weights definition tool" src=images/FreeCAD-Ship-WeightIco.png  style="width:32px;"> [Weights definition](Ship_Weight.md)
+-   <img alt="Weights definition tool" src=images/FreeCAD-Ship-WeightIco.png  style="width:32px;"> [Weights](Ship_Weight.md)
 -   <img alt="Tank creation tool" src=images/FreeCAD-Ship-TankIco.png  style="width:32px;"> [Tank creation](Ship_TankNew.md)
 -   <img alt="Tank capacity curve tool" src=images/Ship_TankCapacity.png  style="width:32px;"> [Tank capacity curve](Ship_TankCapacity.md)
 -   <img alt="Load conditions" src=images/Ship_Loading.png  style="width:32px;"> [Load conditions](Ship_Loading.md)
@@ -31,7 +31,7 @@ The FreeCAD <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> [Shi
 
 ## History
 
-The Ship Workbench was unmaintained since v0.17 but has been resurrected in v0.19. As of v0.19 it also now designated an [external workbench](external_workbenches.md), so it is no longer included in the base system. Instead it\'s available via the [Addon Manager](Addon_Manager.md)
+The Ship Workbench was unmaintained since v0.17 but has been resurrected in v0.19. As of v0.19 it also now designated an [external workbench](External_workbenches.md), so it is no longer included in the base system. Instead it\'s available via the [Addon Manager](Std_AddonMgr.md).
 
 ## References
 

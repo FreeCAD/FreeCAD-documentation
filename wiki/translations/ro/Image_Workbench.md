@@ -1,9 +1,9 @@
 # <img alt="Image workbench icon" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/ro
 
-## Introducere
-
 
 {{TOCright}}
+
+## Introducere
 
 
 {{TOCright}}
@@ -12,9 +12,15 @@ Atelierul Imagine [Image Workbench](Image_Workbench.md) gestionează diferite ti
 
 ## Instrumente
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Image-import.svg  style="width:32px;"> [Open](Image_Open.md): open an image on a new viewport.
 -   <img alt="" src=images/Image-import-to-plane.svg  style="width:32px;"> [Import to plane](Image_CreateImagePlane.md): import an image to a plane in the 3D view.
 -   <img alt="" src=images/Image-scale.svg  style="width:32px;"> [Scaling](Image_Scaling.md): scale an image imported to a plane.
+
+
+</div>
 
 ## Funcționalități
 
@@ -31,9 +37,17 @@ Atelierul Imagine [Image Workbench](Image_Workbench.md) gestionează diferite ti
 -   Imaginea poate fi mutată prin editarea valorilor X/Y/Z-în [Property editor](Property_editor.md).
 -   Imaginea poate fi rotită în jurul unei axe utilizând [Property editor](Property_editor.md).
 
+## Workflow
+
+
+<div class="mw-translate-fuzzy">
+
 ## Flux de lucru 
 
 O utilizare importantă a acestui atelier de lucru este urmărirea imaginii, cu ajutorul instrumentelor [ Draft](Draft_Workbench.md) sau [ Sketcher](Sketcher_Workbench.md), pentru a genera un corp solid bazat pe contururile imaginii.
+
+
+</div>
 
 **Tip:**
 Urmărirea cu elemente de schiță peste o imagine funcționează cel mai bine dacă imaginea are o mică (negativă) decalare față de planul de schiță.

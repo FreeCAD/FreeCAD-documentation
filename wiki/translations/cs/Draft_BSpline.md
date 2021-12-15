@@ -40,8 +40,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Stiskněte tlačítko **<img src="images/Draft_BSpline.png" width=16px> [B-křivka](Draft_BSpline.md)
 ** nebo klávesy **B** potom **S**
-2.  Klikněte na první bod ve 3D pohledu nebo zadejte jeho [souřadnice](Draft_Coordinates.md)
-3.  Klikněte na další bod ve 3D pohledu nebo zadejte jeho [souřadnice](Draft_Coordinates.md)
+2.  Klikněte na první bod ve 3D pohledu nebo zadejte jeho souřadnice
+3.  Klikněte na další bod ve 3D pohledu nebo zadejte jeho souřadnice
 4.  Stiskněte klávesu **F** nebo **C** nebo dvojklikněte na poslední bod pro ukončení nebo uzavření křivky. Je-li křivka uzavřena, bude zároveň i povrchem i když se jeví jako drátový model.
 
 
@@ -56,8 +56,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Volby
 
--   Stiskněte klávesu **F** nebo tlačítko **<img src="images/Draft_FinishLine.png" width=12px> '''[Ukončení](Draft_FinishLine.md)'''** pro ukončení křivky bez jejího uzavření
--   Stiskněte klávesu **C** nebo tlačítko **<img src="images/Draft_CloseLine.png" width=12px> '''[Uzavření](Draft_CloseLine.md)'''** nebo klikněte na počáteční bod. Tím ukončíte zadávání, ale zároveň se doplní poslední segment křivky, který poslední bod spojí s počátečním bodem.
+-   Stiskněte klávesu **F** nebo tlačítko **<img src="images/Draft_FinishLine.png" width=12px> '''Ukončení'''** pro ukončení křivky bez jejího uzavření
+-   Stiskněte klávesu **C** nebo tlačítko **<img src="images/Draft_CloseLine.png" width=12px> '''Uzavření'''** nebo klikněte na počáteční bod. Tím ukončíte zadávání, ale zároveň se doplní poslední segment křivky, který poslední bod spojí s počátečním bodem.
 -   Stisknutím klávesy **X**, **Y** nebo **Z** po zadání bodu zajistíte, že následující bod bude ležet na dané ose.
 -   Pro ruční zadávání souřadnic jednoduše zadávejte čísla a mezi každou komponentou X, Y a Z stiskněte **ENTER**.
 -   Stiskněte klávesu **R** nebo klikněte/odklikněte zaklikávací políčko **'''Relativní'''**. Je-li nastaven relativní mód jsou souřadnice následujícího bodu relativní k předchozímu bodu. Je-li mód absolutní souřadnice jsou vztaženy k počátečnímu bodu (0,0,0).
@@ -65,7 +65,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Stiskněte při kreslení klávesu **CTRL** pro [přichycení](Draft_Snap.md) Vašeho bodu k nejbližšímu uchopovacímu místu, nezávisle na vzdálenosti od něho.
 -   Stiskněte při kreslení klávesu **SHIFT** pro nastavení [vazby](Draft_Constrain.md) Vašeho dalšího bodu vodorovně nebo svisle v relaci k předchozímu bodu.
 -   Stiskněte klávesu **W** nebo stiskněte tlačítko **<img src="images/Draft_Wipe.png" width=12px> '''Smaž'''** pro odstranění existujících segmentů a začněte křivku z posledního bodu.
--   Stiskněte klávesy **CTRL**+**Z** nebo tlačítko **<img src="images/Draft_UndoLine.png" width=12px> '''[Undo](Draft_UndoLine.md)'''** k návratu na poslední bod.
+-   Stiskněte klávesy **CTRL**+**Z** nebo tlačítko **<img src="images/Draft_UndoLine.png" width=12px> '''Undo'''** k návratu na poslední bod.
 -   Stiskněte klávesu **I** nebo tlačítko **'''Filled'''** aby se křivka po jejím uzavření zobrazovala jako plocha. To jednoduše nastavuje Pohled-\>Vlastnost Drát na \"Otevřené čáry\" nebo \"Drátový model\", toto také může být snadno změněno později.
 -   Stiskněte klávesu **ESC** nebo tlačítko **'''Cancel'''** pro ukončení aktuálního příkazu B-křivka.
 -   B-křivky mohou v zobrazovacím módu \"Jednoduché čáry\" zobrazovat šrafovací vzory nastavením vlastnosti \"Vzor\" dole.

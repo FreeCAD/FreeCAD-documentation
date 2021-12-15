@@ -48,7 +48,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Apăsați butonul **<img src="images/Draft_Arc.png" width=16px> [Draft Arc](Draft_Arc/ro.md)
 ** button, or press **A** sau apăsați tastele **A** apoi **R**
-2.  Faceți clic pe un prim punct din vizualizarea 3D sau tastați un [coordinate](Draft_Coordinates/ro.md)
+2.  Faceți clic pe un prim punct din vizualizarea 3D sau tastați un coordinate
 3.  Faceți clic pe un al doilea punct din vizualizarea 3D sau introduceți o valoare de rază
 4.  Faceți clic pe un al treilea punct din vizualizarea 3D sau introduceți un unghi de pornire
 5.  Faceți clic pe un al patrulea punct din vizualizarea 3D sau introduceți un unghi final

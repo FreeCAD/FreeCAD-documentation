@@ -31,6 +31,9 @@
 
 Das obige Beispielbild zeigt zwei verschiedene Querschnittsformen. Im folgenden Text wird das Verfahren nur mit einer einzigen Form beschrieben. Dadurch wird ein Teil mit dem gleichen Querschnitt entlang des gesamten Pfades erreicht.
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Erstelle zwei separate Skizzen;
     -   eine für den Pfad, z.B. zwei Linien, die durch eine Kurve verbunden sind, wie im obigen Bild,
     -   eine für die Querschnittsform, z.B. ein Kreis als erste Form in der obigen Abbildung.
@@ -49,6 +52,9 @@ und Auswahl von Kanten in der 3D Ansicht ausgewählt werden. Beachte, dass du f�
 
 1.  Die anderen Einstellungen sollten in den meisten Fällen mit den Standardeinstellungen funktionieren.
 2.  Klicke auf **OK**.
+
+
+</div>
 
 Um mehr als einen Querschnitt zu verwenden, beginne mit der ersten Querschnittsskizze wie oben beschrieben. Stelle dann unter **Abschnittstransformation** den Transformationsmodus auf *Mehrfachabschnitt*; drücke **Abschnitt hinzufügen** und wähle dann eine Skizze in der [3D Ansicht](3D_view/de.md). Wiederhole diesen Vorgang für jeden zusätzlichen Querschnitt.
 
@@ -112,7 +118,7 @@ Um mehr als einen Querschnitt zu verwenden, beginne mit der ersten Querschnittss
 
 -    {{PropertyData/de|Transformation}}: \'\' Constant \'\' verwendet einen einzelnen Querschnitt. \'\' Multisection \'\' verwendet zwei oder mehr Querschnitte. \'\' Linear \'\', \'\' S-Form \'\' und \'\' Interpolation \'\' sind zur Zeit nicht funktionsfähig.
 
-## Begrenzungen
+## Notes
 
 
 <div class="mw-translate-fuzzy">

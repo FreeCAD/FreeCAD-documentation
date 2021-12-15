@@ -1,11 +1,14 @@
-# Ship Geometries Examples/ru
 ---
 - GuiCommand:/ru
-   Name:Ship Load‏‎ Example 
-   Name/ru:Ship Load‏‎ Example 
+   Name:Ship Load
+   Name/ru:Ship Load
    MenuLocation:Ship design → Загрузить пример геометрии судна
    Workbenches:[Ship](Ship_Workbench/ru.md)
-   Shortcut:   SeeAlso:---
+   Shortcut:
+   SeeAlso:
+---
+
+# Ship Geometries Examples/ru
 
 
 </div>

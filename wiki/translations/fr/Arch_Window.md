@@ -39,7 +39,7 @@ Toutes les informations applicables à une [fenêtre](Arch_Window.md) s\'appliqu
 
 **Remarque:**
 
-Si vous installez la \"Parts Library\" à partir de [Gestionnaire d\'Addon](AddonManager/fr.md), l\'outil recherchera des préréglages supplémentaires dans cette bibliothèque. Ces préréglages sont des fichiers FreeCAD contenant une seule fenêtre basée sur une esquisse paramétrique ayant des contraintes nommées. Vous pouvez placer des préréglages supplémentaires dans le répertoire `parts_library` de manière à ce qu\'ils soient trouvés par l\'outil Fenêtre.
+Si vous installez \"Parts Library\" à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md), l\'outil recherchera des préréglages supplémentaires dans cette bibliothèque. Ces préréglages sont des fichiers FreeCAD contenant une seule fenêtre basée sur une esquisse paramétrique ayant des contraintes nommées. Vous pouvez placer des préréglages supplémentaires dans le répertoire `parts_library` de manière à ce qu\'ils soient trouvés par l\'outil Fenêtre.
 
 
 ```python

@@ -612,10 +612,6 @@ The following tools can be used the change the effect of constraints:
 
 ### 教程
 
--   [草图编辑器教程](Sketcher_Tutorial/zh-cn.md)
--   [草图编辑器教程为初学者](Sketcher_tutorial/zh-cn.md)
--   [草图编辑器微教程 - 约束实践](Sketcher_Micro_Tutorial_-_Constraint_Practices/zh-cn.md)
-
 
 </div>
 

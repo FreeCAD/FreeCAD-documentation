@@ -2,34 +2,35 @@
 {{Macro
 |Name=Toggle Visibility
 |Icon=Macro SelectVisible.png
-|Description=Flip/Flop Hidden/Display all objects not selected.<br />objects that are selected in a document are made visible while objects that are not selected are made invisible<br />if no objects are selected then all objects are hidden<br />if all objects are selected then all objects are made visible
+|Description=Toggling Hidden/Display all objects not selected.<br />objects that are selected in a document are made visible while objects that are not selected are made invisible.<br />if no objects are selected then all objects are hidden.<br />if all objects are selected then all objects are made visible.
 |Author=Mario52
 |Version=00.02
 |Date=2015-11-12
 |FCVersion=All
 |Download=[https://www.freecadweb.org/wiki/images/4/42/Macro_SelectVisible.png ToolBar Icon]
-|SeeAlso=[Macro_Toggle_Visibility2](Macro_Toggle_Visibility2.md)<br />[Macro VisibleAlls](Macro_VisibleAlls.md)<br />[Macro HiddenAlls](Macro_HiddenAlls.md)<br />[Macro If Selected Stay If Not Then Delete](Macro_If_Selected_Stay_If_Not_Then_Delete.md)
+|SeeAlso=[Macro Toggle Visibility2 1-2](Macro_Toggle_Visibility2_1-2.md)<br>[Macro Toggle Visibility2 2-2](Macro_Toggle_Visibility2_2-2.md)<br>[Macro VisibleAlls](Macro_VisibleAlls.md)<br>[Macro HiddenAlls](Macro_HiddenAlls.md)<br>[Macro If Selected Stay If Not Then Delete](Macro_If_Selected_Stay_If_Not_Then_Delete.md)
 }}
 
 ## Description
 
-1.  objects that are selected in a document are made visible while objects that are not selected are made invisible
-    -   if no objects are selected then all objects are hidden
-    -   if all objects are selected then all objects are made visible
+Objects that are selected in a document are made visible while objects that are not selected are made invisible.
+
+-   if no objects are selected then all objects are hidden
+-   if all objects are selected then all objects are made visible
 
 ## How To Use 
 
 Copy the macro and the icon in your folder macros and run (see [How to install macros](How_to_install_macros.md))
 
-## ToggleVisibility
+## Toggle Visibility 
 
 Using the selection of objects in the one of the FreeCAD views, this macro makes all selected objects visible and hides all objects which are not selected.
 
-If no object(s) are selected then all objects are hidden
+If no object(s) are selected then all objects are hidden.
 
-If all objects are hidden and there is no selection in ComboView then all object are made visible
+If all objects are hidden and there is no selection in ComboView then all object are made visible.
 
-This version new version (00.02) include the tree macro in one
+This version new version (00.02) include the tree macro in one.
 
 ## Script
 

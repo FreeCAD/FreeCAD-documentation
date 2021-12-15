@@ -7,8 +7,9 @@
 |Author=Mario52
 |Version=0.4
 |Date=2019-06-19
-|FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/a/a7/MEpipe01.png MEpipe01]<br />
+|FCVersion=Toutes
+|Download=<br />
+[https://www.freecadweb.org/wiki/images/a/a7/MEpipe01.png MEpipe01]<br />
 [https://www.freecadweb.org/wiki/images/5/5b/MEpipe02.png MEpipe02]<br />
 [https://www.freecadweb.org/wiki/images/e/e4/MEPlan.png MEPlan]<br />
 [https://www.freecadweb.org/wiki/images/3/30/MEPlanD.png MEPlanD]<br />
@@ -17,50 +18,48 @@
 [https://www.freecadweb.org/wiki/images/f/f2/MEPlanI.png MEPlanI]<br />
 [https://www.freecadweb.org/wiki/images/e/e6/MEPlanFC.png MEPlanFC]<br />
 [https://www.freecadweb.org/wiki/images/d/d2/MEPlanPY.png MEPlanPY]
-|SeeAlso=[Dialog_creation](Dialog_creation.md)}}
+|SeeAlso=[Création d'une boite de dialogue](Dialog_creation/fr.md)}}
 
-Cette macro est un exemple d\'utilisation des principales commandes de la fenêtre d\'une macro ; ici sont traités les extractions de données et l\'affectation de données.
+Cette macro est un exemple d\'utilisation des commandes Qt pour les connexions, l\'extraction et l\'affectation des données.
 
-
-<center>
-
-Image:Qt\_Example\_00.png\|Qt exemple Image:Qt\_Example\_01.png\|Details des exemples
-
-
-</center>
+Image:Qt\_Example\_00.png\|Exemple Qt Image:Qt\_Example\_01.png\|Details des exemples
 
 Sont traités :
 
-1.  **icon for window** : l\'icône affiché sur le coin supérieur gauche de la fenêtre principale
-2.  **horizontalSlider** : horizontal slider sa connexion et extraction / affectation de données
-3.  **progressBar horizontal** : progress bar horizontal sa connexion et extraction / affectation de données
-4.  **verticalSlider** : vertical slider sa connexion et extraction / affectation de données
-5.  **progressBar vertical** : progress bar verticale sa connexion et extraction / affectation de données
-6.  **lineEdit** : line edit sa connexion et extraction / affectation de données
-7.  **lineEdit** :
-8.  **doubleSpinBox** : double spinbox sa connexion et extraction / affectation de données
+1.  **icon for window** : l\'icône affiché sur la fenêtre principale
+2.  **horizontalSlider** : curseur horizontal, sa connexion et extraction de données / affectation
+3.  **progressBar horizontal** : barre de progression horizontale, sa connexion et extraction de données / affectation
+4.  **verticalSlider** : curseur vertical, sa connexion et son extraction de données / affectation
+5.  **progressBar vertical** : barre de progression verticale, sa connexion et son extraction de données / affectation
+6.  **lineEdit** : édition de ligne, sa connexion et extraction de données / affectation
+7.  **lineEdit** : édition de ligne, sa connexion et extraction de données / affectation
+8.  **doubleSpinBox** : double spinbox sa connexion et extraction de données / affectation
 9.  **doubleSpinBox** :
 10. **doubleSpinBox** :
-11. **buttom** : buttom et sa connexion
-12. **buttom** :
-13. **radioButtom** : radio button avec icône sa connexion checked
-14. **checkBox** : checkbox with avec icône sa connexion checked and unchecked
-15. **textEdit** : text edit sa connexion et extraction / affectation de données
-16. **graphicsView** : graphic view avec 2 images et la méthode pour changer d\'image
+11. **button** : bouton, sa connexion
+12. **button** :
+13. **radioButton** : bouton radio avec icônes, sa connexion et coché
+14. **checkBox** : case à cocher avec son icône de connexion cochée et non cochée.
+15. **textEdit** : édition de texte avec sa connexion et extraction de données / affectation
+16. **graphicsView** : vue graphique avec 2 graphiques et méthode utilisée pour changer l\'image.
 
-Les outils utilisés sont : [python-2.7.8](https://www.python.org/downloads/)
+Les outils utilisés sont :
+
+[python-2.7.8](https://www.python.org/downloads/)
 
 [PyQt4-4.11.4-gpl-Py2.7-Qt4.8.7-x32](https://riverbankcomputing.com/software/pyqt/download)
 
 Pour convertir votre fichier .ui en .py vous devez utiliser **pyuic.py** qui est dans \"C:\\Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" (pour Windows)
 
-vous pouvez créer un fichier convertuitopy.bat pour automatiser la procédure \'\'\'1: \'\'\'créer un nouveau fichier dans votre répertoire de travail Qt et nommez le en convertuitopy.bat
+vous pouvez créer un fichier convertuitopy.bat pour automatiser la procédure :
+
+\'\'\'1: \'\'\'créer un nouveau fichier dans votre répertoire de travail Qt et nommez le en **convertuitopy.bat**
 
 \'\'\'2: \'\'\'éditez le fichier et collez y cette ligne:
 
 **@\"C:\\Python27\\python\" \"C:\\Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" -x %1.ui \> %1.py**
 
-\'\'\'3: \'\'\'puis dans une console Dos faites convertuitopy monprojet (ne pas donner d\'extension la commande l\'ajoute automatiquement )
+\'\'\'3: \'\'\'puis dans une console Dos faites **convertuitopy myproject** (ne pas donner d\'extension la commande l\'ajoute automatiquement)
 
 \'\'\'4: \'\'\'votre fichier monprojet.py est créé
 
@@ -68,7 +67,9 @@ vous pouvez créer un fichier convertuitopy.bat pour automatiser la procédure \
 
 ![](images/MEpipe01.png ) ![](images/MEpipe02.png ) ![](images/MEPlan.png ) ![](images/MEPlanD.png ) ![](images/MEPlanF.png ) ![](images/MEPlanT.png ) ![](images/MEPlanI.png )
 
-![](images/MEPlanFC.png ) ![](images/MEPlanPY.png ) Vous devez copier les images dans le même répertoire que la macro , ici :
+![](images/MEPlanFC.png ) ![](images/MEPlanPY.png )
+
+Vous devez copier les images dans le même répertoire que la macro , ici :
 
 Linux : \"**home/user/.FreeCAD/Macro**\"
 
@@ -76,10 +77,7 @@ Windows : \"**C:\\Users\\UserName\\AppData\\Roaming\\FreeCAD\\Macro**\"
 
 ## Script
 
-The contents of the file **Qt\_Example.FCMacro** are given below:
-
-
-
+Le contenu du fichier **Qt\_Example.FCMacro** est donné ci-dessous :
 
 
 {{MacroCode|code=
@@ -791,8 +789,6 @@ MainWindow = QtGui.QMainWindow()
 ui = Ui_MainWindow()
 ui.setupUi(MainWindow)
 MainWindow.show()
-
-
 }}
 
 Bon amusement.

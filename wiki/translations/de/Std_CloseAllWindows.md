@@ -4,7 +4,7 @@
    Name/de:Std Alles schließen
    MenuLocation:Datei → Alles schließen
    Workbenches:Alle
-   SeeAlso:[Schließen](Std_CloseActiceWindow/de.md)
+   SeeAlso:[Schließen](Std_CloseActiveWindow/de.md)
 ---
 
 # Std CloseAllWindows/de
@@ -31,7 +31,7 @@ Wähle **Datei** → **Alles schließen** aus der Menüleiste.
 
 ## Hinweise
 
--   Ein Dokument kann auch geschlossen werden, indem es in der [Baumansicht](Tree_View/de.md) mit einem Rechtsklick ausgewählt und **Dokument schließen** aus dem Kontextmenü benutzt wird.
+-   Ein Dokument kann auch geschlossen werden, indem es in der [Baumansicht](Tree_view/de.md) mit einem Rechtsklick ausgewählt und **Dokument schließen** aus dem Kontextmenü benutzt wird.
 
 ## Einstellungen
 

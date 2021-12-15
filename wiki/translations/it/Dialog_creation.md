@@ -1,11 +1,20 @@
 # Dialog creation/it
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/it|[Funzione per disegnare linee](Line_drawing_function/it.md)|[Licenza](Licence/it.md)}}
+
+
+</div>
+
+
 {{TOCright}}
 
 ## Introduzione
 
 In questa pagina mostreremo come creare una semplice interfaccia grafica con _, quindi verrà utilizzata all\'interno di FreeCAD. Si assume che l\'utente sappia come scrivere ed eseguire [Python](Python/it.md) in generale.
 
-In this example, the entire interface is defined in [Python](Python.md). Although this is possible for small interfaces, for larger interfaces the recommendation is to load the created {{FileName|.ui}} files directly into the program. See [Interface creation with UI files](Interface_creation_with_UI_files.md) for more information.
+In this example, the entire interface is defined in [Python](Python.md). Although this is possible for small interfaces, for larger interfaces the recommendation is to load the created {{FileName|.ui}} files directly into the program.
 
 <img alt="" src=images/FreeCAD_creating_interfaces.svg  style="width:600px;"> 
 *Due metodi generali per creare delle interfacce, includendo l'interfaccia nel file Python o usando i file `.ui*.`
@@ -273,12 +282,20 @@ class plane():
 ## Link utili 
 
 -   _
--   [Interface creation with UI files](Interface_creation_with_UI_files.md)
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/it|[Funzione per disegnare linee](Line_drawing_function/it.md)|[Licenza](Licence/it.md)}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

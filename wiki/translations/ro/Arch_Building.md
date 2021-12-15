@@ -53,7 +53,7 @@ Clădirea Arch este un tip special de obiect al grupului FreeCAD, care este spec
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul pentru Construcție poate fi utilizat în [macro-uri](macro-uri.md) și din consola Python utilizând următoarea funcție:
+Instrumentul pentru Construcție poate fi utilizat în [macro-uri](Macros/ro.md) și din consola Python utilizând următoarea funcție:
 
 
 </div>

@@ -4,7 +4,7 @@
    Name/de:Entwurf Spezial
    MenuLocation:Entwurf→ [Fang](Draft_Snap/de.md) → Spezial
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[Fang](Draft_Snap/de.md), [Fang Umschalten](Draft_ToggleSnap/de.md)
+   SeeAlso:[Fang](Draft_Snap/de.md), [Fang Umschalten](Draft_Snap_Lock/de.md)
    Version:0.17
 ---
 
@@ -42,7 +42,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 <div class="mw-translate-fuzzy">
 
-1.  Stelle sicher, dass **<img src="images/Snap_Lock.svg" width=16px> [Draft UmschaltenFang](Draft_ToggleSnap/de.md)** und **<img src="images/Snap_Special.svg" width=16px> [Fang Spezial](Draft_Special/de.md)** eingeschaltet sind.
+1.  Stelle sicher, dass **<img src="images/Draft_Snap_Lock.svg" width=16px> [Draft UmschaltenFang](Draft_Snap_Lock/de.md)** und **<img src="images/Draft_Snap_Special.svg" width=16px> [Fang Spezial](Draft_Snap_Special/de.md)** eingeschaltet sind.
 2.  Wähle ein Entwurfswerkzeug zum Zeichnen einer Form.
 3.  Bewege den Mauszeiger über ein spezielles Objekt, z.B. eine <img alt="" src=images/Arch_Wall.svg  style="width:24px;"> [Arch Wand](Arch_Wall/de.md).
 4.  Ein kleiner weißer Kreis zeigt den speziellen Punkt an, an dem dein neuer Punkt angebracht wird.
@@ -60,15 +60,6 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 ## Preferences
 
 See [Draft Snap](Draft_Snap#Preferences.md).
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Special/de

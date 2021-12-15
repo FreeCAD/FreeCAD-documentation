@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
    Name:Arch CompRebarStraight
+   Name/de:Arch CompRebarStraight
    MenuLocation:Architektur → Bewehrungswerkzeuge
    Workbenches:[Architektur](Arch_Workbench/de.md), [BIM](BIM_Workbench/de.md)
    Version:0.17
@@ -12,7 +13,13 @@
 
 Das Bewehrungszusatzmodul erweitert die [Architektur Arbeitsbereich](Arch_Workbench/de.md) um neue Schnittstellen und Voreinstellungen für die Erstellung gängiger Bewehrungstypen zur Verwendung mit [Architektur Strukturen](Arch_Structure/de.md). Es ist außerdem im externen Arbeitsbereich [BIM](BIM_Workbench/de.md) integriert.
 
-Die Werkzeuge können mit dem [Erweiterungsmanager](Addon_Manager/de.md) über das Menü {{MenuCommand/de|Werkzeuge → Addon Manager → Bewehrung}} installiert werden. FreeCAD muss neu gestartet werden, damit die neuen Werkzeuge unter der **<img src="images/Arch_CompRebarStraight.svg" width=16px> [Arch Bewehrung](Arch_Rebar/de.md)**-Schaltfläche erscheinen.
+
+<div class="mw-translate-fuzzy">
+
+Die Werkzeuge können mit dem [Erweiterungsmanager](Std_AddonMgr/de.md) über das Menü {{MenuCommand/de|Werkzeuge → Addon Manager → Bewehrung}} installiert werden. FreeCAD muss neu gestartet werden, damit die neuen Werkzeuge unter der **<img src="images/Arch_CompRebarStraight.png" width=16px> [Arch Bewehrung](Arch_Rebar/de.md)**-Schaltfläche erscheinen.
+
+
+</div>
 
 Diese Erweiterung wurde während des [Google Summer of Code](Google_Summer_of_Code.md) 2017 entwickelt, und wird im Github Repositorium [FreeCAD Armierung](https://github.com/amrit3701/FreeCAD-Reinforcement) Github bereitgestellt, das vom Haupt Repositorium von FreeCAD getrennt ist.
 

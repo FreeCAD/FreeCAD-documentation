@@ -51,7 +51,7 @@ Per comodità gli strumenti di Flamingo e Dodo sono raggruppati in tre barre di 
 
 <div class="mw-translate-fuzzy">
 
-Questo ambiente è facile da installare e aggiornare dal [Addon Manager](Addon_Manager/it.md) disponibile in FreeCAD 0.17 e superiore. Per gli utenti di FreeCAD 0.16 e per altri metodi di installazione, fare riferimento alla pagina [Installare componenti aggiuntivi](Installing/it#Installare_componenti_aggiuntivi.md). In particolare, la pagina di download di GitHub contiene le istruzioni per l\'installazione: scaricare il file Zip, decomprimere e posizionare la cartella di flamingo-master nella propria directory {{FileName|.FreeCAD/Mod}}. Se la directory {{FileName|/Mod}} non esiste, crearla con **Crea nuova cartella** su Ubuntu.
+Questo ambiente è facile da installare e aggiornare dal [Addon Manager](Std_AddonMgr/it.md) disponibile in FreeCAD 0.17 e superiore. Per gli utenti di FreeCAD 0.16 e per altri metodi di installazione, fare riferimento alla pagina [Installare componenti aggiuntivi](Installing/it#Installare_componenti_aggiuntivi.md). In particolare, la pagina di download di GitHub contiene le istruzioni per l\'installazione: scaricare il file Zip, decomprimere e posizionare la cartella di flamingo-master nella propria directory {{FileName|.FreeCAD/Mod}}. Se la directory {{FileName|/Mod}} non esiste, crearla con **Crea nuova cartella** su Ubuntu.
 
 
 </div>

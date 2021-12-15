@@ -10,7 +10,7 @@
 
 ## First Steps 
 
-We will be working in the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) - select it from menus via **View → Workbench → Part** or from the [Workbench Selector](Workbench_Selector.md).
+We will be working in the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) - select it from menus via **View → Workbench → Part** or from the [Workbench Selector](Std_Workbench.md).
 
 -   Create a new empty document.
 -   Switch to <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [isometric view](Std_ViewIsometric.md).
@@ -96,12 +96,7 @@ Here\'s some more suggestions for playing with the Aeroplane:
 
 I hope this little tutorial has helped you to get a feel for rotations.
 
-
-
-
-{{Tutorials navi
-
-}}
+ {{Tutorials navi}}
 
 ---
 [documentation index](../README.md) > Aeroplane

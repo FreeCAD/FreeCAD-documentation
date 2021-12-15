@@ -84,7 +84,7 @@ Această decizie se face numai pentru nucleul sistemul FreeCAD. Fiecare scriitor
 </div>
 
 
- 
+
 
 _
 

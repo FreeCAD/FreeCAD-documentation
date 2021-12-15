@@ -16,11 +16,17 @@ Pomozi u stvaranju, ispravci i proširenju dokumentacije. Ispravi greške, proš
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Par područja koja bi pozdravila vaš rad:
 
 -   Na stranici _ su popisane i dokumentirane sve FreeCAD [naredbes](command/hr.md). Većina ih sadrži malo ili nimalo informacija. Molimo pogledajte [Wiki stranice](WikiPages/hr.md) za dobre primjere kako trebaju izgledati stranice naredbene dokumentacije.
 -   U odjeljku [Vježbe](Tutorials/hr.md) potrebni su primjeri kako koristiti radne površine. Ako ste razvili nešto super s FreeCAD-om, zašto ne dokumentirati kako ste to učinili za potomstvo?
--   Na FreeCAD [bugtracker](bugtracker/hr.md) postoje otvorene karte s oznakom [\"dokumentacija\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) koje bi mogli koristiti sa ljubavlju za stvaranjem uputstava.
+-   Na FreeCAD [bugtracker](Tracker/hr.md) postoje otvorene karte s oznakom [\"dokumentacija\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) koje bi mogli koristiti sa ljubavlju za stvaranjem uputstava.
+
+
+</div>
 
 ### Dijelite svoje znanje o FreeCAD-u 
 
@@ -43,7 +49,7 @@ Za detalje prevođenja pogledaj [Localisation](Localisation/hr.md).
 
 Prevođenje je jednostavno, wiki FreeCAD podržava dodatak za prijevod koji vam omogućuje prevođenje osnovne stranice engleskog jezika na druge jezike.
 
-Pojedinosti o prijevodu potražite u [Localization \# Translating wiki](Localization_#_Translating_wiki.md).
+Pojedinosti o prijevodu potražite u [Localisation/hr\#Prevedite\_FreeCAD\_dokumentacija](Localisation/hr#Prevedite_FreeCAD_dokumentacija.md).
 
 Molimo vas budite sigurni da ste upoznati s osnovama wiki markiranja; pogledajte _ za referencu.
 

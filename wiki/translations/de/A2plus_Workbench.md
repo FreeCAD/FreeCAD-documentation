@@ -84,7 +84,7 @@ Wähle eine kreisförmige [Kante](Glossary/de#Edge.md) bei beiden Teilen aus. Di
 
 #### Achsdeckungsgleich
 
-Wähle entweder eine zylindrische [Fläche](Glossar/de#Face.md) oder eine lineare [Kante](Glossar/de#Edge.md) auf beiden Teilen. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_AxialConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|AchseDeckungsgleich}} hinzu. Der Dialog Beschränkung erlaubt dir die Achsenrichtung anzugeben. Der Dialog ermöglicht es dir außerdem, die Drehung der Teile zu sperren. Durch die Beschränkung werden die Achsen oder Linien deckungsgleich.
+Wähle entweder eine zylindrische [Fläche](Glossary/de#Face.md) oder eine lineare [Kante](Glossary/de#Edge.md) auf beiden Teilen. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_AxialConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|AchseDeckungsgleich}} hinzu. Der Dialog Beschränkung erlaubt dir die Achsenrichtung anzugeben. Der Dialog ermöglicht es dir außerdem, die Drehung der Teile zu sperren. Durch die Beschränkung werden die Achsen oder Linien deckungsgleich.
 
 #### Achsparallel
 
@@ -92,31 +92,31 @@ Wähle bei beiden Teilen jeweils entweder eine zylindrische [Fläche](Glossary/d
 
 #### Achse auf Ebene parallel 
 
-Wähle entweder ein zylindrisches [Fläche](Glossar/de#Face.md) oder eine lineare [Kante](Glossar/de#edge.md) auf einem Teil und eine Ebene auf dem anderen Teil. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_AxisPlaneParallelConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable/de|AchseEbeneParallel}} hinzu. Die Beschränkung macht die Achse oder Linie parallel zur Ebene.
+Wähle entweder ein zylindrisches [Fläche](Glossary/de#Face.md) oder eine lineare [Kante](Glossary/de#edge.md) auf einem Teil und eine Ebene auf dem anderen Teil. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_AxisPlaneParallelConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|AchseEbeneParallel}} hinzu. Die Beschränkung macht die Achse oder Linie parallel zur Ebene.
 
 #### Achse normal auf Ebene 
 
-Wähle entweder ein zylindrisches [Fläche](Glossar/de#Face.md) oder eine lineare [Kante](Glossar/de#edge.md) auf einem Teil und eine Ebene auf dem anderen Teil. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_AxisPlaneNormalConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable/de|AchseEbeneNormal}} hinzu. Durch die Beschränkung wird die Achse oder Linie normal zur Ebene gemacht.
+Wähle entweder ein zylindrisches [Fläche](Glossary/de#Face.md) oder eine lineare [Kante](Glossary/de#edge.md) auf einem Teil und eine Ebene auf dem anderen Teil. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_AxisPlaneNormalConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|AchseEbeneNormal}} hinzu. Durch die Beschränkung wird die Achse oder Linie normal zur Ebene gemacht.
 
 #### Achse im Winkel zu Ebene 
 
-Wähle entweder eine zylindrische [Fläche](Glossar/de#Face.md) oder eine lineare [Kante](Glossar/de#edge.md) auf einem Teil und eine Ebene auf dem anderen Teil.Mit der Werkzeugleistenschaltfläche <img alt="" src=images/A2p_AxisPlaneAngleConstraint.svg  style="width:24px;"> wird die Beschränkung {{Variable/de|AchseEbeneWinkel}} hinzugefügt. Die Beschränkung macht die Achse zunächst parallel zur Ebene. Dann kannst du den Winkel für die Achse im erscheinenden Dialogfeld für die Beschränkungseinstellungen anpassen.
+Wähle entweder eine zylindrische [Fläche](Glossary/de#Face.md) oder eine lineare [Kante](Glossary/de#edge.md) auf einem Teil und eine Ebene auf dem anderen Teil.Mit der Werkzeugleistenschaltfläche <img alt="" src=images/A2p_AxisPlaneAngleConstraint.svg  style="width:24px;"> wird die Beschränkung {{Variable|AchseEbeneWinkel}} hinzugefügt. Die Beschränkung macht die Achse zunächst parallel zur Ebene. Dann kannst du den Winkel für die Achse im erscheinenden Dialogfeld für die Beschränkungseinstellungen anpassen.
 
 #### Ebene parallel 
 
-Wähle eine Ebene auf beiden Teilen aus. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_PlanesParallelConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable/de|EbenenParallel}} hinzu. Im Dialogfeld Beschränkung kannst du die Richtung der Beschränkung angeben. Durch die Beschränkung werden die Ebenen parallel gemacht.
+Wähle eine Ebene auf beiden Teilen aus. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_PlanesParallelConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|EbenenParallel}} hinzu. Im Dialogfeld Beschränkung kannst du die Richtung der Beschränkung angeben. Durch die Beschränkung werden die Ebenen parallel gemacht.
 
 #### Ebene auf Ebene 
 
-Wähle eine Ebene auf beiden Teilen aus. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_PlaneCoincidentConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable/de|EbeneDeckungsgleich}} hinzu. Im Dialogfeld Beschränkung kannst du eine Beschränkungsrichtung und einen Versatz zwischen den Ebenen angeben. Dieser Versatz kann auch umgedreht werden. Wenn der Versatz gleich Null ist, bewirkt die Beschränkung, dass die Ebenen zusammenfallen.
+Wähle eine Ebene auf beiden Teilen aus. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_PlaneCoincidentConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|EbeneDeckungsgleich}} hinzu. Im Dialogfeld Beschränkung kannst du eine Beschränkungsrichtung und einen Versatz zwischen den Ebenen angeben. Dieser Versatz kann auch umgedreht werden. Wenn der Versatz gleich Null ist, bewirkt die Beschränkung, dass die Ebenen zusammenfallen.
 
 #### Ebene Winklig 
 
-Wähle eine Ebene auf beiden Teilen aus. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_AngleConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable/de|winkligeEbenen}} hinzu. Im Dialogfeld Beschränkung kannst du einen Winkel zwischen den Ebenen angeben. Durch die Beschränkung werden die Ebenen zunächst parallel, und der angegebene Winkel wird festgelegt.
+Wähle eine Ebene auf beiden Teilen aus. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_AngleConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|winkligeEbenen}} hinzu. Im Dialogfeld Beschränkung kannst du einen Winkel zwischen den Ebenen angeben. Durch die Beschränkung werden die Ebenen zunächst parallel, und der angegebene Winkel wird festgelegt.
 
 #### Deckungsgleichheit im Massenschwerpunkt 
 
-Wähle entweder eine geschlossene [Kante](Glossar/de#Edge.md) oder eine Ebene auf beiden Teilen. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_CenterOfMassConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable/de|Massenschwerpunkt}} hinzu. Im Dialogfeld Beschränkung kannst du einen Versatz zwischen den Kanten oder Ebenen angeben. Dieser Versatz kann auch umgedreht werden. Außerdem kannst du die Beschränkungsrichtung festlegen und die Drehung der Teile sperren. Wenn der Versatz gleich Null ist, setzt die Beschränkung die Kanten oder Ebenen auf dieselbe Ebene.
+Wähle entweder eine geschlossene [Kante](Glossary/de#Edge.md) oder eine Ebene auf beiden Teilen. Die Werkzeugleistenschaltfläche <img alt="" src=images/A2p_CenterOfMassConstraint.svg  style="width:24px;"> fügt die Beschränkung {{Variable|Massenschwerpunkt}} hinzu. Im Dialogfeld Beschränkung kannst du einen Versatz zwischen den Kanten oder Ebenen angeben. Dieser Versatz kann auch umgedreht werden. Außerdem kannst du die Beschränkungsrichtung festlegen und die Drehung der Teile sperren. Wenn der Versatz gleich Null ist, setzt die Beschränkung die Kanten oder Ebenen auf dieselbe Ebene.
 
 ### Unterbaugruppen
 

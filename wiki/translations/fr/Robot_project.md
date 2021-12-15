@@ -8,7 +8,7 @@ Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
 
 {{TOCright}}
 
-Cet _.
+Ce _.
 
 ## Buts et principles 
 

@@ -60,7 +60,7 @@ FreeCAD supports several third party software packages out of the box. In many c
 
 ### GitPython
 
-O bibliotecă python care este utilizată pentru a interacționa cu depozitele Git. Această funcție este în prezent în stare de dezvoltare în FreeCAD. Managerul [ Addon Manager](Addon_Manager.md) poate folosi această bibliotecă pentru a importa add-on-uri dintr-un depozit Git. Proiectul este găzduit pe GitHub la adresa <https://github.com/gitpython-developers/GitPython>.
+O bibliotecă python care este utilizată pentru a interacționa cu depozitele Git. Această funcție este în prezent în stare de dezvoltare în FreeCAD. Managerul [Addon Manager](Std_AddonMgr.md) poate folosi această bibliotecă pentru a importa add-on-uri dintr-un depozit Git. Proiectul este găzduit pe GitHub la adresa <https://github.com/gitpython-developers/GitPython>.
 
 
 </div>

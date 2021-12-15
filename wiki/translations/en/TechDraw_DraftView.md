@@ -17,7 +17,7 @@ The <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> _ tool, 
 
 ## Usage
 
-1.  Select a draft object in the 3D view or in the tree
+1.  Select a Draft object in the 3D view or in the tree
 2.  If you have multiple drawing pages in your document, you will need to select the desired page in the tree.
 3.  Press the **<img src="images/TechDraw_DraftView.svg" width=16px> [Insert Draft Workbench Object](TechDraw_DraftView.md)** button
 4.  A view of the draft object will appear on the page.
@@ -28,7 +28,7 @@ The DraftView is rendered within the [Draft Workbench](Draft_Workbench.md), ther
 
 ## Options
 
--   Creating a Draft View of a layer will recursively handle all objects found in that layer. The View is updated automatically when the contents of the layer changes
+-   Creating a DraftView of a layer will recursively handle all objects found in that layer. The View is updated automatically when the contents of the layer changes
 -   There is no hidden line removal. Each face found in the handled object(s) will simply be projected along the Direction vector, no specific action is taken when faces overlap
 -   The Draft View also supports all Draft objects that are not Part-based, such as dimensions and texts
 -   Color, line width and line pattern can be specified in the properties. Line patterns can be fine-tuned by directly giving a [stroke-dasharray](https://www.w3.org/TR/SVG/painting.html#StrokeProperties) value, such as 3,5
@@ -36,7 +36,7 @@ The DraftView is rendered within the [Draft Workbench](Draft_Workbench.md), ther
 
 ## Properties
 
--    **Source**: The draft object to be displayed
+-    **Source**: The Draft object to be displayed
 
 -    **LineWidth**: The width of the lines, independently of the scale
 
@@ -50,7 +50,7 @@ The DraftView is rendered within the [Draft Workbench](Draft_Workbench.md), ther
 
 -    **LineSpacing**: The spacing to use between lines of texts for multiline texts
 
-Note: DraftView inherits all applicable basic View properties.
+Note: Draft View inherits all applicable basic View properties.
 
 ## Scripting
 

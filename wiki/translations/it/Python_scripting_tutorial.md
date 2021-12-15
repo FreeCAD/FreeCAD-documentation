@@ -1,4 +1,13 @@
 # Python scripting tutorial/it
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/it|[Introduzione a Python](Introduction_to_Python/it.md)|[Basi di Script in FreeCAD](FreeCAD_Scripting_Basics/it.md)}}
+
+
+</div>
+
+
 {{TOCright}}
 
 ## Introduction
@@ -101,7 +110,8 @@ In questo tutorial si utilizzeranno entrambi i metodi, sia il copia/incolla di o
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -246,7 +256,8 @@ Provate a cambiare le altre dimensioni del box.
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -293,9 +304,7 @@ otherpla = FreeCAD.Placement()
 box.Placement = otherpla
 ```
 
-Prima di continuare, si devono vedere un paio di concetti importanti.
-
-[top](#top.md)
+Prima di continuare, si devono vedere un paio di concetti importanti. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -353,7 +362,8 @@ FreeCAD.ActiveDocument e FreeCADGui.ActiveDocument non sono la stessa cosa. Essi
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -402,9 +412,7 @@ import Part
 Part.
 ```
 
-Ma parleremo più avanti del modulo Parte.
-
-[top](#top.md)
+Ma parleremo più avanti del modulo Parte. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -452,9 +460,7 @@ Questo è un esempio standard, che utilizza il metodo createSphere() per creare 
 
 </div>
 
-Per ulteriori informazioni leggere [ Script per Mesh\...](Mesh_Scripting/it.md)
-
-[top](#top.md)
+Per ulteriori informazioni leggere [ Script per Mesh\...](Mesh_Scripting/it.md) {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -521,7 +527,8 @@ Esplorando il contenuto di myShape, noterete che sono disponibili vari sotto-com
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -556,7 +563,8 @@ Draft.move(rec, mvec)
 Draft.move(box, mvec)
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -596,9 +604,7 @@ Qt è un sistema di interfaccia molto potente, che permette di fare cose molto c
 
 </div>
 
-[Quì si trovano altre informazioni su PySide\...](PySide/it.md)
-
-[top](#top.md)
+[Quì si trovano altre informazioni su PySide\...](PySide/it.md) {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -626,12 +632,22 @@ Dirigetevi al [Centro degli utenti esperti](Power_users_hub/it.md)!
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/it|[Introduzione a Python](Introduction_to_Python/it.md)|[Basi di Script in FreeCAD](FreeCAD_Scripting_Basics/it.md)}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

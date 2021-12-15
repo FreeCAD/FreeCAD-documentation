@@ -27,7 +27,13 @@ Man kann entweder die Elemente auswählen und dann das Makro starten oder das Ma
 
 ## Code
 
+
+<div class="mw-translate-fuzzy">
+
 Die neueste Version des Makros ist zu finden auf _.
+
+
+</div>
 
 ToolBar Icon ![](images/Macro_MeasureCircle.png )
 

@@ -16,7 +16,7 @@ This macro positions an object perpendicularly to the selected wire.
 
 ## Usage
 
-1.  Install the macro via the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md)
+1.  Install the macro via the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md)
 2.  Select the path (may be an element or sub-element)
 3.  Select the object to align
 4.  Execute the macro

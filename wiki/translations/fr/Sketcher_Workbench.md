@@ -18,7 +18,7 @@ Pour décrire comment fonctionne l\'atelier Sketcher, il est utile de le compare
 
 #### Dessin traditionnel 
 
-La méthode traditionnelle de la DAO hérite de la technique de la _. Des _ sont dessinées manuellement afin de produire des dessins techniques (aussi appelés plans). Les éléments sont dessinées précisément à leur taille réelle (ou à l\'échelle). Si vous voulez dessiner une ligne horizontale de 100mm de longueur débutant aux coordonnées (0,0), il faut activer l\'outil ligne, cliquer à l\'écran ou saisir au clavier les coordonnées du premier point, puis faire une second clic ou saisir les coordonnées du second point, soit (0,100). Ou encore, vous pouvez dessiner la ligne sans vous soucier de sa position, pour la déplacer ensuite. Lorsque vous avez terminé votre dessin, vous ajoutez les cotes.
+La méthode traditionnelle de la DAO hérite de la technique de la [planche à dessin](https://fr.wikipedia.org/wiki/Planche_%C3%A0_dessin). Des [vues orthogonales](https://en.wikipedia.org/wiki/Multiview_orthographic_projection) sont dessinées manuellement afin de produire des dessins techniques (aussi appelés plans). Les éléments sont dessinées précisément à leur taille réelle (ou à l\'échelle). Si vous voulez dessiner une ligne horizontale de 100mm de longueur débutant aux coordonnées (0,0), il faut activer l\'outil ligne, cliquer à l\'écran ou saisir au clavier les coordonnées du premier point, puis faire une second clic ou saisir les coordonnées du second point, soit (0,100). Ou encore, vous pouvez dessiner la ligne sans vous soucier de sa position, pour la déplacer ensuite. Lorsque vous avez terminé votre dessin, vous ajoutez les cotes.
 
 #### L\'esquisse contrainte 
 
@@ -100,7 +100,7 @@ Ces outils permettent de créer des objets.
 
 :\* <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Cercle par 3 points](Sketcher_Create3PointCircle/fr.md) : dessine un cercle à partir de trois points sur la circonférence.
 
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;">_, [points sur l'objet](Sketcher_ConstrainPointOnObject/fr.md) ou [orthogonales](Sketcher_ConstrainPerpendicular/fr.md).
+-   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> _, [points sur l'objet](Sketcher_ConstrainPointOnObject/fr.md) ou [orthogonales](Sketcher_ConstrainPerpendicular/fr.md).
     -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse](Sketcher_CreateEllipseByCenter/fr.md) : dessine une ellipse à partir du centre, d\'un point sur le grand rayon et d\'un point sur le petit rayon.
     -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Ellipse par 3 points](Sketcher_CreateEllipseBy3Points/fr.md) : dessine une ellipse à partir du grand diametre (2 points) et d\'un point sur le petit rayon.
     -   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:32px;"> [Arc d\'ellipse](Sketcher_CreateArcOfEllipse/fr.md) : dessine une ellipse à partir du centre, d\'un point sur le grand rayon, avec un point de départ et un point d\'arrivée.
@@ -111,7 +111,7 @@ Ces outils permettent de créer des objets.
     -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [Créer une B-spline](Sketcher_CreateBSpline/fr.md) : Dessine une courbe B-spline par ses points de contrôle.
     -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Créer une B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md) : Dessine une courbe B-spline périodique (fermée) par ses points de contrôle.
 
--   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polyligne](Sketcher_CreatePolyline/fr.md) : dessine une ligne composée de plusieurs segments connectés entre eux. Appuyer sur la touche M pendant que la commande est active bascule entre plusieurs modes de polylignes.
+-   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polyligne](Sketcher_CreatePolyline/fr.md) : dessine une ligne composée de plusieurs segments connectés entre eux. Appuyer sur la touche **M** pendant que la commande est active bascule entre plusieurs modes de polylignes.
 
 -   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Créer des rectangles](Sketcher_CompCreateRectangles/fr.md) : Il s\'agit d\'un menu d\'icônes dans la barre d\'outils de Sketcher qui contient les commandes suivantes : {{Version/fr|0.20}}
 
@@ -244,7 +244,7 @@ Les outils suivants peuvent être utilisés pour modifier l\'effet des contraint
 
 -   <img alt="" src=images/Sketcher_Move.svg  style="width:32px;"> [Déplacer](Sketcher_Move/fr.md): déplace la géométrie sélectionnée en prenant comme référence le dernier point sélectionné.
 
--   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Matrice rectangulaire](Sketcher_RectangularArray/fr.md) : crée une matrice à partir des éléments sélectionnés.
+-   <img alt="" src=images/Sketcher_RectangularArray.svg  style="width:32px;"> [Réseau rectangulaire](Sketcher_RectangularArray/fr.md) : crée une réseau à partir des éléments sélectionnés.
 
 -   <img alt="" src=images/Sketcher_RemoveAxesAlignment.svg  style="width:32px;"> [Supprimer l\'alignement des axes](Sketcher_RemoveAxesAlignment/fr.md) : supprime l\'alignement des axes tout en essayant de préserver la relation de contrainte de la sélection. {{Version/fr|0.20}}.
 

@@ -2,10 +2,10 @@
 - GuiCommand:
    Name:EM FHEquiv
    MenuLocation:EM → FHEquiv
-   Workbenches:[EM](EM_Workbench.md) (add-on)
+   Workbenches:[EM](EM_Workbench.md)
    Shortcut:**E** **E**
-   SeeAlso:[EM FHNode](EM_FHNode.md), [EM FHSegment](EM_FHSegment.md), [EM FHPath](EM_FHPath.md), [EM FHPlane](EM_FHPlane.md), [EM FHPort](EM_FHPort.md),
    Version:0.17
+   SeeAlso:[EM FHNode](EM_FHNode.md), [EM FHSegment](EM_FHSegment.md), [EM FHPath](EM_FHPath.md), [EM FHPlane](EM_FHPlane.md), [EM FHPort](EM_FHPort.md)
 ---
 
 # EM FHEquiv/en
@@ -14,7 +14,10 @@
 
 The FHEquiv tool short-circuits two FHNode objects.
 
-![](images/EM_FHEquiv_Example.png ) 
+![](images/EM_FHEquiv_Example.png )
+
+
+
 *FastHenry FHEquiv*
 
 ## Usage
@@ -24,7 +27,7 @@ The FHEquiv object is based on the two existing FHNodes that it will short-circu
 1.  Select two <img alt="" src=images/EM_FHNode.svg  style="width:16px;"> [FHNode](EM_FHNode.md) objects
 2.  Press the **<img src="images/EM_FHEquiv.svg" width=16px> [EM FHEquiv](EM_FHEquiv.md)** button, or press **E** then **E** keys.
 
-### Remarks:
+### Remarks
 
 -   If you need to short-circuit multiple nodes, just create multiple FHEquiv nodes. You don\'t need a full mesh of FHEquiv nodes, as of course if node1 is shorted with node2, and node2 is shorted with node3, also node1 will result shorted with node3.
 
@@ -41,7 +44,9 @@ The FHEquiv object is based on the two existing FHNodes that it will short-circu
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The FHEquiv object can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The FHEquiv object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 equiv = makeFHEquiv(node1=None,node2=None,name='FHEquiv')
 ```
@@ -54,7 +59,9 @@ equiv = makeFHEquiv(node1=None,node2=None,name='FHEquiv')
 
 -    `name`is the name of the object
 
-Example: 
+Example:
+
+
 ```python
 import FreeCAD, EM
 
@@ -63,6 +70,9 @@ fhnode2 = EM.makeFHNode(X=0,Y=1.0,Z=0)
 
 fhequiv = EM.makeFHEquiv(fhnode1, fhnode2)
 ```
+
+
+
 
 
 {{EM Tools navi

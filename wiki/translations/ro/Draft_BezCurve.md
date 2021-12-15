@@ -25,7 +25,7 @@ Instrumentul BezCurve creează o _. Este nevoie de [linewidth and color](Draft_L
 
 <div class="mw-translate-fuzzy">
 
-Obiectul este creat ca o singură curbă Bezier de grad (număr\_de\_ puncte - 1). Aceasta poate fi modificată la o curbă Bezier în parte, de un anumit grad după crearea folosind [ editor proprietăți](Property.md). Bezier Curves poate fi editat folosind {{KEY | <img src="images/_Draft_Edit.png_" width= 16px> [[Editare proiect]]}}.
+Obiectul este creat ca o singură curbă Bezier de grad (număr\_de\_ puncte - 1). Aceasta poate fi modificată la o curbă Bezier în parte, de un anumit grad după crearea folosind [ editor proprietăți](Property.md). Bezier Curves poate fi editat folosind {{KEY | <img src="images/_Draft_Edit.png_" width= 16px> Editare proiect}}.
 
 
 </div>
@@ -63,8 +63,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Apăsați butonul **<img src="images/Draft_BezCurve.png" width=16px> [[Draft BezCurve]]
 ** , sau apăsați {{KEY | W}} apoi tastele **I**
-2.  Faceți clic pe un prim punct din vizualizarea 3D sau tastați un [ coordinate](Draft_Coordinates.md)
-3.  Faceți clic pe un punct suplimentar în vizualizarea 3D sau tastați un [ coordinate](Draft_Coordinates.md)
+2.  Faceți clic pe un prim punct din vizualizarea 3D sau tastați un coordinate
+3.  Faceți clic pe un punct suplimentar în vizualizarea 3D sau tastați un coordinate
 4.  Apăsați **F** sau **C** sau faceți dublu clic pe ultimul punct sau faceți clic pe primul punct pentru a termina sau a închide filamentul/polilinia. Dacă filamentul este închis, acesta va fi, de asemenea, o fațetă, chiar dacă acesta apare ca o rețea wireframe.
 
 
@@ -75,8 +75,8 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 <div class="mw-translate-fuzzy">
 
--   Apăsați tasta **F** sau butonul **<img src="images/Draft_FinishLine.png" width=12px> '''[Finish](Draft_FinishLine.md)'''** pentru a finaliza funcția B spline, lăsând-o deschisă
--   Press **C** or the **<img src="images/Draft_CloseLine.png" width=12px> '''[Close](Draft_CloseLine.md)'''** button or click on the first point to finish the spline, but making it closed by adding a last segment between the last point and the first one.
+-   Apăsați tasta **F** sau butonul **<img src="images/Draft_FinishLine.png" width=12px> '''Finish'''** pentru a finaliza funcția B spline, lăsând-o deschisă
+-   Press **C** or the **<img src="images/Draft_CloseLine.png" width=12px> '''Close'''** button or click on the first point to finish the spline, but making it closed by adding a last segment between the last point and the first one.
 -   Press **X**, **Y** or **Z** after a point to constrain the next point on the given axis.
 -   To enter coordinates manually, simply enter the numbers, then press **ENTER** between each X, Y and Z component.
 -   Press **R** or click the checkbox to check/uncheck the **'''Relative'''** button. If relative mode is on, the coordinates of the next point are relative to the last one. If not, they are absolute, taken from the (0,0,0) origin point.
@@ -84,7 +84,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Press **CTRL** while drawing to force [snapping](Draft_Snap.md) your point to the nearest snap location, independently of the distance.
 -   Press **SHIFT** while drawing to [constrain](Draft_Constrain.md) your next point horizontally or vertically in relation to the last one.
 -   Press **W** or press the **<img src="images/Draft_Wipe.png" width=12px> '''Wipe'''** button to remove the existing segments and start the spline from the last point.
--   Press **CTRL**+**Z** or press the **<img src="images/Draft_UndoLine.png" width=12px> '''[Undo](Draft_UndoLine.md)'''** button to undo the last point.
+-   Press **CTRL**+**Z** or press the **<img src="images/Draft_UndoLine.png" width=12px> '''Undo'''** button to undo the last point.
 -   Apăsați tasta **ESC** sau butonul **'''Cancel'''** penru a abandona comanda BezCurve .
 
 

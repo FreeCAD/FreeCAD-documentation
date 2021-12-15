@@ -1,6 +1,13 @@
-# Sketcher ConstrainHorizontal/ja
 ---
-- GuiCommand:/jp   Name:Sketcher ConstrainHorizontal   Workbenches:_---
+- GuiCommand:/ja
+   Name:Sketcher ConstrainHorizontal
+   Name/ja:Sketcher ConstrainHorizontal
+   Workbenches:[スケッチャー](Sketcher_Workbench/ja.md), [パートデザイン](PartDesign_Workbench/ja.md)
+   MenuLocation:Sketch → Sketcher constraints → Constrain horizontally
+   SeeAlso:[Constraint Vertical](Constraint_Vertical/ja.md)
+---
+
+# Sketcher ConstrainHorizontal/ja
 
 
 </div>

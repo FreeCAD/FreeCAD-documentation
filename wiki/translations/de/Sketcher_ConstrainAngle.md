@@ -46,7 +46,13 @@ Wie bei jeder Bezugsbeschränkung ist es möglich, den Winkelwert später zu än
 
 Die Beschränkung legt den Polwinkel der Linienrichtung fest. Es ist der Winkel zwischen der Linie und der X Achse der Skizze.
 
+
+<div class="mw-translate-fuzzy">
+
 ### Bogenspanne (v0.15) 
+
+
+</div>
 
 **akzeptierte Auswahl:** Kreisbogen
 
@@ -62,7 +68,13 @@ In diesem Modus fixiert die Beschränkung die Winkelspannweite eines Kreisbogens
 
 In diesem Modus legt die Beschränkung den Winkel zwischen zwei Linien fest. Es ist nicht erforderlich, dass sich die Linien schneiden.
 
+
+<div class="mw-translate-fuzzy">
+
 ### Zwischen Kurven am Schnittpunkt (Winkel-über-Punkt) (v0.15) 
+
+
+</div>
 
 **Akzeptierte Auswahl:** jede Linie/Kurve + jede Linie/Kurve + jeder Punkt
 

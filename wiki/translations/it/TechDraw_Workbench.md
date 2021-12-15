@@ -84,7 +84,7 @@ Le dimensioni lineari possono essere basate su due punti, su una linea o su due 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [Lunghezza](TechDraw_Dimension_Length/it.md): aggiunge una dimensione di lunghezza.
+-   <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [Lunghezza](TechDraw_LengthDimension/it.md): aggiunge una dimensione di lunghezza.
 
 
 </div>
@@ -92,7 +92,7 @@ Le dimensioni lineari possono essere basate su due punti, su una linea o su due 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:32px;"> [Quota orizzontale](TechDraw_Dimension_Horizontal/it.md): aggiunge una dimensione orizzontale di lunghezza.
+-   <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [Quota orizzontale](TechDraw_HorizontalDimension/it.md): aggiunge una dimensione orizzontale di lunghezza.
 
 
 </div>
@@ -100,7 +100,7 @@ Le dimensioni lineari possono essere basate su due punti, su una linea o su due 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:32px;"> [Quota verticale](TechDraw_Dimension_Vertical/it.md): aggiunge una dimensione verticale.
+-   <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [Quota verticale](TechDraw_VerticalDimension/it.md): aggiunge una dimensione verticale.
 
 
 </div>
@@ -108,7 +108,7 @@ Le dimensioni lineari possono essere basate su due punti, su una linea o su due 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Radius.svg  style="width:32px;"> [Raggio](TechDraw_Dimension_Radius/it.md): aggiunge una dimensione raggio a un cerchio o arco.
+-   <img alt="" src=images/TechDraw_RadiusDimension.svg  style="width:32px;"> [Raggio](TechDraw_RadiusDimension/it.md): aggiunge una dimensione raggio a un cerchio o arco.
 
 
 </div>
@@ -116,7 +116,7 @@ Le dimensioni lineari possono essere basate su due punti, su una linea o su due 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Diameter.svg  style="width:32px;"> [Diametro](TechDraw_Dimension_Diameter/it.md): aggiunge una dimensione di diametro a un cerchio o un arco.
+-   <img alt="" src=images/TechDraw_DiameterDimension.svg  style="width:32px;"> [Diametro](TechDraw_DiameterDimension/it.md): aggiunge una dimensione di diametro a un cerchio o un arco.
 
 
 </div>
@@ -124,7 +124,7 @@ Le dimensioni lineari possono essere basate su due punti, su una linea o su due 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Angle.svg  style="width:32px;"> [Angolo](TechDraw_Dimension_Angle/it.md): aggiunge una misura di angolo tra due bordi diritti.
+-   <img alt="" src=images/TechDraw_AngleDimension.svg  style="width:32px;"> [Angolo](TechDraw_AngleDimension/it.md): aggiunge una misura di angolo tra due bordi diritti.
 
 
 </div>
@@ -132,7 +132,7 @@ Le dimensioni lineari possono essere basate su due punti, su una linea o su due 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:32px;"> [Angolo da 3 punti](TechDraw_Dimension_Angle3Pt/it.md): aggiunge una quota angolare usando tre vertici.
+-   <img alt="" src=images/TechDraw_3PtAngleDimension.svg  style="width:32px;"> [Angolo da 3 punti](TechDraw_3PtAngleDimension/it.md): aggiunge una quota angolare usando tre vertici.
 
 
 </div>
@@ -140,7 +140,7 @@ Le dimensioni lineari possono essere basate su due punti, su una linea o su due 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent.svg  style="width:32px;"> [Estensione orizzontale](TechDraw_Dimension_Horizontal_Extent/it.md): aggiunge una dimensione di estensione orizzontale. {{Version/it|0.19}}
+-   <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:32px;"> [Estensione orizzontale](TechDraw_HorizontalExtentDimension/it.md): aggiunge una dimensione di estensione orizzontale. {{Version/it|0.19}}
 
 
 </div>
@@ -148,7 +148,7 @@ Le dimensioni lineari possono essere basate su due punti, su una linea o su due 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Vertical_Extent.svg  style="width:32px;"> [Estensione verticale](TechDraw_Dimension_Vertical_Extent/it.md): aggiunge una dimensione di estensione verticale. {{Version/it|0.19}}
+-   <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width:32px;"> [Estensione verticale](TechDraw_VerticalExtentDimension/it.md): aggiunge una dimensione di estensione verticale. {{Version/it|0.19}}
 
 
 </div>
@@ -156,7 +156,7 @@ Le dimensioni lineari possono essere basate su due punti, su una linea o su due 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Link.svg  style="width:32px;"> [Link alla geometria 3D](TechDraw_Dimension_Link/it.md): collega una dimensione esistente alla geometria 3D.
+-   <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Link alla geometria 3D](TechDraw_LinkDimension/it.md): collega una dimensione esistente alla geometria 3D.
 
 
 </div>
@@ -172,7 +172,7 @@ Le dimensioni lineari possono essere basate su due punti, su una linea o su due 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Landmark.svg  style="width:32px;"> [Quota da punti di riferimento](TechDraw_Dimension_Landmark/it.md): aggiunge una dimensione basata su punti di riferimento. {{Version/it|0.19}}
+-   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Quota da punti di riferimento](TechDraw_LandmarkDimension/it.md): aggiunge una dimensione basata su punti di riferimento. {{Version/it|0.19}}
 
 
 </div>
@@ -228,15 +228,83 @@ These are tools to improve your TechDraw drawings.
 
 **Some of these tools have yet to be released.**
 
--   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Draw circle centerlines](TechDraw_ExtensionCircleCenterLines.md): adds centerlines to circles and arcs. <small>(v0.20)</small> 
+### Attributes and modifications 
 
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Cosmetic thread hole side view](TechDraw_ExtensionThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:32px;"> [Aspect](TechDraw_ExtensionSelectLineAttributes.md): select style, width and colour of lines. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Cosmetic thread bolt side view](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width:32px;"> [Stretch](TechDraw_ExtensionExtendLine.md): extend a line at both ends. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Cosmetic thread hole bottom view](TechDraw_ExtensionThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:32px;"> [Shorten](TechDraw_ExtensionShortenLine.md): shorten a line at both ends. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Cosmetic thread bolt bottom view](TechDraw_ExtensionThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="width:32px;"> [Lock/Unlock](TechDraw_ExtensionLockUnlockView.md): Lock/Unlock a view. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  style="width:32px;"> [Align Section](TechDraw_ExtensionPositionSectionView.md): align a section view orthogonal to its source view. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg  style="width:32px;"> [Align Horizontal](TechDraw_ExtensionPosHorizChainDimension.md): align a horizontal dimension chain. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionPosVertChainDimension.svg  style="width:32px;"> [Align Vertical](TechDraw_ExtensionPosVertChainDimension.md): align a vertical dimension chain. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimension.svg  style="width:32px;"> [Align Oblique](TechDraw_ExtensionPosObliqueChainDimension.md): align an oblique dimension chain. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimension.svg  style="width:32px;"> [Horizontal Spacing](TechDraw_ExtensionCascadeHorizDimension.md): cascade horizontal dimensions. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCascadeVertDimension.svg  style="width:32px;"> [Vertical Spacing](TechDraw_ExtensionCascadeVertDimension.md): cascade vertical dimensions. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  style="width:32px;"> [Oblique Spacing](TechDraw_ExtensionCascadeObliqueDimension.md): cascade oblique dimensions. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionChangeLineAttributes.svg  style="width:32px;"> [Change Aspect](TechDraw_ExtensionChangeLineAttributes.md): change style, width and colour of lines. <small>(v0.20)</small> 
+
+### Centerlines and threading 
+
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Arc-Circle Centerlines](TechDraw_ExtensionCircleCenterLines.md): adds centerlines to circles and arcs. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionHoleCircle.svg  style="width:32px;"> [Circular Series Centerlines](TechDraw_ExtensionHoleCircle.md): draw the centerlines of a hole/bolt circle. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Intersection Point](TechDraw_ExtensionVertexAtIntersection.md): create the vertexes at intersection of lines. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width:32px;"> [Circunference](TechDraw_ExtensionDrawCosmCircle.md): draw a cosmetic circumference using center and radius vertex. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionDrawArc.svg  style="width:32px;"> [Arch](TechDraw_ExtensionDrawArc.md): draw an arc rotating counterclockwise. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width:32px;"> [Perpendicular](TechDraw_ExtensionLinePerpendicular.md): draw a line perpendicular to another line through a vertex. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:32px;"> [Parallel](TechDraw_ExtensionLineParallel.md): draw a line parallel to another line through a vertex. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Thread section Hole](TechDraw_ExtensionThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Thread section Shaft](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Thread Hole](TechDraw_ExtensionThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Thread Shaft](TechDraw_ExtensionThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
+
+### Dimensions
+
+-   <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width:32px;"> [Diameter Symbol](TechDraw_ExtensionInsertDiameter.md): insert diameter sign as praefix character. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionInsertSquare.svg  style="width:32px;"> [Tubular Symbol](TechDraw_ExtensionInsertSquare.md): insert square sign as praefix character. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateHorizChainDimension.svg  style="width:32px;"> [Horizontal Series](TechDraw_ExtensionCreateHorizChainDimension.md): create a horizontal dimension chain. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimension.svg  style="width:32px;"> [Vertical Series](TechDraw_ExtensionCreateVertChainDimension.md): create a vertical dimension chain. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateObliqueChainDimension.svg  style="width:32px;"> [Oblique Series](TechDraw_ExtensionCreateObliqueChainDimension.md): create an oblique dimension chain. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimension.svg  style="width:32px;"> [Parallel Horizontal](TechDraw_ExtensionCreateHorizCoordDimension.md): create cascaded horizontal dimensions. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimension.svg  style="width:32px;"> [Parallel Vertical](TechDraw_ExtensionCreateVertCoordDimension.md): create cascaded vertical dimensions. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimension.svg  style="width:32px;"> [Parallel Oblique](TechDraw_ExtensionCreateObliqueCoordDimension.md): create cascaded oblique dimensions. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.svg  style="width:32px;"> [Horizontal Chamfer](TechDraw_ExtensionCreateHorizChamferDimension.md): create a horizontal chamfer dimension. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimension.svg  style="width:32px;"> [Vertical Chamfer](TechDraw_ExtensionCreateVertChamferDimension.md): create a vertical chamfer dimension. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateLengthArc.svg  style="width:32px;"> [Arc Length](TechDraw_ExtensionCreateLengthArc.md): create an arc length dimension. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style="width:32px;"> [Increase Accuracy](TechDraw_ExtensionIncreaseDecimal.md): increase decimal places . <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:32px;"> [Decrease Accuracy](TechDraw_ExtensionDecreaseDecimal.md): decrease decimal places . <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -302,7 +370,6 @@ Gli strumenti TechDraw possono essere utilizzati nelle [macro](macros/it.md) e d
 -   I disegni di TechDraw e le relative API non sono intercambiabili con i disegni di [Drawing](Drawing_Workbench/it.md) e le relative API. È possibile convertire le pagine di Drawing in pagine TechDraw utilizzando uno script Python (`moveViews.py`).
 -   Nello stesso documento di FreeCAD è possibile avere sia pagine di TechDraw che pagine di Drawing, poiché ciascuna pagina è completamente indipendente l\'una dall\'altra.
 -   Ci sono alcune piccole differenze nello specificare i testi modificabili nei modelli [SVG](SVG/it.md) rispetto al modulo Drawing. In TechDraw il ridimensionamento del documento SVG influisce sulla posizione dei campi di testo modificabili. Per maggiori dettagli vedere la discussione sul forum [TechDraw templates scale](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271).
--   Le filettature non sono implementate. Una possibile soluzione è quella di utilizzare [Diametro](TechDraw_Dimension_Diameter/it.md) e mettere un testo adatto nella proprietà \"Format Spec\", ad esempio \"M4x15\"
 -   Non tagliare, copiare e incollare oggetti TechDraw nella vista ad albero, in quanto generalmente non funziona bene.
 
 
@@ -317,7 +384,7 @@ Gli strumenti TechDraw possono essere utilizzati nelle [macro](macros/it.md) e d
 -   [Come creare dei modelli TechDraw personalizzati](TechDraw_TemplateHowTo/it.md): istruzioni per creare un nuovo modello di pagina in Inkscape per l\'utilizzo con TechDraw.
 -   [Misura degli angoli sui fori](Measurement_Of_Angles_On_Holes/it.md): istruzioni per l\'aggiunta di linee centrali e successive rappresentazioni angolari sui fori.
 -   [Informazioni pratiche su TechDraw](TechDraw_HowTo_Page/it.md): istruzioni per diverse impostazioni come i segni di centratura, ecc.
--   [Asse circolare](TechDraw_Pitch_Circle.md): istruzioni per aggiungere un asse circolare.
+-   [Asse circolare](TechDraw_Pitch_Circle_Tutorial.md): istruzioni per aggiungere un asse circolare.
 
 
 </div>

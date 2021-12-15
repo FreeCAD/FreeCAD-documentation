@@ -67,7 +67,7 @@ Les ateliers suivants sont toujours inclus dans l\'installation de base à des f
 
 Les ateliers de FreeCad sont faciles à programmer en langage [Python](Python/fr.md), il y a pour cette raison plusieurs personnes qui développent des ateliers additionnels en dehors des principaux développeurs de FreeCAD.
 
-La page [ateliers tiers](external_workbenches/fr.md) répertorie tout ce qui est connu de cette communauté. La plupart sont facilement installables à partir de FreeCAD, à l'aide du [Gestionnaire d'addons](Addon_Manager/fr.md), situé dans le menu **Outils → <img src="images/_AddonManager.svg" width=24px>, Gestionnaire d’addons**.
+La page _, situé dans le menu **Outils → Gestionnaire d’addons**.
 
 Et d\'autres ateliers sont toujours en développement !
 

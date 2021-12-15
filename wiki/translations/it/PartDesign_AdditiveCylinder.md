@@ -17,7 +17,7 @@ Inserisce un cilindro primitivo nel corpo attivo come prima caratteristica o lo 
 <div class="mw-translate-fuzzy">
 
 1.  Premere il pulsante **<img src="images/PartDesign_AdditiveCylinder.png" width=24px> '''Cilindro additivo'''**. **Nota**: Il Cilindro additivo fa parte di un menu di icone etichettato *Crea una primitiva additiva*. Dopo l\'avvio, FreeCAD visualizza Cubo additivo nella barra degli strumenti. Per accedere al Cilindro, fare clic sulla freccia verso il basso accanto all\'icona visibile e selezionare Cilindro nel menu.
-2.  Impostare i parametri della primitiva e di [Associazione](Part_Attachment/it.md).
+2.  Impostare i parametri della primitiva e di [Associazione](Part_EditAttachment/it.md).
 3.  Cliccare **OK**.
 4.  Nel corpo attivo viene visualizzata una funzione Cilindro.
 
@@ -45,7 +45,7 @@ Dopo la sua creazione il cilindro può essere modificato in due modi:
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/it|Attachment}}: Definisce la modalità e l\'offset di associazione. Vedere [Associazione](Part_Attachment/it.md).
+-    {{PropertyData/it|Attachment}}: Definisce la modalità e l\'offset di associazione. Vedere [Associazione](Part_EditAttachment/it.md).
 
 -    {{PropertyData/it|Label}}: Etichetta data all\'oggetto Cilindro. Modificabile secondo le proprie esigenze.
 

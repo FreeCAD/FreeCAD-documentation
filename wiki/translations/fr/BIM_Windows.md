@@ -17,11 +17,6 @@ La boîte de dialogue Gestionnaire de fenêtres BIM vous permet de parcourir et 
 
 ## Utilisation
 
-
-{{BIM Tools navi
-
-}}
-
 _
 
 ---

@@ -49,8 +49,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 ## 如何使用
 
 1.  按下**<img src="images/Draft_Line.svg" width=16px> [[Draft Line]]**按钮, 或先按**L**再按**I**键。
-2.  在3D视图中单击第一个点，或输入[坐标并按下](Draft_Coordinates.md)**<img src="images/Draft_AddPoint.svg" width=16px> [add point](Draft_AddPoint.md)**按钮。
-3.  在3D视图中单击第二个点，或输入[坐标并按下](Draft_Coordinates.md)**<img src="images/Draft_AddPoint.svg" width=16px> [add point](Draft_AddPoint.md)**键。
+2.  在3D视图中单击第一个点，或输入坐标并按下**<img src="images/Draft_AddPoint.svg" width=16px> add point**按钮。
+3.  在3D视图中单击第二个点，或输入坐标并按下**<img src="images/Draft_AddPoint.svg" width=16px> add point**键。
 
 
 </div>
@@ -66,12 +66,12 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   设置好第一个点后，按**X**、**Y**或**Z**键来约束第二点的对应坐标。
 -   为了手动输入坐标值，可以在每次输入X、Y与Z分量后按**Enter**键。
-    -   您也通过指定\"Length（长度）\"与\"Angle（角度）\"的值来定义点的极坐标。点击\"Angle\"边上的复选框来约束线段所指向的角度。您还可以点击**<img src="images/Draft_AddPoint.svg" width=16px> [add point](Draft_AddPoint.md)**按钮来插入点。
+    -   您也通过指定\"Length（长度）\"与\"Angle（角度）\"的值来定义点的极坐标。点击\"Angle\"边上的复选框来约束线段所指向的角度。您还可以点击**<img src="images/Draft_AddPoint.svg" width=16px> add point**按钮来插入点。
 -   按**R**键或点击relative复选框切换至*相对坐标*模式。如果开启了相对坐标模式，则第二个点的坐标将相对于第一个点而定（即以第一个点为基准）；否则两点采用绝对坐标定义，即基于原点(0,0,0)而定。
 -   按**T**键或点击continue复选框切换至*连续*模式。如果开启了连续模式，则在指定某线段第二个端点后，线段绘制工具将自动重启并继续下条线段的绘制，而不必再次按线段工具按钮。
 -   在将端点强制绘至最近[捕捉位置时](Draft_Snap.md)，按住**Ctrl**。
 -   在绘制第二端点时，按住**Shift**键来[约束（constrain）它的位置位于第一个点的水平方向或垂直方向](Draft_Constrain.md)。
--   按**Ctrl**+**Z**键或点击{{button|<img src="images/Draft_UndoLine.png" width=12px> [Undo](Draft_UndoLine.md)}}按钮来撤销最近绘制的线段。
+-   按**Ctrl**+**Z**键或点击{{button|<img src="images/Draft_UndoLine.png" width=12px> Undo}}按钮来撤销最近绘制的线段。
 -   按**Esc**键或点击**Close**按钮来终止当前命令。
 
 

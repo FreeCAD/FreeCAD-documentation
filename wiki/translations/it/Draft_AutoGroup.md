@@ -5,7 +5,7 @@
    MenuLocation:Draft → Utilità → AutoGruppo
    Workbenches:[Draft](Draft_Workbench/it.md), [Arch](Arch_Workbench/it.md)
    Version:0.17
-   SeeAlso:[Gruppo](Std_Group/it.md), [VisGroup](Draft_VisGroup/it.md)
+   SeeAlso:[Draft Layer](Draft_Layer/it.md), [Gruppo](Std_Group/it.md)
 ---
 
 # Draft AutoGroup/it
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Gruppo Automatico imposta un [Gruppo](Std_Group/it.md) standard selezionato, o un elemento correlato come un [VisGroup](Draft_VisGroup/it.md), un [Sito](Arch_Site/it.md), un [Edificio](Arch_Building/it.md) o una [Parte di edificio](Arch_BuildingPart/it.md), come gruppo automatico attivo. Quando viene impostato un gruppo automatico, i nuovi oggetti vengono automaticamente spostati nel gruppo indicato al momento della creazione.
+Lo strumento Gruppo Automatico imposta un [Gruppo](Std_Group/it.md) standard selezionato, o un elemento correlato come un [Draft Layer](Draft_Layer/it.md), un [Sito](Arch_Site/it.md), un [Edificio](Arch_Building/it.md) o una [Parte di edificio](Arch_BuildingPart/it.md), come gruppo automatico attivo. Quando viene impostato un gruppo automatico, i nuovi oggetti vengono automaticamente spostati nel gruppo indicato al momento della creazione.
 
 
 </div>
@@ -43,7 +43,7 @@ This command was originally intended for groups, hence its name, but was redesig
 
 <div class="mw-translate-fuzzy">
 
-1.  Selezionare un **<img src="images/Group.svg" width=16px> [Gruppo](Std_Group/it.md)**, o un **<img src="images/Group.svg" width=16px> [Gruppo costruzione](Draft_ToggleConstructionMode/it.md)**, o un **<img src="images/Draft_VisGroup.svg" width=16px> [VisGroup](Draft_VisGroup/it.md)** nella vista ad albero.
+1.  Selezionare un **<img src="images/Group.svg" width=16px> [Gruppo](Std_Group/it.md)**, o un **<img src="images/Group.svg" width=16px> [Gruppo costruzione](Draft_ToggleConstructionMode/it.md)**, o un **<img src="images/Draft_Layer.svg" width=16px> [Draft Layer](Draft_Layer/it.md)** nella vista ad albero.
 2.  Premere il pulsante **<img src="images/Draft_AutoGroup_off.svg" width=16px> None**, o andare nel menu **Draft → Utilità → <img src="images/Draft_AutoGroup.svg" width=16px> [AutoGruppo](Draft_AutoGroup/it.md)**. Se non è selezionato nessun gruppo, un menu a discesa mostra i gruppi idonei da usare, o \"None\".
 3.  Il pulsante cambia e appare il nome del gruppo automatico attivo, ad esempio, **<img src="images/Draft_AutoGroup_on.svg" width=16px> Gruppo**.
 
@@ -58,7 +58,7 @@ This command was originally intended for groups, hence its name, but was redesig
 Note:
 
 -   Il pulsante **<img src="images/Draft_AutoGroup.svg" width=16px> [AutoGruppo](Draft_AutoGroup/it.md)** è presente nella [barra di Draft](Draft_Tray/it.md), che appare solo negli ambienti [Draft](Draft_Workbench/it.md) e [Arch](Arch_Workbench/it.md).
--   Prima di utilizzare questo strumento deve esistere almeno un **<img src="images/Group.svg" width=16px> [Gruppo](Std_Group/it.md)**, o un **<img src="images/Group.svg" width=16px> [Gruppo costruzione](Draft_ToggleConstructionMode/it.md)**, o un **<img src="images/Draft_VisGroup.svg" width=16px> [VisGroup](Draft_VisGroup/it.md)**.
+-   Prima di utilizzare questo strumento deve esistere almeno un **<img src="images/Group.svg" width=16px> [Gruppo](Std_Group/it.md)**, o un **<img src="images/Group.svg" width=16px> [Gruppo costruzione](Draft_ToggleConstructionMode/it.md)**, o un **<img src="images/Draft_Layer.svg" width=16px> [Draft Layer](Draft_Layer/it.md)**.
 -   Per cambiare il gruppo automatico, selezionare un altro gruppo nella vista ad albero e fare clic su **<img src="images/Draft_AutoGroup_on.svg" width=16px> Gruppo**. Se nessun gruppo è selezionato, si può scegliere \"None\" per disattivare il raggruppamento automatico.
 -   Quando il raggruppamento automatico è attivo, i nuovi oggetti [Draft](Draft_Workbench/it.md) e [Arch](Arch_Workbench/it.md) sono posizionati in quel gruppo tranne quando la **<img src="images/Draft_Construction.svg" width=16px> [Modalità costruzione](Draft_ToggleConstructionMode/it.md)**è attiva, nel qual caso la nuova geometria verrà posizionata nel gruppo Costruzione.
 -   Il raggruppamento automatico funziona solo per gli oggetti creati dall\'interfaccia utente grafica; gli oggetti creati a livello di programmazione da [macro](macros/it.md) o dalla console [Python](Python/it.md) non vengono posizionati automaticamente nei gruppi. L\'utente ha sempre la possibilità di eseguire il raggruppamento a livello di programmazione, indipendentemente dalle impostazioni di raggruppamento automatico.

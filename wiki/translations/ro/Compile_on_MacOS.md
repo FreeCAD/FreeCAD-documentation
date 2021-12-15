@@ -302,18 +302,6 @@ brew uninstall --ignore-dependencies --force cartr/qt4/shiboken@1.2 cartr/qt4/py
 
 <div class="mw-translate-fuzzy">
 
-### OpenGL
-
-A se vedea [OpenGL on MacOS](OpenGL_on_MacOS.md) pentru OpenGL issues atunci când Qt 4.8 și aneriarele sunt utilizate sub MacOS.
-
-
-</div>
-
-See [OpenGL on MacOS](OpenGL_on_MacOS.md) for OpenGL issues when Qt 4.8 and earlier are used on MacOS.
-
-
-<div class="mw-translate-fuzzy">
-
 ### FreeType
 
 Atunci când se utilizează versiuni CMake mai vechi de 3.1.0, este necesar să setați variabila CMake FREETYPE\_INCLUDE\_DIR\_freetype2 manually, eg /usr/local/include/freetype2
@@ -328,13 +316,7 @@ When using CMake versions older than 3.1.0, it\'s necessary to set CMake variabl
 FreeCAD can be built against the latest git master hosted on github, and launched from a CLI using libraries provided by the homebrew-freecad tap. For a complete list of build instructions see [here](https://github.com/ipatch/homebrew-us-05/tree/dev/freecad#building-freecad-for-macos-by-macos).
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav|CompileOnUnix|Compiling (Speeding up)}}
-
-
-</div>
 
 
 

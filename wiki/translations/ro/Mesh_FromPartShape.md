@@ -1,6 +1,12 @@
-# Mesh FromPartShape/ro
 ---
-- GuiCommand:   Name:Mesh MeshFromShape‏‎   MenuLocation:Meshes → Create Mesh from Shape   Workbenches:[[Mesh Workbench   Mesh]]|SeeAlso:---
+- GuiCommand:
+   Name:Mesh FromPartShape
+   MenuLocation:Meshes → Create Mesh from Shape
+   Workbenches:[Mesh](Mesh_Workbench.md)
+   SeeAlso:
+---
+
+# Mesh FromPartShape/ro
 
 
 </div>

@@ -66,7 +66,7 @@ Todo
 
 ### Industry Foundation Classes IFC 
 
--   [Export IFC - compiling IfcOpenShell](Export_IFC_-_compiling_IfcOpenShell.md)
+-   [Import/Export IFC - compiling IfcOpenShell](Import/Export_IFC_-_compiling_IfcOpenShell.md)
 
 ### Inventor V2.1 
 

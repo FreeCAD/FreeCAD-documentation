@@ -6,11 +6,29 @@
 
 <img alt="" src=images/Part_3D_object.svg  style="width:32px;">
 
+
+<div class="mw-translate-fuzzy">
+
 Ein _ verbunden mit ihm, das in der [3D Ansicht](3D_view/de.md) angezeigt werden kann.
 
-Ein Part Formelement ist die Elternklasse der meisten 2D (Entwurf, Skizzierer) und 3D (Part, Part Design) Objekte, mit Ausnahme von Polygonnetzen, die normalerweise auf [Polygonnetz Formelemente](Mesh_Feature/de.md), oder [Fem FemPolygonnetzObjekt](Fem_FemMeshObject/de.md) für FEM Objekte basieren.
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Ein Part Formelement ist die Elternklasse der meisten 2D (Entwurf, Skizzierer) und 3D (Part, Part Design) Objekte, mit Ausnahme von Polygonnetzen, die normalerweise auf [Polygonnetz Formelemente](Mesh_Feature/de.md), oder [Fem FemPolygonnetzObjekt](FEM_Mesh/de.md) für FEM Objekte basieren.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Jedes mit dem [Part Arbeitsbereich](Part_Workbench/de.md) erstellte Objekt ist im Wesentlichen ein [Part Formelement](Part_Feature/de.md).
+
+
+</div>
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -52,7 +70,7 @@ Dies sind die im [Eigenschaftseditor](property_editor/de.md) verfügbaren Eigens
 ### Daten
 
 
-{{TitleProperty/de|Grundlage}}
+{{TitleProperty|Grundlage}}
 
 -    **Placement|Placement**: the position of the object in the [3D view](3D_view.md). The placement is defined by a `Base` point (vector), and a `Rotation` (axis and angle). See [Placement](Placement.md).
 
@@ -87,7 +105,7 @@ Dies sind die im [Eigenschaftseditor](property_editor/de.md) verfügbaren Eigens
 
 ### Ansicht
 
-Most objects in FreeCAD have what is called a \"[viewprovider](viewprovider.md)\", which is a class that defines the visual appearance of the object in the [3D view](3D_view.md), and in the [tree view](tree_view.md). The default viewprovider of Part Feature objects defines the following properties. Scripted objects that are derived from Part Feature will have access to these properties as well.
+Most objects in FreeCAD have what is called a \"[viewprovider](viewprovider.md)\", which is a class that defines the visual appearance of the object in the [3D view](3D_view.md), and in the [tree view](Tree_view.md). The default viewprovider of Part Feature objects defines the following properties. Scripted objects that are derived from Part Feature will have access to these properties as well.
 
 
 {{TitleProperty|Base}}

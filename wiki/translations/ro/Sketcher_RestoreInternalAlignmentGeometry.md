@@ -1,9 +1,14 @@
-# Sketcher RestoreInternalAlignmentGeometry/ro
 ---
-- GuiCommand:   Name:Sketcher RestoreInternalAlignmentGeometry   Workbenches:_, [Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment.md)---
+- GuiCommand:/ro
+   Name:Sketcher RestoreInternalAlignmentGeometry
+   Name/ro:Sketcher RestoreInternalAlignmentGeometry
+   MenuLocation:Sketch → Sketcher tools → Show/hide internal geometry
+   Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
+   Shortcut:**Ctrl**+**Shift**+**E**
+   SeeAlso:[Sketcher Ellipse](Sketcher_CreateEllipseByCenter/ro.md), [Sketcher Internal Alignment Constraint](Sketcher_ConstrainInternalAlignment/ro.md)
+---
 
-
-</div>
+# Sketcher RestoreInternalAlignmentGeometry/ro
 
 
 <div class="mw-translate-fuzzy">

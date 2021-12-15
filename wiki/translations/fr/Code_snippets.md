@@ -630,10 +630,10 @@ tab2.show()
 
 ### Activer ou désactiver une fenêtre 
 
-Ce script donne la possibilité de manipuler l\'interface utilisateur de la [console Python](Python_console/fr.md) pour afficher/masquer différents composants dans de l\'[interface](interface/fr.md) de FreeCAD tels que:
+Ce script donne la possibilité de manipuler l\'interface utilisateur de la [console Python](Python_console/fr.md) pour afficher/masquer différents composants dans de l\'[interface](Interface/fr.md) de FreeCAD tels que:
 
 -   [Vue rapport](Report_view/fr.md)
--   [vue en arborescence](tree_view/fr.md)
+-   [vue en arborescence](Tree_view/fr.md)
 -   [Éditeur de propriétés](Property_editor/fr.md)
 -   [Fenêtre de sélection](Selection_view/fr.md)
 -   [Vue Combinée](Combo_view/fr.md)

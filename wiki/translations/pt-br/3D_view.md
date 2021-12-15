@@ -4,84 +4,83 @@
 
 {{TOCright}}
 
-The [3D view](3D_view.md) of FreeCAD is an instance of a Coin3D [scenegraph](Scenegraph.md) that forms the most important window in the [interface](interface.md). Coin3D is a library that implements the OpenInventor 2.1 scene description standard.
+A [ vista 3D](3D_view.md),que constitui a janela mais importante da [ interface](interface.md) do FreeCAD, é uma instância da Coin3D, biblioteca para implementação de área de modelagem que segue o padrão OpenInventor 2.1 [ scenegraph](Scenegraph.md)
 
-Certain properties of the view, like background color, [mouse navigation](Mouse_navigation.md) style, and zooming steps, can be configured in the [preferences editor](Preferences_Editor.md).
+Certas propriedades da visualização, como cor de fundo, estilo [ de navegação do mouse](Mouse_navigation.md), e tarefas como fazer um zoom, podem ser configuradas no [ editor de preferências](Preferences_Editor.md).
 
 <img alt="" src=images/FreeCAD_3D_view.png  style="width:600px;">
 
 
-
-*The [Draft Workbench](3D_view]]_is_a_component_of_the_FreeCAD_[[interface]]. By default it shows a small widget with coordinate axes, and the navigation cube also with coordinate axes; the grid can be displayed and configured by loading the [[Draft Workbench.md).*
+{{Caption | A [ Draft](visualização_3D]]_é_um_componente_do_FreeCAD_[[interface]]. Por padrão, ele mostra um pequeno widget com eixos de coordenadas e o cubo de navegação, que também tem eixos de coordenadas; a grade pode ser exibida e configurada carregando a bancada de trabalho [[Draft Workbench .md).}}
 
 ## Ações
 
 
 **Note:**
 
-link actions <small>(v0.19)</small> .
+links para as ações da <small>(v0.19)</small> .
 
-Since the [tree view](tree_view.md) lists most objects that are visible in the 3D view, many of the actions are the same to those that can be executed from the [tree view](tree_view.md).
+Uma vez que a [ vista hierárquica de objetos](tree_view.md) lista a maioria dos objetos que estão visíveis na área de modelagem 3D, é possível realizar, direto nesta área, muitas ações que normalmente são executadas pela [ vista hierárquica de objetos](tree_view.md).
 
-When the default [Start Workbench](Start_Workbench.md) is active, right clicking on the 3D view shows only one command:
+Quando a bancada de trabalho [Start](Start_Workbench.md) está ativa, ao clicar com o botão direito do mouse na área de modelagem 3D, aparece apenas o comando
 
--    **[Navigation styles](Mouse_navigation.md)**: different button styles to use with a 3-button mouse or laptop trackpad.
+-    **[Estilos de navegação](Mouse_navigation.md)**, que dá acesso a diferentes métodos de uso dos botões do mouse ou do trackpad do notebook.
 
-However, once a [Workbench](Workbenches.md) is loaded, there are additional commands:
+Entretanto, quando uma [bancada de trabalho](Workbenches.md) é carregada, outros comandos aparecem:
 
--    **Link actions**: [Make Link](Std_LinkMake.md).
+-    **Link actions**: [Criar link](Std_LinkMake.md).
 
     -   
-        **Make Link group**
+        **Criar grupo de links**
         
-        : [Simple group](Std_LinkMakeGroup.md), [Group with links](Std_LinkMakeGroup.md), [Group with transform links](Std_LinkMakeGroup.md).
+        : [Agrupamento simples](Std_LinkMakeGroup.md), [Agrupar com links](Std_LinkMakeGroup.md), [Grupo com vínculos de transformação](Std_LinkMakeGroup.md).
 
--    **[Fit all](Std_ViewFitAll.md)**: pans and zooms the view to fit all objects in the document on the screen.
+-    **[Enquadrar tudo](Std_ViewFitAll.md)**: ajusta a visibilidade para que todos os objetos do documento apareçam na tela.
 
--    **[Fit selection](Std_ViewFitSelection.md)**: pans and zooms the view to tightly fit the currently selected object on the screen.
+-    **[Enquadrar seleção](Std_ViewFitSelection.md)**: ajusta a visibilidade para que todos os objetos selecionados apareçam na tela.
 
--    **[Draw style](Std_DrawStyle.md)**: as is, flat lines, shaded, wireframe, points, hidden line, no shading.
+-    **[Estilo de desenho](Std_DrawStyle.md)**: escolha entre o Estilo padrão, Pontos, Arame, Linha oculta, Sem sombreamento, Sombreado e Linhas planas.
 
--    **_, [front](Std_ViewFront.md), [top](Std_ViewTop.md), [right](Std_ViewRight.md), [rear](Std_ViewRear.md), [bottom](Std_ViewBottom.md), [left](Std_ViewLeft.md), [rotate left](Std_ViewRotateLeft.md), [rotate right](Std_ViewRotateRight.md).
+-    **_, [Frente](Std_ViewFront.md), [Topo](Std_ViewTop.md), [Direito](Std_ViewRight.md), [Traseira](Std_ViewRear.md), [De baixo](Std_ViewBottom.md), [Esquerda](Std_ViewLeft.md), [Girar para esquerda](Std_ViewRotateLeft.md), [Girar para direita](Std_ViewRotateRight.md).
 
--    **Measure**: [toggle measurement](View_Measure_Toggle_All.md), [clear measurement](View_Measure_Clear_All.md).
+-    **Measure**: [Alternar medição](View_Measure_Toggle_All.md), [Limpar medições](View_Measure_Clear_All.md).
 
--    **Document window**: [docked](Std_ViewDockUndockFullscreen.md), [undocked](Std_ViewDockUndockFullscreen.md), and [fullscreen](Std_ViewDockUndockFullscreen.md).
+-    **Janela do documento**: [Ancorado](Std_ViewDockUndockFullscreen.md), [Desancorado](Std_ViewDockUndockFullscreen.md), and [Tela cheia](Std_ViewDockUndockFullscreen.md).
 
-Additionally, depending on the workbench and object that is active, other contextual commands may become available.
+Outros comandos podem ser disponibilizados, dependendo da bancada de trabalho ativa e do(s) objetos(s) selecionado(s).
 
-For example, with the [Part Workbench](Part_Workbench.md) and one object selected:
+Por exemplo, com a bancada [Part](Part_Workbench.md) ativa e com um objeto selecionado:
 
--    **[Appearance](Std_SetAppearance.md)**: launches the dialog to change color and sizes of lines and vertices, and color of faces.
+-    **[Aparência...](Std_SetAppearance.md)**: abre a caixa de diálogo que permite alterar as cores e tamanhos de linhas e vértices, assim como as cores das faces.
 
--    **[Toggle visibility](Std_ToggleVisibility.md)**: makes the object visible or invisible in the 3D view.
-
--    **_.
-
--    **_ to show the selected object in the hierarchy.
+-    **[Mudar visibilidade](Std_ToggleVisibility.md)**: exibe ou oculta o objeto selecionado.
 
 -    **_.
 
--    **[Delete](Std_Delete.md)**: removes the object from the document, and from the 3D view, by calling the document\'s `removeObject()` method.
+-    **_ para exibir o objeto selecionado na estrutura hierárquica.
 
-Another example, with the [Draft Workbench](Draft_Workbench.md) and one object selected, it shows the same commands as with the [Part Workbench](Part_Workbench.md), but also:
+-    **_.
 
--    **Draft**: object creation and modification commands from the [Draft Workbench](Draft_Workbench.md).
+-    **[Excluir](Std_Delete.md)**: remove o objeto do documento e da área de modelagem 3D, acionando o método `removeObject()`.
 
--    **Utilities**: additional contextual commands provided by the [Draft Workbench](Draft_Workbench.md).
+Outro exemplo: com a bancada [Draft](Draft_Workbench.md) ativa e um objeto selecionado, são apresentados os mesmos comandos exibidos pela bancada [Part](Part_Workbench.md), e mais:
+
+-    **Draft**: comandos para a criação e a modificação de objetos da bancada [Draft](Draft_Workbench.md).
+
+-    **Utilities**: comandos contextuais adicionais, que fazem parte da bancada[Draft](Draft_Workbench.md).
 
 ## Detalhes
 
-FreeCAD uses the Quarter library to use Coin3D in a Qt environment.
+O FreeCAD usa a biblioteca integradora Quarter, para que a biblioteca de visualização de alto nível Coin3D seja utilizada junto ao framework Qt.
 
-It is possible to interact directly with the 3D view scenegraph from the [Python console](Python_console.md) by using the Python library Pivy.
+É possível interagir diretamente com o cenário de visualização 3D do [console Python](Python_console.md) usando a biblioteca Python Pivy.
 
-For more information see the power user documentation:
+Para mais informações, veja a documentação para usuários avançados:
 
--   [Scenegraph](Scenegraph.md), description of Coin3D.
--   [Pivy](Pivy.md), usage of Coin3D from the Python console.
--   [Third party libraries](Third_Party_Libraries.md) used by FreeCAD.
--   [Coin3D](https://grey.colorado.edu/coin3d/index.html) C++ documentation.
+-   [Scenegraph](Scenegraph.md), descrição da biblioteca Coin3D.
+-   [Pivy](Pivy.md), uso da Coin3D a partir do console Python.
+-   [Bibliotecas de terceiros](Third_Party_Libraries.md) usadas pelo FreeCAD.
+-   [Coin3D](https://grey.colorado.edu/coin3d/index.html): documentação para C++ da Coin 3D.
 
 
 {{Interface navi

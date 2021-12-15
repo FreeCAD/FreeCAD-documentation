@@ -5,7 +5,7 @@
 
 Parmi les options de compilation et d\'installation de FreeCAD, il existe la possibilité d\'utiliser Docker. Cette méthode est principalement utile pour les développeurs FreeCAD, utilisant des ordinateurs Linux ou Mac OS.
 
-### Bénéfices
+### Avantages
 
 Toutes les dépendances de FreeCAD sont déjà installées, compatibles les unes avec les autres et configurées de manière appropriée, ce qui vous permet de commencer à développer très rapidement.
 
@@ -39,7 +39,7 @@ git clone https://github.com/FreeCAD/FreeCAD.git ~/my_code/freecad_source
 
 Pour plus d\'informations sur l\'utilisation de Git et sur la contribution de code au projet, voir [gestion du code source](Source_code_management/fr.md).
 
-### Source sous forme archive 
+#### Source sous forme archive 
 
 Vous pouvez alternativement télécharger la [source sous forme d\'archive](https://github.com/FreeCAD/FreeCAD/releases/latest), en fichier `.zip` ou `.tar.gz`, et décompresser cela dans le dossier voulu.
 
@@ -61,7 +61,7 @@ Récupérez l\'image Docker. (Image officielle à venir.)
 docker pull registry.gitlab.com/daviddaish/freecad_docker_env:latest
 }}
 
-### Autorisee l\'accès à votre gestionnaire de fenêtres 
+### Autoriser l\'accès à votre gestionnaire de fenêtres 
 
 Pour que FreeCAD lance son interface graphique à partir du conteneur Docker, vous devez donner des autorisations d\'accès Docker à votre gestionnaire de fenêtres. Dans la plupart des distributions Linux, il s\'agit du système X window. Vous pouvez utiliser la commande ci-dessous pour autoriser l\'accès général à X, jusqu\'à ce que vous redémarriez ou déconnectiez votre ordinateur.
 
@@ -99,7 +99,7 @@ docker run -it --rm \
 registry.gitlab.com/daviddaish/freecad_docker_env:latest
 }}
 
-### Compilation de FreeCAD 
+### Compiler FreeCAD 
 
 Vous pouvez compiler FreeCAD en utilisant le script de compilation installé ou en utilisant votre méthode préférée.
 

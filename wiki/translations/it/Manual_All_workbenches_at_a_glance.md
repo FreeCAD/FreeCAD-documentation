@@ -157,6 +157,9 @@ L\'ambiente Drawing (Disegno) gestisce la creazione e la manipolazione dei fogli
 
 The Drawing Workbench handles the creation and manipulation of 2D drawing sheets, used for displaying views of your 3D work in 2D. These sheets can then be exported to 2D applications in SVG or DXF formats, to a PDF file or printed.
 
+
+<div class="mw-translate-fuzzy">
+
   Tool                                                                                                                          Descrizione                                                                           Tool                                                                                                                        Descrizione
   ----------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------
   <img alt="" src=images/Drawing_Landscape_A3.png  style="width:32px;"> _                                Inserisce una vista dell\'oggetto selezionato nel foglio di disegno attivo
@@ -164,6 +167,9 @@ The Drawing Workbench handles the creation and manipulation of 2D drawing sheets
   <img alt="" src=images/Drawing_Openbrowser.png  style="width:32px;"> _   Crea automaticamente le viste ortogonali di un oggetto sul foglio di disegno corrente
   <img alt="" src=images/Drawing_Symbol.png  style="width:32px;"> _        Inserisce nel foglio di disegno corrente una speciale Vista di Draft dell\'oggetto selezionato
   <img alt="" src=images/Drawing_Save.png  style="width:32px;"> [Salva](Drawing_Save/it.md)                                  Salva il foglio corrente in un file in formato SVG                                                                                                                                                                
+
+
+</div>
 
 ### Altri ambienti incorporati 
 

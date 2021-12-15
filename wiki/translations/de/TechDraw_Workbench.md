@@ -57,9 +57,9 @@ Dies sind Werkzeuge zum Erstellen und Verwalten von Ausschnittfenstern.
 
 -   <img alt="" src=images/TechDraw_ClipGroup.svg  style="width:32px;"> [Clipgruppe einfügen](TechDraw_ClipGroup/de.md): Fügt eine Clipgruppe in eine Seite ein.
 
--   <img alt="" src=images/techdraw-clipplus.svg  style="width:32px;"> [Ausschnittfenster hinzufügen](TechDraw_ClipPlus/de.md): Fügt eine vorhandene Ansicht zu einer Gruppe von Ausschnittfenstern hinzu.
+-   <img alt="" src=images/TechDraw_ClipGroupAdd.svg  style="width:32px;"> [Ausschnittfenster hinzufügen](TechDraw_ClipGroupAdd/de.md): Fügt eine vorhandene Ansicht zu einer Gruppe von Ausschnittfenstern hinzu.
 
--   <img alt="" src=images/techdraw-clipminus.svg  style="width:32px;"> [Ausschnittfenster entfernen](TechDraw_ClipMinus/de.md): Entfernt eine Ansicht aus einer Gruppe von Ausschnittfenstern.
+-   <img alt="" src=images/TechDraw_ClipGroupRemove.svg  style="width:32px;"> [Ausschnittfenster entfernen](TechDraw_ClipGroupRemove/de.md): Entfernt eine Ansicht aus einer Gruppe von Ausschnittfenstern.
 
 ## Ausgestaltung
 
@@ -84,7 +84,7 @@ Lineare Bemaßungen können auf zwei Punkten, auf einer Linie oder auf zwei Lini
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:32px;"> [Längenbemaßung einfügen](TechDraw_Dimension_Length/de.md): Fügt eine Längenbemaßung hinzu.
+-   <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [Längenbemaßung einfügen](TechDraw_LengthDimension/de.md): Fügt eine Längenbemaßung hinzu.
 
 
 </div>
@@ -92,7 +92,7 @@ Lineare Bemaßungen können auf zwei Punkten, auf einer Linie oder auf zwei Lini
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Horizontal.svg  style="width:32px;"> [Eine horizontale Abstands-Bemaßung einfügen](TechDraw_Dimension_Horizontal/de.md): Fügt eine horizontale Längenbemaßung hinzu.
+-   <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [Eine horizontale Abstands-Bemaßung einfügen](TechDraw_HorizontalDimension/de.md): Fügt eine horizontale Längenbemaßung hinzu.
 
 
 </div>
@@ -100,7 +100,7 @@ Lineare Bemaßungen können auf zwei Punkten, auf einer Linie oder auf zwei Lini
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:32px;"> [Eine vertikale Abstands-Bemaßung einfügen](TechDraw_Dimension_Vertical/de.md): Fügt eine vertikale Längenbemaßung hinzu.
+-   <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [Eine vertikale Abstands-Bemaßung einfügen](TechDraw_VerticalDimension/de.md): Fügt eine vertikale Längenbemaßung hinzu.
 
 
 </div>
@@ -108,7 +108,7 @@ Lineare Bemaßungen können auf zwei Punkten, auf einer Linie oder auf zwei Lini
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Radius.svg  style="width:32px;"> [Einen Radius der gewählten Ansicht bemaßen](TechDraw_Dimension_Radius/de.md): Fügt eine Radiusbemaßung zu einem Kreis oder Kreisbogen hinzu.
+-   <img alt="" src=images/TechDraw_RadiusDimension.svg  style="width:32px;"> [Einen Radius der gewählten Ansicht bemaßen](TechDraw_RadiusDimension/de.md): Fügt eine Radiusbemaßung zu einem Kreis oder Kreisbogen hinzu.
 
 
 </div>
@@ -116,7 +116,7 @@ Lineare Bemaßungen können auf zwei Punkten, auf einer Linie oder auf zwei Lini
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Diameter.svg  style="width:32px;"> [Ein neues Durchmessermaß in die gewählte Ansicht einfügen](TechDraw_Dimension_Diameter/de.md): Fügt eine Durchmesserbemaßung zu einem Kreis oder Kreisbogen hinzu.
+-   <img alt="" src=images/TechDraw_DiameterDimension.svg  style="width:32px;"> [Ein neues Durchmessermaß in die gewählte Ansicht einfügen](TechDraw_DiameterDimension/de.md): Fügt eine Durchmesserbemaßung zu einem Kreis oder Kreisbogen hinzu.
 
 
 </div>
@@ -124,7 +124,7 @@ Lineare Bemaßungen können auf zwei Punkten, auf einer Linie oder auf zwei Lini
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Angle.svg  style="width:32px;"> [Winkel bemaßen](TechDraw_Dimension_Angle/de.md): Fügt eine Winkelbemaßung zwischen zwei geraden Linienkanten hinzu.
+-   <img alt="" src=images/TechDraw_AngleDimension.svg  style="width:32px;"> [Winkel bemaßen](TechDraw_AngleDimension/de.md): Fügt eine Winkelbemaßung zwischen zwei geraden Linienkanten hinzu.
 
 
 </div>
@@ -132,7 +132,7 @@ Lineare Bemaßungen können auf zwei Punkten, auf einer Linie oder auf zwei Lini
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Angle3Pt.svg  style="width:32px;"> [Winkelbemaßung mittels 3 Eckpunkten](TechDraw_Dimension_Angle3Pt/de.md): Fügt eine Winkelbemaßung mittels drei Eckpunkten hinzu.
+-   <img alt="" src=images/TechDraw_3PtAngleDimension.svg  style="width:32px;"> [Winkelbemaßung mittels 3 Eckpunkten](TechDraw_3PtAngleDimension/de.md): Fügt eine Winkelbemaßung mittels drei Eckpunkten hinzu.
 
 
 </div>
@@ -140,7 +140,7 @@ Lineare Bemaßungen können auf zwei Punkten, auf einer Linie oder auf zwei Lini
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Horizontal_Extent.svg  style="width:32px;"> [Neue horizontale Ausdehnung](TechDraw_Dimension_Horizontal_Extent/de.md): fügt eine horizontale Ausdehnungsbemaßung hinzu. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_HorizontalExtentDimension.svg  style="width:32px;"> [Neue horizontale Ausdehnung](TechDraw_HorizontalExtentDimension/de.md): fügt eine horizontale Ausdehnungsbemaßung hinzu. <small>(v0.19)</small> 
 
 
 </div>
@@ -148,7 +148,7 @@ Lineare Bemaßungen können auf zwei Punkten, auf einer Linie oder auf zwei Lini
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Vertical_Extent.svg  style="width:32px;"> [Neue vertikale Ausdehnung](TechDraw_Dimension_Vertical_Extent/de.md): fügt eine vertikale Ausdehnungsbemaßung hinzu. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_VerticalExtentDimension.svg  style="width:32px;"> [Neue vertikale Ausdehnung](TechDraw_VerticalExtentDimension/de.md): fügt eine vertikale Ausdehnungsbemaßung hinzu. <small>(v0.19)</small> 
 
 
 </div>
@@ -156,7 +156,7 @@ Lineare Bemaßungen können auf zwei Punkten, auf einer Linie oder auf zwei Lini
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Link.svg  style="width:32px;"> [Eine Abmessung mit einer 3D-Geometrie verlinken](TechDraw_Dimension_Link/de.md): Eine oder mehrere Bemaßungen mit einer 3D-Geometrie verlinken.
+-   <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Eine Abmessung mit einer 3D-Geometrie verlinken](TechDraw_LinkDimension/de.md): Eine oder mehrere Bemaßungen mit einer 3D-Geometrie verlinken.
 
 
 </div>
@@ -172,7 +172,7 @@ Lineare Bemaßungen können auf zwei Punkten, auf einer Linie oder auf zwei Lini
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/TechDraw_Dimension_Landmark.svg  style="width:32px;"> [Neue Leitbemaßung](TechDraw_Dimension_Landmark/de.md): fügt eine Leitbemaßung hinzu. <small>(v0.19)</small> 
+-   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Neue Leitbemaßung](TechDraw_LandmarkDimension/de.md): fügt eine Leitbemaßung hinzu. <small>(v0.19)</small> 
 
 
 </div>
@@ -246,15 +246,83 @@ Das Erweiterungspaket enthält viele nützliche Werkzeuge, um deine TechDraw-Zei
 
 </div>
 
--   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Draw circle centerlines](TechDraw_ExtensionCircleCenterLines.md): adds centerlines to circles and arcs. <small>(v0.20)</small> 
+### Attributes and modifications 
 
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Cosmetic thread hole side view](TechDraw_ExtensionThreadHoleSide.md): adds a symbolic thread to the side view of a hole. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:32px;"> [Ansicht](TechDraw_ExtensionSelectLineAttributes.md): Wähle Stil, Breite und Farbe der Linien. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Cosmetic thread bolt side view](TechDraw_ExtensionThreadBoltSide.md): adds a symbolic thread to the side view of a bolt. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width:32px;"> [Dehnen](TechDraw_ExtensionExtendLine.md): Verlängern einer Linie an beiden Enden. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Cosmetic thread hole bottom view](TechDraw_ExtensionThreadHoleBottom.md): adds symbolic threads to the bottom view of holes. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionShortenLine.svg  style="width:32px;"> [Verkürzen](TechDraw_ExtensionShortenLine.md): Verkürzen einer Linie an beiden Enden. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Cosmetic thread bolt bottom view](TechDraw_ExtensionThreadBoltBottom.md): adds symbolic threads to the bottom view of bolts. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionLockUnlockView.svg  style="width:32px;"> [Sperren/Entsperren](TechDraw_ExtensionLockUnlockView.md): Sperren/Entsperren einer Ansicht. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionPositionSectionView.svg  style="width:32px;"> [Schnittansicht ausrichten](TechDraw_ExtensionPositionSectionView.md): Richte eine Schnittansicht rechtwinkelig zur Quellansicht aus. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionPosHorizChainDimension.svg  style="width:32px;"> [Horizontales Ausrichten](TechDraw_ExtensionPosHorizChainDimension.md): Richte eine horizontale Kettenbemaßung aus. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionPosVertChainDimension.svg  style="width:32px;"> [Vertikal ausrichten](TechDraw_ExtensionPosVertChainDimension.md): Richte eine vertikale Kettenbemaßung aus. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionPosObliqueChainDimension.svg  style="width:32px;"> [Schräg ausrichten](TechDraw_ExtensionPosObliqueChainDimension.md): Richte eine schräge Kettenbemaßung aus. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCascadeHorizDimension.svg  style="width:32px;"> [Horizontale Abstände](TechDraw_ExtensionCascadeHorizDimension.md): Bilde Abstände zwischen horizontalen Maßen. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCascadeVertDimension.svg  style="width:32px;"> [Vertikale Abstände](TechDraw_ExtensionCascadeVertDimension.md): Bilde Abstände zwischen vertikalen Maßen. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCascadeObliqueDimension.svg  style="width:32px;"> [Schräge Abstände](TechDraw_ExtensionCascadeObliqueDimension.md): Bilde Abstände zwischen schrägen Maßen. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionChangeLineAttributes.svg  style="width:32px;"> [Aussehen ändern](TechDraw_ExtensionChangeLineAttributes.md): Ändern von Stil, Breite und Farbe von Linien. <small>(v0.20)</small> 
+
+### Mittellinien und Gewinde 
+
+-   <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width:32px;"> [Mittellinien bei Kreisbogen-Kreis](TechDraw_ExtensionCircleCenterLines.md): Erzeuge Mittellinien bei Kreisen und Kreisbögen. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionHoleCircle.svg  style="width:32px;"> [Loch/Bolzenkreis Mittellinien](TechDraw_ExtensionHoleCircle.md): Zeichne die Mittellinien eines Loch/Bolzenkreises. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionVertexAtIntersection.svg  style="width:32px;"> [Scnittpunkt](TechDraw_ExtensionVertexAtIntersection.md): Erzeuge Konstruktionspunkte im Schnittpunkt von Linien. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width:32px;"> [Kreislinie](TechDraw_ExtensionDrawCosmCircle.md): Zeichne eine Kreislinie durch Mittelpunkt und Radiuspunkt. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionDrawArc.svg  style="width:32px;"> [Kreisbogen](TechDraw_ExtensionDrawArc.md): Zeichne einen gegen den Uhrzeiger rotierenden Kreisbogen. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width:32px;"> [Rechtwinkelig](TechDraw_ExtensionLinePerpendicular.md): Zeichne eine Linie im rechten Winkel auf eine Andere, durch einen Konstruktionspunkt. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionLineParallel.svg  style="width:32px;"> [Parallel](TechDraw_ExtensionLineParallel.md): Zeichne eine Linie parallel zu einer Anderen durch einen Konstruktionspunkt. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleSide.svg  style="width:32px;"> [Bohrungsgewinde im Schnitt](TechDraw_ExtensionThreadHoleSide.md): Füge ein symbolisches Gewinde zum Schnitt einer Bohrung hinzu. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltSide.svg  style="width:32px;"> [Bolzengewinde Seitenansicht](TechDraw_ExtensionThreadBoltSide.md): Füge ein symbolisches Gewinde zur Seitenansicht eines Bolzens hinzu. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:32px;"> [Bohrungsgewinde](TechDraw_ExtensionThreadHoleBottom.md): Füge ein symbolisches Gewinde zu einer von oben gesehenen Bohrung hinzu. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionThreadBoltBottom.svg  style="width:32px;"> [Bolzengewinde](TechDraw_ExtensionThreadBoltBottom.md): Füge ein symbolisches Gewinde zu einem von oben gesehenen Bolzen hinzu. <small>(v0.20)</small> 
+
+### Maße
+
+-   <img alt="" src=images/TechDraw_ExtensionInsertDiameter.svg  style="width:32px;"> [Durchmesserzeichen](TechDraw_ExtensionInsertDiameter.md): Füge ein Durchmesserzeichen als erstes Zeichen ein. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionInsertSquare.svg  style="width:32px;"> [Rohrsymbol](TechDraw_ExtensionInsertSquare.md): Füge eine Rohrsymbol als erstes Zeichen ein. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateHorizChainDimension.svg  style="width:32px;"> [Horizontales Kettenmaß](TechDraw_ExtensionCreateHorizChainDimension.md): Erzeuge ein horizontales Kettenmaß. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateVertChainDimension.svg  style="width:32px;"> [Vertikales Kettenmaß](TechDraw_ExtensionCreateVertChainDimension.md): Erzeuge ein vertikales Kettenmaß. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateObliqueChainDimension.svg  style="width:32px;"> [Schräges Kettenmaß](TechDraw_ExtensionCreateObliqueChainDimension.md): Erzeuge ein schräges Kettenmaß. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateHorizCoordDimension.svg  style="width:32px;"> [Horizontale Stufenbemaßung](TechDraw_ExtensionCreateHorizCoordDimension.md): erzeuge eine horizontale Stufenbemaßung. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateVertCoordDimension.svg  style="width:32px;"> [Vertikale Stufenbemaßung](TechDraw_ExtensionCreateVertCoordDimension.md): Erzeuge eine vertikale Stufenbemaßung. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateObliqueCoordDimension.svg  style="width:32px;"> [Schräge Stufenbemaßung](TechDraw_ExtensionCreateObliqueCoordDimension.md): Erzeuge eine schräge Stufenbemaßung. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateHorizChamferDimension.svg  style="width:32px;"> [Horizontale Fasenbemaßung](TechDraw_ExtensionCreateHorizChamferDimension.md): erzeuge eine horizontale Fasenbemaßung. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateVertChamferDimension.svg  style="width:32px;"> [Vertikale Fasenbemaßung](TechDraw_ExtensionCreateVertChamferDimension.md): erzeuge eine vertikale Fasenbemaßung. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionCreateLengthArc.svg  style="width:32px;"> [Kreisbogen Längenmaß](TechDraw_ExtensionCreateLengthArc.md): erzeuge ein Kreisbogen Längenmaß. <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionIncreaseDecimal.svg  style="width:32px;"> [Genauigkeit vergrößern](TechDraw_ExtensionIncreaseDecimal.md): vergrößere die Anzahl der Dezimalstellen . <small>(v0.20)</small> 
+
+-   <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:32px;"> [Genauigkeit verkleinern](TechDraw_ExtensionDecreaseDecimal.md): verkleinere die Anzahl der Dezimalstellen . <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -320,7 +388,6 @@ Die TechDraw Werkzeuge können in [Makros](macros/de.md) oder aus der [Python](P
 -   TechDraw Zeichnungen und ihre API sind nicht mit dem [Drawing Arbeitsbereich](Drawing_Workbench/de.md) austauschbar. Es ist möglich, Zeichnungsseiten mit einem Pythonskript (`moveViews.py`) in TechDraw Seiten umzuwandeln.
 -   Es ist möglich, sowohl TechDraw Seiten als auch Drawing Seiten im selben FreeCAD Dokument zu verwenden, weil jede Seite vollständig unabhängig voneinander ist.
 -   Es gibt geringfügige Unterschiede bei der Angabe editierbarer Texte in [SVG](SVG/de.md) Vorlagen im Vergleich zum Zeichnungsmodul. In TechDraw beeinflusst die Skalierung des SVG Dokuments die Position der editierbaren Textfelder. Weitere Einzelheiten findest du in der Forumsdiskussion [TechDraw templates scale](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271).
--   Gewinde sind nicht implementiert. Eine mögliche Abhilfe besteht darin, eine [Durchmesserbemaßung](TechDraw_Dimension_Diameter/de.md) zu verwenden und einen geeigneten Text in die \"Format Spec\" Eigenschaft einzufügen, z.B. \"M4x15\".
 -   TechDraw Objekte dürfen in der Baumansicht nicht ausgeschnitten, kopiert und eingefügt werden, da dies im Allgemeinen nicht gut funktioniert.
 
 
@@ -335,7 +402,7 @@ Die TechDraw Werkzeuge können in [Makros](macros/de.md) oder aus der [Python](P
 -   [Erstellen einer neuen Vorlage](TechDraw_TemplateHowTo/de.md): Anweisungen in die Erstellung einer neuen Seitenvorlage in Inkscape zur Benutzung mit dem TechDraw Arbeitsbereich.
 -   [Winkelbemaßung an Bohrungen](Measurement_Of_Angles_On_Holes/de.md): Anweisungen zum Hinzufügen von Mittellinien und nachfolgenden Winkeldarstellungen auf Bohrungen.
 -   [Verschiedenes](TechDraw_HowTo_Page/de.md): Anweisungen für verschiedene Einstellungen wie Zentriermarken usw.
--   [Erstellen eines Teilkreises](TechDraw_Pitch_Circle.md): Anweisungen zum Hinzufügen eines Teilkreises
+-   [Erstellen eines Teilkreises](TechDraw_Pitch_Circle_Tutorial.md): Anweisungen zum Hinzufügen eines Teilkreises.
 
 
 </div>

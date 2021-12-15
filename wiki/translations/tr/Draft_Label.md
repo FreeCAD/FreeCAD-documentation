@@ -55,11 +55,11 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 1.  
     {{Button | <img src="images/_Draft_Label.png_" width= 16px> [Etiket](Draft_Label/tr.md)}}düğmesine basın veya {{KEY | D}} ardından {{KEY | L}} tuşlarına basın.
 
-2.  3D görünümde bir ilk noktaya tıklayın veya bir [ koordinat](Draft_Coordinates/tr.md) yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [ Nokta ekle](Draft_AddPoint_.md)}} düğmesine basın. Bu nokta hedefi gösterir (ok başı). Bu herhangi bir yerde olabilir, bir unsur olması gerekmez.
+2.  3D görünümde bir ilk noktaya tıklayın veya bir koordinat yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} düğmesine basın. Bu nokta hedefi gösterir (ok başı). Bu herhangi bir yerde olabilir, bir unsur olması gerekmez.
 
-3.  3D görünümünde ikinci bir noktaya tıklayın veya bir [ koordinat](Draft_Coordinates/tr.md) yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [ Nokta ekle](Draft_AddPoint/tr_.md)}} düğmesine basın. Bu nokta yatay veya dikey bir liderin başlangıcını gösterir.
+3.  3D görünümünde ikinci bir noktaya tıklayın veya bir koordinat yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} düğmesine basın. Bu nokta yatay veya dikey bir liderin başlangıcını gösterir.
 
-4.  3D görünümünde üçüncü bir noktaya tıklayın veya bir _ [Nokta ekle](Draft_AddPoint/tr_.md)}} düğmesine basın. Bu nokta metnin temel noktasını gösterir.
+4.  3D görünümünde üçüncü bir noktaya tıklayın veya bir koordinat yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} düğmesine basın. Bu nokta metnin temel noktasını gösterir.
 
 
 </div>
@@ -72,7 +72,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 <div class="mw-translate-fuzzy">
 
 -   \"Özel\", \"Ad\", \"Etiket\", \"Konum\", \"Uzunluk\", \"Alan\", \"hacim\" dahil \"Görüntülenecek bilgi türünü seçmek için {{Button | Label type}} tıklayın. \"başlık\" ve \"Malzeme\" olarak etiketleyin.
--   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında {{KEY | Enter}} tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [ Nokta ekle](Draft_AddPoint/tr_.md)}} düğmesine basabilirsiniz.
+-   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında {{KEY | Enter}} tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} düğmesine basabilirsiniz.
 -   Etiketi yerleştirirken, [ Yakalama](Draft_Snap/tr.md) noktanızı mesafeden bağımsız olarak en yakın çıtçıt konumuna zorlamak için {{KEY | Ctrl}} tuşunu basılı tutun.
 -   Geçerli komutu iptal etmek için {{KEY | Esc}} veya {{button | Close}} tuşuna basınız.
 

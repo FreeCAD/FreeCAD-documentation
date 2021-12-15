@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Skizzierer SkizzeBearbeiten
+   Name:Sketcher EditSketch
+   Name/de:Skizzierer SkizzeBearbeiten
    Workbenches:[Skizzierer](Sketcher_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
    MenuLocation:Skizze → Skizze Bearbeiten
    SeeAlso:[ Skizzierer SkizzeVerlassen](Sketcher_LeaveSketch/de.md)

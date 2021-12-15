@@ -22,7 +22,13 @@ Es ist sehr einfach zu bedienen: Drücke die Aufnahmetaste, du wirst aufgeforder
 ![](images/Macros-DE.png ) 
 *Makro Dialog, der die im System verfügbaren Makros auflistet*
 
-Dort können Sie Ihre Makros verwalten, löschen, bearbeiten, duplizieren, installieren oder von Grund auf neue erstellen. Wenn Sie ein Makro bearbeiten, wird es in einem Editor-Fenster geöffnet, wo Sie Änderungen an seinem Code vornehmen können. Neue Makros können (ab FreeCAD v0.17) über die Schaltfläche **Addons...** installiert werden, die den [Addon-Manager](Addon-Manager/de.md) aufruft.
+
+<div class="mw-translate-fuzzy">
+
+Dort können Sie Ihre Makros verwalten, löschen, bearbeiten, duplizieren, installieren oder von Grund auf neue erstellen. Wenn Sie ein Makro bearbeiten, wird es in einem Editor-Fenster geöffnet, wo Sie Änderungen an seinem Code vornehmen können. Neue Makros können (ab FreeCAD v0.17) über die Schaltfläche **Addons...** installiert werden, die den [Addon-Manager](Std_AddonMgr/de.md) aufruft.
+
+
+</div>
 
 ## Beispiel
 
@@ -61,9 +67,12 @@ Du kannst Erweiterungen manuell installieren, es ist jedoch viel einfacher, einf
 -   [Wie man zusätzliche Arbeitsbereiche installiert](How_to_install_additional_workbenches/de.md)
 
 
+
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _ _
 

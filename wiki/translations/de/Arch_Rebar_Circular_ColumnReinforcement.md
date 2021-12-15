@@ -14,7 +14,13 @@
 
 Das [Säulenverstärkung](Arch_Rebar_Circular_ColumnReinforcement/de.md) Werkzeug ermöglicht es dem Anwender, Bewehrungsstäbe innerhalb eines Stützen [Architektur Struktur](Arch_Structure/de.md) Objektes zu erzeugen.
 
+
+<div class="mw-translate-fuzzy">
+
 Dieser Befehl ist Teil des _ über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
+
+
+</div>
 
 <img alt="" src=images/Arch_Rebar_Circular_ColumnReinforcement_example.png  style="width:400px;"> 
 *Bewehrung Rundsäulenverstärkung innerhalb einer Stützen-[Architektur Struktur](Arch_Structure/de.md)*

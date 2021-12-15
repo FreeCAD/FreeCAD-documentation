@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/tr
-   Name:Referans düzlemi oluştur
+   Name:PartDesign Plane
+   Name/tr:Referans düzlemi oluştur
    Workbenches:[Parça tasarım](PartDesign_Workbench/tr.md)
    MenuLocation:Parça tasarım → Referans düzlemi oluştur
    Version:0.17
@@ -59,7 +60,7 @@ A datum plane, as of FreeCAD 0.18, can only be created inside of a <img alt="" s
 
 <div class="mw-translate-fuzzy">
 
-Model ağacındaki Referans düzlemi etiketine çift tıklayın veya sağ tıklayın ve parametrelerini düzenlemek için bağlam menüsünde **Referans Düzenle** seçeneğini seçin . Ek mod ve Ek ofset hakkında daha fazla bilgi için[Ek](Part_Attachment.md) bkz.
+Model ağacındaki Referans düzlemi etiketine çift tıklayın veya sağ tıklayın ve parametrelerini düzenlemek için bağlam menüsünde **Referans Düzenle** seçeneğini seçin . Ek mod ve Ek ofset hakkında daha fazla bilgi için[Ek](Part_EditAttachment.md) bkz.
 
 
 </div>

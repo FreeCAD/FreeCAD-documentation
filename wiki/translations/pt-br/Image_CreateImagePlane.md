@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Image CreateImagePlane
-   MenuLocation:Toolbars → Create a planar image in the 3D space
+   MenuLocation:
    Workbenches:[Image](Image_Workbench.md)
    SeeAlso:[Image Open](Image_Open.md), [Image Scaling](Image_Scaling.md)
 ---
@@ -14,7 +14,7 @@ The [CreateImagePlane](Image_CreateImagePlane.md) tool imports a [bitmap](bitmap
 
 ## Utilização
 
-1.  Press the **<img src="images/Image_CreateImagePlane.svg" width=16px> [Image Plane](Image_CreateImagePlane.md)** button.
+1.  Press the **<img src="images/Image_CreateImagePlane.svg" width=16px> [Image CreateImagePlane](Image_CreateImagePlane.md)** button.
 2.  Select the desired image in your system.
 3.  Choose the plane where the image will be placed, give an offset value, and press **OK**.
 

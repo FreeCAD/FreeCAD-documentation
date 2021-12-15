@@ -18,52 +18,52 @@ print FreeCAD.listDocuments()
 mydoc = FreeCAD.activeDocument()
 
 
-{{APIFunction/jp|ConfigDump| |全てのFreeCAD環境設定が格納された辞書を表示します。| }}
+{{APIFunction|ConfigDump| |全てのFreeCAD環境設定が格納された辞書を表示します。| }}
 
 
-{{APIFunction/jp|ConfigGet|[string]|与えられたキーの値を返します。キーが与えられていない場合は全ての設定が返されます。|文字列}}
+{{APIFunction|ConfigGet|[string]|与えられたキーの値を返します。キーが与えられていない場合は全ての設定が返されます。|文字列}}
 
 
-{{APIFunction/jp|ConfigSet|string, string|与えられたキー（一番目の文字列）に対して与えられた値（二番目の文字列）を設定します。.| }}
+{{APIFunction|ConfigSet|string, string|与えられたキー（一番目の文字列）に対して与えられた値（二番目の文字列）を設定します。.| }}
 
 
-{{APIFunction/jp|Version| |FreeCADのバージョンを表示します。| }}
+{{APIFunction|Version| |FreeCADのバージョンを表示します。| }}
 
 
-{{APIFunction/jp|activeDocument| |アクティブなドキュメントを返します。アクティブなドキュメントが存在しない場合はNoneを返します。|FreeCADドキュメント}}
+{{APIFunction|activeDocument| |アクティブなドキュメントを返します。アクティブなドキュメントが存在しない場合はNoneを返します。|FreeCADドキュメント}}
 
 
-{{APIFunction/jp|addExportType|string, string|FreeCADに新しいエクスポートファイル形式を追加します。一番目の文字列は"Word Document (*.doc)"といった形式でなければなりません。二番目の文字列はexport()関数が定義されたPythonスクリプト/モジュールの名前です。| }}
+{{APIFunction|addExportType|string, string|FreeCADに新しいエクスポートファイル形式を追加します。一番目の文字列は"Word Document (*.doc)"といった形式でなければなりません。二番目の文字列はexport()関数が定義されたPythonスクリプト/モジュールの名前です。| }}
 
 
-{{APIFunction/jp|addImportType|string, string|addExportTypeと同様に新しいインポートファイル形式を追加します。ハンドリング用Pythonモジュールには少なくともopen()関数、import()関数のどちらかが定義されていなければなりません。| }}
+{{APIFunction|addImportType|string, string|addExportTypeと同様に新しいインポートファイル形式を追加します。ハンドリング用Pythonモジュールには少なくともopen()関数、import()関数のどちらかが定義されていなければなりません。| }}
 
 
-{{APIFunction/jp|closeDocument|Document name|与えられたドキュメントを閉じます。| }}
+{{APIFunction|closeDocument|Document name|与えられたドキュメントを閉じます。| }}
 
 
-{{APIFunction/jp|getDocument|Document name|ドキュメントを返します。与えられた名前のドキュメントが存在しない場合は例外を発生させます。| }}
+{{APIFunction|getDocument|Document name|ドキュメントを返します。与えられた名前のドキュメントが存在しない場合は例外を発生させます。| }}
 
 
-{{APIFunction/jp|getExportType|string|指定されたファイル形式をエクスポートできるモジュールの名前を返します。|文字列}}
+{{APIFunction|getExportType|string|指定されたファイル形式をエクスポートできるモジュールの名前を返します。|文字列}}
 
 
-{{APIFunction/jp|getImportType|string|指定されたファイル形式をインポートできるモジュールの名前を返します。|文字列}}
+{{APIFunction|getImportType|string|指定されたファイル形式をインポートできるモジュールの名前を返します。|文字列}}
 
 
-{{APIFunction/jp|listDocuments| |全ドキュメント名のリストを返します。|名前のリスト}}
+{{APIFunction|listDocuments| |全ドキュメント名のリストを返します。|名前のリスト}}
 
 
-{{APIFunction/jp|newDocument|[string]|与えられた名前のドキュメントを新しく作成して返します。ドキュメント名は固有のものでなければならず、これは自動的にチェックされます。名前を指定しない場合、ドキュメントには"Untitled"という名前が付けられます。|新しく作成されたドキュメント}}
+{{APIFunction|newDocument|[string]|与えられた名前のドキュメントを新しく作成して返します。ドキュメント名は固有のものでなければならず、これは自動的にチェックされます。名前を指定しない場合、ドキュメントには"Untitled"という名前が付けられます。|新しく作成されたドキュメント}}
 
 
-{{APIFunction/jp|open|string|openDocumentを参照| }}
+{{APIFunction|open|string|openDocumentを参照| }}
 
 
-{{APIFunction/jp|openDocument|filepath|ドキュメントを作成し、そのドキュメントにプロジェクトファイルを読み込んで返します。引数の文字列は存在するファイルを指していなければなりません。ファイルが存在しない場合、またはファイルを読み込めない場合にはI/O例外が投げられます。その場合に、作成されたドキュメントはそのままですが、空の状態になります。|開かれるFreeCADドキュメント}}
+{{APIFunction|openDocument|filepath|ドキュメントを作成し、そのドキュメントにプロジェクトファイルを読み込んで返します。引数の文字列は存在するファイルを指していなければなりません。ファイルが存在しない場合、またはファイルを読み込めない場合にはI/O例外が投げられます。その場合に、作成されたドキュメントはそのままですが、空の状態になります。|開かれるFreeCADドキュメント}}
 
 
-{{APIFunction/jp|setActiveDocument|Document name|名前を使ってアクティブなドキュメントを設定します。| }}
+{{APIFunction|setActiveDocument|Document name|名前を使ってアクティブなドキュメントを設定します。| }}
 
 
 </div>

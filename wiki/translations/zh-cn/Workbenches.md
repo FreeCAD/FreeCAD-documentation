@@ -87,7 +87,13 @@ The following workbenches are still included in the base installation for compat
 
 FreeCAD工作台很容易在[Python](http://www.python.org)中编程，所以很多人在FreeCAD代码库之外开发了额外的工作台。
 
-_，它在菜单中的位置为**Tools → <img src="images/AddonManager.svg" width=24px> Addon manager**。
+
+<div class="mw-translate-fuzzy">
+
+_，它在菜单中的位置为**Tools → <img src="images/Std_AddonMgr.svg" width=24px> Addon manager**。
+
+
+</div>
 
 新的工作台正在开发中，敬请期待！
 

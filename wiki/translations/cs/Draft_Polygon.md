@@ -40,7 +40,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Stiskněte tlačítko **<img src="images/Draft_Polygon.png" width=16px> [Mnohoúhelník](Draft_Polygon/cs.md)
 ** nebo klávesy **P** a potom **G**
-2.  Klikněte na první bod ve 3D pohledu nebo zadejte jeho [souřadnice](Draft_Coordinates.md) pro určení středu
+2.  Klikněte na první bod ve 3D pohledu nebo zadejte jeho souřadnice pro určení středu
 3.  V dialogovém okně voleb zadejte počet stran,
 4.  Klikněte na další bod ve 3D pohledu nebo zadejte hodnotu definující poloměr mnohoúhelníku. Mnohoúhelník je také povrchem, i když se jeví jako drátový model.
 

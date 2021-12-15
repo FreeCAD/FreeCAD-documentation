@@ -126,24 +126,24 @@ There is another table of contents for the _.
 <div class="mw-translate-fuzzy">
 
 -   Vytváření aplikací pro FreeCAD
-    -   [Licence](Licence.md)
+    -   [Licence](Licence/cs.md)
     -   Kompilování FreeCADu
         -   [Finding assistance](Tracker.md)
-        -   [Kompilace na Windowsech](CompileOnWindows.md)
-        -   [Kompilace na Unixu](CompileOnUnix.md)
-        -   [Kompilace na Macu](CompileOnMac.md)
+        -   [Kompilace na Windowsech](Compile_on_Windows/cs.md)
+        -   [Kompilace na Unixu](Compile_on_Linux/cs.md)
+        -   [Kompilace na Macu](Compile_on_MacOS/cs.md)
         -   [Knihovny třetích stran](Third_Party_Libraries.md)
         -   [Nástroje třetích stran](Third_Party_Tools.md)
-        -   [Spuštění a konfigurace](Start_up_and_Configuration.md)
+        -   [Spuštění a konfigurace](Start_up_and_Configuration/cs.md)
     -   Nástroje pro podporu buildu
         -   [Build nástroj FreeCADu](FreeCAD_Build_Tool.md)
-        -   [Přidání aplikačního modulu](Module_Creation.md)
-        -   [Debugging FreeCADu](Debugging.md)
+        -   [Přidání aplikačního modulu](Workbench_creation.md)
+        -   [Debugging FreeCADu](Debugging/cs.md)
         -   [Testování FreeCADu](Testing.md)
     -   Úpravy FreeCADu
-        -   [Značka](Branding.md)
-        -   [Překládání FreeCADu](Localisation.md)
-        -   [Instalování dodatečných modulů Pythonu](Extra_python_modules.md)
+        -   [Značka](Branding/cs.md)
+        -   [Překládání FreeCADu](Localisation/cs.md)
+        -   [Instalování dodatečných modulů Pythonu](Extra_python_modules/cs.md)
     -   [Zdrojová dokumentace](Source_documentation.md)
 
 

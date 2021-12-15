@@ -13,9 +13,9 @@ La documentación para desarrolladores comprende las siguientes secciones:
 
 -   [Gestión del código fuente](Source_code_management/es.md)
 -   [Encontrar asistencia](Tracker/es.md) cuando tienes un problema o crees que has encontrado un error
--   [Compilación en Windows](CompileOnWindows/es.md)
--   [Compilación en Unix](CompileOnUnix/es.md)
--   [Compilación en OS X](CompileOnMac/es.md)
+-   [Compilación en Windows](Compile_on_Windows/es.md)
+-   [Compilación en Unix](Compile_on_Linux/es.md)
+-   [Compilación en OS X](Compile_on_MacOS/es.md)
 -   [Detalles de la Licencia](Licence/es.md) sobre las licencias de FreeCAD
 -   [Bibliotecas de terceros](Third_Party_Libraries/es.md)
 -   [Herramientas de terceros](Third_Party_Tools/es.md)

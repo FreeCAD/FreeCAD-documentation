@@ -9,7 +9,7 @@
 # WebTools Git/en
 
 
-**Starting from FreeCAD v0.17, this tool has been removed from the Arch Workbench and is now part of the external [[WebTools Workbench]] that you can install via menu Tools → <img src="images/AddonManager.svg" width=24px> [[Addon manager]].
+**Starting from FreeCAD v0.17, this tool has been removed from the Arch Workbench and is now part of the external [Addon manager](WebTools_Workbench]]_that_you_can_install_via_menu_Tools_→_<img_src="images/AddonManager.svg" width=24px> [[Std_AddonMgr.md).
 **
 
 ## Description

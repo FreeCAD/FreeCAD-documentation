@@ -1,13 +1,4 @@
 # Manual:Introduction/zh-cn
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
-
-
 {{Manual:TOC/zh-cn}}
 
 ![150\|center](images/Crystal_Clear_manual.png )
@@ -21,15 +12,6 @@
 本手册正在为 FreeCAD 最新的稳定版本 **0.18** (2019 年初发布)撰写。
 
 本手册的内容都公开，遵照 _，第一次写作的原始文档保存于 [github](https://github.com/yorikvanhavre/FreeCAD-manual) 上的个人账户里。在 [GitBook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) 上有更容易阅读的 HTML, PDF, MOBI 和 EPUB 版本。印刷版正（仍）在准备中。
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 ---
 [documentation index](../README.md) > Manual:Introduction/zh-cn

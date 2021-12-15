@@ -322,15 +322,10 @@ See the forum thread, [How to use ShapeStrings in PartDesign](https://forum.free
 
 ## Notă
 
--   pentru a crea text curb puteți utiliza macrocomanda [Circular Text](Macro_Circular_Text.md) <img alt="" src=images/FCCircularTextButtom.png  style="width:32px;">
--   pentru a importa text din inkscape căutați la [Importing text from inkscape tutorial](Import_text_and_geometry_from_Inkscape.md)
--   Extruziunea Shapestring-Text poate fi de asemenea făcută cu PartDesign-Pad-Tool
--   Amintiți-vă că DraftShapestring-Object nu poate fi atașat la o fațetă (deci nu este posibilă o camandă de realizare a unui cavități-pocket)
-
 
 </div>
 
--   To create curved text you can use the macro <img alt="" src=images/FCCircularTextButtom.png  style="width:32px;"> [Circular Text](Macro_Circular_Text.md).
+-   To create curved text you can use <img alt="" src=images/FCCircularTextButtom.png  style="width:32px;"> [Macro FCCircularText](Macro_FCCircularText.md).
 -   To import text from an SVG file look at the [Import text and geometry from Inkscape](Import_text_and_geometry_from_Inkscape.md) tutorial.
 
 

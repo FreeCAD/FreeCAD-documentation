@@ -10,9 +10,6 @@
 
 # Raytracing ExportProject/fr
 
-
-</div>
-
 ## Description
 
 Exporte le projet de tracé de rayons sélectionné dans un fichier.
@@ -20,20 +17,14 @@ Exporte le projet de tracé de rayons sélectionné dans un fichier.
 ## Utilisation
 
 1.  Sélectionnez un projet de lancer de rayons dans la [Vue en arborescence](Tree_view/fr.md).
-2.  Cliquez sur **<img src="images/Raytrace_ExportProject.svg" width=32px> Exporter le projet...** ou choisir **Lancer de rayon** → **<img src="images/Raytrace_ExportProject.svg" width=32px> Exporter le projet...** dans le menu supérieur.
+2.  Cliquez sur <img alt="" src=images/Raytracing_ExportProject.svg  style="width:32px;"> ou choisir **Lancer de rayon** → **<img src="images/Raytracing_ExportProject.svg" width=32px> Exporter le projet...** dans le menu supérieur.
 
 ## Limitations
 
 ## Remarques
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Raytracing_Tools_navi

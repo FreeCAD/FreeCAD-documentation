@@ -17,7 +17,7 @@ La commande <img alt="" src=images/Draft_Text.svg  style="width:24px;"> **Draft 
 
 Pour créer un élément de texte avec une flèche, utilisez plutôt la commande [Draft Étiquette](Draft_Label/fr.md).
 
-<img alt="" src=images/Draft_Text_example.jpg  style="width:400px;"> 
+<img alt="" src=images/Draft_Text_example.png  style="width:400px;"> 
 *Un seul point est nécessaire pour positionner le texte*
 
 ## Utilisation
@@ -38,11 +38,11 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md) et [Draft Aimantation](Draft_Sna
 Les raccourcis clavier à caractère unique disponibles dans le panneau des tâches peuvent être modifiés. Voir [Draft Préférences](Draft_Preferences/fr.md). Les raccourcis mentionnés ici sont les raccourcis par défaut.
 
 -   Pour saisir manuellement des coordonnées, entrez les valeurs de X, Y et Z et appuyez sur **Entrée** après chacune, ou vous pouvez appuyer sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** lorsque vous avez les valeurs souhaitées. Il est conseillé de déplacer le pointeur hors de la [Vue 3D](3D_view/fr.md) avant de saisir les coordonnées.
--   La case à cocher **Relative** n\'a aucune utilité pour cette commande.
+-   La case à cocher **Relative**, affiché dans FreeCAD version 0.19 et antérieure, n\'a aucune utilité pour cette commande.
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
--   Cliquez sur la case **Continue** du deuxième panneau de tâches pour activer le mode continu. Le raccourci clavier **T** ne fonctionne pas. Si le mode continu est activé, la commande redémarre après avoir été terminée, ce qui vous permet de continuer à créer des textes.
+-   Appuyez sur **T** ou cliquez sur la case **Continuer** pour activer le mode continu. Si le mode continu est activé, la commande redémarre après avoir terminé, ce qui vous permet de continuer à créer des textes. Le raccourci ne fonctionne pas dans le deuxième panneau de tâches. Cette option n\'est pas disponible dans le premier panneau de tâches dans FreeCAD version 0.19 et antérieure.
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
--   Appuyez sur **Echap** ou sur le bouton **Fermer** pour interrompre la commande.
+-   Appuyez sur **Échap** ou sur le bouton **Fermer** pour interrompre la commande.
 
 ## Remarques
 
@@ -113,7 +113,7 @@ text = make_text(string, placement=None, screen=False)
 
 -    `string`est une chaîne de caractères ou une liste de chaînes de caractères. Si c\'est une liste, chaque élément est affiché sur sa propre ligne.
 
--   Si `screen` est `True`, le texte fait toujours face à la caméra, sinon il s\'aligne sur les axes de la scène et se trouve sur le plan XY.
+-   Si `screen` est `True`, le texte fait toujours face à la caméra, sinon il est affiché dans un plan défini par **Placement**.
 
 Les propriétés d\'affichage de `text` peuvent être modifiées en écrasant ses attributs, par exemple en changeant `ViewObject.FontSize` avec la nouvelle taille en millimètres.
 

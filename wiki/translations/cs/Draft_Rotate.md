@@ -36,7 +36,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 1.  Vyberte objekt, který chcete otočit nebo zkopírovat
 2.  Stiskněte tlačítko **<img src="images/Draft_Rotate.png" width=16px> [Kreslení Otočit](Draft_Rotate/cs.md)
 ** nebo klávesy **R** potom **O**
-3.  Klikněte na střed ve 3D pohledu nebo zadejte [souřadnice](Draft_Coordinates/cs.md)
+3.  Klikněte na střed ve 3D pohledu nebo zadejte souřadnice
 4.  Klikněte na druhý bod ve 3D pohledu nebo zadejte referenční úhel
 5.  Klikněte na třetí bod ve 3D pohledu nebo zadejte úhel otočení
 

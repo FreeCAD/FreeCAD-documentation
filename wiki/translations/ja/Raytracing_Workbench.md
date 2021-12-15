@@ -6,38 +6,7 @@ Nevertheless, the information in this page is generally useful for the new workb
 
 <img alt="Raytracing workbench icon" src=images/Workbench_Raytracing.svg  style="width:128px;">
 
-このモジュールはシーンの内容を外部の[レンダラー](http://en.wikipedia.org/wiki/Rendering_(computer_graphics))に送り出し、作業物のフォトリアリスティックな画像を生成することを目標にしています。レイトレーシングモジュールはまだまだ未完成な初期段階にあり、今のところはそう多くの機能はありません。現在はパートオブジェクトを[POV-ray](http://en.wikipedia.org/wiki/POV-Ray)ファイルとしてエクスポートするための基本的なツールのみ実装されています。エクスポートしたファイルはPOV-rayで読み込んでレンダリングすることができます。
-
-### GUIツール
-
-
-{{Raytracing Tools/jp}}
-
-### ビューのエクスポート
-
-もっとも簡単な方法は現在の3Dビューとその内容全てを[POV-ray](http://www.povray.org/)ファイルにエクスポートするというものです。まずCADデータを読み込むか作成するかし、適当な3D表示の位置に設定する必要があります。その後、Raytracingメニューから\"Export View\...\"を選択します。
-
-<img alt="" src=images/FreeCAD_Raytracing.jpg  style="width:800px;">
-
-結果\*.povファイルの保存位置を尋ねられます。保存が終わると[POV-ray](http://www.povray.org/)でそれを開き、レンダリングすることができます。
-
-![](images/Povray.jpg )
-
-普段、レンダラーで行うのと同じように大きくてきれいな画像を作成できます：
-
-<img alt="" src=images/Scharniergreifer_render.jpg  style="width:800px;">
-
-### スクリプト処理
-
-モジュールの機能をPythonから使用する方法です：
-
-import Raytracing,RaytracingGui
-OutFile = open('C:/Documents and Settings/jriegel/Desktop/test.pov','w')
-OutFile.write(open(App.getResourceDir()+'Mod/Raytracing/Templates/ProjectStd.pov').read())
-OutFile.write(RaytracingGui.povViewCamera())
-OutFile.write(Raytracing.getPartAsPovray('Box',App.activeDocument().Box.Shape,0.800000,0.800000,0.800000))
-OutFile.close()
-del OutFile
+## Introduction
 
 
 {{TOCright}}
@@ -73,12 +42,12 @@ Currently, two renderers are supported: [POV-Ray](POV-Ray.md) and [LuxRender](Lu
 
 These are the main tools for exporting your 3D work to external renderers.
 
--   <img alt="" src=images/Raytrace_New.svg  style="width:32px;"> [New PovRay project](Raytracing_New.md): Insert new PovRay project in the document
--   <img alt="" src=images/Raytrace_Lux.svg  style="width:32px;"> [New LuxRender project](Raytracing_Lux.md): Insert new LuxRender project in the document
--   <img alt="" src=images/Raytrace_NewPartSegment.svg  style="width:32px;"> [Insert part](Raytracing_InsertPart.md): Insert a view of a Part in a raytracing project
--   <img alt="" src=images/Raytrace_ResetCamera.svg  style="width:32px;"> [Reset camera](Raytracing_ResetCamera.md): Matches the camera position of a raytracing project to the current view
--   <img alt="" src=images/Raytrace_ExportProject.svg  style="width:32px;"> [Export project](Raytracing_ExportProject.md): Exports a raytracing project to a scene file for rendering in an external renderer
--   <img alt="" src=images/Raytrace_Render.svg  style="width:32px;"> [Render](Raytracing_Render.md): Renders a raytracing project with an external renderer
+-   <img alt="" src=images/Raytracing_New.svg  style="width:32px;"> [New PovRay project](Raytracing_New.md): Insert new PovRay project in the document
+-   <img alt="" src=images/Raytracing_Lux.svg  style="width:32px;"> [New LuxRender project](Raytracing_Lux.md): Insert new LuxRender project in the document
+-   <img alt="" src=images/Raytracing_InsertPart.svg  style="width:32px;"> [Insert part](Raytracing_InsertPart.md): Insert a view of a Part in a raytracing project
+-   <img alt="" src=images/Raytracing_ResetCamera.svg  style="width:32px;"> [Reset camera](Raytracing_ResetCamera.md): Matches the camera position of a raytracing project to the current view
+-   <img alt="" src=images/Raytracing_ExportProject.svg  style="width:32px;"> [Export project](Raytracing_ExportProject.md): Exports a raytracing project to a scene file for rendering in an external renderer
+-   <img alt="" src=images/Raytracing_Render.svg  style="width:32px;"> [Render](Raytracing_Render.md): Renders a raytracing project with an external renderer
 
 ### Utilities
 
@@ -107,7 +76,7 @@ You will be asked for a location to save the resulting \*.pov file. After that y
 
 As usual in a renderer you can make big and nice pictures: <img alt="" src=images/Scharniergreifer_render.jpg  style="width:800px;">
 
-## スクリプト処理 
+## スクリプト処理
 
 See the [Raytracing API example](Raytracing_API_example.md) for information on writing scenes programmatically.
 

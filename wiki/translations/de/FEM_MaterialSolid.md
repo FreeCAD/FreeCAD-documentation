@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:FEM WerkstoffVolumenkörper
+   Name:FEM MaterialSolid
+   Name/de:FEM WerkstoffVolumenkörper
    MenuLocation:Modell → FEM Werkstoff für Volumenkörper
    Workbenches:[FEM](FEM_Workbench/de.md)
    Shortcut:**M** **M**

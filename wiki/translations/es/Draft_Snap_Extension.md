@@ -7,34 +7,9 @@
 
 ## Descripción
 
-Este método se ajusta a un punto en una línea imaginaria que se extiende más allá de los puntos finales de los segmentos de línea.
-
-<img alt="" src=images/Draft_Snap_Extension.png  style="width:400px;">
-
-
-
-*Snapping the second point of a line to the extension of another line*
-
-## Utilización
-
-1.  Asegúrese de que {{Button | <img src="images/_Snap_Lock.svg_" width= 16px> [ Draft ToggleSnap](Draft_ToggleSnap_.md)}} y **<img src="images/Snap_Extension.svg" width=16px> [Snap Extension](Draft_Extension.md)** está activada.
-2.  Elija una herramienta de borrador para dibujar una forma.
-3.  Coloque el cursor cerca de los puntos finales del segmento de línea que desea extender.
-4.  Al alejar el puntero del segmento de línea, pero manteniendo la misma pendiente, la línea discontinua indica la extensión de la línea original.
-5.  Haga clic para adjuntar su nuevo punto.
-
-
-
-
-
-
-
-
-
-
 The <img alt="" src=images/Draft_Snap_Extension.svg  style="width:24px;"> **Draft Snap Extension** option snaps to an imaginary line that extends beyond the endpoints of straight edges. The edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
 
-Up to two edged can be referenced by this snap option and [Draft Snap Parallel](Draft_Snap_Parallel.md), making it possible to snap to virtual intersections. Both snap options can also be combined with other snap options.
+Up to 2 (or 8 <small>(v0.20)</small> ) edges can be referenced by this snap option and [Draft Snap Parallel](Draft_Snap_Parallel.md), making it possible to snap to virtual intersections. Both snap options can also be combined with other snap options.
 
 ![](images/Draft_Snap_Extension_example.png ) 
 *Snapping the second point of a line to the extension of an edge*

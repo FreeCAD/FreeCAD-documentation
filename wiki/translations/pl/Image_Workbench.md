@@ -1,17 +1,17 @@
 # <img alt="Ikonka FreeCAD dla Środowiska pracy Obraz" src=images/Workbench_Image.svg  style="width:64px;"> Image Workbench/pl
 
-## Wprowadzenie
-
 
 {{TOCright}}
+
+## Wprowadzenie
 
 Środowisko pracy <img alt="" src=images/Workbench_Image.svg  style="width:24px;"> [Obraz](Image_Workbench/pl.md) zarządza różnymi typami plików graficznych [bitmap](bitmap/pl.md) i umożliwia ich otwarcie w programie FreeCAD.
 
 ## Przybory
 
 -   <img alt="" src=images/Image_Open.svg  style="width:32px;"> [Otwórz widok obrazu](Image_Open/pl.md): otwórz obraz na nowej rzutni.
--   <img alt="" src=images/Image-import-to-plane.svg  style="width:32px;"> [Tworzy płaski obraz w przestrzeni 3D](Image_CreateImagePlane/pl.md): zaimportuj obraz do płaszczyzny w widoku 3D.
--   <img alt="" src=images/Image-scale.svg  style="width:32px;"> [Skaluje płaszczyznę obrazu \...](Image_Scaling/pl.md): skalowanie zaimportowanego obrazu do płaszczyzny.
+-   <img alt="" src=images/Image_CreateImagePlane.svg  style="width:32px;"> [Tworzy płaski obraz w przestrzeni 3D](Image_CreateImagePlane/pl.md): zaimportuj obraz do płaszczyzny w widoku 3D.
+-   <img alt="" src=images/Image_Scaling.svg  style="width:32px;"> [Skaluje płaszczyznę obrazu \...](Image_Scaling/pl.md): skalowanie zaimportowanego obrazu do płaszczyzny.
 
 ## Funkcje
 

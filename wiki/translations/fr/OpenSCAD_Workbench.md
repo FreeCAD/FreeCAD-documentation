@@ -67,11 +67,28 @@ OpenSCAD permet la construction de formes géométriques solides, comme l\'impor
 
 OpenSCAD fonctionne en interne avec les maillages (mesh). Certaines opérations qui sont utiles sur les maillages ne sont pas significatives sur un modèle BREP et peuvent ne pas être entièrement supporté. Parmi celle-ci figurent le recouvrement convexe, la somme de Minkowski, glide et subdiv. Pour l'instant OpenSCAD est exécuté pour réaliser le recouvrement convexe et la somme de Minkowski et importer le résultat. Cela signifie que la géométrie impliquée sera triangulée. Avec OpenSCAD la mise à l'échelle non uniforme est souvent utilisée, ce qui ne pose pas de problèmes avec les maillages. Avec notre noyau géométrique, les formes primitives (lignes, sections circulaires, etc) sont converties en BSpline avant d'être déformées. Ces BSplines sont connues pour poser problèmes avec des opérations booléennes futures. Une solution automatique n'est pas disponible pour le moment. S'il vous plaît n'hésitez pas à poster sur le [forum](http://forum.freecadweb.org/) si vous rencontrez ce genre de problème. Souvent ce genre de problèmes peut être résolu en modélisant des parties plus petites. Une déformation d'un cylindre peut être remplacée par l'extrusion d'une ellipse.
 
+## Importer du texte 
+
+L\'importation de code OpenSCAD avec des textes nécessite que les polices utilisées soient correctement installées sur votre système. Vous pouvez le vérifier en ouvrant OpenSCAD en tant qu\'outil autonome et en consultant la liste dans **Aide → Liste des polices**. La liste vous donnera également les noms de polices corrects. Si une police n\'apparaît pas dans la liste après l\'installation, vous devrez peut-être copier manuellement le fichier de police dans le répertoire système approprié.
+
+L\'importation de textes est relativement lente. Dans les coulisses, FreeCAD utilise un fichier DXF créé par OpenSCAD. Plus il y a de contours, plus l\'importation est lente.
+
+Il peut être judicieux d\'importer d\'abord un cas de test simple (remplacer {{Incode|NameOfFont}} par le nom correct de la police) :
+
+    TESTFONT="NameOfFont";
+    linear_extrude(0.001) {
+      text("A", size=5, font=TESTFONT, script="Latn");
+    };
+
+Le paramètre {{Incode|<nowiki>script="Latn"</nowiki>}} peut être omis ici, mais il est requis si la chaîne de texte ne contient pas de lettres, mais uniquement des signes de ponctuation et/ou des chiffres.
+
+Veuillez noter que les instructions {{Incode|<nowiki>use <FONT>;</nowiki>}} dans vos fichiers sources sont ignorées lors de l\'importation dans FreeCAD. Sous OpenSCAD, l\'effet d\'une instruction {{Incode|use}} est que le fichier de police fourni est temporairement ajouté à la liste des polices connues (bien que même là, l\'instruction ne fonctionne pas lorsqu\'un script est modifié interactivement).
+
 ## Conseils
 
 Lors de l\'importation du fichier [DXF](DXF/fr.md), il faut définir la précision du projet à une valeur raisonnable, car cela aura une incidence sur la détection des arêtes connectées.
 
-Si FreeCAD se bloque lors de l\'importation de CSG, il est fortement recommandé d\'activer la case à cocher *Vérifier les modèles automatiquement après une opération booléenne* dans le menu **Édition → Préférences → Conception de pièces → Général → Paramètres de modèle**
+Si FreeCAD se bloque lors de l\'importation de CSG, il est fortement recommandé d\'activer la case à cocher \"Vérifier les modèles automatiquement après une opération booléenne\" dans le menu **Édition → Préférences → Conception de pièces → Général → Paramètres de modèle**
 
 ## Tutoriels
 
@@ -80,7 +97,7 @@ Si FreeCAD se bloque lors de l\'importation de CSG, il est fortement recommandé
 ## Liens
 
 -   Dépôt du code source d\'OpenSCAD [GitHub](https://github.com/openscad/openscad)
--   [Open tickets tagged \"Openscad\" sur le FreeCAD bugtracker](https://freecadweb.org/tracker/search.php?tag_string=OpenSCAD)
+-   [Tickets ouverts étiquetés \"Openscad\" sur le bugtracker deFreeCAD](https://freecadweb.org/tracker/search.php?tag_string=OpenSCAD)
 -   [Plus de renseignements au sujet d\'Openscad sur Thingiverse](http://www.thingiverse.com/tag:openscad)
 
 

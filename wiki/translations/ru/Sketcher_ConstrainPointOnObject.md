@@ -26,7 +26,13 @@
 
 ## Программирование
 
+
+<div class="mw-translate-fuzzy">
+
 Ограничения можно создавать макросами и в консоли python, используя следующие команды:
+
+
+</div>
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`

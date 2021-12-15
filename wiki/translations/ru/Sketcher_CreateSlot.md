@@ -18,8 +18,18 @@
 
 ## Применение
 
+
+<div class="mw-translate-fuzzy">
+
 -   После нажатия кнопки <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:24px;"> **Паз** на панели инструментов, укажите центр одного полукруга кликом мыши, затем переместите мышь и сделайте второй клик, чтобы задать конечную точку второго полукруга.
 -   Нажатие **Esc** или нажатие правой кнопки мыши отменяет данную функцию.
+
+
+</div>
+
+## Notes
+
+-   A slot can also be constrained horizontally or vertically if the **Auto constraints** option is enabled. <small>(v0.20)</small> 
 
 
 

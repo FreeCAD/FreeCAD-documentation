@@ -26,7 +26,7 @@ Setează camera pentru proiectul selectat de raytracing pentru a se potrivi cu v
 
 1.  Selectați proiectul raytracing în vizualizarea arborescentă
 2.  Asigurați-vă că vizualizarea este setată la [ perspectivă](Std_PerspectiveCamera.md)
-3.  Click pe _ sau alegeți {{KEY | Raytracing}} → {{KEY | _ Resetați camera}} din meniul principal
+3.  Click pe ![ 32px](images/_Raytracing_ResetCamera.svg ) sau alegeți {{KEY | Raytracing}} → {{KEY | <img src="images/_Raytracing_ResetCamera.svg_" width= 32px> Resetați camera}} din meniul principal
 4.  Selectarea unui proiect raytracing în vizualizarea arborescentă și vizualizarea tab-ului de date din vizualizarea proprietății va afișa proprietățile curente ale camerei
 
 

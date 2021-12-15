@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Cet exemple est destiné à montrer comment simuler le 6ème exemple de _. Ce tutoriel illustre comment configurer l\'exemple, étudier ses différentes parties, le résoudre en utilisant le [FEM Solveur Elmer](FEM_SolverElmer/fr.md) et visualiser les résultats en utilisant [FEM Filtre rattaché à une région](FEM_PostCreateClipFilter/fr.md).
+Cet exemple est destiné à montrer comment simuler le 6ème exemple de _. Ce tutoriel illustre comment configurer l\'exemple, étudier ses différentes parties, le résoudre en utilisant le [FEM Solveur Elmer](FEM_SolverElmer/fr.md) et visualiser les résultats en utilisant [FEM Filtre rattaché à une région](FEM_PostFilterClipRegion/fr.md).
 
 <img alt="" src=images/Two_balls_result_2.png  style="width:1200px;">
 
@@ -113,7 +113,7 @@ Ce cas présente la solution de la capacité de sphères parfaitement conductric
     StatElecSolve:   1  2    1.70071E+00
     StatElecSolve:   2  2    5.07960E+00
 
--   Ici, le résultat souhaité est C~12~ = 1.70071. Cette valeur est proche du `1.691` donné dans les _ plus fine mais cette activité est laissée à l\'utilisateur. Il est également conseillé à l\'utilisateur de jouer avec le [FEM Filtre rattaché à une région](FEM_PostCreateClipFilter/fr.md) pour obtenir un résultat visuel similaire à la première image de ce tutoriel.
+-   Ici, le résultat souhaité est C~12~ = 1.70071. Cette valeur est proche du `1.691` donné dans les _ plus fine mais cette activité est laissée à l\'utilisateur. Il est également conseillé à l\'utilisateur de jouer avec le [FEM Filtre rattaché à une région](FEM_PostFilterClipRegion/fr.md) pour obtenir un résultat visuel similaire à la première image de ce tutoriel.
 
 
 {{Tutorials navi

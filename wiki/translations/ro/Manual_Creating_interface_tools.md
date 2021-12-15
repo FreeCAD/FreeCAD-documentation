@@ -47,7 +47,7 @@ Să începem prin crearea unui widget. Start Qt Creator, apoi meniul **File -\> 
 
 <div class="mw-translate-fuzzy">
 
--   Acum plasați 3 **Double Spin Box** widgets lângă etichetele Lungime, Lățime și Înălțime. Pentru fiecare dintre ele, în panoul din stânga jos, care arată toate setările disponibile pentru widgetul selectat, localizați **Suffix** și definiți sufixul în **mm**. FreeCAD are un widget mai avansat, care poate gestiona unități diferite, dar acest lucru nu este disponibil în mod implicit în Creator Qt (dar poate fi compilat [compiled](CompileOnUnix#Qt_designer_plugin.md)), așa că vom folosi o Double Spin Box standard și vom adăuga sufixul \"mm\" pentru a ne asigura că utilizatorul știe în ce unități lucrează:
+-   Acum plasați 3 **Double Spin Box** widgets lângă etichetele Lungime, Lățime și Înălțime. Pentru fiecare dintre ele, în panoul din stânga jos, care arată toate setările disponibile pentru widgetul selectat, localizați **Suffix** și definiți sufixul în **mm**. FreeCAD are un widget mai avansat, care poate gestiona unități diferite, dar acest lucru nu este disponibil în mod implicit în Creator Qt (dar poate fi compilat [compiled](Compile_on_Linux#Qt_designer_plugin.md)), așa că vom folosi o Double Spin Box standard și vom adăuga sufixul \"mm\" pentru a ne asigura că utilizatorul știe în ce unități lucrează:
 
 
 </div>

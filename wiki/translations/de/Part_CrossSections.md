@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/de
-   Name:Part SectionCross
+   Name:Part CrossSections
    Name/de:Part SchnittQuer
    MenuLocation:Part → Querschnitte...
    Workbenches:[Part](Part_Workbench/de.md)

@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-La herramienta de biblioteca le permite colocar, en el modelo actual, un objeto de la [FreeCAD Parts Library](Parts_Library.md), que debe instalarse a través del [Addon Manager](Addon_Manager.md) para que esta herramienta esté disponible.
+La herramienta de biblioteca le permite colocar, en el modelo actual, un objeto de la [FreeCAD Parts Library](Parts_Library.md), que debe instalarse a través del [Addon Manager](Std_AddonMgr.md) para que esta herramienta esté disponible.
 
 
 </div>

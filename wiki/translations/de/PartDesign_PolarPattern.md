@@ -10,7 +10,7 @@
 
 ## Beschreibung
 
-Das **Polarmuster** Werkzeug nimmt ein ausgewähltes Formelement und erstellt eine Reihe von Kopien, die um eine ausgewählte Achse gedreht sind. Ab Version 0.17 kann es mehrere Formelemente mustern.
+Das **Polarmuster**-Werkzeug nimmt ein ausgewähltes Formelement und erstellt eine Reihe von Kopien, die sich um eine ausgewählte Achse reihen. Ab <small>(v0.17)</small>  Eine Anzahl Formelemente kann aneinander gereiht werden.
 
 ![](images/PartDesign_PolarPattern_example.png )
 
@@ -20,11 +20,11 @@ Das **Polarmuster** Werkzeug nimmt ein ausgewähltes Formelement und erstellt ei
 
 #### Ein Muster erstellen 
 
-1.  Wähle (Optional) das Formelement ({{Version/de|0.19}} oder mehrere Formelemente), die gemustert werden sollen.
-2.  Drücke die **<img src=images/PartDesign_PolarPattern.svg style="width:24px">** **PolarMuster** Schaltfläche.
-    -   Falls du kein Element ausgewählt haben solltest kannst du ein *einziges* Grundelement auswählen.
-3.  Definiere die **Achse**. Siehe [Optionen](#Options/de.md).
-4.  Definiere den **Winkel** zwischen dem letzten kopierten Auftreten und dem Original Formelement.
+1.  Wähle (optional) das Formelement (oder {{Version/de|0.19}} mehrere Formelemente), die gemustert werden sollen.
+2.  Drücke die **<img src="images/PartDesign_PolarPattern.svg" width=16px> '''PolarPattern'''** Schaltfläche.
+    -   Falls du kein Element ausgewählt haben solltest, kannst du ein *einziges* Grundelement auswählen.
+3.  Lege die **Achse** fest, siehe [Optionen](#Options/de.md).
+4.  Lege den **Winkel** zwischen dem letzten, kopierten Auftreten und dem originalen Formelement fest.
 5.  Lege die Anzahl der **Häufigkeiten** fest.
 6.  Wenn du mehrere Formelemente im Muster hast, kann deren Reihenfolge wichtig sein, siehe Abbildung unten.
 7.  Drücke **OK**.
@@ -44,17 +44,17 @@ Du kannst durch Ziehen des Formelements in der Liste die Reihenfolge ändern, un
 ###### v0.18
 
 1.  Drücke **Formelement hinzufügen**, um ein Formelement hinzuzufügen, das gemustert werden soll. Das Formelement muss in der [3D Ansicht](3D_view/de.md) sichtbar sein:
-    1.  Wechsle in den Modellbaum;
-    2.  Wähle in der Struktur das hinzuzufügende Formelement aus und drücke die **Leertaste**, um es in der [3D Ansicht](3D_view/de.md) sichtbar zu machen;
-    3.  Wechsle zurück zum Aufgabenpaneel;
+    1.  Wechsle in den Baumansicht;
+    2.  Wähle in der Baumansicht das hinzuzufügende Formelement aus und drücke die **Leertaste**, um es in der [3D Ansicht](3D_view/de.md) sichtbar zu machen.
+    3.  Wechsle zurück in die Aufgabenansicht;
     4.  Wähle das Formelement in der 3D Ansicht; es wird der Liste hinzugefügt.
     5.  Wiederhole dies um weitere Formelemente hinzuzufügen.
 
 ###### v0.19
 
-1.  Drücke **Formelement hinzufügen**, um ein zu bemusterndes Formelement hinzuzufügen.
-2.  Wechsle zum Modellbaum;
-3.  Wähle in der Baumstruktur das hinzuzufügende Formelement.
+1.  Drücke **Formelement hinzufügen**, um ein Formelement hinzuzufügen, das einem Muster beigefügt werden soll.
+2.  Wechsle zur Baumansicht.
+3.  Wähle in der Baumansicht das hinzuzufügende Formelement.
 4.  Wiederhole den Vorgang, um weitere Formelemente hinzuzufügen.
 
 #### Formelemente entfernen 
@@ -63,18 +63,20 @@ Du kannst durch Ziehen des Formelements in der Liste die Reihenfolge ändern, un
 
 oder
 
+###### v0.18 
+
 1.  Drücke **Formelement entfernen** um ein Formelement aus der Liste zu entfernen. Das Formelement muss in der [3D Ansicht](3D_view/de.md) sichtbar sein:
-    1.  Wechsle in den Modellbaum;
-    2.  Wähle im Baum das zu entfernende Formelement aus und drücke die **Leertaste**, um es in der [3D Ansicht](3D_view/de.md) sichtbar zu machen;
-    3.  Wechsle zurück zum Aufgabenpaneel;
+    1.  Wechsle in die Baumansicht.
+    2.  Wähle in der Baumansicht das zu entfernende Formelement aus und drücke die **Leertaste**, um es in der [3D Ansicht](3D_view/de.md) sichtbar zu machen;
+    3.  Wechsle zurück zum Aufgabenansicht.
     4.  Wähle das Formelement in der 3D Ansicht; es sollte aus der Liste entfernt worden sein.
     5.  Wiederhole dies um weitere Formelemente zu entfernen.
 
 ###### v0.19 
 
 1.  Drücke **Formelement entfernen**, um ein Formelement aus der Liste zu entfernen.
-2.  Wechsle zum Modellbaum;
-3.  Wähle im Baum das zu entfernende Formelement.
+2.  Wechsle zur Baumansicht;
+3.  Wähle in der Baumansicht das zu entfernende Formelement.
 4.  Wiederhole den Vorgang, um andere Formelemente zu entfernen.
 
 ## Optionen
@@ -87,8 +89,8 @@ Beim Erstellen eines Polaren Form-Musters bietet der Dialog \"Polardiagramm-Para
 
 #### Normale Skizzenachse 
 
-Eine Achse, die normal zur Skizze ist und im Ursprung der Skizze des verwendeten Merkmals beginnt, wird als Achse für das polare Muster genommen.
-Die Drehrichtung des Musters kann umgekehrt werden, indem Sie auf \"Richtung umkehren\" klicken.
+Eine Achse, die eine Normale zur Skizze ist und im Ursprung der Skizze des verwendeten Formelementes beginnt, wird als Achse für das polare Muster genommen.
+Die Ausrichtung des Musters kann umgekehrt werden, indem Sie auf \"Richtung umkehren\" klicken.
 
 #### Horizontale Skizzenachse 
 
@@ -115,15 +117,20 @@ Erlaubt Dir, entweder eine Bezugslinie oder eine Kante eines Objekts oder eine L
 
 ### Winkel und Häufigkeiten 
 
-Gibt den Winkel an, der vom Muster abgedeckt werden soll, sowie die Gesamtzahl der Musterformen (einschließlich des ursprünglichen Formelements). Zum Beispiel würden vier Vorkommen in einem Winkel von 180 Grad einen Abstand von 60 Grad zwischen Mustern ergeben. Es gibt eine Ausnahme: Wenn der Winkel 360 Grad beträgt werden z.b vier Vorkommen um 90 Grad voneinander getrennt, weil das erste und das letzte Vorkommen identisch sind. 
-
+Gibt den Winkel an, der vom Muster abgedeckt werden soll, sowie die Gesamtzahl der Musterformen (einschließlich des ursprünglichen Formelements). Zum Beispiel würden vier Vorkommen in einem Winkel von 180 Grad einen Abstand von 60 Grad zwischen Mustern ergeben. Es gibt eine Ausnahme: Wenn der Winkel 360 Grad beträgt, sodass das erste und das letzte Vorkommen identisch sind, werden vier Vorkommen um 90 Grad voneinander getrennt.
 
 ## Begrenzungen
+
+
+<div class="mw-translate-fuzzy">
 
 -   Siehe [Begrenzungen der linearen Musterformelemente](PartDesign_LinearPattern/de#Begrenzungen.md)
 
 
 
+
+
+</div>
 
 
 

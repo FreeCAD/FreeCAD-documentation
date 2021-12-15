@@ -1,4 +1,4 @@
-# <img alt="Assembly3 workbench icon" src=images/Assembly3_workbench_icon.svg  style="width:64px;"> Assembly3 Workbench/fr
+# <img alt="Icône de l\'atelier Assembly3" src=images/Assembly3_workbench_icon.svg  style="width:64px;"> Assembly3 Workbench/fr
 
 
 {{TOCright}}
@@ -309,7 +309,7 @@ Vous pouvez les activer en sélectionnant le bouton **<img src="images/Assembly_
 
 #### Barre d\'outils de mesure 
 
-:   <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasurePointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/_Assembly_MeasureAngle.svg‎‎  style="width:28px;">
+:   <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasurePointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_MeasureAngle.svg‎‎  style="width:28px;">
 
 
 <div class="mw-collapsible mw-collapsed">
@@ -477,7 +477,7 @@ Maintenant, le *Cylindre* devrait être sur le dessus du *Cube*. Si le tout est 
 :   Nous avons omis une étape importante qui devrait être faite dans les grands assemblages : Verrouiller une pièce de base.
 :   Cela signifie définir une partie qui ne doit pas être déplacée par les contraintes. Dans cet exemple, nous utilisons le **Cube** pour cela :
     -   Sélectionnez la face inférieure du *Cube*. Seulement la face inférieure, pas tout le *Cube*.
-    -   sélectionnez le {{Bouton|<img src="images/Assembly_ConstraintLock.svg" width=16px> [Contrainte de verrouillage](Assembly3_ConstraintLock/fr.md)}} dans la [Barre d\'outils des contraintes principales](#Barre_d.27outils_des_contraintes_principales.md).
+    -   sélectionnez le **<img src="images/Assembly_ConstraintLock.svg" width=16px> [Contrainte de verrouillage](Assembly3_ConstraintLock/fr.md)** dans la [Barre d\'outils des contraintes principales](#Barre_d.27outils_des_contraintes_principales.md).
 
 Fait.
 

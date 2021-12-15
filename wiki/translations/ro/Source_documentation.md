@@ -48,7 +48,7 @@ Dacă aveți instalat Doxygen, este foarte ușor să construiți documentul. Duc
 sudo apt install doxygen graphviz
 ```
 
-Then follow the same steps you would do to compile FreeCAD, as described on the [compile on Unix](Compile_on_Linux/Unix.md) page, and summarized here for convenience.
+Then follow the same steps you would do to compile FreeCAD, as described on the [compile on Linux](Compile_on_Linux.md) page, and summarized here for convenience.
 
 -   Get the source code of FreeCAD and place it in its own directory `freecad-source`.
 -   Create another directory `freecad-build` in which you will compile FreeCAD and its documentation.

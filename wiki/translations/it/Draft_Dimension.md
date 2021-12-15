@@ -34,7 +34,7 @@ Lo strumento può misurare bordi o linee direttamente collegate a corpi solidi; 
 
 <div class="mw-translate-fuzzy">
 
-La dimensione risultante viene posizionata nella vista 3D ed è considerata un oggetto Draft. Questo oggetto può essere visualizzato in una pagina di [TechDraw](TechDraw_Workbench/it.md) utilizzando gli strumenti [Vista Draft](TechDraw_NewDraft/it.md) o [Vista Arch](TechDraw_NewArch/it.md). In alternativa, TechDraw ha i propri strumenti per visualizzare le dimensioni, ad esempio [Lunghezza](TechDraw_Dimension_Length/it.md) e [Raggio](TechDraw_Dimension_Radius/it.md); però, questi strumenti sono pensati per preparare disegni tecnici, quindi creano le quote solo nella pagina di disegno e non nella vista 3D.
+La dimensione risultante viene posizionata nella vista 3D ed è considerata un oggetto Draft. Questo oggetto può essere visualizzato in una pagina di [TechDraw](TechDraw_Workbench/it.md) utilizzando gli strumenti [Vista Draft](TechDraw_DraftView/it.md) o [Vista Arch](TechDraw_ArchView/it.md). In alternativa, TechDraw ha i propri strumenti per visualizzare le dimensioni. Però, questi strumenti sono pensati per preparare disegni tecnici, quindi creano le quote solo nella pagina di disegno e non nella vista 3D.
 
 
 </div>
@@ -67,9 +67,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 <div class="mw-translate-fuzzy">
 
 1.  Premere il pulsante **<img src="images/Draft_Dimension.svg" width=16px> [Quota](Draft_Dimension/it.md)**, o premere i tasti **D** e poi **I**.
-2.  Selezionare un primo punto nella vista 3D, oppure digitare le sue [coordinate ](Draft_Coordinates/it.md) e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [Inserisci punto](Draft_AddPoint/it.md)**.
-3.  Selezionare un secondo punto nella vista 3D, oppure digitare le sue [coordinate ](Draft_Coordinates/it.md) e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [Inserisci punto](Draft_AddPoint/it.md)**. I primi due punti definiscono la distanza misurata.
-4.  Selezionare un terzo punto nella vista 3D, oppure digitare le sue [coordinate ](Draft_Coordinates/it.md) e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [Inserisci punto](Draft_AddPoint/it.md)**. Il punto finale definisce la posizione della linea di misura.
+2.  Selezionare un primo punto nella vista 3D, oppure digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**.
+3.  Selezionare un secondo punto nella vista 3D, oppure digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**. I primi due punti definiscono la distanza misurata.
+4.  Selezionare un terzo punto nella vista 3D, oppure digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto**. Il punto finale definisce la posizione della linea di misura.
 
 
 </div>
@@ -100,7 +100,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 2.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
 3.  Hold down the **Alt** key, select two straight edges in the [3D view](3D_view.md) and release the **Alt** key.
 4.  To position the dimension arc pick a point in the [3D view](3D_view.md).
-5.  Depending on the edges and the picked point the displayed angle will be the acute (sharp) or obtuse (blunt) angle between the edges, or the angle of one of the edges with the horizontal. In some cases you may have to first add auxiliary geometry ([Draft Lines](Draft_Line.md) for example) to get a particular angle.
+5.  The displayed angle depends on the edges and the picked point.
 
 
 <div class="mw-translate-fuzzy">
@@ -116,7 +116,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 <div class="mw-translate-fuzzy">
 
 -   Premere il tasto **X**, o **Y** o **Z** dopo un punto per vincolare il punto successivo su un dato asse.
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z.. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [Inserisci punto](Draft_AddPoint/it.md)** quando si hanno i valori desiderati per inserire il punto.
+-   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z.. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
 -   Premere il tasto **R** oppure fare clic sulla casella di controllo per attivare la modalità \"relativo\". Se la modalità relativo è attiva, le coordinate del punto successivo sono relative all\'ultimo; in caso contrario, sono assolute, prese dall\'origine (0,0,0).
 -   Premere il tasto **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Quota si riavvia dopo aver terminato la quota in costruzione, e consente di disegnare una nuova quota senza premere nuovamente il pulsante dello strumento; le dimensioni successive iniziano dal punto finale della dimensione precedente e condividono la stessa linea base.
 -   Tenere premuto **Ctrl** mentre si disegna per forzare [l\'aggancio](Draft_Snap.md) del proprio punto alla posizione di aggancio più vicina, indipendentemente dalla distanza.

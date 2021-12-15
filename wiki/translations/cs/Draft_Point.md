@@ -32,7 +32,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Stiskněte tlačítko **<img src="images/Draft_Point.png" width=16px> [Kreslení Bod](Draft_Point/cs.md)
 ** nebo klávesy **P** potom **T**
-2.  Klikněte na bod ve 3D pohledu nebo zadejte [souřadnice](Draft_Coordinates/cs.md)
+2.  Klikněte na bod ve 3D pohledu nebo zadejte souřadnice
 
 
 </div>

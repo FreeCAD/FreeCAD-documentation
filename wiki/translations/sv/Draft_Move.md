@@ -35,7 +35,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 -   Om du trycker på **ESC** så avbryts funktionen.
 
--   Skriv in siffror för att [manuellt mata in en koordinat](Draft_Coordinates/sv.md).
+-   Skriv in siffror för att manuellt mata in en koordinat.
 
 -    **C**växlar kopieringsläget på/av. Med kopiering på, så kommer objekt(en) att kopieras istället för att flyttas.
 

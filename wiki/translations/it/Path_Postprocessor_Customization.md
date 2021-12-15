@@ -3,7 +3,13 @@
 
 ## Introduzione
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD usa come rappresentazione interna dei percorsi generati i cosiddetti G-codes. Possono descrivere cose come: velocità e avanzamenti, arresto del motore, ecc. Ma la cosa più importante sono i movimenti che descrivono. Questi movimenti sono piuttosto semplici: Possono essere linee rette o archi di cerchio. Curve più sofisticate come le B-spline sono già approssimate dal <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> di FreeCAD. [Ambiente Path](Path_Workbench/it.md).
+
+
+</div>
 
 ## Cosa può fare il postprocessore per voi 
 
@@ -42,7 +48,13 @@ Il percorso in FreeCAD sarebbe simile a questo. Notate la piccola freccia blu ch
 
 ![](images/Path_PostProcessorModel.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Puoi quindi dare un\'occhiata al file e confrontarlo con l\'output di postprocessori esistenti come {{FileName|linux_cnc_post.py}} o {{FileName|grbl_post.py}} e provare tu stesso ad adattarli o caricare il tuo sul forum di Path <https://forum.freecadweb.org/viewforum.php?f=15> per ricevere aiuto.
+
+
+</div>
 
 ## Convenzione dei nomi 
 
@@ -68,9 +80,17 @@ Per fare un paragone si possono guardare i postprocessori che vengono forniti co
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 ## Programmare il proprio postprocessore 
 
 Questo post discute alcuni elementi interni dei postprocessori linuxcnc. La stessa struttura è usata anche in altri postprocessori.
+
+
+</div>
+
+This post discusses some internals from the linuxcnc postprocessors. The same strucure is used in other postprocessors as well.
 
 Guardando linux\_cnc\_post.py, vedrete la funzione di esportazione (dalla 0.19.20514 alla linea 156)
 

@@ -25,7 +25,7 @@ Armonizați normalele plaselor sau ochiurilor selectate.
 ## Utilizare
 
 1.  Selectați ochiurile de plasă în vizualizarea arborescentă
-2.  Selectați {{KEY | Mesaje}} → {{KEY | _ Armonizare normală}} din meniul principal.
+2.  Selectați {{KEY | Mesaje}} → {{KEY | <img src="images/_Mesh_HarmonizeNormals.svg_" width= 32px> Armonizare normală}} din meniul principal.
 
 
 </div>

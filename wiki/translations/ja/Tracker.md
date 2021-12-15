@@ -39,7 +39,7 @@
 
 ### サポート要求
 
-あなたがFreeCADをコンパイルするのにどうすることもできず、 [Compile On Windows](CompileOnWindows/jp.md) や [Compile On Unix](CompileOnUnix/jp.md) にヒントとなるものが書かれていない場合や、他の新しい環境への移植を試す場合や、FreeCADの新しいモジュールや拡張機能を作る場合に、補助が必要な場合は、[Support Requests](http://sourceforge.net/tracker/?atid=455299&group_id=49159&func=browse) セクションがあなたの行くべき場所になります。
+あなたがFreeCADをコンパイルするのにどうすることもできず、 [Compile on Windows](Compile_on_Windows/ja.md) や [Compile on Linux](Compile_on_Linux/ja.md) にヒントとなるものが書かれていない場合や、他の新しい環境への移植を試す場合や、FreeCADの新しいモジュールや拡張機能を作る場合に、補助が必要な場合は、[Support Requests](http://sourceforge.net/tracker/?atid=455299&group_id=49159&func=browse) セクションがあなたの行くべき場所になります。
 
 ### 新しいパッチ
 

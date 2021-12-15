@@ -15,20 +15,12 @@
 
 <div class="mw-translate-fuzzy">
 
-Gli _ [Ambiente Bozza](Draft_Workbench/it.md) strumenti consentono di scegliere punti e distanze cliccando sulla [vista 3D](3D_view/it.md) con il puntatore, o inserendo le [Bozza coordinate](Draft_Coordinates/it.md) nel [pannelo azioni](Task_panel/it.md) dello strumento.
+Gli <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente Bozza](Draft_Workbench/it.md) strumenti consentono di scegliere punti e distanze cliccando sulla [vista 3D](3D_view/it.md) con il puntatore, o inserendo le coordinate nel [pannelo azioni](Task_panel/it.md) dello strumento.
 
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-L\'ancoraggio è disponibile con la maggior parte degli strumenti di [Draft](Draft_Workbench/it.md) e di [Architettura](Arch_Workbench/‭it.md), e può essere attivato o disattivato globalmente con il pulsante **<img src="images/Snap_Lock.svg" width=16px> [Aggancia](Draft_ToggleSnap/it.md)**.
-
-Ogni funzione, può essere attivata o disattivata singolarmente facendo clic sul corrispondente pulsante nella barra di questi strumenti, **Visualizza → Barre degli strumenti → Snap**.
-
-
-</div>
+Snapping is available with most [Draft](Draft_Workbench.md) and [Arch](Arch_Workbench.md) commands.
 
 ![](images/Draft_Snap_Endpoint_example.png )
 
@@ -52,7 +44,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Snap Endpoint](Draft_Snap_Endpoint.md): snaps to the endpoints of edges.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of straight and circular edges.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of edges.
 
 -   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ and [Arch BuildingParts](Arch_BuildingPart.md).
 
@@ -91,9 +83,9 @@ Note that circular edges do not have to be full circles.
 
 <div class="mw-translate-fuzzy">
 
--   Ulteriori posizioni di aggancio possono essere ottenute combinando due metodi di snap, come [Ortogonale](Draft_Ortho/it.md) e [Estensione](Draft_Extension/it.md), che danno un punto di snap all\'intersezione delle loro linee immaginarie.
+-   Ulteriori posizioni di aggancio possono essere ottenute combinando due metodi di snap, come [Ortogonale](Draft_Snap_Ortho/it.md) e [Estensione](Draft_Snap_Extension/it.md), che danno un punto di snap all\'intersezione delle loro linee immaginarie.
 -   Altre posizioni di snap possono essere ottenute usando i [Vincoli](Draft_Constrain/it.md), tenendo premuto **Maiusc** o premendo **X**, **Y** o **Z** mentre si disegna.
--   Premere **Q** mentre si disegna per inserire un \"punto di attesa\" nella posizione corrente del cursore. Dopo è possibile agganciarsi ortogonalmente a questi punti di attesa e alle intersezioni dei loro assi ortogonali. Se lo snap [Punto medio](Draft_Midpoint/it.md) è abilitato, è anche possibile agganciarsi al punto medio tra due punti di attesa. {{Version/it|0.17}}
+-   Premere **Q** mentre si disegna per inserire un \"punto di attesa\" nella posizione corrente del cursore. Dopo è possibile agganciarsi ortogonalmente a questi punti di attesa e alle intersezioni dei loro assi ortogonali. Se lo snap [Punto medio](Draft_Snap_Midpoint/it.md) è abilitato, è anche possibile agganciarsi al punto medio tra due punti di attesa. {{Version/it|0.17}}
 
 
 </div>

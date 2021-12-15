@@ -19,7 +19,14 @@ Lo strumento [Armatura elicoidale](Arch_Rebar_Helical/it.md) consente all\'utent
 
 Lo strumento **Armatura elicoidale** è anche integrato in [BIM](BIM_Workbench/it.md).
 
+
+<div class="mw-translate-fuzzy">
+
 Questo comando fa parte dell\'ambiente _, tramite il menu **Strumenti → Addon manager → Reinforcement**.
+
+
+</div>
+
 
 :   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width:80px;">
 

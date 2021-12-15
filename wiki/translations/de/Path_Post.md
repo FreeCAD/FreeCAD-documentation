@@ -90,9 +90,9 @@ Wenn nur eine CNC Maschine verwendet wird, oder wenn alle CNC Maschinen einen ge
 
 1.  Wähle den **<img src="images/Path_Job.svg" width=16px> [Pfaf Auftrag](Path_Job/de.md)**, den du exportieren möchtest
     -   Rufe den Befehl mit mehreren Methoden auf:
-    -   Durch Drücken der Schaltfläche **<img src="images/Path_PostProcess.svg" width=24px>** in der Werkzeugleiste.
+    -   Durch Drücken der Schaltfläche **<img src="images/Path_Post.svg" width=24px>** in der Werkzeugleiste.
     -   Verwendung des Tastaturkürzels **P** und dann **P**.
-    -   Unter Verwendung des **Pfad** → **<img src="images/Pfad_PostProcess.svg" width=24px> [Postprozess](Pfad_Post/de.md)** aus dem oberen Menü.
+    -   Unter Verwendung des **Pfad** → **<img src="images/Path_Post.svg" width=24px> [Postprozess](Path_Post/de.md)** aus dem oberen Menü.
 2.  Bestätige den Namen und das Verzeichnis der **Ausgabedatei**.
 
 

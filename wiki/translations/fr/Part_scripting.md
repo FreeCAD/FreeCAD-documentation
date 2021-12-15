@@ -178,9 +178,12 @@ Ici on prend la forme de notre objet f, puis nous prenons la liste de ses arête
 Rendez-vous sur la page [Scripts pour création topologique](Topological_data_scripting/fr.md) si vous voulez en savoir plus.
 
 
+
+
+
 {{Powerdocnavi
 
-}}  
+}} 
 
 _ _
 

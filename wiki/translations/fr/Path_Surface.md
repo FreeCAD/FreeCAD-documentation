@@ -11,9 +11,9 @@
 
 ## Description
 
-Cet outil crée une nouvelle opération **<img src="images/Path_3DSurface.svg" width=24px> [Surface 3D](Path_3DSurface/fr.md)** qui est capable de générer des trajectoires G-Code pour toute la surface supérieure d\'un modèle 3D (ou est capable de travailler avec des faces sélectionnées) et permet d\'éviter les faces. Cette opération offre plusieurs motifs de coupe: ligne, zigzag, circulaire, zigzag circulaire, décalage et spirale (similaire à un motif adaptatif). Depuis la version 0.19, cette opération propose de nombreuses personnalisations pour permettre une plus grande productivité.
+Cet outil crée une nouvelle opération **<img src="images/Path_Surface.svg" width=24px> [Surface 3D](Path_Surface/fr.md)** qui est capable de générer des trajectoires G-Code pour toute la surface supérieure d\'un modèle 3D (ou est capable de travailler avec des faces sélectionnées) et permet d\'éviter les faces. Cette opération offre plusieurs motifs de coupe: ligne, zigzag, circulaire, zigzag circulaire, décalage et spirale (similaire à un motif adaptatif). Depuis la version 0.19, cette opération propose de nombreuses personnalisations pour permettre une plus grande productivité.
 
-L\'opération **<img src="images/Path_3DSurface.svg" width=24px> [Surface 3D](Path_3DSurface/fr.md)** est également capable de générer des trajectoires de surfaçage 3D de base. Les capacités de rotation sont limitées à l\'ensemble du modèle et ne permettent pas d\'isoler des faces ou des régions spécifiques. Les trajectoires de rotation sont également limités aux motifs de coupe de ligne.
+L\'opération **<img src="images/Path_Surface.svg" width=24px> [Surface 3D](Path_Surface/fr.md)** est également capable de générer des trajectoires de surfaçage 3D de base. Les capacités de rotation sont limitées à l\'ensemble du modèle et ne permettent pas d\'isoler des faces ou des régions spécifiques. Les trajectoires de rotation sont également limités aux motifs de coupe de ligne.
 
 L\'outil 3D Surface s\'interface avec OCL.pyd, un module Open Source tiers intitulé [OpenCamLib](OpenCamLib/fr.md) qui génère des chemins d\'outil à partir d\'un modèle 3D. OpenCamLib n\'est pas directement intégré à FreeCAD.
 
@@ -25,11 +25,11 @@ L\'outil 3D Surface s\'interface avec OCL.pyd, un module Open Source tiers intit
 
 ## Utilisation
 
-Les instructions d\'utilisation pour plusieurs variantes de [Surface 3D](Path_3DSurface/fr.md) sont présentées ici.
+Les instructions d\'utilisation pour plusieurs variantes de [Surface 3D](Path_Surface/fr.md) sont présentées ici.
 
 #### Opération de base 
 
-1.  Appuyez sur l\'icône **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface/fr.md)** ou sélectionnez **Path → Surface 3D** dans le menu déroulant.
+1.  Appuyez sur l\'icône **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface/fr.md)** ou sélectionnez **Path → 3D Surface** dans le menu déroulant.
 2.  Sélectionnez le contrôleur d\'outil pour l\'opération dans la fenêtre contextuelle de la boîte de dialogue Contrôleur d\'outil, le cas échéant.
 3.  Dans l\'onglet Géométrie de base, sélectionnez les faces spécifiques sur lesquelles vous souhaitez vous concentrer et/ou éviter pour l\'opération.
 4.  Ajustez les profondeurs d\'opération selon vos besoins dans l\'onglet Profondeurs: Profondeur de départ, Profondeur de finition, Descente.
@@ -58,7 +58,7 @@ Pour obtenir des effets différents ou plus complexes, définissez des propriét
 
 1.  Lancez une [Opération de base](#Op.C3.A9ration_de_base.md) comme décrit ci-dessus et définissez le **Scan Type** à **Rotational**.
 2.  **Remarque:** La sélection de face n\'est pas disponible pour les scans rotationnels, les modifications apportées à la géométrie de base sont donc ignorées.
-3.  Localisez l\'onglet Données et la vue Propriétés pour la nouvelle opération [Surface 3D](Path_3DSurface/fr.md). Une section **Rotation** devrait être disponible avec des propriétés supplémentaires à ajuster, listées ci-dessous.
+3.  Localisez l\'onglet Données et la vue Propriétés pour la nouvelle opération [Surface 3D](Path_Surface/fr.md). Une section **Rotation** devrait être disponible avec des propriétés supplémentaires à ajuster, listées ci-dessous.
     Il est recommandé de définir toutes les propriétés de rotation souhaitées en une seule fois avant de recalculer. Pour ce faire, cliquez sur la touche ENTRÉE immédiatement après avoir modifié un paramètre de propriété. Ce processus vous permettra de modifier et d\'enregistrer plusieurs propriétés avant de recalculer l\'opération.
 4.  Ajustez les paramètres suivants selon vos besoins:
     -   Définissez {{PropertyData/fr|Cutter Tilt}} sur l\'index de décalage (angle) \[0-90\]. (Utilisé pour les fraises à boulets)
@@ -76,7 +76,7 @@ Pour obtenir des effets différents ou plus complexes, définissez des propriét
 -   Pour des raisons de temps, il est préférable de ne pas recalculer un balayage rotationnel après chaque changement de propriété. considérez plutôt l'un des éléments suivants:
     -   utilisez la technique **pour modifier tous les paramètres avec la touche ENTREE** mentionnée à l\'étape 2 ci-dessus puis l\'opération **<img src=images/View-refresh.svg style="width:16px"> Recompute**.
     -   désactiver l\'opération avec l\'outil **<img src="images/Path_OpActiveToggle.svg" width=16px> [Activation d'opération](Path_OpActiveToggle/fr.md)**, apportez vos modifications aux propriétés de l\'opération, puis cliquez sur le **<img src="images/Path_OpActiveToggle.svg" width=16px> [Activation d'opération](Path_OpActiveToggle/fr.md)** à nouveau pour réactiver l\'opération, ce qui déclenche un recalcul en interne.
--   L\'opération **<img src="images/Path_3DSurface.png" width=16px> [Surface 3D](Path_3DSurface/fr.md)** est toujours considérée comme une \"fonctionnalité expérimentale\" au 25/06/2019. En tant que tel, elle peut contenir quelques bugs qui doivent encore être clairement identifiés. Veuillez signaler les bogues et les problèmes sur le [FreeCAD Path/CAM Forum](https://forum.freecadweb.org/viewforum.php?f=15).
+-   L\'opération **<img src="images/Path_Surface.svg" width=16px> [3D Surface](Path_Surface/fr.md)** est toujours considérée comme une \"fonctionnalité expérimentale\" au 25/06/2019. En tant que tel, elle peut contenir quelques bugs qui doivent encore être clairement identifiés. Veuillez signaler les bogues et les problèmes sur le [FreeCAD Path/CAM Forum](https://forum.freecadweb.org/viewforum.php?f=15).
 -   Le **<img src="images/Path_Simulator.svg" width=16px> [Path Simulateur d'usinage](Path_Simulator/fr.md)** intégré ne prend pas en charge la simulation du 4ème axe. Vous devrez utiliser un simulateur tiers pour inspecter ou vérifier visuellement les chemins. Voir la section [Ressources](#Ressources.md) ci-dessous pour des suggestions.
 -   Vous verrez probablement des lignes de rotation rouges autour de votre modèle dans la fenêtre. C\'est normal dans FreeCAD pour le moment.
 
@@ -88,14 +88,14 @@ Des temps de traitement excessivement longs (plus de 10 minutes) peuvent se prod
 Vérifiez la quantité de mémoire disponible pendant l\'exécution du scan à l\'aide d\'un outil tel que le **Gestionnaire des tâches, onglet Mémoire** de Windows. Si plus de 90 % de la mémoire est constamment utilisée, alors un petit paramètre **Déflexion linéaire** pourrait générer un maillage trop important pour la mémoire disponible.
 Pour confirmer cela \...
 
-1.  Créez une nouvelle **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface/fr.md)** opération.
+1.  Créez une nouvelle **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface/fr.md)** opération.
 2.  Passez à l\'onglet Modèle et augmentez la valeur de {{PropertyData/fr|Linear Deflection}}. Par exemple, passez de 2,5 um à 20 um.
 3.  Revenez à l\'onglet Tâches pour terminer la configuration de l\'opération.
 4.  Cliquez sur le bouton **OK** pour confirmer et générer les trajectoires.
 
-Pour faire de cette valeur la valeur par défaut pour toutes les nouvelles **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface/fr.md)** opérations, modifiez le paramètre **GeometryTolerance**.
+Pour faire de cette valeur la valeur par défaut pour toutes les nouvelles **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface/fr.md)** opérations, modifiez le paramètre **GeometryTolerance**.
 **Outils → Editer paramètres... → Préférences → Mod → Path → GeometryTolerance **.
-Notez qu\'à partir de la version 0.19, la {{PropertyData/fr|Linear Deflection}} par défaut = GeometryTolerance / 4.
+Notez qu\'à partir de la version 0.19, la **Linear Deflection** par défaut = GeometryTolerance / 4.
 
 ***Géométrie non valide***
 Si un modèle contient une géométrie invalide, le temps de numérisation peut augmenter considérablement. Un modèle peut être vérifié à l\'aide de la fonction **Check Geometry** dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;">**atelier Part**.

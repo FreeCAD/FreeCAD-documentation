@@ -1,6 +1,14 @@
-# TechDraw AngleDimension/it
 ---
-- GuiCommand:/it   Name:TechDraw Dimension Angle   Name/it:Angolo   Workbenches:[MenuLocation:TechDraw → Angolo   Shortcut:   SeeAlso:[[TechDraw Dimension Angle3Pt/it|Angolo da tre punti](TechDraw_Workbench/it___TechDraw]].md)---
+- GuiCommand:/it
+   Name:TechDraw Dimension Angle
+   Name/it:Angolo
+   Workbenches:[TechDraw](TechDraw_Workbench/it.md)
+   MenuLocation:TechDraw → Angolo
+   Shortcut:
+   SeeAlso:[Angolo da tre punti](TechDraw_3PtAngleDimension.md)
+---
+
+# TechDraw AngleDimension/it
 
 
 </div>
@@ -10,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Angolo aggiunge una dimensione angolare ad una Vista. La dimensione può essere l\'angolo interno tra due bordi rettilinei. Inizialmente viene indicato il valore dell\'angolo proiettato (vale a dire, come mostrato nel disegno), ma questo valore può essere sostituito con quello dell\'angolo 3D effettivo utilizzando lo strumento **<img src="images/TechDraw_Dimension_Link.svg" width=16px> [Link alla dimensione](TechDraw_Dimension_Link/it.md)**.
+Lo strumento Angolo aggiunge una dimensione angolare ad una Vista. La dimensione può essere l\'angolo interno tra due bordi rettilinei. Inizialmente viene indicato il valore dell\'angolo proiettato (vale a dire, come mostrato nel disegno), ma questo valore può essere sostituito con quello dell\'angolo 3D effettivo utilizzando lo strumento **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Link alla dimensione](TechDraw_LinkDimension/it.md)**.
 
 
 </div>
@@ -24,7 +32,7 @@ Lo strumento Angolo aggiunge una dimensione angolare ad una Vista. La dimensione
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare i punti o bordi che definiscono la misura.
-2.  Premere il pulsante **<img src="images/TechDraw_Dimension_Angle.svg" width=24px> [Angolo](TechDraw_Dimension_Angle/it.md)
+2.  Premere il pulsante **<img src="images/TechDraw_AngleDimension.svg" width=24px> [Angolo](TechDraw_AngleDimension/it.md)
 **
 3.  Alla Vista viene aggiunta una dimensione. La dimensione può essere trascinata nella posizione desiderata.
 
@@ -38,7 +46,7 @@ To change the properties of a dimension object either double-clicking it in the 
 
 <div class="mw-translate-fuzzy">
 
-Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologica\". Per maggiori informazioni vedere le informazioni nello strumento <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:16px;"> [Lunghezza](TechDraw_Dimension_Length/it.md).
+Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologica\". Per maggiori informazioni vedere le informazioni nello strumento <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:16px;"> [Lunghezza](TechDraw_LengthDimension/it.md).
 
 
 </div>
@@ -48,7 +56,7 @@ Gli oggetti dimensione sono vulnerabili ai problemi di \"denominazione topologic
 
 <div class="mw-translate-fuzzy">
 
-Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_Dimension_Length/it.md)
+Questo oggetto ha le stesse proprietà dello strumento [Lunghezza](TechDraw_LengthDimension/it.md)
 
 
 </div>

@@ -1,6 +1,7 @@
 ---
-- GuiCommand:Addon
-   Name:BIM Projekt
+- GuiCommand:Addon/de
+   Name:BIM Project
+   Name/de:BIM Projekt
    Workbenches:[BIM](BIM_Workbench/de.md)
    Addon:BIM
    MenuLocation:Verwalten → Projekt verwalten...

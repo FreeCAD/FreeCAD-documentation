@@ -2,8 +2,8 @@
 - GuiCommand:
    Name:Assembly3 AddOrigin
    Icon:Assembly_Add_Origin.svg‎‎
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
    MenuLocation:Assembly3 → Workplane and origin → Add origin
+   Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 AddOrigin/en

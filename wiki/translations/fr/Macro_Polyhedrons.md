@@ -25,10 +25,10 @@ Cette macro crée des polyèdres paramétriques: tétraèdre, hexaèdre, octaèd
 
 ## Installation
 
--   Utilisez <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) pour installer la macro via 
+-   Utilisez le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) pour installer la macro via 
 **Outils → Gestionnaire d'Addon → onglet Macros**
 -   Choisissez `polyhedrons.py`
--   Appuyez sur {{Button | Install}}
+-   Appuyez sur **Installer**
 
 ## Utilisation
 

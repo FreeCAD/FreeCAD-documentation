@@ -1,11 +1,10 @@
-# <img alt="" src=images/EMWorkbench.svg  style="width:240px;">   EM Workbench
-*align=center|The FreeCAD ElectroMagnetic External Workbench Icon*
-
-## Introduction
+# <img alt="EM Workbench icon" src=images/EMWorkbench.svg  style="width:64px;"> EM Workbench
 
  
 
-The ElectroMagnetic (EM) Workbench provides the CAD front-end interface to some open source free solvers. At present it supports the 3D magnetoquasistatic impedance solver [FastHenry](https://www.fastfieldsolvers.com/software.htm#fasthenry2) (i.e. inductance and resistance extraction at \"low\" frequencies). Support for the 3D electrostatic capacitance solver [FasterCap](https://www.fastfieldsolvers.com/software.htm#fastercap) is ongoing.
+## Introduction
+
+The EM (ElectroMagnetic) Workbench provides the CAD front-end interface to some open source free solvers. At present it supports the 3D magnetoquasistatic impedance solver [FastHenry](https://www.fastfieldsolvers.com/software.htm#fasthenry2) (i.e. inductance and resistance extraction at \"low\" frequencies). Support for the 3D electrostatic capacitance solver [FasterCap](https://www.fastfieldsolvers.com/software.htm#fastercap) is ongoing.
 
 <img alt="" src=images/Screenshot_EM_window.png  style="width:600px;">
 
@@ -50,7 +49,7 @@ At present, FasterCap is supported via some Macros in the {{FileName|Export_mesh
 
 ## API
 
-The EM tools can be used in [macros](macros.md) and from the [Python](Python.md) console by using the EM API.
+The EM tools can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the EM API.
 
 ## Tutorials
 
@@ -63,15 +62,7 @@ Some video tutorials are available for the EM Workbench beta versions:
 -   [FreeCAD ElectroMagnetic WorkBench tutorial: using the path object, part 1](https://www.youtube.com/watch?v=CRqDuEtbdds)
 -   [FreeCAD ElectroMagnetic WorkBench tutorial: using the path object, part 2](https://www.youtube.com/watch?v=slsLdLoF2OI)
 
-## External workbenches 
-
-FreeCAD workbenches are easy to program in [Python](Python.md), there are therefore many people developing additional workbenches outside of the FreeCAD main developers.
-
-The [external workbenches](external_workbenches.md) page has some information and tutorials on some of them, and the [FreeCAD Addons](https://github.com/FreeCAD/FreeCAD-addons) project aims at gathering them and making them easily installable from within FreeCAD.
-
-New workbenches are in development, stay tuned!
-
- {{EM Tools navi}}  
+ {{EM Tools navi}} 
 
 _
 

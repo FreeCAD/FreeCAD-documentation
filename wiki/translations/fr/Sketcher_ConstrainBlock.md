@@ -14,7 +14,7 @@
 
 La **Contrainte de blocage** permet de bloquer un élément en place à l\'aide d\'une seule contrainte.
 
-Son usage principal est prévu pour les **<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [courbes B-Splines](Sketcher_CreateBSpline/fr.md)** qui peuvent être difficile à contraindre entièrement.
+Son usage principal est prévu pour les **<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [courbes B-splines](Sketcher_CreateBSpline/fr.md)** qui peuvent être difficile à contraindre entièrement.
 
 ## Utilisation
 

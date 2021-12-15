@@ -1,8 +1,7 @@
 ---
 - GuiCommand:
    Name:Assembly3 ConstraintCoincidence
-   Icon:Plane_Coincidence.svg
-   Icon:Assembly ConstraintCoincidence.svg
+   Icon:Assembly_ConstraintCoincidence.svg
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 

@@ -65,29 +65,27 @@ To quickly get familiar with the structure and style of the FreeCAD wiki look at
 
  The [User hub](User_hub.md) provides a [Table of Contents](Online_Help_Toc.md). This is used as the main reference for automatically building the offline help you can reach from FreeCAD, as well as the offline PDF documentation.
 
-The _ is used to sequentially link pages, following to the structure of the [Table of Contents](Online_Help_Toc.md). See [\#Templates](#Templates.md) for a list of all templates.
+The _ is used to sequentially link pages, following the structure of the [Table of Contents](Online_Help_Toc.md). See [\#Templates](#Templates.md) for a list of all templates.
 
 ### Page names 
 
-Page names should be short, and they should use sentence case: all words except the first one and proper names, should be in lowercase. This is the [style used by Wikipedia](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Capital_letters#Headings,_headers,_and_captions) for their articles.
+Page names should be short and they should use title case: every word should begin with a capital letter, unless they are articles, prepositions, conjunctions, or other grammatical particles (f.e. \'of\', \'on\', \'in\', \'a\', \'an\', \'and\').
 
 Bad page name:
-:   Construction Of AeroCompany Airplanes
+:   Construction of AeroCompany airplanes
 
 
 
 
 
 Good page name:
-:   Construction of AeroCompany airplanes
+:   Construction of AeroCompany Airplanes
 
 The names of top level workbench pages must have this format: XYZ Workbench, where XYZ is the name of the workbench, for example _. Note that you should use the command name as it occurs in the source code.
 
-A previous convention was to use title case: every word should begin with a capital letter, unless they are articles, prepositions, conjunctions, or other grammatical particles (f.e. \'of\', \'on\', \'in\', \'a\', \'an\', \'and\'). There are many existing pages using this style, but it is discouraged for new pages. This was discussed in the forum thread [(Lowercase links) Use a lower case title for a wiki page](https://forum.freecadweb.org/viewtopic.php?p=266029#p266029).
-
 ### Headings
 
-Like page names, paragraph headings should be short and use sentence case. You should not use H1 headings (= Heading =) in your wiki markup since the page title is automatically added as the main H1 heading.
+Paragraph headings should be short and use sentence case: all words except the first one and proper names, should be in lowercase. You should not use H1 headings (= Heading =) in your wiki markup since the page title is automatically added as the main H1 heading.
 
 ### Links
 
@@ -105,11 +103,11 @@ Good link
 
 The preferred format for a link is:
 
-[name of page](Name_of_page.md)
+[Name of Page](Name_of_Page.md)
 
 Translated:
 
-[nom de la page](Name_of_page/fr.md)
+[Nom de la Page](Name_of_Page/fr.md)
 
 Note that for the part before the | character, the actual link, case is relevant. If your page name is Name_of_page the link will fail if you type Name_of_Page (upper case P). Before the | character all spaces should be replaced by underscores (_). This is to assist translators using translation software, without the underscores the link would be translated by the software which is undesirable.
 
@@ -586,7 +584,7 @@ See [Glossary](Glossary.md).
 -   [Italiano](Italian_Translation.md)
 -   [Français](French_Translation.md)
 -   [Deutsch](German_Translation.md)
--   [Polish](Polish_translation.md)
+-   [Polish](Polish_Translation.md)
 
 
 

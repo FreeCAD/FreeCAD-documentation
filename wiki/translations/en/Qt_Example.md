@@ -7,7 +7,8 @@
 |Version=0.4
 |Date=2019-06-19
 |FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/a/a7/MEpipe01.png MEpipe01]<br />
+|Download=<br />
+[https://www.freecadweb.org/wiki/images/a/a7/MEpipe01.png MEpipe01]<br />
 [https://www.freecadweb.org/wiki/images/5/5b/MEpipe02.png MEpipe02]<br />
 [https://www.freecadweb.org/wiki/images/e/e4/MEPlan.png MEPlan]<br />
 [https://www.freecadweb.org/wiki/images/3/30/MEPlanD.png MEPlanD]<br />
@@ -16,20 +17,14 @@
 [https://www.freecadweb.org/wiki/images/f/f2/MEPlanI.png MEPlanI]<br />
 [https://www.freecadweb.org/wiki/images/e/e6/MEPlanFC.png MEPlanFC]<br />
 [https://www.freecadweb.org/wiki/images/d/d2/MEPlanPY.png MEPlanPY]
-|SeeAlso=[Dialog_creation](Dialog_creation.md)
+|SeeAlso=[Dialog creation](Dialog_creation.md)
 }}
 
 This macro is an example of using Qt commands their connections, extraction and data assignment.
 
-
-<center>
-
 Image:Qt\_Example\_00.png\|Qt example Image:Qt\_Example\_01.png\|Qt example details
 
-
-</center>
-
-Are treated :
+Are treated:
 
 1.  **icon for window** : The icon displayed on main window
 2.  **horizontalSlider** : horizontal slider its connection and data extraction / assignment
@@ -41,20 +36,24 @@ Are treated :
 8.  **doubleSpinBox** : double spinbox its connection and data extraction / assignment
 9.  **doubleSpinBox** :
 10. **doubleSpinBox** :
-11. **buttom** : buttom its connection
-12. **buttom** :
-13. **radioButtom** : radio button with icons its connection and checked
+11. **button** : button its connection
+12. **button** :
+13. **radioButton** : radio button with icons its connection and checked
 14. **checkBox** : checkbox with icon its connection checked and unchecked
 15. **textEdit** : text edit its connection and data extraction / assignment
 16. **graphicsView** : graphic view with 2 graphs and method used for change image
 
-The tools used are : [python-2.7.8](https://www.python.org/downloads/)
+The tools used are:
+
+[python-2.7.8](https://www.python.org/downloads/)
 
 [PyQt4-4.11.4-gpl-Py2.7-Qt4.8.7-x32](https://riverbankcomputing.com/software/pyqt/download)
 
 For convert the file .ui in .py you must uses **pyuic.py** is located in \"C:\\Python27\\Lib\\site-packages\\PyQt4\\uic\\pyuic.py\" (for Windows)
 
-you can create a convertuitopy.bat file to automate the process **1:** Create a new file in your Qt working directory and name it **convertuitopy.bat**
+you can create a convertuitopy.bat file to automate the process:
+
+**1:** Create a new file in your Qt working directory and name it **convertuitopy.bat**
 
 **2:** Edit the file and paste this line there
 
@@ -68,7 +67,9 @@ you can create a convertuitopy.bat file to automate the process **1:** Create a 
 
 ![](images/MEpipe01.png ) ![](images/MEpipe02.png ) ![](images/MEPlan.png ) ![](images/MEPlanD.png ) ![](images/MEPlanF.png ) ![](images/MEPlanT.png ) ![](images/MEPlanI.png )
 
-![](images/MEPlanFC.png ) ![](images/MEPlanPY.png ) You must copy and paste the images in the same directory as the macro, here :
+![](images/MEPlanFC.png ) ![](images/MEPlanPY.png )
+
+You must copy and paste the images in the same directory as the macro, here:
 
 Linux : \"**home/user/.FreeCAD/Macro**\"
 
@@ -77,9 +78,6 @@ Windows : \"**C:\\Users\\UserName\\AppData\\Roaming\\FreeCAD\\Macro**\"
 ## Script
 
 The contents of the file **Qt\_Example.FCMacro** are given below:
-
-
-
 
 
 {{MacroCode|code=
@@ -791,8 +789,6 @@ MainWindow = QtGui.QMainWindow()
 ui = Ui_MainWindow()
 ui.setupUi(MainWindow)
 MainWindow.show()
-
-
 }}
 
 Enjoy

@@ -31,7 +31,7 @@ Verwendung des Dialogs: <small>(v0.19)</small>
 
 1.  Wähle das Grundelement im Baum aus und doppelklicke darauf.
 2.  Das gleiche Dialogfeld wird geöffnet, das auch zum Erstellen des Grundelements verwendet wurde. Ändere dort die Parameter und du erhältst eine Live Vorschau des geänderten Grundelements.
-3.  Um die Bearbeitung abzuschließen, drücke {{Taste|OK}}.
+3.  Um die Bearbeitung abzuschließen, drücke **OK**.
 
 Verwendung des [Eigenschaftseditors](Property_editor/de.md):
 

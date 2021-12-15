@@ -99,7 +99,7 @@ Yaw, pitch and roll refer to the **attitude** of an object in 3D space. These te
 
 -    {{TasksTag|roll axis}}**Roll is rotation about the X axis**, that is to say wing up and down. (The Roll angle is the **Thêta θ**). Value **-360.00 °** to \'\'\'360, 00 ° \'\'\'(Default, **0.00 °**).
 
--    {{TasksTag|Apply incremental changes to the placement of the object}}: Once selected, this option **virtually** sets all parameters to zero, to allow you to enter your values ​​without having to calculate with the original parameters of the form. Once you have confirmed with **OK**, the entered values ​​will be added to the values ​​on the form.
+-    {{TasksTag|Apply incremental changes}}to the placement of the object: Once selected, this option **virtually** sets all parameters to zero, to allow you to enter your values ​​without having to calculate with the original parameters of the form. Once you have confirmed with **OK**, the entered values ​​will be added to the values ​​on the form.
 
 -   The **Reset** returns all values ​​to **0,0,0**.
 

@@ -108,7 +108,7 @@ Od pierwszej części tego poradnika wiemy, że przedmiot posiada szerokość **
 
 1.  Zwróć uwagę na nazwę naszego wadliwego wymiaru w panelu widoku połączonego. Będziemy go potrzebować za chwilę.
 2.  Przejdź do zakładki widoku 3D modelu i wybierz wierzchołki na końcach przedniej krawędzi elementu. Wybierz również zakładkę **Page001**.
-3.  Kliknij na narzędzie <img alt="" src=images/TechDraw_LinkDimension.png  style="width:32px;"> [Połącz wymiar z geometrią](TechDraw_LinkDimension/pl.md). W panelu zadań zostanie otwarte okno dialogowe.
+3.  Kliknij na narzędzie <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Połącz wymiar z geometrią](TechDraw_LinkDimension/pl.md). W panelu zadań zostanie otwarte okno dialogowe.
 4.  W oknie dialogowym, przenieś nasz wymiar z dostępnej kolumny do wybranej kolumny. Naciśnij przycisk **OK**.
 5.  Wróć na stronę001. Nasz wymiar powinien teraz odczytać prawidłową wartość 53. *(Jeśli nadal widzisz 43.27, może być konieczne wciśnięcie przycisku **Przelicz** lub trochę przesuń wartość wymiaru na rysunku, aż się zmieni)*.
 

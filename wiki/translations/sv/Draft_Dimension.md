@@ -38,7 +38,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 -   Markera 3 punkter i ett tomt område i 3d vyn, eller på ett existerande objekt.
 -   Nedtryckning av **CTRL** kommer att [snäppa](Draft_Snap/sv.md) din punkt till tillgängliga snäpp-punkter.
 -   Nedtryckning av **SHIFT** kommer att [begränsa](Draft_Constrain/sv.md) dimensioneringen horisontellt eller vertikalt.
--   Skriv in siffror för att [manuellt mata in en koordinat](Draft_Coordinates/sv.md).
+-   Skriv in siffror för att manuellt mata in en koordinat.
 -   Om du trycker på **ESC** så avbryts funktionen.
 
 
@@ -70,7 +70,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 2.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
 3.  Hold down the **Alt** key, select two straight edges in the [3D view](3D_view.md) and release the **Alt** key.
 4.  To position the dimension arc pick a point in the [3D view](3D_view.md).
-5.  Depending on the edges and the picked point the displayed angle will be the acute (sharp) or obtuse (blunt) angle between the edges, or the angle of one of the edges with the horizontal. In some cases you may have to first add auxiliary geometry ([Draft Lines](Draft_Line.md) for example) to get a particular angle.
+5.  The displayed angle depends on the edges and the picked point.
 
 ### Options
 

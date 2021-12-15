@@ -1,6 +1,7 @@
 ---
 - GuiCommand:
-   Name:Std NächstesFensterAktivieren
+   Name:Std ActivatePrevWindow
+   Name/de:Std VorherigesFensterAktivieren
    MenuLocation:Fenster → Vorheriges
    Workbenches:Alle
    Shortcut:**Strg**+**Shift**+**Tab**

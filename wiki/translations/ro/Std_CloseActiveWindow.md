@@ -1,34 +1,15 @@
-# Std CloseActiveWindow/ro
 ---
-- GuiCommand:   Name:Std Close   MenuLocation:[|Workbenches:All   Shortcut:Ctrl+W   SeeAlso:[[Std CloseAll|CloseAll](Std_File_Menu___File]]_→_Close.md)---
+- GuiCommand:
+   Name:Std CloseActiveWindow
+   MenuLocation:File → Close
+   Workbenches:All
+   Shortcut:**Ctrl**+**F4**
+   SeeAlso:[Std CloseAllWindows](Std_CloseAllWindows.md)
+---
 
+# Std CloseActiveWindow/ro
 
-</div>
-
-Închide documentul curent {{GuiCommand/it|Name=Std_Close|Name/it=Chiudi|MenuLocation=[File](Std_File_Menu/it.md) → Chiudi|Workbenches=Tutti|Shortcut=Crtl+W|SeeAlso=[Chiudi tutto](Std_CloseAll/it.md), [Salva con nome...](Std_SaveAs/it.md) e [Salva](Std_Save/it.md)}}
-
-### Descriere
-
-Comanda închide numai documentul activ și vă permite să continuați să lucrați la alte documente ale proiectului.
-
-Dacă documentul nu a fost salvat sau a fost modificat, afișează un mesaj și întreabă dacă doriți să îl salvați:
-
-![](images/UnsavedDocument.png )
-
-În cazul unui răspuns afirmativ,
-
--   dacă documentul a fost deja salvat, utilizați numele și setul de adrese,
--   dacă documentul nu a fost salvat niciodată, deschideți fereastra pentru a defini calea și a atribui un nume documentului:
-
-![](images/FileSaveAs.png ) 
-
-Comanda {{KEY/it|Chiudi tutto}} închide toate documentele proiectului .
-
-Cu această comandaă nu se iese din FreeCAD.
-
-### Link
-
-[Comandi per categorie](ComandiPerCategorie/it.md)
+## Descriere
 
 The **Std CloseActiveWindow** command closes the active window. To close a document all its windows must be closed.
 

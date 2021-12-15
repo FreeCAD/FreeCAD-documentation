@@ -1,4 +1,6 @@
 # Interface creation/de
+{{TOCright}}
+
 ## Einführung
 
 Intensivnutzer haben die Möglichkeit, [Oberflächen erstellen](Interface_creation/de.md) um sie bei der Erstellung komplexer Werkzeuge für ihre benutzerdefinierten [Erweiterungen](Addon/de.md) zu unterstützen, wie z.B. [Makros](Macros/de.md) oder vollständige [Arbeitsbereiche](Workbenches/de.md).
@@ -22,8 +24,6 @@ In this method the interface is defined in a `.ui` file (an XML document that de
 -   The `.ui` interface can be used in a standalone window (modal), or in an embedded window (non-modal); therefore, this method is ideal to create custom [task panels](Task_panel.md).
 -   Since the `.ui` file just describes the \"appearance\" of the interface, it does not need to be tied to a particular programming language; it may be used both in [Python](Python.md) and C++ code.
 
-For examples on this method see [Interface creation with UI files](Interface_creation_with_UI_files.md).
-
 ### Oberfläche vollständig in Python Code 
 
 In this method the entire interface is defined by several Python calls.
@@ -37,9 +37,12 @@ In this method the entire interface is defined by several Python calls.
 Beispiele für diese Methode findest Du unter [Dialogerstellung](Dialog_creation/de.md).
 
 
+
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

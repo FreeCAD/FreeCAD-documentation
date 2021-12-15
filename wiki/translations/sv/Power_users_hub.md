@@ -174,8 +174,8 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 <div class="mw-translate-fuzzy">
 
 -   [Uppstart och konfiguration](Start_up_and_Configuration/sv.md): Uppstart och kommandoradsalternativ
--   [Installera på Windows](Install_on_Windows/sv.md): Använda Windows installeraren
--   [Kompilera FreeCAD på Windows](CompileOnWindows/sv.md) och [Kompilera FreeCAD på Unix](CompileOnUnix/sv.md)
+-   [Installera på Windows](Installing_on_Windows/sv.md): Använda Windows installeraren
+-   [Kompilera FreeCAD på Windows](Compile_on_Windows/sv.md) och [Kompilera FreeCAD på Linux](Compile_on_Linux/sv.md)
 -   [Branding](Branding/sv.md): Enkla modifieringar som du kan göra i källkoden för att förändra vissa delar i FreeCAD
 -   [Extra pythonmuduler](Extra_python_modules/sv.md) : Utöka FreeCAD\'s pythontolk med dessa kraftfulla moduler!
 

@@ -1,15 +1,4 @@
 # Feature list/hr
-<div class="mw-translate-fuzzy">
-
-
-{{docnav/hr
-|[O FreeCAD-u](About_FreeCAD/hr.md)
-|[Instaliraj u Windowse](Install_on_Windows/hr.md)
-}}
-
-
-</div>
-
 Ovo je opsežan, ali ne potpun popis značajki koje FreeCAD provodi. Ako želite pogledati u budućnost, pogledajte [Razvojni plan](Development_roadmap.md) za brzi pregled onoga što slijedi. Također su [Screenshots](Screenshots.md) lijepo mjesto za pogledati.
 
 
@@ -17,21 +6,15 @@ Ovo je opsežan, ali ne potpun popis značajki koje FreeCAD provodi. Ako želite
 
 ## Distribucijske bilješke 
 
-
-<div class="mw-translate-fuzzy">
-
--   [Release 0.11](Release_notes_0.11.md) - March 2011
--   [Release 0.12](Release_notes_0.12.md) - December 2011
--   [Release 0.13](Release_notes_0.13.md) - January 2013
--   [Release 0.14](Release_notes_0.14.md) - March 2014
--   [Release 0.15](Release_notes_0.15.md) - March 2015
--   [Release 0.16](Release_notes_0.16.md) - April 2016
--   [Release 0.17](Release_notes_0.17.md) - April 2018
+-   [Release 0.20](Release_notes_0.20.md) - TBD
+-   [Release 0.19](Release_notes_0.19.md) - March 2021
 -   [Release 0.18](Release_notes_0.18.md) - March 2019
--   [Release 0.19](Release_notes_0.19.md) - Month 2020
-
-
-</div>
+-   [Release 0.17](Release_notes_0.17.md) - April 2018
+-   [Release 0.16](Release_notes_0.16.md) - April 2016
+-   [Release 0.14](Release_notes_0.14.md) - March 2014
+-   [Release 0.13](Release_notes_0.13.md) - January 2013
+-   [Release 0.12](Release_notes_0.12.md) - December 2011
+-   [Release 0.11](Release_notes_0.11.md) - March 2011
 
 ## Ključne osobine 
 
@@ -47,13 +30,7 @@ Ovo je opsežan, ali ne potpun popis značajki koje FreeCAD provodi. Ako želite
 -   ![](images/Feature-CAM.jpg ) A [Path module](Path_Workbench.md) dedicated to mechanical machining for [Computer Aided Manufacturing](https://en.wikipedia.org/wiki/Computer-aided_manufacturing) (CAM). Using the Path module you may output, display and adjust the [G code](http://en.wikipedia.org/wiki/G-code) used to control the target machine.
 -   ![](images/Feature_spreadsheet.png ) An [Integrated Spreadsheet](Spreadsheet_Workbench.md) and an [expression parser](Expressions.md) which may be used to drive formula-based models and organize model data in a central location.
 
-
-<div class="mw-translate-fuzzy">
-
-## Osnovne Osobine: 
-
-
-</div>
+## Osnovne Osobine 
 
 -   **multi-platform**. FreeCAD runs and behaves exactly the same way on Windows, Linux, macOS and other platforms.
 
@@ -114,16 +91,7 @@ Ovo je opsežan, ali ne potpun popis značajki koje FreeCAD provodi. Ako želite
 Napredni korisnici stvorili su razne prilagođene [vanjske radne površine](external_workbenches/hr.md).
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/hr
-|[O FreeCAD-u](About_FreeCAD/hr.md)
-|[Instaliraj u Windowse](Install_on_Windows/hr.md)
-}}
-
-
-</div>
 
 
 

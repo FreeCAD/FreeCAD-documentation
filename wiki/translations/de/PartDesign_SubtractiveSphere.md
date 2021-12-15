@@ -22,7 +22,7 @@ Fügt eine abzuziehende Kugel in den aktiven Körper (Body) ein. Die Form wird v
 <div class="mw-translate-fuzzy">
 
 1.  Auf die Schaltfläche **<img src="images/PartDesign_SubtractiveSphere.svg" width=24px> '''Abzuziehende Kugel'''** klicken. **Anmerkung**: Abzuziehende Kugel ist Teil des benannten Symbols *Erzeugen eines zusätzlichen geometrischen Körpers*. Direkt nach dem Start von FreeCAD wird das Symbol von „Abzuziehender Quader" in der Werkzeugleiste angezeigt. Wenn ein anderer Grundkörper zu sehen ist, kann durch Klicken auf den Pfeil neben dem Symbol der abzuziehenden Kugel in dem aufklappenden Menü ausgewählt werden.
-2.  Die Parameter des Grundkörpers und über [Attachment](Part_Attachment/de.md) den räumlichen Bezug einstellen.
+2.  Die Parameter des Grundkörpers und über [Attachment](Part_EditAttachment/de.md) den räumlichen Bezug einstellen.
 3.  Mit Klick auf **OK** bestätigen.
 4.  Das Feature (Formelement) Kugel (Sphere) erscheint unterhalb des aktiven Körpers (Body).
 
@@ -41,7 +41,7 @@ Die Kugel kann auf zwei verschieden Wege bearbeitet werden:
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_Attachment/de.md).
+-    {{PropertyData/de|Attachment}}: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_EditAttachment/de.md).
 
 -    **Label**: Die vom Benutzer vergebene Bezeichung für das Kugel-Objekt. Dies kann nach Bedarf geändert werden.
 

@@ -1,217 +1,216 @@
-# <img alt="Sheet Metal External workbench icon" src=images/Sheetmetal_workbench_icon.svg  style="width:64px;"> SheetMetal Workbench/pl
+# <img alt="Ikonka FreeCAD dla zewnętrznego środowiska pracy Arkusz blachy" src=images/Sheetmetal_workbench_icon.svg  style="width:64px;"> SheetMetal Workbench/pl
 
 
 {{TOCright}}
 
-## Introduction
+## Wprowadzenie
 
-<img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:32px;"> [Sheet Metal](SheetMetal_Workbench.md) is an [external workbench](External_workbenches.md) and does not belong to the standard FreeCAD installation. It has been developed to supply tools to create and unfold sheet metal objects.
+Środowisko pracy <img alt="" src=images/Sheetmetal_workbench_icon.svg  style="width:32px;"> [Arkusz blachy](SheetMetal_Workbench/pl.md) jest [zewnętrznym środowiskiem pracy](External_workbenches/pl.md) i nie należy do standardowej instalacji programu FreeCAD. Zostało ono opracowane w celu dostarczenia narzędzi do tworzenia i rozwinięć obiektów blaszanych.
 
-Characteristics of sheet metal objects are:
+Cechami charakterystycznymi przedmiotów wykonanych z blachy są:
 
--   They have a constant thickness
--   They can be unfolded, if they are made of planar walls and cylindrical connections only
+-   Mają stałą grubość,
+-   Mogą być rozkładane, jeśli są wykonane tylko z płaskich ścian i połączeń cylindrycznych.
 
-The unfolding tool in both of its versions is not restricted to parts made with tools from this workbench, but can handle [Part](Part_Workbench.md) and [PartDesign](PartDesign_Workbench.md) objects as well, as long as they meet above characteristics.
+Narzędzie do rozkładania w obu wersjach nie jest ograniczone do części wykonanych narzędziami z tego środowiska pracy, ale może obsługiwać również obiekty należące do środowisk pracy [Część](Part_Workbench/pl.md) i [Projekt Części](PartDesign_Workbench/pl.md), o ile spełniają one powyższe wymagania.
 
 <img alt="" src=images/SheetMetal_Example.png  style="width:600px;"> 
-*The sheet metal model built with the Sheet Metal add-on (rear); in front of it, the unfolded solid; at the forefront, the unfold sketch with bending lines for export to DXF.*
+*Model z blachy zbudowany za pomocą dodatku '''Arkusz blachy''' ''(z tyłu)'', <br>przed nim rozwinięta bryła, <br>na pierwszym planie rozwinięty szkic z liniami gięcia do eksportu do formatu DXF.*
 
-If the export in DXF is used to control machines (Lasercut for example), you have to modify the DXF to remove the lines showing the folds, as these lines may be used for cutting by the machine.
+Jeśli eksport do formatu DXF jest używany do sterowania maszynami *(na przykład cięcie laserowe)*, należy zmodyfikować DXF, aby usunąć linie pokazujące zagięcia, ponieważ linie te mogą być używane przez maszynę do cięcia.
 
-## Installation
+## Instalacja
 
-This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For manual installation see [Installing more workbenches](Installing_more_workbenches.md).
+To środowisko pracy może być zainstalowane z <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md). Aby zainstalować je samodzielnie zobacz stronę [Instalacja zewnętrznych środowisk pracy](Installing_more_workbenches/pl.md).
 
-## Tools
+## Przybory
 
-A detailed description of the tools can be found [on the author\'s blog](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/). It\'s a bit outdated now, since some new tools have been added.
+Szczegółowy opis narzędzi można znaleźć [na blogu autora](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/). Jednak jest on już trochę przestarzały, ponieważ dodano kilka nowych narzędzi.
 
--   <img alt="" src=images/SheetMetal_AddBase.svg  style="width:32px;"> [Make Base Wall](SheetMetal_AddBase.md): Creates a sheetmetal wall from a sketch.
+-   <img alt="" src=images/SheetMetal_AddBase.svg  style="width:32px;"> [Dodaj element bazowy](SheetMetal_AddBase/pl.md): Tworzy obiekt bazowy z blachy na podstawie szkicu, profilu lub płyty.
 
--   <img alt="" src=images/SheetMetal_AddWall.svg  style="width:32px;"> [Make Wall](SheetMetal_AddWall.md): Extends a wall from a side face of a metal sheet.
+-   <img alt="" src=images/SheetMetal_AddWall.svg  style="width:32px;"> [Dodaj ścianę](SheetMetal_AddWall/pl.md): Dodaje kołnierz na każdej wybranej krawędzi płyty bazowej *(Kołnierz można przekształcić w obszycie, modyfikując jego kąt)*.
 
--   <img alt="" src=images/SheetMetal_Extrude.svg  style="width:32px;"> [Extend Face](SheetMetal_Extrude.md): Extends a face along a normal.
+-   <img alt="" src=images/SheetMetal_Extrude.svg  style="width:32px;"> [Wyciągnij](SheetMetal_Extrude/pl.md): Rozciąga blachę na wybranej krawędzi wzdłuż jej wektora normalnego *(Po dodaniu szkicu konturu można go użyć do utworzenia geometrii blokującej)*.
 
--   <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:32px;"> [Fold a Wall](SheetMetal_AddFoldWall.md): Folds a face at the chosen line with a specified bend radius.
+-   <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:32px;"> [Zagnij blachę](SheetMetal_AddFoldWall/pl.md): Składa ścianę na wybranej linii z zadanym promieniem gięcia.
 
--   <img alt="" src=images/SheetMetal_Unfold.svg  style="width:32px;"> [Unfold](SheetMetal_Unfold.md): Flattens a folded sheet metal object and generates a solid and a sketch (provides a dialog to set parameters).
+-   <img alt="" src=images/SheetMetal_Unfold.svg  style="width:32px;"> [Rozwiń](SheetMetal_Unfold/pl.md): Prostuje zgięty obiekt blaszany i generuje rozwiniętą bryłę oraz szkic konturowy z liniami gięcia *(udostępnia okno dialogowe do ustawiania parametrów)*.
 
--   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md): Flattens a folded sheet metal object and generates a solid and a sketch (if parameters have already been set).
+-   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Rozwiń bezobsługowo](SheetMetal_UnattendedUnfold/pl.md): Prostuje zgięty obiekt blaszany i generuje rozwinięcie oraz szkic konturowy z liniami gięcia *(jeżeli parametry zostały już ustawione)*.
 
--   <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:32px;"> [Add Corner Relief](SheetMetal_AddCornerRelief.md): Adds a corner relief to a corner.
+-   <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:32px;"> [Dodaj podcięcie w narożniku](SheetMetal_AddCornerRelief/pl.md): Dodaje relief narożny do narożnika.
 
--   <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:32px;"> [Make Relief](SheetMetal_AddRelief.md): Adds a relief to a corner.
+-   <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:32px;"> [Dodaj podcięcie](SheetMetal_AddRelief/pl.md): Pierwszy krok do przekształcenia obiektu powłoki w rozkładany obiekt z blachy, dodaje zagłębienie *(wycięcie)* do narożnika.
 
--   <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:32px;"> [Make Junction](SheetMetal_AddJunction.md): Creates a gap in the corner of two walls.
+-   <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:32px;"> [Dodaj otwarte połączenie](SheetMetal_AddJunction/pl.md): Drugi krok, aby przekształcić obiekt powłoki w obiekt z rozkładanej blachy, tworzy otwarte połączenie na krawędzi dwóch ścian.
 
--   <img alt="" src=images/SheetMetal_AddBend.svg  style="width:32px;"> [Make Bend](SheetMetal_AddBend.md): Folds a face at a chosen line.
+-   <img alt="" src=images/SheetMetal_AddBend.svg  style="width:32px;"> [Dodaj zaokrąglone zgięcie](SheetMetal_AddBend/pl.md): Trzeci krok do przekształcenia obiektu powłoki w obiekt z rozkładanej blachy, zastępuje ostre krawędzie okrągłymi zagięciami.
 
--   <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:32px;"> [Sketch On Sheet metal](SheetMetal_SketchOnSheet.md): Cuts a hole in sheetmetal based on a sketch.
+-   <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:32px;"> [Szkic na arkuszu](SheetMetal_SketchOnSheet/pl.md): Na podstawie szkicu wycina wzór otworów wzdłuż zagiętych ścian obiektu z blachy.
 
--   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Make Forming in Wall](SheetMetal_Forming.md): Creates a forming tool.
+-   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Formowanie blach](SheetMetal_Forming/pl.md): Wytłacza kształty z otworami lub bez otworów w arkuszu blachy.
 
-## Brief description 
+## Krótki opis 
 
-This workbench provides tools for the two main tasks:
+To środowisko pracy dostarcza narzędzi do dwóch głównych zadań:
 
--   Create sheet metal objects
--   Unfold sheet metal objects
+-   Tworzenie obiektów blaszanych,
+-   Rozkładanie obiektów z blachy.
 
-This section is meant to give a rough idea of how to use the supplied tools. More detailed information can be found on each tool\'s own page (see above) or in the linked tutorials (see below).
+Ta sekcja ma na celu dać ogólne pojęcie o tym, jak używać dostarczonych narzędzi. Bardziej szczegółowe informacje można znaleźć na stronie każdego narzędzia *(patrz wyżej)* lub w połączonych z nim poradnikach *(patrz niżej)*.
 
-### Create a sheet metal object 
+### Utwórz obiekt z blachy 
 
-#### Start with a profile 
+#### Rozpoczęcie od profilu 
 
-1.  Create an open polyline (preferably with the sketcher)
-2.  Use the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase.md) command to create a sheet metal profile.
+1.  Utwórz otwartą polilinię *(najlepiej za pomocą szkicownika)*,
+2.  Użyj polecenia <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Dodaj ścianę bazową](SheetMetal_AddBase/pl.md), aby utworzyć profil arkusza blachy.
 
-#### Start with a blank 
+#### Rozpoczęcie od pustego 
 
-1.  Create a closed polyline (preferably with the sketcher)
-2.  Use the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase.md) command to create a sheet metal blank.
+1.  Utwórz zamkniętą polilinię *(najlepiej za pomocą szkicownika)*,
+2.  Użyj polecenia <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Dodaj ścianę bazową](SheetMetal_AddBase/pl.md), aby utworzyć nowy arkusz blachy.
 
-#### Start with a PartDesign Pad 
+#### Rozpoczęcie od wyciągnięcia w środowisku Projekt Części 
 
-1.  Create a closed polyline (preferably with the sketcher)
-2.  Use the <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [PartDesign Pad](PartDesign_Pad.md) command to create a prismatic body.
-3.  The <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> [PartDesign Thickness](PartDesign_Thickness.md) command will make it an object of constant thickness.
-4.  To make it unfoldable it needs some gaps or connections between the walls:
-    1.  The <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> [Make Relief](SheetMetal_AddRelief.md) command will cut off selected corners.
-    2.  The <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> [Make Junction](SheetMetal_AddJunction.md) command will create junctions with gaps between adjoining walls that need to be disjoined.
-    3.  The <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> [Make Bend](SheetMetal_AddBend.md) command will create cylindrical connections for the remaining walls that need to stay joined.
+1.  Utwórz zamkniętą polilinię *(najlepiej za pomocą szkicownika)*,
+2.  Użyj polecenia <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [PartDesign Pad](PartDesign_Pad.md) aby stworzyć bryłę prostopadłościanu,
+3.  Narzędzie <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> [Grubość](PartDesign_Thickness.md) środowiska Projekt Części sprawi, że będzie to obiekt o stałej grubości,
+4.  Aby można było go rozłożyć, potrzebne są przerwy lub połączenia między ścianami:
+    1.  Za pomocą narzędzia <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:24px;"> [Dodaj podcięcie](SheetMetal_AddRelief/pl.md) zetniemy wybrane narożniki,
+    2.  Polecenie <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:24px;"> [Dodaj otwarte połączenie](SheetMetal_AddJunction/pl.md) utworzy szczeliny między sąsiednimi ścianami, które trzeba rozdzielić,
+    3.  Polecenie <img alt="" src=images/SheetMetal_AddBend.svg  style="width:24px;"> [Dodaj zaokrąglone zgięcie](SheetMetal_AddBend/pl.md) utworzy cylindryczne połączenia dla pozostałych ścian, które muszą pozostać połączone.
 
-Some parameters will be inherited from the parent object(s) but it is better to check the relevant parameters at each stage.
+Niektóre parametry będą dziedziczone z obiektu*(ów)* nadrzędnego, ale lepiej jest sprawdzić odpowiednie parametry na każdym etapie.
 
-It should now be checked if the resulting sheet metal object can be unfolded. (see [Unfold\...](#Unfold_a_sheet_metal_object.md) below).
+Należy teraz sprawdzić, czy powstały obiekt blaszany może zostać rozłożony *(zobacz rozdział [Rozłóż blaszany element](#Roz.C5.82.C3.B3.C5.BC_blaszany_element.md) poniżej)*.
 
-#### Adding more features 
+#### Dodawanie kolejnych cech 
 
-The unfoldable basic sheet metal objects can be extended:
+Standardowe rozkładane blaszane elementy mogą być rozbudowywane:
 
-1.  Use the <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> [Extend Face](SheetMetal_Extrude.md) command to enlarge walls.
-2.  The <img alt="" src=images/SheetMetal_AddWall.svg  style="width:16px;"> [Make Wall](SheetMetal_AddWall.md) command will add new flanges or hems to the existing object.
-3.  Use the <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:16px;"> [Add Corner Relief](SheetMetal_AddCornerRelief.md) command to add or reshape corner reliefs.
-4.  The <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:16px;"> [Fold a Wall](SheetMetal_AddFoldWall.md) command will fold a wall at a chosen line, i.e. it will trimm a wall at said line, relocate the cut away side, and rejoin them with a cylindrical connection.
-5.  Use the <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Sketch on Sheet metal](SheetMetal_SketchOnSheet.md) command to cut holes into the object starting on a chosen wall and then following the adjoined walls and connections.
-6.  The <img alt="" src=images/SheetMetal_Forming.svg  style="width:16px;"> [Make Forming in Wall](SheetMetal_Forming.md) command will stamp a shape into a plate (wall).
+1.  Użyj polecenia <img alt="" src=images/SheetMetal_Extrude.svg  style="width:16px;"> [Wyciągnij](SheetMetal_Extrude/pl.md), aby powiększyć ściany.
+2.  Polecenie <img alt="" src=images/SheetMetal_AddWall.svg  style="width:16px;"> [Dodaj ścianę](SheetMetal_AddWall/pl.md) doda nowe kołnierze lub obszycia w istniejącym obiekcie.
+3.  Użyj polecenia <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:24px;"> [Dodaj podcięcie w narożniku](SheetMetal_AddCornerRelief/pl.md), aby dodać lub zmienić kształt podcięć narożnych.
+4.  Polecenie <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:24px;"> [Zagnij blachę](SheetMetal_AddFoldWall/pl.md) złoży ścianę na wybranej linii, tzn. przytnie ścianę na tej linii, przeniesie odciętą stronę i połączy je cylindrycznym połączeniem.
+5.  Użyj narzędzia <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:24px;"> [Szkic na arkuszu](SheetMetal_SketchOnSheet/pl.md) wytnij otwory w obiekcie zaczynając od wybranej ściany, a następnie podążając za sąsiednimi ścianami i połączeniami.
+6.  Polecenie <img alt="" src=images/SheetMetal_Forming.svg  style="width:24px;"> [Formowanie blach](SheetMetal_Forming/pl.md) wytłoczy w płycie *(ścianie)* kształt.
 
 :   
 
-    :   After the creation of a WallForming feature the SheetMetal object is **no longer unfoldable**!
+    :   Po utworzeniu cechy *Formowanie blach* obiekt *Arkusz blachy* **już nie da się rozłożyć**!
 
-Several tools from other workbenches can be used to add holes or to reshape edges.
+Kilka narzędzi z innych środowisk pracy może być używanych do dodawania otworów lub zmiany kształtu krawędzi.
 
-### Unfold a sheet metal object 
+### Rozłóż blaszany element 
 
-To unfold a sheet metal object activate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> _ tool.
+Aby rozłożyć obiekt z blachy aktywuj narzędzie <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> _.
 
-The result will be a 3D object with an optional outline sketch including bend lines.
+Wynikiem będzie obiekt 3D z opcjonalnym szkicem konturowym zawierającym linie zgięcia.
 
-### Examples
+### Przykłady
 
-Until tutorial pages are available on this wiki there is an [Examples](SheetMetal_Examples.md) page.
+Dopóki strony poradników nie są dostępne na tej wiki, istnieje strona z [przykładami](SheetMetal_Examples/pl.md).
 
 <img alt="" src=images/SheetMetal_Example-01.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-02.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-03.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-04.png  style="width:100px;"> <img alt="" src=images/SheetMetal_Example-05.png  style="width:100px;">
 
-## Limitations
+## Ograniczenia
 
--   The workbench is affected by the [topological naming issue](Glossary#Topological_Naming.md) that is inherent to FreeCAD. If an edit of a bend earlier in the history of the part renumbers the faces, then the following bends may be affected and switch faces. If the bend features do not break, you can double-click on it to get a dialog where you can select the proper face in the [3D view](3D_view.md), and update the Bend.
--   The Unfold tool has some limitations, and will fail in certain complex situations. When it fails, try to select a different face.
--   Frequent case of crash: take a lot of precautions not to cut in the hinges (the folds) either along the faces or in the angles nor to make holes or notches through the angles.
+-   Na środowisko robocze ma wpływ [problem nazewnictwa topologicznego](Topological_naming_problem/pl.md), który jest nieodłączny dla FreeCAD. Jeśli edycja zagięcia wcześniej w historii części zmieni numerację powierzchni, wówczas kolejne zagięcia mogą zostać naruszone i zmienić powierzchnię. Jeżeli właściwości gięcia nie zostaną uszkodzone, możesz kliknąć na nim dwukrotnie, aby uzyskać okno dialogowe, w którym możesz wybrać odpowiednią powierzchnię w oknie [widoku 3D](3D_view/pl.md) i zaktualizować gięcie.
+-   Narzędzie Rozwiń ma pewne ograniczenia i może zawieść w pewnych skomplikowanych sytuacjach. Jeśli zawiedzie, spróbuj wybrać inną ścianę.
+-   Częsty przypadek awarii: należy podjąć wszelkie środki ostrożności, aby nie ciąć w zawiasach *(zagięciach)* ani wzdłuż powierzchni ścian, ani w kątach, ani nie robić otworów lub nacięć w kątach.
 
-## Tutorials
+## Poradniki
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:800px">
 
-### Sheet Metal Tutorial by meme2704 
+### Arkusz blachy poradnik według meme2704 
 
-The following tutorial is reproduced from the PDF tutorial mentioned in [Links](#Links.md).
+Poniższy poradnik został zaczerpnięty z poradnika PDF wspomnianego w sekcji [Odnośniki internetowe](#Odno.C5.9Bniki_internetowe.md).
 
 
 <div class="mw-collapsible-content">
 
-#### Presentation of the workbench 
+#### Prezentacja środowiska pracy 
 
-After downloading the extension and install, open it. ![](images/sm1.png )
+Po pobraniu i zainstalowaniu rozszerzenia, uruchom je. ![](images/sm1.png )
 
-#### 1st operation 
+#### Operacja pierwsza 
 
--   Get the base: use either the workbenches \"part\" or \"draft\", make 1 sketch that will contain all holes and any cuts, extrude this base to the thickness of the sheet.
--   Bear in mind that the edges will always be in addition as well as the folding radii.
+-   Wykonaj element początkowy: użyj środowisk pracy Część lub Rysunek Roboczy, wykonaj pierwszy szkic, który będzie zawierał wszystkie otwory i cięcia, następnie wytłocz ten element do grubości arkusza.
+-   Pamiętaj, że krawędzie będą zawsze w dodatku, tak samo jak promienie składania.
 
 ![](images/sm2.png )
 
-#### 2nd operation 
+#### Operacja druga 
 
--   Open the Sheet\_metal workbench.
--   Select 1 thickness of the edge (edge) of the base plate and click on the \"bend\" tool 90° default bend angle can be changed from 0 to 90°.
--   Edge height is 10mm by default, editable from 0.1 to xxxmm.
--   Bending radius is by default equal to thickness, editable from 0.1 to xxmm (never put 0).
--   Gap1, gap2 is the withdrawal of the folded edge from the corner of the base (0 accept).
--   Invert default: false folds to Z +, true to ZReliefd cuts the corner between the fold and the base (inactive if gap = 0).
--   Reliefw adds 1 slot between the crop and the edge (inactive if reliefd = 0).
+-   Otwórz środowisko pracy Arkusz blachy.
+-   Wybierz 1 grubość krawędzi *(brzegu)* płyty bazowej i kliknij na narzędzie \"Dodaj zaokrąglone gięcie\" 90° domyślny kąt gięcia może być zmieniany w zakresie od {{Value|0}} do {{Value|90}}°.
+-   Wysokość krawędzi wynosi domyślnie 10mm, można ją edytować w zakresie od {{Value|0.1}} do {{Value|xxx}} mm.
+-   Promień gięcia jest domyślnie równy grubości, można go edytować w zakresie od {{Value|0.1}} do {{Value|xx}} mm *(nigdy nie należy wstawiać wartości 0)*.
+-   Odstęp1, odstęp2 to odległość zagiętej krawędzi od rogu podstawy *(0 akceptwalne)*.
+-   Invert domyślnie: przyjmuje wartość {{false/pl}} składa się do Z +, {{true/pl}} do ZReliefd przecina róg między fałdą a podstawą *(nieaktywne, jeśli szczelina ma wartość = 0)*.
+-   Reliefw dodaje 1 szczelina między zagięciem a krawędzią *(nieaktywne, jeśli reliefd ma wartość = 0)*.
 
-![](images/sm3.png ) Repeat as many times as there are sides to bend.
-Folding 1 return with use of \"extend\".
-![](images/sm4a.png ) To add 1 back repeat the same operation by selecting the thickness of the concerned edge.
-To reduce the space between the 2 edges, use \"extends\".
-Select the thickness and specify the length to add.
-Note that if the extension of the 1st edge is made before the fold of the return, it will not be taken into account, if 1 identical fold is added to the extension, it will appear correct but the unfolding will not be done.
-Folding of 1 2nd edge:
-Now we must separate the 2 edges otherwise they will merge and unfolding will be impossible.
-\* 1st method: make 1 withdrawal of 1 edge.
+![](images/sm3.png ) Powtórz tyle razy, ile jest boków do zgięcia.
+Składanie 1 powrót z wykorzystaniem wyciągnięcia.
+![](images/sm4a.png ) Aby dodać 1 powrót powtórz tę samą operację wybierając grubość danej krawędzi.
+Aby zmniejszyć odstęp między 2 krawędziami użyj funkcji wyciągnięcia.
+Wybierz grubość i określ długość do dodania.
+Zwróć uwagę, że jeśli wyciągnięcie pierwszej krawędzi zostanie wykonane przed powrotem zagięcia, nie będzie brane pod uwagę, jeśli 1 identyczne zagięcie zostanie dodane do wyciągnięcia, będzie wyglądało poprawnie, ale rozkładanie nie zostanie wykonane.
+Złożenie pierwsze drugiej krawędzi:
+Teraz musimy rozdzielić te 2 krawędzie, w przeciwnym razie połączą się i rozkładanie nie będzie możliwe.
+\* Metoda pierwsza: zrobić 1 wycofanie 1 krawędzi.
 
--   -   Give 1 value slightly greater than gap1 (or gap2), at zero there is still fusion.
+-   -   Podaj 1 wartość nieco większa niż szczelina1 *(lub szczelina2)*, przy zerze jest jeszcze połączenie.
 
--   2nd method make 1 cut at 45 ° see further, use this tool.
+-   Metoda druga: zrobić 1 cięcie pod kątem 45 ° patrz dalej, użyj tego narzędzia.
 
 ![](images/sm5a.png )
 
-#### Unfolding
+#### Rozkładanie
 
-Choose 1 reference face (here the orange face) and click on the button in the toolbar.
-We obtain the blue part of which it is enough to modify the values X, Y, or Z to see it in totality.
+Wybierz jedną ścianę odniesienia *(tutaj pomarańczowa)* i kliknij przycisk na pasku narzędzi.
+Otrzymujemy niebieską część, której wystarczy zmodyfikować wartości X, Y lub Z, aby zobaczyć ją w całości.
 ![](images/sm6.png )
 
-#### Cut the flaps at 45° 
+#### Przycięcie brzegów pod kątem 45° 
 
-After folding the flaps without having made a withdrawal, the shape thus appears. ![](images/sm7a.png ) To do it must split at 45 ° (or following the bisector flaps are unequal width).
-\* Create 1 new skit related to the common part of the 2 flaps.
+Po złożeniu brzegów bez wycofania powstaje kształt. ![](images/sm7a.png ) Aby to zrobić należy dokonać podziału pod kątem 45° *(lub po dwusiecznej boki są nierównej szerokości)*.
+\* Utwórz jeden nowy skit związany z częściami wspólnymi dwóch brzegów.
 
--   Create 1 linked stop by selecting the outer edge of the \"hinge\".
--   Draw 1 triangle whose top is constrained at the end, oriented 1 side at 45 °, give the small side 1 minimum width (0.1mm is enough), and make 1 pocket.
+-   Utwórz jeden powiązany ogranicznik, wybierając zewnętrzną krawędź \"zawiasu\".
+-   Narysuj jeden trójkąt, którego wierzchołek jest związany na końcu, zorientowany na jeden bok pod kątem 45°, nadaj małemu bokowi minimalną szerokość *(wystarczy 0,1 mm)* i wykonaj kieszeń.
 
-Be careful not to scratch the \"hinge\" where the nakedness of bound the tip of the triangle at the edge of the fold line. ![](images/sm8a.png ) Unfolding ![](images/sm9.png )
+Be careful not to scratch the \"hinge\" where the nakedness of bound the tip of the triangle at the edge of the fold line. ![](images/sm8a.png ) Rozkładanie ![](images/sm9.png )
 
-#### Piercing edges and flaps 
+#### Przebijanie krawędzi i brzegów 
 
-Make these holes and cuts after folding and before unfolding.
-Always take care not to \"scratch\" the fold lines.
+Wykonaj odpowiednie otwory i nacięcia po zakończeniu etapu gięcia, a przed rozłożeniem.
+Zawsze uważaj, aby nie \"zarysować\" linii zagięcia.
 ![](images/sm10.png )
 
-#### Make wired flaps 
+#### Wykonanie brzegów załamanych 
 
-Make 1 fold on the edge of the side, at 45 ° of 0.1mm long, then 1 other reverse at 45 ° of the length of the contiguous flap, then extend the opposite side, it will pass over and they will not be merged.
-![](images/sm11.png )
+Wykonaj jedno zagięcie na krawędzi strony, pod kątem {{Value|45}}° o długości {{Value|0,1}} mm, a następnie jedno odwrotne pod kątem {{Value|45}}° długości przylegającego boku skrzydła, wydłużając przeciwległą stronę, będzie przechodzić nad i nie będą one łączone. ![](images/sm11.png )
 
-#### Special case of this same pierced edge 
+#### Szczególny przypadek tej samej krawędzi z przebiciami 
 
-In this particular case, unfolding only works by choosing the yellow face as a reference.
+W tym konkretnym przypadku, rozwijanie działa tylko poprzez wybranie żółtej ściany jako odniesienia.
 ![](images/sm12.png )
 
-#### Special case hole straddling the folds 
+#### Szczególny przypadek otworu położonego w poprzek zagięcia 
 
-Previously it is said several times that it is not necessary to cut the folding lines.
-How to do ?
+Wcześniej kilkakrotnie stwierdzono, że nie jest konieczne cięcie linii składania.
+Jak to zrobić?
 ![](images/sm13.png )
 
--   Make the base with its half-round hole and make the 2 half-sided and the 2 half-folds separately.
--   Then make 1 extension on 1 of the sides of the width of the opening minus 0.1mm, the 2 edges thus remain separated.
--   Then on this extension (in green) draw the contour of the cut and make 1 pocket
--   The result is the red piece above, and the unfolding works, stays the line that separated the 2 edges previously
+-   Wykonaj podstawę z półokrągłym otworem i wykonaj dwie połówki boków i dwie połówki zagięcia oddzielnie.
+-   Następnie wykonaj przedłużenie na jednym z boków o szerokości otworu minus {{Value|0,1}}mm, w ten sposób dwie krawędzie pozostaną rozdzielone.
+-   Następnie na tym przedłużeniu *(w kolorze zielonym)* narysuj kontur cięcia i wykonaj kieszeń.
+-   W rezultacie otrzymujemy czerwony element powyżej, a rozkładanie działa, pozostaje linia, która wcześniej oddzielała dwie krawędzie.
 
 ![](images/sm14.png )
 
@@ -221,25 +220,25 @@ How to do ?
 
 </div>
 
-## Videos
+## Filmy
 
--   [The Elegant Sheet Metal Workbench](https://www.youtube.com/watch?v=xidvQYkC4so) by Joko Engineering
+-   [Eleganckie środowisko pracy obróbki blachy](https://www.youtube.com/watch?v=xidvQYkC4so) autorstwa Joko Engineering
 
-## Links
+## Odnośniki internetowe 
 
--   [Macro Sheet Metal Unfolder](Macro_Sheet_Metal_Unfolder.md), the original macro the Unfold tool is based on.
--   [Sheet Metal Workbench](https://forum.freecadweb.org/viewtopic.php?t=11303) announcement on the FreeCAD Forum.
--   [An English and French tutorial in PDF format](https://forum.freecadweb.org/viewtopic.php?f=3&t=25002) on the FreeCAD forum.
--   Report bugs/Request features: <https://github.com/shaise/FreeCAD_SheetMetal/issues>.
+-   [Rozwinięcie blachy](Macro_Sheet_Metal_Unfolder/pl.md), oryginalna makrodefinicja, na której bazuje narzędzie Rozkładanie.
+-   [Środowisko Arkusz Blachy](https://forum.freecadweb.org/viewtopic.php?t=11303) ogłoszenie na forum FreeCAD.
+-   [Angielski i francuski poradnik w formacie PDF](https://forum.freecadweb.org/viewtopic.php?f=3&t=25002) na forum FreeCAD.
+-   Zgłaszanie błędów/żądanie funkcji: <https://github.com/shaise/FreeCAD_SheetMetal/issues>.
 
-## References
+## Bibliografia
 
--   Author:
-    -   Folding tools: Copyright 2015-2018 by Shai Seger
-    -   Unfolding tool: Copyright 2014 by Ulrich Brammer
--   License: [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
--   Official blog: [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
--   Source code on github: <https://github.com/shaise/FreeCAD_SheetMetal>
+-   Autor:
+    -   Narzędzia do składania: Copyright 2015-2018 by Shai Seger
+    -   Narzędzie do rozkładania: Copyright 2014 by Ulrich Brammer
+-   Licencja: [GPLv3](https://www.gnu.org/licenses/gpl-3.0.en.html)
+-   Oficjalny blog: [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
+-   Kod źródłowy na githubie: <https://github.com/shaise/FreeCAD_SheetMetal>
 
 _ _ _
 

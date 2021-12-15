@@ -121,7 +121,9 @@ Pero poder acceder a la escena gráfica directamente tiene muchas ventajas. Por 
 
 </div>
 
-FreeCAD cuenta con varias herramientas para ver o modificar código de openInventor. Por ejemplo, el código de Python siguiente muestra la representación en openInventor de un objeto seleccionado: 
+FreeCAD cuenta con varias herramientas para ver o modificar código de openInventor. Por ejemplo, el código de Python siguiente muestra la representación en openInventor de un objeto seleccionado:
+
+
 ```python
 obj = FreeCAD.ActiveDocument.ActiveObject
 viewprovider = obj.ViewObject
@@ -139,14 +141,21 @@ Pero también tenemos un módulo de Python que permite un acceso completo a todo
 
 ## Coding examples 
 
-See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository of said examples can be found at <https://github.com/MariwanJ/COIN3D_Examples>.
+See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository of said examples can be found at <https://github.com/MariwanJ/COIN3D_Examples>. {{Top}}
 
-[top](#top.md)
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/es|Mesh to Part/es|Pivy/es}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _
 

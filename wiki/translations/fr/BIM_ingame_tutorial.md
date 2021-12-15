@@ -177,7 +177,7 @@ Faites un deuxième mur horizontal de 4 mètres (ou 400 centimètres) de long. S
 
 <img alt="" src=images/BIM_tutorial_11.jpg  style="width:300px;">
 
-Une fois qu\'ils sont créés, sélectionnez les deux murs en appuyant sur CTRL et en cliquant dessus tous les deux dans la vue 3D ou dans la [vue arborescente](Structure_du_document.md), et ajustez leur propriété **height** (hauteur) à 2,5 mètres et leur **width** (largeur)à 20 centimètres (ou toute autre mesure avec laquelle vous êtes à l\'aise, si vous travaillez dans une autre unité), et donc ils ressemblent à ceci (Utilisez la souris pour faire pivoter la vue, en fonction du style de navigation que vous avez choisi):
+Une fois qu\'ils sont créés, sélectionnez les deux murs en appuyant sur CTRL et en cliquant dessus tous les deux dans la vue 3D ou dans la [vue arborescente](Document_structure/fr.md), et ajustez leur propriété **height** (hauteur) à 2,5 mètres et leur **width** (largeur)à 20 centimètres (ou toute autre mesure avec laquelle vous êtes à l\'aise, si vous travaillez dans une autre unité), et donc ils ressemblent à ceci (Utilisez la souris pour faire pivoter la vue, en fonction du style de navigation que vous avez choisi):
 
 <img alt="" src=images/BIM_tutorial_08.jpg  style="width:300px;">
 

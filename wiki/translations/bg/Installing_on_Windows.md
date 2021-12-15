@@ -1,12 +1,29 @@
 # Installing on Windows/bg
+<div class="mw-translate-fuzzy">
+
 Най-лесния начин за инсталиране на FreeCAD на Windows е да свалите инсталаторът по-долу.
+
+
+</div>
 
 
 {{DownloadWindowsStable}}
 
+
+<div class="mw-translate-fuzzy">
+
 След като свалите .msi (Microsoft Installer) файлът кликнете 2 пъти върху него за да стартирате инсталацията.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 По-доли има други опции за инсталация. Ако ви се струват трудни не се притеснявайте! За повечето потребители на Windows е достатъчно да инсталират със гореописаният инсталатор и да следват инструкциите в страницата **[Първи Стъпки](Getting_started/bg.md)**!
+
+
+</div>
 
 ### Проста Инсталация с Microsoft Installer 
 
@@ -14,7 +31,7 @@
 
 The easiest way to **install FreeCAD on Windows** is by using the downloadable installer bundle above. This page describes the usage and features of the *NSIS Installer* for more installation options.
 
-Ако искате да свалите или 64-битова версия, или нестабилна \"най-нова\" версия (development version) вижте страницата [Downloads](Downloads/bg.md).
+Ако искате да свалите или 64-битова версия, или нестабилна \"най-нова\" версия (development version) вижте страницата [Downloads](Download/bg.md).
 
 ## Chocolatey
 

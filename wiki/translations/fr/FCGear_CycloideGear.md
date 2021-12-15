@@ -15,11 +15,8 @@
 
 Les engrenages cycloïdaux sont très sensibles à un ajustement inexact de la distance centrale, ce qui entraîne alors une modification du rapport de transmission. Pour ces raisons, les engrenages cycloïdaux sont peu présents dans la construction mécanique mais ne sont utilisés que dans des cas particuliers tels que dans l\'industrie horlogère, pour les compresseurs mécaniques ou pour l\'entraînement de crémaillères.
 
-:   ![](images/Cycloid-Gear_example_1.png )
-:   
-    
+![](images/Cycloid-Gear_example_1.png ) 
 *De gauche à droite: Engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal*
-    
 
 ## Utilisation
 
@@ -36,35 +33,35 @@ Les engrenages cycloïdaux sont très sensibles à un ajustement inexact de la d
 
 {{Properties_Title|Base}}
 
--    {{PropertyData/fr|Placement}}: [Placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
+-    **Placement**: [Placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
 
--    {{PropertyData/fr|Label}}: nom d\'utilisateur de l\'objet dans la [vue en arborescence](tree_view/fr.md).
+-    **Label**: nom d\'utilisateur de l\'objet dans [vue en arborescence](Tree_view/fr.md).
 
 
 {{Properties_Title|cycloid_parameter}}
 
--    {{PropertyData/fr|inner_diameter}}: valeur par défaut est 5,00. Cercle roulant d\'hypocycloïde (voir aussi les informations dans les {{Emphasis |Remarques}}).
+-    **inner_diameter**: valeur par défaut est 5,00. Cercle roulant d\'hypocycloïde (voir aussi les informations dans les {{Emphasis |Remarques}}).
 
--    {{PropertyData/fr|outer_diameter}}: valeur par défaut est 5,00. Cercle roulant d\'épicycloïde (voir aussi les informations dans les {{Emphasis |Remarques}}).
+-    **outer_diameter**: valeur par défaut est 5,00. Cercle roulant d\'épicycloïde (voir aussi les informations dans les {{Emphasis |Remarques}}).
 
 
 {{Properties_Title|gear_parameter}}
 
--    {{PropertyData/fr|backslash}}: valeur par défaut est 0,00. Le recul, également appelé battement ou jeu, est la distance entre les dents d\'une paire d\'engrenages.
+-    **backslash**: valeur par défaut est 0,00. Le recul, également appelé battement ou jeu, est la distance entre les dents d\'une paire d\'engrenages.
 
--    {{PropertyData/fr|beta}}: avec l\'angle d\'hélice β, un engrenage hélicoïdal est créé (valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche).
+-    **beta**: avec l\'angle d\'hélice β, un engrenage hélicoïdal est créé (valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche).
 
--    {{PropertyData/fr|clearance}}: valeur par défaut est 0,25 (voir aussi les informations dans **Remarques**).
+-    **clearance**: valeur par défaut est 0,25 (voir aussi les informations dans **Remarques**).
 
 -    **double_helix**: **True** crée un engrenage à double hélice (voir aussi les informations dans **Remarques**).
 
--    {{PropertyData/fr|height}}: valeur de la largeur de l\'engrenage.
+-    **height**: valeur de la largeur de l\'engrenage.
 
--    {{PropertyData/fr|module}}: module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans **Remarques**).
+-    **module**: module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans **Remarques**).
 
--    {{PropertyData/fr|numpoints}}: valeur par défaut est de 15, changement du profil de la développante. La modification de la valeur peut entraîner des résultats inattendus.
+-    **numpoints**: valeur par défaut est de 15, changement du profil de la développante. La modification de la valeur peut entraîner des résultats inattendus.
 
--    {{PropertyData/fr|teeth}}: nombre de dents.
+-    **teeth**: nombre de dents.
 
 ### Vue
 

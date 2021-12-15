@@ -2,8 +2,8 @@
 - GuiCommand:
    Name:Assembly3 AddXYWorkplane
    Icon:Assembly_Add_Workplane.svg‎‎
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
    MenuLocation:Assembly3 → Workplane and origin → Add workplane
+   Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 AddXYWorkplane

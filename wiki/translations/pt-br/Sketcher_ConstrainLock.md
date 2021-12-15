@@ -1,6 +1,13 @@
-# Sketcher ConstrainLock/pt-br
 ---
-- GuiCommand:/pt-br   Name:Sketcher ConstrainLock   Name/pt-br:Sketcher ConstrainLock   Workbenches:_---
+- GuiCommand:/pt-br
+   Name:Sketcher ConstrainLock
+   Name/pt-br:Sketcher ConstrainLock
+   Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md), [PartDesign](PartDesign_Workbench/pt-br.md)
+   MenuLocation:Sketch → Sketcher constraints → Constrain lock
+   SeeAlso:[Sketcher Constrain Block](Sketcher_ConstrainBlock.md)
+---
+
+# Sketcher ConstrainLock/pt-br
 
 
 </div>

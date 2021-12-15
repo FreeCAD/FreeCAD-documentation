@@ -1,9 +1,4 @@
 # Add Button to FEM Toolbar Tutorial
-{{Page_in_progress}}
-
- 
-
-
 {{TutorialInfo
 |Topic=FEM
 |Level=Advanced
@@ -20,9 +15,9 @@ The FEM workbench has toolbars and menus. This tutorial shows how to add a test 
 The task can be split into four parts:
 
 -   **Create a new icon file**.
--   **Register the new icon file**. Modification needed to 
--   **Create a new command class**. Modification needed to 
--   **Add new command to workbench**. Modification needed to 
+-   **Register the new icon file**. Modification needed to `src/Mod/Fem/Gui/Resources/Fem.qrc`
+-   **Create a new command class**. Modification needed to `src/Mod/Fem/femcommands/commands.py`
+-   **Add new command to workbench**. Modification needed to `src/Mod/Fem/Gui/Workbench.cpp`
 
 ## Create a new icon file 
 

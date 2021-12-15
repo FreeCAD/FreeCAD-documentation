@@ -15,13 +15,25 @@ KicadStepUp Arbeitsbereich zielt darauf ab, sowohl KiCad als auch FreeCAD Benutz
 
 ## Hintergrund
 
+
+<div class="mw-translate-fuzzy">
+
 Kicad ([Webseite](https://kicad-pcb.org/)) ist eine Opensource Elektronikkonstruktionsautomatisierungsfamilie. Sie ermöglicht es, eine elektrische Schaltung zu entwerfen und eine ein oder mehrlagige Leiterplatte mit einer umfangreichen Bibliothek von Teilen zu erstellen. Das Tolle daran ist, dass die Verwendung des FreeCAD und KicadStepUp Arbeitsbereichs der offizielle Weg ist, um 3D Teile für elektrische Komponenten für Kicad zu erstellen. Die Bibliotheken werden bereitgestellt durch [hier](https://kicad.github.io/), so dass jeder Teile erstellen und einbuchen kann.
 
+
+</div>
+
 KiCADs GUI Philosophie ist im Vergleich zu FreeCAD etwas anders, vor allem, wenn es darum geht, Elemente zu erstellen und sie zu verschieben. Da Kicad jedoch seit Jahren in der Produktion eingesetzt wird, gibt es eine ausgezeichnete Dokumentation, z.B. ein sehr gutes \"Getting Started\" Dokument. Zusätzlich hat jedes Werkzeug sein eigenes Handbuch.
+
+
+<div class="mw-translate-fuzzy">
 
 Wenn man [Kicad](https://kicad-pcb.org/) noch nicht kennt, empfiehlt es sich, eine eigenständige Leiterplatte gemäß dem [Leitfaden für den Einstieg](https://docs.kicad-pcb.org/5.1/en/getting_started_in_kicad/getting_started_in_kicad.pdf) zu erstellen, um die Konzepte zu verstehen. Obwohl einige Themen wie das Hinzufügen von neuen Schaltplänen und Lötflächenrastern (engl.:footprints, wörtlich: Fußabdrücke) zu einer lokalen Bibliothek für den Anfänger wenig interessant zu sein scheinen, stößt man in der Praxis oft schnell darauf, wenn man ein ernsthaftes Projekt beginnt.
 
 Für alle diese [Kicad](https://kicad-pcb.org/) Konzepte findet man im KicadStepUp Arbeitsbereich eine Art von Funktion. Wenn man diese also kennt, ist es viel einfacher zu verstehen, wie man diesen Arbeitsbereich benutzt.
+
+
+</div>
 
 ## Funktionen
 
@@ -41,7 +53,13 @@ Für alle diese [Kicad](https://kicad-pcb.org/) Konzepte findet man im KicadStep
 
 ## Einrichtung
 
+
+<div class="mw-translate-fuzzy">
+
 KicadStepUp ist Teil der _, der mit FreeCAD 0.17 mitgeliefert wird, unter dem Menüpunkt **Werkzeuge → Erweiterungsverwalter** installiert werden.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

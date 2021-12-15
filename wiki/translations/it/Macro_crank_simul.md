@@ -1,6 +1,7 @@
 # Macro crank simul/it
 {{Macro/it
 |Name=Crank Simul
+|Icon=Macro_crank_simul.png
 |Translate=Crank Simul
 |Description=Simulazione di cinematismo biella manovella.
 |Author=kwahoo

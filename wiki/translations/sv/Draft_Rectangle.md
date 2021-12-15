@@ -40,10 +40,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 -   Markera punkter i ett tomt område i 3d vyn, eller på ett existerande objekt.
 -   Nedtryckning av **CTRL** kommer att [snäppa](Draft_Snap/sv.md) din punkt till tillgängliga snäpp-punkter.
--   Skriv in siffror för att [manuellt mata in en koordinat](Draft_Coordinates/sv.md).
+-   Skriv in siffror för att manuellt mata in en koordinat.
 -   Nedtryckning av **SKIFT** medan du väljer den motsatta punkten tillåter dig att begränsa den ortogonalt i relation till det ögonblick som du tryckte på **SKIFT**.
 -   Om du trycker på **ESC** så avbryts funktionen.
--   Den skapade rektangeln kommer att ha nuvarande [linjestil](Draft_Linestyle/sv.md).
 -   Rektanglar har en \"Texturbild\" egenskap som kan användas för att visa en bild som mappas på rektangeln. Du måste se till att ge rektangeln samma dimensioner som bilden. Om man tar bort innehållet i egenskapen så försvinner bilden från rektangeln. Detta är användbart om du behöver kalkera av en pappersritning som du har skannat in.
 
 

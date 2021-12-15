@@ -15,11 +15,20 @@ Unter anderem wegen der Geräuschentwicklung werden Kegelzahnräder nicht so hä
 
 Spiralförmige Kegelräder haben gekrümmte Zähne, die im Vergleich zu geraden Kegelrädern einen weicheren Eingriff und einen größeren Zahn zu Zahn Kontakt ermöglichen. Dadurch werden Vibrationen und Geräusche reduziert. Sie können bei hohen Geschwindigkeiten eingesetzt werden und werden normalerweise in Motorrad- und Fahrradgetrieben verwendet.
 
+![](images/Bevel-Gear_example.png )
+
+
+<div class="mw-translate-fuzzy">
+
+
 :   ![](images/Bevel-Gear_example.png )
 :   
     
 *Von links nach rechts: Geradverzahnung, Spiralverzahnung*
     
+
+
+</div>
 
 ## Anwendung
 
@@ -103,10 +112,22 @@ Begrenzungen sind noch nicht bekannt.
 
 -    **Achswinkel gesamt**= **Referenz-Kegelwinkel 1** + **Referenz-Kegelwinkel 2**
 
+
+<div class="mw-translate-fuzzy">
+
 Substantiv Referenz Kegelwinkel \[TECH.\]
 
 
+</div>
 
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 _ _ _
 

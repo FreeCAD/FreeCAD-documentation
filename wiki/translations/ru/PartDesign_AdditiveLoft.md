@@ -22,8 +22,8 @@
 ### Применение через диалог 
 
 1.  Press the **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive loft](PartDesign_AdditiveLoft.md)** button.
-2.  In the **Select feature** dialog, select a sketch to be used as base profile object and click **OK**.
-    -   Alternatively, a single sketch can be selected prior to pressing the Additive loft button.
+2.  In the **Select feature** dialog select a sketch to be used as base profile object and click **OK**.
+    -   Alternatively, either a single sketch or the face of a 3D object (<small>(v0.20)</small> ) can be selected prior to pressing the Additive loft button.
 3.  In the **Loft parameters**, press the **Add Section** button.
 4.  Select the next sketch in the [3D view](3D_view.md). Repeat to select more sketches in the order you want them to be lofted through. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
 5.  Set options if needed and click **OK**.
@@ -36,6 +36,7 @@
 1.  Select several sketches. It is hereby important in what order you select them:
     -   The sketch selected at first will become the base profile object in the next step
     -   The sketches selected after the first one will become the loft sections. Also here the selection order is important: The sketch selected as second will become the first loft section, the one selected as third becomes the second section and so on. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
+    -   The first or last selection can also be a face of a 3D object (<small>(v0.20)</small> )
 2.  Press the **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive loft](PartDesign_AdditiveLoft.md)** button.
 3.  Set options if needed and click **OK**.
 
@@ -66,7 +67,10 @@
 
 -    **Allow Multi Face**: non applicable.
 
-## Ограничения
+## Notes
+
+
+<div class="mw-translate-fuzzy">
 
 -   Эскизы должны иметь замкнутые контуры.
 -   Невозможно сделать профиль через в вершину.
@@ -75,9 +79,8 @@
 -   Профиль будет создан в том порядке, в котором были добавлены поперечные сечения
 -   Если эскиз имеет внутреннюю геометрию, т. е. в профиле должны быть отверстия, то порядок создания геометрии эскиза должен быть одинаковым для всех секций: либо начните все секции с внутренней геометрии, либо начните их все с внешней. В противном случае может быть создан некорректный профиль, в котором пересекаются внутренние и внешние стенки фигуры.
 
-## Известные проблемы 
 
--   В некоторых режимах, при сбое деталь может стать черной
+</div>
 
 ## Ссылки
 

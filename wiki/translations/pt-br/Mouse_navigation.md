@@ -13,22 +13,50 @@ O *Estilos de Navegação* do FreeCAD consiste nos comandos usados para navegar 
 
 </div>
 
-## Navigation
+For more information about selecting objects see [Selection methods](Selection_methods.md).
+
+For more information about manipulating objects see [Std TransformManip](Std_TransformManip.md).
+
+## Selecting a navigation style 
 
 
 <div class="mw-translate-fuzzy">
 
-## Navegação
-
-Os gestos do mouse usados para manipulação de objetos variam dependendo do estilo de navegação selecionado; o estilo atualmente selecionado é usado para todas as bancadas de trabalho.
+-   No menu [Editor de Preferências](Preferences_Editor/pt-br#Navegação.md); menu **Editar → Preferências → Tela → Navegação → Navegação 3D**.
+-   Clicando com o botão direito do mouse no espaço vazio na Vista 3D e selecionando **Estilo de Navegação** no menu de contexto.
 
 
 </div>
 
-Existem duas maneiras de mudar o estilo de navegação:
+## Available navigation styles 
 
--   No menu [Editor de Preferências](Preferences_Editor/pt-br#Navegação.md); menu **Editar → Preferências → Tela → Navegação → Navegação 3D**.
--   Clicando com o botão direito do mouse no espaço vazio na Vista 3D e selecionando **Estilo de Navegação** no menu de contexto.
+
+<div class="mw-translate-fuzzy">
+
+### Blender Navigation 
+
+
+</div>
+
+The Blender navigation style was modeled after [Blender](https://www.blender.org).
+
+
+<div class="mw-translate-fuzzy">
+
+O estilo de navegação do Blender foi modelado após [Blender](https://www.blender.org). Anteriormente não havia como realizar movimento panorâmico usando apenas o mouse; sempre era necessário segurar a tecla **Shift**. Isto mudou em 2016, agora você pode segurar os botões esquerdo e direito do mouse para mover a janela de exibição. {{Blender Navigation
+|Select_name=Selecionar
+|Pan_name=Pan(movimento panorâmico)
+|Zoom_name=Zoom
+|Rotate_view_name=Rotacionar vista
+|Shift=**Shift**
+|Select_text=Pressione o botão esquerdo do mouse sobre um objeto que você deseja selecionar.
+|Pan_text=Segure **Shift** e o botão central do mouse, depois mova o ponteiro.
+</div>
+
+Alternativamente, segure os botões esquerdo e direito do mouse, e então mova o ponteiro.
+|Zoom_text=Use a rodinha do mouse para aumentar e diminuir o zoom.
+|Rotate_view_text=Segure o botão do meio do mouse, depois mova o ponteiro.
+}}
 
 ### CAD navigation 
 
@@ -53,101 +81,33 @@ Este é o estilo de navegação padrão. Ele permite ao usuário um controle sim
 |Shift=**Shift**
 |Select_text=Pressione o botão esquerdo do mouse sobre um objeto que você deseja selecionar.
 
+<div class="mw-translate-fuzzy">
 Manter pressionado **Ctrl** permite a seleção de múltiplos objetos.
 |Pan_text=Segure o botão do meio do mouse, depois mova o ponteiro.
 |Pan_mode_text=Pan mode: segure a tecla **Ctrl**, pressione o botão direito do mouse uma vez, depois mova o ponteiro. <small>(v0.17)</small> 
 |Zoom_text=Utilizar a roda do mouse para aumentar e diminuir o zoom.
+</div>
 
+<div class="mw-translate-fuzzy">
 Clicando no botão do meio do mouse, a vista é centrada novamente na localização do cursor.
 |Zoom_mode_text=Zoom mode: segure as teclas **Ctrl** e **Shift**, pressione o botão direito do mouse uma vez, depois mova o ponteiro. 
 <small>(v0.17)</small> 
 |Rotate_view_text=Segure o botão central do mouse, depois pressione e segure o botão esquerdo do mouse, depois mova o ponteiro.
+</div>
 
+<div class="mw-translate-fuzzy">
 A localização do cursor quando o botão central do mouse é pressionado determina o centro de rotação. A rotação funciona como girar uma bola que gira ao redor de seu centro. Se os botões forem soltos antes de você parar o movimento do mouse, a visualização continua [girando](Std_DemoMode/pt-br.md), se isto estiver habilitado.
+</div>
 
+<div class="mw-translate-fuzzy">
 Um duplo clique com o botão do meio do mouse define um novo centro de rotação.
 |Rotate_view_mode_text=Rotate mode: pressione a tecla **Shift**, pressione o botão direito do mouse uma vez, depois mova o ponteiro. <small>(v0.17)</small> 
 |Rotate_view_alt_text=Segure o botão central do mouse, depois pressione e segure o botão direito do mouse, depois mova o ponteiro.
+</div>
 
 Com este método, o botão central do mouse pode ser solto depois que o botão direito do mouse for pressionado.
 
 Os usuários que usam o mouse com a mão direita podem achar este método mais fácil do que o primeiro método.
-}}
-
-### OpenInventor navigation 
-
-
-<div class="mw-translate-fuzzy">
-
-### Navegação OpenInventor 
-
-A navegação OpenInventor (antigo Inventor) foi modelada após [Open Inventor](http://en.wikipedia.org/wiki/Open_Inventor). Para selecionar objetos, você deve manter pressionada a tecla **Ctrl**.
-
-
-</div>
-
-Este modo não é baseado no Autodesk Inventor.
-
-
-{{OpenInventor Navigation
-|Select_name=Selecionar
-|Pan_name=Pan(movimento panorâmico)
-|Zoom_name=Zoom
-|Rotate_view_name=Rotacionar vista
-|Ctrl=**Ctrl**
-|Select_text=Segure **Ctrl**, depois pressione o botão esquerdo do mouse sobre um objeto que você deseja selecionar.
-|Pan_text=Segure o botão do meio do mouse, depois mova o ponteiro.
-|Zoom_text=Use a rodinha do mouse para aumentar e diminuir o zoom.
-
-Alternativamente, segure o botão central do mouse, depois pressione e segure o botão esquerdo do mouse, depois mova o ponteiro. |Rotate_view_text=Mantenha o botão esquerdo do mouse pressionado, depois mova o ponteiro.
-}}
-
-
-<div class="mw-translate-fuzzy">
-
-### Blender Navigation 
-
-
-</div>
-
-O estilo de navegação do Blender foi modelado após [Blender](https://www.blender.org). Anteriormente não havia como realizar movimento panorâmico usando apenas o mouse; sempre era necessário segurar a tecla **Shift**. Isto mudou em 2016, agora você pode segurar os botões esquerdo e direito do mouse para mover a janela de exibição. {{Blender Navigation
-|Select_name=Selecionar
-|Pan_name=Pan(movimento panorâmico)
-|Zoom_name=Zoom
-|Rotate_view_name=Rotacionar vista
-|Shift=**Shift**
-|Select_text=Pressione o botão esquerdo do mouse sobre um objeto que você deseja selecionar.
-|Pan_text=Segure **Shift** e o botão central do mouse, depois mova o ponteiro.
-
-Alternativamente, segure os botões esquerdo e direito do mouse, e então mova o ponteiro.
-|Zoom_text=Use a rodinha do mouse para aumentar e diminuir o zoom.
-|Rotate_view_text=Segure o botão do meio do mouse, depois mova o ponteiro.
-}}
-
-
-<div class="mw-translate-fuzzy">
-
-### Navegação Touchpad 
-
-
-</div>
-
-Na Navegação com touchpad, panorâmico, zoom e rotacionar vista requerem o pressionamento de tecla com o touchpad. {{Touchpad Navigation
-|Select_name=Selecionar
-|Pan_name=Pan(movimento panorâmico)
-|Zoom_name=Zoom
-|Rotate_view_name=Rotacionar vista
-|Shift=**Shift**
-|Ctrl=**Ctrl**
-|Alt=**Alt**
-|PageUp=**PageUp**
-|PageDown=**PageDown**
-|Select_text=Pressione o botão esquerdo do mouse sobre um objeto que você deseja selecionar.
-|Pan_text=Segure **Shift**, depois mova o ponteiro.
-|Zoom_text=Use **PageUp** e **PageDown** para aumentar e diminuir o zoom.
-|Zoom_alt_text=Alternativamente, segure **Shift** e **Ctrl**, depois mova o ponteiro.
-|Rotate_view_text=Segure **Alt**, depois mova o ponteiro.
-|Rotate_view_alt_text=Alternativamente, segure **Shift** e o botão esquerdo, depois mova o ponteiro.
 }}
 
 
@@ -158,7 +118,15 @@ Na Navegação com touchpad, panorâmico, zoom e rotacionar vista requerem o pre
 
 </div>
 
+This style was tailored for use with a touchscreen and pen. Nevertheless, it can also be used with a mouse, and is recommended for use when using a Mac with a trackpad.
+
+
+<div class="mw-translate-fuzzy">
+
 Este estilo foi introduzido na versão 0.16, e foi adaptado para uso com uma tela sensível ao toque e uma caneta. No entanto, também pode ser usado com um mouse, recomendado para uso quando se usa um Mac com trackpad. {{Gesture Navigation \|Select\_name=Selecionar \|Pan\_name=Pan(movimento panorâmico) \|Zoom\_name=Zoom \|Rotate\_view\_name=Rotacionar vista \|Tilt\_view\_name=Vista inclinada \|Select\_text=Pressione o botão esquerdo do mouse sobre um objeto que você deseja selecionar. \|Select\_gesture\_text=Toque para selecionar. \|Pan\_text=Segure o botão direito do mouse, depois mova o ponteiro. \|Pan\_gesture\_text=Arrastar com dois dedos.
+
+
+</div>
 
 Você também pode clicar e segurar, depois arrastar. Isto simula o Pan(movimento panorâmico) com o botão direito do mouse. \|Zoom\_text=Use a rodinha do mouse para aumentar e diminuir o zoom. \|Zoom\_gesture\_text=Faça o movimento de pinça fechando os dedos para aproximar ou de abertura para afastar. \|Rotate\_view\_text=Mantenha o botão esquerdo do mouse pressionado, depois mova o ponteiro. Em [Sketcher](Sketcher_Workbench/pt-br.md) e outros modos de edição, este comportamento é desativado. Segure **Alt** ao pressionar o botão do mouse para entrar no modo de rotação.
 
@@ -172,6 +140,8 @@ Na v0.18 este método é desativado por padrão. Para ativar, vá para {**Editar
 <div class="mw-translate-fuzzy">
 === Maya-Gesture Navigation ===
 </div>
+
+In Maya-Gesture Navigation, panning, zooming, and rotating the view require the **Alt** key together with a mouse button; therefore, a three-button mouse is required. It's also possible to use gestures as this mode was developed over the [Gesture navigation](#Gesture_navigation.md) mode.
 
 <div class="mw-translate-fuzzy">
 Na Navegação com o Maya-Gesture, o panorâmico, o zoom e a rotação da vista requerem a tecla **Alt** juntamente com um botão do mouse; portanto, é necessário um mouse de três botões. Também é possível usar gestos, pois este modo foi desenvolvido sobre o modo [Navegação por gestos](#Navegação_por_gestos.md).
@@ -191,10 +161,71 @@ Alternativamente, use a rodinha do mouse para aumentar e diminuir o zoom.
 }}
 
 <div class="mw-translate-fuzzy">
+=== OpenCascade ===
+</div>
+
+The OpenCascade navigation style was modeled after [https://www.opencascade.com/ OpenCascade].
+
+{{OpenCascade Navigation
+|Select_name=Selecionar
+|Pan_name=Pan(movimento panorâmico)
+|Zoom_name=Zoom
+|Rotate_view_name=Rotacionar vista
+|Ctrl=**Ctrl**
+|Select_text=Pressione o botão esquerdo do mouse sobre um objeto que você deseja selecionar.
+|Pan_text=Segure o botão do meio do mouse, depois mova o ponteiro.
+|Zoom_text=Use a rodinha do mouse para aumentar e diminuir o zoom.
+
+Alternativamente, segure **Ctrl** e o botão esquerdo do mouse, depois mova o ponteiro.
+|Rotate_view_text=Segure **Ctrl** e o botão direito do mouse, depois mova o ponteiro.
+}}
+
+=== OpenInventor navigation ===
+
+<div class="mw-translate-fuzzy">
+=== Navegação OpenInventor ===
+A navegação OpenInventor (antigo Inventor) foi modelada após [http://en.wikipedia.org/wiki/Open_Inventor Open Inventor]. Para selecionar objetos, você deve manter pressionada a tecla **Ctrl**.
+</div>
+
+Este modo não é baseado no Autodesk Inventor.
+
+{{OpenInventor Navigation
+|Select_name=Selecionar
+|Pan_name=Pan(movimento panorâmico)
+|Zoom_name=Zoom
+|Rotate_view_name=Rotacionar vista
+|Ctrl=**Ctrl**
+|Select_text=Segure **Ctrl**, depois pressione o botão esquerdo do mouse sobre um objeto que você deseja selecionar.
+|Pan_text=Segure o botão do meio do mouse, depois mova o ponteiro.
+|Zoom_text=Use a rodinha do mouse para aumentar e diminuir o zoom.
+
+Alternativamente, segure o botão central do mouse, depois pressione e segure o botão esquerdo do mouse, depois mova o ponteiro. |Rotate_view_text=Mantenha o botão esquerdo do mouse pressionado, depois mova o ponteiro.
+}}
+
+=== OpenSCAD navigation ===
+
+The OpenSCAD navigation style was modeled after [https://openscad.org/ OpenSCAD].
+
+<small>(v0.20)</small> 
+
+{{OpenSCAD_Navigation
+|Select_name=Select
+|Pan_name=Pan
+|Zoom_name=Zoom
+|Rotate_view_name=Rotate view
+|Shift=**Shift**
+|Select_text=Press the left mouse button over an object you want to select.
+|Pan_text=Hold the right mouse button, then move the pointer.
+|Zoom_text=Hold the middle mouse button, then move the pointer.
+Alternatively, hold **Shift** and the right mouse button, then move the pointer.
+|Rotate_view_text=Hold the left mouse button, then move the pointer.
+}}
+
+<div class="mw-translate-fuzzy">
 === Navegação do Revit ===
 </div>
 
-Este estilo foi introduzido na versão 0.18.
+The Revit navigation style was modeled after [https://en.wikipedia.org/wiki/Autodesk_Revit Revit].
 
 {{Revit Navigation
 |Select_name=Selecionar
@@ -213,47 +244,48 @@ Alternativamente, segure os botões esquerdo e direito do mouse, depois mova o p
 Alternativamente, segure o botão central do mouse, depois pressione e segure o botão direito do mouse, depois mova o ponteiro.
 }}
 
+=== TinkerCAD navigation ===
+
+The TinkerCAD navigation style was modeled after [https://en.wikipedia.org/wiki/Tinkercad TinkerCAD].
+
+<small>(v0.20)</small> 
+
+{{TinkerCAD Navigation
+|Select_name=Select
+|Pan_name=Pan
+|Zoom_name=Zoom
+|Rotate_view_name=Rotate view
+|Select_text=Press the left mouse button over an object you want to select.
+|Pan_text=Hold the middle mouse button, then move the pointer.
+|Zoom_text=Use the mouse wheel to zoom in and out.
+|Rotate_view_text=Press the right mouse button, then move the pointer.
+}}
+
 <div class="mw-translate-fuzzy">
-=== OpenCascade ===
+=== Navegação Touchpad ===
 </div>
 
-Este estilo foi introduzido na versão 0.18.
+In Touchpad Navigation, panning, zooming, and rotating the view require a modifier key together with the touchpad.
 
-{{OpenCascade Navigation
+<div class="mw-translate-fuzzy">
+Na Navegação com touchpad, panorâmico, zoom e rotacionar vista requerem o pressionamento de tecla com o touchpad.
+{{Touchpad Navigation
 |Select_name=Selecionar
 |Pan_name=Pan(movimento panorâmico)
 |Zoom_name=Zoom
 |Rotate_view_name=Rotacionar vista
+|Shift=**Shift**
 |Ctrl=**Ctrl**
+|Alt=**Alt**
+|PageUp=**PageUp**
+|PageDown=**PageDown**
 |Select_text=Pressione o botão esquerdo do mouse sobre um objeto que você deseja selecionar.
-|Pan_text=Segure o botão do meio do mouse, depois mova o ponteiro.
-|Zoom_text=Use a rodinha do mouse para aumentar e diminuir o zoom.
-
-Alternativamente, segure **Ctrl** e o botão esquerdo do mouse, depois mova o ponteiro.
-|Rotate_view_text=Segure **Ctrl** e o botão direito do mouse, depois mova o ponteiro.
+|Pan_text=Segure **Shift**, depois mova o ponteiro.
+|Zoom_text=Use **PageUp** e **PageDown** para aumentar e diminuir o zoom.
+|Zoom_alt_text=Alternativamente, segure **Shift** e **Ctrl**, depois mova o ponteiro.
+|Rotate_view_text=Segure **Alt**, depois mova o ponteiro.
+|Rotate_view_alt_text=Alternativamente, segure **Shift** e o botão esquerdo, depois mova o ponteiro.
 }}
-
-== Selecionar objetos ==
-
-=== Simple selection ===
-
-<div class="mw-translate-fuzzy">
-=== Seleção simples ===
-Os objetos podem ser selecionados por um clique com o botão esquerdo do mouse, clicando no objeto na [[3D view]] ou selecionando-o na [[tree view]].
-</div>
-
-=== Preselection ===
-
-<div class="mw-translate-fuzzy">
-=== Pré-seleção ===
-Há também um mecanismo de "pré-seleção" que destaca os objetos e exibe informações antes da seleção, bastando passar o mouse sobre os objetos. Se você não gostar deste comportamento ou se tiver uma máquina lenta, você pode desligar a pré-seleção nas preferências.
-</div>
-
-== Manipulating objects ==
-
-<div class="mw-translate-fuzzy">
-== Manipulando Objetos ==
-FreeCAD oferece [''manipuladores''](Manipulator/pt-br.md) que são manípulos que podem ser usados para modificar a aparência, forma ou outros parâmetros de um objeto.
 </div>
 
 == Suporte de Hardware ==

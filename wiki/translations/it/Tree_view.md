@@ -48,11 +48,6 @@ Molte operazioni creano oggetti che dipendono da un oggetto precedentemente esis
 ## Azioni
 
 
-**Nota:**
-
-le espressioni e le azioni link sono state aggiunte nella versione 0.19.
-
-
 <div class="mw-translate-fuzzy">
 
 Poiché la vista ad albero elenca oggetti che possono essere visibili nella [vista 3D](3D_view/it.md), molte delle azioni sono uguali a quelle che possono essere eseguite nella [vista 3D](3D_view/it.md).
@@ -70,9 +65,15 @@ All\'avvio dell\'applicazione, per impostazione predefinita è attivo l\'ambient
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Una volta creato un nuovo documento, diventano attivi i seguenti elementi:
 
 -    **Expression actions**: [Copia il documento attivo](Std_Expressions/it.md), [Copia tutti i documenti](Std_Expressions/it.md).
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -118,36 +119,10 @@ Se si seleziona il documento attivo e si fa clic con il tasto destro, oltre a **
 
 ### Selezione degli oggetti 
 
-Una volta aggiunti gli oggetti al documento, oltre alle azioni precedenti, facendo clic con il tasto destro su una parte vuota della vista ad albero vengono mostrati dei comandi aggiuntivi; questi dipendono dal tipo di oggetto e dall\'ambiente attivo.
-
 
 <div class="mw-translate-fuzzy">
 
-Ad esempio, con [Draft](Draft_Workbench/it.md) attivo, selezionare prima un oggetto, quindi fare clic con il tasto destro su un posto vuoto nella vista ad albero:
-
--    **_.
-
--    **[Mostra la selezione](Std_ShowSelection/it.md)**: rende visibili gli oggetti selezionati.
-
--    **[Nascondi la selezione](Std_HideSelection/it.md)**: nasconde gli oggetti selezionati.
-
--    **_; usare di nuovo questo comando per annullarne l\'effetto. Imposta l\'attributo `Selectable` dell\'oggetto su `True` o `False`. Modificare la proprietà attivando **Selectable** nell\'[editor delle proprietà](property_editor/it.md).
-
--    **[Seleziona tutte le istanze](Std_TreeSelectAllInstances/it.md)**: seleziona tutte le istanze di questo oggetto nella vista ad albero.
-
--    **[Aspetto](Std_SetAppearance/it.md)**: avvia la finestra di dialogo per modificare il colore e le dimensioni di linee e vertici e il colore delle facce.
-
--    **_.
-
--    **[Taglia](Std_Cut/it.md)**: disabilitato se il cli con il tasto destro non si avviene sull\'oggetto.
-
--    **[Copia](Std_Copy/it.md)**: copia un oggetto in memoria.
-
--    **[Incolla](Std_Paste/it.md)**: incolla l\'oggetto copiato nel documento; la copia viene aggiunta alla fine della vista ad albero.
-
--    **[Elimina](Std_Delete/it.md)**: rimuove l\'oggetto dal documento e dalla vista ad albero chiamando il metodo `removeObject()` del documento.
-
--    **Utilità**: **(opzionale)** comandi contestuali aggiuntivi forniti da [Draft](Draft_Workbench/it.md).
+Una volta aggiunti gli oggetti al documento, oltre alle azioni precedenti, facendo clic con il tasto destro su una parte vuota della vista ad albero vengono mostrati dei comandi aggiuntivi; questi dipendono dal tipo di oggetto e dall\'ambiente attivo.
 
 
 </div>
@@ -173,6 +148,33 @@ Se si seleziona un oggetto, ad esempio una [ linea di Draft](Draft_Line/it.md) e
 
 
 </div>
+
+### Keyboard actions 
+
+The following keyboard actions are available when the focus is on the Tree view:
+
+-    **Ctrl**\+**F**: opens a search box at the bottom of the tree, allowing to search and reach objects using their names or labels.
+
+-   Expand and collapse actions using **Alt**+**Arrow** combinations: <small>(v0.20)</small> 
+    -   
+        **Alt**
+        
+        \+**Left**: collapses selected item(s).
+
+    -   
+        **Alt**
+        
+        \+**Right**: expands selected item(s).
+
+    -   
+        **Alt**
+        
+        \+**Up**: expands selected item(s) with all their tier-1 children collapsed (deeper children remain unchanged).
+
+    -   
+        **Alt**
+        
+        \+**Down**: expands selected item(s) with all their tier-1 children expanded as well (deeper children remain unchanged).
 
 ## Overlay icons 
 

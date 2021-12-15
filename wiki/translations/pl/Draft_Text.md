@@ -29,7 +29,7 @@ Zobacz również: _.
     -   Wybierz opcję z menu **Adnotacje → <img src="images/Draft_Text.svg" width=16px> Tekst**,
     -   Użyj skrótu klawiaturowego: **T** a następnie **E**.
 2.  Otwiera się panel zadań **Tekst**. Zobacz sekcję [Opcje](#Opcje.md), aby uzyskać więcej informacji.
-3.  Kliknij punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> [Dodaj punkt](Draft_AddPoint.md)**.
+3.  Kliknij punkt w oknie [widoku 3D](3D_view/pl.md), lub wpisz współrzędne i naciśnij przycisk **<img src="images/Draft_AddPoint.svg" width=16px> Dodaj punkt**.
 4.  Wprowadź żądany tekst, naciskając **Enter** między każdą linijką.
 5.  Naciśnij **Enter** dwukrotnie, lub naciśnij przycisk **<img src="images/Button_valid.svg" width=16px>. Utwórz tekst** aby zakończyć operację.
 
@@ -38,9 +38,9 @@ Zobacz również: _.
 Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zobacz stronę [Preferencji](Draft_Preferences/pl.md). Skróty wymienione tutaj są skrótami domyślnymi.
 
 -   Aby ręcznie wprowadzić współrzędne, po prostu wprowadź liczby, a następnie naciśnij klawisz **Enter** pomiędzy każdą składową X, Y i Z. Możesz wcisnąć przycisk **<img src="images/Draft_AddPoint.svg" width=16px> dodaj punkt**, gdy już wprowadzisz żądane wartości. Zaleca się wysunięcie kursora poza okno [widoku 3D](3D_view.md) przed wprowadzeniem współrzędnych.
--   Pole wyboru **Względny** nie ma zastosowania dla tego polecenia.
+-   Pole wyboru **Względny** wyświetlane w programie FreeCAD w wersji 0.19 i wcześniejszych, nie ma zastosowania dla tego polecenia.
 -   Naciśnij **G** lub kliknij pole wyboru **Globalnie**, aby przełączyć tryb globalny. Jeśli tryb globalny jest włączony, współrzędne są względne w stosunku do globalnego układu współrzędnych, w przeciwnym razie są względne w stosunku do układu współrzędnych [płaszczyznay roboczej](Draft_SelectPlane/pl.md). {{Version/pl|0.20}}
--   Zaznacz pole wyboru **Kontynuuj** na drugim panelu zadań, aby włączyć tryb kontynuacji. Skrót klawiaturowy **T** nie działa. Jeśli tryb kontynuacji jest włączony, polecenie zostanie uruchomione ponownie po zakończeniu, umożliwiając dalsze tworzenie tekstów.
+-   Naciśnij klawisz **T** lub zaznacz pole wyboru **Kontynuuj** aby przełączyć tryb kontynuacji. Jeśli tryb kontynuacji jest włączony, polecenie zostanie uruchomione ponownie po zakończeniu pracy, umożliwiając kontynuowanie tworzenia tekstów. Skrót ten nie działa w drugim panelu zadań. Opcja ta nie jest dostępna w pierwszym panelu zadań w programie FreeCAD w wersji 0.19 i wcześniejszych.
 -   Naciśnij **S**, aby włączyć lub wyłączyć [przyciąganie](Draft_Snap/pl.md).
 -   Naciśnij klawisz **Esc** lub przycisk **Zamknij**, aby przerwać bieżące polecenie.
 
@@ -113,7 +113,7 @@ text = make_text(string, placement=None, screen=False)
 
 -    `string`to łańcuch, lub lista łańcuchów. Jeżeli jest to lista, to każdy element jest wyświetlany w swoim wierszu.
 
--   Jeżeli wartość `screen` ma wartość `True`, to tekst jest zawsze zwrócony w kierunku obserwacji z kamery, w przeciwnym razie wyrównuje się z osiami sceny i leży na płaszczyźnie XY.
+-   Jeżeli wartość `screen` ma wartość `True`, to tekst jest zawsze zwrócony w kierunku obserwacji z kamery, w przeciwnym razie jest wyświetlana w płaszczyźnie zdefiniowanej przez jej {{PropertyData/pl|Umiejscowienie}}.
 
 Właściwości widoku `text` można zmienić poprzez nadpisanie jego właściwości, np. nadpisać `ViewObject.FontSize` wartością nowego rozmiaru w milimetrach.
 

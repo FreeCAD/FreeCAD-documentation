@@ -26,7 +26,10 @@ OpenInventor записывает трехмерную сцену в форме 
 
 </div>
 
-Дерево сцен в openInventor описывает все части трёхмерной сцены, такие как геометрия, цвета, материалы, освещение, и т.д. и организует все эти данные в удобной и четкой структуре. Все что угодно может быть сгруппировано в субструктуры, позволяя вам организовывать содержание вашей сцены тем способом, который вам нравится. Вот пример файла в формате openInventor: {{Code|lang=bash|code=
+Дерево сцен в openInventor описывает все части трёхмерной сцены, такие как геометрия, цвета, материалы, освещение, и т.д. и организует все эти данные в удобной и четкой структуре. Все что угодно может быть сгруппировано в субструктуры, позволяя вам организовывать содержание вашей сцены тем способом, который вам нравится. Вот пример файла в формате openInventor:
+
+
+{{Code|lang=bash|code=
 #Inventor V2.0 ascii
  
 Separator { 
@@ -61,24 +64,29 @@ Separator {
 
 Но есть множество преимуществ, которые будут возможны при прямом доступе. Например, мы временно можем изменить внешний вид объекта, или мы можем добавить в сцену объекты, которые не обладают реальным представлением в документе FreeCAD, такие как геометрия построений, помощники, графические подсказки или инструменты, такие как манипуляторы или отображающаяся на экране информация.
 
-FreeCAD обладает несколькими инструментами для просмотра и изменения openInventor кода. На пример, нижеследующий код на python отобразит openInventor представление выбранного объекта: 
+FreeCAD обладает несколькими инструментами для просмотра и изменения openInventor кода. На пример, нижеследующий код на python отобразит openInventor представление выбранного объекта:
+
+
 ```python
 obj = FreeCAD.ActiveDocument.ActiveObject
 viewprovider = obj.ViewObject
 print viewprovider.toString()
 
-``` А также мы обладаем модулем python открывает полный доступ к управлению чем угодно в Coin3D, такому как ваше дерево сцен в FreeCAD. Также читайте об этом на странице [Pivy](Pivy/ru.md).
+```
+
+А также мы обладаем модулем python открывает полный доступ к управлению чем угодно в Coin3D, такому как ваше дерево сцен в FreeCAD. Также читайте об этом на странице [Pivy](Pivy/ru.md).
 
 ## Coding examples 
 
-See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository of said examples can be found at <https://github.com/MariwanJ/COIN3D_Examples>.
+See [Coin3d snippets](Coin3d_snippets.md) courtesy of MariwanJ\'s research for the [Design456 Workbench](Design456_Workbench.md). The code repository of said examples can be found at <https://github.com/MariwanJ/COIN3D_Examples>. {{Top}}
 
-[наверх](#top.md)
+
+
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _
 

@@ -18,7 +18,7 @@ Vous pouvez accomplir les tâches suivantes :
 -   simuler le mouvement et l\'accessibilité d\'un robot
 -   exporter la trajectoire vers un fichier programme de robot
 
-Pour commencer, essayez le [tutoriel Robot](Robot_tutorial.fr.md) et voyez l\'interface de programmation dans le fichier d\'exemple \[<https://github.com/FreeCAD/FreeCAD_sf_master/blob/master/src/Mod/RobotExample.py>. RobotExample.py\] .
+Pour commencer, essayez le [tutoriel Robot](Robot_tutorial/fr.md) et voyez l\'interface de programmation dans le fichier d\'exemple \[<https://github.com/FreeCAD/FreeCAD_sf_master/blob/master/src/Mod/RobotExample.py>. RobotExample.py\] .
 
 
 {{TOCright}}

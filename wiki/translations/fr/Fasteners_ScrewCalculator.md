@@ -14,10 +14,10 @@ Le <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24px;"> [F
 
 ## Utilisation
 
-1.  Passez à l\'atelier <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> _ est nécessaire, s\'il n\'est pas déjà installé)
-2.  Lancez l\'outil Fasteners ScrewCalculator de plusieurs façons :
-    -   Appuyez sur le bouton <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24px;">.
-    -   Utilisez l\'entrée **Fasteners → ScrewCalculator** du menu Fasteners
+1.  Passez à l\'atelier <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> _ s\'il n\'est pas déjà installé).
+2.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Fasteners_ScrewCalculator.svg" width=16px> [Screw Calculator](Fasteners_ScrewCalculator/fr.md)**.
+    -   Sélectionnez l\'option **Fasteners → ScrewCalculator** dans le menu.
 
 Résultat : lorem ipsum dolor sit amet, consectetur adipiscing.
 

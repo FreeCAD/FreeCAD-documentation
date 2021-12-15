@@ -40,9 +40,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 <div class="mw-translate-fuzzy">
 
 1.  
-    **<img src="images/Draft_Point.png" width=16px> [Nokta](Draft_Point/tr.md)**tuşuna veya **P** basın ardından **T** basın.
+    **<img src="images/Draft_Point.png" width=16px> Nokta**tuşuna veya **P** basın ardından **T** basın.
 
-2.  3D görünümünde bir noktaya tıklayın veya bir [koordinat](Draft_Coordinates/tr.md) yazın ve **<img src="images/_Draft_AddPoint.svg_" width= 16px> [Nokta ekle](Draft_AddPoint/tr.md)** düğmesine basın.
+2.  3D görünümünde bir noktaya tıklayın veya bir koordinat yazın ve **<img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle** düğmesine basın.
 
 
 </div>
@@ -54,7 +54,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 <div class="mw-translate-fuzzy">
 
--   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında **Enter** tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda **<img src="images/_Draft_AddPoint.svg" width=16px> [Nokta ekle](Draft_AddPoint/tr.md)** düğmesine basabilirsiniz.
+-   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında **Enter** tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda **<img src="images/_Draft_AddPoint.svg" width=16px> Nokta ekle** düğmesine basabilirsiniz.
 -   **Devam** moduna geçmek için **T** tuşuna basın veya onay kutusunu tıklayın. Devam modu açıksa, nokta aracı siz bir noktaya yerleştirdikten sonra yeniden başlatılır ve araç düğmesine tekrar basmadan bir tane daha yerleştirmenizi sağlar.
 -   Geçerli komutu iptal etmek için **Esc** veya **Close** düğmesine basınız.
 

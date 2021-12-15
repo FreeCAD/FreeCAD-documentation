@@ -3,7 +3,7 @@
 |Name=Rotate View by 90°
 |Icon=Macro Rotate View view 90 Degrees.png
 |Translate=Rotate View by 90°
-|Description=Dieses Makro dreht die aktuelle Ansicht um 90 ° nach links. Funktioniert nur, wenn Sie sich in der [Draufsicht](Top_view/de.md) befinden
+|Description=Dieses Makro dreht die aktuelle Ansicht um 90 ° nach links. Funktioniert nur, wenn Sie sich in der [Draufsicht](Std_ViewTop/de.md) befinden
 |Author=Yorik
 |Version=01.00
 |Date=2010-11-17

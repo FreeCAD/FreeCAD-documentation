@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/de
-   Name:Raytracing Rendern
+   Name:Raytracing Render
    Name/de:Raytracing Rendern
    MenuLocation:Raytracing → Render‏‎|
    Workbenches:[Raytracing](Raytracing_Workbench/de.md)
@@ -41,13 +41,7 @@ Momentan werden nur POV-Ray und Luxrender unterstützt.
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Raytracing_Tools_navi

@@ -44,7 +44,13 @@ Cf [Macro for unrolling ruled surfaces](http://forum.freecadweb.org/viewtopic.ph
 
 ## Script
 
+
+<div class="mw-translate-fuzzy">
+
 Die neueste Version des Makros ist zu finden auf _.
+
+
+</div>
 
 ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
 

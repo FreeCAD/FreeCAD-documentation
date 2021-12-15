@@ -1,5 +1,7 @@
 # <img alt="Inspection workbench icon" src=images/Workbench_Inspection.svg  style="width:64px;"> Inspection Workbench/ro
 
+## Introduction
+
 
 <div class="mw-translate-fuzzy">
 
@@ -28,6 +30,10 @@ Atelierul Inspectare Vizuală a fost creat ca să vă ofere instrumente specific
 
 
 </div>
+
+-   Select two shapes to be compared, preferably that intersect each other.
+-   Then use the menu **Inspection → Visual inspection**.
+-   You will get a colored image showing the deviation between the two shapes.
 
 
 <div class="mw-translate-fuzzy">

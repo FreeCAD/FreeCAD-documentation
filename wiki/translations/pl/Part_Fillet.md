@@ -11,11 +11,12 @@
 
 ## Opis
 
-Narzędzie to tworzy łuk *(zaokrąglenie)* na wybranych krawędziach obiektu. Okno dialogowe pozwala wybrać, na których obiektach i na których krawędziach należy pracować.
+Narzędzie to tworzy łuk *(zaokrąglenie)* na wybranych krawędziach kształtu. Okno dialogowe pozwala wybrać, na których obiektach i na których krawędziach należy pracować.
 
 ## Użycie
 
--   Uruchom narzędzie z paska narzędzi Part lub z menu. Możesz wybrać obiekt przed lub po uruchomieniu narzędzia.
+Wywołaj narzędzie z paska narzędzi Część lub z menu **Część → Zaokrąglenie**. Przed wywołaniem narzędzia można wybrać kształt.
+
 -   Jeśli kształt nie został wybrany przed uruchomieniem narzędzia, wybierz go z rozwijanej listy kształt w [panelu zadań](Task_panel/pl.md).
 -   Wybierz typ zaokrąglenia, albo stały promień *(domyślnie)*, albo zmienny promień.
 -   Wybierz krawędzie albo w oknie [widoku 3D](3D_view/pl.md), albo zaznaczając je na liście krawędzi w [panelu zadań](Task_panel/pl.md).
@@ -30,16 +31,16 @@ W środowisku pracy <img alt="" src=images/Workbench_PartDesign.svg  style="widt
 
 ## Uwagi dotyczące stosowania funkcji zaokrąglenia w Środowisku Part 
 
-Part Filet może nie zrobić nic, jeśli wynikiem będzie dotknięcie lub przekroczenie następnej przyległej krawędzi. Jeśli więc nie otrzymasz oczekiwanego wyniku, spróbuj z mniejszą wartością. To samo dotyczy <img alt="" src=images/Part_Chamfer.svg  style="width:24px;"> [fazek](Part_Chamfer/pl.md).
+Part Filet może nie zrobić nic, jeśli wynikiem będzie dotknięcie lub przekroczenie następnej przyległej krawędzi. Jeśli więc nie otrzymasz oczekiwanego wyniku, spróbuj z mniejszą wartością **Promienia**. To samo dotyczy <img alt="" src=images/Part_Chamfer.svg  style="width:24px;"> [fazek](Part_Chamfer/pl.md).
 
-Narzędzie do zaokrąglania czasem zawodzi przy próbie zaokrąglenia złożonych obiektów. Częstą przyczyną może być to, że kształt, który jest poddawany operacjom zaokrąglania nie jest geometrycznie poprawny. Może to wynikać z nieusunięcia linii/płaszczyzn itp. po wcześniejszych operacjach użytych do skonstruowania kształtu *(np. Wytnij/Przeciągnij/Fuzja)*. W celu zminimalizowania problemów można zastosować kilka kroków:
+Narzędzie do zaokrąglania czasem zawodzi przy próbie zaokrąglenia złożonych kształtów. Częstą przyczyną może być to, że kształt, który jest poddawany operacjom zaokrąglania nie jest geometrycznie poprawny. Może to wynikać z nieusunięcia linii / płaszczyzn itp. po wcześniejszych operacjach użytych do skonstruowania kształtu *(np. Wytnij / Przeciągnij / Fuzja)*. W celu zminimalizowania problemów można zastosować kilka kroków:
 
 -   Tam, gdzie to możliwe, pozostawić wypełnianie części do czasu, aż część zostanie całkowicie wygenerowana. Zminimalizuje to interakcję pomiędzy operacjami zaokrąglania a kolejnymi operacjami logicznymi.
 -   Użyj polecenia **Część → Sprawdź geometrię**, aby sprawdzić, czy geometria kształtu nie zawiera błędów i skorygować ją.
 -   Użyj polecenia **Część → Udoskonal kształt** aby usunąć wszelkie artefakty wprowadzone przez poprzednie operacje logiczne przed wypełnieniem *(a w niektórych przypadkach pomiędzy kolejnymi operacjami wypełniania)*.
--   Rozważyć zastosowanie funkcji **Edycja → Preferencje → Projektowanie części → Automatycznie ...**, aby umożliwić automatyczne sprawdzanie i udoskonalanie modelu po operacjach logicznych i szkicowych \'(wydajność może ulec zmianie, jeśli opcje te pozostaną włączone)\'\'.
+-   Rozważyć zastosowanie funkcji **Edycja → Preferencje → Projekt Części → Automatycznie ...**, aby umożliwić automatyczne sprawdzanie i udoskonalanie modelu po operacjach logicznych i szkicowych \'(wydajność może ulec zmianie, jeśli opcje te pozostaną włączone)\'\'.
 
-Zwróć również uwagę, że na funkcję zaokrąglania części wpływa [Topologiczny problem nazewnictwa](Topological_naming_problem/pl.md), gdy jakakolwiek zmiana jest dokonywana na wcześniejszym etapie modelowania w łańcuchu, który wpływa na liczbę powierzchni lub wierzchołków. Może to spowodować nieprzewidywalny rezultat. Do czasu rozwiązania tego problemu *(prawdopodobnie z v0.19)* zaleca się stosowanie operacji Fazowania i [Zaokrąglania](Part_Fillet/pl.md) na ostatnich etapach łańcucha.
+Zwróć również uwagę, że na funkcję zaokrąglania części wpływa [Topologiczny problem nazewnictwa](Topological_naming_problem/pl.md), gdy jakakolwiek zmiana jest dokonywana na wcześniejszym etapie modelowania w łańcuchu, który wpływa na liczbę powierzchni lub wierzchołków. Może to powodować nieprzewidywalne rezultaty. Dopóki problem ten nie zostanie rozwiązany, zaleca się stosowanie operacji fazowania i zaokrąglania jako ostatnich kroków w łańcuchu modelowania.
 
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Fillet/pl

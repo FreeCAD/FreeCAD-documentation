@@ -5,8 +5,6 @@ Diese Seite präsentiert eine Auswahl von Video Tutorien, die von FreeCAD Anwend
 
 Besuche _.
 
-Besuche [Externe Tutorien](offsite_tutorials/de.md) für Listen von Tutorien, die auf externen Websites bereitgestellt werden.
-
 Wenn Du mit dem Schreiben von Wiki Dokumentation und Tutorien beitragen möchtest, lies [FreeCAD Hilfe](Help_FreeCAD/de.md), die allgemeinen Wiki Richtlinien in [WikiSeiten](WikiPages/de.md), und folge den [Tutorien Richtlinien](tutorial_guidelines/de.md).
 
 ## Produktgestaltung
@@ -34,7 +32,7 @@ Da es viele Videos gibt, die sich mit diesem Thema befassen, besuche bitte [Vide
 
 -   _, von sliptonic, einem der Hauptentwickler der letzteren.
     -   [Using FreeCAD version 0.17 Path Workbench](https://www.youtube.com/playlist?list=PLEuOia-QxyFJZSpqb0xOHc9t7MLdCO3io): eine Reihe von 9 Videos, die die Verwendung der Path Workbench erklären, einschließlich der Werkzeuge und Steuerungen, der Auftragseinrichtung, der Visualisierung, der Operationen, der Verbände, der Einheiten und der Voreinstellungen.
--   <https://www.youtube.com/channel/UCtNnYMVWGkG-aemOrCtGjCA/videos> Coder Musashi Videos\]: verschiedene Videos zur Verwendung der [Path Workbench](Pfad-Workbench.md).
+-   <https://www.youtube.com/channel/UCtNnYMVWGkG-aemOrCtGjCA/videos> Coder Musashi Videos\]: verschiedene Videos zur Verwendung der [Path Workbench](Path_Workbench.md).
     -   [PathWorkbench: Erstellung von Pfaden mit FeatureArea und anderen Freecad Werkzeugen](https://www.youtube.com/watch?v=MsDIRIkeNJ4).\[
 
 ## Visualisierung und Rendering 
@@ -59,7 +57,13 @@ Da es viele Videos gibt, die sich mit diesem Thema befassen, besuche bitte [Vide
 
 ## Andere
 
--   _ die von der installiert <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Erweiterungsverwalter](Addon_Manager/de.md) werden können.
+
+<div class="mw-translate-fuzzy">
+
+-   _ die von der installiert <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) werden können.
+
+
+</div>
 
 -   [FreeCAD Tutorien - ALLGEMEINES](https://www.youtube.com/watch?v=WdBQPXeAeMc&list=PLKu--JcOZKTPZjy761ELQ7ba45yZmxOpj) von AllVisuals4U: FreeCAD 0.16, eine Serie von 28 Kurzvideos zu allgemeinen Aspekten von FreeCAD; z.B. wird gezeigt, wie man Einheiten, Hintergrundfarbe, den Startbildschirm, Einschränkungen, perspektivische Ansicht, Transparenz, die Größe von Symbolleistensymbolen ändert, den 3D-Druck vorbereitet und Text extrudiert. Einige fortgeschrittenere Anleitungen beinhalten, wie man ein Logo entwirft, Metall biegt und zusammenbaut. Die meisten Videos beschreiben FreeCAD 0.16, aber da sie sich nicht auf Modellierungsaspekte konzentrieren, sind die Informationen im Allgemeinen auch für andere Versionen anwendbar.
 

@@ -27,29 +27,29 @@ Cet atelier peut être installé à partir du [Gestionnaire d\'Addon](Std_AddonM
 
 Une description détaillée (en anglais) des outils peut être trouvée [sur le blogue de l\'auteur](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/). Elle est un peu dépassée maintenant, car de nouveaux outils ont été ajoutés.
 
--   <img alt="" src=images/SheetMetal_AddBase.svg  style="width:32px;"> [Tôle de base](SheetMetal_AddBase/fr.md): crée une paroi en tôle à partir d\'une esquisse ouverte.
+-   <img alt="" src=images/SheetMetal_AddBase.svg  style="width:32px;"> [Tôle de base](SheetMetal_AddBase/fr.md): crée une tôle à partir d\'une esquisse, soit un profil, soit une plaque.
 
--   <img alt="" src=images/SheetMetal_AddWall.svg  style="width:32px;"> [Tôle pliée](SheetMetal_AddWall/fr.md): génère une tôle à partir d\'une face latérale d\'une tôle.
+-   <img alt="" src=images/SheetMetal_AddWall.svg  style="width:32px;"> [Tôle pliée](SheetMetal_AddWall/fr.md): ajoute un rebord sur chaque bord sélectionné d\'une tôle. (Le rebord peut être transformé en ourlet en modifiant son angle).
 
--   <img alt="" src=images/SheetMetal_Extrude.svg  style="width:32px;"> [Prolonger une face](SheetMetal_Extrude/fr.md): prolonge une face le long d\'une normale.
+-   <img alt="" src=images/SheetMetal_Extrude.svg  style="width:32px;"> [Prolonger une face](SheetMetal_Extrude/fr.md): prolonge une tôle au niveau d\'une arête sélectionnée d\'une face le long de sa normale. (En ajoutant une esquisse de contour, peut être utilisé pour créer une géométrie d\'emboîtement).
 
--   <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:32px;"> [Pli sur tôle](SheetMetal_AddFoldWall/fr.md): plie une face sur la ligne choisie avec un rayon de courbure spécifié.
+-   <img alt="" src=images/SheetMetal_AddFoldWall.svg  style="width:32px;"> [Pli sur tôle](SheetMetal_AddFoldWall/fr.md): plie une face sur une ligne choisie avec un rayon de courbure spécifié.
 
--   <img alt="" src=images/SheetMetal_Unfold.svg  style="width:32px;"> [Déplier](SheetMetal_Unfold/fr.md): aplatit un objet en tôle pliée et génère un solide et une esquisse (fournit une boîte de dialogue pour définir les paramètres).
+-   <img alt="" src=images/SheetMetal_Unfold.svg  style="width:32px;"> [Déplier](SheetMetal_Unfold/fr.md): aplatit un objet en tôle pliée et génère un solide déplié et une esquisse de contour avec des lignes de pliage (fournit une boîte de dialogue pour définir les paramètres).
 
--   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Déplier sans assistance](SheetMetal_UnattendedUnfold/fr.md) : Aplatit un objet en tôle pliée et génère un solide et une esquisse (si les paramètres ont déjà été définis).
+-   <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:32px;"> [Déplier sans assistance](SheetMetal_UnattendedUnfold/fr.md) : aplatit un objet en tôle pliée et génère un solide déplié et une esquisse avec des lignes de pliage (si les paramètres ont déjà été définis).
 
 -   <img alt="" src=images/SheetMetal_AddCornerRelief.svg  style="width:32px;"> [Grugeage rond du coin](SheetMetal_AddCornerRelief/fr.md): ajoute un perçage pour gruger un coin.
 
--   <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:32px;"> [Grugeage carré](SheetMetal_AddRelief/fr.md): ajoute une découpe carré à un coin.
+-   <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:32px;"> [Grugeage carré](SheetMetal_AddRelief/fr.md): 1ère étape pour convertir un objet coque en objet tôle dépliable, ajoute un relief (découpe) à un coin.
 
--   <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:32px;"> [Découpe d\'angle](SheetMetal_AddJunction/fr.md): découpe un espace dans l\'angle de deux parois.
+-   <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:32px;"> [Découpe d\'angle](SheetMetal_AddJunction/fr.md): 2ème étape pour convertir un objet coque en objet tôle dépliable, crée une jonction ouverte sur le bord de deux parois.
 
--   <img alt="" src=images/SheetMetal_AddBend.svg  style="width:32px;"> [Transformation en pli](SheetMetal_AddBend/fr.md): plie une face suivant une ligne choisie.
+-   <img alt="" src=images/SheetMetal_AddBend.svg  style="width:32px;"> [Transformation en pli](SheetMetal_AddBend/fr.md): 3ème étape pour convertir un objet coque en un objet tôle dépliable, remplace les arêtes vives par des pliures arrondies.
 
--   <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:32px;"> [Perçage de paroi](SheetMetal_SketchOnSheet/fr.md): découpe un trou dans la tôle à partir d\'une esquisse.
+-   <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:32px;"> [Perçage de paroi](SheetMetal_SketchOnSheet/fr.md): découpe d\'un motif de trous basé sur une esquisse le long des parois pliées d\'un objet en tôle.
 
--   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md): crée un outil de formage.
+-   <img alt="" src=images/SheetMetal_Forming.svg  style="width:32px;"> [Outil d\'emboutissage](SheetMetal_Forming/fr.md): emboutit des formes avec ou sans trous dans une plaque de tôle.
 
 ## Description sommaire 
 

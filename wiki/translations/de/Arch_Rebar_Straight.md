@@ -12,11 +12,17 @@
 
 ## Beschreibung
 
-Das [Arch Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von geraden Bewehrungsstäben in einem [Struktur](Arch_Structur/de.md)-Objekt zu erstellen.
+Das [Arch Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)-Werkzeug erlaubt es dem Anwender, einen Satz von geraden Bewehrungsstäben in einem [Struktur](Arch_Structure/de.md)-Objekt zu erstellen.
 
 Das [Arch Gerader Bewehrungsstab](Arch_Rebar_Straight/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
 
+
+<div class="mw-translate-fuzzy">
+
 Dieser Befehl ist Teil des _ über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
+
+
+</div>
 
 <img alt="" src=images/Arch_Rebar_Straight_example.png  style="width:400px;"> 
 *Zwei Sätze von geraden Bewehrungsstäben in einer [Struktur](Arch_Structure/de.md)*

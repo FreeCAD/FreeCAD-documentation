@@ -115,18 +115,12 @@ Modulul de plase are în prezent o interfață foarte simplă, toate funcțiile 
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
-### Cutting
-
--   <img alt="" src=images/Mesh_Cut.png  style="width:32px;"> [Cut mesh](Mesh_Cut.md): Taie/Cut plase de-a lungul unei linii
--   [Trim mesh](Mesh_TrimMesh.md): Trims plase
--   [Trim mesh with a plane](Mesh_TrimMeshWithPlane.md): Trims plase cu un plan
--   Creează o secțiune dintr-o plasă și un plan
-
-
-</div>
+-   Cutting
+    -   <img alt="" src=images/Mesh_PolyCut.svg  style="width:32px;"> [Cut mesh](Mesh_PolyCut.md): Cuts whole faces from mesh objects.
+    -   <img alt="" src=images/Mesh_PolyTrim.svg  style="width:32px;"> [Trim mesh](Mesh_PolyTrim.md): Trims faces and parts of faces from mesh objects.
+    -   <img alt="" src=images/Mesh_TrimByPlane.svg  style="width:32px;"> [Trim mesh with a plane](Mesh_TrimByPlane.md): Trims faces and parts of faces on one side of a plane from a mesh object.
+    -   <img alt="" src=images/Mesh_SectionByPlane.svg  style="width:32px;"> [Create section from mesh and plane](Mesh_SectionByPlane.md): Creates a cross section across a mesh object.
+    -   <img alt="" src=images/Mesh_CrossSections.svg  style="width:32px;"> [Cross-sections\...](Mesh_CrossSections.md): Creates multiple cross sections across mesh objects. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/Mesh_Merge.svg  style="width:32px;"> [Merge](Mesh_Merge.md): Creates a mesh object by combining the meshes of two or more mesh objects.
 
@@ -140,8 +134,6 @@ Modulul de plase are în prezent o interfață foarte simplă, toate funcțiile 
 <div class="mw-translate-fuzzy">
 
 ## Preferences
-
--   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Preference](Import_Export_Preference.md) Import-Export
 
 
 </div>

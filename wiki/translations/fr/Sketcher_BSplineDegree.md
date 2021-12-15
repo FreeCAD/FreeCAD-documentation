@@ -19,7 +19,7 @@ Montre ou masque l\'affichage du **degré** d\'une courbe B-spline (voir [cette 
 
 ## Utilisation
 
-1.  Sélectionnez une spline B et utilisez le bouton de la barre d\'outils **<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [ Afficher/Masquer le degré de la spline B](Sketcher_BSplineDegree/fr.md)**.
+1.  Sélectionnez une spline B et utilisez le bouton de la barre d\'outils **<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [ Afficher/Masquer le degré de la B-spline](Sketcher_BSplineDegree/fr.md)**.
 
 
 

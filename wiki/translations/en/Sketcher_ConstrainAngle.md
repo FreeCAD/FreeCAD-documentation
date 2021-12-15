@@ -45,7 +45,7 @@ As with any datum constraint, it is possible to change the angle value later by 
 
 The constraint sets the polar angle of line\'s direction. It is the angle between the line and X axis of the sketch.
 
-### Arc span (v0.15) 
+### Span of a circular arc 
 
 **Accepted selection:** arc of circle
 
@@ -61,7 +61,7 @@ In this mode, the constraint fixes angular span of a circular arc.
 
 In this mode, the constraint sets the angle between two lines. It is not required that the lines intersect.
 
-### Between curves at intersection (angle-via-point) (v0.15) 
+### Between curves at intersection (angle-via-point) 
 
 **Accepted selection:** any line/curve + any line/curve + any point
 

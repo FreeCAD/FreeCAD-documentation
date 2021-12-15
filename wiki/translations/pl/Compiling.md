@@ -8,7 +8,7 @@ Każdy system operacyjny ma swoją własną stronę wprowadzającą w proces kom
 
 Aby skompilować kod na BSD i innych systemach uniksowych, możesz postępować zgodnie z ogólną instrukcją zawartą w dokumencie [Kompilacja w systemie Linux](Compile_on_Linux/pl.md), ale używając odpowiednich zależności w tych systemach.
 
-Możliwe jest również skompilowanie FreeCAD w systemie Windows postępując zgodnie z instrukcjami zawartymi w [Kompilacja w systemie Windows](Compile_on_Windows/pl.md).
+Możliwe jest również skompilowanie FreeCAD w systemie Windows postępując zgodnie z instrukcjami zawartymi w [Kompilacja w systemie Windows](Compile_on_Windows/pl.md) lub używając MSYS2/MinGWc [kompilacji w MinGW](Compile_on_MinGW/pl.md).
 
 Aby skompilować FreeCAD bez graficznego interfejsu użytkownika, użyj obrazu dokera [FreeCAD Docker CLI mode](FreeCAD_Docker_CLI_mode/pl.md).
 

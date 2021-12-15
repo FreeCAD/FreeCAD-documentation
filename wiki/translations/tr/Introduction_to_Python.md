@@ -1,4 +1,13 @@
 # Introduction to Python/tr
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/tr|[Makrolar](Macros/tr.md)|[Python betik kılavuzu](Python_scripting_tutorial/tr.md)}}
+
+
+</div>
+
+
 {{TOCright}}
 
 ## Introduction
@@ -129,7 +138,8 @@ Artık yorumlayıcıya hükmettiğimize göre, ciddi şeylerle başlayabiliriz.
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## Değişkenler
 
@@ -208,7 +218,8 @@ Harf boyutu çok önemli. myVariable, myvariable ile aynı değildir; büyük / 
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## Sayılar
 
@@ -382,7 +393,8 @@ myVar = "hello friends"
 myVar
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Listeler
 
@@ -468,7 +480,8 @@ Dizeler, ints, floats ve listeler dışında, [sözlükleri](http://www.diveinto
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## Girinti
 
@@ -644,7 +657,8 @@ else:
     print("Such Dalton doesn't exist!")
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Fonksiyonlar
 
@@ -710,7 +724,8 @@ myTotal = sum(45, 34)
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## Modüller
 
@@ -898,7 +913,8 @@ Bununla birlikte, iki alternatif vardır: Bir makroda Python\'un exec veya execf
 exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## FreeCAD ile Başlamak 
 
@@ -915,19 +931,30 @@ exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 dir()
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Notes
 
 -   FreeCAD was originally designed to work with Python 2. Since Python 2 reached the end of its life in 2020, future development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.
 -   Much more information about Python can be found in the [official Python tutorial](https://docs.python.org/3/tutorial/index.html) and the [official Python reference](https://docs.python.org/3/reference/).
 
-[top](#top.md)
+
+{{Top}}
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/tr|[Makrolar](Macros/tr.md)|[Python betik kılavuzu](Python_scripting_tutorial/tr.md)}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

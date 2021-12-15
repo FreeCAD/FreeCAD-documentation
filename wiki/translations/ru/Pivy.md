@@ -101,7 +101,8 @@ trans.translation.setValue([2, 0, 0])
 sg.removeChild(myCustomNode)
 ```
 
-[наверх](#top.md)
+
+{{Top}}
 
 ## Обратные вызовы 
 
@@ -127,9 +128,7 @@ class ButtonTest:
 ButtonTest()
 ```
 
-Функция обратного вызова, должна быть инициализирована объектом, потому что объект должен по прежнему работать, когда случатся обратные вызовы. Смотри также [полный список](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md) возможных событий и их параметров, или официальную документацию Coin.
-
-[наверх](#top.md)
+Функция обратного вызова, должна быть инициализирована объектом, потому что объект должен по прежнему работать, когда случатся обратные вызовы. Смотри также [полный список](Code_snippets#Observing_mouse_events_in_the_3D_viewer_via_Python.md) возможных событий и их параметров, или официальную документацию Coin. {{Top}}
 
 ## Документация
 
@@ -163,12 +162,16 @@ These links provide reference documentation for Coin v3.x. The differences with 
 -   [Coin3D Documentation](https://grey.colorado.edu/coin3d/index.html), at University of Colorado.
 -   [Open Inventor Reference Documentation](https://mevislabdownloads.mevis.de/docs/current/MeVis/ThirdParty/Documentation/Publish/OpenInventorReference/index.html), by MeVisLab.
 
-[наверх](#top.md)
+
+{{Top}}
+
+
+
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

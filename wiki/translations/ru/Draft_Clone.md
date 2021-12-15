@@ -38,7 +38,7 @@ The command can be used on 2D objects created with the [Draft Workbench](Draft_W
 <div class="mw-translate-fuzzy">
 
 1.  Выберите объекты, которые вы хотите клонировать
-2.  Нажмите кнопку {{KEY | _ [[Черновик]]}}
+2.  Нажмите кнопку {{KEY | <img src="images/Draft_Clone.svg" width=16px> Черновик}}
 
 
 </div>

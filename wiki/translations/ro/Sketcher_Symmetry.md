@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/ro
-   Name:Sketcher: Simetrie
+   Name:Sketcher Symmetry
+   Name/ro:Sketcher Simetrie
    Workbenches:[Sketcher](Sketcher_Workbench/ro.md)
    MenuLocation:Sketch → Sketcher tools → Symmetry
    Version:0.16

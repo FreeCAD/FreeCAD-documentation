@@ -43,8 +43,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 <div class="mw-translate-fuzzy">
 
 1.  Premere il pulsante **<img src="images/Draft_BSpline.svg" width=16px> [B-spline](Draft_BSpline/it.md)**, o premere i tasti **B** e poi **S**.
-2.  Selezionare il primo punto nella vista 3D, o digitare le [coordinate](Draft_Coordinates/it.md) e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**.
-3.  Selezionare un altro punto nella vista 3D, o digitare le sue [coordinate](Draft_Coordinates/it.md) e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**.
+2.  Selezionare il primo punto nella vista 3D, o digitare le coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
+3.  Selezionare un altro punto nella vista 3D, o digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
 4.  Premere **Esc** o il pulsante **Close** per completare l\'editazione.
 
 
@@ -59,12 +59,12 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Opzioni
 
--   Premere il tasto **A** o il pulsante **<img src="images/Draft_FinishLine.svg" width=12px> [Termina](Draft_FinishLine/it.md)** pulsante per terminare la spline, lasciandola aperta.
--   Premere il tasto **O** o il pulsante **<img src="images/Draft_CloseLine.svg" width=12px> [Chiudi](Draft_CloseLine/it.md)** per chiudere la spline, questo aggiuge una curva dall\'ultimo punto al primo per formare una faccia. Sono necessari almeno tre punti per formare una faccia.
--   Premere il tasto **W** o il pulsante **<img src="images/Draft_Wipe.svg" width=12px> [Pulisci](Draft_Wipe/it.md)** per rimuovere i tratti di curva già posizionati, ma continuare a creare la spline dall\'ultimo punto.
--   Premere il tasto **U** o il pulsante **<img src="images/Draft_SelectPlane.svg" width=12px> [Imposta il piano](Draft_SelectPlane/it.md)** per posizionare il piano di lavoro corrente nell\'orientamento dell\'ultimo punto.
+-   Premere il tasto **A** o il pulsante **<img src="images/Draft_FinishLine.svg" width=12px> Termina** pulsante per terminare la spline, lasciandola aperta.
+-   Premere il tasto **O** o il pulsante **<img src="images/Draft_CloseLine.svg" width=12px> Chiudi** per chiudere la spline, questo aggiuge una curva dall\'ultimo punto al primo per formare una faccia. Sono necessari almeno tre punti per formare una faccia.
+-   Premere il tasto **W** o il pulsante **<img src="images/Draft_Wipe.svg" width=12px> Pulisci** per rimuovere i tratti di curva già posizionati, ma continuare a creare la spline dall\'ultimo punto.
+-   Premere il tasto **U** o il pulsante **<img src="images/Draft_SelectPlane.svg" width=12px> Imposta il piano** per posizionare il piano di lavoro corrente nell\'orientamento dell\'ultimo punto.
 -   Premere il tasto **X**, o **Y** o **Z** dopo un punto per vincolare il successivo punto sul dato asse.
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [Inserisci punto](Draft_AddPoint/it.md)** quando si hanno i valori desiderati per inserire il punto.
+-   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** per ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> Inserisci punto** quando si hanno i valori desiderati per inserire il punto.
 -   Premere il tasto **R** oppure fare clic sulla casella di controllo per attivare la modalità \"relativo\". Se la modalità relativo è attiva, le coordinate del punto successivo sono relative all\'ultimo; in caso contrario, sono assolute, prese dall\'origine (0,0,0).
 -   Premere il tasto **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento B-spline si riavvia dopo aver terminato la B-spline in costruzione, e consente di disegnare una nuova B-spline senza premere nuovamente il pulsante dello strumento.
 -   Premere il tasto **L** oppure fare clic sulla casella di controllo per attivare la modalità *riempito*. Se la modalità di riempimento è attiva una spline chiusa crea una faccia piena (**Make Face** `True`); in caso contrario, la spline chiusa non crea una faccia (**Make Face** `False`).
@@ -74,7 +74,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   Tenere premuto **Ctrl** mentre si disegna per forzare [l\'aggancio](Draft_Snap.md) del proprio punto alla posizione di aggancio più vicina, indipendentemente dalla distanza.
 -   Tenere premuto **Maiusc** mentre si disegna per [vincolare](Draft_Constrain.md) il punto successivo in orizzontale o in verticale rispetto all\'ultimo.
--   Premere **Ctrl**+**Z** o il pulsante **<img src="images/Draft_UndoLine.svg" width=12px> [Undo](Draft_UndoLine/it.md)** per annullare l\'ultimo punto.
+-   Premere **Ctrl**+**Z** o il pulsante **<img src="images/Draft_UndoLine.svg" width=12px> Undo** per annullare l\'ultimo punto.
 -   Premere il tasto **Esc** o il pulsante {{button|Chiudi}} per interrompere il comando corrente; i tratti di linea già posizionati rimangono.
 
 

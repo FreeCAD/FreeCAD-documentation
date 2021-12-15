@@ -19,7 +19,13 @@ Vytvoří elipsu výběrem 3 bodů (v tomto pořadí): střed, velký poloměr, 
 
 ## Најновији
 
+
+<div class="mw-translate-fuzzy">
+
 Најновија верзија макроа налази се на адреси _.
+
+
+</div>
 
 ## Сцрипт
 

@@ -26,7 +26,10 @@ Gli oggetti Armature sono basati su profili 2D come gli [schizzi](Sketcher_Workb
 
 ## Estensione disponibile 
 
-Lo strumento Armatura è potenziato dall\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), che viene installato dal [Addon Manager](Addon_Manager/it.md). I tipi di barre di armatura aggiuntivi disponibili con l\'addon sono:
+
+<div class="mw-translate-fuzzy">
+
+Lo strumento Armatura è potenziato dall\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), che viene installato dal [Addon Manager](Std_AddonMgr/it.md). I tipi di barre di armatura aggiuntivi disponibili con l\'addon sono:
 
 -   <img alt="" src=images/Arch_Rebar_Straight.svg  style="width:32px;"> [Armatura dritta](Arch_Rebar_Straight/it.md)
 -   <img alt="" src=images/Arch_Rebar_UShape.svg  style="width:32px;"> [Armatura ad U](Arch_Rebar_UShape/it.md)
@@ -34,6 +37,9 @@ Lo strumento Armatura è potenziato dall\'ambiente [Reinforcement](Reinforcement
 -   <img alt="" src=images/Arch_Rebar_BentShape.svg  style="width:32px;"> [Armatura sagomata](Arch_Rebar_BentShape/it.md)
 -   <img alt="" src=images/Arch_Rebar_Stirrup.svg  style="width:32px;"> [Staffe](Arch_Rebar_Stirrup/it.md)
 -   <img alt="" src=images/Arch_Rebar_Helical.svg  style="width:32px;"> [Armatura elicoidale](Arch_Rebar_Helical/it.md)
+
+
+</div>
 
 ## Utilizzo
 

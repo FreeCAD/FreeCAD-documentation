@@ -30,8 +30,8 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 1.  Vyberte objekt, který chcete roztáhnout
 2.  Stiskněte tlačítko **<img src="images/Draft_Scale.png" width=16px> [Kreslení Roztáhnout](Draft_Scale/cs.md)
 ** nebo klávesy **S** potom **C**
-3.  Klikněte na první bod ve 3D pohledu nebo zadejte [souřadnice](Draft_Coordinates/cs.md)
-4.  Klikněte na druhý bod ve 3D pohledu nebo zadejte [souřadnice](Draft_Coordinates/cs.md)
+3.  Klikněte na první bod ve 3D pohledu nebo zadejte souřadnice
+4.  Klikněte na druhý bod ve 3D pohledu nebo zadejte souřadnice
 
 
 </div>

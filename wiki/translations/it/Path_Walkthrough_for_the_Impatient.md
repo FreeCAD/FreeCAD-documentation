@@ -173,7 +173,7 @@ Confermare i valori con OK.
 
 <div class="mw-translate-fuzzy">
 
-Per un facile accesso, tutti gli utensili possono essere predefiniti e selezionati dal [Gestore degli utensili](Path_EditToolsTable/it.md).
+Per un facile accesso, tutti gli utensili possono essere predefiniti e selezionati dal <img alt="" src=images/Path_ToolLibraryEdit.svg  style="width:24px;">[Tool manager](Path_ToolLibraryEdit.md).
 
 
 </div>
@@ -203,7 +203,7 @@ Questo è albero che viene mostrato dopo la configurazione della lavorazione dop
 
 <div class="mw-translate-fuzzy">
 
-Vengono ora aggiunte due operazioni per generare i percorsi di fresatura di questa lavorazione. L\'operazione [Contornatura](Path_Contour/it.md) crea un percorso attorno al cubo e l\'operazione [Tasca](Path_Pocket_Shape/it.md) crea un percorso per la tasca interna.
+Vengono ora aggiunte due operazioni per generare i percorsi di fresatura di questa lavorazione. L\'operazione [Contornatura](Path_Profile/it.md) crea un percorso attorno al cubo e l\'operazione [Tasca](Path_Pocket_Shape/it.md) crea un percorso per la tasca interna.
 
 
 </div>
@@ -211,7 +211,7 @@ Vengono ora aggiunte due operazioni per generare i percorsi di fresatura di ques
 
 <div class="mw-translate-fuzzy">
 
-Per ora facciamo una cosa semplice. Il pulsante <img alt="" src=images/Path_Profile.png  style="width:32px;"> [Contornatura](Path_Contour/it.md) apre il pannello Contour. Dopo aver confermato l\'uso dei valori predefiniti con OK, il percorso verde attorno all\'oggetto diventa visibile.
+Per ora facciamo una cosa semplice. Il pulsante <img alt="" src=images/Path_Profile.svg  style="width:32px;"> [Contornatura](Path_Profile/it.md) apre il pannello Contour. Dopo aver confermato l\'uso dei valori predefiniti con OK, il percorso verde attorno all\'oggetto diventa visibile.
 
 
 </div>

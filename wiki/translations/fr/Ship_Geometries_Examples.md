@@ -1,6 +1,14 @@
-# Ship Geometries Examples/fr
 ---
-- GuiCommand:/fr   Name:Ship Load‏‎ Example   Name/fr:Ship Load‏‎ Example    MenuLocation:Ship design → Load‏‎ an example ship geometry   |Workbenches:[[Ship Workbench/fr   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:/fr
+   Name:Ship Load‏‎
+   Name/fr:Ship Load‏‎
+   MenuLocation:Ship design → Load‏‎ an example ship geometry
+   Workbenches:[Ship](Ship_Workbench/fr.md)
+   Shortcut:
+   SeeAlso:
+---
+
+# Ship Geometries Examples/fr
 
 
 </div>

@@ -512,7 +512,7 @@ Opens one dialog to calculate the pressure losses across the pype-parts selected
 
 <div class="mw-translate-fuzzy">
 
--   _: Liste der Arbeitsbereiche in Entwicklung.
+-   [External workbenches](External_workbenches/de.md): Liste der Arbeitsbereiche in Entwicklung.
 -   [Makro Rezepte](Macros_recipes/de.md)
 -   [OSE Rohr Arbeitsbereich: um zusätzliche Rohrverbindungen zu erstellen](https://wiki.opensourceecology.org/wiki/OSE_Piping_Workbench)
 

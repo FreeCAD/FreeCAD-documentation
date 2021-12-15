@@ -2,8 +2,8 @@
 - GuiCommand:
    Name:Assembly3 AddPlacement
    Icon:Assembly_Add_Placement.svg‎‎
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
    MenuLocation:Assembly3 → Workplane and origin → Add placement
+   Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
 # Assembly3 AddPlacement

@@ -23,7 +23,7 @@ Inserează o primitivă geometrică tip sferă în Corpul activ ca prima funcți
 <div class="mw-translate-fuzzy">
 
 1.  Apăsați butonul **<img src="images/PartDesign_AdditiveSphere.png" width=24px> '''Additive Sphere'''**. **Note**: the Additive Sphere is part of an icon menu labelled *Create an additive primitive*. After launching FreeCAD, the Additive Box is the one displayed in the toolbar. To get the Sphere, click on the down arrow besides the visible icon and select Additive Sphere in the menu.
-2.  Set the Primitive parameters and [Attachment](Part_Attachment.md).
+2.  Set the Primitive parameters and [Attachment](Part_EditAttachment.md).
 3.  Click **OK**.
 4.  O funcție Sphere apre sub Corpul activ.
 
@@ -48,7 +48,7 @@ Sfera poate fi editată după crearea sa pe două căi:
 
 <div class="mw-translate-fuzzy">
 
--    **Attachment**: definește modul de atașarea ca și the Attachment Offset. A se vedea [Part Attachment](Part_Attachment.md).
+-    **Attachment**: definește modul de atașarea ca și the Attachment Offset. A se vedea [Part EditAttachment](Part_EditAttachment.md).
 
 -    **Label**: Label given to the Sphere object. Change to suit your needs.
 

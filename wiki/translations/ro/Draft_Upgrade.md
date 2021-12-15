@@ -1,9 +1,14 @@
-# Draft Upgrade/ro
 ---
-- GuiCommand:   Name:Draft Upgrade   Name:Draft Upgrade   Workbenches:_---
+- GuiCommand:
+   Name:Draft Upgrade
+   Name/ro:Draft Upgrade
+   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation:Draft -> Upgrade
+   Shortcut:U P
+   SeeAlso:[Draft Downgrade](Draft_Downgrade.md)
+---
 
-
-</div>
+# Draft Upgrade/ro
 
 ## Descriere
 

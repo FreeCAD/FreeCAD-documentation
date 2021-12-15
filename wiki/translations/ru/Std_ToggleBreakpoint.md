@@ -1,6 +1,14 @@
-# Std ToggleBreakpoint/ru
 ---
-- GuiCommand:/ru   Name:Std DebugToggle   Name/ru:Std DebugToggle   Workbenches:All   MenuLocation:[[Std Macro Menu/ru   Макро]] → Установить/снять точку останова |Shortcut:F9   SeeAlso:---
+- GuiCommand:/ru
+   Name:Std ToggleBreakpoint
+   Name/ru:Std ToggleBreakpoint
+   Workbenches:All
+   MenuLocation:Макро → Установить/снять точку останова
+   Shortcut:F9
+   SeeAlso:[Std MacroStepOver](Std_MacroStepOver.md), [Std MacroStepInto](Std_MacroStepInto.md)
+---
+
+# Std ToggleBreakpoint/ru
 
 
 </div>

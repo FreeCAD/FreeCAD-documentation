@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/ru
-   Name:Draft WorkingPlane
-   Name/ru:Draft WorkingPlane
+   Name:Draft Snap WorkingPlane
+   Name/ru:Draft Snap WorkingPlane
    MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → К рабочей плоскости
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:

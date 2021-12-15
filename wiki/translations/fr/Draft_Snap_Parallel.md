@@ -12,9 +12,9 @@
 
 L\'option <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:24px;"> *Draft Aimantation Parallèle* permet de s\'aimanter à une ligne imaginaire parallèle à des arêtes droites. Les arêtes peuvent appartenir à des objets [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) mais aussi à des objets créés avec d\'autres [ateliers](Workbenches/fr.md).
 
-Jusqu\'à deux arêtes peuvent être référencées par cette option d\'aimantation et par [Draft Aimantation Extension](Draft_Snap_Extension/fr.md), ce qui permet d\'aimanter des intersections virtuelles. Les deux options d\'aimantation peuvent également être combinées avec d\'autres options d\'aimantation.
+Jusqu\'à 2 arêtes (ou 8 {{Version/fr|0.20}}) peuvent être référencées par cette option d\'aimantation et par [Draft Aimantation Extension](Draft_Snap_Extension/fr.md), ce qui permet d\'aimanter des intersections virtuelles. Les deux options d\'aimantation peuvent également être combinées avec d\'autres options d\'aimantation.
 
-Cette option d\'aimantation ne fonctionne pas actuellement si le curseur se trouve à côté de l\'arête référencée. Vous devez déplacer le curseur vers une zone située au-delà des extrémités de l\'arête.
+Dans FreeCAD version 0.19 et antérieures, cette option d\'aimantation ne fonctionne pas si le curseur est à côté de l\'arête référencée.
 
 ![](images/Draft_Snap_Parallel_example.png ) 
 *Aimantation du deuxième point d'une ligne à une ligne invisible parallèle à une arête*

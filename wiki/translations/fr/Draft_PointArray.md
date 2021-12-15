@@ -33,7 +33,7 @@ Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[a
 
 Un composé de points est un objet qui contient un ou plusieurs points. Voici les composés de points pris en charge et la façon dont ils peuvent être créés :
 
--   _ ou [Part Points](Part_Point/fr.md). Sélectionnez-les et lancez la commande [Part Compound](Part_Compound.md).
+-   _ ou [Part Points](Part_Point/fr.md). Sélectionnez-les et lancez la commande [Part Composé](Part_Compound/fr.md).
 -   Draft Bloc : créez un ou plusieurs [Draft Points](Draft_Point/fr.md) ou [Part Points](Part_Point/fr.md). Sélectionnez-les et lancez la commande [Draft Mettre à niveau](Draft_Upgrade/fr.md).
 -   _ et ajoutez un ou plusieurs [Sketcher Points](Sketcher_CreatePoint/fr.md) à l\'esquisse.
 
@@ -89,7 +89,7 @@ Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens
 
 -    {{PropertyData/fr|Expand Array|Bool}}: spécifie s\'il faut développer le réseau dans la [Vue en arborescence](Tree_view/fr.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type Link.
 
--    {{PropertyData/fr|Extra Placement|Placement}}: spécifie un [placement](Placement.md), une translation et une rotation supplémentaires pour chaque élément du réseau. <small>(v0.19)</small> 
+-    {{PropertyData/fr|Extra Placement|Placement}}: spécifie un [placement](Placement.md), une translation et une rotation supplémentaires pour chaque élément du réseau. {{Version/fr|0.19}}
 
 -    {{PropertyData/fr|Point Object|Link}}: spécifie l\'objet composé dont les points sont utilisés pour positionner les éléments du réseau. L\'objet doit avoir une propriété {{PropertyData/fr|Links}}, {{PropertyData/fr|Components}} ou {{PropertyData/fr|Geometry}} et contenir au moins un élément avec les propriétés {{PropertyData/fr|X}}, {{PropertyData/fr|Y}}, et {{PropertyData/fr|Z}}.
 

@@ -27,7 +27,7 @@ Dans cet exemple, un cube est coupé par un cylindre :
 
 1.  Sélectionnez l\'objet de base
 2.  Sélectionnez l\'outil de coupe
-3.  Cliquez sur **Part** → **![](images/)_Section**_depuis_le_menu.
+3.  Cliquez sur **Part** → **<img src="images/Part_Section.svg" width=24px> Section** depuis le menu.
 
 ## Liens
 

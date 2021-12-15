@@ -4,7 +4,6 @@
    Name/fr:FEM Contrainte de force
    MenuLocation:Model → Mechanical Constraints → Constraint force
    Workbenches:[FEM](FEM_Workbench/fr.md)
-   Shortcut:
    SeeAlso:[FEM Contrainte de pression](FEM_ConstraintPressure/fr.md)
 ---
 
@@ -16,43 +15,25 @@ Cette commande applique une force de valeur donnée \[N\] à la géométrie cibl
 
 ## Utilisation
 
-1\) Appliquer une force dans une direction normale sur une face
+Appliquer une force à une face, une ligne ou un point :
 
--   -   Dans l\'atelier FEM, cliquez sur <img alt="Constraint Force" src=images/FEM_ConstraintForce.svg  style="width:24px;"> or select **Model** → **Mechanical Constraints** → **Constraint force** ouvrir la boîte de dialogue des propriétés de contrainte de contrainte
+-   Dans l\'atelier FEM, cliquez sur <img alt="Constraint Force" src=images/FEM_ConstraintForce.svg  style="width:24px;"> ou sélectionnez **Model** → **Mechanical Constraints** → **Constraint force** pour ouvrir la boîte de dialogue des propriétés de la contrainte de force.
 
-![](images/FEMForceConstraintProperties.PNG )
+-   Si le maillage est affiché, vous devez le masquer (sélectionnez l\'objet maillé et appuyez sur la **barre d'espace** ou cliquez droit et sélectionnez **Cacher l'élément**) et afficher le modèle d\'origine.
 
--   -   Si vous avez affiché Mesh, vous devez le masquer (sélectionnez l'objet maillé et appuyez sur **spacebar**ou faites un clic droit et sélectionnez **Hide item**) et affichez le modèle d\'origine.
-    -   Cliquez sur une \"face\" auquel une force doit être appliquée. Il apparaîtra dans la liste des objets géométriques.
-    -   Remplissez **Line load** avec une valeur de force dans \[N\] (attention: *Pas* dans \[N/m\])
+-   Cliquez sur une *face*, une *ligne* ou un *point* sur lequel une force doit être appliquée. Il apparaîtra dans la liste des objets géométriques.
 
-![](images/ApplyingForceToFace.PNG )
+-   Remplissez **Load [N]** avec une valeur de force en \[N\].
 
--   -   
-        **Direction**
-        
-        :Dans un cas typique, vous cliquez sur ce champ vide pour appliquer une force en direction normale au visage. Vous pouvez inverser la direction de la force en cliquant sur **Reverse direction**. Dans d\'autres cas, vous devez choisir une face ou un plan qui correspond à la direction de la force (elle peut différer de la face sur laquelle la force est appliquée).
+-    **Direction**: Dans un cas typique, vous laisserez ce champ vide pour appliquer une force dans la direction normale. Vous pouvez inverser la direction de la force en cliquant sur **Direction inverse**. Dans d\'autres cas, vous devez choisir une face/un plan ou une arête, qui sert de référence pour la direction de la force.
 
-    -   Cliquez **Close** pour terminer la boîte de dialogue et créer l\'object **<img src=images/FEM_ConstraintForce.png style="width:24px"> ConstraintForce**
+![](images/FEM_ConstraintForce_example.JPG )
 
-2\) Appliquer une force pour aligner dans la direction sélectionnée
+-   Cliquez sur **OK** pour terminer le dialogue et créer l\'objet **<img src=images/FEM_ConstraintForce.svg style="width:24px"> Contrainte de force**.
 
--   -   Dans l\'espace de travail FEM, cliquez sur <img alt="Constraint Force" src=images/FEM_ConstraintForce.svg  style="width:24px;"> or select **Model** → **Mechanical Constraints** → **Constraint force** ouvrir la boîte de dialogue des propriétés de contrainte de contrainte
+## Remarques
 
-    -   Si vous avez affiché Mesh, vous devez le masquer (sélectionnez l'objet maillé et appuyez sur **spacebar** ou faites un clic droit et sélectionnez **Hide item**) et affichez le modèle d\'origine.
-
-    -   Cliquez sur un *segment de ligne* auquel une force doit être appliquée. Il apparaîtra dans la liste des objets géométriques.
-
-    -   Complétez **Area load** avec une valeur de force dans \[N\]
-
-    -   
-        **Direction**
-        
-        : Maintenant, avec le segment de ligne sélectionné, il est probable que la force soit appliquée dans une mauvaise direction. Nous devons spécifier la direction en cliquant sur le bouton **Direction**, puis en cliquant sur une face pointant de manière normale dans la direction de la force (ou dans la direction inversée). Encore une fois, vous pouvez inverser la direction de la force en cliquant sur **Reverse direction**.
-
-![](images/FEMforceonline.PNG )
-
--   -   Cliquez sur **Close** pour terminer la boîte de dialogue et créer l\'objet **<img src=images/FEM_ConstraintForce.png style="width:24px"> ConstraintForce**
+La force définie est appliquée uniformément aux objets sélectionnés. Par exemple, si vous définissez une contrainte de force de 200 N appliquée à deux faces ayant la même surface, chaque face sera chargée uniformément de 100 N.
 
 
 

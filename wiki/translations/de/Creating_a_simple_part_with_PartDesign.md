@@ -224,7 +224,7 @@ Klicke auf <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width:2
 
 Wähle dann den Mittelpunkt des Kreises, dann die beiden blauen diagonalen Linien und klicke auf <img alt="" src=images/Constraint_PointOnObject.svg  style="width:24px;"> [Punkt auf Objekt](Sketcher_ConstrainPointOnObject.md), der Kreis muss am Schnittpunkt der Diagonalen, also in der Mitte der Fläche zentriert werden. Die Skizze muss grün, vollständig beschränkt sein (es ist unerlässlich). Beachte, dass es neben dem Radius des Kreises, nicht mehr erforderlich ist, Bemaßungsbeschränkungen zu erstellen.
 
-Bitte beachte , dass zusätzlich zum Umschalten der Symbolleiste in den Konstruktionsmodus die Datei <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width:24px;"> [Sketcher\_Konstruktionsmodus umschalten](Sketcher_Konstruktionsmodus_umschalten.md) Taste können auch einzelne Skizzierer Elemente in den Konstruktionsmodus geschaltet werden, wenn sie ausgewählt wurden. Wenn du versehentlich ein Element in den Konstruktionsmodus schaltest, kann beim Verlassen der Skizze ein Fehler auftreten.
+Bitte beachte , dass zusätzlich zum Umschalten der Symbolleiste in den Konstruktionsmodus die Datei <img alt="" src=images/Sketcher_AlterConstruction.svg  style="width:24px;"> [Sketcher\_Konstruktionsmodus umschalten](Sketcher_ToggleConstruction/de.md) Taste können auch einzelne Skizzierer Elemente in den Konstruktionsmodus geschaltet werden, wenn sie ausgewählt wurden. Wenn du versehentlich ein Element in den Konstruktionsmodus schaltest, kann beim Verlassen der Skizze ein Fehler auftreten.
 
 ![](images/GGTuto1_8.PNG )
 

@@ -1,6 +1,14 @@
-# Std ToggleClipPlane/ro
 ---
-- GuiCommand:/ro   Name:Std ClippingPlane   Name/ro:Std ClippingPlane   MenuLocation:[[Std View Menu/ro   View]] → Clipping plane‏‎||Workbenches:All   Shortcut:   SeeAlso:---
+- GuiCommand:/ro
+   Name:Std ToggleClipPlane
+   Name/ro:Std ToggleClipPlane
+   MenuLocation:View → Clipping plane‏‎
+   Workbenches:All
+   Shortcut:
+   SeeAlso:
+---
+
+# Std ToggleClipPlane/ro
 
 
 </div>

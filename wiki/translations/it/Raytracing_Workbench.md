@@ -44,6 +44,9 @@ L\'ambiente Raytracing è essenzialmente obsoleto. Nuovi sviluppi stanno avvenen
 
 ### Strumenti di progetto 
 
+
+<div class="mw-translate-fuzzy">
+
 Questi sono gli strumenti principali per esportare il proprio lavoro 3D su renderer esterni.
 
 -   <img alt="" src=images/Raytrace_New.svg  style="width:32px;"> [Nuovo progetto PovRay](Raytracing_New/it.md): inserisce un nuovo progetto PovRay nel documento.
@@ -52,6 +55,9 @@ Questi sono gli strumenti principali per esportare il proprio lavoro 3D su rende
 -   <img alt="" src=images/Raytrace_ResetCamera.svg  style="width:32px;"> [Reset camera](Raytracing_ResetCamera/it.md): abbina la posizione della telecamera di un progetto di raytracing alla vista corrente.
 -   <img alt="" src=images/Raytrace_ExportProject.svg  style="width:32px;"> [Esporta progetto\...](Raytracing_ExportProject/it.md): esporta un progetto di raytracing in un file di scena per il rendering in un renderer esterno.
 -   <img alt="" src=images/Raytrace_Render.svg  style="width:32px;"> [Render](Raytracing_Render/it.md): esegue il rendering di un progetto raytracing con un renderer esterno.
+
+
+</div>
 
 ### Utilità
 

@@ -18,7 +18,7 @@ Mit dem BIM Kasten Werkzeug kannst du eine Standard [Bauteilbox](Part_Box/de.md)
 
 ## Anwendung
 
-1.  Drücke die **_ [BIM Kasten](BIM_Box/de.md)** Taste
+1.  Drücke die **<img src="images/BIM_Box.png" width=16px> [BIM Kasten](BIM_Box/de.md)** Taste
 2.  Klicke auf einen ersten Punkt, um eine erste Ecke des Kastens zu definieren. Dies kann eine beliebige Ecke des Kastens sein
 3.  Klicke auf einen zweiten Punkt, um eine erste Kante des Kastens zu definieren, ausgehend vom ersten Punkt
 4.  Klicke auf einen dritten Punkt, um eine erste Fläche des Kastens zu definieren, die orthogonal zur ersten Kante liegt.

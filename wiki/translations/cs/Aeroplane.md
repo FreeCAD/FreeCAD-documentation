@@ -14,6 +14,8 @@
 
 </div>
 
+## First Steps 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -100,7 +102,7 @@ Klikneme na [Umístění a tři tečky](Tasks_Placement/cs.md) abychom se dostal
 
 <div class="mw-translate-fuzzy">
 
-Teď sloučíme tyto dva tvary dohromady pomocí boolean (logické) operace. Klikneme na tlačítko <img alt="" src=images/Part_Booleans.png  style="width:32px;"> [Booleans](Part_Booleans/cs.md) a okno úloh zobrazí selektor pro výběr boolovské operace.
+Teď sloučíme tyto dva tvary dohromady pomocí boolean (logické) operace. Klikneme na tlačítko <img alt="" src=images/Part_Booleans.png  style="width:32px;"> [Boolean](Part_Boolean/cs.md) a okno úloh zobrazí selektor pro výběr boolovské operace.
 
 
 </div>

@@ -8,7 +8,7 @@ A <img alt="" src=images/Mesh_Tree.svg  style="width:32px;"> _ associated to it 
 
 A Mesh Feature is similar conceptually to a [Part Feature](Part_Feature.md); the former is the base object for elements with \"mesh\" information, while the latter is the base object for elements with \"geometrical shape\" information.
 
-Please note that the **<img src="images/Workbench_FEM.svg" width=16px> [FEM Workbench](FEM_Workbench.md)** also uses meshes, but in this case it uses a different object, called [Fem FemMeshObject](Fem_FemMeshObject.md) (`Fem::FemMeshObject` class). This object is not derived from Mesh Feature so it has different properties.
+Please note that the **<img src="images/Workbench_FEM.svg" width=16px> [FEM Workbench](FEM_Workbench.md)** also uses meshes, but in this case it uses a different object, called [FEM FemMeshObject](FEM_Mesh.md) (`Fem::FemMeshObject` class). This object is not derived from Mesh Feature so it has different properties.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -20,7 +20,7 @@ Please note that the **<img src="images/Workbench_FEM.svg" width=16px> [FEM Work
 
 Almost all mesh objects created by the commands available in the [Mesh Workbench](Mesh_Workbench.md) graphical interface are [Mesh Features](Mesh_Feature.md). The parametric mesh objects created by the [Mesh BuildRegularSolid](Mesh_BuildRegularSolid.md) command are the only exception. A [Mesh Feature](Mesh_Feature.md) can also be created from the [Python console](Python_console.md) as described in the [Scripting](Mesh_Feature#Scripting.md) section.
 
-The `Mesh::Feature` is defined in the [Mesh Workbench](Mesh_Workbench.md) but can be used as the base class for [scripted objects](scripted_objects.md) in all [workbenches](Workbenches.md) that produce 2D and 3D meshes.
+The `Mesh::Feature` is defined in the [Mesh Workbench](Mesh_Workbench.md) but can be used as the base class for [scripted objects](Scripted_objects.md) in all [workbenches](Workbenches.md) that produce 2D and 3D meshes.
 
 A `Mesh::Feature` has simple properties like a [placement](Placement.md), and visual properties to define the appearance of its edges and faces.
 
@@ -34,7 +34,7 @@ Other properties that this object has are those related to the appearance of its
 
 See [Property](Property.md) for all property types that scripted objects can have.
 
-These are the properties available in the [property editor](property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](property_editor.md).
+These are the properties available in the [property editor](Property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](property_editor.md).
 
 ### Data
 
@@ -77,7 +77,7 @@ These are the properties available in the [property editor](property_editor.md).
 
 ### View
 
-Most objects in FreeCAD have what is called a \"view provider\", which is a class that defines the visual appearance of the object in the [3D view](3D_view.md), and in the [tree view](tree_view.md). The default view provider of Mesh Feature objects defines the following properties. Scripted objects that are derived from Mesh Feature will have access to these properties as well.
+Most objects in FreeCAD have what is called a \"view provider\", which is a class that defines the visual appearance of the object in the [3D view](3D_view.md), and in the [tree view](Tree_view.md). The default view provider of Mesh Feature objects defines the following properties. Scripted objects that are derived from Mesh Feature will have access to these properties as well.
 
 
 {{TitleProperty|Base}}
@@ -130,7 +130,7 @@ Most objects in FreeCAD have what is called a \"view provider\", which is a clas
 
 **See also:**
 
-[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), and [scripted objects](scripted_objects.md).
+[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md), and [scripted objects](Scripted_objects.md).
 
 See [Part Feature](Part_Feature.md) for the general information on adding objects to the program.
 

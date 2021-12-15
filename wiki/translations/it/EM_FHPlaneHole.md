@@ -11,13 +11,29 @@
 
 # EM FHPlaneHole/it
 
+
+</div>
+
 ## Descrizione
 
 The FHPlaneHole tool inserts a plane hole object, that represents a FastHenry uniform conductive plane hole.
 
-![](images/EM_point_FHPlaneHole_Example.png ) 
-*FastHenry Point FHPlaneHole* ![](images/EM_rect_FHPlaneHole_Example.png ) 
-*FastHenry Rect FHPlaneHole* ![](images/EM_circle_FHPlaneHole_Example.png ) 
+![](images/EM_point_FHPlaneHole_Example.png )
+
+
+
+*FastHenry Point FHPlaneHole*
+
+![](images/EM_rect_FHPlaneHole_Example.png )
+
+
+
+*FastHenry Rectangle FHPlaneHole*
+
+![](images/EM_circle_FHPlaneHole_Example.png )
+
+
+
 *FastHenry Circle FHPlaneHole*
 
 ## Utilizzo
@@ -25,7 +41,7 @@ The FHPlaneHole tool inserts a plane hole object, that represents a FastHenry un
 The FHPlaneHole object can be based on the position of a [Draft Point](Draft_Point.md) object, or you can select the 3D location of the FHPlaneHole.
 
 1.  Press the **<img src="images/EM_FHPlaneHole.svg" width=16px> [EM FHPlaneHole](EM_FHPlaneHole.md)** button, or press **E** then **H** keys.
-2.  Click a point on the 3D view, or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> add point** button.
+2.  Click a point on the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> add point** button.
 
 In alternativa, si può anche:
 
@@ -70,7 +86,9 @@ In alternativa, si può anche:
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
-The FHPlaneHole object can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+The FHPlaneHole object can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 hole = makeFHPlaneHole(baseobj=None, X=0.0, Y=0.0, Z=0.0, holetype=None, length=None, width=None, radius=None, name='FHPlaneHole')
 ```
@@ -97,7 +115,9 @@ hole = makeFHPlaneHole(baseobj=None, X=0.0, Y=0.0, Z=0.0, holetype=None, length=
 
 The placement of the FHPlaneHole can be changed by modifying its `Placement` property, or changing the `X`,`Y`,`Z` properties individually. Changing `X`,`Y`,`Z` modifies the node position in the relative coordinate system of the `Placement`.
 
-Additionally, the \_FHPlaneHole class exposes these methods. The \_FHPlaneHole class can be accessed through the FHPlaneHole object Proxy (e.g. fhhole.Proxy). 
+Additionally, the \_FHPlaneHole class exposes these methods. The \_FHPlaneHole class can be accessed through the FHPlaneHole object Proxy (e.g. fhhole.Proxy).
+
+
 ```python
 pos = getAbsCoord()
 ```
@@ -133,12 +153,17 @@ pos = setAbsCoord(abs_coord, placement=None)
 
 -    `placement`is a new FHPlaneHole placement. If `None`, the placement is not changed
 
-Esempio: 
+Esempio:
+
+
 ```python
 import FreeCAD, EM
 
 fhhole = EM.makeFHPlaneHole(X=1.0,Y=1.0,Z=0.0,holetype="Rect",length=1.0,width=2.0)
 ```
+
+
+
 
 
 {{EM Tools navi

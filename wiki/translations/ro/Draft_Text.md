@@ -51,7 +51,7 @@ See also: [Draft Tray](Draft_Tray.md) and [Draft Snap](Draft_Snap.md).
 ## Mod de utilizare 
 
 1.  Apăsaţi butonul **<img src="images/Draft_Text.png" width=16px> [Draft Text](Draft_Text/ro.md)** ori apăsaţi tasta **T**, apoi tasta **E**.
-2.  Daţi clic în fereastra de vizualizare 3D sau introduceţi [coordonatele](Draft_Coordinates/ro.md).
+2.  Daţi clic în fereastra de vizualizare 3D sau introduceţi coordonatele.
 3.  Introduceţi textul dorit, apăsând tasta **ENTER** treceți la linie nouă.
 4.  Apăsaţi DE DOUĂ ORI **ENTER** ca să terminaţi operaţia.
 

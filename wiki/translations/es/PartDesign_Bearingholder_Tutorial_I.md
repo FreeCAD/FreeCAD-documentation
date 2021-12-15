@@ -1,4 +1,9 @@
 # PartDesign Bearingholder Tutorial I/es
+**This tutorial was originally written for a now deprecated development version of FreeCAD. This tutorial requires a complete rewrite to align with the PartDesign changes that will be in the upcoming v0.17 release.**
+
+
+
+
 {{TutorialInfo
 |Topic=Modeling
 |Level=Experienced User
@@ -8,18 +13,7 @@
 |Files=
 }}
 
-
-**Este tutorial fue escrito originalmente para una versión de desarrollo ya obsoleta de FreeCAD. Este tutorial requiere una completa reescritura para alinearse con los cambios de PartDesign que se harán en la próxima versión v0.17. La reescritura se inició en _**
-
 ![Tutorial de soporte de rodamiento - Soporte de rodamiento terminado (arriba)\|thumb\|right\|400px](images/HolderTop1-1.jpg )
-
-
-<div class="mw-translate-fuzzy">
-
-Como la advertencia en la parte superior de la página ya indica, este \'\' tutorial NO FUNCIONARÁ a menos que compile una rama especial altamente experimental a partir del código fuente de FreeCAD\'\' y es un tutorial introductorio al modelado con el banco de trabajo PartDesign en FreeCAD *\'usando planos Datum que son una característica que aún no existe en la mayoría de las versiones de FreeCAD*. El propósito del tutorial es presentarle dos flujos de trabajo diferentes para crear una pieza de fundición con borradores y filetes. Dependiendo de qué otros programas de CAD hayas estado usando, uno u otro puede resultarte familiar. Como ejemplo de trabajo, modelaremos un simple soporte de rodamiento.
-
-
-</div>
 
 ## Purpose in Brief 
 

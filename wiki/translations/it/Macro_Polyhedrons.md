@@ -38,7 +38,7 @@ Puoi anche utilizzare il workbench esterno [Pyramids\_and\_Polyhedrons](https://
 
 ## Installation
 
--   Use the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) to install the macro via 
+-   Use the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) to install the macro via 
 **Tools → Addon Manager → Macros tab**
 -   Choose `polyhedrons.py`
 -   Press **Install**
@@ -55,7 +55,7 @@ Puoi anche utilizzare il workbench esterno [Pyramids\_and\_Polyhedrons](https://
 <div class="mw-translate-fuzzy">
 
 -   Installa: usa Strumenti / Addon manager / Macro <img alt="" src=images/AddonManager.svg  style="width:24px;"> per installare la macro.
--   Una volta installato, apri Menu → Macro → Macro. Fare clic su polyhedrons.py e quindi fare clic sul pulsante {{pulsante|esegui}}.
+-   Una volta installato, apri Menu → Macro → Macro. Fare clic su polyhedrons.py e quindi fare clic sul pulsante {{button|esegui}}.
 -   In un popup è possibile selezionare il tipo di poliedro e impostare la dimensione del raggio o la lunghezza dei lati. Premere OK.
 -   È sempre possibile regolare il raggio o le dimensioni, proprio come con le parti normali.
 

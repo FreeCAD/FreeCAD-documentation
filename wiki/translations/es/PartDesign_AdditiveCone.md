@@ -25,7 +25,7 @@ Inserta un cono primitivo en el Cuerpo activo como primera característica, o lo
 <div class="mw-translate-fuzzy">
 
 1.  Presionar el botón **<img src="images/PartDesign_AdditiveCone.svg" width=24px> '''Cono aditivo'''** . **Nota**: El Cono aditivo forma parte de un icono de herramientas llamado *Crear una primitiva aditiva*. Tras abrir Freecad, el Cubo aditivo es la única primitiva mostrada en la barra de herramientas. Para obtener el botón del Cono, pinchar en la flecha que indica hacia abajo, que está al lado del icono visible y seleccionar Cono aditivo en el menú desplegable.
-2.  Seleccionar los parámetros de la primitiva (para un cono completo, poner 0 como el valor de uno de sus radios) y [Attachment](Part_Attachment.md).
+2.  Seleccionar los parámetros de la primitiva (para un cono completo, poner 0 como el valor de uno de sus radios) y [Attachment](Part_EditAttachment.md).
 3.  Aceptar **OK**.
 4.  Una operación de Cono aparece dentro del Body (cuerpo) activo.
 
@@ -44,7 +44,7 @@ Tras su creación, el Cono puede ser editado de dos maneras:
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/es|Attachment}}: Define el modo de Attachment y la separación del archivo adjunto. Ver [Part Attachment](Part_Attachment.md).
+-    {{PropertyData/es|Attachment}}: Define el modo de Attachment y la separación del archivo adjunto. Ver [Part EditAttachment](Part_EditAttachment.md).
 
 -    {{PropertyData/es|Label}}: Nombre dado al objeto Cono. Se puede cambiar para adaptarlo a sus necesidades.
 

@@ -1,4 +1,6 @@
 # Installing on Windows/sv
+<div class="mw-translate-fuzzy">
+
 The easiest way to install FreeCAD on Windows is to download the installer below. {{DownloadWindowsStable}} Det lättaste sättet att **installera FreeCAD på Windows** är genom att använda installeraren. Denna sida beskriver hur man använder den och egenskaperna av *Microsoft Installeraren* för mer installationsalternativ.
 
 ### Enkel Installation 
@@ -10,11 +12,14 @@ Du kan ladda ned den senaste .msi filen från [den officiella FreeCAD nedladdnin
 Efter att du har laddat ned filen, dubbelklicka på den för att starta installationsprocessen.
 
 
+</div>
+
+
 {{DownloadWindowsStable}}
 
-After downloading the .exe (NSIS Installer) file, double-click on it to start the installation process.
+After downloading the installer, double-click it to start the installation process.
 
-Below is more information about some technical options. Nevertheless, most users don\'t need more than the above .exe files. Head to [Get started](Getting_started.md) after installation is complete.
+Below is more information about some technical options. But most users don\'t need more than the above .exe file. Head to [Getting started](Getting_started.md) after installation is complete.
 
 ## Simple NSIS Installer Installation 
 

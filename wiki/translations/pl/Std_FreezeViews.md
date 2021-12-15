@@ -1,87 +1,88 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Std FreezeViews
+   Name/pl:Std: Zamroź widok
    Empty:1
-   MenuLocation:View → Freeze display → ...
-   Workbenches:All
-   SeeAlso:[Std ViewIvIssueCamPos](Std_ViewIvIssueCamPos.md)
+   MenuLocation:Widok → Zamroź widok → ...
+   Workbenches:Wszystkie
+   SeeAlso:[Ustaw ujęcie widoku](Std_ViewIvIssueCamPos/pl.md)
 ---
 
 # Std FreezeViews/pl
 
-## Introduction
+## Wprowadzenie
 
-FreeCAD can store camera settings in up to 50 \'frozen views\'. The menu options that deal with frozen views can be found in the **View → Freeze display** submenu. Frozen views are not stored in the document and, if not saved with the **[Save views\...](#Save_views.md)** menu option, will be lost when the FreeCAD application closes.
+FreeCAD może przechowywać ujęcia widoku maksymalnie w 50 \"zamrożonych widokach\". Opcje menu, które dotyczą zamrożonych widoków, można znaleźć w menu podrzędnym **Widok → Zamroź widok**. Zamrożone widoki nie są zapisywane w dokumencie i, jeśli nie zostaną zapisane za pomocą opcji **[Zapisz widoki \...](#Zapisz_widok.md)**, zostaną utracone po zamknięciu aplikacji FreeCAD.
 
-## Save views 
+## Zapisz widok 
 
-### Description
+### Opis
 
-The **Save views\...** menu option saves all existing frozen views in a file with the \*.cam extension.
+Opcja menu **Zapisz widoki\...** zapisuje wszystkie istniejące zamrożone widoki w pliku z rozszerzeniem \*.cam.
 
-### Usage
+### Użycie
 
-1.  To use this option one or more frozen views must exist. A frozen view is created with the **[Freeze view](#Freeze_view.md)** menu option.
-2.  Select the **View → Freeze display → Save views...** option from the menu.
-3.  Enter a filename in the dialog box.
-4.  Press the **Save** button.
+1.  Aby użyć tej opcji musi istnieć jeden lub więcej zamrożonych widoków. Widok zamrożony tworzy się za pomocą opcji menu **[Zamroź widok](#Zamro.C5.BA_widok.md)**.
+2.  Wybierz z menu opcję **Widok → Zamroź widok → Zapisz widoki ...**.
+3.  Wprowadź nazwę pliku w oknie dialogowym.
+4.  Naciśnij przycisk **Zapisz**.
 
-### Options
+### Opcje
 
--   Press **Esc** or the **Cancel** button to abort the command.
+-   Naciśnij przycisk **Esc** lub przycisk **Anuluj** aby przerwać wykonywanie polecenia.
 
-## Load views 
+## Wczytaj widok 
 
-### Description 
+### Opis 
 
-The **Load views\...** menu option loads frozen views from a file with the \*.cam extension. All existing frozen views will be deleted.
+Opcja menu **Załaduj widoki\...** wczytuje zamrożone widoki z pliku z rozszerzeniem \*.cam. Wszystkie istniejące zamrożone widoki zostaną usunięte.
 
-### Usage 
+### Użycie 
 
-1.  Select the **View → Freeze display → Load views...** option from the menu.
-2.  Press the **Yes** button in the Restore views dialog box to confirm you want to lose all existing frozen views.
-3.  Select a file.
-4.  Press the **Open** button.
+1.  Wybierz z menu opcję **Widok → Zamroź widok → Załaduj widoki ...**.
+2.  Naciśnij przycisk **Tak** w oknie dialogowym Przywróć widoki, aby potwierdzić, że chcesz usunąć wszystkie istniejące zamrożone widoki.
+3.  Wybierz plik.
+4.  Naciśnij przycisk **Otwórz**.
 
-### Options 
+### Opcje 
 
--   If the Restore views dialog box is displayed: press **Esc** or the **No** button to abort the command.
--   If the file dialog box is displayed: press **Esc** or the **Cancel** button to abort the command.
+-   Jeśli zostanie wyświetlone okno dialogowe Przywróć widoki: naciśnij klawisz **Esc** lub przycisk **Nie**, aby przerwać wykonywanie polecenia.
+-   Jeśli zostanie wyświetlone okno dialogowe Plik: naciśnij przycisk klawisz **Esc** lub przycisk **Anuluj**, aby przerwać polecenie.
 
-## Freeze view 
+## Zamroź widok 
 
-### Description 
+### Opis 
 
-The **Freeze view** menu option saves the current camera settings (direction, zoom, etc.) of the [3D view](3D_view.md) in a new entry in the frozen view list. The frozen view list can contain up to 50 frozen views.
+Opcja menu **Zamroź widok** zapisuje bieżące ustawienia ujęcia widoku *(kierunek, zoom itp.)* w oknie [widoku 3D](3D_view/pl.md) na nowej pozycji listy zamrożonych widoków. Lista zamrożonych widoków może zawierać do 50 pozycji.
 
-### Usage 
+### Użycie 
 
-1.  There are several ways to invoke this option:
-    -   Select the **View → Freeze display → Freeze view** option from the menu.
-    -   Use the keyboard shortcut: **Shift**+**F**.
-2.  The new frozen view can be selected in the **View → Freeze display** submenu.
+1.  Istnieje kilka sposobów na wywołanie tej opcji:
+    -   Wybierz z menu opcję **Widok → Zamroź widok → Zamroź widok**.
+    -   Użyj skrótu klawiaturowego: **Shift**+**F**.
+2.  Nowy zamrożony widok można wybrać w podmenu **Widok → Zamroź widok**.
 
-## Clear views 
+## Wyczyść widoki 
 
-### Description 
+### Opis 
 
-The **Clear views** menu option deletes all existing frozen views.
+Opcja menu **Wyczyść widoki** usuwa wszystkie istniejące zamrożone widoki.
 
-### Usage 
+### Użycie 
 
-1.  Select the **View → Freeze display → Clear views** option from the menu.
+1.  Wybierz z menu opcję **Widok → Zamroź widok → Wyczyść widoki**.
 
-## Restore view 
+## Odtwórz widok 
 
-### Description 
+### Opis 
 
-For each frozen view a **Restore view** option is added with which it can be restored. The options are numbered: **Restore view 1** - **Restore view 50**.
+Dla każdego zamrożonego widoku dodana jest opcja **Przywróć widok**, za pomocą której można go przywrócić. Opcje są ponumerowane od: **Przywróć widok 1** do **Przywróć widok 50**.
 
-### Usage 
+### Użycie 
 
-1.  There are several ways to invoke this option:
-    -   Select the correct **View → Freeze display → Restore view** option from the menu.
-    -   For the first 9 frozen views: use the keyboard shortcut: **Ctrl**+**1** - **Ctrl**+**9**.
+1.  Istnieje kilka sposobów na wywołanie tej opcji:
+    -   Wybierz z menu właściwą opcję **Widok → Zamroź widok → Załąduj widoki ...**.
+    -   Dla pierwszych 9 zamrożonych widoków: użyj skrótu klawiaturowego: **Ctrl**+**1** - **Ctrl**+**9**.
 
 
 

@@ -21,7 +21,7 @@ Macro pour faire pivoter un objet sur lui-même, l\'axe de rotation étant soit:
 
 ## Utilisation
 
-1.  Téléchargez la macro depuis le [gestionnaire d\'Addon](Addon_Manager/fr.md)
+1.  Téléchargez la macro depuis le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md)
 2.  Exécuter la macro
 3.  Sélectionnez un objet
 4.  Choisissez l\'une des orientations suivantes:

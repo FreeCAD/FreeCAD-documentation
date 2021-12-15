@@ -1,5 +1,5 @@
 # Category:Mesh/pl
-This category lists pages related to the [Mesh\_Workbench/pl](Mesh_Workbench/pl.md).
+Ta kategoria zawiera strony związane ze środowiskiem [Siatka](Mesh_Workbench/pl.md).
 
 ### Contents:
 

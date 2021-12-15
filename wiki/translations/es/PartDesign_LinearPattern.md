@@ -72,7 +72,7 @@ Si el boceto que define la operación a copiar contiene también una línea o l�
 #### Eje base (X/Y/Z) 
 
 
-{{Version/es|0.17 o posteriores}}
+{{VersionPlus/es|0.17}}
 
 Seleccionar uno de los ejes estándar de Origen del Body (cuerpo) (X, Y o Z) como dirección.
 

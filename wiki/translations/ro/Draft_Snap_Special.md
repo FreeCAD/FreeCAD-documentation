@@ -1,6 +1,13 @@
-# Draft Snap Special/ro
 ---
-- GuiCommand:   Name:Draft Special   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → [[Draft Snap   Snap]] → Special|Shortcut:   SeeAlso:---
+- GuiCommand:
+   Name:Draft Snap Special
+   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation:Draft → [Snap](Draft_Snap.md) → Special
+   Shortcut:
+   SeeAlso:
+---
+
+# Draft Snap Special/ro
 
 
 </div>

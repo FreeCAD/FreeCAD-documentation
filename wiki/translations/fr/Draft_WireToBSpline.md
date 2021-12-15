@@ -32,7 +32,7 @@ La commande <img alt="" src=images/Draft_WireToBSpline.svg  style="width:24px;">
 
 Voir aussi: _.
 
-Pour convertir une polyligne en bspline, ou vice versa, passez la propriété `Points` de l\'objet source à la méthode `[make_bspline](Draft_BSpline#Scripting.md)`, respectivement à la méthode `[make_wire](Draft_Wire#Scripting.md)` de l\'atelier Draft.
+Pour convertir une polyligne en bspline, ou vice versa, passez la propriété `Points` de l\'objet source à la méthode `[make_bspline](Draft_BSpline/fr#Script.md)`, respectivement à la méthode `[make_wire](Draft_Wire/fr#Script.md)` de l\'atelier Draft.
 
 Exemple:
 

@@ -2,7 +2,7 @@
 - GuiCommand:/ro
    Name:Part Measure Linear
    Name/ro:Part Measure Linear
-   MenuLocation:[Measure](Std_Measure_Menu/ro.md) → Measure Linear‏‎
+   MenuLocation:Measure → Measure Linear‏‎
    Workbenches:[Part](Part_Workbench/ro.md)
 ---
 

@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/de
-   Name:Part ConvertToSolid/de
+   Name:Part MakeSolid
    Name/de:Part UmwandelnFestkörper
    MenuLocation:Formteil → Umwandeln in Festkörper
    Workbenches:[Part Arbeitsbereich](Part_Workbench/de.md)

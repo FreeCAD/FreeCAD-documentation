@@ -3,7 +3,7 @@
 
 ## Présentation
 
-Le **format de fichier {{FileName|.FCStd}}** est le format de fichier principal de FreeCAD. Il s'agit d'un format conteneur prenant en charge la compression et l'incorporation de différents types de données.
+Le **format de fichier** ({{FileName|.FCStd}}) est le format de fichier principal de FreeCAD. Il s'agit d'un format conteneur prenant en charge la compression et l'incorporation de différents types de données.
 
 ## Contenu d\'un fichier .FCStd 
 
@@ -126,7 +126,7 @@ Ce sont les fichiers svg modèles utilisés dans les pages de [TechDraw](TechDra
 
 ### Structure typique 
 
-Structure typique d\'un fichier {{FileName|.FCStd}}. L\'extension peut être modifiée en {{FileName|.zip}} pour l\'explorer comme un répertoire normal. Les {{FileName|Document.xml}} et {{FileName|GuiDocument.xml}} sont à la racine de l\'archive, avec un nombre illimité de fichiers {{FileName|.brp}} (BREP). Un sous-répertoire peut contenir la miniature et un autre les modèles SVG utilisés par [TechDraw](TechDraw_Workbench/fr.md).
+Structure typique d\'un fichier {{FileName|.FCStd}}. L\'extension peut être modifiée en {{FileName|.zip}} pour l\'explorer comme un répertoire normal. Les {{FileName|Document.xml}} et {{FileName|GuiDocument.xml}} sont à la racine de l\'archive, avec un nombre illimité de fichiers {{FileName|.brp}} (B-REP). Un sous-répertoire peut contenir la miniature et un autre les modèles SVG utilisés par [TechDraw](TechDraw_Workbench/fr.md).
 
     File.FCStd (File.zip)
       |
@@ -143,7 +143,7 @@ Structure typique d\'un fichier {{FileName|.FCStd}}. L\'extension peut être mod
 
 ## Incorporation d\'autres fichiers 
 
-Afin d\'incorporer d\'autres types de fichiers dans un fichier FCStd, vous devez d\'abord créer un [objet scripté](Scripted_objects/fr.md) à partir de la [console Python](Python_console/fr.md) et lui donner une propriété `App::PropertyFileIncluded`.
+Pour incorporer d\'autres types de fichiers dans un fichier FCStd, vous devez d\'abord créer un [objet scripté](Scripted_objects/fr.md) à partir de la [console Python](Python_console/fr.md) et lui donner une propriété `App::PropertyFileIncluded`.
 
 Ensuite, dans l\'[éditeur de propriétés](Property_editor/fr.md), vous pouvez accéder à la propriété ajoutée et choisir un fichier sur l\'ordinateur. Une fois le fichier FCStd enregistré, le fichier affecté à la propriété {{PropertyData/fr|PropertyFileIncluded}} sera mis dans le `.FCStd`. Lorsque le document est restauré, le même fichier sera restauré avec la propriété {{PropertyData/fr|PropertyFileIncluded}}.
 
@@ -157,11 +157,11 @@ Voir le fil du forum [PDF inside the project](https://forum.freecadweb.org/viewt
 
 ## Modifier le code source du fichier .FCStd 
 
--   See [Std ProjectUtil](Std_ProjectUtil.md).
+-   Voir [Std Utilitaire de projet](Std_ProjectUtil/fr.md).
 
 ## Autres
 
--   Utilitaire convertisseur de fichiers [ImageConv](ImageConv/fr.md).
+-   Utilitaire pour convertir des fichiers [ImageConv](ImageConv/fr.md).
 
 
  

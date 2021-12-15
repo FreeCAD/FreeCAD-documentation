@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Vista di Arch inserisce una vista di un **<img src="images/Arch_SectionPlane.svg" width=16px> [Piano di sezione di Arch](Arch_SectionPlane/it.md)** in una pagina di [TechDraw](TechDraw_New_Default/it.md).
+Lo strumento Vista di Arch inserisce una vista di un **<img src="images/Arch_SectionPlane.svg" width=16px> [Piano di sezione di Arch](Arch_SectionPlane/it.md)** in una [pagina di TechDraw](TechDraw_PageDefault/it.md).
 
 
 </div>
@@ -54,7 +54,7 @@ Poiché la Vista di Arch è resa all\'interno del modulo [Arch](Arch_Workbench/i
 <div class="mw-translate-fuzzy">
 
 -   La Vista di Arch è resa dall\'ambiente [Arch](Arch_Workbench/it.md), allo stesso modo di come avveniva in [Drawing](Drawing_Workbench/it.md). Vedere le note.
--   [Dimensioni](Draft_Dimensions/it.md), [Testi](Draft_Text/it.md) e qualsiasi altro oggetto 2D (Sketch o Draft) considerato dal piano di sezione viene reso \"così com\'è\" (senza nessuna intersezione o linee nascoste) sopra la geometria solida.
+-   [Dimensioni](Draft_Snap_Dimensions/it.md), [Testi](Draft_Text/it.md) e qualsiasi altro oggetto 2D (Sketch o Draft) considerato dal piano di sezione viene reso \"così com\'è\" (senza nessuna intersezione o linee nascoste) sopra la geometria solida.
 -   Il volume degli [Spazi](Arch_Space/it.md) non viene reso, viene resa solo l\'etichetta.
 -   Le linee di taglio, le linee proiettate (se Mostra proprietà nascosta è impostata su Vero) e le linee 2D di cui sopra possono essere rese con larghezze di linea diverse. Questo può essere configurato nelle preferenze di Arch.
 -   La Vista di Arch ha due modalità di rendering: Wireframe, che utilizza gli algoritmi OpenCasCade di [Drawing](Drawing_Workbench/it.md), è veloce e produce solo linee (non è possibile riempire la faccia) e Solid, che si basa sull\'[algoritmo di Painter](https://en.wikipedia.org/wiki/Painter%27s_algorithm), ed è in grado di riprodurre facce riempite con il colore della loro forma. Tuttavia, è molto più lento e può fallire in molte situazioni. L\'immagine sotto mostra la differenza tra le due modalità di rendering:

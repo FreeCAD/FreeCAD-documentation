@@ -8,9 +8,17 @@
 |Files=
 }}
 
+## First Steps 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Первые шаги 
 
-Мы будем работать в <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [верстаке Part](Part_Workbench/ru.md) - выберите его из меню через **Вид → Верстак → Part** или [переключателем верстаков](Workbench_Selector/ru.md).
+Мы будем работать в <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [верстаке Part](Part_Workbench/ru.md) - выберите его из меню через **Вид → Верстак → Part** или [переключателем верстаков](Std_Workbench/ru.md).
+
+
+</div>
 
 -   Создайте новый пустой документ.
 -   Переключитесь на <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [Изометрический вид](Std_ViewIsometric/ru.md).

@@ -32,7 +32,7 @@ Die im Aufgabenpaneel verfügbaren Einzelzeichen Tastaturkürzel können geände
 
 <div class="mw-translate-fuzzy">
 
--   Um manuell Koordinaten einzugeben, trage einfach die Zahlen ein, drücke dann **Enter** zwischen jeder der X-, Y- und Z-Komponenten. Du kannst den **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)**-Button drücken, um den Punkt einzufügen, nachdem Du die gewünschten Werte eingeben hast.
+-   Um manuell Koordinaten einzugeben, trage einfach die Zahlen ein, drücke dann **Enter** zwischen jeder der X-, Y- und Z-Komponenten. Du kannst den **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen**-Button drücken, um den Punkt einzufügen, nachdem Du die gewünschten Werte eingeben hast.
 -   Drücke **Alt**+**N** oder klicke das Ankreuzkästchen zur Umschaltung des *\'Nächstes*-Modus. Wenn der Fortsetzungsmodus eingeschaltet ist, wird das Punkt-Werkzeug nach der Eingabe des Punkts erneut starten, ohne dass Du den Werkzeug-Button nochmal drücken musst.
 -   Drücke **Esc** oder den **'''Schließen'''**-Button zum Abbruch des aktuellen Befehls.
 

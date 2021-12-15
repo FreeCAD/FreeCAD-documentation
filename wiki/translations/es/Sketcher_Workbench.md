@@ -186,7 +186,13 @@ A diferencia de las líneas B, pueden utilizarse con todo tipo de restricciones 
     -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [Crear B-spline](Sketcher_CreateBSpline/es.md): Dibuja una curva B-spline por sus puntos de control.
     -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Crear B-spline periódica](Sketcher_CreatePeriodicBSpline/es.md): Dibuja una curva B-spline periódica (cerrada) por sus puntos de control.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polilínea (línea de múltiples puntos)](Sketcher_CreatePolyline/es.md): Dibuja una línea creada por múltiples segmentos de línea. Presionando la tecla M se puede iterar entre los diferents modos.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Crear rectángulos](Sketcher_CompCreateRectangles/es.md): Es un menú de iconos en la barra de herramientas de Croquizador que contiene los siguientes comandos: {{Version/es|0.20}}
 

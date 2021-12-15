@@ -5,19 +5,41 @@
 
 FreeCAD no sería lo que es sin las generosas contribuciones de muchas personas. Aquí hay un resumen de las personas y empresas que han contribuido a FreeCAD a lo largo del tiempo. Para ver los créditos de las librerías de terceros vea la página [Librerías de terceros](Third_Party_Libraries/es.md).
 
+
+<div class="mw-translate-fuzzy">
+
 ### Desarrollo
+
+
+</div>
+
+### Project managers 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Gerentes de proyecto 
 
 Desarrolladores principales del proyecto FreeCAD:
 
+
+</div>
+
 -   _
 -   _
 -   _
+
+### Main developers 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Principales desarrolladores 
 
 Personas que trabajan regularmente en el código de FreeCAD (recuperado de <https://github.com/FreeCAD/FreeCAD/graphs/contributors>):
+
+
+</div>
 
 -   [Abdullah Tahiriyo](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3232)
 -   [Alexander Golubev (Fat-Zer)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=4325)
@@ -43,9 +65,17 @@ Personas que trabajan regularmente en el código de FreeCAD (recuperado de <http
 -   [Victor Titov (DeepSOIC)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3888)
 -   [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375)
 
+### Other coders 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Otros codificadores 
 
 Otras personas que contribuyeron con código al proyecto FreeCAD:
+
+
+</div>
 
 -   Barleyman
 -   Berthold Grupp
@@ -82,18 +112,34 @@ Otras personas que contribuyeron con código al proyecto FreeCAD:
 -   triplus
 -   usakhelo
 
+## Companies
+
+
+<div class="mw-translate-fuzzy">
+
 ### Empresas
 
 Empresas que han donado código, activos o tiempo de desarrollo:
+
+
+</div>
 
 -   [AlephObjects](https://www.alephobjects.com/)
 -   Imetric 3D
 -   [KiCad Services Corporation](https://www.kipro-pcb.com/)
 -   [OpeningDesign](https://openingdesign.com)
 
+## Forum moderators 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Moderadores del foro 
 
 Responsables del [Foro de FreeCAD](http://forum.freecadweb.org) (recuperado de <http://forum.freecadweb.org/memberlist.php?mode=team>):
+
+
+</div>
 
 -   [agryson](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=11337)
 -   [Daniel Falck](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=689)
@@ -112,9 +158,17 @@ Responsables del [Foro de FreeCAD](http://forum.freecadweb.org) (recuperado de <
 -   [wmayer](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=69)
 -   [yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68)
 
+## Community
+
+
+<div class="mw-translate-fuzzy">
+
 ### Comunidad
 
 La gente de la comunidad que se esfuerza en ayudar al proyecto FreeCAD, ya sea siendo activos en el foro, manteniendo un blog sobre FreeCAD, haciendo tutoriales en vídeo, empaquetando FreeCAD para Windows/Linux/MacOS X, escribiendo un libro de FreeCAD\... (listado por orden alfabético) (recuperado de <http://forum.freecadweb.org/memberlist.php?mode=&sk=d&sd=d#memberlist>)
+
+
+</div>
 
 -   [bejant](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1940)
 -   [Brad Collette](http://www.packtpub.com/freecad-solid-modeling-with-python/book)
@@ -134,14 +188,22 @@ La gente de la comunidad que se esfuerza en ayudar al proyecto FreeCAD, ya sea s
 -   [peterl94](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1819)
 -   [pperisin](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=356)
 -   _
--   _
+-   _ (renatorivo)
 -   _
 -   [triplus](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=782)
 -   [ulrich1a](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1928)
 
+## Documentation writers 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Escritores de la documentación 
 
 Personas que escribieron la documentación de esta [wiki](Main_Page/es.md):
+
+
+</div>
 
 -   _
 -   _
@@ -155,10 +217,18 @@ Personas que escribieron la documentación de esta [wiki](Main_Page/es.md):
 -   _
 -   _
 
+## Translators
+
+
+<div class="mw-translate-fuzzy">
+
 ### Traductores
 
 Personas que ayudaron a traducir la aplicación FreeCAD (recuperado de <https://crowdin.com/project/freecad>):
 
+
+</div>
+
 -   _
 -   _
 -   _
@@ -219,10 +289,19 @@ Personas que ayudaron a traducir la aplicación FreeCAD (recuperado de <https://
 -   _
 -   _
 -   _
+-   _
+
+## Addons developers 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Desarrolladores de complementos 
 
 Desarrolladores de complementos de FreeCAD (recuperados de <https://github.com/FreeCAD/FreeCAD-addons>):
+
+
+</div>
 
 -   _
 -   _

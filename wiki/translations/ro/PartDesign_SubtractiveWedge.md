@@ -23,7 +23,7 @@ Se introduce o pană subtractivă în corpul activ. Forma sa este scăzută de s
 <div class="mw-translate-fuzzy">
 
 1.  Press the **<img src="images/PartDesign_SubtractiveWedge.png" width=24px> '''Subtractive Wedge'''** button. **Note**: Wedge-ul subtractiv face parte dintr-un meniu de iconițe *Create an additive primitive*. După lansarea FreeCAD, Subtractive Box este afișată în toolbar. Pentru a obține Wedge, faceți clic pe săgeată pentru a vizualiza Wedge subtractive din meniu.
-2.  Definițăi parametrii Primitivei și [Attachment](Part_Attachment.md).
+2.  Definițăi parametrii Primitivei și [Attachment](Part_EditAttachment.md).
 3.  Click **OK**.
 4.  O funcționalitate Wedge apare sub corpul (Body) activ.
 

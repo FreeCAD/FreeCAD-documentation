@@ -18,6 +18,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -29,16 +31,24 @@ Dává řadu informací o vybraném tvaru a může zobrazit konverzi délky, skl
 </div>
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/4ff055ff5eb117f75beea5843efca4791990cf62/FCInfo_en_Ver_1-22-rmu_Docked.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/4ecf1b82162b7a9e600c9ee511410ddf06c6e534/FCInfo_en_Ver_1-25d-rmu_Docked.FCMacro}}
 
 <img alt="" src=images/Macro_FCInfo_00_en.png  style="width:480px;"> 
 *FCInfo*
+
+## Utilisation
+
+
+<div class="mw-translate-fuzzy">
 
 ### Použití
 
 Vyberete objekt nebo spustíte aplikaci a vyberete objekt a zobrazí se řada informací. Jeho výpočty založené na jednotce FreeCADu, což je **mm** pro kažbý nový výběr, vrací vždy délku v **mm** a úhel v **dekadických stupních**.
 
 <img alt="upper window" src=images/Macro_FCInfo_06.png  style="width:200px;"><img alt="lower window" src=images/Macro_FCInfo_07.png  style="width:200px;">
+
+
+</div>
 
 
 
@@ -51,10 +61,19 @@ Vyberete objekt nebo spustíte aplikaci a vyberete objekt a zobrazí se řada in
 -   Název dílčího objektu
 -   Typ objektu
 
+
+<div class="mw-translate-fuzzy">
+
 **Sector 2: Coordinates click mouse**
 
 -   Souřadnice X, Y a Z kliknutím myší
 -   Tlačítko vytváří na bodové, osové, rovinné, kopírovací vektorové formě osy \'\' \'FreeCAD.Vector (-24.0, 240.0, 7.0)\' \'\'
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Sector 3: Value**
 
@@ -62,12 +81,24 @@ Vyberete objekt nebo spustíte aplikaci a vyberete objekt a zobrazí se řada in
     km, hm, přehrada, m, dm, cm, \'\' \'mm\' \'\', μm, fm, palec, propojení, noha, yard, bidélko, řetěz, furlong, míle, ligy, námořní. Je-li objekt kružnicí o jednu sekundu, zobrazí se políčkoEdit a zobrazí poloměr kružnice.
 -   Obvod tvaru
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 **Sector 4: Vertexes and details**
 
 -   CheckBox pro vyhledávání nebo ne všechny detaily objektu, pokud není zaškrtnuto pouze hlavní hodnota jsou zobrazeny.
 -   Vertexy a detaily tvaru (compt\_Edge), (compt\_Faces), (compt\_Vector of Face)
     max 200 řádků v tabulce, pokud je více než 200 řádků se objeví (! + 200) a počet linky
     (všechny podrobnosti mohou uložit tlačítko **Save** ve formátu CSV a soubor v tabulce lze zobrazit pomocí **Read** nebo externí tabulky jako[LibreOffice](https://www.libreoffice.org/) [OpenOffice](http://openoffice.apache.org/downloads.html) or other)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Sector 5: Inclination**
 
@@ -85,6 +116,12 @@ Vyberete objekt nebo spustíte aplikaci a vyberete objekt a zobrazí se řada in
         toto tlačítko vytvoří přímku ve směru objektu
 -   **ValueAt** vrací 3D vektor odpovídající hodnotě parametru.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 **Sector 6: Surface and Volume**
 
 -   Povrch zobrazené velikosti jednotky může být vybrán
@@ -96,15 +133,33 @@ Vyberete objekt nebo spustíte aplikaci a vyberete objekt a zobrazí se řada in
     t, quintal, kg, hg, dag, **gram**, dg, cg, fg, gr (obilí), dr (drachm), oz (jednou), oz t (troy trojúhelník), lb (livre troy), lb (livre av) , cwt (sto váha), tonneau fr, ct
 -   může být vybrána váha zobrazené jednotky
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 **Sector 7: BoundBox**
 
 -   BoundBox extrémní rozměry tvaru
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Sector 8: Center of:**
 
 -   Střed tvaru a tyto souřadnice XYZ
 -   Centrum hmotnosti a tyto souřadnice XYZ
 -   Tlačítko vytváří na bodové, osové, rovinné, kopírovací vektorové formě osy **FreeCAD.Vector (-24.0, 240.0, 7.0)**
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Sector 9: Inertia**
 
@@ -120,6 +175,9 @@ stejné pro délku a váhu
 -   Determinant 1: vypočítá determinant vědecké hodnoty matice
 -   Determinant 2: vypočte determinant maticové desetinné hodnoty
 
+
+</div>
+
 **Section 10: SpreadSheet**
 
 -    **Read**: přečtěte si data v tabulce uložené **.FCInfo** nebo txt, asc, csv
@@ -134,12 +192,21 @@ stejné pro délku a váhu
 
 -    **Space**: oddělovač je Vesmír
 
+
+<div class="mw-translate-fuzzy">
+
 Možnost uložit nebo přečíst tabulku s různým oddělovačem, tabulka, čárka, středník, prostor
 Tabulace jsou oddělovač pro modul FreeCAD spreadSheet
 Počet těchto čtyř oddělovačů se vypočítá pro pomoc, pokud není známo
 COMMA jsou starý (01.16 a dřívější) oddělovač maker FCInfo
 Nyní pro kompatibilitu s rozložením FreeCAD spreadSheet a od verze 01.17 je TABULACE implicitně oddělovač
 Chcete-li převést vaši starou tabulku FCInfo: Otevřete ji ve složce FCInfo a uložte ji pomocí možnosti Tabulace
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Section 11: Main**
 
@@ -159,7 +226,13 @@ Chcete-li převést vaši starou tabulku FCInfo: Otevřete ji ve složce FCInfo 
 
 -    **CheckBox****2**: Pokud není zaškrtnuto toto políčko CheckBox, makro okna se zobrazí vpravo (výchozí). Pokud je zaškrtnuto, makro okna se zobrazí vlevo
 
+
+</div>
+
 Po spuštění makra zůstane makro aktivní a okno zůstane viditelné. Chcete-li makro ukončit, stiskněte klávesu **Exit**. Pokud opustíte kříž, makro zůstane v paměti a data se objeví v zobrazení \"sestavy\" aplikace FreeCAD.
+
+
+<div class="mw-translate-fuzzy">
 
 
 <center>
@@ -172,6 +245,14 @@ Image:Macro\_FCInfo\_04.png\|Zakotveno vpravo, Image:Macro FCInfo 05.png\|nebo p
 
 
 
+
+</div>
+
+## Options
+
+
+<div class="mw-translate-fuzzy">
+
 ## Volby
 
 ### Použité jednotky 
@@ -180,6 +261,18 @@ Image:Macro\_FCInfo\_04.png\|Zakotveno vpravo, Image:Macro FCInfo 05.png\|nebo p
 
 km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch(palec), link, foot(stopa), yard, perch, chain, furlong, mile, league, nautique.
 
+
+</div>
+
+#### Length unit: 
+
+km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
+
+#### Angle degrees : 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Úhlové stupně : 
 
 1.  **dekadické stupně**, např: 174.831872611°
@@ -187,6 +280,9 @@ km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch(palec), link, foot(stopa),
 3.  radiány, např.: 3.05139181449 rad
 4.  grade, např.: 194.257636235 gon
 5.  procenta např.: 30° = 57.74%
+
+
+</div>
 
 Understanding of angles in FCInfo display.
 
@@ -202,6 +298,11 @@ click twice to see the animation (the image must be in full screen)
 
 
 
+#### Weight unit : 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Váhové jednotky : 
 
 ton, quintal, kg, hg, dag, **gram**, dg, cg, mg, µg, ng, pg, fg, gr (grain), dr (drachm), oz (once), oz t (once troy),
@@ -209,11 +310,23 @@ lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight)
 \"spinBox\" je nastaven na **7,5** kg, tj. průměrná měrná hmotnost oceli. Chcete-li jinou defaultní (přednastavenou) hodnotu, změňte hodnotu měrné hmotnosti na řádku 208
 
 
+</div>
+
+
 ```python
  global densite       ; densite       = 7.5  # (steel = 7.5 kg par dm3)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Soubor můůže být vytvořen tlačítkem **Save**. Takto je vytvořen soubor jako [.csv](https://fr.wikipedia.org/wiki/Comma-separated_values) soubor, data mohou být prohlížena v tabulkovém editoru ve FreeCADu nebo Openoffice, LibreOffice\...
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ### Skript
 
@@ -221,7 +334,26 @@ Zkopírujte obsah tohoto makra do souboru nazvaného \"FCInfo.FCMacro\" (ve Wind
 Nebo přímo do okna FreeCADu
 Ikona musí být ve stejném adresáři jako je makro pro Windows \"C:\\Program Files\\FreeCAD0.13\".
 Stáhněte umístění obrázků u ikon <img alt="" src=images/FCInfo.png  style="width:64px;"> <img alt="" src=images/FCInfoSpreadsheet.png  style="width:64px;"> a pravým tlačítkem je \"Uložte jako\" (neměňte jméno) (originál - Download image positioning on the icon <img alt="" src=images/FCInfo.png  style="width:64px;"> <img alt="" src=images/FCInfoSpreadsheet.png  style="width:64px;"> and then drag the mouse right click \"save as\" (do not change the name))
+
+
+</div>
+
+Copy the contents of the macro in a file named \"FCInfo.FCMacro\"
+
+-   Windows: the form is usually **\" drive:\\Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\ \"**
+-   Ubuntu: the form is usually **\" /home/your\_user\_name/.FreeCAD \"**.
+
+Or, directly in the interface of FreeCAD
+The icon must be in the same directory as the macro.
+Download image positioning on the icon <img alt="" src=images/FCInfo.png  style="width:64px;"> <img alt="" src=images/FCInfoSpreadsheet.png  style="width:64px;"> and then drag the mouse right click \"save as\" (do not change the name)
+
+
+<div class="mw-translate-fuzzy">
+
 **PS: příliš dlouhá na to, aby byla obsažena na stránce wiki (zatím jsou stránky wiki pouze 64 KB) kód makra byl umístěn na fóru**
+
+
+</div>
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
@@ -230,6 +362,9 @@ Tam je také FCInfo\_Alternate\_Linux pouze pro FreeCAD verze 0.13 \... a PyQt4
 
 
 <div class="mw-collapsible-content">
+
+
+<div class="mw-translate-fuzzy">
 
 Je tam také [Macro\_FCInfo\_Alternate\_Linux](http://www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux) zde je kód změněn (kvůli chybě zobrazení znaků: \'\' \'² ³ ° μ\' \'\' ordinal není v rozsahu (128) \"), které představovaly problémy v určitých konfiguracích, funkce jsou stejné
 Příklad : 
@@ -250,26 +385,66 @@ global uniteAs       ; uniteAs       = iso8859(unichr(176))
 
 </div>
 
+
+
+</div>
+
 Stažení souboru ikon [Macro\_FCInfo\_Icon](https://forum.freecadweb.org/download/file.php?id=50755) rozbalte a zkopírujte ikonu ve stejném adresáři makra
+
+
+<div class="mw-translate-fuzzy">
 
 Stáhněte soubor makra na podstavec **ukotvený vpravo**
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
 {{CodeDownload|https://gist.github.com/mario52a/8d40ab6c018c2bde678f|last version Macro_FCInfo and the icons at the end of the page}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 (Nebo **[On the forum.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=47748#p47748)**)
 **PS:** toto makro používá **getSelection ()** a seznam objektů začíná na 1 ex: pro pole \'\' \'Edge1 to Edge12\' a kód v konzole začíná na 0 ex: pro rámeček **Edge \[0\] na Edge \[11\]**
 To je normální počítání na matici / seznamy uvnitř OpenCascade vždy začíná na **1 a ne na 0**
 
+
+</div>
+
+### Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ### Omezení
 
 Pro ukončení vždy používejte tlačítko **Exit**. Ukončení jiným způsobem zapříčiní, že program zůstane v paměti a běží a zobrazuje data v \"reportovacím pohledu\". Abyste uvolnili pamět, musíte ukončit celý FreeCAD.
 V tabulce je viditelných pouze prvních 200 prvků objektu. Je-li jich v objektu více zobrazí se upozornění \"\'(! +200)\" \'. Kompletní seznam dat je viditelný v souboru uloženém pomocí tlačítka **Save**.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Pokud je makro okna po spuštění neviditelné, podívejte se do dolního okna:
+
+
+</div>
 
 ![](images/Macro_FCInfo_08.png )
 
 ![](images/FCInfo_begin_00.gif ) 
+
+
+<div class="mw-translate-fuzzy">
 
 projekt:
 ~~si přečtěte soubor přímo v tabulce.~~ provedeno
@@ -278,8 +453,30 @@ Sdružení látky s její hustotou
 ~~sklon k prvku spíše než globální objekt~~ proveden
 ~~vložte přímo do rozhraní FreeCADu~~ do
 
+
+</div>
+
 ## Version
 
+
+<div class="mw-translate-fuzzy">
+
+-   ver 1.22 , 12/11/2020 : now the macro is totally uninstalled i use :
+
+
+</div>
+
+
+```python
+FreeCAD.ActiveDocument.openTransaction(u"FCInfo")    # memorise les actions (avec annuler restore)
+FreeCAD.ActiveDocument.commitTransaction()           # restore les actions  (avec annuler restore)
+#FreeCAD.ActiveDocument.abortTransaction()            # abandonne les actions(avec annuler restore)
+```
+
+-   ver 1.25d, 13/12/2021 little correction material field uncomment the \"\'try\...Except\" !!!
+-   ver 1.25c, 12/12/2021 little correction new material
+-   ver 1.23b, 20/11/2021 little correction, add text info in beginning run macro, and ordinal the text code
+-   ver 1.23 , 19/11/2021 include icon in macro, number decimal displayed, text height, configure options in the Preference FC, correct info for elements of sketch in edit mode.
 -   ver 1.22 , 12/11/2020 : now the macro is totally uninstalled i use :
 
 
@@ -340,6 +537,8 @@ Viz také [Arch Survey](Arch_Survey/cs.md) <img alt="Arch Survey" src=images/Arc
 
 
 </div>
+
+See Also: <img alt="Arch Survey" src=images/Arch_Survey.svg  style="width:36px;"> [Arch Survey](Arch_Survey.md)
 
 Své připomínky můžete sdílet na fóru [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 Zde je další příspěvek [FCInfo Macro](http://forum.freecadweb.org/viewtopic.php?f=8&t=6005)

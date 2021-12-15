@@ -11,6 +11,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -19,7 +21,9 @@
 
 </div>
 
-![](images/PartDesign_Involute_Gear_01.png ) 
+For more detailed information see Wikipedia\'s entries for: [Gear](https://en.wikipedia.org/wiki/Gear) and [Involute Gear](https://en.wikipedia.org/wiki/Involute_gear)
+
+![](images/PartDesign_Involute_Gear_01.png )
 
 ## Usage
 
@@ -34,11 +38,15 @@
 
 -   Modules: Pitch diameter divided by the number of teeth.
 
--   Pressure angle: Acute angle between the line of action and a normal to the line connecting the gear centers. Default is 20 degrees. ([More info](http://en.wikipedia.org/wiki/Involute_gear))
+-   Pressure angle: Acute angle between the line of action and a normal to the line connecting the gear centers. Default is 20 degrees. ([More info](https://en.wikipedia.org/wiki/Involute_gear))
 
 -   High precision: True or false
 
 -   External gear: True or false
+
+## Tutorials
+
+[How to make gears in FreeCAD](https://www.youtube.com/watch?v=8VNhTrnFMfE)
 
 ## Related
 

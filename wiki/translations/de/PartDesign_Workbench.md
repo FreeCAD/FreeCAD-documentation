@@ -11,7 +11,7 @@ Der Arbeitsbereich PartDesign ist eng mit dem [Arbeitsbereich Skizzierer](Sketch
 
 Während der <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ für eine ausführlichere Erläuterung dieses Vorgangs, und [Erstellen eines einfachen Teil mit PartDesign](Creating_a_simple_part_with_PartDesign/de.md).
 
-Eine detaillierte Diskussion des Arbeitsbereichs Part im Vergleich mit dem Arbeitsbereich Part Design findest du hier: [ Part und Part Design](Part_and_Part_Design/de.md).
+Eine detaillierte Diskussion des Arbeitsbereichs Part im Vergleich mit dem Arbeitsbereich Part Design findest du hier: [ Part und PartDesign](Part_and_PartDesign/de.md).
 
 Die mit PartDesign erstellten Körper unterliegen oft dem [topologischen Benennungsproblem](Topological_naming_problem/de.md), wodurch bei Änderungen an den parametrischen Operationen interne Formelemente umbenannt werden. Dieses Problem kann minimiert werden, indem die auf der Seite [Formelemente bearbeiten](feature_editing/de.md) beschriebenen Erfolgsrezepte befolgt und die Vorteile von Bezugsobjekten als Unterstützung für Skizzen und Features genutzt werden.
 

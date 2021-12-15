@@ -5,7 +5,7 @@
 
 A _ associated to it that can be displayed in the [3D view](3D_view.md).
 
-A Part Feature is the parent class of most 2D (Draft, Sketcher) and 3D (Part, PartDesign) objects, with the exception of meshes, which are normally based on [Mesh Feature](Mesh_Feature.md), or [Fem FemMeshObject](Fem_FemMeshObject.md) for FEM objects.
+A Part Feature is the parent class of most 2D (Draft, Sketcher) and 3D (Part, PartDesign) objects, with the exception of meshes, which are normally based on [Mesh Feature](Mesh_Feature.md), or [FEM FemMeshObject](FEM_Mesh.md) for FEM objects.
 
 Every object created with the [Part Workbench](Part_Workbench.md) is essentially a [Part Feature](Part_Feature.md).
 
@@ -78,7 +78,7 @@ These are the properties available in the [property editor](property_editor.md).
 
 ### View
 
-Most objects in FreeCAD have what is called a \"[viewprovider](viewprovider.md)\", which is a class that defines the visual appearance of the object in the [3D view](3D_view.md), and in the [tree view](tree_view.md). The default viewprovider of Part Feature objects defines the following properties. Scripted objects that are derived from Part Feature will have access to these properties as well.
+Most objects in FreeCAD have what is called a \"[viewprovider](viewprovider.md)\", which is a class that defines the visual appearance of the object in the [3D view](3D_view.md), and in the [tree view](Tree_view.md). The default viewprovider of Part Feature objects defines the following properties. Scripted objects that are derived from Part Feature will have access to these properties as well.
 
 
 {{TitleProperty|Base}}

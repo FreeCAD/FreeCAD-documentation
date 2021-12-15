@@ -155,7 +155,8 @@ trans.translation.setValue([2, 0, 0])
 sg.removeChild(myCustomNode)
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -201,7 +202,8 @@ Callback-ul a fost pornit de la un obiect, deoarece obiectul trebuie să ruleze 
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -247,12 +249,22 @@ These links provide reference documentation for Coin v3.x. The differences with 
 -   [Coin3D Documentation](https://grey.colorado.edu/coin3d/index.html), at University of Colorado.
 -   [Open Inventor Reference Documentation](https://mevislabdownloads.mevis.de/docs/current/MeVis/ThirdParty/Documentation/Publish/OpenInventorReference/index.html), by MeVisLab.
 
-[top](#top.md)
+
+{{Top}}
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/ro|Scenegraph/ro|PySide/ro}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

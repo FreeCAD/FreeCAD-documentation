@@ -2,8 +2,8 @@
 - GuiCommand:
    Name:Assembly3 ResolveConstraints
    Icon:Assembly3_workbench_icon.svg
-   Workbenches:[Assembly3](Assembly3_Workbench.md)
    MenuLocation:Assembly3 → Resolve constraints
+   Workbenches:[Assembly3](Assembly3_Workbench.md)
    Shortcut:**A** then **S**
 ---
 

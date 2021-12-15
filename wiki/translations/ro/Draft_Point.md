@@ -39,7 +39,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Apăsați butonul **<img src="images/Draft_Point.png" width=16px> [Draft Point](Draft_Point/ro.md)
 **, sau apăsați tasta **P** apoi apăsați tasta **T**
-2.  Click un punct în vizualizarea 3D, sau tastați [coordinate](Draft_Coordinates/ro.md)
+2.  Click un punct în vizualizarea 3D, sau tastați coordinate
 
 
 </div>

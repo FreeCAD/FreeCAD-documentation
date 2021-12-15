@@ -129,7 +129,13 @@ In breve tempo, tutta la sezione della Microhouse è pronta.
 
 ![](images/Arch_Wikihouse_01.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 Ora possiamo creare con facilità i fogli singoli, che sono dei file DXF da inviare al laboratorio che deve tagliare i pannelli. Il modo più semplice per farlo è quello di selezionare tutto il contenuto del documento con Ctrl+A, e quindi utilizzare lo strumento [Sagoma pannello](Arch_Panel_Cut/it.md). Questo produce un oggetto Sagoma pannello per ogni oggetto Panello trovato nella selezione. Separandoli, si ottiene una visione chiara di tutti i pezzi:
+
+
+</div>
 
 ![](images/Arch_Wikihouse_02.jpg )
 

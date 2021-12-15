@@ -142,7 +142,7 @@ Obiectul atașat nu este un instrument specific PartDesign, ci mai degrabă un u
 
 <div class="mw-translate-fuzzy">
 
-Informații suplimentare pot fi găsite la [Attachment](Part_Attachment/ro.md) page.
+Informații suplimentare pot fi găsite la [Attachment](Part_EditAttachment/ro.md) page.
 
 
 </div>
@@ -180,7 +180,7 @@ Sketches need to be supported by a plane. This plane can be one of the main plan
 
 ### Sequential features 
 
-Sketches can be supported by the faces of previous solid operations. This may be necessary if you need to access a face that is only available after a certain feature has been created. However, this workflow isn\'t recommended since, if the original feature is modified, the following features in the sequence may break. This is the [topological naming problem](topological_naming_problem.md).
+Sketches can be supported by the faces of previous solid operations. This may be necessary if you need to access a face that is only available after a certain feature has been created. However, this workflow isn\'t recommended since, if the original feature is modified, the following features in the sequence may break. This is the [topological naming problem](Topological_naming_problem.md).
 
 <img alt="" src=images/PartDesign_workflow_2.svg  style="width:600px;">
 

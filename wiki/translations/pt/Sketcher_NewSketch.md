@@ -4,7 +4,7 @@
    Name/pt:Criar esboço
    Workbenches:[Sketcher](Sketcher_Workbench/pt.md)
    MenuLocation:Sketch → Criar esboço
-   SeeAlso:[Mapear esboço na face...](Sketcher_MapSketch/pt.md), [Reorientar esboço...](Sketcher_Reorient/pt.md)
+   SeeAlso:[Mapear esboço na face...](Sketcher_MapSketch/pt.md), [Reorientar esboço...](Sketcher_ReorientSketch/pt.md)
 ---
 
 # Sketcher NewSketch/pt

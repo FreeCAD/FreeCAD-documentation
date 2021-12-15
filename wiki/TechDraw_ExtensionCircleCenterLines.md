@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionCircleCenterLines
-   MenuLocation:TechDraw → Extensions: centerlines and threading → Draw circle centerlines
+   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Circle centerlines
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20
-   SeeAlso:
+   SeeAlso:[TechDraw ExtensionHoleCircle](TechDraw_ExtensionHoleCircle.md)
 ---
 
 # TechDraw ExtensionCircleCenterLines
@@ -19,11 +19,12 @@ The <img alt="" src=images/TechDraw_ExtensionCircleCenterLines.svg  style="width
 
 ## Usage
 
-1.  Select one or more circles or arcs.
-2.  There are several ways to invoke the tool:
+1.  Optionally change the current line attributes with the <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) tool.
+2.  Select one or more circles or arcs.
+3.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_ExtensionCircleCenterLines.svg" width=16px> [TechDraw ExtensionCircleCenterLines](TechDraw_ExtensionCircleCenterLines.md)** button.
-    -   Select the **TechDraw → Extensions: centerlines and threading → <img src="images/TechDraw_ExtensionCircleCenterLines.svg" width=16px> Draw circle centerlines** option from the menu.
-3.  Centerlines are added to each circle or arc.
+    -   Select the **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionCircleCenterLines.svg" width=16px> Circle centerlines** option from the menu.
+4.  Centerlines are added to each circle and arc.
 
 
 

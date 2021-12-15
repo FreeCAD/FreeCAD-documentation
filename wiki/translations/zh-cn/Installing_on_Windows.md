@@ -1,12 +1,29 @@
 # Installing on Windows/zh-cn
+<div class="mw-translate-fuzzy">
+
 最简单的把 FreeCAD 安装到 Windows的方式是下面的安装器：
+
+
+</div>
 
 
 {{DownloadWindowsStable}}
 
+
+<div class="mw-translate-fuzzy">
+
 下载完 .msi (微软安装文件格式) 文件，只需要双击它以启动安装过程。
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 下面是更多关于技术选项的信息。 如果它看起来很吓人，不要紧张！绝大部分 Windows 用户只需要使用 .msi 安装 FreeCAD 和 阅读 **[入门](Getting_started/zh-cn.md)**!
+
+
+</div>
 
 ### 简单微软安装器安装过程
 

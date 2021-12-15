@@ -176,7 +176,7 @@ Ces outils effectuent des opérations booléennes.
 ## Préférences
 
 -   <img alt="" src=images/Preferences-part_design.svg  style="width:32px;"> [PartDesign Préférences](PartDesign_Preferences/fr.md): Préférences disponibles pour les outils de Part (l\'atelier Part utilise également les préférences PartDesign).
--   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Préférences d\'Import Export](Import_Export_Preference/fr.md): Préférences disponibles pour l\'importation et l\'exportation vers différents formats de fichier.
+-   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Préférences d\'Import Export](Import_Export_Preferences/fr.md): Préférences disponibles pour l\'importation et l\'exportation vers différents formats de fichier.
 -   [Réglage fin](Fine-tuning/fr.md): Quelques paramètres supplémentaires pour affiner le comportement de la partie.
 
 ## Les scripts 

@@ -26,9 +26,9 @@ Documentația dezvoltatorului a inclus următoarele secțiuni:
 
 -   [Source code management](Source_code_management.md)
 -   [Find assistance](Tracker.md) când aveți o problemă sau credeți că poate ați găsit un bug
--   [Compiling on Windows](CompileOnWindows.md)
--   [Compiling on Unix](CompileOnUnix.md)
--   [Compiling on Mac OS X](CompileOnMac.md)
+-   [Compiling on Windows](Compile_on_Windows.md)
+-   [Compiling on Unix](Compile_on_Linux.md)
+-   [Compiling on Mac OS X](Compile_on_MacOS.md)
 -   [Licence details](Licence.md) despre licența FreeCAD
 -   [Third Party Libraries](Third_Party_Libraries.md)
 -   [Third Party Tools](Third_Party_Tools.md)
@@ -56,12 +56,12 @@ Documentația dezvoltatorului a inclus următoarele secțiuni:
 
 ### Construiți instrumente de sprijin 
 
--   The [FreeCAD Build Tool](FreeCAD_Build_Tool.md)
-    -   [Adding an application module](Module_Creation.md) to FreeCAD
--   [Debugging](Debugging.md) FreeCAD
--   [Testing](Testing.md) FreeCAD
--   [Compiling (Speeding up)](Compiling_(Speeding_up).md) FreeCAD
--   [Continuous Integration](Continuous_Integration.md)
+-   The [FreeCAD Build Tool](FreeCAD_Build_Tool/ro.md)
+    -   [Adding an application module](Workbench_creation/ro.md) to FreeCAD
+-   [Debugging](Debugging/ro.md) FreeCAD
+-   [Testing](Testing/ro.md) FreeCAD
+-   [Compiling (Speeding up)](Compiling_(Speeding_up)/ro.md) FreeCAD
+-   [Continuous Integration](Continuous_Integration/ro.md)
 
 
 </div>

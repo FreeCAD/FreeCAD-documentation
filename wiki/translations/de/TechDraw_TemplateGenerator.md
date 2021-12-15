@@ -1,4 +1,7 @@
 # TechDraw TemplateGenerator/de
+<div class="mw-translate-fuzzy">
+
+
 {{TutorialInfo/de
 |Topic=TechDraw-Vorlagen erzeugen mittels Python-Macro
 |Level=Grundkenntnisse von Python und SVG-Strukturen sind hilfreich
@@ -6,6 +9,9 @@
 |Time=(noch nicht bekannt)
 |Author=[[User:FBXL5]]
 }}
+
+
+</div>
 
 ## Einleitung
 
@@ -519,8 +525,6 @@ Und das ist der SVG-Kode aus diesem Makro:
 Und so soll es aussehen, wenn sie (die Vorlage) eingefügt wurde (mit vergrößertem Schriftfeld):
 
 ![TechDraw TemplateGenerator.png](images/TechDraw_TemplateGenerator.png )
-
-_
 
 ---
 [documentation index](../README.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw TemplateGenerator/de

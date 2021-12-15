@@ -43,7 +43,7 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 1.  Selecciona los objetos que desees girar o copiar
 2.  Presiona el botón **<img src="images/Draft_Rotate.png" width=16px> [girar](Draft_Rotate/es.md)
 **, o presiona las teclas **R** y **O**
-3.  Designa un punto central en la vista 3D, o escribe unas [coordenadas](Draft_Coordinates/es.md)
+3.  Designa un punto central en la vista 3D, o escribe unas coordenadas
 4.  Designa un segundo punto en la vista 3D, o indica un ángulo de referencia
 5.  Designa un tercer punto en la vista 3D, o indica un ángulo de rotación
 

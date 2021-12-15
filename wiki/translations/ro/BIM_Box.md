@@ -13,7 +13,7 @@
 
 <img alt="" src=images/BIM_box_screenshot.png  style="width:1024px;">
 
-Instrumentul BIM Box vă permite să creați un [Part Box](Part_Box.md) standard, dar în loc să creați obiectul și să vă permiteți să specificați dimensiunile și poziția acestuia ulterior, ca și instrumentul [Workbench](Workbench.md) original, acest instrument vă permite să plasați și definiți grafic dimensiunile casetei atunci când creați obiectul. Cutiile sunt forme de bază [cuboid](https://en.wikipedia.org/wiki/Cuboid), care pot fi folosite ulterior ca bază a oricărui alt tip de obiect BIM.
+Instrumentul BIM Box vă permite să creați un [Part Box](Part_Box.md) standard, dar în loc să creați obiectul și să vă permiteți să specificați dimensiunile și poziția acestuia ulterior, ca și instrumentul [Part\_Workbench](Part_Workbench.md) original, acest instrument vă permite să plasați și definiți grafic dimensiunile casetei atunci când creați obiectul. Cutiile sunt forme de bază [cuboid](https://en.wikipedia.org/wiki/Cuboid), care pot fi folosite ulterior ca bază a oricărui alt tip de obiect BIM.
 
 
 <div class="mw-translate-fuzzy">

@@ -10,7 +10,13 @@
 
 {{TOCright}}
 
+
+<div class="mw-translate-fuzzy">
+
 Der Lattice2 Arbeitsbereich ist eine FreeCAD [Externer Arbeitsbereich](external_workbenches/de.md), der dem Zweck dient, mit Platzierungen und Platzierungsanordnungen zu arbeiten. Es ist eine Art Zusammenbau Arbeitsbereich, jedoch mit Schwerpunkt auf Anordnungen. Es gibt keine Beschränkungen und Beziehungen, es gibt nur Platzierungsfelder, die erzeugt, kombiniert, transformiert, überlagert und mit Formen bestückt werden können.
+
+
+</div>
 
 Ever wondered how to create a protractor with FreeCAD? That\'s the aim of the workbench (including tick labeling). Also, exploded assemblies can be made with the workbench.
 
@@ -115,11 +121,12 @@ Other
 
 ## Installation
 
-**Prerequisites** Lattice2 WB requires FreeCAD \>= v0.16.5155.
+**Prerequisites** Lattice2 Workbench requires FreeCAD \>= v0.16.5155.
 
 ### Automatische Installation 
 
-As of v0.17 one can use the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md) to install the <img alt="" src=images/Lattice2_Lattice2.svg  style="width:24px;"> Lattice2 Workbench. Use {MenuCommand\|Tools → Addon Manager}}
+As of v0.17 one can use the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) to install the <img alt="" src=images/Lattice2_Lattice2.svg  style="width:24px;"> Lattice2 Workbench. Use 
+**Tools → Addon Manager**
 
 ### Manuelles Einrichten 
 
@@ -148,7 +155,7 @@ After you install the workbench, it should appear at the bottom of list of workb
 ## Andere nützliche Verknüpfungen 
 
 -   [Lattice aka Lattice1 Workbench (obsolete)](https://github.com/DeepSOIC/Lattice)
--   [External Workbenches](External_Workbenches.md): List of FreeCAD workbenches.
+-   [External Workbenches](External_workbenches.md): List of FreeCAD workbenches.
 -   [Macros recipes](Macros_recipes.md)
 -   [FreeCAD Community Portal](FreeCAD_Community_Portal.md)
 

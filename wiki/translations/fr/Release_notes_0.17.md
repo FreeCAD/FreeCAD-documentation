@@ -19,7 +19,7 @@ Deux années se sont écoulées depuis la sortie de la version 0.16 précédente
 
 L\'atelier **PartDesign** (conception de pièces) a été complètement révisé. Un nouveau conteneur Body (Corps) contient désormais une chaîne de fonctions et lève l\'exigence de mappage (Ancrage) des esquisses sur les faces planes. De nouveaux outils pour créer une géométrie de référence tels que des points, des axes et des plans rendent PartDesign beaucoup plus polyvalent. ![](images/PartDesign_Body_tree.png )
 
-Le nouveau [Gestionnaire d\'extensions](AddonManager/fr.md) disponible dans le menu Outils (précédemment disponible en tant que [addons installer macro](https://github.com/FreeCAD/FreeCAD-addons)) facilite l\'installation et la mise à jour des modules complémentaires et des macros sur Windows, Mac OS X et Linux. <img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
+Le nouveau <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) disponible dans le menu Outils (précédemment disponible en tant que [addons installer macro](https://github.com/FreeCAD/FreeCAD-addons)) facilite l\'installation et la mise à jour des modules complémentaires et des macros sur Windows, Mac OS X et Linux. <img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
 
 Le **Sketcher** (atelier d\'esquisses) prend maintenant en charge la création de B-spline avec de nombreuses façons de contrôler les courbes et d\'afficher les informations de la courbe. <img alt="" src=images/FC017_Sketcher_B-spline_01.png  style="width:300px;">
 
@@ -193,7 +193,7 @@ L\'atelier PartDesign a connu d\'importants changements, fruit des efforts conju
 
 L\'atelier Path a été massivement révisé en version 0.17. La révision a vu la suppression de tout le code HeeksCNC plus ancien et le remplacement du wrapper python libarea avec le nouveau module Path-Area. En conséquence, les opérations sont devenues beaucoup plus puissantes, plus rapides, avec une base de code simplifiée.
 
--   La prise en charge des opérations 2.5D est complète, y compris [contournage](Path_Contour/fr.md), [fraisage de face](Path_MillFace/fr.md), [poche ou chambrage](Path_Pocket_Shape/fr.md), [profilage](Path_ProfileFace/fr.md), et [perçage](Path_Drilling/fr.md)
+-   La prise en charge des opérations 2.5D est complète, y compris [contournage](Path_Profile/fr.md), [fraisage de face](Path_MillFace/fr.md), [poche ou chambrage](Path_Pocket_Shape/fr.md), [profilage](Path_Profile/fr.md), et [perçage](Path_Drilling/fr.md)
 
 -   Prise en charge limitée des opérations [profilage 3D](Path_Pocket_3D/fr.md).
 

@@ -1,4 +1,13 @@
 # TechDraw LineGroup/ru
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
 {{TOCright}}
 
 ## Обзор
@@ -68,7 +77,13 @@ Note: A new preference has been added to allow you to use your own personal Line
 -   Line width in TechDraw is always specified in mm, even when using other unit systems.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

@@ -118,13 +118,7 @@ Mesh Workbench preferences can be found in the following categories of the [Pref
 </div>
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav|PartDesign Workbench|OpenSCAD modul}}
-
-
-</div>
 
 
 {{Mesh Tools navi

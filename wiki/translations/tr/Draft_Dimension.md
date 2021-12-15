@@ -29,7 +29,7 @@ Boyut aracı, iki nokta arasındaki mesafeyi ölçen ve görüntüleyen bir nesn
 
 <div class="mw-translate-fuzzy">
 
-Araç, doğrudan katı gövdelere tutturulmuş kenarları veya çizgileri ölçebilir; Gövde değişirse, boyut kendini günceller. Araç ayrıca [Yay](Draft_Arc/tr.md) veya [Doldur](art_Fillet/tr.md), [Eskiz Dolgu oluştur](Sketcher_CreateFillet/tr.md) ve [Prça tasarım Dolgu](PartDesign_Fillet/tr.md) işlemleri ile üretilenler gibi eğrilik çapını veya yarıçapını da ölçebilir.
+Araç, doğrudan katı gövdelere tutturulmuş kenarları veya çizgileri ölçebilir; Gövde değişirse, boyut kendini günceller. Araç ayrıca [Yay](Draft_Arc/tr.md) veya [Doldur](Part_Fillet/tr.md), [Eskiz Dolgu oluştur](Sketcher_CreateFillet/tr.md) ve [Prça tasarım Dolgu](PartDesign_Fillet/tr.md) işlemleri ile üretilenler gibi eğrilik çapını veya yarıçapını da ölçebilir.
 
 
 </div>
@@ -37,7 +37,7 @@ Araç, doğrudan katı gövdelere tutturulmuş kenarları veya çizgileri ölçe
 
 <div class="mw-translate-fuzzy">
 
-Ortaya çıkan boyut 3D görünümüne yerleştirilir ve bir Taslak nesnesi olarak kabul edilir. Bu nesne, [Teknik resim Yeni Eskiz](TechDraw_NewDraft/tr.md) veya [Teknik resim Yeni Yay](TechDraw_NewArch/tr.md) araçlarını kullanarak [Teknik resim tezgahı](TechDraw_Workbench/tr.md) sayfasında görüntülenebilir. Alternatif olarak, [Teknik resim Boyut Uzunluğu](TechDraw_Dimension_Length/tr.md) ve [Teknik resim Boyut Yarıçapı](TechDraw_Dimension_Radius/tr.md) gibi boyutları görüntülemek için kendi araçlarına sahiptir; ancak, bu araçlar teknik çizimler hazırlamak içindir, bu yüzden boyutları 3D çizimde değil, sadece çizim sayfasında oluştururlar.
+Ortaya çıkan boyut 3D görünümüne yerleştirilir ve bir Taslak nesnesi olarak kabul edilir. Bu nesne, [Teknik resim Yeni Eskiz](TechDraw_DraftView/tr.md) veya [Teknik resim Yeni Yay](TechDraw_ArchView/tr.md) araçlarını kullanarak [Teknik resim tezgahı](TechDraw_Workbench/tr.md) sayfasında görüntülenebilir. Bu araçlar teknik çizimler hazırlamak içindir, bu yüzden boyutları 3D çizimde değil, sadece çizim sayfasında oluştururlar.
 
 
 </div>
@@ -65,13 +65,13 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 ## Nasıl kullanılır 
 
 1.  
-    {{Button | <img src="images/_Draft_Dimension.png_" width= 16px> [Taslak Boyut](Draft_Dimension/tr.md)}}düğmesine basın veya {{KEY | D}} ardından {{KEY | I}} tuşları.
+    {{Button | <img src="images/_Draft_Dimension.png_" width= 16px> Taslak Boyut}}düğmesine basın veya {{KEY | D}} ardından {{KEY | I}} tuşları.
 
-2.  3D görünümünde bir noktaya tıklayın veya bir [ koordinat](Draft_Coordinates/tr.md) yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [ Nokta ekle](Draft_AddPoint/tr_.md)}} düğmesine basın.
+2.  3D görünümünde bir noktaya tıklayın veya bir koordinat yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} düğmesine basın.
 
-3.  3D görünümünde ikinci bir noktaya tıklayın veya bir [ koordinat](Draft_Coordinates/tr.md) yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [Nokta ekle](Draft_AddPoint_.md)}} düğmesine basın. İlk iki nokta ölçülen mesafeyi tanımlar.
+3.  3D görünümünde ikinci bir noktaya tıklayın veya bir koordinat yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} düğmesine basın. İlk iki nokta ölçülen mesafeyi tanımlar.
 
-4.  3D görünümünde üçte birini tıklayın veya bir [ koordinat](Draft_Coordinates/tr.md) yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [Nokta ekle](Draft_AddPoint/tr_.md)}} düğmesine basın. Son nokta, ölçüm çizgisinin konumunu tanımlar.
+4.  3D görünümünde üçte birini tıklayın veya bir koordinat yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> |Nokta ekle}} düğmesine basın. Son nokta, ölçüm çizgisinin konumunu tanımlar.
 
 
 </div>
@@ -102,7 +102,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 2.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
 3.  Hold down the **Alt** key, select two straight edges in the [3D view](3D_view.md) and release the **Alt** key.
 4.  To position the dimension arc pick a point in the [3D view](3D_view.md).
-5.  Depending on the edges and the picked point the displayed angle will be the acute (sharp) or obtuse (blunt) angle between the edges, or the angle of one of the edges with the horizontal. In some cases you may have to first add auxiliary geometry ([Draft Lines](Draft_Line.md) for example) to get a particular angle.
+5.  The displayed angle depends on the edges and the picked point.
 
 ### Options
 
@@ -114,7 +114,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 ## Seçenekler
 
 -   Verilen eksendeki bir sonraki noktayı sınırlamak için bir noktadan sonra {{KEY | X}}, {{KEY | Y}} veya {{KEY | Z}} tuşlarına basın.
--   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında {{KEY | Enter}} tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [ Nokta ekle](Draft_AddPoint/tr_.md)}} düğmesine basabilirsiniz.
+-   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında {{KEY | Enter}} tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} düğmesine basabilirsiniz.
 -   **Göreceli** moduna geçmek için {{KEY | R}} tuşuna basın veya onay kutusunu tıklayın. Göreceli mod açıksa, bir sonraki noktanın koordinatları bir öncekine göredir; değilse, kesindir, Eksenden alınır (0,0,0).
 -   **Devam** moduna geçmek için {{KEY | T}} tuşuna basın veya onay kutusunu tıklayın. Devam modu açıksa, son noktayı verdikten sonra Boyut aracı yeniden başlatılır ve araç düğmesine tekrar basmadan başka bir boyut çizmenize izin verilir; Aşağıdaki boyutlar önceki boyutun son noktasından başlayacak ve aynı temel çizgiyi paylaşacaktır.
 -   [ Yakalama](Draft_Snap/tr.md) noktanızı mesafeden bağımsız olarak, en yakın çeki konumuna yönlendirmek için çizim yaparken {{KEY | Ctrl}} tuşunu basılı tutun.

@@ -49,7 +49,7 @@ If Tip on **Pad**, the pad can exist separately, but if Tip on **Cone**, the con
 
 ## The Ramifications 
 
-Although not recommended for newcomers, it is possible to combine tools from Part WB and PartDesign WB, provided you know what you are doing. For example :
+Although not recommended for newcomers, it is possible to combine tools from Part workbench and PartDesign workbench, provided you know what you are doing. For example :
 
 People get caught when they attempt to use some feature under the Body (rather than the Body itself) as one selection of a Part Workbench Boolean operation. This is a problem, because the selected feature does not represent **THE** complete solid.
 
@@ -73,11 +73,11 @@ See the <img alt="" src=images/PartDesign_Mirrored.svg  style="width:24px;"> [Pa
 
 ## Comparison
 
-You can see below the same example built with each of the two workbenches. Of course, there are always several possible construction timelines with each workbench. ![Compare constructions with Part WB and PartDesign WB](images/PartWBvsPartDesignWBexample.jpg )
+You can see below the same example built with each of the two workbenches. Of course, there are always several possible construction timelines with each workbench. ![Compare constructions with Part workbench and PartDesign workbench](images/PartWBvsPartDesignWBexample.jpg )
 
-  In <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> PartDesign WB                                                                                    In <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> Part WB
-  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  01- <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> New body \> <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> New Sketch in XZ plane   01- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Sketcher WB \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Sketch in XZ plane
+  In <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> PartDesign workbench                                                                             In <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> Part workbench
+  ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  01- <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> New body \> <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> New Sketch in XZ plane   01- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Sketcher workbench \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> Sketch in XZ plane
   ![](images/01sketchXZ_PartWBvsPartDesignWBn.jpg )                                                                                             ![](images/01Psketch_PartWBvsPartDesignWBn.jpg )
                                                                                                                                                                                
 
@@ -87,11 +87,11 @@ You can see below the same example built with each of the two workbenches. Of co
                                                                                                   
   ----------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------
 
-  ------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  03- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> New Sketch in XY plane   03- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Sketcher WB \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> New Sketch in XY plane
+  ------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  03- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> New Sketch in XY plane   03- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Sketcher workbench \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> New Sketch in XY plane
   ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )                  ![](images/03sketchXY_PartWBvsPartDesignWBn.jpg )
                                                                                                     
-  ------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   ------------------------------------------------------------------------------- --------------------------------------------------------------------------------
   04- <img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> Pocket   04a- <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> Extrude
@@ -105,11 +105,11 @@ You can see below the same example built with each of the two workbenches. Of co
                                                                                  
   ------------------------------------------------------------------------------ ------------------------------------------------------------------------
 
-  ------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  05- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> New Sketch in XZ plane   05- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Sketcher WB \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> New Sketch in XZ plane
+  ------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  05- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> New Sketch in XZ plane   05- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Sketcher workbench \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> New Sketch in XZ plane
   ![](images/05sketchXZ_PartWBvsPartDesignWB.jpg )                    ![](images/05PsketchXZ_PartWBvsPartDesignWB.jpg )
                                                                                                     
-  ------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   -------------------------------------------------------------------------------- --------------------------------------------------------------------------------
   06- <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> Pad sym/XZ      06a- <img alt="" src=images/Part_Extrude.svg  style="width:32px;"> Extrude sym/XZ
@@ -129,11 +129,11 @@ You can see below the same example built with each of the two workbenches. Of co
                                                                                  
   ------------------------------------------------------------------------------ ------------------------------------------------------------------------------
 
-  --------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  07- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> New Sketch on base planar face   07- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Sketcher WB \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> New Sketch in XZ plane
+  --------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  07- <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> New Sketch on base planar face   07- <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> Sketcher workbench \> <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> New Sketch in XZ plane
   ![](images/07sketchBaseSupFace_PartWBvsPartDesignWB.jpg )          ![](images/07PsketchXZ_PartWBvsPartDesignWB.jpg )
                                                                                                             
-  --------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  --------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   ------------------------------------------------------------------------------------------------ --------------------------------------------------------------------------------
   08- <img alt="" src=images/PartDesign_Hole.svg  style="width:32px;"> Hole - counterbore            08a- <img alt="" src=images/Part_Revolve.svg  style="width:32px;"> Revolve
@@ -156,7 +156,7 @@ You can see below the same example built with each of the two workbenches. Of co
 Compare the construction trees in the two workbenches as well as their organization and reading timeline :
 
   ------------------------------------------------------------------------------------ ------------------------------------------------------------------------
-  10- Construction tree in PartDesign WB                                               10- Construction tree in Part WB
+  10- Construction tree in PartDesign workbench                                        10- Construction tree in Part workbench
   ![](images/PartvsPartDesign_TreePartDesignWB.jpg )   ![](images/PartvsPartDesign_TreePartWB.jpg )
                                                                                        
   ------------------------------------------------------------------------------------ ------------------------------------------------------------------------

@@ -30,12 +30,7 @@ Preparing FreeCAD for a release
 2.  Start changing the version number in the FreeCAD docs
 3.  Announce to all Workbench maintainers on FreeCAD-Addons know to prepare
 4.  Announce to all Macro creators on FreeCAD-Macros know to prepare
-5.  Asking wiki editors/translators to prepare for upcoming release. Make sure relevant pages are up-to-date and reaching completion:
-
-:   
-
-    :   [Workbench\_KEY](Workbench_KEY.md)
-    :   [Workbench\_ICON](Workbench_ICON.md)
+5.  Asking wiki editors/translators to prepare for upcoming release.
 
 ## Release Day - 2 weeks - String Freeze 
 

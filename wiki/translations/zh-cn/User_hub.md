@@ -6,7 +6,13 @@
 
 这是 FreeCAD 为新手提供主要帮助的区域。
 
+
+<div class="mw-translate-fuzzy">
+
 这些页面正在持续发展当中，所以可能存在缺少或过时的信息。如果你找不到你想要的信息，请不要犹豫，马上在 [FreeCAD 论坛](http://forum.freecadweb.org) 中进行咨询。
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

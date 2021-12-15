@@ -56,6 +56,9 @@ Allgemeine Anwendung:
     :   ![](images/ShapeBinderThroughHole.png )
     :   *Beispiel Aufbau für die Darstellung von wie man Löcher durch verschiedene Körper erstellt. Der weiße Kreis zeigt, dass das Kopieren von Skizzen nicht ausreicht*.
 
+
+<div class="mw-translate-fuzzy">
+
 So nutzt Du die Formbinder Funktion, um dies zu erreichen:
 
 1.  Bereite ein Szenario gemäß dem obigen Bild vor. Wenn du die Würfel aus der [Part Arbeitsbereich](Part_Workbench/de.md) verwendest, denk daran, dass du sie in einen \"Körper\" Behälter (Body) stecken musst. Jeden einzelnen in einen eigenen. Andernfalls würden die Funktionen [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) nicht funktionieren. Wenn du sie nach Skizzen erstellst, sollte das System standardmäßig einen Körperbehälter erstellen.
@@ -90,17 +93,29 @@ Geometriefunktion verwenden und den Kreis im Formbinder auswählen. Wir benötig
 1.  Erstelle einen neuen Kreis und setze ihn in den Mittelpunkt des Formbinder Kreises. Der Radius ist nicht wichtig. Die Funktion [Bohrung](PartDesign_Hole/de.md) verwendet nur die Mittelpunkte der Kreise (Hinweis: Einzelpunkte werden von der Bohrungsfunktion ignoriert, wir müssen Kreise verwenden).
 2.  Schließe die Skizze und klicke [Bohrung](PartDesign_Hole/de.md). Stelle den Dialog auf die gleichen Werte wie bei ersten Bohrung und drücke OK.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Erledigt.
 
 :   Jetzt hast du zwei verbundene Bohrungen in zwei verschiedenen Körpern. Wenn Du die Geometrie oder die Positionen der Bohrungen änderst, werden beide Bohrungen angepasst. Nur wenn Du eine neuee Bohrung hinzufügst, musst Du die Skizze im zweiten Würfel für die zweite Bohrung aktualisieren.
 
 
+</div>
 
+
+<div class="mw-translate-fuzzy">
 
 
 :   Anmerkungen
 :   dass es eine andere Möglichkeit gibt, einen FormBinder zu erstellen: mit aktiviertem hinteren Würfel klicke auf die Vorderseite des vorderen Würfels und erstelle eine neue Skizze. Ein Dialog wird aufklappen, in dem du \"Abhängige Skizze\" auswählst. Dadurch entsteht tatsächlich ein Formbinder. Du kannst den Parameter von *\'Nachverfolgungsunterstützung* im Eigenschaftsfenster sehen. Es ist ein paar Klicks weniger als unser Verfahren.
 :   Beachte auch, dass die Arbeit mit FormBinder mit Skizzen nur eine Teilmenge seiner Möglichkeiten ist. Es ist auch möglich, Teile der 3D Geometrie zu verwenden, wie im obigen Beispiel gezeigt.
+
+
+</div>
 
 ## Optionen
 
@@ -108,9 +123,15 @@ Doppelklicke auf die FormBinder Beschriftung im [Modellbaum](Tree_view/de.md) od
 
 ## Eigenschaften
 
+
+<div class="mw-translate-fuzzy">
+
 -    {{PropertyData/de|Label}}: Name, der dem Objekt gegeben wurde, dieser Name kann nach Belieben geändert werden.
 
 -    {{PropertyData/de|Trace Support}}: Wenn diese Option auf true gesetzt ist, überwacht der Formbinder die relative Platzierung der Teile und Körper. Standardeinstellung ist false. Siehe das obige Beispiel, wie dies verwendet wird und funktioniert {{Version/de|0.18}}.
+
+
+</div>
 
 ## Begrenzungen
 

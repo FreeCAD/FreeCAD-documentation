@@ -10,13 +10,7 @@
 
 ## Beschreibung
 
-
-<div class="mw-translate-fuzzy">
-
 Der Befehl **<img src="images/Assembly_ConstraintSketchPlane.svg" width=24px> [Skizzierebene](Assembly3_ConstraintSketchPlane/de.md)** erzeugt ein \"SketchPlane\"-Objekt als Behälter für Draft-Objekte.
-
-
-</div>
 
 Er kann verwendet werden um ein Grundgerüst (\"Skelett-Skizze\") für eine 2D-Kinematik zu erstellen.
 
@@ -28,15 +22,6 @@ Er kann verwendet werden um ein Grundgerüst (\"Skelett-Skizze\") für eine 2D-K
 4.  Zur Arbeitumgebung <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) wechseln um etwas Inhalt zu erzeugen
 
 :   Mit einer vorhandenen, nicht leeren, Baugruppe können die Schritte 1 und 2 ausgelassen werden und ein beliebiges ebenes Flächenelement kann als Arbeitsebene für die Skizzierebene verwendet werden.
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 ---
 [documentation index](../README.md) > Assembly3 ConstraintSketchPlane/de

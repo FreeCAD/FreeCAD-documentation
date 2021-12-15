@@ -106,7 +106,7 @@ FreeCAD --console
 
 En mode console, aucune interface utilisateur graphique ne sera affichée et vous serez invité à utiliser l\'interpréteur Python : `>>>>`. À partir de cette invite, vous disposez des mêmes fonctionnalités que l\'interpréteur Python qui fonctionne dans l\'interface graphique de FreeCAD, et vous avez accès à tous les modules et plugins de FreeCAD, à l\'exception du module FreeCADGui. Sachez que les modules qui dépendent de FreeCADGui peuvent également être indisponibles.
 
-Pour en savoir plus sur le mode console ou le mode sans tête, consultez [Headless FreeCAD](Headless_FreeCAD/fr.md).
+Pour en savoir plus sur le mode console ou le mode sans tête, consultez [FreeCAD sans GUI](Headless_FreeCAD/fr.md).
 
 ### Exécution de modules, macros et scripts 
 
@@ -389,7 +389,7 @@ Ce qui suit suppose que votre bureau est configuré de telle sorte que vous puis
 
 **Windows**
 
-Placez l\'exécutable FreeCAD, {{FileName|FreeCAD.exe}}, sur le support USB. Créez un fichier de commandes, {{FileName|FreeCAD.bat}}, et placez-le dans le même répertoire que {{FileName|FreeCAD.exe}}. Dans le fichier de commandes, écrivez:
+Placez l\'exécutable FreeCAD, {{FileName|FreeCAD.exe}}, sur le support USB. Créez un fichier batch, {{FileName|FreeCAD.bat}} et placez-le dans le même répertoire que {{FileName|FreeCAD.exe}}. Dans le fichier batch, écrivez:
 
 
 ```python
@@ -398,7 +398,7 @@ set FREECAD_USER_HOME=%CURRENTDIR%
 start FreeCAD.exe -u FreeCAD/user.cfg -s FreeCAD/system.cfg --write-log 
 ```
 
-[or](https://forum.freecadweb.org/viewtopic.php?f=12&t=54784&start=60#p474759) with `FREECAD_USER_DATA`
+Or with `FREECAD_USER_DATA` ([see](https://forum.freecadweb.org/viewtopic.php?f=12&t=54784&start=60#p474759)):
 
 
 ```python
@@ -406,7 +406,7 @@ set CURRENTDIR="%cd%"
 set FREECAD_USER_DATA=%CURRENTDIR%/..
 start FreeCAD.exe -u %FREECAD_USER_DATA%/user.cfg -s %FREECAD_USER_DATA%/system.cfg```
 
-avec le fichier batch sur la racine de la clef USB
+Avec le lot dans la racine du support USB :
 
 
 ```python
@@ -421,7 +421,7 @@ Maintenant, double-cliquez sur le fichier de commandes pour démarrer FreeCAD. (
 
 
 
- 
+
 
 _
 

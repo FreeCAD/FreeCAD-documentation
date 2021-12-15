@@ -19,7 +19,13 @@ Lo strumento [Rinforzo di trave](Arch_Rebar_BeamReinforcement/it.md) consente al
 
 The [Beam Reinforcement](Arch_Rebar_BeamReinforcement.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
+
+<div class="mw-translate-fuzzy">
+
 Questo comando fa parte dell\'ambiente aggiuntivo _, tramite il menu **Strumenti → Addon manager → Reinforcement**.
+
+
+</div>
 
 ![](images/Arch_Rebar_BeamReinforcement_example.png )
 

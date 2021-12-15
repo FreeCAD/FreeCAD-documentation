@@ -61,6 +61,9 @@
     -   [Установка настроек импорта-экспорта](Import_Export_Preferences/ru.md)
     -   [Запуск и конфигурация](Start_up_and_Configuration/ru.md)
 
+
+<div class="mw-translate-fuzzy">
+
 -   Python скрипты
     -   [Работа с макросами](Macros/ru.md)
     -   [Руководство по скриптам](Scripts/ru.md)
@@ -75,6 +78,9 @@
     -   [Работа с PySide](PySide/ru.md)
     -   [Разработка графических интерфейсов](Interface_creation/ru.md)
     -   [Разработка диалогов](Dialog_creation/ru.md)
+
+
+</div>
 
 -   Разработка
     -   [Лиценция](Licence/ru.md)

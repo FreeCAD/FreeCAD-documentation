@@ -1,6 +1,7 @@
 # Macro Manage Navigational Style/fr
 {{Macro/fr
 |Name=Macro Manage Navigational Styles
+|Icon=Macro_Manage_Navigational_Styles1.png
 |Description=Cette paire de macros vous permet de modifier le style de navigation tout restant le sketcher.
 |Author=PiffPoof
 |Version=1.0

@@ -45,46 +45,15 @@ Przede wszystkim pobierz i zainstaluj FreeCAD. Informacje na temat aktualnych we
 
 Główna koncepcja interfejsu FreeCAD opiera się na tym, że jest on podzielony na [środowiska pracy](Workbenches/pl.md). Każde z nich jest zbiorem narzędzi dostosowanych do realizacji konkretnych zadań, takich jak praca z [siatkami](Mesh_Workbench/pl.md), lub rysowanie [obiektów 2D](Draft_Workbench/pl.md), lub [związanymi szkicami](Sketcher_Workbench/pl.md). Możesz przełączyć bieżące środowisko pracy za pomocą [okna wyboru](Std_Workbench/pl.md). Możesz [dostosowywać ustawienia](Interface_Customization/pl.md) narzędzi zawartych w każdym środowisku pracy, dodawać narzędzia z innych środowisk. Możliwe jest również dodanie narzędzi utworzonych samodzielnie, które nazywamy [makrodefinicjami](macros/pl.md) *(w skrócie makro)*. Najczęściej stosowanymi narzędziami bazowymi są środowiska [Projekt Części](PartDesign_Workbench/pl.md) i [Część](Part_Workbench/pl.md).
 
-Kiedy uruchamiasz FreeCAD po raz pierwszy, zobaczysz stronę startową. Oto jak to wygląda dla wersji **0.18**:
+Kiedy uruchamiasz FreeCAD po raz pierwszy, zobaczysz stronę startową. Oto jak to wygląda dla wersji **0.19**:
 
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
+<img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
 
 Strona startowa pozwala na szybkie przejście do jednego z najchętniej używanych Środowisk pracy, otwarcie jednego z ostatnich plików lub zobaczenie najnowszych wiadomości ze świata FreeCAD. Możesz zmienić domyślne środowisko pracy w [Edytorze preferencji](Preferences_Editor/pl.md).
 
 ### Nawigacja w przestrzeni 3D 
 
-FreeCAD udostępnia kilka różnych [trybów nawigacji](Mouse_navigation/pl.md), które zmieniają sposób używania myszy do interakcji z obiektami w widoku 3D i samego widoku. Jedna z nich została stworzona specjalnie dla [touchpad](Mouse_navigation/pl#Touchpad.md), gdzie środkowy przycisk myszy nie jest używany. Poniższa tabela opisuje domyślny tryb zwany \"Nawigacją CAD\" *(możesz szybko zmienić bieżący tryb nawigacji, klikając prawym przyciskiem myszy pusty obszar widoku 3D)*:
-
-
-{{CAD Navigation
-|Select_name=Wybór
-|Pan_name=Przesuń
-|Zoom_name=Przybliż - Oddal 
-|Rotate_view_name=Obróć widok <br /> Metoda pierwsza
-|Rotate_view_alt_name=Obróć widok <br /> Metoda druga 
-|Ctrl=**Ctrl**
-|Shift=**Shift**
-|Select_text=W tym celu należy nacisnąć lewy przycisk myszki nad obiektem, który ma zostać wybrany.
-
-Przytrzymanie klawisza **Ctrl** umożliwia wybór wielu obiektów.
-|Pan_text=Trzymaj środkowy przycisk myszy, a następnie przesuń kursor.
-|Pan_mode_text=Tryb przesuwania: przytrzymaj klawisz **Ctrl**, naciśnij raz prawy przycisk myszy, kolejnie przesuń wskaźnik. {{Version/pl|0.17}}
-|Zoom_text=Użyj pokrętła myszy, aby przybliżyć lub oddalić widok.
-
-Kliknięcie środkowego przycisku myszy ponownie wyśrodkuje widok w pozycji kursora.
-|Zoom_mode_text=Tryb skalowania: Przytrzymaj klawisze **Ctrl** i **Shift**, naciśnij raz prawy przycisk myszy, a następnie przesuń kursor. {{Version/pl|0.17}}
-|Rotate_view_text=Przytrzymaj środkowy przycisk myszy, następnie naciśnij i przytrzymaj lewy przycisk myszy, kolejnie przesuń wskaźnik.
-
-Położenie kursora po naciśnięciu środkowego przycisku myszy określa środek obrotu. Obrót działa jak obracanie piłki, która obraca się wokół jej punktu środka. Jeśli przyciski zostaną zwolnione przed zatrzymaniem ruchu myszy, widok jest kontynuowany  jeśli opcja [obracania](Std_DemoMode/pl.md) jest włączona.
-
-Podwójne kliknięcie środkowym przyciskiem myszy ustawia nowy punkt obrotu.
-|Rotate_view_mode_text=Tryb obracania: Przytrzymaj klawisz **Shift**, naciśnij raz prawy przycisk myszy, a następnie przesuń kursor. {{Version/pl|0.17}}
-|Rotate_view_alt_text=Przytrzymaj środkowy przycisk myszy, a następnie naciśnij i przytrzymaj prawy przycisk myszy, po czym przesuń kursor.
-
-W tej metodzie środkowy przycisk myszy może zostać puszczony po naciśnięciu prawego przycisku myszy.
-
-Użytkownicy, którzy używają myszki prawą ręką, mogą uznać tę metodę za łatwiejszą od metody pierwszej.
-}}
+FreeCAD udostępnia kilka różnych <img src=images/NavigationCAD.svg style="width:trybów nawigacji](Mouse_navigation/pl.md), które zmieniają sposób używania myszy do interakcji z obiektami w widoku 3D i samego widoku. Jedna z nich została stworzona specjalnie dla [touchpad](Mouse_navigation/pl#Touchpad.md), gdzie środkowy przycisk myszy nie jest używany. Domyślnym trybem nawigacji jest [CAD](Mouse_navigation#CAD.md). Możesz szybko zmienić aktualny tryb nawigacji za pomocą przycisku **[24px">** na [Pasku statusu](Status_bar/pl.md) lub klikając prawym przyciskiem myszy pusty obszar okna [widoku 3D](3D_view/pl.md).
 
 W menu Widok, na pasku narzędzi Widok oraz za pomocą skrótów klawiaturowych (**1**, **2** itp\...) dostępnych jest również kilka ustawień widoku *(widok z góry, widok z przodu itp.)*. Klikając obiekt prawym przyciskiem myszki lub pusty obszar widoku 3D, masz szybki dostęp do niektórych typowych operacji, takich jak ustawianie konkretnego widoku lub wyszukiwanie obiektu w widoku drzewa.
 
@@ -117,7 +86,7 @@ Te kształty 2D wykonane za pomocą szkicownika są często używane w środowis
 
 Oto przykład efektu tego ćwiczenia:
 
-<img alt="" src=images/Partdesign_example.jpg  style="width:1024px;">
+<img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 W każdej chwili możesz wybrać oryginalne szkice i zmodyfikować je lub zmienić parametry wytłaczania operacji pad lub pocket, co spowoduje że obiekt końcowy zostanie poddany aktualizacji.
 
@@ -140,7 +109,7 @@ Typowy tok pracy z Arch i Draft może wyglądać następująco:
 
 Przykład efektu tego ćwiczenia:
 
-<img alt="" src=images/Arch_workflow_example.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
 
 Więcej informacji znajdziesz na stronie [Poradniki](Tutorials/pl.md).
 

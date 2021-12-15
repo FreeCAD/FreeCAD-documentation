@@ -3,10 +3,10 @@
 
 Fiecare sistem de operare are propria pagină de compilare a FreeCAD în [Online Help Documentation](Online_Help_Toc.md).
 
-  ------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------ ----------------------------------------------------------------------------------
-   ![ alt=\'Windows\' \| link= CompileOnWindows](images/Windows.png )   ![ alt=\'Linux\' \| link= CompileOnUnix](images/Linux.png )   ![ alt=\'Mac\' \| link= CompileOnMac](images/Mac.png )
-                            [Compile on Windows](CompileOnWindows.md)                                                [ Compile on Linux/Unix](CompileOnUnix.md)                                         [ Compile on Mac](CompileOnMac.md)
-  ------------------------------------------------------------------------------------------------------ ------------------------------------------------------------------------------------------ ----------------------------------------------------------------------------------
+  ------------------------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------
+   ![ alt=\'Windows\' \| link= Compile\_on\_Windows](images/Windows.png )   ![ alt=\'Linux\' \| link= Compile\_on\_Linux](images/Linux.png )   ![ alt=\'Mac\' \| link= Compile\_on\_MacOS](images/Mac.png )
+                              [Compile on Windows](Compile_on_Windows.md)                                                    [ Compile on Linux/Unix](Compile_on_Linux.md)                                               [ Compile on Mac](Compile_on_MacOS.md)
+  ------------------------------------------------------------------------------------------------------------ -------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------
 
 
 </div>
@@ -16,7 +16,7 @@ To compile on BSD, and other Unix systems, you can follow the general instructio
 
 <div class="mw-translate-fuzzy">
 
-Este, de asemenea, posibil să compilați FreeCAD în Windows utilizând [Cygwin](CompileOnCygwin.md) or [MinGW](CompileOnMinGW.md).
+Este, de asemenea, posibil să compilați FreeCAD în Windows utilizând [Compile on Windows](Compile_on_Windows.md).
 
 
 </div>

@@ -1,6 +1,13 @@
-# Sketcher ConstrainPointOnObject/pt
 ---
-- GuiCommand:/pt   Name:Constraint PointOnObject   Name/pt:Constraint PointOnObject   Workbenches:_---
+- GuiCommand:/pt
+   Name:Constraint PointOnObject
+   Name/pt:Constraint PointOnObject
+   Workbenches:[Sketcher](Sketcher_Workbench/pt.md), [PartDesign](PartDesign_Workbench/pt.md)
+   MenuLocation:Sketch → Sketcher constraints → Constrain point onto object
+   SeeAlso:[Constraint Coincident](Sketcher_ConstrainCoincident/pt.md)
+---
+
+# Sketcher ConstrainPointOnObject/pt
 
 
 </div>
@@ -22,7 +29,7 @@ Affixes a point onto another object such as a line, arc, or sketch axis.
 
 ## Scripting
 
-The constraint can be created from macros and from the python console by using the following command:
+The constraint can be created from [macros](Macros.md) and from the [Python](Python.md) console by using the following command:
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`

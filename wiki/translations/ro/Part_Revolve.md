@@ -12,6 +12,8 @@
 
 </div>
 
+## Description
+
 
 <div class="mw-translate-fuzzy">
 
@@ -54,10 +56,18 @@ If you select a user defined axis, the numbers define the direction of the revol
 
 </div>
 
+## Notes
+
+
+<div class="mw-translate-fuzzy">
+
 ### Note
 
 -   Dacă versiunea dvs. de FreeCAD are o casetă de selectare pentru dialogul Solid în dialogul Revolve, puteți face Solids din filamente și muchii închise.
 -   Dacă Revolve este efectuată utilizând o axă care intersectează fața pentru a se roti și doriți să creați un solid, rezultatul poate fi nevalid. Acest lucru se poate întâmpla din diferite motive, auto-intersecție, direcție etc.
+
+
+</div>
 
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Revolve/ro

@@ -88,7 +88,13 @@ I seguenti ambienti di lavoro sono ancora inclusi nell\'installazione di base pe
 
 Gli ambienti di lavoro per FreeCAD sono facilmente programmabili in [Python](Python/it.md), quindi ci sono molte persone che stanno sviluppando degli ambienti aggiuntivi al di fuori dell\'area principale di sviluppo di FreeCAD.
 
-La pagina [Ambienti complementari](external_workbenches/it.md) elenca tutti quelli che sono noti a questa comunità. La maggior parte è facilmente installabile da FreeCAD, usando [Addon manager](Addon_Manager/it.md), che si trova nel menu **Strumenti → <img src="images/_AddonManager.svg" width=24px> Addon manager**.
+
+<div class="mw-translate-fuzzy">
+
+La pagina [Ambienti complementari](external_workbenches/it.md) elenca tutti quelli che sono noti a questa comunità. La maggior parte è facilmente installabile da FreeCAD, usando [Addon manager](Std_AddonMgr/it.md), che si trova nel menu **Strumenti → <img src="images/Std_AddonMgr.svg" width=24px> Addon manager**.
+
+
+</div>
 
 Sono in fase di sviluppo ulteriori nuovi ambienti, mantenetevi aggiornati.
 

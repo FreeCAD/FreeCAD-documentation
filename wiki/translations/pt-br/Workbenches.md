@@ -88,7 +88,13 @@ As seguintes bancadas de trabalho ainda estão incluídas na instalação básic
 
 As bancadas de trabalho do FreeCAD são fáceis de programar em [Python](Python/pt-br.md), portanto há muitas pessoas desenvolvendo bancadas de trabalho adicionais fora da área de desenvolvimento principal do FreeCAD.
 
-A página de bancadas de trabalho externas ([Bancadas de trabalho externas](external_workbenches/pt-br.md)) lista todas as que são conhecidas por esta comunidade. A maioria é facilmente instalável de dentro do FreeCAD, usando o [Gerenciador de Extensões](Addon_Manager/pt-br.md), encontrado no menu **Ferramentas → <img src="images/AddonManager.svg" width=24px> Addon manager**.
+
+<div class="mw-translate-fuzzy">
+
+A página de bancadas de trabalho externas ([Bancadas de trabalho externas](external_workbenches/pt-br.md)) lista todas as que são conhecidas por esta comunidade. A maioria é facilmente instalável de dentro do FreeCAD, usando o [Gerenciador de Extensões](Std_AddonMgr/pt-br.md), encontrado no menu **Ferramentas → <img src="images/Std_AddonMgr.svg" width=24px> Addon manager**.
+
+
+</div>
 
 Novas bancadas de trabalho estão sempre em desenvolvimento. Fique atento!
 

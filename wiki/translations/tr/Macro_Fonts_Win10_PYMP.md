@@ -2,7 +2,7 @@
 {{Macro
 |Name=Macro Fonts Win10 PYMP
 |Icon=Macro_Fonts_Win10_PYMP.png
-|Description= {{ColoredText|#ff0000|#ffffff|New version GUI modifyed for the HD dpi (QGridLayout) run only FC version 0.18 and more (PySide2 Qt5)}} <br/> <br/>For the precedent version see [https://gist.githubusercontent.com/mario52a/e7aa19a9dc8ea28ad4f03944ffc8f731/raw/0f5d54209d6c242b49519c83e96c548b06a8f4c6/Macro_Fonts_Win10_PYMP.FCMacro Macro Fonts Win10 PYMP] and install it manually.This little macro is dedicate to users of Windows 10. The explorer fonts for use the ShapeString is empty and this little macro can help you see easily the font to use.
+|Description= {{ColoredText|#ff0000|#ffffff|New version GUI modified for the HD dpi (QGridLayout) runs only FC version 0.18 and more (PySide2 Qt5)}} <br/> <br/>For the previous version see [https://gist.githubusercontent.com/mario52a/e7aa19a9dc8ea28ad4f03944ffc8f731/raw/0f5d54209d6c242b49519c83e96c548b06a8f4c6/Macro_Fonts_Win10_PYMP.FCMacro Macro Fonts Win10 PYMP] and install it manually. This little macro is dedicate to users of Windows 10. The explorer fonts for use the ShapeString is empty and this little macro can help you see easily the font to use.
 |Author=Mario52
 |Version=02.00
 |Date=2020-06-06
@@ -14,18 +14,14 @@
 
 This little macro is dedicate to users of Windows 10. The explorer fonts for use the ShapeString is empty and this little macro can help you see easily the font to use.
 
-![](images/Macro_Fonts_Win10_PYMP_00.png )
-
-
-
+![](images/Macro_Fonts_Win10_PYMP_00.png ) 
 *Macro Fonts Win10 PYMP*
-
-
-
 
 ## Uses
 
-Launch the macro select the font and apply. ![Macro Fonts Win10 PYMP](images/Macro_Fonts_Win10_PYMP_01.png )  
+Launch the macro select the font and apply.
+
+![Macro Fonts Win10 PYMP](images/Macro_Fonts_Win10_PYMP_01.png ) 
 *Macro Fonts Win10 PYMP window *
 
 -   **Text edit** : Window for your text

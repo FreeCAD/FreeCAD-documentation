@@ -21,9 +21,9 @@
 FreeCAD刀路工作台按如下工作流程创建这些机器指令：
 
 -   使用[零件设计工作台](PartDesign_Workbench/zh.md)，[零件工作台 或](Part_Workbench/zh.md)[草图工作台中的一个或多个创建作为基础对象的](Draft_Workbench/zh.md)3D模型。
--   在[刀路工作台中创建](Path_Workbench.md)[刀路作业](Path_Job/zh.md)。 这包含用于生成在CNC铣床上处理作业的G-code所有必要的信息：有库存材料，工厂有一定的[刀具包](Path_EditToolsTable.md)，它遵循某些命令(通常是G-Code)控制速度和运动。
+-   在[刀路工作台中创建](Path_Workbench.md)[刀路作业](Path_Job/zh.md)。 这包含用于生成在CNC铣床上处理作业的G-code所有必要的信息：有库存材料，工厂有一定的[刀具包](Path_ToolLibraryEdit/zh.md)，它遵循某些命令(通常是G-Code)控制速度和运动。
 -   根据作业操作的要求选择刀具。
--   使用例如 [轮廓线和](Path_Profile/zh.md)[开槽操作创建铣削路径](Path_Pocket_3D/zh.md)。 这些[刀路对象使用FreeCAD内部独立于CNC机器的G](Path_objects/zh.md)-Code语言。
+-   使用例如 [轮廓线和](Path_Profile/zh.md)[开槽操作创建铣削路径](Path_Pocket_3D/zh.md)。 这些刀路对象使用FreeCAD内部独立于CNC机器的G-Code语言。
 -   使用与您的机器匹配的G-Code形式导出作业。
 
 
@@ -69,9 +69,9 @@ The G-code is generated from directives and Operations contained in a Path Job. 
 
 Some current limitations of which you should be aware are:
 
--   Most of the Path Tools are not true 3D tools but only 2.5D capable. This means that they take a fixed 2D shape and can cut it down to a given depth. However, there are two tools which produce true 3D paths: **<img src="images/Path_3DPocket.svg" width=24px> [3D Pocket](Path_Pocket_3D.md)** and **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)** (which is still an [experimental feature](Path_experimental.md) as of November 2020).
+-   Most of the Path Tools are not true 3D tools but only 2.5D capable. This means that they take a fixed 2D shape and can cut it down to a given depth. However, there are two tools which produce true 3D paths: **<img src="images/Path_3DPocket.svg" width=24px> [3D Pocket](Path_Pocket_3D.md)** and **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** (which is still an [experimental feature](Path_experimental.md) as of November 2020).
 -   Most of Path workbench is designed for a simple, standard 3-axis (xyz) CNC mill/router, but lathe tools are under development in 0.19\_pre.
--   Most operations in Path workbench will return paths based on a standard endmill tool/bit only, regardless of the tool/bit type assigned in a given tool controller with the exception of the **<img src="images/Path_Engrave.svg" width=24px> [Engrave](Path_Engrave.md)** and **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)** operations.
+-   Most operations in Path workbench will return paths based on a standard endmill tool/bit only, regardless of the tool/bit type assigned in a given tool controller with the exception of the **<img src="images/Path_Engrave.svg" width=24px> [Engrave](Path_Engrave.md)** and **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** operations.
 -   The operations within the Path workbench are not aware of clamping mechanisms in use to secure the model to your machine. Consequently, please review and simulate the paths you generate prior to sending the code to your machine. If necessary, model your clamping mechanisms in FreeCAD in order to better inspect the paths generated. Look for possible collisions with clamps or other obstacles along the paths.
 
 ## 单位
@@ -339,7 +339,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Path_GcodeFromShape.png  style="width:32px;"> [从形状生成的Gcode](Path_FromShapes.md): 从选定的零件对象创建刀路对象
+-   <img alt="" src=images/Path_GcodeFromShape.png  style="width:32px;"> [从形状生成的Gcode](Path_Shape.md): 从选定的零件对象创建刀路对象
 
 
 </div>

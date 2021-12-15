@@ -64,7 +64,6 @@
     -   [Wycinki kodów](Code_snippets/pl.md)
     -   [Przepisy na makropolecenia](Macros_recipes/pl.md)
     -   [Funkcja rysowania linii](Line_drawing_function/pl.md)
-    -   [Macro Half-Hull Model](Piffpoof_Macro_Half-Hull_Model.md)
 
 -   Różności:
     -   [Debugowanie](Debugging/pl.md)
@@ -88,7 +87,7 @@
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

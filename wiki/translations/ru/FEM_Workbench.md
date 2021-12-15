@@ -84,7 +84,7 @@
 
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Constraint tie](FEM_ConstraintTie/ru.md): Creates a FEM constraint tie {{Version/ru|0.19}}.
 
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a tie constraint (\"bonded contact\") between two faces. <small>(v0.20)</small> 
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Constraint force](FEM_ConstraintForce/ru.md): Используется для определения силы в \[N\], приложенной равномерно к выбираемой поверхности в определяемом направлении.
 
@@ -254,11 +254,17 @@ Many video tutorials: [anisim Open Source Engineering Software](https://www.yout
 
 Дальнейшая информация предназначена для опытных пользователей и разработчиков, которые хотят расширить верстак FEM. Ожидается знакомство с C ++ и Python, а также необходимы некоторые знания о системе «объект документа», используемой в FreeCAD; эта информация доступна в [Центре опытных пользователей](Power_users_hub/ru.md) и [Центре разработчиков](Developer_hub/ru.md). Обратите внимание: поскольку FreeCAD находится в активной разработке, некоторые статьи могут быть слишком старыми и, следовательно, устаревшими. Самая последняя информация обсуждается на [форумах FreeCAD](https://forum.freecadweb.org/index.php) в разделе «Разработка». Для обсуждения FEM, советов или помощи в расширении верстака читателю следует обратиться к [подфоруму FEM](https://forum.freecadweb.org/viewforum.php?f=18).
 
+
+<div class="mw-translate-fuzzy">
+
 В следующих статьях объясняется, как можно расширить рабочую среду, например, путем добавления новых типов граничных условий (ограничений) или уравнений.
 
 -   [Extend FEM Module](Extend_FEM_Module/ru.md)
 -   [Добавление ограничений в верстак FEM](Add_FEM_Constraint_Tutorial/ru.md)
 -   [Учебник по добавлению уравнений в верстак FEM](Add_FEM_Equation_Tutorial/ru.md)
+
+
+</div>
 
 Руководство разработчика было написано, чтобы помочь опытным пользователям разобраться в сложной кодовой базе FreeCAD и взаимодействиях между основными элементами и отдельными рабочими средами. Книга размещена на github, поэтому несколько пользователей могут вносить в нее свой вклад и постоянно обновлять.
 

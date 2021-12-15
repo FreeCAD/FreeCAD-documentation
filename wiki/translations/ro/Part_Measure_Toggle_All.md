@@ -1,9 +1,11 @@
-# Part Measure Toggle All/ro
 ---
-- GuiCommand:   Name:Std MeasureToggleAll   MenuLocation:[|Workbenches:[[Part_Workbench   Part](Std_Measure_Menu___Measure]]_→_Toggle_All‏‎.md)|Shortcut:   SeeAlso:---
+- GuiCommand:
+   Name:Part Measure Toggle All
+   MenuLocation:Measure → Toggle All
+   Workbenches:[Part](Part_Workbench.md)
+---
 
-
-</div>
+# Part Measure Toggle All/ro
 
 
 <div class="mw-translate-fuzzy">

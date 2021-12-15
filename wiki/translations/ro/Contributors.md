@@ -5,19 +5,41 @@
 
 FreeCAD n-ar fi ceea ce este fără contribuţia generoasă a mai multor persoane. Aici găsiţi o cuprindere a oamenilor şi companiilor care au contribuit la realizarea FreeCAD de-a lungul timpului. Pentru creditele cuvenite de sursele terţiare vedeţi pagina [Third Party Libraries/ro](Third_Party_Libraries/ro.md).
 
+
+<div class="mw-translate-fuzzy">
+
 ### In lucru 
+
+
+</div>
+
+### Project managers 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Conducătorii proiectului 
 
 Dezvoltatorii de frunte ai proiectului FreeCAD
 
+
+</div>
+
 -   _
 -   _
 -   _
+
+### Main developers 
+
+
+<div class="mw-translate-fuzzy">
 
 #### Principalii dezvoltatori 
 
 Oamenii care contribuie în mod regulat la elaborarea codului FreeCAD (prezentaţi de <https://github.com/FreeCAD/FreeCAD/graphs/contributors>):
+
+
+</div>
 
 -   [Abdullah Tahiriyo](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3232)
 -   [Alexander Golubev (Fat-Zer)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=4325)
@@ -43,9 +65,17 @@ Oamenii care contribuie în mod regulat la elaborarea codului FreeCAD (prezenta�
 -   [Victor Titov (DeepSOIC)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3888)
 -   [wandererfan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1375)
 
+### Other coders 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Alţi codificatori 
 
 Alte persoane care au contribuit la crearea programelor dim proiectul FreeCAD:
+
+
+</div>
 
 -   Barleyman
 -   Berthold Grupp
@@ -82,6 +112,8 @@ Alte persoane care au contribuit la crearea programelor dim proiectul FreeCAD:
 -   triplus
 -   usakhelo
 
+## Companies
+
 
 <div class="mw-translate-fuzzy">
 
@@ -97,9 +129,17 @@ Companii care au donat cod sau din timpul dezvoltatorilor:
 -   [KiCad Services Corporation](https://www.kipro-pcb.com/)
 -   [OpeningDesign](https://openingdesign.com)
 
+## Forum moderators 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Modeeratori pe Forum 
 
 Persoane responsabile de [FreeCAD forum](http://forum.freecadweb.org) (preluat din <http://forum.freecadweb.org/memberlist.php?mode=team>):
+
+
+</div>
 
 -   [agryson](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=11337)
 -   [Daniel Falck](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=689)
@@ -118,9 +158,17 @@ Persoane responsabile de [FreeCAD forum](http://forum.freecadweb.org) (preluat d
 -   [wmayer](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=69)
 -   [yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68)
 
+## Community
+
+
+<div class="mw-translate-fuzzy">
+
 ### Comunitatea
 
 Oameni din comunitate care au depus multe eforturi în a ajuta proiectul FreeCAD fie prin a fi activi pe forum, ținând un blog despre FreeCAD, tutoriale video, ambalarea FreeCAD pentru Windows/Linux/MacOS X, scriind o carte despre FreeCAD \... (listați în ordine alfabetică) (preluat din <http://forum.freecadweb.org/memberlist.php?mode=&sk=d&sd=d#memberlist>)
+
+
+</div>
 
 -   [bejant](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1940)
 -   [Brad Collette](http://www.packtpub.com/freecad-solid-modeling-with-python/book)
@@ -140,14 +188,22 @@ Oameni din comunitate care au depus multe eforturi în a ajuta proiectul FreeCAD
 -   [peterl94](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1819)
 -   [pperisin](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=356)
 -   _
--   _
+-   _ (renatorivo)
 -   _
 -   [triplus](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=782)
 -   [ulrich1a](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1928)
 
+## Documentation writers 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Documentation writers 
 
 Oamenii care au scris documentația despre asta [wiki](Main_Page.md):
+
+
+</div>
 
 -   _
 -   _
@@ -161,10 +217,18 @@ Oamenii care au scris documentația despre asta [wiki](Main_Page.md):
 -   _
 -   _
 
+## Translators
+
+
+<div class="mw-translate-fuzzy">
+
 ### Traducători
 
 Persoane care au ajutat la traducerea aplicației FreeCAD(preluat din <https://crowdin.com/project/freecad>):
 
+
+</div>
+
 -   _
 -   _
 -   _
@@ -225,10 +289,19 @@ Persoane care au ajutat la traducerea aplicației FreeCAD(preluat din <https://c
 -   _
 -   _
 -   _
+-   _
+
+## Addons developers 
+
+
+<div class="mw-translate-fuzzy">
 
 ### Dezvoltatori de Addons 
 
 Dezvoltatori ai FreeCAD addons (preluat din <https://github.com/FreeCAD/FreeCAD-addons>):
+
+
+</div>
 
 -   _
 -   _

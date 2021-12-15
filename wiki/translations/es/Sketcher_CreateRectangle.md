@@ -3,16 +3,12 @@
    Name:Sketcher CreateRectangle
    Name/es:Croquizador CrearRectángulo
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)
-   Shortcut:R
    MenuLocation:Croquizador→ Geometrías del Croquizador → Crear rectángulo
    Shortcut:**R**
    SeeAlso:[Croquizador Polilínea](Sketcher_CreatePolyline/es.md)
 ---
 
 # Sketcher CreateRectangle/es
-
-
-</div>
 
 ## Descripción
 

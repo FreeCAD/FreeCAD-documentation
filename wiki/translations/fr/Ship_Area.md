@@ -1,6 +1,15 @@
-# Ship Area/fr
 ---
-- GuiCommand:/fr   Name:Ship Area   Name/fr:Ship Area   MenuLocation:Ship design → Areas curve   |Workbenches:[[Ship Workbench/fr   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:/fr
+   Name:Ship Area
+   Name/fr:Ship Area
+   Icon:Ship_AreaCurve.svg
+   MenuLocation:Ship design → Areas curve
+   Workbenches:[Ship](Ship_Workbench/fr.md)
+   Shortcut:
+   SeeAlso:
+---
+
+# Ship Area/fr
 
 
 </div>

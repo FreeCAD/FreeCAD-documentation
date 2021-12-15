@@ -19,7 +19,13 @@
 
 </div>
 
-Так же возможна компиляция FreeCAD в Windows с использованием [Cygwin](Compile_on_Cygwin/ru.md) или [MinGW](Compile_on_MinGW/ru.md).
+
+<div class="mw-translate-fuzzy">
+
+Так же возможна компиляция FreeCAD в Windows с использованием [Compile on Windows](Compile_on_Windows.md).
+
+
+</div>
 
 Чтобы скомпилировать FreeCAD без применения графического интерфейса, используйте [Docker образ FreeCAD в режиме командной строки](FreeCAD_Docker_CLI_mode/ru.md).
 

@@ -10,7 +10,7 @@ This is an extension that adds a search bar next to the [what\'s this?](Std_What
 <img alt="" src=images/SearchBarModScreenshot.png  style="width:600px;"> 
 *Screenshot of the search bar, with results in its drop-down menu and extra info about the result in a separate pane*
 
-Please report bugs via [issue tracker on GitHub](https://github.com/SuzanneSoy/SearchBar/issues%7Cthe).
+Please report bugs via the [issue tracker on GitHub](https://github.com/SuzanneSoy/SearchBar/issues).
 
 -   Author: _
 -   Source code on github: <https://github.com/SuzanneSoy/SearchBar>

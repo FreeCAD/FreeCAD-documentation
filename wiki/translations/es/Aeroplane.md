@@ -8,9 +8,17 @@
 |Files=
 }}
 
+## First Steps 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Primeros pasos 
 
-Trabajaremos en el <img alt="" src=images/Workbench_Part.svg  style="width:24px;">[Ambiente de trabajo Piezas](Part_Workbench/es.md) - selecciona el módulo de piezas en **Vista → Entorno → Pieza** o desde el [Selector Ambiente de trabajos](Workbench_Selector/es.md).
+Trabajaremos en el <img alt="" src=images/Workbench_Part.svg  style="width:24px;">[Ambiente de trabajo Piezas](Part_Workbench/es.md) - selecciona el módulo de piezas en **Vista → Entorno → Pieza** o desde el [Selector Ambiente de trabajos](Std_Workbench/es.md).
+
+
+</div>
 
 -   Crea un nuevo documento vacío.
 -   Cambia a <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [vista isometrica](Std_ViewIsometric/es.md).
@@ -60,7 +68,7 @@ Ahora debería tener un modelo simple de avión. Haz clic con el botón derecho 
 
 Supongamos que tuviéramos que acercar un poco las alas pero si probamos modificando la traslación en X se moverá todo el aeroplano. Sólo queremos mover las alas, de modo que cancela la Ubicación.
 
-Expanda el Aeroplano (haga clic en el {{Botón|[+]}} al lado) y expanda la Fusión.
+Expanda el Aeroplano (haga clic en el **[+]** al lado) y expanda la Fusión.
 
 Haga clic en Caja y obtenga su [Colocación en Tareas](Placement/es.md). Observa que ya tiene Y: -10 y Z: -1 en la Traducción. Cambia la traducción de X a 3 y haz clic en **Aplicar**. Así está mejor. Haga clic en **Aceptar**.
 

@@ -19,7 +19,7 @@ Nem todas as propriedades podem ser modificadas sempre; dependendo do status esp
 
 Uma propriedade é uma informação como um número ou uma cadeia de texto que é anexada a um documento FreeCAD ou a um objeto no documento.
 
-Objetos personalizados [objetos com scripts](scripted_objects/pt-br.md) podem usar qualquer um dos tipos de propriedade definidos no sistema base. Veja a lista completa em [Propriedade](Propriedade/pt-br.md).
+Objetos personalizados [objetos com scripts](scripted_objects/pt-br.md) podem usar qualquer um dos tipos de propriedade definidos no sistema base. Veja a lista completa em [Propriedade](Property/pt-br.md).
 
 Alguns dos tipos de propriedade mais comumente utilizados são: 
 ```python
@@ -74,7 +74,13 @@ Para a geometria 2D, a maioria dos objetos são derivados de `Part::Part2DObject
 
 ## Ações
 
+
+<div class="mw-translate-fuzzy">
+
 As ações na visão da propriedade foram implementadas em 0.19.
+
+
+</div>
 
 Clicar com o botão direito do mouse em um espaço vazio na vista ou com uma propriedade selecionada mostra apenas um comando:
 

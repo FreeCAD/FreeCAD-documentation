@@ -21,13 +21,7 @@ ToDo
 ## Использование
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

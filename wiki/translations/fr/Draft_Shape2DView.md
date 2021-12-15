@@ -35,7 +35,7 @@ Des dessins avec des largeurs de ligne différentes pour les lignes vues et coup
 
 ## Propriétés
 
-Voir aussi : [Éditeur de propriétés](property_editor/fr.md).
+Voir aussi : [Éditeur de propriétés](Property_editor/fr.md).
 
 Un objet Draft Vue 2D d\'une forme est dérivé d\'un [Part Part2DObject](Part_Part2DObject/fr.md) et hérite de toutes ses propriétés. Il possède également les propriétés supplémentaires suivantes :
 

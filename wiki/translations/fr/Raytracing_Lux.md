@@ -10,16 +10,13 @@
 
 # Raytracing Lux/fr
 
-
-</div>
-
 ## Description
 
 Insère un nouveau projet LuxRender dans le document.
 
 ## Utilisation
 
-1.  Cliquez sur l\'icône \"déroulante\" noire après <img alt="" src=images/Raytrace_Lux.svg  style="width:32px;"> pour sélectionner l\'un des différents modèles prédéfinis.
+1.  Cliquez sur l\'icône \"déroulante\" noire après <img alt="" src=images/Raytracing_Lux.svg  style="width:32px;"> pour sélectionner l\'un des différents modèles prédéfinis.
 2.  Ou choisissez **Lancer de rayon** → **Nouveau projet Luxrender** et l'un des modèles prédéfinis dans le menu supérieur.
 3.  Un nouveau projet LuxRender appelé \"LuxProject\" sera créé.
 
@@ -31,13 +28,7 @@ Insère un nouveau projet LuxRender dans le document.
 ## Remarques
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Raytracing_Tools_navi

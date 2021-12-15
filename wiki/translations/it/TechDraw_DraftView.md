@@ -65,6 +65,9 @@ Poiché la Vista di Draft è resa all\'interno del modulo [Draft](Draft_Workbenc
 
 ## Proprietà
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Source**: L\'oggetto di Draft da visualizzare
 
 -    **LineWidth**: La larghezza delle linee, indipendentemente dalla scala
@@ -79,7 +82,16 @@ Poiché la Vista di Draft è resa all\'interno del modulo [Draft](Draft_Workbenc
 
 -    **LineSpacing**: Interlinea per testi multilinea
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Nota: Vista di Draft eredita tutte le proprietà della Vista di base applicabili.
+
+
+</div>
 
 ## Script
 

@@ -91,18 +91,20 @@ Existe outro índice para o _.
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
--   Programação e Macros
-    -   [Trabalhar com macros](Macros/pt.md)
-    -   [Introdução ao Python](Introduction_to_Python/pt.md)
-    -   [Tutoriais de programação Python](Python_scripting_tutorial/pt.md)
-    -   [Conceitos básicos de programação em FreeCAD](FreeCAD_Scripting_Basics/pt.md)
-    -   [Visão geral das páginas de Python scripting](Scripting_examples/pt.md)
-
-
-</div>
+-   [Python scripting](Scripting_and_macros/pt.md)
+    -   [Working with macros](Macros/pt.md)
+    -   [Script tutorial](Scripts/pt.md)
+    -   [Introduction to Python](Introduction_to_Python/pt.md)
+    -   [Python scripting tutorial](Python_scripting_tutorial/pt.md)
+    -   [FreeCAD scripting basics](FreeCAD_Scripting_Basics/pt.md)
+    -   [Part scripting](Part_scripting/pt.md)
+    -   [Shape manipulation](Topological_data_scripting/pt.md)
+    -   [Scripted objects](Scripted_objects/pt.md)
+    -   [The Coin scenegraph](Scenegraph/pt.md)
+    -   [Working with Pivy](Pivy/pt.md)
+    -   [Working with PySide](PySide/pt.md)
+    -   [Interface creation](Interface_creation/pt.md)
+    -   [Dialog creation](Dialog_creation/pt.md)
 
 
 <div class="mw-translate-fuzzy">
@@ -113,7 +115,7 @@ Existe outro índice para o _.
         -   [Finding assistance](Tracker/pt.md)
         -   [Compilar no Windows](Compile_on_Windows/pt.md)
         -   [Compilar no Linux](Compile_on_Linux/pt.md)
-        -   [Compilar no Mac](Compile_on_Mac/pt.md)
+        -   [Compilar no MacOS](Compile_on_MacOS/pt.md)
         -   [Compilar no Docker](Compile_on_Docker/pt.md)
         -   [Compilar (tornar mais rápido)](Compiling_(Speeding_up)/pt.md)
         -   [Bibliotecas de terceiros](Third_Party_Libraries/pt/pt.md)
@@ -121,7 +123,7 @@ Existe outro índice para o _.
         -   [Começar e Configurações](Start_up_and_Configuration/pt.md)
     -   Ferramentas de suporte à compliação
         -   [A ferramenta de compilação do FreeCAD](FreeCAD_Build_Tool/pt.md)
-        -   [Adding an application module](Module_Creation/pt.md)
+        -   [Adding an application module](Workbench_creation/pt.md)
         -   [Debugging FreeCAD](Debugging/pt.md)
         -   [Testing FreeCAD](Testing/pt.md)
         -   [Integração contínua](Continuous_Integration/pt.md)

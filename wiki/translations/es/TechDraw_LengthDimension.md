@@ -4,7 +4,7 @@
    Name/es:TechDraw  Dimensión Longitud
    MenuLocation:TechDraw → Dimensión Longitud
    Workbenches:[TechDraw](TechDraw_Workbench/es.md)
-   SeeAlso:[TechDraw Dimensión Horizontal](TechDraw_Dimension_Horizontal/es.md), [TechDraw Dimensión Vertical](TechDraw_Dimension_Vertical/es.md)
+   SeeAlso:[TechDraw Dimensión Horizontal](TechDraw_HorizontalDimension/es.md), [TechDraw Dimensión Vertical](TechDraw_HorizontalDimension/es.md)
 ---
 
 # TechDraw LengthDimension/es
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Dimensión Longitud añade una dimensión lineal a una Vista. La dimensión puede estar entre la distancia entre dos vértices, la longitud de un borde o la distancia entre dos bordes. La distancia será inicialmente la distancia proyectada (es decir, como se muestra en el dibujo), pero puede cambiarse a la distancia real en 3D usando el **<img src="images/TechDraw_Dimension_Link.svg" width=16px> [Enlace Dimensión](TechDraw_Dimension_Link/es.md)** herramienta.
+La herramienta Dimensión Longitud añade una dimensión lineal a una Vista. La dimensión puede estar entre la distancia entre dos vértices, la longitud de un borde o la distancia entre dos bordes. La distancia será inicialmente la distancia proyectada (es decir, como se muestra en el dibujo), pero puede cambiarse a la distancia real en 3D usando el **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Enlace Dimensión](TechDraw_LinkDimension/es.md)** herramienta.
 
 
 </div>

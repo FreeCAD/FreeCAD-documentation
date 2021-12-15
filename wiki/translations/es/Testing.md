@@ -5,7 +5,13 @@
 
 ## Introducción
 
-El [Ambiente de trabajo del marco Pruebas](Test_Framework_Workbench/es.md) no es realmente un ambiente de trabajo de modelado, pero contiene un conjunto de scripts de [Python](Python/es.md) para realizar diferentes pruebas en los componentes principales de FreeCAD, con el fin de depurar problemas. Ver también [depuración](debugging/es.md).
+
+<div class="mw-translate-fuzzy">
+
+El [Ambiente de trabajo del marco Pruebas](Testing/es.md) no es realmente un ambiente de trabajo de modelado, pero contiene un conjunto de scripts de [Python](Python/es.md) para realizar diferentes pruebas en los componentes principales de FreeCAD, con el fin de depurar problemas. Ver también [depuración](debugging/es.md).
+
+
+</div>
 
 Puede ejecutar las pruebas desde la línea de comandos, utilizando las opciones `-t` o `--run-test`.
 

@@ -2,7 +2,7 @@
 } <img alt="" src=images/Lattice2_Lattice2.svg  style="width:240px;"> 
 *align=center|L'icône de l'atelier externe Lattice2 FreeCAD*
 
-## Préambule
+## Introduction
 
 
 **Lattice2 est stable. De nouvelles fonctionnalités peuvent être ajoutées mais aucun changement de rupture n'est censé se produire.**
@@ -10,23 +10,23 @@
 
 {{TOCright}}
 
-Le Lattice2 Workbench est un FreeCAD [Ateliers externes](External_workbenches/fr.md) qui sert à travailler avec des emplacements et des zones d\'emplacements. Il s\'agit d\'une sorte d\'atelier d\'assemblage mais en mettant l\'accent sur les zones. Il n\'y a pas de contraintes et de relations, il n\'y a que des zones de placements qui peuvent être générés, combinés, transformés, superposés et peuplés de formes.
+L\'atelier Lattice2 est un [Atelier externe](External_workbenches/fr.md) de FreeCAD qui sert à travailler avec des emplacements et des réseaux d\'emplacements. Il s\'agit d\'une sorte d\'atelier d\'assemblage mais en mettant l\'accent sur les zones. Il n\'y a pas de contraintes et de relations, il n\'y a que des réseaux d\'emplacements qui peuvent être générés, combinés, transformés, superposés et peuplés de formes.
 
 Vous êtes-vous déjà demandé comment créer un assemblage avec FreeCAD? C\'est le but de l\'atelier (y compris l\'étiquetage des objets). De plus, des assemblages éclatés peuvent être réalisés avec l\'établi.
 
-En outre, le plan de travail propose quelques outils à usage général, tels que la rétrogradation paramétrique, les boîtes englobantes, l\'outil d\'informations sur les formes et les outils permettant de travailler avec des collections de formes (composés).
+En outre, l\'atelier dispose de quelques outils à usage général, tels que le déclassement paramétrique, les boîtes englobantes, l\'outil d\'information sur les formes et les outils permettant de travailler avec des collections de formes (composés).
 
-L\'un des grands objectifs de conception de l\'établi est d\'être aussi paramétrique que possible.
+L\'un des grands objectifs de conception de l\'atelier est d\'être aussi paramétrique que possible.
 
 ## Références
 
 -   Auteur: DeepSOIC
--   Home page: <https://github.com/DeepSOIC/Lattice2>
--   Source code on github: <https://github.com/DeepSOIC/Lattice2>
+-   Page d\'accueil : <https://github.com/DeepSOIC/Lattice2>
+-   Code source sur github : <https://github.com/DeepSOIC/Lattice2>
 
 ## Outils
 
-Detail des descriptions dans [Lattice2 Github wiki](https://github.com/DeepSOIC/Lattice2/wiki)
+Description détaillée sur le [Lattice2 wiki Github](https://github.com/DeepSOIC/Lattice2/wiki)
 
 ### Barre d\'outils 
 
@@ -115,12 +115,11 @@ Autre
 
 ## Installation
 
-**Conditions préalables** Lattice2 WB nécessite FreeCAD\>= v0.16.5155.
+**Conditions préalables** L\'atelir Lattice2 nécessite FreeCAD\>= v0.16.5155.
 
 ### Installation Automatique 
 
-depuis v0.17, on peut utiliser le <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Addon_Manager/fr.md) pour installer l\' <img alt="" src=images/Lattice2_Lattice2.svg  style="width:24px;"> atelier Lattice2. Utilisez 
-**Outils → Gestionnaire d'Addon**
+Depuis v0.17, on peut utiliser le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) pour installer l\'<img alt="" src=images/Lattice2_Lattice2.svg  style="width:24px;"> atelier Lattice2. Utilisez **Outils → Gestionnaire d'Addon**.
 
 ### Installation manuelle 
 

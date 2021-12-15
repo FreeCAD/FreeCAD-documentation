@@ -1,6 +1,7 @@
 # Macro CenterFace/de
 {{Macro/de
 |Name=Macro CenterFace
+|Icon=CenterFace.png
 |Translate=Macro CenterFace
 |Description=Dieses Makrotrace (bearbeitbar) zeichnet die mittlere Fläche (Masse) mit 1 Punkt und druckt die Koordinaten.
 |Author=Mario52

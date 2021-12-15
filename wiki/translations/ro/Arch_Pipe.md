@@ -67,7 +67,7 @@ Acest instrument permite crearea de țevi/conducte de la zero, sau din obiectele
 
 <div class="mw-translate-fuzzy">
 
--   Echipamentele Arch au acum o proprietate nouă **SnapPoints**, care este o listă de vectori 3D. Acest lucru vă permite să adăugați puncte de fixare personalizate, pe care le puteți activa când noul buton [ Draft Special](Draft_Special.md) este activat. În prezent, această proprietate este disponibilă numai pentru Python. În cazul de mai sus am adăugat un nou punct de fixare la ieșirea aparatului de spălare. Vectorii din SnapPoints apar pe model ca puncte albe:
+-   Echipamentele Arch au acum o proprietate nouă **SnapPoints**, care este o listă de vectori 3D. Acest lucru vă permite să adăugați puncte de fixare personalizate, pe care le puteți activa când noul buton [ Draft Special](Draft_Snap_Special.md) este activat. În prezent, această proprietate este disponibilă numai pentru Python. În cazul de mai sus am adăugat un nou punct de fixare la ieșirea aparatului de spălare. Vectorii din SnapPoints apar pe model ca puncte albe:
 
 
 </div>
@@ -90,11 +90,11 @@ FreeCAD.ActiveDocument.Equipment.SnapPoints=[FreeCAD.Vector(0,0,100)]
 
 ![](images/Arch_pipe_example_04.jpg )
 
--   Acum există un nou instrument [Proiect Slope](Proiect_Slope.md) care permite modificarea pantei liniilor de proiectare, spre exemplu, 5% (0,05). Așadar, putem da rapid liniei noastre de deșeuri o pantă corectă. Numai coordonatele z sunt modificate de acest instrument, așa că trebuie doar să le înșurubăm unul în celălalt, proiecția de sus va rămâne neschimbată.
+-   Acum există un nou instrument [Proiect Slope](Draft_Slope/ro.md) care permite modificarea pantei liniilor de proiectare, spre exemplu, 5% (0,05). Așadar, putem da rapid liniei noastre de deșeuri o pantă corectă. Numai coordonatele z sunt modificate de acest instrument, așa că trebuie doar să le înșurubăm unul în celălalt, proiecția de sus va rămâne neschimbată.
 
 ![](images/Arch_pipe_example_05.jpg )
 
--   Trebuie doar să selectăm toate liniile noastre și să apăsăm butonul [Pipe Arch](Pipe_Arch.md). Arch Pipe funcționează cu orice obiect bazat pe componente care conține un singur fir deschis.
+-   Trebuie doar să selectăm toate liniile noastre și să apăsăm butonul [Pipe Arch](Arch_Pipe.md). Arch Pipe funcționează cu orice obiect bazat pe componente care conține un singur fir deschis.
 
 ![](images/Arch_pipe_example_06.jpg )
 

@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/tr
-   Name:Draft Special
+   Name:Draft Snap Special
    Name/tr:Taslak Özel
    MenuLocation:Taslak → [Yakalama](Draft_Snap/tr.md) → Özel
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Mimari](Arch_Workbench/tr.md)

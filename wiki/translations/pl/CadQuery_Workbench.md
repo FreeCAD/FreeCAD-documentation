@@ -24,7 +24,7 @@ A module-workbench combo that adds a CadQuery editor to FreeCAD. Please see the 
 
 ## Installation
 
-Install with the <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md).
+Install with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
 
 ## Links
 

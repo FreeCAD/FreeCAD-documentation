@@ -46,8 +46,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Apăsați butonul **<img src="images/Draft_Ellipse.png" width=16px> [Draft Ellipse](Draft_Ellipse/ro.md)
 ** sau apăsați **E** apoi tastele **L**
-2.  Faceți clic pe un prim punct din vizualizarea 3D sau tastați un [coordinate](Draft_Coordinates/ro.md)
-3.  Faceți clic pe un al doilea punct din vizualizarea 3D sau tastați un [coordinate](Draft_Coordinates/ro.md)
+2.  Faceți clic pe un prim punct din vizualizarea 3D sau tastați un coordinate
+3.  Faceți clic pe un al doilea punct din vizualizarea 3D sau tastați un coordinate
 
 
 </div>

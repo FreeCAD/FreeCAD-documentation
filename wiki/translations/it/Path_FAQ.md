@@ -23,9 +23,21 @@ Al momento, per la versione 0.18, Path Workbench può gestire fino a 3 assi di f
 
 Il workbench Path fornisce gli strumenti esistenti per soddisfare molte operazioni di fresatura, altri sono in corso di realizzazione e poiché FreeCAD è open source, non c\'è nulla che impedisca a qualsiasi utente di creare le proprie funzioni.
 
+
+<div class="mw-translate-fuzzy">
+
 Come nel caso della modellazione 3D, sono spesso disponibili più metodi utilizzabili per le diverse operazioni lavorazioni. Si tratta di scegliere tra quelli più vantaggiosi. In alcuni casi vengono utilizzate delle combinazioni di operazioni per fornire la fresatura completa del pezzo.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Un esempio comune è, ad esempio, il taglio di contornatura può essere generato da bordi o facce. In alcuni casi può essere vantaggioso optare per un tipo di input geometrico rispetto ad un altro.
+
+
+</div>
 
 [top](#top.md)
 
@@ -37,7 +49,13 @@ Un esempio comune è, ad esempio, il taglio di contornatura può essere generato
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Tutte le aggiunte alla lavorazione, comprese le modifiche e le copie di operazioni, vengono aggiunte alla fine del flusso di lavoro del lavoro. Se ciò interrompe la sequenza corretta della lavorazione, essa deve essere riordinata nell\'editor della Lavorazione -\> scheda Flusso di lavoro.
+
+
+</div>
 
 [top](#top.md)
 
@@ -49,7 +67,13 @@ Tutte le aggiunte alla lavorazione, comprese le modifiche e le copie di operazio
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Informazioni dettagliate sono disponibili in _.
+
+
+</div>
 
 [top](#top.md)
 
@@ -61,7 +85,16 @@ Informazioni dettagliate sono disponibili in _.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Il SetupSheet è un foglio di calcolo dedicato, contenuto in una lavorazione, modificabile nelle Proprietà vista, accessibile solo dal workbench Path. Fornisce un meccanismo che consente agli utenti più esperti di configurare gli aspetti della lavorazione utilizzando i valori e le espressioni contenute nel SetupSheet.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Gli ingressi correnti per Profondità, Altezza e Gestione utensile includono:
 
@@ -75,7 +108,16 @@ Gli ingressi correnti per Profondità, Altezza e Gestione utensile includono:
 8.  Horizontal Rapid Value \-- Fornisce il valore predefinito utilizzato per popolare inizialmente la velocità di avanzamento rapido orizzontale per tutti i controller degli utensili.
 9.  Vertical Rapid Value \-- Fornisce il valore predefinito utilizzato per compilare inizialmente la velocità di avanzamento rapido verticale per tutti i controller degli utensili.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Questo fornisce flessibilità. Ad esempio, le espressioni sono fornite predefinite, ma possono essere sovrascritte dall\'utente. La modifica può anche ridurre l\'equazione di default a un valore se questo è utile all\'utente.
+
+
+</div>
 
 [top](#top.md)
 
@@ -129,7 +171,13 @@ Another common misunderstanding is that a Contour Operation is not outputting pa
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Sì, Path offre operazioni di fresatura 3D della superficie. Richiede l\'installazione nel percorso dei file delle macro di OpenCamLibrary, un modulo Open Source di terze parti.
+
+
+</div>
 
 OpenCamLibrary non è integrato in FreeCAD per garantire che non si verifichino violazioni delle licenze.
 
@@ -143,7 +191,16 @@ OpenCamLibrary non è integrato in FreeCAD per garantire che non si verifichino 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Per le operazioni tasca, il punto di partenza assume come valore predefinito XYZ = 000 ed è sempre attivo, ma può essere configurato anche nella finestra delle Proprietà vista. Nella scheda Operazione, le operazioni Tasca e Sfacciatura forniscono esplicita la modalità Discorde (Climb) opposta alla modalità di taglio convenzionale (taglio Concorde).
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Per le operazioni di tipo Contorno, la scheda Operazione ha un input \"Direzione\" che può essere configurato come CW o CCW (rispettivamente orario o antiorario), che definisce la direzione di taglio. Per riferimento:
 
@@ -152,7 +209,16 @@ Per le operazioni di tipo Contorno, la scheda Operazione ha un input \"Direzione
 3.  Cut Side = Inteno, Direzione di taglio = CW, taglio convenzionale, concorde
 4.  Cut Side = Inteno, Direzione di taglio = CCW, taglio discorde
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Gli Start Point possono essere abilitati e configurati nella finestra di delle proprietà vista.
+
+
+</div>
 
 Nelle operazioni di sfacciatura è possibile specificare la tolleranza del materiale, consentendo il sovradimensionento con i valori positivi (viene lasciato del sovrametallo) e il sottodimensionamento con i valori negativi.
 
@@ -176,13 +242,19 @@ Questi input sono preziosi, consentendo funzionalità tra cui:
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Le operazioni Tasca 3D, Tasca e Sfacciatura, *ma non l\'operazione Contornatura*, nella scheda Dati della Proprietà Vista hanno un\'opzione di configurazione per mantenere basso l\'utensile.
+
+
+</div>
 
 [top](#top.md)
 
 ## How can I leave tabs to clamp my milled work? 
 
-Path workbench provides a Tag dressup for just this purpose.
+Path workbench provides a [Tag dressup](Path_DressupTag.md) for just this purpose.
 
 [top](#top.md)
 
@@ -194,7 +266,13 @@ Path workbench provides a Tag dressup for just this purpose.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Il Postprocessore viene utilizzato per personalizzare il codice di output per i controller CNC di destinazione secondo le varie macchine, nel loro dialetto G-Code.
+
+
+</div>
 
 [top](#top.md)
 
@@ -206,7 +284,13 @@ Il Postprocessore viene utilizzato per personalizzare il codice di output per i 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 I postprocessori sono degli script Python e vengono salvati nel percorso dei file delle Macro. Sono destinati a essere modificati o utilizzati come modello per ulteriori sviluppi del Postprocessore.
+
+
+</div>
 
 [top](#top.md)
 
@@ -220,7 +304,7 @@ Si.
 
 </div>
 
-Yes, The path preferences has a section for post processors where you can select which post processors to display and select a default post.
+Yes, the [Path preferences](Path_Preferences.md) has a section for post processors where you can select which post processors to display and select a default post.
 
 [top](#top.md)
 
@@ -236,7 +320,13 @@ Le unità di misura del modello 3D sono definite in Modifica-\>Preferenze\...\>G
 
 L\'impostazione delle Unità che configura come la fresa destinataria interpreta il G-Code della lavorazione si trova nel postprocessore dell\'output, che inserisce un comando G-Code G20 o G21 per indicare rispettivamente pollici o millimetri.
 
+
+<div class="mw-translate-fuzzy">
+
 Il Postprocessore è anche configurato per Unità/Secondo o Unità/Minuto. Se impostato su Unità/Minuto, la velocità di avanzamento del dialetto G-Code interno di Path viene moltiplicata per 60.
+
+
+</div>
 
 La mancata corrispondenza tra il modello 3D e le impostazioni del Postprocessore sono probabilmente i responsabili di un fattore di errore 60 nella velocità di avanzamento e di un fattore 25,4 nella distanza.
 
@@ -264,11 +354,17 @@ Se le linee del percorso oscurano il risultato della simulazione, la loro visibi
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 I colori delle linee del percorso sono definiti nella tabella dei colori in Modifica-\>Preferenze\...-\>Path-\>Path. I colori predefiniti sono:
 
 1.  Verde per i percorsi normali.
 2.  Rosso per i percorsi in rapida.
 3.  Giallo per i percorsi sonda.
+
+
+</div>
 
 [top](#top.md)
 
@@ -280,7 +376,13 @@ I colori delle linee del percorso sono definiti nella tabella dei colori in Modi
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Path consente il controllo della visualizzazione delle linee del percorso commutando la visibilità della lavorazione selezionandola nella Vista combinata. La visibilità delle singole o gruppi di operazioni viene quindi attivata dalla Vista combinata.
+
+
+</div>
 
 [top](#top.md)
 
@@ -292,9 +394,21 @@ Path consente il controllo della visualizzazione delle linee del percorso commut
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Per impostazione predefinita, l\'output del postprocessore viene visualizzato in una finestra prima del salvataggio. Questo, insieme al simulatore CAM di Path fornisce un mezzo per esaminare il lavoro prima di eseguirlo su una macchina CNC. Lo strumento Ispeziona G-Code consente di ispezionare il codice G interno del percorso per ciascuna operazione, fornendo un mezzo per verificare se l\'output del postprocessore riflette ciò che è definito nell\'operazione.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 L\'elenco delle Operazioni nel pannello Vista combinata mostra la sequenza in cui le operazioni verranno elaborate nella lavorazione. Se le operazioni sono corrette, ma non nella sequenza desiderata, è possibile regolarle facendo doppio clic sull\'elenco delle operazioni e trascinando le operazioni nella posizione corretta, oppure facendo doppio clic sull\'editor della lavorazione e selezionando la scheda Flusso di lavoro, quindi utilizzando i pulsanti freccia Su o Giù sulle operazioni selezionate per ordinarle.
+
+
+</div>
 
 [top](#top.md)
 
@@ -322,7 +436,13 @@ La funzione Path detiene inoltre una proprietà Placement. Cambiando il valore d
 
 Tuttavia, i Path Compounds possono usufruire del Placement (posizionamento) dei propri figli (vedi sotto).
 
+
+<div class="mw-translate-fuzzy">
+
 _
+
+
+</div>
 
 [top](#top.md)
 

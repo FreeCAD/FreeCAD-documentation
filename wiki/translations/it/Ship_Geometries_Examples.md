@@ -1,6 +1,14 @@
-# Ship Geometries Examples/it
 ---
-- GuiCommand:/it   Name:Ship Load‏‎ Example   Name/it:Carica esempio    MenuLocation:Ship design → Carica un esempio di geometria di una nave   |Workbenches:[[Ship Workbench/it   Ship]]|Shortcut:   SeeAlso:---
+- GuiCommand:/it
+   Name:Ship Load‏‎
+   Name/it:Carica esempio
+   MenuLocation:Ship design → Carica un esempio di geometria di una nave
+   Workbenches:[Ship](Ship_Workbench/it.md)
+   Shortcut:
+   SeeAlso:
+---
+
+# Ship Geometries Examples/it
 
 
 </div>

@@ -5,7 +5,7 @@
    Workbenches:[Croquizador](Sketcher_Workbench/es.md)
    MenuLocation:Croquis → Restricciones del Croquizador → Restricción de Simetría
    Shortcut:S
-   SeeAlso:[Restricción Paralela](Constraint_Parallel/es.md)
+   SeeAlso:[Restricción Paralela](Sketcher_ConstrainParallel/es.md)
 ---
 
 # Sketcher ConstrainSymmetric/es

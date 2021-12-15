@@ -7,7 +7,7 @@
 
 ### src/Mod/Image/Gui/Resources/Icons/
 
-![](images/Image-import.svg ) ![](images/Image-import-to-plane.svg ) ![](images/Image-scale.svg ) ![](images/ImageWorkbench.svg )
+![](images/Image_Open.svg ) ![](images/Image_CreateImagePlane.svg ) ![](images/Image_Scaling.svg ) ![](images/ImageWorkbench.svg )
 
 
 {{Artwork

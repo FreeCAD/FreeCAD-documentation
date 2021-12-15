@@ -41,10 +41,10 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 <div class="mw-translate-fuzzy">
 
 1.  
-    {{Button | <img src="images/Draft_Grid.svg" width= 16px> [IzgaraYakala](Draft_ToggleGrid/tr.md)}}\'nın açık olduğundan emin olun.
+    {{Button | <img src="images/Draft_ToggleGrid.svg" width= 16px> [IzgaraYakala](Draft_ToggleGrid/tr.md)}}\'nın açık olduğundan emin olun.
 
 2.  
-    {{Button | <img src="images/_Snap_Lock.svg_" width= 16px> [ToggleSnap](Draft_ToggleSnap/tr.md)}}ve {{Button | <img src="images/_Snap_Grid.svg_" width= 16px> [ | Izgara](Draft_Grid/tr.md)}} açık.
+    {{Button | <img src="images/_Draft_Snap_Lock.svg_" width= 16px> [ToggleSnap](Draft_Snap_Lock/tr.md)}}ve {{Button | <img src="images/_Draft_Snap_Grid.svg_" width= 16px> [ | Izgara](Draft_Snap_Grid/tr.md)}} açık.
 
 3.  Bir şekil çizmek için Taslak aracı seçin.
 

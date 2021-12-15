@@ -15,12 +15,8 @@
 
 Due to the favourable meshing ratio and the relatively simple production, involute gearing is the most common tooth form in mechanical engineering. Gear wheels can be found wherever movement and force are to be transferred from one part to another. For example, they can be found in machines, cars, watches or household appliances. The movement is often transferred directly from one gear wheel to the other, but sometimes also via a chain. In addition, the direction of rotation can be changed. It is also possible to change a radial movement into a linear one via Involute Rack (<img alt="" src=images/FCGear_InvoluteRack.svg  style="width:22px;"> [Create an Involute rack](FCGear_InvoluteRack.md)).
 
-:   ![](images/Involute-Gear_example.png )
-:   
-    
-*From left to right: Spur gearing, helical gearing, double helical gearing
-    *
-    
+![](images/Involute-Gear_example.png ) 
+*From left to right: Spur gearing, helical gearing, double helical gearing*
 
 ## Usage
 
@@ -231,7 +227,16 @@ gear.height = 10
 gear.double_helix = True
 App.ActiveDocument.recompute()
 Gui.SendMsgToActiveView("ViewFit")
-``` 
+```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 _ _ _
 

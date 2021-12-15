@@ -1,88 +1,89 @@
 # Assembly2 Workbench/pl
-**The Assembly2 workbench is obsolete. Its author no longer maintains it, so it may not work with FreeCAD versions 0.17 and above. The information in this page is not maintained; it is just kept for historical purposes.**
+**Środowisko pracy Złożenie 2 jest przestarzałe. Jego autor już go nie utrzymuje, więc może nie działać z FreeCAD w wersji 0.17 i wyższej. Informacje na tej stronie nie są utrzymywane, są one tylko przechowywane dla celów historycznych.**
 
 
-{{Message|For an alternative, see [A2plus](A2plus_Workbench.md). This workbench is a fork of Assembly2, but it is not compatible with it. If you have older models that you need to open, you should stay with FreeCAD 0.16 and Assembly2. Newer models should be created entirely and opened with A2plus.<br/>
+{{Message|Alternatywę można znaleźć w [A2plus](A2plus_Workbench/pl.md). To środowisko pracy jest forkiem Assembly2, ale nie jest z nim kompatybilne. Jeśli masz starsze modele, które musisz otworzyć, powinieneś pozostać przy FreeCAD w wersji 0.16 i środowisku Złożenie 2. Nowsze modele powinny być tworzone w całości i otwierane za pomocą A2plus.<br/>
 
-For other options see [Assembly3](Assembly3_Workbench.md) or [Assembly4](Assembly4_Workbench.md). These workbenches are also inspired by Assembly2, but are not compatible with it either.}}
+Więcej opcji znajdziesz w [Złożenie 3](Assembly3_Workbench/pl.md) lub [Złożenie 4](Assembly4_Workbench/pl.md). Te środowiska pracy są również inspirowane środowiskiem Złożenie 2, ale nie są z nim kompatybilne.}}
 
-## Introduction
+## Wprowadzenie
 
-[Assembly2](Assembly2_Workbench.md) is an assembly workbench for FreeCAD v0.15 with support for importing parts from external files.
+[Złożenie 2](Assembly2_Workbench/pl.md) jest środowiskiem montażowym dla FreeCAD v0.15 z obsługą importu części z plików zewnętrznych.
 
-As stated by its author _ is a good alternative.
+Jak podaje jego autor _.
 
 ![](images/Assembly2_example.jpg )
 
-## Usage
+## Użycie
 
-Intended work-flow:
+Zamierzony przepływ pracy:
 
--   each part in the assembly is designed in its own FreeCAD file
--   a separate assembly FreeCAD file is created
--   parts are imported to this assembly file using the Assembly 2 workbench
--   spacial constraints are then added to assemble the imported parts
+-   każda część w złożeniu jest projektowana w swoim własnym pliku FreeCAD,
+-   tworzony jest oddzielny plik FreeCAD dotyczący złożenia,
+-   części są importowane do tego pliku przy użyciu Assembly 2,
+-   dodawane są następnie wiązania przestrzenne w celu złożenia importowanych części.
 
-Features
+Cechy:
 
--   circular edge constraint
--   axial constraint
--   plane constraint
--   part importing
--   updating of parts already imported
+-   okrągłe umocowanie krawędzi,
+-   wiązanie osiowe,
+-   wiązanie płaskie,
+-   import części,
+-   aktualizacja już zaimportowanych części.
 
-Limitations
+Ograniczenia
 
--   Poor constraint solver which may fail or take excessively long for complicated assemblies
--   undo and other similar features not supported
+-   Słaby solver wiązań, który może zawieść lub zajmować zbyt dużo czasu dla skomplikowanych złożeń,
+-   nieobsługiwane cofanie i inne podobne funkcje.
 
-## References
+## Bibliografia
 
--   Author: hamish
--   Home page: [Assembly2](https://github.com/hamish2014/FreeCAD_assembly2)
--   Source code on github: [Assembly2](https://github.com/hamish2014/FreeCAD_assembly2)
+-   Autor: hamish
+-   Strona domowa: [Złożenie 2](https://github.com/hamish2014/FreeCAD_assembly2)
+-   Kod źródłowy na githubie: [Złożenie 2](https://github.com/hamish2014/FreeCAD_assembly2)
 
-## Tools
+## Przybory
 
-Toolbar
+Pasek narzędzi
 
 ![](images/Assembly2-menu-orizz.png )
 
-Drop down menu
+Menu rozwijane
 
 ![](images/Assembly2-menu-vert.png )
 
--   <img alt="" src=images/Assembly2_ImportPart.png  style="width:32px;"> Import a part from another FreeCAD document
--   <img alt="" src=images/Assembly2_UpdatePart.png  style="width:32px;"> Update parts imported into the assembly
--   <img alt="" src=images/Assembly2_Move.png  style="width:32px;"> Move
--   <img alt="" src=images/Assembly2_CircularEdgeConstraint.png  style="width:32px;"> Add circular edge constraint
--   <img alt="" src=images/Assembly2_PlaneConstraint.png  style="width:32px;"> Add plane constraint
--   <img alt="" src=images/Assembly2_AxialConstraint.png  style="width:32px;"> Add axial constraint
--   <img alt="" src=images/Assembly2_AngularConstraint.png  style="width:32px;"> Create an angular constraint between two planes
--   <img alt="" src=images/Assembly2_SphericalSurfaceConstraint.png  style="width:32px;"> Add Spherical surface constraint
--   <img alt="" src=images/Assembly2_DOFAnimation.png  style="width:32px;"> Animate degrees of freedom
--   <img alt="" src=images/Assembly2_Assembly2Constraint.png  style="width:32px;"> Solve Assembly2 constraint
--   <img alt="" src=images/Assembly2_Mux.png  style="width:32px;"> Combine assembly into a single object (use to create a drawing of the assembly, and so on\...)
--   <img alt="" src=images/Assembly2_ListParts.png  style="width:32px;"> Create a parts list from the objects imported using the assembly2 workbench
--   <img alt="" src=images/Assembly2_Ceck.png  style="width:32px;"> Ceck assembly for part overlap/interferance
+-   <img alt="" src=images/Assembly2_ImportPart.png  style="width:32px;"> Importuj część z innego dokumentu FreeCAD
+-   <img alt="" src=images/Assembly2_UpdatePart.png  style="width:32px;"> Aktualizuj części zaimportowane do zespołu
+-   <img alt="" src=images/Assembly2_Move.png  style="width:32px;"> Przenieś
+-   <img alt="" src=images/Assembly2_CircularEdgeConstraint.png  style="width:32px;"> Dodaj ograniczenie okrągłej krawędzi (Add circular edge constraint)
+-   <img alt="" src=images/Assembly2_PlaneConstraint.png  style="width:32px;"> Dodaj wiązanie płaszczyznowe
+-   <img alt="" src=images/Assembly2_AxialConstraint.png  style="width:32px;"> Dodaj wiązanie osiowe
+-   <img alt="" src=images/Assembly2_AngularConstraint.png  style="width:32px;"> Utwórz wiązanie kątowe pomiędzy dwoma płaszczyznami
+-   <img alt="" src=images/Assembly2_SphericalSurfaceConstraint.png  style="width:32px;"> Dodaj wiązanie powierzchni sferycznej
+-   <img alt="" src=images/Assembly2_DOFAnimation.png  style="width:32px;"> Animacja stopni swobody
+-   <img alt="" src=images/Assembly2_Assembly2Constraint.png  style="width:32px;"> Rozwiąż wiązanie Assembly2
+-   <img alt="" src=images/Assembly2_Mux.png  style="width:32px;"> Połącz zespół w jeden obiekt 
+*(użyj do stworzenia rysunku zespołu, i tak dalej\...)*
+-   <img alt="" src=images/Assembly2_ListParts.png  style="width:32px;"> Tworzy listę części z obiektów zaimportowanych za pomocą programu Assembly2.
+-   <img alt="" src=images/Assembly2_Ceck.png  style="width:32px;"> Sprawdzenie zespołu pod kątem nakładania się części/interferencji
 
-Other
+Dodatkowe
 
--   <img alt="" src=images/Assembly2_BoltMultipleCircularEdges.png  style="width:32px;"> Bolt multiple circular edges
--   <img alt="" src=images/Assembly2_FlipConstraint.png  style="width:32px;"> Flip constraint
--   <img alt="" src=images/Assembly2_LockRotation.png  style="width:32px;"> Lock rotation
--   <img alt="" src=images/Assembly2_Preferences.png  style="width:32px;"> Preferences
--   <img alt="" src=images/Assembly2_Assembly2.png  style="width:32px;"> Assembly2 WB icon
+-   <img alt="" src=images/Assembly2_BoltMultipleCircularEdges.png  style="width:32px;"> Śruby z wieloma okrągłymi krawędziami
+-   <img alt="" src=images/Assembly2_FlipConstraint.png  style="width:32px;"> Przerzucanie wiązań
+-   <img alt="" src=images/Assembly2_LockRotation.png  style="width:32px;"> Zablokuj obrót
+-   <img alt="" src=images/Assembly2_Preferences.png  style="width:32px;"> Preferencje
+-   <img alt="" src=images/Assembly2_Assembly2.png  style="width:32px;"> Ikonka środowiska pracy Złożenie 2
 
-## Installation
+## Instalacja
 
-### Automatic installation 
+### Instalacja automatyczna 
 
-This workbench can be installed from the [Addon Manager](Std_AddonMgr.md).
+To środowisko pracy można zainstalować z [Menadżera dodatków](Std_AddonMgr/pl.md).
 
-### From GitHub 
+### Z GitHub\'a 
 
-To use this workbench clone this git repository under your FreeCAD Mod directory, and install the pyside and numpy python libraries. On a Linux Debian based system such as Ubuntu, installation can be done through BASH as follows
+Aby użyć tego środowiska pracy sklonuj to repozytorium git pod swoim katalogiem FreeCAD Mod i zainstaluj biblioteki python pyside i numpy. W systemie Linux opartym na Debianie, takim jak Ubuntu, instalacja może być wykonana przez BASH w następujący sposób:
 
 
 ```python
@@ -92,7 +93,7 @@ cd ~/.FreeCAD/Mod
 git clone https://github.com/hamish2014/FreeCAD_assembly2.git
 ```
 
-In FreeCAD you will now have a new workbench-entry called \"Assembly 2\". Once installed, use git to upgrade to the latest version through BASH as follows
+W FreeCAD będziesz miał teraz nową pozycję środowiska pracy o nazwie \"Assembly 2\". Po zainstalowaniu, użyj git aby zaktualizować do najnowszej wersji poprzez BASH w następujący sposób:
 
 
 ```python
@@ -101,7 +102,7 @@ git pull
 rm *.pyc
 ```
 
-Alternatilvely, on an Ubuntu system the freecad-community PPA can be used:
+Alternatywnie, w systemie Ubuntu można użyć freecad-community PPA:
 
 
 ```python
@@ -110,34 +111,36 @@ sudo apt-get update
 sudo apt-get install freecad-extras-assembly2
 ```
 
-In Windows
+W Windows
 
--   download the git repository as ZIP
--   assuming FreeCAD is installed in \"C:\\PortableApps\\FreeCAD 0\_15\", go to \"C:\\PortableApps\\FreeCAD 0\_15\\Mod\" within Windows Explorer
--   create new directory named \"assembly2\"
--   unzip downloaded repository in \"C:\\PortableApps\\FreeCAD 0\_15\\Mod\\assembly2\"
+-   pobierz repozytorium git jako ZIP,
+-   zakładając, że FreeCAD jest zainstalowany w 
+```python C:\PortableApps\FreeCAD 0_15\```, przejdź do \"C:\\PortableApps\\FreeCAD 0\_15\\Mod\" w Eksploratorze Windows,
+-   utwórz nowy katalog o nazwie \"assembly2\",
+-   rozpakuj pobrane repozytorium w 
+```pythonC:\PortableApps\FreeCAD 0_15\Mod\assembly2```
 
-FreeCAD will now have a new workbench-entry called \"Assembly 2\".
+FreeCAD będzie teraz posiadał nową pozycję środowiska pracy o nazwie \" Assembly 2\".
 
-Pyside and Numpy are integrated in the FreeCAD 0.15 dev-Snapshots, so these Python packages do not need to be installed individually
+Pyside i Numpy są zintegrowane z FreeCAD 0.15 dev-Snapshots, więc te pakiety Pythona nie muszą być instalowane indywidualnie.
 
-To update to the latest version, delete the assembly2 folder and redownload the git repository.
+Aby wykonać aktualizację do najnowszej wersji, należy usunąć folder assembly2 i ponownie pobrać repozytorium git.
 
-## Links
+## Odnośniki internetowe 
 
--   Workbench Wiki:
--   FreeCAD Wiki:
--   FreeCAD Forum: <http://forum.freecadweb.org/viewtopic.php?f=10&t=8577>
--   Tutorials:
--   Videos: [1](https://www.youtube.com/watch?v=dhaYJKDk4GI), [2](http://youtu.be/ufhyUxQkeC0),
--   Files:
--   Report bugs: Please report bugs at <https://github.com/hamish2014/FreeCAD_assembly2/issues>
+-   Wiki środowisk pracy:
+-   Wiki FreeCAD:
+-   Forum FreeCAD: <http://forum.freecadweb.org/viewtopic.php?f=10&t=8577>
+-   Poradniki:
+-   Filmy: [Środowisko pracy FreeCAD Złożenie 2 w akcji](https://www.youtube.com/watch?v=dhaYJKDk4GI), [Złożenie 2 demonstracja nowego solvera](http://youtu.be/ufhyUxQkeC0)
+-   Pliki:
+-   Zgłaszanie błędów: Proszę zgłaszać błędy na [Github](https://github.com/hamish2014/FreeCAD_assembly2/issues)
 
-## Other useful links 
+## Inne użyteczne odnośniki 
 
--   [Animation](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Animation): This Workbench can be used to create sequences of pictures.
--   [ExplodedAnimation](http://www.freecadweb.org/wiki/index.php?title=Sandbox:ExplodedAnimation): FreeCAD workbench to create exploded views and animations of assemblies.
--   [External workbenches](External_workbenches.md)
+-   [Animacja](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Animation): To środowisko pracy może być używane do tworzenia sekwencji obrazów.
+-   [ExplodedAnimation](http://www.freecadweb.org/wiki/index.php?title=Sandbox:ExplodedAnimation): Środowisko pracy FreeCAD do tworzenia widoków rozłożonych i animacji złożeń.
+-   [Zewnętrzne środowiska pracy](External_workbenches/pl.md)
 
 
 

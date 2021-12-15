@@ -55,7 +55,13 @@ Come per qualsiasi vincolo valore, è possibile modificare in seguito il valore 
 
 Il vincolo imposta l\'angolo polare della direzione della linea. È l\'angolo tra la linea e l\'asse X dello schizzo.
 
+
+<div class="mw-translate-fuzzy">
+
 ### Ampiezza di un arco (v0.15) 
+
+
+</div>
 
 **Selezioni accettate:** arco di circonferenza
 
@@ -71,7 +77,13 @@ In questa modalità, il vincolo fissa l\'ampiezza di un arco di circonferenza.
 
 In questa modalità, il vincolo imposta l\'angolo tra due linee. Non è necessario che le linee siano intersecanti.
 
+
+<div class="mw-translate-fuzzy">
+
 ### Nell\'intersezione tra due curve (angolo-nel-punto) (v0.15) 
+
+
+</div>
 
 **Selezioni accettate:** qualsiasi linea/curva + qualsiasi linea/curva + qualsiasi punto
 

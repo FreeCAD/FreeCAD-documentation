@@ -56,7 +56,7 @@ Cominciamo creando il widget. Avviare Qt Creator, quindi nel menu **File -\> New
 
 <div class="mw-translate-fuzzy">
 
--   Ora inserire 3 widget **Double Spin Box** vicino alle etichette Length, Width e Height. Per ciascuno di essi, nel pannello inferiore di sinistra, che mostra tutte le impostazioni disponibili per il widget selezionato, individuare **Suffix** e impostare come loro suffisso **mm**. FreeCAD ha un widget più avanzato, in grado di gestire diverse unità, ma che non è disponibile di default in Qt Creator (ma che può essere [compilato](Compile_on_Linux/Unix#Qt_designer_plugin.md)), quindi per ora usiamo un Doppio Spin Box standard, e aggiungiamo il suffisso \"mm\" per essere sicuri che l\'utente sappia con quale unità sta lavorando:
+-   Ora inserire 3 widget **Double Spin Box** vicino alle etichette Length, Width e Height. Per ciascuno di essi, nel pannello inferiore di sinistra, che mostra tutte le impostazioni disponibili per il widget selezionato, individuare **Suffix** e impostare come loro suffisso **mm**. FreeCAD ha un widget più avanzato, in grado di gestire diverse unità, ma che non è disponibile di default in Qt Creator (ma che può essere [compilato](Compile_on_Linux#Qt_designer_plugin.md)), quindi per ora usiamo un Doppio Spin Box standard, e aggiungiamo il suffisso \"mm\" per essere sicuri che l\'utente sappia con quale unità sta lavorando:
 
 
 </div>

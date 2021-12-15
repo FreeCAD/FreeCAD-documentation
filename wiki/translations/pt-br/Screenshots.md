@@ -1,7 +1,7 @@
 # Screenshots/pt-br
 {{TOCright}}
 
-Aqui estão algumas screenshots mostrando diferentes partes do FreeCAD. Elas não estão ordenadas por uma linha de tempo em particular, portanto as imagens podem diferir de sua versão atual. Veja mais screenshots enviados por usuários do FreeCAD no [screenshot forum thread](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) e no [\"Mostre seu projeto aqui!\" Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).
+Aqui estão algumas captures de tela mostrando diferentes partes do FreeCAD. Elas não estão ordenadas por uma linha de tempo em particular e podem apresentar uma aparência diferente da versão mais atual do FreeCAD. Veja mais capturas de tela enviadas por usuários do FreeCAD no [screenshot forum thread](http://forum.freecadweb.org/viewtopic.php?f=8&t=4751) e no [\"Mostre seu projeto aqui!\" Users Showcase forum part](http://forum.freecadweb.org/viewforum.php?f=24).
 
 ### Na versão 0.17 
 
@@ -67,23 +67,11 @@ Um jipe modelado por psicofil
 
 <img alt="" src=images/Rockn_house2.png  style="width:1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
-Uma casa feita com o módulo Arco por rockn
-
-
-</div>
+Uma casa feita com ferramentas da bancada Arch, por rockn
 
 <img alt="" src=images/Mesh_curvature_plot1.jpeg  style="width:1024px;">
 
-
-<div class="mw-translate-fuzzy">
-
-Análise da curvatura da malha pelo módulo Mesh
-
-
-</div>
+Análise da curvatura de malha com ferramentas da bancada Mesh
 
 <img alt="" src=images/Cura_export.png  style="width:1024px;">
 
@@ -115,7 +103,7 @@ Exportação para aplicações externas com macros python
 
 ![](images/Screenshot-gcad.jpg )
 
-Uma captura de tela mostrando o FreeCAD importando e apresentando um modelo STEP do gCAD
+Captura de tela mostrando o FreeCAD importando e apresentando um modelo STEP do gCAD
 
 ### Dados do STEP 
 
@@ -173,23 +161,11 @@ Esta captura de tela mostra como o mesmo arquivo é exibido pelo FreeCAD e qCAD.
 
 Esta captura de tela mostra como o mesmo arquivo é exibido pelo FreeCAD e pelo Inkscape.
 
-
-<div class="mw-translate-fuzzy">
-
-### Módulo Draft 
+### Bancada de trabalho Draft 
 
 ![](images/Screenshot_draft.jpg )
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Freecad com o [módulo draft](Draft_Workbench/pt-br.md) carregado e um arquivo de desenho DXF importado.
-
-
-</div>
+Freecad com a [bancada draft](Draft_Workbench/pt-br.md) carregada e um arquivo de desenho DXF importado.
 
 ### Preferências
 

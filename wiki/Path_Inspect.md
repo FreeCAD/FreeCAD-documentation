@@ -1,6 +1,6 @@
 ---
 - GuiCommand:
-   Name:Path Inspect G-code
+   Name:Path Inspect
    MenuLocation:Path → Inspect G-code
    Workbenches:[Path](Path_Workbench.md)
    Shortcut:**P** **I**

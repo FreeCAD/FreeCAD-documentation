@@ -97,15 +97,15 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 -   Se viene attivata l\'analisi FreeCAD cambia l\'ambiente corrente in FEM.
 -   Per eseguire un\'analisi meccanica statica sono necessari almeno 5 oggetti.
--   <img alt="" src=images/Fem_Analysis.png  style="width:32px;"> contenitore dell\'analisi
+-   <img alt="" src=images/Fem_Analysis.svg  style="width:32px;"> contenitore dell\'analisi
 
-1.  <img alt="" src=images/FEM_Solver.png  style="width:32px;"> un solutore
-2.  <img alt="" src=images/FEM_Material.png  style="width:32px;"> un materiale
-3.  <img alt="" src=images/Fem_ConstraintFixed.png  style="width:32px;"> un vincolo fissaggio
-4.  <img alt="" src=images/Fem_ConstraintForce.png  style="width:32px;"> un vincolo forza
-5.  <img alt="" src=images/FEM_Create.png  style="width:32px;"> un oggetto mesh FEM
+1.  <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> un solutore
+2.  <img alt="" src=images/FEM_MaterialSolid.svg  style="width:32px;"> un materiale
+3.  <img alt="" src=images/Fem_ConstraintFixed.svg  style="width:32px;"> un vincolo fissaggio
+4.  <img alt="" src=images/Fem_ConstraintForce.svg  style="width:32px;"> un vincolo forza
+5.  <img alt="" src=images/FEM_FEMMesh.svg  style="width:32px;"> un oggetto mesh FEM
 
--   In questo esempio sono inclusi anche i risultati quindi c\'è un sesto oggetto, cioè i risultati <img alt="" src=images/FEM_ShowResult.png  style="width:16px;">.
+-   In questo esempio sono inclusi anche i risultati quindi c\'è un sesto oggetto, cioè i risultati <img alt="" src=images/FEM_ResultShow.svg  style="width:24px;">.
 
 
 </div>
@@ -187,7 +187,7 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 ### Modificare la Direzione e il Valore del carico 
 
--   Nella vista ad albero selezionare l\'oggetto mesh FEM <img alt="" src=images/FEM_Create.png  style="width:32px;"> e premere il tasto spazio.
+-   Nella vista ad albero selezionare l\'oggetto mesh FEM <img alt="" src=images/FEM_FEMMesh.svg  style="width:32px;"> e premere il tasto spazio.
     -   **Risultato:** L\'oggetto mesh FEM viene nascosto, e rimane visibile solo il modello geometrico.
 -   Nella vista ad albero fare doppio click sull\'oggetto \"Vincolo forza\" per aprire la sua finestra Azioni.
 -   Nella finestra Azioni cambiare il valore del carico 500000000 N = 500 MN (nella finestra Azioni l\'unità di misura della forza deve essere in N)
@@ -200,7 +200,7 @@ Questo esempio ha lo scopo di mostrare come appare una semplice analisi degli el
 
 <img alt="" src=images/FEM_example01_pic05.jpg  style="width:700px;">
 
--   Attivare la visibilità della mesh FEM <img alt="" src=images/FEM_Create.png  style="width:32px;"> selezionandola nella vista ad albero e premendo il tasto spazio.
+-   Attivare la visibilità della mesh FEM <img alt="" src=images/FEM_FEMMesh.svg  style="width:32px;"> selezionandola nella vista ad albero e premendo il tasto spazio.
 -   Abbiamo già visto come attivare un\'analisi e come visualizzare i risultati.
 -   La deformazione in direzione x dovrebbe essere di 19.05 mm.
 

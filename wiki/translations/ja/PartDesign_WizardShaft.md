@@ -1,6 +1,11 @@
-# PartDesign WizardShaft/ja
 ---
-- GuiCommand:/jp   Name:PartDesign_WizardShaft   Workbenches:[パートデザイン](PartDesign_Workbench/jp.md), Complete---
+- GuiCommand:/ja
+   Name:PartDesign_WizardShaft
+   Name/ja:PartDesign_WizardShaft
+   Workbenches:[パートデザイン](PartDesign_Workbench/ja.md), Complete
+---
+
+# PartDesign WizardShaft/ja
 
 
 </div>

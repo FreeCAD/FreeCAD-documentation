@@ -30,8 +30,8 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 1.  Vyberte objekty, které chcete posunout nebo zkopírovat
 2.  Stiskněte tlačítko **<img src="images/Draft_Move.png" width=16px> [Posun](Draft_Move/cs.md)
 ** nebo klávesy **M** a potom **V**
-3.  Klikněte na první bod ve 3D pohledu nebo zadejte [souřadnice](Draft_Coordinates/cs.md)
-4.  Klikněte na další bod ve 3D pohledu nebo zadejte [souřadnice](Draft_Coordinates/cs.md).
+3.  Klikněte na první bod ve 3D pohledu nebo zadejte souřadnice
+4.  Klikněte na další bod ve 3D pohledu nebo zadejte souřadnice.
 
 
 </div>

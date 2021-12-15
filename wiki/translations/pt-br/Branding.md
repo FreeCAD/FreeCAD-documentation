@@ -55,7 +55,7 @@ int main( int argc, char ** argv )
 
 A primeira entrada Config define o nome do programa. Este não é o nome do executável, que pode ser alterado por renomeamento ou por configurações do compilador, mas o nome que é exibido na barra de tarefas no Windows ou na lista de programas em sistemas Unix.
 
-As próximas linhas definem as entradas de configuração de sua aplicação FooApp. Uma descrição do Config e suas entradas que você encontra em [Inicialização e configuração](Start_up_e_Configuração/pt-br.md).
+As próximas linhas definem as entradas de configuração de sua aplicação FooApp. Uma descrição do Config e suas entradas que você encontra em [Inicialização e configuração](Start_up_and_Configuration/pt-br.md).
 
 ### Images
 

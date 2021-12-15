@@ -1,15 +1,17 @@
 # CompileOnWindows - Reducing Disk Footprint/it
-Techniques to reduce disk space required for building FreeCAD on Windows This may be of use to those, who are limited on disk space (for example, because of an SSD), and for those, who want to avoid installing complete Visual Studio.
+{{TOCright}}
+
+Here are techniques to reduce disk space required for building FreeCAD on Windows. This may be of use to those, who are limited on disk space (for example, because of an SSD), and for those, who want to avoid installing complete Visual Studio.
 
 It is recommended that you know on practice, how to [Compile on Windows](Compile_on_Windows.md) with Qt Creator, before attempting this.
 
 ## Setting up MSVC2013 compiler without installing Visual Studio 
 
-requirements:
+Requirements:
 
 -   another computer where complete Visual Studio is/can be installed (in theory, this can be achieved by unpacking VS installers, but there is no instructions about this here)
 
-### getting the compiler 
+### Getting the compiler 
 
 0\. In order to get the compiler files, go to another computer and locate the actual compiler. Example of path to compiler: drive:\\path\\to\\visual\\studio\\VC\\bin.
 
@@ -19,13 +21,13 @@ requirements:
 -   drive:\\path\\to\\visual\\studio\\VC\\**lib**
 -   drive:\\path\\to\\visual\\studio\\VC\\**include**
 
-2\. Install [Windows SDK](https://msdn.microsoft.com/en-us/windows/desktop/bg162891.aspx). For those who don\'t know, it is a set of headers, libs and tools to compile Windows programs. Note, where it is installed to. Example path: C:\\Program Files (x86)\\Windows Kits\\8.1
+2\. Install [Windows SDK](https://developer.microsoft.com/en-us/windows/downloads/sdk-archive/). For those who don\'t know, it is a set of headers, libs and tools to compile Windows programs. Note, where it is installed to. Example path: C:\\Program Files (x86)\\Windows Kits\\8.1
 
 3\. Install CMake and Qt creator (just the creator, i.e. the environment, not the actual Qt, to save space).
 
 4\. Set up a custom compiler in Qt Creator. Read on to see how.
 
-### compiler in Qt Creator 
+### Compiler in Qt Creator 
 
 #### 32-bit
 
@@ -33,18 +35,18 @@ Setting the compiler for 32 bit is quite straightforward.
 
 4.1. Set up the compiler under Compilers tab in settings: Add a **custom** compiler:
 
--   name = msvcrip (the name doesn\'t matter, it is up to you)
+-   Name = msvcrip (the name doesn\'t matter, it is up to you)
 -   Compiler path: C:\\Qt\\msvc12rip\\VC\\bin\\cl.exe
 -   Make path: C:\\Qt\\msvc12rip\\VC\\bin\\nmake.exe
 -   ABI: x86-windows-msvc2013-pe-32bit
--   header paths - nothing
--   error parser: MSVC
+-   Header paths - nothing
+-   Error parser: MSVC
 
 ![600px](images/Msvc-no-vs_compiler-setup-32.png)
 
 4.2. Under kits tab, I added a kit, and set it up like this:
 
--   name: FreeCAD32 (again, up to you)
+-   Name: FreeCAD32 (again, up to you)
 -   Device type: Desktop
 -   Device: Local PC
 -   Compiler: msvcrip (or whatever you named it in step 1)
@@ -64,7 +66,7 @@ Note the path to git.exe in PATH. It is optional, but if not specified, the vers
 
 ![600px](images/Msvc-no-vs_kit-setup-32.png)
 
-The environment part of the settings took me the most trouble to configure
+The environment part of the settings took me the most trouble to configure.
 
 #### 64-bit 
 
@@ -72,22 +74,22 @@ This is a little bit more tricky than 32-bit compiler. The main problem was that
 
 4.1. in C:\\Qt\\msvc12rip\\VC\\bin, create a folder named **x86\_amd64\_sa** (sa stands for Stand-Alone, use whatever name you like).
 
-4.2. copy contents of folder C:\\Qt\\msvc12rip\\VC\\bin into x86\_amd64\_sa folder (now you have a 32-bit compiler there)
+4.2. copy contents of folder C:\\Qt\\msvc12rip\\VC\\bin into x86\_amd64\_sa folder (now you have a 32-bit compiler there).
 
 4.3. copy contents of folder x86\_amd64 into x86\_amd64\_sa, replacing files in the process. Now you have a 64bit compiler with nmake there.
 
 4.4. Set up the compiler under Compilers tab in settings: Add a **custom** compiler:
 
--   name = msvcrip**64** (the name doesn\'t matter, it is up to you)
+-   Name = msvcrip**64** (the name doesn\'t matter, it is up to you)
 -   Compiler path: C:\\Qt\\msvc12rip\\VC\\bin\\x86\_amd64\_sa\\cl.exe
 -   Make path: C:\\Qt\\msvc12rip\\VC\\bin\\x86\_amd64\_sa\\nmake.exe
 -   ABI: x86-windows-msvc2013-pe-**64bit**
--   header paths - nothing
--   error parser: MSVC
+-   Header paths - nothing
+-   Error parser: MSVC
 
 4.5. Under kits tab, add a kit, and set it up like this:
 
--   name: FreeCAD**64** (again, up to you)
+-   Name: FreeCAD**64** (again, up to you)
 -   Device type: Desktop
 -   Device: Local PC
 -   Compiler: msvcrip**64** (or whatever you named it in step 4.4)
@@ -109,19 +111,19 @@ Tip: set up another kit+compiler pair for using jom instead of nmake, to enable 
 
 All the rest is identical to the normal way one would compile FreeCAD.
 
-### testing compiler and building FreeCAD 
+### Testing compiler and building FreeCAD 
 
-requirements:
+Requirements:
 
 -   FreeCAD source code (see [Compile on Windows](Compile_on_Windows.md))
 -   Correct libpack, extracted. (\"correct\" means that it has to match the compiler and bit-ness) (see [Compile on Windows](Compile_on_Windows.md))
 
 Open FreeCAD (CMakeLists.txt) with Qt creator, and it will invite you to run cmake. Run it. **CMake will build a test program, to see if the compiler works.** If the compiler doesn\'t work, it will show an error telling exactly that, and listing the build output. The build output should help you identify, what\'s going wrong. Here is a small list of typical errors:
 
--   *Can\'t open Kernel32.lib* - something\'s wrong with LIB or LIBPATH environment variables (note: they set under kits tab in Qt, not in windows!)
--   *Can\'t resolve external symbol* - something\'s wring with LIB or LIBPATH (they probably point to .lib-s of wrong bit-ness)
+-   *Can\'t open Kernel32.lib* - something\'s wrong with LIB or LIBPATH environment variables (note: they set under kits tab in Qt, not in windows!).
+-   *Can\'t resolve external symbol* - something\'s wring with LIB or LIBPATH (they probably point to .lib-s of wrong bit-ness).
 -   *Manifest-related error* - PATH does not point to a location where a resource compiler (rc.exe) of right bit-ness is located.
--   *Can\'t locate include* - the include location list should contain path to standard headers (C:\\Qt\\msvc12rip\\VC\\include on my machine)
+-   *Can\'t locate include* - the include location list should contain path to standard headers (C:\\Qt\\msvc12rip\\VC\\include on my machine).
 
 To run FreeCAD built with type \"Debug\", debug versions of MSVC2013 redistributable libraries (msvcp120d.dll, msvcr120d.dll) must be present somewhere reacheable through PATH (system-wide, this time).
 
@@ -134,9 +136,9 @@ You can obtain these dlls from the other computer that has the Visual Studio you
 -   extract the files, and name them \"msvcp120d.dll\", \"msvcr120d.dll\"
 -   copy the files to libpack folder, into bin
 
-## avoiding copying any libpack files to launch FreeCAD 
+## Avoiding copying any libpack files to launch FreeCAD 
 
-requirements:
+Requirements:
 
 -   Windows Vista and later
 -   NTFS file system (? maybe not\...)
@@ -145,7 +147,10 @@ The idea is very simple: instead of copying files - make links. On Windows, symb
 
 Since there are way too many files to make links manually, a batch script should be used. Here is an example of such a script:
 
-links\_libpack.bat:{{code|code=
+links\_libpack.bat:
+
+
+{{code|code=
 @set libpackpath=C:\_vt\dev\PC\Qt\FreeCAD\libpack\active
 @set builddir=%1
 pushd %libpackpath%\bin
@@ -153,7 +158,9 @@ for %%i in (*) do mklink "%builddir%\bin\%%i" "%libpackpath%\bin\%%i"
 for /D %%s in (*) do mklink /d "%builddir%\bin\%%s" "%libpackpath%\bin\%%s"
 popd
 pause
-}} First for loop creates links to files, the second loop - links to folders.
+}}
+
+First for loop creates links to files, the second loop - links to folders.
 You\'ll have to modify the path to libpack to match yours. Use absolute paths. Then, feed FreeCAD build folder path (full path!) to the script as an argument.
 
 This batch must be run with administrator privileges (or, you can set to allow users use mklink in local security policy settings in Windows). The batch may fail, if there are spaces in paths (it may work, but it is untested). Tip: create a shortcut to links\_libpack.bat, set it up to run as admin (in shortcut properties), and drag the build folder onto the shortcut.

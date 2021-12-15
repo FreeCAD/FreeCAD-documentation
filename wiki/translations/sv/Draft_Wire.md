@@ -46,13 +46,11 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 -   Nedtryckning av **SKIFT** kommer att [begränsa](Draft_Constrain/sv.md) din nya punkt i relation till föregående punkt.
 
--   Skriv in siffror för att [manuellt mata in en koordinat](Draft_Coordinates/sv.md).
+-   Skriv in siffror för att manuellt mata in en koordinat.
 
 -   Nedtryckning av **CTRL**+**Z** eller klickning på \"Undo\" knappen kommer att ångra den sista punkten.
 
 -   Om du trycker på **ESC** så avbryts funktionen.
-
--   Den skapade tråden kommer att ha nuvarande [linjestil](Draft_Linestyle/sv.md).
 
 -   Om man dubbelklickar när den sista punkten anges, så kommer tråden att stängas och avslutas.
 

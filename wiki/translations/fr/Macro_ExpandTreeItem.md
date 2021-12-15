@@ -2,31 +2,31 @@
 {{Macro/fr
 |Name=Macro ExpandTreeItem
 |Icon=Macro_ExpandTreeItem.svg
-|Description=Cette macro déroule les item sélectionnés.S'il n'y a aucune sélection, tes items sont fermés False.
+|Description=Cette macro développe l'arborescence sélectionnée et toutes les sous-arborescences dans l'arborescence.<br/>S'il n'y a pas de sélection, toutes les arborescences sont développées.
 |Author=wmayer, UR_
-|Version=00.00
-|Date=2018-07-11
-|FCVersion=All
-|Download=[https://www.freecadweb.org/wiki/images/9/94/Macro_ExpandTreeItem.svg ToolBar Icon]
+|Version=00.02
+|Date=2019-07-25
+|FCVersion=Tous
+|Download=[https://www.freecadweb.org/wiki/images/9/94/Macro_ExpandTreeItem.svg Icône de la barre d'outils]
 }}
 
 ## Description
 
-Déroule/enroule les items sélectionnés
+Développe l\'arborescence sélectionnée et toutes les sous-arborescences dans l\'arborescence.
 
-si l\'arbre sélectionné est déjà déroulé, cet arbre et tous les sous-arbres sont enroulés
+si l\'arborescence sélectionnée est déjà déroulé, cette arborescence et tous les sous-arborescences sont réduites.
 
-s\'il n\'y a pas de sélection tous les items sont déroulés False
+s\'il n\'y a pas de sélection, toutes les arborescences sont sont développées.
 
 ![](images/Collapsed00.gif )
 
 ## Utilisation
 
-Copier la macro dans votre répertoire de macros, créez votre barre d\'outils avec le bouton et lancez la macro
+Copier la macro dans votre répertoire de macros, créez votre barre d\'outils avec le bouton et lancez la macro.
 
 ## Script
 
-ToolBar Icon .PNG ![](images/Macro_ExpandTreeItem.png ) and the .SVG ![](images/Macro_ExpandTreeItem.svg )
+L\'icone pour votre barre d\'outils .PNG ![](images/Macro_ExpandTreeItem.png ) et .SVG ![](images/Macro_ExpandTreeItem.svg )
 
 **Macro\_ExpandTreeItem.FCMacro**
 
@@ -36,7 +36,7 @@ ToolBar Icon .PNG ![](images/Macro_ExpandTreeItem.png ) and the .SVG ![](images/
 #
 # Expands selected tree and all sub trees in the tree view.
 # if selected tree is already expanded this tree and all sub trees are collapsed True/False
-# if there is no selection all trees are collapse False
+# if there is no selection all trees are expanded
 #
 __Title__    = "Macro ExpandTreeItem"
 __Author__   = "wmayer, UR_"
@@ -85,7 +85,7 @@ for tree in trees:
 
 }}
 
-## Liens
+## Lien
 
 [Objektbaum mit einem Klick komplett aufklappen?](https://forum.freecadweb.org/viewtopic.php?f=13&t=29406)
 

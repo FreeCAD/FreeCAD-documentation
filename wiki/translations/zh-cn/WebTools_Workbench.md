@@ -13,7 +13,7 @@
 
 <div class="mw-translate-fuzzy">
 
-This workbench can be easily installed and updated from the [Addon Manager](Addon_Manager.md) available in FreeCAD 0.17 and above. For FreeCAD 0.16 users and other install methods, please refer to [Installing additional contents](Installing#Installing_additional_contents.md).
+This workbench can be easily installed and updated from the [Addon Manager](Std_AddonMgr.md) available in FreeCAD 0.17 and above. For FreeCAD 0.16 users and other install methods, please refer to [Installing additional contents](Installing#Installing_additional_contents.md).
 
 
 </div>

@@ -1,7 +1,6 @@
 # Macro Draw 2D Function/it
 {{Macro/it
 |Name=Draw 2D Function
-|Translate=Draw 2D Function
 |Icon=Macro_Draw_2D_Function.png
 |Translate=Funzione 2D
 |Description= Si usa per disegnare una funzione descritta da una equazione z=F(x) (piano Z-X)

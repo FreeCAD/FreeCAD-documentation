@@ -42,7 +42,13 @@ La herramienta Barrido del banco de trabajo Part es similar a la de <img alt="" 
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Trayectoria**: Se puede usar una línea (arista) o una serie de líneas conectadas, alambres o diferentes primitivas del banco de trabajo Part, operaciones del banco de trabajo Draft o un boceto. La trayectoria se suele seleccionar directamente desde la ventana principal del modelo, aunque también puede ser seleccionada desde la _ podría ser seleccionada como trayectoria). La trayectoria puede ser tanto abierta como cerrada, creando consecuentemente un barrido abierto o cerrado. Una trayectoria cerrada, como la de un círculo del banco de trabajo Part tendrá como resultado un barrido cerrado. Por ejemplo, el barrido de un círculo más pequeño alrededor de una trayectoria de un círculo mayor, creará un toro.
+
+
+</div>
 
 ## Properties
 

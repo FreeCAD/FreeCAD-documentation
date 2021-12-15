@@ -69,7 +69,7 @@ Pour activer et désactiver la barre d\'état utiliser le menu, **Affichage → 
 Les autres interfaces et fenêtres utiles incluent:
 
 -   _. Pour les utilisateurs expérimentés et les développeurs, il peut être utile de résoudre les opérations manipulant directement la scène et les objets créés dans la [Vue 3D](3D_view/fr.md).
--   _. Il est utile de reconnaître les problèmes de création d\'objets, tels que les dépendances circulaires, qui peuvent ne pas être entièrement évidents à partir de la [Vue d\'arborescence](tree_view/fr.md) ou de la [Vue DAG](DAG_view/fr.md).
+-   _ ou de la [Vue DAG](DAG_view/fr.md).
 
 ### Personnalisation
 

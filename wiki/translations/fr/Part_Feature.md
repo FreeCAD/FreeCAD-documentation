@@ -8,7 +8,7 @@
 
 Un objet _ qui peut être affiché dans la [Vue 3D](3D_view/fr.md).
 
-Part Feature est la classe parente de la plupart des objets 2D (Draft, Sketcher) et 3D (Part, PartDesign), à l\'exception des maillages, qui sont normalement basés sur [Mesh Feature](Mesh_Feature/fr.md) ou [Fem FemMeshObject](FEM_Mesh/fr.md) pour les objets FEM.
+Part Feature est la classe parente de la plupart des objets 2D (Draft, Sketcher) et 3D (Part, PartDesign), à l\'exception des maillages, qui sont normalement basés sur [Mesh Feature](Mesh_Feature/fr.md) ou [FEM FemMeshObject](FEM_Mesh/fr.md) pour les objets FEM.
 
 Chaque objet créé avec l\'[Atelier Part](Part_Workbench/fr.md) est essentiellement un [Part Feature](Part_Feature/fr.md).
 
@@ -81,7 +81,7 @@ Ce sont les propriétés disponibles dans l\'[éditeur de propriétés](property
 
 ### Vue
 
-La plupart des objets dans FreeCAD ont ce qu\'on appelle un \"[viewprovider](viewprovider/fr.md)\", c\'est-à-dire une classe qui définit l\'apparence visuelle de l\'objet dans la [vue 3D](3D_view/fr.md) et dans la [vue en arborescence](tree_view/fr.md) . Le viewprovider par défaut des objets Part Feature définit les propriétés suivantes. Les objets scriptés dérivés de Part Feature auront également accès à ces propriétés.
+La plupart des objets dans FreeCAD ont ce qu\'on appelle un \"[viewprovider](viewprovider/fr.md)\", c\'est-à-dire une classe qui définit l\'apparence visuelle de l\'objet dans la [vue 3D](3D_view/fr.md) et dans la [vue en arborescence](Tree_view/fr.md). Le viewprovider par défaut des objets Part Feature définit les propriétés suivantes. Les objets scriptés dérivés de Part Feature auront également accès à ces propriétés.
 
 
 {{TitleProperty|Base}}
@@ -158,9 +158,9 @@ Consultez le fil du forum, [Déviation et déviation angulaire](https://forum.fr
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
-[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](scripted_objects/fr.md).
+[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](Scripted_objects/fr.md).
 
 Une entité de pièce, Part Feature, est créée avec la méthode `addObject()` du document. 
 ```python

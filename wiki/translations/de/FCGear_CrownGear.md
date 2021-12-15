@@ -21,11 +21,8 @@ Known field of application of crown gears:
 -   Angular milling heads
 -   Powered tool systems with multiple pinions and a crown gear
 
-:   ![](images/Crown-Gear_example.png )
-:   
-    
+![](images/Crown-Gear_example.png ) 
 *Above: Crown gear*
-    
 
 ## Anwendung
 
@@ -95,7 +92,7 @@ No limitations are known.
 
 ## Crown and spur gear set overview 
 
-:   ![](images/Crown-spur-gear-set_example.png )
+![](images/Crown-spur-gear-set_example.png )
 
 -   \(1\) Spur gear
 -   \(2\) Crown gear

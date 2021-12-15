@@ -44,10 +44,16 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 -   <img alt="" src=images/Arch_Window.svg  style="width:32px;"> [Window](Arch_Window/ru.md): Создает окно используя выбранный объект в качестве основы
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Сечение](Arch_SectionPlane/ru.md): Добавляет секущую плоскость в документ
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Axis tools](Arch_CompAxis/ru.md): Инструменты Осей позволяют создать в текущем документе последовательность осевых линий
     -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Оси](Arch_Axis/ru.md): Добавляет однонаправленный массив осей в документ
     -   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Система осей](Arch_AxisSystem/ru.md): Добавляет в документ систему осей, состоящую из нескольких осей
     -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Сетка](Arch_Grid/ru.md): Добавляет в документ объект в виде сетки
+
+
+</div>
 
 -   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Крыша](Arch_Roof/ru.md): Создает наклонную крышу от выбранной грани
 -   <img alt="" src=images/Arch_Space.svg  style="width:32px;"> [Пространство](Arch_Space/ru.md): Создаёт в документе объект - пространство
@@ -87,8 +93,10 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
 Это дополнительные инструменты, которые помогут вам в решении конкретных задач.
 
-!!FUZZY!!\* <img alt="" src=images/Arch_Component.svg  style="width:32px;"> [Компонент](Arch_Component/ru.md): Создает непараметрический Архитектурный компонент
 
+<div class="mw-translate-fuzzy">
+
+-   <img alt="" src=images/Arch_Component.svg  style="width:32px;"> [Компонент](Arch_Component/ru.md): Создает непараметрический Архитектурный компонент
 -   <img alt="" src=images/Arch_Component_Clone.svg  style="width:32px;"> _)
 
 -   <img alt="" src=images/Arch_SplitMesh.svg  style="width:32px;"> [Разделить Сетку(Mesh)](Arch_SplitMesh/ru.md): Разделяет выбранную Сеть на отдельные компоненты
@@ -103,6 +111,9 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 -   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> _.
 -   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> _ объекта
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Toggle Subcomponents](Arch_ToggleSubs.md): Показывает или скрывает субкомпоненты объекта Arch.
+
+
+</div>
 
 ### Настройки
 
@@ -119,7 +130,13 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 
 ## Программный интерфейс 
 
+
+<div class="mw-translate-fuzzy">
+
 В архитектурном модуле можно использовать скрипты [Python](Python.md) и [макросы](macros/ru.md), используя функции [Arch Python API](http://www.freecadweb.org/api/Arch.html).
+
+
+</div>
 
 ## Учебники
 

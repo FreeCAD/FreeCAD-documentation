@@ -1,7 +1,7 @@
 # Navigation Cube/tr
 {{TOCright}}
 
-The navigational cube control, or **navigation cube**, is a user interface graphic aid for reorienting the 3D view. By default, it is visible and resides in the upper right corner of the 3D display. If you are looking at the standard 3D view, it looks like the following:
+The navigational cube control, or **navigation cube**, is a user interface graphic aid for reorienting the 3D view. By default, it is visible and resides in the upper right corner of the 3D display. If you are looking at the standard [3D view](3D_view.md), it looks like the following:
 
 ![](images/FreeCAD-v0-18-NavCube_Axonometric.png )
 
@@ -11,7 +11,7 @@ The navigation cube consists of a number of parts:
 -   Main Navigation Cube
 -   Mini-cube Menu
 
-Hovering the mouse pointer over a feature of the navigational cube turns the feature light blue; clicking will reorient the 3D view as indicated by the feature. In the example below, the 3D view has been rotated by a [mouse gesture](Mouse_Model.md) to a \"non-standard\" orientation. The pointer is over a corner (indicated by the blue color); clicking will reorient the 3D view to a standard axonometric view with that corner facing you.
+Hovering the mouse pointer over a feature of the navigational cube turns the feature light blue; clicking will reorient the 3D view as indicated by the feature. In the example below, the 3D view has been rotated by a [mouse gesture](Mouse_navigation.md) to a \"non-standard\" orientation. The pointer is over a corner (indicated by the blue color); clicking will reorient the 3D view to a standard axonometric view with that corner facing you.
 
 ![](images/FreeCAD-v0-18-NavCube_SelectCorner.png )
 
@@ -19,13 +19,16 @@ Hovering the mouse pointer over a feature of the navigational cube turns the fea
 
 There are six directional arrows: four triangular arrowheads, one at the top, bottom, left and right; and two curved arrows, one on either side of the top arrow.
 
-Clicking the triangular arrows will rotate the 3D view 45 degrees around a line perpendicular to the direction of the arrow. Clicking the curved arrows will rotate the 3D view around a line pointing towards you.
+-   Clicking the triangular arrows will rotate the 3D view 45 degrees around a line perpendicular to the direction of the arrow.
+-   Clicking the curved arrows will rotate the 3D view around a line pointing towards you.
 
 ## Main Navigation Cube 
 
 The main navigation cube (\"nav cube\" in the rest of this section), tracks the orientation of the actual object in the main part of the 3D view. Any operation which reorients the main 3D view will reorient the nav cube as well.
 
-The nav cube is essentially a 3D view of a cube with its three main component types (faces, edges, and corners) enhanced so they may be easily clicked with the pointer. Clicking on a particular component will set the 3D view to have that component centered and facing you. The nav cube is somewhat \"squashed\", as if the feature farthest from you were larger than the feature directly facing you. This allows the features adjacent to the feature facing you to be seen and consequently selected. For example, in a \"normal\" view of a regular cube, when one face is facing you, you can also see the four edges of that face and the four corners of that face. In the \"squashed\" nav cube, you can also see features representing each of the adjacent faces, the four edges connecting the corners of the face facing you with the opposite face, and the corners of opposite face. This allows you to select any of the possible standard views except the opposite face and its edges (21 out of 26 possible views):
+The navigation cube is essentially a 3D view of a cube with its three main component types (faces, edges, and corners) enhanced so they may be easily clicked with the pointer. Clicking on a particular component will set the 3D view to have that component centered and facing you. The navigation cube is somewhat \"squashed\", as if the feature farthest from you were larger than the feature directly facing you. This allows the features adjacent to the feature facing you to be seen and consequently selected.
+
+For example, in a \"normal\" view of a regular cube, when one face is facing you, you can also see the four edges of that face and the four corners of that face. In the \"squashed\" nav cube, you can also see features representing each of the adjacent faces, the four edges connecting the corners of the face facing you with the opposite face, and the corners of opposite face. This allows you to select any of the possible standard views except the opposite face and its edges (21 out of 26 possible views):
 
 -   The face facing you (does nothing, since that is the current view)
 -   The four edges of the current face
@@ -65,7 +68,7 @@ You may move the entire navigation cube control structure to another location in
 
 The navigation cube is configurable, including adjusting its size: **Edit → Preferences... → Display → Navigation → Navigation cube** <small>(v0.19)</small> .
 
-For more advanced configuration, refer to the [CubeMenu](Interface_Customization#CubeMenu.md) [external workbench](External_workbenches.md).
+For more advanced configuration, refer to the [CubeMenu](Interface_Customization#CubeMenu.md) from [external workbenches](External_workbenches.md).
 
 
 

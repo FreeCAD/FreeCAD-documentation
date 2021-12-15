@@ -1,6 +1,7 @@
 # Macro Spring/fr
 {{Macro/fr
 |Name=Spring Simul
+|Icon=Macro_Spring.png
 |Description=Simulation de la compression/décompression d'un ressort.
 |Author=Mario52
 |Version=1.0

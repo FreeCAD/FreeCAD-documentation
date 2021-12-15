@@ -131,7 +131,8 @@ help("print")
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## 変数
 
@@ -202,9 +203,7 @@ print(var2)
 
 </div>
 
-Case is very important, `myVariable` is not the same as `myvariable`. If you were to enter `print(myvariable)` it would come back with an error as not defined.
-
-[top](#top.md)
+Case is very important, `myVariable` is not the same as `myvariable`. If you were to enter `print(myvariable)` it would come back with an error as not defined. {{Top}}
 
 ## 数値
 
@@ -378,7 +377,8 @@ myVar = "hello friends"
 myVar
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## リスト
 
@@ -478,7 +478,8 @@ myvar[2]
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## インデント
 
@@ -659,7 +660,8 @@ else:
     print("Such Dalton doesn't exist!")
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## 関数
 
@@ -742,7 +744,8 @@ sum(45,34)
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## モジュール
 
@@ -945,7 +948,8 @@ There is however an alternative:
 exec(open("C:/PathToMyMacro/myMacro.FCMacro").read())
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## FreeCADではじめる
 
@@ -964,19 +968,30 @@ dir()
 dir()
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Notes
 
 -   FreeCAD was originally designed to work with Python 2. Since Python 2 reached the end of its life in 2020, future development of FreeCAD will be done exclusively with Python 3, and backwards compatibility will not be supported.
 -   Much more information about Python can be found in the [official Python tutorial](https://docs.python.org/3/tutorial/index.html) and the [official Python reference](https://docs.python.org/3/reference/).
 
-[top](#top.md)
+
+{{Top}}
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav|Macros|Python scripting tutorial}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

@@ -3,8 +3,6 @@
 
 These are snippets of code that are useful when [creating interfaces](Dialog_creation.md) with [PySide](PySide.md).
 
-For more information on creating full interfaces see [Interface creation with UI files](Interface_creation_with_UI_files.md).
-
 ## Some useful commands 
 
  

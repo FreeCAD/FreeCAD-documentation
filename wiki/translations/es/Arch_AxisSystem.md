@@ -57,8 +57,16 @@ This is useful to define the intersection points between the different axes. Arc
 
 ## Opciones
 
+
+<div class="mw-translate-fuzzy">
+
 -   Un mismo objeto [Arch Axis](Arch_Axis/es.md) puede ser parte de más de un sistema
 -   Cualquier objeto basado en una forma también se puede usar como la propiedad **Eje** de los objetos Arch. En este caso, la forma del objeto se duplicará a lo largo de los vértices del objeto ejes
+
+
+</div>
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

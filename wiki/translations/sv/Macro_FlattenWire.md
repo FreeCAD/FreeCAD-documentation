@@ -1,4 +1,7 @@
 # Macro FlattenWire/sv
+<div class="mw-translate-fuzzy">
+
+
 {{Macro/sv
 |Name=FlattenWire
 |Translate=FlattenWire
@@ -10,6 +13,9 @@
 |FCVersion=All
 |Download=[https://www.freecadweb.org/wiki/images/2/2f/Macro_FlattenWire.png ToolBar Icon]
 }}
+
+
+</div>
 
 ## Description
 
@@ -37,8 +43,8 @@ z = 0
 for p in obj.Points: z += p.z
 z = z/len(obj.Points)
 newpoints = []
-for p in obj.Points: newppoints.append(FreeCAD.Vector(p.x,p.y,z))
-obj.Points = newppoints
+for p in obj.Points: newpoints.append(FreeCAD.Vector(p.x, p.y, z))
+obj.Points = newpoints
 ```
 
 ---

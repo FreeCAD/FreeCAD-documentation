@@ -42,7 +42,7 @@ The [in-game tutorial](BIM_ingame_tutorial.md) is an easy way to quickly get on 
 
 The BIM workbench gather tools from several other FreeCAD workbenches, mainly [Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md) and [Part](Part_Workbench.md), roughly reorganized in logical categories: **2D drafting**, **3D modeling**, **annotation** and **modification** tools. The **manage** category contains tools that are specific to the BIM workbench.
 
-Additionally, if such [addons](External_workbenches.md) are installed, tools from [Reinforcement](Arch_Rebar.md) (extra reinforcing bar tools), [Fasteners](Fasteners_Workbench.md) (bolts and screws), [Flamingo/Dodo](Flamingo_Workbench.md) (metal structure and piping tools) and [Parts Library](Parts_Library.md) are automatically included in the BIM workbench.
+Additionally, if such [addons](External_workbenches.md) are installed, tools from [Reinforcement](Arch_Rebar.md) (extra reinforcing bar tools), [Fasteners](Fasteners_Workbench.md) (bolts and screws), [Flamingo/Dodo](Flamingo_Workbench.md) (metal structure and piping tools) and [Parts Library](Parts_Library_Workbench.md) are automatically included in the BIM workbench.
 
 The BIM workbench also adds a series of items in the **status bar** of FreeCAD, and a couple of **context menu items**, accessible by right-clicking in the 3D view or in the tree view.
 
@@ -73,7 +73,7 @@ Annotations are visual help objects that can be placed inside your model. They c
 -   <img alt="" src=images/Draft_Dimension.svg  style="width:32px;"> [Dimension](Draft_Dimension.md): Draws a linear, angular, radial or diameter dimension
 -   <img alt="" src=images/Draft_Label.svg  style="width:32px;"> [Label](Draft_Label.md): Places a label with an arrow pointing to a selected element
 -   <img alt="" src=images/Arch_Axis.svg  style="width:32px;"> [Axis](Arch_Axis.md): Creates a single axis or a 1-direction array of axes to the document
--   <img alt="" src=images/Arch_Axis_System.svg  style="width:32px;"> [Axes system](Arch_AxisSystem.md): Creates an axes system composed of up to 3 series of axes
+-   <img alt="" src=images/Arch_AxisSystem.svg  style="width:32px;"> [Axis System](Arch_AxisSystem.md): Creates an axes system composed of up to 3 series of axes
 -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Grid](Arch_Grid.md): Creates a grid-like object to the document
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Section Plane](Arch_SectionPlane.md): Adds a section plane object to the document. Section planes define 2D views such as plans, sections and elevations
 -   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> _ page from a [SVG template](TechDraw_Templates.md)

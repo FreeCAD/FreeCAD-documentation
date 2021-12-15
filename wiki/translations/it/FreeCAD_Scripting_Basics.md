@@ -43,9 +43,7 @@ Inoltre l\'interprete ricorda i codici che vengono digitati. Questa altra utile 
 
 Per navigare nella cronologia dei comandi, basta usare i tasti **Freccia sù** oppure **Freccia giù**.
 
-Cliccando col tasto destro nella finestra dell\'interprete, si rendono disponibili diverse altre opzioni, quali, ad esempio, copiare lo storico (l\'intera cronologia, cosa utile quando si desidera sperimentare qualcosa prima di utilizzarla in uno script) oppure inserire un nome di un file con il suo percorso completo.
-
-[Torna all\'inizio](#top.md)
+Cliccando col tasto destro nella finestra dell\'interprete, si rendono disponibili diverse altre opzioni, quali, ad esempio, copiare lo storico (l\'intera cronologia, cosa utile quando si desidera sperimentare qualcosa prima di utilizzarla in uno script) oppure inserire un nome di un file con il suo percorso completo. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -61,9 +59,7 @@ La voce \"Python Help\" fornisce un collegamento rapido alla sezione wiki \"User
 
 </div>
 
-In the FreeCAD **Help** menu, you\'ll find an entry labeled **Automatic python modules documentation**, which will open a browser window containing a complete, realtime-generated documentation of all Python modules available to the FreeCAD interpreter, including Python and FreeCAD built-in modules, system-installed modules, and FreeCAD additional modules. The documentation available there depends on how much effort each module developer put into documenting his code, but Python modules have a reputation for being fairly well documented. Your FreeCAD window must stay open for this documentation system to work. The entry **Python scripting documentation** will give you a quick link to the [Power users hub](Power_users_hub.md) wiki section.
-
-[top](#top.md)
+In the FreeCAD **Help** menu, you\'ll find an entry labeled **Automatic python modules documentation**, which will open a browser window containing a complete, realtime-generated documentation of all Python modules available to the FreeCAD interpreter, including Python and FreeCAD built-in modules, system-installed modules, and FreeCAD additional modules. The documentation available there depends on how much effort each module developer put into documenting his code, but Python modules have a reputation for being fairly well documented. Your FreeCAD window must stay open for this documentation system to work. The entry **Python scripting documentation** will give you a quick link to the [Power users hub](Power_users_hub.md) wiki section. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -103,7 +99,8 @@ I due strumenti di esplorazione disponibili (il browser delle classi e l\'aiuto 
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -199,7 +196,8 @@ Se non abbiamo GUI (ad esempio, siamo in modalità riga di comando), l\'ultima r
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -259,7 +257,8 @@ Per accedere alla vista corrente, si digita:
 myView = Gui.ActiveDocument.ActiveView
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -281,9 +280,7 @@ In questo modo, FreeCAD è in grado di gestire un\'ampia gamma di tipi di oggett
 
 </div>
 
-The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and managing objects in the FreeCAD document. They don\'t actually do anything more such as creating or modifying geometry. This is because that geometry can be of several types, and therefore requires additional modules, each responsible for managing a certain geometry type. For example, the _ is able to build and modify mesh objects. In this manner FreeCAD is able to handle a wide variety of object types, that can all coexist in the same document, and new types can easily be added in the future.
-
-[top](#top.md)
+The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and managing objects in the FreeCAD document. They don\'t actually do anything more such as creating or modifying geometry. This is because that geometry can be of several types, and therefore requires additional modules, each responsible for managing a certain geometry type. For example, the _ is able to build and modify mesh objects. In this manner FreeCAD is able to handle a wide variety of object types, that can all coexist in the same document, and new types can easily be added in the future. {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -356,7 +353,8 @@ cube = Part.makeBox(2, 2, 2)
 Part.show(cube)
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -385,7 +383,8 @@ biggercube = Part.makeBox(5, 5, 5)
 myPart.Shape = biggercube
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -430,12 +429,16 @@ Per un elenco completo di tutti i moduli e gli strumenti disponibili, consultare
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
+
+
+
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

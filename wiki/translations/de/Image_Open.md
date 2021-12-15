@@ -9,19 +9,34 @@
 
 # Image Open/de
 
+
+</div>
+
 ## Beschreibung
 
 Das [Bild Öffnen](Image_Open/de.md)-Werkzeug öffnet einfach ein Bild aus deinem System in einem neuen Reiter im Ansichtsfenster.
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Drücke die **<img src="images/Image_Open.svg" width=16px> [Bild Öffnen](Image_Open/de.md)** Taste.
 2.  Wähle die gewünschte Bilddatei aus.
+
+
+</div>
 
 Das Bild wird in einem neuen Ansichtsfenster platziert, nicht in der 3D Ansicht.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Image Tools navi

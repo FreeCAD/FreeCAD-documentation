@@ -1,5 +1,5 @@
 # Category:Test Framework/es
-This category lists pages related to the [Test Framework Workbench/es](Test_Framework_Workbench/es.md).
+This category lists pages related to the [Test Framework Workbench](Testing.md).
 
 ### Contents:
 

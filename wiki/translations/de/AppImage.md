@@ -21,7 +21,16 @@ Für andere Installationsarten siehe [Herunterladen](Download/de.md).
 ## FreeCAD AnwendungsAbbilder 
 
 
+<div class="mw-translate-fuzzy">
+
+
 **'''Note:''' Entwicklungs-Builds werden nun auf dem [https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds '''FreeCAD-Bundle'''] github repo bereitgestellt.<br/>Wenn die untenstehenden Download-Verknüpfungen nicht funktionieren, lade die Dateien bitte manuell aus dem eingeklappten Abschnitt "Assets" unter dem o.g. Link herunter.**
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
   Stabil                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Entwicklung
   --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -29,6 +38,9 @@ Für andere Installationsarten siehe [Herunterladen](Download/de.md).
   ![](images/AppImage-logo.png ) \[<https://github.com/FreeCAD/FreeCAD/releases/download/>{{:Template:Stable-Major-and-Minor-Version}}/FreeCAD\_{{:Template:Stable-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage {{:Template:Stable-Version}}\] (\[<https://github.com/FreeCAD/FreeCAD/releases/download/>{{:Template:Stable-Major-and-Minor-Version}}/FreeCAD\_{{:Template:Stable-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage-SHA256.txt SHA256\])   ![](images/AppImage-logo.png ) \[<https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds->{{:Template:Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage {{:Template:Development-Version}}\] (\[<https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds->{{:Template:Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage-SHA256.txt SHA256\])
 
   : style=\"text-align: center; font-size: 150%; \| Verfügbare FreeCAD AnwendungsAbbilder \|+
+
+
+</div>
 
 **Wichtige Hinweise:**.
 

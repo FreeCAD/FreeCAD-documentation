@@ -1,12 +1,12 @@
 # Doxygen/pl
-## About
+## Informacje o 
 
 
 {{TOCright}}
 
 Doxygen is a popular tool for generating documentation from annotated C++ sources; it also supports other popular programming languages such as C\#, PHP, Java, and Python. Visit the [Doxygen website](http://www.doxygen.nl/) to learn more about the system, and consult the [Doxygen Manual](http://www.doxygen.nl/manual/index.html) for the full information.
 
-## Doxygen and FreeCAD 
+## Doxygen i FreeCAD 
 
 This document gives a brief introduction to Doxygen, in particular how it is used in FreeCAD to document its sources. Visit the [source documentation](source_documentation.md) page for instructions on building the FreeCAD documentation, which is also hosted online on the [FreeCAD API website](https://www.freecadweb.org/api/).
 

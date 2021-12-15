@@ -49,7 +49,6 @@ The command currently does not work well with layers and can produce confusing r
 
 -   [Document structure](Document_structure.md)
 -   [Organizing your model](http://www.freecadweb.org/wiki/index.php?title=Arch_tutorial#Organizing_your_model)
--   [Organize objects in the document](Ways_To_Organize_Objects.md)
 
 
 </div>

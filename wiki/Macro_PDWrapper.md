@@ -4,11 +4,10 @@
 |Icon=Workbench_PartDesign.svg
 |Description=Encapsulate non-PartDesign solids to work in PartDesign
 |Author=TheMarkster
-|Version=0.2021.10.21.rev3
-|Date=2021-10-21
+|Version=0.2021.11.22
+|Date=2021-11-22
 |FCVersion=python 3 versions
 |Download=[https://wiki.freecadweb.org/File:Workbench_PartDesign.svg ToolBar Icon]
-|SeeAlso=
 |Links=[https://github.com/mwganson/pdwrapper Full Documentation on Github]
 }}
 

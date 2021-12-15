@@ -1,12 +1,29 @@
 # Installing on Windows/es
+<div class="mw-translate-fuzzy">
+
 Puede instalar FreeCAD en Windows descargando uno de los siguientes instaladores:
+
+
+</div>
 
 
 {{DownloadWindowsStable}}
 
+
+<div class="mw-translate-fuzzy">
+
 Después de descargar el archivo .exe (NSIS Installer), haga doble clic en él para iniciar el proceso de instalación.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Abajo hay más información sobre algunas opciones técnicas. Sin embargo, la mayoría de los usuarios no necesitan más que los anteriores archivos .exe. Continuar a [Empieza](Getting_started/de.md) después de que la instalación se haya completado.
+
+
+</div>
 
 ## Instalación simple del instalador del NSIS 
 

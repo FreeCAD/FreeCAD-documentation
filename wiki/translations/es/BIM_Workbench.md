@@ -51,7 +51,13 @@ The [in-game tutorial](BIM_ingame_tutorial.md) is an easy way to quickly get on 
 
 El ambiente de trabajo BIM reúne herramientas de otros ambientes de trabajo de FreeCAD, principalmente [Borrador](Draft_Workbench/es.md), [Arquitectura](Arch_Workbench/es.md) y [Pieza](Part_Workbench/es.md), reorganizados a grandes rasgos en categorías lógicas: **dibujo 2D**, **modelado 3D**, **anotación** y **modificación**. La categoría **gestión** contiene herramientas específicas del ambiente de trabajo BIM.
 
-Además, si se instalan estos [addons](External_workbenches/es.md), las herramientas de [Refuerzo](Arch_Rebar/es.md) (herramientas para barras de refuerzo adicionales), [Fijadores](Fasteners_Workbench/es.md) (pernos y tornillos), [Flamingo/Dodo](Flamingo_Workbench/es.md) (herramientas de estructura metálica y tuberías) y [Biblioteca de piezas](Parts_Library/es.md) se incluyen automáticamente en el ambiente de trabajo BIM.
+
+<div class="mw-translate-fuzzy">
+
+Además, si se instalan estos [addons](External_workbenches/es.md), las herramientas de [Refuerzo](Arch_Rebar/es.md) (herramientas para barras de refuerzo adicionales), [Fijadores](Fasteners_Workbench/es.md) (pernos y tornillos), [Flamingo/Dodo](Flamingo_Workbench/es.md) (herramientas de estructura metálica y tuberías) y [Biblioteca de piezas](Parts_Library_Workbench/es.md) se incluyen automáticamente en el ambiente de trabajo BIM.
+
+
+</div>
 
 El ambiente de trabajo BIM también añade una serie de elementos en la **barra de estado** de FreeCAD, y un par de elementos del **menú contextual**\', accesibles haciendo clic con el botón derecho en la vista 3D o en la vista de árbol.
 
@@ -77,6 +83,9 @@ Los objetos 2D se utilizan habitualmente como ayudas al dibujo, o para dibujar l
 
 Anotaciones son objetos de ayuda visual que se pueden colocar dentro de su modelo. Pueden utilizarse para exportar su modelo directamente a un formato 2D como [DXF](Draft_DXF/es.md), o reutilizarse al crear vistas 2D de su modelo con el [TechDraw ambiente de trabajo](TechDraw_Workbench/es.md).
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Draft_Text.svg  style="width:32px;"> [Texto](Draft_Text/es.md): Dibuja una anotación de texto de varias líneas
 -   <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [CadenaForma](Draft_ShapeString/es.md): Dibuja una línea de texto como geometría
 -   <img alt="" src=images/Draft_Dimension.svg  style="width:32px;"> [Dimensión](Draft_Dimension/es.md): Dibuja una dimensión lineal, angular, radial o de diámetro
@@ -87,6 +96,9 @@ Anotaciones son objetos de ayuda visual que se pueden colocar dentro de su model
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Plano de sección](Arch_SectionPlane/es.md): Añade un objeto de plano de sección al documento. Los planos de sección definen vistas en 2D como planos, secciones y alzados
 -   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> _ a partir de una plantilla [SVG](TechDraw_Templates/es.md) new [TechDraw](TechDraw_Workbench.md) page from a [SVG plantilla](TechDraw_Templates/es.md)
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Vista](TechDraw_ArchView/es.md): Inserta una vista de un plano de sección en una página
+
+
+</div>
 
 ### 3D / BIM Modelado 
 

@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/tr
-   Name:Eskizi Düzenle
+   Name:Sketcher EditSketch
+   Name/tr:Eskizi Düzenle
    Workbenches:[Eskiz](Sketcher_Workbench/tr.md), [Parça tasarım](PartDesign_Workbench/tr.md)
    MenuLocation:Eskiz → Yeni Eskiz
 ---

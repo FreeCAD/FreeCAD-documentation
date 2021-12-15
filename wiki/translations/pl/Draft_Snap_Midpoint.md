@@ -9,7 +9,9 @@
 
 ## Description
 
-The <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> **Draft Snap Midpoint** option snaps to the midpoint of straight and circular edges. The edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
+The <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> **Draft Snap Midpoint** option snaps to the midpoint of edges. The edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
+
+In FreeCAD version 0.19 this snap option only works for straight and circular edges.
 
 ![](images/Draft_Snap_Midpoint_example.png ) 
 *Snapping the second point of a line to the midpoint of an edge*
@@ -24,7 +26,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
     -   Press the **<img src="images/Draft_Snap_Lock.svg" width=16px><img src="images/Toolbar_flyout_arrow.svg" width=8px>** button in the [Draft snap widget](Draft_snap_widget.md) and in the menu select the **<img src="images/Draft_Snap_Midpoint.svg" width=16px> Snap Midpoint** option.
 3.  Choose a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command to create your geometry.
 4.  Note that you can also change snap options while a command is active.
-5.  Move the cursor over a straight or circular edge.
+5.  Move the cursor over an edge.
 6.  The edge is highlighted.
 7.  If a midpoint is found the point is marked and the <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:16px;"> icon is displayed near the cursor.
 8.  Click to confirm the point.

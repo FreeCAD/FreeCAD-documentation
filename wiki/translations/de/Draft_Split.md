@@ -37,7 +37,7 @@ Der <img alt="" src=images/Draft_Split.svg  style="width:24px;"> **Entwurf Teile
 
 ## Hinweise
 
--   Wenn ein offener Draht geteilt wird und der angeklickte Punkt nicht genau auf der ausgewählten Kante liegt, wird der neue Punkt nicht kollinear mit der ehemaligen Kante sein. Verwende eine entsprechende [Entwurf Fang](Draft_Snapde.md) Option, um dies zu verhindern.
+-   Wenn ein offener Draht geteilt wird und der angeklickte Punkt nicht genau auf der ausgewählten Kante liegt, wird der neue Punkt nicht kollinear mit der ehemaligen Kante sein. Verwende eine entsprechende [Entwurf Fang](Draft_Snap/de.md) Option, um dies zu verhindern.
 -   Um Objekte zu teilen, die keine [Entwurf Linien](Draft_Line/de.md) oder [Entwurf Drähte](Draft_Wire/de.md) sind, kannst du zunächst versuchen, sie mit [Entwurf Hochstufen](Draft_Upgrade/de.md) und/oder [Entwurf Herabstufen](Draft_Downgrade/de.md) einmal oder mehrmals zu teilen.
 
 ## Skripten

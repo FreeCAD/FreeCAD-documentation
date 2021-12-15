@@ -23,7 +23,7 @@ Inserează un tor substractiv în Corpul activ. Forma sa este scăzută din soli
 <div class="mw-translate-fuzzy">
 
 1.  Apăsați butonul **<img src="images/PartDesign_SubtractiveTorus.png" width=24px> '''Subtractive Torus'''**. **Notă**: torul substractiv face parte din meniul cu iconițe numită *Create an additive primitive*. După lansarea FreeCAD, Cubul Substractiv este afișat implicit în bara de instrumente. Pentru a obține Torul substractiv, faceți clic pe săgeata în jos și alegeți <img alt="" src=images/PartDesign_SubtractiveTorus.png  style="width:24px;"> torul subtractiv din meniu.
-2.  Setați parametrii Primitivei și [Attachment](Part_Attachment.md).
+2.  Setați parametrii Primitivei și [Attachment](Part_EditAttachment.md).
 3.  Click **OK**.
 4.  Un Tor apare sub corpul activ.
 
@@ -48,7 +48,7 @@ The Torus can be edited after its creation in two ways:
 
 <div class="mw-translate-fuzzy">
 
--    **Attachment**: definește modurile de atașare, precum și dispunerea atașamentului. Consultați atașamentul [Part Attachment](Part_Attachment.md).
+-    **Attachment**: definește modurile de atașare, precum și dispunerea atașamentului. Consultați atașamentul [Part EditAttachment](Part_EditAttachment.md).
 
 -    **Label**:Botezați torul, schimbați numele dacă este necesar.
 

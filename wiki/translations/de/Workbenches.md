@@ -37,7 +37,7 @@ Die folgenden Arbeitsbereiche sind mit jeder FreeCAD Installation zusammengepack
 
 -   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> Der [Arbeitsbereich Strahlenverfolgung](Raytracing_Workbench/de.md) für die Arbeit mit Strahlenverfolgung (Bildsynthese).
 
--   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> Der [Arbeitsbereich Rekonstruktionsingenieurwissenschaften](Reverse_Engineering_Workbench/de.md) soll spezielle Werkzeuge zur Konvertierung von Formen/Volumenkörpern/Polygonnetze in parametrische FreeCAD-kompatible Formelemente bereitstellen. Er befindet sich noch in der Entwicklung.
+-   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> Der [Arbeitsbereich Rekonstruktionsingenieurwissenschaften](Reverse_Engineering_Workbench/de.md) soll spezielle Werkzeuge zur Konvertierung von Formen/Volumenkörpern/Polygonnetzen in parametrische FreeCAD-kompatible Formelemente bereitstellen. Er befindet sich noch in der Entwicklung.
 
 -   <img alt="" src=images/Workbench_Robot.svg  style="width:32px;"> Der [Roboter Arbeitsbereich](Robot_Workbench/de.md) zur Untersuchung von Roboterbewegungen.
 
@@ -67,7 +67,7 @@ Die folgenden Arbeitsbereiche sind aus Kompatibilitätsgründen noch in der Basi
 
 FreeCAD Arbeitsbereiche lassen sich einfach in [Python](Python/de.md) programmieren, es gibt daher viele Menschen, die zusätzliche Arbeitsbereiche außerhalb des FreeCAD Hauptentwicklungsbereichs entwickeln.
 
-Die [Externe Arbeitsbereich](external_workbenches/de.md) Seite listet alle, die dieser Gemeinschaft bekannt sind. Die meisten sind einfach aus FreeCAD heraus zu installieren, indem man die Option [Erweiterungs Manager](Addon_Manager/de.md), zu finden unter Menü {{MenuCommand/de|Werkzeuge → <img src="images/AddonManager.svg" width=24px> Erweiterungs Manager}}.
+Die [Externe Arbeitsbereich](external_workbenches/de.md) Seite listet alle, die dieser Gemeinschaft bekannt sind. Die meisten sind einfach aus FreeCAD heraus zu installieren, indem man die Option [Erweiterungsverwalter](Std_AddonMgr/de.md), zu finden unter Menü {{MenuCommand/de|Werkzeuge → <img src="images/Std_AddonMgr.svg" width=24px> Erweiterungsverwalter}}.
 
 Neue Arbeitsbereiche sind immer in der Entwicklung, bleib\' dran!
 

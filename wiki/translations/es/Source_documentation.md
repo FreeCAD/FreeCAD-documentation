@@ -39,7 +39,7 @@ Si tienes Doxygen instalado, es muy fácil construir la documentación. También
 sudo apt install doxygen graphviz
 ```
 
-Then follow the same steps you would do to compile FreeCAD, as described on the [compile on Unix](Compile_on_Linux/Unix.md) page, and summarized here for convenience.
+Then follow the same steps you would do to compile FreeCAD, as described on the [compile on Linux](Compile_on_Linux.md) page, and summarized here for convenience.
 
 -   Get the source code of FreeCAD and place it in its own directory `freecad-source`.
 -   Create another directory `freecad-build` in which you will compile FreeCAD and its documentation.
@@ -57,7 +57,7 @@ cmake -DBUILD_QT5=ON -DPYTHON_EXECUTABLE=/usr/bin/python3 ../freecad-source
 Mientras estás dentro del directorio de construcción, da la siguiente instrucción para crear sólo la documentación. 
 ```python
 make -j$(nproc --ignore=2) DevDoc
-``` Como se mencionó en [Compilación (aceleración)](Compilación_(aceleración)/es.md), la `-j` opción establece el número de núcleos de CPU utilizados para la compilación. Los archivos de documentación resultantes aparecerán en el directorio. 
+``` Como se mencionó en [Compilación (aceleración)](Compiling_(Speeding_up)/es.md), la `-j` opción establece el número de núcleos de CPU utilizados para la compilación. Los archivos de documentación resultantes aparecerán en el directorio. 
 ```python
 freecad-build/doc/SourceDocu/html/
 ```

@@ -56,7 +56,6 @@ For Windows users: please read the [Font file selection on Windows](#Font_file_s
 1.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_ShapeString.svg" width=16px> [Draft ShapeString](Draft_ShapeString.md)** button.
     -   Select the **Drafting → <img src="images/Draft_ShapeString.svg" width=16px> Shape from text** option from the menu.
-    -   Use the keyboard shortcut: **S** then **S**.
 2.  The **ShapeString** task panel opens.
 3.  Click a point in the [3D view](3D_view.md), or type coordinates.
 4.  Optionally press the **Reset Point** button to reset the point to the origin.
@@ -72,7 +71,7 @@ For Windows users: please read the [Font file selection on Windows](#Font_file_s
 
 <div class="mw-translate-fuzzy">
 
--   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında {{KEY | Enter}} tuşuna basın. Noktayı eklemek istediğiniz değerlere sahipseniz {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [ Nokta ekle](Draft_AddPoint/tr_.md)}} düğmesine basabilirsiniz.
+-   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında {{KEY | Enter}} tuşuna basın. Noktayı eklemek istediğiniz değerlere sahipseniz {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} düğmesine basabilirsiniz.
 -   Geçerli komutu iptal etmek için {{KEY | Esc}} veya {{Button | Close}} düğmesine basınız.
 
 
@@ -87,7 +86,7 @@ For Windows users: please read the [Font file selection on Windows](#Font_file_s
 
 -   Çok küçük metin yükseklikleri, ölçeklemede ayrıntı kaybı nedeniyle deforme karakter şekillerine neden olabilir.
 -   Mevcut sürüm, soldan sağa yazma ile sınırlıdır.
--   Dairesel biçimde düzenlenmiş metin oluşturmak için {{Button | <img src=images/_FCCircularTextButtom.png  style="width: 24px"> [ Dairesel Metin](Macro_Circular_Text_.md)}} makrosunu kullanın.
+-   Dairesel biçimde düzenlenmiş metin oluşturmak için ![ 24px](images/_FCCircularTextButtom.png ) [Macro FCCircularText](Macro_FCCircularText/tr.md) kullanın.
 
 
 </div>

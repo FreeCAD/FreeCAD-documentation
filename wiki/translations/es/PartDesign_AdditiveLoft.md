@@ -21,8 +21,8 @@
 ### Dialog-based workflow 
 
 1.  Press the **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive loft](PartDesign_AdditiveLoft.md)** button.
-2.  In the **Select feature** dialog, select a sketch to be used as base profile object and click **OK**.
-    -   Alternatively, a single sketch can be selected prior to pressing the Additive loft button.
+2.  In the **Select feature** dialog select a sketch to be used as base profile object and click **OK**.
+    -   Alternatively, either a single sketch or the face of a 3D object (<small>(v0.20)</small> ) can be selected prior to pressing the Additive loft button.
 3.  In the **Loft parameters**, press the **Add Section** button.
 4.  Select the next sketch in the [3D view](3D_view.md). Repeat to select more sketches in the order you want them to be lofted through. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
 5.  Set options if needed and click **OK**.
@@ -35,6 +35,7 @@
 1.  Select several sketches. It is hereby important in what order you select them:
     -   The sketch selected at first will become the base profile object in the next step
     -   The sketches selected after the first one will become the loft sections. Also here the selection order is important: The sketch selected as second will become the first loft section, the one selected as third becomes the second section and so on. (You can change the section order any time later in the loft dialog by dragging sections in the list to the desired position.<small>(v0.19)</small> )
+    -   The first or last selection can also be a face of a 3D object (<small>(v0.20)</small> )
 2.  Press the **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive loft](PartDesign_AdditiveLoft.md)** button.
 3.  Set options if needed and click **OK**.
 
@@ -65,26 +66,15 @@
 
 -    **Allow Multi Face**: non applicable.
 
-## Limitations
+## Notes
 
--   Sketches must form closed profiles.
--   It is not possible to loft to a vertex.
+-   To better control the shape of the loft, it is recommended that all cross-sections have the same number of segments. For example, for a loft between a rectangle and a circle, the circle should be broken down into 4 connected arcs.
+-   You can loft from or toward a single [vertex](Glossary#V.md) from a sketch or the body. <small>(v0.20)</small> 
+-   [Vertices](Glossary#V.md) can only be either the start or end of a loft. Otherwise the loft body would consist of two solids connected at a single point. This would violates the CAD kernel\'s definition of a 3D object.
 -   A cross-section cannot lie on the same plane as the one immediately preceding it.
--   To better control the shape of the loft, it is recommended that all the cross-sections have the same number of segments. For example, for a loft between a rectangle and a circle, the circle may be broken down into 4 connected arcs.
--   Loft will be created in the order that cross sections were added
--   If the sketch has inner geometry, i.e. the loft is supposed to have holes, then the order in which the sketch geometry is created should be the same for all sections: either start all sections with the inner geometry or start them all with the outer. Otherwise an invalid loft can be created where inner and outer walls cross.
-
-## Known Issues 
-
-
-<div class="mw-translate-fuzzy">
-
-## Temas conocidos 
-
--   Algunos modos de fallo convertirán la parte en negro
-
-
-</div>
+-   If the sketch has inner geometry, i.e. the loft is supposed to have holes, then the order in which the sketch geometry is created, should be the same for all sections: Either start all sections with the inner geometry or start them all with the outer. Otherwise an invalid loft can be created where inner and outer walls cross.
+-   It is not possible to loft disjoint or crossing loops.
+-   Some failure modes will turn the part black.
 
 ## Enlaces
 

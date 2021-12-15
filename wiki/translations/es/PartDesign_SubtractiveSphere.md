@@ -22,7 +22,7 @@ Inserta una Esfera sustractiva en el Body (cuerpo) activo. Su forma es sustraíd
 <div class="mw-translate-fuzzy">
 
 1.  Presionar el botón **<img src="images/PartDesign_SubtractiveSphere.svg" width=24px> '''Esfera Sustractiva'''** . **Nota**: La Esfera sustractiva forma parte de un icono de herramientas llamado *Crear una primitiva sustractiva*. Tras abrir FreeCAD, la Caja sustractiva es la única mostrada en la barra de herramientas. Para obtener el botón de la Esfera, pinchar en la flecha que indica hacia abajo que está al lado del icono visible y seleccionar Esfera sustractiva en el menú desplegable.
-2.  Seleccionar los parámetros de la primitiva y el [Attachment](Part_Attachment.md).
+2.  Seleccionar los parámetros de la primitiva y el [Attachment](Part_EditAttachment.md).
 3.  Aceptar **OK**.
 4.  Una operación de Esfera aparece dentro del Body (cuerpo) activo.
 
@@ -41,7 +41,7 @@ Tras su creación, la Esfera puede ser editada de dos maneras:
 
 <div class="mw-translate-fuzzy">
 
--    {{PropertyData/es|Attachment}}: Define el modo de Attachment y la separación del archivo adjunto. Ver [Part Attachment](Part_Attachment.md).
+-    {{PropertyData/es|Attachment}}: Define el modo de Attachment y la separación del archivo adjunto. Ver [Part EditAttachment](Part_EditAttachment.md).
 
 -    {{PropertyData/es|Label}}: Nombre dado al objeto Esfera. Se puede cambiar para adaptarlo a sus necesidades.
 

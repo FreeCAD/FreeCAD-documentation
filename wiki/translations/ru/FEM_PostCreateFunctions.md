@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/ru
-   Name:Fem CompPostCreateFunctions
+   Name:FEM CompPostCreateFunctions
    Name/ru:Fem CompPostCreateFunctions
    MenuLocation: Results → Filter Functions
    Workbenches:[FEM](FEM_Workbench/ru.md)
@@ -23,13 +23,7 @@ ToDo
 -   <img alt="" src=images/Fem-post-geo-sphere.svg  style="width:32px;"> Sphere:
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

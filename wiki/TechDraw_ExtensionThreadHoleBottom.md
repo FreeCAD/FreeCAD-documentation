@@ -1,11 +1,11 @@
 ---
 - GuiCommand:
    Name:TechDraw ExtensionThreadHoleBottom
-   MenuLocation:TechDraw → Extensions: centerlines and threading → Cosmetic thread hole bottom view
+   MenuLocation:TechDraw → Extensions: Centerlines/Threading → Thread hole
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionThreadBoltBottom](TechDraw_ExtensionThreadBoltBottom.md), [TechDraw ExtensionCircleCenterLines](TechDraw_ExtensionCircleCenterLines.md)
+   SeeAlso:[TechDraw ExtensionThreadBoltBottom](TechDraw_ExtensionThreadBoltBottom.md)
 ---
 
 # TechDraw ExtensionThreadHoleBottom
@@ -19,11 +19,12 @@ The <img alt="" src=images/TechDraw_ExtensionThreadHoleBottom.svg  style="width:
 
 ## Usage
 
-1.  Select one or more circles representing holes.
-2.  There are several ways to invoke the tool:
+1.  Optionally change the current line attributes with the <img alt="" src=images/TechDraw_ExtensionSelectLineAttributes.svg  style="width:16px;"> [TechDraw ExtensionSelectLineAttributes](TechDraw_ExtensionSelectLineAttributes.md) tool.
+2.  Select one or more circles representing holes.
+3.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_ExtensionThreadHoleBottom.svg" width=16px> [TechDraw ExtensionThreadHoleBottom](TechDraw_ExtensionThreadHoleBottom.md)** button.
-    -   Select the **TechDraw → Extensions: centerlines and threading → <img src="images/TechDraw_ExtensionThreadHoleBottom.svg" width=16px> Cosmetic thread hole bottom view** option from the menu.
-3.  Symbolic threads are added.
+    -   Select the **TechDraw → Extensions: Centerlines/Threading → <img src="images/TechDraw_ExtensionThreadHoleBottom.svg" width=16px> Thread hole** option from the menu.
+4.  Symbolic threads are added.
 
 
 

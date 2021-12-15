@@ -25,7 +25,15 @@ Han pasado casi dos años desde la anterior versión 0.16, pero el equipo de Fre
 
 El entorno de trabajo \"PartDesign\" ha sido completamente revisado. Ahora hay un nuevo contenedor llamado \"Body\" que contiene una cadena de funciones y alivia la necesidad de asignar bocetos a caras planas. Nuevas herramientas para crear geometrías de referencia (datum) como puntos, ejes y planos hacen que el diseño de piezas sea mucho más versátil. ![](images/PartDesign_Body_tree.png )
 
-El nuevo [\"Addon manager\"](Addon_Manager.md) disponible en el menu \"Herramientas\" (el cual estaba previamente disponible como [addons installer macro](https://github.com/FreeCAD/FreeCAD-addons)) hace que la instalación y actualización de módulos y macros adicionales sea mucho más fácil y estandarizada para Windows, Mac OS X y Linux. <img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
+
+<div class="mw-translate-fuzzy">
+
+El nuevo [\"Addon manager\"](Std_AddonMgr.md) disponible en el menu \"Herramientas\" (el cual estaba previamente disponible como [addons installer macro](https://github.com/FreeCAD/FreeCAD-addons)) hace que la instalación y actualización de módulos y macros adicionales sea mucho más fácil y estandarizada para Windows, Mac OS X y Linux.
+
+
+</div>
+
+<img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
 
 El entorno \"Sketcher\" ahora soporta la creacion de B-spline con muchas formas de controlar curvas y desplegar información de estas. <img alt="" src=images/FC017_Sketcher_B-spline_01.png  style="width:300px;">
 
@@ -250,7 +258,7 @@ El nuevo entorno \"TechDraw\" tiene como objetivo reemplazar el entorno de traba
 
 <div class="mw-translate-fuzzy">
 
--   La nueva utilidad [Part Attachment](Part_Attachment.md) accesible desde el menú \'\' Part → Attachment\... \'\' se puede usar para unir paramétricamente la mayoría de los tipos de objetos a otra geometría.
+-   La nueva utilidad [Part EditAttachment](Part_EditAttachment.md) accesible desde el menú \'\' Part → Attachment\... \'\' se puede usar para unir paramétricamente la mayoría de los tipos de objetos a otra geometría.
 
 
 </div>
@@ -279,7 +287,13 @@ El banco de trabajo PartDesign recibió cambios masivos, fruto de los esfuerzos 
 
 El Ambiente de trabajo Path se ha revisado de forma masiva en la versión 0.17. La revisión general vio la eliminación de todos los códigos HeeksCNC más antiguos y el reemplazo de la envoltura de la libraría python con el nuevo módulo de Path-Area. Como resultado, las operaciones se han vuelto mucho más poderosas, más rápidas, con una base de código simplificada.
 
--   El soporte para operaciones 2.5D está completo, incluidos [ contour](Path_Contour.md), [ face-milling](Path_MillFace.md), [ pocketing](Path_Pocket_Shape.md), [ perfiling](Path_ProfileFace.md), y [ drilling](Path_Drilling.md).
+
+<div class="mw-translate-fuzzy">
+
+-   El soporte para operaciones 2.5D está completo, incluidos [ contour](Path_Profile.md), [ face-milling](Path_MillFace.md), [ pocketing](Path_Pocket_Shape.md), [ perfiling](Path_Profile.md), y [ drilling](Path_Drilling.md).
+
+
+</div>
 
 -   Soporte limitado para operaciones [ 3D pocketing](Path_Pocket_3D.md).
 

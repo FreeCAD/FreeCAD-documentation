@@ -1,42 +1,37 @@
 # Download/hr
 {{TOCright}}
 
+### Trenutna stabilna verzija 
 
-<div class="mw-translate-fuzzy">
+The 0.19.3 release of FreeCAD (24366) was published on 2021-12-04. To find out what\'s new, see the [release notes](Release_notes_0.19.md).
 
-### Trenutna stabilna verzija FreeCAD-a 
+You can find SHA256 checksums to verify the integrity of your download on the [0.19.3 release page](https://github.com/FreeCAD/FreeCAD/releases/tag/0.19.3).
 
+Previous versions can be downloaded from the [releases](https://github.com/FreeCAD/FreeCAD/releases) page.
 
-</div>
-
-The first 0.19.2 release of FreeCAD (24291) was published on 2021-04-22. To find out what\'s new, see the [release notes](Release_notes_0.19.md).
-
-You will find SHA256 checksums to verify the integrity of your download on the [0.19.2 release page](https://github.com/FreeCAD/FreeCAD/releases/tag/0.19.2).
-
-Previous versions can be downloaded from the [releases](https://github.com/FreeCAD/FreeCAD/releases) page
-
-+:----------------------------------------------------------------------------------------------------------------------------------------:+---+:------------------------------------------------------------------------------------------------------------------------------------------------------:+---+:-----------------------------------------------------------------------:+
-| ![](images/Windows.png )                                                                                                           |   | ![](images/Mac.png )                                                                                                                                 |   | ![](images/AppImage-logo.png )                              |
-|                                                                                                                                          |   |                                                                                                                                                        |   |                                                                         |
-| Install on Windows                                                                                                                       |   | Install on Mac                                                                                                                                         |   | Install on Linux                                                        |
-|                                                                                                                                          |   |                                                                                                                                                        |   |                                                                         |
-| _ 64-bit |
-+------------------------------------------------------------------------------------------------------------------------------------------+---+--------------------------------------------------------------------------------------------------------------------------------------------------------+---+-------------------------------------------------------------------------+
++:---------------------------------------------------------------------------------------------------------------------------------:+---+:---------------------------------------------------------------------------------------------------------------:+---+:------------------------------------------:+
+| ![](images/Windows.png )                                                                                                    |   | ![](images/Mac.png )                                                                                          |   | ![](images/AppImage-logo.png ) |
+|                                                                                                                                   |   |                                                                                                                 |   |                                            |
+| Install on Windows                                                                                                                |   | Install on Mac                                                                                                  |   | Install on Linux                           |
+|                                                                                                                                   |   |                                                                                                                 |   |                                            |
+| _     |
++-----------------------------------------------------------------------------------------------------------------------------------+---+-----------------------------------------------------------------------------------------------------------------+---+--------------------------------------------+
 
 
 <div class="mw-translate-fuzzy">
 
 #### Upute za Windows korisnike 
 
--   32-Bit installer (x86) podržava slijedeće Windows verzije: 7/8/10.
--   64-Bit installer (x64) podržava slijedeće Windows verzije: 7/8/10.
+-   Slijedeće Windows verzije su podržane: 7/8/10.
+-   Portabl verzija ([64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD-0.19.2.7b5e18a-WIN-x64-portable1.7z)) kojoj nije potrebna instalacija je na stranici izdanja.
+-   Paketi mogu biti instalirani sa [Chocolatey](https://chocolatey.org/packages/freecad).
 
 
 </div>
 
 ### Notes for Mac OS X users 
 
-Mac OS X 10.12 *Sierra* is the minimum supported version.
+Mac OS X 10.12 Sierra is the minimum supported version.
 
 ### Notes for GNU/Linux users 
 
@@ -47,8 +42,8 @@ Please see the [Installing on Linux](Installing_on_Linux.md) page for more insta
 A portable version that doesn\'t need installation can be achieved by starting FreeCAD with these commands: <small>(v0.19)</small>  
 ```python
 cd path/to/directory_containing_AppImage/
-chmod +x ./FreeCAD_0.19-23756-Linux-Conda_glibc2.12-x86_64.AppImage
-HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./FreeCAD_0.19-23756-Linux-Conda_glibc2.12-x86_64.AppImage
+chmod +x ./FreeCAD_0.19-24366-Linux-Conda_glibc2.12-x86_64.AppImage
+HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./FreeCAD_0.19-24366-Linux-Conda_glibc2.12-x86_64.AppImage
 ```
 
 More information about FreeCAD\'s environment variables can be found on [the configuration page](Start_up_and_Configuration#Environment_variables.md).
@@ -63,7 +58,13 @@ FreeCAD\'s development is active.
 
 ## Additional modules and macros 
 
-FreeCAD zajednica pruža mnogo dodatnih modula i makronaredbi. Od 0.17 mogu se lako instalirati iz sustava FreeCAD pomoću [Uređivač Dodataka](Addon_Manager/hr.md)<img alt="" src=images/AddonManager.svg  style="width:22px;">.
+
+<div class="mw-translate-fuzzy">
+
+FreeCAD zajednica pruža mnogo dodatnih modula i makronaredbi. Od 0.17 mogu se lako instalirati iz sustava FreeCAD pomoću [Uređivač Dodataka](Std_AddonMgr/hr.md)<img alt="" src=images/Std_AddonMgr.svg  style="width:24px;">.
+
+
+</div>
 
 ---
 [documentation index](../README.md) > Download/hr

@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/tr
-   Name:Parça Oluştur
+   Name:Std Part
+   Name/tr:Parça Oluştur
    MenuLocation:None
    Workbenches:Hepsi
    Version:0.17

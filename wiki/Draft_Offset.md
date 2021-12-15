@@ -20,7 +20,7 @@ The <img alt="" src=images/Draft_Offset.svg  style="width:24px;"> **Draft Offset
 
 See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
-1.  Optionally select one object.
+1.  Optionally select one object. The object must lie on the current [Draft working plane](Draft_SelectPlane.md).
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Draft_Offset.svg" width=16px> [Draft Offset](Draft_Offset.md)** button.
     -   Select the **Modification → <img src="images/Draft_Offset.svg" width=16px> Offset** option from the menu.

@@ -227,7 +227,7 @@ See [Part scripting](Part_scripting.md).
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/jp|Mesh Module/jp|Drawing Module/jp}}
+{{docnav/ja|Mesh Workbench/ja|Drawing Workbench/ja}}
 
 
 </div>

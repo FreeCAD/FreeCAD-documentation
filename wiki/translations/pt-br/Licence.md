@@ -1,4 +1,13 @@
 # Licence/pt-br
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
+
 {{TOCright}}
 
 ## Licenças utilizadas no FreeCAD 
@@ -49,10 +58,16 @@ Nevertheless this decision is made only for the core system of FreeCAD. Every wr
 {{Quote|Jürgen Riegel|15 October 2006}}
 
 
+<div class="mw-translate-fuzzy">
 
 
 
- 
+
+
+</div>
+
+
+
 
 _
 

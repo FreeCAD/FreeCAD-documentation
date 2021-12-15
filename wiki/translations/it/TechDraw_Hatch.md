@@ -32,7 +32,7 @@ Lo strumento Tratteggio da modello riempie una regione chiusa di una vista con u
 
 <div class="mw-translate-fuzzy">
 
--   Il tratteggio è vulnerabile al problema della \"[denominazione topologica](Topological_naming_problem/it.md)\". Per maggiori informazioni vedere lo strumento [Lunghezza](TechDraw_Dimension_Length/it.md). La pratica migliore è di posticipare il tratteggio fino a quando il disegno non è stabile.
+-   Il tratteggio è vulnerabile al problema della \"[denominazione topologica](Topological_naming_problem/it.md)\". Per maggiori informazioni vedere lo strumento [Lunghezza](TechDraw_LengthDimension/it.md). La pratica migliore è di posticipare il tratteggio fino a quando il disegno non è stabile.
 -   Esempi di [SVG](SVG/it.md) sono disponibili localmente in:
 
 

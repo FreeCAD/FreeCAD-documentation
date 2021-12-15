@@ -23,7 +23,13 @@ I file della guida possono essere scaricati da: <https://github.com/FreeCAD/Free
 
 </div>
 
-In futuro potranno essere installati da FreeCAD con [Addon Manager](Addon_Manager/it.md).
+
+<div class="mw-translate-fuzzy">
+
+In futuro potranno essere installati da FreeCAD con [Addon Manager](Std_AddonMgr/it.md).
+
+
+</div>
 
 I file della guida hanno sempre gli stessi nomi: {{FileName|freecad.qhc}} e {{FileName|freecad.qch}}. Per avere una versione diversa dei file della guida, è necessario installarli in directory diverse. In caso di download manuale, è sufficiente archiviare il file zip localmente ed estrarre l\'archivio nella directory desiderata.
 

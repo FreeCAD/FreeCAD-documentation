@@ -27,7 +27,7 @@ W tym przykładzie sześcian jest podzielony na sekcje za pomocą cylindra:
 
 1.  Wybierz obiekt bazowy.
 2.  Wybierz narzędzie sekcji.
-3.  Kliknij w przycisk **PCzęść** → **![](images/)Utwórz_iloraz_dwóch_obiektów**_z_głównego_menu.
+3.  Kliknij w przycisk **Część** → **<img src="images/Part_Section.svg" width=24px>Utwórz iloraz dwóch obiektów** z głównego menu.
 
 ## Odnośniki internetowe 
 

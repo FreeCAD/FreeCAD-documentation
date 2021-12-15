@@ -10,14 +10,32 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD\'i Windows\'a kurmanın en kolay yolu aşağıdaki kurulum dosyalarından, işletim sisteminize uygun olanı indirmektir.
+
+
+</div>
 
 
 {{DownloadWindowsStable}}
 
+
+<div class="mw-translate-fuzzy">
+
 .Msi (Microsoft Installer) dosyasını indirdikten sonra, kurulum işlemini başlatmak için üzerine çift tıklayın.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Aşağıda kurulum hakkında daha fazla bilgi bulunmaktadır. Size zor gibi görünüyorsa, endişelenmeyin! Çoğu Windows kullanıcısı, FreeCAD\'i kurmak ve çalışmaya başlamak için .msi\'den daha fazlasına ihtiyaç duymaz !
+
+
+</div>
 
 ### Basit Microsoft Yükleyici Kurulumu 
 

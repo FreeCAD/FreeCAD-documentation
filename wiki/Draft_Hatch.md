@@ -30,7 +30,7 @@ The <img alt="" src=images/Draft_Hatch.svg  style="width:24px;"> **Draft Hatch**
 -   Select a **Pattern** from the file. It is currently advisable to avoid patterns with dashed lines.
 -   Specify a **Scale** for the pattern.
 -   Specify a **Rotation** for the pattern.
--   Press **Esc** or the **Close** button to abort the command.
+-   Press **Esc** or the **Cancel** button to abort the command.
 
 ## Pattern alignment 
 
@@ -111,7 +111,7 @@ doc = App.newDocument()
 rectangle = Draft.make_rectangle(4000, 1000)
 rectangle.MakeFace = True
 filename = App.getHomePath() + "data/Mod/TechDraw/PAT/FCPAT.pat"
-pattern = "Horizontal5" # The pattern must exist in the PAT file.
+pattern = "Horizontal5"
 hatch = Draft.make_hatch(rectangle, filename, pattern, scale=50, rotation=45)
 
 doc.recompute()

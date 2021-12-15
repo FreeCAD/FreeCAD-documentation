@@ -28,7 +28,13 @@ Il comando <img alt="" src=images/Part_Fuse.svg  style="width:24px;"> [Unione](P
 
 ## Input supportati 
 
+
+<div class="mw-translate-fuzzy">
+
 Gli oggetti in ingresso devono essere delle forme [OpenCascade](OpenCascade/it.md). Ad esempio: cose fatte con gli ambienti Parte, PartDesign o Sketcher. Non mesh (a meno che essi non siano stati convertiti in Forme). Per gli oggetti mesh ci sono strumenti booleani specifici nell\'ambiente Mesh.
+
+
+</div>
 
 -   Solido + Solido: il risultato è un solido che occupa tutto il volume coperto dagli oggetti in ingresso
 

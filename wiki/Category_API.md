@@ -10,4 +10,4 @@ This category gathers articles that list objects and methods available for [Pyth
 _
 
 ---
-[documentation index](../README.md) > Category:API
+[documentation index](../README.md) > [API](Category_API.md) > Category:API

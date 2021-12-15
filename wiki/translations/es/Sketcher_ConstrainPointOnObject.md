@@ -1,6 +1,13 @@
-# Sketcher ConstrainPointOnObject/es
 ---
-- GuiCommand:/es   Name:Constraint PointOnObject   Workbenches:_---
+- GuiCommand:/es
+   Name:Constraint PointOnObject
+   Name/es:Constraint PointOnObject
+   Workbenches:[Croquizador](Sketcher_Workbench/es.md), [Diseño de Piezas](PartDesign_Workbench/es.md)
+   MenuLocation:Croquizador → Restricciones del Croquizador → Punto en objeto
+   SeeAlso:[Coincidente](Sketcher_ConstrainCoincident/es.md)
+---
+
+# Sketcher ConstrainPointOnObject/es
 
 
 </div>
@@ -34,7 +41,7 @@
 
 ## Scripting
 
-The constraint can be created from macros and from the python console by using the following command:
+The constraint can be created from [macros](Macros.md) and from the [Python](Python.md) console by using the following command:
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`

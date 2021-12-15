@@ -1,8 +1,9 @@
 ---
 - GuiCommand:/de
    Name:Assembly3 CreateElement
-   Name/de:Assembly3 CreateElement
+   Name/de:Assembly3 ElementAnlegen
    Icon:Assembly_New_Element.svg
+   MenuLocation:Assembly3 → Create element
    Workbenches:[Assembly3](Assembly3_Workbench/de.md)
    Shortcut:**A** **E**
 ---

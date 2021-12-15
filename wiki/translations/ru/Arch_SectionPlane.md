@@ -5,7 +5,7 @@
    MenuLocation:Архитектура -> Плоскость сечения
    Workbenches:[Arch](Arch_Workbench/ru.md)
    Shortcut:**S** **P**
-   SeeAlso:[Draft Shape2DView](Draft_Shape2DView/ru.md), [TechDraw NewArch](TechDraw_NewArch/ru.md)
+   SeeAlso:[Draft Shape2DView](Draft_Shape2DView/ru.md), [TechDraw NewArch](TechDraw_ArchView/ru.md)
 ---
 
 # Arch SectionPlane/ru
@@ -20,7 +20,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Сама по себе плоскость сечения не создаст никакого вида набора своих объектов. Для этого вы должны либо создать [Drawing DraftView](Draft_Drawing/ru.md), чтобы создать вид на [странице чертежа](Drawing_Workbench/ru.md), [Draft Shape2DView](Draft_Shape2DView/ru.md) для создания вида в самом 3D-документе, или [TechDraw ArchView](TechDraw_NewArch/ru.md) для создания представления на [странице TechDraw](TechDraw_Workbench/ru.md).
+Сама по себе плоскость сечения не создаст никакого вида набора своих объектов. Для этого вы должны либо создать [Drawing DraftView](Draft_Drawing/ru.md), чтобы создать вид на [странице чертежа](Drawing_Workbench/ru.md), [Draft Shape2DView](Draft_Shape2DView/ru.md) для создания вида в самом 3D-документе, или [TechDraw ArchView](TechDraw_ArchView/ru.md) для создания представления на [странице TechDraw](TechDraw_Workbench/ru.md).
 
 
 </div>
@@ -38,7 +38,7 @@
 ** или нажмите **S**, затем **P**
 4.  [Move](Draft_Move/ru.md)/[rotate](Draft_Rotate/ru.md) Section Plane в правильное положение, если нужно.
 5.  Выберите плоскость сечения, если она еще не выбрана.
-6.  Используйте [Drawing DraftView](Draft_Drawing/ru.md), [Draft Shape2DView](Draft_Shape2DView/ru.md) или [TechDraw ArchView](TechDraw_NewArch/ru.md) для создания вида.
+6.  Используйте [Drawing DraftView](Draft_Drawing/ru.md), [Draft Shape2DView](Draft_Shape2DView/ru.md) или [TechDraw ArchView](TechDraw_ArchView/ru.md) для создания вида.
 
 
 </div>
@@ -54,7 +54,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   Создайте дополнительные [Drawing DraftViews](Draft_Drawing.md), если Вы работаете с [верстаком Drawing](Drawing_Workbench/ru.md), или [TechDraw ArchView](TechDraw_NewArch/ru.md), если Вы используете [верстак TechDraw](TechDraw_Workbench/ru.md).
+-   Создайте дополнительные [Drawing DraftViews](Draft_Drawing.md), если Вы работаете с [верстаком Drawing](Drawing_Workbench/ru.md), или [TechDraw ArchView](TechDraw_ArchView/ru.md), если Вы используете [верстак TechDraw](TechDraw_Workbench/ru.md).
 
 
 </div>

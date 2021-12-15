@@ -12,9 +12,9 @@
 
 ## Описание
 
-A [PartDesign\_SubShapeBinder](PartDesign_SubShapeBinder.md) imports an element from another Body into the active [Body](PartDesign_Body.md). It can take the [Shape](Shape.md) of, or be \"bound\" to one or multiple objects or subelements (edges or faces) from another object.
+A [PartDesign SubShapeBinder](PartDesign_SubShapeBinder.md) imports an element from another Body into the active [Body](PartDesign_Body.md). It can take the [Shape](Shape.md) of, or be \"bound\" to, one or multiple objects or subelements (edges or faces) from another object.
 
-Then the resulting binder object can be moved or be used to perform advanced operations like [booleans](PartDesign_Boolean.md) or [pads](PartDesign_Pad.md).
+Then the resulting binder object can be moved or be used to perform advanced operations like **<img src="images/PartDesign_Boolean.svg" width=16px> [booleans](PartDesign_Boolean.md)** or **<img src="images/PartDesign_Pad.svg" width=16px> [padding](PartDesign_Pad.md)**.
 
 It can also bind to objects that are nested inside [Std Parts](Std_Part.md), and it will track the relative placement of these features. This is useful in the context of creating [assemblies](Assembly.md), as often the user needs to reference [features](PartDesign_Feature.md) that are already correctly placed in another subassembly.
 
@@ -30,7 +30,7 @@ It can also bind to objects that are nested inside [Std Parts](Std_Part.md), and
 ## Применение
 
 1.  Start with a **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/PartDesign_AdditivePrism.svg style="width:Body](PartDesign_Body.md)** already in place, containing a single [feature](PartDesign_Feature.md), for example, an **[16px">  [AdditivePrism](PartDesign_AdditivePrism.md)**.
-2.  Create a second **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/PartDesign_AdditiveBox.svg style="width:Body](PartDesign_Body.md)**, containing a single [feature](PartDesign_Feature.md), for example, an **[16px"> [AdditiveBox](PartDesign_AdditiveBox.md)**. This will be the active body.
+2.  Create a second **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/PartDesign_AdditiveBox.svg style="width:Body](PartDesign_Body.md)**, containing a single [feature](PartDesign_Feature.md), for example, an **[16px"> [AdditiveBox](PartDesign_AdditiveBox.md)**. Make this the [active body](PartDesign_Body#Active_status.md).
 3.  Select the entire first body, then press **<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [SubShapeBinder](PartDesign_SubShapeBinder.md)**.
 4.  Modify the properties of this binder object, for example its placement.
 5.  Use it with another operation, such as **<img src=images/PartDesign_Boolean.svg style="width:16px"> [Boolean](PartDesign_Boolean.md)**.

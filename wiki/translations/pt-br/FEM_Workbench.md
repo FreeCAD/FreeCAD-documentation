@@ -88,7 +88,7 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_ConstraintTie.svg  style="width:32px;"> [Restrições de amarração](FEM_ConstraintTie/pt-br.md): <small>(v0.19)</small> 
 
--   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a tie constraint (\"bonded contact\") between two faces. <small>(v0.20)</small> 
+-   <img alt="" src=images/FEM_ConstraintSpring.svg  style="width:32px;"> [Constraint spring](FEM_ConstraintSpring.md): Used to define a spring. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/FEM_ConstraintForce.svg  style="width:32px;"> [Restrição de força](FEM_ConstraintForce/pt-br.md): Usada para definir uma força em Newtons \[N\] aplicada uniformemente a uma face selecionável em uma direção definida.
 
@@ -156,7 +156,7 @@ A bancada FEM pode ser usada no Linux, Windows e Mac OSX. Como o ambiente de tra
 
 -   <img alt="" src=images/FEM_EquationFlow.svg  style="width:32px;"> [Equação de fluxo](FEM_EquationFlow/pt-br.md)
 
--   <img alt="" src=images/FEM_EquationFlux.svg  style="width:32px;"> [Equação de solucionador de fluxo](FEM_EquationFluxsolver/pt-br.md)
+-   <img alt="" src=images/FEM_EquationFlux.svg  style="width:32px;"> [Equação de solucionador de fluxo](FEM_EquationFlux/pt-br.md)
 
 -   <img alt="" src=images/FEM_EquationHeat.svg  style="width:32px;"> [Equação de calor](FEM_EquationHeat/pt-br.md)
 
@@ -174,15 +174,15 @@ o menu para ajustar e iniciar o solucionador selecionado.
 
 -   <img alt="" src=images/FEM_PostApplyChanges.svg  style="width:32px;"> [Postar mudanças aplicadas](FEM_PostApplyChanges/pt-br.md)
 
--   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:32px;"> [Postar pipeline do resultado](FEM_PostPipelineFromResultApply_changes_to_pipeline/pt-br.md)
+-   <img alt="" src=images/FEM_PostPipelineFromResult.svg  style="width:32px;"> [Postar pipeline do resultado](FEM_PostPipelineFromResult/pt-br.md)
 
 -   <img alt="" src=images/FEM_PostFilterWarp.svg  style="width:32px;"> [Filtro de dobra](FEM_PostFilterWarp/pt-br.md)
 
--   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Filtro de clipe escalar](FEM_PostCreateScalarClipFilter/pt-br.md)
+-   <img alt="" src=images/FEM_PostFilterClipScalar.svg  style="width:32px;"> [Scalar clip filter](FEM_PostFilterClipScalar/pt-br.md):
 
--   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:32px;"> [Criar filtro de corte](FEM_PostCreateCutFilter/pt-br.md)
+-   <img alt="" src=images/FEM_PostFilterCutFunction.svg  style="width:32px;"> [Criar filtro de corte](FEM_PostFilterCutFunction/pt-br.md):
 
--   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:32px;"> [Filtro de clipes de região](FEM_PostCreateClipFilter/pt-br.md)
+-   <img alt="" src=images/FEM_PostFilterClipRegion.svg  style="width:32px;"> [Filtro de clipes de região](FEM_PostFilterClipRegion/pt-br.md)
 
 -   <img alt="" src=images/FEM_PostFilterDataAlongLine.svg  style="width:32px;"> [Filtro de clipes de linha](FEM_PostCreateDataAlongLineFilter/pt-br.md)
 
@@ -242,7 +242,7 @@ Tutorial 5: [Análise FEM transitória](Transient_FEM_analysis/pt-br.md)
 
 Tutorial 6: [Pós-processamento dos resultados FEM com Paraview](Post-Processing_of_FEM_Results_with_Paraview/pt-br.md)
 
-Tutorial 7: [Exemplo FEM Capacitância Duas Bolas](Exemplo_FEM_Capacitância_Duas_Bolas.md); Elmer\'s GUI tutorial 6 \" Capacitância Eletrostática Duas Bolas\" usando exemplos FEM.
+Tutorial 7: [Exemplo FEM Capacitância Duas Bolas](FEM_Example_Capacitance_Two_Ball.md); Elmer\'s GUI tutorial 6 \" Capacitância Eletrostática Duas Bolas\" usando exemplos FEM.
 
 Acoplamento de tutoriais de análise mecânica térmica por [openSIM](https://opensimsa.github.io/training.html)
 
@@ -258,11 +258,17 @@ O bancada de trabalho FEM está em constante desenvolvimento. Um objetivo do pro
 
 As seguintes informações são destinadas aos usuários e desenvolvedores que desejam ampliar o Workbench FEM de diferentes maneiras. A familiaridade com C++ e Python é esperada, e também é necessário algum conhecimento do sistema \"objeto de documento\" usado no FreeCAD; esta informação está disponível no [Documentação para usuários avançados](Power_users_hub/pt-br.md) e no [Documentação para desenvolvedores](Developer_hub/pt-br.md).Observe que, como o FreeCAD está em desenvolvimento ativo, alguns artigos podem ser muito antigos e, portanto, obsoletos. As informações mais atualizadas são discutidas no [FreeCAD forums](https://forum.freecadweb.org/index.php) na seção Desenvolvimento. Para discussões FEM, conselhos ou assistência na ampliação do workbench, o leitor deve consultar o [FEM subforum](https://forum.freecadweb.org/viewforum.php?f=18).
 
+
+<div class="mw-translate-fuzzy">
+
 Os artigos seguintes explicam como o workbench pode ser ampliado, por exemplo, adicionando novos tipos de condições de limite (restrições), ou equações.
 
 -   [Ampliar o Módulo FEM](Extend_FEM_Module/pt-br.md)
 -   [Adicionar Tutorial de Restrições FEM](Add_FEM_Constraint_Tutorial/pt-br.md)
 -   [Adicionar Tutorial de Equação FEM](Add_FEM_Equation_Tutorial/pt-br.md)
+
+
+</div>
 
 Um guia do desenvolvedor foi escrito para ajudar os usuários a entenderem a complexa base de código do FreeCAD e as interações entre os elementos centrais e as bancadas de trabalho individuais. O livro é hospedado no github para que múltiplos usuários possam contribuir com ele e mantê-lo atualizado.
 

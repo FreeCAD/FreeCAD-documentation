@@ -16,7 +16,7 @@
 
 Las sólidas capacidades de modelado de FreeCAD se basan en la _ es una capa que se encuentra en la parte superior de las bibliotecas de la OCCT, que da al usuario acceso a las primitivas y funciones geométricas de la OCCT. Esencialmente todas las funciones de dibujo 2D y 3D en cada ambiente de trabajo (<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [DiseñoPieza](PartDesign_Workbench/es.md), etc.), se basan en estas funciones expuestas por el ambiente de trabajo DiseñoPieza. Por lo tanto, el Ambiente de trabajo DiseñoPieza se considera el componente central de las capacidades de modelado de FreeCAD.
 
-Una discusión más detallada sobre el ambiente de trabajo Pieza frente al ambiente de trabajo de DiseñoPieza se puede encontrar aquí: [Pieza y DiseñoPieza](Part_and_Part_Design/es.md).
+Una discusión más detallada sobre el ambiente de trabajo Pieza frente al ambiente de trabajo de DiseñoPieza se puede encontrar aquí: [Pieza y DiseñoPieza](Part_and_PartDesign/es.md).
 
 Los objetos creados con el ambiente de trabajo de pieza son relativamente sencillos; están pensados para ser utilizados con operaciones booleanas (uniones y cortes) para construir formas más complejas. **Este paradigma de modelado se conoce como la _), hasta obtener el objeto final.
 
@@ -102,13 +102,7 @@ Estas son herramientas para crear nuevos objetos y modificar los existentes.
 
 -   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Proyección sobre superficie](Part_ProjectionOnSurface/es.md): Proyecta un logo, texto o cualquier cara, cable, borde a una superficie. <small>(v0.19)</small> 
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Part_Attachment.svg  style="width:32px;"> [Adjuntar](Part_Attachment/es.md): Adjunta un objeto a otro objeto.
-
-
-</div>
+-   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Attachment](Part_EditAttachment/es.md): Adjunta un objeto a otro objeto.
 
 ### Booleano
 
@@ -174,8 +168,8 @@ Estas herramientas realizan operaciones booleanas.
 
 -   Crear una copia:
     -   <img alt="" src=images/Part_SimpleCopy.svg  style="width:32px;"> [Crear copia simple](Part_SimpleCopy/es.md): Crea una copia simple de un objeto seleccionado.
-    -   <img alt="" src=images/Part_TransformedCopy.svg  style="width:32px;"> [Crear copia transformada](Part_TransformedCopy/es.md): Crea una copia transformada de un objeto seleccionado. {{Versión|0.19}}
-    -   <img alt="" src=images/Part_ElementCopy.svg  style="width:32px;"> [Crear copia de elemento de forma](Part_ElementCopy/es.md): Crea una copia de un elemento (vértice, arista, cara) de un objeto seleccionado. {{Versión|0.19}}
+    -   <img alt="" src=images/Part_TransformedCopy.svg  style="width:32px;"> [Crear copia transformada](Part_TransformedCopy/es.md): Crea una copia transformada de un objeto seleccionado. {{Version/es|0.19}}
+    -   <img alt="" src=images/Part_ElementCopy.svg  style="width:32px;"> [Crear copia de elemento de forma](Part_ElementCopy/es.md): Crea una copia de un elemento (vértice, arista, cara) de un objeto seleccionado. {{Version/es|0.19}}
     -   <img alt="" src=images/Part_RefineShape.svg  style="width:32px;"> [Refinar forma](Part_RefineShape/es.md): Limpia las caras eliminando las líneas innecesarias.
 
 -   <img alt="" src=images/Part_CheckGeometry.svg  style="width:32px;"> [Comprobar geometría](Part_CheckGeometry/es.md): Comprueba la geometría de los objetos seleccionados en busca de errores.

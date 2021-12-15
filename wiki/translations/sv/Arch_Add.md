@@ -13,7 +13,7 @@
 Add verkytget låter dig göra 2 olika operationer:
 
 -   Lägga till [form](Part_Workbench/sv.md)-baserade objekt till en Arch komponent, som en [vägg](Arch_Wall/sv.md) eller [struktur](Arch_Structure/sv.md). Dessa objekt blir sedan en del av Arch komponenten, och låter dig förändra dess form men behåller dess grundegenskaper som bredd och höjd
--   lägga till Arch komponenter, som [väggar](Arch_Wall/sv.md) eller [strukturer](Arch_Structure/sv.md), till en [cell](Arch_Cell/sv.md) eller andra cell-baserade objekt som [golv](Arch_Floor/sv.md).
+-   lägga till Arch komponenter, som [väggar](Arch_Wall/sv.md) eller [strukturer](Arch_Structure/sv.md), till en gruppbaserat Arch objekt som [golv](Arch_Floor/sv.md).
 
 
 </div>

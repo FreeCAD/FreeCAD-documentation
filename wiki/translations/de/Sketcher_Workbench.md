@@ -1,4 +1,4 @@
-# <img alt="Skizzierer Arbeitsbereichssymbol" src=images/Workbench_Sketcher.svg  style="width:64px;"> Sketcher Workbench/de
+# <img alt="Sketcher Arbeitsbereichssymbol" src=images/Workbench_Sketcher.svg  style="width:64px;"> Sketcher Workbench/de
 
 
 {{TOCright}}
@@ -7,7 +7,7 @@
 
 Der FreeCAD <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _, bildet der Skizzierer die Grundlage der _ auch die Grundlage der [Funktionsbearbeitungsmethodik](feature_editing/de.md) zum erstellen von Geometrieelementen um Volumenkörper zu erzeugen.
 
-Der Arbeitsbereich Skizzierer bietet *Beschränkungen* (engl.: constraints), die es erlauben 2D Formen gemäß präzisen geometrischen Vorgaben in Bezug auf Länge, Winkel und Verknüpfungen (Horizontalität, Vertikalität, Rechtwinkligkeit, usw.) zu folgen. Ein Beschränkungslöser berechnet die beschränkte Ausdehnung der 2D Geometrie und ermöglicht die interaktive Untersuchung von Freiheitsgraden der Skizze.
+Der Arbeitsbereich Sketcher bietet *Beschränkungen* (engl.: constraints), die es erlauben 2D Formen gemäß präzisen geometrischen Vorgaben in Bezug auf Länge, Winkel und Verknüpfungen (Horizontalität, Vertikalität, Rechtwinkligkeit, usw.) zu folgen. Ein Beschränkungslöser berechnet die beschränkte Ausdehnung der 2D Geometrie und ermöglicht die interaktive Untersuchung von Freiheitsgraden der Skizze.
 
 <img alt="" src=images/FC_ConstrainedSketch.png  style="width:450px;"> 
 *Eine vollständig beschränkte Skizze‎*
@@ -124,7 +124,7 @@ Die Werkzeuge des Sketch-Arbeitsbereich sind alle im Sketch-Menü zu finden, das
 
 -   <img alt="" src=images/Sketcher_MapSketch.svg‎  style="width:32px;"> [Skizze einer Fläche zuordnen](Sketcher_MapSketch/de.md): Ordnet eine Skizze der vorher gewählten Fläche eines Volumenkörpers zu.
 
--   <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:32px;"> [Skizze neu ausrichten](Sketcher_Reorient/de.md): Erlaubt die Positionsänderung einer Skizze
+-   <img alt="" src=images/Sketcher_ReorientSketch.svg  style="width:32px;"> [Skizze neu ausrichten](Sketcher_ReorientSketch/de.md): Erlaubt die Positionsänderung einer Skizze
 
 -   <img alt="" src=images/Sketcher_ValidateSketch.svg  style="width:32px;"> [Skizze überprüfen](Sketcher_ValidateSketch/de.md): Überprüft die Toleranz verschiedener Punkte und passt sie an.
 
@@ -171,9 +171,15 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
     -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline erstellen](Sketcher_CreateBSpline/de.md): Zeichnen einer B-spline Kurve (verkettete Linie) durch die Kontrollpunkte.
     -   <img alt="" src=images/Sketcher_Create_Periodic_BSpline.svg  style="width:32px;"> [Create periodic B-pline](Sketcher_CreatePeriodicBSpline/de.md): Zeichnet eine periodische (geschlossene) B-Spline Kurve anhand ihrer Kontrollpunkte.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polylinie (Mehrfach-Punkt Linie)](Sketcher_CreatePolyline/de.md):
 
 Zeichnet eine Linie aus mehreren Liniensegmenten. Drücken der M Taste während des Zeichnens einer Polylinie schaltet zwischen den verschiedenen Polylinienmodi.
+
+
+</div>
 
 -   <img alt="" src=images/Sketcher_CompCreateRectangles.png  style="width:48px;"> [Rechtecke erstellen](Sketcher_CompCreateRectangles/de.md): Dies ist ein Symbolmenü in der Skizzierer Symbolleiste, das die folgenden Befehle enthält: {{Version/de|0.20}}
 

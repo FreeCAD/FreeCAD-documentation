@@ -1,14 +1,14 @@
 # Interface Customization/hr
 {{TOCright}}
 
-## Introduction
+## Predstavljanje
 
 The FreeCAD interface is based on the modern [Qt](http://en.wikipedia.org/wiki/Qt_(toolkit)) toolkit and has a state-of-the-art organization. Some aspects of the interface can be customized. You can, for example, add custom toolbars, with tools from several workbenches or tools defined in macros, and you can create you own keyboard shortcuts. But the menus and default toolbars that come with FreeCAD and its workbenches cannot be changed.
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *The Customize dialog box*
 
-## Usage
+## Upotreba
 
 1.  The commands available in the Customize dialog box depend on the workbenches that have been loaded in the current FreeCAD session. So you should first load all workbenches whose commands you want to have access to.
 2.  There are several ways to invoke the <img alt="" src=images/Std_DlgCustomize.svg  style="width:16px;"> [Std DlgCustomize](Std_DlgCustomize.md) command:
@@ -18,11 +18,11 @@ The FreeCAD interface is based on the modern [Qt](http://en.wikipedia.org/wiki/Q
 4.  The **Help** button does not work at this time.
 5.  Press the **Close** button to close the dialog box.
 
-## Options
+## Opcije
 
 In the Customize dialog box the following tabs are available:
 
-### Commands
+### Komande
 
 ![](images/Std_DlgCustomize_tab_Commands.png ) 
 *The Commands tab*
@@ -39,7 +39,7 @@ On this tab you can browse the available commands.
 
 {{Top}}
 
-### Keyboard
+### Tipkovnica
 
 ![](images/Std_DlgCustomize_tab_Keyboard.png ) 
 *The Keyboard tab*
@@ -76,7 +76,7 @@ On this tab custom keyboard shortcuts can be defined. Shortcuts for macro comman
 
 {{Top}}
 
-### Workbenches
+### Radni stolovi 
 
 ![](images/Std_DlgCustomize_tab_Workbenches.png ) 
 *The Workbenches tab*
@@ -112,7 +112,7 @@ On this tab the [Workbench selector](Std_Workbench.md) list can be changed. The 
 
 {{Top}}
 
-### Toolbars
+### Trake Alata 
 
 ![](images/Std_DlgCustomize_tab_Toolbars.png ) 
 *The Toolbars tab*
@@ -179,7 +179,7 @@ On this tab custom toolbars can be created and modified.
 
 {{Top}}
 
-### Macros
+### Makro naredbe 
 
 ![](images/Std_DlgCustomize_tab_Macros.png ) 
 *The Macros tab*
@@ -244,7 +244,7 @@ You can also create your own theme if you are not satisfied with the themes that
 
 {{Top}}
 
-## Addons
+## Dodatci
 
 Addons offer yet another way to customize the use interface. Below are some addons created by users in the FreeCAD community. They can be downloaded through the <img alt="" src=images/Std_AddonMgr.svg  style="width:16px;"> [Addon Manager](Std_AddonMgr.md) (note: they are listed on the Workbenches tab).
 
@@ -280,13 +280,7 @@ Addons offer yet another way to customize the use interface. Below are some addo
 {{Top}}
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/hr|[Uređivač korisničkih postavki](Preferences_Editor/hr.md)|[Uređivač osobina](Property_editor/hr.md)}}
-
-
-</div>
 
 
 {{Std Base navi

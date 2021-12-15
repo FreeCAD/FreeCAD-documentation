@@ -76,16 +76,22 @@ Si está compilando con Windows, considere usar el [LibPack](#LibPack.md) en lug
 
 **Python 2 quedó obsoleto en 2019. El futuro desarrollo de FreeCAD utilizará exclusivamente Python 3; no se probará la compatibilidad con Python 2, por lo que los antiguos ambientes de trabajo y macros que utilizan esta versión tendrán que ser actualizados o pueden dejar de funcionar. Por favor, publica en el [https://forum.freecadweb.org/ foro de FreeCAD] si encuentras problemas con Python 3.**
 
+
+<div class="mw-translate-fuzzy">
+
 Python es un popular lenguaje de guionización multipropósito que es ampliamente utilizado en Linux y en el software de código abierto. En FreeCAD, Python se utiliza durante la compilación y también en tiempo de ejecución de diferentes maneras. Se utiliza
 
 -   para escribir guiónes de prueba para comprobar diferentes condiciones, como fugas de memoria, para asegurar la funcionalidad del software después de los cambios, para las comprobaciones posteriores a la compilación, y las pruebas de cobertura,
 -   para escribir [macros](macros/es.md) y grabación de macros,
 -   para implementar la lógica de la aplicación para los paquetes estándar,
--   para implementar herramientas auxiliares como el [Gestor Complementos](Addon_Manager/es.md),
+-   para implementar herramientas auxiliares como el [Gestor Complementos](Std_AddonMgr/es.md),
 -   para implementar bancos de trabajo completos como [Borrador](Draft_Workbench/es.md) y [Arquitectura](Arch_Workbench/es.md),
 -   para cargar dinámicamente paquetes,
 -   para implementar reglas de diseño (ingeniería del conocimiento),
 -   para hacer interacciones de lujo en Internet como grupos de trabajo y PDM
+
+
+</div>
 
 En Linux, Python suele estar ya instalado en tu distribución. Para Windows puedes obtener un binario precompilado de [Python.org](http://www.python.org/) o utilizar [ActiveState Python](http://www.activestate.com/), aunque es más difícil obtener las librerías de depuración de esta última.
 

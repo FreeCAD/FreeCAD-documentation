@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/fr
-   Name:Part MakeCompound‏‎
+   Name:Part Compound‏‎
    Name/fr:Part Composé
    MenuLocation:Pièce → Composé → Créer un composé
    Workbenches:[Part](Part_Workbench/fr.md)

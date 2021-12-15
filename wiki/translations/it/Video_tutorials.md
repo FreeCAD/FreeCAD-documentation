@@ -11,8 +11,6 @@ Questa è una raccolta di guide video realizzate dagli utenti e dagli sviluppato
 
 Visitare la pagina _.
 
-Visitare la pagina [offsite tutorials](offsite_tutorials/it.md) per elenchi di esercitazioni ospitate su siti esterni.
-
 
 <div class="mw-translate-fuzzy">
 

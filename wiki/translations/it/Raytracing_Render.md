@@ -1,6 +1,14 @@
-# Raytracing Render/it
 ---
-- GuiCommand:/it   Name:Raytracing Render   Name/it:Render   MenuLocation:Raytracing → Render‏‎   |Workbenches:[[Raytracing_Workbench/it   Raytracing]]|Shortcut:   SeeAlso:---
+- GuiCommand:/it
+   Name:Raytracing Render
+   Name/it:Raytracing Render
+   MenuLocation:Raytracing → Render
+   Workbenches:[Raytracing](Raytracing_Workbench/it.md)
+   Shortcut:
+   SeeAlso:
+---
+
+# Raytracing Render/it
 
 
 </div>

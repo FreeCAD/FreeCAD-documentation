@@ -37,15 +37,20 @@ This is useful to define the intersection points between the different axes. Arc
 ## Применение
 
 1.  Optionally, select the [Arch Axis](Arch_Axis.md) objects you wish to include in this system.
-2.  Press the **<img src="images/Arch_Axis_System.svg" width=16px> [[Arch AxisSystem]]** button.
+2.  Press the **<img src="images/Arch_AxisSystem.svg" width=16px> [[Arch AxisSystem]]** button.
 3.  Right-click the newly created axes system object in the tree view to add/edit the [Arch Axis](Arch_Axis.md) objects included in this system.
-4.  Select any existing [Arch Axis](Arch_Axis.md) and press **<img src="images/Arch_Add.svg" width=16px> [[Arch Add]]** or **<img src="images/Arch_Remove.svg" width=16px> [[Arch Remove]]** buttons to add or remove it to/from this system.
+4.  Select any existing [Arch Axis](Arch_Axis.md) and press **<img src="images/Arch_Add.svg" width=16px> [Arch Add](Arch_Add.md)** or **<img src="images/Arch_Remove.svg" width=16px> [Arch Remove](Arch_Remove.md)** buttons to add or remove it to/from this system.
 5.  Set the **Axis** property of any Arch object to point to this system, to have its shape duplicated to the intersection points of this system.
 
 ## Опции
 
 -   A same [Arch Axis](Arch_Axis.md) object can be part of more than one system
 -   Any shape-based object can also be used as the **Axis** property of Arch objects. In this case, the object shape will be duplicated along the vertices of the Axis object
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Программирование
 
@@ -54,7 +59,10 @@ This is useful to define the intersection points between the different axes. Arc
 
 [Arch API](Arch_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The AxisSystem tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+
+</div>
+
+The AxisSystem tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python
 AxisSystem = makeAxisSystem(axes, name="Axis System")
 ```

@@ -223,6 +223,8 @@ Pour rendre le placement de \"Sketch\" égal à celui de \"Cylinder\", vous deve
 <<Cube>>.Placement
 ``` ![Définition du Placement entier dans une seule expression](images/PlacementInExpression.png )
 
+**REMARQUE :** Il est également possible de *créer* des objets Placement dans les expressions. Voir la page [Expressions](Expressions/fr#Placement.md) pour plus de détails.
+
 ## Remarques
 
 -   Les propriétés de Placement de l\'onglet Données sont désactivées pour les objets qui sont attachés à un autre objet. Le décalage de rattachement doit être modifié à la place.

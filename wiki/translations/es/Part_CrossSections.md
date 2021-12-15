@@ -1,6 +1,12 @@
-# Part CrossSections/es
 ---
-- GuiCommand:/es   Name:Part SectionCross   MenuLocation:Part → SectionCross   Workbenches:[[Part_Workbench/es   Part]],Complete|SeeAlso:---
+- GuiCommand:/es
+   Name:Part CrossSections
+   MenuLocation:Part → Cross-sections...
+   Workbenches:[Part](Part_Workbench/es.md),Complete
+   SeeAlso:
+---
+
+# Part CrossSections/es
 
 
 </div>

@@ -12,7 +12,7 @@
 
 ## Descriere
 
-Acest instrument permite setarea unui grup sau derivat ca [ Proiect VisGroup](Proiect_VisGroup.md), [Arch Site](Arch_Site.md), [Arch Building](Arch_Building.md) sau [ Arch Floor](Floor_Arch.md) , ca grup activ automat. Când este setat un grup auto, toate obiectele noi create în [ Draft Workbench](Draft_Workbench.md) sau [ Arch Workbench](Arch_Workbench.md) vor fi plasate în acel grup.
+Acest instrument permite setarea unui grup sau derivat ca [ Proiect VisGroup](Draft_Layer/ro.md), [Arch Site](Arch_Site.md), [Arch Building](Arch_Building.md) sau [ Arch Floor](Arch_Floor.md) , ca grup activ automat. Când este setat un grup auto, toate obiectele noi create în [ Draft Workbench](Draft_Workbench.md) sau [ Arch Workbench](Arch_Workbench.md) vor fi plasate în acel grup.
 
 
 </div>

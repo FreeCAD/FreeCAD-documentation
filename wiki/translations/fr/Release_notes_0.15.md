@@ -80,7 +80,7 @@ Pour les nostalgique des vieux logiciel CAD, les police filaire (dans lesquels c
 
 -   [Lignes](Draft_Line/fr.md) peuvent maintenant être défini par leur longueur et l\'angle selon le plan de travil en cours.
 -   Extension de ligne relative pour les [dimensions](Draft_Snap_Dimensions/fr.md).
--   Support des [Ellipses](Sketcher_CreateEllipseByCenter/fr.md).
+-   Support des [Ellipses](Sketcher_CompCreateConic/fr.md).
 -   Les objets [Réseaux](Draft_Array/fr.md) peuvent maintenant être fusionnés.
 
 ## Atelier Mise en plan 

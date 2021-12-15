@@ -3,65 +3,41 @@
    Name:SheetMetal AddJunction
    Name/de:SheetMetal StoßHinzufügen
    MenuLocation:SheetMetal → Make Junction
-   Workbenches:[SheetMetal](SheetMetal_Workbench.md)
+   Workbenches:[SheetMetal (Blech)](SheetMetal_Workbench/de.md)
    Shortcut:**S** **J**
+   SeeAlso:[SheetMetal Entlastungsausschnitt hinzufügen](SheetMetal_AddRelief/de.md), [SheetMetal Biegung hinzufügen](SheetMetal_AddBend/de.md)
 ---
 
 # SheetMetal AddJunction/de
 
-
-</div>
-
 ## Beschreibung
 
+Der Befehl <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:24px;"> [Stoß hinzufügen](SheetMetal_AddJunction/de.md) erzeugt einen offenen Stoß zwischen zwei Abschnitten (Kanten/Falze) eines SheetMetal-Objekts. Ohne diese Stöße wären (zusammenhängende) Abschnitte, die mit derselben Grundplatte verbunden sind, nicht abwickelbar.
 
-<div class="mw-translate-fuzzy">
+Dieser Befehl ist der zweite von drei Schritten, um ein Schalenobjekt, das mit dem Arbeitsbereich [Part](Part_Workbench/de.md) oder [PartDesign](PartDesign_Workbench/de.md) erzeugt wurde, in ein abwickelbares SheetMetal-Objekt umzuwandeln:
 
-Der Befehl <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:24px;"> **Stoß hinzufügen**\...
+1.  [SheetMetal Entlastungsausschnitt hizufügen](SheetMetal_AddRelief/de.md)
+2.  [SheetMetal Stoß hinzufügen](SheetMetal_AddJunction/de.md)
+3.  [SheetMetal Biegung hinzufügen](SheetMetal_AddBend/de.md)
 
-
-</div>
-
-This command is the second of three steps to convert a shell object made with the [Part Workbench](Part_Workbench.md) or [PartDesign Workbench](PartDesign_Workbench.md) into an unfoldable sheet metal object:
-
-1.  [SheetMetal AddRelief](SheetMetal_AddRelief.md)
-2.  [SheetMetal AddJunction](SheetMetal_AddJunction.md)
-3.  [SheetMetal AddBend](SheetMetal_AddBend.md)
-
-<img alt="" src=images/SheetMetal_ConvertShellObject-01.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-02.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-04.png  style="width:100px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Kante mit Stoß versehen*
-
-
-</div>
+<img alt="" src=images/SheetMetal_ConvertShellObject-01.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-02.png  style="width:100px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-03.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-04.png  style="width:100px;"> 
+*Stoß hinzufügen - Kanten aufschneiden*
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-Eine Kante zwischen zwei Flächen durch einen Stoß ersetzen:
-
-:   (Das englische Original muss überarbeitet werden\...)
-
-1.  Start with a base plate or sheet, select a corner vertex to apply relief
-2.  Click on the <img alt="" src=images/SheetMetal_Junction.svg  style="width:24px;"> **Junction** tool to add a junction cut to corner.
-
-
-</div>
+1.  Eine oder mehrere Kanten auswählen.
+2.  Den Befehl <img alt="" src=images/_SheetMetal_AddJunction.svg  style="width:16px;"> **Stoß hinzufügen** aktivieren durch:
+    -   Die Schaltfläche **<img src="images/_SheetMetal_AddJunction.svg_" width=16px> [Stoß hinzufügen](SheetMetal_AddJunction/de.md)**.
+    -   Den Menüeintrag **SheetMetal → <img src="images/_SheetMetal_AddJunction.svg_" width=16px> Stoß hinzufügen**.
+    -   Das Tastenkürzel: **S** dann **J**.
 
 <img alt="" src=images/SheetMetal_ConvertShellObject-06.png  style="width:200px;"> <img alt="" src=images/Button_right.svg  style="width:16px;"> <img alt="" src=images/SheetMetal_ConvertShellObject-07.png  style="width:200px;">
 
-## Notes
+## Hinweise
 
-The commands <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **_**, and <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[SheetMetal AddBend](SheetMetal_AddBend.md)** work best with hollow cuboids i.e. shell objects with a constant thickness and only 90° angles between faces.
+Die Befehle <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **_** und <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[Biegung hinzufügen](SheetMetal_AddBend/de.md)** funktionieren am besten mit hohlen Quadern, d.h. Schalenobjekten mit einer konstanten Wandstärke und nur 90° Winkeln zwischen den Flächen.
 
-See [SheetMetal AddRelief](SheetMetal_AddRelief#Notes.md) for hints about creating shell objects of cuboids.
+Siehe [SheetMetal Entlastungsausschnitt hinzufügen](SheetMetal_AddRelief/de#Hinweise.md) für Hinweise zur Erstellung von Schalenobjekten aus Quadern.
 
 ## Eigenschaften
 

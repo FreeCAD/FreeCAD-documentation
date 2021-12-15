@@ -21,7 +21,7 @@ Fügt einen abzuziehenden Quader in den aktiven Körper (Body) ein. Die Form wir
 <div class="mw-translate-fuzzy">
 
 1.  Drücke die **<img src="images/PartDesign_SubtractiveBox.svg" width=24px> '''Abzuziehender Quader''** Schaltfläche . **Anmerkung**: Abzuziehender Quader ist Teil des benannten Symbols *Erzeuge einen abzuziehenden Grundkörper*. Direkt nach dem Start von FreeCAD wird das Symbol von „Abzuziehender Quader" in der Werkzeugleiste angezeigt. Wenn ein anderer Grundkörper zu sehen ist, kann durch Klicken auf den Pfeil neben dem Symbol der abzuziehende Quader in dem aufklappenden Menü ausgewählt werden.
-2.  Lege die Grundkörperparameter und [Anhang](Part_Attachment/de.md) fest.
+2.  Lege die Grundkörperparameter und [Anhang](Part_EditAttachment/de.md) fest.
 3.  Klicke **OK**.
 4.  Ein Quader erscheint unterhalb des aktiven Körpers.
 
@@ -40,7 +40,7 @@ Der Quader kann auf zwei verschieden Wege bearbeitet werden:
 
 <div class="mw-translate-fuzzy">
 
--    **Attachment**: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_Attachment/de.md).
+-    **Attachment**: Bestimmt den Befestigungsmodus und den Befestigungsversatz. Siehe [Befestigung](Part_EditAttachment/de.md).
 
 -    **Label**: Die vom Benutzer vergebene Bezeichung für das Quader-Objekt. Dies kann nach Bedarf geändert werden.
 

@@ -3,8 +3,6 @@
 
 Ce sont des extraits de code utiles lors de [création d\'interfaces](Dialog_creation/fr.md) avec [PySide](PySide/fr.md).
 
-Pour plus d\'informations sur la création d\'interfaces complètes, voir [Création d\'interface avec des fichiers UI](Interface_creation_with_UI_files/fr.md).
-
 ## Quelques commandes utiles 
 
 
@@ -113,12 +111,12 @@ ou
 iso8859(unichr(176))
 ```
 
-or 
+ou 
 ```python
 unichr(ord(176))
 ```
 
-or 
+ou 
 ```python
 uniteSs = "mm"+iso8859(unichr(178))
 print(unicode(uniteSs, 'iso8859'))

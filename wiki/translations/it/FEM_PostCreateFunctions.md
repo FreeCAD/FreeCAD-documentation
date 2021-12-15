@@ -1,6 +1,14 @@
-# FEM PostCreateFunctions/it
 ---
-- GuiCommand:/it   Name:FEM_CompPostCreateFunctions   Name/it:Fem CompPostCreateFunctions   MenuLocation: Risultati → Filter Functions   |Workbenches:[Shortcut:   SeeAlso:[[FEM_tutorial/it|Tutorial FEM](FEM_Workbench/it___FEM]].md)---
+- GuiCommand:/it
+   Name:FEM CompPostCreateFunctions
+   Name/it:Fem CompPostCreateFunctions
+   MenuLocation: Risultati → Filter Functions
+   Workbenches:[FEM](FEM_Workbench/it.md)
+   Shortcut:
+   SeeAlso:[Tutorial FEM](FEM_tutorial/it.md)
+---
+
+# FEM PostCreateFunctions/it
 
 
 </div>
@@ -22,13 +30,7 @@ ToDo
 
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{FEM Tools navi

@@ -5,7 +5,13 @@
 
 ## Einführung
 
-Die [Erprobung](Test_Framework_Workbench/de.md) ist nicht wirklich eine Modellierungsarbeitsbereich, aber sie enthält einen Satz von [Python](Python/de.md) Skripten, um verschiedene Tests an den Kernkomponenten von FreeCAD durchzuführen, um Probleme zu beheben. Siehe auch [Fehlerdiagnose](Debugging/de.md).
+
+<div class="mw-translate-fuzzy">
+
+Die [Erprobung](Testing/de.md) ist nicht wirklich eine Modellierungsarbeitsbereich, aber sie enthält einen Satz von [Python](Python/de.md) Skripten, um verschiedene Tests an den Kernkomponenten von FreeCAD durchzuführen, um Probleme zu beheben. Siehe auch [Fehlerdiagnose](Debugging/de.md).
+
+
+</div>
 
 Du kannst die Tests auf der Kommandozeile ausführen, indem du die Optionen `-t` oder `--run-test` verwendest.
 

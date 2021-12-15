@@ -19,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-[Addon Manager](AddonManager.md) "-gestionarul de extensii-" este un instrument pentru a instala și administra [external workbenches](external_workbenches/ro.md) atelierele de lucru și [macros](macros/ro.md) oferite de comunitatea FreeCAD. Dacă pachetul [git-python](https://github.com/gitpython-developers/GitPython) este instalat pe computer, Managerul de aplicații addon îl va utiliza pentru a actualiza atelierele de lucru instalate, făcând descărcările mai rapide.
+[Addon Manager](Std_AddonMgr.md) "-gestionarul de extensii-" este un instrument pentru a instala și administra [external workbenches](external_workbenches/ro.md) atelierele de lucru și [macros](macros/ro.md) oferite de comunitatea FreeCAD. Dacă pachetul [git-python](https://github.com/gitpython-developers/GitPython) este instalat pe computer, Managerul de aplicații addon îl va utiliza pentru a actualiza atelierele de lucru instalate, făcând descărcările mai rapide.
 
 
 </div>
@@ -34,7 +34,7 @@ Due to changes to the GitHub platform in the year 2020 the Addon manager no long
 <div class="mw-translate-fuzzy">
 
 ![](images/Addon_Manager_example.png ) 
-*Interface of the [Addon Manager](Addon_Manager/ro.md)*
+*Interface of the [Addon Manager](Std_AddonMgr/ro.md)*
 
 
 </div>

@@ -89,13 +89,13 @@ El <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente de
 -   Pulse el **<img src="images/View-front.svg" width=16px> XZ (frontal)** para establecer el plano de trabajo en el plano XZ. Para dibujar fácilmente en este plano, debes fijar la vista en la parte delantera o trasera (la normal está en la dirección Y negativa o positiva). Pulsa **1** o **4** para cambiar rápidamente a estas vistas.
 -   Pulse el **<img src="images/View-right.svg" width=16px> YZ (lateral)** para establecer el plano de trabajo en el plano YZ. Para dibujar fácilmente en este plano, debes fijar la vista en el lado izquierdo o derecho (la normal está en la dirección X positiva o negativa). Pulsa **3** o **6** para cambiar rápidamente a estas vistas.
 -   Pulse el botón **<img src="images/View-isometric.svg" width=16px> Vista** para establecer el plano de trabajo en la vista 3D actual, perpendicular al eje de la cámara y pasando por el origen (0,0,0).
--   Pulse el botón **<img src="images/View-axonometric.svg" width=16px> Auto** para desajustar cualquier plano de trabajo actual, y establecer automáticamente un plano de trabajo cuando se utiliza una herramienta. Cuando se selecciona una herramienta de dibujo, la rejilla se actualiza automáticamente a la vista actual; entonces, si la vista se gira, y se selecciona otra herramienta, la rejilla se redibuja en la nueva vista. Esto equivale a pulsar {{Botón|<img src="images/View-isometric.svg" width=16px> Vista}} automáticamente antes de usar una herramienta.
+-   Pulse el botón **<img src="images/View-axonometric.svg" width=16px> Auto** para desajustar cualquier plano de trabajo actual, y establecer automáticamente un plano de trabajo cuando se utiliza una herramienta. Cuando se selecciona una herramienta de dibujo, la rejilla se actualiza automáticamente a la vista actual; entonces, si la vista se gira, y se selecciona otra herramienta, la rejilla se redibuja en la nueva vista. Esto equivale a pulsar **<img src="images/View-isometric.svg" width=16px> Vista** automáticamente antes de usar una herramienta.
 -   Establecer el valor de \"Desplazamiento\" para fijar el plano de trabajo a una determinada distancia perpendicular del plano seleccionado.
 -   Establezca el valor de \"Espaciado de la rejilla\" para definir el espacio entre cada línea de la rejilla.
 -   Ajuste el valor \"Grid size\" para definir la extensión total del plano de la cuadrícula.
 -   Ajuste el valor \"Línea principal cada\" para dibujar una línea ligeramente más gruesa en la cuadrícula en el valor establecido. Por ejemplo, si el espaciado de la cuadrícula es de 0,5 m, y hay una línea principal cada 20 líneas, habrá una línea ligeramente más gruesa cada 10 m.
 -   Haga clic en la casilla \"Centrar el plano en la vista\" para dibujar el plano y la cuadrícula más cerca de la vista de la cámara en la vista 3D.
--   Pulse **Esc** o el botón {{button|Close}} para abortar el comando actual.
+-   Pulse **Esc** o el botón **Close** para abortar el comando actual.
 -   La rejilla muestra un borde adicional con el espacio de la línea principal indicado en la esquina inferior izquierda <small>(v0.19)</small> . Esto se puede desactivar a través de Edición-\>Preferencias-\>Borrador-\>Rejilla y ajuste-\>Mostrar borde de la rejilla
 
 
@@ -125,7 +125,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 {{emphasis|Ver también:}}
 
-[Borrador API](Borrador_API/es.md) y [Fundamentos de Guión FreeCAD](FreeCAD_Scripting_Basics/es.md). Véase la [WorkingPlane API](http://www.freecadweb.org/api/DraftWorkingPlane.html).
+[Fundamentos de Guión FreeCAD](FreeCAD_Scripting_Basics/es.md). Véase la [WorkingPlane API](http://www.freecadweb.org/api/DraftWorkingPlane.html).
 
 
 </div>

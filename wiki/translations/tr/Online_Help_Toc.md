@@ -131,9 +131,9 @@ There is another table of contents for the _.
     -   [Lisans](Licence/tr.md)
     -   FreeCAD Derleme
         -   [Yardım Bulmak](Tracker/tr.md)
-        -   [Windows\'ta Derleme](CompileOnWindows/tr.md)
-        -   [Unix\'te Derleme](CompileOnUnix/tr.md)
-        -   [Mac\'te Derleme](CompileOnMac/tr.md)
+        -   [Windows\'ta Derleme](Compile_on_Windows/tr.md)
+        -   [Unix\'te Derleme](Compile_on_Linux/tr.md)
+        -   [Mac\'te Derleme](Compile_on_MacOS/tr.md)
         -   [Üçüncü Parti Kütüphaneleri](Third_Party_Libraries/tr.md)
         -   [Üçüncü Parti Araçlar](Third_Party_Tools/tr.md)
         -   [Başlangıç ​​ve Yapılandırma](Start_up_and_Configuration/tr.md)

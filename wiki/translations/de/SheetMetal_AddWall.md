@@ -161,7 +161,7 @@ Ein SheetMetal-Bend-Objekt wird von einem [Part-Formelement](Part_Feature/de.md)
 
 Diese Schale besteht aus einer rechteckigen Platine mit an ihren Umrisskanten (-Linien) angefügten Kanten. Also muss eine Skizze für die Platine vorbereitet werden.
 
-<img alt="" src=images/SheetMetal_AddWall-02.png  style="width:200px;"> <img alt="" src=images/SheetMetal_AddWall-02.png  style="width:200px;"> 
+<img alt="" src=images/SheetMetal_AddWall-02.png  style="width:200px;"> 
 *Nur eine rechteckige Kontur*
 
 ### Arbeitsablauf

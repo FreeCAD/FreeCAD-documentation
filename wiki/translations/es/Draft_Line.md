@@ -46,8 +46,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 <div class="mw-translate-fuzzy">
 
 1.  Pulse el **<img src="images/Draft_Line.svg" width=16px> [Línea de Borrador](Draft_Line/es.md)**, o utilice el botón **Borrador** → **<img src="images/Draft_Line.svg" width=16px> [Línea](Draft_Line/es.md)** del menú superior, o utiliza el atajo de teclado: **L** y luego **I**.
-2.  Haga clic en un primer punto en la vista 3D, o escriba una [coordenada](Draft_Coordinates/es.md) y pulse el **<img src="images/Draft_AddPoint.svg" width=16px> [añadir punto](Draft_AddPoint/es.md)**.
-3.  Haz clic en un segundo punto en la vista 3D, o escribe una [coordenada](Draft_Coordinates/es.md) y pulsa el **<img src="images/Draft_AddPoint.svg" width=16px> [añadir punto](Draft_AddPoint/es.md)**.
+2.  Haga clic en un primer punto en la vista 3D, o escriba una coordenada y pulse el **<img src="images/Draft_AddPoint.svg" width=16px> añadir punto**.
+3.  Haz clic en un segundo punto en la vista 3D, o escribe una coordenada y pulsa el **<img src="images/Draft_AddPoint.svg" width=16px> añadir punto**.
 
 
 </div>
@@ -64,12 +64,12 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Pulse **X**, **Y** o **Z** después del primer punto para restringir el segundo punto en el eje dado.
 -   Para introducir las coordenadas manualmente, simplemente introduzca los números y luego pulse **Enter** entre cada componente X, Y y Z.
     -   También puede definir las coordenadas polares del punto dando un valor a \"Longitud\" y \"Ángulo\". Haga clic en la casilla de verificación junto a \"Ángulo\" para restringir el puntero al ángulo especificado.
-    -   Puede pulsar el **<img src="images/Draft_AddPoint.svg" width=16px> [añadir un punto](Draft_AddPoint/es.md)** cuando tenga los valores deseados para insertar el punto.
+    -   Puede pulsar el **<img src="images/Draft_AddPoint.svg" width=16px> añadir un punto** cuando tenga los valores deseados para insertar el punto.
 -   Pulse **R** o haga clic en la casilla para activar el modo *relativo*. Si el modo relativo está activado, las coordenadas del segundo punto son relativas al primero; si no, son absolutas, tomadas desde el origen (0,0,0).
 -   Pulse **T** o haga clic en la casilla para activar el modo *continuar*. Si el modo de continuar está activado, la herramienta Línea se reiniciará después de dar el segundo punto, lo que le permitirá dibujar otro segmento de línea sin tener que volver a pulsar el botón de la herramienta.
 -   Mantén pulsado **Ctrl** mientras dibujas para forzar [snapping](Draft_Snap.md) tu punto a la ubicación de snap más cercana, independientemente de la distancia.
 -   Mantén pulsado **Shift** mientras dibujas para [restringir](Draft_Constrain/es.md) tu segundo punto horizontal o verticalmente en relación con el primero.
--   Pulse **Ctrl**+**Z** o pulse el **<img src="images/Draft_UndoLine.svg" width=12px> [Deshacer](Draft_UndoLine/es.md)** para deshacer el último punto.
+-   Pulse **Ctrl**+**Z** o pulse el **<img src="images/Draft_UndoLine.svg" width=12px> Deshacer** para deshacer el último punto.
 -   Pulse **Esc** o el botón **Close** para abortar el comando actual.
 
 

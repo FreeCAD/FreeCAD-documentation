@@ -23,7 +23,7 @@ Der **Std Rückgängig**-Befehl macht die letzte Aktion rückgängig.
 
 ## Optionen
 
--   Um mehrere Aktionen rückgängig zu machen, klicke auf den schwarzen Pfeil-nach-unten rechts neben der **<img src="images/Std_Undo.svg" width=16px> [Std Rückgängig](Std_ReUn/de.md)**-Schaltfläche und wähle aus der Liste aus.
+-   Um mehrere Aktionen rückgängig zu machen, klicke auf den schwarzen Pfeil-nach-unten rechts neben der **<img src="images/Std_Undo.svg" width=16px> [Std Rückgängig](Std_Undo/de.md)**-Schaltfläche und wähle aus der Liste aus.
 
 ## Einstellungen
 
@@ -44,6 +44,15 @@ Um die letzte Aktion rückgängig zu machen, benutze die `undo`-Methode des docu
 import FreeCAD
 
 FreeCAD.ActiveDocument.undo()
+```
+
+When running FreeCAD in pure console mode (CLI), the undo/redo mechanism isn\'t enabled by default. It must be explicitly activated for each document.
+
+
+```python
+import FreeCAD
+
+FreeCAD.ActiveDocument.UndoMode = 1
 ```
 
 

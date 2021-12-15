@@ -27,7 +27,13 @@ Bringt einen Punkt auf einem anderen Objekt an, z.B. einer Linien-, Bogen- oder 
 
 ## Skripten
 
+
+<div class="mw-translate-fuzzy">
+
 Die Beschränkung kann von [Makros](Macros/de.md) und von der [Python](Python/de.md)-Konsole durch den folgenden Befehl erzeugt werden:
+
+
+</div>
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`

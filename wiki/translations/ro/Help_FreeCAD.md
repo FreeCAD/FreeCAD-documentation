@@ -24,6 +24,9 @@ Ajutați-ne să construim, să corectăm și să extindem această documentație
 
 Help us to build, correct and extend this documentation. Correct mistakes, extend or correct pages that are unclear, create new pages if a topic is missing, etc. Contributing to the FreeCAD wiki is easy, at [WikiPages](WikiPages.md) you can find the general guidelines and the help needed to get you started. To edit the wiki, you will need a wiki account with \"Editor\" permissions (the wiki is write-protected to avoid spamming). You can ask for an account [on the forum](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830) or on the [IRC channel](https://wiki.freecadweb.org/Help#Chat). Please note that the IRC channel may not be as responsive as the forum. [The official FreeCAD forum](https://forum.freecadweb.org) should be the premier place to ask questions and start discussions, As it will help preserve the experience and knowledge of the community.
 
+
+<div class="mw-translate-fuzzy">
+
 Câteva domenii pentru care ar fi binevenită munca ta:
 
 -   Toate listele _ de pagini și documente pentru comenzile [command](command.md) FreeCAD . Majoritatea conțin puține sau chiar nici o informație. Vă rugăm faceți rerire la [WikiPages](WikiPages.md) pentru exemplele bune a ceea ce documentația comenzilor ar trebuie să arate.
@@ -31,6 +34,9 @@ Câteva domenii pentru care ar fi binevenită munca ta:
 -   Sunt open tickets pe FreeCAD [bugtracker](bugtracker.md) etichetate [\"documentation\"](https://freecadweb.org/tracker/search.php?tag_string=documentation)
 
 care ar putea fi folosite pentru cine dorește.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

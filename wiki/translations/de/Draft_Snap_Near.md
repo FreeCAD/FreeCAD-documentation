@@ -32,7 +32,7 @@ Zu allgemeinen Informationen zum Fangen siehe [Draft Fang](Draft_Snap/de.md).
 <div class="mw-translate-fuzzy">
 
 1.  
-    **<img src="images/Snap_Lock.svg" width=16px> [Umschalten ein/aus](Draft_ToggleSnap/de.md)**und **<img src="images/Snap_Near.svg" width=16px> [Nächste](Draft_Near/de.md)** einschalten.
+    **<img src="images/Draft_Snap_Lock.svg" width=16px> [Umschalten ein/aus](Draft_Snap_Lock/de.md)**und **<img src="images/Draft_Snap_Near.svg" width=16px> [Nächste](Draft_Snap_Near/de.md)** einschalten.
 
 2.  Eine Form mit einem Entwurfswerkzeug zeichnen.
 

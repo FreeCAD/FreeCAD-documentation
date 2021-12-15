@@ -89,7 +89,7 @@
 5\. Теперь создадим замкнутый профиль, связав дуги с линиями.
 
 :   5.1. Нажмите **<img src=images/Draft_Line.svg style="width:16px"> [Line](Draft_Line/ru.md)**.
-:   5.2. В <img src=images/Draft_ToggleSnap.svg style="width:Snap toolbar](Draft_Snap/ru.md) убедитесь, что **_. Кликните для выбора этой точки.
+:   5.2. В <img src=images/Draft_Snap_Lock.svg style="width:Snap toolbar](Draft_Snap/ru.md) убедитесь, что **_. Кликните для выбора этой точки.
 :   5.3. Переместите указатель к ближайшей конечной точке другой дуги, чтобы связать две дуги вместе.
 :   5.4. Повторите процесс для другой стороны дуги, чтобы закрыть профиль.
 
@@ -177,7 +177,7 @@ Linear dimensions work best when using the appropriate [Draft Snap](Draft_Snap.m
 
 <div class="mw-translate-fuzzy">
 
-12\. Повторите процесс для двух дуг замкнутого профиля. Первая точка измерения по-прежнему будет в исходной, а вторая точка будет использовать <img alt="" src=images/Draft_Midpoint.svg  style="width:24px;"> [среднюю точку](Draft_Midpoint/ru.md) дуги.
+12\. Повторите процесс для двух дуг замкнутого профиля. Первая точка измерения по-прежнему будет в исходной, а вторая точка будет использовать <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:24px;"> [среднюю точку](Draft_Snap_Midpoint/ru.md) дуги.
 
 
 </div>

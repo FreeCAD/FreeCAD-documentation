@@ -92,7 +92,7 @@ There is another table of contents for the _.
 
 </div>
 
--   Python scripting
+-   [Python scripting](Scripting_and_macros.md)
     -   [Working with macros](Macros.md)
     -   [Script tutorial](Scripts.md)
     -   [Introduction to Python](Introduction_to_Python.md)
@@ -111,23 +111,23 @@ There is another table of contents for the _.
 <div class="mw-translate-fuzzy">
 
 -   Developing applications for FreeCAD
-    -   [版權](Licence.md)
+    -   [版權](Licence/zh-tw.md)
     -   FreeCAD 編譯
         -   [Finding assistance](Tracker.md)
-        -   [Compiling on Windows](CompileOnWindows.md)
-        -   [Compiling on Unix](CompileOnUnix.md)
-        -   [Compiling on Mac](CompileOnMac.md)
+        -   [Compiling on Windows](Compile_on_Windows.md)
+        -   [Compiling on Unix](Compile_on_Linux.md)
+        -   [Compiling on Mac](Compile_on_MacOS.md)
         -   [Third Party Libraries](Third_Party_Libraries.md)
         -   [Third Party Tools](Third_Party_Tools.md)
         -   [Start up and Configuration](Start_up_and_Configuration.md)
     -   Build Support Tools
         -   [The FreeCAD build tool](FreeCAD_Build_Tool.md)
-        -   [Adding an application module](Module_Creation.md)
-        -   [FreeCAD 除錯](Debugging.md)
+        -   [Adding an application module](Workbench_creation/zh-tw.md)
+        -   [FreeCAD 除錯](Debugging/zh-tw.md)
         -   [FreeCAD 測試](Testing.md)
     -   FreeCAD 修改
         -   [Branding](Branding.md)
-        -   [FreeCAD 翻譯](Localisation.md)
+        -   [FreeCAD 翻譯](Localisation/zh-tw.md)
         -   [Installing extra python modules](Extra_python_modules.md)
     -   [Source documentation](Source_documentation.md)
 

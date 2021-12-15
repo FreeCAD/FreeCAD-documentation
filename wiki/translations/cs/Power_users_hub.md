@@ -173,8 +173,8 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 <div class="mw-translate-fuzzy">
 
 -   [Spuštění a konfigurace](Start_up_and_Configuration/cs.md): Spuštění a volby příkazové řádky
--   [Instalace na Windows](Install_on_Windows/cs.md): Použití instalátoru Windows
--   [Kompilování FreeCADu na Windowsech](CompileOnWindows/cs.md) a [Kompilování FreeCAD na Unixu](CompileOnUnix/cs.md)
+-   [Instalace na Windows](Installing_on_Windows/cs.md): Použití instalátoru Windows
+-   [Kompilování FreeCADu na Windowsech](Compile_on_Windows/cs.md) a [Kompilování FreeCAD na Unixu](Compile_on_Linux/cs.md)
 -   [Práva na značku](Branding/cs.md): Můžet dělat jednoduché úpravy zdrojového kódu a měnit některé aspekty FreeCADu
 -   [Extra moduly Pythonu](Extra_python_modules/cs.md) : Rozšiřuje Pythonovský interpreter FreeCADu těmito výkonnými moduly!
 

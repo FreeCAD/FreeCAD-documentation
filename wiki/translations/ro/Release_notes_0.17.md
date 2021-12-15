@@ -25,7 +25,15 @@ Au trecut 2 ani de la ediția precedentă 0.16, dar echipa FreeCAD nu a rămas i
 
 **Atelierul PartDesign**a fost complet revizuit. Un nou container al Corpului deține un lanț de caracteristici și ridică cerința de mapare a schițelor la fațetele plane. Instrumentele noi pentru a crea geometria de referință (referință), cum ar fi punctele, axele și planurile, fac PartDesign mult mai versatil. ![](images/PartDesign_Body_tree.png )
 
-Noul [Addon Manager](Addon_Manager.md) disponibil din Tools menu (care înainte era disponibil ca [addons installer macro](https://github.com/FreeCAD/FreeCAD-addons)) face instalrea și actulaizarea modulelor add-on și macros mult mai facilă și standardizată în Windows, Mac OS X și Linux. <img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
+
+<div class="mw-translate-fuzzy">
+
+Noul [Addon Manager](Std_AddonMgr.md) disponibil din Tools menu (care înainte era disponibil ca [addons installer macro](https://github.com/FreeCAD/FreeCAD-addons)) face instalrea și actulaizarea modulelor add-on și macros mult mai facilă și standardizată în Windows, Mac OS X și Linux.
+
+
+</div>
+
+<img alt="" src=images/Addon_manager_v017.png  style="width:300px;">
 
 **Sketcher** suportă acum crearea de curbeB-spline cu mai mult acăi și mijloace de control a curbelor și afișarea a informațiilor despre curbe. <img alt="" src=images/FC017_Sketcher_B-spline_01.png  style="width:300px;">
 
@@ -274,7 +282,7 @@ Noul \'\'\'Atelier TechDraw \'\'\' își propune să înlocuiască atelierul Dra
 
 <div class="mw-translate-fuzzy">
 
--   The new [Part Attachment](Part_Attachment.md) utility accessible from the *Part → Attachment...* menu can be used to attach most types of objects to other geometry parametrically.
+-   The new [Part EditAttachment](Part_EditAttachment.md) utility accessible from the *Part → Attachment...* menu can be used to attach most types of objects to other geometry parametrically.
 
 
 </div>
@@ -309,7 +317,13 @@ Atelierul PartDesign a suferit schimbări masive, fructul eforturilor combinare 
 
 Atelierul Path a fost revizuit masiv în versiunea 0.17. Revizia a vizat eliminarea tuturor codurilor HeeksCNC mai vechi și înlocuirea ambalajului libation python cu noul modul Path-Area. Ca urmare, operațiunile au devenit mult mai puternice, mai rapide, cu o bază de cod simplificată.
 
--   Support for 2.5D operations is complete including [contour](Path_Contour.md), [face-milling](Path_MillFace.md), [pocketing](Path_Pocket_Shape.md), [profiling](Path_ProfileFace.md), and [drilling](Path_Drilling.md)
+
+<div class="mw-translate-fuzzy">
+
+-   Support for 2.5D operations is complete including [contour](Path_Profile.md), [face-milling](Path_MillFace.md), [pocketing](Path_Pocket_Shape.md), [profiling](Path_Profile.md), and [drilling](Path_Drilling.md)
+
+
+</div>
 
 -   Limited support for [3D pocketing](Path_Pocket_3D.md) operations.
 

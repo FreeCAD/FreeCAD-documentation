@@ -5,7 +5,7 @@
    Workbenches:[Draft Arbeitsbereich](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
    MenuLocation:Draft → Utilities → Layer
    Version:0.19
-   SeeAlso:[Draft VisGroup](Draft_VisGroup/de.md) (veraltet)
+   SeeAlso:[Draft AutoGroup](Draft_AutoGroup.md)
 ---
 
 # Draft Layer/de
@@ -26,7 +26,7 @@ Die [Entwurf Schicht](Draft_Layer/de.md) erstellt eine spezielle Art von Gruppe,
 
 <div class="mw-translate-fuzzy">
 
-Dieses Werkzeug ersetzt [Draft VisGroup](Draft_VisGroup/de.md) ab FreeCAD 0.19.
+Dieses Werkzeug ersetzt Draft VisGroup ab FreeCAD 0.19.
 
 
 </div>
@@ -48,7 +48,9 @@ Dieses Werkzeug ersetzt [Draft VisGroup](Draft_VisGroup/de.md) ab FreeCAD 0.19.
 
 For a Draft LayerContainer these additional options are available in the [Tree view](Tree_view.md) context menu:
 
--    **<img src="images/Draft_Layer.svg" width=16px> Merge layer duplicates**: this option currently does not work.
+-    **<img src="images/Draft_Layer.svg" width=16px> Merge layer duplicates**: merges all layers with the same base label.
+
+:   The base label of a layer is its **Label** stripped of trailing digits and spaces. All layers with the same base label are merged into a single layer with the **Label** set to that base label. This does not work in FreeCAD version 0.19.
 
 -    **<img src="images/Draft_NewLayer.svg" width=16px> Add new layer**: adds a new layer to the current document.
 

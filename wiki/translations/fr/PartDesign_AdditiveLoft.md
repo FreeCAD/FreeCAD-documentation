@@ -19,16 +19,16 @@ Le **Lissage additif** crée un solide dans le Corps actif en faisant une transi
 
 ## Utilisation
 
-### Déroulement du travail basé sur la boîte de dialogue 
+### Processus de travail basé sur la boîte de dialogue 
 
-1.  Cliquez sur le bouton **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Lisser un profil sélectionné...](PartDesign_AdditiveLoft/fr.md)**.
+1.  Cliquez sur le bouton **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Lissage additif](PartDesign_AdditiveLoft/fr.md)**.
 2.  Dans la boîte de dialogue **Sélectionner une fonction**, sélectionnez une esquisse à utiliser comme objet de profil de base et cliquez sur **OK**.
-    -   Autre possibilité: présélectionnez une esquisse avant de cliquer sur <img alt="" src=images/PartDesign_AdditiveLoft.png  style="width:24px;">.
+    -   Vous pouvez également sélectionner une seule esquisse ou la face d\'un objet 3D ({{Version/fr|0.20}}) avant d\'appuyer sur le bouton Lissage additif.
 3.  Dans **Paramètres de lissage**, cliquez sur **Ajouter une section**.
 4.  Sélectionnez l\'esquisse suivante dans la [Vue 3D](3D_view/fr.md). Répétez la sélection pour les autres esquisses dans l'ordre dans lequel vous souhaitez qu'elles soient lissées. (Vous pouvez modifier l\'ordre des sections à tout moment ultérieurement dans la boîte de dialogue de lissage en faisant glisser les sections de la liste vers la position souhaitée. {{Version/fr|0.19}})
 5.  Définissez des options si nécessaire puis cliquez sur **OK**.
 
-### Déroulement du travail basé sur la sélection 
+### Processus de travail basé sur la sélection 
 
 
 {{Version/fr|0.19}}
@@ -36,7 +36,8 @@ Le **Lissage additif** crée un solide dans le Corps actif en faisant une transi
 1.  Sélectionnez plusieurs esquisses. L\'ordre dans lequel vous les sélectionnez est important:
     -   L\'esquisse sélectionnée au départ deviendra l\'objet de profil de base à l\'étape suivante
     -   Les esquisses sélectionnées après la première deviendront les sections du lissage. Ici aussi, l\'ordre de sélection est important: la deuxième esquisse sélectionnée deviendra la première section de lissage, celle sélectionnée comme troisième deviendra la deuxième section et ainsi de suite. (Vous pouvez modifier l\'ordre des sections à tout moment ultérieurement dans la boîte de dialogue de lissage en faisant glisser les sections de la liste vers la position souhaitée. {{Version/fr|0.19}})
-2.  Appuyez sur le bouton **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Lisser un profil sélectionné...](PartDesign_AdditiveLoft/fr.md)**.
+    -   La première ou la dernière sélection peut aussi être une face d\'un objet 3D ({{Version/fr|0.20}}).
+2.  Appuyez sur le bouton **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Lissage additif](PartDesign_AdditiveLoft/fr.md)**.
 3.  Définissez les options si nécessaire et cliquez sur **OK**.
 
 ## Options
@@ -46,38 +47,35 @@ Le **Lissage additif** crée un solide dans le Corps actif en faisant une transi
 
 ## Propriétés
 
--    {{PropertyData/fr|Label}}: nom donné à l\'opération, ce nom peut être changé à la convenance.
+-    **Label**: nom donné à l\'opération, ce nom peut être changé à la convenance.
 
--    {{PropertyData/fr|Sections}}: liste les sections utilisées.
+-    **Sections**: liste les sections utilisées.
 
--    {{PropertyData/fr|Ruled}}: voir [Options](#Options.md).
+-    **Ruled**: voir [Options](#Options.md).
 
--    {{PropertyData/fr|Closed}}: voir [Options](#Options.md).
+-    **Closed**: voir [Options](#Options.md).
 
--    {{PropertyData/fr|Refine}}: true ou false. Si la valeur est true, nettoie le solide des arêtes résiduelles laissées par les fonctions. Voir [Part Affiner la forme](Part_RefineShape/fr.md) pour plus de détails.
+-    **Refine**: true ou false. Si la valeur est true, nettoie le solide des arêtes résiduelles laissées par les fonctions. Voir [Part Affiner la forme](Part_RefineShape/fr.md) pour plus de détails.
 
--    {{PropertyData/fr|Profile}}: l\'objet de profil de base voir du lissage.
+-    **Profile**: l\'objet de profil de base voir du lissage.
 
--    {{PropertyData/fr|Midplane}}: non applicable.
+-    **Midplane**: non applicable.
 
--    {{PropertyData/fr|Inversé}}: non applicable.
+-    **Inversé**: non applicable.
 
--    {{PropertyData/fr|Up To Face}}: non applicable.
+-    **Up To Face**: non applicable.
 
--    {{PropertyData/fr|Allow Multi Face}}: non applicable.
+-    **Allow Multi Face**: non applicable.
 
-## Limitations
+## Remarques
 
--   Les esquisses doivent former des profils fermées.
--   Il n\'est pas possible de faire un lissage avec un sommet.
--   Une section ne peut pas se trouver sur le même plan que celui qui la précède immédiatement.
--   Pour mieux contrôler la forme du lissage, il est recommandé que toutes les sections transversales aient le même nombre de segments. Par exemple, pour un lissage entre un rectangle et un cercle, le cercle peut être décomposé en 4 arcs connectés.
--   Le lissage sera créé dans l\'ordre dans lequel les coupes transversales ont été ajoutées.
--   Si l\'esquisse a une géométrie intérieure, c\'est-à-dire que le lissage est censé avoir des trous, alors l\'ordre dans lequel la géométrie de l\'esquisse est créée doit être le même pour toutes les sections: commencez soit avec toutes les sections avec la géométrie intérieure, ou commencez-les toutes avec la géométrie extérieure . Sinon, un lissage non valide peut être créé à la croisée des murs intérieurs et extérieurs.
-
-## Problèmes connus 
-
--   Certains modes d\'échec vont transformer la pièce en noir
+-   Pour mieux contrôler la forme du lissage, il est recommandé que toutes les sections transversales aient le même nombre de segments. Par exemple, pour un lissage entre un rectangle et un cercle, le cercle doit être décomposé en 4 arcs connectés.
+-   Vous pouvez effectuer un lissage depuis ou vers un seul [vertex (ou Point)](Glossary/fr#V.md) d\'une esquisse ou du corps. {{Version/fr|0.20}}
+-   Les [Vertices](Glossary/fr#V.md) ne peuvent être que le début ou la fin d\'un lissage. Sinon, le corps du lissage serait constitué de deux solides reliés en un seul point. Cela violerait la définition d\'un objet 3D du noyau de CAO.
+-   Une section transversale ne peut pas se trouver sur le même plan que celle qui la précède immédiatement.
+-   Si l\'esquisse a une géométrie interne, c\'est-à-dire que le lissage est censé avoir des trous, l\'ordre dans lequel la géométrie de l\'esquisse est créée doit être le même pour toutes les sections : Soit vous commencez toutes les sections par la géométrie intérieure, soit vous les commencez toutes par la géométrie extérieure. Sinon, un lissage invalide peut être créé là où les parois intérieurs et extérieurs se croisent.
+-   Il n\'est pas possible de lisser des boucles disjointes ou croisées.
+-   Certains modes de défaillance rendent la pièce noire.
 
 ## Liens
 

@@ -67,8 +67,8 @@ Aby aktywować i dezaktywować pasek stanu, użyj menu **Widok → Pasek stanu**
 
 Inne użyteczne interfejsy i okna zawierają:
 
--   _. Dla zaawansowanych użytkowników i programistów pomocne może być rozwiązywanie problemów związanych z bezpośrednią manipulacją sceną i obiektami utworzonymi w [widok 3D](3D_view.md).
--   _. Pomocne jest rozpoznanie problemów w tworzeniu obiektów, takich jak zależności kołowe, które mogą nie być całkowicie widoczne z [widok drzewa](tree_view.md) lub [widok DAG](DAG_view.md).
+-   _. Dla zaawansowanych użytkowników i programistów pomocne może być rozwiązywanie problemów związanych z bezpośrednią manipulacją sceną i obiektami utworzonymi w [widok 3D](3D_view/pl.md).
+-   _ lub [widok DAG](DAG_view/pl.md).
 
 ### Możliwość dostosowania 
 

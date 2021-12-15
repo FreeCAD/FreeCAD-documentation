@@ -112,14 +112,20 @@ La fijación de objetos no es una herramienta específica del banco de trabajo d
 
 <div class="mw-translate-fuzzy">
 
-Para más información, ver la página de [Fijación](Part_Attachment/es.md).
+Para más información, ver la página de [Fijación](Part_EditAttachment/es.md).
 
 
 </div>
 
 ## Consejos para la creación de modelos estables 
 
+
+<div class="mw-translate-fuzzy">
+
 La idea de modelado paramétrico implica que el cambio de valores de ciertos parámetros provocan que el modelo cambie adaptándose a los nuevos valores. Sin embargo, cuando se hacen cambios severos, el modelo puede romperse debido al [problema de denominación topológica](topological_naming_problem/es.md) que aún no está resuelto en FreeCAD. La rotura puede minimizarse si se respetan los siguientes principios de diseño:
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -144,7 +150,7 @@ Sketches need to be supported by a plane. This plane can be one of the main plan
 
 ### Características secuenciales 
 
-Sketches can be supported by the faces of previous solid operations. This may be necessary if you need to access a face that is only available after a certain feature has been created. However, this workflow isn\'t recommended since, if the original feature is modified, the following features in the sequence may break. This is the [topological naming problem](topological_naming_problem.md).
+Sketches can be supported by the faces of previous solid operations. This may be necessary if you need to access a face that is only available after a certain feature has been created. However, this workflow isn\'t recommended since, if the original feature is modified, the following features in the sequence may break. This is the [topological naming problem](Topological_naming_problem.md).
 
 <img alt="" src=images/PartDesign_workflow_2.svg  style="width:600px;">
 

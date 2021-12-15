@@ -112,7 +112,6 @@ There is another table of contents for the _.
     -   [使用PySide](PySide/zh.md)
     -   [创建对象](Scripted_objects/zh.md)
     -   [嵌入式FreeCAD](Embedding_FreeCAD/zh.md)
-    -   [应用程序接口（API）文档](API_documentation/zh.md)
     -   脚本示例
         -   [代码片段](Code_snippets/zh.md)
         -   [画线函数](Line_drawing_function/zh.md)
@@ -128,16 +127,16 @@ There is another table of contents for the _.
     -   [许可证](Licence/zh.md)
     -   编译 FreeCAD
         -   [问题追踪](Tracker/zh.md)
-        -   [在Windows中编译](CompileOnWindows/zh.md)
-        -   [在Unix中编译](CompileOnUnix/zh.md)
-        -   [在Mac中编译](CompileOnMac/zh.md)
+        -   [在Windows中编译](Compile_on_Windows/zh.md)
+        -   [在Unix中编译](Compile_on_Linux/zh.md)
+        -   [在Mac中编译](Compile_on_MacOS/zh.md)
         -   [编译(加速)](Compiling_(Speeding_up)/zh.md)
         -   [第三方库](Third_Party_Libraries/zh.md)
         -   [第三方工具](Third_Party_Tools/zh.md)
         -   [启动与配置](Start_up_and_Configuration/zh.md)
     -   构建工具
         -   [FreeCAD构建工具](FreeCAD_Build_Tool/zh.md)
-        -   [增加功能模块](Module_Creation/zh.md)
+        -   [增加功能模块](Workbench_creation/zh.md)
         -   [调试 FreeCAD](Debugging/zh.md)
         -   [测试 FreeCAD](Testing/zh.md)
         -   [持续集成 (CI)](Continuous_Integration/zh.md)

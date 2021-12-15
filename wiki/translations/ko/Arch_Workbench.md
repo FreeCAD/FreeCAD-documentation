@@ -42,10 +42,16 @@ The developers of Draft, Arch, and BIM also collaborate with the greater [OSArch
 -   <img alt="" src=images/Arch_Window.png  style="width:32px;"> [Window](Arch_Window.md): Creates a window using a selected object as a base
 -   <img alt="" src=images/Arch_SectionPlane.png  style="width:32px;"> [Section Plane](Arch_SectionPlane.md): Adds a section plane object to the document
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Arch_CompAxis.png  style="width:48px;"> [Axis tools](Arch_CompAxis.md): The Axis tool allows you to places a series of axes in the current document.
     -   <img alt="" src=images/Arch_Axis.png  style="width:32px;"> [Axis](Arch_Axis.md): Adds a 1-direction array of axes to the document
     -   <img alt="" src=images/Arch_AxisSystem.png  style="width:32px;"> [Axes system](Arch_AxisSystem.md): Adds an axes system composed of several axes to the document
     -   <img alt="" src=images/Arch_Grid.png  style="width:32px;"> [Grid](Arch_Grid.md): Adds a grid-like object to the document
+
+
+</div>
 
 -   <img alt="" src=images/Arch_Roof.png  style="width:32px;"> [Roof](Arch_Roof.md): Creates a sloped roof from a selected face
 -   <img alt="" src=images/Arch_Space.png  style="width:32px;"> [Space](Arch_Space.md): Creates a space object in the document
@@ -116,7 +122,7 @@ These are additional tools to help you in specific tasks.
 
 ## API
 
-The Arch module can be used in [Python](Python.md) scripts and [macros](macros.md) using the [Arch Python API](http://www.freecadweb.org/api/Arch.html) functions.
+The Arch module can be used in [Python](Python.md) scripts and [macros](Macros.md) using the [Arch Python API](Arch_API.md) functions.
 
 ## 자습서
 

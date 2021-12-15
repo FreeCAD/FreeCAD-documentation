@@ -49,8 +49,6 @@ In FreeCAD version 0.19 this command and the [Draft ToggleConstructionMode](Draf
 **
     
 
--    **<img src="images/Draft_VisGroup.svg" width=16px> [VisGrouppo di Draft](Draft_VisGroup/it.md)**{{Obsolete/it|0.19}}
-
 
 </div>
 

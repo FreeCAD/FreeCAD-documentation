@@ -110,7 +110,7 @@ All these models may not be perfect, but attempt to show best pratices. The link
 
 ## Some Briefly Reviewed Videos 
 
-Reviews take a lot of time, these pretty much make sure the video is on topic, but not a whole lot more. Many of these videos are on channels that are listed at: [FreeCad on Video](FreeCad_on_Video.md) There may be more you can check for updates on this page\'s history. Those listed here are in no particular order. The page search feature in your browser may help you find ones of interest.
+Reviews take a lot of time, these pretty much make sure the video is on topic, but not a whole lot more. Many of these videos are on channels that are listed at: [FreeCAD on Video](FreeCAD_on_Video.md) There may be more you can check for updates on this page\'s history. Those listed here are in no particular order. The page search feature in your browser may help you find ones of interest.
 
 -   **[Designing with spreadsheets in FreeCAD - YouTube](https://www.youtube.com/watch?v=_pITOzeqJ0Y)** \-- seems on topic
 -   **[Designing a small cabinet using FreeCAD and spreadsheets - YouTube](https://www.youtube.com/watch?v=bdgQQFEpBN0)** \-\-- follow up to above, a real world example. Connecting to Excel.

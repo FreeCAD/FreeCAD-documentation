@@ -1,74 +1,74 @@
 # <img alt="" src=images/BIM_tutorial_screenshot.png  style="width:1024px;"> BIM ingame tutorial/pl
 
 
-{{BIMTutorialAction|descr=To jest samouczek dotyczący obsługi Środowiska pracy _, który informuje o warunku, który musi być spełniony. Obrazy powinny mieć szerokość 300px. Na tej stronie nie powinny być używane żadne obrazy SVG, ponieważ nie są one obsługiwane przez widżet QTextBrowser.}}
+{{BIMTutorialAction/pl|descr=To jest samouczek dotyczący obsługi środowiska pracy _, który informuje o warunku, który musi być spełniony. Obrazy powinny mieć szerokość 300px. Na tej stronie nie powinny być używane żadne obrazy SVG, ponieważ nie są one obsługiwane przez widżet QTextBrowser.}}
 
-### Witamy w Środowisku pracy BIM! 
+### Witamy w środowisku pracy BIM! 
 
 <img alt="" src=images/BIM_Tutorial_title.jpg  style="width:300px;">
 
-Ten poradnik poprowadzi Cię przez różne funkcjonalności Środowiska pracy [BIM](BIM_Workbench/pl.md) i pomoże Ci wejść na szlak, modelując bardzo prosty budynek pawilonu. Całkowite wykonanie powinno zająć od jednej do dwóch godzin, w zależności od wcześniejszych doświadczeń z aplikacjami 3D.
+Ten poradnik poprowadzi Cię przez różne funkcjonalności środowiska pracy [BIM](BIM_Workbench/pl.md) i pomoże Ci wejść na szlak, modelując bardzo prosty budynek pawilonu. Całkowite wykonanie powinno zająć od jednej do dwóch godzin, w zależności od wcześniejszych doświadczeń z aplikacjami 3D.
 
-You can interrupt it anytime and resume it later, by selecting menu **Help -\> Welcome screen**, and clicking the **BIM Tutorial** item again.
+Można go przerwać w dowolnym momencie i wznowić później, wybierając z menu **Pomoc -\> Ekran powitalny**, a następnie klikając ponownie pozycję **Poradnik BIM**.
 
-Some steps of this tutorial require you to take actions. Those will be indicated below this text box, with an icon showing if the task has been completed or not. But since we are good people here at FreeCAD, it is not mandatory to complete the actions in order to advance through these pages. You can just browse through the tutorial and skip actions at your convenience.
+Niektóre kroki w tym poradniku wymagają podjęcia działań. Zostaną one wskazane poniżej tego pola tekstowego, z ikoną pokazującą, czy zadanie zostało wykonane, czy nie. Ale ponieważ jesteśmy dobrymi ludźmi, we FreeCAD, nie jest obowiązkowe wykonywanie czynności, aby przejść dalej przez te strony. Możesz po prostu przeglądać samouczek i pomijać zadania w dogodnym dla siebie czasie.
 
-#### About FreeCAD versions 
+#### Informacje o wersjach FreeCAD 
 
-This tutorial is written for the [most recent development version of FreeCAD available](Download.md) (currently 0.19). The BIM workbench, however, is made to be compatible with any version of FreeCAD. If you are using a FreeCAD version older than the one indicated here, some BIM tools might look different, work differently or even be unavailable. Refer to the [documentation](BIM_Workbench.md) to know more in case of doubt.
+Ten poradnik jest napisany dla [najnowszej dostępnej wersji rozwojowej FreeCAD](Download/pl.md) *(obecnie 0.19)*. Program BIM jest jednak tak skonstruowany, aby był kompatybilny z każdą wersją programu FreeCAD. Jeśli używasz wersji FreeCAD starszej niż podana tutaj, niektóre narzędzia BIM mogą wyglądać inaczej, działać inaczej lub nawet być niedostępne. W razie wątpliwości zapoznaj się z [dokumentacją](BIM_Workbench/pl.md), aby dowiedzieć się więcej.
 
-#### Note
+#### Uwagi
 
-This tutorial is still being written, and is therefore **incomplete**! If you have suggestions or things you find unclear, why not help us to make it better on the [FreeCAD forum](https://forum.freecadweb.org/viewforum.php?f=23)!
+Ten tutorial jest ciągle w trakcie opracowywania, dlatego jest **niekompletny**! Jeśli masz sugestie lub rzeczy, które uważasz za niejasne, dlaczego nie pomóc nam uczynić go lepszym na [forum FreeCAD](https://forum.freecadweb.org/viewforum.php?f=23)!
 
 
-{{BIMTutorialAction|descr=No action to perform for this step}}
+{{BIMTutorialAction/pl|descr=Brak działań do wykonania dla tego etapu}}
 
-### Set FreeCAD up 
+### Skonfiguruj FreeCAD 
 
-FreeCAD has a large preferences system with many options to set, located under menu **Edit-\>Preferences**. Each additional workbench can add more preferences pages, which makes it very complex.
+FreeCAD posiada rozbudowany system preferencji z wieloma opcjami do ustawienia, znajdujący się w menu **Edycja → Preferencje**. Każde dodatkowe środowisko pracy może dodać więcej stron preferencji, co czyni go bardzo złożonym.
 
-The BIM workbench provides a [simplified setup screen](BIM_Setup.md), which allows to quickly set some of the most useful preferences for BIM work. The BIM preferences screen is located under menu **Manage -\> BIM Setup** (you can also click the corresponding button on the Manage toolbar):
+BIM udostępnia ekran [uproszczonej konfiguracji](BIM_Setup/pl.md), który pozwala na szybkie ustawienie kilku najbardziej przydatnych preferencji pracy w środowisku BIM. Ekran preferencji BIM znajduje się w menu **Zarządzanie -> Konfiguracja BIM** *(można również kliknąć odpowiedni przycisk na pasku narzędzi Zarządzaj)*:
 
 <img alt="" src=images/BIM_Tutorial_01.jpg  style="width:300px;">
 
-Open the simplified BIM preferences screen now, and set the different options to your liking.
+Otwórz teraz uproszczony ekran preferencji BIM i ustaw różne opcje zgodnie z własnymi upodobaniami.
 
-In case of need, hover the mouse over any option or setting to see a description of what it is used for:
+W razie potrzeby ustaw kursor myszki na dowolnej opcji lub ustawieniu, aby zobaczyć wyjaśnienie, do czego służy:
 
 <img alt="" src=images/BIM_Tutorial_02.jpg  style="width:300px;">
 
-In this tutorial, we will work in centimeters. We therefore suggest you to set preferred units as **centimeters**, and the default grid square size to **10 cm**. These settings can be changed at any time from the working plane button located on the main toolbars, and the units indicator located on the status bar (bottom right):
+W tym poradniku będziemy pracować z zastosowaniem centymetrów. Proponujemy zatem ustawić preferowane jednostki jako **centymetry**, a domyślny rozmiar kwadratu siatki na **10 cm**. Ustawienia te można zmienić w dowolnym momencie za pomocą przycisku płaszczyzny roboczej znajdującego się na głównym pasku narzędzi oraz wskaźnika jednostek znajdującego się na pasku stanu *(na dole po prawej stronie)*:
 
 <img alt="" src=images/BIM_tutorial_14.jpg  style="width:300px;">
 
 
-{{BIMTutorialAction|goal1=Open the BIM setup screen|test1=True if hasattr(FreeCADGui,"BIMSetupDialog") else False|goal2=Set units to centimeters and grid size to 10cm|test2=True if ((FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Units").GetInt("UserSchema",0) == 4) and (FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetFloat("gridSpacing",10) == 100)) else False}}
+{{BIMTutorialAction/pl|goal1=Otwórz ekran konfiguracji BIM|test1=True if hasattr(FreeCADGui, "BIMSetupDialog") else False|goal2=Ustaw jednostki na centymetry i rozmiar siatki na 10cm|test2=True if ((FreeCAD. ParamGet("User parameter:BaseApp/Preferences/Units").GetInt("UserSchema",0) == 4) and (FreeCAD.ParamGet("User parameter:BaseApp/Preferences/Mod/Draft").GetFloat("gridSpacing",10) == 100)) else False}}
 
-### Create a new document 
+### Utwórz nowy dokument 
 
-If you just installed FreeCAD, you are probably currently looking at the **FreeCAD Start Page**:
+Jeśli właśnie zainstalowałeś FreeCAD, prawdopodobnie właśnie patrzysz na **Stronę startową FreeCAD**:
 
 <img alt="" src=images/BIM_tutorial_13.jpg  style="width:300px;">
 
-The start page lists the latest documents you have been working with, and, on its different tabs, explains how to get help. But in order to start working, we need to create a new, empty **document**. If you haven\'t done it yet, create now a new document by using the \"Create new\...\" item of the start page, or by navigating to menu **File -\> New**:
+Strona startowa zawiera listę ostatnich dokumentów, z którymi pracowałeś, a także, w różnych zakładkach, wyjaśnia jak uzyskać pomoc. Jednak aby rozpocząć pracę, musimy stworzyć nowy, pusty **dokument**. Jeśli jeszcze tego nie zrobiłeś, utwórz nowy dokument używając opcji \"Utwórz nowy\...\" na stronie startowej, lub przechodząc do menu **Plik → Nowy**:
 
 <img alt="" src=images/BIM_tutorial_09.jpg  style="width:300px;">
 
-You will then find yourself in the 3D space of FreeCAD, ready to work:
+Znajdziesz się wtedy w przestrzeni 3D programu FreeCAD, gotowy do pracy:
 
 <img alt="" src=images/BIM_tutorial_10.jpg  style="width:300px;">
 
 
 {{BIMTutorialAction|goal1=Create a new document|test1=True if FreeCAD.ActiveDocument else False}}
 
-### Navigating in the 3D view 
+### Nawigacja w przestrzeni 3D 
 
 There are several ways to interact with the mouse in FreeCAD. These are called [navigation styles](Mouse_navigation.md). You can change the current navigation style anytime by clicking on the navigation style button in the status bar. Hovering the mouse over that button will also show you what each mouse button does. Several of them are made to match other well-known applications. Choose one you are comfortable with.
 
 <img alt="" src=images/BIM_Tutorial_03.jpg  style="width:300px;">
 
-Controlling how you look at your model in the 3D view can be done in multiple ways: Using the **mouse** (depending on the navigation style you chose), the **keyboard** (explore the contents of the **View** menu to find out more), or the [Navigation Cube](Navigation_Cube.md) (click the different arrows and faces of the cube to align the view).
+Kontrolowanie sposobu patrzenia na model w widoku 3D może być wykonane na wiele sposobów: Za pomocą **myszki** *(w zależności od wybranego stylu nawigacji)*, **klawiatury** *(zbadaj zawartość menu **Widok**, aby dowiedzieć się więcej)* lub [Kostki nawigacyjnej](Navigation_Cube/pl.md) *(kliknij różne strzałki i ściany sześcianu, aby wyrównać widok)*.
 
 <img alt="" src=images/BIM_Tutorial_04.jpg  style="width:300px;">
 
@@ -116,7 +116,7 @@ These tools produce annotative objects such as dimensions, texts, labels or grid
 
 <img alt="" src=images/BIM_Tutorial_34.jpg  style="width:300px;">
 
-#### Snapping
+#### Przyciąganie
 
 These tools turn [snapping](Draft_Snap.md) positions on/off. Like in most BIM applications, each additional snapping position adds calculation time when drawing, so it is best to only keep the ones you need turned on.
 
@@ -189,7 +189,7 @@ You can always correct or change properties after a wall or any other BIM object
 
 You will notice that some property changes, in FreeCAD, don\'t reflect immediately on the object in the 3D view. Instead, the object is marked with a \"to be recomputed\" blue mark in the tree:
 
-<img alt="" src=images/BIM_Tutorial_20.jpg  style="width:300px;">
+Translations:BIM ingame tutorial/87/pl <img alt="" src=images/BIM_Tutorial_20.jpg  style="width:300px;">
 
 The reason for this is that a FreeCAD document can be a very complex chain of inter-dependent objects. Updating one can trigger an update on many others, and therefore take a long time. To avoid this, some operations simply mark the object to be recomputed, and you trigger the recomputation yourself by using menu **Edit -\> Refresh** or pressing **Ctrl+R**.
 

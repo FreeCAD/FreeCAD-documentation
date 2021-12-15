@@ -1,6 +1,13 @@
-# Sketcher ConstrainLock/cs
 ---
-- GuiCommand:/cs   Name:Sketcher ConstrainLock   Name/cs:Sketcher ConstrainLock   Workbenches:_---
+- GuiCommand:/cs
+   Name:Sketcher ConstrainLock
+   Name/cs:Sketcher ConstrainLock
+   Workbenches:[Sketcher](Sketcher_Workbench/cs.md), [PartDesign](PartDesign_Workbench/cs.md)
+   MenuLocation:Sketch → Sketcher constraints → Constrain lock
+   SeeAlso:[Constraint Coincident](Sketcher_ConstrainBlock/cs.md)
+---
+
+# Sketcher ConstrainLock/cs
 
 
 </div>

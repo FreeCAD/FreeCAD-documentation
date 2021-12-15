@@ -21,15 +21,27 @@ Pour les autres types d\'installation, voir [Téléchargements](Download/fr.md).
 ## AppImages de FreeCAD 
 
 
+<div class="mw-translate-fuzzy">
+
+
 **'''Remarque:''' Les builds de développement sont maintenant hébergés sur le repo github [https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds '''FreeCAD-Bundle'''].<br/>Si les liens de téléchargement ci-dessous ne fonctionnent pas, veuillez télécharger manuellement les fichiers à partir de la section "Assets" effondrée du lien ci-dessus**
 
 .
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
   Stable                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Développement
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](images/AppImage-logo.png ) \[<https://github.com/FreeCAD/FreeCAD/releases/download/>{{:Template:Stable-Major-and-Minor-Version}}/FreeCAD\_{{:Template:Stable-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage {{:Template:Stable-Version}}\] (\[<https://github.com/FreeCAD/FreeCAD/releases/download/>{{:Template:Stable-Major-and-Minor-Version}}/FreeCAD\_{{:Template:Stable-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage-SHA256.txt SHA256\])   ![](images/AppImage-logo.png ) \[<https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds->{{:Template:Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage {{:Template:Development-Version}}\] (\[<https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds->{{:Template:Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage-SHA256.txt SHA256\])
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ![](images/AppImage-logo.png ) \[<https://github.com/FreeCAD/FreeCAD/releases/download/>\>-Linux-Conda\_glibc2.12-x86\_64.AppImage à partir de la page [weekly download page](https://github.com/FreeCAD/FreeCAD-Bundle/releases/tag/weekly-builds).
 
   : style=\"text-align: center; font-size: 150%; \| les AppImages disponibles de FreeCAD \|+
+
+
+</div>
 
 **Remarques importantes :**
 

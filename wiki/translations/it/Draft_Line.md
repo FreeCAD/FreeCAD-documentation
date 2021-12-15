@@ -46,8 +46,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Premere il pulsante **<img src="images/Draft_Line.svg" width=16px> [Linea](Draft_Line/it.md)
 ** o premere i tasti **L** e **I**
-2.  Fare clic su un primo punto nella vista 3D, o digitare le sue [coordinate ](Draft_Coordinates/it.md) e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [inserisci punto](Draft_AddPoint/it.md)**.
-3.  Fare clic su un secondo punto nella vista 3D, o digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [inserisci punto](Draft_AddPoint/it.md)**.
+2.  Fare clic su un primo punto nella vista 3D, o digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> inserisci punto**.
+3.  Fare clic su un secondo punto nella vista 3D, o digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> inserisci punto**.
 
 
 </div>
@@ -64,12 +64,12 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Premere **X**, o **Y**, o **Z** dopo il primo punto per vincolare il secondo punto su un dato asse.
 -   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** tra ciascun componente X, Y e Z.
     -   Si possono anche definire le coordinate polari del punto dando un valore a \"Lunghezza\" e \"Angolo\". Fare clic sulla casella accanto a \"Angolo\" per vincolare il puntatore all\'angolo specificato.
-    -   È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [inserisci punto](Draft_AddPoint/it.md)** quando si hanno i valori desiderati per inserire il punto.
+    -   È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> inserisci punto** quando si hanno i valori desiderati per inserire il punto.
 -   Premere il tasto **R** oppure fare clic sulla casella di controllo per attivare la modalità \"relativo\". Se la modalità relativo è attiva, le coordinate del punto successivo sono relative all\'ultimo; in caso contrario, sono assolute, prese dall\'origine (0,0,0).
 -   Premere il tasto **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Linea si riavvia dopo aver terminato la linea in costruzione, e consente di disegnarne una nuova linea senza premere nuovamente il pulsante dello strumento
 -   Tenere premuto **Ctrl** mentre si disegna per forzare [l\'aggancio](Draft_Snap.md) del proprio punto alla posizione di aggancio più vicina, indipendentemente dalla distanza.
 -   Tenere premuto **Maiusc** mentre si disegna per [vincolare](Draft_Constrain.md) il prossimo punto in orizzontale o in verticale rispetto all\'ultimo.
--   Premere i tasti **Ctrl**+**Z** o premere il pulsante {{button|<img src="images/Draft_UndoLine.svg" width=12px> [Undo](Draft_UndoLine/it.md)}} per annullare l\'ultimo punto.
+-   Premere i tasti **Ctrl**+**Z** o premere il pulsante {{button|<img src="images/Draft_UndoLine.svg" width=12px> Undo}} per annullare l\'ultimo punto.
 -   Premere il tasto **Esc** o il pulsante {{button|Chiudi}} per interrompere il comando corrente.
 
 

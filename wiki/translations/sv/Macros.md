@@ -130,9 +130,18 @@ You can manually install extensions, however, it is much simpler to just use the
 -   [How to install additional workbenches](How_to_install_additional_workbenches.md)
 
 
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/sv|Standard Menu/sv|Introduction to Python/sv}}
+
+
+</div>
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _ _
 

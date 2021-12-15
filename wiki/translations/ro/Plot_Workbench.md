@@ -50,7 +50,7 @@ If you decide to install the <img alt="" src=images/Workbench_Plot.svg  style="w
 
 ## Script-Programare 
 
-Deoarece Plot este un strat peste `matplotlib`, aveți libertatea de a folosi orice funcție din această bibliotecă peste instanțele de plotare. A se vedea [scripting examples](Scripting_examples.md) pentru exemple.
+Deoarece Plot este un strat peste `matplotlib`, aveți libertatea de a folosi orice funcție din această bibliotecă peste instanțele de plotare. A se vedea [Scripting and macros](Scripting_and_macros.md) pentru exemple.
 
 ## Tutorial
 

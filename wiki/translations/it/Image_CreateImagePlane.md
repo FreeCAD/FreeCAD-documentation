@@ -58,11 +58,26 @@ Se inizialmente non viene assegnato alcuno scostamento all\'immagine, la sua pos
 
 {{Properties Title|Base}}
 
+
+<div class="mw-translate-fuzzy">
+
+
+{{Properties Title|Base}}
+
 -    **Position**: specifica le coordinate del punto base del piano dell\'immagine.
 
 -    **Angle**: specifica l\'angolo di rotazione del piano dell\'immagine.
 
 -    **Axis**: specifica l\'asse utilizzato per l\'angolo di rotazione.
+
+
+</div>
+
+
+{{Properties Title|Image Plane}}
+
+
+<div class="mw-translate-fuzzy">
 
 
 {{Properties Title|Image Plane}}
@@ -72,6 +87,9 @@ Se inizialmente non viene assegnato alcuno scostamento all\'immagine, la sua pos
 -    **YSize**: specifica l\'altezza del piano dell\'immagine.
 
 -    **Image Plane**: specifica l\'immagine da usare per questo piano.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

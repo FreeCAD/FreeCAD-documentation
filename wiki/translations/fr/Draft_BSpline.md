@@ -22,7 +22,7 @@ La commande Draft B-spline spécifie les **points exacts** par lesquels la courb
 
 ## Utilisation
 
-Voir aussi: [Draft La barre](Draft_Tray/fr.md), [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Il existe plusieurs façons d\'invoquer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_BSpline.svg" width=16px> [Créer une courbe B-spline...](Draft_BSpline/fr.md)**.

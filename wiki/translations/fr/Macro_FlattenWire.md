@@ -2,16 +2,17 @@
 {{Macro/fr
 |Name=FlattenWire
 |Icon=Macro_FlattenWire.png
-|Description=Cette macro aplatit les fils (Wire) du projet qui ne sont pas plan à la médiane de leurs coordonnées z
-|Author=Yorik|Version=1.0
-|Date=2011-08-01
+|Description=Cette macro aplatit les Draft fils qui ne sont pas planaires à leur coordonnée Z médiane.
+|Author=Yorik
+|Version=1.1
+|Date=2021-10-27
 |FCVersion=Toutes
-|Download=[https://www.freecadweb.org/wiki/images/2/2f/Macro_FlattenWire.png ToolBar Icon]
+|Download=[https://www.freecadweb.org/wiki/images/2/2f/Macro_FlattenWire.png Icône de la barre d'outils]
 }}
 
 ## Description
 
-Cette macro aplatit les fils (Wire) du projet qui ne sont pas plan à la médiane de leurs coordonnées z.
+Cette macro aplatit les Draft fils qui ne sont pas planaires à leur coordonnée Z médiane.
 
 ## Script
 
@@ -27,8 +28,8 @@ z = 0
 for p in obj.Points: z += p.z
 z = z/len(obj.Points)
 newpoints = []
-for p in obj.Points: newppoints.append(FreeCAD.Vector(p.x,p.y,z))
-obj.Points = newppoints
+for p in obj.Points: newpoints.append(FreeCAD.Vector(p.x, p.y, z))
+obj.Points = newpoints
 ```
 
 ---

@@ -49,7 +49,6 @@ In FreeCAD version 0.20 the command can also handle group-like [Arch](Arch_Workb
 
 -   [Struttura del documento](Document_structure/it.md).
 -   [Organizzare il modello](Arch_tutorial#Organizing_your_model.md) quando si lavora con oggetti Arch.
--   [Organizzare gli oggetti nel documento](Ways_To_Organize_Objects/it.md).
 
 
 </div>

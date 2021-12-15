@@ -87,7 +87,7 @@ Per i nostalgici del vecchio software CAD, ora con lo strumento [Forma da testo]
 <div class="mw-translate-fuzzy">
 
 -   Le [Linee](Draft_Line/it.md) possono essere definite dalla loro lunghezza e dall\'angolo nel piano di lavoro attuale
--   Linee di estensione relative per la [Quotatura](Draft_Dimensions/it.md)
+-   Linee di estensione relative per la [Quotatura](Draft_Snap_Dimensions/it.md)
 -   Supporto per [Ellissi](Sketcher_CreateEllipseByCenter/it.md) in Schizzo
 -   Gli oggetti [Array](Draft_Array/it.md) (Schiere) possono essere fusi
 

@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/tr
-   Name:Bezier eğrisi
+   Name:Draft BezCurve
    Name/tr:Bezier eğrisi
    MenuLocation:Taslak → Bezier eğrisi
    Workbenches:[Taslak](Draft_Workbench/tr.md), [Yapı](Arch_Workbench/tr.md)
@@ -63,9 +63,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 1.  
     {{KEY | <img src="images/_Draft_BezCurve.png_" width= 16px> [Bezier eğrisi](Draft_BezCurve/tr.md)}}düğmesine basın veya {{KEY | B}} ardından {{KEY | Z}} tuşlarına basın.
 
-2.  3D görünümünde bir ilk noktaya tıklayın veya bir [ koordinat](Draft_Coordinates/tr.md) yazın
+2.  3D görünümünde bir ilk noktaya tıklayın veya bir koordinat yazın
 
-3.  3D görünümünde ek noktaya tıklayın veya bir [ koordinat](Draft_Coordinates/tr.md) yazın
+3.  3D görünümünde ek noktaya tıklayın veya bir koordinat yazın
 
 4.  
     {{KEY | F}}veya {{KEY | C}} tuşuna basın veya son noktayı çift tıklayın veya eğriyi bitirmek ve kapatmak için ilk noktayı tıklayın.
@@ -80,9 +80,9 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 <div class="mw-translate-fuzzy">
 
--   Spline\'ı bitirmek için {{KEY | F}} veya {{KEY | <img src="images/_Draft_FinishLine.png_" width= 12px> '''[Bitir](Draft_FinishLine_.md)'''}} düğmesine basın
+-   Spline\'ı bitirmek için {{KEY | F}} veya {{KEY | <img src="images/_Draft_FinishLine.png_" width= 12px> '''Bitir'''}} düğmesine basın
 
--    {{KEY | C}}veya {{KEY | <img src="images/_Draft_CloseLine.png_" width= 12px> '''[Kapat](Draft_CloseLine/tr.md)'''}} düğmesine basın veya ilk noktaya tıklayın spline\'ı bitirin, ancak son nokta ile birincinin arasına son bir parça ekleyerek kapatın.
+-    {{KEY | C}}veya {{KEY | <img src="images/_Draft_CloseLine.png_" width= 12px> '''Kapat'''}} düğmesine basın veya ilk noktaya tıklayın spline\'ı bitirin, ancak son nokta ile birincinin arasına son bir parça ekleyerek kapatın.
 
 -   Verilen eksendeki bir sonraki noktayı sınırlamak için bir noktadan sonra {{KEY | X}}, {{KEY | Y}} veya {{KEY | Z}} tuşlarına basın.
 
@@ -98,7 +98,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 -   Mevcut segmentleri kaldırmak ve spline\'ı en sondan başlatmak için {{KEY | W}} tuşuna basınız veya {{KEY | <img src="images/_Draft_Wipe.png_" width= 12px> '''Uzat'''}} tuşuna basınız. puan.
 
--   Son noktayı geri almak için {{KEY | CTRL}} + {{KEY | Z}} tuşuna basın veya {{KEY | <img src="images/_Draft_UndoLine.png_" width= 12px> '''[ Geri al](Draft_UndoLine/tr.md)'''}} tuşuna basın .
+-   Son noktayı geri almak için {{KEY | CTRL}} + {{KEY | Z}} tuşuna basın veya {{KEY | <img src="images/_Draft_UndoLine.png_" width= 12px> '''Geri al'''}} tuşuna basın .
 
 -   Geçerli Bezier eğrisi komutunu iptal etmek için {{KEY | ESC}} veya {{KEY | '''İptal'''}} düğmesine basın.
 

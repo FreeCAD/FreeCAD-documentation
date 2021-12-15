@@ -279,6 +279,9 @@ Pour compiler FreeCAD avec Debian Buster, Ubuntu 19.04 et ultérieures, ainsi qu
 -    `python3-pyside2.qtwidgets`
     
 
+-    `python3-pyside2.qtnetwork`
+    
+
 -    `python3-pyside2uic`
     
 
@@ -359,9 +362,13 @@ Vous pouvez éventuellement installer ces paquets supplémentaires :
 
 -    `doxygen`et `libcoin-doc` (ou `libcoin80-doc` pour d\'anciens systèmes), si vous avez l'intention de générer de la documentation sur le code source.
 
--    `libspnav-dev`, pour la prise en charge des [périphériques 3Dconnexion](3D_input_devices.md), comme \"Space Navigator\" ou \"Space Pilot\".
+-    `libspnav-dev`, pour la prise en charge des [Périphériques d\'entrée 3D](3D_input_devices/fr.md), comme \"Space Navigator\" ou \"Space Pilot\".
 
 -    `checkinstall`, si vous avez l\'intention d\'enregistrer vos fichiers installés dans le gestionnaire de paquets de votre système, afin de pouvoir les désinstaller ultérieurement.
+
+-    `python3-markdown`, pour que le gestionnaire d\'addons affiche nativement les fichiers README.md au format Markdown.
+
+-    `python3-git`, pour que le gestionnaire d\'addons utilise git pour récupérer et mettre à jour les ateliers et les macros.
 
 #### Commande unique pour Qt5 et Python 3 
 
@@ -369,7 +376,7 @@ Requiert Pyside2, disponible sous Debian Buster et les [freecad-stable/freecad-d
 
 
 ```python
-sudo apt install cmake cmake-gui libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside2-dev libqt5opengl5-dev libqt5svg5-dev libqt5webkit5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev libshiboken2-dev libspnav-dev libvtk7-dev libx11-dev libxerces-c-dev libzipios++-dev occt-draw pyside2-tools python3-dev python3-matplotlib python3-pivy python3-ply python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-pyside2uic qtbase5-dev qttools5-dev swig
+sudo apt install cmake cmake-gui libboost-date-time-dev libboost-dev libboost-filesystem-dev libboost-graph-dev libboost-iostreams-dev libboost-program-options-dev libboost-python-dev libboost-regex-dev libboost-serialization-dev libboost-thread-dev libcoin-dev libeigen3-dev libgts-bin libgts-dev libkdtree++-dev libmedc-dev libocct-data-exchange-dev libocct-ocaf-dev libocct-visualization-dev libopencv-dev libproj-dev libpyside2-dev libqt5opengl5-dev libqt5svg5-dev libqt5webkit5-dev libqt5x11extras5-dev libqt5xmlpatterns5-dev libshiboken2-dev libspnav-dev libvtk7-dev libx11-dev libxerces-c-dev libzipios++-dev occt-draw pyside2-tools python3-dev python3-matplotlib python3-pivy python3-ply python3-pyside2.qtcore python3-pyside2.qtgui python3-pyside2.qtsvg python3-pyside2.qtwidgets python3-pyside2.qtnetwork python3-markdown python3-git python3-pyside2uic qtbase5-dev qttools5-dev swig
 ```
 
 REMARQUE : Sur certaines versions d\'Ubuntu et certaines versions de Qt, vous obtiendrez une erreur indiquant que python3-pyside2uic est introuvable \-- sur ces systèmes, vous pouvez l\'omettre sans risque. Sur Ubuntu 20.04, vous devrez ajouter `pyqt5-dev-tools`. Vous trouverez plus d\'informations dans [cette discussion du forum](https://forum.freecadweb.org/viewtopic.php?t=51324).
@@ -498,6 +505,8 @@ Et éventuellement :
 
 -   libspnav-devel (pour le support des périphériques 3Dconnexion comme le Space Navigator ou le Space Pilot)
 -   python3-pivy (https://bugzilla.redhat.com/show\_bug.cgi?id=458975 Pivy n\'est pas obligatoire mais nécessaire pour l\'atelier Draft)
+-   python3-markdown (pour que le gestionnaire d\'addons affiche le markdown natif)
+-   python3-git (pour que le gestionnaire d\'addons utilise git pour vérifier et mettre à jour les ateliers et les macros)
 
 
 </div>

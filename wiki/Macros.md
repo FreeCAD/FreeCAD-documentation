@@ -20,7 +20,7 @@ It is very simple to use: Press the record button, you will be asked to give a n
 ![](images/Macros.png ) 
 *Macro dialog, listing the macros available in the system*
 
-There you can manage your macros, delete, edit, duplicate, install or create new ones from scratch. If you edit a macro, it will be opened in an editor window where you can make changes to its code. New macros can be installed using the {{button|Addons...}} button, which links to the [Addon Manager](AddonManager.md).
+There you can manage your macros, delete, edit, duplicate, install or create new ones from scratch. If you edit a macro, it will be opened in an editor window where you can make changes to its code. New macros can be installed using the {{button|Addons...}} button, which links to the [Addon Manager](Std_AddonMgr.md).
 
 ## Example
 

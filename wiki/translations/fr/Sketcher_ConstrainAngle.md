@@ -12,13 +12,13 @@
 
 ## Description
 
-La Contrainte d\'Angle est une [Donnée de contrainte](Sketcher_Workbench/fr#Contraintes_d'esquisse.md) destinée à fixer les angles sur le croquis. Elle est capable de fixer des pentes de lignes individuelles, les angles entre les lignes, les angles des intersections de courbes, et l\'espace d\'angles d\'arcs circulaires
+La contrainte d\'angle est une [contrainte de donnéé](Sketcher_Workbench/fr#Contraintes_d'esquisse.md) destinée à fixer les angles dans une esquisse. Elle est capable de fixer les pentes de lignes seules, les angles entre les lignes, les angles des intersections de courbes et les portées d\'angle des arcs de cercle.
 
 ## Utilisation
 
 La contrainte peut être appliquée de quatre manières différentes :
 
--   aux lignes individuelles
+-   à des lignes seules
 -   entre les lignes
 -   aux intersections de courbes
 -   aux arcs de cercles
@@ -27,11 +27,11 @@ Pour appliquer une contrainte d\'angle, il faut suivre les étapes suivantes :
 
 1.  Sélectionnez une, deux ou trois entités dans l\'esquisse. Le mode sera choisi en fonction de la sélection.
 2.  Lancez la contrainte en utilisant plusieurs méthodes:
-    -   En appuyant sur le bouton **<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Fixer l'angle...](Sketcher_ConstrainAngle/fr.md)** dans la barre d\'outils.
+    -   En appuyant sur le bouton **<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Contraint angulaire](Sketcher_ConstrainAngle/fr.md)** dans la barre d\'outils.
     -   Utilisation du raccourci clavier **A**. (**A** est pour **A**ngle)
-    -   L\'utilisation de **Sketch → Contraintes d'esquisse → <img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Contraindre angulaire** forme l\'entrée de menu supérieure
-3.  Une boîte de dialogue d\'édition de référence apparaît.
-4.  Modifiez l\'angle si nécessaire. **Remarque :** L\'angle peut être entré comme une expression qui sera évaluée et le résultat sera stocké.
+    -   L\'utilisation de **Sketch → Contraintes d'esquisse → <img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Contraint angulaire** forme l\'entrée de menu supérieure
+3.  Une boîte de dialogue d\'édition apparaît.
+4.  Modifiez l\'angle si nécessaire. **Remarque :** l\'angle peut être entré comme une expression qui sera évaluée et le résultat sera stocké.
 5.  Cliquez sur **OK**
 
 Comme avec toute contrainte de référence, il est possible de changer la valeur d\'angle plus tard en double-cliquant sur la contrainte dans la liste contrainte ou une vue 3D. La saisie d\'une valeur négative entraînera la direction de l\'angle à basculer.
@@ -40,13 +40,13 @@ Comme avec toute contrainte de référence, il est possible de changer la valeur
 
 ### Angle de pente de la ligne 
 
-**Sélection Acceptée :** ligne
+**Sélection acceptée :** ligne
 
 <img alt="" src=images/Sketcher_ConsraintAngle_mode1.png  style="width:600px;">
 
 La contrainte définit l\'angle polaire de la direction de la ligne. C\'est l\'angle entre la ligne et l\'axe X de l\'esquisse.
 
-### Durée Arc (v0.15) 
+### Valeur angulaire d\'arc de cercle 
 
 **Sélection acceptée :** arc de cercle
 
@@ -62,7 +62,7 @@ Dans ce mode, la contrainte fixe la valeur angulaire de l\'arc de cercle
 
 Dans ce mode, la contrainte fixe l\'angle entre deux lignes. Il n\' est pas obligatoire que les lignes se coupent.
 
-### Entre les courbes à l\'intersection (angle par point) (v0.15) 
+### Entre les courbes à l\'intersection (angle par point) 
 
 \"\'Sélection acceptée :\'\" toute ligne/courbe + toute ligne/courbe + tout point
 

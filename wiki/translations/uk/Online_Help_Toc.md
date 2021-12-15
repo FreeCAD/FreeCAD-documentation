@@ -1,26 +1,20 @@
 # Online Help Toc/uk
 <div class="mw-translate-fuzzy">
 
-Це інтернет версия системи допомоги в FreeCAD. Посилання на статті автоматично додаються до файлу FreeCAD.chm за допомогою модуля wiki2chm.py. Ви знайдете цей модуль в src/Tools/wiki2chm.py. Також доступна версія для друку даного [посібника](Manual/uk.md).
+Це інтернет версия системи допомоги в FreeCAD. Посилання на статті автоматично додаються до файлу FreeCAD.chm за допомогою модуля wiki2chm.py. Ви знайдете цей модуль в src/Tools/wiki2chm.py. Також доступна версія для друку даного посібника.
 
 
 </div>
 
 There is another table of contents for the _.
 
-
-<div class="mw-translate-fuzzy">
-
--   [Ласкаво просимо](Online_Help_Startpage/uk.md)
 -   Введення
+-   [Ласкаво просимо](Online_Help_Startpage/uk.md)
     -   [Про FreeCAD](About_FreeCAD/uk.md)
     -   [Особливості](Feature_list/uk.md)
     -   [Встановлення в Windows](Install_on_Windows/uk.md)
     -   [Встановлення в Linux / Unix](Install_on_Unix/uk.md)
     -   [Встановлення в Mac OS X](Install_on_Mac/uk.md)
-
-
-</div>
 
 -   Introduction
     -   [Welcome](Online_Help_Startpage.md)
@@ -97,7 +91,7 @@ There is another table of contents for the _.
     -   [Setting import-export preferences](Import_Export_Preferences.md)
     -   [Start up and configuration](Start_up_and_Configuration.md)
 
--   Python scripting
+-   [Python scripting](Scripting_and_macros.md)
     -   [Working with macros](Macros.md)
     -   [Script tutorial](Scripts.md)
     -   [Introduction to Python](Introduction_to_Python.md)

@@ -44,12 +44,6 @@ The **Std MeasureDistance** command creates a distance object that measures and 
 
 ## Bemerkungen
 
-Weitere Möglichkeiten bzgl. Messung/Bemaßung sind
-
-1.  die [Measure](Std_Measure_Menu/de.md)-Werkzeuge aus dem Part-Arbeitsbereich
-2.  das [Draft Abmessung](Draft_Dimension/de.md)-Werkzeug aus dem Draft-Arbeitsbereich
-3.  das [Arch Messen](Arch_Survey/de.md)-Werkzeug
-
 
 </div>
 

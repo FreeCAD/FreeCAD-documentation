@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/tr
-   Name:Eskizi Kapat
+   Name:Sketcher LeaveSketch
+   Name/tr:Eskizi Kapat
    Workbenches:[Eskiz](Sketcher_Workbench/tr.md), [Parça tasarım](PartDesign_Workbench/tr.md)
    MenuLocation:Eskiz → Eskizi kapat
 ---

@@ -22,11 +22,11 @@ The example image above shows two different cross-section shapes. The text below
 
 1.  Create two separate sketches;
     -   one for the path, e.g two lines connected by a curve as in the image above,
-    -   one for the cross-section shape, e.g. a circle as the first shape in the image above.
+    -   one for the cross-section shape, e.g. a circle as the first shape in the image above. Instead of a sketch also the face of a 3D object can be used. (<small>(v0.20)</small> )
 2.  **Arrange** the two shapes in 3D correctly. It is recommended to place the origin of the cross-section onto the line of the path. The two sketches should in most cases be **orthogonal**. This can be done with the \'Map Mode\' function (make both sketches visible with **Space**. Select the cross-section sketch. Select Properties/DataTab/MapMode. Click the appearing **...** button at the right side. In the Attachment Dialog select a vertex of the path sketch and select the correct mode to get the two sketches aligned correctly).
 3.  Press the **<img src="images/PartDesign_AdditivePipe.svg" width=24px> [Additive pipe](PartDesign_AdditivePipe.md)** button.
-4.  In the **Select feature** dialog, select a sketch to be used cross-section and click **OK**.
-    -   Alternatively, the cross-section sketch can be selected prior to pressing the Additive pipe button. In that case you will not get a \"Select feature\' dialog.
+4.  In the **Select feature** dialog select a sketch to be used cross-section and click **OK**.
+    -   Alternatively, a sketch or a face of a 3D object (<small>(v0.20)</small> ) can be selected prior to pressing the Additive pipe button. In that case you will not get a \"Select feature\' dialog.
 5.  In the **Pipe parameters** under **Path to sweep along**, press the **Object** button.
 6.  Select the sketch to be used as path in the 3D view. In this case the whole sketch will be used as path.
     -   Alternatively, single edges of the sketch can be selected by pressing **Add Edge** and selecting edges in the 3D view. Note that you must press the **Add Edge** for each edge again. You must select a continous line with no branches.
@@ -87,15 +87,16 @@ To use more than one cross-section, start with the first cross-section sketch as
 
 -    **Transformation**: *Constant* uses a single cross-section. *Multisection* uses two or more cross-sections. *Linear*, *S-shape* and *Interpolation* are currently not functional.
 
-## Limitations
+## Notes
 
--   Sketches used for cross-sections must form closed profiles.
+-   To better control the shape of the pipe, it is recommended that all cross-sections have the same number of segments. For example, for a pipe between a rectangle and a circle, the circle should be broken down into 4 connected arcs.
+-   You can pipe from or toward a single [vertex](Glossary#V.md) from a sketch or the body. <small>(v0.20)</small> 
+-   When you select a [vertex](Glossary#V.md) as section, it must be the last section of the pipe. Otherwise the pipe body would consist of two solids connected at a single point. This would violates the CAD kernel\'s definition of a 3D object. You can change the order of the sections by dragging them in the list.
 -   The path can only be from a single sketch, feature or ShapeBinder. In case you want to sweep along several edges from different sketches, use a **<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [SubShapeBinder](PartDesign_SubShapeBinder.md)**.
 -   The path must not contain branches or T-junctions etc. Loops are allowed.
--   It is not possible to use a vertex as cross-section.
--   It can lead to issues if the cross-section is not perpendicular to the path in 3D (some other CAD systems consider the origin of the cross-section as the path and do not require to place that sketch explicitly).
+-   It can lead to issues if the cross-section is not perpendicular to the path in 3D.
 -   A cross-section cannot lie on the same plane as the one immediately preceding it.
--   To better control the shape of the pipe, it is recommended that all the cross-sections have the same number of segments. For example, for a pipe between a rectangle and a circle, the circle may be broken down into 4 connected arcs.
+-   The cross-sections must not contain disjoint or crossing loops.
 
 
 

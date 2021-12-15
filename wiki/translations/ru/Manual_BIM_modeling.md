@@ -1,7 +1,4 @@
 # Manual:BIM modeling/ru
-}
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -181,7 +178,7 @@ BIM расшифровывается как [Building Information Modeling (Ин
 -   Правым кликом на документе в древе проекта создадим две новые группы: **Plan dimensions** и **Elevation dimensions**.
 -   Установим [рабочую плоскость](Draft_SelectPlane/ru.md) в **XY**
 -   Убедимся, что <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:16px;"> [привязка](Draft_Snap_WorkingPlane/ru.md) к рабочей плоскости включена, чтобы всё оставалось в её пределах.
--   Поставим пару <img alt="" src=images/Draft_Snap_Dimensions.png  style="width:16px;"> [размеров](Draft_Snap_Dimensions/ru.md), например, как на рисунке ниже. Нажатие **Shift** или **Ctrl** во время захвата размерных точек во время привязки даст дополнительные опции.
+-   Поставим пару <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:16px;"> [размеров](Draft_Snap_Dimensions/ru.md), например, как на рисунке ниже. Нажатие **Shift** или **Ctrl** во время захвата размерных точек во время привязки даст дополнительные опции.
 
 ![](images/Exercise_arch_18.jpg )
 
@@ -208,7 +205,7 @@ BIM расшифровывается как [Building Information Modeling (Ин
 <div class="mw-translate-fuzzy">
 
 
-**Разработка [верстака Drawing](Workbench_Drawing/ru.md) остановлена в FreeCAD 0.16, а в версии v0.17 был представлен новый [верстак TechDraw](TechDraw_Workbench/ru.md), нацеленный на его замену. Верстак Drawing может быть удалён в будущих версиях. Используйте TechDraw Workbench вместо него.**
+**Разработка [верстака Drawing](Drawing_Workbench/ru.md) остановлена в FreeCAD 0.16, а в версии v0.17 был представлен новый [верстак TechDraw](TechDraw_Workbench/ru.md), нацеленный на его замену. Верстак Drawing может быть удалён в будущих версиях. Используйте TechDraw Workbench вместо него.**
 
 -   Теперь у нас всё готово, и мы можем создать страницу Drawing. Начнём с переключения на _ (или выделим другую заготовку, по желанию).
 -   Выделим первую секущую плоскость, использованную для вида сверху

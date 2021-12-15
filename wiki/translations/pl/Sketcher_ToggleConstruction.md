@@ -4,6 +4,7 @@
    Name/pl:Szkicownik: Przełącz geometrię konstrukcji
    MenuLocation:Sketch → Elementy geometryczne szkicownika → Przełącz geometrię konstrukcji
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
+   SeeAlso:[Przełącz wiązanie kontrolujące](Sketcher_ToggleDrivingConstraint/pl.md)
 ---
 
 # Sketcher ToggleConstruction/pl
@@ -42,6 +43,10 @@ Użyj trybu Konstrukcyjnego na kilku elementach szkicu,
 i kiedy **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [opuścisz tryb edycji szkicu](Sketcher_LeaveSketch/pl.md)**, geometria, która była zamieniona w konstrukcyjną stanie się niewidoczna w oknie [widoku 3D](3D_view/pl.md) *(ale wciąż będzie obecna w trybie edycji szkicu)*.
 
 <img alt="" src=images/Sketcher_ConstructionMode_fr_02.png  style="width:450px;">
+
+## Uwagi
+
+-   Narzędzie **<img src=images/Sketcher_CreatePoint.svg style="width:16px"> <img src=images/Sketcher_ToggleConstruction.svg style="width:Utwórz punkt](Sketcher_CreatePoint/pl.md)** zawsze będzie tworzyć punkty w trybie konstrukcji niezależnie od stanu przełącznika na pasku narzędzi, wybierz żądane punkty w oknie [widoku 3D](3D_view/pl.md) po utworzeniu i kliknij w przycisk **[24px"> [Przełącz tryb konstrukcji](Sketcher_ToggleConstruction.md)**, aby przekształcić je w normalną geometrię. {{Version/pl|0.19}}
 
 
 

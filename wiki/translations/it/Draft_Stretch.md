@@ -47,10 +47,10 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  Selezionare un oggetto che si desidera stirare
 2.  Premere il pulsante **<img src="images/Draft_Stretch.svg" width=16px> [Stira](Draft_Stretch/it.md)**. Se nessun oggetto è selezionato, si viene invitati a selezionarne uno
-3.  Fare clic su un primo punto nella vista 3D o digitare una [coordinata](Draft_Coordinates/it.md) e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**.
-4.  \# Fare clic su un secondo punto nella vista 3D o digitare una [coordinata](Draft_Coordinates/it.md) e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**. Questi primi due punti definiscono un rettangolo di selezione. I vertici dell\'oggetto originale racchiusi da questo rettangolo diventano evidenziati.
-5.  \# Fare clic su un terzo punto nella vista 3D o digitare una [coordinata](Draft_Coordinates/it.md) e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**.
-6.  \# Fare clic su un quarto punto nella vista 3D o digitare una [coordinata](Draft_Coordinates/it.md) e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**. La seconda coppia di punti definisce una linea, la cui distanza e direzione sono utilizzate per allungare la figura attaccata ai punti evidenziati.
+3.  Fare clic su un primo punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
+4.  \# Fare clic su un secondo punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**. Questi primi due punti definiscono un rettangolo di selezione. I vertici dell\'oggetto originale racchiusi da questo rettangolo diventano evidenziati.
+5.  \# Fare clic su un terzo punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**.
+6.  \# Fare clic su un quarto punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**. La seconda coppia di punti definisce una linea, la cui distanza e direzione sono utilizzate per allungare la figura attaccata ai punti evidenziati.
 
 
 </div>

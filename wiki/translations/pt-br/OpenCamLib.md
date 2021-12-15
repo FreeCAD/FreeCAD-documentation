@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-OpenCamLib (OCL) is an open source library aiming to provide computer aided manufacturing (CAM) algorithms. FreeCAD uses OCL in the experimental **<img src="images/Path_3DSurface.svg" width=24px> [3D Surface](Path_3DSurface.md)** path operations and other experimental features.
+OpenCamLib (OCL) is an open source library aiming to provide computer aided manufacturing (CAM) algorithms. FreeCAD uses OCL in the experimental **<img src="images/Path_Surface.svg" width=24px> [3D Surface](Path_Surface.md)** path operations and other experimental features.
 
 Github: <https://github.com/aewallin/opencamlib>
 

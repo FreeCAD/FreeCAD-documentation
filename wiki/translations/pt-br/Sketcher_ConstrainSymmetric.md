@@ -1,6 +1,13 @@
-# Sketcher ConstrainSymmetric/pt-br
 ---
-- GuiCommand:/pt-br   Name:Constraint Symmetric   Name/pt-br:Constraint Symmetric   Workbenches:_---
+- GuiCommand:/pt-br
+   Name:Constraint Symmetric
+   Name/pt-br:Constraint Symmetric
+   Workbenches:[Sketcher](Sketcher_Workbench/pt-br.md), [PartDesign](PartDesign_Workbench/pt-br.md)
+   MenuLocation:Sketch → Sketcher constraints → Constrain symmetrical
+   SeeAlso:[Constraint Parallel](Sketcher_ConstrainParallel/pt-br.md)
+---
+
+# Sketcher ConstrainSymmetric/pt-br
 
 
 </div>

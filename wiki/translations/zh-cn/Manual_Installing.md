@@ -92,7 +92,13 @@ FreeCAD 在 Windows，Mac OS 和 Linux 上行为一致。但是，平台不同�
 
 ### 安装其他内容
 
-因为 FreeCAD 项目及其社区的快速发展，也因为它易于扩展，社区成员和其他爱好者所做的外部贡献和周边项目在互联网各处出现。这些外部项目中的大多数都是工作台或宏，可以通过菜单"Tools"下的"[插件管理器](AddonManager/zh-cn.md)"轻松安装在 FreeCAD 中。插件管理器允许您安装许多有趣的组件，例如：
+
+<div class="mw-translate-fuzzy">
+
+因为 FreeCAD 项目及其社区的快速发展，也因为它易于扩展，社区成员和其他爱好者所做的外部贡献和周边项目在互联网各处出现。这些外部项目中的大多数都是工作台或宏，可以通过菜单"Tools"下的"[插件管理器](Std_AddonMgr/zh-cn.md)"轻松安装在 FreeCAD 中。插件管理器允许您安装许多有趣的组件，例如：
+
+
+</div>
 
 1.  [零件库](https://github.com/FreeCAD/FreeCAD-library)，包含 FreeCAD 用户创建的各种有用模型或模型片段，可以在项目中自由使用。你可以在 FreeCAD 安装包中使用和访问该库。
 2.  [其他工作台](https://github.com/FreeCAD/FreeCAD-addons)，可以扩展 FreeCAD 的功能，用于某些特定任务，例如将模型的某些部件做成动画，或者用于某些特定领域，例如钣金折叠或 BIM。每个工作台的进一步说明及其包含的工具在每个插件页面上有说明，您可以通过单击插件管理器上的相应链接访问该页面。
@@ -114,7 +120,7 @@ FreeCAD 在 Windows，Mac OS 和 Linux 上行为一致。但是，平台不同�
 -   [自己编译 FreeCAD](Compiling/zh-cn.md)
 -   [翻译 FreeCAD](https://crowdin.com/project/freecad)
 -   [FreeCAD github 页面](https://github.com/FreeCAD)
--   [FreeCAD 插件管理器 ](AddonManager/zh-cn.md)
+-   [FreeCAD 插件管理器 ](Std_AddonMgr/zh-cn.md)
 
 
 </div>

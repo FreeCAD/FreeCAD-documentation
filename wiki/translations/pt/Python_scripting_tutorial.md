@@ -37,9 +37,7 @@ There are two ways to write Python code in FreeCAD. In the [Python console](Pyth
 ![](images/Screenshot_pythoninterpreter.jpg ) 
 *The FreeCAD Python console*
 
-In this tutorial you can use both methods. You can copy-paste each line in the Python console and then press **Enter**, or copy-paste the entire code in a new Macro window.
-
-[top](#top.md)
+In this tutorial you can use both methods. You can copy-paste each line in the Python console and then press **Enter**, or copy-paste the entire code in a new Macro window. {{Top}}
 
 ## Exploring FreeCAD 
 
@@ -101,9 +99,7 @@ This will print the current height of our box. Now let\'s try to change that:
 box.Height = 5
 ```
 
-If you select your box with the mouse, you\'ll see that in the [Property editor](Property_editor.md), on the **Data** tab, our **Height** property appears. All properties of a FreeCAD object that appear there (and also on the **View** tab, more about that later), are directly accessible in Python too, by their names, like we did with the **Height** property. Try changing the other dimensions of the box.
-
-[top](#top.md)
+If you select your box with the mouse, you\'ll see that in the [Property editor](Property_editor.md), on the **Data** tab, our **Height** property appears. All properties of a FreeCAD object that appear there (and also on the **View** tab, more about that later), are directly accessible in Python too, by their names, like we did with the **Height** property. Try changing the other dimensions of the box. {{Top}}
 
 ## Vectors and placements 
 
@@ -130,9 +126,7 @@ otherpla = FreeCAD.Placement()
 box.Placement = otherpla
 ```
 
-Now you must understand a couple of important concepts before we get further.
-
-[top](#top.md)
+Now you must understand a couple of important concepts before we get further. {{Top}}
 
 ## App and Gui 
 
@@ -154,9 +148,7 @@ vo.hide()
 vo.show()
 ```
 
-When you start FreeCAD, the Python console already loads two base modules: `FreeCAD` and `FreeCADGui` (which can also be accessed by their shortcuts `App` and `Gui`). They contain all kinds of generic functionality to work with documents and their objects. To illustrate our concept, see that both `FreeCAD` and `FreeCADGui` contain an `ActiveDocument` attribute, which is the currently opened document. `FreeCAD.ActiveDocument` and `FreeCADGui.ActiveDocument` are not the same object however. They are the two components of a FreeCAD document, and they contain different attributes and methods. For example, `FreeCADGui.ActiveDocument` contains `ActiveView`, which is the currently opened [3D view](3D_view.md).
-
-[top](#top.md)
+When you start FreeCAD, the Python console already loads two base modules: `FreeCAD` and `FreeCADGui` (which can also be accessed by their shortcuts `App` and `Gui`). They contain all kinds of generic functionality to work with documents and their objects. To illustrate our concept, see that both `FreeCAD` and `FreeCADGui` contain an `ActiveDocument` attribute, which is the currently opened document. `FreeCAD.ActiveDocument` and `FreeCADGui.ActiveDocument` are not the same object however. They are the two components of a FreeCAD document, and they contain different attributes and methods. For example, `FreeCADGui.ActiveDocument` contains `ActiveView`, which is the currently opened [3D view](3D_view.md). {{Top}}
 
 ## Modules
 
@@ -179,11 +171,9 @@ import Part
 Part.
 ```
 
-But we\'ll talk more about the Part module below.
+But we\'ll talk more about the Part module below. {{Top}}
 
-[top](#top.md)
-
-## Mesh
+## Mesh module 
 
 [Meshes](https://en.wikipedia.org/wiki/Polygon_mesh) are a very simple kind of 3D object, used for example by [Sketchup](https://en.wikipedia.org/wiki/SketchUp), [Blender](https://en.wikipedia.org/wiki/Blender_(software)) and [3D Studio Max](https://en.wikipedia.org/wiki/Autodesk_3ds_Max). They are composed of 3 elements: points (also called vertices), lines (also called edges) and faces. In many applications, FreeCAD included, faces can have only 3 vertices. Of course, nothing prevents you from having a bigger face made up of several coplanar triangles.
 
@@ -205,11 +195,9 @@ doc.recompute()
 
 This is a standard example that uses the `createSphere()` method to create a sphere, but you can also create custom meshes from scratch by defining their vertices and faces.
 
-[Read more about mesh scripting\...](Mesh_Scripting.md)
+[Read more about mesh scripting\...](Mesh_Scripting.md) {{Top}}
 
-[top](#top.md)
-
-## Part
+## Part module 
 
 The [Part](Part_Workbench.md) module is the most powerful module in the whole of FreeCAD. It allows you to create and manipulate [BRep](https://en.wikipedia.org/wiki/Boundary_representation) objects. BREP stands for \"Boundary Representation\". A BREP object is defined by surfaces that enclose and define an inner volume. Unlike meshes, BREP objects can have a wide variety of components from planar faces to very complex NURBS surfaces.
 
@@ -238,11 +226,9 @@ Part.show(myshape)
 
 By exploring the contents of myshape, you will notice many interesting subcomponents such as `Faces`, `Edges`, `Vertexes`, `Solids` and `Shells`, and a wide range of geometry operations such as `cut` (subtraction), `common` (intersection) or `fuse` (union). The [Topological data scripting](Topological_data_scripting.md) page explains all that in detail.
 
-[Read more about part scripting\...](Topological_data_scripting.md)
+[Read more about part scripting\...](Topological_data_scripting.md) {{Top}}
 
-[top](#top.md)
-
-## Draft
+## Draft module 
 
 FreeCAD features many more modules, such as [Sketcher](Sketcher_Workbench.md) and [Draft](Draft_Workbench.md), that also create Part objects. These modules add additional parameters to the objects created, or even implement a whole new way to handle the Part geometry in them. Our box example above is a perfect example of a parametric object. All you need to define the box is to specify the parameters height, width and length. Based on those, the object will automatically calculate its Part shape. FreeCAD allows you to [create such objects in Python](Scripted_objects.md).
 
@@ -257,7 +243,8 @@ Draft.move(rec, mvec)
 Draft.move(box, mvec)
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 ## Interface
 
@@ -273,22 +260,21 @@ Notice that the dialog that appears has the FreeCAD icon in its toolbar, meaning
 
 Qt is a very powerful interface system that allows you to do very complex things. It also has some easy-to-use tools such as the Qt Designer with which you can design dialogs graphically and then add them to the FreeCAD interface with a few lines of Python code.
 
-[Read more about PySide here\...](PySide.md)
-
-[top](#top.md)
+[Read more about PySide here\...](PySide.md) {{Top}}
 
 ## Macros
 
 Now that you have a good understanding of the basics, where are we going to keep our Python scripts, and how are we going to launch them inside FreeCAD? There is an easy mechanism for that, called [Macros](Macros.md). A macro is a Python script that can be added to a toolbar and launched via a mouse click. FreeCAD provides you with a simple text editor (**Macro → Macros... → Create**) where you can write or paste scripts. Once the script is done, use **Tools → Customize... → Macros** to define a button for it that can be added to toolbars.
 
-Now you are ready for more in-depth FreeCAD scripting. So head on to the [Power users hub](Power_users_hub.md)!
+Now you are ready for more in-depth FreeCAD scripting. So head on to the [Power users hub](Power_users_hub.md)! {{Top}}
 
-[top](#top.md)
+
+
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

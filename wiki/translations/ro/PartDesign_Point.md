@@ -54,7 +54,7 @@ Un punct de referință atașat la o sferă care are un decalaj al atașamentulu
 
 <div class="mw-translate-fuzzy">
 
-Faceți dublu clic pe eticheta DatumPoint din arborescența Model sau faceți clic cu butonul din dreapta și selectați **Editați datum** din meniul contextual pentru a edita parametrii. Pentru mai multe detalii despre modul referențiere și offset (decalajul referinței), consultați [Attachment](Part_Attachment.md).
+Faceți dublu clic pe eticheta DatumPoint din arborescența Model sau faceți clic cu butonul din dreapta și selectați **Editați datum** din meniul contextual pentru a edita parametrii. Pentru mai multe detalii despre modul referențiere și offset (decalajul referinței), consultați [Attachment](Part_EditAttachment.md).
 
 
 </div>

@@ -19,17 +19,14 @@ Poiché la loro costruzione è molto semplice, sono tra le più antiche forme di
 
 L\'ingranaggio a lanterna combinato con una catena a rulli rappresenta un\'alternativa economica e robusta alle trasmissioni a pignone e cremagliera. Muovendo la catena tesa tangenzialmente lungo la ruota dentata, il movimento lineare della catena viene convertito in un movimento rotatorio della ruota. Viceversa, il movimento lineare della catena può essere ottenuto anche dal moto rotatorio della ruota dentata (moto o bicicletta).
 
-:   ![](images/Latern_Gear_example.png )
-:   
-    
+![](images/Latern_Gear_example.png ) 
 *Above: Lantern gear*
-    
 
 ## Usage
 
 1.  Switch to the <img alt="" src=images/FCGear_workbench_icon.svg  style="width:22px;"> [FCGear Workbench](FCGear_Workbench.md).
 2.  Invoke the command several way:
-    -   Press the <img alt="" src=images/FCGear_LaternGear.svg  style="width:22px;"> [Create a Lantern gear](FCGear_LanternGear.md) button in the tool bar.
+    -   Press the <img alt="" src=images/FCGear_LanternGear.svg  style="width:22px;"> [Create a Lantern gear](FCGear_LanternGear.md) button in the tool bar.
     -   Using the **Gear Menu → Lantern gear**.
 3.  Change the gear parameter to the required conditions (see **Properties → Data** below).
 
@@ -81,7 +78,13 @@ Limitations are not known yet.
 -    **axle base**= **pitch diameter (lantern gear 1 + 2)** : 2
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 _ _ _
 

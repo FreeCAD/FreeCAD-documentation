@@ -4,7 +4,7 @@
 |[Zusätzliche Python Module](Extra_python_modules/de.md)
 }}
 
-Dies ist eine Sammlung alter Lokalisierungstechniken, die von FreeCAD in der Vergangenheit verwendet wurden. Sie zeigen einige der Internas des Prozesses, **aber die Techniken auf der Seite [Lokalisierung](Lokalisation/de.md) sollten von nun an verwendet werden.**.
+Dies ist eine Sammlung alter Lokalisierungstechniken, die von FreeCAD in der Vergangenheit verwendet wurden. Sie zeigen einige der Internas des Prozesses, **aber die Techniken auf der Seite [Lokalisierung](Localisation/de.md) sollten von nun an verwendet werden.**.
 
 ### Übersetzen mit Qt-Linguist (alte Methode) 
 

@@ -4,7 +4,7 @@
    Name/es:TechDraw Dimensión Radio
    MenuLocation:TechDraw → Dimensión Radio
    Workbenches:[TechDraw](TechDraw_Workbench/es.md)
-   SeeAlso:[TechDraw Dimensión Diámetro](TechDraw_Dimension_Diameter/es.md)
+   SeeAlso:[TechDraw Dimensión Diámetro](TechDraw_DiameterDimension/es.md)
 ---
 
 # TechDraw RadiusDimension/es
@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-La herramienta Dimensión Radio añade una dimensión de radio a una Vista. La dimensión puede aplicarse a cualquier Borde del dibujo que sea un círculo o un arco circular. La distancia será inicialmente la distancia proyectada (es decir, como se muestra en el dibujo), pero puede cambiarse a la distancia real en 3D usando el **<img src="images/TechDraw_Dimension_Link.svg" width=16px> [Enlace Dimensión](TechDraw_Dimension_Link/es.md)** herramienta.
+La herramienta Dimensión Radio añade una dimensión de radio a una Vista. La dimensión puede aplicarse a cualquier Borde del dibujo que sea un círculo o un arco circular. La distancia será inicialmente la distancia proyectada (es decir, como se muestra en el dibujo), pero puede cambiarse a la distancia real en 3D usando el **<img src="images/TechDraw_LinkDimension.svg" width=16px> [Enlace Dimensión](TechDraw_LinkDimension/es.md)** herramienta.
 
 
 </div>

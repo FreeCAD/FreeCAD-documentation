@@ -8,7 +8,7 @@ Each operating system has its own page for compiling FreeCAD in the [Online Help
 
 To compile on BSD, and other Unix systems, you can follow the general instruction in [Compile on Linux](Compile_on_Linux.md) but using the appropriate dependencies in those systems.
 
-It is also possible to compile FreeCAD on Windows by following the instructions in [Compile on Windows](Compile_on_Windows.md).
+It is also possible to compile FreeCAD on Windows by following the instructions in [Compile on Windows](Compile_on_Windows.md) or using MSYS2/MinGW following [Compile on MinGW](Compile_on_MinGW.md).
 
 To compile FreeCAD without its graphic user interface use the [FreeCAD Docker CLI mode](FreeCAD_Docker_CLI_mode.md) image.
 

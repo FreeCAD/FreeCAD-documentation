@@ -1,7 +1,13 @@
 # Viewprovider/it
 ## Introduzione
 
-Le **Viewprovider** sono delle classi che definiscono il modo in cui gli oggetti appariranno nella [vista ad albero](tree_view/it.md) e nella [vista 3D](3D_view/it.md) e come interagiranno con determinate azioni grafiche come la [selezione](selection/it.md).
+
+<div class="mw-translate-fuzzy">
+
+Le **Viewprovider** sono delle classi che definiscono il modo in cui gli oggetti appariranno nella [vista ad albero](tree_view/it.md) e nella [vista 3D](3D_view/it.md) e come interagiranno con determinate azioni grafiche come la [selezione](Selection_methods/it.md).
+
+
+</div>
 
 They complement the [scripted objects](scripted_objects.md). While the base class of the scripted object defines its **data** [properties](property.md), the viewprovider defines it **view** [properties](property.md). These view properties are not essential information of the object, as they only indicate superficial information like line width, line color, face color, etc. In a terminal only session, the viewprovider is not loaded because there will be no interface to manipulate those visible properties.
 

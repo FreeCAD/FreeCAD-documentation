@@ -184,8 +184,8 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 <div class="mw-translate-fuzzy">
 
 -   [启动和配置](Start_up_and_Configuration.md)：启动和命令行选项。
--   [在Windows上安装](Install_on_Windows.md)：使用Windows安装器。
--   [在Windows上编译FreeCAD](CompileOnWindows.md)，[在Unix上编译FreeCAD](CompileOnUnix.md)
+-   [在Windows上安装](Installing_on_Windows.md)：使用Windows安装器。
+-   [在Windows上编译FreeCAD](Compile_on_Windows.md)，[在Unix上编译FreeCAD](Compile_on_Linux.md)
 -   [品牌化](Branding.md)：简单变更FreeCAD的源代码，改变FreeCAD的一些方面。
 -   [额外的Python模块](Extra_python_modules.md)：用这些强大的模块，来扩展FreeCAD的Python解释器。
 

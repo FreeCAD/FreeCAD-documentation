@@ -2,7 +2,6 @@
 - GuiCommand:
    Name:Assembly3 ConstraintPerpendicular
    Icon:Assembly_ConstraintPerpendicular.svg
-   MenuLocation:Assembly3 → ? → Perpendicular
    Workbenches:[Assembly3](Assembly3_Workbench.md)
 ---
 
@@ -10,7 +9,7 @@
 
 ## Description
 
-This tool builds a link between two objects of an assembly and matches their orientation. The selected elements of each object or more precise their implicit coordinate systems (ICS) are used to position one object to another.
+This tool builds a link between two objects of an assembly and matches their orientation. The selected elements of each object or more precisely their implicit coordinate systems (ICS) are used to position one object to another.
 
 Assuming the first object is already locked in place by the <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:24px;"> [Lock constraint](Assembly3_ConstraintLock.md) then the following object is moved to a position where both z-axes are perpendicular.
 

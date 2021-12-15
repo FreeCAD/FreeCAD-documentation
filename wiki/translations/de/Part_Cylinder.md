@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/de
-   Name:Part Zylinder
+   Name:Part Cylinder
+   Name/de:Part Zylinder
    MenuLocation:Formteil → Grundkörper → Zylinder
    Workbenches:[Part](Part_Workbench/de.md)
    SeeAlso:[Part Grundkörper](Part_Primitives/de.md)

@@ -75,14 +75,7 @@ _ 다른 차례가 있습니다.
     -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> [The Web Workbench](Web_Workbench.md)
     -   [External workbenches](External_workbenches.md)
 
-
-<div class="mw-translate-fuzzy">
-
 -   [List of all FreeCAD 명령](List_of_Commands.md)
--   [Tutorial](Tutorial.md)
-
-
-</div>
 
 -   [List of file formats (import-export)](Import_Export.md)
 
@@ -101,6 +94,9 @@ _ 다른 차례가 있습니다.
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   스크립트 및 매크로
     -   [Working with macros](Macros.md)
     -   [Script tutorial](Scripts.md)
@@ -117,28 +113,31 @@ _ 다른 차례가 있습니다.
     -   [Dialog creation](Dialog_creation.md)
 
 
+</div>
+
+
 <div class="mw-translate-fuzzy">
 
 -   Developing applications for FreeCAD
     -   [라이선스](Licence.md)
     -   FreeCAD 컴파일
         -   [Finding assistance](Tracker.md)
-        -   [Compiling on Windows](CompileOnWindows.md)
-        -   [Compiling on Unix](CompileOnUnix.md)
-        -   [Compiling on Mac](CompileOnMac.md)
+        -   [Compiling on Windows](Compile_on_Windows.md)
+        -   [Compiling on Unix](Compile_on_Linux/ko.md)
+        -   [Compiling on Mac](Compile_on_MacOS.md)
         -   [Compiling (Speeding up)](Compiling_(Speeding_up).md)
         -   [Third Party Libraries](Third_Party_Libraries.md)
         -   [Third Party Tools](Third_Party_Tools.md)
         -   [Start up and Configuration](Start_up_and_Configuration.md)
     -   Build Support Tools
         -   [The FreeCAD build tool](FreeCAD_Build_Tool.md)
-        -   [Adding an application module](Module_Creation.md)
+        -   [Adding a workbench](Workbench_creation.md)
         -   [Debugging FreeCAD](Debugging.md)
         -   [Testing FreeCAD](Testing.md)
         -   [Continuous Integration](Continuous_Integration.md)
     -   FreeCAD 변경
         -   [Branding](Branding.md)
-        -   [Translating FreeCAD](Localisation.md)
+        -   [Translating FreeCAD](Localisation/ko.md)
         -   [Installing extra python modules](Extra_python_modules.md)
     -   [Source documentation](Source_documentation.md)
 

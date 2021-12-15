@@ -14,7 +14,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Yakalama çoğu [ Taslak tezgahı](Draft_Workbench/tr.md) ve [ Mimari Tezgah](Arch_Workbench/tr.md) araçlarıyla kullanılabilir ve {{Button | <img src="images/_Snap_Lock.svg_" width= 16px> [Yakalama aç/kapa](Draft_ToggleSnap/tr.md)}} düğmesi, yakalama araç çubuğunda bulunur ve bu düğmeye tıklayarak global olarak etkinleştirilebilir veya devre dışı bırakılabilir. {{MenuCommand | Görünüm → Araç Çubukları → Taslak Yakalama}} menüsü ile aktif hale getirilebilir. Her bir yakalama yöntemi, araç çubuğundaki ilgili düğmeye tıklayarak ayrı ayrı etkinleştirilebilir veya devre dışı bırakılabilir.
+Yakalama çoğu [ Taslak tezgahı](Draft_Workbench/tr.md) ve [ Mimari Tezgah](Arch_Workbench/tr.md) araçlarıyla kullanılabilir ve {{Button | <img src="images/_Draft_Snap_Lock.svg_" width= 16px> [Yakalama aç/kapa](Draft_Snap_Lock/tr.md)}} düğmesi, yakalama araç çubuğunda bulunur ve bu düğmeye tıklayarak global olarak etkinleştirilebilir veya devre dışı bırakılabilir. {{MenuCommand | Görünüm → Araç Çubukları → Taslak Yakalama}} menüsü ile aktif hale getirilebilir. Her bir yakalama yöntemi, araç çubuğundaki ilgili düğmeye tıklayarak ayrı ayrı etkinleştirilebilir veya devre dışı bırakılabilir.
 
 
 </div>
@@ -40,7 +40,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Snap Endpoint](Draft_Snap_Endpoint.md): snaps to the endpoints of edges.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of straight and circular edges.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of edges.
 
 -   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ and [Arch BuildingParts](Arch_BuildingPart.md).
 
@@ -79,9 +79,9 @@ Note that circular edges do not have to be full circles.
 
 <div class="mw-translate-fuzzy">
 
--   [Orto](Draft_Ortho/tr.md) ve [Uzantı](Draft_Extension/tr.md) gibi iki yakalama yöntemini birleştirerek, hayali çizgilerin kesişme noktasında bir nokta yakalama noktası oluşturacak şekilde ek yakalama konumları elde edilebilir.
+-   [Orto](Draft_Snap_Ortho/tr.md) ve [Uzantı](Draft_Snap_Extension/tr.md) gibi iki yakalama yöntemini birleştirerek, hayali çizgilerin kesişme noktasında bir nokta yakalama noktası oluşturacak şekilde ek yakalama konumları elde edilebilir.
 -   Diğer yakalama yerleri, [Kısıtlama](Draft_Constrain/tr.md) kullanılarak, yani {{KEY | Shift}} tuşuna basılarak veya {{KEY | X}}, {{KEY | Y}} veya **Z** tuşuna basılarak elde edilebilir.
--   İmlecin geçerli konumuna bir \"tutma noktası\" eklemek için çizim yaparken {{KEY | Q}} tuşuna basın. Daha sonra ortogonal olarak bu tutma noktalarını ve ortogonal eksenlerinin kesişme noktalarını yakalayabilirsiniz. Eğer [Orta Nokta](Draft_Midpoint/tr.md) yakalama özelliği etkinse, iki tutma noktası arasındaki orta mesafeden de yakalayabilirsiniz. {{Version/tr | 0.17}}
+-   İmlecin geçerli konumuna bir \"tutma noktası\" eklemek için çizim yaparken {{KEY | Q}} tuşuna basın. Daha sonra ortogonal olarak bu tutma noktalarını ve ortogonal eksenlerinin kesişme noktalarını yakalayabilirsiniz. Eğer [Orta Nokta](Draft_Snap_Midpoint/tr.md) yakalama özelliği etkinse, iki tutma noktası arasındaki orta mesafeden de yakalayabilirsiniz. {{Version/tr | 0.17}}
 
 
 </div>
@@ -114,7 +114,7 @@ Note that after changing some preferences you must restart FreeCAD.
 ## Seçenekler
 
 -   ![ 32px](images/_Draft_ToggleGrid.svg ) [ Izgara aç/kapa](Draft_ToggleGrid/tr.md): Çalışma düzlemi ızgarasını açar veya kapatır.
--   ![ 32px](images/_Draft_Snap_Lock.svg ) [Yakalama aç/kapa](Draft_ToggleSnap/tr.md): Tüm çalışma ortamlarında yakalamayı açar veya kapatır.
+-   ![ 32px](images/_Draft_Snap_Lock.svg ) [Yakalama aç/kapa](Draft_Snap_Lock/tr.md): Tüm çalışma ortamlarında yakalamayı açar veya kapatır.
 -   Bir noktanın yakalama noktası olarak kabul edildiği maksimum mesafe [Seçeneklerde](Draft_Preferences/tr.md) belirtilir ve ayrıca **<nowiki>[</nowiki>** (artır) veya **<nowiki>]</nowiki>**(azalt) tuşuna basılarak anında değiştirilebilir.
 
 

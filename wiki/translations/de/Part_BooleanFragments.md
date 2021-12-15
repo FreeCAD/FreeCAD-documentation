@@ -4,7 +4,7 @@
    MenuLocation:Part → Teilen → Boolesche Fragmente
    Workbenches:[Arbeitsbereich Part](Part_Workbench/de.md)
    Version:0.17.8053
-   SeeAlso:[Part Scheibe](Part_Slice/de.md), [Part XOR](Part_XOR/de.md), [Part Fügefunktionen](Part_CompJoin_Features/de.md), [Part Boolesche](Part_Boolean/de.md)
+   SeeAlso:[Part Scheibe](Part_Slice/de.md), [Part XOR](Part_XOR/de.md), [Part Fügefunktionen](Part_CompJoinFeatures/de.md), [Part Boolesche](Part_Boolean/de.md)
 ---
 
 # Part BooleanFragments/de

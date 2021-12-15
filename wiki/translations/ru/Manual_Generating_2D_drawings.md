@@ -32,7 +32,7 @@
 <div class="mw-translate-fuzzy">
 
 -   Переключимся на <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [верстак TechDraw](TechDraw_Workbench/ru.md)
--   Нажмём на кнопку <img alt="" src=images/Techdraw-new-pick.svg  style="width:16px;"> [Вставить новую страницу с помощью шаблона](TechDraw_New_Pick/ru.md).
+-   Нажмём на кнопку <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:16px;"> [Вставить новую страницу с помощью шаблона](TechDraw_PageTemplate/ru.md).
 -   Выберем шаблон **A4\_Portrait\_ISO7200TD**. В окне FreeCAD откроется новая вкладка, показывающая новый лист.
 -   В [древе проекта](tree_view/ru.md) (или вкладке модели) выделим модель стула. Она скорее всего будет названа как-то вроде \"Open CASCADE STEP translator.\"
 -   Нажмём кнопку <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> [Вставить вид на страницу](TechDraw_View/ru.md).
@@ -45,7 +45,7 @@
     -   Под категорией Projection (нажмите стрелку вниз для модификации компонент x, y, и z этих параметров отдельно):
         -   Direction: \[0 0 1\]
         -   XDirection: \[0 -1 0\] (Change the y field first, then the x field)
--   Теперь у нас есть прекрасный вид нашего стула сверху. Нажмите кнопку <img alt="" src=images/Techdraw-toggleframe.svg  style="width:16px;"> [Toggle](TechDraw_Toggle/ru.md) для выключения View frames, labels, и vertices:
+-   Теперь у нас есть прекрасный вид нашего стула сверху. Нажмите кнопку <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> [TechDraw ToggleFrame](TechDraw_ToggleFrame/ru.md) для выключения View frames, labels, и vertices:
 
 ![](images/Exercise_drawing_02.jpg )
 
@@ -62,7 +62,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   При желании мы можем настроить наши виды. Мы можем просто _ трёхмерный вид вашей модели, и когда получите вид, который вы хотите, выберите модель в древе проекта и нажмите <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> вставку нового вида на страницу. Это автоматически вставит вид с желаемыми свойствами поворота и направления. Можно так же использовать инструмент <img alt="" src=images/TechDraw_NewProjGroup.svg  style="width:16px;"> [Projection Group](TechDraw_NewProjGroup/ru.md).
+-   При желании мы можем настроить наши виды. Мы можем просто _ трёхмерный вид вашей модели, и когда получите вид, который вы хотите, выберите модель в древе проекта и нажмите <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> вставку нового вида на страницу. Это автоматически вставит вид с желаемыми свойствами поворота и направления. Можно так же использовать инструмент <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:16px;"> [Projection Group](TechDraw_ProjectionGroup/ru.md).
 
 
 </div>
@@ -80,9 +80,9 @@
 
 <div class="mw-translate-fuzzy">
 
--   Нажмём на переключаемую кнопку <img alt="" src=images/Techdraw-toggleframe.svg  style="width:16px;"> для включения вершин.
+-   Нажмём на переключаемую кнопку <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> для включения вершин.
 -   Используем Ctrl + Клик левой кнопкой мыши для выбора двух вершин, между которыми Вы хотите измерить дистанцию.
--   Нажмём на кнопку <img alt="" src=images/TechDraw_Dimension_Length.svg  style="width:16px;"> [Dimension Length](TechDraw_Dimension_Length/ru.md).
+-   Нажмём на кнопку <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:16px;"> [Dimension Length](TechDraw_LengthDimension/ru.md).
 
 
 </div>
@@ -92,8 +92,8 @@
 
 <div class="mw-translate-fuzzy">
 
--   Повторяйте операцию, пока все размеры, которые вы хотите указать, не будут размещены. Используйте инструменты <img alt="" src=images/TechDraw_Dimension_Vertical.svg  style="width:16px;"> _, если нужно.
--   Найдите минутку, чтобы взглянуть на [параметры](TechDraw_Dimension_Length/ru#Properties.md) объекта Dimension в комбинированном представлении.
+-   Повторяйте операцию, пока все размеры, которые вы хотите указать, не будут размещены. Используйте инструменты <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> _, если нужно.
+-   Найдите минутку, чтобы взглянуть на [параметры](TechDraw_LengthDimension/ru#Properties.md) объекта Dimension в комбинированном представлении.
 -   Обратите внимание, что если вы измеряете _, чтобы получить правильное измерение.
 
 
@@ -108,7 +108,7 @@
 
 ![](images/_Exercise_TechDraw_06.png )
 
-1.  Глядя на страницу в окне [трёхмерного вида](3D-вид/ru.md), выберите вид, к которому Balloon будет прикреплен, как показано на рисунке выше.
+1.  Глядя на страницу в окне [трёхмерного вида](3D_view/ru.md), выберите вид, к которому Balloon будет прикреплен, как показано на рисунке выше.
 2.  Нажмите кнопку Balloon <img alt="" src=images/_TechDraw_Balloon.svg  style="width:16px;"> .
 3.  Курсор теперь отображается в виде значка с изображением шарика. Нажмите на страницу, чтобы поместить исходную точку выноски в нужное место.
 4.  Выноску можно перетащить в нужное положение.
@@ -117,7 +117,7 @@
 7.  Повторите операцию для второго выносного элемента.
 
 -   Теперь мы заполним блок заголовка листа.
-    -   Убедитесь, что видимые рамки, метки и вершины видны. Если нет, нажмите кнопку <img alt="" src=images/_Techdraw-toggleframe.svg  style="width:16px;">.
+    -   Убедитесь, что видимые рамки, метки и вершины видны. Если нет, нажмите кнопку <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;">.
     -   Отредактируйте текст в каждом разделе заголовка листа, щелкнув по маленькому зеленому квадрату в левой части текста.
 
 

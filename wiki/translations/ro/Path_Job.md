@@ -84,7 +84,7 @@ GUI-ul de lucrări are cinci file aliniate orizontal, general, ieșire, configur
 
 <div class="mw-translate-fuzzy">
 
-Add the tool(s) from your [Tooltable](Path_EditToolsTable.md) which you need for the operations at this job.
+Add the tool(s) from your [Tooltable](Path_ToolLibraryEdit.md) which you need for the operations at this job.
 
 
 </div>

@@ -3,9 +3,21 @@
 
 ## Descripción de esta lista 
 
+
+<div class="mw-translate-fuzzy">
+
 Bibliotecas complejas como [COIN3D](https://en.wikipedia.org/wiki/Coin3D) necesitan una buena documentación y buenos tutoriales. Por desgracia, no hay muchos tutoriales para la biblioteca COIN. Después de una larga búsqueda, se encontraron los ejemplos de código que aparecen a continuación. Han sido modificados para que puedan ser cargados en FreeCAD. Pero algún código puede fallar ya que estos ejemplos fueron creados para otros entornos. Encontrarás advertencias a tal efecto en el código.
 
-Usuarios pueden ejecutar estos scripts como una [macro](Macro/es.md) o directamente en la [consola de Python](Python_console/es.md). Tenga en cuenta que muchas de las funciones tienen \'Exe\' o \'Execu\', abreviatura de \'Execute\', en su nombre.
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Usuarios pueden ejecutar estos scripts como una [macro](Macros/es.md) o directamente en la [consola de Python](Python_console/es.md). Tenga en cuenta que muchas de las funciones tienen \'Exe\' o \'Execu\', abreviatura de \'Execute\', en su nombre.
+
+
+</div>
 
 Estos archivos también se mencionan en el [Inventor Mentor tutorial](http://www-evasion.imag.fr/Membres/Francois.Faure/doc/inventorMentor/sgi_html/pr01.html) para el lenguaje C.
 

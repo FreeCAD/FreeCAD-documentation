@@ -21,7 +21,7 @@ Vous pouvez éventuellement ajouter un chanfrein ou un congé circulaire à 45 d
 
 ## Utilisation
 
-Voir aussi: [Draft La barre](Draft_Tray/fr.md), [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Il existe plusieurs façons de lancer la commande :
     -   Appuyez sur le bouton **<img src="images/Draft_Rectangle.svg" width=16px> [Créer un rectangle...](Draft_Rectangle/fr.md)**.

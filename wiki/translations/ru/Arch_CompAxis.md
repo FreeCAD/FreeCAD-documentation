@@ -1,7 +1,4 @@
 # Arch CompAxis/ru
-}
-
-
 <div class="mw-translate-fuzzy">
 
 
@@ -29,7 +26,7 @@ Create axis.
 ==Типы осей==
 
 * <img src="images/Arch_Axis.svg" width=32px> [Axis](Arch_Axis.md): Adds a 1-direction array of axes to the document
-* <img src="images/Arch_Axis_System.svg" width=32px> [Axes system](Arch_AxisSystem.md): Adds an axes system composed of several axes to the document
+* <img src="images/Arch_AxisSystem.svg" width=32px> [Axis System](Arch_AxisSystem.md): Adds an axis system composed of several axes to the document
 * <img src="images/Arch_Grid.svg" width=32px> [Grid](Arch_Grid.md): Adds a grid-like object to the document
 
 

@@ -39,7 +39,7 @@
 
 Вся работа в TechDraw начинается со страниц. Страницы основаны на Шаблонах и содержат Виды.
 
-1.  Нажмите на <img alt="" src=images/TechDraw_New_Default.svg  style="width:32px;"> [Новая Страница из Шаблона по умолчанию](TechDraw_New_Default/ru.md) что бы создать новую страницу.
+1.  Нажмите на <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Новая Страница из Шаблона по умолчанию](TechDraw_PageDefault/ru.md) что бы создать новую страницу.
 2.  Нажмите на Тело в [3D view](3D_view.md) или в [Combo view](Combo_view.md).
 3.  Нажмите на <img alt="" src=images/TechDraw_View.svg  style="width:32px;"> [Создать новый вид](TechDraw_View/ru.md). Это добавит Вид на страницу, которую мы только что создали.
 
@@ -68,8 +68,8 @@
 Лучше, но немного скучновато. Давайте добавим немного размеров.
 
 1.  Выберите верхнюю левую вершину (маленькая точка) нажатием **LMB**, затем выберите (**Ctrl**+**LMB**) нижнюю левую вершину.
-2.  Кликните на <img alt="" src=images/TechDraw_Dimension_Vertical.png  style="width:32px;"> [Новый Вертикальный Размер](TechDraw_Dimension_Vertical/ru.md). Перетащите текст размера за пределы тела.
-3.  Повторите это с верхней левой и верхней правой вершинами и нажмите <img alt="" src=images/TechDraw_Dimension_Horizontal.png  style="width:32px;"> [Новый Горизонтальный Размер](TechDraw_Dimension_Horizontal/ru.md).
+2.  Кликните на <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:32px;"> [Новый Вертикальный Размер](TechDraw_VerticalDimension/ru.md). Перетащите текст размера за пределы тела.
+3.  Повторите это с верхней левой и верхней правой вершинами и нажмите <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:32px;"> [Новый Горизонтальный Размер](TechDraw_HorizontalDimension/ru.md).
 
 
 </div>
@@ -90,7 +90,7 @@
 
 <div class="mw-translate-fuzzy">
 
-1.  Нажмите на <img alt="" src=images/Techdraw-annotation.png  style="width:32px;"> [Новая Аннотация](TechDraw_NewAnnotation/ru.md). Текстовый блок появится в середине страницы.
+1.  Нажмите на <img alt="" src=images/TechDraw_Annotation.svg  style="width:32px;"> [Новая Аннотация](TechDraw_Annotation/ru.md). Текстовый блок появится в середине страницы.
 2.  Перетащите текстовый блок за пределы Вида.
 3.  Нажмите на Annotation в Combo панели и выделите свойство Text на вкладке Данные.
 4.  Нажмите на многоточие справа в поле данных Значение. Вы получите всплывающее окно, где можете изменить текст на что-то более значимое.
@@ -105,7 +105,7 @@
 
 <div class="mw-translate-fuzzy">
 
-1.  Нажмите на <img alt="" src=images/TechDraw_Toggle.png  style="width:32px;"> [Выключатель Рамки](TechDraw_Toggle.md). Вершины и Рамки Видов исчезнут. Вы можете вернуть их обратно, нажав на Выключатель снова.
+1.  Нажмите на <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Выключатель Рамки](TechDraw_ToggleFrame.md). Вершины и Рамки Видов исчезнут. Вы можете вернуть их обратно, нажав на Выключатель снова.
 
 
 </div>
@@ -119,9 +119,9 @@
 
 <div class="mw-translate-fuzzy">
 
-1.  Нажмите на <img alt="" src=images/TechDraw_New_Pick.png  style="width:32px;"> [Выбрать новый](TechDraw_New_Pick/ru.md). Откроется диалоговое окно выбора файла. Выберите файл шаблона. Мы собираемся использовать \"ANSIB.SVG\". Появится новая вкладка.
+1.  Нажмите на <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Выбрать новый](TechDraw_PageTemplate/ru.md). Откроется диалоговое окно выбора файла. Выберите файл шаблона. Мы собираемся использовать \"ANSIB.SVG\". Появится новая вкладка.
 2.  Выберите \"Body\" и \"Page001\" (если в вашем документе более одной страницы, вам нужно указать TechDraw, какую из них использовать).
-3.  Нажмите на <img alt="" src=images/Techdraw-projgroup.png  style="width:32px;"> [Группа Новых Проекций](TechDraw_NewProjGroup/ru.md). Появится знакомый небольшой вид в середине страницы, и на панели задач появится диалоговое окно.
+3.  Нажмите на <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:32px;"> [Группа Новых Проекций](TechDraw_ProjectionGroup/ru.md). Появится знакомый небольшой вид в середине страницы, и на панели задач появится диалоговое окно.
 4.  Нажмите на несколько полей в разделе Secondary Views (Вторичные проекции) диалогового окна.
 5.  Двигайте Вид с надписью \"Front\". Все остальные Виды будут двигаться вместе с ним.
 6.  Измените раскрывающийся список Scale у Page на Custom и измените Custom Scale (Пользовательский Масштаб) на 2:1. Нажмите кнопку ОК.
@@ -135,7 +135,7 @@
 <div class="mw-translate-fuzzy">
 
 1.  У Вида с меткой «TopLeftFront» выберите две Вершины на крайних концах переднего края заготовки.
-2.  Нажмите на <img alt="" src=images/TechDraw_Dimension_Length.png  style="width:32px;"> [Новая длина](TechDraw_Dimension_Length/ru.md). Перетащите текст размера за пределы тела.
+2.  Нажмите на <img alt="" src=images/TechDraw_LengthDimension.svg  style="width:32px;"> [Новая длина](TechDraw_LengthDimension/ru.md). Перетащите текст размера за пределы тела.
 
 
 </div>
@@ -159,7 +159,7 @@
 
 1.  Обратите внимание на название нашего ошибочного измерения на Combo панели. Нам оно понадобится через минуту.
 2.  Перейдите на вкладку 3D и выберите вершины на концах переднего края заготовки. Также выберите Page001 (Страница, с которой нужно размер).
-3.  Нажмите на <img alt="" src=images/TechDraw_Dimension_Link.png  style="width:32px;"> [Новые ссылки](TechDraw_Dimension_Link/ru.md). На панели задач откроется диалоговое окно.
+3.  Нажмите на <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Новые ссылки](TechDraw_LinkDimension/ru.md). На панели задач откроется диалоговое окно.
 4.  В диалоговом окне переместите наши размеры из доступного столбца в выбранный столбец (Здесь нужно выбрать из доступных размеров тот, который некорректен и который мы хотим исправить, связав его с реальным размером на детали). Нажмите ОК.
 5.  Возвращаемся к Page001. Наш размер должен показывать корректное значение 53. (если вы все еще видите 43.27, нужно нажать кнопку Recompute (Пересчитать - F5) или немного потянуть значение размера, пока оно не изменится.)
 

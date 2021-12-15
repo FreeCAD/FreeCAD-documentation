@@ -28,9 +28,15 @@ Tutte le informazioni applicabili alle [finestre](Arch_Window/it.md) si applican
 4.  Nella [vista 3D](3D_view/it.md), spostare la finestra nella posizione in cui si desidera posizionarla. Se si sposta il puntatore su un [muro](Arch_Wall/it.md), il contorno della finestra dovrebbe allinearsi con la faccia di quell\'oggetto.
 
 
+<div class="mw-translate-fuzzy">
+
+
 **Note:**
 
-se si installa la \"Parts Library\" da [AddonManager](AddonManager/it.md), lo strumento finestra cercherà in questa libreria ulteriori preimpostazioni. Questi preset sono dei file di FreeCAD contenenti una singola finestra basata su uno schizzo parametrico che ha i vincoli definiti. Si possono aggiungere ulteriori preset nella directory `parts_library` in modo che vengano trovati dallo strumento finestra.
+se si installa la \"Parts Library\" da [AddonManager](Std_AddonMgr/it.md), lo strumento finestra cercherà in questa libreria ulteriori preimpostazioni. Questi preset sono dei file di FreeCAD contenenti una singola finestra basata su uno schizzo parametrico che ha i vincoli definiti. Si possono aggiungere ulteriori preset nella directory `parts_library` in modo che vengano trovati dallo strumento finestra.
+
+
+</div>
 
 
 ```python

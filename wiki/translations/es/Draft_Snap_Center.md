@@ -1,6 +1,13 @@
-# Draft Snap Center/es
 ---
-- GuiCommand:   Name:Draft Center   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → [[Draft Snap   Snap]] → Center|Shortcut:   SeeAlso:---
+- GuiCommand:
+   Name:Draft Snap Center
+   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation:Draft → [Snap](Draft_Snap.md) → Center
+   Shortcut:
+   SeeAlso:
+---
+
+# Draft Snap Center/es
 
 
 </div>

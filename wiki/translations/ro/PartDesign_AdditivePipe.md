@@ -92,7 +92,7 @@ To use more than one cross-section, start with the first cross-section sketch as
 
 </div>
 
-## Limite
+## Notes
 
 
 <div class="mw-translate-fuzzy">

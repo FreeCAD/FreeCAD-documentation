@@ -25,7 +25,7 @@ Om du tror att du funnit en bugg, så är du välkommen att rapportera den där.
 <div class="mw-translate-fuzzy">
 
 -   Försäkra dig om att din bugg verkligen är en bugg, vilket är något som ska fungera men inte fungerar. Om du inte är säker, tveka inte att förklara ditt problem på [forumet](http://forum.freecadweb.org/) och fråga vad du ska göra.
--   Innan du skickar något, läs [ofta ställda frågor](FAQ/sv.md), gör en sökning på [forumet](http://forum.freecadweb.org/), och försäkra dig om att buggen inte har rapporterats innan , genom att söka i bug trackern.
+-   Innan du skickar något, läs [ofta ställda frågor](Frequently_asked_questions/sv.md), gör en sökning på [forumet](http://forum.freecadweb.org/), och försäkra dig om att buggen inte har rapporterats innan , genom att söka i bug trackern.
 -   Beskriv problemet så klart och noggrant som möjkligt, och hur det kan reproduceras. Om vi inte kan verifiera buggen, så kanske vi inte kan fixa den.
 -   Skicka med följande information: Ditt operativsystem, om det är 32 eller 64 bitars, och vilken FreeCAD version du kör.
 -   Var snäll och posta en separat rapport för varje bugg.
@@ -183,13 +183,7 @@ For the inquisitive here is the regex MantisBT uses for this operation:
 -   [Source Code Management](Source_Code_Management.md)
 
 
-<div class="mw-translate-fuzzy">
 
-
-{{docnav/sv|Licence/sv|CompileOnWindows/sv}}
-
-
-</div>
 
 
 

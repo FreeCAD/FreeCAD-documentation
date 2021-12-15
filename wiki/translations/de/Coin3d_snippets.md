@@ -3,9 +3,21 @@
 
 ## Beschreibung dieser Liste 
 
+
+<div class="mw-translate-fuzzy">
+
 Komplexe Bibliotheken wie [COIN3D](https://en.wikipedia.org/wiki/Coin3D) brauchen eine gute Dokumentation und gute Tutorien. Leider gibt es nicht viele Tutorien für die COIN Bibliothek. Nach langer Suche wurden die unten aufgeführten Code Beispiele gefunden. Sie wurden so modifiziert, dass sie in FreeCAD geladen werden können. Einige Codes können jedoch fehlschlagen, da diese Beispiele für andere Umgebungen erstellt wurden. Du wirst im Code entsprechende Warnungen finden.
 
-Anwender können diese Skripte entweder als [Makro](Macro/de.md) oder direkt in der [Python Konsole](Python_console/de.md) ausführen. Bitte beachte, dass viele der Funktionen \"Exe\" oder \"Execu\", kurz für \"Execute\", in ihrem Namen haben.
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Anwender können diese Skripte entweder als [Makro](Macros/de.md) oder direkt in der [Python Konsole](Python_console/de.md) ausführen. Bitte beachte, dass viele der Funktionen \"Exe\" oder \"Execu\", kurz für \"Execute\", in ihrem Namen haben.
+
+
+</div>
 
 Diese Dateien werden auch in der [Inventor Mentor Tutorium](http://www-evasion.imag.fr/Membres/Francois.Faure/doc/inventorMentor/sgi_html/pr01.html) für die C Sprache erwähnt.
 

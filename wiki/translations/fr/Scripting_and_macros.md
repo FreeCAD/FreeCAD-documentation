@@ -64,7 +64,6 @@
     -   [Extraits de codes](Code_snippets/fr.md)
     -   [\"Recettes\" de Macros](Macros_recipes/fr.md)
     -   [Fonction - tracer une ligne](Line_drawing_function/fr.md)
-    -   [Macro Half-Hull Model](Piffpoof_Macro_Half-Hull_Model.md)
 
 -   Divers :
     -   [Débogage](Debugging/fr.md)
@@ -88,7 +87,7 @@
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

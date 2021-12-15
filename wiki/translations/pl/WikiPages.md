@@ -68,25 +68,23 @@ Szablon _ jest używany do sekwencyjnego linkowania stron, zgodnie ze strukturą
 
 ### Nazwy stron 
 
-Nazwy stron powinny być krótkie, a w odróżnieniu od \"opisu sprawy\" powinny zawierać \"tytuł sprawy\", wszystkie wyrazy poza pierwszym i nazwami własnymi piszemy małymi literami. Jest to styl [używany przez Wikipedię](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Capital_letters#Headings,_headers,_and_captions) dla ich artykułów.
+Nazwy stron powinny być krótkie, a w tytułach należy stosować wielką literę: każdy wyraz powinien zaczynać się wielką literą, chyba że są to przedimki, przyimki, spójniki lub inne formy gramatyczne *(np. \"of\", \"on\", \"in\", \"a\", \"an\", \"and\")*.
 
 Niewłaściwa nazwa strony:
-:   Budowa Samolotów AeroCompany
+:   Budowa samolotów AeroCompany
 
 
 
 
 
 Prawidłowa nazwa strony:
-:   Budowa samolotów AeroCompany
+:   Budowa Samolotów AeroCompany
 
 Nazwy stron środowisk pracy o najwyższym poziomie muszą mieć taki format: XYZ Workbench, gdzie XYZ jest nazwą środowiska, na przykład _. Zwróć uwagę, że powinieneś używać nazwy polecenia tak, jak występuje ona w kodzie źródłowym.
 
-Poprzednią konwencją było używanie dużej litery w tytule: każde słowo powinno zaczynać się wielką literą, chyba że są to artykuły, przyimki, spójniki lub inne cząstki gramatyczne (np. \'of\', \'on\', \'in\', \'a\', \'an\', \'and\'). Istnieje wiele istniejących stron używających tego stylu, ale jest on odradzany dla nowych stron. Zostało to przedyskutowane w wątku na forum [*(Linki z małych liter)* Używaj małych liter w tytułach stron wiki](https://forum.freecadweb.org/viewtopic.php?p=266029#p266029).
-
 ### Nagłówki
 
-Podobnie jak nazwy stron, nagłówki akapitów powinny być krótkie i zawierać duże litery. Nie należy używać nagłówków H1 (= Nagłówek =) w znacznikach Wiki, ponieważ tytuł strony jest automatycznie dodawany jako główny nagłówek H1.
+Nagłówki akapitów powinny być krótkie i zawierać wielkie litery: wszystkie wyrazy, z wyjątkiem pierwszego i nazw własnych, powinny być pisane małymi literami. Nie należy używać nagłówków H1 (= Heading =) w znacznikach Wiki, ponieważ tytuł strony jest automatycznie dodawany jako główny nagłówek H1.
 
 ### Odnośniki internetowe 
 
@@ -104,7 +102,7 @@ Prawidłowy link
 
 Preferowany format linku to:
 
-[name of page](Name_of_page.md)
+[Name of Page](Name_of_Page.md)
 
 przetłumaczone:
 
@@ -326,12 +324,12 @@ Szablony te wymagają większej ilości parametrów wejściowych, lub generują 
 +--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | _                                                     | Zobacz [Model polecenia GUI](GuiCommand_model/pl.md)                                                             | Za jego pomocą można utworzyć pole z przydatnymi informacjami do dokumentowania poleceń *(narzędzi)* środowiska pracy.                                                                                                                                                                                                                              |
 +--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| _                                                 | Zobacz przykład [Poradnik: Podstawy modelowania](Basic_modeling_tutorial/pl.md)                                  | Użyj go do stworzenia ramki z przydatnymi informacjami, aby udokumentować [Poradniki](Tutoriale/pl.md).                                                                                                                                                                                                                                     |
+| _                                                 | Zobacz przykład [Poradnik: Podstawy modelowania](Basic_modeling_tutorial/pl.md)                                  | Użyj go do stworzenia ramki z przydatnymi informacjami, aby udokumentować [Poradniki](Tutorials/pl.md).                                                                                                                                                                                                                                     |
 +--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | _                                                               | Zobacz przykład [Macro FlattenWire](Macro_FlattenWire.md)                                                        | Użyj go do stworzenia ramki z przydatnymi informacjami, aby udokumentować [makrodefinicje](macros/pl.md).                                                                                                                                                                                                                                   |
 +--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| _                                                             |                                                                                                           | Za jego pomocą można utworzyć pasek ze słowami *następna*, *poprzednia* i *indeks* oraz odpowiednimi linkami, co jest przydatne do umieszczania stron w określonej kolejności.                                                                                                                                                                      |
-|                                                                                                  |                                                                  |                                                                                                                                                                                                                                                                                                                                                     |
+| _                                                             |                                                                                                           | Use it to create a bar with the words \'next\', \'previous\', and \'index\', and the appropriate links, which is useful for putting pages in a particular sequence.                                                                                                                                                                                 |
+|                                                                                                  |                                                                             |                                                                                                                                                                                                                                                                                                                                                     |
 |                                                                                                  |                                                                                                                       |                                                                                                                                                                                                                                                                                                                                                     |
 +--------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | _                                 |                                                                                                           | Użyj go, aby utworzyć wyróżnione pole z bardzo ważną wiadomością. Używaj rzadko, tylko do wskazania poważnych problemów w funkcjonalności oprogramowania, zaprzestania używania narzędzi itp.                                                                                                                                                       |
@@ -399,7 +397,7 @@ Aby ułatwić tłumaczenie dokumentacji, staraj się unikać zrzutów ekranu, kt
 
 ### Ikonki i grafika 
 
-Odnieś się do strony [Artykuły](Dzieło_sztuki.md), aby zobaczyć wszystkie grafiki i ikony, które zostały stworzone dla FreeCAD, a które mogą być również użyte na stronach dokumentacji. Jeśli chciałbyś dodać ikony, proszę przeczytaj [Artwork Guidelines](Artwork_Guidelines.md).
+Odnieś się do strony [Artykuły](Artwork/pl.md), aby zobaczyć wszystkie grafiki i ikony, które zostały stworzone dla FreeCAD, a które mogą być również użyte na stronach dokumentacji. Jeśli chciałbyś dodać ikony, proszę przeczytaj [Artwork Guidelines](Artwork_Guidelines.md).
 
 
 </div>
@@ -529,7 +527,7 @@ Zobacz [Słownik](Glossary.md)
 -   [włoski](Italian_Translation.md)
 -   [francuski](French_Translation.md)
 -   [niemiecki](German_Translation.md)
--   [polski](Polish_translation.md)
+-   [polski](Polish_Translation.md)
 
 _ _ _ _
 

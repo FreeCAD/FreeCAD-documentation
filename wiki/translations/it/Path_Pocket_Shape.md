@@ -238,13 +238,7 @@ Note: It is suggested that you do not edit the Placement property of path operat
 ```
 
 
-<div class="mw-translate-fuzzy">
 
-
-
-
-
-</div>
 
 
 {{Path_Tools_navi

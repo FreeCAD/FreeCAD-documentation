@@ -10,4 +10,4 @@ Cette catégorie rassemble les articles qui liste les objets et les méthodes di
 _
 
 ---
-[documentation index](../README.md) > Category:API/fr
+[documentation index](../README.md) > [API](Category_API.md) > Category:API/fr

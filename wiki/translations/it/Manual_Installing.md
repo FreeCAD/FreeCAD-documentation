@@ -89,7 +89,13 @@ Dopo aver installato FreeCAD, forse si desidera aprirlo e modificare alcune pref
 
 ### Installare dei contenuti aggiuntivi 
 
-Dato che il progetto FreeCAD e la sua comunità crescono rapidamente, e anche perché è facile da estendere, i contributi esterni e i progetti paralleli realizzati dai membri della comunità e da altri appassionati cominciano ad apparire ovunque su internet. La maggior parte di questi progetti esterni sono degli ambienti di lavoro o macro e possono essere facilmente installati direttamente da FreeCAD tramite [Addons Manager](AddonManager/it.md) che si trova nel menu **Strumenti**. Il gestore dei componenti aggiuntivi consente di installare molti componenti interessanti, ad esempio:
+
+<div class="mw-translate-fuzzy">
+
+Dato che il progetto FreeCAD e la sua comunità crescono rapidamente, e anche perché è facile da estendere, i contributi esterni e i progetti paralleli realizzati dai membri della comunità e da altri appassionati cominciano ad apparire ovunque su internet. La maggior parte di questi progetti esterni sono degli ambienti di lavoro o macro e possono essere facilmente installati direttamente da FreeCAD tramite [Addons Manager](Std_AddonMgr/it.md) che si trova nel menu **Strumenti**. Il gestore dei componenti aggiuntivi consente di installare molti componenti interessanti, ad esempio:
+
+
+</div>
 
 1.  Una [Parts library](https://github.com/FreeCAD/FreeCAD-library), che contiene tutti i tipi di modelli utili, o pezzi di modelli, creati dagli utenti di FreeCAD che possono essere utilizzati liberamente nei vostri progetti. È possibile accedere e usare le libreria direttamente dall\'interno della propria installazione FreeCAD.
 2.  [Ambienti aggiuntivi](https://github.com/FreeCAD/FreeCAD-addons) che estendono le funzionalità di FreeCAD per determinate attività, ad esempio animano le parti dei modelli, come piegatura della lamiera o BIM. Ulteriori spiegazioni su ogni ambiente e su quali strumenti contiene sono fornite nella pagina di ogni addon, che si può visitare facendo clic sul link corrispondente in Addon manager.
@@ -111,7 +117,7 @@ Se si utilizza il sistema operativo Ubuntu, alcuni degli addon indicati sopra so
 -   [Compilare FreeCAD](Compiling/it.md)
 -   [Tradurre FreeCAD](https://crowdin.com/project/freecad)
 -   [La pagina di FreeCAD su github](https://github.com/FreeCAD)
--   [Il gestore degli addon di FreeCAD](AddonManager/it.md)
+-   [Il gestore degli addon di FreeCAD](Std_AddonMgr/it.md)
 
 
 </div>

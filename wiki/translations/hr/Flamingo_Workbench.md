@@ -45,7 +45,7 @@ For convenience Flamingo/Dodo tools are grouped in three toolbars/menus + one ut
 
 <div class="mw-translate-fuzzy">
 
-his workbench can be easily installed and updated from the [Addon Manager](Addon_Manager.md) available in FreeCAD 0.17 and above. For FreeCAD 0.16 users and other install methods, please refer to [Installing additional contents](Installing#Installing_additional_contents.md).
+his workbench can be easily installed and updated from the [Addon Manager](Std_AddonMgr.md) available in FreeCAD 0.17 and above. For FreeCAD 0.16 users and other install methods, please refer to [Installing additional contents](Installing#Installing_additional_contents.md).
 
 
 </div>

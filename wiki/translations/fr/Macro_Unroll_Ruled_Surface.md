@@ -43,7 +43,7 @@ Voir le fil du forum [Macro for unrolling ruled surfaces](http://forum.freecadwe
 
 ## Script
 
-La dernière version de la macro se trouve à l\'adresse suivante: _ <img alt="Addon Manager" src=images/AddonManager.svg  style="width:24px;">.
+La dernière version de la macro se trouve à l\'adresse suivante: _.
 
 ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
 

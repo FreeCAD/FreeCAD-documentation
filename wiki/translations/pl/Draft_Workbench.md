@@ -54,7 +54,7 @@ Po prawej nieplanarny obiekt [polilinii](Draft_Wire/pl.md) użyty jako obiekt ś
 
 -   Polecenie <img alt="" src=images/Draft_ShapeString.svg  style="width:32px;"> [Kształt z tekstu](Draft_ShapeString/pl.md): tworzy kształt złożony, który reprezentuje ciąg tekstowy.
 
--   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Kreskowanie](Draft_Hatch/pl.md): tworzy kreskowanie na powierzchniach wybranego obiektu. {{Version/pl|0.20}}
+-   <img alt="" src=images/Draft_Hatch.svg  style="width:32px;"> [Kreskowanie](Draft_Hatch/pl.md): tworzy kreskowanie na planarnych powierzchniach wybranego obiektu. {{Version/pl|0.20}}
 
 ## Adnotacja
 
@@ -156,7 +156,7 @@ Pasek narzędzi [Rysunek roboczy: Przyciągnij](Draft_Snap/pl.md) umożliwia wyb
 
 -   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Punkt końcowy](Draft_Snap_Endpoint/pl.md): przyciąga do punktów końcowych odcinków lub krawędzi.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Punkt środkowy](Draft_Snap_Midpoint/pl.md): przyciąga do punktu środkowego linii i odcinków łuku.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Punkt środkowy](Draft_Snap_Midpoint/pl.md): przyciąga do punktu środkowego krawędzi.
 
 -   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ i [Arch BuildingParts](Arch_BuildingPart/pl.md).
 
@@ -240,9 +240,9 @@ Ta dodatkowa opcja jest dostępna dla [polilinii](Draft_Wire/pl.md), [linii zło
 
 Dla narzędzi [Kontenera warstw](Draft_Layer/pl.md) dostępne są te dodatkowe opcje:
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> Scal duplikaty warstw: ta opcja obecnie nie działa.
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Scal duplikaty warstw](Draft_Layer/pl#Opcje_kontenera_warstw.md): łączy wszystkie warstwy z tą samą etykietą bazową. To nie działa w wersji 0.19 programu FreeCAD.
 
--   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Warstwa](Draft_Layer/pl.md): dodaje nową warstwę do bieżącego dokumentu.
+-   <img alt="" src=images/Draft_NewLayer.svg  style="width:32px;"> [Warstwa](Draft_Layer/pl#Opcje_kontenera_warstw.md): dodaje nową warstwę do bieżącego dokumentu.
 
 ### Opcje warstw 
 
@@ -289,7 +289,7 @@ Polecenia te są przestarzałe, ale nadal dostępne.
 Środowisko pracy Rysunek Roboczy dostarcza programowi FreeCAD narzędzia do importu i eksportu dla kilku formatów plików. Są one używane przez polecenia [Import](Std_Import/pl.md) i [Eksport](Std_Export/pl.md).
 
 -   _.
--   _. Zobacz również [FreeCAD i import DWG](FreeCAD_and_DWG_Import/pl.md).
+-   _.
 -   [Scalable Vector Graphics .SVG](Draft_SVG/pl.md): Import i eksport plików [Scalable Vector Graphics](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) utworzonych za pomocą aplikacji do rysowania wektorowego.
 -   [Open Cad format .OCA](Draft_OCA/pl.md): Import i eksport plików [OCA/GCAD](http://groups.google.com/group/open_cad_format).
 -   [Airfoil Data Format .DAT](Draft_DAT/pl.md): Import plików DAT opisujących profil Airfoil.

@@ -11,10 +11,10 @@
 
 ## Description
 
-L\'outil Coupe crée une vue en coupe en fonction d\'une vue existante d\'une pièce.
+L\'outil Vue en coupe crée une vue en coupe en fonction d\'une vue existante d\'une pièce.
 
 <img alt="" src=images/TechDraw_Section_example.png  style="width:250px;"> 
-*Coupe d'une vue déjà placée qui montre les trous internes et une surface de coupe ombrée*
+*Vue en coupe déjà placée qui montre les trous internes et une surface de coupe ombrée*
 
 ## Utilisation
 
@@ -26,7 +26,7 @@ L\'outil Coupe crée une vue en coupe en fonction d\'une vue existante d\'une pi
 5.  Si vous faites une erreur ou changez d\'avis lors de la configuration des paramètres de la section, appuyez sur le bouton **Reset** et vous pouvez recommencer.
 
 ![](images/TechDraw_Section_Taskview.png ) 
-*Boîte de dialogue pour définir la zone de coupe d'une vue*
+*Boîte de dialogue pour définir la zone de la vue en coupe*
 
 ## Propriétés
 
@@ -34,38 +34,38 @@ L\'outil Coupe crée une vue en coupe en fonction d\'une vue existante d\'une pi
 
 #### Section
 
--    {{PropertyData/fr|Base View}}: La vue de référence sur laquelle cette coupe est basée.
+-    **Base View**: La vue de référence sur laquelle cette coupe est basée.
 
--    {{PropertyData/fr|Section Normal}}: Un vecteur décrivant la direction normale au plan de coupe.
+-    **Section Normal**: Un vecteur décrivant la direction normale au plan de coupe.
 
--    {{PropertyData/fr|Section Origin}}: Un vecteur décrivant un point sur le plan de coupe. Typiquement le centre de la pièce d\'origine.
+-    **Section Origin**: Un vecteur décrivant un point sur le plan de coupe. Typiquement le centre de la pièce d\'origine.
 
--    {{PropertyData/fr|Fuse Before Cut}}: Fusionne les formes source avant d\'effectuer la coupe.
+-    **Fuse Before Cut**: Fusionne les formes source avant d\'effectuer la coupe.
 
 #### Format de surface coupée 
 
--    {{PropertyData/fr|Cut Surface Display}}: apparence de la surface de coupe. Options:
+-    **Cut Surface Display**: apparence de la surface de coupe. Options:
 
     -   *Hide*: Masque la surface coupée, seul le contour sera affiché.
     -   *Color*: Colore la surface de coupe en utilisant le réglage de **Cut Surface Color** dans [TechDraw Préférences](TechDraw_Preferences/fr.md).
     -   *SvgHatch*: hachure la section coupée à l\'aide de [Hachures](TechDraw_Hatch/fr.md)
     -   *PatHatch*: hachure la section coupée à l\'aide de [Hachures géométriques](TechDraw_GeometricHatch/fr.md)
 
--    {{PropertyData/fr|File Hatch Pattern}}: chemin complet vers le fichier de motif de hachures SVG.
+-    **File Hatch Pattern**: chemin complet vers le fichier de motif de hachures SVG.
 
--    {{PropertyData/fr|File Geom Pattern}}: Chemin complet vers le fichier de modèle PAT.
+-    **File Geom Pattern**: Chemin complet vers le fichier de modèle PAT.
 
--    {{PropertyData/fr|Svg Included}}: chemin complet vers le fichier de motif de hachures SVG inclus.
+-    **Svg Included**: chemin complet vers le fichier de motif de hachures SVG inclus.
 
--    {{PropertyData/fr|Pat Included}}: chemin complet vers le fichier de modèle PAT inclus.
+-    **Pat Included**: chemin complet vers le fichier de modèle PAT inclus.
 
--    {{PropertyData/fr|Name Geom Pattern}}: nom du modèle PAT à utiliser (ignoré pour le paramètre *SvgHatch* de **Cut Surface Display**).
+-    **Name Geom Pattern**: nom du modèle PAT à utiliser (ignoré pour le paramètre *SvgHatch* de **Cut Surface Display**).
 
 ### Vue
 
 #### Surface de section 
 
--    {{PropertyView/fr|Cut Surface Color}}: couleur unie pour la mise en évidence de la surface. Utilisé si **Cut Surface Display** est réglé sur *Color*.
+-    **Cut Surface Color**: couleur unie pour la mise en évidence de la surface. Utilisé si **Cut Surface Display** est réglé sur *Color*.
 
 #### Surface hachurée 
 
@@ -75,11 +75,11 @@ L\'outil Coupe crée une vue en coupe en fonction d\'une vue existante d\'une pi
 
 ### Base View 
 
-Une vue de section hérite de toutes les propriétés applicables de la vue spécifiée comme {{PropertyData/fr|BaseView}}. Dans les propriétés de la vue, vous pouvez modifier l\'apparence de la ligne de coupe:
+Une vue de section hérite de toutes les propriétés applicables de la vue spécifiée comme **BaseView**. Dans les propriétés de la vue, vous pouvez modifier l\'apparence de la ligne de coupe:
 
--    {{PropertyView/fr|Section Line Color}}: couleur de la ligne de coupe.
+-    **Section Line Color**: couleur de la ligne de coupe.
 
--    {{PropertyView/fr|Section Line Style}}: style de la ligne de coupe.
+-    **Section Line Style**: style de la ligne de coupe.
 
 Les paramètres par défaut de ces paramètres sont définis via les paramètres **Section Line** et **Section Line Style** dans les [TechDraw Préférences](TechDraw_Preferences/fr.md).
 
@@ -90,7 +90,7 @@ Les paramètres par défaut de ces paramètres sont définis via les paramètres
 
 [TechDraw API](TechDraw_API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
-L\'outil Coupe peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
+L\'outil Vue en coupe peut être utilisé dans des [macros](Macros/fr.md) et à partir de la console [Python](Python/fr.md) à l\'aide des fonctions suivantes:
 
 
 ```python

@@ -21,7 +21,7 @@ Narzędzie <img alt="" src=images/Draft_Offset.svg  style="width:24px;"> **Odsun
 
 Zobacz także strony: _.
 
-1.  Opcjonalnie wybierz jeden obiekt.
+1.  Opcjonalnie wybierz jeden obiekt. Obiekt musi leżeć na aktualnej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md).
 2.  Istnieje kilka sposobów, aby wywołać to polecenie:
     -   Naciśnij przycisk **<img src="images/Draft_Offset.svg" width=16px> [Odsuń](Draft_Offset/pl.md)**.
     -   Wybierz z menu opcję **Modifikacja → <img src="images/Draft_Offset.svg" width=16px> Odsunięcie**.

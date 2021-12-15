@@ -38,8 +38,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Stiskněte tlačítko **<img src="images/Draft_Ellipse.png" width=16px> [Elipsa](Draft_Ellipse.md)
 ** nebo klávesy **E** pak **L**
-2.  Klikněte na první bod ve 3D pohledu nebo zadejte [souřadnice](Draft_Coordinates.md)
-3.  Klikněte na druhý bod ve 3D pohledu nebo zadejte [souřadnice](Draft_Coordinates.md).
+2.  Klikněte na první bod ve 3D pohledu nebo zadejte souřadnice
+3.  Klikněte na druhý bod ve 3D pohledu nebo zadejte souřadnice.
 
 
 </div>

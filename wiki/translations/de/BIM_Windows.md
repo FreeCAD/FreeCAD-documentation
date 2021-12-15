@@ -17,11 +17,6 @@ Der BIM Fenstermanager Dialog ermöglicht es dir, alle [Fenster und Türen](Arch
 
 ## Anwendung
 
-
-{{BIM Tools navi
-
-}}
-
 _
 
 ---

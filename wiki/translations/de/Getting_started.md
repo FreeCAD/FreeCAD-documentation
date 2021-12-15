@@ -3,7 +3,7 @@
 
 ## Vorwort
 
-FreeCAD ist eine [parametrische 3D Modellierungssoftware](About_FreeCAD/de.md) und hauptsächlich für mechanisches Konstruieren ausgelegt. FreeCAd unterstützt aber auch alle anderen Anwendungen, bei denen 3D Objekte präzise und kontrolliert, mit einer Historie versehen modelliert werden müssen.
+FreeCAD ist eine [parametrische 3D Modellierungssoftware](About_FreeCAD/de.md) und hauptsächlich für mechanisches Konstruieren ausgelegt. FreeCAD unterstützt aber auch alle anderen Anwendungen, bei denen 3D Objekte präzise und kontrolliert, mit einer Historie versehen modelliert werden müssen.
 
 FreeCAD befindet sich seit 2002 in der Entwicklung und bietet einen großen [Funktionsumfang](Feature_list/de.md). Für kommerzielle Anwendungen fehlen noch einige Funktionen. Für den Hobbygebrauch und für kleinere Betriebe ist es aber leistungsfähig genug.
 
@@ -47,46 +47,33 @@ Beginne damit, FreeCAD herunter zu laden und zu installieren. Für Informationen
 
 Das Hauptkonzept der FreeCAD Oberfläche besteht darin, dass sie in [Arbeitsbereiche](workbenches/de.md) unterteilt ist. Ein Arbeitsbereich ist eine Sammlung von Werkzeugen, die für eine bestimmte Aufgabe angepasst wurden, wie z.B. das Arbeiten mit [Polygonnetzen (mesh)](Mesh_Workbench/de.md) oder das Zeichnen von [2D Objekten](Draft_Workbench/de.md) oder das Arbeiten mit [beschränkten Skizzen](Sketcher_Workbench/de.md). Der aktuelle Arbeitsbereich kann mit dem [Arbeitsbereich Wähler](Std_Workbench/de.md) gewechselt werden. Die in jedem Arbeitsbereich enthaltenen Werkzeuge können individuell [angepasst werden](Interface_Customization/de.md). Werkzeuge von anderen Arbeitsbereichen und auch selbst erstellte [Makros](macros/de.md) können hinzugefügt werden. Meistens wird mit dem [Arbeitsbereich PartDesign](PartDesign_Workbench/de.md) und /oder [Arbeitsbereich Part](Part_Workbench/de.md) begonnen.
 
+
+<div class="mw-translate-fuzzy">
+
 Wenn du FreeCAD zum ersten Mal startest, wird dir Startseite dargeboten. So sieht sie für die Version 0.18 aus:
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 <img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
+
+
+</div>
 
 Die Startseite ermöglicht es dir, schnell zu einer der gebräuchlichsten Arbeitsbereiche zu springen, eine der letzten Dateien zu öffnen oder die neuesten Nachrichten aus der FreeCAD Welt zu sehen. Du kannst den Standard Arbeitsbereich in den [Einstellungen](Preferences_Editor/de.md) ändern.
 
 ## Navigieren im 3D Raum 
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD bietet vier verschiedene [Navigationsmodi](Mouse_navigation/de.md), die sich durch die Art und Weise der Objektinteraktion in der Ansicht und der 3D Ansicht unterscheiden. Einer dieser Modi ist speziell für [Touchpads](Mouse_navigation/de#Touchpad_Navigation.md) ausgelegt, bei dem die mittlere Maustaste nicht genutzt wird. Die nachstehende Tabelle beschreibt den standardmäßig eingestellten Modus **CAD Navigation** (Sie können den aktuellen Navigationsmodus über das Menü umschalten, das Sie durch einen Rechtsklick in einen leeren Bereich erhalten):
 
 
-{{CAD Navigation
-|Select_name=Select
-|Pan_name=Pan
-|Zoom_name=Zoom
-|Rotate_view_name=Rotate view<br>First method
-|Rotate_view_alt_name=Rotate view<br>Alternate method
-|Ctrl=**Ctrl**
-|Shift=**Shift**
-|Select_text=Press the left mouse button over an object you want to select.
-
-Wenn du **Ctrl** gedrückt hältst, kannst du mehrere Objekte auswählen.
-|Pan_text=Halte die mittlere Maustaste gedrückt und bewege dann den Mauszeiger.
-|Pan_mode_text=Pan-Modus: Halte die Taste **Ctrl** gedrückt, drücke einmal die rechte Maustaste und bewege dann den Mauszeiger.  {{Version/de|0.17}}
-|Zoom_text=Verwende das Mausrad, um ein- und auszuzoomen.
-
-Ein Klick mit der mittleren Maustaste zentriert die Ansicht neu auf die Position des Cursors.
-|Zoom_mode_text=Zoom-Modus: Halte die Tasten **Ctrl** und **Shift** gedrückt, drücke einmal die rechte Maustaste und bewege dann den Zeiger. {{Version/de|0.17}}
-|Rotate_view_text=Halte die mittlere Maustaste gedrückt, dann drücke und halte die linke Maustaste und bewege den Mauszeiger.
-
-Die Cursorposition beim Drücken der mittleren Maustaste bestimmt den Drehpunkt. Rotation funktioniert wie das Drehen einer Kugel, die sich um ihr Zentrum dreht. Wenn die Tasten losgelassen werden, bevor Sie die Mausbewegung stoppen, wird die Ansicht [spinning](spinning/de.md), fortgesetzt, sofern dies aktiviert ist.
-
-Ein Doppelklick mit der mittleren Maustaste setzt einen neuen Drehpunkt.
-|Rotate_view_mode_text=Dreh Modus: Halte die Taste **Shift** gedrückt, drücke einmal die rechte Maustaste und bewege den Mauszeiger. {{Version/de|0.17}}
-|Rotate_view_alt_text=Halte die mittlere Maustaste gedrückt, dann drücke und halte die rechte Maustaste und bewege den Mauszeiger.
-
-Mit dieser Methode kann die mittlere Maustaste losgelassen werden, wenn die rechte Maustaste gedrückt gehalten wird.
-
-Benutzer, die die Maus mit der rechten Hand benutzen, können diese Methode einfacher finden als die erste Methode.
-}}
+</div>
 
 Es stehen mehrere Ansichtsvoreinstellungen (beispielsweise Draufsicht, Frontansicht, usw.) im Ansichtsmenü, auf der Ansichtssymbolleiste und über Tastenkürzel (**1**, **2**, usw.) zur Verfügung. Mit einem Rechtsklick auf ein Objekt oder den Leerbereich der Ansicht steht ein schneller Zugriff auf allgemeine Vorgänge zur Verfügung, beispielsweise um eine bestimmte Ansicht oder ein Objekt in der Baumansicht auszuwählen.
 
@@ -118,13 +105,13 @@ Solche mit dem *Sketcher* erstellen 2D-Formen werden vielfach im *PartDesign* ve
 
 Das Ergebnis dieser Prozedur könnte beispielsweise wie folgt aussehen:
 
-<img alt="" src=images/Partdesign_example.jpg  style="width:1024px;">
+<img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 Die Skizzen können jederzeit ausgewählt und geändert werden, wobei das Endergebnis automatisch aktualisiert wird. Dasselbe gilt auch für die Einstellungen der Operationen *Aufpolsterung* und *Tasche*.
 
 ## Arbeiten mit den Arbeitsbereichen Draft und Arch 
 
-Die Arbeitsbereiche [Draft](Draft_Werkbench/de.md) und [Arch](Arch_Workbench/de.md) verhalten sich etwas anders als die zuvor beschriebenen Arbeitsbereiche, obwohl sie denselben Regeln folgen, die überall in FreeCAD gelten. Kurz gesagt: Während die Arbeitsbereiche *Sketcher* und *PartDesign* für die Konstruktion von einzelnen komplexen Objekten ausgelegt sind, wurden *Draft* und *Arch* darauf optimiert, die Arbeit mit vielen einfachen Objekten gleichzeitig zu erleichtern.
+Die Arbeitsbereiche [Draft](Draft_Workbench/de.md) und [Arch](Arch_Workbench/de.md) verhalten sich etwas anders als die zuvor beschriebenen Arbeitsbereiche, obwohl sie denselben Regeln folgen, die überall in FreeCAD gelten. Kurz gesagt: Während die Arbeitsbereiche *Sketcher* und *PartDesign* für die Konstruktion von einzelnen komplexen Objekten ausgelegt sind, wurden *Draft* und *Arch* darauf optimiert, die Arbeit mit vielen einfachen Objekten gleichzeitig zu erleichtern.
 
 Der Arbeitsbereich _ und [Draft Snap](Draft_Snap/de.md).
 
@@ -142,13 +129,19 @@ Eine typische Vorgehensweise mit *Arch* und *Draft* könnte sein:
 
 Das Ergebnis könnte folgendermaßen aussehen:
 
-<img alt="" src=images/Arch_workflow_example.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
 
 Mehr dazu auf der Seite [Tutorials](Tutorials/de.md).
 
 ## Erweiterungen, Makros und externe Arbeitsbereiche 
 
+
+<div class="mw-translate-fuzzy">
+
 Freecad bietet als Open-Source-Software die Möglichkeit, seine Arbeitsbereiche mit Erweiterungen zu ergänzen.
+
+
+</div>
 
 Das Prinzip [Erweiterungen](Addon/de.md) basiert auf der Entwicklung eines Arbeitsbereich Ergänzung. Jeder Benutzer kann eine Funktion entwickeln, die er für seine eigenen Bedürfnisse oder letztlich für die Gemeinschaft für vermisst hält. Mit dem Forum kann der Benutzer eine Meinung, Hilfe im Forum einholen. Es kann, oder auch nicht, das Objekt seiner Entwicklung nach den Regeln des Urheberrechts zu definieren. Frei für ihn/sie. Für die Entwicklung stehen dem Anwender [scripting](scripting/de.md) Funktionen zur Verfügung.
 

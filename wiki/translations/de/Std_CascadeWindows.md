@@ -1,6 +1,7 @@
 ---
 - GuiCommand:
-   Name:Std FensterÜberlappendAnordnen
+   Name:Std CascadeWindows
+   Name/de:Std FensterÜberlappendAnordnen
    MenuLocation:Fenster → Überlappend anordnen
    Workbenches:Alle
    SeeAlso:[Std FensterAnordnen](Std_TileWindows/de.md)

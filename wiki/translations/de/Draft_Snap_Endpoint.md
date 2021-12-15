@@ -4,7 +4,7 @@
    Name/de:Entwurf Endpunkt
    MenuLocation:Entwurf → [Objektfang](Draft_Snap/de.md) → Endpunkt
    Workbenches:[Draft](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
-   SeeAlso:[Objektfang](Draft_Snap/de.md), [Objektfang umschalten](Draft_ToggleSnap/de.md)
+   SeeAlso:[Objektfang](Draft_Snap/de.md), [Objektfang umschalten](Draft_Snap_Lock/de.md)
 ---
 
 # Draft Snap Endpoint/de
@@ -12,8 +12,7 @@
 
 </div>
 
-
-{{Draft Tools navi/de}}
+## Description
 
 
 <div class="mw-translate-fuzzy">
@@ -36,7 +35,7 @@ Diese Methode fängt die Endpunkte von Linien oder Kanten.
 
 <div class="mw-translate-fuzzy">
 
-1.  Stelle sicher, dass **<img src="images/Snap_Lock.svg" width=16px> [Draft Umschalten Ein/Aus](Draft_ToggleSnap/de.md)** und **<img src="images/Snap_Endpoint.svg" width=16px> [Snap Endpunkt](Draft_Endpoint/de.md)** eingeschaltet sind.
+1.  Stelle sicher, dass **<img src="images/Draft_Snap_Lock.svg" width=16px> [Draft Umschalten Ein/Aus](Draft_Snap_Lock/de.md)** und **<img src="images/Draft_Snap_Endpoint.svg" width=16px> [Snap Endpunkt](Draft_Snap_Endpoint/de.md)** eingeschaltet sind.
 2.  Wähle ein Entwurfswerkzeug zum Zeichnen einer Form.
 3.  Bewege den Cursor über ein Liniensegment oder die Kante eines anderen Objekts zur Wahl eines der Endpunkte.
 4.  Die Kante wird gelb hervorgehoben und ein kleiner weißer Kreis wird den Eckpunkt anzeigen, an dem der neue Punkt verbunden wird.
@@ -48,15 +47,6 @@ Diese Methode fängt die Endpunkte von Linien oder Kanten.
 ## Einstellungen
 
 See [Draft Snap](Draft_Snap#Preferences.md).
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Snap Endpoint/de

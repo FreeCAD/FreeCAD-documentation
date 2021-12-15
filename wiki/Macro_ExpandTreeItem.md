@@ -2,7 +2,7 @@
 {{Macro
 |Name=Macro ExpandTreeItem
 |Icon=Macro_ExpandTreeItem.svg
-|Description=This macro expands selected tree and all sub trees in the tree view.<br/>If there is no selection all trees are collapse False
+|Description=This macro expands selected tree and all sub trees in the tree view.<br/>If there is no selection, all trees are expanded.
 |Author=wmayer, UR_
 |Version=00.02
 |Date=2019-07-25
@@ -14,9 +14,9 @@
 
 Expands selected tree and all sub trees in the tree view.
 
-if selected tree is already expanded this tree and all sub trees are collapsed
+if selected tree is already expanded, this tree and all sub trees are collapsed.
 
-if there is no selection all trees are collapse False
+if there is no selection, all trees are expanded.
 
 ![](images/Collapsed00.gif )
 
@@ -26,11 +26,9 @@ Copy the macro in your macro directory, create your tool bar and launch.
 
 ## Script
 
-
-
 ToolBar Icon .PNG ![](images/Macro_ExpandTreeItem.png ) and the .SVG ![](images/Macro_ExpandTreeItem.svg )
 
-**Macro\_ExpandTreeItem.FCMacro**
+ **Macro\_ExpandTreeItem.FCMacro**
 
 
 {{MacroCode|code=
@@ -38,7 +36,7 @@ ToolBar Icon .PNG ![](images/Macro_ExpandTreeItem.png ) and the .SVG ![](images/
 #
 # Expands selected tree and all sub trees in the tree view.
 # if selected tree is already expanded this tree and all sub trees are collapsed True/False
-# if there is no selection all trees are collapse False
+# if there is no selection all trees are expanded
 #
 __Title__    = "Macro ExpandTreeItem"
 __Author__   = "wmayer, UR_"

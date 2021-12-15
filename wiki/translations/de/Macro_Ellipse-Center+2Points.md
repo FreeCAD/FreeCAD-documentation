@@ -19,7 +19,13 @@ Erzeugt eine Ellipse durch Auswahl von drei Punkten (in dieser Reihenfolge): Mit
 
 ## Neueste Version 
 
+
+<div class="mw-translate-fuzzy">
+
 Die neueste Version des Makros ist zu finden auf _.
+
+
+</div>
 
 ## Skript
 

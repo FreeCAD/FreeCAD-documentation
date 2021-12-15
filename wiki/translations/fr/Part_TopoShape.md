@@ -38,9 +38,9 @@ Certains des objets les plus importants avec Part TopoShape sont les suivants:
 ## Script
 
 
-**Voir aussi:**
+**Voir aussi :**
 
-[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](scripted_objects/fr.md).
+[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md) et [Objets créés par script](Scripted_objects/fr.md).
 
 Tous les objets dérivés de `Part::Feature` auront un [Part TopoShape](Part_TopoShape/fr.md) qui est normalement accessible à partir de son attribut `Shape`. 
 ```python

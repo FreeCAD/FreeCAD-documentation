@@ -10,16 +10,31 @@
 
 # Arch AxisSystem/de
 
+
+</div>
+
 ## Beschreibung
 
 Das [AchsenSystem](Arch_AxisSystem/de.md) Werkzeug ermöglicht dir zwei oder drei [AchsenSystem](Arch_Axis/de.md) Objekte zu kombinieren.
 
 Dies ist nützlich, um die Schnittpunkte zwischen den verschiedenen Achsen zu definieren.Arch Objekte können dann dieses System verwenden, um ihre Form an den verschiedenen Schnittpunkten zu duplizieren.
 
-<img alt="" src=images/Arch_AxisSystem_example.jpg  style="width:600px;"> 
+<img alt="" src=images/Arch_AxisSystem_example.jpg  style="width:600px;">
+
+
+<div class="mw-translate-fuzzy">
+
+
+
 *Drei [Arch Achsen](Arch_Axis/de.md) Objekte zu einem [Arch AchsenSystem](Arch_AxisSystem/de.md) zusammengefasst. Ein [Arch Struktur](Arch_Structure/de.md) Objekt verwendet dieses System als seine **Achsen* Eigenschaft, um seine Form an jedem Schnittpunkt zu duplizieren.**
 
+
+</div>
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Wähle wahlweise die [ArchAchse](Arch_Axis/de.md) Objekte aus, die du in dieses System aufnehmen möchtest.
 2.  Drücke die **<img src="images/Arch_Axis_System.svg" width=16px> [Arch AchsenSystem](Arch_AxisSystem/de.md)** Schaltfläche.
@@ -27,10 +42,24 @@ Dies ist nützlich, um die Schnittpunkte zwischen den verschiedenen Achsen zu de
 4.  Wähle eine vorhandene [ Arch Achse](Arch_Axis/de.md) und drücke **<img src="images/Arch_Add.svg" width=16px> [Arch hinzufügen](Arch_Add/de.md)** or **<img src="images/Arch_Remove.svg" width=16px> [Arch entfernene](Arch_Remove/de.md)** Schaltflächen um es zu diesem System hinzuzufügen oder zu entfernen.
 5.  Lege die **Achse** Eigenschaft eines beliebigen Arch Objekts so fest, dass es auf dieses System zeigt, damit seine Form auf die Schnittpunkte dieses Systems dupliziert wird.
 
+
+</div>
+
 ## Optionen
+
+
+<div class="mw-translate-fuzzy">
 
 -   Ein gleiches [Arch Achsen](Arch_Axis/de.md) Objekt kann Teil von mehr als einem System sein.
 -   Jedes formbasierte Objekt kann auch als **Achse** Eigenschaft von Arch Objekten verwendet werden. In diesem Fall wird die Objektform entlang der Knoten des Achsen Objekts dupliziert.
+
+
+</div>
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Skripten
 
@@ -39,12 +68,29 @@ Dies ist nützlich, um die Schnittpunkte zwischen den verschiedenen Achsen zu de
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Versatzwerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus verwendet werden, indem die folgende Funktion verwendet wird: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Das Versatzwerkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus verwendet werden, indem die folgende Funktion verwendet wird:
+
+
+</div>
+
+
 ```python
 AxisSystem = makeAxisSystem(axes, name="Axis System")
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 -   Erstellt ein `AchsenSystem` Objekt aus den gegebenen `Achsen`, das eine einzelne [Arch Achsen](Arch_Axis/de.md) oder eine Liste von ihnen ist.
+
+
+</div>
 
 Beispiel: 
 ```python

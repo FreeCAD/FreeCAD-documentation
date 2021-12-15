@@ -15,11 +15,8 @@
 
 En raison du rapport d\'engrènement favorable et de la production relativement simple, l\'engrenage à développante est la forme de dent la plus courante en génie mécanique. Les roues dentées se trouvent partout où le mouvement et la force doivent être transférés d\'une pièce à l\'autre. Par exemple, ils peuvent être trouvés dans des machines, des voitures, des montres ou des appareils électroménagers. Le mouvement est souvent transféré directement d\'une roue dentée à l\'autre, mais parfois aussi via une chaîne. De plus, le sens de rotation peut être modifié. Il est également possible de changer un mouvement radial en un mouvement linéaire via un engrenage à crémaillère (<img alt="" src=images/FCGear_InvoluteRack.svg  style="width:22px;"> [FCGear Engrenage à crémaillère](FCGear_InvoluteRack/fr.md)).
 
-:   ![](images/Involute-Gear_example.png )
-:   
-    
+![](images/Involute-Gear_example.png ) 
 *De gauche à droite: Engrenage droit, engrenage hélicoïdal, engrenage double hélicoïdal*
-    
 
 ## Utilisation
 
@@ -36,66 +33,66 @@ En raison du rapport d\'engrènement favorable et de la production relativement 
 
 {{Properties_Title|Base}}
 
--    {{PropertyData/fr|Placement}}: [Placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
+-    **Placement**: [Placement](Placement/fr.md) est l\'emplacement et l\'orientation d\'un objet dans l\'espace.
 
--    {{PropertyData/fr|Label}}: nom d\'utilisateur de l\'objet dans la [vue en arborescence](tree_view/fr.md).
+-    **Label**: nom d\'utilisateur de l\'objet dans [vue en arborescence](Tree_view/fr.md).
 
 
 {{Properties_Title|computed}}
 
 (Toutes les propriétés de ce groupe sont calculées automatiquement et donc en lecture seule)
 
--    {{PropertyData/fr|da}}: Diamètre extérieur, mesuré à l\'addendum (la pointe des dents).
+-    **da**: Diamètre extérieur, mesuré à l\'addendum (la pointe des dents).
 
--    {{PropertyData/fr|df}}: Diamètre de la racine, mesuré au pied des dents.
+-    **df**: Diamètre de la racine, mesuré au pied des dents.
 
--    {{PropertyData/fr|dw}}: Diamètre du pas de travail.
+-    **dw**: Diamètre du pas de travail.
 
--    {{PropertyData/fr|transverse_pitch}}: Pas dans le plan de rotation.
+-    **transverse_pitch**: Pas dans le plan de rotation.
 
 
 {{Properties_Title|gear_parameter}}
 
--    {{PropertyData/fr|beta}}: avec l\'angle d\'hélice β, un engrenage hélicoïdal est créé: valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche (voir aussi les informations dans **Remarques**).
+-    **beta**: avec l\'angle d\'hélice β, un engrenage hélicoïdal est créé: valeur positive → sens de rotation à droite, valeur négative → sens de rotation à gauche (voir aussi les informations dans **Remarques**).
 
--    {{PropertyData/fr|clearance}}: valeur par défaut est 0,25 (voir aussi les informations dans **Remarques**).
+-    **clearance**: valeur par défaut est 0,25 (voir aussi les informations dans **Remarques**).
 
--    {{PropertyData/fr|double_gear}}: {{Emphasis | True}} crée un engrenage à double hélice (voir aussi les informations dans **Remarques**).
+-    **double_gear**: {{Emphasis | True}} crée un engrenage à double hélice (voir aussi les informations dans **Remarques**).
 
--    {{PropertyData/fr|head}}: valeur par défaut est 0,00. Cette valeur est utilisée pour modifier la hauteur des dents.
+-    **head**: valeur par défaut est 0,00. Cette valeur est utilisée pour modifier la hauteur des dents.
 
--    {{PropertyData/fr|height}}: valeur de la largeur de l\'engrenage.
+-    **height**: valeur de la largeur de l\'engrenage.
 
--    {{PropertyData/fr|module}}: module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans **Remarques**).
+-    **module**: module est le rapport du diamètre de référence de l\'engrenage divisé par le nombre de dents (voir aussi les informations dans **Remarques**).
 
--    {{PropertyData/fr|properties_from_tool}}: si l\'angle d\'hélice β est donné et que **properties_from-tool** est activé, les paramètres d\'engrenage sont recalculés en interne pour l\'engrenage tourné.
+-    **properties_from_tool**: si l\'angle d\'hélice β est donné et que **properties_from-tool** est activé, les paramètres d\'engrenage sont recalculés en interne pour l\'engrenage tourné.
 
--    {{PropertyData/fr|shift}}: valeur par défaut est 0,00, génère un décalage de profil positif et négatif (voir aussi les informations dans **Remarques**).
+-    **shift**: valeur par défaut est 0,00, génère un décalage de profil positif et négatif (voir aussi les informations dans **Remarques**).
 
--    {{PropertyData/fr|teeth}}: nombre de dents (voir aussi les informations dans **Remarques**).
+-    **teeth**: nombre de dents (voir aussi les informations dans **Remarques**).
 
--    {{PropertyData/fr|undercut}}: **True** modifie le profil de la racine de la dent (voir aussi les informations dans **Remarques**).
+-    **undercut**: **True** modifie le profil de la racine de la dent (voir aussi les informations dans **Remarques**).
 
 
 {{Properties_Title|involute_parameter}}
 
--    {{PropertyData/fr|pressure_angle}}: valeur par défaut 20° (voir aussi les informations dans les **Remarques**).
+-    **pressure_angle**: valeur par défaut 20° (voir aussi les informations dans les **Remarques**).
 
 
 {{Properties_Title|precision}}
 
 .
 
--    {{PropertyData/fr|numpoints}}: La valeur par défaut est 6, changement du profil de la développante. Changer la valeur peut conduire à des résultats inattendus.
+-    **numpoints**: La valeur par défaut est 6, changement du profil de la développante. Changer la valeur peut conduire à des résultats inattendus.
 
--    {{PropertyData/fr|simple}}: **True** génère un affichage simplifié (sans dents et seulement un cylindre en diamètre primitif).
+-    **simple**: **True** génère un affichage simplifié (sans dents et seulement un cylindre en diamètre primitif).
 
 
 {{Properties_Title|tolerance}}
 
--    {{PropertyData/fr|backslash}}: valeur par défaut est 0.00. Le contrecoup, également appelé claquement ou jeu, est la distance entre les dents d\'une paire d\'engrenages.
+-    **backslash**: valeur par défaut est 0.00. Le contrecoup, également appelé claquement ou jeu, est la distance entre les dents d\'une paire d\'engrenages.
 
--    {{PropertyData/fr|reversed_backslash}}: **True** diminution du jeu ou **False** augmentation du jeu (voir aussi les informations dans les **Remarques**).
+-    **reversed_backslash**: **True** diminution du jeu ou **False** augmentation du jeu (voir aussi les informations dans les **Remarques**).
 
 ### Vue
 
@@ -127,7 +124,7 @@ Les limitations ne sont pas encore connues.
 
 ## Formules utiles 
 
-### Engrenages droits standard 
+### Engrenages droits standards 
 
 Le terme \"standard\" désigne ici les engrenages droits sans coefficient de décalage de profil ($x$).
 
@@ -232,7 +229,10 @@ gear.height = 10
 gear.double_helix = True
 App.ActiveDocument.recompute()
 Gui.SendMsgToActiveView("ViewFit")
-``` 
+```
+
+
+
 
 _ _ _
 

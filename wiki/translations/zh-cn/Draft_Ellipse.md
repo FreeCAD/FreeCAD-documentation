@@ -49,8 +49,8 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 ## 如何使用
 
 1.  按下**<img src="images/Draft_Ellipse.png" width=16px> [[Draft Ellipse]]**按钮，或先按**E**键再按**L**键。
-2.  在3D视图中点击第一个点，或输入一个 [坐标并按下](Draft_Coordinates.md)**<img src="images/Draft_AddPoint.svg" width=16px> [add point](Draft_AddPoint.md)**按钮。
-3.  在3D视图中点击第二个点，或输入一个[坐标并按下](Draft_Coordinates.md)**<img src="images/Draft_AddPoint.svg" width=16px> [add point](Draft_AddPoint.md)**按钮。
+2.  在3D视图中点击第一个点，或输入一个坐标并按下**<img src="images/Draft_AddPoint.svg" width=16px> add point**按钮。
+3.  在3D视图中点击第二个点，或输入一个坐标并按下**<img src="images/Draft_AddPoint.svg" width=16px> add point**按钮。
 
 
 </div>

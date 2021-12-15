@@ -124,9 +124,6 @@ FreeCAD supports the export of SVG and PDF files based on your **Drawings**
 
 ## Recommended Reading 
 
--   Pentru a afla cum să creați șabloane personalizate, consultați [Drawing Template HowTo](Drawing_Template_HowTo.md)
--   Pentru mai multe informații despre instrumentele disponibile, consultați pagina [Modul de desenare](Module_de_desenare.md)
-
 
 </div>
 

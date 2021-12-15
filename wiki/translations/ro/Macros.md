@@ -50,7 +50,7 @@ Este foarte simplu de utilizat: Apăsați butonul de înregistrare, vi se va cer
 
 <div class="mw-translate-fuzzy">
 
-Acolo puteți gestiona macrocomenzile, puteți șterge, edita, duplica, instala sau crea altele noi de la zero. Dacă editați o macrocomandă, aceasta va fi deschisă într-o fereastră de editor unde puteți modifica codul acesteia. Noile macrocomenzi pot fi instalate folosind butonul Addons \... care se leagă de [AddonManager](AddonManager.md).
+Acolo puteți gestiona macrocomenzile, puteți șterge, edita, duplica, instala sau crea altele noi de la zero. Dacă editați o macrocomandă, aceasta va fi deschisă într-o fereastră de editor unde puteți modifica codul acesteia. Noile macrocomenzi pot fi instalate folosind butonul Addons \... care se leagă de [Addon Manager](Std_AddonMgr.md).
 
 
 </div>
@@ -146,9 +146,18 @@ You can manually install extensions, however, it is much simpler to just use the
 -   [How to install additional workbenches](How_to_install_additional_workbenches.md)
 
 
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/ro|Standard Menu/ro|Introduction to Python/ro}}
+
+
+</div>
+
+
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _ _
 

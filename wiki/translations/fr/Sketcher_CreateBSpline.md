@@ -25,8 +25,8 @@ Cet outil crée une courbe B-spline à partir de ses points de contrôle. (Voir 
 4.  Selon les préférences, l\'outil peut rester actif pour tracer une nouvelle courbe. Cliquez à nouveau avec le bouton droit pour quitter la commande.
 
 -   Il est possible de définir le poids des points de contrôle en modifiant les rayons des cercles. Les contraintes d\'égalité sur les cercles doivent d\'abord être supprimées. La valeur de la contrainte radiale est arbitraire, le poids des points de contrôle sera défini par les rayons relatifs des cercles. Son fonctionnement est similaire à celui de la gravité: plus un cercle est grand par rapport aux autres, plus la courbe sera attirée par le point de contrôle.
--   La visibilité du polygone de contrôle, du peigne de courbure, du degré et de la multiplicité des nœuds peut être activée/désactivée à partir de la barre d'outils [Outils d\'esquisse B-spline](Sketcher_Workbench/fr#Sketcher_B-spline_tools.md).
--   Consultez les autres outils de la barre d'outils [Outils d\'esquisse B-spline](Sketcher_Workbench/fr#Sketcher_B-spline_tools.md) pour plus d'outils d'édition B-spline.
+-   La visibilité du polygone de contrôle, du peigne de courbure, du degré et de la multiplicité des nœuds peut être activée/désactivée à partir de la barre d'outils [Outils B-spline](Sketcher_Workbench/fr#Sketcher_B-spline_tools.md).
+-   Consultez les autres outils de la barre d'[Outils B-spline](Sketcher_Workbench/fr#Sketcher_B-spline_tools.md) pour plus d'outils d'édition de B-splines.
 
 ## Limitations
 

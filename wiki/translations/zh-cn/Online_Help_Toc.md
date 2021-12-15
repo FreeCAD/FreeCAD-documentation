@@ -96,7 +96,7 @@
 -   定制 FreeCAD
     -   [用户界面定制](Interface_Customization/zh-cn.md)
     -   [用户首选项设置](Preferences_Editor/zh-cn.md)
-    -   [设置导入-导出首选项](Import_Export_Preference.md)
+    -   [设置导入-导出首选项](Import_Export_Preferences.md)
     -   [使用宏](Macros/zh-cn.md)
 
 
@@ -117,7 +117,6 @@
     -   [使用 PySide](PySide/zh-cn.md)
     -   [创建参数化对象](Scripted_objects/zh-cn.md)
     -   [嵌入式 FreeCAD](Embedding_FreeCAD/zh-cn.md)
-    -   [应用程序接口（API）文档](API_documentation/zh-cn.md)
     -   脚本示例
         -   [代码片段](Code_snippets/zh-cn.md)
         -   [画线函数](Line_drawing_function/zh-cn.md)
@@ -133,9 +132,9 @@
     -   [许可证](Licence/zh-cn.md)
     -   编译 FreeCAD
         -   [获取帮助](Tracker/zh-cn.md)
-        -   [在 Windows 中编译](CompileOnWindows/zh-cn.md)
-        -   [在 Unix 中编译](CompileOnUnix/zh-cn.md)
-        -   [在 Mac 中编译](CompileOnMac/zh-cn.md)
+        -   [在 Windows 中编译](Compile_on_Windows/zh-cn.md)
+        -   [在 Unix 中编译](Compile_on_Linux/zh-cn.md)
+        -   [在 Mac 中编译](Compile_on_MacOS/zh-cn.md)
         -   [编译 (加速)](Compiling_(Speeding_up)/zh-cn.md)
         -   [第三方库](Third_Party_Libraries/zh-cn.md)
         -   [第三方工具](Third_Party_Tools/zh-cn.md)

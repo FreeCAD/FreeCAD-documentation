@@ -49,6 +49,11 @@ Bei Verwendung einer Rechteckform können Trennzeichen mit \"\|\" im Text hinzug
 
 ## Eigenschaften
 
+### Data
+
+
+<div class="mw-translate-fuzzy">
+
 ### Daten
 
 -    **Text**: angezeigter Text
@@ -65,7 +70,7 @@ Optionen: <img alt="" src=images/Arrowfilled.svg  style="width:20px;"> Pfeil, ge
 
 -    **Shape**: Aussehen des Stücklistensymbols.
 
-Optionen: <img alt="" src=images/Circular.svg  style="width:20px;"> Kreis, Ohne, <img alt="" src=images/Triangular.svg  style="width:20px;"> Dreieck, <img alt="" src=images/Inspection.svg  style="width:20px;"> Oval, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Hexagon, <img alt="" src=images/Square-Shape.svg  style="width:20px;"> Quadrat, <img alt="" src=images/Rectangular.svg  style="width:20px;"> Rechteck
+Optionen: <img alt="" src=images/Circular.svg  style="width:20px;"> Kreis, Ohne, <img alt="" src=images/Triangle.svg  style="width:20px;"> Dreieck, <img alt="" src=images/Inspection.svg  style="width:20px;"> Oval, <img alt="" src=images/Hexagon.svg  style="width:20px;"> Hexagon, <img alt="" src=images/TechDraw_Square.svg  style="width:20px;"> Quadrat, <img alt="" src=images/Rectangle.svg  style="width:20px;"> Rechteck
 
 -    **Shape Scale**: Vergrößerungsfaktor für das **Stücklistensymbol** in beide Richtungen.
 
@@ -76,6 +81,14 @@ Optionen: <img alt="" src=images/Circular.svg  style="width:20px;"> Kreis, Ohne,
 -    **X**: Verschiebung des Stücklistensymbols in X Richtung.
 
 -    **Y**: Verschiebung des Stücklistensymbols in Y Richtung.
+
+
+</div>
+
+### View
+
+
+<div class="mw-translate-fuzzy">
 
 ### Ansicht
 
@@ -88,6 +101,9 @@ Optionen: <img alt="" src=images/Circular.svg  style="width:20px;"> Kreis, Ohne,
 -    **Linie Sichtbar**: Ob die Ballonlinie sichtbar ist.
 
 -    **Linienbreite**: Strichstärke des Stücklistensymbols
+
+
+</div>
 
 ## Skripten
 

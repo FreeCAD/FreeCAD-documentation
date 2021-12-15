@@ -97,11 +97,17 @@ Anche se non sono utilizzati per il supporto di schizzi, gli oggetti di riferime
 
 L\'oggetto Associazione non è uno strumento specifico di PartDesign, ma piuttosto un\'utilità di Part introdotta in v0.17 che si può trovare nel menu Part. È molto utilizzato nell\'ambiente PartDesign per allegare schizzi e geometrie di riferimento ai piani e agli assi standard del corpo. Sono disponibili dei modi molto completi per creare punti di riferimento, linee e piani. I parametri opzionali di offset dell\'associazione rendono questo strumento molto versatile.
 
-Per maggiori informazioni si può consultare la pagina [Associazione](Part_Attachment/it.md) e [Esercitazione di base sulle associazioni](Basic_Attachment_Tutorial/it.md).
+Per maggiori informazioni si può consultare la pagina [Associazione](Part_EditAttachment/it.md) e [Esercitazione di base sulle associazioni](Basic_Attachment_Tutorial/it.md).
 
 ## Consigli per creare dei modelli stabili 
 
+
+<div class="mw-translate-fuzzy">
+
 L\'idea della modellazione parametrica implica che è possibile modificare i valori di alcuni parametri e che i passaggi successivi vengono modificati in base ai nuovi valori. Tuttavia, quando vengono apportate modifiche importanti, il modello può rovinarsi a causa del [problema della denominazione topologica](topological_naming_problem/it.md) che in FreeCAD non è ancora stato risolto. Il danno può essere ridotto al minimo rispettando i seguenti criteri di progettazione:
+
+
+</div>
 
 -   Evitare di attaccare schizzi e oggetti di riferimento alla geometria generata del modello. (La geometria generata è qualsiasi faccia o bordo creato come risultato di una estrusione, una tasca, ecc.)
 -   Posiziona i tuoi schizzi su piani di coordinate standard o su piani di riferimento personalizzati collegati a piani standard.
@@ -124,7 +130,13 @@ L\'idea della modellazione parametrica implica che è possibile modificare i val
 
 ## Flusso di lavoro per la costruzione di un corpo 
 
+
+<div class="mw-translate-fuzzy">
+
 Con [PartDesign](PartDesign_Workbench/it.md) sono possibili diversi flussi di lavoro. Quello che dovrebbe sempre essere rispettato è che tutte le funzioni create all\'interno di un [Corpo](PartDesign_Body/it.md) siano fuse insieme per ottenere l\'oggetto finale.
+
+
+</div>
 
 ### Schizzi diversi 
 
@@ -134,7 +146,13 @@ Gli schizzi devono essere supportati da un piano. Questo piano può essere uno d
 
 ### Funzioni sequenziali 
 
+
+<div class="mw-translate-fuzzy">
+
 Gli schizzi possono essere supportati dalle facce delle precedenti operazioni solide. Questo può essere necessario per accedere a una faccia che è disponibile solo dopo aver creato una determinata funzione. Tuttavia, questo flusso di lavoro non è consigliato, poiché se la funzione originale viene modificata, le funzioni successive nella sequenza potrebbero interrompersi. Questo è il caso di un [problema di denominazione topologica](topological_naming_problem/it.md).
+
+
+</div>
 
 <img alt="" src=images/PartDesign_workflow_2.svg  style="width:600px;">
 
@@ -146,7 +164,13 @@ I piani di riferimento sono utili per supportare gli schizzi. Questi piani ausil
 
 Come per gli schizzi, è possibile attaccare i piani di riferimento alla geometria generata (bordi, facce di solidi creati in precedenza), **\'\' ma questo non è raccomandato**\'\' poiché può causare il problema della denominazione topologica.
 
+
+<div class="mw-translate-fuzzy">
+
 Inoltre, una <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:24px;"> [Forma legata](PartDesign_ShapeBinder/it.md) può essere usata per importare la geometria esterna nel corpo di riferimento; in seguito gli schizzi possono essere uniti a questo corpo ausiliario, usando o meno i piani di riferimento.
+
+
+</div>
 
 *Di nuovo, Forma legata dovrebbe essere basato sugli schizzi del corpo precedente, non sulla geometria generata.*
 
@@ -154,15 +178,29 @@ L\'uso degli oggetti datum è spesso il modo migliore per produrre modelli stabi
 
 ## Tutorial
 
+
+<div class="mw-translate-fuzzy">
+
 La pagina _.
 
 -   [Creare una parte semplice con PartDesign](Creating_a_simple_part_with_PartDesign/it.md)
 -   [Basi di Part Design](Basic_Part_Design_Tutorial/it.md)
 -   [Esercitazione di base sulle associazioni](Basic_Attachment_Tutorial/it.md)
 
+
+</div>
+
+## Related
+
+
+<div class="mw-translate-fuzzy">
+
 ## Correlati
 
 -   [Geometria solida costruttiva](Constructive_solid_geometry/it.md)
+
+
+</div>
 
 <img alt="" src=images/PartDesign_workflow_3.svg  style="width:600px;">
 

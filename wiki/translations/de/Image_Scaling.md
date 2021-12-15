@@ -10,11 +10,23 @@
 
 # Image Scaling/de
 
+
+</div>
+
 ## Beschreibung
+
+
+<div class="mw-translate-fuzzy">
 
 Das [Bild Skalierung](Image_Scaling/de.md)-Werkzeug skaliert ein Bild, das mit dem Werkzeug [Bildebene](Image_CreateImagePlane/de.md) importiert wurde.
 
+
+</div>
+
 ## Anwendung
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Drücke die **<img src="images/Image_Scaling.svg" width=16px> [Skalierung](Image_Scaling/de.md)**-Taste.
 2.  Klicke auf einen ersten Punkt in der 3D-Ansicht.
@@ -23,7 +35,16 @@ Das [Bild Skalierung](Image_Scaling/de.md)-Werkzeug skaliert ein Bild, das mit d
 5.  Füge einen Abstand in Millimetern hinzu und drücke **OK**.
 
 
+</div>
 
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 
 {{Image Tools navi

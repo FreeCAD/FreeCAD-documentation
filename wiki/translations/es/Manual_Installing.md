@@ -71,7 +71,13 @@ Una vez instalado FreeCAD, puede que quieras abrirlo y cambiar algunas preferenc
 
 ### Instalación de contenidos adicionales 
 
-Como el proyecto FreeCAD y su comunidad crecen rápidamente, y también porque es fácil de extender, las contribuciones externas y los proyectos secundarios realizados por los miembros de la comunidad y otros entusiastas comienzan a aparecer por todas partes en Internet. La mayoría de estos proyectos externos son ambientes de trabajo o macros, y pueden ser fácilmente instalados desde FreeCAD a través del [Gestor de Complementos](AddonManager/es.md) situado en el menú **Herramientas**. El gestor de complementos te permitirá instalar muchos componentes interesantes, por ejemplo:
+
+<div class="mw-translate-fuzzy">
+
+Como el proyecto FreeCAD y su comunidad crecen rápidamente, y también porque es fácil de extender, las contribuciones externas y los proyectos secundarios realizados por los miembros de la comunidad y otros entusiastas comienzan a aparecer por todas partes en Internet. La mayoría de estos proyectos externos son ambientes de trabajo o macros, y pueden ser fácilmente instalados desde FreeCAD a través del [Gestor de Complementos](Std_AddonMgr/es.md) situado en el menú **Herramientas**. El gestor de complementos te permitirá instalar muchos componentes interesantes, por ejemplo:
+
+
+</div>
 
 1.  Una [Biblioteca Piezas](https://github.com/FreeCAD/FreeCAD-library), que contiene todo tipo de modelos útiles, o piezas de modelos, creados por los usuarios de FreeCAD que pueden ser utilizados libremente en sus proyectos. La biblioteca puede ser utilizada y accedida directamente desde tu instalación de FreeCAD.
 2.  [Ambientes de trabajo adicionales](https://github.com/FreeCAD/FreeCAD-addons), que amplían la funcionalidad de FreeCAD para ciertas tareas, por ejemplo animar partes de tus modelos, o áreas, como el plegado de chapa o BIM. Más explicaciones de cada ambiente de trabajo y qué herramientas contiene se dan en cada página de complementos, que puedes visitar haciendo clic en el enlace correspondiente en el gestor de complemento.

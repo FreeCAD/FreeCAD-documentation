@@ -1,6 +1,13 @@
-# Draft Snap WorkingPlane/ro
 ---
-- GuiCommand:   Name:Draft WorkingPlane   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → [[Draft Snap   Snap]] → WorkingPlane|Shortcut:   SeeAlso:---
+- GuiCommand:
+   Name:Draft Snap WorkingPlane
+   Workbenches:[Draft](Draft_Workbench.md), [Arch](Arch_Workbench.md)
+   MenuLocation:Draft → [Snap](Draft_Snap.md) → WorkingPlane
+   Shortcut:
+   SeeAlso:
+---
+
+# Draft Snap WorkingPlane/ro
 
 
 </div>

@@ -40,8 +40,8 @@ Wenn Du ein CAD Anwender bist und hier etwas hinzufügen möchtest, kannst Du ge
 -   **Durchmesser** - siehe [Entwurf Abmessung](Draft_Dimension/de.md)
 -   ~~**Radius**~~ - siehe [Entwurf Abmessung](Draft_Dimension/de.md)
 -   **Fortsetzen Abmessung**: setzt eine laufende Dimension fort - geplant im Modul Entwurf
--   ~~**Ansichten: Oben, Unten, Rechts, Links**~~ - siehe [Std Ansicht Menü](Std_Ansicht_Menü.md).
--   ~~**\'Ansicht: Isometrische Ansichten**~~ - siehe [Std. OrthographicCamera](Std._OrthographicCamera.md).
+-   ~~**Ansichten: Oben, Unten, Rechts, Links**~~ - siehe [Std Ansicht Menü](Std_View_Menu.md).
+-   ~~**\'Ansicht: Isometrische Ansichten**~~ - siehe [Std OrthographicCamera](Std_OrthographicCamera.md).
 -   ~~**Modellraum und Papierraum**~~ - siehe [Zeichnungsmodul](Drawing_Workbench/de.md). - Modellbereich = Dort, wo das Modell gezeichnet wird, Papierbereich = Registerkarten mit verschiedenen Einstellungen, die geplottet werden können. (Die Registerkarten können eingezeichnet werden und haben Ansichtsfenster, die durch geschlossene Polylinien oder Formen gebildet werden, die in den Modellbereich hineinblicken.) Sie müssen in der Lage sein, in den Modellbereich hinein- und herauszuklicken, damit Sie das Papier mit Bodern und Titelboxen einrichten können. Die Ansicht muss je nach Bedarf skaliert werden, d.h. 1:50 oder 1:100 - geplant im Zeichnungsmodul
 -   **Zeichnungseinheiten**: Alle Zeichnungseinheiten sollten mm sein - dies ist ein ganz spezielles Thema, es gibt viele Dinge zu beachten. Wird weiter diskutiert. 
 -   **Gewinde** - PartDesign Arbeitsbereich. Merkmal Bohrung: korrekte Funktionalität der Bohrungstiefe gemäß der Norm ISO 6410-1
@@ -68,7 +68,7 @@ Wenn Du ein CAD Anwender bist und hier etwas hinzufügen möchtest, kannst Du ge
 ## Parametrische Modellierung 
 
 -   **Benutzerdefinierte Eigenschaften für alle Objekte**: so können Skripte und der Export in andere Software zusätzliche Informationen enthalten
--   ~~**\'Python Objekte**~~: 100% python geskriptete Objekte - siehe [Geskriptete Objekte](Geskriptete_Objekte.md).
+-   ~~**\'Python Objekte**~~: 100% python geskriptete Objekte - siehe [Geskriptete Objekte](Scripted_objects/de.md).
 
 ## Architekturmodellierung
 

@@ -2,15 +2,9 @@
 ## Atelier Raytracing 
 
 
-<div class="mw-translate-fuzzy">
-
-
-**L'_, arrêté et dépassé. Le Render Workbench peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing et parce que le nouveau module devrait fondamentalement fonctionner de la même manière**
+**L'_, arrêté et dépassé. L'atelier Render peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing et parce que le nouveau module devrait fondamentalement fonctionner de la même manière**
 
 .
-
-
-</div>
 
 
 {{TutorialInfo/fr
@@ -85,18 +79,7 @@ Maintenant nous avons un modèle pour travailler.
 
 FreeCAD ouvrira immédiatement l\'image après que le rendu soit fini.
 
-
-<div class="mw-translate-fuzzy">
-
-Nous avons terminé avec le travail de base pour le [Module Raytracing](Raytracing_Workbench/fr.md).
-
-
-</div>
-
-
-{{Tutorials navi
-
-}} {{Raytracing Tools navi}}
+Nous en avons maintenant terminé avec le processus de base pour l\'[atelier Raytracing](Raytracing_Workbench/fr.md). {{Tutorials navi}} {{Raytracing Tools navi}}
 
 ---
 [documentation index](../README.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing tutorial/fr

@@ -1,6 +1,7 @@
 ---
 - GuiCommand:/tr
-   Name:Referans Çizgisi Oluştur
+   Name:PartDesign Line
+   Name/tr:Referans Çizgisi Oluştur
    Workbenches:[Parça Tasarım](PartDesign_Workbench/tr.md)
    MenuLocation:Parça tasarım → Referans çizgisi oluştur
    Version:0.17
@@ -55,7 +56,7 @@ Eskizler, diğer referans geometrisi veya özellikleri için referans olarak kul
 
 <div class="mw-translate-fuzzy">
 
-Model ağacındaki Referans çizgisi etiketine çift tıklayın veya sağ tıklayın ve parametrelerini düzenlemek için bağlam menüsünde **Referans Düzenle** seçeneğini seçin . Ek mod ve Ek ofset hakkında daha fazla bilgi için[Ek](Part_Attachment.md) bkz.
+Model ağacındaki Referans çizgisi etiketine çift tıklayın veya sağ tıklayın ve parametrelerini düzenlemek için bağlam menüsünde **Referans Düzenle** seçeneğini seçin . Ek mod ve Ek ofset hakkında daha fazla bilgi için[Ek](Part_EditAttachment.md) bkz.
 
 
 </div>

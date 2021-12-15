@@ -1,7 +1,7 @@
 # Source code management/pl
 {{TOCright}}
 
-## Introduction
+## Wprowadzenie
 
 The main source code management tool for the FreeCAD project is _.
 

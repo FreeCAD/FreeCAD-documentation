@@ -6,7 +6,7 @@
    Workbenches:[SheetMetal](SheetMetal_Workbench/it.md)
    Shortcut:None
    Version:
-   SeeAlso:[Aggiorna dispiegatura](SheetMetal_UnfoldUpdate/it.md)
+   SeeAlso:[SheetMetal UnattendedUnfold](SheetMetal_UnattendedUnfold.md)
 ---
 
 # SheetMetal Unfold/it

@@ -1,4 +1,9 @@
 # PartDesign Bearingholder Tutorial I/ru
+**This tutorial was originally written for a now deprecated development version of FreeCAD. This tutorial requires a complete rewrite to align with the PartDesign changes that will be in the upcoming v0.17 release.**
+
+
+
+
 {{TutorialInfo
 |Topic=Modeling
 |Level=Experienced User
@@ -8,12 +13,7 @@
 |Files=
 }}
 
-
-**This tutorial was originally written for a now deprecated development version of FreeCAD. This tutorial requires a complete rewrite to align with the PartDesign changes that will be in the upcoming v0.17 release. Rewrite was started in _**
-
 ![Bearing Holder Tutorial - Finished bearing holder (top)\|thumb\|right\|400px](images/HolderTop1-1.jpg )
-
-~~As the warning at the top of the page already indicates, this **tutorial will NOT WORK unless you compile a special highly experimental branch from FreeCAD source code** and is an introductory tutorial to modeling with the PartDesign workbench in FreeCAD **using Datum planes which are a feature that does not yet exist in most FreeCAD versions**.~~
 
 ## Purpose in Brief 
 

@@ -23,39 +23,41 @@ Chaque outil a un **bouton d\'aide** ![](images/_Help-btn.png ) pour obtenir des
 
 ## Références
 
--   Auteur: Github: [\@easyw](https://github.com/easyw)\|Forums FreeCAD : [easyw-fc](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=6387)
+-   Auteur sur github: [\@easyw](https://github.com/easyw)
+-   Forums FreeCAD : [easyw-fc](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=6387)
 -   Code source sur github: <https://github.com/easyw/Manipulator>
+-   Annonces/discussion du forum : <https://forum.freecadweb.org/viewtopic.php?t=24742>
 
 ## Tutoriel
 
-_
+<img alt="Title Manipulator-WB-\@Work" src=images/Manipulator-WB-@Work.png  style="width:1024px;">
 
 
 
-*align=center|Tutoriel sur YouTube [https://youtu.be/owGzsd1fyZc Manipulator WorkBench @Work]*
+*Tutoriel sur YouTube [https://youtu.be/owGzsd1fyZc Manipulator WorkBench @Work]*
 
 ## Outils
 
 ![](images/Manipulator-WB-Tools.png ) 
-*center=align|Ci-dessus: boîte de dialogue de l'atelier du manipulateur. Pour une description plus détaillée, voir [https://github.com/easyw/Manipulator/blob/master/README.md README.md] sur Github.*
+*Ci-dessus: boîte de dialogue de l'atelier du manipulateur. Pour une description plus détaillée, voir [https://github.com/easyw/Manipulator/blob/master/README.md README.md] sur Github.*
 
 ### Aligner
 
 ![](images/Manipulator-WB-Aligner.gif ) 
 *Aligner: ensemble d'outils pour déplacer et aligner des pièces 3D; il peut également aligner un objet (face, arête, point) sur l'origine dans FreeCAD*
 
-### Mover (déplacer) 
+### Mover
 
 ![](images/Manipulator-WB-Mover.gif ) 
 *Mover: ensemble d'outils pour déplacer et faire pivoter des pièces 3D sur différents axes*
 
 ![](images/Manipulator-WB-Mover-with-App_Part&Body.gif ) 
-*Mover: Utilisation de l'application: Part et Body*
+*Mover: Utilisation de App:Part et Corps*
 
 ![](images/Manipulator-WB-Mover-with-External-Reference.gif ) 
 *Mover: avec référence externe*
 
-### Caliper (mesurer) 
+### Caliper
 
 ![](images/Manipulator-WB-Measure-Radius.gif ) 
 *Caliper: mesure du rayon*
@@ -72,7 +74,7 @@ _
 ![](images/Manipulator-WB-Parallel-Planes-Distance.gif ) 
 *Caliper: distance entre deux plans parallèles*
 
-### Manipulator (manipulateur) 
+### Manipulator
 
 ![](images/Manipulator-WB-Assembly-Parts.gif )
 
@@ -80,7 +82,7 @@ _
 
 ### Installation automatique 
 
-La méthode recommandée pour installer le Manipulator Workbench est via le menu <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) dans le menu **Outils → Gestionnaire d'Addon**.
+La méthode recommandée pour installer l\'atelier Manipulator est via le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) dans le menu **Outils → Gestionnaire d'Addon**.
 
 
 <div class="mw-collapsible mw-collapsed toccolours" style="width:600px">
@@ -120,13 +122,13 @@ git clone https://github.com/easyw/Manipulator Manipulator
 
 L\'atelier a évolué à partir de la macro [Center Align Objects with Faces or Edges](Macro_Center_Align_Objects_with_Faces_or_Edges/fr.md).
 
-## Établis extérieurs 
+## Ateliers extérieurs 
 
 Les ateliers FreeCAD sont faciles à programmer en [Python](Python/fr.md), il y a donc beaucoup de gens qui développent des établis supplémentaires en dehors des développeurs principaux de FreeCAD.
 
-La page [ateliers externes](External_workbenches/fr.md) contient des informations et des tutoriels sur certains d'entre eux, et le projet [FreeCAD Addons](https://github.com/FreeCAD/FreeCAD-addons) vise à les rassembler et à les rendre facilement installables depuis FreeCAD.
+La page des [ateliers externes](External_workbenches/fr.md) contient des informations et des tutoriels sur certains d'entre eux et le projet [FreeCAD Addons](https://github.com/FreeCAD/FreeCAD-addons) vise à les rassembler et à les rendre facilement installables depuis FreeCAD.
 
-De nouveaux ateliers sont en développement, restez à l\'écoute !
+De nouveaux ateliers sont en développement, tenez vous au courant!
 
 
  

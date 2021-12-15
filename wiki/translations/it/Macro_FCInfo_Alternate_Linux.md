@@ -1,8 +1,9 @@
 # Macro FCInfo Alternate Linux/it
 {{Macro/it
 |Name=Macro FCInfo Alternate Linux
+|Name/it=Macro FCInfo Alternate Linux
 |Translate=Info per Linux
-|Icon=FCInfo
+|Icon=FCInfo.png
 |Description=Fornisce una serie di informazioni sulla forma.(solo per PyQt4)
 |Author=Mario52
 |Version=1.12

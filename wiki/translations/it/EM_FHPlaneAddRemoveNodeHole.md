@@ -11,18 +11,24 @@
 
 # EM FHPlaneAddRemoveNodeHole/it
 
+
+</div>
+
 ## Descrizione
 
 The FHPlaneAddRemoveNodeHole tool inserts or removes FHNodes or FHPlaneHoles from a FHPlane object.
 
-![](images/EM_FHPlaneAddRemoveNodeHole_Example.png ) 
+![](images/EM_FHPlaneAddRemoveNodeHole_Example.png )
+
+
+
 *Nodes added (blue) and removed (red) from a FHPlane, and a FHPlaneHole removed from the FHPlane (not cutting a hole in the plane)*
 
 ## Usage
 
 To remove one or multiple FHNode objects or FHPlaneHole objects from a FHPlane:
 
-1.  Select all the [EM FHNode](EM_FHNode.md) objects or [EM FHPlaneHole](EM_FHPlaneHole.md) objects that you want to remove from the FHPlane (note that you need to expand the list of children of the FHPlane if you want to select these object from the tree instead of from the current 3D view).
+1.  Select all the [EM FHNode](EM_FHNode.md) objects or [EM FHPlaneHole](EM_FHPlaneHole.md) objects that you want to remove from the FHPlane (note that you need to expand the list of children of the FHPlane if you want to select these object from the [tree view](Tree_view.md) instead of from the current [3D view](3D_view.md)).
 2.  Press the **<img src="images/EM_FHPlaneAddRemoveNodeHole.svg" width=16px> [EM FHPlaneAddRemoveNodeHole](EM_FHPlaneAddRemoveNodeHole.md)** button, or press **E** then **A** keys.
 
 To insert one or multiple FHNode objects or FHPlaneHole objects into a FHPlane:
@@ -42,6 +48,9 @@ You can also remove FHNode objects or FHPlaneHole objects from a FHPlane, and in
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 To add or remove FHNode or FHPlaneHole objects from a FHPlane via Python scripting, just add or remove the objects from the relevant properties of the FHPlane object. The PropertyList is monitored for changes, so the FHNode or FHPlaneHole will be handled as expected (change of color, etc.)
+
+
+
 
 
 {{EM Tools navi

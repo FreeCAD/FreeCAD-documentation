@@ -12,11 +12,13 @@
 |Date=2020/11/12
 |FCVersion=All
 |Download=Download the [https://forum.freecadweb.org/download/file.php?id=50755 Macro_FCInfo_Icon] package and paste it in the same directory of the macro
-|SeeAlso=<img src=images/Arch_Survey.svg/de style="width:Arch Survey|24px"> [Arch Survey](Arch_Survey/de.md)<br />[Macro SimpleProperties](Macro_SimpleProperties/de.md)
+|SeeAlso=<img src=images/Arch_Survey.svg style="width:Arch Survey|24px"> [Arch Survey](Arch_Survey/de.md)<br />[Macro SimpleProperties](Macro_SimpleProperties/de.md)
 }}
 
 
 </div>
+
+## Description
 
 
 <div class="mw-translate-fuzzy">
@@ -29,14 +31,22 @@ Gibt eine Reihe von Informationen über die ausgewählte Form und kann eine Umwa
 </div>
 
 
-{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/4ff055ff5eb117f75beea5843efca4791990cf62/FCInfo_en_Ver_1-22-rmu_Docked.FCMacro}}
+{{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/4ecf1b82162b7a9e600c9ee511410ddf06c6e534/FCInfo_en_Ver_1-25d-rmu_Docked.FCMacro}}
 
 <img alt="" src=images/Macro_FCInfo_00_en.png  style="width:480px;"> 
 *FCInfo*
 
+## Utilisation
+
+
+<div class="mw-translate-fuzzy">
+
 ## Nutzung
 
 Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Objekt aus. Eine Reihe von Informationen wird angezeigt. Seine Berechnungen basieren auf der Einheit \"FreeCAD\", also \"mm\" für jede neue Auswahl. Die Längeneinheit wird immer auf \"mm\" und der Winkel auf Dezimalgrad zurückgesetzt. <img alt="upper window" src=images/Macro_FCInfo_06.png  style="width:200px;"><img alt="lower window" src=images/Macro_FCInfo_07.png  style="width:200px;">
+
+
+</div>
 
 
 
@@ -49,10 +59,19 @@ Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Ob
 -   Unterelementname des Objekts
 -   Typ des Objekts
 
+
+<div class="mw-translate-fuzzy">
+
 **Sector 2: Coordinates click mouse**
 
 -   Koordinaten X, Y und Z klicken Sie mit der Maus
 -   Die Schaltfläche Erstellen auf Punkt, Achse, Ebene, Vektorachse erstellen \'\' \'FreeCAD.Vector (-24.0, 240.0, 7.0)\' \'\'
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Sector 3: Value**
 
@@ -60,12 +79,24 @@ Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Ob
     km, hm, dam, m, dm, cm, \'\' \'mm\' \'\', µm, nm, pm, fm, zoll, link, fuß, hof, barsch, kette, furlong, meile, liga, nautique. Wenn das Objekt ein Kreis ist, ist eine Sekunde lineEdit offen und zeigt den Radius des Kreises an.
 -   Umfang der Form
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 **Sector 4: Vertexes and details**
 
 -   CheckBox für die Suche oder nicht alle Details des Objekts, wenn nicht nur der Hauptwert angezeigt wird.
 -   Scheitelpunkte und Details der Form (compt\_Edge), (compt\_Faces), (compt\_Vector of the Face)
     max. 200 Zeilen in der Tabelle, wenn mehr als 200 Zeilen vorhanden sind (! + 200) und die Anzahl von Zeilen
     (vollständige Details können über die Schaltfläche {{KEY | Save}} in einer Datei im CSV-Format gespeichert werden. Die Datei kann in einer Tabelle mit dem {{KEY | Read}} oder von einer externen Tabelle als angezeigt werden [LibreOffice](https://www.libreoffice.org/) [OpenOffice](http://openoffice.apache.org/downloads.html) or other)
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Sector 5: Inclination**
 
@@ -83,6 +114,12 @@ Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Ob
         Diese Schaltfläche erstellt eine Linie in Richtung des Objekts
 -   **ValueAt** gibt den 3D-Vektor zurück, der einem Parameterwert entspricht.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 **Sector 6: Surface and Volume**
 
 -   Die Oberfläche der angezeigten Einheitsgröße kann ausgewählt werden
@@ -95,15 +132,33 @@ Wählen Sie ein Objekt aus oder starten Sie die Anwendung und wählen Sie ein Ob
     lb t (livre troy), lb (livre av), st (stein), qtr (viertel) cwt (Zentner), Tonneau fr, ct
 -   Gewicht der angezeigten Einheitsmasse kann ausgewählt werden
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 **Sector 7: BoundBox**
 
 -   BoundBox extreme Abmessungen der Form
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Sector 8: Center of:**
 
 -   Mittelpunkt der Form und dieser Koordinaten XYZ
 -   Massenmittelpunkt und diese Koordinaten XYZ
 -   Die Schaltfläche kann auf Punkt, Achse, Ebene und Vektorachsenform erstellt werden**FreeCAD.Vector(-24.0, 240.0, 7.0)**
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Sector 9: Inertia**
 
@@ -119,6 +174,9 @@ Länge und Gewicht gleich
 -   Determinante 1: Berechnet die Determinante des wissenschaftlichen Matrixwerts
 -   Determinante 2: Berechnet die Determinante des Matrix-Dezimalwerts
 
+
+</div>
+
 **Section 10: SpreadSheet**
 
 -    **Read**: Lesen Sie die Daten in einer Kalkulationstabelle, die **.FCInfo** oder txt, asc, csv gespeichert wurde
@@ -133,12 +191,21 @@ Länge und Gewicht gleich
 
 -    **Space**: Das Trennzeichen ist Space
 
+
+<div class="mw-translate-fuzzy">
+
 Option zum Speichern oder Lesen des spreadSheets mit unterschiedlichen Trennzeichen, Tabulation, Komma, Semikolon, Leerzeichen
 Die Tabellierung ist das Trennzeichen für das FreeCAD spreadSheet-Modul
 Die Nummer dieser vier Trennzeichen wird für Hilfe berechnet, falls unbekannt
 Die COMMA sind das alte (01.16 und davor) Trennzeichen des FCInfo-Makros
 Aus Kompatibilitätsgründen mit dem FreeCAD-SpreadSheet und seit Version 01.17 ist TABULATION standardmäßig das Trennzeichen
 Wenn Sie Ihre alte FCInfo-Kalkulationstabelle konvertieren möchten: Öffnen Sie sie in FCInfo und speichern Sie sie mit aktivierter Option Tabulation
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 **Section 11: Main**
 
@@ -158,7 +225,13 @@ Wenn Sie Ihre alte FCInfo-Kalkulationstabelle konvertieren möchten: Öffnen Sie
 
 -    **CheckBox****2**: Wenn diese CheckBox nicht markiert ist, wird das Fenstermakro rechts angezeigt (Standard). Wenn diese Option aktiviert ist, wird das Fenstermakro links angezeigt
 
+
+</div>
+
 Nach dem Starten des Makros bleibt das Makro aktiv und das Fenster bleibt sichtbar. Um das Makro durch Drücken von **Exit** zu verlassen. Wenn Sie das Kreuz verlassen, bleibt das Makro im Speicher und die Daten werden in der \"Berichtansicht\" von FreeCAD angezeigt.
+
+
+<div class="mw-translate-fuzzy">
 
 
 <center>
@@ -171,6 +244,14 @@ Image:Macro\_FCInfo\_04.png\|Docked to rigth, Image:Macro FCInfo 05.png\|or left
 
 
 
+
+</div>
+
+## Options
+
+
+<div class="mw-translate-fuzzy">
+
 ## Optionen
 
 ### Die verwendete Einheit 
@@ -179,6 +260,18 @@ Image:Macro\_FCInfo\_04.png\|Docked to rigth, Image:Macro FCInfo 05.png\|or left
 
 km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
 
+
+</div>
+
+#### Length unit: 
+
+km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, chain, furlong, mile, league, nautique.
+
+#### Angle degrees : 
+
+
+<div class="mw-translate-fuzzy">
+
 #### Angle degrees : 
 
 1.  **decimal degree**, ex: 174.831872611°
@@ -186,6 +279,9 @@ km, hm, dam, m, dm, cm, **mm**, µm, nm, pm, fm, inch, link, foot, yard, perch, 
 3.  radian, ex: 3.05139181449 rad
 4.  grade, ex: 194.257636235 gon
 5.  pourcent ex: 30° = 57.74%
+
+
+</div>
 
 Kenntnis der Winkel in der FCInfo-Anzeige.
 
@@ -203,16 +299,33 @@ click twice to see the animation (the image must be in full screen)
 
 #### Weight unit : 
 
+
+<div class="mw-translate-fuzzy">
+
+#### Weight unit : 
+
 ton, quintal, kg, hg, dag, **gram**, dg, cg, mg, µg, ng, pg, fg, gr (grain), dr (drachm), oz (once), oz t (once troy),
 lb t (livre troy), lb (livre av), st (stone), qtr (quarter), cwt (hundredweight), tonneau fr, ct
 the \"spinBox\" is set to **7,5** kg, average density of steel. Wenn Sie einen anderen Standardwert wünschen, ändern Sie den Wert der Dichte in Zeile 208
+
+
+</div>
 
 
 ```python
  global densite       ; densite       = 7.5  # (steel = 7.5 kg par dm3)
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 Eine Datei kann mit der Schaltfläche **Save** erstellt werden. Die Datei wird als Datei [csv](https://fr.wikipedia.org/wiki/Comma-separated_values) geschrieben. Auf diese Weise können die Daten in einer Tabelle in untersucht werden FreeCAD or Openoffice, LibreOffice\...
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 ## Skrip
 
@@ -224,8 +337,27 @@ Kopieren Sie den Inhalt des Makros in eine Datei mit dem Namen \"FCInfo.FCMacro\
 Oder direkt in der Oberfläche von FreeCAD
 Das Symbol muss sich im selben Verzeichnis wie das Makro befinden.
 Laden Sie die Bildpositionierung auf das Symbol herunter <img alt=" 64px" src=images/_FCInfo.png ) ![](images/_FCInfoSpreadsheet.png  style="width:64px;"> und ziehen Sie die Maustaste mit der rechten Maustaste auf \"Speichern unter\" (ändern Sie den Namen nicht).
+
+
+</div>
+
+Copy the contents of the macro in a file named \"FCInfo.FCMacro\"
+
+-   Windows: the form is usually **\" drive:\\Users\\your\_user\_name\\AppData\\Roaming\\FreeCAD\\ \"**
+-   Ubuntu: the form is usually **\" /home/your\_user\_name/.FreeCAD \"**.
+
+Or, directly in the interface of FreeCAD
+The icon must be in the same directory as the macro.
+Download image positioning on the icon <img alt="" src=images/FCInfo.png  style="width:64px;"> <img alt="" src=images/FCInfoSpreadsheet.png  style="width:64px;"> and then drag the mouse right click \"save as\" (do not change the name)
+
+
+<div class="mw-translate-fuzzy">
+
 **PS: zu lang, um in der Wiki-Seite enthalten zu sein (zur Zeit akzeptieren die Wiki-Seiten nur 64 KB), wurde der Makrocode in das Forum**
 gestellt
+
+
+</div>
 
 
 <div class="toccolours mw-collapsible mw-collapsed">
@@ -234,6 +366,9 @@ Es gibt auch FCInfo\_Alternate\_Linux nur für die FreeCAD-Version 0.13 \... und
 
 
 <div class="mw-collapsible-content">
+
+
+<div class="mw-translate-fuzzy">
 
 Es gibt auch eine [Macro\_FCInfo\_Alternate\_Linux](http://www.freecadweb.org/wiki/index.php?title=Macro_FCInfo_Alternate_Linux). Hier wird der Code geändert (aufgrund des Zeichenanzeigefehlers: \'\' \'² ³ °\' \'\' Ordinalzahl nicht im Bereich (128) \"), was bei bestimmten Konfigurationen zu Problemen führte, die Funktionen sind gleich
 Beispiel : 
@@ -254,26 +389,66 @@ global uniteAs       ; uniteAs       = iso8859(unichr(176))
 
 </div>
 
+
+
+</div>
+
 Laden Sie die Symboldatei herunter [Macro\_FCInfo\_Icon](https://forum.freecadweb.org/download/file.php?id=50755)Entpacken und kopieren Sie das Symbol im selben Verzeichnis des Makros.
+
+
+<div class="mw-translate-fuzzy">
 
 Laden Sie die Makrodatei in gist herunter **docked to right**
 
 
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+
 {{CodeDownload|https://gist.github.com/mario52a/8d40ab6c018c2bde678f|last version Macro_FCInfo and the icons at the end of the page}}
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 (Or **[On the forum.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185&p=47748#p47748)** )
 **PS:** Dieses Makro verwendet **getSelection ()** und die Objektliste beginnt mit 1 Ex: für eine Box **Edge1 bis Edge12** und der Code in der Konsole beginnt bei 0 ex: für eine Box **Edge \[0\] to Edge \[11\]**
 Normalerweise beginnt die Zählung von Arrays/Listen in OpenCascade immer bei **1 und nicht bei 0**
 
+
+</div>
+
+### Limitations
+
+
+<div class="mw-translate-fuzzy">
+
 ### Einschränkungen
 
 Lassen Sie immer die Taste **Exit**. Wenn man das Programm verlässt, ohne die Taste **Exit** zu durchlaufen, bleibt das Programm im Speicher und läuft weiter, und die Anzeige bleibt im \"Bericht anzeigen\". Sie müssen FreeCAD verlassen, um es aus dem Speicher zu löschen.
 In der Tabelle sind nur die ersten 200 Elemente des Objekts sichtbar, wenn das Objekt mehr als 200 Elemente enthält, wird ein Signal durch \'\'\'(! +200) \'\'\' angezeigt. Die vollständige Datenliste ist in der Datei sichtbar, die mit der Schaltfläche **Save** gespeichert wird.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Wenn das Fenstermakro nach dem Lauf nicht sichtbar ist, siehe das untere Fenster:
+
+
+</div>
 
 ![](images/Macro_FCInfo_08.png )
 
 ![](images/FCInfo_begin_00.gif ) 
+
+
+<div class="mw-translate-fuzzy">
 
 Projekt:
 ~~lies die Datei direkt in einer Tabelle.~~ done
@@ -281,8 +456,30 @@ Projekt:
 Zuordnung eines Stoffes zu seiner Dichte ~~Neigung auf das Element und nicht auf das globale Objekt~~ erledigt
 ~~Inlay direkt in der Oberfläche von FreeCAD~~ fertig
 
+
+</div>
+
 ## Version
 
+
+<div class="mw-translate-fuzzy">
+
+-   ver 1.22 , 12/11/2020 : now the macro is totally uninstalled i use :
+
+
+</div>
+
+
+```python
+FreeCAD.ActiveDocument.openTransaction(u"FCInfo")    # memorise les actions (avec annuler restore)
+FreeCAD.ActiveDocument.commitTransaction()           # restore les actions  (avec annuler restore)
+#FreeCAD.ActiveDocument.abortTransaction()            # abandonne les actions(avec annuler restore)
+```
+
+-   ver 1.25d, 13/12/2021 little correction material field uncomment the \"\'try\...Except\" !!!
+-   ver 1.25c, 12/12/2021 little correction new material
+-   ver 1.23b, 20/11/2021 little correction, add text info in beginning run macro, and ordinal the text code
+-   ver 1.23 , 19/11/2021 include icon in macro, number decimal displayed, text height, configure options in the Preference FC, correct info for elements of sketch in edit mode.
 -   ver 1.22 , 12/11/2020 : now the macro is totally uninstalled i use :
 
 
@@ -334,9 +531,17 @@ In a Linux distribution and in the case of an error of **\"ordinal not in range 
 \*ver 1.02 , 7/09/2013 : small updates
 \*ver 1.00 , 6/09/2013
 
+
+<div class="mw-translate-fuzzy">
+
 ## Verknüpfungen
 
 Siehe auch [Arch Überblick](Arch_Survey/de.md) <img alt="Arch Überblick" src=images/Arch_Survey.svg  style="width:36px;">
+
+
+</div>
+
+See Also: <img alt="Arch Survey" src=images/Arch_Survey.svg  style="width:36px;"> [Arch Survey](Arch_Survey.md)
 
 Sie können Ihre Kommentare im Forum teilen [Info Workbench - Help with icons please.](http://forum.freecadweb.org/viewtopic.php?f=10&t=3185)
 Hier noch ein Beitrag von [FCInfo Macro](http://forum.freecadweb.org/viewtopic.php?f=8&t=6005)

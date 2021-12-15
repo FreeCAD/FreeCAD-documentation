@@ -199,7 +199,7 @@ Instrumentele Sketcher Workbench sunt toate localizate în meniul Sketch care ap
 
 <div class="mw-translate-fuzzy">
 
--   [Reorient sketch ](Sketcher_Reorient.md): Permite schimbarea poziției schiței
+-   [Reorient sketch](Sketcher_ReorientSketch/ro.md): Permite schimbarea poziției schiței
 
 
 </div>
@@ -902,10 +902,6 @@ Fiecare utilizator CAD își dezvoltă în timp propriul mod de a lucra, dar exi
 <div class="mw-translate-fuzzy">
 
 ## Tutoriale
-
--   [Sketcher tutorial](Sketcher_tutorial.md) pentru începători
--   [Sketcher Tutorial](Sketcher_Tutorial.md)
--   [Sketcher Micro Tutorial - Constraint Practices](Sketcher_Micro_Tutorial_-_Constraint_Practices.md)
 
 
 </div>

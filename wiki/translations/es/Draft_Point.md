@@ -39,7 +39,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Presiona el botón **<img src="images/Draft_Point.png" width=16px> [punto](Draft_Point/es.md)
 **, o presiona las teclas **P** y **T**
-2.  Designa un punto en la vista 3D, o escribe unas coordenadas [coordenadas](Draft_Coordinates/es.md)
+2.  Designa un punto en la vista 3D, o escribe unas coordenadas coordenadas
 
 
 </div>

@@ -135,7 +135,7 @@ Generarea traiectoriilor de frezare CNC este un alt subiect care este mult prea 
 
 -   Încarcă fișierul care conține lego-ul nostru [Path Workbench](Path_Workbench.md).
 -   Deoarece piesa finală nu mai conține o fațetă de sus dreptunghiulară, ascundeți ultimul picior al piesei lego și arătați primul bloc paralelipipedic pe care l-am făcut, care are o față de sus dreptunghiulară.
--   Selectați fațeta de sus și apăsați butonul <img alt="" src=images/Path_FaceProfile.png  style="width:16px;"> [Face Profile](Path_FaceProfile.md) .
+-   Selectați fațeta de sus și apăsați butonul <img alt="" src=images/Path_Profile.svg  style="width:16px;"> [Profile](Path_Profile.md) .
 -   Set its **Offset** property to 1mm.
 
 
@@ -158,7 +158,7 @@ Generarea traiectoriilor de frezare CNC este un alt subiect care este mult prea 
 <div class="mw-translate-fuzzy">
 
 -   Acum avem o traiectorie de preucrare care, urmată de mașina de frezat, va sculpta un volum dreptunghiular dintr-un bloc de material. Acum trebuie să excavăm spațiul dintre bosaje, pentru a le dezvălui. Ascundeți blocul și arătați din nou piesa finală, pentru a putea face diferența între bosaje.
--   Selectați fața superioară și apăsați butonul <img alt="" src=images/Path_FacePocket.png  style="width:16px;"> [Face Pocket](Path_FacePocket.md) . Reglați proprietatea **Offset** la 1mm, și retracția **retraction height** la 20mm. That is the height to where the cutter will travel when switching from one loop to another. Otherwise, the cutter might cut right through one of our dots:Aceasta este înălțimea unde se află freza. În caz contrar, tăietorul ar putea fi trece direct prin unul dintre bosajel noastre:
+-   Selectați fața superioară și apăsați butonul <img alt="" src=images/Path_Pocket_Shape.svg  style="width:16px;"> [Pocket Shape](Path_Pocket_Shape.md) . Reglați proprietatea **Offset** la 1mm, și retracția **retraction height** la 20mm. That is the height to where the cutter will travel when switching from one loop to another. Otherwise, the cutter might cut right through one of our dots:Aceasta este înălțimea unde se află freza. În caz contrar, tăietorul ar putea fi trece direct prin unul dintre bosajel noastre:
 
 
 </div>
@@ -178,7 +178,7 @@ Generarea traiectoriilor de frezare CNC este un alt subiect care este mult prea 
 
 <div class="mw-translate-fuzzy">
 
--   Acum, tot ce a rămas de făcut este să unească aceste două operațiuni într-una singură. Acest lucru se poate face cu ajutorul unei funcții _ .
+-   Acum, tot ce a rămas de făcut este să unească aceste două operațiuni într-una singură. Acest lucru se poate face cu o _.
 -   Definiți proprietatea **Use Placements** a proiectului ca fiind True, deoarece am schimbat poziția matriceelor și dorim ca aceasta să fie luate în considerare în proiect.
 -   În vizualizarea arborescentă, glisați și fixați cele două matrice în proiect. Puteți reordona elementele matricii din interiorul proiectului dacă este necesar, făcând dublu clic pe el.
 -   Acum, proiectul poate fi exportat la codul G, prin selectarea acestuia, alegeți meniului **File -\> Export**, selectați formatului de cod G și în dialogul pop-up care se va deschide, selectați un postprocesor de script în funcție de aparatul dvs.

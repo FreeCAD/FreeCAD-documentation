@@ -1,7 +1,7 @@
 # Compile on Windows/en
 {{TOCright}}
 
-This page explains step by step **how to compile FreeCAD 0.19 or newer on Windows**. For other platforms see [Compiling](Compiling.md).
+This page explains step by step **how to compile FreeCAD 0.19 or newer on Windows** using Microsoft\'s MSVC compiler. For information on using MSYS2/MinGW see [Compile on MinGW](Compile_on_MinGW.md). For other platforms see [Compiling](Compiling.md).
 
 ## Prerequisites
 
@@ -15,7 +15,7 @@ Compiling FreeCAD on Windows requires several tools and libraries.
 
 -   [CMake](https://cmake.org/download/) version 3.11.x or newer.  *Hint:* Choosing the option *Add CMake to the system PATH for all users* when installing CMake will make CMake accessible from the Windows command prompt, which can be useful.
 
--   LibPack (also called FreeCADLibs). This is a single package containing all of the libraries necessary to compile FreeCAD on Windows. Download the version of the LibPack that corresponds to the version of FreeCAD you want to compile. To compile FreeCAD 0.19 or the latest development version 0.20, download the [LibPack for 0.19/0.20](https://github.com/apeltauer/FreeCAD/releases/tag/LibPack_12.5.2) (64-bit only). Extract the LibPack to a convenient location. (If your computer does not recognize the .7z extension, you should install the program [7-zip](https://www.7-zip.org).)  **Note**: It is highly recommended to compile FreeCAD with the compiler version the LibPack is designed for. For example, you might run into problems compiling FreeCAD 0.19 using MSVC 15 because the LibPack for 0.19 is designed to be built with MSVC 17.
+-   LibPack (also called FreeCADLibs). This is a single package containing all of the libraries necessary to compile FreeCAD on Windows. Download the version of the LibPack that corresponds to the version of FreeCAD you want to compile. To compile FreeCAD 0.19 or the latest development version 0.20, download the [LibPack for 0.19/0.20](https://github.com/apeltauer/FreeCAD/releases/tag/LibPack_12.5.4) (64-bit only). Extract the LibPack to a convenient location. (If your computer does not recognize the .7z extension, you should install the program [7-zip](https://www.7-zip.org).)  **Note**: It is highly recommended to compile FreeCAD with the compiler version the LibPack is designed for. For example, you might run into problems compiling FreeCAD 0.19 using MSVC 15 because the LibPack for 0.19 is designed to be built with MSVC 17.
 
 ### Optional programs 
 
@@ -152,6 +152,7 @@ Here is a description of some of these variables:
   FREECAD\_LIBPACK\_USE                    Switch the usage of the FreeCAD LibPack on or off                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ON
   FREECAD\_LIBPACK\_DIR                    Directory where the LibPack is                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     FreeCAD\'s source code folder
   FREECAD\_RELEASE\_PDB                    Create debug libraries also for release builds                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ON
+  FREECAD\_USE\_MP\_COMPILE\_FLAG          Adds the /MP (multiprocessor) option to the Visual Studio projects, enabling speedups on multi-core CPUs. This can greatly accelerate builds on modern processors.                                                                                                                                                                                                                                                                                                                                                                                                 OFF
 
 ## Building FreeCAD 
 
@@ -160,7 +161,7 @@ Depending on your compiler, the process for building FreeCAD will be slightly di
 
 <div class="mw-collapsible mw-collapsed toccolours">
 
-### Building with Visual Studio 15 (2017) and 16 (2019) 
+### Building with Visual Studio 15 (2017), 16 (2019), and 17 (2022) 
 
 
 <div class="mw-collapsible-content">
@@ -449,7 +450,6 @@ Once you have used CMake to generate the build files for FreeCAD, open it in Vis
 
 See also
 
--   [Compile on Windows with Visual Studio 2013](Compile_on_Windows_with_VS2013.md)
 -   [Compiling - Speeding up](Compiling_(Speeding_up).md)
 
 

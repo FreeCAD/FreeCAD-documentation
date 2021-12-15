@@ -1,10 +1,29 @@
 # Installing on Windows/ja
+<div class="mw-translate-fuzzy">
+
 Windows上でのFreeCADのインストールのもっとも簡単なやり方は下記のインストーラーをダウンロードすることです。
+
+
+</div>
+
+
 {{DownloadWindowsStable}}
+
+
+<div class="mw-translate-fuzzy">
 
 .msi (Microsoftインストーラー)ファイルをダウンロードし、それをダブルクリックするだけでインストール処理が開始します。
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 以下には技術的なオプションのより詳しい情報が記載されています。よくわからなくても心配は無用です！ほとんどのWindowsユーザーはインストール用.msiで行うこと以上のことは必要ありません。**[ さあ始めましょう](Getting_started/jp.md)**！
+
+
+</div>
 
 ### シンプルなMicrosoftインストーラーでのインストール
 
@@ -217,7 +236,7 @@ FreeCAD is running, but it has been reported that the OpenGL display does not wo
 <div class="mw-translate-fuzzy">
 
 
-{{docnav/jp|Feature list/jp|Install on Unix/jp}}
+{{docnav/ja|Feature list/ja|Install on Unix/ja}}
 
 
 </div>

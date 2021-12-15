@@ -1,4 +1,9 @@
 # PartDesign Bearingholder Tutorial I/it
+**This tutorial was originally written for a now deprecated development version of FreeCAD. This tutorial requires a complete rewrite to align with the PartDesign changes that will be in the upcoming v0.17 release.**
+
+
+
+
 {{TutorialInfo
 |Topic=Modeling
 |Level=Experienced User
@@ -8,18 +13,7 @@
 |Files=
 }}
 
-
-**Questo tutorial è stato scritto originariamente per una versione di sviluppo di FreeCAD ora abbandonata. Questo tutorial richiede una riscrittura completa per essere allineato alle modifiche di PartDesign che sono presenti nella versione v0.17. La riscrittura è stata avviata in _**
-
 ![Bearing Holder Tutorial - Supporto per cuscinetto finito(top)\|thumb\|right\|400px](images/HolderTop1-1.jpg )
-
-
-<div class="mw-translate-fuzzy">
-
-Come indicato nell\'avviso a inizio pagina, questo **tutorial non funziona se non si compila un particolare ramo altamente sperimentale del codice sorgente di FreeCAD** ed è un tutorial introduttivo alla modellazione con l\'ambiente di lavoro PartDesign in FreeCAD **utilizzando i piani di Riferimento che sono una caratteristica che nella maggior parte delle versioni FreeCAD non esiste ancora**. Lo scopo di questo tutorial è quello di presentare due differenti flussi di lavoro per creare un pezzo di fusione, con sformi e raccordi. Secondo quali altri programmi CAD si sono utilizzati, uno o l\'altro metodo potrebbe esservi familiare. Come esempio di lavoro viene modellato un semplice supporto per cuscinetto.
-
-
-</div>
 
 ## Seconda parte del tutorial 
 

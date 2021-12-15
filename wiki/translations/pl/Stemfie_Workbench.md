@@ -1,19 +1,19 @@
 # Stemfie Workbench/pl
 {{TOCright}}
 
-## Introduction
+## Wprowadzenie
 
-The Stemfie Workbench is an [external workbench](External_workbenches.md) aimed at implementing a parametric set of parts for the [Stemfie project](https://www.stemfie.org/).
+Środowisko pracy Stemfie to [środowisko zewnętrzne](External_workbenches/pl.md), którego celem jest implementacja parametrycznego zestawu części dla [projektu Stemfie](https://www.stemfie.org/).
 
 ![Stemfie Workbench set of parts\|700px](images/Stemfie_WB.jpg )
 
-## Installing
+## Instalacja
 
-The Stenfie workbench is not bundled with the default FreeCAD package, but can easily be installed via the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). Invoke it from **Tools → [Addons Manager](Std_AddonMgr.md)**. The Stemfie workbench code is [hosted and developed on github](https://github.com/bilbaomakers/StemfieWB) and can also be installed manually by copying it into FreeCAD\'s {{FileName|MOD}} directory.
+Środowisko pracy Stemfie nie jest dołączone do domyślnego pakietu FreeCAD, ale może być łatwo zainstalowane poprzez <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md). Wywołaj go z menu **Przybory → [Menadżer dodatków](Std_AddonMgr/pl.md)**. Kod środowiska pracy BIM jest [hostowany i rozwijany na Github](https://github.com/yorikvanhavre/BIM_Workbench) i może być również zainstalowany ręcznie poprzez skopiowanie go do katalogu {{FileName|MOD}} programu FreeCAD.
 
-## Getting started 
+## Rozpoczęcie pracy 
 
-## Tools
+## Przybory
 
 _ _
 

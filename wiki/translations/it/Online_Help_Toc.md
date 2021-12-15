@@ -56,8 +56,6 @@ C\'è un altro sommario per il _.
 <div class="mw-translate-fuzzy">
 
 -   [Elenco di tutti i comandi di FreeCAD](List_of_Commands/it.md)
--   [ Lista per categorie](ComandiPerCategorie/it.md)
--   [Tutorial](Tutorials/it.md)
 
 
 </div>
@@ -82,7 +80,7 @@ C\'è un altro sommario per il _.
 
 <div class="mw-translate-fuzzy">
 
--   Script e Macro
+-   [Python scripting](Scripting_and_macros.md)
     -   [Lavorare con le macro](Macros/it.md)
     -   [Introduzione al linguaggio Python](Introduction_to_Python/it.md)
     -   [Tutorial di script Python](Python_scripting_tutorial/it.md)
@@ -96,7 +94,6 @@ C\'è un altro sommario per il _.
     -   [Creare oggetti tramite script](Scripted_objects/it.md)
     -   [Incorporare elementi di FreeCAD in altri programmi](Embedding_FreeCAD/it.md)
     -   [Documentazione sulle API](API_documentation/it.md)
-    -   [Panoramica delle pagine di scripting Python](Scripting_examples/it.md)
         -   [Esempi di codice](Code_snippets/it.md)
         -   [Disegnare linee](Line_drawing_function/it.md)
         -   [Creare finestre di dialogo](Dialog_creation/it.md)

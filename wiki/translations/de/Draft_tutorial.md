@@ -71,7 +71,7 @@ Vor dem drücken der Taste kannst du auch den Wert des Versatzes in Millimetern 
 5\. Wir werden nun ein geschlossenes Profil erzeugen, indem wir die Bögen mit Linien verbinden.
 
 :   5.1. Drücke **<img src=images/Draft_Line.svg style="width:16px"> [Linie](Draft_Line/de.md)**.
-:   5.2. Stelle in der Werkzeugleiste <img src=images/Draft_ToggleSnap.svg style="width:Fang](Draft_Snap/de.md) sicher, dass **_ erscheinen. Klicke diesen Punkt zum auswählen .
+:   5.2. Stelle in der Werkzeugleiste <img src=images/Draft_Snap_Lock.svg style="width:Fang](Draft_Snap/de.md) sicher, dass **_ erscheinen. Klicke diesen Punkt zum auswählen .
 :   5.3. Bewege den Zeiger auf den nächstgelegenen Endpunkt des anderen Bogens, um die beiden Bögen miteinander zu verbinden.
 :   5.4. Wiederhole den Vorgang für die andere Seite des Bogens, um das Profil zu schließen.
 

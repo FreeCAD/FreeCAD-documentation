@@ -24,16 +24,8 @@ The **Std ActivatePrevWindow** command does not work properly [1](https://forum.
 
 -   Main view area windows are also listed in the **Windows** menu and can be activated from there.
 
----
-- GuiCommand:
-   Name:Std ActivatePrevWindow
-   MenuLocation:Windows → Previous
-   Workbenches:All
-   Shortcut:**Ctrl**+**Shift**+**Tab**
-   SeeAlso:[Std ActivateNextWindow](Std_ActivateNextWindow.md), [Std Windows](Std_Windows.md)
----
 
-# Std ActivatePrevWindow/ru
+
 
 
 {{Std Base navi

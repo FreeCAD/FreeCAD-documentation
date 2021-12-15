@@ -1,5 +1,5 @@
 # Category:Test Framework/fr
-Cette catégorie répertorie les pages liées à l\'atelier [Test Framework Workbench](Test_Framework_Workbench/fr.md).
+Cette catégorie répertorie les pages liées à l\'atelier [Test Framework Workbench](Testing/fr.md).
 
 ### Contents:
 

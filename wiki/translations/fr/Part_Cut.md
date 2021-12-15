@@ -26,7 +26,7 @@ _
 
 ## Entrées supportées 
 
-L\'objet doit être un objet (forme) [OpenCascade](OpenCascade/fr.md). Exemples: doit être créé avec un des ateliers Part, PartDesign, Sketcher. Ne peut pas être un objet Mesh (sauf s\'il est converti en forme (shape)) - pour les objets Mesh, utilisez l\'outil booléen spécifique dans l\'atelier MeshDesign.
+Les objets utilisés doivent être des formes [OpenCASCADE](OpenCASCADE/fr.md). Exemples : les trucs faits avec un des ateliers Part, PartDesign, Sketcher. Pas de maillages (sauf s\'ils ont été convertis en formes) - pour les maillages, il existe des outils booléens spécifiques dans l\'atelier MeshDesign.
 
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/fr

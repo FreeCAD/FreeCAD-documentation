@@ -1,4 +1,12 @@
 # Scripting and macros/de
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
+
 ## Übersicht über Python Skriptseiten 
 
 -   Python bezogene Seiten im Handbuch:
@@ -24,7 +32,7 @@
     -   _
     -   _
     -   [Pfad Skripten](Path_scripting/de.md)
-    -   [Strahlverfolgung Skripten](Raytracing_API_exampl/dee.md) (**Der Arbeitsbereich Strahlverfolgung ist veraltet**)
+    -   [Strahlverfolgung Skripten](Raytracing_API_example/de.md) (**Der Arbeitsbereich Strahlverfolgung ist veraltet**)
     -   [Skizzierer Skripten](Sketcher_scripting/de.md)
 
 -   FeaturePython Objekte (auch \'geskriptete Objekte\' genannt):
@@ -58,13 +66,18 @@
     -   [Dialogerstellung Bild und animiertes GIF](Dialog_creation_image_and_animated_GIF/de.md)
     -   [Qt Beispiel](Qt_Example/de.md)
 
+
+<div class="mw-translate-fuzzy">
+
 -   Schnipsel und Beispiele:
     -   [Definiere eines Befehls](Command/de.md)
     -   [Arbeitsbereichserstellung](Workbench_creation/de.md)
     -   [Code Schnipsel](Code_snippets/de.md)
     -   [Makrorezepte](Macros_recipes/de.md)
     -   [Linienzeichnungsfunktion](Line_drawing_function/de.md)
-    -   [Makro Halb-Rumpf Modell](Piffpoof_Macro_Half-Hull_Model/de.md)
+
+
+</div>
 
 -   Verschiedenes:
     -   [Fehlersuche](Debugging/de.md)
@@ -73,7 +86,7 @@
     -   [Zusätzliche Python Module](Extra_python_modules/de.md)
     -   [FreeCAD Vektor Mathematik Bibliothek](FreeCAD_vector_math_library/de.md)
     -   [Wie man Makros installiert](How_to_install_macros/de.md)
-    -   [IPython Notebook Integration](IPython_notebook_integration/de.md)
+    -   [IPython Notebook Integration](IPython_notebook_integration.md)
     -   [Makro beim Starten](Macro_at_Startup/de.md)
     -   [Profilierung](Profiling/de.md)
     -   [Python](Python/de.md)
@@ -83,12 +96,18 @@
     -   [Svg Namensraum](Svg_Namespace/de.md)
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

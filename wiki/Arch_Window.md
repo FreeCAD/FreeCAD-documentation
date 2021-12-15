@@ -38,7 +38,7 @@ All information applicable to an [Arch Window](Arch_Window.md) also applies to a
 
 **Note:**
 
-if you install the \"Parts Library\" from the [AddonManager](AddonManager.md), the window tool will search this library for additional presets. These presets are FreeCAD files containing a single window based on a parametric sketch that has named constrains. You may place additional presets in the `parts_library` directory so that they are found by the window tool.
+if you install the \"Parts Library\" from the [Addon Manager](Std_AddonMgr.md), the window tool will search this library for additional presets. These presets are FreeCAD files containing a single window based on a parametric sketch that has named constrains. You may place additional presets in the `parts_library` directory so that they are found by the window tool.
 
  
 ```python

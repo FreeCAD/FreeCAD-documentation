@@ -15,7 +15,13 @@ Das [L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md)-Werkzeug erlaubt es de
 
 Das [Arch L-förmiger Bewehrungsstab](Arch_Rebar_LShape/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
 
+
+<div class="mw-translate-fuzzy">
+
 Dieser Befehl ist Teil des _ über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
+
+
+</div>
 
 <img alt="" src=images/Arch_Rebar_LShape_example.png  style="width:400px;"> 
 *Vier Sätze von L-förmigen Bewehrungsstäben in einer [Struktur](Arch_Structure/de.md)*

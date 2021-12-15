@@ -22,12 +22,18 @@ Das ExportSeiteDXF Werkzeug speichert eine Zeichnungsseite als [DXF](DXF/de.md) 
 
 ### Begrenzungen
 
+
+<div class="mw-translate-fuzzy">
+
 -   Radien und Durchmesserbemaßungen werden nur dann korrekt exportiert, wenn sie \"innerhalb\" des Bogens liegen.
 -   Skalierung wird nicht unterstützt. Das DXF wird in der tatsächlichen Größe der TechDraw Seite gezeichnet.
 -   Einheiten werden nicht unterstützt. Das DXF wird in Millimetern (mm) gezeichnet. Bemaßungstext wird genau wie in TechDraw angezeigt.
 -   TechDraw kann keine [Einfügen eines Entwurf Arbeitsbereichsobjekts ](TechDraw_DraftView/de.md) oder ein [Einfügen eines Arch Arbeitsbereichsobjekt](TechDraw_ArchView.md) zu DXF exportieren. Diese Ansichten sind [SVG](SVG/de.md) Elemente, die intern vom [Entwurf Arbeitsbereich](Draft_Workbench/de.md) generiert werden, so dass es keine geometrische Form zum Exportieren gibt. Um eine Ansicht als DXF zu exportieren, muss sie mit [Ansicht einfügen](TechDraw_View/de.md) oder [Projektionsgruppe einfügen](TechDraw_ProjectionGroup/de.md) erstellt worden sein. Wähle z. B. eine [Arch SchnittEbene](Arch_SectionPlane/de.md), dann verwende [Entwurf Form2DAnsicht](Draft_Shape2DView/de.md) um eine flache Projektionsform zu erstellen, und verwende dann [Ansicht einfügen](TechDraw_View/de.md) für dieses Objekt. Alternativ wähle die Objekte in der Baumansicht oder im 3D Ansichtsfenster aus und exportiere sie mit **Datei → [Export](Std_Export/de.md)**.
 -   Der Titelblock einer Seite ist ebenfalls eine [SVG](SVG/de.md) Vorlage, daher wird er auch nicht nach DXF exportiert.
--   Im Allgemeinen kann TechDraw nur die Elemente nach DXF exportieren, die von der `Import::ImpExpDxfWrite` Klasse des [Import Moduls](Import_Module/de.md).
+-   Im Allgemeinen kann TechDraw nur die Elemente nach DXF exportieren, die von der `Import::ImpExpDxfWrite` Klasse des [Import Moduls](Draft_DXF/de.md).
+
+
+</div>
 
 ## Hinweise
 
@@ -65,7 +71,13 @@ TechDraw.writeDXFPage(page,filename)
 ```
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

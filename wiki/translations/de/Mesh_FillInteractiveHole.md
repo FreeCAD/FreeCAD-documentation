@@ -15,7 +15,7 @@ Der Befehl **Polygonnetz FülleLochInteraktiv** füllt ausgewählte Löcher in P
 ## Anwendung
 
 1.  Es gibt verschiedene Wege zum Aufruf des Befehls:
-    -   Drücke die Schaltfläche **<img src="images/Mesh_FülleInteraktivesLoch.svg" width=16px>.[Mesh FillInteractiveHole](Mesh_FillInteractiveHole/de.md)
+    -   Drücke die Schaltfläche **<img src="images/Mesh_FillInteractiveHole.svg" width=16px>.[Mesh FülleInteraktivesLoch](Mesh_FillInteractiveHole/de.md)
 **
     -   Wähle die **Netze → <img src="images/Mesh_FillInteractiveHole.svg" width=16px> Loch schließen** Option aus dem Menü.
 2.  Der Cursor ändert sich in ein Dreieckssymbol.

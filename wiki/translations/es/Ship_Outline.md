@@ -65,7 +65,7 @@ Hay que añadir dos cortes longitudinales, por lo que hay que seleccionar el tip
 
 ### Líneas de agua 
 
-6 Líneas de agua entre la línea base y el proyecto de diseño debe ser añadido, así que seleccione **Líneas de agua** tipo de secciones, vaya a **Auto crear**\' caja y establecer **5**\' (Z = 0 m no se considerará, añadir manualmente si lo necesita) secciones, a continuación, pulse {{Buttn|Crear secciones}}. La tabla de secciones se llena, y la vista previa de las secciones se actualiza.
+6 Líneas de agua entre la línea base y el proyecto de diseño debe ser añadido, así que seleccione **Líneas de agua** tipo de secciones, vaya a **Auto crear**\' caja y establecer **5**\' (Z = 0 m no se considerará, añadir manualmente si lo necesita) secciones, a continuación, pulse **Crear secciones**. La tabla de secciones se llena, y la vista previa de las secciones se actualiza.
 
 Several additional waterlines must be added:
 

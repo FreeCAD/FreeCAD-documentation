@@ -17,7 +17,7 @@ Inserisce un cuneo primitivo nel corpo attivo come prima caratteristica o lo fon
 <div class="mw-translate-fuzzy">
 
 1.  Premere il pulsante **<img src="images/PartDesign_AdditiveWedge.png" width=24px> '''Cuneo additivo'''**. **Nota**: Il Cuneo additivo fa parte di un menu di icone etichettato *Crea una primitiva additiva*. Dopo l\'avvio, FreeCAD visualizza Cubo additivo nella barra degli strumenti. Per accedere al Cuneo, fare clic sulla freccia verso il basso accanto all\'icona visibile e selezionare Cuneo nel menu.
-2.  Impostare i parametri della primitiva e [Associazione](Part_Attachment/it.md).
+2.  Impostare i parametri della primitiva e [Associazione](Part_EditAttachment/it.md).
 3.  Cliccare **OK**.
 4.  Nel corpo attivo viene visualizzata una funzione Cuneo.
 

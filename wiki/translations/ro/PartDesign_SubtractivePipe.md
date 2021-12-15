@@ -96,12 +96,18 @@
 
 </div>
 
-## Limite
+## Notes
+
+
+<div class="mw-translate-fuzzy">
 
 -   Schițele utilizate pentru secțiuni transversale trebuie să formeze profile închise.
 -   Nu este posibil să se utilizeze un singur vertex ca secțiune transversală.
 -   O secțiune transversală nu poate fi așezată pe același plan ca cea precedentă.
 -   Pentru un mai bun control al formei țevii, este recomandat ca toate secțiunile transversale să aibă același număr de segmente. De exemplu, pentru țeavă între un dreptunghi și un cerc, cercul poate fi spart în 4 arce de cerc interconectate.
+
+
+</div>
 
 
 

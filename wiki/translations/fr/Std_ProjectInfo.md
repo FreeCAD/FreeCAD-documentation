@@ -4,7 +4,7 @@
    Name/fr:Std Information sur le projet
    MenuLocation:Fichier → Information sur le projet
    Workbenches:Tous
-   SeeAlso:[Std Nouveau](Std_New.md)
+   SeeAlso:[Std Nouveau](Std_New/fr.md)
 ---
 
 # Std ProjectInfo/fr

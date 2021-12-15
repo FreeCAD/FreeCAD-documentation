@@ -3,21 +3,21 @@
 
 ## Why is it hard to support DWG Files in FreeCAD? 
 
-The **DWG format is a closed source binary file format** that is not directly supported by FreeCAD. It requires an external 3rd party file converter to first convert then import the conversion into FreeCAD for use.
+The DWG format is a closed source binary file format that is not directly supported by FreeCAD. It requires an external 3rd party file converter to convert DWG files to DXF files, and vice-versa.
 
 ## What do I need to be able to import DWG files? 
 
 ### LibreDWG
 
-GNU LibreDWG is a free C library to handle DWG files. It aims to be a free replacement for the Open Design Alliance Drawings SDK libraries. Be aware that, since libreDWG is a work-in-progress, it lacks support for some DWG entities.
-
 -   homepage: <https://www.gnu.org/software/libredwg/>
 -   license: GPLv2-or-later
 -   optional, used to enable import and export of DWG files
 
+GNU LibreDWG is a free C library to handle DWG files. It aims to be a free replacement for the Open Design Alliance Drawings SDK libraries. Be aware that, since libreDWG is a work-in-progress, it lacks support for some DWG entities.
+
 #### Installation Windows 
 
-LibreDWG can be configured to work on Windows by downloading and unzipping the appropriate [pre-compiled windows binary](https://github.com/LibreDWG/libredwg/releases) and [adding the folder to your Windows versions system path](https://duckduckgo.com/?t=ffab&q=how+to+add+a+folder+to+your+windows+system+path).
+Downloading and unzip the appropriate _.
 
 #### Installation Linux/Unix systems 
 
@@ -28,6 +28,8 @@ cd build
 cmake ..
 make
 make install (or use checkinstall, or simply locate & copy the dwg2dxf utility to your executables path, it will be then autodetected by FreeCAD)
+
+You need to set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
 
 #### Installation openSUSE 
 
@@ -41,10 +43,12 @@ It is recommended to grab the binary packages directly. Then select the correct 
 
 In any terminal/console (root rights required) the installation will be carried out with:
 
- 
+
 ```python
 zypper install libredwg0 libredwg-tools
 ```
+
+You need to set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
 
 ### ODA File Converter 
 
@@ -52,33 +56,11 @@ zypper install libredwg0 libredwg-tools
 -   license: freeware
 -   optional, used to enable import and export of DWG files
 
-The ODA File Converter is a small freely available utility that allows to convert between several versions of DWG and DXF files. FreeCAD can use it to offer DWG import and export, by converting DWG files to the DXF format under the hood,then using its standard DXF importer to import the file contents. The restrictions of the [DXF importer](Draft_DXF.md) apply.
+The ODA File Converter is a small freely available utility that allows to convert between several versions of DWG and DXF files. FreeCAD can use it to offer DWG import and export, by converting DWG files to the DXF format under the hood, then using its standard DXF importer to import the file contents. The restrictions of the [DXF importer](Draft_DXF.md) apply.
 
 #### Installation
 
-On all platforms, only by installing the appropriate package from <https://www.opendesign.com/guestfiles/oda_file_converter>. After installation, if the utility is not found automatically by FreeCAD, you might need to set the path to the converter executable manually. open Edit → Preferences → Import-Export → DWG and fill \"Path to Teigha File Converter\" appropriately.
-
-For more detailed instruction see \[<https://wiki.freecadweb.org/Dxf_Importer_Install#Third_step>: this tutorial\].
-
-#### Usage
-
-The program may be used with the command line interface or the graphical interface. Be sure to convert the DWG files to an ASCII-Format.
-
-Command Line Format is:
-
-1.  Quoted Input Folder
-2.  Quoted Output Folder
-3.  Output\_version {\"ACAD9\",\"ACAD10\",\"ACAD12\", \"ACAD13\",\"ACAD14\", \"ACAD2000\",\"ACAD2004\", \"ACAD2007\",\"ACAD2010\"}
-4.  Output File type {\"DWG\",\"DXF\",\"DXB\"}
-5.  Recurse Input Folder {\"0\",\"1\"}
-6.  Audit each file {\"0\",\"1\"}
-7.  \[optional\] Input file filter (default:\"\*.DWG;\*.DXF\")
-
-**Example for Linux**
-ODAFileConverter \"/home/dwg-data\" \"/home/dxf-data\" \"ACAD2010\" \"DXF\" \"0\" \"1\" \"test.dwg\" The second number (audit) needs to be 1 otherwise it fails
-
-**Example for Windows**
-\"C:\\Program Files\\ODA\\Teigha File Converter 3.08.2\\TeighaFileConverter.exe\" \"Path-To-Input-Directory\" \"Path-To-Output-Directory\" \"ACAD2010\" \"DXF\" \"0\" \"1\" \"Name-Of-A-Test-File.dwg\"
+If the utility is not found automatically by FreeCAD after installation, you need to set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
 
 ### QCAD pro 
 
@@ -88,6 +70,12 @@ ODAFileConverter \"/home/dwg-data\" \"/home/dxf-data\" \"ACAD2010\" \"DXF\" \"0\
 -   homepage: <https://qcad.org/en/qcad-command-line-tools#dwg2dwg>
 -   license: commercial
 -   optional, used to enable import and export of DWG files
+
+QCAD is a well-known open-source DXF-based 2D CAD platform. It also offers a paid pro version, which is basically the open-source version plus support for the DWG format. When buying the pro version, QCAD also includes a DWG to DXF conversion utility that can be used by FreeCAD.
+
+#### Installation 
+
+You need to set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
 
 ### CADExchanger Workbench 
 

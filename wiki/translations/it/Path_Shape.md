@@ -29,7 +29,7 @@ I percorsi utensile non sono compensati per il raggio utensile. Non esiste un co
 Vengono inclusi tutti i bordi associati alla selezione del modello 3D.
 
 1.  Selezionare i bordi selezionando l\'intero oggetto nella vista 3D o dall\'albero del documento o selezionando i singoli bordi o facce nella vista 3D.
-2.  Premere il pulsante **<img src="images/Path_GcodeFromShape.png_‎" width=16px> [Da forma](Path_FromShapes/it.md)
+2.  Premere il pulsante **<img src="images/Path_Shape.svg_" width=16px> [Da forma](Path_Shape/it.md)
 **
 
 

@@ -185,16 +185,7 @@ These tools perform boolean operations.
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Part_Booleans.png  style="width:32px;"> [Logice](Part_Booleans/ro.md): Efectueaza operatii logice asupra obiectelor
--   <img alt="" src=images/Part_Union.png  style="width:32px;"> [Fuziune](Part_Union/ro.md): Uneste doua obiecte
--   <img alt="" src=images/Part_Common.png  style="width:32px;"> [Comun](Part_Common/ro.md): Extrage partea comuna a doua obiecte
--   <img alt="" src=images/Part_Cut.png  style="width:32px;"> [Decupare](Part_Cut/ro.md): Substrage on obiect din celalalt
-
-
-</div>
+-   <img alt="" src=images/Part_Boolean.svg  style="width:32px;"> [Boolean](Part_Boolean.md): Efectueaza operatii logice asupra obiectelor.
 
 -   <img alt="" src=images/Part_Cut.svg  style="width:32px;"> [Cut](Part_Cut.md): Cuts (subtracts) one object from another.
 
@@ -253,22 +244,7 @@ elimină spațiul partajat de un număr par de obiecte (versiunea simetrică a [
 
 </div>
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Part_ImportCAD.png  style="width:32px;"> [Import CAD](Part_ImportCAD/ro.md): Acest insrument vă permite să adăugați un fișier tip \*.IGES, \*.STEP, \*.BREP în documentul curent.
--   <img alt="" src=images/Part_ExportCAD.png  style="width:32px;"> [Export CAD](Part_ExportCAD/ro.md): Acest instrument vă permite să ecportați un obiect piesă într-un fișier tip \*.IGES, \*.STEP, \*.BREP .
--   <img alt="" src=images/Part_ShapeFromMesh.png  style="width:32px;"> [Shape from Mesh](Part_ShapeFromMesh/ro.md): Crează un obiect formă dintr-un obiect tip plasă.
--   [Convert to solid](Part_ConvertToSolid/ro.md): Convertește un obeict formă într-un obeict tip solid.
--   [Reverse shapes](Part_ReverseShapes/ro.md): Îndepărtează normalele tuturor fețelor obiectului selectat.
--   <img alt="" src=images/Part_SimpleCopy‎.svg  style="width:32px;"> [Create simple copy](Part_CreateSimpleCopy/ro.md): Creează o simplă copie a obeictului selectat.
--   <img alt="" src=images/Part_RefineShape.png  style="width:32px;"> [Refine shape](Part_RefineShape/ro.md): Curăță fațetele prin ștergerea liniilor nenecesare.
--   <img alt="" src=images/Part_CheckGeometry.png  style="width:32px;"> [Check geometry](Part_CheckGeometry/ro.md): Verifică de erori geometria obiectelor selectate.
--   [Measure](Std_Measure_Menu/ro.md): Permite măsurări liniare și unghiulare între points/edges/faces.
--   <img alt="" src=images/Part_Attachment.svg  style="width:32px;"> [Attachment](Part_Attachment/ro.md): Atașamentul este o utilitatea de atașare a unui obiect la un altul .
-
-
-</div>
+-   <img alt="" src=images/Part_Import.svg  style="width:32px;"> [Import](Part_Import.md): Imports from \*.IGES, \*.STEP, or \*.BREP files.
 
 -   <img alt="" src=images/Part_Export.svg  style="width:32px;"> [Export](Part_Export.md): Exports to \*.IGES, \*.STEP, or \*.BREP files.
 
@@ -311,7 +287,7 @@ elimină spațiul partajat de un număr par de obiecte (versiunea simetrică a [
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Preference \...](Import_Export_Preference/ro.md) Import Export
+-   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Preference \...](Import_Export_Preferences/ro.md) Import Export
 
 
 </div>

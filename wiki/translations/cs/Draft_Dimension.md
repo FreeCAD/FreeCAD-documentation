@@ -44,9 +44,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Stiskněte tlačítko **<img src="images/Draft_Dimension.png" width=16px> [Kóta](Draft_Dimension/cs.md)
 ** nebo klávesy **D** a pak **I**
-2.  Klikněte na bod ve 3D pohledu nebo zadejte [souřadnice](Draft_Coordinates.md)
-3.  Klikněte na druhý bod ve 3D pohledu nebo zadejte [souřadnice](Draft_Coordinates/cs.md)
-4.  Klikněte na třetí bod ve 3D pohledu nebo zadejte [souřadnice](Draft_Coordinates/cs.md)
+2.  Klikněte na bod ve 3D pohledu nebo zadejte souřadnice
+3.  Klikněte na druhý bod ve 3D pohledu nebo zadejte souřadnice
+4.  Klikněte na třetí bod ve 3D pohledu nebo zadejte souřadnice
 
 
 </div>
@@ -77,7 +77,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 2.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
 3.  Hold down the **Alt** key, select two straight edges in the [3D view](3D_view.md) and release the **Alt** key.
 4.  To position the dimension arc pick a point in the [3D view](3D_view.md).
-5.  Depending on the edges and the picked point the displayed angle will be the acute (sharp) or obtuse (blunt) angle between the edges, or the angle of one of the edges with the horizontal. In some cases you may have to first add auxiliary geometry ([Draft Lines](Draft_Line.md) for example) to get a particular angle.
+5.  The displayed angle depends on the edges and the picked point.
 
 ### Options
 

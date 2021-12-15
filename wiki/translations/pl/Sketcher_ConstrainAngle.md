@@ -46,7 +46,7 @@ Jak w przypadku każdego wiązania odniesienia, istnieje możliwość późniejs
 
 Wiązanie to określa kąt biegunowy kierunku linii. Jest to kąt pomiędzy linią a osią X szkicu.
 
-### Rozpiętość łuku *(v0.15)* 
+### Rozpiętość łuku okręgu 
 
 **Wybór zaakceptowany:** łuk koła
 
@@ -62,7 +62,7 @@ W tym trybie wiązanie ustala rozpiętość kątową łuku koła.
 
 W tym trybie wiązanie ustawia kąt pomiędzy dwoma liniami. Nie jest wymagane, aby te linie się przecinały.
 
-### Między krzywymi na przecięciu *(kąt w punkcie) (v0.15)* 
+### Między krzywymi na przecięciu *(kąt w punkcie)* 
 
 **Wybór zaakceptowany:** dowolna linia / krzywa + dowolna linia / krzywa + dowolny punkt
 

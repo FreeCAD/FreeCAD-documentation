@@ -11,7 +11,7 @@ Une documentation hors-ligne fonctionnelle consiste en au moins deux fichiers : 
 
 Les fichiers d\'aide peuvent être téléchargés ici : <https://github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD.0_19.Offline.Doc.7z>
 
-Dans le futur ils pourront être installés depuis FreeCAD avec le [gestionnaire d\'extensions (Addon Manager)](AddonManager/fr.md).
+Dans le futur ils pourront être installés depuis FreeCAD avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
 Les fichiers d\'aide ont toujours les mêmes noms : {{FileName|freecad.qhc}} et {{FileName|freecad.qch}}. Pour avoir différentes versions des fichiers d\'aide, ils doivent être installés dans des répertoires différents. Dans le cas d\'un téléchargement manuel, il suffit de stocker localement le fichier zip et d\'extraire l\'archive dans le répertoire voulu.
 

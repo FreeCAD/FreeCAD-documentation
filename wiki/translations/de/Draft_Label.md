@@ -54,9 +54,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 <div class="mw-translate-fuzzy">
 
 1.  Drücke die **<img src="images/Draft_Label.svg" width=16px> [Entwurf Etikett](Draft_Label/de.md)** Schaltfläche oder drücke **D** und dann **L** Schaltflächen.
-2.  Klicke auf einen ersten Punkt in der 3D Ansicht oder gib eine [Koordinate](Draft_Coordinates/de.md) ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** Schaltfläche. Dieser Punkt gibt das Ziel (Pfeilspitze) an. Dies kann überall sein, es muss kein Element sein.
-3.  Klicke auf einen zweiten Punkt in der 3D Ansicht, oder gib eine [Koordinate](Draft_Coordinates/de.md) ein, und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt  hinzufügen](Draft_AddPoint/de.md)** Schaltfläche. Dieser Punkt zeigt den Beginn einer horizontalen oder vertikalen Führungslinie an.
-4.  Klicke auf einen dritten Punkt in der 3D Ansicht, oder gib eine [Koordinate](Draft_Coordinates/de.md) ein, und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt  hinzufügen](Draft_AddPoint/de.md)** Schaltfläche. Dieser Punkt gibt den Basispunkt des Textes an.
+2.  Klicke auf einen ersten Punkt in der 3D Ansicht oder gib eine Koordinate ein und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Schaltfläche. Dieser Punkt gibt das Ziel (Pfeilspitze) an. Dies kann überall sein, es muss kein Element sein.
+3.  Klicke auf einen zweiten Punkt in der 3D Ansicht, oder gib eine Koordinate ein, und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt  hinzufügen** Schaltfläche. Dieser Punkt zeigt den Beginn einer horizontalen oder vertikalen Führungslinie an.
+4.  Klicke auf einen dritten Punkt in der 3D Ansicht, oder gib eine Koordinate ein, und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt  hinzufügen** Schaltfläche. Dieser Punkt gibt den Basispunkt des Textes an.
 
 
 </div>
@@ -69,7 +69,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 <div class="mw-translate-fuzzy">
 
 -   Klicke auf **Etikettentyp**, um die Art der anzuzeigenden Informationen auszuwählen, einschließlich \"Benutzerdefiniert\", \"Name\", \"Etikett\", \"Position\", \"Länge\", \"Bereich\", \"Volumen\", \"Tag\" und \"Material\". (Siehe Erklärung der [Labeltypen](#Label_types/de.md) unten)
--   Um Koordinaten manuell einzugeben, gib einfach die Zahlen ein und drücke dann **Eingabe** zwischen jeder X, Y und Z Komponente. Du kannst die **<img src="images/Draft_AddPoint.svg" width=16px> [Punkt hinzufügen](Draft_AddPoint/de.md)** Schaltfläche drücken wenn du die gewünschten Werte zum Einfügen des Punktes hast.
+-   Um Koordinaten manuell einzugeben, gib einfach die Zahlen ein und drücke dann **Eingabe** zwischen jeder X, Y und Z Komponente. Du kannst die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** Schaltfläche drücken wenn du die gewünschten Werte zum Einfügen des Punktes hast.
 -   Halte **Strg** gedrückt, während der Platzierung der Beschriftung, um [Fang](Draft_Snap/de.md) deinen Punkt unabhängig von der Entfernung an die nächstgelegene Fangposition zu zwingen.
 -   Drücke **Esc** oder die **Schließen** Schaltfläche, um den aktuellen Befehl abzubrechen.
 
@@ -194,17 +194,17 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 -    **Textgröße**: gibt die Größe des Textes an. Wenn das Etikettenobjekt in der Strukturansicht erstellt wird, aber kein Text in der 3D-Ansicht sichtbar ist, erhöhen Sie die Größe des Textes, bis er sichtbar ist.
 
--    {{Eigenschaftsansicht|Textausrichtung}}: legt die vertikale Ausrichtung der Grundlinie des Textes in Bezug auf die Führungslinie fest. Sie kann oben, mittig oder unten sein.
+-    **Textausrichtung**: legt die vertikale Ausrichtung der Grundlinie des Textes in Bezug auf die Führungslinie fest. Sie kann oben, mittig oder unten sein.
 
 -    **Textfarbe**: gibt die Farbe des Textes in einem RGB-Tupel (R, G, B) an.
 
 -    **Linienbreite**: gibt die Breite des Vorspanns an.
 
--    {{Eigenschaftsansicht|Linienfarbe}}: legt die Farbe der Führungslinie fest.
+-    **Linienfarbe**: legt die Farbe der Führungslinie fest.
 
--    {{Eigenschaftsansicht|Pfeilgröße}}: legt die Größe des Symbols fest, das an der Spitze der Führungslinie angezeigt wird.
+-    **Pfeilgröße**: legt die Größe des Symbols fest, das an der Spitze der Führungslinie angezeigt wird.
 
--    {{Eigenschaftsansicht|Pfeiltyp}}: gibt den Typ des Symbols an, das an der Spitze der Führungslinie angezeigt wird, z. B. Punkt, Kreis, Pfeil oder Häkchen.
+-    **Pfeiltyp**: gibt den Typ des Symbols an, das an der Spitze der Führungslinie angezeigt wird, z. B. Punkt, Kreis, Pfeil oder Häkchen.
 
 -    **Rahmen**: wenn es \"Rectangle\" ist, wird ein Rahmen um den Text gezeichnet.
 

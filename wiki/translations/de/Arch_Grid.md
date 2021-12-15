@@ -64,7 +64,15 @@ Das Gitter ist ein 2D Objekt und kann daher überall dort verwendet werden, wo e
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
-Das Gitter Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus durch folgende Funktion verwendet werden: 
+
+<div class="mw-translate-fuzzy">
+
+Das Gitter Werkzeug kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus durch folgende Funktion verwendet werden:
+
+
+</div>
+
+
 ```python
 Grid = makeGrid(name="Grid")
 ```
@@ -89,6 +97,15 @@ Draft.move(Structure, FreeCAD.Vector(-100, 0, 0))
 Structure.Axis = Grid
 FreeCAD.ActiveDocument.recompute() 
 ```
+
+
+<div class="mw-translate-fuzzy">
+
+
+
+
+
+</div>
 
 ---
 [documentation index](../README.md) > [Arch](Arch_Workbench.md) > Arch Grid/de

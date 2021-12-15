@@ -24,7 +24,7 @@ Das Schnittebenen Werkzeug ermöglicht dir ein Arch Objekt entsprechend einer Eb
 
 ## Anwendung
 
-1.  Wähle das zu beschneidende Objekt, dann die Fläche (die Fläche muss die letzte sein, die du ausgewählt hast, und muss in der [3D Ansicht](3D_View/de.md) ausgewählt werden).
+1.  Wähle das zu beschneidende Objekt, dann die Fläche (die Fläche muss die letzte sein, die du ausgewählt hast, und muss in der [3D Ansicht](3D_view/de.md) ausgewählt werden).
 2.  Drücke die **<img src="images/Arch_CutPlane.svg" width=16px>[Schneide Ebene](Arch_CutPlane/de.md)**Schaltfläche.
 3.  Wähle , ob das Objekt **hinter**\' der normalen Fläche oder **\'vor**\' der normalen Fläche geschnitten wird.
 4.  Klicke die **OK** Taste

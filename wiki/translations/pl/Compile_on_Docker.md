@@ -11,7 +11,7 @@ All of FreeCAD\'s dependencies are already installed, compatible with each other
 
 -   The dependencies are contained within the docker container, preventing any unwanted packages contaminating your workstation, and preventing any clashing versions.
 -   The source code and build directories are outside the docker container. This allows you to use your preferred editors, versioning systems, dev tools etc, without having to set them up in the docker container. You can just use them as normal, right from your workstation. (Also, it means you don\'t have to rebuild the docker container each time you want to build FreeCAD.)
--   For those using obscure \*nix distros and [instructions are not available](Compile_on_Linux/Unix#Getting_the_dependencies.md) for fetching dependencies, all you need to install on your workstation is docker, which is quite commonly available across many distributions.
+-   For those using obscure \*nix distros and [instructions are not available](Compile_on_Linux#Getting_the_dependencies.md) for fetching dependencies, all you need to install on your workstation is docker, which is quite commonly available across many distributions.
 -   It provides a static, immutable development environment. I personally find this useful when developing to reduce the number of potential variables that could be causing an issue. You know you\'ve not altered something esoteric in the environment between builds. For developers collaborating, and both using the same docker container, you can be sure you\'re both working from the same environment, which reduces communication errors caused by differences in environment.
 
 ## Docker Repository 

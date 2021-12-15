@@ -1142,6 +1142,15 @@ Interesting forum threads about scripted objects:
 În plus față de exemplele prezentate aici puteți să vă aruncați o privire în codul sursă FreeCAD [src/Mod/TemplatePyMod/FeaturePython.py](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/TemplatePyMod/FeaturePython.py) for more examples.
 
 
+<div class="mw-translate-fuzzy">
+
+
+{{docnav|PySide|Embedding FreeCAD}}
+
+
+</div>
+
+
 {{Powerdocnavi
 
 }}

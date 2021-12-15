@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/it
-   Name:FEM_Solver
-   Name/it:FEM Solver
+   Name:FEM SolverCalculixCxxtools
+   Name/it:FEM SolverCalculixCxxtools
    MenuLocation:Solve → Solutore CalculiX Standard
    Workbenches:[FEM](FEM_Workbench/it.md)
    Shortcut:
@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-CalculiXccxTools abilita l\'uso del solutore [Calculix](CalculiX/it.md). Può essere usato per
+CalculiXccxTools abilita l\'uso del solutore [Calculix](https://en.wikipedia.org/wiki/Calculix). Può essere usato per
 
 1.  impostare i parametri dell\'analisi
 2.  selezionare la directory di lavoro

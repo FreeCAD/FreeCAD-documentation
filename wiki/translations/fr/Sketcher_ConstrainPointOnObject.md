@@ -5,7 +5,7 @@
    MenuLocation:Sketch → Contraintes d'esquisse  → Contrainte point sur objet
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**Maj** + **O**
-   SeeAlso:[Sketcher Constraint Coincident](Sketcher_ConstrainCoincident/fr.md)
+   SeeAlso:[Sketcher Contrainte de coïncidence](Sketcher_ConstrainCoincident/fr.md)
 ---
 
 # Sketcher ConstrainPointOnObject/fr
@@ -16,10 +16,10 @@ Appose un point sur un autre objet tel qu\'une ligne, un arc ou un axe d\'esquis
 
 ## Utilisation
 
-1.  Sélectionnez le point que vous souhaitez apposer sur une ligne/un arc/etc. (**Résultat:** une fois sélectionné, le point deviendra vert).
+1.  Sélectionnez le point que vous souhaitez apposer sur une ligne/arc/etc. (**Résultat:** une fois sélectionné, le point deviendra vert).
 2.  Sélectionnez la ligne que vous souhaitez apposer sur le point que vous venez de sélectionner (**Résultat:** une fois sélectionnée, la ligne devient verte).
-3.  Lancez l\'outil **Contraindre le point sur l\'objet** par de plusieurs méthodes:
-    -   Appuyez sur le bouton **<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Contrainte point sur objet](Sketcher_ConstrainPointOnObject.md)** dans la barre d\'outils.
+3.  Lancez l\'outil **Contrainte point sur objet** de plusieurs méthodes:
+    -   Appuyez sur le bouton **<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Contrainte point sur objet](Sketcher_ConstrainPointOnObject/fr.md)** dans la barre d\'outils.
     -   Utilisez le raccourci clavier **Maj** + **O**.
     -   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → Contrainte point sur objet**.
 
@@ -27,20 +27,20 @@ Appose un point sur un autre objet tel qu\'une ligne, un arc ou un axe d\'esquis
 
 ## Script
 
-La contrainte peut être créée à partir de macros et de la console python en utilisant la commande suivante :
+La contrainte peut être créée à partir de [macros](Macros/fr.md) et de la console [Python](Python/fr.md) à l\'aide de la commande suivante:
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`
 
 -    `Sketch`est un objet d\'esquisse
 
--    `LineMoving`est le nombre qui désigne la ligne, qui contient le point qui doit être déplacé sur le `LineFixed` (La ligne qui est fixée)
+-    `LineMoving`est le nombre qui désigne la ligne, qui contient le point qui doit être déplacé sur le `LineFixed` (La ligne qui est fixe)
 
 -    `PointOfLineMoving`est le numéro du sommet de la ligne `LineMoving` qui doit être déplacé sur `LineFixed`.
 
 -    `LinedFixed`est le numéro de la ligne à apposer sur le point `PointOfLineMoving`.
 
-La page [Sketcher : Écrire des scripts](Sketcher_scripting/fr.md) explique comment identifier les nombres qui désignent des lignes et des points.
+La page [Sketcher Scripts](Sketcher_scripting/fr.md) explique comment identifier les nombres qui désignent des lignes et des points.
 
 
 

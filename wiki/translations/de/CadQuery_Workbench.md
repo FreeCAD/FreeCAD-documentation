@@ -24,7 +24,13 @@ Eine Modul-Arbeitsbereichskombination, die einen CadAbfrage Editor zu FreeCAD hi
 
 ## Einrichtung
 
-Einrichten mit dem <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Addon_Manager.md).
+
+<div class="mw-translate-fuzzy">
+
+Einrichten mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
+
+
+</div>
 
 ## Verweise
 

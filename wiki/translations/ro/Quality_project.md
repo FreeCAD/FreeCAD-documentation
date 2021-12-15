@@ -18,9 +18,9 @@ Acest proiect este parțial o dezvoltare de software și un proiect de documenta
 
 <img alt="" src=images/HelpViewer.jpg  style="width:150px;">
 
-Un pas important este Atelierul de lucru \'\'\'complet \'\'\', care este Atelierul de lucru de pornire pentru utilizatorul mediu (dacă există vreunul). Atelierul de lucru completă ține toate Comenzi și caracteristici din toate modulele și atelieruleor de lucru care au îndeplinit anumite cerințe \'\'\'[ criterii de calitate](Comandă_Gui_#_Cerințe_de_calitate.md) \'\'\'. Aceasta va ascunde dezvoltarea furtunoasă și caracteristicile implementate pe jumătate de la utilizatorul care dorește doar un model.
+Un pas important este Atelierul de lucru \'\'\'complet \'\'\', care este Atelierul de lucru de pornire pentru utilizatorul mediu (dacă există vreunul). Atelierul de lucru completă ține toate Comenzi și caracteristici din toate modulele și atelieruleor de lucru care au îndeplinit anumite cerințe \'\'\'[criterii de calitate](Gui_Command/ro#Cerințe_de_calitate.md) \'\'\'. Aceasta va ascunde dezvoltarea furtunoasă și caracteristicile implementate pe jumătate de la utilizatorul care dorește doar un model.
 
-Un alt rezultat important este un sistem complet de ajutor pentru toate comenzile și caracteristicile cel puțin în bancul de lucru complet. Aceasta înseamnă o pagină de ajutor cum ar fi [ Draft ShapeString](Draft_ShapeString.md) există pentru toți în [ Lista de Comenzi](Lista_de_Comenzi.md).
+Un alt rezultat important este un sistem complet de ajutor pentru toate comenzile și caracteristicile cel puțin în bancul de lucru complet. Aceasta înseamnă o pagină de ajutor cum ar fi [ Draft ShapeString](Draft_ShapeString.md) există pentru toți în [ Lista de Comenzi](List_of_Commands.md).
 
 ## Brainstorming
 

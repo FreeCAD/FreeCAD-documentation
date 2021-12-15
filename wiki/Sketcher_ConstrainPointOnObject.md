@@ -26,7 +26,7 @@ Affixes a point onto another object such as a line, arc, or sketch axis.
 
 ## Scripting
 
-The constraint can be created from macros and from the python console by using the following command:
+The constraint can be created from [macros](Macros.md) and from the [Python](Python.md) console by using the following command:
 
 
 `Sketch.addConstraint(Sketcher.Constraint('PointOnObject',LineMoving,PointOfLineMoving,LineFixed))`

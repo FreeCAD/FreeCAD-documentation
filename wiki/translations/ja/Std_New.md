@@ -1,6 +1,13 @@
-# Std New/ja
 ---
-- GuiCommand:/jp   Name:Std_New   MenuLocation:File -> New   Workbenches:All   SeeAlso:[[Std_Open]],[[Std_Import]]---
+- GuiCommand:/ja
+   Name:Std_New
+   Name/ja:Std_New
+   MenuLocation:File -> New
+   Workbenches:All
+   SeeAlso:[[Std_Open]],[[Std_Import]]
+---
+
+# Std New/ja
 
 
 </div>

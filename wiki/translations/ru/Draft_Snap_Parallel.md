@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/ru
-   Name:Draft Parallel
-   Name/ru:Draft Parallel
+   Name:Draft Snap Parallel
+   Name/ru:Draft Snap Parallel
    MenuLocation:Черчение → [Привязка](Draft_Snap/ru.md) → Параллельно
    Workbenches:[Draft](Draft_Workbench/ru.md), [Arch](Arch_Workbench/ru.md)
    Shortcut:
@@ -17,9 +17,9 @@
 
 The <img alt="" src=images/Draft_Snap_Parallel.svg  style="width:24px;"> **Draft Snap Parallel** option snaps to an imaginary line parallel to straight edges. The edges can belong to [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) objects but also to objects created with other [workbenches](Workbenches.md).
 
-Up to two edges can be referenced by this snap option and [Draft Snap Extension](Draft_Snap_Extension.md), making it possible to snap to virtual intersections. Both snap options can also be combined with other snap options.
+Up to 2 (or 8 <small>(v0.20)</small> ) edges can be referenced by this snap option and [Draft Snap Extension](Draft_Snap_Extension.md), making it possible to snap to virtual intersections. Both snap options can also be combined with other snap options.
 
-This snap option currently does not work if the cursor is next to the referenced edge. You must move the cursor to an area beyond the endpoints of the edge.
+In FreeCAD version 0.19 and earlier this snap option does not work if the cursor is next to the referenced edge.
 
 ![](images/Draft_Snap_Parallel_example.png ) 
 *Snapping the second point of a line to an invisible line that is parallel to an edge*

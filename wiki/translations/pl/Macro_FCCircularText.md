@@ -10,7 +10,7 @@
 |Download=[https://www.freecadweb.org/wiki/images/c/c1/FCCircularTextButtom.png ToolBar Icon]
 }}
 
-## Description
+## Opis
 
 This macro makes use of the <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft ShapeString](Draft_ShapeString.md) tool to create a text line placed in different circular orientations, including circumferential and helical in the fashion of a [Trajan\'s Column](http://en.wikipedia.org/wiki/Trajan%27s_Column). It can also be used to create a clock face with Arabic numerals *1, 2, 3,* etc., or Roman numerals *I, II, III,* etc. This latter usage was inspired by the Forum thread [Macro to Create Clock Face](http://forum.freecadweb.org/viewtopic.php?f=22&t=5013&hilit=Clock) by FC community member, cblt2l.
 
@@ -24,7 +24,7 @@ This macro makes use of the <img alt="" src=images/Draft_ShapeString.svg  style=
 
 *Example of the macro displaying text in a 360 degree orientation*
 
-## Usage
+## Użycie
 
 Launch the macro folder **FcString** for created characters and a file **FcClock** for created clocks.
 

@@ -1,16 +1,13 @@
 ---
 - GuiCommand:/sv
    Name:Sketcher ValidateSketch
-   Name:Sketcher ValidateSketch
+   Name/sv:Sketcher ValidateSketch
    Empty:1
    Workbenches:[Sketcher](Sketcher_Workbench/sv.md), [PartDesign](PartDesign_Workbench/sv.md)
    MenuLocation:Sketch / Part Design → Validate sketch
 ---
 
 # Sketcher ValidateSketch/sv
-
-
-</div>
 
 ## Description
 

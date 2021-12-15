@@ -1,8 +1,4 @@
 # Animation Workbench/es
-{{Template:UnfinishedDocu
-
-}} 
-
 ## Introducción
 
 Juego de herramientas de animación para FreeCAD

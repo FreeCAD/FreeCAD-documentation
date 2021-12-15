@@ -4,7 +4,7 @@
    Name/fr:Std Capture d'écran
    MenuLocation:Outils → Enregistrer l'image...
    Workbenches:Tous
-   SeeAlso:   SeeAlso:[Std Imprimer](Std_Print/fr.md), [Std Exporter au format PDF](Std_PrintPdf/fr.md)
+   SeeAlso:[Std Imprimer](Std_Print/fr.md), [Std Exporter au format PDF](Std_PrintPdf/fr.md)
 ---
 
 # Std ViewScreenShot/fr

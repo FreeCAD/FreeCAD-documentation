@@ -84,16 +84,7 @@ Si el boceto que define la simetría a realizar contiene también una línea o l
 
 #### Base plano (XY/XZ/YZ) 
 
-
-<div class="mw-translate-fuzzy">
-
-
-{{Version/es|0.17 o posteriores}}
-
 Seleccionar uno de los planos estándar de Origen del Body (cuerpo) (XY, XZ or YZ).
-
-
-</div>
 
 ### Previsualización
 

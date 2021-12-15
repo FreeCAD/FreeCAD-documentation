@@ -54,7 +54,7 @@
 -   [За FreeCAD](About_FreeCAD/bg.md): Общ преглед на FreeCAD
 -   _, [Unix/Linux](Install_on_Unix/bg.md) и [Mac](Install_on_Mac/bg.md)
 -   [Първи Стъпки](Getting_started/bg.md): Бърз преглед на инструментите
--   [FAQ](FAQ/bg.md): Често задавани въпроси
+-   [FAQ](Frequently_asked_questions/bg.md): Често задавани въпроси
 -   [Ръководства](Tutorials/bg.md) върху различни части на FreeCAD
 
 

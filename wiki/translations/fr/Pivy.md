@@ -96,7 +96,8 @@ Enfin, supprimer quelque chose se fait avec:
 sg.removeChild(myCustomNode)
 ```
 
-[En haut](#top.md)
+
+{{Top}}
 
 ## Rappels (callback) 
 
@@ -122,9 +123,7 @@ class ButtonTest:
 ButtonTest()
 ```
 
-Le rappel doit être initié à partir d\'un objet, car cet objet doit toujours être en cours d\'exécution lorsque le rappel se produit. Voir aussi une [liste complète des événements possibles et leurs paramètres](Code_snippets/fr#Observation_des_.C3.A9v.C3.A8nements_de_la_souris_dans_la_vue_3D_via_Python.md) ou dans la documentation officielle de Coin.
-
-[En haut](#top.md)
+Le rappel doit être initié à partir d\'un objet, car cet objet doit toujours être en cours d\'exécution lorsque le rappel se produit. Voir aussi une [liste complète des événements possibles et leurs paramètres](Code_snippets/fr#Observation_des_.C3.A9v.C3.A8nements_de_la_souris_dans_la_vue_3D_via_Python.md) ou dans la documentation officielle de Coin. {{Top}}
 
 ## Documentation
 
@@ -158,12 +157,16 @@ Ces liens fournissent une documentation de référence pour Coin v3.x. Les diff�
 -   [Coin3D Documentation](https://grey.colorado.edu/coin3d/index.html), à l\'Université du Colorado.
 -   [Ouvrir la documentation de référence Inventor](https://mevislabdownloads.mevis.de/docs/current/MeVis/ThirdParty/Documentation/Publish/OpenInventorReference/index.html), par MeVisLab.
 
-[En haut](#top.md)
+
+{{Top}}
+
+
+
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

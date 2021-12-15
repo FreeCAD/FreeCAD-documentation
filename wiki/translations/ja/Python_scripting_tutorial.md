@@ -1,4 +1,15 @@
 # Python scripting tutorial/ja
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/ja
+|[Introduction to Python](Introduction_to_Python/ja.md)
+|[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/ja.md)}}
+
+
+</div>
+
+
 {{TOCright}}
 
 ## Introduction
@@ -84,7 +95,8 @@ There are two ways to write Python code in FreeCAD. In the [Python console](Pyth
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -205,7 +217,8 @@ box.Height = 5
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -246,9 +259,7 @@ otherpla = FreeCAD.Placement()
 box.Placement = otherpla
 ```
 
-さて、さらに進む前にいくつかの重要な概念を理解しておく必要があります。
-
-[top](#top.md)
+さて、さらに進む前にいくつかの重要な概念を理解しておく必要があります。 {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -298,24 +309,17 @@ FreeCADが起動するとすぐにPythonコンソールは2つの基本モジュ
 
 </div>
 
-[top](#top.md)
 
+{{Top}}
 
-<div class="mw-translate-fuzzy">
-
-## モジュール
-
-あなたはきっと今、\"Part::Box\"以外には何ができるんだろう？と思っているに違いありません。FreeCADベースのアプリケーションは多少の違いはあれ空の入れ物です。モジュールがなければできることは新しい空のドキュメントを作ることがせいぜいです。FreeCADの真価はそれに付き従うモジュールなのです。それぞれのモジュールはインターフェイスに新しいワークベンチを付け加えるだけでなく、新しいPythonコマンドや新しいオブジェクト型の追加も行います。それによって複数の異なるオブジェクト型、場合によっては全く互換性のないオブジェクト型まで同じドキュメントに共存させることができるのです。後でこのチュートリアルでも見ていきますが、FreeCADで最も重要なモジュールは[Part](Part_Module/jp.md)、[Mesh](Mesh_Module/jp.md)、[Sketcher](Sketcher_Workbench/jp.md)、そして[Draftです](Draft_Module/jp.md)。
-
-
-</div>
+## Modules
 
 The true power of FreeCAD lies in its faithful modules, with their respective workbenches. The FreeCAD base application is more or less an empty container. Without its modules it can do little more than create new, empty documents. Each module not only adds new workbenches to the interface, but also new Python commands and new object types. As a result several different, and even totally incompatible, object types can coexist in the same document. The most important modules in FreeCAD that we\'ll look at in this tutorial are: [Part](Part_Workbench.md), [Mesh](Mesh_Workbench.md), [Sketcher](Sketcher_Workbench.md) and [Draft](Draft_Workbench.md).
 
 
 <div class="mw-translate-fuzzy">
 
-[Sketcherと](Sketcher_Workbench/jp.md)[Draftは両方とも形状の作成と制御に](Draft_Module/jp.md)[Partモジュールを使用しています](Part_Module/jp.md)。これらで扱われる形状はBRepですが一方の[Meshは完全に独立し](Mesh_Module/jp.md)、独自のオブジェクトを制御します。詳細については下記にあります。
+[Sketcherと](Sketcher_Workbench/ja.md)[Draftは両方とも形状の作成と制御に](Draft_Workbench/ja.md)[Partモジュールを使用しています](Part_Workbench/ja.md)。これらで扱われる形状はBRepですが一方の[Meshは完全に独立し](Mesh_Workbench/ja.md)、独自のオブジェクトを制御します。詳細については下記にあります。
 
 
 </div>
@@ -341,9 +345,7 @@ import Part
 Part.
 ```
 
-しかし今はここまでにしておいてPartモジュールについては後で詳しく説明します。
-
-[top](#top.md)
+しかし今はここまでにしておいてPartモジュールについては後で詳しく説明します。 {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -397,9 +399,7 @@ doc.recompute()
 
 </div>
 
-[Read more about mesh scripting\...](Mesh_Scripting.md) [メッシュのスクリプト処理についてもっと読む・・・](Mesh_Scripting/jp.md)
-
-[top](#top.md)
+[Read more about mesh scripting\...](Mesh_Scripting.md) [メッシュのスクリプト処理についてもっと読む・・・](Mesh_Scripting/jp.md) {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -468,14 +468,15 @@ myshapeの中身を調べるとFaces、Edges、Vertexes、Solids、Shellsとい�
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
 
 ## Draft
 
-FreeCADには[Sketcherや](Sketcher_Workbench/jp.md)[Draftといったさらに多くのモジュールが備わっています](Draft_Module/jp.md)。これらのモジュールはPartオブジェクトを作成するだけでなくそれにパラメーターを追加していたり、そのPartの形状を制御するための全く新しい手段を持っていることさえあります。上のボックスのサンプルはちょうどパラメトリックオブジェクトの良い例になっています。ボックスを定義するために必要なことは高さや幅といったいくつかのパラメーターを指定することだけです。パラメーターに基いてオブジェクトはPart形状を自動で計算します。FreeCADでは[Pythonを使ってこういったオブジェクトを作成する手段が用意されています](Scripted_objects.md)。
+FreeCADには[Sketcherや](Sketcher_Workbench/ja.md)[Draftといったさらに多くのモジュールが備わっています](Draft_Workbench/ja.md)。これらのモジュールはPartオブジェクトを作成するだけでなくそれにパラメーターを追加していたり、そのPartの形状を制御するための全く新しい手段を持っていることさえあります。上のボックスのサンプルはちょうどパラメトリックオブジェクトの良い例になっています。ボックスを定義するために必要なことは高さや幅といったいくつかのパラメーターを指定することだけです。パラメーターに基いてオブジェクトはPart形状を自動で計算します。FreeCADでは[Pythonを使ってこういったオブジェクトを作成する手段が用意されています](Scripted_objects.md)。
 
 
 </div>
@@ -485,7 +486,7 @@ FreeCAD features many more modules, such as [Sketcher](Sketcher_Workbench.md) an
 
 <div class="mw-translate-fuzzy">
 
-[Draftモジュールではlines](Draft_Module/jp.md)、circlesといったいくつかの2Dパラメトリックオブジェクト型が追加されており（全Partオブジェクトも含まれています）、またDraft製オブジェクトだけでなく、全てのPartオブジェクトに対して使用可能なジェネリック関数もいくつか用意されています。何が利用可能か調べるためには次の様にするだけです：
+[Draftモジュールではlines](Draft_Workbench/ja.md)、circlesといったいくつかの2Dパラメトリックオブジェクト型が追加されており（全Partオブジェクトも含まれています）、またDraft製オブジェクトだけでなく、全てのPartオブジェクトに対して使用可能なジェネリック関数もいくつか用意されています。何が利用可能か調べるためには次の様にするだけです：
 
 
 </div>
@@ -499,7 +500,8 @@ Draft.move(rec, mvec)
 Draft.move(box, mvec)
 ```
 
-[top](#top.md)
+
+{{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -535,9 +537,7 @@ Qtは非常に強力なインターフェイスシステムで非常に複雑な
 
 </div>
 
-[Read more about PySide here\...](PySide.md) [pyqtについてもっと読む・・・](PyQt/jp.md)
-
-[top](#top.md)
+[Read more about PySide here\...](PySide.md) [pyqtについてもっと読む・・・](PyQt/ja.md) {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -559,12 +559,24 @@ Now that you have a good understanding of the basics, where are we going to keep
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav/ja
+|[Introduction to Python](Introduction_to_Python/ja.md)
+|[FreeCAD Scripting Basics](FreeCAD_Scripting_Basics/ja.md)}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

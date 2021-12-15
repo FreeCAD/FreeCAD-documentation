@@ -18,7 +18,7 @@ Das Neue Standard Werkzeug erstellt ein neues Seitenobjekt unter Verwendung der 
 
 ## Anwendung
 
--   Drücke die **<img src="images/TechDraw_New_Default.svg" width=16px> [Standardseite einfügen](TechDraw_PageDefault/de.md)**-Schaltfläche. (Ein aktives Dokument muss vorhanden sein).
+-   Drücke die **<img src="images/TechDraw_PageDefault.svg" width=16px> [Standardseite einfügen](TechDraw_PageDefault/de.md)**-Schaltfläche. (Ein aktives Dokument muss vorhanden sein).
 
 ## Hinweise
 

@@ -150,7 +150,7 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 
 -    **Ausrichtungsmodus|Aufzählung**: drei Modi, {{Value|Original}}, {{Value|Frenet}}, {{Value|Tangent}}.
 
--    {{PropertyDataZusätzliche Translation|VektorAbstand}}: zusätzlicher Verschiebungsvektor {{Value|(x, y, z)}}, der auf jede Kopie entlang des Pfades angewendet wird. Dies ist nützlich, um kleine Anpassungen in der Position der Kopien vorzunehmen, z.B. wenn ihr Referenzpunkt nicht mit dem Mittelpunkt ihrer Form übereinstimmt.
+-    **Zusätzliche Translation|VektorAbstand**: zusätzlicher Verschiebungsvektor {{Value|(x, y, z)}}, der auf jede Kopie entlang des Pfades angewendet wird. Dies ist nützlich, um kleine Anpassungen in der Position der Kopien vorzunehmen, z.B. wenn ihr Referenzpunkt nicht mit dem Mittelpunkt ihrer Form übereinstimmt.
 
 -    **Force Vertical|Bool**: Wenn er `True` ist, wird der Wert von **Vertikal Vektor** als lokale Z Richtung verwendet, wenn **Ausrichtungsmodus** {{Value|Original}} oder {{Value|Tangente}} ist. <small>(v0.19)</small> 
 
@@ -279,10 +279,10 @@ path_array = make_path_array(base_object, path_object,
 
 <div class="mw-translate-fuzzy">
 
--   Erstellt eine `Pfad Anordnungs` Objekt aus dem `baseobject`, indem bis zu `Anzahl` Kopien entlang des {{incode/de|Pfadobjekt}} platziert werden.
-    -   Wenn {{incode/de|Pfadobjektunter}} angegeben wird, handelt es sich um eine Liste von Unterobjekten von {{incode/de|Pfadobjekt}}, und die Kopien werden entlang dieses kürzeren Pfades erstellt.
+-   Erstellt eine `Pfad Anordnungs` Objekt aus dem `baseobject`, indem bis zu `Anzahl` Kopien entlang des `Pfadobjekt` platziert werden.
+    -   Wenn `Pfadobjektunter` angegeben wird, handelt es sich um eine Liste von Unterobjekten von `Pfadobjekt`, und die Kopien werden entlang dieses kürzeren Pfades erstellt.
 -   Wenn `xlate` angegeben wird, handelt es sich um einen `FreeCAD.Vector`, der eine zusätzliche Verschiebung anzeigt, um den Basispunkt der Kopien zu verschieben.
--   Wenn `align` `True` ist, werden die Kopien an der Tangente, der Normalen oder dem Binormalen des {{incode/de|Pfadobjekt}} an dem Punkt ausgerichtet, an dem die Kopie platziert wird.
+-   Wenn `align` `True` ist, werden die Kopien an der Tangente, der Normalen oder dem Binormalen des `Pfadobjekt` an dem Punkt ausgerichtet, an dem die Kopie platziert wird.
 
 
 </div>

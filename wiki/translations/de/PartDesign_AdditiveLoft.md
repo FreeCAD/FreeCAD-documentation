@@ -31,14 +31,23 @@
 
 ### Dialogbasierter Arbeitsablauf 
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Drücke die **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive Ausformung](PartDesign_AdditiveLoft/de.md)** Schaltfläche
-2.  Wähle im **Funktion auswählen** Dialogfeld eine Skizze, die als Basisprofilobjekt verwendet werden soll, und klicke auf {{Schaltfläche|OK}}.
+2.  Wähle im **Funktion auswählen** Dialogfeld eine Skizze, die als Basisprofilobjekt verwendet werden soll, und klicke auf **OK**.
     -   Alternativ kann eine einzelne Skizze ausgewählt werden, bevor auf die Schaltfläche Additive Ausformung geklickt wird.
 3.  Drücke in den **Ausformungsparametern** die **Abschnitt hinzufügen** Schaltfläche.
-4.  Wähle die nächste Skizze in der [3D Ansicht](3D_view/de.md). Wiederhole diesen Vorgang, um weitere Skizzen in der Reihenfolge auszuwählen, in der sie eingefügt werden sollen. (Du kannst die Schnittreihenfolge jederzeit später im Ausformungs Dialogfeld ändern, indem du die Schnitte in der Liste an die gewünschte Position ziehst.<small>(v0.19)</small> )
+4.  Wähle die nächste Skizze in der [3D Ansicht](3D_view/de.md). Wiederhole diesen Vorgang, um weitere Skizzen in der Reihenfolge auszuwählen, in der sie eingefügt werden sollen. (Du kannst die Schnittreihenfolge jederzeit später im Ausformungs Dialogfeld ändern, indem du die Schnitte in der Liste an die gewünschte Position ziehst. {{Version/de|0.19}})
 5.  Lege Optionen wenn notwendig fest und klicke auf **OK**.
 
+
+</div>
+
 ### Auswahlbasierter Arbeitsablauf 
+
+
+<div class="mw-translate-fuzzy">
 
 
 <small>(v0.19)</small> 
@@ -48,6 +57,9 @@
     -   Die nach der ersten ausgewählten Skizzen werden zu den Ausformungsabschnitten. Auch hier ist die Reihenfolge der Auswahl wichtig: Die als zweite ausgewählte Skizze wird zum ersten Ausformungsabschnitt, die als dritte ausgewählte zum zweiten Abschnitt und so weiter. (Du kannst die Reihenfolge der Abschnitte jederzeit später im Ausformungsdialog ändern, indem du die Abschnitte in der Liste an die gewünschte Position ziehst.<small>(v0.19)</small> )
 2.  Drücke die **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive loft](PartDesign_AdditiveLoft.md)** Schaltfläche.
 3.  Lege Optionen wenn notwendig fest und klicke auf die **OK** Schaltfläche.
+
+
+</div>
 
 ## Optionen
 
@@ -88,7 +100,10 @@
 
 </div>
 
-## Begrenzungen
+## Notes
+
+
+<div class="mw-translate-fuzzy">
 
 -   Skizzen müssen geschlossene Profile bilden.
 -   Es ist nicht möglich, einen Knoten auszuformen.
@@ -96,15 +111,6 @@
 -   Um die Form der Ausformung besser kontrollieren zu können, wird empfohlen, dass alle Querschnitte die gleiche Anzahl von Segmenten haben. Zum Beispiel kann eine Ausformung zwischen einem Rechteck und einem Kreis in 4 zusammenhängende Bögen zerlegt werden.
 -   Die Ausformung wird in der Reihenfolge erzeugt, in der die Querschnitte hinzugefügt wurden.
 -   Wenn die Skizze eine innere Geometrie hat, d. h. die Ausformung soll Löcher haben, dann sollte die Reihenfolge, in der die Skizzengeometrie erstellt wird, für alle Schnitte gleich sein: Entweder beginnen alle Schnitte mit der inneren Geometrie oder sie beginnen alle mit der äußeren. Andernfalls kann ein ungültiger Ausformung erzeugt werden, bei dem sich Innen- und Außenwände kreuzen.
-
-## Known Issues 
-
-
-<div class="mw-translate-fuzzy">
-
-## Bekannte Probleme 
-
--   Einige Fehlersituationen lassen das Teil schwarz werden
 
 
 </div>

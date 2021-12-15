@@ -15,7 +15,7 @@ These objects don\'t necessarily have to be geometrical shapes visible in the [3
 
 ## Working with the tree view 
 
-By default, whenever a new object is created, it is added to the end of the list in the tree view. The tree view allows managing the objects to keep them organized; it permits creating [groups](Std_Group.md), moving objects inside groups, moving groups inside other groups, renaming objects, copying objects, deleting objects, and other operations in the contextual menu (right click) which depend on the currently selected object and the currently active workbench.
+By default, whenever a new object is created, it is added to the end of the list in the tree view. The tree view allows managing the objects to keep them organized; it permits creating [groups](Std_Group.md), moving objects inside groups, moving groups inside other groups, renaming objects, copying objects, deleting objects, and other operations in the context menu (right click) which depend on the currently selected object and the currently active workbench.
 
 Many operations create objects that are dependent on a previously existing object. In this case, the tree view shows this relationship by absorbing the older object inside the new object. Expanding and collapsing the objects in the tree view shows the parametric history of that object. Objects that are deeper inside others are older, while objects that are outside are newer, and are derived from the older objects. By modifying the interior objects, the parametric operations propagate all the way to the top, generating a new result.
 
@@ -29,29 +29,40 @@ Many operations create objects that are dependent on a previously existing objec
 
 ## Actions
 
+Since the tree view lists objects that may be visible in the [3D view](3D_view.md), many of the actions are the same as those that can be executed from the [3D view](3D_view.md).
 
-**Note:**
+When the application starts, the default [Start Workbench](Start_Workbench.md) is active, and no document has been created, right clicking on the [tree view](Tree_view.md) shows one sub-menu with four commands:
 
-expressions and link actions were added in version 0.19.
+-    **Expression actions**:
 
-Since the tree view lists objects that may be visible in the [3D view](3D_view.md), many of the actions are the same to those that can be executed from the [3D view](3D_view.md).
+    -   [Copy selected](Std_Expressions.md)
+    -   [Copy active document](Std_Expressions.md)
+    -   [Copy all documents](Std_Expressions.md)
+    -   [Paste](Std_Paste.md)
 
-When the application starts, the default [Start Workbench](Start_Workbench.md) is active, and no document has been created, right clicking on the [tree view](Tree_view.md) shows only one command:
-
--    **Expression actions**: [Copy selected](Std_Expressions.md), [Copy active document](Std_Expressions.md), [Copy all documents](Std_Expressions.md), Paste. These allow working with various documents, but are disabled if no document is present.
+These allow working with various documents, but are disabled if no document is present.
 
 Once a new document has been created the following become active:
 
--    **Expression actions**: [Copy active document](Std_Expressions.md), [Copy all documents](Std_Expressions.md).
+-    **Expression actions**:
+
+    -   [Copy active document](Std_Expressions.md)
+    -   [Copy all documents](Std_Expressions.md)
 
 In addition, [Link](Std_LinkMake.md) actions are available.
 
--    **Link actions**: [Make Link](Std_LinkMake.md).
+-    **Link actions**:
 
     -   
         **Make Link group**
         
-        : [Simple group](Std_LinkMakeGroup.md), [Group with links](Std_LinkMakeGroup.md), [Group with transform links](Std_LinkMakeGroup.md).
+        :
+
+        -   [Simple group](Std_LinkMakeGroup.md)
+        -   [Group with links](Std_LinkMakeGroup.md)
+        -   [Group with transform links](Std_LinkMakeGroup.md)
+
+    -   [Make Link](Std_LinkMake.md)
 
 ### Selecting the document 
 
@@ -61,7 +72,7 @@ If you select the active document and right click, in addition to **Expression a
 
 -    **Search**: shows an input field to search objects inside the selected document.
 
--    **Close document**: closes the selected document by calling the application\'s `closeDocument()` method.
+-    **Close document**: closes the selected document.
 
 -    **Skip recomputes**: if active, the document\'s objects will not [recompute](Std_Refresh.md) automatically.
 
@@ -72,53 +83,82 @@ If you select the active document and right click, in addition to **Expression a
 
 -    **Mark to recompute**: marks all objects of the document as touched, and ready for [recompute](Std_Refresh.md).
 
--    **_ in the selected document by using the document\'s `addObject()` method.
+-    **_ in the selected document.
 
 ### Selecting objects 
 
-Once objects are added to the document then in addition to the previous actions, right clicking on an empty part of the tree view will show additional commands; these depend on the type of object and the active workbench.
+Once objects are added to the document right clicking them will show additional commands. These depend on the number of selected objects, their type and also on the active workbench. In most cases and with most workbenches (except the [Start Workbench](Start_Workbench.md)) the following commands are then available:
 
-For example, with the [Draft Workbench](Draft_Workbench.md) active, first select an object, then right click on an empty place in the tree view:
+-    **[Appearance](Std_SetAppearance.md)**: launches a dialog to change the visual properties of the whole object.
 
--    **_.
+-    **[Random color](Std_RandomColor.md)**: assigns a random color to the object.
 
--    **[Show selection](Std_ShowSelection.md)**: makes the selected objects visible.
-
--    **[Hide selection](Std_HideSelection.md)**: makes the selected objects invisible.
-
--    **_; use again this command to cancel its effect. It sets the object\'s `Selectable` attribute to `True` or `False`. Change the property by toggling **Selectable** in the [property editor](Property_editor.md).
-
--    **[Select all instances](Std_TreeSelectAllInstances.md)**: selects all instances of this object in the tree view.
-
--    **[Appearance](Std_SetAppearance.md)**: launches the dialog to change color and sizes of lines and vertices, and color of faces.
-
--    **_.
-
--    **[Cut](Std_Cut.md)**: disabled if the right-click is not on the object.
+-    **[Cut](Std_Cut.md)**: disabled.
 
 -    **[Copy](Std_Copy.md)**: copies an object into memory.
 
 -    **[Paste](Std_Paste.md)**: pastes the copied object into the document; the copy is added to the end of the tree view.
 
--    **[Delete](Std_Delete.md)**: removes the object from the document, and from the tree view, by calling the document\'s `removeObject()` method.
-
--    **Utilities**: **(optional)** additional contextual commands provided by the [Draft Workbench](Draft_Workbench.md).
-
-If an object is selected, for example, a [Draft Line](Draft_Line.md), and a right click is made in the same object additional commands may be available:
-
--    **Transform**: launches the transform widget to move or rotate the object.
-
--    **Set colors**: sets the colors of the object.
-
--    **Flatten this wire**: **(Draft)** specific command for a [Draft Line](Draft_Line.md).
+-    **[Delete](Std_Delete.md)**: removes the object from the document.
 
 -    **Hide item**: if active, the selected object will be set as hidden.
 
+-    **Add dependent objects to selection**: all dependent objects will be added to the selection. This way one can see the dependencies and e.g. delete all dependent objects at once. This option is only available if one of the selected objects has links. <small>(v0.20)</small> 
+
 -    **Mark to recompute**: marks the selected object as touched, and ready for [recompute](Std_Refresh.md).
 
--    **Recompute**: recomputes the selected object.
+-    **Recompute object**: recomputes the selected object.
 
--    **Rename**: starts editing the name of the selected object. This allows changing the `Label` attribute, but not the `Name` attribute, as the latter is read-only.
+-    **Rename**: starts editing the label of the selected object, not the name which is read-only. This option is only available if a single object is selected.
+
+As an example of context menu extension, if a [Part Box](Part_Box.md) is right clicked while the [Part Workbench](Part_Workbench.md) is active the following additional commands are available:
+
+-    **[Edit](Std_Edit.md)**: activates the edit mode of the object.
+
+-    **[Transform](Std_TransformManip.md)**: launches the transform widget to move or rotate the object.
+
+-    **[Attachment editor](Part_EditAttachment.md)**: launches a dialog to attach the object to one or more other objects.
+
+-    **[Set colors](Part_FaceColors.md)**: sets the color of selected faces of the object.
+
+-    **_.
+
+-    **[Show selection](Std_ShowSelection.md)**: makes the selected object visible.
+
+-    **[Hide selection](Std_HideSelection.md)**: makes the selected object invisible.
+
+-    **_.
+
+-    **[Select all instances](Std_TreeSelectAllInstances.md)**: selects all instances of this object in the tree view.
+
+-    **_ referencing the object
+
+### Keyboard actions 
+
+The following keyboard actions are available when the focus is on the Tree view:
+
+-    **Ctrl**\+**F**: opens a search box at the bottom of the tree, allowing to search and reach objects using their names or labels.
+
+-   Expand and collapse actions using **Alt**+**Arrow** combinations: <small>(v0.20)</small> 
+    -   
+        **Alt**
+        
+        \+**Left**: collapses selected item(s).
+
+    -   
+        **Alt**
+        
+        \+**Right**: expands selected item(s).
+
+    -   
+        **Alt**
+        
+        \+**Up**: expands selected item(s) with all their tier-1 children collapsed (deeper children remain unchanged).
+
+    -   
+        **Alt**
+        
+        \+**Down**: expands selected item(s) with all their tier-1 children expanded as well (deeper children remain unchanged).
 
 ## Overlay icons 
 

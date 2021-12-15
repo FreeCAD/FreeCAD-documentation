@@ -28,10 +28,16 @@ Questa macro permette di ruotare un oggetto su se stesso scegliendo l\'asse di r
 
 ## Uso
 
-1.  Carica la macro con [Addon Manager](Addon_Manager/it.md)
+
+<div class="mw-translate-fuzzy">
+
+1.  Carica la macro con [Addon Manager](Std_AddonMgr/it.md)
 2.  Lancia la macro
 3.  Clic uno obietto
 4.  Celia una orientazione
+
+
+</div>
 
 ![Interface Rotate to point ](images/Macro_Rotate_To_Point_00.png ) 
 

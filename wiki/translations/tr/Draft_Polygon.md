@@ -59,7 +59,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 2.  Seçenekler diyalog penceresinde istediğiniz kenar sayısını ayarlayın.
 
-3.  3D görünümde bir ilk noktaya tıklayın veya bir [ koordinat](Draft_Coordinates/tr.md) yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [ Nokta ekle](Draft_AddPoint/tr_.md)}} düğmesine basın.
+3.  3D görünümde bir ilk noktaya tıklayın veya bir koordinat yazın ve {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} düğmesine basın.
 
 4.  3D görünümünde başka bir noktaya tıklayın veya poligon yarıçapını tanımlamak için bir yarıçap değeri yazın.
 
@@ -75,7 +75,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 ## Seçenekler
 
--   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında {{KEY | Enter}} tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> [ Nokta ekle](Draft_AddPoint/tr_.md)}} düğmesine basabilirsiniz.
+-   Koordinatları manuel olarak girmek için sayıları girin, ardından her bir X, Y ve Z bileşeni arasında {{KEY | Enter}} tuşuna basın. Noktayı yerleştirmek istediğiniz değerleri aldığınızda {{Button | <img src="images/_Draft_AddPoint.svg_" width= 16px> Nokta ekle}} düğmesine basabilirsiniz.
 -   **Devam** moduna geçmek için {{KEY | T}} tuşuna basın veya onay kutusunu tıklayın. Devam modu açıksa, Çokgen aracı işlemi tamamladıktan sonra yeniden başlatılır ve araç düğmesine tekrar basmadan bir tane daha çizmenize olanak sağlar.
 -   **Dolu** moduna geçmek için {{KEY | L}} tuşuna basın veya onay kutusunu tıklayın. Dolgu modu açıksa, çokgen dolgulu bir yüz oluşturur ({{PropertyData | Make Face}} `True`); değilse, çokgen bir yüz oluşturmayacak ({{PropertyData | Make Face}} `False`).
 -   [ Yakalama](Draft_Snap/tr.md) noktanızı mesafeden bağımsız olarak, en yakın çeki konumuna yönlendirmek için çizim yaparken {{KEY | Ctrl}} tuşunu basılı tutun.
@@ -144,7 +144,7 @@ A Draft Polygon object is derived from a [Part Part2DObject](Part_Part2DObject.m
 
 ### Görünüm
 
--    {{PropertyView/tr|Pattern}}: Çokgenin yüzünü doldurmak için bir [Taslak Deseni](Taslak_Deseni.md) belirtir. Bu özellik yalnızca {{PropertyData/tr|Make Face}} `True` ise ve {{PropertyView/tr|Display Mode}} \"Düz Çizgiler\" ise çalışır.
+-    {{PropertyView/tr|Pattern}}: Çokgenin yüzünü doldurmak için bir [Taslak Deseni](Draft_Pattern.md) belirtir. Bu özellik yalnızca {{PropertyData/tr|Make Face}} `True` ise ve {{PropertyView/tr|Display Mode}} \"Düz Çizgiler\" ise çalışır.
 
 -    {{PropertyView/tr|Pattern Size}}: [Desen](Draft_Pattern/tr.md) \'nin boyutunu belirtir.
 

@@ -26,7 +26,13 @@ _
 
 ## Unterstützte Eingaben 
 
-Eingabeobjekte müssen [OpenCascade ](OpenCascade/de.md) Formen sein. Beispiele: Sachen, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurden. Keine Polygonnetze (es sei denn, diese wurden in Formen umgewandelt) - für Polygonnetze gibt es spezielle boolesche Werkzeuge im Arbeitsbereich Netzkonstruktion.
+
+<div class="mw-translate-fuzzy">
+
+Eingabeobjekte müssen [OpenCascade](OpenCASCADE/de.md) Formen sein. Beispiele: Sachen, die mit den Arbeitsbereichen Part, PartDesign, Skizzierer erstellt wurden. Keine Polygonnetze (es sei denn, diese wurden in Formen umgewandelt) - für Polygonnetze gibt es spezielle boolesche Werkzeuge im Arbeitsbereich Netzkonstruktion.
+
+
+</div>
 
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cut/de

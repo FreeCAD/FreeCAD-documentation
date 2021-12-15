@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul Bibliotecă vă permite să plasați, în modelul curent, un obiect din [FreeCAD Parts Library](Parts_Library.md), care trebuie instalat prin [Addon Manager](Addon_Manager.md) pentru ca acest instrument să fie disponibil.
+Instrumentul Bibliotecă vă permite să plasați, în modelul curent, un obiect din [FreeCAD Parts Library](Parts_Library.md), care trebuie instalat prin [Addon Manager](Std_AddonMgr.md) pentru ca acest instrument să fie disponibil.
 
 
 </div>

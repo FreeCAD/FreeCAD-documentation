@@ -57,9 +57,7 @@ PySide2.QtUiTools -> PySide.QtUiTools
 The only unusual aspect is that the `PySide2.QtWidgets` classes are placed in the `PySide.QtGui` namespace. 
 ```python
 PySide2.QtWidgets.QCheckBox -> PySide.QtGui.QCheckBox
-```
-
-[top](#top.md)
+``` {{Top}}\]
 
 ## Examples of PySide use 
 
@@ -67,7 +65,7 @@ PySide2.QtWidgets.QCheckBox -> PySide.QtGui.QCheckBox
 <div class="mw-translate-fuzzy">
 
 -   [Beginner PySide Examples](PySide_Beginner_Examples.md) （ Hello World、お知らせ、テキストを入力、番号を入力
--   [Medium PySide Examples](PySide_Medium_Examples.md) （ウィンドウのサイズ変更、ウィジェットの非表示、ポップアップメニュー、マウスの位置、マウスイベント）
+-   [PySide Intermediate Examples](PySide_Intermediate_Examples.md) （ウィンドウのサイズ変更、ウィジェットの非表示、ポップアップメニュー、マウスの位置、マウスイベント）
 -   [Advanced PySide Examples](PySide_Advanced_Examples.md) (ウィジェットなど)
 
 
@@ -89,7 +87,8 @@ PySide2.QtWidgets.QCheckBox -> PySide.QtGui.QCheckBox
 
 </div>
 
-[top](#top.md)
+
+{{Top}}
 
 ## Documentation
 
@@ -101,12 +100,22 @@ The PySide documentation refers to the Python-style classes; however, since Qt i
 -   [All Qt classes by module](https://doc.qt.io/qt-5/modules-cpp.html) in Qt5 for C++.
 -   [Qt Modules](https://deptinfo-ensip.univ-poitiers.fr/ENS/pyside-docs/index.html) available from PySide (Qt4).
 
-[top](#top.md)
+
+{{Top}}
+
+
+<div class="mw-translate-fuzzy">
+
+
+{{docnav|Pivy|Scripted objects}}
+
+
+</div>
 
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

@@ -80,6 +80,20 @@ Z powodów licencyjnych, wymagane biblioteki importu/eksportu _.
 
 Aby uzyskać więcej informacji zobacz stronę [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl.md).
 
+## DWG
+
+Ponieważ format DWG jest prawnie zastrzeżonym, zamkniętym i nieudokumentowanym formatem, trudno jest go wspierać w projektach open-source takich jak FreeCAD. Dlatego też FreeCAD polega na zewnętrznych konwerterach do odczytu i zapisu plików DWG. Aby zaimportować plik DWG używa się konwertera, który najpierw tworzy plik DXF, który następnie może być przetworzony przez importer FreeCAD DXF. Podczas eksportowania do DWG następuje odwrotna konwersja: DXF utworzony przez eksporter FreeCAD DXF jest zamieniany w DWG.
+
+Należy pamiętać, że format DXF umożliwia konwersję 1:1 formatu DWG. Wszystkie aplikacje, które mogą odczytywać i zapisywać pliki DWG, mogą to samo robić z plikami DXF, bez utraty danych. Tak więc prośba o pliki DXF zamiast plików DWG, a następnie dostarczenie plików DXF z kolei, nie powinna powodować żadnych problemów.
+
+Wbudowane jest wsparcie dla następujących konwerterów DWG:
+
+-   [LibreDWG](https://www.gnu.org/software/libredwg) *(open-source, brak obsługi niektórych elementów DWG)*.
+-   [Konwerter plików ODA](https://www.opendesign.com/guestfiles/oda_file_converter) *(bezpłatny)*.
+-   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) *(komercyjny)*. {{Version/pl|0.20}}
+
+Zobacz strony [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl#DWG.md) i [FreeCAD i import DWG](FreeCAD_and_DWG_Import/pl.md), aby uzyskać więcej informacji.
+
 ## Tworzenie skryptów 
 
 Zobacz również: _.

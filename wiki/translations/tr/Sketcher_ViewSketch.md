@@ -1,6 +1,12 @@
-# Sketcher ViewSketch/tr
 ---
-- GuiCommand:/tr   Name:Eskiz Eskiz görünümü   Workbenches:[Parça tasarım](Sketcher_Workbench___Eskiz]],_[[PartDesign_Workbench.md)|MenuLocation:Eskiz → Eskiz görünümü---
+- GuiCommand:/tr
+   Name:Sketcher ViewSketch
+   Name/tr:Eskiz Eskiz görünümü
+   Workbenches:[Eskiz](Sketcher_Workbench.md), [Parça tasarım](PartDesign_Workbench.md)
+   MenuLocation:Eskiz → Eskiz görünümü
+---
+
+# Sketcher ViewSketch/tr
 
 
 </div>

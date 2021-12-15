@@ -8,32 +8,17 @@
 
 # Part ReverseShapes/de
 
-
-</div>
-
 ## Beschreibung
 
 Kippt die Normalen aller Flächen des ausgewählten Objekts.
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
 1.  Form auswählen.
-2.  Gehe zum Menü {{MenuCommand/de|Part → Formen umkehren}}.
+2.  Gehe zum Menü {{MenuCommand/de|Part → <img src="images/Part_ReverseShapes.svg" width=16px> Formen umkehren}}.
 3.  Eine umgekehrte Form wird als neues separates Objekt erstellt.
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-### Hinweise
-
-
-</div>
+## Hinweise
 
 Durch die Ausführung dieses Befehls kippt FreeCAD die Normalen aller Flächen der Form / des Festkörpers.
 
@@ -47,15 +32,6 @@ Du kannst dies überprüfen, indem du
 ## Eigenschaften
 
 ## Skripten
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part ReverseShapes/de

@@ -59,7 +59,7 @@ Al primo avvio di FreeCAD viene visualizzato lo start center. Ecco come appare n
 
 </div>
 
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
+<img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
 
 
 <div class="mw-translate-fuzzy">
@@ -71,40 +71,15 @@ Lo Start Center permette di passare rapidamente a uno degli ambienti di lavoro p
 
 ## Navigare nello spazio 3D 
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD permette di interagire con lo spazio 3D in diverse [modalità di navigazione](Mouse_navigation/it.md) selezionabili nel dialogo delle preferenze oppure cliccando con il tasto destro nella vista 3D. Uno di essi è specifico per la [Navigazione Touchpad](Mouse_navigation/it#Touchpad_Navigation.md), dove non si usa il tasto centrale del mouse.
 
 Per la modalità di default, la \"Navigazione CAD\", i comandi sono i seguenti:
 
 
-{{CAD Navigation
-|Select_name=Selezione
-|Pan_name=Traslazione
-|Zoom_name=Zoom
-|Rotate_view_name=Rotazione vista<br>Primo metodo
-|Rotate_view_alt_name=Rotazione vista<br>Secondo metodo
-|Ctrl=**Ctrl**
-|Shift=**Shift**
-|Select_text=Premere il tasto sinistro del mouse su un oggetto che si desidera selezionare.
-
-Tenendo premuto **Ctrl** consente la selezione di più oggetti.
-|Pan_text=Tenere premuto il pulsante centrale del mouse, quindi spostare il puntatore.
-|Pan_mode_text=Modalità Traslazione: tenere premuto il tasto **Ctrl**, preme il tasto destro del mouse una volta, quindi muovere il puntatore. {{Version/it|0.17}}
-|Zoom_text=Usare la rotellina del mouse per zoommare avanti e indietro.
-
-Facendo clic sul pulsante centrale del mouse, la vista viene nuovamente centrata sulla posizione del cursore.
-|Zoom_mode_text=Modalità zoom: tenere premuti i tasti **Ctrl** e **Shift**, premere il pulsante destro del mouse una volta, quindi spostare il puntatore. {{Version/it|0.17}}
-|Rotate_view_text=Tenere premuto il pulsante centrale del mouse, quindi premere e tenere premuto il pulsante sinistro del mouse, quindi spostare il puntatore.
-
-La posizione del cursore quando viene premuto il pulsante centrale del mouse determina il centro di rotazione. La rotazione funziona come una palla che ruota attorno al suo centro. Se i pulsanti vengono rilasciati prima di interrompere il movimento del mouse, la visualizzazione continua la [rotazione](spinning/it.md), se l'azione è abilitata.
-
-Un doppio clic con il pulsante centrale del mouse imposta un nuovo centro di rotazione.
-|Rotate_view_mode_text=Modalità rotazione: tenere premuto il tasto **Shift**, premere il tasto destro del mouse una volta, quindi spostare il puntatore. {{Version/it|0.17}}
-|Rotate_view_alt_text=Tenere premuto il pulsante centrale del mouse, e tenere premuto il pulsante destro del mouse, quindi spostare il puntatore.
-
-Con questo metodo il pulsante centrale del mouse può essere rilasciato dopo aver tenuto premuto il pulsante destro del mouse.
-
-Gli utenti che utilizzano il mouse con la mano destra potrebbero trovare questo metodo più semplice del primo metodo.
-}}
+</div>
 
 Inoltre, sono disponibili alcune viste preconfigurate (dall\'alto, laterale, frontale, ecc) accessibili dal menu Visualizza⁫ → Viste standard oppure tramite i pratici comandi veloci dei tasti numerici ( {{KEY/it|1}}, {{KEY/it|2}}, {{KEY/it|3}} etc\...). Facendo clic con il pulsante destro su un oggetto o un\'area vuota della vista 3D, si ha accesso rapido ad alcune operazioni comuni, come l\'impostazione di una vista particolare, o l\'individuazione di un oggetto nella vista ad albero.
 
@@ -136,7 +111,7 @@ Queste forme 2D realizzate con lo sketcher sono molto utilizzate in PartDesign, 
 
 Si ottiene un oggetto simile a questo:
 
-<img alt="" src=images/Partdesign_example.jpg  style="width:1024px;">
+<img alt="" src=images/Partdesign_example.jpg  style="width:600px;">
 
 In qualsiasi momento è possibile selezionare gli schizzi originali e modificarli oppure modificare i parametri delle operazioni di estrusione o di scavo, l\'oggetto finale viene automaticamente aggiornato.
 
@@ -160,13 +135,19 @@ Un tipico flusso di lavoro con gli ambienti Arch e Draft potrebbe essere:
 
 Si ottiene un oggetto simile a questo:
 
-<img alt="" src=images/Arch_workflow_example.jpg  style="width:1024px;">
+<img alt="" src=images/Arch_workflow_example.jpg  style="width:600px;">
 
 Maggiori informazioni si trovano nella sezione [Tutorial](Tutorials/it.md).
 
 ## Addon, Macro e Ambienti complementari 
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD, come software open source, offre la possibilità di integrare i propri ambienti di lavoro con componenti aggiuntivi.
+
+
+</div>
 
 Il principio degli [Addon](Addon/it.md) si basa sullo sviluppo di un complemento dell\'ambiente di lavoro. Qualsiasi utente può sviluppare una funzione che ritiene mancare per i propri bisogni o, in definitiva, per la comunità. Con il forum, l\'utente può richiedere un parere o un aiuto sul forum. Può condividere o meno l\'oggetto del suo sviluppo secondo le regole del copyright da definire. Gratuito per tutti. Per lo sviluppo, l\'utente ha a disposizione le funzioni di [script](scripting/it.md).
 

@@ -87,7 +87,7 @@ MantisBT (Mantis Bug Tracker) a son propre balisage.
 
 ### Le BBCode de MantisBT 
 
-En plus du [MantisBT Markup](Tracker/fr#MantisBT_Markup.md) ci-dessus, il est également possible d\'utiliser le format BBCode. Pour une liste complète, voir [BBCode plus plugin page](https://github.com/mantisbt-plugins/BBCodePlus#supported-bbcode-tags). Voici une liste des tags BBCode supportés ː 
+En plus du [balisage de MantisBT](Tracker/fr#Le_balisage_de_MantisBT.md) ci-dessus, il est également possible d\'utiliser le format BBCode. Pour une liste complète, voir [BBCode plus plugin page](https://github.com/mantisbt-plugins/BBCodePlus#supported-bbcode-tags). Voici une liste des tags BBCode supportés ː 
 [img][/img] - Images
 [url][/url] - Liens
 [email][/email] - Adresses E-mail
@@ -131,7 +131,7 @@ En plus du [MantisBT Markup](Tracker/fr#MantisBT_Markup.md) ci-dessus, il est é
 
 Le bugtracker de FreeCAD a un plug-in appelé [Source Integration](https://github.com/mantisbt-plugins/source-integration) qui lie essentiellement le référentiel FreeCAD GitHub à notre traqueur MantisBT. Cela facilite le suivi et l'association des commits git avec leurs tickets MantisBT respectifs. **Le plug-in Source Integration recherche dans les messages de git commit des mots-clés spécifiques afin d\'exécuter les actions suivantes :**
 
-**Remarque :**les mots-clés ci-dessous doivent être ajoutés au git commit message et non au sujet du PR.
+\'\'\'Remarque : \'\'\'les mots-clés ci-dessous doivent être ajoutés au git commit message et non au sujet du PR.
 
 ### Référencement à distance d\'un ticket 
 
@@ -148,6 +148,8 @@ Pour les curieux, voici le regex que MantisBT utilise pour cette opération:
 
 
 ### Résolution à distance d\'un ticket 
+
+Le format que MantisBT reconnaîtra :
 
 -   fix \#1234
 -   fixed \#1234

@@ -8,7 +8,7 @@
 
 ## Beschreibung
 
-Die [Entwurf Ablage](Entwurf_Ablage.md) erlaubt dir, die visuellen Eigenschaften von [Entwurf Arbeitsbereichsobjekten](Entwurf_Arbeitsbereich.md) schnell zu ändern.
+Die [Entwurf Ablage](Draft_Tray/de.md) erlaubt dir, die visuellen Eigenschaften von [Entwurf Arbeitsbereichs](Draft_Workbench/de.md) objekten schnell zu ändern.
 
 
 </div>

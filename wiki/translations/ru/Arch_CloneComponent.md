@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/ru
-   Name:Arch cloneComponent‏‎‏‎
+   Name:Arch CloneComponent‏‎‏‎
    Name/ru:Arch: CloneComponent/Клоновый компонент
    MenuLocation:Архитектура → Утилиты → Clone Component
    Workbenches:[Arch](Arch_Workbench/ru.md)

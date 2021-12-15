@@ -6,13 +6,9 @@
    MenuLocation:Visualizza → Viste standard → Assonometria → Dimetrica
    Workbenches:Tutti
    SeeAlso:[Assonometria isometrica](Std_ViewIsometric/it.md), [Assonometria trimetrica](Std_ViewTrimetric/it.md)
-   Empty:1
 ---
 
 # Std ViewDimetric/it
-
-
-</div>
 
 ## Descrizione
 

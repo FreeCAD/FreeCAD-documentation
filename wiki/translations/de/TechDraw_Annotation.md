@@ -69,7 +69,13 @@ rc = page.addView(anno)
 ## Hinweise
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

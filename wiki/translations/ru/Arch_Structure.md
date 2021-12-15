@@ -10,6 +10,9 @@
 
 # Arch Structure/ru
 
+
+</div>
+
 ## Описание
 
 
@@ -33,8 +36,8 @@
 
 ## Применение
 
-1.  Select a 2D shape (draft object, face or sketch) (optional).
-2.  Press the **<img src="images/Arch_Structure.svg" width=16px> [[Arch Structure]]** button, or press **S** then **T** keys.
+1.  Select a 2D shape (Draft object, face or sketch) (optional).
+2.  Press the **<img src="images/Arch_Structure.svg" width=16px> [Arch Structure](Arch_Structure.md)** button, or press **S** then **T** keys.
 3.  Adjust the desired properties.
 
 ## Опции
@@ -52,6 +55,9 @@
 
 ### Данные
 
+
+<div class="mw-translate-fuzzy">
+
 -    **Tool**: an optional extrusion path, which can be any type of wire. If this property is empty, the extrusion will be straight, and happen in the direction given by the Normal property
 
 -    **Normal**: specifies the direction in which the base face of this structure will be extruded. If this property is kept to (0,0,0), the direction will be automatically set to the normal direction of the base face.
@@ -65,6 +71,9 @@
 -    **Height**: specifies the height of the structure, or the extrusion length when based on a profile. If no height is given, and the structure is inside an [Arch Floor](Arch_Floor.md) object with its height defined, the structure will automatically take the value of the floor height.
 
 -    **Nodes Offset**: specifies an optional offset between the centerline and the nodes line.
+
+
+</div>
 
 ### Вид
 
@@ -103,6 +112,11 @@ Structural objects also have the ability to display structural nodes. Structural
     -   Make the node of this object and another one coincident
     -   Toggle the display of all nodes of all structural objects of the document on/off
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Программирование
 
 
@@ -110,7 +124,12 @@ Structural objects also have the ability to display structural nodes. Structural
 
 [Arch API](Arch_API/ru.md) и [Основы составления скриптов в FreeCAD](FreeCAD_Scripting_Basics/ru.md).
 
-The Structure tool can be used in [macros](macros.md) and from the [Python](Python.md) console by using the following function: 
+
+</div>
+
+The Structure tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
+
+
 ```python
 Structure = makeStructure(baseobj=None, height=None)
 Structure = makeStructure(baseobj=None, length=None, width=None, height=None, name="Structure")

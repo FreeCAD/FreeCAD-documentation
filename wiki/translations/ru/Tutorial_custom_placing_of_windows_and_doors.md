@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Используются следующие инструменты: [Draft Grid](Draft_Grid/ru.md), [Draft Snap](Draft_Snap/ru.md), [Draft Wire](Draft_Wire/ru.md), [Arch Wall](Arch_Wall/ru.md), [Arch Window](Arch_Window/ru.md), и [Sketcher NewSketch](Sketcher_NewSketch/ru.md). Пользователь должен быть знаком с установкой ограничений в эскизах.
+Используются следующие инструменты: [Draft Grid](Draft_Snap_Grid/ru.md), [Draft Snap](Draft_Snap/ru.md), [Draft Wire](Draft_Wire/ru.md), [Arch Wall](Arch_Wall/ru.md), [Arch Window](Arch_Window/ru.md), и [Sketcher NewSketch](Sketcher_NewSketch/ru.md). Пользователь должен быть знаком с установкой ограничений в эскизах.
 
 
 </div>
@@ -62,7 +62,7 @@
 :   
     **Примечание:**убедитесь, что чекбокс **Относительно (R)** не отмечен, когда вводите абсолютные координаты.
 :   
-    **Примечание 2:**точки могут быть определены указателем мыши по точкам сетки, с помощью панели [Draft Snap](Draft_Snap/ru.md) и метода [Draft Grid](Draft_Grid/ru.md).
+    **Примечание 2:**точки могут быть определены указателем мыши по точкам сетки, с помощью панели [Draft Snap](Draft_Snap/ru.md) и метода [Draft Grid](Draft_Snap_Grid/ru.md).
 :   
     **Примечание 3:**вы можете создать формы программированием на [Python](Python/ru.md). Учтите, что большинство функций ожидают ввод в миллиметрах.
 
@@ -104,7 +104,7 @@ w = Draft.makeWire(p, closed=False)
 
 7\. Кликните инструмент [Arch Window](Arch_Window/ru.md); в ниспадающем списке Preset выделите `Simple door`, и установите высоту в 2 м.
 
-:   7.1. Установите привязку на [Draft Midpoint](Draft_Midpoint/ru.md), и попробуйте выделить нижнюю грань передней стены; поверните [standard view](standard_view/ru.md) как требуется, чтобы зацепить грань, а не поверхность стены; когда активна средняя точка, кликните для установки двери.
+:   7.1. Установите привязку на [Draft Midpoint](Draft_Snap_Midpoint/ru.md), и попробуйте выделить нижнюю грань передней стены; поверните [standard view](standard_view/ru.md) как требуется, чтобы зацепить грань, а не поверхность стены; когда активна средняя точка, кликните для установки двери.
 :   7.2. Кликните снова инструмент [Arch Window](Arch_Window/ru.md), и установите другую дверь, на сей раз в средней точке крайней правой стены; поворачивайте [standard view](standard_view/ru.md) по необходимости.
 
 
@@ -234,7 +234,7 @@ w = Draft.makeWire(p, closed=False)
 15\. Выделите новый `Sketch003`. Перейдите к параметру **Map Mode** и кликните на эллипсе возле значения `FlatFace`. В окне трёхмерного вида выделите левую сторону стены без каких-либо элементов; поверните [standard view](standard_view/ru.md) куда надо. Измените `Attachment offset` на \[-1 m, 0 m, 0 m\] для центрирования окна, и кликните **OK**. Эскиз и окно появятся на новой позиции.
 
 :   
-    **Примечание:**[операция назначения](Part_Attachment.md) так же может быть выполнена переключением на [верстак Part](Part_Workbench/ru.md) и использованием меню **Part → Attachment**.
+    **Примечание:**[операция назначения](Part_EditAttachment.md) так же может быть выполнена переключением на [верстак Part](Part_Workbench/ru.md) и использованием меню **Part → Attachment**.
 
 
 </div>

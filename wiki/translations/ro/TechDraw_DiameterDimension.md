@@ -17,7 +17,7 @@ The Diameter Dimension tool adds a diameter dimension to a View. The dimension m
 ## Cum se folosește 
 
 1.  Selectați un cerc sau un arc de cerc în desen. (Notați că anumite arce de cerc apar ca fiind circulare dar de fapt sunt elipse sau curbe BSplines. Nu puteți realiza diametru dimension în aceste cazuri)
-2.  Apăsați butonul **<img src="images/Dimension_Diameter.png" width=24px> [Dimension Diameter](TechDraw_Dimension_Diameter.md)
+2.  Apăsați butonul **<img src="images/TechDraw_DiameterDimension.svg" width=24px> [Dimension Diameter](TechDraw_DiameterDimension.md)
 **
 3.  O cotă/distanță va fi adăugată în View. Cota poate fi glisată până în poziția dorită.
 
@@ -36,8 +36,6 @@ To change the properties of a dimension object either double-clicking it in the 
 Dimension objects are vulnerable to the \"[topological naming problem](Topological_naming_problem.md)\". See [TechDraw LengthDimension](TechDraw_LengthDimension.md) for more information.
 
 ## Proprietăți
-
-This object has the same properties as the [TechDraw Dimension Length](TechDraw_Dimension_Length/ro.md) tool. See that tool for details.
 
 See [TechDraw LengthDimension](TechDraw_LengthDimension#Properties.md).
 

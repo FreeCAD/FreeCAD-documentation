@@ -1,6 +1,6 @@
 ---
 - GuiCommand:/it
-   Name:FEM_ControlSolver
+   Name:FEM SolverControl
    Name/it:Imposta il risolutore
    MenuLocation:Soluzione → Imposta il risolutore
    Workbenches:[FEM](FEM_Workbench/it.md)

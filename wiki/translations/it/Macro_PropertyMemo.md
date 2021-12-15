@@ -1,11 +1,7 @@
 # Macro PropertyMemo/it
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/it
 |Name=Macro_PropertyMemo
 |Translate=Proprietà Memo
-|Icon=PropertyMemo.png
 |Icon=PropertyMemo.png
 |Description=Crea una proprietà aggiuntiva.
 |Author=Mario52
@@ -14,9 +10,6 @@
 |FCVersion=All
 |Download=[https://www.freecadweb.org/wiki/images/f/f2/PropertyMemo.png ToolBar Icon]
 }}
-
-
-</div>
 
 ## Descrizione
 

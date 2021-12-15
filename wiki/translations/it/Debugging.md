@@ -75,7 +75,7 @@ Prerequisiti:
 <div class="mw-translate-fuzzy">
 
 -   pacchetto software gdb installato
--   un debug build di FreeCAD (in questo momento disponibili solo per la [compilazione da sorgenti](Compile_on_Linux/Unix#For_a_Debug_build.md))
+-   un debug build di FreeCAD (in questo momento disponibili solo per la [compilazione da sorgenti](Compile_on_Linux#For_a_Debug_build.md))
 -   un modello di FreeCAD che causa un crash
 
 

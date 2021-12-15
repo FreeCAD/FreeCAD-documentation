@@ -11,17 +11,22 @@
 
 # FCGear TimingGear/it
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Lo scopo degli ingranaggi di distribuzione è quello di consentire all\'albero a camme e all\'albero motore di far ruotare la catena di distribuzione. L\'albero motore gira per muovere i pistoni su e giù all\'interno dei cilindri. L\'albero a camme ruota per consentire l\'apertura e la chiusura delle valvole di aspirazione e di scarico sui cilindri. Questi componenti sono importanti per la corretta sincronizzazione del motore.
 
+
+</div>
+
 Gli ingranaggi di distribuzione sono collegati a una cinghia o catena di distribuzione.
 
-:   ![](images/Timing-Gear_example.png )
-:   
-    
+![](images/Timing-Gear_example.png ) 
 *Above: Timing gear*
-    
 
 ## Usage
 
@@ -89,7 +94,13 @@ Limitations are not known yet.
 -    **axle base**= **belt length** : 4 - **belt tooth pitch** : 8 \* **(teeth 1+2)** + ¼ \* sqrt \[**belt length** - ½ \* **belt tooth pitch** \* **(teeth 1+2)²** - 2 \* **belt tooth pitch²** \* **(teeth 1+2)²** : pi²\]
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 _ _ _
 

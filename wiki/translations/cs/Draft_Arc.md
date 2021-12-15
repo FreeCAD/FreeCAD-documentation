@@ -33,7 +33,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Stiskněte tlačítko **<img src="images/Draft_Arc.png" width=16px> [Oblouk](Draft_Arc.md)
 ** nebo stiskněte klávesy **A** a potom **R**
-2.  Klikněte na první bod ve 3D pohledu nebo zadejte [souřadnice](Draft_Coordinates.md)
+2.  Klikněte na první bod ve 3D pohledu nebo zadejte souřadnice
 3.  Klikněte na druhý bod ve 3D pohledu nebo zadejte poloměr
 4.  Klikněte na třetí bod ve 3D pohledu nebo zadejte počáteční úhel
 5.  Klikněte na čtvrtý bod ve 3D pohledu nebo zadejte koncový úhel

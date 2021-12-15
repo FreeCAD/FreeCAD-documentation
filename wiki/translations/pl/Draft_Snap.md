@@ -20,7 +20,7 @@ Zauważ, że koliste krawędzie nie muszą być pełnymi okręgami.
 
 -   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Punkt końcowy](Draft_Snap_Endpoint/pl.md): Przyciąga do punktów końcowych odcinków linii, łuku i krzywej złożonej.
 
--   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Punkt środkowy](Draft_Snap_Midpoint/pl.md): Przyciąga do punktu środkowego linii i odcinków łuku.
+-   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Punkt środkowy](Draft_Snap_Midpoint/pl.md): Przyciąga do punktu środkowego krawędzi.
 
 -   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ i [Arch BuildingParts](Arch_BuildingPart/pl.md).
 

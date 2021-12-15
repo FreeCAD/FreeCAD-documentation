@@ -13,7 +13,7 @@ PDF wird allgemein als ein Austauschformat verwendet, d.h. zum Austausch von Dok
 
 ## Anwendung
 
-Weil FreeCAD auf dem Qt-Grafik-Toolkit besteht, kann es die [3D-Ansicht](3D-View/de.md) nativ nach PDF exportieren. Dies kann nützlich sein, um sorgfältig erstellte Zeichnungen zu exportieren, die andere Benutzer nicht verändern müssen. Mit dem [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) erstellte Seiten können bspw. auf diese Weise [exportiert](Std_Export/de.md) werden, um sie zu verteilen oder zu drucken. In vielen Fällen ist es auch möglich, eine Zwei-Wege-Konvertierung zwischen PDF und [SVG](SVG/de.md) durchzuführen.
+Weil FreeCAD auf dem Qt-Grafik-Toolkit besteht, kann es die [3D-Ansicht](3D_view/de.md) nativ nach PDF exportieren. Dies kann nützlich sein, um sorgfältig erstellte Zeichnungen zu exportieren, die andere Benutzer nicht verändern müssen. Mit dem [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) erstellte Seiten können bspw. auf diese Weise [exportiert](Std_Export/de.md) werden, um sie zu verteilen oder zu drucken. In vielen Fällen ist es auch möglich, eine Zwei-Wege-Konvertierung zwischen PDF und [SVG](SVG/de.md) durchzuführen.
 
 Die Option, nach PDF zu exportieren, ist im Menü unter **Datei → [PDF exportieren](Std_Export.md)** verfügbar.
 

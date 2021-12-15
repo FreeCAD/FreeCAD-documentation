@@ -31,6 +31,8 @@ The **Std SendToPythonConsole** command creates a variable in the [Python consol
     -   Select the **Edit → <img src="images/Std_SendToPythonConsole.svg" width=16px> Send to Python Console** option from the menu.
     -   Select the **<img src="images/Std_SendToPythonConsole.svg" width=16px> Send to Python Console** option from the [Tree view](Tree_view.md) context menu or [3D view](3D_view.md) context menu.
     -   Use the keyboard shortcut: **Ctrl**+**Shift**+**P**.
+3.  If required the [Python console](Python_console.md) opens. <small>(v0.20)</small> 
+4.  The [Python console](Python_console.md) receives the keyboard focus. <small>(v0.20)</small> 
 
 
 

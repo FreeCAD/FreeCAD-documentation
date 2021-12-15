@@ -25,7 +25,7 @@ Fügt einen Kegel in den aktiven Körper (body) als Basisformelement ein oder ve
 <div class="mw-translate-fuzzy">
 
 1.  Drücke die **<img src="images/PartDesign_AdditiveCone.svg" width=24px> '''Additiver Kegel'''** Schaltfläche. **Hinweis**: der Additive Kegel ist Teil eines Symbolmenüs mit der Bezeichnung *Erstellen eines additiven Grundelements*. Nach dem Start von FreeCAD wird der Additiv Quader in der Werkzeugleiste angezeigt. Um zur Schaltfläche Kegel zu gelangen, klicke auf den Abwärtspfeil neben dem sichtbaren Symbol und wähle Additiv Kegel im Menü.
-2.  Stelle die Grundelement Parameter und [Anhang](Part_Attachment/de.md) ein.
+2.  Stelle die Grundelement Parameter und [Anhang](Part_EditAttachment/de.md) ein.
 3.  Klicke **OK**.
 4.  Eine Kegelfunktion wird unter dem aktiven Körper angezeigt.
 

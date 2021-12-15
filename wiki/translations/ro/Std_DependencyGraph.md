@@ -141,7 +141,7 @@ Puteți salva / exporta graficul de dependență afișat ca fișier imagine. În
 -   O schiță care conține legături către [ geometry extern](Sketcher_External.md) va avea un număr cu un sufix \"x\", în afară de săgeata care o leagă de părinți, indicând numărul de geometrie externă legat în schiță.
 -   Obiectele pot avea dependențe față de mai mulți părinți. De exemplu, pentru un model construit în PartDesign, un buzunar poate fi legat de schița sa și de caracteristica Pad (Protrusion) care a venit înainte.
 -   Se vor afișa dependențe nepermise (de exemplu, între o operațiune de Draft/Part și un element din cadrul unui [PartDesign Body](PartDesign_Body.md)) cu o săgeată roșie. Acest tip de link afișează, de obicei, o eroare \"Links go out of allowed scope\" în afișarea raportului.
--   [Container](Std_Part.md) și [DesignDesign](Body_DesignDesign_Body.md) își înglobează conținutul într-un cadru cu fundal aleatoriu colorat. Originea acestora include, de asemenea, conținutul lor (planuri și axe standard) într-un cadru.
+-   [Container](Std_Part.md) și [PartDesign\_Body](PartDesign_Body.md) își înglobează conținutul într-un cadru cu fundal aleatoriu colorat. Originea acestora include, de asemenea, conținutul lor (planuri și axe standard) într-un cadru.
 -   [ Group](Std_Group.md) este afișat ca un singur element legat de conținutul său.
 
 

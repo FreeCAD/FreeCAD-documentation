@@ -46,7 +46,7 @@ Drawings with different linewidths for viewed and cut lines can easily be produc
 
 ## Propiedades
 
-See also: [Property editor](property_editor.md).
+See also: [Property editor](Property_editor.md).
 
 A Draft Shape2DView object is derived from a [Part Part2DObject](Part_Part2DObject.md) and inherits all its properties. It also has the following additional properties:
 

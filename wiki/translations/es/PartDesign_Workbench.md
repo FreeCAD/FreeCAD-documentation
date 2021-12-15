@@ -11,7 +11,7 @@ El Ambiente de trabajo DiseñoPiezas está intrínsecamente relacionado con el [
 
 Mientras que el <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente de trabajo Pieza](Part_Workbench/es.md) se basa en una metodología de [geometría sólida constructiva](constructive_solid_geometry/es.md) (CSG) para la construcción de formas, el Ambiente de trabajo DisegnoPiezas utiliza una metodología paramétrica, de edición de características, lo que significa que un sólido básico se transforma secuencialmente añadiendo características encima hasta obtener la forma final. Consulte la página [edición de características](feature_editing/es.md) para obtener una explicación más completa de este proceso y, a continuación, consulte [Creación de una pieza sencilla con DisegnoPiezas](Creating_a_simple_part_with_PartDesign/es.md) para empezar a crear sólidos.
 
-Una discusión más detallada sobre el ambiente de trabajo Piezas frente al ambiente de trabajo de DiseñoPiezas se puede encontrar aquí: [ Piezas y DiseñoPiezas](Part_and_Part_Design/es.md).
+Una discusión más detallada sobre el ambiente de trabajo Piezas frente al ambiente de trabajo de DiseñoPiezas se puede encontrar aquí: [ Piezas y DiseñoPiezas](Part_and_PartDesign/es.md).
 
 Los cuerpos creados con PartDesign suelen estar sujetos al [problema de denominación topológica](Topological_naming_problem/es.md) que hace que las características internas cambien de nombre cuando se modifican las operaciones paramétricas. Este problema puede minimizarse siguiendo las mejores prácticas descritas en la página [edición de funciones](feature_editing/es.md), y aprovechando los objetos datum como soporte de bocetos y funciones.
 

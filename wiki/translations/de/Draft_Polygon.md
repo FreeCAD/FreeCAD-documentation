@@ -53,7 +53,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Drücke die Taste **<img src="images/Draft_Polygon.png" width=16px> [[Draft Polygon]]** oder drücke **P** dann **G** Tasten.
 2.  Passe die gewünschte Anzahl von Seiten im Optionsdialog an.
-3.  Klicke auf einen ersten Punkt in der 3D-Ansicht, oder gib eine [coordinate](Draft_Coordinates.md) und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> [add point](Draft_AddPoint.md)** Taste.
+3.  Klicke auf einen ersten Punkt in der 3D-Ansicht, oder gib eine Koordinate und drücke die **<img src="images/Draft_AddPoint.svg" width=16px> add point** Taste.
 4.  Klicke auf einen anderen Punkt in der 3D-Ansicht oder gib einen Radiuswert ein, um den Polygonradius zu definieren.
 
 
@@ -64,7 +64,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 The single character keyboard shortcuts available in the task panel can be changed. See [Draft Preferences](Draft_Preferences.md). The shortcuts mentioned here are the default shortcuts.
 
 -   To manually enter the coordinates for the center enter the X, Y and Z component, and press **Enter** after each. Or you can press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button when you have the desired values. It is advisable to move the pointer out of the [3D view](3D_view.md) before entering coordinates.
--   The **Relative** checkbox has no purpose for this command.
+-   The **Relative** checkbox, displayed in FreeCAD version 0.19 and earlier, has no purpose for this command.
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
 -   Press **L** or click the **Filled** checkbox to toggle filled mode. If filled mode is on, the created polygon will have **Make Face** set to `True` and will have a filled face.
 -   Press **T** or click the **Continue** checkbox to toggle continue mode. If continue mode is on, the command will restart after finishing, allowing you to continue creating polygons.

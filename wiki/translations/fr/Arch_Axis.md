@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil **<img src="images/Arch_Axis.svg" width=16px> [Axes](Arch_Axis/fr.md)** vous permet de placer une série d\'axes dans le document en cours. La distance et l\'angle entre les axes sont personnalisables, ainsi que le style de numérotation. Les axes servent principalement de références pour accrocher des objets mais peuvent également être utilisés avec **<img src="images/Arch_Axis_System.svg" width=16px> [Arch Système d'axes](Arch_AxisSystem/fr.md)**. Ils peuvent également être référencés par d\'autres objets Arch pour créer des réseaux paramétriques, par exemple des poutres ou des colonnes. **<img src="images/Arch_Grid.svg" width=16px> [Arch Grilles](Arch_Grid/fr.md)** peut également être utilisé à la place des axes.
+L\'outil **<img src="images/Arch_Axis.svg" width=16px> [Axes](Arch_Axis/fr.md)** vous permet de placer une série d\'axes dans le document en cours. La distance et l\'angle entre les axes sont personnalisables, ainsi que le style de numérotation. Les axes servent principalement de références pour accrocher des objets mais peuvent également être utilisés avec **<img src="images/Arch_AxisSystem.svg" width=16px> [Arch Système d'axes](Arch_AxisSystem/fr.md)**. Ils peuvent également être référencés par d\'autres objets Arch pour créer des réseaux paramétriques, par exemple des poutres ou des colonnes. **<img src="images/Arch_Grid.svg" width=16px> [Arch Grilles](Arch_Grid/fr.md)** peut également être utilisé à la place des axes.
 
 <img alt="" src=images/Arch_Axis_example.jpg  style="width:600px;"> 
 *Deux objets axes placés perpendiculairement l'un par rapport à l'autre pour créer une grille*

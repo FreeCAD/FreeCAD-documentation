@@ -1,6 +1,6 @@
 # Arch SectionPlane/ja
 ---
-- GuiCommand:/jp   Name:Arch SectionPlane   Name/jp:Arch SectionPlane   Workbenches:[[Arch Module/jp   建築]]|MenuLocation:Arch -> Section Plane   Shortcut:S P---
+- GuiCommand:/ja   Name:Arch SectionPlane   Name/ja:Arch SectionPlane   Workbenches:[[Arch Workbench/ja   建築]]|MenuLocation:Arch -> Section Plane   Shortcut:S P---
 
 
 </div>
@@ -41,7 +41,7 @@
 3.  Press the **<img src="images/Arch_SectionPlane.png" width=16px> '''SectionPlane'''** button or press **S** then **P** keys
 4.  [Move](Draft_Move.md)/[rotate](Draft_Rotate.md) the Section Plane into correct position if needed
 5.  Select the Section Plane if not selected already
-6.  Use either [Drawing DraftView](Draft_Drawing.md), [Draft Shape2DView](Draft_Shape2DView.md) or [TechDraw ArchView](TechDraw_NewArch.md) to create a view
+6.  Use either [Drawing DraftView](Draft_Drawing.md), [Draft Shape2DView](Draft_Shape2DView.md) or [TechDraw ArchView](TechDraw_ArchView.md) to create a view
 
 -   オブジェクトを選択します
 -   <img alt="" src=images/Arch_SectionPlane.png  style="width:16px;"> **SectionPlane**ボタンを押してください

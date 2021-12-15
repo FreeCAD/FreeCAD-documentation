@@ -86,7 +86,7 @@ There is another table of contents for the _.
     -   [Setting import-export preferences](Import_Export_Preferences.md)
     -   [Start up and configuration](Start_up_and_Configuration.md)
 
--   Python scripting
+-   [Python scripting](Scripting_and_macros.md)
     -   [Working with macros](Macros.md)
     -   [Script tutorial](Scripts.md)
     -   [Introduction to Python](Introduction_to_Python.md)

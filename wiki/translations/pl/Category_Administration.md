@@ -1,9 +1,9 @@
 # Category:Administration/pl
-This category contains articles and categories about wiki administrative subjects.
+Ta kategoria zawiera artykuły i kategorie dotyczące tematów administracyjnych wiki.
 
 ### Contents:
 
-_ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , [WikiPages/pl](WikiPages/pl.md) , ,
+_ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , [WikiPages/pl](WikiPages/pl.md) , [WikiRobots/pl](WikiRobots/pl.md) , ,
 
 _ _ _
 

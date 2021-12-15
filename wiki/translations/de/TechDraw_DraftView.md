@@ -18,10 +18,16 @@ Das <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> _ Werkze
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle ein Entwurfsobjekt in der 3D Ansicht oder im Baum
 2.  Wenn du mehrere Zeichnungsseiten in deinem Dokument hast, musst du die gewünschte Seite im Baum auswählen.
 3.  Drücke die **<img src="images/TechDraw_DraftView.svg" width=16px> [Entwurf Arbeitsbereichsobjekt einfügen](TechDraw_DraftView/de.md)** Schaltfläche
 4.  Eine Ansicht des Entwurfsobjekts erscheint auf der Seite.
+
+
+</div>
 
 ### Begrenzungen
 
@@ -29,13 +35,22 @@ Die EntwurfsAnsicht wird innerhalb der [Entwurf Arbeitsbereich](Draft_Workbench/
 
 ## Optionen
 
+
+<div class="mw-translate-fuzzy">
+
 -   Das Erstellen einer Entwurfsansicht einer Ebene behandelt rekursiv alle Objekte, die in dieser Ebene gefunden wurden. Die Ansicht wird automatisch aktualisiert, wenn sich der Inhalt der Ebene ändert.
 -   Es werden keine versteckten Linien entfernt. Jede Fläche, die in dem/den behandelten Objekt(en) gefunden wird, wird einfach entlang des Richtungsvektors projiziert, es werden keine besonderen Maßnahmen ergriffen, wenn sich Flächen überlappen.
 -   Die Entwurfsansicht unterstützt auch alle Entwurfsobjekte, die nicht teilbasiert sind, wie z.B. Bemaßungen und Texte
 -   Farbe, Linienbreite und Linienmuster können in den Eigenschaften angegeben werden. Linienmuster können durch direkte Angabe eines [stroke-dasharray](https://www.w3.org/TR/SVG/painting.html#StrokeProperties) Wertes, wie z.B. 3,5 fein abgestimmt werden.
 -   Projizierte Flächen werden mit der Flächenfarbe gefüllt
 
+
+</div>
+
 ## Eigenschaften
+
+
+<div class="mw-translate-fuzzy">
 
 -    {{PropertyData/de|Quelle}}: Das Entwurfsobjekt, das angezeigt werden soll
 
@@ -51,7 +66,16 @@ Die EntwurfsAnsicht wird innerhalb der [Entwurf Arbeitsbereich](Draft_Workbench/
 
 -    {{PropertyData/de|Zeilenabstand}}: Der zu verwendende Zeilenabstand bei mehrzeiligen Texte.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Hinweis: EntwurfAnsicht erbt alle anwendbaren Basisansichtseigenschaften.
+
+
+</div>
 
 ## Skripten
 

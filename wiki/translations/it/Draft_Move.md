@@ -53,8 +53,8 @@ See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
 
 1.  Selezionare gli oggetti che si desidera spostare o copiare
 2.  Premere il pulsante **<img src="images/Draft_Move.svg" width=16px> [Sposta](Draft_Move/it.md)**, o premere i tasti **M** e poi **V**. Se nessun oggetto è selezionato, viene chiesto di selezionarne uno.
-3.  Selezionare un primo punto nella vista 3D, oppure digitare le sue [coordinate ](Draft_Coordinates/it.md) e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**. Questo punto serve come punto base dell\'operazione.
-4.  Fare clic su un altro punto nella vista 3D o digitare una [coordinata](Draft_Coordinates/it.md) e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)**. Questo punto è la nuova posizione del punto base.
+3.  Selezionare un primo punto nella vista 3D, oppure digitare le sue coordinate e poi premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**. Questo punto serve come punto base dell\'operazione.
+4.  Fare clic su un altro punto nella vista 3D o digitare una coordinata e premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto**. Questo punto è la nuova posizione del punto base.
 
 
 </div>
@@ -67,7 +67,7 @@ The single character keyboard shortcuts mentioned here can be changed. See [Draf
 <div class="mw-translate-fuzzy">
 
 -   Premere **X**, **Y** o **Z** dopo il primo punto per vincolare il secondo punto su un dato asse.
--   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** tra ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> [aggiungi punto](Draft_AddPoint/it.md)** quando si hanno i valori desiderati per inserire il punto.
+-   Per inserire le coordinate manualmente, è sufficiente inserire i numeri, quindi premere **Invio** tra ciascun componente X, Y e Z. È possibile premere il pulsante **<img src="images/Draft_AddPoint.svg" width=16px> aggiungi punto** quando si hanno i valori desiderati per inserire il punto.
 -   Premere **R** o fare clic sulla casella di controllo per attivare la modalità \"relativa\". Se la modalità relativa è attiva, le coordinate del secondo punto sono relative alla prima; altrimenti sono assolute, prese dall\'origine (0,0,0).
 -   Premere **T** oppure fare clic sulla casella di controllo per attivare la modalità \"continua\". Se la modalità continua è attiva, lo strumento Sposta verrà riavviato al termine dell\'operazione, consentendo di spostare o copiare nuovamente gli oggetti senza premere nuovamente il pulsante dello strumento.
 -   Premere **P** oppure fare clic sulla casella di controllo per attivare la modalità *Copia*. Se la modalità copia è attiva, lo strumento Sposta mantiene la forma originale al suo posto e crea una copia nel secondo punto.

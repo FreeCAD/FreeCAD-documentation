@@ -104,7 +104,7 @@ No momento em que eu estou escrevendo isso, a [Bancada de arquitetura](Arch_Work
 <div class="mw-translate-fuzzy">
 
 
-{{Note|FreeCAD versão 0.14 obrigatório|Este tutorial foi escrito usando [FreeCAD version 0.14](Release_notes_014.md).  Você vai precisar ao menos dessa versão, a fim de segui-lo. As versões anteriores podem não conter todas as ferramentas necessárias, ou poderiam faltar opções apresentadas aqui.}}
+{{Note|FreeCAD versão 0.14 obrigatório|Este tutorial foi escrito usando [FreeCAD version 0.14](Release_notes_0.14.md).  Você vai precisar ao menos dessa versão, a fim de segui-lo. As versões anteriores podem não conter todas as ferramentas necessárias, ou poderiam faltar opções apresentadas aqui.}}
 
 
 </div>

@@ -57,8 +57,16 @@ This is useful to define the intersection points between the different axes. Arc
 
 ## Opţiuni
 
+
+<div class="mw-translate-fuzzy">
+
 -   Același obiect [Arch Axis](Arch_Axis.md) poate face parte din mai multe siteme
 -   Orice obiect shape-based poate fi utilizat ca proprietate**Axis** a obiectelor Arch. În acest caz, obiectul formă va fi duplicat de-a lungul vortexurilor obiectului Axă
+
+
+</div>
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">

@@ -57,7 +57,7 @@ If ticked, subsequent invocations of the tool skip showing the **Settings** task
 
 <div class="mw-translate-fuzzy">
 
-La función ComprobarGeometría comprueba si la _) del modelo es válida. Adicionalmente a esta comprobación de BRep, es posible tener una comprobación adicional de BOP (BOP= Boolean OPerations).
+La función ComprobarGeometría comprueba si la [Representación del límite](https://en.wikipedia.org/wiki/Boundary_representation) (BRep o B-rep) del modelo es válida. Adicionalmente a esta comprobación de BRep, es posible tener una comprobación adicional de BOP (BOP= Boolean OPerations).
 
 
 </div>

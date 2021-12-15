@@ -52,9 +52,9 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 
 1.  Presiona el botón **<img src="images/Draft_Dimension.png" width=16px> [cota](Draft_Dimension/es.md)
 **, o presiona las teclas **D** y **I**
-2.  Designa un punto en la vista 3D, o escribe unas [coordenadas](Draft_Coordinates/es.md)
-3.  Designa un segundo punto en la vista 3D, o escribe unas [coordenadas](Draft_Coordinates/es.md)
-4.  Designa un tercer punto en la vista 3D, o escribe unas [coordenadas](Draft_Coordinates/es.md)
+2.  Designa un punto en la vista 3D, o escribe unas coordenadas
+3.  Designa un segundo punto en la vista 3D, o escribe unas coordenadas
+4.  Designa un tercer punto en la vista 3D, o escribe unas coordenadas
 
 
 </div>
@@ -85,7 +85,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
 2.  The **Dimension** task panel opens. See [Options](#Options.md) for more information.
 3.  Hold down the **Alt** key, select two straight edges in the [3D view](3D_view.md) and release the **Alt** key.
 4.  To position the dimension arc pick a point in the [3D view](3D_view.md).
-5.  Depending on the edges and the picked point the displayed angle will be the acute (sharp) or obtuse (blunt) angle between the edges, or the angle of one of the edges with the horizontal. In some cases you may have to first add auxiliary geometry ([Draft Lines](Draft_Line.md) for example) to get a particular angle.
+5.  The displayed angle depends on the edges and the picked point.
 
 ### Options
 
