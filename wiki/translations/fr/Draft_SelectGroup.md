@@ -11,11 +11,20 @@
 
 ## Description
 
+
+<div class="mw-translate-fuzzy">
+
 La commande <img alt="" src=images/Draft_SelectGroup.svg  style="width:24px;"> **Draft Sélection groupée** sélectionne le contenu des objets [Draft Calques](Draft_Layer/fr.md), [Std Groupes](Std_Group/fr.md) ou des objets de type groupe [Arch](Arch_Workbench/fr.md).
 
-Actuellement, la commande ne fonctionne pas bien avec les calques et peut produire des résultats déroutants pour les objets qui se trouvent à la fois dans un calque et dans un groupe.
+
+</div>
+
+The command was revised in FreeCAD version 0.20 and this page describes that version.
 
 ## Utilisation
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Pour utiliser cette commande, au moins un groupe ou un calque doit exister.
 2.  Sélectionnez un ou plusieurs objets, la sélection peut inclure des groupes sélectionnés dans la [Vue en arborescence](Tree_view/fr.md).
@@ -26,6 +35,9 @@ Actuellement, la commande ne fonctionne pas bien avec les calques et peut produi
 4.  Les résultats de la commande dépendent de la sélection fournie :
     -   Pour un objet imbriqué simple, le groupe ou le calque dans lequel se trouve l\'objet, et son autre contenu, les objets apparentés de l\'objet donné, sont sélectionnés. Les objets apparentés peuvent inclure des groupes, mais le contenu de ces groupes imbriqués n\'est pas sélectionné.
     -   Pour un groupe donné, le groupe lui-même, le contenu du groupe et le contenu de tous les groupes imbriqués, quel que soit leur niveau d\'imbrication, sont sélectionnés, mais les groupes imbriqués eux-mêmes ne le sont pas.
+
+
+</div>
 
 ## Remarques
 

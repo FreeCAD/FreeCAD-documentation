@@ -3,7 +3,7 @@ This category lists pages related to the [Sketcher Workbench/bg](Sketcher_Workbe
 
 ### Contents:
 
-_ , [Sketcher Workbench/bg](Sketcher_Workbench/bg.md)
+[Sketcher Workbench/bg](Sketcher_Workbench/bg.md)
 
 _
 

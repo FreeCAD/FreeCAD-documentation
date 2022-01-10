@@ -1,22 +1,39 @@
 # Macro Colorize
 {{Macro
-|Name=Colorize
+|Name=Macro Colorize
 |Icon=Workbench_Image.svg
-|Description=Quickly and easily set colors of individual faces, edges, and vertices, including transparency
+|Description=Quickly and easily set the color and transparency of individual faces, edges, and vertices.
 |Author=TheMarkster
 |Version=1.02
 |Date=2021-12-12
-|FCVersion=python3 builds
+|FCVersion=Python3 builds
 |Download=[https://wiki.freecadweb.org/images/d/de/Workbench_Image.svg ToolBar Icon]
 }}
 
 ## Description
 
-Allows to quickly and easily set the colors and transparency levels for individual faces, edges, and vertices. Usage: Select the subobjects and run the macro. The standard Qt color picker dialog will appear. Select the color and set the desired alpha (0 = fully opaque, 255 = fully transparent), click OK to close the dialog and use the color, or Cancel to cancel the macro. If more than one object is selected a different dialog will appear for each object.
+This macro allows to quickly and easily set the color and transparency of individual faces, edges, and vertices.
 
-The current color of the first selected subobject of the current object will be the default color in the dialog. The first 2 custom colors will be the default gray for faces and the default black for edges and points. Alpha channel default will be 0 (no transparency).
+## Usage
 
-Notes: You may color any edge, vertex, or face any color you like, but bear in mind you should probably stay away from the default colors used for selection (green) and preselection (yellow) indicators. Transparency option does not appear to function for edges and points, only for faces. When making a face transparent, it is still selectable in the 3D view. If the interior appears black and you would prefer to see the face colors set in the view tab the Lighting property from One side to Two side. Transparency is a global property for the entire object, so if you change it in the view tab it will override the transparency settings made for individual faces using this macro.
+1.  Select one or more subobjects.
+2.  Run the macro.
+3.  The standard Qt color dialog opens.
+4.  Select the color.
+5.  Set the transparency by changing the alpha channel (0 = fully opaque, 255 = fully transparent).
+6.  Do one of the following:
+    -   Press the **OK** button to close the dialog and apply the color and transparency.
+    -   Press the **Cancel** button to cancel the macro.
+7.  If you have pressed **OK** and the subobjects belong to more than one object, the color dialog will re-open for the next object.
+
+## Notes
+
+-   The current color of the first selected subobject of the current object will be the default color in the dialog. The first 2 custom colors will be the default gray for faces, and the default black for edges and points. The default for the alpha channel will be 0 (no transparency).
+-   You can use any color you like, but you should probably avoid the colors used for selection (default: green) and preselection (default: yellow) indicators.
+-   The transparency option does not appear to function for edges and points, only for faces.
+-   A transparent face is still selectable in the 3D view.
+-   If the interior side of faces appears black and you would prefer to see the face colors, change the Lighting property of the object from One side to Two side on the View tab.
+-   The Color properties and the Transparency property of an object are global properties. Changing them will override any changes made to individual subobjects.
 
 ## Script
 

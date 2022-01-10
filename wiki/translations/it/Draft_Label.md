@@ -76,6 +76,40 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
+#### Tipi di etichette 
+
+
+</div>
+
+The following label types are available:
+
+
+<div class="mw-translate-fuzzy">
+
+-    **Custom:**visualizza il contenuto di **Custom Text**.
+
+-    **Name:**visualizza il nome interno dell\'oggetto destinatario; il nome interno viene assegnato all\'oggetto al momento della sua creazione e rimane fisso per tutta l\'esistenza dell\'oggetto.
+
+-    **Label:**visualizza l\'etichetta dell\'oggetto destinatario; l\'etichetta dell\'oggetto può essere modificata dall\'utente in qualsiasi momento.
+
+-    **Position:**visualizza le coordinate del punto base dell\'oggetto, del vertice o del centro di massa del sottoelemento destinatari, se applicabile.
+
+-    **Length:**mostra la lunghezza del sottoelemento di destinazione, se possibile.
+
+-    **Area:**mostra l\'area del sottoelemento di destinazione, se possibile.
+
+-    **Volume:**mostra il volume dell\'oggetto di destinazione, se possibile.
+
+-    **Tag:**mostra l\'attributo `Tag` dell\'oggetto di destinazione, se l\'oggetto di destinazione ha tale proprietà, come nel caso di tutti gli oggetti[Arch](Arch_Workbench/it.md).
+
+-    **Material:**mostra l\'etichetta del materiale dell\'oggetto di destinazione, se l\'oggetto di destinazione ha tale proprietà.
+
+
+</div>
+
 ## Notes
 
 
@@ -141,32 +175,6 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 -    **Target|LinkSub**: specifies the object and optional subelement the label is linked to.
 
 -    **Target Point|Vector**: specifies the position of the tip of the leader, which is where the arrow is attached.
-
-#### Tipi di etichette 
-
-
-<div class="mw-translate-fuzzy">
-
--    **Custom:**visualizza il contenuto di **Custom Text**.
-
--    **Name:**visualizza il nome interno dell\'oggetto destinatario; il nome interno viene assegnato all\'oggetto al momento della sua creazione e rimane fisso per tutta l\'esistenza dell\'oggetto.
-
--    **Label:**visualizza l\'etichetta dell\'oggetto destinatario; l\'etichetta dell\'oggetto può essere modificata dall\'utente in qualsiasi momento.
-
--    **Position:**visualizza le coordinate del punto base dell\'oggetto, del vertice o del centro di massa del sottoelemento destinatari, se applicabile.
-
--    **Length:**mostra la lunghezza del sottoelemento di destinazione, se possibile.
-
--    **Area:**mostra l\'area del sottoelemento di destinazione, se possibile.
-
--    **Volume:**mostra il volume dell\'oggetto di destinazione, se possibile.
-
--    **Tag:**mostra l\'attributo `Tag` dell\'oggetto di destinazione, se l\'oggetto di destinazione ha tale proprietà, come nel caso di tutti gli oggetti[Arch](Arch_Workbench/it.md).
-
--    **Material:**mostra l\'etichetta del materiale dell\'oggetto di destinazione, se l\'oggetto di destinazione ha tale proprietà.
-
-
-</div>
 
 ### View
 

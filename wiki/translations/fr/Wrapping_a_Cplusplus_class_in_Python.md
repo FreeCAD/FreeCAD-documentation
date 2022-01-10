@@ -28,7 +28,10 @@ Editez le fichier approprié {{FileName|CMakeLists.txt}} pour ajouter des réfé
 
 Le fichier XML `[YourClass]Py.xml` fournit des informations sur les fonctions et attributs que la classe Python implémente ainsi que la documentation utilisateur pour ces éléments qui s\'affiche dans la [Console Python](Python_console/fr.md) de FreeCAD.
 
-Pour cet exemple, nous allons examiner le wrapper de la classe Axis C++. Le fichier de description XML commence par: {{Code|lang=xml|code=
+Pour cet exemple, nous allons examiner le wrapper de la classe Axis C++. Le fichier de description XML commence par:
+
+
+{{Code|lang=xml|code=
 <?xml version="1.0" encoding="UTF-8"?>
 <GenerateModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="generateMetaModel_Module.xsd">
     <PythonExport
@@ -45,7 +48,9 @@ Pour cet exemple, nous allons examiner le wrapper de la classe Axis C++. Le fich
     <Documentation>
         <Author Licence="LGPL" Name="Juergen Riegel" EMail="FreeCAD@juergen-riegel.net" />
         <UserDocu>Axis
-}} Et définit une direction et une position (base) dans l\'espace 3D.
+}}
+
+Et définit une direction et une position (base) dans l\'espace 3D.
 
 Les constructeurs suivants sont pris en charge :
 
@@ -54,35 +59,49 @@ Les constructeurs suivants sont pris en charge :
 -   Axis(Base, Direction) \-- définit la position et la direction
 
 
-{{Code|lang=xml|code=
-        </UserDocu>
-        <DeveloperDocu>Axis</DeveloperDocu>
-    </Documentation>
+{{Code|lang=xml|code= 
+    </UserDocu>
+    <DeveloperDocu>Axis</DeveloperDocu>
+</Documentation>
 }}
 
-Après ce préambule, une liste de méthodes et d\'attributs est donnée. Le format d\'une méthode est le suivant : {{Code|lang=xml|code=
-    <Methode Name="move">
-      <Documentation>
+Après ce préambule, une liste de méthodes et d\'attributs est donnée. Le format d\'une méthode est le suivant :
+
+
+{{Code|lang=xml|code=
+<Methode Name="move">
+    <Documentation>
         <UserDocu>
         move(Vector)
         Move the axis base along the vector
         </UserDocu>
-      </Documentation>
-    </Methode>
+    </Documentation>
+</Methode>
 }}
 
-Le format d\'un attribut est : {{Code|lang=xml|code=
-    <Attribute Name="Direction" ReadOnly="false">
-      <Documentation>
+Le format d\'un attribut est :
+
+
+{{Code|lang=xml|code=
+<Attribute Name="Direction" ReadOnly="false">
+    <Documentation>
         <UserDocu>Direction vector of the Axis</UserDocu>
-      </Documentation>
-      <Parameter Name="Direction" Type="Object" />
-    </Attribute>
+    </Documentation>
+    <Parameter Name="Direction" Type="Object" />
+</Attribute>
 }}
 
-Pour un attribut, si \"ReadOnly\" est faux, vous devez fournir une fonction getter et une fonction setter. Si elle est vraie, seule une fonction getter est autorisée. Dans ce cas, nous devrons fournir deux fonctions dans le fichier C++ d\'implémentation : {{Code|lang=cpp|code=
+Pour un attribut, si \"ReadOnly\" est faux, vous devez fournir une fonction getter et une fonction setter. Si elle est vraie, seule une fonction getter est autorisée. Dans ce cas, nous devrons fournir deux fonctions dans le fichier C++ d\'implémentation :
+
+
+{{Code|lang=cpp|code=
 Py::Object AxisPy::getDirection(void) const
-}} et {{Code|lang=cpp|code=
+}}
+
+et :
+
+
+{{Code|lang=cpp|code=
 void AxisPy::setDirection(Py::Object arg)
 }}
 
@@ -92,12 +111,15 @@ Le fichier d\'implémentation C++ `[YourClass]PyImp.cpp` fournit la \"colle\" qu
 
 ### Fichiers inclus 
 
-Votre fichier d\'implémentation C++ comprendra les fichiers suivants : {{Code|lang=cpp|code=
+Votre fichier d\'implémentation C++ comprendra les fichiers suivants :
+
+
+{{Code|lang=cpp|code=
 #include "PreCompiled.h"
 
 #include "[YourClass].h"
 
-// Inclusion des fichiers générés (générés à partir de [YourClass]Py.xml)
+// Inclusion of the generated files (generated out of [YourClass]Py.xml)
 #include "[YourClass]Py.h"
 #include "[YourClass]Py.cpp"
 }}
@@ -106,11 +128,17 @@ Bien entendu, vous pouvez inclure tous les autres en-têtes C++ dont votre code 
 
 ### Constructeur
 
-Votre implémentation C++ doit contenir la définition de la fonction PyInit : par exemple, pour le wrapper de la classe Axis, c\'est {{Code|lang=cpp|code=
+Votre implémentation C++ doit contenir la définition de la fonction PyInit : par exemple, pour le wrapper de la classe Axis, c\'est
+
+
+{{Code|lang=cpp|code=
 int AxisPy::PyInit(PyObject* args, PyObject* /*kwd*/)
 }}
 
-Dans cette fonction, vous aurez probablement besoin d\'analyser les arguments entrants du constructeur : la fonction la plus importante à cet effet est la fonction fournie par Python `PyArg_ParseTuple`. Elle prend en compte la liste des arguments passés, un descripteur pour les arguments attendus qu\'elle doit analyser, ainsi que les informations de type et les emplacements de stockage pour les résultats analysés. Par exemple : {{Code|lang=cpp|code=
+Dans cette fonction, vous aurez probablement besoin d\'analyser les arguments entrants du constructeur : la fonction la plus importante à cet effet est la fonction fournie par Python `PyArg_ParseTuple`. Elle prend en compte la liste des arguments passés, un descripteur pour les arguments attendus qu\'elle doit analyser, ainsi que les informations de type et les emplacements de stockage pour les résultats analysés. Par exemple :
+
+
+{{Code|lang=cpp|code=
     PyObject* d;
     if (PyArg_ParseTuple(args, "O!O", &(Base::VectorPy::Type), &o,
                                       &(Base::VectorPy::Type), &d)) {

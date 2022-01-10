@@ -19,11 +19,11 @@ La commande <img alt="" src=images/Draft_Stretch.svg  style="width:24px;"> **Dra
 
 ## Utilisation
 
-Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Sélectionnez un ou plusieurs objets. Les objets doivent être des [Draft Lignes](Draft_Line/fr.md), [Draft Polylignes](Draft_Wire/fr.md), [Draft Rectangles](Draft_Rectangle/fr.md), [Draft B-splines](Draft_BSpline/fr.md) ou [Draft Courbes de Bézier](Draft_BezCurve/fr.md). Les autres objets sont ignorés.
 2.  Il existe plusieurs façons d\'invoquer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_Stretch.svg" width=16px> [Etire les objets sélectionnés](Draft_Stretch/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Draft_Stretch.svg" width=16px> [Étirer](Draft_Stretch/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Stretch.svg" width=16px> Étirer** dans le menu.
     -   Utilisez le raccourci clavier : **S** puis **H**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
@@ -43,7 +43,7 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
 -   La case à cocher **Rempli** n\'a aucune utilité pour cette commande.
 -   La case à cocher **Continuer** n\'a pas d\'utilité pour cette commande.
--   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
+-   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
 
 ## Préférences

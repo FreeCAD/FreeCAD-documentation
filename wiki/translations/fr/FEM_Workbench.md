@@ -9,18 +9,18 @@ L\'[atelier FEM](FEM_Workbench/fr.md) fournit un flux de travail moderne d\'[ana
 
 <img alt="" src=images/FemWorkbench.jpg  style="width:300px;">
 
-## Flux de travail 
+## Déroulement des tâches 
 
 Les étapes pour effectuer une analyse d'éléments finis sont les suivantes :
 
 1.  Prétraitement : configuration du problème d\'analyse.
-    1.  Modélisation de la géométrie : création de la géométrie avec FreeCAD ou importation à partir d\'une autre application.
+    1.  Modélisation de la géométrie : création de la géométrie avec FreeCAD, ou importation depuis une autre application.
     2.  Créer une analyse.
-        1.  Ajout de contraintes de simulation telles que des charges et supports fixes au modèle géométrique.
-        2.  Ajout de matériaux aux pièces du modèle géométrique.
-        3.  Ajout d'un matériau au modèle d'analyse.
-2.  Résolution : résoudre un système d\'équations en utilisant un solveur externe depuis FreeCAD.
-3.  Post-traitement : visualisation des résultats d\'analyse depuis FreeCAD.
+        1.  Ajout de contraintes de simulation telles que des charges et des supports fixes au modèle géométrique.
+        2.  Ajout de matériaux aux parties du modèle géométrique.
+        3.  Créer un maillage d\'éléments finis pour le modèle géométrique, ou l\'importer d\'une autre application.
+2.  Résolution : exécution d\'un solveur externe à partir de FreeCAD.
+3.  Post-traitement : visualiser les résultats de l\'analyse depuis FreeCAD, ou exporter les résultats pour qu\'ils puissent être post-traités avec une autre application.
 
 L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linux. Étant donné que l\'atelier utilise des solveurs externes, la quantité d'installation manuelle dépend du système d'exploitation utilisé. Voir la page [Installation FEM](FEM_Install/fr.md) pour des instructions sur la configuration des outils externes.
 
@@ -34,7 +34,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_Analysis.svg  style="width:32px;"> [Conteneur d\'analyse](FEM_Analysis/fr.md) : Crée un nouveau conteneur pour une analyse mécanique. Si un solide est sélectionné dans l\'arborescence avant de cliquer dessus, la boîte de dialogue de maillage s\'ouvrira.
 
-### Materiaux
+### Matériaux
 
 -   <img alt="" src=images/FEM_MaterialSolid.svg  style="width:32px;"> [Matériau pour solide](FEM_MaterialSolid/fr.md) : Vous permet de sélectionner un matériau solide de la base de données.
 
@@ -46,7 +46,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/Arch_Material_Group.svg  style="width:32px;"> [Editeur de matériaux](Material_editor/fr.md) : Permet d\'ouvrir l\'éditeur de matériaux pour éditer des matériaux.
 
-### Géométrie d\'élément 
+### Géométrie de l\'élément 
 
 -   <img alt="" src=images/FEM_ElementGeometry1D.svg  style="width:32px;"> [Coupe transversale de poutre](FEM_ElementGeometry1D/fr.md) :Utilisé pour définir les coupes transversales des éléments de poutre.
 
@@ -56,7 +56,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_ElementFluid1D.svg  style="width:32px;"> [Section fluide pour flux 1D](FEM_ElementFluid1D/fr.md) : crée un élément de section fluide FEM pour les réseaux pneumatiques et hydrauliques.
 
-### Contraintes Electrostatiques 
+### Contraintes électrostatiques 
 
 -   <img alt="" src=images/FEM_ConstraintElectrostaticPotential.svg  style="width:32px;"> [Contrainte électrostatique potentielle](FEM_ConstraintElectrostaticPotential/fr.md) :
 
@@ -132,7 +132,7 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 -   <img alt="" src=images/FEM_FemMesh2Mesh.svg  style="width:32px;"> [Maillage à maillage MEF](FEM_FemMesh2Mesh/fr.md) : convertit la surface d\'un maillage MEF en maillage.
 
-## Menu : Résoudre 
+## Menu : Solveur 
 
 -   <img alt="" src=images/FEM_SolverCalculixCxxtools.svg  style="width:32px;"> [Solveur Calculix standard](FEM_SolverCalculixCxxtools/fr.md) : Crée un nouveau solveur pour cette analyse. Dans la plupart des cas, le solveur est créé avec l\'analyse.
 
@@ -210,17 +210,17 @@ L\'atelier FEM peut être utilisé sur les plates-formes Windows, MacOSX et Linu
 
 Les pages suivantes décrivent différents sujets de l\'atelier FEM.
 
-[FEM Install](FEM_Install/fr.md) pour plus d\'informations sur la méthode de configuration et d\'utilisation de l\'atelier FEM.
+[FEM Installation des composants requis](FEM_Install/fr.md) : une description détaillée de la configuration des programmes externes utilisés dans l\'atelier.
 
-[FEM Mesh](FEM_Mesh/fr.md) pour plus d\'informations à propos de FEM Mesh dans l\'atelier FEM.
+[FEM Maillage](FEM_Mesh/fr.md) : des informations complémentaires sur l\'obtention d\'un maillage pour l\'analyse par éléments finis.
 
-[ FEM Solver](FEM_Solver/fr.md) des informations supplémentaires sur les différents solveurs disponibles dans l'atelier et sur ceux qui pourraient être utilisés à l'avenir.
+[FEM Solveur](FEM_Solver/fr.md) : des informations supplémentaires sur les différents solveurs disponibles dans l'atelier et sur ceux qui pourraient être utilisés à l'avenir.
 
-[FEM CalculiX](FEM_CalculiX/fr.md) pour plus d'informations sur CalculiX, le solveur par défaut utilisé dans l\'atelier pour l\'analyse des structures.
+[FEM CalculiX](FEM_CalculiX/fr.md) : pour plus d'informations sur CalculiX, le solveur par défaut utilisé dans l\'atelier pour l\'analyse des structures.
 
-[FEM Concrete](FEM_Concrete/fr.md) pour des informations sur l\'analyse des structures en béton.
+[FEM Béton](FEM_Concrete/fr.md) : des informations intéressantes sur le thème de la simulation des structures en béton.
 
-[FEM Project](FEM_project/fr.md) pour plus de détails et d\'informations sur les unités, limitations et développement sur l\'atelier FEM.
+[FEM Projet](FEM_project/fr.md) : pour plus de détails et d\'informations sur les unités, limitations et développement sur l\'atelier FEM.
 
 ## Tutoriels
 

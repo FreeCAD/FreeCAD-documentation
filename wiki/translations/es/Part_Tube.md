@@ -27,10 +27,19 @@ El comando Tubo inserta un tubo en el documento activo. El tubo es geométricame
 
 ## Uso
 
+
+<div class="mw-translate-fuzzy">
+
 Se puede crear un tubo:
 
 -   presionando el botón **<img src="images/Part_Tube.svg" width=16px> '''Crea un Tubo'''** en la barra de herramientas; o bien:
 -   usando el menú **Pieza → Primitivas → Crear un tubo**
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Para editar el tubo:
 
@@ -39,7 +48,13 @@ Para editar el tubo:
     -   editando los parámetros en la caja de diálogo que aparece
 -   o usando el [Editor de propiedades](property_editor/es.md) modificando sus propiedades para editar sus parámetros
 
+
+</div>
+
 ## Propiedades
+
+
+<div class="mw-translate-fuzzy">
 
 -   Por medio del [Editor de propiedades](Property_editor/es.md):
     -   **Height o Altura:** Selecciona la altura (por defecto es 10 mm).
@@ -47,6 +62,21 @@ Para editar el tubo:
     -   **Outer radius o Radio exterior:** Selecciona el radio exterior (por defecto es 5 mm).
     -   **Placement o Localización:** Especifica la orientación y la posición de la caja en el espacio 3D. Ver [ Placement](Placement/es.md). El punto de referencia es la esquina inferior izquierda frontal de la caja.
     -   **Label o Etiqueta:** Es el nombre dado a la operación. Este nombre puede ser cambiado si es conveniente.
+
+
+</div>
+
+## Scripting
+
+A Part Tube can be created using the following function:
+
+
+```python
+tube = FreeCAD.ActiveDocument.addObject("Part::Tube", "myTube")
+```
+
+-   Where {{Incode|"myTube"}} is the name for the object.
+-   The function returns the newly created object.
 
 
 <div class="mw-translate-fuzzy">

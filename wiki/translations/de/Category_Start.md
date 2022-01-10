@@ -3,7 +3,7 @@ This category lists pages related to the [Start Workbench/de](Start_Workbench/de
 
 ### Contents:
 
-_ , [Start Workbench/de](Start_Workbench/de.md)
+[Start Preferences/de](Start_Preferences/de.md) , [Start Workbench/de](Start_Workbench/de.md)
 
 _
 

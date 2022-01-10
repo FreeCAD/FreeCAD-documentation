@@ -102,6 +102,9 @@ Um der PATH Variablen Ordnerpfade hinzuzufügen:
 
 ## Konfiguration
 
+
+<div class="mw-translate-fuzzy">
+
 Sobald du alle notwendigen Werkzeuge, Bibliotheken und den FreeCAD-Quellcode hast, bist du bereit für die Konfiguration und den Kompilierungsprozess. Dieser Prozess durchläuft fünf Schritte:
 
 1.  Führe CMake einmal aus, um dein System zu untersuchen und den Konfigurationsprozess zu beginnen (dieser wird melden, dass er fehlgeschlagen ist).
@@ -110,7 +113,13 @@ Sobald du alle notwendigen Werkzeuge, Bibliotheken und den FreeCAD-Quellcode has
 4.  Benutze CMake, um das Visual Studio Build System zu generieren.
 5.  Benutze Visual Studio, um FreeCAD zu kompilieren.
 
+
+</div>
+
 ### CMake
+
+
+<div class="mw-translate-fuzzy">
 
 Konfiguriere zunächst die Bauumgebung mit CMake:
 
@@ -119,6 +128,9 @@ Konfiguriere zunächst die Bauumgebung mit CMake:
 3.  Gib einen Bauordner an (verwende nicht den Quellordner \-- CMake erstellt diesen Ordner, wenn er nicht existiert).
 4.  Klicke auf *Konfigurieren*\'.
 5.  In dem erscheinenden Dialog gib den gewünschten Generator an: In den meisten Fällen wirst du die Voreinstellungen in diesem Dialogfeld verwenden. Für das standardmäßige MS Visual Studio verwende *Visual Studio xx 2yyy*, wobei xx die Compiler Version und 2yyy das Jahr der Veröffentlichung ist. Es wird empfohlen, die Standardoption *Use default native compilers* zu verwenden.
+
+
+</div>
 
 **Hinweis:** Es ist wichtig, die richtige Bitvariante anzugeben. Wenn du die 64-bit Variante von LibPack hast, musst du auch den x64 Compiler verwenden.
 
@@ -139,11 +151,17 @@ Wenn es mit einer Meldung über eine falsche Python-Version oder fehlendes Pytho
 
 ![](images/CMake_Python_settings.png )
 
+
+<div class="mw-translate-fuzzy">
+
 Wenn es keinen Fehler zu Visual Studio oder Python gibt, ist alles in Ordnung, aber CMake kennt noch nicht alle notwendigen Einstellungen. Deshalb jetzt:
 
 1.  Suche in CMake nach der Variable **FREECAD\_LIBPACK\_DIR** und gib den Ort des LibPack Ordners an, den du zuvor heruntergeladen hast.
 2.  Nur beim Kompilieren von FreeCAD 0.19 suche nach der Variable **BUILD\_QT5** und aktiviere diese Option.
 3.  Klicke erneut auf **Configure**.
+
+
+</div>
 
 Es sollten nun keine Fehler mehr auftreten. Wenn du weiterhin auf Fehler stößt, die du nicht diagnostizieren kannst, besuche das [Install/Compile forum](https://forum.freecadweb.org/viewforum.php?f=4) auf der FreeCAD Forum Webseite. Wenn CMake korrekt vorgegangen ist, klicke auf **Generieren**. Nachdem dies geschehen ist, kannst du CMake schließen und die Kompilierung von FreeCAD mit Visual Studio starten. Lasse es jedoch für die erste Kompilierung geöffnet, falls du einige Optionen für den Bauprozess ändern willst oder musst.
 

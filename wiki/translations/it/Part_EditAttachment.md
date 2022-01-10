@@ -269,7 +269,13 @@ Allinea il piano attraverso i primi due vertici e perpendicolare al piano che pa
 
 #### Pieghevole
 
+
+<div class="mw-translate-fuzzy">
+
 Modalità speciale per piegare i poliedri. Selezionare 4 bordi nell\'ordine: bordo pieghevole, linea di piegatura, altra linea di piegatura, altro bordo pieghevole. Il piano è allineato per piegare il primo bordo. Nell\'immagine seguente, non è necessario che entrambe le foglie da piegare siano uguali.
+
+
+</div>
 
 :; Combinazioni di riferimenti:
 

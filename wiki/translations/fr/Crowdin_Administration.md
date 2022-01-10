@@ -11,7 +11,7 @@
     -   Répondez aux questions des traducteurs dans l\'interface Crowdin. Par exemple, si plus de contexte est nécessaire; ou il y a une erreur dans la chaîne à traduire, ou une traduction qui a été acceptée ou approuvée est contestée etc \...
     -   Signalez aux développeurs tout problème pertinent nécessitant des modifications du code source, etc.
 
-### Filtering Strings 
+### Filtrage des chaînes 
 
 <img alt="" src=images/Crowdin_Filter_Strings.png  style="width:300px;"> Le filtrage des chaînes est une fonctionnalité utile pour les relecteurs et les gestionnaires. Il donne à la personne la possibilité de trier efficacement de nombreuses chaînes de traduction pour ne montrer, par exemple, que les chaînes marquées comme \"manquant d\'informations plus contextuelles\" ou \"chaîne source incorrecte\". Ce service fourni par les traducteurs pour FreeCAD fournit une couche supplémentaire de tests d\'assurance qualité. De nombreuses fautes de frappe, problèmes de grammaire et même des bogues peuvent être exposés via la vérification des chaînes de traduction. Et donc les utilisateurs marquent ces chaînes problématiques pour que nous puissions y répondre et éventuellement les résoudre.
 

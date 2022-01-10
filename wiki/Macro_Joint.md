@@ -16,16 +16,21 @@
 
 This macro is used to create joints of various types, including mortise and tenon joints, box joints, dovetail joints, finger joints (using dovetail type), and a few snap joints, including cantilever, annular, ball, and split types.
 
-## Usage
-
-1.  Select a face and run the macro.
-2.  Select the joint type to create. You will then find a parametric joint object with some default property settings, which will need to be modified for your particular needs.
-
 The macro works in [Part Design Workbench](PartDesign_Workbench.md), but also with solids created in any other workbench.
 
 Full documentation can be found on github: [Joint](https://github.com/mwganson/joint).
 
- <img alt="" src=images/Macro_joint_scr1.png  style="width:600px;">  
+## Usage
+
+1.  Select a face.
+2.  Run the macro.
+3.  The **Joint type** dialog opens.
+4.  Select a joint type from the dropdown list.
+5.  Press the **OK** button.
+6.  A parametric joint object is created.
+7.  Optionally change the properties of the joint object.
+
+ <img alt="" src=images/Macro_joint_scr1.png  style="width:400px;">  
 *Macro Joint screenshot -- a few of the joint types that can be made‎*
 
 ## Legend

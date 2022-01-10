@@ -71,7 +71,7 @@ Les outils suivants sont disponibles dans ce menu:
     -   <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:32px;"> [Ombrée](Std_DrawStyle#Shaded/fr.md): bascule le style de dessin sur: Ombrée.
     -   <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> [Filaire ombré](Std_DrawStyle#Flat_lines/fr.md): bascule le style de dessin sur: Filaire ombré.
 
--   <img alt="" src=images/Std_SelBoundingBox.svg  style="width:32px;"> [Boîte de délimitation](Std_SelBoundingBox/fr.md): bascule le mode de surbrillance du cadre de sélection. {{Version/fr|0.19}}
+-   <img alt="" src=images/Std_SelBoundingBox.svg  style="width:32px;"> [Boîte englobante](Std_SelBoundingBox/fr.md): bascule le mode de surbrillance du cadre de sélection. {{Version/fr|0.19}}
 
 -   Vue stéréoscopique
     -   <img alt="" src=images/Std_ViewIvStereoRedGreen.svg  style="width:32px;"> [Stéréo rouge/cyan](Std_ViewIvStereoRedGreen/fr.md): bascule en vue stéréo rouge/cyan.

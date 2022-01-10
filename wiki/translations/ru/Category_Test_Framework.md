@@ -1,5 +1,5 @@
 # Category:Test Framework/ru
-This category lists pages related to the [Test Framework Workbench/ru](Test_Framework_Workbench/ru.md).
+This category lists pages related to the [Test Framework Workbench](Testing/ru.md).
 
 ### Contents:
 

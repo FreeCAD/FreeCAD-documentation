@@ -19,24 +19,55 @@ The Tube command inserts a tube into the active document. The tube is geometrica
 
 To create a tube either:
 
--   press the **<img src="images/Part_Tube.svg" width=16px> '''Tube'''** button in the toolbar
+-   press the **<img src="images/Part_Tube.svg" width=16px> Tube** button in the toolbar
 -   use the menu **Part → Primitives → Create tube**
 
-To edit the tube
+To edit the tube:
 
 -   either
     -   select it in the tree and double-click on it
     -   edit the parameters in the appearing dialog
--   or use the the [ property editor](Property_editor.md) to edit the parameters
+-   or use the the [property editor](Property_editor.md) to edit the parameters
 
 ## Properties
 
--   Via the [ Property Editor](Property_editor.md):
-    -   **Height:** Sets the height (default is 10 mm).
-    -   **Inner Radius:** Set the inner radius (default is 2 mm).
-    -   **Outer Radius:** Set the outer radius (default is 5 mm).
-    -   **Placement:** Specifies the orientation and position of the Box in the 3D space. See [ Placement](Placement.md). The reference point is the left front lower corner of the box.
-    -   **Label:** The Label is the name given to the operation. This name can be changed at your convenience.
+-   Via the [Property Editor](Property_editor.md):
+    -   
+        **Placement**
+        
+        : Specifies the orientation and position of the Box in the 3D space. See [Placement](Placement.md). The reference point is the left front lower corner of the box.
+
+    -   
+        **Label**
+        
+        : The Label is the name given to the operation. This name can be changed at your convenience.
+
+    -   
+        **Height**
+        
+        : Sets the height (default is 10 mm).
+
+    -   
+        **Inner Radius**
+        
+        : Set the inner radius (default is 2 mm).
+
+    -   
+        **Outer Radius**
+        
+        : Set the outer radius (default is 5 mm).
+
+## Scripting
+
+A Part Tube can be created using the following function:
+
+ 
+```python
+tube = FreeCAD.ActiveDocument.addObject("Part::Tube", "myTube")
+```
+
+-   Where {{Incode|"myTube"}} is the name for the object.
+-   The function returns the newly created object.
 
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Tube

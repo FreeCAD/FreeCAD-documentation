@@ -68,6 +68,32 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
+## Tipuri de etichete 
+
+
+</div>
+
+The following label types are available:
+
+
+<div class="mw-translate-fuzzy">
+
+-   **Custom**: Afișează conținutul proprietății text personalizat
+-   **Name**: Afișează numele obiectului țintă
+-   **Label**: Afișează eticheta obiectului țintă
+-   **Poziția**: Afișează coordonatele obiectului țintă (punctul de bază al amplasamentului) sau coordonatele vârfului țintă, dacă este cazul, sau coordonatele centrului subelementului țintă (centrul de masă)
+-   **Length**: Afișează lungimea subelementului țintă, dacă este posibil
+-   **Area**: Arată suprafața subelementului țintă, dacă este posibil
+-   **Volume**: Afișează volumul obiectului țintă, dacă este posibil
+-   **Tag**: Afișează valoarea etichetei obiectului țintă, dacă obiectul țintă are o astfel de proprietate (ceea ce este cazul tuturor obiectelor Arch)
+-   **Material**: Afișează eticheta materialului obiectului țintă, dacă obiectul țintă are o astfel de proprietate
+
+
+</div>
+
 ## Notes
 
 -   The direction of the second segment of the leader determines the alignment of the text. If the segment is horizontal and pointing to the right the text is aligned to the left and vice versa. If the second segment goes vertically up, the text is aligned to the left. If it goes vertically down, the text is aligned to the right.
@@ -135,30 +161,6 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 -    **Target Point|Vector**: specifies the position of the tip of the leader, which is where the arrow is attached.
 
-
-<div class="mw-translate-fuzzy">
-
-## Tipuri de etichete 
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   **Custom**: Afișează conținutul proprietății text personalizat
--   **Name**: Afișează numele obiectului țintă
--   **Label**: Afișează eticheta obiectului țintă
--   **Poziția**: Afișează coordonatele obiectului țintă (punctul de bază al amplasamentului) sau coordonatele vârfului țintă, dacă este cazul, sau coordonatele centrului subelementului țintă (centrul de masă)
--   **Length**: Afișează lungimea subelementului țintă, dacă este posibil
--   **Area**: Arată suprafața subelementului țintă, dacă este posibil
--   **Volume**: Afișează volumul obiectului țintă, dacă este posibil
--   **Tag**: Afișează valoarea etichetei obiectului țintă, dacă obiectul țintă are o astfel de proprietate (ceea ce este cazul tuturor obiectelor Arch)
--   **Material**: Afișează eticheta materialului obiectului țintă, dacă obiectul țintă are o astfel de proprietate
-
-
-</div>
-
 ### View
 
 
@@ -184,9 +186,9 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 -    **Line|Bool**: specifies whether to display the leader line. If it is `False` only the arrow and the text are displayed.
 
--    **Line Color|Color**: specifies the color of the leader and the arrow.
+-    **Line Color|Color**: specifies the color of the leader and the arrow. This is also used for the frame (<small>(v0.20)</small> ).
 
--    **Line Width|Float**: specifies the width of the leader.
+-    **Line Width|Float**: specifies the width of the leader. This is also used for the frame (<small>(v0.20)</small> ).
 
 
 {{TitleProperty|Text}}

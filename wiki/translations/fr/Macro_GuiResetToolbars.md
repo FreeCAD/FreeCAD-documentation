@@ -1,21 +1,15 @@
 # Macro GuiResetToolbars/fr
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/fr
 |Name=GuiResetToolbars
 |Name/fr=GuiResetToolbars
 |Description=Cette macro réinitialise la position des barres d'outils. Exécutez la macro dans un plan de travail dont la ou les barres d'outils sont manquantes.
-|Author=PROTORS
-|Download=[https://wiki.freecadweb.org/images/f/f8/GuiResetToolbars.svg ToolBar Icon]
+|Author=PR-DC
+|Download=[https://wiki.freecadweb.org/images/f/f8/GuiResetToolbars.svg Icône de la barre d'outils]
 |Date=2020-04-21
 |Version=1.0.0
 |FCVersion= 0.18.4 et plus
-|SeeAlso=[https://github.com/protors/ResetToolbars/ Github repository]
+|SeeAlso=[https://github.com/PR-DC/GuiResetToolbars/ Dépôt Github]
 }}
-
-
-</div>
 
 ## Description
 
@@ -27,7 +21,7 @@ Exécutez la macro dans un plan de travail dont la ou les barres d\'outils sont 
 
 ## Script
 
-ToolBar Icon ![](images/GuiResetToolbars.svg )
+Icône de la barre d\'outils ![](images/GuiResetToolbars.svg )
 
 **GuiResetToolbars.FCMacro**
 
@@ -83,7 +77,7 @@ for i in tb:
 
 ## Liens
 
-Discussion sur le forum d[Reset toolbar position](https://forum.freecadweb.org/viewtopic.php?f=3&t=45452&p=390034#p389404)
+Discussion sur le forum de [Reset toolbar position](https://forum.freecadweb.org/viewtopic.php?f=3&t=45452&p=390034#p389404)
 
 ---
 [documentation index](../README.md) > Macro GuiResetToolbars/fr

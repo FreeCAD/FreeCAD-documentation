@@ -23,6 +23,10 @@ This is the first solver that was integrated to work with the FEM Workbench. Cal
 
 The Elmer multiphysics solver was integrated into FreeCAD as a [Google Summer of Code 2017](Google_Summer_of_Code_2017.md) project: [main website](https://www.csc.fi/web/elmer), [community portal](http://www.elmerfem.org./), [code repository](https://github.com/ElmerCSC/elmerfem), [Elmer Integration (GSoC) - Activity Log](https://forum.freecadweb.org/viewtopic.php?f=18&t=22576) (forum thread).
 
+### Mystran
+
+Mystran is a structural analysis program which uses Nastran input file format. It is released under MIT license. Which means it seams OpenSource. See [Mystran](https://www.mystran.com/) and on github [Mystran-github](https://github.com/dr-bill-c/MYSTRAN) and on FreeCAD forum [Mystran-FreeCAD-forum](https://forum.freecadweb.org/viewtopic.php?t=46171).
+
 ### Z88
 
 The Z88 solver is designed for linear static simulations with an emphasis in teaching about the finite element method. It was the second solver to be _ project.
@@ -38,23 +42,6 @@ There are two versions, Z88OS is the open source edition, while Z88Aurora is fre
 ## Solvers implemented as external workbenches 
 
 These solvers aren\'t integrated into the [FEM Workbench](FEM_Workbench.md), which means they need a separate interface to set up a simulation project. This is achieved through [macros](Macros.md) or [external workbenches](External_workbenches.md).
-
-### OpenFoam
-
-[OpenFoam](https://openfoam.org/) is a powerful framework for [computational fluid dynamics](https://en.wikipedia.org/wiki/Computational_fluid_dynamics) (CFD) simulation, distributed as a series of C++ libraries.
-
-OpenFoam is available in FreeCAD through two external workbenches:
-
--   [Cfd](https://github.com/qingfengxia/Cfd), originally by Qingfeng Xia.
--   [CfdOF](https://github.com/jaheyns/CfdOF), a fork of Cfd focusing on ease of use.
-
-While Cfd is intended to be feature-complete for advanced users, CfdOF focuses on users that are just starting in the world of CFD and OpenFoam.
-
-For Cfd: [update on FreeCAD + OpenFOAM fluid dynamic computation](https://forum.freecadweb.org/viewtopic.php?f=18&t=13699) (forum thread), [Progress of the general Computational Fluid Dynamics (CFD) workbench: CfdWorkbench](https://forum.freecadweb.org/viewtopic.php?f=37&t=22993) (old thread).
-
-For CfdOF: [Computational Fluid Dynamics (CFD) workbench using OpenFOAM](https://forum.freecadweb.org/viewtopic.php?f=18&t=21576) (forum thread), [training material](http://opensim.co.za/training.html).
-
-Both workbenches can be installed through the [AddonManager](Std_AddonMgr.md), and both have a place for discussion in the [CfdOF / CFD subforum](https://forum.freecadweb.org/viewforum.php?f=37).
 
 ### DualSPHysics
 
@@ -91,6 +78,23 @@ The author considers FreeCAD a good prototyping platform to quickly set up, test
 
 fcFEM is packaged as a python library and a macro, and can be downloaded from the _, or will be distributed as part of FreeCAD itself.
 
+### OpenFoam
+
+[OpenFoam](https://openfoam.org/) is a powerful framework for [computational fluid dynamics](https://en.wikipedia.org/wiki/Computational_fluid_dynamics) (CFD) simulation, distributed as a series of C++ libraries.
+
+OpenFoam is available in FreeCAD through two external workbenches:
+
+-   [Cfd](https://github.com/qingfengxia/Cfd), originally by Qingfeng Xia.
+-   [CfdOF](https://github.com/jaheyns/CfdOF), a fork of Cfd focusing on ease of use.
+
+While Cfd is intended to be feature-complete for advanced users, CfdOF focuses on users that are just starting in the world of CFD and OpenFoam.
+
+For Cfd: [update on FreeCAD + OpenFOAM fluid dynamic computation](https://forum.freecadweb.org/viewtopic.php?f=18&t=13699) (forum thread), [Progress of the general Computational Fluid Dynamics (CFD) workbench: CfdWorkbench](https://forum.freecadweb.org/viewtopic.php?f=37&t=22993) (old thread).
+
+For CfdOF: [Computational Fluid Dynamics (CFD) workbench using OpenFOAM](https://forum.freecadweb.org/viewtopic.php?f=18&t=21576) (forum thread), [training material](http://opensim.co.za/training.html).
+
+Both workbenches can be installed through the [AddonManager](Std_AddonMgr.md), and both have a place for discussion in the [CfdOF / CFD subforum](https://forum.freecadweb.org/viewforum.php?f=37).
+
 ## Implementation in progress 
 
 ### FEniCS
@@ -126,6 +130,10 @@ The following articles may be outdated, but the information they contain may sti
 -   [Extend FEM Module](Extend_FEM_Module.md)
 -   [Add FEM Equation Tutorial](Add_FEM_Equation_Tutorial.md)
 -   [Add FEM Constraint Tutorial](Add_FEM_Constraint_Tutorial.md)
+
+### ADAPy
+
+[ADAPy](https://github.com/Krande/adapy/) Form topic <https://forum.freecadweb.org/viewtopic.php?f=18&t=64929>
 
 ### Agros2D and Hermes 
 
@@ -170,10 +178,6 @@ The [PyFMI](https://pypi.org/project/PyFMI/) package contains Python bindings to
 [Mumps](http://mumps-solver.org/) is a generic solver for massive systems of equations, which generally deals with factorizing and operating on sparse matrices. It was mentioned in the forum: [test request, multiple solvers](https://forum.freecadweb.org/viewtopic.php?t=15568&start=20#p126087).
 
 It does not perform finite element analysis directly, but it may be used internally by other packages like Code-Aster.
-
-### Mystran
-
-Mystran is a structural analysis program which uses Nastran input file format. It is released under MIT license. Which means it seams OpenSource. See [Mystran](https://www.mystran.com/) and on github [Mystran-github](https://github.com/dr-bill-c/MYSTRAN) and on FreeCAD forum [Mystran-FreeCAD-forum](https://forum.freecadweb.org/viewtopic.php?t=46171).
 
 ### Nastran
 

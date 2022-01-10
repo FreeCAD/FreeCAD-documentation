@@ -26,7 +26,7 @@ Questo metodo si aggancia ai punti di cerchi e archi con incrementi specifici di
 
 </div>
 
-This snap option currently only works properly for circular edges on a plane parallel to the XY plane of the global coordinate system, the angles are relative to that plane.
+In FreeCAD version 0.19 and earlier this snap option only works properly for circular edges on a plane parallel to the XY plane of the global coordinate system.
 
 ![](images/Draft_Snap_Angle_example.png )
 

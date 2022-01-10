@@ -5,19 +5,13 @@ Diese Seite ist eine Erweiterung der _ Seite und gibt allgemeine Richtlinien fü
 
 ## Vor dem Beginn 
 
-
-<div class="mw-translate-fuzzy">
-
 -   Diese Wiki Dokumentation basiert auf [MediaWiki](https://www.mediawiki.org/wiki/MediaWiki), derselben Software, die auch [Wikipedia](https://de.wikipedia.org/wiki/Wikipedia:Hauptseite) nutzt. Wenn du bereits Beiträge zu Wikipedia geleistet hast, sollte das Bearbeiten von FreeCAD Wiki Seiten einfach sein.
 -   Im Gegensatz zu Wikipedia ist das FreeCAD Wiki schreibgeschützt, um Spam zu vermeiden. Du musst beantragen, dass ein Konto für dich [im Forum](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830) erstellt wird.
 -   Wenn du noch nie Wiki Software verwendet hast, gehe zu _, um dich mit dem Markup vertraut zu machen, das zur Bearbeitung von Seiten verwendet wird.
 -   Für fortgeschrittene Anwendung der Wiki Software siehe [MediaWiki Hilfe:Übersicht](https://www.mediawiki.org/wiki/Help:Contents/de). Nicht alle Funktionen von MediaWiki sind in diesem FreeCAD Wiki verfügbar, aber viele von ihnen sind es.
 -   Wir möchten, dass die Dokumentation einfach zu lesen ist, vermeide also die Verwendung komplexer Funktionen. Halte es einfach.
 -   Verwende einen Sandkasten, um deinen Code zu testen, z.B. _ oder eine bestimmte Seite mit deinem Namen _. Sandkasten-Seiten müssen in der Sandkasten-Kategorie platziert werden. Dies geschieht durch hinzufügen von [[Category:Sandbox]] am Ende des Wiki-Codes.
--   Bitte beachte die Übersetzungen. Das FreeCAD Wiki verwendet automatische Übersetzungsunterstützung, um Seiten in vielen Sprachen anzubieten. Es ist wie eine 3. Dimension: jede Seite kann in mehreren Sprachversionen existieren. Auf vielen Seiten wirst du Markierungen sehen wie <translate>...</translate> und viele Kennzeichnungen wie . Letztere werden durch das Übersetzungssystem erstellt, du solltest sie nie manuell erstellen. Sie verbinden die Überschriften und Paragrafen durch ihre übersetzten Versionen. Du solltest sie nicht ändern, denn das würde diese Verweise zerstören. Es wäre trotzdem in Ordnung, Paragrafen zu verschieben oder den Wortlaut zu ändern, solange die zugehörigen Kennzeichen beibehalten werden. Wenn du eine Überschrift oder einen Paragrafen löschst, solltest du auch die zugehörigen Kennzeichen löschen. Bitte sei dir bewusst, dass sich das Ändern von existierenden Überschriften und Paragrafen auch auf bestehende Übersetzungen auswirkt. Das gilt nicht beim Hinzufügen von neuem Material, weil das System nach deinen Änderungen automatisch neue Kennzeichen hinzufügt. Mehr Informationen findest du unter [Lokalisierung](Localisation/de.md) und den Original-Seiten [Mediawiki:Extension:Translate page](https://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example).
-
-
-</div>
+-   Bitte beachte die Übersetzungen. Das FreeCAD Wiki verwendet eine automatische Übersetzungsunterstützung, um Seiten in vielen Sprachen bereitzustellen. Jede Seite kann in mehreren Sprachversionen existieren. Auf vielen Seiten sieht man (Bereichs-) Markierungen wie <translate>...</translate> und viele einzelne Markierungen wie . Letztere kennzeichnen sogenannte Übersetzungseinheiten (translation units) und werden durch das Übersetzungssystem erstellt, sie sollten nie manuell erstellt werden. Sie verbinden die Überschriften und Absätze mit ihren übersetzten Versionen. Du solltest sie nicht ändern, denn das würde diese Verweise zerstören. Es wäre trotzdem in Ordnung, Absätze zu verschieben oder den Wortlaut zu ändern, solange die zugehörigen Kennzeichen beibehalten werden. Wenn du eine Überschrift oder einen Absatz löschst, solltest du auch die zugehörigen Kennzeichen löschen. Bitte sei dir bewusst, dass sich das Ändern von existierenden Überschriften und Absätze auch auf bestehende Übersetzungen auswirkt. Das gilt nicht beim Hinzufügen von neuem Material, weil das System nach deinen Änderungen automatisch neue Kennzeichen hinzufügt. Mehr Informationen findest du unter [Lokalisierung](Localisation/de.md) und den Original-Seiten [Mediawiki:Extension:Translate page](https://www.mediawiki.org/wiki/Help:Extension:Translate/Page_translation_example).
 
 ## Allgemeine Richtlinien 
 
@@ -68,55 +62,27 @@ Um dich schnell mit der Struktur und dem Stil des FreeCAD Wikis vertraut zu mach
 
 Der [Anlaufstelle für Anwender](User_hub/de.md) bietet ein [Inhaltsverzeichnis](Online_Help_Toc/de.md). Dies wird als Hauptreferenz für die automatische Erstellung der Hilfe ohne Internetverbindung, die du von FreeCAD aus erreichen kannst, sowie der PDF Dokumentation ohne Internetverbindung verwendet.
 
-
-<div class="mw-translate-fuzzy">
-
-Die _ dient dem sequentiellen Verweis von Seiten, entsprechend der Struktur des [Inhaltsverzeichnisses](Online_Help_Toc/de.md). Siehe [\#Vorlagen](#Vorlagen.md) für eine Liste aller Vorlagen.
-
-
-</div>
+Die Vorlage _ dient dem sequentiellen Verweisen von Seiten, entsprechend der Struktur des Inhaltsverzeichnisses der [Online-Hilfe](Online_Help_Toc/de.md). Siehe Tabelle [Vorlagen](#Vorlagen.md) für eine Liste aller Vorlagen.
 
 ### Seitennamen
 
-
-<div class="mw-translate-fuzzy">
-
-Die Seitennamen sollten kurz sein, und sie sollten \"Satzfall\" statt \"Titelfall\" verwenden. Dies ist der [von Wikipedia verwendete Stil](https://en.wikipedia.org/wiki/Wikipedia:Manual_of_Style/Capital_letters#Headings,_headers,_and_captions) für deine Artikel.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
+Seitennamen sollten kurz sein, und sie sollten \"Title Case\" verwenden: Jedes Wort sollte mit einem Großbuchstaben beginnen, es sei denn, es handelt sich um Artikel (articles), Verhältniswörter (prepositions), Bindewörter (conjunctions) oder Partikel (grammatical particles), wie z.B. \"of\", \"on\", \"in\", \"a\", \"an\", \"and\".
 
 Schlechter Seitenname:
-:   Konstruktion von LuftfahrtUnternehmensflugzeugen
+:   Construction of AeroCompany airplanes
 
 
-</div>
 
-
-<div class="mw-translate-fuzzy">
 
 
 Guter Seitenname:
-:   Konstruktion von LuftfahrtUnternehmensflugzeugen
-
-
-</div>
+:   Construction of AeroCompany Airplanes
 
 Die Arbeitsbereichsseite der obersten Ebene muss das Format XYZ Arbeitsbereich haben, wobei XYZ der Name des Arbeitsbereichs ist, zum Beispiel _. Beachte, dass du den Befehlsnamen so verwenden solltest, wie er im Quellcode vorkommt.
 
 ### Oberbegriffe
 
-
-<div class="mw-translate-fuzzy">
-
-Wie die Seitennamen sollten auch die Absatzüberschriften kurz sein und Groß- und Kleinschreibung verwenden. Du solltest keine H1 Überschriften (= Überschrift =) in feinem Wiki Markup verwenden, da der Seitentitel automatisch als Hauptüberschrift H1 hinzugefügt wird.
-
-
-</div>
+Absatzüberschriften sollten kurz sein und \"Sentence Case\" verwenden: Alle Wörter, außer dem ersten und Namen (proper names), sollten kleingeschrieben werden. Man sollte keine H1 Überschriften (= Überschrift =) als Wiki-Textauszeichnung verwenden, da der Seitentitel automatisch als Hauptüberschrift H1 hinzugefügt wird.
 
 ### Verweise
 
@@ -134,25 +100,13 @@ Guter Verweis
 
 Das bevorzugte Format für einen Verweis ist:
 
-
-<div class="mw-translate-fuzzy">
-
-[Seitenname](Name_of_page/de.md)
-
-
-</div>
+[Name of Page](Name_of_Page.md)
 
 Übersetzt:
 
+[Nom de la Page](Name_of_Page/fr.md)
 
-<div class="mw-translate-fuzzy">
-
-[nom de la page](Name_of_page/fr.md)
-
-
-</div>
-
-Beachte, dass für den Teil vor dem | Zeichen, der eigentliche Verweis, die Groß-/Kleinschreibung relevant ist. Wenn dein Seitenname Name_der_Seite lautet, wird der Verweis fehlschlagen, wenn du Name_der_Seite (Großbuchstabe P) eingibst. Vor dem Zeichen | sollten alle Leerzeichen durch Unterstriche (_) ersetzt werden. Dies dient der Unterstützung von Übersetzern, die eine Übersetzungssoftware verwenden. Ohne die Unterstriche würde der Verweis von der Software übersetzt werden, was unerwünscht ist.
+Beachte, dass für den Teil vor dem | Zeichen, der eigentliche Verweis, die Groß-/Kleinschreibung relevant ist. Wenn dein Seitenname Name_of_page lautet, wird der Verweis fehlschlagen, wenn du Name_of_Page (Großbuchstabe P) eingibst. Vor dem Zeichen | sollten alle Leerzeichen durch Unterstriche (_) ersetzt werden. Dies dient der Unterstützung von Übersetzern, die eine Übersetzungssoftware verwenden. Ohne die Unterstriche würde der Verweis von der Software übersetzt werden, was unerwünscht ist.
 
 Um zu einem bestimmten Abschnitt zu verweisen füge ein # Zeichen und seinen Oberbegriff dem Seitennamen hinzu. Beispiel:
 
@@ -475,9 +429,9 @@ Weitere hilfreiche Quellen sind:
 ### GUIBefehl Übersetzen 
 
     {{GuiCommand
-    |Name=FEM EquationFluxsolver
-    |MenuLocation=Solve → Equation fluxsolver
-    |Workbenches=[FEM](Fem_Workbench.md)
+    |Name=FEM EquationFlux
+    |MenuLocation=Solve → Flux equation
+    |Workbenches=[FEM](FEM_Workbench.md)
     |Shortcut=**F** **S**
     |Version=0.17
     |SeeAlso=[FEM tutorial](FEM_tutorial.md)
@@ -486,13 +440,13 @@ Weitere hilfreiche Quellen sind:
 Übersetzt:
 
     {{GuiCommand/fr
-    |Name=FEM EquationFluxsolver
-    |Name/fr=FEM EquationFluxsolver
-    |MenuLocation=Solveur → Equation fluxsolver
-    |Workbenches=[Atelier FEM](Fem_Workbench/fr.md)
+    |Name=FEM EquationFlux
+    |Name/fr=FEM Équation d'écoulement
+    |MenuLocation=Solveur → Équation de flux
+    |Workbenches=[Atelier FEM](FEM_Workbench/fr.md)
     |Shortcut=**F** **S**
     |Version=0.17
-    |SeeAlso=[FEM tutoriel](FEM_tutorial/fr.md)
+    |SeeAlso=[FEM Tutoriel](FEM_tutorial/fr.md)
     }}
 
 ### Navi Übersetzen 
@@ -509,7 +463,7 @@ Weitere hilfreiche Quellen sind:
 
 Übersetzt:
 
-    [Atelier Pièces](Part_Module/fr.md)
+    [Atelier Part](Part_Module/fr.md)
 
 ### Docnav Übersetzen 
 
@@ -571,15 +525,10 @@ Siehe [Glossar](Glossary/de.md)
 
 ### Andere Sprachen 
 
-
-<div class="mw-translate-fuzzy">
-
 -   [Italienisch](Italian_Translation.md)
 -   [Französisch](French_Translation.md)
 -   [Deutsch](German_Translation.md)
-
-
-</div>
+-   [Polnisch](Polish_Translation.md)
 
 _ _ _ _
 

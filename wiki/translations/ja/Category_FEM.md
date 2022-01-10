@@ -3,7 +3,7 @@ This category lists pages related to the [FEM Workbench/ja](FEM_Workbench/ja.md)
 
 ### Contents:
 
-_ , [FEM Workbench/ja](FEM_Workbench/ja.md)
+[FEM Workbench/ja](FEM_Workbench/ja.md)
 
 _
 

@@ -38,5 +38,17 @@ Właściwości walca mogą być później edytowane w [edytorze właściwości](
 
 -    **Kąt drugi**: Kąt w drugim kierunku {{Version/pl|0.20}}.
 
+## Scripting
+
+A Part Cylinder can be created using the following function:
+
+
+```python
+cylinder = FreeCAD.ActiveDocument.addObject("Part::Cylinder", "myCylinder")
+```
+
+-   Where {{Incode|"myCylinder"}} is the name for the object.
+-   The function returns the newly created object.
+
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cylinder/pl

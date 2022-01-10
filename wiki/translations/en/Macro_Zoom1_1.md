@@ -41,7 +41,7 @@ The macro icon <img alt="" src=images/Zoom1_1.svg  style="width:48px;">
 **Zoom1\_1.FCMacro**
 
 
-```python
+{{MacroCode|code=
 # -*- coding: utf-8 -*-
 #Zoom 1:1 macro
 #2021, by <TheMarkster>, based on work of kisolre
@@ -120,7 +120,7 @@ elif not hasattr(av.getCameraNode(),"height"):
     FreeCAD.Console.PrintError("Error: Only orthographic camera types are supported.\n")
 else:
     FreeCAD.Console.PrintError("Error acquiring QGraphicsView. You might need to update your version of FreeCAD.\n")
-```
+}}
 
 ---
 [documentation index](../README.md) > Macro Zoom1 1/en

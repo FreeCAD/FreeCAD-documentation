@@ -76,6 +76,40 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
+#### Etikettentypen
+
+
+</div>
+
+The following label types are available:
+
+
+<div class="mw-translate-fuzzy">
+
+-    **Benutzerdefiniert:**zeigt den Inhalt von **Benutzerdefinierter Text** an.
+
+-    **Name:**zeigt den internen Namen des Zielobjekts an; der interne Name wird dem Objekt zum Zeitpunkt seiner Erstellung zugewiesen und bleibt während der gesamten Existenz des Objekts fest.
+
+-    **Etikett:**zeigt die Beschriftung des Zielobjekts an; die Beschriftung des Objekts kann jederzeit vom Benutzer geändert werden.
+
+-    **Position:**zeigt die Koordinaten des Basispunkts des Zielobjekts, des Zielscheitelpunkts oder des Massenschwerpunkts des Zielunterelements an, falls zutreffend.
+
+-    **Länge:**zeigt ggf. die Länge des Ziel Unterelements an.
+
+-    **Fläche:**zeigt ggf. die Fläche des Ziel Unterelements an.
+
+-    **Volumen:**zeigt das Volumen des Zielobjekts an, falls zutreffend.
+
+-    **Tag:**zeigt das `Tag` Attribut des Zielobjekts an, wenn das Objekt eine solche Eigenschaft hat, z.B. mit der [Arch Arbeitsbereich](Arch_Workbench/de.md) erstellte Objekte.
+
+-    **Material:**zeigt die Bezeichnung des Materials des Zielobjekts an, wenn das Zielobjekt eine solche Eigenschaft hat.
+
+
+</div>
+
 ## Notes
 
 
@@ -141,32 +175,6 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 -    **Target|LinkSub**: specifies the object and optional subelement the label is linked to.
 
 -    **Target Point|Vector**: specifies the position of the tip of the leader, which is where the arrow is attached.
-
-#### Etikettentypen
-
-
-<div class="mw-translate-fuzzy">
-
--    **Benutzerdefiniert:**zeigt den Inhalt von **Benutzerdefinierter Text** an.
-
--    **Name:**zeigt den internen Namen des Zielobjekts an; der interne Name wird dem Objekt zum Zeitpunkt seiner Erstellung zugewiesen und bleibt während der gesamten Existenz des Objekts fest.
-
--    **Etikett:**zeigt die Beschriftung des Zielobjekts an; die Beschriftung des Objekts kann jederzeit vom Benutzer geändert werden.
-
--    **Position:**zeigt die Koordinaten des Basispunkts des Zielobjekts, des Zielscheitelpunkts oder des Massenschwerpunkts des Zielunterelements an, falls zutreffend.
-
--    **Länge:**zeigt ggf. die Länge des Ziel Unterelements an.
-
--    **Fläche:**zeigt ggf. die Fläche des Ziel Unterelements an.
-
--    **Volumen:**zeigt das Volumen des Zielobjekts an, falls zutreffend.
-
--    **Tag:**zeigt das `Tag` Attribut des Zielobjekts an, wenn das Objekt eine solche Eigenschaft hat, z.B. mit der [Arch Arbeitsbereich](Arch_Workbench/de.md) erstellte Objekte.
-
--    **Material:**zeigt die Bezeichnung des Materials des Zielobjekts an, wenn das Zielobjekt eine solche Eigenschaft hat.
-
-
-</div>
 
 ### View
 

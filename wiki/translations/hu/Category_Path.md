@@ -5,7 +5,5 @@ This category lists pages related to the [PartDesign Workbench/hu](PartDesign_Wo
 
 _
 
-_
-
 ---
 [documentation index](../README.md) > Category:Path/hu

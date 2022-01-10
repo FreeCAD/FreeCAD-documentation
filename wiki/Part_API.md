@@ -281,6 +281,12 @@ A GeometryExtension extending geometry objects with a string.
 
 
 
+#### <img src="images/type_module.svg" style="max-width:24px;">HLRBRep
+
+This is a module working with the HLRBRep framework.
+
+
+
 #### <img src="images/Type_enum.svg" style="max-width:24px;">Hyperbola
 
 Describes an hyperbola in 3D space

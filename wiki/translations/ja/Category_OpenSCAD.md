@@ -3,7 +3,7 @@ This category lists pages related to the [OpenSCAD\_Workbench/ja](OpenSCAD_Workb
 
 ### Contents:
 
-_
+[OpenSCAD AddOpenSCADElement/ja](OpenSCAD_AddOpenSCADElement/ja.md)
 
 _
 

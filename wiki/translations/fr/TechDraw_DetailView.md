@@ -20,7 +20,7 @@ L\'outil Vue détaillée crée une vue d\'une petite zone d\'une vue existante.
 ## Utilisation
 
 -   Sélectionnez une vue dans la page ou l\'arborescence.
--   Appuyez sur le bouton **<img src="images/TechDraw_DetailView.svg" width=16px> [Inserérer une vue de détail](TechDraw_DetailView/fr.md)** pour créer la vue détaillée.
+-   Appuyez sur le bouton **<img src="images/TechDraw_DetailView.svg" width=16px> [Insérer une vue de détail](TechDraw_DetailView/fr.md)** pour créer la vue détaillée.
 -   Dans la boîte de dialogue de tâche qui apparaît, vous pouvez définir le rayon de la zone de vue, l\'échelle et la position de la vue. Pour ce dernier, vous pouvez le faire
     -   soit en changeant les coordonnées
     -   ou en appuyant sur le bouton **Drag Highlight**. Dans ce cas, la bordure d\'origine du détail est mise en évidence en gras et avec l\'étiquette *drag*. Cliquez sur la bordure ou l\'étiquette, maintenez le bouton de la souris enfoncé et faites-la glisser à la position souhaitée. Relâchez enfin la souris pour accepter le changement.

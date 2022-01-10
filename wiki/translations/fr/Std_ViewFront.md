@@ -20,7 +20,7 @@ La **Std Vue de face** place la caméra dans la [vue 3D](3D_view/fr.md) dans la 
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Appuyez sur le bouton **<img src="images/Std_ViewFront.svg" width=16px> [Std Afficher la vue de face(1)](Std_ViewFront/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Std_ViewFront.svg" width=16px> [Face](Std_ViewFront/fr.md)**.
     -   Sélectionnez l\'option {{MenuCommand |Affichage → Vues standards → <img src="images/Std_ViewFront.svg" width=16px> Face}} dans le menu.
     -   Sélectionnez l\'option {{MenuCommand |Vues standards → <img src="images/Std_ViewFront.svg" width=16px> Face}} dans le menu contextuel de la [vue 3D](3D_view/fr.md).
     -   Utilisez le raccourci clavier: **1**.

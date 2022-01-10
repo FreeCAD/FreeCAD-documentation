@@ -63,6 +63,18 @@ Le proprietà possono essere successivamente modificate nella scheda dati del ci
 
 -    **Second Angle**: Angle in second direction. <small>(v0.20)</small> 
 
+## Scripting
+
+A Part Cylinder can be created using the following function:
+
+
+```python
+cylinder = FreeCAD.ActiveDocument.addObject("Part::Cylinder", "myCylinder")
+```
+
+-   Where {{Incode|"myCylinder"}} is the name for the object.
+-   The function returns the newly created object.
+
 
 <div class="mw-translate-fuzzy">
 

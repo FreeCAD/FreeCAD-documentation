@@ -23,7 +23,7 @@ Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_C
 
 1.  Sélectionner un objet au choix. L\'objet doit se trouver sur le [Draft plan de travail](Draft_SelectPlane.md) en cours.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_Offset.svg" width=16px> [Décalage de l'objet sélectionné](Draft_Offset/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Draft_Offset.svg" width=16px> [Décalage](Draft_Offset/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Offset.svg" width=16px> Décalage** dans le menu.
     -   Utilisez le raccourci clavier : **O** puis **S**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
@@ -49,7 +49,7 @@ Les raccourcis clavier à caractère unique et les touches de modification menti
 
 ## Remarques
 
--   Pour créer une version décalée d\'une [Draft B-splines](Draft_BSpline/fr.md), ses points sont décalés individuellement et une nouvelle spline est calculée à partir des nouveaux points. Cette nouvelle spline n\'est pas parallèle à la spline d\'origine. Pour un décalage parallèle d\'une [Draft B-splines](Draft_BSpline/fr.md), la commande [Part Décalage 2D](Part_Offset2D/fr.md) doit être utilisée.
+-   Pour créer une version décalée d\'une [Draft B-spline](Draft_BSpline/fr.md), ses points sont décalés individuellement et une nouvelle spline est calculée à partir des nouveaux points. Cette nouvelle spline n\'est pas parallèle à la spline d\'origine. Pour un décalage parallèle d\'une [Draft B-spline](Draft_BSpline/fr.md), la commande [Part Décalage 2D](Part_Offset2D/fr.md) doit être utilisée.
 -   La commande Draft Décalage ne peut pas traiter les [Draft Courbes de Bézier](Draft_BezCurve/fr.md). Utilisez plutôt la commande [Part Décalage 2D](Part_Offset2D/fr.md).
 
 ## Préférences

@@ -9,11 +9,24 @@
 
 # Part Box/de
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Beschreibung
 
 Der Würfel-Befehl aus dem [Part-Arbeitsbereich](Part_Workbench/de.md) fügt einen parametrischen [Quader](https://de.wikipedia.org/wiki/Quader)förmigen geometrischen Grundkörper in das aktive Dokument ein. Als Standardvorgabe wird der Würfel-Befehl einen 10x10x10mm-Würfel am Ursprung mit der Bezeichnung \"Cube\" einfügen. Diese Parameter können nach dem Hinzufügen verändert werden.
 
+
+</div>
+
 <img alt="Part\_Box" src=images/Part_Box.jpg  style="width:400px;">
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Anwendung
 
@@ -22,18 +35,20 @@ Der Würfel-Befehl aus dem [Part-Arbeitsbereich](Part_Workbench/de.md) fügt ein
     -   Drücke die **<img src="images/Part_Box.svg" width=16px> Würfel**Schaltfläche in der Werkzeugleiste.
     -   Wähle den {{MenuCommand/de|Part → Grundkörper → <img src="images/Part_Box.svg" width=16px> Würfel}} in der Menüleiste.
 
+
+</div>
+
 **Ergebnis:** Das Standardergebnis ist ein Würfel mit gleicher Länge, Breite und Höhe von 10mm. Er steht auf der xy-Ebene und hat eine gemeinsame Kante mit der z-Achse.
 
 Die Würfeleigenschaften können später geändert werden, entweder im Eigenschaftseditor oder durch doppelklicken des Würfels in der Baumansicht.
 
-## Eigenschaften
+## Properties
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|Box}}
 
--    **Placement**: Gibt die Ausrichtung und Position des Würfels im 3D-Raum an. Siehe [Positionierung](Placement/de.md). Der Referenzpunkt ist die vordere linke untere Ecke des Würfels.
 
--    **Label**: Das Label ist der zugeordnete Name der Operation. Dieser Name kann nach Belieben geändert werden.
+<div class="mw-translate-fuzzy">
 
 
 {{Properties_Title|Box}}
@@ -44,28 +59,55 @@ Die Würfeleigenschaften können später geändert werden, entweder im Eigenscha
 
 -    **Height**: Die Höhe des Würfel-Objekts in Z-Richtung.
 
-![Formteil\_Würfel-Eigenschaften](images/Part_Box-Properties.jpg )
+
+</div>
 
 ## Scripting
 
-Der Würfel-Befehl kann mit [Makros](Macros/de.md) und von der Python-Konsole aus mithilfe der folgenden Funktion verwendet werden: 
+
+<div class="mw-translate-fuzzy">
+
+## Scripting 
+
+Der Würfel-Befehl kann mit [Makros](Macros/de.md) und von der Python-Konsole aus mithilfe der folgenden Funktion verwendet werden:
+
+
+</div>
+
+
 ```python
-FreeCAD.ActiveDocument.addObject("Part::Box", "myBox")
+box = FreeCAD.ActiveDocument.addObject("Part::Box", "myBox")
 ```
+
+
+<div class="mw-translate-fuzzy">
 
 -   Wobei \"myBox\" die Bezeichnung für das Würfel-Objekt ist.
 -   Liefert das neu erstellte Objekt vom Typ \'Box\' zurück.
 
-Du kannst die Attribute des Box-Objekts ansehen und verändern. Du kannst beispielsweise die Werte für Länge, Breite und Höhe ändern. 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Du kannst die Attribute des Box-Objekts ansehen und verändern. Du kannst beispielsweise die Werte für Länge, Breite und Höhe ändern.
+
+
+</div>
+
+
 ```python
-FreeCAD.ActiveDocument.myBox.Length = 25
-FreeCAD.ActiveDocument.myBox.Width = 15
-FreeCAD.ActiveDocument.myBox.Height = 30
+box.Length = 25
+box.Width = 15
+box.Height = 30
 ```
 
-Du kannst die Position wählen mit: 
+Du kannst die Position wählen mit:
+
+
 ```python
-FreeCAD.ActiveDocument.myBox.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
+box.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
 ```
 
 ---

@@ -3,7 +3,7 @@ This category lists pages related to the [Sketcher Workbench/id](Sketcher_Workbe
 
 ### Contents:
 
-_ , [Sketcher Workbench/id](Sketcher_Workbench/id.md)
+[Sketcher Workbench/id](Sketcher_Workbench/id.md)
 
 _
 

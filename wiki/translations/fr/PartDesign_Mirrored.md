@@ -74,9 +74,9 @@ Le résultat de la symétrie peut être prévisualisé en temps réel avant de c
 
 ## Limitations
 
--   La fonction de symétrie ne peut pas symétriser un solide entier. Pour cela, voir [Mise en miroir](Part_Mirror/fr.md).
-
--   La fonction de symétrie doit intersecter le solide (aussi appelé *support*) sur lequel elle est basée, sinon la commande échouera.
+-   La fonction Symétrie ne peut pas symétriser un solide entier. Pour cela, voir [Part Miroir](Part_Mirror/fr.md).
+-   Une fonction Symétrie ne peut pas être appliquée directement à un autre motif, qu\'il soit polaire, linéaire ou un autre miroir. Pour cela, vous avez besoin d\'une [PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md).
+-   La fonction Symétrie doit être en intersection avec le solide (également appelé *support*) sur lequel elle est basée, sinon la commande échouera.
 
 
 

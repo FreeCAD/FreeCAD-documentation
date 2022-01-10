@@ -35,7 +35,7 @@ v0.1 2021-10-03 : first release
  **Macro\_3DXML\_import.FCMacro**
 
 
-```python
+{{MacroCode|code=
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
@@ -215,7 +215,7 @@ doc.recompute()
 print('... completed import')
 
 # end
-```
+}}
 
 _
 

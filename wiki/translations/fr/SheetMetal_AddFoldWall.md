@@ -115,7 +115,7 @@ Les lignes de pliage pourraient être créées avec d\'autres outils, mais bon, 
 <img alt="" src=images/SheetMetal_AddFoldWall-21.png  style="width:280px;"> <img alt="" src=images/SheetMetal_AddFoldWall-20.png  style="width:200px;"> 
 *Esquisses sur leur plan commun et leur représentation dans l'arbre de conception*
 
-### Processus de travail 
+### Déroulement des tâches 
 
 1.  Créer une ébauche
     1.  Sélectionnez l\'esquisse de contour

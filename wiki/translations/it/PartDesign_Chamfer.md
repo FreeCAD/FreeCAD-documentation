@@ -35,7 +35,7 @@ Questo strumento applica degli smussi ai bordi di un oggetto selezionato. All\'a
 
 </div>
 
-## PartDesign Chamfer vs. Part Chamfer 
+## Notes
 
 
 <div class="mw-translate-fuzzy">

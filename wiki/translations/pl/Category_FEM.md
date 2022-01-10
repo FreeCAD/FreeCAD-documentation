@@ -3,7 +3,7 @@ This category lists pages related to the [FEM Workbench/pl](FEM_Workbench/pl.md)
 
 ### Contents:
 
-[Add FEM constraint tutorial/pl](Add_FEM_constraint_tutorial/pl.md) , [Add FEM equation tutorial/pl](Add_FEM_equation_tutorial/pl.md) , [Artwork Fem/pl](Artwork_Fem/pl.md) , [Extend FEM Module/pl](Extend_FEM_Module/pl.md)
+_ , [FEM Tutorial Python/pl](FEM_Tutorial_Python/pl.md) , [FEM tutorial/pl](FEM_tutorial/pl.md) , [FEM Workbench/pl](FEM_Workbench/pl.md) , [IfcOpenShell/pl](IfcOpenShell/pl.md) , [IfcPlusPlus/pl](IfcPlusPlus/pl.md) , [Material editor/pl](Material_editor/pl.md) , [Material/pl](Material/pl.md) , [Mesh/pl](Mesh/pl.md) , [Onboarding FEM Devs/pl](Onboarding_FEM_Devs/pl.md) , [Post-Processing of FEM Results with Paraview/pl](Post-Processing_of_FEM_Results_with_Paraview/pl.md) , [Transient FEM analysis/pl](Transient_FEM_analysis/pl.md)
 
 _
 

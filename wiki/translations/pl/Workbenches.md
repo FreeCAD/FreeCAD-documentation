@@ -47,7 +47,7 @@ Poniższe środowiska pracy są dostępne w każdej instalacji FreeCAD:
 
 -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> [Start](Start_Workbench/pl.md) pozwala na szybkie przejście do jednego z najczęściej stosowanych stołów warsztatowych.
 
--   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Powierzchnia](Surface_Workbench/pl.md) dostarcza narzędzi do tworzenia i modyfikowania powierzchni. Jest on podobny do konstruktora kształtu części środowiska Część, z krawędzi.
+-   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> [Powierzchnia](Surface_Workbench/pl.md) dostarcza narzędzi do tworzenia i modyfikowania powierzchni. Jest on podobny do narzędzia [konstruktora kształtu części](Part_Builder/pl.md) środowiska Część, z krawędzi.
 
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md) do tworzenia rysunków technicznych dla modeli przestrzennych. Jest to następca środowiska [Kreślenie](Drawing_Workbench/pl.md).
 

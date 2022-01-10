@@ -3,7 +3,7 @@ This category lists pages related to the [PartDesign Workbench/zh](PartDesign_Wo
 
 ### Contents:
 
-_ , [PartDesign Workbench/zh](PartDesign_Workbench/zh.md)
+[PartDesign Workbench/zh](PartDesign_Workbench/zh.md)
 
 _
 

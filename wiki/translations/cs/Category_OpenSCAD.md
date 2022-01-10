@@ -3,7 +3,7 @@ This category lists pages related to the [OpenSCAD\_Workbench/cs](OpenSCAD_Workb
 
 ### Contents:
 
-_ , [OpenSCAD Workbench/cs](OpenSCAD_Workbench/cs.md)
+[OpenSCAD Workbench/cs](OpenSCAD_Workbench/cs.md)
 
 _
 

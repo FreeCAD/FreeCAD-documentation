@@ -4,40 +4,37 @@
 
 {{TOCright}}
 
-In FreeCAD the word \"_ (`Sketcher::SketchObject` class). A constraint limits the position of a certain geometrical element in different ways, for example, it can specify whether the element is horizontal, vertical, tangent, parallel, perpendicular, coincident with a point, concentric to another object, etc.
+W FreeCAD słowo _ *(klasa `Sketcher::SketchObject`)*. Wiązanie ogranicza położenie pewnego elementu geometrycznego na różne sposoby, na przykład może określać, czy element jest poziomy, pionowy, styczny, równoległy, prostopadły, zbieżny z punktem, współśrodkowy do innego obiektu itp.
 
-There are two big types of constraints:
+Istnieją dwa główne rodzaje wiązań:
 
--    **Geometric constraints**define characteristics of the shapes without specifying exact dimensions, for example, horizontality, verticality, parallelism, perpendicularity, and tangency.
+-    **Wiązania geometrii**definiują właściwości kształtów bez określania dokładnych wymiarów, np. poziomu, pionu, równoległości, prostopadłości i zbieżności.
 
--    **Datum**or **dimensional constraints** define characteristics of the shapes by specifying dimensions, for example, a numeric length or an angle.
+-    **Wiązania odniesienia**definiują charakterystykę kształtów poprzez określenie wymiarów, na przykład wymiar długości lub kąta.
 
-See the information in the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md) for a list of all constraints that can be applied. Some of them apply to lines, some to curves, and some to vertices. See also the [basic sketcher tutorial](Basic_Sketcher_Tutorial.md).
+Zobacz informacje w środowisku pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _.
 
-## Usage
+## Użycie
 
-1.  Create a sketch either from the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _.
-2.  Press
+1.  Utwórz szkic albo używając środowiska pracy <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _.
+2.  Naciśnij przycisk:
     -   
-        **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)**
+        **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Utwórz szkic](Sketcher_NewSketch/pl.md)**
         
-        , or
+        środowiska Szkicownik,
 
-    -   
-        **<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**
-        
-        followed by **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)**.
-3.  Double click the created sketch to enter its edit mode.
-4.  Draw a series of lines using **<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Create polyline](Sketcher_CreatePolyline.md)**.
-5.  Pick one of the lines, and use **<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Constrain vertical](Sketcher_ConstrainVertical.md)**.
-6.  Pick one of the lines, and use **<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> [Constrain horizontal](Sketcher_ConstrainHorizontal.md)**.
-7.  Pick the vertical line, and use **<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Constrain distance Y](Sketcher_ConstrainDistanceY.md)**; assign a distance.
-8.  Pick the horizontal line, and use **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Constrain distance X](Sketcher_ConstrainDistanceX.md)**; assign a distance.
+    -   lub **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/PartDesign_NewSketch.svg style="width:Stwórz zawartość](PartDesign_Body.md)** w środowisku Projekt Części, a następnie **[16px"> [Utwórz Szkic](PartDesign_NewSketch/pl.md)**.
+3.  Kliknij dwukrotnie utworzony szkic, aby przejść do trybu edycji.
+4.  Narysuj serię linii używając narzędzia **<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Utwórz linię łamaną](Sketcher_CreatePolyline/pl.md)**.
+5.  Wybierz jedną z linii i użyj funkcji **<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Zwiąż w pionie](Sketcher_ConstrainVertical/pl.md)**.
+6.  Wybierz jedną z linii i użyj funkcji **<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> [Zwiąż w poziomie](Sketcher_ConstrainHorizontal/pl.md)**.
+7.  Wybierz linię pionową i użyj funkcji **<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Zwiąż odległość pionową](Sketcher_ConstrainDistanceY/pl.md)**, przypisz odległość.
+8.  Wybierz linię poziomą i użyj funkcji **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Zwiąż odległość poziomą](Sketcher_ConstrainDistanceX/pl.md)**, przypisz odległość.
 
-## Notes
+## Uwagi
 
--   Constraints are useful to create very precise profiles which can the be turned into solid extrusions by using the **<img src=images/PartDesign_Pad.svg style="width:16px"> <img src=images/Part_Extrude.svg style="width:PartDesign Pad](PartDesign_Pad.md)** or **[16px"> [Part Extrude](Part_Extrude.md)** operations.
--   Constraints are only used within _ do not understand about constraints; the latter are simply placed in 3D space, and their properties define their shape and position.
+-   Wiązania są przydatne do tworzenia bardzo precyzyjnych profili, które można przekształcić w bryły wytłaczane za pomocą operacji **<img src=images/PartDesign_Pad.svg style="width:16px"> <img src=images/Part_Extrude.svg style="width:Wyciągnięcie](PartDesign_Pad/pl.md)** środowiska Projekt Części lub **[16px"> [Wyciągnij](Part_Extrude/pl.md)** środowiska Część.
+-   Wiązania są używane tylko w _ nie rozumieją wiązań. Te ostatnie są po prostu umieszczane w przestrzeni 3D, a ich właściwości określają ich kształt i położenie.
 
 
 {{Sketcher Tools navi

@@ -71,10 +71,6 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 -    **type**: Le pas des courroies de distribution (distance du centre de la dent au centre de la dent des dents consécutives) est spécifié en types. GT2 a un pas de 2 mm, GT3 de 3 mm, GT5 de 5 mm etc\...
 
-## Limitations
-
-Les limitations ne sont pas encore connues.
-
 ## Formules utiles 
 
 -    **addendum diameter**= **pitch diameter** + 2 \* **module**

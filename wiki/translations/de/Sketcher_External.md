@@ -21,9 +21,9 @@ Ein Hinweis zur Vorsicht, die Verwendung dieses Werkzeugs zur Verknüpfung mit g
 ## Anwendung
 
 -   Erstelle eine neue Skizze oder öffne eine bestehende Skizze.
--   Klicke auf die \"Skizzierer Extern\" Schaltfläche
--   Wähle eine Kante oder einen Knoten aus, auf den Du in der Skizze verweisen möchtest.
--   Drücke Esc oder wähle ein anderes Werkzeug, um den Import von Geometrien in die Skizze zu beenden.
+-   Klicke auf die Schaltfläche **<img src=images/Sketcher_External.svg style="width:16px"> [Skizzierer Extern](Sketcher_External/de.md)**.
+-   Wähle eine Kante oder einen Scheitelpunkt aus, auf den in der Skizze verwiesen werden soll.
+-   Drücke die **Esc**-Taste oder wähle ein anderes Werkzeug, um den Import von Geometrien in die Skizze zu beenden.
 
 ### Auswahlregeln
 

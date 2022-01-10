@@ -21,7 +21,7 @@ ToolBar Icon ![](images/Macro_merge_duplicate_materials.png )
 **Merge duplicate materials.FCMacro**
 
 
-```python
+{{MacroCode|code=
 import FreeCAD,FreeCADGui
 mats = [o for o in FreeCAD.ActiveDocument.Objects if o.isDerivedFrom("App::MaterialObject")]
 todelete = []
@@ -49,7 +49,7 @@ for tod in todelete:
     else:
         print( "Unable to delete material "+tod.Label+": InList not empty")
 
-```
+}}
 
 ---
 [documentation index](../README.md) > Macro merge duplicate materials/pl

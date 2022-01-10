@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/fr
    Name:Draft Edit
-   Name/fr:Draft Édition
+   Name/fr:Draft Éditer
    MenuLocation:Modification → Éditer
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**D** **E**
@@ -15,17 +15,17 @@
 La commande <img alt="" src=images/Draft_Edit.svg  style="width:24px;"> **Draft Éditer** place les objets sélectionnés en mode Draft Édition. Dans ce mode, les propriétés des objets peuvent être modifiées graphiquement. En général, les nœuds peuvent être déplacés et, dans certains cas, les options du menu contextuel peuvent être sélectionnées. La commande peut gérer la plupart des objets Draft, mais aussi certains autres objets. Voir [Objets pris en charge](#Objets_pris_en_charge.md). Les objets Draft supportés peuvent aussi être mis en mode Draft Édition avec la commande [Std Mode édition](Std_Edit/fr.md).
 
 ![](images/Draft_Edit_example.png ) 
-*4 objets en mode Draft Édition : une Draft Polyligne (rouge), un Draft Arc (noir), une Draft B-spline (vert) et une Draft Courbe de Bézier (magenta).*
+*4 objets en mode Draft Éditer : une Draft Polyligne (rouge), un Draft Arc (noir), une Draft B-spline (vert) et une Draft Courbe de Bézier (magenta).*
 
 ## Utilisation
 
-Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Sélectionnez un ou plusieurs objets. Notez que bien que plusieurs objets puissent être en mode Draft Édition, les objets ne peuvent être édités qu\'un par un.
 2.  Il existe plusieurs façons d\'invoquer la commande :
     -   Si vous n\'avez pas encore sélectionné d\'objet : double-cliquez sur un objet dans la [Vue en arborescence](Tree_view/fr.md). Cela ne fonctionne que pour les objets Draft pris en charge.
-    -   Appuyez sur le bouton **<img src="images/Draft_Edit.svg" width=16px> [Edite l'objet actif](Draft_Edit/fr.md)**.
-    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Edit.svg" width=16px> Editer** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/Draft_Edit.svg" width=16px> [Éditer](Draft_Edit/fr.md)**.
+    -   Sélectionnez l\'option **Modification → <img src="images/Draft_Edit.svg" width=16px> Éditer** dans le menu.
     -   Utilisez le raccourci clavier : **D** puis **E**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
 4.  Les objets sélectionnés sont marqués par des nœuds temporaires et le [Panneau principal des tâches](#Panneau_principal_des_t.C3.A2ches.md) s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
@@ -38,7 +38,7 @@ Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Co
     -   Sélectionnez une option dans le menu contextuel.
     -   Si l\'option sélectionnée nécessite la saisie d\'un point :
         -   Le [Panneau des tâches du nœud](#Panneau_des_t.C3.A2ches_des_n.C5.93uds.md) s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-        -   Choisissez un point dans la [3D view](3D_view.md) ou rentrez les coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
+        -   Choisissez un point dans la [vue 3D](3D_view/fr.md) ou rentrez les coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 6.  Déplacez un nœud de manière facultative :
     -   Cliquez sur le nœud dans la [Vue 3D](3D_view/fr.md).
     -   Le [Panneau des tâches du nœud](#Panneau_des_t.C3.A2ches_des_n.C5.93uds.md) s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
@@ -63,7 +63,7 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 -   La case à cocher **Relative** n\'a pas d\'utilité pour cette commande.
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
 -   La case à cocher **Continue** n\'a aucune utilité pour cette commande.
--   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
+-   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Le bouton {{button|<img src="images/Draft_UndoLine.svg" width=16px> Annuler}} n\'a pas d\'utilité pour cette commande.
 
 ## Objets pris en charge 

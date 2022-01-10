@@ -1,9 +1,20 @@
 # FEM Mesh/it
 {{TOCright}}
 
+## Create a finite element mesh 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Creare una Mesh FE 
 
 L\'analisi agli elementi finiti (FEA) viene eseguita su una mesh composta da più elementi finiti triangolari e quadrilaterali che suddividono un corpo originale. Più la mesh è raffinata, più accurati saranno i risultati numerici, ma anche il tempo di calcolo sarà maggiore. Un equilibrio tra la dimensione della mesh, il tempo di calcolo e la precisione dei risultati è una caratteristica importante di un\'analisi degli elementi finiti ben definita.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Ci sono diverse possibilità di creare una mesh nell\'ambiente [FEM](FEM_Workbench/it.md):
 
@@ -12,29 +23,50 @@ Ci sono diverse possibilità di creare una mesh nell\'ambiente [FEM](FEM_Workben
 -   Importare una mesh da un altro programma. In particolare, Gmsh e Netgen possono essere utilizzati da soli al di fuori di FreeCAD per creare mesh di corpi solidi come i file Step.
 -   Creazione manuale della mesh tramite uno script [Python](Python/it.md).
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Gli strumenti Gmsh e Netgen supportano i corpi mesh creati in [Part](Part_Workbench/it.md) e [PartDesign](PartDesign_Workbench/it.md), nonché le copie semplici di questi solidi. In generale, qualsiasi ambiente di lavoro che genera oggetti solidi, come [Arch](Arch_Workbench.md), può essere utilizzato come base da cui creare delle mesh. Notare che una mesh utilizzata per FEA è diversa da una mesh creata o importata dall\'ambiente [Mesh](Mesh_Workbench/it.md).
 
-<img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;">
 
+</div>
 
-
+<img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
 *L'ambiente FEM chiama lo strumento esterno Gmsh per ottenere una mesh da un corpo solido creato con qualsiasi ambiente in FreeCAD; può anche importare una mesh creata esternamente*
 
-<img alt="" src=images/FEM_Mesh.png  style="width:600px;">
-
-
-
+<img alt="" src=images/FEM_Mesh.png  style="width:600px;"> 
 *(1) Corpo solido creato con PartDesign; (2) mesh prodotta dallo strumento Gmsh all'interno di FEM (tutti triangoli); e (3) mesh prodotta esternamente da Gmsh, esportata nel formato Abaqus {{FileName|.inp*, e poi importata in FreeCAD (tutti quadrangoli)}}
+
+
+<div class="mw-translate-fuzzy">
 
 Gli strumenti [Gmsh](FEM_MeshGmshFromShape/it.md) e [Netgen](FEM_MeshNetgenFromShape/it.md) sono strumenti utili per rendere rapidamente mesh un corpo, ma non espongono le funzionalità complete di questi programmi; essi normalmente creano mesh triangolari, che potrebbero non essere l\'ideale per alcuni tipi di analisi. Se si vuole avere più controllo sulla mesh creata (usare solo quadrilateri, numero e dimensione di elementi precisi, risoluzione variabile della mesh, ecc.), si dovrebbe usare questi programmi esternamente, produrre un file mesh in un formato supportato ( {{FileName|.inp}}, {{FileName|.unv}}, {{FileName|.vtk}}, {{FileName|.z88}}) e importare questo file in FreeCAD.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Precedentemente, Netgen era incluso in FreeCAD e poteva essere utilizzato immediatamente. Ora, sia Netgen che Gmsh devono essere installati prima di poter essere utilizzati da [FEM](FEM_Workbench/it.md). Per le istruzioni fare riferimento a [Installare FEM](FEM_Install/it.md).
+
+
+</div>
 
 ## Software di mesh 
 
 Il software di mesh funziona su corpi solidi che possono essere in diversi formati, come Step e Brep. Questi programmi possono essere utilizzati indipendentemente da FreeCAD e in genere dispongono di molte opzioni per controllare gli algoritmi di meshing, la dimensione dell\'elemento e le condizioni del contorno.
 
+
+<div class="mw-translate-fuzzy">
+
 [FEM](FEM_Workbench/it.md) ha sviluppato semplici interfacce di comunicazione per utilizzare Gmsh e Netgen direttamente in FreeCAD. Altri programmi non hanno un\'interfaccia, ma potrebbero cambiare in futuro se c\'è un interesse da parte della comunità e se tali applicazioni sono facili da integrare. Il software di meshing può essere compilato e distribuito insieme a FreeCAD solo se la sua licenza è compatibile con la licenza LGPL2; altrimenti, il programma deve essere usato come un binario esterno, come viene usato Gmsh (GPL2).
+
+
+</div>
 
 ### Interfacce implementate in FreeCAD 
 
@@ -49,9 +81,17 @@ Il software di mesh funziona su corpi solidi che possono essere in diversi forma
 -   SnappyHexMesh, [main website](https://openfoamwiki.net/index.php/SnappyHexMesh)
 -   Tetgen, [main website](http://wias-berlin.de/software/tetgen/)
 
+## Mesh elements in FreeCAD 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Elementi Mesh in FreeCAD 
 
 FreeCAD supporta vari tipi di elementi. Il seguente articolo spiega la loro differenza e quando devono essere utilizzati: [Meshing Your Geometry: When to Use the Various Element Types](https://www.comsol.com/blogs/meshing-your-geometry-various-element-types/).
+
+
+</div>
 
 <table><caption>Import and export of mesh elements</caption><thead><tr class="header"><th><p>Element</p></th><th><p>Element</p></th><th><p>FreeCAD API</p></th><th><p>FreeCAD GUI</p></th><th><p>med</p></th><th><p>unv</p></th><th><p>inp</p></th><th><p>frd</p></th><th><p>txt</p></th><th><p>xml</p></th></tr></thead><tbody><tr class="odd"><td><p>Med</p></td><td><p>CalculiX</p></td><td><p>Python</p></td><td><p>FEM Mesh</p></td><td><p>SMESH</p></td><td><p>IDEAS/FreeCAD</p></td><td><p>Abaqus/CalculiX</p></td><td><p>Result Mesh</p></td><td><p>Z88</p></td><td><p>Fenics</p></td></tr><tr class="even"><td><p>Name</p></td><td><p>Name</p></td><td><p>create elements</p></td><td><p>view elements</p></td><td><p>import/export</p></td><td><p>import/export</p></td><td><p>import/export</p></td><td><p>import</p></td><td><p>import/export</p></td><td><p>import/export</p></td></tr><tr class="odd"><td><p>seg 2</p></td><td><p>B31</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td></tr><tr class="even"><td><p>seg 3</p></td><td><p>B32</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><p>NI</p></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr><tr class="odd"><td><p>tria 3</p></td><td><p>S3</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td></tr><tr class="even"><td><p>tria 6</p></td><td><p>S6</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr><tr class="odd"><td><p>quad 4</p></td><td><p>S4</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td></tr><tr class="even"><td><p>quad 8</p></td><td><p>S8</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr><tr class="odd"><td><p>tetra 4</p></td><td><p>C3D4</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td></tr><tr class="even"><td><p>tetra 10</p></td><td><p>C3D10</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr><tr class="odd"><td><p>hexa 8</p></td><td><p>C3D8</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><p>(<img src="Edit_Cancel.svg" title="fig:Edit_Cancel.svg" width="20" alt="Edit_Cancel.svg" />) the format allows it,<br />
 but it's not readable or writable by fenics</p></td></tr><tr class="even"><td><p>hexa 20</p></td><td><p>C3D20</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr><tr class="odd"><td><p>penta 6</p></td><td><p>C3D6</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><p>?</p></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr><tr class="even"><td><p>penta 15</p></td><td><p>C3D15</p></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><p>?</p></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr><tr class="odd"><td><p>pyra 5</p></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr><tr class="even"><td><p>pyra 13</p></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_OK.svg" title="Edit_OK.svg" width="20" alt="" /><figcaption>Edit_OK.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td><td><figure><img src="Edit_Cancel.svg" title="Edit_Cancel.svg" width="20" alt="" /><figcaption>Edit_Cancel.svg</figcaption></figure></td></tr></tbody></table>
@@ -94,14 +134,28 @@ Maggiori informazioni sui tipi di elementi FEM e la loro struttura dei dati all\
 
 <img alt="" src=images/FEM_mesh_elements_7_pyramid.svg  style="width:600px;">
 
+
+<div class="mw-translate-fuzzy">
+
 ## Script
 
 ### Creare una mesh FEM interamente con Python 
 
 
+</div>
+
+### Create a FEM mesh completely in Python 
+
+
+<div class="mw-translate-fuzzy">
+
+
 **Vedere anche:**
 
 [Script di base per FreeCAD](FreeCAD_Scripting_Basics/it.md).
+
+
+</div>
 
 L\'API Python consente all\'utente di definire una mesh di elementi finiti aggiungendo direttamente singoli nodi e definendo bordi, facce e volumi.
 
@@ -143,7 +197,9 @@ obj = FreeCAD.ActiveDocument.ActiveObject
 
 Se si desidera avere la numerazione predefinita di nodi e elementi, passare l\'ID appropriato ai metodi di nodo e volume.
 
-Per creare un oggetto documento attuale, invece di `Fem.show()` si può anche usare il metodo `addObject()`; quindi collegare la mesh creata all\'attributo `FemMesh` di questo oggetto. 
+Per creare un oggetto documento attuale, invece di `Fem.show()` si può anche usare il metodo `addObject()`; quindi collegare la mesh creata all\'attributo `FemMesh` di questo oggetto.
+
+
 ```python
 a = Fem.FemMesh()
 
@@ -174,18 +230,52 @@ Fem.show(m)
 obj = FreeCAD.ActiveDocument.ActiveObject
 
 obj.ViewObject.HighlightedNodes = [1, 2, 3]
-``` I singoli elementi di una mesh possono essere modificati passando un dizionario con le coppie `key:value` appropriate.
+```
 
-Impostare il volume 1 su rosso 
+I singoli elementi di una mesh possono essere modificati passando un dizionario con le coppie `key:value` appropriate.
+
+Impostare il volume 1 su rosso
+
+
 ```python
 obj.ViewObject.ElementColor = {1:(1,0,0)}
-``` Impostare i nodi 1, 2 e 3 su un determinato colore; le facce tra i nodi acquisiscono un colore interpolato 
+```
+
+
+<div class="mw-translate-fuzzy">
+
+Impostare i nodi 1, 2 e 3 su un determinato colore; le facce tra i nodi acquisiscono un colore interpolato
+
+
+</div>
+
+
 ```python
 obj.ViewObject.NodeColor = {1:(1,0,0), 2:(0,1,0), 3:(0,0,1)}
-``` Spostare i nodi 1 e 2 in base alla grandezza e alla direzione definite da un vettore 
+```
+
+
+<div class="mw-translate-fuzzy">
+
+Spostare i nodi 1 e 2 in base alla grandezza e alla direzione definite da un vettore
+
+
+</div>
+
+
 ```python
 obj.ViewObject.NodeDisplacement = {1:FreeCAD.Vector(0,1,0), 2:FreeCAD.Vector(1,0,0)}
-``` Raddoppiare il fattore dello spostamento mostrato (**Nota per i redattori: rimosso nelle versioni più recenti?**) 
+```
+
+
+<div class="mw-translate-fuzzy">
+
+Raddoppiare il fattore dello spostamento mostrato (**Nota per i redattori: rimosso nelle versioni più recenti?**)
+
+
+</div>
+
+
 ```python
 obj.ViewObject.animate(2.0)
 ```
@@ -249,7 +339,9 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 obj.ViewObject.BackfaceCulling = False
 ```
 
-Aggiungere una faccia con il numero di elementi. 
+Aggiungere una faccia con il numero di elementi.
+
+
 ```python
 elemtria3 = Fem.FemMesh()
 nodes = tria3.Nodes
@@ -289,7 +381,9 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 obj.ViewObject.BackfaceCulling = False
 ```
 
-Aggiungere una faccia con il numero di elementi. 
+Aggiungere una faccia con il numero di elementi.
+
+
 ```python
 elemtria6 = Fem.FemMesh()
 nodes = tria6.Nodes
@@ -326,7 +420,9 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 obj.ViewObject.BackfaceCulling = False
 ```
 
-Aggiungere una faccia con il numero di elementi. 
+Aggiungere una faccia con il numero di elementi.
+
+
 ```python
 elemquad4 = Fem.FemMesh()
 nodes = quad4.Nodes
@@ -367,7 +463,9 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 obj.ViewObject.BackfaceCulling = False
 ```
 
-Aggiungere una faccia con il numero di elementi. 
+Aggiungere una faccia con il numero di elementi.
+
+
 ```python
 elemquad8 = Fem.FemMesh()
 nodes = quad8.Nodes
@@ -403,7 +501,9 @@ obj.Placement.Base = FreeCAD.Vector(0, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Aggiungere una faccia con il numero di elementi. 
+Aggiungere una faccia con il numero di elementi.
+
+
 ```python
 elemtetra4 = Fem.FemMesh()
 nodes = tetra4.Nodes
@@ -446,7 +546,9 @@ obj.Placement.Base = FreeCAD.Vector(30, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Aggiungere una faccia con il numero di elementi. 
+Aggiungere una faccia con il numero di elementi.
+
+
 ```python
 elemtetra10 = Fem.FemMesh()
 nodes = tetra10.Nodes
@@ -485,7 +587,9 @@ obj.Placement.Base = FreeCAD.Vector(60, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Aggiungere una faccia con il numero di elementi. 
+Aggiungere una faccia con il numero di elementi.
+
+
 ```python
 elemhexa8 = Fem.FemMesh()
 nodes = hexa8.Nodes
@@ -539,7 +643,9 @@ obj.Placement.Base = FreeCAD.Vector(90, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Aggiungere una faccia con il numero di elementi. 
+Aggiungere una faccia con il numero di elementi.
+
+
 ```python
 elemhexa20 = Fem.FemMesh()
 nodes = hexa20.Nodes
@@ -576,7 +682,9 @@ obj.Placement.Base = FreeCAD.Vector(0, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Aggiungere una faccia con il numero di elementi. 
+Aggiungere una faccia con il numero di elementi.
+
+
 ```python
 elempenta6 = Fem.FemMesh()
 nodes = penta6.Nodes
@@ -625,7 +733,9 @@ obj.Placement.Base = FreeCAD.Vector(40, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Aggiungere una faccia con il numero di elementi. 
+Aggiungere una faccia con il numero di elementi.
+
+
 ```python
 elempenta15 = Fem.FemMesh()
 nodes = penta15.Nodes
@@ -661,7 +771,9 @@ obj.Placement.Base = FreeCAD.Vector(80, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Aggiungere una faccia con il numero di elementi. 
+Aggiungere una faccia con il numero di elementi.
+
+
 ```python
 elempyra5 = Fem.FemMesh()
 nodes = pyra5.Nodes
@@ -707,7 +819,9 @@ obj.Placement.Base = FreeCAD.Vector(120, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Aggiungere una faccia con il numero di elementi. 
+Aggiungere una faccia con il numero di elementi.
+
+
 ```python
 elempyra13 = Fem.FemMesh()
 nodes = pyra13.Nodes
@@ -722,9 +836,17 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 print(elempyra13.Volumes)
 ```
 
+## Scripting examples for groups 
+
+
+<div class="mw-translate-fuzzy">
+
 ## Esempi di scripting per gruppi 
 
 Vedere per esempio <https://forum.freecadweb.org/viewtopic.php?f=18&t=37304&start=20#p318823>
+
+
+</div>
 
 
 {{FEM Tools navi

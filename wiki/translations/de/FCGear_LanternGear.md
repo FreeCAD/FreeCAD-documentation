@@ -83,10 +83,6 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 -    **module**: Using ISO (International Organization for Standardization) guidelines, Module size is designated as the unit representing gear tooth-sizes. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). If you multiply Module by Pi, you can obtain Pitch (p). Pitch is the distance between corresponding points on adjacent teeth.
 
-## Begrenzungen
-
-Begrenzungen sind noch nicht bekannt.
-
 ## Hilfreiche Formeln 
 
 -    **addendum diameter**= **module** \* **(teeth +2)**

@@ -1,30 +1,29 @@
-# Std PrintPreview/de
 ---
-- GuiCommand:/de   Name/de:Std PrintPreview   Workbenches:Alle   MenuLocation:[Shortcut:Strg+P   SeeAlso:[[Std Print/de|Drucken](Std_File_Menu/de___Datei]]_→_Druckvorschau_.md), [PDF exportieren](Std_PrintPdf/de.md)---
+- GuiCommand:/de
+   Name:Std PrintPreview
+   Name/de:Std Druckvorschau
+   MenuLocation:Datei → Druckvorschau
+   Workbenches:Alle
+   Shortcut:Strg+P
+   SeeAlso:[Drucken](Std_Print/de.md)
+---
 
+# Std PrintPreview/de
 
-</div>
+## Beschreibung
 
-## Description
+Die **Std Druckvorschau**-Anweisung zeigt eine Vorschau der [Drucken](Std_Print/de.md)-Anweisung. Es kann auch direkt aus dem Vorschaufenster gedruckt werden.
 
+## Anwendung
 
-<div class="mw-translate-fuzzy">
+1.  Falls erforderlich, die korrekte Seite im [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) aktivieren oder die [3D-Ansicht](3D_view/de.md) wie gewünscht ändern.
+2.  Den **Datei → <img src="images/Std_PrintPreview.svg" width=16px> Druckvorschau...** Menüpunkt wählen.
+3.  Das Druckvorschaufenster hat mehrere Schalflächen für Optionen. Wenn die Ansicht vergrößert wurde, kann mit gedrückter linker Maustaste und Mausbewegung die Ansicht verschoben werden.
+4.  Die Schaltfläche **Drucken** im Druckenfenster anklicken.
 
-![](images/PrintPreview1.png ) 
+## Optionen
 
-
-</div>
-
-## Usage
-
-1.  If required activate the correct [TechDraw](TechDraw_Workbench.md) page or change the [3D view](3D_View.md) to your liking.
-2.  Select the **File → <img src="images/Std_PrintPreview.svg" width=16px> Print preview...** option from the menu.
-3.  The Print Preview dialog box that pops up has several button options. If you have zoomed in you can pan by holding down the left mouse button and moving the mouse.
-4.  Use the dialog box\'s **Print** button.
-
-## Options
-
--   Press **Esc** or the **Close** button (provided by the OS) to abort the command.
+-   Die **esc**-Taste drücken oder die Schaltfläche **Schließen**, die durch das Betriebssystem zur Verfügung gestellt wird, anklicken, um abzubrechen.
 
 
 

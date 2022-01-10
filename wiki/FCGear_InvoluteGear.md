@@ -117,7 +117,7 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 ## Limitations
 
-Limitations are not known yet.
+The 2D tooth profile, obtained by setting the **height** to zero, cannot be used with features requiring a 2D shape. I.e. [PartDesign\' Pad](PartDesign_Pad.md) or [AdditiveHelix](PartDesign_AdditiveHelix.md) features do not accept such a profile as base. For technical details, please refer to the respective [issue on GitHub](https://github.com/looooo/freecad.gears/issues/97).
 
 ## Useful formulas 
 

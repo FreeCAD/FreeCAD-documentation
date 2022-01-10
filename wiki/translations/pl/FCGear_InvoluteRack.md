@@ -93,10 +93,6 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 -    **pressure_parameter**: Only change the parameter, if sufficient knowledge of the gear geometry is available.
 
-## Limitations
-
-No limitations are known.
-
 ## Useful formulas 
 
 For more information see <img alt="" src=images/FCGear_InvoluteGear.svg  style="width:22px;"> [Involute gear](FCGear_InvoluteGear.md).

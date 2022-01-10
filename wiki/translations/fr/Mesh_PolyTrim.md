@@ -4,7 +4,7 @@
    Name/fr:Mesh Découper
    MenuLocation:Maillages → Cutting → Découper
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Couper le maillage](Mesh_PolyCut/fr.md), [Mesh Créer une section](Mesh_TrimByPlane/fr.md)
+   SeeAlso:[Mesh Couper le maillage](Mesh_PolyCut/fr.md), [Mesh Ajuster par plan](Mesh_TrimByPlane/fr.md)
 ---
 
 # Mesh PolyTrim/fr

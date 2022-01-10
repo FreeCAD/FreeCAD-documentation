@@ -1,5 +1,5 @@
 # Category:Test Framework/sv
-This category lists pages related to the [Test Framework Workbench/sv](Test_Framework_Workbench/sv.md).
+This category lists pages related to the [Test Framework Workbench](Testing/sv.md).
 
 ### Contents:
 

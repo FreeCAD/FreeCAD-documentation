@@ -93,10 +93,6 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 -    **pressure_parameter**: modifiez le paramètre uniquement si une connaissance suffisante de la géométrie de l\'engrenage est disponible.
 
-## Limitations
-
-Aucune limitation n\'est connue.
-
 ## Formules utiles 
 
 Pour plus d\'informations, voir <img alt="" src=images/FCGear_InvoluteGear.svg  style="width:22px;"> [Engrenage à développante](FCGear_InvoluteGear/fr.md).

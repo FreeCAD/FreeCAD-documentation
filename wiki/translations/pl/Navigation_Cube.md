@@ -1,74 +1,63 @@
 # Navigation Cube/pl
 {{TOCright}}
 
-Sterowanie kostką nawigacyjną lub **kostka nawigacyjna** jest pomocą graficzną interfejsu użytkownika w celu zmiany orientacji widoku 3D. Domyślnie jest ona widoczny i znajduje się w prawym górnym rogu okna 3D. Jeśli patrzysz na standardowy [widok 3D](3D_view.md), wygląda to następująco:
+## Wprowadzenie
 
-![](images/FreeCAD-v0-18-NavCube_Axonometric.png )
+**Kostka nawigacyjna** daje wizualną informację o orientacji ujęcia widoku kamery w bieżącym [widoku 3D](3D_view/pl.md) i może być użyta do jej zmiany. Domyślnie jest ona widoczna i znajduje się w prawym górnym rogu okna.
+
+Kostka nawigacyjna została zaktualizowana w wersji 0.20 programu FreeCAD i reszta tej strony opisuje tę wersję. W wersji 0.19 programu FreeCAD główne zachowanie jest takie samo, ale niektóre funkcje nie są dostępne.
+
+![](images/Navigation_Cube_Example.png )
 
 Kostka nawigacyjna składa się z kilku części:
 
--   Strzałki kierunkowe.
--   Główny sześcian nawigacyjny.
--   Menu mini-kostki.
+-   [Główny sześcian nawigacyjny](#G.C5.82.C3.B3wny_sze.C5.9Bcian_nawigacyjny.md).
+-   [Strzałki kierunkowe](#Strza.C5.82ki_kierunkowe.md).
+-   [Przycisk widoku do tyłu](#Przycisk_widoku_do_ty.C5.82u.md) *(u góry po prawej)* {{Version/pl|0.20}}
+-   [Menu mini-kostki](#Menu_mini-kostki.md) *(na dole po prawej)*.
+-   Wskaźniki osi X, Y i Z
 
-Najechanie kursorem myszki na element kostki nawigacyjnej zmienia kolor tego elementu na jasnoniebieski; kliknięcie spowoduje zmianę orientacji widoku 3D w sposób wskazany przez funkcję. W poniższym przykładzie widok 3D został obrócony na \"niestandardową\" orientację za pomocą [gestu myszki](Mouse_navigation/pl.md). Wskaźnik znajduje się nad narożnikiem *(oznaczonym kolorem niebieskim)*; kliknięcie spowoduje przekierowanie widoku 3D na standardowy widok przestrzenny z tym narożnikiem zwróconym w stronę użytkownika.
+Wszystkie elementy, z wyjątkiem wskaźników osi, można klikać.
 
-![](images/FreeCAD-v0-18-NavCube_SelectCorner.png )
+## Użycie
 
-## Strzałki kierunkowe 
+### Główny sześcian nawigacyjny 
 
-Istnieje sześć strzałek kierunkowych: cztery trójkątne groty, jedna na górze, na dole, w lewo i w prawo; oraz dwie zakrzywione strzałki, po obu stronach górnego grotu.
+Główny sześcian posiada 26 ścian: 6 kwadratowych ścian głównych, 12 prostokątnych ścian brzegowych ({{Version/pl|0.20}}) i 8 trójkątnych ścian narożnych. Kliknięcie dowolnej z nich spowoduje zmianę ujęcia widoku kamery tak, aby jej kierunek był prostopadły do wybranej ściany.
 
--   Kliknięcie trójkątnych grotów spowoduje obrócenie widoku 3D o 45° wokół osi prostopadłej względem kierunku strzałki.
--   Kliknięcie zakrzywionych strzałek spowoduje obrócenie widoku 3D wokół linii skierowanej w Twoją stronę.
+### Strzałki kierunkowe 
 
-## Podstawowa nawigacja Kostką 
+Istnieje sześć strzałek kierunkowych: cztery trójkątne groty, jedna na górze, na dole, w lewo i w prawo; oraz dwie zakrzywione strzałki. Kliknięcie jednej z trójkątnych strzałek spowoduje obrót [widoku 3D](3D_view/pl.md) wokół linii prostopadłej do kierunku strzałki. Kliknięcie zakrzywionej strzałki spowoduje obrót [widoku 3D](3D_view/pl.md) wokół kierunku widoku.
 
-Główny sześcian nawigacyjny *(\"kostka nawigacyjna\" w pozostałej części tej sekcji)*, śledzi orientację rzeczywistego obiektu w głównej części okna widoku 3D. Każda operacja, która przekierowuje główny widok przestrzenny, zmieni również orientację kostki nawigacyjnej.
+### Przycisk widoku do tyłu 
 
-Kostka nawigacyjna jest zasadniczo widokiem przestrzennym kostki z jej trzema podstawowymi typami składowymi *(ścianki, krawędzie i narożniki)*, dzięki czemu można je łatwo kliknąć wskaźnikiem. Kliknięcie na konkretny komponent ustawia widok 3D w taki sposób, aby komponent był wyśrodkowany i zwrócony w stronę użytkownika. Wizerunek kostki jest nieco zgnieciony, jakby element najbardziej oddalony od Ciebie był większy niż element zwrócony bezpośrednio do Ciebie. Pozwala to na to, aby elementy sąsiadujące z elementem zwróconym w Twoją stronę były widoczne i aby można je było wybrać świadomie.
+Kliknięcie okrągłego przycisku w prawym górnym rogu kostki nawigacyjnej spowoduje obrócenie [widoku 3D](3D_view/pl.md) o 180° wokół pionowej osi widoku.
 
-Na przykład, w normalnym widoku regularnego sześcianu, gdy jedna ściana jest zwrócona do Ciebie, możesz również zobaczyć cztery krawędzie tej ścianki i cztery rogi tej ścianki. W zgniecionej wersji widoku kostki można również zobaczyć elementy reprezentujące każdą z sąsiadujących ze sobą ścian, cztery krawędzie łączące narożniki ściany zwróconej do Ciebie z przeciwległą ścianą oraz narożniki przeciwległej ściany. Pozwala to na wybór dowolnego z możliwych widoków standardowych z wyjątkiem przeciwległej ściany i jej krawędzi *(21 z 26 możliwych widoków)*:
+### Menu mini-kostki 
 
--   Ściana zwrócona do ciebie *(nie robi nic, bo to jest aktualny widok)*.
--   Cztery krawędzie obecnej ściany.
--   Cztery rogi obecnej ściany.
--   Cztery sąsiednie ściany.
--   Cztery krawędzie prowadzące do przeciwległej ścian.
--   Cztery rogi przeciwległej ściany.
+Kliknięcie małego sześcianu w prawym dolnym rogu Kostki nawigacji spowoduje wyświetlenie menu z następującymi opcjami:
 
-Nie ma możliwości wybrania:
+-    **[Ortogonalny](Std_OrthographicCamera/pl.md)**: przełącza na widok ortogonalny.
 
--   Przeciwległej ściany.
--   Krawędzi przeciwległej ściany.
+-    **[Perspektywa](Std_PerspectiveCamera/pl.md)**: przełącza na widok perspektywiczny.
 
-Uwaga: Począwszy od momentu napisania tego tekstu *(wersja 0.18)*, istnieją pewne problemy z kostką nawigacyjną; nie wszystkie funkcje są obecnie dostępne. W szczególności, nie można wybierać krawędzi, nie można też wybierać czterech narożników ściany zwróconej bezpośrednio do przodu.
+-    **[Isometryczny](Std_ViewIsometric/pl.md)**: przełącza na widok izometryczny.
 
-### Wybór ściany 
+-    **[Przybliż i dopasuj](Std_ViewFitAll/pl.md)**: powiększa i pochyla ujęcie widoku tak, aby wszystkie widoczne obiekty zmieściły się w aktualnym kadrze.
 
-Klikając na ścianę, można ustawić widok 3D z tą konkretną ścianą zwróconą w stronę użytkownika. Patrząc z perspektywy ściany, dostępne są inne punkty wyboru, jak wspomniano powyżej. Na każdej z zewnętrznych krawędzi znajdują się cztery cienkie paski, reprezentujące cztery sąsiadujące ze sobą ścianki. Kliknięcie ich spowoduje wybranie widoku odpowiadającego sąsiedniej ścianie. Do ustawienia odpowiedniego widoku przestrzennego można użyć czterech zaokrąglonych narożników. Istnieje również wewnętrzny zestaw krawędzi i narożników, które są obecnie nieaktywne.
+## Dostosowywanie
 
-### Wybór krawędzi 
+### Przesuwanie Kostki Nawigacyjnej 
 
-Niestety, wybór krawędzi jest obecnie zepsuty. Próba wybrania krawędzi spowoduje wybranie powierzchni, która znajduje się za nią. Kliknięcie na krawędź powinno wyśrodkować tę krawędź tak, aby była skierowana w stronę użytkownika.
+Możesz przesunąć całą strukturę sterowania kostki nawigacyjnej w inne miejsce obrazu w oknie z widokiem 3D, naciskając myszą w dowolnym miejscu głównego sześcianu i przeciągając. Struktura zacznie się przesuwać dopiero po przesunięciu kursora poza jedną z krawędzi głównego sześcianu.
 
-### Wybór narożnika 
+### Ustawienia
 
-Kliknięcie jednego z narożników daje widok przestrzenny widziany z tego narożnika. Jak wspomniano powyżej, obecnie, gdy ściana jest zwrócona bezpośrednio do Ciebie, narożniki tej ścianki nie są wybierane.
+Sześcian nawigacyjny jest konfigurowalny, włącznie z dostosowaniem jego rozmiaru: **Edycja → Preferencje → Wyświetlanie → Nawigacja → Kostka nawigacyjna**. Zobacz [Edytor preferencji](Preferences_Editor/pl#Nawigacja.md).
 
-## Menu mini-kostki 
+### Opcje zaawansowane 
 
-Po niżej prawego dolnego rogu sześcianu nawigacyjnego, znajduje się mały sześcian. Kliknięcie na ten sześcian spowoduje wyświetlenie menu, za pomocą którego można zmienić typ widoku *(na ortograficzny, perspektywiczny, izometryczny)*.
-
-## Przesuwanie Kostki Nawigacyjnej na ekranie 
-
-Możesz przesunąć całą strukturę sterowania kostki nawigacyjnej w inne miejsce obrazu w oknie z widokiem 3D, naciskając myszką w dowolnym miejscu korpusu sześcianu nawigacyjnego i przeciągając go. Struktura nie zacznie się poruszać, dopóki kursor myszki nie przesunie się poza krawędź głównego sześcianu nawigacyjnego.
-
-## Konfiguracja
-
-Sześcian nawigacyjny jest konfigurowalny, włącznie z dostosowaniem jego rozmiaru: **Edycja → Preferencje → Wyświetlanie → Nawigacja → Kostka nawigacyjna** {{Version/pl|0.19}}.
-
-Bardziej zaawansowana konfiguracja jest dostępna w tabeli - pozycja: [Menu kostki nawigacyjnej](Interface_Customization/pl#Menu_kostki_nawigacyjnej.md) [zewnętrznych środowisk pracy](External_workbenches/pl.md).
+Zewnętrzne narzędzie [Menu kostki nawigacyjnej](Interface_Customization/pl#Menu_kostki_nawigacyjnej.md) zapewnia łatwiejszy dostęp do kilku bardziej zaawansowanych opcji dostosowywania.
 
 
 

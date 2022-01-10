@@ -63,10 +63,6 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 -    **module**: En utilisant les directives ISO (Organisation internationale de normalisation), la taille du module est désignée comme l\'unité représentant la taille des dents d\'engrenage. Module (m): m = 1 (p = 3.1416), m = 2 (p = 6.2832), m = 4 (p = 12.566). Si vous multipliez Module par Pi, vous pouvez obtenir Pitch (p). Le pas (Pitch) est la distance entre les points correspondants sur les dents adjacentes.
 
-## Limitations
-
-Les limitations ne sont pas encore connues.
-
 ## Formules utiles 
 
 -    **addendum diameter**= **module** \* **(teeth +2)**

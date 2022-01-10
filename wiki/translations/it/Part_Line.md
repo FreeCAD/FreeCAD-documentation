@@ -42,53 +42,53 @@ Utilizzare il menu {{KEY/it|<img src="images/Part_CreatePrimitives.png" width=16
 
 ### Proprietà
 
-+--------------------------------------------------------+---------------------------------------------------------------------------------------------------+
-| ![](images/PartLineProperty_it.png ) | #### Vista                                                                                        |
-|                                                        |                                                                                                   |
-|                                                        | Sono disponibili le [Proprietà standard](DraftStandardProperty/it.md) di visualizzazione. |
-|                                                        |                                                                                                   |
-|                                                        | #### Dati                                                                                         |
-|                                                        |                                                                                                   |
-|                                                        |                                                                                    |
-|                                                        | {{KEY/it|Base}}                                                                                   |
-|                                                        |                                                                                                |
-|                                                        | \* {{ProprietaDati|Label}}: nome                                                    |
-|                                                        |                                                                                                   |
-|                                                        | -                                                                                  |
-|                                                        |     {{ProprietaDati|Placement}}                                                                   |
-|                                                        |                                                                                                |
-|                                                        |     : [posizionamento](Placement/it.md)                                                   |
-|                                                        |                                                                                                   |
-|                                                        |                                                                                    |
-|                                                        | {{KEY/it|Vertex 1 iniziale}}                                                                      |
-|                                                        |                                                                                                |
-|                                                        | \* {{ProprietaDati|X1}} : (di default è 0).                                         |
-|                                                        |                                                                                                   |
-|                                                        | -                                                                                  |
-|                                                        |     {{ProprietaDati|Y1}}                                                                          |
-|                                                        |                                                                                                |
-|                                                        |     : (di default è 0).                                                                           |
-|                                                        |                                                                                                   |
-|                                                        | -                                                                                  |
-|                                                        |     {{ProprietaDati|Z1}}                                                                          |
-|                                                        |                                                                                                |
-|                                                        |     : (di default è 0).                                                                           |
-|                                                        |                                                                                                   |
-|                                                        |                                                                                    |
-|                                                        | {{KEY/it|Vertex 2 finale}}                                                                        |
-|                                                        |                                                                                                |
-|                                                        | \* {{ProprietaDati|X2}} : (di default è 1).                                         |
-|                                                        |                                                                                                   |
-|                                                        | -                                                                                  |
-|                                                        |     {{ProprietaDati|Y2}}                                                                          |
-|                                                        |                                                                                                |
-|                                                        |     : (di default è 1).                                                                           |
-|                                                        |                                                                                                   |
-|                                                        | -                                                                                  |
-|                                                        |     {{ProprietaDati|Z2}}                                                                          |
-|                                                        |                                                                                                |
-|                                                        |     : (di default è 1).                                                                           |
-+--------------------------------------------------------+---------------------------------------------------------------------------------------------------+
++--------------------------------------------------------+-----------------------------------------------------------+
+| ![](images/PartLineProperty_it.png ) | #### Vista                                                |
+|                                                        |                                                           |
+|                                                        | ..                                                        |
+|                                                        |                                                           |
+|                                                        | #### Dati                                                 |
+|                                                        |                                                           |
+|                                                        |                                            |
+|                                                        | {{KEY/it|Base}}                                           |
+|                                                        |                                                        |
+|                                                        | \* {{ProprietaDati|Label}}: nome            |
+|                                                        |                                                           |
+|                                                        | -                                          |
+|                                                        |     {{ProprietaDati|Placement}}                           |
+|                                                        |                                                        |
+|                                                        |     : [posizionamento](Placement/it.md)           |
+|                                                        |                                                           |
+|                                                        |                                            |
+|                                                        | {{KEY/it|Vertex 1 iniziale}}                              |
+|                                                        |                                                        |
+|                                                        | \* {{ProprietaDati|X1}} : (di default è 0). |
+|                                                        |                                                           |
+|                                                        | -                                          |
+|                                                        |     {{ProprietaDati|Y1}}                                  |
+|                                                        |                                                        |
+|                                                        |     : (di default è 0).                                   |
+|                                                        |                                                           |
+|                                                        | -                                          |
+|                                                        |     {{ProprietaDati|Z1}}                                  |
+|                                                        |                                                        |
+|                                                        |     : (di default è 0).                                   |
+|                                                        |                                                           |
+|                                                        |                                            |
+|                                                        | {{KEY/it|Vertex 2 finale}}                                |
+|                                                        |                                                        |
+|                                                        | \* {{ProprietaDati|X2}} : (di default è 1). |
+|                                                        |                                                           |
+|                                                        | -                                          |
+|                                                        |     {{ProprietaDati|Y2}}                                  |
+|                                                        |                                                        |
+|                                                        |     : (di default è 1).                                   |
+|                                                        |                                                           |
+|                                                        | -                                          |
+|                                                        |     {{ProprietaDati|Z2}}                                  |
+|                                                        |                                                        |
+|                                                        |     : (di default è 1).                                   |
++--------------------------------------------------------+-----------------------------------------------------------+
 
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Line/it

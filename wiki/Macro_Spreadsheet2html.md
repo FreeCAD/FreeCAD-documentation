@@ -28,7 +28,6 @@ Forum: No dedicated thread at time of writing.
 
  **Macro\_Spreadsheet2html.FCMacro**
 
-
     #!/usr/bin/env python3
     # -*- coding: utf-8 -*-
 

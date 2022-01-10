@@ -324,8 +324,14 @@ Sulla rete sono disponibili diversi pacchetti alternativi non ufficiali di FreeC
 
 ### Installazione manuale in sistemi basati su .deb 
 
+
+<div class="mw-translate-fuzzy">
+
 Se per qualche motivo non è possibile utilizzare uno dei metodi di cui sopra, si può sempre scaricare uno dei pacchetti .deb disponibili nella pagina [Download](Download.md).
-{{DownloadUnixStable}}
+{{DownloadLinuxStable}}
+
+
+</div>
 
 Dopo aver scaricato la versione .deb corrispondente al proprio sistema, se è installato il pacchetto _ (di solito lo è), basta spostarsi nella cartella del file scaricato e fare doppio clic su di esso. Le dipendenze necessarie sono installate automaticamente dal gestore del sistema. In alternativa è possibile installare il pacchetto dal terminale; spostarsi nella cartella che contiene il file e digitare:
 

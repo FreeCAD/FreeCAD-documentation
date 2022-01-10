@@ -3,7 +3,7 @@ This category contains all Unfinished Documents
 
 ### Contents:
 
-_ , _
+_
 
 _ _
 

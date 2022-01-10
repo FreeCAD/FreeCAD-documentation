@@ -81,10 +81,6 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 -    **pressure_parameter**: Only change the parameter, if sufficient knowledge of the gear geometry is available.
 
-## Limitations
-
-Limitations are not known yet.
-
 ## Useful formulas 
 
 -    **beta (lead angle)**= arctan (**module** \* **teeth** : **pitchdiameter (diameter)**)

@@ -259,7 +259,7 @@ Fait passer le plan par les deux premiers sommets, perpendiculairement au plan d
 
 #### Pliage
 
-Mode spécifique pour le pliage des polyèdres. Sélectionnez les 4 arêtes dans l'ordre : arête pliable, arête de pliage, autre arête de pliage, autre arête pliable. Le plan sera aligné sur le premier pli. Dans l\'image ci-dessous, il n\'est pas nécessaire que les deux feuilles à plier ensemble soient les mêmes.
+Mode spécifique pour le pliage des polyèdres. Sélectionnez 4 arêtes dans l\'ordre : arête collable, ligne de pliage, autre ligne de pliage, autre arête collable. Le plan sera aligné sur le pliage de la première arête. Dans l\'image ci-dessous, il n\'est pas nécessaire que les deux feuilles à plier ensemble soient les mêmes.
 
 :; Combinaisons de référence:
 

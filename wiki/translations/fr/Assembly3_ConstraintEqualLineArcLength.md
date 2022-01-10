@@ -16,7 +16,7 @@ Elle relie la longueur de la ligne 2D à la longueur d\'un arc (2D ou 3D ?).
 
 La valeur de la longueur de la ligne sélectionnée est égale à la longueur de l\'arc sélectionné.
 
-Comme je n'ai pas réussi à faire fonctionner cet outil, voici l'énoncé de l'info-bulle : 
+Comme je n'ai pas réussi à faire fonctionner cet outil, voici l'énoncé de l'infobulle : 
 
 Ajoutez une contrainte \"EqualLineArcLength\" pour qu\'une ligne ait la même longueur qu\'un arc.
 

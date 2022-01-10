@@ -21,7 +21,7 @@ ToolBar Icon  ![](images/Macro_Extract_Wires_from_Mesh.png )
 **Macro\_Extract\_Wires\_from\_Mesh.FCMacro**
 
 
-```python
+{{MacroCode|code=
 #!/usr/bin/python
 
 # This macro will extract wires from selected meshes
@@ -47,7 +47,7 @@ for obj in FreeCADGui.Selection.getSelection():
             if wires:
                 Part.show(Part.makeCompound(wires))
                 obj.ViewObject.hide()
-```
+}}
 
 ---
 [documentation index](../README.md) > Macro Extract Wires from Mesh

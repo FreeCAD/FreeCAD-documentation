@@ -3,10 +3,10 @@
 
 ## Обзор
 
-The installation of FreeCAD on the most well-known Linux systems has been now endorsed by the community, and FreeCAD should be directly available via the package manager available on your distribution. The FreeCAD team also provides some:
+Установка FreeCAD на наиболее известные системы Linux теперь поддерживается сообществом, и FreeCAD должен быть доступен через диспетчер пакетов вашего дистрибутива напрямую. Команда FreeCAD также предоставляет:
 
--   \"Official\" packages when new releases are made
--   Experimental _, and [Ubuntu Snaps](Ubuntu_Snap.md) for testing bleeding-edge features.
+-   «Официальные» пакеты при выпуске новых релизов
+-   Экспериментальные репозитории _, и [Ubuntu Snaps](Ubuntu_Snap.md) для тестирования последних возможностей.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -28,9 +28,9 @@ sudo apt install freecad
 ```
 
 
-**Note:**
+**Примечание:**
 
-the Ubuntu Universe package may be outdated as the packaging may lag behind the latest stable source code. In this case, it is suggested to install the package from the `-stable` PPA below. In addition, installing the `-daily` package can be done to test the development branch.
+пакет Ubuntu Universe может быть устаревшим, так как упаковка может отставать от последнего стабильного исходного кода. В этом случае рекомендуется установить пакет из PPA `-stable` ниже. Кроме того, для тестирования ветки разработки можно установить пакет `-daily`.
 
 ### Стабильная PPA версия 
 
@@ -40,8 +40,8 @@ the Ubuntu Universe package may be outdated as the packaging may lag behind the 
 
 Установка стабильного PPA с помощью графического интерфейса (GUI):
 
-:   1\. Navigate to **Ubuntu Software → Software & Updates → Software Sources → Other Software**
-:   2\. Click on **Add**, then copy and paste the following line
+:   1\. Перейдите на **Ubuntu Software → Software & Updates → Software Sources → Other Software**
+:   2\. Кликните на **Add**, затем скопируйте и вставьте следующую строку
 
     :   
         
@@ -55,9 +55,9 @@ the Ubuntu Universe package may be outdated as the packaging may lag behind the 
 
 
 
-:   3\. Add the source, close the dialog, and reload your software sources, if asked.
+:   3\. Добавьте источник, закройте диалоговое окно, и перезагрузите свои источники софта, если нужно.
 
-Now you can find and install the last stable FreeCAD version from the **Ubuntu Software Center**.
+Теперь вы можете найти и установить последнюю стабильную версию FreeCAD из **Ubuntu Software Center**.
 
 #### Через командную строку 
 
@@ -148,27 +148,27 @@ ubuntu@ubuntu:~$ apt-cache policy freecad-doc
 
 ### Development PPA (Daily) 
 
-As FreeCAD is in constant development, you may wish to install the **daily** package to keep with the latest improvements and bug fixes. The repository is also hosted on Launchpad and is called [freecad-daily](https://launchpad.net/~freecad-maintainers/+archive/freecad-daily).
+Поскольку FreeCAD находится в постоянном развитии, вы можете установить пакет **daily**, чтобы быть в курсе последних улучшений и исправлений ошибок. Репозиторий также размещен на Launchpad и называется [freecad-daily](https://launchpad.net/~freecad-maintainers/+archive/freecad-daily).
 
-This version is compiled daily from the official master repository. Please beware that although it will contain new features and bug fixes, it may also have newer bugs, and be unstable.
+Эта версия компилируется ежедневно из официального главного репозитория. Имейте в виду, что хотя он будет содержать новые функции и исправления ошибок, он также может содержать новые ошибки и быть нестабильным.
 
-Add the daily PPA to your software sources, update the package lists, and install the daily package: 
+Добавьте PPA типа \"daily\" к вашим источникам программного обеспечения, обновите списки пакетов и установите ежедневный пакет: 
 ```python
 sudo add-apt-repository ppa:freecad-maintainers/freecad-daily
 sudo apt-get update
 sudo apt-get install freecad-daily
 ```
 
-Every day you can update to the latest daily: 
+Каждый день вы можете обновлять до последней ежедневной: 
 ```python
 sudo apt-get update
 sudo apt-get install freecad-daily
 ```
 
 
-**Note:**
+**Примечание:**
 
-in some cases new code or dependencies added to FreeCAD will cause packaging errors; if this happens, a daily package may not be generated until the maintainers manually fix the problems. If you wish to continue testing the latest code, you should get the source code and compile FreeCAD directly; for instructions see [compiling](compiling.md).
+в некоторых случаях новый код или зависимости, добавленные в FreeCAD, вызывают ошибки упаковки; в этом случае пакет \"daily\" может не создаваться до тех пор, пока майнтайнеры не исправят проблемы вручную.
 
 Запустите ежедневную (PPA) версию FreeCAD:
 
@@ -181,9 +181,9 @@ in some cases new code or dependencies added to FreeCAD will cause packaging err
     
 
 
-**Note:**
+**Примечание:**
 
-it is possible to install both the `-stable` and `-daily` packages in the same system. This is useful if you wish to work with a stable version, and still be able to test the latest features in development. Notice that the executable for the daily version is `freecad-daily`, but for the stable version it is just `freecad`.
+в одной системе можно установить как пакеты `-stable`, так и `-daily`.Это полезно, если вы хотите работать со стабильной версией и при этом иметь возможность тестировать новейшие функции в разработке. Обратите внимание, что исполняемый файл для ежедневной версии - это `freecad-daily`, а для стабильной версии это просто `freecad`.
 
 
 </div>
@@ -205,7 +205,7 @@ sudo apt-get install freecad
 
 ## OpenSUSE
 
-FreeCAD is typically installed with YAST (abbr. Yet another Setup Tool) the Linux operating system setup and configuration tool, or in any terminal/console (root rights required) with:
+FreeCAD обычно устанавливается через YAST (сокр. Yet another Setup Tool, Еще один инструмент установки), инструмент установки и настройки операционной системы Linux, или в терминале/консоли (нужны права root) с помощью:
 
 :   
     
@@ -216,30 +216,30 @@ FreeCAD is typically installed with YAST (abbr. Yet another Setup Tool) the Linu
     
 
 
-**Note:**
+**Примечание:**
 
-This procedure only covers the installation of officially released **stable** FreeCAD program versions, depending on the installed links to the program package repositories of your OS version. The openSUSE package *may be outdated* as the packaging may lag behind the latest stable source code. In this case, it is suggested to install the package manually from the below indicated (Expand) source repositories.
+Эта процедура распространяется только на установку официально выпущенных **стабильных** версий программы FreeCAD, в зависимости от установленных ссылок на репозитории программных пакетов вашей версии ОС. Пакет openSUSE «может быть устаревшим», так как упаковка может отставать от последнего стабильного исходного кода.В этом случае рекомендуется установить пакет вручную из отмеченных (Expand) репозиториев исходников.
 
 
 <div class="mw-collapsible-content">
 
-A vast release program for FreeCAD package builds are offered. Please visit for a survey:
+Предлагается обширная программа выпуска для сборок пакетов FreeCAD. Посетите для обзора:
 
-**[Survey of repositories on openSUSE](https://software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=FreeCAD)**
+**[1](https://software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=FreeCAD)**
 
-Generally for selecting the correct openSUSE distribution needed it is necessary to click on the particular **View** button.
+Обычно для выбора правильного дистрибутива openSUSE необходимо щелкнуть по особой кнопке **View**.
 
-### Stable
+### Стабильная версия 
 
-The stable package version: [Stable repositories on openSUSE](https://software.opensuse.org/package/FreeCAD). The correct openSUSE distribution version must be selected in the lower part of the web page.
+Стабильная версия пакета: [Стабильные репозитории на openSUSE](https://software.opensuse.org/package/FreeCAD). Требуемая версия дистрибутива openSUSE должна быть выбрана в нижней части веб-страницы.
 
-Note: openSUSE has several options to choose from when downloading FreeCAD. To view these options, visit [Survey of stable repositories on openSUSE](https://software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=FreeCAD).
+Примечание: openSUSE имеет несколько вариантов на выбор при загрузке FreeCAD. Чтобы просмотреть эти варианты, посетите [Обзор стабильных репозиториев на openSUSE](https://software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=FreeCAD).
 
-### Development
+### В разработке 
 
-Latest development releases AKA **unstable**: [Unstable repositories listings on openSUSE](https://software.opensuse.org/download.html?project=science%3Aunstable&package=FreeCAD)
+Последние выпуски разработчика **unstable**: [Списки нестабильных репозиториев в openSUSE](https://software.opensuse.org/download.html?project=science%3Aunstable&package=FreeCAD)
 
-It is recommended to grab the binary packages directly. Then select the correct distribution for your installed openSUSE OS.
+Рекомендуется загружать бинарные пакеты напрямую. Затем выберите правильный дистрибутив для установленной вами ОС openSUSE.
 
 
 </div>
@@ -261,7 +261,7 @@ emerge freecad
 
 ## Fedora
 
-FreeCAD has been included in the official Fedora packages since Fedora 20. It can be installed from the command line with:
+FreeCAD выл включён в официальные пакеты начиная с Fedora 20. Он может быть установлен из командной строки:
 
 
 ```python
@@ -271,18 +271,18 @@ sudo dnf install freecad
 
 <div class="mw-collapsible-content">
 
-On older Fedora releases, that was:
+Для предыдущих выпусков Fedora:
 
 
 ```python
 sudo yum install freecad
 ```
 
-The gui packages managers can also be used. Search for \"freecad\". The official release package version tends to be well behind the FreeCAD releases. [Package: freecad](http://rpms.remirepo.net/rpmphp/zoom.php?rpm=freecad) shows the versions included in the Fedora repositories over time and versions.
+Также может быть использован менеджер пакетов с графическим интерфейсом. Задайте поиск \"freecad\". Версия пакета официального релиза как правило сильно отстает от релизов FreeCAD. [Package: freecad](http://rpms.remirepo.net/rpmphp/zoom.php?rpm=freecad) показывает версии, включенные в репозитории Fedora с течением времени и версии.
 
-More current versions can be obtained by downloading one of the [.AppImage](https://github.com/FreeCAD/FreeCAD/releases/)releases from the github repository. These work fine on Fedora.
+Более свежие версии можно получить, загрузив один из [.AppImage](https://github.com/FreeCAD/FreeCAD/releases/)релизов из репозитория github. Они отлично работают на Fedora.
 
-If you want to keep up with the absolute latest daily builds, FreeCAD is also available on [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/). To install the build from there, in a terminal session, enter:
+Если вы хотите быть в курсе самых последних ежедневных сборок, FreeCAD также доступен на [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/)Чтобы установить сборку оттуда введите в терминале:
 
 
 ```python
@@ -290,22 +290,16 @@ sudo dnf copr enable @freecad/nightly
 sudo dnf install freecad
 ```
 
-That leaves the copr repository active, so
+Это оставляет copr хранилище активным, так что
 
 
 ```python
 sudo dnf upgrade
 ```
 
-or equivalent, will update to the latest FreeCAD build, along with updates from any of the other active repos. If you want something a bit more stable, you can disable \@freecad/nightly again after the initial install. The copr repository only keeps builds from the past 2 weeks. This is not a solution if you want to pick a specific older version.
+или эквивалентной, обновится до последней сборки FreeCAD вместе с обновлениями из любых других активных репозиториев. Если вы хотите что-то более стабильное, вы можете отключить \@freecad/nightly снова после первоначальной установки. Репозиторий copr сохраняет только сборки за последние 2 недели. Это не подходит, если вы хотите выбрать более старую конкретную версию.
 
-
-<div class="mw-translate-fuzzy">
-
-Инструкции также доступны в [компиляция FreeCAD самостоятельно](Compile_on_Linux/ru.md), включая сценарий специально для Fedora. С небольшим изменением, чтобы проверить конкретную фиксацию из git, любая версия начиная примерно с FreeCAD 0.15 может быть построена на любом дистрибутиве начиная с Fedora 21.
-
-
-</div>
+Инструкции также доступны на [компиляция FreeCAD самостоятельно](Compile_on_Linux/ru.md), включая сценарий специально для Fedora. С небольшим изменением, чтобы проверить конкретную фиксацию из git, любая версия начиная примерно с FreeCAD 0.15 может быть построена на любом дистрибутиве начиная с Fedora 21.
 
 
 </div>
@@ -315,38 +309,38 @@ or equivalent, will update to the latest FreeCAD build, along with updates from 
 
 ## Arch
 
-Installing FreeCAD on Arch Linux and derivatives (ex. Manjaro):
+Установка FreeCAD в Arch Linux и производных (например, Manjaro):
 
 
 ```python
 pacman -S freecad
 ```
 
-## Другие
+## Прочие
 
-If you find out that your system features FreeCAD but is not documented in this page, please tell us on the [forum](http://forum.freecadweb.org/viewforum.php?f=21)!
+Если Вы обнаружите, что Ваша система использует FreeCAD, но не описана на этой странице, пожалуйста сообщите нам на [форум](http://forum.freecadweb.org/viewforum.php?f=21)!
 
-Many alternative, non-official FreeCAD packages are available on the net, for example for systems like slackware or fedora. A search on the net can quickly give you some results.
+В сети доступны многие альтернативные, неофициальные пакеты FreeCAD, например для систем вроде slackware или fedora. Поиск в сети быстро даст Вам какие-нибудь результаты.
 
 ### Ручная установка в системах, основанных на .deb 
 
-If for some reason you cannot use one of the above methods, you can always download one of the .deb packages available on the [Download](Download.md) page.
-{{DownloadUnixStable}}
+Если по каким-то причинам Вы не можете использовать вышеуказанные методы, Вы всегда можете загрузить один из пакетов .deb, доступных на странице [Загрузки](Download/ru.md) page.
+{{DownloadLinuxStable}}
 
-Once you downloaded the .deb corresponding to your system version, if you have the _ package installed (usually it is), you just need to navigate to where you downloaded the file, and double-click on it. The necessary dependencies will be taken care of automatically by your system package manager. Alternatively you can also install it from the terminal, navigating to where you downloaded the file, and type:
+Загрузив файл .deb соответственно версии Вашей системы, если у Вас используется установочный пакет _ (обычно это так), Вам нужно перейти в место загрузки файла и сделать двойной щелчок на нём. Установочные зависимости будут учтены пакетным менеджером системы автоматически. Или Вы можете установить его из терминала, перейдя к месту загрузки файла и набрав:
 
 
 ```python
 sudo dpkg -i Name_of_your_FreeCAD_package.deb
 ```
 
-changing Name\_of\_your\_FreeCAD\_package.deb by the name of the file you downloaded.
+изменив Name\_of\_your\_FreeCAD\_package.deb на имя загруженного файла.
 
-After you installed FreeCAD, a startup icon will be added in the \"Graphic\" section of your Start Menu.
+После установки FreeCAD икона запуска будет добавлена в секцию \"Графика\" (\"Graphic\") стартового меню.
 
 ### Установка в других Linux/Unix системах 
 
-Many common Linux distros now include a precompiled FreeCAD as part of the standard packages. This is often out of date, but is a place to start. Check the standard package managers for your system. One of the following (partial) list of commands could install the official version of FreeCAD for your distro from the terminal. These probably need administrator privileges.
+Многие распространенные дистрибутивы Linux теперь включают в себя скомпилированный FreeCAD как часть стандартных пакетов. Он часто устаревший, но хорошая стартовая точка. Проверьте стандартные менеджеры пакетов для вашей системы. С помощью одного из следующих (частичных) списков команд можно установить официальную версию FreeCAD для вашего дистрибутива из терминала. Для этого вероятно потребуются права администратора.
 
 
 ```python
@@ -358,15 +352,9 @@ yum install freecad
 zypper install freecad
 ```
 
-The package name is case sensitive, so try \FreeCAD\ as well as \freecad\. If that does not work for you, either because your package manager does not have a precompiled FreeCAD version available, or because the available version is too old for your needs, you can try downloading one of the [.AppImage](https://github.com/FreeCAD/FreeCAD/releases/) releases from the github repository. These tend to work on most 64 bit Linux distributions, without any special installation. Just make sure the downloaded file is marked as executable, then run it.
-
-
-<div class="mw-translate-fuzzy">
+Имя пакета чувствительно к регистру, поэтому попробуйте \FreeCAD\, а также\ freecad\. Если это не работает для вас, либо из-за того, что у вашего менеджера пакетов нет предварительно скомпилированной версии FreeCAD, либо из-за того, что доступная версия устарела для ваших нужд, вы можете попробовать загрузить один из [.AppImage](https://github.com/FreeCAD/FreeCAD/releases/) релизов из репозитория github. Они работают на большинстве 64-битных дистрибутивов Linux без какой-либо специальной установки. Просто убедитесь, что загруженный файл помечен как исполняемый, а затем запустите его.
 
 Если и этого недостаточно, и вы не можете найти другой источник предварительно скомпилированного пакета для вашей ситуации, вам потребуется [скомпилировать FreeCAD самостоятельно](Compile_on_Linux/ru.md).
-
-
-</div>
 
 ### Установка Windows Версии в Linux 
 

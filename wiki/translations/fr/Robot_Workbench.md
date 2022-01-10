@@ -57,7 +57,7 @@ Les outils pour créer et manipuler les trajectoires. Il y en a deux sortes, par
 -   <img alt="" src=images/Robot_TrajectoryDressUp.svg  style="width:30px;"> [Habiller une trajectoire](Robot_TrajectoryDressUp/fr.md): Créé un habillage qui supplante certaines propriétés d\'une trajectoire
 -   <img alt="" src=images/Robot_TrajectoryCompound.svg  style="width:30px;"> [Grouper et connecter des trajectoires](Robot_TrajectoryCompound/fr.md): Crée un composé (compound) et connecte un ensemble de trajectoires
 
-## Création de scripts 
+## Script
 
 Voir [Robot API exemple](Robot_API_example/fr.md) pour une description des fonctions utilisées pour modéliser les déplacements du robot.
 

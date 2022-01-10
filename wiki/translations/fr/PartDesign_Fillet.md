@@ -15,32 +15,26 @@ Cet outil crée des congés (arrondis) sur les bords sélectionnés d\'un objet.
 
 ## Utilisation
 
--   Sélectionnez une ou plusieurs arêtes ou une face sur un objet, puis lancez l\'outil en cliquant sur son icône ou en allant dans le menu. Dans le cas où vous avez sélectionné une face, toutes ses arêtes sont prises en compte pour le congé.
+-   Sélectionnez une ou plusieurs arêtes ou une face sur un objet, puis lancez l\'outil en cliquant sur son icône ou en allant dans le menu. Si vous avez sélectionné une face ou un objet 3D ({{Version/fr|0.20}}), toutes ses arêtes sont prises en compte pour le congé.
 -   Dans le [Panneau des tâches](Task_Panel/fr.md) qui apparaît, réglez le rayon du congé soit en entrant la valeur, soit en cliquant sur les flèches haut/bas.
+-   Après avoir cliqué sur le bouton **Ajouter**, vous pouvez ajouter toutes les arêtes de l\'objet en faisant un clic droit et en sélectionnant **Ajouter tous les bords** dans le menu contextuel. {{Version/fr|0.20}}
 -   Si vous voulez ajouter plus d\'arêtes ou de faces, cliquez sur le bouton **Ajouter** et sélectionnez les arêtes et/ou les faces.
 -   Si vous voulez supprimer des arêtes ou des faces
     -   sélectionnez l\'arête/la face dans la liste du dialogue et appuyez sur la touche **Suppr**. *Remarque* : puisqu\'il doit y avoir au moins une arête pour la fonction, la dernière arête ou face restante dans la liste ne peut pas être supprimée.
     -   ou cliquez sur le bouton **Suppression**. Toutes les arêtes et faces précédemment sélectionnées sont surlignées en violet. Sélectionnez l\'arête ou la face à supprimer.
 -   Cliquez sur **OK** pour valider.
 -   Pour une chaîne d\'arêtes tangentes les unes aux autres, une seule arête peut être sélectionnée. Le congé se propagera le long de la chaîne.
--   Pour éditer le filet après la validation de la fonction, double-cliquez sur l\'étiquette du filet dans l\'arbre du projet ou cliquez dessus avec le bouton droit de la souris et sélectionnez **Editer le congé**.
+-   Pour éditer le filet après la validation de la fonction, double-cliquez sur l\'étiquette du filet dans l\'arbre du projet ou cliquez dessus avec le bouton droit de la souris et sélectionnez **Modifier le congé**.
 
-## PartDesign Congé versus Part Congé 
+## Remarques
 
-<img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> _** de l\'[Atelier Part](Part_Workbench.md). Bien qu\'ils partagent le même nom, ils ne sont pas identiques et ne sont pas utilisés de la même manière.
-
-Voici comment ils diffèrent les uns des autres:
-
--   Le PartDesign Congé est *paramétrique*. Après l\'application d\'un congé, son rayon peut être modifié. Cela n\'est pas possible avec le Part Congé.
--   Le PartDesign Congé crée une entrée de congé séparée (suivie d\'un numéro séquentiel s\'il existe déjà des congés) dans l\'arborescence du projet. Le Part Congé devient le parent de l\'objet auquel il a été appliqué.
--   Le PartDesign Congé offre un aperçu en direct du congé appliqué à l\'objet avant de valider la fonction.
--   Le Part Congé prend en charge des rayons variables (avec un rayon de départ et un rayon de fin). Le PartDesign Congé ne fonctionne pas.
+-   Le PartDesign Congé ne doit pas être confondu avec le [Part Congé](Part_Fillet/fr.md). À moins que vous ne sachiez ce que vous faites, [Part Congé](Part_Fillet/fr.md) ne doit pas être utilisé sur un corps PartDesign. Voir [Part et PartDesign](Part_and_PartDesign/fr.md).
 
 ## Problèmes connus 
 
 Les congés, chanfreins et autres fonctionnalités opérant sur les corps solides dépendent du noyau OpenCASCADE Technology (OCCT) sous-jacent utilisé par FreeCAD. Le noyau OCCT a parfois du mal à gérer les arêtes vives qui coïncident, là où deux faces se rencontrent. Si tel est le cas, FreeCAD peut se bloquer sans explication.
 
-S\'il est exécuté depuis le terminal, FreeCAD peut produire un fichier de log comme celui-ci après le crash :
+Si FreeCAD est exécuté depuis le terminal, FreeCAD peut produire un fichier de logs comme celui-ci après le crash :
 
 
 {{code|code=
@@ -55,7 +49,7 @@ S\'il est exécuté depuis le terminal, FreeCAD peut produire un fichier de log 
 ...
 }}
 
-Cette sortie fait référence à des fonctions situées dans `libTKBRep.so`, `libTKFillet.so` etc\... qui sont des bibliothèques OCCT. Si ce type de crash se produit, le problème devra peut-être être signalé et résolu dans OCCT plutôt que dans FreeCAD.
+Ce dernier fait référence à des fonctions situées dans `libTKBRep.so`, `libTKFillet.so`, etc. qui sont des bibliothèques OCCT. Si ce type de plantage se produit, le problème doit être signalé et résolu dans OCCT plutôt que dans FreeCAD.
 
 Voir les discussions du forum pour plus d\'informations :
 
@@ -64,7 +58,7 @@ Voir les discussions du forum pour plus d\'informations :
 
 L\'utilisateur est également responsable de l\'intégrité de son propre modèle. Selon le modèle, il peut être impossible d\'effectuer un congé ou un chanfrein si le corps n\'est pas assez grand pour supporter cette opération. Par exemple, il ne serait pas possible de créer un congé de 10 mm si un bord n\'est séparé que de 5 mm de la surface suivante. Dans ce cas, le rayon maximal pour un congé serait de 5 mm ; essayer d\'utiliser une valeur plus grande peut entraîner une forme qui ne calcule pas, voire un crash. Si l\'utilisation de la limite exacte de 5 mm ne fonctionne pas, il est possible d\'utiliser une approximation très proche, telle que 4,9999 mm, pour obtenir le même résultat visible.
 
-### Nom topologique 
+### Dénomination topologique 
 
 La numérotation des arêtes n\'est pas complètement stable. Il est donc conseillé de terminer la conception principale de votre corps solide avant d\'appliquer des fonctions telles que les congés et les chanfreins, sans quoi les arêtes risquent de changer de nom et les arêtes recevant un congé risquent de devenir invalides.
 

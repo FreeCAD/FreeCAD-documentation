@@ -176,7 +176,7 @@ Enfin, un graphique des contraintes principales de compression et de traction mo
 
 Le modèle de contrainte de traction suggère un concept alternatif utilisant des câbles de précontrainte (superposés en blanc). Ce concept est développé dans le post suivant : <https://forum.freecadweb.org/viewtopic.php?f=18&t=33049>
 
-## Relation
+## En relation 
 
 -   [FEM et béton](FEM_Concrete/fr.md)
 

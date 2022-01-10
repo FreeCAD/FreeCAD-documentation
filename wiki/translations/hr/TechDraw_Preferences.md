@@ -34,7 +34,7 @@ All preferences settings with *italic* labels are default values for new drawing
 
 ### Conventions
 
--   **Projection Group Angle**: If [projection groups](TechDraw_ProjectionGroup.md) will use either first- or third-angle projection. See [multiview projection](https://en.wikipedia.org/wiki/Multiview_projection#Multiviews) for an explanation.
+-   **Projection Group Angle**: If [projection groups](TechDraw_ProjectionGroup.md) will use either first-angle (European) projection or third-angle (American) projection. See [multiview projection](https://en.wikipedia.org/wiki/Multiview_projection#Multiviews) for an explanation.
 -   **Hidden Line Style**: The style to be used for hidden lines.
 
 ### Files
@@ -166,7 +166,7 @@ HLR stands for *hidden line removal*.
 -   **Show Loose 2D Geom**: Includes 2D Objects in projections, e.g. loose sketches
 -   **Edge Fuzz**: Size of selection area around edges. The fuzz unit is approximately 0.1 mm, depending on your current zoom.
 -   **Mark Fuzz**: Selection area around center marks. The fuzz unit is approximately 0.1 mm, depending on your current zoom.
--   **Line End Cap Shape**: Setting of the line end cap shape. Explanation of the options: <https://doc.qt.io/qt-5/qt.html#PenCapStyle-enum>
+-   **Line End Cap Shape**: Setting of the line end cap shape. Explanation of the options: [pen cap styles](https://doc.qt.io/qt-5/qt.html#PenCapStyle-enum)
 -   **Max SVG Hatch Tiles**: The limit of SVG tiles with a size of 64x64 pixels used to hatch a single face. For large scalings one might get an error about to many SVG tiles, then one needs to increase the tile limit.
 -   **Max PAT Hatch Segments**: The maximum hatch line segments used when hatching a face with a PAT pattern.
 

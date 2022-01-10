@@ -35,7 +35,7 @@ Les ateliers suivants sont intégrés à chaque installation de FreeCAD :
 
 -   <img alt="" src=images/Workbench_Points.svg  style="width:32px;"> L\'[atelier Points](Points_Workbench/fr.md) pour travailler avec des nuages de points.
 
--   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> Le [atelier Raytracing](Raytracing_Workbench/fr.md) pour travailler avec le lancer de rayons (rendu).
+-   <img alt="" src=images/Workbench_Raytracing.svg  style="width:32px;"> L\'[atelier Raytracing](Raytracing_Workbench/fr.md) pour travailler avec le lancer de rayons (rendu).
 
 -   <img alt="" src=images/Workbench_Reverse_Engineering.svg  style="width:32px;"> L\'[atelier Reverse Engineering](Reverse_Engineering_Workbench/fr.md) est destiné à fournir des outils spécifiques pour convertir des formes/solides/mailles en fonctionnalités paramétriques compatibles avec FreeCAD. Il est toujours en cours de développement.
 
@@ -47,7 +47,7 @@ Les ateliers suivants sont intégrés à chaque installation de FreeCAD :
 
 -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> L\'[Atelier Start](Start_Workbench/fr.md) vous permet de passer rapidement à l\'un des ateliers les plus courants.
 
--   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> Le [atelier Surface](Surface_Workbench/fr.md) fournit des outils pour créer et modifier des surfaces. Il est similaire à l\'outil Part Générateur de formes à partir des bords.
+-   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> L\'[atelier Surface](Surface_Workbench/fr.md) fournit des outils pour créer et modifier des surfaces. Il est similaire à l\'outil [Part Générateur de formes](Part_Builder/fr.md), option Face à partir d\'arêtes.
 
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> L\'[atelier TechDraw](TechDraw_Workbench/fr.md) pour produire des dessins techniques à partir de modèles 3D. C\'est le successeur de l\'[atelier Drawing](Drawing_Workbench/fr.md).
 
@@ -61,17 +61,15 @@ Les ateliers suivants sont toujours inclus dans l\'installation de base à des f
 
 -   <img alt="" src=images/Workbench_Complete.svg  style="width:32px;"> Le [Complete Workbench](Complete_Workbench/fr.md) contient toutes les commandes et fonctionnalités de tous les établis qui ont satisfait à certains critères de qualité. {{Obsolete/fr|0.17}}
 
--   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> L\'[atelier Drawing](Drawing_Workbench/fr.md) était utilisé pour produire des dessins techniques mais est maintenant déprécié. Il est encore nécessaire pour lire les anciens fichiers FreeCAD qui contiennent des objets créés avec cet atelier. Le [atelier TechDraw](TechDraw_Workbench/fr.md) est son remplaçant plus avancé. {{Obsolete/fr|0.17}}
+-   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> L\'[atelier Drawing](Drawing_Workbench/fr.md) était utilisé pour produire des dessins techniques mais est maintenant déprécié. Il est encore nécessaire pour lire les anciens fichiers FreeCAD qui contiennent des objets créés avec cet atelier. L\'[atelier TechDraw](TechDraw_Workbench/fr.md) est son remplaçant plus avancé. {{Obsolete/fr|0.17}}
 
 ## Ateliers externes 
 
 Les ateliers de FreeCad sont faciles à programmer en langage [Python](Python/fr.md), il y a pour cette raison plusieurs personnes qui développent des ateliers additionnels en dehors des principaux développeurs de FreeCAD.
 
-La page _, situé dans le menu **Outils → Gestionnaire d’addons**.
+La page des _, situé dans le menu **Outils → Gestionnaire d’Addon**.
 
 Et d\'autres ateliers sont toujours en développement !
-
-Vous pouvez activer un atelier par le menu **Vue → Atelier**.
 
 
 

@@ -13,16 +13,28 @@
 
 Das Werkzeug Ansicht fügt eine Darstellung eines oder mehrerer Objekte einer Zeichnungsseite hinzu. Dies ist der Grundbaustein des TechDraw-Arbeitsbereichs. Die meisten anderen Ansichten sind in irgendeiner Weise von NeueAnsicht abgeleitet.
 
+
+<div class="mw-translate-fuzzy">
+
+Ansicht wird versuchen, alles mit einer `Form` Eigenschaft zu zeichnen. Du kannst _ Containers oder einer [Gruppe](Std_Group/de.md).
+
+
+</div>
+
 ![](images/TechDraw_View_example.png ) 
 *Ansicht eines massiven Gehäuses mit unsichtbaren Linien*
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Wähle eine oder mehrere Objekte (Körper, App::Part, Part::Formelement, Entwurfsobjekt, \...siehe Hinweise) im [3D Ansicht](3D_view/de.md) oder [Baumansicht](Tree_view/de.md).
 2.  Wenn du mehrere Zeichnungsseiten in deinem Dokument hast, musst du auch die gewünschte Seite im Baum auswählen. Verwende die **Strg**, um mehrere Elemente im Baum auszuwählen.
 3.  Drücke die **<img src="images/TechDraw_View.svg" width=16px> [Ansicht einfügen](TechDraw_View/de.md)** Schaltfläche
 
-Ansicht wird versuchen, alles mit einer `Form` Eigenschaft zu zeichnen. Du kannst _ Containers oder einer [Gruppe](Std_Group/de.md).
+
+</div>
 
 ## Eigenschaften
 

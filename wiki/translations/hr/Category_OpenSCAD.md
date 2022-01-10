@@ -3,7 +3,7 @@ This category lists pages related to the [OpenSCAD\_Workbench/hr](OpenSCAD_Workb
 
 ### Contents:
 
-_ , [OpenSCAD Workbench/hr](OpenSCAD_Workbench/hr.md)
+[OpenSCAD Preferences/hr](OpenSCAD_Preferences/hr.md) , [OpenSCAD Workbench/hr](OpenSCAD_Workbench/hr.md)
 
 _
 

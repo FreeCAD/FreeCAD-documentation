@@ -20,10 +20,16 @@ A note of caution, using this tool to link to generated (solid) geometry can lea
 
 ## Применение
 
+
+<div class="mw-translate-fuzzy">
+
 -   Создайте новый эскиз или откройте существующий эскиз.
 -   Нажмите кнопку \'Внешняя Геометрия\'.
 -   Выберите ребро или вершину, которую вы хотите связать с эскизом.
 -   Нажмите Esc, или выберите другой инструмент, чтобы прекратить импорт геометрии в эскиз.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

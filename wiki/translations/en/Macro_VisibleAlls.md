@@ -22,7 +22,7 @@ ToolBar Icon <img alt="" src=images/Macro_VisibleAlls.png  style="width:64px;">
 **Macro\_VisibleAlls.FCMacro**
 
 
-```python
+{{MacroCode|code=
 import FreeCAD
 #Macro_VisibleAlls
 __title__="Macro_DisplayAllObjects"
@@ -37,7 +37,7 @@ try:
         FreeCADGui.ActiveDocument.getObject(ShapeNameObj.Name).Visibility = True
 except Exception:
     None
-```
+}}
 
 ---
 [documentation index](../README.md) > Macro VisibleAlls/en

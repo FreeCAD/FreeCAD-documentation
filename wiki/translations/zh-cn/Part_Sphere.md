@@ -63,5 +63,17 @@ The properties of the object can be edited, either in the [Property editor](Prop
 
 <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;">
 
+## Scripting
+
+A Part Sphere can be created using the following function:
+
+
+```python
+sphere = FreeCAD.ActiveDocument.addObject("Part::Sphere", "mySphere")
+```
+
+-   Where {{Incode|"mySphere"}} is the name for the object.
+-   The function returns the newly created object.
+
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/zh-cn

@@ -3,7 +3,7 @@ This category lists pages related to the [Mesh\_Workbench/tr](Mesh_Workbench/tr.
 
 ### Contents:
 
-_ , [Mesh Workbench/tr](Mesh_Workbench/tr.md)
+[Mesh Scripting/tr](Mesh_Scripting/tr.md) , [Mesh to Part/tr](Mesh_to_Part/tr.md) , [Mesh Workbench/tr](Mesh_Workbench/tr.md)
 
 _
 

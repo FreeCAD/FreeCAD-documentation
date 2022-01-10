@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Fasteners Flip
-   MenuLocation:Fasteners → Flip
+   MenuLocation:Fasteners → Invert fastener
    Workbenches:[Fasteners](Fasteners_Workbench.md)
 ---
 
@@ -9,42 +9,20 @@
 
 ## Description
 
-The <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> [Fasteners Flip](Fasteners_Flip.md) re-orientates the selection to a different direction (in case it was added inverted in some way). This tool is part of the [external workbench](External_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
+The <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> **Fasteners Flip** command inverts the orientation of selected fasteners by changing their **invert** property.
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
-2.  Choose the inverted object (for example, a mis-orientated screw)
-3.  Invoke the Fasteners Flip tool several ways:
-    -   Press the <img alt="" src=images/Fasteners_Flip.svg  style="width:24px;"> button
-    -   Use the **Fasteners → Flip** entry in the Fasteners menu
-
-Result: object will invert/flip
-
- <img alt="" src=images/Fasteners_Flip_example-1.FCStd.png  style="width:1000px;"> 
-
-## Notes
-
-## Limitations
-
-## Properties
-
-
-{{Properties_Title|Base}}
-
--    **View**: Invert, boolean, default: false
-
-## Scripting
+1.  Select one or more fasteners.
+2.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Fasteners_Flip.svg" width=16px> [Fasteners Flip](Fasteners_Flip.md)** button.
+    -   Select the **Fasteners → <img src="images/Fasteners_Flip.svg" width=16px> Invert fastener** option from the menu.
+3.  The orientation of the selected fasteners is inverted.
 
 
 
 
-
-
-
-{{Fasteners Tools navi
-
-}} 
+ {{Fasteners Tools navi}} 
 
 _
 

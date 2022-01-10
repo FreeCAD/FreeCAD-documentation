@@ -22,6 +22,14 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
+-   Vista disegna qualsiasi cosa che abbia una proprietà `Shape`. È anche possibile selezionare oggetti _ o di un [Grouppo](Std_Group/it.md).
+
+
+</div>
+
 ![](images/TechDraw_View_example.png ) 
 *Vista di un solido con linee nascoste*
 
@@ -34,14 +42,6 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 2.  Se nel documento ci sono più pagine di disegno, è anche necessario selezionare la pagina desiderata nella struttura. Utilizzare il **Ctrl** per selezionare più elementi nella struttura.
 3.  Premere il pulsante **<img src="images/TechDraw_View.svg" width=16px> [Vista](TechDraw_View/it.md)
 **
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
--   Vista disegna qualsiasi cosa che abbia una proprietà `Shape`. È anche possibile selezionare oggetti _ o di un [Grouppo](Std_Group/it.md).
 
 
 </div>
@@ -113,9 +113,6 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 {{TitleProperty|HLR Parameters}}
 
 -    **CoarseView**: If true, TechDraw will use a polygon approximation to calculate drawing geometry. If false, TechDraw will use a precision algorithm. CoarseView can be much faster for complex models. The quality of the drawing is reduced, since every curve is approximated as a series of short line segments. Vertices are not displayed in CoarseView since each short segment would result in two new Vertices and the display becomes cluttered. Linear Dimensions can be added to a CoarseView, but are unlikely to be useful.
-
-:   
-    **Note:**CoarseView is affected by an upstream bug in OCCT ([\#3332](https://www.freecadweb.org/tracker/view.php?id=3332)) which causes the View\'s position on the Page to be slightly off from the specified X,Y values.
 
 -    **Smooth Visible**: Visible Smooth lines on/off.
 

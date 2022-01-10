@@ -118,10 +118,6 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 -    **reversed_backslash**: s\'il y a plusieurs vitesses, faites attention à la vitesse pour laquelle le paramètre est réglé.
 
-## Limitations
-
-Les limitations ne sont pas encore connues.
-
 ## Formules utiles 
 
 ### Engrenages droits standards 

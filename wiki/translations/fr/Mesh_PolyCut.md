@@ -4,7 +4,7 @@
    Name/fr:Mesh Couper un maillage
    MenuLocation:Maillages → Cutting → Couper le maillage
    Workbenches:[Mesh](Mesh_Workbench/fr.md)
-   SeeAlso:[Mesh Découper](Mesh_PolyTrim/fr.md), [Mesh Créer une section](Mesh_TrimByPlane/fr.md)
+   SeeAlso:[Mesh Découper](Mesh_PolyTrim/fr.md), [Mesh Ajuster par plan](Mesh_TrimByPlane/fr.md)
 ---
 
 # Mesh PolyCut/fr

@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Fasteners Shape
-   MenuLocation:Fasteners → Shape
+   MenuLocation:Fasteners → Simplify shape
    Workbenches:[Fasteners](Fasteners_Workbench.md)
 ---
 
@@ -9,39 +9,17 @@
 
 ## Description
 
-The <img alt="" src=images/Fasteners_Shape.svg  style="width:24px;"> [Fasteners Shape](Fasteners_Shape.md) is used to convert a parameteric fastener object into a simple shape.
-
-It is important to note that if you wish to share FCStd files that contains fasteners (or parts from other custom parametric workbenches) with other people, they must install these workbenches as well, or else they will get errors when trying to use them.
-
-However, if you just want to share the resulting parts, with no need to change object's parameters, you can use the Simplify (SimplifyObj) function, to convert the fasteners to simple shapes. They will appear as new Shape parts in the model tree. You can then delete the original fasteners and save as a simple FCStd that can be read and used on any FreeCAD installation.
-
-This tool is part of the [external workbench](External_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
+The <img alt="" src=images/Fasteners_Shape.svg  style="width:24px;"> **Fasteners Shape** command creates non-parametric copies of selected fasteners. This can be useful if you want to share a document containing fasteners with users who do not have the [Fasteners Workbench](Fasteners_Workbench.md) installed.
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
-2.  Invoke the Fasteners Shape tool several ways:
-    -   Press the <img alt="" src=images/Fasteners_Shape.svg  style="width:24px;"> button
-    -   Use the **Fasteners → Shape** entry in the Fasteners menu
-
-Result: A copy of the select fastener will be created with a **\_Copy** suffix. The original item will remain but will be have its visibility toggled to hidden.
-
-![The **M6x12\_Screw** was simplified. The original object had its visibility toggled to hidden, and the simplified **M6x12\_Screw\_Copy** object is shown.](images/Fasteners_Shape_example-1.FCStd.png )
-
-## Notes
-
-\- Multiple fasteners can be selected and simplified in a single step. It will create an individual simplified object for each item selected.
-
-## Limitations
-
-## Properties
-
-
-{{Properties_Title|Base}}
-
--    **View**: Invert, boolean, default: false
-
-## Scripting
+1.  Select one or more fasteners.
+2.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Fasteners_Shape.svg" width=16px> [Fasteners Shape](Fasteners_Shape.md)** button.
+    -   Select the **Fasteners → <img src="images/Fasteners_Shape.svg" width=16px> Simplify shape** option from the menu.
+3.  For each fastener a simplified copy is created.
+4.  The **Visibility** property of the original fasteners is set to `False`.
+5.  Optionally deleted the original fasteners.
 
 
 

@@ -3,7 +3,7 @@ This category groups all of the FreeCAD documentation
 
 ### Contents:
 
-_ , [Help FreeCAD/sv](Help_FreeCAD/sv.md) , [Main Page/sv](Main_Page/sv.md) , [Online Help Toc/sv](Online_Help_Toc/sv.md) , , , ,
+[Drawing templates/sv](Drawing_templates/sv.md) , [Help FreeCAD/sv](Help_FreeCAD/sv.md) , [Main Page/sv](Main_Page/sv.md) , [Online Help Toc/sv](Online_Help_Toc/sv.md) , , , ,
 
 _ _ _ _ _
 

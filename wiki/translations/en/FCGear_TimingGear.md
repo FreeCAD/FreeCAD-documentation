@@ -72,10 +72,6 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 -    **type**: The pitch of the timing belts (distance from tooth centre to tooth centre of consecutive teeth) is specified in types. GT2 has a pitch of 2 mm, GT3 of 3 mm, GT5 of 5 mm etc..
 
-## Limitations
-
-Limitations are not known yet.
-
 ## Useful formulas 
 
 -    **addendum diameter**= **pitch diameter** + 2 \* **module**

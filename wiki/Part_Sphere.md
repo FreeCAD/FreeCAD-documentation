@@ -42,7 +42,19 @@ The properties of the object can be edited, either in the [Property editor](Prop
 
 Because it is quite difficult to explain the meaning of the parameters angle 1, angle 2, angle 3, the picture below gives an explanation about these parameters with following values: angle 1 = -45°, angle 2 = 45° and angle 3= 90°.
 
- <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;">
+ <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;"> 
+
+## Scripting
+
+A Part Sphere can be created using the following function:
+
+ 
+```python
+sphere = FreeCAD.ActiveDocument.addObject("Part::Sphere", "mySphere")
+```
+
+-   Where {{Incode|"mySphere"}} is the name for the object.
+-   The function returns the newly created object.
 
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere

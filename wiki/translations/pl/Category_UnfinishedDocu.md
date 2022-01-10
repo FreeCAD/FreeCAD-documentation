@@ -3,7 +3,7 @@ This category contains all Unfinished Documents
 
 ### Contents:
 
-_ , _ , [Windows packaging/pl](Windows_packaging/pl.md)
+_
 
 _ _
 

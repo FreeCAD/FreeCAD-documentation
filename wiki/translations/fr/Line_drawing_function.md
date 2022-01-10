@@ -65,8 +65,7 @@ Mais pourquoi utilisons-nous une classe et non une fonction ? La raison en est q
 """This class will create a line after the user clicked 2 points on the screen"""
 ```
 
-En Python, toutes les classes ou fonctions peuvent avoir une documentation string(docstring).
-Ceci est particulièrement utile dans FreeCAD, parce que quand vous appelez cette classe dans l\'interpréteur, la description sera affichée comme une **info-bulle**.
+En Python, toutes les classes ou fonctions peuvent avoir une documentation string(docstring). Ceci est particulièrement utile dans FreeCAD, parce que quand vous appelez cette classe dans l\'interpréteur, la description sera affichée comme une infobulle.
 
 
 ```python
@@ -254,7 +253,7 @@ class line:
 FreeCADGui.addCommand('line', line())
 ```
 
-Ce que nous avons fait ici est de transformer notre fonction `__init __()` en une fonction `Activated()`. Lorsque les commandes FreeCAD sont exécutées, elles exécutent automatiquement la fonction `Activated()`. Nous avons également ajouté une fonction `GetResources()`, qui informe FreeCAD où il peut trouver l\'icône de l\'outil et quel sera le nom et l\'info-bulle de notre outil. Toute image {{FileName|jpg}}, {{FileName|png}} ou {{FileName|svg}} fonctionnera comme une icône, elle peut être de n\'importe quelle taille, mais il est préférable d\'utiliser une taille proche de l\'aspect final, comme 16x16, 24x24 ou 32x32. Ensuite, nous ajoutons la classe `line()` en tant que commande officielle de FreeCAD avec la méthode `addCommand()`.
+Ce que nous avons fait ici est de transformer notre fonction `__init __()` en une fonction `Activated()`. Lorsque les commandes FreeCAD sont exécutées, elles exécutent automatiquement la fonction `Activated()`. Nous avons également ajouté une fonction `GetResources()`, qui informe FreeCAD où il peut trouver l\'icône de l\'outil et quel sera le nom et l\'infobulle de notre outil. Toute image {{FileName|jpg}}, {{FileName|png}} ou {{FileName|svg}} fonctionnera comme une icône, elle peut être de n\'importe quelle taille, mais il est préférable d\'utiliser une taille proche de l\'aspect final, comme 16x16, 24x24 ou 32x32. Ensuite, nous ajoutons la classe `line()` en tant que commande officielle de FreeCAD avec la méthode `addCommand()`.
 
 Ça y est, nous avons juste besoin de redémarrer FreeCAD et nous aurons un plan de travail agréable avec notre nouvel outil **ligne** tout neuf ! {{Top}}
 

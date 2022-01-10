@@ -47,15 +47,21 @@ Die gesamte Software in diesem Abschnitt wird von den [Std Import](Std_Import/de
 
 FreeCAD hat einen eigenen Importeur und Exporteur für DXF Dateien, programmiert in C++. Derzeit führen sie nicht alle Funktionen des DXF Formats aus. Für diese Funktionen sind der alte Python Importeer und Exporteur weiterhin verfügbar. Diese benötigen die _ Seite für weitere Informationen.
 
-### DWG converters 
+### DWG Konverter 
 
-FreeCAD cannot directly read and write DWG files. To convert DXF files to DWG files, and vice-versa, FreeCAD relies on external converters. There is built-in support for the following DWG converters:
 
--   [LibreDWG](https://www.gnu.org/software/libredwg) (open-source, lacks support for some DWG entities).
--   [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) (free).
--   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial). <small>(v0.20)</small> 
+<div class="mw-translate-fuzzy">
 
-See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) for more information.
+FreeCAD kann DWG Dateien weder direkt lesen noch selbst erstellen. Um DXF Dateien in DWG Dateien zu wandeln, und umgekehrt, benötigt FreeCAD externe Konverter. FreeCAD unterstützt standardmäßig folgende Konverter:
+
+-   [LibreDWG](https://www.gnu.org/software/libredwg) (open-source, unterstützt nicht alle DWG Entities).
+-   [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) (gratis).
+-   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (kostenpflichtig). <small>(v0.20)</small> 
+
+
+</div>
+
+Siehe [Import Export Einstellungen](Import_Export_Preferences/de#DWG.md), [FreeCAD and DWG Import](FreeCAD_and_DWG_Import/de.md) für mehr Informationen.
 
 ### IfcOpenShell
 

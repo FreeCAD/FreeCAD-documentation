@@ -143,11 +143,11 @@ Ces outils effectuent des opérations booléennes.
 
 ### Autres outils 
 
--   <img alt="" src=images/Part_Import.svg  style="width:32px;"> [Import](Part_Import/fr.md) : Importe depuis des fichiers \*.IGES, \*.STEP ou \*.BREP.
+-   <img alt="" src=images/Part_Import.svg  style="width:32px;"> [Importation](Part_Import/fr.md) : Importe depuis des fichiers \*.IGES, \*.STEP ou \*.BREP.
 
--   <img alt="" src=images/Part_Export.svg  style="width:32px;"> [Export](Part_Export/fr.md) : Exporte vers des fichiers \*.IGES, \*.STEP ou \*.BREP.
+-   <img alt="" src=images/Part_Export.svg  style="width:32px;"> [Exportation](Part_Export/fr.md) : Exporte vers des fichiers \*.IGES, \*.STEP ou \*.BREP.
 
--   <img alt="" src=images/Part_BoxSelection.svg  style="width:32px;"> [Sélection par boîte](Part_BoxSelection/fr.md) : Sélectionne les faces dans une zone rectangulaire.
+-   <img alt="" src=images/Part_BoxSelection.svg  style="width:32px;"> [Sélection par zone](Part_BoxSelection/fr.md) : Sélectionne les faces dans une zone rectangulaire.
 
 -   <img alt="" src=images/Part_ShapeFromMesh.svg  style="width:32px;"> [Forme à partir du maillage](Part_ShapeFromMesh/fr.md) : Crée un objet de forme à partir d\'un objet de maillage.
 
@@ -169,7 +169,7 @@ Ces outils effectuent des opérations booléennes.
 
 ### Éléments du menu contextuel 
 
--   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Std Apparence](Std_SetAppearance/fr.md): Détermine l\'apparence d\'un objet entier (couleur, transparence, etc.).
+-   <img alt="" src=images/Std_SetAppearance.svg  style="width:32px;"> [Apparence](Std_SetAppearance/fr.md): Détermine l\'apparence d\'un objet entier (couleur, transparence, etc.).
 
 -   <img alt="" src=images/Part_FaceColors.svg  style="width:32px;"> [Définir les couleurs](Part_FaceColors/fr.md): Attribue des couleurs aux faces des pièces.
 
@@ -179,7 +179,7 @@ Ces outils effectuent des opérations booléennes.
 -   <img alt="" src=images/Preferences-import-export.svg  style="width:32px;"> [Préférences d\'Import Export](Import_Export_Preferences/fr.md): Préférences disponibles pour l\'importation et l\'exportation vers différents formats de fichier.
 -   [Réglage fin](Fine-tuning/fr.md): Quelques paramètres supplémentaires pour affiner le comportement de la partie.
 
-## Les scripts 
+## Script
 
 Voir [Part Ecrire un script](Part_scripting/fr.md)
 

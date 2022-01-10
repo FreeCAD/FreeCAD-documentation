@@ -53,7 +53,9 @@ The structure and file content for a workbench described here is the classic way
 
 ### Struttura del workbench in C++ 
 
-Per codificare l\'ambiente in python, non è necessario usare particolari attenzioni, è possibile inserire semplicemente gli altri file python insieme ai file Init.py e InitGui.py. Invece, quando si lavora in C++ si deve avere maggiori attenzioni, e iniziare rispettando una regola fondamentale di FreeCAD: separare la parte App dell\'ambiente, quella che può essere eseguita in modalità console, senza alcun elemento GUI, dalla parte Gui, che è quella che viene caricata solo quando FreeCAD funziona completo del suo ambiente GUI. Quindi, quando si crea un ambiente in C++, in realtà si creano probabilmente due moduli, un App e un Gui. Questi due moduli devono naturalmente essere richiamabili in python. Ogni modulo di FreeCAD (App o Gui) consiste, per lo meno, di un modulo con un file init. Questo è un tipico file AppMyModuleGui.cpp: 
+Per codificare l\'ambiente in python, non è necessario usare particolari attenzioni, è possibile inserire semplicemente gli altri file python insieme ai file Init.py e InitGui.py. Invece, quando si lavora in C++ si deve avere maggiori attenzioni, e iniziare rispettando una regola fondamentale di FreeCAD: separare la parte App dell\'ambiente, quella che può essere eseguita in modalità console, senza alcun elemento GUI, dalla parte Gui, che è quella che viene caricata solo quando FreeCAD funziona completo del suo ambiente GUI. Quindi, quando si crea un ambiente in C++, in realtà si creano probabilmente due moduli, un App e un Gui. Questi due moduli devono naturalmente essere richiamabili in python. Ogni modulo di FreeCAD (App o Gui) consiste, per lo meno, di un modulo con un file init. Questo è un tipico file AppMyModuleGui.cpp:
+
+
 ```python
 extern "C" {
     void MyModuleGuiExport initMyModuleGui()  
@@ -125,6 +127,8 @@ Per il proprio ambiente è possibile scegliere liberamente qualsiasi licenza, ma
 </div>
 
 The `FreeCAD.addImportType()` and `addEXportType()` functions allow you to give the name and extension of a file type, and a Python module responsible for its import. In the example above, an `importOwn.py` module will handle `.own` files. See [Code snippets](Code_snippets.md) for more examples.
+
+### Python workbenches 
 
 
 <div class="mw-translate-fuzzy">
@@ -277,10 +281,10 @@ class My_Command_Class():
     """My new command"""
 
     def GetResources(self):
-        return {'Pixmap'  : 'My_Command_Icon', # the name of a svg file available in the resources
-                'Accel' : "Shift+S", # a default shortcut (optional)
-                'MenuText': "My New Command",
-                'ToolTip' : "What my new command does"}
+        return {"Pixmap"  : "My_Command_Icon", # the name of a svg file available in the resources
+                "Accel"   : "Shift+S", # a default shortcut (optional)
+                "MenuText": "My New Command",
+                "ToolTip" : "What my new command does"}
 
     def Activated(self):
         """Do something here"""
@@ -291,12 +295,14 @@ class My_Command_Class():
         are met or not. This function is optional."""
         return True
 
-FreeCADGui.addCommand('My_Command',My_Command_Class())
+FreeCADGui.addCommand("My_Command", My_Command_Class())
 ```
 
 ### Definizione dei comandi C++ 
 
-Allo stesso modo, è possibile codificare i comandi in C++, in genere hanno un file Commands.cpp nel modulo Gui. Questo è un tipico file Commands.cpp: 
+Allo stesso modo, è possibile codificare i comandi in C++, in genere hanno un file Commands.cpp nel modulo Gui. Questo è un tipico file Commands.cpp:
+
+
 ```pythonDEF_STD_CMD_A(CmdMyCommand);
 
 CmdMyCommand::CmdMyCommand()
@@ -409,7 +415,7 @@ os.remove(qrc_filename)
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

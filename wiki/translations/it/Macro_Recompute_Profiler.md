@@ -42,7 +42,7 @@ ToolBar Icon ![](images/Macro_Recompute_Profiler.png )
 **RecomputeProfiler.FCMacro**
 
 
-```python
+{{MacroCode|code=
 __Title__="Macro Recompute Profiler"
 __Author__ = "DeepSOIC"
 __Version__ = "0.1"
@@ -162,7 +162,7 @@ def run():
         App.ActiveDocument.RecomputesFrozen = False
 
 run()
-```
+}}
 
 ## Post-processing resultati 
 

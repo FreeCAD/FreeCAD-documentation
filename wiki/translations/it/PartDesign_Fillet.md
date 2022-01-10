@@ -18,6 +18,9 @@ Questo strumento crea dei raccordi (arrotondamenti) sui bordi selezionati di un 
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 -   Selezionare uno o più bordi di un oggetto, quindi avviare lo strumento facendo clic sulla sua icona o tramite il menu.
 -   Nei **Parametri Raccordo** della finestra delle opzioni, impostare il raggio di raccordo inserendo il valore, o facendo clic sulle frecce su / giù. Il raccordo applicato viene mostrato in tempo reale.
 -   Se si desidera aggiungere più bordi o facce, fare clic prima sul pulsante **Aggiungi** e quindi selezionare il bordo o la faccia.
@@ -28,16 +31,12 @@ Questo strumento crea dei raccordi (arrotondamenti) sui bordi selezionati di un 
 -   Per una catena di spigoli tangenti l\'uno all\'altro, può essere selezionato un bordo singolo, il raccordo si propaga lungo la catena.
 -   Per modificare il raccordo dopo che la funzione è stata convalidata, fare doppio clic sull\'etichetta del Raccordo nella struttura del progetto, oppure fare clic destro su di esso e selezionare **Modifica Raccordo**.
 
-## Raccordo di PartDesign e Raccordo di Part 
 
-Il <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> _**. Sebbene condividano lo stesso nome, non sono uguali e non vengono utilizzati allo stesso modo.
+</div>
 
-Ecco come differiscono l\'uno dall\'altro:
+## Notes
 
--   Il raccordo di PartDesign è *Parametrico*. Dopo aver applicato un raccordo, è possibile modificarne il raggio; ciò non è possibile con il raccordo di Parte.
--   Il raccordo di PartDesign crea una voce Raccordo separata (seguita da un numero sequenziale se sono già presenti raccordi) nella struttura del progetto. Il raccordo di Parte diventa il genitore dell\'oggetto a cui è stato applicato.
--   Il raccordo di PartDesign offre un\'anteprima in tempo reale del raccordo applicato all\'oggetto prima di convalidare la funzione.
--   Il raccordo di Parte supporta i raggi variabili (con un raggio iniziale e un raggio finale). Il raccordo di PartDesign no.
+-   PartDesign Fillet should not be confused with [Part Fillet](Part_Fillet.md). Unless you know what you are doing, [Part Fillet](Part_Fillet.md) should not be used on a PartDesign Body. See [Part and PartDesign](Part_and_PartDesign.md).
 
 ## Problemi noti 
 

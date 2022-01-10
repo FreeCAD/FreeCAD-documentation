@@ -428,9 +428,9 @@ Inne przydatne zasoby to:
 ### Tłumaczenie komend Gui 
 
     {{GuiCommand
-    |Name=FEM EquationFluxsolver
-    |MenuLocation=Solve → Equation fluxsolver
-    |Workbenches=[FEM](Fem_Workbench.md)
+    |Name=FEM EquationFlux
+    |MenuLocation=Solve → Flux equation
+    |Workbenches=[FEM](FEM_Workbench.md)
     |Shortcut=**F** **S**
     |Version=0.17
     |SeeAlso=[FEM tutorial](FEM_tutorial.md)
@@ -439,13 +439,13 @@ Inne przydatne zasoby to:
 przetłumaczone:
 
     {{GuiCommand/fr
-    |Name=FEM EquationFluxsolver
-    |Name/fr=FEM EquationFluxsolver
-    |MenuLocation=Solveur → Equation fluxsolver
-    |Workbenches=[Atelier FEM](Fem_Workbench/fr.md)
+    |Name=FEM EquationFlux
+    |Name/fr=FEM Équation d'écoulement
+    |MenuLocation=Solveur → Équation de flux
+    |Workbenches=[Atelier FEM](FEM_Workbench/fr.md)
     |Shortcut=**F** **S**
     |Version=0.17
-    |SeeAlso=[FEM tutoriel](FEM_tutorial/fr.md)
+    |SeeAlso=[FEM Tutoriel](FEM_tutorial/fr.md)
     }}
 
 ### Ustawienia szablonu 
@@ -462,7 +462,7 @@ przetłumaczone:
 
 przetłumaczone:
 
-    [Atelier Pièces](Part_Module/fr.md)
+    [Atelier Part](Part_Module/fr.md)
 
 ### Tłumaczenie Docnav 
 

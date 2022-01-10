@@ -100,7 +100,7 @@ A gauche, en blanc, plusieurs objets planaires.<br>
 
 :\* <img alt="" src=images/Draft_PointLinkArray.svg  style="width:32px;"> _ au lieu d\'un réseau normal. {{Version/fr|0.19}}
 
--   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> [Édition](Draft_Edit/fr.md) : met les objets sélectionnés en mode Édition de Draft. Dans ce mode, les propriétés des objets peuvent être modifiées graphiquement.
+-   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> [Éditer](Draft_Edit/fr.md) : met les objets sélectionnés en mode d\'édition de Draft. Dans ce mode, les propriétés des objets peuvent être modifiées graphiquement.
 
 -   <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:32px;"> [Surligner les sous éléments](Draft_SubelementHighlight/fr.md) : met temporairement en évidence les objets sélectionnés ou les objets de base des objets sélectionnés.
 
@@ -192,7 +192,13 @@ La barre d\'outils [Draft Accrochage](Draft_Snap/fr.md) permet de sélectionner 
 
 -   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> _. Il peut aussi dégrouper des objets.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> _, [Std Groupes](Std_Group/fr.md) ou des objets de type groupe [Arch](Arch_Workbench/fr.md).
+
+
+</div>
 
 -   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> _.
 

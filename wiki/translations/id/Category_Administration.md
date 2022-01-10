@@ -3,9 +3,7 @@ This category contains articles and categories about wiki administrative subject
 
 ### Contents:
 
-_ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _
-
 _
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Category:Administration/id
+[documentation index](../README.md) > Category:Administration/id

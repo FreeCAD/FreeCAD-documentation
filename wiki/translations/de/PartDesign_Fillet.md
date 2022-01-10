@@ -18,6 +18,9 @@ Dieses Werkzeug erstellt Verrundungen (Rundungen) an den ausgewählten Kanten ei
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 -   Wähle eine einzelne oder mehrere Kanten oder eine Fläche auf einem Objekt aus und starte das Werkzeug, in dem Du entweder auf sein Symbol klickst oder in das Menü gehst. Wenn du eine Fläche ausgewählt hast, werden alle deine Kanten beim verrunden berücksichtigt.
 -   Stelle im erscheinenden [Aufgabenpaneel](Task_panel/de.md) den Verrundungsradius entweder durch Eingabe des Wertes oder durch Klicken auf die Pfeile nach oben/unten ein.
 -   Wenn du Kanten oder Flächen hinzufügen möchtest
@@ -27,16 +30,12 @@ Dieses Werkzeug erstellt Verrundungen (Rundungen) an den ausgewählten Kanten ei
 -   Bei einer Kette von Kanten, die tangential zueinander verlaufen, kann eine einzelne Kante ausgewählt werden; die Verrundung erstreckt sich entlang der Kette.
 -   Um die Verrundung nach der Validierung der Funktion zu bearbeiten, doppelklicke entweder auf das Label Verrundung im Projektbaum oder klicke mit der rechten Maustaste darauf und wähle **Verrundung bearbeiten**.
 
-## PartDesign Verrundung vs. Part Verrundung 
 
-<img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> _** des [Part Arbeitsbereich](Part_Workbench/de.md). Obwohl sie den gleichen Namen tragen, sind sie nicht gleich und werden nicht auf die gleiche Weise verwendet.
+</div>
 
-Hier ist, wie sie sich voneinander unterscheiden:
+## Notes
 
--   Die PartDesign Verrundung ist *parametrisch*. Nachdem eine Verrundung angewendet wurde, kann ihr Radius bearbeitet werden; dies ist mit der Part Verrundung nicht möglich.
--   Die PartDesign Verrundung erzeugt einen separaten Verrundungseintrag (gefolgt von einer fortlaufenden Nummer, wenn bereits Verrundungen vorhanden sind) im Projektbaum. Die Part Verrundung wird zum übergeordneten Objekt des Objekts, auf das sie angewendet wurde.
--   Die PartDesign Verrundung bietet eine Live Vorschau der Verrundung, die auf das Objekt angewendet wurde, bevor die Funktion bestätigt wird.
--   Die Part Verrundung unterstützt variable Radien (mit einem Start- und einem Endradius). Die Verrundung von PartDesign unterstützt keine Radien.
+-   PartDesign Fillet should not be confused with [Part Fillet](Part_Fillet.md). Unless you know what you are doing, [Part Fillet](Part_Fillet.md) should not be used on a PartDesign Body. See [Part and PartDesign](Part_and_PartDesign.md).
 
 ## Bekannte Probleme 
 

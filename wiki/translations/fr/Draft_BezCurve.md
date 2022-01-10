@@ -54,7 +54,7 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 
 ## Remarques
 
--   Une Draft Courbe de Bézier peut être éditée avec la commande [Draft Edition](Draft_Edit/fr.md).
+-   Une Draft Courbe de Bézier peut être éditée avec la commande [Draft Éditer](Draft_Edit/fr.md).
 -   OpenCascade, et donc FreeCAD, ne supporte pas les courbes de Bézier de degrés supérieurs à 25. Cela ne devrait pas être un problème en pratique, car la plupart des utilisateurs utilisent généralement des courbes de Bézier de degrés 3 à 5.
 
 ## Préférences

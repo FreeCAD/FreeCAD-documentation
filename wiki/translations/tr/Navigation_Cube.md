@@ -1,74 +1,63 @@
 # Navigation Cube/tr
 {{TOCright}}
 
-The navigational cube control, or **navigation cube**, is a user interface graphic aid for reorienting the 3D view. By default, it is visible and resides in the upper right corner of the 3D display. If you are looking at the standard [3D view](3D_view.md), it looks like the following:
+## Introduction
 
-![](images/FreeCAD-v0-18-NavCube_Axonometric.png )
+The **Navigation Cube** gives visual information about the camera orientation in the current [3D view](3D_view.md) and can be used to change it. By default it is visible and resides in the upper right corner of the view.
 
-The navigation cube consists of a number of parts:
+The Navigation Cube was updated in FreeCAD version 0.20 and the rest of this page describes that version. In FreeCAD version 0.19 the main behavior is the same but some features are missing.
 
--   Directional Arrows
--   Main Navigation Cube
--   Mini-cube Menu
+![](images/Navigation_Cube_Example.png )
 
-Hovering the mouse pointer over a feature of the navigational cube turns the feature light blue; clicking will reorient the 3D view as indicated by the feature. In the example below, the 3D view has been rotated by a [mouse gesture](Mouse_navigation.md) to a \"non-standard\" orientation. The pointer is over a corner (indicated by the blue color); clicking will reorient the 3D view to a standard axonometric view with that corner facing you.
+The Navigation Cube consists of a number of parts:
 
-![](images/FreeCAD-v0-18-NavCube_SelectCorner.png )
+-   The [main cube](#Main_cube.md)
+-   Six [directional arrows](#Directional_arrows.md)
+-   The [reverse view button](#Reverse_view_button.md) (top right) <small>(v0.20)</small> 
+-   The [mini-cube menu](#Mini-cube_menu.md) (bottom right)
+-   X, Y and Z Axis indicators
 
-## Directional Arrows 
+All parts, except the axis indicators, can be clicked.
 
-There are six directional arrows: four triangular arrowheads, one at the top, bottom, left and right; and two curved arrows, one on either side of the top arrow.
+## Usage
 
--   Clicking the triangular arrows will rotate the 3D view 45 degrees around a line perpendicular to the direction of the arrow.
--   Clicking the curved arrows will rotate the 3D view around a line pointing towards you.
+### Main cube 
 
-## Main Navigation Cube 
+The main cube has 26 faces: 6 square main faces, 12 rectangular edge faces (<small>(v0.20)</small> ), and 8 triangular corner faces. Clicking any of them will reorient the camera so that its direction is perpendicular to the selected face.
 
-The main navigation cube (\"nav cube\" in the rest of this section), tracks the orientation of the actual object in the main part of the 3D view. Any operation which reorients the main 3D view will reorient the nav cube as well.
+### Directional arrows 
 
-The navigation cube is essentially a 3D view of a cube with its three main component types (faces, edges, and corners) enhanced so they may be easily clicked with the pointer. Clicking on a particular component will set the 3D view to have that component centered and facing you. The navigation cube is somewhat \"squashed\", as if the feature farthest from you were larger than the feature directly facing you. This allows the features adjacent to the feature facing you to be seen and consequently selected.
+There are six directional arrows: four triangular arrowheads and two curved arrows. Clicking one of the triangular arrows will rotate the [3D view](3D_view.md) around a line perpendicular to the direction of the arrow. Clicking a curved arrow will rotate the [3D view](3D_view.md) around the view direction.
 
-For example, in a \"normal\" view of a regular cube, when one face is facing you, you can also see the four edges of that face and the four corners of that face. In the \"squashed\" nav cube, you can also see features representing each of the adjacent faces, the four edges connecting the corners of the face facing you with the opposite face, and the corners of opposite face. This allows you to select any of the possible standard views except the opposite face and its edges (21 out of 26 possible views):
+### Reverse view button 
 
--   The face facing you (does nothing, since that is the current view)
--   The four edges of the current face
--   The four corners of the current face
--   The four adjacent faces
--   The four edges leading to the opposite face
--   The four corners of the opposite face
+Clicking the round button in the top right corner of the Navigation Cube will rotate the [3D view](3D_view.md) 180 degrees around the vertical axis of the view.
 
-Not possible:
+### Mini-cube menu 
 
--   The opposite face
--   The edges of the opposite face
+Clicking the small cube in the bottom right corner of the Navigation Cube will bring up a menu with the following options:
 
-Note: As of this writing (v 0.18), there are some problems with the nav cube; not all features are currently selectable. In particular, edges are not selectable, nor are the four corners of the immediately facing face.
+-    **[Orthographic](Std_OrthographicCamera.md)**: switches to an orthographic view.
 
-### Face Selection 
+-    **[Perspective](Std_PerspectiveCamera.md)**: switches to a perspective view.
 
-Clicking on a face will orient the 3D view with that particular face facing you. From a face view, other selection points are available as noted above. There are four thin \"bars\" on each of the outside edges, representing the four adjacent faces; clicking them will select the view corresponding to the adjacent face. There are four round corners which may be used to set the corresponding axonometric view. There is also an interior set of edges and corners, which are currently non-functional.
+-    **[Isometric](Std_ViewIsometric.md)**: switches to an isometric view.
 
-### Edge Selection 
+-    **[Zoom to fit](Std_ViewFitAll.md)**: zooms and pans the camera so that all visible objects fit inside the view.
 
-Unfortunately, edge selection is currently broken. Attempting to select an edge will select the face which lies behind it. Clicking an edge should center that edge so it is facing you.
+## Customization
 
-### Corner Selection 
+### Move the Navigation Cube 
 
-Clicking one of the corners will give you an axonometric view as seen from that corner. As noted above, currently when a face is directly facing you, the corners of that face are not selectable.
+The entire Navigation Cube can be moved by pressing the mouse anywhere on the main cube and dragging. The structure will not begin to move until the cursor moves beyond one of the edges of the main cube.
 
-## Mini-cube Menu 
+### Preferences
 
-In the lower right corner of the navigational cube is a small cube. Clicking on this cube will bring up a menu you may use to change the type of view (Orthographic, Perspective, Isometric) and to do a \"Zoom to Fit\".
+The Navigation Cube is controlled by several preferences: **Edit → Preferences... → Display → Navigation → Navigation cube**. See [Preferences Editor](Preferences_Editor#Navigation.md).
 
-## Moving the Navigation Cube Display 
+### Advanced options 
 
-You may move the entire navigation cube control structure to another location in the 3D display by pressing the mouse anywhere in the main navigation cube and dragging. The structure will not begin to move until the mouse pointer has moved past the edge of the main navigation cube.
-
-## Configuration
-
-The navigation cube is configurable, including adjusting its size: **Edit → Preferences... → Display → Navigation → Navigation cube** <small>(v0.19)</small> .
-
-For more advanced configuration, refer to the [CubeMenu](Interface_Customization#CubeMenu.md) from [external workbenches](External_workbenches.md).
+The [CubeMenu](Interface_Customization#CubeMenu.md) external workbench provides easier access to several more advanced customization options.
 
 
 

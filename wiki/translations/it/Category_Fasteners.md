@@ -3,7 +3,7 @@ This page collects the documentation pages for the [Fasteners Workbench](Fastene
 
 ### Contents:
 
-[Fasteners Workbench/it](Fasteners_Workbench/it.md)
+[Fasteners BOM/it](Fasteners_BOM/it.md) , [Fasteners Workbench/it](Fasteners_Workbench/it.md)
 
 _
 

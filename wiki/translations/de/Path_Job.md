@@ -15,6 +15,9 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das Auftrag Werkzeug erstellt ein neues Auftragsobjekt im aktiven Dokument. Das Auftragsobjekt enthält die folgenden Informationen:
 
 1.  Eine Liste mit Werkzeug-Controller Definitionen, in der die Geometrie, Vorschübe und Geschwindigkeiten für die Pfadbearbeitungswerkzeuge angegeben sind.
@@ -23,6 +26,9 @@ Das Auftrag Werkzeug erstellt ein neues Auftragsobjekt im aktiven Dokument. Das 
 4.  Ein Schaft, der das Rohmaterial darstellt, der zum Pfad Arbeitsbereich gefräst wird.
 5.  Ein Einrichtungsdatenblatt, das die von den Pfadoperationen verwendeten Eingaben, einschließlich statischer Werte und Formeln, enthält.
 6.  Konfigurationsparameter, die den Zielpfad des ausgegebenen G-Code Auftrags, den Dateinamen und die Dateierweiterung sowie den Postprozessor angeben, der zur Erzeugung des entsprechenden Dialekts für die Ziel CNC Steuerung und zur Anpassung von Einheiten, Werkzeugänderungen, Parken usw. verwendet wird.
+
+
+</div>
 
 ## Anwendung
 
@@ -60,8 +66,14 @@ Die Auftrags GUI hat fünf horizontal ausgerichtete Reiter: **Allgemein**, **Aus
     -   **%M** Benutzer Makro Verzeichnis
     -   **%j** Name des Auftrags
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Prozessor**: Wähle den Postprozessor für deine Maschine aus.
 -   **Argumente**: Füge bei Bedarf Argumente für den Postprozessor hinzu.
+
+
+</div>
 
 ## Einrichtung
 

@@ -35,8 +35,8 @@ Ces outils permettent la création d\'objets architecturaux.
     -   <img alt="" src=images/Arch_Rebar_BeamReinforcement.png  style="width:32px;"> [Renfort poutre](Arch_Rebar_BeamReinforcement/fr.md) : crée des barres d\'armature à l\'intérieur d\'un objet Beam Arch Structure.
     -   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Armature personnalisée](Arch_Rebar/fr.md) : crée une barre d\'armature personnalisée dans un élément structurel sélectionné à l\'aide d\'une esquisse.
 
--   <img alt="" src=images/Arch_Floor.svg  style="width:32px;"> [Étage](Arch_Floor/fr.md) : crée un étage incluant les objets sélectionnés.
--   <img alt="" src=images/Arch_BuildingPart.svg  style="width:32px;"> [Partie de bâtiment (niveau)](Arch_BuildingPart/fr.md) : crée un composant de bâtiment incluant des objets sélectionnés.
+-   <img alt="" src=images/Arch_Floor.svg  style="width:32px;"> [Niveau](Arch_Floor/fr.md) : crée un niveau (étage) incluant les objets sélectionnés.
+-   <img alt="" src=images/Arch_BuildingPart.svg  style="width:32px;"> [Partie de bâtiment](Arch_BuildingPart/fr.md) : crée un composant de bâtiment incluant des objets sélectionnés.
 -   <img alt="" src=images/Arch_Building.svg  style="width:32px;"> [Bâtiment](Arch_Building/fr.md) : crée un bâtiment incluant les objets sélectionnés.
 -   <img alt="" src=images/Arch_Site.svg  style="width:32px;"> [Site](Arch_Site/fr.md) : crée un site incluant les objets sélectionnés.
 -   <img alt="" src=images/Arch_Project.svg  style="width:32px;"> [Project](Arch_Project/fr.md) : crée un projet avec inclusion de l\'objet sélectionné

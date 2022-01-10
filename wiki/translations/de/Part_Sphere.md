@@ -67,6 +67,18 @@ Da es recht schwierig ist, die Bedeutung der Parameter Winkel 1, Winkel 2, Winke
 
 <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;">
 
+## Scripting
+
+A Part Sphere can be created using the following function:
+
+
+```python
+sphere = FreeCAD.ActiveDocument.addObject("Part::Sphere", "mySphere")
+```
+
+-   Where {{Incode|"mySphere"}} is the name for the object.
+-   The function returns the newly created object.
+
 
 <div class="mw-translate-fuzzy">
 

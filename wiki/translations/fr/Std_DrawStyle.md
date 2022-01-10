@@ -5,7 +5,7 @@
    MenuLocation:Affichage → Style de représentation → ...
    Workbenches:Tous
    Shortcut:**V** **1** - **V** **7**
-   SeeAlso:[Std Boîte de délimitation](Std_SelBoundingBox/fr.md)
+   SeeAlso:[Std Boîte englobante](Std_SelBoundingBox/fr.md)
 ---
 
 # Std DrawStyle/fr
@@ -17,9 +17,9 @@ La commande **Std DrawStyle** peut remplacer l\'effet de la [propriété](Proper
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_DrawStyleAsIs.svg" width=16px> [Style de représentation](Std_DrawStyle.md)** et sélectionnez un style dans le menu déroulant.
+    -   Cliquez sur la flèche noire vers le bas à droite du bouton **<img src="images/Std_DrawStyleAsIs.svg" width=16px> [Style de représentation](Std_DrawStyle/fr.md)** et sélectionnez un style dans le menu déroulant.
     -   Dans le menu, accédez à **Affichage → Style de représentation** et sélectionnez un style.
-    -   Dans le menu contextuel [3D view](3D_view/fr.md), accédez à {{MenuCommand/fr|Style de représentation}} et sélectionnez un style.
+    -   Dans le menu contextuel de la [vue 3D](3D_view/fr.md), accédez à **Style de représentation** et sélectionnez un style.
     -   Utilisez l\'un des raccourcis clavier: **V** then **1**, **2**, **3**, **4**, **5**, **6** or **7**.
 
 ## Styles de représentation disponibles 

@@ -47,7 +47,13 @@ Die folgenden Arbeitsbereiche sind mit jeder FreeCAD Installation zusammengepack
 
 -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> Der [Startzentrum Arbeitsbereich](Start_Workbench/de.md) ermöglicht es dir, schnell zu einem der gängigsten Arbeitsbereiche zu wechseln.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> Der [Arbeitsbereich Oberfläche](Surface_Workbench/de.md) bietet Werkzeuge zum Erstellen und Ändern von Oberflächen. Er ist ähnlich wie der Part Form Erbauer Fläche aus Kanten.
+
+
+</div>
 
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> Der [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) zur Erstellung technischer Zeichnungen aus 3D Modellen. Es ist der Nachfolger des [Zeichnung Arbeitsbereichs](Drawing_Workbench/de.md).
 

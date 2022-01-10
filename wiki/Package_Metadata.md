@@ -35,6 +35,7 @@ The top-level  element must contain at least the following tags:
 
 -   [](#.3Cname.3E.md)
 -   [](#.3Cversion.3E.md)
+-   [](#.3Cdate.3E.md)
 -   [](#.3Cdescription.3E.md)
 -   [](#.3Cmaintainer.3E.md) (multiple, but at least one)
 -   [](#.3Clicense.3E.md) (multiple, but at least one)
@@ -63,6 +64,12 @@ The name of this package. Must only contain characters that are valid for filena
 REQUIRED
 
 A version number that follows either the [semantic versioning 2.0 standard](https://semver.org) (e.g. 1.0.2-beta) or the [CalVer style](https://calver.org/) (e.g. 2021.12.08). Note that you cannot include both types, and switching between types is not supported. Internally the code has no concept of which type is chosen, when comparing versions it performs a simple numerical comparison between each successive numeric component regardless of type.
+
+###  
+
+REQUIRED
+
+The date of the last update, in the format YYYY-MM-DD or YYYY.MM.DD.
 
 ###  
 
@@ -194,7 +201,7 @@ The name of a person who is an author of the package, as acknowledgement of thei
 
 Multiple allowed
 
-Declares another FreeCAD package that is required in order to use this package. That package itself must provide a package.xml file in order for the dependency system to identify it.
+Declares another FreeCAD Addon or workbench. Note that not all dependency-related features are fully implemented yet.
 
 #### Attributes 
 
@@ -247,7 +254,8 @@ A simple workbench-only package (for example, to add a metadata file to a packag
     <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
       <name>Legacy Workbench</name>
       <description>A package.xml file to add to a workbench that predates the metadata standard.</description>
-      <version>1.0.0</version>
+      <version>1.0.1</version>
+      <date>2022-01-07</date>
       <maintainer email="your_address@null.com">Your Name</maintainer>
       <license file="LICENSE">LGPLv2.1</license>
       <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
@@ -268,7 +276,8 @@ A complex, multi-component package:
     <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
       <name>Example Package Format</name>
       <description>An example of the package.xml file format</description>
-      <version>1.0.0</version>
+      <version>2022.01</version>
+      <date>2022-01-07</date>
       <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
       <license file="LICENSE">GPLv3</license>
       <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
@@ -297,6 +306,42 @@ A complex, multi-component package:
           <subdirectory>./</subdirectory>
           <file>PS9000.FCMacro</file>
         </macro>
+      </content>
+
+    </package>
+
+A package with dependencies:
+
+    <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+    <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+      <name>Example with Dependencies</name>
+      <description>An example of the package.xml file format</description>
+      <version>1.0.1-beta3</version>
+      <date>2022-01-07</date>
+      <maintainer email="no-one@freecad.org">No Maintainer</maintainer>
+      <license file="LICENSE">GPLv3</license>
+      <url type="repository" branch="main">https://github.com/chennes/FreeCAD-Package</url>
+      <icon>PackageIcon.svg</icon>
+
+      <content>
+        <workbench>
+          <name>Metadata Creation Workbench</name>
+          <description>A set of tools to assist in creation of package.xml metadata files</description>
+          <classname>MetadataCreationWorkbench</classname>
+          <subdirectory>MCW</subdirectory>
+          <icon>Resources/mcw.svg</icon>
+          <tag>developers</tag>
+
+          <depend>FEM</depend>
+          <depend version_gte="0.3.0">Curves workbench</depend>
+          <depend version_gte="3.3" version_lt="4">Steel column</depend>
+
+          
+          <replace>Metadata Creation Workbench Beta</replace>
+
+          
+          <conflict condition="$BuildRevision==24267">Do not use with build 24267</conflict> 
+        </workbench>
       </content>
 
     </package>

@@ -3,7 +3,7 @@ This category lists pages related to the [Drawing Workbench/zh-cn](Drawing_Workb
 
 ### Contents:
 
-_ , [Drawing Workbench/zh-cn](Drawing_Workbench/zh-cn.md)
+[Drawing Workbench/zh-cn](Drawing_Workbench/zh-cn.md)
 
 _
 

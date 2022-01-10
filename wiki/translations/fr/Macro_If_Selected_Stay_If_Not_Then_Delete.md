@@ -22,8 +22,7 @@ Icône de la barre d\'outils <img alt="" src=images/Macro_If_Selected_Stay_If_No
 **Macro\_If\_Selected\_Stay\_If\_Not\_Then\_Delete.FCMacro**
 
 
-```python
-
+{{MacroCode|code=
 import FreeCAD
 # Macro_If_Selected_Stay_If_Not_Then_Delete
 __title__="Macro_If_Selected_Stay_If_Not_Then_Delete"
@@ -41,8 +40,7 @@ try:
             App.ActiveDocument.removeObject(ShapeNameObj.Name)        # remove objects not selecteds
 except Exception:
     None
-
-```
+}}
 
 ---
 [documentation index](../README.md) > Macro If Selected Stay If Not Then Delete/fr

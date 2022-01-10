@@ -2,16 +2,12 @@
 - GuiCommand:/de
    Name:Part FaceColors
    Name/de:Part FlächenFarben
-   Empty:1
    MenuLocation:Kontextmenü → Farben setzen
    Workbenches:[Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md)
    SeeAlso:[Std Erscheinungsbild](Std_SetAppearance/de.md)
 ---
 
 # Part FaceColors/de
-
-
-</div>
 
 ## Beschreibung
 
@@ -33,14 +29,8 @@ Um alle Flächenfarben zurückzusetzen:
 
 1.  Klicke auf **Auf Standard setzen**. Dadurch werden die Farben aller Flächen des Teils auf die Standardfarbe gesetzt. Die Schaltfläche funktioniert sofort, d. h., du kannst dies nicht mit der **Abbrechen** Schaltfläche rückgängig machen.
 
-
-<div class="mw-translate-fuzzy">
-
 ![](images/Part_FaceColors-dialog.png ) 
-*align=center|Der FlächenFarben Dialog*
-
-
-</div>
+*Der FlächenFarben Dialog*
 
 
 

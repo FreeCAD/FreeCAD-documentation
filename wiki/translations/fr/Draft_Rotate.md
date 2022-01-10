@@ -22,11 +22,11 @@ Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier D
 
 ## Utilisation
 
-Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Sélectionnez un ou plusieurs objets ou un ou plusieurs sous-éléments de [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le **<img src="images/Draft_Rotate.svg" width=16px> [Pivoter](Draft_Rotate/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Draft_Rotate.svg" width=16px> [Pivoter](Draft_Rotate/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Rotate.svg" width=16px> Pivoter** dans le menu.
     -   Utilisez le raccourci clavier : **R** puis **O**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
@@ -48,12 +48,12 @@ Le raccourci clavier à caractère unique et les touches de modification mention
 -   Appuyez sur **D** ou cliquez sur la case **Modifier les sous-éléments** pour basculer en mode sous-éléments. Si le mode sous-élément est activé, la commande utilisera les sous-éléments sélectionnés au lieu des objets entiers. Les sous-éléments doivent appartenir à [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md).
 -   Si le mode copie et le mode sous-élément sont tous deux activés, et que les bords de [Draft Polylignes](Draft_Wire/fr.md) sont sélectionnés, de nouveaux fils seront créés à partir de ces bords.
 -   Si vous maintenez la touche **Alt** enfoncée après avoir saisi la **Angle de base**, le mode de copie sera également activé. Lorsque vous maintenez la touche {KEY\|Alt} enfoncée, vous pouvez sélectionner plusieurs points pour la **Rotation**. Relâchez **Alt** pour terminer la commande et voir les copies créées.
--   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
+-   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour interrompre la commande.
 
 ## Remarques
 
--   Un objet [accroché](Part_EditAttachment/fr.md) ne peut pas être pivoté avec la commande Draft Rotation. Pour le faire pivoter, il faut soit faire pivoter sa {{PropertyData/fr|Support}}, soit modifier sa {{PropertyData/fr|Attachment Offset}}.
+-   Un objet [accroché](Part_EditAttachment/fr.md) ne peut pas être pivoté avec la commande Draft Rotation. Pour le faire pivoter, il faut soit faire pivoter sa **Support**, soit modifier sa **Attachment Offset**.
 
 ## Préférences
 

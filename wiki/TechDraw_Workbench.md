@@ -247,6 +247,7 @@ The TechDraw tools can be used in [macros](macros.md) and from the [Python](Pyth
 -   It is possible to have both TechDraw and Drawing Pages in the same FreeCAD document, as each page is completely independent from each other.
 -   There are minor differences in specifying editable texts in [SVG](SVG.md) templates compared to the Drawing module. In TechDraw the scaling of the SVG document affects the position of the editable text fields. See the forum discussion [TechDraw templates scale](https://forum.freecadweb.org/viewtopic.php?f=3&t=24981&p=196271#p196271) for more details.
 -   Do not cut, copy and paste TechDraw objects in the tree view as this generally does not work out well.
+-   Do not drag TechDraw items in the TreeView with the mouse.
 
 ## Tutorials
 

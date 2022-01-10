@@ -5,7 +5,5 @@ This category lists pages related to the [Raytracing Workbench/zh-hant](Raytraci
 
 _
 
-_
-
 ---
 [documentation index](../README.md) > Category:Raytracing/zh-hant

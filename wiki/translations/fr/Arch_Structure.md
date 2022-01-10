@@ -86,7 +86,7 @@ L\'objet structurel a également la possibilité d\'afficher les nœuds structur
 -   Lorsque le calcul des nœuds est automatique (d\'office, si vous ne les touchez pas manuellement), lors de la création de la propriété Rôle d\'une structure à \"Slab\", il deviendra automatiquement un nœud plat (il y aura plus de 3 vecteurs et NodesType sera réglé sur \"Surface\").
 -   Lors de la modification d\'un objet de structure (double-clic), une série d\'outils pour les nœuds est disponible dans la vue \"Tâche\" :
     -   Réinitialiser les nœuds lancera le calcul automatique, dans le cas où vous les modifiez manuellement.
-    -   Modifier les nœuds graphiquement, fonctionne de la même manière que dans l\'[Draft Edition](Draft_Edit/fr.md).
+    -   Modifier les nœuds graphiquement, fonctionne de la même manière que dans [Draft Éditer](Draft_Edit/fr.md).
     -   Étendre les nœuds de l\'objet modifié jusqu\'à ce qu\'il touchent le nœud d\'un autre objet.
     -   Construire le nœud de cet objet et le rendre coïncidant à un autre.
     -   Activer/désactiver l\'affichage de tous les nœuds de tous les objets structurels du document

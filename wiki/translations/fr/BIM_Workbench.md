@@ -49,7 +49,7 @@ L\'atelier BIM ajoute également une série d\'éléments dans la **barre d\'ét
 
 ### Dessin 2D 
 
-Les objets 2D sont couramment utilisés comme aide à la rédaction ou pour tracer des lignes de base et des profils sur lesquels construire des objets BIM. Ils peuvent également être utilisés pour dessiner des symboles et des annotations dans votre modèle. En plus des esquisses, qui utilisent leur propre système de coordonnées, des objets 2D seront dessinés sur le [plan de travail](Draft_SelectPlane/fr.md) sélectionné.
+Les objets 2D sont couramment utilisés comme aide à la conception ou pour tracer des lignes de base et des profils sur lesquels construire des objets BIM. Ils peuvent également être utilisés pour dessiner des symboles et des annotations dans votre modèle. En plus des esquisses, qui utilisent leur propre système de coordonnées, des objets 2D seront dessinés sur le [plan de travail](Draft_SelectPlane/fr.md) sélectionné.
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Nouvelle esquisse](Sketcher_NewSketch/fr.md): Crée une nouvelle esquisse et passe en mode de dessin. Les esquisses sont des objets 2D avancés avec prise en charge des contraintes
 -   <img alt="" src=images/Draft_Line.svg  style="width:32px;"> [Ligne](Draft_Line/fr.md) : Trace un segment de ligne à partir de 2 points

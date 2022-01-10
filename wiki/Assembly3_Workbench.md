@@ -9,11 +9,11 @@
 
 The main features of the Assembly3 Workbench are
 
--   **dynamic/interactive solver**. This means you can move parts with the mouse while the solver constraints the motion. This allows for example to connect a wheel to an axis and turn the wheel interactively with the mouse.
+-   **dynamic/interactive solver**. This means you can move parts with the mouse while the solver constrains the motion. This allows for example to connect a wheel to an axis and turn the wheel interactively with the mouse.
 -   **links**. This means you can use one single part, e.g. a screw multiple times in an assembly (at different places) without duplicating geometry.
--   **external links**. It is possible to have a freecad document that only contains an assembly and not parts. All parts could be in single files. The files even could be in a library or anyhwere else in the file system. The only requirement is that the file must be loaded when the link is made. After the link is made, the file must be open to make updates to the links involving the file. Assembly3 solves this by opening files in the background as required.
--   **hierarchical assemblies**. As is real life a mechanical assembly may consist of sub-assemblies. Those might consists of sub-assemblies again and so on.
--   **assembly freeze**. As the CPU can handle only so many concurrent constraints in real time, to freeze an assembly allows to use constraints even for large assemblies. By freezing finished assemblies or constraints that are not required to remain dynamic (e.g. welded, bolted or glued parts) those are excluded from update calculations and considered fixed geometry by the Assembly3 solver.
+-   **external links**. It is possible to have a freecad document that only contains an assembly and no parts. All parts could be in separate files. The files even could be in a library or anywhere else in the file system. The only requirement is that the file must be loaded when the link is made. After the link is made, the file must be open to make updates to the links involving the file. Assembly3 solves this by opening files in the background as required.
+-   **hierarchical assemblies**. As in real life a mechanical assembly may consist of sub-assemblies. Those might consists of sub-assemblies again and so on.
+-   **assembly freeze**. As the CPU can only handle a restricted number of concurrent constraints in real time, to freeze an assembly allows to use constraints even for large assemblies. By freezing finished assemblies or constraints that are not required to remain dynamic (e.g. welded, bolted or glued parts) those are excluded from update calculations and considered fixed geometry by the Assembly3 solver.
 
     :   Note that other approaches offer different solution to this problem, e.g. the <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Workbench](Assembly4_Workbench.md).
 
@@ -290,8 +290,8 @@ As of 2020 the Assembly3 workbench features the following toolbars.
 :   Generally you select the Elements that should be joined and then select the constraint type.
 :   The different colored frames mark different characteristics of the constraints:
 
-    :   whether 2D/3D of if more than 2 Elements can be added.
-:   A detailed description can be found in the Github wiki.
+    :   whether 2D/3D or if more than 2 Elements can be added.
+:   A detailed description can be found in the GitHub wiki.
 
 #### Navigation Toolbar 
 
@@ -359,9 +359,9 @@ As usual you can modify the tool bars and add or remove single tools. Be sure to
 
 ### Constraints
 
-The designer uses constraints to achieve the desired result for the relation of two parts. The art is the selection of the right constraints best suited to deal with each problem. Each eliminated DOF should in theory only be eliminated once between two objects, but in practice with many CAD tools selected constraints cause over-constraint combinations, often compensated by complex algorithms, sometimes not. Assembly3 does use algorithms to detect and compensate over-constraints, but clearly they are not very matured yet. So in practice for Assembly3 constraints avoid trouble by being aware of how many degrees of freedom (DOF) have been used and which ones are still to be locked down by constraints. No part should have a connection by constraints using more than 6DOF.
+The designer uses constraints to achieve the desired result for the relation of two parts. The art is the selection of the right constraints best suited to deal with each problem. Each eliminated DOF should in theory only be eliminated once between two objects, but in practice with many CAD tools selected constraints cause over-constrained combinations, often compensated by complex algorithms, sometimes not. Assembly3 does use algorithms to detect and compensate over-constraints, but clearly they are not very matured yet. So in practice for Assembly3 constraints avoid trouble by being aware of how many degrees of freedom (DOF) have been used and which ones are still to be locked down by constraints. No part should have a connection by constraints using more than 6 DOF.
 
-:   Note: If the solver meets a combination that can not be solved, it will give an error. It is very difficult for the solver to find out what caused the problem, so typically from this error given it will not be clear *where* the problem is. In larger assemblies this can lead to complex problem searches. Unfortunately there is no easy way to avoid this. However, it helps to be fully aware how the system works (.e.g see [Elements](#Elements.md) below), use clear names for all components involved and only ever add additional constraints when the solver solves the current assembly. Very helpful to track down a problem is the \"ContexMenu/Deactivate\" function of each Constraint.
+:   Note: If the solver meets a combination that can not be solved, it will give an error. It is very difficult for the solver to find out what caused the problem, so typically from this error given it will not be clear *where* the problem is. In larger assemblies this can lead to complex problem searches. Unfortunately there is no easy way to avoid this. However, it helps to be fully aware how the system works (.e.g see [Elements](#Elements.md) below), use clear names for all components involved and only ever add additional constraints when the solver solves the current assembly. Very helpful to track down a problem is the \"ContexMenu/Deactivate\" function of each constraint.
 
 Assembly3 Constraints define restrictions in the position or orientation between two [Elements](#Elements.md). Some constraints even work with more than two [Elements](#Elements.md). An [Elements](#Elements.md) can be a face, a line or edge or a point of a part. Generally constraints are defined by selecting the desired [Elements](#Elements.md) and then select the constraint from the Constraints [toolbar](#Toolbars.md).
 
@@ -495,7 +495,7 @@ The finished assembly tree should look like (0.20.pre and Link Branch):
 
 If you like you can move the **Locked** constraint upwards in the tree. Use the **<img src="images/Assembly_TreeItemUp.svg‎‎" width=16px> [Move item up](Assembly3_MoveItemUp.md)** button on the [Main toolbar](#Main_Toolbar.md) for that.
 
-**Note:** all new external files must be **saved**, **closed** and re-**opend** at least once, so that Assembly3 can find it.
+**Note:** all new external files must be **saved**, **closed** and re-**opened** at least once, so that Assembly3 can find it.
 
 :   Without doing that FreeCAD can not give a file handle to the Assembly3 Workbench and it can not find the new part.
 :   When all parts are in the same file, you should **save**, **close** and re-**open** this file, too.
@@ -594,7 +594,7 @@ One way to solve this is to just delete all invalid constraints and elements, im
 -   [App Link](App_Link.md) object that makes Assembly3 work.
 -   [FreeCAD\_assembly3](https://github.com/realthunder/FreeCAD_assembly3) repository and documentation.
 -   [Assembly3 preview](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712), big discussion thread.
--   [Test tutorial for Assembly 3 Workbench](https://forum.freecadweb.org/viewtopic.php?f=36&t=29562) by jpg87.
+-   [Tutorial for Assembly 3 Workbench](http://help-freecad-jpg87.fr/02_ass_ind.php) by jpg87.
 -   [Current Assembly Status](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [External workbenches](External_workbenches.md)
 -   [Old Assembly project](Assembly_project.md) development plan, to get acquainted with the history of the issue.

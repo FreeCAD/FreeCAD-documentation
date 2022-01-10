@@ -15,6 +15,9 @@
 
 ## Descriere
 
+
+<div class="mw-translate-fuzzy">
+
 Instrumentul Job (Sarcină/Task) creează un nou obiect Lucru în documentul activ. Obiectul de activitate conține următoarele informații:
 
 1.  O listă de definiții ale parametrilor instrumentului, specificând geometria, parametrii de tăiere și vitezele pentru instrumentele pentru operațiile de cale.
@@ -23,6 +26,9 @@ Instrumentul Job (Sarcină/Task) creează un nou obiect Lucru în documentul act
 4.  A Raw reprezentând materia primă care va fi prelucrată în atelierul Path.
 5.  O foaie de calcul, care conține intrările utilizate de operațiile Path, inclusiv valorile și formulele statice.
 6.  Parametrii de configurare care specifică calea de destinație, numele fișierului și extensia fișierului G-Code, precum și postprocesorul utilizat pentru a genera limbajul corespunzător pentru controlerul CNC țintă și personaliza unitățile de măsură, modificările sculei, spațiul de parcarea a sculei, etc.
+
+
+</div>
 
 ## Utilizare
 
@@ -66,8 +72,14 @@ GUI-ul de lucrări are cinci file aliniate orizontal, general, ieșire, configur
     -   **%M** user macro directory
     -   **%j** name of the job
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Processor**: Select the postprocesser for your machine.
 -   **Arguments**: Add arguments for the postprocessor as needed.
+
+
+</div>
 
 ## Setup
 

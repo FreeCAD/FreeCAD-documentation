@@ -35,7 +35,9 @@ The structure and file content for a workbench described here is the classic way
 
 ### C++ workbench structure 
 
-If you are going to code your workbench in python, you don\'t need to take special care, and can simply place your other python files together with your Init.py and InitGui.py files. When working with C++, however, you should take greater care, and start with respecting one fundamental rule of FreeCAD: The separation of your workbench between an App part (that can run in console mode, without any GUI element), and a Gui part, which will only be loaded when FreeCAD runs with its full GUI environment. So when doing a C++ workbench, you will actually most likely be doing two modules, an App and a Gui. These two modules must of course be callable from python. Any FreeCAD module (App or Gui) consists, at the very least, of a module init file. This is a typical AppMyModuleGui.cpp file: 
+If you are going to code your workbench in python, you don\'t need to take special care, and can simply place your other python files together with your Init.py and InitGui.py files. When working with C++, however, you should take greater care, and start with respecting one fundamental rule of FreeCAD: The separation of your workbench between an App part (that can run in console mode, without any GUI element), and a Gui part, which will only be loaded when FreeCAD runs with its full GUI environment. So when doing a C++ workbench, you will actually most likely be doing two modules, an App and a Gui. These two modules must of course be callable from python. Any FreeCAD module (App or Gui) consists, at the very least, of a module init file. This is a typical AppMyModuleGui.cpp file:
+
+
 ```python
 extern "C" {
     void MyModuleGuiExport initMyModuleGui()  
@@ -104,7 +106,9 @@ The `FreeCAD.addImportType()` and `addEXportType()` functions allow you to give 
 
 ### Python workbenches 
 
-This is the InitGui.py file: 
+This is the InitGui.py file:
+
+
 ```python
 class MyWorkbench (Workbench):
 
@@ -139,7 +143,9 @@ class MyWorkbench (Workbench):
         return "Gui::PythonWorkbench"
        
 Gui.addWorkbench(MyWorkbench())
-``` Other than that, you can do anything you want: you could put your whole workbench code inside the InitGui.py if you want, but it is usually more convenient to place the different functions of your workbench in separate files. So those files are smaller and easier to read. Then you import those files into your InitGui.py file. You can organize those files the way you want, a good example is one for each FreeCAD command you add.
+```
+
+Other than that, you can do anything you want: you could put your whole workbench code inside the InitGui.py if you want, but it is usually more convenient to place the different functions of your workbench in separate files. So those files are smaller and easier to read. Then you import those files into your InitGui.py file. You can organize those files the way you want, a good example is one for each FreeCAD command you add.
 
 #### Preferences
 
@@ -169,10 +175,16 @@ Adding your preference page(s):
 
 ### C++ workbenches 
 
-If you are going to code your workbench in C++, you will probably want to code the workbench definition itself in C++ too (although it is not necessary: you could also code only the tools in C++, and leave the workbench definition in Python). In that case, the InitGui.py file becomes very simple: It might contain just one line: 
-```pythonimport MyModuleGui``` where MyModule is your complete C++ workbench, including the commands and workbench definition.
+If you are going to code your workbench in C++, you will probably want to code the workbench definition itself in C++ too (although it is not necessary: you could also code only the tools in C++, and leave the workbench definition in Python). In that case, the InitGui.py file becomes very simple: It might contain just one line:
 
-Coding C++ workbenches works in a pretty similar way. This is a typical Workbench.cpp file to include in the Gui part of your module: 
+
+```pythonimport MyModuleGui```
+
+where MyModule is your complete C++ workbench, including the commands and workbench definition.
+
+Coding C++ workbenches works in a pretty similar way. This is a typical Workbench.cpp file to include in the Gui part of your module:
+
+
 ```python
 namespace MyModuleGui {
     class MyModuleGuiExport Workbench : public Gui::StdWorkbench
@@ -209,10 +221,10 @@ class My_Command_Class():
     """My new command"""
 
     def GetResources(self):
-        return {'Pixmap'  : 'My_Command_Icon', # the name of a svg file available in the resources
-                'Accel' : "Shift+S", # a default shortcut (optional)
-                'MenuText': "My New Command",
-                'ToolTip' : "What my new command does"}
+        return {"Pixmap"  : "My_Command_Icon", # the name of a svg file available in the resources
+                "Accel"   : "Shift+S", # a default shortcut (optional)
+                "MenuText": "My New Command",
+                "ToolTip" : "What my new command does"}
 
     def Activated(self):
         """Do something here"""
@@ -223,12 +235,14 @@ class My_Command_Class():
         are met or not. This function is optional."""
         return True
 
-FreeCADGui.addCommand('My_Command',My_Command_Class())
+FreeCADGui.addCommand("My_Command", My_Command_Class())
 ```
 
 ### C++ command definition 
 
-Similarly, you can code your commands in C++, typically have a Commands.cpp file in your Gui module. This is a typical Commands.cpp file: 
+Similarly, you can code your commands in C++, typically have a Commands.cpp file in your Gui module. This is a typical Commands.cpp file:
+
+
 ```pythonDEF_STD_CMD_A(CmdMyCommand);
 
 CmdMyCommand::CmdMyCommand()
@@ -341,7 +355,7 @@ os.remove(qrc_filename)
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

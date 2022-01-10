@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Fasteners ScrewCalculator
-   MenuLocation:Fasteners → ScrewCalculator
+   MenuLocation:Fasteners → Screw calculator
    Workbenches:[Fasteners](Fasteners_Workbench.md)
 ---
 
@@ -9,33 +9,21 @@
 
 ## Description
 
-The <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24px;"> [Fasteners ScrewCalculator](Fasteners_ScrewCalculator.md) lorem ipsum dolor sit amet, consectetur adipiscing. This tool is part of the [external workbench](External_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
+The <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24px;"> **Fasteners ScrewCalculator** command shows a calculator to determine the tap hole size of screws.
+
+ ![](images/Fasteners_ScrewCalculator_Dialog.png )  
+*The Screw hole calculator dialog box*
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> _ if not already installed.)
-2.  There are several ways to invoke the command:
-    -   Press the **<img src="images/Fasteners_ScrewCalculator.svg" width=16px> [Screw Calculator](Fasteners_ScrewCalculator.md)** button.
-    -   Select the **Fasteners → ScrewCalculator** option from the menu.
-
-Result: lorem ipsum dolor sit amet, consectetur adipiscing.
-
-<img alt="" src=images/Fasteners_ScrewCalculator_example-1.FCStd.png  style="width:1000px;">
-
-## Notes
-
--   lorem ipsum dolor sit amet, consectetur adipiscing.
-
-## Limitations
-
-## Properties
-
-
-{{Properties_Title|Base}}
-
--    **View**: Invert, boolean, default: false
-
-## Scripting
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Fasteners_ScrewCalculator.svg" width=16px> [Fasteners ScrewCalculator](Fasteners_ScrewCalculator.md)** button.
+    -   Select the **Fasteners → <img src="images/Fasteners_ScrewCalculator.svg" width=16px> Screw calculator** option from the menu.
+2.  The **Screw hole calculator** dialog box opens.
+3.  Specify the **Fastener type** and the **Screw diameter**.
+4.  The **Suggested hole diameter** is displayed.
+5.  The dialog box is modeless, meaning it can stay open while you continue working in FreeCAD.
+6.  Press the **Close** button (provided by the OS) to close the dialog box.
 
 
 

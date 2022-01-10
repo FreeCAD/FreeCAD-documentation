@@ -63,7 +63,7 @@ Elles se trouvent dans le sous-répertoire {{FileName|/Mod/Path/Tools/Shape/}} o
 5.  Pour toute contrainte servant de paramètre à l\'outil (comme la longueur totale), créez une contrainte nommée.
     -   Le nom est l\'étiquette du champ de saisie.
     -   Les noms sont divisés en mots aux frontières CamelCase dans la boîte de dialogue d\'édition.
-    -   Utilisez un `;` dans le nom pour ajouter un texte d\'aide qui s\'affichera dans l\'info-bulle des champs de saisie.
+    -   Utilisez un `;` dans le nom pour ajouter un texte d\'aide qui s\'affichera dans l\'infobulle des champs de saisie.
     -   Si l\'outil est utilisé par des opérations anciennes, il devrait au moins avoir une contrainte appelée diamètre.
     -   Utilisez des lignes de construction pour les contraintes qui ne sont pas directement accessibles, comme le diamètre et l\'angle.
     -   Toute contrainte sans nom ne sera pas modifiable pour un outil spécifique.

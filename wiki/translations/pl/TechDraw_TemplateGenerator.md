@@ -1,15 +1,15 @@
 # TechDraw TemplateGenerator/pl
-{{TutorialInfo
-|Topic=Template generation with Python macro
-|Level=Basic skills of Python and svg-structures are helpful
-|FCVersion=0.19.1 and later
-|Time=(I don't know yet)
+{{TutorialInfo/pl
+|Topic=Generator szablonów - makrodefinicja Python
+|Level=Podstawowa znajomość środowiska Python i struktur svg jest przydatna
+|FCVersion=0.19.1 i nowszy
+|Time=''(Jeszcze nie wiem)''
 |Author=_
 }}
 
-## Introduction
+## Wprowadzenie
 
-This tutorial describes how to generate a simple template to use with the TechDraw workbench out of some lines of Python code.
+Ten poradnik opisuje jak z kilku linijek kodu Pythona wygenerować prosty szablon do wykorzystania w środowisku pracy Rysunek Techniczny.
 
 Any text editor can be used to code. My choice is Atom, but FreeCAD\'s built-in editor works well, too.
 

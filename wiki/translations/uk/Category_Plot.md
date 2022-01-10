@@ -5,7 +5,5 @@ This category lists pages related to the [Plot Workbench/uk](Plot_Workbench/uk.m
 
 _
 
-_
-
 ---
 [documentation index](../README.md) > Category:Plot/uk

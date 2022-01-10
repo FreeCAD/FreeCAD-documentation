@@ -43,12 +43,12 @@ ToolBar Icon ![](images/Macro_Align_Camera_to_Working_Plane.png )
 **Macro\_Align\_Camera\_to\_Working\_Plane.FCMacro**
 
 
-```python
+{{MacroCode|code=
 import FreeCAD,FreeCADGui
 c = FreeCADGui.ActiveDocument.ActiveView.getCameraNode()
 r = FreeCAD.DraftWorkingPlane.getRotation().Rotation.Q
 c.orientation.setValue(r)
-```
+}}
 
 ---
 [documentation index](../README.md) > Macro Align Camera to Working Plane/it

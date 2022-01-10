@@ -46,7 +46,7 @@ Vous pouvez créer autant de maillages différents que nécessaire.
 
 L\'ordre dans lequel les régions sont affichées dans la [vue en arborescence](Tree_view/fr.md) peut modifier le résultat du maillage. Voir [fil de forum](https://forum.freecadweb.org/viewtopic.php?f=18&t=41955)
 
-## Relation
+## En relation 
 
 -   \"Mesh Regions for a Better Analysis\" - Tutoriel vidéo par Joko Engineering ([lien](https://www.youtube.com/watch?v=X5RVe2SDPvw))
 

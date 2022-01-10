@@ -84,7 +84,7 @@ Ce bidule est constitué d\'un objet en tôle pliée auquel on a ajouté des tro
 <img alt="" src=images/SheetMetal_SketchOnSheet-01.png  style="width:200px;"> 
 *Seulement un contour et une disposition des trous*
 
-### Processus de travail 
+### Déroulement des tâches 
 
 1.  1.  Créer un objet en tôle pliée
     2.  Sélectionnez l\'esquisse **contour**  <img alt="" src=images/SheetMetal_SketchOnSheet-02.png  style="width:240px;">

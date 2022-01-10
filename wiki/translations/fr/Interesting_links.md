@@ -12,7 +12,7 @@ Cette page contient des liens relatifs à FreeCAD et à d\'autres projets FLOSS.
 -   [Slackware](http://slackbuilds.org/repository/14.2/graphics/FreeCAD/) Informations sur le package Slackware
 -   [Gentoo](http://gpo.zugaina.org/media-gfx/freecad) Informations sur le paquet Gentoo
 -   [OpenSUSE](https://software.opensuse.org/search?utf8=%E2%9C%93&baseproject=ALL&q=FreeCAD) Informations sur le package openSUSE
--   \[irc: //chat.freenode.net/\#freecad Freenode\] Le canal IRC officiel \#freecad sur Freenode
+-   [Freenode](irc://chat.freenode.net/#freecad) Le canal IRC officiel \#freecad sur Freenode
 -   [Facebook](http://www.facebook.com/FreeCAD) La page Facebook officielle de FreeCAD
 
 ### Autres logiciels de CAO 
@@ -42,7 +42,7 @@ Cette page contient des liens relatifs à FreeCAD et à d\'autres projets FLOSS.
 
 -   [NumPy](http://numpy.scipy.org/) Scientific computing en Python (les commandes de base sont très similaires à [MATLAB](http://fr.wikipedia.org/wiki/MATLAB)).
 -   [matplotlib](http://matplotlib.sourceforge.net/) Bibliothèque traceur 2D en Python (habituellement utilisé en conjonction avec [NumPy](http://numpy.scipy.org/)).
--   [Octave](http://www.gnu.org/software/octave/) puissant clone MATLAB.
+-   [Octave](http://www.gnu.org/software/octave/) puissant clone de MATLAB.
 
 ## Autres listes de projets FLOSS 
 

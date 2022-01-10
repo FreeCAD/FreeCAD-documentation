@@ -1,7 +1,7 @@
 ---
 - GuiCommand:
    Name:Fasteners Move
-   MenuLocation:Fasteners → Move
+   MenuLocation:Fasteners → Move fastener
    Workbenches:[Fasteners](Fasteners_Workbench.md)
 ---
 
@@ -9,41 +9,28 @@
 
 ## Description
 
-The <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> [Fasteners Move](Fasteners_Move.md) attaches an existing fastener to a different feature. This tool is part of the [external workbench](External_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
-
-For example to attach a screw to a part, the part must have features with circular edges, such as holes. To attach screws to holes, select the desired circular edge or several edges (You can also select a face if you want to select all holes in that face).
+The <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fasteners Move** command moves and attaches a fastener to a circular edge. It can also be used to detach a fastener. An attached fastener has a **base Object** and its **Placement** is dynamically linked to that object.
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
+### Attach
 
-2.  Choose the fastener by clicking on it
+ <img alt="" src=images/Fasteners_Move_Selected.png  style="width:200px;"> <img alt="" src=images/Fasteners_Move_Result.png  style="width:200px;">  
+*On the left a fastener and a circular edge are selected. On the right the fastener has been moved and attached to the selected edge.*
 
-3.  
-    **Ctrl**\+ select the new feature.
+1.  Select a single fastener and a single circular edge.
+2.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Fasteners_Move.svg" width=16px> [Fasteners Move](Fasteners_Move.md)** button.
+    -   Select the **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Move fastener** option from the menu.
+3.  The fastener moves to the selected edge and is attached to it.
 
-4.  Invoke the Fasteners Move tool several ways:
-    -   Press the <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> button
-    -   Use the **Fasteners → Move** entry in the Fasteners menu
+### Detach
 
-Result: fastener will move to the new location.
-
-![A fastener has been selected, and then a feature (circle) was control clicked. After pressing the move button, the screw will move to the selected feature.](images/Fasteners_Move_example-1.FCStd.png )
-
-## Notes
-
--   An attached screw will move with the part it is attached to. If you wish to detach the screw from the parent part, simply select only the screw, then press the <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> [Fasteners Move](Fasteners_Move.md) button. The screw is now detached and can be moved individually.
-
-## Limitations
-
-## Properties
-
-
-{{Properties_Title|Base}}
-
--    **View**: Invert, boolean, default: false
-
-## Scripting
+1.  Select a single fastener.
+2.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Fasteners_Move.svg" width=16px> [Fasteners Move](Fasteners_Move.md)** button.
+    -   Select the **Fasteners → <img src="images/Fasteners_Move.svg" width=16px> Move fastener** option from the menu.
+3.  The fastener is detached.
 
 
 

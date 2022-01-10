@@ -3,7 +3,7 @@ This category lists pages related to the [Ship Workbench/pt-br](Ship_Workbench/p
 
 ### Contents:
 
-_ , [Ship Workbench/pt-br](Ship_Workbench/pt-br.md)
+[Ship Workbench/pt-br](Ship_Workbench/pt-br.md)
 
 _
 

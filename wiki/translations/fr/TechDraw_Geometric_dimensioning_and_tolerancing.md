@@ -76,33 +76,33 @@ Vous pouvez également utiliser votre propre texte au lieu d\'un nombre formaté
 
 ## Tolérance géométrique 
 
-Les tolérances sont créées à l\'aide de la fonction [Annotation bulle](TechDraw_Balloon/fr.md) de TechDraw. Comme pour la plupart des fonctionnalités, un cadre est requis, il est utile de changer dans les [TechDraw Préférences](TechDraw_Preferences/fr#Annotation.md), la **forme de la bulle** en **rectangle**.
+Les tolérances sont créées à l\'aide de la fonction [Infobulle](TechDraw_Balloon/fr.md) de TechDraw. Comme pour la plupart des fonctionnalités, un cadre est requis, il est utile de changer dans les [TechDraw Préférences](TechDraw_Preferences/fr#Annotation.md), la **forme de l\'infobulle** en **rectangle**.
 
 ### Indicateur de tolérance 
 
 <img alt="Exemple d\'une tige tolérancée. (Le décentrement définit déjà la rectitude, il n\'est là qu\'à titre d\'exemple.)" src=images/TechDraw_GD%26T-Toleranced-rod.png  style="width:280px;">
 
-L\'indicateur de tolérance de GD&T est une trame, également appelée \"trame de contrôle de fonction\". Il peut être créé en utilisant la fonction [bulle](TechDraw_Balloon/fr.md) de TechDraw:
+L\'indicateur de tolérance de GD&T est une trame, également appelée \"trame de contrôle de fonction\". Il peut être créé en utilisant la fonction [infobulle](TechDraw_Balloon/fr.md) de TechDraw:
 
--   après avoir ajouté une bulle et si sa forme n\'est pas déjà un cadre, double-cliquez dessus dans l\'arbre du modèle et définissez dans la boîte de dialogue qui apparaît la **forme** à **rectangle**.
--   ajoutez le caractère Unicode correspondant à la fonctionnalité dont vous avez besoin dans la bulle **Texte**. (Vous pouvez les copier à partir des tables de référence [dessous](TechDraw_Geometric_dimensioning_and_tolerancing/fr#R.C3.A9f.C3.A9rencement_de_symboles.md).)
+-   après avoir ajouté une infobulle et si sa forme n\'est pas déjà un cadre, double-cliquez dessus dans l\'arbre du modèle et définissez dans la boîte de dialogue qui apparaît la **forme** à **rectangle**.
+-   ajoutez le caractère Unicode correspondant à la fonctionnalité dont vous avez besoin dans l\'infobulle **Texte**. (Vous pouvez les copier à partir des tables de référence [dessous](TechDraw_Geometric_dimensioning_and_tolerancing/fr#R.C3.A9f.C3.A9rencement_de_symboles.md).)
 -   en ajoutant le caractère \'\|\' dans le **Texte**, vous démarrez un nouveau champ indicateur.
 
 Aucune règle ne définit si ou comment l\'indicateur de tolérance doit avoir une ligne de repère ou non, vous pouvez donc:
 
--   définissez la propriété **Ligne visible** sur **False** dans la boîte de dialogue de bulle.
+-   définissez la propriété **Ligne visible** sur **False** dans la boîte de dialogue de l\'infobulle.
 -   définissez **Symbole de fin** sur **Flèche pleine** ou **Point**.
 
 L\'exemple sur le côté droit montre les deux dispositions d\'indicateur de tolérance possibles.
 
 ### Points de référence 
 
-Les points de référence au sens de la GD&T sont des surfaces auxquelles votre tolérance est relative. Ils sont créés comme des ballons :
+Les points de référence au sens de la GD&T sont des surfaces auxquelles votre tolérance est relative. Ils sont créés comme des infobulles :
 
--   après avoir ajouté une bulle, définissez **Symbole de fin** à **Triangle rempli** dans le dialogue du ballon.
--   si la forme de la bulle n\'est pas déjà un cadre, réglez **Forme de la bulle** sur **Rectangle**.
--   faites glisser la bulle avec la souris de façon à ce que le triangle pointe en s\'éloignant de la surface de référence.
--   Comme il est courant d\'avoir une ligne droite pour les points de référence, à moins que la surface du point de référence ne soit pas perpendiculaire à X ou Y, assurez-vous que les propriétés {{PropertyData/fr|X}} et {{PropertyData/fr|Origin X}} ou {{PropertyData/fr|Y}} et {{PropertyData/fr|Origin Y}} sont égales pour obtenir une ligne de ballon droite.
+-   après avoir ajouté une infobulle, définissez **Symbole de fin** à **Triangle rempli** dans la boîte de dialogue de l\'infobulle.
+-   si la forme de l\'infobulle n\'est pas déjà un cadre, réglez **Forme de l\'infobulle** sur **Rectangle**.
+-   faites glisser l\'infobulle avec la souris de façon à ce que le triangle pointe en s\'éloignant de la surface de référence.
+-   Comme il est courant d\'avoir une ligne droite pour les points de référence, à moins que la surface du point de référence ne soit pas perpendiculaire à X ou Y, assurez-vous que les propriétés **X** et **Origin X** ou **Y** et **Origin Y** sont égales pour obtenir une ligne de l\'infobulle droite.
 
 ![Exemple de référence dans un dessin](images/TechDraw_GD&T-Datum.png ) 
 

@@ -27,7 +27,7 @@ ToolBar Icon  ![](images/Macro_Shake_Sketch.png )
 **Macro Shake\_Sketch.py**
 
 
-```python
+{{MacroCode|code=
 # -*- coding: utf-8 -*-
 
 # FreeCAD macro to shake a sketch in order to discover its unconstrained parts.
@@ -242,7 +242,7 @@ if shake_it:
     toggle_constraints(sketch, to_virtual)
         
 print('Macro finished.')
-```
+}}
 
 ---
 [documentation index](../README.md) > Macro Shake Sketch

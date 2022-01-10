@@ -14,14 +14,14 @@
 
 L\'outil **<img src="images/Sketcher_External.svg" width=16px> [Géométrie externe](Sketcher_External/fr.md)** est utile lorsque vous avez besoin de créer une contrainte entre un élément de l\'esquisse et un élément hors de l\'esquisse. Il fonctionne en insérant une géométrie de construction liée dans l\'esquisse. La couleur par défaut des arêtes externes liés est magenta. Comme pour les géométries de construction non liée (bleu), la géométrie externe liée est visible uniquement lorsque l\'esquisse est en mode d\'édition, et n\'est pas utilisée directement dans le résultat subséquent. Les deux types de géométrie de construction sont utilisés en tant que référence pour les contraintes dans l\'esquisse.
 
-Attention, l\'utilisation de cet outil pour créer un lien vers une géométrie (solide) générée peut conduire à des résultats inattendus en raison du [Problème de dénomination topologique](Topological_naming_problem.md). Voir également [Conseils pour des modèles stables](Feature_editing/fr#Conseils_pour_la_cr.C3.A9ation_de_mod.C3.A8les_robustes.md).
+Attention, l\'utilisation de cet outil pour créer un lien vers une géométrie (solide) créée peut conduire à des résultats inattendus en raison du [Problème de dénomination topologique](Topological_naming_problem/fr.md). Voir également [Conseils pour des modèles stables](Feature_editing/fr#Conseils_pour_la_cr.C3.A9ation_de_mod.C3.A8les_robustes.md).
 
 <FILE:Sketcher_ExternalEsempio1.png>
 
 ## Utilisation
 
 -   Créer une nouvelle esquisse, ou ouvrir une esquisse existante.
--   Activer l\'outil **Géométrie externe**.
+-   Cliquer sur le bouton **<img src=images/Sketcher_External.svg style="width:16px"> [Géométrie externe](Sketcher_External/fr.md)**.
 -   Sélectionner une arête ou un sommet que vous voulez lier dans l\'esquisse.
 -   Appuyer sur **Échap** ou sélectionner un autre outil pour quitter l\'outil.
 

@@ -1,6 +1,8 @@
 # FEM Mesh/ro
 {{TOCright}}
 
+## Create a finite element mesh 
+
 
 <div class="mw-translate-fuzzy">
 
@@ -31,16 +33,10 @@ Obiectele create în PartDesign și Part sunt suportate, precum și copii simple
 
 </div>
 
-<img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;">
-
-
-
+<img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
 *The FEM Workbench calls the external tool Gmsh to obtain a mesh from a solid body created with any workbench in FreeCAD; it can also import a mesh created externally*
 
-<img alt="" src=images/FEM_Mesh.png  style="width:600px;">
-
-
-
+<img alt="" src=images/FEM_Mesh.png  style="width:600px;"> 
 *(1) Solid body created with PartDesign; (2) mesh produced by the Gmsh tool inside the FEM Workbench (all triangles); and (3) mesh produced externally by Gmsh, exported to Abaqus format {{FileName|.inp*, and then imported into FreeCAD (all quadrangles)}}
 
 The [Gmsh](FEM_MeshGmshFromShape.md) and [Netgen tools](FEM_MeshNetgenFromShape.md) are convenience tools to quickly mesh a body, and thus don\'t expose the full capabilities of these programs; they normally create triangular meshes, which may not be ideal for some types of analysis. If you\'d like to have more control of the created mesh (use only quadrilaterals, precise element number and size, variable resolution of the mesh, etc.), you should use these programs externally, produce a mesh file in a supported format ({{FileName|.inp}}, {{FileName|.unv}}, {{FileName|.vtk}}, {{FileName|.z88}}), and import this file into FreeCAD.
@@ -65,6 +61,8 @@ The [FEM Workbench](FEM_Workbench.md) has developed simple communication interfa
 -   PythonOCC, [main website](http://www.pythonocc.org/)
 -   SnappyHexMesh, [main website](https://openfoamwiki.net/index.php/SnappyHexMesh)
 -   Tetgen, [main website](http://wias-berlin.de/software/tetgen/)
+
+## Mesh elements in FreeCAD 
 
 
 <div class="mw-translate-fuzzy">
@@ -145,6 +143,8 @@ More information on the elements, and their data structure inside FreeCAD can be
 
 </div>
 
+### Create a FEM mesh completely in Python 
+
 
 **See also:**
 
@@ -196,7 +196,9 @@ Dacă doriți să aveți o numerotare predefinită a elementelor și nodurilor:
 
 </div>
 
-To create an actual document object, instead of `Fem.show()` you can also use the document `addObject()` method; then attach the created mesh to this object\'s `FemMesh` attribute. 
+To create an actual document object, instead of `Fem.show()` you can also use the document `addObject()` method; then attach the created mesh to this object\'s `FemMesh` attribute.
+
+
 ```python
 a = Fem.FemMesh()
 
@@ -245,16 +247,30 @@ Culori și deplasări postprocesare: Evidențiați unele noduri din vizualizare:
 
 </div>
 
-Set volume 1 to red 
+Set volume 1 to red
+
+
 ```python
 obj.ViewObject.ElementColor = {1:(1,0,0)}
-``` Set nodes 1, 2 and 3 to a certain color; the faces between the nodes acquire an interpolated color 
+```
+
+Set nodes 1, 2 and 3 to a certain color; the faces between the nodes acquire an interpolated color.
+
+
 ```python
 obj.ViewObject.NodeColor = {1:(1,0,0), 2:(0,1,0), 3:(0,0,1)}
-``` Displace the nodes 1 and 2 by the magnitude and direction defined by a vector 
+```
+
+Displace the nodes 1 and 2 by the magnitude and direction defined by a vector.
+
+
 ```python
 obj.ViewObject.NodeDisplacement = {1:FreeCAD.Vector(0,1,0), 2:FreeCAD.Vector(1,0,0)}
-``` Double the factor of the displacement shown (**Note to editors: removed in newer versions?**) 
+```
+
+Double the factor of the displacement shown. (**Note to editors: removed in newer versions?**)
+
+
 ```python
 obj.ViewObject.animate(2.0)
 ```
@@ -324,7 +340,9 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 obj.ViewObject.BackfaceCulling = False
 ```
 
-Add a face with the element number. 
+Add a face with the element number.
+
+
 ```python
 elemtria3 = Fem.FemMesh()
 nodes = tria3.Nodes
@@ -364,7 +382,9 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 obj.ViewObject.BackfaceCulling = False
 ```
 
-Add a face with the element number. 
+Add a face with the element number.
+
+
 ```python
 elemtria6 = Fem.FemMesh()
 nodes = tria6.Nodes
@@ -401,7 +421,9 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 obj.ViewObject.BackfaceCulling = False
 ```
 
-Add a face with the element number. 
+Add a face with the element number.
+
+
 ```python
 elemquad4 = Fem.FemMesh()
 nodes = quad4.Nodes
@@ -442,7 +464,9 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 obj.ViewObject.BackfaceCulling = False
 ```
 
-Add a face with the element number. 
+Add a face with the element number.
+
+
 ```python
 elemquad8 = Fem.FemMesh()
 nodes = quad8.Nodes
@@ -478,7 +502,9 @@ obj.Placement.Base = FreeCAD.Vector(0, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Add a volume with the element number. 
+Add a volume with the element number.
+
+
 ```python
 elemtetra4 = Fem.FemMesh()
 nodes = tetra4.Nodes
@@ -521,7 +547,9 @@ obj.Placement.Base = FreeCAD.Vector(30, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Add a volume with the element number. 
+Add a volume with the element number.
+
+
 ```python
 elemtetra10 = Fem.FemMesh()
 nodes = tetra10.Nodes
@@ -560,7 +588,9 @@ obj.Placement.Base = FreeCAD.Vector(60, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Add a volume with the element number. 
+Add a volume with the element number.
+
+
 ```python
 elemhexa8 = Fem.FemMesh()
 nodes = hexa8.Nodes
@@ -614,7 +644,9 @@ obj.Placement.Base = FreeCAD.Vector(90, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Add a volume with the element number. 
+Add a volume with the element number.
+
+
 ```python
 elemhexa20 = Fem.FemMesh()
 nodes = hexa20.Nodes
@@ -651,7 +683,9 @@ obj.Placement.Base = FreeCAD.Vector(0, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Add a volume with the element number. 
+Add a volume with the element number.
+
+
 ```python
 elempenta6 = Fem.FemMesh()
 nodes = penta6.Nodes
@@ -700,7 +734,9 @@ obj.Placement.Base = FreeCAD.Vector(40, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Add a volume with the element number. 
+Add a volume with the element number.
+
+
 ```python
 elempenta15 = Fem.FemMesh()
 nodes = penta15.Nodes
@@ -736,7 +772,9 @@ obj.Placement.Base = FreeCAD.Vector(80, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Add a volume with the element number. 
+Add a volume with the element number.
+
+
 ```python
 elempyra5 = Fem.FemMesh()
 nodes = pyra5.Nodes
@@ -782,7 +820,9 @@ obj.Placement.Base = FreeCAD.Vector(120, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Add a volume with the element number. 
+Add a volume with the element number.
+
+
 ```python
 elempyra13 = Fem.FemMesh()
 nodes = pyra13.Nodes

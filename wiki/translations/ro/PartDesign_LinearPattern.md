@@ -99,6 +99,8 @@ v0.17 and above Select one of the Body Origin\'s standard axis (X, Y or Z) as di
 
 </div>
 
+## Limitations
+
 
 <div class="mw-translate-fuzzy">
 

@@ -30,7 +30,7 @@
 
 Les objets dérivés de **Part::Feature** ne sont pas (encore) pris en charge, les mailles sont exportées, comme un élément de polyèdre
 
-## Relation
+## En relation 
 
 -   [atelier OpenSCAD](OpenSCAD_Workbench/fr.md)
 -   [Import Export](Import_Export/fr.md)

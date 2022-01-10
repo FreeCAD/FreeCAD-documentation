@@ -3,7 +3,7 @@ This category contains articles and categories about wiki administrative subject
 
 ### Contents:
 
-_ , _ , _ , _ , _ , [WikiPages/en](WikiPages/en.md) , [WikiRobots/en](WikiRobots/en.md) , ,
+_ , [WikiPages/en](WikiPages/en.md) , [WikiRobots/en](WikiRobots/en.md) , ,
 
 _ _ _
 

@@ -3,7 +3,7 @@ This category lists pages related to the [FEM Workbench/id](FEM_Workbench/id.md)
 
 ### Contents:
 
-_ , [FEM Workbench/id](FEM_Workbench/id.md)
+[FEM Workbench/id](FEM_Workbench/id.md)
 
 _
 

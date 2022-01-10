@@ -13,7 +13,7 @@
 
 Polecenie **Prostopadłościan** ze środowiska prazy [Część](Part_Workbench/pl.md) wstawia parametryczny [prostokątny prostopadłościan](http://en.wikipedia.org/wiki/Cuboid#Rectangular_cuboid), jako geometryczną bryłę pierwotną do aktywnego dokumentu. Domyślnie, polecenie Prostopadłościan wstawia sześcian o wymiarach 10 x 10 x 10mm, umieszczony w punkcie początkowym, z etykietą \"sześcian\". Parametry te mogą być modyfikowane po dodaniu obiektu.
 
-<img alt="Part\_Box/pl\|Część: Sześcian" src=images/Part_Box.jpg  style="width:400px;">
+<img alt="Part\_Box" src=images/Part_Box.jpg  style="width:400px;">
 
 ## Użycie
 
@@ -29,14 +29,7 @@ Właściwości sześcianu mogą być później korygowane w edytorze właściwo�
 ## Właściwości
 
 
-{{Properties_Title/pl|Podstawowe}}
-
--    {{PropertyData/pl|Umiejscowienie}}: Określa orientację i położenie obiektu Prostopadłościan w przestrzeni 3D. Zobacz stronę [Umiejscowienie](Placement/pl.md). Punktem odniesienia jest lewy przedni dolny róg bryły.
-
--    {{PropertyData/pl|Etykieta}}: Etykieta nadana obiektowi. Zmień ją, aby dostosować nazwę do swoich potrzeb.
-
-
-{{Properties_Title/pl|Prostopadłościan}}
+{{Properties_Title|Prostopadłościan}}
 
 -    {{PropertyData/pl|Długość}}: Parametr *długość* jest wymiarem bryły w kierunku X.
 
@@ -44,28 +37,32 @@ Właściwości sześcianu mogą być później korygowane w edytorze właściwo�
 
 -    {{PropertyData/pl|Wysokość}}: Parametr *wysokość* jest wymiarem bryły w kierunku Z.
 
-![Właściwości prostopadłościanu utworzonego w środowisku Część](images/Part_Box-Properties.jpg )
-
 ## Tworzenie skryptów 
 
-Polecenie Prostopadłościan może być użyte przez [makrodefinicje](Macros/pl.md) i z konsoli środowiska Python za pomocą następującej funkcji: 
+Prostopadłościan można utworzyć przy pomocy następującej funkcji:
+
+
 ```python
-FreeCAD.ActiveDocument.addObject("Part::Box", "myBox")
+box = FreeCAD.ActiveDocument.addObject("Part::Box", "myBox")
 ```
 
--   Gdzie parametr *myBox* jest etykietą dla obiektu prostopadłościanu.
+-   Gdzie parametr {{Incode|myBox}} jest etykietą dla obiektu prostopadłościanu.
 -   Zwraca nowo utworzony obiekt typu prostopadłościan.
 
-Możesz uzyskać dostęp i modyfikować atrybuty obiektu Prostopadłościanu. Na przykład, można zmienić parametry długości, szerokości i wysokości. 
+Możesz uzyskać dostęp i modyfikować atrybuty obiektu {{Incode|Prostopadłościanu}}. Na przykład, można zmienić parametry długości, szerokości i wysokości.
+
+
 ```python
-FreeCAD.ActiveDocument.myBox.Length = 25
-FreeCAD.ActiveDocument.myBox.Width = 15
-FreeCAD.ActiveDocument.myBox.Height = 30
+box.Length = 25
+box.Width = 15
+box.Height = 30
 ```
 
-Możesz zmienić jego umiejscowienie za pomocą: 
+Możesz zmienić jego umiejscowienie za pomocą:
+
+
 ```python
-FreeCAD.ActiveDocument.myBox.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
+box.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
 ```
 
 ---

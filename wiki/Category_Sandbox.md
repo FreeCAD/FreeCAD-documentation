@@ -3,7 +3,7 @@ This category gathers all pages used as Sandbox: a place where you can draft or 
 
 ### Contents:
 
-_ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , [Symbols Library Workbench](Symbols_Library_Workbench.md) , [Timber Workbench](Timber_Workbench.md) , [Tutorial guidelines](Tutorial_guidelines.md) , [WikiPagesBasicColors](WikiPagesBasicColors.md) , [Workfeature Workbench](Workfeature_Workbench.md)
+_ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , [Symbols Library Workbench](Symbols_Library_Workbench.md) , [Timber Workbench](Timber_Workbench.md) , [Tutorial guidelines](Tutorial_guidelines.md) , [Workfeature Workbench](Workfeature_Workbench.md)
 
 _
 

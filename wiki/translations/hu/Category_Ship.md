@@ -3,7 +3,7 @@ This category lists pages related to the [Ship Workbench/hu](Ship_Workbench/hu.m
 
 ### Contents:
 
-_ , [Ship Workbench/hu](Ship_Workbench/hu.md)
+[Ship Workbench/hu](Ship_Workbench/hu.md)
 
 _
 

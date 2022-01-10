@@ -18,6 +18,9 @@ Esta herramienta crea redondeos en las aristas seleccionadas de un objeto. Se cr
 
 ## Utilización
 
+
+<div class="mw-translate-fuzzy">
+
 -   Selecciona una o varias aristas o una cara en un objeto, y luego inicia la herramienta haciendo clic en su icono o entrando en el menú. En caso de que hayas seleccionado una cara, todos sus bordes se respetan para el fileteado.
 -   En el [Panel de tareas](Task_panel/es.md) que aparece, establezca el radio de fileteado ya sea ingresando el valor, o haciendo clic en las flechas arriba/abajo.
 -   Si desea agregar más aristas o caras, haga clic en el botón **Agregar** y seleccione las aristas y/o las caras.
@@ -28,17 +31,12 @@ Esta herramienta crea redondeos en las aristas seleccionadas de un objeto. Se cr
 -   Para una cadena de aristas tangentes entre sí, se puede seleccionar una única arista; el redondeo se propagará a lo largo de la cadena.
 -   Para editar el redondeo después de que la función ha sido validada, haz doble clic en la etiqueta del redondeo en el árbol del proyecto o pulsa con el botón derecho sobre ella y selecciona **Editar Redondeo**.
 
-## Redondeo DiseñoPiezas VS. Redondeo Piezas 
 
-<img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> _** de la [Ambiente de trabajo Piezas](Part_Workbench/es.md). Aunque comparten el mismo nombre, no son iguales y no se usan de la misma manera.
+</div>
 
-Aquí puedes ver las diferencias entre ambos:
+## Notes
 
--   El Redondeo de DiseñoPiezas es *paramétrico*. Después de aplicar un redondeo, su radio puede editarse; esto no es posible con el RedondeoPiezas.
--   Las aristas deben seleccionarse sobre un objeto antes de activar el redondeo de Diseño de Piezas. Con el redondeo de Piezas, la herramienta puede iniciarse y seleccionar después un sólido y las aristas.
--   El Redondeo de DiseñoPiezas crea una entrada de redondeo separada (seguida por un número de secuencia si ya existen otros redondeos) en el árbol de proyecto. El redondeo de Piezas se convierte en la raíz del objeto al que se ha aplicado.
--   El Redondeo de DiseñoPiezas ofrece una previsualización en tiempo real del redondeo a aplicar a los objetos antes de validar la función.
--   El redondeo de Pieza soporta radios variables (con un de inicio y un radio final). El Redondeo de DiseñoPiezas no.
+-   PartDesign Fillet should not be confused with [Part Fillet](Part_Fillet.md). Unless you know what you are doing, [Part Fillet](Part_Fillet.md) should not be used on a PartDesign Body. See [Part and PartDesign](Part_and_PartDesign.md).
 
 ## Temas conocidos 
 

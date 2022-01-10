@@ -3,7 +3,13 @@
 
 ## Resumen
 
-Es posible definir propiedades utilizando expresiones matemáticas. En la interfaz gráfica de usuario, los cuadros de giro o campos de entrada que están vinculados a las propiedades contienen un icono azul <img alt="" src=images/Sketcher_Expressions.png  style="width:24px;">. Haciendo clic en el icono o escribiendo el signo igual **&#61;** aparece el editor de expresiones para esa propiedad en particular.
+
+<div class="mw-translate-fuzzy">
+
+Es posible definir propiedades utilizando expresiones matemáticas. En la interfaz gráfica de usuario, los cuadros de giro o campos de entrada que están vinculados a las propiedades contienen un icono azul <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Haciendo clic en el icono o escribiendo el signo igual **&#61;** aparece el editor de expresiones para esa propiedad en particular.
+
+
+</div>
 
 Es una expresión matemática que sigue la notación de los operadores y funciones matemáticas estándar, como se describe a continuación. Además, la expresión puede hacer referencia a otras propiedades, y también utilizar condicionales. Los números en una expresión pueden tener una unidad opcional adjunta.
 

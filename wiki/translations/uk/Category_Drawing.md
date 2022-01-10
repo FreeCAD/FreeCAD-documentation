@@ -3,7 +3,7 @@ This category lists pages related to the [Drawing Workbench/uk](Drawing_Workbenc
 
 ### Contents:
 
-_ , [Drawing Workbench/uk](Drawing_Workbench/uk.md)
+[Drawing Workbench/uk](Drawing_Workbench/uk.md)
 
 _
 

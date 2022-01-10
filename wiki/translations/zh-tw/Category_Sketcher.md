@@ -3,7 +3,7 @@ This category lists pages related to the [Sketcher Workbench/zh-tw](Sketcher_Wor
 
 ### Contents:
 
-_ , [Sketcher Workbench/zh-tw](Sketcher_Workbench/zh-tw.md)
+[Basic Sketcher Tutorial/zh-tw](Basic_Sketcher_Tutorial/zh-tw.md) , [Sketcher Workbench/zh-tw](Sketcher_Workbench/zh-tw.md)
 
 _
 

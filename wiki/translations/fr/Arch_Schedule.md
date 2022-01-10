@@ -27,7 +27,7 @@ Pour une solution plus générale, consultez le _. Cet atelier utilise la syntax
 3.  Ajuster les options désirées.
 4.  Cliquer **OK**.
 
-## Flux de travail 
+## Déroulement des tâches 
 
 D\'abord, vous devez avoir un modèle. Par exemple, voici un document avec plusieurs objets. Ici ce sont des objets Arch, mais ça n\'est pas obligatoire, ça peut être n\'importe quel objet.
 

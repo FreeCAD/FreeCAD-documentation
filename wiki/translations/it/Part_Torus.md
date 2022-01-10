@@ -71,6 +71,18 @@ nonché la serie standard di parametri di posizionamento. Le immagini sottostant
 
 ![](images/TorusExampleAngle3.jpg ) Il parametro Angolo3 ha il valore di 90°. 
 
+## Scripting
+
+A Part Torus can be created using the following function:
+
+
+```python
+torus = FreeCAD.ActiveDocument.addObject("Part::Torus", "myTorus")
+```
+
+-   Where {{Incode|"myTorus"}} is the name for the object.
+-   The function returns the newly created object.
+
 
 <div class="mw-translate-fuzzy">
 

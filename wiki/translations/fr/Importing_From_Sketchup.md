@@ -18,7 +18,7 @@ Si le module pyCollada a été installé, vous pouvez ouvrir ou importer les fic
 
 Collada (\*.dae) et STL sont des formats maillés. Pour utiliser ces fichiers dans FreeCAD, qui fonctionne principalement avec des solides, un travail supplémentaire sur les objets importés à l\'aide de ces formats sera requis dans la plupart des cas.
 
-## Relation
+## En relation 
 
 -   [FreeCAD Howto Import Export](FreeCAD_Howto_Import_Export/fr.md)
 -   [Import Export](Import_Export/fr.md)

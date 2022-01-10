@@ -12,7 +12,7 @@
 
 ## Opis
 
-Narzędzie **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Szyk liniowy'''** tworzy równomiernie rozmieszczone kopie obiektu w układzie liniowym. Od {{VersionPlus/pl|0.17}} narzędzie Szyk liniowy może ułożyć wiele elementów.
+Narzędzie **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Szyk liniowy'''** tworzy równomiernie rozmieszczone kopie obiektu w układzie liniowym.
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
@@ -83,6 +83,7 @@ Wybierz jedną ze standardowych osi odniesienia bryły *(X, Y lub Z)* jako kieru
 -   Kształty wzorców nie mogą na siebie zachodzić, z wyjątkiem szczególnego przypadku tylko dwóch wystąpień *(oryginał plus jedna kopia)*.
 -   Wszystkie kształty wzorców, które nie nakładają się na podstawę oryginału, będą wykluczone. Zapewnia to, że element środowiska Projekt części zawsze składa się z pojedynczej, połączonej bryły.
 -   Wzorce środowiska Projekt części nie są jeszcze tak zoptymalizowane jak ich odpowiedniki w środowisku Rysunek roboczy. Więc dla większej liczby instancji powinieneś rozważyć użycie funkcji [Rysunek roboczy: szyk](Draft_OrthoArray/pl.md) zamiast tego, w połączeniu z operacją logiczna środowiska Część. Może to obejmować duże zmiany w modelu, gdy wychodzisz ze środowisko Projekt części, co oznacza, że nie możesz po prostu kontynuować dalszych funkcji Projektu części w tej samej zawartości. Przykład jest pokazany w tym wątku [na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=55192).
+-   \* Funkcja ta nie może być zastosowany bezpośrednio do innego wzorca, czy to biegunowego, liniowego czy lustrzanego. Do tego potrzebujesz [transformacji wielokrotnej](PartDesign_MultiTransform/pl.md).
 -   W celu poznania dalszych ograniczeń, patrz funkcja: [odbicia lustrzanego](PartDesign_Mirrored/pl.md).
 
 

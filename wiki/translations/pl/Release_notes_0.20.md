@@ -224,11 +224,6 @@ Jest tam również pole tekstowe do zgłaszania błędów w OpenSCAD.
 -   Możliwe jest teraz ustalenie kąta kierunku podczas używania narzędzia [Szyk prostokątny](Sketcher_RectangularArray/pl.md) [commit](https://github.com/FreeCAD/FreeCAD/commit/c9eaa2393d33) [Dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?p=535691#p535691)
 -   Możliwe jest teraz ustalenie kąta kierunku podczas używania narzędzi [Klonuj](Sketcher_Clone/pl.md), [Kopiuj](Sketcher_Copy/pl.md) i [Przesuń](Sketcher_Move/pl.md) [commit](https://github.com/FreeCAD/FreeCAD/commit/6e4a09f569cf) [Dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=62799)
 
-### Poprawki błędów Szkicownika 
-
--   Naprawiono opcję „Odniesienie" niedziałającą dla promienia/średnicy w czasie tworzenia [Pull request \#4744 dla promienia](https://github.com/FreeCAD/FreeCAD/pull/4744) [4832 Pull request \#4832 dla średnicy](https://github.com/FreeCAD/FreeCAD/pull/) [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=57584),
--   [Kalka techniczna](Sketcher_CarbonCopy/pl.md) poprawiono wykrywanie równoległości / wyrównania, dodając tolerancję na błędy obliczeń zmiennoprzecinkowych [Pull request](https://github.com/FreeCAD/FreeCAD/pull/5197) [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=63956)
-
 ## Środowisko pracy Arkusz Kalkulacyjny 
 
   -------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -240,6 +235,9 @@ Jest tam również pole tekstowe do zgłaszania błędów w OpenSCAD.
 ### Planowane ulepszenia arkusza kalkulacyjnego 
 
 -   Import XLSX *(używany przez [Std Import](Std_Import/pl.md))*: Dodano wsparcie dla funkcji floor i ceil. [Pull request \#5015](https://github.com/FreeCAD/FreeCAD/pull/5015).
+-   Powiązanie komórek: poinstruuj zestaw komórek, aby wyświetlić zawartość innego zestawu komórek. Fragment [Pull request \#2862](https://github.com/FreeCAD/FreeCAD/pull/2862).
+-   Ulepszona nawigacja z użyciem klawiszy **Tab** i **Enter**.
+-   Ulepszony interfejs do wycinania i wklejania bloków komórek.
 
 ## Środowisko pracy Start 
 

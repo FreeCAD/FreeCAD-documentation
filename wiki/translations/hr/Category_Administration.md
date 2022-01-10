@@ -3,7 +3,7 @@ This category contains articles and categories about wiki administrative subject
 
 ### Contents:
 
-_ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , ,
+[Organization chart/hr](Organization_chart/hr.md) , ,
 
 _ _ _
 

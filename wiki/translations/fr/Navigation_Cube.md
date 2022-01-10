@@ -1,74 +1,63 @@
 # Navigation Cube/fr
 {{TOCright}}
 
-Le contrôle du **cube de navigation** est une aide graphique de l\'interface utilisateur permettant de réorienter la vue 3D. Par défaut, il est visible et réside dans le coin supérieur droit de l'affichage 3D. Si vous regardez la [vue 3D](3D_view/fr.md) standard, cela ressemble à ce qui suit :
+## Introduction
 
-![](images/FreeCAD-v0-18-NavCube_Axonometric.png )
+Le **cube de navigation** donne des informations visuelles sur l\'orientation de la caméra dans la [vue 3D](3D_view/fr.md) en cours et peut être utilisé pour la modifier. Par défaut, il est visible et se trouve dans le coin supérieur droit de la vue.
 
-Le cube de navigation est composé de plusieurs parties:
+Le cube de navigation a été mis à jour dans la version 0.20 de FreeCAD et le reste de cette page décrit cette version. Dans la version 0.19 de FreeCAD, le comportement principal est identique mais certaines fonctionnalités sont manquantes.
 
--   Flèches directionnelles
--   Cube de navigation principal
--   Menu mini-cube
+![](images/Navigation_Cube_Example.png )
 
-Si vous placez le pointeur de la souris sur une entité du cube de navigation, elle devient bleu clair. En cliquant, vous réorienterez la vue 3D comme il est indiqué par la fonction. Dans l\'exemple ci-dessous, la vue 3D a été pivotée par un [mouvement à la souris](Mouse_navigation/fr.md) vers une orientation \"non standard\". Le pointeur se trouve sur un coin (indiqué par la couleur bleue). En cliquant, vous réorienterez la vue 3D sur une vue axonométrique standard avec ce coin en face de vous.
+Le cube de navigation se compose de plusieurs parties :
 
-![](images/FreeCAD-v0-18-NavCube_SelectCorner.png )
+-   Le [cube principal](#Cube_principal.md)
+-   Six [flèches directionnelles](#Fl.C3.A8ches_directionnelles.md).
+-   Le [bouton de vue inversée](#Bouton_de_vue_invers.C3.A9e.md). (en haut à droite) {{Version/fr|0.20}}
+-   Le [menu du mini-cube](#Menu_du_mini-cube.md) (en bas à droite)
+-   Les indicateurs des axes X, Y et Z
 
-## Flèches directionnelles. 
+Toutes les composantes, à l\'exception des indicateurs d\'axe, peuvent être cliquées.
 
-Six flèches directionnelles: quatre pointes de flèche triangulaires, une en haut, une en bas, une à gauche et une à droite; et deux flèches courbées, une de chaque côté de la flèche du haut.
+## Utilisation
 
--   En cliquant sur les flèches triangulaires, la vue 3D pivote de 45 degrés autour d\'une ligne perpendiculaire à la direction de la flèche.
--   En cliquant sur les flèches incurvées, la vue 3D pivote autour d\'une ligne pointant vers vous.
+### Cube principal 
 
-## Cube de navigation principal 
+Le cube principal comporte 26 faces : 6 faces principales carrées, 12 faces de bord rectangulaires ({{Version/fr|0.20}}) et 8 faces d\'angle triangulaires. En cliquant sur l\'une d\'entre elles, la caméra sera réorientée de façon à ce que sa direction soit perpendiculaire à la face sélectionnée.
 
-Le cube de navigation principal (\"cube de navigation\" dans le reste de cette section) suit l\'orientation de l\'objet dans la partie principale de la vue 3D. Toute opération qui réoriente la vue 3D principale réorientera également le cube de navigation.
+### Flèches directionnelles 
 
-Le cube de navigation est essentiellement une vue 3D d\'un cube avec ses trois principaux types de composants (facettes, arêtes et angles) améliorés de sorte qu\'ils puissent être facilement cliqués avec le pointeur. En cliquant sur un composant particulier, la vue 3D sera centrée et orientée vers vous. Le cube de navigation est un peu \"écrasé\", comme si la caractéristique la plus éloignée de vous était plus grande que celle qui se trouvait directement en face de vous. Cela permet de voir les éléments adjacents à celui qui vous fait face et par conséquent de les sélectionner.
+Il existe six flèches directionnelles : quatre flèches triangulaires et deux flèches courbes. En cliquant sur l\'une des flèches triangulaires, vous ferez pivoter la [vue 3D](3D_view/fr.md) autour d\'une ligne perpendiculaire à la direction de la flèche. Si vous cliquez sur une flèche courbe, la [vue 3D](3D_view/fr.md) tournera autour de la direction de la flèche.
 
-Par exemple, dans une vue \"normale\" d\'un cube normal, lorsqu\'une face vous fait face, vous pouvez également voir les quatre bords et les quatre coins de cette facette. Dans le cube de navigation \"écrasé\", vous pouvez également voir des entités représentant chacune des facettes adjacentes, les quatre arêtes reliant les coins de la face face à vous avec la face opposée et les angles de la face opposée. Cela vous permet de sélectionner n\'importe quelle vue standard possible, à l\'exception de la facette opposée et de ses bords (21 vues possibles sur 26):
+### Bouton de vue inversée 
 
--   La facette qui vous fait face (ne fait rien car c\'est la vue en cours)
--   Les quatre arêtes de la facette courante
--   Les quatre coins du facette actuel
--   Les quatre facettes adjacentes
--   Les quatre arêtes menant à la facette opposée
--   Les quatre coins de la facette opposée
+En cliquant sur le bouton rond dans le coin supérieur droit du cube de navigation, vous ferez pivoter la [vue 3D](3D_view/fr.md) de 180 degrés autour de l\'axe vertical de la vue.
 
-Pas possible:
+### Menu du mini-cube 
 
--   La facette opposée
--   Les bords de la facette opposée
+En cliquant sur le petit cube dans le coin inférieur droit du cube de navigation, un menu s\'affiche avec les options suivantes :
 
-Remarque: Au moment de la rédaction de cet article (v 0.18), le cube de navigation pose quelques problèmes. toutes les fonctionnalités ne sont pas actuellement sélectionnables. En particulier, les arêtes ne peuvent pas être sélectionnées, ni les quatre coins de la face immédiatement en regard.
+-    **[Orthographique](Std_OrthographicCamera/fr.md)**: passe à une vue orthographique.
 
-### Sélection d\'une facette 
+-    **[Perspective](Std_PerspectiveCamera/fr.md)**: permet d\'obtenir une vue en perspective.
 
-En cliquant sur une facette, vous orienterez la vue 3D avec cete facette particulier qui vous fait face. Comme indiqué ci-dessus, d\'autres points de sélection sont disponibles dans la vue de face. Il y a quatre \"barres\" minces sur chacun des bords extérieurs, représentant les quatre facettes adjacentes; en cliquant dessus, vous sélectionnez la vue correspondant à la facette adjacente. Quatre angles arrondis peuvent être utilisés pour définir la vue axonométrique correspondante. Il existe également un ensemble intérieur d\'arêtes et de coins, actuellement non fonctionnels.
+-    **[Isometrique](Std_ViewIsometric/fr.md)**: permet de passer à une vue isométrique.
 
-### Sélection du bord 
+-    **[Ajuster le zoom](Std_ViewFitAll/fr.md)**: effectue un zoom et un panoramique de la caméra de façon à ce que tous les objets visibles tiennent dans la vue.
 
-Malheureusement, la sélection des bords est actuellement cassée. Tenter de sélectionner une arête sélectionnera la face qui se trouve derrière elle. Si vous cliquez sur une arête, celle-ci sera centrée de façon à ce qu\'elle soit face à vous.
+## Personnalisation
 
-### Sélection du coin 
+### Déplacement du cube de navigation 
 
-En cliquant sur l\'un des coins, vous obtiendrez une vue axonométrique vue depuis ce coin. Comme indiqué ci-dessus, actuellement, lorsqu\'une face vous fait directement face, les coins de cette face ne sont pas sélectionnables.
+L\'ensemble du cube de navigation peut être déplacé en appuyant sur la souris n\'importe où sur le cube principal et en la faisant glisser. La structure ne commencera à se déplacer que lorsque le curseur aura dépassé l\'un des bords du cube principal.
 
-## Menu du mini-cube 
+### Préférences
 
-Dans le coin inférieur droit du cube de navigation se trouve un petit cube. En cliquant sur ce cube, vous obtiendrez un menu que vous pourrez utiliser pour changer le type de vue (Orthographique, Perspective, Isométrique) et de faire un \"Ajuster le zoom\".
+Le cube de navigation est contrôlé par plusieurs préférences : **Édition → Préférences... → Affichage → Navigation → Cube de navigation**. Voir [Réglage des préférences](Preferences_Editor/fr#Navigation.md).
 
-## Déplacement de l'affichage du cube de navigation 
+### Options avancées 
 
-Vous pouvez déplacer l\'ensemble de la structure de contrôle du cube de navigation vers un autre endroit de l\'affichage 3D en appuyant sur la souris n\'importe où dans le cube de navigation principal et en la faisant glisser. La structure ne commencera à se déplacer que lorsque le pointeur de la souris aura dépassé le bord du cube de navigation principal.
-
-## Configuration
-
-Le cube de navigation est configurable, notamment en ajustant sa taille : **Edition → Préférences... → Affichage → Navigation → Cube de navigation** {{Version/fr|0.19}}.
-
-Pour une configuration plus avancée, consultez [Cube Menu](Interface_Customization/fr#Menu_Cube.md) à partir des [ateliers externes](External_workbenches/fr.md)
+L\'atelier externe [Cube Menu](Interface_Customization/fr#Menu_Cube.md) permet d\'accéder plus facilement à plusieurs options de personnalisation plus avancées.
 
 
 

@@ -1,52 +1,32 @@
 ---
-- GuiCommand:
+- GuiCommand:/fr
    Name:Fasteners BOM
-   Name/fr:Fasteners Nomenclature
-   MenuLocation:Fasteners → BOM
+   Name/fr:Fasteners BOM
+   MenuLocation:Fasteners → Generate BOM
    Workbenches:[Fasteners](Fasteners_Workbench/fr.md)
+   SeeAlso:[Atelier Spreadsheet](Spreadsheet_Workbench/fr.md)
 ---
 
 # Fasteners BOM/fr
 
 ## Description
 
-<img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> [Fasteners Nomenclature](Fasteners_BOM/fr.md) génère une nomenclature. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Fasteners](Fasteners_Workbench/fr.md).
+La commande <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;"> **Fasteners BOM** crée une feuille de calcul avec une nomenclature (bill of materials (BOM)) pour les fixations du document.
+
+<img alt="" src=images/Fasteners_BOM_Example.png  style="width:650px;"> 
+*Un modèle avec une feuille de tableur Fasteners et sa nomenclature *
 
 ## Utilisation
 
-1.  Basculez vers <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> _ si ce n\'est pas déjà fait)
-2.  Appelez l\'outil de nomenclature des fixations de plusieurs manières:
-    -   Appuyez sur le bouton <img alt="" src=images/Fasteners_BOM.svg  style="width:24px;">
-    -   Utilisez l\'entrée **Fasteners → BOM** dans le menu Fasteners
-3.  Lorsqu\'il est appelé, l\'outil de nomenclature des fixations ajoute une feuille de calcul au document FreeCAD.
-    -   La feuille de calcul représente la nomenclature des fixations utilisées dans l\'arborescence des fonctions du modèle.
-
-<img alt="" src=images/BOM_example-1.FCStd.png  style="width:1000px;">
+1.  Il existe plusieurs façons de lancer la commande :
+    -   Appuyez sur le bouton **<img src="images/Fasteners_BOM.svg" width=16px> [Fasteners BOM](Fasteners_BOM/fr.md)**.
+    -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_BOM.svg" width=16px> Generate BOM** dans le menu.
+2.  Une feuille de tableur Fasteners de la nomenclature est créée.
 
 ## Remarques
 
-1.  Utilisez l\'<img alt="" src=images/Workbench_Spreadsheet.svg  style="width:24px;"> [atelier Spreadsheet](Spreadsheet_Workbench/fr.md) pour exporter la nomenclature au format csv qui peut également être lu et écrit par la plupart des autres applications de feuille de calcul telles que Microsoft Excel ou LibreOffice Calc.
-
-## Limitations
-
-## Propriétés
-
-
-{{Properties_Title|Base}}
-
--    **Label**: nom donné par l\'utilisateur à la feuille de tableur dans la [vue en arborescence](Tree_view/fr.md).
-
--    **View**: mode d\'affichage
-
--    **View**: en haut lorsque sélectionné, désactivé, activé, objet, élément, par défaut: désactivé.
-
--    **View**: style, forme ou cadre de sélection, par défaut: forme.
-
--    **View**: affichage dans l\'arborescence, booléen, par défaut: vrai.
-
--    **View**: visibilité, booléen, par défaut: vrai.
-
-## Script
+-   Une feuille de tableur Fasteners de nomenclature ne se met pas à jour si les fixations sont modifiées, ou si des fixations sont ajoutées ou supprimées. Dans ce cas, la commande doit être utilisée pour créer une nouvelle feuille de calcul.
+-   Une feuille de tableur Fasteners de nomenclature peut être exportée avec la commande [Spreadsheet Exporter](Spreadsheet_Export/fr.md).
 
 
 

@@ -20,9 +20,9 @@ La **Std Vue de dessous** place la caméra dans la [vue 3D](3D_view/fr.md) dans 
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Appuyez sur le bouton **<img src="images/Std_ViewBottom.svg" width=16px> [Std Afficher la vue de dessous](Std_ViewBottom/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Std_ViewBottom.svg" width=16px> [Dessous](Std_ViewBottom/fr.md)**.
     -   Sélectionnez l\'option **Affichage → Vues standard → <img src="images/Std_ViewBottom.svg" width=16px> Dessous** dans le menu.
-    -   Sélectionnez l\'option **Vues standard → <img src="images/_Std_ViewBottom.svg_" width= 16px> Dessous** dans le menu contextuel de la [vue 3D](3D_view/fr.md).
+    -   Sélectionnez l\'option **Vues standard → <img src="images/Std_ViewBottom.svg" width=16px> Dessous** dans le menu contextuel de la [vue 3D](3D_view/fr.md).
     -   Utilisez le raccourci clavier: **5**.
 
 ## Script

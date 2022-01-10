@@ -21,7 +21,7 @@ La commande peut être utilisée sur des objets 2D créés avec l\'[Atelier Draf
 
 ## Usage
 
-Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Sélectionnez éventuellement un ou plusieurs objets, ou un ou plusieurs sous-éléments de [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md).
 2.  Il existe plusieurs manières d\'invoquer la commande :
@@ -45,7 +45,7 @@ Les raccourcis clavier à caractère unique mentionné ici peut être modifié. 
 -   La case **Relative** n\'a aucune utilité pour cette commande.
 -   Appuyez sur **G** ou cochez la case **Global** pour basculer en mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées de [Draft Plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
 -   Les cases à cocher restantes de ce panneau de tâches sont ignorées par la commande.
--   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
+-   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur le bouton **Fermer** pour annuler la commande.
 
 ### Deuxième panneau de tâches 
@@ -57,7 +57,7 @@ Les raccourcis clavier à caractère unique mentionné ici peut être modifié. 
 -   Si la case **Modifier les sous-éléments** est cochée, la commande utilisera les sous-éléments sélectionnés au lieu de l\'ensemble des objets. Les sous-éléments doivent appartenir à [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md).
 -   Si la case **Créer un clone** est cochée, les [Draft Clones](Draft_Clone/fr.md) des objets originaux sont créés. Cela fonctionne pour tous les types d\'objets. Pour les objets qui ne sont pas des objets Draft ou pour les objets Draft qui n\'ont pas de propriété **Points**, cette option **doit** être sélectionnée.
 -   Appuyez sur le bouton **Sélectionnez à partir de/vers les points** et sélectionnez deux points supplémentaires dans la [Vue 3D](3D_view/fr.md) pour calculer les facteurs d\'échelle. Cela cochera automatiquement la case **Mise à l'échelle uniforme**. Les facteurs d\'échelle X, Y et Z seront donc égaux et seront réglés sur la distance entre le point de base et le point « à partir de » divisé par la distance entre le point de base et le point « vers ».
--   Appuyez sur **Esc** ou sur le bouton **Annuler** pour annuler la commande.
+-   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande.
 
 ## Remarques
 

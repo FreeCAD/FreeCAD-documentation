@@ -93,13 +93,7 @@
 
 -   <img alt="" src=images/Part_ProjectionOnSurface.svg  style="width:32px;"> [Проекция на поверхность](Part_ProjectionOnSurface/ru.md): Проецирует логотип, текст или любую поверхность, контур или ребро на поверхность. {{Version/ru|0.19}}
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Attachment (Прикрепить)](Part_EditAttachment/ru.md): Прикрепляет расположение одного объекта относительно другого.
-
-
-</div>
+-   <img alt="" src=images/Part_EditAttachment.svg  style="width:32px;"> [Прикрепить (Attachment)](Part_EditAttachment/ru.md): Прикрепляет/фиксирует расположение одного объекта относительно другого.
 
 ### Булевы операции 
 

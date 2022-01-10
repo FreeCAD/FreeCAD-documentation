@@ -29,7 +29,6 @@ Tous les outils de l\'atelier Mesh sont accessibles depuis le menu **Maillages**
     -   <img alt="" src=images/Mesh_Evaluation.svg  style="width:32px;"> [Évaluer et réparer le maillage\...](Mesh_Evaluation/fr.md): Evalue et répare un objet maillé.
     -   <img alt="" src=images/Mesh_EvaluateFacet.svg  style="width:32px;"> [Infos sur la face](Mesh_EvaluateFacet/fr.md): Affiche des informations sur les faces des objets maillés.
     -   <img alt="" src=images/Mesh_CurvatureInfo.svg  style="width:32px;"> _ aux points sélectionnés.
-    -   <img alt="" src=images/Mesh_BoundingBox.svg  style="width:32px;"> [Boundings info\...](Mesh_BoundingBox.md): Affiche les coordonnées de la boîte de délimitation d\'un objet maillé.
     -   <img alt="" src=images/Mesh_EvaluateSolid.svg  style="width:32px;"> [Vérification du maillage du solide](Mesh_EvaluateSolid/fr.md): Vérifie si un objet maillé est solide.
     -   <img alt="" src=images/Mesh_BoundingBox.svg  style="width:32px;"> [Boîte englobante](Mesh_BoundingBox/fr.md): Affiche les coordonnées de la boîte englobante d\'un objet maillé.
 
@@ -69,17 +68,17 @@ Tous les outils de l\'atelier Mesh sont accessibles depuis le menu **Maillages**
 -   Coupe
     -   <img alt="" src=images/Mesh_PolyCut.svg  style="width:32px;"> [Couper le maillage](Mesh_PolyCut/fr.md): Coupe des faces entières à partir des objets maillés.
     -   <img alt="" src=images/Mesh_PolyTrim.svg  style="width:32px;"> [Découper](Mesh_PolyTrim/fr.md): Ajuste les faces et les parties de faces des objets maillés.
-    -   <img alt="" src=images/Mesh_TrimByPlane.svg  style="width:32px;"> [Ajuster le maillage avec un plan](Mesh_TrimByPlane/fr.md): Ajuste les faces et les parties de faces d\'un côté d\'un plan à partir d\'un objet maillé.
-    -   <img alt="" src=images/Mesh_SectionByPlane.svg  style="width:32px;"> [Créer une section à partir d\'un maillage ou d\'un plan ](Mesh_SectionByPlane/fr.md): Crée une coupe transversale à travers un objet maillé.
+    -   <img alt="" src=images/Mesh_TrimByPlane.svg  style="width:32px;"> [Ajuster par plan](Mesh_TrimByPlane/fr.md): Ajuste les faces et les parties de faces d\'un côté d\'un plan à partir d\'un objet maillé.
+    -   <img alt="" src=images/Mesh_SectionByPlane.svg  style="width:32px;"> [Section](Mesh_SectionByPlane/fr.md): Crée une coupe transversale à travers un objet maillé.
     -   <img alt="" src=images/Mesh_CrossSections.svg  style="width:32px;"> [Coupes\...](Mesh_CrossSections/fr.md): Crée plusieurs sections transversales à travers les objets maillés. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/Mesh_Merge.svg  style="width:32px;"> [Fusionner](Mesh_Merge/fr.md): Crée un objet maillé en combinant les mailles d\'au moins deux objets maillés.
 
--   <img alt="" src=images/Mesh_SplitComponents.svg  style="width:32px;"> [Séparer par composants](Mesh_SplitComponents/fr.md): Divise un objet maillé en ses composants. {{Version/fr|0.19}}
+-   <img alt="" src=images/Mesh_SplitComponents.svg  style="width:32px;"> [Éclater par composants](Mesh_SplitComponents/fr.md): Divise un objet maillé en ses composants. {{Version/fr|0.19}}
 
--   <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width:32px;"> [Développer un objet maillé](MeshPart_CreateFlatMesh/fr.md): crée une représentation à plat d\'un objet maillé. {{Version/fr|0.19}}
+-   <img alt="" src=images/MeshPart_CreateFlatMesh.svg  style="width:32px;"> [Développer un maillage](MeshPart_CreateFlatMesh/fr.md): Crée une représentation à plat d\'un objet maillé. {{Version/fr|0.19}}
 
--   <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width:32px;"> [Développer une face](MeshPart_CreateFlatFace/fr.md): Crée une représentation à plat d\'une face d\'un objet de forme. {{Version/fr|0.19}}
+-   <img alt="" src=images/MeshPart_CreateFlatFace.svg  style="width:32px;"> [Développer une face](MeshPart_CreateFlatFace/fr.md): Crée une représentation à plat d\'une face d\'un objet. {{Version/fr|0.19}}
 
 ## Préférences
 

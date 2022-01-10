@@ -3,7 +3,7 @@ This category lists pages related to the [PartDesign Workbench/ja](PartDesign_Wo
 
 ### Contents:
 
-_ , [PartDesign WizardShaft/ja](PartDesign_WizardShaft/ja.md) , [PartDesign Workbench/ja](PartDesign_Workbench/ja.md)
+[PartDesign WizardShaft/ja](PartDesign_WizardShaft/ja.md) , [PartDesign Workbench/ja](PartDesign_Workbench/ja.md)
 
 _
 

@@ -3,7 +3,7 @@ This category lists pages related to the [OpenSCAD\_Workbench/sv](OpenSCAD_Workb
 
 ### Contents:
 
-_ , [OpenSCAD Workbench/sv](OpenSCAD_Workbench/sv.md)
+[OpenSCAD Workbench/sv](OpenSCAD_Workbench/sv.md)
 
 _
 

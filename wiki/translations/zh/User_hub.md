@@ -6,7 +6,7 @@
 
 This is the main help area for newcomers to FreeCAD.
 
-FreeCAD is in continuous development, so there may be missing or outdated information. If you cannot find the information that you need, don\'t hesitate to ask in the [FreeCAD forum](http://forum.freecadweb.org).
+FreeCAD is in continuous development, so there may be missing or outdated information. If you cannot find the information that you need, don\'t hesitate to ask in the [FreeCAD forum](https://forum.freecadweb.org).
 
 If you\'d like to contribute to FreeCAD, please _ for the general guidelines that you should follow.
 

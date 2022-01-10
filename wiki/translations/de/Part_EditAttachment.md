@@ -260,7 +260,13 @@ Richtet die Ebene so aus, dass sie durch die ersten beiden Knoten verläuft und 
 
 #### Faltung
 
+
+<div class="mw-translate-fuzzy">
+
 Spezialmodus zum Falten von Polyedern. Wähle 4 Kanten in der Reihenfolge: faltbare Kante, Faltlinie, andere Faltlinie, andere faltbare Kante. Die Ebene wird ausgerichtet, um die erste Kante zu falten. Im folgenden Bild ist es nicht erforderlich, dass beide zu faltenden Blätter die gleichen sind.
+
+
+</div>
 
 :; Referenzkombinationen:
 

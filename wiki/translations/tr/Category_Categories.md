@@ -8,7 +8,7 @@ This is the **top category** which contains the main categories of the FreeCAD w
 
 ### Contents:
 
-[List of Commands/tr](List_of_Commands/tr.md) , , , , , , , , , , , , , , , , ,
+, , , , , , , , , , , , , , , ,
 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 

@@ -16,7 +16,13 @@ Por el momento no hay ninguna funcionalidad presente en este banco de trabajo. E
 
 ## Herramientas
 
+
+<div class="mw-translate-fuzzy">
+
 Las herramientas de ingeniería inversa (RE) se encuentran en el menú RE y en la barra de herramientas RE que aparecen cuando se carga el ambiente de trabajo RE desde el menú desplegable del ambiente de trabajo.
+
+
+</div>
 
 -   <img alt="" src=images/FitSurface.svg  style="width:32px;"> Aproximar una superficie B-spline:
 

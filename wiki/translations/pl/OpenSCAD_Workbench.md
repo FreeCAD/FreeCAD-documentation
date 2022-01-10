@@ -19,17 +19,17 @@ This workbench contains functions to modify the CSG feature tree and repair mode
 
 In FreeCAD 0.19, the Ply (Python-Lex-Yacc) module, which is used to import CSG files, was removed from the FreeCAD source code, as it is a third party library not developed by FreeCAD. As a result, you now need to install Ply before using the OpenSCAD Workbench. When using a pre-packaged, stable version of FreeCAD this dependency should be installed automatically in all platforms; in other cases, for example, when [compiling](Compiling.md) from source, you may have to install it from an online repository.
 
-W dystrybucjach opartych o openSUSE można ją zainstalować za pomocą: 
+W dystrybucjach opartych o openSUSE środowisko może zostać zainstalowane za pomocą: 
 ```python
 sudo zypper install python3-ply
 ```
 
-W dystrybucjach opartych o Debian/Ubuntu można ją zainstalować za pomocą: 
+W dystrybucjach opartych o Debian / Ubuntu środowisko może zostać zainstalowane za pomocą: 
 ```python
 sudo apt install python3-ply
 ```
 
-Zasadniczo na każdej platformie można wykorzystać Python Package Index (PyPI). 
+Ogólna instalacja na wszystkich platformach może być wykonana z indeksu pakietów Pythona. 
 ```python
 pip3 install --user ply
 ```

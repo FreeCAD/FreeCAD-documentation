@@ -5,7 +5,5 @@ This category lists pages related to the [Raytracing Workbench/bg](Raytracing_Wo
 
 _
 
-_
-
 ---
 [documentation index](../README.md) > Category:Raytracing/bg

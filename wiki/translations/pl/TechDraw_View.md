@@ -13,16 +13,22 @@
 
 Narzędzie Widok dodaje reprezentację jednego lub więcej obiektów do strony Rysunku. Jest to podstawowy element środowiska Rysunek Techniczny. Większość innych widoków pochodzi w jakiś sposób od metody Nowy widok.
 
+Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Możesz wybrać obiekty _, środowiska _ lub [Std: Grupa](Std_Group/pl.md).
+
 ![](images/TechDraw_View_example.png ) 
 *Widok bryły sześcianu z ukrytymi liniami*
 
 ## Użycie
 
-1.  Wybierz jeden lub więcej obiektów *(bryła, App::Part, Part::Feature, obiekt szkicu, \... Zobacz uwagi)* w oknie [widoku 3D](3D_view.md) lub [widoku drzewa](Tree_view/pl.md).
-2.  Jeśli masz wiele stron rysunków w dokumencie, będziesz musiał również wybrać żądaną stronę na drzewku. Użyj przycisku **Ctrl**, aby wybrać wiele elementów w drzewie.
-3.  Naciśnij przycisk **<img src="images/TechDraw_View.svg" width=16px> [Wstaw widok](TechDraw_View/pl.md)**.
+1.  Opcjonalnie obróć [widok 3D](3D_view/pl.md). Kierunek ujęcia widoku w oknie [widoku 3D](3D_view/pl.md) określa początkową wartość właściwości **Kierunek** widoku.
+2.  Wybierz jeden lub więcej obiektów w oknie [Widoku 3D](3D_view.md) lub [Widoku drzewa](Tree_view.md).
+3.  Jeśli w dokumencie jest wiele stron rysunku: opcjonalnie dodaj żądaną stronę do wyboru przez zaznaczenie jej w [widoku drzewa](Tree_view.md). Nie jest to opcjonalne dla {{VersionMinus/pl|0.19}}.
+4.  Istnieje kilka sposobów na wywołanie narzędzia:
+    -   Naciśnij przycisk **<img src="images/TechDraw_View.svg" width=16px> [Wstaw widok](TechDraw_View/pl.md)**.
+    -   Wybierz opcję **Rysunek Techniczny → <img src="images/TechDraw_View.svg" width=16px> Wstaw widok** z menu.
 
-Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Możesz wybrać obiekty środowiska _. Widok wyodrębni również kształty z obiektów w kontenerze [App::Część](Std_Part.md) lub [Grupa](Std_Group/pl.md).
+    1.  Wybierz żądaną stronę.
+    2.  Naciśnij przycisk **OK**.
 
 ## Właściwości
 
@@ -52,9 +58,6 @@ Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Mo�
 {{Properties_Title/pl|Parametry HLR}}
 
 -    **Widok zgrubny**: Jeśli wartość ta wynosi {{True}}, Rysunek Roboczy użyje przybliżenia wielokąta do obliczenia geometrii rysunku. Jeżeli {{False}}, Rysunek Roboczy użyje algorytmu precyzyjnego. Widok zgrubny może być wyliczany znacznie szybciej dla złożonych modeli. Jakość rysunku jest obniżona, ponieważ każda krzywa jest aproksymowana jako seria krótkich odcinków linii. Wierzchołki nie są wyświetlane w trybie Widok zgrubny, ponieważ każdy krótki odcinek spowodowałby utworzenie dwóch nowych wierzchołków, co spowodowałoby bałagan na ekranie. Wymiary liniowe mogą zostać dodane do okna Widoku zgrubnego, ale ich użyteczność jest mało prawdopodobna.
-
-:   
-    **Uwaga:**Widok zgrubny jest podatny na błąd w OCCT *([\#3332](https://www.freecadweb.org/tracker/view.php?id=3332))*, który powoduje, że pozycja widoku na stronie jest nieco inna od podanych wartości X,Y.
 
 -    **Wygładzanie widoczne**: Wyświetlanie wygładzonych linii włączone/wyłączone.
 

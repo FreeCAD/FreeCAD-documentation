@@ -82,5 +82,17 @@ precum și setul standard de parametri de plasare. Imaginile de mai jos oferă o
 
 </div>
 
+## Scripting
+
+A Part Torus can be created using the following function:
+
+
+```python
+torus = FreeCAD.ActiveDocument.addObject("Part::Torus", "myTorus")
+```
+
+-   Where {{Incode|"myTorus"}} is the name for the object.
+-   The function returns the newly created object.
+
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/ro

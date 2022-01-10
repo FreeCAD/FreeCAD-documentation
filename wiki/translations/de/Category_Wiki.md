@@ -1,5 +1,5 @@
 # Category:Wiki/de
-Diese Kategorie zeigt eine Liste von Seiten, die zum [Wiki](Wiki/de.md) gehören.
+Diese Kategorie zeigt eine Liste von Seiten, die zum Wiki/de gehören.
 
 ### Contents:
 

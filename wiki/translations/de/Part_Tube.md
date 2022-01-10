@@ -18,10 +18,19 @@ Der Befehl Rohr fügt ein Rohr in das aktive Dokument ein. Das Rohr wird geometr
 
 ## Anwendung
 
+
+<div class="mw-translate-fuzzy">
+
 Um ein Rohr zu erstellen, entweder:
 
 -   drücke die **<img src="images/Part_Tube.svg" width=16px> '''Rohr'''** Taste in der Werkzeugleiste
 -   verwende das Menü **Part → Grundkörper → Rohr erstellen**
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Um das Rohr zu bearbeiten
 
@@ -30,7 +39,13 @@ Um das Rohr zu bearbeiten
     -   bearbeite die Parameter im erscheinenden Dialog
 -   oder verwende den [ Eigenschaftseditor](Property_editor/de.md), um die Parameter zu bearbeiten
 
+
+</div>
+
 ## Eigenschaften
+
+
+<div class="mw-translate-fuzzy">
 
 -   Über den [ Eigenschafteneditor](Property_editor/de.md):
     -   **Höhe:** Legt die Höhe fest (Standardwert ist 10 mm).
@@ -38,6 +53,21 @@ Um das Rohr zu bearbeiten
     -   **Außenradius:** Legt den Außenradius fest (Standardwert ist 5 mm).
     -   **Platzierung:** Legt die Ausrichtung und Position der Box im 3D Raum fest. Siehe [ Platzierung](Placement/de.md). Der Bezugspunkt ist die linke vordere untere Ecke des Kastens.
     -   **Beschriftung:** Die Beschriftung ist der Name, der der Operation gegeben wird. Dieser Name kann nach Belieben geändert werden.
+
+
+</div>
+
+## Scripting
+
+A Part Tube can be created using the following function:
+
+
+```python
+tube = FreeCAD.ActiveDocument.addObject("Part::Tube", "myTube")
+```
+
+-   Where {{Incode|"myTube"}} is the name for the object.
+-   The function returns the newly created object.
 
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Tube/de

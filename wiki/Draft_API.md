@@ -3077,9 +3077,8 @@ Create a Label object containing different types of information.
 
     label_type: str, optional
         It defaults to `'Custom'`.
-        It can be `'Custom'`, `'Name'`, `'Label'`, `'Position'`,
-        `'Length'`, `'Area'`, `'Volume'`, `'Tag'`, or `'Material'`.
         It indicates the type of information that will be shown in the label.
+        See the get_label_types function in label.py for supported types.
 
         Only `'Custom'` allows you to manually set the text
         by defining `custom_text`. The other types take their information

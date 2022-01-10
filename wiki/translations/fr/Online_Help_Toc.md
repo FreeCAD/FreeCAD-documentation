@@ -23,7 +23,8 @@ Il existe une autre table des matières pour le _.
     -   [Éditeur de propriétés](Property_editor/fr.md)
 
 -   Les [Ateliers](Workbenches/fr.md)
-    -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Outils standard pour tous les Ateliers](Std_Base/fr.md)
+
+-   -   <img alt="" src=images/Freecad.svg  style="width:32px;"> [Outils standard pour tous les Ateliers](Std_Base/fr.md)
     -   <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Atelier Arch](Arch_Workbench/fr.md)
     -   <img alt="" src=images/Workbench_Draft.svg  style="width:32px;"> [Atelier Draft](Draft_Workbench/fr.md)
     -   <img alt="" src=images/Workbench_FEM.svg  style="width:32px;"> [Atelier FEM](FEM_Workbench/fr.md)
@@ -70,7 +71,7 @@ Il existe une autre table des matières pour le _.
     -   [Tutoriel sur les scripts Python](Python_scripting_tutorial/fr.md)
     -   [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md)
     -   [Part Ecrire un script](Part_scripting/fr.md)
-    -   [Scripts pour création topologique](Topological_data_scripting/fr.md)
+    -   [Script de données topologiques](Topological_data_scripting/fr.md)
     -   [Objets créés par script](Scripted_objects/fr.md)
     -   [Graphe de scène](Scenegraph/fr.md)
     -   [Pivy](Pivy/fr.md)

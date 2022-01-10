@@ -384,8 +384,7 @@ The macro will generate a report depending on which button you clicked.
 
 ## Script
 
- 
-```python
+ {{MacroCode|code=
 #! python
 # -*- coding: utf-8 -*-
 # <nowiki>(c) 2021 </nowiki><<nowiki>Evgeniy</nowiki>><nowiki> LGPL
@@ -472,7 +471,7 @@ def print_obj_properties(obj,typ,blacklist,show_inherits):
    for pr in sorted_prop:
       if title != pr[1][1]:
          title = pr[1][1]
-         print("\n"+"{{TitleProperty|"+title+"```")
+         print("\n"+"{{TitleProperty|"+title+"}}")
       # use ternary operator "|"+pr[1][4] if pr[1][4]!="" else "" to ignore status field if it not exists 
       print("\n"+"* {{Property"+typ+"|"+pr[1][0]+"|"+pr[1][2]+("|"+pr[1][4] if pr[1][4]!="" else "")+"}}: "+pr[1][3])
 

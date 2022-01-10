@@ -10,7 +10,7 @@
 
 ## Description
 
-L\'outil **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Répétition linéaire'''** créé des copies d\'une fonction espacées également le long d\'une droite. A partir de {{VersionPlus/fr|0.17}}, l\'outil de répétition linéaire peut modéliser plusieurs fonctions.
+L\'outil **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Répétition linéaire'''** créé des copies d\'une fonction espacées également le long d\'une droite.
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
@@ -80,7 +80,8 @@ Sélectionnez l\'un des axes standard de l\'origine du corps (X, Y ou Z) comme d
 
 -   Les formes de motifs ne peuvent pas se chevaucher, sauf dans le cas particulier de deux occurrences seulement (original plus une copie).
 -   Toute forme de motif qui ne recouvre pas le support de l\'original sera exclue. Cela garantit qu\'un élément PartDesign est toujours constitué d\'un solide unique et connecté.
--   Les motifs PartDesign ne sont pas encore aussi optimisés que leurs homologues Draft. Donc, pour un plus grand nombre d\'instances, vous devriez envisager d\'utiliser [Draft Réseau orthogonal](Draft_OrthoArray/fr.md) à la place, combiné avec une opération booléenne Part. Cela peut entraîner des modifications majeures de votre modèle lorsque vous quittez PartDesign, ce qui signifie que vous ne pouvez pas simplement continuer avec d\'autres fonctionnalités PartDesign dans le même corps. Un exemple est présenté dans ce [Sujet de forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=55192)
+-   Les motifs PartDesign ne sont pas encore aussi optimisés que leurs homologues Draft. Donc, pour un plus grand nombre d\'instances, vous devriez envisager d\'utiliser [Draft Réseau orthogonal](Draft_OrthoArray/fr.md) à la place, combiné avec une opération booléenne Part. Cela peut entraîner des modifications majeures de votre modèle lorsque vous quittez PartDesign, ce qui signifie que vous ne pouvez pas simplement continuer avec d\'autres fonctionnalités PartDesign dans le même corps. Un exemple est présenté dans ce [Sujet de forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=55192).
+-   Une PartDesign Répétition linéaire ne peut pas être appliqué directement à un autre motif, qu\'il soit polaire, linéaire ou miroir. Pour cela, vous avez besoin d\'une [PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md).
 -   Pour d\'autres limitations, voir [PartDesign Symétrie](PartDesign_Mirrored/fr.md).
 
 

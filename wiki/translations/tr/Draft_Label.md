@@ -79,6 +79,40 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
+## Etiket türleri 
+
+
+</div>
+
+The following label types are available:
+
+
+<div class="mw-translate-fuzzy">
+
+-    {{Emphasis | Custom:}}, {{PropertyData | Custom Text}} içeriğini görüntüler.
+
+-    {{Emphasis | Name:}}hedef nesnenin dahili adını görüntüler; iç ad, yaratılış zamanında nesneye atanır ve nesnenin varlığı boyunca sabit kalır.
+
+-    {{Emphasis | Label:}}hedef nesnenin etiketini görüntüler; Nesnenin etiketi kullanıcı tarafından herhangi bir zamanda değiştirilebilir.
+
+-    {{Emphasis | Position:}}, hedef nesnenin taban noktasının, hedef köşenin veya varsa, hedef alt öğenin kütle merkezinin koordinatlarını görüntüler.
+
+-    {{Emphasis | Length:}}, varsa, hedef alt öğenin uzunluğunu gösterir.
+
+-    {{Emphasis | Area:}}, eğer varsa, hedef alt öğenin alanını gösterir.
+
+-    {{Emphasis | Volume:}}, eğer varsa, hedef nesnenin hacmini gösterir.
+
+-    {{Emphasis | Tag:}}, örneğin [Mimari](Arch_Workbench/tr.md) ile oluşturulan nesneler gibi bir özelliğe sahipse, hedef nesnenin {{incode | Tag}} özniteliğini görüntüler.
+
+-    {{Emphasis | Material:}}, hedef nesnenin böyle bir özelliği varsa, hedef nesnenin malzemesinin etiketini görüntüler.
+
+
+</div>
+
 ## Notes
 
 
@@ -144,32 +178,6 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 -    **Target|LinkSub**: specifies the object and optional subelement the label is linked to.
 
 -    **Target Point|Vector**: specifies the position of the tip of the leader, which is where the arrow is attached.
-
-## Etiket türleri 
-
-
-<div class="mw-translate-fuzzy">
-
--    {{Emphasis | Custom:}}, {{PropertyData | Custom Text}} içeriğini görüntüler.
-
--    {{Emphasis | Name:}}hedef nesnenin dahili adını görüntüler; iç ad, yaratılış zamanında nesneye atanır ve nesnenin varlığı boyunca sabit kalır.
-
--    {{Emphasis | Label:}}hedef nesnenin etiketini görüntüler; Nesnenin etiketi kullanıcı tarafından herhangi bir zamanda değiştirilebilir.
-
--    {{Emphasis | Position:}}, hedef nesnenin taban noktasının, hedef köşenin veya varsa, hedef alt öğenin kütle merkezinin koordinatlarını görüntüler.
-
--    {{Emphasis | Length:}}, varsa, hedef alt öğenin uzunluğunu gösterir.
-
--    {{Emphasis | Area:}}, eğer varsa, hedef alt öğenin alanını gösterir.
-
--    {{Emphasis | Volume:}}, eğer varsa, hedef nesnenin hacmini gösterir.
-
--    {{Emphasis | Tag:}}, örneğin [Mimari](Arch_Workbench/tr.md) ile oluşturulan nesneler gibi bir özelliğe sahipse, hedef nesnenin {{incode | Tag}} özniteliğini görüntüler.
-
--    {{Emphasis | Material:}}, hedef nesnenin böyle bir özelliği varsa, hedef nesnenin malzemesinin etiketini görüntüler.
-
-
-</div>
 
 ### View
 

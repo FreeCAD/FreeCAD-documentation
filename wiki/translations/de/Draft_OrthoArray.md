@@ -3,58 +3,35 @@
    Name:Draft OrthoArray
    Name/de:Entwurf AnordnungRechtwinklig
    MenuLocation:Modifikation → Anordnung Werkzeuge → Anordnung
-   Workbenches:[Entwurf](Draft_Workbench/de.md)
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
    Version:0.19
-   SeeAlso:[Entwurf PolaresFeld](Draft_PolarArray/de.md), [Entwurf KreisAnordnung](Draft_CircularArray/de.md), [Entwurf PfadAnordnung](Draft_PathArray/de.md), [Entwurf Punktefeld](Draft_PointArray/de.md), [Entwurf Klonen](Draft_Clone/de.md)
+   SeeAlso:[Entwurf PolarAnordnung](Draft_PolarArray/de.md), [Entwurf KreisAnordnung](Draft_CircularArray/de.md), [verknüpfte Pfadanordnung](Draft_PathArray/de.md), [Entwurf Punkteanordnung](Draft_PointArray/de.md), [verknüpfte Punkteanordnung](Draft_PointLinkArray/de.md)
 ---
 
 # Draft OrthoArray/de
 
-
-</div>
-
 ## Beschreibung
 
+Die <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> **Draft OrthoArray**-Anweisung erstellt eine orthogonale (3-Achsen) Anordnung aus einem ausgewählten Objekt. Die Anweisung kann auch ein [Verknüpungsmuster](App_Link/de.md) erzeugen. Dies ist effizienter, als eine rechtwinklige Feldanordnung (orthogonale Anordnung).
 
-<div class="mw-translate-fuzzy">
+Diese Anweisung kann für 2D-Objekte angewendet werden, die mit der [Arbeitsbereich Entwurf](Draft_Workbench/de.md) oder mit dem [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md) erstellt wurden, aber auch auf viele 3D-Objekte, die mit anderenArbeitsbereichen erstellt wurden, wie dem [Arbeitsbereich Part](Part_Workbench/de.md), [Arbeitsbereich PartDesign](PartDesign_Workbench/de.md) oder dem [Arbeitsbereich Architektur](Arch_Workbench/de.md).
 
-Das **<img src="images/Draft_OrthoArray.svg" width=16px> [Entwurf AnordnungRechtwinklig](Draft_OrthoArray/de.md)** Werkzeug erstellt eine orthogonale (3 Achsen) Anordnung aus einem ausgewählten Objekt.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Dieses Werkzeug kann für jedes Objekt verwendet werden, das eine [Part TopoForm](Part_TopoShape/de.md) hat, d.h. 2D Formen, die mit der [Entwurf Arbeitsbereich](Draft_Workbench/de.md) erstellt wurden, aber auch 3D Körper, die mit anderenArbeitsbereichen erstellt wurden, z.B. [Part](Part_Workbench/de.md), [PartDesign](PartDesign_Workbench/de.md) oder [Arch](Arch_Workbench/de.md). Statt einfacher Kopien können auch [AnwendungsVerknüpfungen](App_Link/de.md) erstellt werden.
-
-
-</div>
-
-<img alt="" src=images/Draft_Array_example.png  style="width:300px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Orthogonales Feld (array) eines Festkörpers.*
-
-
-</div>
+<img alt="" src=images/Draft_Array_example.png  style="width:300px;"> 
+*Entwurf orthogonale Anordnung*
 
 ## Anwendung
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Das zu vervielfältigende Objekt wählen.
-2.  Die **<img src=images/Draft_OrthoArray.svg style="width:16px"> [Entwurf AnordungRechtwinklig](Draft_OrthoArray/de.md)**-Schaltfläche beätigen. Wurde kein Objekt ausgewählt, erscheint eine Aufforderung dazu.
-3.  Der [Aufgabenreiter](task_panel/de.md) wird angezeigt, in dem die Anzahl der Elemente in X, Y und Z-Richtung und der Abstand zueinander bestimmt werden kann.
-4.  Mit einem Klick in die [3D-Ansicht](3D_view/de.md) können Anzahl und Abstände eingestellt und der Befehl abgeschlossen werden. Ansonsten kann mit **Enter** oder **OK** der Befehl abgeschlossen werden.
-
-
-</div>
+1.  Wahlweise ein Objekt auswählen.
+2.  Es gibt mehrere Wege, die Anweisung aufzurufen:
+    -   Die Schaltfläche **<img src="images/Draft_OrthoArray.svg" width=16px> [Draft OrthoArray](Draft_OrthoArray.md)** anzuklicken.
+    -   Den Menüpunkt **Modification → Array tools → <img src="images/Draft_OrthoArray.svg" width=16px> Array** wählen.
+3.  Die **Orthogonal array**-Aufgabenansicht wird geöffnet. Siehe auch [Options](#Options.md).
+4.  Objekt auswählen, wenn noch keines ausgewählt wurde.
+5.  Die erforderlichen Parameter in die Ansicht Aufgaben eingeben.
+6.  Beenden der Auswührung der Anweisung:
+    -   In die [3DAnsicht](3D_view/de.md) klicken.
+    -   Drücke **Enter**.
+    -   Die Schaltfläche **OK** anklicken.
 
 ## Optionen
 
@@ -67,7 +44,7 @@ Dieses Werkzeug kann für jedes Objekt verwendet werden, das eine [Part TopoForm
 -   If the **Link array** checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [App Link](App_Link.md) objects.
 -   Press **Esc** or the **Cancel** button to abort the command.
 
-## Notes
+## Hinweise
 
 
 <div class="mw-translate-fuzzy">
@@ -78,22 +55,22 @@ Dieses Werkzeug kann für jedes Objekt verwendet werden, das eine [Part TopoForm
 
 </div>
 
-## Preferences
+## Einstellungen
 
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+Siehe auch: [Eigenschaftseditor](Preferences_Editor/de.md) und [Entwurfseigenschaften](Draft_Preferences/de.md).
 
--   To change the number of decimals used for the input of coordinates: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
+-   Um die Anzahl der Dezimalstellen für die Eingabe der Koordinaten zu ändern: **Bearbeiten → Eigenschaften... → Allgemein → Einheiten → Einheiten-Einstellungen → Anzahl der Nachkommastellen**
 
 ## Eigenschaften
 
-See also: [Property editor](property_editor.md).
+Siehe auch: [Eigenschaftseditor](property_editor/de.md).
 
 The Draft OrthoArray command, the [Draft PolarArray command](Draft_PolarArray.md) and the [Draft CircularArray command](Draft_CircularArray.md) create the same object. This object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties (with the exception of some View properties that are not inherited by Link arrays). The following properties are additional unless otherwise stated:
 
-### Data
+### Daten
 
 
-{{TitleProperty|Link}}
+{{TitleProperty|Verknüpfung}}
 
 The properties in this group are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
 
@@ -192,10 +169,10 @@ The properties in this group are hidden for orthogonal arrays.
 
 -    **Center|VectorDistance**: specifies the center point of the array. The axis of the array passes through this point. For circular arrays it is an offset from the **Placement** of the **Base** object.
 
-### View
+### Ansicht
 
 
-{{TitleProperty|Link}}
+{{TitleProperty|Verknüpfung}}
 
 The properties in this group, with the exception of the inherited property, are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
 
@@ -217,9 +194,9 @@ The properties in this group, with the exception of the inherited property, are 
     
 
 
-{{TitleProperty|Base}}
+{{TitleProperty|Basis}}
 
-The properties in this group, with the exception of the inherited property, are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
+Die Eigenschaften dieser Gruppe, mit Ausnahme der vererbten Eigenschaft, gibt es nur für verknüpfte Anordnungen.Siehe auch [Std LinkMake](Std_LinkMake#Properties.md).
 
 -    **Child View Provider|PersistentObject|Hidden**
     
@@ -236,7 +213,7 @@ The properties in this group, with the exception of the inherited property, are 
 -    **Proxy|PythonObject|Hidden**: this is an inherited property.
 
 
-{{TitleProperty|Display Options}}
+{{TitleProperty|Zeige Auswahlmöglichkeiten}}
 
 The properties in this group are inherited properties. See [Part Feature](Part_Feature#Properties.md) for more information.
 
@@ -251,31 +228,22 @@ The properties in this group are inherited properties. See [Part Feature](Part_F
     
 
 
-{{TitleProperty|Draft}}
+{{TitleProperty|Entwurf}}
 
 -    **Pattern|Enumeration**: not used.
 
 -    **Pattern Size|Float**: not used.
 
 
-{{TitleProperty|Object style}}
+{{TitleProperty|Objectstil}}
 
 The properties in this group are not inherited by Link arrays.
 
 ## Skripten
 
+Siehe auch: _.
 
-<div class="mw-translate-fuzzy">
-
-
-**Siehe auch:**
-
-[Draft API](Draft_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
-
-### Parametric array 
+### Parametrische Anordnung 
 
 
 <div class="mw-translate-fuzzy">
@@ -285,14 +253,14 @@ Das Werkzeug AnordnungRechtwinklig kann in [Makros](macros/de.md) und von der [P
 
 </div>
 
-The main method:
+Die main Methode:
 
 
 ```python
 array = make_array(base_object, arg1, arg2, arg3, arg4=None, arg5=None, arg6=None, use_link=True)
 ```
 
-The wrappers for orthogonal arrays are:
+Die Verbinder (wrapper) für orthogonale Anordnungen sind:
 
 
 ```python
@@ -310,7 +278,7 @@ array = make_ortho_array2d(base_object,
                            use_link=True)
 ```
 
-The wrappers for rectangular arrays are:
+Die Verbinder (wrapper) für rechteckige Anordnungen sind:
 
 
 ```python
@@ -357,15 +325,9 @@ array = Draft.make_ortho_array2d(rect, v_x, v_y, 3, 4)
 doc.recompute()
 ```
 
-### Non-parametric array 
+### Feste Anordnung (nicht parametrisch) 
 
-
-<div class="mw-translate-fuzzy">
-
-Um ein rechtwinkliges Feld zu erzeugen, wird es so verwendet:
-
-
-</div>
+Um eine feste, nicht parametrische Anordnung zu erstellen, verwendet man die `array`-Methode des Enwurfmoduls. Diese Methode gibt `None` aus.
 
 
 ```python
@@ -389,15 +351,6 @@ v_y = App.Vector(0, 600, 0)
 Draft.array(rect, v_x, v_y, 3, 4)
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft OrthoArray/de

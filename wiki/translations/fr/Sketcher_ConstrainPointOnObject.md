@@ -34,7 +34,7 @@ La contrainte peut être créée à partir de [macros](Macros/fr.md) et de la co
 
 -    `Sketch`est un objet d\'esquisse
 
--    `LineMoving`est le nombre qui désigne la ligne, qui contient le point qui doit être déplacé sur le `LineFixed` (La ligne qui est fixe)
+-    `LineMoving`est le numéro qui désigne la ligne contenant le point qui doit être déplacé sur la ligne `LineFixed` (la ligne qui est fixe).
 
 -    `PointOfLineMoving`est le numéro du sommet de la ligne `LineMoving` qui doit être déplacé sur `LineFixed`.
 

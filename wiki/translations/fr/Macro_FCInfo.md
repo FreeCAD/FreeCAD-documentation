@@ -1,21 +1,15 @@
 # Macro FCInfo/fr
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/fr
 |Icon=FCInfo.png
 |Name=Macro FCInfo
 |Description=Donne des informations sur la forme sélectionnée et peut afficher une conversion de la longueur, de l'inclinaison (degrés, radians, grades, pourcentage), de la surface, du volume et du poids dans différentes unités (métriques et impériales). La macro fonctionne désormais aussi pour les éléments d'une esquisse en mode édition.
-<br />[https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/4241a47fa69648e0bea0482fa1e6cfb2ac5f4858/FCInfo_fr_Ver_1-25-rmu_Docked.FCMacro Version française]
+<br />[https://gist.githubusercontent.com/mario52a/6afc64081c4eb8be3b93/raw/6ca25a438c3c4cfb62c0b1d6a35b7ddbd80ace23/FCInfo_fr_Ver_1-25d-rmu_Docked.FCMacro Version française]
 |Author=Mario52
-|Version=1.25b
-|Date=2021/12/11
+|Version=1.25d
+|Date=2021/12/13
 |FCVersion=Toutes
 |SeeAlso=<img src=images/Arch_Survey.svg style="width:Arch Survey|24px"> [Arch Prise de cotes](Arch_Survey/fr.md)<br />[Macro SimpleProperties](Macro_SimpleProperties/fr.md)
 }}
-
-
-</div>
 
 ## Description
 
@@ -278,35 +272,24 @@ en projet :
 
 ## Version
 
-
-<div class="mw-translate-fuzzy">
-
+-   ver 1.25c 12/12/2021 correction \"strAround((\" par \"str(Around(\" et autres petits \...
 -   ver 1.25b 11/12/2021 correction d\'une erreur dans le changement/modification de nouveaux matériaux et réorganisation
 -   ver 1.25 10/12/2021 PySide2 et ajout de la boîte combo pour matériaux
 -   ver 1.24 02/12/2021 ajout [adjustedGlobalPlacement](https://forum.freecadweb.org/viewtopic.php?f=22&t=59852) modifié par edwilliams16 pour le placement avec un Corps, traçage de la boîte à outils
 -   ver 1.23cb 25/11/2021 suppression de **\"import Sketcher \* \"** qui créait un conflit avec \"**open(OpenName, \"r\")**\" ??
 
-Ajout
-
-
-</div>
-
-
+Ajout 
 ```python
 FreeCAD.ActiveDocument.openTransaction(u"FCInfo")    # memorise les actions (avec annuler restore)
 FreeCAD.ActiveDocument.commitTransaction()           # restore les actions  (avec annuler restore)
 #FreeCAD.ActiveDocument.abortTransaction()            # abandonne les actions(avec annuler restore)
 ```
 
-
-<div class="mw-translate-fuzzy">
-
+-   ver 1.25d, 13/12/2021 petite correction champ matériel décommenter le \"\'try\...Except\" !!!
+-   ver 1.25c, 12/12/2021 petite correction nouveau matériel
 -   ver 1.23b, 20/11/2021 petite correction, ajout de l\'info texte au début de la macro et ordonner le code texte.
 -   ver 1.23 , 19/11/2021 inclut l\'icône dans la macro, le nombre de décimales affichées, la hauteur du texte, configure les options dans les Préférences de Freecad, corrige les infos pour les éléments de l\'esquisse en mode édition.
 -   ver 1.22 , 12/11/2020 : maintenant la macro est totalement désinstallée en utilisant :
-
-
-</div>
 
 
 ```python

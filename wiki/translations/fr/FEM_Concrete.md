@@ -8,9 +8,9 @@ Cette page rassemble quelques sujets intéressants en ce qui concerne les struct
 -   [Utiliser la norme européenne en Suisse (juillet 2018)](https://forum.freecadweb.org/viewtopic.php?f=18&t=29930)
 -   [Graphiques de stress principaux (juin 2018)](https://forum.freecadweb.org/viewtopic.php?f=18&t=29381)
 
-## Relation avec 
+## En relation 
 
--   [Analyse du béton armé avec FEM](Analysis_of_reinforced_concrete_with_FEM.md)
+-   [Analyse du béton armé avec FEM](Analysis_of_reinforced_concrete_with_FEM/fr.md)
 
 
 {{FEM Tools navi

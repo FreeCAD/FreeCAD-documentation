@@ -49,8 +49,14 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 
 ### Convenzioni
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Angolo di proiezione del gruppo**: stabilisce se il [gruppo di proiezioni](TechDraw_ProjectionGroup/it.md) deve utilizzare la proiezione di primo o terzo angolo. Per la descrizione vedere [multiview projection](https://en.wikipedia.org/wiki/Multiview_projection#Multiviews).
 -   **Stile delle linee nascoste**: lo stile da utilizzare per le linee nascoste.
+
+
+</div>
 
 ### File
 
@@ -62,7 +68,13 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 -   **File PAT**: file di default per il modello PAT predefinito per il [tratteggio geometrico](TechDraw_GeometricHatch/it.md).
 -   **Nome del modello**: il nome del motivo PAT predefinito.
 
+
+<div class="mw-translate-fuzzy">
+
 ## Scale
+
+
+</div>
 
 <img alt="Preferenze di Scala" src=images/TechDraw_PreferencesScale.png  style="width:350px;">
 

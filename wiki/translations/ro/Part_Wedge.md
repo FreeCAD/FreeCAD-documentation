@@ -79,73 +79,73 @@ Creați un obiect parametric Pană/Wedge. Valoarea implicită pentru această re
 
 ### Proprietăți
 
-+----------------------------------------------------------+--------------------------------------------------------------------------------------------+
-| ![](images/PartWedgeProperty_it.png ) | #### Vizualizări                                                                           |
-|                                                          |                                                                                            |
-|                                                          | Sunt disponibile [Proprietà standard](DraftStandardProperty/it.md) în vizualizare. |
-|                                                          |                                                                                            |
-|                                                          | #### Date                                                                                  |
-|                                                          |                                                                                            |
-|                                                          |                                                                             |
-|                                                          | {{KEY/it|Base}}                                                                            |
-|                                                          |                                                                                         |
-|                                                          | \* {{ProprietaDati|Label}}: nume                                             |
-|                                                          |                                                                                            |
-|                                                          | -                                                                           |
-|                                                          |     {{ProprietaDati|Placement}}                                                            |
-|                                                          |                                                                                         |
-|                                                          |     : [posizionamento](Placement/it.md)                                            |
-|                                                          |                                                                                            |
-|                                                          |                                                                             |
-|                                                          | {{KEY/it|Wedge}}                                                                           |
-|                                                          |                                                                                         |
-|                                                          | \* {{ProprietaDati|X2 max}} : coordonată (valoarea predefinită este 8 mm).   |
-|                                                          |                                                                                            |
-|                                                          | -                                                                           |
-|                                                          |     {{ProprietaDati|X2 min}}                                                               |
-|                                                          |                                                                                         |
-|                                                          |     : coordonată (predefinită e 2 mm).                                                     |
-|                                                          |                                                                                            |
-|                                                          | -                                                                           |
-|                                                          |     {{ProprietaDati|X max}}                                                                |
-|                                                          |                                                                                         |
-|                                                          |     : coordonată (predefinită e 10 mm).                                                    |
-|                                                          |                                                                                            |
-|                                                          | -                                                                           |
-|                                                          |     {{ProprietaDati|X min}}                                                                |
-|                                                          |                                                                                         |
-|                                                          |     : coordonată (predefinită e 0 mm).                                                     |
-|                                                          |                                                                                            |
-|                                                          | -                                                                           |
-|                                                          |     {{ProprietaDati|Y max}}                                                                |
-|                                                          |                                                                                         |
-|                                                          |     : coordonată (predefinită e 10 mm).                                                    |
-|                                                          |                                                                                            |
-|                                                          | -                                                                           |
-|                                                          |     {{ProprietaDati|Y min}}                                                                |
-|                                                          |                                                                                         |
-|                                                          |     : coordonată (predefinită e 2 mm).                                                     |
-|                                                          |                                                                                            |
-|                                                          | -                                                                           |
-|                                                          |     {{ProprietaDati|Z2 max}}                                                               |
-|                                                          |                                                                                         |
-|                                                          |     : coordonată (predefinită e 8 mm).                                                     |
-|                                                          |                                                                                            |
-|                                                          | -                                                                           |
-|                                                          |     {{ProprietaDati|Z2 min}}                                                               |
-|                                                          |                                                                                         |
-|                                                          |     : coordonată (predefinită e 2 mm).                                                     |
-|                                                          |                                                                                            |
-|                                                          | -                                                                           |
-|                                                          |     {{ProprietaDati|Z max}}                                                                |
-|                                                          |                                                                                         |
-|                                                          |     : coordonată (predefinită e 10 mm).                                                    |
-|                                                          |                                                                                            |
-|                                                          | -                                                                           |
-|                                                          |     {{ProprietaDati|Z min}}                                                                |
-|                                                          |                                                                                         |
-|                                                          |     : coordonată (valoarea predefinită e 0 mm).                                            |
-+----------------------------------------------------------+--------------------------------------------------------------------------------------------+
++----------------------------------------------------------+------------------------------------------------------------------------------------------+
+| ![](images/PartWedgeProperty_it.png ) | #### Vizualizări                                                                         |
+|                                                          |                                                                                          |
+|                                                          | ..                                                                                       |
+|                                                          |                                                                                          |
+|                                                          | #### Date                                                                                |
+|                                                          |                                                                                          |
+|                                                          |                                                                           |
+|                                                          | {{KEY/it|Base}}                                                                          |
+|                                                          |                                                                                       |
+|                                                          | \* {{ProprietaDati|Label}}: nume                                           |
+|                                                          |                                                                                          |
+|                                                          | -                                                                         |
+|                                                          |     {{ProprietaDati|Placement}}                                                          |
+|                                                          |                                                                                       |
+|                                                          |     : [posizionamento](Placement/it.md)                                          |
+|                                                          |                                                                                          |
+|                                                          |                                                                           |
+|                                                          | {{KEY/it|Wedge}}                                                                         |
+|                                                          |                                                                                       |
+|                                                          | \* {{ProprietaDati|X2 max}} : coordonată (valoarea predefinită este 8 mm). |
+|                                                          |                                                                                          |
+|                                                          | -                                                                         |
+|                                                          |     {{ProprietaDati|X2 min}}                                                             |
+|                                                          |                                                                                       |
+|                                                          |     : coordonată (predefinită e 2 mm).                                                   |
+|                                                          |                                                                                          |
+|                                                          | -                                                                         |
+|                                                          |     {{ProprietaDati|X max}}                                                              |
+|                                                          |                                                                                       |
+|                                                          |     : coordonată (predefinită e 10 mm).                                                  |
+|                                                          |                                                                                          |
+|                                                          | -                                                                         |
+|                                                          |     {{ProprietaDati|X min}}                                                              |
+|                                                          |                                                                                       |
+|                                                          |     : coordonată (predefinită e 0 mm).                                                   |
+|                                                          |                                                                                          |
+|                                                          | -                                                                         |
+|                                                          |     {{ProprietaDati|Y max}}                                                              |
+|                                                          |                                                                                       |
+|                                                          |     : coordonată (predefinită e 10 mm).                                                  |
+|                                                          |                                                                                          |
+|                                                          | -                                                                         |
+|                                                          |     {{ProprietaDati|Y min}}                                                              |
+|                                                          |                                                                                       |
+|                                                          |     : coordonată (predefinită e 2 mm).                                                   |
+|                                                          |                                                                                          |
+|                                                          | -                                                                         |
+|                                                          |     {{ProprietaDati|Z2 max}}                                                             |
+|                                                          |                                                                                       |
+|                                                          |     : coordonată (predefinită e 8 mm).                                                   |
+|                                                          |                                                                                          |
+|                                                          | -                                                                         |
+|                                                          |     {{ProprietaDati|Z2 min}}                                                             |
+|                                                          |                                                                                       |
+|                                                          |     : coordonată (predefinită e 2 mm).                                                   |
+|                                                          |                                                                                          |
+|                                                          | -                                                                         |
+|                                                          |     {{ProprietaDati|Z max}}                                                              |
+|                                                          |                                                                                       |
+|                                                          |     : coordonată (predefinită e 10 mm).                                                  |
+|                                                          |                                                                                          |
+|                                                          | -                                                                         |
+|                                                          |     {{ProprietaDati|Z min}}                                                              |
+|                                                          |                                                                                       |
+|                                                          |     : coordonată (valoarea predefinită e 0 mm).                                          |
++----------------------------------------------------------+------------------------------------------------------------------------------------------+
 
 ### Mai multe exemple de pene 
 

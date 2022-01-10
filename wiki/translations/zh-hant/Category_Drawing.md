@@ -5,7 +5,5 @@ This category lists pages related to the [Drawing Workbench/zh-hant](Drawing_Wor
 
 _
 
-_
-
 ---
 [documentation index](../README.md) > Category:Drawing/zh-hant

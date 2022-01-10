@@ -3,7 +3,7 @@ This category lists pages related to the [OpenSCAD\_Workbench/pt-br](OpenSCAD_Wo
 
 ### Contents:
 
-_ , [OpenSCAD Workbench/pt-br](OpenSCAD_Workbench/pt-br.md)
+[OpenSCAD Workbench/pt-br](OpenSCAD_Workbench/pt-br.md)
 
 _
 

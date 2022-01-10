@@ -8,9 +8,17 @@ Questa pagina raccoglie alcune informazioni interessanti sul tema della simulazi
 -   [Use European standard in switzerland (July 2018)](https://forum.freecadweb.org/viewtopic.php?f=18&t=29930)
 -   [Principal Stress Plots (June 2018)](https://forum.freecadweb.org/viewtopic.php?f=18&t=29381)
 
+## Related
+
+
+<div class="mw-translate-fuzzy">
+
 ## Correlazioni
 
 -   [Analisi del cemento armato con FEM](Analysis_of_reinforced_concrete_with_FEM/it.md)
+
+
+</div>
 
 
 {{FEM Tools navi

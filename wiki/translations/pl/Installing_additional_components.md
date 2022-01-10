@@ -53,7 +53,7 @@ FreeCAD posiada własnego importera i eksportera plików DXF, który zaprogramow
 FreeCAD nie może bezpośrednio odczytywać i zapisywać plików DWG. Aby przekonwertować pliki DXF na pliki DWG i odwrotnie, FreeCAD polega na zewnętrznych konwerterach. Istnieje wbudowane wsparcie dla następujących konwerterów DWG:
 
 -   [LibreDWG](https://www.gnu.org/software/libredwg) *(open-source, brak wsparcia dla niektórych elementów DWG)*.
--   [Konwerter plików w formacie ODA](https://www.opendesign.com/guestfiles/oda_file_converter) *(bezpłatny)*.
+-   [Konwerter plików w formacie ODA](https://www.opendesign.com/guestfiles/oda_file_converter) *(bezpłatny, ale nie z otwartym kodem źródłowym)*.
 -   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) *(komercyjny)*. {{Version/pl|0.20}}
 
 Zobacz strony [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl#DWG.md) i [FreeCAD i import DWG](FreeCAD_and_DWG_Import/pl.md), aby uzyskać więcej informacji.

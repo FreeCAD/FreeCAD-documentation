@@ -101,7 +101,7 @@ Fondamentalement, ce que fait l'atelier Draft, c\'est fournir des moyens graphiq
 -   Le fichier DXF de la table de cuisson: <https://github.com/yorikvanhavre/FreeCADmanual/Blob/master/files/cooktop.dxf>
 -   Le fichier final DXF produit lors de cet exercice: <Https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/cabin.dxf>
 
-## Relation
+## En relation 
 
 -   [L'atelier Draft](Draft_Workbench/fr.md)
 -   [Aimantation](Draft_Snap/fr.md)

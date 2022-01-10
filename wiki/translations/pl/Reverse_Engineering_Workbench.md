@@ -8,7 +8,7 @@ W tej chwili nie ma ono żadnej funkcjonalności. Jest on wykorzystywane przez p
 
 ## Przybory
 
-Wszystkie narzędzia inżynierii wstecznej *(RE)* znajdują się w menu RE i na pasku narzędzi RE, który pojawia się po załadowaniu środowiska pracy RE, z menu rozwijanego *środowiska pracy*.
+Wszystkie narzędzia inżynierii wstecznej Inżynierii Wstecznej znajdują się w menu Inżynierii Wstecznej i na pasku narzędzi Inżynierii Wstecznej, który pojawia się po załadowaniu środowiska pracy RE, z menu rozwijanego *środowiska pracy*.
 
 -   <img alt="" src=images/FitSurface.svg  style="width:32px;"> Przybliżenie powierzchni krzywej B-spline:
 

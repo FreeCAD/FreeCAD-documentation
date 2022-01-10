@@ -16,7 +16,13 @@ Al momento, in questo ambiente non è presente nessuna funzionalità. Viene util
 
 ## Strumenti
 
+
+<div class="mw-translate-fuzzy">
+
 Gli strumenti di Ingegneria inversa (RE) si trovano tutti nel menu RE e nella barra degli strumenti RE che appaiono quando si carica il workbench RE dal menu a discesa del workbench.
+
+
+</div>
 
 -   <img alt="" src=images/FitSurface.svg  style="width:32px;"> Approssimare una superficie B-spline:
 

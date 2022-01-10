@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Part_Fillet
    Name/fr:Part Congé
-   MenuLocation:Pièce → Congé
+   MenuLocation:Pièce → Congé...
    Workbenches:[Part](Part_Workbench/fr.md)
    SeeAlso:[Part Chanfrein](Part_Chamfer/fr.md)
 ---
@@ -30,7 +30,7 @@ Il existe un autre outil de congé dans l\'<img alt="" src=images/Workbench_Part
 
 ## Remarques pour l\'application de Part Congés 
 
-Part Congé peut ne rien faire si le résultat touche ou traverse le prochain bord adjacent. Par conséquent, si vous n\'obtenez pas le résultat escompté, essayez avec une valeur de **Rayon** plus petite. Il en est de même pour <img alt="" src=images/Part_Chamfer.svg  style="width:24px;"> [Part Chanfrein](Part_Chamfer/fr.md).
+Part Congé peut ne rien faire si le résultat touche ou traverse le bord adjacent suivant. Par conséquent, si vous n\'obtenez pas le résultat escompté, essayez avec une valeur de **Rayon** plus petite. Il en est de même pour <img alt="" src=images/Part_Chamfer.svg  style="width:24px;"> [Part Chanfrein](Part_Chamfer/fr.md).
 
 L\'outil Congé échoue parfois lors de la tentative de congé sur des formes complexes. Une cause commune peut être que la forme recevant le congé n\'est pas géométriquement correcte. Cela peut être dû au fait que les lignes/plans ne sont pas supprimés après les opérations précédentes utilisées pour construire la forme (par exemple, Cut/Intersection/Fusion). Un certain nombre d\'étapes peuvent être utilisées pour minimiser les problèmes:
 

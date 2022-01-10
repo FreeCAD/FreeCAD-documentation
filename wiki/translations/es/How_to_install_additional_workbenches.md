@@ -13,15 +13,9 @@
 Usuarios avanzados han extendido FreeCAD con varios [Ambiente de trabajo externos](external_workbenches/es.md), que no están integrados en el código fuente principal de FreeCAD, pero son fáciles de instalar en una instalación de FreeCAD existente. Aquí cubriremos los métodos de instalación para los distintos sistemas operativos.
 
 
-<div class="mw-translate-fuzzy">
-
-
 **Note:**
 
-a partir de la versión 0.17, FreeCAD presenta un <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Administrador de complementos](Std_AddonMgr/es.md) en el menú **Herramientas → Administrador de complementos**, que permite instalar tanto macros como ambientes de trabajo. Las instrucciones que siguen sólo son necesarias si se desea instalar manualmente un banco de trabajo. Esto puede ser necesario si por alguna razón el Administrador de complementos no funciona pero tienes acceso al ambiente de trabajo descargado como un paquete {{FileName|.zip}}.
-
-
-</div>
+a partir de la versión 0.17, FreeCAD presenta un <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Administrador de complementos](Std_AddonMgr/es.md) en el menú **Herramientas → Administrador de complementos**, que permite instalar tanto macros como bancos de trabajo. Las instrucciones que siguen sólo son necesarias si se desea instalar manualmente un banco de trabajo. Esto puede ser necesario si por alguna razón el Administrador de complementos no funciona pero tienes acceso al banco de trabajo descargado como un paquete {{FileName|.zip}}.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -36,22 +30,13 @@ Como instalar Ambiente de trabajo adicionales y complementos en Windows
 ### Obsoleto
 
 
-<div class="mw-translate-fuzzy">
-
-
 **Nota:**
 
 usar el \"addons-installer\" ya no es recomendado. Usar el [Administrador de complementos](Std_AddonMgr/es.md) es el método recomendado en todos los sistemas.
 
-
-</div>
-
 Use el [addons-installer de Github](https://github.com/FreeCAD/FreeCAD-addons)
 
 Durante el verano del código 2016 de Google, el estudiante Mandeep Singh comenzó a trabajar en una versión mejorada ([disponible aquí](https://github.com/mandeeps708/PluginManager)), pero esa versión necesita más trabajo antes de que pueda ser totalmente integrada en FreeCAD.
-
-
-<div class="mw-translate-fuzzy">
 
 ### Instalación manual 
 
@@ -59,9 +44,6 @@ Durante el verano del código 2016 de Google, el estudiante Mandeep Singh comenz
 **Nota:**
 
 Este método es posible pero no necesario con la introducción del [Administrador de complementos](Std_AddonMgr/es.md). Sin embargo, la información aquí puede ser útil para algunos.
-
-
-</div>
 
 -   Download the workbench from github by clicking on the button **Clone** or **Download** on the github page (upper right corner) and choosing \"Download ZIP\"
 -   Unpack the downloaded archive on your local hard disk

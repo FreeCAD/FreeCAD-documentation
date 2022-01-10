@@ -20,10 +20,16 @@ Una nota de precaución, usar esta herramienta para enlazar con la geometría (s
 
 ## Utilización
 
+
+<div class="mw-translate-fuzzy">
+
 -   Crear un nuevo croquis, o abrir un croquis existente.
 -   Haga clic en el botón \'Croquizador Externo\'.
 -   Selecciona un borde o un vértice que quieras enlazar en el croquis.
 -   Pulsa Esc, o selecciona otra herramienta para dejar de importar geometría al croquis.
+
+
+</div>
 
 ### Reglas de selección 
 

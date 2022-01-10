@@ -6,7 +6,7 @@
 
 Jesteś właśnie na głównej stronie pomocy przeznaczonej dla wszystkich nowych użytkowników FreeCAD.
 
-Tak jak sam program FreeCAD, tak i ta dokumentacja jest w ciągłym rozwoju. Niektóre informacje mogą być już nieaktualne, lub pominięte. Jeśli nie możesz znaleźć potrzebnych informacji, nie wahaj się zapytać na forum [FreeCAD forum](http://forum.freecadweb.org).
+Tak jak sam program FreeCAD, tak i ta dokumentacja jest w ciągłym rozwoju. Niektóre informacje mogą być już nieaktualne, lub pominięte. Jeśli nie możesz znaleźć potrzebnych informacji, nie wahaj się zapytać na forum [FreeCAD forum](https://forum.freecadweb.org).
 
 Jeśli chciałbyś wesprzeć projekt FreeCAD, proszę wykjonaj _ dla innych sposobów wnoszenia wkładu. Jeśli chciałbyś przyczynić się do tworzenia tej Wiki, poproś o uprawnienia edycji _. Tam znajdziesz ogólne zasady których powinieneś się trzymać podczas edycji Wikipedii.
 

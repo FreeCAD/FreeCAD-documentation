@@ -108,7 +108,7 @@ Ab 2020 verfügt die Assembly3 Arbeitsbereich über die folgenden Werkzeugleiste
 
 </div>
 
-#### Hauptwerkzeugleiste Beschränkungen 
+#### Hauptwerkzeugleiste für Bedingungen 
 
 :   <img alt="" src=images/Assembly_ConstraintLock.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAlignment.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintCoincidence.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAttachment.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAxial.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSameOrientation.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMultiParallel.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPerpendicular.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointCoincident.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointInPlane.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointOnCircle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointPlaneDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointLineDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintMore.svg‎‎  style="width:28px;">
 
@@ -195,7 +195,7 @@ Ab 2020 verfügt die Assembly3 Arbeitsbereich über die folgenden Werkzeugleiste
 
 </div>
 
-#### Zusätzliche Beschränkungswerkzeugleisten 
+#### Zusatzwerkzeugleiste für Bedingungen 
 
 :   <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:28px;"> (Assembly3 Constraints2)
 
@@ -209,7 +209,7 @@ Ab 2020 verfügt die Assembly3 Arbeitsbereich über die folgenden Werkzeugleiste
 <div class="mw-collapsible mw-collapsed">
 
 
-:   Du kannst diese durch Auswählen der **<img src="images/Assembly_ConstraintMore.svg" width=16px> [Weitere](Assembly3_ConstraintMore/de.md)** Schaltfläche in der Hauptbeschränkungen Werkzeugleiste, aktivieren.
+:   Diese kann man durch Auswählen der Schaltfläche **<img src="images/Assembly_ConstraintMore.svg" width=16px> [Weitere](Assembly3_ConstraintMore/de.md)** in der Hauptwerkzeugleiste für Bedingungen aktivieren.
 
 
 <div class="mw-collapsible-content toccolours">
@@ -271,10 +271,10 @@ Ab 2020 verfügt die Assembly3 Arbeitsbereich über die folgenden Werkzeugleiste
 </div>
 
 
-:   Die **Werkzeugleisten der Beziehungen** sind die Hauptschnittstelle für den Zusammenzubau von Einzelteilen.
+:   Die **Werkzeugleisten der Bedingungen** sind die Hauptschnittstelle für den Zusammenzubau von Einzelteilen.
 :   Sie sind standardmäßig ausgegraut, werden aber aktiviert, sobald mindestens eine Fläche, eine Linie oder ein Punkt eines Teiles ausgewählt wird.
-:   Normalerweise werden erst die zu verbindenden Elemente ausgewählt und danach die Art der Beziehung.
-:   Die unterschiedlich gefärbten Rahmen weisen auf unterschiedliche Eigenschaften der Einschränkungen hin:
+:   Normalerweise werden erst die zu verbindenden Elemente ausgewählt und danach die Art der Bedingung.
+:   Die unterschiedlich gefärbten Rahmen kennzeichnen unterschiedliche Eigenschaften der Bedingungen:
 
     :   ob 2D / 3D oder ob mehr als 2 Elemente zusammengefügt werden können.
 :   Eine ausführliche Beschreibung ist im GitHub-Wiki zu finden.
@@ -338,19 +338,13 @@ Wie gewohnt, kann die Werkzeugleiste geändert und einzelne Werkzeuge hinzugefü
 
 [Anfang](#top.md)
 
+### Bedingungen
 
-<div class="mw-translate-fuzzy">
+Der Konstrukteur benutzt Bedingungen um zwei Teile zueinander auszurichten. Die Kunst besteht darin, die Bedingungen zu wählen, die am besten zu den jeweiligen Anforderungen passen. Jeder bestimmte Freiheitsgrad (**D**egree **O**f **F**reedom) sollte theoretisch nur einmal zwischen zwei Objekten festgelegt sein, aber in der Praxis vieler CAD-Werkzeuge erzeugen die ausgewählten Bedingungen überbestimmte Kombinationen, die oft durch komplexe Algorithmen ausgeglichen werden können, manchmal aber auch nicht. Assembly3 benutzt solche Algorithmen, um überzählige Bedingungen zu entdecken und auszugleichen, aber sie sind bisher noch nicht besonders ausgereift. Am besten vermeidet man Schwierigkeiten im Umgang mit Assembly3-Bedingungen, indem man darauf achtet, wieviele Freiheitsgrade schon bestimmt sind und welche durch weitere Bedingungen noch festzulegen sind. Kein Teil sollte durch Bedingungen so verbunden werden, dass mehr als 6 Freiheitsgrade festlegt werden.
 
-### Beschränkungen
+Hinweis: Wenn der Gleichungslöser auf eine Kombination trifft, die nicht gelöst werden kann, gibt er eine Fehlermeldung aus. Es ist für den Löser sehr schwierig, die Ursache des Problems herauszufinden, sodass man normalerweise aus dem angegebenen Fehler nicht klar erkennen kann, *wo* sich das Problem befindet. Bei größeren Baugruppen kann dies zu aufwändigen Fehlersuchen führen. Leider gibt es keinen einfachen Weg, diese zu vermeiden. Allerdings hilft es, im Blick zu behalten, wie das System funktioniert (siehe z.B. [Elemente](#Elemente.md) weiter unten), eindeutige Namen für alle beteiligten Komponenten zu verwenden und nur dann weitere Bedingungen hinzuzufügen, wenn der Gleichungslöser die aktuelle Baugruppe erfolgreich berechnen kann. Sehr hilfreich, um ein Problem zu finden, ist die Funktion \"ContexMenu/Deactivate\" der jeweiligen Bedingung.
 
-Der Konstrukteur verwendet Beschränkungen um das gewünschte Ergebnis für die Beziehung zweier Teile zu erreichen. Die Kunst besteht darin, für jedes Problem die richtigen Beschränkungen auszuwählen, die sich am besten dafür eignen. Jeder beseitigte Freiheitsgrad sollte theoretisch nur einmal zwischen zwei Objekten beseitigt werden, aber in der Praxis mit vielen CAD Werkzeugen verursachen gewählte Beschränkungen über-beschränkte Kombinationen, oftmals kompensiert durch komplexe Algorithmen, manchmal aber auch nicht. Assembly3 benutzt Algorithmen, um über-bestimmte Beschränkungen zu entdecken und zu kompensieren, aber sie sind bisher noch nicht sehr ausgereift. So für Assembly3 Beschränkungen praktisch angewendet vermeide Probleme indem du dir bewusst machst, wie viele Freiheitsgrade genutzt wurden und welche noch durch Beschränkungen gesperrt werden müssen. Kein Teil sollte eine Verbindung durch Beschränkungen haben, die mehr als 6 Freiheitsgrade verwenden.
-
-
-</div>
-
-Hinweis: Wenn der Löser auf eine Kombination trifft, die nicht gelöst werden kann, gibt er einen Fehler aus. Es ist sehr schwierig für den Löser herauszufinden, was das Problem verursacht hat, so dass typischerweise aus dieser Fehlermeldung nicht klar hervorgeht, *wo* das Problem liegt. Bei größeren Baugruppen kann dies zu einer komplexen Problemsuche führen. Leider gibt es keine einfache Möglichkeit, dies zu vermeiden. Es ist jedoch hilfreich, sich über die Funktionsweise des Systems im Klaren zu sein (siehe z.B. [Elemente](#Elemente.md) unten), eindeutige Namen für alle beteiligten Komponenten zu verwenden und immer nur dann zusätzliche Beschränkungen hinzuzufügen, wenn der Löser die aktuelle Baugruppe gelöst hat. Sehr hilfreich, um ein Problem aufzuspüren, ist die \"KontexMenü/Deaktivieren\" Funktion jeder Beschränkung.
-
-Assembly3 Beschränkungen definieren Einschränkungen in der Position oder Orientierung zwischen zwei [Elementen](#Elemente.md). Einige Beschränkungen arbeiten sogar mit mehr als zwei [Elementen](#Elemente.md). Ein [Element](#Elemente.md) kann eine Fläche, eine Linie oder Kante oder ein Punkt eines Teils sein. Im Allgemeinen werden Beschränkungen definiert, indem man die gewünschten [Elemente](#Elemente.md) auswählt und dann die Beschränkung aus der Beschränkungen [Werkzeugleiste](#Werkzeugleiste.md) auswählt.
+Assembly3-Bedingungen definieren, wie die Möglichkeiten der Positionierung oder Orientierung zwischen zwei [Elementen](#Elemente.md) reduziert werden. Einige Bedingungen arbeiten sogar mit mehr als zwei Elementen. Ein Element kann eine Fläche, eine Linie oder Kante oder ein Punkt eines Teils sein. Im Allgemeinen werden Bedingungen definiert, indem man erst die gewünschten Elemente und dann die Bedingung aus einer der [Werkzeugleisten](#Werkzeugleisten.md) für Bedingungen auswählt.
 
 -   Fixiert 6 Freiheitsgrade, 0 bleiben unbestimmt:
     -   **Fixierung (Schloss)**: Die Fixiereinschränkung legt alle Freiheitsgrade einer Fläche. Sie sollte in jedem Zusammenbau zur Festlegung eines Basisteils genutzt werden. Es ist sinnvoll auch gleich die \"Bewegung ausschließen für fixierte Teile\"-Funktion (in der Werkzeugleiste) zu aktivieren, um damit ein unbeabsichtigtes Verschieben zu verhindern. In der Regel ist es egal welche Fläche, Linie oder Punkt benutzt wird um ein Teil zu fixieren. Man beachte, dass die Fixierung nur auf den aktuellen Zusammenbau wirkt, d.h. im Falle einer Unterbaugruppe braucht der übergeordnete Zusammenbau noch ein eigenes fixiertes Teil.
@@ -481,10 +475,10 @@ Der fertige Baugruppenbaum sollte so aussehen (0.20.pre and Link Branch):
 
 Wenn du möchtest, kannst du die **Gesperrt** Beschränkung im Baum nach oben verschieben. Verwende die **<img src="images/Assembly_TreeItemUp.svg‎‎" width=16px> [Objekt aufwärts bewegen](Assembly3_MoveItemUp/de.md)** Schaltfläche auf der [Hauptwerkzeugleiste](#Hauptwerkzeugleiste.md) dafür.
 
-**Hinweis:** Alle neuen externen Dateien müssen mindestens einmal **gespeichert**, **geschlossen** und wieder-**geöffnet** werden, damit Assembly3 sie finden kann.
+**Hinweis:** Alle neuen externen Dateien müssen mindestens einmal **gespeichert**, **geschlossen** und wieder **geöffnet** werden, damit Assembly3 sie finden kann.
 
-:   Andernfalls kann FreeCAD der Assembly3 Arbeitsbereich keine Dateihandhabung geben und diese kann das neue Teil nicht finden.
-:   Wenn alle Teile in der gleichen Datei sind, solltest du diese Datei auch **speichern**, **schließen** und wieder **öffnen**.
+:   Andernfalls kann FreeCAD dem Assembly3-Arbeitsbereich kein Datei-Handle übergeben und dieser kann das neue Teil nicht finden.
+:   Wenn sich alle Teile in derselben Datei befinden, sollte man auch diese Datei **speichern**, **schließen** und wieder **öffnen**.
 
 [Anfang](#top.md)
 
@@ -548,17 +542,11 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
         -   Falls ein Element ausversehen einer falschen Fläche zugeordnet wurde, wird die Zuordnung einfach mit der korrekten Fläche wiederholt.
     3.  Ändern des Objektnamens in FreeCAD, falls gewünscht
 
-
-<div class="mw-translate-fuzzy">
-
 \'\'Hinweise
 \* Es ist nicht so kompliziert, wie es hier auf den ersten Blick aussieht. Nach 2-3 Durchläufen sollten die Abläufe in Fleisch und Blut übergehen und die Ausführung leicht von der Hand gehen.
 
 -   Es ist nicht nur viel schneller als das Löschen und erneute Anlegen von Einschränkungen, sondern auch sicherer, da ein Element in einem übergeordneten Zusammenbau eingesetzt sein könnte. Das Original zu löschen, würde den Verweis zerstören, es neu zuzuordnen würde ihn erhalten.
--   Ferner beschleunigt und vereinfacht es diesen Ablauf, wenn Einschränkungen und Elemente benannt werden. Es gäbe kein Raten, wo die Flächen hingezogen und abgelegt werden sollten, da es aus den Namen hervorgeht (siehe auch [Tipps & Tricks](#Tips_&_Tricks.md)).
-
-
-</div>
+-   Ferner beschleunigt und vereinfacht es diesen Ablauf, wenn Einschränkungen und Elemente benannt werden. Es gäbe kein Raten, wo die Flächen hingezogen und abgelegt werden sollten, da es aus den Namen hervorgeht (siehe auch [Tipps & Tricks](#Tipps_.26_Tricks.md)).
 
 [Zum Anfang](#top.md)
 
@@ -581,19 +569,13 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
 
 ## Verweise
 
-
-<div class="mw-translate-fuzzy">
-
 -   [App-Link](App_Link.md)-Objekt macht, dass Assembly3 funktioniert.
 -   [FreeCAD\_assembly3](https://github.com/realthunder/FreeCAD_assembly3) Repository und Dokumentation.
 -   [Assembly3 preview](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712), große Diskussionsrunde.
--   [Test tutorial for Assembly 3 WB](https://forum.freecadweb.org/viewtopic.php?f=36&t=29562) von jpg87.
+-   [Tutorial for Assembly 3 Workbench](http://help-freecad-jpg87.fr/02_ass_ind.php) von jpg87.
 -   [Current Assembly Status](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [Externe Arbeitsbereiche](External_workbenches.md)
 -   [Altes Assembly Projekt](Assembly_project.md) Entwicklungsablauf, um sich mit der Geschichte des Themas vertraut zu machen.
-
-
-</div>
 
 
 

@@ -19,7 +19,7 @@ The <img alt="" src=images/TechDraw_ExtensionExtendLine.svg  style="width:24px;"
 
 ## Usage
 
-1.  The delta distance is determined by \...?
+1.  The delta distance is 2 mm at each end.
 2.  Select a single straight (center)line created with the [Extensions tools](TechDraw_Workbench#Extensions.md).
 3.  There are several ways to invoke the tool:
     -   Press the **<img src="images/TechDraw_ExtensionExtendLine.svg" width=16px> [TechDraw ExtensionExtendLine](TechDraw_ExtensionExtendLine.md)** button.

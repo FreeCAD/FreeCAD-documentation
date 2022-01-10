@@ -1,21 +1,21 @@
 # Svg Namespace/pl
-**Development of the [[Drawing Workbench]] stopped in FreeCAD 0.16, and the new [[TechDraw Workbench]] aiming to replace it was introduced in v0.17. Both workbenches are still provided in v0.17, but the Drawing Workbench may be removed in future releases.**
+**Rozwój Środowiska pracy [Kreślenie](Drawing_Workbench/pl.md) zatrzymał się w FreeCAD '''0.16''', a nowe Środowisko pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md) mające na celu zastąpienie go zostało wprowadzone w wersji '''0.17'''. Oba Środowiska pracy są nadal dostępne w wersji '''0.17''', ale środowisko pracy Kreślenie może zostać usunięte w przyszłych wydaniach.**
 
 
 {{TOCright}}
 
-In the _ and used as page [templates](Drawing_templates.md), several custom [attributes](http://www.w3schools.com/xml/xml_attributes.asp) can be used, originally for FreeCAD\'s own internal use, but could also be used by other FreeCAD-aware applications in the future. These attributes all use the **freecad:** [namespace](http://www.w3schools.com/xml/xml_namespaces.asp) prefix. The namespace URL defined in those SVG documents refers to this page.
+W dokumentach _ i używanych jako strony [szablonów](Drawing_templates.md), może zostac użytych kilka niestandardowych [atrybutów](http://www.w3schools.com/xml/xml_attributes.asp). Pierwotnie do użytku wewnętrznego programu FreeCAD, ale mogą być również używane przez inne aplikacje obsługujące FreeCAD w przyszłości. Wszystkie te atrybuty używają prefiksu **freecad:** [przestrzeni nazw](http://www.w3schools.com/xml/xml_namespaces.asp). URL przestrzeni nazw zdefiniowany w tych dokumentach SVG odnosi się do tej strony.
 
-## Usage
+## Użycie
 
-One pixel = one millimeter.
+Jeden piksel = jeden milimetr.
 
-You must insert, somewhere inside your svg code, where you want the contents of the drawing to appear (for example at the end of the file, just before the last \'\'\'
+Musisz wstawić, gdzieś wewnątrz swojego kodu svg, gdzie chcesz, aby zawartość rysunku się pojawiła \'\'(na przykład na końcu pliku, tuż przed ostatnim znacznikiem \'\'\'
 
 
 </svg>
 
-\'\'\' tag), the following line:
+*\')*, następującą linię:
 
  {.xml}
 
@@ -27,12 +27,12 @@ You must insert, somewhere inside your svg code, where you want the contents of 
     xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
 
 
-In order to enable up to scale printing, the real word size has to be given in the width and height attributes of the SVG-Tag. The size of the document in user units, (px), has to be given in the viewBox attribute.
+Aby umożliwić drukowanie w skali, rzeczywisty rozmiar słowa musi być podany w atrybutach szerokość i wysokość znacznika SVG. Wielkość dokumentu w jednostkach użytkownika *(px)* musi być podana w atrybucie **viewBox**.
 
-The following is to be formatted like the example below where:
+Poniższe dane mają być sformatowane jak w podanym przykładzie, gdzie:
 
--   xxx = pixel width
--   yyy = pixel height
+-   xxx = szerokość piksela,
+-   yyy = wysokość w pikselach.
 
  {.xml}
 width="xxxmm"
@@ -40,7 +40,7 @@ height="yyymm"
 viewBox="0 0 xxx yyy"
 
 
-Additional information for Working space and Title block may be added, and is defined on the [Drawing templates](Drawing_templates.md) page.
+Dodatkowe informacje dotyczące przestrzeni roboczej i bloku tytułu mogą zostać dodane i są zdefiniowane na stronie [Szablony rysunków](Drawing_templates/pl.md).
 
 ## Attributes
 

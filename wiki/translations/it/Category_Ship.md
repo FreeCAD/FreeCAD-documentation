@@ -3,7 +3,7 @@ Questa categoria elenca le pagine relative a [Ship Workbench/it](Ship_Workbench/
 
 ### Contents:
 
-_ , [Ship Workbench/it](Ship_Workbench/it.md)
+_ , [Ship Weight/it](Ship_Weight/it.md) , [Ship Workbench/it](Ship_Workbench/it.md)
 
 _ _
 

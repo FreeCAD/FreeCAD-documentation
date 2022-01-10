@@ -279,8 +279,8 @@ Vous pouvez les activer en sélectionnant le bouton **<img src="images/Assembly_
 :   En général, vous sélectionnez les éléments qui doivent être assemblés, puis vous sélectionnez le type de contrainte.
 :   Les différents cadres colorés marquent différentes caractéristiques des contraintes :
 
-    :   si 2D/3D ou si plus de 2 éléments peuvent être ajoutés.
-:   Une description détaillée peut être trouvée dans le wiki Github.
+    :   si des 2D/3D ou si plus de 2 éléments peuvent être ajoutés.
+:   Une description détaillée peut être trouvée dans le wiki GitHub.
 
 #### Barre d\'outils de navigation 
 
@@ -351,7 +351,7 @@ Comme d\'habitude, vous pouvez modifier les barres d\'outils et ajouter ou suppr
 
 ### Contraintes
 
-Le concepteur utilise des contraintes pour atteindre le résultat souhaité pour la relation de deux parties. Tout l\'art est de sélectionner les bonnes contraintes, les mieux adaptées pour faire face à chaque problème. Chaque DOF (Degree of Freedom) éliminé ne devrait en théorie être éliminé qu\'une seule fois entre deux objets. En pratique, avec de nombreux outils de CAO, les contraintes sélectionnées entraînent des combinaisons de sur-contraintes souvent compensées par des algorithmes complexes, parfois non. Assembly3 utilise des algorithmes pour détecter et compenser les sur-contraintes mais il est clair qu\'ils ne sont pas encore très aboutis. Ainsi, en pratique, pour les contraintes Assembly3, évitez les problèmes en sachant combien de degrés de liberté (DOF) ont été utilisés et lesquels doivent encore être verrouillés par les contraintes. Aucune pièce ne doit avoir une connexion par des contraintes de plus de 6DOF.
+Le concepteur utilise des contraintes pour obtenir le résultat souhaité pour la relation de deux parties. Tout l\'art consiste à sélectionner les contraintes les mieux adaptées à chaque problème. Chaque DOF (Degree of Freedom) éliminé ne devrait en théorie être éliminé qu\'une seule fois entre deux objets, mais en pratique, avec de nombreux outils de CAO, les contraintes sélectionnées provoquent des combinaisons surcontraintes, souvent compensées par des algorithmes complexes, parfois non. Assembly3 utilise des algorithmes pour détecter et compenser les surcontraintes, mais il est clair qu\'ils ne sont pas encore très au point. En pratique, pour Assembly3, les contraintes évitent les problèmes en sachant combien de degrés de liberté (DOF) ont été utilisés et lesquels doivent encore être verrouillés par des contraintes. Aucune pièce ne devrait avoir une connexion par des contraintes utilisant plus de 6 DOF.
 
 :   Remarque : Si le solveur rencontre une combinaison qui ne peut pas être résolue, il donnera une erreur. Il est très difficile pour le solveur de découvrir ce qui a causé le problème donc généralement à partir de cette erreur, il ne sera pas clair sur le « d\'où » vient le problème. Dans les assemblages plus volumineux, cela peut conduire à des recherches de problèmes complexes. Malheureusement, il n\'y a pas de moyen simple d\'éviter cela. Cependant, il est utile d\'être pleinement conscient du fonctionnement du système (par exemple, voir [Elements](#Elements.md) ci-dessous), d\'utiliser des noms clairs pour tous les composants impliqués et d\'ajouter des contraintes supplémentaires uniquement lorsque le solveur résout l\'assemblage en cours. La fonction « ContexMenu/Deactivate » de chaque contrainte est très utile pour repérer un problème.
 
@@ -588,10 +588,10 @@ Une façon de résoudre ce problème consiste simplement à supprimer toutes les
 -   L\'objet [App Link](App_Link/fr.md) qui fait fonctionner Assembly3.
 -   [FreeCAD\_assembly3](https://github.com/realthunder/FreeCAD_assembly3) dépôt et documentation.
 -   [Assembly3 preview](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712), grand fil de discussion.
--   [Tutoriel de test pour Assembly 3 WB](https://forum.freecadweb.org/viewtopic.php?f=36&t=29562) par jpg87.
+-   [Tutoriel pour l\'atelier Assembly 3](http://help-freecad-jpg87.fr/02_ass_ind.php) par jpg87.
 -   [État actuel de l\'assemblage](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [Ateliers externes](External_workbenches/fr.md)
--   [Old Assembly project](Assembly_project.md) plan de développement, pour se familiariser avec l\'historique du problème.
+-   [Projet Assembly](Assembly_project/fr.md) plan de développement, pour se familiariser avec l\'historique du problème.
 
 
 

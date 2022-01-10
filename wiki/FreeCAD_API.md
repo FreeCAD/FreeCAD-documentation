@@ -225,6 +225,18 @@ A 4x4 Matrix
 
 
 
+#### <img src="images/Type_enum.svg" style="max-width:24px;">Metadata
+
+
+        Metadata
+        A Metadata object reads an XML-formatted package metadata file and provides read-only access to its contents.
+
+        A single constructor is supported:
+        Metadata(file) -- Reads the XML file and provides access to the metadata it specifies.
+      
+
+
+
 #### <img src="images/Type_enum.svg" style="max-width:24px;">OriginGroupExtension
 
 This class handles placable group of document objects with an Origin

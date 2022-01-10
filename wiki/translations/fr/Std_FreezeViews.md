@@ -22,7 +22,7 @@ L\'option de menu **Enregistrer les vues \...** enregistre toutes les vues figé
 
 ### Utilisation
 
-1.  Pour utiliser cette option, une ou plusieurs vues figées doivent exister. Une vue figée est créée avec l\'option de menu **[Figer l\'affichage](#Figer_l'affichage.md)**.
+1.  Pour utiliser cette option, une ou plusieurs vues figées doivent exister. Une vue figée est créée avec l\'option de menu **[Figer l\'affichage](#Figer_l.27affichage.md)**.
 2.  Sélectionnez l\'option **Affichage → Figer l'affichage → Enregistrer les vues...** dans le menu.
 3.  Entrez un nom de fichier dans la boîte de dialogue.
 4.  Appuyez sur le bouton **Enregistrer**.
@@ -31,7 +31,7 @@ L\'option de menu **Enregistrer les vues \...** enregistre toutes les vues figé
 
 -   Appuyez sur **Echap** ou sur le bouton **Annuler** pour annuler la commande.
 
-## Enregistrer les vues 
+## Charger les vues 
 
 ### Description 
 

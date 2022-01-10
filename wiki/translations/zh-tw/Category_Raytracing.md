@@ -3,7 +3,7 @@ This category lists pages related to the [Raytracing Workbench/zh-tw](Raytracing
 
 ### Contents:
 
-_ , [Raytracing Workbench/zh-tw](Raytracing_Workbench/zh-tw.md)
+[Raytracing Workbench/zh-tw](Raytracing_Workbench/zh-tw.md)
 
 _
 

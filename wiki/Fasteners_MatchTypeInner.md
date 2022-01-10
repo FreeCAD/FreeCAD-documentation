@@ -1,41 +1,23 @@
 ---
 - GuiCommand:
    Name:Fasteners MatchTypeInner
-   MenuLocation:Fasteners → Match Type Inner
+   MenuLocation:Fasteners → Match screws by inner thread diameter (Tap hole)
    Workbenches:[Fasteners](Fasteners_Workbench.md)
+   SeeAlso:[Fasteners MatchTypeOuter](Fasteners_MatchTypeOuter.md)
 ---
 
 # Fasteners MatchTypeInner
 
 ## Description
 
-The <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:24px;"> [Fasteners MatchTypeInner](Fasteners_MatchTypeInner.md) lorem ipsum dolor sit amet, consectetur adipiscing. This tool is part of the [external workbench](External_workbenches.md) called [Fasteners](Fasteners_Workbench.md).
+The <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:24px;"> **Fasteners MatchTypeInner** command behaves as a toggle with the [Fasteners MatchTypeOuter](Fasteners_MatchTypeOuter.md) command. When **Fasteners MatchTypeInner** is selected, circular edges are considered to be tap holes when new fasteners are attached to them. This determines the default dimensions of those fasteners. This setting is not used for countersunk screws.
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
-2.  Invoke the Fasteners MatchTypeInner tool several ways:
-    -   Press the <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:24px;"> button
-    -   Use the **Fasteners → MatchTypeInner** entry in the Fasteners menu
-
-Result: lorem ipsum dolor sit amet, consectetur adipiscing.
-
-<img alt="" src=images/Fasteners_MatchTypeInner_example-1.FCStd.png  style="width:1000px;">
-
-## Notes
-
--   lorem ipsum dolor sit amet, consectetur adipiscing.
-
-## Limitations
-
-## Properties
-
-
-{{Properties_Title|Base}}
-
--    **View**: Invert, boolean, default: false
-
-## Scripting
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Fasteners_MatchTypeInner.svg" width=16px> [Fasteners MatchTypeInner](Fasteners_MatchTypeInner.md)** button.
+    -   Select the **Fasteners → <img src="images/Fasteners_MatchTypeInner.svg" width=16px> Match screws by inner thread diameter (Tap hole)** option from the menu.
+2.  The button stays depressed to indicate the selected option.
 
 
 

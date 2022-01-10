@@ -31,33 +31,9 @@ Acest instrument creează racordări/rotunjiri pe muchiile selectate al unui obi
 
 </div>
 
+## Notes
 
-<div class="mw-translate-fuzzy">
-
-#### PartDesign Fillet VS. Part Fillet 
-
-**PartDesign Fillet nu trebuie confundat cu contrapartida sa [Part workbench counterpart](Part_Fillet.md)**. Deși împărt aceeași pictogramă, ele nu sunt aceleași și nu sunt utilizate în același mod. Iată cum diferă acestea unul de celălalt:
-
--   The PartDesign Fillet is *parametric*. After a fillet has been applied, its radius can be edited; this is not possible with the Part Fillet.
--   Edges must be selected on an object before activating the PartDesign Fillet. WIth the Part Fillet, the tool can be started, then a solid is selected, then edges.
--   The PartDesign Fillet creates a separate Fillet entry (followed by a sequential number if there are already existing fillets) in the Project tree. The Part Fillet becomes the parent of the object it was applied to.
--   The PartDesign Fillet offers a live preview of the fillet applied to the object before validating the function.
--   The Part Fillet supports variable radii (with a start radius and an end radius). The PartDesign fillet doesn\'t.
-
-
-
-
-
-</div>
-
-<img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> _** of the [Part Workbench](Part_Workbench.md). Although they share the same name, they are not the same, and are not used the same way.
-
-Here is how they differ from each other:
-
--   The PartDesign Fillet is *Parametric*. After a fillet has been applied, its radius can be edited; this is not possible with the Part Fillet.
--   The PartDesign Fillet creates a separate Fillet entry (followed by a sequential number if there are already existing fillets) in the Project tree. The Part Fillet becomes the parent of the object it was applied to.
--   The PartDesign Fillet offers a live preview of the fillet applied to the object before validating the function.
--   The Part Fillet supports variable radii (with a start radius and an end radius). The PartDesign fillet doesn\'t.
+-   PartDesign Fillet should not be confused with [Part Fillet](Part_Fillet.md). Unless you know what you are doing, [Part Fillet](Part_Fillet.md) should not be used on a PartDesign Body. See [Part and PartDesign](Part_and_PartDesign.md).
 
 ## Probleme cunoscute 
 

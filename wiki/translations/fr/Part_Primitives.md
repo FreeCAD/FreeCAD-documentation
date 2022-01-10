@@ -20,7 +20,7 @@ _.
 
 Pour créer une primitive, soit
 
-\#\* appuyez sur le bouton **<img src="images/Part_Primitives.svg" width=24px> '''Création de primitives géométriques paramétrées'''** dans la barre d\'outils.
+\#\* appuyez sur le bouton **<img src="images/Part_Primitives.svg" width=24px> '''Créer des primitives...'''** dans la barre d\'outils.
 
 \#\* sélectionnez **Pièce → Créer des primitives...** dans la barre de menu.
 

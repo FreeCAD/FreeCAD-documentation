@@ -12,7 +12,7 @@
 
 La commande **<img src="images/Assembly_ConstraintArcLineTangent.svg" width=16px> [Arc line tangent](Assembly3_ConstraintArcLineTangent/fr.md)** construit un lien entre deux objets d\'un assemblage. Les éléments sélectionnés de chaque objet ou plus précisément leurs systèmes de coordonnées implicites (ICS) sont utilisés pour positionner un objet par rapport à un autre.
 
-Comme je n'ai pas réussi à faire fonctionner cet outil, voici juste l'énoncé de l'info-bulle : 
+Comme je n'ai pas réussi à faire fonctionner cet outil, voici juste l'énoncé de l'infobulle : 
 
 Ajoutez une contrainte \"Arc line tangent\" pour rendre une ligne tangente à un arc au point de départ ou d\'arrivée de l\'arc.
 

@@ -70,6 +70,18 @@ The cone properties can later be edited, either in the [Property editor](Propert
 
 -    **Angle**: Number of degrees of the arc or circles defining the upper and lower faces of the truncated cone. The default 360° creates circular faces, a lower value will create a portion of a cone as defined by upper and lower faces each with edges defined by an arc of the number of degrees and two radii.
 
+## Scripting
+
+A Part Cone can be created using the following function:
+
+
+```python
+cone = FreeCAD.ActiveDocument.addObject("Part::Cone", "myCone")
+```
+
+-   Where {{Incode|"myCone"}} is the name for the object.
+-   The function returns the newly created object.
+
 
 <div class="mw-translate-fuzzy">
 

@@ -11,9 +11,15 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Der <img alt="" src=images/Draft_SelectGroup.svg  style="width:24px;"> **Draft Wähle Gruppe**-Befehl selektiert den Inhalt von [Entwurf Schicht](Draft_Layer/de.md), [Std Gruppe](Std_Group/de.md) oder gruppenähnlichen [Arch](Arch_Workbench/de.md)-Objekten.
 
-Der Befehl arbeitet momentan nicht gut mit Ebenen und kann verwirrende Ergebnisse für Objekte erzeugen, die sowohl in einer Ebene und einer Gruppe vorkommen.
+
+</div>
+
+The command was revised in FreeCAD version 0.20 and this page describes that version.
 
 ## Anwendung
 

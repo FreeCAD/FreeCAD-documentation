@@ -430,7 +430,13 @@ Il progettista utilizza i vincoli per ottenere il risultato desiderato nella rel
 </div>
 
 
+<div class="mw-translate-fuzzy">
+
+
 :   Nota: Se il risolutore incontra una combinazione che non può essere risolta, darà un errore. È molto difficile per il risolutore scoprire cosa ha causato il problema, quindi tipicamente da questo errore dato non sarà chiaro *dove* è il problema. In assemblaggi più grandi questo può portare a ricerche complesse del problema. Purtroppo non c\'è un modo semplice per evitarlo. Tuttavia, aiuta essere pienamente consapevoli di come funziona il sistema (.e.g. vedi [Elementi](#Elements.md) qui sotto), utilizzare nomi chiari per tutti i componenti coinvolti e aggiungere vincoli aggiuntivi solo quando il risolutore risolve l\'assemblaggio corrente. Molto utile per rintracciare un problema è la funzione \"ContexMenu/Deactivate\" di ogni Vincolo.
+
+
+</div>
 
 Assembly3 I vincoli definiscono le restrizioni nella posizione o nell\'orientamento tra due [Elementi](#Elements.md). Alcuni vincoli funzionano anche con più di due [Elementi](#Elements.md). Un [Elemento](#Elements.md) può essere una faccia, una linea o un bordo o un punto di una parte. Generalmente i vincoli sono definiti selezionando gli [Elementi](#Elements.md) e poi selezionare il vincolo dai Vincoli [toolbar](#Toolbars.md).
 

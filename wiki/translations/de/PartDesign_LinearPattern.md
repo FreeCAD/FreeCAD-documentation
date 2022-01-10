@@ -10,7 +10,13 @@
 
 ## Beschreibung
 
+
+<div class="mw-translate-fuzzy">
+
 Das **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''LinearesMuster'''** Werkzeug erzeugt gleichmäßig verteilte Kopien eines Formelements in einer linearen Richtung. Ab {{VersionPlus/de|0.17}} kann das Linear Muster Werkzeug mehrere Formelemente mustern.
+
+
+</div>
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
@@ -75,6 +81,8 @@ Wenn die Skizze für das zu wiederholende Muster Konstruktionslinien besitzen, w
 {{VersionPlus/de|0.17}}
 
 Wähle eine der Standardachsen des Körperursprungs (X, Y oder Z) als Richtung. 
+
+## Limitations
 
 
 <div class="mw-translate-fuzzy">

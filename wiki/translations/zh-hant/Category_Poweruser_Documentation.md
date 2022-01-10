@@ -3,6 +3,8 @@ This category shows documentation articles dealing with python scripting, which 
 
 ### Contents:
 
+[Workbench creation/zh-hant](Workbench_creation/zh-hant.md)
+
 _
 
 ---

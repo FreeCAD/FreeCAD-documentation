@@ -11,10 +11,12 @@
 
 AppImage è un \"pacchetto binario universale\" destinato a distribuire un\'applicazione a qualsiasi distribuzione Linux. Maggiori informazioni al riguardo su [Appimage homepage](https://appimage.org) e [Wikipedia](https://en.wikipedia.org/wiki/AppImage).
 
-Per eseguirlo, renderlo prima eseguibile, quindi digitare il percorso relativo o completo. 
+Per eseguirlo, renderlo prima eseguibile, quindi digitare il percorso relativo o completo.
+
+
 ```python
-chmod +x FreeCAD_x86_64.AppImage
-./FreeCAD_x86_64.AppImage
+chmod +x FreeCAD_xxx-x86_64.AppImage
+./FreeCAD_xxx-x86_64.AppImage
 ```
 
 Per altri tipi di installazione vedere [Download](Download/it.md).
@@ -30,17 +32,11 @@ Per altri tipi di installazione vedere [Download](Download/it.md).
 
 </div>
 
+  Stable                                                                                                                                                                                                                                                                                                              Development
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ![](images/AppImage-logo.png ) [0.19.3](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-Linux-Conda_glibc2.12-x86_64.AppImage) ([SHA256](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-Linux-Conda_glibc2.12-x86_64.AppImage-SHA256.txt))   ![](images/AppImage-logo.png ) \[<https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds->{{:Template:Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage {{:Template:Development-Version}}\] (\[<https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds->{{:Template:Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage-SHA256.txt SHA256\])
 
-<div class="mw-translate-fuzzy">
-
-  Stabile                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             Sviluppo
-  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  ![](images/AppImage-logo.png ) \[<https://github.com/FreeCAD/FreeCAD/releases/download/>{{:Template:Stable-Major-and-Minor-Version}}/FreeCAD\_{{:Template:Stable-Version}}-Linux-Conda\_Py3Qt5\_glibc2.12-x86\_64.AppImage {{:Template:Stable-Version}}\] (\[<https://github.com/FreeCAD/FreeCAD/releases/download/>{{:Template:Stable-Major-and-Minor-Version}}/FreeCAD\_{{:Template:Stable-Version}}-Linux-Conda\_Py3Qt5\_glibc2.12-x86\_64.AppImage-SHA256.txt SHA256\])   ![](images/AppImage-logo.png ) \[<https://github.com/FreeCAD/FreeCAD/releases/download/0.19_pre/FreeCAD_>{{:Template:Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage {{:Template:Development-Version}}\] (\[<https://github.com/FreeCAD/FreeCAD/releases/download/0.19_pre/FreeCAD_>{{:Template:Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage-SHA256.txt SHA256\])
-
-  : style=\"text-align: center; font-size: 150%; \| AppImages di FreeCAD disponibili \|+
-
-
-</div>
+  : style=\"text-align: center; font-size: 150%; \| Available FreeCAD AppImages \|+
 
 **Note importanti:**
 
@@ -179,6 +175,11 @@ Thanks to the work of **realthunder**, author of [App Link](App_Link.md) and [As
 This makes it very convenient to release images for a specific branch of the source code for others to test. Although AppImages only work on Linux, realthunder\'s scripts make it possible to generate AppImages also on Windows and MacOS.
 
 The repository for these scripts is at _ for more details.
+
+## Related
+
+-   [Snap](Ubuntu_Snap.md) packages.
+-   [Flatpak](Flatpak.md) packages.
 
 
 

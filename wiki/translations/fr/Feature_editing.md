@@ -101,13 +101,7 @@ Consulter la page [Part Ancrage](Part_EditAttachment/fr.md) pour plus d\'informa
 
 ## Conseils pour la création de modèles robustes 
 
-
-<div class="mw-translate-fuzzy">
-
 Le principe de conception paramétrique sous-tend que quand les valeurs de certains paramètres sont changées, les étapes subséquentes seront automatiquement mises à jour selon ces nouvelles valeurs. Toutefois, quand des changements importants sont apportés, le modèle peut casser en raison du problème de [problème de nommage topologique](Topological_naming_problem/fr.md) qui est toujours non résolu dans FreeCAD. Les brisures peuvent être minimisées en suivant les principes de conception suivants :
-
-
-</div>
 
 -   Évitez de joindre des esquisses et des objets de référence à la géométrie générée du modèle. (La géométrie générée est toute face ou arête créée à la suite d\'un tampon, d\'une poche, etc.)
 -   Placez vos esquisses sur des plans de coordonnées standard ou sur des plans de référence personnalisés attachés à des plans standard.
@@ -129,13 +123,7 @@ Le principe de conception paramétrique sous-tend que quand les valeurs de certa
 
 ## Travail sur la construction du corps 
 
-
-<div class="mw-translate-fuzzy">
-
 Il existe plusieurs méthodes de travail possibles avec l\'[atelier PartDesign](PartDesign_Workbench/fr.md). Ce qui doit toujours être retenu est que toutes les fonctionnalités créées dans un [PartDesign Corps](PartDesign_Body/fr.md) seront fusionnées pour obtenir l\'objet final.
-
-
-</div>
 
 ### Différentes esquisses 
 
@@ -145,13 +133,7 @@ Les esquisses doivent être prises en charge par un plan. Ce plan peut être l\'
 
 ### Fonctions séquentielles 
 
-
-<div class="mw-translate-fuzzy">
-
 Les esquisses peuvent être supportées par les faces des opérations solides précédentes. Cela peut être nécessaire si vous avez besoin d\'accéder à une face disponible uniquement après la création d\'une certaine fonctionnalité. Cependant, ce flux de travail n\'est pas recommandé car, si la fonctionnalité d\'origine est modifiée, les fonctionnalités suivantes de la séquence pourraient être endommagées. C\'est un [Problème de dénomination topologique](Topological_naming_problem/fr.md).
-
-
-</div>
 
 <img alt="" src=images/PartDesign_workflow_2.svg  style="width:600px;">
 
@@ -163,13 +145,7 @@ Les plans de référence sont utiles pour soutenir les esquisses. Ces plans auxi
 
 Comme pour les esquisses, il est possible d\'attacher des plans de référence à la géométrie générée (arêtes, faces de solides précédemment créés), \'\'\'\'\'mais ce n\'est pas recommandé \'\'\'\'\'car cela peut causer le problème de dénomination topologique.
 
-
-<div class="mw-translate-fuzzy">
-
 De plus, une <img alt="" src=images/PartDesign_ShapeBinder.svg  style="width:24px;"> [PartDesign Forme liée](PartDesign_ShapeBinder/fr.md) peut être utilisée pour importer une géométrie externe dans le corps pour servir de référence; alors des esquisses peuvent être attachées à ce corps auxiliaire, en utilisant ou non des plans de référence.
-
-
-</div>
 
 *Encore une fois, le ShapeBinder (Forme liée) doit être basé sur des esquisses du corps précédent, et non sur une géométrie générée.*
 
@@ -177,29 +153,15 @@ L\'utilisation d\'objets de référence est souvent le meilleur moyen de produir
 
 ## Tutoriels
 
-
-<div class="mw-translate-fuzzy">
-
-La page des [tutoriels](Tutorials/fr.md) fournit des exemples d\'utilisation de la méthode d\'[édition des fonctionnalités](feature_editing/fr.md) de l\'[atelier PartDesign](PartDesign_Workbench/fr.md) <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;">.
+La page des [tutoriels](Tutorials/fr.md) fournit des exemples d\'utilisation de la méthode d\'[édition des fonctionnalités](Feature_editing/fr.md) de l\'[atelier PartDesign](PartDesign_Workbench/fr.md) <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;">.
 
 -   [Créer une pièce simple avec PartDesign](Creating_a_simple_part_with_PartDesign/fr.md)
 -   [Tutoriel d\'introduction à l\'atelier PartDesign](Basic_Part_Design_Tutorial/fr.md)
 -   [Tutoriel La base de l\'ancrage](Basic_Attachment_Tutorial/fr.md)
 
-
-</div>
-
-## Related
-
-
-<div class="mw-translate-fuzzy">
-
 ## En relation 
 
 -   [Géométrie Solide Constructive](Constructive_solid_geometry/fr.md)
-
-
-</div>
 
 <img alt="" src=images/PartDesign_workflow_3.svg  style="width:600px;">
 

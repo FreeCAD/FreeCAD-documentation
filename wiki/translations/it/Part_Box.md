@@ -13,11 +13,21 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descrizione
 
 Il comando Cubo dell\'ambiente [Part](Part_Workbench/it.md) inserisce nel documento attivo un [parallelepipedo](http://en.wikipedia.org/wiki/Cuboid#Rectangular_cuboid) parametrico. Di default, inserisce un cubo con i lati di 10 mm, posizionato nell\'origine, e con l\'etichetta \"Cubo\". Questi parametri possono essere modificati dopo aver aggiunto l\'oggetto.
 
+
+</div>
+
 <img alt="Part\_Box" src=images/Part_Box.jpg  style="width:400px;">
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -36,20 +46,13 @@ Il comando Cubo dell\'ambiente [Part](Part_Workbench/it.md) inserisce nel docume
 
 The box properties can later be edited, either in the property editor or by double-clicking on the box in the model tree.
 
+## Properties
+
+
+{{Properties_Title|Box}}
+
 
 <div class="mw-translate-fuzzy">
-
-## Proprietà
-
-
-{{Properties_Title|Base}}
-
--    **Placement**: Specifica l\'orientamento e la posizione del Cubo nello spazio 3D. Vedere [ Posizionamento](Placement/it.md). Il punto di riferimento è l\'angolo anteriore in basso a sinistra del cubo.
-
--    **Label**: L\'etichetta è il nome assegnato all\'operazione. Questo nome può essere modificato a piacimento.
-
-
-</div>
 
 
 {{Properties_Title|Box}}
@@ -60,7 +63,10 @@ The box properties can later be edited, either in the property editor or by doub
 
 -    **Height**: Il parametro di altezza è la dimensione del Cubo nella direzione z.
 
-![Part\_Box-Properties](images/Part_Box-Properties.jpg )
+
+</div>
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">
@@ -74,22 +80,38 @@ Lo strumento Cubo può essere utilizzato nelle [macro](macros/it.md) e dalla [co
 
 
 ```python
-FreeCAD.ActiveDocument.addObject("Part::Box", "myBox")
+box = FreeCAD.ActiveDocument.addObject("Part::Box", "myBox")
 ```
+
+
+<div class="mw-translate-fuzzy">
 
 -   Dove \"myBox\" è l\'etichetta per l\'oggetto Box.
 -   Restituisce un oggetto di tipo Box di nuova creazione.
 
-È possibile accedere e modificare gli attributi dell\'oggetto Box. Ad esempio, si potrebbe desiderare di modificare i parametri di lunghezza, larghezza e altezza. 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+È possibile accedere e modificare gli attributi dell\'oggetto Box. Ad esempio, si potrebbe desiderare di modificare i parametri di lunghezza, larghezza e altezza.
+
+
+</div>
+
+
 ```python
-FreeCAD.ActiveDocument.myBox.Length = 25
-FreeCAD.ActiveDocument.myBox.Width = 15
-FreeCAD.ActiveDocument.myBox.Height = 30
+box.Length = 25
+box.Width = 15
+box.Height = 30
 ```
 
-È possibile modificare la sua posizione con: 
+È possibile modificare la sua posizione con:
+
+
 ```python
-FreeCAD.ActiveDocument.myBox.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
+box.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
 ```
 
 

@@ -3,7 +3,7 @@ This category lists pages related to the [Sketcher Workbench/uk](Sketcher_Workbe
 
 ### Contents:
 
-_ , [Sketcher Workbench/uk](Sketcher_Workbench/uk.md)
+[Sketcher Workbench/uk](Sketcher_Workbench/uk.md)
 
 _
 

@@ -3,7 +3,7 @@ This category lists templates that add images.
 
 ### Contents:
 
-_ , _ , _
+_ , _
 
 _
 

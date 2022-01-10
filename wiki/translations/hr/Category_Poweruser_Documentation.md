@@ -3,7 +3,7 @@ This category shows documentation articles dealing with python scripting, which 
 
 ### Contents:
 
-[Arch API/hr](Arch_API/hr.md)
+[Arch API/hr](Arch_API/hr.md) , [Debugging/hr](Debugging/hr.md) , [How to install macros/hr](How_to_install_macros/hr.md) , [Power users hub/hr](Power_users_hub/hr.md)
 
 _
 

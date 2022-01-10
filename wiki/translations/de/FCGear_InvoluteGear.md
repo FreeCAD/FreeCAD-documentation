@@ -129,16 +129,6 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 -    **reversed_backslash**: If there are several gears, pay attention to which gear the parameter is set for.
 
-## Begrenzungen
-
-
-<div class="mw-translate-fuzzy">
-
-Begrenzungen sind noch nicht bekannt.
-
-
-</div>
-
 ## Useful formulas 
 
 ### Standard Spur Gears 

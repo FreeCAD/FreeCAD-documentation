@@ -2,7 +2,7 @@
 - GuiCommand:/fr
    Name:Draft Trimex
    Name/fr:Draft Ajuster ou prolonger
-   MenuLocation:Modification → Ajuste ou prolonge
+   MenuLocation:Modification → Ajuste ou Prolonge
    Workbenches:[Draft](Draft_Workbench/fr.md), [Arch](Arch_Workbench/fr.md)
    Shortcut:**T** **R**
    SeeAlso:[Part Extrusion](Part_Extrude/fr.md)
@@ -12,7 +12,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Draft Ajuster ou prolonger** [Ajuste ou prolonge](#Ajuste_ou_prolonge.md) un objet sélectionné. Les intersections avec le bord d\'un autre objet peuvent être utilisées pour déterminer de nouveaux points d\'extrémité. La commande peut également être utilisée pour une [extrusion](#Extrusion.md) d\'une face, auquel cas elle crée un objet [Part Extrusion](Part_Extrude/fr.md).
+La commande <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Draft Ajuster ou prolonger** [ajuste ou prolonge](#Ajuste_ou_prolonge.md) un objet sélectionné. Les intersections avec le bord d\'un autre objet peuvent être utilisées pour déterminer de nouveaux points d\'extrémité. La commande peut également être utilisée pour une [extrusion](#Extrusion.md) d\'une face, auquel cas elle crée un objet [Part Extrusion](Part_Extrude/fr.md).
 
 <img alt="" src=images/Draft_trimex_example.jpg  style="width:400px;"> 
 *En haut : une Draft polyligne étendue puis ajustée. En bas : une face extrudée dans un corps solide.*
@@ -23,7 +23,7 @@ La commande <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Draf
 
 1.  Sélectionnez un objet. L\'objet doit être une [Draft Ligne](Draft_Line/fr.md), une [Draft Polyligne](Draft_Wire/fr.md), un [Draft Arc](Draft_Arc/fr.md) ou un [Draft Cercle](Draft_Line/fr.md) (qui ne peuvent être que rognés). Si l\'objet sélectionné est fermé, sa propriété {{PropertyData/fr|Make Face}} doit être définie sur `False`.
 2.  Il existe plusieurs façons d\'invoquer la commande :
-    -   Appuyez sur le **<img src="images/Draft_Trimex.svg" width=16px> [Ajuste ou étend l'objet sélectionné...](Draft_Trimex/fr.md)**.
+    -   Appuyez sur le **<img src="images/Draft_Trimex.svg" width=16px> [Ajuste ou Prolonge](Draft_Trimex/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Trimex.svg" width=16px> Ajuste ou Prolonge** dans le menu.
     -   Utilisez le raccourci clavier : **T** puis **R**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
@@ -32,7 +32,7 @@ La commande <img alt="" src=images/Draft_Trimex.svg  style="width:24px;"> **Draf
 6.  Effectuez l\'une des opérations suivantes :
     -   Choisissez un point dans la [Vue 3D](3D_view/fr.md).
     -   Saisissez une **Distance** ou un **Angle**. La distance est une distance relative. Cette option ne fonctionne pas si des touches modificatrices sont utilisées.
-    -   Déplacez le pointeur sur une arête appartenant à un autre objet, et cliquez lorsque cette arête est mise en évidence, pour découper ou étendre l\'objet sélectionné en utilisant une intersection avec l\'arête mise en évidence comme nouveau point d\'arrivée. Notez que [Draft Accrochage](Draft_Snap/fr.md) peut avoir un impact indésirable ici. Dans certains cas, il peut être nécessaire de les désactiver temporairement.
+    -   Déplacez le pointeur sur une arête appartenant à un autre objet, et cliquez lorsque cette arête est mise en évidence, pour découper ou étendre l\'objet sélectionné en utilisant une intersection avec l\'arête mise en évidence comme nouveau point d\'arrivée. Notez que [Draft Aimantation](Draft_Snap/fr.md) peut avoir un impact indésirable ici. Dans certains cas, il peut être nécessaire de les désactiver temporairement.
 
 ### Options
 
@@ -40,9 +40,9 @@ Le raccourci clavier à caractère unique et les touches de modification mention
 
 -   La solution ayant la plus grande longueur détermine la direction par défaut de la commande. Maintenez **Alt** pour inverser ce sens.
 -   Maintenez la touche **Shift** enfoncée pour limiter l\'opération au segment en cours d\'une [Draft Polyligne](Draft_Wire/fr.md).
--   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
+-   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 
-Voici un exemple pour expliquer les touches de modification. Le bord gauche ou le bord inférieur du polyligne en U a été prolongé. Tous les [Draft Accrochages](Draft_Snap/fr.md) ont été désactivés.
+Voici un exemple pour expliquer les touches de modification. Le bord gauche ou le bord inférieur du polyligne en U a été prolongé. Toutes les [Draft Aimantations](Draft_Snap/fr.md) ont été désactivées.
 
 ![](images/Draft_Trimex_example2.png )
 
@@ -58,7 +58,7 @@ Voici un exemple pour expliquer les touches de modification. Le bord gauche ou l
 
 ### Utilisation 
 
-Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Il peut être utile de modifier d\'abord le [Draft Plan de travail](Draft_SelectPlane/fr.md) pour qu\'il ne soit pas coplanaire avec la face que vous voulez extruder.
 2.  Optionnellement, sélectionnez une seule face ou un objet avec une seule face.

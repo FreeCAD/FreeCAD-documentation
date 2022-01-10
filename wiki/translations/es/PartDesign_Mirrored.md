@@ -92,9 +92,13 @@ La simetría resultante puede ser vista de forma predeterminada en tiempo real a
 
 ## Limitaciones
 
+
+<div class="mw-translate-fuzzy">
+
 -   No se puede realizar una operación de simetría con un sólido completo. Para ello, ver [Part Mirror](Part_Mirror/es.md) .
 
--   La operación de simetría debe intersectar o estar en contacto con el sólido (también llamado *soporte*), que debe de ser su base, o el comando fallará.
+
+</div>
 
 
 

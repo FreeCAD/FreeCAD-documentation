@@ -4,6 +4,7 @@
    MenuLocation:Path → Job
    Workbenches:[Path](Path_Workbench.md)
    Shortcut:**P** **J**
+   SeeAlso:[Path Post](Path_Post.md), [Path Postprocessor Customization](Path_Postprocessor_Customization.md)
 ---
 
 # Path Job
@@ -17,7 +18,7 @@ The Job tool creates a new Job object in the active document. The Job object con
 3.  A Base Body---a clone used for offset.
 4.  A Stock, representing the raw material that will be milled to Path Workbench.
 5.  A SetupSheet, containing inputs used by the Path Operations, including static values and formulas.
-6.  Configuration parameters specifying the output G-Code job\'s destination path, file name, and extension, and the Postprocessor---used to generate the appropriate dialect for the target CNC Controller, and customize Units, Tool Changes, Parking, etc\...
+6.  Configuration parameters specifying the output G-Code job\'s destination path, file name, and extension, and the [postprocessor](Path_Post.md) (used to generate the appropriate dialect for the target CNC Controller, and customize Units, Tool Changes, Parking, etc.).
 
 ## Usage
 
@@ -46,8 +47,8 @@ The Job GUI dialog box has five horizontal aligned tabs: **General**, **Output**
     -   **%M** user macro directory
     -   **%j** name of the job
 
--   **Processor**: Select the postprocesser for your machine.
--   **Arguments**: Add arguments for the postprocessor as needed.
+-   **Processor**: Select the [postprocesser](Path_Post.md) for your machine.
+-   **Arguments**: Add arguments for the [postprocesser](Path_Post.md) as needed.
 
 ## Setup
 

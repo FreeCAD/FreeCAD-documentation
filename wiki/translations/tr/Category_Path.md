@@ -3,7 +3,7 @@ This category lists pages related to the [PartDesign Workbench/tr](PartDesign_Wo
 
 ### Contents:
 
-_ , [Path Workbench/tr](Path_Workbench/tr.md)
+[Path Helix/tr](Path_Helix/tr.md) , [Path MillFace/tr](Path_MillFace/tr.md) , [Path Workbench/tr](Path_Workbench/tr.md)
 
 _
 

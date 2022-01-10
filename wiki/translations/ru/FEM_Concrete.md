@@ -8,9 +8,17 @@
 -   [Использование европейского стандарта в Швейцарии (July 2018)](https://forum.freecadweb.org/viewtopic.php?f=18&t=29930)
 -   [Графики главного напряжения (June 2018)](https://forum.freecadweb.org/viewtopic.php?f=18&t=29381)
 
+## Related
+
+
+<div class="mw-translate-fuzzy">
+
 ## Связанное
 
 -   [Анализ железобетона с помощью МКЭ](Analysis_of_reinforced_concrete_with_FEM/ru.md)
+
+
+</div>
 
 
 {{FEM Tools navi

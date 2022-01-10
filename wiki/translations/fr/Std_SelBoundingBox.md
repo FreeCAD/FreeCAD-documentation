@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Std SelBoundingBox
-   Name/fr:Std SelBoundingBox
-   MenuLocation:Affichage → Bounding box
+   Name/fr:Std Boîte englobante
+   MenuLocation:Affichage → Boîte englobante
    Workbenches:Tous
    Version:0.19
    SeeAlso:[Std Style de représentation](Std_DrawStyle/fr.md)
@@ -12,13 +12,13 @@
 
 ## Description
 
-La commande **Std Boîte de délimitation** bascule le mode de surbrillance du cadre de sélection global. Si ce mode est activé, les objets sélectionnés sont marqués dans une [vue 3D](3D_view/fr.md) avec un cadre de sélection en surbrillance même si leur **Selection Style** est défini sur \'Shape\' (Forme).
+La commande **Std Boîte englobante** bascule le mode de surbrillance du cadre de sélection global. Si ce mode est activé, les objets sélectionnés sont marqués dans une [vue 3D](3D_view/fr.md) avec un cadre de sélection en surbrillance même si leur **Selection Style** est défini sur \'Shape\' (Forme).
 
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Appuyez sur le bouton **<img src="images/Std_SelBoundingBox.svg" width=16px> [Std SelBoundingBox](Std_SelBoundingBox.md)**.
-    -   Sélectionnez l\'option **Affichage → <img src="images/Std_SelBoundingBox.svg" width=16px> Bounding box** dans le menu.
+    -   Appuyez sur le bouton **<img src="images/Std_SelBoundingBox.svg" width=16px> [Boîte englobante](Std_SelBoundingBox/fr.md)**.
+    -   Sélectionnez l\'option **Affichage → <img src="images/Std_SelBoundingBox.svg" width=16px> Boîte englobante** dans le menu.
 
 ## Préférences
 

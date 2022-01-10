@@ -17,7 +17,7 @@ FreeCAD étant basé sur la boîte à outils graphique Qt, il peut exporter la [
 
 L\'option d\'exportation au format PDF est disponible dans le menu **Fichier → [Exporter PDF](Std_Export/fr.md)**.
 
-## Relation
+## En relation 
 
 -   Voir aussi: <img alt="" src=images/Std_Export.svg  style="width:24px;"> _.
 

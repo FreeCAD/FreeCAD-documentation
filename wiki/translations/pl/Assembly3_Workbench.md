@@ -239,37 +239,37 @@ Głównymi cechami środowiska **Złożenie 3** są:
 
 :\* <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:32px;"> [Stycznie do linii łuku](Assembly3_ConstraintArcLineTangent/pl.md): Dodaj wiązanie \"Stycznie do linii łuku\", aby linia była styczna do łuku w punkcie początkowym lub końcowym łuku.
 
-:\* <img alt="" src=images/Assembly_ConstraintSketchPlane.svg‎‎  style="width:32px;"> [Sketch plane](Assembly3_ConstraintSketchPlane.md): Add a \"Sketch plane\" to define the work plane of any draft element inside or following this constraint.
+:\* <img alt="" src=images/Assembly_ConstraintSketchPlane.svg‎‎  style="width:32px;"> [Płaszczyzna szkicu](Assembly3_ConstraintSketchPlane/pl.md): Dodaj **Płaszczyznę szkicu**, aby zdefiniować płaszczyznę roboczą dowolnego elementu szkicu znajdującego się wewnątrz lub za tym wiązaniem.
 
-:\*: Add an empty \"Sketch plane\" to undefine the previous work plane.
+:\*: Dodaj pustą **Płaszczyznę szkicu**, aby przedefiniować poprzednią płaszczyznę roboczą.
 
-:\* <img alt="" src=images/Assembly_ConstraintLineLength.svg‎‎  style="width:32px;"> [Line length](Assembly3_ConstraintLineLength.md): Add a \"Line length\" constrain the length of a non-subdivided Draft.Wire.
+:\* <img alt="" src=images/Assembly_ConstraintLineLength.svg‎‎  style="width:32px;"> [Długość linii](Assembly3_ConstraintLineLength/pl.md): Dodaj **Długość linii** określająca długość nie podzielonego Draft.Wire.
 
-:\* <img alt="" src=images/Assembly_ConstraintEqualLength.svg‎‎  style="width:32px;"> [Equal length](Assembly3_ConstraintEqualLength.md): Add an \"Equal length\" constraint to make two lines of the same length.
+:\* <img alt="" src=images/Assembly_ConstraintEqualLength.svg‎‎  style="width:32px;"> [Równa długość](Assembly3_ConstraintEqualLength/pl.md): Dodaj ograniczenie **Równa długość**, aby utworzyć dwie linie o tej samej długości.
 
-:\* <img alt="" src=images/Assembly_ConstraintLengthRatio.svg‎‎  style="width:32px;"> [Length ratio](Assembly3_ConstraintLengthRatio.md): Add a \"Length ratio\" to constrain the length ratio of two lines.
+:\* <img alt="" src=images/Assembly_ConstraintLengthRatio.svg‎‎  style="width:32px;"> [Stosunek długości](Assembly3_ConstraintLengthRatio/pl.md): Dodaj **Proporcje długości**, aby ustalić stosunek długości dwóch linii.
 
-:\* <img alt="" src=images/Assembly_ConstraintLengthDifference.svg‎‎  style="width:32px;"> [Length difference](Assembly3_ConstraintLengthDifference.md): Add a \"Length difference\" to constrain the length difference of two lines.
+:\* <img alt="" src=images/Assembly_ConstraintLengthDifference.svg‎‎  style="width:32px;"> [Różnica w długości](Assembly3_ConstraintLengthDifference/pl.md): Dodaj **Różnicę długości**, aby określić różnicę długości dwóch linii.
 
-:\* <img alt="" src=images/Assembly_ConstraintLengthEqualPointLineDistance.svg‎‎  style="width:32px;"> [Length Equal Point Line Distance](Assembly3_ConstraintLengthEqualPointLineDistance.md): Add a \"Length Equal Point Line Distance\" to constrain the distance
+:\* <img alt="" src=images/Assembly_ConstraintLengthEqualPointLineDistance.svg‎‎  style="width:32px;"> [Odległość punktu równa długości linii](Assembly3_ConstraintLengthEqualPointLineDistance/pl.md): Dodaj **Długość równa odległości punktu od linii**, aby określić odległość
 
-:\*: between a point and a line to be the same as the length of a another line.
+:\*: między punktem a prostą, aby była taka sama jak długość innej prostej.
 
-:\* <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:32px;"> ( <img alt="" src=images/Assembly_ConstraintEqualLineArcLength.svg‎‎  style="width:32px;"> )[Equal Line Arc Length](Assembly3_ConstraintEqualLineArcLength.md): Add an \"Equal Line Arc Length\" constraint to make a line of the same length as an arc.
+:\* <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:32px;"> *(<img alt="" src=images/Assembly_ConstraintEqualLineArcLength.svg‎‎  style="width:32px;"> )* [równa długość linii i łuku](Assembly3_ConstraintEqualLineArcLength/pl.md): Dodaj więzienie \"Równa długość łuku i linii\", aby linia miała taką samą długość jak łuk.
 
-:\* <img alt="" src=images/Assembly_ConstraintMidPoint.svg‎‎  style="width:32px;"> [Mid point](Assembly3_ConstraintMidPoint.md): Add a \"Mid point\" to constrain a point to the middle point of a line.
+:\* <img alt="" src=images/Assembly_ConstraintMidPoint.svg‎‎  style="width:32px;"> [Punkt środkowy](Assembly3_ConstraintMidPoint/pl.md): Dodaj **Punkt środkowy**, aby przypisać punkt do punktu środkowego linii.
 
-:\* <img alt="" src=images/Assembly_ConstraintDiameter.svg‎‎  style="width:32px;"> [Diameter](Assembly3_ConstraintDiameter.md): Add a \"Diameter\" to constrain the diameter of a circle/arc.
+:\* <img alt="" src=images/Assembly_ConstraintDiameter.svg‎‎  style="width:32px;"> [Średnica](Assembly3_ConstraintDiameter/pl.md): Dodaj **Średnicę**, aby ustalić średnicę okręgu / łuku.
 
-:\* <img alt="" src=images/Assembly_ConstraintEqualRadius.svg‎‎  style="width:32px;"> [Equal radius](Assembly3_ConstraintEqualRadius.md): Add an \"Equal radius\" constraint to make two circles/arcs of the same radius.
+:\* <img alt="" src=images/Assembly_ConstraintEqualRadius.svg‎‎  style="width:32px;"> [Równy promień](Assembly3_ConstraintEqualRadius/pl.md): Dodaj wiązanie **Równy promień**, aby utworzyć dwa okręgi / łuki o tym samym promieniu.
 
-:\* <img alt="" src=images/Assembly_ConstraintPointsProjectDistance.svg‎‎  style="width:32px;"> [Points project distance](Assembly3_ConstraintPointsProjectDistance.md): Add a \"Points project distance\" to constrain the distance of two points projected on a line.
+:\* <img alt="" src=images/Assembly_ConstraintPointsProjectDistance.svg‎‎  style="width:32px;"> [Projekt odległości punktów](Assembly3_ConstraintPointsProjectDistance/pl.md): Dodaj **Projekt odległości punktów**, aby ustalić odległość dwóch punktów rzutowanych na prostą.
 
-:\* <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg‎‎  style="width:32px;"> [Equal point line distance](Assembly3_ConstraintEqualPointLineDistance.md): Add an \"Equal point line distance\" to constrain the distance
+:\* <img alt="" src=images/Assembly_ConstraintEqualPointLineDistance.svg‎‎  style="width:32px;"> [Równa odległość punktu i linii](Assembly3_ConstraintEqualPointLineDistance/pl.md): Dodaj \"Równa odległość punktu od linii\", aby ustalić odległość
 
-:\*: between a point and a line to be the same as the distance between another point and line.
+:\*: między punktem a prostą, aby była taka sama jak odległość między innym punktem a prostą.
 
-:\* <img alt="" src=images/Assembly_ConstraintColinear.svg‎‎  style="width:32px;"> [Colinear](Assembly3_ConstraintColinear.md): Add a \"Colinear\" constraint to make two lines collinear.
+:\* <img alt="" src=images/Assembly_ConstraintColinear.svg‎‎  style="width:32px;"> [Współliniowo](Assembly3_ConstraintColinear/pl.md): Dodaj wiązanie **Współliniowo**, aby uczynić dwie linie współliniowymi.
 
 
 </div>
@@ -279,12 +279,12 @@ Głównymi cechami środowiska **Złożenie 3** są:
 
 
 :   **Paski Narzędzi Wiązań** będą głównym interfejsem używanym podczas składania części.
-:   Są one domyślnie wyszarzone, i zostają aktywowane gdy przynajmniej jedna ściana, linia lub punkt części jest wybrana.
+:   Są one domyślnie nie aktywe, i zostają aktywowane gdy przynajmniej jedna ściana, linia lub punkt części jest wybrana.
 :   Ogólnie wybierasz Elementy, które powinny zostać połączone a następnie wybierasz typ wiązania.
 :   Ramki w różnych barwach oznaczają różną charakterystykę wiązań:
 
-    :   czy to 2D/3D albo czy więcej niż dwa Elementy mogą zostać dodane.
-:   Dokładny opis znajduje się w Wiki na Githubie.
+    :   czy to 2D / 3D albo czy więcej niż dwa Elementy mogą zostać dodane.
+:   Dokładny opis znajduje się w Wiki Githuba.
 
 #### Pasek narzędzi nawigacji 
 
@@ -292,16 +292,16 @@ Głównymi cechami środowiska **Złożenie 3** są:
 <div class="mw-collapsible mw-collapsed">
 
 
-:   Theses functions are useful when working with an assembly with a hierarchy of linked external files
+:   Te funkcje są przydatne podczas pracy ze złożeniem z hierarchią połączonych plików zewnętrznych
 
 
 <div class="mw-collapsible-content toccolours">
 
-:\* <img alt="" src=images/Assembly_GotoRelation.svg‎‎  style="width:32px;"> [Go to relation](Assembly3_GoToRelation.md): Reveals the Relations group (hidden by default) and selects a relation object.
+:\* <img alt="" src=images/Assembly_GotoRelation.svg‎‎  style="width:32px;"> [Przejdź do zależności](Assembly3_GoToRelation/pl.md): Ujawnia grupę Zależności *(domyślnie ukryta)* i wybiera obiekt zależny.
 
-:\* <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Select linked object](Std_LinkSelectLinked.md): Selects the linked object and switches to its document. <small>(v0.19)</small> 
+:\* <img alt="" src=images/Std_LinkSelectLinked.svg  style="width:32px;"> [Wybierz połączone odnośnikami](Std_LinkSelectLinked/pl.md): Zaznacza połączony obiekt i przełącza do jego dokumentu. {{Version/pl|0.19}}
 
-:\* <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Select linked final](Std_LinkSelectLinkedFinal.md): Selects the deepest linked object and switches to its document. <small>(v0.19)</small> 
+:\* <img alt="" src=images/Std_LinkSelectLinkedFinal.svg  style="width:32px;"> [Wybierz najgłębiej połączony obiekt](Std_LinkSelectLinkedFinal/pl.md): Wybiera najgłębiej powiązany obiekt i przełącza się na jego dokument. {{Version/pl|0.19}}
 
 
 </div>
@@ -317,68 +317,68 @@ Głównymi cechami środowiska **Złożenie 3** są:
 <div class="mw-collapsible mw-collapsed">
 
 
-:   The **Measurement toolbar** adds functions to measure the distance or the angle between two objects
+:   Pasek narzędzi **Wymiarowanie** dodaje funkcje do mierzenia odległości lub kąta między dwoma obiektami.
 
 
 <div class="mw-collapsible-content toccolours">
 
-:\* <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:32px;"> [Measure points](Assembly3_MeasurePoints.md): Add a \"Measure points\" to measure the distance of two points in 2D or 3D.
+:\* <img alt="" src=images/Assembly_MeasurePointDistance.svg‎‎  style="width:32px;"> [Pomiar odległości punktów](Assembly3_MeasurePoints/pl.md): Dodaj **Pomiar odległości punktów**, aby zmierzyć odległość dwóch punktów w przestrzeni 2D lub 3D.
 
-:\* <img alt="" src=images/Assembly_MeasurePointLineDistance.svg‎‎  style="width:32px;"> [Measure point to line](Assembly3_MeasurePointLine.md): Add a \"Measure point to line\" to measure the distance between a point and a linear edge in 2D or 3D.
+:\* <img alt="" src=images/Assembly_MeasurePointLineDistance.svg‎‎  style="width:32px;"> [Pomiar odległości punktu od krawędzi](Assembly3_MeasurePointLine/pl.md): Dodaj **Pomiar odległości punktu od linii**, aby zmierzyć odległość między punktem a linią krawędzi w przestrzeni 2D lub 3D.
 
-:\* <img alt="" src=images/Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:32px;"> [Measure point to plane](Assembly3_MeasurePointPlane.md): Add a \"Measure point to plane\" to measure the distance between a point and a plane.
+:\* <img alt="" src=images/Assembly_MeasurePointPlaneDistance.svg‎‎  style="width:32px;"> [Pomiar odległości punktu od płaszczyzny](Assembly3_MeasurePointPlane/pl.md): Dodaj **Pomiar odległości punktu od płaszczyzny**, aby zmierzyć odległość między punktem a płaszczyzną.
 
-:\* <img alt="" src=images/Assembly_MeasureAngle.svg‎‎  style="width:32px;"> [Measure angle](Assembly3_MeasureAngle.md): Add a \"Measure angle\" to measure the angle of planar faces or linear edges of two parts.
+:\* <img alt="" src=images/Assembly_MeasureAngle.svg‎‎  style="width:32px;"> [Pomiar kąta](Assembly3_MeasureAngle/pl.md): Dodaj **Pomiar kąta**, aby zmierzyć kąt między powierzchniami płaskimi lub krawędziami liniowymi dwóch części.
 
-:   There is no function to measure a radius or diameter.
-:   The measurement tools survive part changes, e.g. the distance between edges of a cube when the cube is re-sized.
-:   As the constraints the calculations are done in real time and updated upon any change. Behind the scenes, the function is very similar to the [constraints](#Constraints.md). The distance or angle is calculated between [Elements](#Elements.md) in the same way as for [constraints](#Constraints.md). The display in the tree works in the same way.
-
-
-</div>
+:   Nie ma funkcji do pomiaru promienia lub średnicy.
+:   Narzędzia pomiarowe są odporne na modyfikacje części, np. odległość między krawędziami sześcianu po zmianie jego rozmiaru.
+:   Jako wiązania, obliczenia są wykonywane w czasie rzeczywistym i aktualizowane przy każdej zmianie. Za kulisami, funkcja jest bardzo podobna do [wiązań](#Wi.C4.85zania.md). Odległość lub kąt jest obliczany pomiędzy [elementami](#Elementy.md) w taki sam sposób jak dla [wiązań](#Wi.C4.85zania.md). Wyświetlanie w drzewie działa w ten sam sposób.
 
 
 </div>
 
-As usual you can modify the tool bars and add or remove single tools. Be sure to check the menu Assembly3 for functions that may not be present in the tool bars.
+
+</div>
+
+Jak zwykle możesz modyfikować paski narzędzi i dodawać lub usuwać poszczególne narzędzia. Pamiętaj, aby sprawdzić też obecność narzędzi w menu *Złożenie 3*, które mogą nie być obecne na paskach narzędzi.
 
 
 {{top}}
 
 ### Wiązania
 
-Projektant używa wiązań by uzyskać określony efekt relacji dwóch części. Sztuką jest wybranie właściwych wiązań dla najlepszego poradzenia sobie z danym problemem. Każdy usunięty stopień swobody w teorii powinien być usunięty tylko raz między dwoma obiektami, ale w praktyce wiele narzędzi CAD tworzy nadmiarowe kombinacje wiązań, często kompensowane przez skomplikowane algorytmy, a czasami nie. Assembly3 używa algorytmów do wykrycia i kompensacji nadmiarowych wiązań, ale zdecydowanie one nie są jeszcze dojrzałe. Dlatego w praktyce Assembly3 by uniknąć problemów należy być świadomym jak wiele stopni swobody (DOF) zostało użytych i które mogą być jeszcze zablokowane przez wiązania. Żadna część nie powinna być połączona przez wiązania używające więcej niż 6 stopni swobody.
+Projektant używa wiązań by uzyskać określony efekt relacji dwóch części. Sztuką jest wybranie właściwych wiązań dla najlepszego poradzenia sobie z danym problemem. Każdy usunięty stopień swobody w teorii powinien być usunięty tylko raz między dwoma obiektami, ale w praktyce wiele narzędzi CAD tworzy nadmiarowe kombinacje wiązań, często kompensowane przez skomplikowane algorytmy, a czasami nie. Assembly3 używa algorytmów do wykrycia i kompensacji nadmiarowych wiązań, ale zdecydowanie one nie są jeszcze dojrzałe. Dlatego w praktyce Assembly3 by uniknąć problemów należy być świadomym jak wiele stopni swobody *(DOF)* zostało użytych i które mogą być jeszcze zablokowane przez wiązania. Żadna część nie powinna być połączona przez wiązania używające więcej niż 6 stopni swobody.
 
-:   Note: Jeśli solwer spotka kombinację której nie może rozwiązać, wyrzuci błąd. Jest bardzo trudno solwerowi znaleźć co spowodowało problem, więc zwykle z tego wyrzuconego błędu nie będzie jasne *gdzie* jest ten problem. W skomplikowanych złożeniach może to prowadzić do uciążliwego poszukiwania problemu. Niestety nie ma prostego sposobu na uniknięcie tego. Jednak przydatna jest pełna świadomość jak działa system *(np. zobacz [Elementy](#Elements.md) poniżej)*, używanie komunikatywnych nazw dla wszystkich biorących udział komponentów i dodawanie kolejnych wiązań tylko gdy solwer już rozwiąże dotychczasowe złożenie. Bardzo przydatnym do wyśledzenia problemu jest funkcja \"Menu kontekstowe/Deaktywuj\" każdego z Wiązań.
+:   Uwaga: Jeśli solver spotka kombinację której nie może rozwiązać, wyrzuci błąd. Jest bardzo trudno solverowi znaleźć co spowodowało problem, więc zwykle z tego wyrzuconego błędu nie będzie jasne *gdzie* jest ten problem. W skomplikowanych złożeniach może to prowadzić do uciążliwego poszukiwania problemu. Niestety nie ma prostego sposobu na uniknięcie tego. Jednak przydatna jest pełna świadomość jak działa system *(np. zobacz [Elementy](#Elementy.md) poniżej)*, używanie komunikatywnych nazw dla wszystkich biorących udział komponentów i dodawanie kolejnych wiązań tylko gdy solver już rozwiąże dotychczasowe złożenie. Bardzo przydatnym do wyśledzenia problemu jest funkcja \"Menu kontekstowe / Deaktywuj\" każdego z wiązań.
 
-Wiązania Assembly3 określają ograniczenia pozycji lub orientacji pomiędzy dwoma [Elementami](#Elements.md). Niektóre wiązanie działają nawet więcej niż z dwoma [Elementami](#Elements.md). [Elementem](#Elements.md) może być ściana, linia lub krawędź lub punkt części. Ogólnie wiązania definiowane są przez wybranie żądanych [Elementów](#Elements.md) i późniejsze wybranie wiązania z [paska narzędzi](#Toolbars.md) Wiązań.
+Wiązania środowiska Złożenie 3 określają więzy pozycji lub orientacji pomiędzy dwoma [Elementami](#Elementy.md). Niektóre wiązanie działają nawet więcej niż z dwoma [Elementami](#Elementy.md). [Elementem](#Elementy.md) może być ściana, linia lub krawędź lub punkt części. Ogólnie wiązania definiowane są przez wybranie żądanych [Elementów](#Elementy.md) i późniejsze wybranie wiązania z [paska narzędzi](#Paski_narz.C4.99dzi.md) Wiązań.
 
--   Fixes 6 DOF, leaves 0 DOF:
-    -   **Lock**: The lock constraint fixes all DOFs for a face. It should be used for one base part in each assembly. You may also want to enable the \"MoveLock\" function (in the tool bar) so that the part can not be moved accidentially. Normally it does not matter which face/line/point you use to fix a part. Also note that the lock is only valid for the direct assembly, i.e. in case of a sub-assembly the parent assembly would still require a locked part on its own.
-    -   **Attachment**: Makes both elements coordinate systems equal for all axes. This is computation wise the most inexpensive function and should be used where ever possible. Note that you could use the element properties to compensate for offsets and angles if the two [elements](#Elements.md) are not perfectly aligned.
--   Fixes 5 DOF, leaves 1 DOF:
-    -   **Plane Coincident**: fixes Tx,Ty,Tz, Rx,Ry. Only Rz is free. There remains the rotation around the normal passing through the ''center of the plane''.
--   Fixes 4 DOF, leaves 2 DOF:
-    -   **Axial Alignment**: fixes Tx,Ty, Rx,Ry. Only Tz, Rz are free. There remains the rotation around the axis of the shape and the translation along this same axis. Two *PointOnLine* constraints (if the two points are different) give the same result. The \''Colinear\'' constraint too.
-    -   **PointOnLine**: This eliminates the translation and rotation along the normals to the reference line. Only the translation and rotation along the line axis is allowed.
--   Fixes 3 DOF, leaves 3 DOF:
-    -   **Same Orientation**: fixes Rx,Rz,Rz. All T\'s remain free.
-    -   **Points Coincident**: fixes Tx,Ty,Tz. All R\'s remain free.
-    -   **PointOnPoint** constraint eliminates the 3 translations.
-    -   **Plane Alignment**: fixes Tz, Rx,Ry. In plane motion and Rz. This eliminates the translation along the normal to the reference plane and the two rotations around the axes of this plane.
--   Fixes 2 DOF, leaves 4 DOF:
-    -   **Multi Parallel**: fixes Rx,Ry. all T\'s and Rz remain. This eliminates the two rotations around the axes of the reference plane.
--   Fixes 1 DOF, leaves 5 DOF:
-    -   **Points in Plane**: Fixes Tz. This eliminates the translation along the normal to the reference plane.
-    -   **Points Distance**: fixes the distance between the Element origins.
+-   Rozwiązuje 6 stopni swobody, pozostawia 0 stopni swobody:
+    -   **Blokada**: Wiązanie blokady ustala wszystkie stopni swobody dla danej ściany. Powinno być używane dla jednej części bazowej w każdym złożeniu. Można również włączyć funkcję \"Blokada przesunięcia\" *(w pasku narzędzi)*, aby część nie mogła być przypadkowo przesunięta. Zazwyczaj nie ma znaczenia, która ściana / linia / punkt zostanie użyta do naprawy części. Należy również pamiętać, że blokada działa tylko w bezpośrednim złożeniu, tzn. w przypadku złożenia podrzędnego złożenie nadrzędne nadal wymagałoby zablokowanej części.
+    -   **Dołączenie**: Sprawia, że układy współrzędnych obu elementów są zgodne dla wszystkich osi. Jest to najbardziej efektywna obliczeniowo funkcja i powinna być używana zawsze, gdy jest to możliwe. Zauważ, że możesz użyć właściwości elementu, aby skompensować przesunięcia i kąty, jeśli dwa [elementy](#Elementy.md) nie są idealnie wyrównane.
+-   Rozwiązuje 5 stopni swobody, pozostawia 1 stopień swobody:
+    -   **Płaszczyzna zbieżna**: ustala Tx,Ty,Tz, Rx,Ry. Tylko Rz jest wolne. Pozostaje obrót wokół normalnej przechodzącej przez *środek płaszczyzny*.
+-   Rozwiązuje 4 stopnie swobody, pozostawia 2 stopnie swobody:
+    -   **Wyrównanie osiowe**: ustala Tx,Ty, Rx,Ry. Tylko Tz, Rz są wolne. Pozostaje obrót wokół osi kształtu i translacja wzdłuż tej samej osi. Dwa wiązania *Punkt na linii* (jeśli dwa punkty są różne) dają ten sam rezultat. Wiązanie *Współliniowo* również.
+    -   **Punkt na linii**: Eliminuje przesunięcia i rotację wzdłuż normalnych do linii odniesienia. Dozwolone jest tylko przesunięcie i obrót wzdłuż osi linii.
+-   Rozwiązuje 3 stopnie swobody, pozostawia 3 stopnie swobody:
+    -   **Identyczna orientacja**: ustala Rx,Rz,Rz. Wszystkie T pozostają wolne.
+    -   **Zbieżność punktów**: ustawia Tx,Ty,Tz. Wszystkie punkty R pozostają wolne.
+    -   **Punkt na punkcie** eliminuje 3 przesunięcia.
+    -   **Wyrównanie płaszczyzny**: ustala Tz, Rx,Ry. W ruchu płaskim i Rz. Eliminuje to przesunięcia wzdłuż normalnej do płaszczyzny odniesienia oraz dwa obroty wokół osi tej płaszczyzny.
+-   Rozwiązuje 2 stopnie swobody, pozostawia 4 stopnie swobody:
+    -   **Wielo równolegle**: rozwiązuje Rx,Ry. wszystkie T i Rz pozostają. Eliminuje to dwa obroty wokół osi płaszczyzny odniesienia.
+-   Rozwiązuje 1 stopień swobody, pozostawia 5 stopni swobody:
+    -   **Punkt na płaszczyźnie**: rozwiązuje Tz. Eliminuje to przesunięcie wzdłuż normalnej do płaszczyzny odniesienia.
+    -   **Odległość punktów**: ustala odległość między początkami elementów.
 
-        :   This gives you more freedom than *Points in Plane*
+        :   Daje to większą swobodę niż *Punkt na płaszczyźnie*.
 
-Other
+Inne
 
--   **Points on Circle**: fixes Tz and partially Tx,Ty. Freezes the point translation (or several points) on a circle or disk area. You must pick the circle second. This leaves all rotations free and gives limited translation in the circle reference plane.
+-   **Punkty na okręgu**: ustala Tz i częściowo Tx,Ty. Unieruchamia przesunięcie punktu *(lub kilku punktów)* na okręgu lub powierzchni okręgu. Musisz wybrać okrąg jako drugi. To umożliwia wszystkie obroty i daje ograniczone przesunięcie w płaszczyźnie odniesienia okręgu.
 
-*: Note: In the following list Tx,Ty,Tz and Rx,Ry,Rz are used to describe translations and rotations about the reference coordinate systems of the involved Element\'s. This is not always exact or fully defined, e.g. when a line is involved it is not defined if it runs in X, Y or any angle in betweeen. The system is used for bevity and easy comparison in favour of a correct but more complex definition. So Z is generally the normal direction of any faces involved. Please feel free to modify this with a better approach with improved readability.*
+*: Uwaga: Na poniższej liście Tx,Ty,Tz i Rx,Ry,Rz są używane do opisania przesunięć i obrotów względem referencyjnych układów współrzędnych zaangażowanych Elementów. Nie zawsze jest to dokładne lub w pełni zdefiniowane, np. gdy mamy do czynienia z linią, nie jest określone, czy biegnie ona w kierunku X, Y czy pod jakimkolwiek kątem pomiędzy nimi. System ten jest używany dla zachowania powagi i łatwego porównania na korzyść poprawnej, ale bardziej złożonej definicji. Tak więc Z jest generalnie normalnym kierunkiem każdej zaangażowanej ściany. Proszę się nie krępować i zmodyfikować to, stosując lepsze podejście z poprawioną czytelnością.*
 
 
 {{top}}
@@ -407,7 +407,7 @@ Wcześniejszy przykład pokazał, że możliwa jest zmiana Elementów wykorzysty
 -   Możesz użyć Okna Właściwości Elementu by dodać **Odsunięcie**. W naszym przykładzie pozwala to przesunąć walec w stosunku do ściany prostopadłościanu.
 -   Możesz użyć przycisku \"Pokaż Układ Współrzędnych Elementu\" na głównym pasku narzędzi by zobaczyć co \"Menu kontekstowe / Flip Part\" i \"Menu kontekstowe / Flip Element\" robią. Upewnij się, że obserwujesz co się dzieje w Oknie Właściwości.
 -   Możesz dodać wiązanie w całkowicie innej kolejności: najpierw dodaj kilka Elementów do \"Listy Elementów\" *(nadawanie nazw jest przydatne, np. \"Górna Ściana Prostopadłościanu czy \"Przednia Ściana Prostopadłościanu\")* a następnie dodaj wiązanie bez zaznaczania czegokolwiek - będzie ono pustym wiązaniem. Potem przeciągnij Elementy z listy \"Elementów\". Wynik będzie takim sam jak po tym co zrobiliśmy w pierwszym przykładzie. Po wykonaniu tego ćwiczenia natura działania wiązań z Elementami powinna stać się jasna.
--   Możesz zmienić istniejące wiązanie pomiędzy istniejącymi Elementami po prostu przez wybranie innej pozycji w właściwości Okno Właściwości/ConstraintType.
+-   Możesz zmienić istniejące wiązanie pomiędzy istniejącymi Elementami po prostu przez wybranie innej pozycji w właściwości Okno Właściwości / ConstraintType.
 
 
 {{top}}
@@ -425,176 +425,176 @@ Mimo, że mogą mieć podobne narzędzia, środowisko Złożenie 3 nie jest zgod
 
 ## Testowanie
 
-The [Assembly3 Workbench](Assembly3_Workbench.md) is under development and is not yet available (April 2020) through the [Addon Manager](Std_AddonMgr.md), but it is expected that this will happen at some point.
+Środowisko pracy [Złożenie 3](Assembly3_Workbench/pl.md) jest w trakcie rozwoju i nie jest jeszcze dostępne *(kwiecień 2020)* poprzez [Menadżer dodatków](Std_AddonMgr/pl.md), ale oczekuje się, że to nastąpi wkrótce.
 
-You can test it in two ways:
+Możesz go przetestować na dwa sposoby:
 
--   A special fork of FreeCAD made by realthunder; see [FreeCAD\_assembly3 releases](https://github.com/realthunder/FreeCAD_assembly3/releases). This fork is based on a particular commit of the master branch of FreeCAD, but it also has additional features currently not present in the master branch. Due to this fork being based on a particular development snapshot, it does not have the latest features merged daily to the master branch.
--   The development [AppImage](AppImage.md); this is based on the current master branch, and includes the dependencies needed for working with Assembly3 such as the SolveSpace solver.
+-   Specjalny fork programu FreeCAD wykonany przez użytkownika realthunder; zobacz [FreeCAD\_assembly3 releases](https://github.com/realthunder/FreeCAD_assembly3/releases). Ten fork jest oparty o konkretnym commit z głównej gałęzi FreeCAD, ale posiada również dodatkowe funkcje, które obecnie nie są obecne w głównej gałęzi. Ze względu na to, że to rozwidlenie jest oparte na konkretnym zrzucie rozwojowym, nie posiada najnowszych funkcji scalanych codziennie do gałęzi głównej.
+-   Rozwojowy [AppImage](AppImage/pl.md), jest oparty na aktualnej gałęzi głównej i zawiera zależności potrzebne do pracy ze środowiskiem Złożenie 3, takie jak solver SolveSpace.
 
-Since the AppImage only works for Linux, for Windows users at the moment the only option to test Assembly3 is the first option (realthunder\'s fork).
+Ponieważ AppImage działa tylko dla Linuksa, dla użytkowników Windows w tej chwili jedyną możliwością przetestowania Złożenie 3 jest pierwsza opcja *(fork realthunder-a)*.
 
 
 {{top}}
 
-## HowTo
+## Jak
 
-### Get Started 
+## Zaczynamy
 
-There are many ways to create an assembly with Assembly3. Here is the most simple one you can do.
+Istnieje wiele sposobów na stworzenie złożenia za pomocą środowiska Złożenie 3. Oto najprostszy z nich, który możesz zastosować.
 
 :   <img alt="" src=images/Assembly3_Example-GettingStarted.jpg  style="width:600px;">
-:   *Final Result of the Getting Started Example. In the image the Assembly3 Worksbench is selected, so its multiple toolbars are visible. Note that the vertical \"TabBar\" left of the tree view is an AddOn Workbench that is not contained in standard FreeCAD (but can be installed with the Addon-Manager).*
+:   *Wynik końcowy przykładu wprowadzającego. Na obrazku zaznaczono środowisko pracy Złożenie 3, więc widoczne są jego liczne paski narzędzi. Zwróć uwagę, że pionowy \"Pasek zakładek\" po lewej stronie widoku drzewa jest dodatkiem, który nie jest zawarty w standardowym FreeCAD (ale może być zainstalowany za pomocą Menadżera dodatków).*
 
--   Press **<img src="images/Std_New.svg" width=16px> [New](Std_New.md)** to create a new FreeCAD file
--   Change to <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3](Assembly3_Workbench.md) workbench
--   Select **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Create assembly](Assembly3_CreateAssembly.md)
+-   Naciśnij przycisk **<img src="images/Std_New.svg" width=16px> [Nowy](Std_New/pl.md)**, aby utworzyć nowy plik FreeCAD.
+-   Zmień środowisko pracy na <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Złożenie 3](Assembly3_Workbench/pl.md).
+-   Wybierz przycisk **<img src="images/Assembly_New_Assembly.svg" width=16px> [Utwórz złożenie](Assembly3_CreateAssembly/pl.md)
 **
--   Change to <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ and a <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Cube](Part_Box.md)
--   <img alt="" src=images/Std_Save.svg  style="width:16px;"> _ and <img alt="" src=images/Std_Open.svg  style="width:16px;"> [Open\...](Std_Open.md) the file again
+-   Zmień środowisko pracy na <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ i <img alt="" src=images/Part_Box.svg  style="width:16px;"> [sześcian](Part_Box/pl.md).
+-   <img alt="" src=images/Std_Save.svg  style="width:16px;"> _ i <img alt="" src=images/Std_Open.svg  style="width:16px;"> [Otwórz \...](Std_Open/pl.md) ponownie plik.
 
-The tree view should look like this (0.20.pre and Link Branch):
+Widok drzewa powinien wyglądać tak jak poniżej *(0.20.pre i Link Branch)*:
 
 <img alt="" src=images/Assembly3_Example-Tree-01.png  style="width:300px;"> <img alt="" src=images/Assembly3_Example-Tree-02.png  style="width:280px;">
 
--   Now *Drag&Drop* with the mouse both **Cylinder** and **Cube** onto the **Parts** folder. They are moved into that folder.
+-   Teraz *Przeciągnij i upuść* za pomocą myszki oba obiekty **Walec** i **Sześcian** do folderu *\'Części*. Zostaną one przeniesione do tego folderu.
 
-    :   That is the quickest way and suitable for simple cases like this. A better way is via the use of link objects:
-    :   Select **Cube** and **Cylinder** and then **<img src="images/Std_LinkMake.svg" width=16px> [Make link](Std_LinkMake.md)** either from the **Context menu** (-\> LinkActions -\> MakeLink) or the **Structure** panel.
-    :   This adds two link objects. Then *Drag&Drop* the link objects to the **Parts** folder.
--   Click both top surfaces of **Cylinder** and **Cube** (keep Ctrl pressed (Cmd on a Mac))
--   Change to <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3](Assembly3_Workbench.md) workbench
--   Select **<img src="images/Assembly_ConstraintCoincidence.svg‎‎" width=16px> [Plane Coincidence](Assembly3_ConstraintCoincidence.md)** from the [Main constraints toolbar](#Main_Constraints_Toolbar.md).
+    :   Jest to najszybszy sposób i odpowiedni dla prostych przypadków, takich jak ten. Lepszym sposobem jest użycie obiektów łączących:
+    :   Wybierz obiekty **Sześcian** i **Walec**, a następnie **<img src="images/Std_LinkMake.svg" width=16px> [Utwórz łącze](Std_LinkMake/pl.md)** albo z **menu kontekstowego** *(-\> Akcje z łączami -\> Utwórz łącze)* lub panelu **Structure**.
+    :   Powoduje to dodanie dwóch obiektów linków. Następnie *Przeciągnij i upuść* te obiekty do folderu **Części**.
+-   Kliknij obie górne powierzchnie **Walca** i **Sześcianu** *(trzymając wciśnięty klawisz **Ctrl** (Cmd na Macu))*
+-   Zmień środowisko pracy na <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Złożenie 3](Assembly3_Workbench/pl.md).
+-   Wybierz przycisk **<img src="images/Assembly_ConstraintCoincidence.svg" width=16px> [Zbieżność płaszczyzn](Assembly3_ConstraintCoincidence.md)** z [głównego paska narzędzi wiązań](#G.C5.82.C3.B3wny_pasek_wi.C4.85za.C5.84.md).
 
-Now the parts should be joined into each other and your tree should look like this (0.20.pre and Link Branch):
+Teraz części powinny być połączone ze sobą i Twoje drzewo powinno wyglądać tak jak poniżej *(0.20.pre i Link Branch)*:
 
 <img alt="" src=images/Assembly3_Example-Tree-03.png  style="width:300px;"> <img alt="" src=images/Assembly3_Example-Tree-04.png  style="width:280px;">
 
--   Right click **\_Element** (either of the two) and select **Flip Part**.
+-   Kliknij prawym przyciskiem myszy **\_Element** *(albo jeden z dwóch)* i wybierz opcję **Przerzuć część**.
 
-Now the **Cylinder** should be on top of the **Cube**. If the whole thing is upside down, go back and select **Flip Part** on the other element.
+Teraz **walec** powinien znajdować się na wierzchu **sześcianu**. Jeśli całość jest odwrócona do góry nogami, wróć i wybierz **Odwróć część** na drugim elemencie.
 
-:   We omitted one important step that should be done in larger assemblies: Locking a base part.
-:   That means to define one part that should not be moved by constraints. In this example we use the **Cube** for that:
-    -   Select the lower face of the **Cube**. Only the lower face, not the whole **Cube**
-    -   select the **<img src="images/Assembly_ConstraintLock.svg‎‎" width=16px> [Locked](Assembly3_ConstraintLock.md)** constraint from the [Main constraints toolbar](#Main_Constraints_Toolbar.md)
+:   Pominęliśmy jeden ważny krok, który powinien być wykonywany w większych złożeniach: Zablokowanie części bazowej.
+:   Oznacza to zdefiniowanie jednej części, która nie powinna być przesuwana przez wiązania. W tym przykładzie używamy do tego celu **sześcianu**:
+    -   Wybierz dolną ścianę **sześcianu**. Tylko dolną ściankę, nie cały **sześcianu**\'.
+    -   wybierz wiązanie **<img src="images/Assembly_ConstraintLock.svg" width=16px> [zablokowania](Assembly3_ConstraintLock/pl.md)** z menu [Główny pasek wiązań](#G.C5.82.C3.B3wny_pasek_wi.C4.85za.C5.84.md).
 
-Done.
+Gotowe.
 
-The finished assembly tree should look like (0.20.pre and Link Branch):
+Gotowe drzewo złożenia powinno wyglądać tak *(0.20.pre i Link Branch)*:
 
 <img alt="" src=images/Assembly3_Example-Tree-05.png  style="width:300px;"> <img alt="" src=images/Assembly3_Example-Tree-06.png  style="width:280px;">:
 
-If you like you can move the **Locked** constraint upwards in the tree. Use the **<img src="images/Assembly_TreeItemUp.svg‎‎" width=16px> [Move item up](Assembly3_MoveItemUp.md)** button on the [Main toolbar](#Main_Toolbar.md) for that.
+Jeśli chcesz, możesz przesunąć wiązanie **Zablokowania** w górę drzewa. Użyj przycisku **<img src="images/Assembly_TreeItemUp.svg" width=16px> [Przesuń element do góry](Assembly3_MoveItemUp/pl.md)** na [Głównym pasku narzędzi](#G.C5.82.C3.B3wny_pasek_wi.C4.85za.C5.84.md).
 
-**Note:** all new external files must be **saved**, **closed** and re-**opend** at least once, so that Assembly3 can find it.
+**Uwaga:** wszystkie nowe pliki zewnętrzne muszą być **zapisane**, **zamknięte** i ponownie **otworzone** przynajmniej raz, aby środowisko Złożenie 3 mogło je odnaleźć.
 
-:   Without doing that FreeCAD can not give a file handle to the Assembly3 Workbench and it can not find the new part.
-:   When all parts are in the same file, you should **save**, **close** and re-**open** this file, too.
-
-
-{{top}}
-
-### Add an Offset 
-
-Assembly3 does not offer Offset with the constaints in the way the [A2plus Workbench](A2plus_Workbench.md) or other CAD tools do. Instead it offers a more general and flexible system to add offsets translations but also angles.
-
--   Add the offset in the properties of one [Elements](#Elements.md) of a [Constraint](#Constraint.md).
-
-    :   you can choose which one of the two you want to use.
-
-Example:
-
--   Add 2 cubes to an assembly and select their side faces.
--   select \"PlaneCoincident\". The cubes will be attached inside each other.
--   select one Element and *ContextMenu/Flip Part*. The cubes will be attached side-by-side.
--   select one Element property Offset/Position/Zz and set to 5mm. The cubes will be 5mm apart.
-
-:\* Test with other axes or the angle/axis fields. Also verify that you get the same result when using the other Element. This is the same approach for all other constraints.
+:   Bez tego FreeCAD nie może przekazać uchwytu pliku do środowiska pracy Złożenie 3 i nie znajdzie on nowej części.
+:   Gdy wszystkie części znajdują się w tym samym pliku, należy **zapisać**, **zamknąć** i ponownie **otworzyć** również ten plik.
 
 
 {{top}}
 
-### Solve a Solver Failure 
+### Dodaj odsunięcie 
 
-This often happens when parts are over-constrained, i.e. more than 6 DOF are locked.
+Złożenie 3 nie oferuje funkcji przesunięcia w stosunku do stałych w sposób, w jaki robi to środowisko [A2plus](A2plus_Workbench/pl.md) lub inne narzędzia CAD. Zamiast tego oferuje bardziej ogólny i elastyczny system do dodawania odsunięć, przemieszczeń, ale także kątów.
 
-The easiest way to find the problem is to click relevant constraints in the tree and select *ContextMenu/Disable* and re-calculate. It is helpful to know the last added constraints before the solver failed and just undo them.
+-   Dodaj odsunięcie we właściwościach jednego [elementu](#Elementy.md) [wiązania](#Wiązania.md).
 
-Note: as Assembly3 tries to compensate for over-constraint parts behind the scenes, sometimes the problem is just triggered by a new constraint but the root cause is somewhere different. Before deleting all and starting again, remember that you can re-use Elements. If you named them you can identify the required elements and re-build the constraints without using the 3D view at all. See [Elements](#Elements.md) seciton above.
+    :   możesz wybrać, który z tych dwóch chcesz użyć.
 
+Przykład:
 
-{{top}}
+-   dodaj 2 sześciany do złożenia i wybierz ich powierzchnie boczne.
+-   wybierz \"Zbieżność płaszczyzn\". Sześciany zostaną przymocowane wewnątrz siebie.
+-   wybierz jeden element i *w menu podręcznym / Obróć część*. Sześciany zostaną dołączone obok siebie.
+-   wybierz jedną właściwość elementu \"Odsunięcie / Pozycja / Zz\" i ustaw jej wartość na {{Value|5mm}}. Sześciany będą oddalone od siebie o 5mm.
 
-### Replace a part or rename a filename 
-
-When a part is removed or when a filename changes, the assembly breaks, it can not longer be solved and the solver will issue the message \"Inconsistent constraints\". The solver marks invalid Elements and Constrains with a question mark in the tree.
-
-One way to solve this is to just delete all invalid constraints and elements, import the new part and redo everything. But there is a better way:
-
--   Rename a file
-    1.  Use a file manager and copy the file you want renamed. Then give the new name to the copy.
-    2.  Open the copy in FreeCAD. The assembly and the old file should also be open
-    3.  Select the old object in the tree and click to change the propery \"Linked object\" (it does contain the old filename)
-    4.  A list dialog will open containing all open parts. It shows the filenames and objects of each part. The old part and object is selected. Locate the renamed part in the tree and select the same object in the new part. Then confim the selection.
-    5.  Delete the old part in the tree. Also the file can be deleted now.
-    6.  Constraints and elements of te old part became invalid. Open the constraint or Elements list in the tree. Then sequentially
-        -   select each element surface on the new part. An item in the tree will be highliged.
-        -   Take that item and drag&drop it over the old element (either in the element list or in one of the constraints where it was used). That element should become valid.
-        -   Repeat the procedure for the remaining elements. Often a single element is enough to allow Assembly3 to identify the remaining elements of the part automatically.
-        -   If an element was assigned to the wrong surface by accident, just repeat with the correct surface.
-    7.  Change the object name in FreeCAD, if desired
-
--   Replace a part with another part
-
-    :   *which is simular enough to the original part that the original constraints still make sense, of course*
-
-    1.  Delete the old part in the tree. Also the file can be deleted.
-    2.  Constraints and elements of te old part became invalid. Open the constraint or Elements list in the tree.
-        -   Select an element surface on the new part. An item in the tree will be highliged.
-        -   Take that item and drag&drop it over the old element (either in the element list or in one of the constraints where it was used). That element should become valid.
-        -   repeat the procedure for the remaining elements.
-        -   If an element was assigned to the wrong surface by accident, just repeat with the correct surface.
-    3.  Change the object name in FreeCAD, if desired
-
-\'\'Notes
-\* They are not as complicated as it may seem here. After 2-3 times they should become second nature and feel really easy to do.
-
--   Its not only usually ways quicker than deleting and re-doing constraints, its also safer because an element could have been used in a parent assembly. Deleting the original would destroy that link, re-assingning would keep it.
--   Also this procedure becomes really quick and easy to do if constraints and elements are named. There is no guessing where the surfaces should be dragged&dropped to because the names tell it (see [Tips & Tricks](#Tips_.26_Tricks.md)).
-
-\'\'
+Przetestuj z innymi osiami lub polami kąta / osi. Sprawdź również, czy uzyskasz ten sam rezultat używając drugiego elementu. Podobnie postępujemy dla wszystkich innych wiązań.
 
 
 {{top}}
 
-### Tips & Tricks 
+## Rozwiąż niepowodzenie solvera 
 
--   Using hierarchical assemblies helps in avoiding solver issues and keeping you model fluid. You can freeze a subassembly with one click and save CPU resources easily (use the context menu in the tree). When loading an assembly Assembly3 does not need to open external files for frozen subassemblies which keeps the tree compact.
--   Is very helpful to make it a habit to name the elements and constraints. Use the **F2** key to do this quickly in the tree. You will find the tree sorting tools in the main toolbar very useful. An assembly with fully named constraints and elements is very easy to understand for other people or for oneself when looking at an older file.
+= Zdarza się to często, gdy części są nadmiernie związane, tzn. mają zablokowanych więcej niż 6 stopni swobody.
 
-    :   Examples for constraint names for a table could be \"Align\_FrontLegs\", \"Align\_FrameBottom-LegTops\" and element names could be \"Leg1\_Top\" or \"TableTop\_Front\", \"TableTop\_Left\".
--   Please note that once external files are opened by an assembly its not possible easy to close them again without closing the assembly. Since the assembly keeps open those files in the backgound, the tab may disappear but the file remains visible in the tree. If you have several layers of subassemblies it becomes close to impossible to close single files. This behaviour may change, but until then a possible approach could be to regulary use the commands *File/Save All* and *File/Close All* to clean up the tree before working on another sub-assembly.
+Najprostszym sposobem na znalezienie problemu jest kliknięcie odpowiednich wiązań w drzewie i wybranie z *menu podręcznego / Wyłącz* i ponowne obliczenie. Dobrze jest znać ostatnio dodane wiązania przed niepowodzeniem solvera i po prostu je wycofać.
 
-    :   \'\'Example: consider you have a large CNC machine with a main assembly and a subassembly for each module. Once you have the main assembly open it may open literally hundreds of files down to a single ball bearing. Before working on the subassembly of the electronics cabinet of the machine it is a good idea to save and close all files to get an empty tree. Then open just the subassembly for the electronics cabinet. This will open all file it needs but ony those.
--   Using external files makes it easier to re-use a parts or do part versioning with systems like git or subversion. The workflow in FreeCAD with Assembly feels quite the same as with files that have all parts in the same file. For exchanging files often with other parties, single files might be more convenient.
--   Multiply linked parts. If you added a link into the assembly, it will have a property value named \"Element Count\", default 0. If you set this to 3 you get 3 instances of that part. They will be added into a subfolder and can be used like fully separte parts. Use this feature to keep the data footprint of your file low, because the part is saved only once. Each instance only contain the differences.
--   Insert multiple parts, e.g. Screws, with one click. Check out the [Assembly3 Wiki](https://github.com/realthunder/FreeCAD_assembly3/wiki/Constraints-and-Solvers) on the Github site. This is not only a stunning function (even a bit magic), but really really useful.
+Uwaga: ponieważ Złożenie 3 próbuje kompensować nadmiernie związane elementy niejawnie, czasami problem jest wywoływany przez nowe wiązanie, ale przyczyna leży gdzie indziej. Zanim usuniesz wszystko i zaczniesz od nowa, pamiętaj, że możesz ponownie użyć elementów. Jeśli je nazwiesz, możesz zidentyfikować wymagane elementy i ponownie zbudować wiązania bez używania widoku 3D. Zobacz sekcję [elementy](#Elementy.md) powyżej.
 
--   Using the [TabBar Workbench](https://github.com/triplus/TabBar) speeds up working with assembly. This adds a Toolbar with one button for each workbench. You can sort the toolbar and can put it where every you want it. Many people put it vertically on the left side just beside the tree view. Of you have Assembly3, Part, PartDesign and other often used workbenches close to the top switching between them becomes extremely easy.
+
+{{top}}
+
+### Zastępowanie części lub zmiana nazwy pliku 
+
+W przypadku usunięcia części lub zmiany nazwy pliku, złożenie ulega uszkodzeniu i nie może być rozwiązane, a solver wyświetli komunikat \" Niespójne wiązania\". Solver oznacza niepoprawne Elementy i Wiązania znakiem zapytania w drzewie.
+
+Jednym ze sposobów rozwiązania tego problemu jest po prostu usunięcie wszystkich niepoprawnych wiązań i elementów, zaimportowanie nowej części i ponowne wykonanie wszystkiego. Ale jest też lepszy sposób:
+
+-   Zmiana nazwy pliku.
+    1.  Użyj menedżera plików i skopiuj plik, którego nazwę chcesz zmienić. Następnie nadaj nową nazwę kopii.
+    2.  Otwórz kopię w programie FreeCAD. Złożenie i stary plik również powinny być otwarte.
+    3.  Zaznacz stary obiekt w drzewie i kliknij, aby zmienić właściwość \"Połączony obiekt\" *(zawiera on starą nazwę pliku)*.
+    4.  Zostanie otwarte okno dialogowe z listą wszystkich otwartych części. Pokazuje nazwy plików i obiektów każdej części. Stara część i obiekt są zaznaczone. Odszukaj w drzewie zmienioną część i wybierz ten sam obiekt w nowej części. Następnie zatwierdź wybór.
+    5.  Usuń starą część w drzewie. Również plik może być teraz usunięty.
+    6.  Wiązania i elementy starej części stały się nieprawidłowe. Otwórz listę wiązań lub elementów w drzewie. Następnie kolejno .
+        -   wybierz każdą powierzchnię elementu na nowej części. Element w drzewie zostanie podświetlony.
+        -   Weź ten element i przeciągnij go nad stary element *(albo na liście elementów, albo w jednym z wiązań, gdzie był używany)*. Ten element powinien stać się prawidłowy.
+        -   Powtórz tę procedurę dla pozostałych elementów. Często wystarczy jeden element, aby środowisko Złożenie 3 automatycznie zidentyfikowało pozostałe elementy części.
+        -   Jeżeli element został przypadkowo przypisany do niewłaściwej powierzchni, wystarczy powtórzyć czynność z właściwą powierzchnią.
+    7.  Zmień nazwę obiektu w programie FreeCAD, jeśli chcesz.
+
+-   Wymiana części na inną.
+
+    :   *która jest na tyle podobna do oryginalnej części, że pierwotne wiązania nadal mają sens, oczywiście*.
+
+    1.  Skasuj starą część w drzewie. Również plik może zostać usunięty.
+    2.  Wiązania i elementy starej części stały się niepoprawne. Otwórz listę wiązań lub elementów w drzewie.
+        -   Wybierz powierzchnię elementu na nowej części. Element w drzewie zostanie podświetlony.
+        -   Wybierz ten element i przeciągnij go nad stary element *(albo na liście elementów, albo w jednym z wiązań, gdzie był używany)*. Ten element powinien stać się poprawny.
+        -   Powtórz tę procedurę dla pozostałych elementów.
+        -   Jeśli element został przypadkowo przypisany do niewłaściwej powierzchni, powtórz procedurę z właściwą powierzchnią.
+    3.  Zmień nazwę obiektu w programie FreeCAD, jeśli chcesz.
+
+\'\'\'Uwagi
+\* Nie są one tak skomplikowane, jak mogłoby się wydawać. Po 2-3 razach powinny stać się drugą naturą i być naprawdę łatwe do wykonania.
+
+-   To nie tylko zwykle sposoby szybsze niż usuwanie i ponowne wykonywanie wiązań, ale także bezpieczniejsze, ponieważ element mógł być użyty w złożeniu nadrzędnym. Usunięcie oryginału zniszczyłoby to powiązanie, ponowne przypisanie zachowałoby je.
+-   Również ta procedura staje się naprawdę szybka i łatwa do wykonania, jeśli wiązania i elementy są nazwane. Nie ma potrzeby zgadywania, gdzie powierzchnie powinny być przeciągnięte i upuszczone, ponieważ nazwy mówią same za siebie *(zobacz sekcję [Wskazówki i porady](#Wskaz.C3.B3wki_i_porady.md))*.
+
+\'\'\'
+
+
+{{top}}
+
+### Wskazówki i porady 
+
+-   Używanie hierarchicznych złożeń pomaga uniknąć problemów z solverami i zachować płynność modelu. Można zamrozić podzespół jednym kliknięciem i w ten sposób łatwo zaoszczędzić zasoby procesora *(użyj menu kontekstowego w drzewie)*. Podczas wczytywania zespołu Assembly3 nie musi otwierać zewnętrznych plików dla zamrożonych podzespołów, dzięki czemu drzewo jest zwarte.
+-   Bardzo pomocne jest wyrobienie sobie nawyku nadawania nazw elementom i wiązaniom. Użyj klawisza **F2** aby zrobić to szybko na drzewie. Bardzo przydatne są narzędzia do sortowania drzewa w głównym pasku narzędzi. Zespół z w pełni nazwanymi wiązaniami i elementami jest bardzo łatwy do zrozumienia dla innych osób lub dla siebie, gdy przeglądasz starszy plik.
+
+    :   Przykłady dla nazw wiązań dla tabeli: \"Align\_FrontLegs\", \"Align\_FrameBottom-LegTops\", a nazwami elementów mogą być \"Leg1\_Top\" lub \"TableTop\_Front\", \"TableTop\_Left\".
+-   Należy pamiętać, że gdy zewnętrzne pliki zostaną otwarte przez złożenie, nie jest możliwe łatwe ich ponowne zamknięcie bez zamykania złożenia. Ponieważ złożenie utrzymuje otwarte pliki w tle, zakładka może zniknąć, ale plik pozostaje widoczny w drzewie. Jeśli masz kilka warstw podzespołów, staje się prawie niemożliwe, aby zamknąć pojedyncze pliki. To zachowanie może się zmienić, ale do tego czasu możliwym podejściem może być regularne używanie komend **Plik → Zapisz wszystkie** i **Plik → Zamknij wszystkie** w celu wyczyszczenia drzewa przed pracą nad innym złożeniem podrzędnym.
+
+    :   \'\'Przykład: Załóżmy, że masz dużą maszynę CNC z głównym złożeniem i złożeniem podrzędnym dla każdego modułu. Gdy główne złożenie jest otwarte, może otworzyć dosłownie setki plików aż do pojedynczego łożyska kulkowego. Przed rozpoczęciem pracy na złożeniu podrzędnym szafy elektroniki maszyny jest to dobry pomysł, aby zapisać i zamknąć wszystkie pliki, aby uzyskać puste drzewo. Następnie otwórz tylko złożenie podrzędne dla szafy elektroniki. To otworzy wszystkie pliki, których potrzebuje, ale tylko te.
+-   Używanie zewnętrznych plików ułatwia ponowne użycie części lub wersjonowanie części za pomocą systemów takich jak git lub subversion. Przepływ pracy w FreeCAD ze Złożeniami jest całkiem taki sam jak z plikami, które mają wszystkie części w tym samym pliku. Przy częstej wymianie plików z innymi stronami, pojedyncze pliki mogą być wygodniejsze.
+-   Mnożenie połączonych części. Jeśli dodałeś link do złożenia, będzie on miał wartość właściwości o nazwie \"Liczba elementów\", domyślnie 0. Jeśli ustawisz ją na wartość 3, otrzymasz 3 wystąpienia tej części. Będą one dodane do katalogu podrzędnego i mogą być używane jak w pełni oddzielne części. Użyj tej funkcji, aby utrzymać niski ślad danych w pliku, ponieważ część jest zapisywana tylko raz. Każde wystąpienie zawiera tylko różnice.
+-   Wstawianie wielu części, np. śrub, za pomocą jednego kliknięcia. Sprawdź [Assembly3 Wiki](https://github.com/realthunder/FreeCAD_assembly3/wiki/Constraints-and-Solvers) na stronie Github. Jest to nie tylko oszałamiająca funkcja (nawet trochę magiczna), ale naprawdę bardzo przydatna.
+
+-   Użycie [Paska zakładek](https://github.com/triplus/TabBar) przyspiesza pracę z montażem. Dzięki temu dodajemy pasek narzędzi z jednym przyciskiem dla każdego środowiska pracy. Możesz sortować pasek narzędzi i umieścić go gdziekolwiek chcesz. Wielu ludzi umieszcza go pionowo po lewej stronie, tuż obok widoku drzewa. Jeśli masz Złożenie 3, Część, Projekt Części i inne często używane narzędzia blisko góry, przełączanie się pomiędzy nimi staje się niezwykle proste.
 
 
 {{top}}
 
 ## Odnośniki internetowe 
 
--   [App Link](App_Link.md) object that makes Assembly3 work.
--   [FreeCAD\_assembly3](https://github.com/realthunder/FreeCAD_assembly3) repository and documentation.
--   [Assembly3 preview](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712), big discussion thread.
--   [Test tutorial for Assembly 3 Workbench](https://forum.freecadweb.org/viewtopic.php?f=36&t=29562) by jpg87.
--   [Current Assembly Status](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
--   [External workbenches](External_workbenches.md)
--   [Old Assembly project](Assembly_project.md) development plan, to get acquainted with the history of the issue.
+-   [App Link](App_Link/pl.md) obiekt, dzięki któremu działa środowisko Złożenie 3.
+-   [FreeCAD assembly3](https://github.com/realthunder/FreeCAD_assembly3) repozytorium i dokumentacja.
+-   [podgląd Złożenie 3](https://forum.freecadweb.org/viewtopic.php?f=20&t=25712), duży wątek dyskusyjny.
+-   [Przewodnik dla środowiska Złożenie 3](http://help-freecad-jpg87.fr/02_ass_ind.php) autorstwa jpg87.
+-   [Aktualny status Złożenia](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
+-   [Zewnętrzne środowiska pracy](External_workbenches/pl.md)
+-   [Projekt Starego Złożenia](Assembly_project/pl.md) plan rozwoju, w celu zapoznania się z historią zagadnienia.
 
 
 

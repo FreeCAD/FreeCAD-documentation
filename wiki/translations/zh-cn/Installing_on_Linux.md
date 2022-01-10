@@ -334,7 +334,7 @@ Many alternative, non-official FreeCAD packages are available on the net, for ex
 ### Manual install on .deb based systems 
 
 If for some reason you cannot use one of the above methods, you can always download one of the .deb packages available on the [Download](Download.md) page.
-{{DownloadUnixStable}}
+{{DownloadLinuxStable}}
 
 Once you downloaded the .deb corresponding to your system version, if you have the _ package installed (usually it is), you just need to navigate to where you downloaded the file, and double-click on it. The necessary dependencies will be taken care of automatically by your system package manager. Alternatively you can also install it from the terminal, navigating to where you downloaded the file, and type:
 

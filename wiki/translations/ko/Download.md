@@ -26,7 +26,7 @@ Previous versions can be downloaded from the [releases](https://github.com/FreeC
 ### Notes for Windows users 
 
 -   The following Windows versions are supported: 7/8/10/11.
--   A portable version ([64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD-0.19.3.6530e36-WIN-x64-portable.7z)) that doesn\'t need installation is available on the release page.
+-   A portable version that doesn\'t need installation is available on the [releases](https://github.com/FreeCAD/FreeCAD/releases/) page.
 -   The package can also be installed from the [Chocolatey](https://chocolatey.org/packages/freecad) manager.
 
 ### Notes for Mac OS X users 

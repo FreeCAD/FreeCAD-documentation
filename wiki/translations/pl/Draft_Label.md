@@ -31,7 +31,7 @@ See also: [Draft Tray](Draft_Tray.md), [Draft Snap](Draft_Snap.md) and [Draft Co
     -   Select the **Annotation → <img src="images/Draft_Label.svg" width=16px> Label** option from the menu.
     -   Use the keyboard shortcut: **D** then **L**.
 3.  The **Label** task panel opens. See [Options](#Options.md) for more information.
-4.  If you have selected an element: select an option from the **Label type** dropdown list. Additional label types can be set by changing the **Label Type** later. See [Label types](#Label_types.md) below.
+4.  If you have selected an element: select an option from the **Label type** dropdown list. See [Label types](#Label_types.md) below.
 5.  Pick the first point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button. This point indicates the target (arrow head). This can be anywhere, it does not have to be on an element.
 6.  Pick the second point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button. This point indicates the start of the horizontal or vertical segment of the leader.
 7.  Pick the third point in the [3D view](3D_view.md), or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> Enter point** button. This point indicates the base point of the text.
@@ -45,6 +45,43 @@ The single character keyboard shortcuts available in the task panel can be chang
 -   Press **G** or click the **Global** checkbox to toggle global mode. If global mode is on, coordinates are relative to the global coordinate system, else they are relative to the [working plane](Draft_SelectPlane.md) coordinate system. <small>(v0.20)</small> 
 -   Press **S** to switch [Draft snapping](Draft_Snap.md) on or off.
 -   Press **Esc** or the **Close** button to abort the command.
+
+## Label types 
+
+The following label types are available:
+
+-    {{Value|Custom}}: displays the contents of **Custom Text**.
+
+-    {{Value|Name}}: displays the internal name of the target object. The internal name is assigned when an object is created and remains fixed throughout the existence of the object.
+
+-    {{Value|Label}}: displays the label of the target object. The label of an object can be changed by the user.
+
+-    {{Value|Position}}: displays the coordinates of the base point of the target object, of the target vertex, or of the center of mass of the target subelement, if applicable.
+
+-    {{Value|Length}}: displays the length of the target object or subelement, if applicable.
+
+-    {{Value|Area}}: displays the area of the target object or subelement, if applicable.
+
+-    {{Value|Volume}}: displays the volume of the target object, if applicable.
+
+-    {{Value|Tag}}: displays the `Tag` attribute of the target object, if applicable. Objects created with the [Arch Workbench](Arch_Workbench.md) can have this attribute.
+
+-    {{Value|Material}}: displays the label of the material of the target object, if applicable.
+
+-    {{Value|Label + Position}}
+    
+
+-    {{Value|Label + Length}}
+    
+
+-    {{Value|Label + Area}}
+    
+
+-    {{Value|Label + Volume}}
+    
+
+-    {{Value|Label + Material}}
+    
 
 ## Notes
 
@@ -85,41 +122,6 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 -    **Target Point|Vector**: specifies the position of the tip of the leader, which is where the arrow is attached.
 
-#### Label types 
-
--    {{Value|Custom}}: displays the contents of **Custom Text**.
-
--    {{Value|Name}}: displays the internal name of the target object. The internal name is assigned when an object is created and remains fixed throughout the existence of the object.
-
--    {{Value|Label}}: displays the label of the target object. The label of an object can be changed by the user.
-
--    {{Value|Position}}: displays the coordinates of the base point of the target object, of the target vertex, or of the center of mass of the target subelement, if applicable.
-
--    {{Value|Length}}: displays the length of the target object or subelement, if applicable.
-
--    {{Value|Area}}: displays the area of the target object or subelement, if applicable.
-
--    {{Value|Volume}}: displays the volume of the target object, if applicable.
-
--    {{Value|Tag}}: displays the `Tag` attribute of the target object, if applicable. Objects created with the [Arch Workbench](Arch_Workbench.md) can have this attribute.
-
--    {{Value|Material}}: displays the label of the material of the target object, if applicable.
-
--    {{Value|Label + Position}}
-    
-
--    {{Value|Label + Length}}
-    
-
--    {{Value|Label + Area}}
-    
-
--    {{Value|Label + Volume}}
-    
-
--    {{Value|Label + Material}}
-    
-
 ### View
 
 
@@ -145,9 +147,9 @@ A Draft Label object is derived from an [App FeaturePython](App_FeaturePython.md
 
 -    **Line|Bool**: specifies whether to display the leader line. If it is `False` only the arrow and the text are displayed.
 
--    **Line Color|Color**: specifies the color of the leader and the arrow.
+-    **Line Color|Color**: specifies the color of the leader and the arrow. This is also used for the frame (<small>(v0.20)</small> ).
 
--    **Line Width|Float**: specifies the width of the leader.
+-    **Line Width|Float**: specifies the width of the leader. This is also used for the frame (<small>(v0.20)</small> ).
 
 
 {{TitleProperty|Text}}

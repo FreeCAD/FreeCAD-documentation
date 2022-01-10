@@ -27,7 +27,7 @@ Ikonka paska narzędzi ![](images/Macro_Align_Face_Object_to_View.png )
 **Macro\_Align\_Face\_Object\_to\_View.FCMacro**
 
 
-```python
+{{MacroCode|code=
 # This macro directs the face of the object on the side of the ActiveView (camera)
 # extact FCCamera
 # 16/01/2015
@@ -46,7 +46,7 @@ try:
 except Exception:
     App.Console.PrintError("Select a face and run the macro"+"\n")
 
-```
+}}
 
 ## Links
 

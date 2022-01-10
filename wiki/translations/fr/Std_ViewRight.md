@@ -20,9 +20,9 @@ La **Std Vue de droite** place la caméra dans la [vue 3D](3D_view/fr.md) dans l
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Appuyez sur le bouton **<img src="images/Std_ViewRight.svg" width=16px> [Std Afficher la vue de droite (3)](Std_ViewRight.md)**.
+    -   Appuyez sur le bouton **<img src="images/Std_ViewRight.svg" width=16px> [Droite](Std_ViewRight/fr.md)**.
     -   Sélectionnez l\'option **Affichage → Vues standards → <img src="images/Std_ViewRight.svg" width=16px> Droite** dans le menu.
-    -   Sélectionnez l\'option **Vues standard → <img src="images/Std_ViewRight.svg" width=16px> Droite** dans le menu contextuel de la [Vue 3](3D_view/fr.md).
+    -   Sélectionnez l\'option **Vues standard → <img src="images/Std_ViewRight.svg" width=16px> Droite** dans le menu contextuel de la [Vue 3D](3D_view/fr.md).
     -   Utilisez le raccourci clavier: **3**.
 
 ## Script

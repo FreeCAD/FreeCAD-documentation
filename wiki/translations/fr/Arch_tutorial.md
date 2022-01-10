@@ -366,7 +366,7 @@ Maintenant, quand nous regardons notre élévation arrière, et la comparons ave
 
 <img alt="" src=images/Arch_tutorial_41.jpg  style="width:1024px;">
 
-Nous avons bien sûr plusieurs façons de le faire, faire un volume de soustraction serait un moyen facile, mais ce serait ajouter une complexité inutile au modèle. Mieux vaut modifier le filaire de base de chaque plancher. C\'est là que l\'outil [Modifier](Draft_Edit/fr.md) entre en action. En développant ces planchers dans l\'arborescence, puis en rendant leurs filaires de base visibles, nous pouvons double-cliquer dessus pour passer en mode édition. Là, nous pouvons déplacer leurs points, ou ajouter ou supprimer des points. Avec cela, l\'édition de nos plaques de sol devient facile.
+Nous avons bien sûr plusieurs façons de le faire, faire un volume de soustraction serait un moyen facile, mais ce serait ajouter une complexité inutile au modèle. Mieux vaut modifier le filaire de base de chaque plancher. C\'est là que l\'outil [Draft Éditer](Draft_Edit/fr.md) entre en action. En développant ces planchers dans l\'arborescence, puis en rendant leurs filaires de base visibles, nous pouvons double-cliquer dessus pour passer en mode édition. Là, nous pouvons déplacer leurs points, ou ajouter ou supprimer des points. Avec cela, l\'édition de nos plaques de sol devient facile.
 
 <img alt="" src=images/Arch_tutorial_42.jpg  style="width:1024px;">
 

@@ -36,7 +36,7 @@ ToolBar Icon ![](images/Macro_FlattenWire.png )
 **Macro\_FlattenWire.FCMacro**
 
 
-```python
+{{MacroCode|code=
 import FreeCAD
 obj = FreeCAD.ActiveDocument.ActiveObject
 z = 0
@@ -45,7 +45,7 @@ z = z/len(obj.Points)
 newpoints = []
 for p in obj.Points: newpoints.append(FreeCAD.Vector(p.x, p.y, z))
 obj.Points = newpoints
-```
+}}
 
 ---
 [documentation index](../README.md) > Macro FlattenWire/sv

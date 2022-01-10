@@ -22,7 +22,7 @@ ToolBar icon ![](images/Macro_Visibility_Manager.png )
 **Macro\_Visibility\_Manager.FCMacro**
 
 
-```python
+{{MacroCode|code=
 # -*- coding: utf-8 -*-
 """
 ***************************************************************************
@@ -234,7 +234,7 @@ if FreeCAD.ActiveDocument:
         result = dlg.exec_()
 else:
     FreeCAD.Console.PrintWarning("Visibility Manager v"+str(__version__)+": no active document\n")
-```
+}}
 
 ---
 [documentation index](../README.md) > Macro Visibility Manager/pl

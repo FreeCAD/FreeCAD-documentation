@@ -74,8 +74,8 @@ The mirror result can be previewed in real time before clicking **OK** by checki
 ## Limitations
 
 -   The Mirrored feature cannot mirror a whole solid body. For that, see [Part Mirror](Part_Mirror.md) .
-
--   The mirrored feature must intersect the solid (also called *support*) it is based on, or the command will fail .
+-   A Mirrored feature cannot be applied directly to another pattern, be it polar, linear or another mirror. For this you need a [PartDesign MultiTransform](PartDesign_MultiTransform.md).
+-   The mirrored feature must intersect the solid (also called *support*) it is based on, or the command will fail.
 
 
 

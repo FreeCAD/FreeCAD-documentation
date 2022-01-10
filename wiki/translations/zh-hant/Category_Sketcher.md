@@ -3,7 +3,7 @@ This category lists pages related to the [Sketcher Workbench/zh-hant](Sketcher_W
 
 ### Contents:
 
-_ , [Sketcher Workbench/zh-hant](Sketcher_Workbench/zh-hant.md)
+[Sketcher Workbench/zh-hant](Sketcher_Workbench/zh-hant.md)
 
 _
 

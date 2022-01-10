@@ -109,8 +109,6 @@ Il risultato della funzione di simmetria può essere visualizzato in tempo reale
 
 </div>
 
--   La funzione di simmetria deve intersecare il solido su cui si basa (chiamato anche \"supporto\"), altrimenti il comando fallisce.
-
 
 <div class="mw-translate-fuzzy">
 

@@ -1,17 +1,11 @@
 # TechDraw TemplateGenerator/fr
-<div class="mw-translate-fuzzy">
-
-
 {{TutorialInfo/fr
 |Topic=Création de modèles avec une macro Python
 |Level=Des connaissances de base de Python et de svg-structures sont utiles.
 |FCVersion=0.19.1 et plus
 |Time=(ne sait pas)
-|Author= [[User:FBXL5]]
+|Author=_
 }}
-
-
-</div>
 
 ## Introduction
 

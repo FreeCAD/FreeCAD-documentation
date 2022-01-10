@@ -47,7 +47,7 @@ FreeCAD, подобно многим современным приложения
 
 -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> The [Start Center Workbench](Start_Workbench.md) allows you to quickly jump to one of the most common workbenches.
 
--   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> The [Surface Workbench](Surface_Workbench.md) provides tools to create and modify surfaces. It is similar as the Part Shape builder Face from edges.
+-   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> The [Surface Workbench](Surface_Workbench.md) provides tools to create and modify surfaces. It is similar to the [Part Builder](Part_Builder.md) Face from edges option.
 
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> The [TechDraw Workbench](TechDraw_Workbench.md) for producing technical drawings from 3D models. It is the successor of the [Drawing Workbench](Drawing_Workbench.md).
 
@@ -67,13 +67,7 @@ The following workbenches are still included in the base installation for compat
 
 Верстаки FreeCAD легко программируются в [Python](Python/ru.md), поэтому многие разрабатывают дополнительные верстаки вне кодовой базы FreeCAD.
 
-
-<div class="mw-translate-fuzzy">
-
 Страница [внешние верстаки](External_workbenches/ru.md) перечисляет все известные сообществу. Большинство из них легко устанавливается из FreeCAD, используя [Addon Manager](Std_AddonMgr/ru.md) через меню **Инструменты → <img src="images/Std_AddonMgr.svg" width=24px> Addon manager**.
-
-
-</div>
 
 Новые верстаки всегда в разработке, следите за обновлениями!
 

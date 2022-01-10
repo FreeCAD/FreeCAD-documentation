@@ -86,10 +86,6 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 -   Des ajustements pour des caractéristiques de fonctionnement optimales peuvent être effectués avec les paramètres de l\'engrenage à développante.
 
-## Limitations
-
-Aucune limitation n\'est connue.
-
 ## Vue d\'ensemble de l\'ensemble couronne et pignon droit 
 
 ![](images/Crown-spur-gear-set_example.png )

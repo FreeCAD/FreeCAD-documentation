@@ -47,33 +47,15 @@ Beginne damit, FreeCAD herunter zu laden und zu installieren. Für Informationen
 
 Das Hauptkonzept der FreeCAD Oberfläche besteht darin, dass sie in [Arbeitsbereiche](workbenches/de.md) unterteilt ist. Ein Arbeitsbereich ist eine Sammlung von Werkzeugen, die für eine bestimmte Aufgabe angepasst wurden, wie z.B. das Arbeiten mit [Polygonnetzen (mesh)](Mesh_Workbench/de.md) oder das Zeichnen von [2D Objekten](Draft_Workbench/de.md) oder das Arbeiten mit [beschränkten Skizzen](Sketcher_Workbench/de.md). Der aktuelle Arbeitsbereich kann mit dem [Arbeitsbereich Wähler](Std_Workbench/de.md) gewechselt werden. Die in jedem Arbeitsbereich enthaltenen Werkzeuge können individuell [angepasst werden](Interface_Customization/de.md). Werkzeuge von anderen Arbeitsbereichen und auch selbst erstellte [Makros](macros/de.md) können hinzugefügt werden. Meistens wird mit dem [Arbeitsbereich PartDesign](PartDesign_Workbench/de.md) und /oder [Arbeitsbereich Part](Part_Workbench/de.md) begonnen.
 
+Wenn du FreeCAD zum ersten Mal startest, wird dir die Startseite angezeigt. So sieht sie für die Version 0.19 aus:
 
-<div class="mw-translate-fuzzy">
-
-Wenn du FreeCAD zum ersten Mal startest, wird dir Startseite dargeboten. So sieht sie für die Version 0.18 aus:
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-<img alt="" src=images/Start_center_0.18_screenshot.jpg  style="width:1024px;">
-
-
-</div>
+<img alt="" src=images/Start_center_0.19_screenshot.png  style="width:600px;">
 
 Die Startseite ermöglicht es dir, schnell zu einer der gebräuchlichsten Arbeitsbereiche zu springen, eine der letzten Dateien zu öffnen oder die neuesten Nachrichten aus der FreeCAD Welt zu sehen. Du kannst den Standard Arbeitsbereich in den [Einstellungen](Preferences_Editor/de.md) ändern.
 
 ## Navigieren im 3D Raum 
 
-
-<div class="mw-translate-fuzzy">
-
-FreeCAD bietet vier verschiedene [Navigationsmodi](Mouse_navigation/de.md), die sich durch die Art und Weise der Objektinteraktion in der Ansicht und der 3D Ansicht unterscheiden. Einer dieser Modi ist speziell für [Touchpads](Mouse_navigation/de#Touchpad_Navigation.md) ausgelegt, bei dem die mittlere Maustaste nicht genutzt wird. Die nachstehende Tabelle beschreibt den standardmäßig eingestellten Modus **CAD Navigation** (Sie können den aktuellen Navigationsmodus über das Menü umschalten, das Sie durch einen Rechtsklick in einen leeren Bereich erhalten):
-
-
-</div>
+FreeCAD bietet verschiedene <img src=images/NavigationCAD.svg style="width:Navigationsmodi](Mouse_navigation/de.md), die sich durch die Art und Weise, mit Objekten in der 3D Ansicht und der 3D Ansicht selbst zu interagieren, unterscheiden. Einer dieser Modi ist speziell für [Touchpads](Mouse_navigation/de#Touchpad_Navigation.md) ausgelegt, bei dem die mittlere Maustaste nicht genutzt wird. Der Standard Navigationsmodus ist [CAD Navigation](Mouse_navigation/de#CAD_navigation.md). Mit der **[16px">** Schaltfläche in der [Status bar](Status_bar/de.md) oder durch rechts klicken eines lehren Bereichst der [3D Ansicht](3D_view/de.md) kann schnell zwischen verschiedenen Moden gewechselt werden.
 
 Es stehen mehrere Ansichtsvoreinstellungen (beispielsweise Draufsicht, Frontansicht, usw.) im Ansichtsmenü, auf der Ansichtssymbolleiste und über Tastenkürzel (**1**, **2**, usw.) zur Verfügung. Mit einem Rechtsklick auf ein Objekt oder den Leerbereich der Ansicht steht ein schneller Zugriff auf allgemeine Vorgänge zur Verfügung, beispielsweise um eine bestimmte Ansicht oder ein Objekt in der Baumansicht auszuwählen.
 
@@ -135,13 +117,7 @@ Mehr dazu auf der Seite [Tutorials](Tutorials/de.md).
 
 ## Erweiterungen, Makros und externe Arbeitsbereiche 
 
-
-<div class="mw-translate-fuzzy">
-
-Freecad bietet als Open-Source-Software die Möglichkeit, seine Arbeitsbereiche mit Erweiterungen zu ergänzen.
-
-
-</div>
+FreeCAD bietet als Open-Source-Software die Möglichkeit, seine Arbeitsbereiche mit Erweiterungen zu ergänzen.
 
 Das Prinzip [Erweiterungen](Addon/de.md) basiert auf der Entwicklung eines Arbeitsbereich Ergänzung. Jeder Benutzer kann eine Funktion entwickeln, die er für seine eigenen Bedürfnisse oder letztlich für die Gemeinschaft für vermisst hält. Mit dem Forum kann der Benutzer eine Meinung, Hilfe im Forum einholen. Es kann, oder auch nicht, das Objekt seiner Entwicklung nach den Regeln des Urheberrechts zu definieren. Frei für ihn/sie. Für die Entwicklung stehen dem Anwender [scripting](scripting/de.md) Funktionen zur Verfügung.
 

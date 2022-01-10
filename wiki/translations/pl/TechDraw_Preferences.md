@@ -28,7 +28,7 @@ Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościa
 
 ### Zasady
 
--   **Grupa kąt projekcji**: [Grupa rzutów](TechDraw_ProjectionGroup.md) będzie używać projekcji pierwszego lub trzeciego kąta. Wyjaśnienie znajduje się na stronie [rzut wielu widoków](https://en.wikipedia.org/wiki/Multiview_projection#Multiviews).
+-   **Grupa kąt projekcji**: [Grupa rzutów](TechDraw_ProjectionGroup/pl.md) będzie używać projekcji pierwszego *(standard europejski)* lub trzeciego *(standard amerykański)* kąta. Wyjaśnienie znajduje się na stronie [rzut wielu widoków](https://en.wikipedia.org/wiki/Multiview_projection#Multiviews).
 -   **Ukryta linia**: Styl *(ciągła, przerywana, itp.)* do zastosowania w ukrytych liniach.
 
 ### Plik
@@ -154,7 +154,7 @@ HLR oznacza \"usunięcie ukrytej linii\".
 -   **Pokaż luźne Geometrie 2D**: Zawiera obiekty 2D w rzutach, np. luźne szkice.
 -   **Obszar krawędzi**: Rozmiar obszaru zaznaczenia wokół krawędzi. Jednostka rozmycia wynosi około 0,1 mm, w zależności od aktualnego przybliżenia widoku.
 -   **Obszar zaznaczenia**: Obszar zaznaczenia wokół znaczników środków. Jednostka rozmycia wynosi około 0,1 mm, w zależności od aktualnego przybliżenia widoku.
--   **Kształt zakończenia linii**: Ustawienie kształtu zakończenia linii. Wyjaśnienie opcji: <https://doc.qt.io/qt-5/qt.html#PenCapStyle-enum> .
+-   **Kształt zakończenia linii**: Ustawienie kształtu zakończenia linii. Wyjaśnienie opcji: <https://doc.qt.io/qt-5/qt.html#PenCapStyle-enum> kształt zakończenia linii.
 -   **Max SVG kafelki kreskowania**: Limit płytek SVG o rozmiarze 64x64 pikseli stosowany do zakreskowania pojedynczej powierzchni. Przy dużych skalach można popełnić błąd przy wielu kafelkach SVG, wtedy należy zwiększyć limit kafelków.
 -   *Maksymalne segmenty linii kreskowania PAT*: Maksymalna liczba segmentów linii kreskowania stosowana przy kreskowaniu powierzchni o wzorze PAT.
 

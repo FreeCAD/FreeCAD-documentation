@@ -35,10 +35,16 @@ A note of caution, using this tool to link to generated (solid) geometry can lea
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 -   Create a new sketch, or open an existing sketch.
 -   Click \'Sketcher External\' button
 -   Select an edge or a vertex that you want to link to in the sketch.
 -   Press Esc, or select another tool to stop importing geometry into the sketch.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

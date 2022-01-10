@@ -20,9 +20,7 @@ Run the macro within a workbench that has a missing toolbar(s).
 
 ## Script
 
-
-
-ToolBar Icon ![](images/GuiResetToolbars.svg )
+ToolBar Icon  ![](images/GuiResetToolbars.svg )
 
 **GuiResetToolbars.FCMacro**
 

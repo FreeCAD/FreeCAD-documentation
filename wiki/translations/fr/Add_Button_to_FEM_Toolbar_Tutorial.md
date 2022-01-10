@@ -37,7 +37,7 @@ Le nouveau fichier icône SVG doit être enregistré pour le bouton GUI en l\'in
 
 Une nouvelle classe de commande doit être ajoutée au module `src/Mod/Fem/femcommands/commands.py`.
 
-Il suffit de copier/coller une commande existante, puis d\'ajuster l\'icône, le texte du menu et l\'info-bulle dans `__init__(self)` :
+Il suffit de copier/coller une commande existante, puis d\'ajuster l\'icône, le texte du menu et l\'infobulle dans `__init__(self)` :
 
 
 {{code|code=

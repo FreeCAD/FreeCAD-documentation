@@ -5,20 +5,21 @@
    MenuLocation:Path → Tâche
    Workbenches:[Path](Path_Workbench/fr.md)
    Shortcut:**P** **J**
+   SeeAlso:[Path Post-traitement](Path_Post/fr.md), [Path Personnalisation du post-processeur](Path_Postprocessor_Customization/fr.md)
 ---
 
 # Path Job/fr
 
 ## Description
 
-L\'outil Travail (Tâche) crée un nouvel objet Travail dans le document actif. L\'objet Travail contient les informations suivantes:
+L\'outil Tâche crée un nouvel objet Tâche dans le document actif. L\'objet Tâche contient les informations suivantes :
 
-1.  Une liste de définitions des paramètres des outils, spécifiant la géométrie, les paramètres de coupe et les vitesses pour les outils des Opérations de Path.
-2.  Une liste séquentielle du flux de travail des Opérations de Path.
-3.  Un Corps de base: un clone utilisé pour le décalage.
-4.  Un Brut représentant la matière première qui sera usinée dans l\'atelier Path.
-5.  Une feuille de calcul, contenant les entrées utilisées par les opérations de Path, y compris les valeurs statiques et les formules.
-6.  Les Paramètres de configuration spécifiant le chemin de destination, le nom de fichier et l\'extension du fichier G-Code, ainsi que le post-processeur utilisé pour générer le langage approprié pour le contrôleur CNC cible et personnaliser les unités, les changements d\'outil, le stationnement, etc.
+1.  Une liste de définitions des paramètres des outils, spécifiant la géométrie, les paramètres de coupe et les vitesses pour les outils des opérations de Path.
+2.  Une liste séquentielle d\'opérations de travail des opérations de Path.
+3.  Un corps de base : un clone utilisé pour le décalage.
+4.  Un brut représentant la matière première qui sera usinée dans l\'atelier Path.
+5.  Une feuille de calcul, contenant les entrées utilisées par les opérations de Path, comprenant des valeurs statiques et des formules.
+6.  Des paramètres de configuration spécifiant la trajectoire prévue de la tâche de sortie en G-Code, le nom de fichier et l\'extension, ainsi que le [post-processeur](Path_Post/fr.md) (utilisé pour générer le langage approprié pour le contrôleur CNC cible et personnaliser les unités, les changements d\'outil, le stationnement, etc.).
 
 ## Usage
 
@@ -47,8 +48,8 @@ La boîte de dialogue GUI de la Tâche comporte cinq onglets alignés horizontal
     -   **%M** répertoire macro utilisateur
     -   **%j** nom de l\'emploi
 
--   **Processor**: Sélectionnez le post-processeur pour votre machine.
--   **Arguments**: Ajoutez des arguments pour le post-processeur si nécessaire.
+-   **Processor**: Sélectionnez le [post-processeur](Path_Post/fr.md) pour votre machine.
+-   **Arguments**: Ajoutez des arguments pour le [post-processeur](Path_Post/fr.md) si nécessaire.
 
 ## Conditions initiales 
 
@@ -62,7 +63,7 @@ La boîte de dialogue GUI de la Tâche comporte cinq onglets alignés horizontal
 
 ![](images/Job_4.jpg )
 
-Ajoutez le(s) outil(s) de votre [Magasin d\'outils](Path_ToolLibraryEdit/fr.md) dont vous avez besoin pour les opérations de ce travail.
+Ajoutez le(s) outil(s) de votre [Gestionnaire d\'outils](Path_ToolLibraryEdit/fr.md) dont vous avez besoin pour les opérations de ce travail.
 
 Après avoir ajouté un outil, vous pouvez définir / modifier l\'avance et la vitesse de broche si vous avez besoin d\'une vitesse d\'avance différente dans cette tâche. Une modification ici ne modifie pas les paramètres stockés dans le magasin d\'outils.
 

@@ -790,6 +790,12 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
   Unit string
   Alias
   Alias for this cell
+  Einstellungen
+  Spreadsheet
+  Import/Export Settings
+  Delimiter Character
+  Quote Character
+  Escape Character
 
 
 </div>
@@ -856,15 +862,18 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 
 <div class="mw-collapsible-content toccolours">
 
-  Englischer Ausdruck   Wortart   Deutscher Ausdruck                     Anmerkung
-  --------------------- --------- -------------------------------------- ------------------------------------------------------------------------------
-  Brake                 Noun      **Kantbank**, (Abkantpresse)           Gerät zum Abkanten von Blechen
-  Dimension             Noun      Maß                                    Abstand zweier paralleler Flächen bzw. zweier punkte
-  Flange                Noun      Flansch                                Montagerand (Rohr-, Schweiß-, Bördelflansch)
-  Flange                Noun      Bördel, stehender Falz, Umbug, Kante   Oberbegriff für rechtwinklig abgestellte Blechränder
-  Hem                   Noun      Falz                                   Oberbegriff für (auch mehrfach) umgeschlagene Blechränder
-  Scale                 Noun      Maßstab                                Darstellungsverhältnis meist gezeichneter Geometrie zum Tatsächlichen Objekt
-  Straight flange       Noun      Kante                                  Rechtwinklig und entlang einer Geraden abgestellter Blechrand
+  Englischer Ausdruck   Wortart   Deutscher Ausdruck                                                                                                                                                                                 Anmerkung
+  --------------------- --------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  Brake                 Noun      **Kantbank**, (Abkantpresse)                                                                                                                                                                       Gerät zum Abkanten von Blechen
+  Constraint            Noun      Bedingung, Beschränkung, Zwang, Auflage, Einschränkung, Nebenbedingung, (technische) Begrenzung, Restriktion, Hemmung, Nötigung, Randbedingung, Zwangsbedingung, Verformungsbehinderung            Wie die Einträge des Online-Wörterbuches zeigen, behindert man sich und die Verständlichkeit von Übersetzungen, wenn man nur Beschränkung als einzig mögliche Übersetzung ansieht.
+  Constrain             Verb      Fesseln, belegen, zwingen, beschränken, behindern, einschränken, hemmen                                                                                                                            Siehe Constraint.
+  Dimension             Noun      **Maß**                                                                                                                                                                                            Abstand zweier paralleler Flächen bzw. zweier punkte
+  Flange                Noun      Flansch                                                                                                                                                                                            Montagerand (Rohr-, Schweiß-, Bördelflansch)
+  Feature               Noun      Eigenschaft, Funktion, Merkmal, Besonderheit, Charakteristikum, Einrichtung, Kennzeichen, Zusatz, äußere Erscheinung, Befund, Abstraktion, Konstruktionsmerkmal, Eigentümlichkeit, Auffälligkeit   Stark vom Zusammenhang abhängig
+  Flange                Noun      Bördel, stehender Falz, Umbug, Kante                                                                                                                                                               Oberbegriff für rechtwinklig abgestellte Blechränder
+  Hem                   Noun      Falz                                                                                                                                                                                               Oberbegriff für (auch mehrfach) umgeschlagene Blechränder
+  Scale                 Noun      Maßstab                                                                                                                                                                                            Darstellungsverhältnis meist gezeichneter Geometrie zum Tatsächlichen Objekt
+  Straight flange       Noun      Kante                                                                                                                                                                                              Rechtwinklig und entlang einer Geraden abgestellter Blechrand
 
 
 </div>
@@ -880,16 +889,43 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 
 <div class="mw-collapsible-content toccolours">
 
-  Ausdruck                       Beschreibung
-  ------------------------------ -----------------------------------------------------------------------------------------------------------------------------------------
-  **Kantbank**, (Abkantpresse)   Gerät zum Abkanten (d.h. zum biegen um eine gerade Werkzeugkante mit konstantem Biegeradius) von Blechen.
-  Falz                           Umgeschlagener (um ca. 180° gebogener) Blechrand. Für steifere Blechränder, als Verletzungsschutz oder zum Verbinden zweier Werkstücke.
-  Flansch                        Montagerand an Rohrenden (Rohrflansch) oder Blechen (Schweiß-, Bördelflansch)
-  Fluchten                       In derselben Ausrichtung (kollinear, komplanar) verlaufend
-  Bördel, stehender Falz         Meist rechtwinklig abgestellter (umgebogener) Rand gewölbter Bleche bzw. entlang geschwungener Konturen
-  Kante                          Meist rechtwinklig abgestellter (umgebogener) Rand an geraden Blechrändern
-  Pause, Blaupause               Veraltet für Zeichnungskopie
-                                 
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Ausdruck                     | Beschreibung                                                                                                                                                                                                                                                        |
++==============================+=====================================================================================================================================================================================================================================================================+
+| #### Zeichnung               |                                                                                                                                                                                                                                                                     |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Maß (Maßeintrag)             | Abstand zwischen 2 Punkten oder 2 parallelen Ebenen (3D) bzw. Strecken (2D). Die zeichnerische Darstellung besteht aus Maßzahl, Maßlinie, Maßhilfslinien und ggf. ergänzenden Angaben, wie z.B. Maßeinheit, Toleranz oder Rahmen zur Kennzeichnung spezieller Maße. |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Abmessung                    | Objekte/Werkstücke haben Abmessungen wie z.B. Länge, Breite, Höhe und Wandstärke. In einer Zeichnung werden sie als Maße eingetragen.                                                                                                                               |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Bemaßen                      | Das Eintragen der Maße auf einer Zeichnung. Früher mit dem Ziel ein Werkstück im Zusammenhang mit einer ausreichenden Anzahl von Ansichten vollständig zu beschreiben; heute als Ergänzung zum verbindlichen 3D-Datensatz.                                          |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Bemaßung                     | Die Gesamtheit aller Einträge zur (vollständigen) maßlichen Beschreibung eines Werkstücks.Kein Synonym für Maß!                                                                                                                                       |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Maßstab                      | (Größen-) Verhältnis des in einer Ansicht abgebildeten Werkstückes zu dessen tatsächlicher Größe. Auf der Zeichnung in der Regel als Division ganzer Zahlen angegeben, z.B. 5:1 (Vergrößerung), 1:2 (Verkleinerung).(Siehe auch Skalierung)           |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Pause, Blaupause             | Veraltet für Zeichnungskopie                                                                                                                                                                                                                                        |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Skalieren                    | Größenänderung eines Objektes (Vergrößerung oder Verkleinerung)                                                                                                                                                                                                     |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Skalierung                   | Verhältnis der Größe eines Objektes vor und nach dem Skalieren. Meist als ein Vielfaches der Ausgangsgröße oder in Prozent angegeben, z.B. 2x, 200% (Vergrößerung), 0,5x, 50% (Verkleinerung).(Siehe auch Maßstab)                                    |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| #### Werkstatt               |                                                                                                                                                                                                                                                                     |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Kantbank**, (Abkantpresse) | Gerät zum Abkanten (d.h. zum biegen um eine gerade Werkzeugkante mit konstantem Biegeradius) von Blechen.                                                                                                                                                           |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Falz                         | Umgeschlagener (um ca. 180° gebogener) Blechrand. Für steifere Blechränder, als Verletzungsschutz oder zum Verbinden zweier Werkstücke.                                                                                                                             |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Flansch                      | Montagerand an Rohrenden (Rohrflansch) oder Blechen (Schweiß-, Bördelflansch)                                                                                                                                                                                       |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Fluchten                     | In derselben Ausrichtung (kollinear, komplanar) verlaufend                                                                                                                                                                                                          |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Bördel, stehender Falz       | Meist rechtwinklig abgestellter (umgebogener) Rand gewölbter Bleche bzw. entlang geschwungener Konturen                                                                                                                                                             |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Kante                        | Meist rechtwinklig abgestellter (umgebogener) Rand an geraden Blechrändern                                                                                                                                                                                          |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                              |                                                                                                                                                                                                                                                                     |
++------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
 </div>

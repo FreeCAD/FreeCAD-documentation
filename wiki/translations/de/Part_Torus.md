@@ -69,6 +69,18 @@ Die Erst-Werte der beiden Winkel Angle2 und Angle3 ergeben in Summe 360°, was d
 
 </div>
 
+## Scripting
+
+A Part Torus can be created using the following function:
+
+
+```python
+torus = FreeCAD.ActiveDocument.addObject("Part::Torus", "myTorus")
+```
+
+-   Where {{Incode|"myTorus"}} is the name for the object.
+-   The function returns the newly created object.
+
 
 <div class="mw-translate-fuzzy">
 

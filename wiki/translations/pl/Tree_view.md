@@ -140,7 +140,7 @@ Gdy użytkownik jest skupiony na widoku drzewa, dostępne są następujące oper
 
 -    **Ctrl**\+**F**: otwiera okno wyszukiwania na dole drzewa, umożliwiając wyszukiwanie i docieranie do obiektów za pomocą ich nazw lub etykiet.
 
--   Rozwijanie i zwijanie za pomocą kombinacji klawiszy **Alt**+**Arrow**: {{WVersion/pl|0.20}}
+-   Rozwijanie i zwijanie za pomocą kombinacji klawiszy **Alt**+**Arrow**: {{Version/pl|0.20}}
     -   
         **Alt**
         

@@ -20,9 +20,9 @@ La **Std Vue de gauche** place la caméra dans la [vue 3D](3D_view/fr.md) dans l
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Appuyez sur le bouton **<img src="images/Std_ViewLeft.svg" width=16px> [Std Afficher la vue de gauche (6)](Std_ViewLeft.md)**.
+    -   Appuyez sur le bouton **<img src="images/Std_ViewLeft.svg" width=16px> [Gauche](Std_ViewLeft/fr.md)**.
     -   Sélectionnez l\'option **Affichage → Vues standards → <img src="images/Std_ViewLeft.svg" width=16px> Gauche** dans le menu.
-    -   Sélectionnez l\'option **Vues standard → <img src="images/Std_ViewLeft.svg" width=16px> Gauche** dans le menu contextuel de la [Vue 3](3D_view/fr.md).
+    -   Sélectionnez l\'option **Vues standard → <img src="images/Std_ViewLeft.svg" width=16px> Gauche** dans le menu contextuel de la [Vue 3D](3D_view/fr.md).
     -   Utilisez le raccourci clavier: **6**.
 
 ## Script

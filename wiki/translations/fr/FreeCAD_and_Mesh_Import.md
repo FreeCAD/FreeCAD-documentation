@@ -37,7 +37,7 @@ Eh bien, votre coque semble avoir des erreurs, peut-être qu\'elle n\'est pas fe
 -   [Import depuis STL ou OBJ](Import_from_STL_or_OBJ/fr.md)
 -   [Export vers STL ou OBJ](Export_to_STL_or_OBJ/fr.md)
 
-## Relation
+## En relation 
 
 -   [FreeCAD Howto Import Export](FreeCAD_and_Mesh_Import/fr.md)
 

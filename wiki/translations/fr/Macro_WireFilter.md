@@ -1,21 +1,15 @@
 # Macro WireFilter/fr
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/fr
 |Name=Macro WireFilter
 |Icon=Wirefilter.svg
 |Description=Filtrez les lignes à partir d'esquisses, décalages 2D, échelles, réorganisez l'ordre des lignes.
 |Author=TheMarkster
-|Version=0.2021.12.06.rev3
-|Date=2021-12-06
+|Version=0.2021.12.13
+|Date=2021-12-13
 |FCVersion=Les versions en Python 3
 |Download=[https://wiki.freecadweb.org/File:Wirefilter.svg Icône de la barre d'outils]
 |Links=[https://github.com/mwganson/wirefilter Documentation complète sur Github]
 }}
-
-
-</div>
 
 ## Description
 

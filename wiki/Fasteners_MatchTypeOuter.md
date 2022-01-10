@@ -1,41 +1,23 @@
 ---
 - GuiCommand:
    Name:Fasteners MatchTypeOuter
-   MenuLocation:Fasteners → Match Type Outer
+   MenuLocation:Fasteners → Match screws by outer thread diameter (Pass hole)
    Workbenches:[Fasteners](Fasteners_Workbench.md)
+   SeeAlso:[Fasteners MatchTypeInner](Fasteners_MatchTypeInner.md)
 ---
 
 # Fasteners MatchTypeOuter
 
 ## Description
 
-The <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:24px;"> [Fasteners MatchTypeOuter](Fasteners_MatchTypeOuter.md) lorem ipsum dolor sit amet, consectetur adipiscing. This tool is part of the \[External\_workbenches\|external workbench\]\] called [Fasteners](Fasteners_Workbench.md).
+The <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:24px;"> **Fasteners MatchTypeOuter** command behaves as a toggle with the [Fasteners MatchTypeInner](Fasteners_MatchTypeInner.md) command. When **Fasteners MatchTypeOuter** is selected, circular edges are considered to be pass holes when new fasteners are attached to them. This determines the default dimensions of those fasteners. This setting is not used for countersunk screws.
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
-2.  Invoke the Fasteners MatchTypeOuter tool several ways:
-    -   Press the <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:24px;"> button
-    -   Use the **Fasteners → MatchTypeOuter** entry in the Fasteners menu
-
-Result: lorem ipsum dolor sit amet, consectetur adipiscing.
-
-<img alt="" src=images/Fasteners_MatchTypeOuter_example-1.FCStd.png  style="width:1000px;">
-
-## Notes
-
--   lorem ipsum dolor sit amet, consectetur adipiscing.
-
-## Limitations
-
-## Properties
-
-
-{{Properties_Title|Base}}
-
--    **View**: Invert, boolean, default: false
-
-## Scripting
+1.  There are several ways to invoke the command:
+    -   Press the **<img src="images/Fasteners_MatchTypeOuter.svg" width=16px> [Fasteners MatchTypeOuter](Fasteners_MatchTypeOuter.md)** button.
+    -   Select the **Fasteners → <img src="images/Fasteners_MatchTypeOuter.svg" width=16px> Match screws by outer thread diameter (Pass hole)** option from the menu.
+2.  The button stays depressed to indicate the selected option.
 
 
 

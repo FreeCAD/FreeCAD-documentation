@@ -244,11 +244,6 @@ There is also a text box for feedback of OpenSCAD errors.
 
 </div>
 
-### Fehlerberichtigungen Skizzierer 
-
--   Fix \'Reference\' option not working for radius/diameter at creation time [Pull request \#4744 for radius](https://github.com/FreeCAD/FreeCAD/pull/4744) [Pull request \#4832 for diameter](https://github.com/FreeCAD/FreeCAD/pull/4832) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=57584)
--   [Carbon copy](Sketcher_CarbonCopy.md) parallel/alignment detection has been improved adding tolerance to floating point computation errors [Pull request \#5197](https://github.com/FreeCAD/FreeCAD/pull/5197) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=63956)
-
 ## Arbeitsbereich Tabellenkalkulation 
 
   -------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -260,6 +255,9 @@ There is also a text box for feedback of OpenSCAD errors.
 ### Weitere Verbesserungen Tabellenkalkulation 
 
 -   Import XLSX (used by [Std Import](Std_Import.md)): Added support for floor and ceil functions. [Pull request \#5015](https://github.com/FreeCAD/FreeCAD/pull/5015).
+-   Cell binding: instruct a set of cells to display the contents of another set of cells. Part of [Pull request \#2862](https://github.com/FreeCAD/FreeCAD/pull/2862).
+-   Improved navigation using the Tab and Enter keys.
+-   Improved interface for cutting and pasting blocks of cells.
 
 ## Arbeitsbereich Start 
 

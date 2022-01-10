@@ -63,15 +63,15 @@ W tym menu dostępne są następujące narzędzia:
     -   [Wyczyść widok](Std_FreezeViews#Clear_views.md): Kasuje wszystkie zamrożone widoki.
 
 -   [Styl rysowania](Std_DrawStyle.md)
-    -   <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:32px;"> [Tak jak jest](Std_DrawStyle#As_is.md)
-    -   <img alt="" src=images/Std_DrawStylePoints.svg  style="width:32px;"> [Punkty](Std_DrawStyle#Points.md): Przełącza styl rysowania na: Punkty.
-    -   <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:32px;"> [Szkielet](Std_DrawStyle#Wireframe.md): Przełącza styl rysowania na: Szkielet.
-    -   <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:32px;"> [Ukryte linie](Std_DrawStyle#Hidden_line.md): Przełącza styl rysowania na: Ukryta linia.
-    -   <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:32px;"> [Bez cieniowania](Std_DrawStyle#No_shading.md): Przełącza styl rysowania na: Bez cieniowania.
-    -   <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:32px;"> [Cieniowany](Std_DrawStyle#Shaded.md): Przełącza styl rysowania na: Cieniowany.
-    -   <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> [Linie krawędzi](Std_DrawStyle#Flat_lines.md): Przełącza styl rysowania na: Linie krawędzi.
+    -   <img alt="" src=images/Std_DrawStyleAsIs.svg  style="width:32px;"> [Domyślny](Std_DrawStyle/pl#Domy.C5.9Blny.md)
+    -   <img alt="" src=images/Std_DrawStylePoints.svg  style="width:32px;"> [Tylko punkty](Std_DrawStyle/pl#Tylko_punkty.md): Przełącza styl rysowania na: Punkty.
+    -   <img alt="" src=images/Std_DrawStyleWireFrame.svg  style="width:32px;"> [Szkieletowy](Std_DrawStyle/pl#Szkieletowy.md): Przełącza styl rysowania na: Szkielet.
+    -   <img alt="" src=images/Std_DrawStyleHiddenLine.svg  style="width:32px;"> [Cieniowany z ukrytymi krawędziami](Std_DrawStyle/pl#Cieniowany_z_ukrytymi_kraw.C4.99dziami.md): Przełącza styl rysowania na: Cieniowany z ukrytymi krawędziami.
+    -   <img alt="" src=images/Std_DrawStyleNoShading.svg  style="width:32px;"> [Jednolity z krawędziami](Std_DrawStyle/pl#Cieniowany_z_ukrytymi_kraw.C4.99dziami.md): Przełącza styl rysowania na: Bez cieniowania.
+    -   <img alt="" src=images/Std_DrawStyleShaded.svg  style="width:32px;"> [Cieniowany](Std_DrawStyle/pl#Cieniowany.md): Przełącza styl rysowania na: Cieniowany.
+    -   <img alt="" src=images/Std_DrawStyleFlatLines.svg  style="width:32px;"> [Cieniowany z krawędziami](Std_DrawStyle/pl#Cieniowany_z_kraw.C4.99dziami.md): Przełącza styl rysowania na: Linie krawędzi.
 
--   <img alt="" src=images/Std_SelBoundingBox.svg  style="width:32px;"> [Zaznaczenie](Std_SelBoundingBox.md): Przełącza tryb podświetlania pola ograniczającego. {{Version/pl|0.19}}
+-   <img alt="" src=images/Std_SelBoundingBox.svg  style="width:32px;"> [Zaznaczenie](Std_SelBoundingBox/pl.md): Przełącza tryb podświetlania pola ograniczającego. {{Version/pl|0.19}}
 
 -   Widok przestrzenny
     -   <img alt="" src=images/Std_ViewIvStereoRedGreen.svg  style="width:32px;"> [Czerwień i zielononiebieski *(cyjan)*](Std_ViewIvStereoRedGreen.md): Przełącza na widok stereo czerwony/cyan.

@@ -3,7 +3,7 @@ This category lists pages related to the [Ship Workbench/bg](Ship_Workbench/bg.m
 
 ### Contents:
 
-_ , [Ship Workbench/bg](Ship_Workbench/bg.md)
+[Ship Workbench/bg](Ship_Workbench/bg.md)
 
 _
 

@@ -3,9 +3,9 @@ Pages relating to Architectural and Building Information Management
 
 ### Contents:
 
-_ , _ , [Material editor/ro](Material_editor/ro.md) ,
+_ , [Material editor/ro](Material_editor/ro.md) ,
 
 _ _ _
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Category:Arch/ro
+[documentation index](../README.md) > Category:Arch/ro

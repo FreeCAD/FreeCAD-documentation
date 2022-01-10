@@ -9,7 +9,7 @@ Den betreffenden Artikeln folgende Zeile anhängen:
 
 ### Contents:
 
-_ , _ , _ , _ , , , ,
+_ , _ , _ , , , ,
 
 _ _ _ _ _
 

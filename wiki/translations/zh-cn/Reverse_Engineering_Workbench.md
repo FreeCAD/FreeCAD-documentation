@@ -20,7 +20,7 @@
 
 ## Tools
 
-The Reverse Engineering (RE) tools are all located in the RE menu and the RE toolbar that appear when you load the RE workbench from the workbench dropdown menu.
+The Reverse Engineering tools are all located in the Reverse Engineering menu and the Reverse Engineering toolbar that appear when you load the Reverse Engineering workbench from the workbench dropdown menu.
 
 -   <img alt="" src=images/FitSurface.svg  style="width:32px;"> Approximate a B-spline surface:
 

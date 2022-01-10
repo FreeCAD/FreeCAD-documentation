@@ -14,10 +14,11 @@ This tool allows you to create a 2D profile of a sprocket (or chainwheel). It ca
 
 ## Usage
 
-1.  Go to the menu **Part Design → <img src=images/PartDesign_Sprocket.svg style="width:24px"> Sprocket...**.
-2.  Set the **Number Of Teeth** and the **Sprocket Reference**.
-3.  Click **OK**
-4.  If the sprocket gear is created outside of the active body, drag and drop it into a body for the application of further features like padding.
+1.  Optionally activate the correct body.
+2.  Go to the menu **Part Design → <img src=images/PartDesign_Sprocket.svg style="width:16px"> Sprocket...**.
+3.  Set the **Number Of Teeth** and the **Sprocket Reference**.
+4.  Click **OK**.
+5.  If there was no active body: drag and drop the sprocket into a body for the application of further features like padding.
 
 ## Properties
 

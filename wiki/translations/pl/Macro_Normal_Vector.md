@@ -28,10 +28,9 @@ ToolBar Icon ![](images/Macro_Normal_Vector.png )
 **Macro\_Normal\_Vector.FCMacro**
 
 
-```python
-
+{{MacroCode|code=
 Gui.Selection.getSelectionEx()[0].SubObjects[0].Faces[0].normalAt(0,0)
-```
+}}
 
 ## Link
 

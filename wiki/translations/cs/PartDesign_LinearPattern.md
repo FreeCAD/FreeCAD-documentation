@@ -40,7 +40,7 @@
 
 </div>
 
-The **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''LinearPattern'''** tool creates evenly spaced copies of a feature in a linear direction. As of <small>(v0.17)</small>  the Linear pattern tool can pattern multiple features.
+The **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''LinearPattern'''** tool creates evenly spaced copies of a feature in a linear direction.
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
@@ -105,6 +105,8 @@ If the sketch which defines the feature to be patterned also contains a construc
 <small>(v0.17)</small> 
 
 Select one of the Body Origin\'s standard axis (X, Y or Z) as direction. 
+
+## Limitations
 
 
 <div class="mw-translate-fuzzy">

@@ -3,7 +3,7 @@ This category lists pages related to the [PartDesign Workbench/hr](PartDesign_Wo
 
 ### Contents:
 
-_ , [Path Workbench/hr](Path_Workbench/hr.md)
+[Path Preferences/hr](Path_Preferences/hr.md) , [Path Shape/hr](Path_Shape/hr.md) , [Path Workbench/hr](Path_Workbench/hr.md)
 
 _
 

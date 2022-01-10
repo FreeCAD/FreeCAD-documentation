@@ -20,9 +20,9 @@ La **Std Vue de l\'arrière** place la caméra dans la [vue 3D](3D_view/fr.md) d
 ## Utilisation
 
 1.  Il existe plusieurs façons d\'appeler la commande:
-    -   Appuyez sur le bouton **<img src="images/Std_ViewRear.svg" width=16px> [Std Afficher la vue arrière (4)](Std_ViewRear.md)**.
+    -   Appuyez sur le bouton **<img src="images/Std_ViewRear.svg" width=16px> [Arrière](Std_ViewRear/fr.md)**.
     -   Sélectionnez l\'option **Affichage → Vues standards → <img src="images/Std_ViewRear.svg" width=16px> Arrière** dans le menu.
-    -   Sélectionnez l\'option **Vues standard → <img src="images/Std_ViewRear.svg" width=16px> Arrière** dans le menu contextuel de la [Vue 3](3D_view/fr.md).
+    -   Sélectionnez l\'option **Vues standard → <img src="images/Std_ViewRear.svg" width=16px> Arrière** dans le menu contextuel de la [Vue 3D](3D_view/fr.md).
     -   Utilisez le raccourci clavier: **4**.
 
 ## Script

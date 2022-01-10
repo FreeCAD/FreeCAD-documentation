@@ -8,9 +8,9 @@ To jest **główna kategoria**\', która zawiera główne kategorie FreeCAD wiki
 
 ### Contents:
 
-, , , , , , , , , , , , , , ,
+, , , , , , , , , , , , , ,
 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
 ---
 [documentation index](../README.md) > [Addons/pl]] , ](Category_Addons/pl]] , .md) > Category:Categories/pl

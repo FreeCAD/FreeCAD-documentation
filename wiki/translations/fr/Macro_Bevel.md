@@ -1,21 +1,15 @@
 # Macro Bevel/fr
-<div class="mw-translate-fuzzy">
-
-
 {{Macro/fr
 |Name=Macro Bevel
 |Icon=Bevel.svg
 |Description=Biseautage des sommets sélectionnés des objets solides, paramétrique, compatible avec Part Design
 |Author=TheMarkster
-|Version=0.2021.10.10.rev4
-|Date=2021-10-10.rev4
-|FCVersion=Versions de Python 3
+|Version=0.2021.12.23
+|Date=2021-12-23
+|FCVersion=Versions en Python 3
 |Download=[https://wiki.freecadweb.org/File:bevel.svg Icône de la barre d'outils]
-|Links=[https://github.com/mwganson/Bevel Full Documentation sur Github]
+|Links=[https://github.com/mwganson/Bevel Documentation complète sur Github]
 }}
-
-
-</div>
 
 ## Description
 
@@ -31,7 +25,7 @@ La documentation complète se trouve sur github : [Bevel](https://github.com/mwg
 ## Légende
 
 
-{{Codeextralink|https://gist.github.com/mwganson/25ee4dc925c8bcf1182bd9979025ed2d/raw/bf199f31089f43d8a2bcbcaa0facde2221783c92/Bevel.FCMacro|Bevel.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/25ee4dc925c8bcf1182bd9979025ed2d/raw/1741a8f93a0af40dcd4f74dca33b106446f5e4ee/Bevel.FCMacro|Bevel.FCMacro}}
 
 Icône de la barre d\'outils ![](images/Bevel.svg )
 

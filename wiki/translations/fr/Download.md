@@ -3,29 +3,11 @@
 
 ## Version stable courante 
 
+La version 0.19.3 initiale de FreeCAD (24366) a été publiée le 04 décembre 2021. Pour découvrir les nouveautés, consultez les [notes de version](Release_notes_0.19/fr.md).
 
-<div class="mw-translate-fuzzy">
-
-La version 0.19.2 initiale de FreeCAD (24291) a été publiée le 22 avril 2021. Pour découvrir les nouveautés, consultez les [notes de version](Release_notes_0.19/fr.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Vous trouverez la somme de contrôle SHA256 (pour vérifier l\'intégrité de votre téléchargement) et la version portable pour Windows sur la [page Github des Releases 0.19.2](https://github.com/FreeCAD/FreeCAD/releases/tag/0.19.2).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+Vous pouvez trouver des checksums SHA256 pour vérifier l\'intégrité de votre téléchargement sur la [0.19.3 page des releases](https://github.com/FreeCAD/FreeCAD/releases/tag/0.19.3).
 
 Les versions précédentes peuvent être téléchargées à partir de la page [releases](https://github.com/FreeCAD/FreeCAD/releases).
-
-
-</div>
 
 +:---------------------------------------------------------------------------------------------------------------------------------:+---+:---------------------------------------------------------------------------------------------------------------:+---+:------------------------------------------:+
 | ![](images/Windows.png )                                                                                                    |   | ![](images/Mac.png )                                                                                          |   | ![](images/AppImage-logo.png ) |
@@ -35,27 +17,15 @@ Les versions précédentes peuvent être téléchargées à partir de la page [r
 | _     |
 +-----------------------------------------------------------------------------------------------------------------------------------+---+-----------------------------------------------------------------------------------------------------------------+---+--------------------------------------------+
 
-
-<div class="mw-translate-fuzzy">
-
 ### Notes aux utilisateurs de Windows 
 
--   Les versions suivantes de Windows sont prises en charge : 7/8/10.
--   Une version portable ([64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.2/FreeCAD-0.19.2.7b5e18a-WIN-x64-portable1.7z)), qui n\'a pas besoin d\'installation, est à la page des publications.
+-   Les versions suivantes de Windows sont prises en charge : 7/8/10/11.
+-   Une version portable qui ne nécessite pas d\'installation est disponible sur la page [releases](https://github.com/FreeCAD/FreeCAD/releases/).
 -   Le paquet peut également être installé à partir du gestionnaire [Chocolatey](https://chocolatey.org/packages/freecad).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
 
 ### Notes aux utilisateurs de MacOS X 
 
-MacOS OS X 10.12 *Sierra* est la version minimum compatible.
-
-
-</div>
+MacOS OS X 10.12 Sierra est la version minimum compatible.
 
 ### Note aux utilisateurs de GNU/Linux 
 
@@ -63,18 +33,12 @@ La plupart des distributions portent FreeCAD dans leurs référentiels officiels
 
 Veuillez consulter la page [Installation sous Unix](Installing_on_Linux/fr.md) pour plus d\'options d\'installation, y compris les paquets quotidiens pour Ubuntu et ses dérivés.
 
-
-<div class="mw-translate-fuzzy">
-
 Une version portable qui n\'a pas besoin d\'installation peut être obtenue en démarrant FreeCAD avec ces commandes : {{Version/fr|0.19}} 
 ```python
 cd path/to/directory_containing_AppImage/
-chmod +x ./FreeCAD_0.19-23756-Linux-Conda_glibc2.12-x86_64.AppImage
-HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./FreeCAD_0.19-23756-Linux-Conda_glibc2.12-x86_64.AppImage
+chmod +x ./FreeCAD_0.19-24366-Linux-Conda_glibc2.12-x86_64.AppImage
+HOME="$PWD/Settings" FREECAD_USER_HOME="$PWD/Settings" ./FreeCAD_0.19-24366-Linux-Conda_glibc2.12-x86_64.AppImage
 ```
-
-
-</div>
 
 Vous pourrez trouver plus d\'informations sur les variables d\'environnement de FreeCAD sur [la page de configuration](Start_up_and_Configuration/fr.md).
 

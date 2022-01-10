@@ -111,7 +111,7 @@ La plupart des objets dans FreeCAD ont ce qu\'on appelle un \"[viewprovider](vie
 L\'écart est une valeur en pourcentage qui est liée aux dimensions en millimètres de la boîte englobante de l\'objet. L\'écart en millimètres peut être calculé comme suit: 
 ```python
 deviation_in_mm = (w + h + d)/3 * deviation/100
-``` où {{value|w}}, {{value|h}}, {{value|d}} sont les dimensions de la boîte de délimitation.
+``` où {{value|w}}, {{value|h}}, {{value|d}} sont les dimensions de la boîte englobante.
 
 -    {{PropertyView/fr|Draw Style|Enumeration}}: {{value|Solid}} (par défaut), {{value|Dashed}}, {{value|Dotted}}, {{value|Dashdot}}; définit le style des bords dans la [Vue 3D](3D_view/fr.md).
 

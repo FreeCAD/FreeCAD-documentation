@@ -10,10 +10,12 @@
 
 AnwendungsAbbild ist ein \"universelles Binärpaket\", das dazu bestimmt ist, eine Anwendung an jede beliebige Linux Distribution zu verteilen. Lies mehr darüber auf der [Appimage Homepage](https://appimage.org) und [Wikipedia](https://en.wikipedia.org/wiki/AppImage).
 
-Um es auszuführen, mache es zunächst ausführbar und gib dann den relativen oder vollständigen Pfad ein. 
+Um es auszuführen, mache es zunächst ausführbar und gib dann den relativen oder vollständigen Pfad ein.
+
+
 ```python
-chmod +x FreeCAD_x86_64.AppImage
-./FreeCAD_x86_64.AppImage
+chmod +x FreeCAD_xxx-x86_64.AppImage
+./FreeCAD_xxx-x86_64.AppImage
 ```
 
 Für andere Installationsarten siehe [Herunterladen](Download/de.md).
@@ -29,18 +31,11 @@ Für andere Installationsarten siehe [Herunterladen](Download/de.md).
 
 </div>
 
+  Stable                                                                                                                                                                                                                                                                                                              Development
+  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+  ![](images/AppImage-logo.png ) [0.19.3](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-Linux-Conda_glibc2.12-x86_64.AppImage) ([SHA256](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-Linux-Conda_glibc2.12-x86_64.AppImage-SHA256.txt))   ![](images/AppImage-logo.png ) \[<https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds->{{:Template:Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage {{:Template:Development-Version}}\] (\[<https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds->{{:Template:Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage-SHA256.txt SHA256\])
 
-<div class="mw-translate-fuzzy">
-
-  Stabil                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              Entwicklung
-  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
-  ![](images/AppImage-logo.png ) \[<https://github.com/FreeCAD/FreeCAD/releases/download/>{{:Template:Stable-Major-and-Minor-Version}}/FreeCAD\_{{:Template:Stable-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage {{:Template:Stable-Version}}\] (\[<https://github.com/FreeCAD/FreeCAD/releases/download/>{{:Template:Stable-Major-and-Minor-Version}}/FreeCAD\_{{:Template:Stable-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage-SHA256.txt SHA256\])   ![](images/AppImage-logo.png ) \[<https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds->{{:Template:Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage {{:Template:Development-Version}}\] (\[<https://github.com/FreeCAD/FreeCAD-Bundle/releases/download/weekly-builds/FreeCAD_weekly-builds->{{:Template:Development-Version}}-Linux-Conda\_glibc2.12-x86\_64.AppImage-SHA256.txt SHA256\])
-
-  : style=\"text-align: center; font-size: 150%; \| Verfügbare FreeCAD AnwendungsAbbilder \|+
-
-
-</div>
+  : style=\"text-align: center; font-size: 150%; \| Available FreeCAD AppImages \|+
 
 **Wichtige Hinweise:**.
 
@@ -179,6 +174,11 @@ Dank der Arbeit von **realthunder**, Autor von [Anwendungsverknüpfung](App_Link
 Dies macht es sehr bequem, Bilder für einen bestimmten Zweig des Quellcodes für andere zum Testen freizugeben. Obwohl AnwendungsAbbilder nur unter Linux funktioniert, ermöglichen es die Skripte von realthunder, AnwendungsAbbilder auch unter Windows und MacOS zu generieren.
 
 Das Repositorium für diese Skripte befindet sich unter _ für weitere Einzelheiten.
+
+## Related
+
+-   [Snap](Ubuntu_Snap.md) packages.
+-   [Flatpak](Flatpak.md) packages.
 
 
 

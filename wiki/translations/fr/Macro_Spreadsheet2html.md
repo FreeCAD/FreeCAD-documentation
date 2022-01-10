@@ -28,7 +28,6 @@ Forum : pas de fil au moment de la rédaction.
 
 **Macro\_Spreadsheet2html.FCMacro**
 
-
     #!/usr/bin/env python3
     # -*- coding: utf-8 -*-
 

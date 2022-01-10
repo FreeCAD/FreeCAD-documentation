@@ -128,8 +128,6 @@ The mirror result can be previewed in real time before clicking OK by checking \
 
 </div>
 
--   Funcția oglindită trebuie să intersecteze solidul (numit și \"suport\") pe care se bazează sau comanda va eșua.
-
 
 
 

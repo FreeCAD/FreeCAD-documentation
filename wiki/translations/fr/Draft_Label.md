@@ -28,11 +28,11 @@ Voir aussi : [Draft La barre](Draft_Tray/fr.md), [Draft Aimantation](Draft_Snap/
 
 1.  Sélectionnez éventuellement un objet ou un sous-élément (sommet, arête ou face) dont vous souhaitez afficher les attributs.
 2.  Il existe plusieurs façons d\'invoquer la commande :
-    -   Appuyez sur le **<img src="images/Draft_Label.svg" width=16px> [Créer une étiquette...](Draft_Label/fr.md)**.
+    -   Appuyez sur le **<img src="images/Draft_Label.svg" width=16px> [Étiquette](Draft_Label/fr.md)**.
     -   Sélectionnez l\'option **Annotation → <img src="images/Draft_Label.svg" width=16px> Étiquette** dans le menu.
     -   Utilisez le raccourci clavier : **D** puis **L**.
-3.  Le panneau de tâches **Label** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
-4.  Si vous avez sélectionné un élément : sélectionnez une option dans la liste déroulante {{PropertyData/fr|Label Type}}. Des types d\'étiquettes supplémentaires peuvent être définis en modifiant ultérieurement les **Label Type**. Voir [Types d\'étiquettes](#Label_types.md) ci-dessous.
+3.  Le panneau de tâches **Étiquette** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
+4.  Si vous avez sélectionné un élément : sélectionnez une option dans la liste déroulante **Label type**. Voir [Types d\'étiquettes](#Label_types.md) ci-dessous.
 5.  Choisissez le premier point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**. Ce point indique la cible (tête de flèche). Il peut se trouver n\'importe où, il n\'est pas nécessaire qu\'il soit sur un élément.
 6.  Choisissez le deuxième point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**. Ce point indique le début du segment horizontal ou vertical de l\'amorce.
 7.  Choisissez le troisième point dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point** bouton. Ce point indique le point de base du texte.
@@ -46,6 +46,42 @@ Les raccourcis clavier à caractère unique disponibles dans le panneau des tâc
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
 -   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
+
+## Types d\'étiquettes 
+
+Les types d\'étiquettes suivants sont disponibles :
+
+-    {{Value|Custom}}: affiche le contenu de {{PropertyData/fr|Custom Text}}.
+
+-    {{Value|Name}}: affiche le nom interne de l\'objet cible. Le nom interne est attribué lors de la création de l\'objet et reste fixe pendant toute l\'existence de l\'objet.
+
+-    {{Value|Label}}: affiche le libellé de l\'objet cible. Le libellé d\'un objet peut être modifié par l\'utilisateur.
+
+-    {{Value|Position}}: affiche les coordonnées du point de base de l\'objet cible, du sommet cible ou du centre de masse du sous-élément cible, le cas échéant.
+
+-    {{Value|Length}}: affiche la longueur de l\'objet ou du sous-élément cible, le cas échéant.
+
+-    {{Value|Area}}: affiche la surface de l\'objet ou du sous-élément cible, le cas échéant.
+
+-    {{Value|Volume}}: affiche le volume de l\'objet cible, le cas échéant.
+
+-    {{Value|Tag}}: affiche l\'attribut `Tag` de l\'objet cible, le cas échéant. Les objets créés avec l\'[atelier Arch](Arch_Workbench/fr.md) peuvent avoir cet attribut.
+
+-    {{Value|Matériau}}: affiche le libellé du matériau de l\'objet cible, le cas échéant.
+
+-    {{Value|Label + Position}}: affiche le libellé du matériau de l\'objet cible, le cas échéant.
+
+-    {{Value|Label + Longueur}}
+    
+
+-    {{Value|Label + Area}}
+    
+
+-    {{Value|Label + Volume}}
+    
+
+-    {{Value|Label + Material}}
+    
 
 ## Remarques
 
@@ -86,40 +122,6 @@ Un objet Draft Etiquette est dérivé d\'un objet [App FeaturePython](App_Featur
 
 -    {{PropertyData/fr|Target Point|Vector}}: spécifie la position de la pointe de l\'amorce, qui est l\'endroit où la flèche est attachée.
 
-#### Types d\'étiquettes 
-
--    {{Value|Custom}}: affiche le contenu de {{PropertyData/fr|Custom Text}}.
-
--    {{Value|Name}}: affiche le nom interne de l\'objet cible. Le nom interne est attribué lors de la création de l\'objet et reste fixe pendant toute l\'existence de l\'objet.
-
--    {{Value|Label}}: affiche le libellé de l\'objet cible. Le libellé d\'un objet peut être modifié par l\'utilisateur.
-
--    {{Value|Position}}: affiche les coordonnées du point de base de l\'objet cible, du sommet cible ou du centre de masse du sous-élément cible, le cas échéant.
-
--    {{Value|Length}}: affiche la longueur de l\'objet ou du sous-élément cible, le cas échéant.
-
--    {{Value|Area}}: affiche la surface de l\'objet ou du sous-élément cible, le cas échéant.
-
--    {{Value|Volume}}: affiche le volume de l\'objet cible, le cas échéant.
-
--    {{Value|Tag}}: affiche l\'attribut `Tag` de l\'objet cible, le cas échéant. Les objets créés avec l\'[atelier Arch](Arch_Workbench/fr.md) peuvent avoir cet attribut.
-
--    {{Value|Matériau}}: affiche le libellé du matériau de l\'objet cible, le cas échéant.
-
--    {{Value|Label + Position}}: affiche le libellé du matériau de l\'objet cible, le cas échéant.
-
--    {{Value|Label + Longueur}}
-    
-
--    {{Value|Label + Area}}
-    
-
--    {{Value|Label + Volume}}
-    
-
--    {{Value|Label + Material}}
-    
-
 ### Vue
 
 
@@ -137,17 +139,17 @@ Un objet Draft Etiquette est dérivé d\'un objet [App FeaturePython](App_Featur
 
 {{TitleProperty|Graphics}}
 
--    {{PropertyView/fr|Arrow Size|Length}}: spécifie la taille du symbole affiché à l\'extrémité de la flèche.
+-    **Arrow Size|Length**: spécifie la taille du symbole affiché à l\'extrémité de la flèche.
 
--    {{PropertyView/fr|Arrow Type|Enumeration}}: spécifie le type de symbole affiché à l\'extrémité de l\'amorce, qui peut être {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} ou {{value|Tick-2}}.
+-    **Arrow Type|Enumeration**: spécifie le type de symbole affiché à l\'extrémité de l\'amorce, qui peut être {{value|Dot}}, {{value|Circle}}, {{value|Arrow}}, {{value|Tick}} ou {{value|Tick-2}}.
 
--    {{PropertyView/fr|Frame|Enumeration}}: spécifie le type de cadre dessiné autour du texte. Les options actuelles sont {{Value|None}} ou {{Value|Rectangle}}.
+-    **Frame|Enumeration**: spécifie le type de cadre dessiné autour du texte. Les options actuelles sont {{Value|None}} ou {{Value|Rectangle}}.
 
--    {{PropertyView/fr|Line|Bool}}: indique s\'il faut afficher la ligne de repère. S\'il est `False`, seuls la flèche et le texte sont affichés.
+-    **Line|Bool**: indique s\'il faut afficher la ligne de repère. S\'il est `False`, seuls la flèche et le texte sont affichés.
 
--    {{PropertyView/fr|Line Color|Color}}: spécifie la couleur de l\'amorce et de la flèche.
+-    **Line Color|Color**: spécifie la couleur de l\'amorce et de la flèche. Également utilisée pour le cadre ({{Version/fr|0.20}}).
 
--    {{PropertyView/fr|Line Width|Float}}: spécifie la largeur de l\'amorce.
+-    **Line Width|Float**: spécifie la largeur de l\'amorce. Également utilisé pour le cadre ({{Version/fr|0.20}}).
 
 
 {{TitleProperty|Text}}

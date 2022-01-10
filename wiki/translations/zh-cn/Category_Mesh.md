@@ -3,7 +3,7 @@ This category lists pages related to the [Mesh\_Workbench/zh-cn](Mesh_Workbench/
 
 ### Contents:
 
-_ , _ , [Mesh Workbench/zh-cn](Mesh_Workbench/zh-cn.md)
+_ , [Mesh Scripting/zh-cn](Mesh_Scripting/zh-cn.md) , [Mesh Workbench/zh-cn](Mesh_Workbench/zh-cn.md)
 
 _
 

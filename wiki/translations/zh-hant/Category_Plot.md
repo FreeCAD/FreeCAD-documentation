@@ -5,7 +5,5 @@ This category lists pages related to the [Plot Workbench/zh-hant](Plot_Workbench
 
 _
 
-_
-
 ---
 [documentation index](../README.md) > Category:Plot/zh-hant

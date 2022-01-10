@@ -220,11 +220,6 @@ Il y a également une zone de texte pour le retour des erreurs d\'OpenSCAD.
 -   Il est maintenant possible de fixer l\'angle de la direction lors de l\'utilisation de l\'outil [Réseau rectangulaire](Sketcher_RectangularArray/fr.md). [commit](https://github.com/FreeCAD/FreeCAD/commit/c9eaa2393d33) [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?p=535691#p535691)
 -   Il est maintenant possible de fixer l\'angle de la direction lors de l\'utilisation des outils [Clone](Sketcher_Clone/fr.md), [Copier](Sketcher_Copy/fr.md) et [Déplacer](Sketcher_Move/fr.md). [commit](https://github.com/FreeCAD/FreeCAD/commit/6e4a09f569cf) [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=62799)
 
-### Correction de bogues de Sketcher 
-
--   Correction de l\'option \'Référence\' qui ne fonctionne pas pour le rayon/diamètre au moment de la création [Pull request \#4744 pour le rayon](https://github.com/FreeCAD/FreeCAD/pull/4744) [Pull request \#4832 pour le diamètre](https://github.com/FreeCAD/FreeCAD/pull/4832). [Discussion sur le forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=57584)
--   La détection du parallélisme/alignement de [Copie carbone](Sketcher_CarbonCopy/fr.md) a été améliorée en ajoutant une tolérance aux erreurs de calcul en virgule flottante [Pull request \#5197](https://github.com/FreeCAD/FreeCAD/pull/5197) [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=63956)
-
 ## Atelier Spreadsheet 
 
   -------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -235,7 +230,10 @@ Il y a également une zone de texte pour le retour des erreurs d\'OpenSCAD.
 
 ### Autres améliorations de Spreadsheet 
 
--   Importation XLSX (utilisée par [Std Importer](Std_Import/fr.md)) : Ajout du support des fonctions floor et ceil. [Pull request \#5015](https://github.com/FreeCAD/FreeCAD/pull/5015).
+-   Importation XLSX (utilisée par [Std Importer](Std_Import/fr.md)) : Ajout du support des fonctions Partie entière par défaut (floor) et Partie entière supérieure (ceil). [Pull request \#5015](https://github.com/FreeCAD/FreeCAD/pull/5015).
+-   Liaison de cellules : demande à un ensemble de cellules d\'afficher le contenu d\'un autre ensemble de cellules. Fait partie de [Pull request \#2862](https://github.com/FreeCAD/FreeCAD/pull/2862).
+-   Amélioration de la navigation en utilisant les touches Tab et Entrée.
+-   Amélioration de l\'interface pour couper et coller des blocs de cellules.
 
 ## Atelier Start 
 

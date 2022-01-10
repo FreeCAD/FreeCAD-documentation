@@ -150,7 +150,7 @@ Il n\'est pas nécessaire de travailler avec des esquisses coplanaires ici.
 <img alt="" src=images/SheetMetal_Forming-03.png  style="width:200px;"> 
 *Bol en tôle et objet embouti*
 
-### Processus de travail 
+### Déroulement des tâches 
 
 1.  Sélectionnez la paroi de l\'objet SheetMetal à emboutir.
 2.  Sélectionnez la **face arrière** du solide définissant la forme (Rappelez-vous que l\'objet à emboutir **et** le solide définissant la forme doivent tous deux être sélectionnés. Activez la méthode de sélection multiple appropriée à votre système d\'exploitation : <img alt="" src=images/SheetMetal_Forming-04.png  style="width:240px;">

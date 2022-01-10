@@ -3,6 +3,8 @@ This category shows documentation articles dealing with python scripting, which 
 
 ### Contents:
 
+[Debugging/bg](Debugging/bg.md) , [Macros/bg](Macros/bg.md)
+
 _
 
 ---

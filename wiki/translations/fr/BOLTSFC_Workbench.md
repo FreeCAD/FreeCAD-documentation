@@ -61,7 +61,7 @@ est requis.
 -   Liste des pièces, auteur et organismes de normalisation: [Liste des pièces](http://www.bolts-library.org/en/parts/index.html)
 -   Signaler des bugs: veuillez signaler les bugs sur <https://github.com/jreinhardt/BOLTS/issues>
 
-## Relation
+## En relation 
 
 -   [Parts Library WB](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Parts_Library)
 -   [Fasteners WB](http://www.freecadweb.org/wiki/index.php?title=Sandbox:Fasteners)

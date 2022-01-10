@@ -3,68 +3,68 @@
 
 ## Introduction
 
-Les préférences pour l\'[Atelier TechDraw](TechDraw_Workbench/fr.md) se trouvent dans l\'[Editeur de préférences](Preferences_Editor/fr.md), **Edition → Préférences → TechDraw**.
+Les préférences pour l\'[atelier TechDraw](TechDraw_Workbench/fr.md) se trouvent dans l\'[Editeur de préférences](Preferences_Editor/fr.md), **Édition → Préférences → TechDraw**.
 
-Tous les paramètres de préférences avec des étiquettes \\ italiques\'\' sont des valeurs par défaut pour les nouveaux objets de dessin. Ils n\'ont aucun effet sur les objets existants.
+Tous les paramètres de préférences avec des étiquettes en *italiques* sont des valeurs par défaut pour les nouveaux objets de dessin. Ils n\'ont aucun effet sur les objets existants.
 
-## Généralités
+## Général
 
 <img alt="Préférences générales" src=images/TechDraw_PreferencesGeneral.png  style="width:350px;">
 
-### Mises à jour de dessin 
+### Mises à jour du dessin 
 
 
 {{Version/fr|0.19}}
 
--   **Update With 3D**: si les pages sont mises à jour ou non chaque fois que le modèle 3D est modifié. Il s\'agit d\'un paramètre de politique globale.
--   **Allow Page Override**: Indique si la propriété \'\' \'[Keep Update](TechDraw_PageDefault/fr#_Propriétés.md) d\'une page peut remplacer le paramètre global **Update With 3D**. Il s\'agit d\'un paramètre de politique globale.
--   **Keep Page Up To Date**: permet de synchroniser les pages de dessin avec les modifications du modèle 3D *en temps réel*. Cela peut ralentir le temps de réponse.
--   **Auto-distribute Secondary Views**: distribue automatiquement les vues secondaires pour [groupes de projection](TechDraw_ProjectionGroup/fr.md).
+-   **Mettre à jour avec la 3D** : si les pages sont mises à jour ou non chaque fois que le modèle 3D est modifié. Il s\'agit d\'un paramètre de politique globale.
+-   **Autoriser le remplacement de page** : indique si la propriété **[Keep Update](TechDraw_PageDefault/fr#Propri.C3.A9t.C3.A9s.md)** d\'une page peut remplacer le paramètre global **Mettre à jour avec la 3D**. Il s\'agit d\'un paramètre de règle globale.
+-   **Garder la page à jour** : permet de synchroniser les pages de dessin avec les modifications du modèle 3D *en temps réel*. Cela peut ralentir le temps de réponse.
+-   **Distribution automatique des vues secondaires** : distribue automatiquement les vues secondaires pour les [groupes de projection](TechDraw_ProjectionGroup/fr.md).
 
 ### Étiquettes
 
--   **Label Font** : nom de la police par défaut pour les étiquettes. La police est également utilisée pour les nouvelles [dimensions](TechDraw_Preferences/fr#Dimensions.md), sa modification n\'a aucun effet sur les dimensions existantes.
--   **Label Size** : taille par défaut pour les étiquettes.
+-   **Police d\'annotation** : nom de la police par défaut pour les étiquettes. La police est également utilisée pour les nouvelles [dimensions](TechDraw_Preferences/fr#Dimensions.md), sa modification n\'a aucun effet sur les dimensions existantes.
+-   **Taille des étiquettes** : taille par défaut pour les étiquettes.
 
 ### Conventions
 
--   **Projection Group Angle**: Si les [groupes de projection](TechDraw_ProjectionGroup/fr.md) utilisent la projection du premier ou du troisième angle. Voir [projection multivue](https://en.wikipedia.org/wiki/Multiview_projection#Multiviews) pour une explication.
--   **Hidden Line Style**: Le style à utiliser pour les lignes cachées.
+-   **Convention de projection** : si les [groupes de projection](TechDraw_ProjectionGroup/fr.md) utilisent la projection du premier angle (européen) ou du troisième angle (américain). Voir [projection multivue](https://en.wikipedia.org/wiki/Multiview_projection#Multiviews) pour une explication.
+-   **Style des lignes cachées** : le style à utiliser pour les lignes cachées.
 
 ### Fichiers
 
--   **Default Template**: fichier de [modèle](TechDraw_Templates/fr.md) par défaut pour les nouvelles pages.
--   **Template Directory**: répertoire de démarrage du bouton de la barre d\'outils **<img src="images/TechDraw_PageTemplate.svg" width=16px> [Insérer une page à l'aide d'un modèle](TechDraw_PageTemplate/fr.md)**.
--   **Hatch Pattern File**: fichier par défaut [SVG](SVG/fr.md) ou [bitmap](bitmap/fr.md) pour [hachures](TechDraw_Hatch/fr.md).
--   **Line Group File**: fichier alternatif pour les définitions personnelles [Groupes de lignes](TechDraw_LineGroup/fr.md).
--   **Welding Directory**: répertoire par défaut du bouton de la barre d\'outils **<img src=images/TechDraw_WeldSymbol.svg style="width:16px"> [Symbole de soudure](TechDraw_WeldSymbol.md)**. {{Version/fr|0.19}}
--   **PAT File**: fichier de définition de modèle PAT par défaut pour [hachures géométriques](TechDraw_GeometricHatch/fr.md).
--   **Pattern Name**: nom du motif PAT par défaut.
+-   **Modèle par défaut** : fichier [modèle](TechDraw_Templates/fr.md) par défaut pour les nouvelles pages.
+-   **Répertoire des modèles** : répertoire de démarrage du bouton de la barre d\'outils **<img src="images/TechDraw_PageTemplate.svg" width=16px> [Insérer une page à l'aide d'un modèle](TechDraw_PageTemplate/fr.md)**.
+-   **Fichier des motifs hachurés** : fichier par défaut [SVG](SVG/fr.md) ou [bitmap](bitmap/fr.md) pour [hachures](TechDraw_Hatch/fr.md).
+-   **Fichier des groupes de lignes** : fichier alternatif pour les définitions personnelles des [Groupes de lignes](TechDraw_LineGroup/fr.md).
+-   **Répertoire de Soudage** : répertoire par défaut du bouton de la barre d\'outils **<img src=images/TechDraw_WeldSymbol.svg style="width:16px"> [Symbole de soudure](TechDraw_WeldSymbol.md)**. {{Version/fr|0.19}}
+-   **Fichier PAT** : fichier de définition de modèle PAT par défaut pour [hachures géométriques](TechDraw_GeometricHatch/fr.md).
+-   **Nom du motif** : nom du motif PAT par défaut.
 
 ## Échelle
 
-<img alt="Préférences d\'échelle" src=images/TechDraw_PreferencesScale.png  style="width:350px;">
+<img alt="Préférences d\'Échelle" src=images/TechDraw_PreferencesScale.png  style="width:350px;">
 
 ### Échelle 
 
--   **Page Scale**: Échelle par défaut pour les nouvelles pages.
--   **View Scale Type**: Échelle par défaut pour les nouvelles vues.
--   **View Custom Scale**: Échelle par défaut pour les vues si **View Scale Type** est *Personnalisé*.
+-   **Échelle de la page** : échelle par défaut pour les nouvelles pages.
+-   **Afficher le type d\'échelle** : échelle par défaut pour les nouvelles vues.
+-   **Échelle personnalisée** : échelle par défaut pour les vues si **Afficher le type d\'échelle** est *Personnalisé*.
 
-### Size Adjustments 
+### Ajustements de la taille 
 
--   **Vertex Scale**: échelle des points [vertex](Glossary/fr#V.md). Multiplicateur de largeur de ligne.
--   **Center Mark Scale**: taille des marques centrales. Multiplicateur de taille de sommet.
--   **Template Edit Mark**: taille des poignées de clic du champ [Modèles](TechDraw_Templates/fr.md) en mm (points verts).
--   **Welding Symbol Scale**: multiplicateur de la taille des [Symboles de soudure](TechDraw_WeldSymbol/fr.md). {{Version/fr|0.19}}
+-   **Échelle des sommets** : échelle des points [vertex](Glossary/fr#V.md). Multiplicateur de la largeur des lignes.
+-   **Échelle des marques centrales** : taille des marques centrales. Multiplicateur des tailles des sommets.
+-   **Modifier les balises du modèle** : taille des poignées des balises du [modèle](TechDraw_Templates/fr.md) en mm (points verts).
+-   **Échelle des symboles de soudage** : multiplicateur de la taille des [Symboles de soudure](TechDraw_WeldSymbol/fr.md). {{Version/fr|0.19}}
 
 ## Dimensions
 
-<img alt="Préférences dimensions" src=images/TechDraw_PreferencesDimensions.png  style="width:350px;">
+<img alt="Préférences de Dimensions" src=images/TechDraw_PreferencesDimensions.png  style="width:350px;">
 
 ### Dimensions 
 
--   **Standard and Style**: norme à utiliser pour les valeurs dimensionnelles. La différence entre les normes est indiquée dans l\'image: ![\|500px\|Différences entre les differentes normes prises en charge. ([Image source](images/https://forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))](TechDraw_Dimension_standardization.png ).
+-   **Standard et Style** : norme à utiliser pour les valeurs dimensionnelles. La différence entre les normes est indiquée dans l\'image: ![\|500px\|Différences entre les differentes normes prises en charge. ([Image source](images/https://forum.freecadweb.org/viewtopic.php?f=35&t=39571#p336144))](TechDraw_Dimension_standardization.png ).
 
 :   
 
@@ -73,90 +73,90 @@ Tous les paramètres de préférences avec des étiquettes \\ italiques\'\' sont
     :   ASME Inlined - dessine selon la norme ASME Y14.5M, le texte est horizontal, inséré dans une rupture dans la ligne de cote ou l\'arc.
     :   ASME Referencing - dessine selon la norme ASME Y14.5M, le texte est horizontal, une courte ligne de référence est attachée au centre vertical d\'un côté.
 
--   **Use Global Decimals**: utilise le nombre de décimales des [préférences générales](Preferences_Editor/fr#Unit.C3.A9s.md).
--   **Show Units**: ajoute l\'unité (mm, in, etc.) aux valeurs de cote.
--   **Alternate Decimals**: nombre de décimales si **Use Global Decimals** n\'est pas utilisé.
--   **Default Format**: format personnalisé pour le texte de cote. Utilise le [spécification du format printf](https://fr.wikipedia.org/wiki/Printf).
--   **Font Size**: taille de police pour le texte de cote.
--   **Tolerance Text Scale**: réglage de la taille de la police de tolérance. Multiplicateur de dimension **[Taille de police](TechDraw_Preferences/fr#Dimensions_2.md)**.
--   **Diameter Symbol**: Caractère utilisé pour indiquer les dimensions du diamètre.
--   **Arrow Style**: style de pointe de flèche pour les dimensions.
--   **Arrow Size**: taille de la pointe de flèche des dimensions.
+-   **Utiliser les paramètres système pour les décimals** : utilise le nombre de décimales des [préférences générales](Preferences_Editor/fr#Unit.C3.A9s.md).
+-   **Afficher les unités**: ajoute l\'unité (mm, in, etc.) aux valeurs de cote.
+-   **Nombre de décimales** : nombre de décimales si **Use Global Decimals** n\'est pas utilisé.
+-   **Format par défaut** : format personnalisé pour le texte de cote. Utilise le [spécification du format printf](https://fr.wikipedia.org/wiki/Printf).
+-   **Taille de la police** : taille de police pour le texte de cote.
+-   **Échelle du texte de tolérance** : réglage de la taille de la police de tolérance. Multiplicateur de dimension **[Taille de police](TechDraw_Preferences/fr#Dimensions_2.md)**.
+-   **Symbole de diamètre** : caractère utilisé pour indiquer les dimensions des diamètres.
+-   **Style des flèches** : style de pointe des flèches pour les dimensions.
+-   **Taille des flèches** : taille de la pointe des flèches des dimensions.
 
 ## Annotation
 
-<img alt="Préférences générales" src=images/TechDraw_PreferencesAnnotation.png  style="width:350px;">
+<img alt="Préférences d\'Annotation" src=images/TechDraw_PreferencesAnnotation.png  style="width:350px;">
 
--   **Section Line Standard**: standard à utiliser pour tracer des lignes de section dans les [vues en coupe](TechDraw_SectionView/fr.md).
--   **Section Line Style**: style pour les lignes de coupe.
--   **Section Cut Surface**: style pour la section coupée. Les options sont les suivantes: {{Version/fr|0.19}}
-    -   *Hide*: pas de surface visible.
-    -   *Solid Color*: la surface prend la couleur définie pour **Section Face**
-    -   *SVG Hatch*: la surface est [hachurée](TechDraw_Hatch/fr.md).
-    -   *PAT Hatch*: la surface est [géométriquement hachurée](TechDraw_GeometricHatch/fr.md).
--   **Line Width Group**: [groupe de lignes](TechDraw_LineGroup/fr.md) pour définir les largeurs de ligne par défaut.
--   **Detail View Outline Shape**: forme de contour pour les [vues détaillées](TechDraw_DetailView/fr.md).
--   **Detail Highlight Style**: style de ligne de la forme de contour pour les [vues détaillées](TechDraw_DetailView/fr.md). {{Version/fr|0.19}}
--   **Center Line Style**: style par défaut pour les [médianes](TechDraw_FaceCenterLine/fr.md).
--   **Balloon Shape**: forme des [annotations bulle](TechDraw_Balloon/fr.md).
--   **Balloon Leader End**: style par défaut pour les extrémités de ligne de ligne de repère de ballon.
--   **Balloon Leader Kink Length**: longueur du coude de la ligne de repère du ballon.
--   **Balloon Orthogonal Triangle**: si **Balloon Leader End** est *Filled Triangle*, le triangle ne peut obtenir une direction verticale ou horizontale que lorsque le ballon est déplacé.
--   **Leader Line Auto Horizontal**: force le dernier segment [Ligne de référence](TechDraw_LeaderLine/fr.md) à être horizontal.
--   **Show Center Marks**: affiche les marques du centre de l\'arc dans les vues.
--   **Print Center Marks**: affiche les centres d\'arc dans la sortie imprimée.
+-   **Norme des ligne de coupe** : standard à utiliser pour tracer des lignes de section dans les [vues en coupe](TechDraw_SectionView/fr.md).
+-   **Style des lignes de coupe** : style pour les lignes de coupe.
+-   **Motif des vue en coupe** : motif pour la section coupée. Les options sont les suivantes: {{Version/fr|0.19}}
+    -   *Caché*: pas de surface visible.
+    -   *Couleur pleine* : la surface prend la couleur définie pour **Section Face**
+    -   *Hachure SVG* : la surface est [hachurée](TechDraw_Hatch/fr.md).
+    -   *Hachure PAT* : la surface est [géométriquement hachurée](TechDraw_GeometricHatch/fr.md).
+-   **Largeurs des lignes** : [groupe de lignes](TechDraw_LineGroup/fr.md) pour définir les largeurs de ligne par défaut.
+-   **Forme du contour pour les vues détaillées** : forme de contour pour les [vues détaillées](TechDraw_DetailView/fr.md).
+-   **Style de la ligne de la forme de contour des vues détaillées** : style de la ligne de la forme de contour des [vues détaillées](TechDraw_DetailView/fr.md). {{Version/fr|0.19}}
+-   **Style des lignes centrales** : style par défaut pour les [lignes centrales des faces](TechDraw_FaceCenterLine/fr.md).
+-   **Forme des infobulles** : forme des [infobulles](TechDraw_Balloon/fr.md).
+-   **Extrémité des infobulles** : style par défaut pour des extrémités des infobulles.
+-   **Longueur horizontale de la ligne des infobulles** : longueur horizontale de la ligne des infobulles.
+-   **Triangle orthogonal de l\'infobulle** : si **Extrémité des infobulles** est à *Triangle*, le triangle ne peut avoir une direction verticale ou horizontale que lorsque l\'infobulle est déplacé.
+-   **Ligne de référence horizontale auto** : force le dernier segment de la [ligne de référence](TechDraw_LeaderLine/fr.md) à être horizontal.
+-   **Afficher les marques des centres** : affiche les marques des centres des arcs dans les vues.
+-   **Imprimer les marques des centres** : affiche les marques des centres des arcs sur la version imprimable.
 
 ## Couleurs
 
-<img alt="Préférences des couleurs" src=images/TechDraw_Preferences_Colors.PNG  style="width:350px;">
+<img alt="Préférences de Couleurs" src=images/TechDraw_Preferences_Colors.PNG  style="width:350px;">
 
 Configuration des couleurs par défaut pour les nouvelles pages:
 
--   **Normal**: Couleur de ligne normale.
--   **Preselected**: Couleur de présélection. Couleur utilisée pour mettre en surbrillance les objets lorsque vous passez la souris dessus.
--   **Selected**: Couleur des objets sélectionnés.
--   **Background**: Couleur d\'arrière-plan autour des pages.
--   **Dimension**: Couleur des lignes de cote et du texte.
--   **Centerline**: Couleur pour une [ligne médiane à une face](TechDraw_FaceCenterLine/fr.md).
--   **Detail Highlight**: Couleur de ligne pour la forme de contour des [vues de détail](TechDraw_DetailView/fr.md). {{Version/fr|0.19}}
--   **Transparent Faces**: Si coché, les faces des objets seront transparentes. Sinon, la couleur définie sera utilisée pour les visages. {{Version/fr|0.19}}
--   **Hidden Line**: Couleur de la ligne cachée. Cette couleur sera utilisée pour toutes sortes de [lignes cachées](#Param.C3.A8tres_HLR.md).
--   **Section Face**: Couleur de la surface de coupe [vue des coupes](TechDraw_SectionView/fr.md). Utilisé uniquement si le paramètre **Section Cut Surface** est réglé sur *Solid Color*.
--   **Section Line**: Couleur de la ligne de coupe [vue des coupes](TechDraw_SectionView/fr.md).
--   **Hatch**: [Hachures par motifs](TechDraw_Hatch/fr.md) couleur de l\'image.
--   **Geometric Hatch**: [Hachures géométriques](TechDraw_GeometricHatch/fr.md) couleur du motif.
--   **Vertex**: Couleur des [vertices](Glossary/fr#V.md) sélectionnables dans les vues.
--   **Leaderline**: Couleur des nouveaux [lignes de rappel](TechDraw_LeaderLine/fr.md).
+-   **Normal** : couleur des lignes normales.
+-   **Préselectionnés** : couleur des présélections. Couleur utilisée pour mettre en surbrillance les objets lorsque vous passez la souris dessus.
+-   **Sélection** : couleur des objets sélectionnés.
+-   **Arrière-plan** : couleur d\'arrière-plan autour des pages.
+-   **Dimension** : couleur des lignes de cote et du texte.
+-   **Ligne centrale** : couleur des [lignes centrales de faces](TechDraw_FaceCenterLine/fr.md).
+-   **Couleur des contours des vues détaillées** : couleur des lignes pour la forme des contours des [vues détaillées](TechDraw_DetailView/fr.md). {{Version/fr|0.19}}
+-   **Faces transparentes** : si coché, les faces des objets seront transparentes. Sinon, la couleur définie sera utilisée pour les faces. {{Version/fr|0.19}}
+-   **Lignes cachées** : couleur de la ligne cachée. Cette couleur sera utilisée pour toutes sortes de [lignes cachées](#Param.C3.A8tres_HLR.md).
+-   **Vues en coupe** : couleur de la surface des [vues en coupe](TechDraw_SectionView/fr.md). Utilisé uniquement si le paramètre **Motif des vue en coupe** est réglé sur *Couleur pleine*.
+-   **Lignes des vues en coupe** : couleur de la ligne des [vues en coupe](TechDraw_SectionView/fr.md).
+-   **Hachure** : couleur de l\'image des [hachures par motifs](TechDraw_Hatch/fr.md).
+-   **Hachure géometrique** : couleur du motif des [hachures géométriques](TechDraw_GeometricHatch/fr.md).
+-   **Sommet** : couleur des [vertices](Glossary/fr#V.md) (sommets) sélectionnables dans les vues.
+-   **Lignes de référence** : couleur des nouvelles [lignes de référence](TechDraw_LeaderLine/fr.md).
 
-## HLR
+## Lignes cachées 
 
-<img alt="Préférences HLR" src=images/TechDraw_PreferencesHLR.png  style="width:350px;">
+<img alt="Préférences de Lignes cachées" src=images/TechDraw_PreferencesHLR.png  style="width:350px;">
 
-HLR pour *hidden line removal* (suppression des lignes cachées).
+Version anglaise de la GUI, HLR pour *hidden line removal* (suppression des lignes cachées).
 
--   **Use Polygon Approximation**: utilise une approximation pour trouver les lignes cachées. C\'est rapide, mais le résultat est une collection de courtes lignes droites.
--   **Show Hard Lines**: affiche les bords durs et les contours (les lignes visibles sont toujours affichées)
--   **Show Smooth Lines**: affiche les lignes lisses. Une ligne lisse est une ligne indiquant un changement entre des surfaces tangentes, comme dans la transition d\'une surface plane à un congé [1](https://en.wikipedia.org/wiki/Fillet_(mechanics)).
--   **Show Seam Lines**: afficher les lignes de couture. Une ligne de couture est une frontière entre les faces.
--   **Show UV ISO Lines**: affiche les lignes ISO. ISO signifie «isoparamétrique». [Voici une description](https://knowledge.autodesk.com/support/alias-products/learn-explore/caas/CloudHelp/cloudhelp/2014/ENU/Alias/files/GUID-4CCDF144-DB4F-4BEB-BA5A-E69CED27F4B9-htm.html) des lignes isoparamétriques (en fait des courbes).
--   **ISO Count**: nombre de lignes ISO par bord de face.
+-   **Utiliser l\'approximation du polygone**: utilise une approximation pour trouver les lignes cachées. C\'est rapide, mais le résultat est une collection de courtes lignes droites.
+-   **Afficher les lignes dures**: affiche les bords durs et les contours (les lignes visibles sont toujours affichées)
+-   **Afficher les lignes de transition**: affiche les lignes lisses. Une ligne lisse est une ligne indiquant un changement entre des surfaces tangentes, comme dans la transition d\'une surface plane à un [congé](https://fr.wikipedia.org/wiki/Arrondi_et_cong%C3%A9).
+-   **Afficher les lignes de couture**: afficher les lignes de couture. Une ligne de couture est une frontière entre les faces.
+-   **Afficher les lignes isoparamétriques**: affiche les lignes ISO. ISO signifie «isoparamétrique». [Voici une description (en anglais)](https://knowledge.autodesk.com/support/alias-products/learn-explore/caas/CloudHelp/cloudhelp/2014/ENU/Alias/files/GUID-4CCDF144-DB4F-4BEB-BA5A-E69CED27F4B9-htm.html) des lignes isoparamétriques (en fait des courbes).
+-   **Dénombrement ISO**: nombre de lignes ISO par bord de face.
 
-## Advanced
+## Avancé
 
-<img alt="Préférences avancées" src=images/TechDraw_PreferencesAdvanced.png  style="width:350px;">
+<img alt="Préférences de Avancé" src=images/TechDraw_PreferencesAdvanced.png  style="width:350px;">
 
--   **Detect Faces**: si cette case est cochée, TechDraw tentera de créer des visages en utilisant les segments de ligne renvoyés par l\'algorithme de suppression de ligne cachée. Les visages doivent être détectés pour utiliser [hachures](TechDraw_Hatching/fr.md), mais il peut y avoir une pénalité de performance dans les modèles complexes.
--   **Show Section Edges**: met en surbrillance la bordure de la section coupée dans [vues de section](TechDraw_SectionView/fr.md).
--   **Debug Section**: vide les résultats intermédiaires pendant un traitement de vue de section
--   **Debug Detail**: vide les résultats intermédiaires pendant un traitement de vue de détail
--   **Allow Crazy Edges**: inclut des arêtes avec une géométrie inattendue dans les résultats, par ex. longueurs nulles
--   **Fuse Before Section**: effectue une opération de fusion sur la ou les formes d\'entrée avant le traitement de la vue en coupe
--   **Show Loose 2D Geom**: inclut des objets 2D dans les projections, par ex. croquis lâches
--   **Edge Fuzz**: taille de la zone de sélection autour des bords. L\'unité de focalisation est d\'environ 0,1 mm, en fonction de votre zoom en cours.
--   **Mark Fuzz**: zone de sélection autour des marques centrales. L\'unité de focalisation est d\'environ 0,1 mm, en fonction de votre zoom en cours.
--   **Line End Cap Shape**: réglage de la forme de l\'extrémité de ligne. Explication des options: <https://doc.qt.io/qt-5/qt.html#PenCapStyle-enum>
--   **Max SVG Hatch Tiles**: limite des tuiles SVG d\'une taille de 64x64 pixels utilisées pour hachurer une seule face. Pour les grandes échelles, on peut obtenir une erreur sur de nombreuses tuiles SVG, puis il faut augmenter la limite de tuiles.
--   **Max PAT Hatch Segments**: nombre maximal de segments de hachures utilisés pour hachurer une face avec un motif PAT.
+-   **Détecter les faces** : si cette case est cochée, TechDraw tentera de créer des faces en utilisant les segments de ligne renvoyés par l\'algorithme de suppression de ligne cachée. Les faces doivent être détectés pour utiliser les [hachures](TechDraw_Hatching/fr.md), mais il peut y avoir une dégradation des performances pour les modèles complexes.
+-   **Afficher les arêtes de coupe** : met en surbrillance la bordure de la section coupée dans les [vues en coupe](TechDraw_SectionView/fr.md).
+-   **Débogage pour vues en coupe** : vide les résultats intermédiaires pendant un traitement des vues en coupe.
+-   **Débogage pour vues détaillées** : vide les résultats intermédiaires pendant un traitement des vues détailllées.
+-   **Autoriser les arêtes extravagantes** : inclut des arêtes avec une géométrie inattendue dans les résultats, par ex. longueurs nulles
+-   **Unir avant d\'effectuer une vue en coupe** : effectue une opération de fusion sur la ou les formes d\'entrée avant le traitement de la vue en coupe
+-   **Inclure des objets 2D** : inclut des objets 2D dans les projections, par ex. des esquisses
+-   **Sélection autour des bords** : taille de la zone de sélection autour des bords. L\'unité de focalisation est d\'environ 0,1 mm, en fonction de votre zoom en cours.
+-   **Sélection autour des marques centrales** : zone de sélection autour des marques centrales. L\'unité de focalisation est d\'environ 0,1 mm, en fonction de votre zoom en cours.
+-   **Style des extrémités de ligne** : réglage de la forme des extrémités des lignes. Explication des options: [pen cap styles](https://doc.qt.io/qt-5/qt.html#PenCapStyle-enum)
+-   **Taille maximum des tuiles de hachures SVG** : limite des tuiles SVG d\'une taille de 64x64 pixels utilisées pour hachurer une seule face. Pour les grandes échelles, on peut obtenir une erreur sur de nombreuses tuiles SVG, puis il faut augmenter la limite de tuiles.
+-   **Nombre maximum de segments des hachures PAT** : nombre maximal de segments de hachures utilisés pour hachurer une face avec un motif PAT.
 
 ## Paramètres cachés 
 
@@ -166,15 +166,15 @@ Certains paramètres de préférences ne sont accessibles que via [Std Editeur d
 
 ### Preferences/Mod/TechDraw/Decorations
 
--   **CenterMarkScale**: facteur d\'échelle par défaut pour CenterMarks
+-   **CenterMarkScale**: facteur d\'échelle par défaut pour les marques centrales CenterMarks
 -   **ShowCenterMarks**: défaut `True`/`False`
--   **PrintCenterMarks**: `True`/`False` affiche CenterMarks lors de l\'impression {{Version/fr|0.19}}
+-   **PrintCenterMarks**: `True`/`False` affiche les marques centrales CenterMarks lors de l\'impression {{Version/fr|0.19}}
 
 ### Préférences/Mod/TechDraw/Général
 
 -   **DefaultScale**: réglage initial de de la page échelle {{Version/fr|0.19}}
 -   **EdgeFuzz**: rayon de la sélection des bords
--   **MarkFuzz**: rayon de la sélection des CenterMarks
+-   **MarkFuzz**: rayon de la sélection des marques centrales
 -   **SectionFuseFirst**: fusionne les objets source avant d\'effectuer la coupe de la section
 -   **EdgeEndCap**: forme des extrémités des bords 0x00 FlatCap, 0x10 SquareCap, 0x20 RoundCap (Qt::PenCapStyle) {{Version/fr|0.19}}
 

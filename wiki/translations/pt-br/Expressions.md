@@ -3,7 +3,7 @@
 
 ## Visão geral 
 
-It is possible to define properties using mathematical expressions. In the GUI, spin boxes or input fields that are bound to properties contain a blue icon <img alt="" src=images/Sketcher_Expressions.png  style="width:24px;">. Clicking on the icon or typing the equal sign **&#61;** brings up the expression editor for that particular property.
+It is possible to define properties using mathematical expressions. In the GUI, spin boxes or input fields that are bound to properties contain a blue icon <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Clicking on the icon or typing the equal sign **&#61;** brings up the expression editor for that particular property.
 
 A FreeCAD expression is a mathematical expression following notation for the standard mathematical operators and functions as described below. In addition, the expression may reference other properties, and also use conditionals. Numbers in an expression may have an optional unit attached to them.
 

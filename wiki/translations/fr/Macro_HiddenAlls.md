@@ -22,7 +22,7 @@ Icône de la barre d\'outils <img alt="" src=images/Macro_HiddenAlls.png  style=
 **Macro\_HidenAlls.FCMacro**
 
 
-```python
+{{MacroCode|code=
 import FreeCAD
 #Macro_HideAllObjects
 __title__="Macro_HideAlls"
@@ -37,7 +37,7 @@ try:
         FreeCADGui.ActiveDocument.getObject(ShapeNameObj.Name).Visibility = False
 except Exception:
     None
-```
+}}
 
 ---
 [documentation index](../README.md) > Macro HiddenAlls/fr

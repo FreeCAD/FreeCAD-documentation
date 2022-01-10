@@ -2,124 +2,72 @@
 - GuiCommand:/de
    Name:Draft Rotate
    Name/de:Entwurf Drehen
-   MenuLocation:Entwurf → Drehen
-   Workbenches:[Entwurf](Draft_Workbench/de.md), [Arch](Arch_Workbench/de.md)
+   MenuLocation:Modification → Drehen
+   Workbenches:[Entwurf](Draft_Workbench/de.md), [Architektur](Arch_Workbench/de.md)
    Shortcut:**R****O**
    Version:0.7
-   SeeAlso:[Draft Verschieben](Draft_Move/de.md), [Draft Anordnung](Draft_Array/de.md)
+   SeeAlso:[Entwurf UnterelementMarkieren](Draft_SubelementHighlight/de.md)
 ---
 
 # Draft Rotate/de
 
-
-</div>
-
 ## Beschreibung
 
+Die <img alt="" src=images/Draft_Rotate.svg  style="width:24px;"> **Entwurf Drehen** Anweisung dreht oder kopiert die ausgewählten Objekte um ein Zentrum in einem gegebenen Winkel. Im Unterelementemodus dreht die Anweisung ausgewählte Punkte und Kanten oder Kopien von ausgewählten Kanten um [Linien](Draft_Line/de.md) und [Drähte](Draft_Wire/de.md).
 
-<div class="mw-translate-fuzzy">
+Das Anweisung kann auf 2D-Formen angewendet werden, die mit dem [Draft](Draft_Workbench/de.md)- oder [Skizzierer](Sketcher_Workbench/de.md)-Arbeitsbereich erstellt wurden, kann aber auch mit vielen Arten von 3D-Objekten benutzt werden, wie die mit dem [Part](Part_Workbench/de.md)- oder [Arch](Arch_Workbench/de.md)-Arbeitsbereich erzeugten.
 
-Das Drehen-Werkzeug dreht oder kopiert die ausgewählten Objekte um einen gegebenen Winkel bezogen auf einen Referenzpunkt.
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Drehen-Werkzeug kann mit 2D-Formen verwendet werden, die mit dem [Draft](Draft_Workbench/de.md)- oder [Skizzierer](Sketcher_Workbench/de.md)-Arbeitsbereich erstellt wurden, kann aber auch mit vielen Arten von 3D-Objekten benutzt werden, wie die mit dem [Part](Part_Workbench/de.md)- oder [Arch](Arch_Workbench/de.md)-Arbeitsbereich erzeugten.
-
-
-</div>
-
-<img alt="" src=images/Draft_Rotate_example.jpg  style="width:400px;">
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-*Drehen eines Objekts mit einem Mittelpunkt-Referenzpunkt, von einem Referenzwinkel zu einen anderen Winkel*
-
-
-</div>
+<img alt="" src=images/Draft_Rotate_example.jpg  style="width:400px;"> 
+*Drehen eines Objekts um en Zentrum*
 
 ## Anwendung
 
-See also: [Draft Snap](Draft_Snap.md) and [Draft Constrain](Draft_Constrain.md).
+Siehe auch: [Entwurf Fang](Draft_Snap/de.md) und [Entwurf Beschränken](Draft_Constrain/de.md).
 
-
-<div class="mw-translate-fuzzy">
-
-1.  Die Objekte auswählen, die gedreht oder kopiert werden sollen
-2.  Auf die Schaltfläche **<img src="images/Draft_Rotate.svg" width=16px> [Entwurf Drehen](Draft_Rotate.md)** klicken oder die Tasten **R** und dann **O** drücken. Wenn kein Objekt ausgewählt wurde, erscheint die Bitte, das zu tun.
-3.  Auf einen ersten Punkt in der [3D-Ansicht](3D_view/de.md) klicken oder die Entwurfskoordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen** drücken. Dieser dient als Basispunkt der Operation, durch den die Drehachse verlaufen wird.
-4.  Auf einen zweiten Punkt in der [3D-Ansicht](3D_view/de.md) klicken oder einen Basiswinkel angeben. Dies definiert eine Grundlinie, die sich um den ersten Punkt dreht.
-5.  Auf einen dritten Punkt in der [3D-Ansicht](3D_view/de.md) klicken oder einen Rotationswinkel angeben. Dies startet die Drehung der Grundlinie und dadurch auch der Objekte.
-
-
-</div>
+1.  Ein oder mehrere Objekte oder Unterelemente als [Linien](Draft_Line/de.md) oder [Drähte](Draft_Wire/de.md) auswählen.
+2.  Es gibt mehrere Wege, die Anweisung auszuführen:
+    -   Auf die Schaltfläche **<img src="images/Draft_Rotate.svg" width=16px> [Entwurf Drehen](Draft_Rotate/de.md)** klicken.
+    -   Den Menüpunkt **Modification → <img src="images/Draft_Rotate.svg" width=16px> Drehen** wählen.
+    -   Das Tastenkürzel **R** dann **O** verwenden.
+3.  Wenn noch kein Objekt gewählt wurde, dann eines in der [3D-Ansicht](3D_view/de.md) wählen.
+4.  Die **Drehen**-Ansicht wird geöffnet. Siehe auch [Optionen](#Options.md).
+5.  Wenn Unterelemente gewählt wurden: über das **Modify subelements**-Auswahlkästchen das Unterelementmenü aktivieren.
+6.  Den ersten Punkt, das Zentrum der Drehung, in der [3D-Ansicht](3D_view/de.md) wählen oder die Koordinaten eingeben und die Schaltfläche **<img src="images/Draft_AddPoint.svg" width=16px> Punkt eingeben** anklicken.
+7.  Den zweiten Punkt in the [3D-Ansicht](3D_view/de.md) wählen oder einen **Basiswinkel** eingeben.
+8.  Den dritten Punkt in der [3D-Ansicht](3D_view/de.md) wählen oder eine **Drehung** eingeben.
 
 ## Optionen
 
-The single character keyboard shortcuts and the modifier key mentioned here can be changed. See [Draft Preferences](Draft_Preferences.md).
+Die hier erwähnten Tastenkombinationen für einzelne Zeichen und die Modifikatortaste können geändert werden. Siehe [Entwurf Einstellungen](Draft_Preferences/de.md).
 
+-   Zur manuellen Eingabe der Koordinaten des Zentrums der Drehung einfach die X-, Y- und Z-Komponente eingeben und jeweils **Enter** drücken. Oder die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen**-Schaltfläche betätigen, wenn die gewünschten Werte für den einzufügenden Punkt eingegeben sind. Es ist ratsam, vor der Eingabe der Koordinaten, den Mauszeiger außerhalb der [3D-Ansicht](3D_view/de.md) zu setzen.
+-   Das **Relative**-Auswahlkästchen hat zu diese Anweisung keine Bedeutung.
+-   Drücke **G** oder setze das **Global**-Auswahlkästchen, um in den globalen Modus zu schalten. Ist der globale Modus gesetzt, werden die Koordinaten relativ zum globalen Koordinatensystem verwendet. Umgekehrt werden sie relativ zum Koordinatensystem der [Arbeitsebene](Draft_SelectPlane/de.md) verwendet. <small>(v0.20)</small> 
+-   Die **T**-Taste betätigen oder das **Continue**-Auswahlkästchen setzen, um in den \"Nächstes-Modus\" zu schalten. Ist der Nächstes\_Modus gesetzt, wird die Anweisung nach dem Beenden wieder aufgerufen. Dieser Modus ist nur bei einem aktiven Kopiermodus sinnvoll. Abhängig von der **Select base objects after copying / Wähle grundlegende Objekte nach dem Kopieren**-Einstellung werden entweder die grundlegenden Objekte oder die zuletzt erstellten Kopien für den nächsten Aufruf der Anweisung gewählt. Siehe [Einstellungen](#Preferences.md).
+-   Die **P**-Taste betätigen oder das **Copy**-Auswahlkästchen setzen, um in den Kopiermodus zu schalten. Ist der Kopiermodus gesetzt, werden gedrehte Kopien anstelle gedrehter Originalobjekte erstellt.
+-   Die **D**-Taste betätigen oder das **Modify subelements / Unterelemente anpassen**-Auswahlkästchen setzen, um in den Unterelementemodus zu schalten. Ist der Modus Einzelelemente gesetzt, werden die gewählten Elemente anstatt des ganzen Objektes verwendet. Die Unterelemente müssen [Linien](Draft_Line/de.md) oder [Drähte](Draft_Wire/de.md) sein.
+-   Wenn der Kopiermodus und der Unterelementemodus aktiv sind, werden die [Drähte](Draft_Wire/de.md) ausgewählt. Neue Drähte werden aus diesen Drähten erstellt.
+-   Durch Halten der **ALT**-Taste nach der Eingabe des **Base angle / grundlegenden Winkels** wird ebenfalls in den Kopiermodus geschalten. Wenn die **ALT**-Taste gehalten wird, können mehrere Punkte für die **Rotation / Drehung** gewählt werden. Nach dem Lösen der **ALT**-Taste wird die Anweisung abgeschlossen und die erstellten Kopien werden angezeigt.
+-   Drücken der **S**-Taste schaltet das [Fangen](Draft_Snap/de.md) ein oder aus.
+-   Drücken der **ESC**-Taste oder durch Klicken auf die {{button|Schließen}}-Schaltfläche wird die aktuelle Anweisung abgebrochen.
 
-<div class="mw-translate-fuzzy">
+## Hinweise
 
--   Die Taste **X**, **Y** oder **Z** nach einem Punkt betätigen, um den nächsten Punkt auf der entsprechenden Achse einzuschränken.
--   Zur manuellen Eingabe der Koordinaten einfach die Werte eingeben und jeweils die **ENTER**-Taste zwischen jeder X-, Y- und Z-Komponente betätigen.
+-   Ein Objekt das [angehängt](Part_EditAttachment/de.md) ist, kann nicht mit der Drehen-Anweisung gedreht werden. Entweder sein {{PropertyData/de|Support}}-Objekt wird gedreht, oder sein {{PropertyData/de|Attachment Offset}} wird geändert, um es zu drehen.
 
-:   Die **<img src="images/Draft_AddPoint.svg" width=16px> Punkt hinzufügen**-Schaltfläche betätigen, wenn die gewünschten Werte für den einzufügenden Punkt eingegeben sind.
+## Einstellungen
 
--   Die **T**-Taste betätigen oder auf das Auswahlkästchen klicken, um in den \"Nächstes-Modus\" umzuschalten. Wenn der \"Nächstes\_Modus\" aktiv ist, wird das Werkzeug Drehen wieder aufgerufen, nachdem die Operation abgeschlossen wurde. Dies ermöglicht es, weitere Objekte zu drehen oder zu kopieren ohne jedesmal wieder auf die Drehen-Schaltfläche klicken zu müssen.
--   Die **P**-Taste betätigen oder auf das Auswahlkästchen klicken, um in den \"Kopiermodus\" umzuschalten. Wenn der \"Kopier\_Modus\" aktiv ist, wird das Werkzeug Drehen die Originalform bzw. das Originalobjekt an seinem Platz lassen, aber eine Kopie erzeugen und mit dem angegebenen Winkel am dritten Punkt einfügen.
-
-:   Es können beide **T**- und **P**-Tasten verwendet werden, um mehrere Kopien der Reihe nach zu positionieren.
-
--   Durch Halten der **ALT**-Taste nach dem zweiten Punkt wird ebenfalls in den \"Kopiermodus\" geschalten. Wenn die **ALT**-Taste nach dem Klicken des dritten Punktes gehalten wird, kann man weitere Kopien mit dem gleichen Rotationspunkt und der gleichen Rotationsachse positionieren. Nach dem Lösen der **ALT**-Taste wird die Aktion abgeschlossen und die Kopien werden angezeigt.
--   Durch das Halten der **Ctrl**-Taste wird das [Einrasten](Draft_Snap/de.md) (Fangen) zum nächstgelegenen Einrastpunkt aktiviert, unabhängig von der Distanz dahin.
--   Das Halten der Taste **CTRL** während der Mausbewegung erzwingt den [Einrasten](Draft_Snap/de.md) zur nächsten Einrastposition unabhängig vom Abstand dazu.
--   Das Halten der **Umschalt**-Taste während des Drehens [schränkt](Draft_Constrain/de.md) die Bewegung zum nächsten horizontalen oder vertikalen Punkt den nächsten Punkt in Bezug auf das Rotationszentrum ein.
--   Mit der **ESC**-Taste oder durch Klicken auf die {{button|Schließen}}-Schaltfläche wird der aktuelle Befehl abgebrochen. Kopien, die bereits erstellt wurden, bleiben erhalten.
-
-
-</div>
-
-## Notes
-
--   An Object that is [attached](Part_EditAttachment.md) cannot be rotated with the Draft Rotate command. To rotate it either its **Support** object has to be rotated, or its **Attachment Offset** has to be changed.
-
-## Preferences
-
-See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Draft_Preferences.md).
+Siehe auch: [Editor Einstellungen](Preferences_Editor/de.md) und [Entwurf Einstellungen](Draft_Preferences/de.md).
 
 -   To change the number of decimals used for the input of coordinates and angles: **Edit → Preferences... → General → Units → Units settings → Number of decimals**.
 -   To store and reuse the same copy mode setting across commands: **Edit → Preferences... → Draft → General settings → Draft tools options → Global copy mode**.
 -   To reselect the base objects after copying objects: **Edit → Preferences... → Draft → General settings → Draft tools options → Select base objects after copying**.
 
-## Scripting
-
-
-<div class="mw-translate-fuzzy">
-
 ## Skripten
 
+Siehe auch: _.
 
-**Siehe auch:**
-
-[Draft API](Draft_API/de.md) und [FreeCAD GrundlagenSkripten](FreeCAD_Scripting_Basics/de.md).
-
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
-
-Das Drehen-Werkzeug kann in [Makros](macros/de.md) und aus der [Python](Python/de.md)-Konsole heraus durch folgende Funktion veerwendet werden:
-
-
-</div>
+Verwende die `Drehen`-Methode des Entwurfmodules, um Objekte zu drehen.
 
 
 ```python
@@ -182,15 +130,6 @@ rot_list4 = Draft.rotate(list2, 4*angle2, center=cen, copy=True)
 
 doc.recompute()
 ```
-
-
-<div class="mw-translate-fuzzy">
-
-
-
-
-
-</div>
 
 ---
 [documentation index](../README.md) > [Draft](Draft_Workbench.md) > Draft Rotate/de

@@ -87,11 +87,6 @@ Vedere in [Stairs entry in wikipedia](http://en.wikipedia.org/wiki/Stairs) la de
 
 -    {{ProprietaDati|Winders}}: gradini a ventaglio
 
-
-
-
-Inoltre sono disponibili le [Proprietà standard](DraftStandardProperty/it.md) di vista degli oggetti.
-
 ## Limitazioni
 
 -   Al momento sono disponibili solo scale dritte

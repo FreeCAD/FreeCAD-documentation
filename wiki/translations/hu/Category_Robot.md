@@ -3,7 +3,7 @@ This category lists pages related to the [Robot Workbench/hu](Robot_Workbench/hu
 
 ### Contents:
 
-_ , [Robot Workbench/hu](Robot_Workbench/hu.md)
+[Robot Workbench/hu](Robot_Workbench/hu.md)
 
 _
 

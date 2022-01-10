@@ -17,7 +17,7 @@ Toutes les opérations créent des objets qui font partie d\'une **<img src="ima
 
 Voici les opérations disponibles:
 
-### Opération de contour 
+### Opération Contour 
 
 Une opération **Contour** est la valeur par défaut. Elle crée une simple découpe de contour externe d\'objets 3D complexes basés sur <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md). Le modèle entier de la Tâche sert d\'entrée pour l\'opération, que la géométrie du corps soit sélectionnée ou non lorsque la commande Contour est appelée.
 

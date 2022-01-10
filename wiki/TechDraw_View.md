@@ -12,16 +12,22 @@
 
 The View tool adds a representation of one or more objects to a Drawing page. This is the basic building block of the TechDraw workbench. Most other Views are derived in some way from NewView.
 
+View will try to draw anything with a `Shape` property. You can select [sketches](Sketcher_Workbench.md), [PartDesign Bodies](PartDesign_Body.md), [Draft objects](Draft_Workbench.md) etc. View will also extract any shapes from objects within a [Std Part](Std_Part.md) or a [Std Group](Std_Group.md).
+
  ![](images/TechDraw_View_example.png )  
 *View of a solid box with hidden lines*
 
 ## Usage
 
-1.  Select one or more objects (Body, App::Part, Part::Feature, Draft object, \... See Notes) in the [3D view](3D_view.md) or [Tree view](Tree_view.md).
-2.  If you have multiple drawing pages in your document, you will also need to select the desired page in the tree. Use the **Ctrl** to select multiple items in the tree.
-3.  Press the **<img src="images/TechDraw_View.svg" width=16px> [Insert View](TechDraw_View.md)** button
-
-View will try to draw anything with a `Shape` property. You can select _ container or a [Group](Std_Group.md).
+1.  Optionally rotate the [3D view](3D_view.md). The camera direction in the [3D view](3D_view.md) determines the initial value of the **Direction** property of the View.
+2.  Select one or more objects in the [3D view](3D_view.md) or [Tree view](Tree_view.md).
+3.  If there are multiple drawing pages in the document: optionally add the desired page to the selection by selecting it in the [Tree view](Tree_view.md). This is not optional for {{VersionMinus|0.19}}.
+4.  There are several ways to invoke the tool:
+    -   Press the **<img src="images/TechDraw_View.svg" width=16px> [TechDraw View](TechDraw_View.md)** button.
+    -   Select the **TechDraw → <img src="images/TechDraw_View.svg" width=16px> Insert View** option from the menu.
+5.  If there are multiple drawing pages in the document and you have not yet selected a page, the **Page Chooser** dialog box opens: <small>(v0.20)</small> 
+    1.  Select the desired page.
+    2.  Press the **OK** button.
 
 ## Properties
 
@@ -51,9 +57,6 @@ View will try to draw anything with a `Shape` property. You can select _ contain
 {{TitleProperty|HLR Parameters}}
 
 -    **CoarseView**: If true, TechDraw will use a polygon approximation to calculate drawing geometry. If false, TechDraw will use a precision algorithm. CoarseView can be much faster for complex models. The quality of the drawing is reduced, since every curve is approximated as a series of short line segments. Vertices are not displayed in CoarseView since each short segment would result in two new Vertices and the display becomes cluttered. Linear Dimensions can be added to a CoarseView, but are unlikely to be useful.
-
-:   
-    **Note:**CoarseView is affected by an upstream bug in OCCT ([\#3332](https://www.freecadweb.org/tracker/view.php?id=3332)) which causes the View\'s position on the Page to be slightly off from the specified X,Y values.
 
 -    **Smooth Visible**: Visible Smooth lines on/off.
 

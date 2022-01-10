@@ -36,7 +36,9 @@ Weitere Informationen zu dem Thema findest du unter [Verwandtes](Workbench_creat
 
 ### C++ Arbeitsbereichsstruktur 
 
-Wenn du deinen Arbeitsbereich in Python programmieren willst, brauchst du keine besondere Vorsicht walten zu lassen und kannst einfach deine anderen Python Dateien zusammen mit deinen Init.py und InitGui.py Dateien unterbringen. Wenn du jedoch mit C++ arbeitest, solltest du größere Sorgfalt walten lassen und damit beginnen, eine grundlegende Regel von FreeCAD zu beachten: Die Trennung deines Arbeitsbereichs zwischen einem Anwendungsteil (der im Konsolenmodus laufen kann, ohne jedes GUI Element) und einem Gui Teil, der nur geladen wird, wenn FreeCAD mit seiner vollständigen GUI Umgebung läuft. Wenn du also einen C++ Arbeitsbereich verwendest, wirst du höchstwahrscheinlich zwei Module verwenden, eine Anwendung und eine Gui. Diese beiden Module müssen natürlich von Python aus aufrufbar sein. Jedes FreeCAD Modul (Anwendung oder Gui) besteht mindestens aus einer Modul Init Datei. Dies ist eine typische AppMyModuleGui.cpp Datei: 
+Wenn du deinen Arbeitsbereich in Python programmieren willst, brauchst du keine besondere Vorsicht walten zu lassen und kannst einfach deine anderen Python Dateien zusammen mit deinen Init.py und InitGui.py Dateien unterbringen. Wenn du jedoch mit C++ arbeitest, solltest du größere Sorgfalt walten lassen und damit beginnen, eine grundlegende Regel von FreeCAD zu beachten: Die Trennung deines Arbeitsbereichs zwischen einem Anwendungsteil (der im Konsolenmodus laufen kann, ohne jedes GUI Element) und einem Gui Teil, der nur geladen wird, wenn FreeCAD mit seiner vollständigen GUI Umgebung läuft. Wenn du also einen C++ Arbeitsbereich verwendest, wirst du höchstwahrscheinlich zwei Module verwenden, eine Anwendung und eine Gui. Diese beiden Module müssen natürlich von Python aus aufrufbar sein. Jedes FreeCAD Modul (Anwendung oder Gui) besteht mindestens aus einer Modul Init Datei. Dies ist eine typische AppMyModuleGui.cpp Datei:
+
+
 ```python
 extern "C" {
     void MyModuleGuiExport initMyModuleGui()  
@@ -103,9 +105,19 @@ Du kannst jede beliebige Lizenz für deinen Arbeitsbereich wählen, aber sei dir
 
 Die `FreeCAD.addImportType()` und `addEXportType()` Funktionen ermöglichen es dir, den Namen und die Erweiterung eines Dateityps sowie ein für seinen Import verantwortliches Python-Modul anzugeben. Im obigen Beispiel wird ein `importOwn.py` Modul `.own` Dateien handhaben. Siehe [Codeschnipsel](Code_snippets/de.md) für weitere Beispiele.
 
+### Python workbenches 
+
+
+<div class="mw-translate-fuzzy">
+
 ### Python Arbeitsbereiche 
 
-Dies ist die InitGui.py Datei: 
+Dies ist die InitGui.py Datei:
+
+
+</div>
+
+
 ```python
 class MyWorkbench (Workbench):
 
@@ -140,7 +152,9 @@ class MyWorkbench (Workbench):
         return "Gui::PythonWorkbench"
        
 Gui.addWorkbench(MyWorkbench())
-``` Ansonsten kannst du alles tun, was du willst: Du kannst deinen gesamten Arbeitsbereichscode in die InitGui.py setzen, wenn du möchtest, aber es ist normalerweise bequemer, die verschiedenen Funktionen deines Arbeitsbereichs in separaten Dateien zu platzieren. Deshalb sind diese Dateien kleiner und einfacher zu lesen. Dann importierst du diese Dateien in deine InitGui.py Datei. Du kannst diese Dateien anordnen wie du willst, ein gutes Beispiel ist eine für jeden FreeCAD-Befehl, den du hinzufügst.
+```
+
+Ansonsten kannst du alles tun, was du willst: Du kannst deinen gesamten Arbeitsbereichscode in die InitGui.py setzen, wenn du möchtest, aber es ist normalerweise bequemer, die verschiedenen Funktionen deines Arbeitsbereichs in separaten Dateien zu platzieren. Deshalb sind diese Dateien kleiner und einfacher zu lesen. Dann importierst du diese Dateien in deine InitGui.py Datei. Du kannst diese Dateien anordnen wie du willst, ein gutes Beispiel ist eine für jeden FreeCAD-Befehl, den du hinzufügst.
 
 #### Einstellungen
 
@@ -170,10 +184,16 @@ Hinzufügen deiner Einstellungsseite(n):
 
 ### C++ Arbeitsbereiche 
 
-Wenn du deinen Arbeitsbereich in C++ programmierst, wirst du wahrscheinlich die Arbeitsbereichsdefinition selbst auch in C++ programmieren (obwohl es nicht notwendig ist: du könntest auch nur die Werkzeuge in C++ programmieren und die Arbeitsbereichsdefinition in Python belassen). In diesem Fall, wird die Datei InitGui.py sehr einfach: Sie könnte nur eine Zeile enthalten: 
-```pythonimport MyModuleGui``` wobei MyModule dein vollständiger C++ Arbeitsbereich ist, der die Befehle und Arbeitsbereichsdefinition einschließt.
+Wenn du deinen Arbeitsbereich in C++ programmierst, wirst du wahrscheinlich die Arbeitsbereichsdefinition selbst auch in C++ programmieren (obwohl es nicht notwendig ist: du könntest auch nur die Werkzeuge in C++ programmieren und die Arbeitsbereichsdefinition in Python belassen). In diesem Fall, wird die Datei InitGui.py sehr einfach: Sie könnte nur eine Zeile enthalten:
 
-Die Programmierung von C++ Arbeitsbereichen funktioniert auf ziemlich ähnliche Weise. Dies ist eine typische Workbench.cpp Datei, die du in den Gui-Teil deines Moduls aufnehmen kannst: 
+
+```pythonimport MyModuleGui```
+
+wobei MyModule dein vollständiger C++ Arbeitsbereich ist, der die Befehle und Arbeitsbereichsdefinition einschließt.
+
+Die Programmierung von C++ Arbeitsbereichen funktioniert auf ziemlich ähnliche Weise. Dies ist eine typische Workbench.cpp Datei, die du in den Gui-Teil deines Moduls aufnehmen kannst:
+
+
 ```python
 namespace MyModuleGui {
     class MyModuleGuiExport Workbench : public Gui::StdWorkbench
@@ -210,10 +230,10 @@ class My_Command_Class():
     """My new command"""
 
     def GetResources(self):
-        return {'Pixmap'  : 'My_Command_Icon', # the name of a svg file available in the resources
-                'Accel' : "Shift+S", # a default shortcut (optional)
-                'MenuText': "My New Command",
-                'ToolTip' : "What my new command does"}
+        return {"Pixmap"  : "My_Command_Icon", # the name of a svg file available in the resources
+                "Accel"   : "Shift+S", # a default shortcut (optional)
+                "MenuText": "My New Command",
+                "ToolTip" : "What my new command does"}
 
     def Activated(self):
         """Do something here"""
@@ -224,12 +244,14 @@ class My_Command_Class():
         are met or not. This function is optional."""
         return True
 
-FreeCADGui.addCommand('My_Command',My_Command_Class())
+FreeCADGui.addCommand("My_Command", My_Command_Class())
 ```
 
 ### C++ Befehlsdefinition 
 
-In ähnlicher Weise kannst du deine Befehle in C++ programmieren, normalerweise hast du eine Commands.cpp Datei in deinem Gui Modul. Dies ist eine typische Commands.cpp Datei: 
+In ähnlicher Weise kannst du deine Befehle in C++ programmieren, normalerweise hast du eine Commands.cpp Datei in deinem Gui Modul. Dies ist eine typische Commands.cpp Datei:
+
+
 ```pythonDEF_STD_CMD_A(CmdMyCommand);
 
 CmdMyCommand::CmdMyCommand()
@@ -342,7 +364,7 @@ os.remove(qrc_filename)
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

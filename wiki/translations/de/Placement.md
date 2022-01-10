@@ -32,15 +32,9 @@ Die erste Form von **Positionierung** legt die Lage eines Objekts im Raum mit ei
    (0,0,1) ==> um die **Z** Achse
    (0.71,0.71,0) ==> um die Linie **y=x**
 
-
-<div class="mw-translate-fuzzy">
-
-Beachte, dass es auch möglich ist, ein Objekt entlang dieser Drehachse (Axialbewegung) zu verschieben (bewegen), indem du den Bewegungsabstand in der Axialspinbox eingibst und auf die Schaltfläche Apply axial klickst. (Eine Möglichkeit, sich eine axiale Bewegung vorzustellen, ist, an ein Flugzeug zu denken, bei dem sich ein Propeller auf der Nase dreht - der Propeller dreht sich um eine Drehachse, während sich das Flugzeug entlang derselben Achse bewegt.) Die Werte im Vektor können als die relative Bewegungsgröße betrachtet werden, die in dieser Richtung angewendet wird. So wird beispielsweise im Fall y=x (0.71,0.71,71,0) der in der Axialspinbox enthaltene Wert gleichermaßen auf die X- und Y-Richtung angewendet, aber es findet keine Bewegung in der Z-Richtung statt.
+Beachte, dass es auch möglich ist, ein Objekt entlang dieser Drehachse (Axialbewegung) zu verschieben (bewegen), indem du den Bewegungsabstand im {{SpinBox|Axial: 0.0mm}}-Drehfeld eingibst und auf die Schaltfläche **Apply axial** klickst. (Eine Möglichkeit, sich eine axiale Bewegung vorzustellen, ist, an ein Flugzeug zu denken, bei dem sich ein Propeller auf der Nase dreht - der Propeller dreht sich um eine Drehachse, während sich das Flugzeug entlang derselben Achse bewegt.) Die Werte im Vektor können als die relative Bewegungsgröße betrachtet werden, die in dieser Richtung angewendet wird. So wird beispielsweise im Fall y=x (0.71,0.71,71,0) der in der Axialspinbox enthaltene Wert gleichermaßen auf die X- und Y-Richtung angewendet, aber es findet keine Bewegung in der Z-Richtung statt.
 
 **Position = (x,y,z)** ist ein Vektor, der den Punkt beschreibt, von dem aus die Geometrie des Objekts berechnet wird (tatsächlich ein \"lokaler Ursprung\" für das Objekt). Beachte, dass in Skripten Placement.Base verwendet wird, zur Bezeichnung der Positionskomponente einer Positionierung. Der Eigenschaftseditor ruft diesen Wert \"Position\" und der Positionierungsdialog nennt ihn \"Translation\".
-
-
-</div>
 
 ### Position und Gieren, Neigen und Rollen 
 
@@ -202,41 +196,33 @@ newplace = FreeCAD.Placement(pos,rot,centre)        # make a new Placement objec
 obj.Placement = newplace                            # spin the box
 ```
 
-## Using Placement in expressions 
+## Verwendung der Positionierung in Ausdrücken 
 
-In expressions it is possible to use the components of the placement for example to access the x-component of the object labeled \"Cube\": 
-```python
-<<Cube>>.Placement.Base.x
-```
+In Ausdrücken ist es möglich, die Komponenten der Positionierung zu verwenden, um zum Beispiel den X-Wert eines Objektes mit der Benennung \"Cube\" anzusprechen: 
+```python<<Cube>>.Placement.Base.x```
 
-You can access the angle of the rotation by 
-```python
-<<Cube>>.Placement.Rotation.Angle
-```
+Der Winkel der Rotation kann angesprochen werden mit: 
+```python<<Cube>>.Placement.Rotation.Angle```
 
-The axis of rotation can be accessed with 
+Die Achse der Rotation kann angesprochen werden mit: 
 ```python
 <<Cube>>.Placement.Rotation.Axis.x
 <<Cube>>.Placement.Rotation.Axis.y
 <<Cube>>.Placement.Rotation.Axis.z
-``` where often one of these values is 1 while the others are 0.
+``` wobei oft einer der Faktoren den Wert 1 hat und die anderen den Wert 0.
 
-You can also use the whole Placement in a single expression: Right click on Placement property in the property editor, select \"show all\" then extra properties will show. If you then right click on Placement again the context menu will include Expression, select Expression then the Expression dialogue will open and whatever you type will go into the Placement property rather than its child properties.
+Das gesamte Positionieren kann auch in einem einzigen Ausdruck verwendet werden: Rechtklick auf Positionierungseigenschaft im Eigenschaftseditor, Ausdruck wählen und das Ausdrucksfenster wird geöffnet und alles, was eingegeben wird, wird in die Positionierungseigenschaft eingetragen und nicht in seine untergeordneten Eigenschaften.
 
 Um die Positionierung von \"Sketch\" mit der von \"Cylinder\" gleichzusetzen, würdest du auf diese Weise für Sketch den Ausdruck 
 ```python
 <<Cube>>.Placement
 ``` ![Einstellung der gesamten Positionierung in einem Ausdruck](images/PlacementInExpression.png )
 
-**NOTE:** It\'s also possible to *create* Placement objects in expressions. See the [Expressions](Expressions#Placement.md) page for details.
-
-## Notes
-
-
-<div class="mw-translate-fuzzy">
+**Hinweis:** Es ist auch möglich Positionierungsobjekte in Ausdrücken zu *erstellen*. Siehe hierzu auch [Ausdrücke / Placement](Expressions/de#Placement.md).
 
 ## Hinweise
 
+-   Die Positionierungseigenschaften unter dem Dataenreiter sind bei Objekten, die an andere Objekte angeheftet sind, deaktiviert.
 -   Achse und Winkel können auch als [Quaternionen](https://de.wikipedia.org/wiki/Quaternion) ausgedrückt werden.
 -   Der Referenzpunkt eines Objektes ändert sich, abhängit vom Objekt selbst. Beispiele allgemeiner Objekte:
 
@@ -249,19 +235,10 @@ Um die Positionierung von \"Sketch\" mit der von \"Cylinder\" gleichzusetzen, w�
   Part.Torus                         Zentrum eines Torus
   Von Skizzen abgeleitete Merkmale   das Merkmal erbt die Position der zugrundeliegenden Skizze. Skizzen beginnen immer mit der Position = (0,0,0). Diese Position entspricht dem Ursprung in der Skizze.
 
-
-</div>
-
 ## Probleme
 
-
-<div class="mw-translate-fuzzy">
-
 -   Ab Version 0.13 wurde die Aktualisierung der Positionierungseigenschaften auf der Registerkarte Daten für Objekte deaktiviert, die mit PartDesign erstellt wurden, mit Ausnahme der ersten Skizze, aus der das Solid erstellt wird. Daher kann die Positionierung eines Solids, das in PartDesign aus einer Skizze erstellt wurde, nur geändert werden, indem die Positionierungsparameter der ursprünglichen Konstruktionsskizze (der ersten Skizze), aus der das Solid erstellt wurde, angepasst werden.
--   Die Funktion der Positionierung wird eventuell im Arbeitsbereich Zusammenbau behandelt.
-
-
-</div>
+-   Die Funktion der relativen Positionierung wird eventuell im Arbeitsbereich Zusammenbau behandelt.
 
 ## Weiteres
 

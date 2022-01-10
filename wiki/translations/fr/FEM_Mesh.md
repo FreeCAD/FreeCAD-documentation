@@ -1,7 +1,7 @@
 # FEM Mesh/fr
 {{TOCright}}
 
-## Créer un FEM Mesh 
+## Créer un maillage à éléments finis 
 
 L\'analyse par éléments finis (FEA) est effectuée sur un maillage composé de multiples éléments triangulaires et quadrilatéraux qui subdivisent le corps d\'origine. Plus le maillage est raffiné, plus les résultats numériques seront précis, mais le temps de calcul sera également plus long. Un équilibre entre la taille du maillage, le temps de calcul et la précision des résultats est une caractéristique importante d\'une analyse par éléments finis bien définie.
 
@@ -14,25 +14,19 @@ Il existe différentes possibilités pour configurer un maillage dans l\'[atelie
 
 Les outils Gmsh et Netgen prennent en charge les corps de maillage créés avec les ateliers [Part](Part_Workbench/fr.md) et [PartDesign](PartDesign_Workbench/fr.md), ainsi que les copies simples de ces solides. En général, tout atelier générant des objets solides, tel que l\'[atelier Arch](Arch_Workbench/fr.md), peut être utilisé comme base de création de maillages. Notez qu\'un maillage utilisé pour FEA est différent d\'un maillage créé ou importé à partir de l\'[atelier Mesh](Mesh_Workbench/fr.md).
 
-<img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;">
-
-
-
+<img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
 *L'atelier FEM appelle l'outil externe Gmsh pour obtenir un maillage à partir d'un corps solide créé avec n'importe quel atelier dans FreeCAD ; il peut aussi importer un maillage créé en externe*
 
-<img alt="" src=images/FEM_Mesh.png  style="width:600px;">
-
-
-
+<img alt="" src=images/FEM_Mesh.png  style="width:600px;"> 
 *(1) Corps solide créé avec PartDesign ; (2) maillage produit par l'outil Gmsh à l'intérieur de l'atelier FEM (tous les triangles) ; et (3) un maillage produit en externe par Gmsh, exporté au format Abaqus {{FileName|.inp*, puis importé dans FreeCAD (tous les quadrangles).}}
 
-Les outils [Gmsh](FEM_MeshGmshFromShape/fr.md) et [Netgen](FEM_MeshNetgenFromShape.md) sont des outils pratiques pour rapidement mailler un corps et ne pas exposer ainsi toutes les capacités de ces programmes. ils créent normalement des maillages triangulaires, ce qui peut ne pas être idéal pour certains types d\'analyse. Si vous souhaitez mieux contrôler le maillage créé (utilisez uniquement des quadrilatères, un nombre et une taille d\'élément précis, une résolution variable du maillage, etc.), vous devez utiliser ces programmes en externe, créez un fichier de maillage dans un format pris en charge ({{FileName|.inp}}, {{FileName|.unv}}, {{FileName|.vtk}}, {{FileName|.z88}}), et importez ce fichier dans FreeCAD.
+Les outils [Gmsh](FEM_MeshGmshFromShape/fr.md) et [Netgen](FEM_MeshNetgenFromShape/fr.md) sont des outils pratiques pour rapidement mailler un corps et ne pas exposer ainsi toutes les capacités de ces programmes. ils créent normalement des maillages triangulaires, ce qui peut ne pas être idéal pour certains types d\'analyse. Si vous souhaitez mieux contrôler le maillage créé (utilisez uniquement des quadrilatères, un nombre et une taille d\'élément précis, une résolution variable du maillage, etc.), vous devez utiliser ces programmes en externe, créez un fichier de maillage dans un format pris en charge ({{FileName|.inp}}, {{FileName|.unv}}, {{FileName|.vtk}}, {{FileName|.z88}}), et importez ce fichier dans FreeCAD.
 
 Auparavant, Netgen était inclus dans FreeCAD et pouvait être utilisé immédiatement. Maintenant, Netgen et Gmsh doivent être installés avant de pouvoir être utilisés par l\'[atelier FEM](FEM_Workbench/fr.md). Reportez-vous à [Installation FEM](FEM_Install/fr.md) pour les instructions.
 
 ## Logiciels de maillage 
 
-Les logiciels de maillage fonctionne sur des corps solides pouvant se présenter sous différents formats, comme Step et Brep. Ces programmes peuvent être utilisés indépendamment de FreeCAD et disposent généralement de nombreuses options pour contrôler les algorithmes de maillage, la taille des éléments et les conditions aux limites.
+Les logiciels de maillage opèrent sur des corps solides qui peuvent être dans différents formats, comme Step et Brep. Ces programmes peuvent être utilisés indépendamment de FreeCAD, et disposent généralement de nombreuses options pour contrôler les algorithmes de maillage, la taille des éléments et les conditions aux limites.
 
 L\'[atelier FEM](FEM_Workbench/fr.md) a développé des interfaces de communication simples pour utiliser Gmsh et Netgen directement dans FreeCAD. D\'autres programmes n\'ont pas d\'interface, mais cela pourrait changer à l\'avenir si la communauté suscite de l\'intérêt et si ces applications sont faciles à intégrer. Le logiciel de maillage peut être compilé et distribué avec FreeCAD seulement si sa licence est compatible avec les licences GPL2 ou LGPL2 ; sinon le programme doit être utilisé comme un binaire externe, comme Gmsh (GPL2).
 
@@ -94,14 +88,14 @@ Vous trouverez plus d\'informations sur les éléments et leur structure de donn
 
 <img alt="" src=images/FEM_mesh_elements_7_pyramid.svg  style="width:600px;">
 
-## Les Scripts 
+## Script
 
-### Créez un maillage FEM totalement en python 
+### Créez un maillage FEM entièrement en Python 
 
 
-**Voir aussi :**
+**Voir aussi:**
 
-[Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+[FreeCAD Script de base](FreeCAD_Scripting_Basics/fr.md).
 
 L\'API Python permet à l\'utilisateur de définir un maillage d\'éléments finis en ajoutant directement des nœuds individuels et en définissant des arêtes, des faces et des volumes.
 
@@ -143,7 +137,9 @@ obj = FreeCAD.ActiveDocument.ActiveObject
 
 Si vous souhaitez une numérotation prédéfinie des noeuds et des éléments, transmettez l\'ID approprié aux méthodes de noeud et de volume.
 
-Pour créer un objet document réel, au lieu de `Fem.show()` vous pouvez utiliser la méthode `addObject()` ; attachez ensuite le maillage créé à l\'attribut `FemMesh` de cet objet. 
+Pour créer un objet document réel, au lieu de `Fem.show()` vous pouvez utiliser la méthode `addObject()` ; attachez ensuite le maillage créé à l\'attribut `FemMesh` de cet objet.
+
+
 ```python
 a = Fem.FemMesh()
 
@@ -174,18 +170,34 @@ Fem.show(m)
 obj = FreeCAD.ActiveDocument.ActiveObject
 
 obj.ViewObject.HighlightedNodes = [1, 2, 3]
-``` Les éléments individuels d\'un maillage peuvent être modifiés en passant un dictionnaire avec les paires `key:value` appropriées.
+```
 
-Réglez le volume 1 sur rouge 
+Les éléments individuels d\'un maillage peuvent être modifiés en passant un dictionnaire avec les paires `key:value` appropriées.
+
+Réglez le volume 1 sur rouge
+
+
 ```python
 obj.ViewObject.ElementColor = {1:(1,0,0)}
-``` Définissez les nœuds 1, 2 et 3 sur une certaine couleur; les faces entre les nœuds acquièrent une couleur interpolée 
+```
+
+Définissez les nœuds 1, 2 et 3 sur une certaine couleur; les faces entre les nœuds acquièrent une couleur interpolée.
+
+
 ```python
 obj.ViewObject.NodeColor = {1:(1,0,0), 2:(0,1,0), 3:(0,0,1)}
-``` Déplacer les nœuds 1 et 2 par le sens et la direction définies par un vecteur 
+```
+
+Déplacer les nœuds 1 et 2 par le sens et la direction définies par un vecteur.
+
+
 ```python
 obj.ViewObject.NodeDisplacement = {1:FreeCAD.Vector(0,1,0), 2:FreeCAD.Vector(1,0,0)}
-``` Doubler le facteur de déplacement indiqué (**Note aux éditeurs : supprimé dans les nouvelles versions ?)** 
+```
+
+Doubler le facteur de déplacement indiqué. (**Note aux éditeurs : supprimé dans les nouvelles versions ?)**
+
+
 ```python
 obj.ViewObject.animate(2.0)
 ```
@@ -249,7 +261,9 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 obj.ViewObject.BackfaceCulling = False
 ```
 
-Ajoutez une face avec le numéro d\'élément. 
+Ajoutez une face avec le numéro d\'élément.
+
+
 ```python
 elemtria3 = Fem.FemMesh()
 nodes = tria3.Nodes
@@ -289,7 +303,9 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 obj.ViewObject.BackfaceCulling = False
 ```
 
-Ajoutez une face avec le numéro d\'élément. 
+Ajoutez une face avec le numéro d\'élément.
+
+
 ```python
 elemtria6 = Fem.FemMesh()
 nodes = tria6.Nodes
@@ -326,7 +342,9 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 obj.ViewObject.BackfaceCulling = False
 ```
 
-Ajoutez une face avec le numéro d\'élément. 
+Ajoutez une face avec le numéro d\'élément.
+
+
 ```python
 elemquad4 = Fem.FemMesh()
 nodes = quad4.Nodes
@@ -367,7 +385,9 @@ obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 obj.ViewObject.BackfaceCulling = False
 ```
 
-Ajoutez une face avec le numéro d\'élément. 
+Ajoutez une face avec le numéro d\'élément.
+
+
 ```python
 elemquad8 = Fem.FemMesh()
 nodes = quad8.Nodes
@@ -403,7 +423,9 @@ obj.Placement.Base = FreeCAD.Vector(0, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Ajoutez un volume avec le numéro d\'élément. 
+Ajoutez un volume avec le numéro d\'élément.
+
+
 ```python
 elemtetra4 = Fem.FemMesh()
 nodes = tetra4.Nodes
@@ -446,7 +468,9 @@ obj.Placement.Base = FreeCAD.Vector(30, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Ajoutez un volume avec le numéro d\'élément. 
+Ajoutez un volume avec le numéro d\'élément.
+
+
 ```python
 elemtetra10 = Fem.FemMesh()
 nodes = tetra10.Nodes
@@ -485,7 +509,9 @@ obj.Placement.Base = FreeCAD.Vector(60, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Ajoutez un volume avec le numéro d\'élément. 
+Ajoutez un volume avec le numéro d\'élément.
+
+
 ```python
 elemhexa8 = Fem.FemMesh()
 nodes = hexa8.Nodes
@@ -539,7 +565,9 @@ obj.Placement.Base = FreeCAD.Vector(90, 50, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Ajoutez un volume avec le numéro d\'élément. 
+Ajoutez un volume avec le numéro d\'élément.
+
+
 ```python
 elemhexa20 = Fem.FemMesh()
 nodes = hexa20.Nodes
@@ -576,7 +604,9 @@ obj.Placement.Base = FreeCAD.Vector(0, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Ajoutez un volume avec le numéro d\'élément. 
+Ajoutez un volume avec le numéro d\'élément.
+
+
 ```python
 elempenta6 = Fem.FemMesh()
 nodes = penta6.Nodes
@@ -625,7 +655,9 @@ obj.Placement.Base = FreeCAD.Vector(40, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Ajoutez un volume avec le numéro d\'élément. 
+Ajoutez un volume avec le numéro d\'élément.
+
+
 ```python
 elempenta15 = Fem.FemMesh()
 nodes = penta15.Nodes
@@ -661,7 +693,9 @@ obj.Placement.Base = FreeCAD.Vector(80, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Ajoutez un volume avec le numéro d\'élément. 
+Ajoutez un volume avec le numéro d\'élément.
+
+
 ```python
 elempyra5 = Fem.FemMesh()
 nodes = pyra5.Nodes
@@ -707,7 +741,9 @@ obj.Placement.Base = FreeCAD.Vector(120, 0, 0)
 obj.ViewObject.DisplayMode = "Faces, Wireframe & Nodes"
 ```
 
-Ajoutez un volume avec le numéro d\'élément. 
+Ajoutez un volume avec le numéro d\'élément.
+
+
 ```python
 elempyra13 = Fem.FemMesh()
 nodes = pyra13.Nodes

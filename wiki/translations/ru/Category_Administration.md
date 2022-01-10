@@ -3,9 +3,9 @@ This category contains articles and categories about wiki administrative subject
 
 ### Contents:
 
-_ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , [WikiPages/ru](WikiPages/ru.md) ,
+_ , _ , _ , _ , _ , _ , _ , _ , [WikiPages/ru](WikiPages/ru.md) ,
 
 _ _
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Category:Administration/ru
+[documentation index](../README.md) > Category:Administration/ru

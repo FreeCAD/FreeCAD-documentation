@@ -63,15 +63,10 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   <img alt="" src=images/Std_Edit.svg  style="width:32px;"> [Bearbeitungsmodus umschalten](Std_Edit/de.md) Aktiviert oder deaktiviert den Bearbeitungsmodus eines Objekts.
 
--   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> _. <small>(v0.20)</small> 
+-   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> _ doppelt geklickt wird. <small>(v0.20)</small> 
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> _. **-- Unter MacOS kann diese Menüoption im FreeCAD-Menü anstelle des Bearbeiten-Menüs erscheinen**.
-
-
-</div>
+-   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> _. 
+**-- Unter MacOS kann diese Menüoption im FreeCAD-Menü anstelle des Bearbeiten-Menüs erscheinen.**
 
 
 

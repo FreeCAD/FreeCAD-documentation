@@ -1,7 +1,5 @@
 # List of Commands/tr
-This category contains the help pages of each of FreeCAD [Command](Command.md).
-
-_
+1.  REDIRECT _
 
 ---
 [documentation index](../README.md) > List of Commands/tr

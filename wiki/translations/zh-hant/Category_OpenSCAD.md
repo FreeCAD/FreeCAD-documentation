@@ -5,7 +5,5 @@ This category lists pages related to the [OpenSCAD\_Workbench/zh-hant](OpenSCAD_
 
 _
 
-_
-
 ---
 [documentation index](../README.md) > Category:OpenSCAD/zh-hant

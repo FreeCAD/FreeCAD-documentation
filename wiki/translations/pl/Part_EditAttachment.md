@@ -259,7 +259,7 @@ Aligns plane to pass through first two vertices, and perpendicular to plane that
 
 #### Folding
 
-Specialty mode for folding polyhedra. Select 4 edge in order: foldable edge, fold line, other fold line, other foldable edge. Plane will be aligned to folding the first edge. In the picture below, it is not required that both leafs to fold together be the same.
+Specialty mode for folding polyhedra. Select 4 edge in order: glueable edge, fold line, other fold line, other glueable edge. Plane will be aligned to folding the first edge. In the picture below, it is not required that both leafs to fold together be the same.
 
 :; Reference combinations
 

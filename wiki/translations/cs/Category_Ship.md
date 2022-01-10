@@ -3,7 +3,7 @@ This category lists pages related to the [Ship Workbench/cs](Ship_Workbench/cs.m
 
 ### Contents:
 
-_ , [Ship Workbench/cs](Ship_Workbench/cs.md)
+[Ship Workbench/cs](Ship_Workbench/cs.md)
 
 _
 

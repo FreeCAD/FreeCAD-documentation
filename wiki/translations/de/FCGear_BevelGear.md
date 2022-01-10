@@ -92,10 +92,6 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 -    **pressure_parameter**: Only change the parameter, if sufficient knowledge of the gear geometry is available.
 
-## Begrenzungen
-
-Begrenzungen sind noch nicht bekannt.
-
 ## Hilfreiche Formeln 
 
 -    **Teilkreisdurchmesser**= **Modul** \* **Zähne**

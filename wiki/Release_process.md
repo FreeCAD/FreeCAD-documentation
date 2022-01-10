@@ -219,16 +219,18 @@ Upload to SourceForge:
 
 ### Post Release 
 
-1.  Update the current version in the wiki
+1.  Update and/or check the current version in the wiki:
 
-    :   [Download](Download.md) page
-    :   [Installing on Linux](Installing_on_Linux.md) page
-    :   Template: _
-    :   Template: _
-    :   Template: _
-    :   Template: _
-    :   Template: _
+    :   _ (currently no longer used)
+    :   _
+    :   _
+    :   _
+    :   _
+    :   [Installing on Windows](Installing_on_Windows.md)
+    :   [Installing on Linux](Installing_on_Linux.md)
+    :   [Installing on Mac](Installing_on_Mac.md)
     :   [AppImage](AppImage.md)
+    :   [Download](Download.md)
     :   Where else?
 2.  Release announcement to the forum
 3.  Unleash the translators, asking them to send their translated release announcements to local media
@@ -371,9 +373,6 @@ This is a raw list of sites and blogs that have at some point mentioned FreeCAD.
 
 
 </div>
-
-
-
 
 _ _
 

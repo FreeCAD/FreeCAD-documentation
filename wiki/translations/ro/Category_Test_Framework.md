@@ -1,5 +1,5 @@
 # Category:Test Framework/ro
-This category lists pages related to the [Test Framework Workbench/ro](Test_Framework_Workbench/ro.md).
+This category lists pages related to the [Test Framework Workbench](Testing.md).
 
 ### Contents:
 

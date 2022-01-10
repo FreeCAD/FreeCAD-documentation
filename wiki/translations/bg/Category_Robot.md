@@ -3,7 +3,7 @@ This category lists pages related to the [Robot Workbench/bg](Robot_Workbench/bg
 
 ### Contents:
 
-_ , [Robot Workbench/bg](Robot_Workbench/bg.md)
+[Robot Workbench/bg](Robot_Workbench/bg.md)
 
 _
 

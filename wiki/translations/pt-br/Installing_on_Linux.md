@@ -338,8 +338,14 @@ Muitos pacotes FreeCAD alternativos e não-oficiais estão disponíveis na rede,
 
 ### Instalação manual em sistemas baseados em .deb 
 
+
+<div class="mw-translate-fuzzy">
+
 Se por algum motivo você não puder usar nenhum dos métodos acima, você pode baixar um dos pacotes .deb disponíveis na página de [Download](Download/pt-br.md).
-{{DownloadUnixStable}}
+{{DownloadLinuxStable}}
+
+
+</div>
 
 Uma vez que você tenha baixado o .deb para sua versão do sistema, se você tiver o pacote _ instalado, basta ir até o local do arquivo baixado e clicar duas vezes sobre ele. Seu gerente de pacotes instalará automaticamente as dependências necessárias. Alternativamente, você também pode instalá-lo a partir do terminal, navegando até onde você baixou o arquivo, e digitar:
 

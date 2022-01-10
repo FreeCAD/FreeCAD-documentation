@@ -21,18 +21,18 @@ Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier D
 
 ## Utilisation
 
-Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  En option, sélectionnez un ou plusieurs objets.
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Draft_Mirror.svg" width=16px> [Créer une symétrie des objets...](Draft_Mirror/fr.md)**.
+    -   Appuyez sur le bouton **<img src="images/Draft_Mirror.svg" width=16px> [Miroir](Draft_Mirror/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Mirror.svg" width=16px> Miroir** dans le menu.
     -   Utilisez le raccourci clavier : **M** puis **I**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
 4.  Le panneau de tâches **Mirror** s\'ouvre. Voir [Options](#Options.md) pour plus d\'informations.
 5.  Choisissez le premier point du plan miroir dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
 6.  Choisissez le deuxième point du plan miroir dans la [Vue 3D](3D_view/fr.md) ou rentrez des coordonnées et appuyez sur le bouton **<img src="images/Draft_AddPoint.svg" width=16px> Entrez le point**.
-7.  Le plan miroir est défini par les points sélectionnés et la normale du [DraftPlan de travail](Draft_SelectPlane/fr.md).
+7.  Le plan miroir est défini par les points sélectionnés et la normale du [Draft Plan de travail](Draft_SelectPlane/fr.md).
 
 ## Options
 
@@ -43,7 +43,7 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 -   Appuyez sur **G** ou cliquez sur la case **Global** pour activer le mode global. Si le mode global est activé, les coordonnées sont relatives au système de coordonnées global, sinon elles sont relatives au système de coordonnées du [plan de travail](Draft_SelectPlane/fr.md). {{Version/fr|0.20}}
 -   La case à cocher **Continue** n\'a aucune utilité pour cette commande.
 -   La case à cocher **Modifier les sous-éléments** n\'a pas d\'utilité pour cette commande.
--   Appuyez sur **S** pour activer ou désactiver [Draft Accrochage](Draft_Snap/fr.md).
+-   Appuyez sur **S** pour activer ou désactiver [Draft Aimantation](Draft_Snap/fr.md).
 -   Appuyez sur **Echap** ou sur le bouton **Fermer** pour abandonner la commande.
 
 ## Remarques
@@ -68,14 +68,14 @@ Un objet [Part Miroir](Part_Mirror/fr.md) est dérivé d\'un objet [Part Feature
 
 {{TitleProperty|Base}}
 
--    {{PropertyData/fr|Source|Link}}: spécifie l\'objet qui est mis en miroir.
+-    **Source|Link**: spécifie l\'objet qui est mis en miroir.
 
 
 {{TitleProperty|Plane}}
 
--    {{PropertyData/fr|Base|Vector}}: indique le point de base du plan miroir.
+-    **Base|Vector**: indique le point de base du plan miroir.
 
--    {{PropertyData/fr|Normal|Vector}}: spécifie la direction normale du plan miroir.
+-    **Normal|Vector**: spécifie la direction normale du plan miroir.
 
 ## Script
 
@@ -94,7 +94,7 @@ mirrored_list = mirror(objlist, p1, p2)
 
 -    `p2`est le second point du plan miroir.
 
--   Si le [Draft Plan de travail](Draft_SelectPlane/fr.md) est disponible, l\'alignement du plan miroir est déterminé par sa normale, sinon la direction de la caméra dans la [3D view](3D_view.md) active est utilisée. Si l\'interface graphique n\'est pas disponible, l\'axe Z est utilisé.
+-   Si le [Draft Plan de travail](Draft_SelectPlane/fr.md) est disponible, l\'alignement du plan miroir est déterminé par sa normale, sinon la direction de la caméra dans la [vue 3D](3D_view/fr.md) active est utilisée. Si l\'interface graphique n\'est pas disponible, l\'axe Z est utilisé.
 
 -    `mirrored_list`est retourné avec les nouveaux objets `Part::Mirroring`. Il s\'agit soit d\'un objet unique, soit d\'une liste d\'objets, en fonction de `objlist`.
 

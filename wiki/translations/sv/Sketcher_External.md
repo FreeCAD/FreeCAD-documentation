@@ -24,9 +24,9 @@ A note of caution, using this tool to link to generated (solid) geometry can lea
 ## Usage
 
 -   Create a new sketch, or open an existing sketch.
--   Click \'Sketcher External\' button
+-   Press the **<img src=images/Sketcher_External.svg style="width:16px"> [Sketcher External](Sketcher_External.md)** button.
 -   Select an edge or a vertex that you want to link to in the sketch.
--   Press Esc, or select another tool to stop importing geometry into the sketch.
+-   Press **Esc**, or select another tool to stop importing geometry into the sketch.
 
 ### Selection rules 
 

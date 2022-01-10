@@ -21,19 +21,12 @@ Assembly4 создавался под влиянием верстаков <img a
 
 ## Ссылки
 
-
-<div class="mw-translate-fuzzy">
-
 -   [App Link](App_Link/ru.md) - объект, который обеспечивает работу Assembly3 и Assembly4.
 -   [Assembly4](https://github.com/Zolko-123/FreeCAD_Assembly4), его хранилище и документация.
 -   [Верстак Assembly 4](https://forum.freecadweb.org/viewtopic.php?f=20&t=34806), большая ветка обсуждения.
 -   [Текущий статус Assembly](https://forum.freecadweb.org/viewtopic.php?f=20&t=34583)
 -   [Внешние верстаки](External_workbenches/ru.md)
--   [Список внешних верстаков](External_workbench_list/ru.md)
 -   План разработки [старого проекта Assembly](Assembly_project/ru.md), для знакомства с историей вопроса.
-
-
-</div>
 
 ## Учебники
 

@@ -1,12 +1,7 @@
 # Main Page/ru
-<div class="mw-translate-fuzzy">
-
 ## Введение
 
 Это wiki-документация о _!
-
-
-</div>
 
 ## Уголки
 

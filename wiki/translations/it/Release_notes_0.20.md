@@ -220,11 +220,6 @@ There is also a text box for feedback of OpenSCAD errors.
 -   It is now possible to fix the angle of the direction when using the [Rectangular array](Sketcher_RectangularArray.md) tool. [commit](https://github.com/FreeCAD/FreeCAD/commit/c9eaa2393d33) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?p=535691#p535691)
 -   It is now possible to fix the angle of the direction when using the tools [Clone](Sketcher_Clone.md), [Copy](Sketcher_Copy.md) and [Move](Sketcher_Move.md). [commit](https://github.com/FreeCAD/FreeCAD/commit/6e4a09f569cf) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=8&t=62799)
 
-### Sketcher bug fixes 
-
--   Fix \'Reference\' option not working for radius/diameter at creation time [Pull request \#4744 for radius](https://github.com/FreeCAD/FreeCAD/pull/4744) [Pull request \#4832 for diameter](https://github.com/FreeCAD/FreeCAD/pull/4832) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=57584)
--   [Carbon copy](Sketcher_CarbonCopy.md) parallel/alignment detection has been improved adding tolerance to floating point computation errors [Pull request \#5197](https://github.com/FreeCAD/FreeCAD/pull/5197) [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=63956)
-
 ## Spreadsheet Workbench 
 
   -------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -236,6 +231,9 @@ There is also a text box for feedback of OpenSCAD errors.
 ### Further Spreadsheet improvements 
 
 -   Import XLSX (used by [Std Import](Std_Import.md)): Added support for floor and ceil functions. [Pull request \#5015](https://github.com/FreeCAD/FreeCAD/pull/5015).
+-   Cell binding: instruct a set of cells to display the contents of another set of cells. Part of [Pull request \#2862](https://github.com/FreeCAD/FreeCAD/pull/2862).
+-   Improved navigation using the Tab and Enter keys.
+-   Improved interface for cutting and pasting blocks of cells.
 
 ## Start Workbench 
 

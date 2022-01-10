@@ -11,19 +11,19 @@ dla Linux: \"\"
 
 ## Wzór angielski 
 
-### A3\_Landscape\_US
+### A3 Poziomy US 
 
 <img alt="" src=images/A3_Landscape_US_FULL.svg  style="width:400px;"> 
 
-### A3\_Portrait\_US
+### A3 Pionowy US 
 
 <img alt="" src=images/A3_Portrait_US_FULL.svg  style="width:400px;"> 
 
-### A4\_Landscape\_US
+### A4 Poziomy US 
 
 <img alt="" src=images/A4_Landscape_US_FULL.svg  style="width:400px;"> 
 
-### A4\_Portrait\_US
+### A4 Pionowy US 
 
 <img alt="" src=images/A4_Portrait_US_FULL.svg  style="width:400px;">
 

@@ -17,7 +17,7 @@ L\'outil <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Évide
 
 1.  Créer un solide
 2.  Sélectionnez une ou plusieurs faces
-3.  Cliquez sur l\'outil **<img src="images/Part_Thickness.svg" width=16px> '''Évidement d'un solide sélectionné'''
+3.  Cliquez sur l\'outil **<img src="images/Part_Thickness.svg" width=16px> '''Évidement...'''
 **
 4.  Régler les paramètres (voir [Options](#Options.md))
 5.  Cliquez sur **OK** pour confirmer, créer l\'opération et quitter la fonction
@@ -33,13 +33,13 @@ L\'outil <img alt="" src=images/Part_Thickness.svg  style="width:24px;"> [Évide
     -   Tuyau : Sélectionnez cette option si vous voulez obtenir un objet comme un tuyau, sans dessus et sans fond. Dans ce cas, il peut être pratique de sélectionner les faces à supprimer avant de démarrer l\'outil. Aidez-vous des boutons de vues prédéfinies ou utilisez les touches numériques.
     -   Recto/verso :
 -   Type de raccordement
-    -   Arc : supprime les bords extérieurs et créer un congé avec un rayon égal à l\'épaisseur définie
+    -   Arc : Supprime les bords extérieurs et créer un congé avec un rayon égal à l\'épaisseur définie
     -   Tangente :
     -   Intersection :
 -   Intersection :
 -   Auto-intersection : Permet l\'auto-intersection
--   Faces  : Sélectionnez les faces à supprimer, après sélection de la première face, enfoncer Ctrl pour sélectionner les autre faces, utiliser l\'outil de rotation(sans Ctrl) pour faire voir les autres faces et continuer la sélection (après appuis sur Ctrl)
--   Réactualiser la vue : met à jour automatiquement la vue en temps réel
+-   Faces/Terminé : Sélectionnez les faces à supprimer puis cliquez Terminé
+-   Réactualiser la vue : Met à jour automatiquement la vue en temps réel
 
 ## Limitations
 
@@ -55,7 +55,7 @@ Un bon exemple sur la façon d\'utiliser cet outil sur le forum: [Re: Help desig
 
 1.  Créer un **<img src="images/Part_Cylinder.svg" width=16px> [Cylindre](Part_Cylinder/fr.md)** avec un rayon de 10 mm et une hauteur de 20 mm
 2.  Sélectionnez la surface supérieure et inférieure du cylindre
-3.  Cliquez sur le bouton **<img src="images/_Part_Thickness.svg" width=16px> Évidement
+3.  Cliquez sur le bouton **<img src="images/_Part_Thickness.svg" width=16px> Évidement...
 ** (pas besoin de modifier les paramètres par défaut) et appuyez sur **OK**
 
 Remarques:

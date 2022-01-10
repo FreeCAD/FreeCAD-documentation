@@ -80,10 +80,6 @@ La description des paramètres de l\'onglet **View** se trouve dans l\'[Éditeur
 
 -    **pressure_parameter**: modifiez le paramètre uniquement si une connaissance suffisante de la géométrie de l\'engrenage est disponible.
 
-## Limitations
-
-Les limitations ne sont pas encore connues.
-
 ## Formules utiles 
 
 -    **pitch diameter**= **module** \* **teeth**

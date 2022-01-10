@@ -23,7 +23,7 @@ Questo strumento consente di selezionare i contenuti di uno o più gruppi selezi
 
 </div>
 
-The command currently does not work well with layers and can produce confusing results for objects that occur in both a layer and a group.
+The command was revised in FreeCAD version 0.20 and this page describes that version.
 
 ## Utilizzo
 

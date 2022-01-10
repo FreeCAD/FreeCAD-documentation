@@ -16,11 +16,11 @@
 
 A equipa do FreeCAD disponibiliza pacotes prontos a instalar para <img alt="" src=images/windows.png  style="width:16px;"> **Windows** (32 e 64bits), <img alt="" src=images/mac.png  style="width:16px;"> **Mac OS X** (Lion 10.7 32 e 64bits), e <img alt="" src=images/linux.png  style="width:16px;"> **Ubuntu** (LTS e atual, 32 e 64bits). Em baixo estão ligações para os ficheiros de instalação estáveis para vários sistemas. Estão também disponíveis na [Página de ficheiros do FreeCAD](https://github.com/FreeCAD/FreeCAD/releases) pacotes **instáveis**, que disponibilizam funcionalidades novas acabadas de adicionar, mas que podem bloquear mais frequentemente ou conter recursos que são incompatíveis com versões anteriores.
 
-+---------------------------+---+------------------------+---+-----------------------+
-|            |   |         |   |        |
-| {{DownloadWindowsStable}} |   | {{DownloadUnixStable}} |   | {{DownloadMacStable}} |
-|                        |   |                     |   |                    |
-+---------------------------+---+------------------------+---+-----------------------+
++---------------------------+---+-------------------------+---+-----------------------+
+|            |   |          |   |        |
+| {{DownloadWindowsStable}} |   | {{DownloadLinuxStable}} |   | {{DownloadMacStable}} |
+|                        |   |                      |   |                    |
++---------------------------+---+-------------------------+---+-----------------------+
 
 
 </div>

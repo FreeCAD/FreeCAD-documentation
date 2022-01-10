@@ -3,7 +3,7 @@ This category lists pages related to the [Ship Workbench/ja](Ship_Workbench/ja.m
 
 ### Contents:
 
-_ , [Ship Workbench/ja](Ship_Workbench/ja.md)
+[Ship Workbench/ja](Ship_Workbench/ja.md)
 
 _
 

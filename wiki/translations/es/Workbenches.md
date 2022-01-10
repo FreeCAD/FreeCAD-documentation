@@ -53,13 +53,25 @@ Los siguientes bancos de trabajo se incluyen en cada instalación de FreeCAD:
 
 -   <img alt="" src=images/Workbench_Start.svg  style="width:32px;"> El [Centro de Trabajo Inicio](Start_Workbench/es.md) te permite saltar rápidamente a uno de los bancos de trabajo más comunes.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Workbench_Surface.svg  style="width:32px;"> El [Banco de Trabajo de Superficies](Surface_Workbench/es.md) proporciona herramientas para crear y modificar superficies. Es similar al constructor de formas de piezas Cara desde las aristas.
+
+
+</div>
 
 -   <img alt="" src=images/Workbench_TechDraw.svg  style="width:32px;"> El [Banco de Trabajo DibujoTécnico](TechDraw_Workbench/es.md) para producir dibujos técnicos a partir de modelos 3D. Es el sucesor del [Banco de Trabajo de Dibujo](Drawing_Workbench/es.md).
 
 -   <img alt="" src=images/Workbench_Test.svg  style="width:32px;"> El [Banco de Trabajo del Prueba Estructura del marco](Testing/es.md) es para depurar FreeCAD.
 
+
+<div class="mw-translate-fuzzy">
+
 -   <img alt="" src=images/Workbench_Web.svg  style="width:32px;"> El [Ambiente de Trabajo Web](Web_Workbench/es.md) te proporciona una ventana de navegador en lugar de la [Vista 3D](3D_view/es.md) dentro de FreeCAD.
+
+
+</div>
 
 ### Obsoleto
 

@@ -15,6 +15,9 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento Lavorazione (Job) crea un nuovo oggetto Lavorazione nel documento attivo. Esso contiene le seguenti informazioni:
 
 1.  Un elenco di definizioni dei parametri degli utensili (Tool-Controller), che specifica la geometria, i movimenti e le velocità degli utensili per le Operazioni Path.
@@ -23,6 +26,9 @@ Lo strumento Lavorazione (Job) crea un nuovo oggetto Lavorazione nel documento a
 4.  Un Pezzo (Stock), che rappresenta la materia prima che verrà fresata nell\'ambiente Path.
 5.  Un foglio di lavorazione (SetupSheet), contenente gli input utilizzati dalle operazioni percorso, inclusi valori statici e le formule.
 6.  I parametri di configurazione che specificano il percorso di destinazione, il nome e l\'estensione del file G-Code prodotto dalla lavorazione, nonché il Postprocessore utilizzato per generare il dialetto appropriato per il controller CNC di destinazione e i parametri per personalizzare Unità, Cambi di utensile, Soste, ecc.
+
+
+</div>
 
 ## Utilizzo
 
@@ -57,8 +63,14 @@ La finestra di dialogo della GUI della lavorazione ha cinque schede allineate or
     -   **%M** directory macro utente
     -   **%j** nome della lavorazione
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Processor**: Selezionare il postprocessore per la propria macchina.
 -   **Arguments**: Aggiungere gli argomenti di cui il postprocessore ha bisogno.
+
+
+</div>
 
 ## Setup
 

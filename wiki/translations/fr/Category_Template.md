@@ -3,7 +3,7 @@ This category contains all the Templates
 
 ### Contents:
 
-_ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , , , ,
+_ , _ , _ , _ , _ , _ , _ , _ , , , ,
 
 _ _ _ _ _
 

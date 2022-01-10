@@ -3,7 +3,13 @@
 
 # Introdução
 
+
+<div class="mw-translate-fuzzy">
+
 Após instalar o FreeCAD para seu sistema operacional ([Windows](Installing_on_Windows.md), [Linux](Installing_on_Linux.md) ou [Mac](Installing_on_Mac.md)), você pode considerar a instalação de um ou mais dos seguintes componentes adicionais.
+
+
+</div>
 
 # Arquivos de ajuda 
 
@@ -58,7 +64,7 @@ FreeCAD tem um importador e exportador nativo para arquivos DXF, programados em 
 FreeCAD cannot directly read and write DWG files. To convert DXF files to DWG files, and vice-versa, FreeCAD relies on external converters. There is built-in support for the following DWG converters:
 
 -   [LibreDWG](https://www.gnu.org/software/libredwg) (open-source, lacks support for some DWG entities).
--   [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) (free).
+-   [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) (free, but not open-source).
 -   [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg) (commercial). <small>(v0.20)</small> 
 
 See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD and DWG Import](FreeCAD_and_DWG_Import.md) for more information.

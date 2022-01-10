@@ -7,7 +7,13 @@
 
 ## Descrizione
 
+
+<div class="mw-translate-fuzzy">
+
 Lo strumento <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:24px;"> **Serie lineare** crea copie equidistanti di una funzione in una direzione lineare. A partire da v0.17, è in grado di replicare più funzioni.
+
+
+</div>
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
@@ -78,6 +84,8 @@ Se lo schizzo che definisce la funzione da modellare contiene anche una linea di
 #### Asse Base (X/Y/Z) 
 
 v0.17 e superiore Seleziona uno degli assi standard di Origine del Corpo (X, Y o Z) come direzione. 
+
+## Limitations
 
 
 <div class="mw-translate-fuzzy">

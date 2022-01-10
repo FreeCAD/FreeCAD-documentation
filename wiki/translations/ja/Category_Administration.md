@@ -3,9 +3,9 @@ This category contains articles and categories about wiki administrative subject
 
 ### Contents:
 
-_ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , _ , [Tracker/ja](Tracker/ja.md)
+[Tracker/ja](Tracker/ja.md)
 
 _
 
 ---
-[documentation index](../README.md) > [Arch](Category_Arch.md) > Category:Administration/ja
+[documentation index](../README.md) > Category:Administration/ja

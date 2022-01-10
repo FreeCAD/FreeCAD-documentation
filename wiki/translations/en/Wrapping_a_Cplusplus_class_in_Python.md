@@ -28,7 +28,10 @@ Edit the appropriate {{FileName|CMakeLists.txt}} file to add references to these
 
 The XML file `[YourClass]Py.xml` provides information about the functions and attributes that the Python class implements, as well as the user documentation for those items that displays in the FreeCAD [Python console](Python_console.md).
 
-For this example, we will look at the wrapper for the Axis C++ class. The XML description file begins with: {{Code|lang=xml|code=
+For this example, we will look at the wrapper for the Axis C++ class. The XML description file begins with:
+
+
+{{Code|lang=xml|code=
 <?xml version="1.0" encoding="UTF-8"?>
 <GenerateModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="generateMetaModel_Module.xsd">
     <PythonExport
@@ -45,56 +48,72 @@ For this example, we will look at the wrapper for the Axis C++ class. The XML de
     <Documentation>
         <Author Licence="LGPL" Name="Juergen Riegel" EMail="FreeCAD@juergen-riegel.net" />
         <UserDocu>Axis
+}}
+
 And defines a direction and a position (base) in 3D space.
 
 The following constructors are supported:
-* Axis() -- empty constructor
-* Axis(Axis) -- copy constructor
-* Axis(Base, Direction) -- define position and direction
-{{Code|lang=xml|code=
-        </UserDocu>
-        <DeveloperDocu>Axis</DeveloperDocu>
-    </Documentation>
+
+-   Axis() \-- empty constructor
+-   Axis(Axis) \-- copy constructor
+-   Axis(Base, Direction) \-- define position and direction
+
+
+{{Code|lang=xml|code= 
+    </UserDocu>
+    <DeveloperDocu>Axis</DeveloperDocu>
+</Documentation>
 }}
 
 Following this preamble, a list of methods and attributes is given. The format of a method is:
+
+
 {{Code|lang=xml|code=
-    <Methode Name="move">
-      <Documentation>
+<Methode Name="move">
+    <Documentation>
         <UserDocu>
         move(Vector)
         Move the axis base along the vector
         </UserDocu>
-      </Documentation>
-    </Methode>
+    </Documentation>
+</Methode>
 }}
 
 The format of an attribute is:
+
+
 {{Code|lang=xml|code=
-    <Attribute Name="Direction" ReadOnly="false">
-      <Documentation>
+<Attribute Name="Direction" ReadOnly="false">
+    <Documentation>
         <UserDocu>Direction vector of the Axis</UserDocu>
-      </Documentation>
-      <Parameter Name="Direction" Type="Object" />
-    </Attribute>
+    </Documentation>
+    <Parameter Name="Direction" Type="Object" />
+</Attribute>
 }}
 
-For an attribute, if "ReadOnly" is false, you will provide both a getter and a setter function. If it is true, only a getter is allowed. In this case we will be required to provide two functions in the implementation C++ file:
+For an attribute, if \"ReadOnly\" is false, you will provide both a getter and a setter function. If it is true, only a getter is allowed. In this case we will be required to provide two functions in the implementation C++ file:
+
+
 {{Code|lang=cpp|code=
 Py::Object AxisPy::getDirection(void) const
 }}
-and
+
+and:
+
+
 {{Code|lang=cpp|code=
 void AxisPy::setDirection(Py::Object arg)
 }}
 
-== Implementation Cplusplus File ==
+## Implementation Cplusplus File 
 
-The implementation C++ file `[YourClass]PyImp.cpp` provides the "glue" that connects the C++ and Python structures together, effectively translating from one language to the other. The FreeCAD C++-to-Python system provides a number of C++ classes that map to their corresponding Python type. The most fundamental of these is the `Py::Object` class -- rarely created directly, this class provides the base of the inheritance tree, and is used as the return type for any function that is returning Python data.
+The implementation C++ file `[YourClass]PyImp.cpp` provides the \"glue\" that connects the C++ and Python structures together, effectively translating from one language to the other. The FreeCAD C++-to-Python system provides a number of C++ classes that map to their corresponding Python type. The most fundamental of these is the `Py::Object` class \-- rarely created directly, this class provides the base of the inheritance tree, and is used as the return type for any function that is returning Python data.
 
-=== Include Files ===
+### Include Files 
 
 Your C++ implementation file will include the following files:
+
+
 {{Code|lang=cpp|code=
 #include "PreCompiled.h"
 
@@ -107,14 +126,18 @@ Your C++ implementation file will include the following files:
 
 Of course, you may include whatever other C++ headers your code requires to function as well.
 
-=== Constructor ===
+### Constructor
 
 Your C++ implementation must contain the definition of the PyInit function: for example, for the Axis class wrapper, this is
+
+
 {{Code|lang=cpp|code=
 int AxisPy::PyInit(PyObject* args, PyObject* /*kwd*/)
 }}
 
 Within this function you will most likely need to parse incoming arguments to the constructor: the most important function for this purpose is the Python-provided `PyArg_ParseTuple`. It takes in the passed argument list, a descriptor for the expected arguments that it should parse, and type information and storage locations for the parsed results. For example:
+
+
 {{Code|lang=cpp|code=
     PyObject* d;
     if (PyArg_ParseTuple(args, "O!O", &(Base::VectorPy::Type), &o,
@@ -126,7 +149,8 @@ Within this function you will most likely need to parse incoming arguments to th
     }
 }}
 
-For a complete list of format specifiers see [https://docs.python.org/3/c-api/arg.html Python C API documentation]. Note that several related functions are also defined which allow the use of keywords, etc. The complete set is:
+For a complete list of format specifiers see [Python C API documentation](https://docs.python.org/3/c-api/arg.html). Note that several related functions are also defined which allow the use of keywords, etc. The complete set is:
+
 
 {{Code|lang=cpp|code=
 PyAPI_FUNC(int) PyArg_Parse (PyObject *, const char *, ...);
@@ -137,7 +161,9 @@ PyAPI_FUNC(int) PyArg_VaParseTupleAndKeywords (PyObject *, PyObject *, const cha
 }}
 
 
-{{Powerdocnavi}}
+{{Powerdocnavi
+
+}}
 
 _ _
 

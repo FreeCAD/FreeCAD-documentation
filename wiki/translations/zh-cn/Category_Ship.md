@@ -3,7 +3,7 @@ This category lists pages related to the [Ship Workbench/zh-cn](Ship_Workbench/z
 
 ### Contents:
 
-_ , [Ship Workbench/zh-cn](Ship_Workbench/zh-cn.md)
+[Ship Workbench/zh-cn](Ship_Workbench/zh-cn.md)
 
 _
 

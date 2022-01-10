@@ -1,67 +1,43 @@
-# Std ProjectInfo/de
 ---
-- GuiCommand:/de   Name:Std ProjectInfo   Name/de:Std Projektinformationen   MenuLocation:[[Std File Menu/de   Datei]] → Projektinformationen...||Workbenches:Alle   Shortcut:-   SeeAlso:---
+- GuiCommand:/de
+   Name:Std ProjectInfo
+   Name/de:Std Projektinformationen
+   MenuLocation:Datei → Projektinformationen...
+   Workbenches:Alle
+   Shortcut:-
+   SeeAlso:[Std Neu](Std_New/de.md)
+---
 
-
-</div>
-
-
-<div class="mw-translate-fuzzy">
+# Std ProjectInfo/de
 
 ## Beschreibung
 
-Enthält Informationen über das Projekt.
-
-
-</div>
-
-The **Std ProjectInfo** command shows a dialog box with project information belonging to the active document. Some of this information can be edited.
-
-
-<div class="mw-translate-fuzzy">
+Die **Std Projektinformationen**-Anweisung zeigt einen Dialog mit Projektinformationen zum aktiven Dokument. Einige der Informationen können bearbeitet werden.
 
 ## Anwendung
 
-Wähle **Datei** → **Projektinformationen...** aus der Menüleiste
-Dann können folgende Informationen in einem Fenster eingegeben werden:
+1.  Wähle **Datei → <img src="images/Std_ProjectInfo.svg" width=16px> Projektinformationen...** aus dem Menü.
+2.  Ein Dialogfenster mit den folgenden Informationen wird angezeigt:
+    -   **Name**: der Name des Dokumentes. **keine Bearbeitung möglich** Entspricht der Eigenschaft Beschriftung des Dokumentes, die im [Eigenschaftseditor](Property_editor/de.md) geändert werden kann.
+    -   **Pfad**: die vollständige Pfadangabe der Datei. Dies ist leer, wenn die Datei nicht gespeichert wurde. **keine Bearbeitung möglich**
+    -   **UUID**: FreeCAD berechnet eine Prüfsumme, die hier eingetragen wurde.**keine Bearbeitung möglich**
+    -   **Erstellt von**: den Namen des Erstellers eintragen. **Bearbeitung möglich**
+    -   **Erstellungsdatum**: das korrekte Datum wird von FreeCAD automatisch eingetragen. **keine Bearbeitung möglich**
+    -   **Zuletzt geändert von**: den Namen des Erstellers eintragen. **Bearbeitung möglich**
+    -   **Zuletzt geändert am**: das korrekte Datum wird von FreeCAD automatisch eingetragen. **keine Bearbeitung möglich**
+    -   **Firma**: den Namen des Firma eintragen. **Bearbeitung möglich**
+    -   **Lizenzinformationen**: die Lizenz aus dem Aufklappmenü wählen. **Bearbeitung möglich**
+    -   **Lizenz-URL**: die URL wird mit der ausgewählten Lizenz mit ausgewählt, kann aber überschrieben werden. **Bearbeitung möglich**
+    -   **Kommentar**: einen erklärenden Kommentar eingetragen. **Bearbeitung möglich**
+3.  Die erforderlichen Informationen eintragen und die Schaltfläche **OK** anklicken.
 
--   Name: (initial wird hier der Dateiname eingefügt)
--   Pfad: (initial wird hier der Pfad eingefügt, wo die gespeicherte Datei abgelegt ist)
--   UUID: eine von FreeCAD berechnet Prüfsumme wird hier abgelegt
--   Erstellt von: initial leer, kann manuell eingetragen werden
--   Erstellungsdatum: Erstellungszeitpunkt der Datei wird hier eingetragen
--   Zuletzt geändert von: initial leer, kann manuell eingetragen werden
--   Zuletzt geändert am: wird von FreeCAD eingetragen
--   Firma: initial leer, kann manuell eingetragen werden
--   Lizenzinformationen: wähle Lizenz aus Pull-Down-Menü, Standard ist \"Alle Rechte vorbehalten\"
--   Lizenz-URL: Standard ist der Verweis zur (englischen) Wikipedia-\"All rights reserved\"-Seite. Kann überschrieben werden.
--   Kommentar: initial leer, kann manuell eingetragen werden
+## Optionen
 
+-   Drücke die **esc**-Taste oder klicke auf die Schaltfläche **Abbrechen** um abzubrechen.
 
-</div>
+## Einstellungen
 
-1.  Select the **File → <img src="images/Std_ProjectInfo.svg" width=16px> Project information...** option from the menu.
-2.  A dialog box with the following information pops up:
-    -   **Name**: The name of the document. **Not editable**. Corresponds to the Label property of the document which can be changed in the [Property editor](Property_editor.md).
-    -   **Path**: The full path of the file. Blank if the document has not been saved. **Not editable**.
-    -   **UUID**: FreeCAD automatically enters a checksum value. **Not editable**.
-    -   **Created by**: Enter an author name. **Can be preset**.
-    -   **Creation date**: FreeCAD automatically enters the correct date. **Not editable**.
-    -   **Last modified by**: Enter an author name. **Can be preset**.
-    -   **Last modification date**: FreeCAD automatically enters the correct date. **Not editable**.
-    -   **Company**: Enter a company name. **Can be preset**.
-    -   **License Information**: Select a license from the pulldown menu. **Can be preset**.
-    -   **License URL**: The URL will change with the selected license, but can be overwritten. **Can be preset**.
-    -   **Comment**: Enter any comment that may apply.
-3.  Enter the required information and press the **OK** button.
-
-## Options
-
--   Press **Esc** or the **Cancel** button to abort the command.
-
-## Preferences
-
--   The values for the author names, company name and license information can be preset in the [Preferences Editor](Preferences_Editor#Document.md).
+-   Die Werte für den Namen des Autors, den Firmennamen und Lizenzinformationen können im [Voreinstellungseditor / Dokument](Preferences_Editor/de#Dokument.md) sein.
 
 
 

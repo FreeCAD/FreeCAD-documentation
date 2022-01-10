@@ -76,9 +76,13 @@ Das Spiegelungsergebnis kann in Echtzeit in der Vorschau angezeigt werden, bevor
 
 ## Begrenzungen
 
+
+<div class="mw-translate-fuzzy">
+
 -   Die Spiegelungsfunktion kann keinen ganzen Festkörper spiegeln. Dafür, siehe [Formteil Spiegeln](Part_Mirror/de.md) .
 
--   Das gespiegelte Formelement muss das Bauteil (auch *support* genannt) schneiden auf dem es basiert, ansonsten versagt die Funktion .
+
+</div>
 
 
 

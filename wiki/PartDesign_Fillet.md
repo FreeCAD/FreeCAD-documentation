@@ -14,26 +14,20 @@ This tool creates fillets (rounds) on the selected edges of an object. A new sep
 
 ## Usage
 
--   Select a single or multiple edges or a face on an object, then start the tool either by clicking its icon or going into the menu. In case you selected a face all its edges are respected for filleting.
+-   Select a single or multiple edges or a face on an object, then start the tool either by clicking its icon or going into the menu. In case you selected a face or a 3D object (<small>(v0.20)</small> ) all its edges are respected for filleting.
 -   In the appearing [Task panel](Task_panel.md) set the fillet radius either by entering the value, or by clicking on the up/down arrows.
 -   If you want to add more edges or faces click the **Add** button and select edges and/or the faces.
+-   After clicking the **Add** button you can add all edges of the object by right-clicking and selecting **Add all edges** from the context menu. <small>(v0.20)</small> 
 -   If you want to remove edges or faces
-    -   either select the edge/face in the list of the dialog and press the **DEL** key. *Note*: Since there must be at least an edge for the feature, the last remaining edge or face in the list cannot be removed.
+    -   either select the edge/face in the list of the dialog and press the **DEL** key. *Note*: Since there must be at least one edge for the feature, the last remaining edge or face in the list cannot be removed.
     -   or click the **Remove** button. All edges and faces being previously selected are highlighted in purple. Select the edge or the face to be removed.
 -   Click **OK** to validate.
 -   For a chain of edges tangential to one another, one single edge can be selected; the fillet will propagate along the chain.
 -   To edit the fillet after the function has been validated, either double-click on the Fillet label in the Project tree, or right-click on it and select **Edit Fillet**.
 
-## PartDesign Fillet vs. Part Fillet 
+## Notes
 
-<img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> _** of the [Part Workbench](Part_Workbench.md). Although they share the same name, they are not the same, and are not used the same way.
-
-Here is how they differ from each other:
-
--   The PartDesign Fillet is *Parametric*. After a fillet has been applied, its radius can be edited; this is not possible with the Part Fillet.
--   The PartDesign Fillet creates a separate Fillet entry (followed by a sequential number if there are already existing fillets) in the Project tree. The Part Fillet becomes the parent of the object it was applied to.
--   The PartDesign Fillet offers a live preview of the fillet applied to the object before validating the function.
--   The Part Fillet supports variable radii (with a start radius and an end radius). The PartDesign fillet doesn\'t.
+-   PartDesign Fillet should not be confused with [Part Fillet](Part_Fillet.md). Unless you know what you are doing, [Part Fillet](Part_Fillet.md) should not be used on a PartDesign Body. See [Part and PartDesign](Part_and_PartDesign.md).
 
 ## Known Issues 
 

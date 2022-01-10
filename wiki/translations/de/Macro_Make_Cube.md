@@ -22,7 +22,7 @@ Werkzeugleisten-Symbol ![](images/Macro_makeCube.png )
 **Macro\_Make\_Cube.FCMacro**
 
 
-```python
+{{MacroCode|code=
 # first we import the needed Draft modules
 import draftTools, WorkingPlane
 from draftlibs import fcvec
@@ -149,7 +149,7 @@ class myCommand(draftTools.Creator):
 
 #  finally, we execute our code!
 myCommand()
-```
+}}
 
 ---
 [documentation index](../README.md) > Macro Make Cube/de

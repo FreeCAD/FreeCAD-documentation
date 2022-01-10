@@ -139,7 +139,7 @@ Un objet SheetMetal Bend est dérivé d\'un objet [Part Feature](Part_Feature/fr
     
 *Un simple contour rectangulaire*
 
-    === Processus de travail ===
+    === Déroulement des tâches ===
 
     ## Créer une ébauche
     ## Sélectionnez l'esquisse de contour </br> <img src="images/SheetMetal_AddWall-03.png" width=240px> 

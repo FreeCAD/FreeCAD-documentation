@@ -10,7 +10,13 @@
 
 ## Descripción
 
+
+<div class="mw-translate-fuzzy">
+
 La herramienta **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''PatrónLineal'''** crea copias de una operación a una misma distancia en dirección lineal. A partir de la v0.17 la herramienta de patrón lineal puede repetir múltiples operaciones. {{VersionPlus/es|0.17}}
+
+
+</div>
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
@@ -75,6 +81,8 @@ Si el boceto que define la operación a copiar contiene también una línea o l�
 {{VersionPlus/es|0.17}}
 
 Seleccionar uno de los ejes estándar de Origen del Body (cuerpo) (X, Y o Z) como dirección.
+
+## Limitations
 
 
 <div class="mw-translate-fuzzy">

@@ -32,8 +32,7 @@ ToolBar Icon ![](images/Macro_SuperWire.png )
 **Macro\_SuperWire.FCMacro**
 
 
-```python
-
+{{MacroCode|code=
 import FreeCAD,FreeCADGui,Part
 try:
     import DraftGeomUtils as fcgeo
@@ -53,8 +52,7 @@ else:
        Part.show(wire)
    else:
        FreeCAD.Console.PrintError("SuperWire operation failed!")
-
-```
+}}
 
 ---
 [documentation index](../README.md) > Macro SuperWire/cs

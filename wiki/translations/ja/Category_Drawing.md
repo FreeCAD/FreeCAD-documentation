@@ -3,7 +3,7 @@ This category lists pages related to the [Drawing Workbench/ja](Drawing_Workbenc
 
 ### Contents:
 
-_ , [Drawing Workbench/ja](Drawing_Workbench/ja.md)
+[Drawing Workbench/ja](Drawing_Workbench/ja.md)
 
 _
 

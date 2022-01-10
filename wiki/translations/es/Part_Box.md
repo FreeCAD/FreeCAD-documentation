@@ -12,11 +12,24 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descripción
 
 El comando Cubo del [Banco de trabajo Part](Part_Workbench/es.md) inserta un [rectangular cuboid](http://en.wikipedia.org/wiki/Cuboid#Rectangular_cuboid), que es una forma primitiva geométrica paramétrica, en el documento activo. Por defecto, el comando Cubo insertará un cubo de 10x10x10 mm, posicionado en el origen, con el nombre \"Cubo\". Estos parámetros pueden ser modificados tras la creación del objeto.
 
+
+</div>
+
 <img alt="Part\_Box" src=images/Part_Box.jpg  style="width:400px;">
+
+## Usage
+
+
+<div class="mw-translate-fuzzy">
 
 ## Uso
 
@@ -24,6 +37,9 @@ El comando Cubo del [Banco de trabajo Part](Part_Workbench/es.md) inserta un [re
 2.  Hay varias maneras de invocar al comando:
     -   Presionando el botón **<img src="images/Part_Box.svg" width=16px> Cubo** en la barra de herramientas.
     -   Seleccionar **Pieza → Primitivas → <img src="images/Part_Box.svg" width=16px> Cubo** desde la barra de menú.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
@@ -35,14 +51,13 @@ El comando Cubo del [Banco de trabajo Part](Part_Workbench/es.md) inserta un [re
 
 Las propiedades del Cubo pueden ser editadas posteriormente, bien desde el editor de propiedades, o bien pinchando con doble clic de ratón sobre la pestaña Modelo del árbol de dependencias.
 
-## Propiedades
+## Properties
 
 
-{{Properties_Title|Base}}
+{{Properties_Title|Box}}
 
--    {{PropertyData/es|Placement o Emplazamiento}}: Especifica la orientación y la posición del Cubo en el espacio 3D. Ver [Placement](Placement/es.md). El punto de referencia es la esquina frontal inferior izquierda del cubo.
 
--    {{PropertyData/es|Label o Etiqueta}}: Nombre dado al objeto Cubo. Puede ser cambiado si es conveniente.
+<div class="mw-translate-fuzzy">
 
 
 {{Properties_Title|Box}}
@@ -53,28 +68,55 @@ Las propiedades del Cubo pueden ser editadas posteriormente, bien desde el edito
 
 -    {{PropertyData/es|Height o Altura}}: Dimensiones del Cubo en la dirección Z.
 
-![Part\_Box-Properties](images/Part_Box-Properties.jpg )
+
+</div>
+
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
 
 ## Programación
 
-El comando Box (Cubo) puede ser usado en las [macros](Macros.md) y desde la consola de Python usando la siguiente función: 
+El comando Box (Cubo) puede ser usado en las [macros](Macros.md) y desde la consola de Python usando la siguiente función:
+
+
+</div>
+
+
 ```python
-FreeCAD.ActiveDocument.addObject("Part::Box", "myBox")
+box = FreeCAD.ActiveDocument.addObject("Part::Box", "myBox")
 ```
+
+
+<div class="mw-translate-fuzzy">
 
 -   Donde \"myBox\" es el nombre del objeto Cubo.
 -   Devuelve un nuevo objeto creado de tipo Cubo.
 
-Se puede acceder y modificar los atributos del objeto Box(Cubo). Por ejemplo, si se desean modificar los atributos de longitud, anchura o altura: 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Se puede acceder y modificar los atributos del objeto Box(Cubo). Por ejemplo, si se desean modificar los atributos de longitud, anchura o altura:
+
+
+</div>
+
+
 ```python
-FreeCAD.ActiveDocument.myBox.Length = 25
-FreeCAD.ActiveDocument.myBox.Width = 15
-FreeCAD.ActiveDocument.myBox.Height = 30
+box.Length = 25
+box.Width = 15
+box.Height = 30
 ```
 
-Se puede cambiar su emplazamiento con: 
+Se puede cambiar su emplazamiento con:
+
+
 ```python
-FreeCAD.ActiveDocument.myBox.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
+box.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
 ```
 
 

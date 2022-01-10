@@ -216,7 +216,7 @@ Notre page est maintenant prête, et nous pouvons l\'exporter vers les formats S
 -   Le fichier IFC exporté à partir du fichier ci-dessus: <https://github.com/yorikvanhavre/FreeCADmanual/Blob/master/files/house.ifc>
 -   Le fichier SVG exporté à partir du fichier ci-dessus: <https://github.com/yorikvanhavre/FreeCADmanual/Blob/master/files/house.svg>
 
-## Relation
+## En relation 
 
 -   [Atelier BIM](BIM_Workbench.md)
 -   [Atelier Arch](Arch_Workbench/fr.md)

@@ -28,7 +28,7 @@ ToolBar icon ![](images/easy-alias-icon.png )
 **Macro\_EasyAlias.FCMacro**
 
 
-```python
+{{MacroCode|code=
 # -*- coding: utf-8 -*-
 import FreeCAD
 from PySide import QtGui
@@ -169,7 +169,7 @@ for ci in cellIndices:
         FreeCAD.Console.PrintError("Remember, aliases cannot begin with a numeral or an underscore or contain any invalid characters.\n")
 
 App.ActiveDocument.recompute()
-```
+}}
 
 ---
 [documentation index](../README.md) > Macro EasyAlias/en

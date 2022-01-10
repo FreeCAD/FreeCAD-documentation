@@ -35,7 +35,9 @@ La structure et le contenu des fichiers d\'un atelier décrits ici constituent l
 
 ### La structure d\'atelier en C++ 
 
-Si vous voulez coder votre atelier en python, vous n\'avez pas besoin de faire très attention, vous pouvez simplement placer vos autres fichiers python avec vos fichiers Init.py et InitGui.py. Toutefois, lorsque vous travaillez avec C++, vous devez faire preuve d\'une plus grande prudence et commencer par respecter une règle fondamentale de FreeCAD : la séparation de votre atelier entre une partie d\'application (pouvant s\'exécuter en mode console, sans aucun élément d\'interface graphique) et une partie d\'interface graphique qui ne sera chargé que lorsque FreeCAD s'exécutera avec son environnement graphique complet. Ainsi, lorsque vous construirez un atelier C++, vous élaborerez probablement deux modules, une application et une interface graphique. Ces deux modules doivent bien entendu être appelables depuis python. Tout module FreeCAD (App ou Gui) consiste à minima en un fichier init de module. Voici un fichier typique AppMyModuleGui.cpp : 
+Si vous voulez coder votre atelier en python, vous n\'avez pas besoin de faire très attention, vous pouvez simplement placer vos autres fichiers python avec vos fichiers Init.py et InitGui.py. Toutefois, lorsque vous travaillez avec C++, vous devez faire preuve d\'une plus grande prudence et commencer par respecter une règle fondamentale de FreeCAD : la séparation de votre atelier entre une partie d\'application (pouvant s\'exécuter en mode console, sans aucun élément d\'interface graphique) et une partie d\'interface graphique qui ne sera chargé que lorsque FreeCAD s'exécutera avec son environnement graphique complet. Ainsi, lorsque vous construirez un atelier C++, vous élaborerez probablement deux modules, une application et une interface graphique. Ces deux modules doivent bien entendu être appelables depuis python. Tout module FreeCAD (App ou Gui) consiste à minima en un fichier init de module. Voici un fichier typique AppMyModuleGui.cpp :
+
+
 ```python
 extern "C" {
     void MyModuleGuiExport initMyModuleGui()  
@@ -102,9 +104,11 @@ Vous pouvez choisir la licence de votre choix pour votre atelier, mais sachez qu
 
 Les fonctions `FreeCAD.addImportType()` et `addEXportType()` vous permettent de fournir le nom et l\'extension d\'un type de fichier, ainsi qu\'un module Python responsable de son importation. Dans l\'exemple ci-dessus, un module `importOwn.py` gérera les fichiers `.own`. Voir [Extraits de codes](Code_snippets/fr.md) pour plus d\'exemples.
 
-### Ateliers en Python 
+### Ateliers Python 
 
-Ceci est le fichier InitGui.py: 
+Ceci est le fichier InitGui.py:
+
+
 ```python
 class MyWorkbench (Workbench):
 
@@ -139,7 +143,9 @@ class MyWorkbench (Workbench):
         return "Gui::PythonWorkbench"
        
 Gui.addWorkbench(MyWorkbench())
-``` En dehors de cela, vous pouvez faire ce que vous voulez : vous pouvez insérer tout votre code d\'atelier dans le fichier InitGui.py si vous le souhaitez, mais il est généralement plus pratique de placer les différentes fonctions de votre atelier dans des fichiers séparés. Ainsi ces fichiers sont plus petits et plus faciles à lire. Ensuite, vous importerez ces fichiers dans votre fichier InitGui.py. Vous pouvez organiser ces fichiers comme bon vous semble, un bon exemple est en avoir un pour chaque commande FreeCAD que vous ajoutez.
+```
+
+En dehors de cela, vous pouvez faire ce que vous voulez : vous pouvez insérer tout votre code d\'atelier dans le fichier InitGui.py si vous le souhaitez, mais il est généralement plus pratique de placer les différentes fonctions de votre atelier dans des fichiers séparés. Ainsi ces fichiers sont plus petits et plus faciles à lire. Ensuite, vous importerez ces fichiers dans votre fichier InitGui.py. Vous pouvez organiser ces fichiers comme bon vous semble, un bon exemple est en avoir un pour chaque commande FreeCAD que vous ajoutez.
 
 #### Préférences
 
@@ -169,10 +175,16 @@ Ajouter votre/vos page(s) de préférence :
 
 ### Ateliers en C++ 
 
-Si vous voulez coder votre atelier en C++, vous souhaiterez probablement coder aussi sa définition elle-même en C++ (bien que cela ne soit pas nécessaire : vous pouvez également coder uniquement les outils en C++, et laisser la définition de de l\'atelier en Python). Dans ce cas, le fichier InitGui.py devient très simple : il peut contenir une seule ligne : 
-```pythonimport MyModuleGui``` où MyModule est votre atelier C++ complet, incluant les commandes et la définition de l\'atelier.
+Si vous voulez coder votre atelier en C++, vous souhaiterez probablement coder aussi sa définition elle-même en C++ (bien que cela ne soit pas nécessaire : vous pouvez également coder uniquement les outils en C++, et laisser la définition de de l\'atelier en Python). Dans ce cas, le fichier InitGui.py devient très simple : il peut contenir une seule ligne :
 
-Le codage des ateliers C++ fonctionne de manière assez similaire. Il s\'agit d\'un fichier Workbench.cpp typique à inclure dans la partie interface graphique de votre module : 
+
+```pythonimport MyModuleGui```
+
+où MyModule est votre atelier C++ complet, incluant les commandes et la définition de l\'atelier.
+
+Le codage des ateliers C++ fonctionne de manière assez similaire. Il s\'agit d\'un fichier Workbench.cpp typique à inclure dans la partie interface graphique de votre module :
+
+
 ```python
 namespace MyModuleGui {
     class MyModuleGuiExport Workbench : public Gui::StdWorkbench
@@ -209,10 +221,10 @@ class My_Command_Class():
     """My new command"""
 
     def GetResources(self):
-        return {'Pixmap'  : 'My_Command_Icon', # the name of a svg file available in the resources
-                'Accel' : "Shift+S", # a default shortcut (optional)
-                'MenuText': "My New Command",
-                'ToolTip' : "What my new command does"}
+        return {"Pixmap"  : "My_Command_Icon", # the name of a svg file available in the resources
+                "Accel"   : "Shift+S", # a default shortcut (optional)
+                "MenuText": "My New Command",
+                "ToolTip" : "What my new command does"}
 
     def Activated(self):
         """Do something here"""
@@ -223,12 +235,14 @@ class My_Command_Class():
         are met or not. This function is optional."""
         return True
 
-FreeCADGui.addCommand('My_Command',My_Command_Class())
+FreeCADGui.addCommand("My_Command", My_Command_Class())
 ```
 
 ### Définition des commandes en C++ 
 
-De la même manière, vous pouvez coder vos commandes en C++. Vous avez généralement un fichier Commands.cpp dans votre module d\'interface graphique. Ceci est un fichier Commands.cpp typique : 
+De la même manière, vous pouvez coder vos commandes en C++. Vous avez généralement un fichier Commands.cpp dans votre module d\'interface graphique. Ceci est un fichier Commands.cpp typique :
+
+
 ```pythonDEF_STD_CMD_A(CmdMyCommand);
 
 CmdMyCommand::CmdMyCommand()
@@ -341,7 +355,7 @@ os.remove(qrc_filename)
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

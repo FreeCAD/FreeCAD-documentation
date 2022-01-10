@@ -33,7 +33,7 @@ Avec cet onglet, vous pouvez parcourir les commandes disponibles.
 
 1.  Sélectionnez une catégorie de commandes dans le panneau **Catégorie** à gauche. Certaines catégories correspondent aux entrées de menu.
 2.  Les outils disponibles dans la catégorie sélectionnée sont affichés dans le panneau de droite.
-3.  Survolez une commande: son info-bulle apparaît.
+3.  Survolez une commande: son infobulle apparaît.
 4.  Sélectionnez une commande: son texte dans la barre d\'état s\'affiche sous les deux panneaux.
 
 
@@ -194,10 +194,10 @@ Si vous souhaitez utiliser une macro téléchargée à partir d\'une autre sourc
 
 1.  Dans la liste déroulante **Macro**, sélectionnez une macro.
 2.  Saisissez un **Texte de menu**. Ce sera le nom utilisé pour identifier la macro-commande et apparaîtra également dans la barre d\'outils s\'il n\'y a pas d\'icône.
-3.  Saisissez éventuellement une **Info-bulle**. Ce texte apparaîtra près de l\'emplacement de la souris lorsque vous survolez l\'icône de la barre d\'outils.
-4.  Saisissez éventuellement un **Texte d\'état**. Ce texte apparaîtra dans la [barre d\'état](Status_bar/fr.md) lorsque vous survolez l\'icône de la barre d\'outils.
+3.  Vous pouvez également saisir une **Infobulle**. Ce texte apparaîtra près de l\'emplacement de la souris lorsque vous survolez l\'icône de la barre d\'outils.
+4.  Vous pouvez également saisir un **Texte d\'état**. Ce texte apparaîtra dans la [barre d\'état](Status_bar/fr.md) lorsque vous survolez l\'icône de la barre d\'outils.
 5.  Facultativement, entrez la page wiki de la macro, si elle est disponible, dans la zone de saisie **Qu\'est-ce que c\'est**. Saisissez le nom de la page, pas l\'URL complète.
-6.  Saisissez éventuellement un raccourci dans la zone de saisie **Accélérateur**. Voir [Clavier](#Clavier.md) pour plus d\'informations.
+6.  Vous pouvez également saisir un raccourci dans la zone de saisie **Accélérateur**. Voir [Clavier](#Clavier.md) pour plus d\'informations.
 7.  Pour ajouter une icône:
     1.  Appuyez sur le bouton **Pixmap** **...**.
     2.  La boîte de dialogue Choisir une icône s\'ouvre.

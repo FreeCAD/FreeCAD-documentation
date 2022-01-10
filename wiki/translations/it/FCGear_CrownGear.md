@@ -87,10 +87,6 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 -   Adjustments for optimal running characteristics can be made with the parameters of involute gear.
 
-## Limitations
-
-No limitations are known.
-
 ## Crown and spur gear set overview 
 
 ![](images/Crown-spur-gear-set_example.png )

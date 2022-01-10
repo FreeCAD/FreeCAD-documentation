@@ -3,7 +3,7 @@ This category lists pages related to the [Robot Workbench/zh-tw](Robot_Workbench
 
 ### Contents:
 
-_ , [Robot Workbench/zh-tw](Robot_Workbench/zh-tw.md)
+[Robot Workbench/zh-tw](Robot_Workbench/zh-tw.md)
 
 _
 

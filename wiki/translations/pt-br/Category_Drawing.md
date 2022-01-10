@@ -3,7 +3,7 @@ This category lists pages related to the [Drawing Workbench/pt-br](Drawing_Workb
 
 ### Contents:
 
-_ , [Drawing Workbench/pt-br](Drawing_Workbench/pt-br.md)
+[Drawing Workbench/pt-br](Drawing_Workbench/pt-br.md)
 
 _
 

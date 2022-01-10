@@ -4,9 +4,9 @@
 |Icon=Bevel.svg
 |Description=Bevel selected vertices of solid objects, parametric, compatible with Part Design
 |Author=TheMarkster
-|Version=0.2021.12.14
-|Date=2021-10-14
-|FCVersion=python 3 versions
+|Version=0.2021.12.23
+|Date=2021-12-23
+|FCVersion=Python 3 versions
 |Download=[https://wiki.freecadweb.org/File:bevel.svg ToolBar Icon]
 |SeeAlso=
 |Links=[https://github.com/mwganson/Bevel Full Documentation on Github]
@@ -26,7 +26,7 @@ Full documentation can be found on github: [Bevel](https://github.com/mwganson/B
 ## Legend
 
 
-{{Codeextralink|https://gist.github.com/mwganson/25ee4dc925c8bcf1182bd9979025ed2d/raw/bf199f31089f43d8a2bcbcaa0facde2221783c92/Bevel.FCMacro|Bevel.FCMacro}}
+{{Codeextralink|https://gist.github.com/mwganson/25ee4dc925c8bcf1182bd9979025ed2d/raw/1741a8f93a0af40dcd4f74dca33b106446f5e4ee/Bevel.FCMacro|Bevel.FCMacro}}
 
 ToolBar Icon ![](images/Bevel.svg )
 

@@ -3,7 +3,7 @@ This category lists pages related to the [Raytracing Workbench/hr](Raytracing_Wo
 
 ### Contents:
 
-_ , [Raytracing Workbench/hr](Raytracing_Workbench/hr.md)
+[Raytracing Workbench/hr](Raytracing_Workbench/hr.md)
 
 _
 

@@ -13,17 +13,22 @@
 
 L\'outil Vue ajoute une représentation d\'un ou plusieurs objets à une page de dessin. Il s\'agit de la composante de base de l\'atelier TechDraw. La plupart des autres vues sont dérivées d\'une manière ou d\'une autre de Vue.
 
+La Vue dessine n\'importe quel objet qui a une propriété de `Shape`. Vous pouvez sélectionner des [esquisses](Sketcher_Workbench/fr.md), des [corps](PartDesign_Body/fr.md), des [objets Draft](Draft_Workbench/fr.md) etc. La Vue extraira également toutes les formes des objets d\'un [Std Part](Std_Part/fr.md) ou d\'un [Std Groupe](Std_Group/fr.md).
+
 ![](images/TechDraw_View_example.png ) 
 *Vue d'une boîte pleine avec des lignes cachées*
 
 ## Utilisation
 
-1.  Sélectionnez un ou plusieurs objets (Corps, App::Part, Part::Feature, Draft object, \... Voir Remarques) dans la [Vue 3D](3D_view/fr.md) ou dans la [vue en arborescence](Tree_view/fr.md).
-2.  Si vous avez plusieurs pages de dessin dans votre document, vous devrez également sélectionner la page souhaitée dans l\'arborescence. Utilisez le **Ctrl** pour sélectionner plusieurs éléments dans l\'arborescence.
-3.  Appuyez sur le bouton **<img src="images/TechDraw_View.svg" width=16px> [Insérer une vue](TechDraw_View/fr.md)
-**
-
-La Vue dessine n\'importe quel objet qui a une propriété de `Shape`. Vous pouvez également sélectionner des objets _ ou un [Group](Std_Group/fr.md).
+1.  En outre, vous pouvez faire pivoter la [Vue 3D](3D_view/fr.md). La direction de la caméra dans la [Vue 3D](3D_view/fr.md) détermine la valeur initiale de la propriété **Direction** de la vue.
+2.  Sélectionnez un ou plusieurs objets dans la [Vue 3D](3D_view/fr.md) ou la [vue en arborescence](Tree_view/fr.md).
+3.  S\'il y a plusieurs pages de dessin dans le document : ajoutez éventuellement la page souhaitée à la sélection en la sélectionnant dans la [vue en arborescence](Tree_view/fr.md). Ceci n\'est pas possible pour {{VersionMinus/fr|0.19}}.
+4.  Il existe plusieurs façons de lancer l\'outil :
+    -   Appuyez sur le bouton **<img src="images/TechDraw_View.svg" width=16px> [Insérer une vue](TechDraw_View/fr.md)**.
+    -   Sélectionnez l\'option **TechDraw → <img src="images/TechDraw_View.svg" width=16px> Insérer une vue** dans le menu.
+5.  S\'il y a plusieurs pages de dessin dans le document et que vous n\'avez pas encore sélectionné de page, la boîte de dialogue **Page Chooser** s\'ouvre : {{Version/fr|0.20}}
+    1.  Sélectionnez la page souhaitée.
+    2.  Appuyez sur le bouton **OK**.
 
 ## Propriétés
 
@@ -53,9 +58,6 @@ La Vue dessine n\'importe quel objet qui a une propriété de `Shape`. Vous pouv
 {{TitleProperty|HLR Parameters}}
 
 -    **CoarseView**: Si Vrai, TechDraw utilisera une approximation de polygone pour calculer la géométrie de dessin. Si faux, TechDraw utilisera un algorithme de précision. CoarseView peut être beaucoup plus rapide pour les modèles complexes. La qualité du dessin est réduite car chaque courbe est approximée par une série de segments courts. Les sommets ne sont pas affichés dans CoarseView, car chaque segment court donnerait deux nouveaux sommets et l\'affichage deviendrait encombré. Des dimensions linéaires peuvent être ajoutées à un CoarseView, mais ne seront probablement pas utilisables.
-
-:   
-    **Note:**CoarseView est affecté par un bogue en amont dans OCCT ([\#3332](https://www.freecadweb.org/tracker/view.php?id=3332)). La position de la vue sur la page est légèrement différente des valeurs X, Y spécifiées.
 
 -    **Smooth Visible**: Les lignes lisses visibles sont activées/désactivées.
 

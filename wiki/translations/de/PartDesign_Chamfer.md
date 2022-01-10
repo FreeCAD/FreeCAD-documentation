@@ -37,7 +37,7 @@ Dieses Werkzeug erzeugt Fasen an den ausgewählten Kanten eines Objekts. Im Proj
 
 </div>
 
-## PartDesign Chamfer vs. Part Chamfer 
+## Notes
 
 
 <div class="mw-translate-fuzzy">

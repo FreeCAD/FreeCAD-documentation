@@ -5,7 +5,7 @@
 
 {{TOCright}}
 
-<img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> **Arbeitsbereich Defeaturing** ist ein Erweiterungsarbeitsbereich, der für die Bearbeitung von STEP-Modellen bestimmt ist, wobei die ausgewählten Formelemente aus dem Modell entfernt werden. Es ist ein [externer Arbeitsbereich](External_workbenches/de.md) und ist daher nicht Teil der Standard FreeCAD Installation.
+<img alt="" src=images/Defeaturing_workbench_icon.svg  style="width:24px;"> **Arbeitsbereich Merkmal aus einer Form entfernen** ist ein Erweiterungsarbeitsbereich, der für die Bearbeitung von STEP-Modellen bestimmt ist, wobei die ausgewählten Formelemente aus dem Modell entfernt werden. Es ist ein [externer Arbeitsbereich](External_workbenches/de.md) und ist daher nicht Teil der Standard FreeCAD Installation.
 
 ## Funktionen
 

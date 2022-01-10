@@ -22,11 +22,11 @@ Cette commande peut être utilisée sur des objets 2D créés avec l\'[atelier D
 
 ## Utilisation
 
-Voir aussi : [Draft Accrochage](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
+Voir aussi : [Draft Aimantation](Draft_Snap/fr.md) et [Draft Contrainte](Draft_Constrain/fr.md).
 
 1.  Sélectionnez un ou plusieurs objets, ou un ou plusieurs sous-éléments de [Draft Lignes](Draft_Line/fr.md) ou [Draft Polylignes](Draft_Wire/fr.md).
 2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le **<img src="images/Draft_Move.svg" width=16px> [Déplace les objets sélectionnés...](Draft_Move/fr.md)**.
+    -   Appuyez sur le **<img src="images/Draft_Move.svg" width=16px> [Déplacer](Draft_Move/fr.md)**.
     -   Sélectionnez l\'option **Modification → <img src="images/Draft_Move.svg" width=16px> Déplacer** dans le menu.
     -   Utilisez le raccourci clavier : **M** puis **V**.
 3.  Si vous n\'avez pas encore sélectionné d\'objet : sélectionnez un objet dans la [Vue 3D](3D_view/fr.md).
@@ -55,7 +55,7 @@ Les raccourcis clavier à caractère unique mentionnés ici peuvent être modifi
 
 ## Remarques
 
--   Un objet [accroché](Part_EditAttachment/fr.md) ne peut pas être déplacé avec la commande Draft Déplacer. Pour le déplacer, il faut soit déplacer son objet {{PropertyData/fr|Support}}, soit modifier son {{PropertyData/fr|Attachment Offset}}.
+-   Un objet [accroché](Part_EditAttachment/fr.md) ne peut pas être déplacé avec la commande Draft Déplacer. Pour le déplacer, il faut soit déplacer son objet **Support**, soit modifier son **Attachment Offset**.
 
 ## Préférences
 

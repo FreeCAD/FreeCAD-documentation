@@ -5,11 +5,21 @@
 
 </div>
 
+## Description
+
+
+<div class="mw-translate-fuzzy">
+
 ## Descriere
 
 Comanda Box din Atelierul [Part Workbench](Part_Workbench.md) inserează o casetă parametrică, [rectangular cuboid](http://en.wikipedia.org/wiki/Cuboid#Rectangular_cuboid), o primitivă geometrică în documentul activ. Implicit, comanda Box va insera un cub de 10x10x10 mm, poziționaat în origine, cu denumirea/eticheta \"cube\". Acești parametri pot fi modificați după adăugarea obiectului.
 
+
+</div>
+
 <img alt="Part\_Box" src=images/Part_Box.jpg  style="width:400px;">
+
+## Usage
 
 
 <div class="mw-translate-fuzzy">
@@ -26,20 +36,13 @@ Comanda Box din Atelierul [Part Workbench](Part_Workbench.md) inserează o caset
 
 The box properties can later be edited, either in the property editor or by double-clicking on the box in the model tree.
 
+## Properties
+
+
+{{Properties_Title|Box}}
+
 
 <div class="mw-translate-fuzzy">
-
-## Proprietăți
-
-
-{{Properties_Title|Base}}
-
--    **Placement**: Determină orientarea și poziția casetei în spațiul 3D. Vedeți [ Placement](Placement.md). Punctul de referință este colțul frontal din stânga al cutiei.
-
--    **Label**: Etichetă dată obiectului Casetă. Modificați pentru a vi se potrivi nevoilor.
-
-
-</div>
 
 
 {{Properties_Title|Box}}
@@ -50,12 +53,15 @@ The box properties can later be edited, either in the property editor or by doub
 
 -    **Height**: Parametrul înălțime este dimensiunea Box în direcția z.
 
-![Part\_Box-Properties](images/Part_Box-Properties.jpg )
+
+</div>
+
+## Scripting
 
 
 <div class="mw-translate-fuzzy">
 
-## Scripting
+## Scripting 
 
 Comanda Box poate fi utilizat în [macros](macros.md) și din consola python utilizând următoarea funcție:
 
@@ -64,22 +70,38 @@ Comanda Box poate fi utilizat în [macros](macros.md) și din consola python uti
 
 
 ```python
-FreeCAD.ActiveDocument.addObject("Part::Box", "myBox")
+box = FreeCAD.ActiveDocument.addObject("Part::Box", "myBox")
 ```
+
+
+<div class="mw-translate-fuzzy">
 
 -   Unde \"myBox\" este o denumire/etichetă pentru obiectul Box.
 -   Are ca rezulta obiectul nou creat de tip Box.
 
-Puteți accesa și modifica atributele obiectului Box. De exemplu, ați putea dori să modificați parametrii de lungime, lățime și înălțime. 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
+Puteți accesa și modifica atributele obiectului Box. De exemplu, ați putea dori să modificați parametrii de lungime, lățime și înălțime.
+
+
+</div>
+
+
 ```python
-FreeCAD.ActiveDocument.myBox.Length = 25
-FreeCAD.ActiveDocument.myBox.Width = 15
-FreeCAD.ActiveDocument.myBox.Height = 30
+box.Length = 25
+box.Width = 15
+box.Height = 30
 ```
 
-Puteți schimba amplasamentul cu: 
+Puteți schimba amplasamentul cu:
+
+
 ```python
-FreeCAD.ActiveDocument.myBox.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
+box.Placement = FreeCAD.Placement(FreeCAD.Vector(4, 6, 3), FreeCAD.Rotation(30, 45, 10))
 ```
 
 ---

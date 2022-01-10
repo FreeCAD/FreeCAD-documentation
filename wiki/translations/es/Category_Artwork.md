@@ -3,6 +3,8 @@ This category collects pages related to artwork existing in the program, like ic
 
 ### Contents:
 
+[Artwork Guidelines/es](Artwork_Guidelines/es.md) , [Artwork/es](Artwork/es.md) ,
+
 _ _
 
 ---

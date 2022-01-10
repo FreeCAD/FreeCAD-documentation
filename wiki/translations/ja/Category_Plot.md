@@ -3,7 +3,7 @@ This category lists pages related to the [Plot Workbench/ja](Plot_Workbench/ja.m
 
 ### Contents:
 
-_
+[Plot Save/ja](Plot_Save/ja.md)
 
 _
 

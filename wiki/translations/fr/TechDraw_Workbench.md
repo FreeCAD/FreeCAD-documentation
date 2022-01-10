@@ -95,7 +95,7 @@ Les cotes linéaires peuvent être basées sur deux points, sur une ligne ou sur
 
 -   <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:32px;"> [Lier une dimension](TechDraw_LinkDimension/fr.md) : lie une cote existante à la géométrie 3D.
 
--   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Annotation bulle](TechDraw_Balloon/fr.md) : ajout de notes \"bulles\" dans la page. {{Version/fr|0.19}}
+-   <img alt="" src=images/TechDraw_Balloon.svg  style="width:32px;"> [Infobulle](TechDraw_Balloon/fr.md) : ajout \"d\'infobulles\" dans la page. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/TechDraw_LandmarkDimension.svg  style="width:32px;"> [Dimension de repère](TechDraw_LandmarkDimension/fr.md) : ajoute une cote linéaire. {{Version/fr|0.19}}
 

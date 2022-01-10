@@ -46,5 +46,17 @@ The cone properties can later be edited, either in the [Property editor](Propert
 
 </div>
 
+## Scripting
+
+A Part Cone can be created using the following function:
+
+
+```python
+cone = FreeCAD.ActiveDocument.addObject("Part::Cone", "myCone")
+```
+
+-   Where {{Incode|"myCone"}} is the name for the object.
+-   The function returns the newly created object.
+
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/ru

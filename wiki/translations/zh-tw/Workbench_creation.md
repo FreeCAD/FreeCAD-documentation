@@ -47,7 +47,9 @@ The structure and file content for a workbench described here is the classic way
 
 ### C++ workbench 架構 
 
-如果你打算要用Python來寫你的workbench程式碼，你只需要將其他Python檔案跟Init.py 和InitGui.py放在一起就好了，而不用再去煩惱其他事情。不過當你是使用C++來撰寫workbench的時候，你必須特別留意並且遵守FreeCAD的一個基本規則：你必須將你的workbench分成App(可以在命令列介面下執行而不需要任何圖形使用者介面)和Gui(只有在FreeCAD在圖形使用者介面下執行時才會被載入)兩個部份。 所以用C++撰寫workbench你幾乎就像是在開發兩個modules，也就是App和Gui這兩個。這兩個模組當然必須能被Python呼叫。任何 FreeCAD module(App或Gui)至少都包含一個module的init 檔。這是典型AppMyModuleGui.cpp檔 ： 
+如果你打算要用Python來寫你的workbench程式碼，你只需要將其他Python檔案跟Init.py 和InitGui.py放在一起就好了，而不用再去煩惱其他事情。不過當你是使用C++來撰寫workbench的時候，你必須特別留意並且遵守FreeCAD的一個基本規則：你必須將你的workbench分成App(可以在命令列介面下執行而不需要任何圖形使用者介面)和Gui(只有在FreeCAD在圖形使用者介面下執行時才會被載入)兩個部份。 所以用C++撰寫workbench你幾乎就像是在開發兩個modules，也就是App和Gui這兩個。這兩個模組當然必須能被Python呼叫。任何 FreeCAD module(App或Gui)至少都包含一個module的init 檔。這是典型AppMyModuleGui.cpp檔 ：
+
+
 ```python
 extern "C" {
     void MyModuleGuiExport initMyModuleGui()  
@@ -122,7 +124,9 @@ The `FreeCAD.addImportType()` and `addEXportType()` functions allow you to give 
 
 ### Python workbenches 
 
-This is the InitGui.py file: 
+This is the InitGui.py file:
+
+
 ```python
 class MyWorkbench (Workbench):
 
@@ -157,7 +161,9 @@ class MyWorkbench (Workbench):
         return "Gui::PythonWorkbench"
        
 Gui.addWorkbench(MyWorkbench())
-``` Other than that, you can do anything you want: you could put your whole workbench code inside the InitGui.py if you want, but it is usually more convenient to place the different functions of your workbench in separate files. So those files are smaller and easier to read. Then you import those files into your InitGui.py file. You can organize those files the way you want, a good example is one for each FreeCAD command you add.
+```
+
+Other than that, you can do anything you want: you could put your whole workbench code inside the InitGui.py if you want, but it is usually more convenient to place the different functions of your workbench in separate files. So those files are smaller and easier to read. Then you import those files into your InitGui.py file. You can organize those files the way you want, a good example is one for each FreeCAD command you add.
 
 #### Preferences
 
@@ -257,10 +263,10 @@ class My_Command_Class():
     """My new command"""
 
     def GetResources(self):
-        return {'Pixmap'  : 'My_Command_Icon', # the name of a svg file available in the resources
-                'Accel' : "Shift+S", # a default shortcut (optional)
-                'MenuText': "My New Command",
-                'ToolTip' : "What my new command does"}
+        return {"Pixmap"  : "My_Command_Icon", # the name of a svg file available in the resources
+                "Accel"   : "Shift+S", # a default shortcut (optional)
+                "MenuText": "My New Command",
+                "ToolTip" : "What my new command does"}
 
     def Activated(self):
         """Do something here"""
@@ -271,12 +277,14 @@ class My_Command_Class():
         are met or not. This function is optional."""
         return True
 
-FreeCADGui.addCommand('My_Command',My_Command_Class())
+FreeCADGui.addCommand("My_Command", My_Command_Class())
 ```
 
 ### C++ command definition 
 
-同樣地，你可以用C++編寫你的commands，通常會有一個Commands.cpp檔在你的Gui module。這是一個典型的Commands.cpp檔 
+同樣地，你可以用C++編寫你的commands，通常會有一個Commands.cpp檔在你的Gui module。這是一個典型的Commands.cpp檔
+
+
 ```pythonDEF_STD_CMD_A(CmdMyCommand);
 
 CmdMyCommand::CmdMyCommand()
@@ -389,7 +397,7 @@ os.remove(qrc_filename)
 
 {{Powerdocnavi
 
-}} 
+}}
 
 _ _
 

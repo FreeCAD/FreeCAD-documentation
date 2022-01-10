@@ -19,7 +19,7 @@ Crée un tore paramétrique simple avec les paramètres position angle1, angle2,
 
 1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Atelier PArt](Part_Workbench/fr.md)
 2.  Lancez la commande de plusieurs manières:
-    -   Appuyez sur le bouton **<img src="images/Part_Torus.svg" width=16px> Créer un solide toroïdal** dans la barre d\'outils.
+    -   Appuyez sur le bouton **<img src="images/Part_Torus.svg" width=16px> Tore** dans la barre d\'outils.
     -   Sélectionnez **Pièce → Primitives → <img src="images/Part_Torus.svg" width=16px> Tore** dans la barre de menus.
 
 **Résultat:** Le tore sera positionné à l\'origine (point 0,0,0) lors de la création.
@@ -37,9 +37,9 @@ Un tore peut être assimilé à un petit disque qui forme une orbite circulaire 
 
 -    {{Parameter|Radius2:}}Rayon du disque définissant la forme du tore
 
--    {{Parameter|Angle1:}}1er angle pour couper / définir le disque du tore
+-    {{Parameter|Angle1:}}1er angle pour couper/définir le disque du tore
 
--    {{Parameter|Angle2:}}2ème angle pour couper / définir le disque du tore
+-    {{Parameter|Angle2:}}2ème angle pour couper/définir le disque du tore
 
 -    {{Parameter|Angle3:}}3ème angle pour définir la circonférence du tore.
 
@@ -53,7 +53,19 @@ ainsi que l\'ensemble standard de paramètres de placement. Les images ci-dessou
 
 ![](images/TorusExampleAngle2.jpg ) Le paramètre Angle2 a une valeur de 90°.
 
-![](images/TorusExampleAngle3.jpg ) Le paramètre Angle3 a une valeur de 90°.
+![](images/TorusExampleAngle3.jpg ) Le paramètre Angle3 a une valeur de 90°. 
+
+## Script
+
+Un Part Tore peut être créé en utilisant la fonction suivante:
+
+
+```python
+torus = FreeCAD.ActiveDocument.addObject("Part::Torus", "myTorus")
+```
+
+-   Où {{Incode|"myTorus"}} est le nom de l\'objet.
+-   La fonction restitue l\'objet nouvellement créé.
 
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/fr

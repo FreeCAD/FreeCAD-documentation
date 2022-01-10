@@ -28,11 +28,17 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 
 ### Vereinbarungen
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Projektionsgruppenwinkel** Ob [Projektionsgruppen](TechDraw_ProjectionGroup/de.md) entweder die Erst- oder die Drittwinkelprojektion verwenden. Siehe
 
 [Mehrfachansichtsprojektion](https://en.wikipedia.org/wiki/Multiview_projection#Multiviews) für eine Erklärung.
 
 -   **Verdeckter Linienstil**: Der Stil, der für verdeckte Linien zu verwenden ist.
+
+
+</div>
 
 ### Dateien
 
@@ -44,7 +50,13 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 -   **PAT Datei**: Standard PAT Musterfestlegungsdatei für [Geometrische Schraffuren](TechDraw_GeometricHatch/de.md).
 -   **Mustername**: Name des Standard PAT Musters.
 
+
+<div class="mw-translate-fuzzy">
+
 ## Maßstab
+
+
+</div>
 
 <img alt="Maßstabseinstellungen" src=images/TechDraw_PreferencesScale.png  style="width:350px;">
 
@@ -157,6 +169,9 @@ HLR steht für *Entfernen verdeckter Linien* (engl.: hidden line removal).
 
 <img alt="Erweiterte Einstellungen" src=images/TechDraw_PreferencesAdvanced.png  style="width:350px;">
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Flächen erkennen**: Wenn angehakt, versucht TechDraw, Flächen unter Verwendung der Liniensegmente zu erzeugen, die vom Algorithmus zur Entfernung verdeckter Linien zurückgegeben werden. Flächen müssen erkannt werden, um [Schraffierung](TechDraw_Hatching/de.md) verwenden zu können, aber bei komplexen Modellen kann es zu Leistungseinbußen kommen.
 -   **Schnittkanten anzeigen**: Hebt den Rand des ausgeschnittenen Abschnitts in [Schnittansichten](TechDraw_SectionView/de.md) hervor.
 -   **Fehlersuche und -bereinigung Schnittansicht**: Gibt Zwischenergebnisse während der Verarbeitung einer Sektionsansicht aus
@@ -169,6 +184,9 @@ HLR steht für *Entfernen verdeckter Linien* (engl.: hidden line removal).
 -   **Form der Linienenden**: Einstellung der Form der Linienendkappe. Erläuterung der Optionen: <https://doc.qt.io/qt-5/qt.html#PenCapStyle-enum>
 -   **Max. SVG Schraffur-Felder**: Die Grenze von SVG-Kacheln mit einer Größe von 64x64 Pixeln, die zum Schraffieren einer einzelnen Fläche verwendet werden. Bei großen Skalierungen könnte man einen Fehler über zu viele SVG-Kacheln erhalten, dann muss man das Kachellimit erhöhen.
 -   **Max. PAT-Schraffur-Segmente**: Die maximalen Schraffursegmente, die beim Schraffieren einer Fläche mit einem PAT-Muster verwendet werden.
+
+
+</div>
 
 ## Ausgeblendete Einstellungen 
 

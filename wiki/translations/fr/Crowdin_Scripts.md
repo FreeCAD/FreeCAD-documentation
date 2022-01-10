@@ -81,7 +81,7 @@ Le script updatefromcrowdin.py extrait les modifications de crowdin vers votre r
 -   Créer un PR sur FreeCAD-Homepage
 -   Après la fusion du RP, l'un des administrateurs va s'appuyer sur l'hôte Web
 
-## Relation
+## En relation 
 
 -   [Localisation](Localisation/fr.md)
 -   [Administration de Crowdin](Crowdin_Administration/fr.md)

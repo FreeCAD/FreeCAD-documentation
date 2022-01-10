@@ -1,8 +1,8 @@
 ---
 - GuiCommand:/fr
    Name:Fasteners ScrewCalculator
-   Name/fr:Fasteners Calculateur de vis
-   MenuLocation:Fasteners → ScrewCalculator
+   Name/fr:Fasteners ScrewCalculator
+   MenuLocation:Fasteners → Screw calculator
    Workbenches:[Fasteners](Fasteners_Workbench/fr.md)
 ---
 
@@ -10,33 +10,27 @@
 
 ## Description
 
-Le <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24px;"> [Fasteners Calculateur de vis](Fasteners_ScrewCalculator/fr.md) lorem ipsum dolor sit amet, consectetur adipiscing. Cet outil fait partie des [ateliers externes](External_workbenches/fr.md) appelé [Fasteners](Fasteners_Workbench/fr.md).
+La commande <img alt="" src=images/Fasteners_ScrewCalculator.svg  style="width:24px;"> **Fasteners ScrewCalculator** affiche une calculatrice permettant de déterminer la taille du trou taraudé des vis.
+
+![](images/Fasteners_ScrewCalculator_Dialog.png ) 
+*Boîte de dialogue du Calculateur de trous de vis*
 
 ## Utilisation
 
-1.  Passez à l\'atelier <img alt="" src=images/Fasteners_workbench_icon.svg  style="width:24px;"> _ s\'il n\'est pas déjà installé).
-2.  Il existe plusieurs façons de lancer la commande :
-    -   Appuyez sur le bouton **<img src="images/Fasteners_ScrewCalculator.svg" width=16px> [Screw Calculator](Fasteners_ScrewCalculator/fr.md)**.
-    -   Sélectionnez l\'option **Fasteners → ScrewCalculator** dans le menu.
+1.  Il existe plusieurs façons d\'invoquer la commande :
+    -   Appuyez sur le bouton **<img src="images/Fasteners_ScrewCalculator.svg" width=16px> [Fasteners ScrewCalculator](Fasteners_ScrewCalculator/fr.md)**.
+    -   Sélectionnez l\'option **Fasteners → <img src="images/Fasteners_ScrewCalculator.svg" width=16px> Screw calculator** dans le menu.
 
-Résultat : lorem ipsum dolor sit amet, consectetur adipiscing.
+2.  La boîte de dialogue **Screw hole calculator** s\'ouvre.
 
-<img alt="" src=images/Fasteners_ScrewCalculator_example-1.FCStd.png  style="width:1000px;">
+3.  Spécifiez le **Fastener type** et le **Screw diameter**.
 
-## Remarques
+4.  
+    **Suggested hole diameter**s\'affiche.
 
--   lorem ipsum dolor sit amet, consectetur adipiscing.
+5.  La boîte de dialogue est sans modèle, ce qui signifie qu\'elle peut rester ouverte pendant que vous continuez à travailler dans FreeCAD.
 
-## Limitations
-
-## Propriétés
-
-
-{{Properties_Title|Base}}
-
--    **View**: Inverser, booléen, par défaut : false
-
-## Script
+6.  Appuyez sur le bouton **Fermer** (fourni par le système d\'exploitation) pour fermer la boîte de dialogue.
 
 
 

@@ -226,7 +226,7 @@ The plane is defined by v1, any point on it, and v2, the direction of the normal
 
 ### Placement
 
-A Placement combines rotation and translation into a single operator. Placement.Base is the translation vector. Placement.Rotation is the rotation. The combined operation translates the object, rotated about its origin, by the translation vector. The placement relates the local coordinate system (LCS) of the object to that of its container coordinate system (CCS). The tooltip for App.Rotation shows the many options for its constructor. An example, rotating by 90 degrees about the x-axis and translating 20 in the z-direction, would be
+A Placement combines rotation and translation into a single operator. Placement.Base is the translation vector. Placement.Rotation is the rotation. The combined operation translates the object, rotated about its origin, by the translation vector. (See [Rigid Transformation Math](Rigid_Transformation_Math.md) for the representation of placements as 4 x 4 matrices.) The placement relates the local coordinate system (LCS) of the object to that of its container coordinate system (CCS). The tooltip for App.Rotation shows the many options for its constructor. An example, rotating by 90 degrees about the x-axis and translating 20 in the z-direction, would be
 
 
 ```python

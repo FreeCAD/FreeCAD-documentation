@@ -3,7 +3,7 @@ Pages related to testing in regards to unit testing, continuous integration, qua
 
 ### Contents:
 
-[AppImage/pl](AppImage/pl.md) , [Testing/pl](Testing/pl.md) ,
+[AppImage/pl](AppImage/pl.md) , [Continuous Integration/pl](Continuous_Integration/pl.md) , [LGTM/pl](LGTM/pl.md) , [Testing/pl](Testing/pl.md) ,
 
 _
 

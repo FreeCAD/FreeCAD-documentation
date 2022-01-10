@@ -3,7 +3,7 @@ This category lists pages related to the [Mesh\_Workbench/hr](Mesh_Workbench/hr.
 
 ### Contents:
 
-_ , [Mesh Workbench/hr](Mesh_Workbench/hr.md)
+[Mesh Workbench/hr](Mesh_Workbench/hr.md)
 
 _
 

@@ -14,7 +14,7 @@ The **Mesh TrimByPlane** command trims faces and parts of faces on one side of a
 
 ## Usage
 
-1.  Select a single mesh object and a single [Part plane](Part_Primitives.md). The (extended) plane should intersect the mesh object.
+1.  Select a single mesh object and a single [Part plane](Part_Plane.md). The (extended) plane should intersect the mesh object.
 
 2.  There are several ways to invoke the command:
     -   Press the **<img src="images/Mesh_TrimByPlane.svg" width=16px> [Mesh TrimByPlane](Mesh_TrimByPlane.md)** button.

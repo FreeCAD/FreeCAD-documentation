@@ -41,7 +41,7 @@ Remarque: Vous pouvez toujours ajuster le rayon ou la taille, comme avec les pi√
 
 -   Plus d\'informations sur [Pyramids\_and\_Polyhedrons](https://github.com/eddyverl/FreeCad-Pyramids-and-Polyhedrons) (github README)
 
-## Relation
+## En relation 
 
 La discussion sur le forum [Macros for pyramids and polyhedrons](https://forum.freecadweb.org/viewtopic.php?f=22&t=40485&p=344116&hilit=Eddyverl#p344116)
 

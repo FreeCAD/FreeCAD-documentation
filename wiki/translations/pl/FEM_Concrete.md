@@ -10,7 +10,7 @@ Na tej stronie zebrano kilka ciekawych informacji na temat symulacji konstrukcji
 
 ## Powiązane
 
--   [Analiza betonu zbrojonego z FEM](Analysis_of_reinforced_concrete_with_FEM.md)
+-   [Analiza betonu zbrojonego z FEM](Analysis_of_reinforced_concrete_with_FEM/pl.md)
 
 
 {{FEM Tools navi

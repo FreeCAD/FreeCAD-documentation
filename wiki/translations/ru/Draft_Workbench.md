@@ -210,7 +210,7 @@ The [Draft snap widget](Draft_snap_widget.md) can be used as an alternative for 
 
 -   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> _. It can also ungroup objects.
 
--   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> _, [Std Groups](Std_Group.md) or group-like [Arch](Arch_Workbench.md) objects.
+-   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> _ or group-like [Arch](Arch_Workbench.md) objects.
 
 -   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> _.
 

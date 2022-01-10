@@ -16,7 +16,13 @@ No momento não há funcionalidade presente nesta bancada de trabalho. É utiliz
 
 ## Ferramentas
 
+
+<div class="mw-translate-fuzzy">
+
 As ferramentas de Engenharia Reversa (RE) estão todas localizadas no menu RE e na barra de ferramentas RE que aparecem quando você carrega a bancada de trabalho RE a partir do menu suspenso da bancada.
+
+
+</div>
 
 -   <img alt="" src=images/FitSurface.svg  style="width:32px;"> Aproximação de uma superfície de linha B:
 

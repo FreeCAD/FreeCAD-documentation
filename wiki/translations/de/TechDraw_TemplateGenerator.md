@@ -1,17 +1,11 @@
 # TechDraw TemplateGenerator/de
-<div class="mw-translate-fuzzy">
-
-
 {{TutorialInfo/de
 |Topic=TechDraw-Vorlagen erzeugen mittels Python-Macro
 |Level=Grundkenntnisse von Python und SVG-Strukturen sind hilfreich
-|FCVersion= 0.19.1 und later
+|FCVersion= 0.19.1 und neuer
 |Time=(noch nicht bekannt)
-|Author=[[User:FBXL5]]
+|Author=_
 }}
-
-
-</div>
 
 ## Einleitung
 

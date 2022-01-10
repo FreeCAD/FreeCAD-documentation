@@ -3,7 +3,7 @@
 
 ## Vue d\'ensemble 
 
-Il est possible de définir des propriétés à l\'aide d\'expressions mathématiques. Dans l\'interface graphique, les zones de sélection numérique ou les champs de saisie liés aux propriétés contiennent une icône bleue <img alt="" src=images/Sketcher_Expressions.png  style="width:24px;">. Cliquez sur l\'icône ou tapez le signe égal **&#61;** pour ouvrir l\'éditeur d\'expression pour cette propriété particulière.
+Il est possible de définir des propriétés à l\'aide d\'expressions mathématiques. Dans l\'interface graphique, les zones de sélection numérique ou les champs de saisie liés aux propriétés contiennent une icône bleue <img alt="" src=images/Bound-expression.svg  style="width:24px;">. Cliquez sur l\'icône ou tapez le signe égal **&#61;** pour ouvrir l\'éditeur d\'expression pour cette propriété particulière.
 
 Une expression FreeCAD est une expression mathématique qui suit la notation pour les opérateurs mathématiques standard et fonctionne comme décrit ci-dessous. En outre, l\'expression peut faire référence à d\'autres propriétés et également utiliser des conditions. Une unité facultative peut être attachée aux nombres d\'une expression.
 

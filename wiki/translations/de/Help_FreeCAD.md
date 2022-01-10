@@ -10,17 +10,11 @@ Wenn Du FreeCAD magst und bei der Entwicklung helfen möchtest, gibt es neben de
 
 Hilf uns, diese Dokumentation aufzubauen, zu korrigieren und zu erweitern. Fehler korrigieren, unklare Seiten erweitern oder korrigieren, neue Seiten anlegen, wenn ein Thema fehlt, usw. Beizutragen zum FreeCAD Wiki ist einfach, unter [WikiSeiten](WikiPages/de.md) findest Du die allgemeinen Richtlinien und die Hilfe, die Du für den Einstieg benötigst. Um das Wiki zu bearbeiten, benötigst Du ein Wiki Konto mit \"Editor\" Berechtigungen (das Wiki ist schreibgeschützt, um Spamming zu vermeiden). Du kannst ein Benutzerkonto [im Forum](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830) oder auf dem [IRC Kanal](https://wiki.freecadweb.org/Help#Chat) beantragen. Bitte beachte, dass der IRC Kanal möglicherweise nicht so schnell reagiert wie das Forum. [Das offizielle FreeCAD Forum](https://forum.freecadweb.org) sollte der erste Ort sein, um Fragen zu stellen und Diskussionen zu beginnen, da es dazu beiträgt, die Erfahrung und das Wissen der Gemeinschaft zu erhalten.
 
-
-<div class="mw-translate-fuzzy">
-
 Einige Bereiche, die deine Arbeit begrüßen würden:
 
 -   Die _ Seite listet und dokumentiert alle FreeCAD [Befehle](command/de.md). Die meisten von ihnen enthalten wenig bis gar keine Informationen. Bitte beziehe dich auf [WikiSeiten](WikiPages/de.md) für gute Beispiele, wie Befehlsdokumentationsseiten aussehen sollten.
 -   Der [Tutorien](Tutorials/de.md) Abschnitt benötigt Beispiele für die Verwendung der Arbeitsbereiche. Wenn Du etwas spannendes mit FreeCAD entwickelt hast, warum dokumentierst du nicht für die Nachwelt, wie du es gemacht hast?
--   Es gibt offene Tickets auf dem FreeCAD [Fehlerverfolger](bugtracker/de.md) mit der Markierung [\"documentation\"](https://freecadweb.org/tracker/search.php?tag_string=documentation), die etwas Liebe gebrauchen könnten.
-
-
-</div>
+-   Es gibt offene Tickets auf dem FreeCAD [Fehlerverfolger](Tracker/de.md) mit der Markierung [\"documentation\"](https://freecadweb.org/tracker/search.php?tag_string=documentation), die etwas Liebe gebrauchen könnten.
 
 ## Teile dein FreeCAD Wissen 
 

@@ -28,10 +28,16 @@ A note of caution, using this tool to link to generated (solid) geometry can lea
 
 ## Utilizzo
 
+
+<div class="mw-translate-fuzzy">
+
 1.  Creare un nuovo schizzo o aprire uno schizzo esistente.
 2.  Attivare lo strumento Geometria esterna.
 3.  Selezionare il bordo o il punto che si vuole collegare.
 4.  Premere Esc o selezionare un altro strumento per interrompere l\'importazione della geometria nello schizzo.
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">
