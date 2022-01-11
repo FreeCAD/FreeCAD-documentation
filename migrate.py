@@ -74,6 +74,7 @@ import threading
 from PySide2 import QtCore
 import FreeCAD
 import git
+import inspect
 
 unhandledTemplates = [] # holder for unhandled templates
 BASE_URL = "https://wiki.freecadweb.org"
@@ -1139,6 +1140,9 @@ if __name__ == "__main__":
     # print help text
     funcs = "    Available functions:\n\n"
     for name in list(globals().keys()):
-        if (name != "MediaWiki") and callable(globals()[name]):
-            funcs += "    --" + name + " : " + globals()[name].__doc__ + "\n"
+        if (name not in ["MediaWiki","Wrn","Log","Msg","Err","datetime","date",
+                         "removeFromPath","FCADLogger","IntEnum","Scheme"]):
+            if callable(globals()[name]):
+                if globals()[name].__doc__:
+                    funcs += "    --" + name + " : " + globals()[name].__doc__ + "\n"
     print(__doc__.replace("    See bottom of file for available functions",funcs))
