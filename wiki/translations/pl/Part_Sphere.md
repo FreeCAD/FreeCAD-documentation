@@ -45,17 +45,17 @@ Ponieważ dość trudno jest wyjaśnić znaczenie parametrów kąt 1, kąt 2, k�
 
 <img alt="" src=images/SphereCutThreeAngles.jpg  style="width:400px;">
 
-## Scripting
+## Tworzenie skryptów 
 
-A Part Sphere can be created using the following function:
+Sferę środowiska pracy Część można utworzyć przy pomocy następującej funkcji:
 
 
 ```python
 sphere = FreeCAD.ActiveDocument.addObject("Part::Sphere", "mySphere")
 ```
 
--   Where {{Incode|"mySphere"}} is the name for the object.
--   The function returns the newly created object.
+-   Gdzie parametr {{Incode|"mySphere"}} jest etykietą dla obiektu.
+-   Funkcja zwraca nowo utworzony obiekt.
 
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Sphere/pl

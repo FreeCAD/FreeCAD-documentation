@@ -1,13 +1,13 @@
-# <img alt="Ship workbench icon" src=images/Workbench_Ship.svg  style="width:64px;"> Ship Workbench/pl
+# <img alt="Ikonka FreeCAD dla środowiska pracy Statek" src=images/Workbench_Ship.svg  style="width:64px;"> Ship Workbench/pl
 
 
 {{TOCright}}
 
-## Introduction
+## Wprowadzenie
 
-The <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> [Ship Workbench](Ship_Workbench.md) is used to create structures that are common to ships.
+Środowisko pracy <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> [Statek](Ship_Workbench/pl.md) jest wykorzystywane do tworzenia struktur, które są wspólne dla statków.
 
-## The Tools 
+## Narzędzia
 
 ### Ship Design 
 
@@ -25,7 +25,7 @@ The <img alt="" src=images/Workbench_Ship.svg  style="width:32px;"> [Ship Workbe
 -   <img alt="Load conditions" src=images/Ship_Loading.png  style="width:32px;"> [Load conditions](Ship_Loading.md)
 -   <img alt="Plot GZ curve" src=images/Ship_PlotGZ.png  style="width:32px;"> [Plot GZ curve](Ship_PlotGZ.md)
 
-## Tutorials
+## Poradniki
 
 -   [FreeCAD-Ship s60 tutorial](FreeCAD-Ship_s60_tutorial.md)
 -   [FreeCAD-Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II).md)

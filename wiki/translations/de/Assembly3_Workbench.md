@@ -5,7 +5,7 @@
 
 ## Einführung
 
-<img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md) ist ein [externer Arbeitsbereich](External_workbenches/de.md), der verwendet wird, um den Zusammenbau von verschiedenen Körpern in einer einzigen Datei oder in mehreren Dokumenten durchzuführen. Der Arbeitsbereich basiert auf einigen Kernfunktionsänderungen ausgeführt für die Version FreeCAD 0.19 (z.B. [App Verweis](App_Link/de.md)), sodass der Assembly3 Arbeitsbereich nicht mit früheren Versionen verwendet werden kann.
+<img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/de.md) ist ein [externer Arbeitsbereich](External_workbenches/de.md), der dem Zusammenbau von verschiedenen Körpern dient, die entweder in einem einzigen oder in mehreren separaten Dokumenten gespeichert sind. Der Arbeitsbereich basiert auf einigen Änderungen der Kernfunktionen, die mit FreeCAD 0.19 eingeführt wurden (z.B. [App-Link](App_Link/de.md)), sodass der Assembly3 Arbeitsbereich nicht mit früheren Versionen verwendet werden kann.
 
 Die Hauptfunktionen des Assembly3 Arbeitsbereichs sind
 

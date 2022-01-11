@@ -37,17 +37,17 @@ Właściwości stożka mogą być później edytowane w [edytorze właściwości
 
 -    **Kąt**: liczba stopni dla długości łuku lub okręgu określającego górną i dolną powierzchnię ściętego stożka. Domyślna wartość 360° tworzy okrągłe powierzchnie, niższa wartość utworzy fragment stożka zdefiniowany przez górną i dolną powierzchnię. Każda z tych powierzchni ma krawędzie zdefiniowane przez łuk *(o długości w liczbie stopni)* i dwóch promieniach.
 
-## Scripting
+## Tworzenie skryptów 
 
-A Part Cone can be created using the following function:
+Stożek środowiska pracy Część można utworzyć przy pomocy następującej funkcji:
 
 
 ```python
 cone = FreeCAD.ActiveDocument.addObject("Part::Cone", "myCone")
 ```
 
--   Where {{Incode|"myCone"}} is the name for the object.
--   The function returns the newly created object.
+-   Gdzie parametr {{Incode|"myCone"}} jest etykietą dla obiektu.
+-   Funkcja zwraca nowo utworzony obiekt.
 
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Cone/pl

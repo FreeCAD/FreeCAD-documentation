@@ -55,17 +55,17 @@ jak również standardowy zestaw parametrów rozmieszczania. Poniższe ilustracj
 
 ![](images/TorusExampleAngle3.jpg ) Parametr Kąt3 ma wartość 90°. 
 
-## Scripting
+## Tworzenie skryptów 
 
-A Part Torus can be created using the following function:
+Torus środowiska pracy Część można utworzyć przy pomocy następującej funkcji:
 
 
 ```python
 torus = FreeCAD.ActiveDocument.addObject("Part::Torus", "myTorus")
 ```
 
--   Where {{Incode|"myTorus"}} is the name for the object.
--   The function returns the newly created object.
+-   Gdzie parametr {{Incode|"myTorus"}} jest etykietą dla obiektu.
+-   Funkcja zwraca nowo utworzony obiekt.
 
 ---
 [documentation index](../README.md) > [Part](Part_Workbench.md) > Part Torus/pl

@@ -192,13 +192,7 @@ Pasek narzędzi [Rysunek roboczy: Przyciągnij](Draft_Snap/pl.md) umożliwia wyb
 
 -   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> _. Może również usuwać grupy obiektów.
 
-
-<div class="mw-translate-fuzzy">
-
 -   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> _, [Grupy](Std_Group/pl.md) lub obiektów zbliżone do grupy [Architektury](Arch_Workbench/pl.md).
-
-
-</div>
 
 -   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> _.
 

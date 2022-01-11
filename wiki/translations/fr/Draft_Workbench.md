@@ -192,13 +192,7 @@ La barre d\'outils [Draft Accrochage](Draft_Snap/fr.md) permet de sélectionner 
 
 -   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> _. Il peut aussi dégrouper des objets.
 
-
-<div class="mw-translate-fuzzy">
-
--   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> _, [Std Groupes](Std_Group/fr.md) ou des objets de type groupe [Arch](Arch_Workbench/fr.md).
-
-
-</div>
+-   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> _ ou des objets de type groupe de [Arch](Arch_Workbench/fr.md).
 
 -   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> _.
 

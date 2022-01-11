@@ -4,8 +4,8 @@
 |Icon=Animator.svg
 |Description=Animate your model by animating its properties with this feature Python object
 |Author=TheMarkster
-|Version=0.2021.12.04
-|Date=2021-12-04
+|Version=0.2022.01.10
+|Date=2022-01-10
 |FCVersion=Python 3 versions
 |Download=[https://wiki.freecadweb.org/File:Animator.svg ToolBar Icon]
 |Links=[https://github.com/mwganson/animator Full Documentation on Github]

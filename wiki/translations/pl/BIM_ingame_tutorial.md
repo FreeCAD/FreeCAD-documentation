@@ -298,13 +298,13 @@ Następnie, mając wybraną ścianę, wybierz **Drzwi** z menu **BIM**. Wybierz 
 
 <img alt="" src=images/BIM_Tutorial_30.jpg  style="width:300px;">
 
-Click a point on the base of the wall where you wish to place the window. This can be difficult, as the grid lines don\'t necessarily correspond to the wall edges. Press the **Q** key while you have an active snap at a grid intersection, and press it again with an active snap on the bottom of the wall. FreeCAD will create a new snap point where their horizontal/vertical axis intersect. Use this to find a suitable point:
+Kliknij punkt na podstawie ściany, w którym chcesz umieścić okno. Może to być trudne, ponieważ linie siatki nie zawsze pokrywają się z krawędziami ściany. Naciśnij klawisz **Q**, gdy masz aktywne przyciąganie na przecięciu siatki, i naciśnij go ponownie z aktywnym przyciąganiem na dole ściany. FreeCAD utworzy nowy punkt przyciągania w miejscu przecięcia się ich osi poziomej / pionowej. Użyj tej opcji, aby znaleźć odpowiedni punkt:
 
 <img alt="" src=images/BIM_Tutorial_31.jpg  style="width:300px;">
 
-If your door didn\'t get placed correctly, try the **Move** tool to move it to its correct position. Otherwise use undo or delete it from the model tree and try again.
+Jeśli drzwi nie zostały umieszczone poprawnie, spróbuj użyć narzędzia **Przesuń**, aby przesunąć je na właściwą pozycję. W przeciwnym razie cofnij lub usuń je z drzewa modelu i spróbuj ponownie.
 
-When everything is done, you should obtain a door properly inserted into its wall:
+Kiedy wszystko jest gotowe, powinieneś otrzymać drzwi prawidłowo osadzone w ścianie:
 
 <img alt="" src=images/BIM_Tutorial_32.jpg  style="width:300px;">
 
