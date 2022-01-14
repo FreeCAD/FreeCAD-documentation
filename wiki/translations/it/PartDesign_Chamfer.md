@@ -18,7 +18,7 @@ Questo strumento applica degli smussi ai bordi di un oggetto selezionato. All\'a
 
 <div class="mw-translate-fuzzy">
 
--   Selezionare uno spigolo, o una faccia su un oggetto, quindi avviare lo strumento facendo clic sul oulsante **_ [Smusso](PartDesign_Chamfer.md)** o usare **PartDesign** → **Smusso** dal menu principale. Nel caso in cui sia selezionata una faccia lo smusso viene applicato a tutti i suoi bordi.
+-   Selezionare uno spigolo, o una faccia su un oggetto, quindi avviare lo strumento facendo clic sul oulsante **[16px|PartDesign Chamfer](File:PartDesign_Chamfer.svg.md) [Smusso](PartDesign_Chamfer.md)** o usare **PartDesign** → **Smusso** dal menu principale. Nel caso in cui sia selezionata una faccia lo smusso viene applicato a tutti i suoi bordi.
 -   Nei Parametri smusso del [pannello Azioni](Task_panel/it.md) si può definire lo smusso in 3 modi:
     -   **Stessa distanza**: I bordi degli smussi sono equidistanti dal bordo del corpo.
     -   **Due distanze**: Vengono specificate le distanze dal bordo dello smusso al bordo del corpo. È possibile invertire la direzione della distanza. {{Version/it|0.19}}

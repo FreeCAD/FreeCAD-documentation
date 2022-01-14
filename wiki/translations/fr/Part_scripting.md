@@ -3,7 +3,7 @@
 
 ## Introduction
 
-La structure principale des données utilisée dans le module Part est le type de données _. Cela inclut les primitives géométriques, telles que Ligne et Cercle (ou Arc), et toute la gamme de TopoShapes, comme les sommets, les arêtes, les fils, les faces, les solides et les composés. Pour chacun de ces objets, plusieurs méthodes de création existent, et pour certaines d\'entre elles, en particulier les TopoShapes, des opérations avancées comme l\'union booléenne/différence/intersection sont également disponibles. Pour en savoir plus, explorez le contenu du module Part, comme décrit dans la page [Notions de base sur les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
+La structure principale des données utilisée dans le module Part est le type de données [BRep](https://fr.wikipedia.org/wiki/B-Rep) d\'OpenCascade. Presque tous les contenus et types d\'objets du module Part sont disponibles par script [Python](Python/fr.md). Cela inclut les primitives géométriques, telles que Ligne et Cercle (ou Arc), et toute la gamme de TopoShapes, comme les sommets, les arêtes, les fils, les faces, les solides et les composés. Pour chacun de ces objets, plusieurs méthodes de création existent, et pour certaines d\'entre elles, en particulier les TopoShapes, des opérations avancées comme l\'union booléenne/différence/intersection sont également disponibles. Pour en savoir plus, explorez le contenu du module Part, comme décrit dans la page [Notions de base sur les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
 L\'objet le plus simple pouvant être créé est une [Part Feature](Part_Feature/fr.md), qui possède une simple propriété {{PropertyData/fr|Placement}} et des propriétés de base permettant de définir sa couleur et son apparence.
 
@@ -185,7 +185,7 @@ Rendez-vous sur la page [Scripts pour création topologique](Topological_data_sc
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Part](Part_Workbench.md) > Part scripting/fr

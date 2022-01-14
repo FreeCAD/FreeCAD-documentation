@@ -16,7 +16,7 @@ Questo strumento imposta la vista del modello perpendicolare al piano dello schi
 
 In modalità **Modifica schizzo** usare uno dei seguenti modi:
 
--   Cliccare sull\'icona {{KEY/it|_ Vista schizzo}} nella barra degli strumenti di Schizzo o di Part Design, oppure
+-   Cliccare sull\'icona {{KEY/it|[16px|View sketch icon](File:Sketcher_ViewSketch.png.md) Vista schizzo}} nella barra degli strumenti di Schizzo o di Part Design, oppure
 -   Usare il comando del menu **Schizzo → Vista perpendicolare al piano dello schizzo**.
 
 

@@ -5,7 +5,7 @@
 
 FreeCAD utilizează două licențe diferite, una pentru aplicația în sine și una pentru documentație:
 
-**_** Toate sursele de cod FreeCAD poate fi găsit aici [official Git repository](https://github.com/FreeCAD/FreeCAD)
+**[Lesser General Public Licence, version 2 or superior (LGPL2+)](wikipedia_LGPL.md)** Toate sursele de cod FreeCAD poate fi găsit aici [official Git repository](https://github.com/FreeCAD/FreeCAD)
 
 
 <div class="mw-translate-fuzzy">
@@ -86,7 +86,7 @@ Această decizie se face numai pentru nucleul sistemul FreeCAD. Fiecare scriitor
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Licence/ro

@@ -34,7 +34,7 @@ Lo scopo dell\'ambiente PartDesign è quello di consentire all\'utente di creare
 
 <div class="mw-translate-fuzzy">
 
-Per raggiungere questo obiettivo ci sono due funzioni fondamentali : <img alt="" src=images/PartDesign_Pad.png  style="width:32px;"> _. Assieme alle loro controparti sottrattive (<img alt="" src=images/PartDesign_Pocket.png  style="width:32px;"> _) esse costituiscono la maggior parte delle azioni comuni utilizzate da questo ambiente.
+Per raggiungere questo obiettivo ci sono due funzioni fondamentali : <img alt="" src=images/PartDesign_Pad.png  style="width:32px;"> [Prisma](PartDesign_Pad/it.md) e <img alt="" src=images/PartDesign_Revolution.png  style="width:32px;"> [Rivoluzione](PartDesign_Revolution/it.md). Assieme alle loro controparti sottrattive (<img alt="" src=images/PartDesign_Pocket.png  style="width:32px;"> [Cavità](PartDesign_Pocket/it.md) e <img alt="" src=images/PartDesign_Groove.png  style="width:32px;"> [Gola](PartDesign_Groove/it.md)) esse costituiscono la maggior parte delle azioni comuni utilizzate da questo ambiente.
 
 
 </div>

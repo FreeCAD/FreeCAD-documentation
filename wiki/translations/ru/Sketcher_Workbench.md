@@ -5,7 +5,7 @@
 
 ## Введение
 
-<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _, Sketcher формирует основу _, Sketcher так же формирует основы методов [функционального редактирования](feature_editing/ru.md) при создании твердых тел.
+<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Верстак Sketcher](Sketcher_Workbench/ru.md) FreeCAD, используется для создания 2D геометрии, предназначенной для дальнейшего использования в верстаках: <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/ru.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/ru.md), и других. Плоский двухмерный эскиз является основой для построения большинства CAD моделей, поскольку 2D-эскиз можно «выдавливать» для создания объемных фигур; 2D-эскизы могут быть использованы для создания других элементов, таких как вырезы, выступы или \"надстройки\" поверх ранее построенных объемных фигур. Вместе с логическими операциями, перечисленными в <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [верстаке Part](Part_Workbench/ru.md), Sketcher формирует основу [конструктивной геометрии](constructive_solid_geometry/ru.md) (CSG) построения твердых тел. Более того, вместе с операциями <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [верстака PartDesign](PartDesign_Workbench/ru.md), Sketcher так же формирует основы методов [функционального редактирования](feature_editing/ru.md) при создании твердых тел.
 
 Функции \"ограничения\" верстака Sketcher, позволяют задавать фигурам точные геометрические размеры определяя длины, углы и отношения (горизонтальность, вертикальность, перпендикулярность и т. д.). Решатель \"ограничений\" в интерактивном режиме обсчитывает ограничения степеней свободы геометрии эскиза.
 
@@ -54,7 +54,7 @@ Sketcher не предназначен для создания 2D чертеже
 
 Внутри замкнутой области мы можем иметь меньшие непересекающиеся области. Они станут пустотами при создании 3D-тела.
 
-Когда эскиз будет полностью ограничен, функции эскиза станут зелеными, а построительная геометрия останется синей. Обычно он «готов» и подходит для использования при создании трехмерного тела. Однако после закрытия диалогового окна «Эскиз» может оказаться целесообразным перейти к <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:верстаку Part](Part_Workbench/ru.md) и запустить команду **[16px"> [Проверка геометрии](Part_CheckGeometry/ru.md)**, чтобы убедиться, что в Sketch нет элементов, которые могут вызвать дальнейшие проблемы.
+Когда эскиз будет полностью ограничен, функции эскиза станут зелеными, а построительная геометрия останется синей. Обычно он «готов» и подходит для использования при создании трехмерного тела. Однако после закрытия диалогового окна «Эскиз» может оказаться целесообразным перейти к <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [верстаку Part](Part_Workbench/ru.md) и запустить команду **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Проверка геометрии](Part_CheckGeometry/ru.md)**, чтобы убедиться, что в Sketch нет элементов, которые могут вызвать дальнейшие проблемы.
 
 
 <div class="mw-translate-fuzzy">
@@ -70,7 +70,7 @@ Sketcher не предназначен для создания 2D чертеже
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> [Создать эскиз](Sketcher_NewSketch/ru.md): Создать новый эскиз на выбранной грани или плоскости. Если во время использования этого инструмента грань не выбрана, пользователю, во всплывающем окне, предлагается выбрать плоскость.
 
--   <img alt="" src=images/Sketcher_EditSketch.svg‎‎  style="width:32px;"> _
+-   <img alt="" src=images/Sketcher_EditSketch.svg‎‎  style="width:32px;"> [Редактировать эскиз](Sketcher_EditSketch/ru.md): Редактировать выбранный эскиз. Это откроет окно [Меню Sketcher](Sketcher_Dialog/ru.md)
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.svg‎‎  style="width:32px;"> [Покинуть эскиз](Sketcher_LeaveSketch/ru.md): Выйти из режима редактирования эскиза.
 
@@ -110,7 +110,7 @@ Sketcher не предназначен для создания 2D чертеже
 
 :\* <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Создать окружность по трём точкам](Sketcher_Create3PointCircle/ru.md): Рисует окружность по 3-м точкам на грани окружности.
 
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> _, [точки на объекте](Sketcher_ConstrainPointOnObject/ru.md) или [перпендикуляры](Sketcher_ConstrainPerpendicular/ru.md).
+-   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Создать коническое сечение](Sketcher_CompCreateConic/ru.md): Sketcher обеспечивает следующие конические сечения. В отличие от B-сплайнов они могут использоваться со всеми видами ограничений, такими как [касательные](Sketcher_ConstrainTangent/ru.md), [точки на объекте](Sketcher_ConstrainPointOnObject/ru.md) или [перпендикуляры](Sketcher_ConstrainPerpendicular/ru.md).
     -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Эллипс от центра](Sketcher_CreateEllipseByCenter/ru.md): Рисует эллипс по центральной точке, точке большого радиуса и точке малого радиуса.
     -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Эллипс по 3 точкам](Sketcher_CreateEllipseBy3Points/ru.md): Рисует эллипс по большому диаметру (2 точки) и малому радиусу.
     -   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:32px;"> [Дуга эллипса](Sketcher_CreateArcOfEllipse/ru.md): Рисует дугу эллипса от центральной точки, главной точки радиуса, начальной и конечной точкам.
@@ -315,7 +315,7 @@ Sketcher не предназначен для создания 2D чертеже
 -   Если возможно, отцентрируйте эскиз по отношению к началу координат (0,0) с помощью фиксирующего ограничения. Если ваш эскиз не симметричный, расположите одну из его точек в начале координат или выберите хорошие круглые числа для фиксации расстояний. Начиная с версии v0.12 внешние ограничения (ограничивающие эскиз по отношению к существующей трехмерной геометрии, такой как ребра или другие эскизы) неприменимы. Это означает, что для размещения следующей геометрии эскиза по отношению к первому эскизу, вам необходимо вручную задать расстояния до первого эскиза. Фиксирующее ограничение (25,75) относительно начала координат легче запомнить, чем (23,47,73.02).
 -   Если у вас есть возможность выбора между ограничением длины и ограничением горизонтального или вертикального расстояния, предпочтите последнее. Ограничения горизонтального и вертикального расстояния в вычислительном отношении дешевле.
 -   В общем, лучшие ограничения для использования это: Горизонтальное и Вертикальное; Горизонтальное и Вертикальное ограничение длины; Совпадение Точка к Точке. Если возможно, ограничьте использование этих: Общее Ограничение Длинны (Расстояние); Совпадение Ребро к Ребру; Фиксация точки на Ограничении Линии; Ограничение Симметрии.
--   Если вы сомневаетесь в достоверности эскиза после его завершения (элементы становятся зелеными), закройте диалоговое окно Sketcher, переключитесь на верстак <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:Part](Part_Workbench/ru.md) и запустите инструмент **[16px"> [Проверка геометрии](Part_CheckGeometry/ru.md)**.
+-   Если вы сомневаетесь в достоверности эскиза после его завершения (элементы становятся зелеными), закройте диалоговое окно Sketcher, переключитесь на верстак <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/ru.md) и запустите инструмент **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Проверка геометрии](Part_CheckGeometry/ru.md)**.
 
 ## Уроки
 
@@ -336,7 +336,7 @@ Sketcher не предназначен для создания 2D чертеже
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/ru

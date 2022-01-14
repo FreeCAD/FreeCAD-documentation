@@ -11,7 +11,7 @@
 
 ## Opis
 
-Narzędzie **Hatch** wypełnia zamknięty obszar w widoku wzorcem kreskowania, którym mogą być pliki _ wykorzystuje konkretny plik wzoru PAT, szczegółowe informacje znajdują się na stronie [kreskowanie](TechDraw_Hatching/pl.md).
+Narzędzie **Hatch** wypełnia zamknięty obszar w widoku wzorcem kreskowania, którym mogą być pliki [SVG](SVG.md) lub [bitmap](bitmap.md). W odróżnieniu od tego, narzędzie <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [kreskowanie geometryczne](TechDraw_GeometricHatch/pl.md) wykorzystuje konkretny plik wzoru PAT, szczegółowe informacje znajdują się na stronie [kreskowanie](TechDraw_Hatching/pl.md).
 
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
 
@@ -27,7 +27,7 @@ Narzędzie **Hatch** wypełnia zamknięty obszar w widoku wzorcem kreskowania, k
 
 ## Uwagi
 
--   Obiekty kreskowania są podatne na problemy z *_. Zaleca się, aby kreskowanie było jednym z ostatnich kroków w procesie rysowania.
+-   Obiekty kreskowania są podatne na problemy z *[nazewnictwem topologicznym](Topological_naming_problem/pl.md)*. Aby uzyskać więcej informacji, zobacz informacje w narzędziu [Rysunek techniczny: Wymiar długości](TechDraw_LengthDimension/pl.md). Zaleca się, aby kreskowanie było jednym z ostatnich kroków w procesie rysowania.
 -   Przykładowe wzory [SVG](SVG/pl.md) są dostępne lokalnie w:
 
 

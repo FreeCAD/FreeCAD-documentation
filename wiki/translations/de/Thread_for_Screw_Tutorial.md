@@ -3,7 +3,7 @@
 |Topic= Produktgestaltung
 |Level= Fortgeschrittene
 |Time= 60 Minuten
-|Author=_, _, vocx
+|Author=[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md), vocx
 |FCVersion=0.19
 |Files=[https://forum.freecadweb.org/viewtopic.php?f=36&t=44668 Aktualisiert: Gewinde für Schrauben Tutorium]
 }}
@@ -58,10 +58,10 @@ Wir können ein Scheingewinde erzeugen, indem wir eine nicht spiralförmige Bahn
 
 ### Umlaufendes Sägezahnprofil 
 
-1.  Klicke auf **<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**.
-2.  Klicke auf **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Neue Skizze](PartDesign_NewSketch/de.md)**. Wähle {{Value|XZ_Ebene}}.
+1.  Klicke auf **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**.
+2.  Klicke auf **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Neue Skizze](PartDesign_NewSketch/de.md)**. Wähle {{Value|XZ_Ebene}}.
 3.  Zeichne eine geschlossene Skizze mit dem erforderlichen Innendurchmesser {{Value|10 mm}}, Außendurchmesser um {{Value|12.6 mm}}, Steigung {{Value|3 mm}}, Zähnezahl {{Value|8}}, und Gesamthöhe {{Value|30 mm}}.
-4.  Wähle die Skizze aus und klicke dann auf **<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Umdrehung](PartDesign_Revolution/de.md)**. Wähle {{Value|Vertikale Skizzenachse}}, und drücke **OK**.
+4.  Wähle die Skizze aus und klicke dann auf **[<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Umdrehung](PartDesign_Revolution/de.md)**. Wähle {{Value|Vertikale Skizzenachse}}, und drücke **OK**.
 
 <img alt="" src=images/T13_02_Threads_Sawtooth_sketch_profile.png  style="width:" height="300px;"> 
 *Profil, das zur Erstellung der Umdrehung verwendet wird, die ein Gewinde simuliert.*
@@ -73,17 +73,17 @@ Wir können ein Scheingewinde erzeugen, indem wir eine nicht spiralförmige Bahn
 
 1.  Wiederhole die ersten beiden Schritte aus dem vorherigen Abschnitt.
 2.  Zeichne eine geschlossene Skizze mit dem erforderlichen Innendurchmesser {{Value|10 mm}}, dem Außendurchmesser um {{Value|12.6 mm}} und der Steigung {{Value|3 mm}}, aber zeichne nur einen einzelnen Zahn des Sägezahns.
-3.  Wähle die Skizze aus und klicke dann auf **<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Umdrehung](PartDesign_Revolution/de.md)**. Wähle {{Value|Vertikale Skizzenachse}}, und drücke **OK**.
+3.  Wähle die Skizze aus und klicke dann auf **[<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Umdrehung](PartDesign_Revolution/de.md)**. Wähle {{Value|Vertikale Skizzenachse}}, und drücke **OK**.
 
 
 
 
-1.  Wähle die {{Value|Umdrehung}}, klicke dann auf **<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign Lineares Muster](PartDesign_LinearPattern/de.md)**. Wähle {{Value|Vertikale Skizzenachse}}. Für ein Scheingewinde mit einer Steigung von {{Value|3 mm}}, setze die **Länge** auf {{Value|3}}, und **Häufigkeiten** auf {{Value|2}}, dann drücke **OK**. Dadurch werden zwei Scheiben erstellt, eine über der anderen.
+1.  Wähle die {{Value|Umdrehung}}, klicke dann auf **[<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign Lineares Muster](PartDesign_LinearPattern/de.md)**. Wähle {{Value|Vertikale Skizzenachse}}. Für ein Scheingewinde mit einer Steigung von {{Value|3 mm}}, setze die **Länge** auf {{Value|3}}, und **Häufigkeiten** auf {{Value|2}}, dann drücke **OK**. Dadurch werden zwei Scheiben erstellt, eine über der anderen.
 2.  Du kannst weitere Scheiben hinzufügen, indem du den Wert der **Häufigkeiten** im linearen Muster, und durch Erhöhen der **Länge**, die die Gesamtlänge des Scheingewindes darstellt.
 
 Die {{MenuCommand/de|Länge}} und {{MenuCommand/de|Häufigkeiten}} sind miteinander verwandt. Wenn die Länge zu groß ist, aber die Anzahl der Häufigkeiten nicht hoch genug ist, hast du getrennte Scheiben, und die Berechnung des Körpers wird fehlschlagen, da das resultierende Objekt immer ein [einzelne aneinandergrenzende Festkörper](PartDesign_Body/de.md) sein muss. Um beispielsweise eine Gesamthöhe von {{Value|30 mm}} zu erhalten, setze {{MenuCommand/de|Länge}} auf {{Value|27 mm}} und **/de|Häufigkeiten** auf {{Value|10}}.
 
-Wenn du möchtest, kannst du einen **<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [/de|PartDesign AdditiverZylinder](PartDesign_AdditiveCylinder.md)** mit einem Durchmesser, der dem Innendurchmesser der Scheiben entspricht und so hoch ist wie die gesamte Gewindehöhe. Dadurch werden alle Scheiben zu einem einzigen Festkörper verbunden, wodurch gewährleistet wird, dass es keine getrennten Scheiben gibt.
+Wenn du möchtest, kannst du einen **[<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [/de|PartDesign AdditiverZylinder](PartDesign_AdditiveCylinder.md)** mit einem Durchmesser, der dem Innendurchmesser der Scheiben entspricht und so hoch ist wie die gesamte Gewindehöhe. Dadurch werden alle Scheiben zu einem einzigen Festkörper verbunden, wodurch gewährleistet wird, dass es keine getrennten Scheiben gibt.
 
 <img alt="" src=images/T13_05_Threads_Stacked_discs_sketch.png  style="width:" height="300px;"> 
 *Profil, das zur Erstellung der Umdrehung verwendet wird, die ein Gewinde simuliert.*
@@ -97,14 +97,14 @@ Wenn du möchtest, kannst du einen **<img src=images/PartDesign_AdditiveCylinder
 
 Ein echtes Gewinde besteht aus einem geschlossenen Profil, das einen Festkörper entlang einer spiralförmigen Bahn austrägt.
 
-1.  Im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Primitives.svg style="width:Part Arbeitsbereich](Part_Workbench.md), klicke auf **[16px"> <img src=images/Part_Helix.svg style="width:Part Grundkörper](Part_Primitives/de.md)** zum Erstellen einer **[16px"> [Part Spirale](Part_Helix/de.md)**. Gib ihm die entsprechenden Werte für {{MenuCommand/de|Steigung}} {{Value|3 mm}}, **Höhe** {{Value|23 mm}}, und **Radius** {{Value|10 mm}}.
-2.  Gehe zum <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> <img src=images/PartDesign_Body.svg style="width:PartDesign Arbeitsbereich](PartDesign_Workbench/de.md), und klicke auf **[16px"> [PartDesign Körper](PartDesign_Body/de.md)**.
-3.  Klicke auf **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Neue Skizze](PartDesign_NewSketch/de.md)**. Wähle {{Value|XZ_Ebene}}.
+1.  Im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench.md), klicke auf **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Grundkörper](Part_Primitives/de.md)** zum Erstellen einer **[<img src=images/Part_Helix.svg style="width:16px"> [Part Spirale](Part_Helix/de.md)**. Gib ihm die entsprechenden Werte für {{MenuCommand/de|Steigung}} {{Value|3 mm}}, **Höhe** {{Value|23 mm}}, und **Radius** {{Value|10 mm}}.
+2.  Gehe zum <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md), und klicke auf **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**.
+3.  Klicke auf **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Neue Skizze](PartDesign_NewSketch/de.md)**. Wähle {{Value|XZ_Ebene}}.
 4.  Zeichne eine geschlossene Skizze mit dem erforderlichen Profil für die Gewindezähne, normalerweise eine dreieckige Form. In diesem Fall werden wir eine Höhe von {{Value|2,9 mm}} verwenden, die etwas kleiner ist als die für den Spiralpfad verwendete Steigung {{Value|3,0 mm}}. Das Profil darf keine Selbstüberschneidungen erzeugen, wenn es entlang der Spirale bewegt wird, weder zwischen den Windungen noch in der Mitte, daher kann die Skizze, wie sie für Stapelscheiben gezeigt wird, nicht verwendet werden.
-5.  Wähle die Skizze aus und klicke dann auf **<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Additives Rohr](PartDesign_AdditivePipe.md)**. Im {{MenuCommand/de|Pad für die Austragung}} klicke auf {{MenuCommand/de|Objekt}}, und wähle das zuvor erstellte Spiralobjekt aus. Ändere dann {{MenuCommand/de|Richtungsmodus}} in {{Value|Frenet}}, so dass das Profil den Pfad ohne Verdrehung überstreicht; drücke dann **OK**.
+5.  Wähle die Skizze aus und klicke dann auf **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Additives Rohr](PartDesign_AdditivePipe.md)**. Im {{MenuCommand/de|Pad für die Austragung}} klicke auf {{MenuCommand/de|Objekt}}, und wähle das zuvor erstellte Spiralobjekt aus. Ändere dann {{MenuCommand/de|Richtungsmodus}} in {{Value|Frenet}}, so dass das Profil den Pfad ohne Verdrehung überstreicht; drücke dann **OK**.
 6.  Wenn der Dialog nach einem Verweis fragt, wähle {{Value|Querverweis erstellen}}.
 7.  Der schraubenförmige Wendel wird erstellt, aber es gibt keinen zentralen Körper oder Welle.
-8.  Klicke auf **<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Additiver Zylinder](PartDesign_AdditiveCylinder.md)** mit dem entsprechenden {{MenuCommand/de|Radius}} {{Value|10 mm}} und {{MenuCommand/de|Höhe}} {{Value|29.9 mm}}, um den Rest des spiralförmigen Gewindes zu berühren und automatisch mit ihm zu verschmelzen.
+8.  Klicke auf **[<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Additiver Zylinder](PartDesign_AdditiveCylinder.md)** mit dem entsprechenden {{MenuCommand/de|Radius}} {{Value|10 mm}} und {{MenuCommand/de|Höhe}} {{Value|29.9 mm}}, um den Rest des spiralförmigen Gewindes zu berühren und automatisch mit ihm zu verschmelzen.
 9.  Zusätzliche boolesche Operationen sind erforderlich, um die abrupten Enden der Wendels zu formen. Sie können z.B. additive Merkmale verwenden, um der Schraube einen Kopf und eine Spitze zu geben.
 
 <img alt="" src=images/T13_08_Threads_Helical_thread_profile.png  style="width:" height="300px;"> <img alt="" src=images/T13_09_Threads_Helical_thread_path.png  style="width:" height="300px;"> 
@@ -120,29 +120,29 @@ Ein echtes Gewinde besteht aus einem geschlossenen Profil, das einen Festkörper
 
 Dieser Arbeitsgang kann auch mit den Werkzeugen dem [Part Arbeitsbereich](Part_Workbench/de.md) durchgeführt werden.
 
-1.  Im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Primitives.svg style="width:Part Arbeitsbereich](Part_Workbench.md), klicke auf **[16px"> <img src=images/Part_Helix.svg style="width:Part Grundkörper](Part_Primitives/de.md)** zum Erstellen einer **[16px"> [Part Spirale](Part_Helix/de.md)**. Gib ihm die entsprechenden Werte für {{MenuCommand/de|Steigung}}. {{Value|3 mm}}, **Höhe** {{Value|23 mm}}, und **Radius** {{Value|10 mm}}.
-2.  In diesem Fall benötigst du keinen **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Sketcher_NewSketch.svg style="width:PartDesign Körper](PartDesign_Body/de.md)**. Wechsle zum <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md), und klicke dann **[16px"> [Skizzierer Neue Skizze](Sketcher_NewSketch/de.md)**, und wähle die globale XZ Ebene.
-3.  Kehre dann zurück zum <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Sweep.svg style="width:Part Arbeitsbereich](Part_Workbench/de.md), und verwende **[16px"> [PartAustragung](Part_Sweep/de.md)**.
+1.  Im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench.md), klicke auf **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Grundkörper](Part_Primitives/de.md)** zum Erstellen einer **[<img src=images/Part_Helix.svg style="width:16px"> [Part Spirale](Part_Helix/de.md)**. Gib ihm die entsprechenden Werte für {{MenuCommand/de|Steigung}}. {{Value|3 mm}}, **Höhe** {{Value|23 mm}}, und **Radius** {{Value|10 mm}}.
+2.  In diesem Fall benötigst du keinen **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**. Wechsle zum <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md), und klicke dann **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Skizzierer Neue Skizze](Sketcher_NewSketch/de.md)**, und wähle die globale XZ Ebene.
+3.  Kehre dann zurück zum <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md), und verwende **[<img src=images/Part_Sweep.svg style="width:16px"> [PartAustragung](Part_Sweep/de.md)**.
 4.  Wähle die entsprechende Skizze aus {{MenuCommand/de|Verfügbares Profil}} und klicke auf den Pfeil, um sie an {{MenuCommand/de|Gewählte Profile}} zu übergeben.
 5.  Klicke auf **Austragungspfad**, und wähle alle Kanten der vorhandenen Spirale in der [3D Ansicht](3D_view/de.md). Klicke auf **Fertig**.
 6.  Stelle sicher, dass die {{CheckBox|TRUE|Festkörper erzeugen}} und {{CheckBox|TRUE|Frenet}} angehakt sind. Das Erhalten eines Volumenkörpers ist der Schlüssel, um [Part Boolsche](Part_Boolean/de.md) Operationen mit dem resultierenden Wendel durchführen zu können, andernfalls wird nur eine Fläche erzeugt.
 7.  Klicke auf **OK**, um das Dialogfeld zu verlassen und den Wendel zu erzeugen.
 
-Nun kannst du fortfahren, andere Grundelemente wie **<img src=images/Part_Cylinder.svg style="width:16px"> <img src=images/Part_Fuse.svg style="width:Part Zylinder](Part_Cylinder/de.md)**, oder andere Formen, um **[16px"> <img src=images/Part_Cut.svg style="width:Part Verschmelzen](Part_Fuse/de.md)** auszuführen, und **[16px"> [Part Schnitte](Part_Cut/de.md)** hinzuzufügen, um den Bau der Schraube abzuschließen.
+Nun kannst du fortfahren, andere Grundelemente wie **[<img src=images/Part_Cylinder.svg style="width:16px"> [Part Zylinder](Part_Cylinder/de.md)**, oder andere Formen, um **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Verschmelzen](Part_Fuse/de.md)** auszuführen, und **[<img src=images/Part_Cut.svg style="width:16px"> [Part Schnitte](Part_Cut/de.md)** hinzuzufügen, um den Bau der Schraube abzuschließen.
 
 <img alt="" src=images/T13_14_Threads_components.png  style="width:" height="300px;"> 
 *Erstellen eines Gewindewendels durch Austragen eines vertikalen Profils, (1) das [Skizzenprofil](Sketch/de.md), (2) der [spiralförmige](Part_Helix/de.md) Austragungspfad und (3) das Ergebnis der [Austragung](Part_Sweep/de.md).*
 
 ### Tips für den Erfolg 
 
--    **Regel 1.**Wenn das Profil die Spirale austrägt, darf sich die resultierende feste Wendel nicht berühren oder sich selbst schneiden, da es sich dann um einen ungültigen Festkörper handelt. Dies gilt sowohl für das Profil, das sich entlang des Spirale bewegt, als auch für Schnittpunkte in der Mitte der Spirale. Versuche, damit boolsche Operationen durchzuführen (Verschmelzen oder Schneiden), werden sehr wahrscheinlich fehlschlagen. Prüfe die Qualität des Wendels mit **<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part PrüfeGeometrie](Part_CheckGeometry.md)**; wenn Selbstüberschneidungen gemeldet werden, musst du die Steigung der Spirale erhöhen.
+-    **Regel 1.**Wenn das Profil die Spirale austrägt, darf sich die resultierende feste Wendel nicht berühren oder sich selbst schneiden, da es sich dann um einen ungültigen Festkörper handelt. Dies gilt sowohl für das Profil, das sich entlang des Spirale bewegt, als auch für Schnittpunkte in der Mitte der Spirale. Versuche, damit boolsche Operationen durchzuführen (Verschmelzen oder Schneiden), werden sehr wahrscheinlich fehlschlagen. Prüfe die Qualität des Wendels mit **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part PrüfeGeometrie](Part_CheckGeometry.md)**; wenn Selbstüberschneidungen gemeldet werden, musst du die Steigung der Spirale erhöhen.
 
 <img alt="" src=images/T13_15_Threads_self_intersection.png  style="width:" height="300px;"> <img alt="" src=images/T13_16_Threads_no_self_intersections_OK.png  style="width:" height="300px;"> 
 *Links: ungültige Austragung, der durch die Verwendung einer sehr kleinen Steigung der Spirale im Vergleich zur Höhe des Dreiecksprofils erzeugt wurde. Rechts: Steigung, die ausreichend groß ist und keine Selbstüberschneidungen verursacht.*
 
 -    **Regel 2.**Wenn ein Zylinder zu einem Wendel hinzugefügt wird, um den Hauptschaft einer Schraube zu bilden, darf der Zylinder das Wendelprofil nicht tangieren. Das heißt, der Zylinder darf nicht den gleichen Radius wie der Innenradius des Gewindes haben, da dies sehr wahrscheinlich zum Versagen eines Verschmelzungsvorgangs führt.
 
-Im Allgemeinen vermeide Geometrie deckungsgleich mit Elementen der Austragung, wie z.B. tangentiale Flächen oder Kanten, die Flächen berühren, mit denen sie nicht verbunden sind. Um eine guten boolesche Vereinigung herzustellen, muss sich der ausgetragene Wendel und der Zylinder kreuzen. Prüfe die Qualität der Verschmelzung mit **<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part PrüfeGeometrie](Part_CheckGeometry.md)**; Wenn koplanare Flächen gemeldet werden, erhöhe den Radius des Zylinders um einen kleinen Betrag.
+Im Allgemeinen vermeide Geometrie deckungsgleich mit Elementen der Austragung, wie z.B. tangentiale Flächen oder Kanten, die Flächen berühren, mit denen sie nicht verbunden sind. Um eine guten boolesche Vereinigung herzustellen, muss sich der ausgetragene Wendel und der Zylinder kreuzen. Prüfe die Qualität der Verschmelzung mit **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part PrüfeGeometrie](Part_CheckGeometry.md)**; Wenn koplanare Flächen gemeldet werden, erhöhe den Radius des Zylinders um einen kleinen Betrag.
 
 -   Wenn der Wendel und der Zylinder tangential verlaufen, kann es bei nachfolgenden boolschen Operationen mit einem dritten Festkörper fehlschlagen, selbst wenn die erste Verschmelzung erfolgreich ist.
 -   Dies ist eine Begrenzung des OpenCASCADE Technology (OCCT)-Kerns; im Allgemeinen kommt er mit Operationen zwischen koplanaren Flächen nicht gut zurecht.
@@ -152,9 +152,9 @@ Im Allgemeinen vermeide Geometrie deckungsgleich mit Elementen der Austragung, w
 
 -    **Regel 3.**Der innere Zylinder hat eine Nahtlinie. Du solltest vermeiden, den Anfang der Wendel entlang dieser Naht zu platzieren. Drehe entweder die Spirale oder den Zylinder um einige Grad.
 
--    **Tip 1.**Der Radius des Spiralpfades spielt keine Rolle, es sei denn, die Spirale ist verjüngt. Alles, was zählt, ist die Steigung und die Höhe der Spirale. Das bedeutet, dass du eine einzige **<img src=images/Part_Helix.svg style="width:16px"> [Part Spirale](Part_Helix/de.md)**, verwenden kannst um mehrere Gewinde mit gleicher Steigung zu erzeugen. Was die Position der resultierenden Wendel bestimmt, ist die Position des Profils [Skizze](Sketch/de.md).
+-    **Tip 1.**Der Radius des Spiralpfades spielt keine Rolle, es sei denn, die Spirale ist verjüngt. Alles, was zählt, ist die Steigung und die Höhe der Spirale. Das bedeutet, dass du eine einzige **[<img src=images/Part_Helix.svg style="width:16px"> [Part Spirale](Part_Helix/de.md)**, verwenden kannst um mehrere Gewinde mit gleicher Steigung zu erzeugen. Was die Position der resultierenden Wendel bestimmt, ist die Position des Profils [Skizze](Sketch/de.md).
 
--    **Tip 2.**Halte das Gewinde kurz, d.h. mit einer geringen Anzahl von Windungen. Lange Gewinde neigen dazu, bei boolschen Operationen zu versagen. Wenn du viele Windungen hinzufügen musst, ziehe in Betracht, zuerst ein kurzes Gewinde zu erstellen und dann **<img src=images/Draft_OrthoArray.svg style="width:16px"> [Entwurf AnordnungRechtwinklig](Draft_OrthoArray/de.md)**, um das gleiche Muster mehrmals zu duplizieren.
+-    **Tip 2.**Halte das Gewinde kurz, d.h. mit einer geringen Anzahl von Windungen. Lange Gewinde neigen dazu, bei boolschen Operationen zu versagen. Wenn du viele Windungen hinzufügen musst, ziehe in Betracht, zuerst ein kurzes Gewinde zu erstellen und dann **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Entwurf AnordnungRechtwinklig](Draft_OrthoArray/de.md)**, um das gleiche Muster mehrmals zu duplizieren.
 
 -    **Tip 3.**Für die 3D Visualisierung und den 3D Druck kann es in Ordnung sein, den Zylinder und das Gewinde unverschmolzen zu lassen, d.h. mit Schnittpunkten zwischen den beiden Volumenkörpern. Die Reduzierung der Anzahl der booleschen Operationen führt zu weniger Speicherverbrauch und kleineren Dateien.
 

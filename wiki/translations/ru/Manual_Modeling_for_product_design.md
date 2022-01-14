@@ -134,7 +134,7 @@ If you have trouble to select features hiding part of the model can help. To hid
 
 **Сборка**
 
-Но существует и лучшее из двух миров, это _ и <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [Повернуть](Draft_Rotate/ru.md) для расположения деталей было бы быстрее, чем пользоваться ограничениями Assembly2.
+Но существует и лучшее из двух миров, это [верстак Assembly2](https://github.com/hamish2014/FreeCAD_assembly2), расширение, которое может быть установлено из репозитория [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons). Этот верстак назван \"2\", поскольку существует так же официальный встроенный верстак Assembly на стадии проектирования, ещё не готовый. Тем не менее верстак Assembly2 работает достаточно хорошо для создания сборок, и предлагает множество межобъектных ограничений, которые Вы можете использовать для фиксации объектов между собой. В примере ниже, тем не менее, использование инструментов верстака Draft <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Перемещение](Draft_Move/ru.md) и <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [Повернуть](Draft_Rotate/ru.md) для расположения деталей было бы быстрее, чем пользоваться ограничениями Assembly2.
 
 -   Сохранить созданный нами файл
 -   Установить [верстак Assembly2](https://github.com/hamish2014/FreeCAD_assembly2) и перезагрузить FreeCAD
@@ -166,7 +166,7 @@ If you have trouble to select features hiding part of the model can help. To hid
 
 </div>
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/ru

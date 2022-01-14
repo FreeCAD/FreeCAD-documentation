@@ -40,7 +40,7 @@ FreeCAD.ActiveDocument.recompute()
 
 Note how we handled myObj.Shape , notice that it is done exactly like we did it in the previous chapter, when we changed other properties of an object, such as box.Height = 5 . In fact, **Shape** is also a property, just like **Height**. Only it takes a Part Shape, not a number. In the next chapter we will have a better look at how these parametric objects are constructed.
 
-For now, let\'s explore our Part Shapes in more detail. At the end of the chapter about _ we showed a table that explains how Part Shapes are constructed, and their different components (Vertices, edges, faces, etc). The exact same components exist here and can be retrieved from Python. Part Shapes always have the following attributes: Vertexes, Edges, Wires, Faces, Shells and Solids. All of them are lists, that can contain any number of elements or be empty:
+For now, let\'s explore our Part Shapes in more detail. At the end of the chapter about [traditional modeling with the Part Workbench](Manual:Traditional_modeling,_the_CSG_way.md) we showed a table that explains how Part Shapes are constructed, and their different components (Vertices, edges, faces, etc). The exact same components exist here and can be retrieved from Python. Part Shapes always have the following attributes: Vertexes, Edges, Wires, Faces, Shells and Solids. All of them are lists, that can contain any number of elements or be empty:
 
 
 ```python
@@ -227,7 +227,7 @@ All of the above, and much more, is explained in detail on the [Part Scripting](
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Manual:Creating and manipulating geometry/en

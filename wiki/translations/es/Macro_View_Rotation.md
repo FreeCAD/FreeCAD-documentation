@@ -26,7 +26,7 @@ La GUI se muestra en la parte superior derecha de la pantalla, este comportamien
 
 <div class="mw-translate-fuzzy">
 
-La última versión de la macro se encuentra en _.
+La última versión de la macro se encuentra en [ViewRotation.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/ViewRotation.FCMacro) Pero la forma más fácil de instalar esta macro es a través de la [Addon Manager](Std_AddonMgr/es.md).
 
 
 </div>

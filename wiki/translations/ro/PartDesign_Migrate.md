@@ -27,7 +27,7 @@ Atelierul PartDesign în FreeCAD v0.17 introduce noi instrumente și elemente ca
 1.  Deschide un document FreeCAD (≤ 0.16).
 2.  Comutați pe atelierul PartDesign.
 3.  Mergeți la meniu **Part Design** → **Migrate** .
-4.  Dacă funcționează migrarea, a <img alt="" src=images/Std_Part.png  style="width:24px;"> _, fiecare gazduind un lanț de caracteristici.
+4.  Dacă funcționează migrarea, a <img alt="" src=images/Std_Part.png  style="width:24px;"> [Part container](Std_Part.md) va fi creat care va deține unul sau mai multe <img alt="" src=images/PartDesign_Body.png  style="width:24px;"> [Bodies](PartDesign_Body.md), fiecare gazduind un lanț de caracteristici.
 
 
 </div>

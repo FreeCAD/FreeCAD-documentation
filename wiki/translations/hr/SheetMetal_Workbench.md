@@ -105,7 +105,7 @@ Several tools from other workbenches can be used to add holes or to reshape edge
 
 ### Unfold a sheet metal object 
 
-To unfold a sheet metal object activate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> _ tool.
+To unfold a sheet metal object activate the <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold.md) or the <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold.md) tool.
 
 The result will be a 3D object with an optional outline sketch including bend lines.
 
@@ -248,7 +248,7 @@ How to do ?
 -   Official blog: [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Source code on github: <https://github.com/shaise/FreeCAD_SheetMetal>
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal Workbench/hr

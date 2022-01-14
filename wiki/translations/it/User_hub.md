@@ -14,7 +14,7 @@ Queste pagine sono in continuo sviluppo, quindi potrebbero esserci informazioni 
 
 </div>
 
-Se vuoi contribuire a FreeCAD, per favore _ per le linee guida generali che dovresti seguire.
+Se vuoi contribuire a FreeCAD, per favore [dona](donate/it.md), e vedi la pagina [Aiuto FreeCAD](Help_FreeCAD/it.md) per contribuire in altro modo. Se vuoi modificare questo wiki, richiedi un account wiki con i permessi dell\'editor [nel forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), e leggi le [WikiPages](WikiPages.md) per le linee guida generali che dovresti seguire.
 
 Se volete sapere come anni fa è iniziato lo sviluppo di FreeCAD visitate la pagina [History](History/it.md).
 
@@ -36,7 +36,7 @@ Vedi anche:
 
 ### Concetti base dell\'applicazione 
 
--   _, l\'[albero della struttura](Tree_view/it.md), l\'[editor delle proprietà](Property_editor/it.md), il [pannello delle azioni](Task_panel/it.md), e la [console Python](Python_console/it.md).
+-   [Interfaccia](Interface/it.md): l\'interfaccia di FreeCAD è composta da vari elementi grafici sullo schermo, inclusi la [vista 3D](3D_view/it.md), l\'[albero della struttura](Tree_view/it.md), l\'[editor delle proprietà](Property_editor/it.md), il [pannello delle azioni](Task_panel/it.md), e la [console Python](Python_console/it.md).
 -   [Navigazione con il mouse](Mouse_navigation/it.md): i diversi tipi di utilizzo del mouse o del trackpad per navigare nella vista 3D.
 -   [Metodi di selezione](Selection_methods/it.md): i diversi metodi di selezione degli oggetti nel software.
 -   [Nome dell\'oggetto](Object_name/it.md): tutti gli oggetti hanno un nome `Name` di sola lettura che li identifica in modo univoco e una etichetta `Label` che è modificabile dall\'utente.
@@ -126,7 +126,7 @@ Questa è la guida ufficiale di FreeCAD online. Si prega di notare che l\'intero
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
 [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/it

@@ -13,7 +13,7 @@
 
 The [Reinforcement Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md) tool allows the user to create drawing and dimensioning of reinforcing bars.
 
-This command is part of the _ via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
  <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning_example.svg  style="width:800px;"> 
 
@@ -1142,7 +1142,7 @@ for visible_rebar in visible_rebars:
 
  
 
-_ _
+[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md) [<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Arch](Arch_Workbench.md) > Arch Rebar Drawing Dimensioning

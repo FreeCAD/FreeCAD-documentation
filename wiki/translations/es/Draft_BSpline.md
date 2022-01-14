@@ -109,7 +109,7 @@ Un objeto Borrador BSpline deriva de un [Pieza2DObjeto](Part_Part2DObject/es.md)
 
 ## Guión
 
-Ver también: _.
+Ver también: [Documentación de la API autogenerada](https://freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
 
 Para crear una Borrador BSpline utilice el método `make_bspline` ({{Version/es|0.19}}) del módulo Borrador. Este método sustituye al método obsoleto `makeBSpline`.
 

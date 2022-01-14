@@ -23,7 +23,7 @@
 ## Utilizzo
 
 1.  Nell\'albero del modello, selezionare l\'oggetto da clonare.
-2.  Premere i pulsante **<img src=images/PartDesign_Clone.svg style="width:24px"> '''Crea un clone'''**.
+2.  Premere i pulsante **[<img src=images/PartDesign_Clone.svg style="width:24px"> '''Crea un clone'''**.
 
 ## Proprietà
 

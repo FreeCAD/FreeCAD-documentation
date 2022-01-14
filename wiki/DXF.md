@@ -39,7 +39,7 @@ In addition to the options under the Edit → Preferences, the [TechDraw Workben
 
  
 
-_ _ _ _
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Draft](Category_Draft.md) [<img src="images/Property.png" style="width:16px"> TechDraw](Category_TechDraw.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > DXF

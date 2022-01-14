@@ -158,7 +158,7 @@ There are several workflows that are possible with the [PartDesign Workbench](Pa
 
 ### Different sketches 
 
-Sketches need to be supported by a plane. This plane can be one of the main planes (XY, XZ, or YZ) defined by the Origin of the Body. A sketch is either extruded into a positive solid (additive), with a tool like <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> _. The first adds volume to the final shape of the body, while the latter cuts volume from the final shape. Any number of sketches and partial solids can be created in this way; the final shape (tip) is the result of fusing these operations together. Naturally, the Body can\'t consist of only subtractive operations, as the final shape should be a solid with a positive, non-zero volume.
+Sketches need to be supported by a plane. This plane can be one of the main planes (XY, XZ, or YZ) defined by the Origin of the Body. A sketch is either extruded into a positive solid (additive), with a tool like <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Pad](PartDesign_Pad.md), or into a negative solid (subtractive), with a tool like <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [PartDesign Pocket](PartDesign_Pocket.md). The first adds volume to the final shape of the body, while the latter cuts volume from the final shape. Any number of sketches and partial solids can be created in this way; the final shape (tip) is the result of fusing these operations together. Naturally, the Body can\'t consist of only subtractive operations, as the final shape should be a solid with a positive, non-zero volume.
 
 <img alt="" src=images/PartDesign_workflow_1.svg  style="width:600px;">
 
@@ -184,7 +184,7 @@ Using datum objects is often the best way to produce stable models, when used wi
 
 ## Tutorials
 
-The _.
+The [tutorials](Tutorials.md) page provides some examples of using the [feature editing](Feature_editing.md) method of the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md).
 
 -   [Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md)
 -   [Basic Part Design Tutorial](Basic_Part_Design_Tutorial.md)
@@ -201,7 +201,7 @@ The _.
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Feature editing/ru

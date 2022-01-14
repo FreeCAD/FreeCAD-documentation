@@ -8,7 +8,7 @@
 |Version=1.25d
 |Date=2021/12/13
 |FCVersion=All
-|SeeAlso=<img src=images/Arch_Survey.svg style="width:Arch Survey|24px"> [Arch Survey](Arch_Survey.md)<br />[Macro SimpleProperties](Macro_SimpleProperties.md)
+|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Survey](Arch_Survey.md)<br />[Macro SimpleProperties](Macro_SimpleProperties.md)
 }}
 
 ## Description

@@ -4,7 +4,7 @@
 |Level=Programmeur moyen
 |Time=15 minutes
 |FCVersion=Toutes versions
-|Author=_
+|Author=[Mario52](User_Mario52.md)
 }}
 
 ## Description
@@ -134,7 +134,7 @@ Dans les versions précédentes de FreeCAD, vous pouviez utiliser deux méthodes
 -   [addons\_installer.FCMacro](https://github.com/FreeCAD/FreeCAD-addons): elle-même une macro, elle était le précurseur du gestionnaire d\'addon et est hébergée dans le répertoire [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons). Vous n\'avez pas besoin d\'utiliser cet outil dans les nouvelles installations de FreeCAD.
 -   [freecad-pluginloader](https://github.com/microelly2/freecad-pluginloader): également une macro, elle pourrait être utilisée pour installer de nouveaux composants dans FreeCAD. Ce n\'est plus développé.
 
-La méthode recommandée pour installer des addons, c\'est-à-dire des _. Toutefois, vous pouvez toujours ajouter des macros à votre système avec les méthodes manuelles décrites dans les sections suivantes. Ceci est utile si vous développez et testez votre propre code.
+La méthode recommandée pour installer des addons, c\'est-à-dire des [Ateliers externes](External_workbenches/fr.md) et les macros, est le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md). Toutefois, vous pouvez toujours ajouter des macros à votre système avec les méthodes manuelles décrites dans les sections suivantes. Ceci est utile si vous développez et testez votre propre code.
 
 
 </div>
@@ -514,7 +514,7 @@ et validez en cliquant sur le bouton **OK**.
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > How to install macros/fr

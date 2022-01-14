@@ -69,7 +69,7 @@ The Ship Workbench was unmaintained since v0.17 but has been resurrected in v0.1
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
 [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Ship Workbench/ro

@@ -33,7 +33,7 @@ Polecenie <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> **Uleps
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę: _.
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Do ulepszania obiektów obiektów służy metoda `upgrade` środowiska Rysunek Roboczy.
 

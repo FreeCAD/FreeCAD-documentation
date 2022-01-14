@@ -64,7 +64,7 @@ Tutte le impostazioni delle preferenze con etichette in *corsivo* sono valori pr
 -   **Directory del modello**: la directory di partenza per il pulsante **<img src="images/TechDraw_PageTemplate.svg" width=16px> [Nuovo disegno da modello](TechDraw_PageTemplate.md)**.
 -   **File del modello di tratteggio**: file di default [SVG](SVG/it.md) o [bitmap](bitmap/it.md) per il [tratteggio da modello](TechDraw_Hatch/it.md).
 -   **File del gruppo di linee**: file alternativo per le definizioni personali del [gruppo di linee](TechDraw_LineGroup/it.md).
--   **Directory di saldatura**: la directory di default per il pulsante **<img src=images/TechDraw_WeldSymbol.svg style="width:16px"> [Informazioni di saldatura](TechDraw_WeldSymbol/it.md)**. {{Version/it|0.19}}.
+-   **Directory di saldatura**: la directory di default per il pulsante **[<img src=images/TechDraw_WeldSymbol.svg style="width:16px"> [Informazioni di saldatura](TechDraw_WeldSymbol/it.md)**. {{Version/it|0.19}}.
 -   **File PAT**: file di default per il modello PAT predefinito per il [tratteggio geometrico](TechDraw_GeometricHatch/it.md).
 -   **Nome del modello**: il nome del motivo PAT predefinito.
 
@@ -253,7 +253,7 @@ Alcune impostazioni delle preferenze sono accessibili solo tramite [Editor dei p
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/it

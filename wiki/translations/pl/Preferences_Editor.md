@@ -639,7 +639,7 @@ Ustawienia Import-Export wpływają na sposób importowania i eksportowania plik
 
 **Ta sekcja jest niekompletna i wymaga podania stron z opisem preferencji, każdego podstawowego Środowiska pracy.**
 
-Preferencje dla bardziej popularnych stołów warsztatowych są linkowane poniżej. Niektóre stoły warsztatowe nie mają preferencji. Inne opcjonalne Środowiska pracy mogą nie być tutaj wymienione. Te linki są również wymienione w _
+Preferencje dla bardziej popularnych stołów warsztatowych są linkowane poniżej. Niektóre stoły warsztatowe nie mają preferencji. Inne opcjonalne Środowiska pracy mogą nie być tutaj wymienione. Te linki są również wymienione w [:<img src="images/Property.png" style="width:16px"> Preferences](:Category_Preferences.md)
 
 -   [konfiguracja środowiska Architektura](Arch_Preferences/pl.md)
 -   [konfiguracja środowiska Rysunek Roboczy](Draft_Preferences/pl.md)
@@ -697,7 +697,7 @@ Przykład skryptu można znaleźć w [Std DlgParameter](Std_DlgParameter/pl.md).
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/pl

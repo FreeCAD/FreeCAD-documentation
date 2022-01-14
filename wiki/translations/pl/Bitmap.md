@@ -14,7 +14,7 @@ FreeCAD może importować obrazy bitmap za pomocą Środowiska pracy [Image](Ima
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> TechDraw](Category_TechDraw.md) [<img src="images/Property.png" style="width:16px"> Image](Category_Image.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Bitmap/pl

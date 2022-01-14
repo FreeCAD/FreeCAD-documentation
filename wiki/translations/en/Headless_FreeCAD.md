@@ -49,7 +49,7 @@ See: [forum thread](https://forum.freecadweb.org/viewtopic.php?f=10&t=55794&p=48
 -   [Embedding FreeCAD](Embedding_FreeCAD#Using_FreeCAD_without_GUI.md)
 -   [Start up and Configuration](Start_up_and_Configuration#Running_FreeCAD_without_GUI_(headless).md)
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Headless FreeCAD/en

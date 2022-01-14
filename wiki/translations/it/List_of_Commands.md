@@ -1,5 +1,5 @@
 # List of Commands/it
-1.  REDIRECT _
+1.  REDIRECT [Elenco dei comandi di FreeCAD](:<img src="images/Property.png" style="width:16px"> Command_Reference/it.md)
 
 # Guida ai comandi di FreeCAD 
 

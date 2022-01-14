@@ -3,11 +3,11 @@
 
 ![](images/Screenshot_treeview.jpg ) Un documento FreeCAD contiene tutti gli oggetti della scena. Può contenere i gruppi e gli oggetti realizzati con qualsiasi ambiente di lavoro. Si possono quindi alternare gli ambienti pur continuando a lavorare sullo stesso documento. Il documento è ciò che viene salvato sul disco quando si salva il proprio lavoro. Inoltre, in FreeCAD è possibile aprire più documenti contemporaneamente, e aprire diverse viste dello stesso documento.
 
-All\'interno del documento, gli oggetti possono essere raggruppati, e avere un unico nome. La gestione dei gruppi, degli oggetti e dei nomi degli oggetti avviene prevalentemente nella _.
+All\'interno del documento, gli oggetti possono essere raggruppati, e avere un unico nome. La gestione dei gruppi, degli oggetti e dei nomi degli oggetti avviene prevalentemente nella [vista a albero](Tree_view/it.md). **Nota:** Naturalmente, queste operazioni, come tutto in FreeCAD, si possono eseguire anche tramite interprete [Python](Python/it.md).
 
-Nella _, spostare gruppi di oggetti, eliminare oggetti o gruppi, facendo clic destro nella [vista a albero](Tree_view/it.md) o su un oggetto, oppure rinominare gli oggetti facendo doppio clic sui loro nomi, o eventualmente eseguire altre operazioni, attinenti l\'ambiente di lavoro attivo.
+Nella [vista a albero](Tree_view/it.md), è possibile creare dei <img alt="" src=images/Std_Group.svg  style="width:16px;"> [gruppi](Std_Group/it.md), spostare gruppi di oggetti, eliminare oggetti o gruppi, facendo clic destro nella [vista a albero](Tree_view/it.md) o su un oggetto, oppure rinominare gli oggetti facendo doppio clic sui loro nomi, o eventualmente eseguire altre operazioni, attinenti l\'ambiente di lavoro attivo.
 
-Un documento FreeCAD può contenere oggetti di diversi tipi. Ogni ambiente di lavoro crea oggetti di tipo specifico, per esempio <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> _ crea oggetti Parte, <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Draft_Workbench/it.md) crea disegni e anche oggetti Parte, ecc.
+Un documento FreeCAD può contenere oggetti di diversi tipi. Ogni ambiente di lavoro crea oggetti di tipo specifico, per esempio <img alt="" src=images/Workbench_Mesh.svg  style="width:16px;"> [Mesh](Mesh_Workbench/it.md) crea oggetti Mesh , <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Parte](Part_Workbench/it.md) crea oggetti Parte, <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Draft_Workbench/it.md) crea disegni e anche oggetti Parte, ecc.
 
 In FreeCAD può essere attivo un solo documento alla volta. Il documento attivo è quello che viene visualizzato nella vista 3D corrente ed è il documento in lavorazione.
 

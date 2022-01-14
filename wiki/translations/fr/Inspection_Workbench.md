@@ -23,7 +23,7 @@ Vous pouvez également utiliser la macro <img alt="" src=images/HighlightDiffere
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Inspection](Category_Inspection.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Inspection](Category_Inspection.md) > Inspection Workbench/fr

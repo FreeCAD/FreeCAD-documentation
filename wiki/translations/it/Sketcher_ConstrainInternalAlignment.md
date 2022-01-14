@@ -60,7 +60,7 @@ La prima linea selezionata viene allineata per diventare il diametro maggiore de
 
 Analogamente, il primo punto viene vincolato per diventare il primo fuoco non occupato, e il secondo punto viene assegnato all\'altro fuoco.
 
-**Note:** By default new ellipses have an internal construction geometry. When this defines the ellipse already completely, you cannot directly use the InternalAlignment constraint. You first need to delete the construction geometry or parts of it. In case you don\'t see the construction geometry, select the ellipse and use the tool **<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Show/Hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md)** to make it visible.
+**Note:** By default new ellipses have an internal construction geometry. When this defines the ellipse already completely, you cannot directly use the InternalAlignment constraint. You first need to delete the construction geometry or parts of it. In case you don\'t see the construction geometry, select the ellipse and use the tool **[<img src=images/Sketcher_RestoreInternalAlignmentGeometry.svg style="width:16px"> [Show/Hide internal geometry](Sketcher_RestoreInternalAlignmentGeometry.md)** to make it visible.
 
 ## Script
 

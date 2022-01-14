@@ -132,7 +132,7 @@ Dacă schița are segmente care se încrucișă unul pe altul, locurile în care
 
 În interiorul zonei închise putem avea zone mai mici care nu se suprapun. Acestea vor deveni goluri atunci când solidul 3D va fi creat.
 
-Once a Sketch is fully constrained, the Sketch features will turn green; Construction Geometry will remain blue. It is usually \"finished\" at this point and suitable for use in creating a 3D solid. However, once the Sketch dialog is closed it may be worthwhile going to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:Part Workbench](Part_Workbench.md) and running **[16px"> [Check geometry](Part_CheckGeometry.md)** to ensure there are no features in the Sketch which may cause later problems.
+Once a Sketch is fully constrained, the Sketch features will turn green; Construction Geometry will remain blue. It is usually \"finished\" at this point and suitable for use in creating a 3D solid. However, once the Sketch dialog is closed it may be worthwhile going to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) and running **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Check geometry](Part_CheckGeometry.md)** to ensure there are no features in the Sketch which may cause later problems.
 
 ## Tools
 
@@ -929,7 +929,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/ro

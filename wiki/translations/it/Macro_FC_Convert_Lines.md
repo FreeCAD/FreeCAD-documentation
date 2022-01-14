@@ -170,7 +170,7 @@ ToolBar icon ![](images/Macro_FCConvertLines.png )
 
 ## Esempi
 
-Esempi dot, dash dot, dash dot, dash dot dot _  Esempi hand, zigzag _  Esempio hand _ Tutte le linee sono create con le specifiche di configurazione impostate nelle opzioni delle linee  Esempio hand (manuale) con cui si può creare una bella onda sinusoidale o una linea totalmente anarchica _ 
+Esempi dot, dash dot, dash dot, dash dot dot [center\|500px ](File:Macro_FCConvertLines_11b.png.md)  Esempi hand, zigzag [center\|500px ](File:Macro_FCConvertLines_11.png.md)  Esempio hand [center\|500px ](File:Macro_FCConvertLines_012.png.md) Tutte le linee sono create con le specifiche di configurazione impostate nelle opzioni delle linee  Esempio hand (manuale) con cui si può creare una bella onda sinusoidale o una linea totalmente anarchica [center\|500px ](File:Macro_FCConvertLines_013.png.md) 
 
 Esempio di conversione ShapeString in Sketch (Le curve non sono autorizzate per la conversione Shape to Sketch)
 

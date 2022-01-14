@@ -47,7 +47,7 @@ I fogli di disegno, una volta completi, possono essere stampati o esportati come
 
 <div class="mw-translate-fuzzy">
 
-Nel seguente esercizio, vedremo come creare un semplice disegno di un modello di sedia trovato in _ di questo manuale), oppure si può semplicemente scaricare il modello dalla libreria della pagina web, oppure tramite il link diretto fornito in fondo a questo capitolo.
+Nel seguente esercizio, vedremo come creare un semplice disegno di un modello di sedia trovato in [FreeCAD library](https://github.com/FreeCAD/FreeCAD-library) (Furniture -\> Chairs -\> IkeaChair). La libreria FreeCAD può essere facilmente aggiunta alla propria installazione FreeCAD (consultare il capitolo [installazione](Manual:Installing/it.md) di questo manuale), oppure si può semplicemente scaricare il modello dalla libreria della pagina web, oppure tramite il link diretto fornito in fondo a questo capitolo.
 
 
 </div>
@@ -116,7 +116,7 @@ Nel seguente esercizio, vedremo come creare un semplice disegno di un modello di
 
 <div class="mw-translate-fuzzy">
 
-Ora posizioniamo le quote e le indicazioni sul disegno. Ci sono due modi per aggiungere le dimensioni ad un modello, uno consiste nel mettere le dimensioni all\'interno del modello 3D, utilizzando lo strumento <img alt="" src=images/Draft_Dimension.png  style="width:16px;"> _ (che può essere utilizzato su una sola dimensione o su un intero gruppo contenente le dimensioni), oppure si può fare la stessa cosa direttamente sul foglio di disegno, utilizzando l\'ambiente [Drawing Dimensioning](https://github.com/hamish2014/FreeCAD_drawing_dimensioning), che è installabile da [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons). Qui useremo quest\'ultimo metodo.
+Ora posizioniamo le quote e le indicazioni sul disegno. Ci sono due modi per aggiungere le dimensioni ad un modello, uno consiste nel mettere le dimensioni all\'interno del modello 3D, utilizzando lo strumento <img alt="" src=images/Draft_Dimension.png  style="width:16px;"> [Dimensione](Draft_Dimension/it.md) dell\'ambiente [Draft](Draft_Workbench/it.md), e poi posizionare una vista di queste dimensioni nel foglio con lo strumento <img alt="" src=images/Drawing_DraftView.png  style="width:16px;"> [Vista Draft](Drawing_DraftView/it.md) (che può essere utilizzato su una sola dimensione o su un intero gruppo contenente le dimensioni), oppure si può fare la stessa cosa direttamente sul foglio di disegno, utilizzando l\'ambiente [Drawing Dimensioning](https://github.com/hamish2014/FreeCAD_drawing_dimensioning), che è installabile da [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons). Qui useremo quest\'ultimo metodo.
 
 
 </div>
@@ -204,7 +204,7 @@ La pagina può essere esportato in formato SVG per essere ulteriormente lavorata
 
 </div>
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Generating 2D drawings/it

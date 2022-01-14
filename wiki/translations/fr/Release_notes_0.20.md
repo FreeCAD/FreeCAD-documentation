@@ -103,7 +103,7 @@ Autres nouvelles du développement :
 
 -   La commande <img alt="" src=images/Draft_Hatch.svg  style="width:24px;"> [Draft Hachure](Draft_Hatch/fr.md) a été introduite. Elle crée des hachures sur les faces d\'un objet sélectionné à l\'aide de motifs provenant de fichiers PAT d\'AutoCAD.
 
--   La commande <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:24px;"> _ a été étendue avec la même fonctionnalité.
+-   La commande <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:24px;"> [Draft Nommer un groupe](Draft_AddNamedGroup/fr.md) a été introduite. La commande<img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> [Draft Déplacer vers un groupe](Draft_AddToGroup/fr.md) a été étendue avec la même fonctionnalité.
 
 -   Le travail sur la commande <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> [Draft Définir le style](Draft_SetStyle/fr.md), toujours en cours dans FreeCAD version 0.19, a été terminé.
 
@@ -113,7 +113,7 @@ Autres nouvelles du développement :
 
 -   Les objets <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> [Draft Vue 2D d\'une forme](Draft_Shape2DView/fr.md) ont maintenant une propriété **Auto Update**. La définition de cette propriété à {{False}} peut s\'avérer utile si un document contient de nombreux objets *Draft Vue 2D d\'une forme* ou s\'ils sont complexes.
 
--   Il est maintenant possible d\'inverser une _. [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=23&t=58643&start=20), [Pull request \#4811](https://github.com/FreeCAD/FreeCAD/pull/4811).
+-   Il est maintenant possible d\'inverser une [Draft Polyligne](Draft_Wire/fr.md) via le menu contextuel <img alt="" src=images/Draft_Edit.svg  style="width:24px;"> [Draft Éditer](Draft_Edit/fr.md). [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=23&t=58643&start=20), [Pull request \#4811](https://github.com/FreeCAD/FreeCAD/pull/4811).
 
 ### Autres améliorations de Draft 
 
@@ -121,7 +121,7 @@ Autres nouvelles du développement :
 
 -   Les nouveaux [Draft Textes](Draft_Text/fr.md) sont désormais alignés sur le [plan de travail](Draft_SelectPlane/fr.md), [Pull request \#5092](https://github.com/FreeCAD/FreeCAD/pull/5092).
 
--   La prise en charge de deux convertisseurs DWG a été ajoutée : _ et [FreeCAD et l\'importation DWG](FreeCAD_and_DWG_Import/fr.md) pour plus d\'informations.
+-   La prise en charge de deux convertisseurs DWG a été ajoutée : [LibreDWG](https://www.gnu.org/software/libredwg) et [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg). Voir [Préférences d\'Import Export](Import_Export_Preferences/fr#DWG.md) et [FreeCAD et l\'importation DWG](FreeCAD_and_DWG_Import/fr.md) pour plus d\'informations.
 
 ## Atelier FEM 
 
@@ -132,8 +132,8 @@ Autres nouvelles du développement :
 
 ### Autres améliorations de FEM 
 
--   Un nouveau solveur a été ajouté : **Solve → <img src=images/FEM_SolverMystran.svg style="width:16px"> [Solveur Mystran](FEM_SolverMystran/fr.md)**. De nombreux commits.
--   Une nouvelle contrainte a été ajoutée : **Model → Contraintes géométriques → <img src=images/FEM_ConstraintSpring.svg style="width:16px"> [Contrainte ressort](FEM_ConstraintSpring/fr.md)**. [Pull request \#4982](https://github.com/FreeCAD/FreeCAD/pull/4982)
+-   Un nouveau solveur a été ajouté : **Solve → [<img src=images/FEM_SolverMystran.svg style="width:16px"> [Solveur Mystran](FEM_SolverMystran/fr.md)**. De nombreux commits.
+-   Une nouvelle contrainte a été ajoutée : **Model → Contraintes géométriques → [<img src=images/FEM_ConstraintSpring.svg style="width:16px"> [Contrainte ressort](FEM_ConstraintSpring/fr.md)**. [Pull request \#4982](https://github.com/FreeCAD/FreeCAD/pull/4982)
 -   L\'ordre des éléments des maillages [Gmsh](FEM_MeshGmshFromShape/fr.md) peut être modifié via la boîte de dialogue de maillage. [Pull request \#4660](https://github.com/FreeCAD/FreeCAD/pull/4660)
 -   Les cartes de matériaux peuvent désormais contenir des valeurs de conductivité électrique. [Pull request \#4647](https://github.com/FreeCAD/FreeCAD/pull/4647)
 -   Cartes de matériaux ajoutées pour l\'azote et l\'argon. [Pull request \#4649](https://github.com/FreeCAD/FreeCAD/pull/4649)
@@ -200,11 +200,11 @@ Il y a également une zone de texte pour le retour des erreurs d\'OpenSCAD.
 ## Atelier Sketcher 
 
   --------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  <img alt="" src=images/SketcherSplitExample2_relnotes_0.20.png )                                                  Nouvelle fonction !_ pour diviser les lignes ou les arcs existants. [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=9&t=55412) [Pull request \#4420](https://github.com/FreeCAD/FreeCAD/pull/4420)
-  <img alt="" src=images/SketcherCreateRoundedRectangleExample_relnotes_0.20.png )                  Nouvel outil !_ pour créer des rectangles aux coins arrondis. [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=59210) [Main Pull request \#4835](https://github.com/FreeCAD/FreeCAD/pull/4835)
+  <img alt="" src=images/SketcherSplitExample2_relnotes_0.20.png )                                                  Nouvelle fonction ![](images/Sketcher_Split.svg  style="width:24px;"> [Diviser une arête](Sketcher_Split/fr.md) pour diviser les lignes ou les arcs existants. [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=9&t=55412) [Pull request \#4420](https://github.com/FreeCAD/FreeCAD/pull/4420)
+  <img alt="" src=images/SketcherCreateRoundedRectangleExample_relnotes_0.20.png )                  Nouvel outil ![](images/Sketcher_CreateOblong.svg  style="width:24px;"> [Rectangle arrondi](Sketcher_CreateOblong/fr.md) pour créer des rectangles aux coins arrondis. [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=59210) [Main Pull request \#4835](https://github.com/FreeCAD/FreeCAD/pull/4835)
   <img alt="" src=images/SketcherCreateCenteredRectangleExample_relnotes_0.20.png  style="width:384px;">   Nouvel outil <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:24px;"> [Rectangle centré](Sketcher_CreateRectangle_Center/fr.md) pour définir des rectangles via un point central. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/8b4acf11c2caf53cc1cb8dccd8bb6de8516f4492)
-  <img alt="" src=images/Radiam_anim_relnotes_0.20.gif )                                                                      Nouvelle fonction !_ permet d\'assigner automatiquement un poids sur le pôle B-spline, un diamètre sur un cercle complet ou un rayon sur un arc. Support de la multi-sélection comme outils de diamètre/rayon. [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=57584&start=20#p509485) [Main Pull request \#4855](https://github.com/FreeCAD/FreeCAD/pull/4855)
-  <img alt="" src=images/SketcherRemoveAxesAlignmentResult_relnotes_0.20.png )                          Nouvel outil de contrainte !_ pour supprimer l\'alignement des axes tout en essayant de préserver la relation de contrainte de la sélection. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/3c593a33cedc3e6a42928d9087f8a160852cc685)
+  <img alt="" src=images/Radiam_anim_relnotes_0.20.gif )                                                                      Nouvelle fonction ![](images/Sketcher_ConstrainRadiam.svg  style="width:24px;"> [Contrainte automatique rayon/diamètre](Sketcher_ConstrainRadiam/fr.md) permet d\'assigner automatiquement un poids sur le pôle B-spline, un diamètre sur un cercle complet ou un rayon sur un arc. Support de la multi-sélection comme outils de diamètre/rayon. [Discussion du forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=57584&start=20#p509485) [Main Pull request \#4855](https://github.com/FreeCAD/FreeCAD/pull/4855)
+  <img alt="" src=images/SketcherRemoveAxesAlignmentResult_relnotes_0.20.png )                          Nouvel outil de contrainte ![](images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> [Supprimer l\'alignement des axes](Sketcher_RemoveAxesAlignment/fr.md) pour supprimer l\'alignement des axes tout en essayant de préserver la relation de contrainte de la sélection. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/3c593a33cedc3e6a42928d9087f8a160852cc685)
   \| ![](images/SketcherSnapSlot_relnotes_0.20.gif )                                                     [Sketcher Rainure](Sketcher_CreateSlot/fr.md) peut être contraint horizontalement ou verticalement soit en l\'aimantant manuellement avec la touche **Ctrl**, soit en utilisant l\'option *Auto contraintes* de Sketcher. [Pull request \#5200](https://github.com/FreeCAD/FreeCAD/pull/5200)
   --------------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -223,7 +223,7 @@ Il y a également une zone de texte pour le retour des erreurs d\'OpenSCAD.
 ## Atelier Spreadsheet 
 
   -------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )   L\'atelier a maintenant des !_. Elles sont utilisées par les commandes <img alt="" src=images/Spreadsheet_Import.svg  style="width:16px;"> _. [Pull request \#5073](https://github.com/FreeCAD/FreeCAD/pull/5073)
+  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )   L\'atelier a maintenant des ![](images/Std_DlgPreferences.svg  style="width:24px;"> [Préférences](Spreadsheet_Preferences/fr.md). Elles sont utilisées par les commandes <img alt="" src=images/Spreadsheet_Import.svg  style="width:16px;"> [Spreadsheet Importer](Spreadsheet_Import/fr.md) et <img alt="" src=images/Spreadsheet_Export.svg  style="width:16px;"> [Spreadsheet Exporter](Spreadsheet_Export/fr.md). [Pull request \#5073](https://github.com/FreeCAD/FreeCAD/pull/5073)
   -------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -   Il est maintenant possible de sélectionner dans le menu contextuel des lignes/colonnes, à quelles positions les nouvelles lignes/colonnes seront insérées. [Pull request \#4704](https://github.com/FreeCAD/FreeCAD/pull/4704).
@@ -297,7 +297,7 @@ L\'[atelier FCGear](FCGear_Workbench/fr.md) a reçu quelques améliorations:
 
 ### Trails, PyTrails, Turns, pivy\_trackers et Geomatics 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > Release notes 0.20/fr

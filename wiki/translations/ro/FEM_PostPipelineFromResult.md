@@ -27,7 +27,7 @@ Conducta este un obiect rezultat, care creează o nouă reprezentare grafică a 
 
 ## Cum se folosește 
 
--   Aveți nevoie de un obiect rezultat valid în {{KEY | <img src=images/_FEM_Analysis.svg  style="width: 24px"> [ Container de analiză](FEM_Analysis_.md)}}, cum ar fi {{KEY | CalculiX_static_results}}.
+-   Aveți nevoie de un obiect rezultat valid în {{KEY | [ <img src=images/_FEM_Analysis.svg  style="width:24px"> [ Container de analiză](FEM_Analysis_.md)}}, cum ar fi {{KEY | CalculiX_static_results}}.
 -   Selectați obiectul rezultat
 -   Faceți clic pe butonul ![ 24px](images/_FEM_PostPipelineFromResult.png ) sau faceți clic pe meniul {{KEY | Results}} și pe elementul {{KEY | Post Pipeline from results}}. Un nou obiect numit \"Pipeline\" va fi adăugat la documentul dvs.; notați dacă vor apărea în afara containerului Analiză.
 -   Faceți dublu clic pe noul obiect Pipeline din arborele Model și selectați tipul de proprietăți de afișat. Setările tipice sunt: ​​Mod: Selectați {{KEY | Surface}}, Câmp: De ex. {{KEY | Von Mises stres}} ![](images/_Pipeline.PNG )

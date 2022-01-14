@@ -3,7 +3,7 @@
 
 ## Einführung
 
-Auf dieser Seite werden wir zeigen, wie man mit _ Code umgewandelt und dann innerhalb von FreeCAD verwendet. Wir gehen davon aus, dass der Benutzer weiß, wie man [Python](Python/de.md) allgemein bearbeitet und ausführt.
+Auf dieser Seite werden wir zeigen, wie man mit [Qt Designer](http://qt-project.org/doc/qt-4.8/designer-manual.html), Qt\'s offiziellem Werkzeug für die Gestaltung von Oberflächen, eine einfache grafische Oberfläche erstellt; der Dialog wird in [Python](Python/de.md) Code umgewandelt und dann innerhalb von FreeCAD verwendet. Wir gehen davon aus, dass der Benutzer weiß, wie man [Python](Python/de.md) allgemein bearbeitet und ausführt.
 
 
 <div class="mw-translate-fuzzy">
@@ -261,7 +261,7 @@ class plane():
 
 <div class="mw-translate-fuzzy">
 
--   _
+-   [Handbuch:Erstellen von Oberflächenwerkzeugen](Manual:Creating_interface_tools/de.md)
 
 
 </div>
@@ -283,7 +283,7 @@ class plane():
 
 }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Dialog creation/de

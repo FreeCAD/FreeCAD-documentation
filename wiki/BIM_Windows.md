@@ -18,7 +18,7 @@ The BIM windows manager dialog allows you to browse and modify all the [windows 
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Windows

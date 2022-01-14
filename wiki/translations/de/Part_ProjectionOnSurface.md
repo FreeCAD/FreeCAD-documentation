@@ -13,11 +13,11 @@
 ## Beschreibung
 
 
-**<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Part ProjektionAufOberfläche](Part_ProjectionOnSurface/de.md)**
+**[<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Part ProjektionAufOberfläche](Part_ProjectionOnSurface/de.md)**
 
-wird verwendet, um eine <img src=images/Draft_ShapeString.svg style="width:Form](Shape/de.md) auf der Oberseite einer Oberfläche auf eine andere [Form](Shape/de.md) zu projizieren; dies kann verwendet werden, um ein Logo oder eine Textnachricht (siehe **[16px"> [Entwurf FormZeichenfolge](Draft_ShapeString/de.md)**) auf unterschiedliche Oberflächen zu projizieren, um interessante Effekte zu erzeugen.
+wird verwendet, um eine [Form](Shape/de.md) auf der Oberseite einer Oberfläche auf eine andere [Form](Shape/de.md) zu projizieren; dies kann verwendet werden, um ein Logo oder eine Textnachricht (siehe **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Entwurf FormZeichenfolge](Draft_ShapeString/de.md)**) auf unterschiedliche Oberflächen zu projizieren, um interessante Effekte zu erzeugen.
 
-Wenn eine Quelle _ für Effekte wie Gravieren oder Prägen verwendet werden können.
+Wenn eine Quelle [Form](Shape/de.md) angegeben wird, kann dieses Werkzeug Kanten, Drähte (geschlossene Kanten) oder ganze Flächen daraus projizieren; das Ergebnis können neue Kanten, neue Drähte, neue Flächen oder sogar neue extrudierte Körper sein, die in <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Boolesche Operationen](Part_Boolean/de.md) für Effekte wie Gravieren oder Prägen verwendet werden können.
 
 <img alt="" src=images/Part_ProjectionOnSurface1.png  style="width:300px;"> <img alt="" src=images/Part_ProjectionOnSurface2.png  style="width:300px;">
 
@@ -28,7 +28,7 @@ Wenn eine Quelle _ für Effekte wie Gravieren oder Prägen verwendet werden kön
 ## Anwendung
 
 1.  Stelle sicher, dass du mindestens zwei Objekte in deinem Dokument hast; das \"Quell\" Objekt, das du projizieren möchtest, und das \"Ziel\" Objekt, auf das die Projektion erfolgen soll.
-2.  Klicke auf **<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Projektion auf Oberfläche](Part_ProjectionOnSurface/de.md)** um ein [Aufgabenpaneel](task_panel/de.md) mit verschiedenen Optionen zu starten.
+2.  Klicke auf **[<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Projektion auf Oberfläche](Part_ProjectionOnSurface/de.md)** um ein [Aufgabenpaneel](task_panel/de.md) mit verschiedenen Optionen zu starten.
 3.  Klicke auf **Projektionsfläche wählen**, und klicke dann auf die \"Ziel\" Fläche, auf der die Projektion erstellt werden soll.
 4.  Klicke dann auf die betreffende Schaltfläche, um den Typ des Unterelements zu wählen, das du deinem Projektionsobjekt hinzufügen möchtest.
     -   
@@ -85,7 +85,7 @@ Der Projektionsalgorithmus ist manchmal nicht in der Lage, eine gültige Projekt
 
 Wenn dies geschieht:
 
--   Prüfe, ob deine Quellfläche gültig ist; versuche, das **<img src=images/Part_CheckGeometry.svg style="width:16px"> [PrüfeGeometrie](Part_CheckGeometry/de.md)** Werkzeug für Anhaltspunkte ablaufen zu lassen.
+-   Prüfe, ob deine Quellfläche gültig ist; versuche, das **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [PrüfeGeometrie](Part_CheckGeometry/de.md)** Werkzeug für Anhaltspunkte ablaufen zu lassen.
 -   Prüfe, ob die Projektionsrichtung gültig ist. Kann die Quellfläche realistisch auf die Zielfläche projiziert werden? Würde eine gerade Projektion auf die Oberfläche treffen? Stelle die Kamera so ein, dass die Quellfläche vor der Zielfläche liegt, und versuche es erneut.
 -   Versuche, die Option {{RadioButton|TRUE|Kanten anzeigen}} zu verwenden. Werden die Kanten korrekt projiziert? Versuche, eine Fläche mit den Kanten von Hand zu erzeugen.
 

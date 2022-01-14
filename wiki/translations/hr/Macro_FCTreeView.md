@@ -56,86 +56,86 @@ Ako je odabran jedan objekt: prikazuje se baza položaja, rotacija i središte m
 ### Odjeljak **Sort by :** 
 
 
-**<img src=images/Macro_FCTreeView_10.png style="width:18px"> Name**
+**[<img src=images/Macro_FCTreeView_10.png style="width:18px"> Name**
 
 Ikona koja se koristi za flip/flop normalan/obrnuti unos podataka sortira po imenu
 
 
-**<img src=images/Macro_FCTreeView_11.png style="width:18px"> Label**
+**[<img src=images/Macro_FCTreeView_11.png style="width:18px"> Label**
 
 Ikona koja se koristi za flip/flop normalan/obrnuti unos podataka sortira prema oznaci
 
 
-**<img src=images/Macro_FCTreeView_12.png style="width:18px"> Visible**
+**[<img src=images/Macro_FCTreeView_12.png style="width:18px"> Visible**
 
 Ikona koja se koristi za flip/flop normalan/obrnuti unos podataka sortirati prema Visibile/Hidden
 
 
-**<img src=images/Macro_FCTreeView_13.png style="width:18px"> Group**
+**[<img src=images/Macro_FCTreeView_13.png style="width:18px"> Group**
 
 Ikona koja se koristi za flip/flop normalan/obrnuti unos podataka sortira prema Group/Single object
 
 
-**<img src=images/Macro_FCTreeView_19.png style="width:18px"> Length**
+**[<img src=images/Macro_FCTreeView_19.png style="width:18px"> Length**
 
 Ako je potvrdni okvir označen, sortiranje se kreira prema duljini s gumbom na koji ste kliknuli (ime, oznaka \...)
 
 ### Odjeljak**Global**
 
 
-**<img src=images/Macro_FCTreeView_21.png style="width:18px"> Split**
+**[<img src=images/Macro_FCTreeView_21.png style="width:18px"> Split**
 
 flip/flop Podijeli popis imena
 
 
-**<img src=images/Macro_FCTreeView_22.png style="width:18px"> Split**
+**[<img src=images/Macro_FCTreeView_22.png style="width:18px"> Split**
 
 flip/flop Podijelite popis imena i oznaka
 
 
-**<img src=images/Macro_FCTreeView_14.png style="width:18px"> Expend**
+**[<img src=images/Macro_FCTreeView_14.png style="width:18px"> Expend**
 
 flip/flop popis podataka Fold/Expend
 
 
-**<img src=images/Macro_FCTreeView_15.png style="width:18px"> Expend**
+**[<img src=images/Macro_FCTreeView_15.png style="width:18px"> Expend**
 
 flip/flop popis podataka Expend/Fold
 
 
-**<img src=images/Macro_FCTreeView_06.png style="width:18px"> Visibility**
+**[<img src=images/Macro_FCTreeView_06.png style="width:18px"> Visibility**
 
 flip/flop normal/Vidljivost
 
 
-**<img src=images/Macro_FCTreeView_07.png style="width:18px"> Group**
+**[<img src=images/Macro_FCTreeView_07.png style="width:18px"> Group**
 
 flip/flop Normalan/Grupa
 
 
-**<img src=images/Macro_FCTreeView_16.png style="width:18px"> Reload**
+**[<img src=images/Macro_FCTreeView_16.png style="width:18px"> Reload**
 
 ponovno učitati podatke u projektu
 
 
-**<img src=images/Macro_FCTreeView_18.png style="width:18px"> Original**
+**[<img src=images/Macro_FCTreeView_18.png style="width:18px"> Original**
 
 povratak u izvornu organizaciju nakon vidljivosti operacije/Skriven
 
 
-**<img src=images/Macro_FCTreeView_01.png style="width:18px"> All Visible**
+**[<img src=images/Macro_FCTreeView_01.png style="width:18px"> All Visible**
 
 vizualizirati je li objekt status Vidljiv
 
 
-**<img src=images/Macro_FCTreeView_02.png style="width:18px"> All Hidden**
+**[<img src=images/Macro_FCTreeView_02.png style="width:18px"> All Hidden**
 
 vizualizirajte je li objekt skriven
 
 ### Odjeljak**Search**
 
 
-**<img src=images/Macro_FCTreeView_20.png style="width:18px"> Clear**
+**[<img src=images/Macro_FCTreeView_20.png style="width:18px"> Clear**
 
 Izbrišite uređivanje retka pretraživanja
 
@@ -154,17 +154,17 @@ Izbrišite uređivanje retka pretraživanja
 -   **(Nu)** : Pretraživanje po numeričkoj vrijednosti (radijus, duljina, kut \.....) vidi odjeljak o verziji
 
 
-**<img src=images/Macro_FCTreeView_23.png style="width:18px"> Select**
+**[<img src=images/Macro_FCTreeView_23.png style="width:18px"> Select**
 
 flip/flop za odabrane sve objekte prikazane u prozoru
 
 
-**<img src=images/Macro_FCTreeView_24.png style="width:18px"> Unselected**
+**[<img src=images/Macro_FCTreeView_24.png style="width:18px"> Unselected**
 
 flip/flop Unselected svi objekti
 
 
-**<img src=images/Macro_FCTreeView_25.png style="width:18px"> S Sheet**
+**[<img src=images/Macro_FCTreeView_25.png style="width:18px"> S Sheet**
 
 pristup u opcijama proračunske tablice
 
@@ -179,12 +179,12 @@ pristup u opcijama proračunske tablice
 -   CheckBox opcije za odabir podataka za spremanje u proračunsku tablicu
 
 
-**<img src=images/Macro_FCTreeView_28.png style="width:18px"> Select**
+**[<img src=images/Macro_FCTreeView_28.png style="width:18px"> Select**
 
 : Odaberite sve opcije checkBox za spremanje
 
 
-**<img src=images/Macro_FCTreeView_29.png style="width:18px"> Select**
+**[<img src=images/Macro_FCTreeView_29.png style="width:18px"> Select**
 
 : unSelect sve checkBox opciju za spremanje
 
@@ -216,22 +216,22 @@ pristup u opcijama proračunske tablice
 ![](images/Macro_FCTreeView_006.png )
 
 
-**<img src=images/Macro_FCTreeView_28.png style="width:18px"> Select**
+**[<img src=images/Macro_FCTreeView_28.png style="width:18px"> Select**
 
 odaberite sve opcije potvrdnog okvira
 
 
-**<img src=images/Macro_FCTreeView_29.png style="width:18px"> Unselect**
+**[<img src=images/Macro_FCTreeView_29.png style="width:18px"> Unselect**
 
 isključili sve mogućnosti potvrdnog okvira
 
 
-**<img src=images/Macro_FCTreeView_27.png style="width:18px"> Save**
+**[<img src=images/Macro_FCTreeView_27.png style="width:18px"> Save**
 
 spremite podatke u prikazanu tablicu. ako proračunska tablica nije aktivna, proračunska tablica s nazivom **FCSpreadSheet** je stvoren
 
 
-**<img src=images/Macro_FCTreeView_26.png style="width:18px"> Quit**
+**[<img src=images/Macro_FCTreeView_26.png style="width:18px"> Quit**
 
 zatvorite opcije proračunske tablice
 

@@ -5,7 +5,7 @@
 
 [Geometria solida costruttiva](https://en.wikipedia.org/wiki/Constructive_solid_geometry) (**CSG**) è un paradigma di modellazione che viene utilizzato in molti sistemi CAD tradizionali. Essenzialmente consiste nell\'usare oggetti solidi primitivi e fare operazioni booleane con essi, come fusione, sottrazione e intersezione, al fine di creare una forma finale.
 
-In FreeCAD, questo metodo è per lo più utilizzato con l\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _, <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> _ e di fonderli insieme, oppure di usarli per tagliare altri oggetti con strumenti come **<img src="images/Part_Cut.svg" width=24px> [Taglio](Part_Cut/it.md)**.
+In FreeCAD, questo metodo è per lo più utilizzato con l\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md), che ha la capacità di creare oggetti primitivi come <img alt="" src=images/Part_Box.svg  style="width:24px;"> [parallelepipedi](Part_Box/it.md), <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [cilindri](Part_Cylinder/it.md), e <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> [sfere](Part_Sphere/it.md) e di fonderli insieme, oppure di usarli per tagliare altri oggetti con strumenti come **<img src="images/Part_Cut.svg" width=24px> [Taglio](Part_Cut/it.md)**.
 
 <img alt="" src=images/Part_Constructive_Solid_Geometry_workflow.svg  style="width:800px;">
 
@@ -30,15 +30,15 @@ Anche un [Corpo](PartDesign_Body/it.md) creato con l\'ambiente [PartDesign](Part
 
 ## Tutorial
 
-La pagina _.
+La pagina [Tutorial](tutorials/it.md) fornisce alcuni esempi che usano il metodo CSG per la creazione di solidi con l\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md).
 
--   _
+-   [Modellazione tradizionale, il modo CSG](Manual:Traditional_modeling,_the_CSG_way/it.md)
 -   [Tutorial Sfera traforata](Whiffle_Ball_tutorial/it.md)
 -   [Guida introduttiva alla modellazione 3D](Basic_modeling_tutorial/it.md)
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Constructive solid geometry/it

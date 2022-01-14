@@ -6,7 +6,7 @@ Eine [Kalkulationstabelle](spreadsheet/de.md) ist eine Seite, die Zeilen und Spa
 ## Anwendung
 
 1.  Wechsle zum <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:16px;"> [Arbeitsbereich Kalkulationstabelle](Spreadsheet_Workbench/de.md).
-2.  Press **<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulationstabelle ErstelleBlatt](Spreadsheet_CreateSheet/de.md)** um ein neues Blatt zu erstellen.
+2.  Press **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulationstabelle ErstelleBlatt](Spreadsheet_CreateSheet/de.md)** um ein neues Blatt zu erstellen.
 3.  Den Inhalt der Zellen bearbeiten.
 4.  Schließe den Tabellenblattreiter, wenn du fertig bist. Die Werte werden automatisch gespeichert, wenn du sie eingibst.
 

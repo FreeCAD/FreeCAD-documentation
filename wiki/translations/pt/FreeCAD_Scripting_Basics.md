@@ -112,7 +112,7 @@ myView = Gui.ActiveDocument.ActiveView
 
 ## Using additional modules 
 
-The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and managing objects in the FreeCAD document. They don\'t actually do anything more such as creating or modifying geometry. This is because that geometry can be of several types, and therefore requires additional modules, each responsible for managing a certain geometry type. For example, the _ is able to build and modify mesh objects. In this manner FreeCAD is able to handle a wide variety of object types, that can all coexist in the same document, and new types can easily be added in the future. {{Top}}
+The `FreeCAD` and `FreeCADGui` modules are only responsible for creating and managing objects in the FreeCAD document. They don\'t actually do anything more such as creating or modifying geometry. This is because that geometry can be of several types, and therefore requires additional modules, each responsible for managing a certain geometry type. For example, the [Part Workbench](Part_Workbench.md), using the OpenCascade kernel, is able to create and manipulate [BRep](http://en.wikipedia.org/wiki/Boundary_representation) type geometry. Whereas the [Mesh Workbench](Mesh_Workbench.md) is able to build and modify mesh objects. In this manner FreeCAD is able to handle a wide variety of object types, that can all coexist in the same document, and new types can easily be added in the future. {{Top}}
 
 ### Creating objects 
 
@@ -191,7 +191,7 @@ or check if an object is derived from one of the basic ones (Part Feature, Mesh 
 print(myObj.isDerivedFrom("Part::Feature"))
 ```
 
-Now you can really start playing with FreeCAD! For a complete list of available modules and their tools, visit the _ section. {{Top}}
+Now you can really start playing with FreeCAD! For a complete list of available modules and their tools, visit the [<img src="images/Property.png" style="width:16px"> API](:Category_API.md) section. {{Top}}
 
 
 
@@ -201,7 +201,7 @@ Now you can really start playing with FreeCAD! For a complete list of available 
 
 }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Scripting Basics/pt

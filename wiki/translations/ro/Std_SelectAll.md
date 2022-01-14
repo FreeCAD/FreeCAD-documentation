@@ -35,7 +35,7 @@ Pentru mai multe informații despre modul de selectare, puteți consulta și pag
 În plus, pentru a selecta mai multe funcții, puteți:
 
 -   să utilizați tasta **CTRL** făcând clic pe funcțiile din arborescența proiectului sau direct în vizualizare,
--   sau în meniul \'\'\' Edit \'\'\'utilizați elementul **<img src=images/Std_BoxSelection.png style="width:16px"> [Box di selezione](Std_BoxSelection/it.md)** pentru a selecta o regiune a vizualizării.
+-   sau în meniul \'\'\' Edit \'\'\'utilizați elementul **[<img src=images/Std_BoxSelection.png style="width:16px"> [Box di selezione](Std_BoxSelection/it.md)** pentru a selecta o regiune a vizualizării.
 
 
 </div>

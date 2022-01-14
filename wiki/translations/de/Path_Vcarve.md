@@ -16,7 +16,7 @@
 
 ## Beschreibung
 
-The <img alt="" src=images/Path_Vcarve.svg  style="width:24px;"> _ onto a part. However, it may be useful for other kinds of 2D.
+The <img alt="" src=images/Path_Vcarve.svg  style="width:24px;"> [Path Vcarve](Path_Vcarve.md) tool is primarily for center-line engraving a <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft ShapeString](Draft_ShapeString.md) onto a part. However, it may be useful for other kinds of 2D.
 
 Unlike engraving which follows the lines in the shapestring, V-carving uses a V-shaped cutter and attempts to clear the area by moving the cutter down the center of the region and varying the depth of cut. Since a v-cutter radius varies with the depth, the width of cut varies as well. The result is a more natural looking cut, particularly for serif fonts.
 
@@ -28,7 +28,7 @@ The V-carve algorithm calculates a path down the center-line of a region using a
 
 ### Prepare the shapes to engrave 
 
--    **<img src=images/Draft_ShapeString.svg style="width:24px"> [Draft ShapeStrings](Draft_ShapeString.md)**are usable out of the box
+-    **[<img src=images/Draft_ShapeString.svg style="width:24px"> [Draft ShapeStrings](Draft_ShapeString.md)**are usable out of the box
 
 -   SVG files require some massaging, both in the editor and in the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft Workbench](Draft_Workbench.md):
     -   In the editor (e.g. [inkscape](https://www.inkscape.org)): make sure the file only contains paths and that the paths are ungrouped; make sure there are no self-intersecting paths, (in inkscape) use Path → Simplify and union to join paths that overlap.
@@ -61,7 +61,7 @@ The V-carve algorithm calculates a path down the center-line of a region using a
 
 ### Create the Vcarve operation 
 
--   Switch to the **<img src=images/Workbench_Path.svg style="width:16px"> [Path Workbench](Path_Workbench.md)** in the [workbench dropdown menu](Std_Workbench.md)
+-   Switch to the **[<img src=images/Workbench_Path.svg style="width:16px"> [Path Workbench](Path_Workbench.md)** in the [workbench dropdown menu](Std_Workbench.md)
 -   Add a job, use the objects named `Face<number>` (or the ShapeString) as a base, add a v-bit tool controller, set feeds, speeds, etc.
 -   The operation only supports one object (either a single Face object, or a ShapeString) so for each object:
     -   Select **Path  →  <img src="images/Path_Vcarve.svg" width=24px> Vcarve** from the top menu. This opens the configuration panel.

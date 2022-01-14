@@ -106,7 +106,7 @@ Inne wiadomości dotyczące rozwoju:
 
 -   Wprowadzono polecenie <img alt="" src=images/Draft_Hatch.svg  style="width:24px;"> [Kreskowanie](Draft_Hatch/pl.md). Tworzy ono kreskowanie na powierzchniach wybranego obiektu przy użyciu wzorców z plików typu PAT programu AutoCAD.
 
--   Wprowadzono polecenie <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:24px;"> _ zostało rozszerzone o tę samą funkcjonalność.
+-   Wprowadzono polecenie <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:24px;"> [Dodaj grupę o nazwie](Draft_AddNamedGroup/pl.md). Oraz polecenie <img alt="" src=images/Draft_AddToGroup.svg  style="width:24px;"> [Dodaj do grupy](Draft_AddToGroup/pl.md) zostało rozszerzone o tę samą funkcjonalność.
 
 -   Zakończono prace nad poleceniem <img alt="" src=images/Draft_SetStyle.svg  style="width:24px;"> [Ustaw styl](Draft_SetStyle/pl.md), trwające jeszcze w wersji 0.19 programu FreeCAD.
 
@@ -116,7 +116,7 @@ Dla calowych <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> [w
 
 -   Obiekty <img alt="" src=images/Draft_Shape2DView.svg  style="width:24px;"> [Widok 2D kształtu](Draft_Shape2DView/pl.md) mają teraz właściwość **Automatyczna aktualizacja**. Ustawienie jej na wartość {{False/pl}} może być użyteczne, jeśli w dokumencie jest wiele obiektów Shape2DView lub jeśli są one złożone.
 
--   Jest teraz możliwe odwrócenie _. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=23&t=58643&start=20), [pull request \#4811](https://github.com/FreeCAD/FreeCAD/pull/4811).
+-   Jest teraz możliwe odwrócenie [linii łamanej](Draft_Wire/pl.md) poprzez menu kontekstowe <img alt="" src=images/Draft_Edit.svg  style="width:24px;"> [edycja](Draft_Edit/pl.md). [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=23&t=58643&start=20), [pull request \#4811](https://github.com/FreeCAD/FreeCAD/pull/4811).
 
 ### Kolejne ulepszenia dla środowiska Rysunek Roboczy 
 
@@ -124,7 +124,7 @@ Dla calowych <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> [w
 
 -   Nowe [Adnotacje wieloliniowe](Draft_Text/pl.md) są teraz wyrównane z [płaszczyzną roboczą](Draft_SelectPlane/pl.md), [pull request \#5092](https://github.com/FreeCAD/FreeCAD/pull/5092).
 
--   Dodano wsparcie dla dwóch konwerterów DWG: _ i [FreeCAD i Import DWG](FreeCAD_and_DWG_Import/pl.md), aby uzyskać więcej informacji.
+-   Dodano wsparcie dla dwóch konwerterów DWG: [LibreDWG](https://www.gnu.org/software/libredwg) i [QCAD pro](https://qcad.org/en/qcad-command-line-tools#dwg2dwg). Zobacz strony [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl#DWG.md) i [FreeCAD i Import DWG](FreeCAD_and_DWG_Import/pl.md), aby uzyskać więcej informacji.
 
 ## Środowisko pracy MES 
 
@@ -135,8 +135,8 @@ Dla calowych <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> [w
 
 ### Dalsze ulepszenia MES 
 
--   Dodano nowy solver: **Solve → <img src=images/FEM_SolverMystran.svg style="width:16px">. [Solver Mystran](FEM_SolverMystran/pl.md)**. Wiele commitów.
--   Dodano nowe wiązanie: **Model → Geometrical Constraints → <img src=images/FEM_ConstraintSpring.svg style="width:16px"> [Constraint Spring](FEM_ConstraintSpring/pl.md)**. [PR \#4982](https://github.com/FreeCAD/FreeCAD/pull/4982).
+-   Dodano nowy solver: **Solve → [<img src=images/FEM_SolverMystran.svg style="width:16px">. [Solver Mystran](FEM_SolverMystran/pl.md)**. Wiele commitów.
+-   Dodano nowe wiązanie: **Model → Geometrical Constraints → [<img src=images/FEM_ConstraintSpring.svg style="width:16px"> [Constraint Spring](FEM_ConstraintSpring/pl.md)**. [PR \#4982](https://github.com/FreeCAD/FreeCAD/pull/4982).
 -   Kolejność elementów w generatorze siatek [Gmsh](FEM_MeshGmshFromShape/pl.md) może być zmieniona poprzez okno dialogowe siatki [PR \#4660](https://github.com/FreeCAD/FreeCAD/pull/4660).
 -   Karty materiałowe mogą teraz zawierać wartości przewodności elektrycznej [PR \#4647](https://github.com/FreeCAD/FreeCAD/pull/4647).
 -   Dodano karty materiałowe dla Azotu i Argonu [PR \#4649](https://github.com/FreeCAD/FreeCAD/pull/4649)
@@ -204,11 +204,11 @@ Jest tam również pole tekstowe do zgłaszania błędów w OpenSCAD.
 ## Środowisko pracy Szkicownik 
 
   --------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  <img alt="" src=images/SketcherSplitExample2_relnotes_0.20.png )                                                  Nowa funkcja do !_ istniejących linii lub łuków. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=9&t=55412) [pull request \#4420](https://github.com/FreeCAD/FreeCAD/pull/4420)
-  <img alt="" src=images/SketcherCreateRoundedRectangleExample_relnotes_0.20.png )                  Nowe narzędzie !_ do tworzenia prostokątów z zaokrąglonymi rogami. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=59210) [Main pull request \#4835](https://github.com/FreeCAD/FreeCAD/pull/4835)
+  <img alt="" src=images/SketcherSplitExample2_relnotes_0.20.png )                                                  Nowa funkcja do ![](images/Sketcher_Split.svg  style="width:24px;"> [rozdzielania](Sketcher_Split/pl.md) istniejących linii lub łuków. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=9&t=55412) [pull request \#4420](https://github.com/FreeCAD/FreeCAD/pull/4420)
+  <img alt="" src=images/SketcherCreateRoundedRectangleExample_relnotes_0.20.png )                  Nowe narzędzie ![](images/Sketcher_CreateOblong.svg  style="width:24px;"> [zaokrąglony prostopadłościan](Sketcher_CreateOblong/pl.md) do tworzenia prostokątów z zaokrąglonymi rogami. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=59210) [Main pull request \#4835](https://github.com/FreeCAD/FreeCAD/pull/4835)
   <img alt="" src=images/SketcherCreateCenteredRectangleExample_relnotes_0.20.png  style="width:384px;">   Nowe narzędzie <img alt="" src=images/Sketcher_CreateRectangle_Center.svg  style="width:24px;">. [Centered rectangle](Sketcher_CreateRectangle_Center/pl.md) do definiowania prostokątów poprzez punkt środkowy. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/8b4acf11c2caf53cc1cb8dccd8bb6de8516f4492)
   <img alt="" src=images/Radiam_anim_relnotes_0.20.gif  style="width:384px;">                                                         Nowa funkcja <img alt="" src=images/Sketcher_ConstrainRadiam.svg  style="width:24px;"> [Radiam](Sketcher_ConstrainRadiam/pl.md) do automatycznego przypisywania wagi do bieguna B-splajnu, średnicy do pełnego okręgu lub promienia do łuku. Obsługa wielokrotnego wyboru jako narzędzia średnicy / promienia. [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=57584&start=20#p509485) [Main pull request \#4855](https://github.com/FreeCAD/FreeCAD/pull/4855)
-  <img alt="" src=images/SketcherRemoveAxesAlignmentResult_relnotes_0.20.png )                          Nowe narzędzie !_ do usuwania wyrównania osi przy jednoczesnej próbie zachowania relacji wiązań zaznaczenia. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/3c593a33cedc3e6a42928d9087f8a160852cc685)
+  <img alt="" src=images/SketcherRemoveAxesAlignmentResult_relnotes_0.20.png )                          Nowe narzędzie ![](images/Sketcher_RemoveAxesAlignment.svg  style="width:24px;"> [Usuń wyrównanie osi](Sketcher_RemoveAxesAlignment/pl.md) do usuwania wyrównania osi przy jednoczesnej próbie zachowania relacji wiązań zaznaczenia. [Main commit](https://github.com/FreeCAD/FreeCAD/commit/3c593a33cedc3e6a42928d9087f8a160852cc685)
   Funkcja ![](images/SketcherSnapSlot_relnotes_0.20.gif )                                                [Utwórz wpust](Sketcher_CreateSlot/pl.md) może być związana poziomo lub pionowo poprzez ręczne przytrzymanie go za pomocą klawisza **Ctrl** lub poprzez użycie opcji **Wiązania automatyczne** Szkicownika. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/5200)
   --------------------------------------------------------------------------------------------------------------------------------------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -227,7 +227,7 @@ Jest tam również pole tekstowe do zgłaszania błędów w OpenSCAD.
 ## Środowisko pracy Arkusz Kalkulacyjny 
 
   -------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )   The workbench now has !_. Są one wykorzystywane przez polecenia <img alt="" src=images/Spreadsheet_Import.svg  style="width:16px;"> _. [Pull request \#5073](https://github.com/FreeCAD/FreeCAD/pull/5073)
+  <img alt="" src=images/Spreadsheet-Preferences-Spreadsheet_relnotes_0.20.png )   The workbench now has ![](images/Std_DlgPreferences.svg  style="width:24px;"> [Ustawienia](Spreadsheet_Preferences/pl.md). Są one wykorzystywane przez polecenia <img alt="" src=images/Spreadsheet_Import.svg  style="width:16px;"> [Import](Spreadsheet_Import/pl.md) oraz <img alt="" src=images/Spreadsheet_Export.svg  style="width:16px;"> [Eksport](Spreadsheet_Export/pl.md). [Pull request \#5073](https://github.com/FreeCAD/FreeCAD/pull/5073)
   -------------------------------------------------------------------------------------------------------------------- --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 -   W menu kontekstowym wiersza / kolumny można teraz wybrać, w jakich pozycjach będą wstawiane nowe wiersze / kolumny. [pull request \#4704](https://github.com/FreeCAD/FreeCAD/pull/4704).
@@ -301,7 +301,7 @@ Są to nowe stanowiska pracy utworzone w tym cyklu rozwojowym lub starsze stanow
 
 ### Trails PyTrails, Turns oraz pivy\_trackers i Geomatics 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > Release notes 0.20/pl

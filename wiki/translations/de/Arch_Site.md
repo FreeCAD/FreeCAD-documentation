@@ -91,7 +91,7 @@ Die Baustellengeometrie wird neu berechnet und die Flächen, der Umfang und die 
 
 ## Solar- und Winddiagramme 
 
-Wenn _ ein Solardiagramm und/oder eine Windrose anzeigen. Dazu werden **Längengrad**, **Breitengrad** und **Deklination** (previously **Nordabweichung**) müssen korrekt eingestellt und **Solardiagramm** oder **Windrose** auf `True` gesetzt sein. Betrifft <small>(v0.17)</small>  und <small>(v0.19)</small> 
+Wenn [Ladybug](https://www.ladybug.tools/ladybug.html) auf deinem System installiert ist, kann [Arch Standort](Arch_Site/de.md) ein Solardiagramm und/oder eine Windrose anzeigen. Dazu werden **Längengrad**, **Breitengrad** und **Deklination** (previously **Nordabweichung**) müssen korrekt eingestellt und **Solardiagramm** oder **Windrose** auf `True` gesetzt sein. Betrifft <small>(v0.17)</small>  und <small>(v0.19)</small> 
 
 **Hinweis**: Wenn du keinen Ladybug hast, wird [pysolar](http://pysolar.org/) immer noch unterstützt, um Solardiagramme zu erstellen, aber keine Windrosen. Pysolar 0.7 oder höher ist erforderlich; diese Version funktioniert nur mit Python 3. Wenn du diese Funktion mit Python 2 benötigst, solltest du Pysolar 0.6 haben, da dies die letzte Version ist, die mit Python 2 funktioniert. Allerdings ist Ladybug ein weitaus leistungsfähigeres Werkzeug, das in Zukunft wahrscheinlich häufiger verwendet werden wird, so dass wir empfehlen, es anstelle von Pysolar zu verwenden. Ladybug kann einfach über [pip](https://github.com/ladybug-tools/ladybug) installiert werden.
 

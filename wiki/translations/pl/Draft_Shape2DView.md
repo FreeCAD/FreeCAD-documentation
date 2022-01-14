@@ -103,7 +103,7 @@ Obiekt *Widok 2D kształtu* wywodzi się z obiektu [Część: Part2DObject](Part
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę: _.
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Aby utworzyć rzut 2D użyj metody `make_shape2dview` modułu Rysunek Roboczy ({{Version/pl|0.19}}). Ta metoda zastępuje przestarzałą metodę `makeShape2DView`.
 

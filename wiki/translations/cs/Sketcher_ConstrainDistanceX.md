@@ -43,9 +43,9 @@ Fixes the horizontal distance between 2 points or line ends. If only one point i
 
 1.  Pick one or two points or one line.
 2.  Invoke the tool several ways:
-    -   Press the **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Constrain horizontal distance](Sketcher_ConstrainDistanceX.md)** button in the toolbar.
+    -   Press the **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Constrain horizontal distance](Sketcher_ConstrainDistanceX.md)** button in the toolbar.
     -   Use the **Shift** + **H** keyboard shortcut. (**H** is for **H**orizontal)
-    -   Use the **Sketch → Sketcher constraints → <img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> Constrain horizontal distance** from the top menu.
+    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> Constrain horizontal distance** from the top menu.
 3.  A pop up dialog opens to edit or confirm the value. Press **OK** to validate.
 
 

@@ -5,7 +5,7 @@
 
 ## Einführung
 
-Der FreeCAD <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _, bildet der Skizzierer die Grundlage der _ auch die Grundlage der [Funktionsbearbeitungsmethodik](feature_editing/de.md) zum erstellen von Geometrieelementen um Volumenkörper zu erzeugen.
+Der FreeCAD <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Arbeitsbereich Sketcher](Sketcher_Workbench/de.md) wird verwendet, um 2D Geometrien für den Gebrauch im <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Arbeitsbereich PartDesign](PartDesign_Workbench/de.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arbeitsbereich Architektur](Arch_Workbench/de.md) und anderen Arbeitsbereichen zu erstellen. Im Allgemeinen wird eine 2D Zeichnung als Ausgangspunkt für die meisten CAD Modelle betrachtet, da eine 2D Skizze \"extrudiert\" werden kann, um eine 3D Form zu erstellen; weitere 2D Skizzen können verwendet werden, um andere Merkmale wie Taschen, Stege oder Extrusionen auf den zuvor erstellten 3D Formen zu erstellen. usammen mit boolschen Operationen, definiert im <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Arbeitsbereich Part](Part_Workbench/de.md), bildet der Skizzierer die Grundlage der [der konstruktive Festkörpergeometrie](constructive_solid_geometry/de.md) (CSG) Methode für das Bauen von Volumenkörpern. Darüber hinaus bildet der Skizzierer zusammen mit den Abläufen des <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Arbeitsbereichs PartDesign](PartDesign_Workbench/de.md) auch die Grundlage der [Funktionsbearbeitungsmethodik](feature_editing/de.md) zum erstellen von Geometrieelementen um Volumenkörper zu erzeugen.
 
 Der Arbeitsbereich Sketcher bietet *Beschränkungen* (engl.: constraints), die es erlauben 2D Formen gemäß präzisen geometrischen Vorgaben in Bezug auf Länge, Winkel und Verknüpfungen (Horizontalität, Vertikalität, Rechtwinkligkeit, usw.) zu folgen. Ein Beschränkungslöser berechnet die beschränkte Ausdehnung der 2D Geometrie und ermöglicht die interaktive Untersuchung von Freiheitsgraden der Skizze.
 
@@ -96,7 +96,7 @@ Manchmal funktioniert eine Skizze, die sich überschneidende Linien enthält, f�
 
 Die zum eigentlichen Zeichnen (Erstellen der zweidimensionalen geometrischen Grundelemente) benutzten Werkzeuge sind unter **Skizziergeometrien** zusmmengefasst.
 
-Sobald eine Skizze vollständig beschränkt ist, wechselt die Skizzenmerkmale zu einem leuchtend hellen grün; Konstruktionsgeometrie hingegen bleibt blau. Normalerweise ist die Skizze an dieser Stelle \"fertig bearbeitet\" und für die Erstellung eines 3D Volumenkörpers geeignet. Sobald das Dialogfeld Skizze geschlossen ist, lohnt es sich jedoch möglicherweise, zum <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:Part Arbeitsbereich](Part_Workbench/de.md) zu gehen und **[24px"> [Geometrie prüfen](Part_CheckGeometry/de.md)** auszuführen, um sicherzustellen, dass die Skizze keine Merkmale enthält, die zu späteren Problemen führen können.
+Sobald eine Skizze vollständig beschränkt ist, wechselt die Skizzenmerkmale zu einem leuchtend hellen grün; Konstruktionsgeometrie hingegen bleibt blau. Normalerweise ist die Skizze an dieser Stelle \"fertig bearbeitet\" und für die Erstellung eines 3D Volumenkörpers geeignet. Sobald das Dialogfeld Skizze geschlossen ist, lohnt es sich jedoch möglicherweise, zum <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md) zu gehen und **[<img src=images/Part_CheckGeometry.svg style="width:24px"> [Geometrie prüfen](Part_CheckGeometry/de.md)** auszuführen, um sicherzustellen, dass die Skizze keine Merkmale enthält, die zu späteren Problemen führen können.
 
 ## Tools
 
@@ -114,7 +114,7 @@ Die Werkzeuge des Sketch-Arbeitsbereich sind alle im Sketch-Menü zu finden, das
 
 -   <img alt="" src=images/Sketcher_NewSketch.png‎‎  style="width:32px;"> [Neue Skizze](Sketcher_NewSketch/de.md): Erstellt eine neue Skizze auf einer ausgewählten Fläche oder Ebene. Falls bei der Ausführung dieses Werkzeugs keine Fläche gewählt wurde, wird der Benutzer über ein Dialogfenster zur Auswahl einer Ebene aufgefordert.
 
--   <img alt="" src=images/Sketcher_EditSketch.png  style="width:32px;"> _.
+-   <img alt="" src=images/Sketcher_EditSketch.png  style="width:32px;"> [Skizze bearbeiten](Sketcher_EditSketch/de.md): Editieren der gewählten Skizze. Dies öffnet den [Skizzierer Dialog](Sketcher_Dialog/de.md).
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.png  style="width:32px;"> [Skizze verlassen](Sketcher_LeaveSketch/de.md): Beenden des Skizzierer Bearbeitungsmodus.
 
@@ -160,7 +160,7 @@ Dies sind Werkzeuge zum Erstellen von Objekten.
 
 :\* <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Kreis durch 3 Punkte](Sketcher_Create3PointCircle/de.md): Zeichnet einen Kreis aus drei Punkten auf dem Umfang.
 
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> _, [Punkt auf Objekt](Sketcher_ConstrainPointOnObject/de.md), oder [Orthogonal](Sketcher_ConstrainPerpendicular/de.md) verwendet werden.
+-   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Erstellen eines Kegels](Sketcher_CompCreateConic/de.md): Der Skizzierer stellt folgenden konische Abschnitte bereit. Im Gegensatz zu B-Splines können sie mit allen Arten von Beschränkungen wie z. B. [Tangenten](Sketcher_ConstrainTangent/de.md), [Punkt auf Objekt](Sketcher_ConstrainPointOnObject/de.md), oder [Orthogonal](Sketcher_ConstrainPerpendicular/de.md) verwendet werden.
     -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse durch Zentrum](Sketcher_CreateEllipseByCenter/de.md): Zeichnet eine Ellipse aus Mittelpunkt, Hauptradiuspunkt und Nebenradiuspunkt.
     -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Ellipse durch 3 Punkte](Sketcher_CreateEllipseBy3Points/de.md): Zeichnet eine Ellipse aus Hauptradius (2 Punkte) und kleinem Radiuspunkt
     -   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:32px;"> [Ellipsenbogen](Sketcher_CreateArcOfEllipse/de.md) : Zeichnet eine Ellipsenbogen aus Mittelpunkt, Hauptradiuspunkt, Startpunkt und Endpunkt.
@@ -495,7 +495,7 @@ Jeder CAD Benutzer entwickelt im Laufe der Zeit seine eigene Arbeitsweise, aber 
 -   Wenn möglich, zentriere Deine Skizze auf den Ursprung (0,0) mit der Sperr Beschränkung. Wenn Deine Skizze nicht symmetrisch ist, suche einen ihrer Punkte zum Ursprung oder wähle schöne runde Zahlen für die Verriegelungsabstände. Externe Beschränkungen (Beschränken der Skizze auf vorhandene 3D-Geometrie wie Kanten oder andere Skizzen) sind in v0.12 nicht implementiert. Dies bedeutet, dass die Abstände zur ersten Skizze manuell festgelegt werden müssen, um die Geometrie der folgenden Skizzen zur ersten Skizze festzulegen. Eine Sperrbeschränkung von (25,75) vom Ursprung kann man sich leichter merken als (23.47,73.02).
 -   Wenn man die Möglichkeit hat, zwischen der Längenbeschränkung und der horizontalen oder vertikalen Abstandsbeschränkung zu wählen, bevorzuge die Letztere. Horizontale und vertikale Abstandsbeschränkungen sind rechentechnisch billiger.
 -   Im Allgemeinen sind die besten Beschränkungen zur Verwendung: Horizontale und vertikale Beschränkungen; Horizontale und vertikale Längenbeschränkungen; Punkt-zu-Punkt Tangentialität. Wenn möglich, begrenze die Verwendung der folgenden: der allgemeinen Längenbeschränkung; Tangentialität von Kante zu Kante; Fixpunkt auf einer Linienbeschränkung; Symmetriebeschränkung.
--   Wenn Zweifel an der Gültigkeit einer Skizze bestehen, nachdem diese vollständig ist (Merkmale werden grün), schließe das Skizzierer Dialogfeld, wechsle zum <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ aus.
+-   Wenn Zweifel an der Gültigkeit einer Skizze bestehen, nachdem diese vollständig ist (Merkmale werden grün), schließe das Skizzierer Dialogfeld, wechsle zum <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [ Arbeitbereich Part](Part_Workbench/de.md) und führe das <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> [Geometrie prüfen](Part_CheckGeometry/de.md) aus.
 
 ## Tutorien
 
@@ -516,7 +516,7 @@ Die [Skizzierer Skripten](Sketcher_scripting/de.md) Seite enthält Beispiele fü
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/de

@@ -60,7 +60,7 @@ Le menu standard est composé de 7 sous-menus. Chaque sous-menu a une page dédi
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/fr

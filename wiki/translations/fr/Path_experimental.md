@@ -37,7 +37,7 @@ En savoir plus sur les commandes expérimentales spécifiques sur les [pages du 
 
  {{Path Tools navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Path](Path_Workbench.md) > Path experimental/fr

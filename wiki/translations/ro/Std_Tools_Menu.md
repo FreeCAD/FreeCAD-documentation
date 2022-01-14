@@ -90,7 +90,7 @@ The following tools are available in this menu:
 
 </div>
 
--   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> _ and [macros](macros.md) can be installed.
+-   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> [Addon manager](Std_AddonMgr.md): Opens the Addon manager with which [external workbenches](External_workbenches.md) and [macros](macros.md) can be installed.
 
 
 
@@ -100,7 +100,7 @@ The following tools are available in this menu:
 
 }}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Tools Menu/ro

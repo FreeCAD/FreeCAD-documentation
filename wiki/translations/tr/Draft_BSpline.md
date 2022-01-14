@@ -18,7 +18,7 @@
 
 ## Açıklama
 
-BSpline aracı, mevcut _ \'de ayarlanan [Çizgi stili](Draft_Linestyle/tr.md) alır.
+BSpline aracı, mevcut [ Çalışma düzleminde](Draft_SelectPlane/tr.md) birçok noktadan [B-Spline eğrisi](http://en.wikipedia.org/wiki/B-spline) oluşturur.[Tepsi](Draft_Tray/tr.md) \'de ayarlanan [Çizgi stili](Draft_Linestyle/tr.md) alır.
 
 
 </div>

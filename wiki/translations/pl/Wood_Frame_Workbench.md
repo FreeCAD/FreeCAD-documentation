@@ -44,7 +44,7 @@ Uzupełniające środowisko pracy dla FreeCAD, którego głównym celem jest dos
 
 ## Dodatkowe zasoby 
 
--   _.
+-   [Dokumentacja i filmy demonstracyjne](https://github.com/JeromeL63/Wood-Frame/blob/master/README.md).
 -   [Help: dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?t=40458).
 -   [Prosimy o zgłaszanie błędów](https://github.com/JeromeL63/Wood-Frame/issues).
 
@@ -54,7 +54,7 @@ Aby zainstalować to zewnętrzne środowisko pracy z GitHuba, przejdź do [Menad
 
 Środowisko pracy Konstrukcje Drewniane jest kompatybilne z Freecad w wersji 0.19.
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Wood Frame Workbench/pl

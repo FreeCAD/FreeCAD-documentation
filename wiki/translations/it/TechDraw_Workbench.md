@@ -25,9 +25,9 @@ FreeCAD è principalmente un\'applicazione di modellazione 3D, e quindi non ha m
 
 Questi sono gli strumenti per crere gli oggetti Pagine.
 
--   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> _ predefinito.
+-   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Nuovo disegno standard](TechDraw_PageDefault/it.md): aggiunge una nuova pagina utilizzando il [modello](TechDraw_Templates/it.md) predefinito.
 
--   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> _ selezionato.
+-   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Nuovo disegno da modello](TechDraw_PageTemplate/it.md): aggiunge una nuova pagina utilizzando un [modello](TechDraw_Templates/it.md) selezionato.
 
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Ridisegna la pagina](TechDraw_RedrawPage/it.md): forza un aggiornamento della pagina selezionata. {{Version/it|0.19}}
 
@@ -45,11 +45,11 @@ Questi sono gli strumenti per crere gli oggetti Viste.
 
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [Dettaglio](TechDraw_DetailView/it.md): aggiunge una vista di dettaglio di una porzione di una vista esistente.
 
--   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> _ di un oggetto.
+-   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [Vista di Draft](TechDraw_DraftView/it.md): aggiunge una vista di [Draft](Draft_Workbench/it.md) di un oggetto.
 
--   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> _ di [Arch](Arch_Workbench/it.md).
+-   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Vista di Arch](TechDraw_ArchView/it.md): aggiunge una vista di un oggetto [Piano di sezione](Arch_SectionPlane/it.md) di [Arch](Arch_Workbench/it.md).
 
--   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> _ selezionato.
+-   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> [Vista di foglio di calcolo](TechDraw_SpreadsheetView/it.md): inserisce in un disegno una vista di un [foglio di calcolo](Spreadsheet_Workbench/it.md) selezionato.
 
 ## Clip
 
@@ -69,9 +69,9 @@ Si tratta di strumenti per modificare l\'aspetto delle pagine e della vista.
 
 -   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md): tratteggia una faccia usando uno specifico Autodesk PAT.
 
--   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ in una pagina.
+-   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> [Simbolo SVG](TechDraw_Symbol/it.md): inserisce un simbolo [SVG](SVG/it.md) in una pagina.
 
--   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ PNG o JPG in una pagina.
+-   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> [Immagine bitmap](TechDraw_Image/it.md): inserisce un\'immagine [bitmap](bitmap/it.md) PNG o JPG in una pagina.
 
 -   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Attiva o disattiva la cornice](TechDraw_ToggleFrame/it.md): mostra o nasconde le cornici e le etichette che circondano una vista.
 
@@ -191,7 +191,7 @@ Gli strumenti di annotazione servono per \"commentare\" un disegno con informazi
 
 -   <img alt="" src=images/TechDraw_LeaderLine.svg  style="width:24px;"> [Linea guida](TechDraw_LeaderLine/it.md): aggiunge una linea di annotazione a una vista. {{Version/it|0.19}}
 
--   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:24px;"> _ o una vista. {{Version/it|0.19}}
+-   <img alt="" src=images/TechDraw_RichTextAnnotation.svg  style="width:24px;"> [Blocco di testo](TechDraw_RichTextAnnotation/it.md): aggiunge un blocco di annotazione rich text a una [Linea guida](TechDraw_LeaderLine/it.md) o una vista. {{Version/it|0.19}}
 
 -   <img alt="" src=images/TechDraw_CosmeticVertex.svg  style="width:24px;"> [Vertice cosmetico](TechDraw_CosmeticVertex/it.md): Lo strumento Vertice cosmetico aggiunge un vertice che non fa parte della geometria originale. {{Version/it|0.19}}
 
@@ -316,9 +316,9 @@ These are tools to improve your TechDraw drawings.
 
 Questi sono gli strumenti per esportare le pagine in altre applicazioni.
 
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _.
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Esporta pagina in SVG](TechDraw_ExportPageSVG/it.md): salva una pagina come file [SVG](SVG/it.md).
 
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _.
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Export Page as DXF](TechDraw_ExportPageDXF/it.md): salva la pagina corrente come file [DXF](DXF.md).
 
 ## Ulteriori funzioni 
 
@@ -402,7 +402,7 @@ Video tutorial di sliptonic
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/it

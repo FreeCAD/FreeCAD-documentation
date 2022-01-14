@@ -10,7 +10,7 @@
 
 L\'outil [Renforts de semelle](Arch_Rebar_Footing_Reinforcement/fr.md) permet à l\'utilisateur de créer des barres de renforcement à l\'intérieur d\'un objet semelle [Arch Structure](Arch_Structure/fr.md).
 
-Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 Dans cet exemple, nous allons créer un ferraillage combiné d\'une semelle comme le montre la figure ci-dessous.
 
@@ -60,7 +60,7 @@ Seulement si le contrôle des armatures secondaires est activé :
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Example Combined Footing/fr

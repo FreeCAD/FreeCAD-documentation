@@ -124,7 +124,7 @@ Um mehr als einen Querschnitt zu verwenden, beginne mit der ersten Querschnittss
 <div class="mw-translate-fuzzy">
 
 -   Skizzen für Querschnitte müssen geschlossene Profile bilden.
--   Der Pfad kann nur von einer einzelnen Skizze, einer Funktion oder FormBinder stammen. Falls du entlang mehrerer Skizzen austragen möchtest, verwende einen **<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [SubShapeBinder](PartDesign_SubShapeBinder.md)**.
+-   Der Pfad kann nur von einer einzelnen Skizze, einer Funktion oder FormBinder stammen. Falls du entlang mehrerer Skizzen austragen möchtest, verwende einen **[<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [SubShapeBinder](PartDesign_SubShapeBinder.md)**.
 -   Der Pfad darf keine Verzweigungen oder T-Verbindungen usw. enthalten. Schleifen sind in Ordnung.
 -   Es ist nicht möglich, einen Knoten als Querschnitt zu verwenden.
 -   Es kann zu Problemen führen, wenn der Querschnitt nicht senkrecht zum Pfad in 3D steht (einige andere CAD Systeme betrachten den Ursprung des Querschnitts als Pfad und verlangen nicht, diese Skizze explizit zu platzieren).

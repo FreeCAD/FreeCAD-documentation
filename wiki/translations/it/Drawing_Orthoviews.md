@@ -55,7 +55,7 @@ Da fare
 ## Tutorial
 
 -   [Tutorial di Drawing](Drawing_tutorial/it.md), Introduzione alla creazione di disegni tecnici con l\'ambiente Drawing
--   _ con l\'ambiente Drawing e l\'addon Drawing Dimensioning.
+-   [Manuale: Generare disegni 2D](Manual:Generating_2D_drawings/it.md) con l\'ambiente Drawing e l\'addon Drawing Dimensioning.
 
 
 <div class="mw-translate-fuzzy">

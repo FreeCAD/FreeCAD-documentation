@@ -257,7 +257,7 @@ Please refer to the Page [Importing From Sketchup](Importing_From_Sketchup.md)
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > FreeCAD Howto Import Export

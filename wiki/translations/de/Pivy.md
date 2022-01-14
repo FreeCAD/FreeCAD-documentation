@@ -3,7 +3,7 @@
 
 ## Einführung
 
-_ anzuzeigen. Coin ist eine quelloffene Implementierung der \"Open Inventor\" Spezifikation zur Handhabung von Grafiken. Daher beziehen sich in FreeCAD die Begriffe \"Pivy\", \"Coin\" oder \"Open Inventor\" im Wesentlichen auf die gleiche Sache.
+[Pivy](Pivy/de.md) ist eine [Python](Python/de.md) Bindungsbibliothek für [Coin](https://github.com/coin3d), die 3D Rendering Bibliothek, die in FreeCAD verwendet wird, um Dinge in einer [3D Ansicht](3D_view/de.md) anzuzeigen. Coin ist eine quelloffene Implementierung der \"Open Inventor\" Spezifikation zur Handhabung von Grafiken. Daher beziehen sich in FreeCAD die Begriffe \"Pivy\", \"Coin\" oder \"Open Inventor\" im Wesentlichen auf die gleiche Sache.
 
 
 <div class="mw-translate-fuzzy">
@@ -179,7 +179,7 @@ These links provide reference documentation for Coin v3.x. The differences with 
 
 }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Pivy/de

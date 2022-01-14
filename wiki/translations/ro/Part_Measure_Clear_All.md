@@ -19,7 +19,7 @@ Acest instrument șterge toate măsurătorile din vizualizarea 3D .
 
 ## Cum se utilizează 
 
-1.  Apăsați butonul **<img src=images/Part_Measure_Clear_All.png style="width:24px"> '''Clear All'''** .
+1.  Apăsați butonul **[<img src=images/Part_Measure_Clear_All.png style="width:24px"> '''Clear All'''** .
 
 
 </div>

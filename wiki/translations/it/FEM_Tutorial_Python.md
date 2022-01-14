@@ -622,7 +622,7 @@ Divertitevi! Inoltre, se avete commenti o miglioramenti, non esitate a partecipa
 
 }} {{FEM Tools navi}}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Python Code](Category_Python Code.md) > FEM Tutorial Python/it

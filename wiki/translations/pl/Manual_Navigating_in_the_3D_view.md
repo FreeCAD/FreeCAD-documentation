@@ -54,7 +54,7 @@ Alternatively, some keyboard controls are always available, no matter the naviga
 
 -    **Shift**\+ {{ASCII|17}} and **Shift** + {{ASCII|16}} to rotate the view by 90 degrees
 
--   The numeric keys, {{ASCII|48}}{{ASCII|49}}{{ASCII|50}}{{ASCII|51}}{{ASCII|52}}{{ASCII|53}}{{ASCII|54}}, for the seven standard views: <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> _, <img alt="" src=images/Std_ViewTop.svg  style="width:24px;"> _, <img alt="" src=images/Std_ViewRear.svg  style="width:24px;"> _, and <img alt="" src=images/Std_ViewLeft.svg  style="width:24px;"> [Left](Std_ViewLeft.md)
+-   The numeric keys, {{ASCII|48}}{{ASCII|49}}{{ASCII|50}}{{ASCII|51}}{{ASCII|52}}{{ASCII|53}}{{ASCII|54}}, for the seven standard views: <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [Isometric](Std_ViewIsometric.md), <img alt="" src=images/Std_ViewFront.svg  style="width:24px;"> [Front](Std_ViewFront.md), <img alt="" src=images/Std_ViewTop.svg  style="width:24px;"> [Top](Std_ViewTop.md), <img alt="" src=images/Std_ViewRight.svg  style="width:24px;"> [Right](Std_ViewRight.md), <img alt="" src=images/Std_ViewRear.svg  style="width:24px;"> [Rear](Std_ViewRear.md), <img alt="" src=images/Std_ViewBottom.svg  style="width:24px;"> [Bottom](Std_ViewBottom.md), and <img alt="" src=images/Std_ViewLeft.svg  style="width:24px;"> [Left](Std_ViewLeft.md)
 
 -    **V**
     **O**will set the camera in <img alt="" src=images/View-isometric.svg  style="width:24px;"> [Orthographic view](Std_OrthographicCamera.md).

@@ -7,7 +7,7 @@ If you are not involved with the development discussed here:<br>
 
  
 
-This is _.
+This is [the project article](Development_roadmap.md) for the Robot project. It follows the rules of the \[<http://en.wikipedia.org/wiki/Getting_Things_Done#GTD_methodology>\| Getting things done\] process. The projects are collected in the [Development roadmap](Development_roadmap.md).
 
 ## Purpose and principles 
 
@@ -70,7 +70,7 @@ Robot simulation
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Robot](Robot_Workbench.md) > Robot project

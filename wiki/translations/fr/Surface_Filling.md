@@ -13,7 +13,7 @@
 ## Description
 
 
-**<img src=images/Surface_Filling.svg style="width:16px"> [Surface Remplissage](Surface_Filling/fr.md)**
+**[<img src=images/Surface_Filling.svg style="width:16px"> [Surface Remplissage](Surface_Filling/fr.md)**
 
 crée une surface à partir d\'une série d\'arêtes de délimitation connectées.
 
@@ -27,17 +27,17 @@ La surface peut être modifiée en ajoutant des arêtes et des sommets de contra
 
 ## Utilisation
 
-1.  Assurez-vous d\'avoir au moins trois arêtes ou courbes dans l\'espace formant un contour fermé. Par exemple, ceux-ci peuvent être créés avec des outils de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _. L\'utilisation de trois arêtes créerait une surface triangulaire; quatre arêtes une surface quadrilatérale.
+1.  Assurez-vous d\'avoir au moins trois arêtes ou courbes dans l\'espace formant un contour fermé. Par exemple, ceux-ci peuvent être créés avec des outils de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) ou de l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md). L\'utilisation de trois arêtes créerait une surface triangulaire; quatre arêtes une surface quadrilatérale.
     -   En option, les courbes peuvent être dessinées à l\'intérieur du contour fermé, sans nécessairement toucher les bords. Ces courbes peuvent être utilisées pour contrôler la courbure de la surface résultante.
     -   De même, un certain nombre de sommets peuvent être utilisés dans le même but pour indiquer où la surface doit passer.
-2.  Appuyez sur le bouton **<img src=images/Surface_Filling.svg style="width:16px"> [Filling...](Surface_Filling/fr.md)**.
+2.  Appuyez sur le bouton **[<img src=images/Surface_Filling.svg style="width:16px"> [Filling...](Surface_Filling/fr.md)**.
 3.  Dans la section **Boundary**, appuyez sur **Add edge**.
 4.  Utilisez le pointeur pour sélectionner les arêtes souhaitées dans la [Vue 3D](3D_view/fr.md). Un aperçu de la forme finale sera affiché après avoir sélectionné des arêtes valides qui forment un contour fermé.
     -   En option, allez dans la section **Curvature: non-boundary edges**, appuyez sur **Add edge** et choisissez les arêtes souhaitées dans la [Vue 3D](3D_view/fr.md) .
     -   En option, allez dans la section **Curvature: non-boundary vertices**, appuyez sur **Add vertex** et choisissez les sommets désirés dans la [Vue 3D](3D_view/fr.md) .
 5.  Appuyez sur **OK** pour terminer l\'opération.
 
-Les arêtes de base qui forment le contour fermé, ainsi que les sommets et arêtes auxiliaires, peuvent appartenir à des courbes 2D de <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _ mais peut également appartenir à des objets solides 3D tels que ceux créés avec <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _.
+Les arêtes de base qui forment le contour fermé, ainsi que les sommets et arêtes auxiliaires, peuvent appartenir à des courbes 2D de <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/fr.md) ou de <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/fr.md) mais peut également appartenir à des objets solides 3D tels que ceux créés avec <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md) ou <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/fr.md).
 
 ## Options
 
@@ -45,7 +45,7 @@ Les arêtes de base qui forment le contour fermé, ainsi que les sommets et arê
     -   
         **Add edge**
         
-        : appuyez une fois pour commencer à sélectionner **Boundary edges** (les bords) dans la <img src=images/Draft_Wire.svg style="width:Vue 3D](3D_view/fr.md). Les arêtes droites telles que des **_** ou des arêtes courbes telles que **_** peuvent être prises ainsi que n\'importe quelle arête d\'objets solides, comme celles des **[16px"> <img src=images/Part_Primitives.svg style="width:PartDesign Corps](PartDesign_Body/fr.md)** et des **[16px"> [Part Primitives](Part_Primitives/fr.md)**.
+        : appuyez une fois pour commencer à sélectionner **Boundary edges** (les bords) dans la [Vue 3D](3D_view/fr.md). Les arêtes droites telles que des **[<img src=images/Draft_Wire.svg style="width:16px"> [Draft Polylignes](Draft_Wire/fr.md)** et **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Sketcher Polylignes](Sketcher_CreatePolyline/fr.md)** ou des arêtes courbes telles que **[<img src=images/Draft_BSpline.svg style="width:16px"> [Draft BSplines](Draft_BSpline/fr.md)** et **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Sketcher BSplines](Sketcher_CreateBSpline/fr.md)** peuvent être prises ainsi que n\'importe quelle arête d\'objets solides, comme celles des **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)** et des **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Primitives](Part_Primitives/fr.md)**.
 
     -   
         **Remove edge**
@@ -55,12 +55,12 @@ Les arêtes de base qui forment le contour fermé, ainsi que les sommets et arê
 -    **Right mouse button**: ouvrez le menu contextuel et sélectionnez **Remove** ou appuyez sur **Suppr** au clavier pour supprimer le bord actuellement sélectionné dans la liste.
 
 -   Section **Curvature: non-boundary edges**. Le bouton **Add edge** permet de sélectionner des arêtes auxiliaires (lignes droites ou B-Splines) pour contrôler la courbure de la surface. La surface sera forcée de passer à travers ces bords auxiliaires. Cela fonctionne mieux lorsque les arêtes auxiliaires se trouvent à l\'intérieur de la région délimitée par **Boundary bords**.
--   Section **Curvature: non-boundary vertices**. Similaire aux arêtes non-frontières (non-boundary edges), l\'utilisateur peut choisir des sommets auxiliaires pour contrôler la courbure. Ces sommets peuvent être autonomes **<img src=images/Draft_Point.svg style="width:16px"> <img src=images/Part_Point.svg style="width:Draft Points](Draft_Point/fr.md)** ou **[16px"> [Part Points](Part_Point/fr.md)** ou peut appartenir à n\'importe quelle arête (lignes droites ou B-Splines) ou être un sommet d\'angle dans un objet solide. Dans ce cas, la surface sera contrainte de passer par ces points auxiliaires.
+-   Section **Curvature: non-boundary vertices**. Similaire aux arêtes non-frontières (non-boundary edges), l\'utilisateur peut choisir des sommets auxiliaires pour contrôler la courbure. Ces sommets peuvent être autonomes **[<img src=images/Draft_Point.svg style="width:16px"> [Draft Points](Draft_Point/fr.md)** ou **[<img src=images/Part_Point.svg style="width:16px"> [Part Points](Part_Point/fr.md)** ou peut appartenir à n\'importe quelle arête (lignes droites ou B-Splines) ou être un sommet d\'angle dans un objet solide. Dans ce cas, la surface sera contrainte de passer par ces points auxiliaires.
 -   Appuyez sur **Cancel** ou **Echap** pour abandonner l\'opération en cours.
 
 ## Propriétés
 
-_ (classe `Part::Feature` via la sous-classe `Part::Spline`), elle partage donc toutes les propriétés de cette dernière.
+[Surface Remplissage](Surface_Filling/fr.md) (classe `Surface::Filling`) est dérivée de la classe de base [Part Feature](Part_Feature/fr.md) (classe `Part::Feature` via la sous-classe `Part::Spline`), elle partage donc toutes les propriétés de cette dernière.
 
 Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surface Remplissage a les propriétés suivantes dans l\'[éditeur de propriétés](Property_editor/fr.md).
 
@@ -121,7 +121,7 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surfac
 Le code de surface du noyau de modélisation interne [OpenCASCADE](OpenCASCADE/fr.md) est fragile et ne peut pas gérer correctement les entrées erronées. Les situations suivantes peuvent causer des problèmes et faire planter le programme, elles doivent donc être évitées:
 
 -   Ajouter des {{PropertyData/fr|Boundary Edges}} à cela résulterait en plusieurs faces fermées. Dans ce cas, ces arêtes doivent être ajoutées en tant que {{PropertyData/fr|Unbound Edges}} pour contrôler uniquement la courbure.
--   Utilisation des {{PropertyData/fr|Boundary Edges}} paramétriques (par exemple **<img src=images/Draft_BSpline.svg style="width:16px"> [Draft BSplines](Draft_BSpline/fr.md)**) qui, une fois recalculés, ne parviennent pas à produire une frontière fermée. Autrement dit, les arêtes à utiliser comme {{PropertyData/fr|Boundary Edges}} doivent toujours former une forme fermée, même si leurs propriétés internes changent.
+-   Utilisation des {{PropertyData/fr|Boundary Edges}} paramétriques (par exemple **[<img src=images/Draft_BSpline.svg style="width:16px"> [Draft BSplines](Draft_BSpline/fr.md)**) qui, une fois recalculés, ne parviennent pas à produire une frontière fermée. Autrement dit, les arêtes à utiliser comme {{PropertyData/fr|Boundary Edges}} doivent toujours former une forme fermée, même si leurs propriétés internes changent.
 
 ## Script
 

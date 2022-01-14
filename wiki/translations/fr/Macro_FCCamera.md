@@ -100,11 +100,11 @@ Cette macro peut faire pivoter l\'écran dans un angle et axe défini et crée u
     -   White : sauve l\'image avec écran fond blanc
     -   Black : sauve l\'image avec écran fond noir
 
--    **<img src=images/FCCamera_00.png style="width:24px"> Launch**: Ouvre un fichier donner le nom et le chemin
+-    **[<img src=images/FCCamera_00.png style="width:24px"> Launch**: Ouvre un fichier donner le nom et le chemin
 
--    **<img src=images/FCCamera_07.png style="width:24px"> Reset**: Reset les valeurs par défaut
+-    **[<img src=images/FCCamera_07.png style="width:24px"> Reset**: Reset les valeurs par défaut
 
--    **<img src=images/FCCamera_00.png style="width:24px"> Return**: Quitte la fenêtre de photo et retourne au panneau FCCamera
+-    **[<img src=images/FCCamera_00.png style="width:24px"> Return**: Quitte la fenêtre de photo et retourne au panneau FCCamera
 
 
 

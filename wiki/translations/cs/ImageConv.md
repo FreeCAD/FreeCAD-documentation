@@ -30,7 +30,7 @@ ImageConv je nástroj používaný z příkazové řádky.
 
 </div>
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
 
 ---
 [documentation index](../README.md) > [Developer](Category_Developer.md) > ImageConv/cs

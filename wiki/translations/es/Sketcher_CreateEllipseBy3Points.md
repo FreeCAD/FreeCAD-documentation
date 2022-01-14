@@ -24,7 +24,7 @@ Al iniciar la herramienta, el puntero del ratón cambia a una cruz blanca con un
 
 ## Utilización
 
--   Pulse el **<img src=images/Sketcher_CreateEllipseBy3Points.svg style="width:16px"> [Ellipse por 3 puntos](Sketcher_CreateEllipseBy3Points/es.md)**.
+-   Pulse el **[<img src=images/Sketcher_CreateEllipseBy3Points.svg style="width:16px"> [Ellipse por 3 puntos](Sketcher_CreateEllipseBy3Points/es.md)**.
 -   El primer clic en la vista 3D establece un punto que define el cruce del diámetro mayor con la elipse (periapsis). El segundo clic en la vista 3D establece un punto que define el cruce del diámetro mayor con la elipse opuesto al punto central (apoapsis). El tercer clic establece un punto en la elipse que define el radio menor.
 
 -   Después del tercer clic, se crea la elipse, junto con un conjunto de geometría de construcción alineada con ella (diámetro mayor, diámetro menor, dos focos). La geometría de construcción puede eliminarse manualmente si no se necesita, y volver a crearse más tarde. Ver [Restricción de alineación interna](Sketcher_ConstrainInternalAlignment/es.md) y [Croquizador Mostrar Ocultar Geometría Interna](Sketcher_RestoreInternalAlignmentGeometry/es.md).

@@ -18,7 +18,7 @@ Utilitarul **Cross-sections** crează una sau mai multe secțiuni transversale p
 ## Cum se folosește 
 
 1.  Select a shape.
-2.  Press the **<img src=images/Part_SectionCross.png style="width:24px"> '''Cross-sections'''** button.
+2.  Press the **[<img src=images/Part_SectionCross.png style="width:24px"> '''Cross-sections'''** button.
 3.  Define the guiding plane.
 4.  Define the position (height of the cross-section).
 5.  Optionally, check **Sections** to create more than one cross-section:

@@ -98,7 +98,7 @@ In the *Display* tab you can specify the following:
 | **Hide base length units for supported unit systems**       |                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                        |
 +-------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                                          | If checked, <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:20px;"> _.                  |
+|                                                          | If checked, <img alt="" src=images/Sketcher_ConstrainDiameter.svg  style="width:20px;"> [diameter](Sketcher_ConstrainDiameter.md) will be used as default constraint for arcs and circles instead of <img alt="" src=images/Sketcher_ConstrainRadius.svg  style="width:20px;"> [radius](Sketcher_ConstrainRadius.md).                  |
 | **Use Diameter as default constraint for arcs and circles** |                                                                                                                                                                                                                                                                                                                                                                        |
 |                                                                      |                                                                                                                                                                                                                                                                                                                                                                        |
 | <small>(v0.20)</small>                                           |                                                                                                                                                                                                                                                                                                                                                                        |
@@ -242,7 +242,7 @@ In the *Colors* tab you can specify the following:
 
 }}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher Preferences/ru

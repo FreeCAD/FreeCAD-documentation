@@ -1,5 +1,5 @@
 # Workbenches/pt-br
-O FreeCAD, como muitos aplicativos de design modernos, como _ ou _, baseia-se no conceito de _ (Bancada de trabalho). Uma bancada de trabalho pode ser considerada um conjunto de ferramentas especialmente agrupadas para uma determinada tarefa. Em uma oficina de móveis tradicional, você teria uma mesa de trabalho para quem trabalha com madeira, outra para quem trabalha com peças de metal e talvez uma terceira para quem monta todas as peças.
+O FreeCAD, como muitos aplicativos de design modernos, como [Revit](wikipedia_Revit.md) ou [CATIA](wikipedia_CATIA.md), baseia-se no conceito de [Workbench](wikipedia_Workbench.md) (Bancada de trabalho). Uma bancada de trabalho pode ser considerada um conjunto de ferramentas especialmente agrupadas para uma determinada tarefa. Em uma oficina de móveis tradicional, você teria uma mesa de trabalho para quem trabalha com madeira, outra para quem trabalha com peças de metal e talvez uma terceira para quem monta todas as peças.
 
 No FreeCAD aplica-se o mesmo conceito. As ferramentas são agrupadas em bancadas, de acordo com as tarefas em que são utilizadas.
 
@@ -75,7 +75,7 @@ As seguintes bancadas de trabalho estão disponíveis em todas as instalações 
 As seguintes bancadas de trabalho ainda estão incluídas na instalação básica para fins de compatibilidade, mas não devem mais ser usadas.
 
 -   <img alt="" src=images/Workbench_Complete.svg  style="width:32px;"> [Complete Workbench](Complete_Workbench.md): Contém todos os comandos e recursos de todos os módulos e bancadas que atendem a certos critérios de qualidade. {{Obsolete|0.17}}
--   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> _, que é uma substituição mais avançada. {{Obsolete|0.17}}
+-   <img alt="" src=images/Workbench_Drawing.svg  style="width:32px;"> [Drawing Workbench](Drawing_Workbench.md): Era usada para exibir trabalhos 3D em uma folha 2D, mas foi descontinuada; ainda é necessária para ler arquivos antigos do FreeCAD que contêm objetos de desenho originalmente feitos com esta bancada. Veja [TechDraw Workbench](TechDraw_Workbench.md), que é uma substituição mais avançada. {{Obsolete|0.17}}
 
 
 </div>
@@ -104,7 +104,7 @@ Novas bancadas de trabalho estão sempre em desenvolvimento. Fique atento!
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/pt-br

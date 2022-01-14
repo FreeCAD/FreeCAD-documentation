@@ -45,7 +45,7 @@ FreeCAD может импортировать и экспортировать в
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Manual:Import and export to other filetypes/ru

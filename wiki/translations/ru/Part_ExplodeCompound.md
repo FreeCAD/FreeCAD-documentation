@@ -32,7 +32,7 @@ The tool will also explode non-compound shapes into their lower-level constituen
 ## Use cases 
 
 -   Tweaking positions of shapes made by <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> [Draft OrthoArray](Draft_OrthoArray.md)
--   Obtaining split pieces from result of <img alt="" src=images/Part_Slice.svg  style="width:24px;"> _
+-   Obtaining split pieces from result of <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Slice](Part_Slice.md) and <img alt="" src=images/Part_Cut.svg  style="width:24px;"> [Part Cut](Part_Cut.md)
 -   Obtaining individual contours from multi-contour sketches and faces
 -   Obtaining a pure solid from a solid-in-compound, for use in <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md).
 

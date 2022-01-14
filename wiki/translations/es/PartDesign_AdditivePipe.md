@@ -103,7 +103,7 @@ To use more than one cross-section, start with the first cross-section sketch as
 -   To better control the shape of the pipe, it is recommended that all cross-sections have the same number of segments. For example, for a pipe between a rectangle and a circle, the circle should be broken down into 4 connected arcs.
 -   You can pipe from or toward a single [vertex](Glossary#V.md) from a sketch or the body. <small>(v0.20)</small> 
 -   When you select a [vertex](Glossary#V.md) as section, it must be the last section of the pipe. Otherwise the pipe body would consist of two solids connected at a single point. This would violates the CAD kernel\'s definition of a 3D object. You can change the order of the sections by dragging them in the list.
--   The path can only be from a single sketch, feature or ShapeBinder. In case you want to sweep along several edges from different sketches, use a **<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [SubShapeBinder](PartDesign_SubShapeBinder.md)**.
+-   The path can only be from a single sketch, feature or ShapeBinder. In case you want to sweep along several edges from different sketches, use a **[<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [SubShapeBinder](PartDesign_SubShapeBinder.md)**.
 -   The path must not contain branches or T-junctions etc. Loops are allowed.
 -   It can lead to issues if the cross-section is not perpendicular to the path in 3D.
 -   A cross-section cannot lie on the same plane as the one immediately preceding it.

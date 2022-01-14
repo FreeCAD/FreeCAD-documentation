@@ -17,7 +17,7 @@ Questo comando crea una forma da un [oggetto mesh](Glossary#Mesh.md). In FreeCAD
 
 </div>
 
-The inverse operation is **<img src=images/Mesh_FromPartShape.svg style="width:16px"> _.
+The inverse operation is **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)** from the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md).
 
 ## Usage
 
@@ -44,7 +44,7 @@ Non sono disponibili l\'analisi e la convalida dell\'oggetto mesh.
 
 </div>
 
-After creation of a <img src=images/Part_RefineShape.svg style="width:Shape](Shape.md), it may be useful to use **[Convert to solid](Part_MakeSolid.md)** (necessary for [boolean operations](Part_Boolean.md)) and **[16px"> [Refine shape](Part_RefineShape.md)**.
+After creation of a [Shape](Shape.md), it may be useful to use **[Convert to solid](Part_MakeSolid.md)** (necessary for [boolean operations](Part_Boolean.md)) and **[<img src=images/Part_RefineShape.svg style="width:16px"> [Refine shape](Part_RefineShape.md)**.
 
 ## Links
 

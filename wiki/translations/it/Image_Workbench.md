@@ -49,7 +49,7 @@ L\'offset dell\'immagine può essere impostato durante l\'importazione o modific
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Image Workbench/it

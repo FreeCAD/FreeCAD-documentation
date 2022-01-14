@@ -18,7 +18,7 @@ Das Punktwerkzeug erzeugt einen Punkt in der aktuellen Skizze, der für die Kons
 
 </div>
 
-_
+[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md)
 
 ## Anwendung
 

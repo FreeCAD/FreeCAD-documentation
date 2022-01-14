@@ -28,15 +28,15 @@ It can also bind to objects that are nested inside [Std Parts](Std_Part.md), and
 
 ## Usage
 
-1.  Start with a **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/PartDesign_AdditivePrism.svg style="width:Body](PartDesign_Body.md)** already in place, containing a single [feature](PartDesign_Feature.md), for example, an **[16px">  [AdditivePrism](PartDesign_AdditivePrism.md)**.
-2.  Create a second **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/PartDesign_AdditiveBox.svg style="width:Body](PartDesign_Body.md)**, containing a single [feature](PartDesign_Feature.md), for example, an **[16px"> [AdditiveBox](PartDesign_AdditiveBox.md)**. Make this the [active body](PartDesign_Body#Active_status.md).
-3.  Select the entire first body, then press **<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [SubShapeBinder](PartDesign_SubShapeBinder.md)**.
+1.  Start with a **[<img src=images/PartDesign_Body.svg style="width:16px"> [Body](PartDesign_Body.md)** already in place, containing a single [feature](PartDesign_Feature.md), for example, an **[<img src=images/PartDesign_AdditivePrism.svg style="width:16px">  [AdditivePrism](PartDesign_AdditivePrism.md)**.
+2.  Create a second **[<img src=images/PartDesign_Body.svg style="width:16px"> [Body](PartDesign_Body.md)**, containing a single [feature](PartDesign_Feature.md), for example, an **[<img src=images/PartDesign_AdditiveBox.svg style="width:16px"> [AdditiveBox](PartDesign_AdditiveBox.md)**. Make this the [active body](PartDesign_Body#Active_status.md).
+3.  Select the entire first body, then press **[<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [SubShapeBinder](PartDesign_SubShapeBinder.md)**.
 4.  Modify the properties of this binder object, for example its placement.
-5.  Use it with another operation, such as **<img src=images/PartDesign_Boolean.svg style="width:16px"> [Boolean](PartDesign_Boolean.md)**.
+5.  Use it with another operation, such as **[<img src=images/PartDesign_Boolean.svg style="width:16px"> [Boolean](PartDesign_Boolean.md)**.
 
 ## Properties
 
-The _, the following properties are available in the [property editor](property_editor.md).
+The [SubShapeBinder](PartDesign_SubShapeBinder.md) is derived from [Part Feature](Part_Feature.md) (`Part::Feature` class). In addition to the properties listed in [Part Feature](Part_Feature.md), the following properties are available in the [property editor](property_editor.md).
 
 ### Data
 

@@ -38,7 +38,7 @@
 <div class="mw-translate-fuzzy">
 
 1.  Selectează două puncte sau o linie sau un punct și o linie.
-2.  Apăsați butonul **<img src=images/Sketcher_ConstrainDistance.png style="width:24px"> '''Constrain distance'''** .
+2.  Apăsați butonul **[<img src=images/Sketcher_ConstrainDistance.png style="width:24px"> '''Constrain distance'''** .
 3.  Un dialog se deschide pentru a edita și a confirma valoarea. Apăsați **OK** pentru a valida.
 
 

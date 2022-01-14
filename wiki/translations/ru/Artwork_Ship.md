@@ -26,7 +26,7 @@
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Ship](Category_Ship.md)
 
 ---
 [documentation index](../README.md) > [Ship](Category_Ship.md) > Artwork Ship/ru

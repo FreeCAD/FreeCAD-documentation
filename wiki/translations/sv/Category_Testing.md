@@ -5,7 +5,7 @@ Pages related to testing in regards to unit testing, continuous integration, qua
 
 [Testing/sv](Testing/sv.md) ,
 
-_
+[<img src="images/Property.png" style="width:16px"> Test Framework/sv](<img src="images/Property.png" style="width:16px"> Test_Framework/sv.md)
 
 ---
 [documentation index](../README.md) > Category:Testing/sv

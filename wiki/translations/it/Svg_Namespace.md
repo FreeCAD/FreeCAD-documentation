@@ -7,7 +7,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Nei documenti _ di FreeCAD e utilizzati come [modelli di pagina](Drawing_templates/it.md) (squadrature), si possono utilizzare diversi [attributi](http://www.w3schools.com/xml/xml_attributes.asp) personalizzati, originariamente per uso interno di FreeCAD, ma che, in futuro, potrebbero essere utilizzati anche da altre applicazioni oltre a FreeCAD . Tutti questi attributi utilizzano il prefisso **freecad:** per il [namespace](http://www.w3schools.com/xml/xml_namespaces.asp). L\'URL del namespace definito in tali documenti SVG fa riferimento a questa pagina.
+Nei documenti [SVG](http://it.wikipedia.org/wiki/Scalable_Vector_Graphics) esportati dal [Modulo Disegno](Drawing_Workbench/it.md) di FreeCAD e utilizzati come [modelli di pagina](Drawing_templates/it.md) (squadrature), si possono utilizzare diversi [attributi](http://www.w3schools.com/xml/xml_attributes.asp) personalizzati, originariamente per uso interno di FreeCAD, ma che, in futuro, potrebbero essere utilizzati anche da altre applicazioni oltre a FreeCAD . Tutti questi attributi utilizzano il prefisso **freecad:** per il [namespace](http://www.w3schools.com/xml/xml_namespaces.asp). L\'URL del namespace definito in tali documenti SVG fa riferimento a questa pagina.
 
 
 </div>
@@ -56,7 +56,7 @@ Possono essere aggiunte informazioni supplementari per lo spazio di lavoro e il 
 
 ## Attributi
 
-### _
+### [freecad:EditableText](#Example_of_code_freecad_EditableText.md)
 
 Per utilizzare uno degli attributi **freecad:** nei documenti SVG, si deve prima definire il namespace freecad come attributo del tag di apertura
 
@@ -101,7 +101,7 @@ Definisce il secondo punto di un oggetto di [Quotatura](Draft_Dimension/it.md) (
 
 </div>
 
-Esempio: vedere _
+Esempio: vedere [freecad:basepoint1](#freecad_basepoint1.md)
 
 ### freecad:dimpoint
 
@@ -113,7 +113,7 @@ Definisce il punto di un oggetto di [Quotatura](Draft_Dimension/it.md) attravers
 
 </div>
 
-Esempio: vedere _
+Esempio: vedere [freecad:basepoint1](#freecad_basepoint1.md)
 
 ### Esempio di codice freecad:EditableText 
 
@@ -257,7 +257,7 @@ Vedere la pagina dei [Modelli di squadrature](Drawing_templates/it.md)
 
 }}
 
-_ _ _ _
+[<img src="images/Property.png" style="width:16px"> Poweruser\_Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> Python\_Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Macros](Category_Macros.md)
 
 ---
 [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > Svg Namespace/it

@@ -41,7 +41,7 @@ Schimbați proprietățile de ex din PropertyLength în PropertyUntit cu o semn�
 ### Ateliere
 
 -   Actualizarea Atelierelor de lucru pentru a utiliza cadrul unităților de măsură. Aș începe cu Sketcher și PartDesign și du-te mai departe \...
--   Documentarea procesului de actualizare, astfel încât alți oameni să poată face același lucru cu alte ateliere de lucru -_ 13:13, 28 November 2011 (UTC)
+-   Documentarea procesului de actualizare, astfel încât alți oameni să poată face același lucru cu alte ateliere de lucru -[Yorikvanhavre](User_Yorikvanhavre.md) 13:13, 28 November 2011 (UTC)
 
 ## Umătorii pași 
 
@@ -49,7 +49,7 @@ Schimbați proprietățile de ex din PropertyLength în PropertyUntit cu o semn�
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Units project/ro

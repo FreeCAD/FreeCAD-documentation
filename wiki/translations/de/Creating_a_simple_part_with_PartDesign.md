@@ -24,7 +24,7 @@ Dieses Tutorial soll FreeCAD Anfängern anhand eines Beispiels einige grundlegen
 
 ### Verwenden des [Part Design Arbeitsbereich](PartDesign_Workbench/de.md) nachverfolgen der Skizze 
 
-Erstelle ein neues Dokument und wechsle in den **<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design Arbeitsbereich'''** entweder mit dem [Arbeitsbereich Wahlschalter](Getting_started#Exploring_the_interface/de.md) (im verknüpften Bild mit 10 beschriftet) oder über das Menü *Ansicht → Arbeitsbereich*. FreeCAD startet mit den Werkzeugleisten oben, die Comboansicht links und der 3D Ansicht rechts.
+Erstelle ein neues Dokument und wechsle in den **[<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design Arbeitsbereich'''** entweder mit dem [Arbeitsbereich Wahlschalter](Getting_started#Exploring_the_interface/de.md) (im verknüpften Bild mit 10 beschriftet) oder über das Menü *Ansicht → Arbeitsbereich*. FreeCAD startet mit den Werkzeugleisten oben, die Comboansicht links und der 3D Ansicht rechts.
 
 **Erstelle Körper:**
 
@@ -118,7 +118,7 @@ Wenn deine Skizze noch nicht grün ist, sind ein oder mehrere Punkte nicht decku
 
 Gehe bei allen Punkten auf die gleiche Weise vor.
 
-Wenn deine Skizze immer noch nicht grün ist, überprüfe, ob alle Linien (außer der schrägen) entweder ein <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> _ und füge, wenn nötig, eine Beschränkung hinzu.
+Wenn deine Skizze immer noch nicht grün ist, überprüfe, ob alle Linien (außer der schrägen) entweder ein <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Horizontal](Sketcher_ConstrainHorizontal.md) oder <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [Vertikal](Sketcher_ConstrainVertical.md) und füge, wenn nötig, eine Beschränkung hinzu.
 
 ### Verwendung der Polster- und Taschen Formelemente 
 

@@ -22,7 +22,7 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Assembly](Category_Assembly.md)
 
 ---
 [documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly/fr

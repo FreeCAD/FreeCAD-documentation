@@ -20,7 +20,7 @@ Pour produire des copies non paramétriques complètes des objets, utilisez **<i
 ## Utilisation
 
 1.  Sélectionnez un sommet, une arête ou une face d\'un objet pour lequel vous souhaitez effectuer une copie.
-2.  Allez au menu **Pièce → Create a copy → <img src=images/Part_ElementCopy.svg style="width:16px"> [Create shape element copy](Part_ElementCopy/fr.md)**.
+2.  Allez au menu **Pièce → Create a copy → [<img src=images/Part_ElementCopy.svg style="width:16px"> [Create shape element copy](Part_ElementCopy/fr.md)**.
 
 ## Propriétés
 

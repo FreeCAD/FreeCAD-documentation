@@ -15,7 +15,7 @@ Cuts (subtracts) selected Part objects, the last one being subtracted from the f
 
 **Note:** This command is an automated form of the <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Boolean operation](Part_Boolean.md).
 
-_
+[480px\|left\|Cut](IMAGE:Part_Cut_01.png.md)
 
 ## Применение
 

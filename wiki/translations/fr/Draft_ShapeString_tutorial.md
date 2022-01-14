@@ -15,11 +15,11 @@ Ce tutoriel a été écrit à l\'origine par Roland Frank († 2017, r-frank). I
 Ce didacticiel décrit une méthode pour créer du texte 3D et l\'utiliser avec des objets solides dans l\'[atelier Part](Part_Workbench/fr.md) <img alt="" src=images/Workbench_Part.svg  style="width:24px;">. Nous allons voir comment
 
 -   insérer du texte avec l\'outil **<img src="images/Draft_ShapeString.svg" width=16px> [Draft ShapeString](Draft_ShapeString/fr.md)**,
--   l\'extruder pour qu\'il soit un solide 3D avec **<img src=images/Part_Extrude.svg style="width:16px"> [Part Extrude](Part_Extrude/fr.md)**,
--   le positionner dans l\'espace 3D en utilisant le <img src=images/Draft_Move.svg style="width:placement](placement.md) et **[16px"> [Draft Move](Draft_Move/fr.md)** (on utilise une esquisse comme géométrie auxiliaire) et
--   gravez le texte en appliquant une **<img src=images/Part_Cut.svg style="width:16px"> [coupe Part](Part_Cut/fr.md)**.
+-   l\'extruder pour qu\'il soit un solide 3D avec **[<img src=images/Part_Extrude.svg style="width:16px"> [Part Extrude](Part_Extrude/fr.md)**,
+-   le positionner dans l\'espace 3D en utilisant le [placement](placement.md) et **[<img src=images/Draft_Move.svg style="width:16px"> [Draft Move](Draft_Move/fr.md)** (on utilise une esquisse comme géométrie auxiliaire) et
+-   gravez le texte en appliquant une **[<img src=images/Part_Cut.svg style="width:16px"> [coupe Part](Part_Cut/fr.md)**.
 
-Pour utiliser ShapeStrings à l\'intérieur de l\'_ pour l\'extruder. allez à la fin de ce didacticiel pour plus d\'informations.
+Pour utiliser ShapeStrings à l\'intérieur de l\'[atelier PartDesign](PartDesign_Workbench/fr.md) <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;">, le procédé est essentiellement le même qu\'avec l\'atelier Part, mais le ShapeString est placé à l\'intérieur du [corps PartDesign](PartDesign_Body/fr.md) pour l\'extruder. allez à la fin de ce didacticiel pour plus d\'informations.
 
 ![](images/08_T04_Part_ShapesString_Extrude_final_cut.png ) 
 *Maquette finale du texte gravé.*
@@ -31,10 +31,10 @@ L\'[atelier Sketcher](Sketcher_Workbench/fr.md) est utilisé brièvement pour tr
 
 ## Installation
 
-1\. Lancez FreeCAD, créez un nouveau document vide avec **Fichier → <img src=images/Std_New.svg style="width:16px"> [Nouveau](Std_New/fr.md)** et sélectionnez l\'[atelier Part](Part_Workbench/fr.md).
+1\. Lancez FreeCAD, créez un nouveau document vide avec **Fichier → [<img src=images/Std_New.svg style="width:16px"> [Nouveau](Std_New/fr.md)** et sélectionnez l\'[atelier Part](Part_Workbench/fr.md).
 
-:   1.1. Appuyez sur le bouton **<img src=images/Std_ViewIsometric.svg style="width:16px"> [Vue isométrique](Std_ViewIsometric/fr.md)** ou appuyez sur **0** dans le pavé numérique de votre clavier, pour changer la vue à isométrique pour mieux visualiser les solides 3D.
-:   1.2. Appuyez sur le bouton **<img src=images/Std_ViewFitAll.svg style="width:16px"> [Tout afficher](Std_ViewFitAll/fr.md)** chaque fois que vous ajoutez des objets afin de faire un panoramique et un zoom sur [Vue 3D](3D_view/fr.md) afin que tous les éléments soient visibles dans la vue.
+:   1.1. Appuyez sur le bouton **[<img src=images/Std_ViewIsometric.svg style="width:16px"> [Vue isométrique](Std_ViewIsometric/fr.md)** ou appuyez sur **0** dans le pavé numérique de votre clavier, pour changer la vue à isométrique pour mieux visualiser les solides 3D.
+:   1.2. Appuyez sur le bouton **[<img src=images/Std_ViewFitAll.svg style="width:16px"> [Tout afficher](Std_ViewFitAll/fr.md)** chaque fois que vous ajoutez des objets afin de faire un panoramique et un zoom sur [Vue 3D](3D_view/fr.md) afin que tous les éléments soient visibles dans la vue.
 :   1.3. Maintenez **Ctrl** pendant que vous cliquez pour sélectionner plusieurs éléments. Si vous avez sélectionné quelque chose de mal ou souhaitez tout désélectionner, cliquez simplement sur un espace vide dans la [Vue 3D](3D_view/fr.md).
 
 ## Création de la forme de base 
@@ -61,11 +61,11 @@ L\'[atelier Sketcher](Sketcher_Workbench/fr.md) est utilisé brièvement pour tr
 4\. Basculez vers l\'[atelier Draft](Draft_Workbench/fr.md).
 
 :   4.1. Assurez-vous que rien n\'est sélectionné dans [vue en arborescence](tree_view/fr.md).
-:   4.2. Établissez le plan de travail jusqu\'à XY (haut) en cliquant sur **<img src=images/Draft_SelectPlane.svg style="width:16px"> <img src=images/View-top.svg style="width:Plan de travail](Draft_SelectPlane/fr.md)** et pressez **[16px"> [Vue de dessus (XY)](Std_ViewTop/fr.md)**.
+:   4.2. Établissez le plan de travail jusqu\'à XY (haut) en cliquant sur **[<img src=images/Draft_SelectPlane.svg style="width:16px"> [Plan de travail](Draft_SelectPlane/fr.md)** et pressez **[<img src=images/View-top.svg style="width:16px"> [Vue de dessus (XY)](Std_ViewTop/fr.md)**.
 
 5\. Insérer le texte \"FreeCAD\".
 
-:   5.1. Appuyez sur **<img src=images/Draft_ShapeString.svg style="width:16px"> [ShapeString](Draft_ShapeString.md)**.
+:   5.1. Appuyez sur **[<img src=images/Draft_ShapeString.svg style="width:16px"> [ShapeString](Draft_ShapeString.md)**.
 :   5.2. Remplacez **X** en `0 mm`.
 :   5.3. Remplacez **Y** en `0 mm`.
 :   5.4. Remplacez **Z** en `0 mm`.
@@ -78,11 +78,11 @@ L\'[atelier Sketcher](Sketcher_Workbench/fr.md) est utilisé brièvement pour tr
         
         pour plus de détails sur le travail avec les polices, veuillez vous reporter à la section [Draft Formes à partir texte Remarques](Draft_ShapeString/fr#Remarques.md).
 :   5.8. Appuyez sur **OK**. Cela créera un objet `ShapeString`.
-:   5.9. Recalculez le document en appuyant sur **<img src=images/Std_Refresh.svg style="width:16px"> [Rafraîchir](Std_Refresh/fr.md)**.
+:   5.9. Recalculez le document en appuyant sur **[<img src=images/Std_Refresh.svg style="width:16px"> [Rafraîchir](Std_Refresh/fr.md)**.
 :   5.10. Dans la [vue en arborescence](tree_view/fr.md), sélectionnez `ShapeString`, dans l\'onglet **View**, changez la valeur de **Line Width** en `2.0`.
 :   5.11. Dans la [vue en arborescence](tree_view/fr.md), sélectionnez `Chamfer`, dans l\'onglet **View**, changez la valeur de **Visibility** en `false` ou appuyez sur **Espace** sur le clavier. Cela masquera l\'objet afin que vous puissiez mieux voir le `ShapeString`.
-:   5.12. Pour voir la ShapeString ci-dessus, changez la vue en appuyant sur **<img src=images/View-top.svg style="width:16px"> [Vue de dessus (XY)](Std_ViewTop/fr.md)** ou **2** dans le clavier.
-:   5.13. Pour restaurer la vue en isométrique, appuyez sur **<img src=images/Std_ViewIsometric.svg style="width:16px"> [Vue isométrique](Std_ViewIsometric/fr.md)** ou **0** sur le clavier.
+:   5.12. Pour voir la ShapeString ci-dessus, changez la vue en appuyant sur **[<img src=images/View-top.svg style="width:16px"> [Vue de dessus (XY)](Std_ViewTop/fr.md)** ou **2** dans le clavier.
+:   5.13. Pour restaurer la vue en isométrique, appuyez sur **[<img src=images/Std_ViewIsometric.svg style="width:16px"> [Vue isométrique](Std_ViewIsometric/fr.md)** ou **0** sur le clavier.
 
 ![](images/02_T04_Part_ShapeString.png ) 
 *Texte créé en tant que ShapeString, c'est-à-dire en tant que collection d'arêtes dans un plan.*
@@ -91,7 +91,7 @@ L\'[atelier Sketcher](Sketcher_Workbench/fr.md) est utilisé brièvement pour tr
 
 6\. Retour à l\'[atelier Part](Part_Workbench/fr.md).
 
-:   6.1. Dans la <img src=images/Part_Extrude.svg style="width:vue en arborescence](tree_view/fr.md), sélectionnez `ShapeString`, puis appuyez sur **[16px"> [Extrusion](Part_Extrude/fr.md)**.
+:   6.1. Dans la [vue en arborescence](tree_view/fr.md), sélectionnez `ShapeString`, puis appuyez sur **[<img src=images/Part_Extrude.svg style="width:16px"> [Extrusion](Part_Extrude/fr.md)**.
 :   6.2. Dans le [Panneau des tâches](task_panel/fr.md) **Extrusion** allez dans **Direction**, choisissez **Along normal**; dans **Length**, définissez **Along** sur `1 mm`; cochez également l\'option **Create solid**.
 :   6.3. Appuyez sur **OK**. Cela créera un objet `Extrude`.
 :   6.4. Dans la [vue en arborescence](tree_view/fr.md), sélectionnez `Extrude`, dans l\'onglet **View**, changez la valeur de **Line Width** en `2.0`.
@@ -110,11 +110,11 @@ Nous allons maintenant dessiner une simple esquisse qui sera utilisée comme gé
 9\. Dans la [arborescence](tree_view.md), sélectionnez `Chamfer`, puis appuyez sur **Espace** sur le clavier pour le rendre visible.
 
 :   9.1. Choisissez la face inclinée créée par l\'opération de chanfrein (`Face3`).
-:   9.2. Cliquez sur **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Nouvelle esquisse](Sketcher_NewSketch/fr.md)**. Dans la boîte de dialogue **Sketch attachment**, sélectionnez `FlatFace`, puis appuyez sur **OK**.
+:   9.2. Cliquez sur **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Nouvelle esquisse](Sketcher_NewSketch/fr.md)**. Dans la boîte de dialogue **Sketch attachment**, sélectionnez `FlatFace`, puis appuyez sur **OK**.
 :   9.3. La vue doit s\'ajuster automatiquement afin que la caméra soit parallèle au visage sélectionné.
 :   9.4. Tracez une ligne horizontale dans une position générale sur le dessus du visage. La longueur n\'est pas importante; nous sommes simplement intéressés par sa position.
-:   9.5. Contraindre l\'extrémité gauche à `2.5 mm` de l\'axe X local et de l\'axe Y local, à l\'aide de **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> <img src=images/Sketcher_ConstrainDistanceY.svg style="width:Contrainte de distance horizontale](Sketcher_ConstrainDistanceX.md)** et **[16px"> [Contrainte distance verticale](Sketcher_ConstrainDistanceY.md)**.
-:   9,6. Étant donné que l\'esquisse n\'est qu\'un objet auxiliaire, nous n\'avons pas besoin de le contraindre complètement. Vous pouvez le faire si vous le souhaitez en affectant une distance fixe, par exemple `20 mm`, à nouveau avec **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Contrainte de distance horizontale](Sketcher_ConstrainDistanceX.md)**.
+:   9.5. Contraindre l\'extrémité gauche à `2.5 mm` de l\'axe X local et de l\'axe Y local, à l\'aide de **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Contrainte de distance horizontale](Sketcher_ConstrainDistanceX.md)** et **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Contrainte distance verticale](Sketcher_ConstrainDistanceY.md)**.
+:   9,6. Étant donné que l\'esquisse n\'est qu\'un objet auxiliaire, nous n\'avons pas besoin de le contraindre complètement. Vous pouvez le faire si vous le souhaitez en affectant une distance fixe, par exemple `20 mm`, à nouveau avec **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Contrainte de distance horizontale](Sketcher_ConstrainDistanceX.md)**.
 :   9.7. Fermez l\'esquisse.
 
 <img alt="" src=images/04_T04_Part_ShapeString_support_sketch.png  style="width:500px;"> 
@@ -136,16 +136,16 @@ Nous allons maintenant dessiner une simple esquisse qui sera utilisée comme gé
 
 12\. Basculez à nouveau vers l\'[Atelier Draft](Draft_Workbench/fr.md).
 
-:   12.1. Passez au style de dessin \"Filaire\" avec **Affichage → <img src=images/DrawStyleWireFrame.svg style="width:Style de représentation](Std_DrawStyle/fr.md) → [16px"> Filaire** ou appuyez sur **<img src=images/DrawStyleWireFrame.svg style="width:16px"> [Filaire](Std_DrawStyle/fr.md)** dans la barre d\'outils de la vue. Cela vous permettra de voir les objets derrière d\'autres objets.
-:   12.2. Assurez-vous que la méthode <img src=images/Draft_Snap_Lock.svg style="width:Draft Accrochage](Draft_Snap/fr.md) \"Snap to endpoint\" est active. Cela peut être fait à partir du menu **Draft → Accrochage → _** ou en appuyant sur **[16px"> <img src=images/Draft_Snap_Endpoint.svg style="width:Activer/désactiver l'accrochage](Draft_Snap_Lock/fr.md)** et **[16px"> [Terminaison](Draft_Snap_Endpoint/fr.md)** dans la barre d\'outils Snap.
+:   12.1. Passez au style de dessin \"Filaire\" avec **Affichage → [Style de représentation](Std_DrawStyle/fr.md) → [<img src=images/DrawStyleWireFrame.svg style="width:16px"> Filaire** ou appuyez sur **[<img src=images/DrawStyleWireFrame.svg style="width:16px"> [Filaire](Std_DrawStyle/fr.md)** dans la barre d\'outils de la vue. Cela vous permettra de voir les objets derrière d\'autres objets.
+:   12.2. Assurez-vous que la méthode [Draft Accrochage](Draft_Snap/fr.md) \"Snap to endpoint\" est active. Cela peut être fait à partir du menu **Draft → Accrochage → [<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Activer/désactiver l'accrochage](Draft_Snap_Lock/fr.md)** puis ** → [<img src=images/Snap_Endpoint.svg style="width:16px"> [Terminaison](Draft_Snap_Endpoint/fr.md)** ou en appuyant sur **[<img src=images/Draft_Snap_Lock.svg style="width:16px"> [Activer/désactiver l'accrochage](Draft_Snap_Lock/fr.md)** et **[<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Terminaison](Draft_Snap_Endpoint/fr.md)** dans la barre d\'outils Snap.
 
 13\. Dans la [Vue en arborescence](Tree_view/fr.md), sélectionnez `Extrude`.
 
-:   13.1. Cliquez sur **<img src=images/Draft_Move.svg style="width:16px"> [Déplacer](Draft_Move/fr.md)**.
+:   13.1. Cliquez sur **[<img src=images/Draft_Move.svg style="width:16px"> [Déplacer](Draft_Move/fr.md)**.
 :   13.2. Dans la [Vue 3D](3D_view/fr.md), cliquez sur le coin supérieur gauche de l\'objet `Extrude` (1), puis cliquez sur le point le plus à gauche de la ligne tracée avec l\'esquisse (2).
-:   13.3. Si **<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Terminaison](Draft_Snap_Endpoint/fr.md)** est actif, dès que vous déplacez le pointeur près d\'un sommet, vous devez voir qu\'il s\'y attache. exactement.
+:   13.3. Si **[<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Terminaison](Draft_Snap_Endpoint/fr.md)** est actif, dès que vous déplacez le pointeur près d\'un sommet, vous devez voir qu\'il s\'y attache. exactement.
 :   
-    **Remarque:**si vous rencontrez des problèmes lors de l\'accrochage aux sommets, assurez-vous que seule la méthode **<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Terminaison](Draft_Snap_Endpoint/fr.md)** est activée . Le fait d\'avoir plusieurs méthodes d\'accrochage actives en même temps peut rendre difficile la sélection de la bonne fonction.
+    **Remarque:**si vous rencontrez des problèmes lors de l\'accrochage aux sommets, assurez-vous que seule la méthode **[<img src=images/Draft_Snap_Endpoint.svg style="width:16px"> [Terminaison](Draft_Snap_Endpoint/fr.md)** est activée . Le fait d\'avoir plusieurs méthodes d\'accrochage actives en même temps peut rendre difficile la sélection de la bonne fonction.
 :   13.4. Le texte extrudé doit maintenant se trouver dans le corps de l\'objet `Fillet`.
 
 ![](images/06_T04_Part_ShapeString_move.svg ) 
@@ -158,12 +158,12 @@ Nous allons maintenant dessiner une simple esquisse qui sera utilisée comme gé
 
 14\. Revenez à l\'[Atelier Part](Part_Workbench/fr.md).
 
-:   14.1. Passez au style de dessin \"Comme actuellement\" avec **Affichage → <img src=images/DrawStyleAsIs.svg style="width:Style de représentation](Std_DrawStyle/fr.md) → [16px"> Comme actuellement** ou appuyez sur le **<img src=images/DrawStyleAsIs.svg style="width:16px"> [Comme actuellement](Std_DrawStyle.md)** bouton dans la barre d\'outils de la vue. Cela montrera tous les objets avec l\'ombrage et la couleur normaux.
+:   14.1. Passez au style de dessin \"Comme actuellement\" avec **Affichage → [Style de représentation](Std_DrawStyle/fr.md) → [<img src=images/DrawStyleAsIs.svg style="width:16px"> Comme actuellement** ou appuyez sur le **[<img src=images/DrawStyleAsIs.svg style="width:16px"> [Comme actuellement](Std_DrawStyle.md)** bouton dans la barre d\'outils de la vue. Cela montrera tous les objets avec l\'ombrage et la couleur normaux.
 :   14.2. Dans la [Vue en arborescence](tree_view.md), sélectionnez `Sketch` et appuyez sur **Espace** sur le clavier pour le rendre invisible.
 
 15\. Dans la [Vue en arborescence](tree_view.md), sélectionnez d\'abord `Chamfer` puis `Extrude`.
 
-:   15.1. Appuyez ensuite sur **<img src=images/Part_Cut.svg style="width:16px"> [Soustraction](Part_Cut/fr.md)**. Cela créera un objet `Cut`. Ceci est l\'objet terminé.
+:   15.1. Appuyez ensuite sur **[<img src=images/Part_Cut.svg style="width:16px"> [Soustraction](Part_Cut/fr.md)**. Cela créera un objet `Cut`. Ceci est l\'objet terminé.
 :   
     **Remarque:**l\'ordre dans lequel vous sélectionnez les objets est important pour l\'opération de découpe. L\'objet de base est sélectionné en premier et l\'objet soustractif arrive à la fin.
 :   15.2. Dans la [Vue en arborescence](tree_view.md), sélectionnez `Cut`, dans l\'onglet **Affichage**, changez la valeur de **Line Width** en `2.0`.
@@ -175,11 +175,11 @@ Nous allons maintenant dessiner une simple esquisse qui sera utilisée comme gé
 
 Un processus similaire à celui décrit ci-dessus peut être effectué avec l\'[Atelier PartDesign](PartDesign_Workbench/fr.md).
 
-1.  Créez d\'abord le **<img src=images/Draft_ShapeString.svg style="width:16px"> [Draft Formes à partir texte](Draft_ShapeString/fr.md)**.
-2.  Créez un **<img src=images/PartDesign_Body_Tree.svg style="width:16px"> <img src=images/PartDesign_Pad.svg style="width:PartDesign Corps](PartDesign_Body/fr.md)**, rendez-le actif et ajoutez un solide de base en ajoutant des primitives ou en utilisant une esquisse et en l\'extrudant avec **[16px"> [PartDesign Protrusion](PartDesign_Pad/fr.md)**.
+1.  Créez d\'abord le **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Draft Formes à partir texte](Draft_ShapeString/fr.md)**.
+2.  Créez un **[<img src=images/PartDesign_Body_Tree.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)**, rendez-le actif et ajoutez un solide de base en ajoutant des primitives ou en utilisant une esquisse et en l\'extrudant avec **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Protrusion](PartDesign_Pad/fr.md)**.
 3.  Déplacez l\'objet `ShapeString` dans le corps actif.
-4.  Attachez l\'objet `ShapeString` à l\'une des faces du solide ou à un **<img src=images/PartDesign_Plane.svg style="width:16px"> <img src=images/Part_EditAttachment.svg style="width:PartDesign Plan de référence](PartDesign_Plane/fr.md)**, en utilisant **[16px"> [Part Accrochage](Part_EditAttachment/fr.md)**.
-5.  Créez maintenant un **<img src=images/PartDesign_Pad.svg style="width:16px"> <img src=images/PartDesign_Pocket.svg style="width:PartDesign Protrusion](PartDesign_Pad/fr.md)** ou un **[16px"> [PartDesign Cavité](PartDesign_Pocket/fr.md)** à partir de `ShapeString`, afin de produire un additif ou une soustraction [PartDesign Feature](PartDesign_Feature/fr.md) du corps de base, respectivement.
+4.  Attachez l\'objet `ShapeString` à l\'une des faces du solide ou à un **[<img src=images/PartDesign_Plane.svg style="width:16px"> [PartDesign Plan de référence](PartDesign_Plane/fr.md)**, en utilisant **[<img src=images/Part_EditAttachment.svg style="width:16px"> [Part Accrochage](Part_EditAttachment/fr.md)**.
+5.  Créez maintenant un **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Protrusion](PartDesign_Pad/fr.md)** ou un **[<img src=images/PartDesign_Pocket.svg style="width:16px"> [PartDesign Cavité](PartDesign_Pocket/fr.md)** à partir de `ShapeString`, afin de produire un additif ou une soustraction [PartDesign Feature](PartDesign_Feature/fr.md) du corps de base, respectivement.
 
 Voir le fil du forum [How to use ShapeStrings in PartDesign](https://forum.freecadweb.org/viewtopic.php?f=3&t=36623).
 

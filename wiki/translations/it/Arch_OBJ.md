@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Oltre all\'esportatore _ dispone di un esportatore alternativo che esporta le facce complanari come facce OBJ intere, invece di triangolazioni eseguite su oggetti costruiti su [forme](Shape/it.md) di base, come fa l\'esportatore standard.
+Oltre all\'esportatore [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file) standard di FreeCAD, il [Modulo Architettura](Arch_Workbench/it.md) dispone di un esportatore alternativo che esporta le facce complanari come facce OBJ intere, invece di triangolazioni eseguite su oggetti costruiti su [forme](Shape/it.md) di base, come fa l\'esportatore standard.
 
 
 </div>
@@ -67,7 +67,7 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> File Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch OBJ/it

@@ -35,9 +35,9 @@ Dieser Befehl ist der erste von drei Schritten, um ein Schalenobjekt, das mit de
 
 ## Hinweise
 
-Die Befehle <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **_** und <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[Biegung hinzufügen](SheetMetal_AddBend.md)** funktionieren am besten mit hohlen Quadern, d.h. Schalenobjekten mit einer konstanten Wandstärke und nur 90° Winkeln zwischen den Flächen.
+Die Befehle <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **[Entlastungsausschnitt hinzufügen](SheetMetal_AddRelief.md)**, <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> **[Stoß hinzufügen](SheetMetal_AddJunction.md)** und <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[Biegung hinzufügen](SheetMetal_AddBend.md)** funktionieren am besten mit hohlen Quadern, d.h. Schalenobjekten mit einer konstanten Wandstärke und nur 90° Winkeln zwischen den Flächen.
 
-Schalenobjekte können mit Befehlen der Arbeitsbereiche <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ erstellt werden.
+Schalenobjekte können mit Befehlen der Arbeitsbereiche <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench/de.md) oder <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench/de.md) erstellt werden.
 
 Zum Erstellen eines hohlen Quaders mit dem Arbeitsbereich [Part](Part_Workbench/de.md):
 
@@ -53,7 +53,7 @@ Zum Erstellen eines hohlen Quaders mit dem Arbeitsbereich [PartDesign](PartDesig
 
 1.  Einen Festkörper erstellen durch
     -   Anwendung des Befehls <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> [Zu addierender Quader](PartDesign_AdditiveBox/de.md).
-    -   <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> _.
+    -   <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [PartDesign Pad](PartDesign_Pad/de.md) mit einer <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Skizze](Sketcher_NewSketch/de.md).
 2.  Den Befehl <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> [PartDesign Dicke](PartDesign_Thickness/de.md) verwenden, um aus dem Festkörper ein Schalenobjekt zu erzeugen (typischerweise mit einer Wandstärke, die der Blechstärke entspricht).
 
 ## Eigenschaften
@@ -83,7 +83,7 @@ Ein SheetMetal-Relief-Objekt wird von einem [Part-Formelement](Part_Feature/de.m
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal AddRelief/de

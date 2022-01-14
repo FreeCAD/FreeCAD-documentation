@@ -31,7 +31,7 @@ Das Achsenkreuz besteht aus drei Pfeilen, die positiven X-, Y- und Z-Achsen des 
 
 ## Einstellungen
 
--   Der Standard für das Achsenkreuz kann in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeige → 3D-Ansicht → Achsenkreuz standardmäßig anzeigen**. Siehe _. {{Version/de|0.19}}
+-   Der Standard für das Achsenkreuz kann in den Einstellungen geändert werden: **Bearbeiten → Einstellungen... → Anzeige → 3D-Ansicht → Achsenkreuz standardmäßig anzeigen**. Siehe [Voreinstellungseditor](https://wiki.freecadweb.org/Preferences_Editor/de#3D_Ansicht.md). {{Version/de|0.19}}
 
 ## Skripten
 

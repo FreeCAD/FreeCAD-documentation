@@ -1,5 +1,5 @@
 # Sandbox:HowTo
-Back to _
+Back to [FreeCADDocu:Sandbox](FreeCADDocu:Sandbox#HowTo_test.md)
 
 **FreeCAD Wiki HowTo Page**
 
@@ -123,7 +123,7 @@ In FC 0.18 this does not work. The View are projected from the acutal 3D view, b
 
 [top](#top.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
 
 ---
 [documentation index](../README.md) > Sandbox:HowTo

@@ -10,7 +10,7 @@ For other options see [Assembly3](Assembly3_Workbench.md) or [Assembly4](Assembl
 
 [Assembly2](Assembly2_Workbench/it.md) è un ambiente di assemblaggio per FreeCAD v0.15 con supporto per l\'importazione di parti da file esterni.
 
-As stated by its author _ is a good alternative.
+As stated by its author [on the forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=16591), it is no longer maintained since 2016, therefore it may have issues with FreeCAD 0.17 and above. The newer and actively maintained [A2plus Workbench](A2plus_Workbench.md) is a good alternative.
 
 ![](images/Assembly2_example.jpg )
 
@@ -142,7 +142,7 @@ To update to the latest version, delete the assembly2 folder and redownload the 
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Assembly2 Workbench/it

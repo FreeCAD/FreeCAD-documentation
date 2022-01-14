@@ -19,10 +19,10 @@ La superficie può essere modificata aggiungendo bordi e vertici di vincolo attr
 
 <div class="mw-translate-fuzzy">
 
-1.  Assicurarsi di avere almeno tre bordi o curve nello spazio che formano un contorno chiuso. I bordi possono essere creati con gli strumenti di <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> _. L\'uso di tre bordi crea una superficie triangolare; quattro bordi una superficie quadrilatera.
+1.  Assicurarsi di avere almeno tre bordi o curve nello spazio che formano un contorno chiuso. I bordi possono essere creati con gli strumenti di <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Draft_Workbench/it.md) o di <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher](Sketcher_Workbench/it.md). L\'uso di tre bordi crea una superficie triangolare; quattro bordi una superficie quadrilatera.
     -   Se è il caso, all\'interno del contorno chiuso possono essere disegnate delle curve. Non è necessario che tocchino i bordi. Queste curve possono essere utilizzate per controllare la curvatura della superficie risultante.
     -   Allo stesso modo, è possibile utilizzare un numero di vertici con lo stesso scopo per indicare dove deve passare la superficie.
-2.  Premere il pulsante **<img src=images/Surface_Filling.svg style="width:16px"> Surface filling**.
+2.  Premere il pulsante **[<img src=images/Surface_Filling.svg style="width:16px"> Surface filling**.
 3.  Nella sezione **Boundary**, premere **Add edge**.
 4.  Usare il puntatore per selezionare i bordi desiderati nella [vista 3D](3D_view/it.md); viene visualizzata un\'anteprima della forma finale dopo aver selezionato i bordi validi che formano un contorno chiuso.
     -   Come opzione, andare alla sezione **Curvature: non-boundary edges** (bordi non di confine), premere **Add edge**, e selezionare i bordi desiderati nella [vista 3D](3D_view/it.md).
@@ -35,7 +35,7 @@ La superficie può essere modificata aggiungendo bordi e vertici di vincolo attr
 
 <div class="mw-translate-fuzzy">
 
-Gli spigoli di base che formano il contorno chiuso, così come i vertici e gli spigoli ausiliari, possono appartenere a curve 2D di <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> _, ma possono anche appartenere a oggetti solidi 3D come quelli creati con <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _.
+Gli spigoli di base che formano il contorno chiuso, così come i vertici e gli spigoli ausiliari, possono appartenere a curve 2D di <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Part_Workbench/it.md) o di <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Sketcher](Sketcher_Workbench/it.md), ma possono anche appartenere a oggetti solidi 3D come quelli creati con <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench/it.md) o <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench/it.md).
 
 
 </div>
@@ -46,7 +46,7 @@ Gli spigoli di base che formano il contorno chiuso, così come i vertici e gli s
     -   
         **Add edge**
         
-        : premere una volta per iniziare a selezionare i bordi **Boundary edges** nella _ e le <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:16px;"> _ e le <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:16px;"> _ e le <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Primitive di Part](Part_Primitives/it.md).
+        : premere una volta per iniziare a selezionare i bordi **Boundary edges** nella [vista 3D](3D_view/it.md). Possono essere selezionati i bordi dritti come le <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [polilinee di Draft](Draft_Wire/it.md) e le <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:16px;"> [polilinee di Sketcher](Sketcher_CreatePolyline/it.md), o i bordi curvi come le <img alt="" src=images/Draft_BSpline.svg  style="width:16px;"> [BSpline di Draft](Draft_BSpline/it.md) e le <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:16px;"> [BSpline di Sketcher ](Sketcher_CreateBSpline/it.md), così come qualsiasi bordo di oggetti solidi, come quelli di un <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Corpo](PartDesign_Body/it.md) e le <img alt="" src=images/Part_Primitives.svg  style="width:16px;"> [Primitive di Part](Part_Primitives/it.md).
 
     -   
         **Remove edge**
@@ -59,12 +59,12 @@ Gli spigoli di base che formano il contorno chiuso, così come i vertici e gli s
         : aprire il menu contestuale e selezionare **Remove**, o premere **Del** sulla tastiera, per rimuovere il bordo attualmente selezionato nell\'elenco.
 
 -   Nella sezione **Curvature: non-boundary edges**; il pulsante **Add edge** è disponibile per selezionare bordi ausiliari (linee rette o B-Splines) per controllare la curvatura della superficie. La superficie sarà costretta a passare attraverso questi bordi ausiliari. Funziona meglio quando i bordi ausiliari si trovano all\'interno della regione delimitata da **Boundary edges**.
--   Nella sezione **Curvature: non-boundary vertices**; simile a non-boundary edges, l\'utente può selezionare vertici ausiliari per controllare la curvatura. Questi vertici possono essere indipendenti <img alt="" src=images/Draft_Point.svg  style="width:16px;"> _, o possono appartenere a qualsiasi bordo (linee rette o B-Splines) o essere un vertice in un oggetto solido. In questo caso, la superficie sarà vincolata a passare attraverso questi punti ausiliari.
+-   Nella sezione **Curvature: non-boundary vertices**; simile a non-boundary edges, l\'utente può selezionare vertici ausiliari per controllare la curvatura. Questi vertici possono essere indipendenti <img alt="" src=images/Draft_Point.svg  style="width:16px;"> [ punti di Draft](Draft_Point/it.md) o <img alt="" src=images/Part_Point.svg  style="width:16px;"> [punti di Part](Part_Point/it.md), o possono appartenere a qualsiasi bordo (linee rette o B-Splines) o essere un vertice in un oggetto solido. In questo caso, la superficie sarà vincolata a passare attraverso questi punti ausiliari.
 -   Premere **Cancel** o **Esc** per interrompere l\'operazione corrente.
 
 ## Proprietà
 
-Una _ (classe `Part::Feature`, attraverso la sottoclasse `Part::Spline`), quindi condivide tutte le proprietà di quest\'ultima.
+Una [Surface Filling](Surface_Filling/it.md) (classe `Surface::Filling`) è derivato dalla base [Part Feature](Part_Feature/it.md) (classe `Part::Feature`, attraverso la sottoclasse `Part::Spline`), quindi condivide tutte le proprietà di quest\'ultima.
 
 
 <div class="mw-translate-fuzzy">

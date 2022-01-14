@@ -52,7 +52,7 @@
 <div class="mw-translate-fuzzy">
 
 -   [За FreeCAD](About_FreeCAD/bg.md): Общ преглед на FreeCAD
--   _, [Unix/Linux](Install_on_Unix/bg.md) и [Mac](Install_on_Mac/bg.md)
+-   [Инсталация](Installing/bg.md): Как да инсталираме FreeCAD на [Windows](Install_on_Windows/bg.md), [Unix/Linux](Install_on_Unix/bg.md) и [Mac](Install_on_Mac/bg.md)
 -   [Първи Стъпки](Getting_started/bg.md): Бърз преглед на инструментите
 -   [FAQ](Frequently_asked_questions/bg.md): Често задавани въпроси
 -   [Ръководства](Tutorials/bg.md) върху различни части на FreeCAD
@@ -217,7 +217,7 @@ Since FreeCAD 0.17, many workbenches can be installed using the [Addon Manager](
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
 [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/bg

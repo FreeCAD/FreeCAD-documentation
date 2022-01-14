@@ -48,7 +48,7 @@ Come nelle maggior parte dei progetti di [Software libero e open source (FLOSS)]
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Development roadmap/it

@@ -22,7 +22,7 @@ Zeigt oder verbirgt die Anzeige der Knotenvielfalt einer B-Spline. Siehe [diese 
 
 ## Anwendung
 
-1.  Wähle einen B-Spline aus und verwende die Werkzeugleisten Schaltfläche **<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [ Vielfachheit der B-Spline Knoten ein-/ausblenden](Sketcher_BSplineKnotMultiplicity/de.md)**.
+1.  Wähle einen B-Spline aus und verwende die Werkzeugleisten Schaltfläche **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [ Vielfachheit der B-Spline Knoten ein-/ausblenden](Sketcher_BSplineKnotMultiplicity/de.md)**.
 
 
 

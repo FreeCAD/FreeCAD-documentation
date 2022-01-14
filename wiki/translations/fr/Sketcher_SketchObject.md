@@ -3,7 +3,7 @@
 
 <img alt="" src=images/Sketcher_Sketch.svg  style="width:32px;">
 
-Un _.
+Un [Sketcher SketchObject](Sketcher_SketchObject/fr.md), ou formellement un `Sketcher::SketchObject`, est l\'élément de base pour créer des objets 2D avec l\'[Atelier Sketcher](Sketcher_Workbench/fr.md).
 
 
 `Sketcher::SketchObject`
@@ -19,7 +19,7 @@ est dérivé de [Part Part2DObject](Part_Part2DObject/fr.md). Cela signifie qu\'
 ## Utilisation
 
 1.  Basculez vers l\'[Atelier Sketcher](Sketcher_Workbench/fr.md).
-2.  Appuyez sur **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)**.
+2.  Appuyez sur **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)**.
 3.  Sélectionnez une {{MenuCommand/fr|Orientation de l'esquisse}}: plan XY, plan XZ ou plan YZ. Vous pouvez également choisir d\'{{MenuCommand/fr|Inverser la direction}} et donner une valeur de {{MenuCommand/fr|Décalage}}.
 4.  Appuyez sur **OK**.
 
@@ -27,9 +27,9 @@ Bien que SketchObject puisse être utilisé seul pour dessiner sur un plan, il e
 
 1.  Basculer vers le [Atelier PartDesign](PartDesign_Workbench/fr.md).
 
-2.  Appuyez sur **<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)**.
+2.  Appuyez sur **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)**.
 
-3.  Appuyez sur **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Nouvelle esquisse](PartDesign_NewSketch/fr.md)**.
+3.  Appuyez sur **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Nouvelle esquisse](PartDesign_NewSketch/fr.md)**.
 
 4.  
     {{MenuCommand/fr|Fonction sélectionnée}}: XY\_Plane (Plan de base), XZ\_Plane (Plan de base) ou YZ\_Plane (Plan de base).
@@ -40,7 +40,7 @@ Bien que SketchObject puisse être utilisé seul pour dessiner sur un plan, il e
 
 Voir [Propriétés](Property/fr.md) pour tous les types de propriétés que les objets scriptés peuvent avoir.
 
-Un _ (classe `Part::Part2DObject`) donc partage toutes les propriétés de ce dernier.
+Un [Sketcher SketchObject](Sketcher_SketchObject/fr.md) (classe `Sketcher::SketchObject`) est dérivé de [Part Part2DObject](Part_Part2DObject/fr.md) (classe `Part::Part2DObject`) donc partage toutes les propriétés de ce dernier.
 
 Outre les propriétés décrites dans [Part Part2DObject](Part_Part2DObject/fr.md), l\'objet de base Sketcher SketchObject possède les propriétés suivantes dans l\'[éditeur de propriétés](property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Show all** dans le menu contextuel de l\'[éditeur de propriétés](property_editor/fr.md).
 

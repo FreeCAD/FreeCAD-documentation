@@ -22,7 +22,7 @@ Il suo scopo principale è quello di lavorare con le <img alt="" src=images/Sket
 ## Utilizzo
 
 1.  Selezionare un elemento da vincolare.
-2.  Premere il pulsante **<img src=images/Sketcher_ConstrainBlock.svg style="width:16px"> Fissa**.
+2.  Premere il pulsante **[<img src=images/Sketcher_ConstrainBlock.svg style="width:16px"> Fissa**.
 
 Oppure premere prima il pulsante, quindi selezionare gli elementi.
 

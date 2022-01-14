@@ -2,7 +2,7 @@
 ## Środowisko pracy Raytracing 
 
 
-**Środowisko _. Środowisko pracy Render może być zainstalowane poprzez [Menadżer dodatków](Std_AddonMgr/pl.md). Informacja tutaj jest podana, ponieważ domyślnie FreeCAD jest nadal dostarczany ''(od wersji 0.19-24276)'' ze środowiskiem Raytracing, i ponieważ nowy moduł powinien w zasadzie działać w ten sam sposób.**
+**Środowisko [Raytracing](Raytracing_Workbench/pl.md) zostało zastąpione przez nowe [https://github.com/FreeCAD/FreeCAD-render środowisko Render], które ma je zastąpić. Nie należy go mylić z zatrzymanym i przestarzałym [Projekt Render](Render_project/pl.md). Środowisko pracy Render może być zainstalowane poprzez [Menadżer dodatków](Std_AddonMgr/pl.md). Informacja tutaj jest podana, ponieważ domyślnie FreeCAD jest nadal dostarczany ''(od wersji 0.19-24276)'' ze środowiskiem Raytracing, i ponieważ nowy moduł powinien w zasadzie działać w ten sam sposób.**
 
 
 {{TutorialInfo/pl

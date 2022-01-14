@@ -12,11 +12,11 @@
 
 ## Opis
 
-Polecenie **Std: AddonMgr** otwiera Menadżer dodatków. Za jego pomocą możesz zainstalować i zarządzać _.
+Polecenie **Std: AddonMgr** otwiera Menadżer dodatków. Za jego pomocą możesz zainstalować i zarządzać [Zewnętrznymi Środowiskami pracy](external_workbenches/pl.md) oraz [makropoleceniami](macros/pl.md) dostarczonymi przez społeczność FreeCAD. Dostępne Środowiska pracy i makra są pobierane z dwóch repozytoriów, [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) i [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/), oraz ze strony [Przepisy na makropolecenia](Macros_recipes.md).
 
 Dodatki oznaczone {{emphasis|Tylko Python 2}} nie będą działać we FreeCAD w wersji 0.19 lub nowszej.
 
-Z powodu zmian na platformie GitHub w roku 2020 menedżer dodatków nie działa już, jeśli używasz FreeCAD w wersji 0.17 lub starszej. Musisz zaktualizować program do wersji _ poniżej.
+Z powodu zmian na platformie GitHub w roku 2020 menedżer dodatków nie działa już, jeśli używasz FreeCAD w wersji 0.17 lub starszej. Musisz zaktualizować program do wersji [0.18.5](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) lub nowszej [0.19](https://github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre). Alternatywnie możesz zainstalować dodatki ręcznie, zobacz [uwagi](#Uwagi.md) poniżej.
 
 ![](images/Std_AddonMgr_dialog.png ) 
 *Okienko dialogowe Menedżera dodatków*
@@ -66,7 +66,7 @@ Okno dialogowe Menadżer dodatków ma dwie zakładki po lewej stronie, jedna z n
 
 ## Informacja dla programistów 
 
-Jeśli opracowałeś Środowisko pracy lub makrodefinicję i chcesz zobaczyć je w Menedżerze dodatków, przeczytaj jak to zrobić na stronach repozytorium: (_, nie będziesz miał już nic innego do zrobienia, zostanie ono automatycznie przechwycone przez Menadżer dodatków.
+Jeśli opracowałeś Środowisko pracy lub makrodefinicję i chcesz zobaczyć je w Menedżerze dodatków, przeczytaj jak to zrobić na stronach repozytorium: ([FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) i [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/)). Jeśli dodasz swoje makro do strony [Przepisy na makropolecenia](Macros_recipes/pl.md), nie będziesz miał już nic innego do zrobienia, zostanie ono automatycznie przechwycone przez Menadżer dodatków.
 
 ### Python i środowiska pracy 
 

@@ -182,7 +182,7 @@ Sometimes it is necessary to have the whole assembly combined as one shape. This
 
 ### Absolute Pfade in relative Pfade umwandeln 
 
-With the menu **A2plus → Misc → <img src=images/A2p_SetRelativePathes.svg style="width:24px"> Convert absolute paths of imported parts to relative ones** you can convert absolute paths of imported parts to relative ones.
+With the menu **A2plus → Misc → [<img src=images/A2p_SetRelativePathes.svg style="width:24px"> Convert absolute paths of imported parts to relative ones** you can convert absolute paths of imported parts to relative ones.
 
 ## Einstellungen
 
@@ -234,7 +234,7 @@ Do not import invisible shapes : This will hide invisible datum/construction sha
 
 
 Use solid union for importing parts and subassemblies : All imported parts will directly be put together as union.
-This feature is useful for _ if only one solid is allowed. The alternative is to create a [shape of the whole assembly](#Shape_of_whole_Assembly.md) later on.
+This feature is useful for [FEM](FEM_Workbench.md) simulations or [3D-printing](Manual_Preparing_models_for_3D_printing.md) if only one solid is allowed. The alternative is to create a [shape of the whole assembly](#Shape_of_whole_Assembly.md) later on.
 
 ### Benutzeroberflächeneinstellungen
 
@@ -280,7 +280,7 @@ In some cases the solver only needs better start values to solve the constraints
 
 If you miss some features of your part after the import to an A2plus assembly, check the property **[Tip](PartDesign_MoveTip.md)**.
 
-A2plus imports bodies of parts with all their features up to the tip feature. This is sensible because setting the tip to a certain feature means that all features behind the tip should not appear in the final part. So if you miss a part feature in A2plus, open the part via the toolbar button <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">, then select a body and look at its property **Tip**. If the tip is not at the feature where you want it, right-click on the feature where the tip should be and choose **<img src=images/PartDesign_MoveTip.svg style="width:24px"> Set tip**. Finally save the part and reload the assembly using the toolbar button <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">.
+A2plus imports bodies of parts with all their features up to the tip feature. This is sensible because setting the tip to a certain feature means that all features behind the tip should not appear in the final part. So if you miss a part feature in A2plus, open the part via the toolbar button <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">, then select a body and look at its property **Tip**. If the tip is not at the feature where you want it, right-click on the feature where the tip should be and choose **[<img src=images/PartDesign_MoveTip.svg style="width:24px"> Set tip**. Finally save the part and reload the assembly using the toolbar button <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">.
 
 ### Baugruppenbaum reparieren 
 
@@ -288,7 +288,7 @@ If you cannot see a clear reason why some constraints cannot be resolved, you ca
 
 ### Migration alter A2plus Baugruppen 
 
-Assemblies created with A2plus older than March 2019 do not show the correct icons for imported parts and have obsolete properties. These assemblies can be migrated to A2plus version 0.4.35 and newer using the menu **A2plus → Misc → <img src=images/A2p_Upgrade.svg style="width:24px"> Migrate proxies of imported parts**. After doing this, you must save and reopen your assembly file.
+Assemblies created with A2plus older than March 2019 do not show the correct icons for imported parts and have obsolete properties. These assemblies can be migrated to A2plus version 0.4.35 and newer using the menu **A2plus → Misc → [<img src=images/A2p_Upgrade.svg style="width:24px"> Migrate proxies of imported parts**. After doing this, you must save and reopen your assembly file.
 
 ### Vermeidung von Sonderzeichen 
 
@@ -614,7 +614,7 @@ This is an A2plus-specific command. It solves the assembly constraints of the as
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > A2plus Workbench/de

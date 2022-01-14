@@ -74,7 +74,7 @@ Voir [Robot API exemple](Robot_API_example/fr.md) pour une description des fonct
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Robot Workbench/fr

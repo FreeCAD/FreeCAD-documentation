@@ -16,7 +16,7 @@ Das Werkzeug Ansicht fügt eine Darstellung eines oder mehrerer Objekte einer Ze
 
 <div class="mw-translate-fuzzy">
 
-Ansicht wird versuchen, alles mit einer `Form` Eigenschaft zu zeichnen. Du kannst _ Containers oder einer [Gruppe](Std_Group/de.md).
+Ansicht wird versuchen, alles mit einer `Form` Eigenschaft zu zeichnen. Du kannst [Entwurf](Draft_Workbench/de.md) Objekte und [PartDesign Körper](PartDesign_Body/de.md) auch auswählen. Ansicht extrahiert auch beliebige Formen aus Objekten innerhalb eines [App::Part](Std_Part/de.md) Containers oder einer [Gruppe](Std_Group/de.md).
 
 
 </div>

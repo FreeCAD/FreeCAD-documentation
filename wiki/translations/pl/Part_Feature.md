@@ -6,7 +6,7 @@
 
 <img alt="" src=images/Part_3D_object.svg  style="width:32px;">
 
-Obiekt _, który może być wyświetlany w oknie [widoku 3D](3D_view/pl.md).
+Obiekt [Cecha Części](Part_Feature/pl.md), lub formalnie `Part::Feature`, jest prostym elementem z powiązanym z nim [kształtem topologicznym](Part_TopoShape/pl.md), który może być wyświetlany w oknie [widoku 3D](3D_view/pl.md).
 
 Cecha części jest klasą nadrzędną dla większości obiektów 2D *(Rysunek roboczy, Szkicownik)* i 3D *(Część, Projekt części)*, z wyjątkiem siatek, które są zwykle oparte na [cechach siatek](Mesh_Feature/pl.md), lub [obiektach FemMesh](FEM_Mesh/pl.md) dla obiektów MES.
 
@@ -22,7 +22,7 @@ Każdy obiekt stworzony za pomocą środowiska [Część](Part_Workbench/pl.md) 
 
 Obiekt [cecha części](Part_Feature/pl.md) jest obiektem wewnętrznym, więc nie można go utworzyć z poziomu interfejsu graficznego, tylko z poziomu [konsoli Python](Python_console/pl.md) jak opisano w sekcji [tworzenie skryptów](Part_Feature/pl#Tworzenie_skrypt.C3.B3w.md).
 
-Klasa `Part::Feature` jest zdefiniowana w środowisku _, więc będą również importowane jako elementy `Part::Feature`, aczkolwiek bez historii parametrycznej.
+Klasa `Part::Feature` jest zdefiniowana w środowisku [Część](Part_Workbench/pl.md) ale może być użyta jako klasa bazowa dla [obiektów tworzonych skryptami](Scripted_objects/pl.md) we wszystkich [środowiskach pracy](Workbenches/pl.md) które produkują kształty geometryczne 2D i 3D. Zasadniczo wszystkie obiekty produkowane w środowisku pracy [Część](Part_Workbench/pl.md) są instancjami `Part::Feature`. Obiekty bryłowe importowane z plików STEP lub BREP będą importowane przy użyciu środowiska [Część](Part_Workbench/pl.md), więc będą również importowane jako elementy `Part::Feature`, aczkolwiek bez historii parametrycznej.
 
 
 `Part::Feature`
@@ -33,7 +33,7 @@ Element `Part::Feature` posiada proste właściwości jak [umiejscowienie](Place
 
 ## Własności
 
-_ *(klasa `App::GeoFeature`)*, dlatego dzieli wszystkie właściwości tej ostatniej.
+[Cecha części](Part_Feature/pl.md) *(klasa `Part::Feature`)* wywodzi się z podstawowej [App: GeoFeature](App_GeoFeature/pl.md) *(klasa `App::GeoFeature`)*, dlatego dzieli wszystkie właściwości tej ostatniej.
 
 Oprócz właściwości opisanych w [App: GeoFeature](App_GeoFeature/pl.md), Cecha części posiada właściwość **Kształt**, która przechowuje [kształt topologiczny części](Part_TopoShape/pl.md) tego obiektu. Jest to geometria, która jest wyświetlana w oknie [widoku 3D](3D_view/pl.md).
 

@@ -3,7 +3,7 @@
 |Topic= Introduction to modelling
 |Level= Beginner
 |Time= 15 minutes
-|Author=_
+|Author=[NormandC](User_Normandc.md)
 |FCVersion=any
 |Files=none
 }}
@@ -29,7 +29,7 @@ Salvați-vă munca frecvent, din când în când, salvați-vă munca sub un nume
 
 ## Tehnici de modelare Intro 
 
-Prima tehnică (și de bază) a modelării solide este _. Puteți aplica, de asemenea, transformări pe forme, cum ar fi aplicarea rotunjimilor sau ;anfernului pe margini. Aceste instrumente sunt, de asemenea, în Atelierul [Part Workbench](Part_Workbench.md).
+Prima tehnică (și de bază) a modelării solide este [Constructive Solid Geometry (CSG)](http://en.wikipedia.org/wiki/Constructive_solid_geometry). Lucrați cu forme primitive, cum ar putea fi cuburi, cilindri, sfere și conuri, pentru a vă construi forme geometrice prin combinarea lor, scăzând o formă de alta sau intersectându-le.Aceste instrumente fac parte din [Part Workbench](Part_Workbench.md). Puteți aplica, de asemenea, transformări pe forme, cum ar fi aplicarea rotunjimilor sau ;anfernului pe margini. Aceste instrumente sunt, de asemenea, în Atelierul [Part Workbench](Part_Workbench.md).
 
 
 </div>

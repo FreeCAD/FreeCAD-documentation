@@ -12,7 +12,7 @@
 
 ## Opis
 
-Narzędzie **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Szyk liniowy'''** tworzy równomiernie rozmieszczone kopie obiektu w układzie liniowym.
+Narzędzie **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Szyk liniowy'''** tworzy równomiernie rozmieszczone kopie obiektu w układzie liniowym.
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
@@ -23,7 +23,7 @@ Narzędzie **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> ''
 Aby utworzyć wzorzec:
 
 1.  Wybierz element *({{Version/pl|0.19}} lub kilka elementów)*, które mają być układane we wzór.
-2.  Naciśnij przycisk **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Szyk kołowy'''**.
+2.  Naciśnij przycisk **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Szyk kołowy'''**.
 3.  Zdefiniuj **Kierunek**. Patrz [Opcje](#Opcje.md).
 4.  Zdefiniuj **Długość** *(odległość)* między ostatnim skopiowanym wystąpieniem a oryginalnym elementem.
 5.  Ustaw liczbę **Wystąpień**.

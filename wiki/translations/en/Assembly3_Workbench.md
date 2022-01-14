@@ -446,8 +446,8 @@ There are many ways to create an assembly with Assembly3. Here is the most simpl
 -   Change to <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3](Assembly3_Workbench.md) workbench
 -   Select **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Create assembly](Assembly3_CreateAssembly.md)
 **
--   Change to <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ and a <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Cube](Part_Box.md)
--   <img alt="" src=images/Std_Save.svg  style="width:16px;"> _ and <img alt="" src=images/Std_Open.svg  style="width:16px;"> [Open\...](Std_Open.md) the file again
+-   Change to <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench.md) workbench and add a <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [Cylinder](Part_Cylinder.md) and a <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Cube](Part_Box.md)
+-   <img alt="" src=images/Std_Save.svg  style="width:16px;"> [Save](Std_Save.md) the file with any filename you like. <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:16px;"> [Close](Std_CloseActiveWindow.md) and <img alt="" src=images/Std_Open.svg  style="width:16px;"> [Open\...](Std_Open.md) the file again
 
 The tree view should look like this (0.20.pre and Link Branch):
 
@@ -590,7 +590,7 @@ One way to solve this is to just delete all invalid constraints and elements, im
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > Assembly3 Workbench/en

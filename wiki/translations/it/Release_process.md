@@ -10,7 +10,7 @@ Questa pagina serve per raccogliere le idee e organizzare le cose in modo che i 
 ## Pianificazione
 
 -   Idealmente i rilasci ufficiali dovrebbero avvenire ogni 3 a 6 mesi
--   Deve essere emesso un segnale (da _?) prima del rilascio (3 settimane?) quindi:
+-   Deve essere emesso un segnale (da [jriegel](User_Jriegel.md)?) prima del rilascio (3 settimane?) quindi:
     -   Non vengono più introdotte nuove funzionalità, ma si fanno solo correzioni di bug
     -   Le stringhe sono raccolte e caricate su crowdin per la traduzione
     -   La documentazione può essere aggiornata completamente
@@ -20,10 +20,10 @@ Questa pagina serve per raccogliere le idee e organizzare le cose in modo che i 
 
 Questi sono i lavori necessari per ogni release, con il nome della persona responsabile. Aggiungete il vostro nome, se volete farvi carico di un compito!
 
--   _ - Giving the signal to the release (3 weeks before?)
--   _ - Gathering the strings to translate and uploading them on crowdin
--   _ - Announce on the forum and on social networks that translation is needed
--   _ - Set the splashscreen
+-   [jriegel](User_Jriegel.md) - Giving the signal to the release (3 weeks before?)
+-   [yorik](User_Yorik.md) - Gathering the strings to translate and uploading them on crowdin
+-   [yorik](User_Yorik.md) - Announce on the forum and on social networks that translation is needed
+-   [yorik](User_Yorik.md) - Set the splashscreen
 -   Unassigned - Update years in source files
 -   Unassigned - Update dependencies in README
 -   Unassigned - Change the version number in the FreeCAD code
@@ -31,7 +31,7 @@ Questi sono i lavori necessari per ogni release, con il nome della persona respo
 -   Unassigned - Manage the updates of the wiki
 -   Unassigned - Manage the release notes
 -   Unassigned - Update ChangeLog.txt
--   _ - Merge back the translations from crowdin
+-   [yorik](User_Yorik.md) - Merge back the translations from crowdin
 -   Unassigned - Check the german translation
 -   Unassigned - Check the french translation
 -   Unassigned - Check the other translations that have reached 100% (add them here)
@@ -45,9 +45,9 @@ Questi sono i lavori necessari per ogni release, con il nome della persona respo
 -   Unassigned - Check the mac build
 -   Unassigned - Check the ubuntu build
 -   Unassigned - Communicate the release to package managers of linux distributions (debian, fedora)
--   _ - Update the release numbers on the tracker
--   _ - Update the release numbers and download locations on the main web page for all languages
--   _ - Update the python API doc pages
+-   [yorik](User_Yorik.md) - Update the release numbers on the tracker
+-   [yorik](User_Yorik.md) - Update the release numbers and download locations on the main web page for all languages
+-   [yorik](User_Yorik.md) - Update the python API doc pages
 -   Unassigned - Official release announcement on the FreeCAD web page
 -   Unassigned - Spread it around. see chapter Publicity
 
@@ -60,7 +60,7 @@ Sentitevi liberi di aggiungere altre pagine oppure di assegnarvi una o più pagi
 ### Social networks 
 
 -   <http://plus.google.com/107660967460246172334/posts>
--   _ - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
+-   [yorik](User_Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
 
 ### Siti di news 
 
@@ -95,7 +95,7 @@ Sentitevi liberi di aggiungere altre pagine oppure di assegnarvi una o più pagi
 -   <http://www.techdrivein.com/>
 -   <http://sliptonic.com/>
 -   <http://opensourcedesigntools.blogspot.de/>
--   _ - <http://yorik.uncreated.net>
+-   [yorik](User_Yorik.md) - <http://yorik.uncreated.net>
 
 ### Francesi
 
@@ -128,7 +128,7 @@ Sentitevi liberi di aggiungere altre pagine oppure di assegnarvi una o più pagi
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap/it](<img src="images/Property.png" style="width:16px"> Roadmap/it.md)
 
 ---
 [documentation index](../README.md) > Release process/it

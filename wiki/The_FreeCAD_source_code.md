@@ -34,7 +34,7 @@ Below are some clues and useful information to get you on tracks if you are inte
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > The FreeCAD source code

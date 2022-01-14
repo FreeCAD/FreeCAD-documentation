@@ -5,7 +5,7 @@
 
 ## Introdução
 
-A bancada de trabalho Arch fornece um moderno _.
+A bancada de trabalho Arch fornece um moderno [building information modelling](http://en.wikipedia.org/wiki/Building_Information_Modeling) (BIM) fluxo de trabalho ao FreeCAD, com suporte para recursos como entidades arquitetônicas totalmente paramétricas tais como paredes, elementos estruturais, telhados, janelas, escadas, canos e mobília. Suporta dados de [industry foundation classes](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) (IFC) e produção de plantas 2D em combinação com a [Bancada TechDraw](TechDraw_Workbench.md).
 
 A bancada Arch importa todas as ferramentas da [Bancada Draft](Draft_Workbench.md), pois usa objetos 2D para construir seus objetos arquitetônicos. No entanto, a Arch também pode usar objetos sólidos criados em outras bancadas, como a [ Bancada Part](Part_Workbench.md) e a [ Bancada PartDesign](PartDesign_Workbench.md).
 
@@ -96,7 +96,7 @@ Estas são as ferramentas adicionais para te ajudar em tarefas específicas.
 
 !!FUZZY!!\* <img alt="" src=images/Arch_Component.svg  style="width:32px;"> [Componente](Arch_Component/pt-br.md): Cria um componente não paramétrico Arch.
 
--   <img alt="" src=images/Arch_CloneComponent.svg  style="width:32px;"> _).
+-   <img alt="" src=images/Arch_CloneComponent.svg  style="width:32px;"> [Clonar componente](Arch_CloneComponent/pt-br.md): Produz componentes da Arch que são clones de objetos da Arch selecionados (não confundir com [Draft Clone](Draft_Clone.md)).
 -   <img alt="" src=images/Arch_SplitMesh.svg  style="width:32px;"> [Dividir uma malha](Arch_SplitMesh/pt-br.md): Divide uma malha selecionada em componentes separados.
 -   <img alt="" src=images/Arch_MeshToShape.svg  style="width:32px;"> [Malha para uma forma ](Arch_MeshToShape/pt-br.md): Converte uma malha em uma forma, unificando as faces coplanares.
 -   <img alt="" src=images/Arch_SelectNonManifold.svg  style="width:32px;"> [ Seleção de malhas não sólidas](Arch_SelectNonSolidMeshes/pt-br.md): Seleciona todas as malhas não sólidas a partir da seleção atual ou do documento.
@@ -104,10 +104,10 @@ Estas são as ferramentas adicionais para te ajudar em tarefas específicas.
 -   <img alt="" src=images/Arch_CloseHoles.svg  style="width:32px;"> [Fechar furos](Arch_CloseHoles/pt-br.md): Fecha furos em um objeto baseado em forma selecionada.
 -   <img alt="" src=images/Arch_MergeWalls.svg  style="width:32px;"> [ Fusão de paredes](Arch_MergeWalls/pt-br.md): Fundir duas ou mais paredes.
 -   <img alt="" src=images/Arch_Check.svg  style="width:32px;"> [Verifique](Arch_Check/pt-br.md): Verificar se os objetos selecionados são sólidos e não contêm defeitos.
--   <img alt="" src=images/IFC.svg  style="width:32px;"> _.
+-   <img alt="" src=images/IFC.svg  style="width:32px;"> [Explorador Ifc](Arch_IfcExplorer/pt-br.md): Procurar o conteúdo de um arquivo [IFC](Arch_IFC/pt-br.md).
 -   <img alt="" src=images/Arch_ToggleIfcBrepFlag.svg  style="width:32px;"> [Comutar a bandeira Brep do IFC](Arch_ToggleIfcBrepFlag/pt-br.md): Força um objeto selecionado a ser exportado como um [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm).
--   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> _.
--   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> _ de um objeto.
+-   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> [3 vistas da malha](Arch_3Views/pt-br.md): Cria vistas superior, frontal e lateral a partir de uma [malha](Mesh_Workbench/pt-br.md).
+-   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [Criar folha de cálculo IFC\...](Arch_IfcSpreadsheet/pt-br.md): Cria uma planilha para armazenar as propriedades [IFC](Arch_IFC/pt-br.md) de um objeto.
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Alternar Subcomponentes](Arch_ToggleSubs/pt-br.md): Mostra ou oculta os subcomponentes de um objeto da Arch.
 
 ### Preferências
@@ -140,7 +140,7 @@ A bancada (módulo) Arch pode ser usado em scripts [Python](Python/pt-br.md) e [
 -   [Visão geral rápida da Arch no blog de Yorik](http://yorik.uncreated.net/guestblog.php?2012=180) (v0.13)
 -   [Apresentação em vídeo da bancada de trabalho Arch](https://www.youtube.com/watch?v=lTDOeHapv_E) (2016)
 -   [Tutorial do painel da Arch ](Arch_panel_tutorial/pt-br.md) (v0.15)
--   _
+-   [Capítulo de modelagem BIM do manual do FreeCAD](Manual:BIM_modeling/pt-br.md)
 -   [Importação de STL ou OBJ](Import_from_STL_or_OBJ/pt-br.md)
 -   [Exportação para STL ou OBJ](Export_to_STL_or_OBJ/pt-br.md)
 
@@ -150,7 +150,7 @@ A bancada (módulo) Arch pode ser usado em scripts [Python](Python/pt-br.md) e [
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/pt-br

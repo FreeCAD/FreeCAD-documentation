@@ -23,7 +23,7 @@ Das **Gespiegelt** Werkzeug spiegelt Formelemente auf einer Ebene.
 Um eine Spiegelung zu erstellen:
 
 1.  Wähle das eine oder mehrere Formelement(e), das gespiegelt werden soll.
-2.  Drücke die**<img src=images/PartDesign_Mirrored.svg style="width:24px">  '''Gespiegelt'''** Schaltfläche.
+2.  Drücke die**[<img src=images/PartDesign_Mirrored.svg style="width:24px">  '''Gespiegelt'''** Schaltfläche.
 3.  Wenn du mehrere Formelement in der Spiegelung hast, kann deren Reihenfolge wichtig sein, siehe zum Beispiel das Bild in der [PolarMuster Formelement](PartDesign_PolarPattern#Usage/de.md). {{Version/de|0.19}} Du kannst die Reihenfolge ändern, indem du die Funktion in der Liste ziehst, und du siehst das Ergebnis sofort als Vorschau.
 
 Definiere die Spiegel **Ebene**. Siehe [Optionen](#Optionen.md).

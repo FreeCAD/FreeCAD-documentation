@@ -12,7 +12,7 @@ For example, a bolt, a washer and a nut are three separate bodies that when put 
 
 
 
-*Left: three individual contiguous solids, each of them modelled by a _ to create an assembly.*
+*Left: three individual contiguous solids, each of them modelled by a [PartDesign Body](PartDesign_Body.md). Right: the individual Bodies put together inside a [Std Part](Std_Part.md) to create an assembly.*
 
 ## Usage
 
@@ -28,11 +28,11 @@ To position the bodies where you want them, you can
 
 You may use one of the pseudo-assembly [external workbenches](external_workbenches.md), like Lattice2, Manipulator, Part-o-magic, or WorkFeature, to help you find intersections, measure distances, and distribute your objects in the desired way.
 
-In general, the **<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)** object was designed to serve as the basic building block to create assemblies. This object is used to group several [bodies](body.md) and move them together as a unit, that is, as a sub-assembly. Then this sub-assembly can be placed next to, or used inside of other sub-assemblies in order to create the final assembly.
+In general, the **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)** object was designed to serve as the basic building block to create assemblies. This object is used to group several [bodies](body.md) and move them together as a unit, that is, as a sub-assembly. Then this sub-assembly can be placed next to, or used inside of other sub-assemblies in order to create the final assembly.
 
 ### Constrained assembly 
 
-You can also use a dedicated assembly workbench, like <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> _, or <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench.md). Please note that [Assembly2](Assembly2_Workbench.md) is unmaintained, so it is not recommended for new models.
+You can also use a dedicated assembly workbench, like <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench.md), or <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench.md). Please note that [Assembly2](Assembly2_Workbench.md) is unmaintained, so it is not recommended for new models.
 
 The assembly workbenches use constraints and expressions to create relationships between the objects in your model, in order to mathematically tie the objects in place, for example, \"this face should stick to this other face\", \"this cylinder should be concentric to that circle\", \"this point should follow this edge\", etc.
 
@@ -51,7 +51,7 @@ The assembly workbenches continue development, and it is expected that at some p
 
 }} {{Document objects navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/en

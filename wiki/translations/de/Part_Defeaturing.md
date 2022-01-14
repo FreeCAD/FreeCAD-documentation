@@ -28,7 +28,7 @@ Um verfügbar zu sein, muss FreeCAD auf Open Cascade 7.3.0 oder höher basieren.
 ## Anwendung
 
 1.  Wähle die zu entfernende(n) Fläche(n) auf dem Modell.
-2.  Klicke auf die Schaltfläche **<img src=images/Part_Defeaturing.svg style="width:24px"> '''Merkmal aus einer Form entfernen'''**
+2.  Klicke auf die Schaltfläche **[<img src=images/Part_Defeaturing.svg style="width:24px"> '''Merkmal aus einer Form entfernen'''**
 3.  Ein neues Objekt wird in der Modell [Baumansicht](Tree_view/de.md) mit der Bezeichnung *\'Defeatured* erstellt und das ursprüngliche Objekt wird nicht mehr angezeigt.
 
 ## Verweise

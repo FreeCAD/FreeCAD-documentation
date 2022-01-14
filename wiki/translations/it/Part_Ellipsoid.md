@@ -1,6 +1,6 @@
 # Part Ellipsoid/it
 ---
-- GuiCommand:/it   Name:Part Ellipsoid   Name/it:Ellissoide   MenuLocation:Parte → _---
+- GuiCommand:/it   Name:Part Ellipsoid   Name/it:Ellissoide   MenuLocation:Parte → [Workbenches:[[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_→_Ellissoide.md),  [OpenSCAD](OpenSCAD_Workbench/it.md)|SeeAlso:[Crea Primitive](Part_CreatePrimitives/it.md)---
 
 
 </div>

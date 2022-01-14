@@ -20,7 +20,7 @@
 
 ## Descriere
 
-Instrumentul BSpline creează o curbă _. Este nevoie de [linewidth and color](Draft_Linestyle/ro.md) setată anterior pe fila Activități. Instrumentul BSpline se comportă exact ca instrumentul [Draft Wire](Draft_Wire/ro.md).
+Instrumentul BSpline creează o curbă [B-Spline](http://en.wikipedia.org/wiki/B-spline) din mai multe puncte din actualul [work plane](Draft_SelectPlane/ro.md). Este nevoie de [linewidth and color](Draft_Linestyle/ro.md) setată anterior pe fila Activități. Instrumentul BSpline se comportă exact ca instrumentul [Draft Wire](Draft_Wire/ro.md).
 
 
 </div>

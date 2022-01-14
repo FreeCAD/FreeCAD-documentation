@@ -5,7 +5,7 @@ Cette catégorie répertorie les pages avec des captures d\'écran.
 
 [Screenshots/fr](Screenshots/fr.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation/fr](<img src="images/Property.png" style="width:16px"> Documentation/fr.md)
 
 ---
 [documentation index](../README.md) > Category:Screenshots/fr

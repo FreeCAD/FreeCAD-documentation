@@ -25,7 +25,7 @@ Fissa una distanza verticale tra due punti. È applicabile tra tutti i punti del
 
 1.  Selezionare due punti o una linea
 2.  Richiamare il comando in uno di questi modi:
-    -   Cliccare sull\'icona **<img src=images/Sketcher_ConstrainDistanceY.png style="width:24px"> '''Distanza verticale'''** della barra degli strumenti.
+    -   Cliccare sull\'icona **[<img src=images/Sketcher_ConstrainDistanceY.png style="width:24px"> '''Distanza verticale'''** della barra degli strumenti.
     -   Usare la scorciatoia da tastiera **Maiusc** + **V**.
     -   Usare la voce **Sketch → Vincoli → Distanza verticale** dal menu principale.
 3.  Si apre una finestra di dialogo per modificare o confermare il valore. Premere **OK** per confermare.

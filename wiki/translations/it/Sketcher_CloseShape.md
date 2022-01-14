@@ -21,9 +21,9 @@ Questo strumento può essere usato in Sketcher per chiudere un contorno selezion
 
 1.  Durante la modifica di uno schizzo, multi-selezionare gli elementi Sketcher nella vista ad albero o nella vista 3D.
 2.  Richiamare il comando in uno di questi modi:
-    -   Cliccare sul pulsante **<img src=images/Sketcher_CloseShape.svg style="width:16px"> Chiudi la forma** della barra degli strumenti.
+    -   Cliccare sul pulsante **[<img src=images/Sketcher_CloseShape.svg style="width:16px"> Chiudi la forma** della barra degli strumenti.
     -   Usare la scorciatoia da tastiera **Ctrl** + **Maiusc** + **S**.
-    -   Usare la voce **Sketch → Strumenti → <img src=images/Sketcher_CloseShape.svg style="width:16px"> Chiudi la forma** dal menu principale.
+    -   Usare la voce **Sketch → Strumenti → [<img src=images/Sketcher_CloseShape.svg style="width:16px"> Chiudi la forma** dal menu principale.
 
 
 </div>

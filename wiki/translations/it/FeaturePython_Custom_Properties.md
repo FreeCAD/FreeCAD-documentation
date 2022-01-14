@@ -66,7 +66,7 @@ obj.ThePropertyName = True
 thePropertyValue = obj.ThePropertyName
 ```
 
-If the type of the property is _, the setter has a special behaviour: setting a list of strings defines the cases allowed by the enumeration, setting a string selects one of these cases. To set the list of possible cases and set the current one, use:
+If the type of the property is [App::PropertyEnumeration](#App:_PropertyEnumeration.md), the setter has a special behaviour: setting a list of strings defines the cases allowed by the enumeration, setting a string selects one of these cases. To set the list of possible cases and set the current one, use:
 
 
 ```python
@@ -1266,7 +1266,7 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 
-_ _ _ _
+[<img src="images/Property.png" style="width:16px"> API/it](<img src="images/Property.png" style="width:16px"> API/it.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation/it](<img src="images/Property.png" style="width:16px"> Developer_Documentation/it.md) [<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [API](Category_API.md) > FeaturePython Custom Properties/it

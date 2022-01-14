@@ -14,12 +14,12 @@ Cet atelier peut être installé à partir du <img alt="" src=images/Std_AddonMg
 ## Liens
 
 -   Code source hébergé sur GitHub : [github.com](https://github.com/mwganson/MeshRemodel)
--   _
+-   [Documentation officielle complète](https://github.com/mwganson/MeshRemodel/blob/master/README.md)
 
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > MeshRemodel Workbench/fr

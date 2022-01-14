@@ -14,7 +14,7 @@ Wszystkie ikonki widoczne na liście źródłowej, patrz [Grafika](Artwork/pl.md
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Robot](Category_Robot.md)
 
 ---
 [documentation index](../README.md) > [Robot](Category_Robot.md) > Artwork Robot/pl

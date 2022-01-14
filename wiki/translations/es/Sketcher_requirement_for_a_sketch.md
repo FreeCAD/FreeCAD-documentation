@@ -2,7 +2,7 @@
 {{TutorialInfo/es
 |Topic=Croquis
 |Level=Principiante
-|Author=_
+|Author=[Maker](User_Maker.md)
 |Time=
 |FCVersion=
 }}
@@ -18,7 +18,7 @@ Que una curva cerrada está presente, no es evidente y no es reconocible. Cuando
 
 
 *Un boceto sencillo. 
-Izquierda: Curva sólo en cuatro lugares (rojo, restricciones automáticas al dibujar con <img src=images/_Sketcher_CreatePolyline.svg style="width:32px"> [Polilínea](Sketcher_CreatePolyline/es.md)) cerrada. 
+Izquierda: Curva sólo en cuatro lugares (rojo, restricciones automáticas al dibujar con [<img src=images/_Sketcher_CreatePolyline.svg style="width:32px"> [Polilínea](Sketcher_CreatePolyline/es.md)) cerrada. 
 Medio: Advertencia - ... cara rota (curva rota). 
 Derecha: Curva cerrada en los cuatro lugares restantes (verde)*
 

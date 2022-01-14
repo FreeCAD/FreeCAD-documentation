@@ -103,7 +103,7 @@ Für die zweite Anwendung von **Fläche erweitern** wird eine Skizze mit zwei Ko
 
 (Die Zugentlastung ist nur eine künstlerische Darstellung von dem, was in einem echten Stecker versteckt sein kann)
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal Examples/de

@@ -3,7 +3,7 @@
 
 ## Un environnement de développement simplifié pour Python au sein de FreeCAD 
 
-_).
+[Python](https://fr.wikipedia.org/wiki/Python_(langage)) est un environnement de programmation qui a été intégré au système [FreeCAD](https://www.freecadweb.org/?lang=fr). En utilisant Python, de nombreuses opérations offertes par FreeCAD sont disponibles pour être programmer. Les programmes Python dans FreeCAD sont généralement développés pour être exécutés soit sur la console Python, soit par le biais de fonction Macro de FreeCAD (voir [Comment installer des macros](How_to_install_macros/fr.md)).
 
 Il existe de nombreux outils disponibles pour le développement de programmes en Python. Les facteurs qui compliquent le développement de Python pour une utilisation avec FreeCAD sont de deux ordres : premièrement, les outils n\'ont aucun support pour les nombreuses structures de données et les points d\'accès de FreeCAD ; deuxièmement, ils ne fonctionnent pas \"dans FreeCAD\". Cela signifie que vous pouvez les utiliser pour développer du code en dehors de FreeCAD et ne pas être en mesure de tester dans l\'environnement cible, ou vous pouvez développer Python dans l\'environnement cible (c\'est-à-dire l\'environnement FreeCAD) mais ne pas avoir de support des outils de développement. Aucune de ces solutions n\'est acceptable.
 
@@ -623,7 +623,7 @@ Quelques autres liens sur les IDE pour Python qui pourraient être intéressants
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Python Development Environment/fr

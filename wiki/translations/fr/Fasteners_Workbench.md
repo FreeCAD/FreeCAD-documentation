@@ -57,7 +57,7 @@ Les fixations peuvent être attachées ou non attachées. Les fixations attaché
 <img alt="" src=images/Fasteners_Attached_Selected.png  style="width:200px;"> <img alt="" src=images/Fasteners_Attached_Created.png  style="width:200px;"> 
 *À gauche, deux bords circulaires sélectionnés. À droite, les fixations attachées.*
 
-1.  Spécifiez si les trous sélectionnés sont des trous de taraudage ou des trous de passage en sélectionnant <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:16px;"> _ respectivement (non utilisé pour les vis à tête fraisée).
+1.  Spécifiez si les trous sélectionnés sont des trous de taraudage ou des trous de passage en sélectionnant <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:16px;"> [Fasteners MatchTypeInner](Fasteners_MatchTypeInner/fr.md) ou <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:16px;"> [Fasteners MatchTypeOuter](Fasteners_MatchTypeOuter/fr.md) respectivement (non utilisé pour les vis à tête fraisée).
 2.  Sélectionnez une ou plusieurs arêtes circulaires et/ou faces avec des arêtes circulaires. Pour les vis fraisées, le bord supérieur du [trou chanfreiné](Fasteners_ChamferHole/fr.md) doit être sélectionné.
 3.  Sélectionnez la fixation souhaitée en cliquant sur son bouton ou en la choisissant dans le menu.
 4.  Une fixation est attachée à chacun des bords circulaires sélectionnés.
@@ -286,7 +286,7 @@ Les fixations avec des dimensions métriques ont des icônes orange. Les fixatio
 
 
 
-_ _ _ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Fasteners](Category_Fasteners.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > Fasteners Workbench/fr

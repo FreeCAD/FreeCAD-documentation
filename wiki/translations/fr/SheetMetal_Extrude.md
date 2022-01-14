@@ -116,7 +116,7 @@ Un objet SheetMetal Prolonger une face est dérivé d\'un objet [Part Feature](P
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal Extrude/fr

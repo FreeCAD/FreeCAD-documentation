@@ -18,7 +18,7 @@ Elmer comprend des modèles physiques de dynamique des fluides, de mécanique de
 
 La création de l\'objet SolverElmer dans le conteneur Analysis de FreeCAD donne accès aux équations Elmer pour une analyse simple ou multiphysique.
 
-Puisque FreeCAD a déjà une intégration étendue de <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:24px;"> _ en tant que solveurs pour l\'analyse mécanique et thermo-mécanique, Elmer sera préféré pour la dynamique des fluides computationnelle (CFD), la chaleur, l\'électrostatique, la magnétostatique et les forces électriques. Il peut également être utilisé pour la FEA mécanique via l\'équation d\'élasticité ou toute combinaison des équations susmentionnées.
+Puisque FreeCAD a déjà une intégration étendue de <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:24px;"> [Calculix](FEM_SolverCalculiX/fr.md) et <img alt="" src=images/FEM_SolverZ88.svg  style="width:24px;"> [Z88](FEM_SolverZ88/fr.md) en tant que solveurs pour l\'analyse mécanique et thermo-mécanique, Elmer sera préféré pour la dynamique des fluides computationnelle (CFD), la chaleur, l\'électrostatique, la magnétostatique et les forces électriques. Il peut également être utilisé pour la FEA mécanique via l\'équation d\'élasticité ou toute combinaison des équations susmentionnées.
 
 ## Installation
 

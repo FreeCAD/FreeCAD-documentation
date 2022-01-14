@@ -16,13 +16,13 @@ Lo strumento <img alt="" src=images/Std_LinkImport.svg  style="width:16px;"> [Im
 
 Questa operazione è utile quando si lavora con gli [assemblaggi](assembly/it.md) al fine di organizzare i modelli riutilizzabili che possono trovarsi in altri documenti.
 
-Usare **<img src=images/Std_LinkImportAll.svg style="width:16px"> Importa tutti i link** per importare tutti gli oggetti collegati.
+Usare **[<img src=images/Std_LinkImportAll.svg style="width:16px"> Importa tutti i link** per importare tutti gli oggetti collegati.
 
 ## Utilizzo
 
 1.  Assicurarsi di avere un documento \"sorgente\" con un oggetto originale, ad esempio, una <img alt="" src=images/Std_Part.svg  style="width:16px;"> [Parte](Std_Part/it.md) e un secondo documento \"destinazione\" con un collegamento a quell\'oggetto.
 2.  Aprire il documento di destinazione e selezionare il collegamento all\'oggetto; la sua **Linked Object** dovrebbe mostrare qualcosa di simile a {{Value|source#Part}}.
-3.  Premere **<img src=images/Std_LinkImport.svg style="width:16px"> [Importa link](Std_LinkImport/it.md)**.
+3.  Premere **[<img src=images/Std_LinkImport.svg style="width:16px"> [Importa link](Std_LinkImport/it.md)**.
 
 Una copia della <img alt="" src=images/Std_Part.svg  style="width:16px;"> Parte originale deve ora essere all\'interno del documento \"destinazione\" corrente. La proprietà **Linked Object** del collegamento deve ora mostrare {{Value|Part}}, indicando che il collegamento non punta più a {{Value|Part}} nel \"sorgente\", ma a {{Value|Part}} nel documento corrente (\"destinazione\").
 

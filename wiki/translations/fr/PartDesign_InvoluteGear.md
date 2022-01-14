@@ -19,7 +19,7 @@ Pour des informations plus détaillées, voir également [Engrenage](https://fr.
 
 ## Utilisation
 
-1.  Aller dans le menu **Conception de pièces → <img src=images/PartDesign_InternalExternalGear.svg style="width:24px"> Involute gear...**.
+1.  Aller dans le menu **Conception de pièces → [<img src=images/PartDesign_InternalExternalGear.svg style="width:24px"> Involute gear...**.
 2.  Régler les paramètres de l\'engrenage à développante.
 3.  Cliquer sur **OK**.
 4.  L\'engrenage à développante est créé en dehors du corps actif. Faites-le glisser et mettez-le dans un corps pour appliquer d\'autres caractéristiques comme une protrusion.

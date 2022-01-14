@@ -140,7 +140,7 @@ In FreeCAD erfolgt der IFC-Im- und Export durch Anbindung an einen anderen Softw
 
 ![](images/Exercise_arch_17.jpg )
 
-Wir werden nun ein paar Bemaßungen platzieren. Wir werden anders als im _ die Bemaßungen nicht direkt auf das Zeichenblatt zeichnen, sondern hier eine andere Methode nutzen und [Bemaßungen](Draft_Dimension/de.md) direkt im 3D-Modell platzieren. Diese Bemaßungen werden dann automatisch auf dem Zeichenblatt platziert. Wir werden zuerst zwei Gruppen für unsere Bemaßungen erstellen, eine für die Bemaßungen, die im Lageplan erscheinen, und eine weitere für die in der Draufsicht.
+Wir werden nun ein paar Bemaßungen platzieren. Wir werden anders als im [vorigen Kapitel](Manual:Generating_2D_drawings/de.md) die Bemaßungen nicht direkt auf das Zeichenblatt zeichnen, sondern hier eine andere Methode nutzen und [Bemaßungen](Draft_Dimension/de.md) direkt im 3D-Modell platzieren. Diese Bemaßungen werden dann automatisch auf dem Zeichenblatt platziert. Wir werden zuerst zwei Gruppen für unsere Bemaßungen erstellen, eine für die Bemaßungen, die im Lageplan erscheinen, und eine weitere für die in der Draufsicht.
 
 -   Rechtsklicke das **house** Dokument in der Baumansicht und erstelle zwei neue Gruppen: **Plan dimensions** und **Elevation dimensions**.
 -   Setze mit [Arbeitsebene](Draft_SelectPlane/de.md) auf die **XY** Ebene.
@@ -171,7 +171,7 @@ Wir werden nun einen Satz von Ansichten unseres Modells vorbereiten, die auf ein
 
 **Die Entwicklung des [Zeichnung Arbeitsbereich](Drawing_Workbench/de.md)es wurde in FreeCAD 0.16 beendet, als Ersatz wurde in Version 0.17 der [TechDraw Arbeitsbereich](TechDraw_Workbench/de.md) eingeführt. Der Drawing Arbeitsbereich könnte in zukünftigen FreeCAD Versionen entfallen. Benutze statt dessen den TechDraw Arbeitsbereich.**
 
--   Jetzt haben wir alles notwendige und wir können unsere Zeichnungsseite erstellen. Beginne mit dem Wechsel zum _ (oder wähle eine andere Vorlage, wenn du möchtest).
+-   Jetzt haben wir alles notwendige und wir können unsere Zeichnungsseite erstellen. Beginne mit dem Wechsel zum [Arbeitsbereich Zeichnung](Drawing_Workbench/de.md) und erzeuge eine neue Standard<img alt="" src=images/Drawing_Landscape_A3.png  style="width:16px;"> [DIN A3 Seite](Drawing_Landscape_A3/de.md) (oder wähle eine andere Vorlage, wenn du möchtest).
 -   Wähle die erste Abschnittsebene, die für den Lageplan benutzt wird
 -   Drücke die <img alt="" src=images/Drawing_DraftView.png  style="width:16px;"> [DraftView](Drawing_DraftView.md) Taste. Dieses Werkzeug bietet eine Reihe von zusätzlichen Möglichkeiten gegenüber dem Standard [Entwurf Ansicht](Drawing_View/de.md) Werkzeug und unterstützt die Abschnittsebenen des Architektur Arbeitsbereichs.
 -   Gib der neuen Ansicht folgende Eigenschaften:
@@ -236,7 +236,7 @@ Unsere Seite ist nun fertig und wir können sie im SVG- oder DXF-Format ausgeben
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
 [documentation index](../README.md) > [BIM](Category_BIM.md) > Manual:BIM modeling/de

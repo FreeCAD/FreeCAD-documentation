@@ -33,7 +33,7 @@ Le gestionnaire de vues BIM affichera tous les niveaux (éléments de constructi
 -   Cliquez sur le bouton **Save camera position** stocke les paramètres d\'affichage actuels dans l\'objet sélectionné, ce qui permet de le restaurer si sa propriété **Restore View** est définie sur True
 -   Cliquez sur le bouton **Rename** vous permet de renommer un objet sélectionné
 
-_
+[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Views/fr

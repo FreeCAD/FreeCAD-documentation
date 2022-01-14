@@ -15,7 +15,7 @@ Ayúdanos a construir, corregir y extender esta documentación. Corrige errores,
 
 Algunas áreas en las que será bienvenido tu trabajo:
 
--   La página _ lista y documenta todos los FreeCAD [comandos](command/es.md). La mayoría de ellos contienen poca o ninguna información. Por favor, consulta [WikiPáginas](WikiPages/es.md) para ver buenos ejemplos de cómo deberían ser las páginas de documentación de comandos.
+-   La página [:<img src="images/Property.png" style="width:16px"> Command\_Reference](:Category_Command_Reference.md) lista y documenta todos los FreeCAD [comandos](command/es.md). La mayoría de ellos contienen poca o ninguna información. Por favor, consulta [WikiPáginas](WikiPages/es.md) para ver buenos ejemplos de cómo deberían ser las páginas de documentación de comandos.
 -   La sección [Tutorials](Tutorials/es.md) necesita ejemplos sobre cómo usar los ambientes de trabajo. Si desarrollaste algo genial con FreeCAD, ¿por qué no documentar cómo lo hiciste para la posteridad?
 -   Hay tickets abiertos en el [bugtracker](Tracker/es.md) de FreeCAD etiquetados como [\"documentation\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) que podrían necesitar algo de amor.
 
@@ -32,7 +32,7 @@ La comunidad de usuarios que rodea a FreeCAD aún es pequeña, pero ya incluye v
 
 ## Traduce FreeCAD 
 
-Traduce FreeCAD a tu idioma. Todos los textos de la interfaz de FreeCAD se pueden traducir fácilmente a otros idiomas. Todo lo que necesitamos es alguien que sepa ese otro idioma y quiera ayudar! Actualmente tenemos traducciones en inglés, alemán y francés. Todas las traducciones se realizan online en _.
+Traduce FreeCAD a tu idioma. Todos los textos de la interfaz de FreeCAD se pueden traducir fácilmente a otros idiomas. Todo lo que necesitamos es alguien que sepa ese otro idioma y quiera ayudar! Actualmente tenemos traducciones en inglés, alemán y francés. Todas las traducciones se realizan online en [http://crowdin.net/project/freecad Crowdin](http://crowdin.net/project/freecad_Crowdin.md).
 
 For details on translation, see [Localisation](Localisation.md).
 
@@ -42,7 +42,7 @@ Traducir esta wiki es sencillo, simplemente necesitas añadir una página con el
 
 For details on translation, see [Localisation\#Translating the wiki](Localisation#Translating_the_wiki.md).
 
-Please be sure you are familiar with the basics of wiki markup; see _ for a reference.
+Please be sure you are familiar with the basics of wiki markup; see [Help:Editing](Help_Editing.md) for a reference.
 
 Then head to [WikiPages](WikiPages.md) to familiarize yourself with the style used in this wiki, particularly when it comes to templates.
 
@@ -97,7 +97,7 @@ Escribir código para FreeCAD no es difícil, y no necesitas ningún tipo de per
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Command_Reference]] lista y documenta todos los FreeCAD ](Category_Command_Reference]] lista y documenta todos los FreeCAD .md) > Help FreeCAD/es

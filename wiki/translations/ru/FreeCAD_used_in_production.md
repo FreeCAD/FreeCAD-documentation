@@ -79,7 +79,7 @@
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > FreeCAD used in production/ru

@@ -5,7 +5,7 @@
 
 ## Introduction
 
-The <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> _.
+The <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM Workbench](BIM_Workbench.md) is an [external workbench](External_workbenches.md) aimed at implementing complete [Building Information Modeling](https://en.wikipedia.org/wiki/Building_information_modeling) (BIM) tools and workflow in FreeCAD. It can be installed from the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
 
 The BIM Workbench is based on the built-in <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch Workbench](Arch_Workbench.md), and both will probably be merged in the future. The BIM Workbench is a \"meta workbench\", intended to gather many useful tools from other workbenches in a single place, and create a workflow that is more convenient and user-friendly to both experienced BIM users and beginners. The BIM workbench also features some specific tools of its own, mostly wizards and management tools, located under the **Management** menu.
 
@@ -77,7 +77,7 @@ Annotations are visual help objects that can be placed inside your model. They c
 -   <img alt="" src=images/Arch_AxisSystem.svg  style="width:32px;"> [Axis System](Arch_AxisSystem.md): Creates an axes system composed of up to 3 series of axes
 -   <img alt="" src=images/Arch_Grid.svg  style="width:32px;"> [Grid](Arch_Grid.md): Creates a grid-like object to the document
 -   <img alt="" src=images/Arch_SectionPlane.svg  style="width:32px;"> [Section Plane](Arch_SectionPlane.md): Adds a section plane object to the document. Section planes define 2D views such as plans, sections and elevations
--   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> _ page from a [SVG template](TechDraw_Templates.md)
+-   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Page](TechDraw_PageDefault.md): Creates a new [TechDraw](TechDraw_Workbench.md) page from a [SVG template](TechDraw_Templates.md)
 -   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [View](TechDraw_ArchView.md): Inserts a view of a section plane on a page
 
 ### 3D / BIM modeling 
@@ -97,12 +97,12 @@ Annotations are visual help objects that can be placed inside your model. They c
 
 -   <img alt="" src=images/Arch_Wall.svg  style="width:32px;"> [Wall](Arch_Wall.md): Creates a wall from scratch or using a selected object as a base
 -   <img alt="" src=images/Arch_CurtainWall.svg  style="width:32px;"> [Curtain Wall](Arch_CurtainWall.md): creates a curtain wall from scratch or using a selected object as a base
--   <img alt="" src=images/BIM_Column.svg  style="width:32px;"> _ element at a given point, optionally using a selected object as a profile
--   <img alt="" src=images/BIM_Beam.svg  style="width:32px;"> _ element between two points, optionally using a selected object as a profile
--   <img alt="" src=images/BIM_Slab.svg  style="width:32px;"> _ element by extruding a selected flat object
--   <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_UShape.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_LShape.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_BentShape.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_Stirrup.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> <img alt="" src=images/Arch_Rebar_Helical.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> _ addon
+-   <img alt="" src=images/BIM_Column.svg  style="width:32px;"> [Column](Arch_Structure.md): Creates a vertical [structural](Arch_Structure.md) element at a given point, optionally using a selected object as a profile
+-   <img alt="" src=images/BIM_Beam.svg  style="width:32px;"> [Beam](Arch_Structure.md): Creates a horizontal [structural](Arch_Structure.md) element between two points, optionally using a selected object as a profile
+-   <img alt="" src=images/BIM_Slab.svg  style="width:32px;"> [Slab](Arch_Structure.md): Creates a flat [structural](Arch_Structure.md) element by extruding a selected flat object
+-   <img alt="" src=images/Arch_Rebar_Straight.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_UShape.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_LShape.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_BentShape.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_Stirrup.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar_ColumnReinforcement.svg  style="width:32px;"> <img alt="" src=images/Arch_Rebar_BeamReinforcement.svg  style="width:32px;"> <img alt="" src=images/Arch_Rebar_Helical.png  style="width:32px;"> <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Rebar](Arch_Rebar.md): Creates a reinforcement bar in a selected structural element using a sketch. Requires the [Reinforcement](Reinforcement_Addon.md) addon
 -   <img alt="" src=images/Arch_Window.svg  style="width:32px;"> [Window](Arch_Window.md): Creates a window using a selected object as a base
--   <img alt="" src=images/BIM_Door.svg  style="width:32px;"> _ object using door presets
+-   <img alt="" src=images/BIM_Door.svg  style="width:32px;"> [Door](Arch_Window.md): Creates a [Window](Arch_Window.md) object using door presets
 -   <img alt="" src=images/Arch_Pipe.svg  style="width:32px;"> <img alt="" src=images/Arch_PipeConnector.svg  style="width:32px;"> [Pipe tools](Arch_Pipe.md): Creates pipes and corner or tee connection between 2 or 3 selected pipes
 -   <img alt="" src=images/Arch_Stairs.svg  style="width:32px;"> [Stairs](Arch_Stairs.md): Creates a stairs object in the document
 -   <img alt="" src=images/Arch_Roof.svg  style="width:32px;"> [Roof](Arch_Roof.md): Creates a sloped roof from a selected face
@@ -110,7 +110,7 @@ Annotations are visual help objects that can be placed inside your model. They c
 -   <img alt="" src=images/Arch_Frame.svg  style="width:32px;"> [Frame](Arch_Frame.md): Creates a frame object from a selected layout
 -   <img alt="" src=images/Arch_Fence.svg  style="width:32px;"> [Fence](Arch_Fence.md): Creates a fence object from a selected post object and path
 -   <img alt="" src=images/Arch_Truss.svg  style="width:32px;"> [Truss](Arch_Truss.md): Creates a truss from a selected line of from scratch
--   <img alt="" src=images/BIM_Library.png  style="width:32px;"> _ addon
+-   <img alt="" src=images/BIM_Library.png  style="width:32px;"> [Library](BIM_Library.md): Inserts an equipment or furniture object. Requires the [Parts Library](Parts_Library.md) addon
 -   <img alt="" src=images/Arch_Component.png  style="width:32px;"> [BIM Component](Arch_Component.md): Turns any selected object into a BIM object, with complete IFC support
 
 **Generic 3D tools**: These tools build generic 3D objects that can be turned or used into BIM components
@@ -151,7 +151,7 @@ Annotations are visual help objects that can be placed inside your model. They c
 ### Management tools 
 
 -   <img alt="" src=images/BIM_Setup.png  style="width:32px;"> [BIM setup](BIM_Setup.md): Configures some of the FreeCAD preferences most commonly used for BIM
--   <img alt="" src=images/BIM_Project.png  style="width:32px;"> _, a [building](Arch_Building.md) and [axes](Arch_Axis.md) by filling basic project information.
+-   <img alt="" src=images/BIM_Project.png  style="width:32px;"> [Project setup](BIM_Project.md): Allows to create some basic objects such as a [site](Arch_Site.md), a [building](Arch_Building.md) and [axes](Arch_Axis.md) by filling basic project information.
 -   <img alt="" src=images/BIM_Views.png  style="width:32px;"> [Views and levels manager](BIM_Views.md): Manage the different views and levels of your project
 -   <img alt="" src=images/BIM_Windows.png  style="width:32px;"> [Windows manager](BIM_Windows.md): Manage the doors and windows of your project
 -   <img alt="" src=images/BIM_IfcElements.png  style="width:32px;"> [IFC elements manager](BIM_IfcElements.md): Manage how the different elements of your project will be exported to IFC
@@ -159,7 +159,7 @@ Annotations are visual help objects that can be placed inside your model. They c
 -   <img alt="" src=images/BIM_IfcQuantities.svg  style="width:32px;"> [IFC quantities manager](BIM_IfcQuantities.md): Manage how the quantities of your objects are explicitely exported to IFC
 -   <img alt="" src=images/BIM_Classification.png  style="width:32px;"> [Classification manager](BIM_Classification.md): Manage how objects and materials of your project relate to classifications systems such as [Uniclass](https://en.wikipedia.org/wiki/Uniclass)
 -   <img alt="" src=images/Draft_VisGroup.svg  style="width:32px;"> [Layers manager](BIM_Layers.md): Manage the layers of your document
--   <img alt="" src=images/Arch_Material_Group.svg  style="width:32px;"> _ of selected objects
+-   <img alt="" src=images/Arch_Material_Group.svg  style="width:32px;"> [Material](Arch_SetMaterial.md): Manages materials or [multimaterials](Arch_MultiMaterial.md) of selected objects
 -   <img alt="" src=images/Arch_Schedule.svg  style="width:32px;"> [Schedule](Arch_Schedule.md): Creates different types of schedules
 -   <img alt="" src=images/BIM_Preflight.svg  style="width:32px;"> [Preflight checks](BIM_Preflight.md): Perform different checks on your model before exporting to IFC
 -   <img alt="" src=images/Draft_AnnotationStyleEditor.svg  style="width:32px;"> [Annotation style editor](Draft_AnnotationStyleEditor.md): Manages annotation styles used by texts and dimensions
@@ -182,7 +182,7 @@ New workbenches are in development, stay tuned!
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > BIM Workbench/en

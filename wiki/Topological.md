@@ -1,7 +1,7 @@
 # Topological
 1.  REDIRECT [Topological naming problem](Topological_naming_problem.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Redirects](Category_Redirects.md)
 
 ---
 [documentation index](../README.md) > Topological

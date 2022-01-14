@@ -163,7 +163,7 @@ Replace a string in all the pages listed in the Arch category (a/k/a )
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Arch](Category_Arch.md) [<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
 
 ---
 [documentation index](../README.md) > [Administration](Category_Administration.md) > WikiRobots

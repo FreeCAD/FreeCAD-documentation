@@ -549,7 +549,7 @@ N  pyexample_b  Documentation for this module
 
 ### Convertir du style à la Python en style à la Doxygen 
 
-Dans l\'exemple précédent, le fichier Python commenté dans un _ affiche des informations plus détaillées et un formatage pour ses classes, fonctions et variables. La raison en est que ce style permet à Doxygen d\'extraire les commandes spéciales commençant par `\` ou `@`, contrairement au _. Par conséquent, il serait souhaitable de convertir le style Pythonic en style Doxygen avant de compiler la documentation. Ceci est possible avec un programme auxiliaire Python appelé [doxypypy](https://github.com/Feneric/doxypypy). Ce programme est inspiré d'un programme plus ancien appelé [doxypy](https://github.com/Feneric/doxypy), qui prendrait le '''docstrings''' de Pythonic et les convertir en blocs de commentaires Doxygen commençant par un double hachage `##`. Doxypypy va plus loin que cela en analysant les docstrings et en extrayant des éléments d'intérêt tels que des variables et des arguments, voire des doctests (exemple de code dans les docstrings).
+Dans l\'exemple précédent, le fichier Python commenté dans un [style à la Doxygen](#Deuxième_style__bloc_de_documentation_avant_le_code.md) affiche des informations plus détaillées et un formatage pour ses classes, fonctions et variables. La raison en est que ce style permet à Doxygen d\'extraire les commandes spéciales commençant par `\` ou `@`, contrairement au [style à la Python](#Premier_style__documentation_de_Python.md). Par conséquent, il serait souhaitable de convertir le style Pythonic en style Doxygen avant de compiler la documentation. Ceci est possible avec un programme auxiliaire Python appelé [doxypypy](https://github.com/Feneric/doxypypy). Ce programme est inspiré d'un programme plus ancien appelé [doxypy](https://github.com/Feneric/doxypy), qui prendrait le '''docstrings''' de Pythonic et les convertir en blocs de commentaires Doxygen commençant par un double hachage `##`. Doxypypy va plus loin que cela en analysant les docstrings et en extrayant des éléments d'intérêt tels que des variables et des arguments, voire des doctests (exemple de code dans les docstrings).
 
 Doxypypy peut être installé en utilisant `pip`, le programme d\'installation du paquet Python. 
 ```python
@@ -880,7 +880,7 @@ Voir cette réponse dans [Stackoverflow](https://stackoverflow.com/a/35377654) p
 -   [Documentation du code source](Source_documentation/fr.md)
 -   [FreeCAD API website](https://www.freecadweb.org/api/)
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md)
 
 ---
 [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Doxygen/fr

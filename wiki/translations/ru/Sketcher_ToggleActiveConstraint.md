@@ -12,17 +12,17 @@
 ## Описание
 
 
-**<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [ToggleActiveConstraint](Sketcher_ToggleActiveConstraint.md)**
+**[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [ToggleActiveConstraint](Sketcher_ToggleActiveConstraint.md)**
 
 allows you to activate and deactivate an already placed constraint. This allows you to keep the constraint in the background but temporarily test another arrangement of the existing geometry.
 
-The **<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> <img src=images/Sketcher_ToggleActiveConstraint.svg style="width:Toggle driving constraint](Sketcher_ToggleDrivingConstraint.md)** tool is similar in that it disables the effect of the constraint; however, with this tool, the constraint does not keep its old value. On the other hand, with **[16px"> [ToggleActiveConstraint](Sketcher_ToggleActiveConstraint.md)** you can re-activate the old constraint immediately.
+The **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Toggle driving constraint](Sketcher_ToggleDrivingConstraint.md)** tool is similar in that it disables the effect of the constraint; however, with this tool, the constraint does not keep its old value. On the other hand, with **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [ToggleActiveConstraint](Sketcher_ToggleActiveConstraint.md)** you can re-activate the old constraint immediately.
 
 ## Применение
 
-1.  Select an already placed constraint, then press **<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [ToggleActiveConstraint](Sketcher_ToggleActiveConstraint.md)**.
+1.  Select an already placed constraint, then press **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [ToggleActiveConstraint](Sketcher_ToggleActiveConstraint.md)**.
 2.  Alternatively, got to the [task panel](task_panel.md), to the **Constraints** section, select the constraint, then open the context menu (right-click), and select **Deactivate**.
-3.  To activate the constraint again, select it, and press **<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [ToggleActiveConstraint](Sketcher_ToggleActiveConstraint.md)** again.
+3.  To activate the constraint again, select it, and press **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [ToggleActiveConstraint](Sketcher_ToggleActiveConstraint.md)** again.
 
 ## Примеры
 

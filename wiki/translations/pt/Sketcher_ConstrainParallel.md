@@ -30,7 +30,7 @@ The sketch contains two randomly oriented lines.
 
 Apply the Constrain Parallel constraint by either:
 
--   Pressing the **<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Constrain parallel](Sketcher_ConstrainParallel.md)** button from the Sketcher constraints toolbar by selecting the Constraint Parallel menu item from the Sketcher constraints sub menu of the Sketcher (Sketcher workbench selected) or Part Design (Part Design workbench selected) menu item.
+-   Pressing the **[<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Constrain parallel](Sketcher_ConstrainParallel.md)** button from the Sketcher constraints toolbar by selecting the Constraint Parallel menu item from the Sketcher constraints sub menu of the Sketcher (Sketcher workbench selected) or Part Design (Part Design workbench selected) menu item.
 -   Use the **Shift** + **P** keyboard shortcut.
 -   Use the **Sketch → Sketcher constraints → Constrain parallel** entry from the top menu.
 

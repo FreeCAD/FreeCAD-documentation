@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil Bibliothèque BIM vous permet de placer dans le modèle en cours un objet de la _ pour que cet outil soit disponible.
+L\'outil Bibliothèque BIM vous permet de placer dans le modèle en cours un objet de la [Bibliothèque de pièces](Parts_Library/fr.md). Il doit être installé via le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) pour que cet outil soit disponible.
 
 <img alt="" src=images/BIM_Library_screenshot.png  style="width:800px;"> 
 *Above: Voir la boîte de dialogue '''Navigateur de bibliothèque''' dans le [Panneau des tâches](Task_panel/fr.md) à gauche*
@@ -37,7 +37,7 @@ L\'outil Bibliothèque BIM vous permet de placer dans le modèle en cours un obj
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
 [documentation index](../README.md) > [BIM](Category_BIM.md) > BIM Library/fr

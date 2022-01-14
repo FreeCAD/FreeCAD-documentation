@@ -35,7 +35,7 @@ All preferences settings with *italic* labels are default values for new drawing
 -   **Template Directory**: Starting directory for toolbar button **<img src="images/TechDraw_PageTemplate.svg" width=16px> [Insert Page using Template](TechDraw_PageTemplate.md)**.
 -   **Hatch Pattern File**: Default [SVG](SVG.md) or [bitmap](bitmap.md) file for [hatches](TechDraw_Hatch.md).
 -   **Line Group File**: Alternate file for personal [line group](TechDraw_LineGroup.md) definitions.
--   **Welding Directory**: Default directory for toolbar button **<img src=images/TechDraw_WeldSymbol.svg style="width:16px"> [Add Welding Information to Leader](TechDraw_WeldSymbol.md)**. <small>(v0.19)</small> 
+-   **Welding Directory**: Default directory for toolbar button **[<img src=images/TechDraw_WeldSymbol.svg style="width:16px"> [Add Welding Information to Leader](TechDraw_WeldSymbol.md)**. <small>(v0.19)</small> 
 -   **PAT File**: Default PAT pattern definition file for [geometric hatches](TechDraw_GeometricHatch.md).
 -   **Pattern Name**: Name of the default PAT pattern.
 
@@ -189,7 +189,7 @@ Some preference settings are only accessible through the [Parameter editor](Std_
 
  {{TechDraw Tools navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences

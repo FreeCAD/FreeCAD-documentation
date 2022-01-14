@@ -72,7 +72,7 @@ Notare che Loft ha una proprietà \"Ruled\". Se è impostata su true, le superfi
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [Part](Part_Workbench.md) > Part Loft Technical Details/it

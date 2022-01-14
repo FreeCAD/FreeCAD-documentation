@@ -1,9 +1,9 @@
 # Manual:Traditional modeling, the CSG way/fr
 {{Manual:TOC/fr}}
 
-La _ (CSG en anglais : *Constructive Solid Geometry*) décrit la manière la plus simple de travailler avec la géométrie 3D des solides. Elle crée des objets complexes en ajoutant/enlevant des éléments de volumes en utilisant des opérations booléennes telles que l\'union, la soustraction ou l\'intersection de solides.
+La [géométrie de construction de solides](wikipedia:fr_Géométrie_de_construction_de_solides.md) (CSG en anglais : *Constructive Solid Geometry*) décrit la manière la plus simple de travailler avec la géométrie 3D des solides. Elle crée des objets complexes en ajoutant/enlevant des éléments de volumes en utilisant des opérations booléennes telles que l\'union, la soustraction ou l\'intersection de solides.
 
-Comme nous l\'avons vu plus tôt dans ce manuel, FreeCAD peut gérer de nombreux types de géométrie. La géométrie préférée et la plus utile pour la conception d\'objets 3D avec FreeCAD, c\'est-à-dire les objets du monde réel, est sans aucun doute la géométrie _). Contrairement aux maillages de polygones ([Mesh (objet)](https://fr.wikipedia.org/wiki/Mesh_(objet))), constitués uniquement de points et triangles, les objets BREP ont leurs faces définies par des courbes mathématiques, qui permettent une précision absolue, peu importe l\'échelle.
+Comme nous l\'avons vu plus tôt dans ce manuel, FreeCAD peut gérer de nombreux types de géométrie. La géométrie préférée et la plus utile pour la conception d\'objets 3D avec FreeCAD, c\'est-à-dire les objets du monde réel, est sans aucun doute la géométrie [BREP](https://fr.wikipedia.org/wiki/G%C3%A9om%C3%A9trie_de_construction_de_solides), principalement prise en charge par l'([atelier Part](Part_Workbench/fr.md)). Contrairement aux maillages de polygones ([Mesh (objet)](https://fr.wikipedia.org/wiki/Mesh_(objet))), constitués uniquement de points et triangles, les objets BREP ont leurs faces définies par des courbes mathématiques, qui permettent une précision absolue, peu importe l\'échelle.
 
 ![](images/Mesh_vs_brep.jpg )
 
@@ -86,7 +86,7 @@ Notez que, bien que les pieds aient 8 mm d\'épaisseur, nous les avons placé à
 
 Maintenant que nos cinq pièces sont complètes, c\'est le moment pour leur donner des noms plus parlant que \"Cut015\". En cliquant avec le bouton droit sur les objets dans l\'arborescence (ou en appuyant sur **F2**), vous pouvez les renommer de façon plus significative pour vous-même ou pour une autre personne qui ouvrirait votre travail plus tard. On dit souvent que le fait de donner simplement des noms concrets à vos objets est beaucoup plus important que la façon dont vous les modélisez.
 
--   Nous allons maintenant placer des vis. Il existe aujourd\'hui un addon extrêmement utile développé par un membre de la communauté FreeCAD que vous trouverez dans le dépôt des greffons FreeCad (_.
+-   Nous allons maintenant placer des vis. Il existe aujourd\'hui un addon extrêmement utile développé par un membre de la communauté FreeCAD que vous trouverez dans le dépôt des greffons FreeCad ([FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons)) appelé [Fasteners](https://github.com/shaise/FreeCAD_FastenersWB). Il facilite l\'insertion de vis. L\'installation d'ateliers supplémentaires est simple et est décrite dans les pages du [Gestionnaire des Addons](Std_AddonMgr/fr.md).
 -   Une fois que vous avez installé l'atelier Fasteners et redémarré FreeCAD, il apparait dans la liste des ateliers, et nous pouvons l'utiliser. Ajouter une vis à l\'un de nos trous est effectué en sélectionnant d\'abord l\'arête circulaire de notre trou :
 
 ![](images/Exercise_table_07.jpg )
@@ -128,7 +128,7 @@ Le fichier produit dans cet exercice: <https://github.com/yorikvanhavre/FreeCADm
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional modeling, the CSG way/fr

@@ -66,7 +66,7 @@ Voir la page [Problème de dénomination topologique](Topological_naming_problem
 
 ## Script
 
-L\'outil **_ [Congés](PartDesign_Fillet/fr.md)** peut être utilisé dans une macro et à partir de la console Python en utilisant la fonction suivante :
+L\'outil **[16px|text-top=Congé|link=PartDesign_Fillet/fr](File:PartDesign_Fillet.svg.md) [Congés](PartDesign_Fillet/fr.md)** peut être utilisé dans une macro et à partir de la console Python en utilisant la fonction suivante :
 
 
 ```python

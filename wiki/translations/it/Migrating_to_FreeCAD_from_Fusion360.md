@@ -34,15 +34,15 @@ Fate riferimento alla pagina del [Glossario](Glossary/it.md) in generale, ma qui
 ## DOMANDE FREQUENTI 
 
 1.  Quali formati sono supportati in FreeCAD?
-    -   Il formato di file nativo in FreeCAD è BREP, _.
+    -   Il formato di file nativo in FreeCAD è BREP, [rappresentazione per contorni](https://it.wikipedia.org/wiki/B-rep), fornito dal kernel geometrico interno [OpenCASCADE (OCCT)](OpenCASCADE/it.md).
     -   FreeCAD supporta tutti i formati supportati da OCCT, quindi almeno STEP e IGES.
 2.  Quali formati dovrei usare per migrare a FreeCAD?
     -   STEP è il miglior formato perché è un formato solido [Forma](Shape/it.md), al contrario di un [Mesh](Mesh/it.md) (STL, OBJ, DAE). Esempio, [Importazione del passo con i colori](https://forum.freecadweb.org/viewtopic.php?f=3&t=50308).
-    -   Importare un STL è possibile, ma questo formato di mesh sarà difficile da modificare ulteriormente. Si consiglia di convertire le mesh importate in forme solide usando **<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part ShapeFromMesh](Part_ShapeFromMesh/it.md)**. Rimodellare l\'oggetto in FreeCAD, usando la mesh come riferimento, è il miglior consiglio.
+    -   Importare un STL è possibile, ma questo formato di mesh sarà difficile da modificare ulteriormente. Si consiglia di convertire le mesh importate in forme solide usando **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part ShapeFromMesh](Part_ShapeFromMesh/it.md)**. Rimodellare l\'oggetto in FreeCAD, usando la mesh come riferimento, è il miglior consiglio.
 
 ## Suggerimenti
 
--   \@MPetrika (_ di HakanSeven12
+-   \@MPetrika ([twitter](https://twitter.com/MPetrikas/status/1362051484704264198)) raccomanda di installare il [ModernUI Workbench](ModernUI_Workbench/it.md) di HakanSeven12
 
 ## Risorse di apprendimento 
 

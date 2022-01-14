@@ -16,7 +16,7 @@ Ermöglicht es dir, eine Skizze von einer Fläche zu lösen und sie an einer der
 ## Anwendung
 
 1.  Wähle die Skizze aus, die in der Baumansicht neu ausgerichtet werden soll
-2.  Wähle **Skizze → <img src=images/Sketcher_ReorientSketch.svg style="width:16px"> [Skizze Neuorientieren](Sketcher_ReorientSketch/de.md)** aus dem oberen Menü.
+2.  Wähle **Skizze → [<img src=images/Sketcher_ReorientSketch.svg style="width:16px"> [Skizze Neuorientieren](Sketcher_ReorientSketch/de.md)** aus dem oberen Menü.
 3.  Ein Menü wird aufklappen und dich fragen, ob du die Skizze von ihrer Fläche ablösen möchtest.
 4.  Auswählen von **Ja** gibt dir dasselbe Menü wie in **Skizze → Neue Skizze**.
 5.  Du kannst die Skizze an eine der Hauptebenen anhängen

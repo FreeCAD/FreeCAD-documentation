@@ -1,7 +1,7 @@
 # Main Page/sv
 ## Introduction
 
-This is the documentation wiki of _! 
+This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There are several ways to use this documentation: by exploring the hubs, by following the manual, or by using the Help menu entries from within FreeCAD. This is a work in progress, written by the community of users and developers of FreeCAD. If you find information that is wrong or missing, please [help FreeCAD](Special:MyLanguage/help_FreeCAD.md)! 
 
 
 ## The hubs 
@@ -18,7 +18,7 @@ This is the documentation wiki of _!
 
 ## Manual
 
-<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> _  is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecadweb.org/manual/).
+<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual](Manual_Introduction.md)  is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecadweb.org/manual/).
 
 
 
@@ -57,7 +57,7 @@ There is plenty to do inside the FreeCAD project, if you are interested in helpi
 -   helping with the packaging of the latest release of FreeCAD for your favourite operating system
 -   helping other people around you to discover FreeCAD.
 
-The _ page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
+The [help FreeCAD](Special:MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
 
 ### Önskad hjälp 
 
@@ -82,7 +82,7 @@ Titta på [Development roadmap](Development_roadmap.md) för nyheter om vad som 
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/sv

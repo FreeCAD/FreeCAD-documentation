@@ -23,10 +23,10 @@ Es gibt einige Möglichkeiten, eine Mittellinie für Bohrungen zu erzeugen. Zuer
 :   <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:24px;"> [Mittellinie zwischen 2 Linien hinzufügen](TechDraw_2LineCenterLine/de.md)
 
 <img alt="" src=images/TechDraw_Tutorial_2PointCenterLine_example.png  style="width:250px;"> 
-*Oben: erstellt mit <img src=images/TechDraw_2PointCenterLine.svg style="width:24px"> was Mittellinien zwischen 2 Punkten erzeugt*
+*Oben: erstellt mit [<img src=images/TechDraw_2PointCenterLine.svg style="width:24px"> was Mittellinien zwischen 2 Punkten erzeugt*
 
 <img alt="" src=images/TechDraw_Tutorial_2LineCenterLine_example.png  style="width:250px;"> 
-*Oben: erstellt mit <img src=images/TechDraw_2LineCenterLine.svg style="width:24px"> was Mittellinien zwischen 2 Linien erzeugt*
+*Oben: erstellt mit [<img src=images/TechDraw_2LineCenterLine.svg style="width:24px"> was Mittellinien zwischen 2 Linien erzeugt*
 
 Wähle im zugehörigen Dialogfeld der Comboansicht im Aufgabenpaneel unter *Orientierung* \"Ausgerichtet\" für Achsen außerhalb der Hauptachsen. *Verlängert Über* bedeutet die Länge der Mittellinie über die Körperlinie in der Zeichnung hinaus. Mit *Verschiebung Horizontal* und *Verschiebung Vertikal* kann sich die Mittellinie bei Bedarf in horizontaler oder vertikaler Richtung bewegen. Mit *Stil* ist die Gestalt der Mittellinie gemeint.
 

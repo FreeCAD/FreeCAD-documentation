@@ -110,7 +110,7 @@ Notice that if the original macro was downloaded through the Addon Manager, it w
 
 }}
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Macros](Category_Macros.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Macro at Startup/ru

@@ -83,7 +83,7 @@ myObject.Shape = Sweep
 
 ## Remerciements
 
-Merci à _ sans l\'aide de qui je n\'aurais pu rédiger ce script.
+Merci à [Wmayer](User_Wmayer.md) sans l\'aide de qui je n\'aurais pu rédiger ce script.
 
 Deux exemples d\'utilisation peuvent être consultés dans [cette discussion du forum (en anglais)](http://forum.freecadweb.org/viewtopic.php?f=8&t=1222&start=50#p11120), ainsi que des liens de téléchargement des fichiers FCStd. En utilisant une hélice comme trajectoire, un balayage solide peut être utilisé pour créer un filet de vis.
 

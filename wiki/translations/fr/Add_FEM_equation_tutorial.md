@@ -3,7 +3,7 @@
 |Topic=Ajouter des équations FEM
 |Level=Avancé
 |Time=1 jour
-|Author=_
+|Author=[JohnWang](User_JohnWang.md)
 |FCVersion=0.19
 }}
 
@@ -185,7 +185,7 @@ Nous avons maintenant terminé la partie fonction de la nouvelle équation. Ensu
 
 Nous venons de créer une nouvelle classe d\'équation. Pour y accéder depuis l\'interface graphique FEM, nous devons créer un bouton et le lier à la nouvelle classe d\'équation. Voici un tutoriel : [Tutoriel Ajouter un bouton à la barre d\'outils FEM](Add_button_to_FEM_toolbar_tutorial/fr.md).
 
-_ _
+[<img src="images/Property.png" style="width:16px"> FEM](Category_FEM.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [FEM](Category_FEM.md) > Add FEM equation tutorial/fr

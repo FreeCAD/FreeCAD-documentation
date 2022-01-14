@@ -32,7 +32,7 @@ Aceasta este a doua parte a tutorialului. Acesta va fi folosit ca flux de lucru 
 
 Bineînțeles, pentru a urma acest tutorial trebuie să acitivați atelierul de Piese (PartDesign workbench).
 
-~~You can find my version of the part created in this tutorial _~~ *The file is no longer available, a new one will be provided at some later date*.
+~~You can find my version of the part created in this tutorial [http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 here](http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_here.md)~~ *The file is no longer available, a new one will be provided at some later date*.
 
 ## Design data 
 
@@ -91,7 +91,7 @@ For the rest of the machining, create a new Body. The bottom of the holder will 
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/ro

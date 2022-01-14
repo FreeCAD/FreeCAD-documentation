@@ -33,7 +33,7 @@ Acest instrument oferă informații despre o comandă selectată prin deschidere
 
 <div class="mw-translate-fuzzy">
 
-1.  Apăsați butonul **<img src=images/Std_WhatsThis.png style="width:24px"> '''What's This?'''** .
+1.  Apăsați butonul **[<img src=images/Std_WhatsThis.png style="width:24px"> '''What's This?'''** .
 2.  Faceți clic pe o pictogramă a barei de instrumente sau pe o intrare din meniu.
 
 

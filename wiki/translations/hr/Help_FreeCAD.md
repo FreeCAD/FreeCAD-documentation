@@ -21,7 +21,7 @@ Pomozi u stvaranju, ispravci i proširenju dokumentacije. Ispravi greške, proš
 
 Par područja koja bi pozdravila vaš rad:
 
--   Na stranici _ su popisane i dokumentirane sve FreeCAD [naredbes](command/hr.md). Većina ih sadrži malo ili nimalo informacija. Molimo pogledajte [Wiki stranice](WikiPages/hr.md) za dobre primjere kako trebaju izgledati stranice naredbene dokumentacije.
+-   Na stranici [:<img src="images/Property.png" style="width:16px"> Command Reference/hr](:<img src="images/Property.png" style="width:16px"> Command_Reference/hr.md) su popisane i dokumentirane sve FreeCAD [naredbes](command/hr.md). Većina ih sadrži malo ili nimalo informacija. Molimo pogledajte [Wiki stranice](WikiPages/hr.md) za dobre primjere kako trebaju izgledati stranice naredbene dokumentacije.
 -   U odjeljku [Vježbe](Tutorials/hr.md) potrebni su primjeri kako koristiti radne površine. Ako ste razvili nešto super s FreeCAD-om, zašto ne dokumentirati kako ste to učinili za potomstvo?
 -   Na FreeCAD [bugtracker](Tracker/hr.md) postoje otvorene karte s oznakom [\"dokumentacija\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) koje bi mogli koristiti sa ljubavlju za stvaranjem uputstava.
 
@@ -51,7 +51,7 @@ Prevođenje je jednostavno, wiki FreeCAD podržava dodatak za prijevod koji vam 
 
 Pojedinosti o prijevodu potražite u [Localisation/hr\#Prevedite\_FreeCAD\_dokumentacija](Localisation/hr#Prevedite_FreeCAD_dokumentacija.md).
 
-Molimo vas budite sigurni da ste upoznati s osnovama wiki markiranja; pogledajte _ za referencu.
+Molimo vas budite sigurni da ste upoznati s osnovama wiki markiranja; pogledajte [Pomoć:Uređivanje](Help_Editing.md) za referencu.
 
 Zatim idite na [WikiPages](WikiPages.md) da se upoznate sa stilom koji se koristi u ovom wikiju, posebno kada je riječ o predlošcima.
 
@@ -110,7 +110,7 @@ Kod za pisanje za FreeCAD nije težak i ne trebate nikakvo dopuštenje, odmah mo
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Command Reference/hr]] su popisane i dokumentirane sve FreeCAD ](Category_Command Reference/hr]] su popisane i dokumentirane sve FreeCAD .md) > Help FreeCAD/hr

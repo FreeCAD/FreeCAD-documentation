@@ -7,7 +7,7 @@ Questa categoria raccoglie e riunisce i punti di incontro delle 3 grandi categor
 
 [Developer hub/it](Developer_hub/it.md) , [Power users hub/it](Power_users_hub/it.md) , [Scientific literature/it](Scientific_literature/it.md) , [User hub/it](User_hub/it.md) , [Wished tools/it](Wished_tools/it.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Categories/it](<img src="images/Property.png" style="width:16px"> Categories/it.md)
 
 ---
 [documentation index](../README.md) > Category:Hubs/it

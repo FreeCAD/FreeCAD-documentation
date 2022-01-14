@@ -1,6 +1,6 @@
 # Part Plane/ro
 ---
-- GuiCommand:   Name:Part CreatePrimitives   Workbenches:_ → [Create Primitives](Part_CreatePrimitives.md) → Plane|
+- GuiCommand:   Name:Part CreatePrimitives   Workbenches:[OpenSCAD](Part_Workbench___Part]],_[[OpenSCAD_Workbench.md)|MenuLocation:[Part](Part_Workbench.md) → [Create Primitives](Part_CreatePrimitives.md) → Plane|
 SeeAlso=[Create Primitives](Part_CreatePrimitives.md)---
 
 

@@ -15,7 +15,7 @@ Instrumentul de hașurarea/Hatch umple o regiune închisă în View cu un model 
 
 </div>
 
-The Hatch tool fills a closed region in a View with a hatch pattern, which can be _ tool uses a specific PAT pattern file, see [Hatching](TechDraw_Hatching.md) for details.
+The Hatch tool fills a closed region in a View with a hatch pattern, which can be [SVG](SVG.md) or [bitmap](bitmap.md) files. In contrary the <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Geometric Hatch](TechDraw_GeometricHatch.md) tool uses a specific PAT pattern file, see [Hatching](TechDraw_Hatching.md) for details.
 
 <img alt="" src=images/TechDraw_Hatch_example.png  style="width:300px;">
 

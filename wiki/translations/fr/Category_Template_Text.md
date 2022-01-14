@@ -7,9 +7,9 @@ Les longs textes doivent être placés dans la page elle-même, de manière à p
 
 ### Contents:
 
-_ , _ , _ , _
+[Template:Obsolete/fr](Template:Obsolete/fr.md) , [Template:Version/fr](Template:Version/fr.md) , [Template:VersionMinus/fr](Template:VersionMinus/fr.md) , [Template:VersionPlus/fr](Template:VersionPlus/fr.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Template/fr](<img src="images/Property.png" style="width:16px"> Template/fr.md)
 
 ---
 [documentation index](../README.md) > Category:Template:Text/fr

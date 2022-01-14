@@ -34,7 +34,7 @@ Stworzenie gwintu zajmuje trochę czasu. Bądź cierpliwy i sprawdzaj obciążen
 
 ## Skrypt
 
-Najnowszą wersję makra można znaleźć na stronie _.
+Najnowszą wersję makra można znaleźć na stronie [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro), jednak najprostszym sposobem zainstalowania tego makra jest funkcja [menadżer dodatków](Std_AddonMgr/pl.md).
 
 ToolBar Icon ![](images/Macro_screw_maker1_2.png )
 

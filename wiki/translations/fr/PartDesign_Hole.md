@@ -80,7 +80,7 @@ La plupart des propriétés des Données sont les mêmes que celles indiquées d
 
 ## Définitions des types de coupes 
 
-Les types de coupes (types de vis) sont définis dans des fichiers _.
+Les types de coupes (types de vis) sont définis dans des fichiers [json](https://fr.wikipedia.org/wiki/JavaScript_Object_Notation) depuis la version 0.19. Il existe un ensemble de fichiers distribués avec FreeCAD, mais les utilisateurs peuvent créer leurs propres définitions. Les fichiers sont à rechercher dans <UserAppDataDir>/PartDesign/Hole. `UserAppDataDir` peut être trouvé en tapant `App.getUserAppDataDir()` dans la [console Python](Python_console/fr.md).
 
 Le fichier doit contenir :
 

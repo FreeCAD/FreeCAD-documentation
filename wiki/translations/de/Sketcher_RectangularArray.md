@@ -22,11 +22,11 @@ Erzeugt eine Anordnung ausgewählter Skizziererelemente.
 <div class="mw-translate-fuzzy">
 
 1.  Wähle Skizziererelemente im [Aufgabenbereich](task_panel/de.md) oder in der [3D Ansicht](3D_view/de.md).
-2.  Klicke auf **<img src=images/Sketcher_RectangularArray.svg style="width:16px"> [Rechteckige Anordnung](Sketcher_RectangularArray/de.md)** oder wähle
+2.  Klicke auf **[<img src=images/Sketcher_RectangularArray.svg style="width:16px"> [Rechteckige Anordnung](Sketcher_RectangularArray/de.md)** oder wähle
 
 
 **Skizze → Skizzierer Werkzeuge → 
-<img src=images/Sketcher_RectangularArray.svg style="width:16px"> Rechteckige Anordnung**
+[<img src=images/Sketcher_RectangularArray.svg style="width:16px"> Rechteckige Anordnung**
 
 aus dem oberen Menü.
 

@@ -48,7 +48,7 @@ Si vous souhaitez que quelque chose apparaisse dans FreeCAD qui ne soit pas enco
 Si vous avez programmé une correction de bogue, une extension ou quelque chose d\'autre qui peut être d\'utilité publique dans FreeCAD, soumettez votre patch comme une \"Pull Request\" sur [GitHub](https://github.com/FreeCAD/FreeCAD).
 
 1.  Pour une contribution importante, complexe ou modifiant le comportement, ouvrez un fil de discussion sur le forum [Developer subforum](https://forum.freecadweb.org/viewforum.php?f=10) pour annoncer et discuter de votre correctif. Ce n\'est pas nécessaire pour les petites corrections de bogues.
-2.  Soumettez votre Pull Request (PR) sur la _.
+2.  Soumettez votre Pull Request (PR) sur la [repo GitHub de FreeCAD](http://github.com/FreeCAD/FreeCAD). Le message de soumission de la PR sera pré-rempli avec une liste de contrôle que vous devrez suivre pour vous assurer que votre soumission a les meilleures chances d\'être acceptée rapidement. Si vous n\'avez jamais travaillé avec `git` auparavant ou si vous n\'êtes pas familier avec la soumission d\'un PR sur github, veuillez lire notre page wiki d\'introduction [github](Source_code_management/fr.md).
 3.  Soyez présent lors de la discussion, à la fois sur le forum et dans la pull request GitHub afin que votre code puisse potentiellement être fusionné plus rapidement.
 
 ## Demande de fusion 
@@ -176,7 +176,7 @@ Pour les curieux, voici le regex que MantisBT utilise pour cette opération:
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Tracker/fr

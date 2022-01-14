@@ -33,7 +33,7 @@ Der BIM Ansichtenverwalter zeigt alle Ebenen (Gebäudeteile) und Arbeitsebenen P
 -   Anklicken der **Save camera position**-Schaltfläche speichert die aktuellen Ansichteinstellungen im ausgewählten Objekt, um sie beim Setzen der **Restore View**-Eigenschaft auf {{PropertyData/de|True}} wiederherzustellen
 -   Anklicken der **Rename**-Schaltfläche erlaubt das Umbenennen eine ausgewählten Objekts
 
-_
+[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > BIM Views/de

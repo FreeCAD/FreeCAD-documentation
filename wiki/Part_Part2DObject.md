@@ -3,7 +3,7 @@
 
  <img alt="" src=images/Tree_Part2D.svg  style="width:32px;"> 
 
-A _ associated that can be displayed in the [3D view](3D_view.md).
+A [Part Part2DObject](Part_Part2DObject.md), or formally a `Part::Part2DObject`, is a simple element with a [topological shape](Part_TopoShape.md) associated that can be displayed in the [3D view](3D_view.md).
 
 The `Part::Part2DObject` is derived from a [Part Feature](Part_Feature.md), but is specialized for 2D geometry, given that its shape will lie on a plane. This plane is defined by its **Placement** property (position, normal, and rotation). However, the plane can also be defined by supporting geometrical elements, such as the plane created by three arbitrary vertices, or a face of a solid body.
 
@@ -25,7 +25,7 @@ Workbenches can add more properties to this basic element to produce an object w
 
 See [Property](Property.md) for all property types that scripted objects can have.
 
-A _ (`Part::Feature` class), therefore it shares all the latter\'s properties.
+A [Part Part2DObject](Part_Part2DObject.md) (`Part::Part2DObject` class) is derived from a [Part Feature](Part_Feature.md) (`Part::Feature` class), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [Part Feature](Part_Feature.md), the Part Part2DObject has the following properties in the [property editor](property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](property_editor.md).
 

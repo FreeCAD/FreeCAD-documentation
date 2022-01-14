@@ -41,7 +41,7 @@ Quando si avvia lo strumento, il puntatore del mouse si trasforma in una croce b
 
 <div class="mw-translate-fuzzy">
 
-Premere il pulsante **<img src=images/Sketcher_CreateEllipse_3points.png style="width:24px"> '''Ellisse da 3 punti'''**.
+Premere il pulsante **[<img src=images/Sketcher_CreateEllipse_3points.png style="width:24px"> '''Ellisse da 3 punti'''**.
 
 -   Il pr\* imo clic nella vista 3D imposta un punto che definisce l\'incrocio del diametro maggiore con l\'ellisse (periasse). Il secondo clic nella vista 3D imposta un punto che definisce l\'incrocio del diametro maggiore con l\'ellisse opposta al punto centrale (apoasse). Il terzo clic imposta un punto sull\'ellisse che definisce il raggio minore.
 

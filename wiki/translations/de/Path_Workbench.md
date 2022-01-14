@@ -11,8 +11,8 @@ Der <img alt="" src=images/Workbench_Path.svg  style="width:24px;"> [Arbeitsbere
 
 Der FreeCAD Arbeitsbereich Path erstellt diese Maschinenanweisungen mit folgendem Arbeitsablauf:
 
--   Ein 3D Modell ist das Basisobjekt, das typischerweise mit einer oder mehreren der Arbeitsbereiche <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _ oder <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) erstellt wird.
--   Ein _ und es folgen bestimmte Befehle, die die Geschwindigkeit und die Bewegungen steuern (normalerweise G-code).
+-   Ein 3D Modell ist das Basisobjekt, das typischerweise mit einer oder mehreren der Arbeitsbereiche <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Part Design](PartDesign_Workbench/de.md), <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) oder <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/de.md) erstellt wird.
+-   Ein [Path Auftrag](Path_Job/de.md) wird im Arbeitsbereich Path erstellt. Dieser enthält alle Informationen, die zur Erzeugung des notwendigen G-codes für die Bearbeitung des Arbeitsauftrags auf einer CNC Fräse erforderlich sind: es gibt Rohmaterial, die Fräse hat einen bestimmten [Werkzeugsatz](Path_ToolLibraryEdit/de.md) und es folgen bestimmte Befehle, die die Geschwindigkeit und die Bewegungen steuern (normalerweise G-code).
 -   Die Werkzeuge werden entsprechend den Anforderungen der Arbeitsauftragsabläufe ausgewählt.
 -   Fräsbahnen werden z.B. mit [Kontur](Path_Profile/de.md) und [Tasche](Path_Pocket_3D/de.md) Abläufen erzeugt. Diese Bahnobjekte verwenden den internen FreeCAD G-code Dialekt, unabhängig von der CNC Maschine.
 -   Der [Path Auftrag](Path_Job/de.md) wird mit einem Post Processor als G-code exportiert. Der eingesetzte Post Processor muss zur verwendeten Maschine passen, da dieser den FreeCAD intern verwendeten G-code in den \"Dialekt\" der Maschine übersetzt.
@@ -90,7 +90,7 @@ Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie z
 
 -   <img alt="" src=images/Path_PostProcess.svg  style="width:32px;"> [Nach Prozess](Path_Post/de.md): Exportiert ein Projekt in G-code.
 
--   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> _. {{Version/de|0.19}}
+-   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> [Überprüfen des Pfadauftrags auf allgemeine Fehler](Path_Sanity/de.md): Überprüft den gewählten Auftrag auf fehlende Werte. [/de**Experimentell**](Path_experimental.md). {{Version/de|0.19}}
 
 -   <img alt="" src=images/Path_ExportTemplate.svg  style="width:32px;"> [Export Vorlage](Path_ExportTemplate/de.md): Den aktuellen Auftrag als Vorlage exportieren.
 
@@ -122,7 +122,7 @@ Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie z
 
 -   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptiv](Path_Adaptive/de.md): Erstellt eine adaptive Räum- und Profilierungsbearbeitung.
 
--   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> _. {{Version/de|0.19}}
+-   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Nut](Path_Slot/de.md): Erzeugt eine Nutenbearbeitung aus ausgewählten Formelementen oder benutzerdefinierten Punkten. [**Experimentell**](Path_experimental/de.md). {{Version/de|0.19}}
 
 -   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Gravieren](Path_Engrave/de.md): Erstellt einen Gravurpfad.
 
@@ -132,9 +132,9 @@ Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie z
 
 -   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [3D Tasche](Path_Pocket_3D/de.md): Erzeugt einen Pfad für eine 3D Tasche.
 
--   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> _. {{Version/de|0.19}}
+-   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> [3D Oberfläche](Path_Surface/de.md): Erstellt einen Pfad für eine 3D Oberfläche. [**Experimentell**](Path_experimental/de.md). {{Version/de|0.19}}
 
--   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> _. {{Version/de|0.19}}
+-   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Wasserlinie](Path_Waterline/de.md): Erzeugt einen Wasserlinienpfad für eine 3D Oberfläche. [**Experimentell**](Path_experimental/de.md). {{Version/de|0.19}}
 
 ### Pfad Aufbereitung 
 
@@ -160,7 +160,7 @@ Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie z
 
 -   <img alt="" src=images/Path_Custom.svg  style="width:32px;"> [Benutzerdefiniert](Path_Custom/de.md): Fügt benutzerdefinierten G-Code ein.
 
-<img alt="Path_GcodeFromShape.svg" src=images/Path_GcodeFromShape.svg  style="width:32px;"> _.
+<img alt="Path_GcodeFromShape.svg" src=images/Path_GcodeFromShape.svg  style="width:32px;"> [Aus Form](Path_Shape/de.md): Erstellt ein  Pfadobjekt aus einem gewählten Part Objekt. [**Experimentell**](Path_experimental/de.md).
 
 ### Pfadänderungen
 
@@ -172,9 +172,9 @@ Einige Befehle sind experimentell und standardmäßig nicht verfügbar. Um sie z
 
 ### Sonstiges
 
--   <img alt="" src=images/Path_Area.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Path_Area.svg  style="width:32px;"> [Bereich](Path_Area/de.md): Erstellt einen Formelementbereich aus gewählten Objekten. [**Experimentell**](Path_experimental/de.md).
 
--   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> [Bereich Arbeitsebene](Path_Area_Workplane/de.md): Erstellt eine Formelementbereich Arbeitsebene. [**Experimentell**](Path_experimental/de.md).
 
 ### Veraltet
 
@@ -214,7 +214,7 @@ Siehe [Pfad Skripten](Path_scripting/de.md).
 
 ## Videos
 
--   _.
+-   [FreeCAD Path: Custom paths with Python - Part 1 - 5](https://www.youtube.com/playlist?list=PLEuOia-QxyFKgzAeTyH62GKqWKVURiWJL): a playlist with a series of 5 videos in English by sliptonic. This series shows how to work with the [Path Workbench](Path_Workbench.md).
 -   [FreeCAD CAM Path Workbench](https://www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC): a playlist with a series of 7 videos in English by CAD CAM Lessons.
 -   [FreeCAD CAM CNC](https://www.youtube.com/playlist?list=PLUrr_kHPp4vh2n6DcIlegK4dEKIFjmISJ) a playlist with a series of 8 videos in English by CAD CAM Lessons.
 
@@ -226,7 +226,7 @@ Siehe [Pfad Skripten](Path_scripting/de.md).
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/de

@@ -15,9 +15,9 @@ Un element primitiv geometric este Elicea care este disponibilă din dialogul Cr
 
 </div>
 
-The **<img src=images/Part_Helix.svg style="width:16px"> [Part Helix](Part_Helix.md)** geometric primitive creates a helix shape, defined by a radius, a pitch, and a total height.
+The **[<img src=images/Part_Helix.svg style="width:16px"> [Part Helix](Part_Helix.md)** geometric primitive creates a helix shape, defined by a radius, a pitch, and a total height.
 
-A common usage for the helix primitive is for <img src=images/PartDesign_AdditivePipe.svg style="width:creating screw threads](Thread_for_Screw_Tutorial.md) in conjunction with a closed profile, and the **<img src="images/Part_Sweep.svg" width=16px> [Sweep](Part_Sweep.md)** operation. This process works essentially the same in the [PartDesign Workbench](PartDesign_Workbench.md) by using the **[16px"> [PartDesign Additive pipe](PartDesign_AdditivePipe.md)** tool.
+A common usage for the helix primitive is for [creating screw threads](Thread_for_Screw_Tutorial.md) in conjunction with a closed profile, and the **<img src="images/Part_Sweep.svg" width=16px> [Sweep](Part_Sweep.md)** operation. This process works essentially the same in the [PartDesign Workbench](PartDesign_Workbench.md) by using the **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Additive pipe](PartDesign_AdditivePipe.md)** tool.
 
 
 <div class="mw-translate-fuzzy">
@@ -30,7 +30,7 @@ A common usage for the helix primitive is for <img src=images/PartDesign_Additiv
 
 <div class="mw-translate-fuzzy">
 
-The Create Primitives dialogue can be accessed via the _ in conjunction with the [sweep](Part_Sweep.md) operation.
+The Create Primitives dialogue can be accessed via the [CreatePrimitives](Part_CreatePrimitives.md) icon <img alt="" src=images/Part_CreatePrimitives.png  style="width:32px;"> located in the Part menu or the Part toolbar, in the Part Workbench. A common usage for the Helix is for [threads](Thread_for_Screw_Tutorial.md) in conjunction with the [sweep](Part_Sweep.md) operation.
 
 
 </div>

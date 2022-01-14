@@ -25,15 +25,15 @@ Das **<img src="images/Draft_AnnotationStyleEditor.svg" width=24px> [Anmeldungss
 2.  Die **Anmerkungsstil-Editor**-Dialog-Box öffnet sich.
 3.  Wähle einen Stil aus der **Stil-Name** Aufklappliste oder wähle {{Value|Neu hinzufügen...}}, um einen neuen Stil zu definieren.
 4.  Passe wahlweise die Eigenschaften des Stils an.
-5.  Drücke wahlweise die **<img src=images/Accessories-text-editor.svg style="width:16px"> Umbenennen**-Schaltläche, um den Stil umzubenennen.
-6.  Drücke wahlweise die **<img src=images/Edit_Cancel.svg style="width:16px"> Löschen**-Schaltfläche, um den Stil zu löschen.
-7.  Drücke wahlweise die **<img src=images/Std_Import.svg style="width:16px">**-Schaltfläche, um alle Stile aus einer {{FileName|.json}}-Datei zu importieren. Dies wird bestehende Stile mit dem gleichen Namen überschreiben.
-8.  Drücke wahlweise die **<img src=images/Std_Export.svg style="width:16px">**-Schaltfläche, um alle Stile in eine {{FileName|.json}}-Datei zu exportieren.
+5.  Drücke wahlweise die **[<img src=images/Accessories-text-editor.svg style="width:16px"> Umbenennen**-Schaltläche, um den Stil umzubenennen.
+6.  Drücke wahlweise die **[<img src=images/Edit_Cancel.svg style="width:16px"> Löschen**-Schaltfläche, um den Stil zu löschen.
+7.  Drücke wahlweise die **[<img src=images/Std_Import.svg style="width:16px">**-Schaltfläche, um alle Stile aus einer {{FileName|.json}}-Datei zu importieren. Dies wird bestehende Stile mit dem gleichen Namen überschreiben.
+8.  Drücke wahlweise die **[<img src=images/Std_Export.svg style="width:16px">**-Schaltfläche, um alle Stile in eine {{FileName|.json}}-Datei zu exportieren.
 9.  Drücke die **OK**-Schaltfläche, um die Dialog-Box zu schließen und den Befehl zu beenden.
 
 ## Skripten
 
-Siehe auch: _.
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Die Anmerkungsstile werden als serialisierte Wörterbücher im `Meta` Attribut des Dokuments gespeichert. Dieses Attribut wird vom Anmerkungsstileditor überprüft, wenn er geöffnet wird.
 

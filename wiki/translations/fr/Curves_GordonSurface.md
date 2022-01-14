@@ -26,7 +26,7 @@
         -   Chaque \"nervure\" est dans un croquis séparé.
     -   Les esquisses contenant les lignes d\'étendue/forme (jaunes) référenceront généralement la géométrie externe à partir des esquisses de \"nervure\" pour un positionnement précis.
 5.  Celles-ci doivent être créées avant l\'étape suivante.
-6.  Basculez vers <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> _ est nécessaire s\'il n\'est pas déjà installé)
+6.  Basculez vers <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench/fr.md) (installez à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) est nécessaire s\'il n\'est pas déjà installé)
 7.  Sélectionnez maintenant toutes les lignes qui définiront la surface.
 8.  L\'ordre de sélection définit l\'ordre de couture ou de tente.
 9.  Utilisez la sélection multiple pour sélectionner toutes les lignes définissant la surface. (Faites un clic gauche tout en maintenant la touche Ctrl enfoncée.)

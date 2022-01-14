@@ -8,7 +8,7 @@ Ta strona gromadzi informacje na temat pakietów FreeCAD dla różnych platform.
 
  
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Packaging](Category_Packaging.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Packaging](Category_Packaging.md) > Packaging/pl

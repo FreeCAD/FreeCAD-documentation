@@ -1,5 +1,5 @@
 # Customize Toolbars/it
-{{TutorialInfo/it|Topic=Configurazione|Level=Principiante|Time=5 minuti|Author=_|FCVersion=Tutte}}
+{{TutorialInfo/it|Topic=Configurazione|Level=Principiante|Time=5 minuti|Author=[Mario52](User_Mario52.md)|FCVersion=Tutte}}
 
 ## Introduzione
 
@@ -79,7 +79,7 @@ Selezionare la tabella *Macro*
 
 -   Cliccare sulla scheda **Barre degli strumenti** e, nel menu a discesa sulla destra, scegliere l\'ambiente di lavoro a cui è destinata la barra degli strumenti (**Parte** in questo esempio)
 
-\<img src=images/Freecad.svg style="width:Dalla versione 0.15 c\'è una barra degli strumenti **[16px"> Globale **. Se la barra degli strumenti è allegata a questa barra, essa rimane sempre visibile\]
+\[Dalla versione 0.15 c\'è una barra degli strumenti **[<img src=images/Freecad.svg style="width:16px"> Globale **. Se la barra degli strumenti è allegata a questa barra, essa rimane sempre visibile\]
 
 <img alt="Toolbars tab" src=images/CustomizeToolBar_11.png  style="width:640px;"> 
 
@@ -127,7 +127,7 @@ Vedere anche [Personalizzare l\'interfaccia](Interface_Customization/it.md)
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/it

@@ -17,7 +17,7 @@ Augmente le degré (ordre) d\'une B-spline (voir [cette page](B-Splines/fr.md) p
 Les B-splines sont essentiellement une combinaison de [courbes de Bézier](https://fr.wikipedia.org/wiki/Courbe_de_B%C3%A9zier) (bien expliqué ces vidéos [ici](https://www.youtube.com/watch?v=bE1MrrqBAl8) et [ici](https://www.youtube.com/watch?v=xXJylM2S72s)).
 
 Dans cette spline cubique (degré 3) il y a 3 segments, ce qui signifie que 3 courbes sont reliées à 2 nœuds
-(le degré est indiqué par le nombre, l\'indication peut être modifiée à l\'aide du bouton de la barre d\'outils **<img src=images/Sketcher_BSplineDegree.svg style="width:24px"> [Afficher/masquer le degré B-spline](Sketcher_BSplineDegree/fr.md)**):
+(le degré est indiqué par le nombre, l\'indication peut être modifiée à l\'aide du bouton de la barre d\'outils **[<img src=images/Sketcher_BSplineDegree.svg style="width:24px"> [Afficher/masquer le degré B-spline](Sketcher_BSplineDegree/fr.md)**):
 
 <img alt="" src=images/Sketcher_BSplineDegree3.png  style="width:400px;"> 
 *B-spline avec de degrés 3 et 2 nœuds qui ont chacun la multiplicité 1.*
@@ -38,7 +38,7 @@ Vous pouvez voir que maintenant chaque segment a 2 points de contrôle et les n�
 
 ## Utilisation
 
-1.  Sélectionnez une arête à partir d\'une B-spline existante et appuyez sur **<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> '''Augmenter le degré de la B-spline'''**.
+1.  Sélectionnez une arête à partir d\'une B-spline existante et appuyez sur **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> '''Augmenter le degré de la B-spline'''**.
 
 
 

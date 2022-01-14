@@ -16,7 +16,7 @@ L\'outil [Armature hélicoïdale](Arch_Rebar_Helical/fr.md) permet à l\'utilisa
 
 L\'outil [Helical Rebar](Arch_Rebar_BentShape/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 :   <img alt="" src=images/Arch_Rebar_Helical_example.png  style="width:80px;">
 
@@ -129,7 +129,7 @@ HelicalRebar.editHelicalRebar(Rebar, 20, 100, 20, 20, 100)
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Helical/fr

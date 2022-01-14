@@ -19,7 +19,7 @@ I believe this is the most comprehensive page on videos, but is not the only Wik
 -   **[Video tutorials for product design](Video_tutorials_for_product_design.md)** \-- as it says, for product design
 -   **[Video tutorials for architectural design](Video_tutorials_for_architectural_design.md)**
 -   **[Best Practices with SpreadSheets](Best_Practices_with_SpreadSheets.md)** see section on individual videos
--   **[Category:Tutorials - FreeCAD Documentation](https://wiki.FreeCADweb.org/Category:Tutorials)** \-- The category on Tutorials links to tutorials that may or may not be videos.
+-   **[<img src="images/Property.png" style="width:16px"> Tutorials - FreeCAD Documentation](https://wiki.FreeCADweb.org/<img src="images/Property.png" style="width:16px"> Tutorials)** \-- The category on Tutorials links to tutorials that may or may not be videos.
 -   Searching the forum **[FreeCAD Forum - Index page](https://forum.FreeCADweb.org/index.php)** will also locate a lot of material, in a not very organized way.
 
 ### Support FreeCAD 
@@ -231,7 +231,7 @@ Consider: (This content is mostly from the Forum)
 -   **[Free video tutorials - FreeCAD Forum](https://forum.FreeCADweb.org/viewtopic.php?f=36&t=51507)**
 -   **[Tutorials and videos - FreeCAD Forum](https://forum.FreeCADweb.org/viewforum.php?f=36)**
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md) [<img src="images/Property.png" style="width:16px"> Tutorials‏‎](<img src="images/Property.png" style="width:16px"> Tutorials‏‎.md)
 
 ---
 [documentation index](../README.md) > [Sandbox]]](Category_Sandbox]].md) > FreeCAD on Video

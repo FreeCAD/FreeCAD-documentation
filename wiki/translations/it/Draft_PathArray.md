@@ -92,7 +92,7 @@ See also: [Property editor](property_editor.md).
 
 <div class="mw-translate-fuzzy">
 
-Una **Serie su tracciato** deriva da una _, Serie su tracciato ha le seguenti proprietà nell\'[editor delle proprietà](property_editor/it.md).
+Una **Serie su tracciato** deriva da una [Part Feature](Part_Feature/it.md) (classe `Part::Feature`), quindi condivide tutte le proprietà di quest\'ultima. Oltre alle proprietà descritte in [Funzione Part](Part_Feature/it.md), Serie su tracciato ha le seguenti proprietà nell\'[editor delle proprietà](property_editor/it.md).
 
 
 </div>
@@ -174,7 +174,7 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
 
 -    **Count|Integer**: specifica il numero di copie da creare nel percorso.
 
--    **Path Object|LinkGlobal**: specifica l\'oggetto lungo il quale verranno distribuite le copie. Deve contenere degli {{Value|'Edges'}} nella sua <img src=images/Draft_Wire.svg style="width:topologia](Part_TopoShape/it.md); ad esempio, potrebbe essere una **[16px"> <img src=images/Draft_BSpline.svg style="width:polilinea](Draft_Wire/it.md)** o una **[16px"> [BSpline](Draft_BSpline/it.md)**.
+-    **Path Object|LinkGlobal**: specifica l\'oggetto lungo il quale verranno distribuite le copie. Deve contenere degli {{Value|'Edges'}} nella sua [topologia](Part_TopoShape/it.md); ad esempio, potrebbe essere una **[<img src=images/Draft_Wire.svg style="width:16px"> [polilinea](Draft_Wire/it.md)** o una **[<img src=images/Draft_BSpline.svg style="width:16px"> [BSpline](Draft_BSpline/it.md)**.
 
 -    **Path Subelements|LinkSubListGlobal**: specifica i sottoelementi (bordi) del **Path Object** su cui verranno create le copie. Le copie verranno create solo su questi bordi. Se questa proprietà è vuota, le copie verranno distribuite sull\'intero
 

@@ -28,7 +28,7 @@ Questo strumento attiva o disattiva la visibilità di tutte le misurazioni nella
 
 <div class="mw-translate-fuzzy">
 
-1.  Premere il pulsante **<img src=images/Part_Measure_Toggle_All.png style="width:24px"> '''Attiva/disattiva tutto'''**.
+1.  Premere il pulsante **[<img src=images/Part_Measure_Toggle_All.png style="width:24px"> '''Attiva/disattiva tutto'''**.
 
 
 </div>

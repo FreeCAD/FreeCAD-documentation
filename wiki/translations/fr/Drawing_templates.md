@@ -292,7 +292,7 @@ Les deux lignes que FreeCAD recherchera sont \"\$blocks\" et \"\$entities\". Ell
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing templates/fr

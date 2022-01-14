@@ -3,7 +3,7 @@
 
 ## Description
 
-Le **Draft Widget d\'échelle d\'annotation** ({{Version/fr|0.19}}) peut être utilisé pour spécifier l\'échelle d\'annotation de Draft. Cette échelle détermine le {{PropertyView/fr|Scale Multiplier}} (facteur d\'échelle) des nouvelles annotations des _ et dans l\'<img alt="" src=images/Workbench_Arch.svg  style="width:24px;">. [atelier Arch](Arch_Workbench/fr.md). Il s\'agit d\'un élément de l\'interface graphique [optionnel](#Pr.C3.A9f.C3.A9rences.md) qui se trouve dans la [barre d\'état](Status_bar/fr.md).
+Le **Draft Widget d\'échelle d\'annotation** ({{Version/fr|0.19}}) peut être utilisé pour spécifier l\'échelle d\'annotation de Draft. Cette échelle détermine le {{PropertyView/fr|Scale Multiplier}} (facteur d\'échelle) des nouvelles annotations des [Draft Textes](Draft_Text/fr.md), [Draft Dimensions](Draft_Dimension/fr.md) et [Draft Etiquettes](Draft_Label/fr.md). Le widget est disponible dans l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;">. [atelier Draft](Draft_Workbench/fr.md) et dans l\'<img alt="" src=images/Workbench_Arch.svg  style="width:24px;">. [atelier Arch](Arch_Workbench/fr.md). Il s\'agit d\'un élément de l\'interface graphique [optionnel](#Pr.C3.A9f.C3.A9rences.md) qui se trouve dans la [barre d\'état](Status_bar/fr.md).
 
 ![](images/Draft_annotation_scale_widget_button.png ) 
 *Le widget d'échelle d'annotation de Draft*

@@ -643,7 +643,7 @@
 
   
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Icon](Category_Icon.md) [<img src="images/Property.png" style="width:16px"> Help](Category_Help.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Key ASCII/en

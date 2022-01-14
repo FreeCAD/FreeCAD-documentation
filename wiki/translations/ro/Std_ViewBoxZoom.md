@@ -32,7 +32,7 @@ Apoi specificați caseta pentru zoom în vizualizarea 3D .
 #### Din meniul principal 
 
 -   din meniul \'\'\'Visualizza → Zoom → \'\'\' clic pe funcția dorită. Vizualizarea va fi scalată funcție de **pasul** impus.
--   Repetați **<img src=images/View-zoom-in.svg style="width:16px"> Zoom in** sau **<img src=images/View-zoom-out.svg style="width:16px"> Zoom out** până la obținerea scalării dorite.
+-   Repetați **[<img src=images/View-zoom-in.svg style="width:16px"> Zoom in** sau **[<img src=images/View-zoom-out.svg style="width:16px"> Zoom out** până la obținerea scalării dorite.
 
 *Pasul de zoom* este reglabil din *Modifica → Preferenze → Visualizzazione → Vista 3D*\'.
 
@@ -50,12 +50,12 @@ Vedere la pagina [Tipi di mouse](Mouse_Model/it.md) de pagina de navigare și pa
 
 #### Cu mouse, selectarea unei porțiuni 
 
--   Porniți funcția din meniu \'\'\'Visualizza → Zoom → \'\'\' cliccando sulla funzione **<img src=images/View-zoom-border.svg style="width:16px"> [Finestra](Std_ViewBoxZoom/it.md)**.
+-   Porniți funcția din meniu \'\'\'Visualizza → Zoom → \'\'\' cliccando sulla funzione **[<img src=images/View-zoom-border.svg style="width:16px"> [Finestra](Std_ViewBoxZoom/it.md)**.
 -   Poziționarea mouse-ului în nell\'area di lavoro, în primul rând el tasto sinistro e selezionare una zona. Rilasciare el tasto.
 
 ### Exemple:
 
-Mărirea cu **<img src=images/View-zoom-border.svg style="width:16px"> [Finestra](Std_ViewBoxZoom/it.md)**
+Mărirea cu **[<img src=images/View-zoom-border.svg style="width:16px"> [Finestra](Std_ViewBoxZoom/it.md)**
 
 Dreptunghiul de selecție pentru a mări ![](images/ZoomEs1.png )  Zona extinsă ![](images/ZoomEs2.png )
 

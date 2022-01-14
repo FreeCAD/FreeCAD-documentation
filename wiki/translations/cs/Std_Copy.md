@@ -25,7 +25,7 @@ Příkaz Kopírovat je součástí kopírování objektů [Document](Document_st
 ## Použití
 
 1.  Vyberte objekty ke kopírování.
-2.  Klikněte na ikonu **_** nebo stiskněte klávesy **ctrl** + **C** nebo použijte menu Úpravy → Kopírovat.
+2.  Klikněte na ikonu **[16px|Kopírovat](File:Std_Copy.png.md)** nebo stiskněte klávesy **ctrl** + **C** nebo použijte menu Úpravy → Kopírovat.
 
 
 </div>

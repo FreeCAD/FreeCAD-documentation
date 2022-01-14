@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Image:Arch\_Rebar\_Straight\_example.png\|_ Image:Arch\_Rebar\_LShape\_example.png\|_ Image:Arch\_Rebar\_Stirrup\_example.png\|_ Image:Arch\_Rebar\_Circular\_ColumnReinforcement\_example.png\|_ Image:Arch\_Rebar\_ColumnReinforcement\_TwoTies\_example.png\|_ Image:Arch\_Rebar\_BOM\_example.png\|_ Image:Reinforcement\_Bar\_Bending\_Schedule\_example.svg\|_
+Image:Arch\_Rebar\_Straight\_example.png\|[Прямая арматура](Arch_Rebar_Straight/ru.md) Image:Arch\_Rebar\_UShape\_example.png\|[Арматура U-формы](Arch_Rebar_UShape/ru.md) Image:Arch\_Rebar\_LShape\_example.png\|[Арматура L-формы](Arch_Rebar_LShape/ru.md) Image:Arch\_Rebar\_BentShape\_example.png\|[Арматура гнутая](Arch_Rebar_BentShape/ru.md) Image:Arch\_Rebar\_Stirrup\_example.png\|[Арматура в форме скоб](Arch_Rebar_Stirrup/ru.md) Image:Arch\_Rebar\_Helical\_example.png\|[Спиральная арматура](Arch_Rebar_Helical/ru.md) Image:Arch\_Rebar\_Circular\_ColumnReinforcement\_example.png\|[Армирование кольцевых колон](Arch_Rebar_Circular_ColumnReinforcement/ru.md) Image:Arch\_Rebar\_ColumnReinforcement\_example.png\|[Армирование одинарной стяжкой](Arch_Rebar_ColumnReinforcement/ru.md) Image:Arch\_Rebar\_ColumnReinforcement\_TwoTies\_example.png\|[Армирование колонны из шести стержней, двумя стяжками](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/ru.md) Image:Arch\_Rebar\_BeamReinforcement\_example.png\|[Усиление балки](Arch_Rebar_BeamReinforcement/ru.md) Image:Arch\_Rebar\_BOM\_example.png\|[Спецификация](Arch_Rebar_BOM.md) Image:Reinforcement\_Bar\_Shape\_Cut\_List\_example.svg\|[Таблица формы сечений арматуры](Reinforcement_Bar_Shape_Cut_List/ru.md) Image:Reinforcement\_Bar\_Bending\_Schedule\_example.svg\|[Таблица гибки арматурных стержней](Reinforcement_Bar_Bending_Schedule/ru.md) Image:Arch\_Rebar\_Drawing\_Dimensioning\_example.svg\|[Указание размеров чертежа арматуры](Arch_Rebar_Drawing_Dimensioning/ru.md)
 
 
 </div>
@@ -59,12 +59,12 @@ The Reinforcement workbench is not bundled with the default FreeCAD package, but
 
 -   <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning.svg  style="width:32px;"> [Reinforcement Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md): Creates drawing and dimensioning of reinforcing bars
     -   <img alt="" src=images/Arch_Rebar_Drawing.svg  style="width:32px;"> [Reinforcement Drawing](Arch_Rebar_Drawing_Dimensioning#Reinforcement_Drawing.md): Creates drawing of reinforcing bars
-    -   <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width:32px;"> _
+    -   <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width:32px;"> [Reinforcement Dimensioning](Arch_Rebar_Drawing_Dimensioning#Reinforcement_Dimensioning.md): Creates dimensioning of reinforcing bars in [Reinforcement Drawing](Arch_Rebar_Drawing_Dimensioning#Reinforcement_Drawing.md)
 
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > Reinforcement Workbench/ru

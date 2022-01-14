@@ -16,7 +16,7 @@ L\'outil [Stirrup Rebar](Arch_Rebar_Stirrup/fr.md) permet à l\'utilisateur de c
 
 L\'outil [Stirrup Rebar](Arch_Rebar_Stirrup/fr.md) est également intégré dans l\'[atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_Stirrup_example.png  style="width:400px;"> 
 *Un jeu de barres de renfort en étrié à l'intérieur d'une [Arch Structure](Arch_Structure/fr.md)*
@@ -145,7 +145,7 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Stirrup/fr

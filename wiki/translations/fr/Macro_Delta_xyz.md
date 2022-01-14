@@ -9,7 +9,7 @@
 |FCVersion=Toutes versions
 |Download=[https://www.freecadweb.org/wiki/images/f/f4/Macro_Delta_xyz.png Icône pour votre barre d'outils]
 |Shortcut=**SHIFT**, **Q**
-|SeeAlso=<img src=images/Part_Measure_Linear.svg style="width:Part Measure Linear](Part_Measure_Linear/fr.md) [24px">
+|SeeAlso=[Part Measure Linear](Part_Measure_Linear/fr.md) [<img src=images/Part_Measure_Linear.svg style="width:24px">
 }}
 
 ## Description

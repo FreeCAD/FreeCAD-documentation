@@ -21,7 +21,7 @@ For more detailed information see Wikipedia\'s entries for: [Gear](https://en.wi
 ### Create the profile 
 
 1.  Optionally activate the correct body.
-2.  Go to the menu **Part Design → <img src=images/PartDesign_InternalExternalGear.svg style="width:16px"> Involute gear...**.
+2.  Go to the menu **Part Design → [<img src=images/PartDesign_InternalExternalGear.svg style="width:16px"> Involute gear...**.
 3.  Set the Involute parameters.
 4.  Click **OK**.
 5.  If there was no active body: drag and drop the gear into a body for the application of further features like padding.

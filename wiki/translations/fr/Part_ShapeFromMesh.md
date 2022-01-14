@@ -13,18 +13,18 @@
 
 Cette commande **<img src="images/Part_ShapeFromMesh.svg" width=16px> [Part Forme à partir du maillage](Part_ShapeFromMesh/fr.md)** crée une forme à partir d\'un [Maillage](Mesh/fr.md). Les objets maillés ont des capacités d\'édition limitées dans FreeCAD, les convertir en [shapes (formes)](Shape/fr.md) permettra leur utilisation avec de nombreux autres outils booléens et de modification.
 
-L\'opération inverse est **<img src=images/Mesh_FromPartShape.svg style="width:16px"> _.
+L\'opération inverse est **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh Tesselation](Mesh_FromPartShape/fr.md)** de l\'<img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [atelier Mesh](Mesh_Workbench/fr.md).
 
 ## Utilisation
 
 1.  Sélectionnez l\'objet mesh dans la [Vue en arborescence](Tree_view/fr.md).
-2.  Allez dans le menu, **Pièce → <img src=images/Part_ShapeFromMesh.svg style="width:16px"> Créer une forme à partir d'un maillage...**.
+2.  Allez dans le menu, **Pièce → [<img src=images/Part_ShapeFromMesh.svg style="width:16px"> Créer une forme à partir d'un maillage...**.
 3.  Un menu contextuel demandera la tolérance pour la forme de la pièce. La valeur par défaut est {{Value|0.1}}.
 4.  Une [forme](Shape/fr.md) de l\'objet maillage est créée en tant que nouvel objet séparé.
 
-L\'analyse et la réparation du maillage, si nécessaire, doivent être effectuées manuellement avant de lancer **<img src=images/Part_ShapeFromMesh.svg style="width:16px"> _.
+L\'analyse et la réparation du maillage, si nécessaire, doivent être effectuées manuellement avant de lancer **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Créer la forme à partir d'un maillage... ](Part_ShapeFromMesh/fr.md)**. Les outils appropriés pour cette tâche sont disponibles dans l\'<img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Atelier Mesh](Mesh_Workbench/fr.md).
 
-Après la création d\'une <img src=images/Part_RefineShape.svg style="width:Shape](Shape/fr.md), il peut être utile d\'utiliser **[Convertir en solide](Part_MakeSolid/fr.md)** (nécessaire pour les [Operations booléennes](Part_Boolean/fr.md)) et **[16px"> [Affiner la forme](Part_RefineShape/fr.md)**.
+Après la création d\'une [Shape](Shape/fr.md), il peut être utile d\'utiliser **[Convertir en solide](Part_MakeSolid/fr.md)** (nécessaire pour les [Operations booléennes](Part_Boolean/fr.md)) et **[<img src=images/Part_RefineShape.svg style="width:16px"> [Affiner la forme](Part_RefineShape/fr.md)**.
 
 ## Liens
 

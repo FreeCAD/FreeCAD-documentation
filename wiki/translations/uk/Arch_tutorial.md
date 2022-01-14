@@ -6,7 +6,7 @@
 |Topic=Modeling
 |Level=Intermediate
 |Time=
-|Author=_
+|Author=[Yorik](User_Yorik.md)
 |FCVersion=0.14
 |Files=
 }}
@@ -21,12 +21,12 @@
 
 <div class="mw-translate-fuzzy">
 
-Цей підручник спрямований на надання вам основ роботи з **Робочим Простором Архітектора (Arch Workbench)** в подальшому **_. Ви маєте прочитати сторінку [ Розпочати](Getting_started/uk.md), якщо у вас немає досвіду роботи з FreeCAD. Також перевірте наш розділ [ Підручники](Tutorials.md), а на каналі [YouTube](http://www.youtube.com/results?search_query=freecad) ви знайдете ще більше уроків стосовно FreeCAD.
+Цей підручник спрямований на надання вам основ роботи з **Робочим Простором Архітектора (Arch Workbench)** в подальшому **[Arch модуль](Arch_Workbench/uk.md)**. Я буду намагатися зробити це якнайпростіше, щоб вам не потрібен був досвід роботи з FreeCAD, але досвід роботи з 3D або програмами що використовують технологію [BIM](http://uk.wikipedia.org/wiki/Building_Information_Modeling) буде корисний. У будь-якому випадку, ви повинні бути готові самі шукати щоб отримати додаткову інформацію стосовно того, як працює FreeCAD, за допомогою [ Вікі документації FreeCAD](Main_Page/uk.md). Ви маєте прочитати сторінку [ Розпочати](Getting_started/uk.md), якщо у вас немає досвіду роботи з FreeCAD. Також перевірте наш розділ [ Підручники](Tutorials.md), а на каналі [YouTube](http://www.youtube.com/results?search_query=freecad) ви знайдете ще більше уроків стосовно FreeCAD.
 
 
 </div>
 
-The purpose of the _ greatly benefits from the other disciplines FreeCAD caters to, and offers some features rarely seen in traditional BIM applications.
+The purpose of the [Arch Workbench](Arch_Workbench.md) is to offer a complete [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) workflow inside FreeCAD. As it is still under development, don\'t expect to find here the same tools and level of completion as grown-up commercial alternatives such as [Revit](http://en.wikipedia.org/wiki/Revit) or [ArchiCAD](http://en.wikipedia.org/wiki/Archicad), but on the other hand, FreeCAD being used in a much bigger scope than these applications, the [Arch Workbench](Arch_Workbench.md) greatly benefits from the other disciplines FreeCAD caters to, and offers some features rarely seen in traditional BIM applications.
 
 Here are, for example, a couple of interesting features of FreeCAD\'s [Arch Workbench](Arch_Workbench.md) that you\'ll hardly find in other BIM apps:
 
@@ -44,7 +44,7 @@ At the time I\'m writing this, though, the [Arch Workbench](Arch_Workbench.md), 
 
 -   No materials support. FreeCAD will have a complete [Material](Material.md) system, able to define very complex materials, with all the goodies you can expect (custom properties, material families, rendering and visual aspect properties, etc), and the [Arch Workbench](Arch_Workbench.md) will of course use it when it is ready.
 
--   Very preliminary _, quite reliably, provided [IfcOpenShell](http://ifcopenshell.org) is installed on your system, but exporting is still not officially supported. This is worked on both by the FreeCAD and IfcOpenShell developers, and in the future we can expect full-powered IFC support.
+-   Very preliminary [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) support. You can already [import IFC files](Arch_IFC.md), quite reliably, provided [IfcOpenShell](http://ifcopenshell.org) is installed on your system, but exporting is still not officially supported. This is worked on both by the FreeCAD and IfcOpenShell developers, and in the future we can expect full-powered IFC support.
 
 -   Most Arch tools are still in development. That means that automatic \"wizard\" tools that create complex geometry automatically, such as [Arch Roof](Arch_Roof.md) or [Arch Stairs](Arch_Stairs.md) can only produce certain types of objects, and other tools that have presets, such as [Arch Structure](Arch_Structure.md) or [Arch Window](Arch_Window.md) only have a couple of basic presets. This will of course grow over time.
 
@@ -71,7 +71,7 @@ In this tutorial, we will model the house in 3D, based on the 2D drawings we\'ll
 
 Instead of creating a project from scratch, let\'s take an example project to model, it will save us time. I chose this wonderful house by the famous architect [Vilanova Artigas](http://en.wikipedia.org/wiki/Jo%C3%A3o_Batista_Vilanova_Artigas) (see a series of [pictures](http://www.leonardofinotti.com/projects/architects-second-house/image/40409-130405-010d) by Leonardo Finotti), because it is close to where I live, it is simple, it\'s a wonderful example of the amazing modernist architecture of São Paulo, and DWG drawings are [easily available](http://www.bibliocad.com/library/second-house-vilanova-artigas_72926#).
 
-We will use the 2D DWG drawings obtained from the link above (you need to register on the above site to download, but it\'s free, or grab directly a DXF version _. But since these files can sometimes be of bad quality and very heavy, it\'s usually better to open it first with a 2D CAD application and do some cleaning.
+We will use the 2D DWG drawings obtained from the link above (you need to register on the above site to download, but it\'s free, or grab directly a DXF version [here](http://yorik.uncreated.net/archive/scripts/artigas.dxf)) as a base to build our model. So the first thing you\'ll want to do is to download the file, unzip it, and open the DWG file inside with a DWG application such as [DraftSight](http://www.3ds.com/products-services/draftsight/overview/). Alternatively, you can convert it to DXF with a free utility such as the [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter). If you have the ODA converter installed (and its path set in the Arch preferences settings), FreeCAD is also [able to import DWG files directly](Draft_DXF.md). But since these files can sometimes be of bad quality and very heavy, it\'s usually better to open it first with a 2D CAD application and do some cleaning.
 
 Here, I removed all the detail drawings, all the titleblocks and page layouts, did a \"clean\" (\"purge\" in AutoCAD slang) to remove all unused entities, reorganized the sections at a logical location in relation to the plan view, and moved everything to the (0,0) point. After that, our file can be opened quite efficiently in FreeCAD. Check the different options available in Edit → Preferences → Draft → Import/Export, they can affect how (and how quickly) DXF/DWG files are imported.
 
@@ -83,9 +83,9 @@ The [DXF importer](Draft_DXF.md) (which also takes care of DWG files, since when
 
 ## Building the walls 
 
-Like most _, [wires](Draft_Wire.md) (polylines), [sketches](Sketcher_Workbench.md), faces or solid (or even on nothing at all, in which case they are defined by height, width and length). The resulting geometry of the wall depends on that base geometry, and the properties you fill in, such as width and height. As you might guess, a wall based on a line will use that line as its alignment line, while a wall based on a face will use that face as its base footprint, and a wall based on a solid will simply adopt the shape of that solid. This allows about any shape imaginable to become a wall.
+Like most [Arch](Arch_Workbench.md) objects, [walls](Arch_Wall.md) can be built upon a big variety of other objects: [lines](Draft_Line.md), [wires](Draft_Wire.md) (polylines), [sketches](Sketcher_Workbench.md), faces or solid (or even on nothing at all, in which case they are defined by height, width and length). The resulting geometry of the wall depends on that base geometry, and the properties you fill in, such as width and height. As you might guess, a wall based on a line will use that line as its alignment line, while a wall based on a face will use that face as its base footprint, and a wall based on a solid will simply adopt the shape of that solid. This allows about any shape imaginable to become a wall.
 
-There are different possible strategies to build walls in FreeCAD. One might want to build a complete \"floor plan\" with the _ on top of the imported plan, one for each type of wall:
+There are different possible strategies to build walls in FreeCAD. One might want to build a complete \"floor plan\" with the [sketcher](Sketcher_Workbench.md), and build one, big, wall object from it. This technique works, but you can only give one thickness for all the walls of the project. Or, you can build each piece of wall from separate line segments. Or, this is what we will do here, a mix of both: We will build a couple of [wires](Draft_Wire.md) on top of the imported plan, one for each type of wall:
 
 ![](images/Arch_tutorial_03.jpg )
 
@@ -149,7 +149,7 @@ Let\'s draw a volume, bigger than the roof, that will be subtracted from our wal
 
 <img alt="" src=images/Arch_tutorial_09.jpg  style="width:1024px;">
 
-Now is the tricky part: We will use the _ button (it is in the \"tasks\" tab of the tree view), and set it to YZ (which is the \"side\" plane). Once you set the working plane manually, like that, it won\'t change depending on your view. You can now rotate your view until you have a good view of all the things you must select. To switch the working plane back to \"automatic\" mode later, press the [Draft SelectPlane](Draft_SelectPlane.md) button again and set it to \"None\".
+Now is the tricky part: We will use the [Draft Rotate](Draft_Rotate.md) tool to rotate our profile 90 degrees up, in the right position to be extruded. To do that, we must first change the [working plane](Draft_SelectPlane.md) to the YZ plane. Once this is done, the rotation will happen in that plane. But if we do like we did a bit earlier, and set our view to side view, it will be hard to see and select our profile, and to know where is the basepoint around which it must rotate, right? Then we must set the working plane manually: Press the [Draft SelectPlane](Draft_SelectPlane.md) button (it is in the \"tasks\" tab of the tree view), and set it to YZ (which is the \"side\" plane). Once you set the working plane manually, like that, it won\'t change depending on your view. You can now rotate your view until you have a good view of all the things you must select. To switch the working plane back to \"automatic\" mode later, press the [Draft SelectPlane](Draft_SelectPlane.md) button again and set it to \"None\".
 
 Now the rotation will be easy to do: Select the profile, press the [Draft Rotate](Draft_Rotate.md) button, click on a point of the blue line, enter 0 as start angle, and 90 as rotation:
 
@@ -159,7 +159,7 @@ Now all we need to do it to move the profile a bit closer to the model (set the 
 
 <img alt="" src=images/Arch_tutorial_11.jpg  style="width:1024px;">
 
-Now, here comes into action the contrary of the _. As you might have guessed, it also makes an object a child of another, but its shape is subtracted from the host object, instead of being united. So now things are simple: Select the volume to subtract (I renamed it as \"Roof volume to subtract\" in the tree view so it is easy to spot), CTRL + select a wall, and press the [Arch Remove](Arch_Remove.md) button. You\'ll see that, after the subtraction happened, the volume to subtract disappeared from both the 3D view and the tree view. That is because it has been marked as child of the wall, and \"swallowed\" by that wall. Select the wall, expand it in the tree view, there is our volume.
+Now, here comes into action the contrary of the [Arch Add](Arch_Add.md) tool: [Arch Remove](Arch_Remove.md). As you might have guessed, it also makes an object a child of another, but its shape is subtracted from the host object, instead of being united. So now things are simple: Select the volume to subtract (I renamed it as \"Roof volume to subtract\" in the tree view so it is easy to spot), CTRL + select a wall, and press the [Arch Remove](Arch_Remove.md) button. You\'ll see that, after the subtraction happened, the volume to subtract disappeared from both the 3D view and the tree view. That is because it has been marked as child of the wall, and \"swallowed\" by that wall. Select the wall, expand it in the tree view, there is our volume.
 
 Now, select the volume in the tree vieew, CTRL + select the next wall, press [Arch Remove](Arch_Remove.md). Repeat for the next walls until you have everything properly cut:
 
@@ -236,7 +236,7 @@ Right! All the hard work is now done, let\'s go on with the very hard work!
 
 [Arch Windows](Arch_Window.md) are pretty complex objects. They are used to make all kinds of \"inserted\" objects, such as windows or doors. Yes, in FreeCAD, doors are just a special kind of window. In real life too, if you think of it, no? The [Arch Window](Arch_Window.md) tool can still be a bit hard to use today, but consider this as a tradeoff, as it was built for maximum power. Almost any kind of window your imagination can produce can be done with it. But as the tool will gain more presets, this situation will certainly become better in the future.
 
-The _, that contains closed wires (polylines). These wires define the different parts of the window: outer frames, inner frames, glass panels, solid panels, etc. The window objects then has a property that stores what to do with each of these wires: extrude it, place it at a certain offset, etc. Finally, a window can be inserted into a host object such as a wall or structure, and it will automatically create a hole in it. That hole will be calculated by extruding the biggest wire found in the 2D layout.
+The [Arch Window](Arch_Window.md) object works like this: It is based on a 2D layout, any 2D object, but preferably a [sketch](Sketcher_Workbench.md), that contains closed wires (polylines). These wires define the different parts of the window: outer frames, inner frames, glass panels, solid panels, etc. The window objects then has a property that stores what to do with each of these wires: extrude it, place it at a certain offset, etc. Finally, a window can be inserted into a host object such as a wall or structure, and it will automatically create a hole in it. That hole will be calculated by extruding the biggest wire found in the 2D layout.
 
 There are two ways to create such objects in FreeCAD: By using a preset, or drawing the window layout from scratch. We\'ll look at both methods here. But remember that the preset method does nothing else than creating the layout object and defining the necessary extrusions for you.
 
@@ -260,7 +260,7 @@ So all we need to do now is select the door, press the [Draft Clone](Draft_Clone
 
 Now would be a good time to do a bit of housecleaning. Since we already have two windows, it is a good moment to do some cleaning in the tree view: Create a new [group](Std_Group.md), rename it to \"windows\", and drop the 2 windows in it. I also recommend you to separate other elements that way, such as the walls and structures. Since you can also create [groups](Std_Group.md) inside groups, you can organize further, for example by placing all elements that form the roof into a separate group, so it is easy to turn on and off (turning a group visible or invisible does the same with all objects inside).
 
-The _, [Arch Building](Arch_Building.md) and [Arch Floor](Arch_Floor.md). Those 3 objects are based on the standard FreeCAD group, so they behave exactly like groups, but they have a couple of additional properties. For example, [floors](Arch_Floor.md) have the ability to set and manage the height of the contained walls and structure, and when they are moved, all their contents are moved too.
+The [Arch Workbench](Arch_Workbench.md) has some additional tools to organize your model: the [Arch Site](Arch_Site.md), [Arch Building](Arch_Building.md) and [Arch Floor](Arch_Floor.md). Those 3 objects are based on the standard FreeCAD group, so they behave exactly like groups, but they have a couple of additional properties. For example, [floors](Arch_Floor.md) have the ability to set and manage the height of the contained walls and structure, and when they are moved, all their contents are moved too.
 
 But here, since we have only one building with only one (and a half) floor, there is no real need to use such objects, so let\'s stick with simple groups.
 
@@ -283,7 +283,7 @@ Now we can look at the really interesting stuff: How to design your own custom w
 
 ### Creating custom windows 
 
-As I explained above, _ tool.
+As I explained above, [Arch Window](Arch_Window.md) objects are created from 2D layouts, made of closed elements (wires (polylines), circles, rectangles, anything). Since [Draft](Draft_Workbench.md) objects cannot hold more than one of these elements, the preferred tool to draw window layouts is the [Sketcher](Sketcher_Workbench.md). Unfortunately, with the sketcher, it is not possible to snap to external objects like with the Draft workbench, which would be useful here, since our elevations are drawn already. Fortunately, a tool exists to convert Draft objects to a sketch: The [Draft To Sketch](Draft_Draft2Sketch.md) tool.
 
 So, let\'s start by building our first window layout. I drew it on the elevation, using several [rectangles](Draft_Rectangle.md): One for the outer line, and 4 for the inner lines. I stopped before the door, because, remember, our door already has a frame there:
 
@@ -404,7 +404,7 @@ Before starting to export stuff, one consideration is interesting to do: As you 
 
 <img alt="" src=images/Arch_tutorial_45.jpg  style="width:400px;">
 
-One of the very fundamental things you need when working with BIM is to be able to import and export _ format is already supported, and importing IFC files into FreeCAD is already pretty reliable. Exporting is still experimental, though, and has currently many limitations. However, things are bettering and we should get proper IFC export very soon.
+One of the very fundamental things you need when working with BIM is to be able to import and export [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) files. This is still a work in progress in FreeCAD. [IFC](Arch_IFC.md) format is already supported, and importing IFC files into FreeCAD is already pretty reliable. Exporting is still experimental, though, and has currently many limitations. However, things are bettering and we should get proper IFC export very soon.
 
 [IFC export](Arch_IFC.md) requires very little setup, once the necessary software libraries are installed. You only need to recreate the building structure, which is needed in all IFC files, by adding an [Arch Building](Arch_Building.md) to your file, then an [Arch Floor](Arch_Floor.md), then moving all the groups of objects that compose your model in it. Make sure you leave your construction geometry (all the 2D stuff we\'ve been drawing) out of it to avoid making your IFC file unnecessarily heavy.
 
@@ -412,7 +412,7 @@ Another thing to set, is to check the \"Role\" property of structural elements. 
 
 In this case, we need our whole architectural system, so the IFC exporter can know if an object must be exported as a wall or a column, so we are using our \"master\" model, not our \"output\" model.
 
-Once this is done, simply select your building object, and choose the \"Industry Foundation Classes\" format. Exporting to non-BIM applications, such as _, STEP, IGES or OBJ.
+Once this is done, simply select your building object, and choose the \"Industry Foundation Classes\" format. Exporting to non-BIM applications, such as [Sketchup](http://www.sketchup.com/) is also easy, you have several export formats at your disposal, such as [Collada](Arch_DAE.md), STEP, IGES or OBJ.
 
 
 

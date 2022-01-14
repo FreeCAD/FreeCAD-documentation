@@ -3,7 +3,7 @@
 |Topic=ClaseMuestra
 |Level=Usuario medio
 |Time=15 minutos
-|Author=_
+|Author=[Mario52](User_Mario52.md)
 |FCVersion=Todo
 }}
 

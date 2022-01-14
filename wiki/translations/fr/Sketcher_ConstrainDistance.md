@@ -20,16 +20,16 @@ La **contrainte dimensionnelle** spécifie par une valeur la longueur d\'une lig
 
 1.  Choisissez deux points ou une ligne ou un point et une ligne.
 2.  Appelez la commande de plusieurs manières :
-    -   Appuyez sur le bouton **<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Contraindre dimensionnelle](Sketcher_ConstrainDistance/fr.md)**
+    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Contraindre dimensionnelle](Sketcher_ConstrainDistance/fr.md)**
     -   Utilisez le raccourci clavier **Maj** + **D**. (**D** est pour **D**istance)
-    -   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → <img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Contraindre dimensionnelle** dans le menu supérieur.
+    -   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Contraindre dimensionnelle** dans le menu supérieur.
 3.  Une boîte de dialogue contextuelle s\'ouvre pour modifier ou confirmer la valeur. Appuyez sur **OK** pour valider.
 
 **Remarque :** l\'outil de contrainte peut également être démarré sans sélection préalable. Pour définir la distance perpendiculaire entre un point et une droite, le point doit être sélectionné en premier. Par défaut, la commande sera en mode continu afin de créer de nouvelles contraintes; appuyez sur le bouton droit de la souris ou sur **ÉCHAP** pour quitter la commande.
 
 ### Suggestion
 
-Le cas échéant envisagez d\'utiliser de préférence les fonctions de contrainte **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> <img src=images/Sketcher_ConstrainDistanceY.svg style="width:Sketcher Distance horizontale](Sketcher_ConstrainDistanceX/fr.md)** ou **[16px"> [Sketcher Distance verticale](Sketcher_ConstrainDistanceY/fr.md)**. Ces contraintes sont plus robustes et plus rapides à calculer que la **contrainte dimensionnelle**.
+Le cas échéant envisagez d\'utiliser de préférence les fonctions de contrainte **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Sketcher Distance horizontale](Sketcher_ConstrainDistanceX/fr.md)** ou **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Sketcher Distance verticale](Sketcher_ConstrainDistanceY/fr.md)**. Ces contraintes sont plus robustes et plus rapides à calculer que la **contrainte dimensionnelle**.
 
 ## Script
 

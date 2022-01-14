@@ -69,7 +69,7 @@ Remarquez que getPyObject() et init() sont des cas particuliers et ne suivent pa
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FeaturePython methods/fr

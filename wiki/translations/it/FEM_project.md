@@ -8,7 +8,7 @@ If you are not involved with the development discussed here:<br>
 
 {{TOCright}}
 
-Questa è la pianificazione del progetto per integrare un modulo _.
+Questa è la pianificazione del progetto per integrare un modulo [FEM](http://it.wikipedia.org/wiki/Metodo_degli_elementi_finiti) in FreeCAD come parte del [Piano di sviluppo](Development_roadmap/it.md).
 
 ## Unità di misura 
 
@@ -50,7 +50,7 @@ Vedere [Solutore FEM](FEM_Solver/it.md)
 
 }}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > FEM project/it

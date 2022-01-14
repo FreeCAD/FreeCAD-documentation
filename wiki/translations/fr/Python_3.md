@@ -150,7 +150,7 @@ conda build . --python=3.6 --dirty
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Python 3/fr

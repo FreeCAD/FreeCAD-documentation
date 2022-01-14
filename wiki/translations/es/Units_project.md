@@ -45,7 +45,7 @@ Eventualmente un editor de propiedades para el PropertyUntit.
 ### Entornos
 
 -   Promocionar entornos para utilizar las Unidades. Debería empezar con el Croquizador y el Diseño de Piezas y avanzar desde ahí\...
--   Documentar el proceso de actualización para que otras personas puedan hacer lo mismo con otros entornos \--_ 13:13, 28 November 2011 (UTC)
+-   Documentar el proceso de actualización para que otras personas puedan hacer lo mismo con otros entornos \--[Yorikvanhavre](User_Yorikvanhavre.md) 13:13, 28 November 2011 (UTC)
 
 ## Siguientes acciones 
 
@@ -53,7 +53,7 @@ Eventualmente un editor de propiedades para el PropertyUntit.
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Units project/es

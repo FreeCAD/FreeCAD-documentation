@@ -12,7 +12,7 @@ Par exemple, un boulon, une rondelle et un écrou sont trois corps distincts qui
 
 
 
-*À gauche: trois solides contigus individuels, chacun modélisé par un _ pour créer un assemblage.*
+*À gauche: trois solides contigus individuels, chacun modélisé par un [PartDesign Corps](PartDesign_Body/fr.md). À droite: les corps individuels réunis dans une [Std Part](Std_Part.md) pour créer un assemblage.*
 
 ## Utilisation
 
@@ -28,11 +28,11 @@ Pour positionner les corps où vous le souhaitez, vous pouvez
 
 Vous pouvez utiliser l\'un des pseudo-assemblages faits par un des [ateliers externes](external_workbenches/fr.md) comme Lattice2, Manipulator, Part-o-magic ou WorkFeature, pour vous aider à trouver des intersections, mesurer des distances et distribuer vos objets de la manière souhaitée.
 
-En général, l\'objet **<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)** a été conçu pour servir de bloc de construction de base pour créer des assemblages. Cet objet est utilisé pour regrouper plusieurs [Corps](body/fr.md) et les déplacer ensemble en tant qu\'unité, c\'est-à-dire en tant que sous-ensemble. Ensuite, ce sous-assemblage peut être placé à côté ou utilisé à l\'intérieur d\'autres sous-assemblages afin de créer l\'assemblage final.
+En général, l\'objet **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)** a été conçu pour servir de bloc de construction de base pour créer des assemblages. Cet objet est utilisé pour regrouper plusieurs [Corps](body/fr.md) et les déplacer ensemble en tant qu\'unité, c\'est-à-dire en tant que sous-ensemble. Ensuite, ce sous-assemblage peut être placé à côté ou utilisé à l\'intérieur d\'autres sous-assemblages afin de créer l\'assemblage final.
 
 ### Assemblage contraint 
 
-Vous pouvez également utiliser un atelier d\'assemblage dédié, comme <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> _ ou <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/fr.md). Veuillez noter que [Assembly2](Assembly2_Workbench/fr.md) n\'est pas maintenu, il n\'est donc pas recommandé pour les nouveaux modèles.
+Vous pouvez également utiliser un atelier d\'assemblage dédié, comme <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench/fr.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/fr.md) ou <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/fr.md). Veuillez noter que [Assembly2](Assembly2_Workbench/fr.md) n\'est pas maintenu, il n\'est donc pas recommandé pour les nouveaux modèles.
 
 Les ateliers d\'assemblage utilisent des contraintes et des expressions pour créer des relations entre les objets de votre modèle, afin de lier mathématiquement les objets en place, par exemple, \"cette face doit coller à cette autre face\", \"ce cylindre doit être concentrique à ce cercle \",\" ce point doit suivre ce bord \" etc\...
 
@@ -51,7 +51,7 @@ Les ateliers d\'assemblage poursuivent leur développement et il est prévu qu\'
 
 }} {{Document objects navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/fr

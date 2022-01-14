@@ -54,7 +54,7 @@ Chanfreine le ou les bords sélectionnés d\'un objet. Une boîte de dialogue vo
 
 Le chanfrein peut ne rien faire si le résultat touche ou traverse le bord adjacent suivant. Donc, si vous n\'obtenez pas le résultat attendu, essayez avec une valeur inférieure. C\'est pareil pour <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Congé](Part_Fillet/fr.md).
 
-Notez également que la fonction Chanfrein est affectée par le _ aux dernières étapes de la chaîne.
+Notez également que la fonction Chanfrein est affectée par le [problème de nommage topologique](Topological_naming_problem/fr.md) lorsque toute modification est apportée à une étape de modélisation plus tôt dans la chaîne qui affecte le nombre de facettes ou de sommets. Cela pourrait entraîner des résultats imprévisibles. En attendant que cela soit résolu (éventuellement avec V0.20), il est conseillé d'appliquer les opérations Chanfrein et <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Congé](Part_Fillet/fr.md) aux dernières étapes de la chaîne.
 
 ## Script
 

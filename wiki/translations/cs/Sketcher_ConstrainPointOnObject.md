@@ -33,7 +33,7 @@
 1.  Select the point you want to affix onto a line/arc/etc. (**Result:** Once selected the point will become green).
 2.  Select the line you want affixed onto the point you have just selected (**Result:** Once selected the line becomes green).
 3.  Invoke the **Constrain point onto object** tool using several methods:
-    -   Press the **<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Point on object](Sketcher_ConstrainPointOnObject.md)** button in the toolbar.
+    -   Press the **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Point on object](Sketcher_ConstrainPointOnObject.md)** button in the toolbar.
     -   Use the **Shift** + **O** keyboard shortcut.
     -   Use the **Sketch → Sketcher constraints → Constrain point onto object** entry in the top menu.
 

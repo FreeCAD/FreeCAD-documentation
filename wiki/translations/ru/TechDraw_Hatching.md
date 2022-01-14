@@ -22,7 +22,7 @@
 1.  Выберите грань
 
     :   <img alt="" src=images/SelectFace.png  style="width:150px;">
-2.  Исходя из необходимости, нажмите иконку <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> _.
+2.  Исходя из необходимости, нажмите иконку <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [TechDraw Hatch](TechDraw_Hatch/ru.md) или <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [TechDraw GeometricHatch](TechDraw_GeometricHatch/ru.md).
 
 **Результат:** Грань будет заштрихована в начале с использованием значений по умолчанию. **Примечание**: Редактируйте параметры штриховки для получения нужного рисунка.
 

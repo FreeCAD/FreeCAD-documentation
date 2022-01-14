@@ -25,7 +25,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_Export.svg  style="width:16px;">
 ## Utilizzo
 
 1.  Accertarsi che sia attivo un <img alt="" src=images/_Spreadsheet_CreateSheet.svg  style="width:16px;"> [Foglio di calcolo](Spreadsheet_CreateSheet/it.md) in modo che il pulsante sia abilitato.
-2.  Premere il pulsante **<img src=images/Spreadsheet_Export.svg style="width:16px"> Esporta il foglio di calcolo**.
+2.  Premere il pulsante **[<img src=images/Spreadsheet_Export.svg style="width:16px"> Esporta il foglio di calcolo**.
 
 
 

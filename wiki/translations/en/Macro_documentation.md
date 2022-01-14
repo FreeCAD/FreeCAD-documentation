@@ -13,7 +13,7 @@ If a macro provides a well defined functionality, and is well documented, it cou
 
 Create a new page for the macro starting with the word `Macro_`, for example, `Macro_Excellent_Modification`. The link can be used without underscores as `<nowiki>[Macro Excellent Modification](Macro_Excellent_Modification.md)</nowiki>`, which results in [Macro Excellent Modification](Macro_Excellent_Modification.md); the spaces are automatically converted to underscores.
 
-In the new page you should use _ at the top, with a minimum of information:
+In the new page you should use [Template:Macro](Template_Macro.md) at the top, with a minimum of information:
 
 {{Macro
 |Name=Macro Excellent Modification
@@ -54,12 +54,12 @@ or use the `Translate` field
 |Date=2018-11-30
 }}
 
--   Use _ to upload the custom icon in [SVG](SVG.md) or PNG formats. It should have the same name as the macro.
+-   Use [:Special:Upload](:Special_Upload.md) to upload the custom icon in [SVG](SVG.md) or PNG formats. It should have the same name as the macro.
 -   Otherwise it will default to Icon=Text-x-python.svg <img alt="" src=images/Text-x-python.svg  style="width:32px;">.
 -   For the macro used in the Python console by FreeCAD use Icon=Text_console_python.png <img alt="" src=images/Text_console_python.png  style="width:32px;">.
 -   For the example video macro use this skeleton of the icon <img alt="" src=images/Text_Video_Movie.png  style="width:32px;"> and fill the screen for obtain ex: <img alt="" src=images/Macro_crank_simul.png  style="width:32px;"> and save the new icon with the same name of your macro.
 
-_ will put the information on using and installing the macros in every page.
+[Template:Macro](Template_Macro.md) will put the information on using and installing the macros in every page.
 
 <img alt="" src=images/Macro_Recipes_MacroHowToInstall.png  style="width:200px;"> 
 *[customize toolbars](How_to_install_macros]]_and_[[Customize_Toolbars.md) links in the infobox in each macro page*
@@ -95,11 +95,11 @@ Consider adding this information in a comment block inside the code of the macro
 
 ### Adding the macro code 
 
-Inside the **Script** section, use _ to place the code of the macro in the page. This will create a block of text that uses monospace font, which will preserve the whitespace that is essential for [Python](Python.md).
+Inside the **Script** section, use [Template:MacroCode](Template_MacroCode.md) to place the code of the macro in the page. This will create a block of text that uses monospace font, which will preserve the whitespace that is essential for [Python](Python.md).
 
 If the block of code contains the characters {{ }} (double closing brace and opening brace) or {{!}} (vertical bar), the <nowiki> ... </nowiki> tags can be added explicitly to allow displaying these special symbols.
 
-This _ essentially generates a block of HTML tags <pre> ... </pre>, so these can be used directly instead of using the template. The [Addon Manager](Std_AddonMgr.md) will search for the biggest such block and use it for the body of the macro.
+This [Template:MacroCode](Template_MacroCode.md) essentially generates a block of HTML tags <pre> ... </pre>, so these can be used directly instead of using the template. The [Addon Manager](Std_AddonMgr.md) will search for the biggest such block and use it for the body of the macro.
 
 {{MacroCode|code=
 
@@ -149,7 +149,7 @@ Starting with FreeCAD 0.17, this information is used by the [Addon Manager](Std_
 
 ### Adding macro code outside of the wiki 
 
-If your macro is too big that it exceeds 64 KB, it won\'t be able to be hosted on the wiki. In this case, use _ with a link to the raw web address of the code.
+If your macro is too big that it exceeds 64 KB, it won\'t be able to be hosted on the wiki. In this case, use [Template:Codeextralink](Template_Codeextralink.md) with a link to the raw web address of the code.
 
 For example:
 
@@ -157,14 +157,14 @@ For example:
 
 It will be displayed as: {{Codeextralink|https://gist.githubusercontent.com/mario52a/8d40ab6c018c2bde678f/raw/e16ad9ea7b38c0c47e42aa3019be01dd1267a620/FCInfo_en_Ver_1-20_Docked.FCMacro}}
 
-This template must be placed at the beginning of the macro page, in the **Description** section. It must be the first block of code in the page so that the _ for an example of the usage.
+This template must be placed at the beginning of the macro page, in the **Description** section. It must be the first block of code in the page so that the [Addon Manager](Std_AddonMgr.md) <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> can automatically detect it and import it. See [Macro CirclePlus](Macro_CirclePlus.md) for an example of the usage.
 
 
 {{ColoredParagraph|'''PS:''' In case upgrade in GitHub the path of the RAW code is modified not forgotten modify the link in the Codeextralink template.}}
 
 ## Adding the new macro to the wiki repository 
 
-Use _ to include a line in the appropriate category in [Macros recipes](Macros_recipes.md); create a new category if needed.
+Use [Template:MacroLink](Template_MacroLink.md) to include a line in the appropriate category in [Macros recipes](Macros_recipes.md); create a new category if needed.
 
 
 ```python
@@ -197,7 +197,7 @@ To make a macro installable from the [Addon Manager](Std_AddonMgr.md) it should 
 
 In order to include the macro there, first it must be reviewed by the FreeCAD community in the [Python scripting and macros](https://forum.freecadweb.org/viewforum.php?f=22) subforum. Once this is done, the FreeCAD-macros repository should be forked, the new macro should be included in a branch, and then the branch should be pushed and merged into the upstream repository.
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Macros](Category_Macros.md) [<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Macros](Category_Macros.md) > Macro documentation/en

@@ -174,7 +174,7 @@ FreeCAD最秒的好处之一，就是它给你的灵活性。你不需要作任�
 
 ## API函数
 
-FreeCAD完整的API文档放在http://www.freecadweb.org/api/中。它既有C++也有Python的API，还没有完全格式化好。当你想找只含Python的代码，就会发现那里有点乱。更便于浏览的版本在_。注意，它可能并不完整，因为它得用人工更新。要找更精确信息的话，直接在FreeCAD的Python控制台里浏览相应模块吧。
+FreeCAD完整的API文档放在http://www.freecadweb.org/api/中。它既有C++也有Python的API，还没有完全格式化好。当你想找只含Python的代码，就会发现那里有点乱。更便于浏览的版本在[这里](:Category_API.md)。注意，它可能并不完整，因为它得用人工更新。要找更精确信息的话，直接在FreeCAD的Python控制台里浏览相应模块吧。
 
 Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
@@ -256,7 +256,7 @@ Related: [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
 }}
 
-_
+[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
 [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/zh-cn

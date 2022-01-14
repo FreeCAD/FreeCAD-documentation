@@ -27,7 +27,7 @@ Filamentul/Fațete trebuie să fie în același plan.Pot exista mai multe filame
 ## Cum se folosește 
 
 1.  Selectați un obiect pentru decalaj/offset
-2.  Apăsați butonul **<img src=images/Part_Offset2D.svg style="width:24px">** **Offset2D**.
+2.  Apăsați butonul **[<img src=images/Part_Offset2D.svg style="width:24px">** **Offset2D**.
 3.  Definiți offset în Task Panel.
 4.  Apăsați **OK**.
 

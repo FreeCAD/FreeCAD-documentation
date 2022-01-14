@@ -18,7 +18,7 @@ Wie viele andere Software hat auch FreeCAD die Möglichkeit, Objekte zu kopieren
 
 <div class="mw-translate-fuzzy">
 
-Bitte beachte, dass die kopiert-eingefügten Objekte nicht vom Original abhängig sind. Wenn du abhängige Klone möchtest, verwende bitte <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> _. Wenn du weder einen abhängigen Klon noch ein parametrisches Abbild brauchst, kannst du auch <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [Formteil Arbeitsbereich Einfache Kopie](Part_SimpleCopy/de.md) verwenden. Für gemusterte Klone schaue bitte in den Abschnitt [Andere Methoden](Copying_Objects/de#Andere_Methoden.md) auf dieser Seite.
+Bitte beachte, dass die kopiert-eingefügten Objekte nicht vom Original abhängig sind. Wenn du abhängige Klone möchtest, verwende bitte <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> [Arbeitsbereich Entwurf Klon](Draft_Clone/de.md) oder <img alt="" src=images/PartDesign_Clone.svg  style="width:24px;"> [PartDesign Arbeitsbereich Klon](PartDesign_Clone/de.md). Wenn du weder einen abhängigen Klon noch ein parametrisches Abbild brauchst, kannst du auch <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [Formteil Arbeitsbereich Einfache Kopie](Part_SimpleCopy/de.md) verwenden. Für gemusterte Klone schaue bitte in den Abschnitt [Andere Methoden](Copying_Objects/de#Andere_Methoden.md) auf dieser Seite.
 
 
 </div>

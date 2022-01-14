@@ -25,15 +25,15 @@ Reportez-vous à la page [glossaire](Glossary/fr.md) en général. Ici une court
 ## FAQ
 
 1.  Quels formats supportez-vous dans FreeCAD ?
-    -   Le format de fichier natif dans FreeCAD est BREP, _.
+    -   Le format de fichier natif dans FreeCAD est BREP, [BREP](https://fr.wikipedia.org/wiki/B-Rep), fourni par le noyau de géométrie interne [OpenCASCADE (OCCT)](OpenCASCADE/fr.md).
     -   FreeCAD supporte tous les formats que OCCT supporte, donc STEP et IGES au moins.
 2.  Quels formats dois-je utiliser pour migrer vers FreeCAD ?
     -   STEP est le meilleur format car c\'est un format solide [Shape](Shape/fr.md), par opposition à un format de [Maillage](Mesh/fr.md) (STL, OBJ, DAE). Exemple, [Importing Step with Colors](https://forum.freecadweb.org/viewtopic.php?f=3&t=50308).
-    -   L\'importation d\'un STL est possible, mais ce format de maillage sera difficile à modifier par la suite. Nous recommandons de convertir les maillages importés en formes solides en utilisant **<img src=images/Part_ShapeFromMesh.svg style="width:16px">. [Part Forme à partir du maillage](Part_ShapeFromMesh/fr.md)**. Remodeler l\'objet dans FreeCAD, tout en utilisant le maillage comme référence, est le meilleur conseil.
+    -   L\'importation d\'un STL est possible, mais ce format de maillage sera difficile à modifier par la suite. Nous recommandons de convertir les maillages importés en formes solides en utilisant **[<img src=images/Part_ShapeFromMesh.svg style="width:16px">. [Part Forme à partir du maillage](Part_ShapeFromMesh/fr.md)**. Remodeler l\'objet dans FreeCAD, tout en utilisant le maillage comme référence, est le meilleur conseil.
 
 ## Astuces
 
--   \@MPetrika (_ de HakanSeven12
+-   \@MPetrika ([twitter](https://twitter.com/MPetrikas/status/1362051484704264198)) recommande d\'installer [Atelier ModernUI](ModernUI_Workbench/fr.md) de HakanSeven12
 
 ## Ressources de formation 
 

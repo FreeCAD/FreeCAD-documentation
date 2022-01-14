@@ -19,7 +19,7 @@ Bringt einen Punkt auf einem anderen Objekt an, z.B. einer Linien-, Bogen- oder 
 1.  Wähle den Punkt aus, den du auf einer Linie/Bogen/etc. anbringen möchtest. (**Ergebnis:** Einmal ausgewählt, wird der Punkt grün).
 2.  Wähle die Linie, die du an dem soeben ausgewählten Punkt anbringen möchtest (**Ergebnis:** Einmal ausgewählt, wird die Linie grün).
 3.  Rufe das **Punkt auf Objekt beschränken** Werkzeug mit verschiedenen Methoden auf:
-    -   Drücke die **<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Point on object](Sketcher_ConstrainPointOnObject.md)** Schaltfläche in der Werkzeugleiste
+    -   Drücke die **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Point on object](Sketcher_ConstrainPointOnObject.md)** Schaltfläche in der Werkzeugleiste
     -   Verwende die **Shift** + **O** Tastaturkürzel.
     -   Verwende den {{MenuCommand/de|Skizze → Skizzierer Beschränkungen → Punkt auf Objekt beschränken}} Eintrag im oberen Menü.
 

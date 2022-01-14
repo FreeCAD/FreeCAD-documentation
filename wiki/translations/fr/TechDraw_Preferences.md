@@ -37,7 +37,7 @@ Tous les paramètres de préférences avec des étiquettes en *italiques* sont d
 -   **Répertoire des modèles** : répertoire de démarrage du bouton de la barre d\'outils **<img src="images/TechDraw_PageTemplate.svg" width=16px> [Insérer une page à l'aide d'un modèle](TechDraw_PageTemplate/fr.md)**.
 -   **Fichier des motifs hachurés** : fichier par défaut [SVG](SVG/fr.md) ou [bitmap](bitmap/fr.md) pour [hachures](TechDraw_Hatch/fr.md).
 -   **Fichier des groupes de lignes** : fichier alternatif pour les définitions personnelles des [Groupes de lignes](TechDraw_LineGroup/fr.md).
--   **Répertoire de Soudage** : répertoire par défaut du bouton de la barre d\'outils **<img src=images/TechDraw_WeldSymbol.svg style="width:16px"> [Symbole de soudure](TechDraw_WeldSymbol.md)**. {{Version/fr|0.19}}
+-   **Répertoire de Soudage** : répertoire par défaut du bouton de la barre d\'outils **[<img src=images/TechDraw_WeldSymbol.svg style="width:16px"> [Symbole de soudure](TechDraw_WeldSymbol.md)**. {{Version/fr|0.19}}
 -   **Fichier PAT** : fichier de définition de modèle PAT par défaut pour [hachures géométriques](TechDraw_GeometricHatch/fr.md).
 -   **Nom du motif** : nom du motif PAT par défaut.
 
@@ -194,7 +194,7 @@ Certains paramètres de préférences ne sont accessibles que via [Std Editeur d
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/fr

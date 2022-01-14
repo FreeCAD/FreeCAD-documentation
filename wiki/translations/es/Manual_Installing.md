@@ -38,7 +38,7 @@ En la mayoría de las distribuciones modernas de Linux (Ubuntu, Fedora, openSUSE
 
 **Vías alternativas**
 
-Una de las grandes alegrías de usar Linux es la multitud de posibilidades de adaptar el software, así que no te limites. En Ubuntu y derivados, FreeCAD también puede instalarse desde un _.
+Una de las grandes alegrías de usar Linux es la multitud de posibilidades de adaptar el software, así que no te limites. En Ubuntu y derivados, FreeCAD también puede instalarse desde un [PPA](https://launchpad.net/~freecad-maintainers) mantenido por la comunidad de FreeCAD (contiene versiones estables y de desarrollo). En Fedora, las versiones de desarrollo recientes de FreeCAD pueden instalarse desde [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/), y como se trata de software de código abierto, también puedes fácilmente [compilar FreeCAD tú mismo](Compiling/es.md).
 
 ### Instalación en Mac OS 
 
@@ -60,11 +60,11 @@ Es de esperar que no quieras desinstalar FreeCAD, pero es bueno saber cómo hace
 Una vez instalado FreeCAD, puede que quieras abrirlo y cambiar algunas preferencias. Los ajustes de preferencias en FreeCAD se encuentran en el menú **Edición → Preferencias**. A continuación se enumeran algunos ajustes básicos que puedes querer cambiar; puedes navegar por las páginas de preferencias para ver si hay algo más que quieras cambiar.
 
 1.  **Idioma**: (categoría *General*, pestaña *General*) FreeCAD elegirá automáticamente el idioma de tu sistema operativo, pero puede que quieras cambiarlo. FreeCAD está casi completamente traducido a cinco o seis idiomas; otros están actualmente sólo parcialmente traducidos. Puedes fácilmente [ayuda para traducir FreeCAD](https://crowdin.com/project/freecad). ![](images/Freecad-basic-options01.jpg )
-2.  **Módulo de carga automática**: (categoría *General*, pestaña *General*) Normalmente, FreeCAD comenzará mostrando la página de inicio. Puedes omitir esto y comenzar una sesión de FreeCAD directamente en el banco de trabajo que elijas, listado en *Inicio*, *Cargar automáticamente el módulo después del inicio*. Los _.
+2.  **Módulo de carga automática**: (categoría *General*, pestaña *General*) Normalmente, FreeCAD comenzará mostrando la página de inicio. Puedes omitir esto y comenzar una sesión de FreeCAD directamente en el banco de trabajo que elijas, listado en *Inicio*, *Cargar automáticamente el módulo después del inicio*. Los [Bancos de trabajo](Workbenches.md) se explicarán en detalle en el [próximo capítulo](Manual:The_FreeCAD_Interface/es.md).
 3.  **Crear un nuevo documento al inicio**: (*Categoría general*, pestaña *Documento*) Combinado con la opción *Cargar automáticamente el módulo* de arriba, si se marca esto se inicia FreeCAD listo para trabajar. ![](images/Freecad-basic-options02.jpg )
 4.  **Opciones de almacenamiento**: (categoría *General*, pestaña *Documento*) Como con cualquier aplicación compleja, FreeCAD probablemente contiene errores que hacen que se bloquee ocasionalmente. Aquí puedes configurar las opciones que te ayudarán a recuperar tu trabajo en caso de un fallo.
 5.  **Autorización y licencia**: (*Categoría general*, pestaña *Documento*) Aquí estableces los valores que se utilizarán para los nuevos archivos que crees. Considera hacer tus archivos compartibles desde el principio, usando una licencia más amigable, [copyleft](https://en.wikipedia.org/wiki/Copyleft) como [Creative Commons](https://creativecommons.org/).
-6.  **Redirigir los mensajes internos de python**: (categoría *General*, pestaña *Ventana de salida*) Estas dos opciones son siempre buenas para comprobar, ya que harán que los mensajes del intérprete interno de python se muestren en el _ cuando hay un problema al ejecutar un script de python. ![](images/Freecad-basic-options03.jpg )
+6.  **Redirigir los mensajes internos de python**: (categoría *General*, pestaña *Ventana de salida*) Estas dos opciones son siempre buenas para comprobar, ya que harán que los mensajes del intérprete interno de python se muestren en el [Vista de informe](Manual:The_FreeCAD_Interface#Report_view.md) cuando hay un problema al ejecutar un script de python. ![](images/Freecad-basic-options03.jpg )
 7.  **Unidades**: (categoría *General*, pestaña *Unidades*) Aquí puede establecer el sistema de unidades por defecto que desea utilizar. ![](images/Freecad-basic-options04.jpg )
 8.  **Zoom en el cursor**: (*Categoría de visualización*, pestaña *3D*) Si se establece, las operaciones de zoom se centrarán en el puntero del ratón. Si no se establece, el centro de la vista actual es el foco del zoom.
 9.  **Invertir zoom**: (*Categoría de visualización*, pestaña *3D*) Invierte la dirección del zoom en relación con el movimiento del ratón. ![](images/FreeCAD-v0-18-Preferences-Display.png )
@@ -81,7 +81,7 @@ Como el proyecto FreeCAD y su comunidad crecen rápidamente, y también porque e
 
 1.  Una [Biblioteca Piezas](https://github.com/FreeCAD/FreeCAD-library), que contiene todo tipo de modelos útiles, o piezas de modelos, creados por los usuarios de FreeCAD que pueden ser utilizados libremente en sus proyectos. La biblioteca puede ser utilizada y accedida directamente desde tu instalación de FreeCAD.
 2.  [Ambientes de trabajo adicionales](https://github.com/FreeCAD/FreeCAD-addons), que amplían la funcionalidad de FreeCAD para ciertas tareas, por ejemplo animar partes de tus modelos, o áreas, como el plegado de chapa o BIM. Más explicaciones de cada ambiente de trabajo y qué herramientas contiene se dan en cada página de complementos, que puedes visitar haciendo clic en el enlace correspondiente en el gestor de complemento.
-3.  Una _ junto con la documentación sobre cómo usarlas.
+3.  Una [colección de macros](https://github.com/FreeCAD/FreeCAD-macros), que también están disponibles [en el wiki de FreeCAD](Macros_recipes/es.md) junto con la documentación sobre cómo usarlas.
 
 <img alt="" src=images/FreeCAD-addon-manager01.jpg  style="width:800px;">
 
@@ -100,7 +100,7 @@ Si estás usando el sistema operativo Ubuntu, algunos de los complementos anteri
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Manual:Installing/es

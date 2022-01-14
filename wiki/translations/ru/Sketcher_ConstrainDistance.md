@@ -20,16 +20,16 @@
 
 1.  Pick two points or one line or one point and one line.
 2.  Invoke the command several ways:
-    -   Press the **<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Constrain distance](Sketcher_ConstrainDistance.md)** button in the Sketcher toolbar.
+    -   Press the **[<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Constrain distance](Sketcher_ConstrainDistance.md)** button in the Sketcher toolbar.
     -   Use the **Shift** + **D** keyboard shortcut. (**D** is for **D**istance)
-    -   Use the **Sketch → Sketcher constraints → <img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Constrain distance** entry from the top menu.
+    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Constrain distance** entry from the top menu.
 3.  A pop up dialog opens to edit or confirm the value. Press **OK** to validate.
 
 **Note:** the constraint tool can also be started with no prior selection. To set the perpendicular distance between a point and a line, the point needs to be selected first. By default the command will be in continue mode to create new constraints; press the right mouse button or **Esc** once to quit the command.
 
 ### Hint
 
-If applicable please consider using the **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> <img src=images/Sketcher_ConstrainDistanceY.svg style="width:Horizontal distance](Sketcher_ConstrainDistanceX.md)** or **[16px"> [Vertical distance](Sketcher_ConstrainDistanceY.md)** constraints instead. These constraints are more robust and faster to calculate than the **ConstrainDistance** tool.
+If applicable please consider using the **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Horizontal distance](Sketcher_ConstrainDistanceX.md)** or **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Vertical distance](Sketcher_ConstrainDistanceY.md)** constraints instead. These constraints are more robust and faster to calculate than the **ConstrainDistance** tool.
 
 ## Программирование
 

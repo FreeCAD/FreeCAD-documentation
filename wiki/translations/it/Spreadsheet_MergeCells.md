@@ -17,7 +17,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_MergeCells.svg  style="width:16p
 
 1.  Accertarsi che sia attivo un <img alt="" src=images/_Spreadsheet_CreateSheet.svg  style="width:16px;"> [Foglio di calcolo](Spreadsheet_CreateSheet/it.md) in modo che il pulsante sia abilitato.
 2.  Selezionare almeno due celle contigue.
-3.  Premere il pulsante **<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> Unisci le celle**.
+3.  Premere il pulsante **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> Unisci le celle**.
 
 
 

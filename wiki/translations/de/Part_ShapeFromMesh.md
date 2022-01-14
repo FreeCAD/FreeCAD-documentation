@@ -13,18 +13,18 @@
 
 Der **<img src="images/Part_ShapeFromMesh.svg" width=16px> [Part FormAusNetz](Part_ShapeFromMesh/de.md)** Befehl erzeugt eine Form aus einem [Netzobjekt](Mesh/de.md). Netzobjekte haben in FreeCAD nur begrenzte Bearbeitungsmöglichkeiten, ihre Konvertierung in [Formen](Shape/de.md) ermöglicht ihre Verwendung mit vielen weiteren Booleschen und Modifikationswerkzeugen.
 
-Die Umkehroperation ist **<img src=images/Mesh_FromPartShape.svg style="width:16px"> _.
+Die Umkehroperation ist **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Netz AusTeilForm](Mesh_FromPartShape/de.md)** aus dem <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Netz Arbeitsbereich](Mesh_Workbench/de.md).
 
 ## Anwendung
 
 1.  Wähle das Netzobjekt in der [Baumansicht](tree_view/de.md) aus.
-2.  Gehe zum Menü, **Part → <img src=images/Part_ShapeFromMesh.svg style="width:16px"> Erzeuge Form aus Netz**.
+2.  Gehe zum Menü, **Part → [<img src=images/Part_ShapeFromMesh.svg style="width:16px"> Erzeuge Form aus Netz**.
 3.  Ein Aufklappmenü fragt nach der Toleranz für das Nähen der Form; der Standardwert ist {{Value|0.1}}.
 4.  Eine [Form](Shape/de.md) aus dem Netzobjekt wird als separates neues Objekt erstellt.
 
-Die Analyse und Reparatur des Netzes sollte, falls erforderlich, vor dem Start manuell durchgeführt werden **<img src=images/Part_ShapeFromMesh.svg style="width:16px"> _ verfügbar.
+Die Analyse und Reparatur des Netzes sollte, falls erforderlich, vor dem Start manuell durchgeführt werden **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [FormAusNetz](Part_ShapeFromMesh/de.md)**. Geeignete Werkzeuge für diese Aufgabe sind im <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Netz Arbeitsbereich](Mesh_Workbench/de.md) verfügbar.
 
-Nach der Erstellung einer <img src=images/Part_RefineShape.svg style="width:Form](Shape/de.md), kann es nützlich sein, **[Umwandeln in Festkörper](Part_MakeSolid/de.md)** (erforderlich für [boolesche Operationen](Part_Boolean/de.md)) und **[16px"> [Form verfeinern](Part_RefineShape/de.md)**.
+Nach der Erstellung einer [Form](Shape/de.md), kann es nützlich sein, **[Umwandeln in Festkörper](Part_MakeSolid/de.md)** (erforderlich für [boolesche Operationen](Part_Boolean/de.md)) und **[<img src=images/Part_RefineShape.svg style="width:16px"> [Form verfeinern](Part_RefineShape/de.md)**.
 
 ## Verweise
 

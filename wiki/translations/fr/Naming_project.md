@@ -8,7 +8,7 @@ Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
 
 {{TOCright}}
 
-Ce modèle est la ligne directrice pour un projet de développement de FreeCAD. Il suit les règles de la procédure _.
+Ce modèle est la ligne directrice pour un projet de développement de FreeCAD. Il suit les règles de la procédure [Getting Things Done (GTD)](http://fr.wikipedia.org/wiki/Getting_Things_Done). Les projets sont rassemblés dans la [feuille de route du développement](Development_roadmap/fr.md).
 
 ## Buts et principes 
 
@@ -70,7 +70,7 @@ Au 13 juin 2016, voici un résumé des travaux effectués pour ce projet :
 
 ### Information sur TNaming 
 
-Voir _ pour un article sérieux sur le dépôt github de ezzieyguywuf. Voici quelques faits saillants :
+Voir [ici](https://github.com/ezzieyguywuf/freecadTopoTesting/blob/master/TNaming_Writeup.md) pour un article sérieux sur le dépôt github de ezzieyguywuf. Voici quelques faits saillants :
 
 -   Le TNaming opencascade s'appuie sur [l\'environnement de travail TDF\_Data](https://dev.opencascade.org/doc/occt-7.5.0/refman/html/class_t_d_f___reference.html#details).
 -   TDF\_Data est un composant clé du logiciel OPAF opencascade, mais peut être utilisé indépendamment de celui-ci.
@@ -105,7 +105,7 @@ Voir _ pour un article sérieux sur le dépôt github de ezzieyguywuf. Voici que
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Naming project/fr

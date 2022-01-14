@@ -8,7 +8,7 @@
 |Version=1.25d
 |Date=2021/12/13
 |FCVersion=Toutes
-|SeeAlso=<img src=images/Arch_Survey.svg style="width:Arch Survey|24px"> [Arch Prise de cotes](Arch_Survey/fr.md)<br />[Macro SimpleProperties](Macro_SimpleProperties/fr.md)
+|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Prise de cotes](Arch_Survey/fr.md)<br />[Macro SimpleProperties](Macro_SimpleProperties/fr.md)
 }}
 
 ## Description

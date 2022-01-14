@@ -36,7 +36,7 @@ Lo strumento **Serie polare** prende una funzione selezionata e ne crea una seri
 1.  Selezionare le funzioni da replicare. In alternativa, è possibile selezionare la funzione da un dialogo dopo il passaggio 2.
 
     :   v0.16 e successive È possibile selezionare solo una singola funzione e deve essere l\'ultima nella parte inferiore dell\'albero delle funzioni.
-2.  Premere il pulsante **<img src=images/PartDesign_PolarPattern.svg style="width:24px">** **Serie polare**.
+2.  Premere il pulsante **[<img src=images/PartDesign_PolarPattern.svg style="width:24px">** **Serie polare**.
 3.  v0.17 e successive Premere **Aggiungi funzione** per aggiungere una funzione da modellare. La funzione deve essere visibile nella vista 3D:
     1.  Passare all\'albero del modello;
     2.  Selezionare nell\'albero la funzione da aggiungere e premere la **barra spaziatrice** per renderla visibile nella vista 3D;

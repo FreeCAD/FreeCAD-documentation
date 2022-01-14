@@ -238,14 +238,14 @@ Grup ilkesi yayılması genellikle biraz zaman alır - paketi güvenilir bir şe
 
 FreeCAD\'in Windows sürümünü CXOffice 5.0.1 kullanarak bir Linux sistemine kurabilirsiniz . Yükleme paketinin \"Y:\" sürücü harfiyle eşlenen \"yazılım\" dizinine yerleştirildiğini varsayarak, CXOffice komut satırından msiexec komutunu çalıştırın : 
 ```pythonmsiexec /i Y:\\software\\FreeCAD<version>.msi
-``` FreeCAD çalışıyor, ancak _, Google _ altında çalışan diğer programlar gibi OpenGL ekranının çalışmadığı bildirildi .
+``` FreeCAD çalışıyor, ancak [Wine](wikipedia:Wine_(software).md), Google [SketchUp](wikipedia_SketchUp.md) altında çalışan diğer programlar gibi OpenGL ekranının çalışmadığı bildirildi .
 
 
 ```python
 msiexec /i Y:\\software\\FreeCAD<version>.msi
 ```
 
-FreeCAD çalışıyor ancak OpenGL ekranının çalışmadığı, _, yani Google _ altında çalışan diğer programlar gibi çalışmadığı bildirildi.
+FreeCAD çalışıyor ancak OpenGL ekranının çalışmadığı, [ Wine](wikipedia:Wine(software).md), yani Google [ SketchUp](wikipedia__SketchUp.md) altında çalışan diğer programlar gibi çalışmadığı bildirildi.
 
 
 <div class="mw-translate-fuzzy">

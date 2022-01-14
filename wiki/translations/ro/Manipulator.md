@@ -16,7 +16,7 @@ Un \'\'\'manipulator \'\'\'este un mâner care poate fi folosit pentru a modific
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Manipulator/ro

@@ -23,7 +23,7 @@ Der einfachste Weg, PySide zu installieren, ist über den Paketmanager Ihrer Dis
 
 #### Windows
 
-Das Programm kann unter <http://qt-project.org/wiki/Category:LanguageBindings>::PySide::Downloads heruntergeladen werden. Du must die Qt- und SIP-Bibliotheken installieren, bevor Du PySide installieren kannst (zu dokumentieren).
+Das Programm kann unter <http://qt-project.org/wiki/<img src="images/Property.png" style="width:16px"> LanguageBindings>::PySide::Downloads heruntergeladen werden. Du must die Qt- und SIP-Bibliotheken installieren, bevor Du PySide installieren kannst (zu dokumentieren).
 
 #### MacOSX
 
@@ -577,7 +577,7 @@ $ python setup.py install --prefix=/Applications/FreeCAD\ 0.16.6706.app/Contents
 -   Lizenz. \* LGPL
 -   optional, notwendig zur Erweiterung der Importfähigkeit von IFC-Dateien
 
-IFCOpenShell ist eine derzeit in Entwicklung befindliche Bibliothek, die es erlaubt, Dateien _ es erkennen und zum Importieren von IFC-Dateien verwenden, anstelle des eingebauten rudimentären Importeurs. Da ifcopenshell wie FreeCAD auf OpenCasCade basiert, ist die Qualität des Imports sehr hoch und erzeugt hochwertige Volumenkörpergeometrie.
+IFCOpenShell ist eine derzeit in Entwicklung befindliche Bibliothek, die es erlaubt, Dateien [Industry Foundation Classes (\*.IFC)](https://de.wikipedia.org/wiki/Industry_Foundation_Classes) zu importieren (und bald auch zu exportieren). IFC ist eine Erweiterung des STEP-Formats und wird zum Standard in \[hhttps://de.wikipedia.org/wiki/Building\_Information\_Modeling BIM\]-Arbeitsabläufen. Wenn ifcopenshell korrekt auf Ihrem System installiert ist, wird das FreeCAD [Arch-Arbeitsgebiet](Arch_Workbench/de.md) es erkennen und zum Importieren von IFC-Dateien verwenden, anstelle des eingebauten rudimentären Importeurs. Da ifcopenshell wie FreeCAD auf OpenCasCade basiert, ist die Qualität des Imports sehr hoch und erzeugt hochwertige Volumenkörpergeometrie.
 
 ### Installation 
 
@@ -704,7 +704,7 @@ utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
 
  
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Python Code](Category_Python Code.md) > Extra python modules/de

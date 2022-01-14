@@ -34,7 +34,7 @@ Il n\'y a qu\'un seul onglet : *Tableur* dans la section **Tableur**. Dans cet o
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Preferences/fr

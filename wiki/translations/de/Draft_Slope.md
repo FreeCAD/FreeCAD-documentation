@@ -37,7 +37,7 @@ Der Befehl <img alt="" src=images/Draft_Slope.svg  style="width:24px;"> *\' Entw
 
 ## Skripten
 
-Siehe auch: _.
+Siehe auch: [Autogenerierte API Dokumentation](https://freecad.github.io/SourceDoc/) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Es gibt keine Python Methode zur Neigung von Objekten. Um die Ergebnisse des Entwurf Neigung Befehls zu emulieren, muss die `Points`-Eigenschaft von Drahtobjekten geändert werden.
 

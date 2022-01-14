@@ -41,7 +41,7 @@
 
 ## Utilisation
 
-Démarrez l\'outil **!_** → **![](images/)_[Chanfrein](Part_Chamfer/fr.md)**** depuis la barre d\'outils, ou le menu. Vous pouvez sélectionner l\'objet au préalable.
+Démarrez l\'outil **![](images/)_[Chanfrein](Part_Chamfer/fr.md)** qui se trouve dans \" **Boîte déroulante des ateliers → **Part [24px|Part](File:Workbench_Part.png.md)** → **![](images/)_[Chanfrein](Part_Chamfer/fr.md)**** depuis la barre d\'outils, ou le menu. Vous pouvez sélectionner l\'objet au préalable.
 Si la forme n\'a pas été sélectionnée au préalable, sélectionnez-la dans la **liste déroulante** du panneau des Tâches.
 Sélectionnez le type de congé (Chanfrein), soit rayon constant (par défaut), ou rayon variable.
 Sélectionnez les arêtes, soit dans la vue 3D, ou en les cochant, dans la liste du panneau des Tâches.
@@ -218,7 +218,7 @@ La modification d\'une valeur de plus d\'un axes provoque la rotation avec l\'an
 
 Chamfer might do nothing if the result would touch or cross the next adjacent edge. So if you do not get the expected result, try with a smaller value. This is the same for <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Fillet](Part_Fillet.md).
 
-Also note that the Chamfer feature is affected by the _ operations at the last steps in the chain.
+Also note that the Chamfer feature is affected by the [Topological naming problem](Topological_naming_problem.md) when the any change is done to a modeling step earlier in the chain that affects the number of facets or vertices. This could cause unpredictable result. Until that is resolved (possibly with V0.20) it is advised to apply Chamfer and <img alt="" src=images/Part_Fillet.svg  style="width:24px;"> [Part Fillet](Part_Fillet.md) operations at the last steps in the chain.
 
 ## Scripting
 
@@ -233,7 +233,7 @@ Instrumentul Chamfer poate fi utilizat în [macros](macros.md) și din consolă 
 
 ## Utilisation 
 
-Démarrez l\'outil **!_** → **![](images/)_[Chanfrein](Part_Chamfer/fr.md)**** depuis la barre d\'outils, ou le menu. Vous pouvez sélectionner l\'objet au préalable.
+Démarrez l\'outil **![](images/)_[Chanfrein](Part_Chamfer/fr.md)** qui se trouve dans \" **Boîte déroulante des ateliers → **Part [24px|Part](File:Workbench_Part.png.md)** → **![](images/)_[Chanfrein](Part_Chamfer/fr.md)**** depuis la barre d\'outils, ou le menu. Vous pouvez sélectionner l\'objet au préalable.
 Si la forme n\'a pas été sélectionnée au préalable, sélectionnez-la dans la **liste déroulante** du panneau des Tâches.
 Sélectionnez le type de congé (Chanfrein), soit rayon constant (par défaut), ou rayon variable.
 Sélectionnez les arêtes, soit dans la vue 3D, ou en les cochant, dans la liste du panneau des Tâches.
@@ -328,7 +328,7 @@ Image:Part\_Fillet\_fr\_07.png\|Sélectionnons une arête, sur la forme à modif
 
 <center>
 
-Image:Part\_Chamfer\_fr\_09.png\|Sélectionnez l\'outil **!_**, notre forme **Box001** est affichée dans {{OngletTache|Forme sélectionnée}}, faisons glisser l'ascenseur,
+Image:Part\_Chamfer\_fr\_09.png\|Sélectionnez l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, Image:Part\_Chamfer\_fr\_10.png\|une nouvelle fenêtre s\'affiche, la fenêtre des options du **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, notre forme **Box001** est affichée dans {{OngletTache|Forme sélectionnée}}, faisons glisser l'ascenseur,
 
 
 </center>
@@ -391,18 +391,18 @@ Les formes originales peuvent être effacées, pour ne conserver que le produit 
 </center>
 
 
-## Comparaison Chanfrein PartDesign _, et, Chanfrein Part _ 
+## Comparaison Chanfrein PartDesign [16px\|text-top=Chanfrein\|link=PartDesign\_Chamfer/fr](File:PartDesign_Chamfer.png.md), et, Chanfrein Part [16px\|text-top=Chanfrein\|link=Part\_Chamfer/fr](Image:Part_Chamfer.png.md) 
 
-**Le **_ [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne doit pas être confondu avec son équivalent de l\'atelier Part **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)****.
+**Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne doit pas être confondu avec son équivalent de l\'atelier Part **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)****.
 Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utilisent différemment.
 
 ### Voici quelques différences : 
 
--   Le **_ _ [chanfrein](_PartDesign_Chamfer/fr.md)**, sa dimension peut être modifié ; ce n\'est pas le cas du **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**.
--   Les arêtes doivent être sélectionnées avant de démarrer le **_ [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)**. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**, quant à lui, peut être lancé, puis, suivi de la sélection du solide, et, enfin des arêtes.
--   Le **_ [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ajoute une entrée distincte dans l\'arborescence Projet. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** devient le parent de l\'objet auquel il a été appliqué.
--   Le **_ [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** affiche un aperçu en temps réel de l\'application du chanfrein avant la validation de la fonction.
--   Le **!_ [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne le permet pas.
+-   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** est *paramétrique*. Après l\'application d\'un **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)**, sa dimension peut être modifié ; ce n\'est pas le cas du **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**.
+-   Les arêtes doivent être sélectionnées avant de démarrer le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)**. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**, quant à lui, peut être lancé, puis, suivi de la sélection du solide, et, enfin des arêtes.
+-   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ajoute une entrée distincte dans l\'arborescence Projet. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** devient le parent de l\'objet auquel il a été appliqué.
+-   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** affiche un aperçu en temps réel de l\'application du chanfrein avant la validation de la fonction.
+-   Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** supporte les dimensions variables (avec une dimension de départ, et, une dimension d\'arrivée). Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne le permet pas.
 
 
 
@@ -428,7 +428,7 @@ Image:Part\_Fillet\_fr\_07.png\|Sélectionnons une arête, sur la forme à modif
 
 <center>
 
-Image:Part\_Chamfer\_fr\_09.png\|Sélectionnez l\'outil **!_**, notre forme **Box001** est affichée dans {{OngletTache|Forme sélectionnée}}, faisons glisser l'ascenseur,
+Image:Part\_Chamfer\_fr\_09.png\|Sélectionnez l\'outil **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, Image:Part\_Chamfer\_fr\_10.png\|une nouvelle fenêtre s\'affiche, la fenêtre des options du **![](images/)_[chanfrein](Part_Chamfer/fr.md)**, notre forme **Box001** est affichée dans {{OngletTache|Forme sélectionnée}}, faisons glisser l'ascenseur,
 
 
 </center>
@@ -491,18 +491,18 @@ Les formes originales peuvent être effacées, pour ne conserver que le produit 
 </center>
 
 
-## Comparaison Chanfrein PartDesign _, et, Chanfrein Part _ 
+## Comparaison Chanfrein PartDesign [16px\|text-top=Chanfrein\|link=PartDesign\_Chamfer/fr](File:PartDesign_Chamfer.png.md), et, Chanfrein Part [16px\|text-top=Chanfrein\|link=Part\_Chamfer/fr](Image:Part_Chamfer.png.md) 
 
-**Le **_ [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne doit pas être confondu avec son équivalent de l\'atelier Part **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)****.
+**Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne doit pas être confondu avec son équivalent de l\'atelier Part **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)****.
 Bien qu\'ils partagent la même icône, ces outils sont différents, et s\'utilisent différemment.
 
 ### Voici quelques différences : 
 
--   Le **_ _ [chanfrein](_PartDesign_Chamfer/fr.md)**, sa dimension peut être modifié ; ce n\'est pas le cas du **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**.
--   Les arêtes doivent être sélectionnées avant de démarrer le **_ [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)**. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**, quant à lui, peut être lancé, puis, suivi de la sélection du solide, et, enfin des arêtes.
--   Le **_ [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ajoute une entrée distincte dans l\'arborescence Projet. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** devient le parent de l\'objet auquel il a été appliqué.
--   Le **_ [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** affiche un aperçu en temps réel de l\'application du chanfrein avant la validation de la fonction.
--   Le **!_ [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne le permet pas.
+-   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** est *paramétrique*. Après l\'application d\'un **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [chanfrein](_PartDesign_Chamfer/fr.md)**, sa dimension peut être modifié ; ce n\'est pas le cas du **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**.
+-   Les arêtes doivent être sélectionnées avant de démarrer le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)**. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)**, quant à lui, peut être lancé, puis, suivi de la sélection du solide, et, enfin des arêtes.
+-   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ajoute une entrée distincte dans l\'arborescence Projet. Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** devient le parent de l\'objet auquel il a été appliqué.
+-   Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** affiche un aperçu en temps réel de l\'application du chanfrein avant la validation de la fonction.
+-   Le **![](images/)_[Chanfrein_Part](Part_Chamfer/fr.md)** supporte les dimensions variables (avec une dimension de départ, et, une dimension d\'arrivée). Le **[16px|text-top=Chanfrein|link=PartDesign_Chamfer/fr](File:PartDesign_Chamfer.png.md) [Chanfrein PartDesign](_PartDesign_Chamfer/fr.md)** ne le permet pas.
 
 
 

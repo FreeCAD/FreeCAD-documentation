@@ -34,7 +34,7 @@ Appone un punto su un altro oggetto, ad esempio, su una linea, un arco o un asse
 1.  Selezionare il punto che si desidera apporre su una linea o arco, etc. (il punto selezionato diventa verde).
 2.  Selezionare la linea su cui si desidera apporre il punto appena selezionato (la linea selezionata diventa verde).
 3.  Invocare il vincolo in uno di questi modi:
-    -   Cliccare sull\'icona **<img src=images/Constraint_PointOnObject.svg style="width:24px">** della barra degli strumenti.
+    -   Cliccare sull\'icona **[<img src=images/Constraint_PointOnObject.svg style="width:24px">** della barra degli strumenti.
     -   Usare la scorciatoia da tastiera **Maiusc** + **O**.
     -   Usare la voce **Sketch → Vincoli → Punto su oggetto** dal menu principale.
 

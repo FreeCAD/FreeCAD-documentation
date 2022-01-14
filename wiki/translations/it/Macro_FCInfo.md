@@ -12,7 +12,7 @@
 |Date=2020/11/12
 |FCVersion=Tutte
 |Download=Tele-carica il zip file [https://forum.freecadweb.org/download/file.php?id=50755 Macro_FCInfo_Icon] e copia le imagine nello stesso repertorio ché la macro.
-|SeeAlso=<img src=images/Arch_Survey.svg style="width:Arch Survey|24px"> [Arch Survey](Arch_Survey/it.md)<br />[Macro SimpleProperties](Macro_SimpleProperties/it.md)
+|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Survey](Arch_Survey/it.md)<br />[Macro SimpleProperties](Macro_SimpleProperties/it.md)
 }}
 
 

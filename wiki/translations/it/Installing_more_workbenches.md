@@ -99,7 +99,7 @@ Vedere anche la pagina [Come installare ambienti aggiuntivi](How_to_install_addi
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/it

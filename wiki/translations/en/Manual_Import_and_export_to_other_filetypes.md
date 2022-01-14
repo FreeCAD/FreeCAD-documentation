@@ -39,7 +39,7 @@ Some of these file formats have options. These can be configured from menu **Edi
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Manual:Import and export to other filetypes/en

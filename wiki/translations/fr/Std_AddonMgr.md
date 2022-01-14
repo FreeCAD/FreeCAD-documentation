@@ -12,11 +12,11 @@
 
 ## Description
 
-La commande **Gestionnaire d\'Addon** ouvre le gestionnaire de modules complémentaires. Avec l\'Addon Manager, vous pouvez installer et gérer _.
+La commande **Gestionnaire d\'Addon** ouvre le gestionnaire de modules complémentaires. Avec l\'Addon Manager, vous pouvez installer et gérer [ateliers complémentaires](external_workbenches/fr.md) et des [macros](macros/fr.md) fournis par la communauté FreeCAD. Les ateliers et les macros disponibles proviennent de deux dépôts [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) et [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/) et à partir de la page [Liste des macros](Macros_recipes/fr.md).
 
 Les addons marqués par {{emphasis|Python 2 uniquement}} ne fonctionneront pas dans FreeCAD version 0.19 ou supérieure.
 
-En raison des modifications apportées à la plate-forme GitHub en 2020, le gestionnaire de modules complémentaires ne fonctionne plus si vous utilisez des versions de FreeCAD inférieure ou égale à 0.17. Vous devez passer à la version _ ci-dessous.
+En raison des modifications apportées à la plate-forme GitHub en 2020, le gestionnaire de modules complémentaires ne fonctionne plus si vous utilisez des versions de FreeCAD inférieure ou égale à 0.17. Vous devez passer à la version [0.18.5](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) ou à une version récente [0.19](https://github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre). Vous pouvez également installer les addons manuellement, voir [Remarques](#Remarques.md) ci-dessous.
 
 ![](images/Std_AddonMgr_dialog.png ) 
 *Boîte de dialogue du Gestionnaire de modules complémentaires ou Addon Manager*
@@ -65,7 +65,7 @@ La boîte de dialogue Gestionnaire de modules complémentaires comporte deux ong
 
 ## Informations pour les développeurs 
 
-Si vous avez développé un atelier ou une macro et souhaitez l\'inclure dans le gestionnaire des extensions, lisez la procédure à suivre dans les pages des dépôts (_, il n\'y a rien d\'autre à faire, elle sera automatiquement sélectionnée par le gestionnaire Addon Manager.
+Si vous avez développé un atelier ou une macro et souhaitez l\'inclure dans le gestionnaire des extensions, lisez la procédure à suivre dans les pages des dépôts ([FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) et [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/)). Si vous ajoutez votre macro à la [Liste des macros](Macros_recipes/fr.md), il n\'y a rien d\'autre à faire, elle sera automatiquement sélectionnée par le gestionnaire Addon Manager.
 
 ### Ateliers Python 
 

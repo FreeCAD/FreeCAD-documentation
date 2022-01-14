@@ -12,7 +12,7 @@ L\'exportation d\'un objet <img alt="" src=images/Spreadsheet_CreateSheet.svg  s
 
  
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Spreadsheet](Category_Spreadsheet.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet CSV/fr

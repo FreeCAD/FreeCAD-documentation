@@ -36,8 +36,8 @@ Aceasta pagina prezinta o mare parte dintre funcționalitățile FreeCAD. Daca d
 
 
 -   ![](images/Feature3.jpg )Un **model parametric** complet. Toate obiectele FreeCAD sunt parametrizate, ceea ce inseamna ca forma lor poate depinde de [proprietati](Property/ro.md) sau de alte obiecte, cu modificarile calculate la cerere si inregistrate in stiva undo/redo. Tipuri noi de obiecte pot fi adaugate cu usurinta si sunt [programabile in Python](Scripted_objects/ro.md).
--   !_, representarea in 2D sau 3D a geometriei sub forma de [grafice](scenegraph/ro.md) sau chiar [interfata grafica](PySide/ro.md)
--   !_. Nivelul de compatibilitate dintre FreeCAD si un format dat variaza, depinzand de modulul care implementeaza functionalitatea.
+-   ![](images/Feature4.jpg ) **Arhitectura modulara** ce permite modulelor sa adauge noi functionalitati la pachetul de baza. Extensiile pot fi complexe, precum intregi aplicatii programate in C++, sau simple, precum [script-uri Python](Power_users_hub/ro.md) sau [macroinstructiuni](macros/ro.md) inregistrate automat. Utilizatorul are control complet asupra interpretorului **Python** continut, asupra macroinstructiunilor si script-urilor externe si asupra componentelor FreeCAD: [crearea si transformarea geometriei](Topological_data_scripting/ro.md), representarea in 2D sau 3D a geometriei sub forma de [grafice](scenegraph/ro.md) sau chiar [interfata grafica](PySide/ro.md)
+-   ![](images/Feature5.jpg ) Importul si exportul in **formate standard** precum [STEP](http://en.wikipedia.org/wiki/ISO_10303), [IGES](http://en.wikipedia.org/wiki/IGES), [OBJ](http://en.wikipedia.org/wiki/Obj), [STL](http://en.wikipedia.org/wiki/STL_%28file_format%29), [DXF](http://en.wikipedia.org/wiki/Dxf), [SVG](http://en.wikipedia.org/wiki/Svg), [STL](http://en.wikipedia.org/wiki/STL_(file_format)), [DAE](http://en.wikipedia.org/wiki/COLLADA), [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) sau [OFF](http://people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](http://en.wikipedia.org/wiki/NASTRAN), [VRML](http://en.wikipedia.org/wiki/VRML) pe langa [formatul nativ FreeCAD](Fcstd_file_format/ro.md). Nivelul de compatibilitate dintre FreeCAD si un format dat variaza, depinzand de modulul care implementeaza functionalitatea.
 -   ![](images/Feature7.jpg ) [Editarea schitelor](Sketcher_Workbench/ro.md) cu constrangeri, permitand schitarea formelor 2D constranse ca si geometrie. E posibila crearea catorva tipuri de geometrii constranse precum si imbinarea lor.
 -   ![](images/Feature9.jpg ) [Simulator de roboti](Robot_Workbench.md) ce permite studierea miscarilor robotilor. Modulul are deja o interfata grafica extinsa, permitand realizarea intregului flux in mod grafic.
 -   ![](images/Feature8.jpg ) [Foi de desen](Drawing_Workbench.md) ce permit crearea de vizualizari 2D ale desenului 3D pe o foaie. Acest modul produce foi SVG sau PDF gata de a fi exportate. Acest modul este in lucru, dar are deja implementata functionalitatea Python.
@@ -289,7 +289,7 @@ Power users have created various custom [external workbenches](external_workbenc
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/ro

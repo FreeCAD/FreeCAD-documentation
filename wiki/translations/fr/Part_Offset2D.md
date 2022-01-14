@@ -21,7 +21,7 @@ Le profil/la face doit être plan. il peux y avoir plusieurs profils dans un obj
 ## Utilisation
 
 1.  Sélectionner un objet à décaler
-2.  Appuyer sur le bouton **<img src=images/Part_Offset2D.svg style="width:24px">** **Décalage 2D**.
+2.  Appuyer sur le bouton **[<img src=images/Part_Offset2D.svg style="width:24px">** **Décalage 2D**.
 3.  Définir la valeur de décalage dans le [Panneau des tâches](Task_Panel/fr.md) puis valider.
 4.  Appuyer sur **OK**.
 

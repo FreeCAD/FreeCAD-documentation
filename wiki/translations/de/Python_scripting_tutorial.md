@@ -3,7 +3,7 @@
 
 ## Einführung
 
-_ oder von deinen benutzerdefinierten Skripten aus kannst du FreeCAD steuern und es sehr komplexe Aktionen ausführen lassen.
+[Python](http://en.wikipedia.org/wiki/Python_%28programming_language%29) ist eine Programmiersprache, sehr einfach zu bedienen und sehr schnell zu erlernen. Sie ist quelloffen, plattformübergreifend und kann für eine Vielzahl von Aufgaben allein verwendet werden, von der Programmierung einfacher Shell Skripte bis hin zu sehr komplexen Programmen. Aber eine der am weitesten verbreiteten Anwendungen ist die Skriptsprache, da sie leicht in andere Anwendungen integriert werden kann. Genau so wird es in FreeCAD verwendet. Von der [Python Konsole](Python_console/de.md) oder von deinen benutzerdefinierten Skripten aus kannst du FreeCAD steuern und es sehr komplexe Aktionen ausführen lassen.
 
 Zum Beispiel aus einem Python Skript, kannst Du:
 
@@ -322,7 +322,7 @@ Jetzt bist Du bereit für eine vertieftere FreeCAD Skripterstellung. Gehe weiter
 
 }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Python scripting tutorial/de

@@ -24,7 +24,7 @@ Wiązanie poziome wymusza, aby wybrana linia lub linie na szkicu były równoleg
 *Linia staje się ciemnozielona.*
 
 <img alt="" src=images/HorizontalConstraint3.png  style="width:500px;"> 
-*Zastosuj Wiązanie poziome klikając na ikonę **<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> [Utwórz wiązanie poziome](Sketcher_ConstrainHorizontal.md)* na pasku narzędzi '''Wiązania szkicownika''' lub wybierając pozycję menu '''Wiązanie poziome''' w podmenu '''Wiązania szkicownika''' w pozycji menu Sketch w Środowisku pracy Sketcher ''(lub w pozycji menu Part Design na stanowisku pracy Part Design)''. Wybrana linia jest związana z osią poziomą szkicu, która powinna być równoległa do osi poziomej.**
+*Zastosuj Wiązanie poziome klikając na ikonę **[<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> [Utwórz wiązanie poziome](Sketcher_ConstrainHorizontal.md)* na pasku narzędzi '''Wiązania szkicownika''' lub wybierając pozycję menu '''Wiązanie poziome''' w podmenu '''Wiązania szkicownika''' w pozycji menu Sketch w Środowisku pracy Sketcher ''(lub w pozycji menu Part Design na stanowisku pracy Part Design)''. Wybrana linia jest związana z osią poziomą szkicu, która powinna być równoległa do osi poziomej.**
 
 <img alt="" src=images/HorizontalConstraint4.png  style="width:500px;"> 
 *Można wybrać wiele linii.*

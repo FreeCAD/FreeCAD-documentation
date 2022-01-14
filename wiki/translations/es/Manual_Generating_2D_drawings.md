@@ -11,7 +11,7 @@ The TechDraw Workbench allows you to create sheets, which can be blank or use a 
 
 Drawing sheets, once complete, can be printed or exported as [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics), PDF or [DXF](https://en.wikipedia.org/wiki/AutoCAD_DXF) files.
 
-In the following exercise, we will see how to create a simple drawing of a chair model found in the _ chapter of this manual), or you can simply download the model from the library webpage, or via the direct link provided at the bottom of this chapter.
+In the following exercise, we will see how to create a simple drawing of a chair model found in the [FreeCAD library](https://github.com/FreeCAD/FreeCAD-library) (Furniture → Chairs → IkeaLikeChair). The FreeCAD library can easily be added to your FreeCAD installation (refer to the [installing](Manual_Installing.md) chapter of this manual), or you can simply download the model from the library webpage, or via the direct link provided at the bottom of this chapter.
 
 ![](images/Exercise_TechDraw_01.svg )
 
@@ -44,11 +44,11 @@ In the following exercise, we will see how to create a simple drawing of a chair
 
 ![](images/Exercise_TechDraw_04.png )
 
--   Note that there may be easier ways to get the views that you want. You can simply _ the 3D view of your model, and once you have the view you want, select the model in the tree view and hit <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> New View. This will automatically insert a view with the desired rotation and direction properties. You can also use the <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:16px;"> [TechDraw ProjectionGroup](TechDraw_ProjectionGroup.md) tool.
+-   Note that there may be easier ways to get the views that you want. You can simply [rotate](Manual_Navigating_in_the_3D_view.md) the 3D view of your model, and once you have the view you want, select the model in the tree view and hit <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> New View. This will automatically insert a view with the desired rotation and direction properties. You can also use the <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:16px;"> [TechDraw ProjectionGroup](TechDraw_ProjectionGroup.md) tool.
 
 -   We can tweak the aspect of our views if we want, for example we can change their **Line Width** property (under the View tab in the Combo View) to 0.5.
 
-We will now place dimensions and indications on our drawing. There are two ways to add dimensions to a model: one is placing the dimensions inside the 3D model, using the <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> _ tool. The other is to do things directly on the TechDraw sheet. We\'ll use the latter method.
+We will now place dimensions and indications on our drawing. There are two ways to add dimensions to a model: one is placing the dimensions inside the 3D model, using the <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> [Dimension](Draft_Dimension.md) tool of the [Draft Workbench](Draft_Workbench.md), and then placing a view of these dimensions on our sheet with the <img alt="" src=images/TechDraw_DraftView.svg  style="width:16px;"> [TechDraw DraftView](TechDraw_DraftView.md) tool. The other is to do things directly on the TechDraw sheet. We\'ll use the latter method.
 
 -   Hit the <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> Toggle button to turn the vertices on.
 -   Use Ctrl + Left Mouse Click to select the two vertices you want to measure the distance between.
@@ -56,9 +56,9 @@ We will now place dimensions and indications on our drawing. There are two ways 
 
 ![](images/Exercise_TechDraw_05.png )
 
--   Repeat the operation, until all the dimensions you wish to indicate are placed. Use the <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> _ tools as necessary.
+-   Repeat the operation, until all the dimensions you wish to indicate are placed. Use the <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> [TechDraw VerticalDimension](TechDraw_VerticalDimension.md) and <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:16px;"> [TechDraw HorizontalDimension](TechDraw_HorizontalDimension.md) tools as necessary.
 -   Take a minute to look at the [properties](TechDraw_LengthDimension#Properties.md) of the Dimension object in the Combo View.
--   Please note that if you are dimensioning an _ tool to get an accurate dimension.
+-   Please note that if you are dimensioning an [axonometric](https://en.wikipedia.org/wiki/Axonometric_projection) view (e.g., isometric view) instead of a [multiview](https://en.wikipedia.org/wiki/Multiview_projection) view (e.g., front view) like we have done here, you will need to use the <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:16px;"> [TechDraw LinkDimension](TechDraw_LinkDimension.md) tool to get an accurate dimension.
 
 ![](images/Exercise_TechDraw_07.png )
 
@@ -78,7 +78,7 @@ We will now place dimensions and indications on our drawing. There are two ways 
     -   Make sure that the View frames, labels, and vertices are visible. If not, hit the <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> Toggle button.
     -   Edit the text in each section of the sheet title block by clicking on the small green square on the left side of the text.
 
-Our page can now be exported to SVG for further work in graphical applications like _ and then select menu **File → Export**. The DXF format is importable in almost all existing 2D CAD applications. TechDraw pages can also be directly printed or exported to PDF.
+Our page can now be exported to SVG for further work in graphical applications like [Inkscape](http://www.inkscape.org) or to DXF. Select the page in the [tree view](Tree_view.md) and then select menu **File → Export**. The DXF format is importable in almost all existing 2D CAD applications. TechDraw pages can also be directly printed or exported to PDF.
 
 **Descargas**\'
 
@@ -101,7 +101,7 @@ Our page can now be exported to SVG for further work in graphical applications l
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Generating 2D drawings/es

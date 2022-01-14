@@ -868,7 +868,7 @@ Naturalmente, dopo spetta all\'utente il compito di caricare i documenti corrisp
 
 }}
 
-_
+[<img src="images/Property.png" style="width:16px"> Spreadsheet](Category_Spreadsheet.md)
 
 ---
 [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Expressions/it

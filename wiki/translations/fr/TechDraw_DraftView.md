@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> _, les vues créées avec cet outil sont gérées par <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) et spécialement conçues pour montrer des objets 2D. Voir Remarques.
+L\'outil <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [Vue d\'un objet Draft](TechDraw_DraftView/fr.md) insère une vue d\'un objet basé sur [Part](Part_Workbench/fr.md) ou Groupe sélectionné dans une page de dessin. Contrairement à l\'outil <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [Vue](TechDraw_View/fr.md), les vues créées avec cet outil sont gérées par <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) et spécialement conçues pour montrer des objets 2D. Voir Remarques.
 
 ![](images/TechDraw_DraftView_example.png ) 
 *Éléments Draft tels que des cercles et des réseaux importés dans une page de dessin TechDraw*

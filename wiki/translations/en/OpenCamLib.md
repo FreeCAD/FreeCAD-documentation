@@ -112,7 +112,7 @@ Thank you to [Dr. Anders Wallin](http://www.anderswallin.net/about/) for providi
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > OpenCamLib/en

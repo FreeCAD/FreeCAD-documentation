@@ -26,7 +26,7 @@ Cet outil crée des congés (arrondis) sur les bords sélectionnés d\'une forme
 
 ## Comparaison PartDesign Congé et Part Congé 
 
-Il existe un autre outil de congé dans l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _ pour plus de détails sur leurs différences.
+Il existe un autre outil de congé dans l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md). Veuillez noter que leur fonctionnement est assez différent. Consultez la page de référence <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Congé](PartDesign_Fillet/fr.md) pour plus de détails sur leurs différences.
 
 ## Remarques pour l\'application de Part Congés 
 

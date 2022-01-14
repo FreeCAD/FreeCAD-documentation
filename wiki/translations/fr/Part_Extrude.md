@@ -23,7 +23,7 @@ Dans les scénarios les plus courants, la liste suivante détaille les formes r�
 -   Extrusion d\'un fil ouvert (par exemple un fil Draft), produira une coque ouverte (plusieurs faces jointes)
 -   Extrusion d\'un fil fermé (par exemple un fil Draft), produira éventuellement une coque (plusieurs faces jointes) ou si le paramètre \"solide\" est \"vrai\" produira un solide
 -   Extrusion d\'une face (ex. plane) produit un solide (par ex. un cube)
--   Extrusion d\'un objet **<img src=images/Draft_ShapeString.svg style="width:16px"> [Formes à partir texte](Draft_ShapeString/fr.md)** produit un composé de solides (la chaîne de texte est un composé de lettres et chacune d\'elle forme un solide)
+-   Extrusion d\'un objet **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Formes à partir texte](Draft_ShapeString/fr.md)** produit un composé de solides (la chaîne de texte est un composé de lettres et chacune d\'elle forme un solide)
 -   Extrusion d\'une coque de faces produira un Compsolid.
 
 ## Utilisation

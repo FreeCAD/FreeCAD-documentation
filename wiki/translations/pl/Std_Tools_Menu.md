@@ -33,7 +33,7 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Edycja parametrów](Std_DlgParameter.md): Otwiera okno dialogowe dające dostęp do parametrów sterujących programem.
 
--   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> [Zapisz obrazek](Std_ViewScreenShot.md): Zapisuje zrzut bieżącego [widoku okna 3D](3D_view.md).
 
 -   <img alt="" src=images/Std_SceneInspector.svg  style="width:32px;"> [Inspektor sceny](Std_SceneInspector/pl.md): Wyświetla przegląd węzłów scenograficznych aktywnego widoku 3D.
 
@@ -51,7 +51,7 @@ W tym menu dostępne są następujące narzędzia:
 
 -   <img alt="" src=images/Std_DlgCustomize.svg  style="width:32px;"> [Dostosuj](Std_DlgCustomize.md): Otwiera okno dialogowe z opcjami dostosowywania.
 
--   <img alt="" src=images/_Std_AddonMgr.svg  style="width:32px;"> _ i [makrodefinicje](macros/pl.md).
+-   <img alt="" src=images/_Std_AddonMgr.svg  style="width:32px;"> [Addon manager](Std_AddonMgr.md): Otwiera menedżer dodatków, za pomocą którego można zainstalować [zewnętrzne Środowiska pracy](External_workbenches/pl.md) i [makrodefinicje](macros/pl.md).
 
 
 
@@ -61,7 +61,7 @@ W tym menu dostępne są następujące narzędzia:
 
 }}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Tools Menu/pl

@@ -39,7 +39,7 @@ Questo strumento traccia una curva B-spline periodica (chiusa) dai suoi punti di
 
 <div class="mw-translate-fuzzy">
 
-1.  Premere il pulsante **<img src=images/Sketcher_Create_Periodic_BSpline.svg style="width:24px"> '''Crea B-spline periodica'''**.
+1.  Premere il pulsante **[<img src=images/Sketcher_Create_Periodic_BSpline.svg style="width:24px"> '''Crea B-spline periodica'''**.
 2.  Creare una serie di punti facendo clic nella vista 3D. Mentre il comando è attivo, i punti creati sono collegati con linee rette e viene creato un cerchio di costruzione centrato su ciascun punto.
 3.  Selezionare il primo punto della curva o fare clic con il pulsante destro per terminare l\'input e generare la curva.
 4.  A seconda delle preferenze, lo strumento può rimanere attivo per tracciare una nuova curva. Fare nuovamente clic con il pulsante destro per uscire dal comando.

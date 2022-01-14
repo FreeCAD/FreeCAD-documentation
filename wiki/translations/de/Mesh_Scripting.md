@@ -95,7 +95,7 @@ Eine umfangreiche, wenn auch schwer zu bedienende Quelle für auf Mesh bezogenes
 
 Siehe auch: [Mesh API](Mesh_API/de.md) {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/de

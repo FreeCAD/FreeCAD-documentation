@@ -3,7 +3,7 @@
 
 ## Description
 
-Dans l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _, vous pouvez créer une géométrie en sélectionnant des points dans la [Vue 3D](3D_view/fr.md) ou en saisissant des coordonnées dans le [Panneau des tâches](Task_panel/fr.md) des commandes. Une autre façon de sélectionner des points est l\'aimantation. L\'aimantation permet de sélectionner des points géométriques exacts sur des objets existants ou définis par ces objets ou la grille. Vous pouvez par exemple vous aimanter à l\'extrémité d\'une ligne, au centre d\'un cercle ou à l\'intersection de deux bords.
+Dans l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) et l\'<img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [atelier Arch](Arch_Workbench/fr.md), vous pouvez créer une géométrie en sélectionnant des points dans la [Vue 3D](3D_view/fr.md) ou en saisissant des coordonnées dans le [Panneau des tâches](Task_panel/fr.md) des commandes. Une autre façon de sélectionner des points est l\'aimantation. L\'aimantation permet de sélectionner des points géométriques exacts sur des objets existants ou définis par ces objets ou la grille. Vous pouvez par exemple vous aimanter à l\'extrémité d\'une ligne, au centre d\'un cercle ou à l\'intersection de deux bords.
 
 L\'aimantation est disponible avec la plupart des commandes de [Draft](Draft_Workbench/fr.md) et [Arch](Arch_Workbench/fr.md).
 
@@ -22,7 +22,7 @@ Remarquez que les bords circulaires ne doivent pas nécessairement être des cer
 
 -   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Aimantation Milieu](Draft_Snap_Midpoint/fr.md) : aimante au point milieu des segments.
 
--   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ et [Arch Partie de bâtiment](Arch_BuildingPart/fr.md).
+-   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Aimantation Centre](Draft_Snap_Center/fr.md) : aimante au point central des faces et des arêtes circulaires et au point {{PropertyData/fr|Placement}} de [Draft Proxy de plan de travail](Draft_WorkingPlaneProxy/fr.md) et [Arch Partie de bâtiment](Arch_BuildingPart/fr.md).
 
 -   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Aimantation Angle](Draft_Snap_Angle/fr.md) : aimante aux points cardinaux spéciaux des bords circulaires, aux multiples de 30° et 45°.
 
@@ -42,7 +42,7 @@ Remarquez que les bords circulaires ne doivent pas nécessairement être des cer
 
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Aimantation Grille](Draft_Snap_Grid/fr.md) : aimante aux intersections des lignes de la grille.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> _ en cours.
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Aimantation Plan de travail](Draft_Snap_WorkingPlane/fr.md) : projette le point d\'aimantation sur le [plan de travail](Draft_SelectPlane/fr.md) en cours.
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Aimantation Dimensions](Draft_Snap_Dimensions/fr.md) : montre les dimensions X et Y temporaires.
 
@@ -72,7 +72,7 @@ Voir aussi : [Réglage des préférences](Preferences_Editor/fr.md) et [Draft Pr
 
 Remarquez qu\'après avoir modifié certaines préférences, vous devez redémarrer FreeCAD.
 
--   Lorsqu\'une commande _.
+-   Lorsqu\'une commande [Draft](Draft_Workbench/fr.md) ou [Arch](Arch_Workbench/fr.md) nécessitant la saisie de points est active, la distance maximale à laquelle [Draft Aimantation Grille](Draft_Snap_Grid/fr.md) détecte les intersections des lignes de la grille peut être modifiée à la volée en appuyant sur **[** (touche d\'augmentation) ou **]** (touche de diminution). Ce réglage est enregistré : **Outils → Modifier les paramètres... → BaseApp → Preferences → Mod → Draft → snapRange**. Elle peut également être modifiée dans le panneau des tâches de la commande [Draft Plan de travail](Draft_SelectPlane/fr.md).
 -   Pour effectuer une aimantation uniquement lorsque la touche **Snap mod** est maintenue enfoncée :
     -   Désélectionner : **Edition → Préférences... → Draft → Grille et aimantation → Accrochage → Toujours aimanter (désactiver le mode d'aimantation)**.
     -   La touche **Snap mod** par défaut, **Ctrl**, peut être modifiée : **Edition → Préférences... → Draft → Grille et aimantation → Accrochage → Mode d'accrochage**.

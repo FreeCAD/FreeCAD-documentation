@@ -28,7 +28,7 @@ Der **Std Arbeitsbereich** aktiviert einen ausgewählten [Arbetsbereich](Workben
 
 <div class="mw-translate-fuzzy">
 
--   Zusätzliche _ heruntergeladen werden.
+-   Zusätzliche [Externe Arbeitsbereiche](External_workbenches/de.md) können mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) heruntergeladen werden.
 
 
 </div>

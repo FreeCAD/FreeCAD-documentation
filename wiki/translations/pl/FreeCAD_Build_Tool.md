@@ -10,7 +10,7 @@ trunc/src/Tools/fcbt.py
 
 ## Usage
 
-With _ correctly installed, *fcbt* can be invoked by the command 
+With [Python](wikipedia:Python_(programming_language).md) correctly installed, *fcbt* can be invoked by the command 
 ```python
 python fbct.py
 ``` It displays a menu, where you can select the task you want to use it for: 
@@ -65,7 +65,7 @@ The \"CM\" command [creates a new application module (Workbench)](Workbench_crea
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/pl

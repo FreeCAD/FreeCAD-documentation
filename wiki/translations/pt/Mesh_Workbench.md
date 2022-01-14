@@ -9,7 +9,7 @@ The <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbe
 
 Many 3D applications, like [Sketchup](http://en.wikipedia.org/wiki/Sketchup), [Blender](http://en.wikipedia.org/wiki/Blender_(software)), [Maya](http://en.wikipedia.org/wiki/Maya_(software)) and [3D Studio Max](http://en.wikipedia.org/wiki/3d_max), use meshes as their primary type of 3D object. Since meshes are very simple objects, containing only vertices (points), edges and triangular faces, they are very easy to create, modify, subdivide, stretch, and can easily be passed from one application to another without any loss of details. In addition, since meshes contain very simple data, 3D applications can usually manage very large quantities of them without using a lot of resources. For these reasons, meshes are often the 3D object type of choice for applications dealing with movies, animation, and image creation.
 
-However, in the field of engineering meshes present a big limitation: they cannot accurately define curved surfaces. This is why FreeCAD relies on _ instead. The Mesh Workbench offers some commands to directly manipulate meshes, but it is most often used to import 3D mesh data and convert it to a solid for use with the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _.
+However, in the field of engineering meshes present a big limitation: they cannot accurately define curved surfaces. This is why FreeCAD relies on [Brep](wikipedia_Boundary_representation.md) instead. The Mesh Workbench offers some commands to directly manipulate meshes, but it is most often used to import 3D mesh data and convert it to a solid for use with the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) or <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md).
 
 <img alt="" src=images/Mesh_example.jpg  style="width:500px;">
 
@@ -28,7 +28,7 @@ All Mesh Workbench tools can be accessed from the **Meshes** menu. Almost all ar
 -   Analyze
     -   <img alt="" src=images/Mesh_Evaluation.svg  style="width:32px;"> [Evaluate and repair mesh\...](Mesh_Evaluation.md): Evaluates and repairs a mesh object.
     -   <img alt="" src=images/Mesh_EvaluateFacet.svg  style="width:32px;"> [Face info](Mesh_EvaluateFacet.md): Shows information about faces of mesh objects.
-    -   <img alt="" src=images/Mesh_CurvatureInfo.svg  style="width:32px;"> _ at selected points.
+    -   <img alt="" src=images/Mesh_CurvatureInfo.svg  style="width:32px;"> [Curvature info](Mesh_CurvatureInfo.md): Shows the absolute curvature of [curvature objects](Mesh_VertexCurvature.md) at selected points.
     -   <img alt="" src=images/Mesh_EvaluateSolid.svg  style="width:32px;"> [Check solid mesh](Mesh_EvaluateSolid.md): Checks if a mesh object is solid.
     -   <img alt="" src=images/Mesh_BoundingBox.svg  style="width:32px;"> [Boundings info\...](Mesh_BoundingBox.md): Shows the bounding box coordinates of a mesh object.
 
@@ -86,8 +86,8 @@ There are some [export preferences related to Mesh Formats](Import_Export_Prefer
 
 Mesh Workbench preferences can be found in the following categories of the [Preferences Editor](Preferences_Editor.md):
 
--   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> _ tab several preferences can be set.
--   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> _, [Mesh Intersection](Mesh_Intersection.md) and [Mesh Difference](Mesh_Difference.md) commands require [OpenSCAD](http://www.openscad.org/) and use the **OpenSCAD executable** preference to find its executable.
+-   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Display](Preferences_Editor#Display_settings.md): On the [Mesh view](Preferences_Editor#Mesh_view.md) tab several preferences can be set.
+-   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences.md): The [Mesh Union](Mesh_Union.md), [Mesh Intersection](Mesh_Intersection.md) and [Mesh Difference](Mesh_Difference.md) commands require [OpenSCAD](http://www.openscad.org/) and use the **OpenSCAD executable** preference to find its executable.
 
 ## Notes
 
@@ -110,7 +110,7 @@ Mesh Workbench preferences can be found in the following categories of the [Pref
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Mesh Workbench/pt

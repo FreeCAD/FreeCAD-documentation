@@ -8,7 +8,7 @@ Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
 
 {{TOCright}}
 
-Ce _.
+Ce [projet d\'article](Development_roadmap/fr.md) est pour le projet Robot. Il suit les règles de la \[<http://fr.wikipedia.org/wiki/Getting_Things_Done>\| Getting things done\] processus. Les projets sont collectées dans la [feuille de route de développement](Development_roadmap/fr.md).
 
 ## Buts et principles 
 
@@ -71,7 +71,7 @@ Simulation de robot
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Robot](Robot_Workbench.md) > Robot project/fr

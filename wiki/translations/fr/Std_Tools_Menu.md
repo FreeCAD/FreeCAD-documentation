@@ -33,7 +33,7 @@ Les outils suivants sont disponibles dans ce menu :
 
 -   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Éditeur des paramètres\...](Std_DlgParameter/fr.md) : ouvre une boîte de dialogue donnant accès aux paramètres qui contrôlent le programme.
 
--   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> _ active.
+-   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> [Enregistrer l\'image\...](Std_ViewScreenShot/fr.md) : enregistre une capture d\'écran de la [vue 3D](3D_view/fr.md) active.
 
 -   <img alt="" src=images/Std_SceneInspector.svg  style="width:32px;"> [Inspecteur de Scène\...](Std_SceneInspector/fr.md) : affiche une vue d\'ensemble des nœuds scénographiques de la vue 3D active.
 
@@ -51,7 +51,7 @@ Les outils suivants sont disponibles dans ce menu :
 
 -   <img alt="" src=images/Std_DlgCustomize.svg  style="width:32px;"> [ Personnaliser\...](Std_DlgCustomize/fr.md) : ouvre une boîte de dialogue avec des options de personnalisation.
 
--   <img alt="" src=images/_AddonManager.svg  style="width:32px;"> _ et les [macros](macros/fr.md) peuvent être installés.
+-   <img alt="" src=images/_AddonManager.svg  style="width:32px;"> [Addon manager](Std_AddonMgr/fr.md) : ouvre le gestionnaire d\'extensions avec lequel les [ateliers externes](External_workbenches/fr.md) et les [macros](macros/fr.md) peuvent être installés.
 
 
 
@@ -61,7 +61,7 @@ Les outils suivants sont disponibles dans ce menu :
 
 }}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Tools Menu/fr

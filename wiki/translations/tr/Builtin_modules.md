@@ -24,7 +24,7 @@ This page presents more in-depth information over the built-in FreeCAD modules, 
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> API](Category_API.md)
 
 ---
 [documentation index](../README.md) > [API](Category_API.md) > Builtin modules/tr

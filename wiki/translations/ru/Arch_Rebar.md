@@ -15,7 +15,7 @@
 
 ## Описание
 
-Инструмент «Арматура» позволяет размещать _. Объекты арматуры основаны на 2D-профилях, таких как [sketches](Sketcher_Workbench.md) или [draft objects](Draft_Workbench.md), которые должны быть нарисованы на грани объекта структуры. Затем вы можете настроить конфигурацию арматуры, такую как количество и диаметр стержней, или расстояние смещения между двумя концами структурного элемента.
+Инструмент «Арматура» позволяет размещать [арматурные полосы](http://en.wikipedia.org/wiki/Rebar) внутри объектов [Arch Structure](Arch_Structure.md). Объекты арматуры основаны на 2D-профилях, таких как [sketches](Sketcher_Workbench.md) или [draft objects](Draft_Workbench.md), которые должны быть нарисованы на грани объекта структуры. Затем вы можете настроить конфигурацию арматуры, такую как количество и диаметр стержней, или расстояние смещения между двумя концами структурного элемента.
 
 The [Arch Rebar](Arch_Rebar.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
@@ -131,7 +131,7 @@ FreeCAD.ActiveDocument.recompute()
 
  
 
-_ _
+[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md) [<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Arch](Arch_Workbench.md) > Arch Rebar/ru

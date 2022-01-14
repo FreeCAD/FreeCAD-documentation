@@ -2,7 +2,7 @@
 {{TutorialInfo/de
 |Topic=Skizze
 |Level=Anfänger
-|Author=_
+|Author=[Maker](User_Maker.md)
 |Time=
 |FCVersion=
 }}
@@ -18,7 +18,7 @@ Dass eine geschlossene Kurve vorliegt, ist nicht selbstverständlich und nicht e
 
 
 *Eine einfache Skizze. 
-Links: Kurve nur an vier Stellen (rot, automatische Beschränkungen beim Zeichnen mit <img src=images/_Sketcher_CreatePolyline.svg style="width:32px"> [Polylinie](Sketcher_CreatePolyline/de.md)) geschlossen. 
+Links: Kurve nur an vier Stellen (rot, automatische Beschränkungen beim Zeichnen mit [<img src=images/_Sketcher_CreatePolyline.svg style="width:32px"> [Polylinie](Sketcher_CreatePolyline/de.md)) geschlossen. 
 Mitte: Warnung - ... gebrochene Fläche (gebrochene Kurve). 
 Rechts: Kurve an den verbleibenden vier Stellen geschlossen (grün)*
 

@@ -15,7 +15,7 @@ The [LShape Rebar](Arch_Rebar_LShape.md) tool allows the user to create a set of
 
 The [LShape Rebar](Arch_Rebar_LShape.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
-This command is part of the _ via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
 <img alt="" src=images/Arch_Rebar_LShape_example.png  style="width:400px;"> 
 *Four sets of L-shaped reinforcement bars inside an [[Arch Structure]]*
@@ -151,7 +151,7 @@ LShapeRebar.editLShapeRebar(Rebar2, 50, 50, 20, 20,
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar LShape/pl

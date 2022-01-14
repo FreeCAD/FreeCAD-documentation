@@ -39,13 +39,13 @@ Essas ferramentas, de fato, não fazem parte da bancada de trabalho PartDesign. 
 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Peça](Std_Part/pt-br.md): adiciona um novo recipiente de peças no documento ativo e o torna ativo.
 
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Grupo](Std_Group/pt-br.md): adiciona um recipiente de Grupo no documento ativo, o que permite organizar os objetos no [vista em árvore](Tree_view/pt-br.md).
 
 ### Ferramentas auxiliares de projeto de peças 
 
--   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> _ no documento ativo e o torna ativo.
+-   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Criar corpo](PartDesign_Body/pt-br.md): cria um objeto [Corpo](Body/pt-br.md) no documento ativo e o torna ativo.
 
--   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> _ em modo de edição de esboço.
+-   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Criar esboço](PartDesign_NewSketch/pt-br.md): cria um novo esboço em um rosto ou plano selecionado. Se nenhuma face for selecionada enquanto esta ferramenta é executada, o usuário é solicitado a selecionar um plano do painel Tarefas. A interface então muda para o [Bancada de trabalho Sketcher](Sketcher_Workbench/pt-br.md) em modo de edição de esboço.
 
 -   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Editar esboço](Sketcher_EditSketch/pt-br.md): Edite o Esboço selecionado.
 
@@ -214,7 +214,7 @@ Algumas funcionalidades adicionais encontradas no menu Design da peça:
 
  {{PartDesign Tools navi}}
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/pt-br

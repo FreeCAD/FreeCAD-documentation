@@ -51,7 +51,7 @@ See also: [Draft Snap](Draft_Snap.md).
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare un oggetto da cui si desidera creare la matrice polare.
-2.  Premere il pulsante **<img src=images/Draft_PolarArray.svg style="width:16px"> [Serie polare](Draft_PolarArray/it.md)**. Se non viene selezionato alcun oggetto, si aprirà il [pannello azioni](task_panel/it.md), ma è comunque necessario selezionare un oggetto per procedere.
+2.  Premere il pulsante **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Serie polare](Draft_PolarArray/it.md)**. Se non viene selezionato alcun oggetto, si aprirà il [pannello azioni](task_panel/it.md), ma è comunque necessario selezionare un oggetto per procedere.
 3.  Scegli l\'angolo polare, che determina dove sarà posizionato l\'ultimo elemento della serie.
 4.  Scegliere il numero di elementi della serie. Minimo 2, massimo 99.
 5.  Scegliere il centro dell\'asse di rotazione. È possibile fare clic nella [vista 3D](3D_view/it.md), per impostare contemporaneamente la posizione del centro di rotazione e completare il comando.

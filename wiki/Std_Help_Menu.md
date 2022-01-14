@@ -53,7 +53,7 @@ The following tools are available in this menu:
 
  {{Std Base navi}}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Help Menu

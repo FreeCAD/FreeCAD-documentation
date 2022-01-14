@@ -39,7 +39,7 @@ If you take this result and increase the degree, you cannot get the initial stat
 
 ## Anwendung
 
-1.  Select an edge from an existing B-spline, and press **<img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:24px"> '''Decrease B-spline degree'''**.
+1.  Select an edge from an existing B-spline, and press **[<img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:24px"> '''Decrease B-spline degree'''**.
 
 
 

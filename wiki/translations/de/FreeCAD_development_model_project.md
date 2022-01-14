@@ -64,7 +64,7 @@ Die beschlossenen Regeln und Informationen gehen an das [FreeCAD Entwicklungsmod
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > FreeCAD development model project/de

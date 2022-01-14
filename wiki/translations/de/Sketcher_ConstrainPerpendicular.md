@@ -12,7 +12,7 @@
 
 ## Beschreibung
 
-Die Senkrechtbeschränkung bewirkt, dass zwei Linien senkrecht zueinander stehen (d. h. orthogonal) oder dass zwei Kurven an ihrem Schnittpunkt senkrecht zueinander stehen. Linien werden als unendlich behandelt, und Bögen werden als Vollkreise/Ellipsen behandelt. Die Beschränkung ist auch in der Lage, zwei Kurven zu verbinden und sie an der Verbindungsstelle senkrecht zu zwingen, ähnlich wie die **<img src=images/Sketcher_ConstrainTangent.svg style="width:16px">
+Die Senkrechtbeschränkung bewirkt, dass zwei Linien senkrecht zueinander stehen (d. h. orthogonal) oder dass zwei Kurven an ihrem Schnittpunkt senkrecht zueinander stehen. Linien werden als unendlich behandelt, und Bögen werden als Vollkreise/Ellipsen behandelt. Die Beschränkung ist auch in der Lage, zwei Kurven zu verbinden und sie an der Verbindungsstelle senkrecht zu zwingen, ähnlich wie die **[<img src=images/Sketcher_ConstrainTangent.svg style="width:16px">
 [Tangentenbeschränkung](Sketcher_ConstrainTangent/de.md)**.
 
 ## Anwendung

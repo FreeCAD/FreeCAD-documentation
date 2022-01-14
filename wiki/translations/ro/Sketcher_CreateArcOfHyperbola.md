@@ -30,7 +30,7 @@ Acest instrument creează un arc de hiperbola definit prin centru, rază majoră
 
 <div class="mw-translate-fuzzy">
 
-1.  Apăsați butonul **<img src=images/Sketcher_Hyperbolic_Arc.png style="width:24px"> '''Create an arc of hyperbola'''** .
+1.  Apăsați butonul **[<img src=images/Sketcher_Hyperbolic_Arc.png style="width:24px"> '''Create an arc of hyperbola'''** .
 2.  
 
 

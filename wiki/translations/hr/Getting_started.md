@@ -5,7 +5,7 @@
 
 FreeCAD je CAD/CAE [aplikacija parametarskog modeliranja](About_FreeCAD/hr.md).Prvenstveno je napravljen za dizajn mehanike, ali podržava sve druge primjene gdje je potrebno 3D modeliranje objekata sa velikom preciznošću i kontrolom zabilješki modeliranja.
 
-FreeCAD je u razvoju od 2002. godine i nudi veliki popis _.
+FreeCAD je u razvoju od 2002. godine i nudi veliki popis [features](Feature_list/hr.md). Neke mogućnosti još nedostaju, ali dovoljno je moćan za hobi upotrebu i male radionice. Postoji brzorastuća zajednica korisnika koji sudjeluju na [FreeCAD forumu](http://forum.freecadweb.org/index.php), a možete pronaći [?f=24 mnogo primjera](https://forum.freecadweb.org/viewforum.php) kvalitetnih projekata razvijenih sa FreeCAD-om. Vidi također, [FreeCAD korišten u proizvodnji](FreeCAD_used_in_production.md).
 
 Kao svaki slobodni softver projekt, FreeCAD je ovisan o zajednici da bi mogao rasti, dobiti nove funkcije ili ispraviti pogreške u programu. Zato nemojte to zaboraviti dok koristite FreeCAD ; ako vam se sviđa, i vi možete direktno utjecati na program i pomoći [donate](Donate.md) i [help FreeCAD](Help_FreeCAD.md) učestvovati u razvoju kao npr. pisati dokumentaciju i prevoiti.
 
@@ -111,7 +111,7 @@ U bilo kojem trenutku možete odabrati originalne skice i modificirati ih ili pr
 
 [Nacrt](Draft_Workbench/hr.md) i [Arhitekt](Arch_Workbench/hr.md) ponašaju se malo drugačije od ostalih radnih radnih ploča gore, iako slijede ista pravila, koja su zajednička svima FreeCAD-u. Ukratko, dok su Sketcher (Skiciraj) i PartDesign (Dizajniranje dijelova) primarno dizajnirani za pojedinačne komade, Nacrt i Arhitekt su napravljeni da olakšaju vaš rad kada radite s nekoliko jednostavnijih objekata.
 
-_ i [Privuci objekt](Draft_Snap/hr.md).
+[Nacrt radna ploča](Draft_Workbench/hr.md) nudi vam 2D alate pomalo slične onima koje možete pronaći u tradicionalnim 2D CAD aplikacijama, poput [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). No, 2D nacrt je daleko od dosega FreeCAD-a, nemojte očekivati da će te tamo naći čitav niz alata koje nude ove posvećene aplikacije. Većina alata za nacrte djeluje ne samo u 2D ravnini, već i u cijelom 3D prostoru, a imaju koristi od posebnih pomoćnih sustava kao što su [Označi plohu nacrta](Draft_SelectPlane.md) i [Privuci objekt](Draft_Snap/hr.md).
 
 [Arhitekt](Arch_Workbench/hr.md) dodaje [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) alate FreeCAD, omogućujući vam izgradnju arhitektonskih modela s parametarskim objektima. Arhitekt radna ploča se uvelike oslanja na druge module kao što su Nacrt i Skiciraj. Svi alati za crtanje su također prisutni na Arhitekt radnoj ploči, a većina Arhitekt alata koristi nacrte za pomoćne sustave.
 
@@ -146,7 +146,7 @@ Princip [Dodatci](Addon/hr.md) temelji se na razvoju dopuna radne površine. Bil
 Postoje dvije vrste dodataka:
 
 1.  [Makronaredbe](Macros/hr.md): kratki isječci Python koda koji pružaju novi alat ili funkcionalnost. Makronaredbe obično počinju kao način pojednostavljenja ili automatizacije zadatka crtanja ili uređivanja određenog objekta. Ako se mnogo makronaredbi sakuplja unutar mape, cijeli se direktorij može distribuirati kao nova radna ploča.
-2.  _ naći ćete principe i popis postojeće knjižnice.
+2.  [Vanjskie radne ploče](External_workbenches/hr.md): zbirka alata programiranih u Pythonu ili C ++ koji na važan način proširuju FreeCAD. Ako je radna ploča dovoljno razvijena i dobro je dokumentirana, može biti uključena kao jedana od osnovnih radnih ploča u FreeCAD. Pod [ Vanjske radne ploče](External_workbenches/hr.md) naći ćete principe i popis postojeće knjižnice.
 
 ## Skriptiranje
 
@@ -162,7 +162,7 @@ I na kraju, jedna od najmoćnijih značajki FreeCAD-a je [skriptiranje](scriptin
 
 {{Userdocnavi/hr}}
 
-_
+[<img src="images/Property.png" style="width:16px"> User Documentation/hr](<img src="images/Property.png" style="width:16px"> User_Documentation/hr.md)
 
 ---
 [documentation index](../README.md) > Getting started/hr

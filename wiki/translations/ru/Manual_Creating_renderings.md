@@ -27,7 +27,7 @@
 
 ### Визуализация с помощью PovRay 
 
-Мы будем использовать стол, смоделированный в главе, посвящённой _, для создания фотореалистичных изображений с помощью PovRay и Luxrender.
+Мы будем использовать стол, смоделированный в главе, посвящённой [традиционному моделированию](Manual:Traditional_modeling,_the_CSG_way/ru.md), для создания фотореалистичных изображений с помощью PovRay и Luxrender.
 
 -   Начнём с загрузки файла table.FCStd, который был создан ранее или загружен по ссылке внизу этой главы.
 -   Нажмём маленькую стрелку вниз возле кнопки <img alt="" src=images/Raytrace_New.svg  style="width:16px;"> [New Povray project](Raytracing_New/ru.md), выбрав шаблон **RadiosityNormal**.
@@ -41,7 +41,7 @@
 <div class="mw-translate-fuzzy">
 
 -   Новый проект получает точку зрения трёхмерного вида в момент нажатия кнопки. Мы можем в любой момент изменить вид и обновить сохранённую в проекте Povray точку зрения, нажав кнопку <img alt="" src=images/Raytrace_ResetCamera.svg  style="width:16px;"> [Reset camera](Raytracing_ResetCamera/ru.md).
--   Верстак Raytracing работает так же, как и _:
+-   Верстак Raytracing работает так же, как и [Drawing Workbench](Drawing_Workbench/ru.md): как только папка проекта создана, мы должны добавить в него **Views** нашего проекта. Мы можем сделать это выбором всех объектов, составляющих стол, и нажав кнопку <img alt="" src=images/Raytrace_NewPartSegment.svg  style="width:16px;"> [Вставить деталь](Raytracing_InsertPart/ru.md):
 
 
 </div>
@@ -106,7 +106,7 @@
 
 {{Raytracing Tools navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Creating renderings/ru

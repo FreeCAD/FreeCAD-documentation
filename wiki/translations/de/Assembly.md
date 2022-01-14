@@ -12,7 +12,7 @@ Zum Beispiel sind eine Schraube, eine Beilagscheibe und eine Mutter drei separat
 
 
 
-*Links: drei einzelne beieinander liegende Teile, die mit _ zusammengestellt.*
+*Links: drei einzelne beieinander liegende Teile, die mit [PartDesign Körper](PartDesign_Body.md) erstellt wurden. Rechts: die einzelnen Teile zu einer Einheit in [Std Part](Std_Part.md) zusammengestellt.*
 
 ## Anwendung
 
@@ -28,11 +28,11 @@ Um die Körper dort zu positionieren, wo du sie haben willst, kannst du
 
 Du kannst eine der Pseudo-Zusammenbau [externe Arbeitsbereiche](external_workbenches/de.md) wie Lattice2, Manipulator, Part-o-magic oder WorkFeature verwenden, um Schnittpunkte zu finden, Abstände zu messen und deine Objekte auf die gewünschte Weise zu verteilen.
 
-Im Allgemeinen wurde das**<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/de.md)** Objekt konzipiert um als Grundbaustein für die Erstellung von Baugruppen zu dienen. Dieses Objekt wird verwendet, um mehrere [Körper](body/de.md) zu gruppieren und sie als eine Einheit, d.h. als Unterbaugruppe, zusammen zu bewegen. Anschließend kann diese Unterbaugruppe neben oder innerhalb anderer Unterbaugruppen platziert werden, um die endgültige Baugruppe zu erstellen.
+Im Allgemeinen wurde das**[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/de.md)** Objekt konzipiert um als Grundbaustein für die Erstellung von Baugruppen zu dienen. Dieses Objekt wird verwendet, um mehrere [Körper](body/de.md) zu gruppieren und sie als eine Einheit, d.h. als Unterbaugruppe, zusammen zu bewegen. Anschließend kann diese Unterbaugruppe neben oder innerhalb anderer Unterbaugruppen platziert werden, um die endgültige Baugruppe zu erstellen.
 
 ### Beschränkter Zusammenbau 
 
-Du kannst auch einen anderen zugeordneten Baugruppenarbeitsbereich verwenden, wie <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> _ oder <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/de.md). Bitte beachte, dass [Assembly2](Assembly2_Workbench/de.md) nicht gepflegt wird und daher für neue Modelle nicht zu empfehlen ist.
+Du kannst auch einen anderen zugeordneten Baugruppenarbeitsbereich verwenden, wie <img alt="" src=images/A2p_workbench.svg  style="width:24px;"> [A2plus](A2plus_Workbench/de.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/de.md) oder <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/de.md). Bitte beachte, dass [Assembly2](Assembly2_Workbench/de.md) nicht gepflegt wird und daher für neue Modelle nicht zu empfehlen ist.
 
 Die Zusammenbau Arbeitsbereiche verwenden Beschränkungen und Ausdrücke, um Beziehungen zwischen den Objekten in deinem Modell zu erstellen, um die Objekte mathematisch an ihren Platz zu binden, z. B. \"diese Fläche sollte an dieser anderen Fläche haften\", \"dieser Zylinder sollte konzentrisch zu diesem Kreis sein\", \"dieser Punkt sollte dieser Kante folgen\", usw.
 
@@ -51,7 +51,7 @@ Die Entwicklung der Zusammenbau Arbeitsbereiche geht weiter, und es wird erwarte
 
 }} {{Document objects navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/de

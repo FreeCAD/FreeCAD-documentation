@@ -15,7 +15,7 @@ Cet outil vous permet de créer un profil 2D d\'un pignon (ou roue à chaîne). 
 
 ## Utilisation
 
-1.  Aller au menu **Conception de pièces → <img src=images/PartDesign_Sprocket.svg style="width:24px"> Sprocket...**.
+1.  Aller au menu **Conception de pièces → [<img src=images/PartDesign_Sprocket.svg style="width:24px"> Sprocket...**.
 2.  Définissez {{PropertyData/fr|Number Of Teeth}} et {{PropertyData/fr|Sprocket Reference}}.
 3.  Cliquez sur **OK**.
 4.  Si la roue dentée est créée en dehors du corps actif, faites-la glisser et déposez-la dans un corps pour appliquer d\'autres fonctions comme l\'extrusion.

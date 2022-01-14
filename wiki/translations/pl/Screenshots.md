@@ -201,7 +201,7 @@ FreeCAD działa w trybie konsoli (bez gui).
 
 Okno dialogowe, pozwalające na zapisanie obrazu o dowolnych rozmiarach.
 
-_ _
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Screenshots](Category_Screenshots.md)
 
 ---
 [documentation index](../README.md) > Screenshots/pl

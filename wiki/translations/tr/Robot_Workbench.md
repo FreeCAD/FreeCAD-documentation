@@ -11,7 +11,7 @@ The reason this workbench is still in the master source code is because this wor
 
 <div class="mw-translate-fuzzy">
 
-_ \'u simüle etmek için kullanılan bir araçtır.
+[Robot Tezgahı](Robot_Workbench/tr.md), [Kuka](http://kuka.com/) gibi bir standart [6 eksenli endüstriyel robot](Robot_6-Axis.md) \'u simüle etmek için kullanılan bir araçtır.
 
 
 </div>
@@ -122,7 +122,7 @@ Robot yer değiştirmelerini modellemek için kullanılan işlevlerin açıklama
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Workbenches/tr](<img src="images/Property.png" style="width:16px"> Workbenches/tr.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Robot Workbench/tr

@@ -8,7 +8,7 @@
 
 ## Introduzione
 
-Questa pagina raccoglie le informazioni sul risolutore di elementi finiti _** a partire da FreeCAD 0.17. A seconda del sistema operativo su cui si sta lavorando, è necessario installare CalculiX prima di eseguire la prima simulazione. Si prega di consultare [Installare FEM](FEM_Install/it.md).
+Questa pagina raccoglie le informazioni sul risolutore di elementi finiti [CalculiX](http://www.calculix.de/), il risolutore predefinito per l\'analisi strutturale e termo-meccanica nell\'ambiente **<img src="images/Workbench_FEM.svg" width=24px> [FEM](FEM_Workbench/it.md)** a partire da FreeCAD 0.17. A seconda del sistema operativo su cui si sta lavorando, è necessario installare CalculiX prima di eseguire la prima simulazione. Si prega di consultare [Installare FEM](FEM_Install/it.md).
 
 
 </div>
@@ -125,7 +125,7 @@ Reaction forces can be found in ccx\_dat\_file which contains reaction force com
 
 }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Poweruser\_Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
 
 ---
 [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > FEM CalculiX/it

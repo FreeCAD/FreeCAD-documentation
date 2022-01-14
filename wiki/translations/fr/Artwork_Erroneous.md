@@ -23,7 +23,7 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Icon](Category_Icon.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Icon](Category_Icon.md) > Artwork Erroneous/fr

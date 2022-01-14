@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-В дополнение к стандартному экспортировщику файлов _ содержит альтернативный экспортёр, который экспортирует сопланарные поверхности как полные поверхности OBJ, вместо триангуляции объектов [Shape](Part_Workbench/ru.md), как делает стандартный экспортёр.
+В дополнение к стандартному экспортировщику файлов [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file) FreeCAD, [модуль Arch](Arch_Workbench/ru.md) содержит альтернативный экспортёр, который экспортирует сопланарные поверхности как полные поверхности OBJ, вместо триангуляции объектов [Shape](Part_Workbench/ru.md), как делает стандартный экспортёр.
 
 
 </div>
@@ -67,7 +67,7 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> File Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch OBJ/ru

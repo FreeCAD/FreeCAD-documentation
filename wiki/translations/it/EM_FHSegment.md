@@ -26,7 +26,7 @@ The FHSegment tool inserts a FastHenry segment object.
 
 ## Utilizzo
 
-The FHSegment object can be based on the position of a <img alt="" src=images/Draft_Line.svg  style="width:16px;"> _ that will be the FHSegment end points, or you can select the 3D location of the two end points, where two additional FHNodes will be created.
+The FHSegment object can be based on the position of a <img alt="" src=images/Draft_Line.svg  style="width:16px;"> [Draft Line](Draft_Line.md) object, or on two existing <img alt="" src=images/EM_FHNode.svg  style="width:16px;"> [FHNodes](EM_FHNode.md) that will be the FHSegment end points, or you can select the 3D location of the two end points, where two additional FHNodes will be created.
 
 1.  Press the **<img src="images/EM_FHSegment.svg" width=16px> [EM FHSegment](EM_FHSegment.md)** button, or press **E** then **S** keys.
 2.  Click a first point on the 3D view, or type coordinates and press the **<img src="images/Draft_AddPoint.svg" width=16px> add point** button.

@@ -13,7 +13,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Si può essere interessati a FreeCAD perché si ha già una certa esperienza di disegno tecnico, ad esempio con un software come _.
+Si può essere interessati a FreeCAD perché si ha già una certa esperienza di disegno tecnico, ad esempio con un software come [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Si conosce già qualcosa sulla progettazione, oppure si preferisce disegnare le cose prima di costruirle. In ogni caso, FreeCAD dispone di un ambiente di lavoro più tradizionale, con gli strumenti che si trovano nella maggior parte delle applicazioni CAD 2D: l\'ambiente [Draft](Draft_Workbench/it.md).
 
 
 </div>
@@ -21,7 +21,7 @@ Si può essere interessati a FreeCAD perché si ha già una certa esperienza di 
 
 <div class="mw-translate-fuzzy">
 
-L\'ambiente Draft, anche se adotta metodi di lavoro ereditati dal tradizionale mondo del CAD 2D, non si limita affatto al regno 2D. Tutti i suoi strumenti lavorano in tutto lo spazio 3D e molti degli strumenti di Draft, ad esempio <img alt="" src=images/Draft_Move.png  style="width:16px;"> _, sono comunemente utilizzati in tutto FreeCAD, perché sono spesso più intuitivi che cambiare i parametri di posizionamento manualmente.
+L\'ambiente Draft, anche se adotta metodi di lavoro ereditati dal tradizionale mondo del CAD 2D, non si limita affatto al regno 2D. Tutti i suoi strumenti lavorano in tutto lo spazio 3D e molti degli strumenti di Draft, ad esempio <img alt="" src=images/Draft_Move.png  style="width:16px;"> [Sposta](Draft_Move/it.md) o <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Ruota](Draft_Rotate/it.md), sono comunemente utilizzati in tutto FreeCAD, perché sono spesso più intuitivi che cambiare i parametri di posizionamento manualmente.
 
 
 </div>
@@ -29,7 +29,7 @@ L\'ambiente Draft, anche se adotta metodi di lavoro ereditati dal tradizionale m
 
 <div class="mw-translate-fuzzy">
 
-Tra gli strumenti offerti dall\'ambiente Draft, si trovano gli strumenti di disegno tradizionali come <img alt="" src=images/Draft_Line.png  style="width:16px;"> _, o <img alt="" src=images/Draft_Wire.png  style="width:16px;"> _, <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> _, un sistema [piano di lavoro con griglia](Draft_SelectPlane/it.md) che consente di definire con precisione in quale piano si sta lavorando, e un completo [sistema di aggancio](Draft_Snap/it.md) che rende molto facile disegnare e posizionare gli elementi in relazione tra di loro con precisione.
+Tra gli strumenti offerti dall\'ambiente Draft, si trovano gli strumenti di disegno tradizionali come <img alt="" src=images/Draft_Line.png  style="width:16px;"> [Linea](Draft_Line/it.md), <img alt="" src=images/Draft_Circle.png  style="width:16px;"> [Cerchio](Draft_Circle/it.md), o <img alt="" src=images/Draft_Wire.png  style="width:16px;"> [Wire](Draft_Wire/it.md) (polilinea), gli strumenti di modifica come <img alt="" src=images/Draft_Move.png  style="width:16px;"> [Sposta](Draft_Move/it.md), <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Ruota](Draft_Rotate/it.md) o <img alt="" src=images/Draft_Offset.png  style="width:16px;"> [Offset](Draft_Offset/it.md), un sistema [piano di lavoro con griglia](Draft_SelectPlane/it.md) che consente di definire con precisione in quale piano si sta lavorando, e un completo [sistema di aggancio](Draft_Snap/it.md) che rende molto facile disegnare e posizionare gli elementi in relazione tra di loro con precisione.
 
 
 </div>
@@ -84,7 +84,7 @@ Per mostrare il funzionamento e le possibilità dell\'ambiente Draft, camminerem
 <div class="mw-translate-fuzzy">
 
 -   Ora c\'è tutto quello che serve, quindi si può disattivare la modalità di costruzione. Notare che tutta la geometria di costruzione è stata collocata in un gruppo \"Costruzione\", che la rende facile da nascondere tutta insieme o addirittura eliminarla completamente in seguito.
--   Disegnare due porzioni di muro utilizzando lo strumento <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> _ sia attivo, dato che ci si deve agganciare alle intersezioni tra le linee ed i rettangoli. Disegnare due polilinee come segue, facendo clic su tutti i vertici del loro contorno. Per chiuderle, fare di nuovo clic sul primo punto, o premere il pulsante **Chiudi**:
+-   Disegnare due porzioni di muro utilizzando lo strumento <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Wire](Draft_Wire/it.md). Assicurarsi che lo <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:16px;"> [snap intersezione](Draft_Snap/it.md) sia attivo, dato che ci si deve agganciare alle intersezioni tra le linee ed i rettangoli. Disegnare due polilinee come segue, facendo clic su tutti i vertici del loro contorno. Per chiuderle, fare di nuovo clic sul primo punto, o premere il pulsante **Chiudi**:
 
 
 </div>
@@ -157,7 +157,7 @@ Per mostrare il funzionamento e le possibilità dell\'ambiente Draft, camminerem
 
 <div class="mw-translate-fuzzy">
 
--   Però, la cosa più importante di Draft è che la geometria creata con questo ambiente può essere utilizzata come base o facilmente estrusa in oggetti 3D, semplicemente utilizzando lo strumento <img alt="" src=images/Part_Extrude.png  style="width:16px;"> _ (Tronca/Estendi/Estrudi), che in realtà esegue un Estrusione di Parte, ma lo fa \"nel modo di Draft\", cioè, consente di indicare e agganciare la lunghezza di estrusione graficamente. L\'estrusione sarà sperimentata con le pareti come illustrato in seguito.
+-   Però, la cosa più importante di Draft è che la geometria creata con questo ambiente può essere utilizzata come base o facilmente estrusa in oggetti 3D, semplicemente utilizzando lo strumento <img alt="" src=images/Part_Extrude.png  style="width:16px;"> [Estrudi](Part_Extrude/it.md) dell\'ambiente [Part](Part_Workbench/it.md), o, per rimanere in Draft, lo strumento <img alt="" src=images/Draft_Trimex.png  style="width:16px;"> [Trimex](Draft_Trimex/it.md) (Tronca/Estendi/Estrudi), che in realtà esegue un Estrusione di Parte, ma lo fa \"nel modo di Draft\", cioè, consente di indicare e agganciare la lunghezza di estrusione graficamente. L\'estrusione sarà sperimentata con le pareti come illustrato in seguito.
 -   Premendo il pulsante <img alt="" src=images/Draft_SelectPlane.png  style="width:16px;"> [piano di lavoro](Draft_SelectPlane/it.md) dopo aver selezionato una faccia di un oggetto, si è anche in grado di posizionare il piano di lavoro ovunque, e quindi di disegnare oggetti Draft in piani diversi, ad esempio sulla parte superiore delle pareti. Questi possono poi essere estrusi per formare altri solidi 3D. Sperimentare l\'impostazione del piano di lavoro su una delle facce superiori delle pareti, quindi disegnare dei rettangoli sopra di essa.
 
 
@@ -209,7 +209,7 @@ Fondamentalmente, l\'ambiente Draft fornisce un modo grafico per creare le opera
 
 </div>
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md) [<img src="images/Property.png" style="width:16px"> Draft](Category_Draft.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional 2D drafting/it

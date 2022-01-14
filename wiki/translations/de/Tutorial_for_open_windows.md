@@ -138,7 +138,7 @@ Mitunter wird das Fenster außerhalb der [Wand](Arch_Wall/de.md) platziert. Sola
 
 12\. Wähle `Tür` und gib der Eigenschaft **Opening** einen Wert von 45. Das Türblatt sollte sich ins Innere das Gebäudes öffnen.
 
-13\. Wähle `Tür` und verändere die Eigenschaft **Symbol Elevation** auf `True`. Die Spitze des erzeugten Linienzuges zeigt an, nach welcher Seite sich die Tür öffnet; dies ist einfacher zu erkennen, wenn Du in die _ wechselst.
+13\. Wähle `Tür` und verändere die Eigenschaft **Symbol Elevation** auf `True`. Die Spitze des erzeugten Linienzuges zeigt an, nach welcher Seite sich die Tür öffnet; dies ist einfacher zu erkennen, wenn Du in die [Vorderansicht](Std_ViewFront/de.md) wechselst. Verändere jetzt die Eigenschaft **Symbol Plan** auf `True`: ein Kreisbogen sollte nun anzeigen, nach welcher Seite die Tür aufschwingt; dies ist einfacher zu erkennen, wenn Du in die [Draufsicht](Std_ViewTop/de.md) wechselst.
 
 14\. Wiederhole nun die Schritte mit der `Tür001` und dem zugrundeliegenden `Sketch001` um diese Tür 75 Grad ins Gebäudeinnere öffnen zu lassen. Aktiviere auch die Symbole in Ansicht und Grundriss.
 
@@ -175,7 +175,7 @@ Mitunter wird das Fenster außerhalb der [Wand](Arch_Wall/de.md) platziert. Sola
 
 17\. Wähle `Window` und gib der Eigenschaft **Opening** einen Wert von 45. Der die transparente Glasscheibe beinhaltende Fensterflügel sollte sich ins Innere das Gebäudes öffnen.
 
-18\. Wähle `Window` und verändere die Eigenschaft **Symbol Elevation** auf `True`. Die Spitze des erzeugten Linienzuges zeigt an, nach welcher Seite sich das Fenster öffnet; dies ist einfacher zu erkennen, wenn Du in die _ wechselst.
+18\. Wähle `Window` und verändere die Eigenschaft **Symbol Elevation** auf `True`. Die Spitze des erzeugten Linienzuges zeigt an, nach welcher Seite sich das Fenster öffnet; dies ist einfacher zu erkennen, wenn Du in die [linke Seitenansicht](Std_ViewLeft/de.md) wechselst. Verändere jetzt die Eigenschaft **Symbol Plan** auf `True`: ein Kreisbogen sollte nun anzeigen, nach welcher Seite das Fenster aufschwingt; dies ist einfacher zu erkennen, wenn Du in die [Draufsicht](Std_ViewTop/de.md) wechselst.
 
 19\. Wiederhole nun die Schritte mit dem `Window001` und dem zugrundeliegenden `Sketch003`, um dieses Fenster 75 Grad öffnen zu lassen. Aktiviere auch die Symbole in Aufriss und Grundriss. Picke diesmal nicht eine vertikale Linie des `InnerFrame` als Scharnier sondern die obere horizontale Linie. Das bedeutet, dass sich dieses Fenster anders öffnet als das andere. Das Aufriss-Symbol wird besser von der [rechten Seitenansicht](right_side_view.md) zu sehen sein. Das Grundriss-Symbol wird besser von der [Frontansicht](Std_ViewFront/de.md) zu sehen sein. Falls die Wand den Blick versperren sollte, kannst Du ihre **Transparency** auf einen Wert wie 85 ändern, um durch sie hindurch sehen zu können. Alternativ kannst Du den **Display Mode** auf `Drahtgitter` ändern, um nur die Kanten anzeigen zu lassen. <img alt="" src=images/06.2_T01_window_edit_wire_side_right.png  style="width:600px;"> 
 *align=center|als Scharnier für das Fenster ausgewählte horizontale Kante des Sketches*
@@ -198,7 +198,7 @@ Mitunter wird das Fenster außerhalb der [Wand](Arch_Wall/de.md) platziert. Sola
 <img alt="" src=images/11.1_T01_Arch_SectionPlane_all.png  style="width:600px;"> 
 *align=center|Schnittebene, welche solide Objekte einschl. Wände, Türen und Fenster durchschneidet*
 
-21\. Wechsel zum _ eine neue Seite ein; es wird ein neues `Page`-Objekt erzeugt und die Ansicht wechselt zu dieser Seite. Die eingefügte Seite ist eine Standard-DIN A4-Seite im Querformat mit einem einfachen Rahmen. Verwende das Werkzeug [TechDraw: Neue Vorlagenauswahl](TechDraw_PageTemplate/de.md), wenn Du eine neue Seite unter Verwendung einer speziellen [SVG](SVG/de.md)-Vorlage erstellen möchtest.
+21\. Wechsel zum [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) und füge mit dem Werkzeug [TechDraw: Neue Standardvorlage](TechDraw_PageDefault/de.md) eine neue Seite ein; es wird ein neues `Page`-Objekt erzeugt und die Ansicht wechselt zu dieser Seite. Die eingefügte Seite ist eine Standard-DIN A4-Seite im Querformat mit einem einfachen Rahmen. Verwende das Werkzeug [TechDraw: Neue Vorlagenauswahl](TechDraw_PageTemplate/de.md), wenn Du eine neue Seite unter Verwendung einer speziellen [SVG](SVG/de.md)-Vorlage erstellen möchtest.
 
 22\. Wähle `Section` aus und verwende das Werkzeug [TechDraw: Arch-Ansicht](TechDraw_ArchView/de.md), um ein `ArchView`-Objekt auf der Seite zu erzeugen. Höchstwahrscheinlich wird das neue Objekt auf der Seite nicht sichtbar sein, weil es einen sehr großen Maßstab von `1`, also 1:1, hat. Dies bedeutet, dass jeder Meter im Modell auch als 1 Meter in der Seitenansicht dargestellt wird. Da die Seitengröße nur 0,297 m x 0,210 m beträgt, sind die meisten Abmessungen zu groß, um in ihrer natürlichen Größe auf diese Seite zu passen.
 
@@ -230,16 +230,16 @@ Setze **All On** für [TechDraw:ArchView](TechDraw_ArchView.md)-Objekte auf `Tru
 <img alt="" src=images/14.1_T01_Arch_SectionPlane_three.png  style="width:600px;"> 
 *align=center|Schnittebenen, welche die massiven Objekte schneiden bzw. auf das Gebäude schauen*
 
-26\. Gehe zurück zum _ mit `Section002`; denke daran, den Maßstab auf `0.02` (1:50) einzustellen. Ändere **Rotation** auf `-90`, um die Ausrichtung der Projektion zu korrigieren. Ordne den `ArchView002` neben den anderen Ansichten auf der Seite an. Diese dritte Projektion schaut von vorn auf das Gebäude.
+26\. Gehe zurück zum [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) und benutze das Werkzeug [Arch:Ansicht](TechDraw_ArchView/de.md) mit `Section002`; denke daran, den Maßstab auf `0.02` (1:50) einzustellen. Ändere **Rotation** auf `-90`, um die Ausrichtung der Projektion zu korrigieren. Ordne den `ArchView002` neben den anderen Ansichten auf der Seite an. Diese dritte Projektion schaut von vorn auf das Gebäude.
 
 <img alt="" src=images/14_T01_TechDraw_window_all_symbols_elevation.png  style="width:600px;"> 
 *align=center|Schnittansicht des Gebäudes, mit zwei Draufsichten und einem Aufriss, Format DIN A4, Maßstab 1:50*
 
 ## Interaktion zwischen Arch- und TechDraw-Arbeitsbereichen 
 
-Zum Zeitpunkt der Erstellung dieses Dokumentes (FreeCAD 0.18, November 2018) kann der _ eingefügten und durch das Werkzeug [TechDraw:Arch-Ansicht](TechDraw_ArchView/de.md) dargestellten Elemente vom [Arch-Arbeitsbereich](Arch_Workbench/de.md) kontrolliert wird.
+Zum Zeitpunkt der Erstellung dieses Dokumentes (FreeCAD 0.18, November 2018) kann der [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) in seinen Seiten nur das darstellen, was der [Arch-Arbeitsbereich](Arch_Workbench/de.md) als [SVG](SVG/de.md) ausgibt. Das heißt, dass das Erscheinungsbild der mit dem [Arch: Schnittebenen-Werkzeug](Arch_SectionPlane/de.md) eingefügten und durch das Werkzeug [TechDraw:Arch-Ansicht](TechDraw_ArchView/de.md) dargestellten Elemente vom [Arch-Arbeitsbereich](Arch_Workbench/de.md) kontrolliert wird.
 
-Der _ (`ArchView`) dargestellt werden. Aus diesem Grund sollten auf die Darstellung von Architekturelementen bezogene Fehlerberichte und Funktionsanfragen bei beiden Arbeitsbereichen eingereicht werden.
+Der [TechDraw-Arbeitsbereich](TechDraw_Workbench/de.md) hat nur minimale Kontrolle darüber, wie diese [Arch:Schnittebenen-Objekte](Arch_SectionPlane/de.md) (`ArchView`) dargestellt werden. Aus diesem Grund sollten auf die Darstellung von Architekturelementen bezogene Fehlerberichte und Funktionsanfragen bei beiden Arbeitsbereichen eingereicht werden.
 
 Für zukünftige FreeCAD-Versionen ist eine engere Interaktion zwischen beiden Arbeitsbereichen geplant. Für diese Versionen wird erwartet, dass seit langem bestehende Probleme gelöst werden, wie zum Beispiel die Charakteristika von Linien und Flächen (Linienbreite, Linienfarbe, Flächenfarbe, Schraffuren u.a.).
 

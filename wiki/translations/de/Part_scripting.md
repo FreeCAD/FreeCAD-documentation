@@ -3,7 +3,7 @@
 
 ## Einführung
 
-Die im Modul Part verwendete Hauptdatenstruktur ist der Datentyp _ Skripten verfügbar. Dazu gehören geometrische Primitive wie Linie und Kreis (oder Bogen) und die gesamte Palette der TopoFormen, wie Knoten, Kanten, Drähte, Flächen, Festkörper und Verbünde. Für jedes dieser Objekte gibt es mehrere Erstellungsmethoden, und für einige von ihnen, insbesondere die TopoFormen, sind auch fortgeschrittene Operationen wie Bool\'sche Vereinigung/Differenz/Überschneidung verfügbar. Entdecke den Inhalt des Part Moduls, wie auf der Seite [FreeCAD Grundlagen SKripten](FreeCAD_Scripting_Basics/de.md) beschrieben, um mehr zu erfahren.
+Die im Modul Part verwendete Hauptdatenstruktur ist der Datentyp [BRep](http://en.wikipedia.org/wiki/Boundary_representation) von OpenCascade. Fast alle Inhalte und Objekttypen des Part Moduls sind per [Python](Python/de.md) Skripten verfügbar. Dazu gehören geometrische Primitive wie Linie und Kreis (oder Bogen) und die gesamte Palette der TopoFormen, wie Knoten, Kanten, Drähte, Flächen, Festkörper und Verbünde. Für jedes dieser Objekte gibt es mehrere Erstellungsmethoden, und für einige von ihnen, insbesondere die TopoFormen, sind auch fortgeschrittene Operationen wie Bool\'sche Vereinigung/Differenz/Überschneidung verfügbar. Entdecke den Inhalt des Part Moduls, wie auf der Seite [FreeCAD Grundlagen SKripten](FreeCAD_Scripting_Basics/de.md) beschrieben, um mehr zu erfahren.
 
 Das grundlegendste Objekt, das erstellt werden kann, ist ein [Part Formelement](Part_Feature/de.md), das eine einfache {{PropertyData/de|Platzierungs}} Eigenschaft und Grundeigenschaften hat, um seine Farbe und sein Aussehen zu definieren.
 
@@ -185,7 +185,7 @@ Gehe auf die Seite [Topologisches Datenskripting](Topological_data_scripting/de.
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Part](Part_Workbench.md) > Part scripting/de

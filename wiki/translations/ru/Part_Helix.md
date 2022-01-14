@@ -15,11 +15,11 @@
 ## Описание
 
 
-**<img src=images/Part_Helix.svg style="width:16px"> [Спираль](Part_Helix/ru.md)**
+**[<img src=images/Part_Helix.svg style="width:16px"> [Спираль](Part_Helix/ru.md)**
 
 создаёт геометрический примитив в форме спирали, которая задаётся радиусом, шагом и общей высотой.
 
-Обычно винтовая спираль используется для <img src=images/PartDesign_AdditivePipe.svg style="width:создания резьб](Thread_for_Screw_Tutorial/ru.md) в сочетании с закрытым профилем и операцией **<img src="images/Part_Sweep.svg" width=16px> [Развёртка(Sweep)](Part_Sweep/ru.md)** детали. Этот процесс работает практически так же как и в [верстаке PartDesign ](PartDesign_Workbench/ru.md) с помощью инструмента **[16px"> [PartDesign Аддитивная(добавочная) труба](PartDesign_AdditivePipe/ru.md)**.
+Обычно винтовая спираль используется для [создания резьб](Thread_for_Screw_Tutorial/ru.md) в сочетании с закрытым профилем и операцией **<img src="images/Part_Sweep.svg" width=16px> [Развёртка(Sweep)](Part_Sweep/ru.md)** детали. Этот процесс работает практически так же как и в [верстаке PartDesign ](PartDesign_Workbench/ru.md) с помощью инструмента **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Аддитивная(добавочная) труба](PartDesign_AdditivePipe/ru.md)**.
 
 ## Применение
 
@@ -28,8 +28,8 @@
 
 1.  Переключитесь на <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [верстак Part](Part_Workbench/ru.md).
 2.  Диалог Создания Примитивов доступен несколькими способами:
-    -   Нажмите на кнопку **<img src=images/Part_Primitives.svg style="width:16px"> [Примитивы](Part_Primitives/ru.md)** на панели команд Деталь.
-    -   Используйте меню **Деталь → <img src=images/Part_Primitives.svg style="width:16px"> [Создать примитивы...](Part_Primitives/ru.md) → Спираль(Helix)**
+    -   Нажмите на кнопку **[<img src=images/Part_Primitives.svg style="width:16px"> [Примитивы](Part_Primitives/ru.md)** на панели команд Деталь.
+    -   Используйте меню **Деталь → [<img src=images/Part_Primitives.svg style="width:16px"> [Создать примитивы...](Part_Primitives/ru.md) → Спираль(Helix)**
 
 
 </div>

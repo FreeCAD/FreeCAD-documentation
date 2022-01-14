@@ -151,7 +151,7 @@ Teraz można wprowadzić kieszeń do szkicu.
 
 ### O krok dalej 
 
-Utwórz następny szkic, wymiary powinny być wyrażeniami *(\"**Sketch.Constraints.szerokość**\", \"**Sketch.Constraints.szerokość/2**\")* i powinien być związany z punktem odniesienia położenia w wierzchołku sąsiadującym z przeciwprostokątną i jej najkrótszym bokiem. *(Jeśli jesteś zaznajomiony z funkcją **<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Kalka techniczna](Sketcher_CarbonCopy/pl.md)** możesz jej użyć, aby w pustym szkicu utworzyć kopię szkicu \"IsoscelesSketch\" i odpowiednio edytować jego parametry)*.
+Utwórz następny szkic, wymiary powinny być wyrażeniami *(\"**Sketch.Constraints.szerokość**\", \"**Sketch.Constraints.szerokość/2**\")* i powinien być związany z punktem odniesienia położenia w wierzchołku sąsiadującym z przeciwprostokątną i jej najkrótszym bokiem. *(Jeśli jesteś zaznajomiony z funkcją **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Kalka techniczna](Sketcher_CarbonCopy/pl.md)** możesz jej użyć, aby w pustym szkicu utworzyć kopię szkicu \"IsoscelesSketch\" i odpowiednio edytować jego parametry)*.
 
 Zmień nazwę szkicu na RightAngleTriangleSketch.
 
@@ -204,7 +204,7 @@ Zmień nazwę szkicu na FinalSketch.
 
 ![centre\|FinalSketch](images/RightAngleTriangle.png )
 
-Zauważ, że FinalSketch został związany z punktem odniesienia położenia w inny sposób. W przeciwnym razie moglibyśmy użyć funkcji **<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Kalka techniczna](Sketcher_CarbonCopy/pl.md)**, ale szkic ma tylko trzy linie i pięć wiązań.
+Zauważ, że FinalSketch został związany z punktem odniesienia położenia w inny sposób. W przeciwnym razie moglibyśmy użyć funkcji **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Kalka techniczna](Sketcher_CarbonCopy/pl.md)**, ale szkic ma tylko trzy linie i pięć wiązań.
 
 Po raz kolejny musimy ukryć bryłę, w tym przypadku Pocket001, i upewnić się, że oba szkice są widoczne do wyboru *(BaseSketch i FinalSketch)*.
 

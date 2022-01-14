@@ -2,7 +2,7 @@
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ro|Topic=Programming|Level=Medium programmer|Time=15 minutes|FCVersion=All|Author=_}}
+{{TutorialInfo/ro|Topic=Programming|Level=Medium programmer|Time=15 minutes|FCVersion=All|Author=[r-frank](User:R-Frank.md)}}
 
 
 </div>
@@ -257,7 +257,7 @@ This method is possible but not necessary with the introduction of the [Addon Ma
 
  {{Powerdocnavi}}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
 [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > How to install additional workbenches/ro

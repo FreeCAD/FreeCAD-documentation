@@ -14,7 +14,7 @@
 
 L\'outil [Nomenclature (BOM)](Arch_Rebar_BOM/fr.md) permet à l\'utilisateur de créer une nomenclature de barres d\'armature.
 
-Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[atelier Reinforcement](Reinforcement_Workbench/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_BOM_example.png  style="width:1000px;">
 
@@ -529,7 +529,7 @@ BillOfMaterial_SVG.makeBillOfMaterialSVG(
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md) [<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Arch](Arch_Workbench.md) > Arch Rebar BOM/fr

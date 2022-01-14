@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-L\'_, con un colore definito. La geometria di costruzione è composta da linee, punti e altre forme che fungono da riferimenti o [elementi di aggancio](Draft_Snap/it.md) che sono utili per costruire la geometria principale. La geometria della costruzione può essere nascosta (**Visibility** `False`) o cancellata dopo che non è più necessaria.
+L\'[Ambiente Draft](Draft_Workbench/it.md) <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> presenta una modalità di costruzione, che consente all\'utente di disegnare forme in uno speciale [Gruppo](Std_Group/it.md), con un colore definito. La geometria di costruzione è composta da linee, punti e altre forme che fungono da riferimenti o [elementi di aggancio](Draft_Snap/it.md) che sono utili per costruire la geometria principale. La geometria della costruzione può essere nascosta (**Visibility** `False`) o cancellata dopo che non è più necessaria.
 
 
 </div>

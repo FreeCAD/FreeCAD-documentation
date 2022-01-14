@@ -5,7 +5,7 @@ This category lists pages with screenshots.
 
 [Screenshots/sv](Screenshots/sv.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation/sv](<img src="images/Property.png" style="width:16px"> Documentation/sv.md)
 
 ---
 [documentation index](../README.md) > Category:Screenshots/sv

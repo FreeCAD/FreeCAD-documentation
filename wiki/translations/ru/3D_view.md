@@ -54,7 +54,7 @@
 
 -    **[Стиль отрисовки](Std_DrawStyle/ru.md)**: как есть, точки, каркас, скрытые линии, без затенения, только грани, плоские линии.
 
--    **_, [спереди](Std_ViewFront/ru.md), [сверху](Std_ViewTop/ru.md), [справа](Std_ViewRight/ru.md), [сзади](Std_ViewRear/ru.md), [снизу](Std_ViewBottom/ru.md), [слева](Std_ViewLeft/ru.md), [повернуть влево](Std_ViewRotateLeft/ru.md), [повернуть вправо](Std_ViewRotateRight/ru.md).
+-    **[Стандартные виды](Std_View_Menu/ru.md)**: [изометрический](Std_ViewIsometric/ru.md), [спереди](Std_ViewFront/ru.md), [сверху](Std_ViewTop/ru.md), [справа](Std_ViewRight/ru.md), [сзади](Std_ViewRear/ru.md), [снизу](Std_ViewBottom/ru.md), [слева](Std_ViewLeft/ru.md), [повернуть влево](Std_ViewRotateLeft/ru.md), [повернуть вправо](Std_ViewRotateRight/ru.md).
 
 -    **Measure/Измерения**: [показывать замеры](View_Measure_Toggle_All/ru.md), [удалить замеры](View_Measure_Clear_All/ru.md).
 
@@ -68,11 +68,11 @@
 
 -    **[Видимость](Std_ToggleVisibility/ru.md)**: делает объект видимым или невидимым в окне 3D-вида.
 
--    **_.
+-    **[Откл-вкл выделяемость](Std_ToggleSelectability/ru.md)**: делает объект больше не выбираемым в окне 3D-вида; снова используйте эту команду, чтобы отменить этот эффект. Она устанавливает атрибут `Selectable` объекта в значение `True` или `False`. Измените свойство **Selectable** переключив его в [редакторе свойств](Property_editor/ru.md).
 
--    **_, чтобы показать выбранный объект в его иерархии.
+-    **[Перейти к выделенному](Std_TreeSelection/ru.md)**: раскрывает [древо проекта](Tree_view/ru.md), чтобы показать выбранный объект в его иерархии.
 
--    **_.
+-    **[Случайный цвет](Std_RandomColor/ru.md)**: назначает объекту случайный цвет. Он устанавливает значение атрибута цвета объекта `ShapeColor`, массивом `(r,g,b)` из трёх случайных значений в диапазоне от 0 до 1. Измените свойство, отредактировав **Shape Color** в [редакторе свойств](Property_editor/ru.md).
 
 -    **[Удалить](Std_Delete/ru.md)**: удаляет объект из документа и из 3D-вида, вызывая метод `removeObject()` документа.
 

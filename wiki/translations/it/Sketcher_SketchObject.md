@@ -3,7 +3,7 @@
 
 <img alt="" src=images/Sketcher_Sketch.svg  style="width:32px;">
 
-Un _.
+Un [Sketcher SketchObject](Sketcher_SketchObject/it.md), o formalmente un `Sketcher::SketchObject`, è l\'elemento base per creare oggetti 2D con l\'ambiente [Sketcher](Sketcher_Workbench/it.md).
 
 
 {{Incode|Sketcher::SketchObject}}
@@ -25,7 +25,7 @@ deriva da [Part Part2DObject](Part_Part2DObject/it.md), il che significa che è 
 ## Utilizzo
 
 1.  Passare all\'ambiente [Sketcher](Sketcher_Workbench/it.md).
-2.  Premere **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Nuovo schizzo](Sketcher_NewSketch/it.md)**.
+2.  Premere **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Nuovo schizzo](Sketcher_NewSketch/it.md)**.
 3.  Selezionare un **orientamento**: piano XY, piano XZ o piano YZ. Opzionalmente scegliere anche **Direzione inversa**, e assegnare un valore di **Offset**.
 4.  Premere **OK**.
 
@@ -33,9 +33,9 @@ Sebbene SketchObject possa essere utilizzato da solo per disegnare su un piano, 
 
 1.  Passare in [PartDesign](PartDesign_Workbench/it.md).
 
-2.  Premere **<img src=images/PartDesign_Body.svg style="width:16px"> [Crea un corpo](PartDesign_Body/it.md)**.
+2.  Premere **[<img src=images/PartDesign_Body.svg style="width:16px"> [Crea un corpo](PartDesign_Body/it.md)**.
 
-3.  Premere **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Crea uno schizzo](PartDesign_NewSketch/it.md)**.
+3.  Premere **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Crea uno schizzo](PartDesign_NewSketch/it.md)**.
 
 4.  
     **Selezione della funzione**: piano XY (piano base), piano XZ (piano base) o piano YZ (piano base).
@@ -46,7 +46,7 @@ Sebbene SketchObject possa essere utilizzato da solo per disegnare su un piano, 
 
 Vedere [Proprietà](Property/it.md) per tutti i tipi di proprietà che possono avere gli oggetti con script.
 
-Un _ (`Part::Part2DObject`), quindi condivide tutte le proprietà di quest\'ultimo.
+Un [Sketcher SketchObject](Sketcher_SketchObject.md) (classe `Sketcher::SketchObject`) deriva da un [Part Part2DObject](Part_Part2DObject.md) (`Part::Part2DObject`), quindi condivide tutte le proprietà di quest\'ultimo.
 
 
 <div class="mw-translate-fuzzy">

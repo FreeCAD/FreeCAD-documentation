@@ -27,13 +27,13 @@ Questi strumenti in realtà non fanno parte di PartDesign. Appartengono al siste
 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Parte](Std_Part/it.md): aggiunge un nuovo contenitore di Parti nel documento attivo e lo rende attivo.
 
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Gruppo](Std_Group/it.md): aggiunge un contenitore Gruppo nel documento attivo, che consente di organizzare gli oggetti nella [vista ad albero](Tree_view/it.md).
 
 ### Strumenti di supporto di Part Design 
 
--   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> _ nel documento attivo e lo rende attivo.
+-   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Crea corpo](PartDesign_Body/it.md): crea un oggetto [Corpo](Body/it.md) nel documento attivo e lo rende attivo.
 
--   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> _ nella modalità di modifica dello schizzo.
+-   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Crea schizzo](PartDesign_NewSketch/it.md): crea un nuovo schizzo su una faccia o un piano selezionati. Se non viene selezionata alcuna faccia mentre viene eseguito questo strumento, all\'utente viene richiesto di selezionare un piano dal pannello Azioni. L\'interfaccia passa quindi all\'ambiente [Sketcher](Sketcher_Workbench/it.md) nella modalità di modifica dello schizzo.
 
 -   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Modifica schizzo](Sketcher_EditSketch/it.md): modifica lo schizzo selezionato.
 
@@ -202,7 +202,7 @@ Alcune funzionalità aggiuntive che si trovano nel menu di Part Design:
 
  {{PartDesign Tools navi}}
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/it

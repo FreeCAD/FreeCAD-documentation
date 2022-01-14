@@ -14,7 +14,7 @@
 
 ## Introducción
 
-El <img alt="" src=images/Workbench_Surface.svg  style="width:24px;"> <img src=images/Part_Builder.svg style="width:Ambiente de trabajo Superficie](Surface_Workbench/es.md) proporciona herramientas para crear y modificar simples _** cuando se utiliza la opción **Cara de los bordes**. Sin embargo, a diferencia de esa herramienta, las herramientas del ambientes de Trabajo de Superficies son paramétricas y proporcionan opciones adicionales. En este sentido, las herramientas de este ambientes de trabajo son similares a **[16px"> <img src=images/PartDesign_AdditivePipe.svg style="width:DiseñoPieza LoftAditivo](PartDesign_AdditiveLoft/es.md)** y **[16px"> [DiseñoPieza TuberíaAditivos](PartDesign_AdditivePipe/es.md)**.
+El <img alt="" src=images/Workbench_Surface.svg  style="width:24px;"> [Ambiente de trabajo Superficie](Surface_Workbench/es.md) proporciona herramientas para crear y modificar simples [NURBS surfaces](https://en.wikipedia.org/wiki/Non-uniform_rational_B-spline). Estas herramientas tienen una funcionalidad similar a la del **[<img src=images/Part_Builder.svg style="width:16px"> [Creador Piezas](Part_Builder/es.md)** cuando se utiliza la opción **Cara de los bordes**. Sin embargo, a diferencia de esa herramienta, las herramientas del ambientes de Trabajo de Superficies son paramétricas y proporcionan opciones adicionales. En este sentido, las herramientas de este ambientes de trabajo son similares a **[<img src=images/PartDesign_AdditiveLoft.svg style="width:16px"> [DiseñoPieza LoftAditivo](PartDesign_AdditiveLoft/es.md)** y **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [DiseñoPieza TuberíaAditivos](PartDesign_AdditivePipe/es.md)**.
 
 Algunas de las funciones que ofrece son:
 
@@ -36,9 +36,9 @@ El ambiente de trabajo de superficies pretende crear caras con formas, lo que no
 
 *Superficie creada con bocetos colocados en planos de referencia con las herramientas del [DiseñoPieza ambiente de trabajo](PartDesign_Workbench/es.md)*
 
-El ambiente de trabajo de superficies se integra con otros ambientes de trabajo de FreeCAD. El ejemplo anterior fue creado a partir de **<img src=images/Sketcher_NewSketch.svg style="width:16px"> <img src=images/PartDesign_Plane.svg style="width:Bocetos](Sketch/es.md)** colocado en **_. El diseño puede ser totalmente paramétrico si todos los planos de referencia y los bocetos se definen en consecuencia. En la mayoría de los casos es suficiente dibujar un croquis cerrado para definir el límite de una cara, y luego utilizar diferentes opciones para modificar aún más su forma.
+El ambiente de trabajo de superficies se integra con otros ambientes de trabajo de FreeCAD. El ejemplo anterior fue creado a partir de **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Bocetos](Sketch/es.md)** colocado en **[<img src=images/PartDesign_Plane.svg style="width:16px"> [DiseñoPieza Planos de referencia](PartDesign_Plane/es.md)** en el <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md). El diseño puede ser totalmente paramétrico si todos los planos de referencia y los bocetos se definen en consecuencia. En la mayoría de los casos es suficiente dibujar un croquis cerrado para definir el límite de una cara, y luego utilizar diferentes opciones para modificar aún más su forma.
 
-La superficie generada no puede colocarse dentro de un **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:DiseñoPiezas Cuerpo](PartDesign_Body/es.md)**. Sin embargo, la superficie generada puede estar contenida dentro de un **_** que contiene los planos de referencia y los bocetos. El botón no paramétrico **[16px"> [Pieza Creador](Part_Builder/es.md)** se puede utilizar para crear un [shell](Glossary#Shell.md) y finalmente un [solid](Glossary#Solid.md).
+La superficie generada no puede colocarse dentro de un **[<img src=images/PartDesign_Body.svg style="width:16px"> [DiseñoPiezas Cuerpo](PartDesign_Body/es.md)**. Sin embargo, la superficie generada puede estar contenida dentro de un **[<img src=images/Std_Part.svg style="width:16px"> [Std Pieza](Std_Part/es.md)** junto con el **[<img src=images/PartDesign_Body.svg style="width:16px"> asociado [Cuerpo](PartDesign_Body/es.md)** que contiene los planos de referencia y los bocetos. El botón no paramétrico **[<img src=images/Part_Builder.svg style="width:16px"> [Pieza Creador](Part_Builder/es.md)** se puede utilizar para crear un [shell](Glossary#Shell.md) y finalmente un [solid](Glossary#Solid.md).
 
 ## Herramientas
 
@@ -50,7 +50,7 @@ La superficie generada no puede colocarse dentro de un **<img src=images/PartDes
 
 -   <img alt="" src=images/Surface_ExtendFace.svg  style="width:32px;"> [Extender cara](Surface_ExtendFace/es.md): extrapola la superficie en los límites con su parámetro local U y V.
 
--   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width:32px;"> _ seleccionada.
+-   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width:32px;"> [Curva sobre malla](Surface_CurveOnMesh/es.md): crea segmentos de splines aproximados sobre una [malla](Mesh_Workbench/es.md) seleccionada.
 
 
 <div class="mw-translate-fuzzy">
@@ -66,7 +66,7 @@ La superficie generada no puede colocarse dentro de un **<img src=images/PartDes
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Surface Workbench/es

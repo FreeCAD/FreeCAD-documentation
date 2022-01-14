@@ -8,7 +8,7 @@ Jesteś właśnie na głównej stronie pomocy przeznaczonej dla wszystkich nowyc
 
 Tak jak sam program FreeCAD, tak i ta dokumentacja jest w ciągłym rozwoju. Niektóre informacje mogą być już nieaktualne, lub pominięte. Jeśli nie możesz znaleźć potrzebnych informacji, nie wahaj się zapytać na forum [FreeCAD forum](https://forum.freecadweb.org).
 
-Jeśli chciałbyś wesprzeć projekt FreeCAD, proszę wykjonaj _ dla innych sposobów wnoszenia wkładu. Jeśli chciałbyś przyczynić się do tworzenia tej Wiki, poproś o uprawnienia edycji _. Tam znajdziesz ogólne zasady których powinieneś się trzymać podczas edycji Wikipedii.
+Jeśli chciałbyś wesprzeć projekt FreeCAD, proszę wykjonaj [dotację](donate.md) oraz zobacz stronę: [Wesprzyj program FreeCAD](Help_FreeCAD/pl.md) dla innych sposobów wnoszenia wkładu. Jeśli chciałbyś przyczynić się do tworzenia tej Wiki, poproś o uprawnienia edycji [na forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), i przeczytaj [WikiPages](WikiPages.md). Tam znajdziesz ogólne zasady których powinieneś się trzymać podczas edycji Wikipedii.
 
 A jeśli interesuje cię historia programu FreeCAD, odwiedź stronę [Historia](History.md).
 
@@ -17,7 +17,7 @@ A jeśli interesuje cię historia programu FreeCAD, odwiedź stronę [Historia]
 ### Wprowadzenie
 
 -   [Przegląd aplikacji](About_FreeCAD/pl.md): Ogólny przegląd programu FreeCAD.
--   _, [Mac](Install_on_Mac/pl.md) i [Windows](Install_on_Windows/pl.md).
+-   [Instalacja](Installing/pl.md): Instrukcja instalacji FreeCAD dla [Linux](Install_on_Linux/pl.md), [Mac](Install_on_Mac/pl.md) i [Windows](Install_on_Windows/pl.md).
 -   [Instalacja dokumentacji użytkownika](Installing_Helpfile/pl.md): jak zainstalować dokumentację offline, bazującą na Wiki.
 -   [Instalacja dodatkowych komponentów](Installing_additional_components/pl.md): jak zainstalować dodatkowe komponenty zewnętrzne, które mogą współpracować z programem FreeCAD.
 -   [Jak zacząć](Getting_started/pl.md): Szybkie wprowadzenie do dostępnych funkcji programu.
@@ -30,7 +30,7 @@ Zobacz równiez:
 
 ### Informacje podstawowe 
 
--   _, [widok drzewa](Tree_view/pl.md), [edytor właściwości](Property_editor/pl.md), [panel zadań](Task_panel/pl.md), oraz [konsola Pythona](Python_console/pl.md).
+-   [Interface](Interface/pl.md): interfejs FreeCAD jest zbudowany z różnych elementów graficznych dostępnych na ekranie, w tym [widok 3D](3D_view/pl.md), [widok drzewa](Tree_view/pl.md), [edytor właściwości](Property_editor/pl.md), [panel zadań](Task_panel/pl.md), oraz [konsola Pythona](Python_console/pl.md).
 -   [Nawigacja przy użyciu myszki](Mouse_navigation/pl.md): różne warianty obsługi za pomocą myszki lub gładzika do obsługi widoku 3D.
 -   [Wybór](Selection_methods/pl.md): różne style wybierania obiektów w programie.
 -   [Nazwa obiektu](Object_name/pl.md): wszystkie obiekty mają atrybut `Nazwa` tylko do odczytu, który je jednoznacznie identyfikuje, oraz atrybut `Etykieta`, który można być edytowany przez użytkownika.
@@ -124,7 +124,7 @@ Jest to oficjalna pomoc Online FreeCAD. Proszę zwrócić uwagę, że cały syst
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
 [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/pl

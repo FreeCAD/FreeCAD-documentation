@@ -55,7 +55,7 @@ Sulla maggior parte delle distribuzioni Linux moderne (Ubuntu, Fedora, openSUSE,
 
 **Metodi alternativi**
 
-Uno dei grandi piaceri di usare Linux è la moltitudine di possibilità di adattare il software, quindi non trattenetevi. Su Ubuntu e derivate, FreeCAD può anche essere installato da un _ facilmente.
+Uno dei grandi piaceri di usare Linux è la moltitudine di possibilità di adattare il software, quindi non trattenetevi. Su Ubuntu e derivate, FreeCAD può anche essere installato da un [PPA](https://launchpad.net/~freecad-maintainers) mantenuto dalla comunità di FreeCAD (contiene entrambe le versioni, la stabile e quella di sviluppo). Su Fedora è possibile installare le versioni di sviluppo recenti di FreeCAD da [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/) e siccome questo è un software open-source, può anche essere [compilato](Compiling/it.md) facilmente.
 
 ### Installazione in Mac OS 
 
@@ -78,11 +78,11 @@ Dopo aver installato FreeCAD, forse si desidera aprirlo e modificare alcune pref
 
 1.  **Language**: (categoria *Generale*, scheda *Generale*)
 2.  **Lingua**: FreeCAD sceglie automaticamente la lingua del sistema operativo, ma si può cambiarla. FreeCAD è quasi completamente tradotto in cinque o sei lingue; altre attualmente sono tradotte solo parzialmente. Si può facilmente [contribuire a tradurre FreeCAD](https://crowdin.com/project/freecad). ![](images/Freecad-basic-options01.jpg )
-3.  **Modulo da caricare automaticamente**: (categoria *Generale*, scheda *Generale*) Normalmente, FreeCAD si avvia visualizzando la pagina Start center. È possibile saltare questo e iniziare una sessione di FreeCAD direttamente nell\'ambiente di lavoro preferito, elencato sotto *Avvio*, *Modulo da caricare automaticamente*.. Gli _.
+3.  **Modulo da caricare automaticamente**: (categoria *Generale*, scheda *Generale*) Normalmente, FreeCAD si avvia visualizzando la pagina Start center. È possibile saltare questo e iniziare una sessione di FreeCAD direttamente nell\'ambiente di lavoro preferito, elencato sotto *Avvio*, *Modulo da caricare automaticamente*.. Gli [ambienti di lavoro](Workbenches/it.md) sono spiegati in dettaglio nel [prossimo capitolo](Manual:The_FreeCAD_Interface/it.md).
 4.  **Crea un nuovo documento all\'avvio**: (categoria *Generale*, scheda *Documento*) In combinazione con l\'opzione *Modulo da caricare automaticamente*, avvia FreeCAD pronto per il lavoro. ![](images/Freecad-basic-options02.jpg )
 5.  **Archiviazione**: (categoria *Generale*, scheda *Documento*) Come tutte le applicazioni complesse, FreeCAD potrebbe bloccarsi di tanto in tanto. Qui è possibile configurare alcune opzioni che aiutano a recuperare il lavoro in caso di incidente.
 6.  **Diritti d\'autore e licenze**: (categoria *Generale*, scheda *Documento*) Qui è possibile stabilire le impostazioni predefinite che verranno utilizzate per i nuovi file. Considerare fin dall\'inizio di rendere i file condivisibili, utilizzando una licenza amichevole, [copyleft](https://en.wikipedia.org/wiki/Copyleft) come [Creative Commons](https://creativecommons.org/).
-7.  **Reindirizza l\'output interno di python nel report**: (categoria *Generale*, scheda *Finestra di Output*) Conviene sempre attivare queste due opzioni, in quanto indirizzano dei messaggi dall\'interprete python interno che appaiono nella _ quando c\'è un problema nell\'esecuzione di uno script python. ![](images/Freecad-basic-options03.jpg )
+7.  **Reindirizza l\'output interno di python nel report**: (categoria *Generale*, scheda *Finestra di Output*) Conviene sempre attivare queste due opzioni, in quanto indirizzano dei messaggi dall\'interprete python interno che appaiono nella [vista Report](Manual:The_FreeCAD_Interface/it#Report_view.md) quando c\'è un problema nell\'esecuzione di uno script python. ![](images/Freecad-basic-options03.jpg )
 8.  **Unità**: (categoria *Generale*, scheda *Unità*) Qui si può impostare il sistema di unità di misura di default che si desidera utilizzare. ![](images/Freecad-basic-options04.jpg )
 9.  **Zoom al cursore**: (categoria *Visualizzazione*, scheda *Vista 3D*) Se selezionato, le operazioni di zoom sono focalizzate sul puntatore del mouse, altrimenti il fuoco dello zoom è il centro della vista corrente.
 10. **Inverti lo zoom**: (categoria *Visualizzazione*, scheda *Vista 3D*) Inverte la direzione dello zoom rispetto al movimento del mouse. ![](images/FreeCAD-v0-18-Preferences-Display.png ).
@@ -99,7 +99,7 @@ Dato che il progetto FreeCAD e la sua comunità crescono rapidamente, e anche pe
 
 1.  Una [Parts library](https://github.com/FreeCAD/FreeCAD-library), che contiene tutti i tipi di modelli utili, o pezzi di modelli, creati dagli utenti di FreeCAD che possono essere utilizzati liberamente nei vostri progetti. È possibile accedere e usare le libreria direttamente dall\'interno della propria installazione FreeCAD.
 2.  [Ambienti aggiuntivi](https://github.com/FreeCAD/FreeCAD-addons) che estendono le funzionalità di FreeCAD per determinate attività, ad esempio animano le parti dei modelli, come piegatura della lamiera o BIM. Ulteriori spiegazioni su ogni ambiente e su quali strumenti contiene sono fornite nella pagina di ogni addon, che si può visitare facendo clic sul link corrispondente in Addon manager.
-3.  Una _ insieme alla documentazione su come usarle.
+3.  Una [collezione di macro](https://github.com/FreeCAD/FreeCAD-macros), che sono disponibili anche nel [wiki di FreeCAD](Macros_recipes/it.md) insieme alla documentazione su come usarle.
 
 <img alt="" src=images/FreeCAD-addon-manager01.jpg  style="width:800px;">
 
@@ -131,7 +131,7 @@ Se si utilizza il sistema operativo Ubuntu, alcuni degli addon indicati sopra so
 
 </div>
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Manual:Installing/it

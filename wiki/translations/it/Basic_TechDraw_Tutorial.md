@@ -1,5 +1,5 @@
 # Basic TechDraw Tutorial/it
-{{TutorialInfo/it|Topic=Modellazione|Level=Base|Author=_|Time=Meno di un'ora|FCVersion=0.17 o superiore|Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd  Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Basic TechDraw Tutorial Sample]}}
+{{TutorialInfo/it|Topic=Modellazione|Level=Base|Author=[WandererFan](User_WandererFan.md)|Time=Meno di un'ora|FCVersion=0.17 o superiore|Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd  Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Basic TechDraw Tutorial Sample]}}
 
 
 <div class="mw-translate-fuzzy">
@@ -161,7 +161,7 @@ Dalla prima parte di questo tutorial, sappiamo che il pezzo da lavorare è largo
 
 ## Andare avanti 
 
-In questo tutorial si dovrebbe aver imparato abbastanza su TechDraw per produrre un disegno come questo (by _). Vedere nota 2.
+In questo tutorial si dovrebbe aver imparato abbastanza su TechDraw per produrre un disegno come questo (by [NormandC](User_Normandc.md)). Vedere nota 2.
 
 ![](images/TDTut_FC018_TechDraw_Dim_Iso_View_01_NC.png )
 

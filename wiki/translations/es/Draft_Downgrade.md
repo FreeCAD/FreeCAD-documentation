@@ -28,7 +28,7 @@ El <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> comando \'\'
 
 ## Guión
 
-Ver también: _.
+Ver también: [Documentación de la API autogenerada](https://freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
 
 Para rebajar objetos utilice el método `downgrade` del módulo Borrador.
 

@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Rebarツールを使用すると、_ /[スケッチや](Sketcher_Workbench.md)[draft objects](Draft_Workbench.md)/[ドラフトオブジェクトなどの](Draft_Workbench.md)2Dプロファイルに基づいており、構造オブジェクトの面に描画する必要があります。バーの数や直径、または構造要素の両端のオフセット距離など、リバーの構成を調整することができます。
+Rebarツールを使用すると、[Arch Structureオブジェクトの中に](Arch_Structure.md) [reinforcing bars](http://en.wikipedia.org/wiki/Rebar) を配置することができます。 Rebarオブジェクトは、[sketches](Sketcher_Workbench.md) /[スケッチや](Sketcher_Workbench.md)[draft objects](Draft_Workbench.md)/[ドラフトオブジェクトなどの](Draft_Workbench.md)2Dプロファイルに基づいており、構造オブジェクトの面に描画する必要があります。バーの数や直径、または構造要素の両端のオフセット距離など、リバーの構成を調整することができます。
 
 
 </div>
@@ -159,7 +159,7 @@ FreeCAD.ActiveDocument.recompute()
 
  
 
-_ _
+[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md) [<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Arch](Arch_Workbench.md) > Arch Rebar/ja

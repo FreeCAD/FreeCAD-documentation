@@ -1,6 +1,6 @@
 # Part Cut/sv
 ---
-- GuiCommand:/sv   Name:Part_Cut   Name/sv:Part Cut   MenuLocation:Part → Cut   Workbenches:_, [Common](Part_Common/sv.md)---
+- GuiCommand:/sv   Name:Part_Cut   Name/sv:Part Cut   MenuLocation:Part → Cut   Workbenches:[Komplett](Part_Workbench/sv___Del]],[[Complete_Workbench/sv.md)|SeeAlso:[Union](Part_Union/sv.md), [Common](Part_Common/sv.md)---
 
 
 </div>
@@ -17,7 +17,7 @@ Cuts (subtracts) selected Part objects, the last one being subtracted from the f
 
 **Note:** This command is an automated form of the <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [Boolean operation](Part_Boolean.md).
 
-_
+[480px\|left\|Cut](IMAGE:Part_Cut_01.png.md)
 
 ## Usage
 

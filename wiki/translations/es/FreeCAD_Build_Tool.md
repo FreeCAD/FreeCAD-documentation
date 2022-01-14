@@ -18,7 +18,7 @@ Se puede utilizar para simplificar algunas tareas frecuentes de construcción, d
 
 ## Utilización
 
-Con _ correctamente instalado, *fcbt* se puede invocar por el comando 
+Con [Python](wikipedia:Python_(programming_language).md) correctamente instalado, *fcbt* se puede invocar por el comando 
 ```python
 python fbct.py
 ``` Muestra un menú, donde puedes seleccionar la tarea para el que lo quieres utilizar: 
@@ -93,7 +93,7 @@ El comando \"CM\" [crea un nuevo módulo de aplicación](Module_Creation/es.md).
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/es

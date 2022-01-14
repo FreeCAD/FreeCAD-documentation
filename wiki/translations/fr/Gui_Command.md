@@ -13,7 +13,7 @@ Une GuiCommand, est l\'une des fonctions les plus importantes du point de vue in
 
 La GuiCommand est appelée selon un certain standard : *ModuleName\_CommandName*, par exemple [Base Open](Base_Open/fr.md) est la Gui Command Open dans le système Base. Dans certains modules, la GuiCommand a pour préfixe le nom du module, comme par exemple [Part Cylinder](Part_Cylinder/fr.md).
 
-Si le document n\'est pas fini, utilisez le bandeau _
+Si le document n\'est pas fini, utilisez le bandeau [Template:UnfinishedDocu](Template:UnfinishedDocu/fr.md)
 
 ## Pages d\'aide 
 
@@ -50,7 +50,7 @@ Il y a beaucoup de fonctions GuiCommands (outils) dans FreeCAD, qui sont expéri
 -   La commande ou la fonctionnalité doit être \"terminée\", c\'est-à-dire ne pas être un travail en cours.
 -   Il doit définir une icône et une position de menu appropriées.
 -   Il doit avoir une page d'aide, comme [Draft ShapeString](Draft_ShapeString/fr.md).
-    -   Tous les champs du _ doivent être remplis
+    -   Tous les champs du [Template:GuiCommand](Template:GuiCommand/fr.md) doivent être remplis
     -   Il devrait avoir une description détaillée de la commande et de tous ses paramètres et personnalisations.
     -   Il devrait avoir une image des dialogues que la commande va produire.
     -   Il devrait y avoir une description des interfaces et des classes [Python](Python/fr.md) associées avec un exemple de code.

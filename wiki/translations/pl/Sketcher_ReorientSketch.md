@@ -16,7 +16,7 @@ Pozwala na oderwanie szkicu od powierzchni i przymocowanie go do jednej z głów
 ## Użycie
 
 1.  W widoku drzewa wybierz szkic, który ma zostać zmieniony.
-2.  Wybierz z menu głównego **Sketch → <img src=images/Sketcher_ReorientSketch.svg style="width:16px"> [Zmień orientację szkicu](Sketcher_ReorientSketch.md)**.
+2.  Wybierz z menu głównego **Sketch → [<img src=images/Sketcher_ReorientSketch.svg style="width:16px"> [Zmień orientację szkicu](Sketcher_ReorientSketch.md)**.
 3.  Pojawi się menu z pytaniem, czy chcesz odłączyć szkic od jego powierzchni.
 4.  Wybierz **Tak** uzyskasz identyczne menu co w **Sketch** → **Nowy szkic**.
 5.  Możesz podłączyć szkic do jednej z głównych płaszczyzn.

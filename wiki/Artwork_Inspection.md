@@ -11,7 +11,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Inspection](Category_Inspection.md)
 
 ---
 [documentation index](../README.md) > [Inspection](Category_Inspection.md) > Artwork Inspection

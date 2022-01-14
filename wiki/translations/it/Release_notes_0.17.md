@@ -41,7 +41,7 @@ Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce
 
 ## Aspetti generali 
 
--   Yorik van Havre ha scritto il \"_\" come un libro introduttivo su come usare FreeCAD.
+-   Yorik van Havre ha scritto il \"[Manuale di FreeCAD](Manual:Introduction/it.md)\" come un libro introduttivo su come usare FreeCAD.
 -   Ii ricalcolo del documento ora può essere disabilitato o abilitato tramite il menu di scelta rapida.
 -   C\'è un nuovo stile di navigazione Revit.
 -   Un nuovo indicatore di navigazione nella parte inferiore destra della finestra di FreeCAD consente un rapido accesso agli stili di navigazione.
@@ -96,9 +96,9 @@ Il nuovo ambiente **TechDraw** mira a sostituire il workbench Drawing e fornisce
 
 -   [Sistema autogruppo](Draft_AutoGroup/it.md): Draft ora dispone di un pulsante di raggruppamento automatico sulla barra principale degli strumenti. Quando è attivato, tutti gli oggetti Draft e Arch appena creati vengono posizionati automaticamente in quel gruppo.
 
--   _ o [Polilinea](Draft_Wire/it.md), questo strumento permette di dargli una determinata pendenza o inclinazione. Cioè, i punti intermedi e finali avranno un valore Z più basso, quindi l\'intero oggetto ottiene un\'inclinazione costante. Questo è utile per usare delle linee o delle polilinee come basi per oggetti che hanno bisogno di un\'inclinazione precisa, come le falde del tetto o i tubi di una fognatura.
+-   [Strumento Pendenza](Draft_Slope/it.md): Se usato su una [Linea](Draft_Line/it.md) o [Polilinea](Draft_Wire/it.md), questo strumento permette di dargli una determinata pendenza o inclinazione. Cioè, i punti intermedi e finali avranno un valore Z più basso, quindi l\'intero oggetto ottiene un\'inclinazione costante. Questo è utile per usare delle linee o delle polilinee come basi per oggetti che hanno bisogno di un\'inclinazione precisa, come le falde del tetto o i tubi di una fognatura.
 
--   _, spesso è necessario memorizzare le posizioni del piano di lavoro che si utilizzano sovente. Ora questo è possibile inserendo uno di questi proxy nel documento. Esso ricorderà l\'attuale posizione del piano di lavoro e può anche ripristinare la vista corrente o la visibilità degli oggetti.
+-   [Piano proxy](Draft_SetWorkingPlaneProxy/it.md): Quando si lavora con i [piani di Draft](Draft_SelectPlane/it.md), spesso è necessario memorizzare le posizioni del piano di lavoro che si utilizzano sovente. Ora questo è possibile inserendo uno di questi proxy nel documento. Esso ricorderà l\'attuale posizione del piano di lavoro e può anche ripristinare la vista corrente o la visibilità degli oggetti.
 
 <img alt="" src=images/Draft_WP_preview.png  style="width:640px;">
 
@@ -333,7 +333,7 @@ Alcuni dei nuovi moduli che sono stati creati dalla comunità.
 
 -   [Kicad StepUp Workbench](https://www.freecadweb.org/wiki/KicadStepUp_Workbench) ha lo scopo di aiutare gli utenti di KiCad e FreeCAD nella collaborazione ECAD e MCAD.
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > Release notes 0.17/it

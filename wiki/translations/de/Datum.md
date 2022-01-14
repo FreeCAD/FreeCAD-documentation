@@ -18,12 +18,12 @@ Die Folgenden sind direkt abgeleitet von [Part Formelement](Part_Feature/de.md):
 ## Anwendung
 
 1.  Wechsle zum [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md).
-2.  Drücke **<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**.
+2.  Drücke **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**.
 3.  Wähle den Ursprung des Körpers und mache ihn durch Drücken der **Leertaste** Leiste deiner Tastatur sichtbar.
-4.  Drücke **<img src=images/PartDesign_Plane.svg style="width:16px"> [PartDesign Ebene](PartDesign_Plane/de.md)** um die Ebene [Audfgabenpaneel](task_panel/de.md) zu öffnen.
+4.  Drücke **[<img src=images/PartDesign_Plane.svg style="width:16px"> [PartDesign Ebene](PartDesign_Plane/de.md)** um die Ebene [Audfgabenpaneel](task_panel/de.md) zu öffnen.
 5.  In der [3D Ansicht](3D_view/de.md), klicke auf eine der Standardebenen, z.B. die XY Ebene. Drücke dann **OK** um das Aufgabenpaneel zu schließen.
-6.  Wähle nun in der <img src=images/PartDesign_NewSketch.svg style="width:Baumansicht](tree_view/de.md), die neu erstellte BezugsEbene aus, und drücke dann **[16px"> [PartDesign NeueSkizze](PartDesign_NewSketch/de.md)**.
-7.  Erstelle einen geschlossenen Draht und verwende dann **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Polster](PartDesign_Pad/de.md)** um die Skizze zu extrudieren und einen ersten Volumenkörper zu erzeugen.
+6.  Wähle nun in der [Baumansicht](tree_view/de.md), die neu erstellte BezugsEbene aus, und drücke dann **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign NeueSkizze](PartDesign_NewSketch/de.md)**.
+7.  Erstelle einen geschlossenen Draht und verwende dann **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Polster](PartDesign_Pad/de.md)** um die Skizze zu extrudieren und einen ersten Volumenkörper zu erzeugen.
 
 Jetzt kannst du die BezugsEbene beliebig verschieben und drehen, indem du ihre Eigenschaften im [Eigenschaftseditor](property_editor/de.md) änderst, und die Skizze und das Polster folgen deiner neuen [Platzierung](Placement/de.md).
 
@@ -43,7 +43,7 @@ Seit ihrem Erscheinen in v0.17 waren Bezugsobjekte für die Verwendung innerhalb
 
 }} {{Document objects navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Datum/de

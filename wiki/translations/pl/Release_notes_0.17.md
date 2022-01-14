@@ -27,7 +27,7 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 
 ## General
 
--   Yorik van Havre wrote \"_\" as an introductory book on how to use FreeCAD.
+-   Yorik van Havre wrote \"[The FreeCAD Manual](Manual_Introduction.md)\" as an introductory book on how to use FreeCAD.
 -   Document recomputes can now be disabled/enabled via the context menu.
 -   There\'s a new Revit navigation style.
 -   A new Navigation Indicator at the bottom right of the FreeCAD window allows quick access to the navigation styles.
@@ -76,9 +76,9 @@ The new **TechDraw workbench** aims to replace the Drawing workbench, and alread
 
 -   [Autogroup system](Draft_AutoGroup.md): The Draft workbench now features an auto-group button on its main toolbar. When activated, all newly created Draft and Arch objects will automatically be placed in that group.
 
--   _ or [Draft Wire](Draft_Wire.md), this tool will allow you to give it a specific slope/inclination. That is, the intermediate and end points will get a lower Z value, so the whole object gets a constant inclination. This is useful to use Lines or Wires as bases for objects that need a precise inclination, such as roof panes or sewer pipes.
+-   [Slope tool](Draft_Slope.md): When used on a [Draft Line](Draft_Line.md) or [Draft Wire](Draft_Wire.md), this tool will allow you to give it a specific slope/inclination. That is, the intermediate and end points will get a lower Z value, so the whole object gets a constant inclination. This is useful to use Lines or Wires as bases for objects that need a precise inclination, such as roof panes or sewer pipes.
 
--   _, you often need to store working plane locations that you use often. This is now possible by placing one of these proxies in your document. It will remember the current working plane location, and can also restore the current view and/or objects visibility.
+-   [Working Plane proxies](Draft_SetWorkingPlaneProxy.md): When working with [Draft working planes](Draft_SelectPlane.md), you often need to store working plane locations that you use often. This is now possible by placing one of these proxies in your document. It will remember the current working plane location, and can also restore the current view and/or objects visibility.
 
 <img alt="" src=images/Draft_WP_preview.png  style="width:640px;">
 
@@ -295,7 +295,7 @@ Some of the new community modules that were created.
 
 -   [Kicad StepUp Workbench](https://www.freecadweb.org/wiki/KicadStepUp_Workbench) is aimed to help KiCad and FreeCAD users in ECAD and MCAD collaboration.
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > Release notes 0.17/pl

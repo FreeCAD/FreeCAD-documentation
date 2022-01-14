@@ -31,7 +31,7 @@ Questa è una lista estesa, ma non completa, delle funzioni (feature) già imple
 
 -   ![](images/Feature4.jpg ) Una **architettura modulare** permette di estendere le funzioni del programma attraverso l\'utilizzo dei plugins. Un\'estensione può essere complessa, come un\'intera nuova applicazione programmata in C++ o essere semplice, come uno [script Python](Power_users_hub/it.md) o una [macro](macros/it.md) auto-registrata. Attraverso l\'utilizzo della riga di comando integrata nella GUI, è possibile accedere praticamente a tutte le funzionalità del software per mezzo di semplici comandi **Python**. Si possono [creare e/o modificare oggetti geometrici](Topological_data_scripting/it.md), interagire con [l\'ambiente di lavoro](scenegraph/it.md) o addirittura [personalizzare l\'interfaccia grafica](PySide/it.md) del programma. 
 
--   !_}}. Il livello di compatibilità tra FreeCAD e un formato di file specifico è variabile, dipende dal modulo che lo implementa.
+-   ![](images/Feature5.jpg ) È possibile importare ed esportare molti dei **formati standard** di rappresentazione 3D, come ad esempio: [STEP](https://it.wikipedia.org/wiki/ISO_10303), [IGES](https://it.wikipedia.org/wiki/IGES), [OBJ](https://en.wikipedia.org/wiki/Obj), [STL](https://it.wikipedia.org/wiki/STL_(formato_di_file)), [DXF](https://it.wikipedia.org/wiki/AutoCAD_DXF), [SVG](https://it.wikipedia.org/wiki/Scalable_Vector_Graphics), [DAE](https://it.wikipedia.org/wiki/COLLADA), [IFC](https://en.wikipedia.org/wiki/Industry_Foundation_Classes) oppure [OFF](http://people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](https://it.wikipedia.org/wiki/Nastran), [VRML](https://it.wikipedia.org/wiki/VRML), oltre al formato nativo di FreeCAD {{FileName|[FCStd](File_Format_FCStd.md)}}. Il livello di compatibilità tra FreeCAD e un formato di file specifico è variabile, dipende dal modulo che lo implementa.
 
 -   ![](images/Feature7.jpg ) Un ambiente di [sketch](Sketcher_Workbench/it.md) dotato di strumenti per disegnare sagome in 2D vincolate. Questa funzionalità permette di vincolare in diversi modi le geometrie tracciate e poi di utilizzarle come base per la costruzione delle forme 3D.
 
@@ -115,7 +115,7 @@ Alcuni utenti esperti hanno creato vari [ambienti complementari](external_workbe
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/it

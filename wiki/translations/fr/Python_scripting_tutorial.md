@@ -3,7 +3,7 @@
 
 ## Introduction
 
-_, ou depuis des scripts personnalisés, vous pouvez contrôler FreeCAD et lui faire effectuer des opérations très complexes.
+[Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29) est un langage de programmation qui est relativement facile à apprendre et à comprendre. Il est open-source, multi-plateforme et peut être utilisé à de nombreuses fins : des scripts shell simples aux programmes très complexes. Mais son utilisation la plus répandue se trouve dans le langage de script intégré dans d\'autres applications. C\'est ainsi qu\'il est utilisé dans FreeCAD. Depuis la [console Python](Python_console/fr.md), ou depuis des scripts personnalisés, vous pouvez contrôler FreeCAD et lui faire effectuer des opérations très complexes.
 
 Par exemple, à partir d\'un script Python, vous pouvez :
 
@@ -248,7 +248,7 @@ Draft.move(box, mvec)
 
 ## Interface
 
-L\'interface utilisateur de FreeCAD est faite avec _. Qt fournit un module, [PySide](PySide/fr.md), qui permet à Python d\'accéder et de modifier des interfaces Qt telles que celle de FreeCAD. Essayons de jouer avec l\'interface Qt et de produire une boîte de dialogue simple :
+L\'interface utilisateur de FreeCAD est faite avec [Qt](https://fr.wikipedia.org/wiki/Qt), un puissant système d\'interface graphique, chargé de dessiner et de gérer tous les contrôles, menus, barres d\'outils et boutons autour de la [Vue 3D](3D_view/fr.md). Qt fournit un module, [PySide](PySide/fr.md), qui permet à Python d\'accéder et de modifier des interfaces Qt telles que celle de FreeCAD. Essayons de jouer avec l\'interface Qt et de produire une boîte de dialogue simple :
 
 
 ```python
@@ -276,7 +276,7 @@ Vous êtes maintenant prêt pour des scripts FreeCAD plus approfondis. Alors ren
 
 }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Python scripting tutorial/fr

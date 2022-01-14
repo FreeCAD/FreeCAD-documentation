@@ -4,7 +4,7 @@
 |Level=Podstawowa znajomość środowiska Python i struktur svg jest przydatna
 |FCVersion=0.19.1 i nowszy
 |Time=''(Jeszcze nie wiem)''
-|Author=_
+|Author=[FBXL5](User_FBXL5.md)
 }}
 
 ## Wprowadzenie

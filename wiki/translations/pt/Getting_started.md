@@ -193,7 +193,7 @@ As [bancadas de trabalho \"Draft\" (traço)](Draft_Workbench/pt.md) e [Bancada d
 
 <div class="mw-translate-fuzzy">
 
-A _ e [\"object snapping\"](Draft_Snap.md).
+A [Bancada de trabalho Draft (traço)](Draft_Workbench/pt.md) oferece ferramentas 2D parecidas com as que se encontram nas aplicações CAD tradicionais como o [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Contudo , O desenho 2D está longe de ser o objetivo do FreeCAD, por isso, não espere encontrar o conjunto completo de ferramentas que essas aplicações dedicadas oferecem. Muitas das ferramentas do \"Draft\" funcionam não só em 2D como na totalidade do espaço 3D, e beneficia de um sistema de ajuda especial como o [Planos de trabalho](Draft_SelectPlane.md) e [\"object snapping\"](Draft_Snap.md).
 
 
 </div>
@@ -243,7 +243,7 @@ The [Addon](Addon.md) principle is based on the development of a workbench compl
 There are two types of addons:
 
 1.  [Macros](Macros.md): short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
-2.  _, you\'ll find the principle and a list of existing library.
+2.  [External workbenches](External_workbenches.md): collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
 
 ## Scripting
 
@@ -292,7 +292,7 @@ E finalmente, um dos recursos mais poderoso do FreeCAD é o ambiente de [ progra
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> User Documentation/pt](<img src="images/Property.png" style="width:16px"> User_Documentation/pt.md)
 
 ---
 [documentation index](../README.md) > Getting started/pt

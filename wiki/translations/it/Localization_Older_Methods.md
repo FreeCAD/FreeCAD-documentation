@@ -46,7 +46,7 @@ Le seguenti informazioni non devono più essere utilizzate ed è probabile che d
 
 ### Prerequisiti
 
-Per realizzare la traduzione del modulo dell\'applicazione servono delle utility fornite con *Qt*. Esse si possono scaricare da _:
+Per realizzare la traduzione del modulo dell\'applicazione servono delle utility fornite con *Qt*. Esse si possono scaricare da [Trolltech-Website](http://www.trolltech.com/products/qt/downloads), ma sono anche contenute in [LibPack](Third_Party_Libraries/it#LibPack.md):
 
 qmake: Genera i file del progetto
 lupdate: Estrae o aggiorna i testi originali del progetto tramite la scansione del codice sorgente
@@ -152,7 +152,7 @@ e eseguire pyrcc4 Draft.qrc -o qrc\_Draft.py che crea un grande file Python cont
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Localization Older Methods/it

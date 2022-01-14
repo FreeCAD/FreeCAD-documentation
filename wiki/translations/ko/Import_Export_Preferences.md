@@ -11,7 +11,7 @@ Not all import and export preferences tabs are available by default. For some a 
 
 ### TechDraw pages 
 
-The DXF and SVG preferences listed here are not used by the <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:24px;"> _ commands of the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md), or by the [TechDraw](TechDraw_Workbench.md) export option: **File → Export → Technical Drawing (*.svg *.dxf *.pdf)**.
+The DXF and SVG preferences listed here are not used by the <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:24px;"> [Export Page as SVG](TechDraw_ExportPageSVG.md) and <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:24px;"> [Export Page as DXF](TechDraw_ExportPageDXF.md) commands of the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw Workbench](TechDraw_Workbench.md), or by the [TechDraw](TechDraw_Workbench.md) export option: **File → Export → Technical Drawing (*.svg *.dxf *.pdf)**.
 
 ### OpenSCAD files 
 
@@ -28,7 +28,7 @@ See the following pages for additional information:
 
 ### DAE
 
-The _-based objects to the {{FileName|.dae}} format.
+The [Collada](http://en.wikipedia.org/wiki/COLLADA) DAE (Digital Asset Exchange) format is a standard file format for exchange of Mesh data. FreeCAD can import meshes from {{FileName|.dae}} files, and export [Shape](Part_Workbench.md)-based objects to the {{FileName|.dae}} format.
 
 Note for Linux users: To handle this file format FreeCAD requires the [pyCollada module](Extra_python_modules.md).
 
@@ -218,9 +218,9 @@ For the DXF format you can specify the following:
 
 ### IGES
 
-The _ file format, IGES development was stopped in 1996, but it is still supported by many CAD programs. IGES files have the {{FileName|.iges}} or {{FileName|.igs}} extension.
+The [Initial Graphics Exchange Specification](https://en.wikipedia.org/wiki/IGES) (IGES) file format is a file format that allows the digital exchange of information among CAD systems. After publication of the [STEP](Preferences_Editor#STEP.md) file format, IGES development was stopped in 1996, but it is still supported by many CAD programs. IGES files have the {{FileName|.iges}} or {{FileName|.igs}} extension.
 
-The tab *IGES* is only shown in the preferences if the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _, or <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) has been loaded in the current FreeCAD session.
+The tab *IGES* is only shown in the preferences if the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md), or <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) has been loaded in the current FreeCAD session.
 
 For the IGES format you can specify the following:
 
@@ -422,7 +422,7 @@ For export of the IFC format you can specify the following:
 
 ### INP
 
-INP is the input file format for the FEM software _ solver in the <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md).
+INP is the input file format for the FEM software [Abaqus](https://en.wikipedia.org/wiki/Abaqus). It is used for the [CalculiX](FEM_CalculiX.md) solver in the <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md).
 
 The tab *INP* is only shown in the preferences if the <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md) has been loaded in the current FreeCAD session.
 
@@ -448,7 +448,7 @@ For the INP format you can specify the following:
 
 ### Mesh Formats 
 
-Meshes are a special type of 3D object, composed of triangular faces connected by their _ to create and handle meshes. FreeCAD supports several mesh file formats.
+Meshes are a special type of 3D object, composed of triangular faces connected by their [vertices](Glossary#Vertex.md) and edges. They are widely used for [additive manufacturing](https://en.wikipedia.org/wiki/3D_printing). FreeCAD provides the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md) to create and handle meshes. FreeCAD supports several mesh file formats.
 
 The tab *Mesh Formats* is only shown in the preferences if the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md) has been loaded in the current FreeCAD session.
 
@@ -496,7 +496,7 @@ For the OCA format you can specify the following:
 
 The [Standard for The Exchange of Product model data](https://en.wikipedia.org/wiki/ISO_10303) (STEP) file format is an ISO standard for the computer-interpretable representation and exchange of product manufacturing information. STEP is commonly used to exchange 3D data between CAD software. STEP files have the {{FileName|.step}} or {{FileName|.stp}} extension. For compressed files the {{FileName|.stpz}} extension is used.
 
-The tab *STEP* is only shown in the preferences if the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _, or <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) has been loaded in the current FreeCAD session.
+The tab *STEP* is only shown in the preferences if the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md), or <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) has been loaded in the current FreeCAD session.
 
 For the STEP format you can specify the following:
 
@@ -624,7 +624,7 @@ For the SVG format you can specify the following:
 
 ### VTK
 
-The _ for the [post processing](FEM_Post_Processing_based_on_VTK.md) of simulation results.
+The [Visualization Toolkit](https://en.wikipedia.org/wiki/VTK) (VTK) is an open-source, freely available software system for 3D computer graphics, image processing and visualization. VTK files are used by the <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md) for the [post processing](FEM_Post_Processing_based_on_VTK.md) of simulation results.
 
 The tab *VTK* is only shown in the preferences if the <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md) has been loaded in the current FreeCAD session.
 
@@ -650,7 +650,7 @@ For the VTK format you can specify the following:
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md) [<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Import](Import_Workbench.md) > Import Export Preferences/ko

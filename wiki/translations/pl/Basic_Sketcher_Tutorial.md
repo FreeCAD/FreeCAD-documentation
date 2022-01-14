@@ -12,7 +12,7 @@
 
 Ten poradnik ma na celu zapoznanie czytelnika z podstawowym przepływem pracy środowiska <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Szkicownik](Sketcher_Workbench/pl.md).
 
-Środowisko pracy <img src=images/PartDesign_Pad.svg style="width:Szkicownik](Sketcher_Workbench/pl.md) funkcjonuje jako samodzielny moduł, dzięki czemu może być używany do rysowania podstawowych obiektów 2D *(płaskich)*. Jest on jednak najczęściej używany w połączeniu ze środowiskiem pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md). Zamknięty szkic jest zwykle używany do utworzenia powierzchni lub profilu, który ma zostać wyciągnięty do bryły [Zawartość](PartDesign_Body/pl.md) przy użyciu operacji takiej jak **[16px"> [Wyciągnij wybrany szkic](PartDesign_Pad/pl.md)**.
+Środowisko pracy [Szkicownik](Sketcher_Workbench/pl.md) funkcjonuje jako samodzielny moduł, dzięki czemu może być używany do rysowania podstawowych obiektów 2D *(płaskich)*. Jest on jednak najczęściej używany w połączeniu ze środowiskiem pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md). Zamknięty szkic jest zwykle używany do utworzenia powierzchni lub profilu, który ma zostać wyciągnięty do bryły [Zawartość](PartDesign_Body/pl.md) przy użyciu operacji takiej jak **[<img src=images/PartDesign_Pad.svg style="width:16px"> [Wyciągnij wybrany szkic](PartDesign_Pad/pl.md)**.
 
 Przećwiczymy:
 
@@ -29,7 +29,7 @@ Aby uzyskać bardziej szczegółowy opis szkicownika, przeczytaj stronę [Szkico
 
 ## Sposób postępowania 
 
-1\. Uruchom program FreeCAD, utwórz nowy pusty dokument przez menu **Plik → <img src=images/Std_New.svg style="width:16px"> [Nowy](Std_New/pl.md)**.
+1\. Uruchom program FreeCAD, utwórz nowy pusty dokument przez menu **Plik → [<img src=images/Std_New.svg style="width:16px"> [Nowy](Std_New/pl.md)**.
 
 :   1.1. Przełacz interfejs na środowisko pracy [Szkicownik](Sketcher_Workbench/pl.md) z [paska narzędzi Środowisko](Std_Workbench/pl.md), lub menu **[Widok](Std_View_Menu/pl.md) → Środowisko → Szkicownik**.
 
@@ -37,7 +37,7 @@ Kilka działań do zapamiętania:
 
 -   Naciśnij prawy przycisk myszy, lub naciśnij jeden raz klawisz **Esc** na klawiaturze, aby wyłączyć aktywne narzędzie w trybie edycji.
 -   Aby wyjść z trybu edycji szkicu, naciśnij przycisk **Zamknij** w [panelu zadań](task_panel.md), lub naciśnij dwukrotnie klawisz **Esc** na klawiaturze.
--   Aby ponownie wejść w tryb edycji, kliknij dwukrotnie na obiekt szkicu w <img src=images/Sketcher_EditSketch.svg style="width:widoku drzewa](Tree_view/pl.md), lub wybierz go, a następnie kliknij na przycisk **[16px">. [Edycja szkicu](Sketcher_EditSketch/pl.md)**.
+-   Aby ponownie wejść w tryb edycji, kliknij dwukrotnie na obiekt szkicu w [widoku drzewa](Tree_view/pl.md), lub wybierz go, a następnie kliknij na przycisk **[<img src=images/Sketcher_EditSketch.svg style="width:16px">. [Edycja szkicu](Sketcher_EditSketch/pl.md)**.
 
 ## Utwórz szkic 
 
@@ -69,7 +69,7 @@ w [panelu zadań](Task_panel/pl.md) widoku połączonego należy rozwinąć sekc
 :   3.3. Zbliż kursor do punktu początku szkicu, powinien zostać podświetlony, a przy kursorze <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> pojawi się ikona [wiązania żbieżności](Sketcher_ConstrainCoincident.md).
 :   3.4. Kliknij na punkt, a następnie przesuń kursor, aby rozpocząć rysowanie od niego nowej linii. Przesuń wskaźnik tak, aby linia miała długość około {{Value|30mm}}. Nie musisz być bardzo precyzyjny w tym kroku, po zakończeniu ustawimy odpowiedni wymiar.
 :   3.5. Powtórz tę procedurę jeszcze cztery razy, aby umieścić linie konstrukcji na wzór gwiazdy. Nie martw się zbytnio o ich rozmiar lub położenie, po prostu przedłuż je w czterech strefach.
-:   3.6. Aby wyjść z trybu konstrukcyjnego, po prostu kliknij ponownie na przycisk **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Przełącz tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)**.
+:   3.6. Aby wyjść z trybu konstrukcyjnego, po prostu kliknij ponownie na przycisk **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Przełącz tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)**.
 
 
 **Uwaga:**
@@ -93,21 +93,21 @@ Spójrz na sekcje **Wiązania** i **Elementy**, aby zobaczyć nowo utworzone wi�
 
 ## Geometria detalu 
 
-Geometria właściwa musi mieć kształt zamknięty, jeśli ma być użyta jako profil, który może być wytłaczany za pomocą takich narzędzi jak **<img src=images/PartDesign_Pad.svg style="width:16px"> [Projekt Części: Wyciągnij wybrany szkic](PartDesign_Pad/pl.md)**.
+Geometria właściwa musi mieć kształt zamknięty, jeśli ma być użyta jako profil, który może być wytłaczany za pomocą takich narzędzi jak **[<img src=images/PartDesign_Pad.svg style="width:16px"> [Projekt Części: Wyciągnij wybrany szkic](PartDesign_Pad/pl.md)**.
 
-Jeśli wcześniej nie opuściłeś tego trybu, upewnij się, że nie jesteś w trybie konstrukcji, klikając na przycisk **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Przełącz tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)**.
+Jeśli wcześniej nie opuściłeś tego trybu, upewnij się, że nie jesteś w trybie konstrukcji, klikając na przycisk **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Przełącz tryb konstrukcji](Sketcher_ToggleConstruction/pl.md)**.
 
 ### Łuki zewnętrzne 
 
 4\. Rysujemy okrąg.
 
-:   4.1. Kliknij w przycisk **<img src=images/Sketcher_Circle.svg style="width:16px"> [Utwórz okrąg w szkicowniku](Sketcher_CreateCircle/pl.md)**.
+:   4.1. Kliknij w przycisk **[<img src=images/Sketcher_Circle.svg style="width:16px"> [Utwórz okrąg w szkicowniku](Sketcher_CreateCircle/pl.md)**.
 :   4.2. Kliknij na **początek** szkicu, aby ustawić punkt środka okręgu.
 :   4.3. Kliknij w dowolnym miejscu w oknie [widoku 3D](3D_view/pl.md), aby ustawić promień obwodu jako odległość od punku początku. Zrób to w przybliżeniu - około {{Value|8mm}}. Wymiar ustawimy ponownie później.
 
 5\. Utwórz kilka łuków.
 
-:   5.1. Kliknij na przycisk **<img src=images/Sketcher_Arc.svg style="width:16px"> [Utwórz łuk w szkicowniku](Sketcher_CreateArc/pl.md)**.
+:   5.1. Kliknij na przycisk **[<img src=images/Sketcher_Arc.svg style="width:16px"> [Utwórz łuk w szkicowniku](Sketcher_CreateArc/pl.md)**.
 :   5.2. Przesuń kursor do punktu końcowego jednej z linii konstrukcyjnych i kliknij na nią. Spowoduje to ustawienie środkowego punktu łuku w pozycji <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [zbierznej](Sketcher_ConstrainCoincident/pl.md) z punktem końcowym tej linii.
 :   5.3. Kliknij raz w oknie [widoku 3D](3D_view/pl.md) w dowolnym miejscu, aby jednocześnie ustalić promień łuku i pierwszy z jego punktów końcowych. Wyznacz promień w przybliżeniu na wartość {{Value|8mm}}.
 :   5.4. Przesuń kursor w kierunku przeciwnym do ruchu wskazówek zegara, aby wyznaczyć łuk, który ma swoją wklęsłość skierowaną ku początkowi szkicu. Kliknij, aby ustawić ostateczny punkt końcowy łuku, definiując łuk, który w przybliżeniu rozciąga się na {{Value|180°}} lub połowę okręgu.
@@ -123,7 +123,7 @@ Jeśli wcześniej nie opuściłeś tego trybu, upewnij się, że nie jesteś w t
 
 6\. Rysujemy łuk pomiędzy każdą parą łuków zewnętrznych.
 
-:   6.1. Nadal przy aktywnym narzędziu **<img src=images/_Sketcher_Arc.svg style="width:16px"> [Utwórz łuk](Sketcher_CreateArc.md)** kliknij gdzieś pomiędzy dwoma łukami zewnętrznymi, ale w odstępie od początku szkicu, aby ustawić środek nowego łuku.
+:   6.1. Nadal przy aktywnym narzędziu **[<img src=images/_Sketcher_Arc.svg style="width:16px"> [Utwórz łuk](Sketcher_CreateArc.md)** kliknij gdzieś pomiędzy dwoma łukami zewnętrznymi, ale w odstępie od początku szkicu, aby ustawić środek nowego łuku.
 :   6.2. Kliknij w pobliżu punktu końcowego pierwszego z łuków zewnętrznych. Następnie przesuń kursor, aby przeciągnąć zakończenie tworzonego łuku w pobliże kolejnego punktu końca, sąsiedniego łuku zewnętrznego, tak jakbyś próbował połączyć punkty końcowe łuków zewnętrznych. Tym razem wklęsłość musi być tworzona w kierunku od punktu początku szkicu.
 :   6.3. Powtórz te kroki, tak aby każda para łuków zewnętrznych miała nowy łuk pomiędzy nimi. Nazwiemy nowo utworzone łuki, łukami wewnętrznymi.
 
@@ -155,7 +155,7 @@ Istnieją dwa główne rodzaje wiązań:
 7\. Wiązania geometrii linii i łuków.
 
 :   7.1 Zaznacz wszystkie pięć linii konstrukcyjnych. Wystarczy kliknąć tylko raz, by wybrać element.
-:   7.2. Naciśnij przycisk **<img src=images/Constraint_EqualLength.svg style="width:16px"> [Utwórz wiązanie równości](Sketcher_ConstrainEqual/pl.md)**.
+:   7.2. Naciśnij przycisk **[<img src=images/Constraint_EqualLength.svg style="width:16px"> [Utwórz wiązanie równości](Sketcher_ConstrainEqual/pl.md)**.
 :   
     **Uwaga:**utworzone zostaną cztery wiązania. Są one tworzone łańcuchowo, pierwsza linia ma taką samą długość jak druga, która ma taką samą długość jak trzecia, która ponownie ma taką samą długość jak czwarta, która z kolei ma taką samą długość jak piąta. Tak więc w tym przypadku, pierwsza i piąta mają tę samą długość.
 
@@ -164,7 +164,7 @@ Istnieją dwa główne rodzaje wiązań:
 
 
 :   7.3. Wybierz wszystkie pięć łuków zewnętrznych, te, które są umieszczone na końcu linii konstrukcyjnej.
-:   7.4. Naciśnij przycisk **<img src=images/Constraint_EqualLength.svg style="width:16px"> [Utwórz wiązanie równości](Sketcher_ConstrainEqual/pl.md)**.
+:   7.4. Naciśnij przycisk **[<img src=images/Constraint_EqualLength.svg style="width:16px"> [Utwórz wiązanie równości](Sketcher_ConstrainEqual/pl.md)**.
 :   7.5. Powtórz to ze wszystkimi łukami wewnętrznymi, tymi między łukami zewnętrznymi.
 :   
     **Uwaga:**ponowne wiązania mają charakter łańcuchowy. Dlatego wszystkie łuki zewnętrzne będą miały ten sam promień, a wszystkie łuki wewnętrzne będą miały ten sam promień. W tym momencie, konkretna wartość tych długości nie jest zdefiniowana. Możesz użyć kursora myszki do przeciągnięcia punktu i zobaczyć, jak szkic jest aktualizowany z uwzględnieniem istniejących wiązań.
@@ -174,7 +174,7 @@ Istnieją dwa główne rodzaje wiązań:
 
 
 :   7.6. Zaznacz linię konstrukcyjną, której pozycja jest najbliższa osi pionowej.
-:   7.7. Wybierz narzędzie **<img src=images/Constraint_Vertical.svg style="width:16px"> _ zostanie już umieszczony, utrzymując linię konstrukcyjną w pionie. W takim przypadku nie jest wymagane tworzenie dodatkowego <img alt="" src=images/_Constraint_Vertical.svg  style="width:32px;"> [wiązania pionowego](Sketcher_ConstrainVertical/pl.md).
+:   7.7. Wybierz narzędzie **[<img src=images/Constraint_Vertical.svg style="width:16px"> [Utwórz wiązanie pionowe](‎Sketcher_ConstrainVertical/pl.md)** *(opcjonalnie)*. Jeśli narysujesz linię konstrukcyjną w dół nad osią Y, automatycznie <img alt="" src=images/_Constraint_PointOnObject.svg  style="width:32px;"> [Punkt dotyczący wiązania z obiektem](Sketcher_ConstrainPointOnObject/pl.md) zostanie już umieszczony, utrzymując linię konstrukcyjną w pionie. W takim przypadku nie jest wymagane tworzenie dodatkowego <img alt="" src=images/_Constraint_Vertical.svg  style="width:32px;"> [wiązania pionowego](Sketcher_ConstrainVertical/pl.md).
 
 
 **Uwaga:**
@@ -184,7 +184,7 @@ w trakcie dodawania wiązań, w obszarze okna [widoku 3D](3D_view/pl.md), nad ry
 
 **Uwaga 2:**
 
-jeśli chcesz tymczasowo wyłączyć wiązanie, możesz zaznaczyć je i nacisnąć przycisk **<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Przełącz aktywność wiązania](Sketcher_ToggleActiveConstraint/pl.md)**. Gdy zechcesz zastosować je ponownie, wciśnij powtórnie ten sam przycisk.
+jeśli chcesz tymczasowo wyłączyć wiązanie, możesz zaznaczyć je i nacisnąć przycisk **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Przełącz aktywność wiązania](Sketcher_ToggleActiveConstraint/pl.md)**. Gdy zechcesz zastosować je ponownie, wciśnij powtórnie ten sam przycisk.
 
 <img alt="" src=images/05a_Sk01_Sketcher_equality_constraints_lines.png  style="width:" height="400px;"> <img alt="" src=images/05b_Sk01_Sketcher_equality_constraints_O-arcs.png  style="width:" height="400px;">
 
@@ -199,7 +199,7 @@ jeśli chcesz tymczasowo wyłączyć wiązanie, możesz zaznaczyć je i nacisną
 8\. Nakładamy wiązanie zbieżności na łuki.
 
 :   8.1. Zaznacz punkt końcowy łuku zewnętrznego i najbliższy mu punkt końcowy sąsiedniego łuku wewnętrznego.
-:   8.2. Wybierz narzędzie **<img src=images/Constraint_Tangent.svg style="width:16px"> [Utwórz styczną](Sketcher_ConstrainTangent/pl.md)**. Dzięki temu dwa sąsiadujące ze sobą łuki łagodnie połączą się w punktach końcowych.
+:   8.2. Wybierz narzędzie **[<img src=images/Constraint_Tangent.svg style="width:16px"> [Utwórz styczną](Sketcher_ConstrainTangent/pl.md)**. Dzięki temu dwa sąsiadujące ze sobą łuki łagodnie połączą się w punktach końcowych.
 
 8.3. Powtarzaj tą czynność dla poszczególnych punktów końcowych łuków, aż powstanie profil zamknięty.
 
@@ -225,13 +225,13 @@ Wiązania te definiują liczbowe odległości między dwoma punktami, oraz kąty
 9\. Ustalamy rozmiar linii konstrukcyjnych.
 
 :   9.1. Zaznacz linię konstrukcyjną związaną pionowo.
-:   9.2. Wybierz narzędzie **<img src=images/Constraint_VerticalDistance.svg style="width:16px"> [Ustal pionowa odległość ...](Sketcher_ConstrainDistanceY/pl.md)**
+:   9.2. Wybierz narzędzie **[<img src=images/Constraint_VerticalDistance.svg style="width:16px"> [Ustal pionowa odległość ...](Sketcher_ConstrainDistanceY/pl.md)**
 :   9.3. Ustaw długość na {{Value|30 mm}}. Ponieważ wszystkie linie konstrukcyjne są związane taką samą długością, wszystkie te linie dostosowują swoje rozmiary w tym samym czasie.
 
 10\. Ustawiamy kąt pomiędzy liniami konstrukcyjnymi.
 
 :   10.1. Zaznacz pionową linię konstrukcyjną i kolejna linię znajdującą się najbliżej niej.
-:   10.2. Wybierz narzędzie **<img src=images/Constraint_InternalAngle.svg style="width:16px"> [Ustaw kąt linii](Sketcher_ConstrainAngle/pl.md)**.
+:   10.2. Wybierz narzędzie **[<img src=images/Constraint_InternalAngle.svg style="width:16px"> [Ustaw kąt linii](Sketcher_ConstrainAngle/pl.md)**.
 :   10.3. Ustaw wartość kąta na {{Value|72°}}.
 :   10.4. Powtórz tę samą procedurę dla każdej pary sąsiadujących linii.
 :   
@@ -248,10 +248,10 @@ Wiązania te definiują liczbowe odległości między dwoma punktami, oraz kąty
 11\. Ustalamy rozmiar łuków.
 
 :   11.1. Zaznacz jeden z łuków zewnętrznych umieszczonych na końcu linii konstrukcyjnej.
-:   11.2. Wybierz narzędzie **<img src=images/Constraint_Radius.svg style="width:16px"> [Zwiąż łuk ...](Sketcher_ConstrainRadius/pl.md)**.
+:   11.2. Wybierz narzędzie **[<img src=images/Constraint_Radius.svg style="width:16px"> [Zwiąż łuk ...](Sketcher_ConstrainRadius/pl.md)**.
 :   11.3. Ustaw długość promienia na {{Value|8 mm}}. Ponieważ wszystkie łuki zewnętrzne są związane tym samym promieniem, wszystkie te łuki dostosowują rozmiary w tym samym czasie.
 :   11.4. Zaznacz jeden z łuków wewnętrznych, pomiędzy dwoma łukami zewnętrznymi.
-:   11.5. Wybierz narzędzie **<img src=images/Constraint_Radius.svg style="width:16px"> [Zwiąż łuk ...](Sketcher_ConstrainRadius/pl.md)**.
+:   11.5. Wybierz narzędzie **[<img src=images/Constraint_Radius.svg style="width:16px"> [Zwiąż łuk ...](Sketcher_ConstrainRadius/pl.md)**.
 :   11.6. Ustaw wartość promienia na {{Value|11mm}}. Ponieważ wszystkie łuki wewnętrzne są związane tym samym promieniem, wszystkie te łuki dostosowują rozmiary w tym samym czasie.
 
 <img alt="" src=images/08a_Sk01_Sketcher_radius_1_constraint.png  style="width:" height="400px;"> <img alt="" src=images/08b_Sk01_Sketcher_radius_2_constraint.png  style="width:" height="400px;">
@@ -261,7 +261,7 @@ Wiązania te definiują liczbowe odległości między dwoma punktami, oraz kąty
 *Szkic z wiązaniami promienia nałożonymi na łuki zewnętrzne ''(po lewej)'' i wewnętrzne ''(po prawej)''.*
 
 
-:   11.7. Na koniec wybierz koło ze środka szkicu, naciśnij przycisk **<img src=images/Constraint_Radius.svg style="width:16px"> [Zwiąż łuk ...](Sketcher_ConstrainRadius/pl.md)**, i podaj wartość {{Value|8mm}}.
+:   11.7. Na koniec wybierz koło ze środka szkicu, naciśnij przycisk **[<img src=images/Constraint_Radius.svg style="width:16px"> [Zwiąż łuk ...](Sketcher_ConstrainRadius/pl.md)**, i podaj wartość {{Value|8mm}}.
 
 Powinieneś zakończyć swoją pracę szkicem całkowicie związanym. Można to potwierdzić zauważając zmianę koloru geometrii głównej oraz komunikatem, który jest pokazany w polu [Widoku połączonego](Task_panel/pl.md).
 
@@ -277,8 +277,8 @@ Powinieneś zakończyć swoją pracę szkicem całkowicie związanym. Można to 
 
 :   12.1. Wyjdź z trybu edycji szkicu, naciskając przycisk **Zamknij** lub naciskając dwukrotnie klawisz **Esc**. Szkic powinien pojawić się w [widoku drzewa](tree_view/pl.md) oraz w oknie [widoku 3D](3D_view/pl.md).
 :   12.2. Przejdź do Środowiska pracy [Projekt Części](PartDesign_Workbench/pl.md).
-:   12.3. Po wybraniu szkicu w <img src=images/PartDesign_Body.svg style="width:widoku drzewa](Tree_view/pl.md) naciśnij **[16px"> [Stwórz nową zawartość](PartDesign_Body/pl.md)**, wybierz domyślną płaszczyznę *XY* i naciśnij **OK**. Szkic powinien pojawić się teraz wewnątrz obiektu.
-:   12.4. Wybierz szkic, a następnie naciśnij **<img src=images/PartDesign_Pad.svg style="width:16px"> [Wyciągnij wybrany szkic](PartDesign_Pad/pl.md)**, wybierz domyślne opcje i naciśnij przycisk **OK**, aby wykonać wyciągnięcie bryły.
+:   12.3. Po wybraniu szkicu w [widoku drzewa](Tree_view/pl.md) naciśnij **[<img src=images/PartDesign_Body.svg style="width:16px"> [Stwórz nową zawartość](PartDesign_Body/pl.md)**, wybierz domyślną płaszczyznę *XY* i naciśnij **OK**. Szkic powinien pojawić się teraz wewnątrz obiektu.
+:   12.4. Wybierz szkic, a następnie naciśnij **[<img src=images/PartDesign_Pad.svg style="width:16px"> [Wyciągnij wybrany szkic](PartDesign_Pad/pl.md)**, wybierz domyślne opcje i naciśnij przycisk **OK**, aby wykonać wyciągnięcie bryły.
 
 <img alt="" src=images/09b_Sk01_Sketcher_fully_constrained_clean.png  style="width:" height="400px;"> <img alt="" src=images/10_Sk01_Sketcher_solid_extrusion.png  style="width:" height="400px;">
 
@@ -302,7 +302,7 @@ Ograniczenie szkicu może być wykonane na wiele różnych sposobów. Ogólnie r
 
 }} {{Sketcher Tools navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Sketcher/pl](<img src="images/Property.png" style="width:16px"> Sketcher/pl.md)
 
 ---
 [documentation index](../README.md) > Basic Sketcher Tutorial/pl

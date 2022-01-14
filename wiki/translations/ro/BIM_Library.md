@@ -67,7 +67,7 @@ Instrumentul Bibliotecă vă permite să plasați, în modelul curent, un obiect
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
 [documentation index](../README.md) > [BIM](Category_BIM.md) > BIM Library/ro

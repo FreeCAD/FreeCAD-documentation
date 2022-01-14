@@ -18,7 +18,7 @@ Le **Lissage soustractif** crée un solide soustractif dans le corps actif en ef
 
 ### Processus de travail basé sur la boîte de dialogue 
 
-1.  Appuyez sur le bouton **<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Enlèvement de matière par lissage](PartDesign_SubtractiveLoft/fr.md)**.
+1.  Appuyez sur le bouton **[<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Enlèvement de matière par lissage](PartDesign_SubtractiveLoft/fr.md)**.
 2.  Dans la boîte de dialogue **Sélectionner une fonction**, sélectionnez une esquisse à utiliser comme objet de profil de base et cliquez sur **OK**.
     -   Il est également possible de sélectionner une seule esquisse ou la face d\'un objet 3D ({{Version/fr|0.20}}) avant d\'appuyer sur le bouton de lissage soustractif.
 3.  Dans **Paramètres de lissage**, appuyez sur le bouton **Ajouter une section**.
@@ -34,7 +34,7 @@ Le **Lissage soustractif** crée un solide soustractif dans le corps actif en ef
     -   L\'esquisse sélectionnée au départ deviendra l\'objet de profil de base à l\'étape suivante.
     -   Les esquisses sélectionnées après la première deviendront les sections du lissage. Ici aussi, l\'ordre de sélection est important: la deuxième esquisse sélectionnée deviendra la première section de lissage, celle sélectionnée comme troisième deviendra la deuxième section et ainsi de suite. (Vous pouvez modifier l\'ordre des sections à tout moment ultérieurement dans la boîte de dialogue de lissage en faisant glisser les sections de la liste vers la position souhaitée. {{Version/fr|0.19}})
     -   La première ou la dernière sélection peut aussi être une face d\'un objet 3D ({{Version/fr|0.20}})
-2.  Appuyez sur le bouton **<img src=images/_PartDesign_SubtractiveLoft.svg style="width:24px"> [Enlèvement de matière par lissage](PartDesign_SubtractiveLoft/fr.md)**.
+2.  Appuyez sur le bouton **[<img src=images/_PartDesign_SubtractiveLoft.svg style="width:24px"> [Enlèvement de matière par lissage](PartDesign_SubtractiveLoft/fr.md)**.
 3.  Définissez les options si nécessaire et cliquez sur **OK**.
 
 ## Options

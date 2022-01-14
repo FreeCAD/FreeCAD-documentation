@@ -19,9 +19,9 @@ Applique des [Contraintes de coïncidence](Sketcher_ConstrainCoincident/fr.md) a
 
 1.  Sélectionnez les éléments non connectés dans la [vue 3D](3D_view/fr.md) ou dans le [Panneau des tâches](Task_Panel/fr.md) sur le côté gauche de l\'écran
 2.  Lancez la commande de plusieurs manières:
-    -   Appuyez sur le bouton **<img src=images/Sketcher_ConnectLines.svg style="width:16px"> [Raccorder les arêtes ](Sketcher_ConnectLines/fr.md)** dans la barre d\'outils.
+    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConnectLines.svg style="width:16px"> [Raccorder les arêtes ](Sketcher_ConnectLines/fr.md)** dans la barre d\'outils.
     -   Utilisez le raccourci clavier **Ctrl** + **Maj** + **K**.
-    -   Utilisez l\'entrée **Sketch → Outils d'esquisse → <img src=images/Sketcher_ConnectLines.svg style="width:16px"> Raccorder les arêtes** dans le menu supérieur.
+    -   Utilisez l\'entrée **Sketch → Outils d'esquisse → [<img src=images/Sketcher_ConnectLines.svg style="width:16px"> Raccorder les arêtes** dans le menu supérieur.
 
 ## Remarques
 

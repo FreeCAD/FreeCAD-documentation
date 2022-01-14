@@ -21,7 +21,7 @@ Il comando **Std ViewZoomIn** ingrandisce la [vista 3D](3D_view/it.md) attiva.
 
 ## Uso
 
--   Andare in **Visualizza → Zoom‏‎ → <img src=images/Zoom-in.svg style="width:16px"> Zoom In** o premere **Ctrl** + **+**.
+-   Andare in **Visualizza → Zoom‏‎ → [<img src=images/Zoom-in.svg style="width:16px"> Zoom In** o premere **Ctrl** + **+**.
 -   La vista può anche essere ingrandita con la rotellina del mouse.
 
 

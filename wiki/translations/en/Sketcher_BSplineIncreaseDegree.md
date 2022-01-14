@@ -16,7 +16,7 @@ Increases the degree (order) of a B-spline (see [this page](B-Splines.md) for mo
 B-splines are basically a combination of [Bézier curves](https://en.wikipedia.org/wiki/Bezier_curve#Constructing_B%C3%A9zier_curves) (nicely explained in [this](https://www.youtube.com/watch?v=bE1MrrqBAl8) and [this](https://www.youtube.com/watch?v=xXJylM2S72s) video).
 
 In this cubic spline (degree 3) there are 3 segments, meaning 3 curves are connected at 2 knots
-(degree is indicated by the number, indication can be changed using the toolbar button **<img src=images/Sketcher_BSplineDegree.svg style="width:24px"> [Show/hide B-spline degree](Sketcher_BSplineDegree.md)**):
+(degree is indicated by the number, indication can be changed using the toolbar button **[<img src=images/Sketcher_BSplineDegree.svg style="width:24px"> [Show/hide B-spline degree](Sketcher_BSplineDegree.md)**):
 
 <img alt="" src=images/Sketcher_BSplineDegree3.png  style="width:400px;"> 
 *B-spline with degree 3 and 2 knots that each have the multiplicity 1.*
@@ -37,7 +37,7 @@ You can see that now each segment has 2 control points and the knots are coincid
 
 ## Usage
 
-1.  Select an edge from an existing B-spline, and press **<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> '''Increase B-spline degree'''**.
+1.  Select an edge from an existing B-spline, and press **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> '''Increase B-spline degree'''**.
 
 
 

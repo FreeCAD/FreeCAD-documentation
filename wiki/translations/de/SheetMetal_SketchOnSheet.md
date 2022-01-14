@@ -11,7 +11,7 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> _ verwendet.
+Der Befehl <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Skizze auf Blech](SheetMetal_SketchOnSheet/de.md) erzeugt Ausschnitte entlang der abgekanteten Wände eines Blechobjektes. Für das Lochbild wird eine <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Skizze](Sketcher_Workbench/de.md) verwendet.
 
 Im Gegensatz zu dem Befehl <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [PartDesign Tasche](PartDesign_Pocket/de.md), wo Löcher entlang der Skizzennormalen (lokale Z-Achse) ausgeschnitten werden, verhält sich dieses Werkzeug, als ob es das Blechobjekt abwickeln, die Löcher ausschneiden und letztlich die Abwicklung rückgängig machen würde.
 
@@ -98,7 +98,7 @@ Dieses Dingens besteht aus einem Blechprofil mit hinzugefügten Löchern.  Es m�
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal SketchOnSheet/de

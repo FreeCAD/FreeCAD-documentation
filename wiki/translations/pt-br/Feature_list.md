@@ -25,7 +25,7 @@ Esta é uma extensa, porém incompleta, lista de recursos que o FreeCAD disponib
 
 -   ![](images/Feature4.jpg ) Uma **arquitetura modular** que permite utilizar extensões (plug-ins) para adicionar funcionalidade ao núcleo principal do aplicativo. Uma extensão pode ser tão complexa quanto um novo aplicativo programado em C ++ ou tão simples quanto um [script Python](Power_users_hub/pt-br.md), ou [macro](macros/pt-br.md) gravado automaticamente. Você tem acesso completo a quase qualquer parte do FreeCAD a partir do interpretador Python embutido, pode criar macros ou scripts externos, seja para realizar a [criação e transformação de geometrias](Topological_data_scripting/pt-br.md), a representação 2D ou 3D destas geometrias ([Grafo de cena](scenegraph/pt-br.md)) ou mesmo alterar a [interface do FreeCAD](PySide/pt-br.md).
 
--   !_}} nativo do FreeCAD. O nível de compatibilidade entre o FreeCAD e um determinado formato de arquivo pode variar, pois depende do módulo que o implementa.
+-   ![](images/Feature5.jpg ) Importação e exportação de **formatos padrão** como [STEP](http://en.wikipedia.org/wiki/ISO_10303), [IGES](http://en.wikipedia.org/wiki/IGES), [OBJ](http://en.wikipedia.org/wiki/Obj), [STL](http://en.wikipedia.org/wiki/STL_%28file_format%29), [DXF](http://en.wikipedia.org/wiki/Dxf), [SVG](http://en.wikipedia.org/wiki/Svg), [STL](http://en.wikipedia.org/wiki/STL_(file_format)), [DAE](http://en.wikipedia.org/wiki/COLLADA), [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) ou [OFF](http://people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](http://en.wikipedia.org/wiki/NASTRAN), [VRML](http://en.wikipedia.org/wiki/VRML) além do formato de arquivo {{FileName|[FCStd](File_Format_FCStd.md)}} nativo do FreeCAD. O nível de compatibilidade entre o FreeCAD e um determinado formato de arquivo pode variar, pois depende do módulo que o implementa.
 
 -   ![](images/Feature7.jpg ) [Sketcher](Sketcher_Workbench/pt-br.md), um módulo de desenho com gestão integrada de restrições geométricas, para que você crie formas 2D que podem obedecer a tais restrições. As formas 2D restritas construídas com o Sketcher podem ser usadas como base para construir outros objetos em todo o FreeCAD.
 
@@ -107,7 +107,7 @@ Usuários avançados criaram várias [bancadas de trabalho externas](external_wo
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/pt-br

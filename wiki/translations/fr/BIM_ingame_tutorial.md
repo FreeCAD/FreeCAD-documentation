@@ -1,7 +1,7 @@
 # <img alt="" src=images/BIM_tutorial_screenshot.png  style="width:1024px;"> BIM ingame tutorial/fr
 
 
-{{BIMTutorialAction|descr=Il s'agit du tutoriel de l'_ qui informe de la condition qui doit être remplie. Les images doivent avoir une largeur de 300 pixels. Aucune image SVG ne doit être utilisée sur cette page car elles ne sont pas prises en charge par le widget QTextBrowser}}
+{{BIMTutorialAction|descr=Il s'agit du tutoriel de l'[atelier BIM](BIM_Workbench/fr.md). Il n'est pas destiné à être lu ici sur le wiki, mais plutôt à être démarré depuis FreeCAD, dans l'atelier BIM, sous le menu '''Aide -> Tutoriel BIM'''. Il comprend une série d'étapes à effectuer par l'utilisateur. Chaque étape se termine par une instance du modèle [<nowiki>{{BIMTutorialAction|descr|goal1|test1|goal2|test2}}</nowiki>](Template_BIMTutorialAction.md) qui informe de la condition qui doit être remplie. Les images doivent avoir une largeur de 300 pixels. Aucune image SVG ne doit être utilisée sur cette page car elles ne sont pas prises en charge par le widget QTextBrowser}}
 
 ### Bienvenue dans l\'atelier BIM ! 
 
@@ -440,7 +440,7 @@ Les feuilles imprimables sont créées et gérées avec l\'[atelier TechDraw](Te
 
 Le [IFC, ou Industry Foundation Classes](https://fr.wikipedia.org/wiki/Industry_Foundation_Classes), est un protocole et un format de fichier visant à échanger le modèle BIM entre les applications. En enregistrant votre modèle en tant que fichier IFC, vous pourrez l\'ouvrir dans la plupart ou toutes les autres applications BIM open source ou propriétaires.
 
-Les opérations d\'importation/exportation IFC dans FreeCAD sont effectuées par un logiciel externe appelé _ pour en savoir plus sur la façon de l\'installer.
+Les opérations d\'importation/exportation IFC dans FreeCAD sont effectuées par un logiciel externe appelé [IfcOpenShell](http://www.ifcopenshell.org/). Lisez la page [Arch IFC](Arch_IFC/.md) pour en savoir plus sur la façon de l\'installer.
 
 Une fois IfcOpenShell installé, exporter votre modèle sous forme de fichier IFC est aussi simple que de sélectionner les objets que vous souhaitez exporter, ou simplement le conteneur supérieur (groupe ou partie de construction) qui contient tous les autres objets que vous souhaitez exporter, et utilisez le menu **Fichier-\> Exporter** et choisissez le format de fichier IFC.
 
@@ -504,7 +504,7 @@ FreeCAD est un logiciel gratuit, développé par une communauté passionnée d\'
 
 {{BIMTutorialAction|descr=Aucune action à effectuer pour cette étape}}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [BIM](Category_BIM.md) > BIM ingame tutorial/fr

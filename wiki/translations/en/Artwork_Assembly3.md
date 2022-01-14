@@ -32,7 +32,7 @@ These icons are in the indicated source path of Realthunder\'s Link Branch:
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Assembly](Category_Assembly.md)
 
 ---
 [documentation index](../README.md) > [Assembly](Category_Assembly.md) > Artwork Assembly3/en

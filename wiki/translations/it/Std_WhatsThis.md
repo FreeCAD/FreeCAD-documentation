@@ -26,7 +26,7 @@ Questo strumento fornisce informazioni su un comando selezionato aprendo offline
 
 <div class="mw-translate-fuzzy">
 
-1.  Premere il pulsante **<img src=images/Std_WhatsThis.png style="width:16px"> [Cos'è questo?](Std_WhatsThis/it.md)**.
+1.  Premere il pulsante **[<img src=images/Std_WhatsThis.png style="width:16px"> [Cos'è questo?](Std_WhatsThis/it.md)**.
 2.  Fare clic su un\'icona della barra degli strumenti o su una voce del menu.
 
 

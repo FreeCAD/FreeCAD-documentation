@@ -192,7 +192,7 @@ Subiectul este pe Forum la [here](http://forum.freecadweb.org/viewtopic.php?f=23
 
 
 
-_ _ _ _
+[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md) [<img src="images/Property.png" style="width:16px"> Arch](Category_Arch.md) [<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [BIM](Category_BIM.md) > Import/Export IFC - compiling IfcOpenShell/ro

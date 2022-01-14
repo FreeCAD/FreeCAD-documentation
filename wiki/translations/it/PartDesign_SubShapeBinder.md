@@ -44,18 +44,18 @@ Può anche legare oggetti nidificati all\'interno di [Parti](Std_Part/it.md) e s
 
 <div class="mw-translate-fuzzy">
 
-1.  Iniziare con un **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/PartDesign_AdditivePrism.svg style="width:Corpo](PartDesign_Body/it.md)** già in atto, contenente una singola [funzione](PartDesign_Feature/it.md), per esempio, un **[16px">  [prisma additivo](PartDesign_AdditivePrism/it.md)**.
-2.  Creare un secondo corpo, contenente una singola funzione, per esempio, un **<img src=images/PartDesign_AdditiveBox.svg style="width:16px"> [cubo additivo](PartDesign_AdditiveBox/it.md)**. Questo sarà il corpo attivo.
-3.  Selezionare l\'intero primo corpo e premere **<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [SubShapeBinder](PartDesign_SubShapeBinder/it.md)**.
+1.  Iniziare con un **[<img src=images/PartDesign_Body.svg style="width:16px"> [Corpo](PartDesign_Body/it.md)** già in atto, contenente una singola [funzione](PartDesign_Feature/it.md), per esempio, un **[<img src=images/PartDesign_AdditivePrism.svg style="width:16px">  [prisma additivo](PartDesign_AdditivePrism/it.md)**.
+2.  Creare un secondo corpo, contenente una singola funzione, per esempio, un **[<img src=images/PartDesign_AdditiveBox.svg style="width:16px"> [cubo additivo](PartDesign_AdditiveBox/it.md)**. Questo sarà il corpo attivo.
+3.  Selezionare l\'intero primo corpo e premere **[<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [SubShapeBinder](PartDesign_SubShapeBinder/it.md)**.
 4.  Modificare le proprietà di questo oggetto legato, ad esempio il suo posizionamento.
-5.  Usarlo con un\'altra operazione, come ad esempio una **<img src=images/PartDesign_Boolean.svg style="width:16px"> [operazione booleana](PartDesign_Boolean/it.md)**.
+5.  Usarlo con un\'altra operazione, come ad esempio una **[<img src=images/PartDesign_Boolean.svg style="width:16px"> [operazione booleana](PartDesign_Boolean/it.md)**.
 
 
 </div>
 
 ## Proprietà
 
-_, nell\'[editor delle proprietà](property_editor/it.md) sono disponibili le seguenti proprietà.
+[SubShapeBinder](PartDesign_SubShapeBinder/it.md) deriva da una [Funzione Part](Part_Feature/it.md) (classe `Part::Feature`). Oltre alle proprietà elencate in [Funzione Part](Part_Feature/it.md), nell\'[editor delle proprietà](property_editor/it.md) sono disponibili le seguenti proprietà.
 
 ### Dati
 

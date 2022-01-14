@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Acest instrument identifică și selectează obiecte non solide/neprintabile 3D (non-_ .
+Acest instrument identifică și selectează obiecte non solide/neprintabile 3D (non-[manifold](http://en.wikipedia.org/wiki/Manifold)) meshes in a selected group of selected [Mesh](Mesh_Workbench.md) .
 
 
 </div>

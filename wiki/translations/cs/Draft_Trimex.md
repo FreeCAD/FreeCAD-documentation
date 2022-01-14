@@ -1,6 +1,6 @@
 # Draft Trimex/cs
 ---
-- GuiCommand:/cs   Name:Draft Trimex   Name/cs:Kreslení Zakrácení/Prodloužení   Workbenches:_---
+- GuiCommand:/cs   Name:Draft Trimex   Name/cs:Kreslení Zakrácení/Prodloužení   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení → Zakrácení/Prodloužení   Shortcut:T R   SeeAlso:[DílVysunutí](Part_Extrude/cs.md)---
 
 
 </div>

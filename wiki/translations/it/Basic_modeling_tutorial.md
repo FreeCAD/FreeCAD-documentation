@@ -3,7 +3,7 @@
 |Topic= Introduzione alla modellazione
 |Level= Base
 |Time= 15 minuti
-|Author=_
+|Author=[NormandC](User_Normandc.md)
 |FCVersion=qualsiasi
 |Files=nessuno
 }}
@@ -20,7 +20,7 @@ Salvare sovente il proprio lavoro, e di tanto in tanto salvarlo con un nome dive
 
 ## Introduzione alle tecniche di modellazione 
 
-La prima tecnica di modellazione solida (quella di base) è la _. Si lavora con le forme primitive, quali cubi, cilindri, sfere e coni, combinandole tra di loro per costruire la propria geometria, sottraendo una forma dall\'altra, o intersecandole. Questi strumenti sono disponibili nel [Modulo Parte](Part_Workbench/it.md). Inoltre è possibile applicare delle trasformazioni alle forme, come per esempio, dei raccordi o degli smussi sui bordi. Anche questi strumenti si trovano nel [Modulo Parte](Part_Workbench/it.md).
+La prima tecnica di modellazione solida (quella di base) è la [Geometria Costruttiva dei Solidi (CSG)](http://es.wikipedia.org/wiki/Geometr%C3%ADa_constructiva_de_s%C3%B3lidos). Nel wiki c\'è anche una spiegazione dettagliata (nel contesto di FreeCAD) sulla [Geometria costruttiva dei solidi](Constructive_solid_geometry/it.md). Si lavora con le forme primitive, quali cubi, cilindri, sfere e coni, combinandole tra di loro per costruire la propria geometria, sottraendo una forma dall\'altra, o intersecandole. Questi strumenti sono disponibili nel [Modulo Parte](Part_Workbench/it.md). Inoltre è possibile applicare delle trasformazioni alle forme, come per esempio, dei raccordi o degli smussi sui bordi. Anche questi strumenti si trovano nel [Modulo Parte](Part_Workbench/it.md).
 
 La seconda tecnica usa strumenti più avanzati. Si inizia disegnando un profilo 2D che successivamente viene estruso o rivoluzionato.
 

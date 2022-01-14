@@ -1,12 +1,12 @@
 # Workbenches/sv
 <div class="mw-translate-fuzzy">
 
-FreeCAD, som många moderna design applikationer som _, är baserade på konceptet _. En arbetsbänk kan anses vara ett set verktyg, grupperade för en viss uppgift. I en traditionell möbelverkstad, så skulle du ha ett arbetsbord för den person som arbetar med trä, ett annat bord för den som arbetar med metalldelar, och kanske ett tredje för den som monterar ihop allting.
+FreeCAD, som många moderna design applikationer som [Revit](wikipedia_Revit.md), är baserade på konceptet [Arbetsbänk](wikipedia_Workbench.md). En arbetsbänk kan anses vara ett set verktyg, grupperade för en viss uppgift. I en traditionell möbelverkstad, så skulle du ha ett arbetsbord för den person som arbetar med trä, ett annat bord för den som arbetar med metalldelar, och kanske ett tredje för den som monterar ihop allting.
 
 
 </div>
 
-FreeCAD, like many modern design applications such as _ or _, is based on the concept of _. A workbench can be considered as a set of tools specially grouped for a certain task. In a traditional furniture workshop, you would have a work table for the person who works with wood, another one for the one who works with metal pieces, and maybe a third one for the guy who mounts all the pieces together.
+FreeCAD, like many modern design applications such as [Revit](wikipedia_Revit.md) or [CATIA](wikipedia_CATIA.md), is based on the concept of [Workbench](wikipedia_Workbench.md). A workbench can be considered as a set of tools specially grouped for a certain task. In a traditional furniture workshop, you would have a work table for the person who works with wood, another one for the one who works with metal pieces, and maybe a third one for the guy who mounts all the pieces together.
 
 I FreeCAD, så används samma koncept . Verktyg är grupperade i arbetsbänkar i enlighet med de uppgifter de är relaterade till.
 
@@ -108,7 +108,7 @@ Nya arbetsbänkar är under utveckling, håll utkik!
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/sv

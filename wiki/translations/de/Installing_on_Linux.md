@@ -6,7 +6,7 @@
 Die Installation von FreeCAD auf den bekanntesten Linux Systemen wurde nun von der Gemeinschaft befürwortet, und FreeCAD sollte direkt über den in Ihrer Distribution verfügbaren Paketmanager verfügbar sein. Die FreeCAD Mannschaft stellt auch einige zur Verfügung:
 
 -   \"Offizielle\" Pakete, wenn neue Versionen erstellt werden
--   Experimentelle _ und [Ubuntu Snaps](Ubuntu_Snap.md) zum Testen nicht ausgereifter Funktionen.
+-   Experimentelle [Personal Package Archive](https://help.ubuntu.com/community/PPA) (PPA) Repositorien, [AppImages](AppImage.md) und [Ubuntu Snaps](Ubuntu_Snap.md) zum Testen nicht ausgereifter Funktionen.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -333,7 +333,7 @@ Wenn aus irgendeinem Grund eine der oben genannten Methoden nicht verwendet werd
 
 </div>
 
-Wenn du die entsprechende .deb Datei für dein System heruntergeladen und das _ Paket installiert hast (was meistens der Fall ist), navigiere einfach zum Verzeichnis, wo du die Datei heruntergeladen hast und doppelklicke darauf. Die notwendigen Abhängigkeiten werden automatisch von deinem Systempaketmanager erledigt. Alternativ kannst du sie auch vom Terminal aus installieren, indem du zu der Stelle gehst, an der du die Datei heruntergeladen hast, und dann tippst:
+Wenn du die entsprechende .deb Datei für dein System heruntergeladen und das [Gdebi](wikipedia:Debian#GDEBI.md) Paket installiert hast (was meistens der Fall ist), navigiere einfach zum Verzeichnis, wo du die Datei heruntergeladen hast und doppelklicke darauf. Die notwendigen Abhängigkeiten werden automatisch von deinem Systempaketmanager erledigt. Alternativ kannst du sie auch vom Terminal aus installieren, indem du zu der Stelle gehst, an der du die Datei heruntergeladen hast, und dann tippst:
 
 
 ```python
@@ -376,7 +376,7 @@ Wenn Du FreeCAD installiert hast, ist es Zeit für die [ersten Schritte](Getting
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Installing on Linux/de

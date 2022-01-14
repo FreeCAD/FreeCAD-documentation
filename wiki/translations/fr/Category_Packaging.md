@@ -5,7 +5,7 @@ This category collects pages related to packing FreeCAD for different platforms,
 
 [AppImage/fr](AppImage/fr.md) , [Debian development/fr](Debian_development/fr.md) , [Debian Unstable/fr](Debian_Unstable/fr.md) , [Git buildpackage/fr](Git_buildpackage/fr.md) , [Linux packaging/fr](Linux_packaging/fr.md) , [Packaging/fr](Packaging/fr.md) , [Windows packaging/fr](Windows_packaging/fr.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer\_Documentation/fr](<img src="images/Property.png" style="width:16px"> Developer_Documentation/fr.md)
 
 ---
 [documentation index](../README.md) > Category:Packaging/fr

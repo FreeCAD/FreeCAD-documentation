@@ -13,7 +13,7 @@
 
 <div class="mw-translate-fuzzy">
 
-你对 FreeCAD 感兴趣，可能因为你有技术绘图经验，例如使用过 _，包含大多数 2D CAD 应用程序中都有的工具。
+你对 FreeCAD 感兴趣，可能因为你有技术绘图经验，例如使用过 [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD) 等软件。 或者因为你了解设计，更喜欢在实际制造之前先把它们绘制出来。无论哪种情况，FreeCAD 都具有比较传统的工作台：[Draft 工作台](Draft_Workbench/zh-cn.md)，包含大多数 2D CAD 应用程序中都有的工具。
 
 
 </div>
@@ -21,7 +21,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Draft 工作台虽然继承了传统 2D CAD 的工作方式，但并不局限于 2D 领域。Draft 工作台的所有工具都可以在整个 3D 空间中工作。许多 Draft 工具，例如，<img alt="" src=images/Draft_Move.png  style="width:16px;"> _ FreeCAD 中使用广泛，因为比起手动更改位置参数，Move 和 Rotate 更直观。
+Draft 工作台虽然继承了传统 2D CAD 的工作方式，但并不局限于 2D 领域。Draft 工作台的所有工具都可以在整个 3D 空间中工作。许多 Draft 工具，例如，<img alt="" src=images/Draft_Move.png  style="width:16px;"> [Move](Draft_Move/zh-cn.md) 和 <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Rotate在](Draft_Rotate/zh-cn.md) FreeCAD 中使用广泛，因为比起手动更改位置参数，Move 和 Rotate 更直观。
 
 
 </div>
@@ -29,7 +29,7 @@ Draft 工作台虽然继承了传统 2D CAD 的工作方式，但并不局限于
 
 <div class="mw-translate-fuzzy">
 
-在 Draft 工作台提供的工具中，你会发现传统的绘图工具，像<img alt="" src=images/Draft_Line.png  style="width:16px;"> _, or <img alt="" src=images/Draft_Wire.png  style="width:16px;"> _, <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> _, a _, <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> _, a [working plane/grid system](Draft_SelectPlane/zh-cn.md)，让你精确定义正在工作的平面，以及一个完整的 [snapping system](Draft_Snap/zh-cn.md) ，使得相对于彼此绘制和定位元素非常容易。
+在 Draft 工作台提供的工具中，你会发现传统的绘图工具，像<img alt="" src=images/Draft_Line.png  style="width:16px;"> [Line](Draft_Line/zh-cn.md)， <img alt="" src=images/Draft_Circle.png  style="width:16px;"> [Circle](Draft_Circle/zh-cn.md), or <img alt="" src=images/Draft_Wire.png  style="width:16px;"> [Wire](Draft_Wire/zh-cn.md) (polyline), modification tools like <img alt="" src=images/Draft_Move.png  style="width:16px;"> [Move](Draft_Move/zh-cn.md), <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Rotate](Draft_Rotate/zh-cn.md) or <img alt="" src=images/Draft_Offset.png  style="width:16px;"> [Offset](Draft_Offset/zh-cn.md), a [working plane/grid system](Draft_SelectPlane/zh-cn.md)，修改工具之类，像<img alt="" src=images/Draft_Move.png  style="width:16px;"> [Move](Draft_Move/zh-cn.md), <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Rotate](Draft_Rotate/zh-cn.md) or <img alt="" src=images/Draft_Offset.png  style="width:16px;"> [Offset](Draft_Offset/zh-cn.md), a [working plane/grid system](Draft_SelectPlane/zh-cn.md)，让你精确定义正在工作的平面，以及一个完整的 [snapping system](Draft_Snap/zh-cn.md) ，使得相对于彼此绘制和定位元素非常容易。
 
 
 </div>
@@ -84,7 +84,7 @@ Draft 工作台虽然继承了传统 2D CAD 的工作方式，但并不局限于
 <div class="mw-translate-fuzzy">
 
 -   这就是我们现在所需要的，所以我们可以关闭构造模式。检查一下所有构造几何体是否已放入 \"Construction\" 组中，这样可以轻松地将其全部隐藏起来，甚至可以在以后完全删除它。
--   现在用 <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> _ 已打开，因为我们需要捕捉到线条和矩形的交叉点。绘制如下两条线，单击圈出轮廓的所有点。要使它们闭合，请再次单击第一个点，或触发 **Close** 按钮。
+-   现在用 <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Wire](Draft_Wire/zh-cn.md) 工具绘制两面墙壁。确保 <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:16px;"> [intersection snap](Draft_Snap/zh-cn.md) 已打开，因为我们需要捕捉到线条和矩形的交叉点。绘制如下两条线，单击圈出轮廓的所有点。要使它们闭合，请再次单击第一个点，或触发 **Close** 按钮。
 
 
 </div>
@@ -157,7 +157,7 @@ Draft 工作台虽然继承了传统 2D CAD 的工作方式，但并不局限于
 
 <div class="mw-translate-fuzzy">
 
--   然而，使用 Draft 工作台最重要的是要知道，这里创建的几何体可以用作基础，或轻易地拉伸成 3D 对象。你可以使用 _ 工具。或者，留在 Draft 工作台中，用 <img alt="" src=images/Draft_Trimex.png  style="width:16px;"> [Trimex](Draft_Trimex/zh-cn.md) (Trim/Extend/Extrude) 工具。它在面具下执行的是 **Part Extrusion**，但是更符合 \"Draft 方式\"，也就是说，允许用图形的方式指示和捕捉拉伸的长度。尝试一下拉伸本例中做过的墙壁，如下所示。
+-   然而，使用 Draft 工作台最重要的是要知道，这里创建的几何体可以用作基础，或轻易地拉伸成 3D 对象。你可以使用 [Part 工作台](Part_Workbench/zh-cn.md) 中的<img alt="" src=images/Part_Extrude.png  style="width:16px;">[Part\_Extrude](Part_Extrude/zh-cn.md) 工具。或者，留在 Draft 工作台中，用 <img alt="" src=images/Draft_Trimex.png  style="width:16px;"> [Trimex](Draft_Trimex/zh-cn.md) (Trim/Extend/Extrude) 工具。它在面具下执行的是 **Part Extrusion**，但是更符合 \"Draft 方式\"，也就是说，允许用图形的方式指示和捕捉拉伸的长度。尝试一下拉伸本例中做过的墙壁，如下所示。
 -   选中对象的一个面后，按下 <img alt="" src=images/Draft_SelectPlane.png  style="width:16px;"> [working plane](Draft_SelectPlane/zh-cn.md) 按钮，可以将工作平面放置在任何位置。因此可以在不同的平面上绘制 Draft 对象，例如在墙面上，之后便可以将它们拉伸成 3D 固体。尝试一下将工作平面设置在墙壁的顶面上，然后就地绘制几个矩形。
 
 
@@ -209,7 +209,7 @@ Draft 工作台虽然继承了传统 2D CAD 的工作方式，但并不局限于
 
 </div>
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md) [<img src="images/Property.png" style="width:16px"> Draft](Category_Draft.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional 2D drafting/zh-cn

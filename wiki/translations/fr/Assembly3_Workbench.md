@@ -450,8 +450,8 @@ Il existe de nombreuses façons de créer un assemblage avec Assembly3. Voici la
 -   Changez pour l\'atelier <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3](Assembly3_Workbench/fr.md).
 -   Sélectionnez **<img src="images/Assembly_New_Assembly.svg" width=16px> [Create assembly](Assembly3_CreateAssembly/fr.md)
 **
--   Changez pour l\'atelier <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ et une <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Cube](Part_Box/fr.md)
--   <img alt="" src=images/Std_Save.svg  style="width:16px;"> _ et <img alt="" src=images/Std_Open.svg  style="width:16px;"> [Ouvrez](Std_Open/fr.md) le fichier de nouveau.
+-   Changez pour l\'atelier <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench/fr.md) et ajoutez un <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [Cylindre](Part_Cylinder/fr.md) et une <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Cube](Part_Box/fr.md)
+-   <img alt="" src=images/Std_Save.svg  style="width:16px;"> [Sauvegardez](Std_Save/fr.md) le fichier avec le nom que vous voulez. <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:16px;"> [Fermez](Std_CloseActiveWindow/fr.md) et <img alt="" src=images/Std_Open.svg  style="width:16px;"> [Ouvrez](Std_Open/fr.md) le fichier de nouveau.
 
 L\'arborescence devrait ressembler à ceci (0.20.pre et Link Branch) :
 
@@ -596,7 +596,7 @@ Une façon de résoudre ce problème consiste simplement à supprimer toutes les
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > Assembly3 Workbench/fr

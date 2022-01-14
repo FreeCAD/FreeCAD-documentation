@@ -12,7 +12,7 @@
 
 La commande **Créer un maillage** crée des objets [maillés](mesh/fr.md) non paramétriques, [Mesh Features](Mesh_Feature/fr.md), à partir de la [forme](shape/fr.md) d\'objets ([Part Features](Part_Feature/fr.md)).
 
-L\'opération inverse est _.
+L\'opération inverse est [Part Forme à partir du maillage](Part_ShapeFromMesh/fr.md) depuis l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md).
 
 ## Utilisation
 

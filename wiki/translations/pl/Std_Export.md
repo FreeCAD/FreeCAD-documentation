@@ -19,7 +19,7 @@ Polecenie **Std: Export** eksportuje wybrane obiekty do innego formatu pliku. Ob
 1.  Wybierz jeden lub więcej obiektów. Aby uniknąć eksportu niewidocznych lub zduplikowanych obiektów:
     -   Uważaj, kiedy używasz kombinacji **Ctrl**+**A** do zaznaczania wszystkich obiektów. Spowoduje to również zaznaczenie obiektów niewidocznych.
     -   Wybierz [Projekt części: Zawartość](PartDesign_Body/pl.md), wybierając tylko sam korpus lub jego ostatnią cechę.
-    -   Wybierz _, wybierając tylko sam obiekt nadrzędny lub znajdujące się w nim obiekty.
+    -   Wybierz [Std: Group](Std_Group/pl.md) lub [Std: Część](Std_Part/pl.md), wybierając tylko sam obiekt nadrzędny lub znajdujące się w nim obiekty.
     -   Nie używaj polecenia [Std: Zaznacz wszystko](Std_SelectAll/pl.md), ponieważ wybierze ono również podelementy PartDesign: Bodies.
     -   Z tego samego powodu należy unikać polecenia [Std BoxSelection](Std_BoxSelection.md) w wersji FreeCAD 0.18 i wcześniejszych.
 2.  Istnieje kilka sposobów na wywołanie tej komendy:
@@ -52,7 +52,7 @@ Polecenie **Std: Export** eksportuje wybrane obiekty do innego formatu pliku. Ob
 
 }}  
 
-_
+[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Std Export/pl

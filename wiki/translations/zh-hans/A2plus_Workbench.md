@@ -253,7 +253,7 @@ The degrees of freedom labels can be removed by clicking the button <img alt="" 
 
 ### Convert absolute Paths to relative Ones 
 
-With the menu **A2plus → Misc → <img src=images/A2p_SetRelativePathes.svg style="width:24px"> Convert absolute paths of imported parts to relative ones** you can convert absolute paths of imported parts to relative ones.
+With the menu **A2plus → Misc → [<img src=images/A2p_SetRelativePathes.svg style="width:24px"> Convert absolute paths of imported parts to relative ones** you can convert absolute paths of imported parts to relative ones.
 
 ## 参考
 
@@ -347,7 +347,7 @@ Solve automatically if a constraint property is changed : The solver will automa
 
 -   *\'使用实体联合体来导入零件和子装配*
     所有导入的零件将直接作为联合体放在一起。
-    如果只允许使用一个实体，此功能对于_。 另一种方法是稍后创建 [整个部件的外形](#Shape_of_whole_Assembly.md)。
+    如果只允许使用一个实体，此功能对于[有限元模拟或](FEM_Workbench/zh-hans.md)[3D打印很有用](Manual_Preparing_models_for_3D_printing.md)。 另一种方法是稍后创建 [整个部件的外形](#Shape_of_whole_Assembly.md)。
 
 
 </div>
@@ -415,12 +415,12 @@ A2plus offers to automatically check the right direction for **all** constraints
 <div class="mw-translate-fuzzy">
 
 如果在导入到A2plus部件后错过了零件的某些特征，请检查属性**[提示](PartDesign_MoveTip.md)**。
-A2plus会导入具有所有特征的零件实体特征。 这是明智的，因为将提示设置为某个特征意味着提示背后的所有特征都不应出现在最终零件中。 因此，如果您丢失了A2plus中的零件特征，请通过工具栏按钮<img alt="" src=images/A2p_EditPart.svg  style="width:24px;">打开零件，然后选择一个实体并查看其属性 **Tip**。 如果提示不在所需的功能上，请右键单击该提示应位于的特征，然后选择**<img src=images/PartDesign_MoveTip.png style="width:24px">设置提示**。 最后，保存零件并使用工具栏按钮 <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">重新加载部件。
+A2plus会导入具有所有特征的零件实体特征。 这是明智的，因为将提示设置为某个特征意味着提示背后的所有特征都不应出现在最终零件中。 因此，如果您丢失了A2plus中的零件特征，请通过工具栏按钮<img alt="" src=images/A2p_EditPart.svg  style="width:24px;">打开零件，然后选择一个实体并查看其属性 **Tip**。 如果提示不在所需的功能上，请右键单击该提示应位于的特征，然后选择**[<img src=images/PartDesign_MoveTip.png style="width:24px">设置提示**。 最后，保存零件并使用工具栏按钮 <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">重新加载部件。
 
 
 </div>
 
-A2plus imports bodies of parts with all their features up to the tip feature. This is sensible because setting the tip to a certain feature means that all features behind the tip should not appear in the final part. So if you miss a part feature in A2plus, open the part via the toolbar button <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">, then select a body and look at its property **Tip**. If the tip is not at the feature where you want it, right-click on the feature where the tip should be and choose **<img src=images/PartDesign_MoveTip.svg style="width:24px"> Set tip**. Finally save the part and reload the assembly using the toolbar button <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">.
+A2plus imports bodies of parts with all their features up to the tip feature. This is sensible because setting the tip to a certain feature means that all features behind the tip should not appear in the final part. So if you miss a part feature in A2plus, open the part via the toolbar button <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">, then select a body and look at its property **Tip**. If the tip is not at the feature where you want it, right-click on the feature where the tip should be and choose **[<img src=images/PartDesign_MoveTip.svg style="width:24px"> Set tip**. Finally save the part and reload the assembly using the toolbar button <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">.
 
 ### 修复部件树
 
@@ -428,7 +428,7 @@ A2plus imports bodies of parts with all their features up to the tip feature. Th
 
 ### Migrating old A2plus assemblies 
 
-Assemblies created with A2plus older than March 2019 do not show the correct icons for imported parts and have obsolete properties. These assemblies can be migrated to A2plus version 0.4.35 and newer using the menu **A2plus → Misc → <img src=images/A2p_Upgrade.svg style="width:24px"> Migrate proxies of imported parts**. After doing this, you must save and reopen your assembly file.
+Assemblies created with A2plus older than March 2019 do not show the correct icons for imported parts and have obsolete properties. These assemblies can be migrated to A2plus version 0.4.35 and newer using the menu **A2plus → Misc → [<img src=images/A2p_Upgrade.svg style="width:24px"> Migrate proxies of imported parts**. After doing this, you must save and reopen your assembly file.
 
 ### 避免使用重音符号
 
@@ -787,7 +787,7 @@ This is an A2plus-specific command. It solves the assembly constraints of the as
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > A2plus Workbench/zh-hans

@@ -1,7 +1,7 @@
 # Online Help Toc/pt
-Este é a tabela de conteúdos usada para a construção automática do sistema *\'Ajuda Online* do FreeCAD. Uma versão para impressão deste manual está também disponível na página _, incluindo os fóruns e grupos de conversação.
+Este é a tabela de conteúdos usada para a construção automática do sistema *\'Ajuda Online* do FreeCAD. Uma versão para impressão deste manual está também disponível na página [releases page](https://github.com/FreeCAD/FreeCAD/releases). Se tiver alguma questão ou precisar de ajuda com o FreeCAD, consulte a página [ajuda](Help/pt.md), incluindo os fóruns e grupos de conversação.
 
-Existe outro índice para o _.
+Existe outro índice para o [FreeCAD MANUAL](Manual_Introduction.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -145,7 +145,7 @@ Existe outro índice para o _.
 
 
 
-_ _
+[Documentação](<img src="images/Property.png" style="width:16px"> Documentation/pt.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/pt

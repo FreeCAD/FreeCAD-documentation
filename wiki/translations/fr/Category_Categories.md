@@ -3,16 +3,16 @@ Vous êtes ici sur le **plus haut gradin, des pages des catégories**, qui conti
 Veuillez, utiliser des catégories, pour classer tous les articles.
 Utilisez les outils suivants pour travailler avec les :
 
--   toutes les catégories définies, parcourir la hiérarchie en cours **ici**, ou avoir un coup d\'oeil sur la _.
--   touts les **articles** qui ne sont **pas classés**, utiliser la _.
--   toutes les **catégories** qui sont **non classées**, utiliser la _.
--   toutes les **images** qui sont **non classées**, utiliser la _.
+-   toutes les catégories définies, parcourir la hiérarchie en cours **ici**, ou avoir un coup d\'oeil sur la [liste de toutes les catégories](Special:Uncategorizedpages/fr.md).
+-   touts les **articles** qui ne sont **pas classés**, utiliser la [liste des pages de catégories](Special:Uncategorizedpages/fr.md).
+-   toutes les **catégories** qui sont **non classées**, utiliser la [liste des catégories inclassables](Special:Uncategorizedcategories/fr.md).
+-   toutes les **images** qui sont **non classées**, utiliser la [liste des images non classées](Special:Uncategorizedimages/fr.md).
 
 ### Contents:
 
 , , , , , , , , , , , , , , , , , , , ,
 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[<img src="images/Property.png" style="width:16px"> Categories/fr](<img src="images/Property.png" style="width:16px"> Categories/fr.md) [<img src="images/Property.png" style="width:16px"> Addons/fr](<img src="images/Property.png" style="width:16px"> Addons/fr.md) [<img src="images/Property.png" style="width:16px"> Administration/fr](<img src="images/Property.png" style="width:16px"> Administration/fr.md) [<img src="images/Property.png" style="width:16px"> API/fr](<img src="images/Property.png" style="width:16px"> API/fr.md) [<img src="images/Property.png" style="width:16px"> Categories/fr](<img src="images/Property.png" style="width:16px"> Categories/fr.md) [<img src="images/Property.png" style="width:16px"> Command Reference/fr](<img src="images/Property.png" style="width:16px"> Command_Reference/fr.md) [<img src="images/Property.png" style="width:16px"> Developer/fr](<img src="images/Property.png" style="width:16px"> Developer/fr.md) [<img src="images/Property.png" style="width:16px"> Documentation/fr](<img src="images/Property.png" style="width:16px"> Documentation/fr.md) [<img src="images/Property.png" style="width:16px"> Help/fr](<img src="images/Property.png" style="width:16px"> Help/fr.md) [<img src="images/Property.png" style="width:16px"> Hubs/fr](<img src="images/Property.png" style="width:16px"> Hubs/fr.md) [<img src="images/Property.png" style="width:16px"> Icon/fr](<img src="images/Property.png" style="width:16px"> Icon/fr.md) [<img src="images/Property.png" style="width:16px"> Image/fr](<img src="images/Property.png" style="width:16px"> Image/fr.md) [<img src="images/Property.png" style="width:16px"> Macros/fr](<img src="images/Property.png" style="width:16px"> Macros/fr.md) [<img src="images/Property.png" style="width:16px"> News/fr](<img src="images/Property.png" style="width:16px"> News/fr.md) [<img src="images/Property.png" style="width:16px"> Python Code/fr](<img src="images/Property.png" style="width:16px"> Python_Code/fr.md) [<img src="images/Property.png" style="width:16px"> Repository/fr](<img src="images/Property.png" style="width:16px"> Repository/fr.md) [<img src="images/Property.png" style="width:16px"> Roadmap/fr](<img src="images/Property.png" style="width:16px"> Roadmap/fr.md) [<img src="images/Property.png" style="width:16px"> Sandbox/fr](<img src="images/Property.png" style="width:16px"> Sandbox/fr.md) [<img src="images/Property.png" style="width:16px"> Template/fr](<img src="images/Property.png" style="width:16px"> Template/fr.md) [<img src="images/Property.png" style="width:16px"> Tutorials/fr](<img src="images/Property.png" style="width:16px"> Tutorials/fr.md) [<img src="images/Property.png" style="width:16px"> UnfinishedDocu/fr](<img src="images/Property.png" style="width:16px"> UnfinishedDocu/fr.md) [<img src="images/Property.png" style="width:16px"> Wiki/fr](<img src="images/Property.png" style="width:16px"> Wiki/fr.md)
 
 ---
 [documentation index](../README.md) > [Addons/fr]] , ](Category_Addons/fr]] , .md) > Category:Categories/fr

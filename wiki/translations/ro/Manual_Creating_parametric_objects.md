@@ -1,7 +1,7 @@
 # Manual:Creating parametric objects/ro
 {{Manual:TOC/ro}}
 
-În _, Am văzut cum este creată geometrie Pieselor și cum este afișată aceasta pe ecran, atașând-o la un documente obeict \"dumb\" (non-parametric). Acest lucru este obositor când vrem să schimbăm forma acestui obiect. Va trebui să creăm o nouă formă, apoi să o atribuim din nou obiectului nostru.
+În [previous chapter](Manual_Creating_and_manipulating_geometry.md), Am văzut cum este creată geometrie Pieselor și cum este afișată aceasta pe ecran, atașând-o la un documente obeict \"dumb\" (non-parametric). Acest lucru este obositor când vrem să schimbăm forma acestui obiect. Va trebui să creăm o nouă formă, apoi să o atribuim din nou obiectului nostru.
 
 Cu toate acestea, am văzut, de asemenea, în toate capitolele anterioare ale acestui manual cât de puternice sunt obiectele parametrice. Trebuie doar să schimbăm o proprietate, iar forma se recalculează în timp real.
 
@@ -122,7 +122,7 @@ Rețineți că, dacă doriți să distribuiți fișiere create cu acest nou inst
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Manual:Creating parametric objects/ro

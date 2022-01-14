@@ -18,12 +18,12 @@ The following are derived directly from [Part Feature](Part_Feature.md):
 ## Применение
 
 1.  Switch to the [PartDesign Workbench](PartDesign_Workbench.md).
-2.  Press **<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**.
+2.  Press **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**.
 3.  Select the Origin of the Body, and make it visible by pressing the **Space** bar in your keyboard.
-4.  Press **<img src=images/PartDesign_Plane.svg style="width:16px"> [PartDesign Plane](PartDesign_Plane.md)** to open the plane [task panel](task_panel.md).
+4.  Press **[<img src=images/PartDesign_Plane.svg style="width:16px"> [PartDesign Plane](PartDesign_Plane.md)** to open the plane [task panel](task_panel.md).
 5.  In the [3D view](3D_view.md), click on one of the standard planes, for example, the XY plane. Then press **OK** to close the task panel.
-6.  Now in the <img src=images/PartDesign_NewSketch.svg style="width:tree view](tree_view.md), select the newly created DatumPlane, and then press **[16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)**.
-7.  Create a closed wire, and then use **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Pad](PartDesign_Pad.md)** to extrude the sketch, and create an initial solid.
+6.  Now in the [tree view](tree_view.md), select the newly created DatumPlane, and then press **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)**.
+7.  Create a closed wire, and then use **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Pad](PartDesign_Pad.md)** to extrude the sketch, and create an initial solid.
 
 Now you can move and rotate the DatumPlane as you wish, by changing its properties in the [property editor](property_editor.md), and the Sketch and Pad will follow its new [Placement](Placement.md).
 
@@ -43,7 +43,7 @@ Since they appeared in v0.17, datum objects were intended to be used inside [Par
 
 }} {{Document objects navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Datum/ru

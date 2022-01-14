@@ -59,7 +59,7 @@ Aby automatycznie wygenerować arkusz rysunkowy z widokami standardowymi, użyj 
 
 ### Inne
 
-Jeśli szukasz przełączania persektywnego i ortogonalnego w widoku 3D, sprawdź strony _
+Jeśli szukasz przełączania persektywnego i ortogonalnego w widoku 3D, sprawdź strony [Std: Widok perspektywy](Std_PerspectiveCamera/pl.md) i [Std: Widok ortogonalny](Std_OrthographicCamera/pl.md)
 
 
 

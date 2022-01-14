@@ -34,7 +34,7 @@ Este un instrument pentru a împărți forme prin intersecția cu alte forme. De
 
 </div>
 
-There are two commands to slice a shape: <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> _. They both create a \'Slice\' parametric feature, that puts the sliced pieces into a compound. However, <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Part Slice Apart](Part_SliceApart.md) explodes the resulting compound into separate objects. \"Slice to compound\" is fully-parametric, and causes no trouble as the number of pieces changes. \"Slice apart\" will not update the number of objects as the number of pieces changes.
+There are two commands to slice a shape: <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Part Slice apart](Part_SliceApart.md) and <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Slice to compound](Part_Slice.md). They both create a \'Slice\' parametric feature, that puts the sliced pieces into a compound. However, <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Part Slice Apart](Part_SliceApart.md) explodes the resulting compound into separate objects. \"Slice to compound\" is fully-parametric, and causes no trouble as the number of pieces changes. \"Slice apart\" will not update the number of objects as the number of pieces changes.
 
 
 <div class="mw-translate-fuzzy">

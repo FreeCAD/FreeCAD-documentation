@@ -3,7 +3,7 @@
 
 ## Einführung
 
-Eine _ zeigen, haben normalerweise eine TopoForm.
+Eine [Part TopoForm](Part_TopoShape/de.md), oder formal eine `Part::TopoShape`, ist eine Klasse, die eine parametrische *\'topologische Form* in der Software definiert. Objekte im Dokument, die etwas in der [3D Ansicht](3D_view/de.md) zeigen, haben normalerweise eine TopoForm.
 
 Die topologischen Formen sowie deren Methoden werden durch den [OpenCASCADE Technologie](OpenCASCADE/de.md) Kernel (OCCT) definiert. FreeCAD verwendet diese Formen und baut [Anwendung DokumentObjekte](App_DocumentObject/de.md) um sie herum.
 
@@ -13,7 +13,7 @@ Eine andere Art von Klasse ist die des [Polygonnetzes](Mesh/de.md); diese Klasse
 
 
 
-*Links: parametrische _, definiert durch Knoten und und dreieckigen Oberflächen.*
+*Links: parametrische [Part_TopoForm](Part_TopoShape/de.md), definiert durch Eigenschaften. Rechts: nichtparametrisches [Polygonnetz](Mesh/de.md), definiert durch Knoten und und dreieckigen Oberflächen.*
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -64,7 +64,7 @@ obj.Shape.exportStep("my_file.step")
 obj.Shape.exportStl("my_file.stl")
 ```
 
-Eine vollständige Liste der Attribute und Methoden kannst Du in der <img src=images/Std_PythonHelp.svg style="width:Quelldokumentation](Source_documentation/de.md) und dem **[16px"> [Std PythonHilfe](Std_PythonHelp/de.md)** Werkzeug nachschlagen.
+Eine vollständige Liste der Attribute und Methoden kannst Du in der [Quelldokumentation](Source_documentation/de.md) und dem **[<img src=images/Std_PythonHelp.svg style="width:16px"> [Std PythonHilfe](Std_PythonHelp/de.md)** Werkzeug nachschlagen.
 
 Du kannst eine schnelle Zusammenfassung aller Methoden erhalten ddurch Verwendung der in Python eingebauten `help()` Funktion. 
 ```python

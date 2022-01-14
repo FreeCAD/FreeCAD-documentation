@@ -8,7 +8,7 @@
 
 ### Prefață
 
-Această pagină colectează toate informațiile despre solver CalculiX _, cel mai utilizat și cel mai bine dezvoltat solver din modulul FEM. În funcție de sistemul de operare pe care îl lucrați cu dvs., trebuie să instalați mai întâi CalculiX. Verificați [ FEM Install](FEM_Install.md).
+Această pagină colectează toate informațiile despre solver CalculiX [http://www.calculix.de/ CalculiX](http://www.calculix.de/_CalculiX.md), cel mai utilizat și cel mai bine dezvoltat solver din modulul FEM. În funcție de sistemul de operare pe care îl lucrați cu dvs., trebuie să instalați mai întâi CalculiX. Verificați [ FEM Install](FEM_Install.md).
 
 
 </div>
@@ -87,7 +87,7 @@ Reaction forces can be found in ccx\_dat\_file which contains reaction force com
 
 }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Poweruser\_Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
 
 ---
 [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > FEM CalculiX/ro

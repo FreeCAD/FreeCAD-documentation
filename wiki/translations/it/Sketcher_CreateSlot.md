@@ -28,7 +28,7 @@ When starting the tool, the mouse pointer changes to a white cross with a red sl
 
 <div class="mw-translate-fuzzy">
 
--   Premere il pulsante **<img src=images/Sketcher_CreateSlot.svg style="width:16px"> Crea asola**,
+-   Premere il pulsante **[<img src=images/Sketcher_CreateSlot.svg style="width:16px"> Crea asola**,
 -   Cliccare un punto per definire il centro di uno dei semicerchi,
 -   Muovere il mouse e cliccare per stabilire un punto finale del semicerchio opposto.
 -   Premere **Esc** o cliccare sul tasto destro del nouse per uscire dalla funzione.

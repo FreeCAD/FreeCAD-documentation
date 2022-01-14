@@ -25,7 +25,7 @@ Die Webseite stellt auch ein Repositorium [BOLTSFC](https://github.com/boltspart
 
 ## Anwendung
 
-Detaillierte Informationen zur Verwendung von BOLTS gibt es in der _ der Webseite (erst teilweise auf Deutsch):
+Detaillierte Informationen zur Verwendung von BOLTS gibt es in der [Documentation section](https://github.com/boltsparts/BOLTSFC/blob/master/README.md) der Webseite (erst teilweise auf Deutsch):
 
 -   Installation von BOLTS für FreeCAD
 -   Einrichtung eines Knopfes in einer Werkzeugleiste

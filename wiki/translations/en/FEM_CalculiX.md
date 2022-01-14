@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This page collects information on the _** for structural and thermo-mechanical analysis as of FreeCAD 0.17. Depending on the operating system you are working with, you\'ll need to install CalculiX before running your first simulation. Please see [FEM Install](FEM_Install.md).
+This page collects information on the [CalculiX](http://www.calculix.de/) finite element solver, the default solver in the **<img src="images/Workbench_FEM.svg" width=24px> [FEM Workbench](FEM_Workbench.md)** for structural and thermo-mechanical analysis as of FreeCAD 0.17. Depending on the operating system you are working with, you\'ll need to install CalculiX before running your first simulation. Please see [FEM Install](FEM_Install.md).
 
 The solver is able to do linear and non-linear calculations, for static, dynamic, and thermal problems. The solver operates on an Abaqus input file (`.inp`), which means it can be used with different pre-processors that support this format. The program includes its own graphical preprocessor which, however, is not used by FreeCAD, only the solver itself.
 
@@ -71,7 +71,7 @@ Reaction forces can be found in ccx\_dat\_file which contains reaction force com
 
 }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Poweruser\_Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
 
 ---
 [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > FEM CalculiX/en

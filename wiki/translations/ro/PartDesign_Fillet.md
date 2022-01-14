@@ -119,7 +119,7 @@ Read more in [topological naming problem](topological_naming_problem.md).
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul **_ [Fillet](_PartDesign_Fillet.md)** poate fi utilizat într-o macrocomandă, și, din consola Pythonutilizând următaorea funcție :
+Instrumentul **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.png.md) [Fillet](_PartDesign_Fillet.md)** poate fi utilizat într-o macrocomandă, și, din consola Pythonutilizând următaorea funcție :
 
 
 </div>

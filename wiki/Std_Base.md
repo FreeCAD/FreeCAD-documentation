@@ -56,7 +56,7 @@ The standard menu is composed of 7 sub-menus. Each sub-menu has a dedicated page
 
  {{Std Base navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base

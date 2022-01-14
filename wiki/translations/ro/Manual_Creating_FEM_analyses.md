@@ -6,7 +6,7 @@ MEF înseamnă [Finite Element Method](https://en.wikipedia.org/wiki/Finite_elem
 
 <div class="mw-translate-fuzzy">
 
-Obtaining such simulation is done in FreeCAD with the _ chapter, and finally calculating the simulation.
+Obtaining such simulation is done in FreeCAD with the [FEM Workbench](FEM_Workbench.md). There are a number of steps: Preparing the geometry, setting its material, performing the meshing, division into smaller parts, like we did in the [Preparing objects for 3D printing](Manual_Preparing_models_for_3D_printing.md) chapter, and finally calculating the simulation.
 
 
 </div>
@@ -24,14 +24,14 @@ Obtaining such simulation is done in FreeCAD with the _ chapter, and finally cal
 
 <div class="mw-translate-fuzzy">
 
-The simulation itself is done by another piece of software, that is used by FreeCAD to obtain the results. As there are several interesting open source FEM simulation applications available, the _.
+The simulation itself is done by another piece of software, that is used by FreeCAD to obtain the results. As there are several interesting open source FEM simulation applications available, the [FEM Workbench](FEM_Workbench.md) allows you to choose between them. However, currently only [CalculiX](http://www.calculix.de/) is fully implemented. Another piece of software, called [NetGen](https://sourceforge.net/projects/netgen-mesher/), which is responsible for generating the subdivision mesh, is also required. Detailed instructions to install these two components are provided [in the FreeCAD documentation](FEM_Install.md).
 
 
 </div>
 
 ### Preparing the geometry 
 
-We will start with the house we modeled in the _ chapter. However, some changes have to be made to make the model suitable for FEM calculations. This involves, basically, discarding the objects that we don\'t want to include in the calculation, such as the door and window, and joining all the remaining objects into one.
+We will start with the house we modeled in the [BIM modeling](Manual_BIM_modeling.md) chapter. However, some changes have to be made to make the model suitable for FEM calculations. This involves, basically, discarding the objects that we don\'t want to include in the calculation, such as the door and window, and joining all the remaining objects into one.
 
 -   Load the [house model](https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/house.FCStd) we modeled earlier
 -   Delete or hide the page object, the section planes and the dimensions, leaving only our model
@@ -51,7 +51,7 @@ We will start with the house we modeled in the _ chapter. However, some changes 
 
 <div class="mw-translate-fuzzy">
 
--   The FEM Workbench can currently only calculate deformations on a single object. Therefore, we need to join our two objects (the wall and the slab). Switch to the _. We have now obtained a fused object:
+-   The FEM Workbench can currently only calculate deformations on a single object. Therefore, we need to join our two objects (the wall and the slab). Switch to the [Part Workbench](Part_Workbench.md), select the two objects, and press the <img alt="" src=images/Part_Union.png  style="width:16px;"> [Union](Part_Union.md). We have now obtained a fused object:
 
 
 </div>

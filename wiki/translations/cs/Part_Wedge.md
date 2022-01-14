@@ -1,6 +1,6 @@
 # Part Wedge/cs
 ---
-- GuiCommand:/cs   Name:Part Wedge   Name/cs:Díl_Klín   MenuLocation:Díl -> _---
+- GuiCommand:/cs   Name:Part Wedge   Name/cs:Díl_Klín   MenuLocation:Díl -> [|Workbenches:[[Part_Workbench/cs   Modul Díl](Part_CreatePrimitives/cs___Díl_Vytváření_zákl.geom.tvarů]] -> Klín.md)|SeeAlso:[Díl Vytváření zákl.geom.tvarů](Part_CreatePrimitives/cs.md)---
 
 
 </div>

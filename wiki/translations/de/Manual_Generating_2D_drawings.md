@@ -11,7 +11,7 @@ Der TechDraw Arbeitsbereich ermöglicht es dir, Blätter zu erstellen, die leer 
 
 Sobald die Zeichnungsblätter vollständig sind, können sie gedruckt oder als [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics), PDF oder [DXF](https://en.wikipedia.org/wiki/AutoCAD_DXF) Dateien exportiert werden.
 
-In der folgenden Übung werden wir sehen, wie eine einfache Zeichnung eines Stuhlmodells aus der _ Kapitel dieses Handbuchs), oder Du kannst einfach das Modell auf der Bibliothekswebseite oder über die direkten Verknüpfung am Ende dieses Kapitels herunterladen.
+In der folgenden Übung werden wir sehen, wie eine einfache Zeichnung eines Stuhlmodells aus der [FreeCAD Bibliothek](https://github.com/FreeCAD/FreeCAD-library) (Möbel → Stühle → IkeaÄhnlicherStuhl) erstellt wird. Die FreeCAD Bibliothek kann einfach zu Deiner FreeCAD Installation hinzugefügt werden (siehe das [FreeCAD installieren](Installing/de.md) Kapitel dieses Handbuchs), oder Du kannst einfach das Modell auf der Bibliothekswebseite oder über die direkten Verknüpfung am Ende dieses Kapitels herunterladen.
 
 ![](images/Exercise_TechDraw_01.svg )
 
@@ -44,11 +44,11 @@ In der folgenden Übung werden wir sehen, wie eine einfache Zeichnung eines Stuh
 
 ![](images/Exercise_TechDraw_04.png )
 
--   Beachte, dass es möglicherweise einfachere Wege gibt, die gewünschten Ansichten zu bekommen. Du kannst einfach _ die 3D-Ansicht deines Modells drehen und sobald du die gewünschte Ansicht hast, wähle das Modell in der Baumansicht aus und drücke <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> Neue Ansicht. Dadurch wird automatisch eine Ansicht mit den gewünschten Rotations- und Richtungseigenschaften eingefügt. Du kannst auch das <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:16px;"> [Projektionsgruppe](TechDraw_ProjectionGroup/de.md)-Werkzeug verwenden.
+-   Beachte, dass es möglicherweise einfachere Wege gibt, die gewünschten Ansichten zu bekommen. Du kannst einfach [rotieren](Manual:Navigating_in_the_3D_view/de.md) die 3D-Ansicht deines Modells drehen und sobald du die gewünschte Ansicht hast, wähle das Modell in der Baumansicht aus und drücke <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> Neue Ansicht. Dadurch wird automatisch eine Ansicht mit den gewünschten Rotations- und Richtungseigenschaften eingefügt. Du kannst auch das <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:16px;"> [Projektionsgruppe](TechDraw_ProjectionGroup/de.md)-Werkzeug verwenden.
 
 -   Wir können den Aspekt unserer Ansichten optimieren, wenn wir wollen, z.B. können wir ihre **Linienbreite** Eigenschaft (unter dem Ansichtsreiter in der Combo Ansicht) auf 0.5 ändern.
 
-Wir werden nun Bemaßungen und Hinweise auf unserer Zeichnung platzieren. Es gibt zwei Arten, Bemaßungen zu einem Modell hinzuzufügen: Eine ist, die Bemaßungen mit dem <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> _-Werkzeug (das mit einer Bemaßung oder einer Gruppe, die Bemaßungen enthält, benutzt werden kann) eine Ansicht dieser Bemaßungen auf unsererem Blatt zu platzieren, oder wir können mit dem [Zeichnungsbemaßungs Arbeitsbereich](https://github.com/hamish2014/FreeCAD_drawing_dimensioning), der aus den [FreeCAD Erweiterungen](https://github.com/FreeCAD/FreeCAD-addons) installierbar ist, Dinge direkt auf dem Zeichenblatt tun. Wir werden hier die letztere Methode benutzen.
+Wir werden nun Bemaßungen und Hinweise auf unserer Zeichnung platzieren. Es gibt zwei Arten, Bemaßungen zu einem Modell hinzuzufügen: Eine ist, die Bemaßungen mit dem <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> [Abmessung](Draft_Dimension/de.md) Werkzeug des [Entwurf Arbeitsbereich](Draft_Workbench/de.md) im 3D-Modell zu platzieren und dann mit dem <img alt="" src=images/TechDraw_DraftView.svg  style="width:16px;"> [Entwurfsansicht](TechDraw_DraftView/de.md)-Werkzeug (das mit einer Bemaßung oder einer Gruppe, die Bemaßungen enthält, benutzt werden kann) eine Ansicht dieser Bemaßungen auf unsererem Blatt zu platzieren, oder wir können mit dem [Zeichnungsbemaßungs Arbeitsbereich](https://github.com/hamish2014/FreeCAD_drawing_dimensioning), der aus den [FreeCAD Erweiterungen](https://github.com/FreeCAD/FreeCAD-addons) installierbar ist, Dinge direkt auf dem Zeichenblatt tun. Wir werden hier die letztere Methode benutzen.
 
 
 <div class="mw-translate-fuzzy">
@@ -65,9 +65,9 @@ Wir werden nun Bemaßungen und Hinweise auf unserer Zeichnung platzieren. Es gib
 
 <div class="mw-translate-fuzzy">
 
--   Wiederhole den Vorgang, bis alle Abmessungen, die du angeben möchtest, platziert sind. Verwende die <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> _ Werkzeuge nach Bedarf.
+-   Wiederhole den Vorgang, bis alle Abmessungen, die du angeben möchtest, platziert sind. Verwende die <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> [Vertike Abmessung](TechDraw_VerticalDimension/de.md) und <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:16px;"> [Horizontale Abmessung](TechDraw_HorizontalDimension/de.md) Werkzeuge nach Bedarf.
 -   Nimm dir eine Minute Zeit, um dir die [Eigenschaften](TechDraw_LengthDimension/de#Properties.md) des Bemaßungsobjekts in der Combo-Ansicht anzusehen.
--   Bitte beachte, dass bei der Bemaßung einer _ Werkzeug verwenden musst, um eine genaue Bemaßung zu erhalten.
+-   Bitte beachte, dass bei der Bemaßung einer [axonometrischen](https://en.wikipedia.org/wiki/Axonometric_projection) Ansicht (z.B. isometrische Ansicht) anstelle einer [Mehrfachansicht](https://en.wikipedia.org/wiki/Multiview_projection) Ansicht (z.B. Vorderansicht), wie wir es hier getan haben, du das <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:16px;"> [Dimension Link](TechDraw_LinkDimension.md) Werkzeug verwenden musst, um eine genaue Bemaßung zu erhalten.
 
 
 </div>
@@ -90,7 +90,7 @@ Wir werden nun Bemaßungen und Hinweise auf unserer Zeichnung platzieren. Es gib
     -   Stelle sicher, dass die Ansichtsrahmen, Beschriftungen und Knoten sichtbar sind. Wenn dies nicht der Fall ist, drücke die <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;">-Umschalttaste.
     -   Bearbeite den Text in jedem Abschnitt des Blatttitelblocks, indem du auf das kleine grüne Quadrat auf der linken Seite des Textes klickst.
 
-Unsere Seite kann nun ins SVG für eine weitere Verarbeitung in grafischen Anwendungen wie _ und wähle dann Menü **Datei → Export**. Das DXF-Format ist in fast allen vorhandenen 2D CAD Anwendungen importierbar. TechDraw-Seiten können auch direkt gedruckt oder in PDF exportiert werden.
+Unsere Seite kann nun ins SVG für eine weitere Verarbeitung in grafischen Anwendungen wie [Inkscape](http://www.inkscape.org) oder ins DXF exportiert werden. Wähle die Seite in der [Baumansicht](Tree_view/de.md) und wähle dann Menü **Datei → Export**. Das DXF-Format ist in fast allen vorhandenen 2D CAD Anwendungen importierbar. TechDraw-Seiten können auch direkt gedruckt oder in PDF exportiert werden.
 
 **Herunterladen**
 
@@ -113,7 +113,7 @@ Unsere Seite kann nun ins SVG für eine weitere Verarbeitung in grafischen Anwen
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Generating 2D drawings/de

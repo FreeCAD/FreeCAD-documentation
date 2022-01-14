@@ -256,7 +256,7 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 ## Andere verfügbare Standards 
 
--   _: entsprechend dem American National Standards Institute [Architektur](https://de.wikipedia.org/wiki/American_National_Standards_Institute)-Standard
+-   [ANSI-Vorlagen](ANSI_templates/de.md): entsprechend dem American National Standards Institute [ANSI](https://de.wikipedia.org/wiki/American_National_Standards_Institute)-Standard\* [Architektur-Vorlagen](Arch_templates/de.md): entsprechend dem American National Standards Institute [Architektur](https://de.wikipedia.org/wiki/American_National_Standards_Institute)-Standard
 -   [Verschiedene Vorlagen](Misc_templates/de.md): Verschiedene Vorlagen
 
 
@@ -264,7 +264,7 @@ The two lines that FreeCAD will be looking for are \"\$blocks\" and \"\$entities
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing templates/de

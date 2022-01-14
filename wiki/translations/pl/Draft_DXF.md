@@ -3,7 +3,7 @@
 
 ## Opis
 
-Funkcja DXF, środowiska Rysunek Roboczy jest modułem oprogramowania używanym przez polecenia <img alt="" src=images/Std_Open.svg  style="width:24px;"> _ i <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Eksportuj](Std_Export/pl.md) do obsługi formatu pliku DXF.
+Funkcja DXF, środowiska Rysunek Roboczy jest modułem oprogramowania używanym przez polecenia <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Otwórz](Std_Open/pl.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Importuj](Std_Import/pl.md) i <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Eksportuj](Std_Export/pl.md) do obsługi formatu pliku DXF.
 
 ![](images/Screenshot_qcad.jpg ) 
 *Rysunek Qcad wyeksportowany do DXF, który jest następnie otwierany w programie FreeCAD*
@@ -74,7 +74,7 @@ Niektóre z cech i ograniczeń tego eksportera to:
 
 ## Instalacja
 
-Z powodów licencyjnych, wymagane biblioteki importu/eksportu _.
+Z powodów licencyjnych, wymagane biblioteki importu/eksportu [DXF](DXF/pl.md) potrzebne dla starszej wersji importera, nie są częścią kodu źródłowego programu FreeCAD. Aby uzyskać więcej informacji zobacz stronę: [FreeCAD i import DXF](FreeCAD_and_DXF_Import/pl.md).
 
 ## Ustawienia
 
@@ -96,7 +96,7 @@ Zobacz strony [Ustawienia Importu i Eksportu](Import_Export_Preferences/pl#DWG.m
 
 ## Tworzenie skryptów 
 
-Zobacz również: _.
+Zobacz również: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Do eksportu obiektów do DXF użyj metody `export` modułu importDXF.
 
@@ -132,7 +132,7 @@ importDXF.export(objects, "/home/user/Pictures/myfile.dxf")
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> File Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft DXF/pl

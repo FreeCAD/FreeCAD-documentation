@@ -3,7 +3,7 @@ Denna kategori samlar sidor som fungerar som ett förråd av resurser för FreeC
 
 ### Contents:
 
-_
+[<img src="images/Property.png" style="width:16px"> Categories/sv](<img src="images/Property.png" style="width:16px"> Categories/sv.md)
 
 ---
 [documentation index](../README.md) > Category:Repository/sv

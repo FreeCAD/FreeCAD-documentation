@@ -22,7 +22,7 @@ Tento nástroj nastaví pohled modelu kolmo k rovině náčrtu. Je to užitečn�
 
 Když je náčrt v editačním módu, buď
 
--   Klikněte na ikonu **_'''Pohled náčrtu'''** v nástrojovém pruhu ve Skicáři nebo Návrhu dílu a nebo
+-   Klikněte na ikonu **[16px|Ikona pohledu náčrtu](File:Sketcher_ViewSketch.png.md)'''Pohled náčrtu'''** v nástrojovém pruhu ve Skicáři nebo Návrhu dílu a nebo
 -   Jděte na menu **Skicář → Pohled náčrtu**.
 
 

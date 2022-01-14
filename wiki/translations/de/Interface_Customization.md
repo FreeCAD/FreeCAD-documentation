@@ -232,7 +232,7 @@ Wenn kein Spaceball erkannt wurde ist dieser Tab leer. Siehe: [3Dconnexion input
 
 ## Themen
 
-FreeCAD unterstützt die vollständige Themensetzung der Oberfläche über .qss stylesheets. Das _ auswählst.
+FreeCAD unterstützt die vollständige Themensetzung der Oberfläche über .qss stylesheets. Das [qss Format](https://doc.qt.io/qt-5/stylesheet-syntax.html) ist dem in Webseiten verwendeten [css Format](https://en.wikipedia.org/wiki/CSS) sehr ähnlich, es fügt im Grunde Methoden hinzu, um die verschiedenen Widgets und Elemente der Qt Oberfläche zu referenzieren. Du kannst das Standardthema (das einfach den von deinem Desktopsystem definierten Stil übernimmt) ändern, indem du ein **Stylesheet** in den [FreeCAD Voreinstellungen](Preferences_Editor/de#Allgemein.md) auswählst.
 
 Du kannst auch ein eigenes Thema erstellen, wenn du mit den Themen, die mit FreeCAD mitgeliefert werden, nicht zufrieden bist, z.B. indem du ein [existierende Gestaltungsbögen](https://github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets) bearbeitest. Ihre neue Grstaltung muss in einem bestimmten Ordner abgelegt werden, damit er von FreeCAD gefunden wird:
 

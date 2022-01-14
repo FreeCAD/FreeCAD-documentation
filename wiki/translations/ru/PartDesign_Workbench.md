@@ -9,7 +9,7 @@
 
 PartDesign Workbench неразрывно связан с [верстаком Sketcher](Sketcher_Workbench/ru.md). Пользователь обычно создает эскиз, затем использует инструмент [PartDesign Pad](PartDesign_Pad/ru.md) для его выдавливания и создания простого объемного тела, далее это тело дополнительно модифицируется.
 
-В то время как <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _, так же описывает процесс создание твердых тел.
+В то время как <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Верстак \"Part\"](Part_Workbench/ru.md) основан на методологии [конструктивной сплошной геометрии](constructive_solid_geometry/ru.md) (CSG) для построения фигур, верстак PartDesign использует параметрическую методологию редактирования объектов, которая означает, что базовое твердое тело последовательно преобразуется путем добавления элементов от начала и до тех пор, пока не будет получена окончательная форма. Более полное объяснение данного процесса см. на странице [особенности редактирования компонентов](feature_editing/ru.md). Страница: [создание простой детали с помощью PartDesign](Creating_a_simple_part_with_PartDesign/ru.md), так же описывает процесс создание твердых тел.
 
 Более подробное обсуждение различий между верстаком Part и верстаком Part Design можно найти на странице: [Part и Part Design](Part_and_PartDesign/ru.md).
 
@@ -27,13 +27,13 @@ PartDesign Workbench неразрывно связан с [верстаком Sk
 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Создать деталь](Std_Part/ru.md): создает новую Деталь в текущем документе и делает её активной.
 
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Создать группу](Std_Group/ru.md): создает в текужем документе объединяющий контейнер группу, что позволяет упорядочить объекты в [дереве просмотра](Tree_view.md).
 
 ### Вспомогательные инструменты Part Design 
 
--   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> _ и делает активным его в текущем документе.
+-   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Создать тело](PartDesign_Body/ru.md): создает объект [тело](Body/ru.md) и делает активным его в текущем документе.
 
--   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> _ в режим редактирования.
+-   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Создать эскиз](PartDesign_NewSketch/ru.md): создает новый эскиз на выбранной грани или плоскости. Если во время выполнения этого инструмента не выбрана ни одна из граней, пользователю будет предложено выбрать плоскость на панели Задач. После чего интерфейс переключится на [верстак \"Sketcher\"](Sketcher_Workbench/ru.md) в режим редактирования.
 
 -   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Редактировать эскиз](Sketcher_EditSketch/ru.md): Переключает интерфейс в режим редакктирования эскиза.
 
@@ -202,7 +202,7 @@ PartDesign Workbench неразрывно связан с [верстаком Sk
 
  {{PartDesign Tools navi}}
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/ru

@@ -12,11 +12,11 @@ Für mehr Informationen zum Bearbeiten von Objekten siehe [Std Transformieren](S
 ## Navigationsstil auswählen 
 
 1.  Führe eine von folgenden Aktionen aus
-    -   Drücke die **<img src=images/NavigationCAD.svg style="width:16px">** Schaltfläche in der [Status bar](Status_bar/de.md).
+    -   Drücke die **[<img src=images/NavigationCAD.svg style="width:16px">** Schaltfläche in der [Status bar](Status_bar/de.md).
     -   Rechtsklick auf einen lehren Bereich in der [3D Ansicht](3D_view/de.md), wähle anschließend **Navigation styles** im Kontextmenü.
     -   Benutzen den [Voreinstellungseditor](Preferences_Editor/de#Navigation.md). Wähle dafür im Menü **Edit → Preferences** und dann **Display → Navigation → 3D Navigation**.
 2.  Wähle einen Stil von der List.
-3.  Ändere optional den **Orbit style**: drücke die **<img src=images/NavigationCAD.svg style="width:16px">** Schaltfläche in der [Status bar](Status_bar/de.md) und Wähle **Settings → Orbit style**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
+3.  Ändere optional den **Orbit style**: drücke die **[<img src=images/NavigationCAD.svg style="width:16px">** Schaltfläche in der [Status bar](Status_bar/de.md) und Wähle **Settings → Orbit style**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
 4.  Verändere optional den **Rotation mode**. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
 5.  Fals der **CAD** Navigationsstil ausgewählt ist: Ändere optional die **Enable animation** Einstellung. Siehe [Voreinstellungseditor](Preferences_Editor/de#Navigation.md).
 

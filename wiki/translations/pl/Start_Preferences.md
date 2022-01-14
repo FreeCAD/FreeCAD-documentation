@@ -111,7 +111,7 @@ In the *Start page* tab you can specify the following:
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Start](Start_Workbench.md) > Start Preferences/pl

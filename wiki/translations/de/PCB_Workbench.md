@@ -108,7 +108,7 @@ Sicherheit → Bearbeiten → Benutzer und markiere alle Kontrollkästchen unter
 
 
 
-_ _ _ _
+[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md) [<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Sandbox](Category_Sandbox.md) > PCB Workbench/de

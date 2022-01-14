@@ -18,7 +18,7 @@ L\'ambiente [Mesh](Mesh_Workbench/it.md) gestisce i reticoli triangolari degli o
 
 Molte applicazioni 3D utilizzano i mesh come tipo principale di oggetti 3D, ad esempio: [Sketchup](http://en.wikipedia.org/wiki/Sketchup), [Blender](http://en.wikipedia.org/wiki/Blender_(software)), [Maya](http://en.wikipedia.org/wiki/Maya_(software)) e [3D Studio Max](http://en.wikipedia.org/wiki/3d_max). Dato che i mesh sono oggetti molto semplici, contenenti solo vertici (punti), bordi e facce (triangoli), sono molto facili da creare, modificare, suddividere, allungare, e altrettanto facili da trasferire da un\'applicazione all\'altra senza alcuna perdita di informazioni. Inoltre, dal momento che contengono dati molto semplici, le applicazioni 3D ne possono gestire grandi quantità senza alcun problema. Per queste ragioni, gli oggetti mesh sono spesso il tipo di oggetto 3D utilizzato dalle applicazioni che si occupano di cinema, animazione e creazione di immagini.
 
-Tuttavia, nel campo ingegneristico le mesh presentano una grande limitazione: non possono definire con precisione le superfici curve. Questo è il motivo per cui FreeCAD si affida invece a _. L\'ambiente Mesh offre alcuni comandi per manipolare direttamente le mesh, ma viene spesso utilizzato per importare dati di mesh 3D e convertirle in un solido da utilizzare con <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _.
+Tuttavia, nel campo ingegneristico le mesh presentano una grande limitazione: non possono definire con precisione le superfici curve. Questo è il motivo per cui FreeCAD si affida invece a [Brep](wikipedia_Boundary_representation.md). L\'ambiente Mesh offre alcuni comandi per manipolare direttamente le mesh, ma viene spesso utilizzato per importare dati di mesh 3D e convertirle in un solido da utilizzare con <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/it.md) o <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md).
 
 <img alt="" src=images/Mesh_example.jpg  style="width:500px;">
 
@@ -37,7 +37,7 @@ Tutti gli strumenti dell\'ambiente Mesh sono accessibili dal menu **Meshes**. Qu
 -   Analizza
     -   <img alt="" src=images/Mesh_Evaluation.svg  style="width:32px;"> [Valuta e ripara la mesh\...](Mesh_Evaluation/it.md): analizza e ripara un oggetto mesh.
     -   <img alt="" src=images/Mesh_EvaluateFacet.svg  style="width:32px;"> [Dettagli della faccia](Mesh_EvaluateFacet/it.md): fornisce informazioni sulle facce di un oggetto mesh.
-    -   <img alt="" src=images/Mesh_CurvatureInfo.svg  style="width:32px;"> _ in punti selezionati.
+    -   <img alt="" src=images/Mesh_CurvatureInfo.svg  style="width:32px;"> [Dettagli della curvatura](Mesh_CurvatureInfo/it.md): mostra la curvatura assoluta di [oggetti curvati](Mesh_VertexCurvature/it.md) in punti selezionati.
     -   <img alt="" src=images/Mesh_EvaluateSolid.svg  style="width:32px;"> [Controlla se è un solido](Mesh_EvaluateSolid/it.md): controlla se l\'oggetto mesh è un solido.
     -   <img alt="" src=images/Mesh_BoundingBox.svg  style="width:32px;"> [Info limiti d\'ingombro\...](Mesh_BoundingBox/it.md): valuta il cuboide di delimitazione di un oggetto mesh.
 
@@ -95,8 +95,8 @@ Tutti gli strumenti dell\'ambiente Mesh sono accessibili dal menu **Meshes**. Qu
 
 Le preferenze di Mesh si trovano nelle seguenti categorie dell\'[editor delle preferenze](Preferences_Editor/it.md):
 
--   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> _ possono essere impostate diverse preferenze.
--   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> _, [Mesh Intersezione](Mesh_Intersection/it.md) e [Mesh Differenza](Mesh_Difference/it.md) richiedono [OpenSCAD](http://www.openscad.org/) e usano le preferenze **OpenSCAD executable** per trovare il loro eseguibile.
+-   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Visualizzazione](Preferences_Editor/it#Impostazioni_di_visualizzazione.md): Nella scheda [Visualizzazione mesh](Preferences_Editor/it#Visualizzazione_mesh.md) possono essere impostate diverse preferenze.
+-   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences/it.md): I comandi [Mesh Unione](Mesh_Union/it.md), [Mesh Intersezione](Mesh_Intersection/it.md) e [Mesh Differenza](Mesh_Difference/it.md) richiedono [OpenSCAD](http://www.openscad.org/) e usano le preferenze **OpenSCAD executable** per trovare il loro eseguibile.
 
 ## Note
 
@@ -119,7 +119,7 @@ Le preferenze di Mesh si trovano nelle seguenti categorie dell\'[editor delle pr
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Mesh Workbench/it

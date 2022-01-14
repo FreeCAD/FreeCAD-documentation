@@ -11,7 +11,7 @@
 {{TutorialInfo/fr
 |Topic=Modélisation 2D
 |Level=Intermédiaire
-|Author=Mark Stephen (_)
+|Author=Mark Stephen ([Quick61](User_Quick61.md))
 |Time=Moins d'une heure
 |FCVersion=0.14.3700 ou plus
 }}

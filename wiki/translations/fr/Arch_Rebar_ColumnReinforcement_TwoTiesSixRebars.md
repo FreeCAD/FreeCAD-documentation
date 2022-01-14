@@ -16,7 +16,7 @@ L\'outil [Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md) p
 
 L\'outil [Armature 2x6](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md) est également intégré dans [atelier BIM](BIM_Workbench/fr.md).
 
-Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[Atelier Reinforcement](Reinforcement_Workbench/fr.md), un [Atelier externe](External_workbenches/fr.md) qui peut être installé avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_ColumnReinforcement_TwoTies_example.png  style="width:400px;">
 
@@ -342,7 +342,7 @@ rebar_group = TwoTiesSixRebars.editTwoTiesSixRebars(
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement TwoTiesSixRebars/fr

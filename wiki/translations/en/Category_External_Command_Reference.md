@@ -1,5 +1,5 @@
 # Category:External Command Reference/en
-This categorizes all **external** workbench commands separate from the internal _
+This categorizes all **external** workbench commands separate from the internal [:<img src="images/Property.png" style="width:16px"> Command\_Reference/en](:<img src="images/Property.png" style="width:16px"> Command_Reference/en.md)
 
 ### Contents:
 

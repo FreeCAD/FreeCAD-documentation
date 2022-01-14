@@ -11,7 +11,7 @@
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/it|Topic=Disegno 2D|Level=Intermedio|Author=Mark Stephen (_)|Time=Circa un'ora|FCVersion=0.14.3700 o superiore}}
+{{TutorialInfo/it|Topic=Disegno 2D|Level=Intermedio|Author=Mark Stephen ([Quick61](User_Quick61.md))|Time=Circa un'ora|FCVersion=0.14.3700 o superiore}}
 
 
 </div>

@@ -4,7 +4,7 @@
 |Level=Des connaissances de base de Python et de svg-structures sont utiles.
 |FCVersion=0.19.1 et plus
 |Time=(ne sait pas)
-|Author=_
+|Author=[FBXL5](User_FBXL5.md)
 }}
 
 ## Introduction

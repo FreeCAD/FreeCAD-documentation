@@ -27,7 +27,7 @@ El comando \'\'\'Ambiente de trabajo Std \'\'\' activa un [Ambiente de trabajo](
 
 <div class="mw-translate-fuzzy">
 
--   Se pueden descargar _.
+-   Se pueden descargar [Ambientes de trabajo externos](External_workbenches/es.md) adicionales con el <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestor de Complementos](Std_AddonMgr/es.md).
 
 
 </div>

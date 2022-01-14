@@ -100,12 +100,12 @@ Read more in [topological naming problem](topological_naming_problem.md).
 
 ## Skriptování
 
-Nástroj **_ [Návrh dílu Zaoblení](_PartDesign_Fillet/cs.md)** může být použit v makru a z konzoly Pythonu použitím následující funkce:
+Nástroj **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.png.md) [Návrh dílu Zaoblení](_PartDesign_Fillet/cs.md)** může být použit v makru a z konzoly Pythonu použitím následující funkce:
 
 
 </div>
 
-The tool **_ [Fillet](PartDesign_Fillet.md)** can be used in a macro, and, from the Python console using the following function:
+The tool **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.svg.md) [Fillet](PartDesign_Fillet.md)** can be used in a macro, and, from the Python console using the following function:
 
 
 ```python

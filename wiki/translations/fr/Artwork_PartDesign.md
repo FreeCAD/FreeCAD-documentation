@@ -22,7 +22,7 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> PartDesign](Category_PartDesign.md)
 
 ---
 [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > Artwork PartDesign/fr

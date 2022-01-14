@@ -678,7 +678,7 @@ The Import-Export settings affect how files are imported and exported. They are 
 
 **This section is incomplete and requires mentioning the preference pages of each core workbench**
 
-Preferences for the more common workbenches are linked below. Some workbenches have no preferences. Other optional workbenches may not be listed. These links are also listed in _
+Preferences for the more common workbenches are linked below. Some workbenches have no preferences. Other optional workbenches may not be listed. These links are also listed in [:<img src="images/Property.png" style="width:16px"> Preferences](:Category_Preferences.md)
 
 
 <div class="mw-translate-fuzzy">
@@ -721,7 +721,7 @@ For a scripting example see [Std DlgParameter](Std_DlgParameter.md).
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/es

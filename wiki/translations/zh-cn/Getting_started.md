@@ -195,7 +195,7 @@ FreeCAD的重点是允许您制作高精度3D模型，以便对这些模型进�
 
 <div class="mw-translate-fuzzy">
 
-_[物体捕捉等特殊辅助系统中受益](Draft_Snap/zh-cn.md)。
+[草图工作台为您提供了](Draft_Workbench/zh-cn.md)2D工具，它们类似于传统2D CAD应用程序（例如[AutoCAD](https://en.wikipedia.org/wiki/AutoCAD)）。然而，2D绘图绝非FreeCAD的使用范围，不要指望它会提供这些专用应用程序所提供的各种工具。大多数草图工具不仅可以在2D平面中工作，还能在完整的3D空间中工作，还可以从[工作面和](Draft_SelectPlane/zh-cn.md)[物体捕捉等特殊辅助系统中受益](Draft_Snap/zh-cn.md)。
 
 
 </div>
@@ -245,7 +245,7 @@ The [Addon](Addon.md) principle is based on the development of a workbench compl
 There are two types of addons:
 
 1.  [Macros](Macros.md): short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
-2.  _, you\'ll find the principle and a list of existing library.
+2.  [External workbenches](External_workbenches.md): collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
 
 ## Scripting
 
@@ -291,7 +291,7 @@ There are two types of addons:
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> User Documentation/zh-cn](<img src="images/Property.png" style="width:16px"> User_Documentation/zh-cn.md)
 
 ---
 [documentation index](../README.md) > Getting started/zh-cn

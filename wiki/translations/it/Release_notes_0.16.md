@@ -1,7 +1,7 @@
 # Release notes 0.16/it
 <div class="mw-translate-fuzzy">
 
-FreeCAD 0.16 è stato rilasciato il 18 aprile 2016, ed è scaricabile da _ - [0.14](Release_notes_0.14/it.md) - [0.13](Release_notes_0.13/it.md) - [0.12](Release_notes_0.12/it.md) - [0.11](Release_notes_0.11.md)
+FreeCAD 0.16 è stato rilasciato il 18 aprile 2016, ed è scaricabile da [Github](https://github.com/FreeCAD/FreeCAD/releases). Questo è un riassunto dei cambiamenti più interessanti. L\'elenco completo delle modifiche è disponibile in [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Versioni precedenti in: [0.15](Release_notes_0.15/it.md) - [0.14](Release_notes_0.14/it.md) - [0.13](Release_notes_0.13/it.md) - [0.12](Release_notes_0.12/it.md) - [0.11](Release_notes_0.11.md)
 
 
 </div>
@@ -83,7 +83,7 @@ L\'ambiente **FEM** ha fatto molti miglioramenti. Si è dimostrato che è utiliz
 
 ## Ambiente Arch 
 
--   **_, che utilizza la struttura dei materiali interna a FreeCAD. I materiali sono condivisi con gli altri ambienti, e sono pienamente supportati nell\'importazione ed esportazione IFC.
+-   **[Supporto Materiali](Arch_SetMaterial/it.md)**: Ora gli oggetti Arch possono essere associati a un [materiale](material/it.md), che utilizza la struttura dei materiali interna a FreeCAD. I materiali sono condivisi con gli altri ambienti, e sono pienamente supportati nell\'importazione ed esportazione IFC.
 -   **[Piano di sezione](Arch_SectionPlane/it.md)**: Ora il piano di sezione può tagliare la vista 3D, e mostrare la sezione in tempo reale.
 
 <img alt="" src=images/Arch_clip_plane.jpg  style="width:1024px;">
@@ -138,7 +138,7 @@ I membri della comunità hanno creato alcuni [ambienti aggiuntivi](https://githu
 
 ![](images/Macro_installer_02.jpg )
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > Release notes 0.16/it

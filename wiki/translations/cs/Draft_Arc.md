@@ -1,6 +1,6 @@
 # Draft Arc/cs
 ---
-- GuiCommand:/cs   Name:Draft_Arc   Name/cs:Kreslení oblouk   Workbenches:_---
+- GuiCommand:/cs   Name:Draft_Arc   Name/cs:Kreslení oblouk   Workbenches:[Architektura](Draft_Workbench/cs___Kreslení]],_[[Arch_Workbench/cs.md)|MenuLocation:Kreslení → Oblouk   Shortcut:A R   SeeAlso:[Kreslení kružnice](Draft_Circle/cs.md)---
 
 
 </div>
@@ -10,7 +10,7 @@
 
 ## Popis
 
-Nástroj Oblouk vytváří oblouk v aktuální _ předem zadaná v záložce Nástrojů. Tento nástroj pracuje stejně jako nástroj [Kružnice](Draft_Circle/cs.md), ale přidává počáteční a koncový úhel.
+Nástroj Oblouk vytváří oblouk v aktuální [pracovní rovině](Draft_SelectPlane/cs.md) zadáním čtyř bodů: střed, poloměr, počáteční a koncový bod nebo zadáním tečen nebo kombinací obou způsobů. Použije se [tloušťka čáry a barva](Draft_Linestyle/cs.md) předem zadaná v záložce Nástrojů. Tento nástroj pracuje stejně jako nástroj [Kružnice](Draft_Circle/cs.md), ale přidává počáteční a koncový úhel.
 
 
 </div>

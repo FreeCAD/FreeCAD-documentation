@@ -8,7 +8,7 @@ For a tutorial on how to create a template for that workbench see [TechDraw Temp
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/ru|Topic=2D Drafting|Level=Промежуточный|Author=Mark Stephen (_)|Time=Час или меньше|FCVersion=0.14.3700 или выше}}
+{{TutorialInfo/ru|Topic=2D Drafting|Level=Промежуточный|Author=Mark Stephen ([Quick61](User_Quick61.md))|Time=Час или меньше|FCVersion=0.14.3700 или выше}}
 
 
 </div>

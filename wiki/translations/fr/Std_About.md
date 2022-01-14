@@ -24,7 +24,7 @@ La commande **A propos** ouvre une boîte de dialogue qui affiche des informatio
 
 ## Utilisation
 
-1.  Sélectionnez l\'option **Aide → <img src=images/Std_About.svg style="width:16px"> À propos de FreeCAD** dans le menu.
+1.  Sélectionnez l\'option **Aide → [<img src=images/Std_About.svg style="width:16px"> À propos de FreeCAD** dans le menu.
 2.  Sélectionnez l\'un des onglets: **À propos**, **Remerciements**, **Licence**, **Bibliothèques**.
 3.  Chaque fois que vous devez fournir des informations sur la version de FreeCAD, procédez comme suit:
     -   Appuyez sur le bouton **Copier dans le presse-papiers** dans l\'onglet **À propos**.
@@ -57,7 +57,7 @@ L\'onglet Remerciements affiche une liste des contributeurs au projet FreeCAD. P
 
 ### Licence
 
-FreeCAD est sous licence _ pour plus de détails.
+FreeCAD est sous licence [Licence Publique Générale Limitée GNU 2](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) (LGPL 2). Le texte intégral de cette licence est répertorié ici. Voir la [licence](licence/fr.md) pour plus de détails.
 
 Comme FreeCAD utilise des bibliothèques externes, elles peuvent avoir leurs propres conditions de licence. Consultez leurs licences particulières dans les [bibliothèques tierces](Third_Party_Libraries/fr.md).
 
@@ -72,7 +72,7 @@ L\'onglet Bibliothèques affiche une liste des bibliothèques externes utilisée
 
 {{Std Base navi}}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/fr

@@ -1,5 +1,5 @@
 # Workbenches/pl
-FreeCAD, podobnie jak wiele nowoczesnych aplikacji projektowych, takich jak _ lub _, opiera się na koncepcji _. Środowisko pracy może być traktowane jako zestaw narzędzi specjalnie pogrupowanych dla potrzeb realizacji konkretnego zadania. W tradycyjnym warsztacie meblowym miałbyś stół roboczy dla osoby pracującej z drewnem, inny dla osoby pracującej z metalowymi elementami, a może trzeci dla faceta, który montuje wszystkie elementy razem.
+FreeCAD, podobnie jak wiele nowoczesnych aplikacji projektowych, takich jak [Revit](wikipedia_Revit.md) lub [CATIA](wikipedia_CATIA.md), opiera się na koncepcji [Środowisk pracy](wikipedia_Workbench.md). Środowisko pracy może być traktowane jako zestaw narzędzi specjalnie pogrupowanych dla potrzeb realizacji konkretnego zadania. W tradycyjnym warsztacie meblowym miałbyś stół roboczy dla osoby pracującej z drewnem, inny dla osoby pracującej z metalowymi elementami, a może trzeci dla faceta, który montuje wszystkie elementy razem.
 
 W programie **FreeCAD** stosuje się tę samą koncepcję. Narzędzia są pogrupowane w **Środowiska pracy** według zadań, które są z nimi związane.
 
@@ -77,7 +77,7 @@ Wciąż powstają kolejne środowiska pacy, obserwuj zmiany i bądź na bieżąc
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/pl

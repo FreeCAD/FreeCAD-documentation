@@ -21,7 +21,7 @@ Creates a **local coordinate system** which can be used as reference for other d
 
 ## Usage
 
-1.  Press the **<img src=images/PartDesign_CoordinateSystem.svg style="width:16px"> [Create a local coordinate system](PartDesign_CoordinateSystem.md)** button.
+1.  Press the **[<img src=images/PartDesign_CoordinateSystem.svg style="width:16px"> [Create a local coordinate system](PartDesign_CoordinateSystem.md)** button.
 2.  Define Coordinate System parameters. Select a first reference in the 3D view to filter the available attachment modes.
 3.  Depending on the selected reference, there may be one or more attachment modes available in the the list. The most likely one will automatically be selected and shown in bold in the list. The text *Attached with mode* along with the attachment mode name will appear in green at the top of the Parameters panel.
 4.  To add an additional reference, press the next **Reference** button. Once pressed its label changes to *Selecting\...* until a selection is made.

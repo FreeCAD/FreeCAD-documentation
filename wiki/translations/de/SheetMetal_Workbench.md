@@ -70,7 +70,7 @@ Dieser Abschnitt ist dazu gedacht, eine grobe Vorstellung davon zu vermitteln, w
 #### Mit einer Platine beginnen 
 
 1.  Erstelle eine geschlossene Polylinie (vorzugsweise mit dem Skizzierer).
-2.  Verwende den _ [Basis Wandung erstellen](SheetMetal_AddBase/de.md) Befehl, um einen Blechrohling zu erstellen.
+2.  Verwende den [16px](IMage:SheetMetal_AddBase.svg.md) [Basis Wandung erstellen](SheetMetal_AddBase/de.md) Befehl, um einen Blechrohling zu erstellen.
 
 #### Mit einem PartDesign Polster beginnen 
 
@@ -105,7 +105,7 @@ Einige Werkzeuge aus anderen Arbeitsbereichen können verwendet werden, um Löch
 
 ### Abwickeln eines Blechobjekts 
 
-Um ein Blechobjekt abzuwickeln, verwendet man das Werkzeug <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> _.
+Um ein Blechobjekt abzuwickeln, verwendet man das Werkzeug <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Abwickeln](SheetMetal_Unfold/de.md) bzw. <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [Abwickeln ohne Eingaben](SheetMetal_UnattendedUnfold/de.md).
 
 Das Ergebnis ist ein 3D-Objekt, wahlweise mit Kontur inklusive Biegelinien.
 
@@ -241,7 +241,7 @@ Was macht man ?
 -   Offizieller Blog: [Blech Erweiterung für FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Quellcode auf github: <https://github.com/shaise/FreeCAD_SheetMetal>
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal Workbench/de

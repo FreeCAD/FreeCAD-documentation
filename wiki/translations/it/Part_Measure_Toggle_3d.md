@@ -31,7 +31,7 @@ Attiva o Disattiva le misure 3D in corso.
 
 ## Utilizzo
 
-1.  Premere il pulsante **<img src=images/Part_Measure_Toggle_3d.svg style="width:24px"> '''Attiva/Disattiva 3D'''**.
+1.  Premere il pulsante **[<img src=images/Part_Measure_Toggle_3d.svg style="width:24px"> '''Attiva/Disattiva 3D'''**.
 
 
 </div>

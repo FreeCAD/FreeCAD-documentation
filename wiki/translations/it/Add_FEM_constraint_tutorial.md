@@ -6,7 +6,7 @@
 |Topic=Aggiungere vincoli FEM 
 |Level= 
 |Time= 
-|Author=_
+|Author=[M42kus](User_M42kus.md)
 |FCVersion=
 |Files=
 }}
@@ -314,7 +314,7 @@ def _handleFlowBndConditions(self):
             self._handled(obj)
 ```
 
-_
+[<img src="images/Property.png" style="width:16px"> FEM](Category_FEM.md)
 
 ---
 [documentation index](../README.md) > [FEM](Category_FEM.md) > Add FEM constraint tutorial/it

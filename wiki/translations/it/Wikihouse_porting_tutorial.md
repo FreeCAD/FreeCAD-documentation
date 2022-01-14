@@ -10,7 +10,7 @@
 
 ## Introduzione
 
-Questo tutorial spiega come convertire in FreeCAD i file di _ di FreeCAD. Il risultato è una copia completa dell\'originale file SketchUp, tranne che è diventato completamente parametrico. Il livello di parametricità del file finale dipende dalla quantità di lavoro ad esso dedicato, come spiegato di seguito. È possibile fare le cose passo dopo passo, e ricostruire il file Wikihouse abbastanza rapidamente, e rimandare a dopo il più lungo lavoro di conversione in schizzi dei profili di base.
+Questo tutorial spiega come convertire in FreeCAD i file di [SketchUp](http://www.sketchup.com/) utilizzati dal progetto [WikiHouse](http://wikihouse.cc/), avvalendosi dello strumento [Pannello](Arch_Panel/it.md) di FreeCAD. Il risultato è una copia completa dell\'originale file SketchUp, tranne che è diventato completamente parametrico. Il livello di parametricità del file finale dipende dalla quantità di lavoro ad esso dedicato, come spiegato di seguito. È possibile fare le cose passo dopo passo, e ricostruire il file Wikihouse abbastanza rapidamente, e rimandare a dopo il più lungo lavoro di conversione in schizzi dei profili di base.
 
 Questo tutorial richiede una conoscenza intermedia di FreeCAD, cioè, di sapersi destreggiare tra gli ambienti di lavoro e gli strumenti, di essere già in grado di modellare oggetti semplici, e, soprattutto, di essere a proprio agio con [Draft Sposta](Draft_Move/it.md) e [Draft Ruota](Draft_Rotate/it.md). Si utilizzeranno principalmente gli strumenti di Draft e Arch, ma la conoscenza di Sketcher diventerà necessaria per convertire gli schizzi in profili di base.
 
@@ -84,7 +84,7 @@ Il passo successivo consiste nel creare dei wire da ciascuno degli oggetti mesh.
 
 ![](images/Arch_Wikihouse_10.jpg )
 
-Ora potremmo già creare degli oggetti _, ma questi schizzi sarebbero piuttosto pesanti, e potrebbero non essere molto maneggevoli su una macchina lenta, oppure possiamo trasformare ogni singolo wire (il contorno e ogni foro) dello schizzo in uno schizzo separato. Ciò permette, ad esempio, di riutilizzare un foro tipico, cioè di crearlo una volta sola e poi duplicarlo con [Clona](Draft_Clone/it.md) per creare gli altri fori uguali. In questo modo, basta modificarne uno per modificarli tutti.
+Ora potremmo già creare degli oggetti [Pannello](Arch_Panel/it.md) da ciascuno di questi oggetti filiformi, semplicemente selezionandoli e premendo il pulsante [Pannello](Arch_Panel/it.md). Però, la loro forma di base non sarebbe parametrica. Ora abbiamo a disposizione diverse opzioni: possiamo trasformare ogni componente in uno schizzo, utilizzando lo strumento [Draft2Sketch](Draft_Draft2Sketch/it.md), ma questi schizzi sarebbero piuttosto pesanti, e potrebbero non essere molto maneggevoli su una macchina lenta, oppure possiamo trasformare ogni singolo wire (il contorno e ogni foro) dello schizzo in uno schizzo separato. Ciò permette, ad esempio, di riutilizzare un foro tipico, cioè di crearlo una volta sola e poi duplicarlo con [Clona](Draft_Clone/it.md) per creare gli altri fori uguali. In questo modo, basta modificarne uno per modificarli tutti.
 
 La macro Estrai wire da mesh talvolta non riesce a trovare dei wire chiusi all\'interno di un mesh, e non produce dei pannelli corretti. Una procedura facile per ricomporre i wire di un componente è questa:
 

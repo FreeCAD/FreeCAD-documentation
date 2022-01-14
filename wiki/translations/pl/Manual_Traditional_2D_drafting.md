@@ -1,11 +1,11 @@
 # Manual:Traditional 2D drafting/pl
 {{Manual:TOC}}
 
-You might be interested by FreeCAD because you already have some technical drawing experience, for example with software like _.
+You might be interested by FreeCAD because you already have some technical drawing experience, for example with software like [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Or you already know something about design, or you prefer to draw things before building them. In any case, FreeCAD features a more traditional workbench, with tools found in most 2D CAD applications: The [Draft Workbench](Draft_Workbench.md).
 
-The Draft Workbench, although it adopts ways of working inherited from the traditional 2D CAD world, is not limited at all to the 2D realm. All its tools work in the whole 3D space and many of the Draft tools, for example <img alt="" src=images/Draft_Move.svg  style="width:16px;"> _, are commonly used all over FreeCAD because they are often more intuitive than changing placement parameters manually.
+The Draft Workbench, although it adopts ways of working inherited from the traditional 2D CAD world, is not limited at all to the 2D realm. All its tools work in the whole 3D space and many of the Draft tools, for example <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Move](Draft_Move.md) or <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [Rotate](Draft_Rotate.md), are commonly used all over FreeCAD because they are often more intuitive than changing placement parameters manually.
 
-Among the tools offered by the Draft Workbench, you will find traditional drawing tools like <img alt="" src=images/Draft_Line.svg  style="width:16px;"> _, or <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> _, <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> _, a [working plane/grid system](Draft_SelectPlane.md) that allows you to define precisely in which plane you are working, and a complete [snapping system](Draft_Snap.md) that makes it very easy to draw and position elements precisely in relation to each other.
+Among the tools offered by the Draft Workbench, you will find traditional drawing tools like <img alt="" src=images/Draft_Line.svg  style="width:16px;"> [Line](Draft_Line.md), <img alt="" src=images/Draft_Circle.svg  style="width:16px;"> [Circle](Draft_Circle.md), or <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Wire](Draft_Wire.md) (polyline), modification tools like <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Move](Draft_Move.md), <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [Rotate](Draft_Rotate.md) or <img alt="" src=images/Draft_Offset.svg  style="width:16px;"> [Offset](Draft_Offset.md), a [working plane/grid system](Draft_SelectPlane.md) that allows you to define precisely in which plane you are working, and a complete [snapping system](Draft_Snap.md) that makes it very easy to draw and position elements precisely in relation to each other.
 
 To showcase the workflow and possibilities of the Draft Workbench, we will walk through a simple exercise, the result of which will be this little drawing, showing the floor plan of a small house that contains only a kitchen top (A pretty absurd floor plan, but we can do what we want here, can\'t we?):
 
@@ -42,7 +42,7 @@ To showcase the workflow and possibilities of the Draft Workbench, we will walk 
 ![](images/Exercise_cabin_03.jpg )
 
 -   That is all we need now, so we can switch construction mode off. Check that all the construction geometry has been placed into a \"Construction\" group, which makes it easy to hide it all at once or even delete it completely later on.
--   Now let\'s draw our two wall pieces using the <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> _ is turned on, as we will need to snap to the intersections of our lines and rectangles. Draw two wires as follows, by clicking all the points of their contours. To close them, either click on the first point again, or press the **Close** button:
+-   Now let\'s draw our two wall pieces using the <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Wire](Draft_Wire.md) tool. Make sure the <img alt="" src=images/Snap_Intersection.svg  style="width:16px;"> [intersection snap](Draft_Snap.md) is turned on, as we will need to snap to the intersections of our lines and rectangles. Draw two wires as follows, by clicking all the points of their contours. To close them, either click on the first point again, or press the **Close** button:
 
 ![](images/Exercise_cabin_04.jpg )
 
@@ -85,7 +85,7 @@ To showcase the workflow and possibilities of the Draft Workbench, we will walk 
 
 ![](images/Exercise_cabin_12.jpg )
 
--   The most important thing about the Draft Workbench, however, is that the geometry you create with it can be used as a base or easily extruded into 3D objects, simply by using the <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> _ (Trim/Extend/Extrude) tool, which under the hood performs a Part Extrusion, but does it \"the Draft way\", that is, allows you to indicate and snap the extrusion length graphically. Experiment extruding our walls as shown below.
+-   The most important thing about the Draft Workbench, however, is that the geometry you create with it can be used as a base or easily extruded into 3D objects, simply by using the <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> [Part\_Extrude](Part_Extrude.md) tool from the [Part Workbench](Part_Workbench.md), or, to stay in Draft, the <img alt="" src=images/Draft_Trimex.svg  style="width:16px;"> [Trimex](Draft_Trimex.md) (Trim/Extend/Extrude) tool, which under the hood performs a Part Extrusion, but does it \"the Draft way\", that is, allows you to indicate and snap the extrusion length graphically. Experiment extruding our walls as shown below.
 -   By pressing the <img alt="" src=images/Draft_SelectPlane.svg  style="width:16px;"> [working plane](Draft_SelectPlane.md) button after selecting a face of an object, you are also able to place the working plane anywhere, and therefore draw Draft objects in different planes, for example on top of the walls. These can then be extruded to form other 3D solids. Experiment setting the working plane on one of the top faces of the walls, then draw some rectangles up there.
 
 ![](images/Exercise_cabin_13.jpg )
@@ -110,7 +110,7 @@ Fundamentally, what the Draft Workbench does is to provide graphical ways to cre
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md) [<img src="images/Property.png" style="width:16px"> Draft](Category_Draft.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional 2D drafting/pl

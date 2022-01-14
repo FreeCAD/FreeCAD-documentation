@@ -2,7 +2,7 @@
 <div class="mw-translate-fuzzy">
 
 
-{{TutorialInfo/tr|Topic=Modeling|Level=Beginner|Author=HarryGeier (_)|Time=Less than an hour|FCVersion=0.17 or higher|Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17]}}
+{{TutorialInfo/tr|Topic=Modeling|Level=Beginner|Author=HarryGeier ([HarryGeier](User_HarryGeier.md))|Time=Less than an hour|FCVersion=0.17 or higher|Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17]}}
 
 
 </div>

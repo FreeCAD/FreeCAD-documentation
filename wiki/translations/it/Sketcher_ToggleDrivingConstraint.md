@@ -33,7 +33,7 @@ Lo strumento <img alt="" src=images/Sketcher_ToggleConstraint.svg  style="width:
 
 <div class="mw-translate-fuzzy">
 
-1.  Premere il pulsante **<img src=images/Sketcher_ToggleConstraint.svg style="width:24px"> '''Vincoli guida o definitivi'''**. Le icone di vincoli dimensionali nella barra degli strumenti Vincoli di Sketcher passano da rosso a blu.
+1.  Premere il pulsante **[<img src=images/Sketcher_ToggleConstraint.svg style="width:24px"> '''Vincoli guida o definitivi'''**. Le icone di vincoli dimensionali nella barra degli strumenti Vincoli di Sketcher passano da rosso a blu.
 2.  Funziona come la creazione di vincoli dimensionali, sempre nello stesso modo, ma ora viene invece aggiunta una quota di riferimento di colore blu.
 3.  Per riportare la barra degli strumenti Vincoli dello Sketcher alla modalità vincolo (rosso), premere nuovamente il pulsante Vincoli guida o definitivi.
 4.  Per trasformare un vincolo dimensionale in una quota di riferimento, o il contrario, selezionarlo e premere il pulsante Vincoli guida o definitivi.

@@ -26,7 +26,7 @@
 <div class="mw-translate-fuzzy">
 
 <img alt="" src=images/HorizontalConstraint3.png  style="width:500px;"> 
-*Примените Horizontal Constraint, кликнув иконку Horizontal Constraint <img src=images/Constraint_Horizontal.svg style="width:16px"> на панели инструментов Sketcher Constraints или выбрав  пункт меню Constrain horizontally в подменю Sketcher constraints меню Sketcher верстака Sketcher (или меню Part Design верстака Part Design). Выделенная линия ограничится быть параллельной горизонтальной линии эскиза.*
+*Примените Horizontal Constraint, кликнув иконку Horizontal Constraint [<img src=images/Constraint_Horizontal.svg style="width:16px"> на панели инструментов Sketcher Constraints или выбрав  пункт меню Constrain horizontally в подменю Sketcher constraints меню Sketcher верстака Sketcher (или меню Part Design верстака Part Design). Выделенная линия ограничится быть параллельной горизонтальной линии эскиза.*
 
 
 </div>

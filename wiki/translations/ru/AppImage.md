@@ -179,7 +179,7 @@ Thanks to the work of **realthunder**, author of [App Link](App_Link.md) and [As
 
 This makes it very convenient to release images for a specific branch of the source code for others to test. Although AppImages only work on Linux, realthunder\'s scripts make it possible to generate AppImages also on Windows and MacOS.
 
-The repository for these scripts is at _ for more details.
+The repository for these scripts is at [realthunder/FreeCADMakeImage](https://github.com/realthunder/FreeCADMakeImage). Please read the [Readme.md](https://github.com/realthunder/FreeCADMakeImage/blob/master/Readme.md) for more details.
 
 ## Related
 
@@ -188,7 +188,7 @@ The repository for these scripts is at _ for more details.
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Packaging](Category_Packaging.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Testing](Category_Testing.md)
 
 ---
 [documentation index](../README.md) > [Packaging](Category_Packaging.md) > AppImage/ru

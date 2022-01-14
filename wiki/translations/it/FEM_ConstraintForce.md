@@ -39,7 +39,7 @@ Questo comando applica una forza del valore dato \[N\] alla geometria di destina
         
         : In un caso tipico, fare clic su questo campo vuoto per applicare una forza in direzione normale alla faccia. È possibile invertire la direzione della forza selezionando **Inverti direzione**. In altri casi, è necessario selezionare una faccia o un piano, che sia normale alla direzione della forza (può essere diversa dalla faccia a cui viene applicata la forza)
 
-    -   Cliccare su **OK** per chiudere il dialogo e creare un oggetto **<img src=images/FEM_ConstraintForce.png style="width:24px"> Vincolo forza**.
+    -   Cliccare su **OK** per chiudere il dialogo e creare un oggetto **[<img src=images/FEM_ConstraintForce.png style="width:24px"> Vincolo forza**.
 
 
 </div>

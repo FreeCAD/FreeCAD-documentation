@@ -16,8 +16,8 @@
 
 В режиме редактирования эскиза
 
--   Нажмите на кнопку **<img src=images/Sketcher_ViewSketch.svg style="width:16px"> [Просмотр эскиза](Sketcher_ViewSketch/ru.md)** в панели инструментов верстака Sketcher или Part Design, или
--   выберите пункт меню **Sketch → <img src=images/Sketcher_ViewSketch.svg style="width:16px"> Просмотр эскиза**.
+-   Нажмите на кнопку **[<img src=images/Sketcher_ViewSketch.svg style="width:16px"> [Просмотр эскиза](Sketcher_ViewSketch/ru.md)** в панели инструментов верстака Sketcher или Part Design, или
+-   выберите пункт меню **Sketch → [<img src=images/Sketcher_ViewSketch.svg style="width:16px"> Просмотр эскиза**.
 
 
 

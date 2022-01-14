@@ -12,7 +12,7 @@
 Рабочий процесс создания инструкций в верстаке FreeCAD Path выглядит следующим образом:
 
 -   3D-модель - это базовый объект, обычно созданный с использованием одного или нескольких верстаков [Part Design](PartDesign_Workbench.md), [Part](Part_Workbench.md) или [Draft](Draft_Workbench.md).
--   В верстаке Path создается _ и выполняет команды, контролирующие скорость и перемещения (обычно G-Code).
+-   В верстаке Path создается [Задание](Path_Job/ru.md). Оно содержит всю информацию, необходимую для генерации G-кода для обработки на станке с ЧПУ: там определен материал, станок имеет определенный [набор инструментов](Path_ToolLibraryEdit.md) и выполняет команды, контролирующие скорость и перемещения (обычно G-Code).
 -   Инструменты выбираются в соответствии с требованиями Рабочих Операций.
 -   Операции обработки задаются с использованием, например, [Контуров](Path_Profile/ru.md) и [Вырезов](Path_Pocket_3D.md). Эти Операции обработки используют внутренний диалект FreeCAD G-Code, независимо от станка с ЧПУ.
 -   Экспортируйте задание в g-код, соответствующий вашему станку. Этот шаг называется «постобработка», доступны разные постпроцессоры.
@@ -96,7 +96,7 @@ G-код генерируется из директив и операций, с�
 
 -   <img alt="" src=images/Path_Post.svg  style="width:32px;"> [Постобработка](Path_Post.md): Экспортирует проект в G-код
 
--   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> _. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Sanity.svg  style="width:32px;"> [Проверить задание на наличие распространенных ошибок](Path_Sanity.md): проверяет выбранное задание на отсутствие значений.[**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
 
 -   <img alt="" src=images/Path_ExportTemplate.svg  style="width:32px;"> [Экспорт шаблона](Path_ExportTemplate.md): Экспортирует текущий проект в качестве шаблона
 
@@ -128,7 +128,7 @@ G-код генерируется из директив и операций, с�
 
 -   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptive](Path_Adaptive.md): Creates an adaptive clearing and profiling operation.
 
--   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> _. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Slot](Path_Slot.md): Creates a slotting operation from selected features or custom points. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
 
 -   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Engrave](Path_Engrave.md): Creates an engraving path.
 
@@ -138,9 +138,9 @@ G-код генерируется из директив и операций, с�
 
 -   <img alt="" src=images/Path_3DPocket.svg  style="width:32px;"> [3D Pocket](Path_Pocket_3D.md): Creates a path for a 3D pocket.
 
--   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> _. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Surface.svg  style="width:32px;"> [3D Surface](Path_Surface.md): Creates a path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
 
--   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> _. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Waterline](Path_Waterline.md): Creates a waterline path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
 
 ### Path Dressup 
 
@@ -166,7 +166,7 @@ G-код генерируется из директив и операций, с�
 
 -   <img alt="" src=images/Path_Custom.svg  style="width:32px;"> [Custom](Path_Custom.md): Вставляет пользовательский G-код.
 
--   <img alt="" src=images/Path_Shape.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Path_Shape.svg  style="width:32px;"> [From Shape](Path_Shape.md): Создаёт траекторию из существующего объекта Part [**Experimental**](Path_experimental.md).
 
 ### Модификация траектории 
 
@@ -178,9 +178,9 @@ G-код генерируется из директив и операций, с�
 
 ### Miscellaneous
 
--   <img alt="" src=images/Path_Area.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Path_Area.svg  style="width:32px;"> [Area](Path_Area.md): Creates a feature area from selected objects. [**Experimental**](Path_experimental.md).
 
--   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Path_Area_Workplane.svg  style="width:32px;"> [Area workplane](Path_Area_Workplane.md): Creates a feature area workplane. [**Experimental**](Path_experimental.md).
 
 ### Obsolete
 
@@ -218,7 +218,7 @@ G-код генерируется из директив и операций, с�
 
 ## Видео
 
--   _.
+-   [FreeCAD Path: Custom paths with Python - Part 1 - 5](https://www.youtube.com/playlist?list=PLEuOia-QxyFKgzAeTyH62GKqWKVURiWJL): a playlist with a series of 5 videos in English by sliptonic. This series shows how to work with the [Path Workbench](Path_Workbench.md).
 -   [FreeCAD CAM Path Workbench](https://www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC): a playlist with a series of 7 videos in English by CAD CAM Lessons.
 -   [FreeCAD CAM CNC](https://www.youtube.com/playlist?list=PLUrr_kHPp4vh2n6DcIlegK4dEKIFjmISJ) a playlist with a series of 8 videos in English by CAD CAM Lessons.
 
@@ -230,7 +230,7 @@ G-код генерируется из директив и операций, с�
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/ru

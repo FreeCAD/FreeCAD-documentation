@@ -24,7 +24,7 @@ Po prawej nieplanarny obiekt [polilinii](Draft_Wire/pl.md) użyty jako obiekt ś
 
 -   Polecenie <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [Polilinia](Draft_Wire/pl.md): tworzy polilinię, czyli sekwencję kilku połączonych segmentów linii.
 
--   Polecenie <img alt="" src=images/Draft_Fillet.svg  style="width:32px;"> _. {{Version/pl|0.19}}
+-   Polecenie <img alt="" src=images/Draft_Fillet.svg  style="width:32px;"> [Fillet](Draft_Fillet.md): tworzy zaokrąglenie, zaokrąglony narożnik, lub fazę, prostą krawędź, pomiędzy dwoma [liniami](Draft_Line/pl.md). {{Version/pl|0.19}}
 
 -   <img alt="" src=images/Draft_Arc.svg  style="width:32px;"> Narzędzia łuku
 
@@ -86,39 +86,39 @@ Po prawej nieplanarny obiekt [polilinii](Draft_Wire/pl.md) użyty jako obiekt ś
 
 -   Komponent <img alt="" src=images/Draft_OrthoArray.svg  style="width:32px;"> Narzędzia szyku
 
-:\* <img alt="" src=images/Draft_OrthoArray.svg  style="width:32px;"> _. {{Version/pl|0.19}}
+:\* <img alt="" src=images/Draft_OrthoArray.svg  style="width:32px;"> [Szyk](Draft_OrthoArray/pl.md): tworzy szyk ortogonalny z wybranego obiektu. Opcjonalnie może utworzyć również szyk [powiązań](App_Link/pl.md). {{Version/pl|0.19}}
 
-:\* <img alt="" src=images/Draft_PolarArray.svg  style="width:32px;"> _. <small>(v0.19)</small> 
+:\* <img alt="" src=images/Draft_PolarArray.svg  style="width:32px;"> [Szyk biegunowy](Draft_PolarArray/pl.md): tworzy szyk z wybranego obiektu poprzez umieszczenie kopii wzdłuż obwodu. Opcjonalnie może utworzyć szyk [powiązań](App_Link/pl.md). <small>(v0.19)</small> 
 
-:\* <img alt="" src=images/Draft_CircularArray.svg  style="width:32px;"> _. {{Version/pl|0.19}}
+:\* <img alt="" src=images/Draft_CircularArray.svg  style="width:32px;"> [Szyk kołowy](Draft_CircularArray/pl.md): tworzy szyk z wybranego obiektu poprzez umieszczenie kopii wzdłuż obwodu okręgu. Opcjonalnie może utworzyć szyk [powiązań](App_Link/pl.md). {{Version/pl|0.19}}
 
 :\* <img alt="" src=images/Draft_PathArray.svg  style="width:32px;"> [Szyk po ścieżce](Draft_PathArray/pl.md): tworzy szyk z wybranego obiektu poprzez umieszczenie kopii wzdłuż ścieżki.
 
-:\* <img alt="" src=images/Draft_PathLinkArray.svg  style="width:32px;"> _ zamiast zwykłego szyku. {{Version/pl|0.19}}
+:\* <img alt="" src=images/Draft_PathLinkArray.svg  style="width:32px;"> [Szyk powiązań po ścieżce](Draft_PathLinkArray/pl.md): podobnie, ale utwórz szyk [powiązań](App_Link/pl.md) zamiast zwykłego szyku. {{Version/pl|0.19}}
 
 :\* <img alt="" src=images/Draft_PointArray.svg  style="width:32px;"> [Szyk z punktów](Draft_PointArray/pl.md): tworzy szyk z wybranego obiektu poprzez umieszczenie kopii w punktach ze zbioru punktów.
 
-:\* <img alt="" src=images/Draft_PointLinkArray.svg  style="width:32px;"> _ zamiast zwykłego szyku. {{Version/pl|0.19}}
+:\* <img alt="" src=images/Draft_PointLinkArray.svg  style="width:32px;"> [Szyk powiązań w punktach](Draft_PointLinkArray/pl.md): podobnie, ale utwórz szyk [powiązań](App_Link/pl.md) zamiast zwykłego szyku. {{Version/pl|0.19}}
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> [Edycja](Draft_Edit/pl.md): umieszcza wybrane obiekty w trybie edycji szkicu. W tym trybie właściwości obiektów mogą być edytowane graficznie.
 
 -   <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:32px;"> [Podświetl element podrzędny](Draft_SubelementHighlight/pl.md): tymczasowo podświetla wybrane obiekty lub obiekty bazowe wybranych obiektów.
 
--   <img alt="" src=images/Draft_Join.svg  style="width:32px;"> _ oraz [Polilinies](Draft_Wire/pl.md) w pojedynczą polilinę.
+-   <img alt="" src=images/Draft_Join.svg  style="width:32px;"> [Połącz](Draft_Join/pl.md): łączy [Linie](Draft_Line/pl.md) oraz [Polilinies](Draft_Wire/pl.md) w pojedynczą polilinę.
 
--   <img alt="" src=images/Draft_Split.svg  style="width:32px;"> _ lub [polilinie](Draft_Wire/pl.md) w określonym punkcie lub krawędzi.
+-   <img alt="" src=images/Draft_Split.svg  style="width:32px;"> [Rozdziel](Draft_Split/pl.md): dzieli [Linie](Draft_Line/pl.md) lub [polilinie](Draft_Wire/pl.md) w określonym punkcie lub krawędzi.
 
 -   <img alt="" src=images/Draft_Upgrade.svg  style="width:32px;"> [Ulepsz kształt](Draft_Upgrade/pl.md): aktualizuje wybrane obiekty.
 
 -   <img alt="" src=images/Draft_Downgrade.svg  style="width:32px;"> [Rozbij obiekt na elementy](Draft_Downgrade/pl.md): powoduje redukcję stopnia zaawansowania wybranych obiektów.
 
--   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> _ na [krzywą złożoną](Draft_BSpline/pl.md) i vice versa.
+-   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Polilinia na krzywą złożoną](Draft_WireToBSpline/pl.md): konwertuje [polilinię](Draft_Wire/pl.md) na [krzywą złożoną](Draft_BSpline/pl.md) i vice versa.
 
--   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> _ na [szkics](Sketcher_NewSketch/pl.md) środowiska Szkicownik, oraz vice versa.
+-   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Rysunek roboczy do szkicu](Draft_Draft2Sketch/pl.md): konwertuje obiekt [rysunek roboczy](Draft_Workbench/pl.md) na [szkics](Sketcher_NewSketch/pl.md) środowiska Szkicownik, oraz vice versa.
 
--   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> _ lub [polilinii](Draft_Wire/pl.md) poprzez zwiększenie lub zmniejszenie współrzędnej Z, dla wszystkich punktów po pierwszym.
+-   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> [Nachylenie](Draft_Slope/pl.md): powoduje nachylenie wybranych [linii](Draft_Line/pl.md) lub [polilinii](Draft_Wire/pl.md) poprzez zwiększenie lub zmniejszenie współrzędnej Z, dla wszystkich punktów po pierwszym.
 
--   <img alt="" src=images/Draft_FlipDimension.svg  style="width:32px;"> _ o 180° wokół linii wymiaru.
+-   <img alt="" src=images/Draft_FlipDimension.svg  style="width:32px;"> [Obróć wymiar](Draft_FlipDimension/pl.md): obraca tekst wymiaru dla wybranych [wymiarów](Draft_Dimension/pl.md) o 180° wokół linii wymiaru.
 
 -   <img alt="" src=images/Draft_Shape2DView.svg  style="width:32px;"> [Widok 2D kształtu](Draft_Shape2DView/pl.md): tworzy rzuty 2D z wybranych obiektów.
 
@@ -134,7 +134,7 @@ Pasek narzędzi zasobnika środowiska [Rysunek Roboczy](Draft_Tray/pl.md) pojawi
 
 -   ![](images/Draft_tray_button_construction.png ) [Przełącz tryb konstrukcyjny](Draft_ToggleConstructionMode/pl.md): włącza lub wyłącza tryb konstrukcji szkicu. Dostępne również w menu: **Rysunek Roboczy → Narzędzia → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Przełącz tryb konstrukcyjny**.
 
--   !_ lub, opcjonalnie, aktywną [grupę](Std_Group/pl.md) lub grupę obiektów [architektury](Arch_Workbench/pl.md).
+-   ![](images/Draft_tray_button_layer.png ) [Grupowanie automatyczne](Draft_AutoGroup/pl.md): zmienia aktywną [warstwę](Draft_Layer/pl.md) lub, opcjonalnie, aktywną [grupę](Std_Group/pl.md) lub grupę obiektów [architektury](Arch_Workbench/pl.md).
 
 ## Widżet skali adnotacji 
 
@@ -144,7 +144,7 @@ Za pomocą widżetu [skali anotacji](Draft_annotation_scale_widget/pl.md) można
 
 ## Widżet przyciągania 
 
-Widżet _. {{Version/pl|0.19}}
+Widżet [przyciągania](Draft_snap_widget/pl.md) może być używany jako alternatywa dla [paska narzędzi przyciągania](#Pasek_narz.C4.99dzi_Rysunek_roboczy:_Przyci.C4.85gnij.md). {{Version/pl|0.19}}
 
 ![](images/Draft_snap_widget_button.png )
 
@@ -152,13 +152,13 @@ Widżet _. {{Version/pl|0.19}}
 
 Pasek narzędzi [Rysunek roboczy: Przyciągnij](Draft_Snap/pl.md) umożliwia wybranie bieżącego trybu przyciągania. Jego przycisk pozostaje wciśnięty, gdy tryb jest aktywny.
 
--   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> _ obiektów na włączone lub wyłączone.
+-   <img alt="" src=images/Draft_Snap_Lock.svg  style="width:32px;"> [Przełącz przyciąganie](Draft_Snap_Lock.md): przełącza globalnie [przyciąganie](Draft_Snap/pl.md) obiektów na włączone lub wyłączone.
 
 -   <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:32px;"> [Punkt końcowy](Draft_Snap_Endpoint/pl.md): przyciąga do punktów końcowych odcinków lub krawędzi.
 
 -   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Punkt środkowy](Draft_Snap_Midpoint/pl.md): przyciąga do punktu środkowego krawędzi.
 
--   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ i [Arch BuildingParts](Arch_BuildingPart/pl.md).
+-   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Środek](Draft_Snap_Center.md): przyciąga do punktu środkowego powierzchni i krawędzi kołowych, a także do punktu {{PropertyData/pl|Umiejscowienia}} [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy/pl.md) i [Arch BuildingParts](Arch_BuildingPart/pl.md).
 
 -   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Kąt](Draft_Snap_Angle.md): przyciąga do specjalnych punktów odniesienia kół i łuków, przy wielokrotnościach 30° i 45°.
 
@@ -178,7 +178,7 @@ Pasek narzędzi [Rysunek roboczy: Przyciągnij](Draft_Snap/pl.md) umożliwia wyb
 
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Siatka](Draft_Snap_Grid/pl.md): przyciąga na przecięciach linii siatki.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Płaszczyzna robocza](Draft_Snap_WorkingPlane/pl.md): zawsze umieszcza przyciągany punkt na aktualnej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md).
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Wymiary](Draft_Snap_Dimensions/pl.md): prezentuje tymczasowe wymiary X i Y podczas przyciągania.
 
@@ -186,19 +186,19 @@ Pasek narzędzi [Rysunek roboczy: Przyciągnij](Draft_Snap/pl.md) umożliwia wyb
 
 ### Pasek narzędzi użytkowych 
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> _ środowiska Rysunek Roboczy. {{Version/pl|0.19}}
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Warstwa](Draft_Layer/pl.md): tworzy [warstwę](Draft_Layer/pl.md) środowiska Rysunek Roboczy. {{Version/pl|0.19}}
 
--   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> _ i przenosi wybrane obiekty do tej grupy. {{Version/pl|0.20}}
+-   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> [Dodaj grupe o nazwie](Draft_AddNamedGroup/pl.md): tworzy nazwaną [Grupę Std](Std_Group/pl.md) i przenosi wybrane obiekty do tej grupy. {{Version/pl|0.20}}
 
--   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> _. Może również usuwać grupy obiektów.
+-   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> [Dodaj do grupy](Draft_AddToGroup/pl.md): przenosi obiekt do a [Grupy](Std_Group/pl.md). Może również usuwać grupy obiektów.
 
--   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> _, [Grupy](Std_Group/pl.md) lub obiektów zbliżone do grupy [Architektury](Arch_Workbench/pl.md).
+-   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Wybierz grupę](Draft_SelectGroup/pl.md): wybiera zawartość [warstwy](Draft_Layer/pl.md), [Grupy](Std_Group/pl.md) lub obiektów zbliżone do grupy [Architektury](Arch_Workbench/pl.md).
 
--   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Dodaj do grupy konstrukcyjnej](Draft_AddConstruction/pl.md): przenosi obiekty do [trybu konstrukcji](Draft_ToggleConstructionMode/pl.md).
 
 -   <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:32px;"> [Przełącz tryb wyświetlania](Draft_ToggleDisplayMode/pl.md): przełącza {{PropertyView/pl|Tryb wyświatlania}} właściwości wybranych obiektów pomiędzy {{Value|cieniowany z krawędziami}} oraz {{Value|szkielet}}.
 
--   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> [Pośrednia płaszczyzna robocza](Draft_WorkingPlaneProxy/pl.md): tworzy zastępczą płaszczyznę roboczą, aby zapisać bieżącą [płaszczyznę robocza projektu](Draft_SelectPlane/pl.md).
 
 ## Dodatkowe narzędzia 
 
@@ -210,11 +210,11 @@ Menu środowiska Rysunek Roboczy **Narzędzia** zawiera kilka narzędzi. Większ
 
 -   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Przełącz tryb kontynuacji](Draft_ToggleContinueMode/pl.md): włącza lub wyłącza tryb kontynuacji.
 
--   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Pokaż przybornik przyciągania](Draft_ShowSnapBar.md): wyświetla [pasek narzędzi przyciągania](#Pasek_narz.C4.99dzi_Rysunek_roboczy:_Przyci.C4.85gnij.md).
 
 ## Dodatkowe właściwości 
 
--   _, na której można budować swoje kształty.
+-   [Płaszczyzna robocza](Draft_SelectPlane/pl.md): Umożliwia wybranie powierzchni w oknie [widoku 3D](3D_view.md), na której można budować swoje kształty.
 -   [Przyciąganie](Draft_Snap/pl.md): Pozwala wybierać dokładne punkty geometryczne na, lub zdefiniowane przez, istniejące obiekty lub siatkę.
 -   [Wiązania](Draft_Constrain/pl.md): Dla każdego kolejnego punktu można ograniczyć ruch kursora do kierunku X, Y lub Z.
 -   [Tryb konstrukcji](Draft_ToggleConstructionMode/pl.md): Umieszcza nowe obiekty Rysunku Roboczego w dedykowanej grupie, ułatwiając ich ukrywanie lub usuwanie.
@@ -256,7 +256,7 @@ Dla narzędzi [Warstw](Draft_Layer/pl.md) dostępne są te dodatkowe opcje:
 
 Dla narzędzi [Pośredniej płaszczyzny roboczej](Draft_WorkingPlaneProxy/pl.md) dostępne są te dodatkowe opcje:
 
--   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Zapisz ujęcie widoku](Draft_WorkingPlaneProxy/pl#Menu_podr.C4.99czne.md): aktualizuje właściwość {{PropertyView/pl|Dane widoku}} pośrednika płaszczyzny roboczej o bieżące ustawienia ujęcia widoku okna [widoku 3D](3D_view/pl.md).
 
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Zapisz stan obiektów](Draft_WorkingPlaneProxy/pl#Menu_podr.C4.99czne.md): aktualizuje właściwość {{PropertyView/pl|Mapa widoczności}} pośrednika płaszczyzny roboczej z aktualnym stanem widoczności obiektów w dokumencie.
 
@@ -274,9 +274,9 @@ Jeśli istnieje aktywny dokument, menu kontekstowe zawiera jedno dodatkowe podme
 
 Polecenia te są przestarzałe, ale nadal dostępne.
 
--   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> _ lub [szyk kołowy](Draft_CircularArray/pl.md) poprzez zmianę jej właściwości {{PropertyData/pl|Typ szyku}}. {{Obsolete/pl|0.19}}
+-   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Utwórz szyk](Draft_Array/pl.md): tworzy ortogonalną tablicę z wybranego obiektu. Utworzona tablica może zostać przekształcona w [szyk biegunowy](Draft_PolarArray/pl.md) lub [szyk kołowy](Draft_CircularArray/pl.md) poprzez zmianę jej właściwości {{PropertyData/pl|Typ szyku}}. {{Obsolete/pl|0.19}}
 
--   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> _. {{Obsolete/pl|0.17}}
+-   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Projekt rysunku](Draft_Drawing/pl.md): wstawia widoki obiektów na stronie środowiska [Rysunek Roboczy](Drawing_Workbench/pl.md). {{Obsolete/pl|0.17}}
 
 ## Ustawienia
 
@@ -288,8 +288,8 @@ Polecenia te są przestarzałe, ale nadal dostępne.
 
 Środowisko pracy Rysunek Roboczy dostarcza programowi FreeCAD narzędzia do importu i eksportu dla kilku formatów plików. Są one używane przez polecenia [Import](Std_Import/pl.md) i [Eksport](Std_Export/pl.md).
 
--   _.
--   _.
+-   [Autodesk .DXF](Draft_DXF/pl.md): Import i eksport plików [Drawing Exchange Format](http://en.wikipedia.org/wiki/AutoCAD_DXF) utworzonych za pomocą aplikacji 2D CAD. Zobacz również [FreeCAD i import DXF](FreeCAD_and_DXF_Import/pl.md).
+-   [Autodesk .DWG](Draft_DXF/pl.md): Import i eksport plików DWG przez zewnętrzny konwerter DXF. Zobacz również [FreeCAD i import DWG](FreeCAD_and_DWG_Import/pl.md).
 -   [Scalable Vector Graphics .SVG](Draft_SVG/pl.md): Import i eksport plików [Scalable Vector Graphics](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) utworzonych za pomocą aplikacji do rysowania wektorowego.
 -   [Open Cad format .OCA](Draft_OCA/pl.md): Import i eksport plików [OCA/GCAD](http://groups.google.com/group/open_cad_format).
 -   [Airfoil Data Format .DAT](Draft_DAT/pl.md): Import plików DAT opisujących profil Airfoil.
@@ -307,7 +307,7 @@ freecad -t TestDraft
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę: _.
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Środowisko pracy zawiera moduł do tworzenia przykładów wszystkich obiektów w nowym dokumencie. {{Version/pl|0.19}}
 
@@ -332,7 +332,7 @@ Sprawdzenie kodu tego modułu jest pomocne, aby zrozumieć interfejs programowan
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Draft Workbench/pl

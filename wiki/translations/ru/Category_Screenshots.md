@@ -5,7 +5,7 @@ This category lists pages with screenshots.
 
 [Screenshots/ru](Screenshots/ru.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation/ru](<img src="images/Property.png" style="width:16px"> Documentation/ru.md)
 
 ---
 [documentation index](../README.md) > Category:Screenshots/ru

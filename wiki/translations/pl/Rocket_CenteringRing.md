@@ -83,7 +83,7 @@ These properties are inherited from the **Bulkhead**, see [Bulkhead](Rocket_Bulk
 
 ## Scripting
 
-See also: _ and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+See also: [:<img src="images/Property.png" style="width:16px"> API](:Category_API.md) and [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
 
 TBD
 
@@ -97,7 +97,7 @@ TBD
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [API]] and ](Category_API]] and .md) > Rocket CenteringRing/pl

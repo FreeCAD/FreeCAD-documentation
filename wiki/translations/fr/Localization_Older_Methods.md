@@ -46,7 +46,7 @@ Les informations suivantes ne doivent plus être utilisées et deviendront proba
 
 ### Prérequis
 
-Pour localiser votre module d'application, vous avez besoin de l'aide de *Qt*. Vous pouvez le télécharger à partir du _ :
+Pour localiser votre module d'application, vous avez besoin de l'aide de *Qt*. Vous pouvez le télécharger à partir du [Trolltech-Website](http://www.trolltech.com/products/qt/downloads), mais elle figure également dans [LibPack](Third_Party_Libraries/fr.md) :
 
 qmake: génère des fichiers de projet.
 lupdate: extrait ou met à jour les textes originaux de votre projet en scannant le code source.
@@ -152,7 +152,7 @@ et exécutant pyrcc4 Draft.qrc -o qrc\_Draft.py crée un grand fichier Python co
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Localization Older Methods/fr

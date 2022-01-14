@@ -3,9 +3,9 @@ Ta kategoria zawiera strony związane ze środowiskiem [Siatka](Mesh_Workbench/p
 
 ### Contents:
 
-_ , _
+[Artwork Mesh/pl](Artwork_Mesh/pl.md) , [Manual:Preparing models for 3D printing/pl](Manual:Preparing_models_for_3D_printing/pl.md) , [Template:Mesh Tools navi/pl](Template:Mesh_Tools_navi/pl.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches/pl](<img src="images/Property.png" style="width:16px"> Workbenches/pl.md)
 
 ---
 [documentation index](../README.md) > Category:Mesh/pl

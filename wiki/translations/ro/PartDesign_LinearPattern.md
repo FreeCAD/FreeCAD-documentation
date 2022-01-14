@@ -27,7 +27,7 @@ Instrumentul **Linear pattern** creează copii uniform distanțate dintr-o func�
 1.  Select the feature(s) to be patterned. Alternatively, the feature can be selected from a dialogue after step 2.
 
     :   v0.16 and below Only a single feature can be selected, and it must be the last one at the bottom of the feature tree.
-2.  Press the **<img src=images/PartDesign_LinearPattern.png style="width:24px"> '''LinearPattern'''** button.
+2.  Press the **[<img src=images/PartDesign_LinearPattern.png style="width:24px"> '''LinearPattern'''** button.
 3.  v0.17 and above Press **Add feature** to add a feature to be patterned. The feature must be visible in the 3D view:
     1.  Switch to the Model tree;
     2.  Select in the tree the feature to be added and press **spacebar** to make it visible in the 3D view;

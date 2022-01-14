@@ -25,9 +25,9 @@ FreeCAD este în primul rând o aplicație de modelare 3D și, prin urmare, nu a
 
 Acestea sunt instrumente pentru crearea obiectelor de pagină.
 
--   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> _ implicit.
+-   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Insert Default Page](TechDraw_PageDefault.md): adaugă o nouă pagină utilizând [template](TechDraw_Templates.md) implicit.
 
--   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> _.
+-   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Insert Page using Template](TechDraw_PageTemplate.md): Adaugă o nouă pagină utilizând o selecție [template](TechDraw_Templates.md).
 
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Redraw Page](TechDraw_RedrawPage.md): forces an update of the selected page. <small>(v0.19)</small> 
 
@@ -45,11 +45,11 @@ Acestea sunt instrumente pentru crearea de Vizualizare obiecte.
 
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [Insert Detail View](TechDraw_DetailView.md): adaugă un detaliu vizualizarea unei porțiuni dintr-o vizualizare existentă.
 
--   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> _.
+-   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [Insert Draft Workbench Object](TechDraw_DraftView.md): adaugă o vizualizare la un Obiect din Atelierul [Draft Workbench](Draft_Workbench.md).
 
--   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> _ [SectionPlane](Arch_SectionPlane.md).
+-   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Insert Arch Workbench Object](TechDraw_ArchView.md): adaugă o vizualizare la un obiect din Atelierul Arhitectură adaugă o vizualizare a [Arch Workbench](Arch_Workbench.md) [SectionPlane](Arch_SectionPlane.md).
 
--   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> _ sheet.
+-   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> [Insert Spreadsheet View](TechDraw_SpreadsheetView.md): inserează o vizualizare a unei foi de calcul [Spreadsheet Workbench](Spreadsheet_Workbench.md) sheet.
 
 ## Măști
 
@@ -69,9 +69,9 @@ Acestea sunt instrumente pentru modificarea aspectului paginilor și al vizualiz
 
 -   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Apply Geometric Hatch to Face](TechDraw_GeometricHatch.md): aplică un model de trasură la o față folosind o specificație Autodesk PAT.
 
--   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ în pagină.
+-   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> [New Symbol](TechDraw_Symbol.md): inserază un simbol cartezian [SVG](SVG.md) în pagină.
 
--   <img alt="" src=images/Techdraw-image.png  style="width:32px;"> _ în pagină.
+-   <img alt="" src=images/Techdraw-image.png  style="width:32px;"> [New Image](TechDraw_Image.md): Inserează o imagine PNG or JPG [bitmap](bitmap.md) în pagină.
 
 -   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Turn View Frames On/Off](TechDraw_ToggleFrame.md): Comuntă on/off cadrele și etichete care înconjoară o pagină.
 
@@ -280,9 +280,9 @@ These are tools to improve your TechDraw drawings.
 
 These are tools for exporting pages to other applications.
 
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _.
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Export Page as SVG](TechDraw_ExportPageSVG.md): Salvează o pagină ca fișier [SVG](SVG.md).
 
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _ file.
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Export Page as DXF](TechDraw_ExportPageDXF.md): saves the current page as [DXF](DXF.md) file.
 
 ## Caracteristici suplimentare 
 
@@ -365,7 +365,7 @@ Video tutorials by sliptonic
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/ro

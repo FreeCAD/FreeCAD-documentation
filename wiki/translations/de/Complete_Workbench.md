@@ -10,7 +10,7 @@ Siehe [Anpassung der Benutzeroberfläche ](Interface_Customization/de.md), wenn 
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Complete](Category_Complete.md) [<img src="images/Property.png" style="width:16px"> Obsolete Workbenches](Category_Obsolete_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Complete](Category_Complete.md) > Complete Workbench/de

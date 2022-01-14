@@ -5,7 +5,7 @@
 |Author=Mario52
 |Version=00.05
 |Date=2016-08-28
-|SeeAlso=<img src=images/Arch_Survey.svg style="width:Arch Survey|24px"> [Arch Survey](Arch_Survey/fr.md)
+|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Survey](Arch_Survey/fr.md)
 }}
 
 ## Description

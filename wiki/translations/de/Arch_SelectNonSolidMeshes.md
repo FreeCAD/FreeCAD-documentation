@@ -12,7 +12,7 @@
 
 ## Beschreibung
 
-Dieses Werkzeug identifiziert und wählt die nicht-festen (nicht-_ Objekten.
+Dieses Werkzeug identifiziert und wählt die nicht-festen (nicht-[1](https://de.wikipedia.org/wiki/Mannigfaltigkeit)) Netze in einer ausgewählten Gruppe von ausgewählten <img alt="Mesh Workbench" src=images/Workbench_Mesh.svg  style="width:24px;"> [Netz](Mesh_Workbench/de.md) Objekten.
 
 ## Anwendung
 

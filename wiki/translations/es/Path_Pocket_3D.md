@@ -7,7 +7,7 @@
 
 ## Description
 
-This command inserts a path <img alt="" src=images/Path_3DPocket.svg  style="width:24px;"> _ operation. <img alt="Sample image of 3D Pocket operation used to clear cylindrical battery holder." src=images/Path_3D_Pocket_Sample.png  style="width:600px;">
+This command inserts a path <img alt="" src=images/Path_3DPocket.svg  style="width:24px;"> [3D Pocket](Path_Pocket_3D.md) object into the Job. This operation takes into account the bottom surface of the pocket, as well as selected walls that are not vertical. In its current state, this operation is used to rough out a pocket with non-vertical walls and/or non-horizontal bottom. A common finishing technique is to use a ball end mill with the experimental <img alt="" src=images/Path_Surface.svg  style="width:24px;"> [3D Surface](Path_Surface.md) operation. <img alt="Sample image of 3D Pocket operation used to clear cylindrical battery holder." src=images/Path_3D_Pocket_Sample.png  style="width:600px;">
 
 ## Usage
 

@@ -7,7 +7,7 @@
 
 L\'[Atelier Reinforcement](Reinforcement_Workbench/fr.md) est un [Atelier externe](External_workbenches/fr.md) qui fournit des outils pour la génération et le détail des armatures. Cet atelier fournit une interface et des préréglages pour la création de types d\'armatures courants ainsi que des outils pour générer la nomenclature des armatures, la liste de coupe des formes d\'armatures, la nomenclature de pliage des barres et le dessin et la cote des armatures.
 
-Image:Arch\_Rebar\_Straight\_example.png\|_ Image:Arch\_Rebar\_LShape\_example.png\|_ Image:Arch\_Rebar\_Stirrup\_example.png\|_ Image:Arch\_Rebar\_Circular\_ColumnReinforcement\_example.png\|_ Image:Arch\_Rebar\_ColumnReinforcement\_TwoTies\_example.png\|_ Image:Isometric\_view\_of\_Bent\_Shape\_rebars\_in\_parallel\_and\_cross\_direction\_with\_distribution\_rebars.png\|_ Image:Arch\_Rebar\_BOM\_example.png\|_ Image:Reinforcement\_Bar\_Bending\_Schedule\_example.svg\|_
+Image:Arch\_Rebar\_Straight\_example.png\|[Armature droite](Arch_Rebar_Straight/fr.md) Image:Arch\_Rebar\_UShape\_example.png\|[Armature en U](Arch_Rebar_UShape/fr.md) Image:Arch\_Rebar\_LShape\_example.png\|[Armature en L](Arch_Rebar_LShape/fr.md) Image:Arch\_Rebar\_BentShape\_example.png\|[Armature cintrée](Arch_Rebar_BentShape/fr.md) Image:Arch\_Rebar\_Stirrup\_example.png\|[Armature en étrier](Arch_Rebar_Stirrup/fr.md) Image:Arch\_Rebar\_Helical\_example.png\|[Armature hélicoïdale](Arch_Rebar_Helical/fr.md) Image:Arch\_Rebar\_Circular\_ColumnReinforcement\_example.png\|[Armature circulaire](Arch_Rebar_Circular_ColumnReinforcement/fr.md) Image:Arch\_Rebar\_ColumnReinforcement\_example.png\|[Armature en colonne](Arch_Rebar_ColumnReinforcement/fr.md) Image:Arch\_Rebar\_ColumnReinforcement\_TwoTies\_example.png\|[Armature 2 cadres 6 barres](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/fr.md) Image:Arch\_Rebar\_BeamReinforcement\_example.png\|[Poutre](Arch_Rebar_BeamReinforcement/fr.md) Image:Isometric\_view\_of\_Bent\_Shape\_rebars\_in\_parallel\_and\_cross\_direction\_with\_distribution\_rebars.png\|[Renforts de dalle](Arch_Rebar_Slab_Reinforcement/fr.md) Image:Isometric\_view\_of\_Columns\_footing.png\|[Renforts de semelle](Arch_Rebar_Footing_Reinforcement/fr.md) Image:Arch\_Rebar\_BOM\_example.png\|[Nomenclature armature](Arch_Rebar_BOM/fr.md) Image:Reinforcement\_Bar\_Shape\_Cut\_List\_example.svg\|[Nomenclature de façonnage des armatures](Reinforcement_Bar_Shape_Cut_List/fr.md) Image:Reinforcement\_Bar\_Bending\_Schedule\_example.svg\|[Tableau des armatures](Reinforcement_Bar_Bending_Schedule/fr.md) Image:Arch\_Rebar\_Drawing\_Dimensioning\_example.svg\|[Dimensions et dessins d\'armatures](Arch_Rebar_Drawing_Dimensioning/fr.md)
 
 ## Installation
 
@@ -53,12 +53,12 @@ L\'atelier Reinforcement n\'est pas fourni avec le package FreeCAD par défaut m
 
 -   <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning.svg  style="width:32px;"> [Dimensions et dessins d\'armatures](Arch_Rebar_Drawing_Dimensioning/fr.md) : Crée dessins et dimensions des armatures.
     -   <img alt="" src=images/Arch_Rebar_Drawing.svg  style="width:32px;"> [Dessins des armatures](Arch_Rebar_Drawing_Dimensioning/fr#Dessins_des_armatures.md) : Crée les dessins des armatures.
-    -   <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width:32px;"> _.
+    -   <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width:32px;"> [Reinforcement Dimensioning](Arch_Rebar_Drawing_Dimensioning#Reinforcement_Dimensioning.md) : Crée les dimensions des armatures dans les [Dessins des armatures](Arch_Rebar_Drawing_Dimensioning/fr#Dessins_des_armatures.md).
 
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > Reinforcement Workbench/fr

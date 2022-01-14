@@ -52,7 +52,7 @@ Iconița **Toggle Constraint** comută constrângerile dimensionale (bloc, dista
 
 <div class="mw-translate-fuzzy">
 
-1.  Se apasă butonul **<img src=images/Sketcher_ToggleConstraint.png style="width:24px"> '''Toggle reference/driving constraint'''** . Iconițele constrângerilor dimensiuonale în bara de instrumente Sketcher Constraints se schimbă din culaorea roșie în culoarea albastră.
+1.  Se apasă butonul **[<img src=images/Sketcher_ToggleConstraint.png style="width:24px"> '''Toggle reference/driving constraint'''** . Iconițele constrângerilor dimensiuonale în bara de instrumente Sketcher Constraints se schimbă din culaorea roșie în culoarea albastră.
 2.  The usual method of creating dimensional constraints works the same, but a blue reference dimension is added instead.
 3.  To turn the Sketcher Constraints toolbar back to constraint mode (red), press the Toggle Constraint button again.
 4.  Pentru a transforma o constrângere dimensională într-o dimensiune de referință sau pentru viceversa, selectați-o și apăsați butonul Toggle Constraint.

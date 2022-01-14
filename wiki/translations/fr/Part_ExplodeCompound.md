@@ -29,7 +29,7 @@ L\'outil fera également exploser des formes non composées dans leurs constitua
 ## Cas d\'utilisation 
 
 -   Ajustement des positions des formes faites par <img alt="" src=images/Draft_OrthoArray.svg  style="width:24px;"> [Draft Réseau orthogonal](Draft_OrthoArray/fr.md).
--   Obtention de pièces séparées à partir du résultat de <img alt="" src=images/Part_Slice.svg  style="width:24px;"> _.
+-   Obtention de pièces séparées à partir du résultat de <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part Scinder](Part_Slice/fr.md) et <img alt="" src=images/Part_Cut.svg  style="width:24px;"> [Part Couper](Part_Cut/fr.md).
 -   Obtention des contours individuels à partir d\'esquisses et de faces à contours multiples.
 -   Obtention d\'un solide pur à partir d\'un solide en composé pour une utilisation dans l\'<img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [atelier FEM](FEM_Workbench/fr.md).
 

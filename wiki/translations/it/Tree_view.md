@@ -112,7 +112,7 @@ Se si seleziona il documento attivo e si fa clic con il tasto destro, oltre a **
 
 -    **Segna da ricalcolare**: contrassegna tutti gli oggetti del documento come toccati e pronti per il [ricalcolo](recompute/it.md).
 
--    **_ nel documento selezionato usando il metodo `addObject()` del documento.
+-    **[Crea un gruppo](Std_Group/it.md)**: crea un [gruppo](Std_Group/it.md) nel documento selezionato usando il metodo `addObject()` del documento.
 
 
 </div>

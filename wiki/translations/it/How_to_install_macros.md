@@ -1,5 +1,5 @@
 # How to install macros/it
-{{TutorialInfo/it|Topic=Programmazione e Configurazione|Level=Medio|Time=15 minuti|FCVersion=Tutte|Author=_}}
+{{TutorialInfo/it|Topic=Programmazione e Configurazione|Level=Medio|Time=15 minuti|FCVersion=Tutte|Author=[Mario52](User_Mario52.md)}}
 
 ## Descrizione
 
@@ -517,7 +517,7 @@ e poi cliccare sul pulsante **OK**
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > How to install macros/it

@@ -9,7 +9,7 @@
 |Date=2020-01-10
 |FCVersion=Toutes
 |Download=ToolBar icon [https://www.freecadweb.org/wiki/images/a/a4/Dodecahedron.svg Icon ToolBar]
-|SeeAlso=<img src=images/Pyramidicon.svg style="width:Macro Pyramid](Macro_Pyramid/fr.md) [24px">
+|SeeAlso=[Macro Pyramid](Macro_Pyramid/fr.md) [<img src=images/Pyramidicon.svg style="width:24px">
 }}
 
 ## Description

@@ -26,7 +26,7 @@ Das <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Part zerschneid
 
 <div class="mw-translate-fuzzy">
 
-Es gibt zwei Befehle, um eine Form zu zerschneiden: <img alt="" src=images/Part_SliceApart.svg  style="width:24px;">_. Beide erzeugen ein parametrisches \'zerschnittenes\' Formelement, das die zerschnittenen Teile in einen Verbund legt. Jedoch <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Auseinander Zerschneiden](Part_SliceApart/de.md) explodiert den resultierenden Verbund in separate Objekte. \"Zerschneiden zum Verbund\" ist voll parametrisch und verursacht keine Probleme, wenn sich die Anzahl der Teile ändert. \"Auseinander zerschneiden\" aktualisiert die Anzahl der Objekte nicht, wenn sich die Anzahl der Teile ändert.
+Es gibt zwei Befehle, um eine Form zu zerschneiden: <img alt="" src=images/Part_SliceApart.svg  style="width:24px;">[Auseinander Zerschneiden](Part_SliceApart/de.md) und <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Zu Verbund zerschneiden](Part_Slice/de.md). Beide erzeugen ein parametrisches \'zerschnittenes\' Formelement, das die zerschnittenen Teile in einen Verbund legt. Jedoch <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Auseinander Zerschneiden](Part_SliceApart/de.md) explodiert den resultierenden Verbund in separate Objekte. \"Zerschneiden zum Verbund\" ist voll parametrisch und verursacht keine Probleme, wenn sich die Anzahl der Teile ändert. \"Auseinander zerschneiden\" aktualisiert die Anzahl der Objekte nicht, wenn sich die Anzahl der Teile ändert.
 
 
 </div>
@@ -34,7 +34,7 @@ Es gibt zwei Befehle, um eine Form zu zerschneiden: <img alt="" src=images/Part_
 
 <div class="mw-translate-fuzzy">
 
-Die Ausgabeform nimmt den gleichen Raum ein wie das Original. Sie wird jedoch dort getrennt, wo sie sich mit anderen Formen überschneidet. Die getrennten Teile werden in einen Verbund (oder BildeVolumenkörper) gesetzt, so dass das Objekt in einem Stück zu bleiben scheint. Du musst den Verbund sprengen, um die einzelnen Teile zu erhalten. Wenn du auf die einzelnen Teile parametrisch zugreifen möchtest, kannst du zu diesem Zweck <img alt="" src=images/Part_CompoundFilter.svg  style="width:24px;"> _.
+Die Ausgabeform nimmt den gleichen Raum ein wie das Original. Sie wird jedoch dort getrennt, wo sie sich mit anderen Formen überschneidet. Die getrennten Teile werden in einen Verbund (oder BildeVolumenkörper) gesetzt, so dass das Objekt in einem Stück zu bleiben scheint. Du musst den Verbund sprengen, um die einzelnen Teile zu erhalten. Wenn du auf die einzelnen Teile parametrisch zugreifen möchtest, kannst du zu diesem Zweck <img alt="" src=images/Part_CompoundFilter.svg  style="width:24px;"> [Part VerbundFilter](Part_CompoundFilter/de.md) verwenden. Für schnellen nichtparametrischen Zugriff verwende <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> [Entwurf herabstufen](Draft_Downgrade/de.md).
 
 
 </div>

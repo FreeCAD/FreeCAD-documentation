@@ -3,7 +3,7 @@
 
  
 
-In FreeCAD the word \"_ (`App::Part` class), a type of container object that is defined by the base system. This Part is used to manage the position of 3D shapes in order to create mechanical assemblies.
+In FreeCAD the word \"[Part](Part.md)\" is normally used to refer to a <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std Part](Std_Part.md) (`App::Part` class), a type of container object that is defined by the base system. This Part is used to manage the position of 3D shapes in order to create mechanical assemblies.
 
 See <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std Part](Std_Part.md) for more information about this type of object.
 
@@ -11,7 +11,7 @@ See <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std Part](Std_Par
 
 The Std Part tool is not defined by a particular workbench, but by the base system, thus it is found in the **structure toolbar**, which is available in all [workbenches](Workbenches.md).
 
-1.  Press the **<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)** button. An empty Part is created and automatically becomes *[active](Std_Part#Active_status.md)*.
+1.  Press the **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part.md)** button. An empty Part is created and automatically becomes *[active](Std_Part#Active_status.md)*.
 
 ## Notes
 
@@ -32,7 +32,7 @@ However, when more precision is required, the distinction must be made.
 
 }} {{Document objects navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Part

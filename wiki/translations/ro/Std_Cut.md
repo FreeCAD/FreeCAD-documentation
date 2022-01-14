@@ -30,7 +30,7 @@ To cut other objects you can use the [Std Copy](Std_Copy.md) command followed by
 
 -   Selectați partea care urmează a fi tăiată
 
--   Faceți clic pe {{KEY | <img src=images/_Std_Cut.png  style="width: 16px"> Tăiere}}
+-   Faceți clic pe {{KEY | [ <img src=images/_Std_Cut.png  style="width:16px"> Tăiere}}
 
 Același rezultat poate fi obținut prin utilizarea butoanelor din bara de instrumente de editare:
 
@@ -40,7 +40,7 @@ Pentru [select](Draft_Select/it.md) mai multe obiecte:
 
 -   folosiți tasta {{KEY/it|CTRL}} făcând clic pe funcțiile pe care doriți să le copiați,
 -   sau în meniul \'\'\'Editați *\' utilizați elementul*\'Caseta de selectare \'\'\' pentru a selecta obiectele incluse într-o anumită zonă,
--   sau în meniul \'\'\'Edit \'\'\' utilizați intrarea {{KEY | <img src=images/_Std_SelectAll.png  style="width: 16px"> Selectați toate}} pentru a selecta întregul document.
+-   sau în meniul \'\'\'Edit \'\'\' utilizați intrarea {{KEY | [ <img src=images/_Std_SelectAll.png  style="width:16px"> Selectați toate}} pentru a selecta întregul document.
 
 
 </div>

@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Cette page rassemble des informations sur le _** pour l\'analyse structurelle et thermo-mécanique à partir de FreeCAD 0.17. Selon le système d\'exploitation que vous utilisez, vous devrez installer CalculiX avant de lancer votre première simulation. Veuillez voir [Installation des composants requis pour l'atelier FEM](FEM_Install/fr.md).
+Cette page rassemble des informations sur le [CalculiX](http://www.calculix.de/) solveur d\'éléments finis, le solveur par défaut de l\'**<img src="images/Workbench_FEM.svg" width=24px> [atelier FEM](FEM_Workbench/fr.md)** pour l\'analyse structurelle et thermo-mécanique à partir de FreeCAD 0.17. Selon le système d\'exploitation que vous utilisez, vous devrez installer CalculiX avant de lancer votre première simulation. Veuillez voir [Installation des composants requis pour l'atelier FEM](FEM_Install/fr.md).
 
 Le solveur est capable de faire des calculs linéaires et non linéaires pour des problèmes statiques, dynamiques et thermiques. Le solveur opère sur un fichier Abaqus (`.inp`), ce qui signifie qu\'il peut être utilisé avec différents pré-processeurs prenant en charge ce format. Le programme inclut son propre préprocesseur graphique qui, toutefois, n'est pas utilisé par FreeCAD, mais uniquement par le solveur lui-même.
 
@@ -71,7 +71,7 @@ Les forces de réaction se trouvent dans le fichier ccx\_dat\_file qui contient 
 
 }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Poweruser\_Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
 
 ---
 [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > FEM CalculiX/fr

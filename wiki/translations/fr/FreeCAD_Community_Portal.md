@@ -26,7 +26,7 @@ Ce sont des ateliers, scripts, macros et addons développés par la communauté 
 
 ### Réseaux sociaux 
 
--   _ - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
+-   [yorik](User_Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
 
 ### Sites d\'information 
 
@@ -52,7 +52,7 @@ Ce sont des ateliers, scripts, macros et addons développés par la communauté 
 -   <http://linuxaideddesign.blogspot.de/>
 -   <http://sliptonic.com/>
 -   <http://opensourcedesigntools.blogspot.de/>
--   _ - <http://yorik.uncreated.net>
+-   [yorik](User_Yorik.md) - <http://yorik.uncreated.net>
 
 ### Français
 
@@ -84,7 +84,7 @@ Ce sont des ateliers, scripts, macros et addons développés par la communauté 
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > FreeCAD Community Portal/fr

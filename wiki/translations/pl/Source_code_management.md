@@ -3,9 +3,9 @@
 
 ## Wprowadzenie
 
-The main source code management tool for the FreeCAD project is _.
+The main source code management tool for the FreeCAD project is [Git](http://en.wikipedia.org/wiki/Git_%28software%29), which can be easily installed in most operating systems from a package manager or directly from [Git\'s website](https://git-scm.com/). You are advised to become familiar with Git before working with the FreeCAD source code directly. Visit the [Git documentation](https://git-scm.com/doc) page for the reference manual, as well as the [Pro Git book](https://git-scm.com/book/en/v2) to learn to use the system in a general way. The present document focuses on the use of Git for FreeCAD development. Compiling FreeCAD is described in [Compiling](Compiling.md).
 
-While Git is primarily a terminal application, there are many graphical clients for it which facilitate working with branches, applying patches, and submitting pull requests to a master branch. Examples include _ for a cursory introduction to this tool.
+While Git is primarily a terminal application, there are many graphical clients for it which facilitate working with branches, applying patches, and submitting pull requests to a master branch. Examples include [gitk](https://git-scm.com/docs/gitk) (the first graphical interface developed), [gitg](https://wiki.gnome.org/Apps/Gitg/) (Gnome), [qgit](https://github.com/tibirna/qgit) (Qt), [tig](https://jonas.github.io/tig/) (Ncurses), [git-cola](http://github.com/git-cola/git-cola), and [GitKraken](https://www.gitkraken.com/) (proprietary). Please see [Developing FreeCAD with GitKraken](Developing_FreeCAD_with_GitKraken.md) for a cursory introduction to this tool.
 
 Note: if any of this is starting to make you dizzy, there is a very good non-technical series on how to use git and Github called \'[Git and Github for Poets](https://youtu.be/BCQHnlnPusY)\'
 
@@ -987,7 +987,7 @@ Head to the development section of the [FreeCAD forum](https://forum.freecadweb.
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management/pl

@@ -207,7 +207,7 @@ Invierte la dirección de la pastilla.
 :   Esto significa que la cara que se encuentra puede no ser siempre la que esperaba. Si se encuentra con este problema, utilice el tipo \'\' \'Up to face\' \'\' en su lugar y elija la cara que desee.
 :   Para el caso muy especial de extrusión a una superficie cóncava, donde el boceto es más grande que esta superficie, la extrusión fallará. Este es un error no resuelto.
 
--    {{VersionMinus/es|0.16}}No hay limpieza automática, por ejemplo, de superficies planas adyacentes en una sola superficie. Puedes arreglar esto manualmente en el <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ que crea una característica paramétrica.
+-    {{VersionMinus/es|0.16}}No hay limpieza automática, por ejemplo, de superficies planas adyacentes en una sola superficie. Puedes arreglar esto manualmente en el <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Ambiente de trabajo Piezas](Part_Workbench/es.md) con **<img src="images/Part_RefineShape.svg" width=16px> [Piezas AfinarForma](Part_RefineShape/es.md)** (que crea un sólido no paramétrico no vinculado) o con el **<img src="images/OpenSCAD_RefineShapeFeature.svg" width=16px> [OpenSCAD FunciónRefinarForma](OpenSCAD_RefineShapeFeature/es.md)** del <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:16px;"> [Ambiente de Trabajo de OpenSCAD](OpenSCAD_Workbench/es.md) que crea una característica paramétrica.
 
 
 </div>

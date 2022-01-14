@@ -30,7 +30,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   按下**<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Leave sketch](Sketcher_LeaveSketch.md)**按钮，或按下位于任务选项卡上方的**Close**按钮。
+-   按下**[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Leave sketch](Sketcher_LeaveSketch.md)**按钮，或按下位于任务选项卡上方的**Close**按钮。
 
 
 </div>

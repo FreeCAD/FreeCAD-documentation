@@ -19,7 +19,7 @@ Zalecana sposób instalacji można wykonać poprzez <img alt="" src=images/Std_A
 -   <img alt="" src=images/CurvedShapes_CurvedArray.svg  style="width:24px;"> [Szyk krzywych](CurvedShapes_CurvedArray/pl.md): Tworzy szyk i zmienia rozmiar elementów w granicach jednej lub więcej krzywych kadłuba.
 -   <img alt="" src=images/CurvedShapes_CurvedSegment.svg  style="width:24px;"> [Segment krzywej](CurvedShapes_CurvedSegment/pl.md): Interpoluje pomiędzy dwiema krzywymi 2D. Interpolowane krzywe mogą być zmieniane w granicach niektórych krzywych kadłubowych.
 -   <img alt="" src=images/CurvedShapes_InterpolatedMiddle.svg  style="width:24px;"> [Interpolowana środkowa](CurvedShapes_InterpolatedMiddle/pl.md): Interpoluje kształt 2D pośrodku pomiędzy dwiema krzywymi 2D. Kształty bazowe mogą być połączone z kształtem posiadającym ostry narożnik.
--   <img alt="" src=images/CurvedShapes_SurfaceCut.svg  style="width:24px;"> _ w środowisku <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md), ale jest w pełni parametryczne i posiada opcję redukcji złożoności krzywej wyjściowej. Próbuje usunąć nakładające się krawędzie.
+-   <img alt="" src=images/CurvedShapes_SurfaceCut.svg  style="width:24px;"> [Przekrój powierzchni](CurvedShapes_SurfaceCut/pl.md): Tnie powierzchnię, aby uzyskać krzywą konturu lub ścianę. To narzędzie jest podobne do <img alt="" src=images/Part_CrossSections.svg  style="width:24px;"> [Przekrój poprzeczny](Part_CrossSections/pl.md) w środowisku <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md), ale jest w pełni parametryczne i posiada opcję redukcji złożoności krzywej wyjściowej. Próbuje usunąć nakładające się krawędzie.
 
 ### Przykłady
 
@@ -40,7 +40,7 @@ Zalecana sposób instalacji można wykonać poprzez <img alt="" src=images/Std_A
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
 [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > CurvedShapes Workbench/pl

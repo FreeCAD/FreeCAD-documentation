@@ -7,16 +7,16 @@
 
 ## Description
 
-The **<img src=images/Part_Helix.svg style="width:16px"> [Part Helix](Part_Helix.md)** geometric primitive creates a helix shape, defined by a radius, a pitch, and a total height.
+The **[<img src=images/Part_Helix.svg style="width:16px"> [Part Helix](Part_Helix.md)** geometric primitive creates a helix shape, defined by a radius, a pitch, and a total height.
 
-A common usage for the helix primitive is for <img src=images/PartDesign_AdditivePipe.svg style="width:creating screw threads](Thread_for_Screw_Tutorial.md) in conjunction with a closed profile, and the **<img src="images/Part_Sweep.svg" width=16px> [Sweep](Part_Sweep.md)** operation. This process works essentially the same in the [PartDesign Workbench](PartDesign_Workbench.md) by using the **[16px"> [PartDesign Additive pipe](PartDesign_AdditivePipe.md)** tool.
+A common usage for the helix primitive is for [creating screw threads](Thread_for_Screw_Tutorial.md) in conjunction with a closed profile, and the **<img src="images/Part_Sweep.svg" width=16px> [Sweep](Part_Sweep.md)** operation. This process works essentially the same in the [PartDesign Workbench](PartDesign_Workbench.md) by using the **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Additive pipe](PartDesign_AdditivePipe.md)** tool.
 
 ## Usage
 
 1.  Switch to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md).
 2.  The Create Primitives dialogue can be accessed several ways:
-    -   Pressing the **<img src=images/Part_Primitives.svg style="width:16px"> [Primitives](Part_Primitives.md)** button located in the Part toolbar.
-    -   Using the **Part → <img src=images/Part_Primitives.svg style="width:16px"> [Create primitives](Part_Primitives.md) → Helix** entry in the Part menu.
+    -   Pressing the **[<img src=images/Part_Primitives.svg style="width:16px"> [Primitives](Part_Primitives.md)** button located in the Part toolbar.
+    -   Using the **Part → [<img src=images/Part_Primitives.svg style="width:16px"> [Create primitives](Part_Primitives.md) → Helix** entry in the Part menu.
 
 ![](images/PartHelixPrimitivesOptions_en.png )
 

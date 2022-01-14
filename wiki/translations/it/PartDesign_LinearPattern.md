@@ -27,7 +27,7 @@ Lo strumento <img alt="" src=images/PartDesign_LinearPattern.svg  style="width:2
 1.  Selezionare le funzioni da modellare. In alternativa, è possibile selezionare la funzione da un dialogo dopo il passaggio 2.
 
     :   v0.16 e precedenti È possibile selezionare solo una singola funzione e deve essere l\'ultima nella parte inferiore dell\'albero delle funzioni.
-2.  Premere il pulsante **<img src=images/PartDesign_LinearPattern.png style="width:24px"> '''Serie lineare'''**.
+2.  Premere il pulsante **[<img src=images/PartDesign_LinearPattern.png style="width:24px"> '''Serie lineare'''**.
 3.  v0.17 e superiore Premere **Aggiungi funzione** per aggiungere una funzione da modellare. La funzione deve essere visibile nella vista 3D:
     1.  Passare all\'albero del modello;
     2.  Selezionare nell\'albero la funzione da aggiungere e premere **spazio** per renderla visibile nella vista 3D;

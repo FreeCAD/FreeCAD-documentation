@@ -30,7 +30,7 @@ Instrumentul **View section** creează un plan de secțiune care ascunde tempora
 
 <div class="mw-translate-fuzzy">
 
--   apăsați butonul **<img src=images/Sketcher_ViewSection.png style="width:24px"> '''View section'''** pentru a comuta între vizualizarea în secțiune și vizualizarea în întregime.
+-   apăsați butonul **[<img src=images/Sketcher_ViewSection.png style="width:24px"> '''View section'''** pentru a comuta între vizualizarea în secțiune și vizualizarea în întregime.
 
 
 </div>

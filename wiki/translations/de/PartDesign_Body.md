@@ -15,7 +15,7 @@ Ein [PartDesign Körper](PartDesign_Body/de.md) ist das Basiselement, um mit dem
 
 Der Körper bietet ein {{MenuCommand/de|Ursprung}} Objekt, das lokale X-, Y- und Z-Achsen sowie Standardebenen enthält. Diese Elemente können als Referenzen verwendet werden, um [Skizzen](Sketch/de.md) und [PartDesign Grundelement](PartDesign_CompPrimitiveAdditive/de.md) anzuheften.
 
-Die **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Körper](PartDesign_Body/de.md)**-Schaltfläche darf nicht mit der **_, um ein [einzeln zusammenhängenden Körper](PartDesign_Body/de#Einzeln_zusammenhängender_Körper.md) als [PartDesign Formelemente](PartDesign_Feature/de.md) zu erstellen. [Std Part](Std_Part/de.md) ist ein gruppierendes Objekt, um [Baugruppen](assembly/de.md) zu erzeugen. Es wird nicht zur Erstellung von Objekten verwendet, sondern um unterschiedliche Objekte im Raum zu positionieren. Mehrfache Körper und andere [Standard Teile](Std_Part/de.md) können innerhalb [Standard Teilen](Std_Part/de.md) positioniert werden, um eine komplexe Baugruppe zu erstellen.
+Die **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**-Schaltfläche darf nicht mit der **[<img src=images/Std_Part.svg style="width:16px"> [Standard Teil](Std_Part/de.md)**-Schaltfläche verwechselt werden. Das erste ist ein entsprechendes Objekt aus dem <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md), um ein [einzeln zusammenhängenden Körper](PartDesign_Body/de#Einzeln_zusammenhängender_Körper.md) als [PartDesign Formelemente](PartDesign_Feature/de.md) zu erstellen. [Std Part](Std_Part/de.md) ist ein gruppierendes Objekt, um [Baugruppen](assembly/de.md) zu erzeugen. Es wird nicht zur Erstellung von Objekten verwendet, sondern um unterschiedliche Objekte im Raum zu positionieren. Mehrfache Körper und andere [Standard Teile](Std_Part/de.md) können innerhalb [Standard Teilen](Std_Part/de.md) positioniert werden, um eine komplexe Baugruppe zu erstellen.
 
 ![](images/PartDesign_Body_tree.png ) ![](images/PartDesign_Body_example.png ) 
 *Links: die Baumansicht, die die Merkmale zeigt, die nacheinander die endgültige Form des Objekts erzeugen. Rechts: das endgültige Objekt, das in der [3D Ansicht](3D_view/de.md) sichtbar ist.*
@@ -31,11 +31,11 @@ Wenn kein vorhergehender Körper ausgewählt ist:
 
 wird.
 
-1.  Jetzt kannst Du **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Neue Skizze](PartDesign_NewSketch/de.md)** drücken um
+1.  Jetzt kannst Du **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Neue Skizze](PartDesign_NewSketch/de.md)** drücken um
 
-eine <img src=images/PartDesign_Pad.svg style="width:Skizze](Sketch/de.md) im Körper zu erstellen, die mit **[16px"> [Polster](PartDesign_Pad/de.md)**. verwendet werden kann.
+eine [Skizze](Sketch/de.md) im Körper zu erstellen, die mit **[<img src=images/PartDesign_Pad.svg style="width:16px"> [Polster](PartDesign_Pad/de.md)**. verwendet werden kann.
 
-1.  Alternativ füge ein Grundelement <img src=images/PartDesign_AdditiveBox.svg style="width:PartDesign Formelemente](PartDesign_Feature/de.md) hinzu, zum Beispiel **[16px"> [Additive box](PartDesign_AdditiveBox.md)**.
+1.  Alternativ füge ein Grundelement [PartDesign Formelemente](PartDesign_Feature/de.md) hinzu, zum Beispiel **[<img src=images/PartDesign_AdditiveBox.svg style="width:16px"> [Additive box](PartDesign_AdditiveBox.md)**.
 
 Wenn ein Festkörperobjekt ausgewählt ist:
 
@@ -43,15 +43,15 @@ Wenn ein Festkörperobjekt ausgewählt ist:
 
 ### Hinweise
 
--   Wenn kein Körper derzeit existiert, wenn **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Neue Skizze](PartDesign_NewSketch/de.md)** gedrückt wird, wird automatisch ein neuer Körper erzeugt.
+-   Wenn kein Körper derzeit existiert, wenn **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Neue Skizze](PartDesign_NewSketch/de.md)** gedrückt wird, wird automatisch ein neuer Körper erzeugt.
 
-Wenn ein Körper bereits existiert, muss er vor der Verwendung von **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Neue Skizze](PartDesign_NewSketch/de.md)** aktiv gemacht werden.
+Wenn ein Körper bereits existiert, muss er vor der Verwendung von **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Neue Skizze](PartDesign_NewSketch/de.md)** aktiv gemacht werden.
 
 -   Doppelklicke auf den Körper in der [Baumansicht](tree_view/de.md) oder öffne das Kontextmenü (Rechtsklick) und wähle {{MenuCommand/de|Aktiven Körper umschalten}}, um den Körper zu aktivieren oder zu deaktivieren. Wenn ein anderer Körper aktiv ist, wird er deaktiviert. Siehe [active status](PartDesign_Body#Active_status.md) für weitere Informationen.
 
 ## Eigenschaften
 
-Ein _ abgeleitet. (`Part::Feature` Klasse), daher teilt sie alle Eigenschaften der letzteren.
+Ein [PartDesign Körper](PartDesign_Body/de.md) (`PartDesign::Body` Klasse) wird von einer [Part Formelement](Part_Feature/de.md) abgeleitet. (`Part::Feature` Klasse), daher teilt sie alle Eigenschaften der letzteren.
 
 Zusätzlich zu den unter [Part Formelementen](Part_Feature/de.md) beschriebenen Eigenschaften hat der PartDesign Körper die folgenden Eigenschaften im [Eigenschaftseditor](Property_editor/de.md).
 
@@ -147,9 +147,9 @@ Beim Aktivieren eines Körpers wird automatisch in den [PartDesign Arbeitsbereic
 Der Ursprung besteht aus den drei Standardachsen (X, Y, Z) und drei Standardebenen (XY, XZ und YZ). An diese Elemente können bei der Erstellung [Skizzen](Sketch/de.md) und andere Objekte angebunden werden.
 
 1.  Erstelle den Körper.
-2.  Wenn der Körper in der <img src=images/PartDesign_NewSketch.svg style="width:Baumansicht](tree_view/de.md) ausgewählt ist, drücke **[16px"> [Neue Skizze](PartDesign_NewSketch/de.md)**; das [Aufgaben Paneel](task_panel/de.md) wird geöffnet, um die Auswahl einer der Ebenen zu ermöglichen.
+2.  Wenn der Körper in der [Baumansicht](tree_view/de.md) ausgewählt ist, drücke **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Neue Skizze](PartDesign_NewSketch/de.md)**; das [Aufgaben Paneel](task_panel/de.md) wird geöffnet, um die Auswahl einer der Ebenen zu ermöglichen.
 3.  Wenn der Körper nicht ausgewählt ist, wähle stattdessen den Ursprung und mache ihn in der [3D Ansicht](3D_view/de.md) sichtbar, indem Du die **Space** Leiste in der Tastatur drückst. Erweitere auch das Ursprungsobjekt, um die Achsen und Ebenen zu sehen.
-4.  Wähle eine der Ebenen aus, entweder in der <img src=images/PartDesign_NewSketch.svg style="width:Baumansicht](tree_view/de.md) oder in der [3D Ansicht](3D_view/de.md), und drücke dann **[16px"> [Neue Skizze](PartDesign_NewSketch/de.md)**. Die Skizze wird auf der gewählten Ebene erstellt.
+4.  Wähle eine der Ebenen aus, entweder in der [Baumansicht](tree_view/de.md) oder in der [3D Ansicht](3D_view/de.md), und drücke dann **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Neue Skizze](PartDesign_NewSketch/de.md)**. Die Skizze wird auf der gewählten Ebene erstellt.
 
 Das gleiche Verfahren kann bei der Erzeugung von Hilfsbezugsgeometrie wie [PartDesign Linien](PartDesign_Line/de.md), [PartDesign Ebenen](PartDesign_Plane/de.md) und [PartDesign KoordinatenSysteme](PartDesign_CoordinateSystem/de.md) verwendet werden.
 
@@ -167,7 +167,7 @@ alle Elemente innerhalb des Körpers werden auf den Ursprung des Körpers refere
 
 
 
-*Links: PartDesign Körper Ursprung in der _.*
+*Links: PartDesign Körper Ursprung in der [Baumansicht](tree_view/de.md). Rechts: Darstellung der Ursprung Elemente in der [3D Ansicht](3D_view/de.md).*
 
 ### Basis Formelement 
 
@@ -179,12 +179,12 @@ Das Basis Formelement ist das erste [PartDesign Formelement](PartDesign_Feature/
 Um das Basis Formelement zu erzeugen:
 
 1.  Wähle eine Festkörperform außerhalb eines beliebigen Körpers aus und
-2.  drücke **<img src=images/PartDesign_Body.svg style="width:16px"> [Körper](PartDesign_Body/de.md)**; dies erzeugt einen neuen Körper mit einem einzelnen Basis Formelement.
+2.  drücke **[<img src=images/PartDesign_Body.svg style="width:16px"> [Körper](PartDesign_Body/de.md)**; dies erzeugt einen neuen Körper mit einem einzelnen Basis Formelement.
 
 
 **Note:**
 
-Du kannst keinen vorhandenen Körper oder eines seiner <img src=images/PartDesign_Body.svg style="width:Formelemente](PartDesign_Feature/de.md) auswählen, wenn Du **[16px"> [Körper](PartDesign_Body/de.md)** drückst.
+Du kannst keinen vorhandenen Körper oder eines seiner [Formelemente](PartDesign_Feature/de.md) auswählen, wenn Du **[<img src=images/PartDesign_Body.svg style="width:16px"> [Körper](PartDesign_Body/de.md)** drückst.
 
 Wenn du bereits einen Körper hast, kannst du das Basis Formelement auf diese Weise erzeugen:
 
@@ -211,7 +211,7 @@ Das Basis Formelement ist vollkommen optional; es ist nur dann vorhanden, wenn e
 
 ### Spitze
 
-Die Spitze ist das <img src=images/Part_SimpleCopy.svg style="width:PartDesign Formelement](PartDesign_Feature/de.md), das außerhalb des Körpers freiliegt; d.h. wenn ein anderes Werkzeug aus einem beliebigen Arbeitsbereich (z.B. **[16px"> <img src=images/Part_Cut.svg style="width:Part EinfacheKopie](Part_SimpleCopy/de.md)** oder **[16px"> [Part Schnitt](Part_Cut/de.md)**) die Form des Körpers verwenden muss, wird es die Form der Spitze verwenden. Anders ausgedrückt, die Spitze ist die endgültige Darstellung des Körpers, als ob die parametrische Historie nicht existieren würde.
+Die Spitze ist das [PartDesign Formelement](PartDesign_Feature/de.md), das außerhalb des Körpers freiliegt; d.h. wenn ein anderes Werkzeug aus einem beliebigen Arbeitsbereich (z.B. **[<img src=images/Part_SimpleCopy.svg style="width:16px"> [Part EinfacheKopie](Part_SimpleCopy/de.md)** oder **[<img src=images/Part_Cut.svg style="width:16px"> [Part Schnitt](Part_Cut/de.md)**) die Form des Körpers verwenden muss, wird es die Form der Spitze verwenden. Anders ausgedrückt, die Spitze ist die endgültige Darstellung des Körpers, als ob die parametrische Historie nicht existieren würde.
 
 ![](images/PartDesign_Body_Tip_final.svg )
 
@@ -219,7 +219,7 @@ Die Spitze ist das <img src=images/Part_SimpleCopy.svg style="width:PartDesign F
 
 *Links: PartDesign Körper mit vollständiger parametrischer Historie inklusive Zwischenformelementen. Rechts: Die Spitze ist die endgültige Form, die aus dem Körper exportiert werden kann, wobei die Historie des Modells weggelassen wird.*
 
-Die Spitze wird automatisch auf das zuletzt im Körper erzeugte Formelement gesetzt. Er kann jedoch auch auf jedes der Zwischen Formelemente gesetzt werden, indem Du das Kontextmenü <img src=images/PartDesign_MoveTip.svg style="width:Baumansicht](tree_view/de.md) öffnest (Rechtsklick) und **[16px"> [Setze Spitze](PartDesign_MoveTip.md)**, wählst, oder durch Ändern des Körperwertes **Spitze** im [Eigenschaftseditor](property_editor/de.md).
+Die Spitze wird automatisch auf das zuletzt im Körper erzeugte Formelement gesetzt. Er kann jedoch auch auf jedes der Zwischen Formelemente gesetzt werden, indem Du das Kontextmenü [Baumansicht](tree_view/de.md) öffnest (Rechtsklick) und **[<img src=images/PartDesign_MoveTip.svg style="width:16px"> [Setze Spitze](PartDesign_MoveTip.md)**, wählst, oder durch Ändern des Körperwertes **Spitze** im [Eigenschaftseditor](property_editor/de.md).
 
 Das Ändern der Spitze in der Tat rollt seine Geschichte zurück, wodurch es möglich wird, Funktionen hinzuzufügen, die früher hätten hinzugefügt werden sollen. Außerdem wird es einer anderen Form externen Werkzeugen ausgesetzt.
 
@@ -270,7 +270,7 @@ Ein [PartDesign Formelement](PartDesign_Feature/de.md), das nicht angehängt ist
 
 ## Vererbung
 
-Ein _ (`Part::Feature` Klasse) ist durch die Zwischenklasse {`Part::BodyBase`} und wird um eine Origin-Erweiterung erweitert.
+Ein [PartDesign Körper](PartDesign_Body.md) ist formell eine Instanz der Klasse `PartDesign::Body`, deren Elternteil die [Part Formelement](Part_Feature.md) (`Part::Feature` Klasse) ist durch die Zwischenklasse {`Part::BodyBase`} und wird um eine Origin-Erweiterung erweitert.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

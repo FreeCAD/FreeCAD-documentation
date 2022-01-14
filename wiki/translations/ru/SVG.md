@@ -11,11 +11,11 @@ The SVG image is described in an XML-type language, which means that it can be o
 
 ## Usage
 
-FreeCAD can read and export SVG graphics using the _ Workbench. SVG files are used for many things, including symbols and icons on the graphical user interface, and for templates.
+FreeCAD can read and export SVG graphics using the [**Draft SVG**](Draft_SVG.md) function from the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md) Workbench. SVG files are used for many things, including symbols and icons on the graphical user interface, and for templates.
 
 :   For example, the <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench.md) workbench [templates](TechDraw_Templates.md) can be created as SVG files with some editable text fields that the user can fill in.
 
-FreeCAD is primarily a 3D modeling application, and thus doesn\'t have many 2D drawing tools, which are mostly included in the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _ workbenches. To exclusively create 2D shapes, and produce SVG files, there are alternative programs like [Inkscape](https://en.wikipedia.org/wiki/Inkscape).
+FreeCAD is primarily a 3D modeling application, and thus doesn\'t have many 2D drawing tools, which are mostly included in the <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md) and <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench.md) workbenches. To exclusively create 2D shapes, and produce SVG files, there are alternative programs like [Inkscape](https://en.wikipedia.org/wiki/Inkscape).
 
 ## Related
 
@@ -23,7 +23,7 @@ FreeCAD is primarily a 3D modeling application, and thus doesn\'t have many 2D d
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Draft](Category_Draft.md) [<img src="images/Property.png" style="width:16px"> TechDraw](Category_TechDraw.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [Draft](Category_Draft.md) > SVG/ru

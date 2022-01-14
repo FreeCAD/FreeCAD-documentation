@@ -29,9 +29,9 @@ Help us to build, correct and extend this documentation. Correct mistakes, exten
 
 あなたの仕事を歓迎するいくつかの分野：
 
--   _、すべてのFreeCAD [commandsがリストされ文書化されています](Command/ja.md)。 それらのほとんどには、ほとんどまたはまったく情報がありません。 コマンドのドキュメンテーションページがどのように見えるべきかについての良い例については[WikiPagesを参照してください](WikiPages/ja.md)。
+-   [:<img src="images/Property.png" style="width:16px"> Command\_Reference/jaページには](:<img src="images/Property.png" style="width:16px"> Command_Reference/ja.md)、すべてのFreeCAD [commandsがリストされ文書化されています](Command/ja.md)。 それらのほとんどには、ほとんどまたはまったく情報がありません。 コマンドのドキュメンテーションページがどのように見えるべきかについての良い例については[WikiPagesを参照してください](WikiPages/ja.md)。
 -   [Tutorialsセクションはまだ非常に貧弱です](Tutorials.md)。もしあなたがFreeCADでクールなものを開発したなら、後世の人のためにやったことは文書化すべきです。
--   \'_、愛を使うことができるオープンチケットがあります。
+-   \'[documentation](https://freecadweb.org/tracker/search.php?tag_string=documentation)\'にタグ付けされたFreeCAD [bugtrackerには](bugtracker.md)、愛を使うことができるオープンチケットがあります。
 
 
 </div>
@@ -103,7 +103,7 @@ Translating is easy, the FreeCAD wiki supports a translation plugin which allows
 
 <div class="mw-translate-fuzzy">
 
-_、編集に関する情報がいくつかあります。
+[ヘルプ編集ページには](Help:Editing/ja.md)、編集に関する情報がいくつかあります。
 
 
 </div>
@@ -209,7 +209,7 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Command_Reference/ja]]ページには、すべてのFreeCAD ](Category_Command_Reference/ja]]ページには、すべてのFreeCAD .md) > Help FreeCAD/ja

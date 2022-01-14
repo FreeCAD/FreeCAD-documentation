@@ -30,7 +30,7 @@ La herramienta **Patrón polar** crea copias de una operación girando alrededor
 <div class="mw-translate-fuzzy">
 
 1.  (Opcional) Seleccionar la operación (u operaciones {{Version/es|0.19}}) que se han de repetir.
-2.  Presionar el botón **<img src=images/PartDesign_PolarPattern.svg style="width:24px">** **PatrónPolar** .
+2.  Presionar el botón **[<img src=images/PartDesign_PolarPattern.svg style="width:24px">** **PatrónPolar** .
     -   Si no hay ninguna operación seleccionada previamente, se puede seleccionar una operación *de una sola pieza* como base.
 3.  Definir el **Eje**. Ver [Opciones](#Options/es.md).
 4.  Definir el **Ángulo** entre la que será la última copia y la figura original.

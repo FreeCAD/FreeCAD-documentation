@@ -11,7 +11,7 @@ If you are not involved with the development discussed here:<br>
 
 <div class="mw-translate-fuzzy">
 
-Dies ist der _ zusammengefasst.
+Dies ist der [Projektartikel](project/de.md) für das Roboter Projekt. Es folgt den Regeln des \[<http://en.wikipedia.org/wiki/Getting_Things_Done#GTD_methodology>\| Getting things done\] Prozesses. Die Projekte sind im [Entwicklungsfahrplan](Development_roadmap/de.md) zusammengefasst.
 
 
 </div>
@@ -77,7 +77,7 @@ Robotersimulation
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Robot](Robot_Workbench.md) > Robot project/de

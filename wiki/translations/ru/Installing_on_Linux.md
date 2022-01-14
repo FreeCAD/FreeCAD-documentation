@@ -6,7 +6,7 @@
 Установка FreeCAD на наиболее известные системы Linux теперь поддерживается сообществом, и FreeCAD должен быть доступен через диспетчер пакетов вашего дистрибутива напрямую. Команда FreeCAD также предоставляет:
 
 -   «Официальные» пакеты при выпуске новых релизов
--   Экспериментальные репозитории _, и [Ubuntu Snaps](Ubuntu_Snap.md) для тестирования последних возможностей.
+-   Экспериментальные репозитории [Personal Package Archive](https://help.ubuntu.com/community/PPA) (PPA), [AppImages](AppImage.md), и [Ubuntu Snaps](Ubuntu_Snap.md) для тестирования последних возможностей.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -327,7 +327,7 @@ pacman -S freecad
 Если по каким-то причинам Вы не можете использовать вышеуказанные методы, Вы всегда можете загрузить один из пакетов .deb, доступных на странице [Загрузки](Download/ru.md) page.
 {{DownloadLinuxStable}}
 
-Загрузив файл .deb соответственно версии Вашей системы, если у Вас используется установочный пакет _ (обычно это так), Вам нужно перейти в место загрузки файла и сделать двойной щелчок на нём. Установочные зависимости будут учтены пакетным менеджером системы автоматически. Или Вы можете установить его из терминала, перейдя к месту загрузки файла и набрав:
+Загрузив файл .deb соответственно версии Вашей системы, если у Вас используется установочный пакет [Gdebi](wikipedia:Debian#GDEBI.md) (обычно это так), Вам нужно перейти в место загрузки файла и сделать двойной щелчок на нём. Установочные зависимости будут учтены пакетным менеджером системы автоматически. Или Вы можете установить его из терминала, перейдя к месту загрузки файла и набрав:
 
 
 ```python
@@ -370,7 +370,7 @@ zypper install freecad
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Installing on Linux/ru

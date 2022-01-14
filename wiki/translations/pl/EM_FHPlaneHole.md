@@ -46,7 +46,7 @@ Alternatively, you can also:
 
 ### Remarks
 
--   <img alt="" src=images/EM_FHPlaneHole.svg  style="width:16px;"> FHPlaneHole objects have no meaning if they are not part of a <img alt="" src=images/EM_FHPlane.svg  style="width:16px;"> _ command, or select the FHPlaneHole at [FHPlane](EM_FHPlane.md) creation. To remove a FHPlaneHole from a FHPlane, you can use the [EM FHPlaneAddRemoveNodeHole](EM_FHPlaneAddRemoveNodeHole.md) command.
+-   <img alt="" src=images/EM_FHPlaneHole.svg  style="width:16px;"> FHPlaneHole objects have no meaning if they are not part of a <img alt="" src=images/EM_FHPlane.svg  style="width:16px;"> [FHPlane](EM_FHPlane.md). To adopt a FHPlaneHole within a FHPlane, use the <img alt="" src=images/EM_FHPlaneAddRemoveNodeHole.svg  style="width:16px;"> [EM FHPlaneAddRemoveNodeHole](EM_FHPlaneAddRemoveNodeHole.md) command, or select the FHPlaneHole at [FHPlane](EM_FHPlane.md) creation. To remove a FHPlaneHole from a FHPlane, you can use the [EM FHPlaneAddRemoveNodeHole](EM_FHPlaneAddRemoveNodeHole.md) command.
 
 -   FHPlaneHole objects represent FastHenry plane holes, and therefore follow the same rules of the uniform conductive plane holes. In particular, holes are created removing the internal plane nodes from the plane node array, before constructing the segment mesh. You can enable the view of the internal FHPlane nodes by turning the [FHPlane](EM_FHPlane.md) **ShowNodes** property on. Three types of FHPlaneHoles exist, and can be selected by changing the **Type** FHPlaneNode property.
 

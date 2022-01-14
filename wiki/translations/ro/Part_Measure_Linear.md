@@ -29,7 +29,7 @@ Acest instrument măsoară distanța dintre două elemente de topologie selectat
 <div class="mw-translate-fuzzy">
 
 1.  Selectați orice combinație de Două elemente: vertices, edges, faces
-2.  Apăsați butonul **<img src=images/Part_Measure_Linear.png style="width:24px"> '''Measure Linear'''** .
+2.  Apăsați butonul **[<img src=images/Part_Measure_Linear.png style="width:24px"> '''Measure Linear'''** .
 3.  Alternativ, comanda poate fi lansată fără selectarea prealabilă. Apoi, se deschide un dialog de selecție în tab-ul Activități. Un widget de control oferă, de asemenea, butoane pentru resetarea selecției, comutarea afișajului de măsurare în vizualizarea 3D și ștergerea tuturor măsurătorilor.
 4.  Măsurătorile sunt șterse automat atunci când documentul este închis.
 

@@ -3,7 +3,7 @@
 
 ## Introduction
 
-_ ont normalement une TopoShape.
+[Part TopoShape](Part_TopoShape/fr.md) ou officiellement `Part::TopoShape` est une classe qui définit une **topological shape** (forme topologique) paramétrique dans le logiciel. Les objets dans le document qui montrent quelque chose dans la [Vue 3D](3D_view/fr.md) ont normalement une TopoShape.
 
 Les formes topologiques, ainsi que leurs méthodes, sont définies par le noyau [OpenCASCADE](OpenCASCADE/fr.md) (OCCT). FreeCAD utilise ces formes et construit [App DocumentObjects](App_DocumentObject/fr.md) autour d\'eux.
 
@@ -13,7 +13,7 @@ Un autre type de classe est celui de [mesh](Mesh/fr.md). Cette classe n\'est pas
 
 
 
-*A gauche: paramétrique _ non paramétrique défini par des sommets et des surfaces triangulaires.*
+*A gauche: paramétrique [Part TopoShape](Part_TopoShape/fr.md) définie par les propriétés. A droite: un [maillage](Mesh/fr.md) non paramétrique défini par des sommets et des surfaces triangulaires.*
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -64,7 +64,7 @@ obj.Shape.exportStep("my_file.step")
 obj.Shape.exportStl("my_file.stl")
 ```
 
-Pour une liste complète des attributs et des méthodes, consultez l\'outil <img src=images/Std_PythonHelp.svg style="width:Documentation du code source](Source_documentation/fr.md) et l\'outil**[16px"> [Std Documentation modules Python](Std_PythonHelp/fr.md)**.
+Pour une liste complète des attributs et des méthodes, consultez l\'outil [Documentation du code source](Source_documentation/fr.md) et l\'outil**[<img src=images/Std_PythonHelp.svg style="width:16px"> [Std Documentation modules Python](Std_PythonHelp/fr.md)**.
 
 Vous pouvez obtenir un résumé rapide de toutes les méthodes en utilisant la fonction intégrée `help()` en Python. 
 ```python

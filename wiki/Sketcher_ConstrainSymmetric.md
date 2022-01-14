@@ -21,7 +21,7 @@ Select two points (vertexes) in the sketch and a line in the sketch. The selecte
 
 <img alt="" src=images/SymmetricConstraint2.png  style="width:500px;">
 
-Click on **<img src=images/Sketcher_ConstrainSymmetric.svg style="width:16px"> [Constrain symmetric](Sketcher_ConstrainSymmetric.md)** or select the Constrain Symmetrical menu item from the Sketcher Constraints sub menu of the Sketcher (or Part Design) menu item.
+Click on **[<img src=images/Sketcher_ConstrainSymmetric.svg style="width:16px"> [Constrain symmetric](Sketcher_ConstrainSymmetric.md)** or select the Constrain Symmetrical menu item from the Sketcher Constraints sub menu of the Sketcher (or Part Design) menu item.
 
 This will apply the constraint to the selected items.
 

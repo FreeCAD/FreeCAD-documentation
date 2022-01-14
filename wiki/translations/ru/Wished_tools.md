@@ -78,7 +78,7 @@ I begin this page as an attempt to gather end-user wishes on specific tools they
 -   Roof
 -   Assemblies
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md) [<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
 
 ---
 [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Wished tools/ru

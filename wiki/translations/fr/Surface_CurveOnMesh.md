@@ -12,13 +12,13 @@
 ## Description
 
 
-**<img src=images/Surface_CurveOnMesh.svg style="width:16px"> [Surface Courbe sur maillage](Surface_CurveOnMesh/fr.md)**
+**[<img src=images/Surface_CurveOnMesh.svg style="width:16px"> [Surface Courbe sur maillage](Surface_CurveOnMesh/fr.md)**
 
 crée des segments de spline approximatifs par dessus un [maillage](Mesh_Workbench/fr.md) sélectionné.
 
-Si l\'objet n\'est pas un <img src=images/Mesh_FromPartShape.svg style="width:Maillage](Mesh/fr.md), mais une [Forme](Shape/fr.md) ou une surface paramétrique, il doit d\'abord être converti en un maillage à l\'aide de **[16px"> [Mesh Tesselation](Mesh_FromPartShape/fr.md)**.
+Si l\'objet n\'est pas un [Maillage](Mesh/fr.md), mais une [Forme](Shape/fr.md) ou une surface paramétrique, il doit d\'abord être converti en un maillage à l\'aide de **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh Tesselation](Mesh_FromPartShape/fr.md)**.
 
-Ces arêtes créées par dessus le maillage peuvent être utilisées pour recréer la surface de manière paramétrique en utilisant des outils tels que **<img src=images/Surface_GeomFillSurface.svg style="width:16px"> <img src=images/Surface_Sections.svg style="width:Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md)** et **[16px"> [Sections](Surface_Sections/fr.md)**.
+Ces arêtes créées par dessus le maillage peuvent être utilisées pour recréer la surface de manière paramétrique en utilisant des outils tels que **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md)** et **[<img src=images/Surface_Sections.svg style="width:16px"> [Sections](Surface_Sections/fr.md)**.
 
 ![](images/Surface_CurveOnMesh_mesh_example.png ) ![](images/Surface_CurveOnMesh_example.png )
 
@@ -30,8 +30,8 @@ Ces arêtes créées par dessus le maillage peuvent être utilisées pour recré
 
 ## Utilisation
 
-1.  Assurez-vous d\'avoir un <img src=images/Mesh_FromPartShape.svg style="width:objet maillé](Mesh/fr.md). Cela peut être créé par l\'<img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [atelier Mesh](Mesh_Workbench/fr.md) ou en important un type de fichier de maillage, comme STL, [OBJ](Arch_OBJ/fr.md) ou [DAE](Arch_DAE/fr.md). Si un objet solide ou un type de fichier solide (STEP) est utilisé, il peut être converti en un maillage à l\'aide de **[16px"> [Mesh Tesselation](Mesh_FromPartShape/fr.md)**.
-2.  Appuyez sur **<img src=images/Surface_CurveOnMesh.svg style="width:16px"> [Courbe sur maillage](Surface_CurveOnMesh/fr.md)**.
+1.  Assurez-vous d\'avoir un [objet maillé](Mesh/fr.md). Cela peut être créé par l\'<img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [atelier Mesh](Mesh_Workbench/fr.md) ou en important un type de fichier de maillage, comme STL, [OBJ](Arch_OBJ/fr.md) ou [DAE](Arch_DAE/fr.md). Si un objet solide ou un type de fichier solide (STEP) est utilisé, il peut être converti en un maillage à l\'aide de **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh Tesselation](Mesh_FromPartShape/fr.md)**.
+2.  Appuyez sur **[<img src=images/Surface_CurveOnMesh.svg style="width:16px"> [Courbe sur maillage](Surface_CurveOnMesh/fr.md)**.
 3.  Appuyez sur **Start**.
 4.  À l\'aide du pointeur de la souris, choisissez des points sur la surface du maillage dans la [Vue 3D](3D_view/fr.md). Choisissez autant de points que nécessaire pour dessiner une ligne d\'aperçu lisse.
 5.  Quand suffisamment de points ont été ajoutés, faites un clic droit sur la [Vue 3D](3D_view/fr.md) pour ouvrir le menu contextuel et sélectionnez **Create**. En fonction de la fluidité du maillage d\'origine, une spline ou plusieurs splines seront créées dans la [Vue en arborescence](Tree_view/fr.md).
@@ -73,7 +73,7 @@ Section **Wire**:
 
 Si {{CheckBox|FALSE|Spline approximation}} n\'est pas cochée, l\'outil [Courbe sur maillage](Surface_CurveOnMesh/fr.md) crée une [Part Feature](Part_Feature/fr.md) de base.
 
-Si {{CheckBox|TRUE|Spline approximation}} est coché, l\'outil <img src=images/Part_Spline.svg style="width:Courbe sur maillage](Surface_CurveOnMesh/fr.md) crée une **_ (classe `Part::Feature`). Elle partage donc toutes les propriétés de cette dernière.
+Si {{CheckBox|TRUE|Spline approximation}} est coché, l\'outil [Courbe sur maillage](Surface_CurveOnMesh/fr.md) crée une **[<img src=images/Part_Spline.svg style="width:16px"> [Part Spline](Part_Spline/fr.md) ** (classe `Part::Spline`) qui est dérivée de la classe de base [Part Feature](Part_Feature/fr.md) (classe `Part::Feature`). Elle partage donc toutes les propriétés de cette dernière.
 
 Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Part Spline a les propriétés suivantes dans l\'[éditeur de propriétés](Property_editor/fr.md).
 

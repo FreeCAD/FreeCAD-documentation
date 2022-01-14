@@ -28,7 +28,7 @@ Der <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> **Entwurf H
 
 ## Skripten
 
-Siehe auch: _.
+Siehe auch: [Autogenerierte API Dokumentation](https://www.freecadweb.org/api) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Um Objekte herabzustufen, verwende die `downgrade` Methode des Entwurf Moduls.
 

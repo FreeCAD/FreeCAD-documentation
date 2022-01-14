@@ -34,9 +34,9 @@ This command is the first of three steps to convert a shell object made with the
 
 ## Notes
 
-The commands <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **_**, and <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[SheetMetal AddBend](SheetMetal_AddBend.md)** work best with hollow cuboids i.e. shell objects with a constant thickness and only 90° angles between faces.
+The commands <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **[SheetMetal AddRelief](SheetMetal_AddRelief.md)**, <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> **[SheetMetal AddJunction](SheetMetal_AddJunction.md)**, and <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[SheetMetal AddBend](SheetMetal_AddBend.md)** work best with hollow cuboids i.e. shell objects with a constant thickness and only 90° angles between faces.
 
-Shell objects can be created with commands from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _.
+Shell objects can be created with commands from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md) or the <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign Workbench](PartDesign_Workbench.md).
 
 To create a hollow cuboid with the [Part Workbench](Part_Workbench.md):
 
@@ -52,7 +52,7 @@ To create a hollow cuboid with the [PartDesign Workbench](PartDesign_Workbench.m
 
 1.  Create a solid using either:
     -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> [Additive Box](PartDesign_AdditiveBox.md).
-    -   <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> _.
+    -   <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [PartDesign Pad](PartDesign_Pad.md) from a <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Sketch](Sketcher_NewSketch.md).
 2.  Use <img alt="" src=images/PartDesign_Thickness.svg  style="width:16px;"> [PartDesign Thickness](PartDesign_Thickness.md) to create a shell object from the solid (Typically with the thickness value of the sheet metal).
 
 ## Properties
@@ -82,7 +82,7 @@ A SheetMetal Relief object is derived from a [Part Feature](Part_Feature.md) obj
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal AddRelief/pl

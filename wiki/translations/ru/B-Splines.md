@@ -142,19 +142,19 @@ FreeCAD offers to create uniform or non-uniform B-splines of any degree in 2D vi
 
 ### Creation
 
-To create B-splines, go into a sketch and use the toolbar button **<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Create B-spline](Sketcher_CreateBSpline.md)**. Then left-click to set a control point, move the mouse left-click to set the next control point and so on. Finally right-click to finish the definition and create the B-spline.
+To create B-splines, go into a sketch and use the toolbar button **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Create B-spline](Sketcher_CreateBSpline.md)**. Then left-click to set a control point, move the mouse left-click to set the next control point and so on. Finally right-click to finish the definition and create the B-spline.
 
 By default uniform cubic splines are created, except there are not enough control points to do this. So when you create a B-spline with only 2 control points, you get of course a spline that is single linear Bézier curve, for 3 control points you get a quadratic Bézier curve, first with 5 control points you get a cubic B-spline consisting of 2 Bézier segments.
 
-To create periodic B-splines (B-splines that form a closed curve), use the toolbar button **<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)**. It is not necessary to set the last control point onto the first one because the B-spline will automatically be closed:
+To create periodic B-splines (B-splines that form a closed curve), use the toolbar button **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)**. It is not necessary to set the last control point onto the first one because the B-spline will automatically be closed:
 
 ![](images/Sketcher_Periodic-B-spline-creation.gif )
 
-B-splines can also be generated out of existing sketch segments. To do this, select the elements and press the the toolbar button **<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Convert Geometry to B-spline](Sketcher_BSplineApproximate.md)**.
+B-splines can also be generated out of existing sketch segments. To do this, select the elements and press the the toolbar button **[<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Convert Geometry to B-spline](Sketcher_BSplineApproximate.md)**.
 
 ### Changing the Degree 
 
-To change the degree, select the B-spline and use either the toolbar button **<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> <img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:Increase B-spline degree](Sketcher_BSplineIncreaseDegree.md)** or **[24px"> [Decrease B-spline degree](Sketcher_BSplineDecreaseDegree.md)**.
+To change the degree, select the B-spline and use either the toolbar button **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> [Increase B-spline degree](Sketcher_BSplineIncreaseDegree.md)** or **[<img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:24px"> [Decrease B-spline degree](Sketcher_BSplineDecreaseDegree.md)**.
 
 **Note:** Decreasing the degree cannot revert a prior increase of the degree, see the Wiki page [Decrease B-spline degree](Sketcher_BSplineDecreaseDegree.md) for an explanation.
 
@@ -162,7 +162,7 @@ To change the degree, select the B-spline and use either the toolbar button **<i
 
 The points where two Bézier curves are connected to form the B-spline are called knots. The knot multiplicity determines how the Bézier parts are connected, see the Wiki page [Increase knot multiplicity](Sketcher_BSplineIncreaseKnotMultiplicity.md) for details.
 
-To change the knot multiplicity, use the toolbar buttons **<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:24px"> <img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:B-spline increase knot multiplicity](Sketcher_BSplineIncreaseKnotMultiplicity.md)** or **[24px"> [B-spline decrease knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity.md)**.
+To change the knot multiplicity, use the toolbar buttons **[<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:24px"> [B-spline increase knot multiplicity](Sketcher_BSplineIncreaseKnotMultiplicity.md)** or **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:24px"> [B-spline decrease knot multiplicity](Sketcher_BSplineDecreaseKnotMultiplicity.md)**.
 
 **Note:** Creating two B-Splines that are connected to each other will not unite to a single new B-spline. So their connection point is not a knot. The only way to get a new knot in an existing B-spline is to decrease the degree. However, you may get many new knots. Thus the better choice is to redraw the B-spline with more control points.
 
@@ -192,23 +192,23 @@ Since the form of a B-spline does not tell much about its properties, FreeCAD of
 | Property              | Toolbar button                                                                                                                          |
 +-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | **Degree**            |                                                                                                                          |
-|                       | **<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [Show/Hide B-spline degree](Sketcher_BSplineDegree.md)**                                |
+|                       | **[<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [Show/Hide B-spline degree](Sketcher_BSplineDegree.md)**                                |
 |                       |                                                                                                                                      |
 +-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | **Control polygon**   |                                                                                                                          |
-|                       | **<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Show/hide B-spline control polygon](Sketcher_BSplinePolygon.md)**                     |
+|                       | **[<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Show/hide B-spline control polygon](Sketcher_BSplinePolygon.md)**                     |
 |                       |                                                                                                                                      |
 +-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | **Curvature comb**    |                                                                                                                          |
-|                       | **<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Show/hide B-spline curvature comb](Sketcher_BSplineComb.md)**                            |
+|                       | **[<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Show/hide B-spline curvature comb](Sketcher_BSplineComb.md)**                            |
 |                       |                                                                                                                                      |
 +-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | **Knot multiplicity** |                                                                                                                          |
-|                       | **<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md)** |
+|                       | **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [Show/hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md)** |
 |                       |                                                                                                                                      |
 +-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 | **Weights**           |                                                                                                                          |
-|                       | **<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Show/hide B-spline control point weight](Sketcher_BSplinePoleWeight.md)**          |
+|                       | **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Show/hide B-spline control point weight](Sketcher_BSplinePoleWeight.md)**          |
 |                       |                                                                                                                                      |
 +-----------------------+-----------------------------------------------------------------------------------------------------------------------------------------+
 

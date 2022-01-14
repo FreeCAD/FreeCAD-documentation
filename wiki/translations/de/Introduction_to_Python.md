@@ -16,7 +16,7 @@ Das Folgende ist eine sehr grundlegende Einführung und keineswegs ein vollstän
 
 Gewöhnlich öffnest du beim Schreiben von Computerprogrammen einen Texteditor oder deine spezielle Programmierumgebung (die im Grunde ein Texteditor mit einigen zusätzlichen Werkzeugen ist), schreibst dein Programm, kompilierst und führst es dann aus. Oftmals wurden bei der Eingabe ein oder mehrere Fehler gemacht, so dass dein Programm nicht funktioniert. Möglicherweise erhälst du sogar eine Fehlermeldung, die dir mitteilt, was schief gelaufen ist. Dann gehe zurück zu deinem Texteditor, korrigiere die Fehler, laufe erneut durch und wiederhole dies, bis dein Programm wie beabsichtigt funktioniert.
 
-In Python kann dieser ganze Prozess transparent im Python Interpreter ausgeführt werden. Der Interpreter ist ein Python Fenster mit einer Eingabeaufforderung, wo du einfach Python Code eintippen kannst. Wenn du Python auf deinem Computer installiert hast (Herunterladen von der _.
+In Python kann dieser ganze Prozess transparent im Python Interpreter ausgeführt werden. Der Interpreter ist ein Python Fenster mit einer Eingabeaufforderung, wo du einfach Python Code eintippen kannst. Wenn du Python auf deinem Computer installiert hast (Herunterladen von der [Python Webseite](https://www.python.org/), wenn du es auf Windows- oder Mac benutzt, installiere es von deinem Paket Repositorium, wenn du auf GNU/ Linux installierst). Aber, wie bereits erwähnt, hat FreeCAD auch einen eingebauten Python Interpreter: die [Python Konsole](Python_console/de.md).
 
 ![](images/FreeCAD_Python_console.png ) 
 *Die FreeCAD Python Konsole*
@@ -498,7 +498,7 @@ dir()
 
 }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Introduction to Python/de

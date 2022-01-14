@@ -56,7 +56,7 @@ Elementy złączne mogą być dołączone lub nie dołączone. Dołączone eleme
 <img alt="" src=images/Fasteners_Attached_Selected.png  style="width:200px;"> <img alt="" src=images/Fasteners_Attached_Created.png  style="width:200px;"> 
 *Po lewej stronie dwie wybrane okrągłe krawędzie. Po prawej stronie zamocowane elementy złączne.*
 
-1.  Określ, czy wybrane otwory są otworami gwintowanymi ślepymi czy przelotowymi, wybierając <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:24px;"> _ *(nie używane dla śrub z łbem stożkowym)*.
+1.  Określ, czy wybrane otwory są otworami gwintowanymi ślepymi czy przelotowymi, wybierając <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:24px;"> [Typ dopasowania wewnętrzny](Fasteners_MatchTypeInner/pl.md) lub <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:24px;"> [Typ dopasowania zewnętrzny](Fasteners_MatchTypeOuter/pl.md) *(nie używane dla śrub z łbem stożkowym)*.
 2.  Wybierz jedną lub więcej okrągłych krawędzi i/lub powierzchni z okrągłymi krawędziami. W przypadku wkrętów z łbem stożkowym należy wybrać górną krawędź [fazki otworu](Fasteners_ChamferHole/pl.md).
 3.  Wybierz żądany łącznik klikając jego przycisk lub wybierając go z menu.
 4.  Do każdej z wybranych krawędzi kołowych dołączany jest element złączny.
@@ -279,7 +279,7 @@ Elementy złączne o wymiarach metrycznych posiadają ikony w kolorze pomarańcz
 
 
 
-_ _ _ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Fasteners](Category_Fasteners.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > Fasteners Workbench/pl

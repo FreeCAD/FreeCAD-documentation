@@ -35,7 +35,7 @@ Dieser Befehl ist der zweite von drei Schritten, um ein Schalenobjekt, das mit d
 
 ## Hinweise
 
-Die Befehle <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **_** und <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[Biegung hinzufügen](SheetMetal_AddBend/de.md)** funktionieren am besten mit hohlen Quadern, d.h. Schalenobjekten mit einer konstanten Wandstärke und nur 90° Winkeln zwischen den Flächen.
+Die Befehle <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **[Entlastungsausschnitt hinzufügen](SheetMetal_AddRelief/de.md)**, <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> **[Stoß hinzufügen](SheetMetal_AddJunction/de.md)** und <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[Biegung hinzufügen](SheetMetal_AddBend/de.md)** funktionieren am besten mit hohlen Quadern, d.h. Schalenobjekten mit einer konstanten Wandstärke und nur 90° Winkeln zwischen den Flächen.
 
 Siehe [SheetMetal Entlastungsausschnitt hinzufügen](SheetMetal_AddRelief/de#Hinweise.md) für Hinweise zur Erstellung von Schalenobjekten aus Quadern.
 
@@ -66,7 +66,7 @@ Ein SheetMetal-Junction-Objekt wird von einem [Part-Formelement](Part_Feature/de
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal AddJunction/de

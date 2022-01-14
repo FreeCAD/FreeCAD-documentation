@@ -32,9 +32,9 @@ Resetting the **angle** property to about 180° in a second step will create a *
 
 ## Notes
 
-To create a base plate use a closed 2D outline - preferably a <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> _ command.
+To create a base plate use a closed 2D outline - preferably a <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Sketch](Sketcher_NewSketch.md) - with the <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Make Base Wall](SheetMetal_AddBase.md) command.
 
-Alternatively a base plate (blank) can be created with commands from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _.
+Alternatively a base plate (blank) can be created with commands from the <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Workbench](Part_Workbench.md) or <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign Workbench](PartDesign_Workbench.md).
 
 To create a blank with the [Part Workbench](Part_Workbench.md):
 
@@ -50,10 +50,10 @@ To create a blank with the [PartDesign Workbench](PartDesign_Workbench.md):
 
 1.  Create a solid using either:
     -   <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> [Additive Box](PartDesign_AdditiveBox.md).
-    -   <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> _.
+    -   <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [PartDesign Pad](PartDesign_Pad.md) from a <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Sketch](Sketcher_NewSketch.md).
 2.  Make sure one the dimensions of the Box or the **Length** property of the Pad equals the sheet metal thickness.
 
-If you start with a <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> _ or <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> [PartDesign Hole](PartDesign_Hole.md).
+If you start with a <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [PartDesign Body](PartDesign_Body.md), you can mix SheetMetal features with PartDesign features such as <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [PartDesign Pocket](PartDesign_Pocket.md) or <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> [PartDesign Hole](PartDesign_Hole.md).
 
 ## Properties
 
@@ -189,7 +189,7 @@ Done!
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal AddWall/en

@@ -559,7 +559,7 @@ Data 2019-05-01 (YYYY-MM-DD)
 
  
 
-_ _ _ _
+[<img src="images/Property.png" style="width:16px"> Addons/it](<img src="images/Property.png" style="width:16px"> Addons/it.md) [<img src="images/Property.png" style="width:16px"> User Documentation/it](<img src="images/Property.png" style="width:16px"> User_Documentation/it.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > Macro WorkFeatures/it

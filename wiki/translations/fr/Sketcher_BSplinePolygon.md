@@ -19,7 +19,7 @@ Montre ou masque l\'affichage du polygone de définition d\'une courbe B-spline 
 
 ## Utilisation
 
-1.  Sélectionnez une B-spline et utilisez le bouton de la barre d\'outils **<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Afficher/masquer le polygone de contrôle de la B-spline](Sketcher_BSplinePolygon/fr.md)**.
+1.  Sélectionnez une B-spline et utilisez le bouton de la barre d\'outils **[<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Afficher/masquer le polygone de contrôle de la B-spline](Sketcher_BSplinePolygon/fr.md)**.
 
 
 

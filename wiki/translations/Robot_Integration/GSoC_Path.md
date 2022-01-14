@@ -44,7 +44,7 @@ Medium
 
 ### Additional Information 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Google Summer of Code](Category_Google_Summer_of_Code.md) [<img src="images/Property.png" style="width:16px"> Path](Category_Path.md) [<img src="images/Property.png" style="width:16px"> Robot](Category_Robot.md)
 
 ---
 [documentation index](../README.md) > GSoC Path/Robot Integration

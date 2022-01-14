@@ -30,7 +30,7 @@ Acest instrument crează un arc de parabolă definit prin focar, vertex și endp
 
 <div class="mw-translate-fuzzy">
 
-1.  Apăsați butonul **<img src=images/Sketcher_Parabolic_Arc.png style="width:24px"> '''Create an arc of parabola'''**.
+1.  Apăsați butonul **[<img src=images/Sketcher_Parabolic_Arc.png style="width:24px"> '''Create an arc of parabola'''**.
 2.  
 
 

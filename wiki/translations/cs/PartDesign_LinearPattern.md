@@ -40,7 +40,7 @@
 
 </div>
 
-The **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''LinearPattern'''** tool creates evenly spaced copies of a feature in a linear direction.
+The **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''LinearPattern'''** tool creates evenly spaced copies of a feature in a linear direction.
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
@@ -51,7 +51,7 @@ The **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Linear
 To create a pattern:
 
 1.  Select the feature (<small>(v0.19)</small>  or several features) to be patterned.
-2.  Press the **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''LinearPattern'''** button.
+2.  Press the **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''LinearPattern'''** button.
 3.  Define the **Direction**. See [Options](#Options.md).
 4.  Define the **Length** (distance) between the last copied occurrence and the original feature.
 5.  Set the number of **Occurrences**.

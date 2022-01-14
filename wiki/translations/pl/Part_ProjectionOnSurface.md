@@ -12,11 +12,11 @@
 ## Opis
 
 
-**<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Rzutowanie na powierzchnię](Part_ProjectionOnSurface/pl.md)**
+**[<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Rzutowanie na powierzchnię](Part_ProjectionOnSurface/pl.md)**
 
-służy do rzutowania <img src=images/Draft_ShapeString.svg style="width:kształtu](Shape/pl.md) na powierzchnię innego obiektu. Można użyć tej funkcji do rzutowania logo lub obiektu tekstowego *(patrz **[16px"> [Kształt z tekstu](Draft_ShapeString/pl.md)**)* na różne powierzchnie, aby stworzyć interesujące efekty.
+służy do rzutowania [kształtu](Shape/pl.md) na powierzchnię innego obiektu. Można użyć tej funkcji do rzutowania logo lub obiektu tekstowego *(patrz **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Kształt z tekstu](Draft_ShapeString/pl.md)**)* na różne powierzchnie, aby stworzyć interesujące efekty.
 
-Biorąc pod uwagę _ do uzyskiwania efektów takich jak grawerowanie czy stemplowanie.
+Biorąc pod uwagę [kształt](Shape/pl.md), źródłowy narzędzie to może rzutować z niego krawędzie, polilinie *(zamknięte krawędzie)* lub całe powierzchnie. Rezultatem mogą być nowe krawędzie, nowe polilinie, nowe powierzchnie, a nawet nowe wytłoczone bryły, które mogą być użyte w <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [operacjach logicznych](Part_Boolean/pl.md) do uzyskiwania efektów takich jak grawerowanie czy stemplowanie.
 
 <img alt="" src=images/Part_ProjectionOnSurface1.png  style="width:300px;"> <img alt="" src=images/Part_ProjectionOnSurface2.png  style="width:300px;">
 
@@ -27,7 +27,7 @@ Biorąc pod uwagę _ do uzyskiwania efektów takich jak grawerowanie czy stemplo
 ## Użycie
 
 1.  Upewnij się, że masz co najmniej dwa obiekty w swoim dokumencie; obiekt \"źródłowy\", który chcesz rzutować, oraz obiekt \"docelowy\", na który rzut zostanie wykonany.
-2.  Kliknij na przycisk **<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Rzutowanie na powierzchnię](Part_ProjectionOnSurface/pl.md)**, aby uruchomić [panel zadań](Task_panel/pl.md) z różnymi opcjami.
+2.  Kliknij na przycisk **[<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Rzutowanie na powierzchnię](Part_ProjectionOnSurface/pl.md)**, aby uruchomić [panel zadań](Task_panel/pl.md) z różnymi opcjami.
 3.  Kliknij na przycisk **Wybierz powierzchnie rzutowania**, a następnie kliknij na \"docelową\" powierzchnię, na której zostanie utworzony rzut.
 4.  Następnie kliknij na określony przycisk, aby wybrać typ elementu podrzędnego, który chcesz dodać do obiektu rzutu.
     -   
@@ -84,7 +84,7 @@ Algorytm rzutowania czasami nie jest w stanie utworzyć poprawnej powierzchni rz
 
 Jeśli tak się stanie:
 
--   Sprawdź, czy twoja powierzchnia źródłowa jest poprawna; spróbuj uruchomić narzędzie **<img src=images/Part_CheckGeometry.svg style="width:16px"> [Sprawdź geometrię](Part_CheckGeometry/pl.md)** w poszukiwaniu wskazówek.
+-   Sprawdź, czy twoja powierzchnia źródłowa jest poprawna; spróbuj uruchomić narzędzie **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Sprawdź geometrię](Part_CheckGeometry/pl.md)** w poszukiwaniu wskazówek.
 -   Sprawdź, czy kierunek rzutowania jest poprawny. Czy powierzchnia źródłowa może być realistycznie rzutowana na powierzchnię docelową? Czy rzut prosty trafiłby w powierzchnię? Ustaw ujęcie widoku tak, aby powierzchnia źródłowa znajdowała się przed powierzchnią docelową, a następnie spróbuj ponownie.
 -   Spróbuj użyć opcji {{RadioButton|TRUE|Wyświetl krawędzie}}. Czy krawędzie są wyświetlane poprawnie? Spróbuj ręcznie odtworzyć krawędzie na powierzchni.
 

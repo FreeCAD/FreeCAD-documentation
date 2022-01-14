@@ -101,7 +101,7 @@ Du har också flera förinställda vyer (Toppvy, Frontvy, etc) tillgängliga i V
 
 Och slutligen, en av de kraftfullaste funktionerna i FreeCAD är [skript](Scripting/sv.md) miljön. Från den integrerade pythonkonsolen (eller från något externt pythonskript), så får du åtkomst till nästan vilken del som helst av FreeCAD, skapa eller ändra geometri, ändra representationen av dessa objekt i 3D scenen eller förändra FreeCAD\'s gränssnitt. Python skript kan även användas i [makron](Macros/sv.md), vilket erbjuder en lätt metod att skapa anpassade kommandon.
 
-FreeCAD has several <img src=images/NavigationCAD.svg style="width:navigation modes](Mouse_navigation.md) available, that change the way you use your mouse to interact with the objects in the 3D view and the view itself. One of them is specifically made for [touchpads](Mouse_navigation#Touchpad_navigation.md), where the middle mouse button is not used. The default navigation mode is [CAD navigation](Mouse_navigation#CAD_navigation.md). You can quickly change the current navigation mode by using the **[16px">** button in the [Status bar](Status_bar.md) or by right-clicking an empty area of the [3D view](3D_view.md).
+FreeCAD has several [navigation modes](Mouse_navigation.md) available, that change the way you use your mouse to interact with the objects in the 3D view and the view itself. One of them is specifically made for [touchpads](Mouse_navigation#Touchpad_navigation.md), where the middle mouse button is not used. The default navigation mode is [CAD navigation](Mouse_navigation#CAD_navigation.md). You can quickly change the current navigation mode by using the **[<img src=images/NavigationCAD.svg style="width:16px">** button in the [Status bar](Status_bar.md) or by right-clicking an empty area of the [3D view](3D_view.md).
 
 You also have several view presets (top view, front view, etc) available in the View menu, on the View toolbar, and by numeric shortcuts (**1**, **2**, etc\...). By right-clicking on an object or on an empty area of the 3D view, you have quick access to some common operations, such as setting a particular view, or locating an object in the Tree view.
 
@@ -141,7 +141,7 @@ At any moment, you can select the original sketches and modify them, or change t
 
 The [Draft Workbench](Draft_Workbench.md) and [Arch Workbench](Arch_Workbench.md) behave a bit differently than the other workbenches above, although they follow the same rules, which are common to all of FreeCAD. In short, while the Sketcher and PartDesign are made primarily to design single pieces, Draft and Arch are made to ease your work when working with several, simpler objects.
 
-The _ and [object snapping](Draft_Snap.md).
+The [Draft Workbench](Draft_Workbench.md) offers you 2D tools somewhat similar to what you can find in traditional 2D CAD applications such as [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). However, 2D drafting being far away from the scope of FreeCAD, don\'t expect to find there the full array of tools that these dedicated applications offer. Most of the Draft tools work not only in a 2D plane but also in the full 3D space, and benefit from special helper systems such as [Work planes](Draft_SelectPlane.md) and [object snapping](Draft_Snap.md).
 
 The [Arch Workbench](Arch_Workbench.md) adds [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) tools to FreeCAD, allowing you to build architectural models with parametric objects. The Arch workbench relies extensively on other modules such as Draft and Sketcher. All the Draft tools are also present in the Arch workbench, and most Arch tools make use of the Draft helper systems.
 
@@ -170,7 +170,7 @@ The [Addon](Addon.md) principle is based on the development of a workbench compl
 There are two types of addons:
 
 1.  [Macros](Macros.md): short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
-2.  _, you\'ll find the principle and a list of existing library.
+2.  [External workbenches](External_workbenches.md): collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
 
 ## Scripting
 
@@ -192,7 +192,7 @@ And finally, one of the most powerful features of FreeCAD is the [scripting](scr
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> User Documentation/sv](<img src="images/Property.png" style="width:16px"> User_Documentation/sv.md)
 
 ---
 [documentation index](../README.md) > Getting started/sv

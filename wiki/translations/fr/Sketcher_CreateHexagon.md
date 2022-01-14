@@ -21,7 +21,7 @@ Ne pas chercher à contraindre sur un axe X ou Y , le polygone peu s\'effondrer 
 
 ## Utilisation
 
--   Après avoir cliqué sur le bouton **<img src=images/Sketcher_CreateHexagon.svg style="width:16px"> [Créer un hexagone](Sketcher_CreateHexagon/fr.md)**, cliquez le centre, et déplacez la souris puis cliquez votre deuxième point qui sera le sommet de l\'hexagone.
+-   Après avoir cliqué sur le bouton **[<img src=images/Sketcher_CreateHexagon.svg style="width:16px"> [Créer un hexagone](Sketcher_CreateHexagon/fr.md)**, cliquez le centre, et déplacez la souris puis cliquez votre deuxième point qui sera le sommet de l\'hexagone.
 -   Appuyez sur **Echap** ou cliquez sur le bouton droit de la souris pour quitter la fonction.
 
 ## Remarques

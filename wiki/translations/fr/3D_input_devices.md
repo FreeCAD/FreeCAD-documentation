@@ -6,7 +6,7 @@ FreeCAD prend en charge certains périphériques d\'entrée spécialisés, tels 
 -   3Dconnexion [SpaceNavigator](http://www.3dconnexion.com/products/spacenavigator.html)
 -   Instructions d\'installation: [Périphériques connexion 3D](3Dconnexion_input_devices/fr.md)
 
-_
+[category:Documentation](category_Documentation.md)
 
 ---
 [documentation index](../README.md) > 3D input devices/fr

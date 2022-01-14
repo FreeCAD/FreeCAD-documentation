@@ -22,7 +22,7 @@ Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine offene B-Splinekurv
 
 <div class="mw-translate-fuzzy">
 
-1.  Drücke die **<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Erzeuge  B-spline](Sketcher_CreateBSpline/de.md)** Taste.
+1.  Drücke die **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Erzeuge  B-spline](Sketcher_CreateBSpline/de.md)** Taste.
 2.  Erstelle eine Reihe von Punkten, durch anklicken in der 3D Ansicht. Während der Befehl aktiv ist, werden die erzeugten Punkte mit geraden Linien verbunden, und es wird ein Konstruktionskreis erstellt, der auf jeden Punkt zentriert ist.
 3.  Klicke mit der rechten Maustaste, um die Eingabe zu beenden und die Kurve zu erzeugen.
 4.  Abhängig von den Einstellungen kann das Werkzeug aktiv bleiben, um eine neue Kurve zu verfolgen. Klicke erneut mit der rechten Maustaste, um den Befehl zu beenden.

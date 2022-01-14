@@ -10,7 +10,7 @@
 
 {{Manual:TOC/it}}
 
-Negli ultimi due capitoli, abbiamo visto come _ e _. Manca un ultimo pezzo per avere il pieno controllo su FreeCAD: creare strumenti che interagiscono con l\'utente.
+Negli ultimi due capitoli, abbiamo visto come [creare della geometria Parte](Manual:Creating_and_manipulating_geometry/it.md) e [creare oggetti parametrici](Manual:Creating_parametric_objects/it.md). Manca un ultimo pezzo per avere il pieno controllo su FreeCAD: creare strumenti che interagiscono con l\'utente.
 
 In molte situazioni, non è molto amichevole costruire un oggetto con valori zero, come abbiamo fatto con il rettangolo nel capitolo precedente, e poi chiedere all\'utente di compilare i valori di altezza e larghezza nel pannello delle Proprietà. Questo va bene per un numero molto limitato di oggetti, ma diventa veramente noioso se si devono fare parecchi rettangoli. Sarebbe meglio poter assegnare l\'altezza e la larghezza già durante la creazione del rettangolo.
 
@@ -167,7 +167,7 @@ Infine, non dimenticate che c\'è molta altra documentazione sull\'utilizzo dei 
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Manual:Creating interface tools/it

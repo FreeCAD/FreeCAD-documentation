@@ -30,9 +30,9 @@ To apply angle constraint, one should the follow the steps:
 
 1.  Select one, two or three entities in the sketch. The mode will be chosen depending on the selection.
 2.  Invoke the constraint using several methods:
-    -   Pressing the **<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Constrain angle](Sketcher_ConstrainAngle.md)** button in the toolbar.
+    -   Pressing the **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Constrain angle](Sketcher_ConstrainAngle.md)** button in the toolbar.
     -   Using the **A** keyboard shortcut. (**A** is for **A**ngle)
-    -   Using the **Sketch → Sketcher constraints → <img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Constrain angle** form the top menu entry
+    -   Using the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Constrain angle** form the top menu entry
 3.  A datum edit dialog box pops up.
 4.  Modify the angle if necessary. **Note:** The angle can be entered as an expression that will be evaluated and the result will be stored.
 5.  Click **OK**

@@ -14,7 +14,7 @@ Das Bauen ist einfach mit dem *Makefile* oder dem VisualStudio-Projekt.
 
 BildKonv ist ein Befehlszeilenwerkzeug.
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
 
 ---
 [documentation index](../README.md) > [Developer](Category_Developer.md) > ImageConv/de

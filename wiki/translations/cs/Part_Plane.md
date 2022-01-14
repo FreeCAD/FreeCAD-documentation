@@ -1,6 +1,6 @@
 # Part Plane/cs
 ---
-- GuiCommand:/cs   Name:Part CreatePrimitives   Name/cs:Díl Rovina   Workbenches:_ → [Vytváření zákl.geom.prvků](Part_CreatePrimitives/cs.md) → Plane|
+- GuiCommand:/cs   Name:Part CreatePrimitives   Name/cs:Díl Rovina   Workbenches:[OpenSCAD](Part_Workbench/cs___Díl]],_[[OpenSCAD_Workbench/cs.md)|MenuLocation:[Díl](Part_Workbench/cs.md) → [Vytváření zákl.geom.prvků](Part_CreatePrimitives/cs.md) → Plane|
 SeeAlso=[Vytváření zákl.geom.prvků](Part_CreatePrimitives/cs.md)---
 
 

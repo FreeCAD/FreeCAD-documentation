@@ -34,14 +34,14 @@ If it {{CheckBox}} checked the colour to object to work are coloured (edge, vert
 
 -   LineEdit : display (Iindex of Font / Number of font) the path and name of the font.
 
--    **<img src=images/Draft_Text.svg style="width:16px"> Convert Text (A)**: convert the text <img alt="" src=images/Draft_Text.svg  style="width:16px;"> in a shape string <img alt="" src=images/Draft_ShapeString.svg  style="width:16px;"> (The height of the text converted is respected but the visual result may not be respected, see the Combo view property for confirm). (A) is Automatic value height of text.
+-    **[<img src=images/Draft_Text.svg style="width:16px"> Convert Text (A)**: convert the text <img alt="" src=images/Draft_Text.svg  style="width:16px;"> in a shape string <img alt="" src=images/Draft_ShapeString.svg  style="width:16px;"> (The height of the text converted is respected but the visual result may not be respected, see the Combo view property for confirm). (A) is Automatic value height of text.
 
     -   
         {{SpinBox|0,00 Auto}}
         
-        : If the spinbox is egual 0.0 the heigth of the VALUE of the text is respected, if other of 0.0 the **<img src=images/Draft_Text.svg style="width:16px"> Convert Text (A)** change to **<img src=images/Draft_Text.svg style="width:16px"> Convert Text (M)** manual.
+        : If the spinbox is egual 0.0 the heigth of the VALUE of the text is respected, if other of 0.0 the **[<img src=images/Draft_Text.svg style="width:16px"> Convert Text (A)** change to **[<img src=images/Draft_Text.svg style="width:16px"> Convert Text (M)** manual.
 
--    **<img src=images/Draft_Line.svg style="width:16px"> Convert Wire (A)**: This command convert the wire in one line with coordinates. (ex: one compound downgraded does not have coordinates, this function create a line with the coordinate as Draft line and reproduce the DXF wire in a Draft object are detected: Line, Arc, Circle, Ellipse, BSplineCurve.
+-    **[<img src=images/Draft_Line.svg style="width:16px"> Convert Wire (A)**: This command convert the wire in one line with coordinates. (ex: one compound downgraded does not have coordinates, this function create a line with the coordinate as Draft line and reproduce the DXF wire in a Draft object are detected: Line, Arc, Circle, Ellipse, BSplineCurve.
 
     -   
         {{SpinBox|0,00 Auto}}
@@ -56,14 +56,14 @@ If it {{CheckBox}} checked the colour to object to work are coloured (edge, vert
 
 -    {{RadioButton|<img src="images/Std_DrawStylePoints.svg" width=16px> Points}}: The objects created is Points.
 
--    **<img src=images/Draft_Upgrade.svg style="width:16px"> UpGrade**: UpGrade
+-    **[<img src=images/Draft_Upgrade.svg style="width:16px"> UpGrade**: UpGrade
 
--    **<img src=images/Draft_Downgrade.svg style="width:16px"> DownGrade**: DownGrade
+-    **[<img src=images/Draft_Downgrade.svg style="width:16px"> DownGrade**: DownGrade
 
 ### For Compound I and Convert Edge 
 
 This section work only with the tools **<img src="images/Part_Compound.svg" width=16px> Compound I
-**, **<img src=images/Draft_Text.svg style="width:16px"> Convert Text (A)** and **<img src=images/Draft_Line.svg style="width:16px"> Convert Wire (A)**
+**, **[<img src=images/Draft_Text.svg style="width:16px"> Convert Text (A)** and **[<img src=images/Draft_Line.svg style="width:16px"> Convert Wire (A)**
 
 -    {{RadioButton|TRUE|None}}: Everything originals objects remains as it is.
 

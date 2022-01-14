@@ -38,7 +38,7 @@ Die Erstellung des Threads dauert einige Zeit. Seien Sie geduldig und sehen Sie 
 
 <div class="mw-translate-fuzzy">
 
-Die neueste Version des Makros finden Sie unter _.
+Die neueste Version des Makros finden Sie unter [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro) Der einfachste Weg, dieses Makro zu installieren, ist jedoch die[Addon Manager](Std_AddonMgr/de.md).
 
 
 </div>

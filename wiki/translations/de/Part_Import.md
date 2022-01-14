@@ -16,7 +16,7 @@ Das **<img src="images/Part_Import.svg" width=16px> [Part Import](Part_Import/de
 ## Anwendung
 
 1.  Richte die [Import Export Einstellungen](Import_Export_Preferences/de.md) im [Einstellungseditor](Preferences_Editor/de.md) ein.
-2.  Gehe in das Menü **Part → <img src=images/Part_Import.svg style="width:16px"> CAD importieren**.
+2.  Gehe in das Menü **Part → [<img src=images/Part_Import.svg style="width:16px"> CAD importieren**.
 3.  Wähle die zu importierende Datei
 
 ---

@@ -40,7 +40,7 @@ FreeCAD.ActiveDocument.recompute()
 
 Observe como manejamos miObj.Shape , note que se hace exactamente como lo hicimos en el capítulo anterior, cuando cambiamos otras propiedades de un objeto, como box.Height = 5 . De hecho, **Forma** también es una propiedad, al igual que **Altura**\'. Sólo que toma una Forma Pieza, no un número. En el próximo capítulo veremos mejor cómo se construyen estos objetos paramétricos.
 
-Por ahora, vamos a explorar nuestras Formas Pieza con más detalle. Al final del capítulo sobre _ mostramos una tabla que explica cómo se construyen las Formas Pieza, y sus diferentes componentes (Vértices, aristas, caras, etc). Los mismos componentes existen aquí y pueden ser recuperados desde Python. Las Formas Pieza siempre tienen los siguientes atributos: Vértices, Aristas, Hilos, Caras, Carcasas y Sólidos. Todos ellos son listas, que pueden contener cualquier número de elementos o estar vacías:
+Por ahora, vamos a explorar nuestras Formas Pieza con más detalle. Al final del capítulo sobre [modelado tradicional con el Ambiente de trabajo Pieza](Manual:Traditional_modeling,_the_CSG_way/es.md) mostramos una tabla que explica cómo se construyen las Formas Pieza, y sus diferentes componentes (Vértices, aristas, caras, etc). Los mismos componentes existen aquí y pueden ser recuperados desde Python. Las Formas Pieza siempre tienen los siguientes atributos: Vértices, Aristas, Hilos, Caras, Carcasas y Sólidos. Todos ellos son listas, que pueden contener cualquier número de elementos o estar vacías:
 
 
 ```python
@@ -227,7 +227,7 @@ Todo lo anterior, y mucho más, se explica en detalle en la página [Guionizaci�
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Manual:Creating and manipulating geometry/es

@@ -239,7 +239,7 @@ Drehe eine Skizze entlang einer ihrer Achsen und um einen bestimmten Winkel. **E
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign project/de

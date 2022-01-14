@@ -13,7 +13,7 @@
 
 </div>
 
-_.
+[Primitive](Part_Primitives/it.md) di Part apre una finestra di dialogo per creare una qualsiasi delle primitive geometriche parametriche definite nell\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Parte](Part_Workbench/it.md).
 
 <img alt="" src=images/Part_Primitives_example.png  style="width:800px;"> 
 *Forme primitive che possono essere create con Part.*
@@ -65,7 +65,7 @@ Alcune delle primitive geometriche (parametriche) disponibili che sono possibili
 :   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Toro](Part_Torus/it.md): Inserisce un semplice toro parametrico, con posizione, angolo1, angolo2, angolo3, raggio1 e raggio2 come parametri.
 :   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prisma](Part_Prism/it.md): Inserisce un solido definito da una sezione trasversale poligonale regolare e un\'altezza. {{Version/it|0.14}}
 :   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Cuneo](Part_Wedge/it.md): Inserisce un oggetto Cuneo parametrico.
-:   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> _.
+:   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Elica](Part_Helix/it.md): Inserisce una primitiva geometrica ad elica. L\'uso comune dell\'elica è la creazione di [filettature](Thread_for_Screw_Tutorial/it.md).
 :   <img alt="" src=images/Part_Spiral.svg  style="width:32px;"> [Spirale](Part_Spiral/it.md): Inserisce una primitiva geometrica a spirale. {{Version/it|0.14}}
 :   <img alt="" src=images/Part_Circle.svg  style="width:32px;"> [Cerchio](Part_Circle/it.md): Inserisce un bordo curvo circolare nel documento attivo.
 :   <img alt="" src=images/Part_Ellipse.svg  style="width:32px;"> [Ellisse](Part_Ellipse/it.md): Inserisce un bordo curvo ellittico nel documento attivo.

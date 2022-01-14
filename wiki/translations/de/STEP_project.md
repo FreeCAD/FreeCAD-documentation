@@ -8,7 +8,7 @@ If you are not involved with the development discussed here:<br>
 
 {{TOCright}}
 
-Diese Vorlage ist die Richtlinie für ein FreeCAD Entwicklungsprojekt. Es folgt den Regeln des Prozesses _ zusammengefasst.
+Diese Vorlage ist die Richtlinie für ein FreeCAD Entwicklungsprojekt. Es folgt den Regeln des Prozesses [Getting Things Done (GTD)](http://en.wikipedia.org/wiki/Getting_Things_Done#Methodology). Die Projekte sind in der [Entwicklungsfahrplan](Development_roadmap/de.md) zusammengefasst.
 
 ## Zweck und Prinzipien 
 
@@ -96,7 +96,7 @@ Hier einige Verweise mit Informationen:
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > STEP project/de

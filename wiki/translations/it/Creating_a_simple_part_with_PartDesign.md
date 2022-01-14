@@ -24,7 +24,7 @@ Questo tutorial ha lo scopo di insegnare ai principianti di FreeCAD alcune funzi
 
 ### Usare l\'ambiente [Part Design](PartDesign_Workbench/it.md) per disegnare degli schizzi. 
 
-Creare un nuovo documento e passare all\'ambiente **<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design'''** usando il [selettore degli ambienti](Getting_started/it#Esplorare_FreeCAD.md) (etichettato con il numero 10 nell\'immagine collegata) o andando al menu *Visualizza → Ambienti*. FreeCAD si avvia con le barre degli strumenti in alto, la vista combinata a sinistra e la vista 3D a destra.
+Creare un nuovo documento e passare all\'ambiente **[<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design'''** usando il [selettore degli ambienti](Getting_started/it#Esplorare_FreeCAD.md) (etichettato con il numero 10 nell\'immagine collegata) o andando al menu *Visualizza → Ambienti*. FreeCAD si avvia con le barre degli strumenti in alto, la vista combinata a sinistra e la vista 3D a destra.
 
 **Creare il corpo:**
 
@@ -119,7 +119,7 @@ Se lo schizzo non è ancora verde, uno o più punti non sono coincidenti (2 punt
 
 Procedere allo stesso modo con tutti i punti.
 
-Se ancora lo schizzo non diventa verde, verificare che tutte le linee (tranne quella inclinata) abbiano un vincolo <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> _, e aggiungerlo se manca.
+Se ancora lo schizzo non diventa verde, verificare che tutte le linee (tranne quella inclinata) abbiano un vincolo <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Orizzontale](Sketcher_ConstrainHorizontal/it.md) o <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [Verticale](Sketcher_ConstrainVertical/it.md), e aggiungerlo se manca.
 
 ### Usare le funzioni Estrusione e Tasca 
 

@@ -7,7 +7,7 @@
 
 </div>
 
-像许多现代设计应用程序，如__，FreeCAD基于_。工作台可以被认为是为特定任务分组的一组工具。在一个传统的家具车间里，你有一个工作桌子给木材工作的人，另一张桌子给金属件工作的人，也可能有第三张桌子给把所有这些部件组装在一起的人。
+像许多现代设计应用程序，如[Revit或](wikipedia_Revit.md)[CATIA](wikipedia_CATIA.md)，FreeCAD基于[工作台的概念](wikipedia_Workbench.md)。工作台可以被认为是为特定任务分组的一组工具。在一个传统的家具车间里，你有一个工作桌子给木材工作的人，另一张桌子给金属件工作的人，也可能有第三张桌子给把所有这些部件组装在一起的人。
 
 在FreeCAD中，相同的概念也适用。工具根据其相关任务分为工作台。
 
@@ -90,7 +90,7 @@ FreeCAD工作台很容易在[Python](http://www.python.org)中编程，所以很
 
 <div class="mw-translate-fuzzy">
 
-_，它在菜单中的位置为**Tools → <img src="images/Std_AddonMgr.svg" width=24px> Addon manager**。
+[外部工作台页面有一些关于其中的一些信息和教程](External_workbenches/zh-cn.md)，[FreeCAD Addons](https://github.com/FreeCAD/FreeCAD-addons)项目旨在收集它们，并使其可以从FreeCAD中轻松安装。亦可用[Addon Manager进行安装](Std_AddonMgr.md)，它在菜单中的位置为**Tools → <img src="images/Std_AddonMgr.svg" width=24px> Addon manager**。
 
 
 </div>
@@ -109,7 +109,7 @@ _，它在菜单中的位置为**Tools → <img src="images/Std_AddonMgr.svg" wi
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/zh-cn

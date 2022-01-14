@@ -202,7 +202,7 @@ Occasionally it may be desirable to get rid of a dimension in an expression. Thi
 
 ### CSV format 
 
-FreeCAD spreadsheets can be imported and exported to the _ and [Spreadsheet Export](Spreadsheet_Export.md) for more information.
+FreeCAD spreadsheets can be imported and exported to the [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) format which can also be read and written by most other spreadsheet applications such as Microsoft Excel or LibreOffice Calc. See [Spreadsheet Import](Spreadsheet_Import.md) and [Spreadsheet Export](Spreadsheet_Export.md) for more information.
 
 ### XLSX format 
 
@@ -248,7 +248,7 @@ sheet.get('Diameter')
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/ko

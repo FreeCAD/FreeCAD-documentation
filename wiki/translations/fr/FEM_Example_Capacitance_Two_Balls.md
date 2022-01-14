@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Cet exemple est destiné à montrer comment simuler le 6ème exemple de _. Ce tutoriel illustre comment configurer l\'exemple, étudier ses différentes parties, le résoudre en utilisant le [FEM Solveur Elmer](FEM_SolverElmer/fr.md) et visualiser les résultats en utilisant [FEM Filtre rattaché à une région](FEM_PostFilterClipRegion/fr.md).
+Cet exemple est destiné à montrer comment simuler le 6ème exemple de [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf), **Electrostatic equation -- Capacitance of two balls**, en utilisant les nouveaux [FEM Exemples](FEM_Examples/fr.md). Ce tutoriel illustre comment configurer l\'exemple, étudier ses différentes parties, le résoudre en utilisant le [FEM Solveur Elmer](FEM_SolverElmer/fr.md) et visualiser les résultats en utilisant [FEM Filtre rattaché à une région](FEM_PostFilterClipRegion/fr.md).
 
 <img alt="" src=images/Two_balls_result_2.png  style="width:1200px;">
 
@@ -31,7 +31,7 @@ Cet exemple est destiné à montrer comment simuler le 6ème exemple de _. Ce tu
 
 ### Charger l\'exemple 
 
--   Allez dans **Utilities → <img src=images/FEM_Examples.svg style="width:24px"> Ouvrez les exemples FEM**.
+-   Allez dans **Utilities → [<img src=images/FEM_Examples.svg style="width:24px"> Ouvrez les exemples FEM**.
 -   Lorsque l\'interface graphique s\'ouvre, recherchez et ouvrez \"Electrostatics Capacitance Two Balls\". Vous pouvez facilement trouver l\'exemple dans **All** ou dans **Solvers → Elmer**. Pour ouvrir l\'exemple, double-cliquez dessus ou sélectionnez-le et cliquez sur **Setup**.
 
 <img alt="" src=images/Two_balls_selection.png  style="width:300px;">
@@ -113,7 +113,7 @@ Ce cas présente la solution de la capacité de sphères parfaitement conductric
     StatElecSolve:   1  2    1.70071E+00
     StatElecSolve:   2  2    5.07960E+00
 
--   Ici, le résultat souhaité est C~12~ = 1.70071. Cette valeur est proche du `1.691` donné dans les _ plus fine mais cette activité est laissée à l\'utilisateur. Il est également conseillé à l\'utilisateur de jouer avec le [FEM Filtre rattaché à une région](FEM_PostFilterClipRegion/fr.md) pour obtenir un résultat visuel similaire à la première image de ce tutoriel.
+-   Ici, le résultat souhaité est C~12~ = 1.70071. Cette valeur est proche du `1.691` donné dans les [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf). Nous pouvons obtenir une valeur encore plus proche en faisant une [FEM Région de maillage](FEM_MeshRegion/fr.md) plus fine mais cette activité est laissée à l\'utilisateur. Il est également conseillé à l\'utilisateur de jouer avec le [FEM Filtre rattaché à une région](FEM_PostFilterClipRegion/fr.md) pour obtenir un résultat visuel similaire à la première image de ce tutoriel.
 
 
 {{Tutorials navi

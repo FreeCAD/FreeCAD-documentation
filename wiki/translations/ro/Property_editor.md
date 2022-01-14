@@ -114,7 +114,7 @@ print(obj.Label)
 
 *View and Data tabs of the property editor, for a basic "App::FeaturePython" scripted object.*
 
-Most geometrical objects that can be created and displayed in the _ for the most basic properties that these objects have.
+Most geometrical objects that can be created and displayed in the [3D view](3D_view.md) are derived from a `Part::Feature`. See [Part Feature](Part_Feature.md) for the most basic properties that these objects have.
 
 For 2D geometry, most objects are derived from `Part::Part2DObject` (itself derived from `Part::Feature`) which is the base of [Sketches](Sketch.md), and most [Draft elements](Draft_Workbench.md). See [Part Part2DObject](Part_Part2DObject.md) for the most basic properties that these objects have.
 
@@ -187,9 +187,9 @@ Most of these properties are inherited from the [Part Feature](Part_Feature.md) 
 
 -   valueInPercent / 100, unde w, h, d sunt dimensiunile casetei delimitate).
 
--    {{PropertyView/ro|Display Mode}}: Modul de afișare al caracteristicii, **Flat lines, Shaded, Wireframe, Points** _. (Implicit, **Linii plate**).
+-    {{PropertyView/ro|Display Mode}}: Modul de afișare al caracteristicii, **Flat lines, Shaded, Wireframe, Points** [96px](IMAGE:_Vue_DisplayModePartDesign_fr_00.png.md). (Implicit, **Linii plate**).
 
--    {{PropertyView/ro|Lighting}}: Iluminare **O parte, Două laturi** _. (Default, **Two side**).
+-    {{PropertyView/ro|Lighting}}: Iluminare **O parte, Două laturi** [96px](IMAGE:Vue_Lighting_fr_00.png.md). (Default, **Two side**).
 
 -    {{PropertyView/ro|Line Color}}: Oferă culoarea liniei (margini) (Implicit, **25, 25, 25**).
 

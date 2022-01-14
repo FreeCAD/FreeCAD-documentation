@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Bezier eğrisi aracı, mevcut _ alır.
+Bezier eğrisi aracı, mevcut [ Çalışma düzlemi](Draft_SelectPlane/tr.md) ile birkaç noktadan [Bezier Eğrisi](http://en.wikipedia.org/wiki/Bezier_curve) (veya parça parça Bezier Eğrisi) oluşturur. Görevler sekmesinde önceden ayarlanmış olan [ Çizgi stilini](Draft_Linestyle/tr.md) alır.
 
 
 </div>

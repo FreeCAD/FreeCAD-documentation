@@ -34,7 +34,7 @@ The **Std Refresh** command recomputes the active document. The command is disab
 
 <div class="mw-translate-fuzzy">
 
-Drücke **F5** oder **Ctrl**+**R** oder klicke auf das Symbol **<img src=images/Std_Refresh.svg style="width:16px"> [Refresh](Std_Refresh.md)**.
+Drücke **F5** oder **Ctrl**+**R** oder klicke auf das Symbol **[<img src=images/Std_Refresh.svg style="width:16px"> [Refresh](Std_Refresh.md)**.
 
 
 </div>

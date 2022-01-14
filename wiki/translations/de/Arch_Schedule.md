@@ -18,7 +18,7 @@ Das Ablaufplan Werkzeug erlaubt dir ein [Tabellenblatt](Spreadsheet_Workbench/de
 
 : Dieses Werkzeug wurde in FreeCAD 0.17 neu geschrieben und unterscheidet sich von früheren Versionen.
 
-Für eine allgemeinere Lösung siehe den _. Dieser Arbeitsbereich verwendet die SQL-Syntax, um Informationen aus dem Dokument zu extrahieren.
+Für eine allgemeinere Lösung siehe den [Auswertung Arbeitsbereich](https://github.com/furti/FreeCAD-Reporting/tree/master) in der Liste der [Externe Arbeitsbereiche](External_workbenches/de.md). Dieser Arbeitsbereich verwendet die SQL-Syntax, um Informationen aus dem Dokument zu extrahieren.
 
 ## Anwendung
 

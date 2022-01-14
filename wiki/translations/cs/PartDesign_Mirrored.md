@@ -53,7 +53,7 @@ The **Mirrored** tool mirrors features on a plane.
 To create a mirroring:
 
 1.  Select the one or more features to be mirrored.
-2.  Press the **<img src=images/PartDesign_Mirrored.svg style="width:24px"> '''Mirrored'''** button.
+2.  Press the **[<img src=images/PartDesign_Mirrored.svg style="width:24px"> '''Mirrored'''** button.
 3.  If you have several features in the mirroring, their order can be important, see for example the image in the [PolarPattern feature](PartDesign_PolarPattern#Usage.md). You can change the order by dragging the feature in the list and you will see the result immediately as preview.
 4.  Define the mirror **Plane**. See [Options](#Options.md).
 5.  Press **OK**.

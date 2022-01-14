@@ -7,7 +7,7 @@
 
 Środowisko pracy [Zbrojenie](Reinforcement_Workbench/pl.md) jest [środowiskiem zewnętrznym](External_workbenches/pl.md), który dostarcza narzędzi do generowania i detalowania zbrojenia. To środowisko robocze zapewnia interfejs i ustawienia wstępne do tworzenia typowych typów prętów zbrojeniowych. Oraz narzędzia do generowania rachunku materiałowego prętów zbrojeniowych, listy cięć kształtu prętów zbrojeniowych, harmonogramu gięcia prętów oraz rysunków i wymiarów prętów zbrojeniowych.
 
-Image:Arch\_Rebar\_Straight\_example.png\|_ Image:Arch\_Rebar\_LShape\_example.png\|_ Image:Arch\_Rebar\_Stirrup\_example.png\|_ Image:Arch\_Rebar\_Circular\_ColumnReinforcement\_example.png\|_ Image:Arch\_Rebar\_ColumnReinforcement\_TwoTies\_example.png\|_ Image:Isometric\_view\_of\_Bent\_Shape\_rebars\_in\_parallel\_and\_cross\_direction\_with\_distribution\_rebars.png\|_ Image:Arch\_Rebar\_BOM\_example.png\|_ Image:Reinforcement\_Bar\_Bending\_Schedule\_example.svg\|_
+Image:Arch\_Rebar\_Straight\_example.png\|[Pręty zbrojeniowe proste](Arch_Rebar_Straight/pl.md) Image:Arch\_Rebar\_UShape\_example.png\|[Pręty zbrojeniowe typu U](Arch_Rebar_UShape/pl.md) Image:Arch\_Rebar\_LShape\_example.png\|[Pręty zbrojeniowe typu L](Arch_Rebar_LShape/pl.md) Image:Arch\_Rebar\_BentShape\_example.png\|[Pręty zbrojeniowe wygięte](Arch_Rebar_BentShape/pl.md) Image:Arch\_Rebar\_Stirrup\_example.png\|[Strzemiona zbrojeniowe](Arch_Rebar_Stirrup/pl.md) Image:Arch\_Rebar\_Helical\_example.png\|[Pręty zbrojeniowe spiralne](Arch_Rebar_Helical/pl.md) Image:Arch\_Rebar\_Circular\_ColumnReinforcement\_example.png\|[Pręty zbrojeniowe okrągłe, zbrojenie słupów](Arch_Rebar_Circular_ColumnReinforcement/pl.md) Image:Arch\_Rebar\_ColumnReinforcement\_example.png\|[Pręty zbrojeniowe, zbrojenie słupów](Arch_Rebar_ColumnReinforcement/pl.md) Image:Arch\_Rebar\_ColumnReinforcement\_TwoTies\_example.png\|[Pręty zbrojeniowe, zbrojenie słupa dwa ściągi sześć prętów zbrojeniowych](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars/pl.md) Image:Arch\_Rebar\_BeamReinforcement\_example.png\|[Pręty zbrojeniowe, zbrojenie belek](Arch_Rebar_BeamReinforcement/pl.md) Image:Isometric\_view\_of\_Bent\_Shape\_rebars\_in\_parallel\_and\_cross\_direction\_with\_distribution\_rebars.png\|[Pręty zbrojeniowe, zbrojenie płyt stropowych](Arch_Rebar_Slab_Reinforcement/pl.md) Image:Isometric\_view\_of\_Columns\_footing.png\|[Zbrojenie stóp fundamentowych](Arch_Rebar_Footing_Reinforcement/pl.md) Image:Arch\_Rebar\_BOM\_example.png\|[Zestawienie zbrojenia](Arch_Rebar_BOM/pl.md) Image:Reinforcement\_Bar\_Shape\_Cut\_List\_example.svg\|[Kształt prętów zbrojeniowych, lista cięć](Reinforcement_Bar_Shape_Cut_List/pl.md) Image:Reinforcement\_Bar\_Bending\_Schedule\_example.svg\|[Pręty zbrojeniowe, schemat gięcia prętów](Reinforcement_Bar_Bending_Schedule/pl.md) Image:Arch\_Rebar\_Drawing\_Dimensioning\_example.svg\|[Wymiarowanie rysunku zbrojenia](Arch_Rebar_Drawing_Dimensioning/pl.md)
 
 ## Instalacja
 
@@ -53,12 +53,12 @@ Image:Arch\_Rebar\_Straight\_example.png\|_ Image:Arch\_Rebar\_LShape\_example.p
 
 -   <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning.svg  style="width:32px;"> [Wymiarowanie rysunku zbrojenia](Arch_Rebar_Drawing_Dimensioning/pl.md): Wykonuje rysunki i wymiaruje pręty zbrojeniowe.
     -   <img alt="" src=images/Arch_Rebar_Drawing.svg  style="width:32px;"> [Rysunek zbrojenia](Arch_Rebar_Drawing_Dimensioning/pl#Rysunek_zbrojeniag.md): Tworzy rysunki prętów zbrojeniowych.
-    -   <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width:32px;"> _.
+    -   <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width:32px;"> [Wymiarowanie zbrojenia](Arch_Rebar_Drawing_Dimensioning/pl#Wymiarowanie_zbrojenia.md): Tworzy wymiarowanie prętów zbrojeniowych w [Rysunku zbrojenia](Arch_Rebar_Drawing_Dimensioning/pl#Reinforcement_Drawing/pl.md).
 
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > Reinforcement Workbench/pl

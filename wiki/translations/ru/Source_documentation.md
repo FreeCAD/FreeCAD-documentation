@@ -28,7 +28,7 @@ Compiling the API documentation follows the same general steps as compiling the 
 
 ### Complete documentation 
 
-Если у вас установлен Doxygen, то собрать документацию очень просто. Также установите _ для отображения взаимосвязей между различными объектами. 
+Если у вас установлен Doxygen, то собрать документацию очень просто. Также установите [Graphviz](https://www.graphviz.org/), чтобы иметь возможность создавать диаграммы, показывающие отношения между различными классами и библиотеками в коде FreeCAD. Graphviz также используется FreeCAD [ графом зависимостей](Std_DependencyGraph.md) для отображения взаимосвязей между различными объектами. 
 ```python
 sudo apt install doxygen graphviz
 ```
@@ -146,7 +146,7 @@ void removeTaskWatcher(void);
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source documentation/ru

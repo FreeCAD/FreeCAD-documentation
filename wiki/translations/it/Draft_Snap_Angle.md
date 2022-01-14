@@ -50,7 +50,7 @@ For general information about snapping see [Draft Snap](Draft_Snap.md).
 
 ## Utilizzo
 
-1.  Accertarsi che <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> _ siano attivati.
+1.  Accertarsi che <img alt="" src=images/Draft_Snap_Lock.svg  style="width:16px;"> [Attiva snap](Draft_Snap_Lock/it.md) e <img alt="" src=images/Draft_Snap_Angle.svg  style="width:16px;"> [Angolo](Draft_Snap_Angle/it.md) siano attivati.
 2.  Sceglire uno strumento Drfat per disegnare una forma.
 3.  Sposta il cursore su un oggetto cerchio o un arco.
 4.  Il cerchio o l\'arco si evidenziano in giallo, e un piccolo cerchio bianco indica il punto sull\'arco su cui verrà agganciato il nuovo punto; questo punto formerà un angolo con l\'orizzontale di 30° o 45°, o un loro multiplo.

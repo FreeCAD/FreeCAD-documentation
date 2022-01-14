@@ -7,7 +7,7 @@ FreeCAD ist eine [parametrische 3D Modellierungssoftware](About_FreeCAD/de.md) u
 
 FreeCAD befindet sich seit 2002 in der Entwicklung und bietet einen großen [Funktionsumfang](Feature_list/de.md). Für kommerzielle Anwendungen fehlen noch einige Funktionen. Für den Hobbygebrauch und für kleinere Betriebe ist es aber leistungsfähig genug.
 
-Eine schnell wachsende Gemeinschaft begeisterter Anwender ist im _.
+Eine schnell wachsende Gemeinschaft begeisterter Anwender ist im [FreeCAD Forum](http://forum.freecadweb.org/index.php) aktiv. Dort sind \[<https://forum.freecadweb.org/viewforum.php?f=24>\| viele Beispiele\] aus Qualitätsprojekten zu finden, die mit FreeCAD erstellt wurden. Siehe auch [FreeCAD Verwendung in der Produktion](FreeCAD_used_in_production.md).
 
 Um zu wachsen, neue Funktionen zu erhalten und Fehler zu beheben ist FreeCAD wie alle freien Software-Projekte auf seine Gemeinschaft angewiesen. Vergiss das nicht, wenn du FreeCAD nutzt! Wenn du magst, kannst du [spenden](Donate/de.md), und FreeCAD z.B. beim Schreiben von Dokumentationen und Übersetzen auf verschiedene Weise [helfen](Help_FreeCAD/de.md).
 
@@ -55,7 +55,7 @@ Die Startseite ermöglicht es dir, schnell zu einer der gebräuchlichsten Arbeit
 
 ## Navigieren im 3D Raum 
 
-FreeCAD bietet verschiedene <img src=images/NavigationCAD.svg style="width:Navigationsmodi](Mouse_navigation/de.md), die sich durch die Art und Weise, mit Objekten in der 3D Ansicht und der 3D Ansicht selbst zu interagieren, unterscheiden. Einer dieser Modi ist speziell für [Touchpads](Mouse_navigation/de#Touchpad_Navigation.md) ausgelegt, bei dem die mittlere Maustaste nicht genutzt wird. Der Standard Navigationsmodus ist [CAD Navigation](Mouse_navigation/de#CAD_navigation.md). Mit der **[16px">** Schaltfläche in der [Status bar](Status_bar/de.md) oder durch rechts klicken eines lehren Bereichst der [3D Ansicht](3D_view/de.md) kann schnell zwischen verschiedenen Moden gewechselt werden.
+FreeCAD bietet verschiedene [Navigationsmodi](Mouse_navigation/de.md), die sich durch die Art und Weise, mit Objekten in der 3D Ansicht und der 3D Ansicht selbst zu interagieren, unterscheiden. Einer dieser Modi ist speziell für [Touchpads](Mouse_navigation/de#Touchpad_Navigation.md) ausgelegt, bei dem die mittlere Maustaste nicht genutzt wird. Der Standard Navigationsmodus ist [CAD Navigation](Mouse_navigation/de#CAD_navigation.md). Mit der **[<img src=images/NavigationCAD.svg style="width:16px">** Schaltfläche in der [Status bar](Status_bar/de.md) oder durch rechts klicken eines lehren Bereichst der [3D Ansicht](3D_view/de.md) kann schnell zwischen verschiedenen Moden gewechselt werden.
 
 Es stehen mehrere Ansichtsvoreinstellungen (beispielsweise Draufsicht, Frontansicht, usw.) im Ansichtsmenü, auf der Ansichtssymbolleiste und über Tastenkürzel (**1**, **2**, usw.) zur Verfügung. Mit einem Rechtsklick auf ein Objekt oder den Leerbereich der Ansicht steht ein schneller Zugriff auf allgemeine Vorgänge zur Verfügung, beispielsweise um eine bestimmte Ansicht oder ein Objekt in der Baumansicht auszuwählen.
 
@@ -63,7 +63,7 @@ Es stehen mehrere Ansichtsvoreinstellungen (beispielsweise Draufsicht, Frontansi
 
 Das Hauptaugenmerk von FreeCAD besteht darin, Ihnen zu ermöglichen, hochpräzise 3D Modelle zu erstellen, deren Eigenschaften Sie weiterhin genau kontrollieren (durch die Möglichkeit, in der Modellhistorie zurück zu gehen, und Parameter anpassen zu können) und gegebenenfalls auch die Fertigung dieser Modelle (mittels 3D Druck, CNC Fräsen oder sogar bei Bauwerken). Es unterscheidet sich daher sehr von einigen anderen 3D Anwendungen, die für andere Einsatzzwecke wie z.B. Erstellen von Animationsfilmen oder Spielen programmiert wurden. Die Lernkurve von FreeCAD kann sehr steil sein, besonders wenn es Ihr erster Kontakt mit dem 3D Modellieren ist. Falls Sie an einigen Stellen nicht mehr weiter kommen, vergessen Sie nicht, dass es eine freundliche Community von Nutzern unter [FreeCAD forum](http://forum.freecadweb.org/index.php) gibt, welche Ihnen schnell weiter helfen kann.
 
-Welchen Arbeitsbereich du in FreeCAD anfängst zu verwenden, hängt von der Art der Arbeit ab, die du erledigen musst: Wenn du an mechanischen Modellen arbeitest oder ganz allgemein an Miniaturobjekten arbeitest, dann wirst du wahrscheinlich den Arbeitsbereich _. Und wenn du aus der OpenSCAD Welt kommst, versuche den [OpenSCAD Arbeitsbereich](OpenSCAD_Workbench/de.md). Es gibt auch viele von der Gemeinschaft entwickelte,verfügbare [Externe Arbeitsbereiche](External_workbenches/de.md).
+Welchen Arbeitsbereich du in FreeCAD anfängst zu verwenden, hängt von der Art der Arbeit ab, die du erledigen musst: Wenn du an mechanischen Modellen arbeitest oder ganz allgemein an Miniaturobjekten arbeitest, dann wirst du wahrscheinlich den Arbeitsbereich [PartDesign](PartDesign_Workbench/de.md) verwenden wollen. Wenn du in 2D arbeiten möchtest, dann wechsle zum [Entwurf Arbeitsbereich](Draft_Workbench/de.md) oder zum [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) wenn du Beschränkungen benötigst. Wenn du [Gebäudedatenmodellierung](https://de.wikipedia.org/wiki/Building_Information_Modeling) machen möchtest, starte den [Arch Arbeitsbereich](Arch_Workbench/de.md). Und wenn du aus der OpenSCAD Welt kommst, versuche den [OpenSCAD Arbeitsbereich](OpenSCAD_Workbench/de.md). Es gibt auch viele von der Gemeinschaft entwickelte,verfügbare [Externe Arbeitsbereiche](External_workbenches/de.md).
 
 Sie können den Arbeitsbereich jederzeit wechseln und [modifizieren](Interface_Customization/de.md), um beispielsweise Werkzeuge anderer Arbeitsbereiche einzufügen.
 
@@ -95,7 +95,7 @@ Die Skizzen können jederzeit ausgewählt und geändert werden, wobei das Enderg
 
 Die Arbeitsbereiche [Draft](Draft_Workbench/de.md) und [Arch](Arch_Workbench/de.md) verhalten sich etwas anders als die zuvor beschriebenen Arbeitsbereiche, obwohl sie denselben Regeln folgen, die überall in FreeCAD gelten. Kurz gesagt: Während die Arbeitsbereiche *Sketcher* und *PartDesign* für die Konstruktion von einzelnen komplexen Objekten ausgelegt sind, wurden *Draft* und *Arch* darauf optimiert, die Arbeit mit vielen einfachen Objekten gleichzeitig zu erleichtern.
 
-Der Arbeitsbereich _ und [Draft Snap](Draft_Snap/de.md).
+Der Arbeitsbereich [Draft](Draft_Workbench/de.md) bietet 2D-Werkzeuge, wie sie auch in klassischen CAD-Programmen (z.B. [AutoCAD](https://de.wikipedia.org/wiki/AutoCAD)) zu finden sind. Da das Erstellen von 2D-Zeichnungen jedoch nicht zum eigentlichen Aufgabenbereich von FreeCAD gehört, sollte hierbei keine solch große Auswahl an Werkzeugen wie bei kommerziellen Alternativen erwartet werden. Die meisten der dabei verfügbaren Werkzeuge funktionieren nicht nur in 2D-Ebenen, sondern auch im 3D-Raum und profitieren dabei von hilfreichen Funktionen wie [Ebene markieren](Draft_SelectPlane/de.md) und [Draft Snap](Draft_Snap/de.md).
 
 Der Arbeitsbereich [Arch](Arch_Workbench/de.md) fügt eine Umgebung für [BIM](https://de.wikipedia.org/wiki/Building_Information_Modeling) in FreeCAD ein. Dies erlaubt das Erstellen architektonischer Modelle aus parametrischen Objekten. Der Arbeitsbereich *Arch* basiert umfangreich auf anderen Arbeitsbereichen wie *Draft* oder *Sketcher*. Alle Werkzeuge von *Draft* sind auch in *Arch* zu finden und die meisten Werkzeuge von *Arch* nutzen das Hilfssystem von *Draft*.
 
@@ -124,7 +124,7 @@ Das Prinzip [Erweiterungen](Addon/de.md) basiert auf der Entwicklung eines Arbei
 Es gibt zwei Arten von Erweiterungen:
 
 1.  [Makros](Macros/de.md): kurze Schnipsel des Python Code, die ein neues Werkzeug oder eine neue Funktionalität bereitstellen. Makros beginnen üblicherweise als ein Weg, die Aufgabe des Zeichnens oder Bearbeitens eines bestimmten Objekts zu vereinfachen oder zu automatisieren. Wenn viele dieser Makros in einem Verzeichnis gesammelt werden, kann das gesamte Verzeichnis als neuer Arbeitsbereich verteilt werden.
-2.  _ finden Sie das Prinzip und eine Liste der vorhandenen Bibliothek.
+2.  [Externe Arbeitsbereiche](External_workbenches/de.md): Sammlungen von Werkzeugen, die in Python oder C++ programmiert sind und FreeCAD in einer wichtigen Weise erweitern. Wenn ein Arbeitsbereich ausreichend entwickelt und gut dokumentiert ist, kann sie als eine der Basis Arbeitsbereiche in FreeCAD integriert werden. Unter [Arbeitsbereiche](External_workbenches/de.md) finden Sie das Prinzip und eine Liste der vorhandenen Bibliothek.
 
 ## Skriptsprache
 
@@ -140,7 +140,7 @@ Und schließlich ist eine der leistungsfähigsten Funktionen von FreeCAD die [sc
 
 {{Userdocnavi/de}}
 
-_
+[<img src="images/Property.png" style="width:16px"> User Documentation/de](<img src="images/Property.png" style="width:16px"> User_Documentation/de.md)
 
 ---
 [documentation index](../README.md) > Getting started/de

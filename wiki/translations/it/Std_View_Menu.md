@@ -84,7 +84,7 @@ In questo menu sono disponibili i seguenti strumenti:
     -   <img alt="" src=images/Std_ViewIvStereoInterleavedRows.svg  style="width:32px;"> [Stereo a righe interlacciate](Std_ViewIvStereoInterleavedRows/it.md): passa alla visualizzazione stereo a righe interlacciate.
     -   <img alt="" src=images/Std_ViewIvStereoInterleavedColumns.svg  style="width:32px;"> [Stereo a colonne interlacciate](Std_ViewIvStereoInterleavedColumns/it.md): passa alla visualizzazione stereo a colonne interlacciate.
     -   <img alt="" src=images/Std_ViewIvStereoOff.svg  style="width:32px;"> [Stereo off](Std_ViewIvStereoOff/it.md): disattiva la vista stereo.
-    -   <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:32px;"> _ e nella [console Python](Python_console/it.md).
+    -   <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:32px;"> [Pubblica la posizione della camera](Std_ViewIvIssueCamPos/it.md): stampa le impostazioni della fotocamera nella [vista Report](Report_view/it.md) e nella [console Python](Python_console/it.md).
 
 -   Zoom
     -   <img alt="" src=images/Std_ViewZoomIn.svg  style="width:32px;"> [Ingrandisci](Std_ViewZoomIn/it.md): ingrandisce la vista.
@@ -115,7 +115,7 @@ In questo menu sono disponibili i seguenti strumenti:
 
 <div class="mw-translate-fuzzy">
 
--   _ e [Vista texture](Draft_Rectangle/it.md)
+-   [Mappa una trama\...](Std_TextureMapping/it.md): mappa temporaneamente una trama su tutti gli oggetti. Vedere anche [Macro per mappare immagine](Macro_Texture_Objects/it.md) e [Vista texture](Draft_Rectangle/it.md)
 
 
 </div>
@@ -164,7 +164,7 @@ In questo menu sono disponibili i seguenti strumenti:
 
 </div>
 
--   _ installato nel sistema.
+-   [Ambiente](Std_Workbench/it.md): seleziona nel sottomenu uno degli ambienti di lavoro di base, oppure un [ambiente esterno](external_workbenches/it.md) installato nel sistema.
 
 -   Barre degli strumenti **Ogni barra degli strumenti può essere attivata o disattivata nel sottomenu. Alcuni ambienti di lavoro aggiungono delle proprie barre degli strumenti.**
     -   File
@@ -183,7 +183,7 @@ In questo menu sono disponibili i seguenti strumenti:
     -   [Vista DAG](DAG_view/it.md)
 
 -   Azioni della vista ad albero
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> _. {{Version/it|0.19}}
+    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sincronizza la vista](Std_TreeSyncView/it.md): attiva o disattiva la modalità Sincronizza la vista della [vista ad albero](Tree_view/it.md). {{Version/it|0.19}}
     -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sincronizza la selezione](Std_TreeSyncSelection/it.md): attiva o disattiva la modalità Sincronizza la selezione della vista ad albero. {{Version/it|0.19}}
     -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sincronizza la posizione](Std_TreeSyncPlacement/it.md): attiva o disattiva la modalità Sincronizza la posizione della vista ad albero. {{Version/it|0.19}}
     -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Pre-selezione](Std_TreePreSelection/it.md): attiva o disattiva la modalità di preselezione della vista ad albero. {{Version/it|0.19}}
@@ -194,7 +194,7 @@ In questo menu sono disponibili i seguenti strumenti:
     -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Avvia il trascinamento](Std_TreeDrag/it.md): avvia un\'operazione di trascinamento per gli oggetti selezionati nella vista ad albero. {{Version/it|0.19}}
     -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Vai alla selezione](Std_TreeSelection/it.md): scorre la vista ad albero fino al primo oggetto creato in una selezione della vista 3D. {{Version/it|0.19}}
 
--   _.
+-   [Barra di stato](Std_ViewStatusBar/it.md): attiva o disattiva la visualizzazione della [Barra di stato](Status_bar/it.md).
 
 
 
@@ -204,7 +204,7 @@ In questo menu sono disponibili i seguenti strumenti:
 
 }}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std View Menu/it

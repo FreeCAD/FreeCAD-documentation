@@ -13,7 +13,7 @@
 
 The <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:24px;"> [ProjectionGroup](TechDraw_ProjectionGroup.md) tool creates a [multiview projection](https://en.wikipedia.org/wiki/Multiview_projection) of one or more 3D objects. The isometric views of the 4 front corners can also be included.
 
-If you only want to produce a single view, there is no advantage in using ProjectionGroup; you should then use _) instead of *ProjectionGroup*.
+If you only want to produce a single view, there is no advantage in using ProjectionGroup; you should then use [Insert View](TechDraw_View.md) instead. If you do not wish to use the traditional [first-](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#First-angle_projection) / [third-angle projection](https://en.wikipedia.org/wiki/Multiview_orthographic_projection#Third-angle_projection), you should use multiple *Views* ([Insert View](TechDraw_View.md)) instead of *ProjectionGroup*.
 
 <img alt="" src=images/TechDraw_ProjGroup_example.png  style="width:400px;"> 
 *Three orthogonal views and one isometric view of a solid object*

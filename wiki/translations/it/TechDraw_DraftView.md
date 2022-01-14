@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> _, le viste create con questo strumento sono gestite da <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md), e appositamente progettato per mostrare oggetti 2D. Vedere le note.
+Lo strumento <img alt="" src=images/TechDraw_DraftView.svg  style="width:24px;"> [Vista di Draft](TechDraw_DraftView/it.md) inserisce in una pagina di disegno una vista di un oggetto basato su [Part](Part_Workbench/it.md) selezionato o di un gruppo. A differenza dello strumento standard <img alt="" src=images/TechDraw_View.svg  style="width:24px;"> [Vista](TechDraw_View/it.md), le viste create con questo strumento sono gestite da <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/it.md), e appositamente progettato per mostrare oggetti 2D. Vedere le note.
 
 
 </div>

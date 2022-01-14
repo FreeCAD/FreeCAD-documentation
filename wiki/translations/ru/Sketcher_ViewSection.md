@@ -21,7 +21,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   Нажать кнопку **<img src=images/Sketcher_ViewSection.svg style="width:24px"> '''Обзор сечения'''** для переключением между сечением и полным видом.
+-   Нажать кнопку **[<img src=images/Sketcher_ViewSection.svg style="width:24px"> '''Обзор сечения'''** для переключением между сечением и полным видом.
 
 
 </div>

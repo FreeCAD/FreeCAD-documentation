@@ -272,7 +272,7 @@ Gira un croquis alrededor de un eje un cierto ángulo.
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign project/es

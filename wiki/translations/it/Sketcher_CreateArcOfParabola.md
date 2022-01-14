@@ -25,7 +25,7 @@ Questo strumento crea un arco di parabola da fuoco, vertice e punti finali.
 
 <div class="mw-translate-fuzzy">
 
-1.  Premere il pulsante **<img src=images/Sketcher_Parabolic_Arc.png style="width:24px"> '''Arco di parabola'''**.
+1.  Premere il pulsante **[<img src=images/Sketcher_Parabolic_Arc.png style="width:24px"> '''Arco di parabola'''**.
 2.  Fare clic nella vista 3D per definire il punto di fuoco (etichettato 1 nella figura sopra).
 3.  Fare clic nella vista 3D per definire la punta dell\'arco di iperbole (etichettata 2 nella figura sopra).
 4.  Fare clic nella vista 3D per definire il primo punto finale (etichettato 3 nella figura sopra).

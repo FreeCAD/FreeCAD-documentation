@@ -14,7 +14,7 @@ The EM (ElectroMagnetic) Workbench provides the CAD front-end interface to some 
 
 <div class="mw-translate-fuzzy">
 
-_. Questo può essere fatto tramite il menu **Strumenti → Addon Manager**.
+[EM](EM_Workbench/it.md) è un [ambiente esterno](external_workbenches/it.md), che può essere installato da <img alt="" src=images/AddonManager.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md). Questo può essere fatto tramite il menu **Strumenti → Addon Manager**.
 
 
 </div>
@@ -74,7 +74,7 @@ Per le versioni beta di EM Workbench sono disponibili alcune esercitazioni video
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > EM Workbench/it

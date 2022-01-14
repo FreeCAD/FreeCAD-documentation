@@ -23,7 +23,7 @@ Questa è la prima parte del tutorial. Usa il flusso di lavoro che può essere c
 
 Ovviamente, per seguire questo tutorial è necessario attivare l\'ambiente PartDesign.
 
-~~Potete trovare la versione di Jrheinlaender (l\'autore di questo articolo) della parte creata con questo tutorial a _.~~ \'\' Il file non è più disponibile, ne verrà fornito uno nuovo in un secondo momento \'\'.
+~~Potete trovare la versione di Jrheinlaender (l\'autore di questo articolo) della parte creata con questo tutorial a [http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa questo link](http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa_questo_link.md).~~ \'\' Il file non è più disponibile, ne verrà fornito uno nuovo in un secondo momento \'\'.
 
 ## Dati di progetto 
 
@@ -111,7 +111,7 @@ Abbiamo modellato la parte superiore del supporto per cuscinetto con le dimensio
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/it

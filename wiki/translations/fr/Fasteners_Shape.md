@@ -30,7 +30,7 @@ La commande <img alt="" src=images/Fasteners_Shape.svg  style="width:24px;"> **F
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Fasteners Shape/fr

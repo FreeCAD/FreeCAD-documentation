@@ -20,9 +20,9 @@ Fixe la distance verticale entre 2 points ou extrémités de lignes. Si un seul 
 
 1.  Choisissez un ou deux points ou une ligne.
 2.  Appelez l\'outil de plusieurs manières:
-    -   Appuyez sur le bouton **<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Fixer la distance verticale...](Sketcher_ConstrainDistanceY/fr.md)** dans la barre d\'outils.
+    -   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Fixer la distance verticale...](Sketcher_ConstrainDistanceY/fr.md)** dans la barre d\'outils.
     -   Utilisez le raccourci clavier **Maj** + **V**. (**V** est pour **V**ertical)
-    -   Utilisez **Sketch → Contraintes d'esquisse → <img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> Contrainte distance verticale** dans le menu supérieur.
+    -   Utilisez **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> Contrainte distance verticale** dans le menu supérieur.
 3.  Une boîte de dialogue contextuelle s\'ouvre pour modifier ou confirmer la valeur. Appuyez sur **OK** pour valider.
 
 **Remarque :** l\'outil de contrainte peut également être démarré sans sélection préalable, mais nécessitera la sélection de 2 points ou d\'une ligne. Pour définir une distance par rapport à l\'origine, le point d\'origine de l\'esquisse devra également être sélectionné. Par défaut, la commande sera en mode continu afin de créer de nouvelles contraintes; appuyez sur le bouton droit de la souris ou sur **ÉCHAP** pour quitter la commande.

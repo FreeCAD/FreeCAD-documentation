@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Arch_Axis.svg  style="width:16px;"> Assi permette di posizionare una serie di assi nel documento corrente. La distanza e l\'angolo tra gli assi è personalizzabile, così come lo stile di numerazione. Gli assi servono principalmente da riferimento per bloccare gli oggetti, ma possono anche essere utilizzati in combinazione con dei <img alt="" src=images/Arch_Axis_System.svg  style="width:16px;"> _.
+Lo strumento <img alt="" src=images/Arch_Axis.svg  style="width:16px;"> Assi permette di posizionare una serie di assi nel documento corrente. La distanza e l\'angolo tra gli assi è personalizzabile, così come lo stile di numerazione. Gli assi servono principalmente da riferimento per bloccare gli oggetti, ma possono anche essere utilizzati in combinazione con dei <img alt="" src=images/Arch_Axis_System.svg  style="width:16px;"> [Sistemi di assi](Arch_AxisSystem/it.md), e possono anche essere referenziati da altri oggetti Arch per creare schiere parametriche, ad esempio di travi o colonne. Al posto degli assi si può anche usare una <img alt="" src=images/Arch_Grid.svg  style="width:16px;"> [Griglia](Arch_Grid/it.md).
 
 
 </div>

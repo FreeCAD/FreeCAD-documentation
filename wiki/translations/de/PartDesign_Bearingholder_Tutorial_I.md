@@ -21,7 +21,7 @@ Dies ist der erste Teil des Tutoriums. Es wird der so genannte \"Ein Körper\" A
 
 Um dieses Tutorium durcharbeiten zu können musst du offensichtlich den PartDesign Arbeitsbereich aktivieren.
 
-~~Du findest meine Version des von diesem Tutorium erstellten Teils _.~~ *Die Datei ist nicht mehr verfügbar, eine neue wird zu einem späteren Zeitpunkt bereitgestellt werden*.
+~~Du findest meine Version des von diesem Tutorium erstellten Teils [http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa hier](http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa_hier.md).~~ *Die Datei ist nicht mehr verfügbar, eine neue wird zu einem späteren Zeitpunkt bereitgestellt werden*.
 
 ## Konstruktionsdaten
 
@@ -109,7 +109,7 @@ Wir haben die Oberseite des Lagergehäuses mit den Abmessungen modelliert, die e
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/de

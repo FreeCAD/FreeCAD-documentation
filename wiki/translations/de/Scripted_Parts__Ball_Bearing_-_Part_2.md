@@ -70,7 +70,7 @@ Also benutzen wir dieselbe Methode wie in Teil 1.
 
 [Skriptgenerierte Objekte](Scripted_objects/de.md): Diese Wiki-Seite erklärt die Grundlagen für part scripting
 [Topologisches Datenskripten](Topological_data_scripting/de.md): Ein Tutorial für die Grundlagen des part scriptings
-_: Erstellen des Modelles mittels Grundkörpern
+[Skriptgenerierte Teile: Kugellager - Teil 1](Scripted_Parts:_Ball_Bearing_-_Part_1/de.md): Erstellen des Modelles mittels Grundkörpern
 [Bearings from scripted sketches](http://linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html): Basis für dieses Tutorial, vielen Dank an JMG \...
 
 ### Code
@@ -176,7 +176,7 @@ Gui.SendMsgToActiveView("ViewFit")
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripted Parts: Ball Bearing - Part 2/de

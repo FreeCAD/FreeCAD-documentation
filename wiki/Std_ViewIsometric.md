@@ -11,7 +11,7 @@
 
 ## Description
 
-The **Std ViewIsometric** command realigns the camera in the active _, but the command also works if the view is in [perspective mode](Std_PerspectiveCamera.md).
+The **Std ViewIsometric** command realigns the camera in the active [3D view](3D_view.md) to obtain an [isometric](https://en.wikipedia.org/wiki/Isometric_projection) view. For a truly isometric view the 3D view must be in [orthographic mode](Std_OrthographicCamera.md), but the command also works if the view is in [perspective mode](Std_PerspectiveCamera.md).
 
  ![](images/Std_ViewIsometric_example.svg )  
 *The [axis cross](Std_AxisCross.md) and a cube in isometric view*

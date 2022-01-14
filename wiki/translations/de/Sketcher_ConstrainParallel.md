@@ -28,7 +28,7 @@ Die Skizze enthält zwei zufällig ausgerichtete Linien.
 
 Wende die Beschränke Parallelbeschränkung entweder durch:
 
--   Drücken der **<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Parallel beschränken](Sketcher_ConstrainParallel.md)** Schaltfläche in der Skizzierer Beschränkungen Werkzeugleiste, durch Wahl des Beschränkung Parallel Menüelements im Skizzierer Beschränkungen Untermenü des Skizzierers (Skizzierer Arbeitsbereich ausgewählt) oder Part Design (Part Design Arbeitsbereich ausgewählt) Menüelements.
+-   Drücken der **[<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Parallel beschränken](Sketcher_ConstrainParallel.md)** Schaltfläche in der Skizzierer Beschränkungen Werkzeugleiste, durch Wahl des Beschränkung Parallel Menüelements im Skizzierer Beschränkungen Untermenü des Skizzierers (Skizzierer Arbeitsbereich ausgewählt) oder Part Design (Part Design Arbeitsbereich ausgewählt) Menüelements.
 -   Verwende das Tastaturkürzel **Umschalt** + **P**.
 -   Verwende den {{MenuCommand/de|Skizze → Skizzierer Beschränkungen → Parallel beschränken}} Eintrag aus dem oberen Menü.
 

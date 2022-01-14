@@ -16,7 +16,7 @@ The <img alt="" src=images/Design456_SplitObject.svg  style="width:24px;"> **Des
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Design456_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
+1.  Switch to the <img alt="" src=images/Design456_workbench_icon.svg  style="width:24px;"> [Design456](Design456_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
 2.  Select a 3D object
 3.  Press the <img alt="" src=images/Design456_SplitObject.svg  style="width:24px;"> button. Split Object command. Further option will appear in the left.
 4.  Choose the position of the split and press **OK**
@@ -42,7 +42,7 @@ Works on 3D objects.
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Design456 SplitObject

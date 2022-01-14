@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Questa funzione esegue la macro selezionata o attiva nell\'editor. E\' accessibili tramite **Macro → Esegui la macro**, oppure tramite il pulsante **<img src=images/Std_DlgMacroExecute.png style="width:16px"> Esegui la macro** della barra degli strumenti delle macro <img alt="" src=images/Macros_toolbar.jpg  style="width:" height="24px;">.
+Questa funzione esegue la macro selezionata o attiva nell\'editor. E\' accessibili tramite **Macro → Esegui la macro**, oppure tramite il pulsante **[<img src=images/Std_DlgMacroExecute.png style="width:16px"> Esegui la macro** della barra degli strumenti delle macro <img alt="" src=images/Macros_toolbar.jpg  style="width:" height="24px;">.
 
 
 </div>
@@ -35,7 +35,7 @@ Questa funzione esegue la macro selezionata o attiva nell\'editor. E\' accessibi
 
 <div class="mw-translate-fuzzy">
 
-Quando si entra in **<img src=images/Std_DlgMacroExecuteDirect.png style="width:16px"> <img src=images/Std_DlgMacroExecute.png style="width:Editor della macro](Std_DlgMacroExecuteDirect/it.md)**, il pulsante **[16px"> Esegui la macro** assume il colore verde <img alt="" src=images/Menu_Std_DlgMacroExecute_fr_02.png  style="width:16px;">. Fare clic su questo pulsante per eseguire la macro.
+Quando si entra in **[<img src=images/Std_DlgMacroExecuteDirect.png style="width:16px"> [Editor della macro](Std_DlgMacroExecuteDirect/it.md)**, il pulsante **[<img src=images/Std_DlgMacroExecute.png style="width:16px"> Esegui la macro** assume il colore verde <img alt="" src=images/Menu_Std_DlgMacroExecute_fr_02.png  style="width:16px;">. Fare clic su questo pulsante per eseguire la macro.
 
 
 </div>

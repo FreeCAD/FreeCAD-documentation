@@ -3,7 +3,7 @@
 |Topic=Beispielthema
 |Level=Anfänger
 |Time=5 Minuten
-|Author=_
+|Author=[Mario52](User_Mario52.md)
 |FCVersion=Alle
 }}
 
@@ -79,7 +79,7 @@ Dieses Tutorium zeigt dir die Anpassung von Werkzeugleisten. Werkzeuge (einschli
 
 -   Wähle die Registerkarte **Werkzeugleisten** und wähle den Arbeitbereich (für den die Werkzeugleiste vorgesehen ist) in der Aufklappliste auf der rechten Seite (**Teil** in diesem Beispiel).
 
-        \<img src=images/Freecad.svg style="width:Seit Version 0.15 gibt es einen Arbeitsbereich  **[16px"> Global**  Werkzeugleiste. Wenn dies ausgewählt wird, befindet sich die bereitgestellte Werkzeugleiste in jedem Arbeitsbereich.\]
+        \[Seit Version 0.15 gibt es einen Arbeitsbereich  **[<img src=images/Freecad.svg style="width:16px"> Global**  Werkzeugleiste. Wenn dies ausgewählt wird, befindet sich die bereitgestellte Werkzeugleiste in jedem Arbeitsbereich.\]
 
 <img alt="Werkzeugleistenreiter" src=images/CustomizeToolBar_11.png  style="width:640px;"> 
 
@@ -121,7 +121,7 @@ Siehe auch [Anpassung der Oberfläche](Interface_Customization/de.md).
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/de

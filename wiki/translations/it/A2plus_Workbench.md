@@ -195,7 +195,7 @@ A volte è necessario avere l\'intero assemblaggio combinato in una unica forma.
 
 ### Convertire i percorsi assoluti in relativi 
 
-Con il menu **A2plus → Misc → <img src=images/A2p_SetRelativePathes.svg style="width:24px"> Convert absolute paths of imported parts to relative ones** si possono convertire i percorsi assoluti delle parti importate in quelli relativi.
+Con il menu **A2plus → Misc → [<img src=images/A2p_SetRelativePathes.svg style="width:24px"> Convert absolute paths of imported parts to relative ones** si possono convertire i percorsi assoluti delle parti importate in quelli relativi.
 
 ## Preferenze
 
@@ -257,7 +257,7 @@ Do not import invisible shapes : Questo nasconde le forme di costruzione o di ri
 
 
 Use solid union for importing parts and subassemblies : Tutte le parti importate vengono create direttamente come unione.
-Questa funzione è utile per le _ se è consentito un solo solido. L\'alternativa è creare in seguito una [Forma dell\'intero assemblaggio](A2plus_Workbench/it#Forma_dell.27intero_assemblaggio.md).
+Questa funzione è utile per le [FEM](FEM_Workbench/it.md) o per la [stampa 3D](Manual:Preparing_models_for_3D_printing/it.md) se è consentito un solo solido. L\'alternativa è creare in seguito una [Forma dell\'intero assemblaggio](A2plus_Workbench/it#Forma_dell.27intero_assemblaggio.md).
 
 
 </div>
@@ -306,7 +306,7 @@ In alcuni casi, il risolutore necessita solo di valori di avvio migliori per ris
 
 Se dopo l\'importazione in un assieme di A2plus mancano alcune funzioni della parte, controllare la proprietà **[Tip - Entità finale](PartDesign_MoveTip/it.md)**.
 
-A2plus importa i corpi delle parti con tutte le loro funzioni fino alla funzione finale, la funzione Tip. Questo è sensato perché impostare la funzione finale su una determinata funzione significa che tutte le funzioni sottostanti la funzione finale non dovrebbero apparire nell\'entità finale. Quindi se in A2plus si perde una parte di funzioni, aprire la parte tramite il pulsante <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">, selezionare un corpo e guardare la sua proprietà **Tip**. Se l\'entità finale non è nella funzione in cui la si desidera, fare clic con il pulsante destro del mouse sulla funzione in cui dovrebbe trovarsi e scegliere **<img src=images/PartDesign_MoveTip.png style="width:24px"> Set tip**. Infine salvare la parte e ricaricare l\'assieme usando il pulsante <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">.
+A2plus importa i corpi delle parti con tutte le loro funzioni fino alla funzione finale, la funzione Tip. Questo è sensato perché impostare la funzione finale su una determinata funzione significa che tutte le funzioni sottostanti la funzione finale non dovrebbero apparire nell\'entità finale. Quindi se in A2plus si perde una parte di funzioni, aprire la parte tramite il pulsante <img alt="" src=images/A2p_EditPart.svg  style="width:24px;">, selezionare un corpo e guardare la sua proprietà **Tip**. Se l\'entità finale non è nella funzione in cui la si desidera, fare clic con il pulsante destro del mouse sulla funzione in cui dovrebbe trovarsi e scegliere **[<img src=images/PartDesign_MoveTip.png style="width:24px"> Set tip**. Infine salvare la parte e ricaricare l\'assieme usando il pulsante <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">.
 
 ### Riparare l\'albero dell\'assieme 
 
@@ -314,7 +314,7 @@ Se non si riesce a trovare una ragione chiara per cui alcuni vincoli non possono
 
 ### Migrare vecchi assemblaggi A2plus 
 
-Assemblaggi creati con versioni di A2plus precedenti marzo 2019 non mostrano le icone corrette per le parti importate e hanno propietà obsolete. Questi assemblaggi devono essere migrati ad A2plus versione 0.4.35 o superiore usando il menù **A2plus → Misc → <img src=images/A2p_Upgrade.svg style="width:24px"> Migrate proxies of imported parts**. Dopo aver fatto ciò, si può salvare e riaprire il file d\'assemblaggio.
+Assemblaggi creati con versioni di A2plus precedenti marzo 2019 non mostrano le icone corrette per le parti importate e hanno propietà obsolete. Questi assemblaggi devono essere migrati ad A2plus versione 0.4.35 o superiore usando il menù **A2plus → Misc → [<img src=images/A2p_Upgrade.svg style="width:24px"> Migrate proxies of imported parts**. Dopo aver fatto ciò, si può salvare e riaprire il file d\'assemblaggio.
 
 ### Evitare i caratteri accentati 
 
@@ -640,7 +640,7 @@ This is an A2plus-specific command. It solves the assembly constraints of the as
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > A2plus Workbench/it

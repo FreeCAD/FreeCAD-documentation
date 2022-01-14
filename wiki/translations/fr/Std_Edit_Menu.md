@@ -53,19 +53,19 @@ Les outils suivants sont disponibles dans ce menu :
 
 -   <img alt="" src=images/Std_Delete.svg  style="width:32px;"> [Effacer](Std_Delete/fr.md) : efface les objets sélectionnés.
 
--   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> _ référençant un objet. {{Version/fr|0.19}}
+-   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [Variable dans Python](Std_SendToPythonConsole/fr.md) : crée des variables dans la [console Python](Python_console/fr.md) référençant un objet. {{Version/fr|0.19}}
 
 -   <img alt="" src=images/Std_Placement.svg  style="width:32px;"> [Positionnement\...](Std_Placement/fr.md) : ouvre le panneau des tâches Placement d\'un objet.
 
--   <img alt="" src=images/Std_TransformManip.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Std_TransformManip.svg  style="width:32px;"> [Transformation](Std_TransformManip/fr.md) : Transforme un objet dans la [Vue 3D](3D_view/fr.md).
 
 -   <img alt="" src=images/Std_Alignment.svg  style="width:32px;"> [Alignement\...](Std_Alignment/fr.md) : aligne un objet par rapport à un objet de référence fixe.
 
 -   <img alt="" src=images/Std_Edit.svg  style="width:32px;"> [Basculer le mode édition](Std_Edit/fr.md) : active ou désactive le mode d\'édition d\'un objet.
 
--   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> _. {{Version/fr|0.20}}
+-   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> [Mode d\'édition](Std_UserEditMode/fr.md) : Définit le mode d\'édition à utiliser lorsqu\'un objet est double-cliqué dans la [Vue en arborescence](Tree_view/fr.md). {{Version/fr|0.20}}
 
--   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> _. 
+-   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Préférences](Std_DlgPreferences/fr.md) : ouvre l\'[Éditeur de préférences](Preferences_Editor/fr.md). 
 **-- sous MacOS, cette option de menu peut se situer dans le menu FreeCAD au lieu du menu Édition.**
 
 
@@ -76,7 +76,7 @@ Les outils suivants sont disponibles dans ce menu :
 
 }}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Edit Menu/fr

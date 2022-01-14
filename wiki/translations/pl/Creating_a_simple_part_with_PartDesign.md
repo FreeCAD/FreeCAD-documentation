@@ -24,7 +24,7 @@ Ten samouczek ma na celu nauczenie początkujących użytkowników FreeCAD kilku
 
 ### Używanie [Środowiska pracy Part Design](PartDesign_Workbench/pl.md), rysowanie szkicu 
 
-Stwórz nowy dokument i wybierz Środowisko pracy **<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design'''** używając [okienka wyboru](Getting_started/pl#Poznawaj_interfejs_użytkownika.md) *(numer 10 na obrazku)* lub przez menu *Widok → Środowiska pracy*. FreeCAD uruchamia się z paskami narzędzi u góry, \"widokiem łączonym\" po lewej, i widokiem 3d po prawej.
+Stwórz nowy dokument i wybierz Środowisko pracy **[<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design'''** używając [okienka wyboru](Getting_started/pl#Poznawaj_interfejs_użytkownika.md) *(numer 10 na obrazku)* lub przez menu *Widok → Środowiska pracy*. FreeCAD uruchamia się z paskami narzędzi u góry, \"widokiem łączonym\" po lewej, i widokiem 3d po prawej.
 
 **Tworzenie nowej bryły (body):**
 
@@ -118,7 +118,7 @@ Jeśli Twój szkic nie jest jeszcze prezentowany w kolorze zielonym, oznacza to,
 
 Czynności należy przeprowadzić w ten sam sposób w odniesieniu do wszystkich punktów.
 
-Jeśli Twój szkic nadal nie jest wyświetlany na zielono, sprawdź, czy wszystkie linie *(z wyjątkiem ukośnej)* mają zdefiniowane albo <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> _. W razie potrzeby dodaj je.
+Jeśli Twój szkic nadal nie jest wyświetlany na zielono, sprawdź, czy wszystkie linie *(z wyjątkiem ukośnej)* mają zdefiniowane albo <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [wiązania poziome](Sketcher_ConstrainHorizontal/pl.md) lub <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [wiązania pionowe](Sketcher_ConstrainVertical/pl.md). W razie potrzeby dodaj je.
 
 ### Używanie funkcji wyciągnięcia i kieszeni 
 

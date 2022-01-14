@@ -42,7 +42,7 @@ Jednak po załadowaniu dowolnego [Środowiska pracy](Workbenches.md), istnieją 
 
 -    **[Styl rysowania](Std_DrawStyle.md)**: tak jak jest, linie płaskie, zacieniony, szkielet, punkty, ukryta linia, brak zacienienia.
 
--    **_, [Widok z przodu](Std_ViewFront.md), [Widok z góry](Std_ViewTop.md), [Widok z prawej](Std_ViewRight.md), [Widok z tyłu](Std_ViewRear.md), [Widok z góry](Std_ViewBottom.md), [Widok z lewej](Std_ViewLeft.md), [Obróć w lewo](Std_ViewRotateLeft.md), [Obróć w prawo](Std_ViewRotateRight.md).
+-    **[Standard views](Std_View_Menu.md)**: [Ustaw widok izometryczny](Std_ViewIsometric.md), [Widok z przodu](Std_ViewFront.md), [Widok z góry](Std_ViewTop.md), [Widok z prawej](Std_ViewRight.md), [Widok z tyłu](Std_ViewRear.md), [Widok z góry](Std_ViewBottom.md), [Widok z lewej](Std_ViewLeft.md), [Obróć w lewo](Std_ViewRotateLeft.md), [Obróć w prawo](Std_ViewRotateRight.md).
 
 -    **Pomiar odległości**: [Przełącz pomiar](View_Measure_Toggle_All.md), [usuń poomiary](View_Measure_Clear_All.md).
 
@@ -56,11 +56,11 @@ Na przykład, w odniesieniu do [Part](Part_Workbench.md) i wybranego pojedynczeg
 
 -    **[Pokaż / ukryj](Std_ToggleVisibility.md)**: sprawia, że obiekt jest widoczny lub niewidoczny w oknie widoku 3D.
 
--    **_.
+-    **[Przełącznik wyboru](Std_ToggleSelectability.md)**: sprawia, że obiekt nie może być dłużej zaznaczony w widoku 3D; użyj ponownie tego polecenia, aby anulować jego efekt. Pozwala przełączyć obiekt `Selectable` w przełaczając atrybuty na wartość `True` lub `False`. Zmień właściwość przez przełączanie **koloru kształtu** w [edytorze właściwości](property_editor.md).
 
--    **_ aby wyświetlić wybrany obiekt w hierarchii.
+-    **[Przełącz aktywną zawartość](Std_TreeSelection.md)**: rozwiń [widok drzewa](tree_view.md) aby wyświetlić wybrany obiekt w hierarchii.
 
--    **_.
+-    **[Kolor losowy](Std_RandomColor.md)**: przypisuje obiektowi losowy kolor. Ustawia barwę obiektu. `Kolor kształtu` jest atrybutem złożonym `(r,g,b)` z drzewem o losowo wybranych wartościach pomiędzy 0 i 1. Zmień właściwość modyfikując **kolor kształtu** w [edytorze właściwości](property_editor.md).
 
 -    **[Usuń](Std_Delete.md)**: usuwa obiekt z dokumentu, a także z widoku 3D, wywołując funkcję `removeObject()`.
 

@@ -25,7 +25,7 @@ Questo strumento disegna un arco di ellisse selezionando quattro punti: il centr
 
 <div class="mw-translate-fuzzy">
 
--   Premere il pulsante **<img src=images/Sketcher_CreateArcOfEllipse.png style="width:24px"> '''arco di ellisse'''**.
+-   Premere il pulsante **[<img src=images/Sketcher_CreateArcOfEllipse.png style="width:24px"> '''arco di ellisse'''**.
 -   Il primo clic nella vista 3D imposta il centro dell\'ellisse. Il secondo clic imposta il primo raggio e l\'orientamento dell\'ellisse. Il terzo clic imposta l\'altro raggio e il punto iniziale dell\'arco. Il quarto clic imposta il punto finale dell\'arco.
 -   Dopo il quarto clic, viene creata l\'ellisse, insieme ad una serie di geometrie di costruzione allineate ad essa (diametro maggiore, diametro minore, due fuochi). La geometria di costruzione può essere cancellata manualmente se non è necessaria, e ricreata in seguito. Vedere [Vincoli di allineamento interni](Sketcher_ConstrainInternalAlignment/it.md) e [Mostra/Nascondi la geometria interna](Sketcher_RestoreInternalAlignmentGeometry/it.md).
 -   Premere **Esc** o cliccare sul tasto destro del mouse per annullare la funzione.

@@ -22,7 +22,7 @@ Nach der Auswahl zweier Punkte (Scheitelpunkte) und einer Linie in der Skizze we
 
 <img alt="" src=images/SymmetricConstraint2.png  style="width:500px;">
 
-Klicke auf **<img src=images/Sketcher_ConstrainSymmetric.svg style="width:16px"> [[Sketcher_ConstrainSymmetric/de|
+Klicke auf **[<img src=images/Sketcher_ConstrainSymmetric.svg style="width:16px"> [[Sketcher_ConstrainSymmetric/de|
 Beschränke Symmetrisch]]** oder wähle den Menüpunkt Symmetrisch beschränken aus dem Untermenü Skizzierer Beschränkungen des Menübefehls Skizzierer (oder Part Design).
 
 Dadurch wird die Beschränkung auf die ausgewählten Elemente angewendet.

@@ -39,7 +39,7 @@ Inserire qui una breve descrizione di cosa fa il comando.
 
 </div>
 
-Remember to use _, _, _ and _ when applicable.
+Remember to use [Template:Version](Template_Version.md), [Template:VersionMinus](Template_VersionMinus.md), [Template:VersionPlus](Template_VersionPlus.md) and [Template:Obsolete](Template_Obsolete.md) when applicable.
 
 For example: The feature to utilize `App::Link` <small>(v0.19)</small>  allows linking between sub-assemblies etc\...
 
@@ -76,7 +76,7 @@ Chiudere e riaprire i tag di traduzione prima e dopo le immagini e gli altri ele
 
 <div class="mw-translate-fuzzy">
 
-1.  Premere il pulsante **<img src=images/Std_Close.png style="width:16px"> [Nome del comando](GuiCommand_model/it.md)**. Il pulsante deve essere un collegamento a questo comando.
+1.  Premere il pulsante **[<img src=images/Std_Close.png style="width:16px"> [Nome del comando](GuiCommand_model/it.md)**. Il pulsante deve essere un collegamento a questo comando.
 2.  Descrivere i passaggi necessari.
 3.  Impostare le opzioni e premere **OK**.
 
@@ -301,7 +301,7 @@ Optional.
 
 == Scripting ==
 
-See also: _.
+See also: [FreeCAD Scripting Basics](:<img src="images/Property.png" style="width:16px"> API]] and [[FreeCAD_Scripting_Basics.md).
 
 The ExampleCommandModel tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
@@ -342,7 +342,7 @@ Optional.
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Wiki:Example](<img src="images/Property.png" style="width:16px"> Wiki_Example.md)
 
 ---
 [documentation index](../README.md) > [API]] and ](Category_API]] and .md) > GuiCommand model/it

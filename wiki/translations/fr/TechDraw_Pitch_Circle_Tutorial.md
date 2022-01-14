@@ -9,7 +9,7 @@
 
 ## Introduction
 
-Ce tutoriel explique comment ajouter un cercle imaginaire à une vue <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> _ avec au moins trois trous dans un motif circulaire. Pour le cercle, une esquisse distincte sera créée. Une procédure similaire peut être utilisée dans d\'autres situations et pour ajouter d\'autres éléments de type annotation aux vues [TechDraw](TechDraw_Workbench/fr.md).
+Ce tutoriel explique comment ajouter un cercle imaginaire à une vue <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/fr.md). Il suppose que le modèle est un <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Corps](PartDesign_Body/fr.md) avec au moins trois trous dans un motif circulaire. Pour le cercle, une esquisse distincte sera créée. Une procédure similaire peut être utilisée dans d\'autres situations et pour ajouter d\'autres éléments de type annotation aux vues [TechDraw](TechDraw_Workbench/fr.md).
 
 <img alt="" src=images/Circle.png  style="width:250px;"> <img alt="" src=images/Pitch_Circle.png  style="width:300px;">
 

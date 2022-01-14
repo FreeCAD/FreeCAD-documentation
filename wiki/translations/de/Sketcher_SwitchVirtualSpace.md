@@ -18,12 +18,12 @@ Der FreeCAD Skizzierer verfügt über zwei virtuelle Räume, in denen Beschränk
 Um Beschränkungen in den anderen virtuellen Raum zu verlagern:
 
 1.  Wähle die Beschränkungen aus, die du verschieben möchtest.
-2.  Drücke die **<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px">  [Virtuellen Raum wechseln](Sketcher_SwitchVirtualSpace/de.md)** Schaltfläche.
+2.  Drücke die **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px">  [Virtuellen Raum wechseln](Sketcher_SwitchVirtualSpace/de.md)** Schaltfläche.
 
 Zum Wechseln des virtuellen Raums:
 
 1.  Stelle sicher, dass du keine Beschränkung ausgewählt hast.
-2.  Drücke die **<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px">  [Virtuellen Raum wechseln](Sketcher_SwitchVirtualSpace/de.md)** Schaltfläche.
+2.  Drücke die **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px">  [Virtuellen Raum wechseln](Sketcher_SwitchVirtualSpace/de.md)** Schaltfläche.
 
 
 **Hinweis:**

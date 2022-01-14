@@ -12,7 +12,7 @@
 
 ## Beschreibung
 
-Draft SVG ist ein Softwaremodul, das von den <img alt="" src=images/Std_Open.svg  style="width:24px;"> _ und <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Export](Std_Export/de.md) Befehlen verwendet wird, um das [SVG](SVG/de.md) Dateiformat handzuhaben.
+Draft SVG ist ein Softwaremodul, das von den <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Öffnen](Std_Open/de.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Import](Std_Import/de.md) und <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Export](Std_Export/de.md) Befehlen verwendet wird, um das [SVG](SVG/de.md) Dateiformat handzuhaben.
 
 ![](images/Screenshot_inkscape.jpg ) 
 *Inkscape Zeichnung in SVG exportiert, die anschließend in FreeCAD geöffnet wird*
@@ -136,7 +136,7 @@ importSVG.export(objects, "/home/user/Pictures/myfile.svg")
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> File Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft SVG/de

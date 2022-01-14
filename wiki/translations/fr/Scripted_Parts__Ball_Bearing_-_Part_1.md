@@ -43,13 +43,13 @@ Par conséquent, nous devons sélectionner les arrêtes AVANT de créer la rainu
 ### Notes
 
 Ce tutoriel utilise des primitives Part et des opérations booléennes, ce qui peut nécessiter de la puissance de calcul.
-Pour faire une pièce \"scriptée\" avec des esquisses de révolution, consultez le didacticiel _.
+Pour faire une pièce \"scriptée\" avec des esquisses de révolution, consultez le didacticiel [Scripted Parts: Ball Bearing - Part 2](Scripted_Parts:_Ball_Bearing_-_Part_2.md).
 
 ### Liens
 
 [Objets créés par script](Scripted_objects/fr.md) : La page wiki expliquant les bases du langage de script
 [Scripts pour création topologique](Topological_data_scripting/fr.md) : Un tutoriel qui couvre les bases de la création de scripts
-_ : Le faire avec des esquisses
+[Objets scriptés \"Part\" : Roulement à billes - Partie 2](Scripted_Parts:_Ball_Bearing_-_Part_2/fr.md) : Le faire avec des esquisses
 [Bearing Script 1](http://linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html) : Base utilisée pour ce tutoriel, grâce à JMG \...
 
 ### Code
@@ -141,7 +141,7 @@ Gui.SendMsgToActiveView("ViewFit")
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripted Parts: Ball Bearing - Part 1/fr

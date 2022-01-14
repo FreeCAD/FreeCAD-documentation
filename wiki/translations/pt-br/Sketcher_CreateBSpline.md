@@ -18,7 +18,7 @@ This tool creates B-Spline curve from its control points. (See [this page](B-Spl
 
 ## Usage
 
-1.  Press the **<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Create B-Spline](Sketcher_CreateBSpline.md)** button.
+1.  Press the **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Create B-Spline](Sketcher_CreateBSpline.md)** button.
 2.  Create a series of points by clicking in the 3D view. While the command is active, the created points are connected with straight lines, and a construction circle is created centred on each point.
 3.  Right-click to terminate the input and generate the curve.
 4.  Depending on preferences, the tool may remain active to trace a new curve. Right-click again to exit the command.

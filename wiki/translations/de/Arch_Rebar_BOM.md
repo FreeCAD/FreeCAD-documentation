@@ -17,7 +17,7 @@ Das [Stücklisten](Arch_Rebar_BOM/de.md)-Werkzeug ermöglicht dem Benutzer eine 
 
 <div class="mw-translate-fuzzy">
 
-Dieser Befehl ist Teil der _ über das {{MenuCommand/de|Werkzeuge → Erweiterungsverwalter → Bewehrung}}-Menü installiert werden kann.
+Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_Workbenches.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) über das {{MenuCommand/de|Werkzeuge → Erweiterungsverwalter → Bewehrung}}-Menü installiert werden kann.
 
 
 </div>
@@ -535,7 +535,7 @@ BillOfMaterial_SVG.makeBillOfMaterialSVG(
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md) [<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Arch](Arch_Workbench.md) > Arch Rebar BOM/de

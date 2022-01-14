@@ -53,19 +53,19 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 -   <img alt="" src=images/Std_Delete.svg  style="width:32px;"> [Löschen](Std_Delete/de.md): löscht die ausgewählten Objekte.
 
--   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> _, die auf ein Objekt verweisen. <small>(v0.19)</small> 
+-   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [An Python Konsole senden](Std_SendToPythonConsole/de.md): Erstellt Variablen in der [Python Konsole](Python_console/de.md), die auf ein Objekt verweisen. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/Std_Placement.svg  style="width:32px;">[Platzierung\...](Std_Placement/de.md): öffnet das Platzierungs Aufgabenfeld für ein Objekt.
 
--   <img alt="" src=images/Std_TransformManip.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Std_TransformManip.svg  style="width:32px;"> [Transform (Verschieben, Drehen)](Std_TransformManip/de.md): Transformiert ein Objekt in die [3D-Ansicht](3D_view/de.md).
 
 -   <img alt="" src=images/Std_Alignment.svg  style="width:32px;"> [Ausrichtung\...](Std_Alignment/de.md): Richtet ein Objekt in Bezug auf ein festes Referenzobjekt aus.
 
 -   <img alt="" src=images/Std_Edit.svg  style="width:32px;"> [Bearbeitungsmodus umschalten](Std_Edit/de.md) Aktiviert oder deaktiviert den Bearbeitungsmodus eines Objekts.
 
--   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> _ doppelt geklickt wird. <small>(v0.20)</small> 
+-   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> [Std BenutzerBearbeitungsModus](Std_UserEditMode/de.md): Legt den Bearbeitungsmodus fest, der aktiv wird, wenn ein Objekt in der [Baumansicht](Tree_view/de.md) doppelt geklickt wird. <small>(v0.20)</small> 
 
--   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> _. 
+-   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [Einstellungen\...](Std_DlgPreferences/de.md): öffnet den [Einstellungseditor](Preferences_Editor/de.md). 
 **-- Unter MacOS kann diese Menüoption im FreeCAD-Menü anstelle des Bearbeiten-Menüs erscheinen.**
 
 
@@ -76,7 +76,7 @@ Die folgenden Werkzeuge sind in diesem Menü verfügbar:
 
 }}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Edit Menu/de

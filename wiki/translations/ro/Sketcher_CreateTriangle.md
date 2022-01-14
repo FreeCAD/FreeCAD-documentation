@@ -22,7 +22,7 @@ Desenează un triunghi echilateral înscris într-un cerc . La pornirea instrume
 
 <div class="mw-translate-fuzzy">
 
--   Apăsați butonul **<img src=images/Sketcher_CreateTriangle.png style="width:16px"> Create equilateral triangle**,
+-   Apăsați butonul **[<img src=images/Sketcher_CreateTriangle.png style="width:16px"> Create equilateral triangle**,
 -   Click o dată pentru a defini centrul,
 -   Glisați mouse-ul și click a doua oară pentru a seta unul dintre vârfuri.
 -   Apăsați **Esc** sau click butonul drepta al mouse-ului pentru a abandona/anula funcția.

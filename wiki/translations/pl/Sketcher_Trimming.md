@@ -18,7 +18,7 @@ To narzędzie przycina krawędź do najbliższej nachodzącej krawędzi.
 
 ## Użycie
 
-1.  Naciśnij przycisk **<img src=images/Sketcher_Trimming.svg style="width:16px"> [przycinania krawędzi](Sketcher_Trimming.md)**. Kursor myszki zmieni się w biały krzyżyk z czerwonym symbolem przycięcia.
+1.  Naciśnij przycisk **[<img src=images/Sketcher_Trimming.svg style="width:16px"> [przycinania krawędzi](Sketcher_Trimming.md)**. Kursor myszki zmieni się w biały krzyżyk z czerwonym symbolem przycięcia.
 2.  Kliknij krawędź, którą chcesz przyciąć.
 3.  Segment linii zostanie przycięty do najbliższej zachodzącej na siebie linii. Jeśli po obu stronach klikniętej pozycji znajdują się inne elementy szkicu, kliknięty element jest wycinany.
 4.  Naciśnięcie klawisza **Esc** lub naciśnięcie prawego klawisza myszki zakończy działanie funkcji.

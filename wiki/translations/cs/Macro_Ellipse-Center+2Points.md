@@ -22,7 +22,7 @@ Vytvoří elipsu výběrem 3 bodů (v tomto pořadí): střed, velký poloměr, 
 
 <div class="mw-translate-fuzzy">
 
-Најновија верзија макроа налази се на адреси _.
+Најновија верзија макроа налази се на адреси [EllipseCenter2Points.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/EllipseCenter2Points.FCMacro) али најлакши начин да инсталирате овај макро је преко[Аддон Манагер](Std_AddonMgr/cs.md).
 
 
 </div>

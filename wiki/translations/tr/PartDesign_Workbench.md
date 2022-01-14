@@ -26,7 +26,7 @@ Parça tasarım tezgahı ve [Eskiz tezgahı](Sketcher_Workbench/tr.md) birbirler
 
 <div class="mw-translate-fuzzy">
 
-_ sayfasına bakın ve ardından katı madde oluşturma işlemine başlamak için [Parça tasarım tezgahı ile basit bir parça](Creating_a_simple_part_with_PartDesign/tr.md) oluşturma bölümüne bakın .
+[Parça tezgahı](Part_Workbench/tr.md), [Yapısal katı geometri](https://en.wikipedia.org/wiki/Constructive_solid_geometry) (CSG) şekil oluşturma metodolojisi üzerine temellendiğinden, Part tasarım tezgahı, parametrik, özellik düzenleme metodolojisi kullanır; bu, temel bir katı, nihai şekil elde edilinceye kadar üstüne özellikler ekleyerek sırayla dönüştürülür. Bu işlemin daha ayrıntılı bir açıklaması için [özellik düzenleme](feature_editing/tr.md) sayfasına bakın ve ardından katı madde oluşturma işlemine başlamak için [Parça tasarım tezgahı ile basit bir parça](Creating_a_simple_part_with_PartDesign/tr.md) oluşturma bölümüne bakın .
 
 
 </div>
@@ -66,7 +66,7 @@ Bu araçlar, Model ağacını düzenlemek için kullanılan araçlardır.
 
 </div>
 
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Group](Std_Group.md): adds a Group container in the active document, which allows organizing the objects in the [tree view](Tree_view.md).
 
 ### Parça Tasarım Yardım Araçları 
 
@@ -81,7 +81,7 @@ Bu araçlar, Model ağacını düzenlemek için kullanılan araçlardır.
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/PartDesign_NewSketch.png  style="width:32px;"> _ geçer.
+-   <img alt="" src=images/PartDesign_NewSketch.png  style="width:32px;"> [Eskiz oluştur](PartDesign_NewSketch/tr.md): Seçilen bir yüzey ya da düzlem üzerinde yeni bir eskiz oluşturur. Bu araç yürütülürken yüz seçilmezse, kullanıcıdan, Görevler panelinden bir düzlem seçmesi istenir. Arayüz daha sonra eskiz düzenleme modunda [Eskiz tezgahına](Sketcher_Workbench/tr.md) geçer.
 
 
 </div>
@@ -567,7 +567,7 @@ Parça Tasarım menüsünde bulunan bazı ek işlevler:
 
  {{PartDesign Tools navi}}
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> PartDesign/tr](<img src="images/Property.png" style="width:16px"> PartDesign/tr.md) [<img src="images/Property.png" style="width:16px"> Workbenches/tr](<img src="images/Property.png" style="width:16px"> Workbenches/tr.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/tr

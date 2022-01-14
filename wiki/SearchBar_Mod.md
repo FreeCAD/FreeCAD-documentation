@@ -11,7 +11,7 @@ This is an extension that adds a search bar next to the [what\'s this?](Std_What
 
 Please report bugs via the [issue tracker on GitHub](https://github.com/SuzanneSoy/SearchBar/issues).
 
--   Author: _
+-   Author: [Suzanne Soy](User:Suzanne.soy.md)
 -   Source code on github: <https://github.com/SuzanneSoy/SearchBar>
 
 ## Installation
@@ -20,7 +20,7 @@ For manual installation see [Installing more workbenches](Installing_more_workbe
 
  
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > SearchBar Mod

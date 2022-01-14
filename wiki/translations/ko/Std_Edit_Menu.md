@@ -53,22 +53,22 @@
 
 -   <img alt="" src=images/Std_Delete.svg  style="width:32px;"> [삭제](Std_Delete/ko.md): 선택한 개체를 삭제합니다.
 
--   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> _ 생성합니다. {{Version/ko|0.19}}
+-   <img alt="" src=images/Std_SendToPythonConsole.svg  style="width:32px;"> [파이썬 콘솔로 보내기](Std_SendToPythonConsole/ko.md): 개체를 참조하는 변수를 [파이썬 콘솔에](Python_console/ko.md) 생성합니다. {{Version/ko|0.19}}
 
 -   <img alt="" src=images/Std_Placement.svg  style="width:32px;"> [위치 설정\...](Std_Placement/ko.md): 개체를 위한 위치 설정 작업 패널을 엽니다.
 
--   <img alt="" src=images/Std_TransformManip.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Std_TransformManip.svg  style="width:32px;"> [Transform](Std_TransformManip.md): Transforms an object in the [3D view](3D_view.md).
 
 -   <img alt="" src=images/Std_Alignment.svg  style="width:32px;"> [정렬\...](Std_Alignment/ko.md): 고정된 참조 개체를 기준으로 한 개체를 정렬합니다.
 
 -   <img alt="" src=images/Std_Edit.svg  style="width:32px;"> [편집 모드 전환](Std_Edit/ko.md): 개체의 편집 모드를 활성화 또는 비활성화합니다.
 
--   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> _. <small>(v0.20)</small> 
+-   <img alt="" src=images/Std_UserEditMode.svg  style="width:32px;"> [Edit mode](Std_UserEditMode.md): Defines the edit mode to be used when an object is double-clicked in the [Tree view](Tree_view.md). <small>(v0.20)</small> 
 
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> _ 엽니다. 
+-   <img alt="" src=images/Std_DlgPreferences.svg  style="width:32px;"> [환경 설정\...](Std_DlgPreferences/ko.md): [속성 편집기를](Preferences_Editor/ko.md) 엽니다. 
 **-- MacOS에서는 이 메뉴 옵션이 편집 메뉴 대신 FreeCAD 메뉴에 나타날 수 있습니다.**
 
 
@@ -82,7 +82,7 @@
 
 }}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Edit Menu/ko

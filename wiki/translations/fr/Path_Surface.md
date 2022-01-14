@@ -67,14 +67,14 @@ Pour obtenir des effets différents ou plus complexes, définissez des propriét
     -   Définissez {{PropertyData/fr|Rotation Axis}} sur l\'axe souhaité.
     -   Ajustez {{PropertyData/fr|Start Index}} pour démarrer l\'index (angle) \[0-360\].
     -   Ajustez {{PropertyData/fr|Stop Index}} pour arrêter l\'index (angle) \[0-360\].
-5.  Cliquez sur l\'icône **<img src=images/_View-refresh.svg style="width:16px"> Recompute** dans la barre d\'outils.
+5.  Cliquez sur l\'icône **[<img src=images/_View-refresh.svg style="width:16px"> Recompute** dans la barre d\'outils.
 6.  Attendez les résultats \...
 
 ##### Remarques sur les balayages rotationnels 
 
 -   Les balayages **Rotationnels** nécessitent beaucoup plus de temps et de traitement que les balayages **Planaires**. Les facteurs ayant une incidence sur le temps de traitement comprennent: l\'intervalle d\'échantillonnage, l\'interpolation, le diamètre de l\'outil et la taille du modèle. Encore une fois, les analyses en rotation peuvent prendre beaucoup de temps. Certains peuvent prendre 3, 5 ou 10 minutes ou plus.
 -   Pour des raisons de temps, il est préférable de ne pas recalculer un balayage rotationnel après chaque changement de propriété. considérez plutôt l'un des éléments suivants:
-    -   utilisez la technique **pour modifier tous les paramètres avec la touche ENTREE** mentionnée à l\'étape 2 ci-dessus puis l\'opération **<img src=images/View-refresh.svg style="width:16px"> Recompute**.
+    -   utilisez la technique **pour modifier tous les paramètres avec la touche ENTREE** mentionnée à l\'étape 2 ci-dessus puis l\'opération **[<img src=images/View-refresh.svg style="width:16px"> Recompute**.
     -   désactiver l\'opération avec l\'outil **<img src="images/Path_OpActiveToggle.svg" width=16px> [Activation d'opération](Path_OpActiveToggle/fr.md)**, apportez vos modifications aux propriétés de l\'opération, puis cliquez sur le **<img src="images/Path_OpActiveToggle.svg" width=16px> [Activation d'opération](Path_OpActiveToggle/fr.md)** à nouveau pour réactiver l\'opération, ce qui déclenche un recalcul en interne.
 -   L\'opération **<img src="images/Path_Surface.svg" width=16px> [3D Surface](Path_Surface/fr.md)** est toujours considérée comme une \"fonctionnalité expérimentale\" au 25/06/2019. En tant que tel, elle peut contenir quelques bugs qui doivent encore être clairement identifiés. Veuillez signaler les bogues et les problèmes sur le [FreeCAD Path/CAM Forum](https://forum.freecadweb.org/viewforum.php?f=15).
 -   Le **<img src="images/Path_Simulator.svg" width=16px> [Path Simulateur d'usinage](Path_Simulator/fr.md)** intégré ne prend pas en charge la simulation du 4ème axe. Vous devrez utiliser un simulateur tiers pour inspecter ou vérifier visuellement les chemins. Voir la section [Ressources](#Ressources.md) ci-dessous pour des suggestions.

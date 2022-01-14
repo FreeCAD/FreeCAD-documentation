@@ -17,11 +17,11 @@
 
 Dieses Werkzeug erzeugt eine neue Skizze und erzeugt - falls es keinen gibt - einen neuen [PartDesign Körper](PartDesign_Body/de.md), der die Skizze enthält. Anschließend wird die [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) automatisch geöffnet.
 
-Wenn Modelle unter Verwendung des <img src=images/Sketcher_NewSketch.svg style="width:PartDesign Arbeitsbereichs](PartDesign_Workbench/de.md) erzeugt werden sollte dieses Werkzeug gegenüber dem entsprechenden **[16px">[Sketcher Neue Skizze](Sketcher_NewSketch/de.md)** Werkzeug aus dem [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) bevorzugt werden.
+Wenn Modelle unter Verwendung des [PartDesign Arbeitsbereichs](PartDesign_Workbench/de.md) erzeugt werden sollte dieses Werkzeug gegenüber dem entsprechenden **[<img src=images/Sketcher_NewSketch.svg style="width:16px">[Sketcher Neue Skizze](Sketcher_NewSketch/de.md)** Werkzeug aus dem [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) bevorzugt werden.
 
 ## Anwendung
 
-1.  Die **<img src=images/PartDesign_NewSketch.svg style="width:24px">** Schaltfläche in der PartDesign Werkzeugleiste klicken.
+1.  Die **[<img src=images/PartDesign_NewSketch.svg style="width:24px">** Schaltfläche in der PartDesign Werkzeugleiste klicken.
 
 2.  Im Aufgabenreiter wird der **Element auswählen**-Diaglog angezeigt. Hier kann eine der Ebenen oder die 3D-Ansicht, die für eine besser Sichtbarkeit anders ausgerichtet werden kann, gewählt werden.
 
@@ -59,7 +59,7 @@ Dialog-Einstellungen
 
 <div class="mw-translate-fuzzy">
 
-Um beliebige Elemente im _ und <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:32px;"> [Kopie](Sketcher_CarbonCopy/de.md). Generell ist es empfehlenswert, andere Skizzen als Quelle für Referenzen zu verwenden, anstatt Flächen oder Kanten, da diese weniger von der Topologischen Benennungsproblematik betroffen sind.
+Um beliebige Elemente im [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md) zu referenzieren, verwende die beiden Funktionen <img alt="" src=images/Sketcher_External.svg  style="width:32px;"> [Externe Geometrie](Sketcher_External/de.md) und <img alt="" src=images/Sketcher_CarbonCopy.svg  style="width:32px;"> [Kopie](Sketcher_CarbonCopy/de.md). Generell ist es empfehlenswert, andere Skizzen als Quelle für Referenzen zu verwenden, anstatt Flächen oder Kanten, da diese weniger von der Topologischen Benennungsproblematik betroffen sind.
 
 
 </div>

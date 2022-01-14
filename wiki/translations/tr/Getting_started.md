@@ -38,7 +38,7 @@ See also:
 
 <div class="mw-translate-fuzzy">
 
-Her şeyden önce, FreeCAD\'i indirin ve kurun. Güncel sürüm ve güncellemeler hakkında bilgi almak için _
+Her şeyden önce, FreeCAD\'i indirin ve kurun. Güncel sürüm ve güncellemeler hakkında bilgi almak için [İndirme](Download.md) sayfasını ve Yükleme talimatları için [Yükleme](Installing.md) sayfasını ziyaret ediniz.Windows(.msi), Debian ve Ubuntu(.deb), openSUSE(.rpm) ve Mac OSX işletim sistemlerine yönelik Yükleme dosyaları mevcuttur. FreeCAD, diğer birçok Linux dağıtımında paket yöneticilerinden ulaşılabilir. Ayrıca güncel 64-bit Linux sistemlerde tek başına çalıştırılabilir [AppImage](https://appimage.org/) da bulunmaktadır. FreeCAD açık kaynak kodlu olduğu için, kaynak kodunu indirip, kendiniz de [derleyebilirsiniz.](Compiling.md)
 
 
 </div>
@@ -181,7 +181,7 @@ Yapılan işlemler sonucunda elde edilen nesne şuna benzer:
 
 <div class="mw-translate-fuzzy">
 
-_ ile [Nesne Yakalamada](Draft_Snap.md) kullanılmaktadır.
+[Taslak tezgahı](Draft_Workbench.md), [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD) gibi 2D CAD uygulamalarında bulunan geleneksel 2D çizim araçlarına benzerdir. 2D çizim FreeCAD\'in kapsama alanında olmadığından, bu alana özel uygulamaların sunduğu araçların tamamını bulmayı beklemeyin. Taslak araçlarının çoğu sadece 2D düzlemde değil, aynı zamanda 3D alanında ve [ Work planes (Çalışma Yüzeyleri)](Draft_SelectPlane.md) ile [Nesne Yakalamada](Draft_Snap.md) kullanılmaktadır.
 
 
 </div>
@@ -231,7 +231,7 @@ The [Addon](Addon.md) principle is based on the development of a workbench compl
 There are two types of addons:
 
 1.  [Macros](Macros.md): short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
-2.  _, you\'ll find the principle and a list of existing library.
+2.  [External workbenches](External_workbenches.md): collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
 
 ## Scripting
 
@@ -277,7 +277,7 @@ Son olarak, FreeCAD\'in en güçlü özelliklerinden biri [betik](Power_users_hu
 
 
 
-_
+[Kullanıcı Belgeleri](<img src="images/Property.png" style="width:16px"> User_Documentation/tr.md)
 
 ---
 [documentation index](../README.md) > Getting started/tr

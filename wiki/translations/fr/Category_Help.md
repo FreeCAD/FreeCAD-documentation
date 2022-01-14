@@ -1,11 +1,10 @@
-# Category:Help/fr
-Category:Help/fr
+# <img src="images/Property.png" style="width:16px"> Help/fr Category:Help/fr
 
 ### Contents:
 
-_ , [Help/fr](Help/fr.md)
+[Help:Editing/fr](Help:Editing/fr.md) , [Help/fr](Help/fr.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Categories/fr](<img src="images/Property.png" style="width:16px"> Categories/fr.md)
 
 ---
 [documentation index](../README.md) > Category:Help/fr

@@ -27,7 +27,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   按下**<img src=images/Sketcher_ViewSection.png style="width:24px"> '''View section'''**按钮在截面草图与完整视图间进行切换。
+-   按下**[<img src=images/Sketcher_ViewSection.png style="width:24px"> '''View section'''**按钮在截面草图与完整视图间进行切换。
 
 
 </div>

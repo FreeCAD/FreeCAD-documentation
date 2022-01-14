@@ -11,16 +11,16 @@
 
 ## Description
 
-La primitive géométrique **<img src=images/Part_Helix.svg style="width:16px"> [Part Hélice](Part_Helix/fr.md)** crée une forme d\'hélice définie par un rayon, un pas et une hauteur totale.
+La primitive géométrique **[<img src=images/Part_Helix.svg style="width:16px"> [Part Hélice](Part_Helix/fr.md)** crée une forme d\'hélice définie par un rayon, un pas et une hauteur totale.
 
-Un usage courant de la primitive hélice est pour la <img src=images/PartDesign_AdditivePipe.svg style="width:Création de vis](Thread_for_Screw_Tutorial/fr.md) en conjonction avec un profil fermé et le **<img src="images/Part_Sweep.svg" width=16px> [Part Balayage](Part_Sweep/fr.md)** opération. Ce processus fonctionne essentiellement de la même manière dans l\'[Atelier PartDesign](PartDesign_Workbench.md) en utilisant l\'outil **[16px"> [PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md)**.
+Un usage courant de la primitive hélice est pour la [Création de vis](Thread_for_Screw_Tutorial/fr.md) en conjonction avec un profil fermé et le **<img src="images/Part_Sweep.svg" width=16px> [Part Balayage](Part_Sweep/fr.md)** opération. Ce processus fonctionne essentiellement de la même manière dans l\'[Atelier PartDesign](PartDesign_Workbench.md) en utilisant l\'outil **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md)**.
 
 ## Utilisation
 
 1.  Basculez vers l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md).
 2.  La boîte de dialogue Créer des primitives est accessible de plusieurs manières:
-    -   En appuyant sur le bouton **<img src=images/Part_Primitives.svg style="width:16px"> [Création de primitives géométriques...](Part_Primitives/fr.md)** situé dans la barre d\'outils Pièce.
-    -   Utilisation de l\'entrée **Pièce → <img src=images/Part_Primitives.svg style="width:16px"> [Créer des primitives...](Part_Primitives/fr.md) → Hélice** dans le menu Part.
+    -   En appuyant sur le bouton **[<img src=images/Part_Primitives.svg style="width:16px"> [Création de primitives géométriques...](Part_Primitives/fr.md)** situé dans la barre d\'outils Pièce.
+    -   Utilisation de l\'entrée **Pièce → [<img src=images/Part_Primitives.svg style="width:16px"> [Créer des primitives...](Part_Primitives/fr.md) → Hélice** dans le menu Part.
 
 ![](images/PartHelixPrimitivesOptions_en.png )
 

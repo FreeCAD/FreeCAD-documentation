@@ -118,7 +118,7 @@ Il s\'agit d\'une image miniature (thumbnail) du document de 128 x 128 pixels, q
 
 ### \*.brep
 
-Ce sont les formes _ de tous les objets, qui ont une forme dans le {{FileName|Document.xml}}. Même s\'il est paramétrique, chaque objet a sa forme stockée comme un fichier individuel {{FileName|.brep}}, on y accède donc par des composants sans devoir recalculer la forme.
+Ce sont les formes [B-Rep](wikipedia:fr:B-Rep.md) de tous les objets, qui ont une forme dans le {{FileName|Document.xml}}. Même s\'il est paramétrique, chaque objet a sa forme stockée comme un fichier individuel {{FileName|.brep}}, on y accède donc par des composants sans devoir recalculer la forme.
 
 ### \*.svg
 
@@ -166,7 +166,7 @@ Voir le fil du forum [PDF inside the project](https://forum.freecadweb.org/viewt
 
  
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [Developer](Category_Developer.md) > File Format FCStd/fr

@@ -6,7 +6,7 @@
 
 <img alt="" src=images/Part_3D_object.svg  style="width:32px;">
 
-Un objet _ qui peut être affiché dans la [Vue 3D](3D_view/fr.md).
+Un objet [Part Feature](Part_Feature/fr.md), ou formellement un `Part::Feature`, est un élément simple associé à une [forme topologique](Part_TopoShape/fr.md) qui peut être affiché dans la [Vue 3D](3D_view/fr.md).
 
 Part Feature est la classe parente de la plupart des objets 2D (Draft, Sketcher) et 3D (Part, PartDesign), à l\'exception des maillages, qui sont normalement basés sur [Mesh Feature](Mesh_Feature/fr.md) ou [FEM FemMeshObject](FEM_Mesh/fr.md) pour les objets FEM.
 
@@ -22,7 +22,7 @@ Chaque objet créé avec l\'[Atelier Part](Part_Workbench/fr.md) est essentielle
 
 La [Part Feature](Part_Feature/fr.md) est un objet interne. Par conséquent, il ne peut pas être créé à partir de l\'interface graphique, uniquement à partir de la [Console Python](Python_console/fr.md), comme décrit dans la section [Scrip](Part_Feature#Script.md). section.
 
-L\'objet `Part::Feature` est défini dans _. Ils seront donc également importés en tant qu\'éléments `Part::Feature` bien que sans historique paramétrique.
+L\'objet `Part::Feature` est défini dans [Part Workbench](Part_Workbench/fr.md), mais peut être utilisé comme classe de base pour [objets scripté](scripted_objects/fr.md) dans tous les [ateliers](Workbenches/fr.md) générant des formes géométriques 2D et 3D. En fait, tous les objets produits dans [Atelier Part](Part_Workbench/fr.md) sont des instances d\'un `Part::Feature`. Les objets solides importés à partir de fichiers STEP ou BREP seront importés à l\'aide de [Atelier Part](Part_Workbench/fr.md). Ils seront donc également importés en tant qu\'éléments `Part::Feature` bien que sans historique paramétrique.
 
 
 `Part::Feature`
@@ -33,7 +33,7 @@ Un objet `Part::Feature` possède de simples propriétés, telles qu\'un [emplac
 
 ## Propriétés
 
-_ (`App::GeoFeature` class) de ce fait partage toutes les propriétés de cette dernière.
+[Part Feature](Part_Feature/fr.md) (`Part::Feature` class) est dérivé de la classe de base [App GeoFeature](App_GeoFeature/fr.md) (`App::GeoFeature` class) de ce fait partage toutes les propriétés de cette dernière.
 
 Outre les propriétés décrites dans [App GeoFeature](App_GeoFeature/fr.md), Part Feature possède la propriété {{PropertyData/fr|Shape}} qui contrôle le type de géométrie affiché dans la [vue 3D](3D_view/fr.md). Elle stocke [Part TopoShape](Part_TopoShape/fr.md) de cet objet. Il s\'agit de la géométrie affichée dans la [Vue 3D](3D_view/fr.md).
 

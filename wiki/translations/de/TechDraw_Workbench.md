@@ -25,9 +25,9 @@ FreeCAD ist in erster Linie eine 3D-Modellierungsanwendung und verfügt daher ni
 
 Diese Werkzeuge sind zum Erstellen von Seiten.
 
--   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> _ hinzu.
+-   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Einfügen Standardseite](TechDraw_PageDefault/de.md): Fügt eine neue Seite mit der Standard [Vorlage](TechDraw_Templates.md) hinzu.
 
--   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> _ hinzu, die nicht die Standardvorlage ist.
+-   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Seite mittels Vorlage einfügen](TechDraw_PageTemplate/de.md): Fügt eine neue Seite mit einer ausgewählten [Vorlage](TechDraw_Templates/de.md) hinzu, die nicht die Standardvorlage ist.
 
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Seite neu zeichnen](TechDraw_RedrawPage/de.md): Erzwingt eine Aktualisierung der ausgewählten Seite. {{Version/de|0.19}}
 
@@ -45,11 +45,11 @@ Dies sind Werkzeuge zum Erstellen von Ansichtsobjekten.
 
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [Detailansicht einfügen](TechDraw_DetailView/de.md): Fügt eine Detailansicht eines Teils einer vorhandenen Ansicht ein.
 
--   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> _-Objekts ein.
+-   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [Entwurf Arbeitsbereich Objekt einfügen](TechDraw_DraftView/de.md): Fügt eine Ansicht eines [Entwurf Arbeitsbereichs](Draft_Workbench/de.md)-Objekts ein.
 
--   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> _ [Schnittebenen](Arch_SectionPlane/de.md)-Objekts ein.
+-   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Arch Arbeitsbereichsobjekt einfügen](TechDraw_ArchView/de.md): Fügt eine Ansicht eines [Arch Arbeitsbereichs](Arch_Workbench/de.md) [Schnittebenen](Arch_SectionPlane/de.md)-Objekts ein.
 
--   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> _ hinzu.
+-   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> [Tabellenkalkulationsansicht einfügen](TechDraw_SpreadsheetView/de.md): Fügt die Ansicht eines [Tabellenkalkulation Arbeitsbereichsblatts](Spreadsheet_Workbench/de.md) hinzu.
 
 ## Ausschnittfenster
 
@@ -69,9 +69,9 @@ Dies sind Werkzeuge zur Ausgestaltung von Seiten oder Ansichten:
 
 -   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Geometrische Schraffur auf Fläche anwenden](TechDraw_GeometricHatch/de.md): wendet ein Schraffurmuster unter Verwendung einer Autodesk PAT Spezifikation auf eine Fläche an.
 
--   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ Datei in eine Seite ein.
+-   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> [SVG Symbol einfügen](TechDraw_Symbol/de.md): fügt ein Symbol aus einer [SVG](SVG.md) Datei in eine Seite ein.
 
--   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ Bild in eine Seite ein.
+-   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> [Bitmap Bild einfügen](TechDraw_Image/de.md): fügt ein PNG oder JPG [Bitmap](bitmap/de.md) Bild in eine Seite ein.
 
 -   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Ansichtsrahmen drehen On/Off](TechDraw_ToggleFrame/de.md): schaltet Rahmen und Beschriftungen, die eine Ansicht umgeben, an/aus.
 
@@ -334,9 +334,9 @@ Das Erweiterungspaket enthält viele nützliche Werkzeuge, um deine TechDraw-Zei
 
 Dies sind Werkzeuge zum Exportieren von Seiten in andere Anwendungen.
 
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _ Datei.
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Seite exportieren als SVG](TechDraw_ExportPageSVG/de.md): Speichert die aktuelle Seite als [SVG](SVG/de.md) Datei.
 
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _ Datei.
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Seite Exportieren als DXF](TechDraw_ExportPageDXF/de.md): speichert die aktuelle Seite als [DXF](DXF/de.md) Datei.
 
 ## Zusatzfunktionen
 
@@ -420,7 +420,7 @@ Video Tutorien von sliptonic
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/de

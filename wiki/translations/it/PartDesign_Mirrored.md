@@ -29,7 +29,7 @@ Lo strumento **Simmetria** riflette una funzione su un piano. A partire da v0.17
 1.  Selezionare le funzioni da rispecchiare. In alternativa, è possibile selezionare la funzione dal dialogo dopo il passaggio 2.
 
     :   v0.16 e precedenti È possibile selezionare solo una singola funzione e deve essere l\'ultima nella parte inferiore dell\'albero delle funzioni.
-2.  Premere il pulsante **<img src=images/PartDesign_Mirrored.svg style="width:24px"> '''Simmetria'''**.
+2.  Premere il pulsante **[<img src=images/PartDesign_Mirrored.svg style="width:24px"> '''Simmetria'''**.
 3.  v0.17 e superiori Premere **Aggiungi funzione** per aggiungere una funzione da riflettere. La funzione deve essere visibile nella vista 3D:
     1.  Passare all\'albero del modello;
     2.  Selezionare nell\'albero la funzione da aggiungere e premere **spazio** per renderla visibile nella vista 3D;

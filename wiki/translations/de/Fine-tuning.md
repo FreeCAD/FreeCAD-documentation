@@ -77,7 +77,7 @@ The label in Sketcher that displays the current status of the constraints (e.g. 
 
 <div class="mw-translate-fuzzy">
 
--   **General/TasksKeyEsc** (boolesch): erstelle und setze den Parameter auf `False`, um die Funktion der **Esc**-Taste, den _
+-   **General/TasksKeyEsc** (boolesch): erstelle und setze den Parameter auf `False`, um die Funktion der **Esc**-Taste, den [Aufgabenbereich](Task_panel/de.md) zu verlassen, wenn dieser den Fokus hat, zu deaktivieren. **Hinweis:** Ersetzt durch [Skizzen Einstellungen](Sketcher_Preferences/de#Allgemein.md)
 -   **Mod/Sketcher/ViewKeyEsc** (boolesch): erstelle und setze den Parameter auf `False`, um Fehler zu vermeiden, wenn die **Esc**-Taste während des Fortführmodus zur Erstellung von Geometrie/Einschränkungen im Skizzierer einmal zu oft gedrückt wird (siehe [Foren-Thema](https://forum.freecadweb.org/viewtopic.php?f=3&t=42207&start=60#p367584))
 
 
@@ -98,7 +98,7 @@ The label in Sketcher that displays the current status of the constraints (e.g. 
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning/de

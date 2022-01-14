@@ -673,7 +673,7 @@ Les paramètres d\'Importation-Exportation affectent la façon dont les fichiers
 **
 Cette section est incomplète et nécessite de mentionner les pages de préférences de chaque atelier de base**
 
-Les préférences pour les ateliers les plus courants sont liées ci-dessous. Certains ateliers n\'ont aucune préférence. D\'autres ateliers facultatifs peuvent ne pas être répertoriés. Ces liens sont également répertoriés dans _
+Les préférences pour les ateliers les plus courants sont liées ci-dessous. Certains ateliers n\'ont aucune préférence. D\'autres ateliers facultatifs peuvent ne pas être répertoriés. Ces liens sont également répertoriés dans [:<img src="images/Property.png" style="width:16px"> Preferences/fr](:<img src="images/Property.png" style="width:16px"> Preferences/fr.md)
 
 -   [Arch Préférences](Arch_Preferences/fr.md)
 -   [Draft Préférences](Draft_Preferences/fr.md)
@@ -729,7 +729,7 @@ Pour un exemple de script, voir [Std Éditeur des paramètres](Std_DlgParameter/
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Preferences Editor/fr

@@ -9,7 +9,7 @@
 
 Questa è una raccolta di guide video realizzate dagli utenti e dagli sviluppatori di FreeCAD. Per altri link guardare nel subforum [Tutorials and videos forum](https://forum.freecadweb.org/viewforum.php?f=36). Un\'altra utile fonte di video tutorial è [YouTube](https://YouTube.com).
 
-Visitare la pagina _.
+Visitare la pagina [tutorial](tutorials/it.md) per esercitazioni di alta qualità. È possibile trovare un elenco completo e non ordinato di esercitazioni in [:<img src="images/Property.png" style="width:16px"> Tutorials](:Category_Tutorials.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -39,12 +39,12 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 ## Meshes
 
--   <img src=images/Part_ShapeFromMesh.svg style="width:Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) by AllVisuals4U. It demonstrates the **[16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** tool.
+-   [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) by AllVisuals4U. It demonstrates the **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** tool.
 
 ## Assembly
 
--   _.
--   _.
+-   [Go further with Asm 3 WB](http://help-freecad-jpg87.fr/025c_ass_ex_creat.php) by jpg87 is website with step by step instructions and videos to demonstrate usage of the [Assembly3 Workbench](Assembly3_Workbench.md).
+-   [FreeCAD Tutorial - Assembly 4 Workbench](https://www.youtube.com/watch?v=n04M6nFvdxs) by Martham Engineering. It showcases the [Assembly4 Workbench](Assembly4_Workbench.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -96,13 +96,13 @@ Una serie di video \"Render Solidworks and FreeCAD Models in Blender\", da Joko 
 
 ## Progettazione architettonica 
 
-Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _, and <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench.md).
+Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench.md), and <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench.md).
 
 Since there are many videos that deal with this topic, please visit [Video tutorials for architectural design](Video_tutorials_for_architectural_design.md).
 
 ## Finite element (FEM) simulation 
 
--   _, by Eklavya Self Learning Tutorials.
+-   [FreeCAD FEM/Civil/Structural/Arch Tutorial-1-An Introduction](https://www.youtube.com/watch?v=wAJe1R5NDGw): FreeCAD 0.16, and introduction that builds a simple structure of pillars and beams, and analyzes them with the <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md), by Eklavya Self Learning Tutorials.
 
 -   [How To Use FreeCAD FEM](https://www.youtube.com/watch?v=dhrynRdBOIg) \[12:15\] FreeCAD v0.19, Intro to using the FEM workbench. Very well done, by Joko Engineering
 
@@ -175,7 +175,7 @@ For more see [Video tutorials obsolete](Video_tutorials_obsolete.md).
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/it

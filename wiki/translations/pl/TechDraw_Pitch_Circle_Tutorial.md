@@ -9,7 +9,7 @@
 
 ## Wprowadzenie
 
-Ten poradnik wyjaśnia jak dodać okrąg podziałowy do widoku <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> _ z co najmniej trzema otworami w układzie kołowym. Dla okręgu zostanie utworzony osobny szkic. Podobna procedura może być użyta w innych sytuacjach oraz do dodawania innych elementów podobnych do adnotacji na widoku [Rysunku Technicznego](TechDraw_Workbench/pl.md).
+Ten poradnik wyjaśnia jak dodać okrąg podziałowy do widoku <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunku Technicznego](TechDraw_Workbench/pl.md). Zakłada on, że model jest obiektem środowiska <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Projekt Części](PartDesign_Body/pl.md) z co najmniej trzema otworami w układzie kołowym. Dla okręgu zostanie utworzony osobny szkic. Podobna procedura może być użyta w innych sytuacjach oraz do dodawania innych elementów podobnych do adnotacji na widoku [Rysunku Technicznego](TechDraw_Workbench/pl.md).
 
 <img alt="" src=images/Circle.png  style="width:250px;"> <img alt="" src=images/Pitch_Circle.png  style="width:300px;">
 

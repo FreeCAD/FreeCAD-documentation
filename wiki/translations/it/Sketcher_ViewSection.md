@@ -23,7 +23,7 @@ Lo strumento **Vista sezione** crea un piano di sezione che nasconde temporaneam
 
 <div class="mw-translate-fuzzy">
 
--   Premere il pulsante **<img src=images/Sketcher_ViewSection.svg style="width:24px"> '''Vista sezione'''** per passare dalla sezione alla vista intera, e viceversa.
+-   Premere il pulsante **[<img src=images/Sketcher_ViewSection.svg style="width:24px"> '''Vista sezione'''** per passare dalla sezione alla vista intera, e viceversa.
 
 
 </div>

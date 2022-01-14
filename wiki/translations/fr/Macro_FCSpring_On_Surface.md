@@ -8,7 +8,7 @@
 |Date=2019/12/20
 |Download=ToolBar icon [https://www.freecadweb.org/wiki/images/3/38/FCSpring_On_Surface.png the Icons]
 |FCVersion=0.18 and above
-|SeeAlso=<img src=images/FCSpring_Helix_Variable.png style="width:Macro FCSpring Helix Variable](Macro_FCSpring_Helix_Variable/fr.md) [24px">
+|SeeAlso=[Macro FCSpring Helix Variable](Macro_FCSpring_Helix_Variable/fr.md) [<img src=images/FCSpring_Helix_Variable.png style="width:24px">
 }}
 
 ## Description

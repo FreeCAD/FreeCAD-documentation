@@ -3,17 +3,17 @@
 
 FEM stands for [Finite Element Method](https://en.wikipedia.org/wiki/Finite_element_method). It is a vast mathematical subject, but in FreeCAD we can think of it as a way to calculate propagations inside a 3D object, by cutting it into small pieces, and analyzing the impact of each small piece on its neighbours. This has several uses in the engineering and electromagnetism fields, but we will focus on one use that is already well developed in FreeCAD, which is simulating deformations in objects which are submitted to forces and weights.
 
-Obtaining such simulation is done in FreeCAD with the _ chapter, and finally calculating the simulation.
+Obtaining such simulation is done in FreeCAD with the [FEM Workbench](FEM_Workbench.md). There are a number of steps: Preparing the geometry, setting its material, performing the meshing, division into smaller parts, like we did in the [Preparing objects for 3D printing](Manual_Preparing_models_for_3D_printing.md) chapter, and finally calculating the simulation.
 
 <img alt="" src=images/Exercise_fem_01.jpg  style="width:600px;">
 
 ### Preparing FreeCAD 
 
-The simulation itself is done by another piece of software, that is used by FreeCAD to obtain the results. As there are several interesting open source FEM simulation applications available, the _.
+The simulation itself is done by another piece of software, that is used by FreeCAD to obtain the results. As there are several interesting open source FEM simulation applications available, the [FEM Workbench](FEM_Workbench.md) allows you to choose between them. However, currently only [CalculiX](http://www.calculix.de/) is fully implemented. Another piece of software, called [NetGen](https://sourceforge.net/projects/netgen-mesher/), which is responsible for generating the subdivision mesh, is also required. Detailed instructions to install these two components are provided [in the FreeCAD documentation](FEM_Install.md).
 
 ### Preparing the geometry 
 
-We will start with the house we modeled in the _ chapter. However, some changes have to be made to make the model suitable for FEM calculations. This involves, basically, discarding the objects that we don\'t want to include in the calculation, such as the door and window, and joining all the remaining objects into one.
+We will start with the house we modeled in the [BIM modeling](Manual_BIM_modeling.md) chapter. However, some changes have to be made to make the model suitable for FEM calculations. This involves, basically, discarding the objects that we don\'t want to include in the calculation, such as the door and window, and joining all the remaining objects into one.
 
 -   Load the [house model](https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/house.FCStd) we modeled earlier
 -   Delete or hide the page object, the section planes and the dimensions, leaving only our model

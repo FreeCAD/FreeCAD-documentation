@@ -32,7 +32,7 @@
 <div class="mw-translate-fuzzy">
 
 1.  In arborescența Model, selectați obiectul de clonat.
-2.  Apăsați butonul **<img src=images/PartDesign_Clone.png style="width:24px"> '''Create a clone'''**.
+2.  Apăsați butonul **[<img src=images/PartDesign_Clone.png style="width:24px"> '''Create a clone'''**.
 
 
 </div>

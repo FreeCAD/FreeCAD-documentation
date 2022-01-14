@@ -21,7 +21,7 @@ Il comando **Std ViewZoomOut** riduce la [vista 3D](3D_view/it.md) attiva.
 
 ## Uso
 
--   Andare in **Visualizza → Zoom‏‎ → <img src=images/Zoom-out.svg style="width:24px"> Zoom Out** o premere **Ctrl** + **-**.
+-   Andare in **Visualizza → Zoom‏‎ → [<img src=images/Zoom-out.svg style="width:24px"> Zoom Out** o premere **Ctrl** + **-**.
 -   La vista può anche essere rimpicciolita con la rotellina del mouse.
 
 

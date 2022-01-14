@@ -14,7 +14,7 @@ Narzędzie <img alt="" src=images/Curves_Pipeshell.svg  style="width:24px;"> [Po
 
 ## Użycie
 
-1.  Przełącz się na środowisko <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> _ jest konieczna, jeśli nie zostało to zrobione wcześniej)*.
+1.  Przełącz się na środowisko <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Krzywe](Curves_Workbench/pl.md) *(instalacja z <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md) jest konieczna, jeśli nie zostało to zrobione wcześniej)*.
 2.  Wybierz krawędź, która buduje ścieżkę wyciągania w oknie [widoku 3D](3D_view/pl.md).
 3.  Wybierz jeden lub więcej wymaganych profili w [Widoku drzewa](Tree_view/pl.md).
 4.  Aby wywołać polecenie, wykonaj jedną z poniższych czynności:

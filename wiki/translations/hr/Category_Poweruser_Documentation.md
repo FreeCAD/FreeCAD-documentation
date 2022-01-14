@@ -5,7 +5,7 @@ This category shows documentation articles dealing with python scripting, which 
 
 [Arch API/hr](Arch_API/hr.md) , [Debugging/hr](Debugging/hr.md) , [How to install macros/hr](How_to_install_macros/hr.md) , [Power users hub/hr](Power_users_hub/hr.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation/hr](<img src="images/Property.png" style="width:16px"> Documentation/hr.md)
 
 ---
 [documentation index](../README.md) > Category:Poweruser Documentation/hr

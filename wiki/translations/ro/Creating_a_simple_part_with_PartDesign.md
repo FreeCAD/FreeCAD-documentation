@@ -27,7 +27,7 @@ Acest tutorial își propune să-i învețe pe începători de la FreeCAD câtev
 
 <div class="mw-translate-fuzzy">
 
-Creați un document nou și selectați atelierul de lucru Part Design. Create a new document and switch to the **<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design workbench'''** using either the [workbench selector](Getting_started#Exploring_FreeCAD.md) (labelled 6 in the linked image) or by going to the *View → Workbench* menu. Freecad va începe cu barele de instrumente din partea de sus, vizualizarea combo la stânga și vizualizarea 3D din dreapta.
+Creați un document nou și selectați atelierul de lucru Part Design. Create a new document and switch to the **[<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design workbench'''** using either the [workbench selector](Getting_started#Exploring_FreeCAD.md) (labelled 6 in the linked image) or by going to the *View → Workbench* menu. Freecad va începe cu barele de instrumente din partea de sus, vizualizarea combo la stânga și vizualizarea 3D din dreapta.
 
 
 </div>
@@ -125,7 +125,7 @@ If your sketch is not yet green, one or more points are not coincident (2 points
 
 Proceed in the same way with all the points.
 
-If your sketch is still not green, verify that all lines (but the slanted one) have either a <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> _ constraint, and add if necessary.
+If your sketch is still not green, verify that all lines (but the slanted one) have either a <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Horizontal](Sketcher_ConstrainHorizontal.md) or <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [Vertical](Sketcher_ConstrainVertical.md) constraint, and add if necessary.
 
 ### Using Pad and Pocket features 
 

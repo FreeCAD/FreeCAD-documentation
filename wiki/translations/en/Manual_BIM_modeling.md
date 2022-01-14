@@ -140,7 +140,7 @@ In FreeCAD, IFC import and export is done by interfacing with another piece of s
 
 ![](images/Exercise_arch_17.jpg )
 
-We will now place some dimensions. Unlike the _, where we drew all the dimensions directly on the Drawing sheet, we will use another method here, and place [Draft dimensions](Draft_Dimension.md) directly in the 3D model. These dimensions will then be placed on the Drawing sheet automatically. We will first make two groups for our dimensions, one for the dimensions that will appear in the plan view, and another for those that appear on the elevation.
+We will now place some dimensions. Unlike the [previous chapter](Manual_Generating_2D_drawings.md), where we drew all the dimensions directly on the Drawing sheet, we will use another method here, and place [Draft dimensions](Draft_Dimension.md) directly in the 3D model. These dimensions will then be placed on the Drawing sheet automatically. We will first make two groups for our dimensions, one for the dimensions that will appear in the plan view, and another for those that appear on the elevation.
 
 -   Right-click the \"house\" document in the tree view, and create two new groups: **Plan dimensions** and **Elevation dimensions**.
 -   Set the [Working Plane](Draft_SelectPlane.md) to **XY** plane
@@ -171,7 +171,7 @@ We will now prepare a set of views from our model, to be placed on a Drawing pag
 
 **Development of the [Drawing Workbench](Drawing_Workbench.md) stopped in FreeCAD 0.16, and the new [TechDraw Workbench](TechDraw_Workbench.md) aiming to replace it was introduced in v0.17. The Drawing Workbench may be removed in future releases. Use the TechDraw Workbench instead.**
 
--   Now we have everything we need, and we can create our Drawing page. Start by switching to the _ (or select another template if you wish).
+-   Now we have everything we need, and we can create our Drawing page. Start by switching to the [Drawing Workbench](Drawing_Workbench.md), and create a new default <img alt="" src=images/Drawing_Landscape_A3.png  style="width:16px;"> [A3 page](Drawing_Landscape_A3.md) (or select another template if you wish).
 -   Select the first section plane, used for the plan view
 -   Press the <img alt="" src=images/Drawing_DraftView.png  style="width:16px;"> [Draft View](Drawing_DraftView.md) button. This tool offers a couple of additional features over the standard [Drawing View](Drawing_View.md) tool, and supports the Section Planes from the Arch Workbench.
 -   Give the new view the following properties:
@@ -236,7 +236,7 @@ Our page is now ready, and we can export it to SVG or DXF formats, or print it. 
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
 [documentation index](../README.md) > [BIM](Category_BIM.md) > Manual:BIM modeling/en

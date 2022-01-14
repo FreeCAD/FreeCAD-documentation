@@ -19,7 +19,7 @@ Cet outil crée une courbe B-spline à partir de ses points de contrôle. (Voir 
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Créer une B-spline](Sketcher_CreateBSpline/fr.md)**.
+1.  Appuyez sur le bouton **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Créer une B-spline](Sketcher_CreateBSpline/fr.md)**.
 2.  Créez une série de points en cliquant dans la vue 3D. Lorsque la commande est active, les points créés sont reliés par des lignes droites et un cercle de construction est créé au centre de chaque point.
 3.  Cliquez avec le bouton droit pour terminer la saisie et générer la courbe.
 4.  Selon les préférences, l\'outil peut rester actif pour tracer une nouvelle courbe. Cliquez à nouveau avec le bouton droit pour quitter la commande.

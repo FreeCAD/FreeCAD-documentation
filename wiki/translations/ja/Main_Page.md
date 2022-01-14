@@ -1,7 +1,7 @@
 # Main Page/ja
 ## Introduction
 
-This is the documentation wiki of _! 
+This is the documentation wiki of [FreeCAD](http://www.freecadweb.org). There are several ways to use this documentation: by exploring the hubs, by following the manual, or by using the Help menu entries from within FreeCAD. This is a work in progress, written by the community of users and developers of FreeCAD. If you find information that is wrong or missing, please [help FreeCAD](Special:MyLanguage/help_FreeCAD.md)! 
 
 
 
@@ -33,7 +33,7 @@ This is the documentation wiki of _!
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> _ は、このwikiに含まれる情報を表現するもう一つのより線形な方法です。 それは本のように読まれるように作られ、上のハブから他の多くのページにあなたを穏やかに紹介します。 [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) も利用できます。また、[a couple of translations in pdf format](https://www.freecadweb.org/manual/) 
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual](Manual_Introduction.md) は、このwikiに含まれる情報を表現するもう一つのより線形な方法です。 それは本のように読まれるように作られ、上のハブから他の多くのページにあなたを穏やかに紹介します。 [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) も利用できます。また、[a couple of translations in pdf format](https://www.freecadweb.org/manual/) 
  FreeCADマニュアルはFreeCADの使用についての最先端のドキュメントを提供するためにコミュニティの努力のもと常に作業が行われており、既に複数の言語で利用可能です。まだマニュアルには多くの情報が欠けています。遠慮せずに参加と[貢献を行ってください](Help_FreeCAD/jp.md)！
 
 +----------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------+
@@ -104,7 +104,7 @@ FreeCADはcMakeまたはautotoolsを使ってコンパイルすることがで�
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/ja

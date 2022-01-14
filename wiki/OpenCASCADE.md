@@ -11,7 +11,7 @@ The geometrical classes of OCCT are mostly implemented and made available in Fre
 
 *OpenCASCADE provides the basic geometrical classes and drawing functions to the [Part](Part_Workbench.md) module, which are then used by all workbenches in FreeCAD.*
 
-OpenCASCADE should not be confused with _.
+OpenCASCADE should not be confused with [OpenSCAD](https://www.openscad.org/), which is a different open source project to build 3D models, and which is accessible through the [OpenSCAD Workbench](OpenSCAD_Workbench.md).
 
 OpenCASCADE is free software governed by the terms of the GNU Lesser General Public License (LGPL) version 2.1 with an additional exception.
 
@@ -81,7 +81,7 @@ Thus, out of shapes you can build very complex parts or, the other way round, ex
 
  {{Powerdocnavi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > OpenCASCADE

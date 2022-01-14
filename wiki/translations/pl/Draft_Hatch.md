@@ -91,7 +91,7 @@ Obiekt Kreskowanie wywodzi się z obiektu [Część: Cecha](Part_Feature/pl.md) 
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę: _.
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Aby utworzyć kreskowanie, użyj metody `make_hatch` modułu Rysunek Roboczy.
 

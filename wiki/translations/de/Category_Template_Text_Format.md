@@ -3,9 +3,9 @@ In dieser Kategorie werden Vorlagen aufgelistet, die als Eingabe angegebenen Tex
 
 ### Contents:
 
-_ , _ , _
+[Template:Properties Title/de](Template:Properties_Title/de.md) , [Template:PropertyData/de](Template:PropertyData/de.md) , [Template:PropertyView/de](Template:PropertyView/de.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Template/de](<img src="images/Property.png" style="width:16px"> Template/de.md)
 
 ---
 [documentation index](../README.md) > Category:Template:Text Format/de

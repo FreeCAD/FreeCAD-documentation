@@ -1,6 +1,6 @@
 # Draft Snap Midpoint/es
 ---
-- GuiCommand:   Name:Draft Midpoint   Workbenches:_---
+- GuiCommand:   Name:Draft Midpoint   Workbenches:[Arch](Draft_Workbench___Draft]],_[[Arch_Workbench.md)|MenuLocation:Draft → [Shortcut:''None''   SeeAlso:[[Draft Snap](Draft_Snap___Snap]]_→_Midpoint.md)---
 
 
 </div>

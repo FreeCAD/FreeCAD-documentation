@@ -11,7 +11,7 @@ If you are not involved with the development discussed here:<br>
 
 <div class="mw-translate-fuzzy">
 
-Este es el articulo de proyecto del proyecto de simulación de Robots. Sigue las reglas de la metodología _.
+Este es el articulo de proyecto del proyecto de simulación de Robots. Sigue las reglas de la metodología [\|Getting things done](http://es.wikipedia.org/wiki/Getting_Things_Done). Los proyectos se recopilan en el [mapa de desarrollo](Development_roadmap/es.md).
 
 
 </div>
@@ -99,7 +99,7 @@ Simulación del robot
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Robot](Robot_Workbench.md) > Robot project/es

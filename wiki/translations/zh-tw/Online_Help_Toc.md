@@ -1,7 +1,7 @@
 # Online Help Toc/zh-tw
-This is the table of contents used for the automatic building of the **Online Help** system in FreeCAD. A printable version of this manual is also available on the _ including the forums and chat groups.
+This is the table of contents used for the automatic building of the **Online Help** system in FreeCAD. A printable version of this manual is also available on the [releases page](https://github.com/FreeCAD/FreeCAD/releases). If you have any questions or need help with FreeCAD please consult the [help page](Help.md) including the forums and chat groups.
 
-There is another table of contents for the _.
+There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -152,7 +152,7 @@ There is another table of contents for the _.
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Documentation/zh-tw](<img src="images/Property.png" style="width:16px"> Documentation/zh-tw.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/zh-tw

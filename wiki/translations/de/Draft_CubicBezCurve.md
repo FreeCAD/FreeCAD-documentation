@@ -14,7 +14,7 @@
 
 Der <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> **Draft\_CubicBezCurve/de\|Entwurf KubischeBézKurve**-Befehl erstellt eine [Bézierkurve](https://de.wikipedia.org/wiki/B%C3%A9zierkurve) dritten Grades (vier Punkte erforderlich).
 
-Die Bézierkurve ist eine der am häufigsten verwendeten Kurven bei Computergrafiken. Dieser Befehl erlaubt dir eine kontinuierliche Spline aus mehreren Béziersegmenten 3. Grades zu erstellen, ähnlich dem Bézierwerkzeug in _ Befehl erstellt werden.
+Die Bézierkurve ist eine der am häufigsten verwendeten Kurven bei Computergrafiken. Dieser Befehl erlaubt dir eine kontinuierliche Spline aus mehreren Béziersegmenten 3. Grades zu erstellen, ähnlich dem Bézierwerkzeug in [Inkscape](https://inkscape.org/). Eine allgemeine Bézier Kurve beliebigen Grades kann mit dem [Entwurf BézKurve](Draft_BezCurve/de.md) Befehl erstellt werden.
 
 Der [Entwurf BézKurve](Draft_BezCurve/de.md) und der [Entwurf KubischeBézKurve](Draft_CubicBezCurve/de.md) Befehl verwenden **Kontrollpunkte**, um die Position und Krümmung der Spline zu definieren. Der [Entwurf BSpline](Draft_BSpline/de.md) Befehl andererseits legt die **genauen Punkte**, durch die die Kurve verläuft fest.
 
@@ -60,7 +60,7 @@ Siehe [Entwurf BezKurve](Draft_BezCurve/de#Eigenschaften.md).
 
 <div class="mw-translate-fuzzy">
 
-Siehe auch: _.
+Siehe auch: [Autogenerierte API Dokumentation](https://www.freecadweb.org/api) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 
 </div>

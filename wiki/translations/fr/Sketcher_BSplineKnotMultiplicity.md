@@ -19,7 +19,7 @@ Montre ou masque l\'affichage de la multiplicité des nœuds d\'une courbe B-spl
 
 ## Utilisation
 
-1.  Sélectionnez une B-spline et utilisez le bouton de la barre d\'outils **<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [Afficher/Masquer la multiplicité des nœuds B-spline](Sketcher_BSplineKnotMultiplicity/fr.md)**.
+1.  Sélectionnez une B-spline et utilisez le bouton de la barre d\'outils **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [Afficher/Masquer la multiplicité des nœuds B-spline](Sketcher_BSplineKnotMultiplicity/fr.md)**.
 
 
 

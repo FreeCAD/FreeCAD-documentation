@@ -40,7 +40,7 @@
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Part](Part_Workbench.md) > Part Measure Menu/ru

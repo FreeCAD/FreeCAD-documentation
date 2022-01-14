@@ -11,7 +11,7 @@ Ten podręcznik jest eksperymentem, przyjmującym inne podejście niż [Oficjaln
 
 Niniejszy podręcznik jest napisany dla najnowszej stabilnej wersji FreeCAD, **0.18** *(początek 2019 roku)*.
 
-Zawartość tego podręcznika jest opublikowana na licencji _, oraz na oryginalnym koncie [Github](https://github.com/yorikvanhavre/FreeCAD-manual), na którym napisano pierwszą wersję tej książki. Łatwiejsze do odczytania wersje HTML, PDF, MOBI i EPUB są dostępne na stronie [GitBook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details). W przygotowaniu jest wersja drukowana.
+Zawartość tego podręcznika jest opublikowana na licencji [Creative Commons 4.0](http://creativecommons.org/licenses/by/4.0/) i może być swobodnie wykorzystywana, pobierana, kopiowana i modyfikowana. Pliki źródłowe tego podręcznika znajdują się na tym [Wiki](Main_Page/pl.md), oraz na oryginalnym koncie [Github](https://github.com/yorikvanhavre/FreeCAD-manual), na którym napisano pierwszą wersję tej książki. Łatwiejsze do odczytania wersje HTML, PDF, MOBI i EPUB są dostępne na stronie [GitBook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details). W przygotowaniu jest wersja drukowana.
 
 ---
 [documentation index](../README.md) > Manual:Introduction/pl

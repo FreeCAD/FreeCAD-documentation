@@ -16,7 +16,7 @@ The following is a very basic introduction, and by no means a complete tutorial.
 
 Usually when writing computer programs, you open a text editor or your special programming environment (which is basically a text editor with some additional tools), write your program, then compile and execute. Often one or more errors were made during entry, so your program won\'t work. You may even get an error message telling you what went wrong. Then you go back to your text editor, correct the mistakes, run again, repeating until your program works as intended.
 
-In Python that whole process can be done transparently inside the Python interpreter. The interpreter is a Python window with a command prompt, where you can simply type Python code. If you have installed Python on your computer (download it from the _.
+In Python that whole process can be done transparently inside the Python interpreter. The interpreter is a Python window with a command prompt, where you can simply type Python code. If you have installed Python on your computer (download it from the [Python website](https://www.python.org/) if you are on Windows or Mac, install it from your package repository if you are on GNU/Linux), you will have a Python interpreter in your start menu. But, as already mentioned, FreeCAD also has a built-in Python interpreter: the [Python console](Python_console.md).
 
 ![](images/FreeCAD_Python_console.png ) 
 *The FreeCAD Python console*
@@ -498,7 +498,7 @@ dir()
 
 }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Introduction to Python/pt-br

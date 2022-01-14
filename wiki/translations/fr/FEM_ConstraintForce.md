@@ -29,7 +29,7 @@ Appliquer une force à une face, une ligne ou un point :
 
 ![](images/FEM_ConstraintForce_example.JPG )
 
--   Cliquez sur **OK** pour terminer le dialogue et créer l\'objet **<img src=images/FEM_ConstraintForce.svg style="width:24px"> Contrainte de force**.
+-   Cliquez sur **OK** pour terminer le dialogue et créer l\'objet **[<img src=images/FEM_ConstraintForce.svg style="width:24px"> Contrainte de force**.
 
 ## Remarques
 

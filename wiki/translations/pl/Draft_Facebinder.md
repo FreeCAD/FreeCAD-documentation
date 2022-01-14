@@ -61,7 +61,7 @@ Obiekt Łącznik kształtu wywodzi się z obiektu [Część: Cecha](Part_Feature
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę: _.
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Aby utworzyć Łącznik kształtu użyj metody `make_facebinder` modułu Rysunek Roboczy ({{Version/pl|0.19}}). Ta metoda zastępuje przestarzałą metodę `makeFacebinder`.
 

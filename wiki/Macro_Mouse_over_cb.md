@@ -8,7 +8,7 @@
 |Date=2016-12-13
 |FCVersion=All
 |Download=[https://www.freecadweb.org/wiki/images/5/55/Macro_Mouse_over_cb.png Toolbar icon]
-|SeeAlso=<img src=images/Macro_FC_element_selector.png style="width:Macro FC element selector](Macro_FC_element_selector.md) [24px">
+|SeeAlso=[Macro FC element selector](Macro_FC_element_selector.md) [<img src=images/Macro_FC_element_selector.png style="width:24px">
 }}
 
 ## Description

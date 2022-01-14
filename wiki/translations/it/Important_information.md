@@ -3,7 +3,7 @@
 
 [Important information](Important_information.md) helps troubleshoot problems in your installation and usage of the program.
 
-The _.
+The [FreeCAD forum](https://forum.freecadweb.org/viewforum.php?f=3) is the best place to get help from expert users and developers. For other ways see [Help](Help.md).
 
 ## Directions
 

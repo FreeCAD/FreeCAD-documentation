@@ -1,5 +1,5 @@
 # Customize Toolbars/en
-{{TutorialInfo|Topic=SampleTopic|Level=Beginner|Time=5 minutes|Author=_|FCVersion=All}}
+{{TutorialInfo|Topic=SampleTopic|Level=Beginner|Time=5 minutes|Author=[Mario52](User_Mario52.md)|FCVersion=All}}
 
 ## Synopsis
 
@@ -73,7 +73,7 @@ This tutorial shows you the customization of toolbars. Tools (inclusive Macro-to
 
 -   Select the **Toolbars** tab and choose the workbench (for which the toolbar is provided) in the drop down on the right (**Part** in this example).
 
-     \<img src=images/Freecad.svg style="width:Since version 0.15 there is a  **[16px"> Global**  toolbar. If this is selected, the provided toolbar will be in each workbench.\]
+     \[Since version 0.15 there is a  **[<img src=images/Freecad.svg style="width:16px"> Global**  toolbar. If this is selected, the provided toolbar will be in each workbench.\]
 
 <img alt="Toolbars tab" src=images/CustomizeToolBar_11.png  style="width:640px;"> 
 
@@ -115,7 +115,7 @@ See also [Interface Customization](Interface_Customization.md).
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/en

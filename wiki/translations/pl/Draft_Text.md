@@ -22,7 +22,7 @@ Aby wstawić element tekstowy ze strzałką, użyj przycisku [Rysunek roboczy: E
 
 ## Użycie
 
-Zobacz również: _.
+Zobacz również: [Rysunek roboczy: Tacka narzędziowa](Draft_Tray/pl.md) oraz [Rysunek roboczy: Przyciąganie](Draft_Snap/pl.md).
 
 1.  Istnieje kilka sposobów na wywołanie polecenia:
     -   Naciśnij przycisk **<img src="images/Draft_Text.svg" width=16px> [Adnotacja wieloliniowa](Draft_Text/pl.md)**,
@@ -100,7 +100,7 @@ Obiekt Adnotacja wieloliniowa wywodzi się z obiektu [App: FeaturePython](App_Fe
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę: _.
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Narzędzie **Adnotacja wieloliniowa** używa metody `make_text` *(<small>(v0.19)</small> )* środowiska Rysunek roboczy. Ta metoda zastępuje przestarzałą metodę `makeText`.
 

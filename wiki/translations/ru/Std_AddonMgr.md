@@ -11,7 +11,7 @@
 
 ## Описание
 
-Команда **Std AddonMgr** открывает Менеджер дополнений. С его помощью Вы можете устанавливать и управлять _.
+Команда **Std AddonMgr** открывает Менеджер дополнений. С его помощью Вы можете устанавливать и управлять [сторонними верстаками](external_workbenches/ru.md) и [макросами](macros/ru.md), предоставляемыми сообществом FreeCAD. Доступные верстаки и макросы берутся из двух репозиториев, [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) и [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/), а так же страницы [рецепты макросов](Macros_recipes/ru.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -21,7 +21,7 @@
 
 </div>
 
-Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version _ below.
+Due to changes to the GitHub platform in the year 2020 the Addon manager no longer works if you use FreeCAD version 0.17 or earlier. You need to upgrade to version [0.18.5](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) or a recent [0.19](https://github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre) version. Alternatively you can install addons manually, see [Notes](#Notes.md) below.
 
 ![](images/Std_AddonMgr_dialog.png ) 
 *Диалоговое окно Менеджера дополнений*
@@ -70,7 +70,7 @@ Due to changes to the GitHub platform in the year 2020 the Addon manager no long
 
 ## Информация для разработчиков 
 
-If you have developed a workbench or macro, and want to see it included in the Addon manager, read how to do so on the repository pages: (_ page, there is nothing else to do, it will automatically be picked up by the Addon manager.
+If you have developed a workbench or macro, and want to see it included in the Addon manager, read how to do so on the repository pages: ([FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) and [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/)). If you add your macro to the [Macros recipes](Macros_recipes.md) page, there is nothing else to do, it will automatically be picked up by the Addon manager.
 
 ### Python верстаки 
 

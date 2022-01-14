@@ -1,6 +1,6 @@
 # Sketcher ConstrainHorizontal/it
 ---
-- GuiCommand:/it   Name:Constraint Horizontal   Name/it:Vincolo orizzontale   Workbenches:_---
+- GuiCommand:/it   Name:Constraint Horizontal   Name/it:Vincolo orizzontale   Workbenches:[PartDesign](Sketcher_Workbench/it___Schizzo]],_[[PartDesign_Workbench/it.md)|Shortcut:**H**   MenuLocation:PartDesign → Vincoli → Orizzontale   SeeAlso:[Verticale](Sketcher_ConstrainVertical/it.md)---
 
 
 </div>
@@ -48,7 +48,7 @@ e forzarle parallele all\'asse orizzontale dello schizzo.
 *The line turns dark green.*
 
 <img alt="" src=images/HorizontalConstraint3.png  style="width:500px;"> 
-*Apply the Horizontal Constraint by clicking on the **<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> [Constraint horizontal](Sketcher_ConstrainHorizontal.md)* in the Sketcher Constraints toolbar or by selecting the Constrain horizontally menu item in the Sketcher constraints sub menu of the Sketcher menu item in the Sketcher work bench (or the Part Design menu item of the Part Design work bench). The selected line is constrained to be parallel to the horizontal axis of the sketch.**
+*Apply the Horizontal Constraint by clicking on the **[<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> [Constraint horizontal](Sketcher_ConstrainHorizontal.md)* in the Sketcher Constraints toolbar or by selecting the Constrain horizontally menu item in the Sketcher constraints sub menu of the Sketcher menu item in the Sketcher work bench (or the Part Design menu item of the Part Design work bench). The selected line is constrained to be parallel to the horizontal axis of the sketch.**
 
 <img alt="" src=images/HorizontalConstraint4.png  style="width:500px;"> 
 *Multiple lines may be selected*

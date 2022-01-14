@@ -23,7 +23,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Diese Funktion beendet die Aufzeichnung eines Makros. Es ist über **Makro → Makro anhalten** erreichbar oder über den **<img src=images/Std_DlgMacroStop.png style="width:16px"> Beenden der Makroaufzeichnungssitzung** in der Makro Werkzeugleiste <img alt="" src=images/Macros_toolbar.jpg  style="width:96px;">.
+Diese Funktion beendet die Aufzeichnung eines Makros. Es ist über **Makro → Makro anhalten** erreichbar oder über den **[<img src=images/Std_DlgMacroStop.png style="width:16px"> Beenden der Makroaufzeichnungssitzung** in der Makro Werkzeugleiste <img alt="" src=images/Macros_toolbar.jpg  style="width:96px;">.
 
 
 </div>
@@ -39,7 +39,7 @@ Diese Funktion beendet die Aufzeichnung eines Makros. Es ist über **Makro → M
 
 <div class="mw-translate-fuzzy">
 
-Wenn du einen **<img src=images/Std_DlgMacroRecord.png style="width:16px"> <img src=images/Std_DlgMacroStop.png style="width:Aufnahme](Std_DlgMacroRecord.md)** startest die Makro Taste **[16px"> Makroaufzeichnungssitzung anhalten** wird in der Makro Werkzeugleiste grün <img alt="" src=images/Std_DlgMacroStop_02.png  style="width:16px;">.
+Wenn du einen **[<img src=images/Std_DlgMacroRecord.png style="width:16px"> [Aufnahme](Std_DlgMacroRecord.md)** startest die Makro Taste **[<img src=images/Std_DlgMacroStop.png style="width:16px"> Makroaufzeichnungssitzung anhalten** wird in der Makro Werkzeugleiste grün <img alt="" src=images/Std_DlgMacroStop_02.png  style="width:16px;">.
 
 
 </div>

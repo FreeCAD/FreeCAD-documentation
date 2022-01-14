@@ -12,7 +12,7 @@
 
 Questo tutorial ha lo scopo di introdurre il lettore al flusso di lavoro di base dell\'ambiente <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Schizzo](Sketcher_Workbench/it.md).
 
-L\'ambiente_. Uno schizzo chiuso viene normalmente utilizzato per creare una faccia o un profilo da estrudere in un _ di PartDesign .
+L\'ambiente[Sketcher ](Sketcher_Workbench/it.md) esiste come modulo autonomo, quindi può essere utilizzato per disegnare oggetti 2D generici (planari). Tuttavia, viene utilizzato principalmente in combinazione con <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md). Uno schizzo chiuso viene normalmente utilizzato per creare una faccia o un profilo da estrudere in un [corpo](PartDesign_Body/it.md) solido con un\'operazione come <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [Pad](PartDesign_Pad/it.md) di PartDesign .
 
 Il lettore farà pratica su:
 
@@ -29,7 +29,7 @@ Per una descrizione più approfondita dello sketcher, leggere il [Manuale di rif
 
 ## Setup
 
-1\. Open FreeCAD, create a new empty document with **File → <img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)**.
+1\. Open FreeCAD, create a new empty document with **File → [<img src=images/Std_New.svg style="width:16px"> [New](Std_New.md)**.
 
 :   1.1. Switch to the [Sketcher Workbench](Sketcher_Workbench.md) from the [workbench selector](Std_Workbench.md), or the menu **[View](Std_View_Menu.md) → Workbench → Sketcher**.
 
@@ -37,7 +37,7 @@ Some actions to remember:
 
 -   Press the right mouse button, or press **Esc** in the keyboard once, to deselect the active tool in edit mode.
 -   To exit the sketch edit mode, press the **Close** button in the [task panel](task_panel.md), or press **Esc** twice in the keyboard.
--   To enter again edit mode, double click on the sketch in the <img src=images/Sketcher_EditSketch.svg style="width:tree view](tree_view.md), or select it, and then click on **[16px"> [Edit sketch](Sketcher_EditSketch.md)**.
+-   To enter again edit mode, double click on the sketch in the [tree view](tree_view.md), or select it, and then click on **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Edit sketch](Sketcher_EditSketch.md)**.
 
 ## Creare uno schizzo 
 
@@ -99,19 +99,19 @@ Look at the **Constraints** and **Elements** sections to see the new listed cons
 
 La geometria reale deve creare una forma chiusa se deve essere utilizzata come profilo che può essere estruso da strumenti come <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [Pad](PartDesign_Pad/it.md) di PartDesign.
 
-Make sure you are not in construction mode by clicking on **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction](Sketcher_ToggleConstruction.md)**, if you have not previously exited this mode.
+Make sure you are not in construction mode by clicking on **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Toggle construction](Sketcher_ToggleConstruction.md)**, if you have not previously exited this mode.
 
 ### Outer arcs 
 
 4\. Create a circle.
 
-:   4.1. Click on **<img src=images/Sketcher_Circle.svg style="width:16px"> [Create circle](Sketcher_CreateCircle.md)**.
+:   4.1. Click on **[<img src=images/Sketcher_Circle.svg style="width:16px"> [Create circle](Sketcher_CreateCircle.md)**.
 :   4.2. Click on the **origin** of the sketch to position its center point.
 :   4.3. Click anywhere in the [3D view](3D_view.md) to set the circumference radius as a distance from the origin. Make it approximately {{Value|8 mm}}. Again the dimension will be fixed later.
 
 5\. Create a series of arcs.
 
-:   5.1. Click on **<img src=images/Sketcher_Arc.svg style="width:16px"> [Create arc](Sketcher_CreateArc.md)**.
+:   5.1. Click on **[<img src=images/Sketcher_Arc.svg style="width:16px"> [Create arc](Sketcher_CreateArc.md)**.
 :   5.2. Approach the endpoint of one of the construction lines, and click on it. This will set the center point of the circular arc to be <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [coincident](Sketcher_ConstrainCoincident.md) with this line\'s endpoint.
 :   5.3. Click once in the [3D view](3D_view.md) at an arbitrary location to set simultaneously the radius of the arc, and the first endpoint of it. Define an approximate radius of {{Value|8 mm}}.
 :   5.4. Move the pointer in an anti-clockwise direction to trace an arc that has its concavity pointing towards the origin of the sketch. Click to set the final endpoint of the arc, defining a circular arc that approximately sweeps {{Value|180°}} or half a circle.
@@ -127,7 +127,7 @@ Make sure you are not in construction mode by clicking on **<img src=images/Sket
 
 6\. Creare un arco tra ogni coppia degli archi O precedenti.
 
-:   6.1. Sempre con lo strumento **<img src=images/Sketcher_Arc.svg style="width:16px"> [Arco](Sketcher_CreateArc/it.md)** attivo, fare clic da qualche parte tra due archi O ma più lontano dall\'origine dello schizzo, per impostare il punto centrale di un nuovo arco.
+:   6.1. Sempre con lo strumento **[<img src=images/Sketcher_Arc.svg style="width:16px"> [Arco](Sketcher_CreateArc/it.md)** attivo, fare clic da qualche parte tra due archi O ma più lontano dall\'origine dello schizzo, per impostare il punto centrale di un nuovo arco.
 :   6.2. Fare clic in un punto vicino al punto finale di un arco O e spostare il puntatore per tracciare un altro arco finendo vicino a un altro punto finale di un arco O diverso, come se si stesse tentando di unire i punti finali. Questa volta la concavità deve puntare lontano dall\'origine.
 :   6.3. Ripetere questi passaggi, in modo che ogni coppia di archi O abbia un nuovo arco tra di loro. Chiameremo questi archi a I per archi verso l\'interno.
 
@@ -166,7 +166,7 @@ There are two principal types of constraints:
 
 
 :   7.3. Select all five O-arcs, those centered on an endpoint of a construction line.
-:   7.4. Press **<img src=images/Constraint_EqualLength.svg style="width:16px"> [Equal length](Sketcher_ConstrainEqual.md)**.
+:   7.4. Press **[<img src=images/Constraint_EqualLength.svg style="width:16px"> [Equal length](Sketcher_ConstrainEqual.md)**.
 :   7.5. Repeat with all I-arcs, those between the O-arcs.
 :   
     **Note:**again the constraints are chained. Therefore all O-arcs will have the same radius, and all I-arcs will have the same radius. At this moment, the specific value of these lengths is not fixed. You may use the pointer to drag a point and see how the sketch is updated while respecting the constraints in place.
@@ -188,7 +188,7 @@ as you add constraints, overlay symbols indicating the type of constraint appear
 
 **Note 2:**
 
-if you wish to temporarily disable the constraint, you may select it and press **<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Toggle active constraint](Sketcher_ToggleActiveConstraint.md)**. When you want to apply it again, press again the same button.
+if you wish to temporarily disable the constraint, you may select it and press **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Toggle active constraint](Sketcher_ToggleActiveConstraint.md)**. When you want to apply it again, press again the same button.
 
 <img alt="" src=images/05a_Sk01_Sketcher_equality_constraints_lines.png  style="width:" height="400px;"> <img alt="" src=images/05b_Sk01_Sketcher_equality_constraints_O-arcs.png  style="width:" height="400px;">
 
@@ -267,10 +267,10 @@ These constraints specify the numerical distances between two points, and angles
 11\. Regolare la dimensione degli archi.
 
 :   11.1. Selezionare uno degli archi O, centrato sul punto finale di una linea di costruzione.
-:   11.2. Premere il pulsante **<img src=images/Constraint_Radius.svg style="width:16px"> [Raggio](Sketcher_ConstrainRadius/it.md)**.
+:   11.2. Premere il pulsante **[<img src=images/Constraint_Radius.svg style="width:16px"> [Raggio](Sketcher_ConstrainRadius/it.md)**.
 :   11.3. Impostare il raggio su {{Value|8 mm}}. Poiché tutti gli archi O sono vincolati per avere lo stesso raggio, tutti questi archi regolano le loro dimensioni contemporaneamente.
 :   11.4. Selezionare uno degli archi I, tra due archi O.
-:   11.5. Premere il pulsante **<img src=images/Constraint_Radius.svg style="width:16px"> [Raggio](Sketcher_ConstrainRadius/it.md)**.
+:   11.5. Premere il pulsante **[<img src=images/Constraint_Radius.svg style="width:16px"> [Raggio](Sketcher_ConstrainRadius/it.md)**.
 :   11.6. Impostare il raggio su {{Value|11 mm}}. Poiché tutti gli archi O sono vincolati per avere lo stesso raggio, tutti questi archi regolano le loro dimensioni contemporaneamente.
 
 <img alt="" src=images/08a_Sk01_Sketcher_radius_1_constraint.png  style="width:" height="400px;"> <img alt="" src=images/08b_Sk01_Sketcher_radius_2_constraint.png  style="width:" height="400px;">
@@ -280,7 +280,7 @@ These constraints specify the numerical distances between two points, and angles
 *Sketch with radius constraints applied to the outwards arcs (left), and inwards arcs (right).*
 
 
-:   11.7. Finally, select the circle in the center of the sketch, press **<img src=images/Constraint_Radius.svg style="width:16px"> [Radius](Sketcher_ConstrainRadius.md)**, and set the value to {{Value|8 mm}}.
+:   11.7. Finally, select the circle in the center of the sketch, press **[<img src=images/Constraint_Radius.svg style="width:16px"> [Radius](Sketcher_ConstrainRadius.md)**, and set the value to {{Value|8 mm}}.
 
 Alla fine si dovrebbe ottenere uno schizzo completamente vincolato. Questo può essere confermato dal cambio di colore della geometria reale e dal messaggio che viene mostrato nella [scheda azioni](task_panel/it.md).
 
@@ -296,8 +296,8 @@ Alla fine si dovrebbe ottenere uno schizzo completamente vincolato. Questo può 
 
 :   12.1. Exit the sketch edit mode by pressing the **Close** button, or pressing **Esc** twice. The sketch should appear in the [tree view](tree_view.md) and the [3D view](3D_view.md).
 :   12.2. Switch to the [PartDesign Workbench](PartDesign_Workbench.md).
-:   12.3. With the sketch selected in the <img src=images/PartDesign_Body.svg style="width:tree view](tree_view.md), press **[16px"> [PartDesign Body](PartDesign_Body.md)**, choose the default XY-plane, and press **OK**. The sketch should appear now inside the Body.
-:   12.4. Select the sketch, and then press **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Pad](PartDesign_Pad.md)**, choose the default options, and press **OK** to create a solid extrusion.
+:   12.3. With the sketch selected in the [tree view](tree_view.md), press **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**, choose the default XY-plane, and press **OK**. The sketch should appear now inside the Body.
+:   12.4. Select the sketch, and then press **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Pad](PartDesign_Pad.md)**, choose the default options, and press **OK** to create a solid extrusion.
 
 <img alt="" src=images/09b_Sk01_Sketcher_fully_constrained_clean.png  style="width:" height="400px;"> <img alt="" src=images/10_Sk01_Sketcher_solid_extrusion.png  style="width:" height="400px;">
 
@@ -321,7 +321,7 @@ Constraining a sketch can be done in many different ways. In general, it is reco
 
 }} {{Sketcher Tools navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Sketcher/it](<img src="images/Property.png" style="width:16px"> Sketcher/it.md)
 
 ---
 [documentation index](../README.md) > Basic Sketcher Tutorial/it

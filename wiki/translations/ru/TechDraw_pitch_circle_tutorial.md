@@ -9,7 +9,7 @@
 
 ## Введение
 
-This tutorial explains how to add a pitch circle to a <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> _ with at least three holes in a circular pattern. For the circle a separate sketch will be created. A similar procedure can be used in other situations and to add other annotation-like elements to [TechDraw](TechDraw_Workbench.md) views.
+This tutorial explains how to add a pitch circle to a <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench.md) view. It assumes that the model is a <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Body](PartDesign_Body.md) with at least three holes in a circular pattern. For the circle a separate sketch will be created. A similar procedure can be used in other situations and to add other annotation-like elements to [TechDraw](TechDraw_Workbench.md) views.
 
 <img alt="" src=images/Circle.png  style="width:250px;"> <img alt="" src=images/Pitch_Circle.png  style="width:300px;">
 

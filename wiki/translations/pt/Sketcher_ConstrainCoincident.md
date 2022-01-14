@@ -30,7 +30,7 @@ As stated above, this tool takes two arguments - both are points.
 4.  A highlighted item will change its color to green. (This color can be customized in **Editing → Preference → Display → Colors → Selection**)
 5.  Subsequent items can be highlighted by repeating the above procedure(s). **Note:** it\'s unnecessary to hold-down any special key like **Ctrl** to achieve multiple item selection in a drawing.
 6.  Once you have two points highlighted, you can invoke the command using several methods:
-    -   Pressing on the **<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Coinstrain coincident](Sketcher_ConstrainCoincident.md)** constraint button in the toolbar.
+    -   Pressing on the **[<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Coinstrain coincident](Sketcher_ConstrainCoincident.md)** constraint button in the toolbar.
     -   Using the **C** keyboard shortcut.
     -   Using the **Sketch → Sketcher constraints → Constrain coincident** entry in the top menu.
 
@@ -49,11 +49,11 @@ In order to make two points coincident, FreeCAD must out of necessity move one (
 The two constrained items of a [Coincident](Sketcher_ConstrainCoincident.md) constraint must be start point or end point vertices, or center points of arcs, circles or ellipses. Some combinations which are not possible with a coincident constraint can be emulated using other constraints:
 
 -   The <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> [Symmetric](Sketcher_ConstrainSymmetric.md) constraint can be used to place a start point, end point or center point on the midpoint of a straight line.
--   A midpoint-to-midpoint placement of two straight lines can be achieved by creating a new <img alt="" src=images/Sketcher_CreatePoint.svg  style="width:24px;"> _ constraints so that it lies on the midpoint of both lines.
+-   A midpoint-to-midpoint placement of two straight lines can be achieved by creating a new <img alt="" src=images/Sketcher_CreatePoint.svg  style="width:24px;"> [Point](Sketcher_CreatePoint.md) and using two <img alt="" src=images/Sketcher_ConstrainSymmetric.svg  style="width:24px;"> [Symmetric](Sketcher_ConstrainSymmetric.md) constraints so that it lies on the midpoint of both lines.
 -   A vertex can be constrained to lie along an edge using a <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;">[PointOnObject](Sketcher_ConstrainPointOnObject.md) constraint. Note that with this constraint, the point can lie anywhere on the full extension of a segment or curve (i.e. also before the start point or beyond the end point).
--   A collinear placement of two straight lines can be obtained by applying a <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> _ constraint and a <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> [Parallel](Sketcher_ConstrainParallel.md) constraint.
+-   A collinear placement of two straight lines can be obtained by applying a <img alt="" src=images/Sketcher_ConstrainTangent.svg  style="width:24px;"> [Tangent](Sketcher_ConstrainTangent.md) constraint to them, or by combining a <img alt="" src=images/Sketcher_ConstrainPointOnObject.svg  style="width:24px;"> [PointOnObject](Sketcher_ConstrainPointOnObject.md) constraint and a <img alt="" src=images/Sketcher_ConstrainParallel.svg  style="width:24px;"> [Parallel](Sketcher_ConstrainParallel.md) constraint.
 -   Two edges can be made identical by using two <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Coincident](Sketcher_ConstrainCoincident.md) constraints, one for each pair of extremities.
--   Two circles can be made identical by using a <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> _ constraint to their edges. For arcs, this will ensure both arcs are part of the same circle, while allowing them to have different start and end points.
+-   Two circles can be made identical by using a <img alt="" src=images/Sketcher_ConstrainCoincident.svg  style="width:24px;"> [Coincident](Sketcher_ConstrainCoincident.md) constraint to merge the centers, and applying an <img alt="" src=images/Sketcher_ConstrainEqual.svg  style="width:24px;"> [Equal](Sketcher_ConstrainEqual.md) constraint to their edges. For arcs, this will ensure both arcs are part of the same circle, while allowing them to have different start and end points.
 
 ## Scripting
 
@@ -90,7 +90,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page explains the values which c
 
 }}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Sketcher/pt](<img src="images/Property.png" style="width:16px"> Sketcher/pt.md)
 
 ---
 [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher ConstrainCoincident/pt

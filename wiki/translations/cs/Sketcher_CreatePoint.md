@@ -15,7 +15,7 @@ Nástroj Bod vytvoří bod v aktuálním listu \"**Skicáře**\".
 
 </div>
 
-_
+[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md)
 
 
 <div class="mw-translate-fuzzy">

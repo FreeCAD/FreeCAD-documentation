@@ -40,7 +40,7 @@ FreeCAD.ActiveDocument.recompute()
 
 Beachte, wie wir myObj.Shape gehandhabt haben, und beachte, dass wir es genauso gemacht haben wie im vorherigen Kapitel, als wir andere Eigenschaften eines Objekts geändert haben, z. B. box.Height = 5 . In der Tat ist **Form** ebenfalls eine Eigenschaft, genau wie **Höhe**. Nur dass sie einer Part Form und nicht eine Zahl annimmt. Im nächsten Kapitel werden wir uns genauer ansehen, wie diese parametrischen Objekte aufgebaut sind.
 
-Lasse uns nun unsere Teilformen genauer untersuchen. Am Ende des Kapitels über _ haben wir eine Tabelle gezeigt, die erklärt, wie Part Formen konstruiert werden und aus welchen Komponenten sie bestehen (Knoten, Kanten, Flächen, usw.). Die gleichen Komponenten sind auch hier vorhanden und können über Python abgerufen werden. Part Formen haben immer die folgenden Attribute: Knoten, Kanten, Drähte, Flächen, Schalen und Volumenkörper. Alle sind Listen, die eine beliebige Anzahl von Elementen enthalten oder leer sein können:
+Lasse uns nun unsere Teilformen genauer untersuchen. Am Ende des Kapitels über [Traditionelle Modellierung mit dem Part Arbeitsbereich](Manual:Traditional_modeling,_the_CSG_way/de.md) haben wir eine Tabelle gezeigt, die erklärt, wie Part Formen konstruiert werden und aus welchen Komponenten sie bestehen (Knoten, Kanten, Flächen, usw.). Die gleichen Komponenten sind auch hier vorhanden und können über Python abgerufen werden. Part Formen haben immer die folgenden Attribute: Knoten, Kanten, Drähte, Flächen, Schalen und Volumenkörper. Alle sind Listen, die eine beliebige Anzahl von Elementen enthalten oder leer sein können:
 
 
 ```python
@@ -227,7 +227,7 @@ All dies und noch viel mehr wird auf der Seite [Teil Skripten](Topological_data_
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Manual:Creating and manipulating geometry/de

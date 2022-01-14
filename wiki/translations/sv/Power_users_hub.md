@@ -28,7 +28,7 @@ En av FreeCADs bästa egenskaper är att du kan skripta och utöka den extremt m
 
 <div class="mw-translate-fuzzy">
 
-Dessa sidor är i ett tidigt utvecklingsstadie. Om du inte kan hitta den information du letar efter, eller har hittat användbar information på något ställe sim vi inte har länkat till, var då snäll och lämna en kommentar på _, eller varför inte att du själv lägger till innehåll här!
+Dessa sidor är i ett tidigt utvecklingsstadie. Om du inte kan hitta den information du letar efter, eller har hittat användbar information på något ställe sim vi inte har länkat till, var då snäll och lämna en kommentar på [pratsidan](Talk_Power_users_hub.md), eller varför inte att du själv lägger till innehåll här!
 
 
 </div>
@@ -56,7 +56,7 @@ Dessa sidor är i ett tidigt utvecklingsstadie. Om du inte kan hitta den informa
 -   [Introduktion till python](Introduction_to_Python/sv.md) - Se även andra pythonövningar i slutet på denna sida
 -   [FreeCAD skriptgrunder](FreeCAD_Scripting_Basics/sv.md): grunderna\...
 
--   _
+-   [Nät skript](Mesh_Scripting/sv.md): Hur man interagerar med [Nät modulen](Mesh_Workbench/sv.md)
 -   [Gränssnittskommandon](Gui_Command/sv.md) : Lägga till anpassade kommandon till gränssnittet
 -   Använda blandade [Enheter](Units/sv.md) i FreeCAD
 
@@ -161,7 +161,7 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 <div class="mw-translate-fuzzy">
 
-Den kompletta API beskrivningen hittas _. Notera att den kan vara ofullständig, eftersom vi fortfarande inte har hittat ett sätt att automatiskt inkludera den på denna wiki. För mer rättvisande information, titta i modulerna direkt från FreeCAD.
+Den kompletta API beskrivningen hittas [här](:<img src="images/Property.png" style="width:16px"> API/sv.md). Notera att den kan vara ofullständig, eftersom vi fortfarande inte har hittat ett sätt att automatiskt inkludera den på denna wiki. För mer rättvisande information, titta i modulerna direkt från FreeCAD.
 
 
 </div>
@@ -231,7 +231,7 @@ The following two references are PyQt specific (not PySide) but may offer some i
 
 <div class="mw-translate-fuzzy">
 
-På _, så kan du hitta andra FreeCAD-baserade projekt som körs av FreeCADs användargrupp. Om du startar ett nytt FreeCAD projekt, ta och lista det där! Vi har också en sida med saker som du kan göra om du skulle vilja [Hjälpa FreeCAD](Help_FreeCAD/sv.md).
+På [Grupportalen](free-cad:Community_Portal/sv.md), så kan du hitta andra FreeCAD-baserade projekt som körs av FreeCADs användargrupp. Om du startar ett nytt FreeCAD projekt, ta och lista det där! Vi har också en sida med saker som du kan göra om du skulle vilja [Hjälpa FreeCAD](Help_FreeCAD/sv.md).
 
 
 </div>
@@ -243,7 +243,7 @@ På _, så kan du hitta andra FreeCAD-baserade projekt som körs av FreeCADs anv
 
 }}
 
-_
+[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
 [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/sv

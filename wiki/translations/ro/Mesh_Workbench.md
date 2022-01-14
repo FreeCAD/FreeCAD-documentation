@@ -142,8 +142,8 @@ There are some [export preferences related to Mesh Formats](Import_Export_Prefer
 
 Mesh Workbench preferences can be found in the following categories of the [Preferences Editor](Preferences_Editor.md):
 
--   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> _ tab several preferences can be set.
--   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> _, [Mesh Intersection](Mesh_Intersection.md) and [Mesh Difference](Mesh_Difference.md) commands require [OpenSCAD](http://www.openscad.org/) and use the **OpenSCAD executable** preference to find its executable.
+-   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Display](Preferences_Editor#Display_settings.md): On the [Mesh view](Preferences_Editor#Mesh_view.md) tab several preferences can be set.
+-   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences.md): The [Mesh Union](Mesh_Union.md), [Mesh Intersection](Mesh_Intersection.md) and [Mesh Difference](Mesh_Difference.md) commands require [OpenSCAD](http://www.openscad.org/) and use the **OpenSCAD executable** preference to find its executable.
 
 
 <div class="mw-translate-fuzzy">
@@ -175,7 +175,7 @@ Mesh Workbench preferences can be found in the following categories of the [Pref
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Mesh Workbench/ro

@@ -16,9 +16,9 @@ FreeCAD wiki\'de, kenar çubuğu seçilen dile bağlı olarak metni değiştiren
 
 ### Talimatlar
 
-Çeviriye başlamak için özel _ özel sayfasına gidebilirsiniz.
+Çeviriye başlamak için özel [Special:Translate/wiki-sidebar](Special:Translate/wiki-sidebar.md) özel sayfasına gidebilirsiniz.
 
-İndirme sayfasında bir hata var. Bağlantıyı \"Download/fr\" veya \"Download/de\" vb. Sayfalarına yönlendiremezsiniz. Bunun yerine, bağlantı kendi dilinizde \"İndirme\" gerçek çevirisini gösterecektir. Başa çıkmanın en iyi yolu bu yeni sayfayı oluşturmak ve doğru sayfaya yönlendirme yapmaktır. Yönlendirme hakkında daha fazlası _.
+İndirme sayfasında bir hata var. Bağlantıyı \"Download/fr\" veya \"Download/de\" vb. Sayfalarına yönlendiremezsiniz. Bunun yerine, bağlantı kendi dilinizde \"İndirme\" gerçek çevirisini gösterecektir. Başa çıkmanın en iyi yolu bu yeni sayfayı oluşturmak ve doğru sayfaya yönlendirme yapmaktır. Yönlendirme hakkında daha fazlası [Yardım: Düzenleme](Help:Editing/tr.md).
 
 ### Önemli notlar 
 
@@ -36,7 +36,7 @@ Soldaki link bağlantının hedefini, sağdaki ise kenar çubuğunda görüntül
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Wiki](Category_Wiki.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Localisation Sidebar/tr

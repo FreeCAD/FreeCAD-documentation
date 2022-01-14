@@ -45,7 +45,7 @@ Consulta también una descripción detallada en la página [cómo instalar ambie
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Installing more workbenches/es

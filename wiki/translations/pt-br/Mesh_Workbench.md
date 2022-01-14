@@ -18,7 +18,7 @@ A <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [ Bancada de M
 
 Muitos aplicativos 3D, como [Sketchup](http://en.wikipedia.org/wiki/Sketchup), [Blender](http://en.wikipedia.org/wiki/Blender_(software)), [.org / wiki / Maya\_ (software) Maya](http://en.wikipedia/) e [3D Studio Max](http://en.wikipedia.org/wiki/3d_max), usam malhas como seu tipo principal de objeto 3D. Como as malhas são objetos muito simples, contendo apenas vértices (pontos), arestas e faces triangulares, elas são muito fáceis de criar, modificar, subdividir, estender e podem ser facilmente passadas de um aplicativo para outro sem qualquer perda de detalhes. Além disso, como as malhas contêm dados muito simples, os aplicativos 3D geralmente podem gerenciar grandes quantidades deles sem usar muitos recursos. Por esses motivos, as malhas são geralmente o tipo de objeto 3D escolhido para aplicativos que lidam com filmes, animações e criação de imagens.
 
-Entretanto, no campo da engenharia, as malhas apresentam uma grande limitação: não podem definir com precisão superfícies curvas. É por isso que o FreeCAD conta com _ em vez disso. A Bancada de Trabalho Mesh oferece alguns comandos para manipular diretamente as malhas, mas é mais freqüentemente usada para importar dados de malhas 3D e convertê-los em um sólido para uso com o <img alt="" src=images/Workbench_Part.svg  style="width:24px;">. _.
+Entretanto, no campo da engenharia, as malhas apresentam uma grande limitação: não podem definir com precisão superfícies curvas. É por isso que o FreeCAD conta com [Brep](wikipedia_Boundary_representation.md) em vez disso. A Bancada de Trabalho Mesh oferece alguns comandos para manipular diretamente as malhas, mas é mais freqüentemente usada para importar dados de malhas 3D e convertê-los em um sólido para uso com o <img alt="" src=images/Workbench_Part.svg  style="width:24px;">. [Bancada de Trabalho Part](Part_Workbench/pt-br.md) ou <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Bancada de Trabalho PartDesign](PartDesign_Workbench/pt-br.md).
 
 <img alt="" src=images/Mesh_example.jpg  style="width:500px;">
 
@@ -37,7 +37,7 @@ Todas as ferramentas da Bancada de Trabalho Mesh podem ser acessadas a partir do
 -   Analisar
     -   <img alt="" src=images/Mesh_Evaluation.svg  style="width:32px;"> [Avaliar e Repapar malha](Mesh_Evaluation/pt-br.md): Avalia e repara um objeto de malha.
     -   <img alt="" src=images/Mesh_EvaluateFacet.svg  style="width:32px;"> [Face Info](Mesh_EvaluateFacet/pt-br.md): Dá informações sobre as faces.
-    -   <img alt="" src=images/Mesh_CurvatureInfo.svg  style="width:32px;"> _ em pontos selecionados.
+    -   <img alt="" src=images/Mesh_CurvatureInfo.svg  style="width:32px;"> [Curvatura Info](Mesh_CurvatureInfo/pt-br.md): Mostra a curvatura absoluta de [objetos de curvatura](Mesh_VertexCurvature/pt-br.md) em pontos selecionados.
     -   <img alt="" src=images/Mesh_EvaluateSolid.svg  style="width:32px;"> [Checar malha sólido](Mesh_EvaluateSolid/pt-br.md): Verifica se um objeto de malha é sólido.
     -   <img alt="" src=images/Mesh_BoundingBox.svg  style="width:32px;"> [Delimitações info](Mesh_BoundingBox/pt-br.md): Mostra as coordenadas da caixa de delimitação de um objeto de malha.
 
@@ -95,8 +95,8 @@ Existem algumas [preferências de exportação relacionadas aos formatos de malh
 
 As preferências da Bancada de Trabalho Mesh podem ser encontradas nas seguintes categorias do [ Editor de Preferências](Preferences_Editor/pt-br.md):
 
--   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> _, várias preferências podem ser definidas.
--   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> _, [Mesh Intersecção](Mesh_Intersection/pt-br.md) e [Mesh Diferença](Mesh_Difference/pt-br.md) requerem [OpenSCAD](http://www.openscad.org/) e usam a preferência **OpenSCAD executável** para encontrar seu executável.
+-   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Display](Preferences_Editor/pt-br#Display_settings.md): Na aba [Mesh view](Preferences_Editor/pt-br#Mesh_view.md), várias preferências podem ser definidas.
+-   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences/pt-br.md): Os comandos [Mesh União](Mesh_Union/pt-br.md), [Mesh Intersecção](Mesh_Intersection/pt-br.md) e [Mesh Diferença](Mesh_Difference/pt-br.md) requerem [OpenSCAD](http://www.openscad.org/) e usam a preferência **OpenSCAD executável** para encontrar seu executável.
 
 ## Notas
 
@@ -119,7 +119,7 @@ As preferências da Bancada de Trabalho Mesh podem ser encontradas nas seguintes
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Mesh Workbench/pt-br

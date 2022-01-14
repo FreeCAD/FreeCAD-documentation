@@ -32,7 +32,7 @@ Versões anteriores podem ser baixadas a partir da página [releases](https://gi
 |                                                                                                                                   |   |                                                                                                                 |   |                                            |
 | Install on Windows                                                                                                                |   | Install on Mac                                                                                                  |   | Install on Linux                           |
 |                                                                                                                                   |   |                                                                                                                 |   |                                            |
-| _     |
+| [64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD-0.19.3-WIN-x64-installer-2.exe) (includes installer) |   | [macOS 64-bit](https://github.com/FreeCAD/FreeCAD/releases/download/0.19.3/FreeCAD_0.19.3-OSX-x86_64-conda.dmg) |   | [AppImage 64-bit](AppImage.md)     |
 +-----------------------------------------------------------------------------------------------------------------------------------+---+-----------------------------------------------------------------------------------------------------------------+---+--------------------------------------------+
 
 
@@ -90,7 +90,7 @@ O desenvolvimento do FreeCAD está ativo.
 
 ## Módulos e macros adicionais 
 
-A comunidade FreeCAD fornece muitos módulos e macros adicionais. A partir da versão 0.17 é possível instalá-los por dentro do próprio FreeCAD, usando o _.
+A comunidade FreeCAD fornece muitos módulos e macros adicionais. A partir da versão 0.17 é possível instalá-los por dentro do próprio FreeCAD, usando o [Gerenciador de Extensões](Std_AddonMgr/pt-br.md). [24px](Imagem:Std_AddonMgr.svg.md).
 
 ---
 [documentation index](../README.md) > Download/pt-br

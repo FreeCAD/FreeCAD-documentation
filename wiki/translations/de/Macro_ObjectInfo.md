@@ -8,7 +8,7 @@
 |Date=2012-11-09
 |FCVersion=Until 0.17 '''and PyQt4'''
 |Download=Dies ist kein Makro, sondern eine WorkBench. Dekomprimieren Sie die ZIP-Datei und fügen Sie das vollständige Verzeichnis in das Mod-Benutzerverzeichnis ein [https://github.com/KeithSloan/FreeCAD_Info/archive/master.zip Info]
-|SeeAlso=<img src=images/Arch_Survey.svg style="width:Arch Survey|24px"> [Arch Survey](Arch_Survey/de.md)
+|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Survey](Arch_Survey/de.md)
 }}
 
 ## Beschreibung

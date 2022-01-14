@@ -12,7 +12,7 @@
 
 The **Mesh Difference** command creates a new non-parametric mesh object, a [Mesh Feature](Mesh_Feature.md), that is the difference of two mesh objects: one mesh object is cut from the other.
 
-_.
+[OpenSCAD](http://www.openscad.org/) must be installed to use this command, and the path to its executable must be set in the [OpenSCAD preferences](OpenSCAD_Preferences.md).
 
 ![](images/Mesh_Difference_example.png ) 
 *On the left two mesh objects, on the right the mesh object that is the difference of those objects if the cube is selected as the main object*

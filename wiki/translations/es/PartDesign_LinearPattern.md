@@ -13,7 +13,7 @@
 
 <div class="mw-translate-fuzzy">
 
-La herramienta **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''PatrónLineal'''** crea copias de una operación a una misma distancia en dirección lineal. A partir de la v0.17 la herramienta de patrón lineal puede repetir múltiples operaciones. {{VersionPlus/es|0.17}}
+La herramienta **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''PatrónLineal'''** crea copias de una operación a una misma distancia en dirección lineal. A partir de la v0.17 la herramienta de patrón lineal puede repetir múltiples operaciones. {{VersionPlus/es|0.17}}
 
 
 </div>
@@ -27,7 +27,7 @@ La herramienta **<img src=images/PartDesign_LinearPattern.svg style="width:24px"
 Para crear un patrón de repetición:
 
 1.  Seleccionar la operación (u operaciones {{Version/es|0.19}}) que se han de repetir.
-2.  Presionar el botón **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''PatrónLineal'''** .
+2.  Presionar el botón **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''PatrónLineal'''** .
 3.  Definir la **Dirección**. Ver [Opciones](#Options/es.md).
 4.  Definir la **Longitud** (distancia) entre la que será la última copia y la figura original.
 5.  Introducir el número de **Apariciones** o copias deseadas.

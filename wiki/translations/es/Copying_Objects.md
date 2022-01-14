@@ -18,7 +18,7 @@ Como muchos otros programas, FreeCAD también tiene la capacidad de copiar/corta
 
 <div class="mw-translate-fuzzy">
 
-Por favor, considere que los objetos copiados no dependen del original. Si quieres clones dependientes por favor usa <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> _. Si necesita un clon dependiente o una réplica paramétrica, también puede usar <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [ La copia simple del ambiente de trabajo Piezas](Part_SimpleCopy/es.md). Para clones con patrones, por favor, mira en la [ sección Otros Métodos](Copying_Objects/es#Otros_Métodos.md) de esta página.
+Por favor, considere que los objetos copiados no dependen del original. Si quieres clones dependientes por favor usa <img alt="" src=images/Draft_Clone.svg  style="width:24px;"> [Clon del ambiente de trabajo Borrador](Draft_Clone/es.md) o <img alt="" src=images/PartDesign_Clone.svg  style="width:24px;"> [ Clon del ambiente de trabajo DiseñoPiezas](PartDesign_Clone/es.md). Si necesita un clon dependiente o una réplica paramétrica, también puede usar <img alt="" src=images/Part_SimpleCopy.svg  style="width:24px;"> [ La copia simple del ambiente de trabajo Piezas](Part_SimpleCopy/es.md). Para clones con patrones, por favor, mira en la [ sección Otros Métodos](Copying_Objects/es#Otros_Métodos.md) de esta página.
 
 
 </div>

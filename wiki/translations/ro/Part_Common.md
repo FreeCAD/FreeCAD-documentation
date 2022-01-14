@@ -19,7 +19,7 @@
 Extrage partea comună între obiectele selectate. Această operație este complet parametrică, iar componentele pot fi modificate, iar rezultatul este recompensat.
 
 Funcția **![](images/)_[Intersection](Part_Common/fr.md)**, extrage partea comună (intersecția) a celor două solide selectate. Această operație este total parametrică: componentele pot fi modificate și rezultatul recalculat.
-_
+[480px\|left](IMAGE:Part_Common_fr_01.png.md)
 
 
 ### Usage

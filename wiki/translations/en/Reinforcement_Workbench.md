@@ -7,7 +7,7 @@
 
 The [Reinforcement workbench](Reinforcement_Workbench.md) is an [external workbench](External_workbenches.md) that provides tools for Reinforcement Generation and Detailing. This workbench provides an interface and presets for the creation of common rebar types. And tools to generate rebars bill of material, rebar shape cut list, bar bending schedule, and rebars drawing and dimension.
 
-Image:Arch\_Rebar\_Straight\_example.png\|_ Image:Arch\_Rebar\_LShape\_example.png\|_ Image:Arch\_Rebar\_Stirrup\_example.png\|_ Image:Arch\_Rebar\_Circular\_ColumnReinforcement\_example.png\|_ Image:Arch\_Rebar\_ColumnReinforcement\_TwoTies\_example.png\|_ Image:Isometric\_view\_of\_Bent\_Shape\_rebars\_in\_parallel\_and\_cross\_direction\_with\_distribution\_rebars.png\|_ Image:Arch\_Rebar\_BOM\_example.png\|_ Image:Reinforcement\_Bar\_Bending\_Schedule\_example.svg\|_
+Image:Arch\_Rebar\_Straight\_example.png\|[Straight Rebar](Arch_Rebar_Straight.md) Image:Arch\_Rebar\_UShape\_example.png\|[UShape Rebar](Arch_Rebar_UShape.md) Image:Arch\_Rebar\_LShape\_example.png\|[LShape Rebar](Arch_Rebar_LShape.md) Image:Arch\_Rebar\_BentShape\_example.png\|[BentShape Rebar](Arch_Rebar_BentShape.md) Image:Arch\_Rebar\_Stirrup\_example.png\|[Stirrup Rebar](Arch_Rebar_Stirrup.md) Image:Arch\_Rebar\_Helical\_example.png\|[Helical Rebar](Arch_Rebar_Helical.md) Image:Arch\_Rebar\_Circular\_ColumnReinforcement\_example.png\|[Circular Column Reinforcement](Arch_Rebar_Circular_ColumnReinforcement.md) Image:Arch\_Rebar\_ColumnReinforcement\_example.png\|[Single Tie Column Reinforcement](Arch_Rebar_ColumnReinforcement.md) Image:Arch\_Rebar\_ColumnReinforcement\_TwoTies\_example.png\|[Two Ties Six Rebars Column Reinforcement](Arch_Rebar_ColumnReinforcement_TwoTiesSixRebars.md) Image:Arch\_Rebar\_BeamReinforcement\_example.png\|[Beam Reinforcement](Arch_Rebar_BeamReinforcement.md) Image:Isometric\_view\_of\_Bent\_Shape\_rebars\_in\_parallel\_and\_cross\_direction\_with\_distribution\_rebars.png\|[Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md) Image:Isometric\_view\_of\_Columns\_footing.png\|[Footing Reinforcement](Arch_Rebar_Footing_Reinforcement.md) Image:Arch\_Rebar\_BOM\_example.png\|[Bill Of Material](Arch_Rebar_BOM.md) Image:Reinforcement\_Bar\_Shape\_Cut\_List\_example.svg\|[Rebar Shape Cut List](Reinforcement_Bar_Shape_Cut_List.md) Image:Reinforcement\_Bar\_Bending\_Schedule\_example.svg\|[Reinforcement Bar Bending Schedule](Reinforcement_Bar_Bending_Schedule.md) Image:Arch\_Rebar\_Drawing\_Dimensioning\_example.svg\|[Reinforcement Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md)
 
 ## Installing
 
@@ -53,12 +53,12 @@ The Reinforcement workbench is not bundled with the default FreeCAD package, but
 
 -   <img alt="" src=images/Arch_Rebar_Drawing_Dimensioning.svg  style="width:32px;"> [Reinforcement Drawing Dimensioning](Arch_Rebar_Drawing_Dimensioning.md): Creates drawing and dimensioning of reinforcing bars
     -   <img alt="" src=images/Arch_Rebar_Drawing.svg  style="width:32px;"> [Reinforcement Drawing](Arch_Rebar_Drawing_Dimensioning#Reinforcement_Drawing.md): Creates drawing of reinforcing bars
-    -   <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width:32px;"> _
+    -   <img alt="" src=images/Arch_Rebar_Dimensioning.svg  style="width:32px;"> [Reinforcement Dimensioning](Arch_Rebar_Drawing_Dimensioning#Reinforcement_Dimensioning.md): Creates dimensioning of reinforcing bars in [Reinforcement Drawing](Arch_Rebar_Drawing_Dimensioning#Reinforcement_Drawing.md)
 
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > Reinforcement Workbench/en

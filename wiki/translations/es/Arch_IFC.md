@@ -12,7 +12,7 @@
 
 ## Descripción
 
-El <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _ cuentan con un importador y exportador de [Industry Foundation Classes (IFC)](https://es.wikipedia.org/wiki/Industry_Foundation_Classes). El formato IFC es un formato en continuo crecimiento para intercambiar datos entre aplicaciones [Modelado de información de construcción](https://es.wikipedia.org/wiki/Modelado_de_informaci%C3%B3n_de_construcci%C3%B3n), (Inglés: BIM, Building Information Modelling) utilizadas en arquitectura e ingeniería.
+El <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arquitectura](Arch_Workbench/es.md) y <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM Ambientes de trabajo](BIM_Workbench/es.md) cuentan con un importador y exportador de [Industry Foundation Classes (IFC)](https://es.wikipedia.org/wiki/Industry_Foundation_Classes). El formato IFC es un formato en continuo crecimiento para intercambiar datos entre aplicaciones [Modelado de información de construcción](https://es.wikipedia.org/wiki/Modelado_de_informaci%C3%B3n_de_construcci%C3%B3n), (Inglés: BIM, Building Information Modelling) utilizadas en arquitectura e ingeniería.
 
 Tanto el importador como el exportador dependen de la biblioteca [IfcOpenShell](IfcOpenShell/es.md), que se incluye en algunas distribuciones de FreeCAD. Una forma fácil de comprobar si IfcOpenShell está disponible es introducir lo siguiente en la [Consola de Python](Python_console/es.md):
 
@@ -26,7 +26,7 @@ Si no aparece ningún mensaje de error, IfcOpenShell está instalado y puede pro
 
 **Nota:**
 
-el **<img src=images/BIM_Setup.svg style="width:16px"> [BIM Configuración](BIM_Setup/es.md)** buscará también IfcOpenShell y emitirá una notificación si no está instalado.
+el **[<img src=images/BIM_Setup.svg style="width:16px"> [BIM Configuración](BIM_Setup/es.md)** buscará también IfcOpenShell y emitirá una notificación si no está instalado.
 
 
 **Nota 2:**
@@ -68,7 +68,7 @@ Si se activa la opción **mostrar mensajes de depuración** en la configuración
 
 ## Exportación
 
-La exportación a archivos IFC exportará todos los objetos seleccionados y sus descendientes. Todos los objetos de Arch/BIM son compatibles, así como otros objetos creados en otras mesas de trabajo. Los únicos objetos no totalmente soportados, por el momento, son **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Cuerpos](PartDesign_Body/es.md)**, **_** y **[16px"> LinkGroups**, por lo que tendrás que hacer un poco de pruebas si los usas. [Arch Referencias](Arch_Reference/es.md) exportará actualmente como `IfcBuildingElementProxies`.
+La exportación a archivos IFC exportará todos los objetos seleccionados y sus descendientes. Todos los objetos de Arch/BIM son compatibles, así como otros objetos creados en otras mesas de trabajo. Los únicos objetos no totalmente soportados, por el momento, son **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Cuerpos](PartDesign_Body/es.md)**, **[<img src=images/Std_Part.svg style="width:16px"> [Piezas](Std_Part/es.md)**, y nuevas estructuras como **[<img src=images/Link.svg style="width:16px"> [App Enlaces](Std_LinkMake/es.md)** y **[<img src=images/LinkGroup.svg style="width:16px"> LinkGroups**, por lo que tendrás que hacer un poco de pruebas si los usas. [Arch Referencias](Arch_Reference/es.md) exportará actualmente como `IfcBuildingElementProxies`.
 
 Para exportar todo un solar o edificio o toda una planta o un grupo que contenga otros objetos, sólo es necesario seleccionar ese edificio o planta o grupo. Los objetos del arco se exportarán con el tipo establecido en su propiedad \"Tipo IFC\". Sus [IfcProperties](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/schema/ifcpropertyresource/lexical/ifcproperty.htm) también se exportan, y si estos objetos tienen un UID IFC de una importación anterior, el mismo UID se mantendrá en la exportación. Los objetos que no son objetos Arch se exportan como [IfcBuildingElementProxy](http://www.buildingsmart-tech.org/ifc/IFC4/Add1/html/schema/ifcsharedbldgelements/lexical/ifcbuildingelementproxy.htm).
 
@@ -92,7 +92,7 @@ Si la forma de los objetos exportados se basa en una extrusión o en una operaci
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> File Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch IFC/es

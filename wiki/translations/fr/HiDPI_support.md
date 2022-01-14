@@ -224,7 +224,7 @@ Qt ne fournit pas la fonctionnalité pour récupérer cette valeur. Nous devons 
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > HiDPI support/fr

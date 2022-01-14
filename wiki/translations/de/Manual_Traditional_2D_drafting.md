@@ -1,11 +1,11 @@
 # Manual:Traditional 2D drafting/de
 {{Manual:TOC/de}}
 
-Möglicherweise bist du an FreeCAD interessiert, weil du bereits einige Erfahrung beim technischen Zeichnen hast, zum Beispiel mit Software wie _.
+Möglicherweise bist du an FreeCAD interessiert, weil du bereits einige Erfahrung beim technischen Zeichnen hast, zum Beispiel mit Software wie [AutoCAD](https://de.wikipedia.org/wiki/AutoCAD). Oder du weist schon etwas über Design oder ziehst es vor, Dinge zu zeichnen, bevor du diese baust. In jedem Fall bietet FreeCAD einen eher herkömmlichen Arbeitsbereich, mit Werkzeugen, die in den meisten 2D CAD Anwendungen zu finden sind: Der [Entwurf Arbeitsbereich](Draft_Workbench/de.md).
 
-Obwohl der Entwurf Arbeitsbereich Abläufe aus der herkömmlichen 2D CAD Welt übernimmt, ist er überhaupt nicht darauf beschränkt. All seine Werkzeuge funktionieren im gesamten 3D Bereich und viele der Entwurf Werkzeuge, z.B. <img alt="" src=images/Draft_Move.svg  style="width:16px;"> _, sind allgemein überall in FreeCAD verfügbar, weil sie oftmals viel intuitiver sind, als wenn die Einstellungen manuell geändert werden müssten.
+Obwohl der Entwurf Arbeitsbereich Abläufe aus der herkömmlichen 2D CAD Welt übernimmt, ist er überhaupt nicht darauf beschränkt. All seine Werkzeuge funktionieren im gesamten 3D Bereich und viele der Entwurf Werkzeuge, z.B. <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Verschieben](Draft_Move/de.md) oder <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [Drehen](Draft_Rotate/de.md), sind allgemein überall in FreeCAD verfügbar, weil sie oftmals viel intuitiver sind, als wenn die Einstellungen manuell geändert werden müssten.
 
-Unter den vom Entwurf Arbeitsbereich angebotenen Werkzeugen findest du herkömmliche Werkzeuge wie <img alt="" src=images/Draft_Line.svg  style="width:16px;"> _, oder <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> _, <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> _, die/das[Arbeitsebene/Gittersystem](Draft_SelectPlane/de.md) festzulegen, das es Ihnen erlaubt, genau zu definieren, in welcher Ebene du arbeitest, und ein komplettes [Objektfang System](Draft_Snap/de.md), das es sehr einfach macht, Elemente zu zeichnen und präzise zueinander zu positionieren.
+Unter den vom Entwurf Arbeitsbereich angebotenen Werkzeugen findest du herkömmliche Werkzeuge wie <img alt="" src=images/Draft_Line.svg  style="width:16px;"> [Linie](Draft_Line/de.md), <img alt="" src=images/Draft_Circle.svg  style="width:16px;"> [Kreis](Draft_Circle/de.md), oder <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Polygonzug](Draft_Wire/de.md) (Polylinie), Änderungswerkzeuge wie <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Verschieben](Draft_Move/de.md), <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [Drehen](Draft_Rotate/de.md) oder <img alt="" src=images/Draft_Offset.svg  style="width:16px;"> [Versetzen](Draft_Offset/de.md), die/das[Arbeitsebene/Gittersystem](Draft_SelectPlane/de.md) festzulegen, das es Ihnen erlaubt, genau zu definieren, in welcher Ebene du arbeitest, und ein komplettes [Objektfang System](Draft_Snap/de.md), das es sehr einfach macht, Elemente zu zeichnen und präzise zueinander zu positionieren.
 
 Um den Arbeitsablauf und die Möglichkeiten des Entwurf Arbeitsbereichs zu präsentieren, werden wir eine einfache Übung durchlaufen, deren Ergebnis diese kleine Zeichnung sein wird, die den Grundriss eines kleinen Hauses zeigt, das nur eine Küchenzeile enthält (ein ziemlich absurder Grundriss, aber wir können hier machen, was wir wollen, nicht wahr?):
 
@@ -42,7 +42,7 @@ Um den Arbeitsablauf und die Möglichkeiten des Entwurf Arbeitsbereichs zu präs
 ![](images/Exercise_cabin_03.jpg )
 
 -   Das ist alles, was wir jetzt brauchen, so dass wir den Konstruktionsmodus ausschalten können. Überprüfen Sie, dass all die gerade erzeugten Objekte in einer \"Konstruktions\" Gruppe zusammengefasst sind, denn das erleichtert das einfache Verstecken oder auch das spätere Löschen.
--   Lassen Sie uns mit dem <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> _ aktiviert ist, weil wir die Schnittpunkte von Linien und Rechtecken fangen wollen. Zeichne wie folgt zwei Polygonzüge durch anklicken aller Punkte der Umrisslinien. Zum Schließen klicke entweder erneut auf den ersten Punkt oder drücke die **Schließen** Schaltfläche:
+-   Lassen Sie uns mit dem <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Polygonzug](Draft_Wire/de.md) Werkzeug die beiden Wandteile zeichnen. Stelle sicher, dass der <img alt="" src=images/Snap_Intersection.svg  style="width:16px;"> [Schnittpunktfang](Draft_Snap/de.md) aktiviert ist, weil wir die Schnittpunkte von Linien und Rechtecken fangen wollen. Zeichne wie folgt zwei Polygonzüge durch anklicken aller Punkte der Umrisslinien. Zum Schließen klicke entweder erneut auf den ersten Punkt oder drücke die **Schließen** Schaltfläche:
 
 ![](images/Exercise_cabin_04.jpg )
 
@@ -85,7 +85,7 @@ Um den Arbeitsablauf und die Möglichkeiten des Entwurf Arbeitsbereichs zu präs
 
 ![](images/Exercise_cabin_12.jpg )
 
--   Das Wichtigste am Entwurf Arbeitsbereich ist jedoch, dass die Geometrie, die du mit ihr erstellst, als Basis verwendet oder einfach in 3D Objekte extrudiert werden kann, indem du einfach das <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> _ (Trimmen/Strecken/Extrudieren) (engl.: Trim/Extend/Extrude) Werkzeug, das unter der Haube eine Teileextrusion durchführt, diese aber \"nach Entwurfsart\", d.h. es ermöglicht dir die Extrusionslänge grafisch anzeigen und fangen zu lassen. Experimentiere mit dem Extrudieren unserer Wände wie unten gezeigt.
+-   Das Wichtigste am Entwurf Arbeitsbereich ist jedoch, dass die Geometrie, die du mit ihr erstellst, als Basis verwendet oder einfach in 3D Objekte extrudiert werden kann, indem du einfach das <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> [Part\_Extrude](Part_Extrude.md) Werkzeug aus dem [Part Arbeitsbereich](Part_Workbench/de.md) oder, um im Entwurf zu bleiben, das <img alt="" src=images/Draft_Trimex.svg  style="width:16px;"> [Trimex](Draft_Trimex/de.md) (Trimmen/Strecken/Extrudieren) (engl.: Trim/Extend/Extrude) Werkzeug, das unter der Haube eine Teileextrusion durchführt, diese aber \"nach Entwurfsart\", d.h. es ermöglicht dir die Extrusionslänge grafisch anzeigen und fangen zu lassen. Experimentiere mit dem Extrudieren unserer Wände wie unten gezeigt.
 -   Durch Drücken der <img alt="" src=images/Draft_SelectPlane.svg  style="width:16px;"> [Arbeitsebene](Draft_SelectPlane/de.md) Schaltfläche kannst du nach der Auswahl einer Fläche eines Objekts auch die Arbeitsebene irgendwo platzieren und somit Entwurfsobjekte in verschiedenen Ebenen zeichnen, z.B. oben auf die Wände. Diese können dann extrudiert werden, um andere 3D Festkörper zu bilden. Experimentiere damit die Arbeitsebene auf eine der Oberseiten der Wände zu setzen, zeichne dann einige Rechtecke dort oben.
 
 ![](images/Exercise_cabin_13.jpg )
@@ -110,7 +110,7 @@ Im Wesentlichen bietet der Entwurf Arbeitsbereich grafische Möglichkeiten, um e
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md) [<img src="images/Property.png" style="width:16px"> Draft](Category_Draft.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional 2D drafting/de

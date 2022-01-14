@@ -10,7 +10,7 @@
 
 ## Beschreibung
 
-Dieses Werkzeug ermöglicht es dir, eine Welle aus einer Wertetabelle zu erstellen und Kräfte und Momente zu analysieren. Du kannst den Assistenten über das Menü Part Design starten **Part Design → <img src=images/PartDesign_WizardShaft.svg style="width:20px">  Wellenauslegungs-Assistent...**.
+Dieses Werkzeug ermöglicht es dir, eine Welle aus einer Wertetabelle zu erstellen und Kräfte und Momente zu analysieren. Du kannst den Assistenten über das Menü Part Design starten **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px">  Wellenauslegungs-Assistent...**.
 
 Der Assistent startet und zeigt eine Standardtabelle, den entsprechenden Wellenteil und Kraft/Momenten-Diagramme an.
 

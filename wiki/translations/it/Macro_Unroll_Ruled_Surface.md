@@ -49,7 +49,7 @@ Aggiungere i modelli del foglio : A3\_Landscape\_Empty.svg A3\_Landscape.svg A4\
 
 <div class="mw-translate-fuzzy">
 
-L\'ultima versione della macro si trova in _ <img alt="Std\_AddonMgr" src=images/Std_AddonMgr.svg  style="width:24px;"> .
+L\'ultima versione della macro si trova in [UnrollRuledSurface.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro) ma il modo più semplice per installare questa macro è attraverso [Addon manager](Std_AddonMgr/it.md) <img alt="Std\_AddonMgr" src=images/Std_AddonMgr.svg  style="width:24px;"> .
 
 
 </div>

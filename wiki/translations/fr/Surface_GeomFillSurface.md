@@ -12,7 +12,7 @@
 ## Description
 
 
-**<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Surface Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md)**
+**[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Surface Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md)**
 
 crée une surface paramétrique à partir de deux, trois ou quatre arêtes de limite en essayant de créer une transition douce entre elles.
 
@@ -28,7 +28,7 @@ crée une surface paramétrique à partir de deux, trois ou quatre arêtes de li
 
 ## Utilisation
 
-1.  Appuyez sur la touche **<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Fill boundary curves](Surface_GeomFillSurface/fr.md)**.
+1.  Appuyez sur la touche **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Fill boundary curves](Surface_GeomFillSurface/fr.md)**.
 2.  Sélectionnez les arêtes dans la [Vue 3D](3D_view/fr.md). Les bords doivent se connecter afin de donner un profil fermé.
 3.  Appuyez sur **OK**.
 
@@ -46,7 +46,7 @@ une fois créée, il n\'est pas possible d\'appliquer des contraintes supplémen
 
 ## Propriétés
 
-_ (classe `Part::Feature` via la sous-classe `Part::Spline`), elle partage donc toutes les propriétés de cette dernière.
+[Surface Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md) (classe `Surface::GeomFillSurface`) est dérivée de la classe de base [Part Feature](Part_Feature/fr.md) (classe `Part::Feature` via la sous-classe `Part::Spline`), elle partage donc toutes les propriétés de cette dernière.
 
 Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surface Remplissage a les propriétés suivantes dans l\'[éditeur de propriétés](Property_editor/fr.md).
 
@@ -70,13 +70,13 @@ Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surfac
 
 ## Torsion de la surface 
 
-La forme de la surface dépend de la direction des arêtes choisies; si des arêtes sont sélectionnées et que le résultat est une surface qui \"se tord\" sur elle-même, l\'une des arêtes peut avoir besoin de sa liste de sommets dans l\'ordre inverse. Une surface qui se tord sur elle-même aura probablement des auto-intersections et sera donc une <img src=images/Part_CheckGeometry.svg style="width:forme](Part_TopoShape/fr.md) invalide. Ceci peut être vérifié avec **[16px"> [Part Vérifier la géométrie](Part_CheckGeometry/fr.md)**.
+La forme de la surface dépend de la direction des arêtes choisies; si des arêtes sont sélectionnées et que le résultat est une surface qui \"se tord\" sur elle-même, l\'une des arêtes peut avoir besoin de sa liste de sommets dans l\'ordre inverse. Une surface qui se tord sur elle-même aura probablement des auto-intersections et sera donc une [forme](Part_TopoShape/fr.md) invalide. Ceci peut être vérifié avec **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part Vérifier la géométrie](Part_CheckGeometry/fr.md)**.
 
 Par exemple, si deux courbes ont les points 
 ```python
 curve1 = [a, b, c, d]
 curve2 = [e, f, g]
-``` et la surface résultante après avoir utilisé **<img src=images/Surface_GeomFillSurface.svg style="width:16px"> <img src=images/Surface_Sections.svg style="width:Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md)** ou **[16px"> [Sections](Surface_Sections/fr.md)** est une surface torsadée, vous pouvez créer une troisième courbe égale à l\'une des deux courbes d\'origine mais avec une liste de points inversée.
+``` et la surface résultante après avoir utilisé **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Remplir entre les courbes limites](Surface_GeomFillSurface/fr.md)** ou **[<img src=images/Surface_Sections.svg style="width:16px"> [Sections](Surface_Sections/fr.md)** est une surface torsadée, vous pouvez créer une troisième courbe égale à l\'une des deux courbes d\'origine mais avec une liste de points inversée.
 
 Soit 
 ```python

@@ -63,7 +63,7 @@ A ajouter.
 ## Tutoriels
 
 -   [Tutoriel de Dessin](Drawing_tutorial/fr.md) introduction à la création de plans avec l\'atelier de dessin.
--   _ avec l\'atelier Drawing et l\'addon Cotation du dessin.
+-   [Manuel : Génération de dessins 2D](Manual:Generating_2D_drawings/fr.md) avec l\'atelier Drawing et l\'addon Cotation du dessin.
 
 
 <div class="mw-translate-fuzzy">

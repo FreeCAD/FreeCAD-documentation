@@ -28,7 +28,7 @@ Jedna z nejlepších vlastností FreeCADu je, že můžete skriptovat a značně
 
 <div class="mw-translate-fuzzy">
 
-Tyto stránky jsou zatím v ranném vývoji. Nemůžete-li najít informace, které hledáte nebo jste našli informace, na které zatím nemáme odkazy, přidejte prosím komentář na _ a nebo [ sem sami přidejte nějaké další komentáře!](Help_FreeCAD/cs.md)
+Tyto stránky jsou zatím v ranném vývoji. Nemůžete-li najít informace, které hledáte nebo jste našli informace, na které zatím nemáme odkazy, přidejte prosím komentář na [diskusní stránce](Talk_Power_users_hub.md) a nebo [ sem sami přidejte nějaké další komentáře!](Help_FreeCAD/cs.md)
 
 
 </div>
@@ -76,7 +76,7 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 ### Práce se Sítěmi 
 
--   _
+-   [Skriptování sítí](Mesh_Scripting/cs.md): Jak spolupracovat s [Modulem Sítě](Mesh_Workbench/cs.md)
 
 
 </div>
@@ -160,7 +160,7 @@ The functionality of FreeCAD is separated in Modules which deal with special dat
 
 <div class="mw-translate-fuzzy">
 
-Kompletní popis API lze nalézt _. Připomínám, že může být nekompletní, protože jsme zatím nenašli způsob jak je automaticky začlenit do této wiki. Pro přesnější informace se podívejte na moduly přímo z FreeCADu.
+Kompletní popis API lze nalézt [zde](:Category_API.md). Připomínám, že může být nekompletní, protože jsme zatím nenašli způsob jak je automaticky začlenit do této wiki. Pro přesnější informace se podívejte na moduly přímo z FreeCADu.
 
 
 </div>
@@ -242,7 +242,7 @@ Na [komunitním portalu](FreeCAD_Community_Portal.md) najdete další projekty z
 
 }}
 
-_
+[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
 [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/cs

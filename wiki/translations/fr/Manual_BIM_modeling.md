@@ -140,7 +140,7 @@ Dans FreeCAD, l\'importation et l\'exportation IFC se font en interconnectant un
 
 ![](images/Exercise_arch_17.jpg )
 
-Nous allons maintenant placer quelques dimensions. Contrairement au _, où nous avons dessiné toutes les dimensions directement sur la feuille de Dessin, nous allons utiliser une autre méthode ici, et placer [des dimensions Draft](Draft_Dimension/fr.md) directement dans le modèle 3D. Ces dimensions seront ensuite automatiquement placées sur la feuille de dessin. Nous allons d\'abord faire deux groupes pour nos dimensions, un pour les dimensions qui apparaîtront dans la vue en plan (coupe horizontale dans le langage du bâtiment), et un autre pour celles qui apparaissent sur l\'élévation (vue de face dans le langage du bâtiment).
+Nous allons maintenant placer quelques dimensions. Contrairement au [ chapitre précédent](Manual:Generating_2D_drawings/fr.md), où nous avons dessiné toutes les dimensions directement sur la feuille de Dessin, nous allons utiliser une autre méthode ici, et placer [des dimensions Draft](Draft_Dimension/fr.md) directement dans le modèle 3D. Ces dimensions seront ensuite automatiquement placées sur la feuille de dessin. Nous allons d\'abord faire deux groupes pour nos dimensions, un pour les dimensions qui apparaîtront dans la vue en plan (coupe horizontale dans le langage du bâtiment), et un autre pour celles qui apparaissent sur l\'élévation (vue de face dans le langage du bâtiment).
 
 -   Cliquez avec le bouton droit de la souris sur le document «maison» dans l\'arborescence et créez deux nouveaux groupes : **Dimensions du plan** et **Dimensions de l\'élévation**.
 -   Réglez le [Draft Plan de travail](Draft_SelectPlane/fr.md) sur le plan **XY**.
@@ -171,7 +171,7 @@ Nous allons maintenant préparer un ensemble de vues à partir de notre modèle,
 
 **Le développement de l'[atelier Drawing](Drawing_Workbench/fr.md) s'est arrêté dans FreeCAD 0.16, et le nouvel [atelier TechDraw](TechDraw_Workbench/fr.md) visant à le remplacer a été introduit en v0.17. Le plan de travail de dessin peut être supprimé dans les versions ultérieures. Utilisez plutôt le Workbench TechDraw.**
 
--   Maintenant, nous avons tout ce dont nous avons besoin, et nous pouvons créer notre feuille de dessin. Commencez par passer à l' _ (ou sélectionnez un autre modèle si vous le souhaitez).
+-   Maintenant, nous avons tout ce dont nous avons besoin, et nous pouvons créer notre feuille de dessin. Commencez par passer à l' [atelier Drawing](Drawing_Workbench/fr.md) et créez une nouvelle page par défaut <img alt="" src=images/Drawing_Landscape_A3.png  style="width:16px;"> [page de dessin A3 Paysage](Drawing_Landscape_A3/fr.md) (ou sélectionnez un autre modèle si vous le souhaitez).
 -   Sélectionnez le premier plan de coupe, utilisé pour la vue en plan.
 -   Appuyez sur le bouton <img alt="" src=images/Drawing_DraftView.png  style="width:16px;"> [Draft Dessin](Draft_Drawing/fr.md). Cet outil offre quelques fonctionnalités supplémentaires par rapport à l\'outil de conception de dessin standard [Drawing Insérer une vue](Drawing_View/fr.md) et prend en charge les plans de coupe de l\'atelier Arch.
 -   Donnez à la nouvelle vue les propriétés suivantes :
@@ -236,7 +236,7 @@ Notre page est maintenant prête, et nous pouvons l\'exporter vers les formats S
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
 [documentation index](../README.md) > [BIM](Category_BIM.md) > Manual:BIM modeling/fr

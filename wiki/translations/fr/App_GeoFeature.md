@@ -3,7 +3,7 @@
 
 <img alt="" src=images/Feature.svg  style="width:32px;">
 
-Un objet _ car il inclut la propriété {{PropertyData/fr|Placement}}.
+Un objet [App GeoFeature](App_GeoFeature/fr.md), ou officiellement `App::GeoFeature`, est la classe de base de la plupart des objets qui afficheront des éléments géométriques dans la [Vue 3D](3D_view/fr.md) car il inclut la propriété {{PropertyData/fr|Placement}}.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -23,11 +23,11 @@ Certains des objets dérivés les plus importants sont les suivants:
 -   La classe [Path Feature](Path_Feature/fr.md), le parent des chemins créés avec l\'[atelier Path](Path_Workbench/fr.md) pour une utilisation dans l\'usinage CNC.
 -   La classe [App Part](App_Part/fr.md), qui définit [Std Parts](Std_Part/fr.md) qui peut être utilisée comme conteneurs de corps pour effectuer des assemblages.
 
-Lorsque vous créez cet objet dans _.
+Lorsque vous créez cet objet dans [Python](Python/fr.md), au lieu de sous-classer `App::GeoFeature`, vous devez sous-classer `App::GeometryPython` car ce dernier inclut une valeur par défaut fournisseur de vues et attributs `Proxy` pour l\'objet lui-même et son fournisseur de vues. Voir [Script](App_GeoFeature/fr#Script.md).
 
 ## Propriétés
 
-_ (classe `App::DocumentObject`). Elle partage toutes les propriétés de cette dernière.
+[App FeaturePython](App_FeaturePython/fr.md) (classe `App::FeaturePython`) est dérivée de la classe de base [App DocumentObject](App_DocumentObject/fr.md) (classe `App::DocumentObject`). Elle partage toutes les propriétés de cette dernière.
 
 En plus des propriétés décrites dans [App DocumentObject](App_DocumentObject/fr.md), la GeoFeature possède la propriété **Placement** qui contrôle sa position dans la [vue 3D](3D_view/fr.md).
 

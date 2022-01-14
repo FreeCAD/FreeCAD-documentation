@@ -34,7 +34,7 @@
 
 <div class="mw-translate-fuzzy">
 
-1.  Drücke die **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive Ausformung](PartDesign_AdditiveLoft/de.md)** Schaltfläche
+1.  Drücke die **[<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive Ausformung](PartDesign_AdditiveLoft/de.md)** Schaltfläche
 2.  Wähle im **Funktion auswählen** Dialogfeld eine Skizze, die als Basisprofilobjekt verwendet werden soll, und klicke auf **OK**.
     -   Alternativ kann eine einzelne Skizze ausgewählt werden, bevor auf die Schaltfläche Additive Ausformung geklickt wird.
 3.  Drücke in den **Ausformungsparametern** die **Abschnitt hinzufügen** Schaltfläche.
@@ -55,7 +55,7 @@
 1.  Wähle mehrere Skizzen aus. Dabei ist es wichtig, in welcher Reihenfolge du sie auswählst:
     -   Die zuerst ausgewählte Skizze wird im nächsten Schritt zum Basis Profilobjekt.
     -   Die nach der ersten ausgewählten Skizzen werden zu den Ausformungsabschnitten. Auch hier ist die Reihenfolge der Auswahl wichtig: Die als zweite ausgewählte Skizze wird zum ersten Ausformungsabschnitt, die als dritte ausgewählte zum zweiten Abschnitt und so weiter. (Du kannst die Reihenfolge der Abschnitte jederzeit später im Ausformungsdialog ändern, indem du die Abschnitte in der Liste an die gewünschte Position ziehst.<small>(v0.19)</small> )
-2.  Drücke die **<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive loft](PartDesign_AdditiveLoft.md)** Schaltfläche.
+2.  Drücke die **[<img src=images/PartDesign_AdditiveLoft.svg style="width:24px"> [Additive loft](PartDesign_AdditiveLoft.md)** Schaltfläche.
 3.  Lege Optionen wenn notwendig fest und klicke auf die **OK** Schaltfläche.
 
 

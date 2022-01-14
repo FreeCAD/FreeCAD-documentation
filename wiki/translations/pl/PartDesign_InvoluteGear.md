@@ -19,7 +19,7 @@ Bardziej szczegółowe informacje można znaleźć również na stronach Wiki: [
 
 ## Użycie
 
-1.  Przejdź do menu **Projekt Części → <img src=images/PartDesign_InternalExternalGear.svg style="width:24px"> Przekładnia ewolwentowa ...**.
+1.  Przejdź do menu **Projekt Części → [<img src=images/PartDesign_InternalExternalGear.svg style="width:24px"> Przekładnia ewolwentowa ...**.
 2.  Ustaw parametry zębatki.
 3.  Kliknij **OK**.
 4.  Koło zębate jest tworzone poza aktywną bryłą. Przeciągnij go i upuść do zawartości, aby zastosować dalsze funkcje, takie jak wyciągnięcie.

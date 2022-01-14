@@ -16,7 +16,7 @@ Disegna un pentagono inscritto nella circonferenza che costituisce la sua geomet
 
 <div class="mw-translate-fuzzy">
 
--   Premere il pulsante **<img src=images/Sketcher_CreatePentagon.svg style="width:16px"> Crea pentagono**,
+-   Premere il pulsante **[<img src=images/Sketcher_CreatePentagon.svg style="width:16px"> Crea pentagono**,
 -   Cliccare un punto per definire il centro,
 -   Muovere il mouse e cliccare per stabilire uno dei vertici.
 -   Premere **Esc** o cliccare sul tasto destro del nouse per uscire dalla funzione.

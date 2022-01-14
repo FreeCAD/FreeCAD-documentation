@@ -3,9 +3,9 @@ This category lists templates that add images.
 
 ### Contents:
 
-_ , _
+[Template:En](Template_En.md) , [Template:Screenshot](Template_Screenshot.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Template](Category_Template.md)
 
 ---
 [documentation index](../README.md) > Category:Template:Image

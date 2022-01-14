@@ -34,7 +34,7 @@ The creation of the thread takes some time. Be patient and have a look at the CP
 
 ## Code
 
-The lastest version of the macro is to be found at _.
+The lastest version of the macro is to be found at [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro) but the easiest way to install this macro is through the [Addon Manager](Std_AddonMgr.md).
 
 ToolBar Icon ![](images/Macro_screw_maker1_2.png )
 

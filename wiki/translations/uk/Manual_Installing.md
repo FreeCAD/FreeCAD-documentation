@@ -36,7 +36,7 @@ FreeCAD працює однаково як на Windows, так і на Mac OS �
 
 **Альтернативні методи**
 
-Одні з головних радощів використання Linux - це різноманіття можливостей для налаштування своїх програм, тому не обмежуйте себя. В Ubuntu та його похідних FreeCAD також може бути встановлено з цього сайту: _.
+Одні з головних радощів використання Linux - це різноманіття можливостей для налаштування своїх програм, тому не обмежуйте себя. В Ubuntu та його похідних FreeCAD також може бути встановлено з цього сайту: [PPA](https://launchpad.net/~freecad-maintainers), який підтримується співтовариством FreeCAD (сайт містить як стабільну, так і нестабільну версію). У Fedora останні версії FreeCAD, які розробляються, можуть бути встановлені звідси: [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/). А виходячі з того, що ці програми надаються з доступним вихідним кодом, Ви також можете легко [скомпілювати FreeCAD самостійно](Compiling/ru.md).
 
 ### Встановлення на Mac OS X 
 
@@ -58,11 +58,11 @@ Hopefully you won\'t want to uninstall FreeCAD, but it is good to know how. On W
 Once FreeCAD is installed, you might want to open it and change some preferences. Preference settings in FreeCAD are located under menu **Edit → Preferences**. Listed below are some basic settings you may wish to change; you can browse through the preference pages to see if there is anything else you want to change.
 
 1.  **Language**: (*General* category, *General* tab) FreeCAD will automatically pick the language of your operating system, but you might want to change that. FreeCAD is almost fully translated into five or six languages; others are currently only partially translated. You can easily [help translating FreeCAD](https://crowdin.com/project/freecad). ![](images/Freecad-basic-options01.jpg )
-2.  **Auto-load module**: (*General* category, *General* tab) Normally, FreeCAD will start by showing you the start page. You can skip this and begin a FreeCAD session directly in the workbench of your choice, listed under *Startup*, *Auto load module after startup*. _.
+2.  **Auto-load module**: (*General* category, *General* tab) Normally, FreeCAD will start by showing you the start page. You can skip this and begin a FreeCAD session directly in the workbench of your choice, listed under *Startup*, *Auto load module after startup*. [Workbenches](Workbenches.md) will be explained in detail in the [next chapter](Manual_The_FreeCAD_Interface.md).
 3.  **Create new document at startup**: (*General* category, *Document* tab) Combined with the *Auto-load module* option above, if checked this starts FreeCAD ready for work. ![](images/Freecad-basic-options02.jpg )
 4.  **Storage options**: (*General* category, *Document* tab) As with any complex application, FreeCAD likely contains bugs causing it to crash occasionally. Here you can configure options to help you to recover your work in case of a crash.
 5.  **Authoring and license**: (*General* category, *Document* tab) Here you set the values to be used for new files you create. Consider making your files shareable right from the start, by using a friendlier, [copyleft](https://en.wikipedia.org/wiki/Copyleft) license like [Creative Commons](https://creativecommons.org/).
-6.  **Redirect internal python messages**: (*General* category, *Output window* tab) These two options are always good to check, as they will cause messages from the internal python interpreter to show up in the _ when there\'s a problem running a python script. ![](images/Freecad-basic-options03.jpg )
+6.  **Redirect internal python messages**: (*General* category, *Output window* tab) These two options are always good to check, as they will cause messages from the internal python interpreter to show up in the [Report View](Manual:The_FreeCAD_Interface#Report_view.md) when there\'s a problem running a python script. ![](images/Freecad-basic-options03.jpg )
 7.  **Units**: (*General* category, *Units* tab) Here you can set the default units system you wish to use. ![](images/Freecad-basic-options04.jpg )
 8.  **Zoom at cursor**: (*Display* category, *3D* tab) If set, zoom operations will be focused at the mouse pointer. If unset, the center of the current view is the zoom focus.
 9.  **Invert zoom**: (*Display* category, *3D* tab) Inverts the direction of zooming relative to mouse movement. ![](images/FreeCAD-v0-18-Preferences-Display.png )
@@ -73,7 +73,7 @@ As the FreeCAD project and its community grows quickly, and also because it is e
 
 1.  A [Parts library](https://github.com/FreeCAD/FreeCAD-library), which contains all kinds of useful models, or pieces of models, created by FreeCAD users that can be freely used in your projects. The library can be used and accessed right from inside your FreeCAD installation.
 2.  [Additional workbenches](https://github.com/FreeCAD/FreeCAD-addons), that extend the functionality of FreeCAD for certain tasks, for example animate parts of your models, or areas, such as sheet metal folding or BIM. Further explanations of each workbench and what tools it contains is given on each addon page, that you can visit by clicking the corresponding link on the addon manager.
-3.  A _ along with documentation about how to use them.
+3.  A [collection of macros](https://github.com/FreeCAD/FreeCAD-macros), which are also available [on the FreeCAD wiki](Macros_recipes.md) along with documentation about how to use them.
 
 <img alt="" src=images/FreeCAD-addon-manager01.jpg  style="width:800px;">
 
@@ -92,7 +92,7 @@ If you are using the Ubuntu operating system, some of the addons above are also 
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Manual:Installing/uk

@@ -22,7 +22,7 @@
 
 </div>
 
-It is mainly intended to be used with **<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-Splines](Sketcher_CreateBSpline.md)**, which can be difficult to fully constrain otherwise.
+It is mainly intended to be used with **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-Splines](Sketcher_CreateBSpline.md)**, which can be difficult to fully constrain otherwise.
 
 
 <div class="mw-translate-fuzzy">
@@ -36,7 +36,7 @@ It is mainly intended to be used with **<img src=images/Sketcher_CreateBSpline.s
 <div class="mw-translate-fuzzy">
 
 1.  Selectează un element de constrângere;
-2.  Apăsă butonul **<img src=images/Sketcher_ConstrainBlock.png style="width:24px"> '''Constrain Block'''** .
+2.  Apăsă butonul **[<img src=images/Sketcher_ConstrainBlock.png style="width:24px"> '''Constrain Block'''** .
 
 **Note:** pașii 1 și 2 pot fi inversați.
 

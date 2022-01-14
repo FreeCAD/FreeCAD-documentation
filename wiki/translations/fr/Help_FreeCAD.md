@@ -12,7 +12,7 @@ Aidez-nous à construire, corriger et étendre cette documentation. Corrigez les
 
 Quelques parties qui apprécieraient votre contribution :
 
--   La page de la liste _ de toutes les [commandes](Command/fr.md) de FreeCAD. La plupart d\'entre elles contiennent peu ou pas d\'informations. Veuillez vous référer à [Ecrire une page Wiki](WikiPages/fr.md) pour des recommandations de ce que devrait être une bonne page de documentation de commandes.
+-   La page de la liste [Command Reference](:Category_Command_Reference.md) de toutes les [commandes](Command/fr.md) de FreeCAD. La plupart d\'entre elles contiennent peu ou pas d\'informations. Veuillez vous référer à [Ecrire une page Wiki](WikiPages/fr.md) pour des recommandations de ce que devrait être une bonne page de documentation de commandes.
 -   La section [tutoriels](Tutorials/fr.md) a besoin d\'exemples d\'utilisation des ateliers. Si vous avez développé quelque chose de sympa avec FreeCAD, pourquoi ne pas le pérenniser dans une page de documentation ?
 -   Il y a des billets ouverts sur le [traqueur de bogues](Tracker/fr.md) de FreeCAD intitulé [\"documentation\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) qui mériteraient qu\'on s\'y intéresse.
 
@@ -20,7 +20,7 @@ Quelques parties qui apprécieraient votre contribution :
 
 La communauté des utilisateurs de FreeCAD est encore faible, mais comprend plusieurs utilisateurs éclairés, qui fournissent un travail très important, pour montrer et apprendre aux nouveaux arrivants comment utiliser le logiciel. Si vous commencez à vous sentir à l\'aise avec FreeCAD, vos connaissances pourraient être très utiles à d\'autres, et vous pourriez contribuer, grâce à vos acquis, à :
 
--   Montrer ce que vous avez réalisé sous FreeCAD sur le _, mieux encore, joindre vos fichiers FreeCAD pour que d\'autres personnes puissent les examiner et comprendre comment vous avez travaillé et découvrir d\'autres fonctionnalités.
+-   Montrer ce que vous avez réalisé sous FreeCAD sur le [forum Users Showcase](http://forum.freecadweb.org/viewforum.php?f=24). Vous pouvez poster des [captures d\'écran](Std_ViewScreenShot/fr.md), mieux encore, joindre vos fichiers FreeCAD pour que d\'autres personnes puissent les examiner et comprendre comment vous avez travaillé et découvrir d\'autres fonctionnalités.
 -   Enregistrer des [clips vidéos](http://www.youtube.com/user/FreeCADNews) détaillant les étapes que vous avez franchies pour arriver à votre projet final, dans FreeCAD. Ces vidéos sont une bonne façon de montrer de nouvelles fonctionnalités.
 -   Écrire des [didacticiels](Tutorials/fr.md) décrivant ou enseignant quelque chose d\'intéressant. Vous pouvez écrire des tutoriels sur votre propre blog, directement sur ​​notre wiki, ou même sur le [forum](https://forum.freecadweb.org/).
 -   Poster sur le réseau social libre [Mastodon](https://joinmastodon.org/) (et suivez-y [1](https://fosstodon.org/@FreeCAD)) ou sur la communauté [Facebook](https://www.facebook.com/groups/416491481766626).
@@ -39,7 +39,7 @@ Traduire le wiki est facile, le wiki FreeCAD intègre un plugin de traduction qu
 
 Pour plus d\'informations sur la traduction, voir la section [Traduire la documentation de FreeCAD](Localisation/fr#Traduire_la_documentation_de_FreeCAD.md).
 
-Assurez-vous d\'être familier avec les bases du balisage wiki. voir _ pour plus d\'informations.
+Assurez-vous d\'être familier avec les bases du balisage wiki. voir [Aide pour l\'édition](Help:Editing/fr.md) pour plus d\'informations.
 
 Rendez-vous ensuite sur [WikiPages](WikiPages.md) pour vous familiariser avec le style utilisé dans ce wiki, notamment en ce qui concerne les modèles.
 
@@ -87,7 +87,7 @@ L\'écriture de code pour FreeCAD n\'est pas difficile, et vous n\'avez besoin d
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Command_Reference|Command Reference]] de toutes les ](Category_Command_Reference|Command Reference]] de toutes les .md) > Help FreeCAD/fr

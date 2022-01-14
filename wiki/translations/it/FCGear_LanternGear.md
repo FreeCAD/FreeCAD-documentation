@@ -82,7 +82,7 @@ The parameter descriptions of the **View** tab will be found in [Property editor
 
 </div>
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> FCGear](Category_FCGear.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > FCGear LanternGear/it

@@ -13,17 +13,17 @@
 ## Beschreibung
 
 
-**<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px">[UmschaltenAktiveBeschränkung](Sketcher_ToggleActiveConstraint/de.md)**
+**[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px">[UmschaltenAktiveBeschränkung](Sketcher_ToggleActiveConstraint/de.md)**
 
 ermöglicht es dir, eine bereits platzierte Randbedingung zu aktivieren und zu deaktivieren. Dadurch kannst du die Beschränkung im Hintergrund halten, aber vorübergehend eine andere Anordnung der vorhandenen Geometrie testen.
 
-Das **<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> <img src=images/Sketcher_ToggleActiveConstraint.svg style="width:Umschalten Treibende Beschränkung](Sketcher_ToggleDrivingConstraint/de.md)** Werkzeug ist insofern ähnlich, als es die Wirkung der Beschränkung deaktiviert; mit diesem Werkzeug behält die Beschränkung jedoch nicht ihren alten Wert. Andererseits kann mit **[16px"> [UmschaltenAktive Beschränkung](Sketcher_ToggleActiveConstraint/de.md)** kannst du die alte Beschränkung sofort wieder aktivieren.
+Das **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Umschalten Treibende Beschränkung](Sketcher_ToggleDrivingConstraint/de.md)** Werkzeug ist insofern ähnlich, als es die Wirkung der Beschränkung deaktiviert; mit diesem Werkzeug behält die Beschränkung jedoch nicht ihren alten Wert. Andererseits kann mit **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [UmschaltenAktive Beschränkung](Sketcher_ToggleActiveConstraint/de.md)** kannst du die alte Beschränkung sofort wieder aktivieren.
 
 ## Anwendung
 
-1.  Wähle eine bereits platzierte Beschränkung und drücke dann **<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [UmschaltenAktiveBeschränkung](Sketcher_ToggleActiveConstraint/de.md)**.
+1.  Wähle eine bereits platzierte Beschränkung und drücke dann **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [UmschaltenAktiveBeschränkung](Sketcher_ToggleActiveConstraint/de.md)**.
 2.  Alternativ kannst du in der [Aufgabenkonsole](task_panel/de.md) zum Abschnitt {{MenuCommand/de|Beschränkungen}} gehen, die Beschränkung wählen, dann das Kontextmenü öffnen (Rechtsklick) und {{MenuCommand/de|Deaktivieren}} wählen.
-3.  Um die Beschränkung wieder zu aktivieren, wähle sie aus und drücke **<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [UmschaltenAktiveBeschränkung](Sketcher_ToggleActiveConstraint/de.md)** nochmals.
+3.  Um die Beschränkung wieder zu aktivieren, wähle sie aus und drücke **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [UmschaltenAktiveBeschränkung](Sketcher_ToggleActiveConstraint/de.md)** nochmals.
 
 ## Beispiele
 

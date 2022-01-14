@@ -22,7 +22,7 @@ Wybierz dwa punkty *(wierzchołki)* oraz linię na szkicu. Wybrane punkty i pros
 
 <img alt="" src=images/SymmetricConstraint2.png  style="width:500px;">
 
-Kliknij na przycisk **<img src=images/Sketcher_ConstrainSymmetric.svg style="width:16px"> [Utwórz wiązanie symetrii ...](Sketcher_ConstrainSymmetric/pl.md)** lub wybierz pozycję z menu **Szkic → Wiązana szkicownika → Wiązanie symetrii**.
+Kliknij na przycisk **[<img src=images/Sketcher_ConstrainSymmetric.svg style="width:16px"> [Utwórz wiązanie symetrii ...](Sketcher_ConstrainSymmetric/pl.md)** lub wybierz pozycję z menu **Szkic → Wiązana szkicownika → Wiązanie symetrii**.
 
 Spowoduje to zastosowanie tego wiązania do wybranych elementów.
 

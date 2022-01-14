@@ -32,7 +32,7 @@ Fixes the vertical distance between 2 points or line ends. If only one point is 
 ## Utilizare
 
 1.  Selectați unul sau două puncte sau o linie.
-2.  Apăsați butonul **<img src=images/Sketcher_ConstrainDistanceY.png style="width:24px"> '''Constrain vertical distance'''** .
+2.  Apăsați butonul **[<img src=images/Sketcher_ConstrainDistanceY.png style="width:24px"> '''Constrain vertical distance'''** .
 3.  Un dialog contextual se deschide pentru a edita sau a confirma valoarea. Apăsați **OK** pentru a valida.
 
 
@@ -40,9 +40,9 @@ Fixes the vertical distance between 2 points or line ends. If only one point is 
 
 1.  Pick one or two points or one line.
 2.  Invoke the command several ways:
-    -   Press the **<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Constrain vertical distance](Sketcher_ConstrainDistanceY.md)** button.
+    -   Press the **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Constrain vertical distance](Sketcher_ConstrainDistanceY.md)** button.
     -   Use the **Shift** + **V** keyboard shortcut. (**V** is for **V**ertical)
-    -   Use the **Sketch → Sketcher constraints → <img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> Constrain vertical distance** entry from the top menu.
+    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> Constrain vertical distance** entry from the top menu.
 3.  A pop up dialog opens to edit or confirm the value. Press **OK** to validate.
 
 

@@ -18,12 +18,12 @@ Les éléments suivants sont dérivés directement de [Part Feature](Part_Featur
 ## Utilisation
 
 1.  Basculez vers l\'[atelier PartDesign](PartDesign_Workbench/fr.md).
-2.  Appuyez sur **<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)**.
+2.  Appuyez sur **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)**.
 3.  Sélectionnez l\'origine du corps et rendez-la visible en appuyant sur la barre **Espace** de votre clavier.
-4.  Appuyez sur **<img src=images/PartDesign_Plane.svg style="width:16px"> [PartDesign Plan](PartDesign_Plane/fr.md)** pour ouvrir le plan [Panneau des tâches](Task_Panel/fr.md).
+4.  Appuyez sur **[<img src=images/PartDesign_Plane.svg style="width:16px"> [PartDesign Plan](PartDesign_Plane/fr.md)** pour ouvrir le plan [Panneau des tâches](Task_Panel/fr.md).
 5.  Dans la [vue 3D](3D_view/fr.md), cliquez sur l\'un des plans standards, par exemple le plan XY. Appuyez ensuite sur **OK** pour fermer le panneau des tâches.
-6.  Maintenant, dans la <img src=images/PartDesign_NewSketch.svg style="width:vue en arborescence](tree_view/fr.md), sélectionnez le nouveau plan de référence, puis appuyez sur **[16px"> [PartDesign Nouvelle esquisse](PartDesign_NewSketch/fr.md)**.
-7.  Créez un fil fermé, puis utilisez **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Protrusion](PartDesign_Pad/fr.md)** pour extruder l\'esquisse et créer un solide initial.
+6.  Maintenant, dans la [vue en arborescence](tree_view/fr.md), sélectionnez le nouveau plan de référence, puis appuyez sur **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Nouvelle esquisse](PartDesign_NewSketch/fr.md)**.
+7.  Créez un fil fermé, puis utilisez **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Protrusion](PartDesign_Pad/fr.md)** pour extruder l\'esquisse et créer un solide initial.
 
 Vous pouvez maintenant déplacer et faire pivoter le plan de référence comme vous le souhaitez en modifiant ses propriétés dans [Éditeur de propriétés](Property_editor/fr.md). L\'esquisse et la protrusion suivront le nouveau [Placement](Placement/fr.md).
 
@@ -43,7 +43,7 @@ Depuis leur apparition dans la v0.17, les objets de référence étaient destin�
 
 }} {{Document objects navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Datum/fr

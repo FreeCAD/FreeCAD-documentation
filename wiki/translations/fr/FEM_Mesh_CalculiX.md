@@ -95,7 +95,7 @@ L\'ordre de nœud suivant n\'est pas implémenté ! TODO: vérifier l\'ordre des
 
 }}  
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> Poweruser\_Documentation](Category_Poweruser_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer](Category_Developer.md) > FEM Mesh CalculiX/fr

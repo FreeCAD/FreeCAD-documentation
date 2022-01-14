@@ -12,7 +12,7 @@ Il s\'agit d\'une extension qui ajoute une barre de recherche à côté de l\'ou
 
 Veuillez signaler les bogues via [suivi des problèmes sur GitHub](https://github.com/SuzanneSoy/SearchBar/issues%7Cle).
 
--   Auteur : _
+-   Auteur : [Suzanne Soy](User:Suzanne.soy.md)
 -   Code source sur github : <https://github.com/SuzanneSoy/SearchBar>
 
 ## Installation
@@ -22,7 +22,7 @@ Pour une installation manuelle, voir [Installer des ateliers supplémentaires](I
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > SearchBar Mod/fr

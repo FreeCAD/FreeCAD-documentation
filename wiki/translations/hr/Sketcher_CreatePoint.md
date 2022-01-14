@@ -11,7 +11,7 @@
 
 The Point tool creates a point in the current sketch, which can be used for constructing geometry elements.
 
-_
+[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md)
 
 ## Usage
 

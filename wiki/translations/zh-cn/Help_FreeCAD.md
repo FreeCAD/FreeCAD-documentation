@@ -15,7 +15,7 @@
 
 一些期待您工作的地方：
 
--   _[命令文档](Command.md)。它们大多数还只含有很少的信息，或者根本就是空白的。良好的命令文档页面如何编写您可以参考[WikiPages](WikiPages.md)。
+-   [范畴：命令参考页面列出了所有FreeCAD](:Category_Command_Reference.md)[命令文档](Command.md)。它们大多数还只含有很少的信息，或者根本就是空白的。良好的命令文档页面如何编写您可以参考[WikiPages](WikiPages.md)。
 -   [教程部分需要一些例子以说明如何使用工作台](Tutorials.md)。如果你用FreeCAD做出了挺酷的东西，为什么不为后人记录下来你的做法呢？
 -   在FreeCAD的[Bug追踪中仍有一些具有](bugtracker.md)[\"文档\"](https://freecadweb.org/tracker/search.php?tag_string=documentation)标签的，期待您的关照。
 
@@ -43,7 +43,7 @@
 
 关于翻译的详情，请参考[本地化 翻译维基](Localisation#Translating_the_wiki.md)。
 
-请确认你熟悉基本的wiki标记语法；参考_。
+请确认你熟悉基本的wiki标记语法；参考[帮助：编辑](Help_Editing.md)。
 
 到[WikiPages熟悉本wiki的样式风格](WikiPages.md)，特别是一些模板文件。
 
@@ -139,7 +139,7 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Command Reference|范畴：命令参考]]页面列出了所有FreeCAD](Category_Command Reference|范畴：命令参考]]页面列出了所有FreeCAD.md) > Help FreeCAD/zh-cn

@@ -23,7 +23,7 @@ Ceci est la première partie du tutoriel. Elle utilisera ce qu\'on pourrait appe
 
 Évidemment, pour suivre ce tutoriel, vous devez activer l\'Atelier Conception de Pièce.
 
-~~Vous pouvez trouver ma version de la pièce créée dans ce tutoriel _.~~ *Ce fichier n\'est plus disponible, un nouveau fichier sera fourni à une date ultérieure.*
+~~Vous pouvez trouver ma version de la pièce créée dans ce tutoriel [http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 ici](http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_ici.md).~~ *Ce fichier n\'est plus disponible, un nouveau fichier sera fourni à une date ultérieure.*
 
 ## Les Données de Conception 
 
@@ -61,7 +61,7 @@ Après avoir créé l\'esquisse, creusez jusqu\'au plan de référence marquant 
 <img alt=" text-top\|Croquis de découpe à l\'intérieur de la protusion" src=images/_HolderTop1-6.jpg  style="width:400px;"> Pour réduire la quantité d\'usinage nécessaire, nous voulons aussi découper certains matériaux à l\'intérieur du support . Encore une fois, la duplication de l\'esquisse de la première Protusion est pratique. Elle n\'a même pas besoin d\'être reconfigurée. Encore une fois, les seules dimensions importantes sont la surépaisseur d\'usinage (3mm) et les diamètres extérieurs: 84mm pour le l\'emplacement du roulement (90mm - 2x allocation d\'usinage), 49mm pour le petit anneau d\'étanchéité (55mm - 2x 3mm) et 62mm pour la bague d\'étanchéité plus grande.
 
 Après avoir créé les esquisses, les creuser: Symétriquement 28mm pour la découpe du roulement (34mm - 2x surépaisseur d\'usinage ) et 23mm sur un coté pour les découpes des bagues d\'étanchéité: 34mm / 2 pour la moitié de la largeur du roulement + 9mm pour la bagues d\'étanchéité - surépaisseur d\'usinage de 3mm.
-_ La pièce doit maintenant ressembler à l\'image sur la droite. Notez comment les différentes découpes se combinent pour créer une épaisseur de paroi presque uniforme, ce qui rendra la coulée plus facile et moins susceptibles d\'avoir des pores.
+[thumb\|400px\|right \| text-top\|Géométrie principale du haut du support](Image:_HolderTop1-7.jpg.md) La pièce doit maintenant ressembler à l\'image sur la droite. Notez comment les différentes découpes se combinent pour créer une épaisseur de paroi presque uniforme, ce qui rendra la coulée plus facile et moins susceptibles d\'avoir des pores.
 <img alt=" text-top\|Croquis avec l\'emplacement des boulons" src=images/_HolderTop1-8.jpg  style="width:400px;"> Maintenant tout ce qui reste a faire est de créer de la matière pour le passage des boulons. Vous pourriez être tenté d\'esquisser ceci comme un cercle puis le protuser, mais cela vous dirigera vers des problèmes lorsque vous essaierez de le mettre plus tard sur le projet (je suppose que c\'est une faiblesse d\'OpenCascade). Donc, pour éviter les problèmes, il est préférable de créer une esquisse de l\'angle projeté inclus, puis la tourner de 360 degrés.
 
 Là encore, les plans de l\'ossature deviennent utile. Vous aurez besoin du plan de l\'axe du boulon et du plan de la tête du boulon comme géométrie externe. Ensuite, créez une ligne droite pour l\'axe de rotation et assurez-vous qu\'il est contraint à l\'axe du boulon du plan de référence. Le basculer pour devenir une géométrie de construction. Puis, esquisser le reste du contour. Les dimensions importantes sont la surépaisseur d\'usinage en haut et en bas et le rayon de 12 mm : 7 mm pour le rayon du trou + épaisseur de paroi de 5 mm.
@@ -69,7 +69,7 @@ Là encore, les plans de l\'ossature deviennent utile. Vous aurez besoin du plan
 
 ## Application de dépouille sur les faces latérales 
 
-_ L\'étape suivante consiste à appliquer des dépouilles sur toutes les faces . Il est important de bien choisir l\'emplacement du plan neutre, c\'est le plan autour duquel on tourne. Si nous choisissons comme plan neutre, le bas du support, alors nous aurons un problème avec l\'épaisseur de paroi dans la partie supérieure du support. Par conséquent, nous créons un plan de référence avec un décalage de 40 mm par rapport au plan XZ comme un compromis entre le haut de la porte devant mince et le bas de devenant large .
+[thumb\|400px\|right\|text-top \| Le plan neutre pour la création de dépouille](Image:_HolderTop1-10.jpg.md) L\'étape suivante consiste à appliquer des dépouilles sur toutes les faces . Il est important de bien choisir l\'emplacement du plan neutre, c\'est le plan autour duquel on tourne. Si nous choisissons comme plan neutre, le bas du support, alors nous aurons un problème avec l\'épaisseur de paroi dans la partie supérieure du support. Par conséquent, nous créons un plan de référence avec un décalage de 40 mm par rapport au plan XZ comme un compromis entre le haut de la porte devant mince et le bas de devenant large .
 <img alt=" ext-top\|Application de dépouille sur les faces latérales du support" src=images/_HolderTop1-11.jpg  style="width:400px;"> Pour mettre une dépouille sur une face , sélectionner cette face et créer la caractéristique de la dépouille . Vous pouvez ensuite sélectionner plusieurs faces et appliquer la dépouille dessus . Si vous avez une grande pièce, il est conseillé de dépouiller une seule face à la fois. Cela signifie que si vous modifiez la géométrie et qu\'une dépouille échoue, seul cette caractéristique va échouer, alors que si vous mettez sur tous les faces une fonction de dépouille, alors l\'ensemble des fonction ensemble pourrait échouer à cause d\'une faute d\'une face. Pour une petite pièce comme le support de roulement, c\'est suffisant de créer deux fonctions de dépouille : Une pour les quatre faces extérieures, et une pour les faces internes.
 
 La boîte de dialogue va vous forcer à choisir un plan neutre avant de remplir. Vous pouvez laisser la direction d\'étirement vide, dans ce cas, il sera perpendiculaire au plan neutre. Ne oubliez pas de régler l\'angle de dépouille à 2 degrés.
@@ -102,7 +102,7 @@ Nous avons modélisé le haut du support de roulement avec les dimensions qu\'il
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/fr

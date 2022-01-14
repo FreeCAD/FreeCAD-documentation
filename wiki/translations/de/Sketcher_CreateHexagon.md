@@ -17,7 +17,7 @@ Zeichnet ein Sechseck, das in einem Kreis der Konstruktionsgeometrie eingeschrie
 
 ## Anwendung
 
--   Nach Drücken der **<img src=images/Sketcher_CreateHexagon.svg style="width:16px"> [Sechseck erstellen](Sketcher_CreateHexagon/de.md)**, klicke einmal, um das Zentrum zu setzen, bewege dann die Maus und klicke ein zweites Mal, um einen der Knoten zu setzen.
+-   Nach Drücken der **[<img src=images/Sketcher_CreateHexagon.svg style="width:16px"> [Sechseck erstellen](Sketcher_CreateHexagon/de.md)**, klicke einmal, um das Zentrum zu setzen, bewege dann die Maus und klicke ein zweites Mal, um einen der Knoten zu setzen.
 -   Drücken von **Esc** oder Klicken mit der rechten Maustaste bricht die Funktion ab.
 
 ## Notes

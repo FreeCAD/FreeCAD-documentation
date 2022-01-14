@@ -14,7 +14,7 @@ Pour toutes les icônes de l\'arborescence source, voir [Graphisme](Artwork/fr.m
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Image](Category_Image.md)
 
 ---
 [documentation index](../README.md) > [Image](Category_Image.md) > Artwork Image/fr

@@ -3,9 +3,9 @@ This category contains all the Templates
 
 ### Contents:
 
-_ , _ , _ , _ , _ , ,
+[Template:Blender Navigation/ro](Template:Blender_Navigation/ro.md) , [Template:CAD Navigation/ro](Template:CAD_Navigation/ro.md) , [Template:Inventor Navigation/ro](Template:Inventor_Navigation/ro.md) , [Template:Languages/ro](Template:Languages/ro.md) , [Template:Version/ro](Template:Version/ro.md) , ,
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Categories/ro](<img src="images/Property.png" style="width:16px"> Categories/ro.md) [<img src="images/Property.png" style="width:16px"> Template:Doc/ro](<img src="images/Property.png" style="width:16px"> Template:Doc/ro.md) [<img src="images/Property.png" style="width:16px"> Template:Navigation/ro](<img src="images/Property.png" style="width:16px"> Template:Navigation/ro.md)
 
 ---
 [documentation index](../README.md) > [Template:Doc/ro]] , ](Category_Template:Doc/ro]] , .md) > Category:Template/ro

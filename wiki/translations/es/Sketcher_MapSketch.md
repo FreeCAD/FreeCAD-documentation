@@ -1,6 +1,6 @@
 # Sketcher MapSketch/es
 ---
-- GuiCommand:/es   Name:Sketcher MapSketch   Name/es:Sketcher MapSketch   Create a sketch on a face|Workbenches:_---
+- GuiCommand:/es   Name:Sketcher MapSketch   Name/es:Sketcher MapSketch   Create a sketch on a face|Workbenches:[PartDesign](Sketcher_Workbench/es___Sketcher]],_[[PartDesign_Workbench/es.md)|MenuLocation:Part Design/Sketch → Map sketch to face...   SeeAlso:[Create a new sketch](Sketcher_NewSketch/es.md)---
 
 
 </div>
@@ -57,7 +57,7 @@ Now we select the top face of Pad and then select the Map A Sketch To A Face too
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Sketcher/es](<img src="images/Property.png" style="width:16px"> Sketcher/es.md)
 
 ---
 [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/es

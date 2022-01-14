@@ -1,5 +1,5 @@
 # Workbenches/fr
-FreeCAD, à l\'instar de nombreuses applications de conception modernes telles que _ ou _, est basé sur le concept d\'[Atelier](https://fr.wikipedia.org/wiki/Établi). Un atelier peut être considéré comme un ensemble d'outils spécialement regroupés pour une tâche donnée. Dans un atelier de fabrication de meubles traditionnels, vous disposerez d\'une table de travail pour la personne qui travaille le bois, d\'une autre pour celui qui travaille avec des pièces métalliques et peut-être d\'une troisième pour le gars qui monte toutes les pièces ensemble.
+FreeCAD, à l\'instar de nombreuses applications de conception modernes telles que [Revit](wikipedia_Revit.md) ou [CATIA](wikipedia_CATIA.md), est basé sur le concept d\'[Atelier](https://fr.wikipedia.org/wiki/Établi). Un atelier peut être considéré comme un ensemble d'outils spécialement regroupés pour une tâche donnée. Dans un atelier de fabrication de meubles traditionnels, vous disposerez d\'une table de travail pour la personne qui travaille le bois, d\'une autre pour celui qui travaille avec des pièces métalliques et peut-être d\'une troisième pour le gars qui monte toutes les pièces ensemble.
 
 Le même principe s\'applique dans FreeCAD. Les outils sont regroupés sous des ateliers, selon les tâches auxquelles ils sont destinés.
 
@@ -67,7 +67,7 @@ Les ateliers suivants sont toujours inclus dans l\'installation de base à des f
 
 Les ateliers de FreeCad sont faciles à programmer en langage [Python](Python/fr.md), il y a pour cette raison plusieurs personnes qui développent des ateliers additionnels en dehors des principaux développeurs de FreeCAD.
 
-La page des _, situé dans le menu **Outils → Gestionnaire d’Addon**.
+La page des [Ateliers externes](External_workbenches/fr.md) répertorie tout ce qui est connu de cette communauté. La plupart sont facilement installables à partir de FreeCAD, à l'aide du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md), situé dans le menu **Outils → Gestionnaire d’Addon**.
 
 Et d\'autres ateliers sont toujours en développement !
 
@@ -77,7 +77,7 @@ Et d\'autres ateliers sont toujours en développement !
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Workbenches/fr

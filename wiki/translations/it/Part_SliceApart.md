@@ -20,7 +20,7 @@ Strumento per dividere le forme per intersezione con altre forme. Ad esempio, pe
 
 * Nella figura sopra, i pezzi sono stati separati manualmente dopo l'operazione, per rendere visibili le singole parti.*
 
-_ seguito da <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Esplodi composto](Part_ExplodeCompound/it.md). Mentre \"Affetta in composto\" è completamente parametrico e non crea problemi mentre il numero di pezzi cambia, \"Affetta in parti\" non aggiorna il numero di oggetti quando il numero di pezzi cambia. Entrambi creano la funzione parametrica Slice, che mette i pezzi tagliati in un composto, ma \"Affetta in parti\" esplode il composto risultante in oggetti separati.
+[Affetta in parti](Part_SliceApart/it.md) è uguale a <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Affetta in composto](Part_Slice/it.md) seguito da <img alt="" src=images/Part_ExplodeCompound.svg  style="width:24px;"> [Esplodi composto](Part_ExplodeCompound/it.md). Mentre \"Affetta in composto\" è completamente parametrico e non crea problemi mentre il numero di pezzi cambia, \"Affetta in parti\" non aggiorna il numero di oggetti quando il numero di pezzi cambia. Entrambi creano la funzione parametrica Slice, che mette i pezzi tagliati in un composto, ma \"Affetta in parti\" esplode il composto risultante in oggetti separati.
 
 Le forme di uscita occupano lo stesso spazio dell\'originale. Ma sono divise dove si intersecano con altre forme. I pezzi divisi sono pezzi individuali.
 

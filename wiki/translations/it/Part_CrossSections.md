@@ -20,7 +20,7 @@ L\'utilità **Sezioni\...** crea una o più sezioni trasversali attraverso la fo
 ## Utilizzo
 
 1.  Selezionare una forma.
-2.  Premere il pulsante **<img src=images/Part_CrossSections.svg style="width:24px"> '''Sezioni...'''**.
+2.  Premere il pulsante **[<img src=images/Part_CrossSections.svg style="width:24px"> '''Sezioni...'''**.
 3.  Definire il piano guida.
 4.  Definire la posizione (altezza della sezione trasversale).
 5.  Facoltativamente, selezionare **Sezioni** per creare più di una sezione trasversale:

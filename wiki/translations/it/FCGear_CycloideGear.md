@@ -100,7 +100,7 @@ For more information see <img alt="" src=images/FCGear_InvoluteGear.svg  style="
 
 </div>
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> FCGear](Category_FCGear.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > FCGear CycloideGear/it

@@ -401,7 +401,7 @@ Dpi (punti per pollice) controlla la risoluzione delle immagini, ad esempio util
 
 }} {{Plot_Tools_navi}} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> External\_Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
 [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Basic tutorial/it

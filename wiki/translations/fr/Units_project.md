@@ -43,7 +43,7 @@ Finalement, créer un éditeur de propriétés pour **PropertyUntit** gérable p
 ### Établi (boîte à outils) 
 
 -   Mise à jour de la boîte à outils pour l\'utiliser dans le cadre des unités. Je voudrais commencer par, **[Sketcher](Sketcher_Workbench/fr.md)** et **[PartDesign](PartDesign_project/fr.md)** et aller ensuite plus loin \...
--   Documenter le processus de mise à jour, pour que les autres développeurs puissent faire de même avec d\'autres ateliers - _ 13:13, 28 Novembre 2011 (UTC)
+-   Documenter le processus de mise à jour, pour que les autres développeurs puissent faire de même avec d\'autres ateliers - [Yorikvanhavre](User_Yorikvanhavre.md) 13:13, 28 Novembre 2011 (UTC)
 
 ## Actions suivantes 
 
@@ -51,7 +51,7 @@ Finalement, créer un éditeur de propriétés pour **PropertyUntit** gérable p
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Units project/fr

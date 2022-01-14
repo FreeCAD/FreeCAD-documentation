@@ -137,7 +137,7 @@ class DraftObject:
             self.Type = state
 ```
 
-Tous les objets ont une propriété `TypeId`, mais pour les _ ou [`Part::FeaturePython`](Part_Feature/fr.md). Par conséquent, le fait d\'avoir cet attribut supplémentaire `Proxy.Type` dans la classe est utile pour traiter chaque objet d\'une manière particulière.
+Tous les objets ont une propriété `TypeId`, mais pour les [objets créés par script](scripted_objects/fr.md), cette propriété n\'est pas utile car elle fait toujours référence à la classe C++ parente, par exemple, [`Part::Part2DObjectPython`](Part_Part2DObject/fr.md) ou [`Part::FeaturePython`](Part_Feature/fr.md). Par conséquent, le fait d\'avoir cet attribut supplémentaire `Proxy.Type` dans la classe est utile pour traiter chaque objet d\'une manière particulière.
 
 ### Migration de l\'objet 
 
@@ -187,7 +187,7 @@ class CustomObject:
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripted objects saving attributes/fr

@@ -250,7 +250,7 @@ msiexec /i Y:\\software\\FreeCAD<version>.msi
 msiexec /i Y:\\software\\FreeCAD<version>.msi
 ```
 
-FreeCAD rulează dar s-a raportat că interfața OpenGL nu funcționează, la fel ca și în cazul altor programe rulate sub _, de exemplu Google _.
+FreeCAD rulează dar s-a raportat că interfața OpenGL nu funcționează, la fel ca și în cazul altor programe rulate sub [Wine](wikipedia:Wine_(software).md), de exemplu Google [SketchUp](wikipedia_SketchUp.md).
 
 
 <div class="mw-translate-fuzzy">

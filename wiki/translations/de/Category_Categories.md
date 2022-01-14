@@ -1,16 +1,16 @@
 # Category:Categories/de
 This is the **top category** which contains the main categories of the FreeCAD wiki. Please use categories to classify all articles and categories. Use the following tools for working with categories. To see a list of
 
--   all categories defined, browse through the hierarchy ongoing from *here* or have a look on the _.
--   all *articles* that are *not classified*, use the _.
--   all *categories* that are *not classified*, use the _.
--   all *images* that are *not classified*, use the _.
+-   all categories defined, browse through the hierarchy ongoing from *here* or have a look on the [list of all categories](Special_Categories.md).
+-   all *articles* that are *not classified*, use the [list of uncategorized pages](Special_Uncategorizedpages.md).
+-   all *categories* that are *not classified*, use the [list of uncategorized categories](Special_Uncategorizedcategories.md).
+-   all *images* that are *not classified*, use the [list of uncategorized images](Special_Uncategorizedimages.md).
 
 ### Contents:
 
 , , , , , , , , , , , , , , , , , , , , ,
 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[<img src="images/Property.png" style="width:16px"> Categories/de](<img src="images/Property.png" style="width:16px"> Categories/de.md) [<img src="images/Property.png" style="width:16px"> Addons/de](<img src="images/Property.png" style="width:16px"> Addons/de.md) [<img src="images/Property.png" style="width:16px"> Administration/de](<img src="images/Property.png" style="width:16px"> Administration/de.md) [<img src="images/Property.png" style="width:16px"> API/de](<img src="images/Property.png" style="width:16px"> API/de.md) [<img src="images/Property.png" style="width:16px"> Categories/de](<img src="images/Property.png" style="width:16px"> Categories/de.md) [<img src="images/Property.png" style="width:16px"> Command Reference/de](<img src="images/Property.png" style="width:16px"> Command_Reference/de.md) [<img src="images/Property.png" style="width:16px"> Developer/de](<img src="images/Property.png" style="width:16px"> Developer/de.md) [<img src="images/Property.png" style="width:16px"> Documentation/de](<img src="images/Property.png" style="width:16px"> Documentation/de.md) [<img src="images/Property.png" style="width:16px"> Help/de](<img src="images/Property.png" style="width:16px"> Help/de.md) [<img src="images/Property.png" style="width:16px"> Hubs/de](<img src="images/Property.png" style="width:16px"> Hubs/de.md) [<img src="images/Property.png" style="width:16px"> Image/de](<img src="images/Property.png" style="width:16px"> Image/de.md) [<img src="images/Property.png" style="width:16px"> Macros/de](<img src="images/Property.png" style="width:16px"> Macros/de.md) [<img src="images/Property.png" style="width:16px"> News/de](<img src="images/Property.png" style="width:16px"> News/de.md) [<img src="images/Property.png" style="width:16px"> Pages to delete/de](<img src="images/Property.png" style="width:16px"> Pages_to_delete/de.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation/de](<img src="images/Property.png" style="width:16px"> Poweruser_Documentation/de.md) [<img src="images/Property.png" style="width:16px"> Python Code/de](<img src="images/Property.png" style="width:16px"> Python_Code/de.md) [<img src="images/Property.png" style="width:16px"> Repository/de](<img src="images/Property.png" style="width:16px"> Repository/de.md) [<img src="images/Property.png" style="width:16px"> Roadmap/de](<img src="images/Property.png" style="width:16px"> Roadmap/de.md) [<img src="images/Property.png" style="width:16px"> Template/de](<img src="images/Property.png" style="width:16px"> Template/de.md) [<img src="images/Property.png" style="width:16px"> Tutorials/de](<img src="images/Property.png" style="width:16px"> Tutorials/de.md) [<img src="images/Property.png" style="width:16px"> UnfinishedDocu/de](<img src="images/Property.png" style="width:16px"> UnfinishedDocu/de.md) [<img src="images/Property.png" style="width:16px"> User Documentation/de](<img src="images/Property.png" style="width:16px"> User_Documentation/de.md) [<img src="images/Property.png" style="width:16px"> Wiki/de](<img src="images/Property.png" style="width:16px"> Wiki/de.md)
 
 ---
 [documentation index](../README.md) > [Addons/de]] , ](Category_Addons/de]] , .md) > Category:Categories/de

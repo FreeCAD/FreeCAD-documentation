@@ -70,7 +70,7 @@ Tutte le aggiunte alla lavorazione, comprese le modifiche e le copie di operazio
 
 <div class="mw-translate-fuzzy">
 
-Informazioni dettagliate sono disponibili in _.
+Informazioni dettagliate sono disponibili in [ Profondità e Altezze](Template:Depths/Heights/it.md).
 
 
 </div>
@@ -439,7 +439,7 @@ Tuttavia, i Path Compounds possono usufruire del Placement (posizionamento) dei 
 
 <div class="mw-translate-fuzzy">
 
-_
+[https://www.freecadweb.org/wiki/Path\_scripting Path scripting](https://www.freecadweb.org/wiki/Path_scripting_Path_scripting.md)
 
 
 </div>

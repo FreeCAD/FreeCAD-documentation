@@ -193,7 +193,7 @@ Oggetti per catturare la conoscenza della costruzione:
 
 <img alt="Oggetti per catturare la conoscenza della costruzione" src=images/BldgComponents.png  style="width:800px;">
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Arch](Arch_Workbench.md) > Arch Concept/it

@@ -4,7 +4,7 @@
 
 <div class="mw-translate-fuzzy">
 
-S-ar putea să fiți interesat de FreeCAD deoarece aveți deja o experiență tehnică de desen, de exemplu cu software-ul de genul _.
+S-ar putea să fiți interesat de FreeCAD deoarece aveți deja o experiență tehnică de desen, de exemplu cu software-ul de genul [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Sau știți deja ceva despre design sau preferați să desenați lucruri înainte de a le construi. În oricare dintre aceste cazuri, FreeCAD dispune de un atelier de lucru mai tradițional, cu instrumente găsite în majoritatea aplicațiilor CAD 2D: The [Draft Workbench](Draft_Workbench.md).
 
 
 </div>
@@ -12,7 +12,7 @@ S-ar putea să fiți interesat de FreeCAD deoarece aveți deja o experiență te
 
 <div class="mw-translate-fuzzy">
 
-Proiectul Workbench, deși adoptă metode de lucru moștenite de la lumea tradițională 2D CAD, nu este limitat deloc la domeniul 2D. Toate instrumentele funcționează în întreg spațiul 3D și multe dintre instrumentele de proiectare, de exemplu <img alt="" src=images/Draft_Move.png  style="width:16px;"> _,sunt utilizate frecvent peste tot în FreeCAD, deoarece sunt adesea mai intuitive decât schimbarea manuală a parametrilor de plasare.
+Proiectul Workbench, deși adoptă metode de lucru moștenite de la lumea tradițională 2D CAD, nu este limitat deloc la domeniul 2D. Toate instrumentele funcționează în întreg spațiul 3D și multe dintre instrumentele de proiectare, de exemplu <img alt="" src=images/Draft_Move.png  style="width:16px;"> [Move](Draft_Move.md) or <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Rotate](Draft_Rotate.md),sunt utilizate frecvent peste tot în FreeCAD, deoarece sunt adesea mai intuitive decât schimbarea manuală a parametrilor de plasare.
 
 
 </div>
@@ -20,7 +20,7 @@ Proiectul Workbench, deși adoptă metode de lucru moștenite de la lumea tradi�
 
 <div class="mw-translate-fuzzy">
 
-sunt utilizate frecvent peste tot în FreeCAD, deoarece sunt adesea mai intuitive decât schimbarea manuală a parametrilor de plasare.<img alt="" src=images/Draft_Line.png  style="width:16px;"> _, or <img alt="" src=images/Draft_Wire.png  style="width:16px;"> _, <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> _, a [working plane/grid system](Draft_SelectPlane.md) care vă permite să definiți exact în ce avion lucrați și un plan complet [snapping system](Draft_Snap.md) care face foarte ușor să desenezi și să poziționezi elementele exact în raport unul cu celălalt.
+sunt utilizate frecvent peste tot în FreeCAD, deoarece sunt adesea mai intuitive decât schimbarea manuală a parametrilor de plasare.<img alt="" src=images/Draft_Line.png  style="width:16px;"> [Line](Draft_Line.md), <img alt="" src=images/Draft_Circle.png  style="width:16px;"> [Circle](Draft_Circle.md), or <img alt="" src=images/Draft_Wire.png  style="width:16px;"> [Wire](Draft_Wire.md) (polyline), modification tools like <img alt="" src=images/Draft_Move.png  style="width:16px;"> [Move](Draft_Move.md), <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Rotate](Draft_Rotate.md) or <img alt="" src=images/Draft_Offset.png  style="width:16px;"> [Offset](Draft_Offset.md), a [working plane/grid system](Draft_SelectPlane.md) care vă permite să definiți exact în ce avion lucrați și un plan complet [snapping system](Draft_Snap.md) care face foarte ușor să desenezi și să poziționezi elementele exact în raport unul cu celălalt.
 
 
 </div>
@@ -87,7 +87,7 @@ Pentru a arăta fluxul de lucru și posibilitățile Atelierului, vom trece prin
 <div class="mw-translate-fuzzy">
 
 -   Asta e tot ce avem nevoie acum, ca să putem schimba modul de construcție. Verificați dacă întreaga geometrie a construcției a fost plasată într-un grup \"Construcție\", ceea ce îl face ușor să o ascundeți dintr-o dată sau chiar să o ștergeți complet ulterior.
--   Acum, să ne desenați cele două piese de perete folosind instrumentul <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> _, deoarece va trebui să ajungem la intersecțiile liniilor și dreptunghiurilor noastre. Desenați două polilinii după cum urmează, făcând clic pe toate punctele conturului lor. Pentru a le închide, fie faceți clic din nou pe primul punct, fie apăsați butonul **Close**:
+-   Acum, să ne desenați cele două piese de perete folosind instrumentul <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Wire](Draft_Wire.md). Fiți siguri că este pornit <img alt="" src=images/Draft_Snap_Intersection.svg  style="width:16px;"> [intersection snap](Draft_Snap.md), deoarece va trebui să ajungem la intersecțiile liniilor și dreptunghiurilor noastre. Desenați două polilinii după cum urmează, făcând clic pe toate punctele conturului lor. Pentru a le închide, fie faceți clic din nou pe primul punct, fie apăsați butonul **Close**:
 
 
 </div>
@@ -172,7 +172,7 @@ Pentru a arăta fluxul de lucru și posibilitățile Atelierului, vom trece prin
 
 <div class="mw-translate-fuzzy">
 
--   Cel mai important lucru despre Workbench Draft este însă faptul că geometria pe care o creați cu ea poate fi folosită ca bază sau ușor extrudată în obiecte 3D, pur și simplu prin utilizarea <img alt="" src=images/Part_Extrude.png  style="width:16px;"> _ (Trim/Extend/Extrude) care, sub capotă, efectuează o Extruziune de Piesă, dar o face \"modul Draft\", adică vă permite să indicați și să fixați grafic lungimea de extrudare. Experimentați extrudarea pereților noștri, după cum se arată mai jos.
+-   Cel mai important lucru despre Workbench Draft este însă faptul că geometria pe care o creați cu ea poate fi folosită ca bază sau ușor extrudată în obiecte 3D, pur și simplu prin utilizarea <img alt="" src=images/Part_Extrude.png  style="width:16px;"> [Part\_Extrude](Part_Extrude.md) tool from the [Part Workbench](Part_Workbench.md), or, to stay in Draft, the <img alt="" src=images/Draft_Trimex.png  style="width:16px;"> [Trimex](Draft_Trimex.md) (Trim/Extend/Extrude) care, sub capotă, efectuează o Extruziune de Piesă, dar o face \"modul Draft\", adică vă permite să indicați și să fixați grafic lungimea de extrudare. Experimentați extrudarea pereților noștri, după cum se arată mai jos.
 -   Apăsând <img alt="" src=images/Draft_SelectPlane.png  style="width:16px;"> [working plane](Draft_SelectPlane.md) după selectarea unei fețe a unui obiect, puteți, de asemenea, plasa planul de lucru oriunde și, prin urmare, desenați obiecte Draft în diferite planuri, de exemplu, deasupra pereților. Acestea pot fi apoi extrudate pentru a forma alte solide 3D. Experimentați setarea planului de lucru pe una dintre fețele superioare ale pereților, apoi trageți niște dreptunghiuri acolo.
 
 
@@ -227,7 +227,7 @@ Pentru a arăta fluxul de lucru și posibilitățile Atelierului, vom trece prin
 
 </div>
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Tutorials/ro](<img src="images/Property.png" style="width:16px"> Tutorials/ro.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md) [<img src="images/Property.png" style="width:16px"> Draft](Category_Draft.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional 2D drafting/ro

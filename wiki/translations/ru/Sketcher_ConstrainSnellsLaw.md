@@ -33,7 +33,7 @@ Constrains two lines to follow the law of refraction of light as it penetrates t
 
 Note that several [helper constraints](Sketcher_helper_constraint.md) will be added automatically (point-on-object, coincident). They can be deleted if they cause redundancy or added manually if they were not added automatically. For the actual Snell\'s law constraint the endpoints of lines must coincide and lay on the interface, otherwise the behavior is undefined.
 
-Using the **<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Polyline](Sketcher_CreatePolyline.md)**, it is possible to speed up drawing rays of light. In this case one can select two coincident endpoints by box selection.
+Using the **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Polyline](Sketcher_CreatePolyline.md)**, it is possible to speed up drawing rays of light. In this case one can select two coincident endpoints by box selection.
 
 ## Remarks
 

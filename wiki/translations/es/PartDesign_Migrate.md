@@ -21,7 +21,7 @@ El ambiente de trabajo de DiseñoPiezas en FreeCAD v0.17 introduce nuevas herram
 1.  Abrir un documento de FreeCAD que fue creado con FreeCAD {{VersionMinus/es|0.16}}
 2.  Cambiar al **<img src="images/Workbench_PartDesign.svg" width=16px> [DiseñoPieza](PartDesign_Workbench/es.md)** ambiente de trabajo.
 3.  Ve al menú **Diseño Pieza** → **Migrar**.
-4.  Si la migración funciona, un <img alt="" src=images/Std_Part.svg  style="width:24px;"> _, cada uno de los cuales albergará una cadena de características.
+4.  Si la migración funciona, un <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Contenedor de piezas](Std_Part/es.md) se creará que contendrá uno o más <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [Cuerpos](PartDesign_Body/es.md), cada uno de los cuales albergará una cadena de características.
 
 ## Limitaciones
 

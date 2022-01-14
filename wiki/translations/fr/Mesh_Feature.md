@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-Un objet <img alt="" src=images/Mesh_Tree.svg  style="width:32px;"> _ qui lui est associé et qui peut être affiché dans la [vue 3D](3D_view/fr.md).
+Un objet <img alt="" src=images/Mesh_Tree.svg  style="width:32px;"> [Mesh Feature](Mesh_Feature/fr.md) ou officiellement un `Mesh::Feature` est un élément simple avec un [mesh objet](Mesh_MeshObject/fr.md) qui lui est associé et qui peut être affiché dans la [vue 3D](3D_view/fr.md).
 
 Une fonction de maillage (Mesh Feature) est conceptuellement similaire à une [Part Feature](Part_Feature/fr.md). Le premier est l\'objet de base pour les éléments avec des informations de \"maillage\", tandis que le second est l\'objet de base pour les éléments avec des informations de \"forme géométrique\".
 
@@ -26,7 +26,7 @@ Un `Mesh::Feature` a des propriétés simples comme un [placement](Placement/fr.
 
 ## Propriétés
 
-_ (classe `App::GeoFeature`), de ce fait partage toutes les propriétés de cette dernière.
+[Part Feature](Mesh_Feature/fr.md) (classe `Mesh::Feature`) est dérivé de la classe de base [App GeoFeature](App_GeoFeature/fr.md) (classe `App::GeoFeature`), de ce fait partage toutes les propriétés de cette dernière.
 
 Outre les propriétés décrites dans [App GeoFeature](App_GeoFeature/fr.md), Mesh Feature possède la propriété {{PropertyData/fr|Mesh}} qui contrôle le type de géométrie affiché dans la [vue 3D](3D_view/fr.md). Elle stocke [Mesh MeshObject](Mesh_MeshObject/fr.md) de cet objet. Il s\'agit de la géométrie affichée dans la [Vue 3D](3D_view/fr.md).
 
@@ -159,7 +159,7 @@ obj.Label = "Custom label"
 
 }} {{Document objects navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Mesh](Mesh_Workbench.md) > Mesh Feature/fr

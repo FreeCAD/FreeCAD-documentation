@@ -16,7 +16,7 @@ Using Draft ![](images/washerDraft1a.png )
 ![washer5a.png](images/washer5a.png )
 ![washer6a.png](images/washer6a.png )
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > Washers

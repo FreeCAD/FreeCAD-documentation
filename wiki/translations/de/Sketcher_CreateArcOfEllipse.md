@@ -20,7 +20,7 @@ Dieses Werkzeug zeichnet einen Ellipsenbogen, indem vier Punkte ausgewählt werd
 
 ## Anwendung
 
--   Drücke die **<img src=images/Sketcher_CreateArcOfEllipse.svg style="width:16px"> [Ellipsenbogen](Sketcher_CreateArcOfEllipse/de.md)** Schaltfläche.
+-   Drücke die **[<img src=images/Sketcher_CreateArcOfEllipse.svg style="width:16px"> [Ellipsenbogen](Sketcher_CreateArcOfEllipse/de.md)** Schaltfläche.
 -   Erster Klick in der 3D Ansicht setzt den Mittelpunkt der Ellipse. Zweiter Klick legt den ersten Radius und die Ausrichtung der Ellipse fest. Der dritte Klick legt den zweiten Radius und den Beginn des Bogens fest. Der vierte Klick legt das Ende des Bogens fest.
 -   Nach dem vierten Klick wird der Ellipsenbogen zusammen mit einer darauf ausgerichteten Konstruktionsgeometrie (großer Durchmesser, kleiner Durchmesser, zwei Brennpunkte) erzeugt. Die Konstruktionsgeometrie kann manuell gelöscht werden, wenn sie nicht benötigt wird, und später neu erstellt werden. Siehe [Interne Ausrichtungsbeschränkung](Sketcher_ConstrainInternalAlignment/de.md) und [Skizzierer Zeige/ Blende Interne Geometrie aus](Sketcher_RestoreInternalAlignmentGeometry/de.md).
 -   Drücken von **ESC** oder Klicken der rechten Maustaste bricht die Funktion ab.

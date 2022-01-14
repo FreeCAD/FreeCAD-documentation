@@ -20,7 +20,7 @@ Cu toate acestea, în FreeCAD, foile de calcul au o utilitate suplimentară: Cel
 
 <div class="mw-translate-fuzzy">
 
--   Începeți prin comutarea pe _, <img alt="" src=images/Part_Cylinder.png  style="width:16px;"> _.
+-   Începeți prin comutarea pe [Part Workbench](Part_Workbench.md), și crearea câtorva obiecte: <img alt="" src=images/Part_Box.png  style="width:16px;"> [box](Part_Box.md), <img alt="" src=images/Part_Cylinder.png  style="width:16px;"> [cylinder](Part_Cylinder.md) și <img alt="" src=images/Part_Sphere.png  style="width:16px;"> [sphere](Part_Sphere.md).
 -   Editați proprietatea de **Placement** (sau utilizați <img alt="" src=images/Draft_Move.png  style="width:16px;"> [Draft Move](Draft_Move.md) tool) pentru a le puțin mai departe, astfel încât să putem vedea efectele a ceea ce vom face:
 
 
@@ -127,7 +127,7 @@ Puteți, de asemenea, să dați aliasuri constrângerilor dimensionale (orizonta
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Using spreadsheets/ro

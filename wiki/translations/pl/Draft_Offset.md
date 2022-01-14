@@ -19,7 +19,7 @@ Narzędzie <img alt="" src=images/Draft_Offset.svg  style="width:24px;"> **Odsun
 
 ## Użycie
 
-Zobacz także strony: _.
+Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysunek Roboczy: Wiązania](Draft_Constrain/pl.md).
 
 1.  Opcjonalnie wybierz jeden obiekt. Obiekt musi leżeć na aktualnej [płaszczyźnie roboczej](Draft_SelectPlane/pl.md).
 2.  Istnieje kilka sposobów, aby wywołać to polecenie:
@@ -49,18 +49,18 @@ Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysu
 
 ## Uwagi
 
--   Aby utworzyć przesuniętą wersję _.
--   Polecenie nie radzi sobie z _.
+-   Aby utworzyć przesuniętą wersję [krzywą złożoną](Draft_BSpline/pl.md), jej punkty są przesuwane indywidualnie, a z nowych punktów obliczana jest nowa krzywa złożona. Ta nowa krzywa nie jest równoległa do krzywej oryginalnej. Aby uzyskać dokładne przesunięcie równoległe [krzywej złożonej](Draft_BSpline/pl.md) należy użyć polecenia [Part: Odsunięcie 2D](Part_Offset2D/pl.md).
+-   Polecenie nie radzi sobie z [krzywą Beziera](Draft_BezCurve/pl.md). Zamiast niego użyj polecenia [Part: Odsunięcie 2D](Part_Offset2D/pl.md).
 
 ## Ustawienia
 
-Zobacz także strony: _.
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
 -   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania odległości: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę: _.
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Aby odsunąć obiekty należy użyć metody `offset` modułu Rysunek Roboczy. Metoda ta może obsługiwać tylko obiekty typu[polilinia](Draft_Wire/pl.md), [okrąg](Draft_Circle/pl.md), [prostokąt](Draft_Rectangle/pl.md), [wielokąt](Draft_Polygon/pl.md) i [linia złożona](Draft_BSpline/pl.md).
 

@@ -16,7 +16,7 @@
 
 B-сплайны в основном представляют собой комбинацию [кривых Безье](https://en.wikipedia.org/wiki/Bezier_curve#Constructing_B%C3%A9zier_curves) (хорошо рассмотренных в [этом](https://www.youtube.com/watch?v=bE1MrrqBAl8) и [этом](https://www.youtube.com/watch?v=xXJylM2S72s) видео).
 
-В кубическом сплайне (3-ей степени) представленном ниже, есть 3 сегмента, то есть 3 кривые соединены в 2 узла (степень обозначена числом, отображение может быть изменено с помощью кнопки на панели инструментов **<img src=images/Sketcher_BSplineDegree.svg style="width:24px"> [Показать/скрыть степень B-сплайна](Sketcher_BSplineDegree/ru.md)**):
+В кубическом сплайне (3-ей степени) представленном ниже, есть 3 сегмента, то есть 3 кривые соединены в 2 узла (степень обозначена числом, отображение может быть изменено с помощью кнопки на панели инструментов **[<img src=images/Sketcher_BSplineDegree.svg style="width:24px"> [Показать/скрыть степень B-сплайна](Sketcher_BSplineDegree/ru.md)**):
 
 <img alt="" src=images/Sketcher_BSplineDegree3.png  style="width:400px;"> 
 *B-сплайн со степенью 3 и 2 узлами, каждый из которых имеет кратность 1.*
@@ -35,7 +35,7 @@ If you take this result and increase the degree, you cannot get the initial stat
 
 ## Применение
 
-1.  Выберите ребро существующего B-сплайна и нажмите **<img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:24px"> '''Decrease B-spline degree'''**
+1.  Выберите ребро существующего B-сплайна и нажмите **[<img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:24px"> '''Decrease B-spline degree'''**
 
 
 

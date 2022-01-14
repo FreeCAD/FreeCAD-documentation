@@ -16,7 +16,7 @@ This tool maps a sketch onto a face, like a label on a bottle. The sketch must b
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
+1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
 2.  There are 2 methods to use the SketchOnSurface tool:
 
     You already have a sketch that you want to map on a face:

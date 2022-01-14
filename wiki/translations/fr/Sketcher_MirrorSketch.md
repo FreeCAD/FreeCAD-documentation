@@ -16,7 +16,7 @@ Met en miroir une esquisse le long de l\'axe x, de l\'axe y ou de l\'origine. Ce
 ## Utilisation
 
 1.  Sélectionner l\'esquisse à mettre en miroir (généralement en cliquant dessus dans la [Vue en arborescence](Tree_view/fr.md)).
-2.  Cliquez sur **<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> <img src=images/Sketcher_MirrorSketch.svg style="width:Esquisse miroir](Sketcher_MirrorSketch/fr.md)** ou choisissez **Sketch → [16px"> [Esquisse miroir](Sketcher_MirrorSketch/fr.md)** dans le menu supérieur.
+2.  Cliquez sur **[<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [Esquisse miroir](Sketcher_MirrorSketch/fr.md)** ou choisissez **Sketch → [<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [Esquisse miroir](Sketcher_MirrorSketch/fr.md)** dans le menu supérieur.
 3.  L\'esquisse résultante est créée en tant que nouvel objet séparé.
 
 Remarques:

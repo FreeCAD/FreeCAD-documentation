@@ -21,7 +21,7 @@
 
 <div class="mw-translate-fuzzy">
 
-**Однако Для инженерных применений, сетки обладают очень большим ограничением:** они только создают поверхность, и не содержат информацию о массе, так что они не ведут себя как _.
+**Однако Для инженерных применений, сетки обладают очень большим ограничением:** они только создают поверхность, и не содержат информацию о массе, так что они не ведут себя как [твердые тела](Glossary/ru#Solid.md). Это означает что все твердотельные операции, такие как сложение, вычитание, на сетках выполнять всегда труднее. Верстак Mesh полезен для импорта трёхмерных данных в формате сеток, для их анализа, обнаружения ошибок, и в итоге конвертирует их в твёрдые тела для использования в <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [верстаке Part](Part_Workbench/ru.md).
 
 
 </div>
@@ -123,8 +123,8 @@ There are some [export preferences related to Mesh Formats](Import_Export_Prefer
 
 Mesh Workbench preferences can be found in the following categories of the [Preferences Editor](Preferences_Editor.md):
 
--   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> _ tab several preferences can be set.
--   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> _, [Mesh Intersection](Mesh_Intersection.md) and [Mesh Difference](Mesh_Difference.md) commands require [OpenSCAD](http://www.openscad.org/) and use the **OpenSCAD executable** preference to find its executable.
+-   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Display](Preferences_Editor#Display_settings.md): On the [Mesh view](Preferences_Editor#Mesh_view.md) tab several preferences can be set.
+-   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences.md): The [Mesh Union](Mesh_Union.md), [Mesh Intersection](Mesh_Intersection.md) and [Mesh Difference](Mesh_Difference.md) commands require [OpenSCAD](http://www.openscad.org/) and use the **OpenSCAD executable** preference to find its executable.
 
 
 <div class="mw-translate-fuzzy">
@@ -156,7 +156,7 @@ Mesh Workbench preferences can be found in the following categories of the [Pref
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Mesh Workbench/ru

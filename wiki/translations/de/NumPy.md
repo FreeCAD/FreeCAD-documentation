@@ -16,7 +16,7 @@ numpy wird als Abhängigkeit von FreeCAD installiert, daher kannst du import num
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md)
 
 ---
 [documentation index](../README.md) > [3rd Party](Category_3rd Party.md) > NumPy/de

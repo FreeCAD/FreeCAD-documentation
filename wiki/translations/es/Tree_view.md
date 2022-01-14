@@ -83,7 +83,7 @@ If you select the active document and right click, in addition to **Expression a
 
 -    **Mark to recompute**: marks all objects of the document as touched, and ready for [recompute](Std_Refresh.md).
 
--    **_ in the selected document.
+-    **[Create group](Std_Group.md)**: creates a [group](Std_Group.md) in the selected document.
 
 ### Seleccionar de objetos 
 
@@ -121,17 +121,17 @@ As an example of context menu extension, if a [Part Box](Part_Box.md) is right c
 
 -    **[Set colors](Part_FaceColors.md)**: sets the color of selected faces of the object.
 
--    **_.
+-    **[Toggle visibility](Std_ToggleVisibility.md)**: makes the object visible or invisible in the [3D view](3D_view.md).
 
 -    **[Show selection](Std_ShowSelection.md)**: makes the selected object visible.
 
 -    **[Hide selection](Std_HideSelection.md)**: makes the selected object invisible.
 
--    **_.
+-    **[Toggle selectability](Std_ToggleSelectability.md)**: toggles the selectability of the object in the [3D view](3D_view.md).
 
 -    **[Select all instances](Std_TreeSelectAllInstances.md)**: selects all instances of this object in the tree view.
 
--    **_ referencing the object
+-    **[Send to Python Console](Std_SendToPythonConsole.md)**: creates a variable in the [Python console](Python_console.md) referencing the object
 
 ### Keyboard actions 
 

@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-_) file format. The IFC file format can be used to describe building and construction data. The format is commonly used for _ bindings, it can be integrated with programs like FreeCAD and Blender.
+[IfcOpenShell](IfcOpenShell.md) is an open source (LGPL 3) software library that helps developers work with the [industry foundation classes](http://www.buildingsmart-tech.org/specifications/ifc-overview) ([IFC](Arch_IFC.md)) file format. The IFC file format can be used to describe building and construction data. The format is commonly used for [building information modelling](https://en.wikipedia.org/wiki/Building_information_modeling) (BIM), for example, mechanical loading analysis, and thermal and energy efficiency studies. IfcOpenShell is primarily a collection of C++ libraries, however, as it has [Python](Python.md) bindings, it can be integrated with programs like FreeCAD and Blender.
 
 IfcOpenShell uses [OpenCASCADE](OpenCASCADE.md) internally to convert the implicit geometry in IFC files into explicit geometry that other CAD packages can understand, for example, STEP, [OBJ](Arch_OBJ.md), and [DAE](Arch_DAE.md).
 
@@ -443,12 +443,12 @@ The IfcOpenShell project has also developed \"IFC Pipeline\", a self-hosted IFC 
 -   [IFC installation](https://forum.freecadweb.org/viewtopic.php?f=39&t=12368&start=10#p117883); vecchia discussione nel forum.
 -   [IfcPlusPlus compiled on Gentoo - questions and alternatives?](https://forum.freecadweb.org/viewtopic.php?f=39&t=33254)
 -   [Importare/Esportare IFC - compilare IfcOpenShell](Import/Export_IFC_-_compiling_IfcOpenShell/it.md); una vecchia guida che descrive il processo generale. Potrebbe non essere più necessario poiché IfcOpenShell è ora distribuito insieme a FreeCAD grazie a [Conda](Conda/it.md).
--   Pagine che puntano a _.
+-   Pagine che puntano a [IfcOpenShell](Special:WhatLinksHere/IfcOpenShell.md).
 
 
  {{FEM Tools navi}} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md) [<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md)
 
 ---
 [documentation index](../README.md) > [BIM](Category_BIM.md) > IfcOpenShell/it

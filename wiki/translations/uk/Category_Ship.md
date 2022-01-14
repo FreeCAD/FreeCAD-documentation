@@ -5,7 +5,7 @@ This category lists pages related to the [Ship Workbench/uk](Ship_Workbench/uk.m
 
 [Ship Workbench/uk](Ship_Workbench/uk.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches/uk](<img src="images/Property.png" style="width:16px"> Workbenches/uk.md)
 
 ---
 [documentation index](../README.md) > Category:Ship/uk

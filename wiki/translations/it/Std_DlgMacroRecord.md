@@ -21,7 +21,7 @@ Il comando **Registra una macro** avvia una sessione di registrazione della [mac
 
 <div class="mw-translate-fuzzy">
 
-La funzione è accessibile tramite **Macro → Registra macro ...**, oppure tramite il pulsante **<img src=images/Std_DlgMacroRecord.png style="width:16px"> Registra macro** della barra degli strumenti delle macro <img alt="" src=images/Macros_toolbar.jpg  style="width:96px;">.
+La funzione è accessibile tramite **Macro → Registra macro ...**, oppure tramite il pulsante **[<img src=images/Std_DlgMacroRecord.png style="width:16px"> Registra macro** della barra degli strumenti delle macro <img alt="" src=images/Macros_toolbar.jpg  style="width:96px;">.
 
 
 </div>

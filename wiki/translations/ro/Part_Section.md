@@ -1,6 +1,6 @@
 # Part Section/ro
 ---
-- GuiCommand:   Name:Part Section   MenuLocation:Part → Section   Workbenches:_---
+- GuiCommand:   Name:Part Section   MenuLocation:Part → Section   Workbenches:[Complete](Part_Workbench___Part]],_[[Complete_Workbench.md)|SeeAlso:[Cross-sections](Part_SectionCross.md)---
 
 
 </div>

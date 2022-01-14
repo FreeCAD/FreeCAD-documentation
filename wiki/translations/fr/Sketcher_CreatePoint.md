@@ -12,7 +12,7 @@
 
 L\'outil Point crée un point dans l\'esquisse en cours, qui peut être utilisé pour construire des éléments de géométrie.
 
-_
+[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md)
 
 ## Utilisation
 

@@ -23,7 +23,7 @@ Tous les ajouts au travail, y compris les modifications et les copies d\'opérat
 
 ## Quelle est la différence entre Clearance Height et Safe Height? 
 
-Des informations plus détaillées sont disponible sur _.
+Des informations plus détaillées sont disponible sur [Modèle: Profondeurs/Hauteurs](Template:Depths/Heights/fr.md).
 
 [En haut](#top.md)
 

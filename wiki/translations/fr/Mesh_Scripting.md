@@ -95,7 +95,7 @@ Les scripts, bien que difficile à utiliser, de test unitaire du module `Mesh` c
 
 Voir aussi: [Mesh API](Mesh_API/fr.md). {{Top}} {{Powerdocnavi}} {{Mesh Tools navi}} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Mesh](Mesh_Workbench.md) > Mesh Scripting/fr

@@ -20,9 +20,9 @@ myObj.Placement = pl
 {{APIProperty | Rotation |. Un quaternion ( nombre complexe formé de quatre unités scalaires)  représentant la rotation du Placement}} {{APIFunction | inverse | | calcule le placement inverse |. Un placement}} {{APIFunction | move | Vecteur | déplace le placement le long du vecteur donnée | rien}} {{APIFunction | multVec | Vecteur | applique le placement au vecteur donné | le vecteur résultant}.} {{APIFunction | multipliez | Placement | multiplie ce placement avec l'autre | le placement résultant}.} {{APIFunction | toMatrix | | |. Une matrice représentant la transformation du placement}}
 
 
-[[Category:API\]\] 
+[[<img src="images/Property.png" style="width:16px"> API\]\] 
 
-_
+[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
 [documentation index](../README.md) > [API](Category_API.md) > Placement API/fr

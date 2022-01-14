@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Libreria BIM consente di posizionare nel modello corrente un oggetto della _ per essere disponibile con questo strumento.
+Lo strumento Libreria BIM consente di posizionare nel modello corrente un oggetto della [Libreria di parti di FreeCAD](Parts_Library/it.md), che deve essere installata tramite <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md) per essere disponibile con questo strumento.
 
 
 </div>
@@ -43,7 +43,7 @@ Lo strumento Libreria BIM consente di posizionare nel modello corrente un oggett
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
 [documentation index](../README.md) > [BIM](Category_BIM.md) > BIM Library/it

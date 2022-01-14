@@ -17,7 +17,7 @@ Crée un **système de coordonnées local** qui peut être utilisé comme réfé
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src=images/PartDesign_CoordinateSystem.svg style="width:16px"> [Créer un nouveau système de coordonnées local](PartDesign_CoordinateSystem/fr.md)**.
+1.  Appuyez sur le bouton **[<img src=images/PartDesign_CoordinateSystem.svg style="width:16px"> [Créer un nouveau système de coordonnées local](PartDesign_CoordinateSystem/fr.md)**.
 2.  Définir les paramètres du système de coordonnées. Sélectionnez une première référence dans la vue 3D pour filtrer les modes de liaison disponibles.
 3.  En fonction de la référence sélectionnée, un ou plusieurs modes de pièce jointe peuvent être disponibles dans la liste. Le plus probable sera automatiquement sélectionné et affiché en gras dans la liste. Le texte *Attaché avec le mode* ainsi que le nom du mode de pièce jointe apparaissent en vert en haut du panneau des paramètres.
 4.  Pour ajouter une référence supplémentaire, appuyez sur le bouton **Référence** suivant. Une fois appuyé, son étiquette devient *Sélection en cours\...* jusqu\'à ce qu\'une sélection soit faite.

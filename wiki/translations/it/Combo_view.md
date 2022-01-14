@@ -6,7 +6,7 @@
 La [vista combinata](combo_view/it.md) è uno dei pannelli principali nell\'interfaccia di FreeCAD. Di default si trova sul lato sinistro dello schermo. È composta da due parti:
 
 -   la [parte superiore](Combo_view/it#Sezione_superiore.md) che contiene due schede: **Modello** e **Azioni**
--   la _ viene visualizzato solo quando è attiva la scheda **Modello**, ovvero quando è visibile la [vista ad albero](tree_view/it.md).
+-   la [parte inferiore](Combo_view/it#Sezione_inferiore.md) che mostra l\'[editor delle proprietà](property_editor/it.md). Essa contiene due schede: le proprietà **Vista** e **Dati**. L\'[editor delle proprietà](property_editor/it.md) viene visualizzato solo quando è attiva la scheda **Modello**, ovvero quando è visibile la [vista ad albero](tree_view/it.md).
 
 
 **Nota.**

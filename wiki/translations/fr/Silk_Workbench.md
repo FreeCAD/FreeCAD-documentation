@@ -26,7 +26,7 @@ L\'installation recommandée se fait par le <img alt="" src=images/Std_AddonMgr.
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Silk](Category_Silk.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
 [documentation index](../README.md) > [Silk](Category_Silk.md) > Silk Workbench/fr

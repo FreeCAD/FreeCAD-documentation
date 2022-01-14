@@ -148,7 +148,7 @@ Vous pouvez maintenant découper l\'esquisse.
 
 ### Un pas plus loin 
 
-Créez l\'esquisse suivante, les dimensions doivent être des expressions (\"**Sketch.Constraints.width**\",\"**Sketch.Constraints.width/2**\") et elle doit être contrainte à l\'origine au sommet adjacent à l\'hypoténuse et son côté le plus court. (Dans l\'esquisse vide, si vous connaissez la **<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Copie carbone](Sketcher_CarbonCopy/fr.md)**, vous pouvez l\'utiliser pour faire une copie de l\'esquisse \'IsoscelesSketch\' et modifiez ses paramètres en conséquence.)
+Créez l\'esquisse suivante, les dimensions doivent être des expressions (\"**Sketch.Constraints.width**\",\"**Sketch.Constraints.width/2**\") et elle doit être contrainte à l\'origine au sommet adjacent à l\'hypoténuse et son côté le plus court. (Dans l\'esquisse vide, si vous connaissez la **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Copie carbone](Sketcher_CarbonCopy/fr.md)**, vous pouvez l\'utiliser pour faire une copie de l\'esquisse \'IsoscelesSketch\' et modifiez ses paramètres en conséquence.)
 
 Renommer l\'esquisse RightAngleTriangleSketch.
 
@@ -200,7 +200,7 @@ Renommer le sketch FinalSketch.
 
 ![centre\|FinalSketch](images/RightAngleTriangle.png )
 
-Notez que FinalSketch a été contrainte à l\'origine différemment. Sinon, nous aurions pu utiliser **<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Copie carbone](Sketcher_CarbonCopy/fr.md)** mais l\'esquisse ne contient que trois lignes et cinq contraintes.
+Notez que FinalSketch a été contrainte à l\'origine différemment. Sinon, nous aurions pu utiliser **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Copie carbone](Sketcher_CarbonCopy/fr.md)** mais l\'esquisse ne contient que trois lignes et cinq contraintes.
 
 Une fois encore, nous devons masquer le solide, dans ce cas Pocket001, et nous assurer que les deux esquisses sont visibles pour la sélection (BaseSketch et FinalSketch).
 

@@ -3,7 +3,7 @@
 
 CSG stands for [Constructive Solid Geometry](https://en.wikipedia.org/wiki/Constructive_solid_geometry) and describes the most basic way to work with solid 3D geometry, which is creating complex objects by adding and removing pieces to/from solids by using Boolean operations such as union, subtraction or intersection.
 
-As we saw earlier in this manual, FreeCAD can handle many types of geometry, but the preferred and most useful type for the kind of 3D objects that we want to design with FreeCAD, that is, real-world objects, is, without a doubt, solid, _. Unlike [polygon meshes](https://en.wikipedia.org/wiki/Polygon_mesh), which are made only of points and triangles, BREP objects have their faces defined by mathematical curves, which permits absolute precision, no matter the scale.
+As we saw earlier in this manual, FreeCAD can handle many types of geometry, but the preferred and most useful type for the kind of 3D objects that we want to design with FreeCAD, that is, real-world objects, is, without a doubt, solid, [BREP](https://en.wikipedia.org/wiki/Boundary_representation) geometry, that is mainly handled by the [Part Workbench](Part_Workbench.md). Unlike [polygon meshes](https://en.wikipedia.org/wiki/Polygon_mesh), which are made only of points and triangles, BREP objects have their faces defined by mathematical curves, which permits absolute precision, no matter the scale.
 
 ![](images/Mesh_vs_brep.jpg )
 
@@ -85,7 +85,7 @@ Notice that, although the legs are 8mm thick, we placed it 10mm away, leaving 2m
 
 Now that our five pieces are complete, it is a good time to give them more proper names than \"Cut015\". By right-clicking the objects in the tree view (or pressing **F2**), you can rename them to something more meaningful to yourself or to another person who would open your file later. It is often said that simply giving proper names to your objects is much more important than the way you model them.
 
--   We will now place some screws. There is nowadays an extremely useful addon developed by a member of the FreeCAD community, that you can find on the _.
+-   We will now place some screws. There is nowadays an extremely useful addon developed by a member of the FreeCAD community, that you can find on the [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons) repository, called [Fasteners](https://github.com/shaise/FreeCAD_FastenersWB), that makes the insertion of screws very easy. Installing additional workbenches is easy and described on the [addons pages](Std_AddonMgr.md).
 -   Once you have installed the Fasteners Workbench and restarted FreeCAD, it will appear in the workbenches list, and we can switch to it. Adding a screw to one of our holes is done by first selecting the circular edge of our hole:
 
 ![](images/Exercise_table_07.jpg )
@@ -127,7 +127,7 @@ You might look at the table above, and think its design is not good. The tighten
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional modeling, the CSG way/pl

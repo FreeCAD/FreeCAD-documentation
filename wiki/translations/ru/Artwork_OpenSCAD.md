@@ -14,7 +14,7 @@
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> OpenSCAD](Category_OpenSCAD.md)
 
 ---
 [documentation index](../README.md) > [OpenSCAD](Category_OpenSCAD.md) > Artwork OpenSCAD/ru

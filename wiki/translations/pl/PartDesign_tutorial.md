@@ -25,10 +25,10 @@ Ten poradnik ma na celu zapoznanie czytelnika z podstawowym przepływem pracy w 
 
 Celem środowiska roboczego **Projekt Części** jest umożliwienie użytkownikowi tworzenia geometrii w przestrzeni 3D. W związku z tym jest ono wyposażone w narzędzia do wykorzystania szkiców i przekształcania ich w obiekty 3D.
 
-Aby to osiągnąć, istnieją dwa narzędzia: <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> _. Obok ich subtraktywnych odpowiedników *(<img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> _)* tworzą większość typowych akcji używanych przez to środowisko pracy.
+Aby to osiągnąć, istnieją dwa narzędzia: <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Wyciągnij](PartDesign_Pad/pl.md) oraz <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Wyciągnij przez obrót](PartDesign_Revolution/pl.md). Obok ich subtraktywnych odpowiedników *(<img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [kieszeń](PartDesign_Pocket/pl.md) i <img alt="" src=images/PartDesign_Groove.svg  style="width:32px;"> [rowek](PartDesign_Groove/pl.md))* tworzą większość typowych akcji używanych przez to środowisko pracy.
 
 1.  Przełącz się do środowiska produkcyjnego Projekt Części.
-2.  Z zaznaczonym szkicem w oknie <img src=images/PartDesign_Body.svg style="width:widoku drzewa](Tree_view/pl.md), naciśnij przycisk **[16px"> [Zawartość](PartDesign_Body/pl.md)**, wybierz domyślną płaszczyznę XY i naciśnij przycisk **OK**. Szkic powinien pojawić się teraz wewnątrz zawartości.
+2.  Z zaznaczonym szkicem w oknie [widoku drzewa](Tree_view/pl.md), naciśnij przycisk **[<img src=images/PartDesign_Body.svg style="width:16px"> [Zawartość](PartDesign_Body/pl.md)**, wybierz domyślną płaszczyznę XY i naciśnij przycisk **OK**. Szkic powinien pojawić się teraz wewnątrz zawartości.
 3.  Wybierz <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Wyciągnij wybrany szkic](PartDesign_Pad/pl.md).
 4.  Ustaw odległość na {{SpinBox|5 mm }}.
 5.  Naciśnij na przycisk **OK**.
@@ -37,7 +37,7 @@ Innym sposobem na tworzenie geometrii 3D jest narzędzie <img alt="" src=images/
 
 <img alt="" src=images/PartDesign_revolution_exercise.png  style="width:480px;">
 
-1.  Utwórz nową zawartość narzędziem **<img src=images/PartDesign_Body.svg style="width:16px"> [Projekt Części Zawartość](PartDesign_Body/pl.md)**, a następnie szkic na podstawie powyższego obrazka.
+1.  Utwórz nową zawartość narzędziem **[<img src=images/PartDesign_Body.svg style="width:16px"> [Projekt Części Zawartość](PartDesign_Body/pl.md)**, a następnie szkic na podstawie powyższego obrazka.
 2.  Szkic może znajdować się na dowolnej płaszczyźnie, ale powinien przylegać do osi poziomej.
 3.  Wybierz narzędzie <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Wyciągnij wybrany szkic przez obrót](PartDesign_Revolution/pl.md).
 4.  Ustaw parametr **Oś** na wartość {{ComboBox|Pozioma oś szkicu}}.

@@ -3,36 +3,36 @@
 
 Ta strona prezentuje zestaw filmików instruktażowych wykonanych przez użytkowników i programistów FreeCAD. Więcej odnośników można znaleźć w podforum [Przewodniki i fimly](https://forum.freecadweb.org/viewforum.php?f=36). Praktycznym źródłem wideo poradników jest witryna [YouTube](https://YouTube.com).
 
-Odwiedź stronę _.
+Odwiedź stronę [Poradniki](tutorials/pl.md), aby uzyskać wysokiej jakości poradniki w formie artykułów tekstowych. Pełna, nieposortowana lista poradników znajduje się w [Kategorii Poradniki](:<img src="images/Property.png" style="width:16px"> Tutorials/pl.md).
 
 Jeśli chciałbyś pomóc w pisaniu dokumentacji wiki oraz poradników, zapoznaj się z [Pomóż w rozwoju FreeCAD](Help_FreeCAD/pl.md), ogólnymi wytycznymi dotyczącymi Wiki w [WikiPages](WikiPages.md), i postępuj zgodnie z [Wskazówkami dotyczącymi poradników](tutorial_guidelines.md).
 
 ## Projektowanie produktów 
 
-Filmy wideo, które przedstawiają modelowanie różnych obiektów bryły za pomocą Środowisk pracy, takich jak <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _, oraz <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Szkicownik](Sketcher_Workbench/pl.md).
+Filmy wideo, które przedstawiają modelowanie różnych obiektów bryły za pomocą Środowisk pracy, takich jak <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md), oraz <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Szkicownik](Sketcher_Workbench/pl.md).
 
 Ponieważ istnieje wiele filmów, które dotyczą tego tematu, proszę odwiedzić stronę: [Wideo poradniki dotyczące konstruowania produktów](Video_tutorials_for_product_design/pl.md).
 
 ## Środowisko pracy Siatka 
 
--   <img src=images/Part_ShapeFromMesh.svg style="width:Edycja plików STL we FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) autorstwa AllVisuals4U. Prezentuje on narzędzie **[16px"> [Część: Kształt z siatki](Part_ShapeFromMesh/pl.md)**.
+-   [Edycja plików STL we FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) autorstwa AllVisuals4U. Prezentuje on narzędzie **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Część: Kształt z siatki](Part_ShapeFromMesh/pl.md)**.
 
 ## Środowisko pracy Złożenie 
 
--   _.
--   _.
+-   [Pójdź dalej z Asm 3](http://help-freecad-jpg87.fr/025c_ass_ex_creat.php) autorstwa jpg87 jest stroną internetową z instrukcjami krok po kroku i filmami wideo demonstrującymi zastosowanie Środowiska pracy [Złożenie 3](Assembly3_Workbench/pl.md).
+-   [Poradnik FreeCAD - Środowisko pracy Złożenie 4](https://www.youtube.com/watch?v=n04M6nFvdxs) autorstwa Martham Engineering. Przedstawia on Środowisko pracy [Złożenie 4](Assembly4_Workbench/pl.md).
 
 ## Środowisko pracy Rysunek Techniczny 
 
--   _, autorstwa sliptonic; [1 *(Podstawy)*](https://www.youtube.com/watch?v=7LbOmSGW9F0), [2 *(Wymiary)*](https://www.youtube.com/watch?v=z3w84RfvqaE), [3 *(Wiele widoków)*](https://www.youtube.com/watch?v=uNjXg-m38aI), [4 \'\'(Przekroje i szczegóły)](https://www.youtube.com/watch?v=3zSdeFV6I5o), oraz [5 \'\'(Dostosowanie szablonu)](https://www.youtube.com/watch?v=kcmdJ7xa7gg).
+-   [Rysunek Techniczny](https://www.youtube.com/watch?v=7LbOmSGW9F0&list=PLEuOia-QxyFKQnmM1U9yVo7eNrK_Mcln8): seria 5 filmów prezentująca środowisko pracy [Rysunek Techniczny](TechDraw_Workbench/pl.md), autorstwa sliptonic; [1 *(Podstawy)*](https://www.youtube.com/watch?v=7LbOmSGW9F0), [2 *(Wymiary)*](https://www.youtube.com/watch?v=z3w84RfvqaE), [3 *(Wiele widoków)*](https://www.youtube.com/watch?v=uNjXg-m38aI), [4 \'\'(Przekroje i szczegóły)](https://www.youtube.com/watch?v=3zSdeFV6I5o), oraz [5 \'\'(Dostosowanie szablonu)](https://www.youtube.com/watch?v=kcmdJ7xa7gg).
 
 -   [Wprowadzenie do FreeCAD środowisko pracy Rysunek Techniczny](https://www.youtube.com/watch?v=TnYMfpdNQoo) autorstwa Glasson Design Studio. Przeznaczony jest on w szczególności dla stolarzy, ale może być stosowany do materiałów litych.
 
 ## Produkcja wspomagana komputerowo *(CAM)* 
 
--   _ autorstwa sliptonic, jednego z głównych twórców tego ostatniego.
+-   [lista odtwarzania sliptonic](https://www.youtube.com/user/sliptonic/playlists): różne filmy na temat korzystania z FreeCAD, pracy ze środowiskiem Rysunek Techniczny, a zwłaszcza środowisko pracy [Path](Path_Workbench/pl.md) autorstwa sliptonic, jednego z głównych twórców tego ostatniego.
     -   [Korzystanie z FreeCAD w wersji 0.17 Środowisko pracy Path](https://www.youtube.com/playlist?list=PLEuOia-QxyFJZSpqb0xOHc9t7MLdCO3io): seria 9 filmów wideo wyjaśniających sposób korzystania z Środowiska pracy Path, w tym narzędzia i kontrolery, ustawienia zadań, wizualizacje, operacje, przebrania, jednostki i preferencje.
--   _.
+-   [Coder Musashi videos](https://www.youtube.com/channel/UCtNnYMVWGkG-aemOrCtGjCA/videos): różne filmy przedstawiające działanie Środowiska pracy [Path](Path_Workbench/pl.md).
     -   [Środowisko pracy Path tworzenie ścieżek za pomocą FeatureArea i innych darmowych narzędzi](https://www.youtube.com/watch?v=MsDIRIkeNJ4)
 
 ## Wizualizacja i renderowanie 
@@ -42,13 +42,13 @@ Ponieważ istnieje wiele filmów, które dotyczą tego tematu, proszę odwiedzi�
 
 ## Projektowanie architektoniczne 
 
-Filmy przedstawiające modelowanie pomieszczeń, domów, budynków biurowych i podobnych konstrukcji oraz rysowanie planów pięter przy użyciu Środowisk pracy, takich jak <img alt="" src=images/_Workbench_Draft.svg  style="width:24px;"> _ i <img alt="" src=images/_Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/pl.md).
+Filmy przedstawiające modelowanie pomieszczeń, domów, budynków biurowych i podobnych konstrukcji oraz rysowanie planów pięter przy użyciu Środowisk pracy, takich jak <img alt="" src=images/_Workbench_Draft.svg  style="width:24px;"> [Rysunek Roboczy](Draft_Workbench/pl.md), <img alt="" src=images/_Workbench_Arch.svg  style="width:24px;"> [Architektura](Arch_Workbench/pl.md) i <img alt="" src=images/_Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/pl.md).
 
 Ponieważ istnieje wiele filmów, które dotyczą tego tematu, proszę odwiedzić stronę: [Wideo poradniki dotyczące projektów architektonicznych](Video_tutorials_for_architectural_design.md).
 
 ## Metoda elementów skończonych *(MES)* Symulacja 
 
--   _, przez Eklavya Self Learning Tutorials.
+-   [FreeCAD FEM/Civil/Structural/Arch Tutorial-1-An Wprowadzenie](https://www.youtube.com/watch?v=wAJe1R5NDGw): FreeCAD 0.16 i wprowadzenie, które buduje prostą strukturę słupów i belek oraz analizuje je za pomocą środowiska pracy <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [MES](FEM_Workbench/pl.md), przez Eklavya Self Learning Tutorials.
 
 -   [Jak używać FreeCAD MES](https://www.youtube.com/watch?v=dhrynRdBOIg) \[12:15\] FreeCAD v0.19, Intro do używania środowiska pracy MES. Bardzo dobrze zrobione, przez Joko Engineering
 
@@ -56,7 +56,7 @@ Ponieważ istnieje wiele filmów, które dotyczą tego tematu, proszę odwiedzi�
 
 ## Pozostałe
 
--   _, które może być instalowane z poziomu <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md).
+-   [Środowisko pracy Animacja](https://www.youtube.com/watch?v=AQjAa5JxmOg&list=PLIxaznuCUATKzCFbFUFhRwZMJMnYuQ1JB) autorstwa microelly. Seria 7 filmów, które opisują środowisko pracy Animacja autorstwa jej twórcy. Jest to jedno z [zewnętrznych środowisk pracy](External_workbenches/pl.md), które może być instalowane z poziomu <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżer dodatków](Std_AddonMgr/pl.md).
 
 -   [Samouczki FreeCAD - OGÓLNE](https://www.youtube.com/watch?v=WdBQPXeAeMc&list=PLKu--JcOZKTPZjy761ELQ7ba45yZmxOpj) autorstwa AllVisuals4U. FreeCAD 0.16, seria 28 krótkich filmów wideo na temat ogólnych zagadnień związanych z programem FreeCAD, na przykład pokazuje jak zmienić jednostki, kolor tła, ekran powitalny, wiązania, ustawić perspektywę, ustawić przezroczystość, zmienić rozmiar ikon na pasku narzędzi, przygotować się do druku 3D i wytłoczyć tekst. Niektóre bardziej zaawansowane instrukcje obejmują sposób projektowania logo, gięcie metalu i montaż. Większość filmów opisuje FreeCAD 0.16, ale ponieważ nie koncentrują się one na aspektach modelowania, informacje te mają ogólne zastosowanie dla pozostałych wersji.
 
@@ -67,7 +67,7 @@ Ponieważ istnieje wiele filmów, które dotyczą tego tematu, proszę odwiedzi�
 ## Przestarzałe przewodniki wideo 
 
 
-**W FreeCAD 0.17 Środowisko pracy _ i obiektami danych.**
+**W FreeCAD 0.17 Środowisko pracy [Projekt Części](PartDesign_Workbench/pl.md) otrzymało ważne aktualizacje, które zmieniają sposób tworzenia brył w stosunku do poprzednich wersji. Nowi użytkownicy powinni obejrzeć filmy dla wersji '''0.17''' i nowszych, aby zrozumieć koncepcję pracy z obiektami [Projekt Części: Zawartość](PartDesign_Body/pl.md) i obiektami danych.**
 
 
 **Filmy te są uważane za przestarzałe, ponieważ wykorzystują wersję v0.16 lub jeszcze starsze wersje programu.**
@@ -89,7 +89,7 @@ Aby uzyskać więcej informacji, zobacz [ przestarzałe poradniki wideo](Video_t
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/pl

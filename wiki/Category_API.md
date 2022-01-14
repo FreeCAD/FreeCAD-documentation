@@ -7,7 +7,7 @@ This category gathers articles that list objects and methods available for [Pyth
 
 [Arch API](Arch_API.md) , [Base API](Base_API.md) , [Builtin modules](Builtin_modules.md) , [Console API](Console_API.md) , [Draft API](Draft_API.md) , [FeaturePython Custom Properties](FeaturePython_Custom_Properties.md) , [FreeCAD API](FreeCAD_API.md) , [FreeCADGui API](FreeCADGui_API.md) , [Matrix API](Matrix_API.md) , [Mesh API](Mesh_API.md) , [Object API](Object_API.md) , [Part API](Part_API.md) , [Placement API](Placement_API.md) , [Python](Python.md) , [Reinforcement API](Reinforcement_API.md) , [Robot API example](Robot_API_example.md) , [Selection API](Selection_API.md) , [TechDraw API](TechDraw_API.md) , [TechDrawGui API](TechDrawGui_API.md) , [TopoShape API](TopoShape_API.md) , [Vector API](Vector_API.md) , [ViewObject API](ViewObject_API.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Categories](Category_Categories.md)
 
 ---
 [documentation index](../README.md) > [API](Category_API.md) > Category:API

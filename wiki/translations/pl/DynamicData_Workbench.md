@@ -22,7 +22,7 @@ This workbench can be installed from the [Addon Manager](Std_AddonMgr.md). For m
 ## Links
 
 -   Source code hosted on GitHub: [github.com](https://github.com/mwganson/DynamicData)
--   Official complete _
+-   Official complete [documentation](https://github.com/mwganson/DynamicData/blob/master/README.md)
 
 ## External workbenches 
 
@@ -35,7 +35,7 @@ New workbenches are in development, stay tuned!
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > DynamicData Workbench/pl

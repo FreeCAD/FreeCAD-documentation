@@ -18,7 +18,7 @@ Das [Arch Bügelförmiger Bewehrungsstab](Arch_Rebar_Stirrup/de.md)-Werkzeug ist
 
 <div class="mw-translate-fuzzy">
 
-Dieser Befehl ist Teil des _ über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
+Dieser Befehl ist Teil des [Verstärkung](Reinforcement_Workbench/de.md)-Arbeitsbereichs, der mit dem<img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon-Manager](Std_AddonMgr/de.md) über das Menü **Werkzeuge → Addon-Manager → Reinforcement** installiert werden kann.
 
 
 </div>
@@ -148,7 +148,7 @@ Stirrup.editStirrup(Rebar, 20, 20, 20, 20, 50,
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Stirrup/de

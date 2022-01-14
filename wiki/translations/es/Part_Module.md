@@ -14,11 +14,11 @@
 
 ## Introducción
 
-Las sólidas capacidades de modelado de FreeCAD se basan en la _ es una capa que se encuentra en la parte superior de las bibliotecas de la OCCT, que da al usuario acceso a las primitivas y funciones geométricas de la OCCT. Esencialmente todas las funciones de dibujo 2D y 3D en cada ambiente de trabajo (<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [DiseñoPieza](PartDesign_Workbench/es.md), etc.), se basan en estas funciones expuestas por el ambiente de trabajo DiseñoPieza. Por lo tanto, el Ambiente de trabajo DiseñoPieza se considera el componente central de las capacidades de modelado de FreeCAD.
+Las sólidas capacidades de modelado de FreeCAD se basan en la [OpenCASCADE](OpenCASCADE/es.md) (OCCT), un sistema CAD de calidad profesional que presenta una creación y manipulación avanzada de geometría 3D. El <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente de trabajo pieza](Part_Workbench/es.md) es una capa que se encuentra en la parte superior de las bibliotecas de la OCCT, que da al usuario acceso a las primitivas y funciones geométricas de la OCCT. Esencialmente todas las funciones de dibujo 2D y 3D en cada ambiente de trabajo (<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Borrador](Draft_Workbench/es.md), <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Croquizador](Sketcher_Workbench/es.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [DiseñoPieza](PartDesign_Workbench/es.md), etc.), se basan en estas funciones expuestas por el ambiente de trabajo DiseñoPieza. Por lo tanto, el Ambiente de trabajo DiseñoPieza se considera el componente central de las capacidades de modelado de FreeCAD.
 
 Una discusión más detallada sobre el ambiente de trabajo Pieza frente al ambiente de trabajo de DiseñoPieza se puede encontrar aquí: [Pieza y DiseñoPieza](Part_and_PartDesign/es.md).
 
-Los objetos creados con el ambiente de trabajo de pieza son relativamente sencillos; están pensados para ser utilizados con operaciones booleanas (uniones y cortes) para construir formas más complejas. **Este paradigma de modelado se conoce como la _), hasta obtener el objeto final.
+Los objetos creados con el ambiente de trabajo de pieza son relativamente sencillos; están pensados para ser utilizados con operaciones booleanas (uniones y cortes) para construir formas más complejas. **Este paradigma de modelado se conoce como la [geometría sólida constructiva](constructive_solid_geometry/es.md) (CSG), y era la metodología tradicional usada en los primeros sistemas de CAD.** Por otro lado, el [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md) proporciona un flujo de trabajo más moderno para construir formas: utiliza un boceto definido paramétricamente, que se extruye para formar un cuerpo sólido básico, que luego se modifica mediante transformaciones paramétricas ([edición características](feature_editing/es.md)), hasta obtener el objeto final.
 
 Los objetos de las partes son más complejos que los objetos de malla creados con el [Ambiente de trabajo Malla](Mesh_Workbench/es.md), ya que permiten operaciones más avanzadas como operaciones booleanas coherentes, historial de modificaciones y comportamiento paramétrico.
 
@@ -50,12 +50,12 @@ Estas son las herramientas para crear primitivas de objetos.
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Primitivas](Part_Primitives/es.md): Una herramienta para crear una de las siguientes primitivas:
     -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Plano](Part_Plane/es.md): Crea un plano.
-    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> _.
-    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> _.
-    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> _.
-    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> _.
+    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Caja](Parte_Caja/es.md): Crea una caja. Este objeto también puede ser creado con el <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Caja](Part_Box/es.md).
+    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Cilindro](Part_Cylinder/es.md): Crea un cilindro. Este objeto también puede ser creado con el <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cilindro](Part_Cylinder/es.md).
+    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Cono](Part_Cone/es.md): Crea un cono. Este objeto también se puede crear con el <img alt="" src=images/Part_Cone.svg  style="width:32px;"> Herramienta [Cono](Part_Cone/es.md).
+    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Esfera](Part_Sphere/es.md): Crea una esfera. Este objeto también puede ser creado con el <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Esfera](Parte_esfera/es.md).
     -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Ellipsoide](Part_Ellipsoid/es.md): Crea un elipsoide.
-    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> _.
+    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [\|Toro](Part_Torus/es.md): Crea un toroide. Este objeto también puede ser creado con el <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Toro](Part_Torus/es.md).
     -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prisma](Part_Prism/es.md): Crea un prisma.
     -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Cuña](Part_Wedge/es.md): Crea una cuña.
     -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Hélice](Part_Helix/es.md): Crea una hélice.
@@ -130,7 +130,7 @@ Estas herramientas realizan operaciones booleanas.
     -   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Fragmentos booleanos](Part_BooleanFragments/es.md): Crea todas las piezas obtenidas de las operaciones booleanas.
     -   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Recorta una pieza](Part_SliceApart/es.md): Rebana y divide un objeto intersectándolo con otros objetos.
     -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Corte](Part_Slice/es.md): Corta un objeto intersectándolo con otros objetos.
-    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> _).
+    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [XOR](Part_XOR/es.md): Elimina el espacio compartido por un número par de objetos (versión simétrica de [Cortar](Part_Cut/es.md)).
 
 ### Medida
 
@@ -212,7 +212,7 @@ Ver [Guiones Pieza](Part_scripting/es.md).
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/es

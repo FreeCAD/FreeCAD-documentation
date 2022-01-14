@@ -215,7 +215,7 @@ En la versión de desarrollo, como se mencionó anteriormente, se puede cambiar 
 
  
 
-_ _
+[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > FreeCAD and DWG Import/es

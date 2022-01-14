@@ -20,7 +20,7 @@
 
 Готовые чертёжные листы могут быть напечатаны или экспортированы в файлы форматов [SVG](https://ru.wikipedia.org/wiki/SVG), PDF или [DXF](https://ru.wikipedia.org/wiki/DXF).
 
-В следующем примере мы посмотрим как создать простой чертёж модели стула, находящейся в _ данного руководства), или Вы можете просто загрузить модель с веб-страницы библиотеки, или через прямую ссылку внизу этой главы.
+В следующем примере мы посмотрим как создать простой чертёж модели стула, находящейся в [библиотеке FreeCAD](https://github.com/FreeCAD/FreeCAD-library) (Furniture → Chairs → IkeaLikeChair). Библиотека FreeCAD может быть легко добавлена к Вашей установке FreeCAD (смотрите главу [установка](Manual:Installing/ru.md) данного руководства), или Вы можете просто загрузить модель с веб-страницы библиотеки, или через прямую ссылку внизу этой главы.
 
 ![](images/Exercise_TechDraw_01.svg )
 
@@ -62,7 +62,7 @@
 
 <div class="mw-translate-fuzzy">
 
--   При желании мы можем настроить наши виды. Мы можем просто _ трёхмерный вид вашей модели, и когда получите вид, который вы хотите, выберите модель в древе проекта и нажмите <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> вставку нового вида на страницу. Это автоматически вставит вид с желаемыми свойствами поворота и направления. Можно так же использовать инструмент <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:16px;"> [Projection Group](TechDraw_ProjectionGroup/ru.md).
+-   При желании мы можем настроить наши виды. Мы можем просто [повернуть](Manual:Navigating_in_the_3D_view/ru.md) трёхмерный вид вашей модели, и когда получите вид, который вы хотите, выберите модель в древе проекта и нажмите <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> вставку нового вида на страницу. Это автоматически вставит вид с желаемыми свойствами поворота и направления. Можно так же использовать инструмент <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:16px;"> [Projection Group](TechDraw_ProjectionGroup/ru.md).
 
 
 </div>
@@ -72,7 +72,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Теперь поместим на нашем чертеже размеры и выноски. Есть два пути для указания в модели размерностей: одно - указание размерностей внутри модели, используя инструмент <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> _. По-другому мы можем делать это напрямую на чертёжном листе. Мы используем последний метод.
+Теперь поместим на нашем чертеже размеры и выноски. Есть два пути для указания в модели размерностей: одно - указание размерностей внутри модели, используя инструмент <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> [Размер](Draft_Dimension/ru.md) из [верстака Draft](Draft_Workbench/ru.md), и поместить вид этих размеров на нашем листе с помощью инструмента <img alt="" src=images/TechDraw_DraftView.svg  style="width:16px;"> [TechDraw DraftView](TechDraw_DraftView.md). По-другому мы можем делать это напрямую на чертёжном листе. Мы используем последний метод.
 
 
 </div>
@@ -92,9 +92,9 @@
 
 <div class="mw-translate-fuzzy">
 
--   Повторяйте операцию, пока все размеры, которые вы хотите указать, не будут размещены. Используйте инструменты <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> _, если нужно.
+-   Повторяйте операцию, пока все размеры, которые вы хотите указать, не будут размещены. Используйте инструменты <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> [Вертикальный размер](TechDraw_VerticalDimension/ru.md) и <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:16px;"> [Горизонтальный размер](TechDraw_HorizontalDimension/ru.md), если нужно.
 -   Найдите минутку, чтобы взглянуть на [параметры](TechDraw_LengthDimension/ru#Properties.md) объекта Dimension в комбинированном представлении.
--   Обратите внимание, что если вы измеряете _, чтобы получить правильное измерение.
+-   Обратите внимание, что если вы измеряете [аксонометрический вид](https://en.wikipedia.org/wiki/Axonometric_projection) (например, изометрический) вместо прямой проекции (например, вида спереди), как мы сделали здесь, вам следует использовать инструмент <img alt="" src=images/_TechDraw_LinkDimension.svg  style="width:16px;"> [Dimension Link](TechDraw_LinkDimension/ru.md), чтобы получить правильное измерение.
 
 
 </div>
@@ -126,7 +126,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Теперь наша страница может быть экспортирована в SVG для дальнейшей работы в графических приложениях вроде _, а затем выберите меню **Файл → Экспортировать**. Формат DXF может быть импортирован практически во все существующие двумерные приложения САПР. Страницы TechDraw так же могут быть распечатаны или экспортированы в PDF.
+Теперь наша страница может быть экспортирована в SVG для дальнейшей работы в графических приложениях вроде [inkscape](http://www.inkscape.org), или в DXF. Выберите страницу в [древовидном представлении](tree_view/ru.md), а затем выберите меню **Файл → Экспортировать**. Формат DXF может быть импортирован практически во все существующие двумерные приложения САПР. Страницы TechDraw так же могут быть распечатаны или экспортированы в PDF.
 
 
 </div>
@@ -159,7 +159,7 @@
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Generating 2D drawings/ru

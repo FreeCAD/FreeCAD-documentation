@@ -5,7 +5,7 @@
 
 ## Úvod
 
-<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _ tvorí Náčrtník základ _ tvorí Náčrtník tiež základ metodológie [úpravy prvkov](feature_editing.md) pri tvorbe telies.
+<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Pracovný stôl Náčrtník](Sketcher_Workbench.md) sa vo FreeCADe používa na tvorbu 2D geometrie, ktorú následne využijete v <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [na pracovnom stole Dizajn dielca](PartDesign_Workbench.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [pracovnom stole Arch](Arch_Workbench.md) a iných pracovných stoloch. Vo všeobecnosti sa za východiskový bod pre väčšinu CAD modelov považuje 2D náčrt, pretože ten dokážeme „vytiahnuť" a vytvoriť tak 3D tvar; navyše je možné 2D náčrty okrem predtým vytvorených 3D tvarov použiť aj na vytvorenie ďalších prvkov, ako sú kapsy, ryhy alebo výlisky. Spolu s booleanovskými operáciami definovanými na <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [pracovnom stole Diel](Part_Workbench.md) tvorí Náčrtník základ [konštruktívnej geometrie telies](constructive_solid_geometry.md) (CSG) - spôsobu tvorby telies. Okrem toho s operáciami <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [pracovného stola Dizajn dielu](PartDesign_Workbench.md) tvorí Náčrtník tiež základ metodológie [úpravy prvkov](feature_editing.md) pri tvorbe telies.
 
 Pracovný stôl Náčrtník obsahuje \"väzby\", vďaka ktorým dokážete pomocou presných geometrických definícií ako dĺžky, uhla a vzťahov (vodorovnosť, zvislosť, kolmosť atď.) určiť umiestnenie 2d tvarov. Riešiteľ väzieb vypočíta rozsah väzieb 2D geometrie a poskytuje interaktívne prehliadanie stupňov voľnosti náčrtu.
 
@@ -48,7 +48,7 @@ Ak náčrt obsahuje segmenty, ktoré sa križujú, miesta, na ktorých sa bod ne
 
 Vo vnútri uzavretej oblasti sa môžu nachádzať aj menšie neprekrývajúce sa oblasti. Tieto sa pri tvorbe 3D telesa stanú prázdnym priestorom.
 
-Akonáhle je náčrt plne zaväzbený, prvky náčrtu sa prefarbia na zeleno; konštrukčná geometria zostane modrá. V tomto okamihu je náčrt spravidla \"dokončený\" a pripravený na tvorbu 3D telesa. Po zavretí dialógového okna náčrtu ale môže byť užitočné prejsť na <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:pracovný stôl Diel](Part_Workbench.md) a spustiť príkaz **[16px"> [Skontrolovať geometriu](Part_CheckGeometry.md)** a odhaliť potenciálne prvky náčrtu, ktoré by mohli neskôr spôsobiť problémy.
+Akonáhle je náčrt plne zaväzbený, prvky náčrtu sa prefarbia na zeleno; konštrukčná geometria zostane modrá. V tomto okamihu je náčrt spravidla \"dokončený\" a pripravený na tvorbu 3D telesa. Po zavretí dialógového okna náčrtu ale môže byť užitočné prejsť na <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [pracovný stôl Diel](Part_Workbench.md) a spustiť príkaz **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Skontrolovať geometriu](Part_CheckGeometry.md)** a odhaliť potenciálne prvky náčrtu, ktoré by mohli neskôr spôsobiť problémy.
 
 ## Nástroje
 
@@ -58,7 +58,7 @@ Nástroje pracovného stola Náčrtník sa nachádzajú v menu Náčrt, ktoré s
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> [Nový náčrt](Sketcher_NewSketch.md): Vytvorí nový náčrt na vybranej ploche alebo rovine. Ak nie je pri spustení tohto nástroja vybraná žiadna plocha, užívateľ je vyzvaný zvoliť si z vyskakovacieho okna želanú rovinu.
 
--   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Upraviť náčrt](Sketcher_EditSketch.md): Úprava zvoleného náčrtu. Otvorí sa [dialógové okno Náčrtníka](Sketcher_Dialog.md).
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [Opustiť náčrt](Sketcher_LeaveSketch.md): Ukončí režim úprav náčrtu.
 
@@ -98,7 +98,7 @@ Tu sú uvedené nástroje pre tvorbu objektov.
 
 :\* <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Kruh podľa 3 bodov](Sketcher_Create3PointCircle.md): Nakreslí kruh pomocou troch bodov na jeho obvode.
 
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> _, [Bod na objekt](Sketcher_ConstrainPointOnObject.md) alebo [Kolmá väzba](Sketcher_ConstrainPerpendicular.md).
+-   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Vytvoriť kužeľosečku](Sketcher_CompCreateConic.md): Náčrtník poskytuje nasledovné kužeľosečky. Na rozdiel od B-spline kriviek môžu byť použité v rozličných väzbách, ako napríklad [Dotyčnica](Sketcher_ConstrainTangent.md), [Bod na objekt](Sketcher_ConstrainPointOnObject.md) alebo [Kolmá väzba](Sketcher_ConstrainPerpendicular.md).
     -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Elipsa podľa stredu](Sketcher_CreateEllipseByCenter.md): Nakreslí elipsu pomocou stredového bodu, bodu hlavného polomeru a bodu vedľajšieho polomeru.
     -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Elipsa podľa 3 bodov](Sketcher_CreateEllipseBy3Points.md): Nakreslí elipsu pomocou hlavného polomeru (2 body) a bodu vedľajšieho polomeru.
     -   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:32px;"> [Oblúk elipsy](Sketcher_CreateArcOfEllipse.md): Nakreslí oblúk elipsy pomocou stredového bodu, bodu hlavného polomeru, začiatočného a koncového bodu.
@@ -291,7 +291,7 @@ Každý CAD používateľ si priebežne vytvára vlastný pracovný postup, ale 
 -   Ak sa dá, vycentrujte náčrt k začiatku súradníc (0,0) pomocou väzby Zámok. Ak náčrt nie je symetrický, zaväzbite jeden z jeho bodov k začiatku súradníc, alebo si pre väzby vzdialeností zvoľte okrúhle čísla. Vo verzii 0.12 nie sú externé väzby (umožňujúce zaväzbiť náčrt k existujúcej 3D geometrii, ako napríklad hranám či iným náčrtom) ešte implementované. To znamená, že naviazanie geometrie náčrtu k predchádzajúcemu náčrtu musíte vykonať manuálne nastavením vzdialeností od predchádzajúceho náčrtu. Väzba zámku (25,75) od začiatku súradníc sa určite pamätá lepšie, než (23.47,73.02).
 -   Ak máte možnosť výberu medzi väzbou dĺžky a väzbami vodorovnej/zvislej vzdialenosti, použite radšej tie druhé. Väzby vodorodnej a zvislej vzdialenosti sä výpočetne jednoduchšie.
 -   Vo všeobecnosti sú najlepšie väzby tieto: vodorovná a zvislá vzdialenosť, vodorovná a zvislá dĺžka, dotyčnica bod-na-bod. Ak je to možné, obmedzte použitie týchto väzieb: všeobecná väzba dĺžky; dotyčnica hrana-na-hranu; väzba bodu na čiaru; väzba symetrie.
--   Ak máte pochybnosti o platnosti náčrtu po jeho ukončení (prvky sú vysvietené nazeleno), zavrite dialógové okno Náčrtníka, prepnite sa na <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:pracovný stôl Dielec](Part_Workbench.md) a spustite príkaz **[16px"> [Skontrolovať geomegriu](Part_CheckGeometry.md)**.
+-   Ak máte pochybnosti o platnosti náčrtu po jeho ukončení (prvky sú vysvietené nazeleno), zavrite dialógové okno Náčrtníka, prepnite sa na <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [pracovný stôl Dielec](Part_Workbench.md) a spustite príkaz **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Skontrolovať geomegriu](Part_CheckGeometry.md)**.
 
 ## Návody
 
@@ -312,7 +312,7 @@ Stránka [Skriptovanie v Náčrtníku](Sketcher_scripting.md) obsahuje príklady
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/sk

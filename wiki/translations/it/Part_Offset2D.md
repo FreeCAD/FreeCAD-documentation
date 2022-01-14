@@ -24,7 +24,7 @@ La faccia del contorno deve essere planare. In un oggetto ci possono essere più
 ## Utilizzo
 
 1.  Selezionare un oggetto 2D
-2.  Premere il pulsante **<img src=images/Part_Offset2D.svg style="width:24px">** **Offset 2D\...** di Parte.
+2.  Premere il pulsante **[<img src=images/Part_Offset2D.svg style="width:24px">** **Offset 2D\...** di Parte.
 3.  Impostare l\'offset nel [Pannello delle azioni](Task_Panel/it.md).
 4.  Premere **OK**.
 

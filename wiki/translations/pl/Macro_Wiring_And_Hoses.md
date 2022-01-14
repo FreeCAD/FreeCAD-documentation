@@ -6,7 +6,7 @@
 |Author=Piffpoof
 }}
 
-**Od _ Uwaga: pewne zmiany pomiędzy v 0.14 a v 0.15 wpłynęły na to makro, co opóźni jego wydanie**
+**Od [User:Piffpoof](User_Piffpoof.md) Uwaga: pewne zmiany pomiędzy v 0.14 a v 0.15 wpłynęły na to makro, co opóźni jego wydanie**
 
 Makra te wspierają tworzenie i obsługę sieci przewodów i rur.
 

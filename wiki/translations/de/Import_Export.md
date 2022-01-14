@@ -49,7 +49,7 @@ Siehe die folgenden Seiten fürzusätzliche Information:
   \*.gcad                                     Open CAD format (obsolet, nur 2D-Format)                                                                                                      [Std Import](Std_Import/de.md)                                                                    Nein
   \*.gcode                                    G-code                                                                                                                                        [Std Import](Std_Import/de.md)                                                                    [Pfad Post](Path_Post/de.md)
   \*.gif                                      Image format                                                                                                                                  [Image ErstelleBildEbene](Image_CreateImagePlane/de.md)                                           Nein
-  _
+  [\*.glb](glTF.md)                   [GL Transmission Format](https://en.wikipedia.org/wiki/GlTF)                                                                                  Nein                                                                                                      [Std Export](Std_Export/de.md)
   [\*.gltf](glTF.md)                  GL Transmission Format                                                                                                                        Nein                                                                                                      [Std Export](Std_Export/de.md)
   \*.html                                     Web 3D format                                                                                                                                 Nein                                                                                                      [Std Export](Std_Export/de.md)
   \*.icns                                     Image format                                                                                                                                  [Image ErstelleBildEbene](Image_CreateImagePlane/de.md)                                           [Std AnsichtBildschirmFoto](Std_ViewScreenShot/de.md)
@@ -138,7 +138,7 @@ Siehe die folgenden Seiten fürzusätzliche Information:
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [Import](Import_Workbench.md) > Import Export/de

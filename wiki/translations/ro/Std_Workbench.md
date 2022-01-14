@@ -34,7 +34,7 @@ ToDo.
 
 ## Notes
 
--   Additional _.
+-   Additional [External Workbenches](External_Workbenches.md) can be downloaded with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
 
 ## Preferences
 

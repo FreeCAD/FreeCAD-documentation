@@ -49,7 +49,7 @@ To be added
 ## Tutorials
 
 -   [Drawing tutorial](Drawing_tutorial.md), Intro to creating blueprints with the Drawing workbench
--   _ with the Drawing workbench and the Drawing Dimensioning addon.
+-   [Manual:Generating 2D drawings](Manual_Generating_2D_drawings.md) with the Drawing workbench and the Drawing Dimensioning addon.
 
 
 {{docnav|[Open Browser](Drawing_Openbrowser.md)|[Symbol](Drawing_Symbol.md)|[Drawing Workbench](Drawing_Workbench.md)|IconL=Drawing_Openbrowser.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Symbol.png}}

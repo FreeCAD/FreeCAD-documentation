@@ -12,7 +12,7 @@ FreeCAD suporta unele dispozitive specializate de intrare, precum mouse-uri 3D. 
 
 </div>
 
-_
+[category:Documentation](category_Documentation.md)
 
 ---
 [documentation index](../README.md) > 3D input devices/ro

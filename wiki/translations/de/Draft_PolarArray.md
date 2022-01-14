@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Das **<img src=images/Draft_PolarArray.svg style="width:16px"> [Entwurf PolarAnordnung](Draft_PolarArray/de.md)** Werkzeug erstellt eine Anordnung aus einem ausgewählten Objekt und platziert die Kopien entlang eines Umfangs.
+Das **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Entwurf PolarAnordnung](Draft_PolarArray/de.md)** Werkzeug erstellt eine Anordnung aus einem ausgewählten Objekt und platziert die Kopien entlang eines Umfangs.
 
 
 </div>
@@ -51,7 +51,7 @@ See also: [Draft Snap](Draft_Snap.md).
 <div class="mw-translate-fuzzy">
 
 1.  Wähleein Objekt aus, von dem du die Polaranordnung erstellen möchtest.
-2.  Drücke die **<img src=images/Draft_PolarArray.svg style="width:16px"> [Polar Anordnung](Draft_PolarArray.md)** Schaltfläche. Wenn kein Objekt ausgewählt ist, wird das [Aufgabenpaneel](task_panel/de.md) geöffnet, aber du musst trotzdem ein Objekt auswählen, um fortzufahren.
+2.  Drücke die **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Polar Anordnung](Draft_PolarArray.md)** Schaltfläche. Wenn kein Objekt ausgewählt ist, wird das [Aufgabenpaneel](task_panel/de.md) geöffnet, aber du musst trotzdem ein Objekt auswählen, um fortzufahren.
 3.  Wähle den Polarwinkel, der bestimmt, wo sich das letzte Element der Anordnung befindet.
 4.  Wähle die Anzahl der Elemente in der Anordnung. Minimum von 2, Maximum von 99.
 5.  Wähle das Zentrum der Rotationsachse. Du kannst auf die [3D Ansicht](3D_view/de.md) klicken, um gleichzeitig die Position des Rotationszentrums festzulegen und den Befehl abzuschließen.

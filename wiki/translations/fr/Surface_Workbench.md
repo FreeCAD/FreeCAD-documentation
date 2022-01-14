@@ -5,7 +5,7 @@
 
 ## Introduction
 
-L\'<img alt="" src=images/Workbench_Surface.svg  style="width:24px;"> <img src=images/Part_Builder.svg style="width:atelier Surface](Surface_Workbench/fr.md) fournit des outils pour créer et modifier de simples surfaces _** lorsque l\'option **Face from edges** est utilisée. Cependant, contrairement à cet outil, les outils de l\'atelier Surface sont paramétriques et offrent des options supplémentaires. À cet égard, les outils de cet atelier sont similaires à des fonctionnalités telles que **[16px"> <img src=images/PartDesign_AdditivePipe.svg style="width:PartDesign Lissage additif](PartDesign_AdditiveLoft/fr.md)** et **[16px"> [PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md)**.
+L\'<img alt="" src=images/Workbench_Surface.svg  style="width:24px;"> [atelier Surface](Surface_Workbench/fr.md) fournit des outils pour créer et modifier de simples surfaces [NURBS](https://fr.wikipedia.org/wiki/NURBS). Ces outils ont une fonctionnalité similaire à celle de l\'outil **[<img src=images/Part_Builder.svg style="width:16px"> [Part Générateur de formes](Part_Builder/fr.md)** lorsque l\'option **Face from edges** est utilisée. Cependant, contrairement à cet outil, les outils de l\'atelier Surface sont paramétriques et offrent des options supplémentaires. À cet égard, les outils de cet atelier sont similaires à des fonctionnalités telles que **[<img src=images/PartDesign_AdditiveLoft.svg style="width:16px"> [PartDesign Lissage additif](PartDesign_AdditiveLoft/fr.md)** et **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md)**.
 
 Les fonctionnalités fournies sont :
 
@@ -27,9 +27,9 @@ L\'objectif de l\'atelier Surface est de créer des faces avec des formes qui ne
 
 *Surface créée avec des esquisses placées dans des plans de référence avec les outils de l'[atelier PartDesign](PartDesign_Workbench/fr.md)*
 
-L\'atelier Surface s\'intègre à d\'autres ateliers de FreeCAD. L\'exemple ci-dessus a été créé à partir d\'**<img src=images/Sketcher_NewSketch.svg style="width:16px"> <img src=images/PartDesign_Plane.svg style="width:esquisses](Sketch/fr.md)** placé sur des **_. La conception peut être entièrement paramétrique si tous les plans et esquisses de référence sont définis en conséquence. Dans la plupart des cas, il suffit de dessiner une esquisse fermée pour définir la limite d\'une face, puis d\'utiliser différentes options pour modifier davantage sa forme.
+L\'atelier Surface s\'intègre à d\'autres ateliers de FreeCAD. L\'exemple ci-dessus a été créé à partir d\'**[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [esquisses](Sketch/fr.md)** placé sur des **[<img src=images/PartDesign_Plane.svg style="width:16px"> [PartDesign Plans de référence](PartDesign_Plane.md)** dans l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench.md). La conception peut être entièrement paramétrique si tous les plans et esquisses de référence sont définis en conséquence. Dans la plupart des cas, il suffit de dessiner une esquisse fermée pour définir la limite d\'une face, puis d\'utiliser différentes options pour modifier davantage sa forme.
 
-La surface générée ne peut pas être placée dans un **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Std_Part.svg style="width:PartDesign Corps](PartDesign_Body/fr.md)**. Cependant, la surface générée peut être contenue dans un **_** associé qui contient les plans de référence et les esquisses. L\'outil non paramétrique **[16px"> [Part Générateur de formes](Part_Builder/fr.md)** peut ensuite être utilisé pour créer une [coque](Glossary/fr#Shell.md) et enfin un [solide](Glossary/fr#Solid.md).
+La surface générée ne peut pas être placée dans un **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)**. Cependant, la surface générée peut être contenue dans un **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)** avec le **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)** associé qui contient les plans de référence et les esquisses. L\'outil non paramétrique **[<img src=images/Part_Builder.svg style="width:16px"> [Part Générateur de formes](Part_Builder/fr.md)** peut ensuite être utilisé pour créer une [coque](Glossary/fr#Shell.md) et enfin un [solide](Glossary/fr#Solid.md).
 
 ## Outils
 
@@ -41,7 +41,7 @@ La surface générée ne peut pas être placée dans un **<img src=images/PartDe
 
 -   <img alt="" src=images/Surface_ExtendFace.svg  style="width:32px;"> [Extension de surface](Surface_ExtendFace/fr.md) : extrapole la surface aux limites avec ses paramètres U et V locaux.
 
--   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width:32px;"> _ sélectionné.
+-   <img alt="" src=images/Surface_CurveOnMesh.svg  style="width:32px;"> [Courbe sur maillage](Surface_CurveOnMesh/fr.md) : crée des segments de courbe approximatifs par dessus un [maillage](Mesh_Workbench/fr.md) sélectionné.
 
 
 
@@ -51,7 +51,7 @@ La surface générée ne peut pas être placée dans un **<img src=images/PartDe
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Surface Workbench/fr

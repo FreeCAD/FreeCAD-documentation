@@ -97,7 +97,7 @@ The current color palette is captured in google drive: <https://drive.google.com
 -   [Std\_Part](https://forum.freecadweb.org/viewtopic.php?f=34&t=50821)
 -   [Std Alignment](https://forum.freecadweb.org/viewtopic.php?f=34&t=50688)
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Artwork project/it

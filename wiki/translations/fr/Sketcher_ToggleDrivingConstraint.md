@@ -12,7 +12,7 @@
 
 ## Description
 
-L\'icône **<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Basculer en mode contrainte pilotante...](Sketcher_ToggleDrivingConstraint/fr.md)** met les contraintes dimensionnelles (Verrou, Distance horizontale/verticale, Longueur, Rayon et Angle) en mode référence et inversement. Les icônes de la barre d\'outils deviennent bleues et, plutôt que des contraintes dimensionnelles, des cotes de référence sont créées. Les cotes de référence ne contraignent pas l\'esquisse. Il peut être utile de créer des cotes de référence dans une esquisse pour vérifier les mesures. lorsqu\'elles reçoivent un nom, elles peuvent également être utilisées pour définir des contraintes dans une autre esquisse via [expressions](Expressions/fr.md).
+L\'icône **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Basculer en mode contrainte pilotante...](Sketcher_ToggleDrivingConstraint/fr.md)** met les contraintes dimensionnelles (Verrou, Distance horizontale/verticale, Longueur, Rayon et Angle) en mode référence et inversement. Les icônes de la barre d\'outils deviennent bleues et, plutôt que des contraintes dimensionnelles, des cotes de référence sont créées. Les cotes de référence ne contraignent pas l\'esquisse. Il peut être utile de créer des cotes de référence dans une esquisse pour vérifier les mesures. lorsqu\'elles reçoivent un nom, elles peuvent également être utilisées pour définir des contraintes dans une autre esquisse via [expressions](Expressions/fr.md).
 
 ![](images/Sketcher_Constraint_Toolbar_ReferenceMode.png ) 
 *La barre d'outils Contrainte Sketcher avec les contraintes dimensionnelles en mode cote de référence (bleu).*
@@ -22,7 +22,7 @@ L\'icône **<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Basculer en mode contrainte pilotante...](Sketcher_ToggleDrivingConstraint/fr.md)**. Les icônes de contraintes dimensionnelles de la barre d'outils Contraintes Sketcher passent du rouge au bleu.
+1.  Appuyez sur le bouton **[<img src=images/Sketcher_ToggleDrivingConstraint.svg style="width:16px"> [Basculer en mode contrainte pilotante...](Sketcher_ToggleDrivingConstraint/fr.md)**. Les icônes de contraintes dimensionnelles de la barre d'outils Contraintes Sketcher passent du rouge au bleu.
 2.  La méthode habituelle de création de contraintes dimensionnelles fonctionne de la même manière, mais une dimension de référence bleue est ajoutée à la place.
 3.  Pour remettre la barre d\'outils Contraintes d\'esquisse en mode contrainte (rouge), appuyez à nouveau sur le bouton Basculer la contrainte.
 4.  Pour transformer une contrainte dimensionnelle en cote de référence, ou inversement, sélectionnez-la et appuyez sur le bouton Basculer la contrainte.

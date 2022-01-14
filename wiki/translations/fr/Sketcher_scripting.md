@@ -140,7 +140,7 @@ Les contraintes de la <img alt="" src=images/Sketcher_ConstrainSnellsLaw.svg  st
 |                     |                                                                                    |                                                        |
 +------------------------+------------------------------------------------------------------------------------+--------------------------------------------------------+
 
-La contrainte <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> _ et une <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [distance verticale](Sketcher_ConstrainDistanceY/fr.md), ce n\'est pas une contrainte en soi.
+La contrainte <img alt="" src=images/Sketcher_ConstrainLock.svg  style="width:24px;"> [fixe](Sketcher_ConstrainLock/fr.md) est une commande de l\'interface graphique qui crée une contrainte <img alt="" src=images/Sketcher_ConstrainDistanceX.svg  style="width:24px;"> [distance horizontale](Sketcher_ConstrainDistanceX/fr.md) et une <img alt="" src=images/Sketcher_ConstrainDistanceY.svg  style="width:24px;"> [distance verticale](Sketcher_ConstrainDistanceY/fr.md), ce n\'est pas une contrainte en soi.
 
 ## Identifier le numéro d\'une ligne 
 
@@ -172,7 +172,7 @@ Pour déterminer quelle partie d\'une ligne est affectée par une contrainte, le
 
 -    `2`pour indiquer que la contrainte affecte le point final du bord.
 
--    `3`pour indiquer que la contrainte affecte le point central de l\'arête. Pour des <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:24px;"> _ (ellipses), c\'est le centre du cercle ou le centre (intersection des grands et petits axes) de l\'ellipse. Pour des lignes <img alt="" src=images/Sketcher_CreateLine.svg  style="width:24px;"> [droites](Sketcher_CreateLine/fr.md), `3` ne peut pas être utilisé pour indiquer le point central.
+-    `3`pour indiquer que la contrainte affecte le point central de l\'arête. Pour des <img alt="" src=images/Sketcher_CompCreateCircle.png  style="width:24px;"> [cercles](Sketcher_CompCreateCircle/fr.md) et des <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:24px;"> [coniques](Sketcher_CompCreateConic/fr.md) (ellipses), c\'est le centre du cercle ou le centre (intersection des grands et petits axes) de l\'ellipse. Pour des lignes <img alt="" src=images/Sketcher_CreateLine.svg  style="width:24px;"> [droites](Sketcher_CreateLine/fr.md), `3` ne peut pas être utilisé pour indiquer le point central.
 
 -    `n`pour indiquer que la contrainte affecte le n-ième pôle d\'une <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:24px;"> [B-spline](Sketcher_CompCreateBSpline/fr.md).
 

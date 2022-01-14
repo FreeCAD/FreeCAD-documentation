@@ -1,7 +1,7 @@
 # Manual:Creating parametric objects/fr
 {{Manual:TOC/fr}}
 
-Dans le _, nous avons vu comment créer la géométrie Part et comment l\'afficher sur l'écran, en l\'attachant à un objet de document \"dumb\" (non paramétrique). C\'est fastidieux quand nous voulons changer la forme de cet objet. Nous devrions créer une nouvelle forme, puis l'attribuer à nouveau à notre objet.
+Dans le [chapitre précédent](Manual_Creating_and_manipulating_geometry.md), nous avons vu comment créer la géométrie Part et comment l\'afficher sur l'écran, en l\'attachant à un objet de document \"dumb\" (non paramétrique). C\'est fastidieux quand nous voulons changer la forme de cet objet. Nous devrions créer une nouvelle forme, puis l'attribuer à nouveau à notre objet.
 
 Cependant, nous avons également vu dans tous les chapitres précédents de ce manuel comment les objets paramétriques sont puissants. Il suffit de changer une propriété, et la forme est recalculée à la volée.
 
@@ -122,7 +122,7 @@ Rappelez-vous, si vous souhaitez distribuer des fichiers créés avec ce nouvel 
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Manual:Creating parametric objects/fr

@@ -22,7 +22,7 @@ The [Column Reinforcement](Arch_Rebar_ColumnReinforcement.md) tool is also integ
 
 <div class="mw-translate-fuzzy">
 
-Questo comando fa parte dell\'ambiente _, tramite il menu **Strumenti → Addon manager → Reinforcement**.
+Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 
 </div>
@@ -580,7 +580,7 @@ rebar_group = SingleTieMultipleRebars.editSingleTieMultipleRebars(
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar ColumnReinforcement/it

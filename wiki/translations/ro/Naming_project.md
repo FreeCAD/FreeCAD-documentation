@@ -8,7 +8,7 @@ If you are not involved with the development discussed here:<br>
 
 {{TOCright}}
 
-Acest model este un ghid pentru dezvoltarea proiectului FreeCAD. El urmează regulile procesului _.
+Acest model este un ghid pentru dezvoltarea proiectului FreeCAD. El urmează regulile procesului [Getting Things Done (GTD)](http://en.wikipedia.org/wiki/Getting_Things_Done#Methodology) . Proiectele sunt colectate în [Development roadmap](Development_roadmap.md).
 
 ## Purpose and principles 
 
@@ -141,7 +141,7 @@ As of June 13th, 2016, here is a summary of the work that has been done for this
 
 ### Informații despre TNaming 
 
-Vezi _ for a decent write-up on ezzieyguywuf\'s github repo. Aici sunt câteva aspecte importante:
+Vezi [here](https://github.com/ezzieyguywuf/freecadTopoTesting/blob/master/TNaming_Writeup.md) for a decent write-up on ezzieyguywuf\'s github repo. Aici sunt câteva aspecte importante:
 
 
 </div>
@@ -201,7 +201,7 @@ Vezi _ for a decent write-up on ezzieyguywuf\'s github repo. Aici sunt câteva a
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Naming project/ro

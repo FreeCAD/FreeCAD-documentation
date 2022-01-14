@@ -9,7 +9,7 @@ La couleur de l\'objet présélectionné peut être choisie à partir du menu **
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> User Documentation/fr](<img src="images/Property.png" style="width:16px"> User_Documentation/fr.md)
 
 ---
 [documentation index](../README.md) > Preselection/fr

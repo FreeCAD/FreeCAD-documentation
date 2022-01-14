@@ -6,7 +6,7 @@
 
 </div>
 
-There is another table of contents for the _.
+There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.md).
 
 -   Введення
 -   [Ласкаво просимо](Online_Help_Startpage/uk.md)
@@ -144,7 +144,7 @@ There is another table of contents for the _.
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Documentation/uk](<img src="images/Property.png" style="width:16px"> Documentation/uk.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/uk

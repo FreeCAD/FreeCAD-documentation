@@ -22,7 +22,7 @@ Dieses Werkzeug zeichnet von seinen Kontrollpunkten aus eine periodische (geschl
 
 ## Anwendung
 
-1.  Drücke die **<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Erstellen von periodischer B-Spline](Sketcher_CreatePeriodicBSpline/de.md)**-Schaltfläche.
+1.  Drücke die **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Erstellen von periodischer B-Spline](Sketcher_CreatePeriodicBSpline/de.md)**-Schaltfläche.
 2.  Erstelle eine Reihe von Punkte durch Klicken in der 3D-Ansicht. Während der Befehl aktiv ist, werden die erstellten Punkte durch gerade Linien verbunden und um jeden Punkt ein Konstruktionskreis erstellt.
 3.  Wähle den ersten Kurvenpunkt oder rechtsklicke, um die Eingabe zu beenden und die Kurve zu generieren.
 4.  Abhängig von den Voreinstellungen könnte das Werkzeug aktiv bleiben, um eine neue Kurve zu zeichnen. Rechtsklicke erneut, um den Befehl zu verlassen.

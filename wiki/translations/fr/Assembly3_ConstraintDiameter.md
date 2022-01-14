@@ -10,7 +10,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Assembly_ConstraintDiameter.svg  style="width:16px;"> _ en relation avec un <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> plan de travail.
+La commande <img alt="" src=images/Assembly_ConstraintDiameter.svg  style="width:16px;"> [Contrainte diamètre](Assembly3_ConstraintDiameter/fr.md) contraint le diamètre d\'un cercle ou d\'un arc en 2D réalisé avec les outils de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [atelier Draft](Draft_Workbench/fr.md) en relation avec un <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> plan de travail.
 
 Pour définir le diamètre, modifiez le paramètre Diamètre dans le panneau des propriétés.
 

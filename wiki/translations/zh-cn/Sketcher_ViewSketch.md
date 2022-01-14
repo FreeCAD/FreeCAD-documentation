@@ -22,7 +22,7 @@
 
 在处于草图编辑模式下时，可
 
--   点击草图工具栏或零件设计工具栏中的**_'''View Sketch'''**图标，或者
+-   点击草图工具栏或零件设计工具栏中的**[16px|View sketch icon](File:Sketcher_ViewSketch.png.md)'''View Sketch'''**图标，或者
 -   前往**Sketcher → View sketch**菜单。
 
 

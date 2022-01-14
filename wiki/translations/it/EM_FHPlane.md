@@ -28,7 +28,7 @@ The FHPlane tool inserts a FastHenry uniform conductive plane object.
 
 The FHPlane object must be based on another object, that can be either a [Draft Rectangle](Draft_Rectangle.md) or a [Part Box](Part_Box.md) object. In case you based your FHPlane on a [Part Box](Part_Box.md) object, the Thickness parameter will be inherited from the Box Height value.
 
-1.  Create and select a <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> _ object
+1.  Create and select a <img alt="" src=images/Draft_Rectangle.svg  style="width:16px;"> [Draft Rectangle](Draft_Rectangle.md) or a <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Part Box](Part_Box.md) object
 2.  Press the **<img src="images/EM_FHPlane.svg" width=16px> [EM FHPlane](EM_FHPlane.md)** button, or press **E** then **P** keys.
 
 In addition, you can also select together with the base object (the [Draft Rectangle](Draft_Rectangle.md) or the [Part Box](Part_Box.md)) also one or more [EM FHNode](EM_FHNode.md) and / or one or more [EM FHPlaneHole](EM_FHPlaneHole.md) objects, that will be adopted by the FHPlane:

@@ -19,7 +19,7 @@ To wiązanie powoduje, że wartość średnicy okręgu lub łuku ma określoną 
     -   Wiązanie odniesienia jest stosowane osobno dla każdego obiektu, który jest geometrią zewnętrzną
 
     -   
-        **<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Wiązania równości](Sketcher_ConstrainEqual/pl.md)**
+        **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Wiązania równości](Sketcher_ConstrainEqual/pl.md)**
         
         są stosowane kolejno pomiędzy wszystkimi obiektami geometrii rzeczywistej / konstrukcyjnej, a wiązanie wymiarowe jest stosowane do pierwszego wybranego obiektu zgodnie z powyższymi zasadami.
 
@@ -28,7 +28,7 @@ Uwaga: Bieguny krzywej złożonej nie mogą być mieszane z innymi typami obiekt
 ## Użycie
 
 1.  Zaznacz jeden lub więcej okręgów lub łuków.
-2.  Naciśnij przycisk **<img src=images/Sketcher_ConstrainDiameter.svg style="width:16px"> [Wiązanie średnicy](Sketcher_ConstrainDiameter/pl.md)**.
+2.  Naciśnij przycisk **[<img src=images/Sketcher_ConstrainDiameter.svg style="width:16px"> [Wiązanie średnicy](Sketcher_ConstrainDiameter/pl.md)**.
 3.  Zostanie otwarte okno dialogowe do edycji lub potwierdzenia wartości. Naciśnij przycisk **OK**, aby potwierdzić. W przypadku wybrania wielu okręgów/łuków, wszystkie wiązania przyjmą tę wartość. Edytuj ich odrębne wartości, klikając dwukrotnie na etykietę wymiaru w oknie widoku 3D, lub na liście Wiązań, kliknij dwukrotnie na wiązanie lub kliknij prawym przyciskiem myszy i wybierz *\'Zmień wartość*.
 4.  Opcjonalnie etykietę wymiaru i linię można przesuwać i obracać w oknie widoku 3D klikając na wartość i przeciągając, jednocześnie trzymając wciśnięty lewy przycisk myszki.
 

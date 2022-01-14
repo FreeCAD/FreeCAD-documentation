@@ -20,7 +20,7 @@
 ## Anwendung
 
 1.  Wähle im Modellbaum das zu klonenden Objekt
-2.  Drücke die Schaltfläche **<img src=images/PartDesign_Clone.svg style="width:24px"> '''Klon erstellen'''**.
+2.  Drücke die Schaltfläche **[<img src=images/PartDesign_Clone.svg style="width:24px"> '''Klon erstellen'''**.
 
 ## Eigenschaften
 

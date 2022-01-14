@@ -1,5 +1,5 @@
 # Release notes 0.14/de
-FreeCAD 0.14 wurde am 1. Juli 2014 veröffentlicht. Diese Release notes sind eine Zusammenfassung der wichtigsten Entwicklungen in FreeCAD seit der letzten Version 0.13. Für eine vollständige Liste aller Änderungen siehe _ - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11/de.md)
+FreeCAD 0.14 wurde am 1. Juli 2014 veröffentlicht. Diese Release notes sind eine Zusammenfassung der wichtigsten Entwicklungen in FreeCAD seit der letzten Version 0.13. Für eine vollständige Liste aller Änderungen siehe [den Mantis Changelog](http://www.freecadweb.org/tracker/changelog_page.php). Alte Versionen: [0.13](Release_notes_0.13/de.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11/de.md)
 
 <img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
 
@@ -135,7 +135,7 @@ Der [Arbeitsbereich Tabellenkalkulation](Spreadsheet_Workbench/de.md) wurde in F
 
 ### Im- und Export von DWG Dateien 
 
-FreeCAD kann nun, Dank des kostenlosen, plattformübergreifenden _.
+FreeCAD kann nun, Dank des kostenlosen, plattformübergreifenden [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter) in das [DWG-Format](https://en.wikipedia.org/wiki/.dwg) importieren und exportieren. Sobald es installiert ist und sein Pfad in den FreeCAD Entwurf Einstellungen festgelegt wurde, kann FreeCAD es zum Importieren und Exportieren von dwg Dateien verwenden, indem es diese in dxf konvertiert und dann den dxf Importeur und Exporteur für den Entwurf verwendet. Der Import und Export von dwg Dateien hat daher die gleichen Begrenzungen wie das [dxf Format](Draft_DXF/de.md).
 
 ### Entwurf zu Zeichnung jetzt auch für Gruppen 
 
@@ -149,7 +149,7 @@ Das [Bemaßungswerkzeug](Draft_Dimension/de.md) wurde komplett überarbeitet. Be
 
 ### Schraffuren
 
-Der _ voll unterstützt.
+Der [Arbeitsbereich Entwurf](Draft_Workbench/de.md) hat noch eine weitere Funktion erhalten: Schraffuren. Es ist nun möglich auf bestimmten Entwurfsobjekten (solche, die eine Fläche begrenzen, z.B. geschlossene Linienzüge, Rechtecke, Polygone und Kreise) Schraffuren aufzubringen. Im Moment sind nur einige der verbreitetsten Schraffurmuster verfügbar, aber da Muster sehr einfach zu erstellen sind (es sind einfach SVG-Dateien) und der Benutzer eigene Muster hinzufügen kann, wird diese Auswahl schnell wachsen. Entwurfsobjekte mit Mustern werden auch vom [Arbeitsbereich Zeichnung](Drawing_Workbench/de.md) voll unterstützt.
 
 <img alt="" src=images/Draft_hatches.jpg  style="width:1024px;">
 
@@ -175,13 +175,13 @@ Das [Textformen](Draft_ShapeString.md) Werkzeug erzeugt planare Objekte aus eine
 
 ### Bezierkurven
 
-Zu den bereits vorhandenen _. Sie können genauso wie andere Objekte im [Arbeitsbereich Entwurf](Draft_Workbench.md) durch Anklicken von Punkten erstellt werden, außerdem können sie dann [bearbeitet](Draft_Edit/de.md) und ihre Kontrollpunkte verändert werden, was eine präzise Kontrolle der Kurvenform erlaubt.
+Zu den bereits vorhandenen [Kreisbogen](Draft_Arc/de.md) und [B-spline](Draft_BSpline/de.md) Kurven gesellt sich ein weiterer Kurventyp: [Bezier Kurven](Draft_BezCurve/de.md). Sie können genauso wie andere Objekte im [Arbeitsbereich Entwurf](Draft_Workbench.md) durch Anklicken von Punkten erstellt werden, außerdem können sie dann [bearbeitet](Draft_Edit/de.md) und ihre Kontrollpunkte verändert werden, was eine präzise Kontrolle der Kurvenform erlaubt.
 
 ## Arbeitsbereich Architektur 
 
 ### Vorlagen und Profile für Strukturbauteile 
 
-Das _ vorhandenen Bauteile (u.a. alle Europäische rechteckige, quadratische und runde Hohlprofile sowie Standarddoppel-T-Profile) können direkt als Arch Struktur erzeugt werden.
+Das [Arch Strukturtool](Arch_Structure/de.md) hat mehrere Verbesserungen erhalten. Es sind nun einige Vorlageprofile vorhanden, wodurch es möglich ist sehr schnell eine Stütze oder einen Träger basierend auf einem Standardprofil wie INP oder HEB zu erstellen. Weiterhin wurde das Platzierungssystem um einen speziellen Fangmodus ([snapping](Draft_Snap.md)) erweitert. Strukturelemente können jetzt auch direkt einen Extrusionspfad haben, was sehr komplexe Bauteile möglich macht. Sehr viele der in [BOLTS](#Plugins_and_side_projects:_Parts_library.2C_BOLTS.2C_Eagle_importer.md) vorhandenen Bauteile (u.a. alle Europäische rechteckige, quadratische und runde Hohlprofile sowie Standarddoppel-T-Profile) können direkt als Arch Struktur erzeugt werden.
 
 ### Fenstervorlagen
 
@@ -223,13 +223,13 @@ Ein neues 35 Seiten umfassendes [Tutorial](Arch_tutorial/de.md) bechreibt den [A
 
 ### Im- und Export von Ifc-Dateien 
 
-Viel Zeit wurde in die Arbeit an FreeCAD und der Arbeit an _ verwendet wird, investiert. Wenn eine [Entwicklerversion](http://github.com/aothms/IfcOpenShell) von IfcOpenShell verwendet wird, können auch komplexe Geometrieen von Ifc-Dateien importiert werden. Erst ab einer mittleren Dateigrösse von ca. 50 MB (unkomprimiert) steigt die Importdauer expotentiell stark an. Mit der oben genannten Entwicklerversion von IfcOpenShell können auch Modelle aus FreeCAD nach Ifc so exportiert werden, dass die meisten grossen CAD-Programme (oder BIM-Plattformen, wie man heutzutage gerne sagt) diese problemlos importieren können.
+Viel Zeit wurde in die Arbeit an FreeCAD und der Arbeit an [IfcOpenShell](http://www.ifcopenshell.org), welches für die Verarbeitung von Ifc-Dateien im [Arch-Arbeitsbereich](Arch_Workbench/de.md) verwendet wird, investiert. Wenn eine [Entwicklerversion](http://github.com/aothms/IfcOpenShell) von IfcOpenShell verwendet wird, können auch komplexe Geometrieen von Ifc-Dateien importiert werden. Erst ab einer mittleren Dateigrösse von ca. 50 MB (unkomprimiert) steigt die Importdauer expotentiell stark an. Mit der oben genannten Entwicklerversion von IfcOpenShell können auch Modelle aus FreeCAD nach Ifc so exportiert werden, dass die meisten grossen CAD-Programme (oder BIM-Plattformen, wie man heutzutage gerne sagt) diese problemlos importieren können.
 
 ## Vollständige Liste 
 
 Die vollständige Liste aller Bugfixes und Neuen Funtionen kann [hier](http://freecadweb.org/tracker/changelog_page.php) nachgelesen werden.
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > Release notes 0.14/de

@@ -11,9 +11,9 @@ FreeCAD would not be what it is without the generous contributions of many peopl
 
 Lead developers of the FreeCAD project:
 
--   _
--   _
--   _
+-   [Jürgen Riegel](User_Jriegel.md)
+-   [Werner Mayer](User_Wmayer.md)
+-   [Yorik van Havre](User_Yorikvanhavre.md)
 
 ### Main developers 
 
@@ -53,7 +53,7 @@ Other people who contributed code to the FreeCAD project:
 -   Dmitry Chigrin
 -   ezzieyguywuf
 -   fandaL
--   _
+-   [Georg Wiora](User_Xorx.md)
 -   Graeme van der Vlugt
 -   itain
 -   [j-dowsett](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=652)
@@ -121,7 +121,7 @@ People from the community who put a lot of efforts in helping the FreeCAD projec
 -   [cblt2l](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=251)
 -   [cox](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=4523)
 -   [Daniel Falck](http://opensourcedesigntools.blogspot.com/)
--   _
+-   [Eduardo Magdalena](User_Emagdalena.md)
 -   [hobbes1069](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=725)
 -   [jdurston (5needinput)](http://www.youtube.com/user/5needinput)
 -   [John Morris (butchwax)](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=861)
@@ -129,13 +129,13 @@ People from the community who put a lot of efforts in helping the FreeCAD projec
 -   [Kwahooo](http://freecad-tutorial.blogspot.com/)
 -   [lhagan](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=108)
 -   [marcxs](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1047)
--   _
--   _
+-   [Mario52](User_Mario52.md)
+-   [Normandc](User_Normandc.md)
 -   [peterl94](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1819)
 -   [pperisin](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=356)
--   _
--   _ (renatorivo)
--   _
+-   [Quick61](User_Quick61.md)
+-   [Renato Rivoira](User_Renatorivo.md) (renatorivo)
+-   [Rockn](User_Rockn.md)
 -   [triplus](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=782)
 -   [ulrich1a](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=1928)
 
@@ -143,103 +143,103 @@ People from the community who put a lot of efforts in helping the FreeCAD projec
 
 People who wrote the documentation on this [wiki](Main_Page.md):
 
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _ (renatorivo)
--   _ (r-frank)
--   _
--   _
+-   [bejant](User_bejant.md)
+-   [Ediloren](User_Ediloren.md)
+-   [Eduardo Magdalena](User_Eduardo_Magdalena.md)
+-   [Hervé Blorec](User_Hervé_Blorec.md)
+-   [Honza32](User_Honza32.md)
+-   [Isaac Ayala](User_Isaac_Ayala.md)
+-   [piffpoof](User_piffpoof.md)
+-   [Renato Rivoira](User_Renatorivo.md) (renatorivo)
+-   [Roland Frank](User:R-Frank.md) (r-frank)
+-   [Vocx](User_Vocx.md)
+-   [Wurstwasser](User_Wurstwasser.md)
 
 ## Translators
 
 People who helped to translate the FreeCAD application (retrieved from <https://crowdin.com/project/freecad>):
 
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
+-   [Alexandre Prokoudine](User_Alexandre_Prokoudine.md)
+-   [Angelescu Constantin](User_Angelescu_Constantin.md)
+-   [asakura](User_asakura.md)
+-   [Bartlomiej Niemiec](User_Bartlomiej_Niemiec.md)
+-   [BavariaSHAPE](User_BavariaSHAPE.md)
+-   [Bitacovir](User_Bitacovir.md)
+-   [BLOREC Hervé](User_BLOREC_Hervé.md)
+-   [bluecd](User_bluecd.md)
+-   [Bruno Gonçalves Pirajá](User_Bruno_Gonçalves_Pirajá.md)
+-   [David69](User_David69.md)
+-   [Ettore Atalan](User_Ettore_Atalan.md)
+-   [fandaL](User_fandaL.md)
+-   [Gerhard Scheepers](User_Gerhard_Scheepers.md)
+-   [Gnrc](User_Gnrc.md)
+-   [Granet Jean-Pierre](User:Granet_Jean-Pierre.md)
+-   [hanhsuan](User_hanhsuan.md)
+-   [Harald Geier](User_Harald_Geier.md)
+-   [hicarl](User_hicarl.md)
+-   [Holdi](User_Holdi.md)
+-   [Honza32](User_Honza32.md)
+-   [htsubota](User_htsubota.md)
+-   [Igor](User_Igor.md)
+-   [javierMG](User_javierMG.md)
+-   [Jiyong Choi](User_Jiyong_Choi.md)
+-   [Jodbe](User_Jodbe.md)
+-   [Jozef Kundlák](User_JoeKundlak.md)
+-   [kaktus](User_kaktus.md)
+-   [kunguz](User_kunguz.md)
+-   [Lars](User_Lars.md)
+-   [Le Loup](User_Le_Loup.md)
+-   [Luc](User_Luc.md)
+-   [Maker](User_Maker.md)
+-   [Marosh](User_Marosh.md)
+-   [Masaya Ootsuki](User_Masaya_Ootsuki.md)
+-   [Meme2704](User_Meme2704.md)
+-   [Miguel Morais](User_Miguel_Morais.md)
+-   [Nicu Tofan](User_Nicu_Tofan.md)
+-   [nikoss](User_nikoss.md)
+-   [Pasi Kukkola](User_Pasi_Kukkola.md)
+-   [Peta T](User_Peta_T.md)
+-   [Peter Hageman](User_Peter_Hageman.md)
+-   [Peter Klofutar](User_Peter_Klofutar.md)
+-   [pinkpony](User_pinkpony.md)
+-   [rako](User_rako.md)
+-   [Raulshc](User_Raulshc.md)
+-   [sema](User_sema.md)
+-   [Skywalker21](User_Skywalker21.md)
+-   [Starofrainnight](User_Starofrainnight.md)
+-   [Timo Seppola](User_Timo_Seppola.md)
+-   [totyg](User_totyg.md)
+-   [trzyha](User_trzyha.md)
+-   [Victor Radulescu](User_Victor_Radulescu.md)
+-   [Vilfredo](User_Vilfredo.md)
+-   [wbrwbr2011](User_wbrwbr2011.md)
+-   [Wurstwasser](User_Wurstwasser.md)
+-   [yang12](User_yang12.md)
+-   [Zdeněk Havlík](User_Zdeněk_Havlík.md)
+-   [Дмитрий Сидоров](User_Дмитрий_Сидоров.md)
+-   [Марко Пејовић](User_Марко_Пејовић.md)
+-   [Николай Матвеев](User_Николай_Матвеев.md)
+-   [Федір](User_Федір.md)
 
 ## Addons developers 
 
 Developers of FreeCAD addons (retrieved from <https://github.com/FreeCAD/FreeCAD-addons>):
 
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
--   _
+-   [amrit3701](User_amrit3701.md)
+-   [a179308](User_a179308.md)
+-   [cblt2l](User_cblt2l.md)
+-   [furti](User_furti.md)
+-   [hamish2014](User_hamish2014.md)
+-   [javierMG](User_javierMG.md)
+-   [jmwright](User_jmwright.md)
+-   [jreinhardt](User_jreinhardt.md)
+-   [looooo](User_looooo.md)
+-   [Maaphoo](User_Maaphoo.md)
+-   [marmni](User_marmni.md)
+-   [microelly2](User_microelly2.md)
+-   [Rentlau](User_Rentlau.md)
+-   [shaise](User_shaise.md)
+-   [triplus](User_triplus.md)
 
 
 
@@ -247,7 +247,7 @@ Developers of FreeCAD addons (retrieved from <https://github.com/FreeCAD/FreeCAD
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
 
 ---
 [documentation index](../README.md) > [Developer](Category_Developer.md) > Contributors/zh-cn

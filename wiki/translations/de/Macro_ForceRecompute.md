@@ -17,7 +17,7 @@ Aber FreeCAD scheint sie nicht zu erkennen.
 
 Manchmal, wenn ein Benutzer Änderungen am Modell vornimmt, scheint FreeCAD diese nicht zu erkennen und zu integrieren. Zusätzlich dazu bleibt die blaue **<img src="images/Std_Refresh.svg" width=24px> [Aktualisieren/Neuberechnen](Std_Refresh/de.md)** Taste ausgegraut. Daher wurde dieses kleine Makro entwickelt, um eine manuelle Neuberechnung des Modells zu erzwingen.
 
-**Hinweis:** Ab {{VersionPlus/de|0.17}} kann die Wirkung dieses Makros über die GUI erreicht werden. Rechtsklicke auf das Projekt in der _ Taste, um eine Neuberechnung auszulösen.
+**Hinweis:** Ab {{VersionPlus/de|0.17}} kann die Wirkung dieses Makros über die GUI erreicht werden. Rechtsklicke auf das Projekt in der [Modellbaumansicht](Tree_view/de.md) und wähle **Zum Neuberechnen markieren** aus dem Kontextmenü. Dadurch wird das Symbol Aktualisieren/Neuberechnen wieder aktiv. Drücke nun auf die <img alt="" src=images/Std_Refresh.svg  style="width:24px;"> [Aktualisieren/Neuberechnen](Std_Refresh/de.md) Taste, um eine Neuberechnung auszulösen.
 
 ## Anwendung
 

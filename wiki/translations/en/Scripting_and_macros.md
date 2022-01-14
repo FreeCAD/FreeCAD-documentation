@@ -2,10 +2,10 @@
 ## Overview of Python scripting pages 
 
 -   Python related pages in the Manual:
-    -   _
-    -   _
-    -   _
-    -   _
+    -   [A gentle introduction](Manual_A_gentle_introduction.md)
+    -   [Creating and manipulating geometry](Manual_Creating_and_manipulating_geometry.md)
+    -   [Creating parametric objects](Manual_Creating_parametric_objects.md)
+    -   [Creating interface tools](Manual_Creating_interface_tools.md)
 
 -   Basics:
     -   [Working with macros](Macros.md)
@@ -21,8 +21,8 @@
     -   [Mesh: Converting between Meshes and Parts](Mesh_to_Part.md)
     -   [Part scripting](Part_scripting.md)
     -   [Part: Basic shape manipulation](Topological_data_scripting.md)
-    -   _
-    -   _
+    -   [Part: Create a ball bearing part I](Scripted_Parts:_Ball_Bearing_-_Part_1.md)
+    -   [Part: Create a ball bearing part II](Scripted_Parts:_Ball_Bearing_-_Part_2.md)
     -   [Path scripting](Path_scripting.md)
     -   [Raytracing scripting](Raytracing_API_example.md) (**the Raytracing workbench is obsolete**)
     -   [Sketcher scripting](Sketcher_scripting.md)
@@ -37,7 +37,7 @@
     -   [Viewprovider](Viewprovider.md)
     -   [Custom icon in tree view](Custom_icon_in_tree_view.md)
     -   [Properties](Property.md)
-    -   _
+    -   [PropertyLink: InList and OutList](PropertyLink__InList_and_OutList.md)
     -   [Methods](FeaturePython_methods.md)
 
 -   [3D view](3D_view.md):
@@ -89,7 +89,7 @@
 
 }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripting and macros/en

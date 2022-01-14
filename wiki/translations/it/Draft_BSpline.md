@@ -27,7 +27,7 @@ Lo strumento <img alt="" src=images/Draft_BSpline.svg  style="width:16px;"> B-sp
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento B-spline specifica i punti esatti attraverso i quali deve passare la curva; invece lo strumento <img alt="" src=images/Draft_BezCurve.svg  style="width:16px;"> _ e <img alt="" src=images/Draft_Ellipse.svg  style="width:16px;">[Ellisse](Draft_Ellipse/it.md).
+Lo strumento B-spline specifica i punti esatti attraverso i quali deve passare la curva; invece lo strumento <img alt="" src=images/Draft_BezCurve.svg  style="width:16px;"> [Curva di Bezier](Draft_BezCurve/it.md) usa i **punti di controllo** per definire l\'andamento della curva. Per creare curve circolari o ellittiche esatte, usare <img alt="" src=images/Draft_Arc.svg  style="width:16px;"> [Arco](Draft_Arc/it.md) e <img alt="" src=images/Draft_Ellipse.svg  style="width:16px;">[Ellisse](Draft_Ellipse/it.md).
 
 
 </div>
@@ -85,7 +85,7 @@ The single character keyboard shortcuts available in the task panel can be chang
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento B-spline si comporta come lo strumento <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> _.
+Lo strumento B-spline si comporta come lo strumento <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Polilinea](Draft_Wire/it.md), tranne che ciascuno dei suoi tratti è curvo invece di essere un segmento retto. Per convertire tra un tipo l\'altro usare <img alt="" src=images/Draft_WireToBSpline.svg  style="width:16px;"> [Polilinea in B-spline](Draft_WireToBSpline/it.md).
 
 
 </div>

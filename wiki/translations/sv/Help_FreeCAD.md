@@ -48,7 +48,7 @@ Translate FreeCAD in your own language. All text of the FreeCAD interface can be
 ### Översätt dokumentationen och själva FreeCAD 
 
 -   [Översätt](Localisation/sv.md) FreeCAD till ditt eget språk. All text i FreeCADs gränssnitt kan lätt översättas till andra språk. Allt vi behöver är någon som kan det andra språket och är villig att hjälpa till! Vi har för närvarande översättning i engelska, tyska, svenska, italienska och franska.
--   Översätt dokumentationen: Att översätta denna wiki är lätt, du behöver bara lägga till en /språkkod sida för att skapa en översättning. För att till exempel översätta _ sida.
+-   Översätt dokumentationen: Att översätta denna wiki är lätt, du behöver bara lägga till en /språkkod sida för att skapa en översättning. För att till exempel översätta [Part](Part_Workbench.md) sidan (dess url slutar med index.php?title=Part\_Workbench) till franska, så behöver du bara lägga till /fr till url:en, vilket kommer att skapa en [Part\_Workbench/fr](Part_Workbench/fr.md) sida.
 
 ### Hjälp andra att få redan på FreeCAD 
 
@@ -71,7 +71,7 @@ Translating is easy, the FreeCAD wiki supports a translation plugin which allows
 
 For details on translation, see [Localisation\#Translating the wiki](Localisation#Translating_the_wiki.md).
 
-Please be sure you are familiar with the basics of wiki markup; see _ for a reference.
+Please be sure you are familiar with the basics of wiki markup; see [Help:Editing](Help_Editing.md) for a reference.
 
 Then head to [WikiPages](WikiPages.md) to familiarize yourself with the style used in this wiki, particularly when it comes to templates.
 
@@ -134,7 +134,7 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Help FreeCAD/sv

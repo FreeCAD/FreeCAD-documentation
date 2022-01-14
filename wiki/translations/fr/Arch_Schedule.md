@@ -18,7 +18,7 @@ L\'outil Planificateur vous permet de créer et de remplir automatiquement une [
 
 : Cet outil a été complètement réécrit dans la version 0.17 de FreeCAD et est différent des versions précédentes.
 
-Pour une solution plus générale, consultez le _. Cet atelier utilise la syntaxe SQL pour extraire des informations du document.
+Pour une solution plus générale, consultez le [Reporting Workbench](https://github.com/furti/FreeCAD-Reporting/tree/master) dans la liste des [ateliers externes](External_workbenches/fr.md). Cet atelier utilise la syntaxe SQL pour extraire des informations du document.
 
 ## Utilisation
 

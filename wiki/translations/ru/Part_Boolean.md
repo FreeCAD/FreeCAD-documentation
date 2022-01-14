@@ -65,7 +65,7 @@ See the individual commands:
 
 The boolean operations are performed by the internal geometry kernel, [OpenCASCADE Technology](OpenCASCADE.md) (OCCT). This library sometimes has problems producing boolean results when the input objects share an edge or a face. To be sure the boolean operation is successful the recommendation is that the shapes intersect each other clearly; this means that in most cases, one shape should protrude or be larger in size than the other shape.
 
-In cases of coplanarity, even if the first boolean operation succeeds, subsequent boolean operations may fail. In this case, the problem may not be in the last operation done, but in the older ones, that is, in the nested operations as indicated in the <img src=images/Part_CheckGeometry.svg style="width:tree view](Tree_view.md). To troubleshoot these issues, it is recommended to use the **[16px"> [Part CheckGeometry](Part_CheckGeometry.md)** tool to inspect all objects for problems.
+In cases of coplanarity, even if the first boolean operation succeeds, subsequent boolean operations may fail. In this case, the problem may not be in the last operation done, but in the older ones, that is, in the nested operations as indicated in the [tree view](Tree_view.md). To troubleshoot these issues, it is recommended to use the **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part CheckGeometry](Part_CheckGeometry.md)** tool to inspect all objects for problems.
 
 <img alt="" src=images/Part_Boolean_cut_coplanar_1.png  style="width:500px;">
 

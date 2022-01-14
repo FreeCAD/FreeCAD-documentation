@@ -11,7 +11,7 @@
 
 ## Description
 
-The BIM Library tool allows you to place, in the current model, an object from the _ for this tool to be available.
+The BIM Library tool allows you to place, in the current model, an object from the [FreeCAD Parts Library](Parts_Library.md), which must be installed via the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) for this tool to be available.
 
  <img alt="" src=images/BIM_Library_screenshot.png  style="width:800px;">  
 *Above: See the '''Library browser''' dialog in the [[Task panel]] on the left*
@@ -34,7 +34,7 @@ The BIM Library tool allows you to place, in the current model, an object from t
 
   
 
-_
+[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
 [documentation index](../README.md) > [BIM](Category_BIM.md) > BIM Library

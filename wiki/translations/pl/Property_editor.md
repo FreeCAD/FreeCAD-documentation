@@ -69,9 +69,9 @@ print(obj.Label)
 
 *Zakładki Widok i Dane edytora właściwości, dla podstawowego obiektu skryptowego '''App::FeaturePython'''.*
 
-Większość obiektów geometrycznych, które mogą być tworzone i wyświetlane w _, aby dowiedzieć się, jakie podstawowe właściwości mają te obiekty.
+Większość obiektów geometrycznych, które mogą być tworzone i wyświetlane w [widoku 3D](3D_view.md) pochodzi z `Part::Feature`. Zobacz [Właściwości części](Part_Feature.md), aby dowiedzieć się, jakie podstawowe właściwości mają te obiekty.
 
-Dla geometrii 2D większość obiektów pochodzi z _)*, która jest podstawą Środowiska pracy [Sketches](Sketch.md), i większości [Elementy Draft](Draft_Workbench.md). Zobacz [Część2DObject](Part_Part2DObject.md), aby zapoznać się z najbardziej podstawowymi właściwościami tych obiektów.
+Dla geometrii 2D większość obiektów pochodzi z [`Part::Part2DObject`](Part_Part2DObject.md) *(wywodzi się z [`Part::Feature`](Part_Feature.md))*, która jest podstawą Środowiska pracy [Sketches](Sketch.md), i większości [Elementy Draft](Draft_Workbench.md). Zobacz [Część2DObject](Part_Part2DObject.md), aby zapoznać się z najbardziej podstawowymi właściwościami tych obiektów.
 
 ## Działania
 

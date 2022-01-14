@@ -51,7 +51,7 @@ Vous pouvez également essayer:
 
 Pour un aperçu de toutes les préférences liées à DXF, voir les [Préférences d\'Import Export](Import_Export_Preferences/fr#DXF.md).
 
-_ _
+[<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > FreeCAD and DXF Import/fr

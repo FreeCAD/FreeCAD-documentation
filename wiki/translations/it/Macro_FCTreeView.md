@@ -55,86 +55,86 @@ Se viene selezionato un oggetto: viene visualizzata la Base di posizionamento, R
 ### Section **Ordina per :** 
 
 
-**<img src=images/Macro_FCTreeView_10.png style="width:18px"> Name**
+**[<img src=images/Macro_FCTreeView_10.png style="width:18px"> Name**
 
 Icona usata per il flip/flop normale/invertire la lista dei dati ordinata per nome
 
 
-**<img src=images/Macro_FCTreeView_11.png style="width:18px"> Label**
+**[<img src=images/Macro_FCTreeView_11.png style="width:18px"> Label**
 
 Icona usata per il flip/flop normale/invertire la lista dei dati ordinata per etichetta
 
 
-**<img src=images/Macro_FCTreeView_12.png style="width:18px"> Visible**
+**[<img src=images/Macro_FCTreeView_12.png style="width:18px"> Visible**
 
 Icona usata per il flip/flop normale/rovescia l\'ordinamento della lista dei dati per Visibile/Nascosto
 
 
-**<img src=images/Macro_FCTreeView_13.png style="width:18px"> Group**
+**[<img src=images/Macro_FCTreeView_13.png style="width:18px"> Group**
 
 Icona usata per il flip/flop normale/inverte l\'ordinamento della quotazione dei dati per Gruppo/Oggetto singolo
 
 
-**<img src=images/Macro_FCTreeView_19.png style="width:18px"> Length**
+**[<img src=images/Macro_FCTreeView_19.png style="width:18px"> Length**
 
 Se questa casella di controllo è selezionata, l\'ordinamento viene creato in base alla lunghezza con il pulsante su cui è stato fatto clic (Nome, Etichetta \...)
 
 ### Section **Global** 
 
 
-**<img src=images/Macro_FCTreeView_21.png style="width:18px"> Split**
+**[<img src=images/Macro_FCTreeView_21.png style="width:18px"> Split**
 
 flip/flop Dividi la lista dei nomi
 
 
-**<img src=images/Macro_FCTreeView_22.png style="width:18px"> Split**
+**[<img src=images/Macro_FCTreeView_22.png style="width:18px"> Split**
 
 flip/flop Dividi il nome e l\'elenco delle etichette
 
 
-**<img src=images/Macro_FCTreeView_14.png style="width:18px"> Expend**
+**[<img src=images/Macro_FCTreeView_14.png style="width:18px"> Expend**
 
 flip/flop l\'elenco dei dati Fold/Expend
 
 
-**<img src=images/Macro_FCTreeView_15.png style="width:18px"> Expend**
+**[<img src=images/Macro_FCTreeView_15.png style="width:18px"> Expend**
 
 capovolgere/flopare l\'elenco di dati Spiega/Piega
 
 
-**<img src=images/Macro_FCTreeView_06.png style="width:18px"> Visibility**
+**[<img src=images/Macro_FCTreeView_06.png style="width:18px"> Visibility**
 
 flip/flop normal/Visibility
 
 
-**<img src=images/Macro_FCTreeView_07.png style="width:18px"> Group**
+**[<img src=images/Macro_FCTreeView_07.png style="width:18px"> Group**
 
 flip/flop normal/Group
 
 
-**<img src=images/Macro_FCTreeView_16.png style="width:18px"> Reload**
+**[<img src=images/Macro_FCTreeView_16.png style="width:18px"> Reload**
 
 Ricarica i dati nel progetto
 
 
-**<img src=images/Macro_FCTreeView_18.png style="width:18px"> Original**
+**[<img src=images/Macro_FCTreeView_18.png style="width:18px"> Original**
 
 ritorno nell\'organizzazione originale dopo l\'operazione visibilità/Nascosto
 
 
-**<img src=images/Macro_FCTreeView_01.png style="width:18px"> All Visible**
+**[<img src=images/Macro_FCTreeView_01.png style="width:18px"> All Visible**
 
 visualizza se l\'oggetto è stato Visibile
 
 
-**<img src=images/Macro_FCTreeView_02.png style="width:18px"> All Hidden**
+**[<img src=images/Macro_FCTreeView_02.png style="width:18px"> All Hidden**
 
 visualizza se l\'oggetto è stato Nascosto
 
 ### Section **Search** 
 
 
-**<img src=images/Macro_FCTreeView_20.png style="width:18px"> Clear**
+**[<img src=images/Macro_FCTreeView_20.png style="width:18px"> Clear**
 
 Cancella la modifica della riga di ricerca
 
@@ -153,17 +153,17 @@ Cancella la modifica della riga di ricerca
 -   **(Nu)** : Cerca per valore numerico (raggio, lunghezza, angolo \.....) vedi la sezione versione
 
 
-**<img src=images/Macro_FCTreeView_23.png style="width:18px"> Select**
+**[<img src=images/Macro_FCTreeView_23.png style="width:18px"> Select**
 
 flip/flop per Selezionati tutti gli oggetti visualizzati nella finestra
 
 
-**<img src=images/Macro_FCTreeView_24.png style="width:18px"> Unselected**
+**[<img src=images/Macro_FCTreeView_24.png style="width:18px"> Unselected**
 
 flip/flop per Selezionati tutti gli oggetti visualizzati nella finestra
 
 
-**<img src=images/Macro_FCTreeView_25.png style="width:18px"> S Sheet**
+**[<img src=images/Macro_FCTreeView_25.png style="width:18px"> S Sheet**
 
 accesso nelle opzioni del foglio di calcolo
 
@@ -178,12 +178,12 @@ accesso nelle opzioni del foglio di calcolo
 -   Opzioni CheckBox per selezionare i dati da salvare nel foglio di calcolo
 
 
-**<img src=images/Macro_FCTreeView_28.png style="width:18px"> Select**
+**[<img src=images/Macro_FCTreeView_28.png style="width:18px"> Select**
 
 : Seleziona tutta l\'opzione checkBox per salvare
 
 
-**<img src=images/Macro_FCTreeView_29.png style="width:18px"> Select**
+**[<img src=images/Macro_FCTreeView_29.png style="width:18px"> Select**
 
 : unSeleziona tutta l\'opzione checkBox per salvare
 
@@ -215,22 +215,22 @@ accesso nelle opzioni del foglio di calcolo
 ![](images/Macro_FCTreeView_006.png )
 
 
-**<img src=images/Macro_FCTreeView_28.png style="width:18px"> Select**
+**[<img src=images/Macro_FCTreeView_28.png style="width:18px"> Select**
 
 seleziona tutte le opzioni della casella di controllo
 
 
-**<img src=images/Macro_FCTreeView_29.png style="width:18px"> Unselect**
+**[<img src=images/Macro_FCTreeView_29.png style="width:18px"> Unselect**
 
 deselezionate tutte le opzioni della casella di controllo
 
 
-**<img src=images/Macro_FCTreeView_27.png style="width:18px"> Save**
+**[<img src=images/Macro_FCTreeView_27.png style="width:18px"> Save**
 
 salva i dati nel foglio di calcolo visualizzato. se nessun foglio di calcolo è attivo, viene creato il foglio di calcolo denominato **FCSpreadSheet**
 
 
-**<img src=images/Macro_FCTreeView_26.png style="width:18px"> Quit**
+**[<img src=images/Macro_FCTreeView_26.png style="width:18px"> Quit**
 
 esci dalle opzioni del foglio di calcolo
 

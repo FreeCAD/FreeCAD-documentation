@@ -221,7 +221,7 @@ There are two simple ways to get rid of the history, one is using the [Create si
 
 <div class="mw-translate-fuzzy">
 
-Dar cea mai bună lume dintre cele două există, și este un addon _ și <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Draft Rotate](Draft_Rotate.md) decât utlizând constrângerile Assembly2.
+Dar cea mai bună lume dintre cele două există, și este un addon [Assembly2 Workbench](https://github.com/hamish2014/FreeCAD_assembly2), care pote fi instalat de la depozitul [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons). Acest Atelier/Workbench este numit \"2\" deoarece există, de asemenea, un Atelier Assembly integrat în construcție, care nu este încă pregătit. Workbench Assembly2, cu toate acestea, funcționează deja foarte bine pentru a construi ansambluri și, de asemenea, prezintă o serie de constrângeri obiect-obiect pe care le puteți folosi pentru a restrânge poziția unui obiect în raport cu altul. În exemplul de mai jos, cu toate acestea, va fi mai rapid și mai ușor să poziționați piesele folosind <img alt="" src=images/Draft_Move.png  style="width:16px;"> [Draft Move](Draft_Move.md) și <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Draft Rotate](Draft_Rotate.md) decât utlizând constrângerile Assembly2.
 
 
 </div>
@@ -262,7 +262,7 @@ Dar cea mai bună lume dintre cele două există, și este un addon _ și <img a
 
 </div>
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/ro

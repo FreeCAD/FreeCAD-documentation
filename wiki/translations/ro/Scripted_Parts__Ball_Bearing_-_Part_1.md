@@ -43,13 +43,13 @@ Therefore we need to select the edges BEFORE creating the groove.
 ### Note
 
 Acest tutorial folosește primitive și operații booleene, care pot fi consumatoare de performanță.
-For doing a scripted part with revolved sketches have a look at the tutorial _.
+For doing a scripted part with revolved sketches have a look at the tutorial [Scripted Parts: Ball Bearing - Part 2](Scripted_Parts:_Ball_Bearing_-_Part_2.md).
 
 ### Links
 
 [Scripted objects](Scripted_objects.md): Pagina wiki explică elementele de bază ale scripting-ului
 [Topological data scripting](Topological_data_scripting.md): Un tutorial care acoperă elementele de bază ale scripturilor
-_: Doing it with sketches
+[Scripted Parts: Ball Bearing - Part 2](Scripted_Parts:_Ball_Bearing_-_Part_2.md): Doing it with sketches
 [Bearing Script 1](http://linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html): Base for this tutorial, thanks to JMG \...
 
 ### Code
@@ -141,7 +141,7 @@ Gui.SendMsgToActiveView("ViewFit")
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripted Parts: Ball Bearing - Part 1/ro

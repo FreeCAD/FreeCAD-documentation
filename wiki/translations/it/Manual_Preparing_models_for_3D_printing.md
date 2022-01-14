@@ -17,7 +17,7 @@ Se siete stati oculati durante la modellazione, la maggior parte degli inconveni
 
 <div class="mw-translate-fuzzy">
 
--   Fare in modo che gli oggetti 3D sono **solidi**. Gli oggetti del mondo reale sono solidi, anche il modello 3D deve essere solido. Abbiamo visto nei capitoli precedenti che FreeCAD aiuta molto in questo proposito, e che l\'ambiente _ che è comodo per controllare ulteriormente se ci sono difetti.
+-   Fare in modo che gli oggetti 3D sono **solidi**. Gli oggetti del mondo reale sono solidi, anche il modello 3D deve essere solido. Abbiamo visto nei capitoli precedenti che FreeCAD aiuta molto in questo proposito, e che l\'ambiente [PartDesign](PartDesign_Workbench/it.md) vi avvisa se fate un\'operazione che impedisce al vostro modello di rimanere solido. L\'ambiente [Part](Part_Workbench/it.md) contiene anche lo strumento <img alt="" src=images/Part_CheckGeometry.png  style="width:16px;"> [Controlla geometria](Part_CheckGeometry/it.md) che è comodo per controllare ulteriormente se ci sono difetti.
 -   Essere sicuri delle **dimensioni** degli oggetti. Un millimetro sarà un millimetro nella realtà. Ogni dimensione è importante.
 -   Controllare il **degrado**. Nessuna stampante 3D o nessun sistema di fresatura CNC può ricevere direttamente i file di FreeCAD. La maggior parte di essi capiranno solo un linguaggio macchina chiamato [G-Code](https://en.wikipedia.org/wiki/G-code). G-code ha decine di dialetti diversi, ogni macchina o venditore di solito utilizza il proprio. La conversione dei modelli in G-Code può essere facile e automatica, ma si può anche farla manualmente, con il controllo totale sull\'output. In ogni caso, durante il processo avverrà inevitabilmente una perdita di qualità del modello. Quando si stampa in 3D, è sempre necessario assicurarsi che questa perdita di qualità stia sotto i propri requisiti minimi.
 
@@ -112,7 +112,7 @@ Dopo aver installato sia Cura, sia l\'ambiente Cura, si è in grado di usarlo pe
 -   Caricare il file che contiene il mattoncino Lego (può essere scaricato dal link posto alla fine del capitolo precedente)
 -   Passare all\'ambiente [Cura](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin)
 -   Imposta lo spazio di stampa scegliendo il menu **3D printing -\> Create a 3D printer definition**. Dato che non stiamo stampando veramente, possiamo lasciare le impostazioni così come sono. Nella vista 3D viene mostrata la geometria del piano di stampa e lo spazio disponibile.
--   Spostare il mattoncino Lego in una posizione adatta, ad esempio il centro del piano di stampa. Ricordare che gli oggetti PartDesign non possono essere spostati direttamente, quindi è necessario spostare il suo primo schizzo (il primo rettangolo), oppure spostare (e stampare) una copia, che può essere fatta con lo strumento _.
+-   Spostare il mattoncino Lego in una posizione adatta, ad esempio il centro del piano di stampa. Ricordare che gli oggetti PartDesign non possono essere spostati direttamente, quindi è necessario spostare il suo primo schizzo (il primo rettangolo), oppure spostare (e stampare) una copia, che può essere fatta con lo strumento [Parte -\> Crea una copia semplice](Part_SimpleCopy/it.md). La copia può essere spostata, per esempio con <img alt="" src=images/Draft_Move.png  style="width:16px;"> [Draft -\> Sposta](Draft_Move/it.md).
 -   Selezionare l\'oggetto da stampare, e poi selezionare il menu **3D printing -\> Slice with Cura Engine**.
 -   Nel pannello delle Azioni che si apre, assicurarsi che il percorso del file eseguibile Cura sia impostato correttamente. Dato che in realtà non abbiamo intenzione di stampare , possiamo lasciare tutte le altre opzioni come sono. Premere **Ok**. Nella stessa directory del file di FreeCAD vengono generati due file, un file STL e un file G-code.
 
@@ -187,7 +187,7 @@ La generazione di percorsi di fresatura CNC è un altro argomento troppo grande 
 
 <div class="mw-translate-fuzzy">
 
--   Ora tutto ciò che rimane da fare è unire queste due operazioni in una sola. Questo può essere fatto con un _.
+-   Ora tutto ciò che rimane da fare è unire queste due operazioni in una sola. Questo può essere fatto con un [Path Job](Path_Job/it.md). Premere il pulsante <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Job](Path_Job/it.md).
 -   Impostare la proprietà **Usa Posizionamento** del progetto su True, perché cambiamo il posizionamento delle matrici, e vogliamo che questo sia preso in considerazione nel progetto.
 -   Nella visualizzazione ad albero, trascinare e rilasciare i due array nel progetto. Se necessario, è possibile riordinare le matrici all\'interno del progetto facendo un doppio clic su di esso.
 -   Il progetto può essere esportato in codice G, selezionandolo, scegliendo menù **File -\> Esporta**, selezionando il formato G-code, e nella finestra di pop-up che si apre, selezionando uno script di post-elaborazione in base alla macchina.
@@ -232,7 +232,7 @@ Per simulare il taglio vero sono molte disponibili applicazioni, una di queste, 
 
 </div>
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Path](Category_Path.md) [<img src="images/Property.png" style="width:16px"> Mesh](Category_Mesh.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Path](Category_Path.md) > Manual:Preparing models for 3D printing/it

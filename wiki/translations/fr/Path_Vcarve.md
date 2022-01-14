@@ -11,7 +11,7 @@
 
 ## Description
 
-L\'outil <img alt="" src=images/Path_Vcarve.svg  style="width:24px;"> _ sur une pièce. Cependant, cela peut être utile pour d\'autres types de 2D.
+L\'outil <img alt="" src=images/Path_Vcarve.svg  style="width:24px;"> [Path Gravure en V](Path_Vcarve/fr.md) est principalement destiné à la gravure de la ligne centrale d\'une <img alt="" src=images/Draft_ShapeString.svg  style="width:24px;"> [Draft Formes à partir texte](Draft_ShapeString/fr.md) sur une pièce. Cependant, cela peut être utile pour d\'autres types de 2D.
 
 Contrairement à la gravure qui suit les lignes d\'une Forme à partir texte, la gravure en V utilise un couteau en forme de V et tente de dégager la zone en déplaçant le couteau au centre de la région et en variant la profondeur de coupe. Étant donné qu\'un rayon de coupe en V varie avec la profondeur, la largeur de coupe varie également. Le résultat est une coupe plus naturelle, en particulier pour les polices serif.
 
@@ -23,7 +23,7 @@ L\'algorithme V-carve calcule une trajectoire le long de la ligne médiane d\'un
 
 ### Préparation des formes à graver 
 
--   Les **<img src=images/Draft_ShapeString.svg style="width:24px"> [Draft Formes à partir texte](Draft_ShapeString/fr.md)** sont utilisables dès la sortie de la boîte
+-   Les **[<img src=images/Draft_ShapeString.svg style="width:24px"> [Draft Formes à partir texte](Draft_ShapeString/fr.md)** sont utilisables dès la sortie de la boîte
 -   Les fichiers SVG nécessitent un certain massage, à la fois dans l\'éditeur et dans le <img alt="" src=images/_Workbench_Draft.svg  style="width:24px;"> [Atelier Draft](Draft_Workbench/fr.md):
     -   Dans l\'éditeur (par exemple [inkscape](https://www.inkscape.org)): assurez-vous que le fichier ne contient que des chemins et que les chemins sont dissociés; assurez-vous qu\'il n\'y a pas de chemins auto-sécants, (dans inkscape) utilisez Chemin → Simplifier et union pour joindre les chemins qui se chevauchent.
     -   Basculez vers le <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Atelier Draft](Draft_Workbench/fr.md) dans la [liste déroulante d\'Ateliers](Std_Workbench/fr.md)
@@ -55,7 +55,7 @@ L\'algorithme V-carve calcule une trajectoire le long de la ligne médiane d\'un
 
 ### Création de l\'opération Vcarve 
 
--   Passez à l\'**<img src=images/Workbench_Path.svg style="width:16px"> [atelier Path](Path_Workbench/fr.md)** dans le [menu déroulant des ateliers](Std_Workbench/fr.md)
+-   Passez à l\'**[<img src=images/Workbench_Path.svg style="width:16px"> [atelier Path](Path_Workbench/fr.md)** dans le [menu déroulant des ateliers](Std_Workbench/fr.md)
 -   Ajoutez un travail, utilisez les objets nommés `Face<number>` (ou le ShapeString) comme base, ajoutez un contrôleur d\'outil v-bit, définissez les flux, les vitesses, etc.
 -   L\'opération ne prend en charge qu\'un seul objet (soit un seul objet Face, soit un ShapeString) donc pour chaque objet:
     -   Sélectionnez **Path → <img src="images/Path_Vcarve.svg" width=24px> Vcarve** dans le menu supérieur. Cela ouvre le panneau de configuration.

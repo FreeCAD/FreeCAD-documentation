@@ -12,7 +12,7 @@
 
 ## Opis
 
-Wiązanie prostopadłości tworzy dwie linie, które są prostopadłe *(tzn. ortogonalne)* do siebie, lub dwie krzywe, które są prostopadłe na ich przecięciu. Linie są traktowane jako nieskończone, a łuki są traktowane jako pełne okręgi/elipsy. Wiązanie może również łączyć dwie krzywe, wymuszając ich prostopadłość w miejscu połączenia, podobnie jak w przypadku **<img src=images/Sketcher_ConstrainTangent.svg style="width:16px"> [Wiązanie styczności](Sketcher_ConstrainTangent/pl.md)**.
+Wiązanie prostopadłości tworzy dwie linie, które są prostopadłe *(tzn. ortogonalne)* do siebie, lub dwie krzywe, które są prostopadłe na ich przecięciu. Linie są traktowane jako nieskończone, a łuki są traktowane jako pełne okręgi/elipsy. Wiązanie może również łączyć dwie krzywe, wymuszając ich prostopadłość w miejscu połączenia, podobnie jak w przypadku **[<img src=images/Sketcher_ConstrainTangent.svg style="width:16px"> [Wiązanie styczności](Sketcher_ConstrainTangent/pl.md)**.
 
 ## Użycie
 

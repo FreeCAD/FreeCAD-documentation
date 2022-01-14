@@ -18,17 +18,17 @@ Voir les autre options pour [aider le projet](Help_FreeCAD/fr.md) (documentation
 
 -   Certains développeurs effectueront une tâche spécifique pour de l\'argent ou peuvent être sponsorisés pour passer plus de temps à travailler sur FreeCAD. Il y a eu quelques expériences réussies dans le passé, telles que l\'[Atelier Path](Path_Workbench/fr.md) ou l\'[expérience de financement de Ian Rees](https://opendeveloperfunding.wordpress.com/). Actuellement, les développeurs suivants peuvent être sponsorisés :
 
--   -   _ via <img alt="yorikvanhavre\|link=<https://www.patreon.com/yorikvanhavre>" src=images/patreonporange.png  style="width:20px;"> _, [Atelier Arch](Arch_Workbench/fr.md), [Atelier BIM](BIM_Workbench/fr.md), IFC)
+-   -   [Yorik](User_Yorik.md) via <img alt="yorikvanhavre\|link=<https://www.patreon.com/yorikvanhavre>" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/yorikvanhavre) ou <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/yorik) ([Atelier Draft](Draft_Workbench/fr.md), [Atelier Arch](Arch_Workbench/fr.md), [Atelier BIM](BIM_Workbench/fr.md), IFC)
 
--   -   _ via [Patreon](https://www.patreon.com/kkremitzki) <img alt="kkremitzki\|link=<https://www.patreon.com/kkremitzki>" src=images/patreonporange.png  style="width:20px;"> ou [Liberapay](https://liberapay.com/kkremitzki)
+-   -   [Kurt Kremitzki](User_Kkremitzki.md) via [Patreon](https://www.patreon.com/kkremitzki) <img alt="kkremitzki\|link=<https://www.patreon.com/kkremitzki>" src=images/patreonporange.png  style="width:20px;"> ou [Liberapay](https://liberapay.com/kkremitzki)
 
--   -   Lei Zheng aka _, [Atelier Assembly3](Assembly3_Workbench/fr.md)) .
+-   -   Lei Zheng aka [Realthunder](https://github.com/realthunder) via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SM8GY3U2UUJN), <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/realthunder/) ou <img alt="Patreon" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/thundereal) ([App Link](App_Link/fr.md), [Atelier Assembly3](Assembly3_Workbench/fr.md)) .
 
--   -   Lorenz alias looooo via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> _ packaging)
+-   -   Lorenz alias looooo via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/looooo/donate) ([FCGears workbench](https://github.com/looooo/freecad.gears), [Conda](Conda/fr.md) packaging)
 
 -   -   Amritpal Singh alias amrit3701 via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/amrit3701) ou <img alt="Patreon" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/amrit3701) ([Addon des barres d\'armature](https://github.com/amrit3701/FreeCAD-Reinforcement))
 
--   -   Brad Collette alias sliptonic via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> _)
+-   -   Brad Collette alias sliptonic via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/sliptonic/donate) ou <img alt="Patreon" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/sliptonic) ([Atelier Path](Path_Workbench/fr.md))
 
 ## Emplois
 

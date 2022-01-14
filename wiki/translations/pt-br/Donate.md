@@ -6,7 +6,7 @@ Doação rápida: <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"
 
 </div>
 
-Veja outras formas de _(documentação, tradução).
+Veja outras formas de [ajudar o projecto ](Special:MyLanguage/Help_FreeCAD.md)(documentação, tradução).
 
 ## Opções
 
@@ -25,14 +25,14 @@ Apoiar os custos de alojamento 'web' doando diretamente para a [conta paypal de 
 
 <div class="mw-translate-fuzzy">
 
-Alguns programadores poderão fazer uma tarefa específica por dinheiro ou podem ser patrocinados para passar mais tempo a trabalhar no FreeCAD. Alguns programadores poderão fazer uma tarefa específica por dinheiro ou podem ser patrocinados para passar mais tempo a trabalhar no FreeCAD. Houve algumas experiências bem sucedidas no passado, tais como a _ ou [a experiência de financiamento de Ian Rees](https://opendeveloperfunding.wordpress.com/). Neste momento, os seguintes desenvolvedores podem ser patrocinados:
+Alguns programadores poderão fazer uma tarefa específica por dinheiro ou podem ser patrocinados para passar mais tempo a trabalhar no FreeCAD. Alguns programadores poderão fazer uma tarefa específica por dinheiro ou podem ser patrocinados para passar mais tempo a trabalhar no FreeCAD. Houve algumas experiências bem sucedidas no passado, tais como a [Bancada Path](Special:MyLanguage/Path_Workbench.md) ou [a experiência de financiamento de Ian Rees](https://opendeveloperfunding.wordpress.com/). Neste momento, os seguintes desenvolvedores podem ser patrocinados:
 
--   -   _ via <img alt="yorikvanhavre\|link=<https://www.patreon.com/yorikvanhavre>" src=images/patreonporange.png  style="width:20px;"> _, _, _, IFC)
-    -   _ via <img alt="kkremitzki\|link=<https://www.patreon.com/kkremitzki>" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/kkremitzki) ou <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/kkremitzki) (infraestruturas, servidores, empacotamento, Debian/Ubuntu)
-    -   Lei Zheng vulgo _, _)
-    -   Lorenz vulgo looooo via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> _)
+-   -   [Yorik](User_Yorik.md) via <img alt="yorikvanhavre\|link=<https://www.patreon.com/yorikvanhavre>" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/yorikvanhavre) ou <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/yorik) ([Draft](Special:MyLanguage/Draft_Module.md), [Arch](Special:MyLanguage/Arch_Module.md), [BIM](Special:MyLanguage/BIM_Workbench.md), IFC)
+    -   [Kurt Kremitzki](User_Kkremitzki.md) via <img alt="kkremitzki\|link=<https://www.patreon.com/kkremitzki>" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/kkremitzki) ou <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/kkremitzki) (infraestruturas, servidores, empacotamento, Debian/Ubuntu)
+    -   Lei Zheng vulgo [Realthunder](https://github.com/realthunder) via [PayPal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2SM8GY3U2UUJN), <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/realthunder/) ou <img alt="Patreon" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/thundereal) ([App Link](Special:MyLanguage/App_Link.md), [Assembly3](Special:MyLanguage/Assembly3.md))
+    -   Lorenz vulgo looooo via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/looooo/donate) ([FCGears workbench](https://github.com/looooo/freecad.gears), empacotamento [Conda](Special:MyLanguage/Conda.md))
     -   Amritpal Singh vulgo amrit3701 via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/amrit3701) ou <img alt="Patreon" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/amrit3701) ([Rebar addon](https://github.com/amrit3701/FreeCAD-Reinforcement))
-    -   Brad Collette vulgo sliptonic via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> _)
+    -   Brad Collette vulgo sliptonic via <img alt="" src=images/Liberapay_logo.svg  style="width:24px;"> [Liberapay](https://liberapay.com/sliptonic/donate) ou <img alt="Patreon" src=images/patreonporange.png  style="width:20px;"> [Patreon](https://www.patreon.com/sliptonic) ([Bancada Path](Special:MyLanguage/Path_Workbench.md))
 
 
 </div>

@@ -1,7 +1,7 @@
 # Online Help Toc/it
-Questo è il sommario dei contenuti utilizzati per costruire automaticamente la **Guida in linea** di FreeCAD. La versione stampabile di questo manuale è disponibile in _ inclusi i forum e i gruppi di chat.
+Questo è il sommario dei contenuti utilizzati per costruire automaticamente la **Guida in linea** di FreeCAD. La versione stampabile di questo manuale è disponibile in [releases page](https://github.com/FreeCAD/FreeCAD/releases). Se avete delle domande o bisogno di aiuto con FreeCAD, consultate la [pagina di aiuto](Help/it.md) inclusi i forum e i gruppi di chat.
 
-C\'è un altro sommario per il _.
+C\'è un altro sommario per il [Manuale di FreeCAD](Manual:Introduction/it.md).
 
 <img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
@@ -140,7 +140,7 @@ C\'è un altro sommario per il _.
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/it

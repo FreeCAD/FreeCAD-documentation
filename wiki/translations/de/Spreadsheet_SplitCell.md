@@ -11,13 +11,13 @@
 
 ## Beschreibung
 
-Das **<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Kalkulationstabelle ZelleTeilen](Spreadsheet_SplitCell/de.md)** Werkzeug teilt eine Zelle auseinander, die in einer bestehenden Tabelle im aktiven Dokument zu einer Zelle zusammengeführt wurde.
+Das **[<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Kalkulationstabelle ZelleTeilen](Spreadsheet_SplitCell/de.md)** Werkzeug teilt eine Zelle auseinander, die in einer bestehenden Tabelle im aktiven Dokument zu einer Zelle zusammengeführt wurde.
 
 ## Anwendung
 
-1.  Stelle sicher, dass eine aktive **<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md)** geöffnet ist, so dass die Schaltfläche aktiviert ist.
-2.  Wähle eine Zelle aus, die zuvor **<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Zusammengeführt](Spreadsheet_MergeCells/de.md)**.
-3.  Drücke die **<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Kalkulationstabelle ZelleTeilen](Spreadsheet_SplitCell/de.md)** Schaltfläche.
+1.  Stelle sicher, dass eine aktive **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Kalkulationstabelle](Spreadsheet_CreateSheet/de.md)** geöffnet ist, so dass die Schaltfläche aktiviert ist.
+2.  Wähle eine Zelle aus, die zuvor **[<img src=images/Spreadsheet_MergeCells.svg style="width:16px"> [Zusammengeführt](Spreadsheet_MergeCells/de.md)**.
+3.  Drücke die **[<img src=images/Spreadsheet_SplitCell.svg style="width:16px"> [Kalkulationstabelle ZelleTeilen](Spreadsheet_SplitCell/de.md)** Schaltfläche.
 
 
 

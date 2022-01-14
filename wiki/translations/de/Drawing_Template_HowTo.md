@@ -8,7 +8,7 @@ For a tutorial on how to create a template for that workbench see [TechDraw Temp
 {{TutorialInfo/de
 |Topic=2D-Zeichnen
 |Level=Fortgeschrittene Anfänger
-|Author=Mark Stephen (_)
+|Author=Mark Stephen ([Quick61](User_Quick61.md))
 |Time=Eine Stunde oder weniger
 |FCVersion=0.14.3700 oder höher
 }}

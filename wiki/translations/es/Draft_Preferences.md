@@ -494,7 +494,7 @@ On the *Texts and dimensions* tab you can specify the following:
 | **Override unit**                      |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                 |                                                                                                                                                                                                                                                                                                                                                                    |
 +----------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                     | The default font file to use. See _ paragraph on that page.                                                                                                                      |
+|                                     | The default font file to use. See [Draft ShapeString](Draft_ShapeString.md). For Windows users: please read the [Font file selection on Windows](Draft_ShapeString#Font_file_selection_on_Windows.md) paragraph on that page.                                                                                                                      |
 | **Default ShapeString font file**      |                                                                                                                                                                                                                                                                                                                                                                    |
 |                                                 |                                                                                                                                                                                                                                                                                                                                                                    |
 +----------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -507,7 +507,7 @@ On the *Texts and dimensions* tab you can specify the following:
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Draft](Draft_Workbench.md) > Draft Preferences/es

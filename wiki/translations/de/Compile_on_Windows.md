@@ -413,7 +413,7 @@ FreeCAD verwendet [Qt](https://en.wikipedia.org/wiki/Qt_(software)) als Werkzeug
 
 Um Qt Designer auf die FreeCAD Widgets aufmerksam zu machen, musst du
 
-1.  Laden _).
+1.  Laden [diese ZIP Datei](https://forum.freecadweb.org/download/file.php?id=124239) herunter. (Kompiliert mit Qt 5.12, siehe [unten](#Compilation/de.md)).
 2.  Entpacke die DLL Datei in der ZIP Datei und kopiere sie
 
 -   Wenn du das LibPack verwendest: in den Ordner*\~\\FreeCADLibs\_12.5.2\_x64\_VC17\\bin\\designer* Da es nur einen *bin* Ordner geben wird und du zuerst den Unterordner *designer* erstellen musst.
@@ -421,7 +421,7 @@ Um Qt Designer auf die FreeCAD Widgets aufmerksam zu machen, musst du
 
 Starte den Qt Designer (erneut) und überprüfe sein Menü **Hilfe → Zusatzprogramme**. Wenn das Zusatzprogramm **FreeCAD\_widgets.dll** als geladen aufgeführt ist, kannst du nun FreeCADs .ui Dateien entwerfen und ändern. Falls nicht, musst du die DLL selbst [Kompilieren](#Compilation/de.md).
 
-Wenn du lieber _.
+Wenn du lieber [Qt Creator](https://en.wikipedia.org/wiki/Qt_Creator) anstelle von Qt Designer verwenden möchtest, muss die DLL in diesem Ordner abgelegt werden:*C:\\Qt\\Qt5.15.2\\Tools\\QtCreator\\bin\\plugins\\designer*(Re)Start Qt Creator, wechsle in den Modus **Design** und überprüfe dann das Menü **Werkzeuge → Formular Editor → Über Qt Designer Zusatzprogramme**. Wenn das Zusatzprogramm **FreeCAD\_widgets.dll** als geladen aufgeführt ist, kannst du nun FreeCADs .ui Dateien entwerfen und ändern. Falls nicht, musst du die DLL selbst [Kompilieren](#Compilation/de.md).
 
 #### Kompilierung
 
@@ -508,7 +508,7 @@ Siehe auch
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
 
 ---
 [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on Windows/de

@@ -80,7 +80,7 @@ Einige Hinweise auf der Programmierseite des Zeichenmoduls werden auf der Seite 
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Obsolete Workbenches](Category_Obsolete_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > Drawing Workbench/de

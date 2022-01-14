@@ -38,7 +38,7 @@
 -   複雑な形状タイプに対して複雑な3D操作を可能にする完全な[Open CASCADE Technology](http://en.wikipedia.org/wiki/Open_CASCADE)ベースの \'\'ジオメトリカーネル \'\' ![](images/Feature1.jpg ) brep、nurbsカーブやサーフェス、幅広い幾何エンティティ、ブール演算やフィレット、STEPやIGESフォーマットの組み込みサポートなどの概念をネイティブにサポートしています
 -   ![](images/Feature3.jpg ) A full **parametric model**. All FreeCAD objects are natively parametric, which means their shape can be based on [properties](Property.md) or even depend on other objects, all changes being recalculated on demand, and recorded by the undo/redo stack. New object types can be added easily, that can even be [fully programmed in Python](Scripted_objects.md)
 -   ![](images/Feature4.jpg ) A **modular architecture** that allow plugins (workbenches) to add functionality to the core application. Those extensions can be as complex as whole new applications programmed in C++ or as simple as [Python scripts](Power_users_hub.md) or self-recorded [macros](macros.md). You have complete access from the **Python** built-in interpreter, macros or external scripts to almost any part of FreeCAD, being [geometry creation and transformation](Topological_data_scripting.md), the 2D or 3D representation of that geometry ([scenegraph](scenegraph.md)) or even the [FreeCAD interface](PySide.md) 
--   !_. The level of compatibility between FreeCAD and a given file format can vary, since it depends on the module that implements it.
+-   ![](images/Feature5.jpg ) Import/export to **standard formats** such as [STEP](http://en.wikipedia.org/wiki/ISO_10303), [IGES](http://en.wikipedia.org/wiki/IGES), [OBJ](http://en.wikipedia.org/wiki/Obj), [STL](http://en.wikipedia.org/wiki/STL_%28file_format%29), [DXF](http://en.wikipedia.org/wiki/Dxf), [SVG](http://en.wikipedia.org/wiki/Svg), [STL](http://en.wikipedia.org/wiki/STL_(file_format)), [DAE](http://en.wikipedia.org/wiki/COLLADA), [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) or [OFF](http://people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](http://en.wikipedia.org/wiki/NASTRAN), [VRML](http://en.wikipedia.org/wiki/VRML) in addition to FreeCAD\'s native [Fcstd file format](Fcstd_file_format.md). The level of compatibility between FreeCAD and a given file format can vary, since it depends on the module that implements it.
 -   ![](images/Feature7.jpg ) A [Sketcher](Sketcher_Workbench.md) with constraint-solver, allowing to sketch geometry-constrained 2D shapes. The sketcher currently allows you to build several types of constrained geometry, and use them as a base to build other objects throughout FreeCAD.
 -   ![](images/Feature9.jpg ) A [Robot simulation](Robot_Workbench.md) workbench that allows to study robot movements. The robot workbench already has an extended graphical interface allowing GUI-only workflow.
 -   ![](images/Feature8.jpg ) A comfortable new workbench for creating [traditional drawing sheets](TechDraw_Workbench.md) with options like detail view, cross sections, dimensioning and others, that permit to put 2D views of your 3D models on a sheet. This workbench then produces ready-to-export SVG or PDF sheets. There exist still the older [Drawing Workbench](Drawing_Workbench.md) with its sparse Gui-commands but a powerful Python functionality.
@@ -290,7 +290,7 @@ Power users have created various custom [external workbenches](external_workbenc
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/ja

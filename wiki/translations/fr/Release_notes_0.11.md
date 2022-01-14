@@ -69,7 +69,7 @@ Une capture d\'écran de la version 0.11
 
 {{languages/fr | {{en|Release_notes_0.11}} {{de|Release_notes_0.11/de}} {{es|Release_notes_0.11/es}} {{it|Release_notes_0.11/it}} {{pl|Release_notes_0.11/pl}} {{ru|Release_notes_0.11/ru}} }}
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > Release notes 0.11/fr

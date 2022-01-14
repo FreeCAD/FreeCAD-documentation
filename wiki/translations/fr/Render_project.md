@@ -126,7 +126,7 @@ Voir aussi [Tutoriel Raytracing](Raytracing_tutorial/fr.md)
 
  
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Render](Category_Render.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > Render project/fr

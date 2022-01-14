@@ -170,7 +170,7 @@ Cette section définit les propriétés du matériau qui sont liées à l\'appar
 
  {{FEM Tools navi}} 
 
-_ _ _ _ _
+[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md) [<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [Developer](Category_Developer.md) > Material/fr

@@ -16,7 +16,7 @@ Cet outil supprime toutes les contraintes de l\'esquisse en cours d\'édition, e
 
 ## Utilisation
 
-1.  Aller dans le menu **Sketch → Outils d'esquisse → <img src=images/Sketcher_DeleteAllConstraints.svg style="width:16px"> Supprimer toutes les contraintes**.
+1.  Aller dans le menu **Sketch → Outils d'esquisse → [<img src=images/Sketcher_DeleteAllConstraints.svg style="width:16px"> Supprimer toutes les contraintes**.
 2.  Répondre **Oui** au message affiché.
 
 

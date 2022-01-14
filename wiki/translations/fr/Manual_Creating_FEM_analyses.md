@@ -3,17 +3,17 @@
 
 FEM, en anglais Finite Element Method, signifie Méthode des éléments finis ([Méthode des éléments finis](https://fr.wikipedia.org/wiki/M%C3%A9thode_des_%C3%A9l%C3%A9ments_finis)). Il s\'agit d\'un vaste sujet mathématique que dans FreeCAD nous pouvons résumer par moyen de calculer les propagations à l\'intérieur d\'un objet 3D en le coupant en petits morceaux et en analysant l\'impact de chaque petit morceau sur ses voisins. Cela a plusieurs utilisations dans les domaines de l\'ingénierie et de l\'électromagnétisme. Nous examinerons plus en profondeur une seule utilisation déjà développée dans FreeCAD qui simule des déformations dans des objets soumis à des forces et à des poids.
 
-L\'obtention de cette simulation se fait dans FreeCAD avec l\'_) et finalement calculer la simulation.
+L\'obtention de cette simulation se fait dans FreeCAD avec l\'[atelier FEM](FEM_Workbench/fr.md). Cela implique différentes étapes : préparer la géométrie, définir son matériau, effectuer le maillage, diviser en parties plus petites, comme nous l\'avons fait dans le chapitre ([Préparer les objets pour l'impression 3D](Manual:Preparing_models_for_3D_printing/fr.md)) et finalement calculer la simulation.
 
 <img alt="" src=images/Exercise_fem_01.jpg  style="width:600px;">
 
 ### Préparation de FreeCAD 
 
-La simulation elle-même est réalisée par un autre logiciel utilisé par FreeCAD pour obtenir les résultats. Il existe plusieurs applications de simulation FEM intéressantes et disponibles. L'_).
+La simulation elle-même est réalisée par un autre logiciel utilisé par FreeCAD pour obtenir les résultats. Il existe plusieurs applications de simulation FEM intéressantes et disponibles. L'[Atelier FEM](FEM_Workbench/fr.md) vous permet de choisir parmi ces applications. Cependant, actuellement, seul [CalculiX](http://www.calculix.de/) est entièrement implémenté. Un autre logiciel, appelé [NetGen](https://sourceforge.net/projects/netgen-mesher/), en charge de la génération du maillage de subdivision est également nécessaire. Des instructions détaillées pour installer ces deux composants sont fournies dans la documentation FreeCAD ([Installation de FEM](FEM_Install/fr.md)).
 
 ### Préparation de la géométrie 
 
-Nous allons commencer avec la maison que nous avons modélisée dans le chapitre de modélisation BIM (_). Certains changements doivent néanmoins être apportés pour rendre le modèle adapté aux calculs FEM. Nous écartons les objets que nous ne voulons pas inclure dans le calcul, comme la porte et la fenêtre, et assemblons tous les objets restants en un seul.
+Nous allons commencer avec la maison que nous avons modélisée dans le chapitre de modélisation BIM ([Modélisation BIM](Manual:BIM_modeling/fr.md)). Certains changements doivent néanmoins être apportés pour rendre le modèle adapté aux calculs FEM. Nous écartons les objets que nous ne voulons pas inclure dans le calcul, comme la porte et la fenêtre, et assemblons tous les objets restants en un seul.
 
 -   Chargez le modèle de maison que nous avons modélisé précédemment ([house model](https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/house.FCStd)).
 -   Supprimez ou masquez l\'objet de la page, les plans de section et les dimensions, de sorte qu'il ne nous reste que notre modèle.

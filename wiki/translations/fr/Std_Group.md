@@ -39,7 +39,7 @@ Pour regrouper des objets 3D en une seule unité, avec l\'intention de créer de
 
 ## Propriétés
 
-Un _ (classe `App::DocumentObject`). Il partage donc toutes les propriétés de ce dernier.
+Un [Std Groupe](Std_Group/fr.md) est appelé en interne [App DocumentObjectGroup](App_DocumentObjectGroup/fr.md) (classe `App::DocumentObjectGroup`) et dérive de [App DocumentObject](App_DocumentObject/fr.md) (classe `App::DocumentObject`). Il partage donc toutes les propriétés de ce dernier.
 
 En plus des propriétés décrites dans [App FeaturePython](App_FeaturePython/fr.md), qui est l\'instance la plus élémentaire d\'un [App DocumentObject](App_DocumentObject/fr.md), App DocumentObjectGroup a la propriété **Group**.
 
@@ -71,7 +71,7 @@ Voir [App FeaturePython](App_FeaturePython/fr.md) pour les propriétés d\'affic
 
 ## Héritage
 
-Un _ (`App::DocumentObject` class) et est complété par une extension de groupe.
+Un [Std Groupe](Std_Group.md) est formellement une instance de la classe `App::DocumentObjectGroup` dont le parent est le [App DocumentObject](App_DocumentObject/fr.md) (`App::DocumentObject` class) et est complété par une extension de groupe.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

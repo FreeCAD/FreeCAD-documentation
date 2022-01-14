@@ -13,7 +13,7 @@ Der **<img src="images/Workbench_TechDraw.svg" width=24px> [Techdraw Arbeitsbere
 1.  Eine Fläche wählen
 
     :   <img alt="" src=images/SelectFace.png  style="width:150px;">
-2.  Je nach Bedarf drücke entweder <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> _.
+2.  Je nach Bedarf drücke entweder <img alt="" src=images/TechDraw_Hatch.svg  style="width:32px;"> [TechDraw Schraffur](TechDraw_Hatch/de.md) oder <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [TechDraw GeometrischeSchraffur](TechDraw_GeometricHatch/de.md).
 
 **Ergebnis:** Die Fläche wird anfänglich mit Standardwerten schraffiert. **Hinweis:** Durch Ändern der Schraffureigenschaften kann das gewünschte Muster gewählt werden.
 

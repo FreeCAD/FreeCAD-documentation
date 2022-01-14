@@ -24,7 +24,7 @@ Ce tutoriel a pour but d\'expliquer aux débutants découvrant Freecad, quelques
 
 ### Utiliser l\'[atelier Part Design](PartDesign_Workbench/fr.md), traçage de l\'esquisse 
 
-Créez un nouveau document et basculez vers l\'**<img src=images/Workbench_PartDesign.svg style="width:24px"> '''atelier Part Design'''** à l\'aide du [sélecteur d\'atelier](Getting_started/fr#Explorer_FreeCAD.md) (identifié 10 dans l\'image liée) ou via le menu *Affichage → Atelier*. FreeCAD doit démarrer avec les icônes au dessus, la vue combinée à gauche et la vue 3D à droite.
+Créez un nouveau document et basculez vers l\'**[<img src=images/Workbench_PartDesign.svg style="width:24px"> '''atelier Part Design'''** à l\'aide du [sélecteur d\'atelier](Getting_started/fr#Explorer_FreeCAD.md) (identifié 10 dans l\'image liée) ou via le menu *Affichage → Atelier*. FreeCAD doit démarrer avec les icônes au dessus, la vue combinée à gauche et la vue 3D à droite.
 
 **Créer un corps :**
 
@@ -119,7 +119,7 @@ Si votre esquisse n\'est pas encore verte, un ou plusieurs points ne sont pas co
 
 Procédez de la même manière avec tous les points.
 
-Si votre esquisse n\'est toujours pas verte, vérifiez que tous les segments (sauf le segment incliné) aient une contrainte soit <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> _, rajoutez la éventuellement.
+Si votre esquisse n\'est toujours pas verte, vérifiez que tous les segments (sauf le segment incliné) aient une contrainte soit <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Horizontal](Sketcher_ConstrainHorizontal/fr.md), soit <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [Vertical](Sketcher_ConstrainVertical/fr.md), rajoutez la éventuellement.
 
 ### Utiliser les fonctions Pad et Pocket 
 

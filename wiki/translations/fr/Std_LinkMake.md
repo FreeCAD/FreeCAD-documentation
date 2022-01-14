@@ -13,30 +13,30 @@
 ## Description
 
 
-**<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake/fr.md)**
+**[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake/fr.md)**
 
-crée une classe _ complexes à partir de sous-assemblages plus petits et de plusieurs composants réutilisables tels que des vis, des écrous et des éléments de fixation similaires.
+crée une classe [App Link](App_Link/fr.md) (`App::Link`), un type d\'objet faisant référence ou lié à un autre objet, dans le même document ou dans un autre document. Il est spécialement conçu pour dupliquer efficacement un seul objet plusieurs fois, ce qui permet de créer des [assemblages](assembly/fr.md) complexes à partir de sous-assemblages plus petits et de plusieurs composants réutilisables tels que des vis, des écrous et des éléments de fixation similaires.
 
-L\'objet <img src=images/Draft_Clone.svg style="width:App Link](App_Link/fr.md) a été nouvellement introduit dans la v0.19. Auparavant, une simple duplication d\'objets pouvait être réalisée avec **[16px"> [Draft Clone](Draft_Clone/fr.md)**, mais c\'est une solution moins efficace en raison de son implémentation qui crée essentiellement une copie de la [Forme](Part_TopoShape/fr.md) interne de l\'objet source. D\'un autre côté, un lien fait directement référence à la forme d\'origine, donc plus efficace en mémoire.
+L\'objet [App Link](App_Link/fr.md) a été nouvellement introduit dans la v0.19. Auparavant, une simple duplication d\'objets pouvait être réalisée avec **[<img src=images/Draft_Clone.svg style="width:16px"> [Draft Clone](Draft_Clone/fr.md)**, mais c\'est une solution moins efficace en raison de son implémentation qui crée essentiellement une copie de la [Forme](Part_TopoShape/fr.md) interne de l\'objet source. D\'un autre côté, un lien fait directement référence à la forme d\'origine, donc plus efficace en mémoire.
 
-En lui-même, l\'objet <img src=images/Draft_OrthoArray.svg style="width:Link](App_Link/fr.md) peut se comporter comme un tableau dupliquant son objet de base plusieurs fois. Cela peut être fait en définissant sa propriété {{PropertyData/fr|Element Count}} sur {{Value|1}} ou plus. Cet objet \"_, par exemple **_**, et **[16px"> [Draft Réseau circulaire](Draft_CircularArray/fr.md)**.
+En lui-même, l\'objet [Link](App_Link/fr.md) peut se comporter comme un tableau dupliquant son objet de base plusieurs fois. Cela peut être fait en définissant sa propriété {{PropertyData/fr|Element Count}} sur {{Value|1}} ou plus. Cet objet \"[Link Array](#Link_Array/fr.md)\" peut également être créé avec les différents outils de tableau du <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md), par exemple **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Draft Réseau orthogonal](Draft_OrthoArray/fr.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft Réseau polaire](Draft_PolarArray/fr.md)**, et **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft Réseau circulaire](Draft_CircularArray/fr.md)**.
 
-Lorsqu\'ils sont utilisés avec l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> <img src=images/PartDesign_Body.svg style="width:atelier PartDesign](PartDesign_Workbench/fr.md), les liens sont destinés à être utilisés avec **_**, **[16px"> <img src=images/PartDesign_MultiTransform.svg style="width:PartDesign Répétition circulaire](PartDesign_PolarPattern/fr.md)** et **[16px"> [PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)**.
+Lorsqu\'ils sont utilisés avec l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md), les liens sont destinés à être utilisés avec **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)**. Il est donc recommandé de définir {{PropertyView/fr|Display Mode Body}} sur {{Value|Tip}} pour sélectionner les caractéristiques du corps entier et non les fonctions individuelles. Pour créer des tableaux des [PartDesign Features](PartDesign_Feature/fr.md) internes, utilisez **[<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign Répétition linéaire](PartDesign_LinearPattern/fr.md)**, **[<img src=images/PartDesign_PolarPattern.svg style="width:16px"> [PartDesign Répétition circulaire](PartDesign_PolarPattern/fr.md)** et **[<img src=images/PartDesign_MultiTransform.svg style="width:16px"> [PartDesign Transformation multiple](PartDesign_MultiTransform/fr.md)**.
 
-L\'outil **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_Part.svg style="width:Std Créer un lien](Std_LinkMake/fr.md)** n\'est pas défini par un atelier particulier mais par le système de base. De ce fait il se trouve donc dans **Barre d'outils Structure** qui est disponible dans tous les _ et <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/fr.md).
+L\'outil **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std Créer un lien](Std_LinkMake/fr.md)** n\'est pas défini par un atelier particulier mais par le système de base. De ce fait il se trouve donc dans **Barre d'outils Structure** qui est disponible dans tous les [ateliers](Workbenches/fr.md). L\'objet Link, utilisé en conjonction avec **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)** pour regrouper divers objets, constitue la base des ateliers <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/fr.md) et <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/fr.md).
 
 ## Utilisation
 
 Avec sélection :
 
 1.  Sélectionnez un objet dans la [Vue en arborescence](Tree_view/fr.md) ou la [vue 3D](3D_view/fr.md) pour lequel vous souhaitez créer un lien.
-2.  Appuyez sur le bouton **<img src=images/Std_LinkMake.svg style="width:16px"> [Std Créer un lien](Std_LinkMake/fr.md)**. L\'objet crée a la même icône que l\'objet d\'origine mais a une flèche superposée indiquant qu\'il s\'agit d\'un lien.
+2.  Appuyez sur le bouton **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std Créer un lien](Std_LinkMake/fr.md)**. L\'objet crée a la même icône que l\'objet d\'origine mais a une flèche superposée indiquant qu\'il s\'agit d\'un lien.
 
 Sans sélection :
 
-1.  Si aucun objet n\'est sélectionné, appuyez sur le bouton **<img src=images/Std_LinkMake.svg style="width:16px"> [Std Créer un lien](Std_LinkMake/fr.md)** pour créer un lien vide <img alt="" src=images/Link.svg  style="width:24px;">.
+1.  Si aucun objet n\'est sélectionné, appuyez sur le bouton **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std Créer un lien](Std_LinkMake/fr.md)** pour créer un lien vide <img alt="" src=images/Link.svg  style="width:24px;">.
 2.  Allez dans l\'[Éditeur de propriétés](Property_editor/fr.md), puis cliquez sur la propriété {{PropertyData/fr|Linked Object}} pour ouvrir la [Dialogue de sélection des liens](Selection_methods.md) pour choisir un objet, puis appuyez sur **OK **.
-3.  Au lieu de choisir un objet entier dans la <img src=images/Std_LinkMakeRelative.svg style="width:Vue en arborescence](Tree_view/fr.md), vous pouvez également choisir des sous-éléments (sommets, arêtes ou faces) d\'un seul objet dans la [Vue 3D](3D_view/fr.md). Dans ce cas, le lien dupliquera uniquement ces sous-éléments et la superposition de flèches sera différente. Cela peut également être fait avec **[16px"> [Std Créer un sous-lien](Std_LinkMakeRelative/fr.md)**.
+3.  Au lieu de choisir un objet entier dans la [Vue en arborescence](Tree_view/fr.md), vous pouvez également choisir des sous-éléments (sommets, arêtes ou faces) d\'un seul objet dans la [Vue 3D](3D_view/fr.md). Dans ce cas, le lien dupliquera uniquement ces sous-éléments et la superposition de flèches sera différente. Cela peut également être fait avec **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Std Créer un sous-lien](Std_LinkMakeRelative/fr.md)**.
 
 ![](images/Std_Link_tree_example.png ) ![](images/Std_Link_example.png )
 
@@ -47,18 +47,18 @@ Sans sélection :
 ## Utilisation : documents externes 
 
 1.  Commencez par un document contenant au moins un objet qui sera la source du lien.
-2.  Ouvrez un nouveau document ou un document existant. Pour une manipulation plus facile, utilisez **<img src=images/Std_TreeMultiDocument.svg style="width:16px"> [Std Arborescence plusieurs documents](Std_TreeMultiDocument/fr.md)** pour afficher les deux documents dans la [Vue en arborescence](Tree_view/fr.md). Avant de continuer, [sauvegarder](Std_Save/fr.md) les deux documents. Le lien ne pourra pas trouver sa source et sa cible à moins que les deux documents ne soient enregistrés sur le disque.
+2.  Ouvrez un nouveau document ou un document existant. Pour une manipulation plus facile, utilisez **[<img src=images/Std_TreeMultiDocument.svg style="width:16px"> [Std Arborescence plusieurs documents](Std_TreeMultiDocument/fr.md)** pour afficher les deux documents dans la [Vue en arborescence](Tree_view/fr.md). Avant de continuer, [sauvegarder](Std_Save/fr.md) les deux documents. Le lien ne pourra pas trouver sa source et sa cible à moins que les deux documents ne soient enregistrés sur le disque.
 3.  Dans le premier document, sélectionnez l\'objet que vous souhaitez lier, puis changez d\'onglet dans [Zone de vue principale](main_view_area/fr.md) pour passer au deuxième document.
-4.  Appuyez sur **<img src=images/Std_LinkMake.svg style="width:16px"> [Std Créer un lien](Std_LinkMake/fr.md)**. L\'objet produit a la même icône que l\'objet d\'origine mais a une flèche superposée indique qu\'il s\'agit d\'un lien provenant d\'un document externe.
+4.  Appuyez sur **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std Créer un lien](Std_LinkMake/fr.md)**. L\'objet produit a la même icône que l\'objet d\'origine mais a une flèche superposée indique qu\'il s\'agit d\'un lien provenant d\'un document externe.
 
 
 **Remarques :**
 
 -   Lors de l\'enregistrement du document avec le lien, il sera demandé également de [sauvegarder](Std_Save/fr.md) le document source qui contient l\'objet d\'origine.
 
--   Pour inclure l\'objet d\'origine dans le document avec le lien, utilisez **<img src=images/Std_LinkImport.svg style="width:16px"> <img src=images/Std_LinkImportAll.svg style="width:Std Importer des liens](Std_LinkImport/fr.md)** ou **[16px"> [Std Importer tous les liens](Std_LinkImportAll/fr.md)**.
+-   Pour inclure l\'objet d\'origine dans le document avec le lien, utilisez **[<img src=images/Std_LinkImport.svg style="width:16px"> [Std Importer des liens](Std_LinkImport/fr.md)** ou **[<img src=images/Std_LinkImportAll.svg style="width:16px"> [Std Importer tous les liens](Std_LinkImportAll/fr.md)**.
 
--    **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_LinkMakeRelative.svg style="width:Std Créer un lien](Std_LinkMake/fr.md)**peut être utilisé sur un objet Link existant afin de créer un lien vers un lien qui résout finalement l\'objet original dans le document source. Cela peut être réalisé avec **[16px"> [Std Créer un sous-lien](Std_LinkMakeRelative/fr.md)** pour ne sélectionner que certains sous-éléments également.
+-    **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std Créer un lien](Std_LinkMake/fr.md)**peut être utilisé sur un objet Link existant afin de créer un lien vers un lien qui résout finalement l\'objet original dans le document source. Cela peut être réalisé avec **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Std Créer un sous-lien](Std_LinkMakeRelative/fr.md)** pour ne sélectionner que certains sous-éléments également.
 
 ![](images/Std_Link_tree_documents_example.png ) ![](images/Std_Link_documents_example.png )
 
@@ -81,9 +81,9 @@ Pour les modificateurs **Ctrl** et **Alt**, le glisser-déposer peut également 
 ## Groupes
 
 
-**<img src=images/Std_LinkMake.svg style="width:16px"> [Std Créer un lien](Std_LinkMake/fr.md)**
+**[<img src=images/Std_LinkMake.svg style="width:16px"> [Std Créer un lien](Std_LinkMake/fr.md)**
 
-peut être utilisé avec des objets **<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)** afin de dupliquer rapidement des groupes d\'objets positionnés dans l\'espace, c\'est-à-dire [assemblages](assembly/fr.md).
+peut être utilisé avec des objets **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)** afin de dupliquer rapidement des groupes d\'objets positionnés dans l\'espace, c\'est-à-dire [assemblages](assembly/fr.md).
 
 ![](images/Std_Link_tree_Std_Part_example.png )
 
@@ -91,7 +91,7 @@ peut être utilisé avec des objets **<img src=images/Std_Part.svg style="width:
 
 *Lien créé à partir d'une [Std Part](Std_Part/fr.md) ; les objets ne sont pas dupliqués mais ils sont répertoriés sous le conteneur d'origine et sous le conteneur Lien.*
 
-Un **<img src=images/Std_Group.svg style="width:16px"> <img src=images/Std_LinkMake.svg style="width:Std Groupe](Std_Group/fr.md)** ne possède pas de propriété {{PropertyData/fr|Placement}}, il ne peut donc pas contrôler la position des objets à l\'intérieur de celui-ci. Cependant, lorsque **_**, le lien résultant se comporte essentiellement comme un **[16px"> [Std Part](Std_Part/fr.md)** et peut également être déplacé dans l\'espace.
+Un **[<img src=images/Std_Group.svg style="width:16px"> [Std Groupe](Std_Group/fr.md)** ne possède pas de propriété {{PropertyData/fr|Placement}}, il ne peut donc pas contrôler la position des objets à l\'intérieur de celui-ci. Cependant, lorsque **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std Créer un lien](Std_LinkMake/fr.md)** est utilisé avec **[<img src=images/Std_Group.svg style="width:16px"> [Std Groupe](Std_Group/fr.md)**, le lien résultant se comporte essentiellement comme un **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)** et peut également être déplacé dans l\'espace.
 
 ![](images/Std_Link_tree_Std_Group_example.png ) ![](images/Std_Link_Std_Group_example.png )
 
@@ -99,13 +99,13 @@ Un **<img src=images/Std_Group.svg style="width:16px"> <img src=images/Std_LinkM
 
 *Lien créé à partir d'un [Std Groupe](Std_Group/fr.md) ; les objets ne sont pas dupliqués mais ils sont répertoriés sous le conteneur d'origine et sous le conteneur Lien. Le lien (avec le matériau de remplacement) peut être déplacé dans l'espace, tout comme un [Std Part](Std_Part/fr.md).*
 
-Un lien vers un **<img src=images/Std_Part.svg style="width:16px"> <img src=images/_Std_Group.svg style="width:Std Part](Std_Part/fr.md)** gardera la visibilité des objets synchronisée avec la Part d\'origine. Donc si vous masquez un objet dans un lien, il sera masqué dans tous les liens et dans l\'objet d\'origine. D\'un autre côté, un lien vers un **[16px"> [Std Groupe](Std_Group/fr.md)** permettra un contrôle indépendant des visibilités.
+Un lien vers un **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)** gardera la visibilité des objets synchronisée avec la Part d\'origine. Donc si vous masquez un objet dans un lien, il sera masqué dans tous les liens et dans l\'objet d\'origine. D\'un autre côté, un lien vers un **[<img src=images/_Std_Group.svg style="width:16px"> [Std Groupe](Std_Group/fr.md)** permettra un contrôle indépendant des visibilités.
 
 ![](images/Std_Link_tree_Std_Part_visibility.png ) ![](images/Std_Link_tree_Std_Group_visibility.png )
 
 
 
-*À gauche : _ avec deux objets et deux liens vers le groupe. La visibilité des objets est contrôlée indépendamment dans chaque groupe.*
+*À gauche : [Std Part](Std_Part/fr.md) avec deux objets et deux liens vers la pièce; la visibilité des objets est synchronisée. À droite : [Std Group](Std_Group/fr.md) avec deux objets et deux liens vers le groupe. La visibilité des objets est contrôlée indépendamment dans chaque groupe.*
 
 ## Apparence de remplacement 
 
@@ -152,7 +152,7 @@ De la même manière, chaque élément du réseau peut avoir sa propre apparence
 
 Une fois que vous êtes satisfait de l\'emplacement et des propriétés des éléments Liens dans le réseau, vous pouvez changer {{PropertyData/fr|Show Element}} en `False` afin de masquer les liens individuels dans la [Vue en arborescence](Tree_view/fr.md). Cela présente l\'avantage de rendre le système plus réactif, en particulier si vous avez de nombreux objets dans le document.
 
-Lors de la création de ce type de réseau de liens, vous devez placer chacun des éléments manuellement. Cependant, si vous souhaitez utiliser des modèles spécifiques pour placer les copies, vous pouvez utiliser les outils de réseau de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> <img src=images/Draft_PolarArray.svg style="width:atelier Draft](Draft_Workbench/fr.md), comme **_ _** et **[16px"> [Draft Réseau circulaire](Draft_CircularArray/fr.md)**; ces commandes peuvent créer des copies normales ou des copies de lien selon les options au moment de la création.
+Lors de la création de ce type de réseau de liens, vous devez placer chacun des éléments manuellement. Cependant, si vous souhaitez utiliser des modèles spécifiques pour placer les copies, vous pouvez utiliser les outils de réseau de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md), comme **[16px](_File:Draft_OrthoArray.svg.md) [Draft Réseau orthogonal](Draft_OrthoArray/fr.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft Réseau polaire](Draft_PolarArray/fr.md)** et **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft Réseau circulaire](Draft_CircularArray/fr.md)**; ces commandes peuvent créer des copies normales ou des copies de lien selon les options au moment de la création.
 
 ## Visibilité
 
@@ -173,7 +173,7 @@ Une autre façon de masquer les éléments individuels consiste à utiliser le m
 
 Si vous souhaitez restaurer la visibilité de cet élément du réseau, entrez à nouveau dans la boîte de dialogue, choisissez l\'icône en forme d\'œil, puis cliquez sur **Remove** pour supprimer l\'état caché et cliquez sur **OK** pour confirmer et fermez la boîte de dialogue. L\'élément sera à nouveau visible dans [Vue 3D](3D_view/fr.md).
 
-Lorsque le lien est pour un **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Std Part](Std_Part/fr.md)** ou un **[16px"> [Std Groupe](_Std_Part/fr.md)**, le menu **Override colors** fonctionne de la même manière qu\'avec les réseaux. Il permet de contrôler la couleur de la face, la couleur de l\'objet entier et la visibilité des objets du groupe.
+Lorsque le lien est pour un **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/fr.md)** ou un **[<img src=images/Std_Group.svg style="width:16px"> [Std Groupe](_Std_Part/fr.md)**, le menu **Override colors** fonctionne de la même manière qu\'avec les réseaux. Il permet de contrôler la couleur de la face, la couleur de l\'objet entier et la visibilité des objets du groupe.
 
 ![](images/Std_Link_Std_Part_visibility_example.png ) ![](images/Std_Link_Std_Part_visibility_example_3D.png )
 
@@ -183,7 +183,7 @@ Lorsque le lien est pour un **<img src=images/Std_Part.svg style="width:16px"> <
 
 ## Propriétés
 
-Un _ (classe `App::DocumentObject`). Il a donc les propriétés de base de ce dernier comme {{PropertyData/fr|Label}} et {{PropertyData/fr|Label2}}.
+Un [App Link](App_Link/fr.md) (classe `App::Link`) est dérivé de [App DocumentObject](App_DocumentObject/fr.md) (classe `App::DocumentObject`). Il a donc les propriétés de base de ce dernier comme {{PropertyData/fr|Label}} et {{PropertyData/fr|Label2}}.
 
 Voici les propriétés spécifiques disponibles dans l\'[Éditeur de propriétés](Property_editor/fr.md). Les propriétés masquées peuvent être affichées en utilisant la commande **Afficher tout** dans le menu contextuel de l\'[Éditeur de propriétés](Property_editor/fr.md).
 
@@ -194,7 +194,7 @@ Voici les propriétés spécifiques disponibles dans l\'[Éditeur de propriété
 
 -    {{PropertyData/fr|Linked Object|XLink}}: il indique l\'objet source de [App Link](App_Link/fr.md); il peut s\'agir d\'un objet entier ou d\'un sous-élément de celui-ci (sommet, arête ou face).
 
--    {{PropertyData/fr|Link Transform|Bool}}: la valeur par défaut est `False`, auquel cas le lien remplacera le propre emplacement de {{PropertyData/fr|Linked Object}}. S\'il est défini sur `True`, le lien sera placé à la même position que {{PropertyData/fr|Linked Object}}, et son placement sera relatif à l\'emplacement de {{PropertyData/fr|Linked Object}}. Ceci peut également être réalisé avec **<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Std Créer un sous-lien](Std_LinkMakeRelative/fr.md)**.
+-    {{PropertyData/fr|Link Transform|Bool}}: la valeur par défaut est `False`, auquel cas le lien remplacera le propre emplacement de {{PropertyData/fr|Linked Object}}. S\'il est défini sur `True`, le lien sera placé à la même position que {{PropertyData/fr|Linked Object}}, et son placement sera relatif à l\'emplacement de {{PropertyData/fr|Linked Object}}. Ceci peut également être réalisé avec **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Std Créer un sous-lien](Std_LinkMakeRelative/fr.md)**.
 
 -    {{PropertyData/fr|Placement|Placement}}: le placement du lien en coordonnées absolues.
 
@@ -309,7 +309,7 @@ Il montrera en outre les propriétés de vue de l\'original **Linked Object**.
 
 ## Héritage
 
-Un _ (classe `App::DocumentObject`). C\'est un objet de très bas niveau, qui peut être utilisé avec la plupart des autres objets de document.
+Un [App Link](App_Link/fr.md) est formellement une instance de la classe `App::Link`, dont le parent est le [App DocumentObject](App_DocumentObject/fr.md) (classe `App::DocumentObject`). C\'est un objet de très bas niveau, qui peut être utilisé avec la plupart des autres objets de document.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

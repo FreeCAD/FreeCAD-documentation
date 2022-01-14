@@ -14,7 +14,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Image](Category_Image.md)
 
 ---
 [documentation index](../README.md) > [Image](Category_Image.md) > Artwork Image/it

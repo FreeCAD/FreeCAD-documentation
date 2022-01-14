@@ -16,34 +16,34 @@
 **<img src="images/Std_LinkMake.svg" width=16px> [Crea link](Std_LinkMake/it.md)
 **
 
-crea un _ complessi da sottoassiemi più piccoli e da più componenti riutilizzabili come viti, dadi e dispositivi di fissaggio simili.
+crea un [App Link](App_Link/it.md) (classe `App::Link`), che è un tipo di oggetto che fa riferimento o collega ad un altro oggetto, nello stesso documento o in un altro documento. È appositamente progettato per duplicare in modo efficiente un singolo oggetto più volte, il che aiuta nella creazione di [assemblaggi](assembly/it.md) complessi da sottoassiemi più piccoli e da più componenti riutilizzabili come viti, dadi e dispositivi di fissaggio simili.
 
-L\'oggetto <img src=images/Draft_Clone.svg style="width:App Link](App_Link/it.md) è stato introdotto di recente nella versione 0.19; in passato, si poteva ottenere una semplice duplicazione di oggetti con **[16px"> [Clona](Draft_Clone/it.md)** di Draft, ma questa è una soluzione meno efficiente a causa della sua implementazione che essenzialmente crea una copia della [Forma (Shape)](Part_TopoShape/it.md) interna dell\'oggetto sorgente. Invece, un link fa riferimento direttamente alla forma originale, quindi è più efficiente in termini di memoria.
+L\'oggetto [App Link](App_Link/it.md) è stato introdotto di recente nella versione 0.19; in passato, si poteva ottenere una semplice duplicazione di oggetti con **[<img src=images/Draft_Clone.svg style="width:16px"> [Clona](Draft_Clone/it.md)** di Draft, ma questa è una soluzione meno efficiente a causa della sua implementazione che essenzialmente crea una copia della [Forma (Shape)](Part_TopoShape/it.md) interna dell\'oggetto sorgente. Invece, un link fa riferimento direttamente alla forma originale, quindi è più efficiente in termini di memoria.
 
 
 <div class="mw-translate-fuzzy">
 
-Di per sé l\'oggetto <img src=images/Draft_OrthoArray.svg style="width:Link](App_Link/it.md) può comportarsi come un array, duplicando più volte il suo oggetto base; questo può essere fatto impostando la sua proprietà **Element Count** su {{Value|1}} o più grande. Questo oggetto \"_, per esempio, **_**, and **[16px"> [Draft Serie circolare](Draft_CircularArray/it.md)**.
+Di per sé l\'oggetto [Link](App_Link/it.md) può comportarsi come un array, duplicando più volte il suo oggetto base; questo può essere fatto impostando la sua proprietà **Element Count** su {{Value|1}} o più grande. Questo oggetto \"[Link\_Array](Std_LinkMake/it#Link_Array.md)\" può essere creato anche con i diversi strumenti dell\'array <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente Draft](Draft_Workbench/it.md), per esempio, **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Draft Serie ortogonale](Draft_OrthoArray/it.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft Serie polare](Draft_PolarArray/it.md)**, and **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft Serie circolare](Draft_CircularArray/it.md)**.
 
 
 </div>
 
-Quando si lavora con l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> <img src=images/PartDesign_Body.svg style="width:Ambiente Part Design](PartDesign_Workbench/it.md), i link sono destinati ad essere utilizzati con i **_**, **[16px"> <img src=images/PartDesign_MultiTransform.svg style="width:PartDesign Serie polare](PartDesign_PolarPattern/it.md)**, e **[16px"> [PartDesign Multitransformazione](PartDesign_MultiTransform/it.md)**.
+Quando si lavora con l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente Part Design](PartDesign_Workbench/it.md), i link sono destinati ad essere utilizzati con i **[<img src=images/PartDesign_Body.svg style="width:16px"> [Corpo di Part Design](PartDesign_Body/it.md)**, quindi si consiglia di impostare la modalità {{PropertyView/it|Display Mode Body}} su {{Value|Tip}} per selezionare le caratteristiche dell\'intero corpo, e non le singole caratteristiche. Per creare array di elementi interni [Funzioni di PartDesign](PartDesign_Feature/it.md), utilizzare **[<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign Serie lineare](PartDesign_LinearPattern/it.md)**, **[<img src=images/PartDesign_PolarPattern.svg style="width:16px"> [PartDesign Serie polare](PartDesign_PolarPattern/it.md)**, e **[<img src=images/PartDesign_MultiTransform.svg style="width:16px"> [PartDesign Multitransformazione](PartDesign_MultiTransform/it.md)**.
 
-Lo strumento **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_Part.svg style="width:Crea link](Std_LinkMake/it.md)** non è definito da un particolare banco di lavoro, ma dal sistema di base, quindi si trova nella **Struttura della barra degli strumenti** che è disponibile in tutti gli _ e <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Workbenches](Assembly4_Workbench/it.md).
+Lo strumento **[<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link](Std_LinkMake/it.md)** non è definito da un particolare banco di lavoro, ma dal sistema di base, quindi si trova nella **Struttura della barra degli strumenti** che è disponibile in tutti gli [ambienti di lavoro](Workbenches/it.md). L\'oggetto Link, usato insieme a **[<img src=images/Std_Part.svg style="width:16px"> [Parte](Std_Part/it.md)** per raggruppare vari oggetti, costituisce la base di <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/it.md) e <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Workbenches](Assembly4_Workbench/it.md).
 
 ## Utilizzo
 
 Con selezione:
 
 1.  Selezionare un oggetto nella [vista ad albero](tree_view/it.md) o nella [vista 3D](3D_view/it.md) per il quale si desidera creare un link.
-2.  Premere il pulsante **<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link](Std_LinkMake/it.md)**. L\'oggetto prodotto ha la stessa icona dell\'oggetto originale, ma ha una freccia sovrapposta che indica che è un collegamento.
+2.  Premere il pulsante **[<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link](Std_LinkMake/it.md)**. L\'oggetto prodotto ha la stessa icona dell\'oggetto originale, ma ha una freccia sovrapposta che indica che è un collegamento.
 
 Senza selezione:
 
-1.  Se non viene selezionato alcun oggetto, premere il pulsante<img alt="" src=images/Link.svg  style="width:24px;"> **<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link](Std_LinkMake/it.md)** per creare un link vuoto .
+1.  Se non viene selezionato alcun oggetto, premere il pulsante<img alt="" src=images/Link.svg  style="width:24px;"> **[<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link](Std_LinkMake/it.md)** per creare un link vuoto .
 2.  Vai all\'[editor delle proprietà](property_editor/it.md), quindi clicca sulla proprietà {{PropertyData/it|Linked Object}} per aprire [metodi di selezione](Selection_methods/it.md) e scegliere un oggetto, poi premi **OK**.
-3.  Invece di scegliere un intero oggetto nella <img src=images/Std_LinkMakeRelative.svg style="width:vista ad albero](tree_view/it.md), è anche possibile scegliere i sottoelementi (vertici, bordi o facce) di un singolo oggetto nella [vista 3D](3D_view/it.md). In questo caso, il Link duplicherà solo questi sottoelementi, e la sovrapposizione delle frecce sarà diversa. Questo può essere fatto anche con **[16px"> [crea un link relativo](Std_LinkMakeRelative/it.md)**.
+3.  Invece di scegliere un intero oggetto nella [vista ad albero](tree_view/it.md), è anche possibile scegliere i sottoelementi (vertici, bordi o facce) di un singolo oggetto nella [vista 3D](3D_view/it.md). In questo caso, il Link duplicherà solo questi sottoelementi, e la sovrapposizione delle frecce sarà diversa. Questo può essere fatto anche con **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [crea un link relativo](Std_LinkMakeRelative/it.md)**.
 
 ![](images/Std_Link_tree_example.png ) ![](images/Std_Link_example.png )
 
@@ -54,18 +54,18 @@ Senza selezione:
 ## Utilizzo: documenti esterni 
 
 1.  Iniziare con un documento che ha almeno un oggetto che sarà la fonte del Link.
-2.  Aprire un nuovo documento o un documento esistente. Per una più facile gestione, usare **<img src=images/Std_TreeMultiDocument.svg style="width:16px"> [Visualizza Multi documento](Std_TreeMultiDocument/it.md)** per mostrare entrambi i documenti nella [vista ad albero](tree_view/it.md). Prima di procedere, [salva](Std_Save/it.md) entrambi i documenti. Il Link non sarà in grado di trovare la sua fonte e la sua destinazione a meno che entrambi i documenti non siano salvati su disco.
+2.  Aprire un nuovo documento o un documento esistente. Per una più facile gestione, usare **[<img src=images/Std_TreeMultiDocument.svg style="width:16px"> [Visualizza Multi documento](Std_TreeMultiDocument/it.md)** per mostrare entrambi i documenti nella [vista ad albero](tree_view/it.md). Prima di procedere, [salva](Std_Save/it.md) entrambi i documenti. Il Link non sarà in grado di trovare la sua fonte e la sua destinazione a meno che entrambi i documenti non siano salvati su disco.
 3.  Nel primo documento, selezionare l\'oggetto che si desidera collegare; poi passare alle schede nell\'[area della vista principale](main_view_area/it.md) per passare al secondo documento.
-4.  Premere **<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link](Std_LinkMake/it.md)**. L\'oggetto prodotto ha la stessa icona dell\'oggetto originale, ma ha una freccia aggiuntiva che indica che si tratta di un link proveniente da un documento esterno.
+4.  Premere **[<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link](Std_LinkMake/it.md)**. L\'oggetto prodotto ha la stessa icona dell\'oggetto originale, ma ha una freccia aggiuntiva che indica che si tratta di un link proveniente da un documento esterno.
 
 
 **Notes:**
 
 -   Quando si salva il documento con il Link, verrà anche chiesto di [salvare](Std_Save/it.md) il documento di origine che contiene l\'oggetto originale.
 
--   Per includere l\'oggetto originale nel documento con il Link, utilizzare **<img src=images/Std_LinkImport.svg style="width:16px"> <img src=images/Std_LinkImportAll.svg style="width:Importa un link](Std_LinkImport/it.md)** oppure **[16px"> [Importa tutti i link](Std_LinkImportAll/it.md)**.
+-   Per includere l\'oggetto originale nel documento con il Link, utilizzare **[<img src=images/Std_LinkImport.svg style="width:16px"> [Importa un link](Std_LinkImport/it.md)** oppure **[<img src=images/Std_LinkImportAll.svg style="width:16px"> [Importa tutti i link](Std_LinkImportAll/it.md)**.
 
--    **<img src=images/Std_LinkMake.svg style="width:16px"> <img src=images/Std_LinkMakeRelative.svg style="width:Crea link](Std_LinkMake/it.md)**può essere utilizzato su un oggetto Link esistente, al fine di creare un Link ad un Link che si risolve in definitiva con l\'oggetto originale nel documento di origine. Questo può essere utlizato con **[16px"> [Crea un link relativo](Std_LinkMakeRelative/it.md)** per scegliere anche solo alcuni sotto elementi.
+-    **[<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link](Std_LinkMake/it.md)**può essere utilizzato su un oggetto Link esistente, al fine di creare un Link ad un Link che si risolve in definitiva con l\'oggetto originale nel documento di origine. Questo può essere utlizato con **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Crea un link relativo](Std_LinkMakeRelative/it.md)** per scegliere anche solo alcuni sotto elementi.
 
 ![](images/Std_Link_tree_documents_example.png ) ![](images/Std_Link_documents_example.png )
 
@@ -88,9 +88,9 @@ Per i modificatori **Ctrl** e **Alt**, il trascinamento può essere fatto anche 
 ## Gruppi
 
 
-**<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link](Std_LinkMake/it.md)**
+**[<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link](Std_LinkMake/it.md)**
 
-può essere usato su **<img src=images/Std_Part.svg style="width:16px"> [Parte](Std_Part/it.md)** al fine di duplicare rapidamente gruppi di oggetti posizionati nello spazio, cioè [assemblaggi](assembly/it.md).
+può essere usato su **[<img src=images/Std_Part.svg style="width:16px"> [Parte](Std_Part/it.md)** al fine di duplicare rapidamente gruppi di oggetti posizionati nello spazio, cioè [assemblaggi](assembly/it.md).
 
 ![](images/Std_Link_tree_Std_Part_example.png )
 
@@ -98,7 +98,7 @@ può essere usato su **<img src=images/Std_Part.svg style="width:16px"> [Parte](
 
 *Link creato da una [Parte](Std_Part/it.md); gli oggetti non sono duplicati, ma sono elencati sotto il contenitore originale e sotto il Link contenitore.*
 
-Un regolare **<img src=images/Std_Group.svg style="width:16px"> <img src=images/Std_LinkMake.svg style="width:Gruppo](Std_Group/it.md)** non possiede una proprietà {{PropertyData/it|Placement}}, quindi non può controllare la posizione degli oggetti al suo interno. Tuttavia, quando **_**, il Link risultante si comporta essenzialmente come una **[16px"> [Parte](Std_Part/it.md)** e può anche essere spostata nello spazio.
+Un regolare **[<img src=images/Std_Group.svg style="width:16px"> [Gruppo](Std_Group/it.md)** non possiede una proprietà {{PropertyData/it|Placement}}, quindi non può controllare la posizione degli oggetti al suo interno. Tuttavia, quando **[<img src=images/Std_LinkMake.svg style="width:16px"> [Crea link](Std_LinkMake/it.md)** è usato con **[<img src=images/Std_Group.svg style="width:16px"> [Gruppo](Std_Group/it.md)**, il Link risultante si comporta essenzialmente come una **[<img src=images/Std_Part.svg style="width:16px"> [Parte](Std_Part/it.md)** e può anche essere spostata nello spazio.
 
 ![](images/Std_Link_tree_Std_Group_example.png ) ![](images/Std_Link_Std_Group_example.png )
 
@@ -106,13 +106,13 @@ Un regolare **<img src=images/Std_Group.svg style="width:16px"> <img src=images/
 
 *Link creato da un [Gruppo](Std_Group/it.md); gli oggetti non sono duplicati ma sono elencati sotto il contenitore originale e sotto il contenitore Link. Il Link (con materiale di sovrascrittura) può essere spostato nello spazio, proprio come una [Parte](Std_Part.md).*
 
-Un collegamento a una **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Parte](Std_Part/it.md)** manterrà la visibilità degli oggetti sincronizzati con la Parte originale; quindi se si nasconde un oggetto in un Link, esso sarà nascosto in tutti i Link e nell\'oggetto originale. Invece un Link ad un **[16px"> [Gruppo](Std_Group/it.md)** consentirà il controllo indipendente delle visibilità.
+Un collegamento a una **[<img src=images/Std_Part.svg style="width:16px"> [Parte](Std_Part/it.md)** manterrà la visibilità degli oggetti sincronizzati con la Parte originale; quindi se si nasconde un oggetto in un Link, esso sarà nascosto in tutti i Link e nell\'oggetto originale. Invece un Link ad un **[<img src=images/Std_Group.svg style="width:16px"> [Gruppo](Std_Group/it.md)** consentirà il controllo indipendente delle visibilità.
 
 ![](images/Std_Link_tree_Std_Part_visibility.png ) ![](images/Std_Link_tree_Std_Group_visibility.png )
 
 
 
-*Sinistra: _ con due oggetti, e due Links al Gruppo; la visibilità degli oggetti è controllata indipendentemente in ogni gruppo.*
+*Sinistra: [Parte](Std_Part/it.md) con due oggetti, e due Links alla Parte; la visibilità degli oggetti è sincronizzata. Destra: [Gruppo](Std_Group/it.md) con due oggetti, e due Links al Gruppo; la visibilità degli oggetti è controllata indipendentemente in ogni gruppo.*
 
 ## Aspetto dominante 
 
@@ -162,7 +162,7 @@ Una volta che si è soddisfatti del posizionamento e delle proprietà degli elem
 
 <div class="mw-translate-fuzzy">
 
-Quando si crea questo tipo di array Link, è necessario posizionare manualmente ciascuno degli elementi; tuttavia, se si desidera utilizzare modelli specifici per posizionare le copie, è possibile utilizzare gli strumenti di array del <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> <img src=images/Draft_OrthoArray.svg style="width:Ambiente Draft](Draft_Workbench/it.md), come **_**, e **[16px"> [Draft: Serie circolare](Draft_CircularArray/it.md)**; questi comandi possono creare copie normali o copie Link a seconda delle opzioni al momento della creazione.
+Quando si crea questo tipo di array Link, è necessario posizionare manualmente ciascuno degli elementi; tuttavia, se si desidera utilizzare modelli specifici per posizionare le copie, è possibile utilizzare gli strumenti di array del <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Ambiente Draft](Draft_Workbench/it.md), come **[<img src=images/Draft_OrthoArray.svg style="width:16px"> [Draft: Serie ortogonale](Draft_OrthoArray/it.md)**, **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Draft: Serie Polare](Draft_PolarArray/it.md)**, e **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Draft: Serie circolare](Draft_CircularArray/it.md)**; questi comandi possono creare copie normali o copie Link a seconda delle opzioni al momento della creazione.
 
 
 </div>
@@ -186,7 +186,7 @@ Un altro modo per nascondere i singoli elementi è usare il menu **Override colo
 
 Se si desidera ripristinare la visibilità di questo elemento array, entrare di nuovo nella finestra di dialogo, scegliere l\'icona occhio, quindi cliccare su **Remove** per rimuovere lo stato nascosto, e cliccare **OK** per confermare e chiudere la finestra di dialogo. L\'elemento sarà di nuovo visibile nella [vista 3D](3D_view/it.md).
 
-Quando il Link è per una **<img src=images/Std_Part.svg style="width:16px"> <img src=images/Std_Group.svg style="width:Parte](Std_Part/it.md)** o un **[16px"> [Gruppo](Std_Group/it.md)**, il menu funziona in modo simile a quello degli array; permette di controllare il colore della faccia, il colore dell\'intero oggetto e la visibilità degli oggetti del gruppo.
+Quando il Link è per una **[<img src=images/Std_Part.svg style="width:16px"> [Parte](Std_Part/it.md)** o un **[<img src=images/Std_Group.svg style="width:16px"> [Gruppo](Std_Group/it.md)**, il menu funziona in modo simile a quello degli array; permette di controllare il colore della faccia, il colore dell\'intero oggetto e la visibilità degli oggetti del gruppo.
 
 ![](images/Std_Link_Std_Part_visibility_example.png ) ![](images/Std_Link_Std_Part_visibility_example_3D.png )
 
@@ -196,7 +196,7 @@ Quando il Link è per una **<img src=images/Std_Part.svg style="width:16px"> <im
 
 ## Proprietà
 
-Un _ (`App::DocumentObject` class) di base quindi ha le proprietà di base di quest\'ultimo come {{PropertyData/it|Label}} e {{PropertyData/it|Label2}}.
+Un [App Link](App_Link/it.md) (`App::Link` class) è derivato dall\'[App DocumentObject](App_DocumentObject/it.md) (`App::DocumentObject` class) di base quindi ha le proprietà di base di quest\'ultimo come {{PropertyData/it|Label}} e {{PropertyData/it|Label2}}.
 
 Di seguito sono riportate le proprietà specifiche disponibili nell\'[editor delle proprietà](Property_editor/it.md). Le proprietà nascoste possono essere mostrate utilizzando il comando **Show all** nel menu contestuale dell\'[editor delle proprietà](Property_editor/it.md).
 
@@ -207,7 +207,7 @@ Di seguito sono riportate le proprietà specifiche disponibili nell\'[editor del
 
 -    {{PropertyData/it|Linked Object|XLink}}: indica l\'oggetto sorgente dell\'[App Link](App_Link/it.md); questo può essere un oggetto intero o un sottoelemento dello stesso (vertice, bordo o faccia).
 
--    {{PropertyData/it|Link Transform|Bool}}: è impostato su `False`, in questo caso il Link sovrascriverà il posizionamento del {{PropertyData/it|Linked Object}}. Se è impostato su `True`, il Link sarà posizionato nella stessa posizione del {{PropertyData/it|Linked Object}}, e il suo posizionamento sarà relativo al posizionamento del {{PropertyData/it|Linked Object}}. Questo può essere ottenuto anche con **<img src=images/Std_LinkMakeRelative.svg style="width:16px">. [Crea un link relativo](Std_LinkMakeRelative/it.md)**.
+-    {{PropertyData/it|Link Transform|Bool}}: è impostato su `False`, in questo caso il Link sovrascriverà il posizionamento del {{PropertyData/it|Linked Object}}. Se è impostato su `True`, il Link sarà posizionato nella stessa posizione del {{PropertyData/it|Linked Object}}, e il suo posizionamento sarà relativo al posizionamento del {{PropertyData/it|Linked Object}}. Questo può essere ottenuto anche con **[<img src=images/Std_LinkMakeRelative.svg style="width:16px">. [Crea un link relativo](Std_LinkMakeRelative/it.md)**.
 
 -    {{PropertyData/it|Placement|Placement}}: il posizionamento del Link in coordinate assolute.
 
@@ -322,7 +322,7 @@ Mostra inoltre le proprietà Vista dell\'originale **Linked Object**.
 
 ## Eredità
 
-Un _. (`App::DocumentObject` class). È un oggetto di livello molto basso, che può essere usato con la maggior parte degli altri oggetti documento.
+Un [App Link](App_Link/it.md) è formalmente un\'istanza della classe `App::Link`, il cui genitore è il genitore di base [App DocumentObject](App_DocumentObject/it.md). (`App::DocumentObject` class). È un oggetto di livello molto basso, che può essere usato con la maggior parte degli altri oggetti documento.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

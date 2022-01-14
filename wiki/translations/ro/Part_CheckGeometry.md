@@ -27,7 +27,7 @@ Instrumentul este disponibil în bara de lucru Part din meniul Part sau cu buton
 
 </div>
 
-Results will be reported in the _.
+Results will be reported in the [Task panel](Task_panel.md). If the check produced errors: click in the report on a specific error message and the corresponding geometric object (edge, face, etc.) will be highlighted in the [3D view](3D_view.md).
 
 **Note:** FreeCAD has no automatic repair methods for solids, so you need to look at the steps involved to model this specific geometry and try to fix the error on your own.
 

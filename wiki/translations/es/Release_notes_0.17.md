@@ -41,7 +41,7 @@ El nuevo entorno \"TechDraw\" tiene como objetivo reemplazar el entorno de traba
 
 ## Generalidades
 
--   Yorik van Havre escribió \"_\" como un libro introductorio de como usar FreeCAD.
+-   Yorik van Havre escribió \"[The FreeCAD Manual](Manual_Introduction.md)\" como un libro introductorio de como usar FreeCAD.
 -   Los recálculos de documentos ahora se pueden deshabilitar / habilitar a través del menú contextual.
 -   Se agregó un nuevo estilo de navegación Revit.
 -   Nuevo indicador de navegación en la parte inferior derecha de la ventana de FreeCAD que permite un acceso rápido a los estilos de navegación.
@@ -135,7 +135,7 @@ El nuevo entorno \"TechDraw\" tiene como objetivo reemplazar el entorno de traba
 
 <div class="mw-translate-fuzzy">
 
--   _ o una [Draft Wire](Draft_Wire.md), esta herramienta te permitirá darle una pendiente/inclinación. Es decir, los puntos intermedios y finales obtendrán un valor Z más bajo, por lo que todo el objeto obtiene una inclinación constante. Esto es útil para usar Lineas o Wires como bases para objetos que necesitan una inclinación precisa, como paneles de techo o tuberías de alcantarillado.
+-   [Slope tool](Draft_Slope.md): Cuando es usada sobre una [Draft Line](Draft_Line.md) o una [Draft Wire](Draft_Wire.md), esta herramienta te permitirá darle una pendiente/inclinación. Es decir, los puntos intermedios y finales obtendrán un valor Z más bajo, por lo que todo el objeto obtiene una inclinación constante. Esto es útil para usar Lineas o Wires como bases para objetos que necesitan una inclinación precisa, como paneles de techo o tuberías de alcantarillado.
 
 
 </div>
@@ -143,7 +143,7 @@ El nuevo entorno \"TechDraw\" tiene como objetivo reemplazar el entorno de traba
 
 <div class="mw-translate-fuzzy">
 
--   _, a menudo es necesario almacenar ubicaciones de plano de trabajo que usa con frecuencia. Esto ahora es posible colocando uno de esos \"proxies\" en su documento. Recordará la ubicación del plano de trabajo actual y también puede restaurar la vista actual y/o la visibilidad de los objetos.
+-   [Working Plane proxies](Draft_SetWorkingPlaneProxy.md): Cuando se trabaja con [Draft working planes](Draft_SelectPlane.md), a menudo es necesario almacenar ubicaciones de plano de trabajo que usa con frecuencia. Esto ahora es posible colocando uno de esos \"proxies\" en su documento. Recordará la ubicación del plano de trabajo actual y también puede restaurar la vista actual y/o la visibilidad de los objetos.
 
 
 </div>
@@ -399,7 +399,7 @@ Algunos de los nuevos módulos de comunidad que se crearon.
 
 -   [Kicad StepUp Workbench](https://www.freecadweb.org/wiki/KicadStepUp_Workbench) está destinado a ayudar a los usuarios de KiCad y FreeCAD en la colaboración ECAD y MCAD.
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > Release notes 0.17/es

@@ -7,9 +7,9 @@ In FreeCAD and in this documentation, an [addon](addon.md) is any component that
 
 There are roughly three types of addons:
 
--   _ code that provides a new tool or functionality in a single file ending with `.FCMacro`.
+-   [Macro](Macros.md): short snippet of [Python](Python.md) code that provides a new tool or functionality in a single file ending with `.FCMacro`.
 -   Module: a single Python source file, or a collection of Python files, that extends the software in some way. Modules don\'t necessarily define a graphical \"workbench\" but may provide a supporting feature, for example, a library that performs conversion of formats, or code that modifies the graphical [interface](interface.md).
--   _ (tools) centered around a particular topic, for example, tools to design cabinets, or tools to work with architecture, or tools to design boats, etc. These workbenches usually define new toolbars where [commands](Gui_Command.md) are placed as buttons.
+-   [Workbench](External_workbenches.md): collections of Python files that provide related [Gui Commands](Gui_Command.md) (tools) centered around a particular topic, for example, tools to design cabinets, or tools to work with architecture, or tools to design boats, etc. These workbenches usually define new toolbars where [commands](Gui_Command.md) are placed as buttons.
 
 Macros as installed under the user\'s  {{Code|lang=bash|code=
 $HOME/.FreeCAD/Macro/
@@ -33,7 +33,7 @@ However, manual installation is still possible.
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon

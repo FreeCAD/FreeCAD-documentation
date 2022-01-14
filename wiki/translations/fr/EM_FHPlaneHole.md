@@ -47,7 +47,7 @@ Vous pouvez également le faire :
 
 ### Remarques
 
--   <img alt="" src=images/EM_FHPlaneHole.svg  style="width:16px;"> Les objets FHPlaneHole n\'ont aucune signification s\'ils ne font pas partie d\'un <img alt="" src=images/EM_FHPlane.svg  style="width:16px;"> _ ou sélectionnez le Trou FH lors de la création de [Plan FH](EM_FHPlane/fr.md). Pour supprimer un Trou FH d\'un Plan FH, vous pouvez utiliser la commande [EM Bascule noeud trou FH](EM_FHPlaneAddRemoveNodeHole/fr.md).
+-   <img alt="" src=images/EM_FHPlaneHole.svg  style="width:16px;"> Les objets FHPlaneHole n\'ont aucune signification s\'ils ne font pas partie d\'un <img alt="" src=images/EM_FHPlane.svg  style="width:16px;"> [Plan FH](EM_FHPlane/fr.md). Pour adopter un Trou FH dans un Plan FH, utilisez la commande <img alt="" src=images/EM_FHPlaneAddRemoveNodeHole.svg  style="width:16px;"> [EM Bascule noeud trou FH](EM_FHPlaneAddRemoveNodeHole/fr.md) ou sélectionnez le Trou FH lors de la création de [Plan FH](EM_FHPlane/fr.md). Pour supprimer un Trou FH d\'un Plan FH, vous pouvez utiliser la commande [EM Bascule noeud trou FH](EM_FHPlaneAddRemoveNodeHole/fr.md).
 
 -   Les objets Trou FH (FHPlaneHole) représentent des trous plans FastHenry et suivent donc les mêmes règles que les trous plans conducteurs uniformes. En particulier, des trous sont créés en supprimant les nœuds plans internes du réseau de nœuds plans, avant de construire le maillage de segment. Vous pouvez activer la vue des nœuds internes de Plan FH en activant la propriété [Plan FH](EM_FHPlane/fr.md) **ShowNodes**. Il existe trois types de FHPlaneHoles et peuvent être sélectionnés en modifiant la propriété **Type** FHPlaneNode.
 

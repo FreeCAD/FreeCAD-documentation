@@ -17,7 +17,7 @@ Actuellement, la commande pointe vers [<https://www.freecadweb.org/wiki/Power_us
 
 ## Utilisation
 
--   Sélectionnez l\'option **Aide → <img src=images/Std_FreeCADPowerUserHub.svg style="width:16px"> [Documentation pour scripter en Python](Std_FreeCADPowerUserHub/fr.md)** du menu.
+-   Sélectionnez l\'option **Aide → [<img src=images/Std_FreeCADPowerUserHub.svg style="width:16px"> [Documentation pour scripter en Python](Std_FreeCADPowerUserHub/fr.md)** du menu.
 
 
 

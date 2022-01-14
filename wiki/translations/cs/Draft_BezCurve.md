@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Nástroj Bezierova křivka vytváří _. Přebírá [tloušťku čáry a barvu](Draft_Linestyle/cs.md) předem nastavenou v záložce Nástroje.
+Nástroj Bezierova křivka vytváří [Bezierovu křivku](http://en.wikipedia.org/wiki/Bezier_curve) (nebo Bezierovu křivku po částech) z několika bodů v aktuální [pracovní rovině](Draft_SelectPlane/cs.md). Přebírá [tloušťku čáry a barvu](Draft_Linestyle/cs.md) předem nastavenou v záložce Nástroje.
 
 
 </div>

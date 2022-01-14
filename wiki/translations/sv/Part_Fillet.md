@@ -24,7 +24,7 @@ This tool creates fillets (rounds) on the selected edges of a shape. A dialog al
 
 ## Part Fillet VS. PartDesign Fillet 
 
-There is another fillet tool in the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _ reference page for more details on their differences.
+There is another fillet tool in the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign workbench](PartDesign_Workbench.md). Please note that their operation is quite different. Check out the <img alt="" src=images/PartDesign_Fillet.svg  style="width:24px;"> [PartDesign Fillet](PartDesign_Fillet.md) reference page for more details on their differences.
 
 ## Notes on application of Part Fillet 
 

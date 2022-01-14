@@ -13,7 +13,7 @@ Draws an octagon inscribed in a construction geometry circle. When starting the 
 
 ## Usage
 
--   After pressing the **<img src=images/Sketcher_CreateOctagon.svg style="width:16px"> [Create octagon](Sketcher_CreateOctagon.md)** button, click once to set the center, then move the mouse and click a second time to set one of the vertices.
+-   After pressing the **[<img src=images/Sketcher_CreateOctagon.svg style="width:16px"> [Create octagon](Sketcher_CreateOctagon.md)** button, click once to set the center, then move the mouse and click a second time to set one of the vertices.
 -   Pressing **Esc** or clicking the right mouse button cancels the function.
 
 ## Notes

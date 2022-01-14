@@ -51,7 +51,7 @@ If ticked, subsequent invocations of the tool skip showing the **Settings** task
 
 <div class="mw-translate-fuzzy">
 
-La funzione Controlla geometria verifica se il _) del modello è valido. Oltre a questo controllo BRep, è possibile avere un controllo BOP aggiuntivo BOP (BOP= Boolean OPerations).
+La funzione Controlla geometria verifica se il [Boundary representation](https://en.wikipedia.org/wiki/Boundary_representation) (BRep o [B-rep](Glossary#B.md)) del modello è valido. Oltre a questo controllo BRep, è possibile avere un controllo BOP aggiuntivo BOP (BOP= Boolean OPerations).
 
 
 </div>

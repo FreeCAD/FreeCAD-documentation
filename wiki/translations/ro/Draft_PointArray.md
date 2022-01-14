@@ -51,9 +51,9 @@ Both commands can be used on 2D objects created with the [Draft Workbench](Draft
 
 A point compound is an object that contains one or more points. These are the supported point compounds and how they can be created:
 
--   _ or [Part Points](Part_Point.md), select them and invoke the [Part Compound](Part_Compound.md) command.
+-   [Part Compound](Part_Compound.md): Create one or more [Draft Points](Draft_Point.md) or [Part Points](Part_Point.md), select them and invoke the [Part Compound](Part_Compound.md) command.
 -   Draft Block: Create one or more [Draft Points](Draft_Point.md) or [Part Points](Part_Point.md), select them and invoke the [Draft Upgrade](Draft_Upgrade.md) command.
--   _ and add one or more [Sketcher Points](Sketcher_CreatePoint.md) to the sketch.
+-   [Sketcher Sketch](Sketcher_NewSketch.md): Create a [Sketch](Sketcher_NewSketch.md) and add one or more [Sketcher Points](Sketcher_CreatePoint.md) to the sketch.
 
 ## Proprietăți
 

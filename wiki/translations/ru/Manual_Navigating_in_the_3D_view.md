@@ -78,7 +78,7 @@
 
 -    **SHIFT**\+ {{ASCII|17}} и **SHIFT** + {{ASCII|16}} для вращения вида на 90 градусов
 
--   Цифровые клавиши, {{ASCII|48}}{{ASCII|49}}{{ASCII|50}}{{ASCII|51}}{{ASCII|52}}{{ASCII|53}}{{ASCII|54}}, для переключения семи стандартных видов: <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> _, <img alt="" src=images/Std_ViewTop.svg  style="width:24px;"> _, <img alt="" src=images/Std_ViewRear.svg  style="width:24px;"> _ и <img alt="" src=images/Std_ViewLeft.svg  style="width:24px;"> [слева](Std_ViewLeft/ru.md)
+-   Цифровые клавиши, {{ASCII|48}}{{ASCII|49}}{{ASCII|50}}{{ASCII|51}}{{ASCII|52}}{{ASCII|53}}{{ASCII|54}}, для переключения семи стандартных видов: <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [Изометрический](Std_ViewIsometric/ru.md), <img alt="" src=images/Std_ViewFront.svg  style="width:24px;"> [спереди](Std_ViewFront/ru.md), <img alt="" src=images/Std_ViewTop.svg  style="width:24px;"> [сверху](Std_ViewTop/ru.md), <img alt="" src=images/Std_ViewRight.svg  style="width:24px;"> [справа](Std_ViewRight/ru.md), <img alt="" src=images/Std_ViewRear.svg  style="width:24px;"> [сзади](Std_ViewRear/ru.md), <img alt="" src=images/Std_ViewBottom.svg  style="width:24px;"> [снизу](Std_ViewBottom/ru.md) и <img alt="" src=images/Std_ViewLeft.svg  style="width:24px;"> [слева](Std_ViewLeft/ru.md)
 
 -    **V**
     **O**устанавливает камеру в <img alt="" src=images/View-isometric.svg  style="width:24px;"> [ортографический вид](Std_OrthographicCamera/ru.md)

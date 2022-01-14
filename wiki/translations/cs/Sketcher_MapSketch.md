@@ -1,6 +1,6 @@
 # Sketcher MapSketch/cs
 ---
-- GuiCommand:/cs   Name:Sketcher_MapSketch   Name/cs:Skicář Vyznač náčrt   Vytvoří náčrt na ploše|Workbenches:_---
+- GuiCommand:/cs   Name:Sketcher_MapSketch   Name/cs:Skicář Vyznač náčrt   Vytvoří náčrt na ploše|Workbenches:[Návrh dílu](Sketcher_Workbench/cs___Skicář]],_[[PartDesign_Workbench/cs.md)|MenuLocation:Návrh dílu → Vytvoř náčrt na ploše   SeeAlso:[Vytvoř náčrt](Sketcher_NewSketch/cs.md)---
 
 
 </div>
@@ -70,7 +70,7 @@ Now we select the top face of Pad and then select the Map A Sketch To A Face too
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Sketcher/cs](<img src="images/Property.png" style="width:16px"> Sketcher/cs.md)
 
 ---
 [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher MapSketch/cs

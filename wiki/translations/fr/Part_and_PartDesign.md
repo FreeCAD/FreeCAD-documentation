@@ -3,7 +3,7 @@
 
 ## Présentation
 
-Il y a eu beaucoup de discussions au cours des années sur les différences et les conséquences de l\'utilisation des ateliers <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _.
+Il y a eu beaucoup de discussions au cours des années sur les différences et les conséquences de l\'utilisation des ateliers <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md) et <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/fr.md).
 
 Il est bon d\'utiliser l\'un ou l\'autre jusqu\'à ce que l\'utilisateur soit à l\'aise avec l\'un, puis d\'apprendre l\'autre. Il est aussi généralement recommandé aux nouveaux utilisateurs de ne pas les mélanger avant d\'avoir compris les tenants et aboutissants.
 

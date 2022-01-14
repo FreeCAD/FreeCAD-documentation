@@ -39,7 +39,7 @@ Per essere disponibile, questo strumento richiede che FreeCAD sia basato su Open
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare la faccia o le facce che si vuole rimuovere dal modello.
-2.  Premere il pulsante **<img src=images/Part_Defeaturing.svg style="width:24px"> '''Elimina funzione'''**.
+2.  Premere il pulsante **[<img src=images/Part_Defeaturing.svg style="width:24px"> '''Elimina funzione'''**.
 3.  Viene creato un nuovo oggetto con l\'etichetta \"Defeatured\" nell\'albero del modello e l\'oggetto originale è nascosto alla vista.
 
 

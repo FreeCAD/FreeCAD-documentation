@@ -22,9 +22,9 @@ Wendet [Deckungsgleiche Beschränkung](Sketcher_ConstrainCoincident/de.md) auf E
 
 1.  Wähle die Elemente in der [3D Ansicht](3D_view/de.md) oder im [Aufgabenpaneel](Task_panel/de.md) auf der linken Seite des Bildschirms aus.
 2.  Rufe den Befehl auf verschiedene Weise auf:
-    -   Drücke die **<img src=images/Sketcher_ConnectLines.svg style="width:16px">[Verbinde Linien](Sketcher_ConnectLines.md)** Schaltfläche.
+    -   Drücke die **[<img src=images/Sketcher_ConnectLines.svg style="width:16px">[Verbinde Linien](Sketcher_ConnectLines.md)** Schaltfläche.
     -   Verwende die **Strg** + **Umschalt** + **K** Tastaturkürzel.
-    -   Verwende den **Skizze→ Skizzierwerkzeuge → <img src=images/Sketcher_ConnectLines.svg style="width:16px">  Linien verbinden** Eintrag aus dem oberen Menü.
+    -   Verwende den **Skizze→ Skizzierwerkzeuge → [<img src=images/Sketcher_ConnectLines.svg style="width:16px">  Linien verbinden** Eintrag aus dem oberen Menü.
 
 
 </div>

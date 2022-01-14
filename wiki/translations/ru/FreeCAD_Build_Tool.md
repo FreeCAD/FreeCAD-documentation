@@ -10,7 +10,7 @@ trunc/src/Tools/fcbt.py
 
 ## Использование
 
-В корректно установленом _ интепретаторе , может быть вызвана команда *fcbt* 
+В корректно установленом [Python](wikipedia:Python_(programming_language).md) интепретаторе , может быть вызвана команда *fcbt* 
 ```python
 python fbct.py
 ``` Она отобразит меню, в котором вы можете выбрать задачу которую необходимо использовать для: 
@@ -79,7 +79,7 @@ FreeCAD Build Tool
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/ru

@@ -46,7 +46,7 @@ The following information doesn\'t need to be used anymore and will likely becom
 
 ### Prerequisites
 
-To localise your application module your need to helpers that come with *Qt*. You can download them from the _:
+To localise your application module your need to helpers that come with *Qt*. You can download them from the [Trolltech-Website](http://www.trolltech.com/products/qt/downloads), but they are also contained in the [LibPack](Third_Party_Libraries.md):
 
 qmake: Generates project files
 lupdate: Extracts or updates the original texts in your project by scanning the source code
@@ -152,7 +152,7 @@ and running pyrcc4 Draft.qrc -o qrc\_Draft.py creates a big Python containing al
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Localization Older Methods/pl

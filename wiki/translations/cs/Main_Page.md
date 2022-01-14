@@ -1,7 +1,7 @@
 # Main Page/cs
 <div class="mw-translate-fuzzy">
 
-Toto je wiki dokumentace _!
+Toto je wiki dokumentace [FreeCADu](http://www.freecadweb.org). Informace obsažené zde jsou ty, které budou v offline dokumentaci distribuované s FreeCADem. Pro prohlížení dokumentace pak máte dvě možnosti: buď v uživatelském centru nebo v manuálu. Právě se na tom pracuje, dokumentace je psána komunitou uživatelů a vývojářů FreeCADu. Najdete-li informace které jsou chybné nebo které chybí, prosím [pomozte](Help_FreeCAD/cs.md)!
 
 
 </div>
@@ -20,7 +20,7 @@ Toto je wiki dokumentace _!
 Dále jsou tři hlavní vstupní body do dokumentace, pro tři velké kategorie uživatelů FreeCADu:
 
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| -   <img alt="" src=images/Crystal_Clear_app_display.png  style="width:22px;"> _: Pro pokročilé uživatele, vysvětluje jak používat makra a skriptování v Pythonu pro zefektivnění Vaší práce | -   <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:22px;"> [Vývojářské centrum](Developer_hub/cs.md): Pro vývojáře, vysvětluje jak psát kód pro aplikaci FreeCAD, rozšiřovat ho a používat ve Vašich vlastních aplikacích |
+| -   <img alt="" src=images/Crystal_Clear_app_display.png  style="width:22px;"> [Uživatelské centrum](User_hub/cs.md): Pro běžné uživatele, vysvětluje jak nainstalovat a používat aplikaci FreeCAD a obsah různých pracovních ploch | -   <img alt="" src=images/Crystal_Clear_app_terminal.png  style="width:22px;"> [Uživatelské centrum pro pokročilé](Power_users_hub/cs.md): Pro pokročilé uživatele, vysvětluje jak používat makra a skriptování v Pythonu pro zefektivnění Vaší práce | -   <img alt="" src=images/Crystal_Clear_app_tutorials.png  style="width:22px;"> [Vývojářské centrum](Developer_hub/cs.md): Pro vývojáře, vysvětluje jak psát kód pro aplikaci FreeCAD, rozšiřovat ho a používat ve Vašich vlastních aplikacích |
 +-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 
@@ -28,7 +28,7 @@ Dále jsou tři hlavní vstupní body do dokumentace, pro tři velké kategorie 
 
 ## Manuál
 
-<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> _  is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecadweb.org/manual/).
+<img alt="Crystal_Clear_manual.png" src=images/Crystal_Clear_manual.png  style="width:64px;"> [The FreeCAD manual](Manual_Introduction.md)  is another, more linear way to present the information contained in this wiki. It is designed to be read like a book, and will gently introduce you to many other pages from the hubs above. [ebook versions](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details) are also available, as well as [a couple of translations in pdf format](https://www.freecadweb.org/manual/).
 
 
 
@@ -67,7 +67,7 @@ Je ještě spousta práce na projektu FreeCADu, máte-li zájem pomoci nám. Jso
 
 </div>
 
-The _ page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
+The [help FreeCAD](Special:MyLanguage/help_FreeCAD.md) page describes it all with more details. Starting from 2016, FreeCAD also participates in the [Google Summer of Code](Google_Summer_of_Code.md). The [Contributors hub](Contributors_hub.md) page is another effort to gather the possible ways to help and contribute to the FreeCAD project.
 
 ### Zdrojový kód 
 
@@ -92,7 +92,7 @@ Podívejte se na [Vývojovou mapu](Development_roadmap/cs.md) na novinky, které
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/cs

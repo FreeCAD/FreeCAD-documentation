@@ -12,8 +12,8 @@ The intention of this page is to serve as a guide for users that are accustomed 
 
 Understanding a little of the history of FreeCAD potentially help users comprehend and orient better to it.
 
--   FreeCAD was initially designed to behave parametrically using the _).
--   Later it incorporated the _.
+-   FreeCAD was initially designed to behave parametrically using the [Constructive solid geometry](Constructive_solid_geometry.md) method (see also <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md)).
+-   Later it incorporated the [feature editing](feature_editing.md) method within the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md).
 -   Solidworks utilizes the latter approach, [feature editing](feature_editing.md).
 
 ## Tips

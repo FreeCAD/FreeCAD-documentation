@@ -205,12 +205,12 @@ doar faceți clic pe (OpenInventor Navigation-Style: CTRL-Click),
 
 ## Fuse and cut 
 
-10\. In the <img src=images/Part_Fuse.svg style="width:tree view](tree_view.md), select `Cube001` (the inner, smaller cube), and the tree cylinders, then press **[16px"> [Fuse](Part_Fuse.md)**. This will create a `Fusion` object.
+10\. In the [tree view](tree_view.md), select `Cube001` (the inner, smaller cube), and the tree cylinders, then press **[<img src=images/Part_Fuse.svg style="width:16px"> [Fuse](Part_Fuse.md)**. This will create a `Fusion` object.
 
 11\. Then perform a boolean cut of the `Cube` (larger cube) and the new `Fusion` object.
 
 :   11.1. In the [tree view](tree_view.md) select `Cube` first, and then `Fusion`.
-:   11.2. Then press **<img src=images/Part_Cut.svg style="width:16px"> [Cut](Part_Cut.md)**. This will create a `Cut` object.
+:   11.2. Then press **[<img src=images/Part_Cut.svg style="width:16px"> [Cut](Part_Cut.md)**. This will create a `Cut` object.
 :   
     **Note:**the order in which you select the objects is important for the cut operation. The base object is selected first, and the subtracting object comes at the end.
 :   11.3. If the colors look strange, select the new `Cut` object, go to the **View** tab, click on the **Shape Color** value to open the **Select color** dialog, then choose a gray color; also change the value of **Line Width** to `2.0`.
@@ -308,7 +308,7 @@ We\'ll duplicate the previous two objects again to use once more as cutting obje
 
 18\. In the [tree view](tree_view.md) de-select the objects; then select `Cube003` first, the bigger cube, and then `Cube002`, the smaller cube.
 
-:   18.1. Then press **<img src=images/Part_Cut.svg style="width:16px"> [Cut](Part_Cut.md)**. This will create `Cut001`. This is a hollowed body which intersects the initial `Cut` only at certain corners.
+:   18.1. Then press **[<img src=images/Part_Cut.svg style="width:16px"> [Cut](Part_Cut.md)**. This will create `Cut001`. This is a hollowed body which intersects the initial `Cut` only at certain corners.
 
 19\. To visualize this better we can modify the **View** properties in the [property editor](property_editor.md).
 
@@ -350,7 +350,7 @@ Dacă totul a mers bine, modelul dvs. ar trebui să arate astfel:
 
 22\. In the [tree view](tree_view.md) de-select the objects; then select `Cube005` first, the bigger cube, and then `Cube004`, the smaller cube.
 
-:   22.1. Then press **<img src=images/Part_Cut.svg style="width:16px"> [Cut](Part_Cut.md)**. This will create `Cut002`. This is a hollowed body which intersects the initial `Cut` only at certain corners.
+:   22.1. Then press **[<img src=images/Part_Cut.svg style="width:16px"> [Cut](Part_Cut.md)**. This will create `Cut002`. This is a hollowed body which intersects the initial `Cut` only at certain corners.
 
 23\. To visualize this better we can modify the **View** properties in the [property editor](property_editor.md).
 
@@ -384,14 +384,14 @@ Felicitări! Tocmai ați terminat cu succes acest tutorial!
 
 25\. In the [tree view](tree_view.md) de-select the objects; then select `Cut` first, and then `Cut001`.
 
-:   25.1. Then press **<img src=images/Part_Cut.svg style="width:16px"> [Cut](Part_Cut.md)**. This will create `Cut003`.
+:   25.1. Then press **[<img src=images/Part_Cut.svg style="width:16px"> [Cut](Part_Cut.md)**. This will create `Cut003`.
 
 ![](images/08_T03_Part_ball_cut_1.png ) 
 *The internal hollowed solid, cut by `Cut001*.`
 
 26\. In the [tree view](tree_view.md) de-select the objects; then select `Cut003` first, and then `Cut002`.
 
-:   26.1. Then press **<img src=images/Part_Cut.svg style="width:16px"> [Cut](Part_Cut.md)**. This will create `Cut004`. This is the final object.
+:   26.1. Then press **[<img src=images/Part_Cut.svg style="width:16px"> [Cut](Part_Cut.md)**. This will create `Cut004`. This is the final object.
 :   26.2. Select `Cut004`, click on the **Shape Color** value to open the **Select color** dialog, then choose a green color; also change the value of **Line Width** to `2.0`.
 
 ![](images/09_T03_Part_ball_cut_2.png ) 
@@ -399,7 +399,7 @@ Felicitări! Tocmai ați terminat cu succes acest tutorial!
 
 27\. Real objects don\'t have perfectly sharp edges or corners, so applying a fillet to the edges can be done to refine the model.
 
-:   27.1. In the <img src=images/Part_Fillet.svg style="width:tree view](tree_view.md), select `Cut004` then press **[16px"> [Fillet](Part_Fillet.md)**.
+:   27.1. In the [tree view](tree_view.md), select `Cut004` then press **[<img src=images/Part_Fillet.svg style="width:16px"> [Fillet](Part_Fillet.md)**.
 :   27.2. In the **Fillet edges** [task panel](task_panel.md) go to **Selection**, choose **Select edges**, and then press **All**. As **Fillet type** choose `Constant radius`, then set **Radius** to `1 mm`.
 :   24.3. Press **OK**. This will create a `Fillet` object.
 :   27.4. In the **View** tab, change the value of **Line Width** to `2.0`.

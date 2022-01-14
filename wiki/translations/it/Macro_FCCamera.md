@@ -107,11 +107,11 @@ Questa macro serve per ruotare lo schermo di un determinato angolo lungo l\'asse
     -   White : salva l\'immagine con il colore dello schermo bianco
     -   Black : salva l\'immagine con il colore dello schermo nero
 
--    **<img src=images/FCCamera_00.png style="width:24px"> Launch**: Apre la finestra del file, indica il nome e il percorso
+-    **[<img src=images/FCCamera_00.png style="width:24px"> Launch**: Apre la finestra del file, indica il nome e il percorso
 
--    **<img src=images/FCCamera_07.png style="width:24px"> Reset**: Reimposta il valore predefinito
+-    **[<img src=images/FCCamera_07.png style="width:24px"> Reset**: Reimposta il valore predefinito
 
--    **<img src=images/FCCamera_00.png style="width:24px"> Return**: Esce dal pannello foto e torna al pannello di FCCamera
+-    **[<img src=images/FCCamera_00.png style="width:24px"> Return**: Esce dal pannello foto e torna al pannello di FCCamera
 
 
 

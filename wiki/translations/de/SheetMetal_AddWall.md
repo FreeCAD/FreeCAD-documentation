@@ -33,9 +33,9 @@ Trägt man in einem zweiten Schritt die für die {{PropertyData/de|angle}} ungef
 
 ## Hinweise
 
-Um eine Grundplatte zu erzeugen, wird eine geschlossene 2D-Kontur - vorzugsweise eine <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> _ verwendet.
+Um eine Grundplatte zu erzeugen, wird eine geschlossene 2D-Kontur - vorzugsweise eine <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Skizze (sketch)](Sketcher_NewSketch/de.md) - mit dem Befehl <img alt="" src=images/SheetMetal_AddBase.svg  style="width:16px;"> [Kante ansetzen](SheetMetal_AddBase/de.md) verwendet.
 
-Alternativ kann eine Grundplatte (Platine) auch mit Befehlen der Arbeitsbereiche <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ erstellt werden.
+Alternativ kann eine Grundplatte (Platine) auch mit Befehlen der Arbeitsbereiche <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench/de.md) oder <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench/de.md) erstellt werden.
 
 Eine Platine mit dem Arbeitsbereich [Part](Part_Workbench/de.md) erstellen:
 
@@ -51,10 +51,10 @@ Eine Platine mit dem Arbeitsbereich [PartDesign](PartDesign_Workbench.md) erstel
 
 1.  Einen Festkörper erstellen durch
     -   Anwendung des Befehls <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> [Zu addierender Quader (Additive Box)](PartDesign_AdditiveBox/de.md).
-    -   Verwendung des Befehls <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> _.
+    -   Verwendung des Befehls <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [Aufpolsterung (Pad)](PartDesign_Pad/de.md) mit einer <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Skizze](Sketcher_NewSketch/de.md).
 2.  Es ist darauf zu achten, dass ein Maß des Quaders bzw. die {{PropertyData/de|Length}} des Pads der Blechstärke entspricht.
 
-Wenn mit <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> _ oder <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> [Bohrung](PartDesign_Hole/de.md) kombiniert werden.
+Wenn mit <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [Körper erstellen](PartDesign_Body/de.md) gestartet wird, können SheetMetal-Werkzeuge mit PartDesign-Werkzeugen wie z.B. <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [Tasche](PartDesign_Pocket/de.md) oder <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> [Bohrung](PartDesign_Hole/de.md) kombiniert werden.
 
 ## Eigenschaften
 
@@ -190,7 +190,7 @@ Fertig!
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal AddWall/de

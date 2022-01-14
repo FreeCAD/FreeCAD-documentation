@@ -5,11 +5,11 @@
 
 ## Einführung
 
-Der <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _) Dateien und die Erstellung von 2D Geschossplänen in Kombination mit dem <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;">[TechDraw Arbeitsbereich](TechDraw_Workbench/de.md).
+Der <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architektur Arbeitsbereich](Arch_Workbench/de.md) stellt einen modernen [Bauwerksdatenmodellierung](http://de.wikipedia.org/wiki/Building_Information_Modeling) (BIM) Arbeitsablauf für FreeCAD zur Verfügung mit Unterstützung für Funktionen wie vollständig parametrische Architektur Entitäten wie Wände, Balken, Dächer, Fenster, Treppen, Rohre und Möbel. Er unterstützt [1](http://de.wikipedia.org/wiki/Industry_Foundation_Classes) ([IFC](Arch_IFC.md)) Dateien und die Erstellung von 2D Geschossplänen in Kombination mit dem <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;">[TechDraw Arbeitsbereich](TechDraw_Workbench/de.md).
 
-Der Arch-Arbeitsbereich importiert alle Werkzeuge des <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _ und <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md) verwenden.
+Der Arch-Arbeitsbereich importiert alle Werkzeuge des <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf Arbeitsbereichs](Draft_Workbench/de.md), weil er 2D-Objekte zur Erstellung von 3D parametrischen Architekturobjekten benutzt. Trotzdem kann Arch auch Volumenkörper aus Arbeitsbereichen wie <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) und <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md) verwenden.
 
-Die BIM Funktionalität von FreeCAD ist nun nach und nach aufgeteilt in diesen Arch Arbeitsbereich, der grundlegende Architekturwerkzeuge enthält, und die <img alt="" src=images/Workbench_BIM.svg  style="width:24px;">_ installieren kannst. Dieser Arbeitsbereich fügt eine neue Schnittstellenschicht über die Arch Werkzeuge hinzu, mit dem Ziel, den BIM Arbeitsablauf in FreeCAD intuitiver und benutzerfreundlicher zu gestalten. Siehe [FreeCAD BIM Migrationsanleitung](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide).
+Die BIM Funktionalität von FreeCAD ist nun nach und nach aufgeteilt in diesen Arch Arbeitsbereich, der grundlegende Architekturwerkzeuge enthält, und die <img alt="" src=images/Workbench_BIM.svg  style="width:24px;">[BIM Arbeitsbereich](BIM_Workbench/de.md), die du über den <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/de.md) installieren kannst. Dieser Arbeitsbereich fügt eine neue Schnittstellenschicht über die Arch Werkzeuge hinzu, mit dem Ziel, den BIM Arbeitsablauf in FreeCAD intuitiver und benutzerfreundlicher zu gestalten. Siehe [FreeCAD BIM Migrationsanleitung](https://yorik.uncreated.net/blog/2020-010-freecad-bim-guide).
 
 Die Entwickler von Draft, Arch und BIM arbeiten auch mit der größeren [OSArch Gemeinschaft](https://osarch.org) zusammen, mit dem letztendlichen Ziel, den Gebäudeentwurf durch den Einsatz völlig freier Software zu verbessern.
 
@@ -95,7 +95,7 @@ Hier die Werkzeuge zur Änderung von Architekturobjekten:
 Hier sind zusätzliche Hilfsmittel für spezifische Aufgaben:
 
 -   <img alt="" src=images/Arch_Component.svg  style="width:32px;"> [Komponente](Arch_Component/de.md): Erzeugt eine nichtparametrische Arch Komponente
--   <img alt="" src=images/Arch_CloneComponent.svg  style="width:32px;"> _)
+-   <img alt="" src=images/Arch_CloneComponent.svg  style="width:32px;"> [Komponente klonen](Arch_CloneComponent/de.md): Erzeugt Arch Komponenten, die Klone von ausgewählten Arch Objekten sind (nicht zu verwechseln mit [ Entwurf Klon](Draft_Clone/de.md))
 -   <img alt="" src=images/Arch_SplitMesh.svg  style="width:32px;"> [Netz aufteilen](Arch_SplitMesh/de.md): Teilt ein ausgewähltes Netz in separate Komponenten
 -   <img alt="" src=images/Arch_MeshToShape.svg  style="width:32px;"> [Netz Zu Form](Arch_MeshToShape/de.md): Wandelt ein Netz in eine Form um, wobei koplanare Flächen vereinigt werden
 -   <img alt="" src=images/Arch_SelectNonManifold.svg  style="width:32px;"> [Wähle nicht-feste Netze](Arch_SelectNonSolidMeshes/de.md): Wählt alle nicht-feste Netze aus der aktuellen Auswahl oder aus dem Dokument
@@ -103,10 +103,10 @@ Hier sind zusätzliche Hilfsmittel für spezifische Aufgaben:
 -   <img alt="" src=images/Arch_CloseHoles.svg  style="width:32px;"> [Löcher schließen](Arch_CloseHoles/de.md): Schließt Löcher in einem ausgewählten formbasierten Objekt
 -   <img alt="" src=images/Arch_MergeWalls.svg  style="width:32px;"> [Mauern zusammenführen](Arch_MergeWalls/de.md): Zwei oder mehr Wände zusammenführen
 -   <img alt="" src=images/Arch_Check.svg  style="width:32px;"> [Prüfen](Arch_Check/de.md): Prüfen, ob die ausgewählten Objekte Festkörper sind und keine Defekte enthalten
--   <img alt="" src=images/IFC.svg  style="width:32px;"> _ Datei
+-   <img alt="" src=images/IFC.svg  style="width:32px;"> [Ifc Explorer](Arch_IfcExplorer/de.md): Durchsuche den Inhalt einer [IFC](Arch_IFC/de.md) Datei
 -   <img alt="" src=images/Arch_ToggleIfcBrepFlag.svg  style="width:32px;"> [Umschalten der IFC Brep Fahne](Arch_ToggleIfcBrepFlag/de.md): Erzwingt, dass ein ausgewähltes Objekt als [IfcFacetedBrep](http://www.buildingsmart-tech.org/ifc/IFC4/final/html/schema/ifcgeometricmodelresource/lexical/ifcfacetedbrep.htm) exportiert wird.
--   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> _.
--   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> _ Eigenschaften eines Objekts
+-   <img alt="" src=images/Arch_3Views.svg  style="width:32px;"> [3 Ansichten vom Netz](Arch_3Views/de.md): Erzeugt Draufsicht, Frontansicht und Seitenansichten aus einem [Netz](Mesh_Workbench/de.md).
+-   <img alt="" src=images/Arch_IfcSpreadsheet.svg  style="width:32px;"> [IFC Kalkulationstabelle erstellen](Arch_IfcSpreadsheet/de.md): Erstellt eine Kalkulationstabelle zum Speichern der [IFC](Arch_IFC/de.md) Eigenschaften eines Objekts
 -   <img alt="" src=images/Arch_ToggleSubs.svg  style="width:32px;"> [Unterkomponenten umschalten](Arch_ToggleSubs/de.md): Blendet die Unterkomponenten eines Arch Objekts ein oder aus.
 
 ### Einstellungen
@@ -130,7 +130,7 @@ Hier sind zusätzliche Hilfsmittel für spezifische Aufgaben:
 
 <div class="mw-translate-fuzzy">
 
-Der Arch-Arbeitsbereich kann mit den _-Skripten und [Makros](macros/de.md) benutzt werden.
+Der Arch-Arbeitsbereich kann mit den [Arch Python API](http://www.freecadweb.org/api/Arch.html)-Funktionen in [Python](Python/de.md)-Skripten und [Makros](macros/de.md) benutzt werden.
 
 
 </div>
@@ -142,7 +142,7 @@ Der Arch-Arbeitsbereich kann mit den _-Skripten und [Makros](macros/de.md) benut
 -   [Schnelle Arch Übersicht auf Yorik\'s Blog](http://yorik.uncreated.net/guestblog.php?2012=180)(v0.13)
 -   [Video Präsentation des Arch Arbeitsbereichs](https://www.youtube.com/watch?v=lTDOeHapv_E) (2016)
 -   [Arch Paneel Tutorium](Arch_panel_tutorial/de.md) (v0.15)
--   _
+-   [BIM Modellierungskapitel aus dem FreeCAD Handbuch](Manual:BIM_modeling/de.md)
 -   [Import von STL oder OBJ](Import_from_STL_or_OBJ/de.md)
 -   [Export nach STL oder OBJ](Export_to_STL_or_OBJ/de.md)
 
@@ -152,7 +152,7 @@ Der Arch-Arbeitsbereich kann mit den _-Skripten und [Makros](macros/de.md) benut
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Arch Workbench/de

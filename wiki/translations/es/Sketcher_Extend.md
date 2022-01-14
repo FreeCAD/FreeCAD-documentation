@@ -18,12 +18,12 @@ La herramienta **extender borde** extiende una borde a una ubicación arbitraria
 
 ## Utilización
 
-1.  Pulse el **<img src=images/Sketcher_Extend.svg style="width:16px"> [Extender](Sketcher_Extend/es.md)**.
+1.  Pulse el **[<img src=images/Sketcher_Extend.svg style="width:16px"> [Extender](Sketcher_Extend/es.md)**.
 2.  Selecciona una línea o un arco.
 3.  En la vista 3D, mueva el puntero del ratón hacia la dirección a extender.
 4.  Haga clic en una ubicación arbitraria en el espacio, o
-5.  Para extender a otra borde, coloque el puntero del ratón sobre la borde; cuando esté resaltada y el **<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Punto sobre objeto](Sketcher_ConstrainPointOnObject/es.md)** icono de restricción aparece junto al puntero del ratón, haga clic para confirmar. Se añadirá una restricción de punto sobre objeto.
-6.  Para extender a un punto en el croquis, coloque el puntero del ratón sobre el punto; cuando se resalte y el **<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Constreñimiento coincidente](Sketcher_ConstrainCoincident/es.md)** aparece junto al puntero del ratón, haga clic para confirmar. Se añadirá una restricción coincidente.
+5.  Para extender a otra borde, coloque el puntero del ratón sobre la borde; cuando esté resaltada y el **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Punto sobre objeto](Sketcher_ConstrainPointOnObject/es.md)** icono de restricción aparece junto al puntero del ratón, haga clic para confirmar. Se añadirá una restricción de punto sobre objeto.
+6.  Para extender a un punto en el croquis, coloque el puntero del ratón sobre el punto; cuando se resalte y el **[<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Constreñimiento coincidente](Sketcher_ConstrainCoincident/es.md)** aparece junto al puntero del ratón, haga clic para confirmar. Se añadirá una restricción coincidente.
 
 ## Limitaciones
 

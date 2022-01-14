@@ -64,7 +64,7 @@ Le regole adottate e le informazioni sono contenute nel documento [Modello di sv
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > FreeCAD development model project/it

@@ -5,7 +5,7 @@
 
 ## Introduction
 
-L\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _, l\'atelier Sketcher constitue le cœur de la _, Sketcher constitue également la base de la méthodologie de modification des [fonctions de création de solides](feature_editing/fr.md).
+L\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md) de FreeCAD permet de créer des géométries 2D nommées **esquisses**, destinées à être utilisées dans les ateliers <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/fr.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/fr.md) et d\'autres ateliers. Généralement, une géométrie 2D est le point de départ de la plupart des modèles de CAO ; une esquisse 2D peut être « extrudée » pour créer une forme 3D. D\'autres esquisses peuvent être utilisées pour créer des fonctions comme des cavités, des arêtes ou encore des extrusions qui s\'ajoutent aux formes 3D précédemment construites. Avec des opérations Booléennes sur des solides définies dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md), l\'atelier Sketcher constitue le cœur de la [conception 3D solide](constructive_solid_geometry.md). De plus, avec les opérations de l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench.md), Sketcher constitue également la base de la méthodologie de modification des [fonctions de création de solides](feature_editing/fr.md).
 
 L\'atelier Sketcher comporte des \"contraintes\", permettant aux formes 2D de suivre des définitions géométriques précises en termes de longueur, d\'angles et de relations (horizontalité, verticalité, perpendicularité, etc.). Un solveur de contraintes calcule l\'étendue contrainte de la géométrie 2D et permet une exploration interactive des degrés de liberté de l\'esquisse.
 
@@ -50,7 +50,7 @@ Si une esquisse possède des segments qui se croisent, ou un point non directeme
 
 A l\'intérieur d\'une aire fermée, nous pouvons avoir des aires indépendantes. Celles-ci deviendront des vides lorsque le solide 3D sera généré.
 
-Une fois que l'esquisse est entièrement contrainte, les fonctions d'esquisse deviennent vertes. La géométrie de construction restera bleue. Elle est généralement \"finie\" à ce stade et convient à la création d\'un solide 3D. Cependant, une fois que la boîte de dialogue Esquisse est fermée, il peut s\'avérer utile d\'aller à l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:atelier Part](Part_Workbench/fr.md) et de lancer **[16px"> [Part Vérifier la géométrie](Part_CheckGeometry/fr.md)** pour vous assurer qu\'aucune fonctionnalité de l\'esquisse ne risque de causer des problèmes ultérieurs.
+Une fois que l'esquisse est entièrement contrainte, les fonctions d'esquisse deviennent vertes. La géométrie de construction restera bleue. Elle est généralement \"finie\" à ce stade et convient à la création d\'un solide 3D. Cependant, une fois que la boîte de dialogue Esquisse est fermée, il peut s\'avérer utile d\'aller à l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md) et de lancer **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part Vérifier la géométrie](Part_CheckGeometry/fr.md)** pour vous assurer qu\'aucune fonctionnalité de l\'esquisse ne risque de causer des problèmes ultérieurs.
 
 ## Les outils 
 
@@ -60,7 +60,7 @@ Les outils de l\'atelier Sketcher sont tous situés dans le menu **Sketch** qui 
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Nouvelle esquisse](Sketcher_NewSketch/fr.md) : crée une nouvelle esquisse sur un plan ou une face sélectionnée. Si rien n\'est sélectionné, un dialogue pop up invitera l\'utilisateur à sélectionner un plan.
 
--   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Éditer l\'esquisse](Sketcher_EditSketch/fr.md) : édite l\'esquisse sélectionnée. Cela ouvrira la [boîte de dialogue Sketcher](Sketcher_Dialog/fr.md).
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [Quitter l\'esquisse](Sketcher_LeaveSketch/fr.md) : quitte le mode d\'édition de l\'esquisse actuelle.
 
@@ -100,7 +100,7 @@ Ces outils permettent de créer des objets.
 
 :\* <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Cercle par 3 points](Sketcher_Create3PointCircle/fr.md) : dessine un cercle à partir de trois points sur la circonférence.
 
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> _, [points sur l'objet](Sketcher_ConstrainPointOnObject/fr.md) ou [orthogonales](Sketcher_ConstrainPerpendicular/fr.md).
+-   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Sections coniques](Sketcher_CompCreateConic/fr.md) : Sketcher fournit les sections coniques suivantes. Contrairement aux B-splines, elles peuvent être utilisées avec toutes sortes de contraintes telles que les [tangentes](Sketcher_ConstrainTangent/fr.md), [points sur l'objet](Sketcher_ConstrainPointOnObject/fr.md) ou [orthogonales](Sketcher_ConstrainPerpendicular/fr.md).
     -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellipse](Sketcher_CreateEllipseByCenter/fr.md) : dessine une ellipse à partir du centre, d\'un point sur le grand rayon et d\'un point sur le petit rayon.
     -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Ellipse par 3 points](Sketcher_CreateEllipseBy3Points/fr.md) : dessine une ellipse à partir du grand diametre (2 points) et d\'un point sur le petit rayon.
     -   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:32px;"> [Arc d\'ellipse](Sketcher_CreateArcOfEllipse/fr.md) : dessine une ellipse à partir du centre, d\'un point sur le grand rayon, avec un point de départ et un point d\'arrivée.
@@ -298,10 +298,10 @@ Chaque utilisateur de **DAO** développe sa propre philosophie au cours de son t
     Dans **v0.12**, les contraintes extérieures (contraignant l\'esquisse à la forme géométrique 3D existante comme les bords, et d\'autres esquisses) ne sont pas mises en œuvre.
     Cela signifie que pour positionner un croquis par rapport à une forme géométrique existante, vous aurez besoin d\'entrer les distances manuellement. Une contrainte de verrouillage à (**25,75**) de l\'origine est plus facile à retenir que (**23.47,73.02**).
 
--   Si vous avez la possibilité de choisir entre la contrainte _ <img alt="" src=images/Constraint_HorizontalDistance.png  style="width:16px;"> ou [Verticale](Sketcher_ConstrainDistanceY/fr.md) <img alt="" src=images/Constraint_Vertical.png  style="width:16px;">, utilisez de préférence ces dernières. Les contraintes distance horizontale et verticale sont moins gourmandes en ressources.
+-   Si vous avez la possibilité de choisir entre la contrainte [Longueur](Sketcher_ConstrainDistance/fr.md) <img alt="" src=images/Constraint_Length.png  style="width:16px;"> et les contraintes Distance [Horizontale](Sketcher_ConstrainDistanceX/fr.md) <img alt="" src=images/Constraint_HorizontalDistance.png  style="width:16px;"> ou [Verticale](Sketcher_ConstrainDistanceY/fr.md) <img alt="" src=images/Constraint_Vertical.png  style="width:16px;">, utilisez de préférence ces dernières. Les contraintes distance horizontale et verticale sont moins gourmandes en ressources.
 
 -   De façon générale, les meilleurs contraintes à utiliser sont les contraintes horizontale et verticale, les contraintes distance horizontale et distance verticale, tangente point-à-point. Si possible, limiter l\'utilisation des contraintes suivantes : distance, tangente ligne sur ligne, point sur objet, symétrie.
--   Si vous avez des doutes sur la validité d\'une esquisse une fois qu\'elle est terminée (les fonctions deviennent vertes), fermez la boîte de dialogue Esquisse, basculez vers <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:l\'atelier Part](Part_Workbench/fr.md) et exécutez **[16px"> [Vérifier la géométrie](Part_CheckGeometry/fr.md)**.
+-   Si vous avez des doutes sur la validité d\'une esquisse une fois qu\'elle est terminée (les fonctions deviennent vertes), fermez la boîte de dialogue Esquisse, basculez vers <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [l\'atelier Part](Part_Workbench/fr.md) et exécutez **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Vérifier la géométrie](Part_CheckGeometry/fr.md)**.
 
 ## Tutoriels
 
@@ -322,7 +322,7 @@ La page [Sketcher : Ecrire des scripts](Sketcher_scripting/fr.md) contient des e
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/fr

@@ -90,7 +90,7 @@ Lo script updatefromcrowdin.py estrae le modifiche da crowdin alla directory loc
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Crowdin Scripts/it

@@ -20,7 +20,7 @@ Disegna un poligono regolare inscritto in una circonferenza di costruzione. Quan
 
 <div class="mw-translate-fuzzy">
 
--   Dopo aver premuto il pulsante **<img src=images/Sketcher_CreateRegularPolygon.svg style="width:16px"> Poligono regolare**, definire il numero di lati del poligono nella casella pop-up e confermare premendo il tasto **OK**.
+-   Dopo aver premuto il pulsante **[<img src=images/Sketcher_CreateRegularPolygon.svg style="width:16px"> Poligono regolare**, definire il numero di lati del poligono nella casella pop-up e confermare premendo il tasto **OK**.
 -   Fare clic una volta per impostare il centro, quindi spostare il mouse e fare clic una seconda volta per impostare uno dei vertici.
 -   Premere **Esc** o fare clic con il tasto destro del mouse per annullare la funzione.
 

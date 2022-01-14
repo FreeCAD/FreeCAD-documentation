@@ -19,9 +19,9 @@ If your primary goal is the production of complex 2D drawings and [DXF](DXF.md) 
 
 These are tools for creating Page objects.
 
--   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> _.
+-   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Insert Default Page](TechDraw_PageDefault.md): adds a new page using the default [template](TechDraw_Templates.md).
 
--   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> _.
+-   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Insert Page using Template](TechDraw_PageTemplate.md): adds a new page using a selected [template](TechDraw_Templates.md).
 
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Redraw Page](TechDraw_RedrawPage.md): forces an update of the selected page. <small>(v0.19)</small> 
 
@@ -39,11 +39,11 @@ These are tools for creating View objects.
 
 -   <img alt="" src=images/TechDraw_DetailView.svg  style="width:32px;"> [Insert Detail View](TechDraw_DetailView.md): inserts a detail view of a portion of an existing view.
 
--   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> _ object.
+-   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [Insert Draft Workbench Object](TechDraw_DraftView.md): inserts a view of a [Draft Workbench](Draft_Workbench.md) object.
 
--   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> _ [Section Plane](Arch_SectionPlane.md) object.
+-   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Insert Arch Workbench Object](TechDraw_ArchView.md): inserts a view of an [Arch Workbench](Arch_Workbench.md) [Section Plane](Arch_SectionPlane.md) object.
 
--   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> _ sheet.
+-   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> [Insert Spreadsheet View](TechDraw_SpreadsheetView.md): inserts a view of a [Spreadsheet Workbench](Spreadsheet_Workbench.md) sheet.
 
 ## Clips
 
@@ -63,9 +63,9 @@ These are tools to decorate pages or views:
 
 -   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Apply Geometric Hatch to Face](TechDraw_GeometricHatch.md): applies a hatch pattern to a face using an Autodesk PAT specification.
 
--   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ file into a page.
+-   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> [Insert SVG Symbol](TechDraw_Symbol.md): inserts a symbol from a [SVG](SVG.md) file into a page.
 
--   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ image into a page.
+-   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> [Insert Bitmap Image](TechDraw_Image.md): inserts a PNG or JPG [bitmap](bitmap.md) image into a page.
 
 -   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Turn View Frames On/Off](TechDraw_ToggleFrame.md): turns on/off frames and labels surrounding a view.
 
@@ -220,9 +220,9 @@ These are tools to improve your TechDraw drawings.
 
 These are tools for exporting pages to other applications.
 
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _ file.
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Export Page as SVG](TechDraw_ExportPageSVG.md): saves the current page as [SVG](SVG.md) file.
 
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _ file.
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Export Page as DXF](TechDraw_ExportPageDXF.md): saves the current page as [DXF](DXF.md) file.
 
 ## Additional features 
 
@@ -270,7 +270,7 @@ Video tutorials by sliptonic
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/hu

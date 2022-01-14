@@ -9,10 +9,10 @@ Guida ai comandi di FreeCAD
  Questo è la guida ai comandi di FreeCAD. Comprende le pagine del [Wiki della documentazione di FreeCAD](Main_Page/it.md) che si riferiscono ai comandi. Questa versione è stata creata principalmente per essere stampata come un unico grande documento o per consentire una panoramica veloce sulle pagine dei comandi. Se si sta leggendo questo online, si consiglia di andare direttamente alla [Guida in linea](Online_Help_Toc/it.md), che è più facile da esplorare.
 
 -   Parte prima: [Ambiente Part Design](ManualDrawing/it#PartDesign_Workbench//it.md)
--   Parte seconda: _
--   Parte terza: _
--   Parte quarta: _
--   Parte quinta: _
+-   Parte seconda: [Ambiente PartDesign: Strumenti di costruzione](ManualPartDesign/it#Ambiente_PartDesign__Strumenti_di_costruzione.md)
+-   Parte terza: [Ambiente PartDesign: Strumenti di modifica](ManualPartDesign/it#Ambiente_PartDesign__Strumenti_di_modifica.md)
+-   Parte quarta: [Ambiente PartDesign: Strumenti di trasformazione](ManualPartDesign/it#Ambiente_PartDesign__Strumenti_di_trasformazione.md)
+-   Parte quinta: [Altri strumenti e strumenti non documentati](ManualPartDesign/it#Ambiente_PartDesign__Altri_strumenti_e_strumenti_non_documentati.md)
 
 
 {{:PartDesign_Workbench/it}}

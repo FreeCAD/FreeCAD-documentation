@@ -63,9 +63,9 @@ Questo strumento può essere utilizzato su qualsiasi oggetto che abbia una [Part
 
 L\'oggetto composto di punti può essere creato in diversi modi.
 
--   Creare vari **<img src=images/Draft_Point.svg style="width:16px"> <img src=images/Part_Point.svg style="width:punti Draft](Draft_Point/it.md)** o **[16px"> <img src=images/Part_Compound.svg style="width:punti Part](Part_Point/it.md)**, e poi premere **[16px"> [Crea un composto](Part_Compound/it.md)** per creare il composto .
+-   Creare vari **[<img src=images/Draft_Point.svg style="width:16px"> [punti Draft](Draft_Point/it.md)** o **[<img src=images/Part_Point.svg style="width:16px"> [punti Part](Part_Point/it.md)**, e poi premere **[<img src=images/Part_Compound.svg style="width:16px"> [Crea un composto](Part_Compound/it.md)** per creare il composto .
 -   Creare i punti con il metodo precedente ma invece di creare un composto usare **<img src="images/Draft_Upgrade.svg" width=16px> [Upgrade](Draft_Upgrade/it.md)** per creare un \"Blocco\".
--   Creare uno **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Schizzo](Sketch/it.md)**, e dentro aggiungere vari punti.
+-   Creare uno **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Schizzo](Sketch/it.md)**, e dentro aggiungere vari punti.
 
 
 </div>

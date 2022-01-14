@@ -83,7 +83,7 @@ Le **Balayage soustractif** crée un solide soustractif dans le corps actif en b
 -   Pour mieux contrôler la forme du tuyau, il est recommandé que toutes les sections transversales aient le même nombre de segments. Par exemple, pour un tuyau entre un rectangle et un cercle, le cercle doit être décomposé en 4 arcs connectés.
 -   Vous pouvez créer un tuyau à partir ou en direction d\'un seul [vertex (ou point)](Glossary/fr#V.md) d\'une esquisse ou du corps. {{Version/fr|0.20}}
 -   Lorsque vous sélectionnez un [vertex](Glossary/fr#V.md) comme section, il doit dans la plupart des cas être la dernière section du tuyau. Vous pouvez modifier l\'ordre des sections en les faisant glisser dans la liste.
--   La trajectoire ne peut provenir que d\'une seule esquisse, d\'une seule caractéristique ou d\'un seul ShapeBinder. Si vous souhaitez balayer plusieurs arêtes à partir de différentes esquisses, utilisez une **<img src=images/PartDesign_SubShapeBinder.svg style="width:16px">[Sous forme liée](PartDesign_SubShapeBinder/fr.md)**.
+-   La trajectoire ne peut provenir que d\'une seule esquisse, d\'une seule caractéristique ou d\'un seul ShapeBinder. Si vous souhaitez balayer plusieurs arêtes à partir de différentes esquisses, utilisez une **[<img src=images/PartDesign_SubShapeBinder.svg style="width:16px">[Sous forme liée](PartDesign_SubShapeBinder/fr.md)**.
 -   La trajectoire ne doit pas contenir de branches ou de jonctions en T, etc. Les boucles sont autorisées.
 -   Il peut y avoir des problèmes si la section transversale n\'est pas perpendiculaire à la trajectoire en 3D.
 -   Une section transversale ne peut pas se trouver sur le même plan que celle qui la précède immédiatement.

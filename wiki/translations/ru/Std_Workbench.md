@@ -28,7 +28,7 @@ The **Std Workbench** command activates a selected [workbench](Workbenches.md) i
 
 ## Примечания
 
--   Additional _.
+-   Additional [External Workbenches](External_Workbenches.md) can be downloaded with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
 
 ## Настройки
 

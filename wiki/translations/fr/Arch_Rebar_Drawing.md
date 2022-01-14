@@ -16,7 +16,7 @@ Remarque: le travail ci-dessous est présent dans la branche de développement d
 
 L\'outil [Dessin d\'armature](Arch_Rebar_Drawing/fr.md) permet à l\'utilisateur de créer un dessin d\'armatures.
 
-Cette commande fait partie de l\'_ via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
+Cette commande fait partie de l\'[Addon Reinforcement](Reinforcement_Addon/fr.md), un [atelier externe](External_workbenches/fr.md) que vous pouvez installer avec le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) via le menu **Outils → Gestionnaire d'Addon → Reinforcement**.
 
 <img alt="" src=images/Arch_Rebar_Drawing_example.svg  style="width:800px;">
 
@@ -388,7 +388,7 @@ for drawing_view in ("Front", "Rear", "Left", "Right", "Top", "Bottom"):
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md) [<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Arch](Arch_Workbench.md) > Arch Rebar Drawing/fr

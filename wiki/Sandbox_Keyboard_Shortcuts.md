@@ -873,7 +873,7 @@ Proposed guidelines :
   Test\_TestDocText      Test the document (creation, save, load and destruction)                 
   Test\_TestWork         Test the switching of workbenches in FreeCAD                             
 
-_
+[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
 
 ---
 [documentation index](../README.md) > Sandbox:Keyboard Shortcuts

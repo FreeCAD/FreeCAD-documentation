@@ -35,7 +35,7 @@ Dieses Werkzeug ermöglicht es, das Erscheinungsbild (Ansichtsmodus, Material un
 <div class="mw-translate-fuzzy">
 
 1.  Wähle mindestens ein Objekt aus.
-2.  Klicke im Modellbaum oder in der 3D Ansicht mit der rechten Maustaste und wähle {{MenuCommand/de|<img src=images/Std_Tool1.svg style="width:16px"> Erscheinungsbild}} im Kontextmenü.
+2.  Klicke im Modellbaum oder in der 3D Ansicht mit der rechten Maustaste und wähle {{MenuCommand/de|[<img src=images/Std_Tool1.svg style="width:16px"> Erscheinungsbild}} im Kontextmenü.
 3.  Definiere Eigenschaften; siehe [Optionen](#Options/de.md).
 4.  Drücke {{button|Close}}.
 

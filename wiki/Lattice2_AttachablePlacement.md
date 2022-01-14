@@ -37,7 +37,7 @@ The <img alt="" src=images/Lattice2_AttachablePlacement.svg  style="width:24px;"
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md) [<img src="images/Property.png" style="width:16px"> Lattice2](Category_Lattice2.md)
 
 ---
 [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Lattice2 AttachablePlacement

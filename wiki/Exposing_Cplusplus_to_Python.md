@@ -35,7 +35,7 @@ Note:
 -   Source: <https://forum.freecadweb.org/viewtopic.php?p=314796#p314617>
 -   [Workbench creation](Workbench_creation.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > Exposing Cplusplus to Python

@@ -17,7 +17,7 @@
 
 ## Применение
 
-1.  Нажмите кнопку **<img src=images/Sketcher_CreateTriangle.svg style="width:16px"> [Треугольник](Sketcher_CreateTriangle/ru.md)**.
+1.  Нажмите кнопку **[<img src=images/Sketcher_CreateTriangle.svg style="width:16px"> [Треугольник](Sketcher_CreateTriangle/ru.md)**.
 2.  Нажмите первый раз, чтобы задать центр.
 3.  Переместите мышь и нажмите второй раз, чтобы задать одну из вершин.
 4.  Нажатие **Esc** или правой кнопки мыши закрывает функцию.

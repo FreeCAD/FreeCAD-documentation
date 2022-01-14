@@ -19,14 +19,14 @@ L\'option d\'exportation au format PDF est disponible dans le menu **Fichier →
 
 ## En relation 
 
--   Voir aussi: <img alt="" src=images/Std_Export.svg  style="width:24px;"> _.
+-   Voir aussi: <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Exporter](Std_Export/fr.md) et <img alt="" src=images/Std_PrintPdf.svg  style="width:24px;"> [Std Exporter au format PDF](Std_PrintPdf/fr.md).
 
 -   Pour les [utilisateurs avancés](Power_users_hub/fr.md), il existe une option pour utiliser la [console Python](Python_console/fr.md) pour exporter un PDF.
 
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > PDF/fr

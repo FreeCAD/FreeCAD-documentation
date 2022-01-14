@@ -69,7 +69,7 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 ## Ustawienia
 
-Zobacz także strony: _.
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
 -   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania wartości współrzędnych długości i kątów: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
 -   Aby zmienić wartość początkową trybu wypełnienia: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Wypełniaj obiekty powierzchniami, gdy tylko jest to możliwe**. Zmiana trybu wypełnienia w panelu zadań spowoduje nadpisanie tych preferencji dla bieżącej sesji programu FreeCAD.
@@ -128,7 +128,7 @@ Obiekt polilinia wywodzi się z obiektu [Część: Part2DObject](Part_Part2DObje
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę: _.
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy pisania skryptów dla FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Aby utworzyć polilinię użyj metody `make_wire` modułu Rysunek Roboczy ({{Version/pl|0.19}}). Ta metoda zastępuje przestarzałą metodę `makeWire`.
 

@@ -37,7 +37,7 @@ Wszystkie ustawienia preferencji z etykietami pisanymi *kursywą* są wartościa
 -   \'\'\' Katalog szablonów \'\'\': Katalog startowy dla przycisku narzędzia **<img src="images/TechDraw_PageTemplate.svg" width=16px> [Wstaw nową stronę za pomocą szablonu](TechDraw_PageTemplate.md)**.
 -   **Plik obrazka kreskowania**: Domyślnie [SVG](SVG.md) lub [bitmapa](bitmap.md) dla pliku **<img src="images/TechDraw_Hatch.svg" width=16px> [Kreskowanie powierzchni za pomocą pliku graficznego](TechDraw_Hatch.md)**.
 -   **Plik grupy linii**: Alternatywny plik dla osobistych definicji [LineGroup](TechDraw_LineGroup.md).
--   **Katalog spawalniczy**: Domyślny katalog dla przycisku narzędzia **<img src=images/TechDraw_WeldSymbol.svg style="width:16px"> [Symboli spawalniczych](TechDraw_WeldSymbol.md)**. {{Version/pl|0.19}}
+-   **Katalog spawalniczy**: Domyślny katalog dla przycisku narzędzia **[<img src=images/TechDraw_WeldSymbol.svg style="width:16px"> [Symboli spawalniczych](TechDraw_WeldSymbol.md)**. {{Version/pl|0.19}}
 -   **Plik PAT**: Domyślny plik definicji wzoru PAT dla **<img src="images/TechDraw_GeometricHatch.svg" width=16px> [Kreskowanie powierzchni za pomocą pliku graficznego](TechDraw_GeometricHatch.md)**.
 -   \'\'\'\' Nazwa wzoru \'\'\': Nazwa domyślnego wzoru PAT.
 
@@ -194,7 +194,7 @@ Niektóre ustawienia preferencji są dostępne tylko poprzez [Edytor parametrów
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/pl

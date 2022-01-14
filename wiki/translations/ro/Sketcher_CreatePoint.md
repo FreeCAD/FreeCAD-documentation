@@ -15,7 +15,7 @@ Instrumentul Point creează un punct în schița curentă, care poate fi utiliza
 
 </div>
 
-_
+[480px\|Point in the sketcher](IMAGE:Sketcher_Point_fr_01.png.md)
 
 
 <div class="mw-translate-fuzzy">

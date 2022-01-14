@@ -15,7 +15,7 @@ CSG sta per [Geometria solida costruttiva](https://en.wikipedia.org/wiki/Constru
 
 <div class="mw-translate-fuzzy">
 
-Come si è visto in precedenza in questo manuale, FreeCAD è in grado di gestire diversi tipi di geometrie, ma il tipo preferito e più utile per gli oggetti 3D che si vogliono progettare con FreeCAD, cioè gli oggetti del mondo reale, è, senza dubbio , quella solida, la geometria _. A differenza dei [poligoni mesh](https://en.wikipedia.org/wiki/Polygon_mesh), che sono fatti solo di punti e triangoli, gli oggetti BREP hanno le loro facce definite da curve matematiche che permettono una precisione assoluta, a prescindere dalla scala.
+Come si è visto in precedenza in questo manuale, FreeCAD è in grado di gestire diversi tipi di geometrie, ma il tipo preferito e più utile per gli oggetti 3D che si vogliono progettare con FreeCAD, cioè gli oggetti del mondo reale, è, senza dubbio , quella solida, la geometria [BREP](https://en.wikipedia.org/wiki/Boundary_representation) che viene gestita principalmente dall\'ambiente [Part](Part_Workbench.md). A differenza dei [poligoni mesh](https://en.wikipedia.org/wiki/Polygon_mesh), che sono fatti solo di punti e triangoli, gli oggetti BREP hanno le loro facce definite da curve matematiche che permettono una precisione assoluta, a prescindere dalla scala.
 
 
 </div>
@@ -185,7 +185,7 @@ Si può guardare il tavolo di cui sopra, e pensare il suo design non è buono. I
 
 </div>
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional modeling, the CSG way/it

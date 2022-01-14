@@ -41,7 +41,7 @@ Creare il filetto richiede molto tempo. Siate pazienti e date un\'occhiata all\'
 
 <div class="mw-translate-fuzzy">
 
-L\'ultima versione della macro è disponibile all\'indirizzo _.
+L\'ultima versione della macro è disponibile all\'indirizzo [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro) ma il modo più semplice per installare questa macro è tramite [Addon Manager](Std_AddonMgr/it.md).
 
 
 </div>

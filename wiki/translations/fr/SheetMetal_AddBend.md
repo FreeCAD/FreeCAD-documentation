@@ -35,7 +35,7 @@ Cette commande est la troisième des trois étapes permettant de convertir un ob
 
 ## Remarques
 
-Les commandes <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **_** et <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[SheetMetal Transformation en pli](SheetMetal_AddBend/fr.md)** fonctionnent mieux avec des cuboïdes creux, c\'est-à-dire des objets en forme de coque avec une épaisseur constante et seulement des angles de 90° entre les faces.
+Les commandes <img alt="" src=images/SheetMetal_AddRelief.svg  style="width:16px;"> **[SheetMetal Grugeage carré](SheetMetal_AddRelief/fr.md)**, <img alt="" src=images/SheetMetal_AddJunction.svg  style="width:16px;"> **[SheetMetal Découpe d\'angle](SheetMetal_AddJunction/fr.md)** et <img alt="" src=images/SheetMetal_AddBend.svg  style="width:16px;"> **[SheetMetal Transformation en pli](SheetMetal_AddBend/fr.md)** fonctionnent mieux avec des cuboïdes creux, c\'est-à-dire des objets en forme de coque avec une épaisseur constante et seulement des angles de 90° entre les faces.
 
 Voir [SheetMetal Grugeage carré](SheetMetal_AddRelief/fr#Remarque.md) pour des conseils sur la création d\'objets coques de cuboïdes.
 
@@ -68,7 +68,7 @@ Un objet SheetMetal Transformation en pli est dérivé d\'un objet [Part Feature
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal AddBend/fr

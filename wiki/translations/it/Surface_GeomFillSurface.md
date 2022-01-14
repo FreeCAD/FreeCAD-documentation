@@ -34,7 +34,7 @@ Lo strumento <img alt="" src=images/Surface_GeomFillSurface.svg  style="width:16
 
 <div class="mw-translate-fuzzy">
 
-1.  Premere il pulsante **<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Fill boundary curves](Surface_GeomFillSurface/it.md)**.
+1.  Premere il pulsante **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [Fill boundary curves](Surface_GeomFillSurface/it.md)**.
 2.  Selezionare i bordi nella vista 3D. I bordi devono connettersi per dare un profilo chiuso.
 3.  Impostare le opzioni e premere **OK**.
 
@@ -58,7 +58,7 @@ Sono disponibili tre diversi stili di riempimento: Curved, [Coons](https://en.wi
 
 ## Proprietà
 
-A _ (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
+A [Surface GeomFillSurface](Surface_GeomFillSurface.md) (`Surface::GeomFillSurface` class) is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [Part Feature](Part_Feature.md), the Surface Filling has the following properties in the [property editor](Property_editor.md).
 
@@ -91,13 +91,13 @@ In addition to the properties described in [Part Feature](Part_Feature.md), the 
 
 ## Twisting of the surface 
 
-The shape of the surface depends on the direction of the chosen edges; if edges are selected and the result is a surface that \"twists\" on itself, one of the edges may need its list of vertices in the reverse order. A surface that twists on itself will probably have self-intersections, and thus will be an invalid <img src=images/Part_CheckGeometry.svg style="width:Shape](Part_TopoShape.md); this can be verified with **[16px"> [Part CheckGeometry](Part_CheckGeometry.md)**.
+The shape of the surface depends on the direction of the chosen edges; if edges are selected and the result is a surface that \"twists\" on itself, one of the edges may need its list of vertices in the reverse order. A surface that twists on itself will probably have self-intersections, and thus will be an invalid [Shape](Part_TopoShape.md); this can be verified with **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part CheckGeometry](Part_CheckGeometry.md)**.
 
 For example, if two curves have the points 
 ```python
 curve1 = [a, b, c, d]
 curve2 = [e, f, g]
-``` and the resulting surface after using **<img src=images/Surface_GeomFillSurface.svg style="width:16px"> <img src=images/Surface_Sections.svg style="width:GeomFillSurface](Surface_GeomFillSurface.md)** or **[16px"> [Sections](Surface_Sections.md)** is a twisted surface, you may create a third curve that is equal to one of the two original curves but with a reversed list of points.
+``` and the resulting surface after using **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [GeomFillSurface](Surface_GeomFillSurface.md)** or **[<img src=images/Surface_Sections.svg style="width:16px"> [Sections](Surface_Sections.md)** is a twisted surface, you may create a third curve that is equal to one of the two original curves but with a reversed list of points.
 
 Either 
 ```python

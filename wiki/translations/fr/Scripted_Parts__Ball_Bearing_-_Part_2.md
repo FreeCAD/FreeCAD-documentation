@@ -64,13 +64,13 @@ Le flux de travail approprié basé sur sketcher (l\'esquisseur) pour insérer l
 -   Cette opération répétitive peut être programmée avec une boucle
 
 Maintenant, ce n\'est pas efficace, insérer des primitives et les positionner est plus facile et plus rapide dans ce cas.
-Nous utilisons donc la même méthode que dans \"_\".
+Nous utilisons donc la même méthode que dans \"[Objets scriptés \"Part\" : Roulement à billes - Partie 1](Scripted_Parts:_Ball_Bearing_-_Part_1/fr.md)\".
 
 ### Liens
 
 [Objets créés par script](Scripted_objects/fr.md) : La page wiki expliquant les bases du langage de script
 [Scripts pour création topologique](Topological_data_scripting/fr.md) : Un tutoriel qui couvre les bases de la création de scripts
-_ : Le faire avec des esquisses
+[Objets scriptés \"Part\" : Roulement à billes - Partie 1](Scripted_Parts:_Ball_Bearing_-_Part_1/fr.md) : Le faire avec des esquisses
 [Bearings from scripted sketches](http://linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html) : Base utilisée pour ce tutoriel, grâce à JMG \...
 
 ### Code
@@ -176,7 +176,7 @@ Gui.SendMsgToActiveView("ViewFit")
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripted Parts: Ball Bearing - Part 2/fr

@@ -11,7 +11,7 @@ W programie FreeCAD środowiskiem pracy odpowiedzialnym za tworzenie takich rysu
 
 Arkusze rysunków, po ukończeniu, można wydrukować lub wyeksportować jako pliki w formacie [SVG](https://en.wikipedia.org/wiki/Scalable_Vector_Graphics), PDF lub [DXF](https://en.wikipedia.org/wiki/AutoCAD_DXF).
 
-W poniższym ćwiczeniu zobaczymy, jak stworzyć prosty rysunek modelu krzesła znajdującego się w bibliotece _ tego podręcznika)*, lub możesz po prostu pobrać model ze strony internetowej biblioteki, lub za pośrednictwem bezpośredniego łącza podanyego na dole tego rozdziału.
+W poniższym ćwiczeniu zobaczymy, jak stworzyć prosty rysunek modelu krzesła znajdującego się w bibliotece [FreeCAD](https://github.com/FreeCAD/FreeCAD-library) *(Furniture → Chairs → IkeaLikeChair)*. Biblioteka FreeCAD, może być łatwo dodana do Twojej instalacji programu *(patrz rozdział [instalacja](Manual:Installing/pl.md) tego podręcznika)*, lub możesz po prostu pobrać model ze strony internetowej biblioteki, lub za pośrednictwem bezpośredniego łącza podanyego na dole tego rozdziału.
 
 ![](images/Exercise_TechDraw_01.svg )
 
@@ -44,12 +44,12 @@ W poniższym ćwiczeniu zobaczymy, jak stworzyć prosty rysunek modelu krzesła 
 
 ![](images/Exercise_TechDraw_04.png )
 
--   Zwróć uwagę, że mogą być łatwiejsze sposoby na uzyskanie widoku, którego potrzebujesz. Możesz po prostu _ swój model w widoku 3D, a gdy już będziesz miał odpowiedni widok, wybierz model w widoku drzewa i naciśnij przycisk <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> Nowy widok. Spowoduje to automatyczne wstawienie widoku z żądanymi właściwościami obrotu i kierunku. Możesz również użyć narzędzia <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:16px;"> [Grupa rzutów](TechDraw_ProjectionGroup/pl.md)
+-   Zwróć uwagę, że mogą być łatwiejsze sposoby na uzyskanie widoku, którego potrzebujesz. Możesz po prostu [obrócić](Manual_Navigating_in_the_3D_view.md) swój model w widoku 3D, a gdy już będziesz miał odpowiedni widok, wybierz model w widoku drzewa i naciśnij przycisk <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> Nowy widok. Spowoduje to automatyczne wstawienie widoku z żądanymi właściwościami obrotu i kierunku. Możesz również użyć narzędzia <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:16px;"> [Grupa rzutów](TechDraw_ProjectionGroup/pl.md)
 
 -   Możemy dopasować ustawienia naszych widoków jeśli chcemy, na przykład możemy zmienić ich właściwość **Szerokość linii** *(pod zakładką Widok w okienku widoku połączonego)* na 0.5.
 
 Teraz umieścimy wymiary i oznaczenia na naszym rysunku. Istnieją dwa sposoby dodawania wymiarów do modelu:
-pierwszy polega na umieszczeniu wymiarów w modelu 3D za pomocą narzędzia <img alt="" src=images/_Draft_Dimension.svg  style="width:16px;"> _.
+pierwszy polega na umieszczeniu wymiarów w modelu 3D za pomocą narzędzia <img alt="" src=images/_Draft_Dimension.svg  style="width:16px;"> [Dimension](Draft_Dimension/pl.md) z Środowiska pracy [Draft](Draft_Workbench/pl.md), a następnie umieszczenie widoku tych wymiarów na naszym arkuszu za pomocą narzędzia <img alt="" src=images/TechDraw_DraftView.svg  style="width:16px;"> [Nowy rysunek roboczy](TechDraw_DraftView/pl.md).
 Drugi to wykonywanie czynności bezpośrednio na arkuszu Rysunku Technicznego. Użyjemy tej drugiej metody.
 
 -   Wciśnij przycisk <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> Przełącznik do włączania widoku wierzchołków.
@@ -58,9 +58,9 @@ Drugi to wykonywanie czynności bezpośrednio na arkuszu Rysunku Technicznego. U
 
 ![](images/Exercise_TechDraw_05.png )
 
--   Powtarzaj tą operację, aż wszystkie wymiary, które chcesz określić, zostaną umieszczone. Użyj narzędzia <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> _ w razie potrzeby.
+-   Powtarzaj tą operację, aż wszystkie wymiary, które chcesz określić, zostaną umieszczone. Użyj narzędzia <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> [Wstaw wymiar pionowy](TechDraw_VerticalDimension/pl.md) i <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:16px;"> [Wstaw wymiar poziomy](TechDraw_HorizontalDimension.md) w razie potrzeby.
 -   Poświęć chwilę, aby spojrzeć na [właściwości](TechDraw_LengthDimension/pl#Właściwości.md) obiektu **Wymiar długości** w okienku widoku połączonego.
--   Zwróć uwagę, że jeśli wymiarujesz widok _, aby uzyskać dokładny wymiar.
+-   Zwróć uwagę, że jeśli wymiarujesz widok [aksonometryczny](https://en.wikipedia.org/wiki/Axonometric_projection) *(np. izometryczny)* zamiast [wieloekranowego](https://en.wikipedia.org/wiki/Multiview_projection) *(np. widok z przodu)*, tak jak zrobiliśmy to tutaj, będziesz musiał użyć <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:16px;"> [powiązania wymiaru](TechDraw_LinkDimension/pl.md), aby uzyskać dokładny wymiar.
 
 ![](images/Exercise_TechDraw_07.png )
 
@@ -80,7 +80,7 @@ Drugi to wykonywanie czynności bezpośrednio na arkuszu Rysunku Technicznego. U
     -   Upewnij się, że ramki, etykiety i wierzchołki Widoku są widoczne. Jeśli nie, kliknij na przycisk przełączania <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;">.
     -   Edytuj tekst w każdej części bloku tytułowego arkusza, klikając na mały zielony kwadrat po lewej stronie tekstu.
 
-Nasza strona może być teraz eksportowana do formatu SVG w celu dalszej pracy w aplikacjach graficznych, takich jak _ wybierz stronę, a następnie opcję z menu **Plik → Eksport**. Format DXF jest importowalny w prawie wszystkich istniejących aplikacjach 2D CAD. Strony TechDraw mogą być również bezpośrednio drukowane lub eksportowane do formatu PDF.
+Nasza strona może być teraz eksportowana do formatu SVG w celu dalszej pracy w aplikacjach graficznych, takich jak [Inkscape](http://www.inkscape.org) lub DXF. W [widoku drzewa](tree_view/pl.md) wybierz stronę, a następnie opcję z menu **Plik → Eksport**. Format DXF jest importowalny w prawie wszystkich istniejących aplikacjach 2D CAD. Strony TechDraw mogą być również bezpośrednio drukowane lub eksportowane do formatu PDF.
 
 **Do pobrania**
 
@@ -103,7 +103,7 @@ Nasza strona może być teraz eksportowana do formatu SVG w celu dalszej pracy w
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Generating 2D drawings/pl

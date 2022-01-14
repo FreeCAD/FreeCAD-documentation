@@ -65,7 +65,7 @@ Read more in [topological naming problem](topological_naming_problem.md).
 
 ## Scripting
 
-The tool **_ [Fillet](PartDesign_Fillet.md)** can be used in a macro, and, from the Python console using the following function:
+The tool **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.svg.md) [Fillet](PartDesign_Fillet.md)** can be used in a macro, and, from the Python console using the following function:
 
 
 ```python

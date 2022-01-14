@@ -28,7 +28,7 @@ Bu araç, model görünümünü çizim düzlemine dik olarak ayarlar. Kullanıc�
 
 Eskiz düzenleme modundayken ya da
 
--   Eskiz veya Parça tasarım araç çubuğundan **_'''Eskiz görünümü'''** basınız veya
+-   Eskiz veya Parça tasarım araç çubuğundan **[16px|View sketch icon](File:Sketcher_ViewSketch.png.md)'''Eskiz görünümü'''** basınız veya
 -   Menüden **Eskiz → Eskiz görünümü**
 
 

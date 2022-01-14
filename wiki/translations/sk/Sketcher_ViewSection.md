@@ -20,7 +20,7 @@ Nástroj \"Zobrazenie rezu\" vytvorí reznú rovinu, ktorá dočasne skryje aký
 
 Tento príkaz môžete spustiť viacerými spôsobmi:
 
--   Stlačte tlačidlo **<img src=images/Sketcher_ViewSection.svg style="width:16px"> [Zobraziť rez](Sketcher_ViewSection.md)** na zmenu medzi zobrazením rezu a plným zobrazením.
+-   Stlačte tlačidlo **[<img src=images/Sketcher_ViewSection.svg style="width:16px"> [Zobraziť rez](Sketcher_ViewSection.md)** na zmenu medzi zobrazením rezu a plným zobrazením.
 -   Použite príkaz **Náčrt → Zobraziť rez** z rozbaľovacieho menu.
 
 

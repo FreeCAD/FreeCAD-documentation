@@ -1,5 +1,5 @@
 # Dxf Importer Install/it
-{{TutorialInfo/it|Topic=SampleClass|Level=Utente medio|Time=15 minuti|Author=_|FCVersion=Tutte}}
+{{TutorialInfo/it|Topic=SampleClass|Level=Utente medio|Time=15 minuti|Author=[Mario52](User_Mario52.md)|FCVersion=Tutte}}
 
 ### Descrizione
 

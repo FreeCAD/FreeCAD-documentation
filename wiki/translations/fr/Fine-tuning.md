@@ -80,7 +80,7 @@ L\'étiquette dans Sketcher qui affiche l\'état en cours des contraintes (par e
 
 ### Touche Echap 
 
--   **General/TasksKeyEsc** (booléen): Créez et mettez à `False` pour désactiver la touche **Echap** sortant du _.
+-   **General/TasksKeyEsc** (booléen): Créez et mettez à `False` pour désactiver la touche **Echap** sortant du [Panneau des tâches](Task_panel/fr.md) dans tous les ateliers (c\'est-à-dire si le panneau des tâches a le focus). **Remarque:** remplacé par [Sketcher Préférences](Sketcher_Preferences/fr#G.C3.A9n.C3.A9ral.md).
 -   **Mod/Sketcher/ViewKeyEsc** (booléen): Créez et mettez à `False` pour désactiver les problèmes de la touche **Echap** en appuyant une à plusieurs fois, lors de l\'échappement de la création de géométrie/contraintes mode continue. (voir [fil de discussion](https://forum.freecadweb.org/viewtopic.php?f=3&t=42207&start=60#p367584))
 
 ## Ateliers particuliers 
@@ -98,7 +98,7 @@ L\'étiquette dans Sketcher qui affiche l\'état en cours des contraintes (par e
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Fine-tuning/fr

@@ -25,7 +25,7 @@ In den meisten üblichen Szenarien wird im Folgenden der erwartete Ausgabeformty
 -   extrudieren eines offenen Drahts (z.B. Entwurf Draht) wird wahlweise eine offene Hülle (mehrere verbundene Flächen) erzeugen
 -   extrudieren eines geschlossenen Linienzuges (z.B. Draft Linienzug) wird wahlweise eine Hülle (mehrere angeschlossene Flächen) oder wenn der Parameter *Festkörper* `True` ist, einen Festkörper erzeugen
 -   extrudieren einer Fläche (z.B. Ebene) wird einen Festkörper (z.B. Quader) erzeugen
--   extrudieren eines **<img src=images/Draft_ShapeString.svg style="width:16px"> [Entwurf Form Zeichenfolge](Draft_ShapeString.md)** wird einen Verbund von Festkörpern (die Zeichenfolge ist ein Verbund der Buchstaben, die ebenfalls Festkörper sind) erzeugen
+-   extrudieren eines **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Entwurf Form Zeichenfolge](Draft_ShapeString.md)** wird einen Verbund von Festkörpern (die Zeichenfolge ist ein Verbund der Buchstaben, die ebenfalls Festkörper sind) erzeugen
 -   extrudieren einer Hülle von Flächen wird ein Verbundfestkörper erzeugt
 
 

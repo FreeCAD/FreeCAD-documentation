@@ -40,7 +40,7 @@ The <img alt="" src=images/Fasteners_Move.svg  style="width:24px;"> **Fasteners 
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Fasteners Move/pl

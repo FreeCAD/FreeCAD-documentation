@@ -170,7 +170,7 @@ See instructions for Linux above
 
 ## Other useful links 
 
--   <img alt="PartDesign\_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> _ feature.
+-   <img alt="PartDesign\_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> [PartDesign InvoluteGear](PartDesign_InvoluteGear.md): This tool allows for the creation of a 2D profile of an Involute gear. This 2D profile is fully parametric, and can be padded with the [PartDesign Pad](PartDesign_Pad.md) feature.
 -   [External Workbenches](External_workbenches.md): A list of all current external workbenches of FreeCAD
 -   [Macros recipes](Macros_recipes.md)
 -   [The cycloidal gearing (german)](https://vivat-geo.de/zykloidenverzahnung.html)
@@ -178,7 +178,7 @@ See instructions for Linux above
 
  
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> FCGear](Category_FCGear.md)
 
 ---
 [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > FCGear Workbench

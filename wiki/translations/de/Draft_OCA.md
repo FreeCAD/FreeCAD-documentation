@@ -12,7 +12,7 @@
 
 ## Beschreibung
 
-Entwurf OCA ist ein Softwaremodul, das von den <img alt="" src=images/Std_Open.svg  style="width:24px;"> _ und <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Export](Std_Export/de.md) Befehle, um das [OCA Dateiformat](http://groups.google.com/group/open_cad_format) zu verarbeiten.
+Entwurf OCA ist ein Softwaremodul, das von den <img alt="" src=images/Std_Open.svg  style="width:24px;"> [Std Open](Std_Open/de.md), <img alt="" src=images/Std_Import.svg  style="width:24px;"> [Std Import](Std_Import/de.md) und <img alt="" src=images/Std_Export.svg  style="width:24px;"> [Std Export](Std_Export/de.md) Befehle, um das [OCA Dateiformat](http://groups.google.com/group/open_cad_format) zu verarbeiten.
 
 
 <div class="mw-translate-fuzzy">
@@ -109,7 +109,7 @@ importOCA.export(objects, "/home/user/Pictures/myfile.oca")
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> File Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Draft](Draft_Workbench.md) > Draft OCA/de

@@ -1,5 +1,5 @@
 # Release notes 0.14/fr
-FreeCAD 0.14 a été publié le 1er juillet 2014. Ceci est un résumé des changements les plus intéressants survenus dans FreeCAD depuis la dernière version. Voir _ - [0.12](Release_notes_0.12/fr.md) - [0.11](Release_notes_0.11/fr.md)
+FreeCAD 0.14 a été publié le 1er juillet 2014. Ceci est un résumé des changements les plus intéressants survenus dans FreeCAD depuis la dernière version. Voir [sur Mantis (en anglais)](http://www.freecadweb.org/tracker/changelog_page.php) pour la liste complète des changements. Versions plus anciennes : [0.13](Release_notes_0.13/fr.md) - [0.12](Release_notes_0.12/fr.md) - [0.11](Release_notes_0.11/fr.md)
 
 <img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
 
@@ -79,7 +79,7 @@ L\'[atelier Part](Part_Workbench/fr.md) comprend maintenant un outil [Créer un 
 
 ### Primitives
 
-De nouvelles formes primitives ont été ajoutées à l\'outil _ tirent parti de cette fonctionnalité et peuvent créer ces formes primitives en lieu et place des objets Draft correspondants, quand l\'option appropriée est sélectionnée dans les paramètres généraux de Draft.
+De nouvelles formes primitives ont été ajoutées à l\'outil [Création de primitives](Part_CreatePrimitives/fr.md) : des prismes, polygones réguliers et des spirales peuvent maintenant être créées facilement en saisissant quelques paramètres. En outre, plusieurs outils de l\'[atelier Draft](Draft_Workbench/fr.md) tirent parti de cette fonctionnalité et peuvent créer ces formes primitives en lieu et place des objets Draft correspondants, quand l\'option appropriée est sélectionnée dans les paramètres généraux de Draft.
 
 ![](images/Part_Create_Primitives1.jpeg )
 
@@ -123,7 +123,7 @@ Les scripts .pov produits par FreeCAD contiennent maintenant un ratio d\'aspect 
 
 ### Support de LuxRender 
 
-En même temps que le support pour _ supporte maintenant aussi [LuxRender](http://fr.wikipedia.org/wiki/LuxRender). Alors que POV-Ray est un [moteur de lancer de rayon classique](http://fr.wikipedia.org/wiki/Lancer_de_rayon) qui lance des rayons depuis la caméra afin de trouver la couleur de chaque pixel d\'une image, LuxRender est un [moteur de rendu non biaisé](http://en.wikipedia.org/wiki/Unbiased_rendering). Les scènes prennent beaucoup plus de temps à rendre, mais produisent un éclairage bien plus réaliste.
+En même temps que le support pour [POV-Ray](http://fr.wikipedia.org/wiki/Pov-ray), l\'[atelier Raytracing](Raytracing_Workbench/fr.md) supporte maintenant aussi [LuxRender](http://fr.wikipedia.org/wiki/LuxRender). Alors que POV-Ray est un [moteur de lancer de rayon classique](http://fr.wikipedia.org/wiki/Lancer_de_rayon) qui lance des rayons depuis la caméra afin de trouver la couleur de chaque pixel d\'une image, LuxRender est un [moteur de rendu non biaisé](http://en.wikipedia.org/wiki/Unbiased_rendering). Les scènes prennent beaucoup plus de temps à rendre, mais produisent un éclairage bien plus réaliste.
 
 ## Tableur
 
@@ -135,7 +135,7 @@ Un nouveau [Tableur](Spreadsheet_Workbench/fr.md) a été ajouté à FreeCAD. Il
 
 ### Importation/exportation DWG 
 
-FreeCAD est maintenant capable d\'importer et d\'exporter le _.
+FreeCAD est maintenant capable d\'importer et d\'exporter le [format DWG](https://fr.wikipedia.org/wiki/.dwg), merci au logiciel gratuit et multi-plateforme [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter). Une fois qu\'il es installé et son chemin d\'accès défini dans les préférences de l\'atelier Draft, FreeCAD pourra l\'utiliser pour importer et exporter des fichiers DWG, en les convertissant d\'abord en DXF puis en utilisant la fonction importation/exportation de DXF de l\'atelier Draft. L\'importation et l\'exportation des fichier DWG ont par conséquent les même limitations que pour le [format DXF](Draft_DXF/fr.md).
 
 ### Draft vers Plan fonctionne avec les groupes 
 
@@ -143,13 +143,13 @@ L\'outil [Draft vers Mise en plan](Draft_Drawing/fr.md), qui sert à placer des 
 
 ### Cotations recodées 
 
-L\'outil _. Vous pouvez maintenant placer des cotes sur n\'importe quel plan dans l\'espace 3D, et vous attendre à des résultats corrects quand vous les projetez sur une feuille de mise en plan avec l\'outil [Dessin](Draft_Drawing/fr.md).
+L\'outil [Cote](Draft_Dimension/fr.md) a été complètement recodé: les cotes se comportent maintenant beaucoup mieux et elles ont gagné quelques nouvelles propriétés permettant de mieux les affiner, comme de plus belles flèches à taille variable, plus de contrôle sur la position du texte et la direction de la cote, et surtout un meilleur support de l\'atelier [Drawing (mise en plan)](Drawing_Workbench/fr.md). Vous pouvez maintenant placer des cotes sur n\'importe quel plan dans l\'espace 3D, et vous attendre à des résultats corrects quand vous les projetez sur une feuille de mise en plan avec l\'outil [Dessin](Draft_Drawing/fr.md).
 
 <img alt="" src=images/Draft_dimensions_recode.jpg  style="width:1024px;">
 
 ### Hachures
 
-L\'_.
+L\'[atelier Draft](Draft_Workbench/fr.md) propose aussi un nouveau « jouet » : les hachures. Sur des objets Draft spécifiques (ceux qui forment un profil fermé comme les polylignes fermées, les rectangles, les polygones réguliers et les cercles), il est maintenant possible d\'appliquer des hachures. À l\'heure actuelle, seulement quelques motifs de hachure par défaut sont disponibles, mais puisque ces motifs sont très facile à créer (il s\'agit de simples fichiers SVG) et que des motifs personnalisés peuvent déjà être ajouté par l\'utilisateur, la collection de base pourraît croître rapidement. Les objets Draft contenant un motif sont aussi pleinement supportés par l\'atelier [Drawing (mise en plan)](Drawing_Workbench/fr.md).
 
 <img alt="" src=images/Draft_hatches.jpg  style="width:1024px;">
 
@@ -167,7 +167,7 @@ Les outils [Mise à niveau](Draft_Upgrade/fr.md) et [Rétrograder](Draft_Downgra
 
 ### Copie de face 
 
-Le nouvel outil _, en construisant de nouveaux objets à partir des faces de plusieurs autres objets.
+Le nouvel outil [Facebinder](Draft_Facebinder/fr.md) effectue une opération très simple mais potentiellement très utile : il assemble un groupe de faces sélectionnées depuis différents objets, et créé un nouvel objet à partir de ces faces. Le nouvel objet conserve des liens avec les objets initiaux, donc tout changement de ceux-ci se reflète sur l\'objet Facebinder. Ceci devrait s\'avérer utile surtout pour les objets [architecturaux](Arch_Workbench/fr.md), en construisant de nouveaux objets à partir des faces de plusieurs autres objets.
 
 ### Texte surfacique 
 
@@ -175,13 +175,13 @@ L\'outil [Draft ShapeString](Draft_ShapeString/fr.md) créé des objets planaire
 
 ### Courbes de Bézier 
 
-Un nouveau type de courbe accompagne désormais les _. Elles peuvent être créées en cliquant des points de la même manière que les autres objets Draft, mais vous pouvez ensuite les [éditer](Draft_Edit/fr.md) et modifier leurs points de contrôle, obtenant ainsi un contrôle très précis sur la forme de la courbe.
+Un nouveau type de courbe accompagne désormais les [arcs de cercle](Draft_Arc/fr.md) et les [courbes BSpline](Draft_BSpline/fr.md) : les [courbes de Bézier](Draft_BezCurve/fr.md). Elles peuvent être créées en cliquant des points de la même manière que les autres objets Draft, mais vous pouvez ensuite les [éditer](Draft_Edit/fr.md) et modifier leurs points de contrôle, obtenant ainsi un contrôle très précis sur la forme de la courbe.
 
 ## Architecture
 
 ### Préréglages et profilés de structures 
 
-L\'outil _. Vous pouvez maintenant également donner un chemin d\'extrusion aux éléments structurels afin de rendre possible des configurations avancés. Certaine des pièces offertes par _ peuvent aussi être directement créées comme des éléments structurels architecturaux.
+L\'outil [Structure](Arch_Structure/fr.md) a gagné plusieurs améliorations : il comporte maintenant des préréglages qui permettent de construire des poutres ou des colonnes basées sur des profils standards comme INP ou HEB, et un système de placement plus facile avec un mode spécial d\'[accrochage](Draft_Snap/fr.md). Vous pouvez maintenant également donner un chemin d\'extrusion aux éléments structurels afin de rendre possible des configurations avancés. Certaine des pièces offertes par [BOLTS](#Modules_d.27extension_et_projets_parall.C3.A8les_:_biblioth.C3.A8que_de_Pi.C3.A8ces.2C_BOLTS.2C_importateur_Eagle.md) peuvent aussi être directement créées comme des éléments structurels architecturaux.
 
 ### Préréglages des fenêtres 
 
@@ -195,7 +195,7 @@ Un nouvel objet [Espace](Arch_Space/fr.md) est maintenant disponible, permettant
 
 ### Murs multicouches 
 
-Les _ de créer par exemple des murs complexes à ossature, ou des murs isolés. En outre, ces murs sont conscients de leurs « frères » (d\'autres murs basés sur une même ligne de référence) et toute fenêtre placée sur l\'un de ces murs passera également à travers des autres murs.
+Les [Murs](Arch_Wall/fr.md) peuvent maintenant être multicouches à l\'aide d\'une astuce très simple : plusieurs murs peuvent partager la même ligne référence, en définissant la distance de décalage depuis la ligne de référence. Ceci permet, en conjonction avec les [ossatures](Arch_Frame/fr.md) de créer par exemple des murs complexes à ossature, ou des murs isolés. En outre, ces murs sont conscients de leurs « frères » (d\'autres murs basés sur une même ligne de référence) et toute fenêtre placée sur l\'un de ces murs passera également à travers des autres murs.
 
 <img alt="" src=images/Screenshot_arch_multiwall.jpg  style="width:1024px;">
 
@@ -229,7 +229,7 @@ Beaucoup de travail a été accompli à la fois sur FreeCAD et [IfcOpenShell](ht
 
 La liste complète des corrections de bogues et des nouvelles fonctionnalités peut être consultée sur <http://freecadweb.org/tracker/changelog_page.php>
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > Release notes 0.14/fr

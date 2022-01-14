@@ -85,7 +85,7 @@ Lea más en [problema de denominación topológica](topological_naming_problem/e
 
 <div class="mw-translate-fuzzy">
 
-La herramienta **_ [Redondeo](PartDesign_Fillet/es.md)** puede ser usada en una macro, y, desde la consola Python usando la siguiente función :
+La herramienta **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.svg.md) [Redondeo](PartDesign_Fillet/es.md)** puede ser usada en una macro, y, desde la consola Python usando la siguiente función :
 
 
 </div>

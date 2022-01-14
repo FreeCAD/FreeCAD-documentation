@@ -1,16 +1,16 @@
 # Category:Categories/es
 Esta es la **categoría de nivel superior** que contiene las principales categorías de la wiki de FreeCAD. Por favor, utiliza categorías para clasificar todos los artículos. Utiliza las siguientes herramientas para trabajar con categorías. Para ver una lista de
 
--   todas las categorías definidas, navega a través de la jerarquía definida a partir de *aquí* o echa un vistazo a la _.
--   todos los *artículos* que *no están clasificados*, utiliza el _.
--   todas las *categorías* que *no están clasificadas*, utiliza el _.
--   todas las *imágenes* que *no están clasificadas*, utiliza el _.
+-   todas las categorías definidas, navega a través de la jerarquía definida a partir de *aquí* o echa un vistazo a la [lista de todas las categorías](Special_Categories.md).
+-   todos los *artículos* que *no están clasificados*, utiliza el [listado de páginas sin categoría](Special_Uncategorizedpages.md).
+-   todas las *categorías* que *no están clasificadas*, utiliza el [listado de categorías no clasificadas](Special_Uncategorizedcategories.md).
+-   todas las *imágenes* que *no están clasificadas*, utiliza el [listado de imágenes no clasificadas](Special_Uncategorizedimages.md).
 
 ### Contents:
 
 , , , , , , , , , , , , , , , , ,
 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[<img src="images/Property.png" style="width:16px"> Categories/es](<img src="images/Property.png" style="width:16px"> Categories/es.md) [<img src="images/Property.png" style="width:16px"> Addons/es](<img src="images/Property.png" style="width:16px"> Addons/es.md) [<img src="images/Property.png" style="width:16px"> Administration/es](<img src="images/Property.png" style="width:16px"> Administration/es.md) [<img src="images/Property.png" style="width:16px"> API/es](<img src="images/Property.png" style="width:16px"> API/es.md) [<img src="images/Property.png" style="width:16px"> Categories/es](<img src="images/Property.png" style="width:16px"> Categories/es.md) [<img src="images/Property.png" style="width:16px"> Command Reference/es](<img src="images/Property.png" style="width:16px"> Command_Reference/es.md) [<img src="images/Property.png" style="width:16px"> Developer/es](<img src="images/Property.png" style="width:16px"> Developer/es.md) [<img src="images/Property.png" style="width:16px"> Documentation/es](<img src="images/Property.png" style="width:16px"> Documentation/es.md) [<img src="images/Property.png" style="width:16px"> Help/es](<img src="images/Property.png" style="width:16px"> Help/es.md) [<img src="images/Property.png" style="width:16px"> Hubs/es](<img src="images/Property.png" style="width:16px"> Hubs/es.md) [<img src="images/Property.png" style="width:16px"> Image/es](<img src="images/Property.png" style="width:16px"> Image/es.md) [<img src="images/Property.png" style="width:16px"> Macros/es](<img src="images/Property.png" style="width:16px"> Macros/es.md) [<img src="images/Property.png" style="width:16px"> News/es](<img src="images/Property.png" style="width:16px"> News/es.md) [<img src="images/Property.png" style="width:16px"> Python Code/es](<img src="images/Property.png" style="width:16px"> Python_Code/es.md) [<img src="images/Property.png" style="width:16px"> Repository/es](<img src="images/Property.png" style="width:16px"> Repository/es.md) [<img src="images/Property.png" style="width:16px"> Roadmap/es](<img src="images/Property.png" style="width:16px"> Roadmap/es.md) [<img src="images/Property.png" style="width:16px"> Template/es](<img src="images/Property.png" style="width:16px"> Template/es.md) [<img src="images/Property.png" style="width:16px"> Tutorials/es](<img src="images/Property.png" style="width:16px"> Tutorials/es.md) [<img src="images/Property.png" style="width:16px"> Wiki/es](<img src="images/Property.png" style="width:16px"> Wiki/es.md)
 
 ---
 [documentation index](../README.md) > [Addons/es]] , ](Category_Addons/es]] , .md) > Category:Categories/es

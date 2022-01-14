@@ -33,7 +33,7 @@ Instrumentul **Mirrored** simetrizează o funcție în plan. Începând cu v0.17
 1.  Select the feature(s) to be mirrored. Alternatively, the feature can be selected from a dialogue after step 2.
 
     :   v0.16 and below Only a single feature can be selected, and it must be the last one at the bottom of the feature tree.
-2.  Press the **<img src=images/PartDesign_Mirrored.png style="width:24px"> '''Mirrored'''** button.
+2.  Press the **[<img src=images/PartDesign_Mirrored.png style="width:24px"> '''Mirrored'''** button.
 3.  v0.17 and above Press **Add feature** to add a feature to be mirrored. The feature must be visible in the 3D view:
     1.  Switch to the Model tree;
     2.  Select in the tree the feature to be added and press **spacebar** to make it visible in the 3D view;

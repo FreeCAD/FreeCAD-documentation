@@ -141,7 +141,7 @@ Other parameters to `discretize()` are as follows:
 
 ## Discussions
 
--   _ discussion on the FC forum.
+-   [https://forum.freecadweb.org/viewtopic.php?f=13&t=19899&start=20 Spiralbohrer](https://forum.freecadweb.org/viewtopic.php?f=13&t=19899&start=20_Spiralbohrer.md) discussion on the FC forum.
 -   <http://forum.freecadweb.org/viewtopic.php?f=12&t=16336#p129468>
 
 ## Version

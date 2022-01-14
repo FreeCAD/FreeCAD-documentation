@@ -21,7 +21,7 @@ Atelierul traiectorii este folosit pentru producerea unor instrucţiuni [CNC mac
 Algoritmul pentru crearea acestor instrucțiuni în FreeCAD, în limbajul G-cod, este următorul:
 
 -   Un model 3D este obiectul de bază, creat în mod obișnuit folosind una sau mai multe tabele de lucru [Part Design](PartDesign_Workbench/ro.md), [Part](Part_Workbench/ro.md) sau [Draft](Draft_Workbench/ro.md).
--   O _ și urmează anumite comenzi care controlează viteza și mișcările (de obicei, Codul G).
+-   O [Job](Path_Job/ro.md) este creată în Path Workbench. Aceasta conține toate informațiile necesare pentru a genera codul G necesar pentru a procesa lucrarea pe o moară CNC: există material stoc, moara are un anumit [set de instrumente](Path_ToolLibraryEdit/ro.md) și urmează anumite comenzi care controlează viteza și mișcările (de obicei, Codul G).
 -   Instrumentele sunt selectate după cum este cerut de Operațiunile de Lucru.
 -   Căile de frezare sunt create folosind, de ex. [Contour](Path_Profile/ro.md) și [Pocket](Path_Pocket_3D/ro.md) Operații. Aceste Obiecte de cale folosesc dialectul intern al FreeCAD G, independent de mașina CNC.
 -   Exportați lucrarea cu un cod g, care se potrivește cu mașina dvs.
@@ -36,7 +36,7 @@ Algoritmul pentru crearea acestor instrucțiuni în FreeCAD, în limbajul G-cod,
 
 ## Concepte generale 
 
-Path Workbench generează G-Code care definește căile necesare pentru a mula Proiectul reprezentat de modelul 3D pe miezul țintă _, care ulterior se traduce în dialectul corespunzător pentru controlerul CNC țintă prin selectarea postprocesorului adecvat.   Codul G este generat de directivele și operațiile conținute într-o traiectorie. Fluxul de lucru al joburilor le afișează în ordinea în care vor fi executate. Lista este populată prin adăugarea operațiunilor de deplasare, a traiectoriile suplimentare(Dressup), a comenzilor parțiale ale traiectorilor și a modificărilor de parcurs - din meniul Path sau prin butoanele GUI.
+Path Workbench generează G-Code care definește căile necesare pentru a mula Proiectul reprezentat de modelul 3D pe miezul țintă [https://www.freecadweb.org/wiki/Path\_scripting\#FreeCAD.27s\_internal\_GCode\_format the Path Job Operations FreeCAD G-Code dialect](https://www.freecadweb.org/wiki/Path_scripting#FreeCAD.27s_internal_GCode_format_the_Path_Job_Operations_FreeCAD_G-Code_dialect.md), care ulterior se traduce în dialectul corespunzător pentru controlerul CNC țintă prin selectarea postprocesorului adecvat.   Codul G este generat de directivele și operațiile conținute într-o traiectorie. Fluxul de lucru al joburilor le afișează în ordinea în care vor fi executate. Lista este populată prin adăugarea operațiunilor de deplasare, a traiectoriile suplimentare(Dressup), a comenzilor parțiale ale traiectorilor și a modificărilor de parcurs - din meniul Path sau prin butoanele GUI.
 
 
 </div>
@@ -220,7 +220,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptive](Path_Adaptive.md): Creates an adaptive clearing and profiling operation.
 
--   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> _. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Slot](Path_Slot.md): Creates a slotting operation from selected features or custom points. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
 
 
 <div class="mw-translate-fuzzy">
@@ -256,7 +256,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
--   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> _. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Waterline](Path_Waterline.md): Creates a waterline path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
 
 ### Path Dressup 
 
@@ -462,7 +462,7 @@ A se vedea pagina [Path scripting](Path_scripting/ro.md).
 
 ## Videos
 
--   _.
+-   [FreeCAD Path: Custom paths with Python - Part 1 - 5](https://www.youtube.com/playlist?list=PLEuOia-QxyFKgzAeTyH62GKqWKVURiWJL): a playlist with a series of 5 videos in English by sliptonic. This series shows how to work with the [Path Workbench](Path_Workbench.md).
 -   [FreeCAD CAM Path Workbench](https://www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC): a playlist with a series of 7 videos in English by CAD CAM Lessons.
 -   [FreeCAD CAM CNC](https://www.youtube.com/playlist?list=PLUrr_kHPp4vh2n6DcIlegK4dEKIFjmISJ) a playlist with a series of 8 videos in English by CAD CAM Lessons.
 
@@ -480,7 +480,7 @@ A se vedea pagina [Path scripting](Path_scripting/ro.md).
 
 }} 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Path/ro](<img src="images/Property.png" style="width:16px"> Path/ro.md) [<img src="images/Property.png" style="width:16px"> Workbenches/ro](<img src="images/Property.png" style="width:16px"> Workbenches/ro.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/ro

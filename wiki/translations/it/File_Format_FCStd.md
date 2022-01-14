@@ -126,7 +126,7 @@ Si tratta di un\'immagine di anteprima di 128x128 pixel del documento, che è un
 
 ### \*.brep
 
-Queste sono le forme _ di tutti gli oggetti che hanno una forma Parte in {{FileName|Document.xml}}. Ogni oggetto, anche se è parametrico, ha la sua forma memorizzata in un file {{FileName|.brep}} individuale, in modo che si può accedere ai suoi componenti senza la necessità di ricalcolarne la forma.
+Queste sono le forme [B-rep](wikipedia_Boundary_representation.md) di tutti gli oggetti che hanno una forma Parte in {{FileName|Document.xml}}. Ogni oggetto, anche se è parametrico, ha la sua forma memorizzata in un file {{FileName|.brep}} individuale, in modo che si può accedere ai suoi componenti senza la necessità di ricalcolarne la forma.
 
 
 <div class="mw-translate-fuzzy">
@@ -198,7 +198,7 @@ Un utile programma convertitore: [ImageConv](ImageConv/it.md).
 
  
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [Developer](Category_Developer.md) > File Format FCStd/it

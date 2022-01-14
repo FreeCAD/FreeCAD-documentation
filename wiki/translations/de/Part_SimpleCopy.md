@@ -19,7 +19,7 @@
 
 erzeugt eine Kopie, die keine parametrische Historie hat; die Schritte und Arbeitsgänge, die zur Erstellung erforderlich sind, sind nicht mehr zugänglich.
 
-**Alternativ**, um andere nichtparametrische Kopien zu erstellen, verwende <img alt="" src=images/Part_TransformedCopy.svg  style="width:16px;"> _ und und <img alt="" src=images/Part_RefineShape.svg  style="width:16px;">[FormVerfeinern](Part_RefineShape/de.md).
+**Alternativ**, um andere nichtparametrische Kopien zu erstellen, verwende <img alt="" src=images/Part_TransformedCopy.svg  style="width:16px;"> [TransformedCopy](Part_TransformedCopy/de.md), <img alt="" src=images/Part_ElementCopy.svg  style="width:16px;">[ElementKopie](Part_ElementCopy/de.md) und und <img alt="" src=images/Part_RefineShape.svg  style="width:16px;">[FormVerfeinern](Part_RefineShape/de.md).
 
 ## Anwendung
 

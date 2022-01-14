@@ -234,14 +234,14 @@ Na Linuxový systém můžete nainstalovat windowsovskou verzi FreeCADu použit�
 
 .msi
 
-FreeCAD běží, ale je oznámeno, že OpenGL display nefunguje, podobně jako u jiných programů běžících pod _ i.e. Google _.
+FreeCAD běží, ale je oznámeno, že OpenGL display nefunguje, podobně jako u jiných programů běžících pod [Wine](wikipedia:Wine_(software).md) i.e. Google [SketchUp](wikipedia_SketchUp.md).
 
 
 ```python
 msiexec /i Y:\\software\\FreeCAD<version>.msi
 ```
 
-FreeCAD is running, but it has been reported that the OpenGL display does not work, like with other programs running under _ i.e. Google _.
+FreeCAD is running, but it has been reported that the OpenGL display does not work, like with other programs running under [Wine](wikipedia:Wine_(software).md) i.e. Google [SketchUp](wikipedia_SketchUp.md).
 
 
 <div class="mw-translate-fuzzy">

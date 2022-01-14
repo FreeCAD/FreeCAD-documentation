@@ -46,7 +46,7 @@ Allez sur [Comment installer des Macros](How_to_install_macros/fr.md) pour une d
 
 ## Les dépôts de Macros 
 
-Il existe deux emplacements principaux pour les macros. Le premier est le dépôts des macros officielles évalués par des pairs sur _ à partir de laquelle vous pouvez choisir des macros utiles à ajouter à votre installation FreeCAD. Les macros des deux référentiels peuvent être installées via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) directement depuis FreeCAD.
+Il existe deux emplacements principaux pour les macros. Le premier est le dépôts des macros officielles évalués par des pairs sur [GitHub](https://github.com/FreeCAD/FreeCAD-macros). La deuxième est la page [Liste des macros](Macros_recipes/fr.md) à partir de laquelle vous pouvez choisir des macros utiles à ajouter à votre installation FreeCAD. Les macros des deux référentiels peuvent être installées via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) directement depuis FreeCAD.
 
 ## Informations supplémentaires 
 
@@ -68,7 +68,7 @@ Vous pouvez installer manuellement des extensions, cependant, il est beaucoup pl
 
 }}
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Macros](Category_Macros.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Macros/fr

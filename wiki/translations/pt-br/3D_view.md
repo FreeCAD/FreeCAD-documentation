@@ -41,7 +41,7 @@ Entretanto, quando uma [bancada de trabalho](Workbenches.md) é carregada, outro
 
 -    **[Estilo de desenho](Std_DrawStyle.md)**: escolha entre o Estilo padrão, Pontos, Arame, Linha oculta, Sem sombreamento, Sombreado e Linhas planas.
 
--    **_, [Frente](Std_ViewFront.md), [Topo](Std_ViewTop.md), [Direito](Std_ViewRight.md), [Traseira](Std_ViewRear.md), [De baixo](Std_ViewBottom.md), [Esquerda](Std_ViewLeft.md), [Girar para esquerda](Std_ViewRotateLeft.md), [Girar para direita](Std_ViewRotateRight.md).
+-    **[Vistas padrão](Std_View_Menu.md)**: [Isométrico](Std_ViewIsometric.md), [Frente](Std_ViewFront.md), [Topo](Std_ViewTop.md), [Direito](Std_ViewRight.md), [Traseira](Std_ViewRear.md), [De baixo](Std_ViewBottom.md), [Esquerda](Std_ViewLeft.md), [Girar para esquerda](Std_ViewRotateLeft.md), [Girar para direita](Std_ViewRotateRight.md).
 
 -    **Measure**: [Alternar medição](View_Measure_Toggle_All.md), [Limpar medições](View_Measure_Clear_All.md).
 
@@ -55,11 +55,11 @@ Por exemplo, com a bancada [Part](Part_Workbench.md) ativa e com um objeto selec
 
 -    **[Mudar visibilidade](Std_ToggleVisibility.md)**: exibe ou oculta o objeto selecionado.
 
--    **_.
+-    **[Alternar seletibilidade](Std_ToggleSelectability.md)**: desliga a possibilidade de selecionar o objeto na área de modelagem 3D. Este comando torna o atributo `Selectable` do objeto para `True` ou `False`. Altere o status da propriedade **Selectable** no [editor de propriedades](property_editor.md).
 
--    **_ para exibir o objeto selecionado na estrutura hierárquica.
+-    **[Ir para a seleção](Std_TreeSelection.md)**: expande a [vista hierárquica do modelo](tree_view.md) para exibir o objeto selecionado na estrutura hierárquica.
 
--    **_.
+-    **[Cor aleatória](Std_RandomColor.md)**: atribui uma cor ao objeto de modo aleatório. O atributo `ShapeColor` do objeto é alterado, definindo-se uma sequência composta por uma cadeia de três números que variam aleatoriamente entre 0 e 1, para que representem os canais de cores `(r,g,b)`. A propriedade pode ser alterada em **Shape Color** no [editor de propriedades](property_editor.md).
 
 -    **[Excluir](Std_Delete.md)**: remove o objeto do documento e da área de modelagem 3D, acionando o método `removeObject()`.
 

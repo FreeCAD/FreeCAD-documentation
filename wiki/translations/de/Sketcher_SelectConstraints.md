@@ -22,11 +22,11 @@ Wähle das Skizzenelement im [Aufgabenbereich](Task_panel/de.md) oder in der [3D
     -   Klicke auf die
 
 
-**<img src=images/Sketcher_SelectConstraints.svg style="width:16px">[Wähle Beschränkungen](Sketcher_SelectConstraints/de.md)**
+**[<img src=images/Sketcher_SelectConstraints.svg style="width:16px">[Wähle Beschränkungen](Sketcher_SelectConstraints/de.md)**
 
 Schaltfläche.
 
-\#\* Wähle **Skizze → Skizzierwerkzeuge → <img src=images/Sketcher_SelectConstraints.svg style="width:16px"> Wähle Beschränkungen** aus dem Skizzenmenü.
+\#\* Wähle **Skizze → Skizzierwerkzeuge → [<img src=images/Sketcher_SelectConstraints.svg style="width:16px"> Wähle Beschränkungen** aus dem Skizzenmenü.
 
 \#\* Verwende die **Umschalt**+**Strg**+**C** Tastaturkürzel
 

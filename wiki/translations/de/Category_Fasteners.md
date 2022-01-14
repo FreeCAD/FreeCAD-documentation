@@ -5,7 +5,7 @@ This page collects the documentation pages for the [Fasteners Workbench](Fastene
 
 [Fasteners Workbench/de](Fasteners_Workbench/de.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > Category:Fasteners/de

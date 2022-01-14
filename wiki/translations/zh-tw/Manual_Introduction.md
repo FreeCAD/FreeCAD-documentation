@@ -19,7 +19,7 @@ FreeCAD 同時為一徹底社群專案，以俱 FreeCAD 熱忱所凝聚之社群
 
 <div class="mw-translate-fuzzy">
 
-本手冊所有內容以 _ 以及撰寫初版之 [github](https://github.com/yorikvanhavre/FreeCAD-manual) 原始帳號。易讀 HTML, PDF, MOBI, EPUB 版本可見於 [GitBook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details)。印刷版本準備中。
+本手冊所有內容以 [創用授權 4.0](https://creativecommons.org/licenses/by/4.0/deed.zh_TW) 釋出，可自由使用、下載、複製、修改。手冊原始檔案存放於 [維基](Main_Page/zh-tw.md) 以及撰寫初版之 [github](https://github.com/yorikvanhavre/FreeCAD-manual) 原始帳號。易讀 HTML, PDF, MOBI, EPUB 版本可見於 [GitBook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details)。印刷版本準備中。
 
 
 </div>

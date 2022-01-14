@@ -1,7 +1,7 @@
 # Macro Wiring And Hoses/it
 {{Macro/it|Name=Macro Wiring And Hoses|Name/it=Cablaggio e tubazioni|Description=Queste macro supportano la creazione e la manutenzione di cablaggi e tubazioni.|Author=Piffpoof}}
 
-**From _ Note: some changes between v 0.14 and v 0.15 have effected this macro which will delay releasing it**
+**From [User:Piffpoof](User_Piffpoof.md) Note: some changes between v 0.14 and v 0.15 have effected this macro which will delay releasing it**
 
 These macros support the creation and maintenance of Wires and Hoses.
 

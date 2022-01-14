@@ -39,7 +39,7 @@ Questo strumento traccia una curva B-spline aperta dai suoi punti di controllo.
 
 <div class="mw-translate-fuzzy">
 
-1.  Premere il pulsante **<img src=images/Sketcher_CreateBSpline.svg style="width:24px"> '''Crea B-spline'''**.
+1.  Premere il pulsante **[<img src=images/Sketcher_CreateBSpline.svg style="width:24px"> '''Crea B-spline'''**.
 2.  Crea una serie di punti facendo clic nella vista 3D. Mentre il comando è attivo, i punti creati sono collegati con linee rette e un cerchio di costruzione viene creato centrato su ciascun punto.
 3.  Fare clic con il tasto destro per terminare l\'input e generare la curva.
 4.  A seconda delle preferenze, lo strumento può rimanere attivo per tracciare una nuova curva. Fare nuovamente clic con il pulsante destro per uscire dal comando.

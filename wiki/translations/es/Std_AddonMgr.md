@@ -12,11 +12,11 @@
 
 ## Descripción
 
-El comando **Std GestorComplementos** abre el gestor de complementos. Con el gestor de complementos puedes instalar y gestionar _.
+El comando **Std GestorComplementos** abre el gestor de complementos. Con el gestor de complementos puedes instalar y gestionar [Ambientes de trabajo externos](external_workbenches/es.md) y [Macros](macros/es.md) proporcionados por la comunidad de FreeCAD. Las Ambientes de trabajo y macros disponibles se toman de dos repositorios, [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) y [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/), y de la página [Recetas de macros](Macros_recipes/es.md).
 
 Los Complementos marcados como {{emphasis|Sólo Python 2}} no funcionarán en FreeCAD versión 0.19 o superior.
 
-Debido a los cambios en la plataforma GitHub en el año 2020 el gestor de Addons ya no funciona si utilizas la versión 0.17 o anterior de FreeCAD. Necesitas actualizar a la versión _ abajo.
+Debido a los cambios en la plataforma GitHub en el año 2020 el gestor de Addons ya no funciona si utilizas la versión 0.17 o anterior de FreeCAD. Necesitas actualizar a la versión [0.18.5](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) o a una versión reciente [0.19](https://github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre). Alternativamente puedes instalar addons manualmente, ver [Notas](#Notas.md) abajo.
 
 ![](images/Std_AddonMgr_dialog.png ) 
 *El cuadro diálogo del gestor complementos*
@@ -65,7 +65,7 @@ El cuadro diálogo del gestor complementos tiene dos pestañas a la izquierda, u
 
 ## Información para desarrolladores 
 
-Si has desarrollado un ambiente de trabajo o macro, y quieres verlo incluido en el gestor complementos, lee cómo hacerlo en las páginas del repositorio: (_, no hay nada más que hacer, será automáticamente recogida por el gestor complementos.
+Si has desarrollado un ambiente de trabajo o macro, y quieres verlo incluido en el gestor complementos, lee cómo hacerlo en las páginas del repositorio: ([FreeCAD-complementos](https://github.com/FreeCAD/FreeCAD-addons/) y [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/)). Si añades tu macro a la página [Recetas de macros](Macros_recipes/es.md), no hay nada más que hacer, será automáticamente recogida por el gestor complementos.
 
 ### Ambientes de trabajo Python 
 

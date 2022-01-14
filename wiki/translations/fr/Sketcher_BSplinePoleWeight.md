@@ -19,7 +19,7 @@ Affiche ou masque l\'affichage des **poids** pour les points de contrôle d\'une
 
 ## Utilisation
 
-1.  Sélectionnez une B-spline et utilisez le bouton de la barre d\'outils **<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Afficher/masquer le poids du point de contrôle de la spline B](Sketcher_BSplinePoleWeight/fr.md)**.
+1.  Sélectionnez une B-spline et utilisez le bouton de la barre d\'outils **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Afficher/masquer le poids du point de contrôle de la spline B](Sketcher_BSplinePoleWeight/fr.md)**.
 
 ## Explication de poids 
 

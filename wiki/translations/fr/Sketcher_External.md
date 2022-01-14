@@ -21,7 +21,7 @@ Attention, l\'utilisation de cet outil pour créer un lien vers une géométrie 
 ## Utilisation
 
 -   Créer une nouvelle esquisse, ou ouvrir une esquisse existante.
--   Cliquer sur le bouton **<img src=images/Sketcher_External.svg style="width:16px"> [Géométrie externe](Sketcher_External/fr.md)**.
+-   Cliquer sur le bouton **[<img src=images/Sketcher_External.svg style="width:16px"> [Géométrie externe](Sketcher_External/fr.md)**.
 -   Sélectionner une arête ou un sommet que vous voulez lier dans l\'esquisse.
 -   Appuyer sur **Échap** ou sélectionner un autre outil pour quitter l\'outil.
 

@@ -187,7 +187,7 @@ FreeCAD w wersji dla systemu Windows można zainstalować na systemie Linux za p
 msiexec /i Y:\\software\\FreeCAD<version>.msi
 ```
 
-FreeCAD został uruchomiony, lecz zgłoszono, że nie działa system OpenGL, tak jak w przypadku innych programów działających w środowisku _, na przykład Google _.
+FreeCAD został uruchomiony, lecz zgłoszono, że nie działa system OpenGL, tak jak w przypadku innych programów działających w środowisku [Wine](wikipedia:Wine_(software).md), na przykład Google [SketchUp](wikipedia_SketchUp.md).
 
 
 {{docnav/pl

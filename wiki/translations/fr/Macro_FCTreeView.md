@@ -49,86 +49,86 @@ Si un objet est sélectionné: le placement de base, la rotation et le centre ma
 ### Section **Sort by :** 
 
 
-**<img src=images/Macro_FCTreeView_10.png style="width:18px"> Name**
+**[<img src=images/Macro_FCTreeView_10.png style="width:18px"> Name**
 
 Icône utilisé pour trier les objet par nom (flip/flop normal/reverse)
 
 
-**<img src=images/Macro_FCTreeView_11.png style="width:18px"> Label**
+**[<img src=images/Macro_FCTreeView_11.png style="width:18px"> Label**
 
 Icône utilisé pour lister les objets par label (flip/flop normal/reverse)
 
 
-**<img src=images/Macro_FCTreeView_12.png style="width:18px"> Visible**
+**[<img src=images/Macro_FCTreeView_12.png style="width:18px"> Visible**
 
 Icône utilisé pour lister les données par Visible/caché (flip/flop normal/reverse)
 
 
-**<img src=images/Macro_FCTreeView_13.png style="width:18px"> Group**
+**[<img src=images/Macro_FCTreeView_13.png style="width:18px"> Group**
 
 Icône utilisé pour lister les objets par Groupe/Simple objet (flip/flop normal/reverse)
 
 
-**<img src=images/Macro_FCTreeView_19.png style="width:18px"> Length**
+**[<img src=images/Macro_FCTreeView_19.png style="width:18px"> Length**
 
 Si cette case à cocher est activée le tri se fera sur la longueur du nom affiché de la fonction active (Name, Label \...)
 
 ### Section **Global** 
 
 
-**<img src=images/Macro_FCTreeView_21.png style="width:18px"> Split**
+**[<img src=images/Macro_FCTreeView_21.png style="width:18px"> Split**
 
 flip/flop Sépare le Nom de la liste
 
 
-**<img src=images/Macro_FCTreeView_22.png style="width:18px"> Split**
+**[<img src=images/Macro_FCTreeView_22.png style="width:18px"> Split**
 
 flip/flop Sépare le Nom et le Label de la liste
 
 
-**<img src=images/Macro_FCTreeView_14.png style="width:18px"> Expend**
+**[<img src=images/Macro_FCTreeView_14.png style="width:18px"> Expend**
 
 flip/flop liste les données Fold/Expend
 
 
-**<img src=images/Macro_FCTreeView_15.png style="width:18px"> Expend**
+**[<img src=images/Macro_FCTreeView_15.png style="width:18px"> Expend**
 
 flip/flop liste les données Expend/Fold
 
 
-**<img src=images/Macro_FCTreeView_06.png style="width:18px"> Visibility**
+**[<img src=images/Macro_FCTreeView_06.png style="width:18px"> Visibility**
 
 flip/flop normal/Visible
 
 
-**<img src=images/Macro_FCTreeView_07.png style="width:18px"> Group**
+**[<img src=images/Macro_FCTreeView_07.png style="width:18px"> Group**
 
 flip/flop normal/Groupe
 
 
-**<img src=images/Macro_FCTreeView_16.png style="width:18px"> Reload**
+**[<img src=images/Macro_FCTreeView_16.png style="width:18px"> Reload**
 
 recharge les objets du projet
 
 
-**<img src=images/Macro_FCTreeView_18.png style="width:18px"> Original**
+**[<img src=images/Macro_FCTreeView_18.png style="width:18px"> Original**
 
 retourne à l\'organisation originale après une opération visibility/Hidden
 
 
-**<img src=images/Macro_FCTreeView_01.png style="width:18px"> All Visible**
+**[<img src=images/Macro_FCTreeView_01.png style="width:18px"> All Visible**
 
 visualise si l\'objet est de status Visible
 
 
-**<img src=images/Macro_FCTreeView_02.png style="width:18px"> All Hidden**
+**[<img src=images/Macro_FCTreeView_02.png style="width:18px"> All Hidden**
 
 visualise si l\'objet est de statut Hidden
 
 ### Section **Search** 
 
 
-**<img src=images/Macro_FCTreeView_20.png style="width:18px"> Clear**
+**[<img src=images/Macro_FCTreeView_20.png style="width:18px"> Clear**
 
 Efface la ligne de recherche
 
@@ -147,17 +147,17 @@ Efface la ligne de recherche
 -   **(Nu)** : Search by numeric value (radius, length, angle \.....) voir la version section
 
 
-**<img src=images/Macro_FCTreeView_23.png style="width:18px"> Select**
+**[<img src=images/Macro_FCTreeView_23.png style="width:18px"> Select**
 
 flip/flop pour sélectionner tous les objets affichés dans la fenêtre
 
 
-**<img src=images/Macro_FCTreeView_24.png style="width:18px"> Unselected**
+**[<img src=images/Macro_FCTreeView_24.png style="width:18px"> Unselected**
 
 flip/flop désélectionner tous les objets
 
 
-**<img src=images/Macro_FCTreeView_25.png style="width:18px"> S Sheet**
+**[<img src=images/Macro_FCTreeView_25.png style="width:18px"> S Sheet**
 
 accès aux options du tableur (Spreadsheet)
 
@@ -172,12 +172,12 @@ accès aux options du tableur (Spreadsheet)
 -   Série de cases à cocher pour sélectionner la donnée à introduire dans le tableur
 
 
-**<img src=images/Macro_FCTreeView_28.png style="width:18px"> Select**
+**[<img src=images/Macro_FCTreeView_28.png style="width:18px"> Select**
 
 : Active toutes les cases à cocher
 
 
-**<img src=images/Macro_FCTreeView_29.png style="width:18px"> Select**
+**[<img src=images/Macro_FCTreeView_29.png style="width:18px"> Select**
 
 : désactive toutes les cases à cocher
 
@@ -209,22 +209,22 @@ accès aux options du tableur (Spreadsheet)
 ![](images/Macro_FCTreeView_006.png )
 
 
-**<img src=images/Macro_FCTreeView_28.png style="width:18px"> Select**
+**[<img src=images/Macro_FCTreeView_28.png style="width:18px"> Select**
 
 sélectionne tous les checkBox
 
 
-**<img src=images/Macro_FCTreeView_29.png style="width:18px"> Unselect**
+**[<img src=images/Macro_FCTreeView_29.png style="width:18px"> Unselect**
 
 déselectionne tous les checkbox
 
 
-**<img src=images/Macro_FCTreeView_27.png style="width:18px"> Save**
+**[<img src=images/Macro_FCTreeView_27.png style="width:18px"> Save**
 
 sauves les données dans le Spreadsheet affiché. S\'il n\'y a aucun spreadsheet actif un spreadsheet nommé **FCSpreadSheet** est créé
 
 
-**<img src=images/Macro_FCTreeView_26.png style="width:18px"> Quit**
+**[<img src=images/Macro_FCTreeView_26.png style="width:18px"> Quit**
 
 quitte la fenêtre options Spreadsheet
 

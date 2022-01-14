@@ -18,7 +18,7 @@ Det kan användas till att förenkla en del frekventa uppgifter vid byggande, di
 
 ## Bruk
 
-Med _ korrekt installerat, så kan *fcbt* startas med kommandot 
+Med [http://sv.wikipedia.org/wiki/Python\_(programspråk) Python](http://sv.wikipedia.org/wiki/Python_(programspråk)_Python.md) korrekt installerat, så kan *fcbt* startas med kommandot 
 ```python
 python fbct.py
 ``` det visar en meny, där du kan välja den uppgift som du vill använda den till: 
@@ -93,7 +93,7 @@ Kommandot \"CM\" [skapar en ny applikationsmodul](Module_Creation/sv.md).
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Build Tool/sv

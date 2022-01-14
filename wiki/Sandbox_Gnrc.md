@@ -12,11 +12,9 @@ Bonjour !
 -   Image (défaut à droite) : <img alt="Légende vignette ou au survol image" src=images/GGTuto1_Vue.PNG  style="width:128px;"> 
 -   video (défaut à droite) :
 
-_ 
+[256px\|left\|thumb \|link=<https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-holes.mp4> \|Title=title\_Defeaturing-WB-removing-features](Image:Defeaturing-WB-@Work_v3.png.md) 
 
--   _
-
-
+-   [Template ](Template_Docnav.md)
 
 
 
@@ -25,7 +23,9 @@ _
 
 
 
-_
+
+
+[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
 
 ---
 [documentation index](../README.md) > Sandbox:Gnrc

@@ -111,7 +111,7 @@ print(obj.Label)
 
 *View and Data tabs of the property editor, for a basic "App::FeaturePython" scripted object.*
 
-Most geometrical objects that can be created and displayed in the _ for the most basic properties that these objects have.
+Most geometrical objects that can be created and displayed in the [3D view](3D_view.md) are derived from a `Part::Feature`. See [Part Feature](Part_Feature.md) for the most basic properties that these objects have.
 
 For 2D geometry, most objects are derived from `Part::Part2DObject` (itself derived from `Part::Feature`) which is the base of [Sketches](Sketch.md), and most [Draft elements](Draft_Workbench.md). See [Part Part2DObject](Part_Part2DObject.md) for the most basic properties that these objects have.
 

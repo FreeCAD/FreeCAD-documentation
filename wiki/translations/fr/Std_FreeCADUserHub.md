@@ -17,7 +17,7 @@ Actuellement, la commande pointe vers [<https://www.freecadweb.org/wiki/User_hub
 
 ## Utilisation
 
--   Sélectionnez l\'option **Aide → <img src=images/Std_FreeCADUserHub.svg style="width:16px"> [Users Documentation utilisateurs](Std_FreeCADUserHub/fr.md)** du menu.
+-   Sélectionnez l\'option **Aide → [<img src=images/Std_FreeCADUserHub.svg style="width:16px"> [Users Documentation utilisateurs](Std_FreeCADUserHub/fr.md)** du menu.
 
 
 

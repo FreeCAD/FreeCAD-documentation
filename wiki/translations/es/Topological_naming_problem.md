@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-El _, y al dimensionar esos sólidos con el <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Ambiente de trabajo DibujoTécnico](TechDraw_Workbench/es.md).
+El [problema de denominación topológica](topological_naming_problem/es.md) en FreeCAD se refiere a la cuestión de que una forma cambie su nombre interno después de que se realice una operación de modelado (almohadilla, corte, unión, chaflán, filete, etc.). Esto dará lugar a que se rompan o se calculen incorrectamente otras características paramétricas que dependen de esa forma. Este problema afecta a todos los objetos de FreeCAD, pero es especialmente notable cuando se construyen sólidos con el <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md), y al dimensionar esos sólidos con el <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Ambiente de trabajo DibujoTécnico](TechDraw_Workbench/es.md).
 
 -   En <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [DiseñoPieza](PartDesign_Workbench/es.md), si un rasgo se apoya en una cara (o borde o vértice), el rasgo puede romperse si el sólido subyacente cambia de tamaño u orientación, ya que la cara (o borde o vértice) original puede ser renombrada internamente.
 -   En <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [DibujoTécnico](TechDraw_Workbench/es.md), si una dimensión está midiendo la longitud de un borde proyectado, la dimensión puede romperse si se cambia el modelo 3D, ya que los vértices pueden ser renombrados cambiando así el borde medido.
@@ -17,7 +17,7 @@ El problema de la denominación topológica afecta y confunde con mayor frecuenc
 
 ## Ejemplo
 
-1\. En la <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _, luego use <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> _ para crear un primer sólido.
+1\. En la <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md), crear un <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [DiseñoPieza Cuerpo](PartDesign_Body/es.md), luego use <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [DiseñoPieza NuevoBoceto](PartDesign_NewSketch/es.md) y seleccionar el plano XY para dibujar el boceto base; luego realizar un <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [DiseñoPieza Pad](PartDesign_Pad/es.md) para crear un primer sólido.
 
 <img alt="" src=images/FreeCAD_topological_problem_01_solid.png  style="width:" height="400px;">
 
@@ -124,7 +124,7 @@ Los objetos Datum, [puntos](PartDesign_Point/es.md), [líneas](PartDesign_Line/e
 
 <div class="mw-translate-fuzzy">
 
--   _
+-   [Why do my FreeCAD models break? - \"Topological Naming Problem\"](https://youtu.be/6p2vqEEmWq4): Una explicación en vídeo de los problemas subyacentes de [Problema de denominación topológica](Topological_naming_problem/es.md)
 
 
 </div>
@@ -132,7 +132,7 @@ Los objetos Datum, [puntos](PartDesign_Point/es.md), [líneas](PartDesign_Line/e
 
  {{TechDraw Tools navi}} {{PartDesign Tools navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Topological naming problem/es

@@ -52,7 +52,7 @@ obj.ThePropertyName = True
 thePropertyValue = obj.ThePropertyName
 ```
 
-Si le type de la propriété est _, le setter a un comportement spécial : la définition d\'une liste de chaînes définit les cas autorisés par l\'énumération, la définition d\'une chaîne sélectionne l\'un de ces cas. Pour définir la liste des cas possibles et définir le cas actuel, utilisez :
+Si le type de la propriété est [App::PropertyEnumeration](#App:_PropertyEnumeration.md), le setter a un comportement spécial : la définition d\'une liste de chaînes définit les cas autorisés par l\'énumération, la définition d\'une chaîne sélectionne l\'un de ces cas. Pour définir la liste des cas possibles et définir le cas actuel, utilisez :
 
 
 ```python
@@ -1252,7 +1252,7 @@ obj.ThePropertyName // returns {{TODO}}"example value for getter"
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [API](Category_API.md) > FeaturePython Custom Properties/fr

@@ -413,11 +413,11 @@ Many add-ons have user-specifiable preference information that is added to the u
 
 ## Distributing a pack 
 
-Preference Packs are distributed identically to _. To install a pack manually, use git to clone the package repository into your FreeCAD data directory (the directory where your user.cfg file is located), in a subdirectory called \"Preference Packs\".
+Preference Packs are distributed identically to [External Workbenches](External_workbenches.md) through the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md). To install a pack manually, use git to clone the package repository into your FreeCAD data directory (the directory where your user.cfg file is located), in a subdirectory called \"Preference Packs\".
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Preference Packs

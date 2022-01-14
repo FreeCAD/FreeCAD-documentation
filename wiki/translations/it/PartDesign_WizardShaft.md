@@ -10,7 +10,7 @@
 
 ## Descrizione
 
-Questo strumento permette di creare un albero da una tabella di valori, e di analizzare forze e momenti. Si può avviare la procedura guidata dal menu Part Design **Part Design → <img src=images/PartDesign_WizardShaft.svg style="width:20px"> Procedura guidata per alberi...**.
+Questo strumento permette di creare un albero da una tabella di valori, e di analizzare forze e momenti. Si può avviare la procedura guidata dal menu Part Design **Part Design → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Procedura guidata per alberi...**.
 
 L\'assistente si avvierà e mostrerà una tabella predefinita, la parte d\'albero corrispondente e i grafici forza/momento.
 

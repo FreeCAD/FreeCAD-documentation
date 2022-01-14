@@ -24,7 +24,7 @@
 
 Link to [Troubleshooting FreeCAD/Qt](Troubleshooting_FreeCAD/Qt.md) Related: <https://forum.freecadweb.org/viewtopic.php?f=3&t=37105&p=315523#p315523>
 
-_
+[<img src="images/Property.png" style="width:16px"> ](<img src="images/Property.png" style="width:16px"> .md)
 
 ---
 [documentation index](../README.md) > Troubleshooting FreeCAD

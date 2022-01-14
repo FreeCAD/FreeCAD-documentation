@@ -262,7 +262,7 @@ Ruota uno schizzo lungo uno dei suoi assi e di un certo angolo.
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign project/it

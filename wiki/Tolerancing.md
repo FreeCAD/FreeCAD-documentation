@@ -74,7 +74,7 @@ There are two approaches to specifying Product and Manufacturing Information (PM
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md) [<img src="images/Property.png" style="width:16px"> TechDraw](Category_TechDraw.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Tolerancing

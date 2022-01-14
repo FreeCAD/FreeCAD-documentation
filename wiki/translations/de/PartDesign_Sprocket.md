@@ -28,7 +28,7 @@ Mit diesem Werkzeug kannst du ein 2D Profil eines Kettenrads erstellen. Es kann 
 
 ## Anwendung
 
-1.  Gehe zum Menü **Part Design → <img src=images/PartDesign_Sprocket.svg style="width:24px"> Kettenrad...**.
+1.  Gehe zum Menü **Part Design → [<img src=images/PartDesign_Sprocket.svg style="width:24px"> Kettenrad...**.
 2.  Setze die **Anzahl der Zähne** und die **Kettenrad Referenz**.
 3.  Klicke **OK**
 4.  Wenn das Zahnrad außerhalb des aktiven Körpers erstellt wird, ziehe es in einen Körper, um weitere Eigenschaften wie Polstern anzuwenden.

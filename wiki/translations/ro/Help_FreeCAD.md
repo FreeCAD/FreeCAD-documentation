@@ -29,7 +29,7 @@ Help us to build, correct and extend this documentation. Correct mistakes, exten
 
 Câteva domenii pentru care ar fi binevenită munca ta:
 
--   Toate listele _ de pagini și documente pentru comenzile [command](command.md) FreeCAD . Majoritatea conțin puține sau chiar nici o informație. Vă rugăm faceți rerire la [WikiPages](WikiPages.md) pentru exemplele bune a ceea ce documentația comenzilor ar trebuie să arate.
+-   Toate listele [:<img src="images/Property.png" style="width:16px"> Command Reference](:Category_Command_Reference.md) de pagini și documente pentru comenzile [command](command.md) FreeCAD . Majoritatea conțin puține sau chiar nici o informație. Vă rugăm faceți rerire la [WikiPages](WikiPages.md) pentru exemplele bune a ceea ce documentația comenzilor ar trebuie să arate.
 -   Secțiunea[Tutorials](Tutorials.md) necesită exemple de modul cum se utilizează atelierele. Dacă ați dezvoltat ceva cool cu ​​FreeCAD, de ce să nu documentați cum l-ați făcut, pentru posteritate?
 -   Sunt open tickets pe FreeCAD [bugtracker](bugtracker.md) etichetate [\"documentation\"](https://freecadweb.org/tracker/search.php?tag_string=documentation)
 
@@ -90,7 +90,7 @@ Translating is easy, the FreeCAD wiki supports a translation plugin which allows
 
 Pentru detalii asupra traducerii și localizării, a se vedea [Localisation\#Translating the wiki](Localisation#Translating_the_wiki.md).
 
-Asigurați-vă că sunteți familiarizați cu elementele de bază ale marcajului wiki; a se vedea _ pentru referință.
+Asigurați-vă că sunteți familiarizați cu elementele de bază ale marcajului wiki; a se vedea [Help:Editing](Help_Editing.md) pentru referință.
 
 Apoi mergeți la [ WikiPages](WikiPages.md) pentru a vă familiariza cu stilul folosit în acest wiki, mai ales când vine vorba de șabloane.
 
@@ -104,7 +104,7 @@ Apoi mergeți la [ WikiPages](WikiPages.md) pentru a vă familiariza cu stilul f
 -   Stați pe forum și ajutați noii veniți să rezolve întrebările de bază
 -   Scrieți tutoriale, înregistrați videoclipuri etc., arătând ce faceți cu FreeCAD
 -   Contribuiți cu fișiere, desene, etc. Încă nu avem fișiere de exemple bune despre ceea ce se poate face cu FreeCAD
--   Ajutați să promovați FreeCAD pe GitHub de către _ [/ FreeCAD repository FreeCAD](https://github.com/FreeCAD)
+-   Ajutați să promovați FreeCAD pe GitHub de către [https://help.github.com/articles/be-social/\#watch-a-project \"Starring\" și \"Watching\"](https://help.github.com/articles/be-social/#watch-a-project_"Starring"_și_"Watching".md) [/ FreeCAD repository FreeCAD](https://github.com/FreeCAD)
 
 
 </div>
@@ -187,7 +187,7 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Command Reference]]  de pagini și documente pentru  comenzile ](Category_Command Reference]]  de pagini și documente pentru  comenzile .md) > Help FreeCAD/ro

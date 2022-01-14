@@ -30,7 +30,7 @@ Se puede acceder a todas las herramientas del ambiente de trabajo de puntos desd
 
 <div class="mw-translate-fuzzy">
 
--   _ y <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> _ para ajustarse a los puntos.
+-   [Borrador](Draft_Workbench/es.md) comandos como <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Linea Borrador](Draft_Line/es.md) y <img alt="" src=images/Draft_BSpline.svg  style="width:24px;"> [Borrador BSpline](Draft_BSpline/es.md) pueden utilizarse para conectar los puntos de una nube de puntos. Utiliza <img alt="" src=images/Draft_Snap_Endpoint.svg  style="width:24px;"> [Borrador Punto final Snap](Draft_Snap_Endpoint/es.md) para ajustarse a los puntos.
 -   [Python](Python/es.md) puede ser usado para analizar y procesar nubes de puntos. Ver las siguientes discusiones en el foro:
     -   [Inspección de la nube de puntos](http://forum.freecadweb.org/viewtopic.php?f=3&t=16098).
     -   [Fläche aus Messwerten](http://forum.freecadweb.org/viewtopic.php?f=13&t=15988) (alemán)
@@ -50,7 +50,7 @@ Se puede acceder a todas las herramientas del ambiente de trabajo de puntos desd
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Points Workbench/es

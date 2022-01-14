@@ -3,7 +3,7 @@
 |Topic=Modeling
 |Level=Intermediate
 |Time=Indefinate
-|Author=_
+|Author=[cadgiru](User_cadgiru.md)
 |FCVersion=0.19
 |Files=
 }}
@@ -175,7 +175,7 @@ As a resource: there is an excellent explanation on - [Jason\'s Blog](https://jt
 
 [IfcOpenShell\_code\_examples](https://wiki.osarch.org/index.php?title=IfcOpenShell_code_examples)
 
-_
+[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
 
 ---
 [documentation index](../README.md) > Sandbox:TutorialBIMannex

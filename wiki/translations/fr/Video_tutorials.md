@@ -3,36 +3,36 @@
 
 Ci-dessous vous trouverez une collection de tutoriels vidéos faite par les utilisateurs et développeurs de FreeCAD. Consultez le sujet [Tutorials and videos (EN)](https://forum.freecadweb.org/viewforum.php?f=36) du forum pour plus de liens. [YouTube](https://YouTube.com) est une source intéressante de didacticiels vidéo.
 
-Consultez la page _.
+Consultez la page [tutoriels](tutorials/fr.md) pour des tutoriels écrits de haute qualité. Vous trouverez une liste complète et non triée de didacticiels dans la [catégorie Didacticiels](:<img src="images/Property.png" style="width:16px"> Tutorials/fr.md).
 
 Si vous souhaitez contribuer à la rédaction de la documentation et des didacticiels du wiki, voir [Aider FreeCAD](Help_FreeCAD/fr.md), reportez-vous aux instructions générales du wiki dans [WikiPages (en)](WikiPages.md) et suivez les [recommandations pour didacticiel (en)](tutorial_guidelines.md).
 
 ## Conception de produit 
 
-Les vidéos qui passent par la modélisation de divers objets solides à l\'aide d\'ateliers tels que <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ et <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/fr.md).
+Les vidéos qui passent par la modélisation de divers objets solides à l\'aide d\'ateliers tels que <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/fr.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign ](PartDesign_Workbench/fr.md) et <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/fr.md).
 
 Puisqu\'il existe de nombreuses vidéos traitant de ce sujet, vous pouvez vous rendres sur [Tutoriels vidéo pour la conception de produits](Video_tutorials_for_product_design/fr.md).
 
 ## Maillage
 
--   <img src=images/Part_ShapeFromMesh.svg style="width:Modifier les fichiers STL dans FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) par AllVisuals4U. Il présente l\'outil **[16px"> [Part Forme à partir du maillage](Part_ShapeFromMesh/fr.md)**.
+-   [Modifier les fichiers STL dans FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) par AllVisuals4U. Il présente l\'outil **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part Forme à partir du maillage](Part_ShapeFromMesh/fr.md)**.
 
 ## Assemblage
 
--   _.
--   _.
+-   [Allez plus loin avec Asm 3 WB](http://help-freecad-jpg87.fr/025c_ass_ex_creat.php) de jpg87 est un site Web avec des instructions étape par étape et des vidéos pour démontrer l\'utilisation de l\'[atelier Assembly3](Assembly3_Workbench/fr.md).
+-   [FreeCAD Tutorial - atelier Assembly 4](https://www.youtube.com/watch?v=n04M6nFvdxs) par Martham Engineering. Il présente l\'[atelier Assembly4](Assembly4_Workbench/fr.md).
 
 ## Dessins techniques 
 
--   _, par sliptonic; [1 (Principes de base)](https://www.youtube.com/watch?v=7LbOmSGW9F0), [2 (Dimensions)](https://www.youtube.com/watch?v=z3w84RfvqaE), [3 (Multivue)](https://www.youtube.com/watch?v=uNjXg-m38aI), [4 (Sections et détails)](https://www.youtube.com/watch?v=3zSdeFV6I5o) et [5 (Personnalisation des modèles)](https://www.youtube.com/watch?v=kcmdJ7xa7gg).
+-   [TechDraw](https://www.youtube.com/watch?v=7LbOmSGW9F0&list=PLEuOia-QxyFKQnmM1U9yVo7eNrK_Mcln8): une série de 5 vidéos décrivant le [atelier TechDraw](TechDraw_Workbench/fr.md), par sliptonic; [1 (Principes de base)](https://www.youtube.com/watch?v=7LbOmSGW9F0), [2 (Dimensions)](https://www.youtube.com/watch?v=z3w84RfvqaE), [3 (Multivue)](https://www.youtube.com/watch?v=uNjXg-m38aI), [4 (Sections et détails)](https://www.youtube.com/watch?v=3zSdeFV6I5o) et [5 (Personnalisation des modèles)](https://www.youtube.com/watch?v=kcmdJ7xa7gg).
 
 -   [Introduction à l\'atelier FreeCAD TechDraw](https://www.youtube.com/watch?v=TnYMfpdNQoo) par Glasson Design Studio. Ceci est particulièrement destiné aux menuisiers mais peut être utilisé pour les solides généraux.
 
 ## Fabrication assistée par ordinateur (FAO) 
 
--   _, par sliptonic, l\'un des principaux développeurs de ce dernier.
+-   [playlists de sliptonic](https://www.youtube.com/user/sliptonic/playlists): diverses vidéos sur l\'utilisation de FreeCAD, travailler avec TechDraw et en particulier l\'[atelier Path](Path_Workbench/fr.md), par sliptonic, l\'un des principaux développeurs de ce dernier.
     -   [Using FreeCAD version 0.17 Path Workbench](https://www.youtube.com/playlist?list=PLEuOia-QxyFJZSpqb0xOHc9t7MLdCO3io): une série de 9 vidéos expliquant comment utiliser l\'atelier Path y compris les outils et les contrôleurs, la configuration des tâches, visualisation, opérations, habillages, unités et préférences.
--   _.
+-   [Vidéos Coder Musashi](https://www.youtube.com/channel/UCtNnYMVWGkG-aemOrCtGjCA/videos): diverses vidéos sur l\'utilisation du [atelier Path](Path_Workbench/fr.md).
     -   [PathWorkbench créant des chemins avec FeatureArea et d\'autres outils freecad](https://www.youtube.com/watch?v=MsDIRIkeNJ4)
 
 ## Visualisation et Rendu 
@@ -42,13 +42,13 @@ Puisqu\'il existe de nombreuses vidéos traitant de ce sujet, vous pouvez vous r
 
 ## Conception architecturale 
 
-Vidéos qui passent par la modélisation de pièces, de maisons, d\'immeubles de bureaux et de structures similaires, et de dessin de plans d\'étage, à l\'aide des ateliers tels que <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _ et <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/fr.md).
+Vidéos qui passent par la modélisation de pièces, de maisons, d\'immeubles de bureaux et de structures similaires, et de dessin de plans d\'étage, à l\'aide des ateliers tels que <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/fr.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench/fr.md) et <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/fr.md).
 
 Puisqu\'il existe de nombreuses vidéos traitant de ce sujet, vous pouvez vous rendres sur [Tutoriels vidéo pour la conception en architecture](Video_tutorials_for_architectural_design/fr.md).
 
 ## Simulation par les éléments finis (FEM) 
 
--   _, par Eklavya Self Learning Tutorials.
+-   [FreeCAD FEM/Civil/Structural/Arch Tutorial-1-An Introduction](https://www.youtube.com/watch?v=wAJe1R5NDGw): FreeCAD 0.16, une introduction pour construire une structure simple de piliers et de poutres ainsi que des analyses avec l\'<img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [atelier FEM](FEM_Workbench/fr.md), par Eklavya Self Learning Tutorials.
 
 -   [Comment utiliser FreeCAD FEM](https://www.youtube.com/watch?v=dhrynRdBOIg) \[12:15\] FreeCAD v0.19, Introduction à l\'utilisation de l\'atelier FEM. Très bien fait, par Joko Engineering
 
@@ -56,7 +56,7 @@ Puisqu\'il existe de nombreuses vidéos traitant de ce sujet, vous pouvez vous r
 
 ## Autres
 
--   _ qui peut être installé à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
+-   [Animation Workbench](https://www.youtube.com/watch?v=AQjAa5JxmOg&list=PLIxaznuCUATKzCFbFUFhRwZMJMnYuQ1JB) par microelly: une série de 7 vidéos décrivant l\'Animation Workbench de son développeur. C\'est l\'un des [ateliers externes](External_workbenches/fr.md) qui peut être installé à partir du <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
 -   [FreeCAD Tutorials - GENERAL](https://www.youtube.com/watch?v=WdBQPXeAeMc&list=PLKu--JcOZKTPZjy761ELQ7ba45yZmxOpj) par AllVisuals4U: FreeCAD 0.16, une série de 28 courtes vidéos sur les aspects généraux de FreeCAD; par exemple, il montre comment changer les unités, la couleur d\'arrière-plan, l\'écran de démarrage, les contraintes, définir la vue en perspective, définir la transparence, modifier la taille des icônes de la barre d\'outils, préparer l\'impression 3D et extruder le texte. Certaines instructions plus avancées incluent la création de logo, le pliage du métal et l\'assemblage. La plupart des vidéos décrivent FreeCAD 0.16, mais comme elles ne se concentrent pas sur les aspects de modélisation, les informations sont généralement applicables pour d\'autres versions.
 
@@ -89,7 +89,7 @@ Pour plus à voir [Tutoriels vidéo obsolètes](Video_tutorials_obsolete/fr.md).
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/fr

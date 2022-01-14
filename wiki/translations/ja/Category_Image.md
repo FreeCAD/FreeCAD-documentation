@@ -5,7 +5,7 @@ This category lists pages related to the [Image Workbench/ja](Image_Workbench/ja
 
 [Image Workbench/ja](Image_Workbench/ja.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches/ja](<img src="images/Property.png" style="width:16px"> Workbenches/ja.md)
 
 ---
 [documentation index](../README.md) > Category:Image/ja

@@ -19,7 +19,7 @@ Beim Starten des Werkzeugs werden Auswahlen gelöscht und der Mauszeiger ändert
 
 ## Anwendung
 
-1.  Drücke die **<img src=images/Sketcher_CreateFillet.svg style="width:16px"> [VerrundungErzeugen](Sketcher_CreateFillet/de.md)** Schaltfläche.
+1.  Drücke die **[<img src=images/Sketcher_CreateFillet.svg style="width:16px"> [VerrundungErzeugen](Sketcher_CreateFillet/de.md)** Schaltfläche.
 2.  Wähle einen Knoten, der zwei Linien verbindet; oder klicke auf zwei verbundene Linien, der Abstand, den du vom Knoten klickst, legt den Verrundungsradius fest.
 3.  Drücke **Esc** oder klicke mit der rechten Maustaste, um die Funktion abzubrechen oder zu beenden.
 

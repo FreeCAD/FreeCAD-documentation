@@ -20,7 +20,7 @@ Das Dienstprogramm **Skizze validieren** kann verwendet werden, um eine Skizze z
 
 1.  Dieses Werkzeug kann nicht für eine Skizze verwendet werden, die sich im Bearbeitungsmodus befindet. Verlasse bei Bedarf den Bearbeitungsmodus, indem du einen der folgenden Schritte ausführst:
 
--   Drücke die **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Skizze verlassen](Sketcher_LeaveSketch/de.md)** Taste.
+-   Drücke die **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Skizze verlassen](Sketcher_LeaveSketch/de.md)** Taste.
 
 \#\* Drücke die Schaltfläche **Schließen** am oberen Rand des [Aufgabenpaneels](Task_panel/de.md).
 

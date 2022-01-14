@@ -30,7 +30,7 @@ Acest instrument activează/dezactivează vizibilitatea măsurătorilor delta (v
 
 ## Cum se folosește 
 
-1.  Apăsați butonul **<img src=images/Part_Measure_Toggle_Delta.png style="width:24px"> '''Toggle Delta'''**
+1.  Apăsați butonul **[<img src=images/Part_Measure_Toggle_Delta.png style="width:24px"> '''Toggle Delta'''**
 
 
 </div>

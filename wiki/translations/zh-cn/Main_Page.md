@@ -3,7 +3,7 @@
 
 ## 介绍
 
-这是 _ 我们！
+这是 [FreeCAD](http://www.freecadweb.org) 的维基文档。浏览文档有两种主要方法：探索用户中心，或浏览用户手册。维基文档是一个还在进行中的工作，它由 FreeCAD 的用户社区和开发人员撰写。如果您发现了错误或有信息缺失，请 [帮助](Special:MyLanguage/help_FreeCAD.md) 我们！
 
 
 </div>
@@ -32,7 +32,7 @@
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> _ 是另一种更线性的方式，来呈现此维基中的信息。它做成了一本书的形式，也会善意地引导您进入上面三个入口中的许多其他页面。 这里有 [电子书版本](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details)，还有 [几个翻译后的PDF格式](https://www.freecadweb.org/manual/)。 
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [FreeCAD 手册](Manual:Introduction/zh-cn.md) 是另一种更线性的方式，来呈现此维基中的信息。它做成了一本书的形式，也会善意地引导您进入上面三个入口中的许多其他页面。 这里有 [电子书版本](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details)，还有 [几个翻译后的PDF格式](https://www.freecadweb.org/manual/)。 
 
 
 
@@ -71,14 +71,14 @@
 
 </div>
 
-_ 页面描述了所有更多的细节。从 2016 年开始，FreeCAD 参与 [谷歌编程夏令营](Google_Summer_of_Code.md)。 [贡献者入口](Contributors_hub/zh-cn.md) 页面从另一个角度集结可能的方式，大家帮助 FreeCAD 项目，各自贡献一份力量。
+[帮助 FreeCAD ](Special:MyLanguage/help_FreeCAD.md) 页面描述了所有更多的细节。从 2016 年开始，FreeCAD 参与 [谷歌编程夏令营](Google_Summer_of_Code.md)。 [贡献者入口](Contributors_hub/zh-cn.md) 页面从另一个角度集结可能的方式，大家帮助 FreeCAD 项目，各自贡献一份力量。
 
 ### 源代码
 
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD 可以用 _，_ 生成，记录在 [这个](Source_documentation/zh-cn.md) 维基页面上。
+FreeCAD 可以用 [CMake](https://cmake.org/) 在所有平台上编译。源代码是 [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) 授权的，并在 [GitHub](https://github.com/FreeCAD/FreeCAD) 上托管。有 [Windows](Compile_on_Windows.md)，[Linux](Compile_on_Linux.md) 和 [MacOS](Compile_on_MacOS.md) 的构建指导。源代码文档托管在 [这里](http://www.freecadweb.org/api/)，由 [Doxygen](Doxygen.md) 生成，记录在 [这个](Source_documentation/zh-cn.md) 维基页面上。
 
 
 </div>
@@ -90,7 +90,7 @@ FreeCAD 可以用 _，_ 生成，记录在 [这个](Source_documentation/zh-cn.m
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/zh-cn

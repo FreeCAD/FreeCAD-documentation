@@ -10,7 +10,7 @@
 
 ## Description
 
-L\'outil **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Répétition linéaire'''** créé des copies d\'une fonction espacées également le long d\'une droite.
+L\'outil **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Répétition linéaire'''** créé des copies d\'une fonction espacées également le long d\'une droite.
 
 ![](images/PartDesign_LinearPattern_example.svg )
 
@@ -21,7 +21,7 @@ L\'outil **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''R
 Pour créer un motif :
 
 1.  Sélectionnez la fonction ({{Version/fr|0.19}} ou plusieurs fonctions) à répéter.
-2.  Appuyez sur le bouton **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Répétition linéaire'''**.
+2.  Appuyez sur le bouton **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Répétition linéaire'''**.
 3.  Définissez la **Direction**. Voir [Options](#Options.md).
 4.  Définissez la **Longueur** (distance) entre la dernière occurrence copiée et l\'entité d\'origine.
 5.  Définissez le nombre **d\'occurrences**.

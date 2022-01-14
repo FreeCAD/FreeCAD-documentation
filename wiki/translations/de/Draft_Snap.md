@@ -23,7 +23,7 @@ Die <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf Ar
 
 <div class="mw-translate-fuzzy">
 
-Das Fangen ist mit den meisten <img src=images/Draft_ToggleSnap.svg style="width:Entwurf](Draft_Workbench/de.md) und [Architektur Arbeitsbereich](Arch_Workbench/de.md) Werkzeugen verfügbar und kann mit der **[16px">[Fang Umschalten](Draft_Snap_Lock/de.md)** Schaltfläche, die sich in der Fang Werkzeugleiste befindet: **Ansicht → Werkzeugleisten → Entwurf Fang** global aktiviert und deaktiviert werden.
+Das Fangen ist mit den meisten [Entwurf](Draft_Workbench/de.md) und [Architektur Arbeitsbereich](Arch_Workbench/de.md) Werkzeugen verfügbar und kann mit der **[<img src=images/Draft_ToggleSnap.svg style="width:16px">[Fang Umschalten](Draft_Snap_Lock/de.md)** Schaltfläche, die sich in der Fang Werkzeugleiste befindet: **Ansicht → Werkzeugleisten → Entwurf Fang** global aktiviert und deaktiviert werden.
 
 
 </div>
@@ -49,7 +49,7 @@ Note that circular edges do not have to be full circles.
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="" src=images/Draft_ToggleSnap.svg  style="width:32px;"> _ global ein oder aus.
+-   <img alt="" src=images/Draft_ToggleSnap.svg  style="width:32px;"> [Fang umschalten](Draft_Snap_Lock/de.md): schaltet [Objektfang](Draft_Snap/de.md) global ein oder aus.
 -   <img alt="" src=images/Snap_Endpoint.svg  style="width:32px;"> [Endpunkt](Draft_Snap_Endpoint/de.md): fängt an den Endpunkten von Linien-, Bogen- und Splinesegmenten.
 -   <img alt="" src=images/Snap_Midpoint.svg  style="width:32px;"> [Mittenpunkt](Draft_Snap_Midpoint/de.md): fängt auf den Mittenpunkt von Linien- und Bogensegmenten.
 -   <img alt="" src=images/Snap_Center.svg  style="width:32px;"> [Mittelpunkt](Draft_Snap_Center/de.md): fängt auf den Mittelpunkt von Bögen und Kreisen.
@@ -62,7 +62,7 @@ Note that circular edges do not have to be full circles.
 -   <img alt="" src=images/Snap_Near.svg  style="width:32px;"> [Nächste](Draft_Snap_Near/de.md): fängt den nächstgelegenen Punkt oder die nächstgelegene Kante des Objekts ein.
 -   <img alt="" src=images/Snap_Ortho.svg  style="width:32px;"> [Rechtwinklig](Draft_Snap_Ortho/de.md): fängt an imaginären Linien, die den letzten Punkt kreuzen und sich bei 0°, 45° und 90° ausdehnen.
 -   <img alt="" src=images/Snap_Grid.svg  style="width:32px;"> [Gitter](Draft_Snap_Grid/de.md): fängt an den Schnittpunkten der Gitterlinien, wenn das Gitter sichtbar ist.
--   <img alt="" src=images/Snap_WorkingPlane.svg  style="width:32px;"> _, auch wenn du auf einen Punkt außerhalb dieser Arbeitsebene fängst.
+-   <img alt="" src=images/Snap_WorkingPlane.svg  style="width:32px;"> [Arbeitsebene](Draft_Snap_WorkingPlane/de.md): setzt den gefangenen Punkt immer auf die aktuelle [Arbeitsebene](Draft_SelectPlane/de.md), auch wenn du auf einen Punkt außerhalb dieser Arbeitsebene fängst.
 -   <img alt="" src=images/Snap_Dimensions.svg  style="width:32px;"> [Abmessungen](Draft_Snap_Dimensions/de.md): zeigt temporäre X- und Y-Dimensionen während des Fangvorgangs an.
 -   <img alt="" src=images/Draft_ToggleGrid.svg  style="width:32px;"> [Umschalten Gitter](Draft_Snap_Grid.md): schaltet die Sichtbarkeit des Gitters ein und aus.
 
@@ -73,7 +73,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of edges.
 
--   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ and [Arch BuildingParts](Arch_BuildingPart.md).
+-   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Snap Center](Draft_Snap_Center.md): snaps to the center point of faces and circular edges, and to the **Placement** point of [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md) and [Arch BuildingParts](Arch_BuildingPart.md).
 
 -   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Snap Angle](Draft_Snap_Angle.md): snaps to the special cardinal points on circular edges, at multiples of 30° and 45°.
 
@@ -93,7 +93,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Snap Grid](Draft_Snap_Grid.md): snaps to the intersections of grid lines.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md): projects the snap point onto the current [working plane](Draft_SelectPlane.md).
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Snap Dimensions](Draft_Snap_Dimensions.md): shows temporary X and Y dimensions.
 

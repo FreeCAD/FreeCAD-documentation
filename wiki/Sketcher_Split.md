@@ -17,7 +17,7 @@ This tool allows to divide an edge into two identical ones, while most of the co
 
 ## Usage
 
-1.  Press the **<img src=images/Sketcher_Split.svg style="width:16px"> [Split](Sketcher_Split.md)** button. The mouse pointer turns into a white cross with a red split symbol.
+1.  Press the **[<img src=images/Sketcher_Split.svg style="width:16px"> [Split](Sketcher_Split.md)** button. The mouse pointer turns into a white cross with a red split symbol.
 2.  Click on the edge in the place where you want to split it.
 3.  From the line and arc edges, two new will be created, connected at the point clicked. A circle is converted to an arc with the very same center point and other constraints the original circle had.
 4.  Pressing **Esc** or pressing the right mouse button will terminate the function.

@@ -23,7 +23,7 @@ Il comando **Ambienti** attiva l\'[ambiente di lavoro](Workbenches/it.md) selezi
 
 <div class="mw-translate-fuzzy">
 
--   Ulteriori _.
+-   Ulteriori [ambienti aggiuntivi](External_Workbenches/it.md) possono essere scaricati con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr/it.md).
 
 
 </div>

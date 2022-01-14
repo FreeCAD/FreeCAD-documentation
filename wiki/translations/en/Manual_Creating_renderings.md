@@ -21,7 +21,7 @@ In this preferences screen we can also set the desired image size we want to pro
 
 ### Rendering with PovRay 
 
-We will use the table we have been modelling in the _ chapter to produce renderings with PovRay and Luxrender.
+We will use the table we have been modelling in the [traditional modeling](Manual:Traditional_modeling,_the_CSG_way.md) chapter to produce renderings with PovRay and Luxrender.
 
 -   Start by loading the table.FCStd file that we modelled earlier or from the link at the bottom of this chapter.
 -   Press the small down arrow next to the <img alt="" src=images/Raytrace_New.svg  style="width:16px;"> [New Povray project](Raytracing_New.md) button, and choose the **RadiosityNormal** template
@@ -32,7 +32,7 @@ We will use the table we have been modelling in the _ chapter to produce renderi
 ![](images/Exercise_raytracing_02.jpg )
 
 -   The new project has adopted the point of view of the 3D view as it was at the moment we pressed the button. We can change the view, and update the view position stored in the Povray project anytime, by pressing the <img alt="" src=images/Raytrace_ResetCamera.svg  style="width:16px;"> [Reset camera](Raytracing_ResetCamera.md) button.
--   The Raytracing Workbench works the same way as the _ button:
+-   The Raytracing Workbench works the same way as the [Drawing Workbench](Drawing_Workbench.md): Once a project folder is created, we must add **Views** of our objects to it. We can now do that by selecting all the objects that compose the table, and press the <img alt="" src=images/Raytrace_NewPartSegment.svg  style="width:16px;"> [Insert part](Raytracing_InsertPart.md) button:
 
 ![](images/Exercise_raytracing_03.jpg )
 
@@ -82,7 +82,7 @@ You can greatly extend the rendering possibilities of FreeCAD by creating new te
 
 {{Raytracing Tools navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Creating renderings/en

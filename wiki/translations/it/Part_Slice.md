@@ -24,7 +24,7 @@ Strumento<img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Affetta in
 
 <div class="mw-translate-fuzzy">
 
-Ci sono due comandi per affettare una forma: <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> _. Entrambi creano una funzione parametrica Slice, che mette i pezzi tagliati in un composto, ma <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Affetta in parti](Part_SliceApart/it.md) esplode il composto risultante in oggetti separati. \"Affetta in composto\" è completamente parametrico e non crea problemi se il numero di pezzi cambia. \"Affetta in parti\" non aggiorna il numero di oggetti quando il numero di pezzi cambia.
+Ci sono due comandi per affettare una forma: <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Affetta in parti](Part_SliceApart/it.md) e <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Affetta in composto](Part_Slice/it.md). Entrambi creano una funzione parametrica Slice, che mette i pezzi tagliati in un composto, ma <img alt="" src=images/Part_SliceApart.svg  style="width:24px;"> [Affetta in parti](Part_SliceApart/it.md) esplode il composto risultante in oggetti separati. \"Affetta in composto\" è completamente parametrico e non crea problemi se il numero di pezzi cambia. \"Affetta in parti\" non aggiorna il numero di oggetti quando il numero di pezzi cambia.
 
 
 </div>
@@ -32,7 +32,7 @@ Ci sono due comandi per affettare una forma: <img alt="" src=images/Part_SliceAp
 
 <div class="mw-translate-fuzzy">
 
-La forma in uscita occupa lo stesso spazio dell\'originale, ma è divisa dove interseca le altre forme. I singoli pezzi sono raggruppati in un composto (o in un compsolid), quindi sembra che l\'oggetto sia ancora un unico pezzo. Per disporre dei singoli pezzi è necessario separare gli elementi del composto. Se si desidera accedere ai singoli pezzi in modo parametrico, è possibile utilizzare <img alt="" src=images/Part_CompoundFilter.svg  style="width:24px;"> _ di Draft.
+La forma in uscita occupa lo stesso spazio dell\'originale, ma è divisa dove interseca le altre forme. I singoli pezzi sono raggruppati in un composto (o in un compsolid), quindi sembra che l\'oggetto sia ancora un unico pezzo. Per disporre dei singoli pezzi è necessario separare gli elementi del composto. Se si desidera accedere ai singoli pezzi in modo parametrico, è possibile utilizzare <img alt="" src=images/Part_CompoundFilter.svg  style="width:24px;"> [Filtra composto di Part](Part_CompoundFilter/it.md). Per un utilizzo rapido e non parametrico usare <img alt="" src=images/Draft_Downgrade.svg  style="width:24px;"> [Degrada](Draft_Downgrade/it.md) di Draft.
 
 
 </div>

@@ -3,7 +3,7 @@
 
 FreeCAD, aunque utilizable en diversas aplicaciones, está al principio de un larga travesía dentro de las aplicaciones de CAD. Aún queda mucho por hacer para alcanzar un estado en el cual se pueda competir con el software comercial.
 
-Esta sección ofrece un resumen de lo que está planeado y te ofrece la oportunidad de participar o dar tu opinión. Como somos voluntarios a FreeCAD solo le podemos dedicar una cierta cantidad de tiempo. Así que si te interesa alguno de los asuntos indicados y dispuesto a ayudarnos, simplemente avísanos! Utilizamos el estilo de Getting Things Done _.
+Esta sección ofrece un resumen de lo que está planeado y te ofrece la oportunidad de participar o dar tu opinión. Como somos voluntarios a FreeCAD solo le podemos dedicar una cierta cantidad de tiempo. Así que si te interesa alguno de los asuntos indicados y dispuesto a ayudarnos, simplemente avísanos! Utilizamos el estilo de Getting Things Done [Getting things done (GTD)](http://es.wikipedia.org/wiki/Getting_Things_Done) para la documentación del proyecto. Aquí está la [Plantilla del proyecto](Project_template/es.md).
 
 -   El [Gráfico de Organización](http://www.freecadweb.org/wiki/index.php?title=Organization_chart) muestra quién hace qué en el universo de FreeCAD.
 
@@ -44,7 +44,7 @@ Como en la mayoría de proyectos de [Software libre y de código abierto (FLOSS)
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Development roadmap/es

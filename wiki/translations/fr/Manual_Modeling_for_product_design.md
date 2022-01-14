@@ -119,7 +119,7 @@ Il existe deux façons simples de se débarrasser de l'historique, on utilise l\
 
 **Assemblage**
 
-Mais le meilleur des deux mondes existe également, qui est l\'atelier Assembly2 (_) et en rotation (<img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Draft Rotation](Draft_Rotate/fr.md)) de l'atelier Draft que d\'utiliser les contraintes d'Assembly2.
+Mais le meilleur des deux mondes existe également, qui est l\'atelier Assembly2 ([Assembly2 Workbench](https://github.com/hamish2014/FreeCAD_assembly2)), un greffon (addon) qui peut être installé à partir du dépôt [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons). Cet atelier s\'appelle \"2\" car il existe également un atelier intégré d\'assemblage en développement, qui n\'est pas encore prêt. L'atelier Assembly2, cependant, fonctionne déjà très bien pour construire des assemblages, et comporte également quelques contraintes d\'objet à objet que vous pouvez utiliser pour contraindre la position d\'un objet par rapport à un autre. Dans l\'exemple ci-dessous, cependant, il sera plus rapide et plus facile de positionner les pièces à l\'aide des déplacements en translation (<img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Draft Déplacer](Draft_Move/fr.md)) et en rotation (<img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Draft Rotation](Draft_Rotate/fr.md)) de l'atelier Draft que d\'utiliser les contraintes d'Assembly2.
 
 -   Enregistrez le fichier tel qu\'il est actuellement.
 -   Installez l'atelier Assembly2 ([Assembly2 Workbench](https://github.com/hamish2014/FreeCAD_assembly2)) et redémarrez FreeCAD.
@@ -145,7 +145,7 @@ Mais le meilleur des deux mondes existe également, qui est l\'atelier Assembly2
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/fr

@@ -78,7 +78,7 @@ If you are a CAD user and would like to add stuff here, feel free to edit, we wo
 -   Roof
 -   Assemblies
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md) [<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
 
 ---
 [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Wished tools/pl

@@ -1,7 +1,7 @@
 # Arch OBJ/pl
 ## Opis
 
-Dodatkowo oprócz standardowego eksportera FreeCAD _ posiada alternatywny eksporter, który eksportuje koplanarne powierzchnie jako całe powierzchnie OBJ, zamiast triangulacji obiektów opartych na [kształtach](Shape/pl.md), jak to robi standardowy eksporter.
+Dodatkowo oprócz standardowego eksportera FreeCAD [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file), środowisko pracy [Architektura](Arch_Workbench/pl.md) posiada alternatywny eksporter, który eksportuje koplanarne powierzchnie jako całe powierzchnie OBJ, zamiast triangulacji obiektów opartych na [kształtach](Shape/pl.md), jak to robi standardowy eksporter.
 
 ## Eksportowanie bez GUI 
 
@@ -47,7 +47,7 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> File Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch OBJ/pl

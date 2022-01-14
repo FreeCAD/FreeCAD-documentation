@@ -100,7 +100,7 @@ Wenn du das aktive Dokument auswählst und mit der rechten Maustaste klickst, mu
 
 -    {{MenuCommand/de|Markieren zum Neuberechnen}}: markiert alle Objekte des Dokuments als berührt und bereit für [Neuberechnen](Std_Refresh/de.md).
 
--    {{MenuCommand/de|_ im ausgewählten Dokument, indem du die Dokumenten `addObject()` Methode.
+-    {{MenuCommand/de|[Create group](Std_Group/de.md)}}: Erzeugt eine [Gruppe](Std_Group/de.md) im ausgewählten Dokument, indem du die Dokumenten `addObject()` Methode.
 
 
 </div>

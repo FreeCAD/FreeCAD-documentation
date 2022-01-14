@@ -34,7 +34,7 @@ Questo strumento consente di definire l\'aspetto (modalità di visualizzazione, 
 <div class="mw-translate-fuzzy">
 
 1.  Selezionare almeno un oggetto.
-2.  Nell\'albero del modello o nella vista 3D, fare clic con il tasto destro e selezionare **<img src=images/Std_Tool1.svg style="width:16px"> Aspetto** nel menu contestuale.
+2.  Nell\'albero del modello o nella vista 3D, fare clic con il tasto destro e selezionare **[<img src=images/Std_Tool1.svg style="width:16px"> Aspetto** nel menu contestuale.
 3.  Definire le proprietà; vedere [Opzioni](#Opzioni.md).
 4.  Premere {{button|Chiudi}}.
 

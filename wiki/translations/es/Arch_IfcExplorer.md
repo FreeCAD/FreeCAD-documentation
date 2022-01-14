@@ -49,7 +49,7 @@ El propósito de este explorador es simplemente permitirte comprobar lo que real
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
 [documentation index](../README.md) > [BIM](Category_BIM.md) > [Arch](Arch_Workbench.md) > Arch IfcExplorer/es

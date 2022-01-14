@@ -13,7 +13,7 @@
 
 Narzędzie Widok dodaje reprezentację jednego lub więcej obiektów do strony Rysunku. Jest to podstawowy element środowiska Rysunek Techniczny. Większość innych widoków pochodzi w jakiś sposób od metody Nowy widok.
 
-Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Możesz wybrać obiekty _, środowiska _ lub [Std: Grupa](Std_Group/pl.md).
+Widok będzie próbował narysować cokolwiek z właściwością `kształt`. Możesz wybrać obiekty [szkicu](Draft_Workbench/pl.md) i również [Projekt Części: Zawartość](PartDesign_Body/pl.md), środowiska [Rysunek Roboczy](Draft_Workbench/pl.md). Widok wyodrębni również kształty z obiektów w kontenerze [Std: Część](Std_Part/pl.md) lub [Std: Grupa](Std_Group/pl.md).
 
 ![](images/TechDraw_View_example.png ) 
 *Widok bryły sześcianu z ukrytymi liniami*

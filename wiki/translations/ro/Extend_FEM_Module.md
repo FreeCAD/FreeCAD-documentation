@@ -6,7 +6,7 @@
 |Topic= 
 |Level= 
 |Time= 
-|Author=_
+|Author=[M42kus](User_M42kus.md)
 |FCVersion=
 |Files=
 }}
@@ -143,7 +143,7 @@ Most files related to a solver reside in a sub-package of the FemSolver package 
 
 </div>
 
-There is a tutorial of adding a new solver: _
+There is a tutorial of adding a new solver: [Add FEM Solver Tutorial](Sandbox_Add_FEM_Solver_Tutorial.md)
 
 ## Ecuații
 
@@ -202,7 +202,7 @@ Adăugarea de noi constrângeri este destul de simplă. Pentru nou-veniți, exis
 
 </div>
 
-_
+[<img src="images/Property.png" style="width:16px"> FEM](Category_FEM.md)
 
 ---
 [documentation index](../README.md) > [FEM](Category_FEM.md) > Extend FEM Module/ro

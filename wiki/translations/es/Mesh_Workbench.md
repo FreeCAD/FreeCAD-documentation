@@ -9,7 +9,7 @@ El <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Ambiente de 
 
 Muchas aplicaciones 3D, como [Sketchup](https://es.wikipedia.org/wiki/SketchUp), [Blender](http://es.wikipedia.org/wiki/Blender), [Autodesk Maya](http://es.wikipedia.org/wiki/Autodesk_Maya) y [Autodesk 3ds Max](http://es.wikipedia.org/wiki/Autodesk_3ds_Max) utilizan mallas como tipo principal de objeto 3D. Dado que las mallas son objetos muy sencillos, que sólo contienen vértices (puntos), aristas y caras triangulares, son muy fáciles de crear, modificar, subdividir y estirar, y pueden pasarse fácilmente de una aplicación a otra sin pérdida de detalles. Además, como las mallas contienen datos muy simples, las aplicaciones 3D suelen poder gestionar cantidades muy grandes de ellas sin utilizar muchos recursos. Por estas razones, las mallas suelen ser el tipo de objeto 3D preferido para las aplicaciones que se ocupan de las películas, la animación y la creación de imágenes.
 
-Sin embargo, en el campo de la ingeniería las mallas presentan una gran limitación: no pueden definir con precisión las superficies curvas. Por eso FreeCAD se basa en _ en su lugar. El Mesh Workbench ofrece algunos comandos para manipular directamente las mallas, pero se utiliza más a menudo para importar datos de malla 3D y convertirlos en un sólido para su uso con el <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _.
+Sin embargo, en el campo de la ingeniería las mallas presentan una gran limitación: no pueden definir con precisión las superficies curvas. Por eso FreeCAD se basa en [Brep](wikipedia_Boundary_representation.md) en su lugar. El Mesh Workbench ofrece algunos comandos para manipular directamente las mallas, pero se utiliza más a menudo para importar datos de malla 3D y convertirlos en un sólido para su uso con el <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente de trabajo Piezas](Part_Workbench/es.md) o <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo DiseñoPiezas](PartDesign_Workbench/es.md).
 
 <img alt="" src=images/Mesh_example.jpg  style="width:500px;">
 
@@ -21,7 +21,7 @@ Todas las herramientas del ambiente de trabajo Malla se puede acceder a desde el
 
 -   ![ 32px](images/_Mesh_ExportMesh.png ) [ Export Mesh](Mesh_Export/es.md): exporta mallas en varios formatos de archivo
 
--   !_ en mallas
+-   ![ 32px](images/_Mesh_MeshFromShape.png ) [ Create Mesh from shape](Mesh_MeshFromShape.md): convierte objetos [ Part](Part_Workbench/es.md) en mallas
 
 -   <img alt="" src=images/Mesh_RemeshGmsh.svg  style="width:32px;"> [Refinamiento\...](Mesh_RemeshGmsh/rs.md): Refina un objeto de malla. {{Version/es|0.19}}
 
@@ -86,8 +86,8 @@ Hay algunas [preferencias de exportación relacionadas con los formatos de malla
 
 Mesh Workbench preferences can be found in the following categories of the [Preferences Editor](Preferences_Editor.md):
 
--   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> _ tab several preferences can be set.
--   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> _, [Mesh Intersection](Mesh_Intersection.md) and [Mesh Difference](Mesh_Difference.md) commands require [OpenSCAD](http://www.openscad.org/) and use the **OpenSCAD executable** preference to find its executable.
+-   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Display](Preferences_Editor#Display_settings.md): On the [Mesh view](Preferences_Editor#Mesh_view.md) tab several preferences can be set.
+-   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences.md): The [Mesh Union](Mesh_Union.md), [Mesh Intersection](Mesh_Intersection.md) and [Mesh Difference](Mesh_Difference.md) commands require [OpenSCAD](http://www.openscad.org/) and use the **OpenSCAD executable** preference to find its executable.
 
 ## Notas
 
@@ -104,7 +104,7 @@ Mesh Workbench preferences can be found in the following categories of the [Pref
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Mesh Workbench/es

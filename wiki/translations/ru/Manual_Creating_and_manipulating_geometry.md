@@ -46,7 +46,7 @@ FreeCAD.ActiveDocument.recompute()
 
 Обратите внимание на то, как мы обрабатывали myObj.Shape , мы сделали это в точности как в предыдущей главе мы меняли другие параметры объекта, такие как box.Height = 5 . Фактически, **Shape** это так же параметр, подобно **Height**. Но его тип Part Shape, а не число. В следующей главе мы рассмотрим глубже конструкцию этих параметрических объектов.
 
-Теперь изучим наши формы Part детальнее. В конце главы о _ мы показали стол, показывающий как конструируются формы Part, и их различные компоненты (вершины, грани, рёбра и так далее). Точно такие же компоненты существуют и могут быть доступны через Python. Формы Part всегда имеют следующие атрибуты: Vertexes, Edges, Wires, Faces, Shells и Solids. Все они списки, содержащие любое число элементов или пустые:
+Теперь изучим наши формы Part детальнее. В конце главы о [традиционном моделировании с помощью верстака Part](Manual:Traditional_modeling,_the_CSG_way/ru.md) мы показали стол, показывающий как конструируются формы Part, и их различные компоненты (вершины, грани, рёбра и так далее). Точно такие же компоненты существуют и могут быть доступны через Python. Формы Part всегда имеют следующие атрибуты: Vertexes, Edges, Wires, Faces, Shells и Solids. Все они списки, содержащие любое число элементов или пустые:
 
 
 ```python
@@ -233,7 +233,7 @@ Part.show(P)
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Manual:Creating and manipulating geometry/ru

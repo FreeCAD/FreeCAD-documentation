@@ -18,11 +18,11 @@ For more information about manipulating objects see [Std TransformManip](Std_Tra
 ## Selecting a navigation style 
 
 1.  Do one of the following:
-    -   Press the **<img src=images/NavigationCAD.svg style="width:16px">** button in the [Status bar](Status_bar.md).
+    -   Press the **[<img src=images/NavigationCAD.svg style="width:16px">** button in the [Status bar](Status_bar.md).
     -   Right-click an empty area in the [3D view](3D_view.md), and select **Navigation styles** from the context menu.
     -   Use the [Preferences Editor](Preferences_Editor#Navigation.md). In the menu select **Edit → Preferences** and then **Display → Navigation → 3D Navigation**.
 2.  Select a style from the list.
-3.  Optionally change the **Orbit style**: press the **<img src=images/NavigationCAD.svg style="width:16px">** button in the [Status bar](Status_bar.md) and then choose **Settings → Orbit style**. See [Preferences Editor](Preferences_Editor#Navigation.md).
+3.  Optionally change the **Orbit style**: press the **[<img src=images/NavigationCAD.svg style="width:16px">** button in the [Status bar](Status_bar.md) and then choose **Settings → Orbit style**. See [Preferences Editor](Preferences_Editor#Navigation.md).
 4.  Optionally change the **Rotation mode**. See [Preferences Editor](Preferences_Editor#Navigation.md).
 5.  If the **CAD** navigation style is selected: optionally change the **Enable animation** setting. See [Preferences Editor](Preferences_Editor#Navigation.md).
 

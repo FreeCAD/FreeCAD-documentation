@@ -114,7 +114,7 @@ CAD绘图的传统方式继承于旧的[绘图板](http://en.wikipedia.org/wiki/
 
 在封闭区域内，我们可以有较小的非重叠区域。当创建3D实体时，这些将变为空白。
 
-Once a Sketch is fully constrained, the Sketch features will turn green; Construction Geometry will remain blue. It is usually \"finished\" at this point and suitable for use in creating a 3D solid. However, once the Sketch dialog is closed it may be worthwhile going to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:Part Workbench](Part_Workbench.md) and running **[16px"> [Check geometry](Part_CheckGeometry.md)** to ensure there are no features in the Sketch which may cause later problems.
+Once a Sketch is fully constrained, the Sketch features will turn green; Construction Geometry will remain blue. It is usually \"finished\" at this point and suitable for use in creating a 3D solid. However, once the Sketch dialog is closed it may be worthwhile going to <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) and running **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Check geometry](Part_CheckGeometry.md)** to ensure there are no features in the Sketch which may cause later problems.
 
 ## Tools
 
@@ -132,7 +132,7 @@ Once a Sketch is fully constrained, the Sketch features will turn green; Constru
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> [创建草图](Sketcher_NewSketch/zh-cn.md): 在所选的面或平面上创建新的草图。如果在执行此工具时未选择任何面, 则系统将提示用户从弹出窗口中选择一个平面。
 
--   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> _。
+-   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [编辑草绘](Sketcher_EditSketch/zh-cn.md): 编辑已选择的草图。这会开启[草图对话框](Sketcher_Dialog.md)。
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [离开草图](Sketcher_LeaveSketch/zh-cn.md): 离开草图编辑模式。
 
@@ -635,7 +635,7 @@ The [Sketcher scripting](Sketcher_scripting.md) page contains examples on how to
 
 }} 
 
-_ _
+[分类:用户文档](<img src="images/Property.png" style="width:16px"> User_Documentation/zh-cn.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/zh-cn

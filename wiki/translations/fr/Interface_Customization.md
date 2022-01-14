@@ -231,7 +231,7 @@ Cet onglet est vide si aucune souris 3D n\'est détecté. Voir: [Périphériques
 
 ## Thèmes
 
-FreeCAD prend en charge la thématisation complète de l\'interface, via des feuilles de style .qss. Le _.
+FreeCAD prend en charge la thématisation complète de l\'interface, via des feuilles de style .qss. Le [format qss](https://doc.qt.io/qt-5/stylesheet-syntax.html) est très similaire au [format css](https://en.wikipedia.org/wiki/CSS) utilisé dans les pages Web. Il ajoute essentiellement plus de méthodes pour référencer les différents widgets et éléments de l\'interface Qt. Vous pouvez modifier le thème par défaut (qui reprend simplement le style défini par votre système de bureau) en sélectionnant une **feuille de style** dans les [Préférences FreeCAD](Preferences_Editor/fr#G.C3.A9n.C3.A9ral.md).
 
 Vous pouvez également créer votre propre thème si vous n\'êtes pas satisfait des thèmes fournis avec FreeCAD, par exemple en modifiant une [feuille de style existante](https://github.com/FreeCAD/FreeCAD/tree/master/src/Gui/Stylesheets). Votre nouveau style doit être placé dans un dossier spécifique pour qu\'il soit trouvé par FreeCAD :
 

@@ -37,7 +37,7 @@ sein. Beachte die Reihenfolge, in der du die Endpunkte ausgewählt hast.
 
 Beachte, dass mehrere [Hilfsbeschränkungen](Sketcher_helper_constraint/de.md) automatisch (Punkt-auf-Objekt, deckungsgleich) hinzugefügt werden. Sie können gelöscht werden, wenn sie eine Redundanz verursachen oder manuell hinzugefügt werden, wenn sie nicht automatisch hinzugefügt wurden. Für die tatsächliche Beschränkung des Snelliusschen Brechungsgesetzes müssen die Endpunkte der Linien deckungsgleich sein und auf der Schnittfläche liegen, sonst ist das Verhalten undefiniert.
 
-Durch Verwenden der **<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Polylinie](Sketcher_CreatePolyline/de.md)** ist es möglich, die Zeichnung von Lichtstrahlen zu beschleunigen. In diesem Fall kann man zwei deckungsgleiche Endpunkte durch Kastenauswahl auswählen.
+Durch Verwenden der **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Polylinie](Sketcher_CreatePolyline/de.md)** ist es möglich, die Zeichnung von Lichtstrahlen zu beschleunigen. In diesem Fall kann man zwei deckungsgleiche Endpunkte durch Kastenauswahl auswählen.
 
 ## Anmerkungen
 

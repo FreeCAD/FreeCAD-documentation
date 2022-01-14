@@ -9,7 +9,7 @@ Der <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;">[Arbeit
 
 Der Arbeitsbereich PartDesign ist eng mit dem [Arbeitsbereich Skizzierer](Sketcher_Workbench/de.md) verbunden. Der Anwender erstellt normalerweise eine Skizze, verwendet dann das Werkzeug [PartDesign Aufpolsterung](PartDesign_Pad/de.md), um sie zu extrudieren und einen Basis Körper zu erstellen, anschließend wird dieser Körper weiter modifiziert.
 
-Während der <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ für eine ausführlichere Erläuterung dieses Vorgangs, und [Erstellen eines einfachen Teil mit PartDesign](Creating_a_simple_part_with_PartDesign/de.md).
+Während der <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Arbeitsbereich Part](Part_Workbench/de.md) auf einer [konstruktiven Festkörpergeometrie](constructive_solid_geometry/de.md) (CSG) Methodik (engl.: Constructive Solid Geometry) für das Erstellen von Formen basiert, verwendet der Arbeitsbereich PartDesign eine parametrische Merkmal Bearbeitungsmethodik, d.h. ein Basis Körper wird sequentiell transformiert, indem Merkmale hinzugefügt werden, bis die endgültige Form erreicht ist. Um mit der Erstellung von Körpern zu beginnen, siehe die Seiten [Formelement bearbeiten](feature_editing/de.md) für eine ausführlichere Erläuterung dieses Vorgangs, und [Erstellen eines einfachen Teil mit PartDesign](Creating_a_simple_part_with_PartDesign/de.md).
 
 Eine detaillierte Diskussion des Arbeitsbereichs Part im Vergleich mit dem Arbeitsbereich Part Design findest du hier: [ Part und PartDesign](Part_and_PartDesign/de.md).
 
@@ -27,11 +27,11 @@ Diese Werkzeuge sind gar keine Bestandteile des Arbeitsbereichs PartDesign. Sie 
 
 -   <img alt="" src=images/Std_Part.png  style="width:32px;"> [Teil](Std_Part/de.md): fügt einen neuen Teilecontainer in das aktive Dokument ein und aktiviert ihn.
 
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> _ zu ordnen.
+-   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Gruppe](Std_Group/de.md): fügt einen Gruppencontainer in das aktive Dokument ein, der es erlaubt, die Objekte in der [Baumansicht](Tree_view/de.md) zu ordnen.
 
 ### Hilfswerkzeuge Part Design 
 
--   <img alt="" src=images/PartDesign_Body.png  style="width:32px;"> _.
+-   <img alt="" src=images/PartDesign_Body.png  style="width:32px;"> [Körper erstellen](PartDesign_Body/de.md): Erzeugen und aktivieren eines neuen [Körpers](Body/de.md).
 
 -   <img alt="" src=images/PartDesign_NewSketch.png  style="width:32px;"> [Skizze erstellen](PartDesign_NewSketch/de.md): erstellt eine neue Skizze auf einer ausgewählten Fläche oder Ebene. Wenn vor der Ausführung dieses Werkzeugs keine Fläche ausgewählt wurde, wird der Anwender aufgefordert, eine Ebene aus dem Aufgabenbereich auszuwählen. Die Schnittstelle wechselt dann im Bearbeitungsmodus
 
@@ -210,7 +210,7 @@ Einige zusätzliche Funktionen befinden sich im Menü Part Design:
 
  {{PartDesign Tools navi}}
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/de

@@ -13,7 +13,7 @@ The TechDraw workbench has two hatching tools:
 1.  Select a Face
 
     :   <img alt="" src=images/SelectFace.png  style="width:150px;">
-2.  Depending on the need, press either <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> _ icons.
+2.  Depending on the need, press either <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> [Hatch Face using Image File](TechDraw_Hatch.md) or <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Apply Geometric Hatch to Face](TechDraw_GeometricHatch.md) icons.
 
 **Result:** The face will be hatched initially using default values. **Note**: Edit the hatch properties to get the desired pattern.
 

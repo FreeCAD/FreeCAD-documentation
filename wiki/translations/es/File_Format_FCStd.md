@@ -118,7 +118,7 @@ Esta es una imagen en miniatura de 128x128 píxeles del documento, que es una ca
 
 ### \*.brep
 
-Estas son las formas _ de todos los objetos que tienen una forma de Parte en el {{FileName|Document.xml}}. Cada objeto, incluso si es paramétrico, tiene su forma almacenada como un archivo individual {{FileName|.brep}}, por lo que puede ser accedido por los componentes sin necesidad de recalcular la forma.
+Estas son las formas [B-rep](wikipedia_Boundary_representation.md) de todos los objetos que tienen una forma de Parte en el {{FileName|Document.xml}}. Cada objeto, incluso si es paramétrico, tiene su forma almacenada como un archivo individual {{FileName|.brep}}, por lo que puede ser accedido por los componentes sin necesidad de recalcular la forma.
 
 ### \*.svg
 
@@ -166,7 +166,7 @@ Ver el hilo del foro, [PDF dentro del proyecto](https://forum.freecadweb.org/vie
 
  
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [Developer](Category_Developer.md) > File Format FCStd/es

@@ -16,7 +16,7 @@ Obiekt [zawartość](PartDesign_Body/pl.md) jest podstawowym elementem do tworze
 
 Element Zawartość dostarcza obiekt **odniesienia położenia**, który zawiera zarówno lokalne osie X, Y i Z, jak i płaszczyzny standardowe. Te elementy mogą być użyte jako referencje do dołączenia [szkiców](Sketch/pl.md) i [brył pierwotnych](PartDesign_CompPrimitiveAdditive/pl.md).
 
-Nie pomyl obiektu <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> _. Pierwszy z nich jest specyficznym obiektem używanym w środowisku <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _ jest obiektem grupującym przeznaczonym do tworzenia _, może być umieszczonych wewnątrz pojedynczej [Std: Części](Std_Part.md), aby stworzyć złożony zespół.
+Nie pomyl obiektu <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [zawartość](PartDesign_Body/pl.md) środowiska pracy Projekt części z obiektem <img alt="" src=images/Std_Part.svg  style="width:24px;"> [Std: Część](Std_Part.md). Pierwszy z nich jest specyficznym obiektem używanym w środowisku <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt części](PartDesign_Workbench/pl.md), przeznaczonym do modelowania [pojedynczej ciągłej bryły](PartDesign_Body/pl#Pojedyncza_ci.C4.85g.C5.82a_bry.C5.82a.md) za pomocą [cech](PartDesign_Feature/pl.md) środowiska Projekt części. [Std: Część](Std_Part/pl.md) jest obiektem grupującym przeznaczonym do tworzenia [złożeń](Assembly/pl.md), nie jest on używany do modelowania, tylko do rozmieszczania różnych obiektów w przestrzeni. Wiele ciał i innych [Std: Części](Std_Part/pl.md), może być umieszczonych wewnątrz pojedynczej [Std: Części](Std_Part.md), aby stworzyć złożony zespół.
 
 ![](images/PartDesign_Body_tree.png ) ![](images/PartDesign_Body_example.png ) 
 *Po lewej: widok drzewa przedstawiający cechy, które kolejno tworzą ostateczny kształt obiektu. </br>Po prawej: zakończony obiekt prezentowany w oknie [widoku 3D](3D_view/pl.md).*
@@ -26,8 +26,8 @@ Nie pomyl obiektu <img alt="" src=images/PartDesign_Body.svg  style="width:24px;
 Jeśli nie jest wybrana żadna istniejąca bryła:
 
 1.  Naciśnij przycisk **<img src="images/PartDesign_Body.svg" width=16px> [Body](PartDesign_Body.md)**. Zostanie utworzona pusta zawartość, która automatycznie stanie się **[ aktywna ](PartDesign_Body/pl#Aktywny_status.md)**.
-2.  Teraz możesz nacisnąć **<img src=images/PartDesign_NewSketch.svg style="width:16px"> <img src=images/PartDesign_Pad.svg style="width:Nowy szkic](PartDesign_NewSketch/pl.md)**, aby utworzyć [szkic](Sketch/pl.md) w zawartości, który może być użyty z **[16px"> [wyciągnięciem](PartDesign_Pad/pl.md)**.
-3.  Alternatywnie, dodaj prymitywną <img src=images/PartDesign_AdditiveBox.svg style="width:własciwość](PartDesign_Feature.md), na przykład, **[16px"> [addtywny sześcian](PartDesign_AdditiveBox/pl.md)**.
+2.  Teraz możesz nacisnąć **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Nowy szkic](PartDesign_NewSketch/pl.md)**, aby utworzyć [szkic](Sketch/pl.md) w zawartości, który może być użyty z **[<img src=images/PartDesign_Pad.svg style="width:16px"> [wyciągnięciem](PartDesign_Pad/pl.md)**.
+3.  Alternatywnie, dodaj prymitywną [własciwość](PartDesign_Feature.md), na przykład, **[<img src=images/PartDesign_AdditiveBox.svg style="width:16px"> [addtywny sześcian](PartDesign_AdditiveBox/pl.md)**.
 
 Jeśli wybrano obiekt bryły:
 
@@ -35,12 +35,12 @@ Jeśli wybrano obiekt bryły:
 
 ## Uwagi
 
--   Jeśli nie ma obecnie żadnej zawartości, gdy przycisk **<img src=images/PartDesign_NewSketch.svg style="width:16px"> <img src=images/PartDesign_NewSketch.svg style="width:Nowy szkic](PartDesign_NewSketch/pl.md)** zostanie wciśnięty, automatycznie zostanie utworzona nowa zawartość. Jeśli zawartość już istnieje, musi zostać uaktywniona przed użyciem funkcji **[16px"> [Nowy szkic](PartDesign_NewSketch/pl.md)**.
+-   Jeśli nie ma obecnie żadnej zawartości, gdy przycisk **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Nowy szkic](PartDesign_NewSketch/pl.md)** zostanie wciśnięty, automatycznie zostanie utworzona nowa zawartość. Jeśli zawartość już istnieje, musi zostać uaktywniona przed użyciem funkcji **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Nowy szkic](PartDesign_NewSketch/pl.md)**.
 -   Kliknij dwukrotnie zawartość w widoku [widoku drzewa](Tree_view/pl.md) lub otwórz menu kontekstowe *(kliknij prawym przyciskiem myszy)* i wybierz **Przełącz aktywną zawartość**, aby aktywować lub dezaktywować zawartość. Jeśli inna zawartość jest aktywna, zostanie ona wyłączona. Zobacz [stan aktywny](PartDesign_Body/pl#Aktywny_status.md), aby uzyskać więcej informacji.
 
 ## Właściwości
 
-_ *(klasy `Part::Feature`)*, dlatego posiada wszystkie właściwości tej ostatniej.
+[Projekt części: zawartość](PartDesign_Body/pl.md) *(klasa `PartDesign::Body`)* wywodzi się z [Część: Cecha](Part_Feature/pl.md) *(klasy `Part::Feature`)*, dlatego posiada wszystkie właściwości tej ostatniej.
 
 Oprócz właściwości opisanych na stronie [Cecha części](Part_Feature/pl.md), bryła pochodząca ze środowiska Projekt części posiada następujące właściwości w [edytorze właściwości](Property_editor/pl.md).
 
@@ -134,9 +134,9 @@ Aktywowanie Zawartości powoduje automatyczne przełączenie do środowiska [Pro
 Odniesienie położenia obejmuje trzy standardowe osie *(X, Y, Z)* i trzy standardowe płaszczyzny *(XY, XZ i YZ)*. [Szkice](Sketch/pl.md) i inne obiekty mogą być dołączane do tych elementów podczas ich tworzenia.
 
 1.  Tworzenie bryły.
-2.  Jeśli zawartość jest wybrana w <img src=images/PartDesign_NewSketch.svg style="width:widoku drzewa](Tree_view/pl.md), naciśnij przycisk **[16px"> [Utwórz nowy szkic](PartDesign_NewSketch/pl.md)**, otworzy się [panel zadań](Task_panel/pl.md) umożliwiający wybranie jednej z płaszczyzn.
+2.  Jeśli zawartość jest wybrana w [widoku drzewa](Tree_view/pl.md), naciśnij przycisk **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Utwórz nowy szkic](PartDesign_NewSketch/pl.md)**, otworzy się [panel zadań](Task_panel/pl.md) umożliwiający wybranie jednej z płaszczyzn.
 3.  Jeśli zawartość nie jest wybrana, wybierz Odniesienie położenia i uczyń go widocznym w oknie widoku [widoku 3D](3D_view.md) naciskając klawisz **Spacja** na klawiaturze. Rozwiń także obiekt Odniesienie położenia, aby zobaczyć osie i płaszczyzny.
-4.  Wybierz jedną z płaszczyzn, albo w <img src=images/PartDesign_NewSketch.svg style="width:widoku drzewa](Tree_view/pl.md) albo w oknie [widok 3D](3D_view/pl.md), a następnie naciśnij **[16px"> [Utwórz nowy szkic](PartDesign_NewSketch/pl.md)**. Szkic zostanie utworzony na wybranej płaszczyźnie.
+4.  Wybierz jedną z płaszczyzn, albo w [widoku drzewa](Tree_view/pl.md) albo w oknie [widok 3D](3D_view/pl.md), a następnie naciśnij **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Utwórz nowy szkic](PartDesign_NewSketch/pl.md)**. Szkic zostanie utworzony na wybranej płaszczyźnie.
 
 Ten sam proces może być zastosowany przy tworzeniu pomocniczej geometrii układu odniesienia jak [Linia](PartDesign_Line/pl.md), [Płaszczyzna](PartDesign_Plane/pl.md) i [Układ współrzędnych](PartDesign_CoordinateSystem/pl.md).
 
@@ -154,7 +154,7 @@ Wszystkie elementy składowe Zawartości są powiązane z jej odniesieniem poło
 
 
 
-*Z lewej: Odniesienie położenia Projekt części w _.*
+*Z lewej: Odniesienie położenia Projekt części w [widoku drzewa](Tree_view/pl.md). <br>Z prawej: reprezentacja Odniesienia położenia w oknie [widoku 3D](3D_view/pl.md).*
 
 ### Właściwość podstawowa 
 
@@ -166,12 +166,12 @@ Element cechy bazowej jest pierwszym elementem [cecha projektu części](PartDes
 Aby utworzyć Cechę Bazową:
 
 1.  wybierz kształt bryły zewnętrzny w stosunku do dowolnej bryły, i
-2.  naciśnij **<img src=images/PartDesign_Body.svg style="width:16px"> [Zawartość](PartDesign_Body/pl.md)**, spowoduje to utworzenie nowej bryły z pojedynczą cechą bazową.
+2.  naciśnij **[<img src=images/PartDesign_Body.svg style="width:16px"> [Zawartość](PartDesign_Body/pl.md)**, spowoduje to utworzenie nowej bryły z pojedynczą cechą bazową.
 
 
 **Uwaga:**
 
-nie możesz wybrać istniejącej zawartości ani żadnej z jej <img src=images/PartDesign_Body.svg style="width:cechy](PartDesign_Feature/pl.md), po naciśnięciu przycisku **[16px"> [Zawartość](PartDesign_Body/pl.md)**.
+nie możesz wybrać istniejącej zawartości ani żadnej z jej [cechy](PartDesign_Feature/pl.md), po naciśnięciu przycisku **[<img src=images/PartDesign_Body.svg style="width:16px"> [Zawartość](PartDesign_Body/pl.md)**.
 
 Jeśli masz już zawartość, możesz utworzyć cechę bazową w ten sposób:
 
@@ -198,7 +198,7 @@ Cecha Podstawa jest całkowicie opcjonalna; jest ona obecna tylko wtedy, gdy do�
 
 ### Czubek
 
-Czubek jest <img src=images/Part_SimpleCopy.svg style="width:cechą Projektu części](PartDesign_Feature/pl.md), który jest wystawiony poza Zawartość. To znaczy, jeśli inne narzędzie z dowolnego środowiska pracy *(na przykład **_**)* musi używać kształtu zawartości, użyje kształtu Czubka. Mówiąc inaczej, Czubek jest ostateczną reprezentacją bryły, tak jakby historia parametryczna nie istniała.
+Czubek jest [cechą Projektu części](PartDesign_Feature/pl.md), który jest wystawiony poza Zawartość. To znaczy, jeśli inne narzędzie z dowolnego środowiska pracy *(na przykład **[<img src=images/Part_SimpleCopy.svg style="width:16px"> [Część: Szybka kopia](Part_SimpleCopy/pl.md)** lub **[<img src=images/Part_Cut.svg style="width:16px"> [Część: Wytnij](Part_Cut/pl.md)**)* musi używać kształtu zawartości, użyje kształtu Czubka. Mówiąc inaczej, Czubek jest ostateczną reprezentacją bryły, tak jakby historia parametryczna nie istniała.
 
 ![](images/PartDesign_Body_Tip_final.svg )
 
@@ -206,7 +206,7 @@ Czubek jest <img src=images/Part_SimpleCopy.svg style="width:cechą Projektu cz�
 
 *Po lewej: Zawartość Projektu części z pełną historią parametryczną włącznie z cechami pośrednimi. </br>Po prawej: Czubek jest ostatecznym kształtem, który może być wyeksportowany z Zawartości, z pominięciem historii modelu.*
 
-Czubek jest automatycznie ustawiany na ostatnią cechę utworzoną w zawartości. Niemniej jednak, może być również ustawiony na dowolną cechę pośrednią poprzez otwarcie menu kontekstowego w <img src=images/PartDesign_MoveTip.svg style="width:widoku drzewa](Tree_view/pl.md) *(prawy przycisk myszy)* i wybranie opcji **[16px"> [Ustaw czubek](PartDesign_MoveTip.md)**, lub zmieniając wartość zawartości **Czubka** w [Edytorze właściwości](Property_editor/pl.md).
+Czubek jest automatycznie ustawiany na ostatnią cechę utworzoną w zawartości. Niemniej jednak, może być również ustawiony na dowolną cechę pośrednią poprzez otwarcie menu kontekstowego w [widoku drzewa](Tree_view/pl.md) *(prawy przycisk myszy)* i wybranie opcji **[<img src=images/PartDesign_MoveTip.svg style="width:16px"> [Ustaw czubek](PartDesign_MoveTip.md)**, lub zmieniając wartość zawartości **Czubka** w [Edytorze właściwości](Property_editor/pl.md).
 
 Zmiana czubka w efekcie cofa jego historię, umożliwiając dodanie cech, które powinny być dodane wcześniej. Pozwala także na udostępnienie innego kształtu narzędziom zewnętrznym.
 
@@ -242,7 +242,7 @@ Wiele [Szkiców](Sketch/pl.md) może być widocznych w tym samym czasie, ale tyl
 
 [Cecha Projektu części](PartDesign_Feature/pl.md), tak jak [obiekty planarne](Part_Part2DObject/pl.md), mogą być dołączone do różnych płaszczyzn, zazwyczaj standardowych płaszczyzn zdefiniowanych przez [Odniesienie położenia](PartDesign_Body/pl#Odniesienie_po.C5.82o.C5.BCenia.md), lub do niestandardowych [płaszczyzn Projektu części](PartDesign_Plane/pl.md).
 
-_.
+[Szkice](Sketch/pl.md) są zazwyczaj dołączane do płaszczyzny podczas ich tworzenia. W podobny sposób mogą być dołączane [bryły pierwotne](PartDesign_CompPrimitiveAdditive/pl.md). Przymocowanie tych obiektów do płaszczyzny pozwala na ich przemieszczanie w zawartości poprzez zmianę ich właściwości **Przesunięcie umocowania**. Więcej informacji na temat trybów dołączania można znaleźć na stronie [Część: Edytuj mocowanie](Part_EditAttachment/pl.md).
 
 Element [cecha Projektu części](PartDesign_Feature/pl.md), który nie jest dołączony będzie pokazany z czerwonym symbolem nakładki obok jego ikony w [widoku drzewa](Tree_view/pl.md).
 
@@ -251,7 +251,7 @@ Element [cecha Projektu części](PartDesign_Feature/pl.md), który nie jest do�
 
 ### Dziedziczenie
 
-_ *(klasa `Part::Feature`)* poprzez pośrednią klasę `Part::BodyBase`, i jest uzupełniona o rozszerzenie Odniesienie położenia.
+[Zawartość Projektu części](PartDesign_Body/pl.md) jest formalnie instancją klasy `PartDesign::Body`, której rodzicem jest [cecha części](Part_Feature/pl.md) *(klasa `Part::Feature`)* poprzez pośrednią klasę `Part::BodyBase`, i jest uzupełniona o rozszerzenie Odniesienie położenia.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

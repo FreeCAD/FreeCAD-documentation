@@ -23,7 +23,7 @@ La façon la plus simple d\'installer PySide est de l\'installer par le biais du
 
 #### Windows
 
-Le programme peut être téléchargé à partir \[<http://qt-project.org/wiki/Category:LanguageBindings>::PySide::Downloads PySide Downloads\]. Vous aurez besoin d\'installer les bibliothèques Qt et SIP avant d\'installer PySide (à documenter).
+Le programme peut être téléchargé à partir \[<http://qt-project.org/wiki/<img src="images/Property.png" style="width:16px"> LanguageBindings>::PySide::Downloads PySide Downloads\]. Vous aurez besoin d\'installer les bibliothèques Qt et SIP avant d\'installer PySide (à documenter).
 
 #### MacOSX
 
@@ -601,7 +601,7 @@ $ python setup.py install --prefix=/Applications/FreeCAD\ 0.16.6706.app/Contents
 -   license: LGPL
 -   option, requis pour étendre les capacités d\'importation de fichiers IFC
 
-IFCOpenShell, est une bibliothèque actuellement en développement, ce qui permet d\'importer (et bientôt d\'exporter) _** de FreeCAD le détectera et l\'utilisera pour importer des fichiers **IFC**. Étant donné qu**\'ifcopenshell** est basé sur OpenCasCade, comme FreeCAD, la qualité de l\'importation est très élevée, en produisant une géométrie de solides de haute qualité.
+IFCOpenShell, est une bibliothèque actuellement en développement, ce qui permet d\'importer (et bientôt d\'exporter) [Industry foundation Classes (\*.Fichiers IFC)](http://fr.wikipedia.org/wiki/Industry_Foundation_Classes). Ceci est une extension pour le format [STEP](http://fr.wikipedia.org/wiki/Standard_pour_l%27%C3%A9change_de_donn%C3%A9es_de_produit) et devient la norme dans les workflows [BIM](http://fr.wikipedia.org/wiki/Building_Information_Modeling). Lorsque **ifcopenshell** est correctement installé sur votre système, l\'**![](images/)_[atelier_Arch](Arch_Workbench/fr.md)** de FreeCAD le détectera et l\'utilisera pour importer des fichiers **IFC**. Étant donné qu**\'ifcopenshell** est basé sur OpenCasCade, comme FreeCAD, la qualité de l\'importation est très élevée, en produisant une géométrie de solides de haute qualité.
 
 ### Installation 
 
@@ -730,7 +730,7 @@ utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
 
  
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Python Code](Category_Python Code.md) > Extra python modules/fr

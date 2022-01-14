@@ -12,7 +12,7 @@
 
 ## Beschreibung
 
-Das _ Objekten zu platzieren.
+Das [Architektur Bewehrung](Arch_Rebar/de.md) Werkzeug erlaubt es, [Bewehrungsstäbe](https://de.wikipedia.org/wiki/Bewehrungsstahl) in [Struktur](Arch_Structure/de.md) Objekten zu platzieren.
 
 Das [Arch Bewehrung](Arch_Rebar/de.md)-Werkzeug ist auch im [BIM-Arbeitsbereich](BIM_Workbench/de.md) integriert.
 
@@ -127,7 +127,7 @@ FreeCAD.ActiveDocument.recompute()
 
  
 
-_ _
+[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md) [<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Arch](Arch_Workbench.md) > Arch Rebar/de

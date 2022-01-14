@@ -1,7 +1,7 @@
 # Part TopoShape
 ## Introduction
 
-A _ normally have a TopoShape.
+A [Part TopoShape](Part_TopoShape.md), or formally a `Part::TopoShape`, is a class that defines a parametric **topological shape** in the software. Objects in the document that show something in the [3D view](3D_view.md) normally have a TopoShape.
 
 The topological shapes, as well as their methods, are defined by the [OpenCASCADE Technology](OpenCASCADE.md) kernel (OCCT). FreeCAD uses these shapes, and builds [App DocumentObjects](App_DocumentObject.md) around them.
 
@@ -11,7 +11,7 @@ Another type of class is that of [meshes](Mesh.md); this class is not very param
 
 
 
-*Left: parametric _, defined by vertices and triangular surfaces.*
+*Left: parametric [Part TopoShape](Part_TopoShape.md) defined by properties. Right: non-parametric [mesh](Mesh.md), defined by vertices and triangular surfaces.*
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -62,7 +62,7 @@ obj.Shape.exportStep("my_file.step")
 obj.Shape.exportStl("my_file.stl")
 ```
 
-For a full list of attributes and methods, consult the <img src=images/Std_PythonHelp.svg style="width:source documentation](Source_documentation.md), and the **[16px"> [Std PythonHelp](Std_PythonHelp.md)** tool.
+For a full list of attributes and methods, consult the [source documentation](Source_documentation.md), and the **[<img src=images/Std_PythonHelp.svg style="width:16px"> [Std PythonHelp](Std_PythonHelp.md)** tool.
 
 You can obtain a quick summary of all methods using Python\'s built-in  
 ```python

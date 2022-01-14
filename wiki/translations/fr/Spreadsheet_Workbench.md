@@ -202,7 +202,7 @@ Parfois, il peut être souhaitable de supprimer une dimension dans une expressio
 
 ### Format CSV 
 
-Les feuilles de calcul FreeCAD peuvent être importées et exportées au format _ et [Spreadsheet Exporter](Spreadsheet_Export/fr.md) pour plus d\'informations.
+Les feuilles de calcul FreeCAD peuvent être importées et exportées au format [CSV](https://fr.wikipedia.org/wiki/Comma-separated_values) qui peut également être lu et écrit par la plupart des autres applications de feuilles de calcul telles que Microsoft Excel ou LibreOffice Calc. Voir [Spreadsheet Importer](Spreadsheet_Import/fr.md) et [Spreadsheet Exporter](Spreadsheet_Export/fr.md) pour plus d\'informations.
 
 ### Format XLSX 
 
@@ -248,7 +248,7 @@ sheet.get('Diameter')
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/fr

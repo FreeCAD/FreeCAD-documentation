@@ -37,7 +37,7 @@ Vytvoření podprocesu trvá dlouhou dobu. Buďte trpěliví a podívejte se na 
 
 <div class="mw-translate-fuzzy">
 
-Nejnovější verze makra se nachází na adrese _.
+Nejnovější verze makra se nachází na adrese [ScrewMaker.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/ScrewMaker.FCMacro) ale nejjednodušší způsob, jak nainstalovat toto makro, je přes [Addon Manager](Std_AddonMgr/cs.md).
 
 
 </div>

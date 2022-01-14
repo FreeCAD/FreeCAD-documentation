@@ -3,7 +3,7 @@
 
 ## Übersicht
 
-Im Laufe der Jahre gab es viele Diskussionen über die Unterschiede und Auswirkungen der Verwendung des <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ Arbeitsbereichs.
+Im Laufe der Jahre gab es viele Diskussionen über die Unterschiede und Auswirkungen der Verwendung des <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/de.md) und des <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md) Arbeitsbereichs.
 
 Es ist eine gute Idee, den einen oder den anderen zu verwenden, bis der Benutzer mit dem einen vertraut ist, und dann das andere zu lernen. In der Regel wird auch empfohlen, dass neue Benutzer die beiden nicht mischen, bis sie die Auswirkungen verstanden haben.
 

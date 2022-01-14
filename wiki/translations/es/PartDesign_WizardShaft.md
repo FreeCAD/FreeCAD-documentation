@@ -9,7 +9,7 @@
 
 ## Descripción
 
-Esta herramienta permite crear un árbol a partir de una tabla de valores y analizar las fuerzas y los momentos. Puede iniciar el asistente desde el menú Diseño de la pieza **DiseñoPieza → <img src=images/PartDesign_WizardShaft.svg style="width:20px"> Asistente Diseño Ejes...**.
+Esta herramienta permite crear un árbol a partir de una tabla de valores y analizar las fuerzas y los momentos. Puede iniciar el asistente desde el menú Diseño de la pieza **DiseñoPieza → [<img src=images/PartDesign_WizardShaft.svg style="width:20px"> Asistente Diseño Ejes...**.
 
 El asistente se iniciará y mostrará una tabla por defecto, la parte eje correspondiente y los gráficos de fuerza/momento.
 

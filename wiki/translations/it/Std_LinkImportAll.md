@@ -19,7 +19,7 @@ Questo comando essenzialmente esegue <img alt="" src=images/Std_LinkImport.svg  
 ## Utilizzo
 
 1.  Assicurarsi di avere un documento \"sorgente\" con gli oggetti originali e un secondo documento \"destinazione\" con i collegamenti a quegli oggetti.
-2.  Aprire il documento di destinazione e premere **<img src=images/Std_LinkImportAll.svg style="width:16px"> Importa tutti i link**.
+2.  Aprire il documento di destinazione e premere **[<img src=images/Std_LinkImportAll.svg style="width:16px"> Importa tutti i link**.
 
 ![](images/Std_Link_tree_import_all_1_example.png ) ![](images/Std_Link_tree_import_all_2_example.png )
 

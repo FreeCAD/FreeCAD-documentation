@@ -39,7 +39,7 @@ Această funcție înregistrează la macro, toate operațiile efectuate în spa�
 
 <div class="mw-translate-fuzzy">
 
-Este accesibil via **Macro → Macro recording ...**, sau pe calea apăsării butonului **<img src=images/Std_DlgMacroRecord.png style="width:16px"> Macro recording** în bara de instrumente Macros <img alt="" src=images/Macros_toolbar.jpg  style="width:96px;">.
+Este accesibil via **Macro → Macro recording ...**, sau pe calea apăsării butonului **[<img src=images/Std_DlgMacroRecord.png style="width:16px"> Macro recording** în bara de instrumente Macros <img alt="" src=images/Macros_toolbar.jpg  style="width:96px;">.
 
 
 </div>

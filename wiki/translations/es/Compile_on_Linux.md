@@ -1173,7 +1173,7 @@ cd bin
 
 <div class="mw-collapsible-content">
 
-Enviado por el usuario _ en el foro.
+Enviado por el usuario [http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3666 PrzemoF](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3666_PrzemoF.md) en el foro.
 
 
 {{Code|lang=bash|code=
@@ -1245,7 +1245,7 @@ Para actualizar FreeCAD a la última compilación simplemente repite el paso 3.A
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
 
 ---
 [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on Linux/es

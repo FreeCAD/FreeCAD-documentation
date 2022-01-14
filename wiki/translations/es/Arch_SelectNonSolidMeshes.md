@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Esta herramienta identifica y selecciona las mallas no sólidas (no _ seleccionadas.
+Esta herramienta identifica y selecciona las mallas no sólidas (no [manifold](http://en.wikipedia.org/wiki/Manifold)) en un grupo seleccionado de objetos [Mallas](Mesh_Workbench/es.md) seleccionadas.
 
 
 </div>

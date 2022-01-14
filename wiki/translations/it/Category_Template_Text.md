@@ -7,9 +7,9 @@ Longer pieces of text should be placed in the page itself so that they are trans
 
 ### Contents:
 
-_ , _ , _ , _
+[Template:Obsolete/it](Template:Obsolete/it.md) , [Template:Version/it](Template:Version/it.md) , [Template:VersionMinus/it](Template:VersionMinus/it.md) , [Template:VersionPlus/it](Template:VersionPlus/it.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Template/it](<img src="images/Property.png" style="width:16px"> Template/it.md)
 
 ---
 [documentation index](../README.md) > Category:Template:Text/it

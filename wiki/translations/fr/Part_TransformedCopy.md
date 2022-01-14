@@ -19,7 +19,7 @@ Pour produire d'autres copies non paramétriques, utilisez **<img src="images/Pa
 ## Utilisation
 
 1.  Sélectionnez un objet que vous souhaitez copier.
-2.  Aller au menu **Pièce → Créer une copie → <img src=images/Part_TransformedCopy.svg style="width:16px"> [Create transformed copy](Part_TransformedCopy/fr.md)**.
+2.  Aller au menu **Pièce → Créer une copie → [<img src=images/Part_TransformedCopy.svg style="width:16px"> [Create transformed copy](Part_TransformedCopy/fr.md)**.
 
 ## Propriétés
 

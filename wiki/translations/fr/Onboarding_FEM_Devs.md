@@ -96,7 +96,7 @@ Le code FEM se trouve dans `src/Mod/Fem`.
 
 ### Conventions de codage 
 
-Veuillez consulter le fichier _ sur le dépôt de FreeCAD.
+Veuillez consulter le fichier [coding\_conventions.md](https://github.com/FreeCAD/FreeCAD/blob/master/src/Mod/Fem/coding_conventions.md) sur le dépôt de FreeCAD.
 
 ## Ajout de nouveaux solveurs FEM 
 
@@ -113,7 +113,7 @@ Un nouveau solveur FEM nécessite les éléments suivants :
 
 Voir aussi :
 
--   _.
+-   [Ajouter un tutoriel sur le solveur FEM](Sandbox:Add_FEM_Solver_Tutorial/fr.md).
 -   [Tutoriel FEM Module d\'extension](Extend_FEM_Module/fr.md)
 -   Les efforts d\'implémentation du solveur [oofem](https://github.com/berndhahnebach/FreeCAD_bhb/commits/femoofem).
 -   Les efforts de mise en œuvre du solveur \[<https://github.com/FreeCAD/FreeCAD/compare/a03eb6b9625ba>\...dfc01ec949525 myStran\].
@@ -136,7 +136,7 @@ A définir
 -   [Discussion sur le fil de discussion original](https://forum.freecadweb.org/viewtopic.php?f=18&t=60574) pour cette page wiki.
 -   [atelier FEM](FEM_Workbench/fr.md)
 
-_ _
+[<img src="images/Property.png" style="width:16px"> FEM](Category_FEM.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [FEM](Category_FEM.md) > Onboarding FEM Devs/fr

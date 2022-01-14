@@ -269,7 +269,7 @@ Esempio di proprietà dati di una operazione di Rivoluzione di Part Design:
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> User\_Documentation/it](<img src="images/Property.png" style="width:16px"> User_Documentation/it.md)
 
 ---
 [documentation index](../README.md) > DraftStandardProperty/it

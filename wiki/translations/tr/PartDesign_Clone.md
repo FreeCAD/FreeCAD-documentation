@@ -34,7 +34,7 @@
 1.  Model ağacında klonlanacak nesneyi seçin.
 
 2.  
-    **<img src=images/PartDesign_Clone.png style="width:24px"> '''Klon Oluştur'''**tuşuna basın.
+    **[<img src=images/PartDesign_Clone.png style="width:24px"> '''Klon Oluştur'''**tuşuna basın.
 
 
 </div>

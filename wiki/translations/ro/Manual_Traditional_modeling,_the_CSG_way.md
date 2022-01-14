@@ -15,7 +15,7 @@ CSG înseamnă Constructive Solid Geometry [Constructive Solid Geometry](https:/
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD poate gestiona multe tipuri de geometrie, dar tipul preferat și mai util de obiecte 3D pe care dorim să-l proiectăm cu FreeCAD, adică obiecte din lumea reală, este fără îndoială , solid,_. Contrar la plasele cu ochiuri poligonale [polygon meshes](https://en.wikipedia.org/wiki/Polygon_mesh), care sunt realizate numai din puncte și triunghiuri, obiectele BREP(B-Rep de la Boundary Representation) au fațetele lor definite de curbe matematice, care permit o precizie absolută, indiferent de scală.
+FreeCAD poate gestiona multe tipuri de geometrie, dar tipul preferat și mai util de obiecte 3D pe care dorim să-l proiectăm cu FreeCAD, adică obiecte din lumea reală, este fără îndoială , solid,[BREP](https://en.wikipedia.org/wiki/Boundary_representation) geometry, geometria BREP, care în mod principal sprijinită de către atelierul Part [Part Workbench](Part_Workbench.md). Contrar la plasele cu ochiuri poligonale [polygon meshes](https://en.wikipedia.org/wiki/Polygon_mesh), care sunt realizate numai din puncte și triunghiuri, obiectele BREP(B-Rep de la Boundary Representation) au fațetele lor definite de curbe matematice, care permit o precizie absolută, indiferent de scală.
 
 
 </div>
@@ -185,7 +185,7 @@ S-ar putea să vă uitați la masa de mai sus și să vă gândiți că designul
 
 </div>
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional modeling, the CSG way/ro

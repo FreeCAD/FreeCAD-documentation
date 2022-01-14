@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-_、新しい3Dビューアーを作成することさえできます。Pivyは標準のFreeCADインストールに同梱されています。
+[Pivy](http://pivy.coin3d.org/)はFreeCADで使われている3Dレンダリングライブラリである[Coin3d](http://www.coin3d.org)用のPythonのバインディングライブラリです。実行中のPythonインタプリタにインポートするとFreeCADの3DビューアーなどのCoin3d[シーングラフと直に対話処理を行ったり](Scenegraph/jp.md)、新しい3Dビューアーを作成することさえできます。Pivyは標準のFreeCADインストールに同梱されています。
 
 
 </div>
@@ -266,7 +266,7 @@ These links provide reference documentation for Coin v3.x. The differences with 
 
 }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Pivy/ja

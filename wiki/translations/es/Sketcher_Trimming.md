@@ -18,7 +18,7 @@ Esta herramienta recorta un borde hasta el borde más cercano que se superpone.
 
 ## Utilización
 
-1.  Pulse el **<img src=images/Sketcher_Trimming.svg style="width:16px"> [Recortar](Sketcher_Trimming/es.md)**. El puntero del ratón se convierte en una cruz blanca con un símbolo de recorte rojo.
+1.  Pulse el **[<img src=images/Sketcher_Trimming.svg style="width:16px"> [Recortar](Sketcher_Trimming/es.md)**. El puntero del ratón se convierte en una cruz blanca con un símbolo de recorte rojo.
 2.  Haga clic en el borde que desea recortar.
 3.  El segmento de línea se recortará hasta la(s) línea(s) más cercana(s) que se superponga(n). Si hay otros elementos del boceto a ambos lados de la posición en la que se ha hecho clic, se recortará el trozo en el que se ha hecho clic.
 4.  Si se pulsa **Esc** o se presiona el botón derecho del ratón, se terminará la función.

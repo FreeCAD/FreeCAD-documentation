@@ -216,7 +216,7 @@ In FreeCAD, lìimportazione e l\'esportazione IFC è fatta interfacciando un\'al
 
 ![](images/Exercise_arch_17.jpg )
 
-Ora aggiungiamo alcune dimensioni. A differenza del _, dove abbiamo disegnato tutte le dimensioni direttamente sul foglio da disegno, qui usiamo un altro metodo, e mettiamo le [dimensioni di Draft](Draft_Dimension/it.md) direttamente nel modello 3D. Queste dimensioni saranno poi posizionate automaticamente nel foglio di disegno. Per prima cosa creiamo due gruppi per le dimensioni, uno per le dimensioni che appaiono nella vista in pianta, e un altro per quelle che appaiono nel prospetto.
+Ora aggiungiamo alcune dimensioni. A differenza del [capitolo precedente](Manual:Generating_2D_drawings/it.md), dove abbiamo disegnato tutte le dimensioni direttamente sul foglio da disegno, qui usiamo un altro metodo, e mettiamo le [dimensioni di Draft](Draft_Dimension/it.md) direttamente nel modello 3D. Queste dimensioni saranno poi posizionate automaticamente nel foglio di disegno. Per prima cosa creiamo due gruppi per le dimensioni, uno per le dimensioni che appaiono nella vista in pianta, e un altro per quelle che appaiono nel prospetto.
 
 
 <div class="mw-translate-fuzzy">
@@ -259,7 +259,7 @@ Ora prepariamo una serie di viste del modello, per posizionarle in una pagina di
 
 <div class="mw-translate-fuzzy">
 
--   Ora abbiamo tutto quello che serve, e possiamo creare la pagina di disegno. Iniziare passando all\'ambiente _ predefinita (o selezionare un altro modello se lo si desidera).
+-   Ora abbiamo tutto quello che serve, e possiamo creare la pagina di disegno. Iniziare passando all\'ambiente [Drawing](Drawing_Workbench/it.md), e creare una nuova<img alt="" src=images/Drawing_Landscape_A3.png  style="width:16px;"> [pagina A3](Drawing_Landscape_A3/it.md) predefinita (o selezionare un altro modello se lo si desidera).
 -   Selezionare il primo piano di sezione, utilizzato per la vista in pianta
 -   Premere il pulsante <img alt="" src=images/Drawing_DraftView.png  style="width:16px;"> [Vista Draft](Drawing_DraftView/it.md). Questo strumento offre un paio di funzionalità aggiuntive rispetto allo strumento standard [Vista Drawing](Drawing_View/it.md), e supporta i Piani di sezione dall\'ambiente Arch.
 -   Dare la nuova vista le seguenti proprietà:
@@ -351,7 +351,7 @@ Ora la pagina è pronta, e può essere esportata nel formato SVG o DXF, o stampa
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
 [documentation index](../README.md) > [BIM](Category_BIM.md) > Manual:BIM modeling/it

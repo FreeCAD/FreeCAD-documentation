@@ -119,7 +119,7 @@ There are two simple ways to get rid of the history, one is using the [Create si
 
 **Assembling**
 
-But the best of both worlds also exists, which is the _ and <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [Draft Rotate](Draft_Rotate.md) than using the Assembly2 constraints.
+But the best of both worlds also exists, which is the [Assembly2 Workbench](https://github.com/hamish2014/FreeCAD_assembly2), an addon that can be installed from the [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons) repository. This Workbench is named \"2\" because there is also an official built-in Assembly Workbench in development, which is not ready yet. The Assembly2 Workbench, however, already works very well to construct assemblies, and also features a couple of object-to-object constraints which you can use to constrain the position of one object in relation to another. In the example below, however, it will be quicker and easier to position the pieces using <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Draft Move](Draft_Move.md) and <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [Draft Rotate](Draft_Rotate.md) than using the Assembly2 constraints.
 
 -   Save the file as it is now
 -   Install the [Assembly2 Workbench](https://github.com/hamish2014/FreeCAD_assembly2) and restart FreeCAD
@@ -145,7 +145,7 @@ But the best of both worlds also exists, which is the _ and <img alt="" src=imag
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/en

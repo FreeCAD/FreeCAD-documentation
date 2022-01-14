@@ -20,7 +20,7 @@ Der Draht/Fläche muss plan sein. Es kann mehrere Drähte in einem Objekt geben,
 ## Anwendung
 
 1.  Wähle ein Objekt zum versetzen aus.
-2.  Drücke die **<img src=images/Part_Offset2D.svg style="width:24px">** **Offset2D** Taste.
+2.  Drücke die **[<img src=images/Part_Offset2D.svg style="width:24px">** **Offset2D** Taste.
 3.  Richte den Versatz im [Aufgabenpaneel](Task_Panel/de.md) ein.
 4.  Drücke **OK**.
 

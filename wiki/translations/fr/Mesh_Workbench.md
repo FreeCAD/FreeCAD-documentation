@@ -9,7 +9,7 @@ L\'<img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [atelier Mesh
 
 De nombreuses applications 3D utilisent les mailles comme leur principal type d\'objet 3D, comme [SketchUp](http://en.wikipedia.org/wiki/Sketchup), [Blender](http://en.wikipedia.org/wiki/Blender_(software)) , [maya](http://en.wikipedia.org/wiki/Maya_(software)) ou [3D Studio Max](http://en.wikipedia.org/wiki/3d_max), utilisent des maillages comme type principal d\'objet 3D. Puisque les mailles sont des objets très simples, ne contenant que des sommets (points), des bords et des faces (triangulaires), elles sont très faciles à créer, modifier, subdiviser, étirer, et peuvent facilement être transmises d\'une application à l\'autre sans aucune perte. D\'ailleurs, comme ils contiennent des données très simples, les applications 3D peuvent généralement gérer de très grandes quantités d\'entre elles sans aucun problème. Pour ces raisons, les mailles sont souvent le type d\'objet 3D choisies pour les applications travaillant avec des films, des animations, et la création d\'image.
 
-Cependant, dans le domaine de l\'ingénierie, les maillages présentent une grande limitation: ils ne peuvent pas définir avec précision les surfaces courbes. C\'est pourquoi FreeCAD s\'appuie à la place sur _ ou l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md).
+Cependant, dans le domaine de l\'ingénierie, les maillages présentent une grande limitation: ils ne peuvent pas définir avec précision les surfaces courbes. C\'est pourquoi FreeCAD s\'appuie à la place sur [Brep](https://fr.wikipedia.org/wiki/B-Rep). L\'atelier de maillage propose certaines commandes pour manipuler directement les maillages, mais il est le plus souvent utilisé pour importer des données de maillage 3D et les convertir en solide à utiliser avec l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md) ou l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md).
 
 <img alt="" src=images/Mesh_example.jpg  style="width:500px;">
 
@@ -28,7 +28,7 @@ Tous les outils de l\'atelier Mesh sont accessibles depuis le menu **Maillages**
 -   Analyse
     -   <img alt="" src=images/Mesh_Evaluation.svg  style="width:32px;"> [Évaluer et réparer le maillage\...](Mesh_Evaluation/fr.md): Evalue et répare un objet maillé.
     -   <img alt="" src=images/Mesh_EvaluateFacet.svg  style="width:32px;"> [Infos sur la face](Mesh_EvaluateFacet/fr.md): Affiche des informations sur les faces des objets maillés.
-    -   <img alt="" src=images/Mesh_CurvatureInfo.svg  style="width:32px;"> _ aux points sélectionnés.
+    -   <img alt="" src=images/Mesh_CurvatureInfo.svg  style="width:32px;"> [Info de courbures](Mesh_CurvatureInfo/fr.md): Affiche la courbure absolue des [objets de courbure](Mesh_VertexCurvature/fr.md) aux points sélectionnés.
     -   <img alt="" src=images/Mesh_EvaluateSolid.svg  style="width:32px;"> [Vérification du maillage du solide](Mesh_EvaluateSolid/fr.md): Vérifie si un objet maillé est solide.
     -   <img alt="" src=images/Mesh_BoundingBox.svg  style="width:32px;"> [Boîte englobante](Mesh_BoundingBox/fr.md): Affiche les coordonnées de la boîte englobante d\'un objet maillé.
 
@@ -86,8 +86,8 @@ Tous les outils de l\'atelier Mesh sont accessibles depuis le menu **Maillages**
 
 Les préférences de l\'atelier Mesh se trouvent dans les catégories suivantes de l\'[Éditeur de propriétés](Property_editor/fr.md):
 
--   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> _, plusieurs préférences peuvent être définies.
--   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> _, [Mesh Intersection](Mesh_Intersection/fr.md) et [Mesh Différence](Mesh_Difference/fr.md) nécessitent [OpenSCAD](http://www.openscad.org/) et utilisez la préférence **OpenSCAD executable** pour trouver son exécutable.
+-   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Affichage](Preferences_Editor/fr#Pr.C3.A9f.C3.A9rences_d.27affichage.md): Dans l\'onglet [Vue du maillage](Preferences_Editor/fr#Vue_maillage.md), plusieurs préférences peuvent être définies.
+-   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences/fr.md): Les commandes [Mesh Union](Mesh_Union.md), [Mesh Intersection](Mesh_Intersection/fr.md) et [Mesh Différence](Mesh_Difference/fr.md) nécessitent [OpenSCAD](http://www.openscad.org/) et utilisez la préférence **OpenSCAD executable** pour trouver son exécutable.
 
 ## Remarques
 
@@ -104,7 +104,7 @@ Les préférences de l\'atelier Mesh se trouvent dans les catégories suivantes 
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Mesh Workbench/fr

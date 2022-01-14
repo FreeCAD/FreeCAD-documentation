@@ -18,7 +18,7 @@ Shows or hides the display of the **degree** of a B-spline (see [this page](B-Sp
 
 ## Usage
 
-1.  Select a B-spline and use the toolbar button **<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [ Show/Hide B-spline degree](Sketcher_BSplineDegree.md)**.
+1.  Select a B-spline and use the toolbar button **[<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [ Show/Hide B-spline degree](Sketcher_BSplineDegree.md)**.
 
 
 

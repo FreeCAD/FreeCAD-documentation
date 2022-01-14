@@ -3,7 +3,7 @@
 |Topic=Modelowanie
 |Level=średniozaawansowany
 |Time=...
-|Author=_
+|Author=[Yorik](User_Yorik.md)
 |FCVersion=0.14
 }}
 
@@ -11,9 +11,9 @@
 
 ## Wprowadzenie
 
-Ten poradnik ma na celu przekazać Państwu podstawy do pracy z środowiskiem pracy _. Strona [Jak zacząć](Getting_started/pl.md) stanowi minimum do zapoznania się, jeśli nie miałeś wcześniej doświadczenia z programem FreeCAD. Sprawdź również naszą sekcję [poradniki](Tutorials/pl.md), a na stronie [youtube](http://www.youtube.com/results?search_query=freecad) znajdziesz również dużo więcej wideo poradników dla FreeCAD.
+Ten poradnik ma na celu przekazać Państwu podstawy do pracy z środowiskiem pracy [Architektura](Arch_Workbench/pl.md). Postaram się uczynić go wystarczająco łatwym, abyś nie potrzebował żadnego wcześniejszego doświadczenia z programem FreeCAD, ale posiadanie doświadczenia z aplikacjami 3D lub [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) będzie pomocne. W każdym razie, powinieneś być przygotowany na poszukiwanie dalszych informacji o tym jak działa program FreeCAD w [Dokumentacji FreeCAD na Wiki](Main_Page/pl.md). Strona [Jak zacząć](Getting_started/pl.md) stanowi minimum do zapoznania się, jeśli nie miałeś wcześniej doświadczenia z programem FreeCAD. Sprawdź również naszą sekcję [poradniki](Tutorials/pl.md), a na stronie [youtube](http://www.youtube.com/results?search_query=freecad) znajdziesz również dużo więcej wideo poradników dla FreeCAD.
 
-Celem środowiska pracy _ znacząco wykorzystuje inne dziedziny, do których FreeCAD się odwołuje i oferuje niektóre funkcje rzadko spotykane w tradycyjnych aplikacjach BIM.
+Celem środowiska pracy [Architektura](Arch_Workbench/pl.md) jest zaoferowanie kompletnego dla [BIM](http://en.wikipedia.org/wiki/Building_Information_Modeling) przepływu pracy wewnątrz FreeCAD. Ponieważ jest on wciąż rozwijany, nie oczekuj, że znajdziesz tutaj te same narzędzia i poziom ukończenia, co w przypadku rozwiniętych alternatyw komercyjnych, takich jak [Revit](http://en.wikipedia.org/wiki/Revit) lub [ArchiCAD](http://en.wikipedia.org/wiki/Archicad), ale z drugiej strony, FreeCAD jest używany w znacznie większym zakresie niż te aplikacje. [Architektura](Arch_Workbench/pl.md) znacząco wykorzystuje inne dziedziny, do których FreeCAD się odwołuje i oferuje niektóre funkcje rzadko spotykane w tradycyjnych aplikacjach BIM.
 
 Oto, przykładowo prezentuję, kilka interesujących funkcji FreeCAD w środowisku [Architektura](Arch_Workbench/pl.md), które trudno znaleźć w innych aplikacjach BIM:
 
@@ -32,7 +32,7 @@ W czasie, gdy piszę ten artykuł, środowisko pracy [Architektura](Arch_Workben
 
 -   Brak wsparcia dla materiałów. FreeCAD będzie posiadał kompletny system [Materiał](Material/pl.md), zdolny do definiowania bardzo złożonych materiałów, ze wszystkimi dobrami, których możesz się spodziewać *(niestandardowe właściwości, rodziny materiałów, właściwości renderowania i wizualne aspekty, itd.)*, a [Architektura](Arch_Workbench/pl.md) będzie oczywiście używał go, kiedy będzie gotowy.
 
--   Bardzo wstępne wsparcie dla _, całkiem niezawodnie, pod warunkiem, że [IfcOpenShell](http://ifcopenshell.org) jest zainstalowany w Twoim systemie, ale eksport nie jest jeszcze oficjalnie obsługiwany. Pracują nad tym zarówno deweloperzy FreeCAD jak i IfcOpenShell, i w przyszłości możemy spodziewać się pełnego wsparcia standardu IFC.
+-   Bardzo wstępne wsparcie dla [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). Możesz już [importować pliki IFC](Arch_IFC.md), całkiem niezawodnie, pod warunkiem, że [IfcOpenShell](http://ifcopenshell.org) jest zainstalowany w Twoim systemie, ale eksport nie jest jeszcze oficjalnie obsługiwany. Pracują nad tym zarówno deweloperzy FreeCAD jak i IfcOpenShell, i w przyszłości możemy spodziewać się pełnego wsparcia standardu IFC.
 
 -   Większość narzędzi Arch jest nadal w fazie rozwoju. Oznacza to, że automatyczne narzędzia **kreatora**, które tworzą złożoną geometrię, takie jak [Dach](Arch_Roof/pl.md) lub [Schody](Arch_Stairs/pl.md) mogą tworzyć tylko niektóre typy obiektów, a inne narzędzia, takie jak [Konstrukcja](Arch_Structure/pl.md) lub [Okna](Arch_Window/pl.md) mają tylko kilka podstawowych ustawień. To oczywiście będzie narastać wraz z upływem czasu.
 
@@ -60,7 +60,7 @@ W tym poradniku będziemy modelować dom w 3D, na podstawie rysunków 2D, które
 Zamiast tworzyć projekt od podstaw, weźmy przykładowy projekt do modelowania, to zaoszczędzi nam trochę czasu. Wybrałem ten wspaniały dom słynnej architektki [Vilanova Artigas](http://en.wikipedia.org/wiki/Jo%C3%A3o_Batista_Vilanova_Artigas) *(zobacz serię \[zdjęć <http://www.leonardofinotti.com/projects/architects-second-house/image/40409-130405-010d>\] Leonarda Finottiego)*, ponieważ jest on blisko mojego miejsca zamieszkania, jest prosty, jest wspaniałym przykładem niesamowitej modernistycznej architektury São Paulo, a rysunki DWG są [łatwo dostępne](http://www.bibliocad.com/library/second-house-vilanova-artigas_72926#).
 
 Do budowy naszego modelu wykorzystamy rysunki 2D DWG uzyskane z powyższego linku *(aby pobrać, musisz się zarejestrować na powyższej stronie, ale jest ona darmowa, lub skorzystać bezpośrednio z wersji DXF [tutaj](http://yorik.uncreated.net/archive/scripts/artigas.dxf))*.
-Tak więc pierwszą rzeczą, którą będziesz chciał zrobić, jest pobranie pliku, rozpakowanie go i otwarcie pliku DWG znajdującego się wewnątrz, za pomocą aplikacji DWG, takiej jak _. Ale ponieważ te pliki mogą być czasami złej jakości i bardzo ciężkie, zazwyczaj lepiej jest najpierw otworzyć je za pomocą aplikacji 2D CAD i trochę oczyścić.
+Tak więc pierwszą rzeczą, którą będziesz chciał zrobić, jest pobranie pliku, rozpakowanie go i otwarcie pliku DWG znajdującego się wewnątrz, za pomocą aplikacji DWG, takiej jak [DraftSight](http://www.3ds.com/products-services/draftsight/overview/). Alternatywnie, możesz przekonwertować go na DXF za pomocą darmowego narzędzia, takiego jak [ODA File Converter](https://www.opendesign.com/guestfiles/oda_file_converter). Jeśli masz zainstalowany ODA Converter *(i jego ścieżkę ustawioną w ustawieniach preferencji Arch)*, FreeCAD potrafi również [wykonać bezpośrednio import plików DWG](Draft_DXF.md). Ale ponieważ te pliki mogą być czasami złej jakości i bardzo ciężkie, zazwyczaj lepiej jest najpierw otworzyć je za pomocą aplikacji 2D CAD i trochę oczyścić.
 
 Usunąłem tutaj wszystkie rysunki szczegółowe, wszystkie bloki tytułowe i układy stron, dokonałem **czyszczenia** *(oczyszczenia w slangu programu AutoCAD)* w celu usunięcia wszystkich nieużywanych elementów, przeorganizowałem sekcje w logicznym miejscu w stosunku do widoku planu i przesunąłem wszystko do punktu (0,0). Następnie nasz plik można dość sprawnie otworzyć w programie FreeCAD. Sprawdź różne opcje dostępne w manu Edycja → Preferencje → Draft → Import/Eksport, mogą mieć wpływ na to jak *(i jak szybko)* importowane są pliki DXF/DWG.
 
@@ -72,9 +72,9 @@ Importer [DXF importer](Draft_DXF/pl.md) *(który zajmuje się również plikami
 
 ## Budowa ścian 
 
-Podobnie jak większość obiektów środowiska _, [ciąg linii](Draft_Wire.md) *(polilinie)*, [ szkice](Sketcher_Workbench/pl.md), powierzchnie lub bryły *(lub nawet na niczym, w tym przypadku są one określone przez wysokość, szerokość i długość)*. Wynikowa geometria ściany zależy od geometrii bazowej i od właściwości, które wypełnisz, takich jak szerokość i wysokość. Jak możesz się domyślać, ściana bazująca na linii będzie używała tej linii jako linii wyrównania, podczas gdy ściana bazująca na powierzchni czołowej będzie używała tej powierzchni jako powierzchni podstawy, a ściana bazująca na bryle po prostu przyjmie kształt tej bryły. Dzięki temu każdy kształt, jaki można sobie wyobrazić, staje się ścianą
+Podobnie jak większość obiektów środowiska [Architektura](Arch_Workbench/pl.md), obiekt[ściany](Arch_Wall/pl.md) może być zbudowany na dużej ilości innych obiektów: [linia](Draft_Line/pl.md), [ciąg linii](Draft_Wire.md) *(polilinie)*, [ szkice](Sketcher_Workbench/pl.md), powierzchnie lub bryły *(lub nawet na niczym, w tym przypadku są one określone przez wysokość, szerokość i długość)*. Wynikowa geometria ściany zależy od geometrii bazowej i od właściwości, które wypełnisz, takich jak szerokość i wysokość. Jak możesz się domyślać, ściana bazująca na linii będzie używała tej linii jako linii wyrównania, podczas gdy ściana bazująca na powierzchni czołowej będzie używała tej powierzchni jako powierzchni podstawy, a ściana bazująca na bryle po prostu przyjmie kształt tej bryły. Dzięki temu każdy kształt, jaki można sobie wyobrazić, staje się ścianą
 
-Istnieją różne możliwe strategie budowy ścian w FreeCAD. Można zbudować kompletny **plan piętra** ze _ na importowanym planie, po jednym dla każdego typu ściany:
+Istnieją różne możliwe strategie budowy ścian w FreeCAD. Można zbudować kompletny **plan piętra** ze [Szkicownikiem](Sketcher_Workbench/pl.md) i zbudować z niego jeden, duży, ścienny obiekt. Ta technika działa, ale można podać tylko jedną grubość dla wszystkich ścian projektu. Albo możesz zbudować każdy kawałek ściany z oddzielnych odcinków linii. Albo, to jest to co zrobimy tutaj, połączenie obu: Zbudujemy kilka [szkiców ciągów linii](Draft_Wire/pl.md) na importowanym planie, po jednym dla każdego typu ściany:
 
 ![](images/Arch_tutorial_03.jpg )
 
@@ -138,7 +138,7 @@ Narysujmy objętość, większą niż dach, która zostanie odjęta od naszych �
 
 <img alt="" src=images/Arch_tutorial_09.jpg  style="width:1024px;">
 
-Teraz jest trudna sprawa: Użyjemy narzędzia _ *(znajduje się w zakładce **Zadania** widoku drzewa)*, i ustawić go na YZ *(który jest płaszczyzną **boczną**)*. Po ręcznym ustawieniu płaszczyzny roboczej, w ten sposób nie zmieni się ona w zależności od widoku. Możesz teraz obracać swój widok, aż będziesz miał dobry widok wszystkich rzeczy, które musisz wybrać. Aby później przełączyć płaszczyznę roboczą z powrotem do trybu **automatycznego**, należy ponownie nacisnąć przycisk [Wybór płaszczyzny](Draft_SelectPlane/pl.md) i ustawić go na **Brak**.
+Teraz jest trudna sprawa: Użyjemy narzędzia [Obróć](Draft_Rotate/pl.md), aby obrócić nasz profil o 90 stopni w górę, we właściwej pozycji do wyciągnięcia. Aby to zrobić, musimy najpierw zmienić płaszczyznę [roboczą](Draft_SelectPlane/pl.md) na płaszczyznę YZ. Gdy to zrobimy, obrót nastąpi w tej płaszczyźnie. Jeśli jednak zrobimy tak, jak zrobiliśmy to trochę wcześniej, i ustawimy widok na bok, trudno będzie zobaczyć i wybrać nasz profil, a także wiedzieć, gdzie jest punkt bazowy, wokół którego musi się obracać, prawda? Wtedy musimy ręcznie ustawić płaszczyznę roboczą: Wcisnąć przycisk [Wybór płaszczyzny](Draft_SelectPlane/pl.md) *(znajduje się w zakładce **Zadania** widoku drzewa)*, i ustawić go na YZ *(który jest płaszczyzną **boczną**)*. Po ręcznym ustawieniu płaszczyzny roboczej, w ten sposób nie zmieni się ona w zależności od widoku. Możesz teraz obracać swój widok, aż będziesz miał dobry widok wszystkich rzeczy, które musisz wybrać. Aby później przełączyć płaszczyznę roboczą z powrotem do trybu **automatycznego**, należy ponownie nacisnąć przycisk [Wybór płaszczyzny](Draft_SelectPlane/pl.md) i ustawić go na **Brak**.
 
 Teraz rotacja będzie łatwa do wykonania: Wybierz profil, naciśnij przycisk [Obróć](Draft_Rotate/pl.md), kliknij na punkt niebieskiej linii, wprowadź 0 jako kąt początkowy, a 90 jako obrót:
 
@@ -148,7 +148,7 @@ Teraz wystarczy tylko przesunąć profil nieco bliżej modelu *(w razie potrzeby
 
 <img alt="" src=images/Arch_tutorial_11.jpg  style="width:1024px;">
 
-Teraz, tutaj przychodzi do działania w przeciwieństwie do narzędzia _. Jak można się było domyślać, czyni on również obiekt potomkiem innego, ale jego kształt jest odejmowany od obiektu głównego, zamiast być zespolonym. Więc teraz wszystko jest proste: Wybierz objętość do odjęcia *(zmieniłem jej nazwę na **Objętość dachu do odjęcia** w widoku drzewa, aby łatwo ją było dostrzec)*, naciśnij klawisz **CTRL** + wybierz ścianę, a następnie naciśnij przycisk [Usuń](Arch_Remove/pl.md). Zobaczysz, że po odjęciu objętość do odjęcia zniknęła zarówno z widoku 3D, jak i z widoku drzewa. Dzieje się tak, ponieważ została ona oznaczona jako dziecko ściany i połknięta przez tę ścianę. Wybierz ścianę, rozwiń ją w widoku drzewa, tam jest nasza objętość.
+Teraz, tutaj przychodzi do działania w przeciwieństwie do narzędzia [Dodaj](Arch_Add/pl.md) narzędzie: [Usuń](Arch_Remove/pl.md). Jak można się było domyślać, czyni on również obiekt potomkiem innego, ale jego kształt jest odejmowany od obiektu głównego, zamiast być zespolonym. Więc teraz wszystko jest proste: Wybierz objętość do odjęcia *(zmieniłem jej nazwę na **Objętość dachu do odjęcia** w widoku drzewa, aby łatwo ją było dostrzec)*, naciśnij klawisz **CTRL** + wybierz ścianę, a następnie naciśnij przycisk [Usuń](Arch_Remove/pl.md). Zobaczysz, że po odjęciu objętość do odjęcia zniknęła zarówno z widoku 3D, jak i z widoku drzewa. Dzieje się tak, ponieważ została ona oznaczona jako dziecko ściany i połknięta przez tę ścianę. Wybierz ścianę, rozwiń ją w widoku drzewa, tam jest nasza objętość.
 
 Teraz wybierz objętość w oknie drzewa, klawisz **CTRL** + wybierz następną ścianę, naciśnij [Usuń](Arch_Remove/pl.md). Powtarzaj tę czynność dla kolejnych ścian, aż do momentu, gdy wszystko zostanie prawidłowo wycięte:
 
@@ -225,7 +225,7 @@ Tak! Cała ta mozolna praca jest już wykonana, kontynuujmy tę bardzo ciężką
 
 [Okna](Arch_Window/pl.md) to dość skomplikowane obiekty. Są one używane do tworzenia wszelkiego rodzaju wstawianych obiektów, takich jak okna czy drzwi. Tak, w FreeCAD, drzwi są po prostu specjalnym rodzajem okna. W prawdziwym życiu też, jeśli o tym pomyśleć, prawda? Narzędzie [Okna](Arch_Window/pl.md) może być jeszcze trochę trudne w użyciu, ale uważaj to za kompromis, ponieważ zostało zbudowane dla maksymalnej mocy. Prawie każdy rodzaj okna, które możesz sobie wyobrazić, może być za jego pomocą zrealizowany. Ale ponieważ narzędzie to zyska więcej nastaw, sytuacja ta z pewnością stanie się bardziej dogodna w przyszłości.
 
-Obiekt _, który zawiera zamknięte kształty *(polilinie)*. Te linie definiują różne części okna: ramy zewnętrzne, ramy wewnętrzne, panele szklane, panele pełne, itp. Obiekty okienne mają zatem właściwość, która przechowuje co należy zrobić z każdym z tych ciągów linii: wytłoczyć go, umieścić na pewnym przesunięciu, itp. Wreszcie, okno może być wstawione do obiektu głównego, takiego jak ściana lub konstrukcja, i automatycznie utworzy w nim otwór. Otwór ten zostanie obliczony przez wyciągnięcie największego kształtu znajdującego się w układzie 2D.
+Obiekt [Architektura](Arch_Workbench/pl.md) działa w następujący sposób: Jest on oparty na planie 2D, dowolnym obiekcie 2D, ale najlepiej [szkicu](Sketcher_Workbench/pl.md), który zawiera zamknięte kształty *(polilinie)*. Te linie definiują różne części okna: ramy zewnętrzne, ramy wewnętrzne, panele szklane, panele pełne, itp. Obiekty okienne mają zatem właściwość, która przechowuje co należy zrobić z każdym z tych ciągów linii: wytłoczyć go, umieścić na pewnym przesunięciu, itp. Wreszcie, okno może być wstawione do obiektu głównego, takiego jak ściana lub konstrukcja, i automatycznie utworzy w nim otwór. Otwór ten zostanie obliczony przez wyciągnięcie największego kształtu znajdującego się w układzie 2D.
 
 Istnieją dwa sposoby na tworzenie takich obiektów w FreeCAD: używając wstępnie zdefiniowanego lub rysując układ okna od podstaw. Obu metodom przyjrzymy się tutaj. Ale pamiętaj, że metoda predefiniowana nie robi nic poza stworzeniem obiektu układu i zdefiniowaniem niezbędnych dla Ciebie wyciągnięć.
 
@@ -249,7 +249,7 @@ Tak więc wszystko, co musimy teraz zrobić, to wybrać drzwi, wcisnąć narzęd
 
 Teraz byłby dobry czas na odrobinę porządkowania projektu domu. Ponieważ mamy już dwa okna, jest to dobry moment, aby zrobić trochę czyszczenia w widoku drzewa: Stwórz nową [grupę](Std_Group.md), zmień jej nazwę na okna i przesuń do niego 2 okna. Polecam również oddzielenie w ten sposób innych elementów, takich jak ściany i konstrukcje. Ponieważ możesz również tworzyć [grupy](Std_Group.md) wewnętrzne, możesz organizować je dalej, na przykład umieszczając wszystkie elementy tworzące dach w osobnej grupie, dzięki czemu łatwo je włączać i wyłączać *(przełączenie widoczności grupy robi to samo ze wszystkimi obiektami w jej wewnętrzu)*.
 
-W środowisku pracy _, [Budowla](Arch_Building/pl.md) i [Piętro](Arch_Floor/pl.md). Te 3 obiekty są oparte na standardowej grupie FreeCAD, więc zachowują się dokładnie jak grupy, ale mają kilka dodatkowych właściwości. Na przykład, [piętro](Arch_Floor/pl.md) ma możliwość ustawienia i zarządzania wysokością osadzonych w nich ścian i konstrukcji, a gdy są one przenoszone, przesuwana jest również cała ich zawartość.
+W środowisku pracy [Architektura](Arch_Workbench/pl.md) znajdują się dodatkowe narzędzia do organizacji modelu: [Teren](Arch_Site/pl.md), [Budowla](Arch_Building/pl.md) i [Piętro](Arch_Floor/pl.md). Te 3 obiekty są oparte na standardowej grupie FreeCAD, więc zachowują się dokładnie jak grupy, ale mają kilka dodatkowych właściwości. Na przykład, [piętro](Arch_Floor/pl.md) ma możliwość ustawienia i zarządzania wysokością osadzonych w nich ścian i konstrukcji, a gdy są one przenoszone, przesuwana jest również cała ich zawartość.
 
 Ale tutaj, ponieważ mamy tylko jeden budynek z jednym *(i pół)* piętrem, nie ma rzeczywistej potrzeby korzystania z takich obiektów, więc trzymajmy się prostych grup.
 
@@ -272,7 +272,7 @@ Teraz możemy spojrzeć na naprawdę ciekawe rzeczy: Jak zaprojektować własne 
 
 ### Tworzenie okien według własnych upodobań 
 
-Jak wyjaśniłem powyżej, obiekty _.
+Jak wyjaśniłem powyżej, obiekty [Arch: Okno](Arch_Window/pl.md) są tworzone z planów 2D, wykonanych z zamkniętych elementów *(ciągów linii (polilinii), okręgów, prostokątów, czegokolwiek)*. Ponieważ obiekty środowiska [Rysunek Roboczy](Draft_Workbench/pl.md) nie mogą pomieścić więcej niż jednego z tych elementów, preferowanym narzędziem do rysowania planów okien jest [Szkicownik](Sketcher_Workbench/pl.md). Niestety, przy pomocy szkicownika nie jest możliwe przyciągnięcie do zewnętrznych obiektów, jak w przypadku Środowiska pracy Draft, które byłoby tutaj użyteczne, ponieważ nasze elewacje są już narysowane. Na szczęście istnieje narzędzie do konwersji obiektów Draft do szkicu: Narzędzie [rysunek roboczy na szkic](Draft_Draft2Sketch/pl.md).
 
 Więc, zacznijmy od zbudowania naszego pierwszego projektu okna. Narysowałem go na elewacji, używając kilku [prostokątów](Draft_Rectangle/pl.md): Jeden dla linii zewnętrznej, i 4 dla wewnętrznej. Zatrzymałem się przed drzwiami, bo, pamiętaj, nasze drzwi mają już tam ramę:
 
@@ -393,7 +393,7 @@ Zanim zaczniemy eksportować rzeczy, warto się zastanowić, co zrobić: Jak wid
 
 <img alt="" src=images/Arch_tutorial_45.jpg  style="width:400px;">
 
-Jedną z bardzo podstawowych rzeczy, których potrzebujesz podczas pracy z BIM, jest możliwość importu i eksportu plików _ jest już obsługiwany, a importowanie plików IFC do FreeCAD jest dość niezawodne. Eksportowanie jest jednak nadal procesem eksperymentalnym i ma obecnie wiele ograniczeń. Jednak sytuacja jest dobra i wkrótce powinniśmy uzyskać możliwość niezawodnego eksportu do formatu IFC.
+Jedną z bardzo podstawowych rzeczy, których potrzebujesz podczas pracy z BIM, jest możliwość importu i eksportu plików [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). W dalszym ciągu jest to praca na etapie tworzenia FreeCAD. Format [IFC](Arch_IFC/pl.md) jest już obsługiwany, a importowanie plików IFC do FreeCAD jest dość niezawodne. Eksportowanie jest jednak nadal procesem eksperymentalnym i ma obecnie wiele ograniczeń. Jednak sytuacja jest dobra i wkrótce powinniśmy uzyskać możliwość niezawodnego eksportu do formatu IFC.
 
 [Eksport IFC](Arch_IFC/pl.md) po zainstalowaniu niezbędnych bibliotek oprogramowania, wymaga bardzo niewielkiej konfiguracji. Musisz tylko odtworzyć strukturę budynku, która jest potrzebna we wszystkich plikach IFC, dodając [budowlę](Arch_Building/pl.md) do pliku, a następnie [podłogę](Arch_Floor.md), a następnie przenosząc wszystkie grupy obiektów, które składają się na Twój model. Upewnij się, że pominąłeś geometrię konstrukcji *(wszystkie elementy 2D, które rysowaliśmy)*, aby uniknąć niepotrzebnego obciążania pliku IFC.
 
@@ -401,7 +401,7 @@ Kolejną rzeczą do ustawienia, jest sprawdzenie właściwości **Role** element
 
 W tym przypadku potrzebujemy całego naszego systemu architektonicznego, więc eksporter IFC może wiedzieć, czy obiekt musi być eksportowany jako ściana lub kolumna, więc używamy naszego głównego modelu, a nie naszego wyjściowego modelu.
 
-Kiedy to zrobisz, po prostu wybierz swój obiekt budowlany i wybierz format **Industry Foundation Classes**. Eksportowanie do aplikacji innych niż BIM, takich jak _, STEP, IGES lub OBJ.
+Kiedy to zrobisz, po prostu wybierz swój obiekt budowlany i wybierz format **Industry Foundation Classes**. Eksportowanie do aplikacji innych niż BIM, takich jak [Sketchup](http://www.sketchup.com/) jest również łatwe, masz do dyspozycji kilka formatów eksportu, takich jak [Collada](Arch_DAE/pl.md), STEP, IGES lub OBJ.
 
 
 
@@ -442,7 +442,7 @@ Zauważ, że niektóre funkcje nadal nie są obsługiwane przez [DXF/DWG exporte
 
 **Rysunki widoków**
 
-Innym rodzajem rezultatu, który może być uzyskany z _ z wybraną płaszczyzną przekroju. Ta metoda ma jedno duże ograniczenie w porównaniu do poprzedniej: masz ograniczone możliwości edycji wyników, a w tej chwili takie rzeczy jak wymiarowanie czy kreskowanie nadal nie są obsługiwane automatycznie.
+Innym rodzajem rezultatu, który może być uzyskany z [Płaszczyzny przekroju](Arch_SectionPlane/pl.md) jest [Widok](Drawing_Workbench/pl.md). Wygenerowany jest on za pomocą narzędzia [Draft: Drawing](Draft_Drawing/pl.md) z wybraną płaszczyzną przekroju. Ta metoda ma jedno duże ograniczenie w porównaniu do poprzedniej: masz ograniczone możliwości edycji wyników, a w tej chwili takie rzeczy jak wymiarowanie czy kreskowanie nadal nie są obsługiwane automatycznie.
 
 Z drugiej strony, ostateczny wynik jest łatwiejszy do operowania, a możliwości graficzne formatu SVG są ogromne, w przyszłości bez wątpienia będzie to preferowana metoda. W tej chwili jednak lepsze wyniki osiągniesz korzystając z poprzedniej.
 

@@ -5,7 +5,7 @@ This category shows documentation articles dealing with python scripting, which 
 
 [Mesh API/hu](Mesh_API/hu.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Category:Poweruser Documentation/hu

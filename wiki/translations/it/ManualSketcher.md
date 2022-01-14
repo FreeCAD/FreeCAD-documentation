@@ -22,10 +22,10 @@ Ambiente Sketcher
 ==  Questo è la guida ai comandi di FreeCAD. Comprende le pagine del [Wiki della documentazione di FreeCAD](Main_Page/it.md) che si riferiscono ai comandi. Questa versione è stata creata principalmente per essere stampata come un unico grande documento o per consentire una panoramica veloce sulle pagine dei comandi. Se si sta leggendo questo online, si consiglia di andare direttamente alla [Guida in linea](Online_Help_Toc/it.md), che è più facile da esplorare.
 
 -   Parte prima: [Ambiente Sketcher](ManualSketcher/it#Ambiente_Sketcher.md)
--   Parte seconda: _
--   Parte terza: _
--   Parte quarta: _
--   Parte quinta: _
+-   Parte seconda: [Ambiente Sketcher: Strumenti di costruzione delle geometrie](ManualSketcher/it#Ambiente_Sketcher__Strumenti_di_costruzione_delle_geometrie.md)
+-   Parte terza: [Ambiente Sketcher: I vincoli](ManualSketcher/it#Ambiente_Sketcher__I_vincoli.md)
+-   Parte quarta: [Ambiente Sketcher: Gestione degli schizzi](ManualSketcher/it#Ambiente_Sketcher__Gestione_degli_schizzi.md)
+-   Parte quinta: [Ambiente Sketcher: Altri strumenti e strumenti non documentati](ManualSketcher/it#Ambiente_Sketcher__Altri_strumenti_e_strumenti_non_documentati.md)
 
 
 {{:Sketcher_Workbench/it}}

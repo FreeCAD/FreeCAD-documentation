@@ -20,7 +20,7 @@ Mějte prosím na paměti, že stejně jako sám FreeCAD, jsou tyto stránky pr�
 
 </div>
 
-If you\'d like to contribute to FreeCAD, please _ for the general guidelines that you should follow.
+If you\'d like to contribute to FreeCAD, please [donate](donate.md), and see the [Help FreeCAD](Help_FreeCAD.md) page for other ways to contribute. If you\'d like to edit this wiki, request a wiki account with editor permissions [in the forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), and read the [WikiPages](WikiPages.md) for the general guidelines that you should follow.
 
 If you would like to know how FreeCAD started years ago visit the [History](History.md) page.
 
@@ -40,7 +40,7 @@ A máte-li nějaké poznatky, které byste rádi viděli i zde, není důvod aby
 <div class="mw-translate-fuzzy">
 
 -   [O aplikaci](About_FreeCAD/cs.md): Základní přehled FreeCADu
--   _, [Unix/Linux](Install_on_Unix/cs.md) a [Mac](Install_on_Mac/cs.md)
+-   [Instalace](Installing/cs.md): Jak instalovat FreeCAD na [Windows](Install_on_Windows/cs.md), [Unix/Linux](Install_on_Unix/cs.md) a [Mac](Install_on_Mac/cs.md)
 -   [Začínáme](Getting_started/cs.md): Rychlý přehled dostupných nástrojů
 -   [FAQ](Frequently_asked_questions/cs.md): Často kladené otázky
 
@@ -187,7 +187,7 @@ Toto je oficiální online nápověda FreeCADu. Mějte prosím na paměti, že c
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
 [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/cs

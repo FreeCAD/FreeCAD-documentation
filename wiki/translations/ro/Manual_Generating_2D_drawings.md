@@ -38,7 +38,7 @@ Odată desenate, schemele pot fi listate la imprimantă sau exportate în format
 
 <div class="mw-translate-fuzzy">
 
-Pe parcursul următorului exerciţiu, vom vedea cum se realizează un desen simplu, precum cel al modelului de scaun aflat în _ ), sau puteți descărca pur și simplu modelul din pagina web a bibliotecii sau prin intermediul link-ului direct furnizat în partea de jos a acestui capitol.
+Pe parcursul următorului exerciţiu, vom vedea cum se realizează un desen simplu, precum cel al modelului de scaun aflat în [Biblioteca FreeCAD](https://github.com/FreeCAD/FreeCAD-library) mergând pe calea (Furniture -\> Chairs -\> IkeaChair). Biblioteca FreeCAD poate fi adăugată ușor la instalarea FreeCAD (raportați-vă la capitolul acestui manual [installing](Manual_Installing.md) ), sau puteți descărca pur și simplu modelul din pagina web a bibliotecii sau prin intermediul link-ului direct furnizat în partea de jos a acestui capitol.
 
 
 </div>
@@ -107,7 +107,7 @@ Pe parcursul următorului exerciţiu, vom vedea cum se realizează un desen simp
 
 <div class="mw-translate-fuzzy">
 
-Vom plasa cote și indicații pe desenul nostru. Există două moduri de a adăuga cotelor unui model, unul este plasarea cotelor în interiorul modelului 3D, folosind <img alt="" src=images/Draft_Dimension.png  style="width:16px;"> _ (care pot fi utilizate cu o singură cotă sau cu un grup care conține cote), sau putem face lucruri direct pe foaia Desen, folosind [Drawing Dimensioning Workbench](https://github.com/hamish2014/FreeCAD_drawing_dimensioning), care este instalabil din [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons). Vom folosi aici această metodă din urmă.
+Vom plasa cote și indicații pe desenul nostru. Există două moduri de a adăuga cotelor unui model, unul este plasarea cotelor în interiorul modelului 3D, folosind <img alt="" src=images/Draft_Dimension.png  style="width:16px;"> [Dimension](Draft_Dimension.md) instrumentul [Draft Workbench](Draft_Workbench/ro.md), și apoi plasați o vedere a acestor cote pe foaia noastră cu instrumetnul <img alt="" src=images/Drawing_DraftView.png  style="width:16px;"> [Draft View](Drawing_DraftView.md) (care pot fi utilizate cu o singură cotă sau cu un grup care conține cote), sau putem face lucruri direct pe foaia Desen, folosind [Drawing Dimensioning Workbench](https://github.com/hamish2014/FreeCAD_drawing_dimensioning), care este instalabil din [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons). Vom folosi aici această metodă din urmă.
 
 
 </div>
@@ -189,7 +189,7 @@ Pagina noastră poate fi acum exportată în SVG pentru a fi utilizată în cont
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Generating 2D drawings/ro

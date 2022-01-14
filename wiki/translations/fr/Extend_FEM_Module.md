@@ -3,7 +3,7 @@
 |Topic=FEM
 |Level=Intermédiaire
 |Time=1 heure
-|Author=_
+|Author=[M42kus](User_M42kus.md)
 |FCVersion=0.17
 }}
 
@@ -105,7 +105,7 @@ La plupart des fichiers liés à un solveur sont dans un sous-package du package
 -   **femsolver/elmer/tasks.py:** module contenant une classe de tâches par tâche requise pour une implémentation du solveur. Ces tâches divisent le processus de résolution d'une analyse en plusieurs étapes: vérification, préparation, résolution, résultats.
 -   **femcommands/commands.py:** ajoute l\'objet document du solveur au document actif. Il est nécessaire pour accéder à l\'objet solveur à partir de l\'interface graphique.
 
-Il existe un tutoriel sur l\'ajout d\'un nouveau solveur : _.
+Il existe un tutoriel sur l\'ajout d\'un nouveau solveur : [Tutoriel Ajouter un solveur FEM](Sandbox:Add_FEM_Solver_Tutorial/fr.md).
 
 ## Equations
 
@@ -129,7 +129,7 @@ Les contraintes définissent les conditions aux limites du problème à résoudr
 
 L\'ajout de nouvelles contraintes est assez simple. Pour les nouveaux arrivants, il existe un tutoriel:[Tutoriel pour ajouter des contraintes FEM](Add_FEM_Constraint_Tutorial/fr.md).
 
-_
+[<img src="images/Property.png" style="width:16px"> FEM](Category_FEM.md)
 
 ---
 [documentation index](../README.md) > [FEM](Category_FEM.md) > Extend FEM Module/fr

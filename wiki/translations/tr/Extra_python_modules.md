@@ -23,7 +23,7 @@ The simplest way to install PySide is through your distribution\'s package manag
 
 #### Windows
 
-The program can be downloaded from <http://qt-project.org/wiki/Category:LanguageBindings>::PySide::Downloads . You\'ll need to install the Qt and SIP libraries before installing PySide (to be documented).
+The program can be downloaded from <http://qt-project.org/wiki/<img src="images/Property.png" style="width:16px"> LanguageBindings>::PySide::Downloads . You\'ll need to install the Qt and SIP libraries before installing PySide (to be documented).
 
 #### MacOSX
 
@@ -579,7 +579,7 @@ $ python setup.py install --prefix=/Applications/FreeCAD\ 0.16.6706.app/Contents
 -   license: LGPL
 -   optional, needed to extend import abilities of IFC files
 
-IFCOpenShell is a library currently in development, that allows to import (and soon export) _ will detect it and use it to import IFC files, instead of its built-in rudimentary importer. Since ifcopenshell is based on OpenCasCade, like FreeCAD, the quality of the import is very high, producing high-quality solid geometry.
+IFCOpenShell is a library currently in development, that allows to import (and soon export) [Industry foundation Classes (\*.IFC)](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) files. IFC is an extension to the STEP format, and is becoming the standard in [BIM](http://en.wikipedia.org/wiki/Building_information_modeling) workflows. When ifcopenshell is correctly installed on your system, the FreeCAD [Arch Workbench](Arch_Workbench.md) will detect it and use it to import IFC files, instead of its built-in rudimentary importer. Since ifcopenshell is based on OpenCasCade, like FreeCAD, the quality of the import is very high, producing high-quality solid geometry.
 
 ### Installation 
 
@@ -706,7 +706,7 @@ utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
 
  
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Python Code](Category_Python Code.md) > Extra python modules/tr

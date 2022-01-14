@@ -25,7 +25,7 @@ The github also provides a repo [BOLTSFC](https://github.com/boltsparts/BOLTSFC)
 
 ## Usage
 
-There are detailed instruction in the _ of the webpage:
+There are detailed instruction in the [Documentation section](https://github.com/boltsparts/BOLTSFC/blob/master/README.md) of the webpage:
 
 -   How to install BOLTS for FreeCAD
 -   How to setup a toolbar button for BOLTS

@@ -19,7 +19,7 @@ Das Werkzeug \"Kante verlängern\" verlängert eine Kante an eine beliebige Stel
 
 ## Anwendung
 
-1.  Drücke die **<img src=images/Sketcher_Extend.svg style="width:16px"> [Kante verlängern](Sketcher_Extend/de.md)** Taste.
+1.  Drücke die **[<img src=images/Sketcher_Extend.svg style="width:16px"> [Kante verlängern](Sketcher_Extend/de.md)** Taste.
 2.  Wähle eine Linie oder einen Bogen aus.
 3.  Bewege den Mauszeiger in der 3D Ansicht in Richtung in welche verlängert werden soll.
 4.  Klicke auf eine beliebige Stelle im Raum, oder

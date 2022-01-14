@@ -11,9 +11,9 @@ Im FreeCAD Wiki ist die Seitenleiste mit Hilfe von Vorlagen realisiert, die den 
 
 ### Anweisungen
 
-Du kannst auf die Sonderseite _ gehen, um mit der Übersetzung zu beginnen.
+Du kannst auf die Sonderseite [Special:Translate/wiki-sidebar](Special:Translate/wiki-sidebar.md) gehen, um mit der Übersetzung zu beginnen.
 
-Es gibt einen Fehler auf der Herunterladeseite. Du kannst den Verweis nicht auf \"Download/fr\", oder \"Download/de\", etc. umleiten. Stattdessen wird der Verweis auf die tatsächliche Übersetzung von \"Download\" in deiner Sprache verknüpft. Am besten ist es, diese neue Seite zu erstellen und eine Umleitung auf die richtige Seite einzurichten. Mehr über Umleitungen auf _.
+Es gibt einen Fehler auf der Herunterladeseite. Du kannst den Verweis nicht auf \"Download/fr\", oder \"Download/de\", etc. umleiten. Stattdessen wird der Verweis auf die tatsächliche Übersetzung von \"Download\" in deiner Sprache verknüpft. Am besten ist es, diese neue Seite zu erstellen und eine Umleitung auf die richtige Seite einzurichten. Mehr über Umleitungen auf [Help:Editing/de](Help:Editing/de.md).
 
 ### Wichtige Anmerkungen 
 
@@ -31,7 +31,7 @@ NICHT \"/de\" (/fr, /es, \...) mit einfügen, wenn die Übersetzungseite in der 
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Wiki](Category_Wiki.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Localisation Sidebar/de

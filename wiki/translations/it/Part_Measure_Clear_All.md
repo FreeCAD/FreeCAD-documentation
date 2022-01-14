@@ -20,7 +20,7 @@ Cancella tutte le misure in atto.
 
 ## Utilizzo
 
-Premere il pulsante **<img src=images/Part_Measure_Clear_All.svg style="width:24px"> '''Cancella tutto'''**.
+Premere il pulsante **[<img src=images/Part_Measure_Clear_All.svg style="width:24px"> '''Cancella tutto'''**.
 
 
 </div>

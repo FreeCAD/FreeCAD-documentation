@@ -6,7 +6,7 @@ A [spreadsheet](spreadsheet.md) is a page that contains rows and columns that al
 ## Usage
 
 1.  Switch to the <img alt="" src=images/Workbench_Spreadsheet.svg  style="width:16px;"> [Spreadsheet Workbench](Spreadsheet_Workbench.md).
-2.  Press **<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet CreateSheet](Spreadsheet_CreateSheet.md)** to create a new sheet.
+2.  Press **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [Spreadsheet CreateSheet](Spreadsheet_CreateSheet.md)** to create a new sheet.
 3.  Edit the contents of the cells.
 4.  Close the spreadsheet tab when you are finished, the values are saved automatically as you type them.
 

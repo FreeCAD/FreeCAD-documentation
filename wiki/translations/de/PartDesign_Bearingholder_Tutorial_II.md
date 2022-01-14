@@ -31,7 +31,7 @@ Dies ist der zweite Teil des Tutoriums. Es wird der so genannte \"Multikörper\"
 
 Selbstverständlich musst du zum Durcharbeiten dieses Tutorials den PartDesign Arbeitsbereich aktivieren.
 
-~~Du findest meine Version des von diesem Tutorium erstellten Teils _.~~ *Die Datei ist nicht mehr verfügbar, eine neue wird zu einem späteren Zeitpunkt bereitgestellt werden*.
+~~Du findest meine Version des von diesem Tutorium erstellten Teils [http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 hier](http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_hier.md).~~ *Die Datei ist nicht mehr verfügbar, eine neue wird zu einem späteren Zeitpunkt bereitgestellt werden*.
 
 ## Konstruktionsdaten
 
@@ -90,7 +90,7 @@ Für den Rest der soaneneden Bearbeitung erzeuge einen neuen Körper. Der Boden 
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/de

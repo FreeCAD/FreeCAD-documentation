@@ -15,7 +15,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Mit dem BIM Bibliothek Werkzeug kannst du im aktuellen Modell ein Objekt aus der _ installiert werden muss, damit dieses Tool verfügbar ist.
+Mit dem BIM Bibliothek Werkzeug kannst du im aktuellen Modell ein Objekt aus der [FreeCAD Bauteilbibliothek](Parts_Library/de.md) platzieren, das über den <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) installiert werden muss, damit dieses Tool verfügbar ist.
 
 
 </div>
@@ -42,7 +42,7 @@ Mit dem BIM Bibliothek Werkzeug kannst du im aktuellen Modell ein Objekt aus der
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
 [documentation index](../README.md) > [BIM](Category_BIM.md) > BIM Library/de

@@ -14,11 +14,11 @@
 
 ## Introdução
 
-As capacidades de modelagem sólida do FreeCAD são baseadas em _ é uma camada situada em cima das bibliotecas OCCT, que dá ao usuário acesso às primitivas e funções geométricas da OCCT. Essencialmente todas as funções de desenho 2D e 3D em cada bancada de trabalho (<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/pt-br.md), etc.), são baseadas nestas funções expostas pela Bancada de trabalho Part. Portanto, a Bancada de trabalho Part é considerada o componente central das capacidades de modelagem do FreeCAD.
+As capacidades de modelagem sólida do FreeCAD são baseadas em [OpenCASCADE Technology](OpenCASCADE/pt-br.md)(OCCT) kernel, um sistema de CAD de nível profissional que caracteriza a criação e a manipulação avançadas da geometria 3D. A <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Bancada de trabalho Part](Part_Workbench/pt-br.md) é uma camada situada em cima das bibliotecas OCCT, que dá ao usuário acesso às primitivas e funções geométricas da OCCT. Essencialmente todas as funções de desenho 2D e 3D em cada bancada de trabalho (<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench/pt-br.md), <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/pt-br.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/pt-br.md), etc.), são baseadas nestas funções expostas pela Bancada de trabalho Part. Portanto, a Bancada de trabalho Part é considerada o componente central das capacidades de modelagem do FreeCAD.
 
 Uma discussão mais detalhada da bancada de trabalho Part comparada à bancada de trabalho Part Design pode ser encontrada aqui: [Part e Part Design](Part_and_PartDesign/pt-br.md).
 
-Os objetos criados com a bancada de trabalho são relativamente simples; destinam-se a ser utilizados com operações booleanas (uniões e cortes) a fim de construir formas mais complexas. **Este paradigma de modelagem é conhecido como _), até que o objeto final seja obtido.
+Os objetos criados com a bancada de trabalho são relativamente simples; destinam-se a ser utilizados com operações booleanas (uniões e cortes) a fim de construir formas mais complexas. **Este paradigma de modelagem é conhecido como [ geometria sólida construtiva](Constructive_solid_geometry/pt-br.md). (CSG) e foi a metodologia tradicional utilizada nos primeiros sistemas CAD.** Por outro lado, a [bancade de trabalho PartDesign](PartDesign_Workbench/pt-br.md) fornece um fluxo de trabalho mais moderno para a construção de formas: ele usa um esboço parametricamente definido, que é extrudido para formar um corpo sólido básico, que é então modificado por transformações paramétricas ([edição de características](feature_editing/pt-br.md)), até que o objeto final seja obtido.
 
 Os objetos das peças são mais complexos que os objetos de malha criados com a [bancada de trabalho Mesh](Mesh_Workbench/pt-br.md), pois permitem operações mais avançadas como operações booleanas coerentes, histórico de modificações e comportamento paramétrico.
 
@@ -50,12 +50,12 @@ Essas são ferramentas para criar objetos primitivos.
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Criar primitivas](Part_Primitives/pt-br.md): Uma ferramenta para criar diversas primitivas geométricas paramétricas.
     -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Plano](Part_Plane/pt-br.md): Cria um plano.
-    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> _.
-    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> _.
-    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> _.
-    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> _.
+    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Cubo](Part_Box/pt-br.md): Cria uma caixa. Este objeto também pode ser criado com a ferramenta <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Cubo](Part_Box/pt-br.md).
+    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Cilindro](Part_Cylinder/pt-br.md): Cria um cilindro. Este objeto também pode ser criado com a ferramenta <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Cilindro](Part_Cylinder/pt-br.md).
+    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Cone](Part_Cone/pt-br.md): Cria um cone. Este objeto também pode ser criado com a ferramenta<img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Cone](Part_Cone/pt-br.md).
+    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Esfera](Part_Sphere/pt-br.md): Cria uma esfera. Este objeto também pode ser criado com a ferramenta<img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Esfera](Part_Sphere/pt-br.md).
     -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Elipsóide](Part_Ellipsoid/pt-br.md): Cria uma elipsóide.
-    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> _.
+    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Toro](Part_Torus/pt-br.md): Cria um toro. Este objeto também pode ser criado com a ferramenta<img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Toro](Part_Torus/pt-br.md).
     -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prisma](Part_Prism/pt-br.md): Cria um prisma.
     -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Cunha](Part_Wedge/pt-br.md): Cria uma cunha.
     -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Hélice](Part_Helix/pt-br.md): Cria uma hélice.
@@ -130,7 +130,7 @@ Estas ferramentas realizam operações booleanas.
     -   <img alt="" src=images/Part_BooleanFragments.svg  style="width:32px;"> [Fragmentos booleanos](Part_BooleanFragments/pt-br.md): Cria todas as peças que podem ser obtidas por meio das operações booleanas entre objetos. Divide os objetos onde eles se interceptam.
     -   <img alt="" src=images/Part_SliceApart.svg  style="width:32px;"> [Fatiar uma peça](Part_SliceApart/pt-br.md): Ferramenta para dividir formas através da intersecção com outras formas.
     -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Fatiar](Part_Slice/pt-br.md): Divide um objeto em pedaços através da interseção com outro objeto.
-    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> _).
+    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [XOR](Part_XOR/pt-br.md): Remove o espaço compartilhado por um número par de objetos (versão simétrica da [Diferença](Part_Cut/pt-br.md)).
 
 ### Medida
 
@@ -210,7 +210,7 @@ Veja [Script(roteiro) da peça](Part_scripting/pt-br.md).
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/pt-br

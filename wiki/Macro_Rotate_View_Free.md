@@ -7,7 +7,7 @@
 |Version=01.00
 |Date=2010-11-17
 |FCVersion=All
-|SeeAlso=<img src=images/Macro_Rotate_View_view_90_Degrees.png style="width:Macro Rotate View](Macro_Rotate_View.md) [24px"><br /><img src=images/Macro_Rotate_View_with_Y_pointing_upwards_.png style="width:Macro_Rotate_ViewAxonometric](Macro_Rotate_ViewAxonometric.md) [24px"> <img src=images/Macro_Rotate_View_with_Z_pointing_upwards_.png style="width:24px">
+|SeeAlso=[Macro Rotate View](Macro_Rotate_View.md) [<img src=images/Macro_Rotate_View_view_90_Degrees.png style="width:24px"><br />[Macro_Rotate_ViewAxonometric](Macro_Rotate_ViewAxonometric.md) [<img src=images/Macro_Rotate_View_with_Y_pointing_upwards_.png style="width:24px"> [<img src=images/Macro_Rotate_View_with_Z_pointing_upwards_.png style="width:24px">
 }}
 
 ## Description

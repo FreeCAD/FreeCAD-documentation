@@ -49,7 +49,7 @@ Zobacz: [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=5579
 -   [Osadzanie FreeCAD](Embedding_FreeCAD/pl#U.C5.BCywanie_FreeCAD_bez_GUI.md)
 -   [Uruchomienie i Konfiguracja](Start_up_and_Configuration/pl#Uruchamianie_FreeCAD_bez_GUI.md)
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Headless FreeCAD/pl

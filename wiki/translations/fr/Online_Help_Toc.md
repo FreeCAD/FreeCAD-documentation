@@ -1,7 +1,7 @@
 # Online Help Toc/fr
-Ceci est la table des matières utilisée pour la construction automatique du **système d'aide en ligne** de FreeCAD. Une version imprimable de ce manuel est aussi disponible sur la page _, y compris les forums et les groupes de discussion.
+Ceci est la table des matières utilisée pour la construction automatique du **système d'aide en ligne** de FreeCAD. Une version imprimable de ce manuel est aussi disponible sur la page [diffusion de versions](https://github.com/FreeCAD/FreeCAD/releases). Si vous avez des questions ou avez besoin d\'aide pour FreeCAD, veuillez consulter la [page d\'aide](Help/fr.md), y compris les forums et les groupes de discussion.
 
-Il existe une autre table des matières pour le _.
+Il existe une autre table des matières pour le [Manuel : Introduction à FreeCAD](Manual:Introduction/fr.md).
 
 <img alt="" src=images/Online_Help_Toc.svg  style="width:64px;">
 
@@ -113,7 +113,7 @@ Il existe une autre table des matières pour le _.
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/fr

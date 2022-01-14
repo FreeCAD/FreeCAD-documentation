@@ -9,7 +9,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Un oggetto _ che può essere visualizzato nella [Vista 3D](3D_view/it.md).
+Un oggetto [Part Feature](Part_Feature/it.md), (Funzione Part) o formalmente un `Part::Feature`, è un elemento semplice a cui è associato una [forma topologica](Part_TopoShape/it.md) che può essere visualizzato nella [Vista 3D](3D_view/it.md).
 
 
 </div>
@@ -40,7 +40,7 @@ Ogni oggetto creato con [Part](Part_Workbench/it.md) è essenzialmente una [Part
 
 [Part Feature](Part_Feature/it.md) è un oggetto interno, quindi non può essere creato dall\'interfaccia grafica, ma solo dalla [console Python](Python_console/it.md) come descritto nel paragrafo [Script](Part_Feature/it#Script.md).
 
-L\'oggetto {{Incode|Part::Feature}} è definito in _, quindi sono anche importati come elementi `Part::Feature` sebbene senza cronologia parametrica.
+L\'oggetto {{Incode|Part::Feature}} è definito in [Part](Part_Workbench/it.md) ma può essere usato come classe base per [script di oggetti](scripted_objects/it.md) in tutti gli [ambienti](Workbenches/it.md) che producono forme geometriche 2D e 3D. Sostanzialmente tutti gli oggetti prodotti in [Part](Part_Workbench/it.md) sono istanze di una `Part::Feature`. Gli oggetti solidi importati da file STEP o BREP sono importati utilizzando [Part](Part_Workbench/it.md), quindi sono anche importati come elementi `Part::Feature` sebbene senza cronologia parametrica.
 
 
 `Part::Feature`
@@ -51,7 +51,7 @@ Un oggetto `Part::Feature` ha proprietà semplici come il [posizionamento](Place
 
 ## Proprietà
 
-Una _ (classe`App::GeoFeature`), pertanto condivide la maggior parte delle proprietà di quest\'ultima.
+Una [Part Feature](Part_Feature/it.md) (classe `Part::Feature`) è derivata dalla base [App GeoFeature](App_GeoFeature/it.md) (classe`App::GeoFeature`), pertanto condivide la maggior parte delle proprietà di quest\'ultima.
 
 
 <div class="mw-translate-fuzzy">

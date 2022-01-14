@@ -4,20 +4,20 @@
 
 {{TOCright}}
 
-Se gosta do FreeCAD e gostaria de ajudar no seu desenvolvimento, para além de _, há muitas outras coisas que pode fazer, mesmo que não sendo um programador.
+Se gosta do FreeCAD e gostaria de ajudar no seu desenvolvimento, para além de [doações](Special:MyLanguage/Donate.md), há muitas outras coisas que pode fazer, mesmo que não sendo um programador.
 
 ## Trabalhe na documentação 
 
-Ajude-nos a construir, corrigir e ampliar esta documentação. Corrigir erros, estender ou corrigir páginas que não estejam claras, criar novas páginas se faltar um tópico, etc. Contribuir para o wiki do FreeCAD é fácil, em _ você pode encontrar as diretrizes gerais e a ajuda necessária para começar. Para editar o wiki, você precisará de uma conta wiki com permissões de \"Editor\" (o wiki é protegido contra gravação para evitar 'spam'). Pode solicitar uma conta [fórum](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830%7Cno) ou no [IRC](https://wiki.freecadweb.org/Help#Chat%7Ccanal). Note que o canal do IRC pode não ser tão responsivo como o fórum. [O fórum oficial do FreeCAD](https://forum.freecadweb.org) deve ser o local principal para fazer perguntas e iniciar discussões, pois ajudará a preservar a experiência e o conhecimento da comunidade.
+Ajude-nos a construir, corrigir e ampliar esta documentação. Corrigir erros, estender ou corrigir páginas que não estejam claras, criar novas páginas se faltar um tópico, etc. Contribuir para o wiki do FreeCAD é fácil, em [PaginasWiki](Special:MyLanguage/WikiPages.md) você pode encontrar as diretrizes gerais e a ajuda necessária para começar. Para editar o wiki, você precisará de uma conta wiki com permissões de \"Editor\" (o wiki é protegido contra gravação para evitar 'spam'). Pode solicitar uma conta [fórum](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830%7Cno) ou no [IRC](https://wiki.freecadweb.org/Help#Chat%7Ccanal). Note que o canal do IRC pode não ser tão responsivo como o fórum. [O fórum oficial do FreeCAD](https://forum.freecadweb.org) deve ser o local principal para fazer perguntas e iniciar discussões, pois ajudará a preservar a experiência e o conhecimento da comunidade.
 
 
 <div class="mw-translate-fuzzy">
 
 Algumas áreas indicadas para iniciar o trabalho:
 
--   A página _ lista e documenta todos os _ do FreeCAD. A maioria deles contém pouca ou nenhuma informação. Por favor, consulte _ para bons exemplos de como devem ser as páginas de documentação de comandos.
--   A seção _ precisa de exemplos sobre como utilizar as bancadas de trabalho. Se desenvolveu algo interessante com o FreeCAD, porque não documentar como o fez para a posteridade?
--   Existem entradas pendentes no _ marcadas como [\"documentation\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) use com amor.
+-   A página [:Categoria:Referência de Comando](Special:MyLanguage/:Category_Command_Reference.md) lista e documenta todos os [comandos](Special:MyLanguage/command.md) do FreeCAD. A maioria deles contém pouca ou nenhuma informação. Por favor, consulte [PaginasWiki](Special:MyLanguage/WikiPages.md) para bons exemplos de como devem ser as páginas de documentação de comandos.
+-   A seção [Tutoriais](Special:MyLanguage/Tutorials.md) precisa de exemplos sobre como utilizar as bancadas de trabalho. Se desenvolveu algo interessante com o FreeCAD, porque não documentar como o fez para a posteridade?
+-   Existem entradas pendentes no [rastreador de erros](Special:MyLanguage/bugtracker.md) marcadas como [\"documentation\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) use com amor.
 
 
 </div>
@@ -37,17 +37,17 @@ A comunidade de usuários em torno do FreeCAD ainda é pequena, mas já inclui v
 
 Localize o FreeCAD para a sua língua. Todas as cadeias de texto da interface do FreeCAD podem ser facilmente traduzidas para outras línguas. Tudo o que precisamos é de alguém que saiba outras línguas e esteja disposto a ajudar! Todas as traduções são feitas online em [Crowdin](http://crowdin.net/project/freecad).
 
-Para mais detalhes sobre a tradução, consulte _.
+Para mais detalhes sobre a tradução, consulte [Localização](Special:MyLanguage/Localisation.md).
 
 ## Traduza a documentação 
 
 Traduzir é fácil, o wiki FreeCAD suporta um \"plugin\" de tradução que lhe permite traduzir a página base em inglês para outras línguas.
 
-Para detalhes sobre tradução, consulte _.
+Para detalhes sobre tradução, consulte [Localização\#Traduzindo o wiki do FreeCAD](Special:MyLanguage/Localisation#Translate_the_FreeCAD_wiki.md).
 
-Por favor, certifique-se de que está familiarizado com os fundamentos de marcação wiki; ver _ como referência.
+Por favor, certifique-se de que está familiarizado com os fundamentos de marcação wiki; ver [Ajuda:Editando](Special:MyLanguage/Help_Editing.md) como referência.
 
-Depois dirija-se a _ para se familiarizar com o estilo utilizado neste wiki, particularmente quando se trata de modelos.
+Depois dirija-se a [PáginasWiki](Special:MyLanguage/WikiPages.md) para se familiarizar com o estilo utilizado neste wiki, particularmente quando se trata de modelos.
 
 ## Ajudar os outros a conhecer o FreeCAD 
 
@@ -62,7 +62,7 @@ Depois dirija-se a _ para se familiarizar com o estilo utilizado neste wiki, par
 
 ![](images/Bugreport-workflow.png )
 
-Embora o local para relatar erros confirmados e sugerir novas funcionalidades seja eventualmente o **_**, por favor, publique sempre primeiro os relatórios de erros e pedidos de funcionalidades no fórum. De modo a poupar tempo aos programadores (triagem e tratamento de erros difíceis de compreender podem ser muito demorados), e evitar frustrações porque o seu problema não foi tratado da forma que gostaria, por favor leia o seguinte:
+Embora o local para relatar erros confirmados e sugerir novas funcionalidades seja eventualmente o **[ rastreador de erros do FreeCAD](Special:MyLanguage/tracker.md)**, por favor, publique sempre primeiro os relatórios de erros e pedidos de funcionalidades no fórum. De modo a poupar tempo aos programadores (triagem e tratamento de erros difíceis de compreender podem ser muito demorados), e evitar frustrações porque o seu problema não foi tratado da forma que gostaria, por favor leia o seguinte:
 
 -   Erros e pedidos de funcionalidades são tratados no mesmo rastreador. Basta marcar o seu problema como \"bug\" (algo que não funciona como deveria) ou \"feature\" (algo que não está lá, mas que pensa que seria bom ter).
 -   Embora originalmente se pudesse submeter as questões anonimamente, infelizmente isto teve de ser cancelado devido ao 'spam'. Agora, se desejar criar/editar bilhetes, terá de criar uma conta. Será então, por predefinição, notificado quando alguém acrescentar notas à questão. Em muitos casos, a pessoa que irá tratar do erro necessitará de mais informações da sua parte.
@@ -74,7 +74,7 @@ Embora o local para relatar erros confirmados e sugerir novas funcionalidades se
 
 ## Projeto artístico 
 
-Veja a página _ e _ para orientações sobre a criação de ícones para o FreeCAD.
+Veja a página [Objetos gráficos](Special:MyLanguage/Artwork.md) e [Diretrizes para trabalhos gráficos](Special:MyLanguage/Artwork_Guidelines.md) para orientações sobre a criação de ícones para o FreeCAD.
 
 ## Programe!
 
@@ -82,7 +82,7 @@ Escrever código para o FreeCAD não é difícil e você não precisa de nenhuma
 
 -   O FreeCAD avança no seu próprio ritmo, e tem uma equipa muito pequena de programadores. Não temos todo o tempo que gostaríamos de gastar no FreeCAD, e nada está previamente planeado. O trabalho é feito quando um desenvolvedor encontra tempo para o fazer e sente que vale a pena. Não mantemos uma lista de afazeres. Cabe a todos encontrar algo que gostariam de fazer, por exemplo, um erro que gostariam de corrigir, ou uma pequena característica que pensam faltar. O [rastreador](http://www.freecadweb.org/tracker) também contém alguns tópicos que não são atribuídos a ninguém, e que estão à espera de um voluntário.
 -   Antes de começar a codificar para o FreeCAD, é necessário estar familiarizado com o seu funcionamento. Parece óbvio, mas se não souber como funciona, não saberá o que tem que fazer internamente, ou como o fazer.
--   Quase tudo pode ser feito em Python ou C++. As tarefas internas funcionam quase da mesma forma em ambas as línguas. Aconselhamos a leitura da página _, mesmo que planeie programar em C++, pois dar-lhe-á uma boa visão geral do funcionamento interno.
+-   Quase tudo pode ser feito em Python ou C++. As tarefas internas funcionam quase da mesma forma em ambas as línguas. Aconselhamos a leitura da página [Documentação para usuários avançados](Special:MyLanguage/Power_users_hub.md), mesmo que planeie programar em C++, pois dar-lhe-á uma boa visão geral do funcionamento interno.
 -   Se pretende trabalhar com C++, certifique-se de consegue compilar o FreeCAD sem problemas.
 -   Apresente-se a outros desenvolvedores. O FreeCAD é sobretudo um projeto colaborativo, discutimos muitas coisas no fórum antes de serem implementadas, e é melhor discutir as suas ideias e dizer aos outros o que está planejando antes de o fazer realmente. Também temos um [canal IRC](irc://chat.freenode.net/freecad) que está sincronizado com o nosso canal [gitter](https://gitter.im/FreeCAD/FreeCAD), mas o fórum é o único e único local onde todos os programadores se encontram.
 -   Desde 2016, o FreeCAD participa do [Google Summer of Code 2020](Google_Summer_of_Code_2020.md). Não deixe de conferir nossas ideias aí se tiver interesse em participar da próxima edição.
@@ -90,7 +90,7 @@ Escrever código para o FreeCAD não é difícil e você não precisa de nenhuma
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Command Reference|:Categoria:Referência de Comando]] lista e documenta todos os ](Category_Command Reference|:Categoria:Referência de Comando]] lista e documenta todos os .md) > Help FreeCAD/pt-br

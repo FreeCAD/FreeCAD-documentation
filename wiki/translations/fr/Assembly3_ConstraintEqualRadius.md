@@ -10,7 +10,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Assembly_ConstraintEqualRadius.svg  style="width:16px;"> _ en relation avec un <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> plan de travail.
+La commande <img alt="" src=images/Assembly_ConstraintEqualRadius.svg  style="width:16px;"> [Contrainte rayon](Assembly3_ConstraintEqualRadius/fr.md) contraint le rayon d\'un cercle ou d\'un arc en 2D réalisé avec les outils de l\'<img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [atelier Draft](Draft_Workbench/fr.md) en relation avec un <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> plan de travail.
 
 Elle relie le rayon du cercle ou de l\'arc 2D au rayon d\'un autre cercle ou arc 2D.
 

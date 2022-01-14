@@ -1,6 +1,6 @@
 # Draft Trimex/sv
 ---
-- GuiCommand:/sv   Name:Draft Trimex   Name/sv:Draft Trimex   Workbenches:_---
+- GuiCommand:/sv   Name:Draft Trimex   Name/sv:Draft Trimex   Workbenches:[Arch](Draft_Workbench/sv___Draft]],_[[Arch_Workbench/sv.md)|MenuLocation:Draft -> Trim/Extend   Shortcut:T R   SeeAlso:[Part Extrude](Part_Extrude/sv.md)---
 
 
 </div>

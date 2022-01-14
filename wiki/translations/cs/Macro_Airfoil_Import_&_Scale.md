@@ -44,7 +44,7 @@ Volba souboru je stejná jako verze 1.5. S verzí 2 máte nyní možnost mít bu
 
 ### Latest
 
-The latest version of the macro is to be found at _.
+The latest version of the macro is to be found at [AirfoilImportAndScale.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/AirfoilImportAndScale.FCMacro) but the easiest way to install this macro is through the [Addon Manager](Std_AddonMgr.md).
 
 ### Version 2.1.2 
 

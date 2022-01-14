@@ -10,7 +10,7 @@ The aim of this page is to gather ideas and organize things so official releases
 ## Planning
 
 -   Ideally official releases should happen each 3 to 6 months
--   A signal should be emitted (by _?) before the release (3 weeks?) so:
+-   A signal should be emitted (by [jriegel](User_Jriegel.md)?) before the release (3 weeks?) so:
     -   No more new feature gets introduced, only bug fixes
     -   The strings are collected and uploaded to crowdin for translation
     -   The documentation can be fully updated
@@ -20,10 +20,10 @@ The aim of this page is to gather ideas and organize things so official releases
 
 These are the tasks required for each release, with the name of the person responsible for it. Add your name if you want to take care of a task!
 
--   _ - Giving the signal to the release (3 weeks before?)
--   _ - Gathering the strings to translate and uploading them on crowdin
--   _ - Announce on the forum and on social networks that translation is needed
--   _ - Set the splashscreen
+-   [jriegel](User_Jriegel.md) - Giving the signal to the release (3 weeks before?)
+-   [yorik](User_Yorik.md) - Gathering the strings to translate and uploading them on crowdin
+-   [yorik](User_Yorik.md) - Announce on the forum and on social networks that translation is needed
+-   [yorik](User_Yorik.md) - Set the splashscreen
 -   Unassigned - Update years in source files
 -   Unassigned - Update dependencies in README
 -   Unassigned - Change the version number in the FreeCAD code
@@ -31,7 +31,7 @@ These are the tasks required for each release, with the name of the person respo
 -   Unassigned - Manage the updates of the wiki
 -   Unassigned - Manage the release notes
 -   Unassigned - Update ChangeLog.txt
--   _ - Merge back the translations from crowdin
+-   [yorik](User_Yorik.md) - Merge back the translations from crowdin
 -   Unassigned - Check the german translation
 -   Unassigned - Check the french translation
 -   Unassigned - Check the other translations that have reached 100% (add them here)
@@ -45,9 +45,9 @@ These are the tasks required for each release, with the name of the person respo
 -   Unassigned - Check the mac build
 -   Unassigned - Check the ubuntu build
 -   Unassigned - Communicate the release to package managers of linux distributions (debian, fedora)
--   _ - Update the release numbers on the tracker
--   _ - Update the release numbers and download locations on the main web page for all languages
--   _ - Update the python API doc pages
+-   [yorik](User_Yorik.md) - Update the release numbers on the tracker
+-   [yorik](User_Yorik.md) - Update the release numbers and download locations on the main web page for all languages
+-   [yorik](User_Yorik.md) - Update the python API doc pages
 -   Unassigned - Official release announcement on the FreeCAD web page
 -   Unassigned - Spread it around. see chapter Publicity
 
@@ -60,7 +60,7 @@ Feel free to add more pages or assign one or more pages to yourself to take care
 ### Social networks 
 
 -   <http://plus.google.com/107660967460246172334/posts>
--   _ - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
+-   [yorik](User_Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
 
 ### News Sites 
 
@@ -95,7 +95,7 @@ Feel free to add more pages or assign one or more pages to yourself to take care
 -   <http://www.techdrivein.com/>
 -   <http://sliptonic.com/>
 -   <http://opensourcedesigntools.blogspot.de/>
--   _ - <http://yorik.uncreated.net>
+-   [yorik](User_Yorik.md) - <http://yorik.uncreated.net>
 
 ### French
 
@@ -128,7 +128,7 @@ Feel free to add more pages or assign one or more pages to yourself to take care
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > Release process/en

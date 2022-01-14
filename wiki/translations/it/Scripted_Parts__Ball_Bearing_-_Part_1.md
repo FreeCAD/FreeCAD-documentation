@@ -42,13 +42,13 @@ Quindi bisogna selezionare i bordi prima di creare la scanalatura.
 ### Note
 
 Questo tutorial utilizza le primitive di Parte e le Operazioni booleane, che consumano molte risorse.
-Per fare un script di Part usando degli schizzi rivoluzionati vedere il tutorial _.
+Per fare un script di Part usando degli schizzi rivoluzionati vedere il tutorial [Parti con script: Cuscinetto a sfere - Parte 2 ](Scripted_Parts:_Ball_Bearing_-_Part_2/it.md).
 
 ### Link
 
 [Script di oggetti](Scripted_objects/it.md): La pagina wiki che spiega i principi fondamentali di scripting
 [Script di dati topologici](Topological_data_scripting/it.md): Un tutorial per fornire le basi di scripting
-_: Costruirlo con degli schizzi
+[Parti con script - Cuscinetto a sfere Parte 2](Scripted_Parts:_Ball_Bearing_-_Part_2/it.md): Costruirlo con degli schizzi
 [Bearing Script 1](http://linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html): Base per questo tutorial, grazie a JMG \...
 
 ### Codice
@@ -140,7 +140,7 @@ Gui.SendMsgToActiveView("ViewFit")
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripted Parts: Ball Bearing - Part 1/it

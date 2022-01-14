@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> _, which is the geometrical kernel that FreeCAD uses to build geometry on screen. The OpenCASCADE libraries are always needed to use FreeCAD, while the OpenSCAD executable is entirely optional.
+The <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD Workbench](OpenSCAD_Workbench.md) is intended to offer interoperability with the open source software [OpenSCAD](http://www.openscad.org/). This program is not distributed as part of FreeCAD, but should be installed to make full use of this workbench. OpenSCAD should not be confused with [OpenCASCADE](OpenCASCADE.md), which is the geometrical kernel that FreeCAD uses to build geometry on screen. The OpenCASCADE libraries are always needed to use FreeCAD, while the OpenSCAD executable is entirely optional.
 
 It contains a [CSG](OpenSCAD_CSG.md) importer to open the CSG files from OpenSCAD, and an exporter to output a CSG based tree. Geometry which is not based on CSG operations will be exported as a mesh.
 
@@ -124,7 +124,7 @@ If FreeCAD crashes when importing CSG, it is strongly recommended that you enabl
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > OpenSCAD Workbench/id

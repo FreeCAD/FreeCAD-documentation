@@ -12,11 +12,11 @@
 
 ## Beschreibung
 
-Der **Std ErweiterungVerw** Befehl öffnet den Erweiterungsverwalter. Mit dem Erweiterungsverwalter kannst du _ Seite.
+Der **Std ErweiterungVerw** Befehl öffnet den Erweiterungsverwalter. Mit dem Erweiterungsverwalter kannst du [externe Arbeitsbereiche](external_workbenches/de.md) und [Makros](macros/de.md), die von der FreeCAD Gemeinschaft bereitgestellt werden, installieren und verwalten. Die verfügbaren Arbeitsbereiche und Makros stammen aus zwei Repositorien, [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons/) und [FreeCAD-macros](https://github.com/FreeCAD/FreeCAD-macros/), sowie von der [Makrosrezepte](Macros_recipes/de.md) Seite.
 
 Erweiterungen, die als {{emphasis|Nur Python 2}} markiert sind, funktionieren nicht in FreeCAD Version 0.19 oder höher.
 
-Aufgrund von Änderungen an der GitHub Plattform im Jahr 2020 funktioniert der Erweiterungsverwalter nicht mehr, wenn du FreeCAD Version 0.17 oder früher verwendest. Du musst auf die Version _ unten.
+Aufgrund von Änderungen an der GitHub Plattform im Jahr 2020 funktioniert der Erweiterungsverwalter nicht mehr, wenn du FreeCAD Version 0.17 oder früher verwendest. Du musst auf die Version [0.18.5](https://github.com/FreeCAD/FreeCAD/releases/tag/0.18.5) oder eine neuere Version [0.19](https://github.com/FreeCAD/FreeCAD/releases/tag/0.19_pre) aktualisieren. Alternativ kannst du Erweiterungen auch manuell installieren, siehe [Hinweise](#Hinweise.md) unten.
 
 ![](images/Std_AddonMgr_dialog.png ) 
 *Das Dialogfeld des Erweiterungsverwalters*
@@ -65,7 +65,7 @@ Das Dialogfeld des Erweiterungsverwalters hat zwei Reiter auf der linken Seite, 
 
 ## Informationen für Entwickler 
 
-Wenn du einen Arbeitsbereich oder ein Makro entwickelt hast und es im Erweiterungsverwalter sehen möchtest, lies auf den Repositoriumsseiten (_ Seiten hinzufügst, ist nichts weiteres tun, denn es wird automatisch vom Erweiterungsverwalter ausgewählt.
+Wenn du einen Arbeitsbereich oder ein Makro entwickelt hast und es im Erweiterungsverwalter sehen möchtest, lies auf den Repositoriumsseiten ([FreeCAD-Erweiterungen](https://github.com/FreeCAD/FreeCAD-addons/) und [FreeCAD-Makros](https://github.com/FreeCAD/FreeCAD-macros/)), was zu tun ist. Wenn du dein Makro zu den [Makro Rezepte](Macros_recipes/de.md) Seiten hinzufügst, ist nichts weiteres tun, denn es wird automatisch vom Erweiterungsverwalter ausgewählt.
 
 ### Python Arbeitsbereiche 
 

@@ -12,11 +12,11 @@ Pour plus d\'informations sur la manipulation des objets, voir [Std Transformati
 ## Sélection d\'un style de navigation 
 
 1.  Faites l\'une des choses suivantes :
-    -   Appuyez sur le bouton **<img src=images/NavigationCAD.svg style="width:16px">** de la [Barre d\'état](Status_bar/fr.md).
+    -   Appuyez sur le bouton **[<img src=images/NavigationCAD.svg style="width:16px">** de la [Barre d\'état](Status_bar/fr.md).
     -   Cliquez du bouton droit de la souris sur une zone vide dans la [Vue 3D](3D_view/fr.md) et sélectionnez **Styles de navigation** dans le menu contextuel.
     -   Utilisez les [Réglages des préférences](Preferences_Editor/fr#Navigation.md). Dans le menu, sélectionnez **Edition → Préférences** et ensuite **Affichage → Navigation → Navigation 3D**.
 2.  Sélectionnez un style dans la liste.
-3.  Modifiez éventuellement le **Style d'orbite** : appuyez sur le bouton **<img src=images/NavigationCAD.svg style="width:16px">** dans la [Barre d\'état](Status_bar/fr.md) puis choisissez **Paramètres → Style d'orbite**. Voir [Réglages des préférences](Preferences_Editor/fr#Navigation.md).
+3.  Modifiez éventuellement le **Style d'orbite** : appuyez sur le bouton **[<img src=images/NavigationCAD.svg style="width:16px">** dans la [Barre d\'état](Status_bar/fr.md) puis choisissez **Paramètres → Style d'orbite**. Voir [Réglages des préférences](Preferences_Editor/fr#Navigation.md).
 4.  Vous pouvez également modifier le **Mode de rotation**. Voir [Réglages des préférences](Preferences_Editor/fr#Navigation.md).
 5.  Si le mode de navigation **CAD** est sélectionné : modifiez éventuellement le paramètre **Permettre l'animation**. Voir [Réglages des préférences](Preferences_Editor/fr#Navigation.md).
 

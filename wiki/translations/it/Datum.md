@@ -18,12 +18,12 @@ I seguenti elementi sono derivati direttamente da [Part Feature](Part_Feature.md
 ## Utilizzo
 
 1.  Passare nell\'ambiente [PartDesign](PartDesign_Workbench/it.md).
-2.  Premere **<img src=images/PartDesign_Body.svg style="width:16px"> [Crea un corpo](PartDesign_Body/it.md)**.
+2.  Premere **[<img src=images/PartDesign_Body.svg style="width:16px"> [Crea un corpo](PartDesign_Body/it.md)**.
 3.  Selezionare l\'origine del corpo e renderla visibile premendo la barra **Spazio** sulla tastiera.
-4.  Premere **<img src=images/PartDesign_Plane.svg style="width:16px"> [Piano di riferimento](PartDesign_Plane/it.md)** per aprire la scheda [Azioni](task_panel/it.md) per il piano.
+4.  Premere **[<img src=images/PartDesign_Plane.svg style="width:16px"> [Piano di riferimento](PartDesign_Plane/it.md)** per aprire la scheda [Azioni](task_panel/it.md) per il piano.
 5.  Nella [vista 3D](3D_view/it.md), fare clic su uno dei piani standard, ad esempio il piano XY. Quindi premere **OK** per chiudere il pannello delle azioni.
-6.  Ora nella <img src=images/PartDesign_NewSketch.svg style="width:vista ad albero](tree_view/it.md), selezionare il piano di riferimento appena creato, quindi premere **[16px"> [Crea uno schizzo](PartDesign_NewSketch/it.md)**.
-7.  Creare un contorno chiuso, quindi utilizzare **<img src=images/PartDesign_Pad.svg style="width:16px"> [Pad](PartDesign_Pad/it.md)** per estrudere lo schizzo e creare un solido iniziale.
+6.  Ora nella [vista ad albero](tree_view/it.md), selezionare il piano di riferimento appena creato, quindi premere **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Crea uno schizzo](PartDesign_NewSketch/it.md)**.
+7.  Creare un contorno chiuso, quindi utilizzare **[<img src=images/PartDesign_Pad.svg style="width:16px"> [Pad](PartDesign_Pad/it.md)** per estrudere lo schizzo e creare un solido iniziale.
 
 Ora si può spostare e ruotare il piano di riferimento come si desidera, modificandone le proprietà nell\'[editor delle proprietà](property_editor/it.md) e Schizzo e Pad seguiranno il suo nuovo [Posizionamento](Placement/it.md).
 
@@ -49,7 +49,7 @@ Quando sono apparsi nella v0.17, gli oggetti di riferimento erano destinati ad e
 
 }} {{Document objects navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Datum/it

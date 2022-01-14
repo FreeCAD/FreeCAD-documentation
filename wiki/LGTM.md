@@ -61,7 +61,7 @@ Also, some classifications (like \'template\' and \'test\') are used by LGTM for
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Testing](Category_Testing.md)
 
 ---
 [documentation index](../README.md) > [Developer](Category_Developer.md) > LGTM

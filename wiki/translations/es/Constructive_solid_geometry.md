@@ -5,7 +5,7 @@
 
 [Geometría sólida constructiva](https://en.wikipedia.org/wiki/Constructive_solid_geometry) (**CSG**) es un paradigma de modelización que se utiliza en muchos sistemas tradicionales de CAD. Consiste esencialmente en utilizar objetos sólidos primitivos y hacer operaciones booleanas con ellos, como la fusión, la sustracción y la intersección, para crear una forma final.
 
-En FreeCAD, este método se utiliza principalmente con el <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _, <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> _ y fusionarlos, o utilizarlos para cortar otros objetos con herramientas como **<img src="images/Part_Cut.svg" width=24px> [Corte Pieza](Part_Cut/es.md)**.
+En FreeCAD, este método se utiliza principalmente con el <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente de trabajo de pieza](Part_Workbench/es.md), que tiene la capacidad de crear objetos primitivos como <img alt="" src=images/Part_Box.svg  style="width:24px;"> [cajas](Part_Box/es.md), <img alt="" src=images/Part_Cylinder.svg  style="width:24px;"> [cilindros](Part_Cylinder/es.md), y <img alt="" src=images/Part_Sphere.svg  style="width:24px;"> [esferas](Part_Sphere/es.md) y fusionarlos, o utilizarlos para cortar otros objetos con herramientas como **<img src="images/Part_Cut.svg" width=24px> [Corte Pieza](Part_Cut/es.md)**.
 
 <img alt="" src=images/Part_Constructive_Solid_Geometry_workflow.svg  style="width:800px;">
 
@@ -30,15 +30,15 @@ Un [Cuerpo DiseñoPieza](PartDesign_Body/es.md) creado con el [Ambiente de traba
 
 ## Tutoriales
 
-La página de _ que utilizan el método **CSG**.
+La página de [tutoriales](tutorials/es.md) proporciona algunos ejemplos sobre la creación de sólidos con el <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente de trabajo Pieza](Part_Workbench/es.md) que utilizan el método **CSG**.
 
--   _
+-   [Modelado tradicional, el método CSG](Manual:Traditional_modeling,_the_CSG_way/es.md)
 -   [Tutorial de pelota de béisbol](Whiffle_Ball_tutorial/es.md)
 -   [Tutorial de modelado básico](Basic_modeling_tutorial/es.md)
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Constructive solid geometry/es

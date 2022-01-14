@@ -142,19 +142,19 @@ FreeCAD bietet die Möglichkeit, uniforme oder nicht-uniforme B-Splines beliebig
 
 ### Erstellung
 
-Um B-Splines zu erstellen, gehe in eine Skizze und verwende die Werkzeugleistenschaltfläche **<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-spline erstellen](Sketcher_CreateBSpline/de.md)**. Dann Linksklick um einen Kontrollpunkt zu setzen, bewege die Maus Linksklick, um den nächsten Kontrollpunkt zu setzen und so weiter. Abschließend Rechtsklick, um die Definition abzuschließen und den B-Spline zu erstellen.
+Um B-Splines zu erstellen, gehe in eine Skizze und verwende die Werkzeugleistenschaltfläche **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-spline erstellen](Sketcher_CreateBSpline/de.md)**. Dann Linksklick um einen Kontrollpunkt zu setzen, bewege die Maus Linksklick, um den nächsten Kontrollpunkt zu setzen und so weiter. Abschließend Rechtsklick, um die Definition abzuschließen und den B-Spline zu erstellen.
 
 Standardmäßig werden gleichmäßige kubische Splines erstellt, es sei denn, es gibt nicht genügend Kontrollpunkte, um dies zu tun. Wenn du also einen B-Spline mit nur 2 Kontrollpunkten erstellst, erhältst du natürlich einen Spline, der eine einzelne lineare Bézierkurve ist, für 3 Kontrollpunkte erhältst du eine quadratische Bézierkurve, erst mit 5 Kontrollpunkten erhältst du einen kubischen B-Spline, der aus 2 Béziersegmenten besteht.
 
-Um periodische B-Splines (B-Splines, die eine geschlossene Kurve bilden) zu erstellen, verwende die Werkzeugleistenschaltfläche **<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Periodische B-spline](Sketcher_CreatePeriodicBSpline/de.md)**. Es ist nicht notwendig, den letzten Kontrollpunkt auf den ersten zu setzen, da der B-Spline automatisch geschlossen wird:
+Um periodische B-Splines (B-Splines, die eine geschlossene Kurve bilden) zu erstellen, verwende die Werkzeugleistenschaltfläche **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Periodische B-spline](Sketcher_CreatePeriodicBSpline/de.md)**. Es ist nicht notwendig, den letzten Kontrollpunkt auf den ersten zu setzen, da der B-Spline automatisch geschlossen wird:
 
 ![](images/Sketcher_Periodic-B-spline-creation.gif )
 
-B-Splines können auch aus bestehenden Skizzen Segmenten erzeugt werden. Markiere dazu die Elemente und drücke den Werkzeugleistenknopfltfläche **<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Geometrie in B-Spline umwandeln](Sketcher_BSplineApproximate/de.md)**.
+B-Splines können auch aus bestehenden Skizzen Segmenten erzeugt werden. Markiere dazu die Elemente und drücke den Werkzeugleistenknopfltfläche **[<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Geometrie in B-Spline umwandeln](Sketcher_BSplineApproximate/de.md)**.
 
 ### Ändern des Grads 
 
-Um den Grad zu ändern, wähle den B-Spline und verwende entweder die Werkzeugleistenschaltfläche **<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> <img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:B-Spline-Grad erhöhen](Sketcher_BSplineIncreaseDegree.md)** oder **[24px"> [B-Spline-Grad vermindern](Sketcher_BSplineDecreaseDegree/de.md)**.
+Um den Grad zu ändern, wähle den B-Spline und verwende entweder die Werkzeugleistenschaltfläche **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> [B-Spline-Grad erhöhen](Sketcher_BSplineIncreaseDegree.md)** oder **[<img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:24px"> [B-Spline-Grad vermindern](Sketcher_BSplineDecreaseDegree/de.md)**.
 
 **Hinweis:** Das Verringern des Grads kann eine vorherige Erhöhung des Grads nicht rückgängig machen, siehe die Wiki Seite [B-spline Grad vermindern](Sketcher_BSplineDecreaseDegree/de.md) für eine Erklärung.
 
@@ -162,7 +162,7 @@ Um den Grad zu ändern, wähle den B-Spline und verwende entweder die Werkzeugle
 
 Die Punkte, an denen zwei Bézierkurven miteinander verbunden werden, um den B-Spline zu bilden, werden Knoten genannt. Die Knotenmultiplikation bestimmt, wie die Bézier Teile verbunden werden, siehe die Wiki Seite [Knotenvielfalt erhöhen](Sketcher_BSplineIncreaseKnotMultiplicity/de.md) für Details.
 
-Um die Knotenvielfalt zu ändern, verwende die Werkzeugleistenschaltflächen in der **<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:24px"> <img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:B-spline Knotenvielfalt erhöhen](Sketcher_BSplineIncreaseKnotMultiplicity/de.md)** oder **[24px"> [B-spline Knotenvielfalt vermindern](Sketcher_BSplineDecreaseKnotMultiplicity/de.md)**.
+Um die Knotenvielfalt zu ändern, verwende die Werkzeugleistenschaltflächen in der **[<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:24px"> [B-spline Knotenvielfalt erhöhen](Sketcher_BSplineIncreaseKnotMultiplicity/de.md)** oder **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:24px"> [B-spline Knotenvielfalt vermindern](Sketcher_BSplineDecreaseKnotMultiplicity/de.md)**.
 
 **Hinweis:** Das Erstellen von zwei B-Splines, die miteinander verbunden sind, wird sich nicht zu einem einzigen neuen B-Spline vereinigen. Ihr Verbindungspunkt ist also kein Knoten. Die einzige Möglichkeit, einen neuen Knoten in einem bestehenden B-Spline zu erhalten, besteht darin, den Grad zu verringern. Dabei können jedoch viele neue Knoten entstehen. Daher ist es besser, den B-Spline mit mehr Kontrollpunkten neu zu zeichnen.
 
@@ -192,23 +192,23 @@ Da die Form eines B-Splines nicht viel über seine Eigenschaften aussagt, bietet
 | Eigenschaft         | Werkzeugleistenschaltfläche                                                                                                                        |
 +---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Grad**            |                                                                                                                                     |
-|                     | **<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [B-Spline-Grad anzeigen/ausblenden](Sketcher_BSplineDegree/de.md)**                                |
+|                     | **[<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [B-Spline-Grad anzeigen/ausblenden](Sketcher_BSplineDegree/de.md)**                                |
 |                     |                                                                                                                                                 |
 +---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Kontrollpolygon** |                                                                                                                                     |
-|                     | **<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Kontrollpolygon für B-Spline anzeigen/ausblenden](Sketcher_BSplinePolygon/de.md)**               |
+|                     | **[<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Kontrollpolygon für B-Spline anzeigen/ausblenden](Sketcher_BSplinePolygon/de.md)**               |
 |                     |                                                                                                                                                 |
 +---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Krümmungskamm**   |                                                                                                                                     |
-|                     | **<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [B-Spline Krümmungskamm anzeigen/ausblenden](Sketcher_BSplineComb/de.md)**                           |
+|                     | **[<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [B-Spline Krümmungskamm anzeigen/ausblenden](Sketcher_BSplineComb/de.md)**                           |
 |                     |                                                                                                                                                 |
 +---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Knotenvielfalt**  |                                                                                                                                     |
-|                     | **<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [B-Spline Knotenvielfalt anzeigen/ausblendenn](Sketcher_BSplineKnotMultiplicity/de.md)** |
+|                     | **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [B-Spline Knotenvielfalt anzeigen/ausblendenn](Sketcher_BSplineKnotMultiplicity/de.md)** |
 |                     |                                                                                                                                                 |
 +---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Gewichte**        |                                                                                                                                     |
-|                     | **<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Gewicht des B-Spline Kontrollpunkts anzeigen/ausblenden](Sketcher_BSplinePoleWeight/de.md)**  |
+|                     | **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Gewicht des B-Spline Kontrollpunkts anzeigen/ausblenden](Sketcher_BSplinePoleWeight/de.md)**  |
 |                     |                                                                                                                                                 |
 +---------------------+----------------------------------------------------------------------------------------------------------------------------------------------------+
 

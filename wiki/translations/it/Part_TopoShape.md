@@ -3,7 +3,7 @@
 
 ## Introduzione
 
-Una _ normalmente hanno una TopoShape.
+Una [Part TopoShape](Part_TopoShape.md), o formalmente una `Part::TopoShape`, è una classe che definisce una \"forma topologica\" parametrica nel software. Gli oggetti del documento che mostrano qualcosa nella [vista 3D](3D_view/it.md) normalmente hanno una TopoShape.
 
 
 <div class="mw-translate-fuzzy">
@@ -19,7 +19,7 @@ Another type of class is that of [meshes](Mesh.md); this class is not very param
 
 
 
-*Left: parametric _, defined by vertices and triangular surfaces.*
+*Left: parametric [Part TopoShape](Part_TopoShape.md) defined by properties. Right: non-parametric [mesh](Mesh.md), defined by vertices and triangular surfaces.*
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

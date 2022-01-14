@@ -10,7 +10,7 @@ Więcej opcji znajdziesz w [Złożenie 3](Assembly3_Workbench/pl.md) lub [Złoż
 
 [Złożenie 2](Assembly2_Workbench/pl.md) jest środowiskiem montażowym dla FreeCAD v0.15 z obsługą importu części z plików zewnętrznych.
 
-Jak podaje jego autor _.
+Jak podaje jego autor [na forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=16591), nie jest on już utrzymywany od 2016 roku, dlatego może mieć problemy z FreeCAD od wersji **0.17**. Dobrą alternatywą jest nowszy i aktywnie utrzymywany [A2plus](A2plus_Workbench/pl.md).
 
 ![](images/Assembly2_example.jpg )
 
@@ -145,7 +145,7 @@ Aby wykonać aktualizację do najnowszej wersji, należy usunąć folder assembl
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Assembly2 Workbench/pl

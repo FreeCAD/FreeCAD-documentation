@@ -49,11 +49,11 @@ This macro can rotate the screen in a defined angle and the defined axis and cre
         rayon = 20                            # Radius of plane
 ```
 
--    **<img src=images/FCCamera_07.png style="width:24px"> Reset.**: Reset all values.
+-    **[<img src=images/FCCamera_07.png style="width:24px"> Reset.**: Reset all values.
 
--    ** <img src=images/FCCamera_00.png style="width:24px"> Photo.**: Section save the screen rotation an image in angle value
+-    ** [<img src=images/FCCamera_00.png style="width:24px"> Photo.**: Section save the screen rotation an image in angle value
 
--    ** <img src=images/FCCamera_08.png style="width:24px"> Quit.**: Quit FCCamera.
+-    ** [<img src=images/FCCamera_08.png style="width:24px"> Quit.**: Quit FCCamera.
 
 ## Section Photo 
 
@@ -103,11 +103,11 @@ This macro can rotate the screen in a defined angle and the defined axis and cre
     -   White : save image with the screen colour white
     -   Black : save image with the screen colour black
 
--    **<img src=images/FCCamera_00.png style="width:24px"> Launch**: Open the file window , give the name and the path
+-    **[<img src=images/FCCamera_00.png style="width:24px"> Launch**: Open the file window , give the name and the path
 
--    **<img src=images/FCCamera_07.png style="width:24px"> Reset**: Reset the default value
+-    **[<img src=images/FCCamera_07.png style="width:24px"> Reset**: Reset the default value
 
--    **<img src=images/FCCamera_00.png style="width:24px"> Return**: Quit the photo panel and return to FCCamera panel
+-    **[<img src=images/FCCamera_00.png style="width:24px"> Return**: Quit the photo panel and return to FCCamera panel
 
 
 

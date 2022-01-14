@@ -23,7 +23,7 @@ L\'outil **Symétrie** copie symétriquement des fonctions par rapport à un pla
 Pour créer une mise en miroir :
 
 1.  Sélectionnez la ou les fonctionnalités à mettre en miroir.
-2.  Appuyez sur le bouton **<img src=images/_PartDesign_Mirrored.svg style="width:24px"> '''Symétrie'''**.
+2.  Appuyez sur le bouton **[<img src=images/_PartDesign_Mirrored.svg style="width:24px"> '''Symétrie'''**.
 3.  Si vous avez plusieurs fonctionnalités dans la mise en miroir, leur ordre peut être important, voir par exemple l\'image dans la [PartDesign Répétition circulaire](PartDesign_PolarPattern/fr#Utilisation.md). {{Version/fr|0.19}}, vous pouvez changer l\'ordre en faisant glisser la fonction dans la liste et vous verrez le résultat immédiatement en aperçu.
 4.  Définissez le miroir **Plan**. Voir [Options](#Options.md).
 5.  Appuyez sur **OK**.

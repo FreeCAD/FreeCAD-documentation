@@ -26,7 +26,7 @@
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Plot](Category_Plot.md)
 
 ---
 [documentation index](../README.md) > [Plot](Category_Plot.md) > Artwork Plot/ru

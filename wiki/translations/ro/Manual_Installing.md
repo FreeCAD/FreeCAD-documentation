@@ -81,7 +81,7 @@ Pe cele mai moderne distribuții Linux (Ubuntu, Fedora, OpenSUSE, Debian, Mint, 
 
 **Căi alternative**
 
-Una dintre bucuriile mari de a utiliza Linux este multitudinea de posibilități de a personaliza software-ul dvs., așa că nu vă abțineți. Sub Ubuntu și derivatele sale, FreeCAD poate fi de asemenea instalat de la _.
+Una dintre bucuriile mari de a utiliza Linux este multitudinea de posibilități de a personaliza software-ul dvs., așa că nu vă abțineți. Sub Ubuntu și derivatele sale, FreeCAD poate fi de asemenea instalat de la [PPA](https://launchpad.net/~freecad-maintainers) fiind menținut de către comunitatea FreeCAD (conține și ambele versiuni și cea stabilă și cea în curs de dezvoltare) . În Fedora, versiunile recente de dezoltare a FreeCAD pot fi instalate de pe [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/), și deoarece acest lucru este un software open source, puteți, de asemenea, cu ușurință [compile FreeCAD yourself](Compiling.md).
 
 ### Instalaarea pe Mac OS 
 
@@ -130,7 +130,7 @@ Odată ce ați instalat FreeCAD, este posibil să doriți să îl deschideți ș
 <div class="mw-translate-fuzzy">
 
 1.  **Language**: FreeCAD va prelua aatomat limba sistemul dvs de operare, dar dacă vreți să puteți schimba asta. FreeCAD este aproape în întregime tradus în 5 sau 6 limbi, plus multe altele care în prezent sunt doar parțial traduse. Puteți ușor:[help to translate FreeCAD](https://crowdin.com/project/freecad). ![](images/Freecad-basic-options01.jpg )
-2.  **Auto-load module**: În mod normal, FreeCAD va începe să vă afișeze pagina centrului de start. Puteți trece peste acest lucru și puteți începe o sesiune FreeCAD direct în atelierul de lucru ales de dumneavoastră._.
+2.  **Auto-load module**: În mod normal, FreeCAD va începe să vă afișeze pagina centrului de start. Puteți trece peste acest lucru și puteți începe o sesiune FreeCAD direct în atelierul de lucru ales de dumneavoastră.[Workbenches](Workbenches.md) va fi explicat în detaliu în [next chapter](Manual_The_FreeCAD_Interface.md).
 3.  **Create document at startup**: Combinat cu opțiunea de mai sus, acest lucru pornește FreeCAD gata de muncă. ![](images/Freecad-basic-options02.jpg )
 4.  **Storage options**: Ca orice aplicație complexă, FreeCAD ar putea să se prăbușească din când în când. Aici puteți configura câteva opțiuni care vă vor ajuta să vă recuperați activitatea în caz de accident.
 5.  **Authoring and license**: Puteți defini setările implicite care vor fi utilizate pentru fișierele dvs. noi. Luați în considerare posibilitatea de a face ca fișierele dvs. să poată fi redistribuite chiar de la început,[copyleft](https://en.wikipedia.org/wiki/Copyleft) licențiate ca [Creative Commons](https://creativecommons.org/).
@@ -158,7 +158,7 @@ Pe masura ce proiectul FreeCAD si comunitatea sa cresc rapid si pentru ca este u
 
 1.  O bilbiotecă [Parts library](https://github.com/FreeCAD/FreeCAD-library), care conține toate tipurile de modele utile sau de modele create de utilizatorii FreeCAD care pot fi utilizate în mod gratuit în proiectele dvs. Biblioteca poate fi utilizată și accesată chiar de la instalarea FreeCAD.
 2.  O colecție de [collection of addons](https://github.com/FreeCAD/FreeCAD-addons), cea mai mare parte dintre ei ateliere adiționale, care extind funcționalitatea FreeCAD pentru anumite sarcini. Instrucțiuni pentru instalare sunt date separate pe fiecare pagină complementară de addon.
-3.  O colecție _ cu documentație despre cum se utilizeză. Wikipedia conține mult mai multe macrocomenzi.
+3.  O colecție [collection of macros](https://github.com/FreeCAD/FreeCAD-macros), care este de asemenea disponibilă [on the FreeCAD wiki](Macros_recipes.md) cu documentație despre cum se utilizeză. Wikipedia conține mult mai multe macrocomenzi.
 
 
 </div>
@@ -192,7 +192,7 @@ If you are using the Ubuntu operating system, some of the addons above are also 
 
 </div>
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Manual:Installing/ro

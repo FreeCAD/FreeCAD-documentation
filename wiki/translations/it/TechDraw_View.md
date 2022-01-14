@@ -25,7 +25,7 @@ Lo strumento Vista aggiunge in una pagina di disegno una rappresentazione di uno
 
 <div class="mw-translate-fuzzy">
 
--   Vista disegna qualsiasi cosa che abbia una proprietà `Shape`. È anche possibile selezionare oggetti _ o di un [Grouppo](Std_Group/it.md).
+-   Vista disegna qualsiasi cosa che abbia una proprietà `Shape`. È anche possibile selezionare oggetti [Draft](Draft_Workbench/it.md) o [Corpi di PartDesign](PartDesign_Body/it.md). Vista estrae anche qualsiasi forma dagli oggetti all\'interno di un contenitore [App::Part](Std_Part/it.md) o di un [Grouppo](Std_Group/it.md).
 
 
 </div>

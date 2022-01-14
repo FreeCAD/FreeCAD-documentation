@@ -11,7 +11,7 @@ Lo strumento Scheda consente di creare e compilare automaticamente un [foglio di
 
 <div class="mw-translate-fuzzy">
 
-Per una soluzione più generale, consultare il _. Questo ambiente utilizza la sintassi SQL per estrarre informazioni dal documento.
+Per una soluzione più generale, consultare il [Reporting Workbench](https://github.com/furti/FreeCAD-Reporting/tree/master) nell\'elenco degli [ambienti esterni](external_workbenches/it.md). Questo ambiente utilizza la sintassi SQL per estrarre informazioni dal documento.
 
 
 </div>

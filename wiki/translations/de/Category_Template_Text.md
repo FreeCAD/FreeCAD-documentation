@@ -7,9 +7,9 @@ Längere Textteile sollten auf der Seite selbst platziert werden, damit sie mit 
 
 ### Contents:
 
-_ , _ , _ , _
+[Template:Obsolete/de](Template:Obsolete/de.md) , [Template:Version/de](Template:Version/de.md) , [Template:VersionMinus/de](Template:VersionMinus/de.md) , [Template:VersionPlus/de](Template:VersionPlus/de.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Template/de](<img src="images/Property.png" style="width:16px"> Template/de.md)
 
 ---
 [documentation index](../README.md) > Category:Template:Text/de

@@ -42,7 +42,7 @@ Sobald jedoch ein [Arbeitsbereich](Workbenches/de.md) geladen ist, gibt es zusä
 
 -    {{MenuCommand/de|[Zeichenstil](Std_DrawStyle/de.md)}}: wie es ist, flache Linien, schattiert, Drahtgitter, Punkte, versteckte Linie, keine Schattierung.
 
--    {{MenuCommand/de|_, [Front](Std_ViewFront/de.md), [Top](Std_ViewTop/de.md), [Right](Std_ViewRight/de.md), [Rear](Std_ViewRear/de.md), [Bottom](Std_ViewBottom/de.md), [Links](Std_ViewLeft/de.md), [Links drehen](Std_ViewRotateLeft/de.md), [Rechts drehen](Std_ViewRotateRight/de.md).
+-    {{MenuCommand/de|[Standardansichten](Std_View_Menu/de.md)}}: [Isometrisch](Std_ViewIsometric/de.md), [Front](Std_ViewFront/de.md), [Top](Std_ViewTop/de.md), [Right](Std_ViewRight/de.md), [Rear](Std_ViewRear/de.md), [Bottom](Std_ViewBottom/de.md), [Links](Std_ViewLeft/de.md), [Links drehen](Std_ViewRotateLeft/de.md), [Rechts drehen](Std_ViewRotateRight/de.md).
 
 -    {{MenuCommand/de|Messung}}: [Toggle Messung](View_Measure_Toggle_All/de.md), [clear measurement](View_Measure_Clear_All/de.md).
 
@@ -56,11 +56,11 @@ Zum Beispiel mit dem [Part Arbeitsbereich](Part_Workbench/de.md) und ein Objekt 
 
 -    {{MenuCommand/de|[Sichtbarkeit umschalten](Std_ToggleVisibility/de.md)}}: macht das Objekt in der 3D Ansicht sichtbar oder unsichtbar.
 
--    {{MenuCommand/de|_.
+-    {{MenuCommand/de|[Wählbarkeit umschalten](Std_ToggleSelectability/de.md)}}: macht das Objekt in der 3D Ansicht nicht mehr auswählbar; verwende diesen Befehl erneut, um den Effekt aufzuheben. Es setzt die Parameter des Objekts. `Selectable` verweise auf `True` oder `False`. Ändere die Eigenschaft durch Umschalten {{PropertyView/de|Wählbar}} im [Eigenschaftseditor](property_editor/de.md).
 
--    {{MenuCommand/de|_ um das ausgewählte Objekt in der Hierarchie anzuzeigen.
+-    {{MenuCommand/de|[Gehe zu Auswahl](Std_TreeSelection/de.md)}}: erweitere die [Baumansicht](tree_view/de.md) um das ausgewählte Objekt in der Hierarchie anzuzeigen.
 
--    {{MenuCommand/de|_.
+-    {{MenuCommand/de|[Zufällige Farbe](Std_RandomColor/de.md)}}: weist dem Objekt eine zufällige Farbe zu. Es setzt die Parameter des Objekts. `ShapeColor` Attribut zu einem Tupel `(r,g,b)` mit 3 Zufalls Gleitkommas zwischen 0 und 1. Ändere die Eigenschaft durch Ändern von{{PropertyView/de|Form Farbe}} im [Eigenschaftseditor](property_editor/de.md).
 
 -    {{MenuCommand/de|[Löschen](Std_Delete/de.md)}}: entfernt das Objekt aus dem Dokument und aus der 3D Ansicht, indem es die `removeObject()` Methode des Dokuments aufruft.
 

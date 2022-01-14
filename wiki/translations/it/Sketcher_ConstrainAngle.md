@@ -36,9 +36,9 @@ Per applicare il vincolo angolo, si dovrebbe il seguire la seguente procedura:
 
 1.  Selezionare una, due o tre entità nello schizzo. La modalità sarà scelta in funzione della selezione.
 2.  Richiamare il comando in uno di questi modi:
-    -   Cliccare sull\'icona **<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Angolo** della barra degli strumenti.
+    -   Cliccare sull\'icona **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Angolo** della barra degli strumenti.
     -   Usare la scorciatoia da tastiera **A**.
-    -   Usare la voce **Sketch → Vincoli → <img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Angolo** dal menu principale.
+    -   Usare la voce **Sketch → Vincoli → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Angolo** dal menu principale.
 3.  Si apre una finestra di dialogo di modifica del dato.
 4.  Se necessario, modificare il valore. **Nota:** L\'angolo può essere inserito anche come una espressione che viene valutata e di cui viene memorizzato il risultato.
 5.  Fare clic su **OK**.

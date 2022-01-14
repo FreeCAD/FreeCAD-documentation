@@ -81,7 +81,7 @@ See the bug tracker for up to date information.
 
 }}  
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> User Documentation/it](<img src="images/Property.png" style="width:16px"> User_Documentation/it.md) [<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> TechDraw](Category_TechDraw.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Roadmap/it

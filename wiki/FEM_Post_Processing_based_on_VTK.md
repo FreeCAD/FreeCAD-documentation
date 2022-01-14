@@ -40,7 +40,7 @@ Medium
 
 ### Additional Information 
 
-_
+[<img src="images/Property.png" style="width:16px"> Google Summer of Code](Category_Google_Summer_of_Code.md)
 
 ---
 [documentation index](../README.md) > FEM Post Processing based on VTK

@@ -27,7 +27,7 @@ The GuiCommand is named in a certain way: *ModuleName\_CommandName* e.g \"Base\_
 
 <div class="mw-translate-fuzzy">
 
-If the docu is not finished use _
+If the docu is not finished use [Template:UnfinishedDocu](Template_UnfinishedDocu.md)
 
 
 </div>
@@ -116,7 +116,7 @@ There are a lot of GuiCommands (tools) in FreeCAD which are experimental or used
 
 -   Comanda/Funcția trebuie să fie \'\'\' terminat \'\'\'. Nici o lucrare în desfășurare!
 -   Trebuie să aibă o \'\'\'pagină de ajutor \'\'\' ca de ex [Draft ShapeString](Draft_ShapeString.md)
-    -   Toate câmpurile din _ trebuie completate
+    -   Toate câmpurile din [Template: GuiCommand](Template__GuiCommand.md) trebuie completate
     -   O imagine a dialogurilor pe care comanda le obține în cele din urmă
     -   descrierea detaliată a comenzii și a tuturor parametrilor și setărilor acesteia
     -   Descrierea interfețelor și claselor legate de python cu exemple de cod

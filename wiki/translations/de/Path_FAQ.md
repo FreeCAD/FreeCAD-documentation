@@ -23,7 +23,7 @@ Alle Ergänzungen zum Arbeitsauftrag\--einschließlich Änderungen und Arbeitsga
 
 ## Was ist der Unterschied zwischen der lichten Höhe und der sicheren Höhe? 
 
-Genauere Informationen ist unter _ verfügbar.
+Genauere Informationen ist unter [Tiefen und Höhen](Template:Depths/Heights.md) verfügbar.
 
 [Anfang](#top.md)
 

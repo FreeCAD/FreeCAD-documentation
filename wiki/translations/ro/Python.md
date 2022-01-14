@@ -13,7 +13,7 @@ FreeCAD a fost proiectat inițial pentru a lucra cu Python 2. Multe funcții luc
 
 {{TOCright}}
 
-_.
+[Python](https://www.python.org) este un limbaj de programare cu scop general, care este foarte frecvent utilizat în aplicații mari pentru a automatiza anumite sarcini prin crearea de scripturi sau [macros](macros/ro.md).
 
 În programul FreeCAD, codul Python poate fi folosit pentru a crea diverse elemente programabil, fără a fi nevoie să faceți clic pe interfața grafică a utilizatorului. În plus, multe instrumente și ateliere de lucru ale programului FreeCAD sunt programate în Python.
 
@@ -145,7 +145,7 @@ Structure = Arch.make_structure(Wire, name="Big pillar")
 
 }}
 
-_ _ _ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Python/ro

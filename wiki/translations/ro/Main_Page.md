@@ -3,7 +3,7 @@
 
 ## Introducere
 
-Iată documentaţia referitoare la _!
+Iată documentaţia referitoare la [FreeCAD](http://www.freecadweb.org). Vi se oferă două căi ca s-o parcurgeţi: fie prin explorarea *hub*-urilor utilizatorilor, fie cu ajutorul manualului. Este un proiect în derulare, întocmit de comunitatea utilizatorilor şi dezvoltatorilor FreeCAD. Dacă veţi găsi informaţii greşite sau lipsă, vă rugăm [help FreeCAD](Special:MyLanguage/help_FreeCAD.md)!
 
 
 </div>
@@ -34,7 +34,7 @@ Iată documentaţia referitoare la _!
 
 <div class="mw-translate-fuzzy">
 
-<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> _ reprezintă o altă cale, mult mai fluentă, de a prezenta informaţiile cuprinse în acest ghid wiki. E gândit să fie citit precum o carte şi prezintă în mod accesibil numeroase alte pagini din *hub*-urile de mai sus. Sunt de asemenea accesibile [versiunile ebook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details), precum şi [câteva traduceri în formatul PDF](https://www.freecadweb.org/manual/). 
+<img alt="" src=images/Crystal_Clear_manual.png  style="width:64px;"> [Manualul FreeCAD](Manual_Introduction.md) reprezintă o altă cale, mult mai fluentă, de a prezenta informaţiile cuprinse în acest ghid wiki. E gândit să fie citit precum o carte şi prezintă în mod accesibil numeroase alte pagini din *hub*-urile de mai sus. Sunt de asemenea accesibile [versiunile ebook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details), precum şi [câteva traduceri în formatul PDF](https://www.freecadweb.org/manual/). 
 
 
 
@@ -86,7 +86,7 @@ Pagina [help FreeCAD/ro](help_FreeCAD/ro.md) descrie asta mult mai detaliat. În
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD poate fi compilat pe toate platformele utilizând _, _, și [documented on the wiki](Source_documentation.md).
+FreeCAD poate fi compilat pe toate platformele utilizând [1](https://cmake.org/CMake). Codul sursă este sub licență [LGPL](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License)-și este găzduit pe site-ul [GitHub](https://github.com/FreeCAD/FreeCAD). Aici sunt instrucțiuni de compilare pentru [Windows](Compile_on_Windows.md), [Unix/Linux](Compile_on_Linux.md) și [MacOSX](Compile_on_MacOS.md). Documentația codului sursă este [hosted here](http://www.freecadweb.org/api/), generat de către [Doxygen](Doxygen.md), și [documented on the wiki](Source_documentation.md).
 
 
 </div>
@@ -104,7 +104,7 @@ Verificați foaia de parcurs [Development roadmap](Development_roadmap.md) pentr
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Main Page/ro

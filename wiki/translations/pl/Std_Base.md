@@ -60,7 +60,7 @@ Istnieje 7 standardowych pod-menu. Każde podmenu ma dedykowaną stronę. Wystar
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Base/pl

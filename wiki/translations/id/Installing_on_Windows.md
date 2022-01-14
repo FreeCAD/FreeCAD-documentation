@@ -193,7 +193,7 @@ You can install the windows version of FreeCAD on a Linux system using *CXOffice
 msiexec /i Y:\\software\\FreeCAD<version>.msi
 ```
 
-FreeCAD is running, but it has been reported that the OpenGL display does not work, like with other programs running under _ i.e. Google _.
+FreeCAD is running, but it has been reported that the OpenGL display does not work, like with other programs running under [Wine](wikipedia:Wine_(software).md) i.e. Google [SketchUp](wikipedia_SketchUp.md).
 
 ---
 [documentation index](../README.md) > Installing on Windows/id

@@ -30,7 +30,7 @@ Instrumentul Schedule vă permite să creați automat și să populați automat 
 
 </div>
 
-For a more general solution, see the _. This workbench uses SQL syntax to extract information from the document.
+For a more general solution, see the [Reporting Workbench](https://github.com/furti/FreeCAD-Reporting/tree/master) in the list of [external workbenches](External_workbenches.md). This workbench uses SQL syntax to extract information from the document.
 
 
 <div class="mw-translate-fuzzy">

@@ -3,7 +3,7 @@
 
 <img alt="" src=images/Link.svg  style="width:32px;">
 
-An _ from smaller subassemblies, and from multiple reusable components like screws, nuts, and similar fasteners.
+An [App Link](App_Link.md), or formally an `App::Link`, is a type of object that references or links to another object, in the same document, or in another document. It is especially designed to efficiently duplicate a single object multiple times, which helps with the creation of complex [assemblies](assembly.md) from smaller subassemblies, and from multiple reusable components like screws, nuts, and similar fasteners.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -14,13 +14,13 @@ An _ from smaller subassemblies, and from multiple reusable components like scre
 ## Usage
 
 1.  Select an object in the [tree view](tree_view.md) or [3D view](3D_view.md) for which you wish to create a Link.
-2.  Press the **<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)** button. The produced object has the same icon as the original object, but has an arrow overlay indicating it is a Link.
+2.  Press the **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)** button. The produced object has the same icon as the original object, but has an arrow overlay indicating it is a Link.
 
 See the [Std LinkMake](Std_LinkMake.md) page for the complete information, including its use in [Scripting](Std_LinkMake#Scripting.md).
 
 ## Properties
 
-An _ (`App::DocumentObject` class), therefore it shares most of the latter\'s properties.
+An [App Link](App_Link.md) (`App::Link` class) is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class), therefore it shares most of the latter\'s properties.
 
 See the full list of properties in the [Std LinkMake](Std_LinkMake.md) page.
 

@@ -105,7 +105,7 @@ Kilka narzędzi z innych środowisk pracy może być używanych do dodawania otw
 
 ### Rozłóż blaszany element 
 
-Aby rozłożyć obiekt z blachy aktywuj narzędzie <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> _.
+Aby rozłożyć obiekt z blachy aktywuj narzędzie <img alt="" src=images/SheetMetal_Unfold.svg  style="width:24px;"> [Rozłóż](SheetMetal_Unfold/pl.md) lub <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:24px;">[Rozłóż bezobsługowo](SheetMetal_UnattendedUnfold/pl.md).
 
 Wynikiem będzie obiekt 3D z opcjonalnym szkicem konturowym zawierającym linie zgięcia.
 
@@ -240,7 +240,7 @@ Jak to zrobić?
 -   Oficjalny blog: [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Kod źródłowy na githubie: <https://github.com/shaise/FreeCAD_SheetMetal>
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal Workbench/pl

@@ -34,7 +34,7 @@ Il modo più semplice per installare PySide è attraverso il gestore dei pacchet
 
 ##### Windows
 
-Il programma può essere scaricato da <http://qt-project.org/wiki/Category:LanguageBindings>::PySide::Downloads. Prima di installare PyQt4 è necessario installare le librerie Qt e SIP (operazioni da documentare).
+Il programma può essere scaricato da <http://qt-project.org/wiki/<img src="images/Property.png" style="width:16px"> LanguageBindings>::PySide::Downloads. Prima di installare PyQt4 è necessario installare le librerie Qt e SIP (operazioni da documentare).
 
 #### MacOSX
 
@@ -603,7 +603,7 @@ $ python setup.py install --prefix=/Applications/FreeCAD\ 0.16.6706.app/Contents
 
 <div class="mw-translate-fuzzy">
 
-IFCOpenShell è una libreria attualmente in fase di sviluppo, che permette di importare (e presto di esportare) file _ di FreeCAD è grado di rilevarlo e usarlo per importare i file IFC. Poiché ifcopenshell si basa su OpenCascade, come FreeCAD, la qualità della importazione è molto buona, producendo geometria solida di alta qualità.
+IFCOpenShell è una libreria attualmente in fase di sviluppo, che permette di importare (e presto di esportare) file [Industry foundation Classes (\*.IFC)](http://en.wikipedia.org/wiki/Industry_Foundation_Classes). IFC è una estensione per il formato STEP, e sta diventando lo standard nei processi di lavoro [BIM](http://en.wikipedia.org/wiki/Building_information_modeling). Quando ifcopenshell è installato correttamente nel vostro sistema, il [modulo Arch](Arch_Workbench/it.md) di FreeCAD è grado di rilevarlo e usarlo per importare i file IFC. Poiché ifcopenshell si basa su OpenCascade, come FreeCAD, la qualità della importazione è molto buona, producendo geometria solida di alta qualità.
 
 
 </div>
@@ -739,7 +739,7 @@ utils = LazyLoader('PathScripts', globals(), 'PathScripts.PathUtils')
 
  
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Python Code](Category_Python Code.md) > Extra python modules/it

@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento _, anziché semplici copie.
+Lo strumento [Serie di link su tracciato](Draft_PathLinkArray/it.md) posiziona copie di una forma selezionata lungo un percorso selezionato, che può essere una [polilinea](Draft_Wire/it.md), una [BSpline](Draft_BSpline/it.md) e bordi simili. Funziona come del normale strumento [Copie su tracciato](Draft_PathArray.md), ma questo strumento crea oggetti [App::Link](Std_LinkMake/it.md), anziché semplici copie.
 
 
 </div>

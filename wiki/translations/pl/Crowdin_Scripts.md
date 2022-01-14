@@ -90,7 +90,7 @@ Skrypt updatefromcrowdin.py ściąga zmiany z Crowdin do twojego lokalnego katal
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Crowdin Scripts/pl

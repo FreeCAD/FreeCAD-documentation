@@ -1,7 +1,7 @@
 # Manual:Creating interface tools/de
 {{Manual:TOC/de}}
 
-In den letzten beiden Kapiteln haben wir gesehen, wie man _ und _. Ein letztes Teil fehlt noch, um die volle Kontrolle über FreeCAD zu erhalten: Erstellen von Werkzeugen, die mit dem Benutzer interagieren.
+In den letzten beiden Kapiteln haben wir gesehen, wie man [Teilgeometrie erstellt](Manual:Creating_and_manipulating_geometry/de.md) und [parametrische Objekte erstellt](Manual:Creating_parametric_objects/de.md). Ein letztes Teil fehlt noch, um die volle Kontrolle über FreeCAD zu erhalten: Erstellen von Werkzeugen, die mit dem Benutzer interagieren.
 
 In vielen Situationen ist es nicht sehr benutzerfreundlich, ein Objekt mit Nullwerten zu konstruieren, wie wir es im vorigen Kapitel mit dem Rechteck getan haben, und den Benutzer dann aufzufordern, die Werte für Höhe und Breite im Eigenschaftenpaneel einzugeben. Dies funktioniert bei einer sehr kleinen Anzahl von Objekten, wird aber sehr mühsam, wenn du viele Rechtecke zu erstellen hast. Ein besserer Weg wäre es, die Werte für Höhe und Breite bereits beim Erstellen des Rechtecks angeben zu können.
 
@@ -134,7 +134,7 @@ Schliesslich vergiss nicht, dass es im FreeCAD Wiki im Abschnitt [Python Skripte
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Manual:Creating interface tools/de

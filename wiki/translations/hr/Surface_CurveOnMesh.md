@@ -11,13 +11,13 @@
 ## Opis
 
 
-**<img src=images/Surface_CurveOnMesh.svg style="width:16px"> [Surface CurveOnMesh](Surface_CurveOnMesh.md)**
+**[<img src=images/Surface_CurveOnMesh.svg style="width:16px"> [Surface CurveOnMesh](Surface_CurveOnMesh.md)**
 
 creates approximated spline segments on top of a selected [mesh](Mesh_Workbench.md).
 
-If the object is not a <img src=images/Mesh_FromPartShape.svg style="width:Mesh](Mesh.md), but a parametric [Shape](Shape.md) or surface, it must be converted first to a mesh using **[16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)**.
+If the object is not a [Mesh](Mesh.md), but a parametric [Shape](Shape.md) or surface, it must be converted first to a mesh using **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)**.
 
-These edges created on top of the mesh may be further used to re-create the surface in a parametric way by using tools such as **<img src=images/Surface_GeomFillSurface.svg style="width:16px"> <img src=images/Surface_Sections.svg style="width:GeomFillSurface](Surface_GeomFillSurface.md)** and **[16px"> [Sections](Surface_Sections.md)**.
+These edges created on top of the mesh may be further used to re-create the surface in a parametric way by using tools such as **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [GeomFillSurface](Surface_GeomFillSurface.md)** and **[<img src=images/Surface_Sections.svg style="width:16px"> [Sections](Surface_Sections.md)**.
 
 ![](images/Surface_CurveOnMesh_mesh_example.png ) ![](images/Surface_CurveOnMesh_example.png )
 
@@ -35,8 +35,8 @@ These edges created on top of the mesh may be further used to re-create the surf
 
 </div>
 
-1.  Make sure you have a <img src=images/Mesh_FromPartShape.svg style="width:mesh object](Mesh.md). This can be created by the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md), or by importing a mesh file type, like STL, [OBJ](Arch_OBJ.md), or [DAE](Arch_DAE.md). If a solid object or solid file type (STEP) is used, it can be converted to a mesh using **[16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)**.
-2.  Press **<img src=images/Surface_CurveOnMesh.svg style="width:16px"> [Curve on mesh](Surface_CurveOnMesh.md)**.
+1.  Make sure you have a [mesh object](Mesh.md). This can be created by the <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh Workbench](Mesh_Workbench.md), or by importing a mesh file type, like STL, [OBJ](Arch_OBJ.md), or [DAE](Arch_DAE.md). If a solid object or solid file type (STEP) is used, it can be converted to a mesh using **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)**.
+2.  Press **[<img src=images/Surface_CurveOnMesh.svg style="width:16px"> [Curve on mesh](Surface_CurveOnMesh.md)**.
 3.  Press **Start**.
 4.  Using the mouse pointer, pick points on the surface of the mesh in the [3D view](3D_view.md); pick as many points as necessary to draw a smooth preview line.
 5.  When enough points have been added, right click on the [3D view](3D_view.md) to open the context menu, and select **Create**. Depending on how smooth the original mesh is, one spline or multiple splines will be created in the [tree view](tree_view.md).
@@ -81,7 +81,7 @@ section:
 
 If {{CheckBox|FALSE|Spline approximation}} is unchecked, the [Curve on mesh](Surface_CurveOnMesh.md) tool creates a basic [Part Feature](Part_Feature.md).
 
-If {{CheckBox|TRUE|Spline approximation}} is checked, the <img src=images/Part_Spline.svg style="width:Curve on mesh](Surface_CurveOnMesh.md) tool creates a **_ (`Part::Feature` class), therefore it shares all the latter\'s properties.
+If {{CheckBox|TRUE|Spline approximation}} is checked, the [Curve on mesh](Surface_CurveOnMesh.md) tool creates a **[<img src=images/Part_Spline.svg style="width:16px"> [Part Spline](Part_Spline.md)** (`Part::Spline` class) which is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [Part Feature](Part_Feature.md), the Part Spline has the following properties in the [property editor](Property_editor.md).
 

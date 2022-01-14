@@ -31,7 +31,7 @@ Der <img alt="" src=images/Draft_Join.svg  style="width:24px;"> **Entwurf Verbin
 
 ## Skripten
 
-Siehe auch: _.
+Siehe auch: [Autogenerierte API Dokumentation](https://www.freecadweb.org/api) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Um Drähte zu verbinden, verwende die `join_wires` Methode ({{Version/de|0.19}}) des Moduls Entwurf. Diese Methode ersetzt die veraltete Methode `joinWires`. Diese Methode gibt `None` zurück.
 

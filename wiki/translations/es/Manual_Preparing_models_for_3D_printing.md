@@ -5,7 +5,7 @@ Uno de los principales usos de FreeCAD es producir objetos del mundo real. Estos
 
 Si has sido precavido al modelar, la mayor parte de las dificultades que puedes encontrar al imprimir tu modelo en 3D ya han sido evitadas. Esto implica básicamente:
 
--   Asegúrate de que tus objetos 3D son *sólidos*. Los objetos del mundo real son sólidos, el modelo 3D debe ser sólido también. Hemos visto en capítulos anteriores que FreeCAD te ayuda mucho en ese aspecto, y que el _ que es muy útil para comprobar posibles defectos.
+-   Asegúrate de que tus objetos 3D son *sólidos*. Los objetos del mundo real son sólidos, el modelo 3D debe ser sólido también. Hemos visto en capítulos anteriores que FreeCAD te ayuda mucho en ese aspecto, y que el [Ambiente de trabajo DiseñoPiezas](PartDesign_Workbench/es.md) te notificará si haces una operación que impide que tu modelo sea sólido. El [Ambiente de Trabajo Pieza](Part_Workbench/es.md) también contiene un <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> [Comprobar geometría](Part_CheckGeometry/es.md) que es muy útil para comprobar posibles defectos.
 -   Asegurarse de las **dimensiones** de sus objetos. Un milímetro será un milímetro en la vida real. Cada dimensión es importante.
 -   Controlar la **degradación**. Ningún sistema de impresión 3D o de fresado CNC puede tomar archivos FreeCAD directamente. La mayoría de ellos sólo entienden un lenguaje de máquina llamado [G-Code](https://es.wikipedia.org/wiki/G-code). El G-code tiene docenas de dialectos diferentes, cada máquina o proveedor suele tener el suyo propio. La conversión de tus modelos en G-Code puede ser fácil y automática, pero también puedes hacerlo manualmente, con un control total sobre la salida. En cualquier caso, es inevitable que se produzca alguna pérdida de calidad de tu modelo durante el proceso.
 
@@ -64,7 +64,7 @@ Una vez que hayas instalado tanto Cura como el Ambiente de trabajo Cura, podrás
 -   Cargar el archivo que contiene nuestro ladrillo Lego (se puede descargar al final del capítulo anterior)
 -   Pasar al [Ambiente de trabajo Cura](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin)
 -   Configurar el espacio de la impresora eligiendo el menú **Impresión 3D → Crear una definición de impresora 3D**. Como no vamos a imprimir de verdad, podemos dejar los ajustes como están. La geometría de la cama de impresión y el espacio disponible se mostrarán en la vista 3D.
--   Mueve el ladrillo Lego a un lugar adecuado, como el centro de la cama de impresión. Recuerda que los objetos de DiseñoPieza no se pueden mover directamente, por lo que tienes que mover su primer boceto (el primer rectángulo), o mover (e imprimir) una copia, que se puede hacer con la herramienta _.
+-   Mueve el ladrillo Lego a un lugar adecuado, como el centro de la cama de impresión. Recuerda que los objetos de DiseñoPieza no se pueden mover directamente, por lo que tienes que mover su primer boceto (el primer rectángulo), o mover (e imprimir) una copia, que se puede hacer con la herramienta [Pieza → Crear una copia simple](Part_SimpleCopy/es.md). La copia se puede mover, por ejemplo con <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Borrador → Mover](Draft_Move/es.md).
 -   Seleccionar el objeto a imprimir, y seleccionar el menú **Impresión 3D → Cortar con Cura Engine**.
 -   En el panel de tareas que se abrirá, asegúrate de que la ruta del ejecutable de Cura está correctamente configurada. Como no vamos a imprimir realmente, podemos dejar el resto de opciones como están. Pulse **Ok**\'. Se generarán dos archivos en el mismo directorio que tu archivo de FreeCAD, un archivo STL y un archivo G-code.
 
@@ -104,7 +104,7 @@ La generación de trayectorias de fresado CNC es otro tema demasiado extenso par
 
 ![](images/Exercise_path_04.jpg )
 
--   Ahora sólo queda unir estas dos operaciones en una. Esto se puede hacer con un _.
+-   Ahora sólo queda unir estas dos operaciones en una. Esto se puede hacer con un [Trayectoria Pedido](Path_Job/es.md). Pulse el botón <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Pedido](Path_Job/es.md).
 -   Poner la propiedad **Utilizar Colocaciones** del proyecto en True, porque hemos cambiado la colocación de las matrices, y queremos que eso se tenga en cuenta en el proyecto.
 -   En la vista de árbol, arrastre y suelte las dos matrices en el proyecto. Puedes reordenar las matrices dentro del proyecto si es necesario, haciendo doble clic.
 -   El proyecto puede ahora ser exportado a G-code, seleccionándolo, eligiendo el menú **Archivo -\> Exportar**, seleccionando el formato G-code, y en el diálogo emergente que se abrirá, seleccionando un script de post-procesamiento de acuerdo a su máquina.
@@ -134,7 +134,7 @@ Hay muchas aplicaciones disponibles para simular el corte real, una de ellas que
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Path](Category_Path.md) [<img src="images/Property.png" style="width:16px"> Mesh](Category_Mesh.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Path](Category_Path.md) > Manual:Preparing models for 3D printing/es

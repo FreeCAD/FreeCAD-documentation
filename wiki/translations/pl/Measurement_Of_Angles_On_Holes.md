@@ -24,10 +24,10 @@ Po drugie, do utworzenia linii środkowej można użyć następujących narzędz
 :   <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:24px;"> [Dodaj linię środkową pomiędzy 2 liniami](TechDraw_2LineCenterLine.md)
 
 <img alt="" src=images/TechDraw_Tutorial_2PointCenterLine_example.png  style="width:250px;"> 
-*Powyżej: utworzono za pomocą narzędzia <img src=images/TechDraw_2PointCenterLine.svg style="width:16px">, które tworzy linię środkową pomiędzy 2 punktami.*
+*Powyżej: utworzono za pomocą narzędzia [<img src=images/TechDraw_2PointCenterLine.svg style="width:16px">, które tworzy linię środkową pomiędzy 2 punktami.*
 
 <img alt="" src=images/TechDraw_Tutorial_2LineCenterLine_example.png  style="width:250px;"> 
-*Powyżej: utworzono za pomocą narzędzia <img src=images/TechDraw_2LineCenterLine.svg style="width:16px">, które tworzy linię środkową pomiędzy 2 liniami.*
+*Powyżej: utworzono za pomocą narzędzia [<img src=images/TechDraw_2LineCenterLine.svg style="width:16px">, które tworzy linię środkową pomiędzy 2 liniami.*
 
 W oknie dialogowym Widok złożony wybierz **Wyrównanie** dla osi poza osiami głównymi. \"Przedłużyć o\" oznacza długość linii środkowej wychodzącej poza linię detalu na rysunku. Przy pomocy opcji **Przesuń poziomo** i **Przesuń pionowo** linia środkowa może w razie potrzeby przesuwać się w kierunku poziomym lub pionowym. **Styl** oznacza kształt linii środkowej.
 

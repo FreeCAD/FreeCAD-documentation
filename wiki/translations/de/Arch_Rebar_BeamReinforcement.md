@@ -19,7 +19,7 @@ Das [Arch Balkenverstärkung](Arch_Rebar_BeamReinforcement/de.md)-Werkzeug ist a
 
 <div class="mw-translate-fuzzy">
 
-Dieser Befehl ist Teil der _ über das {{MenuCommand/de|Werkzeuge → Erweiterungsverwalter → Bewehrung}}-Menü installiert werden kann.
+Dieser Befehl ist Teil der [BewehrungsErweiterung](Reinforcement_Workbench/de.md), eines [externen Arbeitsbereichs](External_Workbenches.md), der mit dem <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Erweiterungsverwalter](Std_AddonMgr/de.md) über das {{MenuCommand/de|Werkzeuge → Erweiterungsverwalter → Bewehrung}}-Menü installiert werden kann.
 
 
 </div>
@@ -380,7 +380,7 @@ RebarGroup = TwoLeggedBeam.makeReinforcement(
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar BeamReinforcement/de

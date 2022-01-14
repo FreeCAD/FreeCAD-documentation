@@ -9,7 +9,7 @@ In the following example, we will create a couple of objects, retrieve some of t
 
 ### Reading properties 
 
--   Start by switching to the _, a <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> _.
+-   Start by switching to the [Part Workbench](Part_Workbench.md), and create a couple of objects: a <img alt="" src=images/Part_Box.svg  style="width:16px;"> [box](Part_Box.md), a <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [cylinder](Part_Cylinder.md) and a <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [sphere](Part_Sphere.md).
 -   Edit their **Placement** property (or use the <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Draft Move](Draft_Move.md) tool) to place them a little apart, so we can better see the effects of what we\'ll do:
 
 ![](images/Exercise_spreadsheet_01.jpg )
@@ -83,7 +83,7 @@ You can also give aliases to dimensional constraints (horizontal, vertical or di
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Using spreadsheets/en

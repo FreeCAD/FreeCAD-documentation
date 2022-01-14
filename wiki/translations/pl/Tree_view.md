@@ -84,7 +84,7 @@ Jeśli wybierzesz aktywny dokument i klikniesz prawym przyciskiem myszy, oprócz
 
 -    **Zaznacz do przeliczenia**: zaznacza wszystkie obiekty dokumentu jako zmodyfikowane i gotowe do [przeliczenia](Std_Refresh.md).
 
--    **_ w wybranym dokumencie.
+-    **[Utwórz grupę](Std_Group.md)**: Tworzy [grupę](Std_Group.md) w wybranym dokumencie.
 
 ### Zaznaczanie obiektów 
 
@@ -122,17 +122,17 @@ Jako przykład rozszerzenia menu kontekstowego, jeśli [sześcian](Part_Box/pl.m
 
 -    **[Ustaw kolory ...](Part_FaceColors/pl.md)**: ustawia kolor wybranych powierzchni obiektu.
 
--    **_.
+-    **[Przełącz widoczność](Std_ToggleVisibility/pl.md)**: sprawia, że obiekt jest widoczny lub niewidoczny w oknie [widoku 3D](3D_view/pl.md).
 
 -    **[Pokaż zaznaczone](Std_ShowSelection/pl.md)**: czyni zaznaczony obiekt widocznym.
 
 -    **[Ukryj zaznaczone](Std_HideSelection/pl.md)**: czyni zaznaczony obiekt niewidocznym.
 
--    **_.
+-    **[Przełącznik wyboru](Std_ToggleSelectability/pl.md)**: przełącza możliwość wyboru obiektu w oknie [widoku 3D](3D_view/pl.md).
 
 -    **[Wybierz wszystkie wystąpienia](Std_TreeSelectAllInstances.md)**: zaznacza wszystkie wystąpienia tego obiektu w widoku drzewa.
 
--    **_ odwołującą się do obiektu.
+-    **[Wyślij do konsoli Python](Std_SendToPythonConsole/pl.md)**: tworzy zmienną w [Konsoli Python](Python_console/pl.md) odwołującą się do obiektu.
 
 ### Operacje na klawiaturze 
 

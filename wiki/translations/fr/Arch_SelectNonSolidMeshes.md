@@ -11,7 +11,7 @@
 
 ## Description
 
-Cet outil identifie et sélectionne les objets mailles non solides (non-_.
+Cet outil identifie et sélectionne les objets mailles non solides (non-[manifold](http://fr.wikipedia.org/wiki/Vari%C3%A9t%C3%A9_%28g%C3%A9om%C3%A9trie%29)) dans un groupe sélectionné d\'objets <img alt="Mesh Workbench" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh](Mesh_Workbench/fr.md).
 
 ## Utilisation
 

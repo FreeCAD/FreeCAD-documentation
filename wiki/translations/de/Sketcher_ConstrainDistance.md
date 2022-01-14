@@ -28,16 +28,16 @@ Die **Beschränke Abstand** beschränkt die Länge einer Linie, den senkrechten 
 
 1.  Wähle zwei Punkte oder eine Linie oder einen Punkt und eine Linie.
 2.  Aufrufen des Befehls auf verschiedene Weise:
-    -   Drücke die **<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Abstand beschränken](Sketcher_ConstrainDistance/de.md)** Schaltfläche in der Skizzierer Werkzeugleiste.
+    -   Drücke die **[<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> [Abstand beschränken](Sketcher_ConstrainDistance/de.md)** Schaltfläche in der Skizzierer Werkzeugleiste.
     -   Verwende die **Shift** + **D** Tastaturkürzel. (**D**\' steht für **D**istance; engl.: Abstand)
-    -   Verwende den **Skizze → Skizziererbeschränkungen  → <img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Abstand beschränken** Eintrag aus dem oberen Menü.
+    -   Verwende den **Skizze → Skizziererbeschränkungen  → [<img src=images/Sketcher_ConstrainDistance.svg style="width:16px"> Abstand beschränken** Eintrag aus dem oberen Menü.
 3.  Ein Einblenddialogfeld wird geöffnet, um den Wert zu bearbeiten oder zu bestätigen. Drücken **OK**, um den Wert zu bestätigen.
 
 **Hinweis**: Das Beschränkungswerkzeug kann auch ohne vorherige Auswahl gestartet werden. Um den lotrechten Abstand zwischen einem Punkt und einer Linie zu setzen, muss der Punkt zuerst selektiert werden. Als Voreinstellung ist der Befehl im \"Continue Mode\", um neue Beschränkungen zu erstellen; drücke die rechte Maustaste oder **Esc** einmal zum Beenden des Befehls.
 
 ### Fingerzeig
 
-Falls anwendbar, erwäge bitte die Verwendung der **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> <img src=images/Sketcher_ConstrainDistanceY.svg style="width:Horizontaler Abstand](Sketcher_ConstrainDistanceX/de.md)** oder **[16px"> [Vertikaler Abstand](Sketcher_ConstrainDistanceY/de.md)** Beschränkungen stattdessen. Diese Beschränkungen sind robuster und schneller zu berechnen als das **BeschränkungAbstand** Werkzeug.
+Falls anwendbar, erwäge bitte die Verwendung der **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Horizontaler Abstand](Sketcher_ConstrainDistanceX/de.md)** oder **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Vertikaler Abstand](Sketcher_ConstrainDistanceY/de.md)** Beschränkungen stattdessen. Diese Beschränkungen sind robuster und schneller zu berechnen als das **BeschränkungAbstand** Werkzeug.
 
 ## Skripten
 

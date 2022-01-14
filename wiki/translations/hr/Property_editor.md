@@ -89,9 +89,9 @@ There are two types of feature properties accessible through tabs at the bottom 
 
 -    **Deviation**: Sets the accuracy of the polygonal representation of the model in the 3d view (tessellation). Lower values = better quality. The value is in percent of object\'s size (deviation in mm = (w+h+d)/3\*valueInPercent/100, where w,h,d are the bounding box dimensions).
 
--    **Display Mode**:Display mode of the feature, **Flat lines, Shaded, Wireframe, Points** _. (Default, **Flat lines**).
+-    **Display Mode**:Display mode of the feature, **Flat lines, Shaded, Wireframe, Points** [96px](IMAGE:Vue_DisplayModePartDesign_fr_00.png.md). (Default, **Flat lines**).
 
--    **Lighting**: Lighting **One side, Two side** _. (Default, **Two side**).
+-    **Lighting**: Lighting **One side, Two side** [96px](IMAGE:Vue_Lighting_fr_00.png.md). (Default, **Two side**).
 
 -    **Line Color**: Gives the color of the line (edges) (Default, **25, 25, 25**).
 
@@ -202,7 +202,7 @@ print(obj.Label)
 
 *View and Data tabs of the property editor, for a basic "App::FeaturePython" scripted object.*
 
-Most geometrical objects that can be created and displayed in the _ for the most basic properties that these objects have.
+Most geometrical objects that can be created and displayed in the [3D view](3D_view.md) are derived from a `Part::Feature`. See [Part Feature](Part_Feature.md) for the most basic properties that these objects have.
 
 For 2D geometry, most objects are derived from `Part::Part2DObject` (itself derived from `Part::Feature`) which is the base of [Sketches](Sketch.md), and most [Draft elements](Draft_Workbench.md). See [Part Part2DObject](Part_Part2DObject.md) for the most basic properties that these objects have.
 

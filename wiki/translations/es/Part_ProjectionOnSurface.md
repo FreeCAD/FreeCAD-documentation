@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-<img src=images/Draft_ShapeString.svg style="width:Pieza Proyección en superficie](Part_ProjectionOnSurface/es.md) se utiliza para proyectar una [Forma](Shape/es.md) sobre una superficie desde otra [Forma](Shape/es.md); puede utilizarse para proyectar un logo o un mensaje de texto (ver **[16px"> [Borrador Forma Cuerda](Draft_ShapeString/es.md)**) en superficies curvas para crear efectos interesantes.
+[Pieza Proyección en superficie](Part_ProjectionOnSurface/es.md) se utiliza para proyectar una [Forma](Shape/es.md) sobre una superficie desde otra [Forma](Shape/es.md); puede utilizarse para proyectar un logo o un mensaje de texto (ver **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Borrador Forma Cuerda](Draft_ShapeString/es.md)**) en superficies curvas para crear efectos interesantes.
 
 
 </div>
@@ -46,7 +46,7 @@ Esta herramienta puede proyectar toda la cara, o sólo un alambre o borde de una
 ## Utilización
 
 1.  Make sure you have at least two objects in your document; the \"source\" object that you wish to project, and the \"target\" object where the projection will be made.
-2.  Click on **<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Projection on surface](Part_ProjectionOnSurface.md)** to launch a [task panel](task_panel.md) with various options.
+2.  Click on **[<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Projection on surface](Part_ProjectionOnSurface.md)** to launch a [task panel](task_panel.md) with various options.
 3.  Click on **Select projection surface**, and then click on the \"target\" surface where the projection will be created.
 4.  Then click on the specific button to choose the type of subelement that you want to add to your projection object.
     -   
@@ -103,7 +103,7 @@ The projection algorithm sometimes is not able to create a valid projection face
 
 If this happens:
 
--   Check if your source face is valid; try running the **<img src=images/Part_CheckGeometry.svg style="width:16px"> [CheckGeometry](Part_CheckGeometry.md)** tool for clues.
+-   Check if your source face is valid; try running the **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [CheckGeometry](Part_CheckGeometry.md)** tool for clues.
 -   Check if the projection direction is valid. Can the source face be realistically projected onto the target surface? Would a straight projection hit the surface? Adjust the camera so that the source face is in front of the target surface, and try again.
 -   Try to use the {{RadioButton|TRUE|Show edges}} option. Are the edges projected correctly? Try to create a face with the edges by hand.
 

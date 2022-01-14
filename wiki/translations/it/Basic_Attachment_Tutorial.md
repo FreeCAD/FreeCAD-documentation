@@ -148,7 +148,7 @@ You can now pocket the sketch.
 
 ### A Step Further 
 
-Create the next sketch, the dimensions should be expressions (\"**Sketch.Constraints.width**\",\"**Sketch.Constraints.width/2**\") and it should be constrained to the origin at the vertex adjacent the hypotenuse and its shortest side. (In the empty sketch, if you are familiar with **<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [CarbonCopy](Sketcher_CarbonCopy.md)** you can use it to make a copy of the \'IsoscelesSketch\' sketch, and edit its parameters to suit.)
+Create the next sketch, the dimensions should be expressions (\"**Sketch.Constraints.width**\",\"**Sketch.Constraints.width/2**\") and it should be constrained to the origin at the vertex adjacent the hypotenuse and its shortest side. (In the empty sketch, if you are familiar with **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [CarbonCopy](Sketcher_CarbonCopy.md)** you can use it to make a copy of the \'IsoscelesSketch\' sketch, and edit its parameters to suit.)
 
 Rename the sketch RightAngleTriangleSketch.
 
@@ -200,7 +200,7 @@ Rename the sketch FinalSketch.
 
 ![centre\|FinalSketch](images/RightAngleTriangle.png )
 
-Note that FinalSketch has been constrained to the origin differently. Otherwise we could\'ve used **<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [CarbonCopy](Sketcher_CarbonCopy.md)**, but the sketch is only Three lines and five constraints.
+Note that FinalSketch has been constrained to the origin differently. Otherwise we could\'ve used **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [CarbonCopy](Sketcher_CarbonCopy.md)**, but the sketch is only Three lines and five constraints.
 
 Once again we need to hide the solid, in this case Pocket001, and make sure both sketches are visible for selection (BaseSketch and FinalSketch).
 

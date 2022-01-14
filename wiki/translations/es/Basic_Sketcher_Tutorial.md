@@ -14,7 +14,7 @@ Este tutorial fue escrito originalmente por Drei, y fue reescrito e ilustrado po
 
 Este tutorial pretende introducir al lector en el flujo de trabajo básico del <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md).
 
-El <img src=images/PartDesign_Pad.svg style="width:Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md) existe como un módulo independiente, por lo que puede ser utilizado para dibujar objetos genéricos en 2D (planos). Sin embargo, se utiliza principalmente junto con el <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo de DiseñoPiezas](PartDesign_Workbench/es.md). Un croquis cerrado se utiliza normalmente para crear una cara o un perfil que se extruirá en un [cuerpo](PartDesign_Body/es.md) sólido con una operación como **[16px"> [DiseñoPiezas Pastilla](PartDesign_Pad/es.md)**.
+El [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md) existe como un módulo independiente, por lo que puede ser utilizado para dibujar objetos genéricos en 2D (planos). Sin embargo, se utiliza principalmente junto con el <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente de trabajo de DiseñoPiezas](PartDesign_Workbench/es.md). Un croquis cerrado se utiliza normalmente para crear una cara o un perfil que se extruirá en un [cuerpo](PartDesign_Body/es.md) sólido con una operación como **[<img src=images/PartDesign_Pad.svg style="width:16px"> [DiseñoPiezas Pastilla](PartDesign_Pad/es.md)**.
 
 El lector practicará:
 
@@ -31,7 +31,7 @@ Para una descripción más profunda del croquizador, lee la [Referencia del croq
 
 ## Instalación
 
-1\. Abre FreeCAD, crea un nuevo documento vacío con **Archivo → <img src=images/Std_New.svg style="width:16px"> [Nuevo](Std_New/es.md)**.
+1\. Abre FreeCAD, crea un nuevo documento vacío con **Archivo → [<img src=images/Std_New.svg style="width:16px"> [Nuevo](Std_New/es.md)**.
 
 :   1.1. Cambie al [Ambiente de trabajo Croquizador](Sketcher_Workbench/es.md) desde el [selector ambiente de trabajo](Std_Workbench/es.md), o el menú **[Vista](Std_View_Menu/es.md) → Ambiente de trabajo → Croquizador**.
 
@@ -39,7 +39,7 @@ Algunas acciones para recordar:
 
 -   Pulsar el botón derecho del ratón, o pulsar **Esc** en el teclado una vez, para deseleccionar la herramienta activa en el modo de edición.
 -   Para salir del modo de edición de croquis, pulse el botón **Cerrado** en el [panel de tareas](task_panel/es.md), o pulse **Esc** dos veces en el teclado.
--   Para entrar de nuevo en el modo de edición, haz doble clic en el croquis en la <img src=images/Sketcher_EditSketch.svg style="width:vista de árbol](tree_view/es.md), o selecciónalo, y luego haz clic en el **[16px"> [Editar croquis](Sketcher_EditSketch/es.md)**.
+-   Para entrar de nuevo en el modo de edición, haz doble clic en el croquis en la [vista de árbol](tree_view/es.md), o selecciónalo, y luego haz clic en el **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Editar croquis](Sketcher_EditSketch/es.md)**.
 
 ## Crear un croquis 
 
@@ -71,7 +71,7 @@ la [vista de árbol](tree_view/es.md) cambiará al [panel de tareas](task_panel/
 :   3.3. Acércate al **origen** del croquis, el punto debe resaltar y cerca de tu cursor el <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [coincidente de restricción](Sketcher_ConstrainCoincident/es.md) aparecerá.
 :   3.4. Haga clic en el punto y mueva el puntero para empezar a dibujar una nueva línea a partir de él. Mueva el puntero para que la línea tenga una longitud de alrededor de {{Value|30 mm}}. No tiene que ser muy preciso en este paso; más tarde estableceremos la dimensión correcta.
 :   3.5. Repita este procedimiento cuatro veces más para colocar las líneas de construcción en forma de estrella. No te preocupes demasiado por su tamaño o posición, simplemente extiéndelas en los cuatro cuadrantes.
-:   3.6. Ahora sal del modo de construcción haciendo clic de nuevo en **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Conmutar construcción](Sketcher_ToggleConstruction/es.md)**.
+:   3.6. Ahora sal del modo de construcción haciendo clic de nuevo en **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Conmutar construcción](Sketcher_ToggleConstruction/es.md)**.
 
 
 **Nota:**
@@ -95,21 +95,21 @@ Mira las secciones **Restricciones** y **Elementos** para ver la nueva lista de 
 
 ## Geometría real 
 
-La geometría real debe hacer una forma cerrada si se va a utilizar como un perfil que pueda ser extruido por herramientas como **<img src=images/PartDesign_Pad.svg style="width:16px"> [DiseñoPiezas Pastilla](PartDesign_Pad/es.md)**.
+La geometría real debe hacer una forma cerrada si se va a utilizar como un perfil que pueda ser extruido por herramientas como **[<img src=images/PartDesign_Pad.svg style="width:16px"> [DiseñoPiezas Pastilla](PartDesign_Pad/es.md)**.
 
-Asegúrate de que no estás en modo construcción haciendo clic en **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Conmutar construcción](Sketcher_ToggleConstruction/es.md)**, si no has salido previamente de este modo.
+Asegúrate de que no estás en modo construcción haciendo clic en **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Conmutar construcción](Sketcher_ToggleConstruction/es.md)**, si no has salido previamente de este modo.
 
 ### Arcos exteriores 
 
 4\. Crea un círculo.
 
-:   4.1. Haz clic en **<img src=images/Sketcher_Circle.svg style="width:16px"> [Crear círculo](Sketcher_CreateCircle/es.md)**.
+:   4.1. Haz clic en **[<img src=images/Sketcher_Circle.svg style="width:16px"> [Crear círculo](Sketcher_CreateCircle/es.md)**.
 :   4.2. Haz clic en el **origen** del croquis para posicionar su punto central.
 :   4.3. Haga clic en cualquier lugar de la [Vista 3D](3D_view/es.md) para establecer el radio de la circunferencia como una distancia desde el origen. Que sea aproximadamente {{Value|8 mm}}. De nuevo, la dimensión se fijará más tarde.
 
 5\. Crea una serie de arcos.
 
-:   5.1. Haga clic en **<img src=images/Sketcher_Arc.svg style="width:16px"> [Crear arco](Sketcher_CreateArc/es.md)**.
+:   5.1. Haga clic en **[<img src=images/Sketcher_Arc.svg style="width:16px"> [Crear arco](Sketcher_CreateArc/es.md)**.
 :   5.2. Acércate al punto final de una de las líneas de construcción y haz clic sobre ella. Esto hará que el punto central del arco circular sea <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [coincidente](Sketcher_ConstrainCoincident/es.md) con el punto final de esta línea.
 :   5.3. Haga clic una vez en la [Vista 3D](3D_view/es.md) en un lugar arbitrario para establecer simultáneamente el radio del arco, y el primer punto final del mismo. Defina un radio aproximado de {{Value|8 mm}}.
 :   5.4. Mueva el puntero en sentido contrario a las agujas del reloj para trazar un arco cuya concavidad apunte hacia el origen del croquis. Haga clic para fijar el punto final del arco, definiendo un arco circular que barre aproximadamente {{Value|180°}} o media circunferencia.
@@ -125,7 +125,7 @@ Asegúrate de que no estás en modo construcción haciendo clic en **<img src=im
 
 6\. Crear un arco entre cada par de los anteriores O-arcos.
 
-:   6.1. Todavía con el **<img src=images/Sketcher_Arc.svg style="width:16px"> [Crear arco](Sketcher_CreateArc/es.md)** hierramenta activo, haz clic en algún lugar entre dos O-arcos pero más lejos del origen del croquis, para establecer el punto central de un nuevo arco.
+:   6.1. Todavía con el **[<img src=images/Sketcher_Arc.svg style="width:16px"> [Crear arco](Sketcher_CreateArc/es.md)** hierramenta activo, haz clic en algún lugar entre dos O-arcos pero más lejos del origen del croquis, para establecer el punto central de un nuevo arco.
 :   6.2. Haga clic en algún lugar cerca del punto final de un arco en O, y mueva el puntero para barrer otro arco que termine cerca de otro punto final de un arco en O diferente, como si tratara de unir los puntos finales. Esta vez la concavidad debe apuntar lejos del origen.
 :   6.3. Repite estos pasos, de modo que cada par de arcos en O tenga un nuevo arco entre ellos. Los llamaremos arcos I por arcos hacia adentro.
 
@@ -156,7 +156,7 @@ Hay dos tipos principales de restricciones:
 7\. Geometrically constrain the lines and arcs.
 
 :   7.1 Select all five construction lines. You only need to click once to select an element.
-:   7.2. Press **<img src=images/Constraint_EqualLength.svg style="width:16px"> [Equal length](Sketcher_ConstrainEqual.md)**.
+:   7.2. Press **[<img src=images/Constraint_EqualLength.svg style="width:16px"> [Equal length](Sketcher_ConstrainEqual.md)**.
 :   
     **Note:**this creates only four constraints. The constraints are chained, the first line has the same length as the second one, which has the same length as the third one, which again has the same length as the fourth one, which has the same length as the fifth one. So in this case, the first and the fifth have the same length.
 
@@ -165,7 +165,7 @@ Hay dos tipos principales de restricciones:
 
 
 :   7.3. Select all five O-arcs, those centered on an endpoint of a construction line.
-:   7.4. Press **<img src=images/Constraint_EqualLength.svg style="width:16px"> [Equal length](Sketcher_ConstrainEqual.md)**.
+:   7.4. Press **[<img src=images/Constraint_EqualLength.svg style="width:16px"> [Equal length](Sketcher_ConstrainEqual.md)**.
 :   7.5. Repeat with all I-arcs, those between the O-arcs.
 :   
     **Note:**again the constraints are chained. Therefore all O-arcs will have the same radius, and all I-arcs will have the same radius. At this moment, the specific value of these lengths is not fixed. You may use the pointer to drag a point and see how the sketch is updated while respecting the constraints in place.
@@ -175,7 +175,7 @@ Hay dos tipos principales de restricciones:
 
 
 :   7.6. Select the construction line that is closest to the vertical axis.
-:   7.7. Press **<img src=images/Constraint_Vertical.svg style="width:16px"> _ was already placed, keeping the construction line vertical. In this case, no additional <img alt="" src=images/Constraint_Vertical.svg  style="width:32px;"> [Vertical constraint](‎Sketcher_ConstrainVertical.md) is necessary.
+:   7.7. Press **[<img src=images/Constraint_Vertical.svg style="width:16px"> [Vertical](‎Sketcher_ConstrainVertical.md)** (optional). If you drew the construction line downwards over the Y axis, an automatic <img alt="" src=images/Constraint_PointOnObject.svg  style="width:32px;"> [Point on object constraint](Sketcher_ConstrainPointOnObject.md) was already placed, keeping the construction line vertical. In this case, no additional <img alt="" src=images/Constraint_Vertical.svg  style="width:32px;"> [Vertical constraint](‎Sketcher_ConstrainVertical.md) is necessary.
 
 
 **Note:**
@@ -185,7 +185,7 @@ as you add constraints, overlay symbols indicating the type of constraint appear
 
 **Note 2:**
 
-if you wish to temporarily disable the constraint, you may select it and press **<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Toggle active constraint](Sketcher_ToggleActiveConstraint.md)**. When you want to apply it again, press again the same button.
+if you wish to temporarily disable the constraint, you may select it and press **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Toggle active constraint](Sketcher_ToggleActiveConstraint.md)**. When you want to apply it again, press again the same button.
 
 <img alt="" src=images/05a_Sk01_Sketcher_equality_constraints_lines.png  style="width:" height="400px;"> <img alt="" src=images/05b_Sk01_Sketcher_equality_constraints_O-arcs.png  style="width:" height="400px;">
 
@@ -200,7 +200,7 @@ if you wish to temporarily disable the constraint, you may select it and press *
 8\. Apply tangency to the arcs.
 
 :   8.1. Select one endpoint of an O-arc and then the closest endpoint of the adjacent I-arc.
-:   8.2. Press **<img src=images/Constraint_Tangent.svg style="width:16px"> [Tangent](Sketcher_ConstrainTangent.md)**. This makes the two adjacent arcs connect smoothly at their endpoints.
+:   8.2. Press **[<img src=images/Constraint_Tangent.svg style="width:16px"> [Tangent](Sketcher_ConstrainTangent.md)**. This makes the two adjacent arcs connect smoothly at their endpoints.
 :   8.3. Repeat for all endpoints of the O-arcs and I-arcs to obtain a closed profile.
 
 
@@ -225,13 +225,13 @@ These constraints specify the numerical distances between two points, and angles
 9\. Adjust the size of the construction lines.
 
 :   9.1. Select the vertically constrained construction line.
-:   9.2. Press **<img src=images/Constraint_VerticalDistance.svg style="width:16px"> [Vertical distance](Sketcher_ConstrainDistanceY.md)**.
+:   9.2. Press **[<img src=images/Constraint_VerticalDistance.svg style="width:16px"> [Vertical distance](Sketcher_ConstrainDistanceY.md)**.
 :   9.3. Set the length to {{Value|30 mm}}. Because all construction lines are constrained to have the same length, all these lines adjust their sizes at the same time.
 
 10\. Adjust the angle between the construction lines.
 
 :   10.1. Select the vertical construction line and the construction line closest to it.
-:   10.2. Press **<img src=images/Constraint_InternalAngle.svg style="width:16px"> [Angle](Sketcher_ConstrainAngle.md)**.
+:   10.2. Press **[<img src=images/Constraint_InternalAngle.svg style="width:16px"> [Angle](Sketcher_ConstrainAngle.md)**.
 :   10.3. Set the angle to {{Value|72°}}.
 :   10.4. Repeat the same procedure for each pair of construction lines, and use the same angle.
 :   
@@ -248,10 +248,10 @@ These constraints specify the numerical distances between two points, and angles
 11\. Adjust the size of the arcs.
 
 :   11.1. Select one of the O-arcs, centered on the endpoint of a construction line.
-:   11.2. Press **<img src=images/Constraint_Radius.svg style="width:16px"> [Radius](Sketcher_ConstrainRadius.md)**.
+:   11.2. Press **[<img src=images/Constraint_Radius.svg style="width:16px"> [Radius](Sketcher_ConstrainRadius.md)**.
 :   11.3. Set the radius to {{Value|8 mm}}. Because all O-arcs are constrained to have the same radius, all these arcs adjust their sizes at the same time.
 :   11.4. Select one of the I-arcs, between two O-arcs.
-:   11.5. Press **<img src=images/Constraint_Radius.svg style="width:16px"> [Radius](Sketcher_ConstrainRadius.md)**.
+:   11.5. Press **[<img src=images/Constraint_Radius.svg style="width:16px"> [Radius](Sketcher_ConstrainRadius.md)**.
 :   11.6. Set the radius to {{Value|11 mm}}. Because all I-arcs are constrained to have the same radius, all these arcs adjust their sizes at the same time.
 
 <img alt="" src=images/08a_Sk01_Sketcher_radius_1_constraint.png  style="width:" height="400px;"> <img alt="" src=images/08b_Sk01_Sketcher_radius_2_constraint.png  style="width:" height="400px;">
@@ -261,7 +261,7 @@ These constraints specify the numerical distances between two points, and angles
 *Sketch with radius constraints applied to the outwards arcs (left), and inwards arcs (right).*
 
 
-:   11.7. Finally, select the circle in the center of the sketch, press **<img src=images/Constraint_Radius.svg style="width:16px"> [Radius](Sketcher_ConstrainRadius.md)**, and set the value to {{Value|8 mm}}.
+:   11.7. Finally, select the circle in the center of the sketch, press **[<img src=images/Constraint_Radius.svg style="width:16px"> [Radius](Sketcher_ConstrainRadius.md)**, and set the value to {{Value|8 mm}}.
 
 We should end up with a fully constrained sketch. It can be confirmed by noticing the change in color of the real geometry, and by the message that is shown in the [task panel](task_panel.md).
 
@@ -277,8 +277,8 @@ We should end up with a fully constrained sketch. It can be confirmed by noticin
 
 :   12.1. Salga del modo de edición del croquis pulsando el botón **Cerrar**, o pulsando **Esc** dos veces. El boceto debería aparecer en la [vista de árbol](tree_view/es.md) y en la [vista 3D](3D_view/es.md).
 :   12.2. Cambie al [Ambiente de trabajo DiseñoPieza](PartDesign_Workbench/es.md).
-:   12.3. Con el croquis seleccionado en la <img src=images/PartDesign_Body.svg style="width:vista de árbol](tree_view/es.md), pulse **[16px"> [DiseñoPieza Cuerpo](PartDesign_Body/es.md)**, elija el plano XY por defecto y pulse **OK**. El croquis debería aparecer ahora dentro del Cuerpo.
-:   12.4. Seleccione el croquis, y luego pulse **<img src=images/PartDesign_Pad.svg style="width:16px"> [DiseñoPieza Pastilla](PartDesign_Pad/es.md)**, elija las opciones por defecto y pulse **OK** para crear una extrusión sólida.
+:   12.3. Con el croquis seleccionado en la [vista de árbol](tree_view/es.md), pulse **[<img src=images/PartDesign_Body.svg style="width:16px"> [DiseñoPieza Cuerpo](PartDesign_Body/es.md)**, elija el plano XY por defecto y pulse **OK**. El croquis debería aparecer ahora dentro del Cuerpo.
+:   12.4. Seleccione el croquis, y luego pulse **[<img src=images/PartDesign_Pad.svg style="width:16px"> [DiseñoPieza Pastilla](PartDesign_Pad/es.md)**, elija las opciones por defecto y pulse **OK** para crear una extrusión sólida.
 
 <img alt="" src=images/09b_Sk01_Sketcher_fully_constrained_clean.png  style="width:" height="400px;"> <img alt="" src=images/10_Sk01_Sketcher_solid_extrusion.png  style="width:" height="400px;">
 

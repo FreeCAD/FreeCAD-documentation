@@ -14,7 +14,7 @@ The aim of this page is to gather ideas and organize things so official releases
 ## Planning
 
 -   Ideally official releases should happen each 3 to 6 months
--   A signal should be emitted (by _?) before the release (3 weeks?) so:
+-   A signal should be emitted (by [jriegel](User_Jriegel.md)?) before the release (3 weeks?) so:
     -   No more new feature gets introduced, only bug fixes
     -   The strings are collected and uploaded to crowdin for translation
     -   The documentation can be fully updated
@@ -52,7 +52,7 @@ Preparing FreeCAD for a release
 ## Release Day - 2 days 
 
 -   Update years in source files
--   Update the python API doc pages - _
+-   Update the python API doc pages - [yorik](User_Yorik.md)
 
 ## Release Day - 1 day 
 
@@ -221,11 +221,11 @@ Upload to SourceForge:
 
 1.  Update and/or check the current version in the wiki:
 
-    :   _ (currently no longer used)
-    :   _
-    :   _
-    :   _
-    :   _
+    :   [Template:Stable-Version](Template:Stable-Version.md) (currently no longer used)
+    :   [Template:Development-Version](Template:Development-Version.md)
+    :   [Template:DownloadWindowsStable](Template_DownloadWindowsStable.md)
+    :   [Template:DownloadLinuxStable](Template_DownloadLinuxStable.md)
+    :   [Template:DownloadMacStable](Template_DownloadMacStable.md)
     :   [Installing on Windows](Installing_on_Windows.md)
     :   [Installing on Linux](Installing_on_Linux.md)
     :   [Installing on Mac](Installing_on_Mac.md)
@@ -250,16 +250,16 @@ Upload to SourceForge:
 These are the tasks required for each release, with the name of the person responsible for it. Add your name if you want to take care of a task!
 
 -   Giving the signal to the release (3 weeks before?)
--   Gathering the strings to translate and uploading them on crowdin via _
--   Announce on the forum and on social networks that translation is needed (this needs to be done several times) - _
--   Set the splashscreen - _
+-   Gathering the strings to translate and uploading them on crowdin via [Crowdin Scripts](Crowdin_Scripts.md) - [yorik](User_Yorik.md)
+-   Announce on the forum and on social networks that translation is needed (this needs to be done several times) - [yorik](User_Yorik.md)
+-   Set the splashscreen - [yorik](User_Yorik.md)
 -   Unassigned - Update dependencies in README
 -   Unassigned - Change the version number in the FreeCAD code
 -   Unassigned - Check that all workbenches pages on the wiki are up-to-date (all their commands are listed), list missing pages
 -   Unassigned - Manage the updates of the wiki
 -   Unassigned - Manage the release notes (ex. [Release\_notes\_0.xx](Release_notes_0.xx.md))
 -   Unassigned - Update ChangeLog.txt (we refer people to mantisbt changelog)
--   Merge back the translations from crowdin - _
+-   Merge back the translations from crowdin - [yorik](User_Yorik.md)
 -   Unassigned - Check the german translation
 -   Unassigned - Check the french translation
 -   Unassigned - Check the other translations that have reached 100% (add them here)
@@ -281,8 +281,8 @@ These are the tasks required for each release, with the name of the person respo
 -   Unassigned - Communicate the release to package managers of linux distributions (debian, fedora, arch)
 -   Unassigned - Communicate the release to package managers of MacOS (homebrew, macports, fink)
 -   Unassigned - Communicate the release to package managers of Windows (chocolatey)
--   Update the release numbers on the tracker - _
--   Update the release numbers and download locations on the main web page for all languages - _
+-   Update the release numbers on the tracker - [yorik](User_Yorik.md)
+-   Update the release numbers and download locations on the main web page for all languages - [yorik](User_Yorik.md)
 -   Unassigned - Official release announcement on the FreeCAD web page
 -   Unassigned - Spread it around. see chapter Publicity
 -   Unassigned - Update the example splash for all \*.appdata.xml (ex. [FreeCAD/package/fedora/freecad.appdata.xml](https://github.com/FreeCAD/FreeCAD/blob/master/package/fedora/freecad.appdata.xml))
@@ -303,7 +303,7 @@ This is a raw list of sites and blogs that have at some point mentioned FreeCAD.
 ### Social networks 
 
 -   <http://plus.google.com/107660967460246172334/posts>
--   _ - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
+-   [yorik](User_Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
 
 ### News Sites 
 
@@ -338,7 +338,7 @@ This is a raw list of sites and blogs that have at some point mentioned FreeCAD.
 -   <http://www.techdrivein.com/>
 -   <http://sliptonic.com/>
 -   <http://opensourcedesigntools.blogspot.de/>
--   <http://yorik.uncreated.net> - _
+-   <http://yorik.uncreated.net> - [yorik](User_Yorik.md)
 
 ### French
 
@@ -374,7 +374,7 @@ This is a raw list of sites and blogs that have at some point mentioned FreeCAD.
 
 </div>
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md) [<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md)
 
 ---
 [documentation index](../README.md) > Release process

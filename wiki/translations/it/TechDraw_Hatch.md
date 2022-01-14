@@ -10,7 +10,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento Tratteggio da modello riempie una regione chiusa di una vista con un modello di tratteggio. I modelli possono essere in file formato _ utilizza un file di pattern PAT specifico, vedere i [tipi di tratteggio](TechDraw_Hatching/it.md) per i dettagli.
+Lo strumento Tratteggio da modello riempie una regione chiusa di una vista con un modello di tratteggio. I modelli possono essere in file formato [SVG](SVG/it.md) o [bitmap](bitmap/it.md). Al contrario lo strumento <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md) utilizza un file di pattern PAT specifico, vedere i [tipi di tratteggio](TechDraw_Hatching/it.md) per i dettagli.
 
 
 </div>

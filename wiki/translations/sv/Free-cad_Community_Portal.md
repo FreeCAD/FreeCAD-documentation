@@ -41,7 +41,7 @@ Feel free to add more pages or assign one or more pages to yourself to take care
 ### Social networks 
 
 -   <http://plus.google.com/107660967460246172334/posts>
--   _ - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
+-   [yorik](User_Yorik.md) - <http://www.facebook.com/FreeCAD> (also updates <http://twitter.com/FreeCADNews> automatically)
 
 ### News Sites 
 
@@ -76,7 +76,7 @@ Feel free to add more pages or assign one or more pages to yourself to take care
 -   <http://www.techdrivein.com/>
 -   <http://sliptonic.com/>
 -   <http://opensourcedesigntools.blogspot.de/>
--   _ - <http://yorik.uncreated.net>
+-   [yorik](User_Yorik.md) - <http://yorik.uncreated.net>
 
 ### French
 
@@ -119,7 +119,7 @@ Feel free to add more pages or assign one or more pages to yourself to take care
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation/sv](<img src="images/Property.png" style="width:16px"> Documentation/sv.md)
 
 ---
 [documentation index](../README.md) > Free-cad:Community Portal/sv

@@ -6,7 +6,7 @@
 L\'installation de FreeCAD sur les systèmes Linux les plus connus a maintenant été approuvée par la communauté, et FreeCAD devrait être directement disponible via le gestionnaire de paquets disponible sur votre distribution. L\'équipe FreeCAD propose également:
 
 -   Packages \"officiels\" lors de la sortie de nouvelles versions
--   Dépôts expérimentaux _ et [Ubuntu Snaps](Ubuntu_Snap/fr.md) pour tester les toutes dernières fonctionnalités.
+-   Dépôts expérimentaux [Personal Package Archive](https://help.ubuntu.com/community/PPA) (PPA), [AppImages](AppImage/fr.md) et [Ubuntu Snaps](Ubuntu_Snap/fr.md) pour tester les toutes dernières fonctionnalités.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -327,7 +327,7 @@ Plusieurs paquets FreeCAD non-officiels sont disponibles sur Internet, par exemp
 Si pour une raison ou une autre vous ne pouvez utiliser l\'une des méthodes sus-mentionnées, vous pouvez télécharger l\'un des paquets .deb disponibles sur la [page de téléchargements](Download/fr.md).
 {{DownloadLinuxStable}}
 
-Une fois que vous avez téléchargé le .deb correspondant à votre version système, si le paquet _ est installé, il suffit de vous rendre à l\'emplacement du fichier téléchargé, puis de double-cliquer dessus. Votre gestionnaire de paquets s\'occupera d\'installer automatiquement les dépendances nécessaires.
+Une fois que vous avez téléchargé le .deb correspondant à votre version système, si le paquet [Gdebi](wikipedia:Debian#GDEBI.md) est installé, il suffit de vous rendre à l\'emplacement du fichier téléchargé, puis de double-cliquer dessus. Votre gestionnaire de paquets s\'occupera d\'installer automatiquement les dépendances nécessaires.
 
 Sinon, vous pouvez aussi l\'installer par le terminal en allant à l\'emplacement du fichier puis en tapant :
 
@@ -372,7 +372,7 @@ Une fois FreeCAD installé, il est temps de [commencer](Getting_started/fr.md)!
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Installing on Linux/fr

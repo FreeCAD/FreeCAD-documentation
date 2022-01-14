@@ -221,7 +221,7 @@ Review: ( russ\_hensel, dec 2020, Version: 0.19.23141 (Git) )
 -   **[Best practice: fuselage + wing - FreeCAD Forum](https://forum.freecadweb.org/viewtopic.php?f=36&t=33113)**
 -   **[Some Tutorials on Methodology (v0.17) - Master Sketch, Skeleton Geometry, Spreadsheets - FreeCAD Forum](https://forum.freecadweb.org/viewtopic.php?f=36&t=43451)**
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Sandbox‏‎](<img src="images/Property.png" style="width:16px"> Sandbox‏‎.md) [<img src="images/Property.png" style="width:16px"> Spreadsheet‏‎](<img src="images/Property.png" style="width:16px"> Spreadsheet‏‎.md) [<img src="images/Property.png" style="width:16px"> Tutorials‏‎](<img src="images/Property.png" style="width:16px"> Tutorials‏‎.md)
 
 ---
 [documentation index](../README.md) > [Sandbox‏‎]]  ](Category_Sandbox‏‎]]  .md) > Best Practices with SpreadSheets

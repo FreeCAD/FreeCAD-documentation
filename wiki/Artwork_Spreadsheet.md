@@ -11,7 +11,7 @@ For all icons in the source tree, see [Artwork](Artwork.md).
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Spreadsheet](Category_Spreadsheet.md)
 
 ---
 [documentation index](../README.md) > [Spreadsheet](Category_Spreadsheet.md) > Artwork Spreadsheet

@@ -14,7 +14,7 @@ Dieses Tutorium wurde ursprünglich von Drei geschrieben, und es wurde von vocx 
 
 Dieses Tutorium soll den Leser in den grundlegenden Arbeitsablauf des <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) einführen.
 
-Der <img src=images/PartDesign_Pad.svg style="width:Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) existiert als eigenständiges Modul, so dass es zum Zeichnen von generischen 2D (planaren) Objekten verwendet werden kann. Es wird jedoch meistens in Verbindung mit dem <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) verwendet. Eine geschlossene Skizze wird normalerweise verwendet, um eine Fläche oder ein Profil zu erzeugen, die bzw. das mit einer Anwendung wie **[16px"> [PartDesign Polster](PartDesign_Pad/de.md)** in einen Volumenkörper extrudiert wird.
+Der [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) existiert als eigenständiges Modul, so dass es zum Zeichnen von generischen 2D (planaren) Objekten verwendet werden kann. Es wird jedoch meistens in Verbindung mit dem <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) verwendet. Eine geschlossene Skizze wird normalerweise verwendet, um eine Fläche oder ein Profil zu erzeugen, die bzw. das mit einer Anwendung wie **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Polster](PartDesign_Pad/de.md)** in einen Volumenkörper extrudiert wird.
 
 Der Leser wird üben:
 
@@ -31,7 +31,7 @@ Für eine genauere Beschreibung des Skizzierers, lese die [Skizzierer Referenz](
 
 ## Einrichtung
 
-1\. Öffne FreeCAD, erstelle ein neues leeres Dokument mit **Datei → <img src=images/Std_New.svg style="width:16px"> [Neu](Std_New/de.md)**.
+1\. Öffne FreeCAD, erstelle ein neues leeres Dokument mit **Datei → [<img src=images/Std_New.svg style="width:16px"> [Neu](Std_New/de.md)**.
 
 :   1.1. Wechsle zum [Skizzierer Arbeitsbereich](Sketcher_Workbench/de.md) über den [Arbeitsbereich Wähler](Std_Workbench/de.md) oder das Menü **[Ansicht](Std_View_Menu/de.md) → Arbeitsbereich → Skizzierer**.
 
@@ -39,7 +39,7 @@ Einige Aktivitäten zum Erinnern:
 
 -   Drücke die rechte Maustaste, oder drücke **Esc** einmal auf der Tastatur, um das aktive Werkzeug im Bearbeitungsmodus abzuwählen.
 -   Um den Skizzenbearbeitungsmodus zu verlassen, drücke die **Schließen** Schaltfläche im [Aufgabenpaneel](task_panel/de.md) oder drücke **Esc** zweimal auf der Tastatur.
--   Um den Bearbeitungsmodus erneut aufzurufen, doppelklicke auf die Skizze in der <img src=images/Sketcher_EditSketch.svg style="width:Baumansicht](tree_view/de.md) oder wähle sie aus und klicke dann auf **[16px"> [Skizze bearbeiten](Sketcher_EditSketch/de.md)**.
+-   Um den Bearbeitungsmodus erneut aufzurufen, doppelklicke auf die Skizze in der [Baumansicht](tree_view/de.md) oder wähle sie aus und klicke dann auf **[<img src=images/Sketcher_EditSketch.svg style="width:16px"> [Skizze bearbeiten](Sketcher_EditSketch/de.md)**.
 
 ## Erstellen einer Skizze 
 
@@ -71,7 +71,7 @@ Die [Baumansicht](tree_view/de.md) wechselt zum [Aufgabenpaneel](task_panel/de.m
 :   3.3. Nähere dich dem **Ursprung** der Skizze, der Punkt sollte aufleuchten und in der Nähe deines Mauszeigers das <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [Deckungsgleiche Beschränkung](Sketcher_ConstrainCoincident/de.md) Symbol erscheinen.
 :   3.4. Klicke auf den Punkt und bewege dann den Zeiger, um eine neue Linie von diesem Punkt aus zu zeichnen. Bewege den Zeiger so, dass die Linie eine Länge von etwa {{Value|30 mm}} hat. Du musst in diesem Schritt nicht sehr genau sein; später werden wir die korrekte Abmessung einstellen.
 :   3.5. Wiederhole diesen Vorgang vier weitere Male, um Konstruktionslinien in einem Sternenmuster zu platzieren. Kümmere dich nicht allzu sehr um ihre Größe oder Position, verlängere sie einfach in den vier Quadranten.
-:   3.6. Verlasse jetzt den Konstruktionsmodus, durch erneutes klicken auf **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Konstruktion umschalten](Sketcher_ToggleConstruction/de.md)**.
+:   3.6. Verlasse jetzt den Konstruktionsmodus, durch erneutes klicken auf **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Konstruktion umschalten](Sketcher_ToggleConstruction/de.md)**.
 
 
 **Hinweis:**
@@ -95,21 +95,21 @@ Schaue dir die Abschnitte **Beschränkungen** und **Elemente** an, um die neu au
 
 ## Reale Geometrie 
 
-Die reale Geometrie muss eine geschlossene Form aufweisen, wenn sie als Profil verwendet werden soll, das mit Werkzeugen wie **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Polster](PartDesign_Pad/de.md)** extrudiert werden kann.
+Die reale Geometrie muss eine geschlossene Form aufweisen, wenn sie als Profil verwendet werden soll, das mit Werkzeugen wie **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Polster](PartDesign_Pad/de.md)** extrudiert werden kann.
 
-Vergewissere dich, dass du dich nicht im Konstruktionsmodus befindest, durch klicken auf **<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Konstruktion umschalten](Sketcher_ToggleConstruction/de.md)**, wenn du diesen Modus zuvor noch nicht verlassen hast.
+Vergewissere dich, dass du dich nicht im Konstruktionsmodus befindest, durch klicken auf **[<img src=images/Sketcher_ToggleConstruction.svg style="width:16px"> [Konstruktion umschalten](Sketcher_ToggleConstruction/de.md)**, wenn du diesen Modus zuvor noch nicht verlassen hast.
 
 ### Äußere Bögen 
 
 4\. Erstelle einen Kreis.
 
-:   4.1. Klicke auf **<img src=images/Sketcher_Circle.svg style="width:16px"> [Kreis erstellen](Sketcher_CreateCircle/de.md)**.
+:   4.1. Klicke auf **[<img src=images/Sketcher_Circle.svg style="width:16px"> [Kreis erstellen](Sketcher_CreateCircle/de.md)**.
 :   4.2. Klicke auf den **Ursprung** der Skizze, um ihren Mittelpunkt zu positionieren.
 :   4.3. Klicke auf eine beliebige Stelle in der [3D Ansicht](3D_view/de.md), um den Umfangsradius als Abstand vom Ursprung festzulegen. Mache ihn ungefähr {{Value|8 mm}}. Auch hier wird die Bemaßung später festgelegt.
 
 5\. Erstelle eine Reihe von Bögen.
 
-:   5.1. Klicke auf **<img src=images/Sketcher_Arc.svg style="width:16px"> [Bogen erstellen](Sketcher_CreateArc/de.md)**.
+:   5.1. Klicke auf **[<img src=images/Sketcher_Arc.svg style="width:16px"> [Bogen erstellen](Sketcher_CreateArc/de.md)**.
 :   5.2. Nähere dich dem Endpunkt einer der Konstruktionslinien, und klicke auf ihn. Dadurch wird der Mittelpunkt des Kreisbogens auf <img alt="" src=images/Constraint_PointOnPoint.svg  style="width:32px;"> [Deckungsgleich](Sketcher_ConstrainCoincident/de.md) mit dem Endpunkt dieser Linie gesetzt.
 :   5.3. Klicke einmal in die [3D Ansicht](3D_view/de.md) an einer beliebigen Stelle, um gleichzeitig den Radius des Bogens und den ersten Endpunkt des Bogens festzulegen. Definiere einen ungefähren Radius von {{Value|8 mm}}.
 :   5.4. Bewege den Zeiger gegen den Uhrzeigersinn, um einen Bogen zu zeichnen, dessen Konkavität auf den Ursprung der Skizze zeigt. Klicke, um den endgültigen Endpunkt des Bogens festzulegen, indem du einen Kreisbogen festlegst, der ungefähr {{Value|180°}} oder einen Halbkreis überstreicht.
@@ -125,7 +125,7 @@ Vergewissere dich, dass du dich nicht im Konstruktionsmodus befindest, durch kli
 
 6\. Erzeuge einen Bogen zwischen jedem Paar der vorherigen O-Bögen.
 
-:   6.1. Immer noch mit dem **<img src=images/Sketcher_Arc.svg style="width:16px"> [Bogen erzeugen](Sketcher_CreateArc/de.md)** Werkzeug aktiv, klicke irgendwo zwischen zwei O-Bögen, aber weiter vom Ursprung der Skizze entfernt, um den Mittelpunkt eines neuen Bogens festzulegen.
+:   6.1. Immer noch mit dem **[<img src=images/Sketcher_Arc.svg style="width:16px"> [Bogen erzeugen](Sketcher_CreateArc/de.md)** Werkzeug aktiv, klicke irgendwo zwischen zwei O-Bögen, aber weiter vom Ursprung der Skizze entfernt, um den Mittelpunkt eines neuen Bogens festzulegen.
 :   6.2. Klicke irgendwo in die Nähe des Endpunkts eines O-Bogens und bewege den Zeiger, um einen weiteren Bogen zu überstreichen, der in der Nähe eines anderen Endpunkts eines anderen O-Bogens endet, als ob du versuchen würdest, die Endpunkte zu verbinden. Diesmal muss die Konkavität vom Ursprung weg zeigen.
 :   6.3. Wiederhole diese Schritte, so dass jedes Paar von O-Bögen einen neuen Bogen zwischen sich hat. Wir werden diese I-Bögen als nach innen gerichtete Bögen bezeichnen.
 
@@ -156,7 +156,7 @@ Es gibt zwei Haupttypen von Beschränkungen:
 7\. Geometrisches Beschränken der Linien und Bögen.
 
 :   7.1 Wähle alle fünf Konstruktionslinien aus. Du brauchst nur einmal zu klicken, um ein Element auszuwählen.
-:   7.2. Drücke **<img src=images/Constraint_EqualLength.svg style="width:16px"> [Gleiche Länge](Sketcher_ConstrainEqual/de.md)**.
+:   7.2. Drücke **[<img src=images/Constraint_EqualLength.svg style="width:16px"> [Gleiche Länge](Sketcher_ConstrainEqual/de.md)**.
 :   
     **Hinweis:**dies erzeugt nur vier Beschränkungen. Die Beschränkungen sind verkettet, die erste Zeile hat die gleiche Länge wie die zweite, die die gleiche Länge wie die dritte hat, die wiederum die gleiche Länge wie die vierte hat, die die gleiche Länge wie die fünfte hat. In diesem Fall haben also die erste und die fünfte die gleiche Länge.
 
@@ -165,7 +165,7 @@ Es gibt zwei Haupttypen von Beschränkungen:
 
 
 :   7.3. Wähle alle fünf O-Bögen, die auf einen Endpunkt einer Konstruktionslinie zentriert sind.
-:   7.4. Drücke **<img src=images/Constraint_EqualLength.svg style="width:16px"> [Gleiche Länge](Sketcher_ConstrainEqual/de.md)**.
+:   7.4. Drücke **[<img src=images/Constraint_EqualLength.svg style="width:16px"> [Gleiche Länge](Sketcher_ConstrainEqual/de.md)**.
 :   7.5. Wiederhole den Vorgang mit allen I-Bögen, denjenigen zwischen den O-Bögen.
 :   
     **Anmerkung:**wieder werden die Beschränkungen verkettet. Daher haben alle O-Bögen den gleichen Radius, und alle I-Bögen haben den gleichen Radius. Zu diesem Zeitpunkt ist der spezifische Wert dieser Längen nicht festgelegt. Du kannst den Zeiger verwenden, um einen Punkt zu ziehen und zu sehen, wie die Skizze unter Berücksichtigung der bestehenden Beschränkungen aktualisiert wird.
@@ -175,7 +175,7 @@ Es gibt zwei Haupttypen von Beschränkungen:
 
 
 :   7.6. Wähle die Konstruktionslinie, die der vertikalen Achse am nächsten liegt.
-:   7.7. Drücke **<img src=images/Constraint_Vertical.svg style="width:16px"> _ wurde bereits platziert, wobei die Konstruktionslinie vertikal blieb. In diesem Fall ist keine zusätzliche <img alt="" src=images/Constraint_Vertical.svg  style="width:32px;"> [Vertikale Beschränkung](‎Sketcher_ConstrainVertical/de.md) erforderlich.
+:   7.7. Drücke **[<img src=images/Constraint_Vertical.svg style="width:16px"> [Vertikal](‎Sketcher_ConstrainVertical/de.md)** (wahlweise). Wenn du die Konstruktionslinie über die Y Achse nach unten gezogen hast, wird eine automatische <img alt="" src=images/Constraint_PointOnObject.svg  style="width:32px;"> [Punkt auf Object Beschränkung](Sketcher_ConstrainPointOnObject/de.md) wurde bereits platziert, wobei die Konstruktionslinie vertikal blieb. In diesem Fall ist keine zusätzliche <img alt="" src=images/Constraint_Vertical.svg  style="width:32px;"> [Vertikale Beschränkung](‎Sketcher_ConstrainVertical/de.md) erforderlich.
 
 
 **Hinweis:**
@@ -185,7 +185,7 @@ Beim Hinzufügen von Beschränkungen erscheinen Überlagerungssymbole, die die A
 
 **Hinweis 2:**
 
-Wenn du die Beschränkung vorübergehend deaktivieren möchtest, kannst du sie auswählen und **<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Aktive Beschränkung umschalten](Sketcher_ToggleActiveConstraint/de.md)**. Wenn du sie erneut anwenden möchtest, drücke erneut dieselbe Schaltfläche.
+Wenn du die Beschränkung vorübergehend deaktivieren möchtest, kannst du sie auswählen und **[<img src=images/Sketcher_ToggleActiveConstraint.svg style="width:16px"> [Aktive Beschränkung umschalten](Sketcher_ToggleActiveConstraint/de.md)**. Wenn du sie erneut anwenden möchtest, drücke erneut dieselbe Schaltfläche.
 
 <img alt="" src=images/05a_Sk01_Sketcher_equality_constraints_lines.png  style="width:" height="400px;"> <img alt="" src=images/05b_Sk01_Sketcher_equality_constraints_O-arcs.png  style="width:" height="400px;">
 
@@ -200,7 +200,7 @@ Wenn du die Beschränkung vorübergehend deaktivieren möchtest, kannst du sie a
 8\. Wende Tangentialität auf die Bögen an.
 
 :   8.1. Wähle einen Endpunkt eines O-Bogens und dann den nächstgelegenen Endpunkt des benachbarten I-Bogens.
-:   8.2. Drücke **<img src=images/Constraint_Tangent.svg style="width:16px"> [Tangente](Sketcher_ConstrainTangent/de.md)**. Dadurch werden die beiden benachbarten Bögen an ihren Endpunkten nahtlos miteinander verbunden.
+:   8.2. Drücke **[<img src=images/Constraint_Tangent.svg style="width:16px"> [Tangente](Sketcher_ConstrainTangent/de.md)**. Dadurch werden die beiden benachbarten Bögen an ihren Endpunkten nahtlos miteinander verbunden.
 :   8.3. Wiederhole diesen Vorgang für alle Endpunkte der O-Bögen und I-Bögen, um ein geschlossenes Profil zu erhalten.
 
 
@@ -225,13 +225,13 @@ Diese Beschränkungen geben die numerischen Abstände zwischen zwei Punkten und 
 9\. Passe die Größe der Konstruktionslinien an.
 
 :   9.1. Wähle die vertikal beschränkte Konstruktionslinie aus.
-:   9.2. Drücke **<img src=images/Constraint_VerticalDistance.svg style="width:16px"> [Vertikaler Abstand](Sketcher_ConstrainDistanceY/de.md)**.
+:   9.2. Drücke **[<img src=images/Constraint_VerticalDistance.svg style="width:16px"> [Vertikaler Abstand](Sketcher_ConstrainDistanceY/de.md)**.
 :   9.3. Setze die Länge auf {{Value|30 mm}}. Da alle Konstruktionslinien auf die gleiche Länge beschränkt sind, passen alle diese Linien gleichzeitig ihre Größe an.
 
 10\. Passe den Winkel zwischen den Konstruktionslinien an.
 
 :   10.1. Wähle die vertikale Konstruktionslinie und die ihr am nächsten liegende Konstruktionslinie.
-:   10.2. Drücke **<img src=images/Constraint_InternalAngle.svg style="width:16px"> [Winkel](Sketcher_ConstrainAngle/de.md)**.
+:   10.2. Drücke **[<img src=images/Constraint_InternalAngle.svg style="width:16px"> [Winkel](Sketcher_ConstrainAngle/de.md)**.
 :   10.3. Setze den Winkel auf {{Value|72°}}.
 :   10.4. Wiederhole dasselbe Verfahren für jedes Paar Konstruktionslinien und verwende denselben Winkel.
 :   
@@ -248,10 +248,10 @@ Diese Beschränkungen geben die numerischen Abstände zwischen zwei Punkten und 
 11\. Stelle die Größe der Bögen ein.
 
 :   11.1. Wähle einen der O-Bögen, zentriert auf den Endpunkt einer Konstruktionslinie.
-:   11.2. Drücke **<img src=images/Constraint_Radius.svg style="width:16px"> [Radius](Sketcher_ConstrainRadius.md)**.
+:   11.2. Drücke **[<img src=images/Constraint_Radius.svg style="width:16px"> [Radius](Sketcher_ConstrainRadius.md)**.
 :   11.3. Setze den Radius auf {{Value|8 mm}}. Da alle O-Bögen gezwungen sind, denselben Radius zu haben, passen alle diese Bögen gleichzeitig ihre Größe an.
 :   11.4. Wähle einen der I-Bögen zwischen zwei O-Bögen.
-:   11.5. Drücken **<img src=images/Constraint_Radius.svg style="width:16px"> [Radius](Sketcher_ConstrainRadius.md)**.
+:   11.5. Drücken **[<img src=images/Constraint_Radius.svg style="width:16px"> [Radius](Sketcher_ConstrainRadius.md)**.
 :   11.6. Setze den Radius auf {{Value|11 mm}}. Da alle I-Bögen gezwungen sind, denselben Radius zu haben, passen alle diese Bögen gleichzeitig ihre Größe an.
 
 <img alt="" src=images/08a_Sk01_Sketcher_radius_1_constraint.png  style="width:" height="400px;"> <img alt="" src=images/08b_Sk01_Sketcher_radius_2_constraint.png  style="width:" height="400px;">
@@ -261,7 +261,7 @@ Diese Beschränkungen geben die numerischen Abstände zwischen zwei Punkten und 
 *Skizze mit Radiusbeschränkungen, die auf die nach außen gerichteten Bögen (links) und die nach innen gerichteten Bögen (rechts) angewendet werden.*
 
 
-:   11.7. Wähle schließlich den Kreis in der Mitte der Skizze aus, drücke **<img src=images/Constraint_Radius.svg style="width:16px"> [Radius](Sketcher_ConstrainRadius.md)**, und setze den Wert auf {{Value|8 mm}}.
+:   11.7. Wähle schließlich den Kreis in der Mitte der Skizze aus, drücke **[<img src=images/Constraint_Radius.svg style="width:16px"> [Radius](Sketcher_ConstrainRadius.md)**, und setze den Wert auf {{Value|8 mm}}.
 
 Wir sollten am Ende eine völlig beschränkte Skizze erhalten. Dies kann bestätigt werden, indem man die Farbänderung der realen Geometrie bemerkt, und durch die Nachricht, die im [Aufgabenpaneel](task_panel/de.md) angezeigt wird.
 
@@ -277,8 +277,8 @@ Wir sollten am Ende eine völlig beschränkte Skizze erhalten. Dies kann bestät
 
 :   12.1. Verlasse den Skizzenbearbeitungsmodus durch Drücken der **Schließen** Schaltfläche oder durch zweimaliges Drücken von **Esc**. Die Skizze sollte in der [Baumansicht](tree_view/de.md) und in der [3D Ansicht](3D_view/de.md) erscheinen.
 :   12.2. Wechsle zum [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md).
-:   12.3. Mit der in der <img src=images/PartDesign_Body.svg style="width:Baumansicht](tree_view/de.md) gewählten Skizze, drücke **[16px"> [PartDesign Körper](PartDesign_Body/de.md)**, Wähle die Standard XY-Ebene und drücke **OK**. Die Skizze sollte nun innerhalb des Körpers erscheinen.
-:   12.4. Wähle die Skizze aus, und drücke dann **<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Polster](PartDesign_Pad/de.md)**, wähle die Standardoptionen und drücke **OK**, um eine Volumenextrusion zu erzeugen.
+:   12.3. Mit der in der [Baumansicht](tree_view/de.md) gewählten Skizze, drücke **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Körper](PartDesign_Body/de.md)**, Wähle die Standard XY-Ebene und drücke **OK**. Die Skizze sollte nun innerhalb des Körpers erscheinen.
+:   12.4. Wähle die Skizze aus, und drücke dann **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Polster](PartDesign_Pad/de.md)**, wähle die Standardoptionen und drücke **OK**, um eine Volumenextrusion zu erzeugen.
 
 <img alt="" src=images/09b_Sk01_Sketcher_fully_constrained_clean.png  style="width:" height="400px;"> <img alt="" src=images/10_Sk01_Sketcher_solid_extrusion.png  style="width:" height="400px;">
 

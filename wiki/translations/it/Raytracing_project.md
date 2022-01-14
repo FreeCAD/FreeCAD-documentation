@@ -14,7 +14,7 @@ New development is happening in the [https://github.com/FreeCAD/FreeCAD-render R
 
 {{TOCright}}
 
-Questo è il progetto di sviluppo per l\'implementazione di un modulo Raytracing in FreeCAD (Rendere realistici gli oggetti tramite il tracciato di raggi di luce). Esso segue le regole della metodologia _ (Development roadmap).
+Questo è il progetto di sviluppo per l\'implementazione di un modulo Raytracing in FreeCAD (Rendere realistici gli oggetti tramite il tracciato di raggi di luce). Esso segue le regole della metodologia [Getting things done](https://en.wikipedia.org/wiki/Getting_Things_Done) (metodo per l\'organizzazione delle proprie azioni, per la gestione del tempo e dei progetti per \'fare in modo che le cose vengano fatte\'). I progetti sono raccolti nel [Piano di sviluppo](Development_roadmap/it.md) (Development roadmap).
 
 
 <div class="mw-translate-fuzzy">
@@ -87,7 +87,7 @@ Nell\'immagine precedente è visualizzata una Parte creata da uno Schizzo di Par
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing project/it

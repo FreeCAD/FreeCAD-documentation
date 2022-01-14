@@ -20,7 +20,7 @@
 ## Utilisation
 
 1.  Dans l\'arborescence du modèle, sélectionnez l\'objet à cloner.
-2.  Appuyez sur le bouton **<img src=images/PartDesign_Clone.svg style="width:24px"> '''Créer un clone'''**.
+2.  Appuyez sur le bouton **[<img src=images/PartDesign_Clone.svg style="width:24px"> '''Créer un clone'''**.
 
 ## Propriétés
 

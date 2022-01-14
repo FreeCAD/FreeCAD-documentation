@@ -25,9 +25,9 @@ FreeCAD es principalmente una aplicación de modelado en 3D, y por lo tanto no t
 
 Estas son herramientas para crear objetos de la página.
 
--   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> _.
+-   <img alt="" src=images/TechDraw_PageDefault.svg  style="width:32px;"> [Insertar página predeterminada](TechDraw_PageDefault/es.md): Agrega una nueva página usando el predeterminado [Plantilla](TechDraw_Templates/es.md).
 
--   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> _.
+-   <img alt="" src=images/TechDraw_PageTemplate.svg  style="width:32px;"> [Insertar la página usando la plantilla](TechDraw_PageTemplate/es.md): Agrega una nueva página usando un seleccionado [Plantilla](TechDraw_Templates/es.md).
 
 -   <img alt="" src=images/TechDraw_RedrawPage.svg  style="width:32px;"> [Redibujar página](TechDraw_RedrawPage/es.md): fuerza una actualización de la página seleccionada. <small>(v0.19)</small> 
 
@@ -47,9 +47,9 @@ Estas son herramientas para crear objetos de la Vista.
 
 -   <img alt="" src=images/TechDraw_DraftView.svg  style="width:32px;"> [Insertar el borrador del objeto de l\'ambiente de trabajo](TechDraw_DraftView/es.md) Inserta una vista de un objeto [Draft ambiente de trabajo](Draft_Workbench/es.md).
 
--   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> _ [Plano de la sección](Arch_SectionPlane/es.md) objeto.
+-   <img alt="" src=images/TechDraw_ArchView.svg  style="width:32px;"> [Insertar Ambiente de trabajo architectura Objeto](TechDraw_ArchView/es.md): Agrega una vista de un [Architectura Ambiente de trabajo](Arch_Workbench/es.md) [Plano de la sección](Arch_SectionPlane/es.md) objeto.
 
--   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> _ sheet.
+-   <img alt="" src=images/TechDraw_SpreadsheetView.svg  style="width:32px;"> [Insertar Spreadsheet Vista](TechDraw_SpreadsheetView/es.md): Inserta una vista de una [Spreadsheet Ambiente de trabajo](Spreadsheet_Workbench/es.md) sheet.
 
 ## Recortes
 
@@ -69,9 +69,9 @@ Estas son herramientas para decorar páginas o vistas:
 
 -   <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:32px;"> [Geometric Hatch](TechDraw_GeometricHatch/es.md): aplica una sombrea uno plano usando una especificación PAT de Autodesk.
 
--   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> _ en una página.
+-   <img alt="" src=images/TechDraw_Symbol.svg  style="width:32px;"> [Insertar símbolo SVG](TechDraw_Symbol/es.md): inserta un símbolo de un archivo [SVG](SVG/es.md) en una página.
 
--   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> _ en una página.
+-   <img alt="" src=images/TechDraw_Image.svg  style="width:32px;"> [Insertar Bitmap imagen](TechDraw_Image/es.md): inserta una imagen PNG o JPG [bitmap](bitmap/es.md) en una página.
 
 -   <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:32px;"> [Turn View Frames On/Off](TechDraw_ToggleFrame/es.md): activa y desactiva ver marcos y etiquetas que rodean una vista.
 
@@ -318,9 +318,9 @@ These are tools to improve your TechDraw drawings.
 
 Estas son herramientas para exportar páginas a otras aplicaciones.
 
--   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> _.
+-   <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:32px;"> [Exportar página como SVG](TechDraw_ExportPageSVG/es.md): guarda la página actual como archivo [SVG](SVG/es.md).
 
--   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> _.
+-   <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:32px;"> [Exportar página como DXF](TechDraw_ExportPageDXF/es.md): guarda la página actual como archivo [DXF](DXF/es.md).
 
 ## Características adicionales 
 
@@ -404,7 +404,7 @@ Tutoriales de vídeo de sliptonic
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > TechDraw Workbench/es

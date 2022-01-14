@@ -20,7 +20,7 @@ Ustala poziomą odległość pomiędzy 2 punktami lub końcami linii. Jeśli wyb
 
 1.  Wybierz jeden lub dwa punkty albo jedną linię.
 2.  Uruchomić narzędzie na jeden z możliwych sposobów:
-    -   Naciśnij przycisk **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [ Ustal poziomą odległość ...](Sketcher_ConstrainDistanceX/pl.md)** znajdujący się na pasku narzędzi Szkicownika.
+    -   Naciśnij przycisk **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [ Ustal poziomą odległość ...](Sketcher_ConstrainDistanceX/pl.md)** znajdujący się na pasku narzędzi Szkicownika.
     -   Użyj kombinacji klawiszy **Shift** + **H**. *(**H** odnosi się do **H**orizontal)*.
     -   Użyj polecenia menu głównego **Sketch → Wiązania szkicownika → Zwiąż w poziomie**.
 3.  Otworzy się wyskakujące okno dialogowe do edycji z proponowaną wartością. Naciśnij **OK**, aby ją wartość.

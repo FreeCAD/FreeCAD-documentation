@@ -54,7 +54,7 @@ Aquí usaremos el archivo example005.scad de los (antiguos) ejemplos de OpenSCAD
 
 \]\]
 
-_
+[<img src="images/Property.png" style="width:16px"> OpenSCAD](Category_OpenSCAD.md)
 
 ---
 [documentation index](../README.md) > [OpenSCAD](Category_OpenSCAD.md) > [Import](Import_Workbench.md) > Import OpenSCAD code/es

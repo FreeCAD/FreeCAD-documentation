@@ -26,7 +26,7 @@
 
 <div class="mw-translate-fuzzy">
 
-あなたはプログラマーの書いたひどいヘルプを読んだ経験があるかもしれません。彼らにとってはプログラムの使い方は完璧に明らかです。何しろ作ったのは自分なのですから。つまり経験を積んだユーザーがドキュメントの作成や修正を手伝ってくれることが必要不可欠なのです。そう、あなたのことです！やり方がわかりませんか？まずUserセクションに記載された <http://apps.sourceforge.net/mediawiki/free-cad/index.php> にあるウィキに行ってください。ログインには_。さらに多くのFreeCADを支援するための方法が記載されています。
+あなたはプログラマーの書いたひどいヘルプを読んだ経験があるかもしれません。彼らにとってはプログラムの使い方は完璧に明らかです。何しろ作ったのは自分なのですから。つまり経験を積んだユーザーがドキュメントの作成や修正を手伝ってくれることが必要不可欠なのです。そう、あなたのことです！やり方がわかりませんか？まずUserセクションに記載された <http://apps.sourceforge.net/mediawiki/free-cad/index.php> にあるウィキに行ってください。ログインには[Sourceforgeのアカウント](http://sourceforge.net/)が必要です。ログインしたらフォーラムかIRCチャンネルで書き込み権限をくれるように依頼してください（スパム防止のためにウィキには書き込み保護がかかっています）。書き込み権限を手に入れたら編集ができるようになります！また[Help\_FreeCADページも見てください](Help_FreeCAD/jp.md)。さらに多くのFreeCADを支援するための方法が記載されています。
 
 
 </div>
@@ -43,7 +43,7 @@
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md)
 
 ---
 [documentation index](../README.md) > [User_Documentation](Category_User_Documentation.md) > Online Help Startpage/ja

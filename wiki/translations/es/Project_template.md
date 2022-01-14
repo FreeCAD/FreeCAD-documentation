@@ -1,5 +1,5 @@
 # Project template/es
-Esta plantilla establece las directrices para el proyecto de desarrollo de FreeCAD. Se siguen las reglas del proceso definido en la metodología _.
+Esta plantilla establece las directrices para el proyecto de desarrollo de FreeCAD. Se siguen las reglas del proceso definido en la metodología [Getting things done](http://es.wikipedia.org/wiki/Getting_Things_Done). Los proyectos se recopilan en el [Mapa de desarrollo](Development_roadmap/es.md).
 
 *Comencemos revisando el modelo de planificación natural. El modelo de planificación natural en realidad no es nada nuevo. No es ningún fantástico nuevo modelo It is not some fantastic new model inventado por David Allen para ayudarnos a planificar y gestionar nuestros proyectos. Es sin embargo, el modelo de planificación recomendado por David en su libro Getting Things Done. El modelo de planificación natural está basado sobre la planificación que hacemos en una base diaria, utilizando simplemente nuestros cerebros. Por ejemplo, piensa en cuantas tareas planeamos en el día a día que ni siquiera nos molestamos en escribir porque son clasificadas como tareas ordinarias. Por ejemplo, vestirse, o conducir hasta el trabajo. Todas ellas se podrían considerar tareas pero simplemente seguimos adelante y las planeamos sin pensar nada en absoluto. Utilizamos los aspectos de planificación de nuestro cerebro que son condicionados para este tipo natural de planificación.*
 
@@ -33,7 +33,7 @@ Esta plantilla establece las directrices para el proyecto de desarrollo de FreeC
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Project template/es

@@ -24,7 +24,7 @@ Faceți clic pe pictograma <img alt="" src=images/Sketcher_LeaveSketch.png  styl
 Modificările sunt salvate
 
 1.  There are several ways to invoke the Sketcher LeaveSketch tool:
-    -   Pressing the **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Leave sketch](Sketcher_LeaveSketch.md)** button
+    -   Pressing the **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Leave sketch](Sketcher_LeaveSketch.md)** button
     -   Pressing the **Close** button at the top of the [task panel](Task_panel.md).
 
 
@@ -38,7 +38,7 @@ Modificările sunt salvate
 
 }}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Sketcher/ro](<img src="images/Property.png" style="width:16px"> Sketcher/ro.md)
 
 ---
 [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/ro

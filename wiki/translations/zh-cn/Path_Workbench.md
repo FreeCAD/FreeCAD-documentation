@@ -21,7 +21,7 @@
 FreeCAD 路径工作台工作流程以以下方式创建机器指令:
 
 -   3D 模型是基本对象, 通常使用一个或多个 [零件设计](PartDesign_Workbench.md), [零件](Part_Workbench.md) 或 [底图](Draft_Workbench.md) 工作台。
--   _, 它遵循某些命令控制速度和动作 (通常是 G 代码)。
+-   [作业](Path_Job.md) 是在路径工作台中创建的。这包含了所有信息用于生成数控机床上处理作业的必要 G 代码: 有库存材料, 铣削有一个确定的 [工具集](Path_ToolLibraryEdit.md), 它遵循某些命令控制速度和动作 (通常是 G 代码)。
 -   根据作业操作的要求选择工具。
 -   铣削路径的创建使用例如 [轮廓](Path_Profile.md) 和 [袖珍](Path_Pocket_3D.md) 操作。这些 路径对象 使用内部 FreeCAD G 代码方言, 独立于数控机床。
 
@@ -203,7 +203,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 -   <img alt="" src=images/Path_Adaptive.svg  style="width:32px;"> [Adaptive](Path_Adaptive.md): Creates an adaptive clearing and profiling operation.
 
--   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> _. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Slot.svg  style="width:32px;"> [Slot](Path_Slot.md): Creates a slotting operation from selected features or custom points. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
 
 -   <img alt="" src=images/Path_Engrave.svg  style="width:32px;"> [Engrave](Path_Engrave.md): Creates an engraving path.
 
@@ -227,7 +227,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
--   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> _. <small>(v0.19)</small> 
+-   <img alt="" src=images/Path_Waterline.svg  style="width:32px;"> [Waterline](Path_Waterline.md): Creates a waterline path for a 3D surface. [**Experimental**](Path_experimental.md). <small>(v0.19)</small> 
 
 ### Path Dressup 
 
@@ -289,7 +289,7 @@ Some commands are experimental and not available by default. To enable them see 
 
 </div>
 
--   <img alt="" src=images/Path_Shape.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Path_Shape.svg  style="width:32px;"> [From Shape](Path_Shape/zh-cn.md): Creates a path object from a selected Part object. [**Experimental**](Path_experimental.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -385,7 +385,7 @@ See [Path scripting](Path_scripting.md).
 
 ## Videos
 
--   _.
+-   [FreeCAD Path: Custom paths with Python - Part 1 - 5](https://www.youtube.com/playlist?list=PLEuOia-QxyFKgzAeTyH62GKqWKVURiWJL): a playlist with a series of 5 videos in English by sliptonic. This series shows how to work with the [Path Workbench](Path_Workbench.md).
 -   [FreeCAD CAM Path Workbench](https://www.youtube.com/playlist?list=PLUrr_kHPp4vhGdLlj6IemtF-OPUlRvSTC): a playlist with a series of 7 videos in English by CAD CAM Lessons.
 -   [FreeCAD CAM CNC](https://www.youtube.com/playlist?list=PLUrr_kHPp4vh2n6DcIlegK4dEKIFjmISJ) a playlist with a series of 8 videos in English by CAD CAM Lessons.
 
@@ -400,7 +400,7 @@ See [Path scripting](Path_scripting.md).
 
 }} 
 
-_ _
+[分类:用户文档](<img src="images/Property.png" style="width:16px"> User_Documentation/zh-cn.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Path Workbench/zh-cn

@@ -38,7 +38,7 @@
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md)
 
 ---
 [documentation index](../README.md) > [Administration](Category_Administration.md) > Crowdin Administration/it

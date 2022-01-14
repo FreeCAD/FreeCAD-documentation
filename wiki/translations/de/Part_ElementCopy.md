@@ -37,7 +37,7 @@ Um vollständige nicht-parametrische Kopien der Objekte zu erstellen, verwenden 
 <div class="mw-translate-fuzzy">
 
 1.  Wähle einen Knoten, eine Kante oder eine Fläche eines Objekts, für das du eine Kopie erstellen möchtest.
-2.  Gehe zum Menü {{MenuCommand/de|Teil → Erstelle eine Kopie → <img src=images/Part_ElementCopy.svg style="width:16px"> [Formularelementkopie erstellen](Part_ElementCopy/de.md)}}.
+2.  Gehe zum Menü {{MenuCommand/de|Teil → Erstelle eine Kopie → [<img src=images/Part_ElementCopy.svg style="width:16px"> [Formularelementkopie erstellen](Part_ElementCopy/de.md)}}.
 
 
 </div>

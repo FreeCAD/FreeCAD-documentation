@@ -9,7 +9,7 @@
 
 ## Description
 
-The <img alt="" src=images/Assembly_ConstraintEqualRadius.svg  style="width:16px;"> _ tools in relation with a <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> workplane.
+The <img alt="" src=images/Assembly_ConstraintEqualRadius.svg  style="width:16px;"> [Equal radius](Assembly3_ConstraintEqualRadius.md) command constrains the radius of a 2D circle or arc made with <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft Workbench](Draft_Workbench.md) tools in relation with a <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> workplane.
 
 It links the radius of the 2D circle or arc with the radius of another 2D circle or arc.
 

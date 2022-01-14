@@ -25,10 +25,10 @@ This tutorial is meant to introduce the reader to the basic workflow of the [Par
 
 The purpose of the **PartDesign Workbench** is to allow the user to create geometry in 3D space. As such, it is equipped with tools to make use of sketches and convert them to 3D objects.
 
-To achieve this, two tools are exist: <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> _. Alongside their subtractive counterparts (<img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> _) they make up most of the common actions used by this workbench.
+To achieve this, two tools are exist: <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Pad](PartDesign_Pad.md) and <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Revolution](PartDesign_Revolution.md). Alongside their subtractive counterparts (<img alt="" src=images/PartDesign_Pocket.svg  style="width:32px;"> [Pocket](PartDesign_Pocket.md) and <img alt="" src=images/PartDesign_Groove.svg  style="width:32px;"> [Groove](PartDesign_Groove.md)) they make up most of the common actions used by this workbench.
 
 1.  Switch to the PartDesign Workbench
-2.  With the sketch selected in the <img src=images/PartDesign_Body.svg style="width:tree view](tree_view.md), press **[16px"> [PartDesign Body](PartDesign_Body.md)**, choose the default XY-plane, and press **OK**. The sketch should appear now inside the Body.
+2.  With the sketch selected in the [tree view](tree_view.md), press **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**, choose the default XY-plane, and press **OK**. The sketch should appear now inside the Body.
 3.  Select <img alt="" src=images/PartDesign_Pad.svg  style="width:32px;"> [Pad](PartDesign_Pad.md)
 4.  Set the distance to 5 mm
 5.  Select **Ok**
@@ -37,7 +37,7 @@ Another way to create 3D geometry is with the <img alt="" src=images/PartDesign_
 
 <img alt="" src=images/PartDesign_revolution_exercise.png  style="width:480px;">
 
-1.  Create a new body **<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**, and then a sketch based on the image above.
+1.  Create a new body **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**, and then a sketch based on the image above.
 2.  The sketch can be on any plane, but should be co-incident with the horizontal axis.
 3.  Select <img alt="" src=images/PartDesign_Revolution.svg  style="width:32px;"> [Revolution](PartDesign_Revolution.md)
 4.  Set the \"Axis\" to the \"Horizontal Sketch Axis\"

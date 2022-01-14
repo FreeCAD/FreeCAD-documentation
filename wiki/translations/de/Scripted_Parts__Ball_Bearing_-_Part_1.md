@@ -43,13 +43,13 @@ Deshalb müssen wir die Kanten auswählen BEVOR wir die Rille für die Kugeln he
 ### Bemerkungen
 
 Dieses Tutorial benutzt Grundkörper und boolsche Operationen, welche sehr rechenintensiv sein können.
-Um zu sehen, wie man einen Körper mittels rotierten Skizzen erstellt, werfen Sie bitte einen Blick auf das Tutorial _.
+Um zu sehen, wie man einen Körper mittels rotierten Skizzen erstellt, werfen Sie bitte einen Blick auf das Tutorial [Scripted Parts: Ball Bearing - Part 2/de](Scripted_Parts:_Ball_Bearing_-_Part_2/de.md).
 
 ### Links
 
 [Scripted objects](Scripted_objects.md): Diese Wiki-Seite erklärt die Grundlagen für part scripting
 [Topological data scripting](Topological_data_scripting.md): Ein Tutorial für die Grundlagen des part scriptings
-_: Erstellen des Modelles mittels Skizzen
+[Scripted Parts: Ball Bearing - Part 2](Scripted_Parts:_Ball_Bearing_-_Part_2.md): Erstellen des Modelles mittels Skizzen
 [Bearing Script 1](http://linuxforanengineer.blogspot.de/2013/08/free-cad-bearing-script.html): Basis für dieses Tutorial, vielen Dank an JMG \...
 
 ### Code
@@ -141,7 +141,7 @@ Gui.SendMsgToActiveView("ViewFit")
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripted Parts: Ball Bearing - Part 1/de

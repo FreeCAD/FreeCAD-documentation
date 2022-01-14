@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-Le **problème de dénomination topologique** dans FreeCAD fait référence au conséquences d'une forme qui change de nom interne après une opération de modélisation (protusion, coupe, union, chanfrein, congé, etc.). Cela a pour conséquence la casse ou le calcul incorrect d\'autres caractéristiques paramétriques dépendantes de cette forme. Ce problème concerne tous les objets dans FreeCAD, mais est particulièrement important lors de la création de solides avec l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _.
+Le **problème de dénomination topologique** dans FreeCAD fait référence au conséquences d'une forme qui change de nom interne après une opération de modélisation (protusion, coupe, union, chanfrein, congé, etc.). Cela a pour conséquence la casse ou le calcul incorrect d\'autres caractéristiques paramétriques dépendantes de cette forme. Ce problème concerne tous les objets dans FreeCAD, mais est particulièrement important lors de la création de solides avec l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md) et lors de la cotation de ces solides avec l\'<img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [atelier TechDraw](TechDraw_Workbench/fr.md).
 
 -   Dans <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/fr.md), si une entité est prise en charge sur une face (ou une arête ou un sommet), elle peut se rompre si le solide sous-jacent change de taille ou d\'orientation, car la face d\'origine (ou l\'arête ou le sommet) peut être renommé de manière interne.
 -   Dans <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [TechDraw](TechDraw_Workbench/fr.md), si une dimension mesure la longueur d\'un bord projeté, elle risque de se briser si le modèle 3D est modifié, car les sommets peuvent être renommés, modifiant ainsi le bord mesuré.
@@ -17,7 +17,7 @@ Le problème de dénomination topologique affecte et trouble le plus souvent les
 
 ## Exemple
 
-1\. Dans l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _ et sélectionnez le plan XY pour dessiner l\'esquisse de base. Effectuez ensuite une <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Protrusion](PartDesign_Pad/fr.md) pour créer un premier solide.
+1\. Dans l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md), créez un [PartDesign Corps](PartDesign_Body/fr.md) <img alt="" src=images/PartDesign_Body.svg  style="width:24px;">, puis utilisez <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [PartDesign Nouvelle esquisse](PartDesign_NewSketch/fr.md) et sélectionnez le plan XY pour dessiner l\'esquisse de base. Effectuez ensuite une <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Protrusion](PartDesign_Pad/fr.md) pour créer un premier solide.
 
 <img alt="" src=images/FreeCAD_topological_problem_01_solid.png  style="width:" height="400px;">
 
@@ -121,12 +121,12 @@ Les objets de référence, [points](PartDesign_Point/fr.md), [lignes](PartDesign
 
 ## Vidéos
 
--   _
+-   [Why do my FreeCAD models break? - \"Topological Naming Problem\"](https://youtu.be/6p2vqEEmWq4): Une explication vidéo des problèmes sous-jacents du [Problème de dénomination topologique](Topological_naming_problem/fr.md)
 
 
  {{TechDraw Tools navi}} {{PartDesign Tools navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Topological naming problem/fr

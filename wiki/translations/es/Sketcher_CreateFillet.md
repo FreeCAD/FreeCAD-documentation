@@ -19,7 +19,7 @@ Al iniciar la herramienta, las selecciones se borran y el puntero del ratón cam
 
 ## Utilización
 
-1.  Pulse el **<img src=images/Sketcher_CreateFillet.svg style="width:16px"> [CrearRedondeo](Sketcher_CreateFillet/es.md)**.
+1.  Pulse el **[<img src=images/Sketcher_CreateFillet.svg style="width:16px"> [CrearRedondeo](Sketcher_CreateFillet/es.md)**.
 2.  Elige un vértice que conecte dos líneas; o haz clic en dos líneas conectadas, la distancia a la que hagas clic del vértice establecerá el radio del filete.
 3.  Pulsando **Esc** o haciendo clic con el botón derecho del ratón se cancela o finaliza la función.
 

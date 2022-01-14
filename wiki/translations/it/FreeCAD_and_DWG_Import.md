@@ -38,7 +38,7 @@ GNU LibreDWG is a free C library to handle DWG files. It aims to be a free repla
 
 #### Installation Windows 
 
-Downloading and unzip the appropriate _.
+Downloading and unzip the appropriate [pre-compiled Windows binary](https://github.com/LibreDWG/libredwg/releases) and then set the path to the executable manually. See [Import Export Preferences](Import_Export_Preferences#DWG.md).
 
 #### Installation Linux/Unix systems 
 
@@ -199,7 +199,7 @@ In development version as mentioned above you can switch from the proprietary OD
 
  
 
-_ _
+[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > FreeCAD and DWG Import/it

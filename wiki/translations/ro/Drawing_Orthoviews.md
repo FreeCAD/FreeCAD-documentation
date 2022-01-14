@@ -61,7 +61,7 @@ De completat
 ## Tutoriale
 
 -   [Drawing tutorial](Drawing_tutorial.md), Introducere pentru crearea de planuri cu Atelierul Drawing workbench
--   _ cu Atelierul Drawing și cu addon-ul Drawing Dimensioning .
+-   [Manual:Generating 2D drawings](Manual_Generating_2D_drawings.md) cu Atelierul Drawing și cu addon-ul Drawing Dimensioning .
 
 
 {{docnav|[Open Browser](Drawing_Openbrowser.md)|[Symbol](Drawing_Symbol.md)|[Drawing Workbench](Drawing_Workbench.md)|IconL=Drawing_Openbrowser.png|IconC=Workbench_Drawing.svg|IconR=Drawing_Symbol.png}}

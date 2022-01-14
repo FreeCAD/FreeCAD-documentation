@@ -7,7 +7,7 @@
 |Version=00.04
 |Date=2019-07-03
 |Download=[https://www.freecadweb.org/wiki/images/2/29/FCCreaLoft.png ToolBar Icon]
-|SeeAlso= _ [Macro_Texture](Macro_Texture/fr.md)
+|SeeAlso= [32px|FCTexture](File:FCTexture.png.md) [Macro_Texture](Macro_Texture/fr.md)
 |FCVersion=All
 }}
 

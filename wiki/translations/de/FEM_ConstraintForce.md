@@ -33,7 +33,7 @@ Applying a force to a face, line or point:
 
 ![](images/FEM_ConstraintForce_example.JPG )
 
--   Click **OK** to finish the dialog and create **<img src=images/FEM_ConstraintForce.svg style="width:24px"> ConstraintForce** object.
+-   Click **OK** to finish the dialog and create **[<img src=images/FEM_ConstraintForce.svg style="width:24px"> ConstraintForce** object.
 
 ## Notes
 

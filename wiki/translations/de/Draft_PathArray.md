@@ -92,7 +92,7 @@ See also: [Property editor](property_editor.md).
 
 <div class="mw-translate-fuzzy">
 
-Eine _ beschriebenen Eigenschaften hat die PfadAnordnung die folgenden Eigenschaften im [Eigenschaftseditor](property_editor/de.md) .
+Eine [PfadAnordnung](Draft_PathArray/de.md) wird abgeleitet von einer [Part Formelement](Part_Feature/de.md) (`Part::Feature` Klasse), daher teilt sie alle Eigenschaften der letzteren. Zusätzlich zu den in [Part Formelement](Part_Feature/de.md) beschriebenen Eigenschaften hat die PfadAnordnung die folgenden Eigenschaften im [Eigenschaftseditor](property_editor/de.md) .
 
 
 </div>

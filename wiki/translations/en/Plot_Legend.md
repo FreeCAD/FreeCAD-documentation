@@ -27,7 +27,7 @@ Remember that the styles and labels of the data series can be edited with the [d
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> External\_Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
 [documentation index](../README.md) > [External_Workbenches](Category_External_Workbenches.md) > Plot Legend/en

@@ -3,7 +3,7 @@
 
 ## Introducción
 
-_, o desde scripts personalizados, puedes controlar FreeCAD y hacer que realice operaciones muy complejas.
+[Python](http://es.wikipedia.org/wiki/Python) es un lenguaje de programación relativamente fácil de aprender y comprender. Es de código abierto y multiplataforma, y puede utilizarse para muchos fines: desde simples scripts de shell hasta programas muy complejos. Pero su uso más extendido es como lenguaje de scripting incrustado en otras aplicaciones. Así es como se utiliza dentro de FreeCAD. Desde la [Consola de Python](Python_console/es.md), o desde scripts personalizados, puedes controlar FreeCAD y hacer que realice operaciones muy complejas.
 
 Por ejemplo, desde un archivo de guión de Python, puedes:
 
@@ -323,7 +323,7 @@ Ahora estás listo para profundizar en guionización FreeCAD. Así que dirígete
 
 }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Python scripting tutorial/es

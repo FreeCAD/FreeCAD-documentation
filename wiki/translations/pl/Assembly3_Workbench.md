@@ -450,8 +450,8 @@ Istnieje wiele sposobów na stworzenie złożenia za pomocą środowiska Złoże
 -   Zmień środowisko pracy na <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Złożenie 3](Assembly3_Workbench/pl.md).
 -   Wybierz przycisk **<img src="images/Assembly_New_Assembly.svg" width=16px> [Utwórz złożenie](Assembly3_CreateAssembly/pl.md)
 **
--   Zmień środowisko pracy na <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ i <img alt="" src=images/Part_Box.svg  style="width:16px;"> [sześcian](Part_Box/pl.md).
--   <img alt="" src=images/Std_Save.svg  style="width:16px;"> _ i <img alt="" src=images/Std_Open.svg  style="width:16px;"> [Otwórz \...](Std_Open/pl.md) ponownie plik.
+-   Zmień środowisko pracy na <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Część](Part_Workbench/pl.md) i dodaj <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [walec](Part_Cylinder/pl.md) i <img alt="" src=images/Part_Box.svg  style="width:16px;"> [sześcian](Part_Box/pl.md).
+-   <img alt="" src=images/Std_Save.svg  style="width:16px;"> [Zapisz](Std_Save.md) plik z dowolną nazwą, którą wybierzesz. <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:16px;"> [Zamknij](Std_CloseActiveWindow/pl.md) i <img alt="" src=images/Std_Open.svg  style="width:16px;"> [Otwórz \...](Std_Open/pl.md) ponownie plik.
 
 Widok drzewa powinien wyglądać tak jak poniżej *(0.20.pre i Link Branch)*:
 
@@ -599,7 +599,7 @@ Jednym ze sposobów rozwiązania tego problemu jest po prostu usunięcie wszystk
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > Assembly3 Workbench/pl

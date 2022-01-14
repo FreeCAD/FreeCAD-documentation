@@ -63,7 +63,7 @@ Tener un solo punto de control a menudo no es suficiente. Tomemos el ejemplo de 
 
 Para responder a la pregunta, la solución con el final de la dirección y tangencial para el ejemplo es ésta:
 
-<img src=images/B-splines_Motivation-cubic-bezier.png style="width:450px">
+[<img src=images/B-splines_Motivation-cubic-bezier.png style="width:450px">
 
 === Matemáticas ===
 
@@ -151,19 +151,19 @@ FreeCAD ofrece la posibilidad de crear B-splines uniformes o no uniformes de cua
 
 ### Creación
 
-Para crear B-splines, entra en un sketch y utiliza el botón de la barra de herramientas **<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Crear B-spline](Sketcher_CreateBSpline/es.md)**. A continuación, haz clic con el botón izquierdo para establecer un punto de control, mueve el ratón con el botón izquierdo para establecer el siguiente punto de control y así sucesivamente. Finalmente, haz clic con el botón derecho para terminar la definición y crear la B-spline.
+Para crear B-splines, entra en un sketch y utiliza el botón de la barra de herramientas **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Crear B-spline](Sketcher_CreateBSpline/es.md)**. A continuación, haz clic con el botón izquierdo para establecer un punto de control, mueve el ratón con el botón izquierdo para establecer el siguiente punto de control y así sucesivamente. Finalmente, haz clic con el botón derecho para terminar la definición y crear la B-spline.
 
 Por defecto se crean splines cúbicas uniformes, excepto que no hay suficientes puntos de control para hacerlo. Así que cuando se crea una B-splinecon sólo 2 puntos de control, se obtiene por supuesto una spline que es curva lineal simple de Bézier, para 3 puntos de control se obtiene una curva cuadrática de Bézier, primero con 5 puntos de control se obtiene una spline B cúbica que consiste en 2 segmentos de Bézier.
 
-Para crear B-splines periódicas (B-splines que forman una curva cerrada), utiliza el botón de la barra de herramientas **<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [B-spline periódica](Sketcher_CreatePeriodicBSpline/es.md)**. No es necesario fijar el último punto de control sobre el primero porque la B-spline se cerrará automáticamente:
+Para crear B-splines periódicas (B-splines que forman una curva cerrada), utiliza el botón de la barra de herramientas **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [B-spline periódica](Sketcher_CreatePeriodicBSpline/es.md)**. No es necesario fijar el último punto de control sobre el primero porque la B-spline se cerrará automáticamente:
 
 ![](images/Sketcher_Periodic-B-spline-creation.gif )
 
-Las B-splines también pueden generarse a partir de segmentos de croquis existentes. Para ello, seleccione los elementos y pulse el botón de la barra de herramientas **<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Convertir geometría en B-spline](Sketcher_BSplineApproximate/es.md)**.
+Las B-splines también pueden generarse a partir de segmentos de croquis existentes. Para ello, seleccione los elementos y pulse el botón de la barra de herramientas **[<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Convertir geometría en B-spline](Sketcher_BSplineApproximate/es.md)**.
 
 ### Cambio de grado 
 
-Para cambiar el grado, seleccione la B-spline y utilice el botón de la barra de herramientas **<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> <img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:Aumentar grado de la B-spline](Sketcher_BSplineIncreaseDegree/es.md)** o **[24px"> [Decrementar grado de B-spline](Sketcher_BSplineDecreaseDegree/es.md)**.
+Para cambiar el grado, seleccione la B-spline y utilice el botón de la barra de herramientas **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> [Aumentar grado de la B-spline](Sketcher_BSplineIncreaseDegree/es.md)** o **[<img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:24px"> [Decrementar grado de B-spline](Sketcher_BSplineDecreaseDegree/es.md)**.
 
 Nota:\'\'\' Disminuir el grado no puede revertir un aumento anterior del grado, ver la página Wiki [Disminuir el grado de la B-spline](Sketcher_BSplineDecreaseDegree/es.md) para una explicación.
 
@@ -171,7 +171,7 @@ Nota:\'\'\' Disminuir el grado no puede revertir un aumento anterior del grado, 
 
 Los puntos donde se conectan dos curvas Bézier para formar la B-spline se llaman nudos. La multiplicidad de nudos determina cómo se conectan las partes de Bézier, vea la página Wiki [Aumentar multiplicidad de nudos](Sketcher_BSplineIncreaseKnotMultiplicity/es.md) para más detalles.
 
-Para cambiar la multiplicidad de nudos, utilice los botones de la barra de herramientas **<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:24px"> <img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:B-spline aumenta la multiplicidad de nudos](Sketcher_BSplineIncreaseKnotMultiplicity/es.md)** o **[24px"> [B-spline disminuye la multiplicidad de los nudos](Sketcher_BSplineDecreaseKnotMultiplicity/es.md)**.
+Para cambiar la multiplicidad de nudos, utilice los botones de la barra de herramientas **[<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:24px"> [B-spline aumenta la multiplicidad de nudos](Sketcher_BSplineIncreaseKnotMultiplicity/es.md)** o **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:24px"> [B-spline disminuye la multiplicidad de los nudos](Sketcher_BSplineDecreaseKnotMultiplicity/es.md)**.
 
 **Nota:** La creación de dos B-Splines conectadas entre sí no se unirá a una sola B-spline nueva. Por lo tanto, su punto de conexión no es un nodo. La única manera de obtener un nuevo nodo en una B-spline existente es disminuir el grado. Sin embargo, puede obtener muchos nudos nuevos. Por tanto, la mejor opción es redibujar la B-spline con más puntos de control.
 
@@ -201,23 +201,23 @@ Como la forma de una B-spline no dice mucho sobre sus propiedades, FreeCAD ofrec
 | Propiedad                  | Botón de la barra de herramientas                                                                                                                     |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Grado**                  |                                                                                                                                        |
-|                            | **<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [Mostrar/ocultar el polígono de control de la B-spline](Sketcher_BSplineDegree/es.md)**               |
+|                            | **[<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [Mostrar/ocultar el polígono de control de la B-spline](Sketcher_BSplineDegree/es.md)**               |
 |                            |                                                                                                                                                    |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Polígono de control**    |                                                                                                                                        |
-|                            | **<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Mostrar/ocultar el polígono de control de la B-spline](Sketcher_BSplinePolygon/es.md)**             |
+|                            | **[<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Mostrar/ocultar el polígono de control de la B-spline](Sketcher_BSplinePolygon/es.md)**             |
 |                            |                                                                                                                                                    |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Peine de curvatura**     |                                                                                                                                        |
-|                            | **<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Mostrar/Ocultar peine de curvatura B-spline](Sketcher_BSplineComb/es.md)**                             |
+|                            | **[<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Mostrar/Ocultar peine de curvatura B-spline](Sketcher_BSplineComb/es.md)**                             |
 |                            |                                                                                                                                                    |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Multiplicidad de nudos** |                                                                                                                                        |
-|                            | **<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [Mostrar/Ocultar multiplicidad de nudos B-spline](Sketcher_BSplineKnotMultiplicity/es.md)** |
+|                            | **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [Mostrar/Ocultar multiplicidad de nudos B-spline](Sketcher_BSplineKnotMultiplicity/es.md)** |
 |                            |                                                                                                                                                    |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Pesos**                  |                                                                                                                                        |
-|                            | **<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Mostrar/Ocultar el peso del punto de control de la B-spline](Sketcher_BSplinePoleWeight/es.md)** |
+|                            | **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Mostrar/Ocultar el peso del punto de control de la B-spline](Sketcher_BSplinePoleWeight/es.md)** |
 |                            |                                                                                                                                                    |
 +----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------+
 

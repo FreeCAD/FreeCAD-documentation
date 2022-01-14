@@ -6,7 +6,7 @@
 
 </div>
 
-_ 다른 차례가 있습니다.
+[FreeCAD MANUAL의](Manual_Introduction.md) 다른 차례가 있습니다.
 
 
 <div class="mw-translate-fuzzy">
@@ -152,7 +152,7 @@ _ 다른 차례가 있습니다.
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/ko

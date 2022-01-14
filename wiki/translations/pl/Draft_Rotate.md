@@ -22,7 +22,7 @@ Narzędzie Przesuń może być używane na obiektach 2D utworzonych za pomocą �
 
 ## Użycie
 
-Zobacz także strony: _.
+Zobacz także strony: [Rysunek Roboczy: Przyciąganie](Draft_Snap/pl.md) i [Rysunek Roboczy: Wiązania](Draft_Constrain/pl.md).
 
 1.  Opcjonalnie wybierz jeden lub więcej obiektów, albo jeden lub więcej elementów podrzędnych [linii](Draft_Line/pl.md) lub [linii łamanej](Draft_Wire.md).
 2.  Istnieje kilka sposobów na wywołanie polecenia:
@@ -57,7 +57,7 @@ Wspomniane tutaj skróty klawiaturowe mogą być zmienione. Zobacz stronę [Rysu
 
 ## Ustawienia
 
-Zobacz także strony: _.
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
 -   Aby zmienić liczbę miejsc po przecinku używanych do wprowadzania współrzędnych i kątów: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
 -   Aby zachować i ponownie wykorzystać to samo ustawienie trybu kopiowania w różnych poleceniach: **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Tryb kopiowania globalny**.

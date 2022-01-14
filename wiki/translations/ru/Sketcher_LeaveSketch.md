@@ -16,7 +16,7 @@
 ## Применение
 
 1.  Есть несколько способов вызвать инструмент the Sketcher LeaveSketch:
-    -   Нажать кнопку **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Leave sketch](Sketcher_LeaveSketch/ru.md)**
+    -   Нажать кнопку **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Leave sketch](Sketcher_LeaveSketch/ru.md)**
     -   Нажать кнопку **Close** наверху вкладки [Задачи](Task_panel/ru.md).
 
 

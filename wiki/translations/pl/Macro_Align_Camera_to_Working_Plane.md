@@ -8,7 +8,7 @@
 |Date=2017-03-16
 |Download=[https://www.freecadweb.org/wiki/images/f/fd/Macro_Align_Camera_to_Working_Plane.png ToolBar Icon]
 |FCVersion=Wszystkie
-|SeeAlso=<img src=images/Macro_Align_Working_Plane_to_Camera.png style="width:Makrodefinicja: Wyrównaj płaszczyznę roboczą do ujęcia widoku](Macro_Align_Working_Plane_to_Camera/pl.md) [24px"> 
+|SeeAlso=[Makrodefinicja: Wyrównaj płaszczyznę roboczą do ujęcia widoku](Macro_Align_Working_Plane_to_Camera/pl.md) [<img src=images/Macro_Align_Working_Plane_to_Camera.png style="width:24px"> 
 }}
 
 ## Opis

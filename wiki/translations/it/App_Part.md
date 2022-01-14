@@ -15,7 +15,7 @@ Un oggetto [App Part](App_Part/it.md), o formalmente un `App::Part`, è un eleme
 
 ## Utilizzo
 
-1.  Premere il pulsante **<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/it.md)**. Viene creata una parte vuota che diventa automaticamente *[attiva](Std_Part/it#Stato_attivo.md)*.
+1.  Premere il pulsante **[<img src=images/Std_Part.svg style="width:16px"> [Std Part](Std_Part/it.md)**. Viene creata una parte vuota che diventa automaticamente *[attiva](Std_Part/it#Stato_attivo.md)*.
 2.  Per aggiungere oggetti a una parte, trascinarli e rilasciarli sulla parte nella [vista ad albero](tree_view/it.md).
 3.  Per rimuovere oggetti da una parte, trascinarli fuori dalla parte e sull\'etichetta del documento nella parte superiore della [vista ad albero](tree_view/it.md).
 
@@ -23,7 +23,7 @@ Vedere la pagina [Std Part](Std_Part/it.md) per le informazioni complete, inclus
 
 ## Proprietà
 
-Una classe _ (`App::GeoFeature`), pertanto condivide la maggior parte delle proprietà di quest\'ultima.
+Una classe [App Part](App_Part/it.md) (`App::Part`) è derivata dalla classe base [App GeoFeature](App_GeoFeature/it.md) (`App::GeoFeature`), pertanto condivide la maggior parte delle proprietà di quest\'ultima.
 
 Vedere l\'elenco completo delle proprietà nella pagina [Std Part](Std_Part/it.md).
 

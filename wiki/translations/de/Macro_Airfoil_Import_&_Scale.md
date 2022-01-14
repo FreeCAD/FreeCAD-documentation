@@ -48,7 +48,7 @@ Die Dateiauswahl entspricht der Version 1.5. Mit Version 2 haben Sie nun die Wah
 
 <div class="mw-translate-fuzzy">
 
-Die neueste Version des Makros ist zu finden auf _.
+Die neueste Version des Makros ist zu finden auf [AirfoilImportAndScale.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/AirfoilImportAndScale.FCMacro), aber der einfachste Weg zur Installation dieses Makros ist die Nutzung des [Addon-Managers](Std_AddonMgr/de.md).
 
 
 </div>

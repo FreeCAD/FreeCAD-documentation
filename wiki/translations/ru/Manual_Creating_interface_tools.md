@@ -1,7 +1,7 @@
 # Manual:Creating interface tools/ru
 {{Manual:TOC/ru}}
 
-В последних двух главах мы видели как _ и _. Чтобы получить полный контроль за FreeCAD, осталось одно: создание инструментов, взаимодействующими с пользователем.
+В последних двух главах мы видели как [создать геометрию Part](Manual:Creating_and_manipulating_geometry/ru.md) и [создавать параметрический объекты](Manual:Creating_parametric_objects/ru.md). Чтобы получить полный контроль за FreeCAD, осталось одно: создание инструментов, взаимодействующими с пользователем.
 
 В большинстве случаев не стоит подвергать пользователя испытанию, когда объект конструируется с нулевыми значениями, как мы делали с прямоугольником в предыдущей главе, и затем спрашивать пользователя заполнить значения Height и Width в панели Properties. Это работает для очень малого числа объектов, но становится утомительным когда надо создать их во множестве. Лучше иметь возможность задавать Height и Width при создании прямоугольника.
 
@@ -128,7 +128,7 @@ w.BoxHeight.value()
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Manual:Creating interface tools/ru

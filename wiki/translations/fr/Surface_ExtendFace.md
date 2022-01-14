@@ -12,7 +12,7 @@
 ## Description
 
 
-**<img src=images/Surface_ExtendFace.svg style="width:16px"> [Surface ExtendFace](Surface_ExtendFace/fr.md)**
+**[<img src=images/Surface_ExtendFace.svg style="width:16px"> [Surface ExtendFace](Surface_ExtendFace/fr.md)**
 
 extrapole une face ou une surface existante à ses limites avec ses paramètres U et V locaux.
 
@@ -24,9 +24,9 @@ extrapole une face ou une surface existante à ses limites avec ses paramètres 
 
 ## Utilisation
 
-1.  Assurez-vous que vous avez un objet qui a des faces. L\'objet peut être créé avec l\'<img alt="" src=images/Workbench_Surface.svg  style="width:24px;"> _ ou <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/fr.md).
+1.  Assurez-vous que vous avez un objet qui a des faces. L\'objet peut être créé avec l\'<img alt="" src=images/Workbench_Surface.svg  style="width:24px;"> [atelier Surface](Surface_Workbench/fr.md) mais il peut également s\'agir de tout autre objet, par exemple, créé avec \[[1](File:Workbench_Part.svg%7C24px) \] [Part](Part_Workbench/fr.md) ou <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/fr.md).
 2.  Sélectionnez la face à étendre en cliquant dessus dans la [Vue 3D](3D_view/fr.md).
-3.  Appuyez sur **<img src=images/Surface_ExtendFace.svg style="width:16px"> [Extend face](Surface_ExtendFace/fr.md)**.
+3.  Appuyez sur **[<img src=images/Surface_ExtendFace.svg style="width:16px"> [Extend face](Surface_ExtendFace/fr.md)**.
 
 ## Options
 
@@ -34,7 +34,7 @@ Cette commande n\'a pas d\'options. Soit cela fonctionne avec la sélection, soi
 
 ## Propriétés
 
-_ (classe `Part::Feature` via la sous-classe `Part::Spline`). Elles partagent donc toutes les propriétés de cette dernière.
+[Surface ExtendFace](Surface_ExtendFace/fr.md) (classe `Surface::Extend`) est dérivée de la classe de base [Part Feature](Part_Feature/fr.md) (classe `Part::Feature` via la sous-classe `Part::Spline`). Elles partagent donc toutes les propriétés de cette dernière.
 
 Outre les propriétés décrites dans [Part Feature](Part_Feature/fr.md), Surface Remplissage a les propriétés suivantes dans l\'[éditeur de propriétés](Property_editor/fr.md).
 

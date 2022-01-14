@@ -65,7 +65,7 @@ Cu toate acestea, toate obiectele, parametrice sau nu, vor avea câțiva dintre 
 
 </div>
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Manual:Parametric objects/ro

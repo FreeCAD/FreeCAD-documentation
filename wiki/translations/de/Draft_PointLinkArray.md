@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Das **<img src=images/Draft_PointLinkArray.svg style="width:16px"> <img src=images/Draft_PointArray.svg style="width:Entwurf PunktVerknüpfeAnordnung](Draft_PointLinkArray/de.md)** Werkzeug platziert Kopien einer ausgewählten Form entlang verschiedener ausgewählter Punkte. Es funktioniert auf dieselbe Weise wie **[16px"> [PunktAnordnung](Draft_PointArray/de.md)** dafür aber erstellt es interne [Anwendungsverknüpfungs](App_Link/de.md) Objekte anstelle von einfachen Kopien.
+Das **[<img src=images/Draft_PointLinkArray.svg style="width:16px"> [Entwurf PunktVerknüpfeAnordnung](Draft_PointLinkArray/de.md)** Werkzeug platziert Kopien einer ausgewählten Form entlang verschiedener ausgewählter Punkte. Es funktioniert auf dieselbe Weise wie **[<img src=images/Draft_PointArray.svg style="width:16px"> [PunktAnordnung](Draft_PointArray/de.md)** dafür aber erstellt es interne [Anwendungsverknüpfungs](App_Link/de.md) Objekte anstelle von einfachen Kopien.
 
 
 </div>

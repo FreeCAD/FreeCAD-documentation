@@ -6,7 +6,7 @@ Zde je obsah stránky online help systému ve FreeCADu. Články, které jsou zd
 
 </div>
 
-There is another table of contents for the _.
+There is another table of contents for the [FreeCAD MANUAL](Manual_Introduction.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -167,7 +167,7 @@ There is another table of contents for the _.
 
 
 
-_ _
+[Kategorie:Dokumentace](<img src="images/Property.png" style="width:16px"> Documentation/cs.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > Online Help Toc/cs

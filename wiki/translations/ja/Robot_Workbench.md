@@ -11,7 +11,7 @@ The reason this workbench is still in the master source code is because this wor
 
 <div class="mw-translate-fuzzy">
 
-ロボットワークベンチは_。 以下の作業を行うことができます：
+ロボットワークベンチは[Kuka](http://kuka.com/)のような産業用[6軸ロボットのシミュレートのためのツールです](Robot_6-Axis/jp.md)。 以下の作業を行うことができます：
 
 -   ロボット、加工物とシミュレーション環境のセットアップ
 -   軌道の作成と書き込み
@@ -33,7 +33,7 @@ You can do the following tasks:
 
 <div class="mw-translate-fuzzy">
 
-以下で例を見ることができます： _
+以下で例を見ることができます： [サンプルファイル](http://www.freecad-project.de/svn/ExampleData/Examples/RobotSimulation/) または [ロボットのチュートリアル](Robot_tutorial/jp.md)
 
 
 </div>
@@ -124,7 +124,7 @@ See the [Robot API example](Robot_API_example.md) for a description of the funct
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Robot Workbench/ja

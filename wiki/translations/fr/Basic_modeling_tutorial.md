@@ -3,7 +3,7 @@
 |Topic= Introduction à la modélisation
 |Level= Débutant
 |Time= 15 minutes
-|Author=_
+|Author=[NormandC](User_Normandc.md)
 |FCVersion=toutes
 |Files=aucun
 }}
@@ -20,7 +20,7 @@ Sauvegardez régulièrement votre travail, et de temps en temps, sauvegardez-le 
 
 ## Introduction aux techniques de modélisation 
 
-La première technique (et celle de base) de la modélisation solide est la _ sur le wiki. Vous construisez votre géométrie à l\'aide de formes primitives telles que des cubes, cylindres, sphères et cônes en les combinant, par soustraction d\'une forme par une autre, ou par l\'intersection de deux formes. Ces outils font partie de l\'[atelier Pièce](Part_Workbench/fr.md). Vous pouvez également appliquer des transformations aux formes, par exemple des congés (arrondis) ou chanfreins à des arêtes. Ces outils sont également dans l\'[atelier Pièce](Part_Workbench/fr.md).
+La première technique (et celle de base) de la modélisation solide est la [géométrie de construction de solides (GCS)](http://fr.wikipedia.org/wiki/G%C3%A9om%C3%A9trie_de_construction_de_solides). Il y a aussi une explication détaillée (dans le contexte de FreeCAD) de [Géométrie Solide Constructive](Constructive_solid_geometry/fr.md) sur le wiki. Vous construisez votre géométrie à l\'aide de formes primitives telles que des cubes, cylindres, sphères et cônes en les combinant, par soustraction d\'une forme par une autre, ou par l\'intersection de deux formes. Ces outils font partie de l\'[atelier Pièce](Part_Workbench/fr.md). Vous pouvez également appliquer des transformations aux formes, par exemple des congés (arrondis) ou chanfreins à des arêtes. Ces outils sont également dans l\'[atelier Pièce](Part_Workbench/fr.md).
 
 Puis il y a des outils plus avancés. Vous commencez par dessiner une esquisse en 2D qu\'ensuite vous extruderez ou ferez révolutionner.
 

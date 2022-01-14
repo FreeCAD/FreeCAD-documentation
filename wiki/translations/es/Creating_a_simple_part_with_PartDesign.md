@@ -24,7 +24,7 @@ Este tutorial tiene como objetivo enseñar a los principiantes de FreeCAD alguna
 
 ### Utilizando [Ambiente de trabajo PartDesign](PartDesign_Workbench/es.md), trazando el boceto 
 
-Create a new document and switch to the **<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design workbench'''** using either the [workbench selector](Getting_started#Exploring_the_interface.md) (labelled 10 in the linked image) or by going to the *View → Workbench* menu. FreeCAD will start with toolbars at the top, the combo view to the left and the 3D view at the right.
+Create a new document and switch to the **[<img src=images/Workbench_PartDesign.svg style="width:24px"> '''Part Design workbench'''** using either the [workbench selector](Getting_started#Exploring_the_interface.md) (labelled 10 in the linked image) or by going to the *View → Workbench* menu. FreeCAD will start with toolbars at the top, the combo view to the left and the 3D view at the right.
 
 **Create body:**
 
@@ -119,7 +119,7 @@ If your sketch is not yet green, one or more points are not coincident (2 points
 
 Proceed in the same way with all the points.
 
-If your sketch is still not green, verify that all lines (but the slanted one) have either a <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> _ constraint, and add if necessary.
+If your sketch is still not green, verify that all lines (but the slanted one) have either a <img alt="" src=images/Constraint_Horizontal.svg  style="width:24px;"> [Horizontal](Sketcher_ConstrainHorizontal.md) or <img alt="" src=images/Constraint_Vertical.svg  style="width:24px;"> [Vertical](Sketcher_ConstrainVertical.md) constraint, and add if necessary.
 
 ### Using Pad and Pocket features 
 

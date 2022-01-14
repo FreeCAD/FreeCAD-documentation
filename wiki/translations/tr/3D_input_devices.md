@@ -12,7 +12,7 @@ FreeCAD, 3D fareler gibi bazı özel giriş aygıtlarını destekler. Bunlar, ku
 
 </div>
 
-_
+[category:Documentation](category_Documentation.md)
 
 ---
 [documentation index](../README.md) > 3D input devices/tr

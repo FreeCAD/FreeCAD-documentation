@@ -34,7 +34,7 @@ Selezionare due o più segmenti di linea (ad esempio una linea e un lato del ret
 
 <div class="mw-translate-fuzzy">
 
-Fare clic sull\'icona **<img src=images/Constraint_EqualLength.png style="width:16px"> [Uguale](Sketcher_ConstrainEqual/it.md)** nella barra degli strumenti di vincolo o selezionare il vincolo Uguale dal sottomenu dell\'ambiente Schizzo (o quello dell\'ambiente PartDesign).
+Fare clic sull\'icona **[<img src=images/Constraint_EqualLength.png style="width:16px"> [Uguale](Sketcher_ConstrainEqual/it.md)** nella barra degli strumenti di vincolo o selezionare il vincolo Uguale dal sottomenu dell\'ambiente Schizzo (o quello dell\'ambiente PartDesign).
 
 
 </div>

@@ -19,7 +19,7 @@ Wikipedia [elenca molti pacchetti software ad elementi finiti](https://en.wikipe
 
 <div class="mw-translate-fuzzy">
 
-Il repository _ esamina i risolutori FEA open source che potrebbero essere utilizzati con [FEM](FEM_Workbench/it.md). La pagina mostra la versione di un particolare solutore nel repository di una particolare distribuzione Linux. Questa informazione è utile per sapere se un risolutore è aggiornato o non lo è e deve essere aggiornato.
+Il repository [FreeCAD-dependencies](https://github.com/luzpaz/FreeCAD-dependencies) tiene traccia delle dipendenze di FreeCAD su molte distribuzioni Linux. La pagina [FEM.md](https://github.com/luzpaz/FreeCAD-dependencies/blob/master/FC-Workbenches/FEM.md) esamina i risolutori FEA open source che potrebbero essere utilizzati con [FEM](FEM_Workbench/it.md). La pagina mostra la versione di un particolare solutore nel repository di una particolare distribuzione Linux. Questa informazione è utile per sapere se un risolutore è aggiornato o non lo è e deve essere aggiornato.
 
 
 </div>
@@ -46,7 +46,7 @@ Il solutore multifisico Elmer è stato integrato in FreeCAD come progetto di [Go
 
 ### Z88
 
-Il solutore Z88 è progettato per simulazioni statiche lineari con particolare attenzione all\'insegnamento del metodo degli elementi finiti. È stato il secondo risolutore ad essere _.
+Il solutore Z88 è progettato per simulazioni statiche lineari con particolare attenzione all\'insegnamento del metodo degli elementi finiti. È stato il secondo risolutore ad essere [integrato in FreeCAD](https://forum.freecadweb.org/viewtopic.php?f=18&t=15568). Successivamente, l\'integrazione è stata migliorata come progetto [Google Summer of Code 2017](Google_Summer_of_Code_2017.md).
 
 Vedere le informazioni:
 
@@ -137,7 +137,7 @@ L\'autore considera FreeCAD una buona piattaforma di prototipazione per configur
 
 <div class="mw-translate-fuzzy">
 
-fcFEM è impacchettato come una libreria python e una macro e può essere scaricato dal _, o sarà distribuito come parte di FreeCAD stesso.
+fcFEM è impacchettato come una libreria python e una macro e può essere scaricato dal [github repository](https://github.com/HarryvL/fcFEM). Alla fine sarà disponibile dal [Addon manager](Std_AddonMgr/it.md), o sarà distribuito come parte di FreeCAD stesso.
 
 
 </div>
@@ -153,7 +153,7 @@ Vedere: [main website](https://fenicsproject.org/), [Fenics as Solver](https://f
 
 <div class="mw-translate-fuzzy">
 
-_ che nell\'[ambiente esterno](external_workbenches/it.md) Cfd , quindi il sistema risultante funziona come un\'alternativa gratuita a Comsol o Moose. FenicsSolver è sviluppato dallo stesso autore di Cfd.
+[FenicsSolver](https://github.com/qingfengxia/FenicsSolver) è una piattaforma di simulazione per affrontare problemi multi-corpo, multi-fisica (accoppiati) e multi-scala. Si spera di integrare il solutore FEniCS sia in [FEM](FEM_Workbench/it.md) che nell\'[ambiente esterno](external_workbenches/it.md) Cfd , quindi il sistema risultante funziona come un\'alternativa gratuita a Comsol o Moose. FenicsSolver è sviluppato dallo stesso autore di Cfd.
 
 
 </div>
@@ -218,7 +218,7 @@ Nei forum è stato suggerito di eseguire l\'analisi dei rinforzi del cemento arm
 
 [libMesh](https://libmesh.github.io/) è una libreria di elementi finiti C++ per la soluzione numerica di equazioni alle derivate parziali, con l\'obiettivo principale di fornire supporto per calcoli di affinamento reticolare adattivo (AMR) in parallelo: [code repository](https://github.com/libMesh/libmesh).
 
-È stato suggerito di integrare questa libreria in FreeCAD come parte di un _.
+È stato suggerito di integrare questa libreria in FreeCAD come parte di un [progetto](https://forum.freecadweb.org/viewtopic.php?f=8&t=35493) [Google Summer of Code](Google_Summer_of_Code.md).
 
 ### Modelica
 

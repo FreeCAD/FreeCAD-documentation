@@ -3,7 +3,7 @@ GewindeProfil Arbeitsbereich ist ein Arbeitsbereich zur Erstellung eines Gewinde
 
 Die vollständige Dokumentation ist auf Github zu finden: [GewindeProfil Arbeitsbereich auf Github](https://github.com/mwganson/ThreadProfile)
 
-_
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > ThreadProfile Workbench/de

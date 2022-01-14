@@ -43,7 +43,7 @@ Voir le fil du forum [Macro for unrolling ruled surfaces](http://forum.freecadwe
 
 ## Script
 
-La dernière version de la macro se trouve à l\'adresse suivante: _.
+La dernière version de la macro se trouve à l\'adresse suivante: [UnrollRuledSurface.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/Drawing/UnrollRuledSurface.FCMacro) mais le moyen le plus simple d'installer cette macro est d\'utiliser le <img alt="Std\_AddonMgr" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md).
 
 ToolBar Icon ![](images/Macro_Unroll_Ruled_Surface.png )
 

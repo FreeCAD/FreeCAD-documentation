@@ -5,7 +5,7 @@ This category lists pages related to the [Image Workbench/sv](Image_Workbench/sv
 
 [Image Workbench/sv](Image_Workbench/sv.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches/sv](<img src="images/Property.png" style="width:16px"> Workbenches/sv.md)
 
 ---
 [documentation index](../README.md) > Category:Image/sv

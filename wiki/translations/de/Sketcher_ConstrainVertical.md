@@ -18,7 +18,7 @@ Erstellt eine vertikale Beschränkung für die gewählten Linien oder Polylinien
 
 1.  Wähle die Linien oder Knoten, die vertikal beschränkt werden sollen
 2.  Um den Befehl für die vertikale Beschränkung aufzurufen:
-    -   Drücke das**<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Constrain vertical](Sketcher_ConstrainVertical.md)**
+    -   Drücke das**[<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Constrain vertical](Sketcher_ConstrainVertical.md)**
     -   Verwende das Tastaturkürzel **V**
     -   Verwende den {{MenuCommand/de|Skizze → Skizzierer Beschränkungen → Vertikal beschränken}} Eintrag im Skizze Auswahlmenü.
 3.  Alternativ kann das Werkzeug ohne vorherige Auswahl gestartet werden, und es erwartet eine Auswahl; aber nur Linien sind auswählbar.

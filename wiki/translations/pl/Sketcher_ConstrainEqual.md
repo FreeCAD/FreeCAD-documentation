@@ -24,7 +24,7 @@ Wybierz co najmniej dwa segmenty linii *(np. Linię i jeden bok prostokąta)*.
 
 ![](images/EqualConstraint2.png )
 
-Kliknij na przycisk **<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Wiązanie równości](Sketcher_ConstrainEqual.md)** na pasku narzędzi Szkicownika *(w Środowiska pracy Szkicownik lub Projekt części)* lub wybierz pozycję menu Wiązanie równości z podmenu Wiązania Środowiska pracy Szkicownik lub lub Projekt części, zależnie od tego, które środowisko pracy zostanie wybrane, aby zastosować wiązanie do wybranych elementów.
+Kliknij na przycisk **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Wiązanie równości](Sketcher_ConstrainEqual.md)** na pasku narzędzi Szkicownika *(w Środowiska pracy Szkicownik lub Projekt części)* lub wybierz pozycję menu Wiązanie równości z podmenu Wiązania Środowiska pracy Szkicownik lub lub Projekt części, zależnie od tego, które środowisko pracy zostanie wybrane, aby zastosować wiązanie do wybranych elementów.
 
 ![](images/EqualConstraint3.png )
 
@@ -32,7 +32,7 @@ Teraz wybierz łuk i okrąg na szkicu.
 
 ![](images/EqualConstraint4.png )
 
-i zastosuj **<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Wiązanie równości](Sketcher_ConstrainEqual.md)** jak poprzednio.
+i zastosuj **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Wiązanie równości](Sketcher_ConstrainEqual.md)** jak poprzednio.
 
 ![](images/EqualConstraint5.png )
 
@@ -40,7 +40,7 @@ Teraz wybierz odcinek linii, wszystkie segmenty linii łamanej i jeden z pozosta
 
 ![](images/EqualConstraint6.png )
 
-i zastosuj **<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Wiązanie równości](Sketcher_ConstrainEqual.md)** jak poprzednio.
+i zastosuj **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Wiązanie równości](Sketcher_ConstrainEqual.md)** jak poprzednio.
 
 ![](images/EqualConstraint7.png )
 
@@ -48,7 +48,7 @@ Wybierz segment linii i łuk
 
 ![](images/EqualConstraint8.png )
 
-i zastosuj **<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Wiązanie równości](Sketcher_ConstrainEqual.md)** jak poprzednio. Wyskakujący komunikat wskazuje, że elementy podlegające wiązaniom muszą być tego samego typu geometrycznego *(linie o krzywiznach zerowych lub linie o krzywiznach niezerowych)*.
+i zastosuj **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Wiązanie równości](Sketcher_ConstrainEqual.md)** jak poprzednio. Wyskakujący komunikat wskazuje, że elementy podlegające wiązaniom muszą być tego samego typu geometrycznego *(linie o krzywiznach zerowych lub linie o krzywiznach niezerowych)*.
 
 ![](images/EqualConstraint9.png )
 

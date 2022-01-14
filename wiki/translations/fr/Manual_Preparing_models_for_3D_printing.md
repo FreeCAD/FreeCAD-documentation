@@ -5,7 +5,7 @@ L\'une des principales utilisations de FreeCAD est de produire des objets du mon
 
 Si vous avez été précautionneux lors de la modélisation, la plupart des difficultés que vous pourriez rencontrer lors de l\'impression de votre modèle en 3D a déjà été évitée. Cela implique essentiellement :
 
--   de vérifier que vos objets 3D sont des **solides**. Les objets du monde réel sont des solides, le modèle 3D doit aussi être un solide. Nous avons vu dans des chapitres précédents que FreeCAD vous aide beaucoup dans ce sens et que l'atelier Part Design (_) pour vérifier les défauts éventuels.
+-   de vérifier que vos objets 3D sont des **solides**. Les objets du monde réel sont des solides, le modèle 3D doit aussi être un solide. Nous avons vu dans des chapitres précédents que FreeCAD vous aide beaucoup dans ce sens et que l'atelier Part Design ([PartDesign Workbench](PartDesign_Workbench.md)) vous informera si vous faites une opération qui empêche votre modèle de rester un solide. L'atelier Part ([Part Workbench](Part_Workbench/fr.md)) contient également un outil de vérification de la géométrie (<img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> [Check Geometry](Part_CheckGeometry/fr.md)) pour vérifier les défauts éventuels.
 -   de vérifier les **dimensions** de vos objets. Un millimètre sur le modèle sera un millimètre dans la vie réelle. Toute dimension a son importance.
 -   de contrôler la **dégradation**. Aucune imprimante 3D ou système de fraisage CNC ne peut utiliser directement les fichiers FreeCAD. La plupart d\'entre eux ne comprennent qu\'un langage machine appelé [G-Code](https://en.wikipedia.org/wiki/G-code). G-code a des dizaines de variantes différentes. Chaque machine ou fournisseur utilise généralement son propre G-code. La conversion de vos modèles en G-code peut être simple et automatique mais vous pouvez le faire également manuellement avec un contrôle total sur la sortie. En tout cas, une certaine perte de qualité de votre modèle se produira inévitablement pendant le processus. Lors de l\'impression en 3D, vous devez toujours vous assurer que cette perte de qualité reste inférieure à vos exigences minimales.
 
@@ -63,7 +63,7 @@ Une fois que vous avez installé Cura et l\'atelier Cura, vous pourrez l\'utilis
 -   Chargez le fichier contenant notre brique Lego (il peut être téléchargé à la fin du chapitre précédent)
 -   Allez dans l'[atelier Cura](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin).
 -   Configurez l\'espace de l\'imprimante en choisissant le menu **Impression 3D → Définir une imprimante 3D**. Comme nous n\'allons pas imprimer de façon réelle, nous pouvons laisser les paramètres tels qu\'ils sont. La géométrie du lit d\'impression et l\'espace disponible seront affichés dans la vue 3D.
--   Déplacez la brique Lego à un endroit approprié, comme le centre du lit d\'impression. N\'oubliez pas que les objets PartDesign ne peuvent pas être déplacés directement, donc vous devez soit déplacer sa toute première esquisse (le premier rectangle), ou déplacer (et créer) une copie, qui peut être faite avec l\'outil _.
+-   Déplacez la brique Lego à un endroit approprié, comme le centre du lit d\'impression. N\'oubliez pas que les objets PartDesign ne peuvent pas être déplacés directement, donc vous devez soit déplacer sa toute première esquisse (le premier rectangle), ou déplacer (et créer) une copie, qui peut être faite avec l\'outil [Part -\> Créer copie simple](Part_SimpleCopy.md). La copie peut être déplacée, par exemple avec l'outil <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Déplacer](Draft_Move/fr.md).
 -   Sélectionnez l\'objet à imprimer et sélectionnez dans le menu **Impression 3D → Trancher avec le moteur Cura**.
 -   Dans le panneau de tâches qui s\'ouvre, assurez-vous que le chemin d\'accès à l\'exécutable Cura est correctement défini. Comme nous n\'allons pas vraiment imprimer, nous pouvons laisser toutes les autres options telles qu\'elles sont. Appuyez sur **OK**. Deux fichiers seront générés dans le même répertoire que votre fichier FreeCAD, un fichier STL et un fichier G-code.
 
@@ -103,7 +103,7 @@ La génération de parcours de fraisage CNC est un autre sujet qui est trop vast
 
 ![](images/Exercise_path_04.jpg )
 
--   Il ne reste plus qu\'à réunir ces deux opérations en une seule. Cela peut être fait avec une _.
+-   Il ne reste plus qu\'à réunir ces deux opérations en une seule. Cela peut être fait avec une [Path Tâche](Path_Job/fr.md). Appuyez sur le bouton <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Tâche](Path_Job/fr.md).
 -   Définir la propriété **Use Placements** du projet à True car nous avons changé le placement des réseaux et nous voulons que cela soit pris en compte dans le projet.
 -   Dans l\'arborescence, faites glisser et déposez les deux réseaux dans le projet. Vous pouvez réorganiser des réseaux à l\'intérieur du projet si nécessaire, en double-cliquant dessus.
 -   Le projet peut maintenant être exporté en G-code, en le sélectionnant, en choisissant le menu **Fichier → Exporter**, en sélectionnant le format G-code et dans la boîte de dialogue contextuelle qui s\'ouvrira en sélectionnant un post processeur adapté à votre machine.
@@ -133,7 +133,7 @@ Il existe de nombreuses applications disponibles pour simuler l'usinage réel, l
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Path](Category_Path.md) [<img src="images/Property.png" style="width:16px"> Mesh](Category_Mesh.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Path](Category_Path.md) > Manual:Preparing models for 3D printing/fr

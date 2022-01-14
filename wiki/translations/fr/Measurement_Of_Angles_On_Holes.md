@@ -23,10 +23,10 @@ Il existe plusieurs manières pour créer une ligne médiane sur des trous. En p
 :   <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:24px;"> [Ajouter une ligne centrale entre 2 Lignes](TechDraw_2LineCenterLine/fr.md)
 
 <img alt="" src=images/TechDraw_Tutorial_2PointCenterLine_example.png  style="width:250px;"> 
-*Ci-dessus: création avec <img src=images/TechDraw_2PointCenterLine.svg style="width:16px"> d'un trait d'axe entre 2 points*
+*Ci-dessus: création avec [<img src=images/TechDraw_2PointCenterLine.svg style="width:16px"> d'un trait d'axe entre 2 points*
 
 <img alt="" src=images/TechDraw_Tutorial_2LineCenterLine_example.png  style="width:250px;"> 
-*Ci-dessus: création avec <img src=images/TechDraw_2LineCenterLine.svg style="width:16px"> d'un trait d'axe entre 2 lignes*
+*Ci-dessus: création avec [<img src=images/TechDraw_2LineCenterLine.svg style="width:16px"> d'un trait d'axe entre 2 lignes*
 
 Dans la boîte de dialogue de la vue combinée associée, sélectionnez dans le panneau des tâches sous *Orientation*, *Aligned* pour les axes hors des axes principaux. Par *Extend By*, on entend la longueur de la ligne centrale au-delà de la ligne du corps dans le dessin. Avec *Shift Horizontal* et *Shift Vertical*, la ligne centrale peut se déplacer dans le sens horizontal ou vertical, si nécessaire. *Style* signifie la figure de la ligne centrale.
 

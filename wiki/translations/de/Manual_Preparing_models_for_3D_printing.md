@@ -5,7 +5,7 @@ Einer der Haupteinsatzbereiche von FreeCAD ist die Herstellung von Objekten aus 
 
 Wenn du beim Modellieren vorsichtig warst, sind die meisten Schwierigkeiten, auf die du beim Drucken deines Modells in 3D stoßen könntest, bereits vermieden worden. Dies betrifft im Wesentlichen:
 
--   Stelle sicher, dass deine 3D Objekte **fest** sind. Objekte der realen Welt sind fest, das 3D Modell muss ebenfalls fest sein. Wir haben in früheren Kapiteln gesehen, dass FreeCAD dir in dieser Hinsicht sehr hilft und dass die _ Werkzeug das praktisch ist zur weiteren Prüfung auf mögliche Fehler.
+-   Stelle sicher, dass deine 3D Objekte **fest** sind. Objekte der realen Welt sind fest, das 3D Modell muss ebenfalls fest sein. Wir haben in früheren Kapiteln gesehen, dass FreeCAD dir in dieser Hinsicht sehr hilft und dass die [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) dich benachrichtigt, wenn du eine Operation durchführst, die verhindert, dass dein Modell fest bleibt. Der [Part Arbeitsbereich](Part_Workbench/de.md) enthält auch ein <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> [Überprüfe Geometrie](Part_CheckGeometry/de.md) Werkzeug das praktisch ist zur weiteren Prüfung auf mögliche Fehler.
 -   vergewissere dich über die **Abmessungen** deiner Objekte. Ein Millimeter ist in der Praxis ein Millimeter. Jede Abmessung ist wichtig.
 -   Kontrolle der **Verringerung**. Kein 3D Druck- oder CNC Frässystem kann FreeCAD Dateien direkt übernehmen. Die meisten von ihnen verstehen nur eine Maschinensprache namens [G-Code](https://en.wikipedia.org/wiki/G-code). G-Code hat Dutzende von verschiedenen Dialekten, jede Maschine oder jeder Anbieter hat normalerweise seinen eigenen. Die Konvertierung deiner Modelle in G-Code kann einfach und automatisch erfolgen, aber du kannst sie auch manuell durchführen, wobei du die volle Kontrolle über die Ausgabe hast. In jedem Fall wird während des Prozesses unvermeidlich ein gewisser Qualitätsverlust Ihres Modells auftreten. Wenn du in 3D druckst, musst du immer sicherstellen, dass dieser Qualitätsverlust unter deinen Mindestanforderungen bleibt.
 
@@ -62,7 +62,7 @@ Sobald du sowohl Cura als auch den Cura Arbeitsbereich installiert hast, kannst 
 -   Lade die Datei mit unserem Lego Stein (sie kann am Ende des vorherigen Kapitels heruntergeladen werden)
 -   Wechsle zum [Cura Arbeitsbereich](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin)
 -   Richte den Druckerbereich ein, indem du das Menü **3D Drucken → 3D Druckerdefinition erstellen** wählst. Da wir nicht wirklich drucken werden, können wir die Einstellungen so belassen, wie sie sind. Die Geometrie des Druckbettes und der verfügbare Platz werden in der 3D Ansicht angezeigt.
--   Bewege den Legostein an eine geeignete Stelle, z.B. in die Mitte des Druckbettes. Denke daran, dass PartDesign Objekte nicht direkt verschoben werden können, daher musst du entweder seine allererste Skizze (das erste Rechteck) verschieben oder eine Kopie verschieben (und drucken), die mit dem _ verschoben werden.
+-   Bewege den Legostein an eine geeignete Stelle, z.B. in die Mitte des Druckbettes. Denke daran, dass PartDesign Objekte nicht direkt verschoben werden können, daher musst du entweder seine allererste Skizze (das erste Rechteck) verschieben oder eine Kopie verschieben (und drucken), die mit dem [Part → Erzeuge einfache Kopie](Part_SimpleCopy/de.md) Werkzeug erstellt werden kann. Die Kopie kann z.B. mit <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Entwurf → Bewegen](Draft_Move/de.md) verschoben werden.
 -   Wähle das zu druckende Objekt und wähle das Menü **3D Drucken → Zerschneiden mit Cura Maschine**.
 -   Vergewissere dich, dass der Pfad zur ausführbaren Cura Datei in dem sich öffnenden Aufgabenreiter korrekt eingestellt ist. Da wir nicht wirklich drucken werden, können wir alle anderen Optionen so lassen, wie sie sind. Drücke **Ok**. Es werden zwei Dateien im gleichen Verzeichnis wie deine FreeCAD-Datei erzeugt, eine STL-Datei und eine G-Code Datei.
 
@@ -102,7 +102,7 @@ Die Generierung von CNC Fräsbahnen ist ein weiteres Thema, das viel zu umfangre
 
 ![](images/Exercise_path_04.jpg )
 
--   Nun müssen diese beiden Vorgänge nur noch zu einem einzigen zusammengefügt werden. Dies kann mit einem _ Schaltfläche.
+-   Nun müssen diese beiden Vorgänge nur noch zu einem einzigen zusammengefügt werden. Dies kann mit einem [Pfad Auftrag](Path_Job/de.md) geschehen. Drücke die <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Pfadauftrag](Path_Job/de.md) Schaltfläche.
 -   Setze die Eigenschaft **Platzierungen verwenden** des Projekts auf True, da wir die Platzierung der Anordnungen geändert haben, und wir möchten daß dies im Projekt berücksichtigt wird.
 -   Ziehe in der Baumansicht die beiden Anordnungen per Ziehen & Ablegen in das Projekt. Du kannst die Anordnungen innerhalb des Projekts bei Bedarf neu anordnen, indem du darauf doppelklickst.
 -   Das Projekt kann nun in G-Code exportiert werden, indem du es auswählst, das Menü **Datei -\> Exportieren** wählst, das G-Code Format auswählst und im sich öffnenden Aufklappdialog ein Nach-Bearbeitungsskript entsprechend deiner Maschine auswählst.
@@ -132,7 +132,7 @@ Es gibt viele Anwendungen, um das reale Schneiden zu simulieren, eine davon, die
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Path](Category_Path.md) [<img src="images/Property.png" style="width:16px"> Mesh](Category_Mesh.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Path](Category_Path.md) > Manual:Preparing models for 3D printing/de

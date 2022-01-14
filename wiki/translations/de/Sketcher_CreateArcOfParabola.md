@@ -18,7 +18,7 @@ Dieses Werkzeug erzeugt einen Bogen der Parabel durch Fokus, Knoten und Endpunkt
 
 ## Anwendung
 
-1.  Drücke die **<img src=images/Sketcher_CreateArcOfParabola.svg style="width:16px"> [Parabelbogen](Sketcher_CreateArcOfParabola/de.md)**
+1.  Drücke die **[<img src=images/Sketcher_CreateArcOfParabola.svg style="width:16px"> [Parabelbogen](Sketcher_CreateArcOfParabola/de.md)**
 
 Schaltfläche.
 

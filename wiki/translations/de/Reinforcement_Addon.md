@@ -17,7 +17,7 @@ Diese Erweiterung wurde während des [Google Summer of Code](Google_Summer_of_Co
 
 Der Arch Arbeitsbereich bietet nur ein Bewehrungswerkzeug:
 
--   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> _ unter Verwendung einer [Skizze](Sketcher_Workbench/de.md).
+-   <img alt="" src=images/Arch_Rebar.svg  style="width:32px;"> [Bewehrung](Arch_Rebar/de.md): erstellt einen maßgefertigten Bewehrungsstab in einer ausgewählten [Arch Struktur](Arch_Structure/de.md) unter Verwendung einer [Skizze](Sketcher_Workbench/de.md).
 
 Die Bewehrungserweiterung bietet zusätzliche Armierungsarten:
 
@@ -46,7 +46,7 @@ Neue Arbeitsbereiche sind in Entwicklung, bleib dran!
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement Addon/de

@@ -1,5 +1,5 @@
 # Customize Toolbars/fr
-{{TutorialInfo/fr|Topic=SampleTopic|Level=Débutant|Time=5 minutes|Author=_|FCVersion=Toutes}}
+{{TutorialInfo/fr|Topic=SampleTopic|Level=Débutant|Time=5 minutes|Author=[Mario52](User_Mario52.md)|FCVersion=Toutes}}
 
 ## Sommaire
 
@@ -73,7 +73,7 @@ Sélectionnez la macro fournie dans la ligne \'\' \'Macro:\' \'\' et spécifiez 
 
 -   Sélectionnez l\'onglet \"Barre d\'outils\" et choisissez l\'atelier (pour lequel la barre d\'outils est fournie) dans le menu déroulant à droite (\"Part\'\' dans cet exemple).
 
-     \<img src=images/Freecad.svg style="width:Depuis la version 0.15, il y a une barre d\'outils **[16px"> Globale**. Si celle-ci est sélectionnée, la barre d\'outils fournie sera présente dans chaque atelier.\]
+     \[Depuis la version 0.15, il y a une barre d\'outils **[<img src=images/Freecad.svg style="width:16px"> Globale**. Si celle-ci est sélectionnée, la barre d\'outils fournie sera présente dans chaque atelier.\]
 
 <img alt="Onglet Barre d\'outils" src=images/CustomizeToolBar_11.png  style="width:640px;"> 
 
@@ -117,7 +117,7 @@ Voir aussi :
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/fr

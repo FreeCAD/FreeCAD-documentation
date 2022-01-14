@@ -68,7 +68,7 @@ La herramienta de biblioteca le permite colocar, en el modelo actual, un objeto 
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> BIM](Category_BIM.md)
 
 ---
 [documentation index](../README.md) > [BIM](Category_BIM.md) > BIM Library/es

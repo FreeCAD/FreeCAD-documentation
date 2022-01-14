@@ -6,7 +6,7 @@
 
 {{TOCright}}
 
-_.
+[Python](https://www.python.org) est un langage de programmation de haut niveau à usage général très utilisé dans les grandes applications pour automatiser certaines tâches en créant des scripts ou des [macros](macros/fr.md).
 
 Dans FreeCAD, le code Python peut être utilisé pour créer divers éléments par programmation, sans qu\'il soit nécessaire de cliquer sur l\'interface graphique. De plus, de nombreux outils et ateliers de FreeCAD sont programmés en Python.
 
@@ -126,7 +126,7 @@ Structure = Arch.make_structure(Wire, name="Big pillar")
 
 }}
 
-_ _ _ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> API](Category_API.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Python/fr

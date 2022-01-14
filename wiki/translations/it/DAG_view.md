@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-La _.
+La [vista DAG](DAG_view/it.md) è un [grafico aciclico diretto](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (DAG) che mostra le relazioni tra i diversi oggetti nel documento. Intende principalmente mostrare come determinati oggetti dipendono da altri in un modello complesso con molte funzioni e riferimenti, come quelli che possono essere creati con <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/it.md).
 
 La vista DAG assomiglia al grafico che può essere prodotto da un repository Git e dai suoi rami. Insieme allo [vista ad albero](tree_view/it.md) standard e al [grafico delle dipendenze](Std_DependencyGraph/it.md), la vista DAG è uno strumento per ispezionare la storia parametrica degli oggetti in un documento.
 

@@ -138,7 +138,7 @@ Es gibt zwei einfache Wege, um die Historie loszuwerden, einer ist die Nutzung d
 
 **Zusammenbauen**
 
-Aber das Beste aus beiden Welten existiert ebenfalls, das ist die _ und <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [Entwurf Drehen](Draft_Rotate/de.md) zu positionieren, als die Assembly2-Beschränkungen zu benutzen.
+Aber das Beste aus beiden Welten existiert ebenfalls, das ist die [Assembly2 Workbench](https://github.com/hamish2014/FreeCAD_assembly2), eine Erweiterung, die aus dem [FreeCAD Erweiterungen](https://github.com/FreeCAD/FreeCAD-addons) Repositorium installiert werden kann. Dieser Arbeitsbereich wurde \"2\" benannt, weil außerdem ein offizielle eingebauter Zusammenbau Arbeitsbereich in der Entwicklung ist, die noch nicht fertig ist. Die Assembly2-Workbench jedoch arbeitet bereits sehr gut, um Baugruppen zu konstruieren, und bietet eine Reihe von Objekt-zu-Objekt Beschränkungen, die Sie benutzen können, um die Position in Relation zu einer anderen zu beschränken. Im folgenden Beispiel jedoch ist es schneller und einfacher, die Teile mithilfe von <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Entwurf Versetzen](Draft_Move/de.md) und <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [Entwurf Drehen](Draft_Rotate/de.md) zu positionieren, als die Assembly2-Beschränkungen zu benutzen.
 
 -   Speichern Sie den aktuellen Zustand
 -   Installieren Sie die [Assembly2 Arbeitsbereich](https://github.com/hamish2014/FreeCAD_assembly2) und starten Sie FreeCAD neu
@@ -170,7 +170,7 @@ Aber das Beste aus beiden Welten existiert ebenfalls, das ist die _ und <img alt
 
 </div>
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/de

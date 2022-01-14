@@ -55,11 +55,11 @@ Poziția plană este de obicei decuplată (în special în aplicațiile de cadas
 
 Suport general pentru rich text.
 
-Notă: informațiile din această pagină se bazează pe o înțelegere superficială a internelor FreeCAD. Odată ce acesta aprofundează cerințele, punerea în aplicare poate fi ajustată. Contribuțiile sunt binevenite!\--_ 11:00, 26 January 2013 (UTC)
+Notă: informațiile din această pagină se bazează pe o înțelegere superficială a internelor FreeCAD. Odată ce acesta aprofundează cerințele, punerea în aplicare poate fi ajustată. Contribuțiile sunt binevenite!\--[Xtnickx](User_Xtnickx.md) 11:00, 26 January 2013 (UTC)
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Land Survey Workbench Blueprint/ro

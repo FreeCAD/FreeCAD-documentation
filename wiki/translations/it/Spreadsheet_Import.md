@@ -24,7 +24,7 @@ Lo strumento <img alt="" src=images/Spreadsheet_Import.svg  style="width:16px;">
 
 ## Utilizzo
 
-1.  Premere il pulsante **<img src=images/Spreadsheet_Import.svg style="width:16px"> Importa un foglio di calcolo**.
+1.  Premere il pulsante **[<img src=images/Spreadsheet_Import.svg style="width:16px"> Importa un foglio di calcolo**.
 2.  Scegliere il file CSV.
 
 ## Notes

@@ -8,7 +8,7 @@
 |Date=2012-11-09
 |FCVersion=Until 0.17 '''and PyQt4'''
 |Download=Ово није макро него једна ВоркБенцх, декомпримирајте .зип датотеку и налепите комплетан директоријум у Мод корисничком именику [https://github.com/KeithSloan/FreeCAD_Info/archive/master.zip Info]
-|SeeAlso=<img src=images/Arch_Survey.svg style="width:Arch Survey|24px"> [Arch Survey](Arch_Survey/cs.md)
+|SeeAlso=[Arch Survey|<img src=images/Arch_Survey.svg style="width:24px"> [Arch Survey](Arch_Survey/cs.md)
 }}
 
 ## Popis

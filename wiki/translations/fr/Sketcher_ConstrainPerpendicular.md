@@ -12,7 +12,7 @@
 
 ## Description
 
-La contrainte perpendiculaire fait que deux lignes soient perpendiculaires (càd orthognales) l\'une à l\'autre, ou deux courbes soit perpendiculaires à leur intersection. Les lignes sont traitées infinie, et des arcs sont traités comme des cercles pleins/ellipses. La contrainte est également capable de connecter deux courbes, les forçant perpendiculaire à la jointure, de manière similaire à la **<img src=images/Sketcher_ConstrainTangent.svg style="width:16px"> [Contrainte tangente](Sketcher_ConstrainTangent/fr.md)**.
+La contrainte perpendiculaire fait que deux lignes soient perpendiculaires (càd orthognales) l\'une à l\'autre, ou deux courbes soit perpendiculaires à leur intersection. Les lignes sont traitées infinie, et des arcs sont traités comme des cercles pleins/ellipses. La contrainte est également capable de connecter deux courbes, les forçant perpendiculaire à la jointure, de manière similaire à la **[<img src=images/Sketcher_ConstrainTangent.svg style="width:16px"> [Contrainte tangente](Sketcher_ConstrainTangent/fr.md)**.
 
 ## Utilisation
 

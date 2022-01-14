@@ -103,7 +103,7 @@ Pour la deuxième utilisation de **Extend Face**, une Esquisse avec deux contour
 
 (La forme de la languette n\'est qu\'une vision artistique de ce qui pourrait être caché à l\'intérieur d\'une vraie prise).
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal Examples/fr

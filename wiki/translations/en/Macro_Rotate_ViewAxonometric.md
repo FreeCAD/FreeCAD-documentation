@@ -8,7 +8,7 @@
 |FCVersion=All
 |Download= [https://www.freecadweb.org/wiki/images/2/2e/Macro_Rotate_View_with_Y_pointing_upwards_.png Macro_Rotate_View_with_Y_pointing_upwards_]<br />[https://www.freecadweb.org/wiki/images/a/a2/Macro_Rotate_View_with_Z_pointing_upwards_.png Macro_Rotate_View_with_Z_pointing_upwards_]
 |Date=2010-11-17
-|SeeAlso=<img src=images/Macro_Rotate_View_view_90_Degrees.png style="width:Macro_Rotate_View](Macro_Rotate_View.md) [24px">
+|SeeAlso=[Macro_Rotate_View](Macro_Rotate_View.md) [<img src=images/Macro_Rotate_View_view_90_Degrees.png style="width:24px">
 }}
 
 ## Description

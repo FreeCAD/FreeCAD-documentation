@@ -11,7 +11,7 @@ Cet addon a été développé au cours du [Google Summer of Code](Google_Summer_
 
 L\'atelier Arch fournit un seul outil de barres d'armature:
 
--   <img alt="" src=images/_Arch_Rebar.svg  style="width:32px;"> _ sélectionnée à l\'aide d\'une [esquisse](Sketcher_Workbench/fr.md).
+-   <img alt="" src=images/_Arch_Rebar.svg  style="width:32px;"> [Armature personnalisée](Arch_Rebar/fr.md): crée une barre de renfort personnalisée dans une [structure Arch](Arch_Structure/fr.md) sélectionnée à l\'aide d\'une [esquisse](Sketcher_Workbench/fr.md).
 
 L\'addon Barres de renfort (armature) fournit des types de barres supplémentaires:
 
@@ -40,7 +40,7 @@ De nouveaux ateliers sont en développement alors tenez vous au jus!
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Reinforcement Addon/fr

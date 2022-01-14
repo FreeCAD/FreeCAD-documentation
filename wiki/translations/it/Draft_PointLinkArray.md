@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento **Serie di link su punti** posiziona copie di una forma selezionata lungo vari punti selezionati. Funziona allo stesso modo di **<img src=images/Draft_PointArray.svg style="width:16px"> [Serie su punti](Draft_PointArray/it.md)** ma crea oggetti interni [App Link](App_Link/it.md) invece di semplici copie.
+Lo strumento **Serie di link su punti** posiziona copie di una forma selezionata lungo vari punti selezionati. Funziona allo stesso modo di **[<img src=images/Draft_PointArray.svg style="width:16px"> [Serie su punti](Draft_PointArray/it.md)** ma crea oggetti interni [App Link](App_Link/it.md) invece di semplici copie.
 
 
 </div>

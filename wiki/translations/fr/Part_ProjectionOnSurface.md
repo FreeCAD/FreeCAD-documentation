@@ -12,11 +12,11 @@
 ## Description
 
 
-**<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Projection sur surface](Part_ProjectionOnSurface/fr.md)**
+**[<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Projection sur surface](Part_ProjectionOnSurface/fr.md)**
 
-est utilisé pour projeter une <img src=images/_Draft_ShapeString.svg style="width:forme](Shape/fr.md) au-dessus d\'une surface depuis une autre [forme](Shape/fr.md). Cela peut être utilisé pour projeter un logo ou un objet texte (voir **[16px"> [Draft Formes à partir texte](Draft_ShapeString/fr.md)**) sur des surfaces courbes pour créer des effets intéressants.
+est utilisé pour projeter une [forme](Shape/fr.md) au-dessus d\'une surface depuis une autre [forme](Shape/fr.md). Cela peut être utilisé pour projeter un logo ou un objet texte (voir **[<img src=images/_Draft_ShapeString.svg style="width:16px"> [Draft Formes à partir texte](Draft_ShapeString/fr.md)**) sur des surfaces courbes pour créer des effets intéressants.
 
-À partir d\'une _ pour des effets tels que la gravure ou l\'estampage.
+À partir d\'une [Forme](Shape/fr.md), cet outil peut projeter des arêtes, des fils (arêtes fermées) ou des faces entières à partir de celle-ci. Le résultat peut être de nouvelles arêtes, de nouveaux fils, de nouvelles faces ou même de nouveaux solides extrudés qui peuvent être utilisés dans des <img alt="" src=images/Part_Boolean.svg  style="width:24px;"> [opérations booléennes](Part_Boolean/fr.md) pour des effets tels que la gravure ou l\'estampage.
 
 <img alt="" src=images/Part_ProjectionOnSurface1.png  style="width:300px;"> <img alt="" src=images/Part_ProjectionOnSurface2.png  style="width:300px;">
 
@@ -27,7 +27,7 @@ est utilisé pour projeter une <img src=images/_Draft_ShapeString.svg style="wid
 ## Utilisation
 
 1.  Assurez-vous d\'avoir au moins deux objets dans votre document; l\'objet \"source\" que vous souhaitez projeter et l\'objet \"cible\" où la projection sera faite.
-2.  Cliquez sur **<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Créer une projection sur une surface](Part_ProjectionOnSurface/fr.md)** pour lancer un [Panneau des tâches](Task_Panel/fr.md) avec différentes options.
+2.  Cliquez sur **[<img src=images/Part_ProjectionOnSurface.svg style="width:16px"> [Créer une projection sur une surface](Part_ProjectionOnSurface/fr.md)** pour lancer un [Panneau des tâches](Task_Panel/fr.md) avec différentes options.
 3.  Cliquez sur **Select projection surface**, puis cliquez sur la surface \"cible\" où la projection sera créée.
 4.  Cliquez ensuite sur le bouton spécifique pour choisir le type de sous-élément que vous souhaitez ajouter à votre objet de projection.
     -   
@@ -84,7 +84,7 @@ L\'algorithme de projection n\'est parfois pas en mesure de créer une face de p
 
 Si ça arrive:
 
--   Vérifiez si votre face source est valide, essayez d\'exécuter l\'outil **<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part Vérifier la géométrie](Part_CheckGeometry/fr.md)** pour obtenir des indices.
+-   Vérifiez si votre face source est valide, essayez d\'exécuter l\'outil **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Part Vérifier la géométrie](Part_CheckGeometry/fr.md)** pour obtenir des indices.
 -   Vérifiez si la direction de projection est valide. La face source peut-elle être projetée de manière réaliste sur la surface cible? Une projection droite toucherait-elle la surface? Ajustez la caméra de sorte que la face source soit devant la surface cible et réessayez.
 -   Essayez d\'utiliser l\'option {{RadioButton|TRUE|Afficher les bords}}. Les bords sont-ils correctement projetés? Essayez de créer à la main une face avec les bords.
 

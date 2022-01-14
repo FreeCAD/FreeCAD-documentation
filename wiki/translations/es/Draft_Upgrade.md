@@ -38,7 +38,7 @@ El <img alt="" src=images/Draft_Upgrade.svg  style="width:24px;"> comando **Borr
 
 ## Guión
 
-Ver también: _.
+Ver también: [Documentación de la API autogenerada](https://freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
 
 Para elevar objetos utilice el método `upgrade` del módulo Borrador.
 

@@ -1,7 +1,7 @@
 # Release notes 0.16/pt
 <div class="mw-translate-fuzzy">
 
-O FreeCAD 0.16 foi lançado a 18 abril, 2016 descarregue aqui _ - [0.14](Release_notes_0.14.md) - [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
+O FreeCAD 0.16 foi lançado a 18 abril, 2016 descarregue aqui [Download](Download.md). Este é o sumário das alterações mais interessantes. A lista completa de alterações pode ser encontrada na [Histórico de alterações](http://www.freecadweb.org/tracker/changelog_page.php). Versões antigas em: [0.15](Release_notes_0.15/pt.md) - [0.14](Release_notes_0.14.md) - [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
 
 
 </div>
@@ -89,7 +89,7 @@ A **Bancada de trabalho FEM** teve toneladas de melhoramentos. Ela provou ser ut
 
 ## Arch Workbench 
 
--   **_ attached, which uses FreeCAD\'s builtin materials framework. These materials are shared among other workbenches. These materials are fully supported by IFC import and export.
+-   **[Materials support](Arch_SetMaterial.md)**: Arch objects can now have a [material](material.md) attached, which uses FreeCAD\'s builtin materials framework. These materials are shared among other workbenches. These materials are fully supported by IFC import and export.
 -   The **[Section plane](Arch_SectionPlane.md)** can now do clipping of the 3D view, showing the section in realtime.
 
 <img alt="" src=images/Arch_clip_plane.jpg  style="width:1024px;">
@@ -138,7 +138,7 @@ A couple of new [addons workbenches](https://github.com/FreeCAD/FreeCAD-addons) 
 
 ![](images/Macro_installer_02.jpg )
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > Release notes 0.16/pt

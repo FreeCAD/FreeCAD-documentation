@@ -8,7 +8,7 @@ Dacă ați fost prudenți în timpul modelării, cea mai mare parte a dificultă
 
 <div class="mw-translate-fuzzy">
 
--   Asigurarea că obiectele dvs sunt **solid**. obiectele din lumea reală sunt solide ( sau cel puțin cochilii), modelul 3D trebuie să fie și solid. Am văzut în capitolele anterioare că FreeCAD vă ajută foarte mult în această privință, și că _ care este util pentru a verifica în continuare posibilele defecte.
+-   Asigurarea că obiectele dvs sunt **solid**. obiectele din lumea reală sunt solide ( sau cel puțin cochilii), modelul 3D trebuie să fie și solid. Am văzut în capitolele anterioare că FreeCAD vă ajută foarte mult în această privință, și că [PartDesign Workbench](PartDesign_Workbench.md) vă va anunța dacă efectuați o operație care împiedică modelul să rămână solid. Atelierul [Part Workbench](Part_Workbench.md) conține de asemenea uin instrument <img alt="" src=images/Part_CheckGeometry.png  style="width:16px;"> [Check Geometry](Part_CheckGeometry.md) care este util pentru a verifica în continuare posibilele defecte.
 -   Asigurați-vă de unitățile de măsură folosite la cotele/ **dimensiunile** obiectului dvs. Un milimetru în desen va fi un milimetru în viața reală. Fiecare cotă/dimensiune are importanță.
 -   Controlarea **degradării**. Nicio imprimantă 3D sau sistem de frezare CNC nu poate prelua direct fișierele FreeCAD. Multe dintre ele vor înțelege doar limbajul mașină numit [G-Code](https://en.wikipedia.org/wiki/G-code). Codul G are zeci de dialecte diferite, fiecare mașină sau vânzător de mașini are de obicei propria sa variantă. Conversia modelelor dvs. în G-Code poate fi ușoară și automată, dar o puteți face și manual, cu un control total asupra ieșirii. În orice caz, o anumită pierdere a calității modelului dvs. va apărea în mod inevitabil în timpul procesului. Când printați în 3D, trebuie să vă asigurați întotdeauna că această pierdere de calitate rămâne sub exigențile dvs. minime.
 
@@ -103,7 +103,7 @@ Odată ce ați instalat atât Cura, cât și atelierul Cura, le veți putea util
 -   Încărcați fișierul care conține caramida Lego (poate fi descărcat de la sfârșitul capitolului precedent)
 -   Mergeți în atelierul [Cura Workbench](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin)
 -   Configurați spațiul de lucru al imprimantei și selectați meniul **3D printing -\> Create a 3D printer definition**. Din moment ce nu vom imprima in mod real, vom folosi parametrii asa cum sunt. Geometria spațiului de imprimare și spațiul disponibil vor fi afișate în vizualizarea 3D.
--   Deplasați caramida Lego într-o locație potrivită, cum ar fi centrul patului de imprimare. Rețineți că obiectele PartDesign nu pot fi mutate direct, deci trebuie să mutați prima schiță (primul dreptunghi) sau să mutați (și imprimați) o copie, care poate fi făcută cu instrumentul _.
+-   Deplasați caramida Lego într-o locație potrivită, cum ar fi centrul patului de imprimare. Rețineți că obiectele PartDesign nu pot fi mutate direct, deci trebuie să mutați prima schiță (primul dreptunghi) sau să mutați (și imprimați) o copie, care poate fi făcută cu instrumentul [Part -\> Create Simple Copy](Part_SimpleCopy.md). copia poate fi mutată, de exemplu cu <img alt="" src=images/Draft_Move.png  style="width:16px;"> [Draft -\> Move](Draft_Move.md).
 -   Selectați obiectul de printat, și selectați meniul **3D printing -\> Slice with Cura Engine**.
 -   În panoul de activități care se va deschide, asigurați-vă că calea către executabilul Cura este definită corect. Din moment ce nu vom imprima cu adevărat, putem lăsa toate celelalte opțiuni așa cum sunt.Apăsați **Ok**. Două fișiere for fi generate în același director ca fișierul dvs FreeCAD, un fișier STL și un fișier G-code.
 
@@ -178,7 +178,7 @@ Generarea traiectoriilor de frezare CNC este un alt subiect care este mult prea 
 
 <div class="mw-translate-fuzzy">
 
--   Acum, tot ce a rămas de făcut este să unească aceste două operațiuni într-una singură. Acest lucru se poate face cu o _.
+-   Acum, tot ce a rămas de făcut este să unească aceste două operațiuni într-una singură. Acest lucru se poate face cu o [Path Job](Path_Job.md). Apăsați pe butonul <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Job](Path_Job.md).
 -   Definiți proprietatea **Use Placements** a proiectului ca fiind True, deoarece am schimbat poziția matriceelor și dorim ca aceasta să fie luate în considerare în proiect.
 -   În vizualizarea arborescentă, glisați și fixați cele două matrice în proiect. Puteți reordona elementele matricii din interiorul proiectului dacă este necesar, făcând dublu clic pe el.
 -   Acum, proiectul poate fi exportat la codul G, prin selectarea acestuia, alegeți meniului **File -\> Export**, selectați formatului de cod G și în dialogul pop-up care se va deschide, selectați un postprocesor de script în funcție de aparatul dvs.
@@ -217,7 +217,7 @@ Există numeroase aplicații disponibile pentru a simula uzinarea reală, una di
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Path](Category_Path.md) [<img src="images/Property.png" style="width:16px"> Mesh](Category_Mesh.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Path](Category_Path.md) > Manual:Preparing models for 3D printing/ro

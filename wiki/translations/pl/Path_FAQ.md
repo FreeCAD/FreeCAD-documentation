@@ -24,7 +24,7 @@ All additions to the Job\--including modifications, and Operation copies\--are a
 
 ## What is the difference between Clearance Height and Safe Height? 
 
-More detailed information is available in _.
+More detailed information is available in [Depths and Heights](Template:Depths/Heights.md).
 
 [top](#top.md)
 

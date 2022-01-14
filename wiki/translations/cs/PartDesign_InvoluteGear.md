@@ -21,7 +21,7 @@ For more detailed information see Wikipedia\'s entries for: [Gear](https://en.wi
 
 ## Usage
 
-1.  Go to the menu **Part Design → <img src=images/PartDesign_InternalExternalGear.svg style="width:24px"> Involute gear...**.
+1.  Go to the menu **Part Design → [<img src=images/PartDesign_InternalExternalGear.svg style="width:24px"> Involute gear...**.
 2.  Set the Involute parameters.
 3.  Click **OK**
 4.  The involute gear is created outside of the active body. Drag and drop it into a body for the application of further features like padding.

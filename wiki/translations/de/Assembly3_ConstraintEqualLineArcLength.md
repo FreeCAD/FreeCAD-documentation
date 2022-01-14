@@ -10,7 +10,7 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Assembly_ConstraintEqualLineArcLength.svg  style="width:16px;"> _-Arbeitsumgebung in Zusammenhang mit einer <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> Arbeitsebene erstellt wurde.
+Der Befehl <img alt="" src=images/Assembly_ConstraintEqualLineArcLength.svg  style="width:16px;"> [Linien- gleich Bogenlänge](Assembly3_ConstraintEqualLineArcLength/de.md) bestimmt die Länge einer 2D-Linie wie z.B. einer nicht unterteilten 2D-Linie, die mit Werkzeugen der <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Draft_Workbench/de.md)-Arbeitsumgebung in Zusammenhang mit einer <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> Arbeitsebene erstellt wurde.
 
 Er verknüpft die Länge einer 2D-Linie mit der Länge eines Bogens (2D or 3D?).
 

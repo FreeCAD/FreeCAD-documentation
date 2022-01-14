@@ -101,7 +101,7 @@ La roue à vis sans fin doit être conçue manuellement. À cet effet, **FCGear 
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> FCGear](Category_FCGear.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > FCGear WormGear/fr

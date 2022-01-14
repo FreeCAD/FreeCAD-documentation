@@ -86,17 +86,17 @@ Voir [Comment installer un atelier supplémentaire](How_to_install_additional_wo
 
 Fonction enlèvement utilisant le nouvel outil OCC7.3
 
-_
+[480px\|left\|thumb \|link=<https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-holes.mp4%7CAtelier> Defeaturing - Les fonctions suppression (trous)](Image:Defeaturing-WB-@Work_v3.png.md)
 
-_
+[480px\|left\|thumb \|link=<https://youtu.be/yrTtWFakAyE> \|alt=Defeaturing-WB-\@Work\|YouTube: outils Defeaturing - Simplification du modèle](Image:Defeaturing-WB-@Work_v1.png.md)
 
-_
+[480px\|left\|thumb \|link=<https://youtu.be/vgQwGI6Fk6Q%7CYouTube>: Outils Defeaturing - Sélection de plusieurs faces pour être défaites](Image:Defeaturing-WB-@Work_v2.png.md)
 
-_
+[480px\|left\|thumb \|link=<https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/removing-fillet-chamfer.mp4%7CAtelier> Defeaturing - Supprimer chanfrein filet](Image:Defeaturing-WB-@Work_v4.png.md)
 
-_
+[480px\|left\|thumb \|link=<https://peertube.mastodon.host/videos/watch/c6bc5abd-2eb7-48c7-af67-c4d8e6783872%7CAtelier> Defeaturing - Vue d\'ensemble des fonctions (en langue allemande)](Image:Defeaturing-WB-@Work_v5.png.md)
 
-_ 
+[480px\|left\|thumb \|link=<https://raw.githubusercontent.com/easyw/FreeCAD-tutorials/master/testing-files/parametric-defeaturing.mp4%7CAtelier> Defeaturing - Déconstruction paramétrique](Image:Defeaturing-WB-@Work_v6.png.md) 
 
 ### Réparation
 
@@ -117,7 +117,7 @@ De nouveaux ateliers sont en développement, restez à l\'écoute !
 
  
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > Defeaturing Workbench/fr

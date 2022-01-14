@@ -557,7 +557,7 @@ N  pyexample_b  Documentation for this module
 
 ### Umwandlung des pythonischen Stils in den Doxygen Stil 
 
-Im vorherigen Beispiel zeigt die Python Datei, die in einem _ kommentiert wird, detailliertere Informationen und Formatierungen für ihre Klassen, Funktionen und Variablen. Der Grund dafür ist, dass dieser Stil es Doxygen erlaubt, die speziellen Befehle zu extrahieren, die mit `\\` oder `@` beginnen, während der _ dies nicht tut. Daher wäre es wünschenswert, den pythonischen Stil in den Doxygen Stil zu konvertieren, bevor die Dokumentation erstellt wird. Dies ist mit einem zusätzlichen Python-Programm namens [doxypypy](https://github.com/Feneric/doxypypy) möglich. Dieses Programm ist inspiriert von einem älteren Programm namens [doxypy](https://github.com/Feneric/doxypy), das den Python '''docstrings'''' nehmen und in die Doxygen Kommentarblöcke konvertieren würde, die mit einem Doppelhash `###` beginnen. Doxypypy geht noch weiter, da es die docstrings analysiert und interessante Elemente wie Variablen und Argumente extrahiert und sogar Doktests (Beispielcode in den docstrings).
+Im vorherigen Beispiel zeigt die Python Datei, die in einem [Doxygen Stil](#Second_style:_documentation_block_before_the_code/de.md) kommentiert wird, detailliertere Informationen und Formatierungen für ihre Klassen, Funktionen und Variablen. Der Grund dafür ist, dass dieser Stil es Doxygen erlaubt, die speziellen Befehle zu extrahieren, die mit `\\` oder `@` beginnen, während der [Pythonischer Stil](#First_style:_Pythonic_documentation/de.md) dies nicht tut. Daher wäre es wünschenswert, den pythonischen Stil in den Doxygen Stil zu konvertieren, bevor die Dokumentation erstellt wird. Dies ist mit einem zusätzlichen Python-Programm namens [doxypypy](https://github.com/Feneric/doxypypy) möglich. Dieses Programm ist inspiriert von einem älteren Programm namens [doxypy](https://github.com/Feneric/doxypy), das den Python '''docstrings'''' nehmen und in die Doxygen Kommentarblöcke konvertieren würde, die mit einem Doppelhash `###` beginnen. Doxypypy geht noch weiter, da es die docstrings analysiert und interessante Elemente wie Variablen und Argumente extrahiert und sogar Doktests (Beispielcode in den docstrings).
 
 Doxypypy kann mit `pip`, dem Installationsprogramm für Python Pakete, installiert werden. 
 ```python
@@ -905,7 +905,7 @@ Siehe diese Antwort in [Stackoverflow](https://stackoverflow.com/a/35377654) fü
 -   [Quelldokumentation](Source_documentation/de.md)
 -   [FreeCAD API Internetseite](https://www.freecadweb.org/api/de/)
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> 3rd Party](Category_3rd_Party.md)
 
 ---
 [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Doxygen/de

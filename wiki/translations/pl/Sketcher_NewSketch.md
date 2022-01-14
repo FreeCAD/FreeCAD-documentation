@@ -13,7 +13,7 @@
 
 W ten sposób powstanie nowy [szkic](Sketcher_Workbench/pl.md).
 
-Należy pamiętać, że Środowisko pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _ zaleca się używanie tego narzędzia.
+Należy pamiętać, że Środowisko pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt części](PartDesign_Workbench/pl.md) ma własne polecenie [utwórz nowy szkic](PartDesign_NewSketch.md), podczas pracy z obiektem [Projekt części: zawartość](PartDesign_Body/pl.md) zaleca się używanie tego narzędzia.
 
 ## Użycie
 

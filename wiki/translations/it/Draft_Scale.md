@@ -26,7 +26,7 @@ Lo strumento <img alt="" src=images/Draft_Scale.svg  style="width:16px;"> Scala 
 
 <div class="mw-translate-fuzzy">
 
-Questo strumento può essere utilizzato su forme 2D create con <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> _ o <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench/it.md).
+Questo strumento può essere utilizzato su forme 2D create con <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Draft_Workbench/it.md) ma può anche essere utilizzato su molti tipi di oggetti 3D come quelli creati con <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench/it.md) o <img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [PartDesign](PartDesign_Workbench/it.md).
 
 
 </div>

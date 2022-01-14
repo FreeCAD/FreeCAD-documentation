@@ -3,36 +3,36 @@
 
 Esta página presenta una selección de video tutoriales hechos por usuarios y desarrolladores de FreeCAD. Visite el subforo [Tutoriales y vídeos](https://forum.freecadweb.org/viewforum.php?f=36) para obtener más enlaces. Una fuente útil de tutoriales de vídeo es [YouTube](https://YouTube.com).
 
-Visite _.
+Visite [tutoriales](tutorials/es.md) para obtener tutoriales escritos de alta calidad. Puedes encontrar una lista completa y sin clasificar de tutoriales en [:<img src="images/Property.png" style="width:16px"> Tutorials](:Category_Tutorials.md).
 
 Si desea contribuir con la redacción de documentación y tutoriales del wiki, consulte [Ayuda FreeCAD](Help_FreeCAD/es.md), las directrices generales del wiki en [WikiPages](WikiPages.md), y siga las [pautas para el tutorial](tutorial_guidelines/es.md).
 
 ## Diseño de productos 
 
-Videos that go through modeling of various solid objects using workbenches such as <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _, and <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench.md).
+Videos that go through modeling of various solid objects using workbenches such as <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md), and <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench.md).
 
 Since there are many videos that deal with this topic, please visit [Video tutorials for product design](Video_tutorials_for_product_design.md).
 
 ## Mallas
 
--   <img src=images/Part_ShapeFromMesh.svg style="width:Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) by AllVisuals4U. It demonstrates the **[16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** tool.
+-   [Edit STL Files In FreeCAD](https://www.youtube.com/watch?v=5lwENZeNiNg&feature=youtu.be) by AllVisuals4U. It demonstrates the **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [Part ShapeFromMesh](Part_ShapeFromMesh.md)** tool.
 
 ## Ensamblaje
 
--   _.
--   _.
+-   [Go further with Asm 3 WB](http://help-freecad-jpg87.fr/025c_ass_ex_creat.php) by jpg87 is website with step by step instructions and videos to demonstrate usage of the [Assembly3 Workbench](Assembly3_Workbench.md).
+-   [FreeCAD Tutorial - Assembly 4 Workbench](https://www.youtube.com/watch?v=n04M6nFvdxs) by Martham Engineering. It showcases the [Assembly4 Workbench](Assembly4_Workbench.md).
 
 ## Dibujo Técnico 
 
--   _, by sliptonic; [1 (Basics)](https://www.youtube.com/watch?v=7LbOmSGW9F0), [2 (Dimensions)](https://www.youtube.com/watch?v=z3w84RfvqaE), [3 (Multiview)](https://www.youtube.com/watch?v=uNjXg-m38aI), [4 (Sections and Detail)](https://www.youtube.com/watch?v=3zSdeFV6I5o), and [5 (Customizing templates)](https://www.youtube.com/watch?v=kcmdJ7xa7gg).
+-   [TechDraw](https://www.youtube.com/watch?v=7LbOmSGW9F0&list=PLEuOia-QxyFKQnmM1U9yVo7eNrK_Mcln8): a series of 5 videos describing the [TechDraw Workbench](TechDraw_Workbench.md), by sliptonic; [1 (Basics)](https://www.youtube.com/watch?v=7LbOmSGW9F0), [2 (Dimensions)](https://www.youtube.com/watch?v=z3w84RfvqaE), [3 (Multiview)](https://www.youtube.com/watch?v=uNjXg-m38aI), [4 (Sections and Detail)](https://www.youtube.com/watch?v=3zSdeFV6I5o), and [5 (Customizing templates)](https://www.youtube.com/watch?v=kcmdJ7xa7gg).
 
 -   [Introduction to the FreeCAD TechDraw Workbench](https://www.youtube.com/watch?v=TnYMfpdNQoo) by Glasson Design Studio. This is particularly aimed at woodworkers but can be used for general solids.
 
 ## Fabricación asistida por ordenador (CAM) 
 
--   _, by sliptonic, one of the main developers of the latter.
+-   [sliptonic playlists](https://www.youtube.com/user/sliptonic/playlists): various videos on using FreeCAD, working with TechDraw and particularly the [Path Workbench](Path_Workbench.md), by sliptonic, one of the main developers of the latter.
     -   [Using FreeCAD version 0.17 Path Workbench](https://www.youtube.com/playlist?list=PLEuOia-QxyFJZSpqb0xOHc9t7MLdCO3io): a series of 9 videos that explain how to use the Path Workbench including the tools and controllers, job setup, visualization, operations, dressups, units, and preferences.
--   _.
+-   [Coder Musashi videos](https://www.youtube.com/channel/UCtNnYMVWGkG-aemOrCtGjCA/videos): various videos on using the [Path Workbench](Path_Workbench.md).
     -   [PathWorkbench creating paths with FeatureArea and other freecad tools](https://www.youtube.com/watch?v=MsDIRIkeNJ4)
 
 ## Visualización y representación 
@@ -42,13 +42,13 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 ## Diseño arquitectónico 
 
-Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _, and <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench.md).
+Videos that go through modeling of rooms, houses, office buildings, and similar structures, and drawing floor plans, using workbenches such as <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Draft](Draft_Workbench.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Arch](Arch_Workbench.md), and <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench.md).
 
 Since there are many videos that deal with this topic, please visit [Video tutorials for architectural design](Video_tutorials_for_architectural_design.md).
 
 ## Método de los Elementos Finitos (MEF) simulación 
 
--   _, by Eklavya Self Learning Tutorials.
+-   [FreeCAD FEM/Civil/Structural/Arch Tutorial-1-An Introduction](https://www.youtube.com/watch?v=wAJe1R5NDGw): FreeCAD 0.16, and introduction that builds a simple structure of pillars and beams, and analyzes them with the <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM Workbench](FEM_Workbench.md), by Eklavya Self Learning Tutorials.
 
 -   [How To Use FreeCAD FEM](https://www.youtube.com/watch?v=dhrynRdBOIg) \[12:15\] FreeCAD v0.19, Intro to using the FEM workbench. Very well done, by Joko Engineering
 
@@ -56,7 +56,7 @@ Since there are many videos that deal with this topic, please visit [Video tutor
 
 ## Otros
 
--   _ that can be installed from the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
+-   [Animation Workbench](https://www.youtube.com/watch?v=AQjAa5JxmOg&list=PLIxaznuCUATKzCFbFUFhRwZMJMnYuQ1JB) by microelly: a series of 7 videos that describes the Animation Workbench by its developer. This is one of the [external workbenches](external_workbenches.md) that can be installed from the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md).
 
 -   [FreeCAD Tutorials - GENERAL](https://www.youtube.com/watch?v=WdBQPXeAeMc&list=PLKu--JcOZKTPZjy761ELQ7ba45yZmxOpj) by AllVisuals4U: FreeCAD 0.16, a series of 28 short videos on general aspects of FreeCAD; for example, it shows how to change units, background color, the splash screen, constraints, set perspective view, set transparency, change the size of toolbar icons, prepare for 3D print, and extrude text. Some more advanced instructions include how to do logo design, metal bending, and assembly. Most videos describe FreeCAD 0.16, but since they don\'t focus on modelling aspects, the information is generally applicable for other versions.
 
@@ -89,7 +89,7 @@ Para más información ver [Tutoriales de vídeo obsoletos](Video_tutorials_obso
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Video tutorials/es

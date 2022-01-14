@@ -51,7 +51,7 @@ Informazioni su FreeCAD apre una finestra che mostra informazioni sul programma.
 
 <div class="mw-translate-fuzzy">
 
-1.  Aprire il menu _.
+1.  Aprire il menu [Aiuto](Std_Help_Menu/it.md) → <img alt="" src=images/Std_About.svg  style="width:16px;"> [Informazioni su FreeCAD](Std_About/it.md).
 2.  Selezionare una delle schede, **Informazioni su**, **Ringraziamenti**, **Licenza**, **Librarie**.
 3.  Per ottenere informazioni utili alla risoluzione dei problemi, premere **Copia negli Appunti**, quindi incollare queste informazioni.
 4.  Premere **OK**, o il tasto **Esc** per chiudere la finestra.
@@ -120,7 +120,7 @@ Mostra un elenco di collaboratori al progetto FreeCAD. Per avere il proprio nome
 
 </div>
 
-FreeCAD è concesso in licenza ai sensi della _.
+FreeCAD è concesso in licenza ai sensi della [GNU Lesser General Public License 2](https://en.wikipedia.org/wiki/GNU_Lesser_General_Public_License) (LGPL 2). Il testo completo di questa licenza è elencato qui. Per ulteriori dettagli vedere la pagina [licenza](licence/it.md).
 
 Poiché FreeCAD utilizza librerie esterne, queste potrebbero avere dei propri termini di licenza. Consultare le loro licenze particolari in [librerie di terze parti](Third_Party_Libraries/it.md).
 
@@ -147,7 +147,7 @@ Mostra un elenco delle librerie esterne utilizzate dal programma e il sito Web p
 
 {{Std Base navi}}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Std About/it

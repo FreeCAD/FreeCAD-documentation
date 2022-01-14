@@ -46,7 +46,7 @@ Alle Eigenschaftseinstellungen mit *kursiven* Beschriftungen sind Standardwerte 
 -   **Vorlagenverzeichnis**: Startverzeichnis für Werkzeugleistenschaltflächen **<img src="images/TechDraw_PageTemplate.svg" width=16px> [Seite unter Verwendung einer Vorlage einfügen](TechDraw_PageTemplate/de.md)**.
 -   **Schraffurmusterdatei**: Standard [SVG](SVG/de.md) oder [Bitmap](bitmap/de.md) Datei für [Schraffuren](TechDraw_Hatch/de.md).
 -   **Liniegruppendatei** Alternative Datei für persönliche [Liniengruppen](TechDraw_LineGroup/de.md) Definitionen.
--   **Schweißverzeichnis**: Standardverzeichnis für Werkzeugleisten Schaltfläche **<img src=images/TechDraw_WeldSymbol.svg style="width:16px"> [Schweißinformationen zur Führungslinie hinzufügen](TechDraw_WeldSymbol/de.md)**. {{Version/de|0.19}}
+-   **Schweißverzeichnis**: Standardverzeichnis für Werkzeugleisten Schaltfläche **[<img src=images/TechDraw_WeldSymbol.svg style="width:16px"> [Schweißinformationen zur Führungslinie hinzufügen](TechDraw_WeldSymbol/de.md)**. {{Version/de|0.19}}
 -   **PAT Datei**: Standard PAT Musterfestlegungsdatei für [Geometrische Schraffuren](TechDraw_GeometricHatch/de.md).
 -   **Mustername**: Name des Standard PAT Musters.
 
@@ -224,7 +224,7 @@ Einige Einrichtungseinstellungen sind nur über den [Parametereditor](Std_DlgPar
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Preferences/de

@@ -41,7 +41,7 @@ Avec la prise en charge des environnements HDRI, les environnements remarquables
 
 ### Fichier inc de l\'utilisateur 
 
-Les utilisateurs expérimentés qui souhaitent accéder à toutes les options du moteur de rendu _ sur notre Wiki.
+Les utilisateurs expérimentés qui souhaitent accéder à toutes les options du moteur de rendu [POV-Ray](http://www.povray.org/) peuvent le faire en créant un fichier spécial. Pour plus de détails, voir la page [Power User](https://gitlab.com/usbhub/exporttopovray/-/blob/master/doc/PowerUser.md) sur notre Wiki.
 
 ## Utilisation
 
@@ -89,7 +89,7 @@ Pour terminer l\'installation, le chemin d\'accès à l\'exécutable POV-Ray doi
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > POV-Ray-Rendering Workbench/fr

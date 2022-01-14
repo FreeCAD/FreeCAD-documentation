@@ -19,7 +19,7 @@ The <img alt="" src=images/Design456_Tweak.svg  style="width:24px;"> [Design456 
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Design456_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
+1.  Switch to the <img alt="" src=images/Design456_workbench_icon.svg  style="width:24px;"> [Design456](Design456_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
 2.  Select one or more face, or some edges, or some points from a 3D object, run the command, give a vector to move the selected subshapes. The tool will try to recreate the shape according to the moved subelements.
 
 ## Limitations
@@ -44,7 +44,7 @@ The tool is actually dose not work well:
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > Design456 Tweak

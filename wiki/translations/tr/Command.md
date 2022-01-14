@@ -15,7 +15,7 @@ Bir FreeCAD komutu, bir araç çubuğu düğmesine bastığınızda veya bir kla
 
 <div class="mw-translate-fuzzy">
 
-Her FreeCAD komutunun _ sayfasında görünen benzersiz bir adı vardır. Komutlar aşağıdakileri çalıştırarak, bir araç çubuğu düğmesi, bir menü öğesi veya bir python betiğinden veya python konsolundan başlatılabilir:
+Her FreeCAD komutunun [Komut Referansı](:<img src="images/Property.png" style="width:16px"> Command_Reference/tr.md) sayfasında görünen benzersiz bir adı vardır. Komutlar aşağıdakileri çalıştırarak, bir araç çubuğu düğmesi, bir menü öğesi veya bir python betiğinden veya python konsolundan başlatılabilir:
 
 
 </div>
@@ -136,7 +136,7 @@ See [Line drawing function](Line_drawing_function.md).
 
 }}
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Command/tr

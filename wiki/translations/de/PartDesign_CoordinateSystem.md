@@ -16,7 +16,7 @@ Erzeugt ein **lokales Koordinatensystem**, welches als Referenz für andere Bezu
 
 ## Anwendung
 
-1.  Drücken Sie die **<img src=images/PartDesign_CoordinateSystem.svg style="width:16px"> [Erstelle lokales Koordinatensystem](PartDesign_CoordinateSystem.md)**.
+1.  Drücken Sie die **[<img src=images/PartDesign_CoordinateSystem.svg style="width:16px"> [Erstelle lokales Koordinatensystem](PartDesign_CoordinateSystem.md)**.
 2.  Definieren Sie die Parameter des Koordinatensystems. Wählen Sie in der 3D-Ansicht eine erste Referenz aus, um die verfügbaren Anhangsmodi zu filtern.
 3.  Abhängig von der ausgewählten Referenz stehen in der Liste möglicherweise ein oder mehrere Anhangsmodi zur Verfügung. Das wahrscheinlichste wird automatisch ausgewählt und in der Liste fett dargestellt. Der Text \'\' Mit Modus verbunden \'\' wird zusammen mit dem Namen des Anhangsmodus oben im Parameterfenster grün angezeigt.
 4.  Um eine weitere Referenz hinzuzufügen, drücken Sie die nächste Taste {{Button | Referenz}}. Nach dem Drücken ändert sich das Label in \'\' Auswählen \... \'\', bis eine Auswahl getroffen wird.

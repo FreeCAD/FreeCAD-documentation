@@ -15,7 +15,7 @@
 
 Несколько областей, которые ждут вашей помощи:
 
--   На странице _ перечислены и документированы все [ комманды](command.md) FreeCAD. Большинство из них содержат мало или вообще никакой информации. Пожалуйста, обратитесь к [ WikiPages](WikiPages.md) для ознакомления с примерами того, как должны выглядеть страницы документации команд.
+-   На странице [: <img src="images/Property.png" style="width:16px"> Command Reference](:_Category_Command_Reference.md) перечислены и документированы все [ комманды](command.md) FreeCAD. Большинство из них содержат мало или вообще никакой информации. Пожалуйста, обратитесь к [ WikiPages](WikiPages.md) для ознакомления с примерами того, как должны выглядеть страницы документации команд.
 -   Секции [Учебники](Tutorials.md) нужны примеры того, как использовать верстаки. Если вы разработали что-то классное в FreeCAD, почему бы не задокументировать, как вы это сделали для потомков?
 -   Здесь можно посмотреть открытые тикеты в [багтрекере](bugtracker.md) любезно отмеченные тегом [\"documentation\"](https://freecadweb.org/tracker/search.php?tag_string=documentation).
 
@@ -43,7 +43,7 @@
 
 Подробнее о переводе см. [Localisation\#Translating the wiki](Localisation#Translating_the_wiki.md).
 
-Пожалуйста, убедитесь, что вы знакомы с основами вики-разметки; для справки смотрите _.
+Пожалуйста, убедитесь, что вы знакомы с основами вики-разметки; для справки смотрите [Помощь:Редактирование](Help_Editing.md).
 
 Затем перейдите на [WikiPages](WikiPages.md) чтобы ознакомиться со стилем, используемым в этой вики, особенно когда речь идет о шаблонах.
 
@@ -88,7 +88,7 @@
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Command Reference]] перечислены и документированы все ](Category_Command Reference]] перечислены и документированы все .md) > Help FreeCAD/ru

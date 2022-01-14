@@ -3,7 +3,7 @@
 
 <img alt="" src=images/Folder.svg  style="width:32px;">
 
-Un objet _ dans la [vue en arborescence](tree_view/fr.md) quel que soit son type de données.
+Un objet [App DocumentObjectGroup](App_DocumentObjectGroup/fr.md), ou formellement un `App::DocumentObjectGroup`, est un élément simple qui permet de regrouper tout type de [App DocumentObject](App_DocumentObject/fr.md) dans la [vue en arborescence](tree_view/fr.md) quel que soit son type de données.
 
 Il a été développé pour organiser les objets dans la [vue en arborescence](tree_view/fr.md) d\'une manière logique pour l\'utilisateur.
 
@@ -15,7 +15,7 @@ Il a été développé pour organiser les objets dans la [vue en arborescence](t
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src=images/Std_Group.svg style="width:16px"> [Std Group](Std_Group/fr.md)** dans la barre d\'outils de structure. Un Group vide est créé.
+1.  Appuyez sur le bouton **[<img src=images/Std_Group.svg style="width:16px"> [Std Group](Std_Group/fr.md)** dans la barre d\'outils de structure. Un Group vide est créé.
 2.  Pour ajouter des objets à un Group, sélectionnez-les dans la [vue en arborescence](tree_view/fr.md) puis faites-les glisser et déposez-les sur le Group.
 3.  Pour supprimer des objets d\'un Group, faites-les glisser hors du Group et sur l\'étiquette du document en haut de la [vue en arborescence](tree_view/fr.md).
 
@@ -23,7 +23,7 @@ Voir la page [Std Group](Std_Part/fr.md) pour les informations complètes, y com
 
 ## Propriétés
 
-Un _ (`App::DocumentObject` class), par conséquent, il partage toutes les propriétés de ce dernier.
+Un [App DocumentObjectGroup](App_DocumentObjectGroup/fr.md) (classe `App::DocumentObjectGroup`) est dérivé de la base [App DocumentObject](App_DocumentObject/fr.md) (`App::DocumentObject` class), par conséquent, il partage toutes les propriétés de ce dernier.
 
 Voir les propriétés dans la page [Std Group](Std_Part/fr.md).
 

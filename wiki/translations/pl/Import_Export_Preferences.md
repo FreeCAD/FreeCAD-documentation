@@ -11,7 +11,7 @@ Nie wszystkie karty preferencji importu i eksportu są domyślnie dostępne. W p
 
 ### Strona TechDraw 
 
-Wymienione tutaj opcje DXF i SVG nie są używane przez polecenia <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:24px;"> _ w środowisku <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md) ani przez opcję eksportu [Rysunek Techniczny](TechDraw_Workbench/pl.md): **Plik → Eksport → Technical Drawing ''(*.svg *.dxf *.pdf)''**.
+Wymienione tutaj opcje DXF i SVG nie są używane przez polecenia <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:24px;"> [Eksport strony do SVG](TechDraw_ExportPageSVG/pl.md) i <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:24px;"> [Eksport strony do DXF](TechDraw_ExportPageDXF/pl.md) w środowisku <img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [Rysunek Techniczny](TechDraw_Workbench/pl.md) ani przez opcję eksportu [Rysunek Techniczny](TechDraw_Workbench/pl.md): **Plik → Eksport → Technical Drawing ''(*.svg *.dxf *.pdf)''**.
 
 ### Pliki OpenSCAD 
 
@@ -28,7 +28,7 @@ Dodatkowe informacje znajdują się na kolejnych stronach:
 
 ### DAE
 
-Format _ do formatu {{FileName|.dae}}.
+Format [Collada](http://en.wikipedia.org/wiki/COLLADA) DAE *(Digital Asset Exchange)* jest standardowym formatem plików do wymiany danych Mesh. FreeCAD może importować siatki z plików {{FileName|.dae}} i eksportować obiekty oparte na [kształcie](Part_Workbench/pl.md) do formatu {{FileName|.dae}}.
 
 Uwaga dla użytkowników Linuksa: Do obsługi tego formatu pliku, FreeCAD wymaga modułu [pyCollada](Extra_python_modules/pl#pyCollada.md).
 
@@ -220,9 +220,9 @@ Dla formatu DXF można sprecyzować, co następuje:
 
 ### IGES
 
-Format pliku _, rozwój IGES został wstrzymany w 1996 roku, ale nadal jest on obsługiwany przez wiele programów CAD. Pliki IGES mają rozszerzenie {{FileName|.iges}} lub {{FileName|.igs}}.
+Format pliku [Initial Graphics Exchange Specification](https://en.wikipedia.org/wiki/IGES) *(IGES)* jest formatem umożliwiającym cyfrową wymianę informacji pomiędzy systemami CAD. Po opublikowaniu formatu pliku [STEP](Preferences_Editor/pl#STEP.md), rozwój IGES został wstrzymany w 1996 roku, ale nadal jest on obsługiwany przez wiele programów CAD. Pliki IGES mają rozszerzenie {{FileName|.iges}} lub {{FileName|.igs}}.
 
-Zakładka *IGES* jest wyświetlana w preferencjach tylko wtedy, gdy masz uruchomione jedno ze środowisk pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ lub <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD](OpenSCAD_Workbench/pl.md) lub jeśli został załadowany w bieżącej sesji FreeCAD.
+Zakładka *IGES* jest wyświetlana w preferencjach tylko wtedy, gdy masz uruchomione jedno ze środowisk pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md) lub <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD](OpenSCAD_Workbench/pl.md) lub jeśli został załadowany w bieżącej sesji FreeCAD.
 
 Dla formatu IGES można sprecyzować, co następuje:
 
@@ -424,7 +424,7 @@ Dla eksportu formatu IFC można sprecyzować, co następuje:
 
 ### INP
 
-INP jest formatem pliku wejściowego dla oprogramowania MES _ solvera w środowisku pracy <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [MES](FEM_Workbench/pl.md).
+INP jest formatem pliku wejściowego dla oprogramowania MES [Abaqus](https://en.wikipedia.org/wiki/Abaqus). Jest on używany dla [CalculiX](FEM_CalculiX/pl.md) solvera w środowisku pracy <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [MES](FEM_Workbench/pl.md).
 
 Zakładka *INP* jest wyświetlana w preferencjach tylko wtedy, gdy używasz Środowiska pracy <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [MES](FEM_Workbench/pl.md) lub gdy został załadowany w bieżącej sesji FreeCAD.
 
@@ -450,7 +450,7 @@ Dla formatu INP można sprecyzować, co następuje:
 
 ### Formaty Mesh 
 
-Siatki są szczególnym rodzajem obiektu 3D, składającego się z trójkątnych powierzchni połączonych swoimi _ do tworzenia i obsługi siatek. FreeCAD obsługuje kilka formatów plików mesh.
+Siatki są szczególnym rodzajem obiektu 3D, składającego się z trójkątnych powierzchni połączonych swoimi [wierzchołkami](Glossary/pl#Wierzchołek.md) i krawędziami. Są one szeroko stosowane do [produkcji przyrostowej](https://en.wikipedia.org/wiki/3D_printing). FreeCAD dostarcza <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> Środowisko pracy [Mesh](Mesh_Workbench.md) do tworzenia i obsługi siatek. FreeCAD obsługuje kilka formatów plików mesh.
 
 Zakładka *Format Mesh* jest wyświetlana w preferencjach tylko wtedy, gdy używasz Środowiska pracy <img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [Mesh](Mesh_Workbench.md) lub gdy został załadowany w bieżącej sesji FreeCAD.
 
@@ -498,7 +498,7 @@ Dla formatu OCA można sprecyzować, co następuje:
 
 Format pliku [Standard for The Exchange of Product model data](https://en.wikipedia.org/wiki/ISO_10303) *(STEP)* to standard ISO dotyczący interpretacji komputerowej i wymiany informacji o wytwarzaniu produktu. STEP jest powszechnie używany do wymiany danych 3D między oprogramowaniem CAD. Pliki STEP mają rozszerzenie {{FileName|.step}} lub {{FileName|.stp}}. W przypadku plików skompresowanych używane jest rozszerzenie {{FileName|.stpz}}.
 
-Zakładka *STEP* jest wyświetlana w preferencjach tylko wtedy, uruchomiono jedno ze Środowisk pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ lub <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD](OpenSCAD_Workbench/pl.md) lub jeśli zostały załadowane w bieżącej sesji FreeCAD.
+Zakładka *STEP* jest wyświetlana w preferencjach tylko wtedy, uruchomiono jedno ze Środowisk pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md) lub <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [OpenSCAD](OpenSCAD_Workbench/pl.md) lub jeśli zostały załadowane w bieżącej sesji FreeCAD.
 
 Dla formatu STEP można sprecyzować, co następuje:
 
@@ -626,7 +626,7 @@ Dla formatu SVG można sprecyzować, co następuje:
 
 ### VTK
 
-Oprogramowanie _ dla [przetwarzania końcowego](FEM_Post_Processing_based_on_VTK.md) wyników symulacji.
+Oprogramowanie [Visualization Toolkit](https://en.wikipedia.org/wiki/VTK) *(VTK)* jest otwartym, ogólnodostępnym systemem oprogramowania dla grafiki komputerowej 3D, przetwarzania obrazu i wizualizacji. Pliki VTK są wykorzystywane przez Środowisko pracy <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [MES](FEM_Workbench/pl.md) dla [przetwarzania końcowego](FEM_Post_Processing_based_on_VTK.md) wyników symulacji.
 
 Zakładka *VTK* jest wyświetlana w preferencjach tylko wtedy, gdy środowisko pracy <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [MES](FEM_Workbench/pl.md) zostało załadowane w bieżącej sesji FreeCAD.
 
@@ -652,7 +652,7 @@ Dla formatu VTK można sprecyzować, co następuje:
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md) [<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Import](Import_Workbench.md) > Import Export Preferences/pl

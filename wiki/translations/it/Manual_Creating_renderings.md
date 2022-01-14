@@ -27,7 +27,7 @@ In questa schermata Preferenze si può anche impostare la dimensione desiderata 
 
 ### Rendering con PovRay 
 
-Per la produrre il rendering con PovRay e LuxRender useremo il tavolo che abbiamo modellato nel capitolo _.
+Per la produrre il rendering con PovRay e LuxRender useremo il tavolo che abbiamo modellato nel capitolo [modellazione trdizionale](Manual:Traditional_modeling,_the_CSG_way/it.md).
 
 -   Iniziare caricando il file table.FCStd modellato in precedenza o dal link in fondo a questo capitolo.
 -   Premere sulla freccia verso il basso piccolo accanto al pulsante <img alt="" src=images/Raytrace_New.svg  style="width:16px;"> [Nuovo progetto Povray](Raytracing_New/it.md), e scegliere il modello 
@@ -42,7 +42,7 @@ Per la produrre il rendering con PovRay e LuxRender useremo il tavolo che abbiam
 <div class="mw-translate-fuzzy">
 
 -   Il nuovo progetto ha adottato il punto di vista della vista 3D come era al momento in cui abbiamo premuto il pulsante. Possiamo cambiare la vista in qualsiasi momento, e aggiornare la posizione della vista memorizzata nel progetto Povray, premendo il pulsante <img alt="" src=images/Raytracing_ResetCamera.png  style="width:16px;"> [Reset camera](Raytracing_ResetCamera/it.md).
--   L\'ambiente Raytracing funziona nello stesso modo dell\'ambiente _:
+-   L\'ambiente Raytracing funziona nello stesso modo dell\'ambiente [Disegno](Drawing_Workbench/it.md): dopo aver creato una cartella di progetto, bisogna aggiungere ad essa delle **Viste** degli oggetti. Ora possiamo farlo selezionando tutti gli oggetti che compongono il tavolo, e premendo il pulsante <img alt="" src=images/Raytracing_InsertPart.png  style="width:16px;"> [Inserisci parte](Raytracing_InsertPart/it.md):
 
 
 </div>
@@ -125,7 +125,7 @@ Per la produrre il rendering con PovRay e LuxRender useremo il tavolo che abbiam
 
 {{Raytracing Tools navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Creating renderings/it

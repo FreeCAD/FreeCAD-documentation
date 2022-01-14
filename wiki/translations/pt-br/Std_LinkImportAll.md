@@ -12,16 +12,16 @@
 ## Descrição
 
 
-**<img src=images/Std_LinkImportAll.svg style="width:16px"> [Std LinkImportAll](Std_LinkImportAll.md)**
+**[<img src=images/Std_LinkImportAll.svg style="width:16px"> [Std LinkImportAll](Std_LinkImportAll.md)**
 
 imports all **Linked Object**s from Links into the current document, and then changes the attachment to point to these imported objects.
 
-This command essentially runs **<img src=images/Std_LinkImport.svg style="width:16px"> [Std LinkImport](Std_LinkImport.md)** for all Links in a document.
+This command essentially runs **[<img src=images/Std_LinkImport.svg style="width:16px"> [Std LinkImport](Std_LinkImport.md)** for all Links in a document.
 
 ## Utilização
 
 1.  Make sure you have a \"source\" document with original objects, and a second \"target\" document with Links to those objects.
-2.  Open the target document and press **<img src=images/Std_LinkImportAll.svg style="width:16px"> [Std LinkImportAll](Std_LinkImportAll.md)**.
+2.  Open the target document and press **[<img src=images/Std_LinkImportAll.svg style="width:16px"> [Std LinkImportAll](Std_LinkImportAll.md)**.
 
 ![](images/Std_Link_tree_import_all_1_example.png ) ![](images/Std_Link_tree_import_all_2_example.png )
 

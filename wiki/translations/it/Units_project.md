@@ -43,7 +43,7 @@ Creare eventualmente un editor delle proprietà per le PropertyUntit.
 ### Ambienti
 
 -   Aggiornare gli ambienti di lavoro per consentire di utilizzare la struttura Unità. Vorrei iniziare dagli ambienti Schizzo e PartDesign e proseguire in ordine \...
--   Documentare questo processo di aggiornamento in modo che altri possono fare lo stesso lavoro con altri ambienti di lavoro \--_ 13:13, 28 November 2011 (UTC)
+-   Documentare questo processo di aggiornamento in modo che altri possono fare lo stesso lavoro con altri ambienti di lavoro \--[Yorikvanhavre](User_Yorikvanhavre.md) 13:13, 28 November 2011 (UTC)
 
 ## Azioni successive 
 
@@ -51,7 +51,7 @@ Creare eventualmente un editor delle proprietà per le PropertyUntit.
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Units project/it

@@ -7,9 +7,9 @@ In FreeCAD und dieser Dokumentation ist eine [Erweiterung](addon/de.md) eine bel
 
 Es gibt zwei Arten von Erweiterungen:
 
--   _ Code, der ein neues Werkzeug oder eine neue Funktionalität in einer einzigen Datei mit der Endung `.FCMacro` bereitstellt.
+-   [Makros](Macros/de.md): kurze Schnipsel von [Python](Python/de.md) Code, der ein neues Werkzeug oder eine neue Funktionalität in einer einzigen Datei mit der Endung `.FCMacro` bereitstellt.
 -   Modul: eine einzelne Python Quelldatei oder eine Sammlung von Python Dateien, die die Software in irgendeiner Weise erweitert. Module definieren nicht notwendigerweise einen grafischen \"Arbeitsbereich\", können aber eine unterstützende Funktion bieten, z.B. eine Bibliothek, die die Konvertierung von Formaten durchführt, oder Code, der die grafische [Oberfläche](interface/de.md) modifiziert.
--   _ (Werkzeuge), die sich auf ein bestimmtes Thema konzentrieren, z.B. Werkzeuge für den Entwurf von Schränken oder Werkzeuge für die Arbeit mit Architektur oder Werkzeuge für den Entwurf von Booten usw. Diese Arbeitsbereiche definieren normalerweise neue Werkzeugleisten, in denen [Befehle](Gui_Command/de.md) als Schaltflächen platziert werden.
+-   [Arbeitsbereiche](External_workbenches/de.md): Sammlungen von Python Dateien, die verwandte [Gui Befehle](Gui_Command/de.md) (Werkzeuge), die sich auf ein bestimmtes Thema konzentrieren, z.B. Werkzeuge für den Entwurf von Schränken oder Werkzeuge für die Arbeit mit Architektur oder Werkzeuge für den Entwurf von Booten usw. Diese Arbeitsbereiche definieren normalerweise neue Werkzeugleisten, in denen [Befehle](Gui_Command/de.md) als Schaltflächen platziert werden.
 
 Makros wie unter dem `Macro/` Benutzerverzeichnis installiert, während Module und Arbeitsbereiche unter dem `Mod/` Verzeichnis liegen. {{Code|lang=bash|code=
 $HOME/.FreeCAD/Macro/
@@ -34,7 +34,7 @@ Trotzdem ist manuelle Installation weiterhin möglich.
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > Addon/de

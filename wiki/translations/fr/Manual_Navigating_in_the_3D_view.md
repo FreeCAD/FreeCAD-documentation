@@ -56,7 +56,7 @@ Certaines commandes du clavier sont toujours disponibles et ce, quel que soit le
 
 -   le clavier numérique, {{ASCII|48}}{{ASCII|49}}{{ASCII|50}}{{ASCII|51}}{{ASCII|52}}{{ASCII|53}}{{ASCII|54}}, pour les sept vues standard:
 
-<img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> _, <img alt="" src=images/Std_ViewTop.svg  style="width:24px;"> _, <img alt="" src=images/Std_ViewRear.svg  style="width:24px;"> _, et <img alt="" src=images/Std_ViewLeft.svg  style="width:24px;"> [Gauche](Std_ViewLeft/fr.md)
+<img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [Isometrique](Std_ViewIsometric/fr.md), <img alt="" src=images/Std_ViewFront.svg  style="width:24px;"> [Avant](Std_ViewFront/fr.md), <img alt="" src=images/Std_ViewTop.svg  style="width:24px;"> [Dessus](Std_ViewTop/fr.md), <img alt="" src=images/Std_ViewRight.svg  style="width:24px;"> [Droite](Std_ViewRight/fr.md), <img alt="" src=images/Std_ViewRear.svg  style="width:24px;"> [Arrière](Std_ViewRear/fr.md), <img alt="" src=images/Std_ViewBottom.svg  style="width:24px;"> [Dessous](Std_ViewBottom/fr.md), et <img alt="" src=images/Std_ViewLeft.svg  style="width:24px;"> [Gauche](Std_ViewLeft/fr.md)
 
 -    **V**
     **O**mettra la vue en <img alt="" src=images/View-isometric.svg  style="width:24px;"> [mode orthographique](Std_OrthographicCamera/fr.md).

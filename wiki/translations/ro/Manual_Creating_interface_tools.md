@@ -1,7 +1,7 @@
 # Manual:Creating interface tools/ro
 {{Manual:TOC/ro}}
 
-În ultimele două capitole, am văzut cum să _ și _. O ultimă piesă lipsește pentru a obține un control deplin peste FreeCAD: Creați instrumente care vor interacționa cu utilizatorul.
+În ultimele două capitole, am văzut cum să [create Part geometry](Manual_Creating_and_manipulating_geometry.md) și [create parametric objects](Manual_Creating_parametric_objects.md). O ultimă piesă lipsește pentru a obține un control deplin peste FreeCAD: Creați instrumente care vor interacționa cu utilizatorul.
 
 În multe situații, nu este foarte ușor să construim un obiect cu valori zero, așa cum am făcut-o cu dreptunghiul din capitolul precedent, și apoi să cerem utilizatorului să completeze valorile Înălțime și Lățime din panoul Proprietăți. Aceasta funcționează pentru un număr foarte mic de obiecte, dar va deveni foarte obositoare dacă aveți multe dreptunghiuri. O modalitate mai bună ar fi să puteți da deja înălțimea și lățimea la crearea dreptunghiului.
 
@@ -156,7 +156,7 @@ Aceasta este foarte util de a fi încercat.
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Manual:Creating interface tools/ro

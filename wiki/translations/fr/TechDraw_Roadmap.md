@@ -79,7 +79,7 @@ Voir le traqueur de bogues pour des informations à jour.
 
 }}  
 
-_ _
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> TechDraw](Category_TechDraw.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [TechDraw](TechDraw_Workbench.md) > TechDraw Roadmap/fr

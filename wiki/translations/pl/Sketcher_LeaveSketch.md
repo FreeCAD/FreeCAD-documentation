@@ -17,7 +17,7 @@ Polecenie opuszczenia szkicu kończy tryb edycji szkicu i zamyka zakładkę [pan
 
 1.  Jest kilka sposobów, by wywołać narzędzie Sketcher: Zamknij szkic:
 
-\#\* Naciśnij przycisk **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Opuść szkic](Sketcher_LeaveSketch.md)**.
+\#\* Naciśnij przycisk **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Opuść szkic](Sketcher_LeaveSketch.md)**.
 
 \#\* Naciśnij przycisk przycisk **Zamknij** w górnej części zakładki [panelu zadań](Task_panel/pl.md).
 

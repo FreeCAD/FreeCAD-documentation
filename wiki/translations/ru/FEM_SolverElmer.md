@@ -34,7 +34,7 @@ Elmer - это программное обеспечение для мульти
 
 Создание объекта SolverElmer в контейнере анализа в FreeCAD дает доступ к уравнениям Elmer для простого или мультифизического анализа.
 
-Since FreeCAD already has an extensive integration of <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:24px;"> _ as solvers for mechanical and thermo-mechanical analysis, Elmer will be preferred for Computational Fluid Dynamics (CFD), Heat, Electrostatics, Magnetostatics and Electrical Forces. It can also be used for mechanical FEA through the Elasticity equation or any combination of the aforementioned equations.
+Since FreeCAD already has an extensive integration of <img alt="" src=images/FEM_SolverCalculiX.svg  style="width:24px;"> [Calculix](FEM_SolverCalculiX.md) and <img alt="" src=images/FEM_SolverZ88.svg  style="width:24px;"> [Z88](FEM_SolverZ88.md) as solvers for mechanical and thermo-mechanical analysis, Elmer will be preferred for Computational Fluid Dynamics (CFD), Heat, Electrostatics, Magnetostatics and Electrical Forces. It can also be used for mechanical FEA through the Elasticity equation or any combination of the aforementioned equations.
 
 ## Установка
 

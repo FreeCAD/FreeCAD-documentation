@@ -5,7 +5,7 @@ This category contains icon images, and buttons, which can be placed in document
 
 [Artwork/es](Artwork/es.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Artwork/es](<img src="images/Property.png" style="width:16px"> Artwork/es.md)
 
 ---
 [documentation index](../README.md) > Category:Icon/es

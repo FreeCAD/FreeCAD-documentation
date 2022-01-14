@@ -193,7 +193,7 @@ Kdykoliv můžete vybrat původní náčrty a modifikovat je nebo změnit parame
 
 <div class="mw-translate-fuzzy">
 
-_ a [zachycování/uchopování objektů](Draft_Snap/cs.md).
+[pracovní plocha Kreslení](Draft_Workbench/cs.md) nabízí 2D nástroje trochu jednodušší, než jaké najdete v tradičních 2D CAD aplikacích jako je [AutoCAD](https://en.wikipedia.org/wiki/AutoCAD). Nicméně, kreslení ve 2D je mimo hlavní směr sféry FreeCADu, neočekávejte, že zde najdete plný rozsah nástrojů, které nabízejí tyto jednoúčelové aplikace. Většina nástrojů Kreslení nepracuje pouze ve 2D, ale také v plném 3D prostoru a využívají výhod pomocných systémů jako jsou [pracovní roviny](Draft_SelectPlane/cs.md) a [zachycování/uchopování objektů](Draft_Snap/cs.md).
 
 
 </div>
@@ -243,7 +243,7 @@ The [Addon](Addon.md) principle is based on the development of a workbench compl
 There are two types of addons:
 
 1.  [Macros](Macros.md): short snippets of Python code that provide a new tool or functionality. Macros usually start as a way to simplify or automate the task of drawing or editing a particular object. If many of these macros are collected inside a directory, the entire directory may be distributed as a new workbench.
-2.  _, you\'ll find the principle and a list of existing library.
+2.  [External workbenches](External_workbenches.md): collections of tools programmed in Python or C++ that extend FreeCAD in an important way. If a workbench is sufficiently developed and is well documented, it may be included as one of the base workbenches in FreeCAD. Under [External workbenches](External_workbenches.md), you\'ll find the principle and a list of existing library.
 
 ## Scripting
 
@@ -286,7 +286,7 @@ A nakonec jedna z nejmocnějších vlastností FreeCADu je prostředí pro [skri
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> User Documentation/cs](<img src="images/Property.png" style="width:16px"> User_Documentation/cs.md)
 
 ---
 [documentation index](../README.md) > Getting started/cs

@@ -5,7 +5,7 @@
    MenuLocation:Szkicownik → Wiązania szkicownika → Wiązanie kąta
    Workbenches:[Szkicownik](Sketcher_Workbench/pl.md)
    Shortcut:**A**
-   SeeAlso:_
+   SeeAlso:[Szkicownik: Wiązanie odległości](Sketcher_ConstrainDistance/pl.md), [Szkicownik: Wiązanie prostopadłości](Sketcher_ConstrainPerpendicular/pl.md)
 ---
 
 # Sketcher ConstrainAngle/pl
@@ -27,9 +27,9 @@ Aby zastosować wiązanie kąta, należy wykonać następujące czynności:
 
 1.  Wybierz jeden, dwa lub trzy elementy na szkicu. Tryb wiązania zostanie wybrany automatycznie w zależności od dokonanego wyboru.
 2.  Wywołaj wiązanie za pomocą kilku metod:
-    -   Wciskając przycisk **<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Wiązanie kąta](Sketcher_ConstrainAngle.md)** na pasku narzędzi.
+    -   Wciskając przycisk **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Wiązanie kąta](Sketcher_ConstrainAngle.md)** na pasku narzędzi.
     -   Używając skrótu klawiaturowego **A**. *(**A** jest od **A**ngle)*.
-    -   Używając z menu głównego **Szkicownik → Wiązania szkicownika → <img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Wiązanie kąta**
+    -   Używając z menu głównego **Szkicownik → Wiązania szkicownika → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Wiązanie kąta**
 3.  Zostanie wywołane okno dialogowe edycji danych.
 4.  Zmodyfikuj wartość kąta, jeśli to konieczne. Kąt może być wprowadzony jako wyrażenie, które zostanie obliczone i wynik zostanie zapisany.
 5.  Kliknij **OK**.

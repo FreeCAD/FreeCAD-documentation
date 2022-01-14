@@ -12,7 +12,7 @@ Za pomocą tej przeglądarki można poruszać się w sieci, klikać na linki, cz
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Web](Category_Web.md) [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Web](Category_Web.md) > Web Workbench/pl

@@ -84,7 +84,7 @@ Ces propriétés sont héritées de **Bulkhead**, voir [Cloison](Rocket_Bulkhead
 
 ## Script
 
-Voir aussi : _ et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [:<img src="images/Property.png" style="width:16px"> API/fr](:<img src="images/Property.png" style="width:16px"> API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 A définir
 
@@ -98,7 +98,7 @@ A définir
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [API/fr]] et ](Category_API/fr]] et .md) > Rocket CenteringRing/fr

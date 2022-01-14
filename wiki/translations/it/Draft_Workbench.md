@@ -16,7 +16,7 @@ L\'[Ambiente Draft](Draft_Workbench/it.md) <img alt="" src=images/Workbench_Draf
 
 <div class="mw-translate-fuzzy">
 
-Gli oggetti 2D creati possono essere utilizzati per il disegno in modo simile a Inkscape o Autocad. Queste forme 2D possono anche essere utilizzate come componenti di base di oggetti 3D creati con altri ambienti di lavoro, ad esempio con <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> _. È anche possibile convertire gli oggetti Draft in <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> _ per creare dei corpi solidi.
+Gli oggetti 2D creati possono essere utilizzati per il disegno in modo simile a Inkscape o Autocad. Queste forme 2D possono anche essere utilizzate come componenti di base di oggetti 3D creati con altri ambienti di lavoro, ad esempio con <img alt="" src=images/Workbench_Part.svg  style="width:32px;"> [Part](Part_Workbench/it.md) e <img alt="" src=images/Workbench_Arch.svg  style="width:32px;"> [Arch](Arch_Workbench/it.md). È anche possibile convertire gli oggetti Draft in <img alt="" src=images/Workbench_Sketcher.svg  style="width:32px;"> [schizzi](Sketcher_Workbench.md), il che significa che le forme possono essere utilizzate anche con <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [PartDesign](PartDesign_Workbench.md) per creare dei corpi solidi.
 
 
 </div>
@@ -42,7 +42,7 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_Wire.svg  style="width:32px;"> [Polyline](Draft_Wire.md): creates a polyline, a sequence of several connected line segments.
 
--   <img alt="" src=images/Draft_Fillet.svg  style="width:32px;"> _. <small>(v0.19)</small> 
+-   <img alt="" src=images/Draft_Fillet.svg  style="width:32px;"> [Fillet](Draft_Fillet.md): creates a fillet, a rounded corner, or a chamfer, a straight edge, between two [Draft Lines](Draft_Line.md). <small>(v0.19)</small> 
 
 -   <img alt="" src=images/Draft_Arc.svg  style="width:32px;"> Arc tools
 
@@ -104,39 +104,39 @@ On the right a non-planar [Draft Wire](Draft_Wire.md) used as the Path Object of
 
 -   <img alt="" src=images/Draft_OrthoArray.svg  style="width:32px;"> Array tools
 
-:\* <img alt="" src=images/Draft_OrthoArray.svg  style="width:32px;"> _ array. <small>(v0.19)</small> 
+:\* <img alt="" src=images/Draft_OrthoArray.svg  style="width:32px;"> [Array](Draft_OrthoArray.md): creates an orthogonal array from a selected object. It can optionally create a [Link](App_Link.md) array. <small>(v0.19)</small> 
 
-:\* <img alt="" src=images/Draft_PolarArray.svg  style="width:32px;"> _ array. <small>(v0.19)</small> 
+:\* <img alt="" src=images/Draft_PolarArray.svg  style="width:32px;"> [Polar array](Draft_PolarArray.md): creates an array from a selected object by placing copies along a circumference. It can optionally create a [Link](App_Link.md) array. <small>(v0.19)</small> 
 
-:\* <img alt="" src=images/Draft_CircularArray.svg  style="width:32px;"> _ array. <small>(v0.19)</small> 
+:\* <img alt="" src=images/Draft_CircularArray.svg  style="width:32px;"> [Circular array](Draft_CircularArray.md): creates an array from a selected object by placing copies along concentric circumferences. It can optionally create a [Link](App_Link.md) array. <small>(v0.19)</small> 
 
 :\* <img alt="" src=images/Draft_PathArray.svg  style="width:32px;"> [Path array](Draft_PathArray.md): creates an array from a selected object by placing copies along a path.
 
-:\* <img alt="" src=images/Draft_PathLinkArray.svg  style="width:32px;"> _ array instead of a regular array. <small>(v0.19)</small> 
+:\* <img alt="" src=images/Draft_PathLinkArray.svg  style="width:32px;"> [Path Link array](Draft_PathLinkArray.md): idem, but create a [Link](App_Link.md) array instead of a regular array. <small>(v0.19)</small> 
 
 :\* <img alt="" src=images/Draft_PointArray.svg  style="width:32px;"> [Point Array](Draft_PointArray.md): creates an array from a selected object by placing copies at the points from a point compound.
 
-:\* <img alt="" src=images/Draft_PointLinkArray.svg  style="width:32px;"> _ array instead of a regular array. <small>(v0.19)</small> 
+:\* <img alt="" src=images/Draft_PointLinkArray.svg  style="width:32px;"> [Point Link array](Draft_PointLinkArray.md): idem, but create a [Link](App_Link.md) array instead of a regular array. <small>(v0.19)</small> 
 
 -   <img alt="" src=images/Draft_Edit.svg  style="width:32px;"> [Edit](Draft_Edit.md): puts selected objects in Draft Edit mode. In this mode the properties of objects can be edited graphically.
 
 -   <img alt="" src=images/Draft_SubelementHighlight.svg  style="width:32px;"> [Subelement highlight](Draft_SubelementHighlight.md): temporarily highlights selected objects, or the base objects of selected objects.
 
--   <img alt="" src=images/Draft_Join.svg  style="width:32px;"> _ and [Draft Wires](Draft_Wire.md) into a single wire.
+-   <img alt="" src=images/Draft_Join.svg  style="width:32px;"> [Join](Draft_Join.md): joins [Draft Lines](Draft_Line.md) and [Draft Wires](Draft_Wire.md) into a single wire.
 
--   <img alt="" src=images/Draft_Split.svg  style="width:32px;"> _ or [Draft Wire](Draft_Wire.md) at a specified point or edge.
+-   <img alt="" src=images/Draft_Split.svg  style="width:32px;"> [Split](Draft_Split.md): splits a [Draft Line](Draft_Line.md) or [Draft Wire](Draft_Wire.md) at a specified point or edge.
 
 -   <img alt="" src=images/Draft_Upgrade.svg  style="width:32px;"> [Upgrade](Draft_Upgrade.md): upgrades selected objects.
 
 -   <img alt="" src=images/Draft_Downgrade.svg  style="width:32px;"> [Downgrade](Draft_Downgrade.md): downgrades selected objects.
 
--   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> _ to [Draft BSplines](Draft_BSpline.md) and vice versa.
+-   <img alt="" src=images/Draft_WireToBSpline.svg  style="width:32px;"> [Wire to B-spline](Draft_WireToBSpline.md): converts [Draft Wires](Draft_Wire.md) to [Draft BSplines](Draft_BSpline.md) and vice versa.
 
--   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> _ objects to [Sketcher Sketches](Sketcher_NewSketch.md) and vice versa.
+-   <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:32px;"> [Draft to Sketch](Draft_Draft2Sketch.md): converts [Draft](Draft_Workbench.md) objects to [Sketcher Sketches](Sketcher_NewSketch.md) and vice versa.
 
--   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> _ or [Draft Wires](Draft_Wire.md) by increasing, or decreasing, the Z coordinate of all points after the first one.
+-   <img alt="" src=images/Draft_Slope.svg  style="width:32px;"> [Set slope](Draft_Slope.md): slopes selected [Draft Lines](Draft_Line.md) or [Draft Wires](Draft_Wire.md) by increasing, or decreasing, the Z coordinate of all points after the first one.
 
--   <img alt="" src=images/Draft_FlipDimension.svg  style="width:32px;"> _ 180° around the dimension line.
+-   <img alt="" src=images/Draft_FlipDimension.svg  style="width:32px;"> [Flip dimension](Draft_FlipDimension.md): rotates the dimension text of selected [Draft Dimensions](Draft_Dimension.md) 180° around the dimension line.
 
 -   <img alt="" src=images/Draft_Shape2DView.svg  style="width:32px;"> [Shape 2D view](Draft_Shape2DView.md): creates 2D projections from selected objects.
 
@@ -152,7 +152,7 @@ La barra degli strumenti del vassoio di Draft viene visualizzata all\'avvio dell
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Piano di lavoro](Draft_SelectPlane/it.md): consente di impostare un piano di lavoro da una vista standard o da una faccia selezionata..
 -   <img alt="" src=images/Draft_ToggleConstructionMode.svg  style="width:32px;"> [Modalità costruzione](Draft_ToggleConstructionMode/it.md): attiva o disattiva la modalità costruzione.
 -   <img alt="" src=images/Draft_ApplyStyle.svg  style="width:32px;"> [Imposta Stile](Draft_Apply/it.md): imposta lo stile di default per i nuovi oggetti e applica lo stile e il colore correnti agli oggetti selezionati.
--   <img alt="" src=images/Draft_AutoGroup.svg  style="width:32px;"> _, <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> _. {{Version/it|0.17}}
+-   <img alt="" src=images/Draft_AutoGroup.svg  style="width:32px;"> [ AutoGruppo](Draft_AutoGroup/it.md): posiziona automaticamente i nuovi oggetti in un determinato <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Gruppo](Std_Group/it.md), <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Strato di Draft](Draft_Layer/it.md), o uno degli oggetti di [Arch](Arch_Workbench/it.md) simili ai gruppi come <img alt="" src=images/Arch_BuildingPart.svg  style="width:32px;"> [Parte di edificio](Arch_BuildingPart/it.md). {{Version/it|0.17}}
 
 
 </div>
@@ -161,7 +161,7 @@ La barra degli strumenti del vassoio di Draft viene visualizzata all\'avvio dell
 
 -   ![](images/Draft_tray_button_construction.png ) [Toggle construction mode](Draft_ToggleConstructionMode.md): switches Draft construction mode on or off. Also available in the menu: **Draft → Utilities → <img src="images/Draft_ToggleConstructionMode.svg" width=16px> Toggle construction mode**.
 
--   !_ or, optionally, the active [Std Group](Std_Group.md) or group-like [Arch](Arch_Workbench.md) object.
+-   ![](images/Draft_tray_button_layer.png ) [AutoGroup](Draft_AutoGroup.md): changes the active [Draft Layer](Draft_Layer.md) or, optionally, the active [Std Group](Std_Group.md) or group-like [Arch](Arch_Workbench.md) object.
 
 ## Draft annotation scale widget 
 
@@ -185,7 +185,7 @@ La barra degli strumenti di [Aggancio](Draft_Snap/it.md) consente di selezionare
 
 -   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of edges.
 
--   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ and [Arch BuildingParts](Arch_BuildingPart.md).
+-   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Snap Center](Draft_Snap_Center.md): snaps to the center point of faces and circular edges, and to the **Placement** point of [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md) and [Arch BuildingParts](Arch_BuildingPart.md).
 
 -   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Snap Angle](Draft_Snap_Angle.md): snaps to the special cardinal points on circular edges, at multiples of 30° and 45°.
 
@@ -205,7 +205,7 @@ La barra degli strumenti di [Aggancio](Draft_Snap/it.md) consente di selezionare
 
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Snap Grid](Draft_Snap_Grid.md): snaps to the intersections of grid lines.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md): projects the snap point onto the current [working plane](Draft_SelectPlane.md).
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Snap Dimensions](Draft_Snap_Dimensions.md): shows temporary X and Y dimensions.
 
@@ -213,19 +213,19 @@ La barra degli strumenti di [Aggancio](Draft_Snap/it.md) consente di selezionare
 
 ## Strumenti di utilità 
 
--   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> _. <small>(v0.19)</small> 
+-   <img alt="" src=images/Draft_Layer.svg  style="width:32px;"> [Layer](Draft_Layer.md): creates a [Draft Layer](Draft_Layer.md). <small>(v0.19)</small> 
 
--   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> _ and moves selected objects to that group. <small>(v0.20)</small> 
+-   <img alt="" src=images/Draft_AddNamedGroup.svg  style="width:32px;"> [Add a new named group](Draft_AddNamedGroup.md): creates a named [Std Group](Std_Group.md) and moves selected objects to that group. <small>(v0.20)</small> 
 
--   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> _. It can also ungroup objects.
+-   <img alt="" src=images/Draft_AddToGroup.svg  style="width:32px;"> [Move to group\...](Draft_AddToGroup.md): moves objects to a [Std Group](Std_Group.md). It can also ungroup objects.
 
--   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> _ or group-like [Arch](Arch_Workbench.md) objects.
+-   <img alt="" src=images/Draft_SelectGroup.svg  style="width:32px;"> [Select group](Draft_SelectGroup.md): selects the contents of [Std Groups](Std_Group.md) or group-like [Arch](Arch_Workbench.md) objects.
 
--   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Draft_AddConstruction.svg  style="width:32px;"> [Add to Construction group](Draft_AddConstruction.md): moves objects to the [Draft construction group](Draft_ToggleConstructionMode.md).
 
 -   <img alt="" src=images/Draft_ToggleDisplayMode.svg  style="width:32px;"> [Toggle normal/wireframe display](Draft_ToggleDisplayMode.md): switches the **Display Mode** property of selected objects between {{Value|Flat Lines}} and {{Value|Wireframe}}.
 
--   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Draft_WorkingPlaneProxy.svg  style="width:32px;"> [Create working plane proxy](Draft_WorkingPlaneProxy.md): creates a working plane proxy to save the current [Draft working plane](Draft_SelectPlane.md).
 
 ## Menu di utilità 
 
@@ -237,7 +237,7 @@ Strumenti aggiuntivi disponibili dal menu **Draft → Utilità** o tramite il me
 
 -   <img alt="" src=images/Draft_ToggleContinueMode.svg  style="width:32px;"> [Toggle continue mode](Draft_ToggleContinueMode.md): switches continue mode on or off.
 
--   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Draft_ShowSnapBar.svg  style="width:32px;"> [Show snap toolbar](Draft_ShowSnapBar.md): shows the [Draft Snap toolbar](#Draft_Snap_toolbar.md).
 
 ## Ulteriori funzioni 
 
@@ -288,7 +288,7 @@ For a [Draft Layer](Draft_Layer.md) these additional options are available:
 
 For a [Draft WorkingPlaneProxy](Draft_WorkingPlaneProxy.md) these additional options are available:
 
--   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> _ camera settings.
+-   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Write camera position](Draft_WorkingPlaneProxy#Context_menu.md): updates the **View Data** property of the working plane proxy with the current [3D view](3D_view.md) camera settings.
 
 -   <img alt="" src=images/Draft_SelectPlane.svg  style="width:32px;"> [Write objects state](Draft_WorkingPlaneProxy#Context_menu.md): updates the **Visibility Map** property of the working plane proxy with the current visibility state of objects in the document.
 
@@ -306,9 +306,9 @@ If there is an active document the context menu contains one additional sub-menu
 
 Questi strumenti sono stati rimossi dall\'interfaccia in v0.19 perché non avevano più alcuno scopo.
 
--   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> _ or a [circular array](Draft_CircularArray.md) by changing its **Array Type** property. {{Obsolete|0.19}}
+-   <img alt="" src=images/Draft_Array.svg  style="width:32px;"> [Array](Draft_Array.md): creates an orthogonal array from a selected object. The created array can be turned into a [polar array](Draft_PolarArray.md) or a [circular array](Draft_CircularArray.md) by changing its **Array Type** property. {{Obsolete|0.19}}
 
--   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> _ page. {{Obsolete|0.17}}
+-   <img alt="" src=images/Draft_Drawing.svg  style="width:32px;"> [Drawing](Draft_Drawing.md): inserts views of selected objects into a [drawing](Drawing_Workbench.md) page. {{Obsolete|0.17}}
 
 ## Preferenze
 
@@ -336,8 +336,8 @@ Queste sono le funzioni per l\'apertura, l\'importazione o l\'esportazione di al
 
 <div class="mw-translate-fuzzy">
 
--   _.
--   _. Vedere anche la pagina [Importare i file DWG in FreeCAD](FreeCAD_and_DWG_Import/it.md).
+-   [Autodesk .DXF](Draft_DXF/it.md): importa ed esporta file [Drawing Exchange Format](http://en.wikipedia.org/wiki/AutoCAD_DXF) creati con applicazioni CAD 2D. Vedere anche la pagina [Importare i file DXF in FreeCAD](FreeCAD_and_DXF_Import/it.md).
+-   [Autodesk .DWG](Draft_DXF/it.md): importa ed esporta i file DWG tramite l\'importatore DXF, quando viene installata l\'utility [ODA Converter](Extra_python_modules/it#ODA_Converter_(già_Teigha_Converter).md). Vedere anche la pagina [Importare i file DWG in FreeCAD](FreeCAD_and_DWG_Import/it.md).
 -   [SVG](Draft_SVG/it.md): importa ed esporta i file [Scalable Vector Graphics](http://en.wikipedia.org/wiki/Scalable_Vector_Graphics) creato con applicazioni di disegno vettoriale.
 -   [Open Cad format .OCA](Draft_OCA/it.md): importa ed esporta file OCA/GCAD, potenzialmente un nuovo [formato di file open CAD](http://groups.google.com/group/open_cad_format).
 -   [Airfoil Data Format .DAT](Draft_DAT/it.md): importa file DAT che descrivono [profili aerodinamici](http://www.ae.illinois.edu/m-selig/ads/coord_database.html) portanti.
@@ -421,7 +421,7 @@ Ispezionare il codice di questo modulo è utile per capire come utilizzare l\'in
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Draft Workbench/it

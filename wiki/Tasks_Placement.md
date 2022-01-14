@@ -111,7 +111,7 @@ Other explanation on [Placement](Placement.md).
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Command\_Reference](Category_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [Command_Reference](Category_Command_Reference.md) > Tasks Placement

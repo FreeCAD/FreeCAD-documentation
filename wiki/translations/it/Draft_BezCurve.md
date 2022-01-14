@@ -19,7 +19,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento <img alt="" src=images/Draft_BezCurve.svg  style="width:16px;"> Curva di Bézier crea una _ precedentemente impostati nella [barra di Draft](Draft_Tray/it.md).
+Lo strumento <img alt="" src=images/Draft_BezCurve.svg  style="width:16px;"> Curva di Bézier crea una [Curva di Bezier](http://en.wikipedia.org/wiki/Bezier_curve), o un suo tratto, da più punti. Assume [lo spessore e il colore](Draft_Linestyle/it.md) precedentemente impostati nella [barra di Draft](Draft_Tray/it.md).
 
 
 </div>

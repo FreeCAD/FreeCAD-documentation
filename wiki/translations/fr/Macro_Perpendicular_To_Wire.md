@@ -134,7 +134,7 @@ Les autres paramètres de `discretize()` sont les suivants:
 
 ## Discussions
 
--   Discussion sur le forum _
+-   Discussion sur le forum [https://forum.freecadweb.org/viewtopic.php?f=13&t=19899&start=20 Spiralbohrer](https://forum.freecadweb.org/viewtopic.php?f=13&t=19899&start=20_Spiralbohrer.md)
 -   <http://forum.freecadweb.org/viewtopic.php?f=12&t=16336#p129468>
 
 ## Version

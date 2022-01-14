@@ -1,7 +1,7 @@
 # Manual:Creating parametric objects/ru
 {{Manual:TOC/ru}}
 
-В _ мы видели создание геометрии Part, и как показать её на экране присоединением её к \"пустому\" (непараметрическому) объекту документа. Это муторно, когда мы хотим изменить форму объекта. Нам нужно создать новую форму, затем снова приписать её к нашему объекту.
+В [предыдущей главе](Manual:Creating_and_manipulating_geometry/ru.md) мы видели создание геометрии Part, и как показать её на экране присоединением её к \"пустому\" (непараметрическому) объекту документа. Это муторно, когда мы хотим изменить форму объекта. Нам нужно создать новую форму, затем снова приписать её к нашему объекту.
 
 Однако мы видели в предыдущих главах этого руководства, как велики возможности параметрических объектов. Мы можем изменить один параметр, и форма пересчитывается на лету.
 
@@ -122,7 +122,7 @@ FreeCAD.ActiveDocument.recompute()
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Manual:Creating parametric objects/ru

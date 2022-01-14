@@ -16,8 +16,8 @@ Cet outil définit la vue de l\'objet perpendiculairement au plan de l\'esquisse
 
 En mode de modification d\'esquisse, soit
 
--   Cliquez sur l\'icône **<img src=images/Sketcher_ViewSketch.svg style="width:16px"> [Vue de l'esquisse](Sketcher_ViewSketch/fr.md)** dans la barre d\'outils Sketcher ou Part Design, soit
--   Allez dans le menu **Sketch → <img src=images/Sketcher_ViewSketch.svg style="width:16px"> Vue d'esquisse**.
+-   Cliquez sur l\'icône **[<img src=images/Sketcher_ViewSketch.svg style="width:16px"> [Vue de l'esquisse](Sketcher_ViewSketch/fr.md)** dans la barre d\'outils Sketcher ou Part Design, soit
+-   Allez dans le menu **Sketch → [<img src=images/Sketcher_ViewSketch.svg style="width:16px"> Vue d'esquisse**.
 
 
 

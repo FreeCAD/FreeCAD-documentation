@@ -57,7 +57,7 @@ Fasteners can be attached or unattached. Attached fasteners have a **base Object
 <img alt="" src=images/Fasteners_Attached_Selected.png  style="width:200px;"> <img alt="" src=images/Fasteners_Attached_Created.png  style="width:200px;"> 
 *On the left two selected circular edges. On the right the attached fasteners.*
 
-1.  Specify if the selected holes are tap holes or pass holes by selecting <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:16px;"> _ respectively (not used for countersunk screws).
+1.  Specify if the selected holes are tap holes or pass holes by selecting <img alt="" src=images/Fasteners_MatchTypeInner.svg  style="width:16px;"> [Fasteners MatchTypeInner](Fasteners_MatchTypeInner.md) or <img alt="" src=images/Fasteners_MatchTypeOuter.svg  style="width:16px;"> [Fasteners MatchTypeOuter](Fasteners_MatchTypeOuter.md) respectively (not used for countersunk screws).
 2.  Select one or more circular edges and/or faces with circular edges. For countersunk screws the top edge of the [chamfered hole](Fasteners_ChamferHole.md) must be selected.
 3.  Select the desired fastener by clicking its button or by picking it from the menu.
 4.  A fastener is attached to each of the selected circular edges.
@@ -495,7 +495,7 @@ Fasteners can be attached or unattached. Attached fasteners have a **base Object
 
 
 
-_ _ _ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Fasteners](Category_Fasteners.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > Fasteners Workbench/de

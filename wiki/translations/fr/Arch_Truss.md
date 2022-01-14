@@ -11,7 +11,7 @@
 
 ## Description
 
-L\'outil _ ou [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)) ou à partir de zéro, si aucun objet n\'est sélectionné lors du lancement de la commande.
+L\'outil [Arch Ferme](Arch_Truss/fr.md) crée un objet [Treillis](https://fr.wikipedia.org/wiki/Treillis_(assemblage)) à partir d\'un objet linéaire sélectionné (positionnez une [Draft Ligne](Draft_Line/fr.md) ou [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)) ou à partir de zéro, si aucun objet n\'est sélectionné lors du lancement de la commande.
 
 <img alt="" src=images/Arch_Truss_example.png  style="width:600px;">
 

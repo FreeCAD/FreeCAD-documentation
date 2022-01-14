@@ -5,7 +5,7 @@
    MenuLocation:Part Design → Utwórz nowy łącznik kształtu
    Workbenches:[Projekt części](PartDesign_Workbench/pl.md)
    Version:0.17
-   SeeAlso:_
+   SeeAlso:[Projekt części: Podrzędny łącznik kształtu](PartDesign_SubShapeBinder.md), [Projekt części: Klon](PartDesign_Clone.md)
 ---
 
 # PartDesign ShapeBinder/pl

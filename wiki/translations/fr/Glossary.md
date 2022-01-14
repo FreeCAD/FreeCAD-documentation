@@ -291,7 +291,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|1=Face}}
 
 
-{{defn|1=Un objet de construction topologique en 2 dimensions. Par exemple, un cube a 6 faces. une face peut être courbe, comme c'est le cas pour une sphère, qui, dans FreeCAD, n'a qu'une face.  Le noyau de modélisation géométrique (_). voir _.}}
+{{defn|1=Un objet de construction topologique en 2 dimensions. Par exemple, un cube a 6 faces. une face peut être courbe, comme c'est le cas pour une sphère, qui, dans FreeCAD, n'a qu'une face.  Le noyau de modélisation géométrique ([CAD Kernel](#Geometric_modeling_kernel.md)) définit une face comme : la partie d'une surface limité par un ensemble fermé de segments ([wires](#Wire.md)). voir [Profile: Defining the Topology](https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3.md).}}
 
 
 {{term|Facet}}
@@ -1037,7 +1037,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 {{term|Vertex}}
 
 
-{{defn|defn=Un _}}
+{{defn|defn=Un [point](#Point.md) tout seul dans l'espace, ou le sommet d'une forme ([shape](#Shape.md)) où se rencontrent ses arêtes ([edges](#Edge.md)). La technologie Open Cascade le définit comme, une forme ([shape](#Shape.md)) à zéro dimensions qui, en géométrie, correspond à un point. [ see OCCT Profile: Defining the topology](https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3.md)}}
 
 
 {{term|Vertices}}
@@ -1131,7 +1131,7 @@ Aller à la lettre : {{CompactTOC|center=yes}}
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Wiki](Category_Wiki.md) [<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Wiki](Category_Wiki.md) > Glossary/fr

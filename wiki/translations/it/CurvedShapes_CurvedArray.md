@@ -14,7 +14,7 @@
 
 Crea un array e ridimensiona gli elementi all\'interno di una o più curve limite. In questo esempio, la forma di base arancione viene ridimensionata entro le curve limite rosse e viola. Le curve non devono essere collegate. Le curve limite devono trovarsi sul piano XY, XZ o YZ, o su un piano parallelo.
 
-<https://github.com/chbergmann/CurvedShapesWorkbench/blob/master/Examples/WingExample.png> _
+<https://github.com/chbergmann/CurvedShapesWorkbench/blob/master/Examples/WingExample.png> [Image:](Image:.md)
 
 ## Utilizzo
 
@@ -58,7 +58,7 @@ Crea un array e ridimensiona gli elementi all\'interno di una o più curve limit
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Name](Category_Name.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [Name](Category_Name.md) > CurvedShapes CurvedArray/it

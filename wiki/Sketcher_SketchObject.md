@@ -3,7 +3,7 @@
 
  <img alt="" src=images/Sketcher_Sketch.svg  style="width:32px;"> 
 
-A _.
+A [Sketcher SketchObject](Sketcher_SketchObject.md), or formally a `Sketcher::SketchObject`, is the base element to create 2D objects with the [Sketcher Workbench](Sketcher_Workbench.md).
 
 The `Sketcher::SketchObject` is derived from [Part Part2DObject](Part_Part2DObject.md), which means it is a [Part Feature](Part_Feature.md) object specialized for 2D geometry. Like Part2DObject, the SketchObject can be attached to planes and faces. In addition, the SketchObject can handle geometrical constraints of the lines and curves that are drawn within it.
 
@@ -16,7 +16,7 @@ The `Sketcher::SketchObject` is derived from [Part Part2DObject](Part_Part2DObje
 ## Usage
 
 1.  Switch to the [Sketcher Workbench](Sketcher_Workbench.md).
-2.  Press **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)**.
+2.  Press **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)**.
 3.  Select a **Sketch orientation**: XY-plane, XZ-plane, or YZ-plane. Optionally also choose **Reverse direction**, and give an **Offset** value.
 4.  Press **OK**.
 
@@ -24,9 +24,9 @@ Although the SketchObject can be used by itself to draw on a plane, it is most c
 
 1.  Switch to the [PartDesign Workbench](PartDesign_Workbench.md).
 
-2.  Press **<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**.
+2.  Press **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**.
 
-3.  Press **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)**.
+3.  Press **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)**.
 
 4.  
     **Select feature**: XY\_Plane (Base plane), XZ\_Plane (Base plane), or YZ\_Plane (Base plane).
@@ -37,7 +37,7 @@ Although the SketchObject can be used by itself to draw on a plane, it is most c
 
 See [Property](Property.md) for all property types that scripted objects can have.
 
-A _ (`Part::Part2DObject` class), therefore it shares all the latter\'s properties.
+A [Sketcher SketchObject](Sketcher_SketchObject.md) (`Sketcher::SketchObject` class) is derived from a [Part Part2DObject](Part_Part2DObject.md) (`Part::Part2DObject` class), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [Part Part2DObject](Part_Part2DObject.md), the basic Sketcher SketchObject has the following properties in the [property editor](property_editor.md). Hidden properties can be shown by using the **Show all** command in the context menu of the [property editor](property_editor.md).
 

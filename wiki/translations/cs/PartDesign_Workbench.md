@@ -50,13 +50,13 @@ These tools are in fact not part of the PartDesign Workbench. They belong to the
 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Part](Std_Part.md): adds a new Part container in the active document and makes it active.
 
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Group](Std_Group.md): adds a Group container in the active document, which allows organizing the objects in the [tree view](Tree_view.md).
 
 ### Part Design Helper tools 
 
--   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> _ object in the active document and makes it active.
+-   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Create body](PartDesign_Body.md): creates a [Body](Body.md) object in the active document and makes it active.
 
--   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> _ in sketch editing mode.
+-   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Create sketch](PartDesign_NewSketch.md): creates‎ a new sketch on a selected face or plane. If no face is selected while this tool is executed, the user is prompted to select a plane from the Tasks panel. The interface then switches to the [Sketcher Workbench](Sketcher_Workbench.md) in sketch editing mode.
 
 -   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Edit sketch](Sketcher_EditSketch.md): Edit the selected Sketch.
 
@@ -219,7 +219,7 @@ Some additional functionality found in the Part Design menu:
 
  {{PartDesign Tools navi}}
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/cs

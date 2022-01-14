@@ -142,19 +142,19 @@ FreeCAD oferuje możliwość tworzenia jednolitych lub niejednolitych krzywych z
 
 ### Tworzenie
 
-Aby utworzyć krzywe złożone, przejdź do szkicu i użyj przycisku na pasku narzędzi **<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Utwórz krzywą złożoną](Sketcher_CreateBSpline/pl.md)**. Następnie kliknij lewym przyciskiem myszy, aby ustawić punkt kontrolny, przesuń kursor w lewo, aby ustawić następny punkt kontrolny i tak dalej. Na koniec kliknij prawym przyciskiem myszy, aby zakończyć definicję i utworzyć krzywą.
+Aby utworzyć krzywe złożone, przejdź do szkicu i użyj przycisku na pasku narzędzi **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [Utwórz krzywą złożoną](Sketcher_CreateBSpline/pl.md)**. Następnie kliknij lewym przyciskiem myszy, aby ustawić punkt kontrolny, przesuń kursor w lewo, aby ustawić następny punkt kontrolny i tak dalej. Na koniec kliknij prawym przyciskiem myszy, aby zakończyć definicję i utworzyć krzywą.
 
 Domyślnie tworzone są jednolite krzywe sześcienne, ale nie ma wystarczającej ilości punktów kontrolnych, aby to zrobić. Tak więc, gdy tworzysz krzywą złożona z tylko 2 punktami kontrolnymi, otrzymujesz oczywiście krzywą, która jest pojedynczą liniową krzywą Béziera, dla 3 punktów kontrolnych otrzymujesz kwadratową krzywą Béziera, a dla 5 punktów kontrolnych otrzymujesz sześcienną krzywą złożoną z 2 segmentów Béziera.
 
-Aby utworzyć periodyczne krzywe złożone *(B-splajny, które tworzą zamkniętą krzywą)*, użyj przycisku na pasku narzędzi **<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Okresowa krzywa złożona ...](Sketcher_CreatePeriodicBSpline/pl.md)**. Nie jest konieczne ustawianie ostatniego punktu kontrolnego na pierwszym, ponieważ linia krzywej zostanie automatycznie zamknięta:
+Aby utworzyć periodyczne krzywe złożone *(B-splajny, które tworzą zamkniętą krzywą)*, użyj przycisku na pasku narzędzi **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Okresowa krzywa złożona ...](Sketcher_CreatePeriodicBSpline/pl.md)**. Nie jest konieczne ustawianie ostatniego punktu kontrolnego na pierwszym, ponieważ linia krzywej zostanie automatycznie zamknięta:
 
 ![](images/Sketcher_Periodic-B-spline-creation.gif )
 
-Krzywe złożone mogą być również generowane z istniejących segmentów szkicu. Aby to zrobić, zaznacz elementy i naciśnij przycisk paska narzędzi **<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Konwertuj geometrię na krzywą złożoną](Sketcher_BSplineApproximate/pl.md)**.
+Krzywe złożone mogą być również generowane z istniejących segmentów szkicu. Aby to zrobić, zaznacz elementy i naciśnij przycisk paska narzędzi **[<img src=images/Sketcher_BSplineApproximate.svg style="width:24px"> [Konwertuj geometrię na krzywą złożoną](Sketcher_BSplineApproximate/pl.md)**.
 
 ### Zmiana stopni 
 
-Aby zmienić stopień, wybierz krzywą złożoną i użyj przycisku z paska narzędzi **<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> <img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:Zwiększ stopień krzywej złożonej](Sketcher_BSplineIncreaseDegree/pl.md)** lub **[24px"> [Zmniejsz stopień krzywej złożonej](Sketcher_BSplineDecreaseDegree/pl.md)**.
+Aby zmienić stopień, wybierz krzywą złożoną i użyj przycisku z paska narzędzi **[<img src=images/Sketcher_BSplineIncreaseDegree.svg style="width:24px"> [Zwiększ stopień krzywej złożonej](Sketcher_BSplineIncreaseDegree/pl.md)** lub **[<img src=images/Sketcher_BSplineDecreaseDegree.svg style="width:24px"> [Zmniejsz stopień krzywej złożonej](Sketcher_BSplineDecreaseDegree/pl.md)**.
 
 **Uwaga:** Zmniejszanie stopnia nie może odwrócić wcześniejszego zwiększenia stopnia, zobacz stronę Wiki [Zmniejsz stopień krzywej złożonej](Sketcher_BSplineDecreaseDegree/pl.md), aby uzyskać wyjaśnienie.
 
@@ -162,7 +162,7 @@ Aby zmienić stopień, wybierz krzywą złożoną i użyj przycisku z paska narz
 
 Punkty, w których dwie krzywe Béziera łączą się tworząc krzywą złożoną nazywane są węzłami. Mnogość węzłów określa sposób łączenia części Béziera, zobacz stronę Wiki [Zwiększ liczebność węzłów](Sketcher_BSplineIncreaseKnotMultiplicity/pl.md), aby poznać szczegóły.
 
-Aby zmienić krotność węzłów, użyj przycisków paska narzędzi **<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:24px"> <img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:Zwiększ krotności węzłów](Sketcher_BSplineIncreaseKnotMultiplicity/pl.md)** lub **[24px"> [Zmniejsz krotności węzłów](Sketcher_BSplineDecreaseKnotMultiplicity/pl.md)**.
+Aby zmienić krotność węzłów, użyj przycisków paska narzędzi **[<img src=images/Sketcher_BSplineIncreaseKnotMultiplicity.svg style="width:24px"> [Zwiększ krotności węzłów](Sketcher_BSplineIncreaseKnotMultiplicity/pl.md)** lub **[<img src=images/Sketcher_BSplineDecreaseKnotMultiplicity.svg style="width:24px"> [Zmniejsz krotności węzłów](Sketcher_BSplineDecreaseKnotMultiplicity/pl.md)**.
 
 **Uwaga:** Tworzenie dwóch krzywych złożonych, które są ze sobą połączone, nie połączy się w jedną nową krzywą złożoną. Zatem ich punkt połączenia nie jest węzłem. Jedynym sposobem na uzyskanie nowego węzła w istniejącej krzywej jest zmniejszenie jej stopnia. Jednakże, możesz uzyskać wiele nowych węzłów. Dlatego lepszym wyborem jest przerysowanie krzywej z większą liczbą punktów kontrolnych.
 
@@ -192,23 +192,23 @@ Ponieważ postać krzywej B-splajnu nie mówi wiele o jej właściwościach, Fre
 | Właściwość               | Przycisk narzędzia                                                                                                                                   |
 +--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Stopień**              |                                                                                                                                       |
-|                          | **<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [Pokaż / ukryj stopnie krzywej złożonej](Sketcher_BSplineDegree/pl.md)**                             |
+|                          | **[<img src=images/Sketcher_BSplineDegree.svg style="width:16px"> [Pokaż / ukryj stopnie krzywej złożonej](Sketcher_BSplineDegree/pl.md)**                             |
 |                          |                                                                                                                                                   |
 +--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Ramka kontrolna**      |                                                                                                                                       |
-|                          | **<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Pokaż / ukryj ramkę kontrolną krzywej złożonej](Sketcher_BSplinePolygon/pl.md)**                   |
+|                          | **[<img src=images/Sketcher_BSplinePolygon.svg style="width:16px"> [Pokaż / ukryj ramkę kontrolną krzywej złożonej](Sketcher_BSplinePolygon/pl.md)**                   |
 |                          |                                                                                                                                                   |
 +--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Grzebień krzywizny**   |                                                                                                                                       |
-|                          | **<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Pokaż / ukryj grzebień krzywizny krzywej złożonej](Sketcher_BSplineComb/pl.md)**                      |
+|                          | **[<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Pokaż / ukryj grzebień krzywizny krzywej złożonej](Sketcher_BSplineComb/pl.md)**                      |
 |                          |                                                                                                                                                   |
 +--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Wielokrotność węzłów** |                                                                                                                                       |
-|                          | **<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [Pokaż / ukryj krotność węzłów krzywej złożonej](Sketcher_BSplineKnotMultiplicity/pl.md)** |
+|                          | **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [Pokaż / ukryj krotność węzłów krzywej złożonej](Sketcher_BSplineKnotMultiplicity/pl.md)** |
 |                          |                                                                                                                                                   |
 +--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Waga**                 |                                                                                                                                       |
-|                          | **<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Pokaż / ukryj wagi krzywej złożonej](Sketcher_BSplinePoleWeight/pl.md)**                        |
+|                          | **[<img src=images/Sketcher_BSplinePoleWeight.svg style="width:16px"> [Pokaż / ukryj wagi krzywej złożonej](Sketcher_BSplinePoleWeight/pl.md)**                        |
 |                          |                                                                                                                                                   |
 +--------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------+
 

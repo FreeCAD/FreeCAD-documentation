@@ -33,7 +33,7 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_DlgParameter.svg  style="width:32px;"> [Edit parameters\...](Std_DlgParameter.md): Opens a dialog box giving access to the parameters that control the program.
 
--   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Std_ViewScreenShot.svg  style="width:32px;"> [Save picture\...](Std_ViewScreenShot.md): Saves a screenshot of the active [3D view](3D_view.md).
 
 -   <img alt="" src=images/Std_SceneInspector.svg  style="width:32px;"> [Scene inspector\...](Std_SceneInspector.md): Displays an overview of scenegraph nodes of the active 3D view.
 
@@ -51,7 +51,7 @@ The following tools are available in this menu:
 
 -   <img alt="" src=images/Std_DlgCustomize.svg  style="width:32px;"> [Customize\...](Std_DlgCustomize.md): Opens a dialog box with customization options.
 
--   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> _ and [macros](macros.md) can be installed.
+-   <img alt="" src=images/Std_AddonMgr.svg  style="width:32px;"> [Addon manager](Std_AddonMgr.md): Opens the Addon manager with which [external workbenches](External_workbenches.md) and [macros](macros.md) can be installed.
 
 
 
@@ -61,7 +61,7 @@ The following tools are available in this menu:
 
 }}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std Tools Menu/en

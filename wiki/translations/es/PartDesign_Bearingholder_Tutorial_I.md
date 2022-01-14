@@ -23,7 +23,7 @@ Esta es la primera parte del tutorial. Utilizará lo que podría llamarse el flu
 
 Obviamente, para seguir este tutorial debes activar la mesa de trabajo de PartDesign.
 
-~~Puedes encontrar mi versión de la parte creada por este tutorial _.~~ *El archivo ya no está disponible, se proporcionará uno nuevo más adelante*.
+~~Puedes encontrar mi versión de la parte creada por este tutorial [http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa aquí](http://ubuntuone.com/5gok0J4dye3Fo4BKWMGWVa_aquí.md).~~ *El archivo ya no está disponible, se proporcionará uno nuevo más adelante*.
 
 ## Datos de diseño 
 
@@ -111,7 +111,7 @@ We have modelled the bearing holder top with the dimensions it will have after c
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial I/es

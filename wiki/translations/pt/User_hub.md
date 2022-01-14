@@ -39,7 +39,7 @@ Se você gostaria de saber como começou o desenvolvimento de FreeCADa anos atr�
 
 <div class="mw-translate-fuzzy">
 
-Se tiver alguma informação que gostaria que aparecesse aqui, porque não contribuir a ajudar este manual a crescer? É fácil escrever páginas wiki, a página _ vai ajudá-lo a começar. 
+Se tiver alguma informação que gostaria que aparecesse aqui, porque não contribuir a ajudar este manual a crescer? É fácil escrever páginas wiki, a página [This page](Help_Editing.md) vai ajudá-lo a começar. 
 
 ## Usando o FreeCAD 
 
@@ -52,7 +52,7 @@ Se tiver alguma informação que gostaria que aparecesse aqui, porque não contr
 <div class="mw-translate-fuzzy">
 
 -   [Acerca do FreeCAD](About_FreeCAD/pt.md): Uma visão global do FreeCAD
--   _ e no [Instalação em Linux\|Linux](Install_on_Unix/pt.md)
+-   [Instalação do FreeCAD](Installing/pt.md): Como instalar o FreeCAD no [Instalação em Windows\|Windows](Install_on_Windows/pt.md) e no [Instalação em Linux\|Linux](Install_on_Unix/pt.md)
 -   [Primeiros passos](Getting_started/pt.md): Uma visão geral das ferramentas disponíveis
 -   [FAQ](Frequently_asked_questions/pt.md): Perguntas frequentes
 
@@ -193,7 +193,7 @@ Esta é a ajuda online oficial do FreeCAD. Note que o sistema de ajuda online es
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
 [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/pt

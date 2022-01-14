@@ -13,7 +13,7 @@
 
 Creates an array and resizes the items in the bounds of one or more hull curves. In this example, the orange base shape is rescaled in the bounds of the red and violet hullcurves. The curves do not have to be connected. The hullcurves should lie on or parallel to the XY- XZ- or YZ- plane.
 
-<https://github.com/chbergmann/CurvedShapesWorkbench/blob/master/Examples/WingExample.png> _
+<https://github.com/chbergmann/CurvedShapesWorkbench/blob/master/Examples/WingExample.png> [Image:](Image:.md)
 
 ## Usage
 
@@ -57,7 +57,7 @@ Creates an array and resizes the items in the bounds of one or more hull curves.
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Name](Category_Name.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [Name](Category_Name.md) > CurvedShapes CurvedArray/pl

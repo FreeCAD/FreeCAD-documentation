@@ -83,7 +83,7 @@ Si vous sélectionnez le document actif et cliquez avec le bouton droit, en plus
 
 -    **Marquer pour recalculer**: marque tous les objets du document comme touchés et prêts pour [recalcul](Std_Refresh/fr.md).
 
--    **_ dans le document sélectionné.
+-    **[Créer un groupe...](Std_Group/fr.md)**: crée un [groupe](Std_Group/fr.md) dans le document sélectionné.
 
 ### Sélection d\'objets 
 
@@ -121,17 +121,17 @@ Comme exemple d\'extension du menu contextuel, si un [Part Cube](Part_Box/fr.md)
 
 -    **[Définir les couleurs...](Part_FaceColors/fr.md)**: définit la couleur des faces sélectionnées de l\'objet.
 
--    **_.
+-    **[Basculer la visibilité](Std_ToggleVisibility/fr.md)**: rend l\'objet visible ou invisible dans la [Vue 3D](3D_view/fr.md).
 
 -    **[Afficher la selection](Std_ShowSelection/fr.md)**: rend visible l\'objet sélectionné.
 
 -    **[Masquer la selection](Std_HideSelection/fr.md)**: rend l\'objet sélectionné invisible.
 
--    **_.
+-    **[Basculer la selectivité](Std_ToggleSelectability/fr.md)**: fait basculer la sélection de l\'objet dans la [Vue 3D](3D_view/fr.md).
 
 -    **[Sélectionner tous les cas](Std_TreeSelectAllInstances/fr.md)**: sélectionne toutes les instances de cet objet dans l\'arborescence.
 
--    **_ faisant référence à l\'objet
+-    **[Envoyer la console Python](Std_SendToPythonConsole/fr.md)**: crée une variable dans la [console Python](Python_console/fr.md) faisant référence à l\'objet
 
 ### Actions du clavier 
 

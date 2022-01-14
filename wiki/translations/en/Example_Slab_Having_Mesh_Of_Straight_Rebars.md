@@ -12,7 +12,7 @@
 
 The [Slab Reinforcement](Arch_Rebar_Slab_Reinforcement.md) tool allows the user to create reinforcing bars inside a Slab [Arch Structure](Arch_Structure.md) object.
 
-This command is part of the _ via the **Tools → Addon manager → Reinforcement** menu.
+This command is part of the [Reinforcement Workbench](Reinforcement_Workbench.md), an [external workbench](External_workbenches.md) that can be installed with the <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) via the **Tools → Addon manager → Reinforcement** menu.
 
 In this example we will create Slab Reinforcement for Slab having Mesh of Straight Rebars (straight rebars in both parallel and cross direction ) as shown in below figure.
 
@@ -243,7 +243,7 @@ you can change any property to edit Slab Reinforcement.
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > Example Slab Having Mesh Of Straight Rebars/en

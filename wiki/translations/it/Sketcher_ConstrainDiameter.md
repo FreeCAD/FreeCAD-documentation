@@ -24,7 +24,7 @@ Questo vincolo forza il valore del diametro di un cerchio o di un arco a un valo
 ## Utilizzo
 
 1.  Selezionare uno o più cerchi o archi.
-2.  Premere il pulsante **<img src=images/Sketcher_ConstrainDiameter.svg style="width:16px"> Diametro**.
+2.  Premere il pulsante **[<img src=images/Sketcher_ConstrainDiameter.svg style="width:16px"> Diametro**.
 3.  Si apre una finestra di dialogo per modificare o confermare il valore. Premere **OK** per confermare. Se sono stati selezionati più cerchi o archi, tutti i vincoli adottano questo valore. Per modificare i loro valori separatamente fare doppio clic sull\'etichetta della dimensione nella vista 3D; oppure nell\'elenco dei Vincoli, fare doppio clic sul vincolo o fare clic con il tasto destro e selezionare **Cambia valore**.
 4.  L\'etichetta e la linea della quota possono essere spostate e ruotate nella vista 3D facendo clic sul valore e trascinando il mouse tenendo premuto il pulsante sinistro.
 

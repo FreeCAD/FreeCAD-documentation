@@ -20,7 +20,7 @@ Aby zdefiniować prostokąt za pomocą punktu środkowego i punktu na krawędzi,
 
 ## Użycie
 
--   Po naciśnięciu przycisku na pasku narzędzi **<img src=images/Sketcher_CreateRectangle.svg style="width:24px"> [Utwórz prostokąt](Sketcher_CreateRectangle/pl.md)**, kliknij raz, aby ustawić pierwszy narożnik, a następnie przesuń kursor myszki i kliknij drugi raz, aby ustawić przeciwległy narożnik.
+-   Po naciśnięciu przycisku na pasku narzędzi **[<img src=images/Sketcher_CreateRectangle.svg style="width:24px"> [Utwórz prostokąt](Sketcher_CreateRectangle/pl.md)**, kliknij raz, aby ustawić pierwszy narożnik, a następnie przesuń kursor myszki i kliknij drugi raz, aby ustawić przeciwległy narożnik.
 -   Naciśnięcie klawisza **Esc** lub kliknięcie prawym przyciskiem myszy anuluje tę funkcję.
 
 

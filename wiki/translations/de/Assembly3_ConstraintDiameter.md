@@ -10,7 +10,7 @@
 
 ## Beschreibung
 
-Der Befehl <img alt="" src=images/Assembly_ConstraintDiameter.svg  style="width:16px;"> _-Arbeitsumgebung in Verbindung mit einer <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> Arbeitsebene erstellt wurde.
+Der Befehl <img alt="" src=images/Assembly_ConstraintDiameter.svg  style="width:16px;"> [Durchmesser](Assembly3_ConstraintDiameter/de.md) legt den Durchmesser eines 2D-Kreises oder Bogens fest, der mit Werkzeugen der <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft](Draft_Workbench/de.md)-Arbeitsumgebung in Verbindung mit einer <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> Arbeitsebene erstellt wurde.
 
 Zum Ändern des Durchmessers wird der Wert der Eigenschaft **Diameter** im Eigenschafteneditor verändert.
 

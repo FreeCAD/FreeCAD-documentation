@@ -1,7 +1,7 @@
 # Release notes 0.15/it
 <div class="mw-translate-fuzzy">
 
-FreeCAD 0.15 è stato rilasciato il giorno 8 Aprile 2015. Questo è un riassunto dei cambiamenti più interessanti. L\'elenco completo delle modifiche è disponibile in _ - [0.13](Release_notes_0.13/it.md) - [0.12](Release_notes_0.12/it.md) - [0.11](Release_notes_0.11.md)
+FreeCAD 0.15 è stato rilasciato il giorno 8 Aprile 2015. Questo è un riassunto dei cambiamenti più interessanti. L\'elenco completo delle modifiche è disponibile in [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Versioni precedenti in: [0.14](Release_notes_0.14/it.md) - [0.13](Release_notes_0.13/it.md) - [0.12](Release_notes_0.12/it.md) - [0.11](Release_notes_0.11.md)
 
 
 </div>
@@ -162,7 +162,7 @@ La macro [WorkFeature](https://github.com/Rentlau/WorkFeature) aggiunge una vast
 
 <img alt="" src=images/WF.png  style="width:640px;">
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > Release notes 0.15/it

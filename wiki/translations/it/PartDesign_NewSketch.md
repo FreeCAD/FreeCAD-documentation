@@ -35,7 +35,7 @@ Quando si creano modelli usando [PartDesign](PartDesign_Workbench/it.md), questo
 
 <div class="mw-translate-fuzzy">
 
-1.  Premere il pulsante **<img src=images/PartDesign_NewSketch.svg style="width:24px">** dalla barra degli strumenti di PartDesign.
+1.  Premere il pulsante **[<img src=images/PartDesign_NewSketch.svg style="width:24px">** dalla barra degli strumenti di PartDesign.
 2.  Nel pannello Azioni, viene visualizzata la finestra di dialogo **Seleziona funzione**. Selezionare uno dei piani nell\'elenco o nella vista 3D che può essere riorientata per una migliore la visibilità.
 3.  Premere **OK**.
 4.  L\'interfaccia passa automaticamente a Sketcher e lo schizzo può essere modificato. Quando lo schizzo è terminato e viene chiuso, l\'interfaccia viene riportata a PartDesign e la vista 3D viene ripristinata all\'orientamento della vista utilizzata prima di creare lo schizzo.
@@ -68,7 +68,7 @@ Dialog settings
 -   Make dependent copy: the elements will be copies, but a dependency to the original elements is kept. This is basically using a [Shapebinder](PartDesign_ShapeBinder.md)
 -   Create cross-reference: the linked elements will not be copies, but point to the original elements, e.g. a master sketch. Any changes are reflected to this sketch
 
-To reference any items in the <img src=images/Sketcher_CarbonCopy.svg style="width:Workbench Sketcher](Sketcher_Workbench.md) use the **<img src="images/Sketcher_External.svg" width=16px> [External Geometry](Sketcher_External.md)** and **[16px"> [CarbonCopy](Sketcher_CarbonCopy.md)** tools. Generally it is recommended to use other sketches as source for references rather than faces or edges, because they are less affected by the Topological Naming Issue.
+To reference any items in the [Workbench Sketcher](Sketcher_Workbench.md) use the **<img src="images/Sketcher_External.svg" width=16px> [External Geometry](Sketcher_External.md)** and **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [CarbonCopy](Sketcher_CarbonCopy.md)** tools. Generally it is recommended to use other sketches as source for references rather than faces or edges, because they are less affected by the Topological Naming Issue.
 
 ## Proprietà
 

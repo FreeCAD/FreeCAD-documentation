@@ -20,7 +20,7 @@ The wire/face must be planar. There can be multiple wires in one object, not nec
 ## Usage
 
 1.  Select an object to offset
-2.  Press the **<img src=images/Part_Offset2D.svg style="width:24px">** **Offset2D** button.
+2.  Press the **[<img src=images/Part_Offset2D.svg style="width:24px">** **Offset2D** button.
 3.  Set up the offset in the [Task Panel](Task_Panel.md).
 4.  Press **OK**.
 

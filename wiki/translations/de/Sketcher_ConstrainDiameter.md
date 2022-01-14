@@ -19,7 +19,7 @@ Diese Beschränkung beschränkt den Wert des Radius eines Kreises oder Bogens um
     -   Ein Referenz Beschränkung wird separat auf jedes Objekt angewendet, das eine externe Geometrie ist
 
     -   
-        **<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Gleiche Beschränkung](Sketcher_ConstrainEqual/de.md)**
+        **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Gleiche Beschränkung](Sketcher_ConstrainEqual/de.md)**
         
         werden nacheinander auf alle Objekte der realen Geometrie/Konstruktionsgeometrie angewandt, und eine dimensionale Beschränkung wird auf das erste ausgewählte Objekt gemäß den obigen Regeln angewandt
 
@@ -28,7 +28,7 @@ NB: B-Spline Pole können nicht mit anderen Objekttypen in der Auswahl gemischt 
 ## Anwendung
 
 1.  Wähle einen oder mehrere Kreise oder Bögen.
-2.  Drücke die **<img src=images/Sketcher_ConstrainDiameter.svg style="width:16px"> [Durchmesser beschränken](Sketcher_ConstrainDiameter.md)** Taste.
+2.  Drücke die **[<img src=images/Sketcher_ConstrainDiameter.svg style="width:16px"> [Durchmesser beschränken](Sketcher_ConstrainDiameter.md)** Taste.
 3.  Ein Aufklappdialog öffnet sich, um den Wert zu bearbeiten oder zu bestätigen. Drücke **OK** um zu bestätigen. Falls mehrere Kreise/Bögen ausgewählt wurden, werden alle Beschränkungen diesen Wert übernehmen. Bearbeite die einzelnen Werte durch Doppelklicken auf die Bemaßungsbeschriftung in der 3D Ansicht; oder doppelklicke in der Liste der Beschränkungen auf die Beschränkung oder klicke mit der rechten Maustaste und wählen **Wert ändern**.
 4.  Optional können die Bemaßungsbeschriftung und -linie in der 3D Ansicht durch Klicken auf den Wert und Ziehen bei gedrückter linker Maustaste verschoben und gedreht werden.
 

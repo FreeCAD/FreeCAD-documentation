@@ -13,7 +13,7 @@ FreeCAD est extensible par du code [Python](Python/fr.md) qui est exécuté dire
 -   **Modifier l\'interface** : créer des barres d\'outils pour y placer vos outils, créer des fenêtres, des panneaux ou des interfaces spéciales pour interagir avec vos outils.
 -   **Modifier la représentation scénographique** : FreeCAD a des processus séparés pour construire la géométrie et afficher cette géométrie à l\'écran. Vous avez un accès complet à la façon dont le contenu de la scène est affiché à l\'écran, vous pouvez donc modifier cette représentation, interagir avec elle ou lui ajouter un comportement personnalisé. Vous pouvez également ajouter des widgets d\'écran personnalisés, comme des informations, des glisseurs, des ancres ou des entités temporaires.
 
-Si vous souhaitez contribuer au contenu de ces pages, demandez un compte wiki avec les droits d\'éditeur _ pour les directives générales que vous devez suivre. Pour d\'autres façons de contribuer au projet, consultez la page [Contribuer à FreeCAD](Help_FreeCAD/fr.md).
+Si vous souhaitez contribuer au contenu de ces pages, demandez un compte wiki avec les droits d\'éditeur [dans le forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) et lisez les [Pages Wiki](WikiPages/fr.md) pour les directives générales que vous devez suivre. Pour d\'autres façons de contribuer au projet, consultez la page [Contribuer à FreeCAD](Help_FreeCAD/fr.md).
 
 ## Personnaliser FreeCAD 
 
@@ -43,7 +43,7 @@ Le fonctionnement de FreeCAD est séparé en modules qui traitent de types de do
 
 #### Travailler avec les maillages 
 
--   _
+-   [Mesh Scripts](Mesh_Scripting/fr.md): comment interagir avec l\'[atelier Mesh](Mesh_Workbench/fr.md)
 
 #### Travailler avec les objets Parts 
 
@@ -80,7 +80,7 @@ Le fonctionnement de FreeCAD est séparé en modules qui traitent de types de do
 
 ## Fonctions API 
 
-La documentation complète de l\'API de FreeCAD se trouve à l\'adresse <http://www.freecadweb.org/api/>. Elle contient à la fois les APIs C++ et Python, et n\'est pas encore parfaitement formatée, ce qui peut être déroutant si vous recherchez du code uniquement Python. Une version plus facile à parcourir peut être trouvée _. Notez qu\'elle peut être incomplète, car elle est mise à jour manuellement. Pour des informations plus précises, parcourez les modules directement depuis la console Python de FreeCAD.
+La documentation complète de l\'API de FreeCAD se trouve à l\'adresse <http://www.freecadweb.org/api/>. Elle contient à la fois les APIs C++ et Python, et n\'est pas encore parfaitement formatée, ce qui peut être déroutant si vous recherchez du code uniquement Python. Une version plus facile à parcourir peut être trouvée [ici](:<img src="images/Property.png" style="width:16px"> API/fr.md). Notez qu\'elle peut être incomplète, car elle est mise à jour manuellement. Pour des informations plus précises, parcourez les modules directement depuis la console Python de FreeCAD.
 
 En rapport : [Exposing C++ to Python](Exposing_C%2B%2B_to_Python.md)
 
@@ -133,7 +133,7 @@ Sur le [Portail communautaire FreeCAD](FreeCAD_Community_Portal/fr.md), vous pou
 
 }}
 
-_
+[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
 [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Power users hub/fr

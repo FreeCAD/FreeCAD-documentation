@@ -34,7 +34,7 @@ Read more about the specific experimental commands on the [wiki pages that link 
 
   {{Path Tools navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > [Path](Path_Workbench.md) > Path experimental

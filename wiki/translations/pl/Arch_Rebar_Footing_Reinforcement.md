@@ -13,7 +13,7 @@
 
 Narzędzie [Zbrojenie stóp fundamentowych](Arch_Rebar_Footing_Reinforcement/pl.md) pozwala użytkownikowi na tworzenie prętów zbrojeniowych wewnątrz obiektu [konstrukcji](Arch_Structure/pl.md) Stopy.
 
-To polecenie jest częścią _ poprzez menu **Przybory → Menadżera dodatków → Reinforcement**.
+To polecenie jest częścią [zewnętrznego środowiska pracy](External_workbenches/pl.md) [Zbrojenie](Reinforcement_Workbench/pl.md), które można zainstalować za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr.md) poprzez menu **Przybory → Menadżera dodatków → Reinforcement**.
 
 ![](images/Isometric_view_of_Columns_footing.png ) 
 *Przykład zbrojenia ławy fundamentowej w [konstrukcji](Arch_Structure/pl.md) stopy*
@@ -513,7 +513,7 @@ footingReinforcementGroup = editFootingReinforcement(
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [Reinforcement](Category_Reinforcement.md) > [Arch](Arch_Workbench.md) > Arch Rebar Footing Reinforcement/pl

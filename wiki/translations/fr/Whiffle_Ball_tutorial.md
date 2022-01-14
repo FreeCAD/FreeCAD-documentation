@@ -28,10 +28,10 @@ Vous vous exercerez à :
 
 ## Installation
 
-1\. Ouvrez FreeCAD, créez un nouveau document vide avec **Fichier → <img src=images/Std_New.svg style="width:16px"> [Nouveau](Std_New/fr.md)** et passez à l\'[atelier Part](Part_Workbench/fr.md).
+1\. Ouvrez FreeCAD, créez un nouveau document vide avec **Fichier → [<img src=images/Std_New.svg style="width:16px"> [Nouveau](Std_New/fr.md)** et passez à l\'[atelier Part](Part_Workbench/fr.md).
 
-:   1.1. Appuyez sur le bouton **<img src=images/Std_ViewIsometric.svg style="width:16px"> [Vue isométrique](Std_ViewIsometric/fr.md)** ou appuyez sur **0** sur le pavé numérique pour changer la vue à isométrique pour mieux visualiser les solides 3D.
-:   1.2. Appuyez sur le bouton **<img src=images/Std_ViewFitAll.svg style="width:16px"> [Tout afficher](Std_ViewFitAll.md)** chaque fois que vous ajoutez des objets afin de faire un panoramique et un zoom sur la [Vue 3D](3D_view/fr.md) afin que tous les éléments sont visibles dans la vue.
+:   1.1. Appuyez sur le bouton **[<img src=images/Std_ViewIsometric.svg style="width:16px"> [Vue isométrique](Std_ViewIsometric/fr.md)** ou appuyez sur **0** sur le pavé numérique pour changer la vue à isométrique pour mieux visualiser les solides 3D.
+:   1.2. Appuyez sur le bouton **[<img src=images/Std_ViewFitAll.svg style="width:16px"> [Tout afficher](Std_ViewFitAll.md)** chaque fois que vous ajoutez des objets afin de faire un panoramique et un zoom sur la [Vue 3D](3D_view/fr.md) afin que tous les éléments sont visibles dans la vue.
 :   1.3. Maintenez **Ctrl** pendant que vous cliquez pour sélectionner plusieurs éléments. Si vous avez sélectionné quelque chose de mal ou que vous voulez tout désélectionner, cliquez simplement sur un espace vide dans la [Vue 3D](3D_view/fr.md).
 
 ## Insérer des cubes primitifs 
@@ -122,12 +122,12 @@ Vous vous exercerez à :
 
 ## Union et Soustraction 
 
-10\. Dans la <img src=images/Part_Fuse.svg style="width:Vue en arborescence](Tree_view/fr.md), sélectionnez `Cube001` (le cube intérieur plus petit) et les cylindres de l\'arbre, puis appuyez sur **[16px"> [Union](Part_Fuse/fr.md)**. Cela créera un objet `Fusion`.
+10\. Dans la [Vue en arborescence](Tree_view/fr.md), sélectionnez `Cube001` (le cube intérieur plus petit) et les cylindres de l\'arbre, puis appuyez sur **[<img src=images/Part_Fuse.svg style="width:16px"> [Union](Part_Fuse/fr.md)**. Cela créera un objet `Fusion`.
 
 11\. Effectuez ensuite une coupe booléenne du `Cube` (cube plus grand) et du nouvel objet `Fusion`.
 
 :   11.1. Dans la [Vue en arborescence](Tree_view/fr.md), sélectionnez d\'abord `Cube`, puis `Fusion`.
-:   11.2. Appuyez ensuite sur **<img src=images/Part_Cut.svg style="width:16px"> [Soustraction](Part_Cut/fr.md)**. Cela créera un objet `Cut`.
+:   11.2. Appuyez ensuite sur **[<img src=images/Part_Cut.svg style="width:16px"> [Soustraction](Part_Cut/fr.md)**. Cela créera un objet `Cut`.
 :   
     **Remarque:**l\'ordre dans lequel vous sélectionnez les objets est important pour l\'opération de soustraction. L\'objet de base est sélectionné en premier et l\'objet de soustraction vient à la fin.
 :   11.3. Si les couleurs semblent étranges, sélectionnez le nouvel objet `Cut`, allez dans l\'onglet **View**, cliquez sur la valeur **Shape Color** pour ouvrir la **Select color**, puis choisissez une couleur grise; modifiez également la valeur de **Line Width** en `2.0`.
@@ -189,7 +189,7 @@ Nous dupliquerons à nouveau les deux objets précédents pour les utiliser à n
 
 18\. Dans la [Vue en arborescence](Tree_view/fr.md) désélectionnez les objets; puis sélectionnez d\'abord `Cube003`, le plus gros cube, puis `Cube002`, le plus petit cube.
 
-:   18.1. Appuyez ensuite sur **<img src=images/_Part_Cut.svg style="width:16px"> [Soustraction](Part_Cut/fr.md)**. Cela créera `Cut001`. C\'est un corps évidé qui coupe le `Cut` initial uniquement à certains coins.
+:   18.1. Appuyez ensuite sur **[<img src=images/_Part_Cut.svg style="width:16px"> [Soustraction](Part_Cut/fr.md)**. Cela créera `Cut001`. C\'est un corps évidé qui coupe le `Cut` initial uniquement à certains coins.
 
 19\. Pour mieux visualiser cela, nous pouvons modifier les propriétés **View** dans l\'[Éditeur de propriétés](Property_editor/fr.md).
 
@@ -213,7 +213,7 @@ Nous dupliquerons à nouveau les deux objets précédents pour les utiliser à n
 
 18\. Dans la [Vue en arborescence](Tree_view/fr.md) désélectionnez les objets; puis sélectionnez d\'abord `Cube005`, le plus gros cube, puis `Cube004`, le plus petit cube.
 
-:   18.1. Appuyez ensuite sur **<img src=images/_Part_Cut.svg style="width:16px"> [Soustraction](Part_Cut/fr.md)**. Cela créera `Cut002`. C\'est un corps évidé qui coupe le `Cut` initial uniquement à certains coins.
+:   18.1. Appuyez ensuite sur **[<img src=images/_Part_Cut.svg style="width:16px"> [Soustraction](Part_Cut/fr.md)**. Cela créera `Cut002`. C\'est un corps évidé qui coupe le `Cut` initial uniquement à certains coins.
 
 23\. Pour mieux visualiser cela, nous pouvons modifier les propriétés **View** dans l\'[Éditeur de propriétés](Property_editor/fr.md).
 
@@ -231,14 +231,14 @@ Nous dupliquerons à nouveau les deux objets précédents pour les utiliser à n
 
 25\. Dans la [Vue en arborescence](Tree_view/fr.md), désélectionnez les objets; puis sélectionnez d\'abord `Cut`, puis `Cut001`.
 
-:   25.1. Appuyez ensuite sur **<img src=images/Part_Cut.svg style="width:16px"> [Soustraction](Part_Cut/fr.md)**. Cela créera `Cut003`.
+:   25.1. Appuyez ensuite sur **[<img src=images/Part_Cut.svg style="width:16px"> [Soustraction](Part_Cut/fr.md)**. Cela créera `Cut003`.
 
 ![](images/08_T03_Part_ball_cut_1.png ) 
 *e solide creux interne, coupé par `Cut001*.`
 
 26\. Dans la [Vue en arborescence](Tree_view/fr.md), désélectionnez les objets; puis sélectionnez d\'abord `Cut003`, puis `Cut002`.
 
-:   26.1. Appuyez ensuite sur **<img src=images/Part_Cut.svg style="width:16px"> [Soustraction](Part_Cut/fr.md)**. Cela créera `Cut004`. C\'est le dernier objet.
+:   26.1. Appuyez ensuite sur **[<img src=images/Part_Cut.svg style="width:16px"> [Soustraction](Part_Cut/fr.md)**. Cela créera `Cut004`. C\'est le dernier objet.
 :   26.2. Sélectionnez `Cut004`, cliquez sur la valeur **Shape Color** pour ouvrir la boîte de dialogue **Select color**, puis choisissez une couleur verte; modifiez également la valeur de **Line Width** en `2.0`.
 
 ![](images/09_T03_Part_ball_cut_2.png ) 
@@ -246,7 +246,7 @@ Nous dupliquerons à nouveau les deux objets précédents pour les utiliser à n
 
 27\. Les objets réels n\'ont pas d\'arêtes ou d\'angles parfaitement nets, il est donc possible d\'appliquer un congé aux arêtes pour affiner le modèle.
 
-:   27.1. Dans la <img src=images/Part_Fillet.svg style="width:Vue en arborescence](Tree_view/fr.md), sélectionnez `Cut004` puis appuyez sur **[16px"> [Congé](Part_Fillet/fr.md)**.
+:   27.1. Dans la [Vue en arborescence](Tree_view/fr.md), sélectionnez `Cut004` puis appuyez sur **[<img src=images/Part_Fillet.svg style="width:16px"> [Congé](Part_Fillet/fr.md)**.
 :   27.2. Dans le [Panneau des tâches](Task_panel/fr.md) de **Fillet edges**, allez dans **Selection**, choisissez **Select bords**, puis appuyez sur **All**. Comme **Fillet type** choisissez `Constant radius`, puis définissez **Radius** sur `1 mm`.
 :   24.3. Appuyez sur **OK**. Cela créera un objet `Fillet`.
 :   27.4. Dans l\'onglet **View**, modifiez la valeur de **Line Width** en `2.0`.

@@ -28,7 +28,7 @@ Szkic zawiera dwie linie o przypadkowej lokalizacji.
 
 Zastosuj wiązanie równoległości poprzez:
 
--   Naciśnięcie przycisku **<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Utwórz wiązanie równoległości ...](Sketcher_ConstrainParallel/pl.md)** z paska narzędzi wiązania Szkicownika, wybierając pozycję menu Wiązanie równoległości z podmenu Wiązania Szkicownika w menu Szkic *(wybrane okno robocze Szkicownik)* lub Projekt części *(wybrane okno środowiska Projekt Części)*.
+-   Naciśnięcie przycisku **[<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Utwórz wiązanie równoległości ...](Sketcher_ConstrainParallel/pl.md)** z paska narzędzi wiązania Szkicownika, wybierając pozycję menu Wiązanie równoległości z podmenu Wiązania Szkicownika w menu Szkic *(wybrane okno robocze Szkicownik)* lub Projekt części *(wybrane okno środowiska Projekt Części)*.
 -   Używając klawiszy **Shift** + **P** skrót klawiszowy.
 -   Używając pozycji **Szkic → Wiązania Szkicownika → Wiązanie równoległości** z menu głównego.
 

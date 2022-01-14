@@ -22,7 +22,7 @@ Sélectionnez deux points (sommets) dans l\'esquisse et une ligne dans l\'esquis
 
 <img alt="" src=images/SymmetricConstraint2.png  style="width:500px;">
 
-Cliquez sur l\'icône **<img src=images/Sketcher_ConstrainSymmetric.svg style="width:16px"> [Créer une contrainte de symétrie...](Sketcher_ConstrainSymmetric/fr.md)** dans la barre d\'outils Esquisse ou sélectionnez l\'élément de menu Contraindre Symétrique dans le sous-menu Contraintes d\'esquisse de l\'élément de menu Esquisse (ou du menu Part Design).
+Cliquez sur l\'icône **[<img src=images/Sketcher_ConstrainSymmetric.svg style="width:16px"> [Créer une contrainte de symétrie...](Sketcher_ConstrainSymmetric/fr.md)** dans la barre d\'outils Esquisse ou sélectionnez l\'élément de menu Contraindre Symétrique dans le sous-menu Contraintes d\'esquisse de l\'élément de menu Esquisse (ou du menu Part Design).
 
 Ceci appliquera la contrainte aux éléments sélectionnés.
 

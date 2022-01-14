@@ -40,7 +40,7 @@ Lo strumento esplode anche forme non composte nei loro costituenti di livello in
 <div class="mw-translate-fuzzy">
 
 -   modificare le posizioni delle forme realizzate da una <img alt="" src=images/Draft_Array.svg  style="width:24px;"> [Serie](Draft_Array/it.md) di Draft
--   ottenere pezzi divisi dal risultato di <img alt="" src=images/Part_Slice.svg  style="width:24px;"> _
+-   ottenere pezzi divisi dal risultato di <img alt="" src=images/Part_Slice.svg  style="width:24px;"> [Affetta in composto](Part_Slice/it.md) o da una <img alt="" src=images/Part_Cut.svg  style="width:24px;"> [Sottrazione booleana](Part_Cut/it.md)
 -   ottenere i contorni individuali dagli schizzi e dalle facce multi-contorno
 -   ottenere un solido puro da un solido in un composto, da utilizzare nell\'ambiente <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench/it.md).
 

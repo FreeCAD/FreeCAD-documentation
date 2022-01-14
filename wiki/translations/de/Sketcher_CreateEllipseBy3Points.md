@@ -24,7 +24,7 @@ Wenn das Werkzeug gestartet wird, ändert sich der Mauszeiger in ein weißes Kre
 
 ## Anwendung
 
--   Drücke die **<img src=images/Sketcher_CreateEllipseBy3Points.svg style="width:16px"> [Ellipse durch 3 Punkte](Sketcher_CreateEllipseBy3Points/de.md)** Schaltfläche .
+-   Drücke die **[<img src=images/Sketcher_CreateEllipseBy3Points.svg style="width:16px"> [Ellipse durch 3 Punkte](Sketcher_CreateEllipseBy3Points/de.md)** Schaltfläche .
 -   Der erste Klick in der 3D Ansicht setzt einen Punkt, der den Schnittpunkt des Hauptdurchmessers mit der Ellipse (Periapsis) definiert. Der zweite Klick in der 3D Ansicht legt einen Punkt fest, der die Kreuzung des Hauptdurchmessers mit der Ellipse gegenüber dem Mittelpunkt (Apoapsis) definiert. Dritter Klick legt einen Punkt auf der Ellipse fest, der den Nebenradius definiert.
 
 -   Nach dem dritten Klick wird die Ellipse zusammen mit einer darauf ausgerichteten Konstruktionsgeometrie erstellt (Hauptdurchmesser, kleiner Durchmesser, zwei Brennpunkte). Die Konstruktionsgeometrie kann, falls nicht benötigt, manuell gelöscht und später wieder erstellt werden. Siehe [Interne Ausrichtungsbeschränkung](Sketcher_ConstrainInternalAlignment/de.md) und [Sketcher Innengeometrie einblenden ausblenden](Sketcher_RestoreInternalAlignmentGeometry/de.md).

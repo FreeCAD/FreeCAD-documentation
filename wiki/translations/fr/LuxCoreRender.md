@@ -1,16 +1,16 @@
 # LuxCoreRender/fr
-**LuxCoreRender n'est pas officiellement pris en charge par l'_, arrêté et dépassé. L'atelier Render peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md).**
+**LuxCoreRender n'est pas officiellement pris en charge par l'[atelier Raytracing](Raytracing_Workbench/fr.md) mais par le nouvel [https://github.com/FreeCAD/FreeCAD-render atelier Render], qui est destiné à le remplacer. Il ne doit pas être confondu avec le [Projet Render](Render_project/fr.md), arrêté et dépassé. L'atelier Render peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md).**
 
 # Description
 
-_ désormais obsolète. Il n\'est pas officiellement supporté par l\'[atelier Raytracing](Raytracing_Workbench/fr.md), bien qu\'il puisse fonctionner.
+[LuxCoreRender](https://luxcorerender.org) est un moteur de rendu basé sur la physique, qui redémarre le [LuxRender](LuxRender/fr.md) désormais obsolète. Il n\'est pas officiellement supporté par l\'[atelier Raytracing](Raytracing_Workbench/fr.md), bien qu\'il puisse fonctionner.
 
 # Installation
 
 ## Atelier Raytracing 
 
 
-**Officiellement, l'_, arrêté et dépassé. L'atelier Render peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing**
+**Officiellement, l'[atelier Raytracing](Raytracing_Workbench/fr.md) ne fonctionne pas avec LuxCoreRender, mais uniquement avec l'ancien [LuxRender](LuxRender/fr.md). De plus, l'[atelier Raytracing](Raytracing_Workbench/fr.md) est remplacé par le nouvel [projet Render](https://github.com/FreeCAD/FreeCAD-render atelier Render]], qui est destiné à le remplacer. Il ne doit pas être confondu avec le [[Render_project/fr.md), arrêté et dépassé. L'atelier Render peut être installé via le [Gestionnaire d'Addon](Std_AddonMgr/fr.md). L'information ici est fournie parce que par défaut FreeCAD est toujours livré (à partir de 0.19-24276) avec l'atelier Raytracing**
 
 .
 

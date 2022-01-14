@@ -5,7 +5,7 @@ This category lists pages related to the [Drawing Workbench/pl](Drawing_Workbenc
 
 [Complete Workbench/pl](Complete_Workbench/pl.md) , [Drawing Workbench/pl](Drawing_Workbench/pl.md) , ,
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Obsolete Workbenches/pl](<img src="images/Property.png" style="width:16px"> Obsolete_Workbenches/pl.md) [<img src="images/Property.png" style="width:16px"> Drawing/pl](<img src="images/Property.png" style="width:16px"> Drawing/pl.md) [<img src="images/Property.png" style="width:16px"> Obsolete Workbenches/pl](<img src="images/Property.png" style="width:16px"> Obsolete_Workbenches/pl.md)
 
 ---
 [documentation index](../README.md) > [Drawing/pl]] , ](Category_Drawing/pl]] , .md) > Category:Obsolete Workbenches/pl

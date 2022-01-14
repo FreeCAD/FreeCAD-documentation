@@ -3,7 +3,7 @@
 
 ## Einführung
 
-Um die Finite Element Analyse (FEA) innerhalb des **<img src="images/Workbench_FEM.svg" width=24px> _ verwendet, das andere für die numerische Lösung der eigentlichen Analyse. Du kannst testen, ob dein FreeCAD Installation für die FEA bereit ist, indem du das [FEM CalculiX Kragarm 3D](FEM_CalculiX_Cantilever_3D/de.md) Beispiel ausführen, das in jeder Installation von FreeCAD seit v0.17 enthalten ist.
+Um die Finite Element Analyse (FEA) innerhalb des **<img src="images/Workbench_FEM.svg" width=24px> [FEM Arbeitsbereichs](FEM_Workbench/de.md)** durchführen zu können, verwendet FreeCAD zwei externe Programme: eines wird für die Generierung des [FEM Netz](FEM_Mesh/de.md) verwendet, das andere für die numerische Lösung der eigentlichen Analyse. Du kannst testen, ob dein FreeCAD Installation für die FEA bereit ist, indem du das [FEM CalculiX Kragarm 3D](FEM_CalculiX_Cantilever_3D/de.md) Beispiel ausführen, das in jeder Installation von FreeCAD seit v0.17 enthalten ist.
 
 <img alt="" src=images/FEM_Workbench_workflow.svg  style="width:600px;"> 
 * Arbeitsablauf des FEM Arbeitsbereichs; der Arbeitsbereich ruft zwei externe Programme auf, um die Vernetzung eines festen Objekts und die eigentliche Lösung des Finite Element Problems durchzuführen.*
@@ -56,7 +56,7 @@ Wenn der Netzerzeuger installiert ist, stelle sicher, dass der FEM Arbeitsbereic
 
 **Hinweis: Der Netgen Netzerzeuger wurde im März 2017 deaktiviert, als FreeCAD auf die Verwendung von OCCT 7.1 umgestellt wurde. Bitte bearbeiten Sie diese Information, wenn Netgen mit der stabilen Version von FreeCAD wieder nutzbar ist.**
 
-In früheren Versionen von FreeCAD war _ zu beenden. (die Schaltfläche [Netgen](FEM_MeshNetgenFromShape/de.md) wurde entfernt). Nichtsdestotrotz berichteten einige Anwender kurz darauf von Erfolgen beim Patchen von Netgen 5.3.1, so dass es mit OCCT 7.x und FreeCAD funktionierte.
+In früheren Versionen von FreeCAD war [Netgen](https://sourceforge.net/projects/netgen-mesher/) der Standard Netzerzeuger. Damit es mit dem FEM Arbeitsbereich funktioniert, musste FreeCAD zur Kompilierzeit mit den Netgen Bibliotheken gelinkt werden. Als FreeCAD von OCE 0.17 auf OCCT 7.1 überging, konnte Netgen 4.9.13 nicht mehr gegen diese Version von OCCT gelinkt werden, so dass beschlossen wurde, die Netgen Unterstützung im [FEM Arbeitsbereich](FEM_Workbench/de.md) zu beenden. (die Schaltfläche [Netgen](FEM_MeshNetgenFromShape/de.md) wurde entfernt). Nichtsdestotrotz berichteten einige Anwender kurz darauf von Erfolgen beim Patchen von Netgen 5.3.1, so dass es mit OCCT 7.x und FreeCAD funktionierte.
 
 Als historische Referenz siehe die Beiträge:
 
@@ -106,7 +106,7 @@ Linux Distributionen haben unterschiedliche Möglichkeiten, Software zu installi
 
 ### Ubuntu PPA 
 
-Die _ für weitere Informationen zum Einrichten der Repositorien.
+Die [freecad-stable](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-stable) und [freecad-daily](https://launchpad.net/~freecad-maintainers/+archive/ubuntu/freecad-daily) persönlichen Paketarchive (PPA) bieten eine aktuellere Version von FreeCAD als in den offiziellen Ubuntu Repositorien verfügbar ist. Diese PPAs enthalten auch die aktuellsten Pakete `netgen`, `gmsh` und `calculix-ccx`. Siehe [Installieren unter Linux](Installing_on_Linux/de.md) für weitere Informationen zum Einrichten der Repositorien.
 
 Wenn ein PPA bereits zu deinem System hinzugefügt wurde, installiere die Pakete wie folgt
 

@@ -23,7 +23,7 @@ Die Einschränkung \'Horizontal\' sorgt dafür, dass eine oder mehrere gewählte
 *Die Linie wird dunkelgrün.*
 
 <img alt="" src=images/HorizontalConstraint3.png  style="width:500px;"> 
-*Wende die horizontale Beschränkung durch anklicken auf **<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> [Beschränkung horizontal](Sketcher_ConstrainHorizontal/de.md)* in der Skizzierer Beschränkungs Werkzeugleiste oder durch Auswahl des Menüpunkts Horizontal beschränken im Untermenü Skizzierer Beschränkungen des Skizzierer Menüpunkts im Skizzierer Arbeitsbereich (oder des Part Design Menüpunkts des Part Design Arbeitsbereichs). Die ausgewählte Linie wird so beschränkt, dass sie parallel zur horizontalen Achse der Skizze verläuft.**
+*Wende die horizontale Beschränkung durch anklicken auf **[<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> [Beschränkung horizontal](Sketcher_ConstrainHorizontal/de.md)* in der Skizzierer Beschränkungs Werkzeugleiste oder durch Auswahl des Menüpunkts Horizontal beschränken im Untermenü Skizzierer Beschränkungen des Skizzierer Menüpunkts im Skizzierer Arbeitsbereich (oder des Part Design Menüpunkts des Part Design Arbeitsbereichs). Die ausgewählte Linie wird so beschränkt, dass sie parallel zur horizontalen Achse der Skizze verläuft.**
 
 <img alt="" src=images/HorizontalConstraint4.png  style="width:500px;"> 
 *Mehrere Linien können ausgewählt werden

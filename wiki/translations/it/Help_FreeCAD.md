@@ -8,14 +8,14 @@ Se FreeCAD piace e si vuole contribuire al suo sviluppo, oltre ad una [donazione
 
 ## Migliorare la documentazione 
 
-Si può, ad esempio, aiutare a migliorare la documentazione del programma, correggere ed estendere i capitoli esistenti oppure creare delle nuove pagine per spiegare l\'utilizzo di una determinata funzione del programma che non è ancora spiegata in nessuna altra pagina. Contribuire al wiki di FreeCAD è facile, la pagina _ spiega come iniziare e nella sezione [WikiPages](WikiPages.md) si trovano le regole da seguire. Per lavorare sulla documentazione è necessario richiedere un account con i permessi di \"Editor\" tramite il [forum](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830) oppure attraverso il [canale IRC](https://wiki.freecadweb.org/Help#Chat) il permesso di editare il wiki, che è protetto in scrittura per prevenire lo spamming. Notare che il canale IRC potrebbe non essere così reattivo come il forum. [Il forum ufficiale di FreeCAD](https://forum.freecadweb.org) dovrebbe essere il luogo principale per porre domande e avviare discussioni, poiché aiuterà a preservare l\'esperienza e la conoscenza della comunità.
+Si può, ad esempio, aiutare a migliorare la documentazione del programma, correggere ed estendere i capitoli esistenti oppure creare delle nuove pagine per spiegare l\'utilizzo di una determinata funzione del programma che non è ancora spiegata in nessuna altra pagina. Contribuire al wiki di FreeCAD è facile, la pagina [Editing](Help:Editing/it.md) spiega come iniziare e nella sezione [WikiPages](WikiPages.md) si trovano le regole da seguire. Per lavorare sulla documentazione è necessario richiedere un account con i permessi di \"Editor\" tramite il [forum](http://forum.freecadweb.org/viewtopic.php?f=21&t=6830) oppure attraverso il [canale IRC](https://wiki.freecadweb.org/Help#Chat) il permesso di editare il wiki, che è protetto in scrittura per prevenire lo spamming. Notare che il canale IRC potrebbe non essere così reattivo come il forum. [Il forum ufficiale di FreeCAD](https://forum.freecadweb.org) dovrebbe essere il luogo principale per porre domande e avviare discussioni, poiché aiuterà a preservare l\'esperienza e la conoscenza della comunità.
 
 
 <div class="mw-translate-fuzzy">
 
 Alcune aree che devono essere ampliate e migliorate sono:
 
--   La sezione _, in inglese la _, che include tutti i [comandi](Command/it.md) utilizzabili in FreeCAD, ma molti di questi non hanno ancora una descrizione oppure, se esiste, è molto scarna. Fare riferimento a [WikiPages](WikiPages.md) per vedere dei validi esempi su come costruire delle adeguate descrizioni.
+-   La sezione [Guida ai comandi](:<img src="images/Property.png" style="width:16px"> Command_Reference/it.md), in inglese la [:<img src="images/Property.png" style="width:16px"> Command Reference](:Category_Command_Reference.md), che include tutti i [comandi](Command/it.md) utilizzabili in FreeCAD, ma molti di questi non hanno ancora una descrizione oppure, se esiste, è molto scarna. Fare riferimento a [WikiPages](WikiPages.md) per vedere dei validi esempi su come costruire delle adeguate descrizioni.
 -   La sezione dei [Tutorial](Tutorials/it.md) ha bisogno di esempi su come usare gli ambienti. Se avete sviluppato o realizzato qualcosa di interessante con FreeCAD potete fare qualcosa di molto utile se scrivete una guida e la pubblicate in questo capitolo della documentazione.
 -   Nel [bugtracker](bugtracker.md) di FreeCAD ci sono delle etichette aperte contrassegnate \'[documentation](https://freecadweb.org/tracker/search.php?tag_string=documentation)\' che meritano attenzione.
 
@@ -49,7 +49,7 @@ Tradurre questo wiki della documentazione è facile, il wiki di FreeCAD supporta
 
 Per i dettagli sulla traduzione, vedere il paragrafo [Tradurre il wiki](Localisation/it#Tradurre_il_wiki.md)
 
-Accertarsi di avere familiarità con le basi del markup wiki; vedere _ come riferimento.
+Accertarsi di avere familiarità con le basi del markup wiki; vedere [Help Editing](Help:Editing/it.md) come riferimento.
 
 Quindi vedere la [WikiPages](WikiPages.md) per familiarizzare con lo stile utilizzato in questo wiki, in particolare quando si tratta di modelli.
 
@@ -100,7 +100,7 @@ Scrivere del codice per FreeCAD non è difficile, e non serve alcuna autorizzazi
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Command_Reference/it|Guida ai comandi]], in inglese la ](Category_Command_Reference/it|Guida ai comandi]], in inglese la .md) > Help FreeCAD/it

@@ -438,8 +438,8 @@ Es gibt viele Wege einen Zusammenbau mit Assembly3 zu erstellen. Hier ist der ei
 -   Schaltfläche **<img src="images/Std_New.svg" width=16px> [Neu](Std_New/de.md)** drücken, um eine neue FreeCAD-Datei zu erstellen
 -   Zur <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3 Arbeitsumgebung](Assembly3_Workbench/de.md) wechseln
 -   Schaltfläche **<img src="images/Assembly_New_Assembly.svg‎‎" width=16px> [Baugruppe anlegen](Assembly3_CreateAssembly/de.md)** drücken
--   Zur <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ und einen <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Würfel](Part_Box/de.md) hinzufügen
--   Die Datei unter einem selbstgewählten Dateinamen <img alt="" src=images/Std_Save.svg  style="width:16px;"> _ und erneut <img alt="" src=images/Std_Open.svg  style="width:16px;"> [öffnen](Std_Open/de.md)
+-   Zur <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part Arbeitsumgebung](Part_Workbench/de.md) wechseln und einen <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [Zylinder](Part_Cylinder/de.md) und einen <img alt="" src=images/Part_Box.svg  style="width:16px;"> [Würfel](Part_Box/de.md) hinzufügen
+-   Die Datei unter einem selbstgewählten Dateinamen <img alt="" src=images/Std_Save.svg  style="width:16px;"> [speichern](Std_Save/de.md). Anschließend die Datei <img alt="" src=images/Std_CloseActiveWindow.svg  style="width:16px;"> [schließen](Std_CloseActiveWindow/de.md) und erneut <img alt="" src=images/Std_Open.svg  style="width:16px;"> [öffnen](Std_Open/de.md)
 
 Die Baumansicht sollte so aussehen (0.20.pre and Link Branch):
 
@@ -580,7 +580,7 @@ Ein Weg, dieses zu lösen ist, einfach alle ungültigen Beschränkungen und Elem
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > Assembly3 Workbench/de

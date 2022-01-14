@@ -124,7 +124,7 @@ myView = Gui.ActiveDocument.ActiveView
 
 <div class="mw-translate-fuzzy">
 
-Модули `FreeCAD` и `FreeCADGui` отвечают за создание и управление объектами в документе FreeCAD. Они не занимаются созданием или изменением геометрии. Это потому, что эта геометрия может быть нескольких типов, и поэтому она управляется дополнительными модулями, каждый из которых отвечает за управление определенным типом геометрии. Например, _ может создавать и модифицировать объекты типа сетка. Таким образом, FreeCAD может обрабатывать самые разные типы объектов, которые могут сосуществовать в одном документе, и новые типы могут быть легко добавлены в будущем.
+Модули `FreeCAD` и `FreeCADGui` отвечают за создание и управление объектами в документе FreeCAD. Они не занимаются созданием или изменением геометрии. Это потому, что эта геометрия может быть нескольких типов, и поэтому она управляется дополнительными модулями, каждый из которых отвечает за управление определенным типом геометрии. Например, [Модуль Part](Part_Workbench/ru.md) использует ядро OpenCascade и поэтому может создавать и манипулировать геометрией типа [B-rep](http://en.wikipedia.org/wiki/Boundary_representation). В то же время [Модуль Mesh](Mesh_Workbench/ru.md) может создавать и модифицировать объекты типа сетка. Таким образом, FreeCAD может обрабатывать самые разные типы объектов, которые могут сосуществовать в одном документе, и новые типы могут быть легко добавлены в будущем.
 
 
 </div>
@@ -209,7 +209,7 @@ print(myObj.TypeId)
 print(myObj.isDerivedFrom("Part::Feature"))
 ```
 
-Теперь вы действительно можете начать играть с FreeCAD! Насчёт полного списка всех доступных модулей и доступных инструментов смотрите в разделе _. {{Top}}
+Теперь вы действительно можете начать играть с FreeCAD! Насчёт полного списка всех доступных модулей и доступных инструментов смотрите в разделе [<img src="images/Property.png" style="width:16px"> API](:Category_API.md). {{Top}}
 
 
 <div class="mw-translate-fuzzy">
@@ -225,7 +225,7 @@ print(myObj.isDerivedFrom("Part::Feature"))
 
 }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > FreeCAD Scripting Basics/ru

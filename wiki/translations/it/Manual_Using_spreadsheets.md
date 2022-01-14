@@ -21,7 +21,7 @@ Nel seguente esempio, creeremo un paio di oggetti, recupereremo alcune delle lor
 
 <div class="mw-translate-fuzzy">
 
--   Iniziare passando all\'ambiente _, un <img alt="" src=images/Part_Cylinder.png  style="width:16px;"> _.
+-   Iniziare passando all\'ambiente [Part](Part_Workbench/it.md), e creare alcuni oggetti: un <img alt="" src=images/Part_Box.png  style="width:16px;"> [box](Part_Box/it.md), un <img alt="" src=images/Part_Cylinder.png  style="width:16px;"> [cilindro](Part_Cylinder/it.md) e una <img alt="" src=images/Part_Sphere.png  style="width:16px;"> [sfera](Part_Sphere/it.md).
 -   Modificare le loro proprietà **Placement** (o usare lo strumento <img alt="" src=images/Draft_Move.png  style="width:16px;"> [Muovi](Draft_Move/it.md)) per separarli, in modo che si possa vedere meglio gli effetti di quello che faremo:
 
 
@@ -118,7 +118,7 @@ Si può anche dare un alias a vincoli dimensionali (orizzontale, verticale o dis
 
 </div>
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Using spreadsheets/it

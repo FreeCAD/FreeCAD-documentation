@@ -5,7 +5,7 @@ One of the main uses of FreeCAD is to produce real-world objects. These can be d
 
 If you have been cautious while modeling, most of the difficulty you might encounter when printing your model in 3D has already been avoided. This involves basically:
 
--   Making sure that your 3D objects are **solid**. Real-world objects are solid, the 3D model must be solid too. We saw in earlier chapters that FreeCAD helps you a lot in that regard, and that the _ tool that is handy to check further for possible defects.
+-   Making sure that your 3D objects are **solid**. Real-world objects are solid, the 3D model must be solid too. We saw in earlier chapters that FreeCAD helps you a lot in that regard, and that the [PartDesign Workbench](PartDesign_Workbench.md) will notify you if you do an operation that prevents your model to stay solid. The [Part Workbench](Part_Workbench.md) also contains a <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> [Check Geometry](Part_CheckGeometry.md) tool that is handy to check further for possible defects.
 -   Making sure about the **dimensions** of your objects. One millimeter will be one millimeter in real-life. Every dimension matters.
 -   Controlling the **degradation**. No 3D printing or CNC milling system can take FreeCAD files directly. Most of them will only understand a machine language called [G-Code](https://en.wikipedia.org/wiki/G-code). G-code has dozens of different dialects, each machine or vendor usually has its own. The conversion of your models into G-Code can be easy and automatic, but you can also do it manually, with total control over the output. In any case, some loss of quality of your model will unavoidably occur during the process. When printing in 3D, you must always make sure this loss of quality stays below your minimum requirements.
 
@@ -62,7 +62,7 @@ Once you have installed both Cura and the Cura Workbench, you will be able to us
 -   Load the file containing our Lego brick (it can be downloaded at the end of the previous chapter)
 -   Switch to the [Cura Workbench](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin)
 -   Setup the printer space by choosing menu **3D printing → Create a 3D printer definition**. Since we aren\'t going to print for real, we can leave the settings as they are. The geometry of the printing bed and available space will be shown in the 3D view.
--   Move the Lego brick to a suitable location, such as the center of the printing bed. Remember that PartDesign objects cannot be moved directly, so you need either to move its very first sketch (the first rectangle), or to move (and print) a copy, which can be made with the _.
+-   Move the Lego brick to a suitable location, such as the center of the printing bed. Remember that PartDesign objects cannot be moved directly, so you need either to move its very first sketch (the first rectangle), or to move (and print) a copy, which can be made with the [Part -\> Create Simple Copy](Part_SimpleCopy.md) tool. The copy can be moved, for example with <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Draft → Move](Draft_Move.md).
 -   Select the object to be printed, and select menu **3D printing → Slice with Cura Engine**.
 -   In the task panel that will open, make sure the path to the Cura executable is correctly set. Since we are not going to really print, we can leave all other options as they are. Press **Ok**. Two files will be generated in the same directory as your FreeCAD file, an STL file and a G-code file.
 
@@ -102,7 +102,7 @@ Generating CNC milling paths is another subject that is much too vast to fit in 
 
 ![](images/Exercise_path_04.jpg )
 
--   Now all that is left to do is to join these two operations into one. This can be done with a _ button.
+-   Now all that is left to do is to join these two operations into one. This can be done with a [Path Job](Path_Job.md). Press the <img alt="" src=images/Path_Job.svg  style="width:16px;"> [Job](Path_Job.md) button.
 -   Set the **Use Placements** property of the project is to True, because we changed the placement of the arrays, and we want that to be taken into account in the project.
 -   In the tree view, drag and drop the two arrays into the project. You can reorder the arrays inside the project if needed, by double-clicking it.
 -   The project can now be exported to G-code, by selecting it, choosing menu **File -\> Export**, selecting the G-code format, and in the pop-up dialog that will open, selecting a post-processing script according to your machine.
@@ -132,7 +132,7 @@ There are many applications available to simulate the real cutting, one of them 
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Path](Category_Path.md) [<img src="images/Property.png" style="width:16px"> Mesh](Category_Mesh.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Path](Category_Path.md) > Manual:Preparing models for 3D printing/en

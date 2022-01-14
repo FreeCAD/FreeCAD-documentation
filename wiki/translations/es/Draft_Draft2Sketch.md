@@ -43,7 +43,7 @@ El <img alt="" src=images/Draft_Draft2Sketch.svg  style="width:24px;"> comando *
 
 ## Guión
 
-Ver también: _.
+Ver también: [Documentación de la API autogenerada](https://freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
 
 Para convertir objetos en un croquis utilice el método `make_sketch` ({{Version/es|0.19}}) del módulo Borrador. Este método sustituye al método obsoleto `makeSketch`.
 

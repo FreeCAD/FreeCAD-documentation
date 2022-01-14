@@ -20,7 +20,7 @@ Lo strumento **Distinta dei ferri** (BOM) consente all\'utente di creare una dis
 
 <div class="mw-translate-fuzzy">
 
-Questo comando fa parte dell\'ambiente _, tramite il menu **Strumenti → Addon manager → Reinforcement**.
+Questo comando fa parte dell\'ambiente [Reinforcement](Reinforcement_Workbench/it.md), un [ambiente esterno](External_workbenches/it.md) che si può installare con <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon manager](Std_AddonMgr/it.md), tramite il menu **Strumenti → Addon manager → Reinforcement**.
 
 
 </div>
@@ -544,7 +544,7 @@ BillOfMaterial_SVG.makeBillOfMaterialSVG(
 
 </div>
 
-_ _
+[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md) [<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Arch](Arch_Workbench.md) > Arch Rebar BOM/it

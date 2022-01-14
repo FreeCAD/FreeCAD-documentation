@@ -1,7 +1,7 @@
 # Asymptote
 ## Description
 
-_, [SVG](SVG.md), [WebGL](https://www.khronos.org/webgl/), and [PRC](https://en.wikipedia.org/wiki/PRC_(file_format)) files. Interactive 3D PDF files created from Asymptote code require Acrobat Reader version 9 or higher.
+[Asymptote](https://asymptote.sourceforge.io/) is a vector language for 2D and 3D computer graphics. Asymptote code can be included in [LaTeX](https://www.latex-project.org/) documents or used to generate [PostScript](https://en.wikipedia.org/wiki/PostScript), [PDF](PDF.md), [SVG](SVG.md), [WebGL](https://www.khronos.org/webgl/), and [PRC](https://en.wikipedia.org/wiki/PRC_(file_format)) files. Interactive 3D PDF files created from Asymptote code require Acrobat Reader version 9 or higher.
 
 Asymptote support was added in FreeCAD version 0.19.
 
@@ -37,7 +37,7 @@ The following videos are in Spanish:
 
  {{Mesh Tools navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Asymptote

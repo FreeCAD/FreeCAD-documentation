@@ -225,7 +225,7 @@ FreeCAD, запущенный в консольном режиме (без гр�
 
 Диалог сохранения картинки с произвольным размером.
 
-_ _
+[<img src="images/Property.png" style="width:16px"> User Documentation/ru](<img src="images/Property.png" style="width:16px"> User_Documentation/ru.md) [<img src="images/Property.png" style="width:16px"> Screenshots/ru](<img src="images/Property.png" style="width:16px"> Screenshots/ru.md)
 
 ---
 [documentation index](../README.md) > Screenshots/ru

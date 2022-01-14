@@ -105,7 +105,7 @@ Plusieurs outils provenant d\'autres ateliers peuvent être utilisés pour ajout
 
 ### Déplier un objet en tôle 
 
-Pour déplier un objet en tôle, activez l\'outil <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> _.
+Pour déplier un objet en tôle, activez l\'outil <img alt="" src=images/SheetMetal_Unfold.svg  style="width:16px;"> [Unfold](SheetMetal_Unfold/fr.md) ou l\'outil <img alt="" src=images/SheetMetal_UnattendedUnfold.svg  style="width:16px;"> [Unattended Unfold](SheetMetal_UnattendedUnfold/fr.md).
 
 Le résultat sera un objet 3D avec une esquisse de contour en option comprenant des lignes de pliage.
 
@@ -242,7 +242,7 @@ Comment faire ?
 -   Blog officiel (EN): [Sheet metal Addon for FreeCAD](http://theseger.com/projects/2015/06/sheet-metal-addon-for-freecad/)
 -   Code source sur github: <https://github.com/shaise/FreeCAD_SheetMetal>
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal Workbench/fr

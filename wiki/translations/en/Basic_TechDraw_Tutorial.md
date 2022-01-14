@@ -2,7 +2,7 @@
 {{TutorialInfo
 |Topic=Modeling
 |Level=Beginner
-|Author=_
+|Author=[WandererFan](User_WandererFan.md)
 |Time=Less than an hour
 |FCVersion=0.17 or higher
 |Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd  Basic Part Design for v0.17 Sample]<br />[https://github.com/FreeCAD/Examples/blob/master/Basic_TechDraw_Tutorial_Example_Files/Basic_TechDraw_Tutorial.fcstd Basic TechDraw Tutorial Sample]
@@ -114,7 +114,7 @@ From the first part of this tutorial, we know that the work piece is 53 mm wide,
 
 ## Going Further 
 
-In this tutorial you have learned enough about TechDraw to produce a drawing like this one (by _). See Note 2.
+In this tutorial you have learned enough about TechDraw to produce a drawing like this one (by [NormandC](User_Normandc.md)). See Note 2.
 
 ![](images/TDTut_FC018_TechDraw_Dim_Iso_View_01_NC.png )
 

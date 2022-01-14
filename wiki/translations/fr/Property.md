@@ -3,7 +3,7 @@
 
 Une [propriété](Property/fr.md) est une information, telle qu\'un nombre ou une chaîne de texte, attachée à un document FreeCAD ou à un objet d\'un document. Les propriétés peuvent être visualisées et modifiées avec l\'[éditeur de propriétés](Property_editor/fr.md).
 
-Les propriétés jouent un rôle très important dans FreeCAD. Comme les objets dans FreeCAD sont \"paramétriques\", cela signifie que leur comportement est défini par leurs propriétés et par la manière dont ces propriétés sont utilisées comme entrée pour leurs méthodes de classe. Voir aussi _
+Les propriétés jouent un rôle très important dans FreeCAD. Comme les objets dans FreeCAD sont \"paramétriques\", cela signifie que leur comportement est défini par leurs propriétés et par la manière dont ces propriétés sont utilisées comme entrée pour leurs méthodes de classe. Voir aussi [PropertyLink:\_InList\_and\_OutList](PropertyLink:_InList_and_OutList/fr.md)
 
 ## Tous les types de propriétés 
 
@@ -112,7 +112,7 @@ Ils sont importés et initialisés dans `[https://github.com/FreeCAD/FreeCAD/blo
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Property/fr

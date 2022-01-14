@@ -250,7 +250,7 @@ Qt bietet nicht die Funktionalität, um diesen Wert abzurufen. Also müssen wir 
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > HiDPI support/de

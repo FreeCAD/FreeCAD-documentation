@@ -182,7 +182,7 @@ Parfois, il est nécessaire de combiner l'ensemble du montage en une seule forme
 
 ### Convertir les chemins absolus en chemins relatifs 
 
-Avec le menu **A2plus → Misc → <img src=images/A2p_SetRelativePathes.svg style="width:24px"> Convert absolute paths of imported parts to relative ones** vous pouvez convertir les chemins absolus des pièces importées en pièces relatives.
+Avec le menu **A2plus → Misc → [<img src=images/A2p_SetRelativePathes.svg style="width:24px"> Convert absolute paths of imported parts to relative ones** vous pouvez convertir les chemins absolus des pièces importées en pièces relatives.
 
 ## Préférences
 
@@ -229,7 +229,7 @@ N\'importez pas de formes invisibles: Cela masquera les formes de données/const
    
 
 Utilisez l\'union solide pour importer des pièces et des sous-assemblages: Toutes les pièces importées seront directement assemblées en tant que union.
-Cette fonctionnalité est utile pour les simulations _ si un seul solide est autorisé. L\'alternative consiste à créer ultérieurement une [forme de l\'assemblage complet](#Forme_de_l.27assemblage_complet.md).
+Cette fonctionnalité est utile pour les simulations [FEM](FEM_Workbench/fr.md) ou [l'impression 3D](Manual:Preparing_models_for_3D_printing/fr.md) si un seul solide est autorisé. L\'alternative consiste à créer ultérieurement une [forme de l\'assemblage complet](#Forme_de_l.27assemblage_complet.md).
 
 ### Paramètres de l\'interface utilisateur 
 
@@ -277,7 +277,7 @@ Dans de nombreux cas, le solveur ne nécessite que des meilleures valeurs de dé
 
 Si vous avez oublié certaines fonctionnalités de votre pièce après l\'importation dans un assemblage A2plus, vérifiez la propriété {{PropertyData/fr|[Tip](PartDesign_MoveTip/fr.md)}}.
 
-A2plus importe des corps de pièces avec toutes leurs fonctions jusqu\'à la fonction Tip. Cela est judicieux car le fait de définir Tip sur une certaine fonction signifie que toutes les fonctions derrière Tip ne doivent pas apparaître dans la partie finale. Donc, si vous manquez une fonction de pièce dans A2plus, ouvrez la pièce via le bouton de la barre d\'outils <img alt="" src=images/A2p_EditPart.svg  style="width:24px;"> puis sélectionnez un corps et regardez sa propriété {{PropertyData/fr|Tip}}. Si Tip ne se trouve pas à la fonction où vous le souhaitez, cliquez avec le bouton droit sur la fonction où Tip devrait être et choisissez **<img src=images/PartDesign_MoveTip.svg style="width:24px"> Set tip**. Enfin, enregistrez la pièce et rechargez l\'assemblage à l\'aide du bouton de la barre d\'outils <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">.
+A2plus importe des corps de pièces avec toutes leurs fonctions jusqu\'à la fonction Tip. Cela est judicieux car le fait de définir Tip sur une certaine fonction signifie que toutes les fonctions derrière Tip ne doivent pas apparaître dans la partie finale. Donc, si vous manquez une fonction de pièce dans A2plus, ouvrez la pièce via le bouton de la barre d\'outils <img alt="" src=images/A2p_EditPart.svg  style="width:24px;"> puis sélectionnez un corps et regardez sa propriété {{PropertyData/fr|Tip}}. Si Tip ne se trouve pas à la fonction où vous le souhaitez, cliquez avec le bouton droit sur la fonction où Tip devrait être et choisissez **[<img src=images/PartDesign_MoveTip.svg style="width:24px"> Set tip**. Enfin, enregistrez la pièce et rechargez l\'assemblage à l\'aide du bouton de la barre d\'outils <img alt="" src=images/A2p_ImportPart_Update.svg  style="width:24px;">.
 
 ### Réparation de l\'arbre d\'assemblage 
 
@@ -285,7 +285,7 @@ Si vous ne voyez pas clairement pourquoi certaines contraintes ne peuvent pas ê
 
 ### Migration d\'anciens assemblages A2plus 
 
-Les assemblages créés avec A2plus antérieurs à mars 2019 n\'affichent pas les icônes correctes pour les pièces importées et ont des propriétés obsolètes. Ces assemblages peuvent être migrés vers A2plus version 0.4.35 et plus récente à l\'aide du menu **<img src=images/A2p_RecursiveUpdate.svg style="width:24px"> Migrer les proxys de pièces importées**. Après cela, vous devez enregistrer et rouvrir votre fichier d\'assemblage.
+Les assemblages créés avec A2plus antérieurs à mars 2019 n\'affichent pas les icônes correctes pour les pièces importées et ont des propriétés obsolètes. Ces assemblages peuvent être migrés vers A2plus version 0.4.35 et plus récente à l\'aide du menu **[<img src=images/A2p_RecursiveUpdate.svg style="width:24px"> Migrer les proxys de pièces importées**. Après cela, vous devez enregistrer et rouvrir votre fichier d\'assemblage.
 
 ### Éviter les caractères accentués 
 
@@ -611,7 +611,7 @@ Il s\'agit d\'une commande spécifique à A2plus. Elle résout les contraintes d
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > A2plus Workbench/fr

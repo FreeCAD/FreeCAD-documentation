@@ -1,13 +1,13 @@
 # Python Development Environment
 ## A Simplistic Development Environment for Python within FreeCAD 
 
-_ is a programming environment which has been incorporated into the _).
+[Python](wikipedia:Python_(programming_language).md) is a programming environment which has been incorporated into the [FreeCAD](https://www.freecadweb.org/) system. Using Python many operations offered by FreeCAD are available for programmatic access. Python programs for FreeCAD are usually developed to be either run on the Python console or through the Macro facility of FreeCAD (see [How to install macros](How_to_install_macros.md)).
 
 There are numerous tools available for program development in Python. The complicating factors for developing Python to use with FreeCAD are twofold: first the tools do not have any support for the numerous data structures and access points of FreeCAD; secondly they do not work \"within FreeCAD\". This means that you can use them to develop code outside of FreeCAD and not be able to test in the target environment; or you can develop Python in the target environment (i.e. the FreeCAD environment) but not have any support from the development tools. Neither of these is an acceptable solution.
 
 ## Background
 
-Modern software development at the commercial standard is usually done using a set of tools generically referred to as _. Typically these tools include the following 3:
+Modern software development at the commercial standard is usually done using a set of tools generically referred to as [\'IDE\'](wikipedia_Integrated_development_environment.md). Typically these tools include the following 3:
 
 -   source code editor
 -   build automation tools
@@ -620,7 +620,7 @@ Some other links about IDEs for Python which might be of interest are:
 
  
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Python Development Environment

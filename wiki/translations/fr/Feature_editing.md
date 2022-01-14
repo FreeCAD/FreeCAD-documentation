@@ -5,7 +5,7 @@
 
 Cette page explique la manière dont <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [l\'atelier PartDesign](PartDesign_Workbench/fr.md) doit être utilisé à partir de FreeCAD 0.17.
 
-Alors que <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ utilise des **[fonctions](PartDesign_Feature/fr.md)**. Une [fonction](https://en.wikipedia.org/wiki/Feature_recognition) est une opération qui modifie la forme d\'un modèle.
+Alors que <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [l\'atelier Part](Part_Workbench/fr.md) et d\'autres ateliers FreeCAD construisent des modèles en combinant des formes(voir [Géométrie Solide Constructive **CSG**](Constructive_solid_geometry/fr.md)), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [l\'atelier PartDesign](PartDesign_Workbench/fr.md) utilise des **[fonctions](PartDesign_Feature/fr.md)**. Une [fonction](https://en.wikipedia.org/wiki/Feature_recognition) est une opération qui modifie la forme d\'un modèle.
 
 ## Méthodologie d\'édition de fonctions 
 
@@ -127,7 +127,7 @@ Il existe plusieurs méthodes de travail possibles avec l\'[atelier PartDesign](
 
 ### Différentes esquisses 
 
-Les esquisses doivent être prises en charge par un plan. Ce plan peut être l\'un des plans principaux (XY, XZ ou YZ) définis par l\'origine du corps. Une esquisse est soit extrudée en un solide positif (additif), avec un outil tel que <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> _. Le premier ajoute du volume à la forme finale du corps, tandis que le dernier déduit le volume de la forme finale. Vous pouvez créer un nombre illimité d\'esquisses et de solides partiels. la forme finale (pointe) résulte de la fusion de ces opérations. Naturellement, le corps ne peut se composer que d'opérations soustractives, car la forme finale doit être un solide avec un volume positif non nul.
+Les esquisses doivent être prises en charge par un plan. Ce plan peut être l\'un des plans principaux (XY, XZ ou YZ) définis par l\'origine du corps. Une esquisse est soit extrudée en un solide positif (additif), avec un outil tel que <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Protrusion](PartDesign_Pad/fr.md), soit en un solide négatif (soustractif), avec un outil tel que <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [PartDesign Cavité](PartDesign_Pocket/fr.md). Le premier ajoute du volume à la forme finale du corps, tandis que le dernier déduit le volume de la forme finale. Vous pouvez créer un nombre illimité d\'esquisses et de solides partiels. la forme finale (pointe) résulte de la fusion de ces opérations. Naturellement, le corps ne peut se composer que d'opérations soustractives, car la forme finale doit être un solide avec un volume positif non nul.
 
 <img alt="" src=images/PartDesign_workflow_1.svg  style="width:600px;">
 
@@ -170,7 +170,7 @@ La page des [tutoriels](Tutorials/fr.md) fournit des exemples d\'utilisation de 
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Feature editing/fr

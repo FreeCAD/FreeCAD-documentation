@@ -1,7 +1,7 @@
 # Mesh/fr
 ## Introduction
 
-Dans FreeCAD, le mot \"_\".
+Dans FreeCAD, le mot \"[Mesh](Mesh/fr.md)\" est normalement utilisé pour désigner un [Mesh Object](Mesh_MeshObject/fr.md) (`Mesh::MeshObject` class), un type d\'objet qui définit les données 3D mais n\'est pas un solide \"[Shape](Shape/fr.md)\".
 
 Les maillages sont des objets très simples, ne contenant que des sommets (points), des arêtes et des faces triangulaires. En général, ils sont faciles à créer, à modifier, à subdiviser et à étirer, et peuvent être transmis d\'une application à une autre sans aucune perte de détails. De plus, comme les maillages contiennent des données très simples, les applications 3D comme les logiciels d\'animation et les jeux vidéo peuvent en gérer de très grandes quantités (millions de triangles) sans utiliser beaucoup de ressources informatiques.
 
@@ -13,7 +13,7 @@ Voir [Mesh MeshObject](Mesh_MeshObject/fr.md) pour plus d\'informations sur ce t
 
 
 
-*A gauche: paramétrique _ défini par des sommets et des surfaces triangulaires.*
+*A gauche: paramétrique [shape](Shape/fr.md) définie par les propriétés. A droite: [mesh](Mesh/fr.md) défini par des sommets et des surfaces triangulaires.*
 
 ## Utilisation
 
@@ -27,7 +27,7 @@ Essentiellement, chaque objet dérivé d\'une [Mesh Feature](Mesh_Feature/fr.md)
 
 Dans FreeCAD, le mot \"[Mesh](Mesh/fr.md)\" peut également faire référence à un objet spécifique qui sera utilisé dans l\'analyse par éléments finis (FEA).
 
-Lorsqu\'un objet avec un solide _ (`Mesh::Feature` classe).
+Lorsqu\'un objet avec un solide [Shape](Shape/fr.md) est utilisé dans l\'[atelier FEM](FEM_Workbench/fr.md), il sera discrétisé en un maillage triangulaire. Dans ce cas, l\'objet résultant est un [FEM FemMeshObject](FEM_Mesh/fr.md) (classe `Fem::FemMeshObject`) et n\'est pas dérivé d\'une [Mesh Feature](Mesh_Feature/fr.md) (`Mesh::Feature` classe).
 
 Pour plus d\'informations, voir [Atelier FEM](FEM_Workbench/fr.md) et [FEM Mesh](FEM_Mesh/fr.md).
 
@@ -40,7 +40,7 @@ Pour plus d\'informations, voir [Atelier FEM](FEM_Workbench/fr.md) et [FEM Mesh]
 
 }} {{FEM Tools navi}} {{Document objects navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Mesh/fr

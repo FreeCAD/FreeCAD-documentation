@@ -27,9 +27,9 @@
 
 ## Usage
 
-1.  Make sure you have an object that has faces. The object could be created with the <img alt="" src=images/Workbench_Surface.svg  style="width:24px;"> _ or <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md).
+1.  Make sure you have an object that has faces. The object could be created with the <img alt="" src=images/Workbench_Surface.svg  style="width:24px;"> [Surface Workbench](Surface_Workbench.md) but it could also be any other object, for example, created with <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench.md) or <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md).
 2.  Select the face to extend by clicking on it on the [3D view](3D_view.md).
-3.  Press **<img src=images/Surface_ExtendFace.svg style="width:16px"> [Extend face](Surface_ExtendFace.md)**.
+3.  Press **[<img src=images/Surface_ExtendFace.svg style="width:16px"> [Extend face](Surface_ExtendFace.md)**.
 
 ## Options
 
@@ -37,7 +37,7 @@ This command doesn\'t have any options. Either it works with the selection or no
 
 ## Properties
 
-A _ (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
+A [Surface Extend](Surface_ExtendFace.md) object (`Surface::Extend` class) is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class, through the `Part::Spline` subclass), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [Part Feature](Part_Feature.md), the Surface Filling has the following properties in the [property editor](Property_editor.md).
 

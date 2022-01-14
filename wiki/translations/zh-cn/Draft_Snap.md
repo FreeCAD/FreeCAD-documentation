@@ -43,7 +43,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Midpoint.svg  style="width:32px;"> [Snap Midpoint](Draft_Snap_Midpoint.md): snaps to the midpoint of edges.
 
--   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> _ and [Arch BuildingParts](Arch_BuildingPart.md).
+-   <img alt="" src=images/Draft_Snap_Center.svg  style="width:32px;"> [Snap Center](Draft_Snap_Center.md): snaps to the center point of faces and circular edges, and to the **Placement** point of [Draft WorkingPlaneProxies](Draft_WorkingPlaneProxy.md) and [Arch BuildingParts](Arch_BuildingPart.md).
 
 -   <img alt="" src=images/Draft_Snap_Angle.svg  style="width:32px;"> [Snap Angle](Draft_Snap_Angle.md): snaps to the special cardinal points on circular edges, at multiples of 30° and 45°.
 
@@ -63,7 +63,7 @@ Note that circular edges do not have to be full circles.
 
 -   <img alt="" src=images/Draft_Snap_Grid.svg  style="width:32px;"> [Snap Grid](Draft_Snap_Grid.md): snaps to the intersections of grid lines.
 
--   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Draft_Snap_WorkingPlane.svg  style="width:32px;"> [Snap WorkingPlane](Draft_Snap_WorkingPlane.md): projects the snap point onto the current [working plane](Draft_SelectPlane.md).
 
 -   <img alt="" src=images/Draft_Snap_Dimensions.svg  style="width:32px;"> [Snap Dimensions](Draft_Snap_Dimensions.md): shows temporary X and Y dimensions.
 
@@ -98,7 +98,7 @@ See also: [Preferences Editor](Preferences_Editor.md) and [Draft Preferences](Dr
 
 Note that after changing some preferences you must restart FreeCAD.
 
--   When a _ command.
+-   When a [Draft](Draft_Workbench.md) or [Arch](Arch_Workbench.md) command requiring point input is active, the maximum distance at which [Draft Snap Grid](Draft_Snap_Grid.md) detects the intersections of grid lines can be changed on-the-fly by pressing **[** (increase key) or **]** (decrease key). This setting is stored: **Tools → Edit parameters... → BaseApp → Preferences → Mod → Draft → snapRange**. It can also be changed in the task panel of the [Draft SelectPlane](Draft_SelectPlane.md) command.
 -   To only snap when the **Snap mod** key is held down:
     -   Deselect: **Edit → Preferences... → Draft → Grid and snapping → Snapping → Always snap (disable snap mod)**.
     -   The default **Snap mod** key, **Ctrl**, can be changed: **Edit → Preferences... → Draft → Grid and snapping → Snapping → Snap mod**.

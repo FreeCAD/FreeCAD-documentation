@@ -30,7 +30,7 @@ for Linux : \"\"
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Macros](Category_Macros.md)
 
 ---
 [documentation index](../README.md) > [Macros](Category_Macros.md) > Misc templates Full/en

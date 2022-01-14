@@ -3,7 +3,7 @@
 
 ## Introducción
 
-Ha habido muchas discusiones a lo largo de los años sobre las diferencias y ramificaciones del uso de los bancos de trabajo <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ .
+Ha habido muchas discusiones a lo largo de los años sobre las diferencias y ramificaciones del uso de los bancos de trabajo <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/es.md) y <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/es.md) .
 
 Es una buena idea utilizar uno o el otro hasta que el usuario se sienta cómodo con uno, y luego aprender el otro. También es recomendado normalmente que los nuevos usuarios no los mezclen hasta que comprendan las ramificaciones de hacerlo.
 

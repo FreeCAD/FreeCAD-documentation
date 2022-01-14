@@ -3,7 +3,7 @@
 |Topic= Conception de produit
 |Level= Avancé
 |Time= 60 minutes
-|Author=_, _, vocx
+|Author=[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md), vocx
 |FCVersion=0.19
 |Files=[https://forum.freecadweb.org/viewtopic.php?f=36&t=44668 Updated: Thread for screw tutorial]
 }}
@@ -67,10 +67,10 @@ Nous pouvons créer un faux filetage en utilisant un chemin non hélicoïdal, pa
 
 ### Profil tournant en dents de scie 
 
-1.  Cliquer sur **<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**.
-2.  Cliquer sur **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Nouvelle esquisse](PartDesign_NewSketch.md)**. Sélectionnez {{Value|XZ_Plane}}.
+1.  Cliquer sur **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**.
+2.  Cliquer sur **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Nouvelle esquisse](PartDesign_NewSketch.md)**. Sélectionnez {{Value|XZ_Plane}}.
 3.  Dessinez un croquis fermé avec le diamètre intérieur requis {{Value|10 mm}}, le diamètre extérieur autour de {{Value|12.6 mm}}, le pas {{Value|3 mm}}, le nombre de dents {{Value|8}} et la hauteur totale {{Value|30 mm}}.
-4.  Sélectionnez l\'esquisse, puis cliquez sur **<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Revolution](PartDesign_Revolution.md)**. Sélectionnez {{Value|Vertical sketch axis}} et appuyez sur **OK**.
+4.  Sélectionnez l\'esquisse, puis cliquez sur **[<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Revolution](PartDesign_Revolution.md)**. Sélectionnez {{Value|Vertical sketch axis}} et appuyez sur **OK**.
 
 <img alt="" src=images/T13_02_Threads_Sawtooth_sketch_profile.png  style="width:" height="300px;"> 
 *Profil utilisé pour créer la révolution qui simulera un filetage.*
@@ -82,8 +82,8 @@ Nous pouvons créer un faux filetage en utilisant un chemin non hélicoïdal, pa
 
 1.  Répétez les deux premières étapes de la section précédente.
 2.  Dessinez une esquisse fermée avec le diamètre intérieur requis {{Value|10 mm}}, le diamètre extérieur de {{Value|12.6 mm}} et le pas {{Value|3 mm}} mais dessinez qu\'une seule dent de la dent de scie.
-3.  Sélectionnez l\'esquisse, puis cliquez sur **<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Révolution](PartDesign_Revolution/fr.md)**. Sélectionnez {{Value|Vertical sketch axis}} puis appuyez sur **OK**.
-4.  Sélectionnez {{Value|Revolution}} puis cliquez sur **<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign Répétition linéaire](PartDesign_LinearPattern/fr.md)**. Sélectionnez {{Value|Vertical sketch axis}}. Pour un faux filetage avec un pas de {{Value|3 mm}}, définissez **Length** sur {{Value|3}} et **Occurrences** sur {{Value|2}} puis appuyez sur **OK**. Cela créera deux disques, l\'un au-dessus de l\'autre.
+3.  Sélectionnez l\'esquisse, puis cliquez sur **[<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Révolution](PartDesign_Revolution/fr.md)**. Sélectionnez {{Value|Vertical sketch axis}} puis appuyez sur **OK**.
+4.  Sélectionnez {{Value|Revolution}} puis cliquez sur **[<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign Répétition linéaire](PartDesign_LinearPattern/fr.md)**. Sélectionnez {{Value|Vertical sketch axis}}. Pour un faux filetage avec un pas de {{Value|3 mm}}, définissez **Length** sur {{Value|3}} et **Occurrences** sur {{Value|2}} puis appuyez sur **OK**. Cela créera deux disques, l\'un au-dessus de l\'autre.
 5.  Vous pouvez ajouter plus de disques en augmentant la valeur **Occurrences** dans la répétition linéaire et en augmentant la **Length** qui est la longueur totale du faux filetage.
 
 
@@ -91,7 +91,7 @@ Nous pouvons créer un faux filetage en utilisant un chemin non hélicoïdal, pa
 
 et **Occurrences** sont liés. Si la longueur est trop grande mais que le nombre d\'occurrences n\'est pas assez élevé, vous aurez des disques déconnectés et le calcul du Corps (Body) échouera car l\'objet résultant doit toujours être un [un seul solide contigu](PartDesign_Body/fr.md). Par exemple, pour obtenir une hauteur totale de {{Value|30 mm}}, définissez **Length** sur {{Value|27 mm}} et **Occurrences** sur {{Value|10}}.
 
-Si vous le souhaitez, vous pouvez ajouter un **<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Cylindre additif](PartDesign_AdditiveCylinder/fr.md)** avec un diamètre égal au diamètre intérieur des disques et aussi haut que la hauteur totale du filetage. Cela réunira tous les disques en un seul solide, garantissant ainsi qu\'il n\'y aura pas de disques déconnectés.
+Si vous le souhaitez, vous pouvez ajouter un **[<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Cylindre additif](PartDesign_AdditiveCylinder/fr.md)** avec un diamètre égal au diamètre intérieur des disques et aussi haut que la hauteur totale du filetage. Cela réunira tous les disques en un seul solide, garantissant ainsi qu\'il n\'y aura pas de disques déconnectés.
 
 <img alt="" src=images/T13_05_Threads_Stacked_discs_sketch.png  style="width:" height="300px;"> 
 *Profil utilisé pour créer un disque de révolution qui sera utilisé pour simuler un filetage.*
@@ -105,14 +105,14 @@ Si vous le souhaitez, vous pouvez ajouter un **<img src=images/PartDesign_Additi
 
 Un vrai filetage consiste à faire suivre un profil fermé le long d\'une courbe hélicoïde (hélice)
 
-1.  Dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Primitives.svg style="width:Atelier Part](Part_Workbench/fr.md), cliquez sur **[16px"> <img src=images/Part_Helix.svg style="width:Part Primitives](Part_Primitives/fr.md)** pour créer une **[16px"> [Part Hélice](Part_Helix/fr.md)**. Donnez-lui les valeurs appropriées pour le **Pas** {{Value|3 mm}}, la **Hauteur** {{Value|23 mm}} et un **Rayon** {{Value|10 mm}}.
-2.  Basculez vers l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> <img src=images/PartDesign_Body.svg style="width:Atelier PartDesign](PartDesign_Workbench/fr.md) et cliquez sur **[16px"> [PartDesign Corps](PartDesign_Body/fr.md)**.
-3.  Cliquez sur **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Nouvelle esquisse](PartDesign_NewSketch/fr.md)**. Sélectionnez {{Value|XZ_Plane}}.
+1.  Dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Atelier Part](Part_Workbench/fr.md), cliquez sur **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Primitives](Part_Primitives/fr.md)** pour créer une **[<img src=images/Part_Helix.svg style="width:16px"> [Part Hélice](Part_Helix/fr.md)**. Donnez-lui les valeurs appropriées pour le **Pas** {{Value|3 mm}}, la **Hauteur** {{Value|23 mm}} et un **Rayon** {{Value|10 mm}}.
+2.  Basculez vers l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Atelier PartDesign](PartDesign_Workbench/fr.md) et cliquez sur **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)**.
+3.  Cliquez sur **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Nouvelle esquisse](PartDesign_NewSketch/fr.md)**. Sélectionnez {{Value|XZ_Plane}}.
 4.  Dessinez une esquisse fermée avec le profil requis pour les dents du filet, normalement une forme triangulaire. Dans ce cas, nous utiliserons une hauteur de {{Value|2.9 mm}}, qui est légèrement inférieure au pas {{Value|3.0 mm}} utilisé pour la trajectoire de l\'hélice. Le profil ne doit pas créer d\'auto-intersections lorsqu\'il est déplacé le long de l\'hélice, ni entre les corbures, ni au milieu. L\'esquisse présentée pour l\'empilement des disques ne peut donc pas être utilisée.
-5.  Sélectionnez l\'esquisse, puis cliquez sur **<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md)**. Dans **Chemin le long duquel effectuer le balayage**, cliquez sur **Objet** et choisissez l\'objet hélice précédemment créé. Changez ensuite **Mode d'orientation** en {{Value|Frenet}} afin que le profil balaie la trajectoire sans se tordre, puis appuyez sur **OK**.
+5.  Sélectionnez l\'esquisse, puis cliquez sur **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md)**. Dans **Chemin le long duquel effectuer le balayage**, cliquez sur **Objet** et choisissez l\'objet hélice précédemment créé. Changez ensuite **Mode d'orientation** en {{Value|Frenet}} afin que le profil balaie la trajectoire sans se tordre, puis appuyez sur **OK**.
 6.  Lorsque le dialogue demande une référence, choisissez {{Value|Créer une référence croisée}}.
 7.  La bobine hélicoïdale est créée, mais il n\'y a ni corps central ni arbre.
-8.  Cliquez sur **<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Cylindre additif](PartDesign_AdditiveCylinder/fr.md)** avec le **Rayon** approprié. {{Value|10 mm}} et **Hauteur** {{Value|29.9 mm}} pour toucher le reste du fil hélicoïdal et fusionner automatiquement avec lui.
+8.  Cliquez sur **[<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Cylindre additif](PartDesign_AdditiveCylinder/fr.md)** avec le **Rayon** approprié. {{Value|10 mm}} et **Hauteur** {{Value|29.9 mm}} pour toucher le reste du fil hélicoïdal et fusionner automatiquement avec lui.
 9.  D\'autres opérations booléennes sont nécessaires pour façonner les extrémités abruptes de la bobine. Par exemple, vous pouvez utiliser des fonctions additives pour fournir une tête à la vis, et une pointe.
 
 <img alt="" src=images/T13_08_Threads_Helical_thread_profile.png  style="width:" height="300px;"> <img alt="" src=images/T13_09_Threads_Helical_thread_path.png  style="width:" height="300px;"> A gauche : le profil de filet ; à droite l\'helice pour créer le chemin
@@ -125,15 +125,15 @@ Un vrai filetage consiste à faire suivre un profil fermé le long d\'une courbe
 
 Ce processus peut également être effectué à l\'aide des outils de l\'[Atelier Part](Part_Workbench/fr.md).
 
-1.  Dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Primitives.svg style="width:Atelier Part](Part_Workbench/fr.md), cliquez sur **[16px"> <img src=images/Part_Helix.svg style="width:Part Primitives](Part_Primitives/fr.md)** pour créer une **[16px"> [Part Hélice](Part_Helix/fr.md)**. Donnez-lui les valeurs appropriées pour le **Pas** {{Value|3 mm}}, la **Hauteur** {{Value|23 mm}} et le **Rayon** {{Value|10 mm}}.
-2.  Dans ce cas, vous n\'avez pas besoin d\'un **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Sketcher_NewSketch.svg style="width:PartDesign Corps](PartDesign_Body/fr.md)**. Passez à l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Atelier Sketcher](Sketcher_Workbench/fr.md), puis cliquez sur **[16px"> [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)** et choisissez le plan global XZ.
-3.  Ensuite, retournez dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Sweep.svg style="width:Atelier Part](Part_Workbench/fr.md) et utilisez **[16px"> [Part Balayage](Part_Sweep/fr.md)**.
+1.  Dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Atelier Part](Part_Workbench/fr.md), cliquez sur **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Primitives](Part_Primitives/fr.md)** pour créer une **[<img src=images/Part_Helix.svg style="width:16px"> [Part Hélice](Part_Helix/fr.md)**. Donnez-lui les valeurs appropriées pour le **Pas** {{Value|3 mm}}, la **Hauteur** {{Value|23 mm}} et le **Rayon** {{Value|10 mm}}.
+2.  Dans ce cas, vous n\'avez pas besoin d\'un **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)**. Passez à l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Atelier Sketcher](Sketcher_Workbench/fr.md), puis cliquez sur **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)** et choisissez le plan global XZ.
+3.  Ensuite, retournez dans l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Atelier Part](Part_Workbench/fr.md) et utilisez **[<img src=images/Part_Sweep.svg style="width:16px"> [Part Balayage](Part_Sweep/fr.md)**.
 4.  Sélectionnez l\'esquisse appropriée dans **Profil disponible** et cliquez sur la flèche pour la faire passer dans **Profils sélectionnés**.
 5.  Cliquez sur **Chemin de balayage** et choisissez toutes les arêtes de l\'hélice existante dans la [vue\_3D](3D_view/fr.md). Cliquez sur **Fait**.
 6.  Assurez-vous de cocher {{CheckBox|TRUE|Créer un solide}} et {{CheckBox|TRUE|Frenet}}. L\'obtention d\'un solide est la clé pour pouvoir effectuer des [Part Opérations booléennes](Part_Boolean/fr.md) avec la bobine résultante, sinon seule une surface sera produite.
 7.  Cliquez sur **OK** pour quitter le dialogue et créer la bobine.
 
-Vous pouvez maintenant ajouter d\'autres primitives comme des **<img src=images/Part_Cylinder.svg style="width:16px"> <img src=images/Part_Fuse.svg style="width:Part Cylindres](Part_Cylinder/fr.md)** ou d\'autres formes, afin d\'exécuter des **[16px"> <img src=images/Part_Cut.svg style="width:Part Unions](Part_Fuse/fr.md)** et des **[16px"> [Part Soustractions](Part_Cut/fr.md)** pour terminer la construction de la vis.
+Vous pouvez maintenant ajouter d\'autres primitives comme des **[<img src=images/Part_Cylinder.svg style="width:16px"> [Part Cylindres](Part_Cylinder/fr.md)** ou d\'autres formes, afin d\'exécuter des **[<img src=images/Part_Fuse.svg style="width:16px"> [Part Unions](Part_Fuse/fr.md)** et des **[<img src=images/Part_Cut.svg style="width:16px"> [Part Soustractions](Part_Cut/fr.md)** pour terminer la construction de la vis.
 
 <img alt="" src=images/T13_14_Threads_components.png  style="width:" height="300px;"> <img alt="Création d\'un filer par balayage sur un profil vertical. 1 - le profil (un [sketch" src=images/Sketcher_Workbench/fr.md)). 2 - chemin de balayage ([Hélice](Part_Helix/fr.md)). 3 - résultat du balayage ([Balayage](Part_Sweep/fr.md))](thread-by-vertical-profile.png  style="width:500px;">
 

@@ -19,7 +19,7 @@ Wenn ein Makro eine gut definierte Funktionalität bietet und gut dokumentiert i
 
 Erstelle eine neue Seite für das Makro, die mit dem Wort `Macro_` beginnt, zum Beispiel `Macro_Excellent_Modification`. Der Verweis kann ohne Unterstriche als `<nowiki>[Makro Excellent Modification](Macro_Excellent_Modification/de.md)</nowiki>` verwendet werden, was zu [Makro Ausgezeichnete Änderung](Macro_Excellent_Modification/de.md) führt; die Leerzeichen werden automatisch in Unterstriche umgewandelt.
 
-Auf der neuen Seite solltest du oben _ verwenden, mit einem Minimum an Informationen:
+Auf der neuen Seite solltest du oben [Template:Macro](Template_Macro.md) verwenden, mit einem Minimum an Informationen:
 
 {{Macro
 |Name=Macro Excellent Modification
@@ -60,12 +60,12 @@ oder verwende das `Translate` Feld
 |Date=2018-11-30
 }}
 
--   Verwende _, um das benutzerdefinierte Symbol in den [SVG](SVG/de.md) oder PNG Formaten hochzuladen. Es sollte den gleichen Namen wie das Makro haben.
+-   Verwende [:Special:Upload](:Special_Upload.md), um das benutzerdefinierte Symbol in den [SVG](SVG/de.md) oder PNG Formaten hochzuladen. Es sollte den gleichen Namen wie das Makro haben.
 -   Andernfalls wird es standardmäßig auf Icon=Text-x-python.svg <img alt="" src=images/Text-x-python.svg  style="width:32px;"> gesetzt.
 -   Für das von FreeCAD in der Python Konsole verwendete Makro verwende Icon=Text_console_python.png <img alt="" src=images/Text_console_python.png  style="width:32px;">.
 -   Für das Beispielvideomakro verwende dieses Skelett des Symbols <img alt="" src=images/Text_Video_Movie.png  style="width:32px;"> und fülle den Bildschirm aus, um z.B. folgendes zu erhalten: <img alt="" src=images/Macro_crank_simul.png  style="width:32px;"> und speichern Sie neue Symbol mit dem gleichen Namen desein Makros.
 
-_ wird die Informationen zur Verwendung und Installation der Makros in jede Seite einfügen.
+[Template:Macro](Template_Macro.md) wird die Informationen zur Verwendung und Installation der Makros in jede Seite einfügen.
 
 <img alt="" src=images/Macro_Recipes_MacroHowToInstall.png  style="width:200px;"> 
 *[Wie Makros installieren](How_to_install_macros/de.md) und [Werkzeugleisten anpassen](Customize_Toolbars/de.md) Verweise in der Infobox auf jeder Makroseite*
@@ -101,11 +101,11 @@ Ziehe in Betracht, diese Informationen in einem Kommentarblock innerhalb des Cod
 
 ### Hinzufügen des Makrocodes 
 
-Innerhalb des **Skript** Abschnitts verwende _, um den Code des Makros in der Seite zu platzieren. Dadurch wird ein Textblock erstellt, der die Monospace Schriftart verwendet, wodurch der für [Python](Python/de.md) wichtige Weißraum erhalten bleibt.
+Innerhalb des **Skript** Abschnitts verwende [Template:MacroCode](Template_MacroCode.md), um den Code des Makros in der Seite zu platzieren. Dadurch wird ein Textblock erstellt, der die Monospace Schriftart verwendet, wodurch der für [Python](Python/de.md) wichtige Weißraum erhalten bleibt.
 
 Wenn der Codeblock die Zeichen {{ }} (doppelte schließende und öffnende Klammer) oder {{!}} (senkrechter Balken) enthält, können die <nowiki> ... </nowiki> Markierungen explizit hinzugefügt werden, um die Anzeige dieser speziellen Symbole zu ermöglichen.
 
-Dieser_ erzeugt im Wesentlichen einen Block von HTML Markierungen <pre> ... </pre>, so dass diese direkt anstelle der Vorlagen verwendet werden können. Der [Erweiterungsverwalter](Std_AddonMgr/de.md) sucht nach dem größten solcher Blöcke und verwendet ihn für den Körper des Makros.
+Dieser[Template:MacroCode](Template_MacroCode.md) erzeugt im Wesentlichen einen Block von HTML Markierungen <pre> ... </pre>, so dass diese direkt anstelle der Vorlagen verwendet werden können. Der [Erweiterungsverwalter](Std_AddonMgr/de.md) sucht nach dem größten solcher Blöcke und verwendet ihn für den Körper des Makros.
 
 {{MacroCode|code=
 
@@ -155,7 +155,7 @@ Beginnend mit FreeCAD 0.17 werden diese Informationen vom [Erweiterungsverwalter
 
 ### Hinzufügen von Makrocode außerhalb des Wikis 
 
-Wenn dein Makro zu groß ist, so dass es 64 KB überschreitet, kann es nicht im Wiki bereitgestellt werden. In diesem Fall verwende _ mit einem Verweis auf die raw Web Adresse des Codes.
+Wenn dein Makro zu groß ist, so dass es 64 KB überschreitet, kann es nicht im Wiki bereitgestellt werden. In diesem Fall verwende [Template:Codeextralink](Template_Codeextralink.md) mit einem Verweis auf die raw Web Adresse des Codes.
 
 Zum Beispiel:
 
@@ -166,7 +166,7 @@ Es wird angezeigt als: {{Codeextralink|https://gist.githubusercontent.com/mario5
 
 <div class="mw-translate-fuzzy">
 
-Diese Vorlage muss am Anfang der Makroseite im Abschnitt **Beschreibung** platziert werden. Es muss der erste Codeblock in der Seite sein, damit der _ für ein Verwendungsbeispiel.
+Diese Vorlage muss am Anfang der Makroseite im Abschnitt **Beschreibung** platziert werden. Es muss der erste Codeblock in der Seite sein, damit der [Erweiterungsverwalter](Std_AddonMgr/de.md) <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> kann sie automatisch erkennen und importieren. Siehe [Makro KreisPlus](Macro_CirclePlus/de.md) für ein Verwendungsbeispiel.
 
 
 </div>
@@ -176,7 +176,7 @@ Diese Vorlage muss am Anfang der Makroseite im Abschnitt **Beschreibung** platzi
 
 ## Hinzufügen des neuen Makros zum Wiki Repositorium 
 
-Verwende _ , um eine Zeile in die entsprechende Kategorie in [Makro Rezepte](Macros_recipes/de.md) einzuschließen; erstelle bei Bedarf eine neue Kategorie.
+Verwende [Template:MacroLink](Template_MacroLink.md) , um eine Zeile in die entsprechende Kategorie in [Makro Rezepte](Macros_recipes/de.md) einzuschließen; erstelle bei Bedarf eine neue Kategorie.
 
 
 ```python
@@ -215,7 +215,7 @@ Um ein Makro aus dem [Erweiterungsverwalter](Std_AddonMgr/de.md) installierbar z
 
 Um das Makro dort aufzunehmen, muss es zunächst von der FreeCAD Gemeinschaft im [Python scripting and macros](https://forum.freecadweb.org/viewforum.php?f=22) Unterforum überprüft werden. Sobald dies geschehen ist, sollte das FreeCAD-Makro Repositorium abgezweigt werden, das neue Makro sollte in einen Zweig aufgenommen werden, und dann sollte der Zweig gepusht und in das Upstream- Repositorium zusammengeführt werden.
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Macros](Category_Macros.md) [<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Macros](Category_Macros.md) > Macro documentation/de

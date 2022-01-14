@@ -18,7 +18,7 @@ Per tutte le icone nell\'albero del codice sorgente, vedere [Oggetti grafici](Ar
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Mesh](Category_Mesh.md)
 
 ---
 [documentation index](../README.md) > [Mesh](Category_Mesh.md) > Artwork Mesh/it

@@ -21,7 +21,7 @@ Dans cet écran de préférences, nous pouvons également définir la taille de 
 
 ### Rendu avec PovRay 
 
-Nous allons utiliser la table que nous avons modélisée dans le chapitre sur la _ pour produire des rendus avec PovRay et LuxRender.
+Nous allons utiliser la table que nous avons modélisée dans le chapitre sur la [Modélisation traditionnelle](Manual:Traditional_modeling,_the_CSG_way/fr.md) pour produire des rendus avec PovRay et LuxRender.
 
 -   Commencez par charger le fichier table.FCStd que nous avons modélisé plus tôt ou à partir du lien au bas de ce chapitre.
 -   Appuyez sur la petite flèche vers le bas à côté du bouton <img alt="" src=images/Raytrace_New.svg  style="width:16px;"> [Nouveau projet Povray](Raytracing_New/fr.md), et choisissez le modèle **RadiosityNormal**.
@@ -32,7 +32,7 @@ Nous allons utiliser la table que nous avons modélisée dans le chapitre sur la
 ![](images/Exercise_raytracing_02.jpg )
 
 -   Le nouveau projet a adopté le point de vue de la vue 3D comme il l\'était au moment où nous avons appuyé sur le bouton. Nous pouvons modifier la vue et mettre à jour la position de vue enregistrée dans le projet Povray à tout moment en appuyant sur le bouton <img alt="" src=images/Raytrace_ResetCamera.svg  style="width:16px;"> [Réinitialiser la caméra](Raytracing_ResetCamera/fr.md).
--   L'atelier Raytracing fonctionne de la même manière que l'_:
+-   L'atelier Raytracing fonctionne de la même manière que l'[Atelier Drawing](Drawing_Workbench/fr.md) : une fois que le dossier de projet est créé, nous devons ajouter des **vues** de nos objets. Nous pouvons le faire en sélectionnant tous les objets qui composent la table en appuyant sur le bouton <img alt="" src=images/Raytrace_ResetCamera.svg  style="width:16px;"> [Insérer une pièce](Raytracing_InsertPart/fr.md):
 
 ![](images/Exercise_raytracing_03.jpg )
 
@@ -82,7 +82,7 @@ Vous pouvez étendre considérablement les possibilités de rendu de FreeCAD en 
 
 {{Raytracing Tools navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Creating renderings/fr

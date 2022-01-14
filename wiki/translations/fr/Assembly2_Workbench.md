@@ -15,12 +15,12 @@ Pour d'autres options, voir [Assembly3](Assembly3_Workbench/fr.md) ou [Assembly4
 
 <div class="mw-translate-fuzzy">
 
-L\' _, plus récent et développé activement, est une bonne alternative.
+L\' [atelier Assembly2](https://github.com/hamish2014/FreeCAD_assembly2) fournit des outils pour créer des assemblages multi-pièces à l\'aide de contraintes, une fonctionnalité qui manque toujours à FreeCAD. Cet atelier n\'est plus maintenu depuis 2016 (cf. la déclaration de l\'auteur [sur le forum anglais](https://forum.freecadweb.org/viewtopic.php?f=17&t=16591)). L\'[atelier A2plus](A2plus_Workbench/fr.md), plus récent et développé activement, est une bonne alternative.
 
 
 </div>
 
-As stated by its author _ is a good alternative.
+As stated by its author [on the forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=16591), it is no longer maintained since 2016, therefore it may have issues with FreeCAD 0.17 and above. The newer and actively maintained [A2plus Workbench](A2plus_Workbench.md) is a good alternative.
 
 ![](images/Assembly2_example.jpg )
 
@@ -152,7 +152,7 @@ To update to the latest version, delete the assembly2 folder and redownload the 
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Assembly2 Workbench/fr

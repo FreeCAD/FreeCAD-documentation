@@ -14,11 +14,11 @@
 
 ## Description
 
-tant que la page est en construction, ajouter le template _ en haut de la page le modèle en mettant le code ****.
+tant que la page est en construction, ajouter le template [Template:UnfinishedDocu](Template_UnfinishedDocu.md) en haut de la page le modèle en mettant le code ****.
 
 Dans ce premier paragraphe, donnez une brève description de ce que fait la commande. La description peut faire référence à d\'autres ateliers tels que <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Atelier Sketcher ](Sketcher_Workbench/fr.md). (*Note de l\'éditeur:* L\'image fait 24px, pas 16px)
 
-N\'oubliez pas d\'utiliser _, _, _ et _ le cas échéant.
+N\'oubliez pas d\'utiliser [Template:Version/fr](Template:Version/fr.md), [Template:VersionMinus/fr](Template:VersionMinus/fr.md), [Template:VersionPlus/fr](Template:VersionPlus/fr.md) et [Template:Obsolete/fr](Template:Obsolete/fr.md) le cas échéant.
 
 Par exemple: La fonctionnalité pour utiliser `App::Link` {{Version/fr|0.19}} permet la liaison entre les sous-ensembles, etc\....
 
@@ -30,10 +30,10 @@ La fermeture et l'ouverture des balises de traduction doivent entourer les image
 ## Utilisation
 
 1.  Il existe plusieurs façons de lancer la commande:
-    -   Appuyez sur le bouton **<img src="images/Std_Open.svg" width=16px> _, il est nécessaire de créer un lien vers la commande comme indiqué dans cet exemple)
-    -   Sélectionnez l\'option **Menu → Sous-menu → <img src="images/Std_Open.svg" width=16px> Texte du menu de la commande** dans le menu. (*Note de l\'éditeur:* Ceci utilise le modèle _)
-    -   Sélectionnez l\'option **Submenu → <img src="images/Std_Open.svg" width=16px> Texte du menu de la commande** dans le menu contextuel _, toutes les commandes ne sont pas accessibles à partir d\'un menu contextuel)
-    -   Utilisez le raccourci clavier **F** puis **C** ou **Ctrl** + **Z**. (*Note de l\'éditeur:* Ceci utilise le modèle _, toutes les commandes n\'ont pas de raccourci clavier)
+    -   Appuyez sur le bouton **<img src="images/Std_Open.svg" width=16px> [Base ExampleCommandModel](GuiCommand_model/fr.md)**. (*Note de l\'éditeur:* Ceci utilise le modèle [Template:Button](Template_Button.md), il est nécessaire de créer un lien vers la commande comme indiqué dans cet exemple)
+    -   Sélectionnez l\'option **Menu → Sous-menu → <img src="images/Std_Open.svg" width=16px> Texte du menu de la commande** dans le menu. (*Note de l\'éditeur:* Ceci utilise le modèle [Template: MenuCommand](Template__MenuCommand.md))
+    -   Sélectionnez l\'option **Submenu → <img src="images/Std_Open.svg" width=16px> Texte du menu de la commande** dans le menu contextuel [Vue en arborescence](Tree_view/fr.md) ou [Vue 3D](3D_view/fr.md). (*Note de l\'éditeur:* Ceci utilise également le modèle [Template:MenuCommand](Template_MenuCommand.md), toutes les commandes ne sont pas accessibles à partir d\'un menu contextuel)
+    -   Utilisez le raccourci clavier **F** puis **C** ou **Ctrl** + **Z**. (*Note de l\'éditeur:* Ceci utilise le modèle [Template:KEY](Template_KEY.md), toutes les commandes n\'ont pas de raccourci clavier)
 2.  Étapes détaillées au besoin. Certaines étapes peuvent nécessiter **Keyboard** pressions tandis que d\'autres peuvent nécessiter l\'utilisation de la souris pour cliquer sur un **Button**.
 3.  D\'autres commandes peuvent devoir être référencées / utilisées. Pensez à créer un lien vers leurs pages wiki avec leurs icônes **<img src="images/Draft_Line.svg" width=16px> [Draft Line](Draft_Line.md)** ou **<img src="images/PartDesign_Pad.svg" width=16px> [PartDesign Protrusion](PartDesign_Pad/fr.md)**.
 4.  Définissez les options et appuyez sur **OK**.
@@ -68,7 +68,7 @@ Optionnel.
 
 ## Script
 
-Voir aussi : _ et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
+Voir aussi : [:<img src="images/Property.png" style="width:16px"> API/fr](:<img src="images/Property.png" style="width:16px"> API/fr.md) et [Débuter avec les scripts](FreeCAD_Scripting_Basics/fr.md).
 
 L\'outil ExampleCommandModel peut être utilisé dans une [macro](Macros/fr.md) et depuis la console [Python](Python/fr.md) en utilisant la fonction suivante :
 
@@ -169,7 +169,7 @@ Optional.
 
 == Scripting ==
 
-See also: _.
+See also: [FreeCAD Scripting Basics](:<img src="images/Property.png" style="width:16px"> API]] and [[FreeCAD_Scripting_Basics.md).
 
 The ExampleCommandModel tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function:
 
@@ -210,7 +210,7 @@ Optional.
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Wiki:Example](<img src="images/Property.png" style="width:16px"> Wiki_Example.md)
 
 ---
 [documentation index](../README.md) > [API/fr]] et ](Category_API/fr]] et .md) > GuiCommand model/fr

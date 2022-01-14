@@ -25,7 +25,7 @@ Lo strumento ShapeString inserisce una forma composta che riproduce una stringa 
 
 <div class="mw-translate-fuzzy">
 
-Per inserire un elemento di testo più semplice senza una forma chiusa, utilizzare <img alt="" src=images/Draft_Text.svg  style="width:24px;"> _.
+Per inserire un elemento di testo più semplice senza una forma chiusa, utilizzare <img alt="" src=images/Draft_Text.svg  style="width:24px;"> [Testo](Draft_Text/it.md). Per creare un\'etichetta di testo con una linea guida e una freccia usare <img alt="" src=images/Draft_Label.svg  style="width:24px;"> [Etichetta](Draft_Label/it.md).
 
 
 </div>
@@ -78,7 +78,7 @@ Se la modalità dell\'interfaccia di Draft è impostata su Vista azioni:
 
 -   Altezze di testo molto ridotte possono causare deformazioni delle forme del carattere a causa della perdita di dettagli nel ridimensionamento.
 -   La versione corrente mostra solo un testo scritto in orizzontale da sinistra a destra.
--   Per creare un testo curvo è possibile utilizzare la macro **<img src=images/FCCircularTextButtom.png style="width:24px"> [Testo circolare](Macro_FCCircularText/it.md)**.
+-   Per creare un testo curvo è possibile utilizzare la macro **[<img src=images/FCCircularTextButtom.png style="width:24px"> [Testo circolare](Macro_FCCircularText/it.md)**.
 
 
 </div>

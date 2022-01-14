@@ -14,7 +14,7 @@
 
 </div>
 
-Если хотите внести вклад в FreeCAD, пожалуйста, _.
+Если хотите внести вклад в FreeCAD, пожалуйста, [помогите](donate/ru.md), и смотрите страницу [помощи FreeCAD](Help_FreeCAD/ru.md) для других видов содействия. Если хотите редактировать эту вики, запросите аккаунт с правами редактирования [на форуме](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), и читайте общие указания, которым нужно следовать, на странице [WikiPages](WikiPages/ru.md).
 
 Если вы хотите узнать, с чего начался FreeCAD в прежние годы, посетите страницу [История](History/ru.md).
 
@@ -23,7 +23,7 @@
 ### Введение
 
 -   [Обзор приложения](About_FreeCAD/ru.md): Общий обзор FreeCAD
--   _, [Linux](Install_on_Linux/ru.md) или [Mac](Install_on_Mac/ru.md)
+-   [Установка](Installing/ru.md): Как установить FreeCAD на [Windows](Install_on_Windows/ru.md), [Linux](Install_on_Linux/ru.md) или [Mac](Install_on_Mac/ru.md)
 -   [Установка справочных файлов](Installing_Helpfile/ru.md): как установить документацию для работы оффлайн, базирующуюся на этих страницах wiki.
 -   [Установка дополнительных компонентов](Installing_additional_components/ru.md): как установить дополнительные сторонние компоненты, которые могут работать вместе с FreeCAD.
 -   [С чего начать?](Getting_started/ru.md): Краткий обзор доступных инструментов
@@ -36,7 +36,7 @@
 
 ### Основные элементы Приложения 
 
--   _, [древо проекта](Tree_view/ru.md), [редактор свойств](Property_editor/ru.md), [панель задач](Task_panel/ru.md), и [консоль Python](Python_console/ru.md).
+-   [Интерфейс](Interface/ru.md): интерфейс FreeCAD составлен из различных графических элементов на экране, включая [трёхмерный вид](3D_view/ru.md), [древо проекта](Tree_view/ru.md), [редактор свойств](Property_editor/ru.md), [панель задач](Task_panel/ru.md), и [консоль Python](Python_console/ru.md).
 -   [Навигация мышью](Mouse_navigation/ru.md): различные способы использования мыши или трэкпада для навигации в панели трёхмерного вида.
 -   [Методы выделения](Selection_methods/ru.md): различные методы выделения объектов в программе.
 -   [Object name](Object_name/ru.md): все объекты имеют атрибут только для чтения `Name`, который уникально идентифицирует их, и `Label`, редактируемый пользователем.
@@ -144,7 +144,7 @@
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
 [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/ru

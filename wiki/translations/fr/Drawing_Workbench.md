@@ -80,7 +80,7 @@ Quelques notes sur le module de dessin sont ajoutés à la page [Documentation s
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Obsolete Workbenches](Category_Obsolete_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Obsolete Workbenches](Category_Obsolete Workbenches.md) > Drawing Workbench/fr

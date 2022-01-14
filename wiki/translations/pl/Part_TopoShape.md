@@ -3,9 +3,9 @@
 
 ## Wprowadzenie
 
-_ zazwyczaj mają Kształt topologiczny.
+[Część: Kształt topologiczny](Part_TopoShape/pl.md), lub formalnie `Part::TopoShape`, jest klasą, która definiuje parametryczny **kształt topologiczny** w oprogramowaniu. Obiekty w dokumencie, które pokazują coś w oknie [widoku 3D](3D_view/pl.md) zazwyczaj mają Kształt topologiczny.
 
-Kształty topologiczne, jak również ich metody, i są ostatecznie definiowane przez kernel *(OCCT)* w technologii _.
+Kształty topologiczne, jak również ich metody, i są ostatecznie definiowane przez kernel *(OCCT)* w technologii [OpenCASCADE](OpenCASCADE/pl.md). FreeCAD używa tych kształtów i buduje wokół nich [App: Obiekt dokumentu](App_DocumentObject/pl.md).
 
 Innym typem klasy jest [siatka](Mesh/pl.md). Klasa ta nie jest zbyt parametryczna, ponieważ nie można jej łatwo przedefiniować, chyba że poprzez określenie poszczególnych wierzchołków i trójkątnych powierzchni.
 
@@ -13,7 +13,7 @@ Innym typem klasy jest [siatka](Mesh/pl.md). Klasa ta nie jest zbyt parametryczn
 
 
 
-*Po lewej: _, zdefiniowana przez wierzchołki i powierzchnie trójkątne.*
+*Po lewej: [Kształt topologiczny](Part_TopoShape/pl.md) zdefiniowany przez właściwości. <br>Po prawej: [Siatka](Mesh/pl.md), zdefiniowana przez wierzchołki i powierzchnie trójkątne.*
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 
@@ -64,7 +64,7 @@ obj.Shape.exportStep("my_file.step")
 obj.Shape.exportStl("my_file.stl")
 ```
 
-Pełna lista atrybutów i metod znajduje się w <img src=images/Std_PythonHelp.svg style="width:dokumentacji źródłowej](Source_documentation/pl.md) oraz w dokumentacji **[16px"> [Std: Pomoc do środowiska Python](Std_PythonHelp/pl.md)**.
+Pełna lista atrybutów i metod znajduje się w [dokumentacji źródłowej](Source_documentation/pl.md) oraz w dokumentacji **[<img src=images/Std_PythonHelp.svg style="width:16px"> [Std: Pomoc do środowiska Python](Std_PythonHelp/pl.md)**.
 
 Możesz uzyskać szybkie podsumowanie wszystkich metod, używając wbudowanej w środowisko Python funkcji `help()`. 
 ```python

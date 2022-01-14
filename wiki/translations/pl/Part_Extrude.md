@@ -23,7 +23,7 @@ In most common scenarios, the following lists the expected output shape type fro
 -   Extrude a open Wire (e.g. a Draft Wire), will produce a open shell (several joined faces)
 -   Extrude a closed Wire (e.g. a Draft Wire), will optionally produce a shell (several joined faces) or if the parameter \"solid\" is \"true\" will produce a solid
 -   Extrude a face (e.g. plane), will produce a solid (e.g. Cuboid)
--   Extrude a **<img src=images/Draft_ShapeString.svg style="width:16px"> [Draft ShapeString](Draft_ShapeString.md)**, will produce a compound of solids (the string is a compound of the letters which are each a solid)
+-   Extrude a **[<img src=images/Draft_ShapeString.svg style="width:16px"> [Draft ShapeString](Draft_ShapeString.md)**, will produce a compound of solids (the string is a compound of the letters which are each a solid)
 -   Extrude a shell of faces, will produce a Compsolid.
 
 ## Usage

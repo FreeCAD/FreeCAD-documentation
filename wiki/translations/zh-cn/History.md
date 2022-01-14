@@ -14,7 +14,7 @@
 
 <div class="mw-translate-fuzzy">
 
-FreeCAD的发展历史可以从2001年1月讲起。那时_.CADE项目工作。这个项目是一个商用软件开发框架。它包括一个[几何建模内核](Glossary/zh-cn#Geometric_modeling_kernel.md)（或者叫CAD内核）。这个内核在2000年发布于一个开源协议之下，并更名为[开放的小瀑布](Glossary#Open_CASCADE.md)(缩写CAS.CADE的原意：为计算机辅助设计和工程服务的计算机辅助软件)。这就使得开发一个开源的3D CAD软件成为可能，因为非得自己从头开始编织CAD内核将会耗费巨大的工作量。
+FreeCAD的发展历史可以从2001年1月讲起。那时[Jürgen Riegel开始为Cas](User_Jriegel.md).CADE项目工作。这个项目是一个商用软件开发框架。它包括一个[几何建模内核](Glossary/zh-cn#Geometric_modeling_kernel.md)（或者叫CAD内核）。这个内核在2000年发布于一个开源协议之下，并更名为[开放的小瀑布](Glossary#Open_CASCADE.md)(缩写CAS.CADE的原意：为计算机辅助设计和工程服务的计算机辅助软件)。这就使得开发一个开源的3D CAD软件成为可能，因为非得自己从头开始编织CAD内核将会耗费巨大的工作量。
 
 
 </div>
@@ -24,7 +24,7 @@ FreeCAD的发展历史可以从2001年1月讲起。那时_.CADE项目工作。�
 
 {{Quote|text=''我在2001年1月开启的FreeCAD项目，当时称为GOM(图形对象建模者)，想法就是利用Qt、Python和Cas.CADE来实现。Cas.CADE是我在戴姆勒的项目上用到的一个商用CAD内核。Cas.CADE不久前开源了，所以貌似时机刚刚好，尝试进入当时还是空白的开源CAD领域。我在一个叫做QSpect的项目里有两年经验，最终变成了它的主软件设计师。这个项目使用OpenCascade，关于3D和CAD程序，我学到了很多。我也收到Catia V5的影响，尤其是它非常特别的用户和程序界面。2002年3月，在OpenCascade项目里，我注册了FreeCAD这个软件。我不大懂名字的事情，没法想出比FreeCAD更好的名字了。在2003年四月，我在QSpect项目里的同事Werner Meyer，他换到了一个叫Imetric的公司。与Imetric的接触很有收获，因为他们正在为自己的3D传感器寻找一个新的3D软件平台。2005年，Imetric把它大部分的Mesh模块捐赠给FreeCAD和开源社区，并将FreeCAD作为他们的传感器系统软件的基础。从那时起，Werner Meyer是FreeCAD非常活跃的开发者。2005年，经过一年的挣扎，我决定脱离OpenCascade的文档框架，改为由自己实现。所以，最终，我们只用了OpenCascade的CAD内核，而没有采用其余框架。2007年是另一个有趣的里程碑。我们接上了QT4，然后，接上了LGPL。那时我们做了很多工作，主要是Werner。"
 
-|sign=_|source=''[http://forum.freecadweb.org/viewtopic.php?f=8&t=295 谁站在FreeCAD背后?]
+|sign=[Jürgen Riegel](User:Jriegel/zh-cn.md)|source=''[http://forum.freecadweb.org/viewtopic.php?f=8&t=295 谁站在FreeCAD背后?]
 "}}
 
 
@@ -40,7 +40,7 @@ FreeCAD的发展历史可以从2001年1月讲起。那时_.CADE项目工作。�
 
 
 {{Quote|text=''大家好，我叫Juergen Riegel，今天我想发布一个OpenCasCade项目，FreeCAD。它是基于OpenCasCade、QT和Python的开源CAx RAD。它的功能实现了一些关键概念，比如录制宏，工作台。它有作为服务器运行的能力，还可以作为能动态装载的应用的扩展。它被设计成了不局限于某个系统平台。尽管它处于早期阶段，对用户和开发者都还不可用——计划于2003年底向用户发布第一版——我想要在设计上和方向上得到一些反馈（所以把它发布出来）。GUI近乎完成了，现在我和我的合作开发者Werner Mayer，已经开始加入第一个CAD功能。FreeCAD可以看作是一个通用目的的机械CAD系统，但是它的第一批受众，我想，将是CAx的开发者，他们需要为自己的工程找到一个地基。''
-|sign=_|source=''[http://www.opencascade.org/org/forum/thread_6572/?forum=11 发布FreeCAD项目]''}}
+|sign=[Jürgen Riegel](User_Jriegel.md)|source=''[http://www.opencascade.org/org/forum/thread_6572/?forum=11 发布FreeCAD项目]''}}
 
 
 </div>
@@ -91,7 +91,7 @@ Werner Mayer joined the project as soon as it was announced as an open source pr
 
 <div class="mw-translate-fuzzy">
 
-_2008年加入了这个项目，开始工作于[绘图模块](Draft_Workbench/zh-cn.md)。在那之前，用户没法通过[用户图形界面创建两维几何体](Glossary/zh-cn#GUI.md)。这个模块完全采用Python开发，而不是C++，后者是FreeCAD采用的核心编程语言。这就证明了Python集成的成功，它可以用来扩展FreeCAD的能力或定制FreeCAD。Yorik除了制图模块，还致力于扩展FreeCAD的文档，并成了FreeCAD实际意义上的艺术总监，因为他为FreeCAD的用户图形界面创作出很多图标，[定义了它的风格](Artwork/zh-cn.md)。
+[Yorik van Havre](User_Yorik.md)2008年加入了这个项目，开始工作于[绘图模块](Draft_Workbench/zh-cn.md)。在那之前，用户没法通过[用户图形界面创建两维几何体](Glossary/zh-cn#GUI.md)。这个模块完全采用Python开发，而不是C++，后者是FreeCAD采用的核心编程语言。这就证明了Python集成的成功，它可以用来扩展FreeCAD的能力或定制FreeCAD。Yorik除了制图模块，还致力于扩展FreeCAD的文档，并成了FreeCAD实际意义上的艺术总监，因为他为FreeCAD的用户图形界面创作出很多图标，[定义了它的风格](Artwork/zh-cn.md)。
 
 
 </div>
@@ -177,7 +177,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 -   [SourceForge Old Files section](http://sourceforge.net/projects/free-cad/files/OldFiles/)
 -   [Announcing FreeCAD Project](http://www.opencascade.org/org/forum/thread_6572/?forum=11) on the OpenCascade forum
 
-_
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > History/zh-cn

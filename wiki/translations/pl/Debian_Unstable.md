@@ -1,5 +1,5 @@
 # Debian Unstable/pl
-_ i zalecaną dla zaawansowanych użytkowników w rozwijaniu i pakietowaniu programów FreeCAD. Nowe pakiety są gotowe jak tylko zostaną przesłane i zbudowane, chyba, że przesyłający oznaczył je jako [Debian Experimental](https://wiki.debian.org/DebianExperimental), co wymaga wyraźnej instalacji *(po pewnych ustawieniach, aby włączyć dodatkową dystrybucję)* poprzez .
+[Debian Unstable](https://wiki.debian.org/DebianUnstable) jest dystrybucją rozwijaną, używaną dla [rozwoju dystrybucji Debian](Debian_development/pl.md) i zalecaną dla zaawansowanych użytkowników w rozwijaniu i pakietowaniu programów FreeCAD. Nowe pakiety są gotowe jak tylko zostaną przesłane i zbudowane, chyba, że przesyłający oznaczył je jako [Debian Experimental](https://wiki.debian.org/DebianExperimental), co wymaga wyraźnej instalacji *(po pewnych ustawieniach, aby włączyć dodatkową dystrybucję)* poprzez .
 
 Często osoby używające dystrybucji Debiana Testing powinny używać Debiana Unstable. Debian Testing powinien być traktowany tylko jako \"kieszeń wydania QA\", ponieważ, choć może się wydawać bardziej stabilny niż Unstable, to w rzeczywistości ma pewną wadę. Nowe pakiety są wysyłane do Debian Unstable i migrują do Testing po pewnym czasie, więc poprawki bezpieczeństwa i ważne zmiany w pakietach mogą być niepotrzebnie opóźnione.
 
@@ -24,7 +24,7 @@ deb [http://deb.debian.org/debian](http://deb.debian.org/debian) experimental�
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Packaging](Category_Packaging.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Packaging](Category_Packaging.md) > Debian Unstable/pl

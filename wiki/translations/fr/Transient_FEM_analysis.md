@@ -22,7 +22,7 @@
 5.  Décalez cette pièce de 2 mm le long de l\'axe Z (via **Placement → Position → z**).
 6.  Sélectionnez les deux solides (en utilisant la touche **Shift** + clic de souris) et créez <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> [Fragments booléens](Part_BooleanFragments/fr.md) à partir d\'eux
 7.  Renommez ces fragments booléens en `bimetal strip`
-8.  Dans l\'_, cependant avec des formes croisées plus complexes, il pourrait y avoir des problèmes avec l\'analyse FEM plus tard. Donc, il vaut mieux s\'habituer à utiliser les fragments booléens en premier lieu.) Le résultat devrait ressembler à ceci:
+8.  Dans l\'[Éditeur de propriétés](Property_editor/fr.md), nous changeons le mode de **Standard** à **CompSolid**. (Cela devrait également fonctionner en utilisant la commande [Part Composé](Part_Compound/fr.md) au lieu de <img alt="" src=images/Part_BooleanFragments.svg  style="width:24px;"> [Fragments booléens](Part_BooleanFragments/fr.md), cependant avec des formes croisées plus complexes, il pourrait y avoir des problèmes avec l\'analyse FEM plus tard. Donc, il vaut mieux s\'habituer à utiliser les fragments booléens en premier lieu.) Le résultat devrait ressembler à ceci:
 
 <img alt="" src=images/Transient_FEM_Bimetal_(1).JPG  style="width:700px;">
 

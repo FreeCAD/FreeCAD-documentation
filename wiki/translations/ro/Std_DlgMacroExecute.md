@@ -16,7 +16,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Această funcție execută macroul selectat sau activ în editor. Este accesibil pe calea **Macro → Execute macro**, sau via butonul **<img src=images/Std_DlgMacroExecute.png style="width:16px"> Execute macro** în bara de instrumente macro <img alt="" src=images/Macros_toolbar.jpg  style="width:96px;">.
+Această funcție execută macroul selectat sau activ în editor. Este accesibil pe calea **Macro → Execute macro**, sau via butonul **[<img src=images/Std_DlgMacroExecute.png style="width:16px"> Execute macro** în bara de instrumente macro <img alt="" src=images/Macros_toolbar.jpg  style="width:96px;">.
 
 
 </div>
@@ -35,7 +35,7 @@ Această funcție execută macroul selectat sau activ în editor. Este accesibil
 
 <div class="mw-translate-fuzzy">
 
-Când tastați în **<img src=images/Std_DlgMacroExecuteDirect.png style="width:16px"> <img src=images/Std_DlgMacroExecute.png style="width:Macros...](Std_DlgMacroExecuteDirect.md)**, butonul **[16px"> Execute macro** își schimbă cularea în verde <img alt="" src=images/Menu_Std_DlgMacroExecute_fr_02.png  style="width:20px;">. Click pe acest buton pentru a rula macrocomanda.
+Când tastați în **[<img src=images/Std_DlgMacroExecuteDirect.png style="width:16px"> [Macros...](Std_DlgMacroExecuteDirect.md)**, butonul **[<img src=images/Std_DlgMacroExecute.png style="width:16px"> Execute macro** își schimbă cularea în verde <img alt="" src=images/Menu_Std_DlgMacroExecute_fr_02.png  style="width:20px;">. Click pe acest buton pentru a rula macrocomanda.
 
 
 </div>

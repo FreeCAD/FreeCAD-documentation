@@ -49,7 +49,7 @@ La selezione del file avviene come per la versione 1.5. Con la versione 2 si pu�
 
 <div class="mw-translate-fuzzy">
 
-L\'ultima versione della macro si trova in _.
+L\'ultima versione della macro si trova in [AirfoilImportAndScale.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/ObjectCreation/AirfoilImportAndScale.FCMacro) ma il modo più semplice per installare questa macro è tramite [Addon Manager](Std_AddonMgr/it.md).
 
 
 </div>

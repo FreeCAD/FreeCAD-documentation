@@ -2,7 +2,7 @@
 {{TutorialInfo/fr
 |Topic=Sketcher
 |Level=Débutant
-|Author=_
+|Author=[Maker](User_Maker.md)
 |FCVersion=
 }}
 
@@ -17,7 +17,7 @@ Qu\'une courbe fermée soit présente, ne va pas de soi et n\'est pas reconnaiss
 
 
 *Un simple croquis. 
-A gauche: courbe uniquement à quatre endroits (rouge, contraintes automatiques lors du dessin avec <img src=images/Sketcher_CreatePolyline.svg style="width:32px"> [Polyligne](Sketcher_CreatePolyline/fr.md)) fermée.
+A gauche: courbe uniquement à quatre endroits (rouge, contraintes automatiques lors du dessin avec [<img src=images/Sketcher_CreatePolyline.svg style="width:32px"> [Polyligne](Sketcher_CreatePolyline/fr.md)) fermée.
 Au milieu: avertissement - ... face brisée (courbe brisée).
 A droite: courbe fermée aux quatre places restantes (vert)*
 

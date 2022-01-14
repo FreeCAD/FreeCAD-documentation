@@ -37,7 +37,7 @@ Această comandă aplică o forță de valoare dată \[N\] la geometria țintei 
         
         : In a typical case, you\'ll click this field empty to apply a force in normal direction to the face. You can revert the direction of the force by clicking **Reverse direction**. In other cases, you need to pick a face or plane, which is in normal to the force direction (it could differ from the face, to which the force is being applied)
 
-    -   Click pe obiectul **Close** to finish the dialog and create **<img src=images/FEM_ConstraintForce.png style="width:24px"> ConstraintForce**
+    -   Click pe obiectul **Close** to finish the dialog and create **[<img src=images/FEM_ConstraintForce.png style="width:24px"> ConstraintForce**
 
 
 </div>

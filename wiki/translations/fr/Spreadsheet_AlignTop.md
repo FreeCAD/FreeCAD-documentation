@@ -11,13 +11,13 @@
 
 ## Description
 
-L\'outil **<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Spreadsheet Alignement en bas](Spreadsheet_AlignTop/fr.md)** aligne le texte à l\'intérieur de la cellule en haut de la cellule.
+L\'outil **[<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Spreadsheet Alignement en bas](Spreadsheet_AlignTop/fr.md)** aligne le texte à l\'intérieur de la cellule en haut de la cellule.
 
 ## Utilisation
 
-1.  Assurez-vous qu\'il y a une **<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [feuille de calcul](Spreadsheet_CreateSheet/fr.md)** ouverte pour que le bouton soit activé.
+1.  Assurez-vous qu\'il y a une **[<img src=images/Spreadsheet_CreateSheet.svg style="width:16px"> [feuille de calcul](Spreadsheet_CreateSheet/fr.md)** ouverte pour que le bouton soit activé.
 2.  Sélectionnez une cellule.
-3.  Appuyez sur le bouton **<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Aligne le contenu des cellules sélectionnées en haut](Spreadsheet_AlignTop/fr.md)**.
+3.  Appuyez sur le bouton **[<img src=images/Spreadsheet_AlignTop.svg style="width:16px"> [Aligne le contenu des cellules sélectionnées en haut](Spreadsheet_AlignTop/fr.md)**.
 
 
 

@@ -10,7 +10,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/Assembly_ConstraintEqualLineArcLength.svg  style="width:16px;"> _ en relation avec un <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> plan de travail.
+La commande <img alt="" src=images/Assembly_ConstraintEqualLineArcLength.svg  style="width:16px;"> [Contrainte égalité longueur d\'arc](Assembly3_ConstraintEqualLineArcLength/fr.md) contraint la longueur d\'une ligne 2D comme une ligne non subdivisé faite avec l\'<img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [atelier Draft Workbench](Draft_Workbench/fr.md) en relation avec un <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> plan de travail.
 
 Elle relie la longueur de la ligne 2D à la longueur d\'un arc (2D ou 3D ?).
 

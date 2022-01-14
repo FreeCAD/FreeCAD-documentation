@@ -31,7 +31,7 @@ Powoduje związanie dwóch linii do przestrzegania prawa załamania światła, k
 
 Zauważ, że kilka [wiązań pomocniczych](Sketcher_helper_constraint.md) zostanie dodanych automatycznie *(punkt na obiekcie, zbieżność)*. Mogą one zostać usunięte, jeśli powodują nadmiarowość lub dodane ręcznie, jeśli nie zostały dodane automatycznie. Dla faktycznego wiązania prawa Snell\'a punkty końcowe linii muszą być zbieżne i leżeć na powierzchni kontaktu, w przeciwnym razie zachowanie jest niezdefiniowane.
 
-Za pomocą przyboru **<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Linia łamana](Sketcher_CreatePolyline.md)**, możliwe jest przyspieszenie rysowania promieni świetlnych. W tym przypadku można wybrać dwa przypadkowe punkty końcowe przez użycie pola wyboru.
+Za pomocą przyboru **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Linia łamana](Sketcher_CreatePolyline.md)**, możliwe jest przyspieszenie rysowania promieni świetlnych. W tym przypadku można wybrać dwa przypadkowe punkty końcowe przez użycie pola wyboru.
 
 ## Uwagi
 

@@ -32,7 +32,7 @@ Dieses Werkzeug schaltet die Sichtbarkeit von linearen (rot) und Winkel (blau) M
 ## Anwendung
 
 1.  Aufrufen des Befehls auf verschiedene Weise:
-    -   Drücke die **<img src=images/Part_Measure_Toggle_3d.svg style="width:24px"> '''umschalten 3D'''** Schaltfläche.
+    -   Drücke die **[<img src=images/Part_Measure_Toggle_3d.svg style="width:24px"> '''umschalten 3D'''** Schaltfläche.
     -   Verwende den **Messen → umschalten 3D**
 
 

@@ -48,9 +48,9 @@ Beide Befehle können auf 2D Objekte angewendet werden, die mit dem [ Arbeitsber
 
 Eine Punktverbindung ist ein Objekt, das einen oder mehrere Punkte enthält. Dies sind die unterstützten Punktverbindungen und wie sie erstellt werden können:
 
--   _ oder [Part Punkte](Part_Point/de.md), wähle diese aus und rufe den Befehl [Part Verbund](Part_Compound/de.md) auf.
+-   [Part Verbund](Part_Compound/de.md): Erzeugen einen oder mehrere [Entwurf Punkte](Draft_Point/de.md) oder [Part Punkte](Part_Point/de.md), wähle diese aus und rufe den Befehl [Part Verbund](Part_Compound/de.md) auf.
 -   Zeichnungsblock: Erzeuge einen oder mehrere [Entwurf Punkte](Draft_Point/de.md) oder [Part Punkte](Part_Point/de.md), markiere diese und rufe den Befehl [Entwurf Heraufstufen](Draft_Upgrade/de.md) auf.
--   _ und füge der Skizze einen oder mehrere [Skizzierer Punkte](Sketcher_CreatePoint/de.md) hinzu.
+-   [Skizzierer Skizze](Sketcher_NewSketch/de.md): Erstelle eine [Skizze](Sketcher_NewSketch/de.md) und füge der Skizze einen oder mehrere [Skizzierer Punkte](Sketcher_CreatePoint/de.md) hinzu.
 
 ## Eigenschaften
 
@@ -59,7 +59,7 @@ Siehe auch: [Eigenschafteneditor](property_editor/de.md).
 
 <div class="mw-translate-fuzzy">
 
-Eine _ beschriebenen Eigenschaften besitzt die PunktAnordnung im [Eigenschaftseditor](property_editor/de.md) die folgenden Eigenschaften.
+Eine [PunktAnordnung](Draft_PointArray/de.md) ist abgeleitet von einer l[Part Formelement](Part_Feature/de.md) (Klasse `Part::Feature`) abgeleitet, daher teilt es alle Eigenschaften von letzterem. Zusätzlich zu den im [Part Formelement](Part_Feature/de.md) beschriebenen Eigenschaften besitzt die PunktAnordnung im [Eigenschaftseditor](property_editor/de.md) die folgenden Eigenschaften.
 
 
 </div>
@@ -186,7 +186,7 @@ The properties in this group are not inherited by Link arrays.
 
 ## Skripten
 
-Siehe auch: _.
+Siehe auch: [Autogenerierte API Dokumentation](https://www.freecadweb.org/api) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
 
 Zum Erstellen einer Punktanordnung verwende die Methode `make_point_array` ({{Version/de|0.19}}) des Entwurf Moduls. Diese Methode ersetzt die veraltete Methode `makePointArray`.
 

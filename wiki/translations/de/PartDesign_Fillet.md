@@ -84,7 +84,7 @@ Lies mehr unter [topologisches Namensproblem](topological_naming_problem/de.md).
 
 <div class="mw-translate-fuzzy">
 
-Das Werkzeug **_ [Verrundung](_PartDesign_Fillet/de.md)** kann in einem Makro und in der Python Konsole mit folgender Funktion verwendet werden:
+Das Werkzeug **[16px|text-top=Fillet|link=PartDesign_Fillet](File:PartDesign_Fillet.svg.md) [Verrundung](_PartDesign_Fillet/de.md)** kann in einem Makro und in der Python Konsole mit folgender Funktion verwendet werden:
 
 
 </div>

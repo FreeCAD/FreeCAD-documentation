@@ -11,7 +11,7 @@
 
 ## Description
 
-The _ objects.
+The [Arch Rebar](Arch_Rebar.md) tool allows you to place [reinforcing bars](http://en.wikipedia.org/wiki/Rebar) inside [Arch Structure](Arch_Structure.md) objects.
 
 The [Arch Rebar](Arch_Rebar.md) tool is also integrated into [BIM Workbench](BIM_Workbench.md).
 
@@ -120,7 +120,7 @@ FreeCAD.ActiveDocument.recompute()
 
   
 
-_ _
+[<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md) [<img src="images/Property.png" style="width:16px"> Reinforcement](Category_Reinforcement.md)
 
 ---
 [documentation index](../README.md) > [External Command Reference](Category_External Command Reference.md) > [Arch](Arch_Workbench.md) > Arch Rebar

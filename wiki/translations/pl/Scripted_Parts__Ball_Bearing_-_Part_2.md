@@ -64,13 +64,13 @@ The correct sketcher-based workflow of inserting the balls would be:
 -   This repeat-operation could be programmed with a loop
 
 Now this is not effective, inserting primitives and positioning them is easier and faster in this case.
-So we use the same method as in \"_\".
+So we use the same method as in \"[Scripted Parts: Ball Bearing - Part 1](Scripted_Parts:_Ball_Bearing_-_Part_1.md)\".
 
 ### Links
 
 [Scripted objects](Scripted_objects.md): The wiki page explaining the basics of scripting
 [Topological data scripting](Topological_data_scripting.md): A tutorial for covering basics of scripting
-_: Doing it with part primitives
+[Scripted Parts: Ball Bearing - Part 1](Scripted_Parts:_Ball_Bearing_-_Part_1.md): Doing it with part primitives
 [Bearings from scripted sketches](http://linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html): Base for this tutorial, thanks to JMG \...
 
 ### Code
@@ -176,7 +176,7 @@ Gui.SendMsgToActiveView("ViewFit")
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripted Parts: Ball Bearing - Part 2/pl

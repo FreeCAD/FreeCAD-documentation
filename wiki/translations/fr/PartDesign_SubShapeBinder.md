@@ -29,15 +29,15 @@ Il peut également se lier à des objets imbriqués dans des [Std Parts](Std_Par
 
 ## Utilisation
 
-1.  Commencez avec un **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/PartDesign_AdditivePrism.svg style="width:corps](PartDesign_Body/fr.md)** déjà en place contenant une seule [fonction](PartDesign_Feature/fr.md), par exemple un **[16px">  [prisme](PartDesign_AdditivePrism/fr.md)**.
-2.  Créez un second **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/PartDesign_AdditiveBox.svg style="width:corps](PartDesign_Body/fr.md)** contenant une seule [fonction](PartDesign_Feature/fr.md), par exemple, un **[16px"> [cube additif](PartDesign_AdditiveBox/fr.md)**. Faites-en le [corps actif](PartDesign_Body/fr#Statut_actif.md).
-3.  Sélectionnez le premier corps entièrement puis appuyez sur **<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [Créer une forme liée du sous-objet(s)](PartDesign_SubShapeBinder/fr.md)**.
+1.  Commencez avec un **[<img src=images/PartDesign_Body.svg style="width:16px"> [corps](PartDesign_Body/fr.md)** déjà en place contenant une seule [fonction](PartDesign_Feature/fr.md), par exemple un **[<img src=images/PartDesign_AdditivePrism.svg style="width:16px">  [prisme](PartDesign_AdditivePrism/fr.md)**.
+2.  Créez un second **[<img src=images/PartDesign_Body.svg style="width:16px"> [corps](PartDesign_Body/fr.md)** contenant une seule [fonction](PartDesign_Feature/fr.md), par exemple, un **[<img src=images/PartDesign_AdditiveBox.svg style="width:16px"> [cube additif](PartDesign_AdditiveBox/fr.md)**. Faites-en le [corps actif](PartDesign_Body/fr#Statut_actif.md).
+3.  Sélectionnez le premier corps entièrement puis appuyez sur **[<img src=images/PartDesign_SubShapeBinder.svg style="width:16px"> [Créer une forme liée du sous-objet(s)](PartDesign_SubShapeBinder/fr.md)**.
 4.  Modifiez les propriétés de cet objet liant, par exemple son placement.
-5.  Utilisez-le avec une autre opération telle que **<img src=images/PartDesign_Boolean.svg style="width:16px"> [Opération booléenne](PartDesign_Boolean/fr.md)**.
+5.  Utilisez-le avec une autre opération telle que **[<img src=images/PartDesign_Boolean.svg style="width:16px"> [Opération booléenne](PartDesign_Boolean/fr.md)**.
 
 ## Propriétés
 
-_, les propriétés suivantes sont disponibles dans l\'[Éditeur de propriétés](Property_editor/fr.md).
+[PartDesign Sous forme liée](PartDesign_SubShapeBinder/fr.md) est dérivée de [Part Feature](Part_Feature/fr.md) (classe `Part::Feature`). En plus des propriétés répertoriées dans [Part Feature](Part_Feature/fr.md), les propriétés suivantes sont disponibles dans l\'[Éditeur de propriétés](Property_editor/fr.md).
 
 ### Données
 

@@ -5,7 +5,7 @@ Jednym z głównych zastosowań programu FreeCAD jest produkcja rzeczywistych ob
 
 Jeśli byłeś ostrożny podczas modelowania, większość trudności, które możesz napotkać podczas drukowania modelu w 3D została już uniknięta. Wiąże się to w zasadzie z:
 
--   Upewnieniem się, że twoje obiekty 3D są **bryłowe**. Obiekty świata rzeczywistego są bryłami, model 3D również musi być bryłą. We wcześniejszych rozdziałach widzieliśmy, że FreeCAD bardzo pomaga w tej kwestii, a środowisko pracy _, które jest przydatne do dalszego sprawdzania występowania możliwych wad.
+-   Upewnieniem się, że twoje obiekty 3D są **bryłowe**. Obiekty świata rzeczywistego są bryłami, model 3D również musi być bryłą. We wcześniejszych rozdziałach widzieliśmy, że FreeCAD bardzo pomaga w tej kwestii, a środowisko pracy [Projekt Części](PartDesign_Workbench/pl.md) powiadomi Cię, jeśli wykonasz operację, która uniemożliwi zachowanie bryły modelu. Środowisko pracy [Część](Part_Workbench/pl.md) zawiera również narzędzie <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> [Sprawdź geometrię](Part_CheckGeometry/pl.md), które jest przydatne do dalszego sprawdzania występowania możliwych wad.
 -   Upewnij się co do **wymiarów** swoich obiektów. Jeden milimetr będzie jednym milimetrem w prawdziwym życiu. Każdy wymiar ma znaczenie.
 -   Kontrolowanie **degradacji**. Żaden system druku 3D lub frezowania CNC nie może przyjmować plików FreeCAD bezpośrednio. Większość z nich rozumie tylko język maszynowy zwany [G-Code](https://en.wikipedia.org/wiki/G-code). G-kod ma dziesiątki różnych dialektów, każda maszyna lub sprzedawca zazwyczaj ma swój własny. Konwersja twoich modeli do G-Code może być łatwa i automatyczna, ale możesz też zrobić to ręcznie, z pełną kontrolą nad wynikiem. W każdym przypadku, nie można uniknąć utraty jakości modelu podczas tego procesu. Podczas drukowania w 3D, musisz zawsze upewnić się, że ta utrata jakości pozostaje poniżej Twoich minimalnych wymagań.
 
@@ -62,7 +62,7 @@ Po zainstalowaniu zarówno programu Cura, jak i środowiska pracy Cura, będzies
 -   Wczytaj plik zawierający nasze klocki Lego *(można go pobrać na końcu poprzedniego rozdziału)*.
 -   Przełącz się na [środowisko Cura](https://github.com/cblt2l/FreeCAD-CuraEngine-Plugin)
 -   Ustawiamy miejsce na drukarkę, wybierając z menu **Druk 3D → Utwórz definicję drukarki 3D**. Ponieważ nie zamierzamy drukować w rzeczywistości, możemy pozostawić te ustawienia takimi, jakie są. Geometria łoża drukującego i dostępnej przestrzeni zostanie pokazana w widoku 3D.
--   Przesuń klocek Lego w odpowiednie miejsce, np. na środek łoża drukującego. Pamiętaj, że obiektów środowiska Projekt Części nie można przesuwać bezpośrednio, więc musisz albo przesunąć jego pierwszy szkic *(pierwszy prostokąt)*, albo przesunąć *(i wydrukować)* kopię, którą można wykonać za pomocą narzędzia _.
+-   Przesuń klocek Lego w odpowiednie miejsce, np. na środek łoża drukującego. Pamiętaj, że obiektów środowiska Projekt Części nie można przesuwać bezpośrednio, więc musisz albo przesunąć jego pierwszy szkic *(pierwszy prostokąt)*, albo przesunąć *(i wydrukować)* kopię, którą można wykonać za pomocą narzędzia [Część -\> szybka kopia](Part_SimpleCopy/pl.md). Kopia może być przenoszona, na przykład za pomocą funkcji <img alt="" src=images/Draft_Move.svg  style="width:24px;"> [Rysunek Roboczy → Przesuń](Draft_Move/pl.md).
 -   Zaznacz obiekt, który ma zostać wydrukowany i wybierz menu **Druk 3D → Pokrój za pomocą silnika Cura**.
 -   W panelu zadań, który się otworzy, upewnij się, że ścieżka do pliku wykonywalnego programu Cura jest poprawnie ustawiona. Ponieważ nie zamierzamy tak naprawdę drukować, możemy pozostawić wszystkie inne opcje tak jak są. Naciśnij przycisk **Ok**. Zostaną wygenerowane dwa pliki w tym samym katalogu co Twój plik FreeCAD, plik STL oraz plik G-code.
 
@@ -102,7 +102,7 @@ Generowanie ścieżek frezowania CNC to kolejny temat, który jest zbyt obszerny
 
 ![](images/Exercise_path_04.jpg )
 
--   Teraz pozostaje tylko połączyć te dwie operacje w jedną. Można to zrobić za pomocą _.
+-   Teraz pozostaje tylko połączyć te dwie operacje w jedną. Można to zrobić za pomocą [zadania](Path_Job/pl.md). Naciśnij przycisk <img alt="" src=images/Path_Job.svg  style="width:24px;"> [Zadanie](Path_Job/pl.md).
 -   Ustaw właściwość **Użyj umieszczenia** projektu na wartość {{True/pl}}, ponieważ zmieniliśmy rozmieszczenie szyku i chcemy, aby zostało to uwzględnione w projekcie.
 -   W [widoku drzewa](Tree_view/pl.md) przeciągnij i upuść dwa szyki do projektu. W razie potrzeby można zmienić kolejność szyków wewnątrz projektu, klikając ich pozycje dwukrotnie.
 -   Projekt można teraz wyeksportować do G-code, zaznaczając go, wybierając menu **Plik -\> Eksport**, wybierając format G-code i w oknie dialogowym, które się otworzy, wybierając skrypt post-processingowy odpowiedni dla twojego urządzenia.
@@ -132,7 +132,7 @@ Istnieje wiele aplikacji do symulacji realnej obróbki skrawaniem, jedną z nich
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Path](Category_Path.md) [<img src="images/Property.png" style="width:16px"> Mesh](Category_Mesh.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Path](Category_Path.md) > Manual:Preparing models for 3D printing/pl

@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-Ein <img alt="" src=images/Mesh_Tree.svg  style="width:32px;"> _, das in der [3D Ansicht](3D_view/de.md) angezeigt werden kann.
+Ein <img alt="" src=images/Mesh_Tree.svg  style="width:32px;"> [Polygonnetz Formelement](Mesh_Feature/de.md) Objekt oder formal ein `Mesh::Feature` ist ein einfaches Element mit einem ihm zugeordneten [Polygonnetz Objekt](Mesh_MeshObject/de.md), das in der [3D Ansicht](3D_view/de.md) angezeigt werden kann.
 
 Ein Polygonnetz Formelement ähnelt konzeptionell einem [Part Formelement](Part_Feature/de.md); Ersteres ist das Basisobjekt für Elemente mit \"Polygonnetz\" Information, während Letzteres das Basisobjekt für Elemente mit \"geometrischer Form\" Information ist.
 
@@ -32,7 +32,7 @@ A `Mesh::Feature` has simple properties like a [placement](Placement.md), and vi
 
 ## Eigenschaften
 
-A _ (`App::GeoFeature` class), therefore it shares all the latter\'s properties.
+A [Mesh Feature](Mesh_Feature.md) (`Mesh::Feature` class) is derived from the basic [App GeoFeature](App_GeoFeature.md) (`App::GeoFeature` class), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [App GeoFeature](App_GeoFeature.md), the Mesh Feature has the **Mesh** property, which stores the [Mesh MeshObject](Mesh_MeshObject.md) of this element; this is the geometry that is shown in the [3D view](3D_view.md).
 
@@ -165,7 +165,7 @@ obj.Label = "Custom label"
 
 }} {{Document objects navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Glossary](Category_Glossary.md) > [Mesh](Mesh_Workbench.md) > Mesh Feature/de

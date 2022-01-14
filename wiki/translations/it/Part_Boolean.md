@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Per operazioni booleane più veloci, usare <img alt="" src=images/Part_Fuse.svg  style="width:16px;"> _, <img alt="" src=images/Part_Cut.svg  style="width:16px;"> _.
+Per operazioni booleane più veloci, usare <img alt="" src=images/Part_Fuse.svg  style="width:16px;"> [Unione](Part_Union/it.md), <img alt="" src=images/Part_Common.svg  style="width:16px;">[Intersezione](Part_Common/it.md), <img alt="" src=images/Part_Cut.svg  style="width:16px;"> [Taglio](Part_Cut/it.md) e <img alt="" src=images/Part_Section.svg  style="width:16px;"> [Sezione](Part_Section/it.md).
 
 
 </div>
@@ -64,7 +64,7 @@ Le operazioni booleane sono eseguite dal kernel di geometria interno, [OpenCASCA
 
 <div class="mw-translate-fuzzy">
 
-In caso di complanarità, anche se la prima operazione booleana riesce, le successive operazioni booleane potrebbero non riuscire. In questo caso, il problema potrebbe non essere nell\'ultima operazione eseguita, ma in quelle precedenti, ovvero nelle operazioni nidificate come indicato nella <img src=images/Part_CheckGeometry.svg style="width:vista ad albero](tree_view/it.md). Per risolvere questi problemi, si consiglia di utilizzare lo strumento **[16px"> [Controlla la geometria](Part_CheckGeometry/it.md)** per ispezionare tutti gli oggetti alla ricerca di problemi.
+In caso di complanarità, anche se la prima operazione booleana riesce, le successive operazioni booleane potrebbero non riuscire. In questo caso, il problema potrebbe non essere nell\'ultima operazione eseguita, ma in quelle precedenti, ovvero nelle operazioni nidificate come indicato nella [vista ad albero](tree_view/it.md). Per risolvere questi problemi, si consiglia di utilizzare lo strumento **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Controlla la geometria](Part_CheckGeometry/it.md)** per ispezionare tutti gli oggetti alla ricerca di problemi.
 
 
 </div>

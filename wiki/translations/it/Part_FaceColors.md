@@ -60,7 +60,7 @@ Per ripristinare il colore di tutte le facce
 
  
 
-_ _
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Command\_Reference](Category_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > [Part](Part_Workbench.md) > Part FaceColors/it

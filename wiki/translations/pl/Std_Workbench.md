@@ -24,7 +24,7 @@ Polecenie **Środowiska pracy** aktywuje wybrane [Środowisko pracy](Workbenches
 
 ## Uwagi
 
--   Dodatkowe _.
+-   Dodatkowe [zewnętrzne środowiska pracy](External_workbenches/pl.md) mogą być pobrane za pomocą <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Menadżera dodatków](Std_AddonMgr/pl.md).
 
 ## Ustawienia
 

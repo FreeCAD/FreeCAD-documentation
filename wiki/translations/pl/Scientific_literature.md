@@ -14,7 +14,7 @@ Większość z tych artykułów ma nieograniczony dostęp.
 
 }}
 
-_
+[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
 [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Scientific literature/pl

@@ -6,7 +6,7 @@
 |Topic= Modellazione
 |Level= Avanzato
 |Time= 
-|Author=_, _
+|Author=[DeepSOIC](User_DeepSOIC.md), [Murdic](User_Murdic.md)
 |FCVersion=0.14 o superiore (secondo il metodo)
 |Files=
 }}
@@ -108,10 +108,10 @@ L\'idea è quella di creare una filettatura non elicoidale (cioè che sia solo l
 
 ### Revolving sawtooth profile 
 
-1.  Click on **<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**.
-2.  Click on **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign New sketch](PartDesign_NewSketch.md)**. Select {{Value|XZ_Plane}}.
+1.  Click on **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**.
+2.  Click on **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign New sketch](PartDesign_NewSketch.md)**. Select {{Value|XZ_Plane}}.
 3.  Draw a closed sketch with the required inner diameter {{Value|10 mm}}, outer diameter around {{Value|12.6 mm}}, pitch {{Value|3 mm}}, number of teeth {{Value|8}}, and total height {{Value|30 mm}}.
-4.  Select the sketch, then click on **<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Revolution](PartDesign_Revolution.md)**. Select {{Value|Vertical sketch axis}}, and press **OK**.
+4.  Select the sketch, then click on **[<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Revolution](PartDesign_Revolution.md)**. Select {{Value|Vertical sketch axis}}, and press **OK**.
 
 <img alt="" src=images/T13_02_Threads_Sawtooth_sketch_profile.png  style="width:" height="300px;"> 
 *Profile used to create the revolution that will simulate a thread.*
@@ -123,13 +123,13 @@ L\'idea è quella di creare una filettatura non elicoidale (cioè che sia solo l
 
 1.  Repeat the first two steps from the previous section.
 2.  Draw a closed sketch with the required inner diameter {{Value|10 mm}}, outer diameter around {{Value|12.6 mm}}, and pitch {{Value|3 mm}}, but draw only a single tooth of the sawtooth.
-3.  Select the sketch, then click on **<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Revolution](PartDesign_Revolution.md)**. Select {{Value|Vertical sketch axis}}, and press **OK**.
-4.  Select the {{Value|Revolution}}, then click on **<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign Linear pattern](PartDesign_LinearPattern.md)**. Select {{Value|Vertical sketch axis}}. For a fake thread with a pitch of {{Value|3 mm}}, set the **Length** to {{Value|3}}, and **Occurrences** to {{Value|2}}, then press **OK**. This will create two discs, one on top of the other.
+3.  Select the sketch, then click on **[<img src=images/PartDesign_Revolution.svg style="width:16px"> [PartDesign Revolution](PartDesign_Revolution.md)**. Select {{Value|Vertical sketch axis}}, and press **OK**.
+4.  Select the {{Value|Revolution}}, then click on **[<img src=images/PartDesign_LinearPattern.svg style="width:16px"> [PartDesign Linear pattern](PartDesign_LinearPattern.md)**. Select {{Value|Vertical sketch axis}}. For a fake thread with a pitch of {{Value|3 mm}}, set the **Length** to {{Value|3}}, and **Occurrences** to {{Value|2}}, then press **OK**. This will create two discs, one on top of the other.
 5.  You can add more discs by increasing the value of **Occurrences** in the linear pattern, and by raising the **Length**, which is the total length of the fake thread.
 
 The **Length** and **Occurrences** are related. If the length is too large, but the number of occurrences is not high enough, you will have disconnected discs, and the Body computation will fail, as the resulting object must always be a [single contiguous solid](PartDesign_Body.md). For example, to get a total height of {{Value|30 mm}}, set **Length** to {{Value|27 mm}} and **Occurrences** to {{Value|10}}.
 
-If you wish, you may add a **<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Additive cylinder](PartDesign_AdditiveCylinder.md)** with a diameter equal to the inner diameter of the discs, and as high as the total thread height. This will join all discs into a single solid, thus guaranteeing that there will not be disconnected discs.
+If you wish, you may add a **[<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Additive cylinder](PartDesign_AdditiveCylinder.md)** with a diameter equal to the inner diameter of the discs, and as high as the total thread height. This will join all discs into a single solid, thus guaranteeing that there will not be disconnected discs.
 
 <img alt="" src=images/T13_05_Threads_Stacked_discs_sketch.png  style="width:" height="300px;"> 
 *Profile used to create a revolved disc that will be used to simulate a thread.*
@@ -153,14 +153,14 @@ L\'idea è piuttosto semplice: disegnare il profilo del filetto, e quindi esegui
 
 A true thread consists of a closed profile sweeping a solid along a helical path.
 
-1.  In the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Primitives.svg style="width:Part Workbench](Part_Workbench.md), click on **[16px"> <img src=images/Part_Helix.svg style="width:Part Primitives](Part_Primitives.md)** to create a **[16px"> [Part Helix](Part_Helix.md)**. Give it the appropriate values for **Pitch** {{Value|3 mm}}, **Height** {{Value|23 mm}}, and **Radius** {{Value|10 mm}}.
-2.  Move to the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> <img src=images/PartDesign_Body.svg style="width:PartDesign Workbench](PartDesign_Workbench.md), and click on **[16px"> [PartDesign Body](PartDesign_Body.md)**.
-3.  Click on **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign New sketch](PartDesign_NewSketch.md)**. Select {{Value|XZ_Plane}}.
+1.  In the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md), click on **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Primitives](Part_Primitives.md)** to create a **[<img src=images/Part_Helix.svg style="width:16px"> [Part Helix](Part_Helix.md)**. Give it the appropriate values for **Pitch** {{Value|3 mm}}, **Height** {{Value|23 mm}}, and **Radius** {{Value|10 mm}}.
+2.  Move to the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md), and click on **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**.
+3.  Click on **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign New sketch](PartDesign_NewSketch.md)**. Select {{Value|XZ_Plane}}.
 4.  Draw a closed sketch with the required profile for the thread teeth, normally a triangular shape. In this case we will use a height of {{Value|2.9 mm}}, which is slightly smaller than the {{Value|3.0 mm}} pitch used for the helix path. The profile must not create any self intersections when moved along the helix, neither between the turns nor in the middle, thus the sketch as shown for stacking disks cannot be used.
-5.  Select the sketch, then click on **<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Additive pipe](PartDesign_AdditivePipe.md)**. In **Path to sweep along**, click on **Object**, and choose the helix object previously created. Then change **Orientation mode** to {{Value|Frenet}} so that the profile sweeps the path without twisting; then press **OK**.
+5.  Select the sketch, then click on **[<img src=images/PartDesign_AdditivePipe.svg style="width:16px"> [PartDesign Additive pipe](PartDesign_AdditivePipe.md)**. In **Path to sweep along**, click on **Object**, and choose the helix object previously created. Then change **Orientation mode** to {{Value|Frenet}} so that the profile sweeps the path without twisting; then press **OK**.
 6.  When the dialog asks for a reference, choose {{Value|Create cross-reference}}.
 7.  The helical coil is created, but there is no central body or shaft.
-8.  Click on **<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Additive cylinder](PartDesign_AdditiveCylinder.md)** with the appropriate **Radius** {{Value|10 mm}} and **Height** {{Value|29.9 mm}} to touch the rest of the helical thread and automatically fuse to it.
+8.  Click on **[<img src=images/PartDesign_AdditiveCylinder.svg style="width:16px"> [PartDesign Additive cylinder](PartDesign_AdditiveCylinder.md)** with the appropriate **Radius** {{Value|10 mm}} and **Height** {{Value|29.9 mm}} to touch the rest of the helical thread and automatically fuse to it.
 9.  Additional boolean operations are needed to shape up the abrupt ends of the coil. For example, you can use additive features to provide a head to the screw, and a tip.
 
 <img alt="" src=images/T13_08_Threads_Helical_thread_profile.png  style="width:" height="300px;"> <img alt="" src=images/T13_09_Threads_Helical_thread_path.png  style="width:" height="300px;"> 
@@ -176,9 +176,9 @@ A true thread consists of a closed profile sweeping a solid along a helical path
 
 This process can also be done with the tools of the [Part Workbench](Part_Workbench.md).
 
-1.  In the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Primitives.svg style="width:Part Workbench](Part_Workbench.md), click on **[16px"> <img src=images/Part_Helix.svg style="width:Part Primitives](Part_Primitives.md)** to create a **[16px"> [Part Helix](Part_Helix.md)**. Give it the appropriate values for **Pitch** {{Value|3 mm}}, **Height** {{Value|23 mm}}, and **Radius** {{Value|10 mm}}.
-2.  In this case, you don\'t need a **<img src=images/PartDesign_Body.svg style="width:16px"> <img src=images/Sketcher_NewSketch.svg style="width:PartDesign Body](PartDesign_Body.md)**. Switch to the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md), then click **[16px"> [Sketcher New sketch](Sketcher_NewSketch.md)**, and choose the global XZ plane.
-3.  Then return to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_Sweep.svg style="width:Part Workbench](Part_Workbench.md), and use **[16px"> [Part sweep](Part_Sweep.md)**.
+1.  In the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md), click on **[<img src=images/Part_Primitives.svg style="width:16px"> [Part Primitives](Part_Primitives.md)** to create a **[<img src=images/Part_Helix.svg style="width:16px"> [Part Helix](Part_Helix.md)**. Give it the appropriate values for **Pitch** {{Value|3 mm}}, **Height** {{Value|23 mm}}, and **Radius** {{Value|10 mm}}.
+2.  In this case, you don\'t need a **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Body](PartDesign_Body.md)**. Switch to the <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher Workbench](Sketcher_Workbench.md), then click **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher New sketch](Sketcher_NewSketch.md)**, and choose the global XZ plane.
+3.  Then return to the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md), and use **[<img src=images/Part_Sweep.svg style="width:16px"> [Part sweep](Part_Sweep.md)**.
 4.  Select the appropriate sketch from **Available profile** and click the arrow to pass it to **Selected profiles**.
 5.  Click **Sweep path**, and choose all edges of the existing helix in the [3D view](3D_view.md). Click **Done**.
 6.  Make sure to tick {{CheckBox|TRUE|Create solid}} and {{CheckBox|TRUE|Frenet}}. Obtaining a solid is the key to be able to perform [Part Boolean](Part_Boolean.md) operations with the resulting coil, otherwise only a surface will be produced.
@@ -210,7 +210,7 @@ Questo genera la spira del filetto, senza il supporto o il foro. Per effettuare 
 
 </div>
 
--    **Rule 1.**When the profile sweeps the helix, the resulting solid coil must not touch or self-intersect as it will be an invalid solid. This holds for the profile moving along the helix, as well as intersections in the center of the helix. Attempts to do boolean operations with it (fuse or cut) are very likely to fail. Check the quality of the coil with **<img src=images/Part_CheckGeometry.svg style="width:16px"> [[Part CheckGeometry]]**; if self-intersections are reported, you must increase the pitch of the helix.
+-    **Rule 1.**When the profile sweeps the helix, the resulting solid coil must not touch or self-intersect as it will be an invalid solid. This holds for the profile moving along the helix, as well as intersections in the center of the helix. Attempts to do boolean operations with it (fuse or cut) are very likely to fail. Check the quality of the coil with **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [[Part CheckGeometry]]**; if self-intersections are reported, you must increase the pitch of the helix.
 
 <img alt="" src=images/T13_15_Threads_self_intersection.png  style="width:" height="300px;"> <img alt="" src=images/T13_16_Threads_no_self_intersections_OK.png  style="width:" height="300px;">
 
@@ -222,7 +222,7 @@ Regola 1. Lo sweep non deve auto-intersecarsi o toccarsi. Uno sweep auto-interse
 
 </div>
 
--    **Rule 2.**When a cylinder is added to a coil to form the main shaft of a screw, the cylinder must not be tangent to the coil profile. That is, the cylinder must not have the same radius as the inner radius of the thread, as this is very likely to fail a fuse operation. In general, avoid geometry coincident to elements of the sweep, such as tangent faces, or edges tangent to faces they are not connected to. In order to produce a good boolean union, the swept coil and the cylinder must intersect. Check the quality of the fusion with **<img src=images/Part_CheckGeometry.svg style="width:16px"> [[Part CheckGeometry]]**; if coplanar faces are reported increase the cylinder\'s radius by a small amount.
+-    **Rule 2.**When a cylinder is added to a coil to form the main shaft of a screw, the cylinder must not be tangent to the coil profile. That is, the cylinder must not have the same radius as the inner radius of the thread, as this is very likely to fail a fuse operation. In general, avoid geometry coincident to elements of the sweep, such as tangent faces, or edges tangent to faces they are not connected to. In order to produce a good boolean union, the swept coil and the cylinder must intersect. Check the quality of the fusion with **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [[Part CheckGeometry]]**; if coplanar faces are reported increase the cylinder\'s radius by a small amount.
 
 -   If the coil and the cylinder are tangent, even if the first fusion succeeds, it may fail in subsequent boolean operations with a third solid.
 

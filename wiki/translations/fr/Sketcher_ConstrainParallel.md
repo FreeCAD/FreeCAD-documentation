@@ -28,7 +28,7 @@ L\'esquisse contient deux lignes, orientées de façon aléatoire.
 
 Appliquez la contrainte parallèle par :
 
--   Appuyez sur le bouton **<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Contrainte parallèle](Sketcher_ConstrainParallel/fr.md)** dans la barre d\'outils des contraintes de Sketcher en sélectionnant l\'élément de menu Constraint Parallel dans le sous-menu des contraintes de Sketcher du Sketcher (Atelier d\'esquisse sélectionné) ou élément de menu Part Design (Atelier de Part Design sélectionné).
+-   Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainParallel.svg style="width:16px"> [Contrainte parallèle](Sketcher_ConstrainParallel/fr.md)** dans la barre d\'outils des contraintes de Sketcher en sélectionnant l\'élément de menu Constraint Parallel dans le sous-menu des contraintes de Sketcher du Sketcher (Atelier d\'esquisse sélectionné) ou élément de menu Part Design (Atelier de Part Design sélectionné).
 -   Utilisez le raccourci clavier **Shift** + **P**.
 -   Utilisez l\'entrée **Sketch → Contraintes d'esquisse → Contrainte parallèle** dans le menu supérieur.
 

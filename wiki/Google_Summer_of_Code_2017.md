@@ -65,7 +65,7 @@ The ideas listed here have a high chance of being accepted as project proposal. 
 | [GSoC Path/Robot Integration](GSoC_Path/Robot_Integration.md): Path is the CNC/CAM workbench. It currently lacks any simulation capability. Robot workbench is a tool for simulating industrial robots. Extend Path and Robot workbenches to support simulation of CNC operations in the Robot workbench. | C++, Python             | Easy-Medium | Medium   | [Yorik](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=68), [sliptonic](https://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=708) |
 +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------------------------+-------------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-_
+[<img src="images/Property.png" style="width:16px"> Google Summer of Code](Category_Google_Summer_of_Code.md)
 
 ---
 [documentation index](../README.md) > Google Summer of Code 2017

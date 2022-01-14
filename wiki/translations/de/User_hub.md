@@ -14,7 +14,7 @@ FreeCAD wird ständig weiterentwickelt, so dass es zu fehlenden oder veralteten 
 
 </div>
 
-Wenn Du zu FreeCAD beitragen möchtest, _ für die allgemeinen Richtlinien, die Du befolgen solltest.
+Wenn Du zu FreeCAD beitragen möchtest, [spende](donate/de.md) bitte und lies die [Hilf FreeCAD](Help_FreeCAD.md) Seite für andere Möglichkeiten, einen Beitrag zu leisten. Wenn Du dieses Wiki bearbeiten möchtest, fordere ein Wiki Konto mit Bearbeiterberechtigungen an [im Forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), und lies die [Wiki Seiten](WikiPages/de.md) für die allgemeinen Richtlinien, die Du befolgen solltest.
 
 Wenn du erfahren möchtest, wie FreeCAD vor Jahren begann, besuche die Seite [Geschichte](History/de.md).
 
@@ -36,7 +36,7 @@ Siehe auch:
 
 ### Grundlegende Anwendung 
 
--   _, der [Baumansicht](Tree_view/de.md), dem [Eigenschaftseditor](Property_editor/de.md), der [Aufgabenleiste](Task_panel/de.md) und der [Python Konsole](Python_console/de.md).
+-   [Benutzeroberfläche](Interface/de.md): Die FreeCAD Benutzeroberfläche besteht aus verschiedenen grafischen Elementen auf dem Bildschirm, darunter der [3D Ansicht](3D_view/de.md), der [Baumansicht](Tree_view/de.md), dem [Eigenschaftseditor](Property_editor/de.md), der [Aufgabenleiste](Task_panel/de.md) und der [Python Konsole](Python_console/de.md).
 -   [Mausnavigation](Mouse_navigation/de.md): die verschiedenen Arten der Verwendung der Maus oder des Trackpads zur Navigation in der 3D Ansicht.
 -   [Auswahlmethoden](Selection_methods/de.md): den unterschiedlichen Methoden zur Auswahl von Objekten im Programm.
 -   [Objektname](Object_name/de.md): alle Objekte haben einen einzigartigen `Namen` der sie identifiziert und eine `Beschriftung` die vom Anwender bearbeitet werden kann.
@@ -127,7 +127,7 @@ Dies ist die offizielle FreeCAD Online Hilfe. Bitte beachte, dass das gesamte On
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
 [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/de

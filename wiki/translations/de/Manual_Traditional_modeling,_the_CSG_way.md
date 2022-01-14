@@ -12,7 +12,7 @@
 
 CSG steht für [Konstruktive Festkörpergeometrie](https://de.wikipedia.org/wiki/Constructive_Solid_Geometry) (engl.: Constructive Solid Geometry) und beschreibt den grundlegendsten Weg, mit 3D Volumenkörpergeometrie zu arbeiten, nämlich die Erstellung komplexer Objekte durch Hinzufügen und Entfernen von Teilen zu/von Volumenkörpern mit Hilfe boolescher Operationen wie Vereinigung, Subtraktion oder Schnittmenge.
 
-Wie wir bereits früher in diesem Handbuch gesehen haben, kann FreeCAD viele Arten von Geometrie handhaben, aber die bevorzugte und nützlichste Art für die Art von 3D Objekten, die wir mit FreeCAD entwerfen wollen, d.h. Objekte aus der realen Welt, ist zweifellos die Festkörpergeometrie _ gehandhabt wird. Im Gegensatz zu [Polygonnetze](https://en.wikipedia.org/wiki/Polygon_mesh), die nur aus Punkten und Dreiecken bestehen, sind die Flächen von BREP Objekten durch mathematische Kurven definiert, was eine absolute Präzision unabhängig vom Maßstab ermöglicht.
+Wie wir bereits früher in diesem Handbuch gesehen haben, kann FreeCAD viele Arten von Geometrie handhaben, aber die bevorzugte und nützlichste Art für die Art von 3D Objekten, die wir mit FreeCAD entwerfen wollen, d.h. Objekte aus der realen Welt, ist zweifellos die Festkörpergeometrie [Boundary Representation BREP](https://de.wikipedia.org/wiki/Boundary_Representation), die hauptsächlich vom [Part Arbeitsbereich](Part_Workbench/de.md) gehandhabt wird. Im Gegensatz zu [Polygonnetze](https://en.wikipedia.org/wiki/Polygon_mesh), die nur aus Punkten und Dreiecken bestehen, sind die Flächen von BREP Objekten durch mathematische Kurven definiert, was eine absolute Präzision unabhängig vom Maßstab ermöglicht.
 
 ![](images/Mesh_vs_brep.jpg )
 
@@ -94,7 +94,7 @@ Beachte, dass wir die Beine 10 mm entfernt platziert haben, obwohl sie nur 8 mm 
 
 Nachdem unsere fünf Teile fertig sind, ist es Zeit, ihnen bessere Bezeichnungen zu geben als \"Cut015\". Durch rechtklicken der Objekte in der Baumansicht (oder Drücken von **F2**) kannst Du sie in etwas umbenennen, was für Dich oder eine andere Person, die die Datei später öffnet, aussagekräftiger ist. Es wird oft gesagt, dass das Vergeben von sinnvollen Namen für die Objekte viel wichtiger ist als sie zu modellieren.
 
--   Wir werden nun ein paar Schrauben anbringen. Es gibt heutzutage eine extrem nützliche Erweiterung, das von einem Mitglied der FreeCAD Gemeinschaft entwickelt wurde, das Du im _ beschrieben.
+-   Wir werden nun ein paar Schrauben anbringen. Es gibt heutzutage eine extrem nützliche Erweiterung, das von einem Mitglied der FreeCAD Gemeinschaft entwickelt wurde, das Du im [FreeCAD addons](https://github.com/FreeCAD/FreeCAD-addons) Repositorium findest, [Fasteners](https://github.com/shaise/FreeCAD_FastenersWB) genannt, welches das Einfügen von Schrauben sehr vereinfacht. Das Installieren von zusätzlichen Arbeitsbereichen ist einfach und auf den [Erweiterungsseiten ](Std_AddonMgr/de.md) beschrieben.
 -   Sobald Du den Arbeitsbereich Verbindungselemente installiert und FreeCAD erneut gestartet hast, wird er in der Arbeitsbereichliste erscheinen und wir können dorthin wechseln. Das Hinzufügen einer Schraube zu einem unserer Löcher erfolgt zuerst durch Auswählen der Kreislinie unseres Loches:
 
 ![](images/Exercise_table_07.jpg )
@@ -110,7 +110,7 @@ Nachdem unsere fünf Teile fertig sind, ist es Zeit, ihnen bessere Bezeichnungen
 Wie wir oben gesehen haben, ist es in FreeCAD möglich, nicht ganze Objekte auszuwählen, sondern auch Teile davon, wie z.B. die Kreislinie unseres Schraubenlochs. Dies ist eine gute Gelegenheit, um einen schnellen Blick darauf zu werfen, wie Part-Objekte intern konstruiert sind. Jeder Arbeitsbereich, mit dem Part-Geometrien erstellt werden können, besteht aus:
 
 -   **Eckpunkten**: Dies sind Punkte (normalerweise Endpunkte), auf denen der Rest aufgebaut ist. Zum Beispiel hat eine Linie zwei Eckpunkte.
--   **Kanten**: Die Kanten sind lineare Geometrien wie Linien, Kreisbögen, Ellipsen oder _ Kurven. Sie haben normalerweise zwei Eckpunkte, aber in einigen speziellen Fällen nur eine (ein geschlossener Kreis beispielsweise).
+-   **Kanten**: Die Kanten sind lineare Geometrien wie Linien, Kreisbögen, Ellipsen oder [https://de.wikipedia.org/wiki/Non-Uniform\_Rational\_B-Spline nurbs](https://de.wikipedia.org/wiki/Non-Uniform_Rational_B-Spline_nurbs.md) Kurven. Sie haben normalerweise zwei Eckpunkte, aber in einigen speziellen Fällen nur eine (ein geschlossener Kreis beispielsweise).
 -   **Drähte**: Ein Draht ist eine Reihe von Kanten, die durch ihre Endpunkt verbunden sind. Er kann Kanten jedes Typs enthalten und geschlossen sind oder nicht.
 -   **Flächen**: Flächen können plan oder gewölbt sein und durch einen geschlossenen Draht geformt werden, der die Grenze der Fläche bildet, oder mehr als einen, falls die Fläche Löcher hat.
 -   **Hüllen**: Hüllen sind einfach eine Gruppe von Flächen, die an ihren Kanten verbunden sind. Sie können offen oder geschlossen sein.
@@ -142,7 +142,7 @@ Du könntest den Tisch ansehen und denken, dass das Design nicht gut ist. Die Ve
 
 </div>
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional modeling, the CSG way/de

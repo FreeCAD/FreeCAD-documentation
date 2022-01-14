@@ -84,13 +84,13 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 
 ## Objetos soportados 
 
-### <img alt="" src=images/Draft_Line.svg  style="width:24px;"> _ 
+### <img alt="" src=images/Draft_Line.svg  style="width:24px;"> [Borrador Línea](Draft_Line/es.md) and <img alt="" src=images/Draft_Wire.svg  style="width:24px;"> [Borrador Hilo](Draft_Wire/es.md) 
 
 -   Si el nodo inicial o final de un cable abierto se mueve de forma que coincidan, el cable se cierra.
 -   Menú contextual del nodo: {{Value|borrar punto}}. Deben quedar al menos dos puntos.
 -   Menú contextual de la arista: {{Value|añadir punto}}, {{Value|invertir cable}} ({{Version/es|0.20}}).
 
-### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> _ 
+### <img alt="" src=images/Draft_Arc.svg  style="width:24px;"> [Borrador Arco](Draft_Arc/es.md) y <img alt="" src=images/Draft_Arc_3Points.svg  style="width:24px;"> [Borrador Arco 3Puntos](Draft_Arc_3Points/es.md) 
 
 
 <div class="mw-translate-fuzzy">
@@ -126,7 +126,7 @@ Los atajos de teclado de un solo carácter mencionados aquí pueden ser cambiado
 -   Menú contextual del nodo: {{Value|borrar punto}}. Para una spline abierta deben quedar al menos dos puntos. Para una spline cerrada el número mínimo de puntos es de tres.
 -   Menú contextual de la arista: {{Value|añadir punto}}.
 
-### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> _ 
+### <img alt="" src=images/Draft_CubicBezCurve.svg  style="width:24px;"> [Borrador CúbicaBezCurva](Draft_CubicBezCurve/es.md) y <img alt="" src=images/Draft_BezCurve.svg  style="width:24px;"> [Borrador BezCurva](Draft_BezCurve/es.md) 
 
 -   If the start or end node of an open curve is moved so that they coincide, the curve is closed.
 -   Node context menu: {{Value|make sharp}}, {{Value|make tangent}}, {{Value|make symmetric}} and {{Value|delete point}}.
@@ -202,7 +202,7 @@ Ver también: [Editor de preferencias](Preferences_Editor/es.md) y [Borrador Pre
 
 ## Guión
 
-Ver también: _.
+Ver también: [Documentación de la API autogenerada](https://freecad.github.io/SourceDoc/) y [Fundamentos de FreeCAD Guión](FreeCAD_Scripting_Basics/es.md).
 
 No hay ningún método en Python para editar borradores de objetos. Para emular los resultados del comando hay que modificar las propiedades geométricas de los objetos.
 

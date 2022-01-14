@@ -8,7 +8,7 @@ Si vous n'êtes pas impliqué dans le développement discuté ici :<br>
 
 {{TOCright}}
 
-Cette page est une transition du code FreeCAD dans _.
+Cette page est une transition du code FreeCAD dans [GIT](http://fr.wikipedia.org/wiki/Git) pour un modèle de développement plus apte. Il suit les règles de la [démarche d\'organisation personnelle](http://fr.wikipedia.org/wiki/Getting_Things_Done). Les projets sont collectés dans la [feuille de route](Development_roadmap/fr.md).
 
 ## But et principes 
 
@@ -67,7 +67,7 @@ Les règles décidées et les informations sont sur décrites sur le document [F
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > FreeCAD development model project/fr

@@ -32,7 +32,7 @@ La herramienta **Simetría** realiza una operación de simetría o espejo sobre 
 Para crear una simetría:
 
 1.  Seleccionar la forma o formas que se desea hacer simétricas. {{Version/es|0.19}}
-2.  Pulsar el botón **<img src=images/PartDesign_Mirrored.svg style="width:24px"> '''Crear una operación simétrica'''** .
+2.  Pulsar el botón **[<img src=images/PartDesign_Mirrored.svg style="width:24px"> '''Crear una operación simétrica'''** .
 3.  Si se va a realizar la operación con varias formas, el orden de las mismas puede ser importante, ver un ejemplo de imagen en [PartDesign PolarPattern](PartDesign_PolarPattern#Usage.md). {{Version/es|0.19}} Se puede cambiar el orden arrastrando la forma deseada en la lista e inmediatamente se puede apreciar el resultado como vista previa.
 4.  Definir el **Plano** de simetría. Ver [Opciones](#Options/es.md).
 5.  Presionar **OK** para confirmar.

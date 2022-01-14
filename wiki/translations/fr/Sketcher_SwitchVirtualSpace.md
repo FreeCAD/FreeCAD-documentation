@@ -18,12 +18,12 @@ FreeCAD Sketcher comporte deux espaces virtuels sur lesquels des contraintes peu
 Pour déplacer des contraintes vers l\'autre espace virtuel:
 
 1.  Sélectionnez les contraintes que vous souhaitez déplacer.
-2.  Appuyez sur le bouton **<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px"> [Basculer l'espace virtuel](Sketcher_SwitchVirtualSpace/fr.md)**.
+2.  Appuyez sur le bouton **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px"> [Basculer l'espace virtuel](Sketcher_SwitchVirtualSpace/fr.md)**.
 
 Pour changer d\'espace virtuel:
 
 1.  Vérifiez qu\'aucune contrainte n\'est sélectionnée.
-2.  Appuyez sur le bouton **<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px"> [Basculer l'espace virtuel](Sketcher_SwitchVirtualSpace/fr.md)**.
+2.  Appuyez sur le bouton **[<img src=images/Sketcher_SwitchVirtualSpace.svg style="width:16px"> [Basculer l'espace virtuel](Sketcher_SwitchVirtualSpace/fr.md)**.
 
 
 **Remarque:**

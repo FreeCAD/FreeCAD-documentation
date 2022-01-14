@@ -38,7 +38,7 @@ Auf den meisten modernen Linux Distributionen (Ubuntu, Fedora, openSUSE, Debian,
 
 **Alternative Wege**
 
-Eine der großen Freuden bei der Verwendung von Linux ist die Vielzahl an Möglichkeiten zur Anpassung deiner Software, also schränke dich nicht ein. Unter Ubuntu und Derivaten kann FreeCAD auch von einem _.
+Eine der großen Freuden bei der Verwendung von Linux ist die Vielzahl an Möglichkeiten zur Anpassung deiner Software, also schränke dich nicht ein. Unter Ubuntu und Derivaten kann FreeCAD auch von einem [PPA](https://launchpad.net/~freecad-maintainers) installiert werden, das von der FreeCAD Gemeinschaft betreut wird (es enthält sowohl stabile als auch Entwicklungsversionen). Auf Fedora können aktuelle Entwicklungsversionen von FreeCAD von [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/) installiert werden, und da es sich um Open Source Software handelt, kannst du auch einfach [Kompiliere FreeCAD selbst](Compiling/de.md).
 
 ### Installation unter Mac OS 
 
@@ -60,11 +60,11 @@ Hoffentlich willst du FreeCAD nicht deinstallieren, aber es ist gut zu wissen, w
 Sobald FreeCAD installiert ist, möchtest du es vielleicht öffnen und einige Einstellungen ändern. Die Einstellungen in FreeCAD befinden sich im Menü **Bearbeiten → Einstellungen**. Im Folgenden sind einige grundlegende Einstellungen aufgelistet, die du eventuell ändern möchtest; Du kannst durch die Einstellungsseiten blättern, um zu sehen, ob es noch etwas anderes gibt, das du ändern möchtest.
 
 1.  **Sprache**\': (Kategorie *Allgemein*, Reiter *Allgemein*) FreeCAD wählt automatisch die Sprache deines Betriebssystems aus, aber vielleicht möchtest du das ändern. FreeCAD ist fast vollständig in fünf oder sechs Sprachen übersetzt; andere sind derzeit nur teilweise übersetzt. Du kannst einfach [Hilf bei der Übersetzung von FreeCAD](https://crowdin.com/project/freecad). ![](images/Freecad-basic-options01.jpg )
-2.  **Auto-Lademodul**: (Kategorie *Allgemein*, Reiter *Allgemein*) Normalerweise zeigt FreeCAD zunächst die Startseite an. Du kannst dies überspringen und eine FreeCAD Sitzung direkt im Arbeitsbereich deiner Wahl starten, die unter *Startup*, *Auto-Lademodul nach dem Start* aufgelistet ist. _ erklärt.
+2.  **Auto-Lademodul**: (Kategorie *Allgemein*, Reiter *Allgemein*) Normalerweise zeigt FreeCAD zunächst die Startseite an. Du kannst dies überspringen und eine FreeCAD Sitzung direkt im Arbeitsbereich deiner Wahl starten, die unter *Startup*, *Auto-Lademodul nach dem Start* aufgelistet ist. [Workbenches/de](Workbenches/de.md) wird ausführlich im [nächstes Kapitel](Manual:The_FreeCAD_Interface/de.md) erklärt.
 3.  **Erstelle neues Dokument beim Start**: (Kategorie *Allgemein*, Reiter *Dokument*) Kombiniert mit der *Auto-Lademodul* Option oben, wenn diese angehakt ist, startet FreeCAD betriebsbereit. ![](images/Freecad-basic-options02.jpg )
 4.  **Speicheroptionen**: (Kategorie *Allgemein*, Reiter *Dokument*) Wie jede komplexe Anwendung enthält FreeCAD wahrscheinlich Fehler, die es gelegentlich zum Absturz bringen. Hier kannst Du Optionen konfigurieren, die dir helfen, deine Arbeit im Falle eines Absturzes wiederherzustellen.
 5.  **Autor und Lizenz**: (Kategorie *Allgemein*, Reiter *Dokument*) Hier stellst du die Werte ein, die für neue Dateien, die du erstellst, verwendet werden sollen. Berücksichtige, deine Dateien von Anfang an tauschbar zu machen, indem du eine benutzerfreundlichere [copyleft](https://en.wikipedia.org/wiki/Copyleft) Lizenz wie [Creative Commons](https://creativecommons.org/) verwendest.
-6.  **Interne Python Meldungen umleiten**: (Kategorie *Allgemein*, Reiter *Ausgabefenster*) Es ist immer gut diese beiden Optionen anzuhaken, da sie dazu führen, dass Meldungen des internen Python Interpreters im _ angezeigt werden, wenn es ein Problem beim Ausführen eines Python Skripts gibt. ![](images/Freecad-basic-options03.jpg )
+6.  **Interne Python Meldungen umleiten**: (Kategorie *Allgemein*, Reiter *Ausgabefenster*) Es ist immer gut diese beiden Optionen anzuhaken, da sie dazu führen, dass Meldungen des internen Python Interpreters im [Ausgabefenster](Manual:The_FreeCAD_Interface#Report_view.md) angezeigt werden, wenn es ein Problem beim Ausführen eines Python Skripts gibt. ![](images/Freecad-basic-options03.jpg )
 7.  **Einheiten**: (Kategorie *Allgemein*, Reiter *Einheiten*) Hier kannst du das Standard Einheitensystem einstellen, das du verwenden möchtest. ![](images/Freecad-basic-options04.jpg )
 8.  \'\'\'Zoom am Mauszeiger \'\'\': (Kategorie *Anzeige* , Reiter *3D*) Wenn gesetzt, werden Zoomoperationen am Mauszeiger fokussiert. Wenn nicht gesetzt, ist das Zentrum der aktuellen Ansicht der Zoom Fokus.
 9.  **Zoom umkehren**: (Kategorie *Anzeige* , Reiter *3D*) Kehrt die Richtung des Zooms relativ zur Mausbewegung um. ![](images/FreeCAD-v0-18-Preferences-Display.png )
@@ -81,7 +81,7 @@ Da das FreeCAD Projekt und seine Gemeinschaft schnell wächst, und auch weil es 
 
 1.  Eine [Teilebibliothek](https://github.com/FreeCAD/FreeCAD-library), die alle Arten von nützlichen Modellen oder Modellteilen enthält, die von FreeCAD Anwendern erstellt wurden und in deinen Projekten frei verwendet werden kann. Die Bibliothek kann direkt aus deiner FreeCAD Installation heraus verwendet und aufgerufen werden.
 2.  [Zusätzliche Arbeitsbereiche](https://github.com/FreeCAD/FreeCAD-addons), die die Funktionalität von FreeCAD für bestimmte Aufgaben erweitern, z.B. für die Animation von Teilen deiner Modelle oder Bereichen, wie z.B. Blechbiegen oder BIM. Weitere Erläuterungen zu den einzelnen Arbeitsbereichen und den darin enthaltenen Werkzeugen findest du auf jeder Addon Seite, die du durch einen Klick auf den entsprechenden Link im Addon Manager aufrufen kannst.
-3.  Eine _ zusammen mit einer Dokumentation über deren Verwendung verfügbar sind.
+3.  Eine [Sammlung von Makros](https://github.com/FreeCAD/FreeCAD-macros), die auch [im FreeCAD-Wiki](Macros_recipes/de.md) zusammen mit einer Dokumentation über deren Verwendung verfügbar sind.
 
 <img alt="" src=images/FreeCAD-addon-manager01.jpg  style="width:800px;">
 
@@ -100,7 +100,7 @@ Wenn du das Ubuntu Betriebssystem benutzt, sind einige der oben genannten Addons
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Manual:Installing/de

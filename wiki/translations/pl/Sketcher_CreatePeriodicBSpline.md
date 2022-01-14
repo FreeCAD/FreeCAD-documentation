@@ -21,7 +21,7 @@ This tool traces a periodic (closed) B-spline curve from its control points. (Se
 
 ## Usage
 
-1.  Press the **<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)** button.
+1.  Press the **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Periodic B-spline](Sketcher_CreatePeriodicBSpline.md)** button.
 2.  Create a series of points by clicking in the 3D view. While the command is active, the created points are connected with straight lines, and a construction circle is created centred on each point.
 3.  Pick the first curve point, or right-click to terminate the input and generate the curve.
 4.  Depending on preferences, the tool may remain active to trace a new curve. Right-click again to exit the command.

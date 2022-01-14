@@ -8,7 +8,7 @@ This is the main help area for newcomers to FreeCAD.
 
 FreeCAD is in continuous development, so there may be missing or outdated information. If you cannot find the information that you need, don\'t hesitate to ask in the [FreeCAD forum](https://forum.freecadweb.org).
 
-If you\'d like to contribute to FreeCAD, please _ for the general guidelines that you should follow.
+If you\'d like to contribute to FreeCAD, please [donate](donate.md), and see the [Help FreeCAD](Help_FreeCAD.md) page for other ways to contribute. If you\'d like to edit this wiki, request a wiki account with editor permissions [in the forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830), and read the [WikiPages](WikiPages.md) for the general guidelines that you should follow.
 
 If you would like to know how FreeCAD started years ago visit the [History](History.md) page.
 
@@ -30,7 +30,7 @@ See also:
 
 ### Basic application 
 
--   _, the [tree view](Tree_view.md), the [property editor](Property_editor.md), the [task panel](Task_panel.md), and the [Python console](Python_console.md).
+-   [Interface](Interface.md): the FreeCAD interface is composed of various graphical elements on the screen, including the [3D view](3D_view.md), the [tree view](Tree_view.md), the [property editor](Property_editor.md), the [task panel](Task_panel.md), and the [Python console](Python_console.md).
 -   [Mouse navigation](Mouse_navigation.md): the different types of using the mouse or trackpad to navigate in the 3D view.
 -   [Selection methods](Selection_methods.md): the different methods of selecting objects in the software.
 -   [Object name](Object_name.md): all objects have a read-only `Name` that uniquely identifies them, and a `Label` which is user editable.
@@ -119,7 +119,7 @@ This is the official FreeCAD online help. Please note that the whole online help
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
 [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub

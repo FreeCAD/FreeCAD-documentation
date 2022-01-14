@@ -5,19 +5,19 @@
 
 Los tutoriales que se enumeran aquí son los que tratan sobre el diseño de habitaciones, casas y otros edificios que interesan a los arquitectos e ingenieros civiles. Para otros temas, consulte la página general [video tutoriales](video_tutorials/es.md).
 
-Visite _.
+Visite [tutoriales](tutorials/es.md) para obtener tutoriales escritos de alta calidad. Puedes encontrar una lista completa y sin clasificar de tutoriales en [:<img src="images/Property.png" style="width:16px"> Tutorials](:Category_Tutorials.md).
 
 ## Diseño arquitectónico 
 
-Vídeos que recorren el modelado de habitaciones, casas, edificios de oficinas y estructuras similares, y el dibujo de planos de planta, utilizando ambiente de trabajo como <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _, y <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/es.md).
+Vídeos que recorren el modelado de habitaciones, casas, edificios de oficinas y estructuras similares, y el dibujo de planos de planta, utilizando ambiente de trabajo como <img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Borrador](Draft_Workbench/es.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> y [Arch](Arch_Workbench/es.md), y <img alt="" src=images/Workbench_BIM.svg  style="width:24px;"> [BIM](BIM_Workbench/es.md).
 
--   _ tiene varias listas en FreeCAD para el modelado de edificios así como para la arquitectura general.
+-   [Listas de reproducción de Yorik van Havre](https://www.youtube.com/user/yorikvanhavre/playlists): el desarrollador principal de [Ambiente de trabajo Arch](Arch_Workbench/es.md) tiene varias listas en FreeCAD para el modelado de edificios así como para la arquitectura general.
     -   [Presentación del Arch Workbench de FreeCAD](https://www.youtube.com/watch?v=lTDOeHapv_E): FreeCAD 0.16, presentación para \#ODC2016PN.
     -   [BIM con FreeCAD - Introducción](https://www.youtube.com/watch?v=rkWOFQ2fGZQ): introducción general a FreeCAD 0.17.
     -   [BIM con FreeCAD](https://www.youtube.com/watch?v=QhDMhYvxPO4&list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU): FreeCAD 0.17 a 0.19, videos generales sobre el BIM y el Arch Ambiente de trabajo, incluyendo la instalación, la construcción de paredes, ventanas, el uso de objetos 2D y expresiones.
     -   [Pabellón de Barcelona](https://www.youtube.com/watch?v=N9K9YJxroc4&list=PLmKdGVtV5VnuE5U75CEORkjlVK_nzQQUh): FreeCAD 0.18 y 0.19, una serie de 17 videos que describen el modelado del \"Pabellón de Barcelona\" (o \"Pabellón Alemán\"), un edificio de Barcelona diseñado por Ludwig Mies van der Rohe y Lilly Reich en 1929. Los vídeos muestran la importación de la geometría desde un archivo DXF, y luego pasan a dibujar las paredes, las ventanas, los paneles de vidrio, los elementos estructurales y los techos, las baldosas del suelo, el terreno, las bases y las escaleras. Luego muestra cómo exportar el modelo a IFC, cómo crear proyecciones 2D en TechDraw, cómo trabajar con cantidades y horarios, y finalmente cómo crear una vista renderizada del proyecto en Blender.
 
--   _.
+-   [Experiencia de Arch ambiente de trabajo: Nuevo flujo de trabajo](https://forum.freecadweb.org/viewtopic.php?f=36&t=44475): una serie de videos de jpg87, alojados en su propia web, que enseñan a los usuarios a modelar paredes, techos y ventanas y puertas en diferentes posiciones, con la ayuda de [Croquis](sketch/es.md).
 
 -   [Regis Nde Tene\'s playlists](https://www.youtube.com/user/RegisBBNT/playlists): varios videos sobre modelado arquitectónico usando Blender y FreeCAD, por Regis Nde Tene, en inglés y francés.
     -   [FreeCAD Tuts](https://www.youtube.com/watch?v=dVY0nz1_vsc&list=PLDd21g-eSHwkkxVOfVmR8ObpPN5QbL7ye): una serie de 16 vídeos que cubren una amplia gama de aspectos del modelado de la Arquitectura, incluyendo la creación de planos en 2D, el modelado en 3D, el uso de restricciones, anotaciones, espacios en arco, barras de refuerzo, la exportación a PDFs, la realización de muros cortina, el uso de un sistema de ejes, la creación de un muro multicapa, la creación de un revestimiento de pared y el diseño de un gabinete.
@@ -32,7 +32,7 @@ Vídeos que recorren el modelado de habitaciones, casas, edificios de oficinas y
 -   [Listas de reproducción de Tutoriales de Eklavya Self Learning](https://www.youtube.com/user/cnirbhay/playlists): varios videos sobre el uso de FreeCAD, particularmente enfocados en el uso de la arquitectura y la ingeniería civil, por Tutoriales de Autoaprendizaje de Eklavya.
     -   [Curso de modelado arquitectónico BIM usando FreeCAD](https://www.youtube.com/watch?v=TyhRc1z616E&list=PL1Fv0Kg44dc3oWoFMEBXT5xjvk9AsWnLW): FreeCAD 0.16, una serie de 11 vídeos que muestran cómo modelar un edificio, incluyendo la creación de una losa, paredes externas, puertas, ventanas, paredes internas, suelos, techos, añadiendo colores y materiales, y haciendo rendering.
     -   [Tutoriales de FreeCAD](https://www.youtube.com/watch?v=wAJe1R5NDGw&list=PL1Fv0Kg44dc0rUv54ovSRMNyp-jtXlx0e): FreeCAD 0.16, una serie de 18 videos que tratan sobre varios temas arquitectónicos como el dimensionamiento de estructuras, la creación de armaduras, el análisis de estructuras, la interoperabilidad entre FreeCAD y Blender, y Revit, la creación de estructuras tubulares, la creación de un terreno curvo, el uso de datos geográficos y la creación de planos arquitectónicos en 2D.
-    -   _.
+    -   [FreeCAD FEM/Civil/Structural/Arch Tutorial-1-An Introduction](https://www.youtube.com/watch?v=wAJe1R5NDGw): FreeCAD 0.16, e introducción que construye una estructura simple de pilares y vigas, y las analiza con el [Ambiente de trabajo MEF](FEM_Workbench/es.md).
 
 -   [Un proyecto Arch con código abierto](https://www.youtube.com/watch?v=KaojKTwXMs8): un proyecto de casa y análisis de energía con FreeCAD, Blender 3D, y VI Suite, por Green Hub (sergiobini), [Parte 1](https://www.youtube.com/watch?v=KaojKTwXMs8), [Parte 2](https://www.youtube.com/watch?v=m8bQFKL5bYQ).
 

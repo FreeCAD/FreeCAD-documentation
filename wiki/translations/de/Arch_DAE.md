@@ -1,5 +1,5 @@
 # Arch DAE/de
-Das _ kann Netze aus .dae-Dateien importieren und Arch- und andere [Shape](Part_Workbench/de.md)-basierte Objekte ins .dae-Format exportieren.
+Das [Collada (DAE)](https://en.wikipedia.org/wiki/COLLADA)-Format ist ein Standarddateiformat für den Austausch von Netz-Daten. Der [Arch-Arbeitsbereich](Arch_Workbench/de.md) kann Netze aus .dae-Dateien importieren und Arch- und andere [Shape](Part_Workbench/de.md)-basierte Objekte ins .dae-Format exportieren.
 
 Beachte, dass importierte Objekte [Netz](Mesh_Workbench/de.md)-Objekte sein werden und für optimale Nutzung in [Formteile](Shape/de.md) oder Arch-Objekte umgewandelt werden müssen. Der [Arch-Arbeitsbereich](Arch_Workbench/de.md) hat verschiedene Werkzeuge, die Dir dabei helfen.
 
@@ -15,7 +15,7 @@ Die Collada-Importfunktionalität im Arch-Arbeitsbereich hängt von [pycollada](
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> File Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch DAE/de

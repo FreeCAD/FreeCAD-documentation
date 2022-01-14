@@ -172,7 +172,7 @@ ToolBar icon ![](images/Macro_FCConvertLines.png )
 
 ## Exemples
 
-Exemple dot, dash dot, dash dot, dash dot dot _  Exemple hand, zigzag _  Exemple hand _  Exemple hand (manuel) peut créer un belle sinusoïde ou une ligne totalement anarchique _ 
+Exemple dot, dash dot, dash dot, dash dot dot [center\|500px ](File:Macro_FCConvertLines_11b.png.md)  Exemple hand, zigzag [center\|500px ](File:Macro_FCConvertLines_11.png.md)  Exemple hand [center\|500px ](File:Macro_FCConvertLines_012.png.md)  Exemple hand (manuel) peut créer un belle sinusoïde ou une ligne totalement anarchique [center\|500px ](File:Macro_FCConvertLines_013.png.md) 
 
 Exemple de conversion d\'un objet ShapeString en objet Sketch (la conversion de courbes n\'est pas (encore) possible) d\'un Shape en Sketch
 

@@ -98,7 +98,7 @@ These are tools to improve your TechDraw drawings.
 
 -   <img alt="" src=images/TechDraw_ExtensionDecreaseDecimal.svg  style="width:32px;"> [Decrease decimals](TechDraw_ExtensionDecreaseDecimal.md): decreases the number of decimal places of the dimension text. <small>(v0.20)</small> 
 
-_
+[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
 
 ---
 [documentation index](../README.md) > Sandbox:Roy 043

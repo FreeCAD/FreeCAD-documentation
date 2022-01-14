@@ -18,7 +18,7 @@
 
 ### Przepływ pracy pa podstawie okienka dialogowego 
 
-1.  Naciśnij przycisk **<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Odejmowanie wyciągnięciem przez profile](PartDesign_SubtractiveLoft/pl.md)**.
+1.  Naciśnij przycisk **[<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Odejmowanie wyciągnięciem przez profile](PartDesign_SubtractiveLoft/pl.md)**.
 2.  W oknie dialogowym **Wybierz cechę** wybierz szkic, który ma być użyty jako obiekt profilu bazowego i kliknij na przycisk **OK**.
     -   Alternatywnie można wybrać pojedynczy szkic lub ścianę obiektu 3D ({{Version/pl|0.20}}) przed naciśnięciem przycisku wyciągnięcia.
 3.  W sekcji **Parametry wyciągnięcia przez profile** naciśnij przycisk **Dodaj sekcję profilu**.
@@ -34,7 +34,7 @@
     -   Szkic wybrany jako pierwszy stanie się obiektem profilu bazowego w następnym kroku
     -   Szkice wybrane po pierwszym staną się profilami wyciągnięcia. Również tutaj ważna jest kolejność wyboru: szkic wybrany jako drugi stanie się pierwszą sekcją wyciągnięcia, szkic wybrany jako trzeci stanie się drugą sekcją itd. *(Kolejność sekcji można zmienić w dowolnym momencie później, w oknie dialogowym wyciągnięcia, przeciągając sekcje z listy na żądaną pozycję)*. {{Version/pl|0.19}}
     -   Pierwszy lub ostatni wybór może być również ścianą obiektu 3D *({{Version/pl|0.20}})*.
-2.  Naciśnij przycisk **<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Odejmowanie wyciągnięciem przez profile](PartDesign_SubtractiveLoft/pl.md)**.
+2.  Naciśnij przycisk **[<img src=images/PartDesign_SubtractiveLoft.svg style="width:24px"> [Odejmowanie wyciągnięciem przez profile](PartDesign_SubtractiveLoft/pl.md)**.
 3.  Ustaw opcje, jeśli potrzebujesz i kliknij **OK**.
 
 ## Opcje
@@ -69,7 +69,7 @@
 
 ## Odnośniki internetowe 
 
--   Artykuł _ jest tworzone, duża część jego zawartości jest odpowiednia dla omawianej funkcji.
+-   Artykuł [Szczegóły techniczne wyciągnięcia przez profile](Part_Loft_Technical_Details/pl.md) wyjaśnia jak [Część: Odejmowanie wyciągnięciem przez profile](Part_Loft/pl.md) jest tworzone, duża część jego zawartości jest odpowiednia dla omawianej funkcji.
 
 
 

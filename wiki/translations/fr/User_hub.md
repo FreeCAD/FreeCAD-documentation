@@ -8,7 +8,7 @@ Cette zone est la source d\'aide principale pour les nouveaux utilisateurs de Fr
 
 FreeCAD est en développement continu, il peut donc y avoir des informations manquantes ou périmées. Si vous ne trouvez pas l\'information dont vous avez besoin, n\'hésitez pas à la demander sur le [forum FreeCAD](https://forum.freecadweb.org).
 
-Si vous voulez apporter votre contribution à FreeCAD, vous pouvez _ pour les règles générales à suivre.
+Si vous voulez apporter votre contribution à FreeCAD, vous pouvez [faire un don](donate.md) ou rendez-vous sur la page [Aider FreeCAD](Help_FreeCAD/fr.md) pour d\'autres moyens de contribuer. Si vous souhaitez modifier ce wiki, [demandez un compte wiki avec des autorisations d\'édition sur le forum](https://forum.freecadweb.org/viewtopic.php?f=21&t=6830) et lisez les [Les pages Wiki](WikiPages/fr.md) pour les règles générales à suivre.
 
 Si vous souhaitez découvrir comment le développement de FreeCAD a débuté il y a des années, rendez vous à la page [Histoire](History/fr.md).
 
@@ -30,7 +30,7 @@ Voir aussi :
 
 ### Concepts de base de l\'application 
 
--   _, la [vue d\'arborescence](tree_view/fr.md), l\'[éditeur de propriétés](property_editor/fr.md), le [panneau de tâches](task_panel/fr.md) et la [console Python](Python_console/fr.md).
+-   [Interface](Interface/fr.md) : l\'interface FreeCAD est composée de divers éléments graphiques à l\'écran, y compris la [Vue 3D](3D_view/fr.md), la [vue d\'arborescence](tree_view/fr.md), l\'[éditeur de propriétés](property_editor/fr.md), le [panneau de tâches](task_panel/fr.md) et la [console Python](Python_console/fr.md).
 -   [Navigation par la souris](Mouse_navigation/fr.md) : les différents types d\'utilisation de la souris ou du trackpad pour naviguer dans la vue 3D.
 -   [Méthodes de sélection](Selection_methods/fr.md) : différentes méthodes de sélection d\'objets dans le logiciel.
 -   [Objet name](Object_name/fr.md) : tous les objets ont un `Name` en lecture seule qui les identifie de manière unique et un `Label` qui est modifiable par l\'utilisateur.
@@ -120,7 +120,7 @@ Il s\'agit de l\'aide en ligne officielle de FreeCAD. Veuillez noter que l\'ense
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md)
 
 ---
 [documentation index](../README.md) > [Hubs](Category_Hubs.md) > User hub/fr

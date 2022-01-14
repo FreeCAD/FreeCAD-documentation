@@ -3,14 +3,14 @@
 
 # Description
 
-POV-Ray (The Persistence of Vision Raytracer) is one of the two renderers supported by the _, Appleseed, Blender Cycles and Intel Ospray Studio (experimental).
+POV-Ray (The Persistence of Vision Raytracer) is one of the two renderers supported by the [Raytracing workbench](Raytracing_Workbench.md) together with [LuxRender](LuxRender.md). It is also supported by the new [Render Workbench](https://github.com/FreeCAD/FreeCAD-render), together with [LuxCoreRender](LuxCoreRender.md), Appleseed, Blender Cycles and Intel Ospray Studio (experimental).
 
 # Installation
 
 ## Raytracing Workbench 
 
 
-**The _. The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench**
+**The [Raytracing workbench](Raytracing_Workbench.md) is being superseded by the new [https://github.com/FreeCAD/FreeCAD-render Render Workbench], which is intended as its replacement. This must not be confused with the halted and outdated [Render project](Render_project.md). The Render Workbench can be installed through the [Addon Manager](Std_AddonMgr.md). The information here is provided because by default FreeCAD is still shipped (as of 0.19-24276) with the Raytracing Workbench**
 
 ### Stable Version 
 

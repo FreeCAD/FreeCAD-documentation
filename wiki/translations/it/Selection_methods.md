@@ -3,7 +3,7 @@
 
 ## Presentazione
 
-I metodi di selezione in FreeCAD consentono di selezionare gli oggetti nell\'_, nella [struttura ad albero](Tree_view/it.md), nella [vista selezione](Selection_view/it.md), e tramite altri dialoghi. Alcuni metodi di selezione sono specifici di un particolare ambiente e sono documentati nella documentazione specifica di tale ambiente.
+I metodi di selezione in FreeCAD consentono di selezionare gli oggetti nell\'[interfaccia di FreeCAD](Interface/it.md): ad esempio nella [vista 3D](3D_view/it.md), nella [struttura ad albero](Tree_view/it.md), nella [vista selezione](Selection_view/it.md), e tramite altri dialoghi. Alcuni metodi di selezione sono specifici di un particolare ambiente e sono documentati nella documentazione specifica di tale ambiente.
 
 ## Vista 3D 
 

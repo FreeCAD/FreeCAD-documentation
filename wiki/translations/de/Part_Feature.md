@@ -9,7 +9,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Ein _ verbunden mit ihm, das in der [3D Ansicht](3D_view/de.md) angezeigt werden kann.
+Ein [Part Formelement](Part_Feature/de.md) Objekt, oder formal ein `Part::Feature`, ist ein einfaches Element mit einer [topologische Form](Part_TopoShape/de.md) verbunden mit ihm, das in der [3D Ansicht](3D_view/de.md) angezeigt werden kann.
 
 
 </div>
@@ -40,7 +40,7 @@ Jedes mit dem [Part Arbeitsbereich](Part_Workbench/de.md) erstellte Objekt ist i
 
 Das [Part Formelement](Part_Feature/de.md) ist ein internes Objekt, daher kann es nicht von der grafischen Oberfläche aus erstellt werden, sondern nur von der [Python Konsole](Python_console/de.md) aus, wie im Abschnitt [Skripten](Part_Feature#Scripting/de.md) beschrieben.
 
-Der `Part::Feature` wird im _ importiert, so dass sie auch als `Part::Feature` Elemente importiert werden, wenn auch ohne parametrische Historie.
+Der `Part::Feature` wird im [Part Arbeitsbereich](Part_Workbench/de.md) definiert, kann aber als Basisklasse für [skriptierte Objekte](scripted_objects/de.md) in allen [Arbeitsbereichen](Workbenches/de.md) verwendet werden, die 2D und 3D Geometrieformen erzeugen. Im Wesentlichen sind alle im [Part Arbeitsbereich](Part_Workbench/de.md) erzeugten Objekte Instanzen eines `Part::Feature`. Festkörperobjekte, die aus STEP oder BREP Dateien importiert werden, werden mit dem [Part Arbeitsbereich](Part_Workbench/de.md) importiert, so dass sie auch als `Part::Feature` Elemente importiert werden, wenn auch ohne parametrische Historie.
 
 
 `Part::Feature`
@@ -51,7 +51,7 @@ Ein `Part::Feature` hat einfache Eigenschaften wie eine [Platzierung](Placement/
 
 ## Eigenschaften
 
-Eine _ (`App::GeoFeature` Klasse) abgeleitet, daher teilt sie alle Eigenschaften der letzteren.
+Eine [Part Formelement](Part_Feature/de.md) (`Part::Feature` Klasse) wird von der Basis [App GeoFormelement](App_GeoFeature/de.md) (`App::GeoFeature` Klasse) abgeleitet, daher teilt sie alle Eigenschaften der letzteren.
 
 
 <div class="mw-translate-fuzzy">

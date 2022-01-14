@@ -46,7 +46,7 @@ Comme dans les plupart des projets [FLOSS](http://fr.wikipedia.org/wiki/Free/Lib
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Development roadmap/fr

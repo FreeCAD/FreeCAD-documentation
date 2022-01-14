@@ -13,11 +13,11 @@
 
 This tool creates a new sketch, creates a new [PartDesign Body](PartDesign_Body.md) to contain the sketch if one does not exist and automatically opens the [Sketcher workbench](Sketcher_Workbench.md) after creation.
 
-When creating models using the <img src=images/Sketcher_NewSketch.svg style="width:PartDesign workbench](PartDesign_Workbench.md), this tool should be preferred to the **[16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)** tool found in the [Sketcher workbench](Sketcher_Workbench.md).
+When creating models using the [PartDesign workbench](PartDesign_Workbench.md), this tool should be preferred to the **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher NewSketch](Sketcher_NewSketch.md)** tool found in the [Sketcher workbench](Sketcher_Workbench.md).
 
 ## Usage
 
-1.  Press the **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)** button from the PartDesign toolbar.
+1.  Press the **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign NewSketch](PartDesign_NewSketch.md)** button from the PartDesign toolbar.
 2.  In the Tasks panel, the **Select feature** dialog is brought up. Select one of the planes in the list or in the 3D view which can be reoriented for better visibility.
 3.  Press **OK**.
 4.  The interface automatically switches to the Sketcher workbench and the sketch can be edited. Once the sketch is exited, the interface is brought back to the PartDesign workbench and the 3D view is restored to the view orientation prior to creating the sketch.
@@ -47,7 +47,7 @@ Dialog settings
 -   Make dependent copy: the elements will be copies, but a dependency to the original elements is kept. This is basically using a [Shapebinder](PartDesign_ShapeBinder.md)
 -   Create cross-reference: the linked elements will not be copies, but point to the original elements, e.g. a master sketch. Any changes are reflected to this sketch
 
-To reference any items in the <img src=images/Sketcher_CarbonCopy.svg style="width:Workbench Sketcher](Sketcher_Workbench.md) use the **<img src="images/Sketcher_External.svg" width=16px> [External Geometry](Sketcher_External.md)** and **[16px"> [CarbonCopy](Sketcher_CarbonCopy.md)** tools. Generally it is recommended to use other sketches as source for references rather than faces or edges, because they are less affected by the Topological Naming Issue.
+To reference any items in the [Workbench Sketcher](Sketcher_Workbench.md) use the **<img src="images/Sketcher_External.svg" width=16px> [External Geometry](Sketcher_External.md)** and **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [CarbonCopy](Sketcher_CarbonCopy.md)** tools. Generally it is recommended to use other sketches as source for references rather than faces or edges, because they are less affected by the Topological Naming Issue.
 
 ## Properties
 

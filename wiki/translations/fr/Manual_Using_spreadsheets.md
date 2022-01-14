@@ -9,7 +9,7 @@ Dans l\'exemple suivant, nous allons créer quelques objets, récupérer certain
 
 ### Lecture de propriétés 
 
--   Commencez par passer à l'atelier (_), un cylindre (<img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> _).
+-   Commencez par passer à l'atelier ([Part](Part_Workbench/fr.md)) et créez quelques objets : une boîte (<img alt="" src=images/Part_Box.svg  style="width:16px;"> [Cube](Part_Box/fr.md)), un cylindre (<img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [Cylindre](Part_Cylinder/fr.md)) et une sphère (<img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [Sphère](Part_Sphere/fr.md)).
 -   Modifiez leur propriété de **Placement** (ou utilisez l\'outil <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Déplacer](Draft_Move/fr.md) ) pour les séparer un peu, afin que nous puissions mieux observer les effets de ce que nous allons faire :
 
 ![](images/Exercise_spreadsheet_01.jpg )
@@ -83,7 +83,7 @@ Vous pouvez également donner des alias aux contraintes dimensionnelles (horizon
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Using spreadsheets/fr

@@ -3,7 +3,7 @@
 
 ## Introduction
 
-The main data structure used in the Part module is the _ scripting. This includes geometric primitives, such as Line and Circle (or Arc), and the whole range of TopoShapes, like Vertexes, Edges, Wires, Faces, Solids and Compounds. For each of those objects, several creation methods exist, and for some of them, especially the TopoShapes, advanced operations like boolean union/difference/intersection are also available. Explore the contents of the Part module, as described in the [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) page, to know more.
+The main data structure used in the Part module is the [BRep](http://en.wikipedia.org/wiki/Boundary_representation) data type from OpenCascade. Almost all contents and object types of the Part module are available by [Python](Python.md) scripting. This includes geometric primitives, such as Line and Circle (or Arc), and the whole range of TopoShapes, like Vertexes, Edges, Wires, Faces, Solids and Compounds. For each of those objects, several creation methods exist, and for some of them, especially the TopoShapes, advanced operations like boolean union/difference/intersection are also available. Explore the contents of the Part module, as described in the [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md) page, to know more.
 
 The most basic object that can be created is a [Part Feature](Part_Feature.md), which has a simple **Placement** property, and basic properties to define its color and appearance.
 
@@ -185,7 +185,7 @@ Head to the [Topological data scripting](Topological_data_scripting.md) page if 
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > [Part](Part_Workbench.md) > Part scripting/it

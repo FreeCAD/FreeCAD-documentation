@@ -12,16 +12,16 @@
 ## Описание
 
 
-**<img src=images/Std_LinkMakeRelative.svg style="width:16px"> ["Сделать доп. ссылку"](Std_LinkMakeRelative/ru.md)**
+**[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> ["Сделать доп. ссылку"](Std_LinkMakeRelative/ru.md)**
 
-создает <img src=images/Std_LinkMake.svg style="width:App Link](App_Link/ru.md) (класс `App::Link`), точно так же, как и команда **[16px"> ["Создавть ссылку"](Std_LinkMake/ru.md)**, но предварительно оперирует с выбранными подэлементами и устанавливает **Link Transform** как `True`.
+создает [App Link](App_Link/ru.md) (класс `App::Link`), точно так же, как и команда **[<img src=images/Std_LinkMake.svg style="width:16px"> ["Создавть ссылку"](Std_LinkMake/ru.md)**, но предварительно оперирует с выбранными подэлементами и устанавливает **Link Transform** как `True`.
 
 ## Применение
 
 With selection:
 
 1.  Select a subelement in the [3D view](3D_view.md), this means a vertex, edge, or face, or any combination of these. These subelements must belong to a single object.
-2.  Press the **<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Std LinkMakeRelative](Std_LinkMakeRelative.md)** button. The produced object has the same icon as the original object, but has two arrow overlays indicating it is a relative Link.
+2.  Press the **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> [Std LinkMakeRelative](Std_LinkMakeRelative.md)** button. The produced object has the same icon as the original object, but has two arrow overlays indicating it is a relative Link.
 
 Without selection:
 
@@ -36,7 +36,7 @@ Without selection:
 
 ## Свойства
 
-This command creates a new <img src=images/Std_LinkMake.svg style="width:App Link](App_Link.md); its properties are described in **[16px"> [Std LinkMake](Std_LinkMake.md)**.
+This command creates a new [App Link](App_Link.md); its properties are described in **[<img src=images/Std_LinkMake.svg style="width:16px"> [Std LinkMake](Std_LinkMake.md)**.
 
 In particular, **Link Transform** is set to `True`, so **Placement** becomes hidden, and instead **Link Placement** controls the position of the Link with respect to the position of **Linked Object**.
 

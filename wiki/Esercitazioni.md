@@ -74,14 +74,14 @@ Link utili:
 
 ## Altro
 
-Pagina di prova per la descrizione del _
-Pagina di prova per la descrizione del _
+Pagina di prova per la descrizione del [Modulo Parte ](Part_Workbench/it.md): [Test\_Ambiente\_Parte](Test_Ambiente_Parte.md)
+Pagina di prova per la descrizione del [Modulo PartDesign ](PartDesign_Workbench/it.md): [Test\_Ambiente\_PartDesign](Test_Ambiente_PartDesign.md)
 Pagina di discussione sull\'aspetto grafico del wiki: [WikiPages](WikiPages.md)
 
 
 {{languages/it |  }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Documentation/it](<img src="images/Property.png" style="width:16px"> Documentation/it.md) [<img src="images/Property.png" style="width:16px"> Tutorials/it](<img src="images/Property.png" style="width:16px"> Tutorials/it.md)
 
 ---
 [documentation index](../README.md) > Esercitazioni

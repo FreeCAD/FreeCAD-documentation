@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-In den _ exportiert wurden und als Seite [Vorlagen (templates)](Drawing_templates/de.md) verwendet werden, können verschiedene anwenderspezifische [Attribute](http://www.w3schools.com/xml/xml_attributes.asp) verwendet werden. Ursprünglich für den internen Gebrauch in FreeCAD, können sie auch durch andere FreeCAD-Applikationen in der Zukunft verwendet werden. All diese Attribute nutzen das **freecad:** [Namensraum](http://www.w3schools.com/xml/xml_namespaces.asp)-Präfix. Die URL des Namensraumes, die in diesen SVG-Dokumenten vorgegeben ist, bezieht sich auf diese Seite.
+In den [SVG](http://de.wikipedia.org/wiki/Scalable_Vector_Graphics)-Dokumenten, die aus FreeCAD\'s [Zeichnungsmodul](Drawing_Workbench/de.md) exportiert wurden und als Seite [Vorlagen (templates)](Drawing_templates/de.md) verwendet werden, können verschiedene anwenderspezifische [Attribute](http://www.w3schools.com/xml/xml_attributes.asp) verwendet werden. Ursprünglich für den internen Gebrauch in FreeCAD, können sie auch durch andere FreeCAD-Applikationen in der Zukunft verwendet werden. All diese Attribute nutzen das **freecad:** [Namensraum](http://www.w3schools.com/xml/xml_namespaces.asp)-Präfix. Die URL des Namensraumes, die in diesen SVG-Dokumenten vorgegeben ist, bezieht sich auf diese Seite.
 
 ## Anwendung
 
@@ -44,7 +44,7 @@ Zusätzliche Informationen zum Arbeitsbereich (Working space) und dem Titelblock
 
 ## Attribute
 
-### _
+### [freecad:EditierbarerText](#Example_of_code_freecad_EditableText.md)
 
 Um **freecad:** Attribute im SVG-Dokumenten zu nutzen, muss der FreeCAD Namensraum als Attribut des Eröffnungstags
 
@@ -79,13 +79,13 @@ Beispiel:
 
 Definiert den zweiten Basispunkt des [Entwurf Abmessung](Draft_Dimension/de.md) Objektes, als Gruppe in einem SVG-Dokument dargestellt. Dieses Attribut wird verwendet, wenn das SVG-Teilstück (Fragment) in FreeCAD importiert wird, um das Objekt \'Dimension\' neu zu erzeugen / zu ändern. Die Gruppe enthält Pfade und andere graphische Punkte, um das Objekt Dimensionen in anderen SVG-Anwendungen richtig wiederzugeben.
 
-Beispiel: siehe _
+Beispiel: siehe [freecad:basepoint1](#freecad_basepoint1.md)
 
 ### freecad:dimpoint
 
 Definiert den Punkt eines [Entwurf Abmessung](Draft_Dimension/de.md) Objektes, durch den die Bemaßungslinie läuft. Dieses Attribut wird verwendet, wenn das SVG-Teilstück (Fragment) in FreeCAD importiert wird, um das Objekt \'Dimension\' neu zu erzeugen/zu ändern. Die Gruppe enthält Pfade und andere graphische Punkte, um das Objekt Dimensionen in anderen SVG-Anwendungen richtig wiederzugeben.
 
-Beispiel: siehe _
+Beispiel: siehe [freecad:basepoint1](#freecad_basepoint1.md)
 
 ### Beispiel eines freecad-Codes:EditierbarerText 
 
@@ -229,7 +229,7 @@ Siehe [Drawing\_templates/de](Drawing_templates/de.md)
 
 }}
 
-_ _ _ _
+[<img src="images/Property.png" style="width:16px"> Poweruser\_Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md) [<img src="images/Property.png" style="width:16px"> Python\_Code](Category_Python_Code.md) [<img src="images/Property.png" style="width:16px"> Macros](Category_Macros.md)
 
 ---
 [documentation index](../README.md) > [Poweruser_Documentation](Category_Poweruser_Documentation.md) > Svg Namespace/de

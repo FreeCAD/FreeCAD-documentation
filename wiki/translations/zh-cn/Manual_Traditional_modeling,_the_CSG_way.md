@@ -15,7 +15,7 @@ CSG 代表[构造实体几何](https://en.wikipedia.org/wiki/Constructive_solid_
 
 <div class="mw-translate-fuzzy">
 
-本手册前面提到，一方面，FreeCAD 可以处理多种类型的几何体；另一方面，我们使用 FreeCAD 设计的 3D 对象，是真实世界的对象。因此，这里首选的、最有用的类型，毫无疑问，是实体，是 _。 [多边形网格](https://en.wikipedia.org/wiki/Polygon_mesh)仅由点和三角形构成，与此不同，BREP 对象的面由数学曲线定义，无论缩放比例如何，都保证有绝对的精度。
+本手册前面提到，一方面，FreeCAD 可以处理多种类型的几何体；另一方面，我们使用 FreeCAD 设计的 3D 对象，是真实世界的对象。因此，这里首选的、最有用的类型，毫无疑问，是实体，是 [BREP](https://en.wikipedia.org/wiki/Boundary_representation) 几何体，主要由[Part 工作台来处理](Part_Workbench.md)。 [多边形网格](https://en.wikipedia.org/wiki/Polygon_mesh)仅由点和三角形构成，与此不同，BREP 对象的面由数学曲线定义，无论缩放比例如何，都保证有绝对的精度。
 
 
 </div>
@@ -187,7 +187,7 @@ FreeCAD 的另一个特点是 3D 对象的概念和 3D 操作的概念 倾向于
 
 </div>
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional modeling, the CSG way/zh-cn

@@ -17,7 +17,7 @@ The <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> [Curves Iso
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
+1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
 2.  Select an unique surface on the [3D view](3D_view.md)
 3.  To invoke the command, do one of the following:
     -   Press the <img alt="" src=images/Curves_IsoCurve.svg  style="width:24px;"> button

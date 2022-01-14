@@ -27,22 +27,22 @@ O FreeCAD suporta vários pacotes de software de terceiros prontos para uso. Em 
 
 ### GitPython
 
-_ pode usar esta biblioteca. GitPython está incluída nos instaladores do FreeCAD para Windows e Mac.
+[GitPython](https://github.com/gitpython-developers/GitPython) é uma biblioteca para interagir com os repositórios Git. O [Gerenciador de complementos](Std_AddonMgr/pt-br.md) pode usar esta biblioteca. GitPython está incluída nos instaladores do FreeCAD para Windows e Mac.
 
 ### GraphViz
 
-_.
+[GraphViz](https://www.graphviz.org) é um software de visualização gráfica de código aberto. É utilizado pela ferramenta [Std Gráfico de dependência](Std_DependencyGraph/pt-br.md).
 
 ### OpenCAMLib
 
-_. Veja a página [OpenCamLib](OpenCamLib/pt-br.md) para instruções de instalação.
+[OpenCAMLib](http://www.anderswallin.net/CAM) é uma biblioteca de código aberto de algoritmos de manufatura auxiliada por computador (CAM). É utilizada no [Bancada Path](Path_Workbench/pt-br.md). Veja a página [OpenCamLib](OpenCamLib/pt-br.md) para instruções de instalação.
 
 ### OpenSCAD
 
 
 <div class="mw-translate-fuzzy">
 
-_ depende deste software e o [Bancada de Malhas](Mesh_Workbench/pt-br.md) o utiliza para suas ferramentas Booleanas. Ele também é necessário para a importação de arquivos SCAD com a ferramenta [Importar Std](Std_Import/pt-br.md).
+[OpenSCAD](https://www.openscad.org) é um modelador de sólidos 3D. O [Módulo OpenSCAD](OpenSCAD_Workbench/pt-br.md) depende deste software e o [Bancada de Malhas](Mesh_Workbench/pt-br.md) o utiliza para suas ferramentas Booleanas. Ele também é necessário para a importação de arquivos SCAD com a ferramenta [Importar Std](Std_Import/pt-br.md).
 
 
 </div>
@@ -57,7 +57,7 @@ Todos os softwares desta seção serão utilizados pelas ferramentas [Importar S
 
 ### Importador DXF 
 
-FreeCAD tem um importador e exportador nativo para arquivos DXF, programados em C++. Atualmente eles não implementam todas as características do formato DXF. Para essas características, o importador e exportador Python legado ainda estão disponíveis. Estes requerem a biblioteca _ para mais informações.
+FreeCAD tem um importador e exportador nativo para arquivos DXF, programados em C++. Atualmente eles não implementam todas as características do formato DXF. Para essas características, o importador e exportador Python legado ainda estão disponíveis. Estes requerem a biblioteca [Draft-dxf-importador](https://github.com/yorikvanhavre/Draft-dxf-importer) Python. Consulte a página [FreeCAD and DXF Import](FreeCAD_and_DXF_Import.md) para mais informações.
 
 ### DWG converters 
 
@@ -71,7 +71,7 @@ See [Import Export Preferences](Import_Export_Preferences#DWG.md) and [FreeCAD a
 
 ### IfcOpenShell
 
-_. ({{VersionMinus|0.18}}) e ferramentas [BIM IfcExplorer](BIM_IfcExplorer/pt-br.md). O IfcOpenShell está incluído nos instaladores do FreeCAD para Windows e Mac.
+[IfcOpenShell](http://ifcopenshell.org) é uma biblioteca para trabalhar com o formato de arquivo da Industry Foundation Classes (IFC) utilizado no projeto arquitetônico. A biblioteca também é utilizada pelo [Arch IfcExplorer](Arch_IfcExplorer/pt-br.md). ({{VersionMinus|0.18}}) e ferramentas [BIM IfcExplorer](BIM_IfcExplorer/pt-br.md). O IfcOpenShell está incluído nos instaladores do FreeCAD para Windows e Mac.
 
 ### IfcJson
 
@@ -88,7 +88,7 @@ _. ({{VersionMinus|0.18}}) e ferramentas [BIM IfcExplorer](BIM_IfcExplorer/pt-br
 
 ### LuxCoreRender
 
-_. Oficialmente, não é apoiado pelo _ para mais informações e instruções de instalação.
+[LuxCoreRender](https://www.luxcorerender.org) é um motor de renderização, uma reinicialização do projeto [LuxRender](LuxRender/pt-br.md). Oficialmente, não é apoiado pelo [Módulo Raytracing](Raytracing_Workbench/pt-br.md), mas talvez valha a pena tentar. Ele é oficialmente apoiado pelo novo [Render Workbench](https://github.com/FreeCAD/FreeCAD-render), destinado a substituir o Raytracing Workbench no futuro. Veja a página [LuxCoreRender](LuxCoreRender/pt-br.md) para mais informações e instruções de instalação.
 
 
 </div>
@@ -98,7 +98,7 @@ _. Oficialmente, não é apoiado pelo _ para mais informações e instruções d
 
 ### LuxRender
 
-_. Em 2013 o projeto foi reiniciado tornando-se _ pode trabalhar com o Raytracing Workbench, talvez valha a pena tentar. Veja a página [LuxRender](LuxRender/pt-br.md) para mais informações e instruções de instalação, e o [LuxCoreRender](LuxCoreRender/pt-br.md) se você quiser experimentar um 'software' mais moderno.
+[LuxRender](https://luxcorerender.org/history/) é um dos dois motores de renderização suportados pelo [Raytracing Workbench](Raytracing_Workbench.md). Em 2013 o projeto foi reiniciado tornando-se [LuxCoreRender](LuxCoreRender/pt-br.md), com uma grande reescrita de código e mudanças de compatibilidade. Oficialmente, o Raytracing Workbench suporta apenas os abandonados [LuxRender](LuxRender/pt-br.md). (a última versão é 1.6, 2017-12-28), enquanto o novo [Render Workbench](https://github.com/FreeCAD/FreeCAD-render) (destinado a substituir no futuro o Raytracing Workbench) suporta, em vez disso, o LuxCoreRender e abandonou o suporte para o LuxRender. De qualquer forma, mesmo que oficialmente não tenha suporte, [LuxCoreRender](LuxCoreRender/pt-br.md) pode trabalhar com o Raytracing Workbench, talvez valha a pena tentar. Veja a página [LuxRender](LuxRender/pt-br.md) para mais informações e instruções de instalação, e o [LuxCoreRender](LuxCoreRender/pt-br.md) se você quiser experimentar um 'software' mais moderno.
 
 
 </div>
@@ -108,7 +108,7 @@ _. Em 2013 o projeto foi reiniciado tornando-se _ pode trabalhar com o Raytracin
 
 <div class="mw-translate-fuzzy">
 
-_. Veja a página [POV-Ray](POV-Ray/pt-br.md) para mais informações e instruções de instalação.
+[POV-Ray](https://www.povray.org) é um conhecido traçador de raios que consegue produzir imagens foto-realistas. É um dos dois motores de renderização atualmente suportados pelo [Módulo Raytracing](Raytracing_Workbench/pt-br.md). Veja a página [POV-Ray](POV-Ray/pt-br.md) para mais informações e instruções de instalação.
 
 
 </div>
@@ -117,33 +117,33 @@ _. Veja a página [POV-Ray](POV-Ray/pt-br.md) para mais informações e instruç
 
 ### CalculiX
 
-_.
+[CalculiX](http://calculix.de) é um conjunto de dois pacotes de elementos finitos: CalculiX CrunchiX, um solucionador FEM, e CalculiX GraphiX, uma 'interface' GUI. Somente o solucionador é suportado pelo FreeCAD. É utilizado pela ferramenta [Solver CalculiX](FEM_SolverCalculiX/pt-br.md).
 
 ### Gmsh
 
-_ e [Mesh FromPartShape](Mesh_FromPartShape/pt-br.md).
+[Gmsh](http://gmsh.info) é um gerador automático de malha de elementos finitos é utilizado pelas ferramentas [FEM MeshGmshFromShape](FEM_MeshGmshFromShape/pt-br.md) e [Mesh FromPartShape](Mesh_FromPartShape/pt-br.md).
 
 ### Elmer
 
-_.
+[Elmer](https://www.csc.fi/web/elmer) é um 'software' de simulação multifísica, que foi aberto em 2005. No FreeCAD seus módulos Grid e Solver são usados pela ferramenta [FEM SolverElmer](FEM_SolverElmer/pt-br.md).
 
 ### FEniCS
 
 
 <div class="mw-translate-fuzzy">
 
-_.
+[FEniCS](https://fenicsproject.org) é uma plataforma de computação para resolver equações diferenciais parciais (PDEs), que são amplamente utilizadas na solução de problemas FEM. É utilizada pelo [Bancada FEM](FEM_Workbench/pt-br.md).
 
 
 </div>
 
 ### Z88
 
-_. O FreeCAD requer o pacote de código aberto Z88OS.
+[Z88](https://en.z88.de) é outro programa FEM, que contém um gerador de malhas, um solucionador e conversores. É utilizado pela ferramenta [FEM SolverZ88](FEM_SolverZ88/pt-br.md). O FreeCAD requer o pacote de código aberto Z88OS.
 
 ### OpenFOAM
 
-_ e _.
+[OpenFOAM](https://openfoam.org) é uma grande coleção de bibliotecas para simulações de dinâmicas de fluidos computacionais (CFD). O OpenFOAM é usado pelo [Cfd](Cfd_Workbench/pt-br.md) e [CfdOF](https://github.com/jaheyns/CfdOF) [Bancadas de trabalho externas](external_workbenches/pt-br.md).
 
 # Páginas relacionadas 
 
@@ -154,7 +154,7 @@ _ e _.
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> User Documentation/pt-br](<img src="images/Property.png" style="width:16px"> User_Documentation/pt-br.md)
 
 ---
 [documentation index](../README.md) > Installing additional components/pt-br

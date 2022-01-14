@@ -78,7 +78,7 @@ The following tools are available in this menu:
     -   <img alt="" src=images/Std_ViewIvStereoInterleavedRows.svg  style="width:32px;"> [Stereo Interleaved Rows](Std_ViewIvStereoInterleavedRows.md): Switches to interleaved rows stereo view.
     -   <img alt="" src=images/Std_ViewIvStereoInterleavedColumns.svg  style="width:32px;"> [Stereo Interleaved Columns](Std_ViewIvStereoInterleavedColumns.md): Switches to interleaved columns stereo view.
     -   <img alt="" src=images/Std_ViewIvStereoOff.svg  style="width:32px;"> [Stereo Off](Std_ViewIvStereoOff.md): Switches stereo view off.
-    -   <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:32px;"> _ and the [Python console](Python_console.md).
+    -   <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:32px;"> [Issue camera position](Std_ViewIvIssueCamPos.md): Prints camera settings in the [Report view](Report_view.md) and the [Python console](Python_console.md).
 
 -   Zoom
     -   <img alt="" src=images/Std_ViewZoomIn.svg  style="width:32px;"> [Zoom In](Std_ViewZoomIn.md): Zooms the view in.
@@ -136,7 +136,7 @@ The following tools are available in this menu:
     -   [DAG view](DAG_view.md)
 
 -   Tree view actions
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> _ SyncView mode. <small>(v0.19)</small> 
+    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync view](Std_TreeSyncView.md): Toggles the [Tree view](Tree_view.md) SyncView mode. <small>(v0.19)</small> 
     -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sync selection](Std_TreeSyncSelection.md): Toggles the Tree view SyncSelection mode. <small>(v0.19)</small> 
     -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sync placement](Std_TreeSyncPlacement.md): Toggles the Tree view SyncPlacement mode. <small>(v0.19)</small> 
     -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Pre-selection](Std_TreePreSelection.md): Toggles the Tree view PreSelection mode. <small>(v0.19)</small> 
@@ -147,14 +147,14 @@ The following tools are available in this menu:
     -   <img alt="" src=images/Std_TreeDrag.svg  style="width:32px;"> [Initiate dragging](Std_TreeDrag.md): Initiates a drag operation for selected objects in the Tree view. <small>(v0.19)</small> 
     -   <img alt="" src=images/Std_TreeSelection.svg  style="width:32px;"> [Go to selection](Std_TreeSelection.md): Scrolls the Tree view to the first created object in a 3D view selection. <small>(v0.19)</small> 
 
--   _.
+-   [Status bar](Std_ViewStatusBar.md): Toggles the display of the [Status bar](Status_bar.md).
 
 
 
 
  {{Std Base navi}}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std View Menu

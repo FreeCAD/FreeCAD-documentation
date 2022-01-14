@@ -168,7 +168,7 @@ Patrz instrukcje dla systemu Linux powyżej
 
 ## Inne użyteczne odnośniki 
 
--   <img alt="PartDesign\_InvoluteGear/pl" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> _.
+-   <img alt="PartDesign\_InvoluteGear/pl" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> [Koło zębate ewolwentowe](PartDesign_InvoluteGear/pl.md): To narzędzie pozwala na tworzenie profilu 2D koła zębatego ewolwentowego. Ten profil 2D jest w pełni parametryczny i może być uzupełniony za pomocą funkcji [Wyciągnięcia](PartDesign_Pad.md).
 -   [Zewnętrzne środowiska pracy](External_workbenches/pl.md): Lista wszystkich aktualnych zewnętrznych środowisk pracy programu FreeCAD.
 -   [Przepisy na makropolecenia](Macros_recipes/pl.md)
 -   [Przekładnia cykloidalna *(niemiecki)*](https://vivat-geo.de/zykloidenverzahnung.html)
@@ -177,7 +177,7 @@ Patrz instrukcje dla systemu Linux powyżej
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> FCGear](Category_FCGear.md)
 
 ---
 [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > FCGear Workbench/pl

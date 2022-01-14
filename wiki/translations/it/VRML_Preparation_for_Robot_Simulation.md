@@ -73,7 +73,7 @@ Nascondere TX40\_HB007 perché contiene gli assi di tutti i giunti e non può es
 
 ## Misure delle caratteristiche geometriche 
 
-Per costruire la tabella di _ ) e per preparare il file [VRML](http://it.wikipedia.org/wiki/VRML), è necessario ottenere le caratteristiche del Robot.
+Per costruire la tabella di [Denavit-Hartenberg](http://it.wikipedia.org/wiki/Denavit-Hartenberg) (vedere [6-Axis\_Robot](Robot_6-Axis/it.md) ) e per preparare il file [VRML](http://it.wikipedia.org/wiki/VRML), è necessario ottenere le caratteristiche del Robot.
 Per ora, lo strumento di misurazione di FreeCAD non è ancora pronto, è possibile utilizzare gli assi inclusi in TX40\_HB007 (le coordinate sono indicate in basso a sinistra quando si punta un oggetto con il mouse), oppure si deve utilizzare la console Python per ottenere delle informazioni sulla geometria.
 Notare che la **Tabella DH** è necessaria solo quando si ha bisogno di usare la cinematica inversa, ad esempio, per ottenere le coordinate cartesiane o guidare il robot con coordinate cartesiane.
 La **Tabella DH** per questo robot è la seguente **(mm, gradi e gradi/s)** :
@@ -459,7 +459,7 @@ Ecco un patch per ottenere il file VRML adatto per la simulazione del robot:
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Robot](Category_Robot.md)
 
 ---
 [documentation index](../README.md) > [Robot](Category_Robot.md) > VRML Preparation for Robot Simulation/it

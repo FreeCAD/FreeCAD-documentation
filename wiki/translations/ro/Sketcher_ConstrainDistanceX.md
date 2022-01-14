@@ -32,7 +32,7 @@ Fixes the horizontal distance between 2 points or line ends. If only one point i
 ## Folosire
 
 1.  Selectați unul sau două puncte sau o linie.
-2.  Apăsați butonul **<img src=images/Sketcher_ConstrainDistanceX.png style="width:24px"> '''Constrain horizontal distance'''** .
+2.  Apăsați butonul **[<img src=images/Sketcher_ConstrainDistanceX.png style="width:24px"> '''Constrain horizontal distance'''** .
 3.  Un dialog contextual deschide pentru a edita sua a confirma valoarea. Apăsați **OK** pentru a valida.
 
 
@@ -40,9 +40,9 @@ Fixes the horizontal distance between 2 points or line ends. If only one point i
 
 1.  Pick one or two points or one line.
 2.  Invoke the tool several ways:
-    -   Press the **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Constrain horizontal distance](Sketcher_ConstrainDistanceX.md)** button in the toolbar.
+    -   Press the **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Constrain horizontal distance](Sketcher_ConstrainDistanceX.md)** button in the toolbar.
     -   Use the **Shift** + **H** keyboard shortcut. (**H** is for **H**orizontal)
-    -   Use the **Sketch → Sketcher constraints → <img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> Constrain horizontal distance** from the top menu.
+    -   Use the **Sketch → Sketcher constraints → [<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> Constrain horizontal distance** from the top menu.
 3.  A pop up dialog opens to edit or confirm the value. Press **OK** to validate.
 
 

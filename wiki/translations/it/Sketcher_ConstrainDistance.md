@@ -34,7 +34,7 @@ Il vincolo **Distanza** impone alla lunghezza di una linea, alla distanza perpen
 
 1.  Selezionare due punti o una linea
 2.  Richiamare il comando in uno di questi modi:
-    -   Cliccare sull\'icona **<img src=images/Sketcher_ConstrainDistance.png style="width:24px"> '''Distanza'''** della barra degli strumenti.
+    -   Cliccare sull\'icona **[<img src=images/Sketcher_ConstrainDistance.png style="width:24px"> '''Distanza'''** della barra degli strumenti.
     -   Usare la scorciatoia da tastiera **Maiusc** + **D**.
     -   Usare la voce **Sketch → Vincoli → Distanza** dal menu principale.
 3.  Si apre una finestra di dialogo per modificare o confermare il valore. Premere **OK** per confermare.
@@ -57,7 +57,7 @@ Il vincolo **Distanza** impone alla lunghezza di una linea, alla distanza perpen
 
 ### Suggerimento
 
-Quando sono applicabili conviene usare il vincolo **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> <img src=images/Sketcher_ConstrainDistanceY.svg style="width:Distanza Orizzontale](Sketcher_ConstrainDistanceX/it.md)** o il vincolo **[16px"> [Distanza Verticale](Sketcher_ConstrainDistanceY/it.md)**. Questi vincoli sono più robusti e più veloci da calcolare rispetto al vincolo di Lunghezza documentato qui.
+Quando sono applicabili conviene usare il vincolo **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Distanza Orizzontale](Sketcher_ConstrainDistanceX/it.md)** o il vincolo **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Distanza Verticale](Sketcher_ConstrainDistanceY/it.md)**. Questi vincoli sono più robusti e più veloci da calcolare rispetto al vincolo di Lunghezza documentato qui.
 
 
 </div>

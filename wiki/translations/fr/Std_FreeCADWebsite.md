@@ -17,7 +17,7 @@ Actuellement, cette commande pointe vers [<https://www.freecadweb.org>](https://
 
 ## Utilisation
 
-1.  Sélectionnez l\'option **Aide → <img src=images/Std_FreeCADWebsite.svg style="width:16px"> [Site Web de FreeCAD](Std_FreeCADWebsite/fr.md)** dans le menu.
+1.  Sélectionnez l\'option **Aide → [<img src=images/Std_FreeCADWebsite.svg style="width:16px"> [Site Web de FreeCAD](Std_FreeCADWebsite/fr.md)** dans le menu.
 
 
 

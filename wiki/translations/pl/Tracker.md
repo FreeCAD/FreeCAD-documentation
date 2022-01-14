@@ -46,7 +46,7 @@ Jeśli chcesz, aby w FreeCAD pojawiło się coś, co nie jest jeszcze zaimplemen
 Jeśli zaprogramowałeś poprawkę dotyczącą błędu, rozszerzenie lub coś innego, co może być użyteczne publicznie w programie FreeCADe, prześlij swoją poprawkę jako \"Pull Request\" na [GitHub](https://github.com/FreeCAD/FreeCAD).
 
 1.  Dla dużych, złożonych lub zmieniających zachowanie zgłoszeń, otwórz wątek na [forum dla programistów](https://forum.freecadweb.org/viewforum.php?f=10), aby ogłosić i omówić swoją poprawkę. Dla małych poprawek błędów nie jest to konieczne.
-2.  Prześlij swój Pull Request *(PR)* do _ na stronie wiki.
+2.  Prześlij swój Pull Request *(PR)* do [FreeCAD GitHub repo](http://github.com/FreeCAD/FreeCAD). Wiadomość o wysłaniu PR będzie wstępnie wypełniona listą kontrolną, którą należy wykonać, aby upewnić się, że zgłoszenie ma jak największe szanse na szybką akceptację. Jeśli nie pracowałeś wcześniej z `git` lub nie jesteś zaznajomiony z przesyłaniem PR na github, przeczytaj nasze wprowadzenie do [github](Source_code_management/pl.md) na stronie wiki.
 3.  Bądź obecny w dyskusji, zarówno na forum jak i w żądaniu podciągnięcia na GitHub, aby twój kod mógł być potencjalnie scalony bardziej efektywnie.
 
 ## Wnioskowanie o połączenie 
@@ -174,7 +174,7 @@ Dla dociekliwych: mamy tu zastosowanie wyrażenia regularnego MantisBT do tej op
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Tracker/pl

@@ -209,7 +209,7 @@ Inverte la direzione dell\'estrusione.
 :   Questo significa che la faccia trovata potrebbe anche non essere quella attesa. Se succede questo, utilizzare il tipo **Fino alla faccia** e scegliere la faccia desiderata.
 :   Nel caso speciale di estrusione di una superficie concava, in cui il disegno è più grande di questa superficie, l\'estrusione fallisce. Questo è un bug irrisolto
 
--    {{VersionMinus/it|0.16}}Non c\'è la pulizia automatica, ad esempio di superfici planari adiacenti in una singola superficie. È possibile risolvere questo manualmente nell\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ che crea una funzione parametrica.
+-    {{VersionMinus/it|0.16}}Non c\'è la pulizia automatica, ad esempio di superfici planari adiacenti in una singola superficie. È possibile risolvere questo manualmente nell\'ambiente <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Parte](Part_Workbench/it.md) con **<img src="images/Part_RefineShape.svg" width=16px> [Affina una forma](Part_RefineShape/it.md)** (che crea un solido non collegato, e non parametrico) o con **<img src="images/OpenSCAD_RefineShapeFeature.svg" width=16px> [Affina forma](OpenSCAD_RefineShapeFeature/it.md)** di <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:16px;"> [OpenSCAD](OpenSCAD_Workbench/it.md) che crea una funzione parametrica.
 
 
 </div>

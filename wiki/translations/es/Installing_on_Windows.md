@@ -201,7 +201,7 @@ Puedes instalar la versión de Windows de FreeCAD en un sistema Linux utilizando
 msiexec /i Y:\\software\\FreeCAD<version>.msi
 ```
 
-FreeCAD se está ejecutando, pero se ha informado de que la pantalla de OpenGL no funciona, como con otros programas que se ejecutan bajo _ es decir, Google _.
+FreeCAD se está ejecutando, pero se ha informado de que la pantalla de OpenGL no funciona, como con otros programas que se ejecutan bajo [Wine](wikipedia:Wine_(software).md) es decir, Google [SketchUp](wikipedia_SketchUp.md).
 
 ---
 [documentation index](../README.md) > Installing on Windows/es

@@ -33,9 +33,9 @@ La réinitialisation de la propriété **angle** à environ 180° dans une deuxi
 
 ## Remarques
 
-Pour créer une plaque de base, utilisez un contour 2D fermé - de préférence une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> _.
+Pour créer une plaque de base, utilisez un contour 2D fermé - de préférence une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:24px;"> [Esquisse](Sketcher_NewSketch/fr.md) - avec la commande <img alt="" src=images/SheetMetal_AddBase.svg  style="width:24px;"> [Make Base Wall](SheetMetal_AddBase/fr.md).
 
-Il est également possible de créer une plaque de base (vierge) à l\'aide des commandes de l\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _.
+Il est également possible de créer une plaque de base (vierge) à l\'aide des commandes de l\'<img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [atelier Part](Part_Workbench/fr.md) ou de l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:16px;"> [atelier PartDesign](PartDesign_Workbench/fr.md).
 
 Pour créer une ébauche avec l\'[atelier Part](Part_Workbench/fr.md) : :
 
@@ -51,10 +51,10 @@ Pour créer une ébauche avec l\'[atelier PartDesign](PartDesign_Workbench/fr.md
 
 1.  Créez un solide en utilisant soit :
     -   Un <img alt="" src=images/PartDesign_AdditiveBox.svg  style="width:16px;"> [Cube additif](PartDesign_AdditiveBox/fr.md).
-    -   Une <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> _.
+    -   Une <img alt="" src=images/PartDesign_Pad.svg  style="width:16px;"> [PartDesign Protrusion](PartDesign_Pad/fr.md) d\'une <img alt="" src=images/Sketcher_NewSketch.svg  style="width:16px;"> [Esquisse](Sketcher_NewSketch/fr.md).
 2.  Assurez-vous que l\'une des dimensions de la boîte ou la propriété **Length** du bloc est égale à l\'épaisseur de la tôle.
 
-Si vous commencez avec un <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> _ ou <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> [PartDesign Perçages](PartDesign_Hole/fr.md).
+Si vous commencez avec un <img alt="" src=images/PartDesign_Body.svg  style="width:16px;"> [PartDesign Corps](PartDesign_Body/fr.md), vous pouvez mélanger des caractéristiques de SheetMetal avec des caractéristiques PartDesign telles que <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [PartDesign Cavité](PartDesign_Pocket/fr.md) ou <img alt="" src=images/PartDesign_Hole.svg  style="width:16px;"> [PartDesign Perçages](PartDesign_Hole/fr.md).
 
 ## Propriétés
 
@@ -161,9 +161,9 @@ Un objet SheetMetal Bend est dérivé d\'un objet [Part Feature](Part_Feature/fr
 
     
 
-    [[Category:SheetMetal]]
-    [[Category:Addons]]
-    [[Category:External Command Reference\]\]
+    [[<img src="images/Property.png" style="width:16px"> SheetMetal]]
+    [[<img src="images/Property.png" style="width:16px"> Addons]]
+    [[<img src="images/Property.png" style="width:16px"> External Command Reference\]\]
 
 ---
 [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal AddWall/fr

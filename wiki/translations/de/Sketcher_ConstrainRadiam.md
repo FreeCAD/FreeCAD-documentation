@@ -19,7 +19,7 @@ Diese Beschränkung beschränkt den Wert des Radius eines Kreises oder Bogens um
     -   Ein Referenz Beschränkung wird separat auf jedes Objekt angewendet, das eine externe Geometrie ist
 
     -   
-        **<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Gleiche Beschränkung](Sketcher_ConstrainEqual/de.md)**
+        **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Gleiche Beschränkung](Sketcher_ConstrainEqual/de.md)**
         
         werden nacheinander auf alle Objekte der realen Geometrie/Konstruktionsgeometrie angewandt, und eine dimensionale Beschränkung wird auf das erste ausgewählte Objekt gemäß den obigen Regeln angewandt
 
@@ -28,7 +28,7 @@ NB: B-Spline Pole können nicht mit anderen Objekttypen in der Auswahl gemischt 
 ## Anwendung
 
 1.  Nimm einen oder mehrere Kreise oder Bögen.
-2.  Drücke die **<img src=images/Sketcher_ConstrainRadiam.svg style="width:16px"> [Beschränke Radius/Durchmesser automatisch](Sketcher_ConstrainRadiam/de.md)**.
+2.  Drücke die **[<img src=images/Sketcher_ConstrainRadiam.svg style="width:16px"> [Beschränke Radius/Durchmesser automatisch](Sketcher_ConstrainRadiam/de.md)**.
 3.  Es öffnet sich ein Aufklappdialog zum Bearbeiten oder Bestätigen des Wertes. Drücken **OK** zum Bestätigen.
 4.  Optional können die Bemaßungsbeschriftung und die Linie in der 3D Ansicht verschoben und gedreht werden, durch klicken auf den Wert und ziehen bei gedrückter linker Maustaste.
 

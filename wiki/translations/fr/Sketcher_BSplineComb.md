@@ -22,7 +22,7 @@ Le peigne de courbure indique la courbure (valeur de la dérivée de second ordr
 ## Utilisation
 
 1.  Sélectionnez une B-spline
-2.  Soit utiliser le bouton de la barre d\'outils **<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Afficher/Masquer le peigne de courbure B-spline](Sketcher_BSplineComb/fr.md)** ou utiliser le menu **Sketch → Outil d'esquisse B-spline → Afficher/Masquer le peigne de courbure B-spline**.
+2.  Soit utiliser le bouton de la barre d\'outils **[<img src=images/Sketcher_BSplineComb.svg style="width:16px"> [Afficher/Masquer le peigne de courbure B-spline](Sketcher_BSplineComb/fr.md)** ou utiliser le menu **Sketch → Outil d'esquisse B-spline → Afficher/Masquer le peigne de courbure B-spline**.
 
 
 

@@ -5,11 +5,11 @@
 
 ## Einführung
 
-Die Festkörper Modellierungsfähigkeiten von FreeCAD basieren auf dem _ ist eine Schicht, die sich auf der Oberseite der OCCT Bibliotheken befindet und dem Benutzer Zugriff auf geometrische OCCT Grundkörper und -funktionen gewährt. Grundsätzlich basieren alle 2D und 3D Zeichenfunktionen in jedem Arbeitsbereich (<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md), usw.) auf diesen Funktionen, die vom Part Arbeitsbereich herausgestellt werden. Daher gilt der Part Arbeitsbereich als die Kernkomponente der Modellierungsfunktionen von FreeCAD.
+Die Festkörper Modellierungsfähigkeiten von FreeCAD basieren auf dem [OpenCASCADE Technologie](OpenCASCADE/de.md) (OCCT) Kernel, ein professionelles CAD System das fortschrittliche 3D Geometrieerstellung und -handhabung besitzt. Die <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Arbeitsbereich](Part_Workbench/de.md) ist eine Schicht, die sich auf der Oberseite der OCCT Bibliotheken befindet und dem Benutzer Zugriff auf geometrische OCCT Grundkörper und -funktionen gewährt. Grundsätzlich basieren alle 2D und 3D Zeichenfunktionen in jedem Arbeitsbereich (<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [Entwurf](Draft_Workbench/de.md), <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [ Skizzierer](Sketcher_Workbench/de.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench/de.md), usw.) auf diesen Funktionen, die vom Part Arbeitsbereich herausgestellt werden. Daher gilt der Part Arbeitsbereich als die Kernkomponente der Modellierungsfunktionen von FreeCAD.
 
 Eine detaillierte Diskussion des Arbeitsbereichs Part im Vergleich mit dem Arbeitsbereich Part Design findest du hier: [Part und PartDesign](Part_and_PartDesign/de.md).
 
-Die mit dem Part Arbeitsbereich erstellten Objekte sind relativ einfach; sie sind für die Verwendung mit booleschen Operationen (Verbindungen und Schnitte) vorgesehen, um komplexere Formen zu erstellen. **Dieses Modellierungsparadigma ist bekannt als _) modifiziert wird, bis das endgültige Objekt vorliegt.
+Die mit dem Part Arbeitsbereich erstellten Objekte sind relativ einfach; sie sind für die Verwendung mit booleschen Operationen (Verbindungen und Schnitte) vorgesehen, um komplexere Formen zu erstellen. **Dieses Modellierungsparadigma ist bekannt als [konstruktive Festkörpergeometrie](constructive_solid_geometry/de.md) (CSG) Arbeitsablauf, und es war die traditionelle Methodik, die in frühen CAD Systemen verwendet wurde.** Andererseits bietet der [Arbeitsbereich PartDesign ](PartDesign_Workbench/de.md) einen moderneren Arbeitsablauf bei der Konstruktion von Formen: Sie verwendet eine parametrisch definierte Skizze, die zu einem Grundkörper extrudiert wird, der dann durch parametrische Transformationen ([Formelementbearbeitung](feature_editing/de.md)) modifiziert wird, bis das endgültige Objekt vorliegt.
 
 Part Objekte sind komplexer als Polygonnetz Objekte, die mit dem [Arbeitsbereich Polygonnetz](Mesh_Workbench/de.md) erstellt wurden, da sie fortgeschrittene Abläufe wie kohärente boolesche Operationen, Änderungshistorie und parametrisches Verhalten ermöglichen.
 
@@ -41,12 +41,12 @@ Dies sind Werkzeuge zum Erstellen von Grundobjekten.
 
 -   <img alt="" src=images/Part_Primitives.svg  style="width:32px;"> [Grundelemente](Part_Primitives/de.md): Ein Werkzeug zum Erstellen eines der folgenden Grundelemente:
     -   <img alt="" src=images/Part_Plane.svg  style="width:32px;"> [Ebene](Part_Plane/de.md): Erzeugt eine Ebene.
-    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> _ Werkzeug erzeugt werden.
-    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> _ Werkzeug erzeugt werden.
-    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> _ Werkzeug erzeugt werden.
-    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> _ Werkzeug erzeugt werden.
+    -   <img alt="" src=images/Tree_Part_Box_Parametric.svg  style="width:32px;"> [Kasten](Part_Box/de.md): Erzeugt einen Kasten. Dieses Objekt kann auch mit dem <img alt="" src=images/Part_Box.svg  style="width:32px;"> [Kasten](Part_Box/de.md) Werkzeug erzeugt werden.
+    -   <img alt="" src=images/Tree_Part_Cylinder_Parametric.svg  style="width:32px;"> [Zylinder](Part_Cylinder/de.md): Erzeugt einen Zylinder. Dieses Objekt kann auch mit dem <img alt="" src=images/Part_Cylinder.svg  style="width:32px;"> [Zylinder](Part_Cylinder/de.md) Werkzeug erzeugt werden.
+    -   <img alt="" src=images/Tree_Part_Cone_Parametric.svg  style="width:32px;"> [Kegel](Part_Cone/de.md): Erzeugt einen Kegel. Dieses Objekt kann auch mit dem <img alt="" src=images/Part_Cone.svg  style="width:32px;"> [Kegel](Part_Cone/de.md) Werkzeug erzeugt werden.
+    -   <img alt="" src=images/Tree_Part_Sphere_Parametric.svg  style="width:32px;"> [Kugel](Part_Sphere/de.md): Erzeugt eine Kugel. Dieses Objekt kann auch mit dem <img alt="" src=images/Part_Sphere.svg  style="width:32px;"> [Kugel](Part_Sphere/de.md) Werkzeug erzeugt werden.
     -   <img alt="" src=images/Part_Ellipsoid.svg  style="width:32px;"> [Ellipsoid](Part_Ellipsoid/de.md): Erzeugt einen Ellipsoid.
-    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> _ Werkzeug erzeugt werden.
+    -   <img alt="" src=images/Tree_Part_Torus_Parametric.svg  style="width:32px;"> [Torus](Part_Torus/de.md): Erzeugt einen Torus. Dieses Objekt kann auch mit dem <img alt="" src=images/Part_Torus.svg  style="width:32px;"> [Torus](Part_Torus/de.md) Werkzeug erzeugt werden.
     -   <img alt="" src=images/Part_Prism.svg  style="width:32px;"> [Prisma](Part_Prism/de.md): Erzeugt ein Prisma.
     -   <img alt="" src=images/Part_Wedge.svg  style="width:32px;"> [Keil](Part_Wedge/de.md): Erzeugt einen Keil.
     -   <img alt="" src=images/Part_Helix.svg  style="width:32px;"> [Helix](Part_Helix/de.md): Erzeugt eine Helix.
@@ -124,7 +124,7 @@ Diese Werkzeuge führen boolesche Operationen aus.
 Zerschneidet und teilt ein Objekt, indem er es mit anderen Objekten überschneidet.
 
 -   -   <img alt="" src=images/Part_Slice.svg  style="width:32px;"> [Zerschneiden](Part_Slice/de.md): Zerschneidet ein Objekt, indem es mit anderen Objekten überschnitten wird.
-    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> _).
+    -   <img alt="" src=images/Part_XOR.svg  style="width:32px;"> [XOR](Part_XOR/de.md): Entfernt Bereiche, die von einer gleichen Anzahl von Objekten geteilt werden (symmetrische Version von [Cut](Part_Cut.md)).
 
 ### Messung
 
@@ -198,7 +198,7 @@ Siehe [Part Skripten](Part_scripting/de.md)
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > [Part](Part_Workbench.md) > Part Module/de

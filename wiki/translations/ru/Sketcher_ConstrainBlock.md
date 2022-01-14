@@ -14,12 +14,12 @@
 
 **Блокирующее ограничение** фиксирует геометрический элемент в указанном месте, одним нажатием.
 
-It is mainly intended to be used with **<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-Splines](Sketcher_CreateBSpline.md)**, which can be difficult to fully constrain otherwise.
+It is mainly intended to be used with **[<img src=images/Sketcher_CreateBSpline.svg style="width:16px"> [B-Splines](Sketcher_CreateBSpline.md)**, which can be difficult to fully constrain otherwise.
 
 ## Применение
 
 1.  Выберите элемент, степень свободы которого вы хотите ограничить.
-2.  Нажмите на кнопку **<img src=images/Sketcher_ConstrainBlock.svg style="width:16px"> [Ограничение (Привязка)](Sketcher_ConstrainBlock/ru.md)**.
+2.  Нажмите на кнопку **[<img src=images/Sketcher_ConstrainBlock.svg style="width:16px"> [Ограничение (Привязка)](Sketcher_ConstrainBlock/ru.md)**.
 
 Или наоборот в начале нажмите кнопку, а потом выберите элемент.
 

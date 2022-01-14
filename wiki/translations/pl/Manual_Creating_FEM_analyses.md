@@ -3,17 +3,17 @@
 
 MES to skrót od [Metoda Elementów Skończonych](https://en.wikipedia.org/wiki/Finite_element_method). Jest to rozległy temat matematyczny, ale w FreeCAD możemy myśleć o nim jako o sposobie obliczania rozchodzenia się energii wewnątrz obiektu 3D, poprzez pocięcie go na małe kawałki i przeanalizowanie wpływu każdego małego kawałka na jego sąsiadów. Ma to wiele zastosowań w inżynierii i elektromagnetyzmie, ale my skupimy się na jednym z zastosowań, które jest już dobrze rozwinięte w programie FreeCAD, a mianowicie na symulacji deformacji obiektów poddawanych działaniu sił i ciężarów.
 
-Uzyskanie takiej symulacji odbywa się w programie FreeCAD za pomocą środowiska _, a na koniec obliczenie symulacji.
+Uzyskanie takiej symulacji odbywa się w programie FreeCAD za pomocą środowiska [MES](FEM_Workbench/pl.md). Składa się na to kilka kroków: Przygotowanie geometrii, ustawienie jej materiału, wykonanie siatki, podział na mniejsze części, tak jak to robiliśmy w rozdziale [Przygotowanie obiektów do druku 3D](Manual:Preparing_models_for_3D_printing/pl.md), a na koniec obliczenie symulacji.
 
 <img alt="" src=images/Exercise_fem_01.jpg  style="width:600px;">
 
 ### Przygotowanie programu FreeCAD 
 
-Sama symulacja jest wykonywana przez inny program, który jest wykorzystywany przez FreeCAD do uzyskania wyników. Ponieważ jest dostępnych kilka interesujących aplikacji do symulacji MES o otwartym kodzie źródłowym, środowisko pracy _.
+Sama symulacja jest wykonywana przez inny program, który jest wykorzystywany przez FreeCAD do uzyskania wyników. Ponieważ jest dostępnych kilka interesujących aplikacji do symulacji MES o otwartym kodzie źródłowym, środowisko pracy [MES](FEM_Workbench/pl.md) pozwala na wybór pomiędzy nimi. Jednak obecnie tylko [CalculiX](http://www.calculix.de/) jest w pełni zaimplementowany. Wymagany jest również inny program, o nazwie [NetGen](https://sourceforge.net/projects/netgen-mesher/), który odpowiada za generowanie siatki podziału. Szczegółowe instrukcje dotyczące instalacji tych dwóch komponentów znajdują się [w dokumentacji FreeCAD](FEM_Install/pl.md).
 
 ### Przygotowanie geometrii 
 
-Zaczniemy od domu, który wymodelowaliśmy w rozdziale _. Należy jednak dokonać pewnych zmian, aby model nadawał się do obliczeń metodą MES. Polega to w zasadzie na odrzuceniu obiektów, których nie chcemy uwzględniać w obliczeniach, takich jak drzwi i okna, oraz połączeniu wszystkich pozostałych obiektów w jeden.
+Zaczniemy od domu, który wymodelowaliśmy w rozdziale [Modelowanie BIM](Manual:BIM_modeling/pl.md). Należy jednak dokonać pewnych zmian, aby model nadawał się do obliczeń metodą MES. Polega to w zasadzie na odrzuceniu obiektów, których nie chcemy uwzględniać w obliczeniach, takich jak drzwi i okna, oraz połączeniu wszystkich pozostałych obiektów w jeden.
 
 -   Wczytaj [model domu](https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/house.FCStd), który wcześniej wymodelowaliśmy
 -   Usuń lub ukryj obiekt strony, płaszczyzny przekroju i wymiary, pozostawiając tylko nasz model.

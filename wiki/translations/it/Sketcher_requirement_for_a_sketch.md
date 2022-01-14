@@ -2,7 +2,7 @@
 {{TutorialInfo/it
 |Topic=Sketch
 |Level=Base
-|Author=_
+|Author=[Maker](User_Maker.md)
 |Time=
 |FCVersion=Tutte
 }}
@@ -17,7 +17,7 @@ Se un profilo è chiuso o aperto non è evidente e non riconoscibile. Ad esempio
 
 
 
-*Un semplice schizzo. A sinistra una curva chiusa solo in quattro punti indicati in rosso, che sono i vincoli automatici applicati quando si disegna con lo strumento <img src=images/_Sketcher_CreatePolyline.svg style="width:32px"> [Polilinea](Sketcher_CreatePolyline.md). Al centro un avviso di faccia non valida perché il contorno è aperto. A destra il contorno chiuso nei restanti quattro punti indicati in verde.*
+*Un semplice schizzo. A sinistra una curva chiusa solo in quattro punti indicati in rosso, che sono i vincoli automatici applicati quando si disegna con lo strumento [<img src=images/_Sketcher_CreatePolyline.svg style="width:32px"> [Polilinea](Sketcher_CreatePolyline.md). Al centro un avviso di faccia non valida perché il contorno è aperto. A destra il contorno chiuso nei restanti quattro punti indicati in verde.*
 
 Un funzionamento parametrico coerente significa che lo schizzo è completamente determinato.
 

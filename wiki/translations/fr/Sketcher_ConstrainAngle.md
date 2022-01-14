@@ -27,9 +27,9 @@ Pour appliquer une contrainte d\'angle, il faut suivre les étapes suivantes :
 
 1.  Sélectionnez une, deux ou trois entités dans l\'esquisse. Le mode sera choisi en fonction de la sélection.
 2.  Lancez la contrainte en utilisant plusieurs méthodes:
-    -   En appuyant sur le bouton **<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Contraint angulaire](Sketcher_ConstrainAngle/fr.md)** dans la barre d\'outils.
+    -   En appuyant sur le bouton **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Contraint angulaire](Sketcher_ConstrainAngle/fr.md)** dans la barre d\'outils.
     -   Utilisation du raccourci clavier **A**. (**A** est pour **A**ngle)
-    -   L\'utilisation de **Sketch → Contraintes d'esquisse → <img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Contraint angulaire** forme l\'entrée de menu supérieure
+    -   L\'utilisation de **Sketch → Contraintes d'esquisse → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Contraint angulaire** forme l\'entrée de menu supérieure
 3.  Une boîte de dialogue d\'édition apparaît.
 4.  Modifiez l\'angle si nécessaire. **Remarque :** l\'angle peut être entré comme une expression qui sera évaluée et le résultat sera stocké.
 5.  Cliquez sur **OK**

@@ -12,7 +12,7 @@ The **Leave sketch** command exits the sketch editing mode and frees up the [Tas
 ## Usage
 
 1.  There are several ways to invoke the Sketcher LeaveSketch tool:
-    -   Pressing the **<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Leave sketch](Sketcher_LeaveSketch.md)** button
+    -   Pressing the **[<img src=images/Sketcher_LeaveSketch.svg style="width:16px"> [Leave sketch](Sketcher_LeaveSketch.md)** button
     -   Pressing the **Close** button at the top of the [task panel](Task_panel.md).
 
 
@@ -26,7 +26,7 @@ The **Leave sketch** command exits the sketch editing mode and frees up the [Tas
 
 }}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Sketcher/pt](<img src="images/Property.png" style="width:16px"> Sketcher/pt.md)
 
 ---
 [documentation index](../README.md) > [Sketcher](Sketcher_Workbench.md) > Sketcher LeaveSketch/pt

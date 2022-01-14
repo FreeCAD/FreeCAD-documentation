@@ -11,7 +11,7 @@
 
 ## Description
 
-La commande <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> _ est utilisée.
+La commande <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Perçage de paroi](SheetMetal_SketchOnSheet/fr.md) découpe des trous le long des parois pliées d\'un objet en tôle. Pour la disposition des trous, une <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [esquisse](Sketcher_Workbench/fr.md) est utilisée.
 
 Contrairement à la commande <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [PartDesign Cavité](PartDesign_Pocket/fr.md) où les trous sont simplement découpés le long de la normale à l\'esquisse (axe z local), cet outil agit comme s\'il dépliait l\'objet en tôle, découpait les trous et repliait l\'objet.
 
@@ -107,7 +107,7 @@ Ce bidule est constitué d\'un objet en tôle pliée auquel on a ajouté des tro
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal SketchOnSheet/fr

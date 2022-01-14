@@ -2,7 +2,7 @@
 {{TutorialInfo/pl
 |Topic=Modelowanie
 |Level=Początkujący
-|Author=Mark Stephen (_) oraz HarryGeier (_)
+|Author=Mark Stephen ([Quick61](User_Quick61.md)) oraz HarryGeier ([HarryGeier](User_HarryGeier.md))
 |Time=poniżej godziny
 |FCVersion=0.17 lub nowszy
 |Files=[https://github.com/FreeCAD/Examples/blob/master/Basic_Part_Design_Tutorial_Example_017_Files/Basic_Part_Design_Tutorial_017.fcstd Basic Part Design for v0.17]

@@ -1,7 +1,7 @@
 # Manual:Creating parametric objects/it
 {{Manual:TOC/it}}
 
-Nel _, abbiamo visto come creare una geometria Parte, e come visualizzarla sullo schermo, collegandola ad un document object \"muto\" (non parametrico). Questo è noioso quando vogliamo cambiare la forma di tale oggetto. Dovremmo creare una nuova forma, poi attribuirla di nuovo al nostro oggetto.
+Nel [precedente capitolo](Manual:Creating_and_manipulating_geometry/it.md), abbiamo visto come creare una geometria Parte, e come visualizzarla sullo schermo, collegandola ad un document object \"muto\" (non parametrico). Questo è noioso quando vogliamo cambiare la forma di tale oggetto. Dovremmo creare una nuova forma, poi attribuirla di nuovo al nostro oggetto.
 
 Ma, in tutti i capitoli precedenti di questo manuale abbiamo visto anche quanto sono potenti gli oggetti parametrici. Basta cambiare una loro proprietà, e la forma viene ricalcolata al volo.
 
@@ -122,7 +122,7 @@ Ricordare che se si desidera distribuire a terzi i file creati con questo nuovo 
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Manual:Creating parametric objects/it

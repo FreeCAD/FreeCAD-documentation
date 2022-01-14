@@ -42,7 +42,7 @@ Zusätzlich zu den Optionen unter Bearbeiten → Voreinstellungen kann der [Tech
 
 
 
-_ _ _ _
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md) [<img src="images/Property.png" style="width:16px"> Draft](Category_Draft.md) [<img src="images/Property.png" style="width:16px"> TechDraw](Category_TechDraw.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > DXF/de

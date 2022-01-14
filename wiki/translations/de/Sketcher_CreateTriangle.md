@@ -17,7 +17,7 @@ Zeichnet ein gleichseitiges Dreieck, das in einen Konstruktionsgeometriekreis ei
 
 ## Anwendung
 
-1.  Drücke die **<img src=images/Sketcher_CreateTriangle.svg style="width:16px"> [Gleichseitiges Dreieck erstellen](Sketcher_CreateTriangle/de.md)**-Schaltfläche.
+1.  Drücke die **[<img src=images/Sketcher_CreateTriangle.svg style="width:16px"> [Gleichseitiges Dreieck erstellen](Sketcher_CreateTriangle/de.md)**-Schaltfläche.
 2.  Klicke einmal, um das Zentrum zu setzen.
 3.  Bewege die Maus und klicke ein zweites Mal, um einen der Knoten zu setzen.
 4.  Drücken von **Esc** oder Klicken der rechten Maustaste bricht die Funktion ab.

@@ -23,14 +23,14 @@ Si plus d\'un cercle ou d\'un arc est sélectionné avant de lancer la commande.
 -   Si la contrainte est appliquée en mode \'Référence\', une nouvelle contrainte de référence est ajoutée à chaque objet séparément selon les règles ci-dessus.
 -   Si la contrainte est appliquée en mode \'Normal\' (conduite), les règles suivantes sont appliquées
     -   Une contrainte de référence est appliquée séparément sur chaque objet qui est une géométrie externe.
-    -   Des **<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Contraintes égalités](Sketcher_ConstrainEqual/fr.md)** sont appliquées successivement entre tous les objets de géométrie réelle/construction et une contrainte dimensionnelle est appliquée au premier objet sélectionné selon les règles ci-dessus.
+    -   Des **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Contraintes égalités](Sketcher_ConstrainEqual/fr.md)** sont appliquées successivement entre tous les objets de géométrie réelle/construction et une contrainte dimensionnelle est appliquée au premier objet sélectionné selon les règles ci-dessus.
 
 NB : Les pôles B-spline ne peuvent pas être mélangés avec d\'autres types d\'objets dans la sélection.
 
 ## Utilisation
 
 1.  Choisissez un ou plusieurs cercles ou arcs.
-2.  Appuyez sur le bouton **<img src=images/Sketcher_ConstrainRadiam.svg style="width:16px"> [Constrainte automatique rayon / diamètre](Sketcher_ConstrainRadiam/fr.md)**.
+2.  Appuyez sur le bouton **[<img src=images/Sketcher_ConstrainRadiam.svg style="width:16px"> [Constrainte automatique rayon / diamètre](Sketcher_ConstrainRadiam/fr.md)**.
 3.  Une boîte de dialogue s\'ouvre pour modifier ou confirmer la valeur. Appuyez sur **OK** pour valider.
 4.  Il est possible de déplacer et de faire pivoter l\'étiquette et la ligne de dimension dans la vue 3D en cliquant sur la valeur et en la faisant glisser tout en maintenant le bouton gauche de la souris enfoncé.
 

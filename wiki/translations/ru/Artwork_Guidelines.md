@@ -177,7 +177,7 @@ Inkscape имеет удобный инструмент для проверки 
 
 {{Artwork}}
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Artwork Guidelines/ru

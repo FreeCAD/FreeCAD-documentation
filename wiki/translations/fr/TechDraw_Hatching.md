@@ -13,7 +13,7 @@ L\'atelier TechDraw dispose de deux outils de hachurage:
 1.  Sélectionnez une face
 
     :   <img alt="" src=images/SelectFace.png  style="width:150px;">
-2.  En fonction des besoins, appuyez sur les icônes <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> _.
+2.  En fonction des besoins, appuyez sur les icônes <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> [TechDraw Hachures par motifs](TechDraw_Hatch/fr.md) ou <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [TechDraw Hachures géométriques](TechDraw_GeometricHatch/fr.md).
 
 **Résultat:** La surface sera hachurée initialement en utilisant les valeurs par défaut. **Remarque**: modifiez les propriétés des hachures pour obtenir le motif souhaité.
 

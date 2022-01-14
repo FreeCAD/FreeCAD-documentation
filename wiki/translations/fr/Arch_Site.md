@@ -91,7 +91,7 @@ La géométrie du site est alors calculée, les surfaces les périmètres et vol
 
 ## Diagrammes solaires et éoliens 
 
-Si _ peut afficher un diagramme solaire et/ou une rose des vents. Pour cela, les propriétés {{PropertyData/fr|Longitude}}, {{PropertyData/fr|Latitude}} et {{PropertyData/fr|NorthDeviation}} doivent être correctement définies et {{PropertyView/fr|SolarDiagram}} ou {{PropertyView/fr|Wind Rose}} activée `True`. Respectivement {{Version/fr|0.17}} et {{Version/fr|0.19}}
+Si [Ladybug](https://www.ladybug.tools/ladybug.html) est installé, [Arch Site](Arch_Site/fr.md) peut afficher un diagramme solaire et/ou une rose des vents. Pour cela, les propriétés {{PropertyData/fr|Longitude}}, {{PropertyData/fr|Latitude}} et {{PropertyData/fr|NorthDeviation}} doivent être correctement définies et {{PropertyView/fr|SolarDiagram}} ou {{PropertyView/fr|Wind Rose}} activée `True`. Respectivement {{Version/fr|0.17}} et {{Version/fr|0.19}}
 
 **Remarque**: Si vous n\'avez pas Ladybug, [pysolar](http://pysolar.org/) est toujours pris en charge pour générer des diagrammes solaires mais pas les roses des vents. Pysolar 0.7 ou supérieur est requis. Cette version ne fonctionne qu\'avec Python 3. Si vous avez besoin de cette fonctionnalité avec Python 2, vous devriez avoir Pysolar 0.6 car c\'est la dernière version qui fonctionne avec Python 2. Cependant, Ladybug est un outil beaucoup plus puissant qui sera probablement plus utilisé dans l\'avenir. Nous vous recommandons donc de l\'utiliser au lieu de pysolar. Ladybug peut être installé simplement via [pip](https://github.com/ladybug-tools/ladybug).
 

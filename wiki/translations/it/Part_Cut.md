@@ -17,7 +17,7 @@
 
 </div>
 
-_
+[480px\|left\|Cut](IMAGE:Part_Cut_01.png.md)
 
 ## Utilizzo
 

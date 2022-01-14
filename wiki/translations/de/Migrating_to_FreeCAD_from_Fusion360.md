@@ -27,17 +27,17 @@ Verweise auf die [Glossar](Glossary/de.md) Seite im Allgemeinen, aber hier ist e
 
 \#\* Welche Formate werden in FreeCAD unterstützt?
 
-\#\* Das native Dateiformat in FreeCAD ist BREP, _ Geometriekern.
+\#\* Das native Dateiformat in FreeCAD ist BREP, [boundary representation](https://en.wikipedia.org/wiki/Boundary_representation), bereitgestellt vom internen [OpenCASCADE (OCCT)](OpenCASCADE/de.md) Geometriekern.
 
 \#\* FreeCAD unterstützt alle Formate, die OCCT unterstützt, also zumindest STEP und IGES.
 
 1.  Welche Formate sollte ich verwenden, um zu FreeCAD zu migrieren?
     -   STEP ist das beste Format, da es ein solides [Form](Shape/de.md) Format ist, im Gegensatz zu einem [Polygonnetz](Mesh/de.md) (STL, OBJ, DAE). Beispiel, [Step mit Farben importieren](https://forum.freecadweb.org/viewtopic.php?f=3&t=50308).
-    -   Der Import eines STL ist möglich, aber dieses Polygonnetz Format lässt sich nur schwer weiter bearbeiten. Wir empfehlen, importierte Polygonnetze mit **<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [PartFormAusNetz](Part_ShapeFromMesh/de.md)** in Festkörper Formen zu konvertieren. Am besten modellierst du das Objekt in FreeCAD nach, während du das Netz als Referenz verwenden.
+    -   Der Import eines STL ist möglich, aber dieses Polygonnetz Format lässt sich nur schwer weiter bearbeiten. Wir empfehlen, importierte Polygonnetze mit **[<img src=images/Part_ShapeFromMesh.svg style="width:16px"> [PartFormAusNetz](Part_ShapeFromMesh/de.md)** in Festkörper Formen zu konvertieren. Am besten modellierst du das Objekt in FreeCAD nach, während du das Netz als Referenz verwenden.
 
 ## Tips
 
--   \@MPetrika (_ von HakanSeven12
+-   \@MPetrika ([twitter](https://twitter.com/MPetrikas/status/1362051484704264198)) empfiehlt die Installation der [ModernUI Arbeitsbereich](ModernUI_Workbench/de.md) von HakanSeven12
 
 ## Lernmaterialien
 

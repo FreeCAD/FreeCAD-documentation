@@ -60,7 +60,7 @@ Alternativ sind einige Bedienelemente der Tastatur immer verfügbar, unabhängig
 
 -   Die Tasten **Shift**+{{ASCII|17}} und **Shift**+{{ASCII|16}} um die Ansicht um 90 Grad zu drehen
 
--   Die Zifferntasten {{ASCII|48}}, {{ASCII|49}}, {{ASCII|50}}, {{ASCII|51}}{{ASCII|52}}, {{ASCII|53}} und {{ASCII|54}} für die sieben Standardansichten: <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> _, <img alt="" src=images/Std_ViewTop.svg  style="width:24px;"> _, <img alt="" src=images/Std_ViewRear.svg  style="width:24px;"> _ und <img alt="" src=images/Std_ViewLeft.svg  style="width:24px;"> [Ansicht von links](Std_ViewLeft/de.md)
+-   Die Zifferntasten {{ASCII|48}}, {{ASCII|49}}, {{ASCII|50}}, {{ASCII|51}}{{ASCII|52}}, {{ASCII|53}} und {{ASCII|54}} für die sieben Standardansichten: <img alt="" src=images/Std_ViewIsometric.svg  style="width:24px;"> [Isometrisch](Std_ViewIsometric/de.md), <img alt="" src=images/Std_ViewFront.svg  style="width:24px;"> [Vorderansicht](Std_ViewFront/de.md), <img alt="" src=images/Std_ViewTop.svg  style="width:24px;"> [Draufsicht](Std_ViewTop/de.md), <img alt="" src=images/Std_ViewRight.svg  style="width:24px;"> [Ansicht von rechts](Std_ViewRight/de.md), <img alt="" src=images/Std_ViewRear.svg  style="width:24px;"> [Rückansicht](Std_ViewRear/de.md), <img alt="" src=images/Std_ViewBottom.svg  style="width:24px;"> [Boden](Std_ViewBottom/de.md) und <img alt="" src=images/Std_ViewLeft.svg  style="width:24px;"> [Ansicht von links](Std_ViewLeft/de.md)
 
 -    **V**
     **O**setzt die Kamera in die <img alt="" src=images/View-isometric.svg  style="width:24px;"> [Orthographische Ansicht](Std_OrthographicCamera.md).

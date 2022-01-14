@@ -18,14 +18,14 @@
 
 <div class="mw-translate-fuzzy">
 
-El herramienta **<img src=images/Spreadsheet_Import.svg style="width:16px"> _.
+El herramienta **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Importación de hojas de cálculo](Spreadsheet_Import/es.md)** permite importar un archivo de valores separados por tabulaciones (denominado vagamente CSV) (inglés: valores separados por comas) a una hoja de cálculo para poder modificarlo y utilizarlo con [expresiones](expressions/es.md).
 
 
 </div>
 
 ## Utilización
 
-1.  Pulse el **<img src=images/Spreadsheet_Import.svg style="width:16px"> [Importación de hojas de cálculo](Spreadsheet_Import/es.md)**.
+1.  Pulse el **[<img src=images/Spreadsheet_Import.svg style="width:16px"> [Importación de hojas de cálculo](Spreadsheet_Import/es.md)**.
 2.  Elija el archivo CSV correcto.
 
 ## Notas

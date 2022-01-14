@@ -25,7 +25,7 @@ If more than one circle or arc is selected before launching the command :
     -   A reference constrain is applied separately on each object which is an external geometry
 
     -   
-        **<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Equal constrains](Sketcher_ConstrainEqual.md)**
+        **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Equal constrains](Sketcher_ConstrainEqual.md)**
         
         are applied sequentially between all real/construction geometry objects and a dimensional constrain is applied to the first selected object according above rules
 
@@ -34,7 +34,7 @@ NB : B-spline poles can\'t be mixed with other object type in the selection
 ## Как использовать 
 
 1.  Pick one or more circles or arcs.
-2.  Press the **<img src=images/Sketcher_ConstrainRadiam.svg style="width:16px"> [Constrain auto radius/diameter](Sketcher_ConstrainRadiam.md)** button.
+2.  Press the **[<img src=images/Sketcher_ConstrainRadiam.svg style="width:16px"> [Constrain auto radius/diameter](Sketcher_ConstrainRadiam.md)** button.
 3.  A pop up dialog opens to edit or confirm the value. Press **OK** to validate.
 4.  Optionally the dimension label and line can be moved and rotated in the 3D view by clicking on the value and dragging while keeping the left mouse button pressed.
 

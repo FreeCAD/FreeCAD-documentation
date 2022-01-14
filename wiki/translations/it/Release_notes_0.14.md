@@ -1,7 +1,7 @@
 # Release notes 0.14/it
 <div class="mw-translate-fuzzy">
 
-FreeCAD 0.14 è stato rilasciato il 1 Luglio 2014. Questo è un riassunto dei cambiamenti più interessanti. L\'elenco completo delle modifiche è disponibile in _ - [0.12](Release_notes_0.12/it.md) - [0.11](Release_notes_0.11.md)
+FreeCAD 0.14 è stato rilasciato il 1 Luglio 2014. Questo è un riassunto dei cambiamenti più interessanti. L\'elenco completo delle modifiche è disponibile in [Mantis changelog](http://www.freecadweb.org/tracker/changelog_page.php). Versioni precedenti in: [0.13](Release_notes_0.13/it.md) - [0.12](Release_notes_0.12/it.md) - [0.11](Release_notes_0.11.md)
 
 
 </div>
@@ -90,7 +90,7 @@ Il modulo [Part](Part_Workbench/it.md) ora fornisce uno strumento [Make Compound
 
 ### Primitive Part 
 
-Nuove Part primitive sono state aggiunte allo strumento _ ora possono usufruire di questa funzione e creare anche queste primitive, invece del loro regolare oggetto Draft, se l\'opzione corrispondente è impostata nelle impostazioni delle preferenze Draft.
+Nuove Part primitive sono state aggiunte allo strumento [Crea primitive](Part_CreatePrimitives/it.md): Prismi, poligoni regolari e spirali ora sono facili da creare compilando un paio di parametri. Inoltre, alcuni strumenti del modulo [Draft](Draft_Workbench/it.md) ora possono usufruire di questa funzione e creare anche queste primitive, invece del loro regolare oggetto Draft, se l\'opzione corrispondente è impostata nelle impostazioni delle preferenze Draft.
 
 ![](images/Part_Create_Primitives1.jpeg )
 
@@ -167,7 +167,7 @@ Gli script .pov prodotti da FreeCAD ora contengono il rapporto di auto-aspetto. 
 
 <div class="mw-translate-fuzzy">
 
-Insieme al supporto esistente per _ ora supporta anche [LuxRender](http://en.wikipedia.org/wiki/LuxRender). Se POV-Ray è un [classical-style raytracer](http://en.wikipedia.org/wiki/Ray_tracing_%28graphics%29), che spara raggi dalla telecamera per trovare il colore di ogni pixel dell\'immagine, Luxrender invece è un [unbiased renderer](http://en.wikipedia.org/wiki/Unbiased_rendering), che richiede molto più tempo per rendere le scene, ma è in grado di produrre una illuminazione molto più realistica.
+Insieme al supporto esistente per [POV-Ray](http://en.wikipedia.org/wiki/POV-Ray), il modulo [Raytracing](Raytracing_Workbench/it.md) ora supporta anche [LuxRender](http://en.wikipedia.org/wiki/LuxRender). Se POV-Ray è un [classical-style raytracer](http://en.wikipedia.org/wiki/Ray_tracing_%28graphics%29), che spara raggi dalla telecamera per trovare il colore di ogni pixel dell\'immagine, Luxrender invece è un [unbiased renderer](http://en.wikipedia.org/wiki/Unbiased_rendering), che richiede molto più tempo per rendere le scene, ma è in grado di produrre una illuminazione molto più realistica.
 
 
 </div>
@@ -185,7 +185,7 @@ In FreeCAD è stato aggiunto un nuovo [ambiente Spreadsheet](Spreadsheet_Workben
 
 <div class="mw-translate-fuzzy">
 
-Ora FreeCAD è in grado di importare ed esportare verso il _.
+Ora FreeCAD è in grado di importare ed esportare verso il [formato DWG](http://en.wikipedia.org/wiki/.dwg), grazie ala multipiattaforma free [Teigha Converter](http://www.opendesign.com/guestfiles/TeighaFileConverter). Quando Teigha Converter è installato, e il suo percorso è impostato nelle preferenze di Draft, FreeCAD è in grado di usarlo per importare ed esportare file DWG, convertendoli in dxf, quindi utilizzando l\'importatore ed esportatore dxf di Draft. L\'importazione e l\'esportazione dei file DWG ha quindi le stesse limitazioni del [formato dxf](Draft_DXF/it.md).
 
 
 </div>
@@ -217,7 +217,7 @@ Lo strumento [Dimensioni](Draft_Dimension/it.md) è stato completamente ricodifi
 
 <div class="mw-translate-fuzzy">
 
-L\'ambiente _.
+L\'ambiente [Draft](Draft_Workbench/it.md) dispone anche di un nuovo \"giocattolo\": tratteggio. Sul specifici oggetti Draft (quelli che formano una forma chiusa come polilinee chiuse, rettangoli, poligoni regolari o cerchi), ora è possibile applicare un tratteggio. Attualmente, sono disponibili di default solo un paio di modelli di tratteggio, ma poiché tali modelli sono molto facili da creare (sono semplici file SVG), e possono già essere aggiunti dall\'utente dei modelli personalizzati, la collezione di default potrebbe crescere rapidamente. Gli oggetti Draft con i riempimenti sono anche supportati fedelmente dall\'ambiente [Drawing](Drawing_Workbench/it.md).
 
 
 </div>
@@ -247,7 +247,7 @@ Gli strumenti [Upgrade](Draft_Upgrade/it.md) e [Downgrade](Draft_Downgrade/it.md
 
 <div class="mw-translate-fuzzy">
 
-È stato aggiunto un nuovo strumento _, dove ora è possibile creare nuovi oggetti dalle facce di diversi altri oggetti.
+È stato aggiunto un nuovo strumento [Facebinder](Draft_Facebinder/it.md), che fa un\'operazione molto semplice, ma potenzialmente molto utile: Riunisce qualsiasi quantità di facce selezionate da diversi oggetti, e le usa per creare un nuovo oggetto. Il nuovo oggetto mantiene i collegamenti agli oggetti originali, in modo che qualsiasi successiva loro modifica viene riflessa nell\'oggetto facebinder. Questo dovrebbe essere utile soprattutto per gli oggetti [architettura](Arch_Workbench/it.md), dove ora è possibile creare nuovi oggetti dalle facce di diversi altri oggetti.
 
 
 </div>
@@ -261,7 +261,7 @@ Lo strumento [ShapeString](Draft_ShapeString/it.md) crea oggetti planari da un t
 
 <div class="mw-translate-fuzzy">
 
-Accanto alle curve _. Può essere creata cliccando dei punti, allo stesso modo di altri oggetti Draft, ma poi si può [editare](Draft_Edit/it.md) e modificare i suoi punti di ancoraggio, controllare con precisione la forma della curva.
+Accanto alle curve [arco di circonferenza](Draft_Arc/it.md) e [B-spline](Draft_BSpline/it.md) già esistenti, nel modulo Draft ne è stata inserita una nuova: la [curva di Bezier](Draft_BezCurve/it.md). Può essere creata cliccando dei punti, allo stesso modo di altri oggetti Draft, ma poi si può [editare](Draft_Edit/it.md) e modificare i suoi punti di ancoraggio, controllare con precisione la forma della curva.
 
 
 </div>
@@ -273,7 +273,7 @@ Accanto alle curve _. Può essere creata cliccando dei punti, allo stesso modo d
 
 <div class="mw-translate-fuzzy">
 
-Lo strumento _. Ora è anche possibile assegnare agli elementi strutturali un percorso di estrusione, quindi sono diventate possibili delle configurazioni molto avanzate. Alcuni dei pezzi offerti da _ possono anche essere creati direttamente come elementi strutturali Arch.
+Lo strumento [Struttura](Arch_Structure/it.md) ha avuto diversi miglioramenti: ora è dotato di caratteristiche predefinite che consentono di creare rapidamente una trave o una colonna sulla base di un profilo standard di tipo INP o HEB, e di un sistema di posizionamento più facile, con una speciale modalità di [aggancio](Draft_Snap/it.md). Ora è anche possibile assegnare agli elementi strutturali un percorso di estrusione, quindi sono diventate possibili delle configurazioni molto avanzate. Alcuni dei pezzi offerti da [BOLTS](Release_notes_0.14#Plugins_and_side_projects:_Parts_library.2C_BOLTS.2C_Eagle_importer.md) possono anche essere creati direttamente come elementi strutturali Arch.
 
 
 </div>
@@ -290,7 +290,7 @@ Ora è disponibile un nuovo oggetto [Spazio](Arch_Space/it.md) che consente di c
 
 ### Muri multistrato 
 
-Ora i _, consente di realizzare complesse strutture di pareti, o pareti con strati isolamenti. Inoltre, questi muri sono consapevoli dei loro \"muri fratelli\" (le altre pareti basati sulla stessa linea di base), e qualsiasi finestra posta su una di queste pareti anche creare una apertura nei suoi fratelli.
+Ora i [Muri](Arch_Wall/it.md) possono essere multistrato con un trucco molto semplice: più pareti possono essere basate su una stessa linea di base, specificando una distanza di spostamento dalla linea di base. Questo, combinato ad esempio con [Carpenteria](Arch_Frame/it.md), consente di realizzare complesse strutture di pareti, o pareti con strati isolamenti. Inoltre, questi muri sono consapevoli dei loro \"muri fratelli\" (le altre pareti basati sulla stessa linea di base), e qualsiasi finestra posta su una di queste pareti anche creare una apertura nei suoi fratelli.
 
 <img alt="" src=images/Screenshot_arch_multiwall.jpg  style="width:1024px;">
 
@@ -330,7 +330,7 @@ Un nuovo [tutorial](Arch_tutorial/it.md) di 35 pagine descrive l\'ambiente Arch 
 
 L\'elenco completo delle correzioni e delle nuove funzionalità può essere letto suhttp://freecadweb.org/tracker/changelog\_page.php
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > Release notes 0.14/it

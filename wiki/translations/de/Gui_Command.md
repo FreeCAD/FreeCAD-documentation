@@ -13,7 +13,7 @@ Der Gui Befehl ist eine der wichtigsten Funktionen von FreeCAD. im Hauptinterakt
 
 Der Gui Befehl wird standardmäßig benannt: *ModuleName\_CommandName*. z.B. \"[Base\_Open](Base_Open/de.md)\" Dies ist der Open Gui Befehl im Basissystem. Der Gui Befehl in einem bestimmten Modul wird mit dem Modulnamen benannt. davor z.B. \"[Teil Zylinder](Part_Cylinder/de.md)\"
 
-Wenn die Dokumentation noch nicht fertig ist, verwende _.
+Wenn die Dokumentation noch nicht fertig ist, verwende [Template:UnfinishedDocu](Template_UnfinishedDocu.md).
 
 ## Hilfeseite
 
@@ -50,7 +50,7 @@ Es gibt viele Gui Befehle (Werkzeuge) in FreeCAD, die experimentell sind. oder f
 -   Der Befehl oder die Funktion muss \"fertig\" sein, d.h. es handelt sich nicht um eine laufende Arbeit.
 -   Es muss ein geeignetes Symbol und eine korrekte Menüposition eingerichtet werden.
 -   Es muss eine Hilfeseite haben, wie [Draft ShapeString](Draft_ShapeString/de.md).
-    -   Alle Felder in _ müssen ausgefüllt werden.
+    -   Alle Felder in [Template:GuiCommand](Template_GuiCommand.md) müssen ausgefüllt werden.
     -   Es sollte eine detaillierte Beschreibung des Befehls und aller Parameter und Einstellungen enthalten.
     -   Es sollte ein Bild der Dialoge haben, die der Befehl erzeugen wird.
     -   Es sollte eine Beschreibung der zugehörigen [Python](Python.md) Schnittstellen und Klassen mit Beispielcode enthalten.

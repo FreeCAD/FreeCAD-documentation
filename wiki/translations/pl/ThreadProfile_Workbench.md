@@ -3,7 +3,7 @@
 
 Pełna dokumentacja znajduje się na stronie Github: [Środowisko pracy ThreadProfile on Github](https://github.com/mwganson/ThreadProfile)
 
-_
+[<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md)
 
 ---
 [documentation index](../README.md) > [Addons](Category_Addons.md) > ThreadProfile Workbench/pl

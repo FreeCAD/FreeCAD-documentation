@@ -3,9 +3,9 @@
 
 ## Einführung
 
-Das Haupt Quellcode Verwaltungswerkzeug für das FreeCAD Projekt ist _ beschrieben.
+Das Haupt Quellcode Verwaltungswerkzeug für das FreeCAD Projekt ist [Git](http://en.wikipedia.org/wiki/Git_%28software%29), das in den meisten Betriebssystemen einfach über einen Paketmanager oder direkt von der Website von [Git](https://git-scm.com/) installiert werden kann. Es wird empfohlen, sich mit Git vertraut zu machen, bevor du direkt mit dem FreeCAD Quellcode arbeitest. Besuche die Seite [Git Dokumentation](https://git-scm.com/doc) für das Referenzhandbuch sowie das [Pro Git Buch](https://git-scm.com/book/en/v2), um zu lernen, das System allgemein zu nutzen. Das vorliegende Dokument konzentriert sich auf die Verwendung von Git für die FreeCAD Entwicklung. Die Kompilierung von FreeCAD ist unter [Kompilieren](Compiling/de.md) beschrieben.
 
-Während Git in erster Linie eine Terminalanwendung ist, gibt es viele grafische Anwendungen, die die Arbeit mit Zweigen, das Anwenden von Patches und das Senden von Pull Anfragen an einen Master Zweig erleichtern. Beispiele sind _.
+Während Git in erster Linie eine Terminalanwendung ist, gibt es viele grafische Anwendungen, die die Arbeit mit Zweigen, das Anwenden von Patches und das Senden von Pull Anfragen an einen Master Zweig erleichtern. Beispiele sind [gitk](https://git-scm.com/docs/gitk) (die erste entwickelte grafische Benutzeroberfläche),[gitg](https://wiki.gnome.org/Apps/Gitg/) (Gnome),[qgit](https://github.com/tibirna/qgit) (Qt), [tig](https://jonas.github.io/tig/) (Ncurses), [git-cola](http://github.com/git-cola/git-cola) und [GitKraken](https://www.gitkraken.com/) (proprietär). Eine kurze Einführung in dieses Werkzeug findest Du unter [Entwicklung von FreeCAD mit GitKraken](Developing_FreeCAD_with_GitKraken/de.md).
 
 Hinweis: Wenn dir davon schwindelig wird, gibt es eine sehr gute nicht-technische Serie über die Verwendung von Git und Github mit dem Titel \'[Git und Github für Dichter](https://youtu.be/BCQHnlnPusY)\'.
 
@@ -997,7 +997,7 @@ Besuche die Entwicklungsabteilung des [FreeCAD Forum](https://forum.freecadweb.o
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management/de

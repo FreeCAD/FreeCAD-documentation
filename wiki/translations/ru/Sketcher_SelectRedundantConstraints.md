@@ -20,7 +20,7 @@ Selects the redundant constraints of a sketch.
 ## Применение
 
 1.  Enter edit mode of sketch.
-2.  Choose **Sketch → Sketcher tools → <img src=images/Sketcher_SelectRedundantConstraints.svg style="width:16px"> Select Redundant Constraints** from the top menu.
+2.  Choose **Sketch → Sketcher tools → [<img src=images/Sketcher_SelectRedundantConstraints.svg style="width:16px"> Select Redundant Constraints** from the top menu.
 3.  The redundant constraints of the sketch will be selected.
 
 

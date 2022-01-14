@@ -11,9 +11,9 @@ Dans le wiki FreeCAD, la barre latérale est implémentée à l\'aide de modèle
 
 ### Instructions
 
-Vous pouvez aller à la page _ pour commencer la traduction.
+Vous pouvez aller à la page [Special:Translate/wiki-sidebar](Special:Translate/wiki-sidebar.md) pour commencer la traduction.
 
-Il y a un bug avec la page de téléchargement. Vous ne pouvez pas rediriger le lien vers \"Download/fr\", ou \"Download/de\", etc. Au lieu de cela, le lien pointe vers la traduction de \"Download\" dans votre propre langue. La meilleure façon de traiter ce point est de créer cette nouvelle page et de rediriger celle-ci vers la bonne page. Plus d\'information à propos des redirections sur _.
+Il y a un bug avec la page de téléchargement. Vous ne pouvez pas rediriger le lien vers \"Download/fr\", ou \"Download/de\", etc. Au lieu de cela, le lien pointe vers la traduction de \"Download\" dans votre propre langue. La meilleure façon de traiter ce point est de créer cette nouvelle page et de rediriger celle-ci vers la bonne page. Plus d\'information à propos des redirections sur [Help:Editing](Help_Editing.md).
 
 ## Remarques importantes 
 
@@ -31,7 +31,7 @@ N\'ajoutez pas les codes de langue \"/fr\", \"/de\", \"/es\", \"/ru\", etc. Si l
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Wiki](Category_Wiki.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Localisation Sidebar/fr

@@ -11,7 +11,7 @@ See [Part TopoShape](Part_TopoShape.md) for more information about this type of 
 
 
 
-*Left: parametric _, defined by vertices and triangular surfaces.*
+*Left: parametric [shape](Shape.md) defined by properties. Right: [mesh](Mesh.md), defined by vertices and triangular surfaces.*
 
 ## Usage
 
@@ -27,14 +27,14 @@ In informal usage, a \"Shape\" may be any geometrical figure that is visible in 
 
 However, when more precision is required, the distinction must be made.
 
--   A \"_.
+-   A \"[Body](Body.md)\" is an object derived from a [Part Feature](Part_Feature.md) (`Part::Feature` class), created with the [PartDesign Workbench](PartDesign_Workbench.md).
 -   A \"Shape\" is an internal object, embedded within the \"[Body](Body.md)\".
 -   A \"[Part](Part.md)\" is used to group several \"[Bodies](Body.md)\" to form an [assembly](assembly.md). A \"Part\" has a collection of \"Shapes\", but doesn\'t have a \"Shape\" of its own.
 
 
  {{Document objects navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Shape/en

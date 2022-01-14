@@ -202,7 +202,7 @@ Manchmal ist es notwendig, die Einheit von einer Zahl zu entfernen. Dies kann du
 
 ### CSV Format 
 
-FreeCAD Tabellenblätter können im _ und [Tabellenblatt Export](Spreadsheet_Export/de.md) für weitere Informationen.
+FreeCAD Tabellenblätter können im [1](https://de.wikipedia.org/wiki/CSV_(Dateiformat)) Format importiert und exportiert werden, welches auch von den meisten anderen Tabellenkalkulationsanwendungen wie Microsoft Excel oder LibreOffice Calc gelesen und geschrieben werden kann. Siehe [Tabellenblatt Import](Spreadsheet_Import/de.md) und [Tabellenblatt Export](Spreadsheet_Export/de.md) für weitere Informationen.
 
 ### XLSX Format 
 
@@ -248,7 +248,7 @@ sheet.get('Diameter')
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Spreadsheet Workbench/de

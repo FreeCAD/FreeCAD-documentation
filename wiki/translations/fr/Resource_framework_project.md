@@ -123,7 +123,7 @@ Une **class design** pour le Resource framwork.
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Resource framework project/fr

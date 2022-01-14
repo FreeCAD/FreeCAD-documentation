@@ -20,7 +20,7 @@ Crea un **sistema di coordinate locali** che può essere usato come riferimento 
 
 ## Utilizzo
 
-1.  Premere il pulsante **<img src=images/PartDesign_CoordinateSystem.svg style="width:16px"> [Sistema di coordinate locale](PartDesign_CoordinateSystem/it.md)**.
+1.  Premere il pulsante **[<img src=images/PartDesign_CoordinateSystem.svg style="width:16px"> [Sistema di coordinate locale](PartDesign_CoordinateSystem/it.md)**.
 2.  Definire i parametri del sistema di coordinate. Selezionare un primo riferimento nella vista 3D per filtrare le modalità di associazione disponibili.
 3.  A seconda del riferimento selezionato, nell\'elenco possono essere disponibili una o più modalità di associazione. La più probabile viene selezionata automaticamente e mostrata in grassetto nell\'elenco. Nella parte superiore del pannello Parametri appare in verde il testo \'\' Associato con modalità \'\' insieme al nome della modalità di associazione.
 4.  Per aggiungere un riferimento aggiuntivo, premere il successivo pulsante **Riferimento**. Una volta premuto, l\'etichetta cambia in \"Selezione \...\" fino a quando viene effettuata una selezione.

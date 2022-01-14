@@ -12,7 +12,7 @@ Ad esempio, un bullone, una ranella e un dado sono tre corpi separati che, quand
 
 
 
-*A sinistra: tre solidi contigui separati, ognuno dei quali modellato da un _ per creare un assemblaggio.*
+*A sinistra: tre solidi contigui separati, ognuno dei quali modellato da un [corpo di PartDesign](PartDesign_Body/it.md). A destra: i corpi separati uniti assieme in una [Parte](Std_Part/it.md) per creare un assemblaggio.*
 
 ## Utilizzo
 
@@ -38,7 +38,7 @@ In generale, l\'oggetto <img alt="" src=images/Std_Part.svg  style="width:16px;"
 
 ### Assemblaggio regolamentato 
 
-È possibile usare un ambiente dedicato all\'assemblaggio, come <img alt="" src=images/A2p_workbench.svg  style="width:16px;"> _, o <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:16px;"> [Assembly4](Assembly4_Workbench/it.md). Si noti che [Assembly2](Assembly2_Workbench/it.md) non è mantenuto; il suo uso è fortemente sconsigliato per i nuovi modelli.
+È possibile usare un ambiente dedicato all\'assemblaggio, come <img alt="" src=images/A2p_workbench.svg  style="width:16px;"> [A2plus](A2plus_Workbench/it.md), <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:16px;"> [Assembly3](Assembly3_Workbench/it.md), o <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:16px;"> [Assembly4](Assembly4_Workbench/it.md). Si noti che [Assembly2](Assembly2_Workbench/it.md) non è mantenuto; il suo uso è fortemente sconsigliato per i nuovi modelli.
 
 Gli ambienti di assemblaggio usano vincoli ed espressioni per creare relazioni tra i pezzi del modello, in modo da legare matematicamente gli oggetti sul posto; per esempio, \"questa faccia dovrebbe attaccarsi a questa altra faccia\", \"questo cilindro dovrebbe essere concentrico a questo cerchio\", \"questo punto dovrebbe seguire questo bordo\", ecc.
 
@@ -57,7 +57,7 @@ Gli ambienti di assemblaggio continuano ad essere sviluppati, e ci si aspetta ch
 
 }} {{Document objects navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Assembly/it

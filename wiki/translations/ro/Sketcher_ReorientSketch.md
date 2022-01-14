@@ -28,12 +28,12 @@ Vă permite să detașați o schiță de pe o fațetă și să o atașați la un
 5.  Puteți să atașați o schiță pe unul dintre planurile principale
 6.  Aveți și posibilitatea să adăugați o deplasare pozitivă sau negativă (offset).
 
-_
+[left\|Fenêtre de sélection du plan](IMAGE:Sketcher_New_it.png.md)
 Orientarea schiței
 
-* Planul XY _
-* Planul XZ _
-* Planul YZ _
+* Planul XY [24px](IMAGE:View-top.svg.md)
+* Planul XZ [24px](IMAGE:View-front.svg.md)
+* Planul YZ [24px](IMAGE:View-right.svg.md)
 
 
 

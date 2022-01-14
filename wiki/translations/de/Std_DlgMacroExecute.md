@@ -23,7 +23,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Diese Funktion führt das im Editor ausgewählte oder aktive Makro aus. Sie ist über {{MenuCommand/de|Makro → Makro ausführen}} oder über **<img src=images/Std_DlgMacroExecute.png style="width:16px"> Makro ausführen** Schaltfläche in der Makro Werkzeugleiste <img alt="" src=images/Macros_toolbar.jpg  style="width:" height="24px;"> zugänglich.
+Diese Funktion führt das im Editor ausgewählte oder aktive Makro aus. Sie ist über {{MenuCommand/de|Makro → Makro ausführen}} oder über **[<img src=images/Std_DlgMacroExecute.png style="width:16px"> Makro ausführen** Schaltfläche in der Makro Werkzeugleiste <img alt="" src=images/Macros_toolbar.jpg  style="width:" height="24px;"> zugänglich.
 
 
 </div>
@@ -42,7 +42,7 @@ Diese Funktion führt das im Editor ausgewählte oder aktive Makro aus. Sie ist 
 
 <div class="mw-translate-fuzzy">
 
-Wenn Du in {{MenuCommand/de|<img src=images/Std_DlgMacroExecuteDirect.png style="width:16px"> eingibst <img src=images/Std_DlgMacroExecute.png style="width:Makros...](Std_DlgMacroExecuteDirect/de.md)}}, die Schaltfläche **[16px"> Makro ausführen** wird grün <img alt="" src=images/Menu_Std_DlgMacroExecute_fr_02.png  style="width:16px;">. Klicke auf diese Schaltfläche, um das Makro auszuführen.
+Wenn Du in {{MenuCommand/de|[<img src=images/Std_DlgMacroExecuteDirect.png style="width:16px"> eingibst [Makros...](Std_DlgMacroExecuteDirect/de.md)}}, die Schaltfläche **[<img src=images/Std_DlgMacroExecute.png style="width:16px"> Makro ausführen** wird grün <img alt="" src=images/Menu_Std_DlgMacroExecute_fr_02.png  style="width:16px;">. Klicke auf diese Schaltfläche, um das Makro auszuführen.
 
 
 </div>

@@ -9,7 +9,7 @@
 
 Wiele aplikacji 3D, takich jak [Sketchup](http://en.wikipedia.org/wiki/Sketchup), [Blender](http://en.wikipedia.org/wiki/Blender_(software)), [Maya](http://en.wikipedia.org/wiki/Maya_(software)) i [3D Studio Max](http://en.wikipedia.org/wiki/3d_max), używa siatki jako podstawowego typu obiektu 3D. Ponieważ siatki są bardzo prostymi obiektami, zawierającymi tylko wierzchołki *(punkty)*, krawędzie i trójkątne powierzchnie, są one bardzo łatwe do tworzenia, modyfikowania, dzielenia, rozciągania i mogą być łatwo przekazywane z jednej aplikacji do drugiej bez utraty szczegółów. Ponadto, ponieważ siatki zawierają bardzo nieskomplikowane dane, aplikacje 3D mogą zazwyczaj zarządzać bardzo dużymi ich ilościami bez konieczności używania wielkich zasobów. Z tych powodów, siatki są często wybierane jako obiekt 3D dla aplikacji obsługujących filmy, animacje i tworzenie obrazów.
 
-**Jednak w dziedzinie siatek inżynieryjnych istnieje jedno duże ograniczenie:** nie mogą one dokładnie określać zakrzywionych powierzchni. Dlatego FreeCAD polega na _. Środowisko pracy Mesh oferuje kilka poleceń do bezpośredniego manipulowania siatkami, ale najczęściej jest używane do importu danych o siatkach 3D i konwertowania ich na bryłę, do użycia w Środowisku pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _.
+**Jednak w dziedzinie siatek inżynieryjnych istnieje jedno duże ograniczenie:** nie mogą one dokładnie określać zakrzywionych powierzchni. Dlatego FreeCAD polega na [Brep](wikipedia_Boundary_representation.md). Środowisko pracy Mesh oferuje kilka poleceń do bezpośredniego manipulowania siatkami, ale najczęściej jest używane do importu danych o siatkach 3D i konwertowania ich na bryłę, do użycia w Środowisku pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part](Part_Workbench/pl.md) lub <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign](PartDesign_Workbench.md).
 
 <img alt="" src=images/Mesh_example.jpg  style="width:500px;">
 
@@ -30,7 +30,7 @@ Utwórz siatkę z kształtu \...\]\]: Tworzy obiekty siatkowe z obiektów kszta�
 -   Analiza
     -   <img alt="" src=images/Mesh_Evaluation.svg  style="width:32px;"> [Oceń i napraw siatkę\...](Mesh_Evaluation.md) Ocenia i naprawia obiekt siatkowy.
     -   <img alt="" src=images/Mesh_CurvatureInfo.svg  style="width:32px;"> [Dane o powierzchnii](Mesh_EvaluateFacet.md): Pokazuje informacje o powierzchniach obiektów siatkowych.
-    -   _ w wybranych punktach.
+    -   [Informacje o krzywiźnie](Mesh_EvaluateCurvature.md): Pokazuje krzywiznę absolutną [obiektów krzywizny](Mesh_VertexCurvature.md) w wybranych punktach.
     -   <img alt="" src=images/Mesh_EvaluateSolid.svg  style="width:32px;"> [Sprawdź siatkę bryły](Mesh_EvaluateSolid.md): Sprawdza, czy obiekt siatkowy jest bryłą.
     -   <img alt="" src=images/Mesh_BoundingBox.svg  style="width:32px;"> [Informacja o granicach](Mesh_BoundingBox.md): Pokazuje współrzędne pola ograniczającego obiekt siatki.
 
@@ -84,12 +84,12 @@ Utwórz siatkę z kształtu \...\]\]: Tworzy obiekty siatkowe z obiektów kszta�
 
 ## Ustawienia
 
-Istnieje kilka _.
+Istnieje kilka [preferencji eksportu związanych z formatami siatki](Import_Export_Preferences/pl#Formaty_Mesh.md), ale nie są one używane przez polecenia należące do tego stanowiska pracy. Są one używane przez polecenie [Std: Export](Std_Export/pl.md).
 
 Preferencje Środowiska pracy Mesh można znaleźć w następujących kategoriach [Edytora Preferencji](Preferences_Editor/pl.md):
 
--   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> _ można ustawić kilka parametrów.
--   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> _, [Mesh: Intersection](Mesh_Intersection.md) oraz [Mesh Difference](Mesh_Difference.md) wymagają [OpenSCAD](http://www.openscad.org/) i użyj preferencji **OpenSCAD executable**, aby znaleźć plik wykonywalny.
+-   <img alt="" src=images/Preferences-display.svg  style="width:32px;"> [Display](Preferences_Editor#Display_settings.md): Na karcie [Mesh: widok](Preferences_Editor#Mesh_view.md) można ustawić kilka parametrów.
+-   <img alt="" src=images/Preferences-openscad.svg  style="width:32px;"> [OpenSCAD](OpenSCAD_Preferences.md): Polecenia [Mesh: Union](Mesh_Union.md), [Mesh: Intersection](Mesh_Intersection.md) oraz [Mesh Difference](Mesh_Difference.md) wymagają [OpenSCAD](http://www.openscad.org/) i użyj preferencji **OpenSCAD executable**, aby znaleźć plik wykonywalny.
 
 ## Uwagi
 
@@ -106,7 +106,7 @@ Preferencje Środowiska pracy Mesh można znaleźć w następujących kategoriac
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Mesh Workbench/pl

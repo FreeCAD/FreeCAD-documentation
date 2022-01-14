@@ -1,7 +1,7 @@
 # Selection methods
 ## Overview
 
-_, [tree view](Tree_view.md), [selection view](Selection_view.md), and other dialogs. Some selection methods are workbench specific and are documented in the particular workbench documentation.
+[Selection methods](Selection_methods.md) in FreeCAD allow picking objects in the [FreeCAD Interface](Interface.md): such as [3D view](3D_view.md), [tree view](Tree_view.md), [selection view](Selection_view.md), and other dialogs. Some selection methods are workbench specific and are documented in the particular workbench documentation.
 
 ## 3D view 
 

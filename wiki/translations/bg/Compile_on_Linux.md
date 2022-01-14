@@ -1155,7 +1155,7 @@ cd bin
 
 <div class="mw-collapsible-content">
 
-Posted by user _ in the forum.
+Posted by user [http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3666 PrzemoF](http://forum.freecadweb.org/memberlist.php?mode=viewprofile&u=3666_PrzemoF.md) in the forum.
 
 
 {{Code|lang=bash|code=
@@ -1227,7 +1227,7 @@ To update FreeCAD to latest build just repeat from step 3. Update AUR repo when 
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
 
 ---
 [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on Linux/bg

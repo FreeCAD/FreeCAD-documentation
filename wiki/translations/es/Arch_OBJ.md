@@ -12,7 +12,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Adicionalmente al exportador estándar de FreeCAD _ dispone de un exportador alternativo que exporta caras coplanares como caras OBJ completas, en lugar de la triangulación de objetos basados en [formas](Part_Workbench/es.md), como hace el exportador estándar.
+Adicionalmente al exportador estándar de FreeCAD [OBJ](http://en.wikipedia.org/wiki/Wavefront_.obj_file), el [Módulo de Arquitectura](Arch_Workbench/es.md) dispone de un exportador alternativo que exporta caras coplanares como caras OBJ completas, en lugar de la triangulación de objetos basados en [formas](Part_Workbench/es.md), como hace el exportador estándar.
 
 
 </div>
@@ -67,7 +67,7 @@ mesh.write(Filename="new_example.obj", Material=face_colors, Format="obj")
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> File Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [File Formats](Category_File Formats.md) > [Arch](Arch_Workbench.md) > Arch OBJ/es

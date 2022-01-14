@@ -63,7 +63,7 @@ Il corretto flusso di lavoro basato su Sketcher per inserire le sfere sarebbe:
 -   Questa operazione di ripetizione può essere programmata con un loop
 
 In questo caso, questo non è efficace, inserire delle primitive e posizionarle è più facile e veloce.
-Quindi usiamo lo stesso metodo usato in _.
+Quindi usiamo lo stesso metodo usato in [Parti con script: Cuscinetto a sfere - Parte 1](Scripted_Parts:_Ball_Bearing_-_Part_1/it.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -72,7 +72,7 @@ Quindi usiamo lo stesso metodo usato in _.
 
 [Script di oggetti](Scripted_objects/it.md): La pagina wiki che spiega i principi fondamentali di scripting
 [Script di dati topologici](Topological_data_scripting/it.md): Un tutorial per fornire le basi di scripting
-_: Costruirlo con primitive di Parte
+[Parti con script: Cuscinetto a sfere - Parte 1](Scripted_Parts:_Ball_Bearing_-_Part_1/it.md): Costruirlo con primitive di Parte
 [Bearings from scripted sketches](http://linuxforanengineer.blogspot.de/2013/12/bearings-from-scripted-sketches.html): Base per questo tutorial, grazie a JMG \...
 
 
@@ -189,7 +189,7 @@ Gui.SendMsgToActiveView("ViewFit")
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripted Parts: Ball Bearing - Part 2/it

@@ -28,7 +28,7 @@ This constraint constrains the value of the radius of a circle or arc to have a 
     -   A reference constrain is applied separately on each object which is an external geometry
 
     -   
-        **<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Equal constrains](Sketcher_ConstrainEqual.md)**
+        **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Equal constrains](Sketcher_ConstrainEqual.md)**
         
         are applied sequentially between all real/construction geometry objects and a dimensional constrain is applied to the first selected object according above rules
 
@@ -48,7 +48,7 @@ NB : B-spline poles can\'t be mixed with other object type in the selection
 <div class="mw-translate-fuzzy">
 
 1.  Selectați una sau mai multe cercuri sau arce e cerc.
-2.  Apăsați butonul **<img src=images/Sketcher_ConstrainRadius.png style="width:24px"> '''Constrain radius'''** .
+2.  Apăsați butonul **[<img src=images/Sketcher_ConstrainRadius.png style="width:24px"> '''Constrain radius'''** .
 3.  Un dialog contextual se deschide pentru a edita sau a confirma vloarea. Apăsați **OK** pentru a valida.În cazul în care au fost selectate mai multe cercuri/arce, toate constrângerile vor adopta această valoare. Editați valorile lor separat făcând dublu clic pe cota/eticheta de dimensiuni din vizualizarea 3D; sau în lista Constrângeri, faceți dublu clic pe constrângere sau faceți clic dreapta și selectați**Change value**.
 4.  Opțional, eticheta/cota și linia de cotă pot fi mutate și rotite în vizualizarea 3D făcând clic pe valoare și tragând în timp ce mențineți apăsat butonul stânga al mouse-ului.
 

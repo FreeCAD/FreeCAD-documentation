@@ -27,7 +27,7 @@ Odată POV-Ray ori Luxrender este instalat, trebuie să setăm calea spre execut
 
 ### Randarea cu PovRay 
 
-Vom folosi tabela pe care am modelat-o în capitolul _ pentru a produce randări cu PovRay și Luxrender.
+Vom folosi tabela pe care am modelat-o în capitolul [traditional modeling](Manual:Traditional_modeling,_the_CSG_way.md) pentru a produce randări cu PovRay și Luxrender.
 
 
 <div class="mw-translate-fuzzy">
@@ -126,7 +126,7 @@ Puteți extinde foarte mult posibilitățile de randare ale FreeCAD, creând noi
 
 {{Raytracing Tools navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Creating renderings/ro

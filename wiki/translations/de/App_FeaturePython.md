@@ -1,7 +1,7 @@
 # App FeaturePython/de
 ## Einführung
 
-Ein <img alt="" src=images/Feature.svg  style="width:32px;"> _ in [Python](Python/de.md).
+Ein <img alt="" src=images/Feature.svg  style="width:32px;"> [Anwendung FormelementPython](App_FeaturePython/de.md) Objekt oder formal ein `App::FeaturePython`, ist eine einfache Instanz des [Anwendung DokumentObjekt](App_DocumentObject/de.md) in [Python](Python/de.md).
 
 Hierbei handelt es sich um ein einfaches Objekt, das standardmäßig nicht viele Eigenschaften hat, z.B. weder [Platzierung](Placement/de.md) noch [topologische Form](Part_TopoShape/de.md). Dieses Objekt ist für allgemeine Zwecke bestimmt; je nach den Eigenschaften, die ihm zugeordnet sind, kann es zur Verwaltung verschiedener Datentypen verwendet werden.
 
@@ -19,7 +19,7 @@ Siehe [Skripten](App_FeaturePython#Scripting/de.md) für weitere Information.
 
 ## Eigenschaften
 
-Eine _ (`App::DocumentObject` Klasse). Deshalb hat es die meisten Eigenschaften mit letzterem gemein.
+Eine [Anwendung FormelementPython](App_FeaturePython/de.md) (`App::DocumentObjectGroup` Klasse) stammt aus einer [Anwendung DokumentObjekt](App_DocumentObject/de.md) (`App::DocumentObject` Klasse). Deshalb hat es die meisten Eigenschaften mit letzterem gemein.
 
 Zusätzlich zu den in [Anwendung DokumentObjekt](App_DocumentObject/de.md) beschriebenen Eigenschaften verfügt FormelementPython über einen grundlegenden Ansichtsanbieter, so dass es in der [Baumansicht](tree_view/de.md) angezeigt wird.
 
@@ -87,7 +87,7 @@ obj = App.ActiveDocument.addObject("App::FeaturePython", "Name")
 obj.Label = "Custom label"
 ```
 
-Beispielsweise , die _.
+Beispielsweise , die [Entwurf Text](Draft_Text/de.md), [Entwurf Abmessung](Draft_Dimension/de.md), und [Arbeitsebenen proxy](Draft_WorkingPlaneProxy/de.md) Elemente der [Entwurf Arbeitsbereich](Draft_Workbench/de.md) sind `App::FeaturePython` Objekte mit einem benutzerdefinierten Symbol und zusätzlichen Eigenschaften. Sie enthalten Daten, aber keine tatsächliche [Part TopoForm](Part_TopoShape/de.md).
 
 Wenn das gewünschte Objekt eine Platzierung, eine Form, einen Anhang oder andere komplexe Eigenschaften haben soll, ist es besser, eine der komplexeren Klassen zu erstellen, zum Beispiel [App GeoFeature](App_GeoFeature/de.md), [Part Formelement](Part_Feature/de.md), oder [Part Teil2DObjekt](Part_Part2DObject/de.md).
 

@@ -55,7 +55,7 @@ FreeCAD 在 Windows，Mac OS 和 Linux 上行为一致。但是，平台不同�
 
 **其他方式**
 
-使用 Linux 的一大乐趣是有多种可能来定制软件，不用束缚自己。在 Ubuntu 及其衍生产品上，FreeCAD 也可以从FreeCAD 社区维护的 _。
+使用 Linux 的一大乐趣是有多种可能来定制软件，不用束缚自己。在 Ubuntu 及其衍生产品上，FreeCAD 也可以从FreeCAD 社区维护的 [PPA](https://launchpad.net/~freecad-maintainers) 安装（它包含稳定版和开发版）。在 Fedora 上，可以从 [copr](https://copr.fedorainfracloud.org/groups/g/freecad/coprs/) 安装 FreeCAD 的最新开发版本。因为 FreeCAD 是开源软件，也可以[自己轻松编译 FreeCAD](Compiling/zh-cn.md)。
 
 ### 在 Mac OS 上安装 
 
@@ -77,12 +77,12 @@ FreeCAD 在 Windows，Mac OS 和 Linux 上行为一致。但是，平台不同�
 
 1.  **语言**: （"常规"类别， "常规"选项卡）FreeCAD 将自动选择操作系统的语言，但您可能想要更改它。FreeCAD 几乎完全翻译成了五六种语言，其它语言版本目前只是部分翻译。您可以轻松地[帮助翻译 FreeCAD](https://crowdin.com/project/freecad)。
     ![](images/Freecad-basic-options01.jpg )
-2.  **自动加载模块**: （"常规"类别，"常规"选项卡）通常，FreeCAD 将首先显示起始页面。您可以跳过这个并直接在您选择的工作台中开始 FreeCAD 会话，在"启动"下列有"启动后自动加载模块"。 _。
+2.  **自动加载模块**: （"常规"类别，"常规"选项卡）通常，FreeCAD 将首先显示起始页面。您可以跳过这个并直接在您选择的工作台中开始 FreeCAD 会话，在"启动"下列有"启动后自动加载模块"。 [工作台将在](Workbenches/zh-cn.md)[下一章中详细说明](Manual:The_FreeCAD_Interface/zh-cn.md)。
 3.  **在启动时创建新文档**: （"常规"类别，"文档"选项卡）结合上面的自动加载模块选项，如果选中，则启动 FreeCAD 开始工作。
     ![](images/Freecad-basic-options02.jpg )
 4.  **存储选项**: （"常规"类别， "文档"选项卡）与任何复杂的应用程序一样，FreeCAD 可能包含导致其偶尔崩溃的错误。在这里，您可以配置选项，以帮助您在崩溃时恢复工作。
 5.  **著作和许可**: （"常规"类别，"文档"选项卡）在此处设置所创建的新文件的要用的值。你可以考虑使用像 [Creative Commons](https://creativecommons.org/) 这样友好的 [copyleft](https://en.wikipedia.org/wiki/Copyleft) 许可证，从一开始就使您的文件可以共享。
-6.  **重定向内部 python 消息**: （"常规"类别，"输出窗口"选项卡）这两个选项最好总是勾选，因为当运行 python 脚本时出现问题时，它们会让内部 python 解释器的消息显示_。
+6.  **重定向内部 python 消息**: （"常规"类别，"输出窗口"选项卡）这两个选项最好总是勾选，因为当运行 python 脚本时出现问题时，它们会让内部 python 解释器的消息显示[报表视图中](Manual:The_FreeCAD_Interface#Report_view/zh-cn.md)。
     ![](images/Freecad-basic-options03.jpg )
 7.  **单位**: （"常规"类别，"单位"选项卡）您可以在此处设置要使用的默认单位系统。
     ![](images/Freecad-basic-options04.jpg )
@@ -102,7 +102,7 @@ FreeCAD 在 Windows，Mac OS 和 Linux 上行为一致。但是，平台不同�
 
 1.  [零件库](https://github.com/FreeCAD/FreeCAD-library)，包含 FreeCAD 用户创建的各种有用模型或模型片段，可以在项目中自由使用。你可以在 FreeCAD 安装包中使用和访问该库。
 2.  [其他工作台](https://github.com/FreeCAD/FreeCAD-addons)，可以扩展 FreeCAD 的功能，用于某些特定任务，例如将模型的某些部件做成动画，或者用于某些特定领域，例如钣金折叠或 BIM。每个工作台的进一步说明及其包含的工具在每个插件页面上有说明，您可以通过单击插件管理器上的相应链接访问该页面。
-3.  _，还有关于如何使用它们的文档。
+3.  [一组宏](https://github.com/FreeCAD/FreeCAD-macros)，也可以[在 FreeCAD 维基上找到](Macros_recipes.md)，还有关于如何使用它们的文档。
 
 <img alt="" src=images/FreeCAD-addon-manager01.jpg  style="width:800px;">
 
@@ -134,7 +134,7 @@ FreeCAD 在 Windows，Mac OS 和 Linux 上行为一致。但是，平台不同�
 
 </div>
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Manual:Installing/zh-cn

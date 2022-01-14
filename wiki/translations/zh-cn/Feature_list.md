@@ -32,7 +32,7 @@
 -   ![](images/Feature1.jpg ) 一个完全基于 [Open CASCADE Technology](http://en.wikipedia.org/wiki/Open_CASCADE) 的 **几何内核 (geometry kernel)** 允许在复杂的形状类型上执行复杂的 3D 操作，原生支持这些概念：多重曲面 (brep)、非均匀有理B样条 (nurbs curves) 和 曲面 (surfaces)，大量几何实体 (geometric entities)，布尔操作 (boolean operations) 和圆角 (fillets) 和内建支持 STEP 和 IGES 格式 
 -   ![](images/Feature3.jpg ) 一个全 **参数化模型 (parametric model)**。所有 FreeCAD 对象是本地原生参数化，意味着他们的形状能基于 [属性](Property/zh-cn.md) 变化 或者 甚至依赖于其它的对象，所有改变在需要时会被自动重新计算，而且由 撤消/重做 栈记录其操作。很容易增加新对象类型，甚至 [全部用 Python 进行编程](Scripted_objects.md)
 -   ![](images/Feature4.jpg ) **模块化设计** 允许插件 (模块) 添加功能到核心应用程序中。那些扩展能跟用 C++ 编写整个新应用程度一样复杂或者跟 [Python 脚本](Power_users_hub.md) 一样简单 或者 自己录制 [macros](macros.md)。你能从内建的 **Python** 解释器中完全访问从宏或者外部脚本到 FreeCAD 几乎任何部分，进行 [几何对象创建或变换](Topological_data_scripting/zh-cn.md), 展示几何对象 ([scenegraph](scenegraph.md)) 的 2D 或者 3D 图形甚至控制 [FreeCAD 界面](PySide.md) 
--   !_. FreeCAD 对每种文件格式的兼容性支持级别有所不同，因为它依赖于实现读写的模块。
+-   ![](images/Feature5.jpg ) 导入/导出到 **标准格式**，例如：[STEP](http://en.wikipedia.org/wiki/ISO_10303), [IGES](http://en.wikipedia.org/wiki/IGES), [OBJ](http://en.wikipedia.org/wiki/Obj), [STL](http://en.wikipedia.org/wiki/STL_%28file_format%29), [DXF](http://en.wikipedia.org/wiki/Dxf), [SVG](http://en.wikipedia.org/wiki/Svg), [STL](http://en.wikipedia.org/wiki/STL_(file_format)), [DAE](http://en.wikipedia.org/wiki/COLLADA), [IFC](http://en.wikipedia.org/wiki/Industry_Foundation_Classes) or [OFF](http://people.sc.fsu.edu/~jburkardt/data/off/off.html), [NASTRAN](http://en.wikipedia.org/wiki/NASTRAN), [VRML](http://en.wikipedia.org/wiki/VRML)，另外还有 FreeCAD 的原生 [Fcstd 文件格式](File_Format_FCStd/zh-cn.md). FreeCAD 对每种文件格式的兼容性支持级别有所不同，因为它依赖于实现读写的模块。
 -   ![](images/Feature7.jpg ) 一个 [素描器](Sketcher_Workbench/zh-cn.md) 和 约束求解程序，允许勾画几何约束的 2D 图形。目前素描器允许你构建几种几何约束对象，并且利用它们在整个 FreeCAD 中作为构建其它对象的基础。
 -   ![](images/Feature9.jpg ) 一个 [机器人模拟](Robot_Workbench/zh-cn.md) 模块用于学习机器人移动行为。这个机器人模块已经有一个扩展的图像界面允许仅限界面的工作流程。
 -   ![](images/Feature8.jpg ) 一个 [绘制工作表](Drawing_Workbench/zh-cn.md) 模块允许放置 3D 模型的 2D 视图到一张工作表上。此模块会产生可导出的 SVG 或 PDF 工作表。此模块虽然功能稀少，但此特性已经能增加一个强大的功能到 Python。
@@ -283,7 +283,7 @@
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> User Documentation](Category_User_Documentation.md)
 
 ---
 [documentation index](../README.md) > [User Documentation](Category_User Documentation.md) > Feature list/zh-cn

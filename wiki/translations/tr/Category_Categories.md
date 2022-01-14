@@ -1,16 +1,16 @@
 # Category:Categories/tr
 This is the **top category** which contains the main categories of the FreeCAD wiki. Please use categories to classify all articles. Use the following tools for working with categories. To see a list of
 
--   all categories defined, browse through the hierarchy ongoing from *here* or have a look on the _.
--   all *articles* that are *not classified*, use the _.
--   all *categories* that are *not classified*, use the _.
--   all *images* that are *not classified*, use the _.
+-   all categories defined, browse through the hierarchy ongoing from *here* or have a look on the [list of all categories](Special_Categories.md).
+-   all *articles* that are *not classified*, use the [list of uncategorized pages](Special_Uncategorizedpages.md).
+-   all *categories* that are *not classified*, use the [list of uncategorized categories](Special_Uncategorizedcategories.md).
+-   all *images* that are *not classified*, use the [list of uncategorized images](Special_Uncategorizedimages.md).
 
 ### Contents:
 
 , , , , , , , , , , , , , , , ,
 
-_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+[<img src="images/Property.png" style="width:16px"> Categories/tr](<img src="images/Property.png" style="width:16px"> Categories/tr.md) [<img src="images/Property.png" style="width:16px"> Addons/tr](<img src="images/Property.png" style="width:16px"> Addons/tr.md) [<img src="images/Property.png" style="width:16px"> Administration/tr](<img src="images/Property.png" style="width:16px"> Administration/tr.md) [<img src="images/Property.png" style="width:16px"> API/tr](<img src="images/Property.png" style="width:16px"> API/tr.md) [<img src="images/Property.png" style="width:16px"> Categories/tr](<img src="images/Property.png" style="width:16px"> Categories/tr.md) [<img src="images/Property.png" style="width:16px"> Command Reference/tr](<img src="images/Property.png" style="width:16px"> Command_Reference/tr.md) [<img src="images/Property.png" style="width:16px"> Developer/tr](<img src="images/Property.png" style="width:16px"> Developer/tr.md) [<img src="images/Property.png" style="width:16px"> Documentation/tr](<img src="images/Property.png" style="width:16px"> Documentation/tr.md) [<img src="images/Property.png" style="width:16px"> Help/tr](<img src="images/Property.png" style="width:16px"> Help/tr.md) [<img src="images/Property.png" style="width:16px"> Hubs/tr](<img src="images/Property.png" style="width:16px"> Hubs/tr.md) [<img src="images/Property.png" style="width:16px"> Image/tr](<img src="images/Property.png" style="width:16px"> Image/tr.md) [<img src="images/Property.png" style="width:16px"> Macros/tr](<img src="images/Property.png" style="width:16px"> Macros/tr.md) [<img src="images/Property.png" style="width:16px"> News/tr](<img src="images/Property.png" style="width:16px"> News/tr.md) [<img src="images/Property.png" style="width:16px"> Python Code/tr](<img src="images/Property.png" style="width:16px"> Python_Code/tr.md) [<img src="images/Property.png" style="width:16px"> Roadmap/tr](<img src="images/Property.png" style="width:16px"> Roadmap/tr.md) [<img src="images/Property.png" style="width:16px"> Template/tr](<img src="images/Property.png" style="width:16px"> Template/tr.md) [<img src="images/Property.png" style="width:16px"> Tutorials/tr](<img src="images/Property.png" style="width:16px"> Tutorials/tr.md) [<img src="images/Property.png" style="width:16px"> Wiki/tr](<img src="images/Property.png" style="width:16px"> Wiki/tr.md)
 
 ---
 [documentation index](../README.md) > [Addons/tr]] , ](Category_Addons/tr]] , .md) > Category:Categories/tr

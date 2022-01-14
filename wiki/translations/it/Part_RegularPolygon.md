@@ -1,6 +1,6 @@
 # Part RegularPolygon/it
 ---
-- GuiCommand:/it   Name:Part RegularPolygon   Name/it:Poligono regolare   MenuLocation:Parte → _---
+- GuiCommand:/it   Name:Part RegularPolygon   Name/it:Poligono regolare   MenuLocation:Parte → [Workbenches:[[Part_Workbench/it   Parte](Part_CreatePrimitives/it___Crea_primitive]]_→_Poligono_regolare.md)|Version:0.14   SeeAlso:[Crea primitive](Part_CreatePrimitives/it.md)---
 
 
 </div>

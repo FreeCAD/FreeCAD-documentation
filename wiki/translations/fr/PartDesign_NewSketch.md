@@ -14,11 +14,11 @@
 
 Cet outil crée une nouvelle esquisse. Il crée un nouveau [PartDesign Corps](PartDesign_Body/fr.md) destiné à contenir l\'esquisse s\'il n\'en existe aucun et ouvre automatiquement l\'[atelier Sketcher](Sketcher_Workbench/fr.md) après sa création.
 
-Lors de la création de modèles à l\'aide de l\'<img src=images/Sketcher_NewSketch.svg style="width:atelier PartDesign](PartDesign_Workbench/fr.md), cet outil doit être préféré à l\'outil **[16px"> [Sketcher Esquisse](Sketcher_NewSketch/fr.md)** situé dans l\'[atelier Sketcher](Sketcher_Workbench/fr.md).
+Lors de la création de modèles à l\'aide de l\'[atelier PartDesign](PartDesign_Workbench/fr.md), cet outil doit être préféré à l\'outil **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher Esquisse](Sketcher_NewSketch/fr.md)** situé dans l\'[atelier Sketcher](Sketcher_Workbench/fr.md).
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Créer une nouvelle esquisse](PartDesign_NewSketch/fr.md)** de la barre d\'outils PartDesign.
+1.  Appuyez sur le bouton **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [Créer une nouvelle esquisse](PartDesign_NewSketch/fr.md)** de la barre d\'outils PartDesign.
 2.  Dans le panneau Tâches, la boîte de dialogue **Sélectionner une fonction** s\'ouvre. Sélectionnez l\'un des plans dans la liste ou depuis la vue 3D, qui peut être réorientée pour une meilleure visibilité.
 3.  Appuyez sur **OK**.
 4.  L\'interface bascule automatiquement vers l\'atelier Sketcher et l\'esquisse peut être modifiée. Une fois l\'esquisse terminée, l\'interface retourne dans l\'atelier PartDesign et la vue 3D est restaurée selon l\'orientation de la vue avant la création de l\'esquisse.
@@ -48,7 +48,7 @@ Paramètres de la boîte de dialogue
 -   Faire une copie dépendante: les éléments seront des copies, mais une dépendance aux éléments d\'origine est conservée. Ceci utilise essentiellement une [PartDesign Forme liée](PartDesign_ShapeBinder/fr.md)
 -   Créer une référence croisée: les éléments liés ne seront pas des copies mais pointent vers les éléments d\'origine, par ex. une esquisse principale. Toutes les modifications sont reflétées dans cette esquisse.
 
-Pour référencer des éléments dans l\'<img src=images/Sketcher_CarbonCopy.svg style="width:atelier Sketcher](Sketcher_Workbench/fr.md), utilisez les deux fonctions **<img src="images/Sketcher_External.svg" width=16px> [Sketcher Géométrie externe](Sketcher_External/fr.md)** et **[16px"> [Sketcher Copie carbone](Sketcher_CarbonCopy/fr.md)**. En général, il est recommandé d\'utiliser d\'autres esquisses comme source pour les références plutôt que des faces ou des arêtes car elles sont moins affectées par le problème de dénomination topologique.
+Pour référencer des éléments dans l\'[atelier Sketcher](Sketcher_Workbench/fr.md), utilisez les deux fonctions **<img src="images/Sketcher_External.svg" width=16px> [Sketcher Géométrie externe](Sketcher_External/fr.md)** et **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [Sketcher Copie carbone](Sketcher_CarbonCopy/fr.md)**. En général, il est recommandé d\'utiliser d\'autres esquisses comme source pour les références plutôt que des faces ou des arêtes car elles sont moins affectées par le problème de dénomination topologique.
 
 ## Propriétés
 

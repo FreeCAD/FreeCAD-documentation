@@ -9,7 +9,7 @@
 
 ## Description
 
-The <img alt="" src=images/Assembly_ConstraintEqualLineArcLength.svg  style="width:16px;"> _ tools in relation with a <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> workplane.
+The <img alt="" src=images/Assembly_ConstraintEqualLineArcLength.svg  style="width:16px;"> [Equal Line Arc Length](Assembly3_ConstraintEqualLineArcLength.md) command constrains the length of a 2D line like a non-subdivided wire which is made with <img alt="" src=images/Workbench_Draft.svg  style="width:16px;"> [Draft Workbench](Draft_Workbench.md) tools in relation with a <img alt="" src=images/Assembly_Workplane.svg  style="width:16px;"> workplane.
 
 It links the length of the 2D line with the length of an arc (2D or 3D?).
 

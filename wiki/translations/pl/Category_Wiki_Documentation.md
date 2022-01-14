@@ -5,7 +5,7 @@ Ta kategoria zawiera listę stron, które odnoszą się do efektywnego korzystan
 
 [WikiPages/pl](WikiPages/pl.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > Category:Wiki Documentation/pl

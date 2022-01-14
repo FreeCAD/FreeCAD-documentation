@@ -11,7 +11,7 @@ L'atelier TechDraw vous permet de créer des feuilles, qui peuvent être vides o
 
 Les feuilles de dessin, une fois complétées, peuvent être imprimées ou exportées sous forme de fichiers [SVG](https://fr.wikipedia.org/wiki/Scalable_Vector_Graphics), PDF ou [DXF](https://fr.wikipedia.org/wiki/Drawing_eXchange_Format).
 
-Dans l\'exercice suivant, nous verrons comment créer un dessin simple d\'un modèle de chaise trouvé dans la _), ou vous pouvez télécharger simplement le modèle à partir de la page Web de la bibliothèque ou via le lien direct fourni au bas de ce chapitre.
+Dans l\'exercice suivant, nous verrons comment créer un dessin simple d\'un modèle de chaise trouvé dans la [bibliothèque FreeCAD](https://github.com/FreeCAD/FreeCAD-library) (Furniture → Chairs → IkeaLikeChair). La bibliothèque FreeCAD peut facilement être ajoutée à votre installation FreeCAD (reportez-vous au chapitre de ce [Manuel : Installation](Manual:Installing/fr.md)), ou vous pouvez télécharger simplement le modèle à partir de la page Web de la bibliothèque ou via le lien direct fourni au bas de ce chapitre.
 
 ![](images/Exercise_TechDraw_01.svg )
 
@@ -44,11 +44,11 @@ Dans l\'exercice suivant, nous verrons comment créer un dessin simple d\'un mod
 
 ![](images/Exercise_TechDraw_04.png )
 
--   Notez qu\'il peut y avoir des moyens plus faciles d\'obtenir les vues que vous souhaitez. Vous pouvez simplement _ la vue 3D de votre modèle, et une fois que vous avez la vue souhaitée, sélectionnez le modèle dans l\'arborescence et appuyez sur <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> Nouvelle Vue. Cela insérera automatiquement une vue avec les propriétés de rotation et de direction souhaitées. Vous pouvez également utiliser l\'outil <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:16px;"> [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md).
+-   Notez qu\'il peut y avoir des moyens plus faciles d\'obtenir les vues que vous souhaitez. Vous pouvez simplement [faire pivoter](Manual:Navigating_in_the_3D_view/fr.md) la vue 3D de votre modèle, et une fois que vous avez la vue souhaitée, sélectionnez le modèle dans l\'arborescence et appuyez sur <img alt="" src=images/TechDraw_View.svg  style="width:16px;"> Nouvelle Vue. Cela insérera automatiquement une vue avec les propriétés de rotation et de direction souhaitées. Vous pouvez également utiliser l\'outil <img alt="" src=images/TechDraw_ProjectionGroup.svg  style="width:16px;"> [TechDraw Groupe de projection](TechDraw_ProjectionGroup/fr.md).
 
 -   Nous pouvons modifier l\'aspect de nos vues si nous le voulons, par exemple, nous pouvons changer leur propriété **Line Width** (Largeur de ligne) (sous l\'onglet Vue dans la vue combinée) à 0,5.
 
-Nous allons maintenant placer des dimensions et des indications sur notre dessin. Il existe deux façons d\'ajouter des cotes à un modèle: l\'une consiste à placer les cotes à l\'intérieur du modèle 3D, à l\'aide de l\'outil <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> _. L\'autre consiste à faire les choses directement sur la feuille TechDraw. Nous utiliserons cette dernière méthode.
+Nous allons maintenant placer des dimensions et des indications sur notre dessin. Il existe deux façons d\'ajouter des cotes à un modèle: l\'une consiste à placer les cotes à l\'intérieur du modèle 3D, à l\'aide de l\'outil <img alt="" src=images/Draft_Dimension.svg  style="width:16px;"> [Draft Dimension](Draft_Dimension/fr.md) de l\'[atelier Draft](Draft_Workbench/fr.md) puis en plaçant une vue de ces dimensions sur notre feuille avec l\'outil <img alt="" src=images/TechDraw_DraftView.svg  style="width:16px;"> [TechDraw Vue Draft](TechDraw_DraftView/fr.md). L\'autre consiste à faire les choses directement sur la feuille TechDraw. Nous utiliserons cette dernière méthode.
 
 -   Appuyez sur le bouton <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> pour activer les sommets.
 -   Utilisez Ctrl + Clic gauche de la souris pour sélectionner les deux sommets entre lesquels vous souhaitez mesurer la distance.
@@ -56,9 +56,9 @@ Nous allons maintenant placer des dimensions et des indications sur notre dessin
 
 ![](images/Exercise_TechDraw_05.png )
 
--   Répétez l\'opération jusqu\'à ce que toutes les dimensions que vous souhaitez indiquer soient placées. Utilisez les outils <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> _ le cas échéant.
+-   Répétez l\'opération jusqu\'à ce que toutes les dimensions que vous souhaitez indiquer soient placées. Utilisez les outils <img alt="" src=images/TechDraw_VerticalDimension.svg  style="width:16px;"> [TechDraw Cote verticale](TechDraw_VerticalDimension/fr.md) et <img alt="" src=images/TechDraw_HorizontalDimension.svg  style="width:16px;"> [TechDraw Cote horizontale](TechDraw_HorizontalDimension/fr.md) le cas échéant.
 -   Prenez une minute pour regarder les [propriétés](TechDraw_LengthDimension/fr#Propri.C3.A9t.C3.A9s.md) de l\'objet Dimension dans la vue combinée.
--   Veuillez noter que si vous dimensionnez une vue _ pour obtenir une dimension précise.
+-   Veuillez noter que si vous dimensionnez une vue [axonométrique](https://en.wikipedia.org/wiki/Axonometric_projection) (par exemple, une vue isométrique) au lieu d\'une vue [multiview](https://en.wikipedia.org/wiki/Multiview_projection) (par exemple, vue de face) comme nous l\'avons fait ici, vous devrez utiliser l\'outil <img alt="" src=images/TechDraw_LinkDimension.svg  style="width:16px;"> [TechDraw Lier une dimension](TechDraw_LinkDimension/fr.md) pour obtenir une dimension précise.
 
 ![](images/Exercise_TechDraw_07.png )
 
@@ -78,7 +78,7 @@ Nous allons maintenant placer des dimensions et des indications sur notre dessin
     -   Assurez-vous que les cadres de vue, les étiquettes et les sommets sont visibles. Sinon, appuyez sur le bouton <img alt="" src=images/TechDraw_ToggleFrame.svg  style="width:16px;"> Bascule.
     -   Modifiez le texte dans chaque section du bloc de titre de la feuille en cliquant sur le petit carré vert à gauche du texte.
 
-Notre page peut maintenant être exportée au format SVG pour être plus développée dans des applications graphiques comme _ puis sélectionnez le menu **Fichier → Exporter**. Le format DXF est importable dans presque toutes les applications de CAO 2D existantes. Les pages TechDraw peuvent également être directement imprimées ou exportées au format PDF.
+Notre page peut maintenant être exportée au format SVG pour être plus développée dans des applications graphiques comme [Inkscape](http://www.inkscape.org) ou au format DXF. Sélectionnez la page dans la [vue en arborescence](Tree_view/fr.md) puis sélectionnez le menu **Fichier → Exporter**. Le format DXF est importable dans presque toutes les applications de CAO 2D existantes. Les pages TechDraw peuvent également être directement imprimées ou exportées au format PDF.
 
 **Téléchargements**
 
@@ -101,7 +101,7 @@ Notre page peut maintenant être exportée au format SVG pour être plus dévelo
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Generating 2D drawings/fr

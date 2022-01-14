@@ -34,14 +34,14 @@ S\'il {{CheckBox}} est vérifiée, la couleur de l\'objet à travailler sont col
 
 -   LineEdit: affiche (Index de police/nombre de police) le chemin et le nom de la police.
 
--    **<img src=images/Draft_Text.svg style="width:16px"> Convert Text (A)**: convertir le texte <img alt="" src=images/Draft_Text.svg  style="width:16px;"> en une chaîne de forme <img alt="" src=images/Draft_ShapeString.svg  style="width:16px;"> (La hauteur du texte converti est respectée mais le résultat visuel peut ne pas être respecté, voir la propriété Vue combinée pour confirmer). (A) est la hauteur de la valeur automatique du texte.
+-    **[<img src=images/Draft_Text.svg style="width:16px"> Convert Text (A)**: convertir le texte <img alt="" src=images/Draft_Text.svg  style="width:16px;"> en une chaîne de forme <img alt="" src=images/Draft_ShapeString.svg  style="width:16px;"> (La hauteur du texte converti est respectée mais le résultat visuel peut ne pas être respecté, voir la propriété Vue combinée pour confirmer). (A) est la hauteur de la valeur automatique du texte.
 
     -   
         {{SpinBox|0,00 Auto}}
         
-        : Si spinbox est égal à 0.0, la hauteur de la VALEUR du texte est respectée. Si différent de 0.0, le **<img src=images/Draft_Text.svg style="width:16px"> Convert Text (A)** se change en mode manuel **<img src=images/Draft_Text.svg style="width:16px"> Convert Text (M)**.
+        : Si spinbox est égal à 0.0, la hauteur de la VALEUR du texte est respectée. Si différent de 0.0, le **[<img src=images/Draft_Text.svg style="width:16px"> Convert Text (A)** se change en mode manuel **[<img src=images/Draft_Text.svg style="width:16px"> Convert Text (M)**.
 
--    **<img src=images/Draft_Line.svg style="width:16px"> Convert Wire (A)**: Cette commande convertit le fil en une ligne avec des coordonnées. (ex: un composé rétrogradé n\'a pas de coordonnées, cette fonction crée une ligne avec les coordonnées comme ligne de dépouille et reproduit le fil DXF dans un objet dépouille sont détectées: ligne, arc, cercle, ellipse, BSplineCurve.
+-    **[<img src=images/Draft_Line.svg style="width:16px"> Convert Wire (A)**: Cette commande convertit le fil en une ligne avec des coordonnées. (ex: un composé rétrogradé n\'a pas de coordonnées, cette fonction crée une ligne avec les coordonnées comme ligne de dépouille et reproduit le fil DXF dans un objet dépouille sont détectées: ligne, arc, cercle, ellipse, BSplineCurve.
 
     -   
         {{SpinBox|0,00 Auto}}
@@ -56,14 +56,14 @@ S\'il {{CheckBox}} est vérifiée, la couleur de l\'objet à travailler sont col
 
 -    {{RadioButton|<img src="images/Std_DrawStylePoints.svg" width=16px> Points}}: Les objets créés sont des Points.
 
--    **<img src=images/Draft_Upgrade.svg style="width:16px"> UpGrade**: UpGrade
+-    **[<img src=images/Draft_Upgrade.svg style="width:16px"> UpGrade**: UpGrade
 
--    **<img src=images/Draft_Downgrade.svg style="width:16px"> DownGrade**: DownGrade
+-    **[<img src=images/Draft_Downgrade.svg style="width:16px"> DownGrade**: DownGrade
 
 ### Pour le composé I et le bord de conversion 
 
 Cette section fonctionne uniquement avec les outils **<img src="images/Part_Compound.svg" width=16px> Compound I
-**, **<img src=images/Draft_Text.svg style="width:16px"> Convert Text (A)** et **<img src=images/Draft_Line.svg style="width:16px"> Convert Wire (A)**
+**, **[<img src=images/Draft_Text.svg style="width:16px"> Convert Text (A)** et **[<img src=images/Draft_Line.svg style="width:16px"> Convert Wire (A)**
 
 -    {{RadioButton|TRUE|None}}: Tous les objets d\'origine restent tels quels.
 

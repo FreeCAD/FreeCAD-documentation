@@ -27,7 +27,7 @@ Versions antérieures : [0.11](Release_notes_0.11.md)
 
 ![](images/Arch_screenshot.jpg )
 
--   Le module Arch comporte également un module d\'importation _, un module d\'importation et d\'exportation _, ainsi qu\'un module d\'exportation _ spécial, plus adapté aux modèles architecturaux que le module d\'exportation régulier.
+-   Le module Arch comporte également un module d\'importation [IFC](wikipedia:fr_Industry_Foundation_Classes.md), un module d\'importation et d\'exportation [DAE (collada)](:wikipedia:fr_Collaborative_Design_Activity.md), ainsi qu\'un module d\'exportation [OBJ](:wikipedia:fr:Objet_3D_(format_de_fichier).md) spécial, plus adapté aux modèles architecturaux que le module d\'exportation régulier.
 
 -   Également dans le module Arch, une collection grandissante d\'outils facilitant le travail sur des objets de maillage provenant d\'applications externes telles que [Blender](http://www.blender.org). Les objets de maillage, s\'ils sont bien modélisés, peuvent être facilement et automatiquement convertis en formes propres, puis en objets Arch paramétriques.
 
@@ -50,7 +50,7 @@ Versions antérieures : [0.11](Release_notes_0.11.md)
 
 {{languages/fr | {{en|Release_notes_0.12}} {{es|Release_notes_0.12/es}} {{it|Release_notes_0.12/it}} {{pl|Release_notes_0.12/pl}} {{ru|Release_notes_0.12/ru}} }}
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > Release notes 0.12/fr

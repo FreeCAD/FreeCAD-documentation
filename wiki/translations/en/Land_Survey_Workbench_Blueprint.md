@@ -55,11 +55,11 @@ The planar position is usually decoupled (especially in cadastre applications) f
 
 General support for rich text.
 
-Note: the information in this page is based on a shallow understanding of FreeCAD\'s internals. Once it deepens the requirements and implementation may be adjusted. Contributions are welcomed! \--_ 11:00, 26 January 2013 (UTC)
+Note: the information in this page is based on a shallow understanding of FreeCAD\'s internals. Once it deepens the requirements and implementation may be adjusted. Contributions are welcomed! \--[Xtnickx](User_Xtnickx.md) 11:00, 26 January 2013 (UTC)
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > Land Survey Workbench Blueprint/en

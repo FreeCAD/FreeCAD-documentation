@@ -15,7 +15,7 @@ FEM sta per [Finite Element Method](https://en.wikipedia.org/wiki/Finite_element
 
 <div class="mw-translate-fuzzy">
 
-In FreeCAD tale simulazione è fatta con l\'ambiente _, ed infine calcolare la simulazione.
+In FreeCAD tale simulazione è fatta con l\'ambiente [FEM](FEM_Workbench/it.md). Si tratta di diverse fasi: preparare la geometria, impostare il suo materiale, eseguire la meshing, dividere in parti più piccole, come abbiamo fatto nel capitolo [Preparare gli oggetti per la stampa 3D](Manual:Preparing_models_for_3D_printing/it.md), ed infine calcolare la simulazione.
 
 
 </div>
@@ -33,14 +33,14 @@ In FreeCAD tale simulazione è fatta con l\'ambiente _, ed infine calcolare la s
 
 <div class="mw-translate-fuzzy">
 
-La simulazione vera e propria viene effettuata con un altro pezzo di software, che viene utilizzato da FreeCAD per ottenere i risultati. Dato che ci sono diverse interessanti applicazioni FEM open-source di simulazione disponibili, l\'ambiente _.
+La simulazione vera e propria viene effettuata con un altro pezzo di software, che viene utilizzato da FreeCAD per ottenere i risultati. Dato che ci sono diverse interessanti applicazioni FEM open-source di simulazione disponibili, l\'ambiente [FEM](FEM_Workbench/it.md) è stato costruito in modo da poterne utilizzare più di una. Tuttavia, per ora è pienamente implementato solo [CalculiX](http://www.calculix.de/). È anche necessario un altro pezzo di software, chiamato [NetGen](https://sourceforge.net/projects/netgen-mesher/), che è responsabile della generazione della suddivisione in maglie. Le istruzioni dettagliate per l\'installazione di questi due componenti sono fornite nella [documentazione di FreeCAD](FEM_Install/it.md).
 
 
 </div>
 
 ### Preparare la geometria 
 
-Utilizzeremo la casa modellata nel capitolo _. Tuttavia, devono essere fatte alcune modifiche per rendere il modello adatto ai calcoli FEM. Si tratta, in sostanza, di scartare gli oggetti che non vogliamo includere nel calcolo, come ad esempio la porta e la finestra, e di unire tutti gli oggetti rimanenti in uno solo.
+Utilizzeremo la casa modellata nel capitolo [Modellazione BIM](Manual:BIM_modeling/it.md). Tuttavia, devono essere fatte alcune modifiche per rendere il modello adatto ai calcoli FEM. Si tratta, in sostanza, di scartare gli oggetti che non vogliamo includere nel calcolo, come ad esempio la porta e la finestra, e di unire tutti gli oggetti rimanenti in uno solo.
 
 -   Caricare il [modello di casa](https://github.com/yorikvanhavre/FreeCAD-manual/blob/master/files/house.FCStd) creato in precedenza
 -   Eliminare o nascondere l\'oggetto pagina, i piani di sezione e le dimensioni, in modo che rimanga solo con il modello
@@ -60,7 +60,7 @@ Utilizzeremo la casa modellata nel capitolo _. Tuttavia, devono essere fatte alc
 
 <div class="mw-translate-fuzzy">
 
--   Attualmente l\'ambiente FEM può calcolare solo le deformazioni su un singolo oggetto. Pertanto, bisogna unire i due oggetti (il muro e la soletta). Passare nell\'ambiente _. Ora abbiamo ottenuto un oggetto fuso:
+-   Attualmente l\'ambiente FEM può calcolare solo le deformazioni su un singolo oggetto. Pertanto, bisogna unire i due oggetti (il muro e la soletta). Passare nell\'ambiente [Part](Part_Workbench/it.md), selezionare i due oggetti, e premere il pulsante <img alt="" src=images/Part_Fuse.svg  style="width:16px;"> [Unione](Part_Union/it.md). Ora abbiamo ottenuto un oggetto fuso:
 
 
 </div>

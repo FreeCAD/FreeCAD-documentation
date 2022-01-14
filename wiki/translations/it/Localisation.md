@@ -19,12 +19,12 @@
 
 In FreeCAD è possibile impostare la lingua dell\'interfaccia utente in **Modifica → Preferenze → Generale**.
 
-FreeCAD utilizza _ per abilitare il supporto di più lingue. Sui sistemi Unix / Linux, FreeCAD utilizza le impostazioni locali di default del sistema.
+FreeCAD utilizza [Qt](wikipedia:Qt_(toolkit).md) per abilitare il supporto di più lingue. Sui sistemi Unix / Linux, FreeCAD utilizza le impostazioni locali di default del sistema.
 
 
 </div>
 
-**Localisation** is in general the process of providing a Software with a multiple language user interface. In FreeCAD you can set the language of the user interface under **Edit → Preferences → General**. FreeCAD uses _ to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
+**Localisation** is in general the process of providing a Software with a multiple language user interface. In FreeCAD you can set the language of the user interface under **Edit → Preferences → General**. FreeCAD uses [Qt](wikipedia:Qt_(toolkit).md) to enable multiple language support. On Unix/Linux systems, FreeCAD uses the current locale settings of your system by default.
 
 ## Contribuire a tradurre FreeCAD 
 
@@ -97,7 +97,7 @@ Per poter tradurre nel wiki, è necessario [richiedere l\'autorizzazione](FAQ#Ho
 
 ### Plugin Mediawiki Translation 
 
-Quando il Wiki è stato spostato da SourceForge, _ ha installato un [MediaWiki\'s plugin di traduzione](http://www.mediawiki.org/wiki/Help:Extension:Translate) che facilita la traduzione delle pagine. I vantaggi del plugin di traduzione sono che, ad esempio, ora può essere tradotto anche il titolo della pagina, che tiene traccia delle traduzioni, notifica se la pagina originale è stata aggiornata, e mantiene le traduzioni sincronizzate con la pagina originale inglese.
+Quando il Wiki è stato spostato da SourceForge, [Yorik](User_Yorik.md) ha installato un [MediaWiki\'s plugin di traduzione](http://www.mediawiki.org/wiki/Help:Extension:Translate) che facilita la traduzione delle pagine. I vantaggi del plugin di traduzione sono che, ad esempio, ora può essere tradotto anche il titolo della pagina, che tiene traccia delle traduzioni, notifica se la pagina originale è stata aggiornata, e mantiene le traduzioni sincronizzate con la pagina originale inglese.
 
 Lo strumento è documentato in [Help:Extension:Translate](http://www.mediawiki.org/wiki/Help:Extension:Translate), ed è parte di [MediaWiki Language Extension Bundle](http://www.mediawiki.org/wiki/MediaWiki_Language_Extension_Bundle).
 
@@ -154,12 +154,12 @@ Come per consenso generale, la pagina di riferimento nel wiki è la pagina ingle
 | È necessario [ottenere il permesso di modifica del wiki](FAQ/es#C.C3.B3mo_consigo_permisos_de_edici.C3.B3n_para_esta_wiki.3F.md).                                                                                                                                                                                                                                                                   |
 | Se la lingua è già presente, vedere quali pagine da tradurre sono ancora mancanti (sono quelle elencate in rosso). La tecnica è semplice: **entrare in una pagina rossa, copiare e incollare il contenuto della corrispondente pagina inglese, e iniziare a tradurre.**.                                                                                                                                    |
 | Non dimenticare di includere tutti i tag e i modelli dalla pagina originale in inglese. Alcuni di questi modelli avranno un equivalente nella nuova lingua (per esempio, esiste un modello di Docnav in francese denominato Docnav/fr). Si deve utilizzare **una barra slash e il codice della proria lingua** in quasi tutti i collegamenti. Guardare altre pagine già tradotte per vedere come procedere. |
-| Aggiungere una barra e il codice della propria lingua nelle categorie, come \[\[Category:Developer Documentation/it\]\]                                                                                                                                                                                                                                                                                     |
+| Aggiungere una barra e il codice della propria lingua nelle categorie, come \[\[<img src="images/Property.png" style="width:16px"> Developer Documentation/it\]\]                                                                                                                                                                                                                                                                                     |
 | Se non si è sicuri, andare nel forum e richiedere un controllo su quello che si è fatto, qualcuno vi dirà se và bene oppure no.                                                                                                                                                                                                                                                                             |
 | Nelle pagine del manuale sono comunemente utilizzati due modelli (maschere standard). Questi 2 modelli hanno versioni localizzate (Template:Docnav/it, Template:it, etc\...)                                                                                                                                                                                                                                |
 |                                                                                                                                                                                                                                                                                                                                                                                                             |
-| -   _ : è il blocco di informazioni del comando Gui in alto a destra nella documentazione del comando.                                                                                                                                                                                                                                                  |
-| -   _ : è la barra di navigazione visualizzata nella parte inferiore delle pagine, mostra le pagine precedenti e successive                                                                                                                                                                                                                                     |
+| -   [Template:GuiCommand](Template_GuiCommand.md) : è il blocco di informazioni del comando Gui in alto a destra nella documentazione del comando.                                                                                                                                                                                                                                                  |
+| -   [Template:Docnav](Template_Docnav.md) : è la barra di navigazione visualizzata nella parte inferiore delle pagine, mostra le pagine precedenti e successive                                                                                                                                                                                                                                     |
 |                                                                                                                                                                                                                                                                                                                                                                                                             |
 | **Convenzioni sui nomi delle pagine**                                                                                                                                                                                                                                                                                                                                                                       |
 | Si prega di prendere atto che, a causa di limitazioni in Sourceforge al motore MediaWiki, è necessario che tutte le pagine tradotte mantengano il nome originale in inglese della pagina corrispondente, con l\'aggiunta di uno slash e del codice della lingua.                                                                                                                                            |
@@ -379,7 +379,7 @@ FreeCADGui.setLocale('ru')
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Wiki](Category_Wiki.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Localisation/it

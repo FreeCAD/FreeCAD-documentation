@@ -2,7 +2,7 @@
 {{TutorialInfo/pl
 |Topic=Szkicownik
 |Level=Początkujący
-|Author=_
+|Author=[Maker](User_Maker.md)
 |Time=
 |FCVersion= dowolna
 }}
@@ -18,7 +18,7 @@ To, że krzywa zamknięta jest obecna, nie jest oczywiste i nie jest łatwe do r
 
 
 *Najprostszy szkic.
-</br>Po lewej: Krzywa zamknięta tylko w czterech miejscach ''(czerwony, automatyczne wiązania utworzone podczas rysowania narzędziem <img src=images/_Sketcher_CreatePolyline.svg style="width:32px">  [linia łamana](Sketcher_CreatePolyline/pl.md))''.
+</br>Po lewej: Krzywa zamknięta tylko w czterech miejscach ''(czerwony, automatyczne wiązania utworzone podczas rysowania narzędziem [<img src=images/_Sketcher_CreatePolyline.svg style="width:32px">  [linia łamana](Sketcher_CreatePolyline/pl.md))''.
 </br>W środku: Ostrzeżenie - ... rozbita ścianka ''(rozbita krzywa)''.
 </br>Po prawej: Krzywa zamknięta w pozostałych czterech miejscach (zielony)*
 

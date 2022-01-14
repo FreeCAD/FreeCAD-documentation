@@ -453,7 +453,7 @@ FreeCAD uses [Qt](https://en.wikipedia.org/wiki/Qt_(software)) as toolkit for it
 
 To make Qt Designer aware of the FreeCAD widgets, you must
 
-1.  Download _.)
+1.  Download [this ZIP](https://forum.freecadweb.org/download/file.php?id=124239) file. (Compiled using Qt 5.12, see [below](#Compilation.md).)
 2.  Extract the DLL file in the ZIP and copy it
 
 -   If you use the LibPack: to the folder*\~\\FreeCADLibs\_12.5.2\_x64\_VC17\\bin\\designer*Since there will only be a *bin* folder and you must first create the *designer* subfolder.
@@ -461,7 +461,7 @@ To make Qt Designer aware of the FreeCAD widgets, you must
 
 (Re)Start Qt Designer and check its menu **Help → Plugins**. If the plugin **FreeCAD\_widgets.dll** is listed as being loaded, you can now design and change FreeCAD\'s .ui files. If not, you must [compile](#Compilation.md) the DLL by yourself.
 
-If you prefer using _ the DLL by yourself.
+If you prefer using [Qt Creator](https://en.wikipedia.org/wiki/Qt_Creator) instead of Qt Designer, the DLL must be placed in this folder:*C:\\Qt\\Qt5.15.2\\Tools\\QtCreator\\bin\\plugins\\designer*(Re)Start Qt Creator, switch to the mode **Design** and then check the menu **Tools → Form Editor → About Qt Designer Plugins**. If the plugin **FreeCAD\_widgets.dll** is listed as being loaded, you can now design and change FreeCAD\'s .ui files. If not, you must [compile](#Compilation.md) the DLL by yourself.
 
 #### Compilation
 
@@ -547,7 +547,7 @@ A se vedea și
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer](Category_Developer.md)
 
 ---
 [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > Compile on Windows/ro

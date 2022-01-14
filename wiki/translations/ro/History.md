@@ -14,7 +14,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Istoricul FreeCAD a început în ianuarie 2001, când _ a început să lucreze la proiectul Cas.CADE, un cadru de dezvoltare software comercial care include un [geometric modeling kernel](Glossary#Geometric_modeling_kernel.md) (or CAD kernel), care în 2000 a fost lansat sub licență open source și redenumit ca [Open Cascade](Glossary#Open_CASCADE.md). Acest lucru a făcut posibilă realizarea unui program open-source 3D CAD, având în vedere faptul că programarea unui nucleu CAD de la zero, ar fi necesitat o cantitate imensă de muncă.
+Istoricul FreeCAD a început în ianuarie 2001, când [Jürgen Riegel](User_Jriegel.md) a început să lucreze la proiectul Cas.CADE, un cadru de dezvoltare software comercial care include un [geometric modeling kernel](Glossary#Geometric_modeling_kernel.md) (or CAD kernel), care în 2000 a fost lansat sub licență open source și redenumit ca [Open Cascade](Glossary#Open_CASCADE.md). Acest lucru a făcut posibilă realizarea unui program open-source 3D CAD, având în vedere faptul că programarea unui nucleu CAD de la zero, ar fi necesitat o cantitate imensă de muncă.
 
 
 </div>
@@ -23,7 +23,7 @@ Cuvintele lui Jürgen\'s au fost:
 
 
 {{Quote|text=''Proiectul freecad a fost inițiat de mine în ianuarie 2001, ca asa numita GOM (Graphical Object Modeler), cu ideea de a folosi Qt, Python și Cas.CADE, un comercial CAD-Kernel din acel timp am folosit în proiectele Daimler. Cas.CADE a plecat cu o sursă deschisă cu puțin timp înainte, așa că timpul părea corect să încerc o mișcare în spatiul gol al CAD open source. Am avut o experiență de doi ani cu OpenCascade într-un proiect numit QSpect în care, la final, eram principalul designer de software. Am învățat multe despre programarea 3D și CAD. De asemenea, am fost influențată de Catia V5 și interfața foarte specială de utilizare și de programare ... În 17 martie 2002, în cadrul proiectului OpenCascade, am înregistrat software-ul ca FreeCAD. Nu m-am gândit la un nume mai bun, sunt foarte neinspirat cu numele ... În aprilie 2003, Werner Meyer, unul dintre colegiile din proiectul QSpect, a trecut la o companie numită Imetric. Contactul cu Imetric a avut un rezultat foarte promițător, deoarece a căutat o nouă platformă software 3D pentru senzorii 3D. În 2005, Imetric a donat cea mai mare parte a modulelor sale de plasă  la FreeCAD și comunitatea Open Source, iar de atunci aceștia au folosit FreeCAD ca bază pentru software-ul sistemului de senzori. Din acel moment, Werner Meyer este un dezvoltator foarte activ al FreeCAD. În 2005, după un an de luptă, am decis să rup cadrul documentului OpenCascade și să îl înlocuiesc cu o implementare proprie. Deci, în final, folosim doar kernel-ul CAD al OpenCascade și nu restul cadrului său. 2007 a fost o altă piatră de hotar interesantă. Am trecut la QT4 și, prin urmare, la LGPL. În acel moment am făcut multă treabă, mai ales Werner.''.
-|sign=_|source=''[http://forum.freecadweb.org/viewtopic.php?f=8&t=295 Who is behind FreeCad?]''}}
+|sign=[Jürgen Riegel](User_Jriegel.md)|source=''[http://forum.freecadweb.org/viewtopic.php?f=8&t=295 Who is behind FreeCad?]''}}
 
 
 <div class="mw-translate-fuzzy">
@@ -38,7 +38,7 @@ Proiectul a fost anunțat publicului larg pe [OpenCascade Forum](http://www.open
 
 
 {{Quote|text=''Hi together, my name is Juergen Riegel and today I want announce an OpenCasCade project, FreeCAD. It is an Open Source CAx RAD based on OpenCasCade, QT and Python. It features some key concepts like Macro Recording, Workbenches, ability to run as a server and as a dynamically loadable applications' extension, and it is designed to be platform independent… Although it is in an early stage and not usable for users nor developers—the first user release is planned for the end of 2003—, I would like to get some feedback on the direction and design of FreeCAD. The GUI is nearly finished and now we, my co-developer Werner Mayer and me, have started adding the first CAD functions. FreeCAD can be seen as a general purpose mechanical CAD system, but its first audience, I think, will be CAx developers which need groundwork for own development''.
-|sign=_|source=''[http://www.opencascade.org/org/forum/thread_6572/?forum=11 Announcing FreeCAD Project]''}}
+|sign=[Jürgen Riegel](User_Jriegel.md)|source=''[http://www.opencascade.org/org/forum/thread_6572/?forum=11 Announcing FreeCAD Project]''}}
 
 
 </div>
@@ -89,7 +89,7 @@ Werner Mayer joined the project as soon as it was announced as an open source pr
 
 <div class="mw-translate-fuzzy">
 
-_ s-a alăturat proiectului în 2008 și a început să lucreze la [Draft\_Workbench](Draft_Workbench.md). Înainte de acest punct, nu a existat nici o modalitate de a crea geometria 2D prin [GUI](Glossary#GUI.md). Acest modul a fost programat în întregime în Python, mai degrabă decât în ​​C ++, limbajul de programare folosit în FreeCAD. Acest lucru a demonstrat că integrarea Python a fost un succes și ar putea fi utilizată pentru extinderea sau personalizarea capabilităților FreeCAD. În plus față de lucrarea sa privind modulul Draft, Yorik a lucrat la extinderea documentației FreeCAD și a devenit \"directorul de artă\" de facto al FreeCAD, creând numeroase pictograme pentru GUI-ul FreeCAD și [defining its style](Artwork.md).
+[Yorik van Havre](User_Yorik.md) s-a alăturat proiectului în 2008 și a început să lucreze la [Draft\_Workbench](Draft_Workbench.md). Înainte de acest punct, nu a existat nici o modalitate de a crea geometria 2D prin [GUI](Glossary#GUI.md). Acest modul a fost programat în întregime în Python, mai degrabă decât în ​​C ++, limbajul de programare folosit în FreeCAD. Acest lucru a demonstrat că integrarea Python a fost un succes și ar putea fi utilizată pentru extinderea sau personalizarea capabilităților FreeCAD. În plus față de lucrarea sa privind modulul Draft, Yorik a lucrat la extinderea documentației FreeCAD și a devenit \"directorul de artă\" de facto al FreeCAD, creând numeroase pictograme pentru GUI-ul FreeCAD și [defining its style](Artwork.md).
 
 
 </div>
@@ -255,7 +255,7 @@ In April 2019 the team of core developers was expanded: Jürgen, Werner and Yori
 
 </div>
 
-_
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > History/ro

@@ -5,7 +5,7 @@
 
 ## Introdução
 
-A bancada de trabalho <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _, o Sketcher forma a base do método de _, o Sketcher também forma a base da metodologia de [edição de recursos](feature_editing/pt-br.md) de criação de sólidos .
+A bancada de trabalho <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [bancada de trabalho Sketcher](Sketcher_Workbench/pt-br.md) do FreeCAD é usada para criar geometrias 2D destinadas ao uso na <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [bancada de trabalho PartDesign](PartDesign_Workbench/pt-br.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [bancada de trabalho Arch](Arch_Workbench/pt-br.md), e outras bancadas de trabalho. Geralmente, um desenho 2D é considerado o ponto de partida para a maioria dos modelos CAD, pois um esboço 2D pode ser \"extrudado\" para criar uma forma 3D; outros esboços 2D podem ser usados para criar outros recursos como bolsos, saliências ou extrusões no topo das formas 3D previamente construídas. Junto com as operações booleanas definidas na <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [bancada de trabalho Part](Part_Workbench/pt-br.md), o Sketcher forma a base do método de [Geometria Sólida Construtiva](constructive_solid_geometry/pt-br.md)(constructive solid geometry - CSG) de construção de sólidos. Além disso, junto com as operações da <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [bancada de trabalho PartDesign](PartDesign_Workbench/pt-br.md), o Sketcher também forma a base da metodologia de [edição de recursos](feature_editing/pt-br.md) de criação de sólidos .
 
 A bancada do Sketcher apresenta restrições (\"constraints\"), permitindo que formas 2D sigam definições geométricas precisas em termos de comprimento, ângulos e relações (horizontalidade, verticalidade, perpendicularidade, etc.). Um solucionador de restrições calcula a extensão do efeito das restrições sobre a geometria 2D e permite a exploração interativa dos graus de liberdade do esboço.
 
@@ -103,7 +103,7 @@ Dentro da área fechada, podemos ter áreas menores não sobrepostas. Eles se to
 
 <div class="mw-translate-fuzzy">
 
-Depois que um esboço está totalmente restrito, seu contorno ficará verde; a geometria de construção permanecerá azul. Neste ponto, ele é considerado \"acabado\" e adequado para uso na criação de um sólido 3D. No entanto, uma vez que a caixa de diálogo do esboço é fechada, pode valer a pena acessar a <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:bancada de trabalho Part](Part_Workbench/pt-br.md) e executar o botão **[16px"> [Verificar geometria](Part_CheckGeometry/pt-br.md)** para garantir que não haja partes no esboço que possam causar problemas posteriores.
+Depois que um esboço está totalmente restrito, seu contorno ficará verde; a geometria de construção permanecerá azul. Neste ponto, ele é considerado \"acabado\" e adequado para uso na criação de um sólido 3D. No entanto, uma vez que a caixa de diálogo do esboço é fechada, pode valer a pena acessar a <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [bancada de trabalho Part](Part_Workbench/pt-br.md) e executar o botão **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Verificar geometria](Part_CheckGeometry/pt-br.md)** para garantir que não haja partes no esboço que possam causar problemas posteriores.
 
 
 </div>
@@ -124,7 +124,7 @@ As ferramentas da bancada Sketcher estão todas localizadas no menu Sketch que a
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> [Criar um novo esboço](Sketcher_NewSketch/pt-br.md): Cria um novo esboço em uma face ou plano selecionado. Se nenhuma face estiver selecionada enquanto esta ferramenta é executada, o usuário é solicitado a selecionar um plano em uma janela pop-up.
 
--   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Editar o esboço selecionado](Sketcher_EditSketch/pt-br.md): Abre a edição do esboço selecionado. Isso abrirá a [caixa de diálogo do Sketcher](Sketcher_Dialog/pt-br.md).
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.svg  style="width:32px;"> [Fechar a edição do esboço](Sketcher_LeaveSketch/pt-br.md): Sai do modo de edição do esboço.
 
@@ -170,7 +170,7 @@ Estas são ferramentas para criar objetos.
 
 :\* <img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [3 pontos de borda](Sketcher_Create3PointCircle/pt-br.md): Desenha um círculo a partir de três pontos na circunferência.
 
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> _, [Ponto sobre o objeto](Sketcher_ConstrainPointOnObject/pt-br.md), ou [Perpendicular](Sketcher_ConstrainPerpendicular/pt-br.md)..
+-   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Criar uma cônica no esboço](Sketcher_CompCreateConic/pt-br.md): O Sketcher fornece as seguintes seções cônicas que, ao contrário das B-splines, podem ser usadas com todos os tipos de restrições, como [Tangente](Sketcher_ConstrainTangent/pt-br.md), [Ponto sobre o objeto](Sketcher_ConstrainPointOnObject/pt-br.md), ou [Perpendicular](Sketcher_ConstrainPerpendicular/pt-br.md)..
     -   <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Elipse centro](Sketcher_CreateEllipseByCenter/pt-br.md): Desenha uma elipse pelo ponto central, ponto do raio maior e ponto do raio menor.
     -   <img alt="" src=images/Sketcher_CreateEllipseBy3Points.svg  style="width:32px;"> [Elipse 3 pontos](Sketcher_CreateEllipseBy3Points/pt-br.md): Desenha uma elipse pelo diâmetro maior (2 pontos) e ponto do raio menor.
     -   <img alt="" src=images/Sketcher_CreateArcOfEllipse.svg  style="width:32px;"> [Arco de elipse](Sketcher_CreateArcOfEllipse/pt-br.md): Desenha um arco de elipse pelo ponto central, ponto do raio maior, ponto inicial e ponto final.
@@ -497,7 +497,7 @@ Cada usuário CAD desenvolve sua própria maneira de trabalhar ao longo do tempo
 -   Se possível, centralize seu esboço na origem (0,0) com a restrição de bloqueio (\"Lock\"). Se o seu esboço não for simétrico, localize um de seus pontos na origem ou escolha bons números redondos para as distâncias de bloqueio -- Uma restrição de bloqueio de (25,75) da origem é mais facilmente lembrada do que (23,47 , 73,02). Na v0.12, as restrições externas (restringindo o esboço à geometria 3D existente, como arestas ou outros esboços) não estão implementadas. Isso significa que, para localizar a geometria de esboços subsequentes em seu primeiro esboço, você precisará definir manualmente as distâncias relativas ao primeiro esboço.
 -   Se você tiver a possibilidade de escolher entre a restrição Length e as restrições de distância Horizontal Distance ou Vertical Distance, prefira as últimas. Elas consomem menos recursos computacionais.
 -   Em geral, as melhores restrições a serem usadas são: Restrições horizontais e verticais; restrições de comprimento horizontal e vertical; tangência ponto a ponto. Se possível, limite o uso destes: a restrição geral de comprimento; tangência borda a borda; restrição de fixar o ponto em uma linha; restrição de simetria.
--   Se estiver em dúvida sobre a validade de um esboço depois de concluído (os elementos ficam verdes), feche a caixa de diálogo do Sketcher, mude para a <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> <img src=images/Part_CheckGeometry.svg style="width:Bancada de trabalho Part](Part_Workbench/pt-br.md) e execute **[16px"> [Verificar geometria](Part_CheckGeometry/pt-br.md)**.
+-   Se estiver em dúvida sobre a validade de um esboço depois de concluído (os elementos ficam verdes), feche a caixa de diálogo do Sketcher, mude para a <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Bancada de trabalho Part](Part_Workbench/pt-br.md) e execute **[<img src=images/Part_CheckGeometry.svg style="width:16px"> [Verificar geometria](Part_CheckGeometry/pt-br.md)**.
 
 ## Tutoriais
 
@@ -518,7 +518,7 @@ A página [Sketcher scripting](Sketcher_scripting/pt-br.md) contém exemplos de 
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/pt-br

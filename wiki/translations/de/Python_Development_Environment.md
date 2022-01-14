@@ -6,7 +6,7 @@
 
 <div class="mw-translate-fuzzy">
 
-_ ist eine Programmierumgebung, die in das _).
+[Python](wikipedia:Python_(programming_language).md) ist eine Programmierumgebung, die in das [FreeCAD](http://www.freecadweb.org/) System integriert wurde. Mit Python stehen viele von FreeCAD angebotene Abläufe für den programmierten Zugriff zur Verfügung. Python Programme für FreeCAD werden in der Regel so entwickelt, dass sie entweder auf der Python Konsole oder über die Makrofunktion von FreeCAD ausgeführt werden können (siehe [Wie man Makros installiert](How_to_install_macros/de.md)).
 
 
 </div>
@@ -20,7 +20,7 @@ Für die Programmentwicklung in Python stehen zahlreiche Werkzeuge zur Verfügun
 
 ## Hintergrund
 
-Die moderne Softwareentwicklung auf dem kommerziellen Standard erfolgt in der Regel mit einem Satz von Werkzeugen, der üblicherweise als _ bezeichnet wird. Typischerweise umfassen diese Werkzeuge die folgenden 3:
+Die moderne Softwareentwicklung auf dem kommerziellen Standard erfolgt in der Regel mit einem Satz von Werkzeugen, der üblicherweise als [\'IDE\'](wikipedia_Integrated_development_environment.md) bezeichnet wird. Typischerweise umfassen diese Werkzeuge die folgenden 3:
 
 
 </div>
@@ -337,7 +337,7 @@ FreeCAD.ParamGet('User parameter:BaseApp/Preferences/Macro').SetString('MacroPat
 
 **'''Ein Fehlersuchprogramm ist für FreeCAD geplant, und diese Schritte sind ein Übergangslösung, bis er verfügbar ist. Siehe github.com/mumme74/FreeCAD/tree/editor_fixes'''**
 
-_ bieten typischerweise zwei Hauptfunktionen (unter anderem):
+[Debugger](wikipedia_Debugger.md) bieten typischerweise zwei Hauptfunktionen (unter anderem):
 
 -   Haltepunkte im Quellcode
 -   Variablenprüfung
@@ -778,7 +778,7 @@ Einige andere Verknüpfungen über IDEs für Python, die von Interesse sein kön
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Poweruser Documentation](Category_Poweruser_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Poweruser Documentation](Category_Poweruser Documentation.md) > Python Development Environment/de

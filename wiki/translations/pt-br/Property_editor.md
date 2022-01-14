@@ -68,7 +68,7 @@ print(obj.Label)
 
 *Aba Vista e Dados do editor de propriedade, para um objeto básico "App::FeaturePython" com script.*
 
-A maioria dos objetos geométricos que podem ser criados e exibidos em _ para conhecer as propriedades mais básicas desses objetos.
+A maioria dos objetos geométricos que podem ser criados e exibidos em [Vista 3D](3D_view/pt-br.md) são derivados de uma `Parte::Característica`. Veja a [Característica Part](Part_Feature/pt-br.md) para conhecer as propriedades mais básicas desses objetos.
 
 Para a geometria 2D, a maioria dos objetos são derivados de `Part::Part2DObject` (ela mesma derivada de `Part::Feature`) sendo a base dos [Sketche](Sketch/pt-br.md), e elementos do [Draft](Draft_Workbench/pt-br.md). Veja a [Part Part2DObject](Part_Part2DObject/pt-br.md) para as propriedades mais básicas destes objetos.
 

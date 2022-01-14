@@ -11,7 +11,7 @@
 
 This tutorial shows you how to create an [SVG](SVG.md) file that can be used as the background [template](TechDraw_Templates.md) for the [TechDraw Workbench](TechDraw_Workbench.md) pages. This is intended to be a parallel version for [wandererfan\'s template tutorial](TechDraw_TemplateHowTo.md) because I personally found the guide to be a bit too hard to follow from a beginner standpoint. Here so my aim is to make a version intended for beginners that includes more information and guidance.
 
-This tutorial assumes you have relatively little experience with _, as well as FreeCAD and the [TechDraw Workbench](TechDraw_Workbench.md).
+This tutorial assumes you have relatively little experience with [Inkscape](https://en.wikipedia.org/wiki/Inkscape) and [SVG](SVG.md), as well as FreeCAD and the [TechDraw Workbench](TechDraw_Workbench.md).
 
 In this tutorial we\'re going to make a simple template for US Letter or ISO 216 A4 size paper in landscape orientation. The process is the same for any paper size and once you\'ve finished your first template, it\'s relatively easy to create templates for other page sizes and orientations.
 
@@ -154,7 +154,7 @@ If you do not see the green boxes for your editable texts, there might be someth
 
  {{Tutorials navi}} {{TechDraw Tools navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Sandbox](Category_Sandbox.md)
 
 ---
 [documentation index](../README.md) > Sandbox:TechDraw template creation tutorial

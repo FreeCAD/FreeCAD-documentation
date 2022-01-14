@@ -40,7 +40,7 @@ FreeCAD.ActiveDocument.recompute()
 
 Zwróć uwagę, jak obchodziliśmy się z **myObj.Shape**, zauważ, że robimy to dokładnie tak samo, jak robiliśmy to w poprzednim rozdziale, kiedy zmienialiśmy inne właściwości obiektu, takie jak **box.Height = 5**. W rzeczywistości, **Kształt** jest również właściwością, podobnie jak **Wysokość**. Tylko bierze ona obiekt Part Shape, a nie liczbę. W następnym rozdziale lepiej przyjrzymy się temu, jak te parametryczne obiekty są konstruowane.
 
-Na razie przyjrzyjmy się bardziej szczegółowo naszym Kształtom Części. Na końcu rozdziału o _ pokazaliśmy tabelę, która wyjaśnia, jak konstruowane są Kształty Części oraz ich różne komponenty *(wierzchołki, krawędzie, powierzchnie, itp.)*. Dokładnie te same komponenty istnieją tutaj i mogą być pobrane z Pythona. Kształty Części posiadają zawsze następujące atrybuty: wierzchołki, krawędzie, obwiednie, powierzchnie, powłoki i bryły. Wszystkie z nich są listami, które mogą zawierać dowolną liczbę pozycji lub mogą pozostać puste:
+Na razie przyjrzyjmy się bardziej szczegółowo naszym Kształtom Części. Na końcu rozdziału o [Podręcznik:Modelowanie tradycyjne, według CSG](Manual:Traditional_modeling,_the_CSG_way/pl.md) pokazaliśmy tabelę, która wyjaśnia, jak konstruowane są Kształty Części oraz ich różne komponenty *(wierzchołki, krawędzie, powierzchnie, itp.)*. Dokładnie te same komponenty istnieją tutaj i mogą być pobrane z Pythona. Kształty Części posiadają zawsze następujące atrybuty: wierzchołki, krawędzie, obwiednie, powierzchnie, powłoki i bryły. Wszystkie z nich są listami, które mogą zawierać dowolną liczbę pozycji lub mogą pozostać puste:
 
 
 ```python
@@ -227,7 +227,7 @@ Wszystko to, oraz wiele więcej, zostało szczegółowo wyjaśnione na stronie [
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Manual:Creating and manipulating geometry/pl

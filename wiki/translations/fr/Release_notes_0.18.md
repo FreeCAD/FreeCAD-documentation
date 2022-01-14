@@ -49,7 +49,7 @@ Outils [Arch (architecture) et BIM (Building information modeling)](#Atelier_Arc
 
 -   [ Walls](Arch_Wall/fr.md) peut maintenant être affiché comme une pile de blocs. Il existe de nombreuses options pour configurer leurs tailles et la manière dont les blocs doivent être empilés.
 -   Les [ Building Parts](Arch_BuildingPart/fr.md) sont le nouveau conteneur Arch à tout faire. Ils peuvent regrouper n'importe quel nombre d'objets, ils peuvent être utilisés pour créer des sols (étages), des bâtiments (les outils [Arch Floor](Arch_Floor/fr.md) et [ Arch Building](Arch_Building/fr.md) produisent désormais des parties de construction), ou tout autre groupe de Objets Arch. Ils peuvent être déplacés comme [ Parts](Std_Part/fr.md), et ils sont [ clonables](Draft_Clone/fr.md) et [ référençables](Arch_Reference/fr.md) !
--   L\'_) est un nouveau pendant externe expérimental de [ Arch](Arch_Workbench/fr.md). Nous y testons de nouvelles fonctionnalités et de nouveaux flux de travail dans un environnement plus libre. Pour en être sûr, faites un essai !
+-   L\'[Atelier BIM](BIM_Workbench/fr.md) (ajouté via le <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Gestionnaire d\'Addon](Std_AddonMgr/fr.md)) est un nouveau pendant externe expérimental de [ Arch](Arch_Workbench/fr.md). Nous y testons de nouvelles fonctionnalités et de nouveaux flux de travail dans un environnement plus libre. Pour en être sûr, faites un essai !
 -   [ Windows](Arch_Window/fr.md) dispose de nouveaux préréglages, tels qu\'une fenêtre coulissante à 4 volets. Si la [librairie Parts](https://github.com/FreeCAD/FreeCAD-library/tree/c5eea12cdda7a3e6349323808815f63b0f97ef2e) est installée, on dispose de toutes les portes et fenêtres de la bibliothèque.
 -   [ Panneaux](Arch_Panel/fr.md) peut désormais créer différents types de panneaux profilés, tels que des panneaux ondulés ou même des panneaux sandwich.
 -   Les objets [ Structure](Arch_Structure/fr.md) ont un nouveau mode de dessin de poutre, qui vous permet de cliquer sur deux points pour placer un élément structurel entre eux.
@@ -217,7 +217,7 @@ Certains des nouveaux modules communautaires activement développés au cours du
 
 -   L\'[atelier Defeaturing](Defeaturing_Workbench/fr.md) est destiné à l\'édition de modèles STEP importés, à la suppression d\'éléments sélectionnés du modèle.
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > Release notes 0.18/fr

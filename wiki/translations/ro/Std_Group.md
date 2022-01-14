@@ -61,7 +61,7 @@ De îndată ce semnul se schimbă într-un simbol \"plus\", este posibil să vă
 
 ## Proprietăți
 
-A _ (`App::DocumentObject` class), therefore it shares all the latter\'s properties.
+A [Std Group](Std_Group.md) is internally called [App DocumentObjectGroup](App_DocumentObjectGroup.md) (`App::DocumentObjectGroup` class), and is derived from the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [App FeaturePython](App_FeaturePython.md), which is the most basic instance of an [App DocumentObject](App_DocumentObject.md), the App DocumentObjectGroup has the **Group** property.
 
@@ -97,7 +97,7 @@ See [App FeaturePython](App_FeaturePython.md) for the basic view properties.
 
 ## Inheritance
 
-A _ (`App::DocumentObject` class), and is augmented with a Group extension.
+A [Std Group](Std_Group.md) is formally an instance of the class `App::DocumentObjectGroup`, whose parent is the basic [App DocumentObject](App_DocumentObject.md) (`App::DocumentObject` class), and is augmented with a Group extension.
 
 <img alt="" src=images/FreeCAD_core_objects.svg  style="width:800px;">
 

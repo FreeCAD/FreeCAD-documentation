@@ -3,7 +3,7 @@
 
 ## Introduction
 
-The <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> _ use the same preferences. They can be found in the <img alt="" src=images/Preferences-part_design.svg  style="width:24px;"> **Part design** section of the [Preferences editor](Preferences_Editor.md). This section will only be available if one of the workbenches has been loaded in the current FreeCAD session.
+The <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md) and the <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Part Workbench](Part_Workbench.md) use the same preferences. They can be found in the <img alt="" src=images/Preferences-part_design.svg  style="width:24px;"> **Part design** section of the [Preferences editor](Preferences_Editor.md). This section will only be available if one of the workbenches has been loaded in the current FreeCAD session.
 
 ## Available preferences 
 
@@ -16,7 +16,7 @@ On the *General* tab you can specify the following:
 +-------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Name                                                                    | Description                                                                                                                                                                                                            |
 +=========================================================================+========================================================================================================================================================================================================================+
-|                                                          | If checked, the _ after [boolean operations](Part_Boolean.md) |
+|                                                          | If checked, the [Boundary representation](https://en.wikipedia.org/wiki/Boundary_representation) (BRep) of the model is [validated](Part_CheckGeometry.md) after [boolean operations](Part_Boolean.md) |
 | **Automatically check model after boolean operation**       |                                                                                                                                                                                                                        |
 |                                                                      |                                                                                                                                                                                                                        |
 +-------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -38,11 +38,11 @@ On the *Shape view* tab you can specify the following:
 +-----------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Name                                                                  | Description                                                                                                                                                                                                                     |
 +=======================================================================+=================================================================================================================================================================================================================================+
-|                                                        | Maximum _ objects from their surface            |
+|                                                        | Maximum [linear deflection](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) of the [tesselated](#Tesselation.md) objects from their surface            |
 | **Maximum deviation depending on the model bounding box** |                                                                                                                                                                                                                                 |
 |                                                                    |                                                                                                                                                                                                                                 |
 +-----------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-|                                                        | Maximum _ object section to the next section |
+|                                                        | Maximum [angular deflection](https://www.opencascade.com/doc/occt-7.3.0/overview/html/occt_user_guides__modeling_algos.html#occt_modalg_11_2) from one [tesselated](#Tesselation.md) object section to the next section |
 | **Maximum angular deflection**                            |                                                                                                                                                                                                                                 |
 |                                                                    |                                                                                                                                                                                                                                 |
 +-----------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -109,7 +109,7 @@ Right click on **Mesh deviation** choose in the context menu **Change value**. S
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Preferences/tr

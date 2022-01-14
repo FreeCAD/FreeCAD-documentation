@@ -26,7 +26,7 @@ Toto grafické rozhraní umožňuje pohledu aby byl otáčen s mnohem větší p
 
 <div class="mw-translate-fuzzy">
 
-Nejnovější verze makra se nachází na adrese _.
+Nejnovější verze makra se nachází na adrese [ViewRotation.FCMacro](https://github.com/FreeCAD/FreeCAD-macros/blob/master/PureGui/ViewRotation.FCMacro), ale nejjednodušší způsob, jak toto makro nainstalovat, je přes [Addon Manager](Std_AddonMgr/cs.md).
 
 
 </div>

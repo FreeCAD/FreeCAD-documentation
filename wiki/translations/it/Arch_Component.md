@@ -38,7 +38,7 @@ Crea un componente [Arch](Arch_Workbench/it.md) non parametrico basato su un ogg
 
 ## Proprietà comuni dei componenti Arch 
 
-L\'oggetto Componente di Arch è anche una base condivisa da tutti gli altri oggetti Arch (<img alt="" src=images/Arch_Wall.svg  style="width:16px;"> _, ecc). Pertanto alcune delle sue proprietà e comportamenti sono comuni a tutti gli oggetti Arch (tranne gli strumenti che non producono oggetti solidi, come <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> _):
+L\'oggetto Componente di Arch è anche una base condivisa da tutti gli altri oggetti Arch (<img alt="" src=images/Arch_Wall.svg  style="width:16px;"> [Muro](Arch_Wall/it.md), <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [Struttura](Arch_Structure/it.md), ecc). Pertanto alcune delle sue proprietà e comportamenti sono comuni a tutti gli oggetti Arch (tranne gli strumenti che non producono oggetti solidi, come <img alt="" src=images/Arch_SectionPlane.svg  style="width:16px;"> [Piano di sezione](Arch_SectionPlane/it.md) o <img alt="" src=images/Arch_Axis.svg  style="width:16px;"> [Assi](Arch_Axis/it.md)):
 
 
 <div class="mw-translate-fuzzy">
@@ -66,7 +66,7 @@ L\'oggetto Componente di Arch è anche una base condivisa da tutti gli altri ogg
 
 -   Il posizionamento del componente Arch viene applicato dopo che le addizioni e le sottrazioni sono state eseguite, quindi queste vengono eseguite rispetto all\'oggetto di base nella sua posizione di base. Poi il risultato viene spostato nella posizione definita dal Posizionamento.
 
--   Gli oggetti possono essere aggiunti o rimossi negli elenchi delle Addizioni e Sottrazioni di un componente selezionando sia l\'oggetto che il componente e utilizzando il comando <img alt="" src=images/Arch_Add.svg  style="width:16px;"> _, o dal pannello delle azioni facendo doppio clic sul componente nella vista ad albero. Il pannello delle azioni consente inoltre di verificare quale oggetto fa parte di questi elenchi.
+-   Gli oggetti possono essere aggiunti o rimossi negli elenchi delle Addizioni e Sottrazioni di un componente selezionando sia l\'oggetto che il componente e utilizzando il comando <img alt="" src=images/Arch_Add.svg  style="width:16px;"> [Aggiungi componente](Arch_Add/it.md) o <img alt="" src=images/Arch_Remove.svg  style="width:16px;"> [Rimuovi componente](Arch_Remove/it.md), o dal pannello delle azioni facendo doppio clic sul componente nella vista ad albero. Il pannello delle azioni consente inoltre di verificare quale oggetto fa parte di questi elenchi.
 
 -   **Role**: Ogni componente Arch, oltre alla funzione definita dal tipo (muro, finestra, ecc.), Ha anche una proprietà Ruolo, che può definire ulteriormente quale tipo di funzione svolge. Ad esempio, una <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [Struttura](Arch_Structure/it.md) può avere un ruolo di trave o di colonna. I componenti generici di Arch (come sonp prodotti da questo comando) possono avere qualsiasi ruolo disponibile nell\'intero ambiente Arch. Il ruolo è ciò che viene utilizzato per definire il tipo di oggetto IFC da esportare quando viene [esportato in IFC](Arch_IFC/it.md).
 
@@ -81,7 +81,7 @@ L\'oggetto Componente di Arch è anche una base condivisa da tutti gli altri ogg
 
 <div class="mw-translate-fuzzy">
 
--   **Move with Host**: Quando un componente è incorporato in un altro (ad esempio una finestra all\'interno di un muro), impostando questa proprietà su True l\'oggetto si muove o ruota insieme al suo oggetto ospite quando l\'oggetto ospite viene spostato o ruotato usando i comandi <img alt="" src=images/Draft_Move.svg  style="width:16px;"> _ di Draft.
+-   **Move with Host**: Quando un componente è incorporato in un altro (ad esempio una finestra all\'interno di un muro), impostando questa proprietà su True l\'oggetto si muove o ruota insieme al suo oggetto ospite quando l\'oggetto ospite viene spostato o ruotato usando i comandi <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Sposta](Draft_Move/it.md) o <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [Ruota](Draft_Rotate/it.md) di Draft.
 
 
 </div>

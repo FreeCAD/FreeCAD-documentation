@@ -57,7 +57,7 @@ La méthode 2 doit être préférée. Parmi les raisons:
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > Export to STL or OBJ/fr

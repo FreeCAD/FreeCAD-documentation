@@ -35,7 +35,7 @@ Bu araç yeni bir eskiz oluşturur, mevcut değilse taslak içeren yeni bir [Cis
 
 <div class="mw-translate-fuzzy">
 
-1.  Parça tasarım araç çubuğunda **<img src=images/PartDesign_NewSketch.png style="width:24px">** tuşuna basınız.
+1.  Parça tasarım araç çubuğunda **[<img src=images/PartDesign_NewSketch.png style="width:24px">** tuşuna basınız.
 
 2.  Görevler panelinde, **Özellik seç** diyalogu açılır. Listede veya daha iyi görünürlük için yeniden yönlendirilebilecek 3D görünümündeki düzlemlerden birini seçin.
 
@@ -73,7 +73,7 @@ Dialog settings
 -   Make dependent copy: the elements will be copies, but a dependency to the original elements is kept. This is basically using a [Shapebinder](PartDesign_ShapeBinder.md)
 -   Create cross-reference: the linked elements will not be copies, but point to the original elements, e.g. a master sketch. Any changes are reflected to this sketch
 
-To reference any items in the <img src=images/Sketcher_CarbonCopy.svg style="width:Workbench Sketcher](Sketcher_Workbench.md) use the **<img src="images/Sketcher_External.svg" width=16px> [External Geometry](Sketcher_External.md)** and **[16px"> [CarbonCopy](Sketcher_CarbonCopy.md)** tools. Generally it is recommended to use other sketches as source for references rather than faces or edges, because they are less affected by the Topological Naming Issue.
+To reference any items in the [Workbench Sketcher](Sketcher_Workbench.md) use the **<img src="images/Sketcher_External.svg" width=16px> [External Geometry](Sketcher_External.md)** and **[<img src=images/Sketcher_CarbonCopy.svg style="width:16px"> [CarbonCopy](Sketcher_CarbonCopy.md)** tools. Generally it is recommended to use other sketches as source for references rather than faces or edges, because they are less affected by the Topological Naming Issue.
 
 ## Özellikler
 

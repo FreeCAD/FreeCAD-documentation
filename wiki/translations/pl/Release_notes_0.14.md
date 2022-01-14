@@ -1,5 +1,5 @@
 # Release notes 0.14/pl
-FreeCAD **0.14** został wydany 1 lipca 2014 roku. Stanowi podsumowanie najciekawszych rozwiązań. Pełna lista zmian znajduje się w _ - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
+FreeCAD **0.14** został wydany 1 lipca 2014 roku. Stanowi podsumowanie najciekawszych rozwiązań. Pełna lista zmian znajduje się w [dzienniku zmian Mantis](http://www.freecadweb.org/tracker/changelog_page.php). Starsze wersje można znaleźć na stronie: [0.13](Release_notes_0.13.md) - [0.12](Release_notes_0.12.md) - [0.11](Release_notes_0.11.md)
 
 <img alt="" src=images/Freecad_jeep.png  style="width:1024px;">
 
@@ -79,7 +79,7 @@ Nowe narzędzie [Part Thickness](Part_Thickness/pl.md) jest teraz dostępne. To 
 
 ### Prymitywy Part 
 
-Nowe prymitywy Part zostały dodane do narzędzia _ mogą skorzystać z tej funkcji i również tworzyć te prymitywy, zamiast zwykłych obiektów Draft, jeśli odpowiednia opcja jest ustawiona w preferencjach Draft.
+Nowe prymitywy Part zostały dodane do narzędzia [Part CreatePrimitives](Part_CreatePrimitives/pl.md): graniastosłupy, wielokąty foremne i spirale są teraz łatwe do utworzenie przez ustawienie kilku parametrów. Dalej, niektóre narzędzia z [Środowiska pracy Draft](Draft_Workbench/pl.md) mogą skorzystać z tej funkcji i również tworzyć te prymitywy, zamiast zwykłych obiektów Draft, jeśli odpowiednia opcja jest ustawiona w preferencjach Draft.
 
 ![](images/Part_Create_Primitives1.jpeg )
 
@@ -123,7 +123,7 @@ Pliki .pov utworzone przez FreeCAD zawierają teraz informację o proporcjach ob
 
 ### Obsługa Luxrender 
 
-Razem z istniejącą obsługą _ obsługuje tera również [LuxRender](http://en.wikipedia.org/wiki/LuxRender). Podczas gdy POV-Ray [klasycznym raytracerem](http://pl.wikipedia.org/wiki/%C5%9Aledzenie_promieni), który emituje promienie z kamery w celu znalezienia koloru każdego piksela obrazu, Luxrender jest [bezstronnym rendererem](http://en.wikipedia.org/wiki/Unbiased_rendering), który potrzebuje znacznie więcej czasu na rendering scen, ale tworzy znacznie bardziej realistycznie oświetlenie.
+Razem z istniejącą obsługą [POV-Ray](http://en.wikipedia.org/wiki/POV-Ray), środowisko pracy [Raytracing](Raytracing_Workbench/pl.md) obsługuje tera również [LuxRender](http://en.wikipedia.org/wiki/LuxRender). Podczas gdy POV-Ray [klasycznym raytracerem](http://pl.wikipedia.org/wiki/%C5%9Aledzenie_promieni), który emituje promienie z kamery w celu znalezienia koloru każdego piksela obrazu, Luxrender jest [bezstronnym rendererem](http://en.wikipedia.org/wiki/Unbiased_rendering), który potrzebuje znacznie więcej czasu na rendering scen, ale tworzy znacznie bardziej realistycznie oświetlenie.
 
 ## Arkusz kalkulacyjny (Spreadsheet) 
 
@@ -135,7 +135,7 @@ Zostało dodane nowe Środowisko pracy [Arkusza Kalkulacyjnego](Spreadsheet_Work
 
 ### Import/eksport DWG 
 
-FreeCAD może teraz importować i eksportować do _.
+FreeCAD może teraz importować i eksportować do [formatu DWG](https://pl.wikipedia.org/wiki/DWG), dzięki darmowemu, wieloplatformowemu [Teigha Converter](https://www.opendesign.com/guestfiles/oda_file_converter). Gdy tylko Teigha Converter jest zainstalowany, a ścieżka do niego jest ustawiona w preferencjach FreeCAD Draft, FreeCAD jest gotów do używania go do importu i eksportu plików dwg, przez konwersję ich do dxf i użycie importera/eksportera Draft. Dlatego też import i eksport plików dwg ma te same ograniczenia co [format dxf](Draft_DXF.md).
 
 ### Draft to Drawing działa z grupami 
 
@@ -149,7 +149,7 @@ Narzędzie[Rysunek Roboczy: Wymiar](Draft_Dimension/pl.md) zostało całkowicie 
 
 ### Kreskowanie
 
-Środowisko pracy _.
+Środowisko pracy [Rysunek Roboczy](Draft_Workbench/pl.md) zawiera teraz też nową zabawkę: kreskowanie. Na określonych obiektach Draft *(tych, które formują zamknięty kształt, jak zamknięte polilinie, prostokąty, wielokąty foremne czy okręgi)*, można teraz stosować kreskowanie. Obecnie dostępne jest tylko kilka domyślnych wzorów kreskowania, ale ponieważ te wzory są bardzo łatwe do utworzenia *(to po prostu pliki svg)*, inne mogą zostać utworzone właśnie przez użytkownika i domyślna kolekcja może rozrosnąć się szybko. Obiekty Draft z wzorami są wiernie obsługiwane przez [warsztat Kreślenie](Drawing_Workbench/pl.md).
 
 <img alt="" src=images/Draft_hatches.jpg  style="width:1024px;">
 
@@ -167,7 +167,7 @@ Narzędzia [Draft Upgrade](Draft_Upgrade.md) i [Draft Downgrade](Draft_Downgrade
 
 ### Facebinder
 
-Nowe narzędzie _, gdzie możesz teraz konstruować nowe obiekty z ścian kilku obiektów.
+Nowe narzędzie [Draft Facebinder](Draft_Facebinder/pl.md) zostało dodane. Wykonuje ono bardzo prostą, ale potencjalnie bardzo przydatną operację: zbiera dowolną liczbę zaznaczonych ścian z różnych obiektów i tworzy nowy obiekt z tych ścian. Nowy obiekt zachowuje powiązanie do oryginalnych obiektów , więc jakakolwiek w nich zmiana jest odwzorowana na obiekcje facebinder. To powinno udowodnić swą przydatność szczególnie w obiektach [architektonicznych](Arch_Workbench/pl.md), gdzie możesz teraz konstruować nowe obiekty z ścian kilku obiektów.
 
 ### Shape strings 
 
@@ -175,13 +175,13 @@ Nowe narzędzie [Draft ShapeString](Draft_ShapeString/pl.md) tworzy obiekty plan
 
 ### Krzywe Beziera 
 
-Wraz z istniejącymi krzywymi _. Mogą być on tworzone przez klikanie punktów, w ten sam sposób jak inne obiekty Draft, ale możesz też później [edytować](Draft_Edit/pl.md) je i modyfikować ich uchwyty, osiągając bardzo precyzyjną kontrolę nad kształtem krzywej.
+Wraz z istniejącymi krzywymi [łuk okręgu](Draft_Arc/pl.md) i [B-spline](Draft_BSpline/pl.md), nowy typ krzywej został włączony do środowiska Rysunek Roboczy: [krzywe Beziera](Draft_BezCurve/pl.md). Mogą być on tworzone przez klikanie punktów, w ten sam sposób jak inne obiekty Draft, ale możesz też później [edytować](Draft_Edit/pl.md) je i modyfikować ich uchwyty, osiągając bardzo precyzyjną kontrolę nad kształtem krzywej.
 
 ## Środowisko pracy Arch 
 
 ### Wstępne ustawienia struktury + profile 
 
-Narzędzie _. Teraz można również nadać elementom konstrukcyjnym ścieżkę wytłaczania, dzięki czemu możliwe są bardzo zaawansowane konfiguracje. Niektóre elementy oferowane przez _ mogą być również tworzone bezpośrednio jako elementy konstrukcyjne Środowiska pracy Arch.
+Narzędzie [Arch Structure](Arch_Structure.md) zyskało kilka ulepszeń: teraz posiada predefiniowane ustawienia. Pozwalają one na szybkie zbudowanie belki lub kolumny w oparciu o standardowy profil, taki jak INP lub HEB, oraz łatwiejszy system pozycjonowania, ze specjalnym trybem [snapping](Draft_Snap.md). Teraz można również nadać elementom konstrukcyjnym ścieżkę wytłaczania, dzięki czemu możliwe są bardzo zaawansowane konfiguracje. Niektóre elementy oferowane przez [BOLTS](#Plugins_and_side_projects:_Parts_library.2C_BOLTS.2C_Eagle_importer.md) mogą być również tworzone bezpośrednio jako elementy konstrukcyjne Środowiska pracy Arch.
 
 ### Wstępne ustawienia okien 
 
@@ -195,7 +195,7 @@ Nowy obiekt [Space](Arch_Space.md) jest już dostępny, co pozwala na budowanie,
 
 ### Ściany wielowarstwowe 
 
-_, pozwala na tworzenie skomplikowanych, obramowanych ścian lub ścian z warstwą izolacji. Co więcej, ściany te są świadome swoich \"braci\" *(inne ściany oparte na tej samej linii podstawowej)*, a każde okno umieszczone na jednej z tych ścian stworzy również otwór dla swoich braci.
+[Sciany](Arch_Wall.md) mogą być teraz wielowarstwowe, z bardzo prostą sztuczką: kilka ścian może być opartych na tej samej linii bazowej, określając przesunięcie odległości od linii bazowej. Takie rozwiązanie, połączone na przykład z [Arch Frames](Arch_Frame.md), pozwala na tworzenie skomplikowanych, obramowanych ścian lub ścian z warstwą izolacji. Co więcej, ściany te są świadome swoich \"braci\" *(inne ściany oparte na tej samej linii podstawowej)*, a każde okno umieszczone na jednej z tych ścian stworzy również otwór dla swoich braci.
 
 <img alt="" src=images/Screenshot_arch_multiwall.jpg  style="width:1024px;">
 
@@ -229,7 +229,7 @@ Wiele pracy wykonano zarówno na FreeCAD jak i [IfcOpenShell](http://www.ifcopen
 
 Pełna lista poprawek błędów i nowych funkcji znajduje się na stronie <http://freecadweb.org/tracker/changelog_page.php>
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > Release notes 0.14/pl

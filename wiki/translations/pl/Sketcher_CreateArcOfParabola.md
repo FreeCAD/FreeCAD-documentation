@@ -17,7 +17,7 @@ This tool creates an arc of parabola by focus, vertex and endpoints.
 
 ## Usage
 
-1.  Press the **<img src=images/Sketcher_CreateArcOfParabola.svg style="width:16px"> [Arc of parabola](Sketcher_CreateArcOfParabola.md)** button.
+1.  Press the **[<img src=images/Sketcher_CreateArcOfParabola.svg style="width:16px"> [Arc of parabola](Sketcher_CreateArcOfParabola.md)** button.
 2.  Click in the 3D view to define the focus point (labelled 1 in the picture above).
 3.  Click in the 3D view to define the tip of the arc of hyperbola (labelled 2 in the picture above).
 4.  Click in the 3D view to define the first end point (labelled 3 in the picture above).

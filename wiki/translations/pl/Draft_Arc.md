@@ -51,7 +51,7 @@ Skróty klawiaturowe jedno znakowe dostępne w panelu zadań można zmienić. Zo
 
 ## Ustawienia
 
-Zobacz także strony: _.
+Zobacz także strony: [Edytor ustawień](Preferences_Editor/pl.md) oraz [Rysunek Roboczy: Preferencje](Draft_Preferences/pl.md).
 
 -   Aby zmienić ilość miejsc po przecinku używanych przy wprowadzaniu współrzędnych, promieni i kątów: **Edycja → Preferencje → Ogólne → Jednostki → Ustawienia jednostek → Liczba cyfr po przecinku**.
 -   Jeśli w oknie ustawień opcja **Edycja → Preferencje → Rysunek Roboczy → Ustawienia ogólne → Opcje narzędzi do kreślenia → Używaj elementów pierwotnych, gdy jest to możliwe** jest zaznaczona, polecenie utworzy [okrąg](Part_Circle/pl.md) środowiska Część, zamiast okręgu Rysunku Roboczego.
@@ -62,7 +62,7 @@ Zobacz stronę [Rysunek Roboczy: Okrąg](Draft_Circle/pl#W.C5.82a.C5.9Bciwo.C5.9
 
 ## Tworzenie skryptów 
 
-Zobacz również stronę: _.
+Zobacz również stronę: [Dokumentacja API generowana automatycznie](https://freecad.github.io/SourceDoc/) oraz [Podstawy tworzenia skryptów FreeCAD](FreeCAD_Scripting_Basics/pl.md).
 
 Aby utworzyć łuk użyj metody `make_circle` modułu Rysunek Roboczy ({{Version/pl|0.19}}). Ta metoda zastępuje przestarzałą metodę `makeCircle`.
 

@@ -1,5 +1,5 @@
 # Release notes 0.15/fr
-FreeCAD 0.15 a été publié le 8 avril 2015. Ceci est un résumé des changements les plus intéressants survenus dans FreeCAD depuis la dernière version. Voir _ - [0.13](Release_notes_0.13/fr.md) - [0.12](Release_notes_0.12/fr.md) - [0.11](Release_notes_0.11/fr.md)
+FreeCAD 0.15 a été publié le 8 avril 2015. Ceci est un résumé des changements les plus intéressants survenus dans FreeCAD depuis la dernière version. Voir [sur Mantis (en anglais)](http://www.freecadweb.org/tracker/changelog_page.php) pour la liste complète des changements. Les versions plus anciennes : [0.14](Release_notes_0.14/fr.md) - [0.13](Release_notes_0.13/fr.md) - [0.12](Release_notes_0.12/fr.md) - [0.11](Release_notes_0.11/fr.md)
 
 <img alt="" src=images/Spark-Plug-Plane.jpg  style="width:1024px;">
 
@@ -151,7 +151,7 @@ Les [fonctions de construction macro](https://github.com/Rentlau/WorkFeature) aj
 
 <img alt="" src=images/WF.png  style="width:640px;">
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> News](Category_News.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Releases](Category_Releases.md)
 
 ---
 [documentation index](../README.md) > [News](Category_News.md) > Release notes 0.15/fr

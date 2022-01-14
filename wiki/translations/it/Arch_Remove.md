@@ -20,7 +20,7 @@
 Lo strumento Rimuovi permette di eseguire 2 tipi di operazioni:
 
 -   Rimuovere un sotto-componente di un oggetto Architettura, ad esempio rimuovere il cubo che è stato inserito in una parete per descrivere il comando <img alt="" src=images/Arch_Add.svg  style="width:16px;"> [Aggiungi](Arch_Add/it.md).
--   Rimuovere un oggetto basato su _ o una <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [struttura](Arch_Structure/it.md), da un oggetto Architettura
+-   Rimuovere un oggetto basato su [forme](Part_Workbench/it.md), tipo un <img alt="" src=images/Arch_Wall.svg  style="width:16px;"> [muro](Arch_Wall/it.md) o una <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [struttura](Arch_Structure/it.md), da un oggetto Architettura
 
 
 </div>

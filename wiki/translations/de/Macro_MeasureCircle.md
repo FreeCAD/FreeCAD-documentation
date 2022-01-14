@@ -30,7 +30,7 @@ Man kann entweder die Elemente auswählen und dann das Makro starten oder das Ma
 
 <div class="mw-translate-fuzzy">
 
-Die neueste Version des Makros ist zu finden auf _.
+Die neueste Version des Makros ist zu finden auf [MeasureCircle.FCMacro](https://raw.githubusercontent.com/FreeCAD/FreeCAD-macros/master/Information/MeasureCircle.FCMacro), aber der einfachste Weg zur Installation dieses Makros ist die Nutzung des [Addon-Managers](Std_AddonMgr/de.md).
 
 
 </div>

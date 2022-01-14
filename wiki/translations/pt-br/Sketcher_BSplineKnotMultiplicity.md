@@ -18,7 +18,7 @@ Shows or hides the display of the knot multiplicity of a B-spline. See [this pag
 
 ## Usage
 
-1.  Select a B-spline and use the toolbar button **<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [ Show/Hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md)**.
+1.  Select a B-spline and use the toolbar button **[<img src=images/Sketcher_BSplineKnotMultiplicity.svg style="width:16px"> [ Show/Hide B-spline knot multiplicity](Sketcher_BSplineKnotMultiplicity.md)**.
 
 
 

@@ -6,7 +6,7 @@ FreeCAD geliştiricilerinden ve kullanıcılarından yardım alabileceğiniz ve 
 
 </div>
 
-The first place you can ask for help is the _ about your system is necessary when asking for help.
+The first place you can ask for help is the [FreeCAD forum](https://forum.freecadweb.org/viewforum.php?f=3). Please read [this post](https://forum.freecadweb.org/viewtopic.php?f=3&t=2264) before asking any question. Remember that [important information](Important_information.md) about your system is necessary when asking for help.
 
 There are different subforums for FreeCAD users and developers. Make sure you search the internet, and read through existing questions before you ask for help. There are subforums where you can discuss more specific topics, give your impressions of FreeCAD, discuss new ideas, etc. The forums are very active and you should get a reply very quickly.
 
@@ -53,7 +53,7 @@ We have an [official dedicated FreeCAD Discord server](https://discord.gg/NpMefp
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Help](Category_Help.md)
 
 ---
 [documentation index](../README.md) > [Help](Category_Help.md) > Help/tr

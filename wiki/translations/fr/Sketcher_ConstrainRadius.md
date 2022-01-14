@@ -16,7 +16,7 @@ Cette contrainte contraint la valeur du rayon d\'un cercle ou d\'un arc à avoir
 -   Si la contrainte est appliquée en mode \'Référence\', une nouvelle contrainte de référence est ajoutée à chaque objet séparément selon les règles ci-dessus.
 -   Si la contrainte est appliquée en mode \'Normal\', les règles suivantes s\'appliquent:
     -   Une contrainte de référence est appliquée séparément sur chaque objet qui est une géométrie externe.
-    -   des **<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Contraintes d'égalités](Sketcher_ConstrainEqual/fr.md)** sont appliquées séquentiellement entre tous les objets de géométrie réelle/construction et une contrainte dimensionnelle est appliquée au premier objet sélectionné selon les règles ci-dessus.
+    -   des **[<img src=images/Sketcher_ConstrainEqual.svg style="width:16px"> [Contraintes d'égalités](Sketcher_ConstrainEqual/fr.md)** sont appliquées séquentiellement entre tous les objets de géométrie réelle/construction et une contrainte dimensionnelle est appliquée au premier objet sélectionné selon les règles ci-dessus.
 
 NB : Les pôles B-spline ne peuvent pas être mélangés avec d\'autres types d\'objets dans la sélection.
 
@@ -25,7 +25,7 @@ NB : Les pôles B-spline ne peuvent pas être mélangés avec d\'autres types d\
 ## Utilisation
 
 1.  Sélectionnez un ou plusieurs cercles ou arcs.
-2.  Appuyez sur la touche **<img src=images/Sketcher_ConstrainRadius.svg style="width:16px"> [Contrainte de rayon](Sketcher_ConstrainRadius/fr.md)**.
+2.  Appuyez sur la touche **[<img src=images/Sketcher_ConstrainRadius.svg style="width:16px"> [Contrainte de rayon](Sketcher_ConstrainRadius/fr.md)**.
 3.  Une boîte de dialogue s\'ouvre pour éditer ou confirmer la valeur. Appuyez sur **OK** pour valider. Si plusieurs cercles / arcs ont été sélectionnés, toutes les contraintes adopteront cette valeur. Modifiez leurs valeurs séparément en double-cliquant sur l\'étiquette de cote dans la vue 3D. ou, dans la liste des contraintes, double-cliquez sur la contrainte ou cliquez avec le bouton droit de la souris et sélectionnez **Modifier la valeur**.
 4.  En option, l'étiquette de cote et la ligne peuvent être déplacées et pivotées dans la vue 3D en cliquant sur la valeur et en les faisant glisser tout en maintenant le bouton gauche de la souris enfoncé.
 

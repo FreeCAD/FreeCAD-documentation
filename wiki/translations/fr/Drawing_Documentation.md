@@ -138,7 +138,7 @@ CanvasView est l\'objet QGraphicsScene et DrawingView traite une liste de Featur
 
 {{Drawing Tools navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer_Documentation](Category_Developer_Documentation.md) > [Drawing](Drawing_Workbench.md) > Drawing Documentation/fr

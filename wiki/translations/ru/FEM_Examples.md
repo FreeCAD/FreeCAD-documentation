@@ -18,7 +18,7 @@
 
 <div class="mw-translate-fuzzy">
 
-_.
+[FEM Examples](FEM_Examples/ru.md) запускает диалог, в котором можно выбрать различные примеры из списка, доступные для верстака <img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [FEM](FEM_Workbench/ru.md).
 
 
 </div>

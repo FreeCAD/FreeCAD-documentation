@@ -13,7 +13,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Das **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''LinearesMuster'''** Werkzeug erzeugt gleichmäßig verteilte Kopien eines Formelements in einer linearen Richtung. Ab {{VersionPlus/de|0.17}} kann das Linear Muster Werkzeug mehrere Formelemente mustern.
+Das **[<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''LinearesMuster'''** Werkzeug erzeugt gleichmäßig verteilte Kopien eines Formelements in einer linearen Richtung. Ab {{VersionPlus/de|0.17}} kann das Linear Muster Werkzeug mehrere Formelemente mustern.
 
 
 </div>
@@ -27,7 +27,7 @@ Das **<img src=images/PartDesign_LinearPattern.svg style="width:24px"> '''Linear
 Um ein Muster zu erstellen:
 
 1.  Wähle das Formelement ({{Version/de|0.19}} oder mehrere Formelemente), die gemustert werden sollen.
-2.  Drücke die **<img src=images/PartDesign_LinearPattern.svg style="width:24px">  '''LinearesMuster'''** Schaltfläche.
+2.  Drücke die **[<img src=images/PartDesign_LinearPattern.svg style="width:24px">  '''LinearesMuster'''** Schaltfläche.
 3.  Definiere die **Richtung**. Siehe [Optionen](#Options/de.md).
 4.  Definiere die **Länge** (Abstand) zwischen dem letzten kopierten Auftreten und dem Original Formelement.
 5.  Lege die Anzahl der **Häufigkeiten** fest.

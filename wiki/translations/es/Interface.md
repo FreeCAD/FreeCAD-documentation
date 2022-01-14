@@ -31,14 +31,14 @@ Como muchas piezas de software, FreeCAD incluye una barra de menú estándar, y 
 
 ### Menús
 
-Los _}}, {{StdMenu|[**Editar**](Std_Edit_Menu/es.md)}}, {{StdMenu|[**Vista**](Std_View_Menu/es.md)}}, {{StdMenu|[**Herramientas**](Std_Tools_Menu/es.md)}}, {{StdMenu|[**Macro**](Std_Macro_Menu/es.md)}}, {{StdMenu|[**Windows**](Std_Windows_Menu/es.md)}}, {{StdMenu|[**Ayuda**](Std_Help_Menu/es.md)}}.
+Los [menús estándar](Standard_Menu/es.md) son: {{StdMenu|[**Archivo**](Std_File_Menu/es.md)}}, {{StdMenu|[**Editar**](Std_Edit_Menu/es.md)}}, {{StdMenu|[**Vista**](Std_View_Menu/es.md)}}, {{StdMenu|[**Herramientas**](Std_Tools_Menu/es.md)}}, {{StdMenu|[**Macro**](Std_Macro_Menu/es.md)}}, {{StdMenu|[**Windows**](Std_Windows_Menu/es.md)}}, {{StdMenu|[**Ayuda**](Std_Help_Menu/es.md)}}.
 
 ### Barras de herramientas 
 
 The standard toolbars that appear in the interface are:
 
 -   File toolbar: tools to work with files, open documents, copy, paste, undo and redo actions.
--   _.
+-   [Workbench toolbar](Std_Workbench.md): it contains a single widget to select the active [workbench](workbenches.md).
 -   Macro toolbar: tools to record, edit, and execute [macros](macros.md).
 -   View toolbar: tools to control how objects appear in the [3D view](3D_view.md).
 -   Structure toolbar: tools to organize objects in the document, and create links to additional documents.
@@ -50,15 +50,15 @@ Pueden activarse y desactivarse haciendo clic con el botón derecho del ratón e
 The main panels that allow working with objects are:
 
 -   [3D view](3D_view.md): the area where 2D and 3D geometry is drawn.
--   _, the [task panel](task_panel.md), and the [property editor](property_editor.md).
+-   [Combo view](Combo_view.md): the panel that contains the [tree view](tree_view.md), the [task panel](task_panel.md), and the [property editor](property_editor.md).
 -   [Tree view](Tree_view.md): the element that shows all objects in the document and their parametric history.
 -   [Task panel](Task_panel.md): the panel that shows different actions and options depending on the drawing tool selected.
 -   [Property editor](Property_editor.md): the place where object properties are modified.
 -   [Selection view](Selection_view.md): the panel that shows elements that are currently selected.
 -   [Report view](Report_view.md): the text box that shows different messages from the application and its tools.
--   _ code interactively to see results in the [3D view](3D_view.md).
--   _ selector.
--   _, which shows the relationships between different objects through a graph.
+-   [Python console](Python_console.md): the editor that allows running [Python](Python.md) code interactively to see results in the [3D view](3D_view.md).
+-   [Status bar](Status_bar.md): the bar that shows certain messages from the application, and that has the [mouse navigation](Mouse_navigation.md) selector.
+-   [DAG view](DAG_view.md): an alternative to the [tree view](tree_view.md), which shows the relationships between different objects through a graph.
 
 A excepción de la vista 3D, todas pueden activarse y desactivarse haciendo clic con el botón derecho del ratón en un espacio vacío de una de las barras de herramientas superiores y eligiendo el elemento deseado, o desde el menú, **Vista → Paneles**.
 
@@ -71,8 +71,8 @@ Para activar y desactivar la barra de estado utilice el menú, **Vista → Barra
 
 Otras interfaces y ventanas útiles son:
 
--   _. Para los usuarios avanzados y los desarrolladores, puede ser útil para solucionar las operaciones que manipulan la escena directamente, y los objetos creados en la [vista 3D](3D_view/es.md).
--   _ o la [vista de DAG](DAG_view/es.md).
+-   [Inspector de escenas](Std_SceneInspector/es.md): un panel que muestra los nodos Coin3D que componen el [scenegraph](scenegraph/es.md). Para los usuarios avanzados y los desarrolladores, puede ser útil para solucionar las operaciones que manipulan la escena directamente, y los objetos creados en la [vista 3D](3D_view/es.md).
+-   [Gráfico de dependencias](Std_DependencyGraph/es.md): una ventana que muestra el gráfico de dependencias de todos los objetos del documento, creado con el programa auxiliar [Graphviz](http://graphviz.org/). Es útil para reconocer problemas en la creación de objetos, como las dependencias circulares, que pueden no ser del todo evidentes desde la [vista de árbol](tree_view/es.md) o la [vista de DAG](DAG_view/es.md).
 
 
 </div>

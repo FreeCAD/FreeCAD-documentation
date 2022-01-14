@@ -10,7 +10,7 @@
 
 ## Description
 
-The <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> _ is used.
+The <img alt="" src=images/SheetMetal_SketchOnSheet.svg  style="width:16px;"> [Sketch On Sheet metal](SheetMetal_SketchOnSheet.md) command cuts holes along the folded walls of a sheet metal object. For the hole layout a <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [sketch](Sketcher_Workbench.md) is used.
 
 In contrast to the <img alt="" src=images/PartDesign_Pocket.svg  style="width:16px;"> [PartDesign Pocket](PartDesign_Pocket.md) command, where holes are just cut along the sketch normal (local z axis), this tool acts as if it would unfold the sheet metal object, cut the holes, and refold the object.
 
@@ -107,7 +107,7 @@ This thingamajig is made of a folded sheet metal object with holes added.  And s
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> SheetMetal](Category_SheetMetal.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> External Command Reference](Category_External_Command_Reference.md)
 
 ---
 [documentation index](../README.md) > [SheetMetal](Category_SheetMetal.md) > SheetMetal SketchOnSheet

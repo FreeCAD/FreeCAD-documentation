@@ -3,7 +3,7 @@
 |Topic= Wprowadzenie do modelowania
 |Level= Początkujący
 |Time= 15 minut
-|Author=_
+|Author=[NormandC](User_Normandc.md)
 |FCVersion=dowolny
 |Files=Nie dołączono
 }}
@@ -20,7 +20,7 @@ Często zapisuj swoją pracę, od czasu do czasu zapisz ją pod inną nazwą, ab
 
 ## Techniki modelowania Intro 
 
-Pierwszą *(i podstawową)* techniką modelowania bryłowego jest _ na wiki. Pracujesz z kształtami typu bryły pierwotne, takimi jak sześciany, walce, kule i stożki, aby skonstruować geometrię poprzez łączenie ich, odejmowanie jednego kształtu od drugiego lub przecinanie ich. Narzędzia te są częścią środowiska pracy [Część](Part_Workbench/pl.md). Możesz również stosować przekształcenia na kształtach, jak np. zaokrąglenia lub sfazowania na krawędziach. Te narzędzia również znajdują się w środowisku pracy [Część](Part_Workbench/pl.md).
+Pierwszą *(i podstawową)* techniką modelowania bryłowego jest [Constructive Solid Geometry *(CSG)*](http://en.wikipedia.org/wiki/Constructive_solid_geometry). Istnieje również szczegółowe wyjaśnienie *(w kontekście FreeCAD)* [Konstrukcyjna geometria bryły](Constructive_solid_geometry/pl.md) na wiki. Pracujesz z kształtami typu bryły pierwotne, takimi jak sześciany, walce, kule i stożki, aby skonstruować geometrię poprzez łączenie ich, odejmowanie jednego kształtu od drugiego lub przecinanie ich. Narzędzia te są częścią środowiska pracy [Część](Part_Workbench/pl.md). Możesz również stosować przekształcenia na kształtach, jak np. zaokrąglenia lub sfazowania na krawędziach. Te narzędzia również znajdują się w środowisku pracy [Część](Part_Workbench/pl.md).
 
 Dostępne są też bardziej zaawansowane narzędzia. Zaczynasz od narysowania dwuwymiarowego profilu, który będziesz albo wyciągać, albo obracać.
 

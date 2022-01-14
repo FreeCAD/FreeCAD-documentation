@@ -94,9 +94,9 @@ Questa pagina contiene i modelli conformi allo standard [Arch](http://en.wikiped
 
 ## Contributi
 
-Questi modelli sono stati disegnati da _ e sono disponibili in [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
+Questi modelli sono stati disegnati da [Quick61](User_Quick61.md) e sono disponibili in [FreeCAD-Drawing-Templates](https://github.com/quick61/FreeCAD-Drawing-Templates).
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Drawing](Category_Drawing.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Arch](Arch_Workbench.md) > Arch templates/it

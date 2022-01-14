@@ -54,7 +54,7 @@ Dopo aver caricato un [Ambiente di lavoro](Workbenches/it.md), sono disponibili 
 
 -    **[Stile di disegno](Std_DrawStyle/it.md)**: come è, facce piene, ombreggiato, reticolo, punti, linee nascoste, nessuna ombreggiatura.
 
--    **_, [di fronte](Std_ViewFront/it.md), [dall\'alto](Std_ViewTop/it.md), [da destra](Std_ViewRight/it.md), [da dietro](Std_ViewRear/it.md), [dal basso](Std_ViewBottom/it.md), [da sinistra](Std_ViewLeft/it.md), [ruota a sinistra](Std_ViewRotateLeft/it.md), [ruota a destra](Std_ViewRotateRight/it.md).
+-    **[Viste standard](Std_View_Menu/it.md)**: [isometrica](Std_ViewIsometric/it.md), [di fronte](Std_ViewFront/it.md), [dall\'alto](Std_ViewTop/it.md), [da destra](Std_ViewRight/it.md), [da dietro](Std_ViewRear/it.md), [dal basso](Std_ViewBottom/it.md), [da sinistra](Std_ViewLeft/it.md), [ruota a sinistra](Std_ViewRotateLeft/it.md), [ruota a destra](Std_ViewRotateRight/it.md).
 
 -    **Misure**: [attiva/disattiva le misure](View_Measure_Toggle_All/it.md), [cancella le misure](View_Measure_Clear_All/it.md).
 
@@ -68,11 +68,11 @@ Ad esempio, con [Part](Part_Workbench.md) e un oggetto selezionato:
 
 -    **[Mostra/Nascondi](Std_ToggleVisibility/it.md)**: rende l\'oggetto visibile o invisibile nella vista 3D.
 
--    **_.
+-    **[Attiva/disattiva selezionabilità](Std_ToggleSelectability/it.md)**: rende l\'oggetto non più selezionabile nella vista 3D; usare di nuovo questo comando per annullarne l\'effetto. Imposta l\'attributo `Selectable` dell\'oggetto su `True` o `False`. Modificare la proprietà attivando **Selectable** nell\'[editor delle proprietà](property_editor/it.md).
 
--    **_ per mostrare l\'oggetto selezionato nella gerarchia.
+-    **[Vai alla selezione](Std_TreeSelection/it.md)**: espande la [vista ad albero](tree_view/it.md) per mostrare l\'oggetto selezionato nella gerarchia.
 
--    **_.
+-    **[Colore casuale](Std_RandomColor/it.md)**: assegna un colore casuale all\'oggetto. Imposta l\'attributo `ShapeColor` dell\'oggetto su una tupla `(r,g,b)` con valore flottante casuale tra 0 e 1. Cambiare la proprietà modificando **Shape Color** nell\'[editor delle proprietà](property_editor/it.md).
 
 -    **[Elimina](Std_Delete/it.md)**: rimuove l\'oggetto dal documento e dalla vista 3D chiamando il metodo `removeObject()` del documento.
 

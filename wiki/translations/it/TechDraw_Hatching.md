@@ -13,7 +13,7 @@ TechDraw ha due strumenti per il tratteggio:
 1.  Selezionare una faccia
 
     :   <img alt="" src=images/SelectFace.png  style="width:150px;">
-2.  A seconda dell\'esigenza, premere le icone <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> _.
+2.  A seconda dell\'esigenza, premere le icone <img alt="" src=images/TechDraw_Hatch.svg  style="width:24px;"> [Tratteggio da modello](TechDraw_Hatch/it.md) o <img alt="" src=images/TechDraw_GeometricHatch.svg  style="width:24px;"> [Tratteggio geometrico](TechDraw_GeometricHatch/it.md).
 
 **Risultato:** La faccia verrà tratteggiata inizialmente usando i valori predefiniti. **Nota**: modificare le proprietà del tratteggio per ottenere il tratteggio desiderato.
 

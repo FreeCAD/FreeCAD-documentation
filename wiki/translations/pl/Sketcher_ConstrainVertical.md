@@ -18,7 +18,7 @@ Tworzy wiązanie pionowe dla wybranych linii lub elementów polilinii. Zaczynaj�
 
 1.  Wybierz linie lub wierzchołki, które mają być związane w pionie
 2.  Aby uruchomić komendę wiązania pionowego:
-    -   Naciśnij przycisk **<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Wiązanie pionowe](Sketcher_ConstrainVertical.md)**.
+    -   Naciśnij przycisk **[<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Wiązanie pionowe](Sketcher_ConstrainVertical.md)**.
     -   Użyj skrótu na klawiaturze **V**.
     -   Użyj pozycji **Sketch → Wiązania szkicownika → Wiązanie pionowe** , znajdującej się w menu rozwijanym Szkicu
 3.  Alternatywnie, narzędzie może być uruchomione bez wcześniejszego zaznaczenia i będzie oczekiwało zaznaczenia, ale tylko linie będą mogły być zaznaczone.

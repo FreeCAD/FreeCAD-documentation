@@ -3,9 +3,9 @@
 
 ## Introduction
 
-Le principal outil de gestion de code source du projet FreeCAD est _.
+Le principal outil de gestion de code source du projet FreeCAD est [Git](http://en.wikipedia.org/wiki/Git_%28software%29), qui peut être facilement installé dans la plupart des systèmes d\'exploitation à partir d\'un gestionnaire de paquets ou directement à partir de [Git\'s website](https://git-scm.com/). Nous vous conseillons de vous familiariser avec Git avant de travailler directement avec le code source FreeCAD. Visitez la page [Git documentation](https://git-scm.com/doc) pour obtenir le manuel de référence, ainsi que le [Pro Git book](https://git-scm.com/book/en/v2) pour apprendre à utiliser le système de manière générale. Le présent document porte sur l\'utilisation de Git pour le développement FreeCAD. La compilation de FreeCAD est décrite dans [Compilation](Compiling/fr.md).
 
-Bien que Git soit principalement une application de terminal, il existe de nombreux clients graphiques qui facilitent le travail avec les branches, l'application de correctifs et la soumission de demandes d\'extraction à une branche principale. Les exemples incluent _ pour une introduction sommaire à cet outil.
+Bien que Git soit principalement une application de terminal, il existe de nombreux clients graphiques qui facilitent le travail avec les branches, l'application de correctifs et la soumission de demandes d\'extraction à une branche principale. Les exemples incluent [gitk](https://git-scm.com/docs/gitk) (la première interface graphique développée), [gitg](https://wiki.gnome.org/Apps/Gitg/) (Gnome), [qgit](https://github.com/tibirna/qgit) (Qt), [tig](https://jonas.github.io/tig/) (Ncurses), [git-cola](http://github.com/git-cola/git-cola) et [GitKraken](https://www.gitkraken.com/) (propriétaire). Veuillez consulter [Developing FreeCAD with GitKraken](Developing_FreeCAD_with_GitKraken.md) pour une introduction sommaire à cet outil.
 
 Remarque: si tout cela commence à vous donner le vertige, il existe une très bonne série non technique sur l\'utilisation de git et Github appelée \'[Git et Github pour les poètes](https://youtu.be/BCQHnlnPusY)\'
 
@@ -985,7 +985,7 @@ Dirigez vous vers la section de développement du [forum FreeCAD](https://forum.
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Source code management/fr

@@ -3,7 +3,7 @@
 |Topic=FEM
 |Level=Intermediate
 |Time=1 hour
-|Author=_
+|Author=[M42kus](User_M42kus.md)
 |FCVersion=0.17
 }}
 
@@ -105,7 +105,7 @@ Most files related to a solver reside in a sub-package of the `femsolver` packag
 -   **femsolver/elmer/tasks.py:** Module containing one task class per task required for a solver implementation. Those tasks divide the process of solving a analysis into the following steps: check, prepare, solve, results.
 -   **femcommands/commands.py:** Adds the solver document object to the active document. Required to access the solver object from the GUI.
 
-There is a tutorial of adding a new solver: _
+There is a tutorial of adding a new solver: [Add FEM Solver Tutorial](Sandbox_Add_FEM_Solver_Tutorial.md)
 
 ## Equations
 
@@ -129,7 +129,7 @@ Constraints define boundary conditions for the problem that shall be solved. In 
 
 Adding new constraints is quite straight forward. For newcomers there is a tutorial: [Add FEM Constraint Tutorial](Add_FEM_Constraint_Tutorial.md).
 
-_
+[<img src="images/Property.png" style="width:16px"> FEM](Category_FEM.md)
 
 ---
 [documentation index](../README.md) > [FEM](Category_FEM.md) > Extend FEM Module/en

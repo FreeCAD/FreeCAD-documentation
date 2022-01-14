@@ -12,7 +12,7 @@ Help us to build, correct and extend this documentation. Correct mistakes, exten
 
 A couple of areas that would welcome your work:
 
--   The _ page lists and documents all of the FreeCAD [commands](command.md). Most of them contain little to no information at all. Please refer to [WikiPages](WikiPages.md) for good examples of what command documentation pages should look like.
+-   The [:<img src="images/Property.png" style="width:16px"> Command Reference](:Category_Command_Reference.md) page lists and documents all of the FreeCAD [commands](command.md). Most of them contain little to no information at all. Please refer to [WikiPages](WikiPages.md) for good examples of what command documentation pages should look like.
 -   The [Tutorials](Tutorials.md) section needs examples on how to use the workbenches. If you developed something cool with FreeCAD, why not document how you did it for posterity?
 -   There are open tickets on the FreeCAD [bug tracker](Tracker.md) tagged [\"documentation\"](https://freecadweb.org/tracker/search.php?tag_string=documentation) that could use some love.
 
@@ -39,7 +39,7 @@ Translating is easy, the FreeCAD wiki supports a translation plugin which allows
 
 For details on translation, see [Localisation\#Translating the wiki](Localisation#Translating_the_wiki.md).
 
-Please be sure you are familiar with the basics of wiki markup; see _ for a reference.
+Please be sure you are familiar with the basics of wiki markup; see [Help:Editing](Help_Editing.md) for a reference.
 
 Then head to [WikiPages](WikiPages.md) to familiarize yourself with the style used in this wiki, particularly when it comes to templates.
 
@@ -84,7 +84,7 @@ Writing code for FreeCAD is not hard, and you don\'t need any permission, you ca
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Command Reference]] page lists and documents all of the FreeCAD ](Category_Command Reference]] page lists and documents all of the FreeCAD .md) > Help FreeCAD/cs

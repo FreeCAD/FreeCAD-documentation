@@ -10,7 +10,7 @@
 
 ## Introduction
 
-This example is meant to show how to simulate the 6th example of _. It illustrates how to setup the example, study it\'s various parts, solve it using the [Elmer Solver](FEM_SolverElmer.md) and visualise the results using [Clip Filter](FEM_PostFilterClipRegion.md).
+This example is meant to show how to simulate the 6th example of [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf), **Electrostatic equation -- Capacitance of two balls**, using the new [FEM Examples](FEM_Examples.md). It illustrates how to setup the example, study it\'s various parts, solve it using the [Elmer Solver](FEM_SolverElmer.md) and visualise the results using [Clip Filter](FEM_PostFilterClipRegion.md).
 
 <img alt="" src=images/Two_balls_result_2.png  style="width:1200px;">
 
@@ -31,7 +31,7 @@ This example is meant to show how to simulate the 6th example of _. It illustrat
 
 ### Load the example 
 
--   Go to **Utilities → <img src=images/FEM_Examples.svg style="width:24px"> Open FEM examples**.
+-   Go to **Utilities → [<img src=images/FEM_Examples.svg style="width:24px"> Open FEM examples**.
 -   When the GUI opens, find and open \"Electrostatics Capacitance Two Balls\". You can easily find the example in **All** or in **Solvers → Elmer**. For opening the example, either double click on it or select it and click **Setup**.
 
 <img alt="" src=images/Two_balls_selection.png  style="width:300px;">
@@ -113,7 +113,7 @@ This case presents the solution of the capacitance of perfectly conducting balls
     StatElecSolve:   1  2    1.70071E+00
     StatElecSolve:   2  2    5.07960E+00
 
--   Here, our desired result is C~12~ = 1.70071. This value is close to the `1.691` given in the _ but this activity is left for the user. Also, the user is advised to play with the [Clip Filter](FEM_PostFilterClipRegion.md) to get a visual result similar to the first picture of this tutorial.
+-   Here, our desired result is C~12~ = 1.70071. This value is close to the `1.691` given in the [Elmer GUI Tutorials](https://www.nic.funet.fi/pub/sci/physics/elmer/doc/ElmerTutorials.pdf). We can get an even closer value by making a finer [Mesh Region](FEM_MeshRegion.md) but this activity is left for the user. Also, the user is advised to play with the [Clip Filter](FEM_PostFilterClipRegion.md) to get a visual result similar to the first picture of this tutorial.
 
 
 {{Tutorials navi

@@ -113,15 +113,15 @@ The following tools are available in this menu:
     -   <img alt="" src=images/Std_ViewIvStereoInterleavedRows.svg  style="width:32px;"> [Stereo Interleaved Rows](Std_ViewIvStereoInterleavedRows/ro.md): Switches to interleaved rows stereo view.
     -   <img alt="" src=images/Std_ViewIvStereoInterleavedColumns.svg  style="width:32px;"> [Stereo Interleaved Columns](Std_ViewIvStereoInterleavedColumns/ro.md): Switches to interleaved columns stereo view.
     -   <img alt="" src=images/Std_ViewIvStereoOff.svg  style="width:32px;"> [Stereo Off](Std_ViewIvStereoOff/ro.md): Switches stereo view off.
-    -   <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:32px;"> _ and the [Python console](Python_console.md).
+    -   <img alt="" src=images/Std_ViewIvIssueCamPos.svg  style="width:32px;"> [Issue camera position](Std_ViewIvIssueCamPos/ro.md): Prints camera settings in the [Report view](Report_view.md) and the [Python console](Python_console.md).
 
 
 <div class="mw-translate-fuzzy">
 
 -   Zoom see also [Mouse Model](Mouse_Model.md)
-    -   _ [Zoom In](Std_ViewZoomIn.md)
-    -   _ [Zoom Out](Std_ViewZoomOut.md)
-    -   _ [Box zoom](Std_ViewBoxZoom.md) (\....)
+    -   [24px\|text-top=View-zoom-in](File:View-zoom-in.png.md) [Zoom In](Std_ViewZoomIn.md)
+    -   [24px\|text-top=zoom-out](Image:View-zoom-out.png.md) [Zoom Out](Std_ViewZoomOut.md)
+    -   [24px\|text-top=View-zoom-border](File:View-zoom-border.png.md) [Box zoom](Std_ViewBoxZoom.md) (\....)
 -   [Document window](Std_ViewDockUndockFullscreen.md)
     -   [Docked](Std_ViewDockUndockFullscreen.md)
     -   [Undocked](Std_ViewDockUndockFullscreen.md)
@@ -271,7 +271,7 @@ The following tools are available in this menu:
     -   [DAG view](DAG_view/ro.md)
 
 -   Tree view actions
-    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> _ SyncView mode. <small>(v0.19)</small> 
+    -   <img alt="" src=images/Std_TreeSyncView.svg  style="width:32px;"> [Sync view](Std_TreeSyncView.md): Toggles the [Tree view](Tree_view.md) SyncView mode. <small>(v0.19)</small> 
     -   <img alt="" src=images/Std_TreeSyncSelection.svg  style="width:32px;"> [Sync selection](Std_TreeSyncSelection.md): Toggles the Tree view SyncSelection mode. <small>(v0.19)</small> 
     -   <img alt="" src=images/Std_TreeSyncPlacement.svg  style="width:32px;"> [Sync placement](Std_TreeSyncPlacement.md): Toggles the Tree view SyncPlacement mode. <small>(v0.19)</small> 
     -   <img alt="" src=images/Std_TreePreSelection.svg  style="width:32px;"> [Pre-selection](Std_TreePreSelection.md): Toggles the Tree view PreSelection mode. <small>(v0.19)</small> 
@@ -298,7 +298,7 @@ The following tools are available in this menu:
 
 }}  
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Std View Menu/ro

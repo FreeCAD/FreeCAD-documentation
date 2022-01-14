@@ -16,7 +16,7 @@ Odbicie lustrzane szkicu wzdłuż osi x, osi y lub punktu początku układu wsp�
 ## Użycie
 
 1.  Wybierz szkic, który ma być odbiciem lustrzanym *(zazwyczaj klikając na niego w [widoku drzewa](Tree_view/pl.md))*.
-2.  Kliknij w przycisk **<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> <img src=images/Sketcher_MirrorSketch.svg style="width:utwórz nowy lustrzany szkic](Sketcher_MirrorSketch/pl.md)** lub wybierz funkcję **Szkic → [16px"> [odbicie lustrzane](Sketcher_MirrorSketch/pl.md)** z menu głównego.
+2.  Kliknij w przycisk **[<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [utwórz nowy lustrzany szkic](Sketcher_MirrorSketch/pl.md)** lub wybierz funkcję **Szkic → [<img src=images/Sketcher_MirrorSketch.svg style="width:16px"> [odbicie lustrzane](Sketcher_MirrorSketch/pl.md)** z menu głównego.
 3.  Szkic wynikowy jest tworzony jako osobny, nowy obiekt.
 
 Uwagi:

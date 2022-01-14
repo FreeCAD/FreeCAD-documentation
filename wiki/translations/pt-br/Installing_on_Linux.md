@@ -6,7 +6,7 @@
 A instalação do FreeCAD nos sistemas Linux mais populares já foi aprovada pela comunidade, e o FreeCAD deve estar diretamente disponível através do gerenciador de pacotes disponíveis em sua distribuição. A equipe do FreeCAD também oferece:
 
 -   Pacotes \"oficiais\" quando novos lançamentos são feitos
--   Repositórios _ e [Ubuntu Snaps](Ubuntu_Snap/pt-br.md) para testar as últimas características.
+-   Repositórios [Arquivo de pacotes pessoais](https://help.ubuntu.com/community/PPA) (PPA), [AppImages](AppImage/pt-br.md) e [Ubuntu Snaps](Ubuntu_Snap/pt-br.md) para testar as últimas características.
 
 
 <div class="mw-collapsible mw-collapsed toccolours">
@@ -347,7 +347,7 @@ Se por algum motivo você não puder usar nenhum dos métodos acima, você pode 
 
 </div>
 
-Uma vez que você tenha baixado o .deb para sua versão do sistema, se você tiver o pacote _ instalado, basta ir até o local do arquivo baixado e clicar duas vezes sobre ele. Seu gerente de pacotes instalará automaticamente as dependências necessárias. Alternativamente, você também pode instalá-lo a partir do terminal, navegando até onde você baixou o arquivo, e digitar:
+Uma vez que você tenha baixado o .deb para sua versão do sistema, se você tiver o pacote [Gdebi](wikipedia:Debian#GDEBI.md) instalado, basta ir até o local do arquivo baixado e clicar duas vezes sobre ele. Seu gerente de pacotes instalará automaticamente as dependências necessárias. Alternativamente, você também pode instalá-lo a partir do terminal, navegando até onde você baixou o arquivo, e digitar:
 
 
 ```python
@@ -396,7 +396,7 @@ Uma vez que você tenha o FreeCAD instalado, é hora de [Começar a usar](Gettin
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Installing on Linux/pt-br

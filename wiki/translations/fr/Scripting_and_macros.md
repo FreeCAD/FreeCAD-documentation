@@ -2,10 +2,10 @@
 ## Présentation des pages de script Python 
 
 -   Pages relatives à Python dans le manuel :
-    -   _
-    -   _
-    -   _
-    -   _
+    -   [Manuel : Petite introduction à Python](Manual:A_gentle_introduction/fr.md)
+    -   [Manuel : Création et manipulation de la géométrie](Manual:Creating_and_manipulating_geometry/fr.md)
+    -   [Manuel : Création d\'objets paramétriques](Manual:Creating_parametric_objects/fr.md)
+    -   [Manuel : Création d\'outils d\'interface](Manual:Creating_interface_tools/fr.md)
 
 -   Les bases :
     -   [Travailler avec les macros](Macros/fr.md)
@@ -21,8 +21,8 @@
     -   [De maillage en objet Part](Mesh_to_Part/fr.md)
     -   [Part : Ecrire un script](Part_scripting/fr.md)
     -   [Part : Manipulation d\'une forme basique](Topological_data_scripting/fr.md)
-    -   _
-    -   _
+    -   [Objets scriptés \"Part\" : Roulement à billes - Partie I](Scripted_Parts:_Ball_Bearing_-_Part_1/fr.md)
+    -   [Objets scriptés \"Part\" : Roulement à billes - Partie II](Scripted_Parts:_Ball_Bearing_-_Part_2/fr.md)
     -   [Path : Ecrire un script](Path_scripting/fr.md)
     -   [Raytracing : Exemples d\'API](Raytracing_API_example/fr.md) (**l'atelier Raytracing est obsolète**)
     -   [Sketcher : Ecrire un script](Sketcher_scripting/fr.md)
@@ -37,7 +37,7 @@
     -   [Viewprovider](Viewprovider/fr.md)
     -   [Icône personnalisée dans l\'arborescence](Custom_icon_in_tree_view/fr.md)
     -   [Propriétés des objets](Property/fr.md)
-    -   _
+    -   [PropertyLink: InList et OutList](PropertyLink:_InList_and_OutList/fr.md)
     -   [Méthodes FeaturePython](FeaturePython_methods/fr.md)
 
 -   [Vue 3D](3D_view/fr.md) :
@@ -89,7 +89,7 @@
 
 }}
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Scripting and macros/fr

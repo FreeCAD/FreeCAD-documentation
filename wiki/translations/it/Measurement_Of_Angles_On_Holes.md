@@ -23,10 +23,10 @@ Ci sono alcune possibilità per creare una linea centrale per i fori. Prima si d
 :   <img alt="" src=images/TechDraw_2LineCenterLine.svg  style="width:24px;"> [Linea centrale a 2 linee](TechDraw_2LineCenterLine/it.md)
 
 <img alt="" src=images/TechDraw_Tutorial_2PointCenterLine_example.png  style="width:250px;"> 
-*Sopra: creazione con <img src=images/TechDraw_2PointCenterLine.svg style="width:16px"> che crea linee d'asse tra 2 punti*
+*Sopra: creazione con [<img src=images/TechDraw_2PointCenterLine.svg style="width:16px"> che crea linee d'asse tra 2 punti*
 
 <img alt="" src=images/TechDraw_Tutorial_2LineCenterLine_example.png  style="width:250px;"> 
-*Sopra: creazione con <img src=images/TechDraw_2LineCenterLine.svg style="width:16px"> che crea linee d'asse tra 2 linee*
+*Sopra: creazione con [<img src=images/TechDraw_2LineCenterLine.svg style="width:16px"> che crea linee d'asse tra 2 linee*
 
 Nella finestra di dialogo della Vista combinata associata selezionare nel pannello Azioni in \"Orientamento\" \"Allineato\" per gli assi diversi dagli assi principali. \"Estendi di\" indica la lunghezza della linea centrale oltre la linea del corpo nel disegno. Con \"Sposta in orizzontale\" e \"Sposta in verticale\" la linea centrale può spostarsi in direzione orizzontale o verticale, se necessario. \"Stile\" indica il tipo della linea centrale.
 

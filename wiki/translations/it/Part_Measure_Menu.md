@@ -49,7 +49,7 @@ Non confondere questo menu con lo strumento <img alt="" src=images/Std_MeasureDi
 
  
 
-_
+[<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Documentation](Category_Documentation.md) > [Part](Part_Workbench.md) > Part Measure Menu/it

@@ -19,7 +19,7 @@ Przyłącza punkt do innego obiektu, takiego jak linia, łuk lub oś szkicu.
 1.  Wybierz punkt, który chcesz umieścić na linii / łuku / itd. *(*Rezultat:\'\' Po wybraniu punkt stanie się zielony)\'\'.
 2.  Wybierz linię, którą chcesz dołączyć do punktu, który właśnie wybrałeś *(*Wynik:\'\' Po wybraniu linia stanie się zielona)\'\'.
 3.  Wywołaj narzędzie **Ustaw punkt na obiekcie** używając kilku metod:
-    -   Naciśnij przycisk **<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Ustaw punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md)** na pasku narzędzi.
+    -   Naciśnij przycisk **[<img src=images/Sketcher_ConstrainPointOnObject.svg style="width:16px"> [Ustaw punkt na obiekcie](Sketcher_ConstrainPointOnObject/pl.md)** na pasku narzędzi.
     -   Użyj kombinacji klawiszy **Shift** + **O**.
     -   Użyj pozycji **Szkic → Wiązania szkicownika → Zwiąż punkt na obiekcie** w menu głównym.
 

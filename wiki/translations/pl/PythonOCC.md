@@ -7,7 +7,7 @@ PythonOCC, z kolei, ze względu na to, że zapewnia dostęp do wszystkich klas i
 
 ## Użycie
 
-Obecnie w środowisku pracy _) podmiotów do i z PythonOCC. Metody te pozwalają nam na wykorzystanie pełnej mocy OCCT w środowisku Python, a następnie ponowne umieszczenie powstałych kształtów w obiektach FreeCAD.
+Obecnie w środowisku pracy [Część](Part_Workbench/pl.md) mamy metody `Part.__toPythonOCC__()` i `Part.__fromPythonOCC__()` do wymiany `TopoDS_Shape` ([Część: Kształt topologiczny](Part_TopoShape/pl.md)) podmiotów do i z PythonOCC. Metody te pozwalają nam na wykorzystanie pełnej mocy OCCT w środowisku Python, a następnie ponowne umieszczenie powstałych kształtów w obiektach FreeCAD.
 
 PythonOCC jest wewnętrznie używany przez przeglądarkę [IFC](Arch_IFC.md) dołączoną do bibliotek [IfcOpenShell](IfcOpenShell.md). IfcOpenShell jest używany do odczytu i zapisu dokumentów [IFC](Arch_IFC/pl.md) przy użyciu FreeCAD, poprzez Środowiska pracy [Arch](Arch_Workbench/pl.md) i [BIM](BIM_Workbench/pl.md). PythonOCC jest potrzebny tylko do uruchomienia zintegrowanej przeglądarki IfcOpenShell, w innym przypadku w ogóle nie jest wykorzystywany przez FreeCAD.
 
@@ -23,7 +23,7 @@ Możliwe jest również zainstalowanie prekompilowanych bibliotek PythonOCC przy
 
 ## Kompilacja
 
-Możesz także samodzielnie skompilować pythonOCC *(zobacz _)*. Poniżej znajduje się procedura dla Debiana/Ubuntu z użyciem pakietów opencascade dostarczonych przez distro:
+Możesz także samodzielnie skompilować pythonOCC *(zobacz [instrukcję](https://github.com/tpaviot/pythonocc-core/blob/master/INSTALL.md))*. Poniżej znajduje się procedura dla Debiana/Ubuntu z użyciem pakietów opencascade dostarczonych przez distro:
 
     git clone git://github.com/tpaviot/pythonocc-core.git pythonocc
     cd pythonocc
@@ -44,7 +44,7 @@ Możesz także samodzielnie skompilować pythonOCC *(zobacz _)*. Poniżej znajdu
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > PythonOCC/pl

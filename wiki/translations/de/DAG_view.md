@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-Die _ erstellt werden können, von anderen abhängen.
+Die [DAG Ansicht](DAG_view/de.md) ist ein [directed acyclic graph](https://en.wikipedia.org/wiki/Directed_acyclic_graph) (DAG) (deutsch: gerichteter azyklischen Graph), der die Beziehungen zwischen verschiedenen Objekten im Dokument zeigt. Er ist hauptsächlich dazu geeignet, zu zeigen, wie bestimmte Objekte in einem komplexen Modell mit vielen Funktionen und Referenzen, wie z.B. denjenigen, die mit dem <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Arbeitsbereich](PartDesign_Workbench/de.md) erstellt werden können, von anderen abhängen.
 
 Die DAG Ansicht ähnelt dem Graphen, der aus einem Git Repositorium und seinen Ablegern erzeugt werden kann. Zusammen mit der Standardansicht [Baumansicht](tree_view/de.md) und dem [Abhängigkeitsdiagramm](Std_DependencyGraph/de.md) ist die DAG Ansicht ein Werkzeug, um die parametrische Historie von Objekten in einem Dokument zu untersuchen.
 

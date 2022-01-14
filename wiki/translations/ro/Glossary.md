@@ -277,7 +277,7 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{term|Edge}}
 
 
-{{defn|no=1|defn=A segment joining two _.}}
+{{defn|no=1|defn=A segment joining two [vertices](#Vertex.md). This segment can be a straight line or a curve. The CAD kernel defines it as: One-dimensional shape corresponding to a curve and bounded by a vertex at each extremity. A closed circle has therefore only one vertex, where it starts and ends. [ see Profile: Defining the Topology](https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3.md).}}
 
 
 {{defn|no=2|defn=The joining line between two faces. It can be curved or straight.}}
@@ -309,7 +309,7 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{term|1=Face}}
 
 
-{{defn|1=A 2 dimensional topological construct.  For example, a cube has 6 Faces. A face can be curved, like in case of a sphere, which has one face in FreeCAD. The CAD kernel defines it as: Part of a surface bounded by a closed _.}}
+{{defn|1=A 2 dimensional topological construct.  For example, a cube has 6 Faces. A face can be curved, like in case of a sphere, which has one face in FreeCAD. The CAD kernel defines it as: Part of a surface bounded by a closed [wire(s)](#Wire.md). See [Profile: Defining the Topology](https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3.md).}}
 
 
 {{term|Facet}}
@@ -1061,7 +1061,7 @@ Salt la literă: {{CompactTOC|center=yes}}
 {{term|Vertex}}
 
 
-{{defn|defn=A lone _}}
+{{defn|defn=A lone [point](#Point.md) în spațiu, sau colțul unei [shape](#shape.md) unde se întâlnesc [edges](#Edge.md). Tehnologia Open Cascade definește asta ca având cu dimensiunea zero [shape](#shape.md) corespunzător punctului din geometrie. [ vezi OCCT Profile: Defining the topology](https://dev.opencascade.org/doc/overview/html/occt__tutorial.html#OCCT_TUTORIAL_SUB2_3.md)}}
 
 
 {{glossend}}
@@ -1146,7 +1146,7 @@ Salt la literă: {{CompactTOC|center=yes}}
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Wiki](Category_Wiki.md) [<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Wiki](Category_Wiki.md) > Glossary/ro

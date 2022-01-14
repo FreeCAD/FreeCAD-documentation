@@ -3,7 +3,7 @@
 |Topic=Przykład
 |Level=początkujący
 |Time=5 minut
-|Author=_
+|Author=[Mario52](User_Mario52.md)
 |FCVersion=Wszystkie
 }}
 
@@ -79,7 +79,7 @@ Ten poradnik pokazuje, jak dostosować paski narzędzi do własnych potrzeb. Nar
 
 -   Wybierz zakładkę *\'Paski narzędzi* i wybierz Środowisko pracy *(dla którego przeznaczony jest pasek narzędzi)* w rozwijanej liście po prawej stronie *(*\'Part\'\' w tym przykładzie)\'\'.
 
-     \<img src=images/Freecad.svg style="width:Od wersji 0.15 istnieje pasek  **[16px"> dostępny wszędzie** . W przypadku wybrania tej opcji, dostarczony pasek narzędzi będzie znajdował się w każdym Środowisku pracy.\]
+     \[Od wersji 0.15 istnieje pasek  **[<img src=images/Freecad.svg style="width:16px"> dostępny wszędzie** . W przypadku wybrania tej opcji, dostarczony pasek narzędzi będzie znajdował się w każdym Środowisku pracy.\]
 
 <img alt="Zakładka pasków narzędzi" src=images/CustomizeToolBar_11.png  style="width:640px;"> 
 
@@ -121,7 +121,7 @@ Zobacz również [Dostosowywanie interfejsu użytkownika do własnych potrzeb](I
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > Customize Toolbars/pl

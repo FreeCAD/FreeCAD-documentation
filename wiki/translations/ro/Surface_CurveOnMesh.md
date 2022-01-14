@@ -8,13 +8,13 @@
 ## Descriere
 
 
-**<img src=images/Surface_CurveOnMesh.svg style="width:16px"> [Surface CurveOnMesh](Surface_CurveOnMesh.md)**
+**[<img src=images/Surface_CurveOnMesh.svg style="width:16px"> [Surface CurveOnMesh](Surface_CurveOnMesh.md)**
 
 creates approximated spline segments on top of a selected [mesh](Mesh_Workbench.md).
 
-If the object is not a <img src=images/Mesh_FromPartShape.svg style="width:Mesh](Mesh.md), but a parametric [Shape](Shape.md) or surface, it must be converted first to a mesh using **[16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)**.
+If the object is not a [Mesh](Mesh.md), but a parametric [Shape](Shape.md) or surface, it must be converted first to a mesh using **[<img src=images/Mesh_FromPartShape.svg style="width:16px"> [Mesh FromPartShape](Mesh_FromPartShape.md)**.
 
-These edges created on top of the mesh may be further used to re-create the surface in a parametric way by using tools such as **<img src=images/Surface_GeomFillSurface.svg style="width:16px"> <img src=images/Surface_Sections.svg style="width:GeomFillSurface](Surface_GeomFillSurface.md)** and **[16px"> [Sections](Surface_Sections.md)**.
+These edges created on top of the mesh may be further used to re-create the surface in a parametric way by using tools such as **[<img src=images/Surface_GeomFillSurface.svg style="width:16px"> [GeomFillSurface](Surface_GeomFillSurface.md)** and **[<img src=images/Surface_Sections.svg style="width:16px"> [Sections](Surface_Sections.md)**.
 
 ![](images/Surface_CurveOnMesh_mesh_example.png ) ![](images/Surface_CurveOnMesh_example.png )
 
@@ -87,7 +87,7 @@ section:
 
 </div>
 
-If {{CheckBox|TRUE|Spline approximation}} is checked, the <img src=images/Part_Spline.svg style="width:Curve on mesh](Surface_CurveOnMesh.md) tool creates a **_ (`Part::Feature` class), therefore it shares all the latter\'s properties.
+If {{CheckBox|TRUE|Spline approximation}} is checked, the [Curve on mesh](Surface_CurveOnMesh.md) tool creates a **[<img src=images/Part_Spline.svg style="width:16px"> [Part Spline](Part_Spline.md)** (`Part::Spline` class) which is derived from the basic [Part Feature](Part_Feature.md) (`Part::Feature` class), therefore it shares all the latter\'s properties.
 
 In addition to the properties described in [Part Feature](Part_Feature.md), the Part Spline has the following properties in the [property editor](Property_editor.md).
 

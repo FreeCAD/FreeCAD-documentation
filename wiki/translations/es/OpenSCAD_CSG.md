@@ -39,7 +39,7 @@ Todo objeto derivado de Part::Feature que aún no es soportado será mallado y e
 
  {{OpenSCAD Tools navi}}
 
-_
+[<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [File_Formats](Category_File_Formats.md) > [OpenSCAD](OpenSCAD_Workbench.md) > OpenSCAD CSG/es

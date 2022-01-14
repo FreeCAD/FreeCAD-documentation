@@ -164,7 +164,7 @@ Vea las instrucciones para Linux arriba
 
 <div class="mw-translate-fuzzy">
 
--   <img alt="PartDesign\_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> _.
+-   <img alt="PartDesign\_InvoluteGear" src=images/PartDesign_InvoluteGear.svg  style="width:24px;"> [PartDesign EngranajeEnvolvente](PartDesign_InvoluteGear/es.md): Esta herramienta permite crear un perfil 2D de un Engranaje envolvente. Este perfil 2D es totalmente paramétrico, y puede ser alcochado con la función [PartDesign Pastilla](PartDesign_Pad/es.md).
 -   [Ambientes de trabajo externos](External_workbenches/es.md): Una lista de todos los ambientes de trabajo externos actuales de FreeCAD
 -   [Recetas de macros](Macros_recipes/es.md)
 
@@ -174,7 +174,7 @@ Vea las instrucciones para Linux arriba
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> External Workbenches](Category_External_Workbenches.md) [<img src="images/Property.png" style="width:16px"> Addons](Category_Addons.md) [<img src="images/Property.png" style="width:16px"> FCGear](Category_FCGear.md)
 
 ---
 [documentation index](../README.md) > [External Workbenches](Category_External Workbenches.md) > FCGear Workbench/es

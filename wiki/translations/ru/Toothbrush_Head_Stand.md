@@ -2,7 +2,7 @@
 {{TutorialInfo/ru
 |Topic=Modeling
 |Level=Beginner
-|Author=_
+|Author=[EmmanuelG](User_EmmanuelG.md)
 |Time=1 час
 |FCVersion=0.16 или выше
 |Files=[https://www.thingiverse.com/thing:2403310 Thingiverse 2403310]}}

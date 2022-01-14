@@ -11,7 +11,7 @@ Tous les onglets des préférences d\'importation et d\'exportation ne sont pas 
 
 ### Pages TechDraw 
 
-Les préférences DXF et SVG énumérées ici ne sont pas utilisées par les fonctions <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:24px;"> _ de l\'<img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [atelier TechDraw](TechDraw_Workbench/fr.md), ou par l\'option d\'exportation de [TechDraw](TechDraw_Workbench/fr.md) : **Fichier → Exporter → Dessin technique (*.svg *.dxf *.pdf)**.
+Les préférences DXF et SVG énumérées ici ne sont pas utilisées par les fonctions <img alt="" src=images/TechDraw_ExportPageSVG.svg  style="width:24px;"> [Exporter une page au format SVG](TechDraw_ExportPageSVG/fr.md) et <img alt="" src=images/TechDraw_ExportPageDXF.svg  style="width:24px;"> [Exporter une page au format DXF](TechDraw_ExportPageDXF/fr.md) de l\'<img alt="" src=images/Workbench_TechDraw.svg  style="width:24px;"> [atelier TechDraw](TechDraw_Workbench/fr.md), ou par l\'option d\'exportation de [TechDraw](TechDraw_Workbench/fr.md) : **Fichier → Exporter → Dessin technique (*.svg *.dxf *.pdf)**.
 
 ### Fichiers OpenSCAD 
 
@@ -28,7 +28,7 @@ Consultez les pages suivantes pour plus d\'informations:
 
 ### DAE
 
-Le format _ au format {{FileName|.dae}}.
+Le format [Collada](https://fr.wikipedia.org/wiki/Collaborative_Design_Activity) DAE (Digital Asset Exchange) est un format de fichier standard pour l\'échange de données de maillage. FreeCAD peut importer des maillages à partir de fichiers {{FileName|.dae}} et exporter des objets basés sur un [Part](Part_Workbench/fr.md) au format {{FileName|.dae}}.
 
 Remarque pour les utilisateurs de Linux: Pour gérer ce format de fichier, FreeCAD nécessite le [module pyCollada](Extra_python_modules/fr.md).
 
@@ -218,9 +218,9 @@ Pour le format DXF, vous pouvez spécifier les éléments suivants :
 
 ### IGES
 
-Le format de fichier _, le développement IGES a été arrêté en 1996, mais il est toujours pris en charge par de nombreux programmes de CAO. Les fichiers IGES ont l\'extension {{FileName|.iges}} ou {{FileName|.igs}} .
+Le format de fichier [Initial Graphics Exchange Specification](https://fr.wikipedia.org/wiki/Initial_Graphics_Exchange_Specification) (IGES) est un format de fichier qui permet l\'échange numérique d\'informations entre les systèmes de CAO. Après la publication du format de fichier [STEP](Preferences_Editor/fr#_STEP.md), le développement IGES a été arrêté en 1996, mais il est toujours pris en charge par de nombreux programmes de CAO. Les fichiers IGES ont l\'extension {{FileName|.iges}} ou {{FileName|.igs}} .
 
-L\'onglet *IGES* n\'apparaît dans les préférences que si les <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ ou <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> L\'[atelier OpenSCAD](OpenSCAD_Workbench/fr.md) a été chargé dans la session FreeCAD en cours.
+L\'onglet *IGES* n\'apparaît dans les préférences que si les <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md), <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md) ou <img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> L\'[atelier OpenSCAD](OpenSCAD_Workbench/fr.md) a été chargé dans la session FreeCAD en cours.
 
 Pour le format IGES vous pouvez spécifier ce qui suit:
 
@@ -258,7 +258,7 @@ Pour le format IGES vous pouvez spécifier ce qui suit:
 
 ### IFC
 
-Le format de fichier _ est très répandu. Il permet l'échange de données entre les applications _. Il est utilisé en architecture et en ingénierie.
+Le format de fichier [https://fr.wikipedia.org/wiki/Industry\_Foundation\_Classes IFC (Industry Foundation Classes)](https://fr.wikipedia.org/wiki/Industry_Foundation_Classes_IFC_(Industry_Foundation_Classes).md) est très répandu. Il permet l'échange de données entre les applications [https://fr.wikipedia.org/wiki/Building\_information\_modeling BIM](https://fr.wikipedia.org/wiki/Building_information_modeling_BIM.md). Il est utilisé en architecture et en ingénierie.
 
 Remarque pour les utilisateurs de Linux: pour gérer ce format de fichier, FreeCAD nécessite le [module IfcOpenShell](Extra_python_modules/fr.md).
 
@@ -422,7 +422,7 @@ Pour l\'exportation du format IFC, vous pouvez spécifier les éléments suivant
 
 ### INP
 
-INP est le format de fichier d'entrée pour le logiciel FEM _. Il est utilisé pour le solveur [CalculiX](FEM_CalculiX/fr.md) dans l\'[atelier FEM](FEM_Workbench/fr.md).
+INP est le format de fichier d'entrée pour le logiciel FEM [Abaqus](wikipedia:fr:.md). Il est utilisé pour le solveur [CalculiX](FEM_CalculiX/fr.md) dans l\'[atelier FEM](FEM_Workbench/fr.md).
 
 L\'onglet *INP* n\'est affiché dans les préférences que si l\'<img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [atelier FEM](FEM_Workbench/fr.md) a été chargé dans la session FreeCAD en cours.
 
@@ -448,7 +448,7 @@ Pour le format INP vous pouvez spécifier ce qui suit :
 
 ### Formats de maillage 
 
-Les maillages sont un type spécial d\'objet 3D, composé de faces triangulaires reliées par leurs _ pour créer et gérer des maillages. FreeCAD prend en charge plusieurs formats de fichiers maillés.
+Les maillages sont un type spécial d\'objet 3D, composé de faces triangulaires reliées par leurs [vertices](Glossary/fr#Vertex.md) (sommets) et leurs arêtes. Ils sont largement utilisés pour l\'[Impression 3D](https://fr.wikipedia.org/wiki/Impression_3D). FreeCAD fournit l\'<img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [atelier Mesh](Mesh_Workbench/fr.md) pour créer et gérer des maillages. FreeCAD prend en charge plusieurs formats de fichiers maillés.
 
 L\'onglet *Formats de maillage* n\'est affiché dans les préférences que si l\'<img alt="" src=images/Workbench_Mesh.svg  style="width:24px;"> [atelier Mesh](Mesh_Workbench/fr.md) a été chargé dans la session FreeCAD en cours.
 
@@ -496,7 +496,7 @@ Pour le format OCA vous pouvez spécifier ce qui suit:
 
 Le format de fichier [Standard for The Exchange of Product model](https://fr.wikipedia.org/wiki/Standard_pour_l%27%C3%A9change_de_donn%C3%A9es_de_produit) (STEP) est une norme ISO pour la représentation interprétable par ordinateur et l\'échange d\'informations sur la fabrication des produits. STEP est couramment utilisé pour échanger des données 3D entre des logiciels de CAO. Les fichiers STEP ont l\'extension {{FileName|.step}} ou {{FileName|.stp}}. Pour les fichiers compressés, l\'extension {{FileName|.stpz}} est utilisée.
 
-L\'onglet *STEP* n\'est affiché dans les préférences que si l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ ou l\'<img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [atelier OpenSCAD](OpenSCAD_Workbench/fr.md) a été chargé dans la session FreeCAD en cours.
+L\'onglet *STEP* n\'est affiché dans les préférences que si l\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [atelier Part](Part_Workbench/fr.md), l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md) ou l\'<img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [atelier OpenSCAD](OpenSCAD_Workbench/fr.md) a été chargé dans la session FreeCAD en cours.
 
 Pour le format STEP vous pouvez spécifier ce qui suit:
 
@@ -620,7 +620,7 @@ Pour le format SVG vous pouvez spécifier ce qui suit:
 
 ### VTK
 
-_ pour le [post-traitement](FEM_Post_Processing_based_on_VTK/fr.md) des résultats de simulation.
+[VTK (Visualization Toolkit)](https://fr.wikipedia.org/wiki/VTK) est un système logiciel libre et gratuit pour l\'infographie 3D, traitement et visualisation d\'images. Les fichiers VTK sont utilisés par l\'<img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [atelier FEM](FEM_Workbench/fr.md) pour le [post-traitement](FEM_Post_Processing_based_on_VTK/fr.md) des résultats de simulation.
 
 L\'onglet *VTK* n\'est affiché dans les préférences que si l\'<img alt="" src=images/Workbench_FEM.svg  style="width:24px;"> [atelier FEM](FEM_Workbench/fr.md) a été chargé dans la session FreeCAD en cours.
 
@@ -646,7 +646,7 @@ Pour le format VTK vous pouvez spécifier ce qui suit:
 
 
 
-_ _ _
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md) [<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md) [<img src="images/Property.png" style="width:16px"> File\_Formats](Category_File_Formats.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > [Import](Import_Workbench.md) > Import Export Preferences/fr

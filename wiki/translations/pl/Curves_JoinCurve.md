@@ -15,7 +15,7 @@ The <img alt="" src=images/Curves_JoinCurve.svg  style="width:24px;"> [Curves Jo
 
 ## Usage
 
-1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> _ is necessary, if not previously installed)
+1.  Switch to the <img alt="" src=images/Curves_workbench_icon.svg  style="width:24px;"> [Curves](Curves_Workbench.md) workbench (install from <img alt="" src=images/Std_AddonMgr.svg  style="width:24px;"> [Addon Manager](Std_AddonMgr.md) is necessary, if not previously installed)
 2.  Select one or several edges in [3D view](3D_view.md). (use the CTRL key for several selection)
 3.  Edges must be added in a consecutive order. And be selected from sketch, any shape\'s edge.
 4.  Invoke the Curves JoinCurve command several ways

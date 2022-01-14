@@ -2,7 +2,7 @@
 {{TutorialInfo/hr
 |Topic=Sketch
 |Level=Beginner
-|Author=_
+|Author=[Maker](User_Maker.md)
 |Time=
 |FCVersion=
 }}
@@ -18,7 +18,7 @@ That a closed curve is present, is not self-evident and not recognizable. When c
 
 
 *A simple sketch. 
-Left: Curve only in four places (red, automatic constraints when drawing with <img src=images/_Sketcher_CreatePolyline.svg style="width:32px"> [Polyline](Sketcher_CreatePolyline.md)) closed. 
+Left: Curve only in four places (red, automatic constraints when drawing with [<img src=images/_Sketcher_CreatePolyline.svg style="width:32px"> [Polyline](Sketcher_CreatePolyline.md)) closed. 
 Middle: Warning - ... broken face (broken curve). 
 Right: Curve closed at remaining four places (green)*
 

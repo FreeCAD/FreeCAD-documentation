@@ -22,7 +22,7 @@ Für alle Symbole im Quellbaum, siehe [Grafik](Artwork/de.md).
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> PartDesign](Category_PartDesign.md)
 
 ---
 [documentation index](../README.md) > [PartDesign](Category_PartDesign.md) > Artwork PartDesign/de

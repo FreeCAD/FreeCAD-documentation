@@ -221,7 +221,7 @@ Ci sono due modi semplici per sbarazzarsi della storia, uno è con lo strumento 
 
 <div class="mw-translate-fuzzy">
 
-Ma esiste anche il meglio dei due mondi, che è _ e <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Draft ruota](Draft_Rotate/it.md) che utilizzando i vincoli di Assembly2.
+Ma esiste anche il meglio dei due mondi, che è [Assembly2 Workbench](https://github.com/hamish2014/FreeCAD_assembly2), un addon che può essere installato dal repository [FreeCAD-addons](https://github.com/FreeCAD/FreeCAD-addons). Questo Workbench è denominato \"2\" perché è anche in fase di sviluppo un ambiente di Assemblaggio built-in ufficiale, che non è ancora pronto. L\'ambiente Assembly2, invece, funziona già molto bene per costruire assemblaggi, e dispone anche di un paio di vincoli oggetto-su-oggetto, che è possibile utilizzare per vincolare la posizione di un oggetto in relazione ad un altro. Nell\'esempio che segue, tuttavia, è più veloce e più facile posizionare i pezzi usando <img alt="" src=images/Draft_Move.png  style="width:16px;"> [Draft muovi](Draft_Move/it.md) e <img alt="" src=images/Draft_Rotate.png  style="width:16px;"> [Draft ruota](Draft_Rotate/it.md) che utilizzando i vincoli di Assembly2.
 
 
 </div>
@@ -262,7 +262,7 @@ Ma esiste anche il meglio dei due mondi, che è _ e <img alt="" src=images/Draft
 
 </div>
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Modeling for product design/it

@@ -5,7 +5,7 @@
 
 ## Introduzione
 
-L\'ambiente <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _, <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> _, lo Sketcher costituisce la base del metodo _, lo Sketcher costituisce anche la base della metodologia per la creazione di solidi nota come [Editazione delle funzioni](feature_editing/it.md).
+L\'ambiente <img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [Sketcher](Sketcher_Workbench/it.md) di FreeCAD serve a creare delle geometrie 2D destinate ad essere utilizzate negli ambienti <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente DisegnoPezzo](PartDesign_Workbench/it.md), <img alt="" src=images/Workbench_Arch.svg  style="width:24px;"> [Architettura](Arch_Workbench/it.md) o altri ambienti. In genere, un disegno 2D è il punto di partenza per la maggior parte dei modelli CAD. Un semplice schizzo 2D può essere \"estruso\" per creare una forma 3D; successivamente degli schizzi 2D possono essere usati per creare altre funzioni quali tasche, o estrusioni sulla superficie dell\'oggetto 3D precedentemente costruito. Insieme alle operazioni booleane definite nell\'<img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Ambiente Parte](Part_Workbench/it.md), lo Sketcher costituisce la base del metodo [geometria solida costruttiva](constructive_solid_geometry/it.md) (CSG) per la costruzione di solidi. Inoltre, insieme alle operazioni dell\'ambiente <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Ambiente DisegnoPezzo](PartDesign_Workbench/it.md), lo Sketcher costituisce anche la base della metodologia per la creazione di solidi nota come [Editazione delle funzioni](feature_editing/it.md).
 
 L\'ambiente Sketcher mette a disposizione i **vincoli**. Consente di vincolare le forme 2D a precise definizioni geometriche in termini di lunghezza, angoli e relazioni (orizzontalità, verticalità, perpendicolarità, ecc.).
 Un solutore dei vincoli calcola la quantità di vincoli applicati alla geometria 2D e permette l\'esplorazione interattiva dei gradi di libertà dello schizzo.
@@ -108,7 +108,7 @@ All\'interno dell\'area racchiusa si possono avere delle piccole aree non sovrap
 
 <div class="mw-translate-fuzzy">
 
-Quando uno schizzo è completamente vincolato, le funzioni dello schizzo diventano verdi. La geometria di costruzione rimane blu. Di solito a questo punto lo schizzo è \"finito\" e adatto per l\'uso nella creazione di un solido 3D. Tuttavia, una volta chiusa la finestra di dialogo Schizzo, può essere utile andare in <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _ per assicurarsi che nello schizzo non ci siano funzioni che possono causare problemi successivi.
+Quando uno schizzo è completamente vincolato, le funzioni dello schizzo diventano verdi. La geometria di costruzione rimane blu. Di solito a questo punto lo schizzo è \"finito\" e adatto per l\'uso nella creazione di un solido 3D. Tuttavia, una volta chiusa la finestra di dialogo Schizzo, può essere utile andare in <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench/it.md) ed eseguire <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> [Controlla la geometria](Part_CheckGeometry/it.md) per assicurarsi che nello schizzo non ci siano funzioni che possono causare problemi successivi.
 
 
 </div>
@@ -129,7 +129,7 @@ Gli strumenti dell\'Ambiente Sketcher si trovano nel menu che appare quando si c
 
 -   <img alt="" src=images/Sketcher_NewSketch.svg‎‎  style="width:32px;"> [Nuovo schizzo](Sketcher_NewSketch/it.md): Crea un nuovo schizzo su una faccia selezionata o in un piano. Se non si esegue nessuna selezione, di default, viene utilizzato il piano XY.
 
--   <img alt="" src=images/Sketcher_EditSketch.png  style="width:32px;"> _
+-   <img alt="" src=images/Sketcher_EditSketch.png  style="width:32px;"> [Edita schizzo](Sketcher_EditSketch/it.md): Modifica lo schizzo selezionato. Apre la finestra [Dialogo di Sketcher](Sketcher_Dialog/it.md)
 
 -   <img alt="" src=images/Sketcher_LeaveSketch.svg‎‎  style="width:32px;"> [Esci](Sketcher_LeaveSketch/it.md): Termina la modalità di modifica dello schizzo.
 
@@ -175,7 +175,7 @@ Gli strumenti per creare gli oggetti.
 
 :\*<img alt="" src=images/Sketcher_Create3PointCircle.svg  style="width:32px;"> [Circonferenza da tre punti](Sketcher_Create3PointCircle/it.md) : Disegna un cerchio da tre punti sulla circonferenza.
 
--   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> _, [punti](Sketcher_ConstrainPointOnObject/it.md), o [perpendicolari](Sketcher_ConstrainPerpendicular/it.md).
+-   <img alt="" src=images/Sketcher_CompCreateConic.png  style="width:48px;"> [Sezioni di coni](Sketcher_CompCreateConic/it.md): l\'ambiente Schizzo fornisce le seguenti sezioni coniche. A differenza delle B-spline, possono essere usate con tutti i tipi di vincoli come [tangenti](Sketcher_ConstrainTangent/it.md), [punti](Sketcher_ConstrainPointOnObject/it.md), o [perpendicolari](Sketcher_ConstrainPerpendicular/it.md).
 
 :\* <img alt="" src=images/Sketcher_CreateEllipseByCenter.svg  style="width:32px;"> [Ellisse dal centro](Sketcher_CreateEllipseByCenter/it.md): disegna un\'ellisse dal centro, raggio maggiore e raggio minore.
 
@@ -517,9 +517,9 @@ Ogni utente CAD, nel corso del tempo, sviluppa un proprio modo di lavorare, ma c
 -   Utilizzare la funzione **Vincoli automatici** per ridurre il numero di vincoli da inserire manualmente.
 -   Come regola generale, si applicano prima i vincoli geometrici, poi i vincoli dimensionali, e infine si blocca il disegno. Da ricordare: le regole sono fatte per essere infrante. Quando ci sono difficoltà nel manipolare il disegno, può essere utile vincolare alcuni oggetti prima di completare il profilo.
 -   Se possibile, centrare il disegno nell\'origine (0,0) con il vincolo **Blocca**. Se il disegno non è simmetrico, posizionare uno dei suoi punti nell\'origine, o scegliere una cifra tonda semplice per le distanze di blocco. Nella versione v0.12, i vincoli esterni (vincoli rispetto a geometrie 3D esistenti come a bordi o altri schizzi) non sono ancora implementati. Questo significa che per collegare i disegni successivi alla geometria del primo schizzo, si devono impostare manualmente le distanze relative al primo disegno. Un vincolo di blocco (25,75) dall\'origine è più facile da ricordare che (23.47,73.02).
--   Se c\'è la possibilità di scegliere tra il vincolo _ <img alt="" src=images/Constraint_HorizontalDistance.png  style="width:16px;"> o [distanza verticale](Sketcher_ConstrainDistanceY/it.md) <img alt="" src=images/Constraint_Vertical.png  style="width:16px;">, preferire questi ultimi. I vincoli di distanza orizzontale e verticale sono computazionalmente più economici.
+-   Se c\'è la possibilità di scegliere tra il vincolo [lunghezza](Sketcher_ConstrainDistance/it.md) <img alt="" src=images/Constraint_Length.png  style="width:16px;"> e il vincolo [distanza orizzontale](Sketcher_ConstrainDistanceX/it.md) <img alt="" src=images/Constraint_HorizontalDistance.png  style="width:16px;"> o [distanza verticale](Sketcher_ConstrainDistanceY/it.md) <img alt="" src=images/Constraint_Vertical.png  style="width:16px;">, preferire questi ultimi. I vincoli di distanza orizzontale e verticale sono computazionalmente più economici.
 -   In generale, i vincoli migliori da utilizzare sono: Orizzontale e Verticale, Lunghezza Orizzontale e Verticale, Tangente nel punto. Se possibile, limitare l\'uso di questi vincoli: Lunghezza generica, Tangenza Edge-to-edge, Punto su linea; Simmetria.
--   In caso di dubbi sulla validità di uno schizzo una volta completato (le funzioni diventano verdi), chiudere la finestra di dialogo di Sketcher, passare a <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> _.
+-   In caso di dubbi sulla validità di uno schizzo una volta completato (le funzioni diventano verdi), chiudere la finestra di dialogo di Sketcher, passare a <img alt="" src=images/Workbench_Part.svg  style="width:16px;"> [Part](Part_Workbench/it.md) ed eseguire <img alt="" src=images/Part_CheckGeometry.svg  style="width:16px;"> [Controlla la geometria](Part_CheckGeometry/it.md).
 
 
 </div>
@@ -543,7 +543,7 @@ La pagina [scripting](Sketcher_scripting/it.md) contiene esempi su come creare v
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > Sketcher Workbench/it

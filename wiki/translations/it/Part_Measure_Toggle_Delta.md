@@ -30,7 +30,7 @@ Mostra o nasconde tutte le misure Delta in corso.
 
 ## Utilizzo
 
-1.  Premere il pulsante **<img src=images/Part_Measure_Toggle_Delta.png style="width:24px"> '''Attiva/Disattiva Delta'''**.
+1.  Premere il pulsante **[<img src=images/Part_Measure_Toggle_Delta.png style="width:24px"> '''Attiva/Disattiva Delta'''**.
 
 
 </div>

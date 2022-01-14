@@ -5,7 +5,7 @@
 
 Ta strona wyjaśnia sposób, w jaki środowisko pracy <img alt="" src=images/Workbench_PartDesign.svg  style="width:32px;"> [Projekt Części](PartDesign_Workbench/pl.md) jest przeznaczone do użycia począwszy od FreeCAD w wersji 0.17.
 
-Podczas gdy środowisko pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> _ używa **[cech](PartDesign_Feature/pl.md)**. [Cecha](https://en.wikipedia.org/wiki/Feature_recognition) jest operacją, która modyfikuje kształt modelu.
+Podczas gdy środowisko pracy <img alt="" src=images/Workbench_Part.svg  style="width:24px;"> [Część](Part_Workbench/pl.md) oraz inne konstruują modele poprzez łączenie kształtów razem *(zobacz [Konstrukcyjna geometria bryłowa](Constructive_solid_geometry/pl.md))*, środowisko <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [Projekt Części](PartDesign_Workbench/pl.md) używa **[cech](PartDesign_Feature/pl.md)**. [Cecha](https://en.wikipedia.org/wiki/Feature_recognition) jest operacją, która modyfikuje kształt modelu.
 
 ## Techniki edycji cech 
 
@@ -97,7 +97,7 @@ Możliwe jest powiązanie elementów z jednej zawartości w innej zawartości po
 
 Narzędzie Dołączenie obiektów nie jest specyficznym narzędziem środowiska Projekt Części, ale raczej narzędziem środowiska Część wprowadzonym w v0.17, które można znaleźć w pasku menu Część. Jest ono bardzo często używane w środowisku Projekt Części, do dołączania szkiców i geometrii odniesienia, do standardowych płaszczyzn i osi Zawartości. Dostępne są bardzo rozbudowane sposoby tworzenia punktów bazowych, linii i płaszczyzn. Opcjonalne parametry przesunięcia mocowania sprawiają, że narzędzie to jest bardzo uniwersalne.
 
-Więcej informacji można znaleźć na stronie _.
+Więcej informacji można znaleźć na stronie [Edytuj mocowanie](Part_EditAttachment/pl.md) i [Poradnik: Podstawy dołączania](Basic_Attachment_Tutorial/pl.md).
 
 ## Porady dotyczące tworzenia stabilnych modeli 
 
@@ -128,7 +128,7 @@ Istnieje kilka przepływów pracy, które są dostępne w środowisku [Projekt C
 
 ### Różne szkice 
 
-Szkice muszą być osadzone na płaszczyźnie. Płaszczyzna ta może być jedną z głównych płaszczyzn *(XY, XZ lub YZ)* zdefiniowanych przez Odniesienie położenia Zawartości. Szkic jest albo wyciągany w wystającą bryłę *(addytywnie)*, za pomocą narzędzia takiego jak <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> _. Pierwszy z nich dodaje objętość do ostatecznego kształtu zawartości, a drugi odcina ją od ostatecznego kształtu. W ten sposób można utworzyć dowolną liczbę szkiców i częściowych brył, a ostateczny kształt *(czubek)* jest wynikiem połączenia tych operacji w całość. Oczywiście bryła nie może składać się wyłącznie z operacji odejmowania, gdyż ostateczny kształt powinien być bryłą o dodatniej, niezerowej objętości.
+Szkice muszą być osadzone na płaszczyźnie. Płaszczyzna ta może być jedną z głównych płaszczyzn *(XY, XZ lub YZ)* zdefiniowanych przez Odniesienie położenia Zawartości. Szkic jest albo wyciągany w wystającą bryłę *(addytywnie)*, za pomocą narzędzia takiego jak <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [wyciągnięcie](PartDesign_Pad/pl.md), lub w bryłę do usunięcia *(odejmowanie)*, za pomocą narzędzia takiego jak <img alt="" src=images/PartDesign_Pocket.svg  style="width:24px;"> [kieszeń](PartDesign_Pocket/pl.md). Pierwszy z nich dodaje objętość do ostatecznego kształtu zawartości, a drugi odcina ją od ostatecznego kształtu. W ten sposób można utworzyć dowolną liczbę szkiców i częściowych brył, a ostateczny kształt *(czubek)* jest wynikiem połączenia tych operacji w całość. Oczywiście bryła nie może składać się wyłącznie z operacji odejmowania, gdyż ostateczny kształt powinien być bryłą o dodatniej, niezerowej objętości.
 
 <img alt="" src=images/PartDesign_workflow_1.svg  style="width:600px;">
 
@@ -154,7 +154,7 @@ Używanie obiektów odniesienia jest często najlepszym sposobem na tworzenie st
 
 ## Poradniki
 
-Strona _.
+Strona [Poradniki](Tutorials/pl.md) zawiera kilka przykładów użycia metody [Edycja cech](Feature_editing/pl.md) w środowisku <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign\_Workbench/pl](PartDesign_Workbench/pl.md).
 
 -   [Projekt części: tworzenie podstawowych brył](Creating_a_simple_part_with_PartDesign/pl.md)
 -   [Poradnik: Podstawy dla Środowiska pracy Projekt Części](Basic_Part_Design_Tutorial/pl.md)
@@ -171,7 +171,7 @@ Strona _.
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Common Questions](Category_Common_Questions.md)
 
 ---
 [documentation index](../README.md) > [Common Questions](Category_Common Questions.md) > Feature editing/pl

@@ -12,14 +12,14 @@
 
 ## Descrizione
 
-Lo strumento <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:16px;"> _, ma opera prima sui sottoelementi selezionati e imposta **Link Transform** su `True`.
+Lo strumento <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:16px;"> [Crea un link relativo](Std_LinkMakeRelative/it.md) crea un [App Link](App_Link/it.md) (classe `App::Link`), così come fa <img alt="" src=images/Std_LinkMake.svg  style="width:16px;"> [Crea un link](Std_LinkMake/it.md), ma opera prima sui sottoelementi selezionati e imposta **Link Transform** su `True`.
 
 ## Utilizzo
 
 Con selezione:
 
 1.  Selezionare un sottoelemento nella [vista 3D](3D_view/it.md), ad esempio un vertice, uno spigolo o una faccia o una qualsiasi combinazione di questi. Questi sottoelementi devono appartenere a un singolo oggetto.
-2.  Premere il pulsante **<img src=images/Std_LinkMakeRelative.svg style="width:16px"> Crea un link relativo**. L\'oggetto prodotto ha la stessa icona dell\'oggetto originale, ma ha due frecce sovrapposte che indicano che è un collegamento relativo.
+2.  Premere il pulsante **[<img src=images/Std_LinkMakeRelative.svg style="width:16px"> Crea un link relativo**. L\'oggetto prodotto ha la stessa icona dell\'oggetto originale, ma ha due frecce sovrapposte che indicano che è un collegamento relativo.
 
 Senza selezione:
 
@@ -34,7 +34,7 @@ Senza selezione:
 
 ## Proprietà
 
-Questo comando crea un nuovo _.
+Questo comando crea un nuovo [App Link](App_Link/it.md); le sue proprietà sono descritte in <img alt="" src=images/Std_LinkMake.svg  style="width:16px;"> [Crea un link](Std_LinkMake/it.md).
 
 In particolare, **Link Transform** è impostata su `True`, quindi **Placement** viene nascosto e invece **Link Placement** controlla la posizione del Link rispetto alla posizione di **Linked Object**.
 

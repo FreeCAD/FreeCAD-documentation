@@ -40,7 +40,7 @@ FreeCAD.ActiveDocument.recompute()
 
 Notez comment nous avons traité myObj.Shape, voyez que cela se fait exactement comme nous l\'avons fait dans le chapitre précédent lorsque nous avons changé des propriétés d\'un objet, comme par exemple box.Height=5. En réalité, **Shape** est également une propriété tout comme Hauteur. Seulement il faut une forme de Part (Part Shape), pas un nombre. Au prochain chapitre, nous examinerons plus en profondeur la façon dont ces objets paramétriques sont construits.
 
-Pour l\'instant, explorons nos formes de pièces plus en détail. À la fin du chapitre _ nous avons montré un tableau qui explique comment les formes sont construites dans Part ainsi que leurs différents composants (sommets, arêtes, faces, etc. ou Vertices, edges, faces, etc). Les mêmes composants existent ici et peuvent être récupérés à partir de Python. Les objets Part ont toujours les attributs suivants: sommets, arêtes, lignes, faces, coquilles et solides (Vertices, Edges, Wires, Faces, Shells and Solids). Tous constituent des listes qui peuvent contenir n\'importe quel nombre d\'éléments ou être vides :
+Pour l\'instant, explorons nos formes de pièces plus en détail. À la fin du chapitre [Modélisation traditionnelle avec l\'atelier Part](Manual:Traditional_modeling,_the_CSG_way/fr.md) nous avons montré un tableau qui explique comment les formes sont construites dans Part ainsi que leurs différents composants (sommets, arêtes, faces, etc. ou Vertices, edges, faces, etc). Les mêmes composants existent ici et peuvent être récupérés à partir de Python. Les objets Part ont toujours les attributs suivants: sommets, arêtes, lignes, faces, coquilles et solides (Vertices, Edges, Wires, Faces, Shells and Solids). Tous constituent des listes qui peuvent contenir n\'importe quel nombre d\'éléments ou être vides :
 
 
 ```python
@@ -227,7 +227,7 @@ Tout ce qui précède, et bien plus encore, est expliqué en détail sur la page
 
 }} 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md) [<img src="images/Property.png" style="width:16px"> Python Code](Category_Python_Code.md)
 
 ---
 [documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Manual:Creating and manipulating geometry/fr

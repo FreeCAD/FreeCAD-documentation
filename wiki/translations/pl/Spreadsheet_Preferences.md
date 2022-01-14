@@ -34,7 +34,7 @@ There is only one tab: *Spreadsheet* in the **Spreadsheet** section. On this tab
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Preferences](Category_Preferences.md)
 
 ---
 [documentation index](../README.md) > [Preferences](Category_Preferences.md) > [Spreadsheet](Spreadsheet_Workbench.md) > Spreadsheet Preferences/pl

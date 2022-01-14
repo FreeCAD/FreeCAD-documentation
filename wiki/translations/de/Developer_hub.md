@@ -11,7 +11,7 @@ Die Entwicklerdokumentation umfasst die folgenden Abschnitte:
 
 ### FreeCAD kompilieren 
 
--   _
+-   [Github Repo](https://github.com/FreeCAD/FreeCAD). Wenn du neu bei Git bist, lies [Quellcode Verwaltung](Source_code_management/de.md)
 -   [Kompilieren mit Docker](Compile_on_Docker.md)
 -   [Kompilieren auf Windows](Compile_on_Windows/de.md)
 -   [Komplieren auf Unix](Compile_on_Linux/de.md)
@@ -90,7 +90,7 @@ OpenCascade ist eine Software Entwicklungsplattform für 3D Oberflächen- und Vo
 
 #### Dateiformat
 
-_-Geometrie sowie XML-Daten zur Beschreibung des Dokuments enthalten.
+[File Format FCStd](File_Format_FCStd/de.md). Bei den mit FreeCAD erstellten Dateien handelt es sich um `.zip` Dateien, die die [BREP](https://de.wikipedia.org/wiki/Boundary_Representation/de.md)-Geometrie sowie XML-Daten zur Beschreibung des Dokuments enthalten.
 
 #### Skizzierer Löser 
 
@@ -122,7 +122,7 @@ FreeCAD, obwohl in bestimmten Bereichen verwendbar, steht am Anfang eines langen
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Hubs](Category_Hubs.md) [<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
 
 ---
 [documentation index](../README.md) > [Hubs](Category_Hubs.md) > Developer hub/de

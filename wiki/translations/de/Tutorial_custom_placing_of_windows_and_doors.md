@@ -12,7 +12,7 @@
 
 Dieses Tutorial zeigt, wie man benutzerdefinierte [Fenster](Arch_Window/de.md) und [Türen](Arch_Door/de.md) in einem Gebäudemodell platziert. Es verwendet die Arbeitsbereiche [Entwurf (Draft)](Draft_Workbench/de.md), [Architektur (Arch)](Arch_Workbench/de.md) und [Skizze (Sketcher)](Sketcher_Workbench/de.md).
 
-Häufig benutzte Werkzeuge sind: _, _, _. Der Anwender sollte mit der Einschränkung von Skizzen vertraut sein.
+Häufig benutzte Werkzeuge sind: [Draft:Raster (Grid)](Draft_Snap_Grid/de.md), [Draft:Fang (Snap)](Draft_Snap/de.md), [Draft: Linienwerkzeug (Wire)](Draft_Wire/de.md), [Arch:Wand (Wall)](Arch_Wall/de.md), [Arch:Fenster (Window)](Arch_Window/de.md) und [Sketcher:Neue Skizze (NewSketch)](Sketcher_NewSketch/de.md). Der Anwender sollte mit der Einschränkung von Skizzen vertraut sein.
 
 Dieses Tutorial wurde inspiriert von den Tutorials von jpg87, welche in folgenden [FreeCAD-Foren](https://forum.freecadweb.org/viewforum.php?f=36) gepostet wurden:
 
@@ -142,7 +142,7 @@ w = Draft.makeWire(p, closed=False)
 
 *align=center|Benannte Einschränkungen der Skizze, welche verändert werden können, ohne die Skizze zu öffnen*
 
-11\. Wechsele zurück zum _. Es wird ein Fenster erstellt und eine Öffnung in der Wand erzeugt. Da das Fenster aus einer benutzerdefinierten Skizze erstellt wurde und nicht mittels einer Voreinstellung, ist es erforderlich, seine Einzelkomponenten, d.h. fester Rahmen, Fensterflügel und Glasscheibe, für eine korrekte Darstellung zu bearbeiten.
+11\. Wechsele zurück zum [Architektur-Arbeitsbereich](Arch_Workbench/de.md) und benutze - mit ausgewählter Skizze `Sketch002` - die Funktion [Arch:Fenster](Arch_Window/de.md). Es wird ein Fenster erstellt und eine Öffnung in der Wand erzeugt. Da das Fenster aus einer benutzerdefinierten Skizze erstellt wurde und nicht mittels einer Voreinstellung, ist es erforderlich, seine Einzelkomponenten, d.h. fester Rahmen, Fensterflügel und Glasscheibe, für eine korrekte Darstellung zu bearbeiten.
 
 <img alt="" src=images/08_T02_window_basic_in_wall.png  style="width:600px;">
 
@@ -235,7 +235,7 @@ w = Draft.makeWire(p, closed=False)
 
 18\. Jedes [Arch:Fenster](Arch_Window/de.md)-Objekt kontrolliert die Extrusion seines Körpers und der Wandöffnung mittels der Eigenschaft **Normal**.
 
-Die Normale ist ein Vector `_ erzeugt wird, wird die Normale automatisch ermittelt und das resultierende Fenster (oder die Tür) korrekt ausgerichtet; Die ersten beiden Objekte `Door` und `Door001`wurden auf diese Art erstellt.
+Die Normale ist ein Vector `[x, y, z]`, welcher die Richtung senkrecht zur Wand anzeigt. Wenn ein Fenster oder eine Tür mittels Voreinstellung und dem Werkzeug [Arch:Fenster](Arch_Window/de.md) direkt über einer [Arch:Wand](Arch_Wall/de.md) erzeugt wird, wird die Normale automatisch ermittelt und das resultierende Fenster (oder die Tür) korrekt ausgerichtet; Die ersten beiden Objekte `Door` und `Door001`wurden auf diese Art erstellt.
 
 In gleicher Weise wird eine Skizze, wenn durch Auswahl einer ebenen Oberfläche erstellt, auf diese Ebene ausgerichtet. Wenn dann das Werkzeug [Arch:Fenster](Arch_Window/de.md) benutzt wird, verwendet das Fenster als Normale die zur Skizze senkrechte Richtung. Dies war der Fall beim dritten Objekt, dem benutzerdefinierten `Window`.
 

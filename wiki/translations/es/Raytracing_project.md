@@ -14,7 +14,7 @@ New development is happening in the [https://github.com/FreeCAD/FreeCAD-render R
 
 {{TOCright}}
 
-Este es el proyecto de desarrollo de la implementación de un módulo de Raytracing en FreeCAD. Sigue las reglas de la metodología _.
+Este es el proyecto de desarrollo de la implementación de un módulo de Raytracing en FreeCAD. Sigue las reglas de la metodología [Getting things done](https://en.wikipedia.org/wiki/Getting_Things_Done). Los proyectos se recogen en el [Mapa de desarrollo](Development_roadmap/es.md).
 
 
 <div class="mw-translate-fuzzy">
@@ -110,7 +110,7 @@ Se muestra una pieza creada utilizando Diseño de Piezas / Croquizador y luego r
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Roadmap](Category_Roadmap.md)
 
 ---
 [documentation index](../README.md) > [Roadmap](Category_Roadmap.md) > [Raytracing](Raytracing_Workbench.md) > Raytracing project/es

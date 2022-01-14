@@ -1,11 +1,11 @@
 # Manual:Traditional 2D drafting/fr
 {{Manual:TOC/fr}}
 
-Vous pouvez être intéressé par FreeCAD car vous avez déjà une expérience de dessin technique, par exemple avec un logiciel comme _.
+Vous pouvez être intéressé par FreeCAD car vous avez déjà une expérience de dessin technique, par exemple avec un logiciel comme [AutoCAD](https://fr.wikipedia.org/wiki/AutoCAD). Ou vous savez déjà quelque chose dans le Design, ou vous préférez dessiner avant de construire. Dans les deux cas, FreeCAD propose un atelier avec des fonctionnalités plus traditionnelles, avec des outils que l'on trouve dans la plupart des applications CAO 2D : l\'[atelier Draft](Draft_Workbench/fr.md).
 
-L'atelier Draft, bien qu\'il adopte des façons de travailler hérité du dessin traditionnel 2D du monde de la CAO n\'est pas limité au royaume 2D. Tous ses outils fonctionnent dans l\'ensemble de l\'espace 3D et beaucoup de ses outils, par exemple <img alt="" src=images/Draft_Move.svg  style="width:16px;"> _, sont couramment utilisés partout dans FreeCAD car ils sont souvent plus intuitifs que changer les paramètres de placement manuellement.
+L'atelier Draft, bien qu\'il adopte des façons de travailler hérité du dessin traditionnel 2D du monde de la CAO n\'est pas limité au royaume 2D. Tous ses outils fonctionnent dans l\'ensemble de l\'espace 3D et beaucoup de ses outils, par exemple <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [déplacement](Draft_Move/fr.md) ou <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [rotation](Draft_Rotate/fr.md), sont couramment utilisés partout dans FreeCAD car ils sont souvent plus intuitifs que changer les paramètres de placement manuellement.
 
-Parmi les outils offerts par l'atelier Draft, vous trouverez des outils de dessin traditionnels comme <img alt="" src=images/Draft_Line.svg  style="width:16px;"> _ ou <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> _ de translation, <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> _, un système de [plan de travail/grille](Draft_SelectPlane/fr.md) qui vous permet de définir précisément dans quel plan vous travaillez, et un système d\'[accrochage](Draft_Snap/fr.md) complet qui permet de dessiner et de positionner précisément les éléments l\'un par rapport à l\'autre.
+Parmi les outils offerts par l'atelier Draft, vous trouverez des outils de dessin traditionnels comme <img alt="" src=images/Draft_Line.svg  style="width:16px;"> [Ligne](Draft_Line/fr.md), <img alt="" src=images/Draft_Circle.svg  style="width:16px;"> [Cercle](Draft_Circle/fr.md) ou <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Polyligne](Draft_Wire/fr.md), des outils de modification comme <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Déplacer](Draft_Move/fr.md) de translation, <img alt="" src=images/Draft_Rotate.svg  style="width:16px;"> [Pivoter](Draft_Rotate/fr.md) ou <img alt="" src=images/Draft_Offset.svg  style="width:16px;"> [Décaler](Draft_Offset/fr.md), un système de [plan de travail/grille](Draft_SelectPlane/fr.md) qui vous permet de définir précisément dans quel plan vous travaillez, et un système d\'[accrochage](Draft_Snap/fr.md) complet qui permet de dessiner et de positionner précisément les éléments l\'un par rapport à l\'autre.
 
 Pour montrer le travail et les possibilités de l\'ébauche de travail, nous réaliserons un exercice simple, dont le résultat sera ce petit dessin, montrant le plan d\'étage d\'une petite maison qui ne contient qu\'un dessus de cuisine (un plan d\'appartement très absurde, mais on peut faire ce que nous voulons ici, n\'est-ce pas ?) :
 
@@ -42,7 +42,7 @@ L\'activation de tous les boutons d\'accrochage est pratique, mais ralentit éga
 ![](images/Exercise_cabin_03.jpg )
 
 -   C\'est tout ce dont nous avons besoin maintenant, nous pouvons donc désactiver le mode de construction. Vérifiez que toute la géométrie de la construction a été placée dans un groupe \"Construction\", ce qui permet de le masquer tout à la fois ou même de le supprimer complètement plus tard.
--   Maintenant, dessinons nos deux pièces murales à l\'aide de l\'outil <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> _ est activé, car nous devrons créer les intersections de nos lignes et de nos rectangles. Dessinez deux polylignes comme suit, en cliquant sur tous les points de leurs contours. Pour les fermer, cliquez sur le premier point, ou appuyez sur le bouton **Fermer** :
+-   Maintenant, dessinons nos deux pièces murales à l\'aide de l\'outil <img alt="" src=images/Draft_Wire.svg  style="width:16px;"> [Polyligne](Draft_Wire/fr.md). Assurez-vous que le filtre d'accrochage intersection <img alt="" src=images/Snap_Intersection.svg  style="width:16px;"> [intersection snap](Draft_Snap/fr.md) est activé, car nous devrons créer les intersections de nos lignes et de nos rectangles. Dessinez deux polylignes comme suit, en cliquant sur tous les points de leurs contours. Pour les fermer, cliquez sur le premier point, ou appuyez sur le bouton **Fermer** :
 
 ![](images/Exercise_cabin_04.jpg )
 
@@ -85,7 +85,7 @@ Notre dessin est maintenant terminé ! Puisqu\'il commence à y avoir un certain
 
 ![](images/Exercise_cabin_12.jpg )
 
--   La chose la plus importante à propos de l'atelier Draft, c\'est que la géométrie que vous créez avec lui peut être utilisée comme base ou extrudée facilement dans des objets 3D, simplement en utilisant l\'outil Extrusion <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> _, qui sous le capot, exécute une extrusion de pièce, mais est-ce \"la méthode de projet\", c\'est-à-dire celle qui vous permet d\'indiquer et d\'accrocher graphiquement la longueur d\'extrusion . Expérimentez l\'extrusion de nos murs comme indiqué ci-dessous.
+-   La chose la plus importante à propos de l'atelier Draft, c\'est que la géométrie que vous créez avec lui peut être utilisée comme base ou extrudée facilement dans des objets 3D, simplement en utilisant l\'outil Extrusion <img alt="" src=images/Part_Extrude.svg  style="width:16px;"> [Part\_Extrusion](Part_Extrude/fr.md) de l'[atelier Part](Part_Workbench/fr.md) ou, pour rester dans Draft, l\'outil <img alt="" src=images/Draft_Trimex.svg  style="width:16px;"> [Ajuster ou prolonger](Draft_Trimex/fr.md), qui sous le capot, exécute une extrusion de pièce, mais est-ce \"la méthode de projet\", c\'est-à-dire celle qui vous permet d\'indiquer et d\'accrocher graphiquement la longueur d\'extrusion . Expérimentez l\'extrusion de nos murs comme indiqué ci-dessous.
 -   En appuyant sur le bouton Sélectionner le <img alt="" src=images/Draft_SelectPlane.svg  style="width:16px;"> [plan de travail](Draft_SelectPlane/fr.md) après avoir sélectionné une face d\'un objet, vous pouvez également placer le plan de travail n\'importe où et, par conséquent, dessiner des objets Draft dans différents plans, par exemple sur le dessus des murs. Ceux-ci peuvent ensuite être extrudés pour former d\'autres solides 3D. Expérimentez le réglage du plan de travail sur l\'une des faces supérieures des murs, puis tracez des rectangles là-haut.
 
 ![](images/Exercise_cabin_13.jpg )
@@ -110,7 +110,7 @@ Fondamentalement, ce que fait l'atelier Draft, c\'est fournir des moyens graphiq
 
 
 
-_ _
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md) [<img src="images/Property.png" style="width:16px"> Draft](Category_Draft.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Traditional 2D drafting/fr

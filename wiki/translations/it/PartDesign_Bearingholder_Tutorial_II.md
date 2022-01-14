@@ -31,7 +31,7 @@ Questa è la seconda parte del tutorial. In questo esempio si usa il flusso di l
 
 Ovviamente, per seguire questo tutorial è necessario attivare l\'ambiente PartDesign.
 
-~~Potete trovare la versione di Jrheinlaender (l\'autore di questo articolo) della parte creata con questo tutorial a _~~ *Il file non è più disponibile, ne verrà fornito uno nuovo in un secondo momento*.
+~~Potete trovare la versione di Jrheinlaender (l\'autore di questo articolo) della parte creata con questo tutorial a [http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4 questo link](http://ubuntuone.com/39PTZ3Y3LUnmZzpZQPcJT4_questo_link.md)~~ *Il file non è più disponibile, ne verrà fornito uno nuovo in un secondo momento*.
 
 ## Dati di progetto 
 
@@ -90,7 +90,7 @@ Per il resto della lavorazione, creare un nuovo corpo. La parte inferiore del su
 
 
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > [PartDesign](PartDesign_Workbench.md) > PartDesign Bearingholder Tutorial II/it

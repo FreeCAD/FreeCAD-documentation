@@ -27,13 +27,13 @@ Są to narzędzia, które nie są częścią Środowiska pracy **PartDesign**. N
 
 -   <img alt="" src=images/Std_Part.svg  style="width:32px;"> [Stwórz nową część \...](Std_Part/pl.md): dodaje kolejną pozycję części na drzewku do aktywnego dokumentu i czyni ją aktywną.
 
--   <img alt="" src=images/Std_Group.svg  style="width:32px;"> _.
+-   <img alt="" src=images/Std_Group.svg  style="width:32px;"> [Utwórz nową grupę \...](Std_Group.md): dodaje do aktywnego dokumentu pozycję grupy, co pozwala uporządkować obiekty w [widoku drzewa](Tree_view/pl.md).
 
 ### Narzędzia pomocnicze 
 
--   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> _ w aktywnym dokumencie i czyni go aktywnym.
+-   <img alt="" src=images/PartDesign_Body.svg  style="width:32px;"> [Stwórz nową zawartość \...](PartDesign_Body/pl.md): Tworzy obiekt [Body](Body.md) w aktywnym dokumencie i czyni go aktywnym.
 
--   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> _ w trybie edycji szkicu.
+-   <img alt="" src=images/Sketcher_NewSketch.svg  style="width:32px;"> [Utwórz nowy szkic](PartDesign_NewSketch.md): tworzy nowy szkic na wybranej ścianie lub płaszczyźnie. Jeśli podczas uruchamiania tego narzędzia nie zostanie wybrana żadna twarz, użytkownik zostanie poproszony o wybranie płaszczyzny z panelu Zadania. Następnie interfejs przełącza się na Środowisko pracy [Sketcher](Sketcher_Workbench/pl.md) w trybie edycji szkicu.
 
 -   <img alt="" src=images/Sketcher_EditSketch.svg  style="width:32px;"> [Edycja wybranego szkicu](Sketcher_EditSketch.md): Uruchamia edycje szkicu wybranego na drzewku modelu.
 
@@ -196,7 +196,7 @@ Kilka dodatkowych funkcji, które można znaleźć w menu Part Design:
 
  {{PartDesign Tools navi}}
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > PartDesign Workbench/pl

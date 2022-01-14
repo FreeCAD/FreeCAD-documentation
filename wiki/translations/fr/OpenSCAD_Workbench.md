@@ -2,7 +2,7 @@
 
 ## Introduction
 
-L\'<img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> _, qui est le noyau géométrique que FreeCAD utilise pour créer la géométrie à l\'écran. Les bibliothèques OpenCASCADE sont toujours nécessaires pour utiliser FreeCAD tandis que l\'exécutable OpenSCAD est entièrement facultatif.
+L\'<img alt="" src=images/Workbench_OpenSCAD.svg  style="width:24px;"> [atelier OpenSCAD](OpenSCAD_Workbench/fr.md) est destiné à offrir une interopérabilité avec le logiciel open source [OpenSCAD](http://www.openscad.org/). Ce programme n\'est pas distribué comme partie prenante de FreeCAD, mais doit être installé pour utiliser pleinement cet atelier. OpenSCAD ne doit pas être confondu avec [OpenCASCADE](OpenCASCADE/fr.md), qui est le noyau géométrique que FreeCAD utilise pour créer la géométrie à l\'écran. Les bibliothèques OpenCASCADE sont toujours nécessaires pour utiliser FreeCAD tandis que l\'exécutable OpenSCAD est entièrement facultatif.
 
 Il contient un importateur [CSG](OpenSCAD_CSG/fr.md) pour ouvrir les fichiers CSG créés par OpenSCAD et un exportateur pour générer une arborescence basée sur CSG. Les géométries non basées sur des opérations CSG seront exportées sous forme de maillage.
 
@@ -63,7 +63,7 @@ Le langage [OpenSCAD](http://www.openscad.org/) permet l\'utilisation de variabl
 
 ## Limites
 
-OpenSCAD permet la construction de formes géométriques solides, comme l\'importation de fichiers de maillage et d\'extrusion géométriques 2d à partir de fichiers _ ne l\'est généralement pas.
+OpenSCAD permet la construction de formes géométriques solides, comme l\'importation de fichiers de maillage et d\'extrusion géométriques 2d à partir de fichiers [DXF](DXF/fr.md). FreeCAD permet ainsi de faire des [.CSG](OpenSCAD_CSG/fr.md) avec primitives. Le noyau géométrique de FreeCAD (OCCT) travaille sur une représentation des frontières. La conversion de [.CSG](OpenSCAD_CSG/fr.md) en [BREP](http://fr.wikipedia.org/wiki/B-Rep) doit donc être théoriquement possible, alors que la conversion de [BREP](http://fr.wikipedia.org/wiki/B-Rep) vers [.CSG](OpenSCAD_CSG/fr.md) ne l\'est généralement pas.
 
 OpenSCAD fonctionne en interne avec les maillages (mesh). Certaines opérations qui sont utiles sur les maillages ne sont pas significatives sur un modèle BREP et peuvent ne pas être entièrement supporté. Parmi celle-ci figurent le recouvrement convexe, la somme de Minkowski, glide et subdiv. Pour l'instant OpenSCAD est exécuté pour réaliser le recouvrement convexe et la somme de Minkowski et importer le résultat. Cela signifie que la géométrie impliquée sera triangulée. Avec OpenSCAD la mise à l'échelle non uniforme est souvent utilisée, ce qui ne pose pas de problèmes avec les maillages. Avec notre noyau géométrique, les formes primitives (lignes, sections circulaires, etc) sont converties en BSpline avant d'être déformées. Ces BSplines sont connues pour poser problèmes avec des opérations booléennes futures. Une solution automatique n'est pas disponible pour le moment. S'il vous plaît n'hésitez pas à poster sur le [forum](http://forum.freecadweb.org/) si vous rencontrez ce genre de problème. Souvent ce genre de problèmes peut être résolu en modélisant des parties plus petites. Une déformation d'un cylindre peut être remplacée par l'extrusion d'une ellipse.
 
@@ -108,7 +108,7 @@ Si FreeCAD se bloque lors de l\'importation de CSG, il est fortement recommandé
 
 }} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md)
 
 ---
 [documentation index](../README.md) > [Workbenches](Category_Workbenches.md) > OpenSCAD Workbench/fr

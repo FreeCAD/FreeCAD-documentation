@@ -17,7 +17,7 @@
 
 <div class="mw-translate-fuzzy">
 
-Instrumentul BezCurve creează o _. Este nevoie de [linewidth and color](Draft_Linestyle.md) setată anterior pe fila Activități.
+Instrumentul BezCurve creează o [Bezier Curve](http://en.wikipedia.org/wiki/Bezier_curve) (sau o curbă Bezier în bucăți) din mai multe puncte din planul curent [ work plane](Draft_SelectPlane.md). Este nevoie de [linewidth and color](Draft_Linestyle.md) setată anterior pe fila Activități.
 
 
 </div>

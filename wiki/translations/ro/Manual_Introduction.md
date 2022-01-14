@@ -34,7 +34,7 @@ Acesta manula a fost scris pentru versiunea stabilă de FreeCAD cu numărul **0.
 
 <div class="mw-translate-fuzzy">
 
-Tot conținutul manualului acesta este publicat sub licența _, și în original pe contul [github](https://github.com/yorikvanhavre/FreeCAD-manual) utilizat pentru a scrie prima verisune aacestei cărți. Mai ușor de citit în, PDF, MOBI and EPUB versiuni desiponibile pe [GitBook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details). Ovariatnă tipărită este în pregătire.
+Tot conținutul manualului acesta este publicat sub licența [Creative Commons 4.0](http://creativecommons.org/licenses/by/4.0/), și poate fi utilizat liber, copiat, sau modificat. Sursa fișierelor acestui manual sunt găzduite pe [wiki](Main_Page.md), și în original pe contul [github](https://github.com/yorikvanhavre/FreeCAD-manual) utilizat pentru a scrie prima verisune aacestei cărți. Mai ușor de citit în, PDF, MOBI and EPUB versiuni desiponibile pe [GitBook](https://www.gitbook.com/book/yorikvanhavre/a-freecad-manual/details). Ovariatnă tipărită este în pregătire.
 
 
 </div>

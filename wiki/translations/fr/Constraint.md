@@ -4,7 +4,7 @@
 
 {{TOCright}}
 
-Dans FreeCAD, le mot \"_ (classe `Sketcher::SketchObject`). Une contrainte limite la position d\'un certain élément géométrique de différentes manières, par exemple, elle peut spécifier si l\'élément est horizontal, vertical, tangent, parallèle, perpendiculaire, coïncidant avec un point, concentrique à un autre objet, etc.
+Dans FreeCAD, le mot \"[Contrainte](Constraint/fr.md)\" est normalement utilisé pour désigner une \"règle\" pour dessiner des formes géométriques à l\'intérieur d\'une <img alt="" src=images/Workbench_Sketcher.svg  style="width:16px;"> [Esquisse](Sketch/fr.md) (classe `Sketcher::SketchObject`). Une contrainte limite la position d\'un certain élément géométrique de différentes manières, par exemple, elle peut spécifier si l\'élément est horizontal, vertical, tangent, parallèle, perpendiculaire, coïncidant avec un point, concentrique à un autre objet, etc.
 
 Il existe deux principaux types de contraintes:
 
@@ -16,35 +16,35 @@ Reportez-vous aux informations dans l\'<img alt="" src=images/Workbench_Sketcher
 
 ## Utilisation
 
-1.  Créez une esquisse depuis l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> _.
+1.  Créez une esquisse depuis l\'<img alt="" src=images/Workbench_Sketcher.svg  style="width:24px;"> [atelier Sketcher](Sketcher_Workbench/fr.md) ou via l\'<img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [atelier PartDesign](PartDesign_Workbench/fr.md).
 2.  Presse
     -   
-        **<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)**
+        **[<img src=images/Sketcher_NewSketch.svg style="width:16px"> [Sketcher Nouvelle esquisse](Sketcher_NewSketch/fr.md)**
         
         , ou
 
     -   
-        **<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)**
+        **[<img src=images/PartDesign_Body.svg style="width:16px"> [PartDesign Corps](PartDesign_Body/fr.md)**
         
-        suivi de **<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Nouvelle esquisse ](PartDesign_NewSketch/fr.md)**.
+        suivi de **[<img src=images/PartDesign_NewSketch.svg style="width:16px"> [PartDesign Nouvelle esquisse ](PartDesign_NewSketch/fr.md)**.
 3.  Double-cliquez sur l\'esquisse créée pour entrer dans son mode d\'édition.
-4.  Dessinez une série de lignes en utilisant **<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Polyligne](Sketcher_CreatePolyline/fr.md)**.
-5.  Choisissez l\'une des lignes et utilisez **<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Contrainte verticale](Sketcher_ConstrainVertical/fr.md)**.
-6.  Choisissez l\'une des lignes et utilisez **<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> [Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md)**.
-7.  Choisissez la ligne verticale et utilisez **<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Contrainte distance Y](Sketcher_ConstrainDistanceY/fr.md)**; attribuer une distance.
-8.  Choisissez la ligne horizontale et utilisez **<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Contrainte distance X](Sketcher_ConstrainDistanceX/fr.md)**; attribuer une distance.
+4.  Dessinez une série de lignes en utilisant **[<img src=images/Sketcher_CreatePolyline.svg style="width:16px"> [Polyligne](Sketcher_CreatePolyline/fr.md)**.
+5.  Choisissez l\'une des lignes et utilisez **[<img src=images/Sketcher_ConstrainVertical.svg style="width:16px"> [Contrainte verticale](Sketcher_ConstrainVertical/fr.md)**.
+6.  Choisissez l\'une des lignes et utilisez **[<img src=images/Sketcher_ConstrainHorizontal.svg style="width:16px"> [Contrainte horizontale](Sketcher_ConstrainHorizontal/fr.md)**.
+7.  Choisissez la ligne verticale et utilisez **[<img src=images/Sketcher_ConstrainDistanceY.svg style="width:16px"> [Contrainte distance Y](Sketcher_ConstrainDistanceY/fr.md)**; attribuer une distance.
+8.  Choisissez la ligne horizontale et utilisez **[<img src=images/Sketcher_ConstrainDistanceX.svg style="width:16px"> [Contrainte distance X](Sketcher_ConstrainDistanceX/fr.md)**; attribuer une distance.
 
 ## Remarques
 
--   Les contraintes sont utiles pour créer des profils très précis qui peuvent être transformés en extrusions solides en utilisant le **<img src=images/PartDesign_Pad.svg style="width:16px"> <img src=images/Part_Extrude.svg style="width:PartDesign Protrusion](PartDesign_Pad/fr.md)** ou **[16px"> [Part Extrusion](Part_Extrude/fr.md)** opérations.
--   Les contraintes ne sont utilisées que dans les _ ne comprennent pas de contraintes; ces derniers sont simplement placés dans l\'espace 3D et leurs propriétés définissent leur forme et leur position.
+-   Les contraintes sont utiles pour créer des profils très précis qui peuvent être transformés en extrusions solides en utilisant le **[<img src=images/PartDesign_Pad.svg style="width:16px"> [PartDesign Protrusion](PartDesign_Pad/fr.md)** ou **[<img src=images/Part_Extrude.svg style="width:16px"> [Part Extrusion](Part_Extrude/fr.md)** opérations.
+-   Les contraintes ne sont utilisées que dans les [Esquisses](Sketch/fr.md); d\'autres objets 2D tels que ceux créés avec l\'<img alt="" src=images/Workbench_Draft.svg  style="width:24px;"> [atelier Draft](Draft_Workbench/fr.md) ne comprennent pas de contraintes; ces derniers sont simplement placés dans l\'espace 3D et leurs propriétés définissent leur forme et leur position.
 
 
 {{Sketcher Tools navi
 
 }} {{Document objects navi}} 
 
-_
+[<img src="images/Property.png" style="width:16px"> Glossary](Category_Glossary.md)
 
 ---
 [documentation index](../README.md) > [Glossary](Category_Glossary.md) > Constraint/fr

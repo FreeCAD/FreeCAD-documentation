@@ -3,9 +3,9 @@
 
 ### Contents:
 
-_ , _
+[Template:PropertyData/zh-cn](Template:PropertyData/zh-cn.md) , [Template:PropertyView/zh-cn](Template:PropertyView/zh-cn.md)
 
-_
+[<img src="images/Property.png" style="width:16px"> Template/zh-cn](<img src="images/Property.png" style="width:16px"> Template/zh-cn.md)
 
 ---
 [documentation index](../README.md) > Category:Template:Text Format/zh-cn

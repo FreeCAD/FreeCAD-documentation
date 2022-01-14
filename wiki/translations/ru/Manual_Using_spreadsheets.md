@@ -18,7 +18,7 @@
 
 ### Чтение свойств 
 
--   Начнём с переключения в _, <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> _.
+-   Начнём с переключения в [верстак Part](Part_Workbench/ru.md), и создадим несколько объектов: <img alt="" src=images/Part_Box.svg  style="width:16px;"> [куб](Part_Box/ru.md), <img alt="" src=images/Part_Cylinder.svg  style="width:16px;"> [цилиндр](Part_Cylinder/ru.md) и <img alt="" src=images/Part_Sphere.svg  style="width:16px;"> [сферу](Part_Sphere/ru.md).
 -   Редактируем их параметр **Placement** (или используем инструмент <img alt="" src=images/Draft_Move.svg  style="width:16px;"> [Move](Draft_Move/ru.md)) чтобы поместить его немного в сторону, чтобы лучше видеть эффекты того, что мы будем делать:
 
 ![](images/Exercise_spreadsheet_01.jpg )
@@ -100,7 +100,7 @@
 
 </div>
 
-_
+[<img src="images/Property.png" style="width:16px"> Tutorials](Category_Tutorials.md)
 
 ---
 [documentation index](../README.md) > [Tutorials](Category_Tutorials.md) > Manual:Using spreadsheets/ru

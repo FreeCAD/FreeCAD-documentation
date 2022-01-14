@@ -27,9 +27,9 @@ Um die Winkelbeschränkung anzuwenden, sollte man den Schritten folgen:
 
 1.  Wähle ein, zwei oder drei Elemente in der Skizze aus. Der Modus wird abhängig von der Auswahl gewählt.
 2.  Rufe die Beschränkung mit verschiedenen Methoden auf:
-    -   Drücken der **<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Beschränke Winkel](Sketcher_ConstrainAngle/de.md)** Schaltfläche in der Werkzeugleiste.
+    -   Drücken der **[<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> [Beschränke Winkel](Sketcher_ConstrainAngle/de.md)** Schaltfläche in der Werkzeugleiste.
     -   Verwendung der **A** Tastaturkürzel. (**A**\' steht für **A**ngle, engl.: Winkel)
-    -   Verwendung des **Skizze → Skizzierer Beschränkungen → <img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Beschränke Winkel** aus dem obersten Menüeintrag
+    -   Verwendung des **Skizze → Skizzierer Beschränkungen → [<img src=images/Sketcher_ConstrainAngle.svg style="width:16px"> Beschränke Winkel** aus dem obersten Menüeintrag
 3.  Ein Bezugs Bezugsbearbeitungsdialogfeld klappt auf.
 4.  Ändere den Winkel, falls erforderlich. **Hinweis:** Der Winkel kann als Ausdruck eingegeben werden, der ausgewertet und als Ergebnis gespeichert wird.
 5.  Klicke **OK**
