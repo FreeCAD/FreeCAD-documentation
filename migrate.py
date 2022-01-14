@@ -615,7 +615,8 @@ class MediaWiki:
 
         """getMarkdown(page,wikitext,[clean]):
         Returns a markdown version of a text in wiki format.
-        If clean is false, raw pandoc output is returned"""
+        If clean is false, raw pandoc output is returned. clean
+        can also be a numeric debug value to pass to cleanMarkdown()"""
 
         wikitext = self.pagecontents[page]
         xargs = ['--atx-headers'] # pandoc arguments
@@ -626,7 +627,7 @@ class MediaWiki:
             print("Error converting",page)
             return None
         if clean:
-            result = self.cleanMarkdown(result)
+            result = self.cleanMarkdown(result,debug=clean)
         result = self.addTitle(page,result)
         result = self.addFooter(page,result)
         return result
@@ -671,12 +672,15 @@ class MediaWiki:
         return mdtext
 
 
-    def cleanMarkdown(self,mdtext,imagepath=None):
+    def cleanMarkdown(self,mdtext,imagepath=None,debug=0):
 
-        """cleanMarkdown(mdtext,[imagepath]):
+        """cleanMarkdown(mdtext,[imagepath,debug]):
         Returns a cleaned version of the given markdown text.
         Imagepath indicates the location of images relative to this page
-        (default = "images")"""
+        (default = "images"). debug (default = 0) is used to control the
+        level of cleaning done. 0 means disabled (all cleaning is perfomed),
+        1 = first cleaning step, 2 = 2 first cleaning steps, etc.
+        Current maximum is 13"""
 
         global unhandledTemplates
 
@@ -684,110 +688,128 @@ class MediaWiki:
         flags = re.DOTALL|re.MULTILINE
         if not imagepath:
             imagepath = self.imagefolder
+        if (not debug) or (debug is True):
+            debug = 100000
 
         # templates that are safe to remove entirely
         unusedtemplates = ["Userdocnavi","Arch Tools navi","\\#translation:","clear",
                            "Part Tools navi","Draft Tools navi"]
 
-        # path replacements
-        result = re.sub("\!\[(.*?)\]\(",r"![\1]("+imagepath+"/",result) # add /image to image paths
-        result = re.sub(" \"wikilink\"",".md",result) # add .md to wiki page links
+        if debug >= 1:
+            # path replacements
+            result = re.sub("\!\[(.*?)\]\(",r"![\1]("+imagepath+"/",result) # add /image to image paths
+        if debug >= 1.5:
+            result = re.sub(" \"wikilink\"",".md",result) # add .md to wiki page links
 
-        # template that are simply removed
-        result = re.sub("\`.*?\`\{\=html\}","",result)
-        result = re.sub("<!--.*?-->","",result,flags=flags)
-        result = re.sub("{{Docnav.*?}}","",result,flags=flags)
-        result = re.sub("{{Page in progress}}","",result,flags=flags)
-        result = re.sub("{{\#translation\:}}","",result,flags=flags)
-        result = re.sub("{{\\\#translation\:}}","",result,flags=flags)
-        result = re.sub("{{UnfinishedDocu.*?}}","",result,flags=flags)
+        if debug >= 2:
+            # template that are simply removed
+            result = re.sub("\`.*?\`\{\=html\}","",result)
+            result = re.sub("<!--.*?-->","",result,flags=flags)
+            result = re.sub("{{Docnav.*?}}","",result,flags=flags)
+            result = re.sub("{{Page in progress}}","",result,flags=flags)
+            result = re.sub("{{\#translation\:}}","",result,flags=flags)
+            result = re.sub("{{\\\#translation\:}}","",result,flags=flags)
+            result = re.sub("{{UnfinishedDocu.*?}}","",result,flags=flags)
 
-        # templates that get turned into italic text
-        result = re.sub("{{Caption\|(.*?)}}",r"\n*\1*",result,flags=flags)
+        if debug >= 3:
+            # templates that get turned into italic text
+            result = re.sub("{{Caption\|(.*?)}}",r"\n*\1*",result,flags=flags)
 
-        # templates that get turned into bold text
-        result = re.sub("{{KEY\|(.*?)}}",r"**\1**",result,flags=flags)
-        result = re.sub("{{Button\|(.*?)}}",r"**\1**",result,flags=flags)
-        result = re.sub("{{MenuCommand\|(.*?)}}",r"**\1**",result,flags=flags)
-        result = re.sub("{{PropertyData\|(.*?)}}",r"**\1**",result,flags=flags)
-        result = re.sub("{{PropertyView\|(.*?)}}",r"**\1**",result,flags=flags)
-        result = re.sub("{{Emphasis\|(.*?)}}",r"**\1**",result,flags=flags)
-        result = re.sub("{{VeryImportantMessage\|(.*?)}}",r"**\1**",result,flags=flags)
+        if debug >= 4:
+            # templates that get turned into bold text
+            result = re.sub("{{KEY\|(.*?)}}",r"**\1**",result,flags=flags)
+            result = re.sub("{{Button\|(.*?)}}",r"**\1**",result,flags=flags)
+            result = re.sub("{{MenuCommand\|(.*?)}}",r"**\1**",result,flags=flags)
+            result = re.sub("{{PropertyData\|(.*?)}}",r"**\1**",result,flags=flags)
+            result = re.sub("{{PropertyView\|(.*?)}}",r"**\1**",result,flags=flags)
+            result = re.sub("{{Emphasis\|(.*?)}}",r"**\1**",result,flags=flags)
+            result = re.sub("{{VeryImportantMessage\|(.*?)}}",r"**\1**",result,flags=flags)
 
-        # templates that get turned into <small> text
-        result = re.sub("{{Version\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags)
-        result = re.sub("{{version\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags)
-        result = re.sub("{{VersionPlus\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags)
+        if debug >= 5:
+            # templates that get turned into <small> text
+            result = re.sub("{{Version\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags)
+            result = re.sub("{{version\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags)
+            result = re.sub("{{VersionPlus\|(.*?)}}",r"<small>(v\1)</small> ",result,flags=flags)
 
-        # templates that get turned into a newline char
-        result = re.sub("{{Clear}}",r"\n",result,flags=flags)
+        if debug >= 6:
+            # templates that get turned into a newline char
+            result = re.sub("{{Clear}}",r"\n",result,flags=flags)
 
         # all other templates are simply converted to normal text (see below)
 
-        # turning GuiCommand block into YAML
-        if "{{GuiCommand" in result:
-            guicommandblk = re.findall("```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",result,flags=flags)
-            if guicommandblk:
-                guicommandblk = guicommandblk[0]
-                guicommandblk = re.sub("\|(.*?)\=(.*?)",r"   \1:\2",guicommandblk) # fixing GuiCommand contents
-                result = re.sub("```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",r"---\n- GuiCommand:"+guicommandblk+"---\n",result,flags=flags)
-                result = "---"+"---".join(result.split("---")[1:]) # removing empty line before yaml block
+        if debug >= 7:
+            # turning GuiCommand block into YAML
+            if "{{GuiCommand" in result:
+                guicommandblk = re.findall("```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",result,flags=flags)
+                if guicommandblk:
+                    guicommandblk = guicommandblk[0]
+                    guicommandblk = re.sub("\|(.*?)\=(.*?)",r"   \1:\2",guicommandblk) # fixing GuiCommand contents
+                    result = re.sub("```{\=mediawiki}.*?{{GuiCommand(.*?)}}\n```",r"---\n- GuiCommand:"+guicommandblk+"---\n",result,flags=flags)
+                    result = "---"+"---".join(result.split("---")[1:]) # removing empty line before yaml block
 
-        # remove code fences
-        result = re.sub("\`","",result)
-        result = re.sub("\{\=mediawiki\}","",result)
-        result = re.sub("\{\:mediawiki\}","",result)
+        if debug >= 8:
+            # remove code fences
+            result = re.sub("\`","",result)
+            result = re.sub("\{\=mediawiki\}","",result)
+            result = re.sub("\{\:mediawiki\}","",result)
 
-        # creating new code fences
-        result = re.sub("{{Code\|code\=(.*?)}}",r"```python\1```",result,flags=flags) # replace {{Code}} templates
-        result = re.sub("{{incode\|(.*?)}}",r"`\1`",result,flags=flags) # replace {{incode}} templates
-        result = re.sub(" \`\`\`",r" \n```",result,flags=flags) # make sure all ``` are on a new line
-        result = re.sub("{{TRUE}}",r"`True`",result,flags=flags) # replace {{TRUE}} templates
-        result = re.sub("{{FALSE}}",r"`False`",result,flags=flags) # replace {{TRUE}} templates
+        if debug >= 9:
+            # creating new code fences
+            result = re.sub("{{Code\|code\=(.*?)}}",r"```python\1```",result,flags=flags) # replace {{Code}} templates
+            result = re.sub("{{incode\|(.*?)}}",r"`\1`",result,flags=flags) # replace {{incode}} templates
+            result = re.sub(" \`\`\`",r" \n```",result,flags=flags) # make sure all ``` are on a new line
+            result = re.sub("{{TRUE}}",r"`True`",result,flags=flags) # replace {{TRUE}} templates
+            result = re.sub("{{FALSE}}",r"`False`",result,flags=flags) # replace {{TRUE}} templates
 
-        # fixing links
-        result = re.sub("(!\[.*?\]\(.*?)\".*?\"(\))",r"\1\2",result) # remove image path descriptions
-        for l1 in re.findall("\[\[Image\:.*?\|.*?px\]\]",result):
-            iml1 = re.findall("Image\:(.*?)\|",l1)[0]
-            iml2 = re.findall("\|(.*?)px\]\]",l1)[0]
-            l2 = "<img src=\""+imagepath+"/"+iml1.replace(" ","_")+"\" width="+iml2+"px>"
-            result = result.replace(l1,l2)
-        result = re.sub("\[\[Image\:(.*?)\|(.*?)\]\]",r"![]("+imagepath+"/\1)",result)
-        result = re.sub("\[\[(.*?)\|(.*?)\]\]",r"[\2](\1.md)",result)
-        result = re.sub(r"\]\(.*?\.",lambda x:x.group().replace(" ","_"),result) # replace spaces by underscores in all remaining links
-        result = re.sub("!\[(.*?)\]\((.*?)\){width=\"(.*?)\"}",r'<img alt="\1" src=\2 style="width:\3px;">',result) # fix img sizes
-        #for l in re.findall("\[.*?\]\(.*?\)",result):
-        #    print("   ",l)
+        if debug >= 10:
+            # fixing links
+            result = re.sub("(!\[.*?\]\(.*?)\".*?\"(\))",r"\1\2",result) # remove image path descriptions
+            for l1 in re.findall("\[\[Image\:.*?\|.*?px\]\]",result):
+                iml1 = re.findall("Image\:(.*?)\|",l1)[0]
+                iml2 = re.findall("\|(.*?)px\]\]",l1)[0]
+                l2 = "<img src=\""+imagepath+"/"+iml1.replace(" ","_")+"\" width="+iml2+"px>"
+                result = result.replace(l1,l2)
+            result = re.sub("\[\[Image\:(.*?)\|(.*?)\]\]",r"![]("+imagepath+"/\1)",result)
+            result = re.sub("\[\[(.*?)\|(.*?)\]\]",r"[\2](\1.md)",result)
+            result = re.sub(r"\]\(.*?\.",lambda x:x.group().replace(" ","_"),result) # replace spaces by underscores in all remaining links
+            result = re.sub("!\[(.*?)\]\((.*?)\){width=\"(.*?)\"}",r'<img alt="\1" src=\2 style="width:\3px;">',result) # fix img sizes
+            #for l in re.findall("\[.*?\]\(.*?\)",result):
+            #    print("   ",l)
 
-        # fixing misc formatting glitches
-        result = re.sub("\n-   \n","\n-",result,flags=flags) # condensing newlines in bullet point lists
-        result = re.sub("\n    \n    ","",result,flags=flags) # condensate empty lines
-        result = re.sub("\n\n\n\(v",r" (v",result,flags=flags) # condensate badly formatted version templates
-        result = re.sub("\n:\n","",result,flags=flags) # condensate remaining : lines
-        result = re.sub("\n\n\n\n-","\n-",result,flags=flags) # condensate bad - lists
-        result = re.sub("(<img.*?>.*?)(\*.*?\*\n)",r"\1\n\2",result) # put captions on a newline
-        result = re.sub("\[(.*?)\]\(image:(.*?)\.md\)",r"![\1]("+imagepath+r"/\2)",result) # fix image: links
-        result = re.sub("\[(.*?)px\]\(File:(.*?)\.md\)",r'<img src='+imagepath+r'/\2 style="width:\1px">',result) # fix File: links
-        result = re.sub("\[.*?\]\(.*?(\:).*?\.md\)","_",result) # rename Namespace:Page to Namespace_Page
+        if debug >= 11:
+            # fixing misc formatting glitches
+            result = re.sub("\n-   \n","\n-",result,flags=flags) # condensing newlines in bullet point lists
+            result = re.sub("\n    \n    ","",result,flags=flags) # condensate empty lines
+            result = re.sub("\n\n\n\(v",r" (v",result,flags=flags) # condensate badly formatted version templates
+            result = re.sub("\n:\n","",result,flags=flags) # condensate remaining : lines
+            result = re.sub("\n\n\n\n-","\n-",result,flags=flags) # condensate bad - lists
+        if debug >= 11.5:
+            result = re.sub("(<img.*?>.*?)(\*.*?\*\n)",r"\1\n\2",result) # put captions on a newline
+            result = re.sub("\[(.*?)\]\(image:(.*?)\.md\)",r"![\1]("+imagepath+r"/\2)",result) # fix image: links
+        if debug >= 11.7:
+            result = re.sub("([0-9]+)px\]\(File\:(.*?)\.md\)",r'<img src='+imagepath+r'/\2 style="width:\1px">',result) # fix File: links
+            result = re.sub("\:(\w+\.md\))",r"_\1",result) # rename Namespace:Page to Namespace_Page
+            result = re.sub("Category:","<img src=\""+imagepath+"/Property.png\" style=\"width:16px\"> ",result) # Replace Category: with icon
 
-        # removing other leftovers
+        if debug >= 12:
+            # removing other leftovers
+            result = re.sub("\\\_\\\_NOTOC\\\_\\\_","",result,flags=flags) # removing __NOTOC__ entries
+            result = re.sub("\{\#.*?\}","",result,flags=flags) # removing {#...} tags
 
-        result = re.sub("\\\_\\\_NOTOC\\\_\\\_","",result,flags=flags) # removing __NOTOC__ entries
-        result = re.sub("\{\#.*?\}","",result,flags=flags) # removing {#...} tags
-
-        # removing all remaining templates
-        for template in re.findall("{{.*?}}",result,flags=flags):
-            if template.strip("{").strip("}").strip() in unusedtemplates:
-                result = re.sub(template,"",result,flags=flags) # remove all remaining templates
-            else:
-                #print("WARNING: Unhandled template:",template)
-                try:
-                    template = re.findall("{{(.*?)[|}]",template,flags=flags)[0].strip()
-                except:
-                    print("error in template:",template)
-                    sys.exit(1)
-                if not template in unhandledTemplates:
-                    unhandledTemplates.append(template)
+        if debug >= 13:
+            # removing all remaining templates
+            for template in re.findall("{{.*?}}",result,flags=flags):
+                if template.strip("{").strip("}").strip() in unusedtemplates:
+                    result = re.sub(template,"",result,flags=flags) # remove all remaining templates
+                else:
+                    #print("WARNING: Unhandled template:",template)
+                    try:
+                        template = re.findall("{{(.*?)[|}]",template,flags=flags)[0].strip()
+                    except:
+                        print("error in template:",template)
+                        sys.exit(1)
+                    if not template in unhandledTemplates:
+                        unhandledTemplates.append(template)
 
         return result.strip()
 
@@ -1061,22 +1083,25 @@ def update():
         print("page with write errors: ",errors)
 
 
-def test():
+def test(page=None,clean=True):
 
     """creates a couple of pages for testing"""
 
     w = MediaWiki()
-    w.writeMarkdown("Main_Page")
-    w.writeMarkdown("User_hub")
-    w.writeMarkdown("Arch_Workbench")
-    w.writeMarkdown("BIM_Workbench")
-    w.writeMarkdown("Arch_Wall")
-    w.writeMarkdown("Draft_Line")
-    w.writeMarkdown("Part_Extrude")
-    #w.writeMarkdown("Arch_Workbench",basepath=os.path.dirname(__file__)+"/orig",clean=False)
-    #w.writeMarkdown("Arch_Wall",basepath=os.path.dirname(__file__)+"/orig",clean=False)
-    #w.writeMarkdown("Draft_Line",basepath=os.path.dirname(__file__)+"/orig",clean=False)
-    #w.writeMarkdown("Part_Extrude",basepath=os.path.dirname(__file__)+"/orig",clean=False)
+    if page:
+        w.writeMarkdown(page,clean=clean)
+    else:
+        w.writeMarkdown("Main_Page",clean=clean)
+        w.writeMarkdown("User_hub",clean=clean)
+        w.writeMarkdown("Arch_Workbench",clean=clean)
+        w.writeMarkdown("BIM_Workbench",clean=clean)
+        w.writeMarkdown("Arch_Wall",clean=clean)
+        w.writeMarkdown("Draft_Line",clean=clean)
+        w.writeMarkdown("Part_Extrude",clean=clean)
+        #w.writeMarkdown("Arch_Workbench",basepath=os.path.dirname(__file__)+"/orig",clean=False)
+        #w.writeMarkdown("Arch_Wall",basepath=os.path.dirname(__file__)+"/orig",clean=False)
+        #w.writeMarkdown("Draft_Line",basepath=os.path.dirname(__file__)+"/orig",clean=False)
+        #w.writeMarkdown("Part_Extrude",basepath=os.path.dirname(__file__)+"/orig",clean=False)
 
 
 def writepages():
