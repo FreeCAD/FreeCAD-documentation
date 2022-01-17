@@ -1,10 +1,6 @@
-# TopoShape API
+# Edge API
 
-TopoShape is the OpenCasCade topological shape wrapper.
-Sub-elements such as vertices, edges or faces are accessible as:
-* Vertex#, where # is in range(1, number of vertices)
-* Edge#, where # is in range(1, number of edges)
-* Face#, where # is in range(1, number of faces)
+TopoShapeEdge is the OpenCasCade topological edge wrapper
 
 
 
@@ -26,6 +22,21 @@ Get the center of gravity
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> CenterOfMass
+
+Returns the center of mass of the current system.
+If the gravitational field is uniform, it is the center of gravity.
+The coordinates returned for the center of mass are expressed in the
+absolute Cartesian coordinate system.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Closed
+
+Returns true if the edge is closed
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> CompSolids
 
 List of subsequent shapes in this shape.
@@ -44,6 +55,24 @@ Content of the object in XML representation
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> Continuity
+
+Returns the continuity
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Curve
+
+Returns the 3D curve of the edge
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Degenerated
+
+Returns true if the edge is degenerated
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> Edges
 
 List of Edges in this shape.
@@ -56,9 +85,74 @@ List of faces in this shape.
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> FirstParameter
+
+
+Returns the start value of the range of the primary parameter
+defining the curve.
+
+What the parameter is depends on what type of edge it is. For a
+Line the parameter is simply its cartesian length. Some other
+examples are shown below:
+
+Type                 Parameter
+-----------------------------------------------------------
+Circle               Angle swept by circle (or arc) in radians
+BezierCurve          Unitless number in the range 0.0 to 1.0
+Helix                Angle swept by helical turns in radians
+          
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> LastParameter
+
+
+Returns the end value of the range of the primary parameter
+defining the curve.
+
+What the parameter is depends on what type of edge it is. For a
+Line the parameter is simply its cartesian length. Some other
+examples are shown below:
+
+Type                 Parameter
+-----------------------------------------------------------
+Circle               Angle swept by circle (or arc) in radians
+BezierCurve          Unitless number in the range 0.0 to 1.0
+Helix                Angle swept by helical turns in radians
+          
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> Length
 
-Total length of the edges of the shape.
+Returns the cartesian length of the curve
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Mass
+
+Returns the mass of the current system.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> MatrixOfInertia
+
+Returns the matrix of inertia. It is a symmetrical matrix.
+The coefficients of the matrix are the quadratic moments of
+inertia.
+
+ | Ixx Ixy Ixz 0 |
+ | Ixy Iyy Iyz 0 |
+ | Ixz Iyz Izz 0 |
+ | 0   0   0   1 |
+
+The moments of inertia are denoted by Ixx, Iyy, Izz.
+The products of inertia are denoted by Ixy, Ixz, Iyz.
+The matrix of inertia is returned in the central coordinate
+system (G, Gx, Gy, Gz) where G is the centre of mass of the
+system and Gx, Gy, Gz the directions parallel to the X(1,0,0)
+Y(0,1,0) Z(0,0,1) directions of the absolute cartesian
+coordinate system.
 
 
 
@@ -80,9 +174,45 @@ Returns the orientation of the shape.
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> ParameterRange
+
+
+Returns a 2 tuple with the range of the primary parameter
+defining the curve. This is the same as would be returned by
+the FirstParameter and LastParameter properties, i.e.
+
+(LastParameter,FirstParameter)
+
+What the parameter is depends on what type of edge it is. For a
+Line the parameter is simply its cartesian length. Some other
+examples are shown below:
+
+Type                 Parameter
+---------------------------------------------------------------
+Circle               Angle swept by circle (or arc) in radians
+BezierCurve          Unitless number in the range 0.0 to 1.0
+Helix                Angle swept by helical turns in radians
+          
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> [Placement](Placement_API.md)
 
 Get the current transformation of the object as placement
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> PrincipalProperties
+
+Computes the principal properties of inertia of the current system.
+ There is always a set of axes for which the products
+ of inertia of a geometric system are equal to 0; i.e. the
+ matrix of inertia of the system is diagonal. These axes
+ are the principal axes of inertia. Their origin is
+ coincident with the center of mass of the system. The
+ associated moments are called the principal moments of inertia.
+ This function computes the eigen values and the
+ eigen vectors of the matrix of inertia of the system.
 
 
 
@@ -104,6 +234,14 @@ List of subsequent shapes in this shape.
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> StaticMoments
+
+Returns Ix, Iy, Iz, the static moments of inertia of the
+ current system; i.e. the moments of inertia about the
+ three axes of the Cartesian coordinate system.
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> SubShapes
 
 List of sub-shapes in this shape.
@@ -113,6 +251,12 @@ List of sub-shapes in this shape.
 #### <img src="images/Type_enum.svg" style="width:16px;"> Tag
 
 Geometry Tag
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Tolerance
+
+Set or get the tolerance of the vertex
 
 
 
@@ -157,6 +301,14 @@ Apply an additional rotation to the placement
 #### <img src="images/Type_enum.svg" style="width:16px;"> applyTranslation
 
 Apply an additional translation to the placement
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> centerOfCurvatureAt
+
+Get the center of curvature at the given parameter [First|Last] if defined
+centerOfCurvatureAt(paramval) -> Vector
+          
 
 
 
@@ -248,6 +400,25 @@ Return the number of elements of a type
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> curvatureAt
+
+Get the curvature at the given parameter [First|Last] if defined
+curvatureAt(paramval) -> Float
+          
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> curveOnSurface
+
+Returns the 2D curve, the surface, the placement and the parameter range of index idx.
+curveOnSurface(idx) -> None or tuple
+--
+Returns None if index idx is out of range.
+Returns a 5-items tuple of a curve, a surface, a placement, first parameter and last parameter.
+          
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> cut
 
 Difference of this and a given (list of) topo shape
@@ -270,6 +441,158 @@ Remove a feature defined by supplied faces and return a new shape.
 defeaturing(shapeList) -> Shape
 --
 The parameter is a list of faces.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> derivative1At
+
+Get the first derivative at the given parameter value along the Edge if it is defined
+derivative1At(paramval) -> Vector
+--
+Args:
+    paramval (float or int): The parameter value along the Edge at which to
+        determine the first derivative e.g:
+
+        x = Part.makeCircle(1, FreeCAD.Vector(0,0,0), FreeCAD.Vector(0,0,1), 0, 90)
+        y = x.derivative1At(x.FirstParameter + 0.5 * (x.LastParameter - x.FirstParameter))
+
+        y is the Vector (-0.7071067811865475, 0.7071067811865476, 0.0)
+
+        Values with magnitude greater than the Edge length return
+        values of the first derivative on the curve extrapolated
+        beyond its length. This may not be valid for all Edges.
+        Negative values similarly return a first derivative on the
+        curve extrapolated backwards (before the start point of the
+        Edge). For example, using the same shape as above:
+
+        >>> x.derivative1At(x.FirstParameter + 3.5*(x.LastParameter - x.FirstParameter))
+        Vector (0.7071067811865477, 0.7071067811865474, 0.0)
+
+        Which gives the same result as
+
+        >>> x.derivative1At(x.FirstParameter -0.5*(x.LastParameter - x.FirstParameter))
+        Vector (0.7071067811865475, 0.7071067811865476, 0.0)
+
+        Since it is a circle
+
+Returns:
+    Vector: representing the first derivative to the Edge at the
+       given location along its length (or extrapolated length)
+          
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> derivative2At
+
+Get the second derivative at the given parameter value along the Edge if it is defined
+derivative2At(paramval) -> Vector
+--
+Args:
+    paramval (float or int): The parameter value along the Edge at which to
+        determine the second derivative e.g:
+
+        x = Part.makeCircle(1, FreeCAD.Vector(0,0,0), FreeCAD.Vector(0,0,1), 0, 90)
+        y = x.derivative2At(x.FirstParameter + 0.5 * (x.LastParameter - x.FirstParameter))
+
+        y is the Vector (-0.7071067811865476, -0.7071067811865475, 0.0)
+
+        Values with magnitude greater than the Edge length return
+        values of the second derivative on the curve extrapolated
+        beyond its length. This may not be valid for all Edges.
+        Negative values similarly return a second derivative on the
+        curve extrapolated backwards (before the start point of the
+        Edge). For example, using the same shape as above:
+
+        >>> x.derivative2At(x.FirstParameter + 3.5*(x.LastParameter - x.FirstParameter))
+        Vector (-0.7071067811865474, 0.7071067811865477, 0.0)
+
+        Which gives the same result as
+
+        >>> x.derivative2At(x.FirstParameter -0.5*(x.LastParameter - x.FirstParameter))
+        Vector (-0.7071067811865476, 0.7071067811865475, 0.0)
+
+        Since it is a circle
+
+Returns:
+    Vector: representing the second derivative to the Edge at the
+       given location along its length (or extrapolated length)
+          
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> derivative3At
+
+Get the third derivative at the given parameter value along the Edge if it is defined
+derivative3At(paramval) -> Vector
+--
+Args:
+    paramval (float or int): The parameter value along the Edge at which to
+        determine the third derivative e.g:
+
+        x = Part.makeCircle(1, FreeCAD.Vector(0,0,0), FreeCAD.Vector(0,0,1), 0, 90)
+        y = x.derivative3At(x.FirstParameter + 0.5 * (x.LastParameter - x.FirstParameter))
+
+        y is the Vector (0.7071067811865475, -0.7071067811865476, -0.0)
+
+        Values with magnitude greater than the Edge length return
+        values of the third derivative on the curve extrapolated
+        beyond its length. This may not be valid for all Edges.
+        Negative values similarly return a third derivative on the
+        curve extrapolated backwards (before the start point of the
+        Edge). For example, using the same shape as above:
+
+        >>> x.derivative3At(x.FirstParameter + 3.5*(x.LastParameter - x.FirstParameter))
+        Vector (-0.7071067811865477, -0.7071067811865474, 0.0)
+
+        Which gives the same result as
+
+        >>> x.derivative3At(x.FirstParameter -0.5*(x.LastParameter - x.FirstParameter))
+        Vector (-0.7071067811865475, -0.7071067811865476, 0.0)
+
+        Since it is a circle
+
+Returns:
+    Vector: representing the third derivative to the Edge at the
+       given location along its length (or extrapolated length)
+          
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> discretize
+
+Discretizes the edge and returns a list of points.
+discretize(kwargs) -> list
+--
+The function accepts keywords as argument:
+discretize(Number=n) => gives a list of 'n' equidistant points
+discretize(QuasiNumber=n) => gives a list of 'n' quasi equidistant points (is faster than the method above)
+discretize(Distance=d) => gives a list of equidistant points with distance 'd'
+discretize(Deflection=d) => gives a list of points with a maximum deflection 'd' to the edge
+discretize(QuasiDeflection=d) => gives a list of points with a maximum deflection 'd' to the edge (faster)
+discretize(Angular=a,Curvature=c,[Minimum=m]) => gives a list of points with an angular deflection of 'a'
+                                    and a curvature deflection of 'c'. Optionally a minimum number of points
+                                    can be set which by default is set to 2.
+
+Optionally you can set the keywords 'First' and 'Last' to define a sub-range of the parameter range
+of the edge.
+
+If no keyword is given then it depends on whether the argument is an int or float.
+If it's an int then the behaviour is as if using the keyword 'Number', if it's float
+then the behaviour is as if using the keyword 'Distance'.
+
+Example:
+
+import Part
+e=Part.makeCircle(5)
+p=e.discretize(Number=50,First=3.14)
+s=Part.Compound([Part.Vertex(i) for i in p])
+Part.show(s)
+
+
+p=e.discretize(Angular=0.09,Curvature=0.01,Last=3.14,Minimum=100)
+s=Part.Compound([Part.Vertex(i) for i in p])
+Part.show(s)
+          
 
 
 
@@ -377,6 +700,17 @@ extrude(direction, length)
 
 return a plane if the shape is planar
 findPlane(tol=None) -> Shape
+          
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> firstVertex
+
+Returns the Vertex of orientation FORWARD in this edge.
+firstVertex([Orientation=False]) -> Vertex
+--
+If there is none a Null shape is returned.
+Orientation = True : taking into account the edge orientation
           
 
 
@@ -495,6 +829,26 @@ Return a tuple of points and lines with a given accuracy
 #### <img src="images/Type_enum.svg" style="width:16px;"> getLinesFromSubElement
 
 Return vertexes and lines from a sub-element
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> getParameterByLength
+
+Get the value of the primary parameter at the given distance along the cartesian length of the edge.
+getParameterByLength(pos, [tolerance = 1e-7]) -> Float
+--
+Args:
+    pos (float or int): The distance along the length of the edge at which to
+        determine the primary parameter value. See help for the FirstParameter or
+        LastParameter properties for more information on the primary parameter.
+        If the given value is positive, the distance from edge start is used.
+        If the given value is negative, the distance from edge end is used.
+    tol (float): Computing tolerance. Optional, defaults to 1e-7.
+
+Returns:
+    paramval (float): the value of the primary parameter defining the edge at the
+        given position along its cartesian length.
+        
 
 
 
@@ -657,11 +1011,30 @@ isSame(shape) -> bool
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> isSeam
+
+Checks whether the edge is a seam edge.
+isSeam(Face)
+          
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> isValid
 
 Checks if the shape is valid, i.e. neither null, nor empty nor corrupted.
 isValid() -> bool
         
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> lastVertex
+
+Returns the Vertex of orientation REVERSED in this edge.
+lastVertex([Orientation=False]) -> Vertex
+--
+If there is none a Null shape is returned.
+Orientation = True : taking into account the edge orientation
+          
 
 
 
@@ -843,6 +1216,44 @@ Deprecated: use fuse() instead.
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> normalAt
+
+Get the normal direction at the given parameter value along the Edge if it is defined
+normalAt(paramval) -> Vector
+--
+Args:
+    paramval (float or int): The parameter value along the Edge at which to
+        determine the normal direction e.g:
+
+        x = Part.makeCircle(1, FreeCAD.Vector(0,0,0), FreeCAD.Vector(0,0,1), 0, 90)
+        y = x.normalAt(x.FirstParameter + 0.5 * (x.LastParameter - x.FirstParameter))
+
+        y is the Vector (-0.7071067811865476, -0.7071067811865475, 0.0)
+
+        Values with magnitude greater than the Edge length return
+        values of the normal on the curve extrapolated beyond its
+        length. This may not be valid for all Edges. Negative values
+        similarly return a normal on the curve extrapolated backwards
+        (before the start point of the Edge). For example, using the
+        same shape as above:
+
+        >>> x.normalAt(x.FirstParameter + 3.5*(x.LastParameter - x.FirstParameter))
+        Vector (-0.7071067811865474, 0.7071067811865477, 0.0)
+
+        Which gives the same result as
+
+        >>> x.normalAt(x.FirstParameter -0.5*(x.LastParameter - x.FirstParameter))
+        Vector (-0.7071067811865476, 0.7071067811865475, 0.0)
+
+        Since it is a circle
+
+Returns:
+    Vector: representing the normal to the Edge at the given
+       location along its length (or extrapolated length)
+          
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> nullify
 
 Destroys the reference to the underlying shape stored in this shape.
@@ -875,6 +1286,25 @@ overTolerance(value, [ShapeType=Shape]) -> ShapeList
 --
 ShapeType is interpreted as in the method getTolerance
         
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> parameterAt
+
+Get the parameter at the given vertex if lying on the edge
+parameterAt(Vertex) -> Float
+            
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> parameters
+
+Get the list of parameters of the tessellation of an edge.
+parameters([face]) -> list
+--
+If the edge is part of a face then this face is required as argument.
+An exception is raised if the edge has no polygon.
+          
 
 
 
@@ -1099,6 +1529,62 @@ slices(direction, distancesList) --> Wires
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> split
+
+Splits the edge at the given parameter values and builds a wire out of it
+split(paramval) -> Wire
+--
+Args:
+    paramval (float or int): The parameter value along the Edge at which to
+        split it e.g:
+
+        x = Part.makeCircle(1, FreeCAD.Vector(0,0,0), FreeCAD.Vector(0,0,1), 0, 90)
+        y = x.derivative3At(x.FirstParameter + 0.5 * (x.LastParameter - x.FirstParameter))
+
+Returns:
+    Wire: wire made up of two Edges
+          
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> tangentAt
+
+Get the tangent direction at the given primary parameter value along the Edge if it is defined
+tangentAt(paramval) -> Vector
+--
+Args:
+    paramval (float or int): The parameter value along the Edge at which to
+        determine the tangent direction e.g:
+
+        x = Part.makeCircle(1, FreeCAD.Vector(0,0,0), FreeCAD.Vector(0,0,1), 0, 90)
+        y = x.tangentAt(x.FirstParameter + 0.5 * (x.LastParameter - x.FirstParameter))
+
+        y is the Vector (-0.7071067811865475, 0.7071067811865476, 0.0)
+
+        Values with magnitude greater than the Edge length return
+        values of the tangent on the curve extrapolated beyond its
+        length. This may not be valid for all Edges. Negative values
+        similarly return a tangent on the curve extrapolated backwards
+        (before the start point of the Edge). For example, using the
+        same shape as above:
+
+        >>> x.tangentAt(x.FirstParameter + 3.5*(x.LastParameter - x.FirstParameter))
+        Vector (0.7071067811865477, 0.7071067811865474, 0.0)
+
+        Which gives the same result as
+
+        >>> x.tangentAt(x.FirstParameter -0.5*(x.LastParameter - x.FirstParameter))
+        Vector (0.7071067811865475, 0.7071067811865476, 0.0)
+
+        Since it is a circle
+
+Returns:
+    Vector: representing the tangent to the Edge at the given
+       location along its length (or extrapolated length)
+        
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> tessellate
 
 Tessellate the shape and return a list of vertices and face indices
@@ -1177,6 +1663,48 @@ translated(vector) -> shape
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> valueAt
+
+Get the value of the cartesian parameter value at the given parameter value along the Edge
+valueAt(paramval) -> Vector
+--
+Args:
+    paramval (float or int): The parameter value along the Edge at which to
+        determine the value in terms of the main parameter defining
+        the edge, what the parameter value is depends on the type of
+        edge. See  e.g:
+
+        For a circle value
+
+        x = Part.makeCircle(1, FreeCAD.Vector(0,0,0), FreeCAD.Vector(0,0,1), 0, 90)
+        y = x.valueAt(x.FirstParameter + 0.5 * (x.LastParameter - x.FirstParameter))
+
+        y is theVector (0.7071067811865476, 0.7071067811865475, 0.0)
+
+        Values with magnitude greater than the Edge length return
+        values on the curve extrapolated beyond its length. This may
+        not be valid for all Edges. Negative values similarly return
+        a parameter value on the curve extrapolated backwards (before the
+        start point of the Edge). For example, using the same shape
+        as above:
+
+        >>> x.valueAt(x.FirstParameter + 3.5*(x.LastParameter - x.FirstParameter))
+        Vector (0.7071067811865474, -0.7071067811865477, 0.0)
+
+        Which gives the same result as
+
+        >>> x.valueAt(x.FirstParameter -0.5*(x.LastParameter - x.FirstParameter))
+        Vector (0.7071067811865476, -0.7071067811865475, 0.0)
+
+        Since it is a circle
+
+Returns:
+    Vector: representing the cartesian location on the Edge at the given
+       distance along its length (or extrapolated length)
+          
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> writeInventor
 
 Write the mesh in OpenInventor format to a string.
@@ -1190,4 +1718,4 @@ writeInventor() -> string
 
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > TopoShape API
+[documentation index](../README.md) > [API](Category_API.md) > Edge API

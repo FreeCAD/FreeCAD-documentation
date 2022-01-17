@@ -4,7 +4,7 @@ This is the father of all Feature classes
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Content
+#### <img src="images/Type_enum.svg" style="width:16px;"> Content
 
 str(object='') -> str
 str(bytes_or_buffer[, encoding[, errors]]) -> str
@@ -19,13 +19,13 @@ errors defaults to 'strict'.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Document
+#### <img src="images/Type_enum.svg" style="width:16px;"> Document
 
 This is a Document class
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ExpressionEngine
+#### <img src="images/Type_enum.svg" style="width:16px;"> ExpressionEngine
 
 Built-in mutable sequence.
 
@@ -34,7 +34,7 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">FullName
+#### <img src="images/Type_enum.svg" style="width:16px;"> FullName
 
 str(object='') -> str
 str(bytes_or_buffer[, encoding[, errors]]) -> str
@@ -49,7 +49,7 @@ errors defaults to 'strict'.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ID
+#### <img src="images/Type_enum.svg" style="width:16px;"> ID
 
 int([x]) -> integer
 int(x, base=10) -> integer
@@ -68,7 +68,7 @@ Base 0 means to interpret the base from the string as an integer literal.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">InList
+#### <img src="images/Type_enum.svg" style="width:16px;"> InList
 
 Built-in mutable sequence.
 
@@ -77,7 +77,7 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">InListRecursive
+#### <img src="images/Type_enum.svg" style="width:16px;"> InListRecursive
 
 Built-in mutable sequence.
 
@@ -86,7 +86,7 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Label
+#### <img src="images/Type_enum.svg" style="width:16px;"> Label
 
 str(object='') -> str
 str(bytes_or_buffer[, encoding[, errors]]) -> str
@@ -101,7 +101,7 @@ errors defaults to 'strict'.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Label2
+#### <img src="images/Type_enum.svg" style="width:16px;"> Label2
 
 str(object='') -> str
 str(bytes_or_buffer[, encoding[, errors]]) -> str
@@ -116,7 +116,7 @@ errors defaults to 'strict'.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">MemSize
+#### <img src="images/Type_enum.svg" style="width:16px;"> MemSize
 
 int([x]) -> integer
 int(x, base=10) -> integer
@@ -135,7 +135,7 @@ Base 0 means to interpret the base from the string as an integer literal.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Module
+#### <img src="images/Type_enum.svg" style="width:16px;"> Module
 
 str(object='') -> str
 str(bytes_or_buffer[, encoding[, errors]]) -> str
@@ -150,7 +150,7 @@ errors defaults to 'strict'.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">MustExecute
+#### <img src="images/Type_enum.svg" style="width:16px;"> MustExecute
 
 bool(x) -> bool
 
@@ -160,7 +160,7 @@ The class bool is a subclass of the class int, and cannot be subclassed.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Name
+#### <img src="images/Type_enum.svg" style="width:16px;"> Name
 
 str(object='') -> str
 str(bytes_or_buffer[, encoding[, errors]]) -> str
@@ -175,7 +175,7 @@ errors defaults to 'strict'.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">NoTouch
+#### <img src="images/Type_enum.svg" style="width:16px;"> NoTouch
 
 bool(x) -> bool
 
@@ -185,7 +185,7 @@ The class bool is a subclass of the class int, and cannot be subclassed.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">OldLabel
+#### <img src="images/Type_enum.svg" style="width:16px;"> OldLabel
 
 str(object='') -> str
 str(bytes_or_buffer[, encoding[, errors]]) -> str
@@ -200,7 +200,7 @@ errors defaults to 'strict'.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">OutList
+#### <img src="images/Type_enum.svg" style="width:16px;"> OutList
 
 Built-in mutable sequence.
 
@@ -209,7 +209,7 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">OutListRecursive
+#### <img src="images/Type_enum.svg" style="width:16px;"> OutListRecursive
 
 Built-in mutable sequence.
 
@@ -218,7 +218,7 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Parents
+#### <img src="images/Type_enum.svg" style="width:16px;"> Parents
 
 Built-in mutable sequence.
 
@@ -227,7 +227,7 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">PropertiesList
+#### <img src="images/Type_enum.svg" style="width:16px;"> PropertiesList
 
 Built-in mutable sequence.
 
@@ -236,13 +236,13 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/type_class.svg" style="max-width:24px;">Proxy
+#### <img src="images/type_class.svg" style="width:16px;"> Proxy
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Removing
+#### <img src="images/Type_enum.svg" style="width:16px;"> Removing
 
 bool(x) -> bool
 
@@ -252,7 +252,7 @@ The class bool is a subclass of the class int, and cannot be subclassed.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">State
+#### <img src="images/Type_enum.svg" style="width:16px;"> State
 
 Built-in mutable sequence.
 
@@ -261,7 +261,7 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">TypeId
+#### <img src="images/Type_enum.svg" style="width:16px;"> TypeId
 
 str(object='') -> str
 str(bytes_or_buffer[, encoding[, errors]]) -> str
@@ -276,13 +276,13 @@ errors defaults to 'strict'.
 
 
 
-#### <img src="images/type_class.svg" style="max-width:24px;">ViewObject
+#### <img src="images/type_class.svg" style="width:16px;"> [ViewObject](ViewObject_API.md)
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Visibility
+#### <img src="images/Type_enum.svg" style="width:16px;"> Visibility
 
 bool(x) -> bool
 
@@ -292,13 +292,13 @@ The class bool is a subclass of the class int, and cannot be subclassed.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">addExtension
+#### <img src="images/type_method.svg" style="width:16px;"> addExtension
 
 Adds an extension to the object. Requires the string identifier for the python extension as argument
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">addProperty
+#### <img src="images/type_method.svg" style="width:16px;"> addProperty
 
 
                     addProperty(string, string) -- Add a generic property.
@@ -308,13 +308,13 @@ Adds an extension to the object. Requires the string identifier for the python e
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">adjustRelativeLinks
+#### <img src="images/type_method.svg" style="width:16px;"> adjustRelativeLinks
 
 adjustRelativeLinks(parent,recursive=True) -- auto correct potential cyclic dependencies
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">dumpContent
+#### <img src="images/type_method.svg" style="width:16px;"> dumpContent
 
 Dumps the content of the object, both the XML representation as well as the additional datafiles  
 required, into a byte representation. It will be returned as byte array.
@@ -324,7 +324,7 @@ dumpContent(Compression=1-9) -- Sets the data compression from 0 (no) to 9 (max)
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">dumpPropertyContent
+#### <img src="images/type_method.svg" style="width:16px;"> dumpPropertyContent
 
 Dumps the content of the property, both the XML representation as well as the additional datafiles  
 required, into a byte representation. It will be returned as byte array.
@@ -334,31 +334,31 @@ dumpPropertyContent(propertyname, [Compression=1-9]) -- Sets the data compressio
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">enforceRecompute
+#### <img src="images/type_method.svg" style="width:16px;"> enforceRecompute
 
 Mark the object for recompute
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">evalExpression
+#### <img src="images/type_method.svg" style="width:16px;"> evalExpression
 
 Evaluate an expression
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getAllDerivedFrom
+#### <img src="images/type_method.svg" style="width:16px;"> getAllDerivedFrom
 
 Returns all descendants
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getDocumentationOfProperty
+#### <img src="images/type_method.svg" style="width:16px;"> getDocumentationOfProperty
 
 Return the documentation string of the property of this class.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getEditorMode
+#### <img src="images/type_method.svg" style="width:16px;"> getEditorMode
 
 Get the behaviour of the property in the property editor.
 It returns a list of strings with the current mode. If the list is empty there are no special restrictions.
@@ -368,19 +368,19 @@ If the list contains 'Hidden' then the item even doesn't appear in the property 
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getEnumerationsOfProperty
+#### <img src="images/type_method.svg" style="width:16px;"> getEnumerationsOfProperty
 
 Return all enumeration strings of the property of this class or None if not a PropertyEnumeration.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getGroupOfProperty
+#### <img src="images/type_method.svg" style="width:16px;"> getGroupOfProperty
 
 Return the name of the group which the property belongs to in this class. The properties sorted in different named groups for convenience.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getLinkedObject
+#### <img src="images/type_method.svg" style="width:16px;"> getLinkedObject
 
 
 getLinkedObject(recursive=True, matrix=None, transform=True, depth=0)
@@ -399,7 +399,7 @@ containing the accumulated transformation matrix
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getParentGeoFeatureGroup
+#### <img src="images/type_method.svg" style="width:16px;"> getParentGeoFeatureGroup
 
 Returns the GeoFeatureGroup, and hence the local coordinate system, the object 
                           is in or None if it is not part of a group. Note that an object can only be 
@@ -407,7 +407,7 @@ Returns the GeoFeatureGroup, and hence the local coordinate system, the object
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getParentGroup
+#### <img src="images/type_method.svg" style="width:16px;"> getParentGroup
 
 Returns the group the object is in or None if it is not part of a group. 
                           Note that an object can only be in a single group, hence only a single return 
@@ -415,13 +415,13 @@ Returns the group the object is in or None if it is not part of a group.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getPathsByOutList
+#### <img src="images/type_method.svg" style="width:16px;"> getPathsByOutList
 
 Get all paths from this object to another object following the OutList.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getPropertyByName
+#### <img src="images/type_method.svg" style="width:16px;"> getPropertyByName
 
 
 getPropertyByName(name,checkOwner=0)
@@ -438,7 +438,7 @@ always belong to this container (e.g. from a linked object).
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getPropertyStatus
+#### <img src="images/type_method.svg" style="width:16px;"> getPropertyStatus
 
 
 getPropertyStatus(name=''): Get property status.
@@ -449,13 +449,13 @@ text names of the status.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getPropertyTouchList
+#### <img src="images/type_method.svg" style="width:16px;"> getPropertyTouchList
 
 Return a list of index of touched values for list type properties.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getStatusString
+#### <img src="images/type_method.svg" style="width:16px;"> getStatusString
 
 Returns the status of the object as string.
 If the object is invalid its error description will be returned.
@@ -465,7 +465,7 @@ If the object is valid but touched then 'Touched' will be returned,
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getSubObject
+#### <img src="images/type_method.svg" style="width:16px;"> getSubObject
 
 
 getSubObject(subname, retType=0, matrix=None, transform=True, depth=0)
@@ -497,7 +497,7 @@ referencing subobject.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getSubObjectList
+#### <img src="images/type_method.svg" style="width:16px;"> getSubObjectList
 
 
 getSubObjectList(subname)
@@ -507,43 +507,43 @@ Return a list of objects referenced by a given subname including this object
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getSubObjects
+#### <img src="images/type_method.svg" style="width:16px;"> getSubObjects
 
 getSubObjects(reason=0): Return subname reference of all sub-objects
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getTypeIdOfProperty
+#### <img src="images/type_method.svg" style="width:16px;"> getTypeIdOfProperty
 
 Returns the C++ class name of a named property.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getTypeOfProperty
+#### <img src="images/type_method.svg" style="width:16px;"> getTypeOfProperty
 
 Return the type of a named property. This can be (Hidden,ReadOnly,Output) or any combination. 
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">hasChildElement
+#### <img src="images/type_method.svg" style="width:16px;"> hasChildElement
 
 Return true to indicate the object having child elements
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">hasExtension
+#### <img src="images/type_method.svg" style="width:16px;"> hasExtension
 
 Returns if this object has the specified extension
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">isDerivedFrom
+#### <img src="images/type_method.svg" style="width:16px;"> isDerivedFrom
 
 Returns true if given type is a father
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">isElementVisible
+#### <img src="images/type_method.svg" style="width:16px;"> isElementVisible
 
 
 isElementVisible(element): Check if a child element is visible
@@ -552,25 +552,25 @@ Return -1 if element visibility is not supported or element not found, 0 if invi
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">isValid
+#### <img src="images/type_method.svg" style="width:16px;"> isValid
 
 Returns True if the object is valid, False otherwise
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">purgeTouched
+#### <img src="images/type_method.svg" style="width:16px;"> purgeTouched
 
 Mark the object as unchanged
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">recompute
+#### <img src="images/type_method.svg" style="width:16px;"> recompute
 
 recompute(recursive=False): Recomputes this object
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">removeProperty
+#### <img src="images/type_method.svg" style="width:16px;"> removeProperty
 
 
                     removeProperty(string) -- Remove a generic property.
@@ -579,7 +579,7 @@ recompute(recursive=False): Recomputes this object
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">resolve
+#### <img src="images/type_method.svg" style="width:16px;"> resolve
 
 
 resolve(subname) -- resolve the sub object
@@ -593,7 +593,7 @@ non-object sub-element name if any.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">resolveSubElement
+#### <img src="images/type_method.svg" style="width:16px;"> resolveSubElement
 
 
 resolveSubElement(subname,append,type) -- resolve both new and old style sub element
@@ -607,7 +607,7 @@ Return tuple(obj,newElementName,oldElementName)
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">restoreContent
+#### <img src="images/type_method.svg" style="width:16px;"> restoreContent
 
 Restore the content of the object from a byte representation as stored by "dumpContent".
 It could be restored from any python object implementing the buffer protocol.
@@ -616,7 +616,7 @@ restoreContent(buffer) -- restores from the given byte array
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">restorePropertyContent
+#### <img src="images/type_method.svg" style="width:16px;"> restorePropertyContent
 
 Restore the content of given property from a byte representation as stored by "dumpContent".
 It could be restored from any python object implementing the buffer protocol.
@@ -625,13 +625,13 @@ restorePropertyContent(propertyname, buffer) -- restores from the given byte arr
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">setDocumentationOfProperty
+#### <img src="images/type_method.svg" style="width:16px;"> setDocumentationOfProperty
 
 Set the documentation string of a dynamic property of this class.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">setEditorMode
+#### <img src="images/type_method.svg" style="width:16px;"> setEditorMode
 
 Set the behaviour of the property in the property editor.
 0 - default behaviour
@@ -641,7 +641,7 @@ Set the behaviour of the property in the property editor.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">setElementVisible
+#### <img src="images/type_method.svg" style="width:16px;"> setElementVisible
 
 
 setElementVisible(element,visible): Set the visibility of a child element
@@ -650,19 +650,19 @@ Return -1 if element visibility is not supported, 0 if element not found, 1 if s
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">setExpression
+#### <img src="images/type_method.svg" style="width:16px;"> setExpression
 
 Register an expression for a property
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">setGroupOfProperty
+#### <img src="images/type_method.svg" style="width:16px;"> setGroupOfProperty
 
 Set the name of the group of a dynamic property.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">setPropertyStatus
+#### <img src="images/type_method.svg" style="width:16px;"> setPropertyStatus
 
 
 setPropertyStatus(name,val): Set property status
@@ -677,13 +677,13 @@ status is cleared.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">supportedProperties
+#### <img src="images/type_method.svg" style="width:16px;"> supportedProperties
 
 A list of supported property types
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">touch
+#### <img src="images/type_method.svg" style="width:16px;"> touch
 
 Mark the object as changed (touched)
 

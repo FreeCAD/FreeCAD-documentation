@@ -80,6 +80,11 @@ unhandledTemplates = [] # holder for unhandled templates
 BASE_URL = "https://wiki.freecadweb.org"
 THREADS = 4 # number of threads for file writing
 WIKIFOLDER = "wiki"
+CATEGORY_COLUMNS = 3 # the number of columns on category pages
+PART_API_PAGES = ["Vertex","Edge","Wire","Face","Shell","Solid","CompSolid","Compound",
+                  "Arc","Circle","Line","Ellipse","Cone","BSplineCurve","BSplineSurface",
+                  "BezierCurve","Cylinder","Point","Sphere","Shape"]
+
 
 class MediaWiki:
 
@@ -267,8 +272,7 @@ class MediaWiki:
             revision = data["parse"]["revid"]
             if name.startswith("Category:"):
                 # add list of pages
-                cpages = self.getCategoryContents(name)
-                cpages = " , ".join(["[["+p+"]]" for p in cpages])
+                cpages = self.formatCategoryContents(name)
                 cpages = "\n\n===Contents:===\n\n" + cpages
                 wikitext += cpages
             self.pagecontents[name] = wikitext
@@ -401,6 +405,23 @@ class MediaWiki:
             else:
                 break
         return members
+
+
+    def formatCategoryContents(self,name):
+        
+        cpages = self.getCategoryContents(name)
+        result = "{|\n"
+        col = 1
+        for p in cpages:
+            result += "| [["+p+"]]\n"
+            if col == CATEGORY_COLUMNS:
+                result += "|-\n"
+                col = 1
+            else:
+                col += 1
+        result += "|}\n"
+        return result
+
 
     def getPageCategory(self,page):
 
@@ -957,7 +978,9 @@ class MediaWiki:
         """getAPIPages():
         Returns a list of API pages"""
 
-        return [p for p in os.listdir(self.output) if (p.endswith("_API.md") and (not "Category" in p))]
+        pages = [p for p in os.listdir(self.output) if (p.endswith("_API.md") and (not "Category" in p))]
+        pages.extend([p + "_API.md" for p in PART_API_PAGES])
+        return pages
 
 
     def rebuildAllAPI(self):
@@ -976,8 +999,9 @@ class MediaWiki:
         Rebuilds an API page"""
 
         def make_icon(icon):
-            return "<img src=\""+icon+"\" style=\"max-width:24px;\">"
+            return "<img src=\""+icon+"\" style=\"width:16px;\"> "
 
+        apipages = self.getAPIPages()
         modname = apipage.split("_")[0]
         md = "# " + modname + " API\n\n"
         module = None
@@ -993,6 +1017,14 @@ class MediaWiki:
             #import FreeCADGui
             #module = FreeCADGui.Selection
             pass # TODO : handle this
+        elif modname in ["Console","Vector"]:
+            module = getattr(FreeCAD,modname)
+        elif modname == "TopoShape":
+            import Part
+            module = Part.Shape
+        elif modname in PART_API_PAGES:
+            import Part
+            module = getattr(Part,modname)
         else:
             import importlib
             try:
@@ -1022,7 +1054,10 @@ class MediaWiki:
                     md += make_icon(self.icon_type)
                 else:
                     md += make_icon(self.icon_builtin)
-                md += membername
+                if (membername+"_API.md") in apipages:
+                    md += "[" + membername +"](" + membername +"_API.md)"
+                else:
+                    md += membername
                 if memberattrs:
                     md += " <small>" + memberattrs + "</small>"
                 md += "\n\n"

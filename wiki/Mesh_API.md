@@ -14,7 +14,7 @@ Mesh() -- Create an empty mesh object.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Edge
+#### <img src="images/Type_enum.svg" style="width:16px;"> [Edge](Edge_API.md)
 
 Edge in mesh
 This is an edge of a facet in a MeshObject. You can get it by e.g. iterating over the facets of a
@@ -23,7 +23,7 @@ mesh and calling getEdge(index).
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Facet
+#### <img src="images/Type_enum.svg" style="width:16px;"> Facet
 
 Facet in mesh
 This is a facet in a MeshObject. You can get it by e.g. iterating a
@@ -35,7 +35,7 @@ when you cut the bound to the mesh by calling unbound().
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Feature
+#### <img src="images/Type_enum.svg" style="width:16px;"> Feature
 
 The Mesh::Feature class handles meshes.
 The Mesh.MeshFeature() function is for internal use only and cannot be used to create instances of this class.
@@ -45,7 +45,7 @@ d.addObject("Mesh::Feature").
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Mesh
+#### <img src="images/Type_enum.svg" style="width:16px;"> [Mesh](Mesh_API.md)
 
 Mesh() -- Create an empty mesh object.
 
@@ -64,7 +64,7 @@ Example:
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">MeshPoint
+#### <img src="images/Type_enum.svg" style="width:16px;"> MeshPoint
 
  Point in mesh
 This is a point in a MeshObject. You can get it by e.g. iterating a
@@ -76,7 +76,7 @@ when you cut the bound to the mesh by calling unbound().
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">calculateEigenTransform
+#### <img src="images/type_method.svg" style="width:16px;"> calculateEigenTransform
 
 calculateEigenTransform(seq(Base.Vector))
 Calculates the eigen Transformation from a list of points.
@@ -88,49 +88,49 @@ The local coordinate system is right-handed.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">createBox
+#### <img src="images/type_method.svg" style="width:16px;"> createBox
 
 Create a solid mesh box
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">createCone
+#### <img src="images/type_method.svg" style="width:16px;"> createCone
 
 Create a tessellated cone
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">createCylinder
+#### <img src="images/type_method.svg" style="width:16px;"> createCylinder
 
 Create a tessellated cylinder
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">createEllipsoid
+#### <img src="images/type_method.svg" style="width:16px;"> createEllipsoid
 
 Create a tessellated ellipsoid
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">createPlane
+#### <img src="images/type_method.svg" style="width:16px;"> createPlane
 
 Create a mesh XY plane normal +Z
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">createSphere
+#### <img src="images/type_method.svg" style="width:16px;"> createSphere
 
 Create a tessellated sphere
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">createTorus
+#### <img src="images/type_method.svg" style="width:16px;"> createTorus
 
 Create a tessellated torus
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">export
+#### <img src="images/type_method.svg" style="width:16px;"> export
 
 export(objects, filename, [tolerance=0.1, exportAmfCompressed=True])
 Export a list of objects into a single file identified by filename.
@@ -142,14 +142,14 @@ compressed.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">insert
+#### <img src="images/type_method.svg" style="width:16px;"> insert
 
 insert(string|mesh,[string])
 Load or insert a mesh into the given or active document.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">minimumVolumeOrientedBox
+#### <img src="images/type_method.svg" style="width:16px;"> minimumVolumeOrientedBox
 
 minimumVolumeOrientedBox(seq(Base.Vector)) -- Calculates the minimum
 volume oriented box containing all points. The return value is a
@@ -159,7 +159,7 @@ tuple of seven items:
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">open
+#### <img src="images/type_method.svg" style="width:16px;"> open
 
 open(string)
 Create a new document and a Mesh feature to load the file into
@@ -167,19 +167,19 @@ the document.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">polynomialFit
+#### <img src="images/type_method.svg" style="width:16px;"> polynomialFit
 
 polynomialFit(seq(Base.Vector)) -- Calculates a polynomial fit.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">read
+#### <img src="images/type_method.svg" style="width:16px;"> read
 
 Read a mesh from a file and returns a Mesh object.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">show
+#### <img src="images/type_method.svg" style="width:16px;"> show
 
 show(shape,[string]) -- Add the mesh to the active document or create one if no document exists.
 

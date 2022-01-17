@@ -1,10 +1,6 @@
-# TopoShape API
+# CompSolid API
 
-TopoShape is the OpenCasCade topological shape wrapper.
-Sub-elements such as vertices, edges or faces are accessible as:
-* Vertex#, where # is in range(1, number of vertices)
-* Edge#, where # is in range(1, number of edges)
-* Face#, where # is in range(1, number of faces)
+TopoShapeCompSolid is the OpenCasCade topological compound solid wrapper
 
 
 
@@ -137,6 +133,14 @@ Total volume of the solids of the shape.
 #### <img src="images/Type_enum.svg" style="width:16px;"> Wires
 
 List of wires in this shape.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> add
+
+Add a solid to the compound.
+add(solid)
+        
 
 
 
@@ -1190,4 +1194,4 @@ writeInventor() -> string
 
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > TopoShape API
+[documentation index](../README.md) > [API](Category_API.md) > CompSolid API

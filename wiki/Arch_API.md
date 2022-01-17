@@ -4,13 +4,13 @@
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ANGLETOLERANCE
+#### <img src="images/Type_enum.svg" style="width:16px;"> ANGLETOLERANCE
 
 Convert a string or number to a floating point number, if possible.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">AllowedHosts
+#### <img src="images/Type_enum.svg" style="width:16px;"> AllowedHosts
 
 Built-in mutable sequence.
 
@@ -19,13 +19,13 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">ArchCommands
+#### <img src="images/type_module.svg" style="width:16px;"> ArchCommands
 
 
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">ArchComponent
+#### <img src="images/type_module.svg" style="width:16px;"> ArchComponent
 
 This module provides the base Arch component class, that is shared
 by all of the Arch BIM objects.
@@ -37,7 +37,7 @@ TODO put examples here.
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">ArchFloor
+#### <img src="images/type_module.svg" style="width:16px;"> ArchFloor
 
 This module provides tools to build Floor objects. Floors are used to group
 different Arch objects situated at a same level.
@@ -49,19 +49,19 @@ IfcType.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ArchGrid <small>(obj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> ArchGrid <small>(obj)</small>
 
 The Grid object
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ArchGridTaskPanel <small>(obj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> ArchGridTaskPanel <small>(obj)</small>
 
 A TaskPanel for the Arch Grid
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">ArchIFC
+#### <img src="images/type_module.svg" style="width:16px;"> ArchIFC
 
 This modules sets up and manages the IFC-related properties, types
 and attributes of Arch/BIM objects.
@@ -69,73 +69,73 @@ and attributes of Arch/BIM objects.
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">ArchIFCView
+#### <img src="images/type_module.svg" style="width:16px;"> ArchIFCView
 
 View providers and UI elements for the Ifc classes.
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">ArchPipe
+#### <img src="images/type_module.svg" style="width:16px;"> ArchPipe
 
 
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">ArchProfile
+#### <img src="images/type_module.svg" style="width:16px;"> ArchProfile
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ArchReference <small>(obj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> ArchReference <small>(obj)</small>
 
 The Arch Reference object
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ArchReferenceCommand <small>()</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> ArchReferenceCommand <small>()</small>
 
 the Arch Reference command definition
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ArchReferenceTaskPanel <small>(obj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> ArchReferenceTaskPanel <small>(obj)</small>
 
 The editmode TaskPanel for Reference objects
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ArchScheduleTaskPanel <small>(obj=None)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> ArchScheduleTaskPanel <small>(obj=None)</small>
 
 The editmode TaskPanel for Schedules
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">ArchWindowPresets
+#### <img src="images/type_module.svg" style="width:16px;"> ArchWindowPresets
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Arch_Profile <small>()</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> Arch_Profile <small>()</small>
 
 The FreeCAD Arch_Profile command definition
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">AxisSystemTaskPanel <small>(obj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> AxisSystemTaskPanel <small>(obj)</small>
 
 A TaskPanel for all the section plane object
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">BuildingPart <small>(obj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> BuildingPart <small>(obj)</small>
 
 The BuildingPart object
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">BuildingTypes
+#### <img src="images/Type_enum.svg" style="width:16px;"> BuildingTypes
 
 Built-in mutable sequence.
 
@@ -144,7 +144,7 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">COMPASS_POINTER_LENGTH
+#### <img src="images/Type_enum.svg" style="width:16px;"> COMPASS_POINTER_LENGTH
 
 int([x]) -> integer
 int(x, base=10) -> integer
@@ -163,7 +163,7 @@ Base 0 means to interpret the base from the string as an integer literal.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">COMPASS_POINTER_WIDTH
+#### <img src="images/Type_enum.svg" style="width:16px;"> COMPASS_POINTER_WIDTH
 
 int([x]) -> integer
 int(x, base=10) -> integer
@@ -182,14 +182,14 @@ Base 0 means to interpret the base from the string as an integer literal.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">CalculatePlacement <small>(baramount, barnumber, bardiameter, size, axis, rotation, offsetstart, offsetend, RebarShape='')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> CalculatePlacement <small>(baramount, barnumber, bardiameter, size, axis, rotation, offsetstart, offsetend, RebarShape='')</small>
 
  CalculatePlacement([baramount, barnumber, bardiameter, size, axis, rotation, offsetstart, offsetend, RebarShape]):
     Calculate the placement of the bar from given values.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Categories
+#### <img src="images/Type_enum.svg" style="width:16px;"> Categories
 
 Built-in mutable sequence.
 
@@ -198,79 +198,79 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">CommandArchCurtainWall <small>()</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> CommandArchCurtainWall <small>()</small>
 
 the Arch Curtain Wall command definition
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">CommandArchGrid <small>()</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> CommandArchGrid <small>()</small>
 
 the Arch Grid command definition
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">CommandArchSchedule <small>()</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> CommandArchSchedule <small>()</small>
 
 the Arch Schedule command definition
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">CommandArchTruss <small>()</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> CommandArchTruss <small>()</small>
 
 the Arch Truss command definition
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">CommandBuildingPart <small>()</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> CommandBuildingPart <small>()</small>
 
 the Arch BuildingPart command definition
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">CommandNest <small>()</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> CommandNest <small>()</small>
 
 the Arch Panel command definition
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">CommandPanel <small>()</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> CommandPanel <small>()</small>
 
 the Arch Panel command definition
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">CommandPanelCut <small>()</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> CommandPanelCut <small>()</small>
 
 the Arch Panel Cut command definition
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">CommandPanelSheet <small>()</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> CommandPanelSheet <small>()</small>
 
 the Arch Panel Sheet command definition
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">CommandStructuralSystem <small>()</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> CommandStructuralSystem <small>()</small>
 
  The Arch Structural System command definition. 
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">CommandStructuresFromSelection <small>()</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> CommandStructuresFromSelection <small>()</small>
 
  The Arch Structures from selection command definition. 
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Compass <small>()</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> Compass <small>()</small>
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ConditioningTypes
+#### <img src="images/Type_enum.svg" style="width:16px;"> ConditioningTypes
 
 Built-in mutable sequence.
 
@@ -279,20 +279,20 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">CurtainWall <small>(obj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> CurtainWall <small>(obj)</small>
 
 The curtain wall object
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">CustomSpacingPlacement <small>(spacinglist, barnumber, axis, rotation, offsetstart, offsetend)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> CustomSpacingPlacement <small>(spacinglist, barnumber, axis, rotation, offsetstart, offsetend)</small>
 
  CustomSpacingPlacement(spacinglist, barnumber, axis, rotation, offsetstart, offsetend):
     Calculate placement of the bar from custom spacing list.
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">Draft
+#### <img src="images/type_module.svg" style="width:16px;"> [Draft](Draft_API.md)
 
 Provide the Draft Workbench public programming interface.
 
@@ -305,7 +305,7 @@ defined in `DraftTools.py`.
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">DraftGeomUtils
+#### <img src="images/type_module.svg" style="width:16px;"> DraftGeomUtils
 
 Define geometry functions for manipulating shapes in the Draft Workbench.
 
@@ -317,7 +317,7 @@ and on their subelements, that is, vertices, edges, and faces.
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">DraftVecUtils
+#### <img src="images/type_module.svg" style="width:16px;"> DraftVecUtils
 
 Provide vector math utilities used in the Draft workbench.
 
@@ -327,13 +327,13 @@ but which can also be used in other workbenches and in macros.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">EAST
+#### <img src="images/Type_enum.svg" style="width:16px;"> EAST
 
 This class represents a 3D float vector
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">FreeCAD
+#### <img src="images/type_module.svg" style="width:16px;"> [FreeCAD](FreeCAD_API.md)
 
 The functions in the FreeCAD module allow working with documents.
 The FreeCAD instance provides a list of references of documents which
@@ -345,7 +345,7 @@ file the document should be stored to.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ISRENDERING
+#### <img src="images/Type_enum.svg" style="width:16px;"> ISRENDERING
 
 bool(x) -> bool
 
@@ -355,37 +355,37 @@ The class bool is a subclass of the class int, and cannot be subclassed.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">NestTaskPanel <small>(obj=None)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> NestTaskPanel <small>(obj=None)</small>
 
 The TaskPanel for Arch Nest command
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">PanelCut <small>(obj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> PanelCut <small>(obj)</small>
 
 A flat, 2D view of an Arch Panel
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">PanelSheet <small>(obj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> PanelSheet <small>(obj)</small>
 
 A collection of Panel cuts under a sheet
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">PanelView <small>(obj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> PanelView <small>(obj)</small>
 
 A Drawing view for Arch Panels
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">Part
+#### <img src="images/type_module.svg" style="width:16px;"> [Part](Part_API.md)
 
 This is a module working with shapes.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Presets
+#### <img src="images/Type_enum.svg" style="width:16px;"> Presets
 
 Built-in mutable sequence.
 
@@ -394,37 +394,37 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ProfileTaskPanel <small>(obj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> ProfileTaskPanel <small>(obj)</small>
 
 The editmode TaskPanel for Profile objects
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">QT_TRANSLATE_NOOP <small>(ctxt, txt)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> QT_TRANSLATE_NOOP <small>(ctxt, txt)</small>
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">SectionPlaneTaskPanel <small>()</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> SectionPlaneTaskPanel <small>()</small>
 
 A TaskPanel for all the section plane object
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">SheetTaskPanel <small>(obj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> SheetTaskPanel <small>(obj)</small>
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">SpaceTaskPanel <small>()</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> SpaceTaskPanel <small>()</small>
 
 A modified version of the Arch component task panel
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">SpaceTypes
+#### <img src="images/Type_enum.svg" style="width:16px;"> SpaceTypes
 
 Built-in mutable sequence.
 
@@ -433,91 +433,91 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">StructSelectionObserver <small>(callback)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> StructSelectionObserver <small>(callback)</small>
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">StructureTaskPanel <small>(obj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> StructureTaskPanel <small>(obj)</small>
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">SurveyTaskPanel <small>()</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> SurveyTaskPanel <small>()</small>
 
 A task panel for the survey tool
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Truss <small>(obj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> Truss <small>(obj)</small>
 
 The truss object
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">Units
+#### <img src="images/type_module.svg" style="width:16px;"> Units
 
 The Unit API
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Vector
+#### <img src="images/Type_enum.svg" style="width:16px;"> [Vector](Vector_API.md)
 
 This class represents a 3D float vector
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ViewProviderArchGrid <small>(vobj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderArchGrid <small>(vobj)</small>
 
 A View Provider for the Arch Grid
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ViewProviderArchReference <small>(vobj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderArchReference <small>(vobj)</small>
 
 A View Provider for the Arch Reference object
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ViewProviderBuildingPart <small>(vobj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderBuildingPart <small>(vobj)</small>
 
 A View Provider for the BuildingPart object
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ViewProviderCurtainWall <small>(vobj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderCurtainWall <small>(vobj)</small>
 
 A View Provider for the CurtainWall object
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ViewProviderPanelCut <small>(vobj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderPanelCut <small>(vobj)</small>
 
 a view provider for the panel cut object
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ViewProviderPanelSheet <small>(vobj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderPanelSheet <small>(vobj)</small>
 
 a view provider for the panel sheet object
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ViewProviderProfile <small>(vobj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderProfile <small>(vobj)</small>
 
 General view provider for Profile classes
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ViewProviderTruss <small>(vobj)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> ViewProviderTruss <small>(vobj)</small>
 
 A View Provider for the Truss object
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">WindowOpeningModes
+#### <img src="images/Type_enum.svg" style="width:16px;"> WindowOpeningModes
 
 Built-in mutable sequence.
 
@@ -526,7 +526,7 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">WindowPartTypes
+#### <img src="images/Type_enum.svg" style="width:16px;"> WindowPartTypes
 
 Built-in mutable sequence.
 
@@ -535,7 +535,7 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">WindowPresets
+#### <img src="images/Type_enum.svg" style="width:16px;"> WindowPresets
 
 Built-in mutable sequence.
 
@@ -544,7 +544,7 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">addComponents <small>(objectsList, host)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> addComponents <small>(objectsList, host)</small>
 
 addComponents(objectsList,hostObject): adds the given object or the objects
     from the given list as components to the given host Object. Use this for
@@ -552,19 +552,19 @@ addComponents(objectsList,hostObject): adds the given object or the objects
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">addSpaceBoundaries <small>(space, subobjects)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> addSpaceBoundaries <small>(space, subobjects)</small>
 
 addSpaceBoundaries(space,subobjects): adds the given subobjects to the given space
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">adjust_list_len <small>(lst, newLn, val)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> adjust_list_len <small>(lst, newLn, val)</small>
 
 Returns a clone of lst with length newLn, val is appended if required
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">areSameWallTypes <small>(walls)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> areSameWallTypes <small>(walls)</small>
 
 Check if a list of walls have the same height, width and alignment.
 
@@ -581,51 +581,51 @@ Check if a list of walls have the same height, width and alignment.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">check <small>(objectslist, includehidden=False)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> check <small>(objectslist, includehidden=False)</small>
 
 check(objectslist,includehidden=False): checks if the given objects contain only solids
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">cleanArchSplitter <small>(objects=None)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> cleanArchSplitter <small>(objects=None)</small>
 
 cleanArchSplitter([objects]): removes the splitters from the base shapes
     of the given Arch objects or selected Arch objects if objects is None
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">cloneComponent <small>(obj)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> cloneComponent <small>(obj)</small>
 
 cloneComponent(obj): Creates a clone of an object as an undefined component
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">closeHole <small>(shape)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> closeHole <small>(shape)</small>
 
 closeHole(shape): closes a hole in an open shape
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">closeViewer <small>(name)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> closeViewer <small>(name)</small>
 
 Close temporary viewers
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">convertFloors <small>(floor=None)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> convertFloors <small>(floor=None)</small>
 
 convert the given Floor or Building (or all Arch Floors from the active document if none is given) into BuildingParts
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">copyProperties <small>(obj1, obj2)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> copyProperties <small>(obj1, obj2)</small>
 
 copyProperties(obj1,obj2): Copies properties values from obj1 to obj2,
     when that property exists in both objects
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">createMeshView <small>(obj, direction=Vector (0.0, 0.0, -1.0), outeronly=False, largestonly=False)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> createMeshView <small>(obj, direction=Vector (0.0, 0.0, -1.0), outeronly=False, largestonly=False)</small>
 
 createMeshView(obj,[direction,outeronly,largestonly]): creates a flat shape that is the
     projection of the given mesh object in the given direction (default = on the XY plane). If
@@ -634,7 +634,7 @@ createMeshView(obj,[direction,outeronly,largestonly]): creates a flat shape that
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">csv
+#### <img src="images/type_module.svg" style="width:16px;"> csv
 
 CSV parsing and writing.
 
@@ -696,19 +696,19 @@ SETTINGS:
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">cutComponentwithPlane <small>(archObject, cutPlane, sideFace)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> cutComponentwithPlane <small>(archObject, cutPlane, sideFace)</small>
 
 cut object from a plan define by a face, Behind = 0 , front = 1
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">datetime
+#### <img src="images/type_module.svg" style="width:16px;"> datetime
 
 Fast implementation of the datetime type.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">download <small>(url, force=False)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> download <small>(url, force=False)</small>
 
 download(url,force=False): downloads a file from the given URL and saves it in the
     macro path. Returns the path to the saved file. If force is True, the file will be
@@ -716,13 +716,13 @@ download(url,force=False): downloads a file from the given URL and saves it in t
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">face_from_points <small>(ptLst)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> face_from_points <small>(ptLst)</small>
 
 
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">find_inters <small>(edge1, edge2, infinite1=True, infinite2=True)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> find_inters <small>(edge1, edge2, infinite1=True, infinite2=True)</small>
 
 Future wrapper for DraftGeomUtils.findIntersection. The function now
     contains a modified copy of getLineIntersections from that function.
@@ -730,25 +730,25 @@ Future wrapper for DraftGeomUtils.findIntersection. The function now
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getAllChildren <small>(objectlist)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getAllChildren <small>(objectlist)</small>
 
 getAllChildren(objectlist): returns all the children of all the object sin the list
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getCameraData <small>(floatlist)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getCameraData <small>(floatlist)</small>
 
 reconstructs a valid camera data string from stored values
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getCoinSVG <small>(cutplane, objs, cameradata=None, linewidth=0.2, singleface=False, facecolor=None)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getCoinSVG <small>(cutplane, objs, cameradata=None, linewidth=0.2, singleface=False, facecolor=None)</small>
 
 Returns an SVG fragment generated from a coin view
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getCutShapes <small>(objs, cutplane, onlySolids, clip, joinArch, showHidden, groupSshapesByObject=False)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getCutShapes <small>(objs, cutplane, onlySolids, clip, joinArch, showHidden, groupSshapesByObject=False)</small>
 
 
     returns a list of shapes (visible, hidden, cut lines...)
@@ -757,7 +757,7 @@ Returns an SVG fragment generated from a coin view
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getCutVolume <small>(cutplane, shapes, clip=False, depth=None)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getCutVolume <small>(cutplane, shapes, clip=False, depth=None)</small>
 
 getCutVolume(cutplane,shapes,[clip,depth]): returns a cut face and a cut volume
     from the given shapes and the given cutting plane. If clip is True, the cutvolume will
@@ -766,26 +766,26 @@ getCutVolume(cutplane,shapes,[clip,depth]): returns a cut face and a cut volume
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getDXF <small>(obj)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getDXF <small>(obj)</small>
 
 Return a DXF representation from a TechDraw/Drawing view.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getDefaultColor <small>(objectType)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getDefaultColor <small>(objectType)</small>
 
 getDefaultColor(string): returns a color value for the given object
     type (Wall, Structure, Window, WindowGlass)
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getDocumentMaterials <small>()</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getDocumentMaterials <small>()</small>
 
 getDocumentMaterials(): returns all the arch materials of the document
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getExtrusionData <small>(shape, sortmethod='area')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getExtrusionData <small>(shape, sortmethod='area')</small>
 
 If a shape has been extruded, returns the base face, and extrusion vector.
 
@@ -821,13 +821,13 @@ If a shape has been extruded, returns the base face, and extrusion vector.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getFillForObject <small>(o, defaultFill, source)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getFillForObject <small>(o, defaultFill, source)</small>
 
 returns a color tuple from an object's material
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getHost <small>(obj, strict=True)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getHost <small>(obj, strict=True)</small>
 
 getHost(obj,[strict]): returns the host of the current object. If strict is true (default),
     the host can only be an object of a higher level than the given one, or in other words, if a wall
@@ -835,25 +835,25 @@ getHost(obj,[strict]): returns the host of the current object. If strict is true
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getLengthOfRebar <small>(rebar)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getLengthOfRebar <small>(rebar)</small>
 
  getLengthOfRebar(RebarObject): Calculates the length of the rebar.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getMaterialContainer <small>()</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getMaterialContainer <small>()</small>
 
 getMaterialContainer(): returns a group object to put materials in
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getPlanWithLine <small>(line)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getPlanWithLine <small>(line)</small>
 
 Function to make a plane along Normal plan
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getSVG <small>(source, renderMode='Wireframe', allOn=False, showHidden=False, scale=1, rotation=0, linewidth=1, lineColor=(0.0, 0.0, 0.0), fontsize=1, showFill=False, fillColor=(1.0, 1.0, 1.0), techdraw=False, fillSpaces=False, cutlinewidth=0, joinArch=False)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getSVG <small>(source, renderMode='Wireframe', allOn=False, showHidden=False, scale=1, rotation=0, linewidth=1, lineColor=(0.0, 0.0, 0.0), fontsize=1, showFill=False, fillColor=(1.0, 1.0, 1.0), techdraw=False, fillSpaces=False, cutlinewidth=0, joinArch=False)</small>
 
 
     Return an SVG fragment from an Arch SectionPlane or BuildingPart.
@@ -886,38 +886,38 @@ Function to make a plane along Normal plan
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getSectionData <small>(source)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getSectionData <small>(source)</small>
 
 Returns some common data from section planes and building parts
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getShapeFromMesh <small>(mesh, fast=True, tolerance=0.001, flat=False, cut=True)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getShapeFromMesh <small>(mesh, fast=True, tolerance=0.001, flat=False, cut=True)</small>
 
 
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getStringList <small>(objects)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> getStringList <small>(objects)</small>
 
 getStringList(objects): returns a string defining a list
     of objects
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">hide <small>(obj)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> hide <small>(obj)</small>
 
 
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">isOriented <small>(obj, plane)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> isOriented <small>(obj, plane)</small>
 
 determines if an annotation is facing the cutplane or not
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">joinWalls <small>(walls, delete=False)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> joinWalls <small>(walls, delete=False)</small>
 
 Join the given list of walls into one sketch-based wall.
 
@@ -942,53 +942,53 @@ Join the given list of walls into one sketch-based wall.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">looksLikeDraft <small>(o)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> looksLikeDraft <small>(o)</small>
 
 Does this object look like a Draft shape? (flat, no solid, etc)
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeAxis <small>(num=5, size=1000, name='Axes')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeAxis <small>(num=5, size=1000, name='Axes')</small>
 
 makeAxis(num,size): makes an Axis set
     based on the given number of axes and interval distances
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeAxisSystem <small>(axes, name='Axis System')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeAxisSystem <small>(axes, name='Axis System')</small>
 
 makeAxisSystem(axes): makes a system from the given list of axes
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeBuilding <small>(objectslist=None, baseobj=None, name='Building')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeBuilding <small>(objectslist=None, baseobj=None, name='Building')</small>
 
 overwrites ArchBuilding.makeBuilding
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeBuildingPart <small>(objectslist=None, baseobj=None, name='BuildingPart')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeBuildingPart <small>(objectslist=None, baseobj=None, name='BuildingPart')</small>
 
 makeBuildingPart(objectslist): creates a buildingPart including the
     objects from the given list.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeComponent <small>(baseobj=None, name='Component', delete=False)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeComponent <small>(baseobj=None, name='Component', delete=False)</small>
 
 makeComponent([baseobj]): creates an undefined, non-parametric Arch
     component from the given base object
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeCompoundFromSelected <small>(objects=None)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeCompoundFromSelected <small>(objects=None)</small>
 
 makeCompoundFromSelected([objects]): Creates a new compound object from the given
     subobjects (faces, edges) or from the selection if objects is None
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeCurtainWall <small>(baseobj=None, name='Curtain Wall')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeCurtainWall <small>(baseobj=None, name='Curtain Wall')</small>
 
 
     makeCurtainWall([baseobj]): Creates a curtain wall in the active document
@@ -996,62 +996,62 @@ makeCompoundFromSelected([objects]): Creates a new compound object from the give
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeEquipment <small>(baseobj=None, placement=None, name='Equipment')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeEquipment <small>(baseobj=None, placement=None, name='Equipment')</small>
 
 makeEquipment([baseobj,placement,name]): creates an equipment object from the given base object.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeFace <small>(wires, method=2, cleanup=False)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeFace <small>(wires, method=2, cleanup=False)</small>
 
 makeFace(wires): makes a face from a list of wires, finding which ones are holes
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeFence <small>(section, post, path)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeFence <small>(section, post, path)</small>
 
 
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeFloor <small>(objectslist=None, baseobj=None, name='Floor')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeFloor <small>(objectslist=None, baseobj=None, name='Floor')</small>
 
 overwrites ArchFloor.makeFloor
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeFrame <small>(baseobj, profile, name='Frame')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeFrame <small>(baseobj, profile, name='Frame')</small>
 
 makeFrame(baseobj,profile,[name]): creates a frame object from a base sketch (or any other object
     containing wires) and a profile object (an extrudable 2D object containing faces or closed wires)
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeGrid <small>(name='Grid')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeGrid <small>(name='Grid')</small>
 
 makeGrid(): makes a grid object
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeIfcSpreadsheet <small>(archobj=None)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeIfcSpreadsheet <small>(archobj=None)</small>
 
 
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeMaterial <small>(name='Material', color=None, transparency=None)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeMaterial <small>(name='Material', color=None, transparency=None)</small>
 
 makeMaterial(name): makes an Material object
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeMultiMaterial <small>(name='MultiMaterial')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeMultiMaterial <small>(name='MultiMaterial')</small>
 
 makeMultiMaterial(name): makes an Material object
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makePanel <small>(baseobj=None, length=0, width=0, thickness=0, placement=None, name='Panel')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makePanel <small>(baseobj=None, length=0, width=0, thickness=0, placement=None, name='Panel')</small>
 
 makePanel([obj],[length],[width],[thickness],[placement]): creates a
     panel element based on the given profile object and the given
@@ -1060,52 +1060,52 @@ makePanel([obj],[length],[width],[thickness],[placement]): creates a
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makePanelCut <small>(panel, name='PanelView')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makePanelCut <small>(panel, name='PanelView')</small>
 
 makePanelCut(panel) : Creates a 2D view of the given panel
     in the 3D space, positioned at the origin.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makePanelSheet <small>(panels=[], name='PanelSheet')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makePanelSheet <small>(panels=[], name='PanelSheet')</small>
 
 makePanelSheet([panels]) : Creates a sheet with the given panel cuts
     in the 3D space, positioned at the origin.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makePanelView <small>(panel, page=None, name='PanelView')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makePanelView <small>(panel, page=None, name='PanelView')</small>
 
 makePanelView(panel,[page]) : Creates a Drawing view of the given panel
     in the given or active Page object (a new page will be created if none exists).
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makePipe <small>(baseobj=None, diameter=0, length=0, placement=None, name='Pipe')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makePipe <small>(baseobj=None, diameter=0, length=0, placement=None, name='Pipe')</small>
 
 makePipe([baseobj,diamerter,length,placement,name]): creates an pipe object from the given base object
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makePipeConnector <small>(pipes, radius=0, name='Connector')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makePipeConnector <small>(pipes, radius=0, name='Connector')</small>
 
 makePipeConnector(pipes,[radius,name]): creates a connector between the given pipes
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makePrecast <small>(precasttype=None, length=0, width=0, height=0, slabtype='', chamfer=0, dentlength=0, dentwidth=0, dentheight=0, dents=[], base=0, holenumber=0, holemajor=0, holeminor=0, holespacing=0, groovenumber=0, groovedepth=0, grooveheight=0, groovespacing=0, risernumber=0, downlength=0, riser=0, tread=0)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makePrecast <small>(precasttype=None, length=0, width=0, height=0, slabtype='', chamfer=0, dentlength=0, dentwidth=0, dentheight=0, dents=[], base=0, holenumber=0, holemajor=0, holeminor=0, holespacing=0, groovenumber=0, groovedepth=0, grooveheight=0, groovespacing=0, risernumber=0, downlength=0, riser=0, tread=0)</small>
 
 Creates one of the precast objects in the current document
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeProfile <small>(profile=[0, 'REC', 'REC100x100', 'R', 100, 100])</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeProfile <small>(profile=[0, 'REC', 'REC100x100', 'R', 100, 100])</small>
 
 makeProfile(profile): returns a shape  with the face defined by the profile data
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeProject <small>(sites=None, name='Project')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeProject <small>(sites=None, name='Project')</small>
 
 Create an Arch project.
 
@@ -1127,26 +1127,26 @@ Create an Arch project.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeRailing <small>(stairs)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeRailing <small>(stairs)</small>
 
 simple make Railing function testing
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeRebar <small>(baseobj=None, sketch=None, diameter=None, amount=1, offset=None, name='Rebar')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeRebar <small>(baseobj=None, sketch=None, diameter=None, amount=1, offset=None, name='Rebar')</small>
 
 makeRebar([baseobj,sketch,diameter,amount,offset,name]): adds a Reinforcement Bar object
     to the given structural object, using the given sketch as profile.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeReference <small>(filepath=None, partname=None, name='External Reference')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeReference <small>(filepath=None, partname=None, name='External Reference')</small>
 
 makeReference([filepath,partname]): Creates an Arch Reference object
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeRoof <small>(baseobj=None, facenr=0, angles=[45.0], run=[250.0], idrel=[-1], thickness=[50.0], overhang=[100.0], name='Roof')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeRoof <small>(baseobj=None, facenr=0, angles=[45.0], run=[250.0], idrel=[-1], thickness=[50.0], overhang=[100.0], name='Roof')</small>
 
 makeRoof(baseobj, [facenr], [angle], [name]): Makes a roof based on
     a closed wire or an object.
@@ -1161,28 +1161,28 @@ makeRoof(baseobj, [facenr], [angle], [name]): Makes a roof based on
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeSectionPlane <small>(objectslist=None, name='Section')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeSectionPlane <small>(objectslist=None, name='Section')</small>
 
 makeSectionPlane([objectslist]) : Creates a Section plane objects including the
     given objects. If no object is given, the whole document will be considered.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeSectionView <small>(section, name='View')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeSectionView <small>(section, name='View')</small>
 
 makeSectionView(section) : Creates a Drawing view of the given Section Plane
     in the active Page object (a new page will be created if none exists
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeSite <small>(objectslist=None, baseobj=None, name='Site')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeSite <small>(objectslist=None, baseobj=None, name='Site')</small>
 
 makeBuilding(objectslist): creates a site including the
     objects from the given list.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeSolarDiagram <small>(longitude, latitude, scale=1, complete=False, tz=None)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeSolarDiagram <small>(longitude, latitude, scale=1, complete=False, tz=None)</small>
 
 makeSolarDiagram(longitude,latitude,[scale,complete,tz]):
     returns a solar diagram as a pivy node. If complete is
@@ -1191,7 +1191,7 @@ makeSolarDiagram(longitude,latitude,[scale,complete,tz]):
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeSpace <small>(objects=None, baseobj=None, name='Space')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeSpace <small>(objects=None, baseobj=None, name='Space')</small>
 
 makeSpace([objects]): Creates a space object from the given objects. Objects can be one
     document object, in which case it becomes the base shape of the space object, or a list of
@@ -1199,21 +1199,21 @@ makeSpace([objects]): Creates a space object from the given objects. Objects can
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeStairs <small>(baseobj=None, length=None, width=None, height=None, steps=None, name='Stairs')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeStairs <small>(baseobj=None, length=None, width=None, height=None, steps=None, name='Stairs')</small>
 
 makeStairs([baseobj,length,width,height,steps]): creates a Stairs
     objects with given attributes.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeStructuralSystem <small>(objects=[], axes=[], name='StructuralSystem')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeStructuralSystem <small>(objects=[], axes=[], name='StructuralSystem')</small>
 
 makeStructuralSystem(objects,axes): makes a structural system
     based on the given objects and axes
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeStructure <small>(baseobj=None, length=None, width=None, height=None, name='Structure')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeStructure <small>(baseobj=None, length=None, width=None, height=None, name='Structure')</small>
 
 makeStructure([obj],[length],[width],[height],[swap]): creates a
     structure element based on the given profile object and the given
@@ -1222,7 +1222,7 @@ makeStructure([obj],[length],[width],[height],[swap]): creates a
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeTruss <small>(baseobj=None, name='Truss')</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeTruss <small>(baseobj=None, name='Truss')</small>
 
 
     makeTruss([baseobj]): Creates a space object from the given object (a line)
@@ -1230,7 +1230,7 @@ makeStructure([obj],[length],[width],[height],[swap]): creates a
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeWall <small>(baseobj=None, height=None, length=None, width=None, align=None, face=None, name=None)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeWall <small>(baseobj=None, height=None, length=None, width=None, align=None, face=None, name=None)</small>
 
 Create a wall based on a given object, and returns the generated wall.
 
@@ -1275,21 +1275,21 @@ Create a wall based on a given object, and returns the generated wall.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeWindRose <small>(epwfile, scale=1, sectors=24)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeWindRose <small>(epwfile, scale=1, sectors=24)</small>
 
 makeWindRose(site,sectors):
     returns a wind rose diagram as a pivy node
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeWindow <small>(baseobj=None, width=None, height=None, parts=None, name=None)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeWindow <small>(baseobj=None, width=None, height=None, parts=None, name=None)</small>
 
 makeWindow(baseobj,[width,height,parts,name]): creates a window based on the
     given base 2D object (sketch or draft).
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">makeWindowPreset <small>(windowtype, width, height, h1, h2, h3, w1, w2, o1, o2, placement=None)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> makeWindowPreset <small>(windowtype, width, height, h1, h2, h3, w1, w2, o1, o2, placement=None)</small>
 
 makeWindowPreset(windowtype,width,height,h1,h2,h3,w1,w2,o1,o2,[placement]): makes a
     window object based on the given data. windowtype must be one of the names
@@ -1297,14 +1297,14 @@ makeWindowPreset(windowtype,width,height,h1,h2,h3,w1,w2,o1,o2,[placement]): make
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">math
+#### <img src="images/type_module.svg" style="width:16px;"> math
 
 This module provides access to the mathematical functions
 defined by the C standard.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">mergeCells <small>(objectslist)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> mergeCells <small>(objectslist)</small>
 
 mergeCells(objectslist): merges the objects in the given list
     into one. All objects must be of the same type and based on the Cell
@@ -1312,7 +1312,7 @@ mergeCells(objectslist): merges the objects in the given list
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">mergeShapes <small>(w1, w2)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> mergeShapes <small>(w1, w2)</small>
 
 Not currently implemented.
 
@@ -1322,7 +1322,7 @@ Not currently implemented.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">meshToShape <small>(obj, mark=True, fast=True, tol=0.001, flat=False, cut=True)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> meshToShape <small>(obj, mark=True, fast=True, tol=0.001, flat=False, cut=True)</small>
 
 meshToShape(object,[mark,fast,tol,flat,cut]): turns a mesh into a shape, joining coplanar facets. If
     mark is True (default), non-solid objects will be marked in red. Fast uses a faster algorithm by
@@ -1333,7 +1333,7 @@ meshToShape(object,[mark,fast,tol,flat,cut]): turns a mesh into a shape, joining
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">os
+#### <img src="images/type_module.svg" style="width:16px;"> os
 
 OS routines for NT or Posix depending on what system we're on.
 
@@ -1360,7 +1360,7 @@ and opendir), and leave all pathname manipulation to os.path
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">patharray
+#### <img src="images/type_module.svg" style="width:16px;"> patharray
 
 Provides the object code for the PathArray object.
 
@@ -1399,14 +1399,14 @@ a single property of type `App::PropertyLinkSub`.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">placeAlongEdge <small>(p1, p2, horizontal=False)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> placeAlongEdge <small>(p1, p2, horizontal=False)</small>
 
 placeAlongEdge(p1,p2,[horizontal]): returns a Placement positioned at p1, with Z axis oriented towards p2.
     If horizontal is True, then the X axis is oriented towards p2, not the Z axis
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">pre
+#### <img src="images/Type_enum.svg" style="width:16px;"> pre
 
 Built-in mutable sequence.
 
@@ -1415,25 +1415,25 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">printMessage <small>(message)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> printMessage <small>(message)</small>
 
 
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">printWarning <small>(message)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> printWarning <small>(message)</small>
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">print_function
+#### <img src="images/Type_enum.svg" style="width:16px;"> print_function
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">profilefiles
+#### <img src="images/Type_enum.svg" style="width:16px;"> profilefiles
 
 Built-in mutable sequence.
 
@@ -1442,14 +1442,14 @@ The argument must be an iterable if specified.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">projectToVector <small>(shape, vector)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> projectToVector <small>(shape, vector)</small>
 
 projectToVector(shape,vector): projects the given shape on the given
     vector
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">pruneIncluded <small>(objectslist, strict=False)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> pruneIncluded <small>(objectslist, strict=False)</small>
 
 pruneIncluded(objectslist,[strict]): removes from a list of Arch objects, those that are subcomponents of
     another shape-based object, leaving only the top-level shapes. If strict is True, the object
@@ -1457,7 +1457,7 @@ pruneIncluded(objectslist,[strict]): removes from a list of Arch objects, those 
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">re
+#### <img src="images/type_module.svg" style="width:16px;"> re
 
 Support for regular expressions (RE).
 
@@ -1568,20 +1568,20 @@ This module also defines an exception 'error'.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">readPresets <small>()</small>
+#### <img src="images/type_method.svg" style="width:16px;"> readPresets <small>()</small>
 
 
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">rebuildArchShape <small>(objects=None)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> rebuildArchShape <small>(objects=None)</small>
 
 rebuildArchShape([objects]): takes the faces from the base shape of the given (or selected
     if objects is None) Arch objects, and tries to rebuild a valid solid from them.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">recolorize <small>(attr)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> recolorize <small>(attr)</small>
 
 Recolorizes an object or a [documentname,objectname] list
     This basically calls the Proxy.colorize(obj) methods of objects that
@@ -1589,7 +1589,7 @@ Recolorizes an object or a [documentname,objectname] list
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">removeComponents <small>(objectsList, host=None)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> removeComponents <small>(objectsList, host=None)</small>
 
 removeComponents(objectsList,[hostObject]): removes the given component or
     the components from the given list from their parents. If a host object is
@@ -1598,14 +1598,14 @@ removeComponents(objectsList,[hostObject]): removes the given component or
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">removeCurves <small>(shape, dae=False, tolerance=5)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> removeCurves <small>(shape, dae=False, tolerance=5)</small>
 
 removeCurves(shape,dae,tolerance=5): replaces curved faces in a shape
     with faceted segments. If dae is True, DAE triangulation options are used
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">removeShape <small>(objs, mark=True)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> removeShape <small>(objs, mark=True)</small>
 
 removeShape(objs,mark=True): takes an arch object (wall or structure) built on a cubic shape, and removes
     the inner shape, keeping its length, width and height as parameters. If mark is True, objects that cannot
@@ -1613,13 +1613,13 @@ removeShape(objs,mark=True): takes an arch object (wall or structure) built on a
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">removeSpaceBoundaries <small>(space, objects)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> removeSpaceBoundaries <small>(space, objects)</small>
 
 removeSpaceBoundaries(space,objects): removes the given objects from the given spaces boundaries
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">rodmodes
+#### <img src="images/Type_enum.svg" style="width:16px;"> rodmodes
 
 Built-in immutable sequence.
 
@@ -1630,20 +1630,20 @@ If the argument is a tuple, the return value is the same object.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">setAsSubcomponent <small>(obj)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> setAsSubcomponent <small>(obj)</small>
 
 Sets the given object properly to become a subcomponent (addition, subtraction)
     of an Arch component
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">six
+#### <img src="images/type_module.svg" style="width:16px;"> six
 
 Utilities for writing code that runs on Python 2 and 3
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">splitMesh <small>(obj, mark=True)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> splitMesh <small>(obj, mark=True)</small>
 
 splitMesh(object,[mark]): splits the given mesh object into separated components.
     If mark is False, nothing else is done. If True (default), non-manifold components
@@ -1651,7 +1651,7 @@ splitMesh(object,[mark]): splits the given mesh object into separated components
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">string_replace <small>(text, pattern, replacement)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> string_replace <small>(text, pattern, replacement)</small>
 
 
     if py2 isn't supported anymore calls to this function
@@ -1667,7 +1667,7 @@ splitMesh(object,[mark]): splits the given mesh object into separated components
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">strprocessOfCustomSpacing <small>(span_string)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> strprocessOfCustomSpacing <small>(span_string)</small>
 
  strprocessOfCustomSpacing(span_string): This function take input
     in specific syntax and return output in the form of list. For eg.
@@ -1676,14 +1676,14 @@ splitMesh(object,[mark]): splits the given mesh object into separated components
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">survey <small>(callback=False)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> survey <small>(callback=False)</small>
 
 survey(): starts survey mode, where you can click edges and faces to get their lengths or area.
     Clicking on no object (on an empty area) resets the count.
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">sys
+#### <img src="images/type_module.svg" style="width:16px;"> sys
 
 This module provides access to some objects used or maintained by the
 interpreter and to functions that interact strongly with the interpreter.
@@ -1756,7 +1756,7 @@ settrace() -- set the global debug tracing function
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">tempfile
+#### <img src="images/type_module.svg" style="width:16px;"> tempfile
 
 Temporary files.
 
@@ -1785,7 +1785,7 @@ This module also provides some data items to the user:
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">time
+#### <img src="images/type_module.svg" style="width:16px;"> time
 
 This module provides various functions to manipulate time values.
 
@@ -1813,26 +1813,26 @@ if it is -1, mktime() should guess based on the date and time.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">toNode <small>(shape)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> toNode <small>(shape)</small>
 
 builds a linear pivy node from a shape
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">toggleIfcBrepFlag <small>(obj)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> toggleIfcBrepFlag <small>(obj)</small>
 
 toggleIfcBrepFlag(obj): toggles the IFC brep flag of the given object, forcing it
     to be exported as brep geometry or not.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">translate <small>(ctxt, txt)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> translate <small>(ctxt, txt)</small>
 
 
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">unicode
+#### <img src="images/Type_enum.svg" style="width:16px;"> unicode
 
 str(object='') -> str
 str(bytes_or_buffer[, encoding[, errors]]) -> str
@@ -1847,7 +1847,7 @@ errors defaults to 'strict'.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">update_svg_cache <small>(source, renderMode, showHidden, showFill, fillSpaces, joinArch, allOn, objs)</small>
+#### <img src="images/type_method.svg" style="width:16px;"> update_svg_cache <small>(source, renderMode, showHidden, showFill, fillSpaces, joinArch, allOn, objs)</small>
 
 
     Returns None or cached SVG, clears shape cache if required
@@ -1855,7 +1855,7 @@ errors defaults to 'strict'.
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">uuid
+#### <img src="images/type_module.svg" style="width:16px;"> uuid
 
 UUID objects (universally unique identifiers) according to RFC 4122.
 
@@ -1905,7 +1905,7 @@ Typical usage:
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">verbose
+#### <img src="images/Type_enum.svg" style="width:16px;"> verbose
 
 bool(x) -> bool
 
@@ -1915,7 +1915,7 @@ The class bool is a subclass of the class int, and cannot be subclassed.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">zeroMM
+#### <img src="images/Type_enum.svg" style="width:16px;"> zeroMM
 
 Quantity
 defined by a value and a unit.
@@ -1930,7 +1930,7 @@ Quantity(string) -- arbitrary mixture of numbers and chars defining a Quantity
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">zipfile
+#### <img src="images/type_module.svg" style="width:16px;"> zipfile
 
 
 Read and write ZIP files.

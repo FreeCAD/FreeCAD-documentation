@@ -10,13 +10,13 @@ file the document should be stored to.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ActiveDocument
+#### <img src="images/Type_enum.svg" style="width:16px;"> ActiveDocument
 
 This is a Document class
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Axis
+#### <img src="images/Type_enum.svg" style="width:16px;"> Axis
 
 Axis
 An defines a direction and a position (base) in 3D space.
@@ -29,7 +29,7 @@ Axis(Base, Direction) -- define position and direction
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">Base
+#### <img src="images/type_module.svg" style="width:16px;"> [Base](Base_API.md)
 
 The Base module contains the classes for the geometric basics
 like vector, matrix, bounding box, placement, rotation, axis, ...
@@ -37,7 +37,7 @@ like vector, matrix, bounding box, placement, rotation, axis, ...
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">BoundBox
+#### <img src="images/Type_enum.svg" style="width:16px;"> BoundBox
 
 Bound box class
 A bounding box is an orthographic cube which is a way to describe outer boundaries.
@@ -54,98 +54,98 @@ App.BoundBox(BoundBox)
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">ConfigDump
+#### <img src="images/type_method.svg" style="width:16px;"> ConfigDump
 
 Dump the configuration to the output.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">ConfigGet
+#### <img src="images/type_method.svg" style="width:16px;"> ConfigGet
 
 ConfigGet(string) -- Get the value for the given key.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">ConfigSet
+#### <img src="images/type_method.svg" style="width:16px;"> ConfigSet
 
 ConfigSet(string, string) -- Set the given key to the given value.
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">Console
+#### <img src="images/type_module.svg" style="width:16px;"> [Console](Console_API.md)
 
 FreeCAD Console
 
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Document
+#### <img src="images/Type_enum.svg" style="width:16px;"> Document
 
 This is a Document class
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">DocumentObject
+#### <img src="images/Type_enum.svg" style="width:16px;"> DocumentObject
 
 This is the father of all classes handled by the document
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">DocumentObjectExtension
+#### <img src="images/Type_enum.svg" style="width:16px;"> DocumentObjectExtension
 
 Base class for all document object extensions
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">DocumentObjectGroup
+#### <img src="images/Type_enum.svg" style="width:16px;"> DocumentObjectGroup
 
 This class handles document objects in group
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">EndingAdd
+#### <img src="images/type_method.svg" style="width:16px;"> EndingAdd
 
 deprecated -- use addImportType
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">EndingGet
+#### <img src="images/type_method.svg" style="width:16px;"> EndingGet
 
 deprecated -- use getImportType
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Extension
+#### <img src="images/Type_enum.svg" style="width:16px;"> Extension
 
 Base class for all extensions
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">ExtensionContainer
+#### <img src="images/Type_enum.svg" style="width:16px;"> ExtensionContainer
 
 Base class for all objects which can be extended
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">GeoFeature
+#### <img src="images/Type_enum.svg" style="width:16px;"> GeoFeature
 
 This class does the whole placement and position handling
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">GeoFeatureGroupExtension
+#### <img src="images/Type_enum.svg" style="width:16px;"> GeoFeatureGroupExtension
 
 This class handles placeable group of document objects
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">GroupExtension
+#### <img src="images/Type_enum.svg" style="width:16px;"> GroupExtension
 
 Extension class which allows grouping of document objects
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">GuiUp
+#### <img src="images/Type_enum.svg" style="width:16px;"> GuiUp
 
 int([x]) -> integer
 int(x, base=10) -> integer
@@ -164,13 +164,13 @@ Base 0 means to interpret the base from the string as an integer literal.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">LinkBaseExtension
+#### <img src="images/Type_enum.svg" style="width:16px;"> LinkBaseExtension
 
 Link extension base class
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Logger <small>(tag, **kargs)</small>
+#### <img src="images/Type_enum.svg" style="width:16px;"> Logger <small>(tag, **kargs)</small>
 
 Convenient class for tagged logging.
 
@@ -213,19 +213,19 @@ Convenient class for tagged logging.
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Material
+#### <img src="images/Type_enum.svg" style="width:16px;"> Material
 
 This is the Material class
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Matrix
+#### <img src="images/Type_enum.svg" style="width:16px;"> [Matrix](Matrix_API.md)
 
 A 4x4 Matrix
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Metadata
+#### <img src="images/Type_enum.svg" style="width:16px;"> Metadata
 
 
         Metadata
@@ -237,25 +237,25 @@ A 4x4 Matrix
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">OriginGroupExtension
+#### <img src="images/Type_enum.svg" style="width:16px;"> OriginGroupExtension
 
 This class handles placable group of document objects with an Origin
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">ParamGet
+#### <img src="images/type_method.svg" style="width:16px;"> ParamGet
 
 Get parameters by path
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Part
+#### <img src="images/Type_enum.svg" style="width:16px;"> [Part](Part_API.md)
 
 This class handles document objects in Part
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Placement
+#### <img src="images/Type_enum.svg" style="width:16px;"> [Placement](Placement_API.md)
 
 Placement
 A placement defines an orientation (rotation) and a position (base) in 3D space.
@@ -272,19 +272,19 @@ Placement(Base, Axis, Angle) -- define position and rotation
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">PropertyContainer
+#### <img src="images/Type_enum.svg" style="width:16px;"> PropertyContainer
 
 This is a Persistence class
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">Qt
+#### <img src="images/type_module.svg" style="width:16px;"> Qt
 
 This module is the Translate module
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Rotation
+#### <img src="images/Type_enum.svg" style="width:16px;"> Rotation
 
 
 				A Rotation using a quaternion.
@@ -306,25 +306,25 @@ This module is the Translate module
 
 
 
-#### <img src="images/type_module.svg" style="max-width:24px;">Units
+#### <img src="images/type_module.svg" style="width:16px;"> Units
 
 The Unit API
 
 
 
-#### <img src="images/Type_enum.svg" style="max-width:24px;">Vector
+#### <img src="images/Type_enum.svg" style="width:16px;"> [Vector](Vector_API.md)
 
 This class represents a 3D float vector
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">Version
+#### <img src="images/type_method.svg" style="width:16px;"> Version
 
 Print the version to the output.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">activeDocument
+#### <img src="images/type_method.svg" style="width:16px;"> activeDocument
 
 activeDocument() -> object or None
 
@@ -332,7 +332,7 @@ Return the active document or None if there is no one.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">addDocumentObserver
+#### <img src="images/type_method.svg" style="width:16px;"> addDocumentObserver
 
 addDocumentObserver() -> None
 
@@ -340,31 +340,31 @@ Add an observer to get notified about changes on documents.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">addExportType
+#### <img src="images/type_method.svg" style="width:16px;"> addExportType
 
 Register filetype for export
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">addImportType
+#### <img src="images/type_method.svg" style="width:16px;"> addImportType
 
 Register filetype for import
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">changeExportModule
+#### <img src="images/type_method.svg" style="width:16px;"> changeExportModule
 
 Change the export module name of a registered filetype
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">changeImportModule
+#### <img src="images/type_method.svg" style="width:16px;"> changeImportModule
 
 Change the import module name of a registered filetype
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">checkAbort
+#### <img src="images/type_method.svg" style="width:16px;"> checkAbort
 
 checkAbort() -- check for user abort in length operation.
 
@@ -375,19 +375,19 @@ trigger a BaseExceptionFreeCADAbort exception.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">checkLinkDepth
+#### <img src="images/type_method.svg" style="width:16px;"> checkLinkDepth
 
 checkLinkDepth(depth) -- check link recursion depth
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">closeActiveTransaction
+#### <img src="images/type_method.svg" style="width:16px;"> closeActiveTransaction
 
 closeActiveTransaction(abort=False) -- commit or abort current active transaction
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">closeDocument
+#### <img src="images/type_method.svg" style="width:16px;"> closeDocument
 
 closeDocument(string) -> None
 
@@ -395,13 +395,13 @@ Close the document with a given name.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getActiveTransaction
+#### <img src="images/type_method.svg" style="width:16px;"> getActiveTransaction
 
 getActiveTransaction() -> (name,id) return the current active transaction name and ID
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getDependentObjects
+#### <img src="images/type_method.svg" style="width:16px;"> getDependentObjects
 
 getDependentObjects(obj|[obj,...], options=0)
 Return a list of dependent objects including the given objects.
@@ -412,7 +412,7 @@ options: can have the following bit flags,
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getDocument
+#### <img src="images/type_method.svg" style="width:16px;"> getDocument
 
 getDocument(string) -> object
 
@@ -421,31 +421,31 @@ if there is no document with the given name.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getExportType
+#### <img src="images/type_method.svg" style="width:16px;"> getExportType
 
 Get the name of the module that can export the filetype
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getHelpDir
+#### <img src="images/type_method.svg" style="width:16px;"> getHelpDir
 
 Get the directory of the documentation
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getHomePath
+#### <img src="images/type_method.svg" style="width:16px;"> getHomePath
 
 Get the home path, i.e. the parent directory of the executable
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getImportType
+#### <img src="images/type_method.svg" style="width:16px;"> getImportType
 
 Get the name of the module that can import the filetype
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getLinksTo
+#### <img src="images/type_method.svg" style="width:16px;"> getLinksTo
 
 getLinksTo(obj,options=0,maxCount=0) -- return the objects linked to 'obj'
 
@@ -455,56 +455,56 @@ maxCount: to limit the number of links returned
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getLogLevel
+#### <img src="images/type_method.svg" style="width:16px;"> getLogLevel
 
 getLogLevel(tag) -- Get the log level of a string tag
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getResourceDir
+#### <img src="images/type_method.svg" style="width:16px;"> getResourceDir
 
 Get the root directory of all resources
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getTempPath
+#### <img src="images/type_method.svg" style="width:16px;"> getTempPath
 
 Get the root directory of cached files
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getUserAppDataDir
+#### <img src="images/type_method.svg" style="width:16px;"> getUserAppDataDir
 
 Get the root directory of application data
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getUserCachePath
+#### <img src="images/type_method.svg" style="width:16px;"> getUserCachePath
 
 Get the root path of cached files
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getUserConfigDir
+#### <img src="images/type_method.svg" style="width:16px;"> getUserConfigDir
 
 Get the root path of user config files
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">getUserMacroDir
+#### <img src="images/type_method.svg" style="width:16px;"> getUserMacroDir
 
 getUserMacroDir(bool=False) -> stringGet the directory of the user's macro directory
 If parameter is False (the default) it returns the standard path in theuser's home directory, otherwise it returns the user-defined path.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">isRestoring
+#### <img src="images/type_method.svg" style="width:16px;"> isRestoring
 
 isRestoring() -> Bool -- Test if the application is opening some document
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">listDocuments
+#### <img src="images/type_method.svg" style="width:16px;"> listDocuments
 
 listDocuments(sort=False) -> list
 
@@ -512,7 +512,7 @@ Return a list of names of all documents, optionally sort in dependency order.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">loadFile
+#### <img src="images/type_method.svg" style="width:16px;"> loadFile
 
 loadFile(string=filename,[string=module]) -> None
 
@@ -523,7 +523,7 @@ Loads an arbitrary file by delegating to the given Python module:
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">newDocument
+#### <img src="images/type_method.svg" style="width:16px;"> newDocument
 
 newDocument(name, label=None, hidden=False, temp=False) -> object
 Create a new document with a given name.
@@ -535,13 +535,13 @@ temp: mark the document as temporary so that it will not be saved
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">open
+#### <img src="images/type_method.svg" style="width:16px;"> open
 
 See openDocument(string)
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">openDocument
+#### <img src="images/type_method.svg" style="width:16px;"> openDocument
 
 openDocument(filepath,hidden=False) -> object
 Create a document and load the project file into the document.
@@ -553,7 +553,7 @@ hidden: whether to hide document 3D view.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">removeDocumentObserver
+#### <img src="images/type_method.svg" style="width:16px;"> removeDocumentObserver
 
 removeDocumentObserver() -> None
 
@@ -561,14 +561,14 @@ Remove an added document observer.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">saveParameter
+#### <img src="images/type_method.svg" style="width:16px;"> saveParameter
 
 saveParameter(config='User parameter') -> None
 Save parameter set to file. The default set is 'User parameter'
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">setActiveDocument
+#### <img src="images/type_method.svg" style="width:16px;"> setActiveDocument
 
 setActiveDocement(string) -> None
 
@@ -576,7 +576,7 @@ Set the active document by its name.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">setActiveTransaction
+#### <img src="images/type_method.svg" style="width:16px;"> setActiveTransaction
 
 setActiveTransaction(name, persist=False) -- setup active transaction with the given name
 
@@ -590,7 +590,7 @@ the given name and ID.
 
 
 
-#### <img src="images/type_method.svg" style="max-width:24px;">setLogLevel
+#### <img src="images/type_method.svg" style="width:16px;"> setLogLevel
 
 setLogLevel(tag, level) -- Set the log level for a string tag.
 'level' can either be string 'Log', 'Msg', 'Wrn', 'Error', or an integer value

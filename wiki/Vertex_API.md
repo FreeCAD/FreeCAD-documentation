@@ -1,10 +1,6 @@
-# TopoShape API
+# Vertex API
 
-TopoShape is the OpenCasCade topological shape wrapper.
-Sub-elements such as vertices, edges or faces are accessible as:
-* Vertex#, where # is in range(1, number of vertices)
-* Edge#, where # is in range(1, number of edges)
-* Face#, where # is in range(1, number of faces)
+TopoShapeVertex is the OpenCasCade topological vertex wrapper
 
 
 
@@ -86,6 +82,12 @@ Get the current transformation of the object as placement
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> [Point](Point_API.md)
+
+Position of this Vertex as a Vector
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> ShapeType
 
 Returns the type of the shape.
@@ -116,6 +118,12 @@ Geometry Tag
 
 
 
+#### <img src="images/Type_enum.svg" style="width:16px;"> Tolerance
+
+Set or get the tolerance of the vertex
+
+
+
 #### <img src="images/Type_enum.svg" style="width:16px;"> TypeId
 
 Is the type of the FreeCAD object with module domain
@@ -137,6 +145,24 @@ Total volume of the solids of the shape.
 #### <img src="images/Type_enum.svg" style="width:16px;"> Wires
 
 List of wires in this shape.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> X
+
+X component of this Vertex.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Y
+
+Y component of this Vertex.
+
+
+
+#### <img src="images/Type_enum.svg" style="width:16px;"> Z
+
+Z component of this Vertex.
 
 
 
@@ -1190,4 +1216,4 @@ writeInventor() -> string
 
 
 ---
-[documentation index](../README.md) > [API](Category_API.md) > TopoShape API
+[documentation index](../README.md) > [API](Category_API.md) > Vertex API
