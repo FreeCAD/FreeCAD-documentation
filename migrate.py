@@ -960,7 +960,7 @@ class MediaWiki:
         return [p for p in os.listdir(self.output) if (p.endswith("_API.md") and (not "Category" in p))]
 
 
-    def rebuildAAllPI(self):
+    def rebuildAllAPI(self):
 
         """rebuildAllAPI():
         Rebuilds all the API pages"""
@@ -1077,7 +1077,7 @@ def update():
     wiki.printProgress()
     wiki.getAllImages()
     wiki.updateReadme()
-    wiki.rebuildAAllPI()
+    wiki.rebuildAllAPI()
     print("All done!\n")
     if errors:
         print("page with write errors: ",errors)
