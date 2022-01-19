@@ -8,9 +8,17 @@ Esta es la **categoría de nivel superior** que contiene las principales categor
 
 ### Contents:
 
-, , , , , , , , , , , , , , , , ,
+  -- -- --
+        
+        
+        
+        
+        
+        
+        
+  -- -- --
 
 [<img src="images/Property.png" style="width:16px"> Categories/es](<img src="images/Property.png" style="width:16px"> Categories/es.md) [<img src="images/Property.png" style="width:16px"> Addons/es](<img src="images/Property.png" style="width:16px"> Addons/es.md) [<img src="images/Property.png" style="width:16px"> Administration/es](<img src="images/Property.png" style="width:16px"> Administration/es.md) [<img src="images/Property.png" style="width:16px"> API/es](<img src="images/Property.png" style="width:16px"> API/es.md) [<img src="images/Property.png" style="width:16px"> Categories/es](<img src="images/Property.png" style="width:16px"> Categories/es.md) [<img src="images/Property.png" style="width:16px"> Command Reference/es](<img src="images/Property.png" style="width:16px"> Command_Reference/es.md) [<img src="images/Property.png" style="width:16px"> Developer/es](<img src="images/Property.png" style="width:16px"> Developer/es.md) [<img src="images/Property.png" style="width:16px"> Documentation/es](<img src="images/Property.png" style="width:16px"> Documentation/es.md) [<img src="images/Property.png" style="width:16px"> Help/es](<img src="images/Property.png" style="width:16px"> Help/es.md) [<img src="images/Property.png" style="width:16px"> Hubs/es](<img src="images/Property.png" style="width:16px"> Hubs/es.md) [<img src="images/Property.png" style="width:16px"> Image/es](<img src="images/Property.png" style="width:16px"> Image/es.md) [<img src="images/Property.png" style="width:16px"> Macros/es](<img src="images/Property.png" style="width:16px"> Macros/es.md) [<img src="images/Property.png" style="width:16px"> News/es](<img src="images/Property.png" style="width:16px"> News/es.md) [<img src="images/Property.png" style="width:16px"> Python Code/es](<img src="images/Property.png" style="width:16px"> Python_Code/es.md) [<img src="images/Property.png" style="width:16px"> Repository/es](<img src="images/Property.png" style="width:16px"> Repository/es.md) [<img src="images/Property.png" style="width:16px"> Roadmap/es](<img src="images/Property.png" style="width:16px"> Roadmap/es.md) [<img src="images/Property.png" style="width:16px"> Template/es](<img src="images/Property.png" style="width:16px"> Template/es.md) [<img src="images/Property.png" style="width:16px"> Tutorials/es](<img src="images/Property.png" style="width:16px"> Tutorials/es.md) [<img src="images/Property.png" style="width:16px"> Wiki/es](<img src="images/Property.png" style="width:16px"> Wiki/es.md)
 
 ---
-[documentation index](../README.md) > [Addons/es]] , ](Category_Addons/es]] , .md) > Category:Categories/es
+[documentation index](../README.md) > Category:Categories/es

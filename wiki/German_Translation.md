@@ -53,7 +53,7 @@ Hier werden die Regel gelistet, auf die man sich im Forum geeinigt hat. (Siehe o
 
 **R3**: Die Namen der Arbeitsbereiche werden nicht übersetzt.
 
-:   Da sich Im FC-Hauptmenü unabhängig von der verwendeten Ländereinstellung immer die englischen Bezeichnungen der Arbeitsbereich finden, sollten sie auch in anderen Menüeinträgen nicht übersetzt werden.
+:   Da sich Im FC-Hauptmenü unabhängig von der verwendeten Ländereinstellung immer die englischen Bezeichnungen der Arbeitsbereiche finden, sollten sie auch in anderen Menüeinträgen nicht übersetzt werden.
 :   Im Wiki kann eine Übersetzung in Klammern angefügt werden.
 :   Z.B. sollte **Blech (SheetMetal)** besser in **SheetMetal (Blech)** geändert werden.
 
@@ -109,45 +109,72 @@ Die zu verwendenden Begriffe werden **fett** dargestellt, optionale Erweiterunge
 
 <div class="mw-collapsible-content toccolours">
 
-  Englischer Ausdruck                                                                        Funktion          Deutscher Ausdruck          Anmerkung
-  ------------------------------------------------------------------------------------------ ----------------- --------------------------- ----------------------------
-  Std Base                                                                                   Workbench name    Std Basis                   Wiki-Seite, übersetzen?
-  File                                                                                       Menue header      **Datei**                   
-  <img alt="" src=images/Std_New.svg  style="width:16px;"> New                                         Command           **Neu**                     
-  Edit                                                                                       Menue header      **Bearbeiten**              
-  <img alt="" src=images/Std_Undo.svg  style="width:16px;"> Undo                                      Command           **Rückgängig**              
-  View                                                                                       Menue header      **Ansicht**                 
-  <img alt="" src=images/Std_ViewCreate.svg  style="width:16px;"> Create new view               Command           **Neue Ansicht**            
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Standard views                        Generic term      **Standardansichten**       
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Freeze display                        Generic term      **Ansicht einfrieren**      
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Draw style                            Generic term      **Zeichenstil**             
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Stereo                                Generic term      Stereo                      Übersetzen?
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Zoom                                  Generic term      Zoom                        Übersetzen?
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Document window                       Generic term      Dokumentfenster             
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Visibility                            Generic term      **Sichtbarkeit**            
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Workbench                             Generic term      **Arbeitsbereich**          
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Toolbars                              Generic term      Symbolleisten               Werkzeugleisten?
-  File                                                                                       Command, toggle   **Datei**                   
-  Workbench                                                                                  Command, toggle   Workbench                   Übersetzen? Arbeitsbereich
-  Macro                                                                                      Command, toggle   *\'Makro*                   
-  View                                                                                       Command, toggle   **Ansicht**                 
-  Structure                                                                                  Command, toggle   Structure                   Übersetzen?
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Panels                                Generic term      Paneele                     Übersetzen?
-  Report view                                                                                Command, toggle   **Ausgabefenster**          
-  Selection view                                                                             Command, toggle   **Auswahlfenster**          
-  Combo view                                                                                 Command, toggle   **Combo-Ansicht**           
-  Python comsole                                                                             Command, toggle   **Python-Konsole**          
-  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> TreeView actions                      Generic term      BaumAnsicht-Aktionen        Übersetzen?
-                                                                                                                                           
-  Status bar                                                                                 Command, toggle   **Statusleiste**            
-  Tools                                                                                      Menue header      **Werkzeuge**               
-  <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> Edit parameters\...       Command           **Parameter bearbeiten**    
-  Macro                                                                                      Menue header      **Makro**                   
-  <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:16px;"> Macro recording\...   Command           **Makro aufzeichnen**\...   
-  Windows                                                                                    Menue header      **Fenster**                 
-  <img alt="" src=images/Std_ActivateNextWindow.svg  style="width:16px;"> Next          Command           **Nächstes Fenster**        
-  Help                                                                                       Menue header      **Hilfe**                   
-  <img alt="" src=images/Std_OnlineHelp.svg  style="width:16px;"> Help                          Command           Hilfe                       
+  Englischer Ausdruck                                                                                Funktion          Deutscher Ausdruck                Anmerkung
+  -------------------------------------------------------------------------------------------------- ----------------- --------------------------------- -------------------------------
+  Std Base                                                                                           Workbench name    Std Basis                         Wiki-Seite, übersetzen?
+  *File menu*                                                                                                                                            
+  File                                                                                               Menue header      **Datei**                         
+  <img alt="" src=images/Std_New.svg  style="width:16px;"> New                                                 Command           **Neu**                           
+  *Edit menu*                                                                                                                                            
+  Edit                                                                                               Menue header      **Bearbeiten**                    
+  <img alt="" src=images/Std_Undo.svg  style="width:16px;"> Undo                                              Command           **Rückgängig**                    
+  *View menu*                                                                                                                                            
+  View                                                                                               Menue header      **Ansicht**                       
+  <img alt="" src=images/Std_ViewCreate.svg  style="width:16px;"> Create new view                       Command           **Neue Ansicht**                  
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Standard views                                Generic term      **Standardansichten**             
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Freeze display                                Generic term      **Ansicht einfrieren**            
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Draw style                                    Generic term      **Zeichenstil**                   
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Stereo                                        Generic term      Stereo                            Übersetzen?
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Zoom                                          Generic term      Zoom                              Übersetzen?
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Document window                               Generic term      Dokumentfenster                   
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Visibility                                    Generic term      **Sichtbarkeit**                  
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Workbench                                     Generic term      **Arbeitsbereich**                
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Toolbars                                      Generic term      Symbolleisten                     Werkzeugleisten?
+  File                                                                                               Command, toggle   **Datei**                         
+  Workbench                                                                                          Command, toggle   Workbench                         Übersetzen? Arbeitsbereich
+  Macro                                                                                              Command, toggle   *\'Makro*                         
+  View                                                                                               Command, toggle   **Ansicht**                       
+  Structure                                                                                          Command, toggle   Structure                         Übersetzen?
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Panels                                        Generic term      Paneele                           Übersetzen?
+  Report view                                                                                        Command, toggle   **Ausgabefenster**                
+  Selection view                                                                                     Command, toggle   **Auswahlfenster**                
+  Combo view                                                                                         Command, toggle   **Combo-Ansicht**                 
+  Python comsole                                                                                     Command, toggle   **Python-Konsole**                
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> TreeView actions                              Generic term      BaumAnsicht-Aktionen              Übersetzen?
+                                                                                                                                                         
+  Status bar                                                                                         Command, toggle   **Statusleiste**                  
+  Tools                                                                                              Menue header      **Werkzeuge**                     
+  <img alt="" src=images/Std_DlgParameter.svg  style="width:16px;"> Edit parameters\...               Command           **Parameter bearbeiten**          
+  *Macro menu*                                                                                                                                           
+  Macro                                                                                              Menue header      **Makro**                         
+  <img alt="" src=images/Std_DlgMacroRecord.svg  style="width:16px;"> Macro recording\...           Command           **Makro aufzeichnen**\...         
+  <img alt="" src=images/Std_MacroStopRecord.svg  style="width:16px;"> Stop macro recording        Command           **Makroaufzeichnung beenden**     
+  <img alt="" src=images/Std_DlgMacroExecute.svg  style="width:16px;"> Macros\...                  Command           **Makros**\...                    
+  Recent macros                                                                                      Command           **Aktuelle Makros**               
+  <img alt="" src=images/Std_DlgMacroExecuteDirect.svg  style="width:16px;"> Execute macro   Command           **Makro ausführen**               
+  Attach to remote debugger\...                                                                      Command           An Remote-Debugger anhängen\...   
+  <img alt="" src=images/Std_MacroStartDebug.svg  style="width:16px;"> Debug macro                 Command           **Makro debuggen**                
+  <img alt="" src=images/Std_MacroStopDebug.svg  style="width:16px;"> Stop debugging                Command           **Debuggen stoppen**              
+  Step over                                                                                          Command           Einen Schritt weiter              
+  Step into                                                                                          Command           Einzelschritt                     
+  Toggle breakpoint                                                                                  Command           Haltepunkt an/aus                 
+  *Windows menu*                                                                                                                                         
+  Windows                                                                                            Menue header      **Fenster**                       
+  <img alt="" src=images/Std_ActivateNextWindow.svg  style="width:16px;"> Next                  Command           **Nächstes Fenster**              
+  *Help menu*                                                                                                                                            
+  Help                                                                                               Menue header      **Hilfe**                         
+  <img alt="" src=images/Std_OnlineHelp.svg  style="width:16px;"> Help                                  Command           Hilfe                             
+  *Additional tools panel*                                                                                                                               
+  Structure                                                                                          Panel header      Structure                         Nur Symbolleiste, Übersetzen?
+  <img alt="" src=images/Std_Part.svg  style="width:16px;"> Create part                                       Command           Baugruppe erstellen               
+  <img alt="" src=images/Std_Group.svg  style="width:16px;"> Create Group                                    Command           Gruppe erstellen                  
+  <img alt="" src=images/Std_LinkMake.svg  style="width:16px;"> Make link                                 Command           Verknüpfung erstellen             
+  <img alt="" src=images/Arrow-down.svg  style="width:16px;"> Link actions                                  Generic term      Link actions                      Übersetzen?
+  <img alt="" src=images/Std_LinkMakeRelative.svg  style="width:16px;"> Make sub-link             Command           Unterverknüpfung erstellen        
+  <img alt="" src=images/Std_LinkReplace.svg  style="width:16px;"> Replace with link                   Command           Durch Verknüpfung ersetzen        
+  <img alt="" src=images/Std_LinkUnlink.svg  style="width:16px;"> Unlink                                Command           Verknüpfung auflösen              
+  <img alt="" src=images/Std_LinkImport.svg  style="width:16px;"> Import link                           Command           Verknüpfung importieren           
+  <img alt="" src=images/Std_LinkImportAll.svg  style="width:16px;"> Import all links                Command           Alle Verknüpfungen importieren    
 
 
 </div>

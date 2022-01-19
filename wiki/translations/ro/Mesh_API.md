@@ -20,6 +20,9 @@ d.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{APIFunction|addFacet|Facet|Adaugă o fațetă la plasă| }}
 
 
@@ -234,6 +237,9 @@ d.recompute()
 
 
 {{APIProperty|Placement|transformarea curentă a unui obiect ca amplasament}}
+
+
+</div>
 
 
  

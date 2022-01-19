@@ -7,7 +7,9 @@ The first one out is renaming the Module pages to Workbench, with all the needed
 
 ### Contents:
 
-[Rename Module to Workbench](Rename_Module_to_Workbench.md)
+  ---------------------------------------------------------------------
+  [Rename Module to Workbench](Rename_Module_to_Workbench.md)
+  ---------------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Administration](Category_Administration.md) [<img src="images/Property.png" style="width:16px"> Categories](Category_Categories.md) [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 

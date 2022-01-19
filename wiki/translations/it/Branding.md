@@ -22,7 +22,15 @@ Marchiare (Branding) significa avviare la realizzazione di una propria applicazi
 
 </div>
 
-### General
+## Warning
+
+Although FreeCAD is offered to you free of charge, and the FreeCAD community is happy to see other applications emerging, that are based on FreeCAD, we have on the other hand seen a lot of unfair use of the information contained on this page by people who simply rebranded FreeCAD into a closed-source application to make profit from it.
+
+Although the [LGPL license](License.md) allows to use the FreeCAD source code in closed-source applications, it also gives strict rules to do so, and does not allow simply taking FreeCAD, renaming it and stripping it of its license.
+
+Would you be interested in using FreeCAD in a closed-source application, be sure to check thoroughly the implications of the LGPL license, and, even better, contact any FreeCAD developer, administrator or moderator before doing so.
+
+## General
 
 
 <div class="mw-translate-fuzzy">
@@ -72,7 +80,7 @@ La prima voce Config definisce il nome del programma. Questo nome non è il nome
 
 Le righe successive definiscono le voci di configurazione della vostra applicazione FooApp. Una descrizione di Config e delle sue voci si trova in [Avvio e Configurazione](Start_up_and_Configuration/it.md).
 
-### Images
+## Images
 
 
 <div class="mw-translate-fuzzy">
@@ -96,7 +104,7 @@ nella funzione main(). In alternativa, se si dispone di un\'immagine in formato 
 Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
 
-### Branding XML 
+## Branding XML 
 
 
 <div class="mw-translate-fuzzy">

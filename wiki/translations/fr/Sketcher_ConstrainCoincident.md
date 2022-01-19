@@ -1,7 +1,7 @@
 ---
 - GuiCommand:/fr
    Name:Sketcher ConstrainCoincident
-   Name/fr:Sketcher Contrainte de coïncidence de points
+   Name/fr:Sketcher Contrainte de coïncidence
    MenuLocation:Sketch → Contraintes d'esquisse → Contrainte coïncidente
    Workbenches:[Sketcher](Sketcher_Workbench/fr.md)
    Shortcut:**C**
@@ -14,7 +14,7 @@
 
 Créer une contrainte de coïncidence entre les éléments sélectionnés.
 
-Cet outil de contrainte prend deux points comme argument et sert à faire coïncider les deux points. (Dans le but de faire comme un seul point).
+Cet outil de contrainte prend deux points comme argument et sert à faire \"coïncider\" les deux points. (Dans le but d\'en faire un seul point).
 
 En pratique, cet outil est utile lorsqu\'il y a une rupture dans un profil par exemple - où deux lignes se terminent l\'une près de l\'autre et doivent être jointes - une contrainte coïncidente sur leurs points d\'extrémité comblera l\'écart.
 
@@ -28,7 +28,7 @@ Comme indiqué ci-dessus, cet outil prend deux arguments - les deux, sont des po
 4.  Un élément en surbrillance changera sa couleur en vert. (Cette couleur peut être personnalisée dans **Édition → Préférence → Affichage → Couleurs → Sélection**)
 5.  Les éléments suivants peuvent être mis en évidence en répétant les procédures ci-dessus. **Remarque:** il n\'est pas nécessaire de maintenir enfoncée une touche spéciale telle que **Ctrl** pour effectuer une sélection d\'éléments multiples dans un dessin.
 6.  Une fois que vous avez mis en évidence deux points, vous pouvez appeler la commande à l\'aide de plusieurs méthodes:
-    -   En appuyant sur le bouton de contrainte **[<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Sketcher Contrainte coïncidente](Sketcher_ConstrainCoincident/fr.md)** dans la barre d\'outils.
+    -   En appuyant sur le bouton de contrainte **[<img src=images/Sketcher_ConstrainCoincident.svg style="width:16px"> [Contrainte coïncidente](Sketcher_ConstrainCoincident/fr.md)** dans la barre d\'outils.
     -   Utilisation du raccourci clavier **C**.
     -   Utilisation de l\'entrée **Sketch → Contraintes d'esquisse → Contrainte coïncidente** dans le menu supérieur.
 

@@ -10,7 +10,13 @@
 
 {{Manual:TOC/it}}
 
+
+<div class="mw-translate-fuzzy">
+
 FreeCAD dispone di un altro ambiente di lavoro interessante da esplorare: l\'ambiente [Spreadsheet](Spreadsheet_Workbench/it.md). Questo ambiente permette di creare direttamente in FreeCAD un [foglio di calcolo](https://en.wikipedia.org/wiki/Spreadsheet) come quelli fatti con [Excel](https://en.wikipedia.org/wiki/Microsoft_Excel) o con [LibreOffice](https://en.wikipedia.org/wiki/OpenOffice.org_Calc). Questi fogli di calcolo possono essere popolati con dei dati estratti dal modello, e possono anche eseguire una serie di calcoli tra i valori. I fogli di calcolo possono essere esportati come file CSV, che possono essere importati in qualsiasi altra applicazione che gestisca i foglio di calcolo.
+
+
+</div>
 
 In FreeCAD, però, fogli di calcolo hanno un\'utilità aggiuntiva: le loro celle possono ricevere un nome, e possono quindi essere referenziate da qualsiasi campo supportato dal [motore delle espressioni](Expressions/it.md). Questo trasforma fogli di calcolo in potenti strutture di controllo, in cui i valori inseriti nelle specifiche celle possono guidare le dimensioni del modello. C\'è solo una cosa da tenere a mente, dato che FreeCAD vieta le dipendenze circolari tra oggetti, lo stesso foglio non può essere utilizzato per impostare una proprietà di un oggetto e allo stesso tempo recuperare il valore della proprietà dallo stesso oggetto. Ciò renderebbe il foglio di calcolo e l\'oggetto dipendenti l\'uno dall\'altro.
 

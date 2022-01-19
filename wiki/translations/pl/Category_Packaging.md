@@ -3,7 +3,11 @@ Ta kategoria gromadzi strony związane z pakietowaniem FreeCAD na różne platfo
 
 ### Contents:
 
-[AppImage/pl](AppImage/pl.md) , [Debian development/pl](Debian_development/pl.md) , [Debian Unstable/pl](Debian_Unstable/pl.md) , [Git buildpackage/pl](Git_buildpackage/pl.md) , [Linux packaging/pl](Linux_packaging/pl.md) , [Packaging/pl](Packaging/pl.md)
+  ------------------------------------------------------- ----------------------------------------------------------- -----------------------------------------------------
+  [AppImage/pl](AppImage/pl.md)                   [Debian development/pl](Debian_development/pl.md)   [Debian Unstable/pl](Debian_Unstable/pl.md)
+  [Git buildpackage/pl](Git_buildpackage/pl.md)   [Linux packaging/pl](Linux_packaging/pl.md)         [Packaging/pl](Packaging/pl.md)
+                                                                                                                      
+  ------------------------------------------------------- ----------------------------------------------------------- -----------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md)
 

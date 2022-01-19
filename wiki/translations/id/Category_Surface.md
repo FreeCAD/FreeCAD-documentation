@@ -3,7 +3,9 @@ This category lists pages related to the [Surface Workbench/id](Surface_Workbenc
 
 ### Contents:
 
-[Surface Workbench/id](Surface_Workbench/id.md)
+  ---------------------------------------------------------
+  [Surface Workbench/id](Surface_Workbench/id.md)
+  ---------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/id](<img src="images/Property.png" style="width:16px"> Workbenches/id.md)
 

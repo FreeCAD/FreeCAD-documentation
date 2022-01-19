@@ -204,10 +204,13 @@ d.recompute()
 {{APIProperty|Area|Obszar obiektu siatki}}
 
 
+{{APIProperty|CountEdges|Liczba wierzchołków obiektu siatki}}
+
+
 {{APIProperty|CountFacets|Liczba wielokątów obiektu siatki}}
 
 
-{{APIProperty|CountPoints|Liczba wierzchołków obiektu siatki}}
+{{APIProperty|CountPoints|Liczba punktów obiektu siatki}}
 
 
 {{APIProperty|Facets|Zbiór wielokątów. Za pomocą tego atrybutu można uzyskać dostęp do wielokątów siatki: for f in mesh.Facets: print f. Facet.Points jest listą krotek współrzędnych dla wierzchołków. Facet.PointIndices jest listą indeksów dla wierzchołków wielokątów. UWAGA! Przechowuj Wielokąty w zmiennej lokalnej, ponieważ jest ona generowana w locie, za każdym razem gdy jest dostępna}}

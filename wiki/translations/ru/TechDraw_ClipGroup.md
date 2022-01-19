@@ -39,7 +39,13 @@
 -    **Views**: Список Видов, содержащихся в группе
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

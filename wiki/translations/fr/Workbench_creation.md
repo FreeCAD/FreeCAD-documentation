@@ -3,7 +3,7 @@
 
 ## Introduction
 
-Cette page vous montrera comment ajouter un nouvel atelier à l\'interface FreeCAD. Les [ateliers](Workbenches/fr.md) sont des conteneurs pour les commandes FreeCAD. Ils peuvent être codés en Python, en C++ ou en un mélange des deux, ce qui a l'avantage d'allier la vitesse de C++ à la souplesse de Python. Dans tous les cas, cependant, votre atelier sera lancé par un ensemble de deux fichiers Python.
+Cette page vous montrera comment ajouter un nouvel atelier à l\'interface de FreeCAD. Les [ateliers](Workbenches/fr.md) sont des conteneurs pour les commandes de FreeCAD. Ils peuvent être codés en Python, en C++, ou dans un mélange des deux, ce qui a l\'avantage d\'allier la vitesse du C++ à la flexibilité du Python. Dans tous les cas, cependant, votre atelier sera lancé par un ensemble de deux fichiers Python. Il peut s\'agir d\'ateliers \"internes\", inclus dans la distribution de FreeCAD, ou d\'ateliers \"externes\", distribués via le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) ou installés manuellement par téléchargement depuis un dépôt en ligne. Les ateliers internes peuvent être codés en C++, Python, ou une combinaison des deux, alors que les ateliers externes doivent être en Python uniquement.
 
 ## La structure Atelier 
 
@@ -172,6 +172,28 @@ Ajouter votre/vos page(s) de préférence :
 -   Enregistrez le fichier d\'interface utilisateur dans votre atelier, assurez-vous qu\'il est géré par cmake.
 -   Dans votre atelier, par exemple dans le fichier InitGui, dans la méthode Initialize (mais tout autre endroit fonctionne également), ajoutez : FreeCADGui.addPreferencePage (\"/path/to/myUiFile.ui\", \"MyGroup\"), \"MyGroup\" étant l\'un des groupes de préférences de la gauche. FreeCAD recherchera automatiquement un fichier \"preferences-mygroup.svg\" dans ses emplacements connus (que vous pouvez étendre avec FreeCADGui.addIconPath())
 -   Assurez-vous que la méthode addPreferencePage() n'est appelée qu'une fois, sinon votre page de préférence sera ajoutée plusieurs fois
+
+#### Distribution
+
+Pour distribuer votre atelier Python, vous pouvez soit simplement héberger les fichiers dans un endroit quelconque et demander à vos utilisateurs de les télécharger et de les placer manuellement dans leur répertoire Mod, ou vous pouvez les héberger dans un dépôt git en ligne (GitHub, GitLab, et Debian Salsa sont actuellement des emplacements supportés) et les configurer pour que le [Gestionnaire d\'Addon](Std_AddonMgr/fr.md) les installe. Les instructions pour l\'inclusion dans la liste officielle des modules complémentaires de FreeCAD peuvent être trouvées sur le [Dépôt GitHub des Addons de FreeCAD](https://github.com/FreeCAD/FreeCAD-addons/blob/master/README.md). Pour utiliser le gestionnaire d\'addons, un [fichier de métadonnées package.xml](Package_Metadata/fr.md) doit être inclus, qui indique au gestionnaire d\'addons comment trouver l\'icône de votre atelier, et permet d\'afficher une description, un numéro de version, etc. Il peut également être utilisé pour spécifier d\'autres addons externes dont votre atelier dépend, qui le bloquent ou qu\'il est censé remplacer.
+
+En outre, vous pouvez inclure un fichier appelé metadata.txt décrivant les dépendances externes de votre atelier (sur d\'autres modules complémentaires, ateliers ou modules Python). Le format de ce fichier est du texte brut, avec trois lignes facultatives :
+
+
+```python
+workbenches=
+pylibs=
+optionalpylibs=
+```
+
+Chaque ligne doit consister en une liste d\'éléments, séparés par des virgules, dont dépend votre atelier. Les ateliers peuvent être soit un atelier FreeCAD interne, par exemple \"FEM\", soit un addon externe, par exemple \"Curves\". Les bibliothèques Python requises et optionnelles doivent être spécifiées avec leur nom Python canonique, tel que vous l\'utiliseriez avec `pip install`. Par exemple :
+
+
+```python
+workbenches=FEM,Curves
+pylibs=ezdxf
+optionalpylibs=metadata,git
+```
 
 ### Ateliers en C++ 
 

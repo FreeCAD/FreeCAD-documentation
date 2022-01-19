@@ -37,7 +37,13 @@ Dieses Werkzeug ermöglicht dir eine [Kalkulationstabellen](Spreadsheet_Workbenc
 -    **Linienbreite**: Die Breite der Zellränder
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

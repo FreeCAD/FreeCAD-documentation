@@ -5,7 +5,7 @@
    Workbenches:[TechDraw](TechDraw_Workbench.md)
    Shortcut:
    Version:0.20
-   SeeAlso:[TechDraw ExtensionDrawArc](TechDraw_ExtensionDrawArc.md)
+   SeeAlso:[TechDraw ExtensionDrawCosmArc](TechDraw_ExtensionDrawCosmArc.md)
 ---
 
 # TechDraw ExtensionDrawCosmCircle

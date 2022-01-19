@@ -5,7 +5,9 @@ See also [Tutorials](Tutorials/bg.md) and [video tutorials](video_tutorials/bg.m
 
 ### Contents:
 
-[Tutorials/bg](Tutorials/bg.md)
+  -----------------------------------------
+  [Tutorials/bg](Tutorials/bg.md)
+  -----------------------------------------
 
 ---
 [documentation index](../README.md) > Category:Tutorials/bg

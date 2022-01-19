@@ -3,7 +3,9 @@ This category lists pages related to the [OpenSCAD\_Workbench/pt](OpenSCAD_Workb
 
 ### Contents:
 
-[OpenSCAD Workbench/pt](OpenSCAD_Workbench/pt.md)
+  -----------------------------------------------------------
+  [OpenSCAD Workbench/pt](OpenSCAD_Workbench/pt.md)
+  -----------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/pt](<img src="images/Property.png" style="width:16px"> Workbenches/pt.md)
 

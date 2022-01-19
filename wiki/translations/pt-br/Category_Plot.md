@@ -3,7 +3,9 @@ This category lists pages related to the [Plot Workbench/pt-br](Plot_Workbench/p
 
 ### Contents:
 
-[Plot Workbench/pt-br](Plot_Workbench/pt-br.md)
+  ---------------------------------------------------------
+  [Plot Workbench/pt-br](Plot_Workbench/pt-br.md)
+  ---------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/pt-br](<img src="images/Property.png" style="width:16px"> Workbenches/pt-br.md)
 

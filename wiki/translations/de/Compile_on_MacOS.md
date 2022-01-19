@@ -35,7 +35,7 @@ FreeCAD unterhält einen Homebrew \'tap\', der die erforderlichen Formeln und Ab
 ```python
 brew tap freecad/freecad
 brew install eigen
-brew install --only-dependencies freecad --with-packaging-utils
+brew install --only-dependencies freecad
 ```
 
 Hinweise:

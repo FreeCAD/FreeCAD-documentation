@@ -8,9 +8,13 @@ This is the **top category** which contains the main categories of the FreeCAD w
 
 ### Contents:
 
-, , , , , , ,
+  -- -- --
+        
+        
+        
+  -- -- --
 
 [<img src="images/Property.png" style="width:16px"> Categories/uk](<img src="images/Property.png" style="width:16px"> Categories/uk.md) [<img src="images/Property.png" style="width:16px"> Addons/uk](<img src="images/Property.png" style="width:16px"> Addons/uk.md) [<img src="images/Property.png" style="width:16px"> Administration/uk](<img src="images/Property.png" style="width:16px"> Administration/uk.md) [<img src="images/Property.png" style="width:16px"> Categories/uk](<img src="images/Property.png" style="width:16px"> Categories/uk.md) [<img src="images/Property.png" style="width:16px"> Command Reference/uk](<img src="images/Property.png" style="width:16px"> Command_Reference/uk.md) [<img src="images/Property.png" style="width:16px"> Documentation/uk](<img src="images/Property.png" style="width:16px"> Documentation/uk.md) [<img src="images/Property.png" style="width:16px"> Hubs/uk](<img src="images/Property.png" style="width:16px"> Hubs/uk.md) [<img src="images/Property.png" style="width:16px"> Template/uk](<img src="images/Property.png" style="width:16px"> Template/uk.md) [<img src="images/Property.png" style="width:16px"> Tutorials/uk](<img src="images/Property.png" style="width:16px"> Tutorials/uk.md)
 
 ---
-[documentation index](../README.md) > [Addons/uk]] , ](Category_Addons/uk]] , .md) > Category:Categories/uk
+[documentation index](../README.md) > Category:Categories/uk

@@ -66,7 +66,13 @@ L\'oggetto Componente di Arch è anche una base condivisa da tutti gli altri ogg
 
 -   Il posizionamento del componente Arch viene applicato dopo che le addizioni e le sottrazioni sono state eseguite, quindi queste vengono eseguite rispetto all\'oggetto di base nella sua posizione di base. Poi il risultato viene spostato nella posizione definita dal Posizionamento.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Gli oggetti possono essere aggiunti o rimossi negli elenchi delle Addizioni e Sottrazioni di un componente selezionando sia l\'oggetto che il componente e utilizzando il comando <img alt="" src=images/Arch_Add.svg  style="width:16px;"> [Aggiungi componente](Arch_Add/it.md) o <img alt="" src=images/Arch_Remove.svg  style="width:16px;"> [Rimuovi componente](Arch_Remove/it.md), o dal pannello delle azioni facendo doppio clic sul componente nella vista ad albero. Il pannello delle azioni consente inoltre di verificare quale oggetto fa parte di questi elenchi.
+
+
+</div>
 
 -   **Role**: Ogni componente Arch, oltre alla funzione definita dal tipo (muro, finestra, ecc.), Ha anche una proprietà Ruolo, che può definire ulteriormente quale tipo di funzione svolge. Ad esempio, una <img alt="" src=images/Arch_Structure.svg  style="width:16px;"> [Struttura](Arch_Structure/it.md) può avere un ruolo di trave o di colonna. I componenti generici di Arch (come sonp prodotti da questo comando) possono avere qualsiasi ruolo disponibile nell\'intero ambiente Arch. Il ruolo è ciò che viene utilizzato per definire il tipo di oggetto IFC da esportare quando viene [esportato in IFC](Arch_IFC/it.md).
 
@@ -76,7 +82,13 @@ L\'oggetto Componente di Arch è anche una base condivisa da tutti gli altri ogg
 
 -   **Tag**: La proprietà Tag è un altro campo di testo, che può essere utilizzato per fornire un\'ulteriore identità personalizzata agli oggetti.
 
+
+<div class="mw-translate-fuzzy">
+
 -   **Material**: Tutti i componenti Arch hanno una proprietà materiale, che può contenere un [Materiale](Arch_SetMaterial/it.md) o un [Multi-materiale](Arch_MultiMaterial/it.md) (non tutti i tipi di oggetto Arch supportano l\'uso dei Muti-materiali). Le proprietà DiffuseColor e Transparency del materiale allegato definiscono il colore della forma e la trasparenza del componente Arch. Il materiale viene importato ed esportato in [IFC](Arch_IFC/it.md), [OBJ](Arch_OBJ/it.md) e [DAE](Arch_DAE/it.md).
+
+
+</div>
 
 
 <div class="mw-translate-fuzzy">

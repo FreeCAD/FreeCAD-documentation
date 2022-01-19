@@ -5,7 +5,9 @@ These templates produce small pieces of text that are suitable for transclusion.
 
 ### Contents:
 
-[Template:UnfinishedDocu/ru](Template:UnfinishedDocu/ru.md)
+  ---------------------------------------------------------------------
+  [Template:UnfinishedDocu/ru](Template:UnfinishedDocu/ru.md)
+  ---------------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Template/ru](<img src="images/Property.png" style="width:16px"> Template/ru.md)
 

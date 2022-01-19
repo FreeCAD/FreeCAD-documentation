@@ -60,7 +60,7 @@ These are tools to improve your TechDraw drawings.
 
 -   <img alt="" src=images/TechDraw_ExtensionDrawCosmCircle.svg  style="width:32px;"> [Add cosmetic circle](TechDraw_ExtensionDrawCosmCircle.md): adds a cosmetic circle. <small>(v0.20)</small> 
 
--   <img alt="" src=images/TechDraw_ExtensionDrawArc.svg  style="width:32px;"> [Add cosmetic arc](TechDraw_ExtensionDrawArc.md): adds a cosmetic arc. <small>(v0.20)</small> 
+-   <img alt="" src=images/TechDraw_ExtensionDrawCosmArc.svg  style="width:32px;"> [Add cosmetic arc](TechDraw_ExtensionDrawCosmArc.md): adds a cosmetic arc. <small>(v0.20)</small> 
 
 -   <img alt="" src=images/TechDraw_ExtensionLinePerpendicular.svg  style="width:32px;"> [Add cosmetic perpendicular line](TechDraw_ExtensionLinePerpendicular.md): adds a cosmetic line perpendicular to another line. <small>(v0.20)</small> 
 

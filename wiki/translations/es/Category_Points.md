@@ -3,7 +3,9 @@ This category lists pages related to the [Points Workbench/es](Points_Workbench/
 
 ### Contents:
 
-[Points Workbench/es](Points_Workbench/es.md)
+  -------------------------------------------------------
+  [Points Workbench/es](Points_Workbench/es.md)
+  -------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/es](<img src="images/Property.png" style="width:16px"> Workbenches/es.md)
 

@@ -83,8 +83,6 @@ Inne wiadomości dotyczące rozwoju:
 -   Układ współrzędnych w oknie [widoku 3D](3D_view/pl.md) może zostać zmieniony w preferencjach w sekcji [Wyświetlanie → Widok 3D](Preferences_Editor/pl#Widok_3D.md). [Pull request \#5182](https://github.com/FreeCAD/FreeCAD/pull/5182)
 -   Nowe ustawienie w [Preferencje → Ogólne](Preferences_Editor/pl#Og.C3.B3lne.md) pozwala na zastąpienie separatora dziesiętnego klawiatury numerycznej odpowiednim lokalnym separatorem, jeśli są one różne. [Pull request \#3256](https://github.com/FreeCAD/FreeCAD/pull/3256) [Pull request \#5150](https://github.com/FreeCAD/FreeCAD/pull/5150) [Pull request 5203](https://github.com/FreeCAD/FreeCAD/pull/5203).
 
-## Aplikacja::Łączenie i montaż 
-
 ## System podstawowy, App, baza i przestrzenie nazw GUI 
 
 +-------------------------------------------------------------------------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
@@ -99,6 +97,11 @@ Inne wiadomości dotyczące rozwoju:
 ## Menadżer dodatków 
 
 ## Środowisko pracy Architektura 
+
++---------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| <img alt="" src=images/ArchWindow_Placement_1r_relnotes_0.20.png  style="width:250px;"> | <img alt="" src=images/ArchWindow_Placement_2r_relnotes_0.20.png  style="width:250px;"> | -   With the <img alt="" src=images/Attach_in_SketchArch.svg  style="width:20px;"> [Attach Feature](https://github.com/paullee0/FreeCAD_SketchArch) it is now possible to place <img alt="" src=images/Arch_Window.svg  style="width:20px;"> [Windows](Arch_Window.md) and <img alt="" src=images/Arch_Equipment.svg  style="width:20px;"> [Equipment](Arch_Equipment.md) parametrically and intuitively in relation to <img alt="" src=images/Arch_Wall.svg  style="width:20px;"> [Walls](Arch_Wall.md). To use this feature the experimental external <img alt="" src=images/SketchArch_Workbench.svg  style="width:20px;"> [SketchArch Workbench](https://github.com/paullee0/FreeCAD_SketchArch) must be installed. |
+|                                                                                                         |                                                                                                         | -   [Forum discussion](https://forum.freecadweb.org/viewtopic.php?f=23&t=50802), [Add-on and ReadMe on Github](https://github.com/paullee0/FreeCAD_SketchArch) (Not yet available in the [Add-on Manager](Std_AddonMgr.md)).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
++---------------------------------------------------------------------------------------------------------+---------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ## Środowisko pracy Rysunek Roboczy 
 
@@ -135,6 +138,9 @@ Dla calowych <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> [w
 
 ### Dalsze ulepszenia MES 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Dodano nowy solver: **Solve → [<img src=images/FEM_SolverMystran.svg style="width:16px">. [Solver Mystran](FEM_SolverMystran/pl.md)**. Wiele commitów.
 -   Dodano nowe wiązanie: **Model → Geometrical Constraints → [<img src=images/FEM_ConstraintSpring.svg style="width:16px"> [Constraint Spring](FEM_ConstraintSpring/pl.md)**. [PR \#4982](https://github.com/FreeCAD/FreeCAD/pull/4982).
 -   Kolejność elementów w generatorze siatek [Gmsh](FEM_MeshGmshFromShape/pl.md) może być zmieniona poprzez okno dialogowe siatki [PR \#4660](https://github.com/FreeCAD/FreeCAD/pull/4660).
@@ -143,6 +149,9 @@ Dla calowych <img alt="" src=images/Draft_Dimension.svg  style="width:24px;"> [w
 -   Dodano wsparcie dla [Gmsh](FEM_MeshGmshFromShape/pl.md) algorytmów siatkowych \"HXT\" *(3D)* i \"Packing Parallelograms\" *(2D)* [PR \#4654](https://github.com/FreeCAD/FreeCAD/pull/4654).
 -   Umożliwiono ustawienie dla [Gmsh](FEM_MeshGmshFromShape#Properties/pl.md) właściwości **Optymalizacja wysokiego poziomu** określonego algorytmu [PR \#4705](https://github.com/FreeCAD/FreeCAD/pull/4705).
 -   Nieliniowe materiały stałe z prostym utwardzaniem mogą mieć teraz dowolną liczbę granic plastyczności. [PR \#5024](https://github.com/FreeCAD/FreeCAD/pull/5024)
+
+
+</div>
 
 ## Import
 
@@ -192,10 +201,16 @@ Jest tam również pole tekstowe do zgłaszania błędów w OpenSCAD.
 
 ### Planowane ulepszenia środowiska Projekt Części 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Funkcja [Helisa](PartDesign_AdditiveHelix/pl.md) można teraz również użyć normalnej szkicu jako osi [pull request \#5199](https://github.com/FreeCAD/FreeCAD/pull/5199),
 -   Funkcja [Koło łańcuchowe](PartDesign_Sprocket/pl.md) może teraz tworzyć również koła łańcuchowe zgodne z normami ISO [wątek na forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=44525#p478369) [pull request \#4478](https://github.com/FreeCAD/FreeCAD/pull/4478),
 -   Funkcje [Wyciągnięcie po profilach](PartDesign_AdditiveLoft.md) oraz [Wyciągnięcie po ścieżce](PartDesign_AdditivePipe.md) pozwalają teraz na użycie powierzchni bryły dla przekroju.. [Pull request \#5155](https://github.com/FreeCAD/FreeCAD/pull/5155),
 -   Możliwe jest teraz wybranie kilku powierzchni przed wywołaniem okna dialogowego [wyciągnięcia](PartDesign_Pad/pl.md) lub [kieszeni](PartDesign_Pocket/pl.md). W tym przypadku pierwsza wybrana powierzchnia zostanie użyta do określenia domyślnego kierunku wyciągnięcia /kieszeni. [commit d34a5616](https://github.com/FreeCAD/FreeCAD/commit/d34a5616a2b38c96ad05f9a0763ba7504dfb814d).
+
+
+</div>
 
 ## Środowisko pracy Path 
 
@@ -214,6 +229,9 @@ Jest tam również pole tekstowe do zgłaszania błędów w OpenSCAD.
 
 ### Planowane ulepszenia środowiska Szkicownik 
 
+
+<div class="mw-translate-fuzzy">
+
 -   Zaktualizowana obsługa przycinania [Pull Request](https://github.com/FreeCAD/FreeCAD/pull/4330) [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=10&t=54441) \<\-- Potrzebuje prezentacji ekranów
 -   Zachowanie funkcji <img alt="" src=images/Sketcher_CreateSlot.svg  style="width:24px;"> [rowek](Sketcher_CreateSlot/pl.md) uległo zmianie. Rowki mogą być teraz tworzone poprzez zdefiniowanie środka obu półokręgów. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4843) [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=17&t=59243&p=508658#p508658)
 -   Automatyzacja widoczności pozwala na otwarcie Szkicownika w [trybie przekroju](Sketcher_ViewSection/pl.md) po wejściu do trybu edycji. [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4742) [dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=3&t=57056)
@@ -223,6 +241,9 @@ Jest tam również pole tekstowe do zgłaszania błędów w OpenSCAD.
 -   Wiązania promienia/średnicy są wyświetlane przy użyciu obrotu kątowego, aby ułatwić wizualizację. Kąt i opcjonalna losowość są ustawiane przez użytkownika za pomocą parametrów udokumentowanych w [Fine-tuning](Fine-tuning/pl.md) [Pull request](https://github.com/FreeCAD/FreeCAD/pull/4934) [Dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=22&t=60370).
 -   Możliwe jest teraz ustalenie kąta kierunku podczas używania narzędzia [Szyk prostokątny](Sketcher_RectangularArray/pl.md) [commit](https://github.com/FreeCAD/FreeCAD/commit/c9eaa2393d33) [Dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?p=535691#p535691)
 -   Możliwe jest teraz ustalenie kąta kierunku podczas używania narzędzi [Klonuj](Sketcher_Clone/pl.md), [Kopiuj](Sketcher_Copy/pl.md) i [Przesuń](Sketcher_Move/pl.md) [commit](https://github.com/FreeCAD/FreeCAD/commit/6e4a09f569cf) [Dyskusja na forum](https://forum.freecadweb.org/viewtopic.php?f=8&t=62799)
+
+
+</div>
 
 ## Środowisko pracy Arkusz Kalkulacyjny 
 
@@ -256,6 +277,8 @@ Jest tam również pole tekstowe do zgłaszania błędów w OpenSCAD.
 +-------------------------------------------------------------------------------------------------------------+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 ### Kolejne ulepszenia dla środowiska Rysunek Techniczny 
+
+-   When there are several [Pages](TechDraw_PageDefault.md) and a [View](TechDraw_View.md), [ProjectionGroup](TechDraw_ProjectionGroup.md) etc. is added, there is now a dialog to ask to what page the view should be added. [Pull request \#5309](https://github.com/FreeCAD/FreeCAD/pull/5309).
 
 ## Środowisko pracy Web 
 

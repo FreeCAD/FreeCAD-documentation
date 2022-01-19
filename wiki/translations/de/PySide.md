@@ -7,12 +7,24 @@ Die [PySide](PySide.md) Bibliothek ermöglicht den Zugriff auf das plattformübe
 
 Wenn du FreeCAD installierst, solltest du sowohl Qt als auch PySide als Teil des Pakets erhalten. Wenn du selbst [Kompilierst](Compiling/de.md), dann musst du überprüfen, ob diese beiden Bibliotheken installiert sind, damit FreeCAD korrekt läuft. Natürlich wird PySide nur funktionieren, wenn Qt vorhanden ist.
 
+
+<div class="mw-translate-fuzzy">
+
 In der Vergangenheit benutzte FreeCAD PyQt, eine weitere Qt Bindung für Python, aber 2013 ([1dc122dc9a](https://github.com/FreeCAD/FreeCAD/commit/1dc122dc9a)) migrierte das Projekt zu PySide, weil es eine zulässigere [Lizenz](licence/de.md) hat.
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 Für weitere Informationen siehe:
 
 -   [Wikipedia:PySide](http://en.wikipedia.org/wiki/PySide)
 -   [Unterschiede zwischen PySide und PyQt](http://qt-project.org/wiki/Differences_Between_PySide_and_PyQt)
+
+
+</div>
 
 ![](images/PySideScreenSnapshot1.jpg ) ![](images/PySideScreenSnapshot2.jpg ) 
 *Mit PySide erstellte Beispiele. Links: ein einfacher Dialog. Rechts: ein komplexerer Dialog mit Diagrammen.*
@@ -39,7 +51,7 @@ PySide2.QtUiTools -> PySide.QtUiTools
 Der einzige ungewöhnliche Aspekt ist, dass die `PySide2.QtWidgets` Klassen im `PySide.QtGui` Namensraum platziert werden. 
 ```python
 PySide2.QtWidgets.QCheckBox -> PySide.QtGui.QCheckBox
-``` {{Top}}\]
+``` {{Top}}
 
 ## Beispiele für PySide Verwendung 
 

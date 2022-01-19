@@ -3,7 +3,10 @@ This category shows documentation articles dealing with python scripting, which 
 
 ### Contents:
 
-[Debugging/zh](Debugging/zh.md) , [Property/zh](Property/zh.md) , [Topological data scripting/zh](Topological_data_scripting/zh.md)
+  ----------------------------------------- --------------------------------------- ---------------------------------------------------------------------------
+  [Debugging/zh](Debugging/zh.md)   [Property/zh](Property/zh.md)   [Topological data scripting/zh](Topological_data_scripting/zh.md)
+                                                                                    
+  ----------------------------------------- --------------------------------------- ---------------------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Documentation/zh](<img src="images/Property.png" style="width:16px"> Documentation/zh.md)
 

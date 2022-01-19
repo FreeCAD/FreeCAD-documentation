@@ -1,5 +1,5 @@
 # Translating an external workbench/pl
-W poniższych uwagach, `" kontekst"` powinien być nazwą twojego dodatku lub środowiska pracy, na przykład, `"MySuperAddon"` lub `"DraftPlus"`, lub cokolwiek innego. Ten kontekst sprawia, że wszystkie tłumaczenia twojego kodu będą zebrane pod tą samą nazwą, aby tłumacze mogli je łatwiej zidentyfikować. Oznacza to, że będą oni dokładnie wiedzieli, do którego dodatku lub środowiska pracy należy dany ciąg znaków.
+W poniższych uwagach, `" kontekst"` powinien być nazwą twojego dodatku lub środowiska pracy, na przykład, `"MySuperAddon"` lub `"DraftPlus"`, lub cokolwiek innego. Wielkość liter ma tu znaczenie: na przykład `"Context"` to nie to samo co `"context"`. Ten kontekst sprawia, że wszystkie tłumaczenia twojego kodu będą zebrane pod tą samą nazwą, aby tłumacze mogli je łatwiej zidentyfikować. Oznacza to, że będą oni dokładnie wiedzieli, do którego dodatku lub środowiska pracy należy dany ciąg znaków.
 
 **Uwaga**: Oto skrypt all-in-one, który automatyzuje całą procedurę opisaną poniżej *(zalecamy jednak przeczytanie procedury, aby wiedzieć, co skrypt powinien zrobić)*: <https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>
 
@@ -107,28 +107,30 @@ Nie używaj swojego własnego `"kontekstu"` w tym konkretnym przypadku. Zachowaj
 
 ### Wewnątrz InitGui.py 
 
--   Dodaj następującą linię, blisko początku pliku:
+-   Dodaj następującą linię, na początku pliku:
 
 :   
     
 ```python
-    def QT_TRANSLATE_NOOP(scope, text):
+    def QT_TRANSLATE_NOOP(context, text):
         return text
     
 ```
     
 
--   Aby przetłumaczyć nazwy menu:
+-   Makro `QT_TRANSLATE_NOOP` nie robi nic, ale zaznacza teksty, które później zostaną pobrane przez narzędzie `lupdate`. Ponieważ nie robi ono w zasadzie nic, używamy go tylko w szczególnych przypadkach, gdy FreeCAD sam się wszystkim zajmuje.
+
+-   Aby przetłumaczyć nazwy menu i pasków narzędzi, użyj słowa `"Workbench"` jako kontekstu:
 
 :   
     
 ```python
-    self.appendMenu(QT_TRANSLATE_NOOP("context", "My menu"), [list of commands, ...])
+    self.appendMenu(QT_TRANSLATE_NOOP("Workbench", "My menu"), [list of commands, ...])
+    self.appendToolbar(QT_TRANSLATE_NOOP("Workbench", "My toolbar"), [list of commands, ...])
     
 ```
     
 
--   Makro `QT_TRANSLATE_NOOP` nie robi nic, ale zaznacza teksty, które później zostaną pobrane przez narzędzie `lupdate`. Ponieważ nie robi ono w zasadzie nic, używamy go tylko w szczególnych przypadkach, gdy FreeCAD sam się wszystkim zajmuje.
 -   Dodaj ścieżkę do folderu `translations/` w funkcji Initialized:
 
 :   

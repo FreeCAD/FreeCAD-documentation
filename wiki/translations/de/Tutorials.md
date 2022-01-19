@@ -28,6 +28,9 @@ FreeCAD bietet zwei Hauptabläufe zur Modellierung von Teilen:
 
 Bitte beachten Sie, dass der [PartDesign-Arbeitsbereich](PartDesign_Workbench/de.md)-Arbeitsablauf ab v0.17 aufwärts wesentlich verändert wurde; einige der Tutorien müssen noch aktualisiert werden und können sich auf die Version v0.16 beziehen.
 
+
+<div class="mw-translate-fuzzy">
+
 <File:GGTuto1> Vue.PNG\|link=[Creating a simple part with PartDesign](Creating_a_simple_part_with_PartDesign.md)\|[Erstellen eines einfachen Bauteils mit PartDesign](Creating_a_simple_part_with_PartDesign/de.md) (v0.17)
 Eine Einführung in den PartDesign-Workflow: Verfolgen einer Skizze, verwenden von Pad, Tasche und bewegen des Objekts. PD WB Tutorial018.png\|link=[Basic\_Part\_Design\_Tutorial/de](Basic_Part_Design_Tutorial/de.md)\|[Basic Part Design Tutorial](Basic_Part_Design_Tutorial/de.md) (v0.17)
 Modelliere ein einfaches Teil mit einer Feature-Bearbeitungsmethode: Erstellen einer Skizze, verwenden von Pad, externen Referenzen, Tasche und Spiegel. TBHS-model.png\|link=[Toothbrush Head Stand/de](Toothbrush_Head_Stand/de.md)\|[Modellieren eines elektrischen Zahnbürstenkopfständers](Toothbrush_Head_Stand/de.md) (v0.16)
@@ -39,6 +42,9 @@ Verwenden Sie feste Primitive, wie Würfel und Zylinder, und boolesche Operation
 Erzeugen Sie einen Eisenwinkel durch zwei Verfahren: durch die Verwendung von Solid-Primitiven und Booleschen Operationen (CSG); und durch Extrudieren eines planaren Profils. <File:HTCaeroplane04.png%7Clink=>[Aeroplane/de](Aeroplane/de.md)\|[Flugzeug Tutorial](Aeroplane/de.md)
 Placements in FreeCAD verstehen während der Erstellung eines einfachen Flugzeug-Modells. Lerne dann Rotationswinkel kennen: Gierung (Z), Neigung (Y) und Rollen (X). <File:T13_14_Threads_components.png%7Clink=>[Thread\_for\_Screw\_Tutorial/de](Thread_for_Screw_Tutorial/de.md)\|[Gewinde für Schrauben Tutorial](Thread_for_Screw_Tutorial/de.md) (v0.19)
 Lerne wie Schraubengewinde mit unterschiedlichen Techniken und den Werkzeugen [Part Helix](Part_Helix/de.md), [PartDesign AdditivePipe](PartDesign_AdditivePipe.md), [Part Sweep](Part_Sweep/de.md), [Part Fuse](Part_Fuse/de.md), und [Part Cut](Part_Cut/de.md) hergestellt werden.
+
+
+</div>
 
 Das Projekt Raspberry Pi hat einfache Tutorials erstellt, die leicht verständlich sind, insbesondere für Neueinsteiger von CAD-Systemen:
 

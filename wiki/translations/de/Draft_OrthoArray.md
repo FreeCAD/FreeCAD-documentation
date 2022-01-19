@@ -35,25 +35,19 @@ Diese Anweisung kann für 2D-Objekte angewendet werden, die mit der [Arbeitsbere
 
 ## Optionen
 
--   Enter the **Number of elements** for the X, Y and Z directions. This number must be at least {{Value|1}} for every direction.
--   Enter the **X intervals** to specify the displacement for the elements in the X direction. For a rectangular array the Y and Z values must be {{Value|0}}.
--   Enter the **Y intervals** to specify the displacement for the elements in the Y direction. For a rectangular array the X and Z values must be {{Value|0}}.
--   Enter the **Z intervals** to specify the displacement for the elements in the Z direction. For a rectangular array the X and Y values must be {{Value|0}}.
--   Press the **Reset X, Y or Z** button to reset the displacement in the given direction to the default values.
--   If the **Fuse** checkbox is checked overlapping elements in the array are fused. This does not work for Link arrays.
--   If the **Link array** checkbox is checked a Link array instead of a regular array is created. A Link array is more efficient because its elements are [App Link](App_Link.md) objects.
--   Press **Esc** or the **Cancel** button to abort the command.
+-   Die**Number of elements** für die X, Y and Z-Richtung eingeben. Die Zahl muss mindestens {{Value|1}} für jede Richtung sein.
+-   Das **X-Interval** eingeben, um den Versatz der Elemente in X-Richtung festzulegen. Für ein rechteckiges Feld müssen die Werte für Y und Z {{Value|0}} sein.
+-   Das **Y-Interval** eingeben, um den Versatz der Elemente in Y-Richtung festzulegen. Für ein rechteckiges Feld müssen die Werte für X und Z {{Value|0}} sein.
+-   Das **Z-Interval** eingeben, um den Versatz der Elemente in Z-Richtung festzulegen. Für ein rechteckiges Feld müssen die Werte für X und Y {{Value|0}} sein.
+-   Auf die **Reset X, Y oder Z**-Schaltfläche klicken, um den Versatz in der gegangenen Richtung zurück zu den Vorgabewerten zurück zu setzen.
+-   Ist das **Fuse**-Kästchen angehakt, werden überlappende Elemente im Feld miteinander verschmolzen. Das funktioniert nicht bei Verknüpften Feldern (link arrays).
+-   Ist das **Link array**-Kästchen angehakt, wird ein Verknüpftes Feld anstelle eines regulären Feldes erstellt. Ein Verknüpftes Feld ist effizienter, weil seine Elemente von [Anwendungsverknüpfungen](App_Link/de.md) Objekte sind.
+-   Mit der **Esc**-Taste oder der **Cancel**-Schaltfläche kann die Ausführung abgebrochen werden.
 
 ## Hinweise
 
-
-<div class="mw-translate-fuzzy">
-
--   Jedes Element im Feld ist eine exakte Kopie des Originals, aber das geasamte Feld wird als eine einzige Einheit mit ihren Eigenschaften und ihrer Erscheinung angesehen.
--   Dieser Befehl erzeugt das gleiche \"Feld\"objekt, wie das, das mit den **[<img src=images/Draft_PolarArray.svg style="width:16px"> [Polares Feld](Draft_PolarArray/de.md)** und **[<img src=images/Draft_CircularArray.svg style="width:16px"> [Kreisfeld](Draft_CircularArray/de.md)**-Werkeugen erstellt wurde. Deshalb kann das Feld von orthogonal in polar oder kreisförmig durch seinen **Feldtyp** umgewandelt werden.
-
-
-</div>
+-   Ein Entwurfs-OrthoFeld kann in ein [Entwurf Polares Feld](Draft_PolarArray/de.md) oder ein [Kreisfeld](Draft_CircularArray/de.md) durch die Änderung seiner **Feldtyp**-Eigenschaft umgewandelt werden.
+-   Ein Verknüpfungsfeld (Link array) kann nicht in ein reguläres Feld und umgekehrt umgewandelt werden. Die Feldart wird zum Erstellungszeitpunkt bestimmt.
 
 ## Einstellungen
 
@@ -65,14 +59,14 @@ Siehe auch: [Eigenschaftseditor](Preferences_Editor/de.md) und [Entwurfseigensch
 
 Siehe auch: [Eigenschaftseditor](property_editor/de.md).
 
-The Draft OrthoArray command, the [Draft PolarArray command](Draft_PolarArray.md) and the [Draft CircularArray command](Draft_CircularArray.md) create the same object. This object is derived from a [Part Feature](Part_Feature.md) object and inherits all its properties (with the exception of some View properties that are not inherited by Link arrays). The following properties are additional unless otherwise stated:
+Die Entwurfs-OrthoFeld Anweisung, die [Entwurf PolarAnordnungsanweisung](Draft_PolarArray/de.md) und die [Entwurf KreisAnordnungsanweisung](Draft_CircularArray/de.md) erstellen das gleiche Objekt. Dieses Objekt ist von einem [Part Formelement](Part_Feature/de.md)-Objekt abgeleitet und erbt alle Eigenschaften, mit Ausnahme einiger Ansichtseigenschaften, die nicht von Verknüpfungsfeldern geerbt wurden. Die folgenden Eigenschaften gibt es zusätzlich, wenn nicht anders angegeben:
 
 ### Daten
 
 
 {{TitleProperty|Verknüpfung}}
 
-The properties in this group are only available for Link arrays. See [Std LinkMake](Std_LinkMake#Properties.md) for more information.
+Die Eigenschaften dieser Gruppe gibt es nur für Vernüpfte Felder (link arrays). Siehe auch [Std VernüpfungMachen](Std_LinkMake/de#Eigenschaften.md).
 
 -    **Scale|Float**
     
@@ -105,9 +99,9 @@ The properties in this group are only available for Link arrays. See [Std LinkMa
     
 
 
-{{TitleProperty|Circular array}}
+{{TitleProperty|Kreisanordnung}}
 
-The properties in this group are hidden for orthogonal arrays and polar arrays.
+Die Eigenschaften dieser Gruppe sind vor ortogonalen und polaren Feldern verborgen.
 
 -    **Number Circles|Integer**: specifies the number of circular layers. Must be at least {{Value|2}}.
 
@@ -118,7 +112,7 @@ The properties in this group are hidden for orthogonal arrays and polar arrays.
 -    **Tangential Distance|Distance**: specifies the distance between elements in the same circular layer. Must be larger than zero.
 
 
-{{TitleProperty|Objects}}
+{{TitleProperty|Objekte}}
 
 -    **Array Type|Enumeration**: specifies the type of array, which can be {{value|ortho}}, {{value|polar}} or {{value|circular}}.
 
@@ -133,7 +127,7 @@ The properties in this group are hidden for orthogonal arrays and polar arrays.
 -    **Fuse|Bool**: specifies if overlapping elements in the array are fused or not. Not used for Link arrays.
 
 
-{{TitleProperty|Orthogonal array}}
+{{TitleProperty|Orthogonales Feld}}
 
 The properties in this group are hidden for circular arrays and polar arrays.
 
@@ -150,7 +144,7 @@ The properties in this group are hidden for circular arrays and polar arrays.
 -    **Number Z|Integer**: specifies the number of elements in the Z direction. Must be at least {{Value|1}}.
 
 
-{{TitleProperty|Polar array}}
+{{TitleProperty|Polares Feld}}
 
 The properties in this group are hidden for circular arrays and orthogonal arrays.
 
@@ -163,7 +157,7 @@ The properties in this group are hidden for circular arrays and orthogonal array
 
 {{TitleProperty|Polar/circular array}}
 
-The properties in this group are hidden for orthogonal arrays.
+Die Eigenschaften dieser Gruppe sind vor orthogonalen Feldern verborgen.
 
 -    **Axis|Vector**: specifies the direction of the axis of the array.
 
@@ -215,11 +209,11 @@ Die Eigenschaften dieser Gruppe, mit Ausnahme der vererbten Eigenschaft, gibt es
 
 {{TitleProperty|Zeige Auswahlmöglichkeiten}}
 
-The properties in this group are inherited properties. See [Part Feature](Part_Feature#Properties.md) for more information.
+Die Eigenschaften in dieser Gruppe sind vererbte Eigenschaften. Siehe auch [Part Formelement](Part_Feature/de#Eigenschaften.md).
 
--    **Bounding Box|Bool**: this property is not inherited by Link arrays.
+-    **Bounding Box|Bool**: diese Eigenschaft ist nicht durch Verknüpfungsfelder vererbt.
 
--    **Display Mode|Enumeration**: for Link arrays it can be {{value|Link}} or {{value|ChildView}}. For other arrays it can be: {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} or {{value|Points}}
+-    **Display Mode|Enumeration**: für Verknüpfungsfelder kann es {{value|Link}} oder {{value|ChildView}} sein. Für andere Felder können es: {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} oder {{value|Points}} sein.
 
 -    **Show In Tree|Bool**
     
@@ -230,14 +224,14 @@ The properties in this group are inherited properties. See [Part Feature](Part_F
 
 {{TitleProperty|Entwurf}}
 
--    **Pattern|Enumeration**: not used.
+-    **Pattern|Enumeration**: nicht verwendet.
 
--    **Pattern Size|Float**: not used.
+-    **Pattern Size|Float**: nicht verwendet.
 
 
 {{TitleProperty|Objectstil}}
 
-The properties in this group are not inherited by Link arrays.
+Die Eigenschaften dieser Gruppe sind nicht durch Verknüpfungsfelder vererbt.
 
 ## Skripten
 
@@ -245,13 +239,7 @@ Siehe auch: [Autogenerated API documentation](https://freecad.github.io/SourceDo
 
 ### Parametrische Anordnung 
 
-
-<div class="mw-translate-fuzzy">
-
-Das Werkzeug AnordnungRechtwinklig kann in [Makros](macros/de.md) und von der [Python](Python/de.md) Konsole aus mit folgender Funktion verwendet werden:
-
-
-</div>
+Um ein parametrisches rechteckiges Feld zu erstellen, wird die `make_array`-Methode (<small>(v0.19)</small> ) des Entwurfmodules verwendet. Diese Methode ersetzt die veraltete `makeArray`-Methode. Die `make_array`-Methode kann Entwurfs-OrthoFelder, [Entwurf PolarAnordnung](Draft_PolarArray/de.md) und [Entwurf Kreisanordnung](Draft_CircularArray/de.md) erstellen. Für jeden Feldtyp gibt es ein oder mehrere Verbinder (wrappers).
 
 Die main Methode:
 

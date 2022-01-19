@@ -1,5 +1,5 @@
 # Topological naming problem/pl
-## Introduction
+## Wprowadzenie
 
 
 {{TOCright}}
@@ -15,7 +15,7 @@ The topological naming issue is a complex problem in CAD modelling that stems fr
 
 The topological naming problem most often affects and confuses new users of FreeCAD. In PartDesign, the user is advised to follow the best practices discussed in the [feature editing](feature_editing.md) page. Use of supporting datum objects like [planes](PartDesign_Plane.md) and [local coordinate systems](PartDesign_CoordinateSystem.md) is strongly recommended to produce models that aren\'t easily subject to such topological errors. In TechDraw, the user is advised to add dimensions only when the 3D model is complete and won\'t be modified further.
 
-## Example
+## Przykład
 
 1\. In the <img alt="" src=images/Workbench_PartDesign.svg  style="width:24px;"> [PartDesign Workbench](PartDesign_Workbench.md), create a <img alt="" src=images/PartDesign_Body.svg  style="width:24px;"> [PartDesign Body](PartDesign_Body.md), then use <img alt="" src=images/PartDesign_NewSketch.svg  style="width:24px;"> [PartDesign NewSketch](PartDesign_NewSketch.md) and select the XY plane to draw the base sketch; then perform a <img alt="" src=images/PartDesign_Pad.svg  style="width:24px;"> [PartDesign Pad](PartDesign_Pad.md) to create a first solid.
 
@@ -65,7 +65,7 @@ The problem appears to be that when the second sketch was modified, the top face
 
 Remapping a sketch in this way can be done every time there is a topological naming error, however, this may be tedious if the model is complicated and there are many such sketches that need to be adjusted.
 
-## Solution
+## Rozwiązanie
 
 ![](images/FreeCAD_topological_problem_16_dependency_graph.png )
 
@@ -100,7 +100,7 @@ As explained in the [feature editing](feature_editing.md) page, a solution to th
 
 <img alt="" src=images/FreeCAD_topological_problem_21_independent_solids_all.png  style="width:" height="400px;">
 
-## Final remarks 
+## Uwagi końcowe 
 
 Adding datum objects is more work for the user but ultimately produces more stable models that are less subject to the topological naming problem.
 
@@ -110,7 +110,7 @@ Datum planes can also be based on other datum planes. This creates a chain of de
 
 Datum objects, [points](PartDesign_Point.md), [lines](PartDesign_Line.md), [planes](PartDesign_Plane.md), and [coordinate systems](PartDesign_CoordinateSystem.md), may also be useful as reference geometry, that is, as visual aids to show the important features in the model, even if no sketch is directly attached to them.
 
-## Links
+## Odnośniki internetowe 
 
 -   [PartDesign Fillet - Topological naming](PartDesign_Fillet#Topological_naming.md)
 -   [Topological Naming, My Take](https://forum.freecadweb.org/viewtopic.php?t=27278): a possible solution, by realthunder.
@@ -119,7 +119,7 @@ Datum objects, [points](PartDesign_Point.md), [lines](PartDesign_Line.md), [plan
 -   [Topological data scripting](Topological_data_scripting.md)
 -   [Feature editing](Feature_editing.md): contains alternate advice for stable modelling techniques.
 
-## Videos
+## Filmy
 
 -   [Why do my FreeCAD models break? - \"Topological Naming Problem\"](https://youtu.be/6p2vqEEmWq4): A Video explanation of the underlying issues of [Topological naming problem](Topological_naming_problem.md)
 -   [FreeCAD Is Fundamentally Broken! - Now what\... Help Me Decide\...](https://www.youtube.com/watch?v=QSsVFu929jo): A Maker Tales Video

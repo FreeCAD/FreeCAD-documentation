@@ -71,6 +71,8 @@ Lo strumento <img alt="" src=images/Arch_Frame.svg  style="width:16px;"> Carpent
 
 -    {{ProprietaDati|Rotation}}: La rotazione del profilo attorno al suo asse di estrusione.
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 

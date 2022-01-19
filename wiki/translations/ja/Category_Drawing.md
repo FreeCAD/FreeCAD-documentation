@@ -3,7 +3,9 @@ This category lists pages related to the [Drawing Workbench/ja](Drawing_Workbenc
 
 ### Contents:
 
-[Drawing Workbench/ja](Drawing_Workbench/ja.md)
+  ---------------------------------------------------------
+  [Drawing Workbench/ja](Drawing_Workbench/ja.md)
+  ---------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Obsolete Workbenches/ja](<img src="images/Property.png" style="width:16px"> Obsolete_Workbenches/ja.md)
 

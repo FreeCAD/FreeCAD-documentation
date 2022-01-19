@@ -3,7 +3,10 @@ In dieser Kategorie werden Vorlagen aufgelistet, die als Eingabe angegebenen Tex
 
 ### Contents:
 
-[Template:Properties Title/de](Template:Properties_Title/de.md) , [Template:PropertyData/de](Template:PropertyData/de.md) , [Template:PropertyView/de](Template:PropertyView/de.md)
+  ------------------------------------------------------------------------- ----------------------------------------------------------------- -----------------------------------------------------------------
+  [Template:Properties Title/de](Template:Properties_Title/de.md)   [Template:PropertyData/de](Template:PropertyData/de.md)   [Template:PropertyView/de](Template:PropertyView/de.md)
+                                                                                                                                              
+  ------------------------------------------------------------------------- ----------------------------------------------------------------- -----------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Template/de](<img src="images/Property.png" style="width:16px"> Template/de.md)
 

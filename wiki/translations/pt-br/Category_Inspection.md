@@ -3,7 +3,9 @@ This category lists pages related to the [Inspection Workbench/pt-br](Inspection
 
 ### Contents:
 
-[Inspection Workbench/pt-br](Inspection_Workbench/pt-br.md)
+  ---------------------------------------------------------------------
+  [Inspection Workbench/pt-br](Inspection_Workbench/pt-br.md)
+  ---------------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/pt-br](<img src="images/Property.png" style="width:16px"> Workbenches/pt-br.md)
 

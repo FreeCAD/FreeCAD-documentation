@@ -3,7 +3,9 @@ This category lists pages related to the [TechDraw Workbench/pt](TechDraw_Workbe
 
 ### Contents:
 
-[TechDraw Workbench/pt](TechDraw_Workbench/pt.md)
+  -----------------------------------------------------------
+  [TechDraw Workbench/pt](TechDraw_Workbench/pt.md)
+  -----------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/pt](<img src="images/Property.png" style="width:16px"> Workbenches/pt.md)
 

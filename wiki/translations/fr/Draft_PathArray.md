@@ -31,7 +31,7 @@ Ces deux commandes peuvent être utilisées sur des objets 2D créés avec l\'[a
 
 ## Alignement
 
-L\'alignement des éléments d\'un Draft Réseau selon une courbe dépend des propriétés du réseau et de l\'orientation de l\'objet source. La position de l\'objet source est ignorée : pour les besoins du réseau, les valeurs {{Value|x}}, {{Value|y}} et {{Value|z}} sont fixées à {{Value|0}}. Si la propriété {{PropertyData/fr|Align}} du réseau est définie à `False`, l\'orientation des éléments du réseau est identique à celle de l\'objet source. Si elle a pour valeur `True`, l\'axe X du système de coordonnées local de chaque élément placé est tangent à la trajectoire. Les axes Y et Z des systèmes de coordonnées locaux dépendent de la propriété {{PropertyData/fr|Align Mode}} du réseau. Les autres propriétés du réseau impliquées dans l\'alignement comprennent {{PropertyData/fr|Tangent Vector}}, {{PropertyData/fr|Force Vertical}} et {{PropertyData/fr|Vertical Vector}}.
+L\'alignement des éléments d\'un Draft Réseau selon une courbe dépend des propriétés du réseau et de l\'orientation de l\'objet source. La position de l\'objet source est ignorée : pour les besoins du réseau, les valeurs {{Value|x}}, {{Value|y}} et {{Value|z}} sont fixées à {{Value|0}}. Si la propriété **Align** du réseau est définie à `False`, l\'orientation des éléments du réseau est identique à celle de l\'objet source. Si elle a pour valeur `True`, l\'axe X du système de coordonnées local de chaque élément placé est tangent à la trajectoire. Les axes Y et Z des systèmes de coordonnées locaux dépendent de la propriété **Align Mode** du réseau. Les autres propriétés du réseau impliquées dans l\'alignement comprennent **Tangent Vector**, **Force Vertical** et **Vertical Vector**.
 
 <img alt="" src=images/Draft_PathArray_example2.png  style="width:600px;"> 
 *3 réseaux basés sur la même courbe non planaire. De gauche à droite : Align est false, Align à true pour Align Mode Original et Align à true pour Align Mode Frenet.*.
@@ -50,11 +50,11 @@ Ce mode utilise le vecteur normal local dérivé de la trajectoire à chaque pla
 
 #### Tangent
 
-Ce mode est similaire à {{PropertyData/fr|Align Mode}}. {{Value|Original}} mais offre la possibilité de pré-rotation de l\'objet source en spécifiant un {{PropertyData/fr|Tangent Vector}}.
+Ce mode est similaire à **Align Mode**. {{Value|Original}} mais offre la possibilité de pré-rotation de l\'objet source en spécifiant un **Tangent Vector**.
 
 ### Force Vertical et Vertical Vector 
 
-Ces propriétés ne sont disponibles que si {{PropertyData/fr|Align Mode}} est {{Value|Original}} ou {{Value|Tangent}}. Si {{PropertyData/fr|Force Vertical}} est défini sur `True`, le système de coordonnées local est calculé d\'une manière différente. **Vertical Vector** est utilisé comme vecteur normal fixe. Un produit vectoriel est à nouveau calculé à partir de ce vecteur normal et du vecteur tangent local (l\'axe X local). Mais ce vecteur est maintenant utilisé comme l\'axe Y local. L\'orientation de l\'axe Z local est déterminée à partir des axes X et Y locaux.
+Ces propriétés ne sont disponibles que si **Align Mode** est {{Value|Original}} ou {{Value|Tangent}}. Si {{PropertyData/fr|Force Vertical}} est défini sur `True`, le système de coordonnées local est calculé d\'une manière différente. **Vertical Vector** est utilisé comme vecteur normal fixe. Un produit vectoriel est à nouveau calculé à partir de ce vecteur normal et du vecteur tangent local (l\'axe X local). Mais ce vecteur est maintenant utilisé comme l\'axe Y local. L\'orientation de l\'axe Z local est déterminée à partir des axes X et Y locaux.
 
 L\'utilisation de ces propriétés peut être nécessaire si l\'un des bords du chemin est (presque) parallèle à la normale par défaut du chemin.
 
@@ -71,63 +71,63 @@ Un objet Draft Réseau selon une courbe est dérivé d\'un objet [Part Feature](
 
 Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens. Voir [Std Créer un lien](Std_LinkMake/fr#Propri.C3.A9t.C3.A9s.md) pour plus d\'informations.
 
--    {{PropertyData/fr|Scale|Float}}
+-    **Scale|Float**
     
 
--    {{PropertyData/fr|Scale Vector|Vector|Hidden}}
+-    **Scale Vector|Vector|Caché**
     
 
--    {{PropertyData/fr|Scale List|VectorList}}
+-    **Scale List|VectorList**
     
 
--    {{PropertyData/fr|Visibility List|BoolList|Hidden}}
+-    **Visibility List|BoolList|Caché**
     
 
--    {{PropertyData/fr|Placement List|PlacementList|Hidden}}
+-    **Placement List|PlacementList|Caché**
     
 
--    {{PropertyData/fr|Element List|LinkList|Hidden}}
+-    **Element List|LinkList|Caché**
     
 
--    {{PropertyData/fr|_ Link Touched|Bool|Hidden}}
+-    **_ Link Touched|Bool|Caché**
     
 
--    {{PropertyData/fr|_ Child Cache|LinkList|Hidden}}
+-    **_ Child Cache|LinkList|Caché**
     
 
--    {{PropertyData/fr|Colored Elements|LinkSubHidden|Hidden}}
+-    **Colored Elements|LinkSubCaché|Caché**
     
 
--    {{PropertyData/fr|Link Transform|Bool}}
+-    **Link Transform|Bool**
     
 
 
 {{TitleProperty|Alignment}}
 
--    {{PropertyData/fr|Align|Bool}}: spécifie si les éléments du réseau sont alignés ou non le long du chemin. Si elle vaut `False`, toutes les autres propriétés de ce groupe, à l\'exception de {{PropertyData/fr|Extra Translation}} ne s\'appliquent pas et sont masquées.
+-    **Align|Bool**: spécifie si les éléments du réseau sont alignés ou non le long du chemin. Si elle vaut `False`, toutes les autres propriétés de ce groupe, à l\'exception de **Extra Translation** ne s\'appliquent pas et sont masquées.
 
--    {{PropertyData/fr|Align Mode|Enumeration}}: spécifie le mode d\'alignement, qui peut être {{Value|Original}}, {{Value|Frenet}} ou {{Value|Tangent}}.
+-    **Align Mode|Enumeration**: spécifie le mode d\'alignement, qui peut être {{Value|Original}}, {{Value|Frenet}} ou {{Value|Tangent}}.
 
--    {{PropertyData/fr|Extra Translation|VectorDistance}}: spécifie un déplacement supplémentaire pour chaque élément le long du chemin.
+-    **Extra Translation|VectorDistance**: spécifie un déplacement supplémentaire pour chaque élément le long du chemin.
 
--    {{PropertyData/fr|Force Vertical|Bool}}: spécifie s\'il faut remplacer la direction normale par défaut par la valeur de {{PropertyData/fr|Vecteur Vertical}}. Utilisé uniquement si {{PropertyData/fr|Align Mode}} est {{Value|Original}} ou {{Value|Tangent}}. <small>(v0.19)</small> 
+-    **Force Vertical|Bool**: spécifie s\'il faut remplacer la direction normale par défaut par la valeur de **Vecteur Vertical**. Utilisé uniquement si **Align Mode** est {{Value|Original}} ou {{Value|Tangent}}. <small>(v0.19)</small> 
 
--    {{PropertyData/fr|Tangent Vector|Vector}}: spécifie le vecteur d\'alignement. Utilisé uniquement si {{PropertyData/fr|Align Mode}} est {{Value|Tangent}}. {{Version/fr|0.19}}
+-    **Tangent Vector|Vector**: spécifie le vecteur d\'alignement. Utilisé uniquement si **Align Mode** est {{Value|Tangent}}. {{Version/fr|0.19}}
 
--    {{PropertyData/fr|Vertical Vector|Vector}}: spécifie le remplacement de la direction normale par défaut. Utilisé uniquement si {{PropertyData/fr|Vertical Vector}} est `True`. {{Version/fr|0.19}}
+-    **Vertical Vector|Vector**: spécifie le remplacement de la direction normale par défaut. Utilisé uniquement si **Vertical Vector** est `True`. {{Version/fr|0.19}}
 
 
 {{TitleProperty|Objects}}
 
--    {{PropertyData/fr|Base|LinkGlobal}}: spécifie l\'objet à dupliquer dans le réseau.
+-    **Base|LinkGlobal**: spécifie l\'objet à dupliquer dans le réseau.
 
--    {{PropertyData/fr|Count|Integer}}: spécifie le nombre d\'éléments dans le réseau.
+-    **Count|Integer**: spécifie le nombre d\'éléments dans le réseau.
 
--    {{PropertyData/fr|Expand Array|Bool}}: indique s\'il faut développer le réseau dans la [Vue en arborescence](Tree_view/fr.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type lien (Link).
+-    **Expand Array|Bool**: indique s\'il faut développer le réseau dans la [Vue en arborescence](Tree_view/fr.md) pour permettre la sélection de ses éléments individuels. Disponible uniquement pour les réseaux de type lien (Link).
 
--    {{PropertyData/fr|Path Object|LinkGlobal}}: spécifie l\'objet à utiliser pour le chemin. Il doit contenir {{Value|Edges}} dans sa [Part TopoShape](Part_TopoShape.md).
+-    **Path Object|LinkGlobal**: spécifie l\'objet à utiliser pour le chemin. Il doit contenir {{Value|Edges}} dans sa [Part TopoShape](Part_TopoShape/fr.md).
 
--    {{PropertyData/fr|Path Subelements|LinkSubListGlobal}}: spécifie une liste d\'arêtes de {{PropertyData/fr|Path Object}}. Si elle est renseignée, seules ces arêtes sont utilisées pour le chemin.
+-    **Path Subelements|LinkSubListGlobal**: spécifie une liste d\'arêtes de **Path Object**. Si elle est renseignée, seules ces arêtes sont utilisées pour le chemin.
 
 ### Vue
 
@@ -136,21 +136,21 @@ Les propriétés de ce groupe ne sont disponibles que pour les réseaux de liens
 
 Les propriétés de ce groupe, à l\'exception de la propriété héritée, ne sont disponibles que pour les réseaux liens (Link). Voir [Std Créer un lien](Std_LinkMake/fr#Propri.C3.A9t.C3.A9s.md) pour plus d\'informations.
 
--    {{PropertyView/fr|Draw Style|Enumeration}}
+-    **Draw Style|Enumeration**
     
 
--    {{PropertyView/fr|Line Width|FloatConstraint}}
+-    **Line Width|FloatConstraint**
     
 
--    {{PropertyView/fr|Override Material|Bool}}
+-    **Override Material|Bool**
     
 
 -    **Point Size|FloatConstraint**
     
 
--    {{PropertyView/fr|Selectable|Bool}}: il s\'agit d\'une propriété héritée qui apparaît dans le groupe Sélection pour d\'autres réseaux.
+-    **Selectable|Bool**: il s\'agit d\'une propriété héritée qui apparaît dans le groupe Sélection pour d\'autres réseaux.
 
--    {{PropertyView/fr|Shape Material|Material}}
+-    **Shape Material|Material**
     
 
 
@@ -158,41 +158,41 @@ Les propriétés de ce groupe, à l\'exception de la propriété héritée, ne s
 
 Les propriétés de ce groupe, à l\'exception de la propriété héritée, ne sont disponibles que pour les réseaux liens (Link). Voir [Std Créer un lien](Std_LinkMake/fr#Propri.C3.A9t.C3.A9s.md) pour plus d\'informations.
 
--    {{PropertyView/fr|Child View Provider|PersistentObject|Hidden}}
+-    **Child View Provider|PersistentObject|Caché**
     
 
--    {{PropertyView/fr|Material List|MaterialList|Hidden}}
+-    **Material List|MaterialList|Caché**
     
 
--    {{PropertyView/fr|Override Color List|ColorList|Hidden}}
+-    **Override Color List|ColorList|Caché**
     
 
--    {{PropertyView/fr|Override Material List|BoolList|Hidden}}
+-    **Override Material List|BoolList|Caché**
     
 
--    {{PropertyView/fr|Proxy|PythonObject|Hidden}}: il s\'agit d\'une propriété héritée.
+-    **Proxy|PythonObject|Caché**: il s\'agit d\'une propriété héritée.
 
 
 {{TitleProperty|Display Options}}
 
 Les propriétés de ce groupe sont des propriétés héritées. Voir [Part Feature](Part_Feature/fr#Propri.C3.A9t.C3.A9s.md) pour plus d\'informations.
 
--    {{PropertyView/fr|Bounding Box|Bool}}: cette propriété n\'est pas héritée par les réseaux de liens (Link).
+-    **Bounding Box|Bool**: cette propriété n\'est pas héritée par les réseaux de liens (Link).
 
--    {{PropertyView/fr|Display Mode|Enumeration}}: pour les réseaux de liens, il peut s\'agir de {{value|Link}} ou {{value|ChildView}}. Pour les autres réseaux, il peut s\'agir de : {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} ou {{value|Points}}
+-    **Display Mode|Enumeration**: pour les réseaux de liens, il peut s\'agir de {{value|Link}} ou {{value|ChildView}}. Pour les autres réseaux, il peut s\'agir de : {{value|Flat Lines}}, {{value|Shaded}}, {{value|Wireframe}} ou {{value|Points}}
 
--    {{PropertyView/fr|Show In Tree|Bool}}
+-    **Show In Tree|Bool**
     
 
--    {{PropertyView/fr|Visibility|Bool}}
+-    **Visibility|Bool**
     
 
 
 {{TitleProperty|Draft}}
 
--    {{PropertyView/fr|Pattern|Enumeration}}: non utilisé.
+-    **Pattern|Enumeration**: non utilisé.
 
--    {{PropertyView/fr|Pattern Size|Float}}: non utilisé.
+-    **Pattern Size|Float**: non utilisé.
 
 
 {{TitleProperty|Object style}}

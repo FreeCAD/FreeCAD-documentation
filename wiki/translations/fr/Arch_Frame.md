@@ -21,7 +21,7 @@ L\'outil **<img src="images/Arch_Frame.svg" width=16px> [Arch Ossature](Arch_Fra
 
 1.  Créer un schéma ou modèle d\'objet et le profil d\'un objet, par exemple avec l\'[atelier Draft](Draft_Workbench/fr.md) ou l\'[atelier Sketcher](Sketcher_Workbench/fr.md).
 2.  Sélectionnez en premier l\'objet modèle, puis, maintenez la touche **Ctrl** enfoncée, et sélectionnez l\'objet à profiler.
-3.  Cliquez sur le bouton **<img src="images/Arch_Frame.svg" width=16px> [Créer un objet forme...](Arch_Frame/fr.md)** ou appuyez sur **F** puis **R**.
+3.  Cliquez sur le bouton **<img src="images/Arch_Frame.svg" width=16px> [Ossature](Arch_Frame/fr.md)** ou appuyez sur **F** puis **R**.
 
 ## Options
 
@@ -31,22 +31,22 @@ L\'outil **<img src="images/Arch_Frame.svg" width=16px> [Arch Ossature](Arch_Fra
 
 ## Propriétés
 
--    {{PropertyData/fr|Base}}: Le modèle ou motif sur lequel cette structure est basée.
+-    **Base**: Le modèle ou motif sur lequel cette structure est basée.
 
--    {{PropertyData/fr|Profile}}: Le profil sur lequel cette structure est basée.
+-    **Profile**: Le profil sur lequel cette structure est basée.
 
--    {{PropertyData/fr|Align}}: Spécifie si le profil doit être tourné pour que son axe normal soit aligné avec chaque arête.
+-    **Align**: Spécifie si le profil doit être tourné pour que son axe normal soit aligné avec chaque arête.
 
--    {{PropertyData/fr|Offset}}: Une option de distance entre l\'objet layout (modèle ou motif) et l\'objet frame (structure).
+-    **Offset**: Une option de distance entre l\'objet layout (modèle ou motif) et l\'objet frame (structure).
 
--    {{PropertyData/fr|Rotation}}: La rotation du profil autour de son axe d\'extrusion.
+-    **Rotation**: La rotation du profil autour de son axe d\'extrusion.
 
 ## Script
 
 
-**Voir aussi :**
+**Voir aussi:**
 
-[Arch API](Arch_API/fr.md) et [FreeCAD Scripts de Base](FreeCAD_Scripting_Basics/fr.md).
+[Arch API](Arch_API/fr.md) et [Débuter avec les scripts FreeCAD](FreeCAD_Scripting_Basics/fr.md).
 
 L\'outil Frame peut être utilisé dans une [macro](Macros/fr.md) et dans la console [Python](Python/fr.md) en utilisant la fonction suivante : 
 ```python

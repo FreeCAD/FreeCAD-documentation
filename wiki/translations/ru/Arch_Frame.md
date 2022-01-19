@@ -57,12 +57,20 @@
 
 -    **Rotation**: The rotation of the profile around its extrusion axis.
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Программирование
 
 
 **См. так же:**
 
 [Arch API](Arch_API/ru.md) и [Основы составления скриптов FreeCAD](FreeCAD_Scripting_Basics/ru.md).
+
+
+</div>
 
 The Frame tool can be used in [macros](Macros.md) and from the [Python](Python.md) console by using the following function: 
 ```python

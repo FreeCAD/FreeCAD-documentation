@@ -3,7 +3,9 @@ This category lists pages that contain helpfull information on MediaWiki and edi
 
 ### Contents:
 
-[Help/de](Help/de.md)
+  -------------------------------
+  [Help/de](Help/de.md)
+  -------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Categories/de](<img src="images/Property.png" style="width:16px"> Categories/de.md)
 

@@ -13,12 +13,12 @@
 
 When you install FreeCAD, you should get both Qt and PySide as part of the package. If you are [compiling](Compiling.md) yourself then you must verify that these two libraries are installed in order for FreeCAD to run correctly. Of course, PySide will only work if Qt is present.
 
-In the past, FreeCAD used PyQt, another Qt binding for Python, but in 2013 ([1dc122dc9a](https://github.com/FreeCAD/FreeCAD/commit/1dc122dc9a)) the project migrated to PySide because it has a more permissible [license](licence.md).
+In the past, FreeCAD used PyQt, another Qt binding for Python, but in 2013 ([commit 1dc122dc9a](https://github.com/FreeCAD/FreeCAD/commit/1dc122dc9a)) the project migrated to PySide because it has a more permissible [license](licence.md).
 
 For more information see:
 
--   [Wikipedia:PySide](http://en.wikipedia.org/wiki/PySide)
--   [Differences Between PySide and PyQt](http://qt-project.org/wiki/Differences_Between_PySide_and_PyQt)
+-   [Wikipedia:PySide](https://en.wikipedia.org/wiki/PySide)
+-   [Differences Between PySide and PyQt](https://wiki.qt.io/Differences_Between_PySide_and_PyQt)
 
 ![](images/PySideScreenSnapshot1.jpg ) ![](images/PySideScreenSnapshot2.jpg ) 
 *Examples created with PySide. Left: a simple dialog. Right: a more complex dialog with graphs.*
@@ -59,7 +59,7 @@ PySide2.QtUiTools -> PySide.QtUiTools
 Единственный необычный аспект это то, что классы `PySide2.QtWidgets` помещены в пространстве имён `PySide.QtGui`. 
 ```python
 PySide2.QtWidgets.QCheckBox -> PySide.QtGui.QCheckBox
-``` {{Top}}\]
+``` {{Top}}
 
 ## Примеры использования PySide 
 

@@ -3,7 +3,9 @@ This category lists pages related to the [Inspection Workbench](Inspection_Workb
 
 ### Contents:
 
-[Inspection Workbench/zh-cn](Inspection_Workbench/zh-cn.md)
+  ---------------------------------------------------------------------
+  [Inspection Workbench/zh-cn](Inspection_Workbench/zh-cn.md)
+  ---------------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches](Category_Workbenches.md) [<img src="images/Property.png" style="width:16px"> User\_Documentation](Category_User_Documentation.md)
 

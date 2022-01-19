@@ -14,7 +14,7 @@ With Scripting we mean create topological objects using FreeCAD\'s Python interp
 
 Sadly information about scripting in the documentation, and even in this wiki are scattered around and lacks of \"writing\" uniformity and most of them are explained in a too technical manner.
 
-## Wetting you appetite 
+## Whetting your appetite 
 
 The first obstacle in an easy way to scripting is that there is no direct way to access the FreeCAD internal Python editor through a menu item or a icon on the toolbar area, but knowing that FreeCAD opens a file with a `.py` extension in the internal Python editor, the most simple trick is create in your favorite text editor and then open it with the usual command **File → Open**.
 

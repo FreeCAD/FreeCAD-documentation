@@ -29,6 +29,13 @@ Ejecutar sólo algunas de las pruebas unitarias especificadas, por ejemplo:
 freecad -t TestDraft
 ```
 
+If a test does not need the GUI, it can also be executed in console mode by setting the `-c` or `--console` option in addition. This usually results in much faster startup time as the GUI is not loaded. For example:
+
+
+```python
+freecad -c -t TestPartDesignApp
+```
+
 ## Menú de prueba 
 
 Cada directorio de nivel superior en FreeCAD debe tener un archivo con las pruebas que se pueden ejecutar para ese ambiente de trabajo o módulo en particular. El archivo suele empezar con la palabra `Test`.

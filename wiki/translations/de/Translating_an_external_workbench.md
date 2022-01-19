@@ -1,5 +1,10 @@
 # Translating an external workbench/de
+<div class="mw-translate-fuzzy">
+
 In den folgenden Hinweisen sollte `"context"` der Name Deiner Erweiterung oder Deines Arbeitsbereichs sein, z.B. `"MySuperAddon"` oder `"DraftPlus"`, oder was auch immer. Dieser Kontext macht es so, dass die gesamte Übersetzung deines Codes unter dem gleichen Namen zusammengefasst wird, um von den Übersetzern leichter identifiziert werden zu können. Das heißt, sie wissen genau, zu welcher Erweiterung oder welchem Arbeitsbereich eine bestimmte Zeichenkette gehört.
+
+
+</div>
 
 **Hinweis**: Hier ist ein Multifunktionsskript, das den kompletten unten beschriebenen Ablauf automatisiert (es wird angeraten, dass du trotzdem die Beschreibung liest, um zu wissen, was das Skrikt sollte): <https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>
 
@@ -195,18 +200,20 @@ FreeCADGui.addLanguagePath(os.path.join(os.path.dirname(((__file__), "translatio
 
 : 
 ```python
-def QT_TRANSLATE_NOOP(scope, text):
+def QT_TRANSLATE_NOOP(context, text):
     return text
 ```
 
-* To translate menu names:
+: The `QT_TRANSLATE_NOOP` macro doesn't do anything, but it marks texts to be picked up by the `lupdate` utility later on. We only use it in special cases where FreeCAD itself takes care of everything.
+
+* To translate menu and toolbar names use the word `"Workbench"` as the context:
 
 : 
 ```python
-self.appendMenu(QT_TRANSLATE_NOOP("context", "My menu"), [list of commands, ...])
+self.appendMenu(QT_TRANSLATE_NOOP("Workbench", "My menu"), [list of commands, ...])
+self.appendToolbar(QT_TRANSLATE_NOOP("Workbench", "My toolbar"), [list of commands, ...])
 ```
 
-* The `QT_TRANSLATE_NOOP` macro doesn't do anything, but it marks texts to be picked up by the `lupdate` utility later on. Since it doesn't actually do anything, we only use it in special cases where FreeCAD itself takes care of everything.
 * Add the path to your `translations/` folder in the Initialized function:
 
 : 

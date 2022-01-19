@@ -7,15 +7,15 @@
 
 [Assembly3](Assembly3_Workbench/fr.md) est un [Atelier externe](External_workbenches/fr.md) utilisé pour effectuer l\'assemblage de différents corps contenus dans un seul fichier ou dans plusieurs documents. L\'atelier est basé sur plusieurs changements de fonctions de base effectués pour la version de FreeCAD 0.19 (par exemple [App Link](App_Link/fr.md)), de sorte que Assembly3 Workbench ne peut pas être utilisé avec les versions antérieures.
 
-Les principales caractéristiques de l\'atelier Assembly3 sont :
+Les principales fonctions de l\'Atelier Assembly3 sont les suivantes :
 
--   **solveur dynamique/interactif**. Cela signifie que vous pouvez déplacer des pièces avec la souris pendant que le solveur contraint le mouvement. Cela permet par exemple de connecter une roue à un axe et de faire tourner la roue de manière interactive avec la souris.
--   **liens**. Cela signifie que vous pouvez utiliser une seule pièce, par ex. une vis plusieurs fois dans un assemblage (à différents endroits) sans dupliquer la géométrie.
--   **liens externes**. Il est possible d\'avoir un document Freecad contenant uniquement un assemblage et non des pièces. Toutes les pièces peuvent être dans des fichiers uniques. Les fichiers peuvent même être dans une bibliothèque ou n\'importe quoi d\'autre dans le système de fichiers. La seule exigence est que le fichier doit être chargé lorsque le lien est établi. Une fois le lien établi, le fichier doit être ouvert pour mettre à jour les liens impliquant le fichier. Assembly3 résout ce problème en ouvrant les fichiers en arrière-plan selon les besoins.
--   **assemblages hiérarchiques**. Comme dans la vraie vie, un ensemble mécanique peut être constitué de sous-ensembles. Ceux-ci pourraient se composer de sous-assemblages encore et ainsi de suite.
--   **blocage des assemblages**. Comme le processeur ne peut gérer qu\'un nombre limité de contraintes simultanées en temps réel, figer un assemblage permet d\'utiliser des contraintes même pour des assemblages volumineux. En gelant des assemblages finis ou des contraintes qui ne sont pas tenus de rester dynamiques (par exemple des pièces soudées, boulonnées ou collées), ceux-ci sont exclus des calculs de mise à jour et considérés comme une géométrie fixe par le solveur Assembly3.
+-   Un **solveur dynamique/interactif**. Cela signifie que vous pouvez déplacer des pièces avec la souris pendant que le solveur contraint le mouvement. Cela permet par exemple de connecter une roue à un axe et de tourner la roue de manière interactive avec la souris.
+-   Des **liens**. Cela signifie que vous pouvez utiliser une seule pièce, par exemple une vis, plusieurs fois dans un assemblage (à différents endroits) sans dupliquer la géométrie.
+-   Des *liens externes*. Il est possible d\'avoir un document freecad qui ne contient qu\'un assemblage et aucune pièce. Toutes les pièces peuvent être dans des fichiers séparés. Les fichiers peuvent même se trouver dans une bibliothèque ou n\'importe où ailleurs dans le système de fichiers. La seule exigence est que le fichier doit être chargé lorsque le lien est établi. Une fois le lien établi, le fichier doit être ouvert pour pouvoir mettre à jour les liens impliquant le fichier. Assembly3 résout ce problème en ouvrant les fichiers en arrière-plan selon les besoins.
+-   Des **assemblages hiérarchiques**. Comme dans la vie réelle, un assemblage mécanique peut être composé de sous-assemblages. Ceux-ci peuvent être constitués de sous-ensembles, et ainsi de suite.
+-   Un **blocage des assemblages**. Comme le CPU ne peut gérer qu\'un nombre limité de contraintes simultanées en temps réel, geler un assemblage permet d\'utiliser des contraintes même pour de grands assemblages. En gelant les assemblages finis ou les contraintes qui ne doivent pas rester dynamiques (par exemple, les pièces soudées, boulonnées ou collées), ceux-ci sont exclus des calculs de mise à jour et considérés comme une géométrie fixe par le solveur Assembly3.
 
-    :   Notez que d\'autres approches offrent une solution différente à ce problème, par exemple l\'<img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Atelier Assembly4](Assembly4_Workbench/fr.md).
+    :   Notez que d\'autres approches offrent des solutions différentes à ce problème, par exemple l\'<img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Atelier Assembly4](Assembly4_Workbench/fr.md).
 
 [En haut](#top.md)
 

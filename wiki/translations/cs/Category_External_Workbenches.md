@@ -3,7 +3,9 @@ This category collects pages from the [external workbenches](external_workbenche
 
 ### Contents:
 
-[Plot Workbench/cs](Plot_Workbench/cs.md) , [Ship Workbench/cs](Ship_Workbench/cs.md)
+  --------------------------------------------------- ---------------------------------------------------
+  [Plot Workbench/cs](Plot_Workbench/cs.md)   [Ship Workbench/cs](Ship_Workbench/cs.md)
+  --------------------------------------------------- ---------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/cs](<img src="images/Property.png" style="width:16px"> Workbenches/cs.md) [<img src="images/Property.png" style="width:16px"> Addons/cs](<img src="images/Property.png" style="width:16px"> Addons/cs.md)
 

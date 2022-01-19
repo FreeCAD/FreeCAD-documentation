@@ -1,36 +1,40 @@
-# Macro Corner shapes wizard/pl
+# Macro Corner shapes wizard/update/pl
 {{Macro
-|Name=Corner shapes wizard
 |Icon=Macro_Corner_shapes_wizard.png
-|Description=This macro is a complete application, it pops up a dialog asking for the dimensions of your corner piece, then creates the object in the document and creates a page view with top, front and lateral views of the piece.<br/>This macro use the DrawingWorkBench
+|Name=Corner shapes wizard/update
+|Description=To makro jest kompletną aplikacją, wyświetla okno dialogowe z prośbą o podanie wymiarów kątownika, a następnie tworzy obiekt w dokumencie i tworzy widok strony z rzutami elementu: górnym, przednim i bocznym. <br/> To makro używa Środowiska pracy '''Drawing'''.
 |Author=Nicotuf
-|Version=1.0
-|Date=2011-08-01
+|Version=2.0
+|Date=2013-03-10
 |FCVersion= <= 0.17
 |Download=[https://www.freecadweb.org/wiki/images/6/60/Macro_Corner_shapes_wizard.png ToolBar Icon]
 }}
 
-## Description
+## Opis
 
-This macro is a complete application, it pops up a dialog asking for the dimensions of your corner piece, then creates the object in the document and creates a page view with top, front and lateral views of the piece.
+To makro jest kompletną aplikacją. Po uruchomieniu wyświetla okno dialogowe z prośbą o podanie wymiarów kątownika, a następnie tworzy obiekt w projekcie oraz widok strony z rzutami elementu: górnym, przednim i bocznym.
+Oryginalne źródło: [Macro Corner shapes wizard](Macro_Corner_shapes_wizard.md).
 
-There is a [modified version](Macro_Corner_shapes_wizard/update.md) with changes GUI.
-
-![](images/CornerShape1.png )
-
-## Script
+## Skrypt
 
 ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
 
-**Macro\_Corner\_shapes\_wizard.FCMacro**
+**Macro\_Corner\_shapes\_wizard\_update.FCMacro**
 
-    # -*- coding:utf-8 -*-
      
+    # Corner Shape Wizard
+    # http://www.freecadweb.org/wiki/index.php?title=Macro_Corner_shapes_wizard/update
+    # Version 10.03.2013
+    # Modifications: Neondata, Rainer Nase
+    # original source: http://www.freecadweb.org/wiki/index.php?title=Macro_Corner_shapes_wizard
+    # -*- coding:utf-8 -*-
+    #
+    # output to page file commented out ?
     #####################################
-    # Importation de fonctions externes :
+    # import external functions
      
     #from os import *
-    import FreeCAD, FreeCADGui, Part, Draft, math, MeshPart, Mesh, Drawing
+    import FreeCAD as App, FreeCADGui as Gui, Part, Draft, math, MeshPart, Mesh, Drawing
     #from PyQt4 import QtGui,QtCore
     from PySide import QtGui,QtCore
     from FreeCAD import Base
@@ -38,162 +42,157 @@ ToolBar Icon ![](images/Macro_Corner_shapes_wizard.png )
     Gui=FreeCADGui
      
     ##################################
-    # Défnition Class :
-     
-    class Corniere:
+    # Class definition
+      
+    class CornerSteel:
        def __init__(self, obj):
-          obj.addProperty("App::PropertyLength","L1","Corniere","Largeur 1").L1=20.0
-          obj.addProperty("App::PropertyLength","L2","Corniere","Largeur 2").L2=20.0
-          obj.addProperty("App::PropertyLength","e1","Corniere","Epaisseur 1").e1=2.0
-          #obj.addProperty("App::PropertyLength","e2","Corniere","Epaisseur 2").e2=2.0
-          obj.addProperty("App::PropertyLength","Longueur","Corniere","Longueur").Longueur=200.0
+          obj.addProperty("App::PropertyLength","L1","CornerSteel","Width_1").L1=20.0
+          obj.addProperty("App::PropertyLength","L2","CornerSteel","Width_2").L2=20.0
+          obj.addProperty("App::PropertyLength","e1","CornerSteel","Thickness").e1=2.0
+          #obj.addProperty("App::PropertyLength","e2","CornerSteel","Thickness2").e2=2.0
+          obj.addProperty("App::PropertyLength","Length","CornerSteel","Length").Length=200.0
           obj.Proxy = self
      
        def execute(self, fp):
           P1=Base.Vector(fp.e1,fp.e1,0)
-          S1=Part.makeBox(fp.L1,fp.L2,fp.Longueur)
-          S2=Part.makeBox(fp.L1-fp.e1,fp.L2-fp.e1,fp.Longueur,P1)
+          S1=Part.makeBox(fp.L1,fp.L2,fp.Length)
+          S2=Part.makeBox(fp.L1-fp.e1,fp.L2-fp.e1,fp.Length,P1)
           fp.Shape=S1.cut(S2)   
-     
+      
     ##################################
-    # Défnition locale de fonctions :
-     
-     
+    # definition of local functions :
+      
+      
     def proceed():
        QtGui.qApp.setOverrideCursor(QtCore.Qt.WaitCursor)
      
-       if FreeCAD.ActiveDocument==None:
-          FreeCAD.newDocument("Corniere")
-     
+       if App.ActiveDocument==None:
+          App.newDocument("CornerSteel")
+      
        oldDocumentObjects=App.ActiveDocument.Objects
-     
+      
        try:
-          QL1 = float(l1.text())   
-          QL2 = float(l2.text())
-          Qe = float(l3.text())
-          QLongueur = float(l4.text())
+          QL1     = float(l[0].text())   
+          QL2     = float(l[1].text())
+          Qe      = float(l[2].text())
+          QLength = float(l[3].text())
        except:
-          FreeCAD.Console.PrintError("Wrong input! Only numbers allowed...\n")
-     
-       Cor=FreeCAD.ActiveDocument.addObject("Part::FeaturePython","Corniere")
-       Corniere(Cor)
+          App.Console.PrintError("Wrong input! Only numbers allowed...\n")
+      
+       Cor=App.ActiveDocument.addObject("Part::FeaturePython","CornerSteel")
+       CornerSteel(Cor)
        Cor.ViewObject.Proxy=0
-       Cor.L1=QL1
-       Cor.L2=QL2
-       Cor.e1=Qe
-       Cor.Longueur=QLongueur
+       Cor.L1 = QL1
+       Cor.L2 = QL2
+       Cor.e1 = Qe
+       Cor.Length=QLength
      
        App.ActiveDocument.recompute()
        Gui.SendMsgToActiveView("ViewFit")
      
        QtGui.qApp.restoreOverrideCursor()
-     
-       Plan(Cor)
-     
+         
+       Drawing(Cor)
+         
        dialog.hide()
-     
+      
     def hide():
-     
+      
        dialog.hide()
-     
-    def Plan(obj):
-     
+      
+    def Drawing(obj):
+      
        ObjetProjete=obj.Shape
-     
-       TailleX=ObjetProjete.BoundBox.XLength
-       TailleY=ObjetProjete.BoundBox.YLength
-       TailleZ=ObjetProjete.BoundBox.ZLength
-     
+      
+       DimX=ObjetProjete.BoundBox.XLength
+       DimY=ObjetProjete.BoundBox.YLength
+       DimZ=ObjetProjete.BoundBox.ZLength
+      
        page = App.activeDocument().addObject('Drawing::FeaturePage','Page')
        page.Template = App.getResourceDir()+'Mod/Drawing/Templates/A3_Landscape.svg'   
-       vueprofil = App.activeDocument().addObject('Drawing::FeatureViewPart','VueProfil')
-       vueprofil.Source = obj
-       vueprofil.Direction = (0.0,0.0,1.0)
-       vueprofil.Scale = 1.0
-       vueprofil.X = 50.0
-       vueprofil.Y = 50.0
-       page.addObject(vueprofil)
-     
-       vuegauche = App.activeDocument().addObject('Drawing::FeatureViewPart','Vuegauche')
-       vuegauche.Source = obj
-       vuegauche.Direction = (-1.0,0.0,0.0)
-       vuegauche.ShowHiddenLines = True
-       vuegauche.Scale = 1.0
-       vuegauche.Rotation = 180.0
-       vuegauche.X = 50.0+TailleX/2+TailleX
-       vuegauche.Y = 50.0
-       page.addObject(vuegauche)
-     
-       vuedessus = App.activeDocument().addObject('Drawing::FeatureViewPart','Vuedessus')
-       vuedessus.Source = obj
-       vuedessus.Direction = (0.0,-1.0,0.0)
-       vuedessus.ShowHiddenLines = True
-       vuedessus.Scale = 1.0
-       vuedessus.Rotation = 180.0
-       vuedessus.X = 50.0+TailleX/2+TailleX
-       vuedessus.Y = 50.0+TailleX/2+TailleY+TailleX
-       page.addObject(vuedessus)
-     
-       vueiso = App.activeDocument().addObject('Drawing::FeatureViewPart','VueIso')
-       vueiso.Source = obj
-       vueiso.Direction = (-1.0,-1.0,0.5)
-       vueiso.Scale = 1.0
-       vueiso.ShowSmoothLines = True
-       vueiso.X = TailleZ+TailleX/2
-       vueiso.Y = 7*TailleZ+3*TailleY
-       page.addObject(vueiso)
-     
-     
+       ProfileView = App.activeDocument().addObject('Drawing::FeatureViewPart','ProfileView')
+       ProfileView.Source = obj
+       ProfileView.Direction = (0.0,0.0,1.0)
+       ProfileView.Scale = 1.0
+       ProfileView.X = 50.0
+       ProfileView.Y = 50.0
+       page.addObject(ProfileView)
+      
+       LeftView = App.activeDocument().addObject('Drawing::FeatureViewPart','LeftView')
+       LeftView.Source = obj
+       LeftView.Direction = (-1.0,0.0,0.0)
+       LeftView.ShowHiddenLines = True
+       LeftView.Scale = 1.0
+       LeftView.Rotation = 180.0
+       LeftView.X = 50.0+DimX/2+DimX
+       LeftView.Y = 50.0
+       page.addObject(LeftView)
+      
+       TopView = App.activeDocument().addObject('Drawing::FeatureViewPart','TopView')
+       TopView.Source = obj
+       TopView.Direction = (0.0,-1.0,0.0)
+       TopView.ShowHiddenLines = True
+       TopView.Scale = 1.0
+       TopView.Rotation = 180.0
+       TopView.X = 50.0+DimX/2+DimX
+       TopView.Y = 50.0+DimX/2+DimY+DimX
+       page.addObject(TopView)
+      
+       IsoView = App.activeDocument().addObject('Drawing::FeatureViewPart','IsoView')
+       IsoView.Source = obj
+       IsoView.Direction = (-1.0,-1.0,0.5)
+       IsoView.Scale = 1.0
+       IsoView.ShowSmoothLines = True
+       IsoView.X = DimZ+DimX/2
+       IsoView.Y = 7*DimZ+3*DimY
+       page.addObject(IsoView)
+         
+      
        App.activeDocument().recompute()
-     
-       PageFile = open(page.PageResult,'r')
-       OutFile = open('temp.svg','w')
-       OutFile.write(PageFile.read())
-       del OutFile,PageFile
-     
-     
+      
+     #  PageFile = open(page.PageResult,'r')
+     #  OutFile = open('temp.svg','w')
+     #  OutFile.write(PageFile.read())
+     #  del OutFile,PageFile
+         
+      
+      
+      
+      
+    l = []  # Array to transfer parameters to the process
+      
+    F =     [ ["Width first side"         ,   "20."] ]
+    F.append(["Width second side"        ,   "10."])
+    F.append(["Thickness"                ,    "3."])
+    F.append(["Length"                   ,  "100."])
+      
     dialog = QtGui.QDialog()
     dialog.resize(200,200)
-    dialog.setWindowTitle("Corniere")
+    dialog.setWindowTitle("Angle profile (angle steel)")
     la = QtGui.QVBoxLayout(dialog)
-     
-    e1 = QtGui.QLabel("Dimensions de la corniere")
+      
+    # adding the input fields to the GUI
+    for field in range(len(F)):
+      
+      la.addWidget(QtGui.QLabel(F[field][0]))
+      l.append( QtGui.QLineEdit(F[field][1]) )
+      la.addWidget(l[field])
+      
+    e1 = QtGui.QLabel("Dimensions of the corner profile")
     commentFont=QtGui.QFont("Arial",10,True)
     e1.setFont(commentFont)
     la.addWidget(e1)
-     
-    t1 = QtGui.QLabel("L1")
-    la.addWidget(t1)
-    l1 = QtGui.QLineEdit()
-    l1.setText("20")
-    la.addWidget(l1)
-     
-    t2 = QtGui.QLabel("L2")
-    la.addWidget(t2)
-    l2 = QtGui.QLineEdit()
-    l2.setText("20")
-    la.addWidget(l2)
-     
-    t3 = QtGui.QLabel("e")
-    la.addWidget(t3)
-    l3 = QtGui.QLineEdit()
-    l3.setText("2")
-    la.addWidget(l3)
-     
-    t4 = QtGui.QLabel("Longueur")
-    la.addWidget(t4)
-    l4 = QtGui.QLineEdit()
-    l4.setText("300")
-    la.addWidget(l4)
-     
+      
+      
     okbox = QtGui.QDialogButtonBox(dialog)
     okbox.setOrientation(QtCore.Qt.Horizontal)
     okbox.setStandardButtons(QtGui.QDialogButtonBox.Cancel|QtGui.QDialogButtonBox.Ok)
     la.addWidget(okbox)
+      
     QtCore.QObject.connect(okbox, QtCore.SIGNAL("accepted()"), proceed)
     QtCore.QObject.connect(okbox, QtCore.SIGNAL("rejected()"), hide)
     QtCore.QMetaObject.connectSlotsByName(dialog)
     dialog.show()
 
 ---
-[documentation index](../README.md) > Macro Corner shapes wizard/pl
+[documentation index](../README.md) > Macro Corner shapes wizard/update/pl

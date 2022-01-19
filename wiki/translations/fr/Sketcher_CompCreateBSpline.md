@@ -16,8 +16,8 @@
 
 ## Types de B-splines 
 
--   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [Créer une B-spline](Sketcher_CreateBSpline/fr.md) : Dessine une courbe B-spline par ses points de contrôle.
--   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Créer une B-pline périodique](Sketcher_CreatePeriodicBSpline/fr.md) : Dessine une B-spline fermée périodique par ses points de contrôle.
+-   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline simple](Sketcher_CreateBSpline/fr.md) : Dessine une courbe B-spline par ses points de contrôle.
+-   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [B-pline périodique](Sketcher_CreatePeriodicBSpline/fr.md) : Dessine une B-spline fermée périodique par ses points de contrôle.
 
 
 

@@ -22,6 +22,13 @@ Run only some the specified unit test, for example:
 freecad -t TestDraft
 ```
 
+If a test does not need the GUI, it can also be executed in console mode by setting the `-c` or `--console` option in addition. This usually results in much faster startup time as the GUI is not loaded. For example:
+
+ 
+```python
+freecad -c -t TestPartDesignApp
+```
+
 ## Test menu 
 
 Each top level directory in FreeCAD should have a file with the tests that can be run for that particular workbench or module. The file usually starts with the word `Test`.
@@ -122,6 +129,31 @@ Add test function
 **See also:**
 
 [FreeCAD Scripting Basics](FreeCAD_Scripting_Basics.md).
+
+### Get a list of all top-level test modules 
+
+ 
+```python
+FreeCAD.__unit_test__
+```
+
+Note that the test modules returned here depend on whether a GUI available or not. I.e. when executed in console mode, various tests ending in \"Gui\" are missing.
+
+### Run specific tests 
+
+There are various ways of running tests using [Python\'s unittest library](https://docs.python.org/3/library/unittest.html). FreeCAD\'s test framework removes some of the boiler plate for the most common cases.
+
+Run all tests defined in a python module:  
+```python
+import Test, TestFemApp
+Test.runTestsFromModule(TestFemApp)
+```
+
+Run all tests defined in a python class:  
+```python
+import Test, femtest.app.test_solver_calculix
+Test.runTestsFromClass(femtest.app.test_solver_calculix.TestSolverCalculix)
+```
 
 ### Example 1 
 

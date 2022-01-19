@@ -3,7 +3,9 @@ This category lists pages related to the [Plot Workbench/bg](Plot_Workbench/bg.m
 
 ### Contents:
 
-[Plot Workbench/bg](Plot_Workbench/bg.md)
+  ---------------------------------------------------
+  [Plot Workbench/bg](Plot_Workbench/bg.md)
+  ---------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/bg](<img src="images/Property.png" style="width:16px"> Workbenches/bg.md)
 

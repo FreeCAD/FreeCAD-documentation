@@ -3,7 +3,9 @@ This category lists pages related to the [Mesh\_Workbench/hr](Mesh_Workbench/hr.
 
 ### Contents:
 
-[Mesh Workbench/hr](Mesh_Workbench/hr.md)
+  ---------------------------------------------------
+  [Mesh Workbench/hr](Mesh_Workbench/hr.md)
+  ---------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/hr](<img src="images/Property.png" style="width:16px"> Workbenches/hr.md)
 

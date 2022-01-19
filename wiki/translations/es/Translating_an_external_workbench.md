@@ -1,5 +1,10 @@
 # Translating an external workbench/es
+<div class="mw-translate-fuzzy">
+
 En las siguientes notas, `"contexto"` debe ser el mismo nombre de tu complemento o banco de trabajo, por ejemplo, `"MiSuperComplemento"` o `"DraftPlus"`, o el que sea. Este contexto hace que todas esas traducciones de tu código sean reunidas bajo el mismo nombre, para que sean mas fácilmente identificables por los traductores. Esto es, ellos sabrán exactamente a cual complemento o banco de trabajo una cadena de texto pertenece.
+
+
+</div>
 
 **Note**: Here is an all-in-one script that automates the complete procedure mentioned below (you are still advised to read the procedure to know what the script should do, though): <https://github.com/yorikvanhavre/BIM_Workbench/blob/master/utils/updateTranslations.py>
 
@@ -125,28 +130,34 @@ En las siguientes notas, `"contexto"` debe ser el mismo nombre de tu complemento
 
 ### In InitGui.py 
 
--   Add the following line, near the top of the file:
+-   Add the following line near the top of the file:
 
 :   
     
 ```python
-    def QT_TRANSLATE_NOOP(scope, text):
+    def QT_TRANSLATE_NOOP(context, text):
         return text
     
 ```
     
 
--   To translate menu names:
+
+
+
+
+:   The `QT_TRANSLATE_NOOP` macro doesn\'t do anything, but it marks texts to be picked up by the `lupdate` utility later on. We only use it in special cases where FreeCAD itself takes care of everything.
+
+-   To translate menu and toolbar names use the word `"Workbench"` as the context:
 
 :   
     
 ```python
-    self.appendMenu(QT_TRANSLATE_NOOP("context", "My menu"), [list of commands, ...])
+    self.appendMenu(QT_TRANSLATE_NOOP("Workbench", "My menu"), [list of commands, ...])
+    self.appendToolbar(QT_TRANSLATE_NOOP("Workbench", "My toolbar"), [list of commands, ...])
     
 ```
     
 
--   The `QT_TRANSLATE_NOOP` macro doesn\'t do anything, but it marks texts to be picked up by the `lupdate` utility later on. Since it doesn\'t actually do anything, we only use it in special cases where FreeCAD itself takes care of everything.
 -   Add the path to your `translations/` folder in the Initialized function:
 
 :   
@@ -177,7 +188,7 @@ En las siguientes notas, `"contexto"` debe ser el mismo nombre de tu complemento
 
 ### Inside each FreeCAD command class 
 
--   Add the following line, near the top of the file:
+-   Add the following line near the top of the file:
 
 :   
     

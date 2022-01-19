@@ -203,10 +203,13 @@ d.recompute()
 {{APIProperty|Area|the area of the mesh object.}}
 
 
+{{APIProperty|CountEdges|the number of vertices of the mesh object.}}
+
+
 {{APIProperty|CountFacets|the number of facets of the mesh object.}}
 
 
-{{APIProperty|CountPoints|the number of vertices of the mesh object.}}
+{{APIProperty|CountPoints|the number of points of the mesh object.}}
 
 
 {{APIProperty|Facets|A collection of facets; With this attribute it is possible to get access to the facets of the mesh: for f in mesh.Facets: print f. Facet.Points is a list of coordinate-tupels for the vertices. Facet.PointIndices is a list of indice for the vertices of the facet. WARNING! store Facets in a local variable as it is generated on the fly, each time it is accessed.}}

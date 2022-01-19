@@ -7,21 +7,21 @@
 
 <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/de.md) ist ein [externer Arbeitsbereich](External_workbenches/de.md), der dem Zusammenbau von verschiedenen Körpern dient, die entweder in einem einzigen oder in mehreren separaten Dokumenten gespeichert sind. Der Arbeitsbereich basiert auf einigen Änderungen der Kernfunktionen, die mit FreeCAD 0.19 eingeführt wurden (z.B. [App-Link](App_Link/de.md)), sodass der Assembly3 Arbeitsbereich nicht mit früheren Versionen verwendet werden kann.
 
-Die Hauptfunktionen des Assembly3 Arbeitsbereichs sind
+Die Hauptmerkmale des Assembly3-Arbeitsbereichs sind
 
--   **dynamischer/interaktiver Löser**. Das bedeutet, du kannst Teile mit der Maus bewegen, während der Löser die Bewegung beschränkt. Dies erlaubt z.B. ein Rad mit einer Achse zu verbinden und das Rad interaktiv mit der Maus zu drehen.
--   **Verknüpfungen**. Das bedeutet, dass du ein einzelnes Teil, z. B. eine Schraube, mehrfach in einer Baugruppe (an verschiedenen Stellen) verwenden kannst, ohne die Geometrie zu duplizieren.
--   **externe Verknüpfungen**. Es ist möglich, ein Freecad Dokument zu besitzen, das nur eine Baugruppe und keine Teile enthält. Alle Teile können in einzelnen Dateien sein. Die Dateien können sich sogar in einer Bibliothek oder irgenwo anders im Dateisystem befinden. Die einzige Voraussetzung ist, dass die Datei geladen sein muss, wenn die Verknüpfung hergestellt wird. Nachdem die Verknüpfung gemacht wurde muss die Datei geöffnet sein, um Aktualisierungen an den Verknüpfungen, die die Datei betreffen, vorzunehmen. Assembly3 löst dieses Problem, indem es die Dateien bei Bedarf im Hintergrund öffnet.
+-   ein **dynamischer/interaktiver Löser**. Das heißt, dass man Teile mit der Maus bewegen kann, während der Löser die Bewegung(sfreiheit) einschränkt. Dies erlaubt z. B. ein Rad mit einer Achse zu verbinden und das Rad interaktiv mit der Maus zu drehen.
+-   **Verknüpfungen**. Das bedeutet, dass man ein einzelnes Teil, z. B. eine Schraube, mehrfach in einer Baugruppe (an verschiedenen Stellen) verwenden kann, ohne die Geometrie zu duplizieren.
+-   **externe Verknüpfungen**. Es ist möglich, dass ein Freecad-Dokument nur eine Baugruppe und keine Einzelteile enthält. Alle Teile können in separaten Dateien abgelegt sein. Die Dateien könnten sich auch in einer Bibliothek oder sonstwo im Dateisystem befinden. Als einzige Voraussetzung muss die Datei geladen sein, wenn die Verknüpfung angelegt wird. Nachdem die Verknüpfung erstellt wurde, muss die Datei geöffnet sein, um Verknüpfungen, die die Datei betreffen, zu aktualisieren. Assembly3 erreicht dies, indem es die Dateien bei Bedarf im Hintergrund öffnet.
 -   **hierarchische Baugruppen**. Wie im wirklichen Leben kann eine mechanische Baugruppe aus Unterbaugruppen bestehen. Diese können wiederum aus Unterbaugruppen bestehen und so weiter.
--   **Baugruppen einfrieren**. Da die CPU nur eine bestimmte Anzahl gleichzeitiger Beschränkungen in Echtzeit verarbeiten kann, ermöglicht das Einfrieren einer Baugruppe die Verwendung von Beschränkungen auch für große Baugruppen. Durch das Einfrieren von fertigen Baugruppen oder Beschränkungen, die nicht dynamisch bleiben müssen (z. B. geschweißte, geschraubte oder geklebte Teile), werden diese von Aktualisierungsberechnungen ausgeschlossen und vom Assembly3 Löser als feste Geometrie betrachtet.
+-   das **Einfrieren von Baugruppen**. Da die CPU nur eine bestimmte Anzahl gleichzeitiger Bedingungen in Echtzeit verarbeiten kann, ermöglicht das Einfrieren von Baugruppen die Anwendung von Bedingungen auch für große Baugruppen. Durch das Einfrieren von fertigen Baugruppen oder Bedingungen, die nicht dynamisch bleiben müssen (z. B. geschweißte, geschraubte oder geklebte Teile), werden diese von Aktualisierungsberechnungen ausgeschlossen und vom Assembly3-Löser als starre Geometrie betrachtet.
 
-    :   Beachte, dass andere Ansätze eine andere Lösung für dieses Problem bieten, z. B. der <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Arbeitsbereich](Assembly4_Workbench/de.md).
+    :   Man beachte, dass andere Herangehensweisen andere Lösungen für dieses Problem bieten, z. B. der <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4](Assembly4_Workbench/de.md)-Arbeitsbereich.
 
 [Anfang](#top.md)
 
 ### Werkzeugleisten
 
-Ab 2020 verfügt die Assembly3 Arbeitsbereich über die folgenden Werkzeugleisten.
+Seit 2020 enthält der Assembly3-Arbeitsbereich die folgenden Werkzeugleisten.
 
 #### Hauptwerkzeugleiste
 
@@ -195,7 +195,7 @@ Ab 2020 verfügt die Assembly3 Arbeitsbereich über die folgenden Werkzeugleiste
 
 </div>
 
-#### Zusatzwerkzeugleiste für Bedingungen 
+#### Zusatzwerkzeugleisten für Bedingungen 
 
 :   <img alt="" src=images/Assembly_ConstraintPointDistance.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintEqualAngle.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsSymmetric.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintGeneral.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintSymmetricLine.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintPointsVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineHorizontal.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintLineVertical.svg‎‎  style="width:28px;"> <img alt="" src=images/Assembly_ConstraintArcLineTangent.svg‎‎  style="width:28px;"> (Assembly3 Constraints2)
 
@@ -286,7 +286,8 @@ Ab 2020 verfügt die Assembly3 Arbeitsbereich über die folgenden Werkzeugleiste
 
 <div class="mw-collapsible mw-collapsed">
 
-Diese Funktionen sind nützlich, wenn eine Baugruppe mit einer Hierarchie von verknüpften externen Dateien bearbeitet wird.
+
+:   Diese Funktionen sind nützlich, wenn eine Baugruppe mit einer Hierarchie von verknüpften externen Dateien bearbeitet wird.
 
 
 <div class="mw-collapsible-content toccolours">

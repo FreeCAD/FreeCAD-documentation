@@ -3,7 +3,9 @@ This category lists pages with screenshots.
 
 ### Contents:
 
-[Screenshots/zh-cn](Screenshots/zh-cn.md)
+  ---------------------------------------------------
+  [Screenshots/zh-cn](Screenshots/zh-cn.md)
+  ---------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Documentation/zh-cn](<img src="images/Property.png" style="width:16px"> Documentation/zh-cn.md)
 

@@ -3,7 +3,10 @@ This category lists pages related to the [Mesh\_Workbench/zh-cn](Mesh_Workbench/
 
 ### Contents:
 
-[Manual:Preparing models for 3D printing/zh-cn](Manual:Preparing_models_for_3D_printing/zh-cn.md) , [Mesh Scripting/zh-cn](Mesh_Scripting/zh-cn.md) , [Mesh Workbench/zh-cn](Mesh_Workbench/zh-cn.md)
+  ----------------------------------------------------------------------------------------------------------- --------------------------------------------------------- ---------------------------------------------------------
+  [Manual:Preparing models for 3D printing/zh-cn](Manual:Preparing_models_for_3D_printing/zh-cn.md)   [Mesh Scripting/zh-cn](Mesh_Scripting/zh-cn.md)   [Mesh Workbench/zh-cn](Mesh_Workbench/zh-cn.md)
+                                                                                                                                                                        
+  ----------------------------------------------------------------------------------------------------------- --------------------------------------------------------- ---------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/zh-cn](<img src="images/Property.png" style="width:16px"> Workbenches/zh-cn.md)
 

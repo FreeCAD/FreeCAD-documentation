@@ -105,7 +105,13 @@ Nun haben die Kreise den gleichen Radius.
 
 Diese Linien dienen als Referenz, um die Kreise zu positionieren.
 
+
+<div class="mw-translate-fuzzy">
+
 -   Benutze <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Abstand**](Sketcher_ConstrainDistance/de.md), um sie 20 mm von den Kanten entfernt zu positionieren.
+
+
+</div>
 
 <img alt="" src=images/TBHS-13.JPG  style="width:800px;">
 

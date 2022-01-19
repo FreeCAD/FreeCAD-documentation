@@ -11,7 +11,15 @@ Este artículo describe el **Marcado** de FreeCAD. Marcado significa comenzar tu
 
 </div>
 
-### General
+## Warning
+
+Although FreeCAD is offered to you free of charge, and the FreeCAD community is happy to see other applications emerging, that are based on FreeCAD, we have on the other hand seen a lot of unfair use of the information contained on this page by people who simply rebranded FreeCAD into a closed-source application to make profit from it.
+
+Although the [LGPL license](License.md) allows to use the FreeCAD source code in closed-source applications, it also gives strict rules to do so, and does not allow simply taking FreeCAD, renaming it and stripping it of its license.
+
+Would you be interested in using FreeCAD in a closed-source application, be sure to check thoroughly the implications of the LGPL license, and, even better, contact any FreeCAD developer, administrator or moderator before doing so.
+
+## General
 
 
 <div class="mw-translate-fuzzy">
@@ -57,7 +65,7 @@ La primera entrada de Config define el nombre del programa. Este no es el nombre
 
 Las siguientes líneas definen las entradas de Config de tu aplicación FooApp. Una descripción de Config y sus entradas se encuentra en [Inicio y Configuración](Start_up_and_Configuration/es.md).
 
-### Images
+## Images
 
 Image resources are compiled into FreeCAD using [Qt\'s resource system](http://qt-project.org/doc/qt-4.8/resources.html). Therefore you have to write a {{FileName|.qrc}} file, an XML-based file format that lists image files on the disk but also any other kind of resource files. To load the compiled resources inside the application you have to add a line
 
@@ -73,7 +81,7 @@ into the main() function. Alternatively, if you have an image in XPM format you 
 Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
 
-### Branding XML 
+## Branding XML 
 
 In FreeCAD there is also a method supported without writing a customized main() function. For this method you must write a file name called {{FileName|branding.xml}} and put it into the installation directory of FreeCAD. Here is an example with all supported tags:
 

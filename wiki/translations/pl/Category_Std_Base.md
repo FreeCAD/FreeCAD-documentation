@@ -3,7 +3,9 @@ This category list pages related to the [Std Base](Std_Base/pl.md), which collec
 
 ### Contents:
 
-[Template:Std Base navi/pl](Template:Std_Base_navi/pl.md)
+  -------------------------------------------------------------------
+  [Template:Std Base navi/pl](Template:Std_Base_navi/pl.md)
+  -------------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> User\_Documentation/pl](<img src="images/Property.png" style="width:16px"> User_Documentation/pl.md)
 

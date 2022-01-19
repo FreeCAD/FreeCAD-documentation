@@ -3,7 +3,10 @@ This category gathers the meeting points of the 3 broad categories of users of F
 
 ### Contents:
 
-[Developer hub/pt-br](Developer_hub/pt-br.md) , [Power users hub/pt-br](Power_users_hub/pt-br.md) , [User hub/pt-br](User_hub/pt-br.md)
+  ------------------------------------------------------- ----------------------------------------------------------- ---------------------------------------------
+  [Developer hub/pt-br](Developer_hub/pt-br.md)   [Power users hub/pt-br](Power_users_hub/pt-br.md)   [User hub/pt-br](User_hub/pt-br.md)
+                                                                                                                      
+  ------------------------------------------------------- ----------------------------------------------------------- ---------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Categories/pt-br](<img src="images/Property.png" style="width:16px"> Categories/pt-br.md)
 

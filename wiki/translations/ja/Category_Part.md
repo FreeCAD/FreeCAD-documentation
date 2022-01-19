@@ -3,7 +3,9 @@ This category lists pages related to the [Part Workbench/ja](Part_Workbench/ja.m
 
 ### Contents:
 
-[Part Boolean/ja](Part_Boolean/ja.md) , [Part Module/ja](Part_Module/ja.md)
+  ----------------------------------------------- ---------------------------------------------
+  [Part Boolean/ja](Part_Boolean/ja.md)   [Part Module/ja](Part_Module/ja.md)
+  ----------------------------------------------- ---------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/ja](<img src="images/Property.png" style="width:16px"> Workbenches/ja.md)
 

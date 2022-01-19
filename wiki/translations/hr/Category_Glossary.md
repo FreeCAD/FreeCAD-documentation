@@ -3,7 +3,9 @@ This category tracks pages that explain definitions of words related to FreeCAD
 
 ### Contents:
 
-[Glossary/hr](Glossary/hr.md)
+  ---------------------------------------
+  [Glossary/hr](Glossary/hr.md)
+  ---------------------------------------
 
 ---
 [documentation index](../README.md) > Category:Glossary/hr

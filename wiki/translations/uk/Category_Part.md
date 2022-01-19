@@ -3,7 +3,9 @@ This category lists pages related to the [Part Workbench/uk](Part_Workbench/uk.m
 
 ### Contents:
 
-[Part Module/uk](Part_Module/uk.md)
+  ---------------------------------------------
+  [Part Module/uk](Part_Module/uk.md)
+  ---------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/uk](<img src="images/Property.png" style="width:16px"> Workbenches/uk.md)
 

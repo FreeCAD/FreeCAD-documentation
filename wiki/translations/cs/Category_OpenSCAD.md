@@ -3,7 +3,9 @@ This category lists pages related to the [OpenSCAD\_Workbench/cs](OpenSCAD_Workb
 
 ### Contents:
 
-[OpenSCAD Workbench/cs](OpenSCAD_Workbench/cs.md)
+  -----------------------------------------------------------
+  [OpenSCAD Workbench/cs](OpenSCAD_Workbench/cs.md)
+  -----------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/cs](<img src="images/Property.png" style="width:16px"> Workbenches/cs.md)
 

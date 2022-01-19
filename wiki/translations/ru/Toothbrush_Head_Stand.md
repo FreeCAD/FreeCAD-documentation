@@ -111,7 +111,10 @@ Now the circles share the same radius.
 
 Theses lines will serve as reference to position the circles.
 
--   Use <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Distance**](Sketcher_ConstrainDistance.md) to position them at 20mm from the edges.
+-   Click on <img alt="" src=images/Constraint_Length.png  style="width:32px;"> [**Distance**](Sketcher_ConstrainDistance.md).
+-   Click on a center of a circle.
+-   Click on a magenta line.
+-   Set distance (20mm from each side).
 
 <img alt="" src=images/TBHS-13.JPG  style="width:800px;">
 

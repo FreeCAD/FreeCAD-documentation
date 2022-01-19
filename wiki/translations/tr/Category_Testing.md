@@ -3,7 +3,9 @@ Pages related to testing in regards to unit testing, continuous integration, qua
 
 ### Contents:
 
-[Testing/tr](Testing/tr.md) ,
+  ------------------------------------- --
+  [Testing/tr](Testing/tr.md)   
+  ------------------------------------- --
 
 [<img src="images/Property.png" style="width:16px"> Test Framework/tr](<img src="images/Property.png" style="width:16px"> Test_Framework/tr.md)
 

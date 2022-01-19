@@ -7,7 +7,9 @@ Longer pieces of text should be placed in the page itself so that they are trans
 
 ### Contents:
 
-[Template:Version/es](Template:Version/es.md)
+  -------------------------------------------------------
+  [Template:Version/es](Template:Version/es.md)
+  -------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Template/es](<img src="images/Property.png" style="width:16px"> Template/es.md)
 

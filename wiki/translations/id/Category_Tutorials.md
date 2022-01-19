@@ -5,7 +5,10 @@ Special pages are [Offsite tutorials/id](Offsite_tutorials/id.md) and [Video tut
 
 ### Contents:
 
-[Template:TutorialInfo/id](Template:TutorialInfo/id.md) , [Tutorials/id](Tutorials/id.md) , [Video tutorials/id](Video_tutorials/id.md)
+  ----------------------------------------------------------------- ----------------------------------------- -----------------------------------------------------
+  [Template:TutorialInfo/id](Template:TutorialInfo/id.md)   [Tutorials/id](Tutorials/id.md)   [Video tutorials/id](Video_tutorials/id.md)
+                                                                                                              
+  ----------------------------------------------------------------- ----------------------------------------- -----------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Categories/id](<img src="images/Property.png" style="width:16px"> Categories/id.md)
 

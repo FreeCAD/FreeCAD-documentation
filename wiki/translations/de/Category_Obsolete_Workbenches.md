@@ -3,7 +3,10 @@ Diese Kategorie zeigt eine Liste der veralteten Arbeitsbereiche, d.h. Arbeitsber
 
 ### Contents:
 
-[Complete Workbench/de](Complete_Workbench/de.md) , [Drawing Workbench/de](Drawing_Workbench/de.md) ,
+  ----------------------------------------------------------- --------------------------------------------------------- --
+  [Complete Workbench/de](Complete_Workbench/de.md)   [Drawing Workbench/de](Drawing_Workbench/de.md)   
+                                                                                                                        
+  ----------------------------------------------------------- --------------------------------------------------------- --
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/de](<img src="images/Property.png" style="width:16px"> Workbenches/de.md) [<img src="images/Property.png" style="width:16px"> Drawing/de](<img src="images/Property.png" style="width:16px"> Drawing/de.md)
 

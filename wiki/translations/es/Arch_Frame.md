@@ -76,6 +76,8 @@ La herramienta armazón se usa para construir todo tipo de objetos de armazón b
 
 -    {{PropertyData/es|Rotation}}: la rotación del perfil alrededor de su eje de extrusión.
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 

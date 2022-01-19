@@ -3,7 +3,10 @@ This category gathers documentation article mostly aimed at programmers
 
 ### Contents:
 
-[Help FreeCAD/uk](Help_FreeCAD/uk.md) , [Installing on Linux/uk](Installing_on_Linux/uk.md) , [Localisation/uk](Localisation/uk.md)
+  ----------------------------------------------- ------------------------------------------------------------- -----------------------------------------------
+  [Help FreeCAD/uk](Help_FreeCAD/uk.md)   [Installing on Linux/uk](Installing_on_Linux/uk.md)   [Localisation/uk](Localisation/uk.md)
+                                                                                                                
+  ----------------------------------------------- ------------------------------------------------------------- -----------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 

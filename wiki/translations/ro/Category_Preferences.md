@@ -3,7 +3,10 @@ This category lists all existing Preference menus of different FreeCAD workbench
 
 ### Contents:
 
-[Customize Toolbars/ro](Customize_Toolbars/ro.md) , [Draft Preferences/ro](Draft_Preferences/ro.md) , [Import Export Preferences/ro](Import_Export_Preferences/ro.md) , [Preferences Editor/ro](Preferences_Editor/ro.md)
+  ----------------------------------------------------------- --------------------------------------------------------- -------------------------------------------------------------------------
+  [Customize Toolbars/ro](Customize_Toolbars/ro.md)   [Draft Preferences/ro](Draft_Preferences/ro.md)   [Import Export Preferences/ro](Import_Export_Preferences/ro.md)
+  [Preferences Editor/ro](Preferences_Editor/ro.md)                                                             
+  ----------------------------------------------------------- --------------------------------------------------------- -------------------------------------------------------------------------
 
 ---
 [documentation index](../README.md) > Category:Preferences/ro

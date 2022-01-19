@@ -3,7 +3,9 @@ This category collects pages from the [external workbenches](external_workbenche
 
 ### Contents:
 
-[Plot Save/ja](Plot_Save/ja.md) , [Ship Workbench/ja](Ship_Workbench/ja.md)
+  ----------------------------------------- ---------------------------------------------------
+  [Plot Save/ja](Plot_Save/ja.md)   [Ship Workbench/ja](Ship_Workbench/ja.md)
+  ----------------------------------------- ---------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/ja](<img src="images/Property.png" style="width:16px"> Workbenches/ja.md) [<img src="images/Property.png" style="width:16px"> Addons/ja](<img src="images/Property.png" style="width:16px"> Addons/ja.md)
 

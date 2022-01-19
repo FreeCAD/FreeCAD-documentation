@@ -3,7 +3,9 @@ This category lists pages related to the [Raytracing Workbench/hr](Raytracing_Wo
 
 ### Contents:
 
-[Raytracing Workbench/hr](Raytracing_Workbench/hr.md)
+  ---------------------------------------------------------------
+  [Raytracing Workbench/hr](Raytracing_Workbench/hr.md)
+  ---------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/hr](<img src="images/Property.png" style="width:16px"> Workbenches/hr.md)
 

@@ -11,7 +11,15 @@ Este artigo descreve a **Branding** do FreeCAD. Branding significa iniciar sua p
 
 </div>
 
-### General
+## Warning
+
+Although FreeCAD is offered to you free of charge, and the FreeCAD community is happy to see other applications emerging, that are based on FreeCAD, we have on the other hand seen a lot of unfair use of the information contained on this page by people who simply rebranded FreeCAD into a closed-source application to make profit from it.
+
+Although the [LGPL license](License.md) allows to use the FreeCAD source code in closed-source applications, it also gives strict rules to do so, and does not allow simply taking FreeCAD, renaming it and stripping it of its license.
+
+Would you be interested in using FreeCAD in a closed-source application, be sure to check thoroughly the implications of the LGPL license, and, even better, contact any FreeCAD developer, administrator or moderator before doing so.
+
+## General
 
 
 <div class="mw-translate-fuzzy">
@@ -57,7 +65,7 @@ A primeira entrada Config define o nome do programa. Este não é o nome do exec
 
 As próximas linhas definem as entradas de configuração de sua aplicação FooApp. Uma descrição do Config e suas entradas que você encontra em [Inicialização e configuração](Start_up_and_Configuration/pt-br.md).
 
-### Images
+## Images
 
 
 <div class="mw-translate-fuzzy">
@@ -81,7 +89,7 @@ na função main(). Alternativamente, se você tiver uma imagem no formato XPM v
 Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
 
-### Branding XML 
+## Branding XML 
 
 
 <div class="mw-translate-fuzzy">

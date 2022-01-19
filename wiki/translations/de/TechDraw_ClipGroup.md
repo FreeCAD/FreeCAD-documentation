@@ -39,7 +39,13 @@ Dieses Werkzeug erstellt ein Ausschnittfenster, das eine oder mehrere Ansichten 
 -    {{PropertyData/de|Ansichten}}: Die im Ausschnittfenster enthaltenen Ansichten.
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi

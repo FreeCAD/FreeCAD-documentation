@@ -3,7 +3,9 @@ This category lists pages related to the [Plot Workbench/zh-cn](Plot_Workbench/z
 
 ### Contents:
 
-[Plot Workbench/zh-cn](Plot_Workbench/zh-cn.md)
+  ---------------------------------------------------------
+  [Plot Workbench/zh-cn](Plot_Workbench/zh-cn.md)
+  ---------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/zh-cn](<img src="images/Property.png" style="width:16px"> Workbenches/zh-cn.md)
 

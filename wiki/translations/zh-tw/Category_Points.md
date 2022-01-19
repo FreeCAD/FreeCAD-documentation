@@ -3,7 +3,9 @@ This category lists pages related to the [Points Workbench/zh-tw](Points_Workben
 
 ### Contents:
 
-[Points Workbench/zh-tw](Points_Workbench/zh-tw.md)
+  -------------------------------------------------------------
+  [Points Workbench/zh-tw](Points_Workbench/zh-tw.md)
+  -------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/zh-tw](<img src="images/Property.png" style="width:16px"> Workbenches/zh-tw.md)
 

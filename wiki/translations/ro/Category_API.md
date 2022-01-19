@@ -5,7 +5,15 @@ This category gathers article that list objects and methods available to the pyt
 
 ### Contents:
 
-[Arch API/ro](Arch_API/ro.md) , [Base API/ro](Base_API/ro.md) , [Builtin modules/ro](Builtin_modules/ro.md) , [Console API/ro](Console_API/ro.md) , [Draft API/ro](Draft_API/ro.md) , [FreeCAD API/ro](FreeCAD_API/ro.md) , [FreeCADGui API/ro](FreeCADGui_API/ro.md) , [Matrix API/ro](Matrix_API/ro.md) , [Mesh API/ro](Mesh_API/ro.md) , [Object API/ro](Object_API/ro.md) , [Part API/ro](Part_API/ro.md) , [Placement API/ro](Placement_API/ro.md) , [Python/ro](Python/ro.md) , [TechDraw API/ro](TechDraw_API/ro.md) , [TechDrawGui API/ro](TechDrawGui_API/ro.md) , [TopoShape API/ro](TopoShape_API/ro.md) , [Vector API/ro](Vector_API/ro.md) , [ViewObject API/ro](ViewObject_API/ro.md)
+  --------------------------------------------------- ----------------------------------------------- -----------------------------------------------------
+  [Arch API/ro](Arch_API/ro.md)               [Base API/ro](Base_API/ro.md)           [Builtin modules/ro](Builtin_modules/ro.md)
+  [Console API/ro](Console_API/ro.md)         [Draft API/ro](Draft_API/ro.md)         [FreeCAD API/ro](FreeCAD_API/ro.md)
+  [FreeCADGui API/ro](FreeCADGui_API/ro.md)   [Matrix API/ro](Matrix_API/ro.md)       [Mesh API/ro](Mesh_API/ro.md)
+  [Object API/ro](Object_API/ro.md)           [Part API/ro](Part_API/ro.md)           [Placement API/ro](Placement_API/ro.md)
+  [Python/ro](Python/ro.md)                   [TechDraw API/ro](TechDraw_API/ro.md)   [TechDrawGui API/ro](TechDrawGui_API/ro.md)
+  [TopoShape API/ro](TopoShape_API/ro.md)     [Vector API/ro](Vector_API/ro.md)       [ViewObject API/ro](ViewObject_API/ro.md)
+                                                                                                      
+  --------------------------------------------------- ----------------------------------------------- -----------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Categories/ro](<img src="images/Property.png" style="width:16px"> Categories/ro.md)
 

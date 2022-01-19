@@ -3,7 +3,9 @@ This category lists pages related to the [Drawing Workbench/zh](Drawing_Workbenc
 
 ### Contents:
 
-[Drawing Workbench/zh](Drawing_Workbench/zh.md)
+  ---------------------------------------------------------
+  [Drawing Workbench/zh](Drawing_Workbench/zh.md)
+  ---------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Obsolete Workbenches/zh](<img src="images/Property.png" style="width:16px"> Obsolete_Workbenches/zh.md)
 

@@ -3,7 +3,9 @@ This category lists pages related to the [Ship Workbench/zh-tw](Ship_Workbench/z
 
 ### Contents:
 
-[Ship Workbench/zh-tw](Ship_Workbench/zh-tw.md)
+  ---------------------------------------------------------
+  [Ship Workbench/zh-tw](Ship_Workbench/zh-tw.md)
+  ---------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/zh-tw](<img src="images/Property.png" style="width:16px"> Workbenches/zh-tw.md)
 

@@ -5,7 +5,21 @@
 
 Dieser Artikel beschreibt die **Markenbildung** von FreeCAD. Markenbildung bedeutet, deine eigene Anwendung basierend auf FreeCAD zu erstellen. Das kann nur eine eigene ausführbare Datei oder [Eingangsbildschirm](Splash_screen/de.md) sein, bis hin zu einem komplett überarbeiteten Programm. Aufgrund der flexiblen Architektur von FreeCAD ist es einfach, es als Basis für die Erstellung deines eigenen speziellen Programms zu verwenden.
 
+## Warning
+
+Although FreeCAD is offered to you free of charge, and the FreeCAD community is happy to see other applications emerging, that are based on FreeCAD, we have on the other hand seen a lot of unfair use of the information contained on this page by people who simply rebranded FreeCAD into a closed-source application to make profit from it.
+
+Although the [LGPL license](License.md) allows to use the FreeCAD source code in closed-source applications, it also gives strict rules to do so, and does not allow simply taking FreeCAD, renaming it and stripping it of its license.
+
+Would you be interested in using FreeCAD in a closed-source application, be sure to check thoroughly the implications of the LGPL license, and, even better, contact any FreeCAD developer, administrator or moderator before doing so.
+
+
+<div class="mw-translate-fuzzy">
+
 ### Allgemeines
+
+
+</div>
 
 Die Markenbildung geschieht hauptsächlich in den Dateien {{FileName|MainCmd.cpp}} oder {{FileName|MainGui.cpp}}. Diese Projekte generieren die ausführbaren Dateien von FreeCAD. Um deine eigene Marke zu erstellen, kopiere einfach die Main- oder MainGui Projekte und gib der ausführbaren Datei ihren eigenen Namen, z. B. {{FileName|FooApp.exe}}. Die wichtigsten Einstellungen für ein neues Aussehen werden an einer Stelle in der main() Funktion vorgenommen. Hier ist der Code-Abschnitt, der die Markenbildung steuert:
 
@@ -43,7 +57,13 @@ Der erste Config Eintrag definiert den Namen des Programms. Dies ist nicht der N
 
 Die nächsten Zeilen definieren die Config Einträge Ihrer FooApp Anwendung. Eine Beschreibung der Config und ihrer Einträge findest du unter [Inbetriebnahme und Konfiguration](Start_up_and_Configuration/de.md).
 
+
+<div class="mw-translate-fuzzy">
+
 ### Bilder
+
+
+</div>
 
 Bildquellen werden über das [Qt-System](http://qt-project.org/doc/qt-4.8/resources.html) in FreeCAD kompiliert. Deshalb muss eine {{FileName|.qrc}} Datei geschrieben werden; ein XML-basiertes Dateiformat, das die Bilddateien auf der Festplatte auflistet. Um die kompilierten Ressourcen innerhalb der Anwendung zu laden, muss folgende Zeile hinzugefügt werden:
 
@@ -59,7 +79,13 @@ innerhalb der main()-Funktion. Liegt ein Bild in XPM-Format vor, kann es mit Hil
 Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
 
+
+<div class="mw-translate-fuzzy">
+
 ### Branding XML 
+
+
+</div>
 
 In FreeCAD wird auch eine Branding-Methode unterstützt, ohne eine angepasste main() Function zu schreiben. Für diese Methode müssen Sie eine Datei namens {{FileName|branding.xml}} schreiben und diese im Installationsverzeichnis von FreeCAD ablegen. Hier ein Beispiel mit allen unterstützten Tags:
 

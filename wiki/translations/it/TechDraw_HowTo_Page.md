@@ -1,7 +1,4 @@
 # TechDraw HowTo Page/it
-Back to [TechDraw Tutorials](TechDraw_Workbench#Tutorials.md)
-
-
 {{TutorialInfo/it
 |Topic=How To's and Misc Info 
 |Level=all

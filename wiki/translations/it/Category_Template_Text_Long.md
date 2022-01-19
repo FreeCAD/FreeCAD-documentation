@@ -7,7 +7,9 @@ These long pages should not be transcluded; rather, the information should be pl
 
 ### Contents:
 
-[Template:Blender Navigation/it](Template:Blender_Navigation/it.md)
+  -----------------------------------------------------------------------------
+  [Template:Blender Navigation/it](Template:Blender_Navigation/it.md)
+  -----------------------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Template/it](<img src="images/Property.png" style="width:16px"> Template/it.md)
 

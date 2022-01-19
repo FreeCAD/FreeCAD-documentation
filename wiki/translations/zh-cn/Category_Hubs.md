@@ -3,7 +3,10 @@ This category gathers the meeting points of the 3 broad categories of users of F
 
 ### Contents:
 
-[Developer hub/zh-cn](Developer_hub/zh-cn.md) , [Power users hub/zh-cn](Power_users_hub/zh-cn.md) , [User hub/zh-cn](User_hub/zh-cn.md)
+  ------------------------------------------------------- ----------------------------------------------------------- ---------------------------------------------
+  [Developer hub/zh-cn](Developer_hub/zh-cn.md)   [Power users hub/zh-cn](Power_users_hub/zh-cn.md)   [User hub/zh-cn](User_hub/zh-cn.md)
+                                                                                                                      
+  ------------------------------------------------------- ----------------------------------------------------------- ---------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Categories/zh-cn](<img src="images/Property.png" style="width:16px"> Categories/zh-cn.md)
 

@@ -36,35 +36,35 @@ FreeCAD fournit deux flux de travail principaux pour modéliser des pièces :
 
 Veuillez noter que le flux de travail de [l\'atelier PartDesign ](PartDesign_Workbench/fr.md) a été considérablement modifié depuis FreeCAD 0.17 ; certains tutoriels n\'ont pas été mis à jour et peuvent faire référence à la version 0.16.
 
-<File:GGTuto1> Vue.PNG\|link=[Creating a simple part with PartDesign/fr](Creating_a_simple_part_with_PartDesign/fr.md)\|[Créer une pièce simple avec PartDesign](Creating_a_simple_part_with_PartDesign/fr.md) (v0.17)
-Introduction au flux de travaux PartDesign: tracé d\'une esquisse, fonction pad, pocket et déplaçement de l\'objet.
+<File:GGTuto1> Vue.PNG\|link=[Creating\_a\_simple\_part\_with\_PartDesign/fr](Creating_a_simple_part_with_PartDesign/fr.md)\|[Créer une pièce simple avec PartDesign](Creating_a_simple_part_with_PartDesign/fr.md) (v0.17)
+Introduction au flux de travaux PartDesign : tracé d\'une esquisse, fonction protrusion, cavité et déplacement de l\'objet.
 
-PD WB Tutorial018.png\|link=[Basic\_Part\_Design\_Tutorial/fr](Basic_Part_Design_Tutorial/fr.md)\|[Tutoriel de base pour l\'atelier Part Design](Basic_Part_Design_Tutorial/fr.md) (v0.17)
-Modélisation d\'une pièce simple à l\'aide de la méthode d\'édition des caractéristiques: créer une esquisse, fonction pad, des références externes, pocket et un miroir.
+PD WB Tutorial018.png\|link=[Basic\_Part\_Design\_Tutorial/fr](Basic_Part_Design_Tutorial/fr.md)\|[Tutoriel d\'introduction PartDesign](Basic_Part_Design_Tutorial/fr.md) (v0.17)
+Modélisation d\'une pièce simple à l\'aide de la méthode d\'édition des caractéristiques : créer une esquisse, fonction pad, des références externes, pocket et un miroir.
 
-TBHS-model.png\|link=[Toothbrush\_Head\_Stand/fr](Toothbrush_Head_Stand/fr.md)\|[Support pour tête de brosse à dents](Toothbrush_Head_Stand/fr.md) (v0.16)
-Plusieurs fonctionnalités utilisées: contraintes d\'esquisse, de distance et de coïncidence, pad, références externes, congé, chanfrein, motif linéaire et draft.
+TBHS-model.png\|link=[Toothbrush\_Head\_Stand/fr](Toothbrush_Head_Stand/fr.md)\|[Support pour tête de brosse à dents](Toothbrush_Head_Stand/fr.md) (v0.16 et +)
+Plusieurs fonctionnalités utilisées: contraintes d\'esquisse, de distance et de coïncidence, protrusion, références externes, congé, chanfrein, motif linéaire et draft.
 
-Exercise lego 01.jpg\|link=[Manual:Modeling\_for\_product\_design/fr](Manual:Modeling_for_product_design/fr.md)\|[ Modélisation pour la conception de produits](Manual:Modeling_for_product_design/fr.md) (v0.16)
-Modélisation d\'un bloc Lego: croquis, contraintes de distance verticale et horizontale, fonction pad, pocket, référence externe, motif linéaire et assemblage.
+Exercise lego 01.jpg\|link=[Manual:Modeling\_for\_product\_design/fr](Manual:Modeling_for_product_design/fr.md)\|[Modélisation pour la conception de produits](Manual:Modeling_for_product_design/fr.md) (v0.16)
+Modélisation d\'un bloc Lego : esquisses, contraintes de distance verticale et horizontale, fonction protrusion, cavité, référence externe, motif linéaire et assemblage.
 
-Exercise table complete.jpg\|link=[Manual:Traditional\_modeling,\_the\_CSG\_way/fr](Manual:Traditional_modeling,_the_CSG_way/fr.md)\|[ Modélisation traditionnelle, méthode CSG](Manual:Traditional_modeling,_the_CSG_way/fr.md)
+Exercise table complete.jpg\|link=[Manual:Traditional\_modeling,\_the\_CSG\_way/fr](Manual:Traditional_modeling,_the_CSG_way/fr.md)\|[Modélisation traditionnelle, méthode CSG](Manual:Traditional_modeling,_the_CSG_way/fr.md)
 Modélisation d\'une table à l\'aide de fonctions simples des solides tels que des cubes et cylindres, opérations booléennes (fusion et découpe).
 
-08\_T04\_Part\_ShapesString\_Extrude\_final\_cut.png\|link=[Draft\_ShapeString\_tutorial/fr](Draft_ShapeString_tutorial/fr.md)\|[Tutoriel de Dessin de Shapestring](Draft_ShapeString_tutorial/fr.md) (v0.19)
-Créez un texte gravé sur un solide: extrudez un texte pour le rendre solide puis à l\'aide de la fonction booléenne intersection le graver dans le solide.
+08\_T04\_Part\_ShapesString\_Extrude\_final\_cut.png\|link=[Draft\_ShapeString\_tutorial/fr](Draft_ShapeString_tutorial/fr.md)\|[Tutoriel de Dessin de Formes à partir de texte](Draft_ShapeString_tutorial/fr.md) (v0.19)
+Créez un texte gravé sur un solide : extrudez un texte pour le rendre solide puis à l\'aide de la fonction booléenne intersection le graver dans le solide.
 
-10\_T03\_Part\_ball\_fillet.png\|link=[Whiffle\_Ball\_tutorial/fr](Whiffle_Ball_tutorial/fr.md)\|[ Créer une balle Wiffle](Whiffle_Ball_tutorial/fr.md) (v0.19)
+10\_T03\_Part\_ball\_fillet.png\|link=[Whiffle\_Ball\_tutorial/fr](Whiffle_Ball_tutorial/fr.md)\|[Créer une balle Wiffle](Whiffle_Ball_tutorial/fr.md) (v0.19)
 Utilisez des primitives solides comme des cubes et des cylindres, des opérations booléennes, comme union et intersection, pour créer une balle Wiffle.
 
 Tutorial-normand06.jpg\|link=[Basic\_modeling\_tutorial/fr](Basic_modeling_tutorial/fr.md)\|[Tutoriel d\'introduction à la modélisation](Basic_modeling_tutorial/fr.md)
-Créez un angle de fer par deux méthodes: utilisation de primitives solides et d\'opérations booléennes (CSG) et en extrudant un profil planaire.
+Créez une cornière en fer de deux manières : en utilisant des primitives solides et des opérations booléennes (CSG) ; et en extrudant un profil plan.
 
 <File:HTCaeroplane04.png%7Clink=>[Aeroplane](Aeroplane.md)\|[Tutoriel aéroplane](Aeroplane/fr.md)
 Comprendre les emplacements dans FreeCAD en créant un modèle d\'avion simple puis les angles de rotation, le lacet (Z), le tangage (Y) et le roulis (X).
 
 <File:T13_14_Threads_components.png%7Clink=>[Thread\_for\_Screw\_Tutorial/fr](Thread_for_Screw_Tutorial/fr.md)\|[Tutoriel Filetage pour vis](Thread_for_Screw_Tutorial/fr.md) (v0.19)
-Comprendre comment créer des filetages avec plusieurs techniques qui incluent l\'utilisation des outils [Part Hélice](Part_Helix/fr.md), [PartDesign AdditivePipe](PartDesign_AdditivePipe.md), [Part Sweep](Part_Sweep/fr.md), [Part Union](Part_Fuse/fr.md) et [Part Soustraction](Part_Cut/fr.md).
+Comprendre comment créer des filetages avec plusieurs techniques qui incluent l\'utilisation des outils [Part Hélice](Part_Helix/fr.md), [PartDesign Balayage additif](PartDesign_AdditivePipe/fr.md), [Part Balayage](Part_Sweep/fr.md), [Part Union](Part_Fuse/fr.md) et [Part Soustraction](Part_Cut/fr.md).
 
 Le projet Raspberry Pi propose de simples tutoriels faciles à suivre, en particulier pour les débutants en systèmes de CAO :
 

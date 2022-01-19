@@ -182,7 +182,7 @@ d.recompute()
 {{APIFunction|swapEdge| |Remplacez le bord commun avec le voisin| }}
 
 
-{{APIFunction|transform| |appliquer une transformation à la maille| }}
+{{APIFunction|transform| |Appliquer une transformation à la maille| }}
 
 
 {{APIFunction|transformToEigen| |Transforme le maillage pour son eigenbase| }}
@@ -200,13 +200,16 @@ d.recompute()
 {{APIFunction|writeInventor| |Ecrire le maillage au format OpenInventor dans une chaine|. une chaîne}}
 
 
-{{APIProperty|Area|. la zone de l'objet mesh}}
+{{APIProperty|Area|la surface de l'objet maillé.}}
 
 
-{{APIProperty|CountFacets|le nombre de facettes de l'objet mesh}}
+{{APIProperty|CountEdges|Le nombre de sommets de l'objet maillé.}}
 
 
-{{APIProperty|CountPoints|le nombre de sommets de l'objet mesh}}
+{{APIProperty|CountFacets|Le nombre de facettes de l'objet mesh.}}
+
+
+{{APIProperty|CountPoints|Le nombre de points de l'objet maillé.}}
 
 
 {{APIProperty|Facets|Une collection de facettes..; Avec cet attribut, il est possible d’avoir accès aux facettes du maillage: pour f dans mesh.Facets: print f. Facet.Points est une liste de tupels de coordonnées pour les sommets. Facet.PointIndices est une liste d'indices pour les sommets de la facette. ATTENTION! stocker les facettes dans une variable locale telle qu’elle est générée à la volée, chaque fois qu’on y accède.}}
@@ -215,19 +218,19 @@ d.recompute()
 {{APIProperty|Points|Une collection de points du maillage; Avec cet attribut, il est possible d'avoir accès à des points du maillage: pour p dans mesh.Points: Print p.x, p.y, p.z, p.Index.WARNING! stocke des points dans une variable locale, telle qu'elle est générée à la volée, à chaque accès.}}
 
 
-{{APIProperty|Topology|les points et les indices de face comme tuple Topology[0] est une liste de tous les sommets. Chacun étant un tuple de 3 coordonnées. Topology[1] est une liste de tous les polygones. Chacune étant une liste d'indices de sommet dans Topology[0] AVERTISSEMENT! stocker la topologie dans une variable locale telle qu'elle est générée à la volée, à chaque accès.}}
+{{APIProperty|Topology|Les points et les indices de face comme tuple Topology[0] est une liste de tous les sommets. Chacun étant un tuple de 3 coordonnées. Topology[1] est une liste de tous les polygones. Chacune étant une liste d'indices de sommet dans Topology[0] AVERTISSEMENT! stocker la topologie dans une variable locale telle qu'elle est générée à la volée, à chaque accès.}}
 
 
-{{APIProperty|Volume|le volume de l'objet mesh}}
+{{APIProperty|Volume|Le volume de l'objet mesh}}
 
 
-{{APIProperty|BoundBox|la boîte englobante de l'objet}}
+{{APIProperty|BoundBox|La boîte englobante de l'objet}}
 
 
-{{APIProperty|Matrix|la transformation actuelle de l'objet comme matrice}}
+{{APIProperty|Matrix|La transformation actuelle de l'objet comme matrice}}
 
 
-{{APIProperty|Placement|la transformation actuelle de l'objet comme placement}}
+{{APIProperty|Placement|La transformation actuelle de l'objet comme placement}}
 
 
  

@@ -107,9 +107,9 @@ Ces outils permettent de créer des objets.
     -   <img alt="" src=images/Sketcher_CreateArcOfHyperbola.svg  style="width:32px;"> [Arc d\'hyperbole](Sketcher_CreateArcOfHyperbola/fr.md) : dessine un arc d\'hyperbole.
     -   <img alt="" src=images/Sketcher_CreateArcOfParabola.svg  style="width:32px;"> [Arc de parabole](Sketcher_CreateArcOfParabola/fr.md) : dessine un arc de parabole.
 
--   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [Créer une B-spline](Sketcher_CompCreateBSpline/fr.md) : Il s\'agit d\'un menu d\'icône dans la barre d\'outils Géométries d\'esquisse qui contient les commandes suivantes :
-    -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [Créer une B-spline](Sketcher_CreateBSpline/fr.md) : Dessine une courbe B-spline par ses points de contrôle.
-    -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [Créer une B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md) : Dessine une courbe B-spline périodique (fermée) par ses points de contrôle.
+-   <img alt="" src=images/Sketcher_CompCreateBSpline.png  style="width:48px;"> [Créer des B-splines](Sketcher_CompCreateBSpline/fr.md) : Il s\'agit d\'un menu d\'icône dans la barre d\'outils Géométries d\'esquisse qui contient les commandes suivantes :
+    -   <img alt="" src=images/Sketcher_CreateBSpline.svg  style="width:32px;"> [B-spline simple](Sketcher_CreateBSpline/fr.md) : Dessine une courbe B-spline par ses points de contrôle.
+    -   <img alt="" src=images/Sketcher_CreatePeriodicBSpline.svg  style="width:32px;"> [B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md) : Dessine une courbe B-spline périodique (fermée) par ses points de contrôle.
 
 -   <img alt="" src=images/Sketcher_CreatePolyline.svg  style="width:32px;"> [Polyligne](Sketcher_CreatePolyline/fr.md) : dessine une ligne composée de plusieurs segments connectés entre eux. Appuyer sur la touche **M** pendant que la commande est active bascule entre plusieurs modes de polylignes.
 

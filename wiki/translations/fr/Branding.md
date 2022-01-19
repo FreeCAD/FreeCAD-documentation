@@ -5,7 +5,15 @@
 
 Cet article décrit le **Branding (identification à la marque)** de FreeCAD. Branding signifie que vous pouvez lancer votre propre application sur une base de FreeCAD. Cela peut être seulement votre propre exécutable ou votre [écran de démarrage](Splash_screen/fr.md) jusqu\'à une refonte complète du programme. Grace à l\'architecture flexible de FreeCAD, il est facile de l\'utiliser comme base pour votre propre programme spécifique.
 
-### Generalités
+## Attention
+
+Bien que FreeCAD vous soit proposé gratuitement, et que la communauté FreeCAD soit heureuse de voir émerger d\'autres applications basées sur FreeCAD, nous avons d\'autre part constaté une utilisation déloyale des informations contenues dans cette page par des personnes qui ont simplement rebaptisé FreeCAD en une application à code source fermé pour en tirer profit.
+
+Bien que la [licence LGPL](Licence/fr.md) permette d\'utiliser le code source de FreeCAD dans des applications à code fermé, elle donne également des règles strictes pour le faire, et ne permet pas de simplement prendre FreeCAD, de le renommer et de le dépouiller de sa licence.
+
+Si vous souhaitez utiliser FreeCAD dans une application à code source fermé, assurez-vous de bien vérifier les implications de la licence LGPL et, mieux encore, contactez un développeur, un administrateur ou un modérateur de FreeCAD avant de le faire.
+
+## Generalités
 
 La plupart des marques (branding) se font dans {{FileName|MainCmd.cpp}} ou {{FileName|MainGui.cpp}}. Ces projets génèrent les fichiers exécutables de **FreeCAD**. Pour faire votre propre marque (branding), il suffit de copier **Main** (les projets principaux) ou **MainGui** (les projets graphiques GUI) et donner à l\'exécutable un nom qui vous est propre, pour notre exemple, {{FileName|FooApp.exe}}. Les réglages les plus importants pour un nouveau visuel sont effectués à un seul endroit, dans la fonction main(). Voici la section de code qui contrôle l\'image de marque (branding) :
 
@@ -43,7 +51,7 @@ La première entrée, **::Config** définit le nom du programme ici, **\"FooApp.
 
 Les lignes suivantes définissent les entrées de configuration de votre application **\"FooApp\"**, une description de la configuration et de ses entrées que vous trouverez dans [Démarrage et configuration](Start_up_and_Configuration/fr.md).
 
-### Images
+## Images
 
 Les ressources contenant les images sont compilées dans FreeCAD à l\'aide de [Qt\'s resource system](http://qt-project.org/doc/qt-4.8/resources.html). Par conséquent, vous devez écrire un fichier {{FileName|.qrc}}, un format de fichier basé sur XML qui répertorie les fichiers image sur le disque, mais également tout autre type de fichier de ressources. Pour charger les ressources compilées dans l\'application, vous devez ajouter une ligne
 
@@ -59,7 +67,7 @@ dans la fonction main(). Sinon, si vous avez une image au format XPM, vous pouve
 Gui::BitmapFactory().addXPM("FooAppSplasher", ( const char** ) splash_screen);
 ```
 
-### Branding XML 
+## Branding XML 
 
 Dans FreeCAD, une méthode est également prise en charge sans écrire de fonction main() personnalisée. Pour cette méthode, vous devez écrire un nom de fichier appelé {{FileName|branding.xml}} et le placer dans le répertoire d\'installation de FreeCAD. Voici un exemple avec toutes les balises prises en charge:
 

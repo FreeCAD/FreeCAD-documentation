@@ -23,6 +23,13 @@ Exécutez uniquement quelques tests spécifiques, par exemple :
 freecad -t TestDraft
 ```
 
+Si un test ne nécessite pas l\'interface graphique, il peut également être exécuté en mode console en définissant l\'option `-c` ou `--console` en plus. Cela se traduit généralement par un démarrage beaucoup plus rapide car l\'interface graphique n\'est pas chargée. Par exemple :
+
+
+```python
+freecad -c -t TestPartDesignApp
+```
+
 ## Menu Test 
 
 Chaque répertoire de niveau supérieur de FreeCAD doit contenir un fichier avec les tests pouvant être exécutés pour cet atelier ou ce module particulier. Le fichier commence généralement par le mot `Test`.

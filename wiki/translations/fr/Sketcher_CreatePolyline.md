@@ -11,7 +11,7 @@
 
 ## Description
 
-Cet outil fonctionne comme l\'outil [Ligne](Sketcher_CreateLine/fr.md), mais dessine des segments de droite et des arcs continus et reliés par leurs sommets en cliquant des points dans la vue 3D. Lorsque l\'outil est activé, le pointeur de la souris se change en croix blanche avec une icône de Polyligne rouge. Les coordonnées du pointeur sont affichées en bleu à côté de la croix, et sont mises à jour en temps réel.
+Cet outil fonctionne comme l\'outil [Sketcher Ligne](Sketcher_CreateLine/fr.md), mais dessine des segments de droite et des arcs continus et reliés par leurs sommets en cliquant des points dans la vue 3D. Lorsque l\'outil est activé, le pointeur de la souris se change en croix blanche avec une icône de Polyligne rouge. Les coordonnées du pointeur sont affichées en bleu à côté de la croix, et sont mises à jour en temps réel.
 
 ![](images/Sketcher_PolylineExample1.png )
 

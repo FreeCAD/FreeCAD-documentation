@@ -20,6 +20,9 @@ d.recompute()
 ```
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{APIFunction|addFacet|Facet|Aggiunge una sfaccettatura alla maglia| }}
 
 
@@ -234,6 +237,9 @@ d.recompute()
 
 
 {{APIProperty|Placement|the current transformation of the object as placement}}
+
+
+</div>
 
 
  

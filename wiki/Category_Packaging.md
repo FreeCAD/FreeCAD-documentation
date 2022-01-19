@@ -3,7 +3,12 @@ This category collects pages related to packing FreeCAD for different platforms,
 
 ### Contents:
 
-[AppImage](AppImage.md) , [Debian development](Debian_development.md) , [Debian Unstable](Debian_Unstable.md) , [Git buildpackage](Git_buildpackage.md) , [Linux packaging](Linux_packaging.md) , [MacOS packaging](MacOS_packaging.md) , [Packaging](Packaging.md) , [Windows packaging](Windows_packaging.md) , [Windows packaging/en](Windows_packaging/en.md) , [Windows packaging/pl](Windows_packaging/pl.md) , [Windows packaging/ru](Windows_packaging/ru.md)
+  --------------------------------------------------------- --------------------------------------------------------- ---------------------------------------------------------
+  [AppImage](AppImage.md)                           [Debian development](Debian_development.md)       [Debian Unstable](Debian_Unstable.md)
+  [Git buildpackage](Git_buildpackage.md)           [Linux packaging](Linux_packaging.md)             [MacOS packaging](MacOS_packaging.md)
+  [Packaging](Packaging.md)                         [Windows packaging](Windows_packaging.md)         [Windows packaging/en](Windows_packaging/en.md)
+  [Windows packaging/pl](Windows_packaging/pl.md)   [Windows packaging/ru](Windows_packaging/ru.md)   
+  --------------------------------------------------------- --------------------------------------------------------- ---------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Developer\_Documentation](Category_Developer_Documentation.md)
 

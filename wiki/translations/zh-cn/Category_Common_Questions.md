@@ -3,7 +3,9 @@ This category has links to common questions on how to do something in FC. This i
 
 ### Contents:
 
-[Help FreeCAD/zh-cn](Help_FreeCAD/zh-cn.md) , [Installing on Linux/zh-cn](Installing_on_Linux/zh-cn.md)
+  ----------------------------------------------------- -------------------------------------------------------------------
+  [Help FreeCAD/zh-cn](Help_FreeCAD/zh-cn.md)   [Installing on Linux/zh-cn](Installing_on_Linux/zh-cn.md)
+  ----------------------------------------------------- -------------------------------------------------------------------
 
 ---
 [documentation index](../README.md) > Category:Common Questions/zh-cn

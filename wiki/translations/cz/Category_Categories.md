@@ -8,9 +8,12 @@ This is the **top category** which contains the main categories of the FreeCAD w
 
 ### Contents:
 
-, ,
+  -- -- --
+        
+        
+  -- -- --
 
 [<img src="images/Property.png" style="width:16px"> Categories/cz](<img src="images/Property.png" style="width:16px"> Categories/cz.md) [<img src="images/Property.png" style="width:16px"> Categories/cz](<img src="images/Property.png" style="width:16px"> Categories/cz.md) [<img src="images/Property.png" style="width:16px"> Documentation/cz](<img src="images/Property.png" style="width:16px"> Documentation/cz.md) [<img src="images/Property.png" style="width:16px"> Hubs/cz](<img src="images/Property.png" style="width:16px"> Hubs/cz.md)
 
 ---
-[documentation index](../README.md) > [Categories/cz]] , ](Category_Categories/cz]] , .md) > Category:Categories/cz
+[documentation index](../README.md) > Category:Categories/cz

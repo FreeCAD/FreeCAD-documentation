@@ -3,7 +3,9 @@ This category lists pages related to the [Ship Workbench/pt-br](Ship_Workbench/p
 
 ### Contents:
 
-[Ship Workbench/pt-br](Ship_Workbench/pt-br.md)
+  ---------------------------------------------------------
+  [Ship Workbench/pt-br](Ship_Workbench/pt-br.md)
+  ---------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/pt-br](<img src="images/Property.png" style="width:16px"> Workbenches/pt-br.md)
 

@@ -5,7 +5,9 @@ This category gathers articles that list objects and methods available for [Pyth
 
 ### Contents:
 
-[Mesh API/hu](Mesh_API/hu.md)
+  ---------------------------------------
+  [Mesh API/hu](Mesh_API/hu.md)
+  ---------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Categories/hu](<img src="images/Property.png" style="width:16px"> Categories/hu.md)
 

@@ -5,7 +5,11 @@ See also [UncategorizedTemplates](Special_UncategorizedTemplates.md)
 
 ### Contents:
 
-[Template:Blender Navigation/bg](Template:Blender_Navigation/bg.md) , [Template:CAD Navigation/bg](Template:CAD_Navigation/bg.md) , [Template:Gesture Navigation/bg](Template:Gesture_Navigation/bg.md) , [Template:Inventor Navigation/bg](Template:Inventor_Navigation/bg.md) , [Template:MayaGesture Navigation/bg](Template:MayaGesture_Navigation/bg.md) , [Template:Property/bg](Template:Property/bg.md) , [Template:Touchpad Navigation/bg](Template:Touchpad_Navigation/bg.md) ,
+  ------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -----------------------------------------------------------------------------
+  [Template:Blender Navigation/bg](Template:Blender_Navigation/bg.md)     [Template:CAD Navigation/bg](Template:CAD_Navigation/bg.md)                   [Template:Gesture Navigation/bg](Template:Gesture_Navigation/bg.md)
+  [Template:Inventor Navigation/bg](Template:Inventor_Navigation/bg.md)   [Template:MayaGesture Navigation/bg](Template:MayaGesture_Navigation/bg.md)   [Template:Property/bg](Template:Property/bg.md)
+  [Template:Touchpad Navigation/bg](Template:Touchpad_Navigation/bg.md)                                                                                         
+  ------------------------------------------------------------------------------- ------------------------------------------------------------------------------------- -----------------------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Categories/bg](<img src="images/Property.png" style="width:16px"> Categories/bg.md) [<img src="images/Property.png" style="width:16px"> Template:Navigation/bg](<img src="images/Property.png" style="width:16px"> Template:Navigation/bg.md)
 

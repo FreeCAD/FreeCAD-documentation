@@ -9,36 +9,36 @@
 
 ## Narzędzia
 
-### Ship Design 
+### Projekt statku 
 
--   <img alt="Ship geometries examples loader" src=images/Ship_Load.svg  style="width:32px;"> [Ship Geometries Examples Loader](Ship_Geometries_Examples.md)
--   <img alt="Ship instance creation tool" src=images/Ship_Logo.svg  style="width:32px;"> [Ship instance creation](Ship_New.md)
--   <img alt="Ship Lines drawing tool" src=images/Ship_OutlineDraw.svg  style="width:32px;"> [Lines drawing](Ship_Outline.md)
--   <img alt="Sectional Area Curve tool" src=images/FreeCAD-Ship-AreaCurveIco.png  style="width:32px;"> [Area Curve](Ship_Area.md)
--   <img alt="Hydrostatics tool icon" src=images/Ship_Hydrostatics.png  style="width:32px;"> [Hydrostatics](Ship_Hydrostatics.md)
+-   <img alt="Przykłady geometrii statku" src=images/Ship_Load.svg  style="width:32px;"> [Przykłady geometrii statku](Ship_Geometries_Examples/pl.md)
+-   <img alt="Narzędzie do tworzenia konfiguracji statku" src=images/Ship_Logo.svg  style="width:32px;"> [Tworzenie konfiguracji statku](Ship_New/pl.md)
+-   <img alt="Narzędzie do rysowania konturu statków" src=images/Ship_OutlineDraw.svg  style="width:32px;"> [Rysowanie konturu](Ship_Outline/pl.md)
+-   <img alt="Narzędzie Krzywa powierzchni przekroju" src=images/FreeCAD-Ship-AreaCurveIco.png  style="width:32px;"> [Krzywa powierzchni poprzecznych](Ship_Area/pl.md)
+-   <img alt="Narzędzie Hydrostatyka" src=images/Ship_Hydrostatics.png  style="width:32px;"> [Hydrostatyka](Ship_Hydrostatics/pl.md)
 
-### Weights
+### Obciążenia
 
--   <img alt="Weights definition tool" src=images/FreeCAD-Ship-WeightIco.png  style="width:32px;"> [Weights](Ship_Weight.md)
--   <img alt="Tank creation tool" src=images/FreeCAD-Ship-TankIco.png  style="width:32px;"> [Tank creation](Ship_TankNew.md)
--   <img alt="Tank capacity curve tool" src=images/Ship_TankCapacity.png  style="width:32px;"> [Tank capacity curve](Ship_TankCapacity.md)
--   <img alt="Load conditions" src=images/Ship_Loading.png  style="width:32px;"> [Load conditions](Ship_Loading.md)
--   <img alt="Plot GZ curve" src=images/Ship_PlotGZ.png  style="width:32px;"> [Plot GZ curve](Ship_PlotGZ.md)
+-   <img alt="Narzędzie do określania masy" src=images/FreeCAD-Ship-WeightIco.png  style="width:32px;"> [Waga](Ship_Weight/pl.md)
+-   <img alt="Narzędzie do tworzenia zbiorników" src=images/FreeCAD-Ship-TankIco.png  style="width:32px;"> [Tworzenie zbiornika](Ship_TankNew/pl.md)
+-   <img alt="Narzędzie do obliczania krzywej pojemności zbiornika" src=images/Ship_TankCapacity.png  style="width:32px;"> [Krzywa pojemności zbiornika](Ship_TankCapacity/pl.md)
+-   <img alt="Warunki obciążeń" src=images/Ship_Loading.png  style="width:32px;"> [Warunki obciążenia](Ship_Loading/pl.md)
+-   <img alt="Wykres krzywej GZ" src=images/Ship_PlotGZ.png  style="width:32px;"> [Wykres krzywej GZ](Ship_PlotGZ/pl.md)
 
 ## Poradniki
 
--   [FreeCAD-Ship s60 tutorial](FreeCAD-Ship_s60_tutorial.md)
--   [FreeCAD-Ship s60 tutorial (II)](FreeCAD-Ship_s60_tutorial_(II).md)
+-   [Poradnik: statek seria 60](FreeCAD-Ship_s60_tutorial/pl.md)
+-   [Poradnik II: statek seria 60](FreeCAD-Ship_s60_tutorial_(II)/pl.md)
 
-## History
+## Historia
 
-The Ship Workbench was unmaintained since v0.17 but has been resurrected in v0.19. As of v0.19 it also now designated an [external workbench](External_workbenches.md), so it is no longer included in the base system. Instead it\'s available via the [Addon Manager](Std_AddonMgr.md).
+Środowisko pracy statków nie było utrzymywane od wersji 0.17, ale zostało wskrzeszone w wersji 0.19. Od v0.19 jest ono teraz oznaczone jako [zewnętrzne środowisko pracy](External_workbenches/pl.md), więc nie jest już zawarte w podstawowym systemie. Zamiast tego jest dostępny poprzez [Menadżer dodatków](Std_AddonMgr/pl.md).
 
-## References
+## Bibliografia
 
 -   Developer: Jose Luis Cercós Pita ([\@sanguinariojoe](https://github.com/sanguinariojoe))
 -   Github: <https://github.com/FreeCAD/freecad.ship>
--   Discussion: <https://forum.freecadweb.org/viewtopic.php?f=8&t=60885>
+-   Dyskusja: <https://forum.freecadweb.org/viewtopic.php?f=8&t=60885>
 
 
 {{Ship Tools navi

@@ -3,7 +3,10 @@ This category lists pages related to the [Image Workbench/pt-br](Image_Workbench
 
 ### Contents:
 
-[Bitmap/pt-br](Bitmap/pt-br.md) , [Image CreateImagePlane/pt-br](Image_CreateImagePlane/pt-br.md) , [Image Open/pt-br](Image_Open/pt-br.md) , [Image Scaling/pt-br](Image_Scaling/pt-br.md) , [Image Workbench/pt-br](Image_Workbench/pt-br.md)
+  ------------------------------------------------------- ------------------------------------------------------------------------- -------------------------------------------------
+  [Bitmap/pt-br](Bitmap/pt-br.md)                 [Image CreateImagePlane/pt-br](Image_CreateImagePlane/pt-br.md)   [Image Open/pt-br](Image_Open/pt-br.md)
+  [Image Scaling/pt-br](Image_Scaling/pt-br.md)   [Image Workbench/pt-br](Image_Workbench/pt-br.md)                 
+  ------------------------------------------------------- ------------------------------------------------------------------------- -------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/pt-br](<img src="images/Property.png" style="width:16px"> Workbenches/pt-br.md)
 

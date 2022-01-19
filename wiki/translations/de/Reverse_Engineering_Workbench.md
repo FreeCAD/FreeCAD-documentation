@@ -8,13 +8,7 @@ Zur Zeit ist in diesem Arbeitsbereich noch keine Funktionalität vorhanden. Er w
 
 ## Werkzeuge
 
-
-<div class="mw-translate-fuzzy">
-
-Die Werkzeuge für das Reverse Engineering (engl.:RE) befinden sich alle im RE Menü und in der RE Werkzeugleiste, die erscheint, wenn du den RE Arbeitsbereich aus dem Auswahlmenü des Arbeitsbereiches lädst.
-
-
-</div>
+Die Werkzeuge für das Reverse-Engineering befinden sich alle im Reverse-Engineering-Menü und in der Reverse-Engineering-Werkzeugleiste, die erscheint, wenn man den Reverse-Engineering-Arbeitsbereich aus dem Auswahlmenü der Arbeitsbereiche lädt.
 
 -   <img alt="" src=images/FitSurface.svg  style="width:32px;"> Annäherung durch an B-Spline Oberfläche:
 

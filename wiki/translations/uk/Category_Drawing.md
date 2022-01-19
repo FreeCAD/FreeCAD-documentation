@@ -3,7 +3,9 @@ This category lists pages related to the [Drawing Workbench/uk](Drawing_Workbenc
 
 ### Contents:
 
-[Drawing Workbench/uk](Drawing_Workbench/uk.md)
+  ---------------------------------------------------------
+  [Drawing Workbench/uk](Drawing_Workbench/uk.md)
+  ---------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Obsolete Workbenches/uk](<img src="images/Property.png" style="width:16px"> Obsolete_Workbenches/uk.md)
 

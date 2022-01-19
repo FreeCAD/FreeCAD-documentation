@@ -5,7 +5,9 @@ See also [Tutorials](Tutorials/zh-hant.md) and [video tutorials](video_tutorials
 
 ### Contents:
 
-[Draft tutorial/zh-hant](Draft_tutorial/zh-hant.md) , [Template:TutorialInfo/zh-hant](Template:TutorialInfo/zh-hant.md)
+  ------------------------------------------------------------- ---------------------------------------------------------------------------
+  [Draft tutorial/zh-hant](Draft_tutorial/zh-hant.md)   [Template:TutorialInfo/zh-hant](Template:TutorialInfo/zh-hant.md)
+  ------------------------------------------------------------- ---------------------------------------------------------------------------
 
 ---
 [documentation index](../README.md) > Category:Tutorials/zh-hant

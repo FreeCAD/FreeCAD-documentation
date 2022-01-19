@@ -3,7 +3,9 @@ This category contains the help pages of each of FreeCAD command.
 
 ### Contents:
 
-[Template:GuiCommand/id](Template:GuiCommand/id.md)
+  -------------------------------------------------------------
+  [Template:GuiCommand/id](Template:GuiCommand/id.md)
+  -------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Categories/id](<img src="images/Property.png" style="width:16px"> Categories/id.md)
 

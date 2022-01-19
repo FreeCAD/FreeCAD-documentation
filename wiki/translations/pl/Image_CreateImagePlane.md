@@ -1,48 +1,49 @@
 ---
-- GuiCommand:
+- GuiCommand:/pl
    Name:Image CreateImagePlane
+   Name/pl:Obraz: Utwórz płaszczyznę obrazu
    MenuLocation:
-   Workbenches:[Image](Image_Workbench.md)
-   SeeAlso:[Image Open](Image_Open.md), [Image Scaling](Image_Scaling.md)
+   Workbenches:[Obraz](Image_Workbench/pl.md)
+   SeeAlso:[Otwórz](Image_Open/pl.md), [Skaluj](Image_Scaling/pl.md)
 ---
 
 # Image CreateImagePlane/pl
 
-## Description
+## Opis
 
-The [CreateImagePlane](Image_CreateImagePlane.md) tool imports a [bitmap](bitmap.md) image and places it on one of the XY, YZ or XZ planes.
+Narzędzie [Utwórz płaszczyznę obrazu](Image_CreateImagePlane/pl.md) importuje obraz [bitmapy](Bitmap/pl.md) i umieszcza go na jednej z płaszczyzn XY, YZ lub XZ.
 
-## Usage
+## Użycie
 
-1.  Press the **<img src="images/Image_CreateImagePlane.svg" width=16px> [Image CreateImagePlane](Image_CreateImagePlane.md)** button.
-2.  Select the desired image in your system.
-3.  Choose the plane where the image will be placed, give an offset value, and press **OK**.
+1.  Naciśnij przycisk **<img src="images/Image_CreateImagePlane.svg" width=24px> [Utwórz płaszczyznę obrazu](Image_CreateImagePlane/pl.md)**.
+2.  Wybierz żądany obraz z Twojego systemu.
+3.  Wybierz płaszczyznę, na której zostanie umieszczony obraz, podaj wartość offsetu i naciśnij przycisk **OK**.
 
-The resulting ImagePlane object uses the ratio of 1 pixel to 1 millimeter; in order for the image to display well, it should have enough resolution.
+Wynikowy obiekt Płaszczyzny Obrazu wykorzystuje stosunek 1 piksela do 1 milimetra. Aby obraz był dobrze wyświetlany, powinien mieć wystarczającą rozdzielczość.
 
-When importing the image, you may wish to add an offset of `-0.1 mm` in order to place the image slightly behind the working plane; this will make it easy to trace (draw on top) the image with the [Draft](Draft_Workbench.md) or [Sketcher](Sketcher_Workbench.md) tools.
+Podczas importowania obrazu możesz dodać odsunięcie o `-0.1mm`, aby umieścić obraz nieco za płaszczyzną roboczą. Ułatwi to śledzenie *(rysowanie na wierzchu)* obrazu za pomocą narzędzi [Rysunek Roboczy](Draft_Workbench/pl.md) lub [Szkicownika](Sketcher_Workbench/pl.md).
 
-If no offset is given to the image initially, its position can still be adjusted in the [property editor](Property_editor.md).
+Jeśli początkowo nie podano żadnego odsunięcia dla obrazka, jego pozycję można nadal korygować w [edytorze właściwości](Property_editor/pl.md).
 
-## Properties
-
-
-{{Properties Title|Base}}
-
--    **Position**: specifies the coordinates of the base point of the image plane.
-
--    **Angle**: specifies the angle of rotation of the image plane.
-
--    **Axis**: specifies the axis used for the rotation angle.
+## Właściwości
 
 
-{{Properties Title|Image Plane}}
+{{Properties_Title|Podstawowe}}
 
--    **XSize**: specifies the width of the image plane.
+-    **Pozycja**: określa współrzędne punktu bazowego płaszczyzny obrazu.
 
--    **YSize**: specifies the height of the image plane.
+-    **Kąt**: określa kąt obrotu płaszczyzny obrazu.
 
--    **Image Plane**: specifies the image to use for this plane.
+-    **Oś**: określa oś używaną dla kąta obrotu.
+
+
+{{Properties Title|Płaszczyzna obrazu}}
+
+-    **RozmiarX**: określa szerokość płaszczyzny obrazu.
+
+-    **RozmiarY**: określa wysokość płaszczyzny obrazu.
+
+-    **Obraz płaszczyzny**: określa obraz, który ma być użyty dla tej płaszczyzny.
 
 
 

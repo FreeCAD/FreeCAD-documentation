@@ -3,7 +3,9 @@ This category lists pages with screenshots.
 
 ### Contents:
 
-[Screenshots/cs](Screenshots/cs.md)
+  ---------------------------------------------
+  [Screenshots/cs](Screenshots/cs.md)
+  ---------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Documentation/cs](<img src="images/Property.png" style="width:16px"> Documentation/cs.md)
 

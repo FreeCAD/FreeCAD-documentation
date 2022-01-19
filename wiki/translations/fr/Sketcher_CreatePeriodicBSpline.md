@@ -5,7 +5,7 @@
    MenuLocation: Sketch → Géometries d'esquisse → Créer une B-spline périodique
    Workbenches: [Sketcher](Sketcher_Workbench/fr.md)
    Version:0.17
-   SeeAlso:[Sketcher B-spline](Sketcher_CreateBSpline/fr.md)
+   SeeAlso:[Sketcher B-spline simple](Sketcher_CreateBSpline/fr.md)
 ---
 
 # Sketcher CreatePeriodicBSpline/fr
@@ -22,14 +22,14 @@ Cet outil trace une courbe B-spline périodique (fermée) à partir de ses point
 
 ## Utilisation
 
-1.  Appuyez sur le bouton **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [Créer une B-spline périodique](Sketcher_CreatePeriodicBSpline/fr.md)**.
+1.  Appuyez sur le bouton **[<img src=images/Sketcher_CreatePeriodicBSpline.svg style="width:16px"> [B-spline périodique par points...](Sketcher_CreatePeriodicBSpline/fr.md)**.
 2.  Créez une série de points en cliquant dans la vue 3D. Lorsque la commande est active, les points créés sont reliés par des lignes droites et un cercle de construction est créé au centre de chaque point.
 3.  Cliquez sur le premier point, ou faites un clic-droit avec la souris pour terminer la saisie et générer la courbe.
 4.  Selon les préférences, l\'outil peut rester actif pour tracer une nouvelle courbe. Cliquez à nouveau avec le bouton droit pour quitter la commande.
 
 -   Il est possible de définir le poids des points de contrôle en modifiant les rayons des cercles. Les contraintes d\'égalité sur les cercles doivent d\'abord être supprimées. La valeur de la contrainte radiale est arbitraire, le poids des points de contrôle sera défini par les rayons relatifs des cercles. Son fonctionnement est similaire à celui de la gravité: plus un cercle est grand par rapport aux autres, plus la courbe sera attirée par le point de contrôle.
--   La visibilité du polygone de contrôle, du peigne de courbure, du degré et de la multiplicité des nœuds peut être activée/désactivée à partir de la barre d'outils [Outils d\'esquisse B-spline](Sketcher_Workbench/fr#Sketcher_B-spline_tools.md).
--   Consultez les autres outils de la barre d'outils [Outils d\'esquisse B-spline](Sketcher_Workbench/fr#Sketcher_B-spline_tools.md) pour plus d'outils d'édition B-spline.
+-   La visibilité du polygone de contrôle, du peigne de courbure, du degré et de la multiplicité des nœuds peut être activée/désactivée à partir de la barre d'outils [Outils d\'esquisse B-spline](Sketcher_Workbench/fr#Outils_d.27esquisse_B-spline.md).
+-   Consultez les autres outils de la barre d'outils [Outils d\'esquisse B-spline](Sketcher_Workbench/fr#Outils_d.27esquisse_B-spline.md) pour plus d'outils d'édition B-spline.
 
 ## Limitations
 

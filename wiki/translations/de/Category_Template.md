@@ -9,7 +9,11 @@ Den betreffenden Artikeln folgende Zeile anhängen:
 
 ### Contents:
 
-[Template:De](Template_De.md) , [Template:GuiCommandAddon/de](Template:GuiCommandAddon/de.md) , [Template:Languages/de](Template:Languages/de.md) , , , ,
+  --------------------------------------- ----------------------------------------------------------------------- -----------------------------------------------------------
+  [Template:De](Template_De.md)   [Template:GuiCommandAddon/de](Template:GuiCommandAddon/de.md)   [Template:Languages/de](Template:Languages/de.md)
+                                                                                                                  
+                                                                                                                  
+  --------------------------------------- ----------------------------------------------------------------------- -----------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Categories/de](<img src="images/Property.png" style="width:16px"> Categories/de.md) [<img src="images/Property.png" style="width:16px"> Template:Doc/de](<img src="images/Property.png" style="width:16px"> Template:Doc/de.md) [<img src="images/Property.png" style="width:16px"> Template:Navigation/de](<img src="images/Property.png" style="width:16px"> Template:Navigation/de.md) [<img src="images/Property.png" style="width:16px"> Template:Text Format/de](<img src="images/Property.png" style="width:16px"> Template:Text_Format/de.md) [<img src="images/Property.png" style="width:16px"> Template:Text/de](<img src="images/Property.png" style="width:16px"> Template:Text/de.md)
 

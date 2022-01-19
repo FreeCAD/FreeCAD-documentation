@@ -13,6 +13,9 @@
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Le caratteristiche principali del banco da lavoro Assembly3 sono
 
 -   **dynamic/interactive solver**. Ciò significa che è possibile spostare le parti con il mouse mentre il risolutore limita il movimento. Ciò consente, ad esempio, di collegare una ruota ad un asse e di ruotare la ruota in modo interattivo con il mouse.
@@ -22,6 +25,9 @@ Le caratteristiche principali del banco da lavoro Assembly3 sono
 -   **assembly freeze**. Poiché la CPU può gestire solo un numero limitato di vincoli simultanei in tempo reale, il congelamento di un assieme permette di utilizzare i vincoli anche per assiemi di grandi dimensioni. Congelando gli assiemi finiti o i vincoli che non devono rimanere dinamici (ad es. parti saldate, bullonate o incollate), questi vengono esclusi dai calcoli di aggiornamento e considerati geometria fissa dal solutore Assembly3.
 
     :   Si noti che altri approcci offrono soluzioni diverse a questo problema, per esempio <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Workbench](Assembly4_Workbench.md).
+
+
+</div>
 
 [Torna all\'inizio](#top.md)
 

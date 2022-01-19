@@ -3,7 +3,9 @@ This category contains the help pages of each of FreeCAD [Command/bg](Command/bg
 
 ### Contents:
 
-[Template:GuiCommand/bg](Template:GuiCommand/bg.md)
+  -------------------------------------------------------------
+  [Template:GuiCommand/bg](Template:GuiCommand/bg.md)
+  -------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Categories/bg](<img src="images/Property.png" style="width:16px"> Categories/bg.md)
 

@@ -3,7 +3,9 @@ This category lists pages related to the [Ship Workbench/ja](Ship_Workbench/ja.m
 
 ### Contents:
 
-[Ship Workbench/ja](Ship_Workbench/ja.md)
+  ---------------------------------------------------
+  [Ship Workbench/ja](Ship_Workbench/ja.md)
+  ---------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/ja](<img src="images/Property.png" style="width:16px"> Workbenches/ja.md)
 

@@ -77,6 +77,8 @@ Instrumentul de cadru/dulgherie este utilizat pentru a construi toate tipurile d
 
 -    **Rotation**: The rotation of the profile around its extrusion axis.
 
+## Scripting
+
 
 <div class="mw-translate-fuzzy">
 

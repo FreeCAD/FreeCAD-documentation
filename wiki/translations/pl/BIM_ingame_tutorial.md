@@ -309,32 +309,32 @@ Kiedy wszystko jest gotowe, powinieneś otrzymać drzwi prawidłowo osadzone w �
 <img alt="" src=images/BIM_Tutorial_32.jpg  style="width:300px;">
 
 
-{{BIMTutorialAction|goal1=Create a glass door|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Window" in o.Name]) == 1)}}
+{{BIMTutorialAction|goal1=Stwórz szklane drzwi|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "Window" in o.Name]) == 1)}}
 
-### Organizing our model 
+### Organizacja naszego modelu 
 
-We now have in our model a growing collection of BIM objects. It is time to tidy things up. Creating well organized models, easily understandable by others, is a very important part of building quality BIM models.
+Mamy teraz w naszym modelu rosnącą kolekcję obiektów BIM. Nadszedł czas, aby wszystko uporządkować. Tworzenie dobrze zorganizowanych modeli, łatwych do zrozumienia przez innych, jest bardzo ważną częścią budowania wysokiej jakości modeli BIM.
 
 Pierwszym bardzo prostym i bardzo dobrym nawykiem jest nadawanie obiektom właściwych i znaczących nazw, abyśmy mogli je później łatwo zidentyfikować w widoku drzewa. Aby zmienić nazwę obiektu, kliknij prawym przyciskiem myszy na nim w widoku drzewa i wybierz **Zmień nazwę**. Model, w którym komponenty są łatwo identyfikowalne przez inne osoby jest ogromną częścią tego, co czyni model BIM dobrym.
 
-Another interesting operation to do is **grouping**. Groups allow you to organize your objects in the tree view, like files and folders. An object can only belong to one group. Groups are created by right-clicking the document root or any other group in the tree view, and selecting **Create group**. You can then drag objects in and out of groups in the tree view.
+Inną ciekawą operacją jest **grupowanie**. Grupy pozwalają na organizowanie obiektów w widoku drzewa, jak pliki i foldery. Obiekt może należeć tylko do jednej grupy. Grupy są tworzone poprzez kliknięcie prawym przyciskiem myszy na korzeń dokumentu lub inną grupę w widoku drzewa i wybranie opcji **Utwórz grupę**. Następnie można przeciągać obiekty do i z grup w widoku drzewa.
 
-A third way to organize things is by using layers. Layers are independent to groups, you can use both systems at the same time if you wish. Like groups, layers allow you to easily turn on/off a series of objects, but unlike groups, they cannot be stacked inside one another. They also allow you to override visual settings such as color and line width of their child objects. Layers are created and managed using the Layers manager tool found under menu **Manage -\> Layers manager**. Objects are added or removed by dragging them in and out of layers in the tree view.
+Trzecim sposobem na uporządkowanie rzeczy jest użycie warstw. Warstwy są niezależne od grup, możesz używać obu systemów jednocześnie, jeśli chcesz. Podobnie jak grupy, warstwy pozwalają na łatwe włączanie i wyłączanie serii obiektów, ale w przeciwieństwie do grup, nie można ich układać jedna na drugiej. Pozwalają one także na zmianę ustawień wizualnych, takich jak kolor i szerokość linii obiektów potomnych. Warstwy są tworzone i zarządzane za pomocą narzędzia Menedżer warstw znajdującego się w menu **Zarządzanie -\> Menedżer warstw**. Obiekty są dodawane lub usuwane poprzez przeciąganie ich do i z warstw w widoku drzewa.
 
-The **Layer selector** on the main toolbars allow you to set a current layer. After doing so, any new 2D or BIM object will automatically be placed in that layer.
+**Wybór warstwy** na głównym pasku narzędzi pozwala na ustawienie bieżącej warstwy. Po wykonaniu tej czynności każdy nowy obiekt 2D lub BIM zostanie automatycznie umieszczony w tej warstwie.
 
-Finally, BIM applications usually allow you to group objects into **levels** (or storeys) and **buildings**. FreeCAD offers these tools as well under the **3D/BIM modeling** menu. Like beams and columns, levels and buildings use a same object type called [Building Part](Arch_BuildingPart.md) with a different IFC type. They work the same way as groups, once created, you can drag and drop any object in and out of it. Building Parts are compatible with groups, so you can place groups inside them.
+Wreszcie, aplikacje BIM zazwyczaj pozwalają na grupowanie obiektów w **poziomy** *(lub kondygnacje)* i **budynki**. FreeCAD oferuje również te narzędzia w menu **Modelowanie 3D/BIM**. Podobnie jak belki i słupy, poziomy i budynki używają tego samego typu obiektu o nazwie [Część budowli - piętro](Arch_BuildingPart/pl.md) z innym typem IFC. Działają one tak samo jak grupy, po utworzeniu możesz przeciągać i upuszczać dowolne obiekty do i z grupy. Części budynku są kompatybilne z grupami, więc możesz umieszczać grupy wewnątrz nich.
 
 <img alt="" src=images/BIM_Tutorial_36.jpg  style="width:300px;">
 
-Building Parts have many other uses, refer to their [documentation](Arch_BuildingPart.md) to know more.
+Części budowlane mają wiele innych zastosowań, zapoznaj się z ich [dokumentacją](Arch_BuildingPart/pl.md) aby dowiedzieć się więcej.
 
-Create a Building Part now by selecting **Level** from the **3D/BIM Modeling** menu. Make sure its IFC type is set to **Building Storey**, and drag all our other root BIM objects (no need to do so with included objects like the door or the plate of the column) into it, that is, our two walls, the roof slab and the metal column.
+Utwórz teraz Część budowlaną wybierając **Kondygnacja** z menu modelowania **3D / BIM**. Upewnij się, że typ IFC jest ustawiony na **Kondygnacja budynku** i przeciągnij do niego wszystkie nasze pozostałe obiekty BIM *(nie trzeba tego robić z obiektami dołączonymi, takimi jak drzwi czy płyta słupa)*, czyli nasze dwie ściany, płytę dachową i metalowy słup.
 
-Note that, as Building Parts are generic building components, you are not forced to organize your model by levels in FreeCAD. You can choose to group your elements differently. But the IFC format expects things to be grouped by level, so if you plan to use that format, it is best to consider your Building Parts as levels.
+Zauważ, że ponieważ Części budowlane są ogólnymi komponentami budynku, nie jesteś zmuszony do organizowania swojego modelu według poziomów w programie FreeCAD. Możesz wybrać inne grupowanie swoich elementów. Ale format IFC oczekuje, że rzeczy będą pogrupowane według poziomów, więc jeżeli planujesz używać tego formatu, najlepiej jest traktować Części budowlane jako poziomy.
 
 
-{{BIMTutorialAction|goal1=Create a level|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "BuildingPart" in o.Name]) == 1)|goal2=Add the four other root BIM objects to it|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "BuildingPart" in o.Name and (len(o.Group) == 4)]) == 1)}}
+{{BIMTutorialAction|goal1=Utwórz kondygnację|test1=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "BuildingPart" in o.Name]) == 1)|goal2=Dodaj do niego cztery pozostałe obiekty główne BIM|test2=bool(len([o for o in FreeCAD.ActiveDocument.Objects if "BuildingPart" in o.Name and (len(o.Group) == 4)]) == 1)}}
 
 ### Dodawanie płaszczyzn przekroju 
 
@@ -434,7 +434,7 @@ Printable sheets are created and managed with the [TechDraw Workbench](TechDraw_
 \... To be continued
 
 
-{{BIMTutorialAction|descr=No action to perform for this step}}
+{{BIMTutorialAction/pl|descr=Brak działań do wykonania dla tego etapu}}
 
 ### Eksport do formatu IFC 
 
@@ -473,7 +473,7 @@ You can also bulk-manage names, types and materials of several objects at a time
 
 Each object of a construction has a material. So it makes sense to give each object of your model a proper material, such as concrete or wood. To attribute a material to an object, select the object, and use the [materials manager](Arch_SetMaterial.md) from menu **Manage-\>Materials**.
 
-#### Properties
+#### Właściwości
 
 Each BIM object can also receive additional properties, for example to indicate that a wall is load-bearing or not. IFC allows you to add custom properties to just anything, but most types such as Wall or Beam also have special, predefined sets of properties, usually named Pset\_WallCommon or Pset\_BeamCommon. You can choose to add these sets to your objects, modify the value of the properties contained in the set, or add your custom properties. Managing the IFC properties for a selected object or bulk edit the properties of several objects at a time is done using the properties manager under menu **Manage-\>IFC properties**.
 
@@ -484,20 +484,20 @@ Quantities such as length or width or height of a wall can also be specifically 
 The IFC format has many particularities and sometimes the application you will be opening your IFC file with or the person who will receive your IFC file will have further requirements. Becoming a fluent BIM modeller often means to get familiar with all these particularities and what needs to be added or specified to your BIM model. The BIM workbench of FreeCAD provides a [BIM Preflight](BIM_Preflight.md) tool that allows you to check your model for several of these particularities and most common requirements, and help you decide what to include in your model or not.
 
 
-{{BIMTutorialAction|descr=No action to perform for this step}}
+{{BIMTutorialAction/pl|descr=Brak działań do wykonania dla tego etapu}}
 
-### Explore other BIM tools and other workbenches 
+### Poznaj pozostałe narzędzia BIM i inne środowiska pracy 
 
-Take a moment to explore the other available BIM tools. Remeber that some are still not finished, and might not do everything you expect from them. Use the \"What\'s this?\" button found in menu **Help** to open the help page of any tool. The [FreeCAD forum](https://forum.freecadweb.org) is also always a good place to search or ask when encountering a specific problem you cannot solve.
+Poświęć chwilę na poznanie innych dostępnych narzędzi BIM. Pamiętaj, że niektóre z nich nie są jeszcze ukończone i mogą nie robić wszystkiego, czego od nich oczekujesz. Użyj przycisku \"Co to jest?\" znajdującego się w menu **Pomoc**, aby otworzyć stronę pomocy każdego narzędzia. Forum [FreeCAD](https://forum.freecadweb.org) jest również zawsze dobrym miejscem do szukania lub zadawania pytań, gdy napotkasz specyficzny problem, którego nie możesz rozwiązać.
 
-FreeCAD is a big family of workbenches, and tools from other workbenches often come in handy. As we saw above, almost any object created from other workbenches can be turned into a valid BIM object, simply using the **3D/BIM -\> Create component** tool and giving it the correct IFC type.
+FreeCAD jest wielką rodziną środowisk pracy, a narzędzia z innych środowisk pracy często się przydają. Jak widzieliśmy powyżej, prawie każdy obiekt utworzony w innych środowiskach może zostać przekształcony w poprawny obiekt BIM, wystarczy użyć narzędzia **3D / BIM → Utwórz komponent** i nadać mu odpowiedni typ IFC.
 
 There are more tutorials about BIM and other workbenches in the [Tutorials](Tutorials.md) section of the [FreeCAD documentation](https://wiki.freecadweb.org), and a complete video series of [BIM tutorials](https://www.youtube.com/playlist?list=PLmKdGVtV5Vnt2cj4IZIv9FM39QHaE1ZaU) on youtube.
 
 
-{{BIMTutorialAction|descr=No action to perform for this step}}
+{{BIMTutorialAction/pl|descr=Brak działań do wykonania dla tego etapu}}
 
-### Help FreeCAD to become a better tool! 
+### Pomóż programowi FreeCAD stać się lepszym narzędziem! 
 
 FreeCAD jest wolnym oprogramowaniem, rozwijanym przez entuzjastyczną społeczność użytkowników, niektórzy z nich rozwijają kod, a wielu innych przyczynia się w takiej czy innej formie do ulepszania oprogramowania, pisząc dokumentację, znajdując i zgłaszając błędy, zgłaszając pomysły, pisząc poradniki i wiele innych rzeczy. Im więcej i bardziej jesteśmy aktywni, tym szybciej oprogramowanie będzie się dalej rozwijać. Dlaczego nie przyłączyć się do nas? Dobrym miejscem do rozpoczęcia jest dział [BIM na forum FreeCAD](https://forum.freecadweb.org/viewforum.php?f=23). Do zobaczenia tam!
 

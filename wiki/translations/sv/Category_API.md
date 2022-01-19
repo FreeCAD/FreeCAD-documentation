@@ -5,7 +5,9 @@ This category gathers article that list objects and methods available to the pyt
 
 ### Contents:
 
-[Draft API/sv](Draft_API/sv.md)
+  -----------------------------------------
+  [Draft API/sv](Draft_API/sv.md)
+  -----------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Categories/sv](<img src="images/Property.png" style="width:16px"> Categories/sv.md)
 

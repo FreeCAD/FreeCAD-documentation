@@ -3,7 +3,9 @@ This category lists templates that produce text boxes used for documenting comma
 
 ### Contents:
 
-[Template:Macro/sv](Template:Macro/sv.md)
+  ---------------------------------------------------
+  [Template:Macro/sv](Template:Macro/sv.md)
+  ---------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Template/sv](<img src="images/Property.png" style="width:16px"> Template/sv.md)
 

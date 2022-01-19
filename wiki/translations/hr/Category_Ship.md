@@ -3,7 +3,9 @@ This category lists pages related to the [Ship Workbench/hr](Ship_Workbench/hr.m
 
 ### Contents:
 
-[Ship Workbench/hr](Ship_Workbench/hr.md)
+  ---------------------------------------------------
+  [Ship Workbench/hr](Ship_Workbench/hr.md)
+  ---------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/hr](<img src="images/Property.png" style="width:16px"> Workbenches/hr.md)
 

@@ -160,6 +160,10 @@ PyAPI_FUNC(int) PyArg_VaParse (PyObject *, const char *, va_list);
 PyAPI_FUNC(int) PyArg_VaParseTupleAndKeywords (PyObject *, PyObject *, const char *, char **, va_list);
 }}
 
+## Links
+
+-   [Exposing Cplusplus to Python](Exposing_Cplusplus_to_Python.md)
+
 
 {{Powerdocnavi
 

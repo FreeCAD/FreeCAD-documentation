@@ -3,7 +3,9 @@ This category lists templates that produce text boxes used for documenting comma
 
 ### Contents:
 
-[Template:Macro/es](Template:Macro/es.md)
+  ---------------------------------------------------
+  [Template:Macro/es](Template:Macro/es.md)
+  ---------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Template/es](<img src="images/Property.png" style="width:16px"> Template/es.md)
 

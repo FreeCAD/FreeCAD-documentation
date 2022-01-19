@@ -93,8 +93,8 @@ La couleur de la face change (seulement la face doit changer de couleur, pas tou
 
 <img alt="" src=images/TBHS-10.JPG  style="width:800px;">
 
--   Sélectionnez les cercles (un par un en maintenant la touche Ctrl enfoncée)
--   Cliquez sur le bouton \"Rayon de la barre de contraintes et répopndre \"oui\" à la boite de dialogue demandant si les cercles doivent être égaux <img alt="" src=images/_Constraint_EqualLength.png  style="width:32px;"> [**Égalité**](Sketcher_ConstrainEqual/fr.md)
+-   Sélectionnez les cercles
+-   Cliquez sur le bouton <img alt="" src=images/_Constraint_EqualLength.png  style="width:32px;"> [**Égalité**](Sketcher_ConstrainEqual/fr.md)
 
 <img alt="" src=images/TBHS-11.JPG  style="width:800px;">
 
@@ -107,7 +107,10 @@ Maintenant les cercles ont le même rayons
 
 Ces lignes seront les références pour positionner les cercles
 
--   Utilisez la contrainte de longueur **[<img src=images/Constraint_Length.png style="width:32px"> ['''Contrainte dimensionnelle'''](Sketcher_ConstrainDistance/fr.md)** pour les positionner à 20 mm des lignes.
+-   Cliquez sur l\'outil **[<img src=images/Constraint_Length.png style="width:32px"> ['''Contrainte dimensionnelle'''](Sketcher_ConstrainDistance/fr.md)**
+-   Cliquez sur le centre d\'un cercle
+-   Cliquez sur une ligne magenta du bord
+-   Définissez 20mm (pour chaque cercle, vers les deux bords les plus proches)
 
 <img alt="" src=images/TBHS-13.JPG  style="width:800px;">
 
@@ -132,11 +135,9 @@ Vous avez la forme de base, juste une touche finale\....
 
 ### Arrondir les coins 
 
--   Enfoncer la touche Ctrl **CTRL** et cliquez sur les quatre arrêtes verticales .
+-   Enfoncer la touche **CTRL** et cliquez sur les quatre arrêtes verticales .
 
-N\'hésitez pas à vous aider en changeant le mode d\'affichage Barres tâches (en haut) onglet \"Affichage, ligne \"Style de représentation , Choisir \"Filaire
-
-<img alt="_DrawStyleWireFrame.svg" src=images/_DrawStyleWireFrame.svg  style="width:32px;"> **Wireframe** et <img alt="_DrawStyleFlatLines.svg" src=images/_DrawStyleFlatLines.svg  style="width:32px;"> **Filaire et ombre**.
+N\'hésitez pas à vous aider en changeant le mode d\'affichage (menu Affichage\>Style de représentation), entre <img alt="" src=images/_DrawStyleWireFrame.svg  style="width:32px;"> **Filaire** et <img alt="" src=images/_DrawStyleFlatLines.svg  style="width:32px;"> **Filaire et ombre**.
 
 <img alt="" src=images/TBHS-17.JPG  style="width:800px;">
 
@@ -162,7 +163,7 @@ Sélectionner les cercles à la bases des cylindres
 
 ### Chanfreiner les angles 
 
--   Sélectionnez la face inférieure de la base, additionner un chanfrein <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> **chanfrein** de 0,5 mm (ça c\'est pour l\'esthétique).
+-   Sélectionnez la face inférieure de la base, utilisez un <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> **chanfrein** de 0,5 mm.
 
 La première couche de plastique est souvent écrasée un peu trop, ceci compensera cela et vous fera gagner du temps dans le nettoyage du modèle. Si la première couche est correcte, cela ne fera que l\'améliorer
 
@@ -172,7 +173,7 @@ La première couche de plastique est souvent écrasée un peu trop, ceci compens
 
 <img alt="" src=images/TBHS-23.JPG  style="width:800px;">
 
--   Additionnez un chanfrein de <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> **chanfrein** 1mm. Juste pour l'esthétique.
+-   Ajoutez un dernier <img alt="" src=images/PartDesign_Chamfer.svg  style="width:32px;"> **chanfrein** de 1mm. Juste pour l'esthétique.
 
 <img alt="" src=images/TBHS-22.JPG  style="width:800px;">
 
@@ -182,11 +183,12 @@ Tadaam youp\' la boom !
 
 ## Exporter en .STL 
 
--   Dans la vue combiner à gauche, dans l\'arborescence, cliquez sur la dernière opération **"Chanfrein"**.
+-   Dans la vue combinée à gauche, dans l\'arborescence, cliquez sur la dernière opération \"Chamfer002\".
 
 <img alt="" src=images/TBHS-24.JPG  style="width:800px;">
 
--   Maintenant sélectionnez \"Export\" dans la barre des tâche en haut à gauche et exporter le fichier au format .STL.
+-   Dans le menu Fichier \> Exporter\...
+-   De nombreux formats sont disponibles, mais le .STL reste un standard largement utilisé.
 -   Il n\'y a plus qu\'a l\'imprimer sur une imprimante 3D :-)
 
 -   N\'oubliez pas de l\'enregistrer en tant que fichier dessin aussi, si vous voulez l\'archiver sur votre PC !

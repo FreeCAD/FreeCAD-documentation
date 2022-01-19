@@ -3,7 +3,9 @@ This category lists pages related to the [Image Workbench/uk](Image_Workbench/uk
 
 ### Contents:
 
-[Image Workbench/uk](Image_Workbench/uk.md)
+  -----------------------------------------------------
+  [Image Workbench/uk](Image_Workbench/uk.md)
+  -----------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/uk](<img src="images/Property.png" style="width:16px"> Workbenches/uk.md)
 

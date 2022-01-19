@@ -5,7 +5,9 @@ See also [Tutorials](Tutorials/ja.md) and [video tutorials](video_tutorials/ja.m
 
 ### Contents:
 
-[Template:TutorialInfo/ja](Template:TutorialInfo/ja.md)
+  -----------------------------------------------------------------
+  [Template:TutorialInfo/ja](Template:TutorialInfo/ja.md)
+  -----------------------------------------------------------------
 
 ---
 [documentation index](../README.md) > Category:Tutorials/ja

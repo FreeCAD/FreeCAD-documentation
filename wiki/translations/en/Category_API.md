@@ -5,7 +5,16 @@ This category gathers articles that list objects and methods available for [Pyth
 
 ### Contents:
 
-[Arch API/en](Arch_API/en.md) , [Base API/en](Base_API/en.md) , [Builtin modules/en](Builtin_modules/en.md) , [Console API/en](Console_API/en.md) , [Draft API/en](Draft_API/en.md) , [FeaturePython Custom Properties/en](FeaturePython_Custom_Properties/en.md) , [FreeCAD API/en](FreeCAD_API/en.md) , [FreeCADGui API/en](FreeCADGui_API/en.md) , [Matrix API/en](Matrix_API/en.md) , [Mesh API/en](Mesh_API/en.md) , [Object API/en](Object_API/en.md) , [Part API/en](Part_API/en.md) , [Placement API/en](Placement_API/en.md) , [Python/en](Python/en.md) , [Reinforcement API/en](Reinforcement_API/en.md) , [Robot API example/en](Robot_API_example/en.md) , [Selection API/en](Selection_API/en.md) , [TechDraw API/en](TechDraw_API/en.md) , [TechDrawGui API/en](TechDrawGui_API/en.md) , [TopoShape API/en](TopoShape_API/en.md) , [Vector API/en](Vector_API/en.md) , [ViewObject API/en](ViewObject_API/en.md)
+  --------------------------------------------------------- --------------------------------------------------- -------------------------------------------------------------------------------------
+  [Arch API/en](Arch_API/en.md)                     [Base API/en](Base_API/en.md)               [Builtin modules/en](Builtin_modules/en.md)
+  [Console API/en](Console_API/en.md)               [Draft API/en](Draft_API/en.md)             [FeaturePython Custom Properties/en](FeaturePython_Custom_Properties/en.md)
+  [FreeCAD API/en](FreeCAD_API/en.md)               [FreeCADGui API/en](FreeCADGui_API/en.md)   [Matrix API/en](Matrix_API/en.md)
+  [Mesh API/en](Mesh_API/en.md)                     [Object API/en](Object_API/en.md)           [Part API/en](Part_API/en.md)
+  [Placement API/en](Placement_API/en.md)           [Python/en](Python/en.md)                   [Reinforcement API/en](Reinforcement_API/en.md)
+  [Robot API example/en](Robot_API_example/en.md)   [Selection API/en](Selection_API/en.md)     [TechDraw API/en](TechDraw_API/en.md)
+  [TechDrawGui API/en](TechDrawGui_API/en.md)       [TopoShape API/en](TopoShape_API/en.md)     [Vector API/en](Vector_API/en.md)
+  [ViewObject API/en](ViewObject_API/en.md)                                                             
+  --------------------------------------------------------- --------------------------------------------------- -------------------------------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Categories/en](<img src="images/Property.png" style="width:16px"> Categories/en.md)
 

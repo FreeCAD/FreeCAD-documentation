@@ -9,11 +9,11 @@
 
 The main features of the Assembly3 Workbench are
 
--   **dynamic/interactive solver**. This means you can move parts with the mouse while the solver constraints the motion. This allows for example to connect a wheel to an axis and turn the wheel interactively with the mouse.
+-   **dynamic/interactive solver**. This means you can move parts with the mouse while the solver constrains the motion. This allows for example to connect a wheel to an axis and turn the wheel interactively with the mouse.
 -   **links**. This means you can use one single part, e.g. a screw multiple times in an assembly (at different places) without duplicating geometry.
--   **external links**. It is possible to have a freecad document that only contains an assembly and not parts. All parts could be in single files. The files even could be in a library or anyhwere else in the file system. The only requirement is that the file must be loaded when the link is made. After the link is made, the file must be open to make updates to the links involving the file. Assembly3 solves this by opening files in the background as required.
--   **hierarchical assemblies**. As is real life a mechanical assembly may consist of sub-assemblies. Those might consists of sub-assemblies again and so on.
--   **assembly freeze**. As the CPU can handle only so many concurrent constraints in real time, to freeze an assembly allows to use constraints even for large assemblies. By freezing finished assemblies or constraints that are not required to remain dynamic (e.g. welded, bolted or glued parts) those are excluded from update calculations and considered fixed geometry by the Assembly3 solver.
+-   **external links**. It is possible to have a freecad document that only contains an assembly and no parts. All parts could be in separate files. The files even could be in a library or anywhere else in the file system. The only requirement is that the file must be loaded when the link is made. After the link is made, the file must be open to make updates to the links involving the file. Assembly3 solves this by opening files in the background as required.
+-   **hierarchical assemblies**. As in real life a mechanical assembly may consist of sub-assemblies. Those might consists of sub-assemblies again and so on.
+-   **assembly freeze**. As the CPU can only handle a restricted number of concurrent constraints in real time, to freeze an assembly allows to use constraints even for large assemblies. By freezing finished assemblies or constraints that are not required to remain dynamic (e.g. welded, bolted or glued parts) those are excluded from update calculations and considered fixed geometry by the Assembly3 solver.
 
     :   Note that other approaches offer different solution to this problem, e.g. the <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Assembly4 Workbench](Assembly4_Workbench.md).
 

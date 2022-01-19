@@ -3,7 +3,9 @@ This category lists pages related to the [Surface Workbench/ja](Surface_Workbenc
 
 ### Contents:
 
-[Surface Workbench/ja](Surface_Workbench/ja.md)
+  ---------------------------------------------------------
+  [Surface Workbench/ja](Surface_Workbench/ja.md)
+  ---------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/ja](<img src="images/Property.png" style="width:16px"> Workbenches/ja.md)
 

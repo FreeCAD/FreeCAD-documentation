@@ -41,12 +41,20 @@ Das **<img src="images/Arch_Frame.svg" width=16px> [Arch Rahmen](Arch_Frame/de.m
 
 -    {{PropertyData/de|Drehung}}: Die Drehung des Profils um die Extrusionsachse.
 
+## Scripting
+
+
+<div class="mw-translate-fuzzy">
+
 ## Skripten
 
 
 **Siehe auch:**
 
 [Arch API](Arch_API/de.md) und [FreeCAD Grundlagen Skripten](FreeCAD_Scripting_Basics/de.md).
+
+
+</div>
 
 Das Rahmen Werkzeug kann in [Makros](Macros/de.md) und aus der [Python](Python/de.md) Konsole heraus durch Verwendung der folgenden Funktionen verwendet werden: 
 ```python

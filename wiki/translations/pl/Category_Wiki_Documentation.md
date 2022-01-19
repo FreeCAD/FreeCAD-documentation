@@ -3,7 +3,9 @@ Ta kategoria zawiera listę stron, które odnoszą się do efektywnego korzystan
 
 ### Contents:
 
-[WikiPages/pl](WikiPages/pl.md)
+  -----------------------------------------
+  [WikiPages/pl](WikiPages/pl.md)
+  -----------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Documentation](Category_Documentation.md)
 

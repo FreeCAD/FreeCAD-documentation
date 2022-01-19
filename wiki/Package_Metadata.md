@@ -1,8 +1,7 @@
 # Package Metadata
 ## Introduction
 
-
-{{TOCright}}
+ 
 
 Beginning in FreeCAD v0.20, external add-ons (workbenches, macros, and preference packs) may be distributed with a metadata file describing the contents of the package. If the file \"package.xml\" is present it is read by FreeCAD and its contents used in various parts of the user interface. It is currently optional for workbenches and macros, and required for preference packs. This page documents the format of that metadata file. The format (and the contents of this Wiki page) are based on [REP 149](https://ros.org/reps/rep-0149.html).
 
@@ -20,7 +19,11 @@ Any file path specified in package.xml must use the slash (\"/\") as the directo
 
 The only top-level element allowed is , and the file may only contain one  element. Immediately subordinate to that are several required or optional elements, defined here. No other tags are permitted directly under the  element.
 
+
+
     <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
+
+
 
 The  tag is the unique top-level tag in a package.xml file. All other tags are nested under it.
 
@@ -69,7 +72,7 @@ A version number that follows either the [semantic versioning 2.0 standard](http
 
 REQUIRED
 
-The date of the last update, in the format YYYY-MM-DD or YYYY.MM.DD.
+The date of the current version, in the format YYYY-MM-DD or YYYY.MM.DD.
 
 ###  
 
@@ -89,7 +92,11 @@ The name of the person maintaining the package. All packages require a maintaine
 
 An orphaned package is one with no current maintainer. Orphaned packages should use the following maintainer information:
 
+
+
     <maintainer email="no-one@freecad.org">No current maintainer</maintainer>
+
+
 
 ###  
 
@@ -121,6 +128,8 @@ REQUIRED
 
 The  tag describes the actual contents of the package. It has no attributes, and contains any number of children. Those children can have arbitrary tag names, only some of which may be recognized by FreeCAD. FreeCAD currently supports \"workbench\", \"macro\", and \"preferencepack\" elements. Each child is then defined recursively by this standard, containing any or all of the elements allowed for the root  node. For example:
 
+
+
     <content>
       <preferencepack>
         <name>Unicorn Sparkles Theme</name>
@@ -131,7 +140,11 @@ The  tag describes the actual contents of the package. It has no attributes, and
       </preferencepack>
     </content>
 
+
+
 The existence of  items implies a set of subfolders, one for each content item, named exactly as the given name of the item. So for the example above, the package\'s folder structure is:
+
+
 
     Package Directory/
       package.xml
@@ -139,6 +152,8 @@ The existence of  items implies a set of subfolders, one for each content item, 
         Unicorn Sparkles Theme.cfg
         sparkles.svg
         (the theme's other files)
+
+
 
 In addition to the other elements of , content items can optionally provide information in , , , and  tags (technically these can be provided to the root  tag as well, but they are generally unused there).
 
@@ -250,6 +265,8 @@ The maximum version of FreeCAD required to use package/element, as a semantic ve
 
 A simple workbench-only package (for example, to add a metadata file to a package that predates this metadata format):
 
+
+
     <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
     <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
       <name>Legacy Workbench</name>
@@ -270,7 +287,11 @@ A simple workbench-only package (for example, to add a metadata file to a packag
 
     </package>
 
+
+
 A complex, multi-component package:
+
+
 
     <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
     <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
@@ -310,7 +331,11 @@ A complex, multi-component package:
 
     </package>
 
+
+
 A package with dependencies:
+
+
 
     <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
     <package format="1" xmlns="https://wiki.freecad.org/Package_Metadata">
@@ -346,5 +371,12 @@ A package with dependencies:
 
     </package>
 
+
+{{Powerdocnavi
+
+}}
+
+[<img src="images/Property.png" style="width:16px"> Developer Documentation](Category_Developer_Documentation.md)
+
 ---
-[documentation index](../README.md) > Package Metadata
+[documentation index](../README.md) > [Developer Documentation](Category_Developer Documentation.md) > Package Metadata

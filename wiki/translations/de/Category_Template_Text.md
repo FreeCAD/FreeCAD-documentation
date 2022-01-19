@@ -7,7 +7,10 @@ Längere Textteile sollten auf der Seite selbst platziert werden, damit sie mit 
 
 ### Contents:
 
-[Template:Obsolete/de](Template:Obsolete/de.md) , [Template:Version/de](Template:Version/de.md) , [Template:VersionMinus/de](Template:VersionMinus/de.md) , [Template:VersionPlus/de](Template:VersionPlus/de.md)
+  --------------------------------------------------------------- ------------------------------------------------------- -----------------------------------------------------------------
+  [Template:Obsolete/de](Template:Obsolete/de.md)         [Template:Version/de](Template:Version/de.md)   [Template:VersionMinus/de](Template:VersionMinus/de.md)
+  [Template:VersionPlus/de](Template:VersionPlus/de.md)                                                           
+  --------------------------------------------------------------- ------------------------------------------------------- -----------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Template/de](<img src="images/Property.png" style="width:16px"> Template/de.md)
 

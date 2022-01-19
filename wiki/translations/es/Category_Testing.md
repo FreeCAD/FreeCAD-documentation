@@ -3,7 +3,10 @@ Pages related to testing in regards to unit testing, continuous integration, qua
 
 ### Contents:
 
-[AppImage/es](AppImage/es.md) , [Continuous Integration/es](Continuous_Integration/es.md) , [Testing/es](Testing/es.md) ,
+  --------------------------------------- ------------------------------------------------------------------- -------------------------------------
+  [AppImage/es](AppImage/es.md)   [Continuous Integration/es](Continuous_Integration/es.md)   [Testing/es](Testing/es.md)
+                                                                                                              
+  --------------------------------------- ------------------------------------------------------------------- -------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Test Framework/es](<img src="images/Property.png" style="width:16px"> Test_Framework/es.md)
 

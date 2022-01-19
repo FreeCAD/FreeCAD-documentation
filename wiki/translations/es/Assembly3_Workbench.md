@@ -7,6 +7,9 @@
 
 <img alt="" src=images/Assembly3_workbench_icon.svg  style="width:24px;"> [Assembly3](Assembly3_Workbench/es.md) es un [Ambiente de trabajo externo](External_workbenches/es.md) que se utiliza para realizar el ensamblaje de diferentes cuerpos contenidos en un único archivo o en múltiples documentos. El ambiente de trabajo se basa en varios cambios en las funciones principales realizados para la versión de FreeCAD 0.19 (por ejemplo, [Enlace Aplicación](App_Link/es.md)), por lo que el ambiente de trabajo Assembly3 no puede utilizarse con versiones anteriores.
 
+
+<div class="mw-translate-fuzzy">
+
 Las principales características del Assembly3 Ambiente de trabajo son
 
 -   **Solver dinámico/interactivo**. Esto significa que puede mover las piezas con el ratón mientras el solucionador restringe el movimiento. Esto permite, por ejemplo, conectar una rueda a un eje y girar la rueda interactivamente con el ratón.
@@ -16,6 +19,9 @@ Las principales características del Assembly3 Ambiente de trabajo son
 -   **Congelación de conjuntos**. Como la CPU sólo puede manejar un número determinado de restricciones concurrentes en tiempo real, congelar un ensamblaje permite utilizar restricciones incluso para ensamblajes grandes. Al congelar los conjuntos terminados o las restricciones que no deben permanecer dinámicas (por ejemplo, las piezas soldadas, atornilladas o pegadas), éstas se excluyen de los cálculos de actualización y el solucionador de Assembly3 las considera geometría fija.
 
     :   Tenga en cuenta que otros enfoques ofrecen una solución diferente a este problema, por ejemplo, el <img alt="" src=images/Assembly4_workbench_icon.svg  style="width:24px;"> [Ambiente de trabajo de Assembly4](Assembly4_Workbench.md).
+
+
+</div>
 
 [inicio](#top.md)
 

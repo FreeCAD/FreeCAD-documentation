@@ -98,7 +98,7 @@ Tools creating centerlines and threads.
 
 -    **<img src="images/TechDraw_ExtensionVertexAtIntersection.svg" width=16px> [Create vertex(es) at intersection](TechDraw_ExtensionVertexAtIntersection.md)**Create the vertexes at the intersection of lines.
 
--    **<img src="images/TechDraw_ExtensionDrawArc.svg" width=16px> [Draw a cosmetic arc (center and two vertexes)](TechDraw_ExtensionDrawArc.md)**Draw an arc rotating math. positive.
+-    **<img src="images/TechDraw_ExtensionDrawCosmArc.svg" width=16px> [Draw a cosmetic arc (center and two vertexes)](TechDraw_ExtensionDrawCosmArc.md)**Draw an arc rotating math. positive.
 
 -    **<img src="images/TechDraw_TechDrawTools.svg" width=16px> [Draw a cosmetic circunference (center and 2 vertexes)](void.md)**Draw a cosmetic arc.
 

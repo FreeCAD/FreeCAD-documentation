@@ -34,6 +34,9 @@ FreeCAD предлагает два варианта рабочего проце
 
 Имейте в виду, что рабочий процесс [верстака PartDesign](PartDesign_Workbench/ru.md) был значительно изменён начиная с FreeCAD 0.17, некоторые учебники ещё не обновлены и могут описывать версию 0.16.
 
+
+<div class="mw-translate-fuzzy">
+
 <File:GGTuto1> Vue.PNG\|link=[Creating a simple part with PartDesign/ru](Creating_a_simple_part_with_PartDesign/ru.md)\|[Создание простейшей детали с помощью PartDesign](Creating_a_simple_part_with_PartDesign/ru.md) (v0.17)
 Введение в работу с PartDesign: трассировка эскизов, используя pad, pocket и перемещение объекта. PD WB Tutorial018.png\|link=[Basic\_Part\_Design\_Tutorial/ru](Basic_Part_Design_Tutorial/ru.md)\|[Базовый учебник Part Design](Basic_Part_Design_Tutorial/ru.md) (v0.17)
 Моделирование простой детали с использованием методологии редактирования свойств: создание эскиза, используя pad, внешних ссылок, pocket и зеркала. TBHS-model.png\|link=[Toothbrush Head Stand/ru](Toothbrush_Head_Stand/ru.md)\|[Модель стойки электрической зубной щётки](Toothbrush_Head_Stand/ru.md) (v0.16)
@@ -45,6 +48,9 @@ FreeCAD предлагает два варианта рабочего проце
 Создание железного уголка двумя методами: используя твердотельные примитивы и бинарных операций (CSG), и выдавливанием плоского профиля. <File:HTCaeroplane04.png%7Clink=>[Aeroplane/ru](Aeroplane/ru.md)\|[Учебник \"Аэроплан\"](Aeroplane/ru.md)
 Изучение расположения в FreeCAD созданием модели простого аэроплана. Изучение углов поворота, рыскания (Z), тангажа (Y) и крена (X). <File:T13_14_Threads_components.png%7Clink=>[Thread\_for\_Screw\_Tutorial/ru](Thread_for_Screw_Tutorial/ru.md)\|[Учебник резьбы винта](Thread_for_Screw_Tutorial/ru.md) (v0.19)
 Изучение создания резьбы несколькими способами, включая инструменты [Part Helix](Part_Helix/ru.md), [PartDesign AdditivePipe](PartDesign_AdditivePipe/ru.md), [Part Sweep](Part_Sweep/ru.md), [Part Fuse](Part_Fuse/ru.md), и [Part Cut](Part_Cut/ru.md).
+
+
+</div>
 
 Проект Raspberry Pi создал простые в работе учебники, в частности для новичков в системах САПР:
 

@@ -3,7 +3,9 @@ This category lists pages related to the [OpenSCAD\_Workbench/ja](OpenSCAD_Workb
 
 ### Contents:
 
-[OpenSCAD AddOpenSCADElement/ja](OpenSCAD_AddOpenSCADElement/ja.md)
+  -----------------------------------------------------------------------------
+  [OpenSCAD AddOpenSCADElement/ja](OpenSCAD_AddOpenSCADElement/ja.md)
+  -----------------------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/ja](<img src="images/Property.png" style="width:16px"> Workbenches/ja.md)
 

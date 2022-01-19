@@ -3,7 +3,9 @@ This category gathers all articles documenting what is planned in the Roadmap of
 
 ### Contents:
 
-[Assembly project/id](Assembly_project/id.md) , [Development roadmap/id](Development_roadmap/id.md)
+  ------------------------------------------------------- -------------------------------------------------------------
+  [Assembly project/id](Assembly_project/id.md)   [Development roadmap/id](Development_roadmap/id.md)
+  ------------------------------------------------------- -------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Categories/id](<img src="images/Property.png" style="width:16px"> Categories/id.md)
 

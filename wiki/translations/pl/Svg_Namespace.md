@@ -42,20 +42,18 @@ viewBox="0 0 xxx yyy"
 
 Dodatkowe informacje dotyczące przestrzeni roboczej i bloku tytułu mogą zostać dodane i są zdefiniowane na stronie [Szablony rysunków](Drawing_templates/pl.md).
 
-## Attributes
+## Atrybuty
 
-### [freecad:EditableText](#Example_of_code_freecad_EditableText.md)
+### [freecad:EditableText](#Przykład_kodu_freecad_EditableText.md)
 
-To use any of the **freecad:** attributes in your SVG documents, you must first define the freecad namespace as an attribute of the opening
+Aby użyć któregokolwiek z atrybutów **freecad:** w dokumentach SVG, musisz najpierw zdefiniować przestrzeń nazw freecad jako atrybut otwierany znacznikiem
 
 
 <svg>
 
-tag:
+Definiuje tekst w szablonie, który może być edytowany przez FreeCAD.
 
-Defines a text in a template that can be edited by FreeCAD.
-
-Example:
+Przykład:
 
  {.xml}
 <text freecad:EditableText="MyTitleText">
@@ -65,9 +63,9 @@ Example:
 
 ### freecad:basepoint1
 
-Defines the first point of a [Draft Dimension](Draft_Dimension.md) object (represented as a group in a SVG document). This attribute is used when importing the SVG fragment in FreeCAD, in order to recreate the dimension object. The group contains paths and other graphical items to correctly render the dimension object in other SVG applications.
+Określa pierwszy punkt obiektu [Wymiarowanie](Draft_Dimension/pl.md) *(reprezentowanego jako grupa w dokumencie SVG)*. Atrybut ten jest używany podczas importu fragmentu SVG w programie FreeCAD, w celu odtworzenia obiektu wymiarowego. Grupa zawiera ścieżki i inne elementy graficzne do poprawnego renderowania obiektu wymiarowego w innych aplikacjach SVG.
 
-Example:
+Przykład:
 
  {.xml}
 <g freecad:basepoint1="0.5 4.34" freecad:basepoint2="2.4 5.8" dimpoint="3.2 7.76">
@@ -77,21 +75,21 @@ Example:
 
 ### freecad:basepoint2
 
-Defines the second point of a [Draft Dimension](Draft_Dimension.md) object (represented as a group in a SVG document). This attribute is used when importing the SVG fragment in FreeCAD, in order to recreate the dimension object. The group contains paths and other graphical items to correctly render the dimension object in other SVG applications.
+Określa drugi punkt obiektu [Wymiarowanie](Draft_Dimension/pl.md) *(reprezentowanego jako grupa w dokumencie SVG)*. Atrybut ten jest używany podczas importu fragmentu SVG w programie FreeCAD, w celu odtworzenia obiektu wymiarowego. Grupa zawiera ścieżki i inne elementy graficzne do poprawnego renderowania obiektu wymiarowego w innych aplikacjach SVG.
 
-Example: see [freecad:basepoint1](#freecad_basepoint1.md)
+Przykład: zobacz [freecad:basepoint1](#freecad_basepoint1.md)
 
 ### freecad:dimpoint
 
-Defines the point of a [Draft Dimension](Draft_Dimension.md) object through which the dimension line passes. This attribute is used when importing the SVG fragment in FreeCAD, in order to recreate the dimension object. The group contains paths and other graphical items to correctly render the dimension object in other SVG applications.
+Określa punkt obiektu [Wymiarowanie](Draft_Dimension/pl.md), przez który przechodzi linia wymiarowa. Ten atrybut jest używany podczas importowania fragmentu SVG w programie FreeCAD, w celu odtworzenia obiektu wymiarowego. Grupa zawiera ścieżki i inne elementy graficzne do poprawnego renderowania obiektu wymiarowego w innych aplikacjach SVG.
 
-Example: see [freecad:basepoint1](#freecad_basepoint1.md)
+Przykład: zobacz [freecad:basepoint1](#freecad_basepoint1.md)
 
-### Example of code freecad:EditableText 
+### Przykład kodu freecad:EditableText 
 
-This example is taken from a cartridge to a sheet [A3\_Landscape](Misc_templates#A3_Landscape_US_Text_Complet_With_Convention_US.md)
+Ten przykład został przeniesiony z tabeli na arkusz [A3 Poziomy](Misc_templates/pl#A3_Poziomy_tekst_US.2C_kompletny_z_konwencj.C4.85_US.md)
 
-#### 1 : Title without textedit 
+#### 1 : Tytuł bez pola textedit 
 
 <img alt="" src=images/Svg_Namespace_01.png  style="width:300px;">
 
@@ -111,7 +109,7 @@ This example is taken from a cartridge to a sheet [A3\_Landscape](Misc_templates
          sodipodi:role="line">AUTHOR NAME :</tspan></text>
 
 
-#### 2 : Title with textedit 
+#### 2 : Tytuł z polem textedit 
 
 <img alt="" src=images/Svg_Namespace_02.png  style="width:300px;">
 
@@ -141,13 +139,13 @@ This example is taken from a cartridge to a sheet [A3\_Landscape](Misc_templates
   </g>
 
 
-#### Explanations
+#### Objaśnienia
 
  {.xml}
   <g
 
 
-Beginning of the framework
+Początek struktury
 
  {.xml}
      style="fill:none;stroke:#000000;stroke-width:0.13;stroke-linecap:butt;stroke-linejoin:miter"
@@ -155,20 +153,20 @@ Beginning of the framework
      transform="translate(0,4)">
 
 
-Data on the framework
+Dane struktury
 
  {.xml}
     <text
 
 
-Beginning of the text block
+Początek bloku tekstu
 
  {.xml}
        xml:space="preserve"
        style="font-size:4px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:sans;-inkscape-font-specification:sans"
 
 
-All the information about the text that will be displayed
+Wszystkie informacje o tekście, który będzie wyświetlany
 
  {.xml}
        x="220.9935"
@@ -177,13 +175,13 @@ All the information about the text that will be displayed
        sodipodi:linespacing="125%"
 
 
-Coordinates and identity where the text will appear
+Współrzędne i identyfikator gdzie pojawi się tekst
 
  {.xml}
        freecad:editable="AuthorName"><tspan
 
 
-Here **AuthorName** is the var managed by **freecad:editable** who saves the string to change that will be displayed
+Tutaj **AuthorName** jest zmienną zarządzaną przez **freecad:editable**, zapisującą ciąg znaków do zmiany, który zostanie wyświetlony
 
  {.xml}
          sodipodi:role="line"
@@ -192,7 +190,7 @@ Here **AuthorName** is the var managed by **freecad:editable** who saves the str
          y="228.95425">AUTHOR NAME</tspan></text>
 
 
-Coordinates and identity of the text that is displayed by default and **** means the end of the block text
+Współrzędne i identyfikator tekstu , który jest wyświetlany domyślnie, a **** oznacza koniec tekstu bloku
 
  {.xml}
     <text
@@ -203,20 +201,20 @@ Coordinates and identity of the text that is displayed by default and **** means
   </g>
 
 
-Other blocks texts and end **** the framework grouping text blocks
+Inne bloki tekstowe i koniec **** struktury grupowania bloków tekstowych
 
-It is possible after having worked the Inkscape SVG file as the file no longer works, it is possible that information has gone missing.
+Jest możliwe, że po pracy z plikiem SVG Inkscape\'a plik już nie działa, możliwe, że zaginęły informacje.
 
-Then check that the edit text is not modified
+Następnie sprawdź, czy tekst edycji nie jest zmodyfikowany
 
-Example :
+Przykład:
 
 -   **editable** = \"AuthorName\"
--   replace by **freecad:editable** = \"AuthorName\"
+-   zastąpiony przez **freecad:editable** = \"AuthorName\"
 
-## Other attributes availlables 
+## Inne dostępne atrybuty 
 
-See [Drawing templates](Drawing_templates.md)
+Zobacz [Szablony środowiska Kreślenie](Drawing_templates/pl.md)
 
 
 {{Drawing Tools navi

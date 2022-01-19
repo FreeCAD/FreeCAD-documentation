@@ -17,6 +17,9 @@ f.Mesh = m # メッシュオブジェクトを内部のプロパティに代
 d.recompute()
 
 
+<div class="mw-translate-fuzzy">
+
+
 {{APIFunction|addFacet|Facet|メッシュにファセットを追加します。| }}
 
 
@@ -231,6 +234,9 @@ d.recompute()
 
 
 {{APIProperty|Placement|Placement形式でのオブジェクトの現在の変換}}
+
+
+</div>
 
 
  

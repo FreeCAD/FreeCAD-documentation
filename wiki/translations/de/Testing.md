@@ -29,6 +29,13 @@ Führe nur einen Teil des angegebenen Komponententests aus, z.B.:
 freecad -t TestDraft
 ```
 
+If a test does not need the GUI, it can also be executed in console mode by setting the `-c` or `--console` option in addition. This usually results in much faster startup time as the GUI is not loaded. For example:
+
+
+```python
+freecad -c -t TestPartDesignApp
+```
+
 ## Testmenü
 
 Jedes oberste Verzeichnis in FreeCAD sollte eine Datei mit den Tests haben, die für diesen speziellen Arbeitsbereich oder dieses Modul ausgeführt werden können. Die Datei beginnt normalerweise mit dem Wort `Test`.

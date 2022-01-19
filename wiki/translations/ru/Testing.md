@@ -29,6 +29,13 @@ Run only some the specified unit test, for example:
 freecad -t TestDraft
 ```
 
+If a test does not need the GUI, it can also be executed in console mode by setting the `-c` or `--console` option in addition. This usually results in much faster startup time as the GUI is not loaded. For example:
+
+
+```python
+freecad -c -t TestPartDesignApp
+```
+
 ## Меню тестирования 
 
 Each top level directory in FreeCAD should have a file with the tests that can be run for that particular workbench or module. The file usually starts with the word `Test`.

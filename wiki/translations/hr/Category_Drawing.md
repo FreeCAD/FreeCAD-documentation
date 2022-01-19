@@ -3,7 +3,9 @@ This category lists pages related to the [Drawing Workbench/hr](Drawing_Workbenc
 
 ### Contents:
 
-[Drawing Workbench/hr](Drawing_Workbench/hr.md)
+  ---------------------------------------------------------
+  [Drawing Workbench/hr](Drawing_Workbench/hr.md)
+  ---------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Obsolete Workbenches/hr](<img src="images/Property.png" style="width:16px"> Obsolete_Workbenches/hr.md)
 

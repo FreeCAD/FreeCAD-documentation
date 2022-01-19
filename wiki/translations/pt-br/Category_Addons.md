@@ -3,7 +3,12 @@ This page lists external addon workbenches that have a page in this wiki. Addons
 
 ### Contents:
 
-[Addon/pt-br](Addon/pt-br.md) , [Cfd Workbench/pt-br](Cfd_Workbench/pt-br.md) , [External workbenches/pt-br](External_workbenches/pt-br.md) , [How to install additional workbenches/pt-br](How_to_install_additional_workbenches/pt-br.md) , [Plot Workbench/pt-br](Plot_Workbench/pt-br.md) , [Reinforcement Workbench/pt-br](Reinforcement_Workbench/pt-br.md) , [Ship Workbench/pt-br](Ship_Workbench/pt-br.md) , ,
+  ------------------------------------------------------------------------------------------------------- --------------------------------------------------------- ---------------------------------------------------------------------------
+  [Addon/pt-br](Addon/pt-br.md)                                                                   [Cfd Workbench/pt-br](Cfd_Workbench/pt-br.md)     [External workbenches/pt-br](External_workbenches/pt-br.md)
+  [How to install additional workbenches/pt-br](How_to_install_additional_workbenches/pt-br.md)   [Plot Workbench/pt-br](Plot_Workbench/pt-br.md)   [Reinforcement Workbench/pt-br](Reinforcement_Workbench/pt-br.md)
+  [Ship Workbench/pt-br](Ship_Workbench/pt-br.md)                                                                                                           
+                                                                                                                                                                    
+  ------------------------------------------------------------------------------------------------------- --------------------------------------------------------- ---------------------------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Categories](Category_Categories.md) [<img src="images/Property.png" style="width:16px"> External Workbenches/pt-br](<img src="images/Property.png" style="width:16px"> External_Workbenches/pt-br.md) [<img src="images/Property.png" style="width:16px"> Macros/pt-br](<img src="images/Property.png" style="width:16px"> Macros/pt-br.md)
 

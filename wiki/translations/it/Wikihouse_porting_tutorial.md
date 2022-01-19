@@ -1,4 +1,7 @@
 # Wikihouse porting tutorial/it
+<div class="mw-translate-fuzzy">
+
+
 {{TutorialInfo/it
 |Topic= Wikihouse porting tutorial
 |Level= Intermediate/Advanced
@@ -8,11 +11,26 @@
 |Files=
 }}
 
+
+</div>
+
 ## Introduzione
+
+
+<div class="mw-translate-fuzzy">
 
 Questo tutorial spiega come convertire in FreeCAD i file di [SketchUp](http://www.sketchup.com/) utilizzati dal progetto [WikiHouse](http://wikihouse.cc/), avvalendosi dello strumento [Pannello](Arch_Panel/it.md) di FreeCAD. Il risultato è una copia completa dell\'originale file SketchUp, tranne che è diventato completamente parametrico. Il livello di parametricità del file finale dipende dalla quantità di lavoro ad esso dedicato, come spiegato di seguito. È possibile fare le cose passo dopo passo, e ricostruire il file Wikihouse abbastanza rapidamente, e rimandare a dopo il più lungo lavoro di conversione in schizzi dei profili di base.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Questo tutorial richiede una conoscenza intermedia di FreeCAD, cioè, di sapersi destreggiare tra gli ambienti di lavoro e gli strumenti, di essere già in grado di modellare oggetti semplici, e, soprattutto, di essere a proprio agio con [Draft Sposta](Draft_Move/it.md) e [Draft Ruota](Draft_Rotate/it.md). Si utilizzeranno principalmente gli strumenti di Draft e Arch, ma la conoscenza di Sketcher diventerà necessaria per convertire gli schizzi in profili di base.
+
+
+</div>
 
 Dato che il progetto Wikihouse è per natura aperto, è facile trovare i file sul sito del progetto, ma anche in [SketchUp 3D Warehouse](https://3dwarehouse.sketchup.com/search.html?q=wikihouse&backendClass=both) o nel repositorio [repositorio github](https://github.com/wikihouseproject) del progetto. Il formato preferito utilizzato dal progetto è Sketchup, quindi la maggior parte dei file che si trovano sono in tale formato.
 
@@ -36,7 +54,13 @@ Questo non è il modo in cui si procederà in FreeCAD. Dato che una delle caratt
 
 </div>
 
+
+<div class="mw-translate-fuzzy">
+
 Per trasformare gli oggetti di SketchUp in schizzi di FreeCAD, che possano poi essere utilizzati per creare dei [Pannelli](Arch_Panel/it.md), bisogna estrarre una faccia piatta da ogni pezzo Wikihouse. Lo spessore sarà nuovamente aggiunto in seguito, in FreeCAD, direttamente nelle proprietà del pannello Arch. In questo modo, diventa anche esso parametrico. Per convertire ciascun componente Wikihouse in una unica faccia piatta, entrare in ogni componente facendo doppio clic su di esso, quindi selezionare ogni sotto-componente, e fare clic destro → esplodere, fino a quando tutti i sotto-componenti sono esplosi e il componente è composto solo da facce e spigoli:
+
+
+</div>
 
 ![](images/Arch_Wikihouse_08.jpg )
 
@@ -46,7 +70,13 @@ Fatto questo, selezionare tutto nel componente, e deselezionare, con Shift + dop
 
 Ripetere questa operazione per ogni componente. Dato che molti sono dei duplicati, questo non è un compito così enorme come sembra. Inoltre, se non si ha familiarità con il sistema Wikihouse, questo passaggio dà una buona comprensione di come funziona.
 
+
+<div class="mw-translate-fuzzy">
+
 Quando il pezzo di casa è completamente fatto di elementi piani, possiamo selezionare tutto ed esportare in un file .dae, e quindi importare questo file in FreeCAD. Assicurarsi di spuntare \"triangulate all\"
+
+
+</div>
 
 ## Risolvere il bug delle facce doppie 
 
@@ -80,13 +110,34 @@ Notare che potrebbe essere più facile procedere per parti e trattare + esportar
 
 ![](images/Arch_Wikihouse_09.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 Il passo successivo consiste nel creare dei wire da ciascuno degli oggetti mesh. C\'è una macro utile chiamata [Estrai wire da mesh](Macro_Extract_Wires_from_Mesh/it.md) che fa proprio questo. Installarla (Fare riferimento alla pagina delle [macro](Macros/it.md) per le istruzioni), poi uno ad uno convertire tutti i mesh in oggetti wire (si può fare tutto in una volta, ma questa macro richiede un po\' di tempo):
+
+
+</div>
 
 ![](images/Arch_Wikihouse_10.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 Ora potremmo già creare degli oggetti [Pannello](Arch_Panel/it.md) da ciascuno di questi oggetti filiformi, semplicemente selezionandoli e premendo il pulsante [Pannello](Arch_Panel/it.md). Però, la loro forma di base non sarebbe parametrica. Ora abbiamo a disposizione diverse opzioni: possiamo trasformare ogni componente in uno schizzo, utilizzando lo strumento [Draft2Sketch](Draft_Draft2Sketch/it.md), ma questi schizzi sarebbero piuttosto pesanti, e potrebbero non essere molto maneggevoli su una macchina lenta, oppure possiamo trasformare ogni singolo wire (il contorno e ogni foro) dello schizzo in uno schizzo separato. Ciò permette, ad esempio, di riutilizzare un foro tipico, cioè di crearlo una volta sola e poi duplicarlo con [Clona](Draft_Clone/it.md) per creare gli altri fori uguali. In questo modo, basta modificarne uno per modificarli tutti.
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 La macro Estrai wire da mesh talvolta non riesce a trovare dei wire chiusi all\'interno di un mesh, e non produce dei pannelli corretti. Una procedura facile per ricomporre i wire di un componente è questa:
+
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
 
 1.  Selezionare il componente, opzionalmente nascondere tutto il resto per avere una visione migliore
 2.  [Scomporlo](Draft_Downgrade/it.md). Esso viene esploso in una serie di singoli spigoli
@@ -96,9 +147,18 @@ La macro Estrai wire da mesh talvolta non riesce a trovare dei wire chiusi all\'
 6.  Selezionare **Part → crea Composto** per unire di nuovo tutti questi wire in un unico oggetto
 7.  Selezionare il composto e premere il pulsante [Pannello](Arch_Panel/it.md)
 
+
+</div>
+
 ![](images/Arch_Wikihouse_11.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 Qui sono possibili molte strategie, a seconda di come è necessario che il risultato sia modificabile e preciso. L\'oggetto [Pannello](Arch_Panel/it.md) ha bisogno di un oggetto di base fatto di wire. Non importa come viene realizzato questo oggetto, se è un singolo schizzo, o se è, come nell\'esempio precedente, un composto di diversi schizzi o se è un oggetto di Draft.
+
+
+</div>
 
 ## Conversione in Schizzi 
 
@@ -121,9 +181,21 @@ Dato che possiamo già creare dei pannelli da ciascun componente, si può fare q
 
 ![](images/Arch_Wikihouse_12.jpg )
 
+
+<div class="mw-translate-fuzzy">
+
 ## Ricostruire la Wikihouse ed esportare le sagome dei fogli 
 
+
+</div>
+
+
+<div class="mw-translate-fuzzy">
+
 Inoltre, fare attenzione a non duplicare nessuna parte. Invece, selezionare lo strumento [Clona](Draft_Clone/it.md) per duplicare le parti basate sullo stesso profilo, in modo che esse condividano uno stesso oggetto profilo. Dopo, dato che abbiamo il contorno nella posizione corretta utilizzabile come guida, è abbastanza facile ruotare e spostare il clone nella sua corretta posizione con [Sposta](Draft_Move/it.md) e [Ruota](Draft_Rotate/it.md).
+
+
+</div>
 
 In breve tempo, tutta la sezione della Microhouse è pronta.
 

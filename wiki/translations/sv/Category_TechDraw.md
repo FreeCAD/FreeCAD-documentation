@@ -3,7 +3,9 @@ This category lists pages related to the [TechDraw Workbench/sv](TechDraw_Workbe
 
 ### Contents:
 
-[TechDraw Workbench/sv](TechDraw_Workbench/sv.md)
+  -----------------------------------------------------------
+  [TechDraw Workbench/sv](TechDraw_Workbench/sv.md)
+  -----------------------------------------------------------
 
 [<img src="images/Property.png" style="width:16px"> Workbenches/sv](<img src="images/Property.png" style="width:16px"> Workbenches/sv.md)
 

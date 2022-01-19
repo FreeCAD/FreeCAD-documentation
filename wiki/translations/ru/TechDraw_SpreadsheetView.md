@@ -37,7 +37,13 @@ This tool allows you to place a view of a selected [spreadsheet](Spreadsheet_Wor
 -    **Line Width**: The width of the cell borders
 
 
+<div class="mw-translate-fuzzy">
 
+
+
+
+
+</div>
 
 
 {{TechDraw Tools navi
